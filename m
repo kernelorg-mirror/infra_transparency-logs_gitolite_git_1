@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1548375622274136811=="
+Content-Type: multipart/mixed; boundary="===============5632630423321927513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 17 Oct 2021 09:04:07 -0000
-Message-Id: <163446144789.26139.6625118722445731440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 17 Oct 2021 09:08:32 -0000
+Message-Id: <163446171205.28888.6412243534194482089@gitolite.kernel.org>
 
---===============1548375622274136811==
+--===============5632630423321927513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue-rc
-    old: 92bd9155f387c4fe0c636e8504fba63af938c9c8
-    new: de7a952c6c1bfea4615ab913e020445986a224b9
-    log: revlist-92bd9155f387-de7a952c6c1b.txt
+  - ref: refs/heads/master
+    old: a871918dd191d31d55af9d1f8020bf9f4f2cce75
+    new: 40734dab5b1e6c5b9fea3a1df38d0b1a104b5d1f
+    log: |
+         40734dab5b1e6c5b9fea3a1df38d0b1a104b5d1f 5.4-stable patches
+         
 
---===============1548375622274136811==
+--===============5632630423321927513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92bd9155f387-de7a952c6c1b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ff7e93219442f5ac5b2cfd33e4fe4b7d5942f957 ice: Fix failure to re-add LAN/RDMA Tx queues
-73e30a62b19b9fbb4e6a3465c59da186630d5f2e ice: Avoid crash from unnecessary IDA free
-e4c2efa1393c6f1fbfabf91d1d83fcb4ae691ccb ice: fix getting UDP tunnel entry
-b726ddf984a56a385c9df406a66c221f3a77c951 ice: Print the api_patch as part of the fw.mgmt.api
-0857d6f8c759d95f89d0436f86cdfd189ef99f20 ipv6: When forwarding count rx stats on the orig netdev
-2151135a1f613c16c134c3674382a1f202868486 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-ba95a6225b02c24d99f39fd930b6a388e5fd7b48 vsock_diag_test: remove free_sock_stat() call in test_no_sockets
-fac3cb82a54a4b7c49c932f96ef196cf5774344c net: bridge: mcast: use multicast_membership_interval for IGMPv3
-fac1c30118dbcc53e059b9e7b6da6ee06a47405f net/mlx5e: Add activate/deactivate stage to XDPSQ
-1ee651bed360f28046ca753751030f785af491fe net/mlx5e: Call synchronize_net outside of deactivating a queue
-d5502f8fdea2077cd92f81f34c5e0bf1a1aefda3 !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
-9f8b3c3f34d3c7c53707ed6920004488189e762f net/mlx5e: Do synchronize_net only once when deactivating channels
-ddca40831382ab7a347d364bcf4d5f0f320b4009 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
-2ba4bf4128799d206d27ae900fe9f7b2a7a22e74 Merge branch 'patchq/433941' into mlx5-for-net
-5249f26262e39a50044cb1a4380651b8e1d85f89 Merge branch 'mlx5-for-net' into net-rc
-979390fd8520dca302eab949bc1a618018f53042 Merge branch 'net-rc' into queue-rc
-de7a952c6c1bfea4615ab913e020445986a224b9 Merge branch 'testing/rdma-rc' into queue-rc
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634461711 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1634461710-0b5e711c2a3e7d3c98ab56444d9fb0a7b389d69f
 
---===============1548375622274136811==--
+a871918dd191d31d55af9d1f8020bf9f4f2cce75 40734dab5b1e6c5b9fea3a1df38d0b1a104b5d1f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFr6A8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yVcP/3CqBS/Mqj6EYIHzzYQ6
+rETYsMlRXx+Da+CLsY0S9SsiYHT8TXchcQ521WFgC/b7AHefDgsHcfKokfId+UTr
+nI/kDt5uuaDo7nVIpVpy1ddXEpCvo9TiD19sWCfk4rpuge5Y6VqKp2I1jmC1wkAx
+/2rrtpCq7oDqbu3itHTk9edIrBqBghzkdx/dkPakRhpUJ6kdkz5/ea3oxBagQpRu
+fAtCLq4xxv/+cNd6UYWOSyEXuD9IKDf8Bb1wAJNy3NtxkSH5/PSyf9D59pFV6BNJ
+iph1dqACPQVWFsWV/FD0w/gOFK4Ire0nhwhH0uGsE6lKv0tBbFOuHq9WlK8gcLeN
+/84uW0XoYRk+ZZP6g1eCk1XG0af9D3U0gF003XAJL/wGIbSpGy/6rK3K19Ujqw/l
+U6UOIAr73We9SQJZJakueTSKKfCL7ws1N3YITVy2QjtGhz1ioK9YL6KcicKYfnVk
+5odtdbxUw+AbgP7qLZLVCHFzf8goqtCNq1dwnL4D+E/3jTBAPyFWnCfDtzo0whxB
+ihA0mH8thTk/W9XytxeA5JOdU0hopRAHEIynlKmynrRbDEaB7ELu2r/xYcsroulU
+1rW/GUp6+ABCbp9V/uXIgx/PeJb73mjXtOROzN34fKHLAy1c5zsgBK8VIBdQW+5p
+EFdXUQQnBMijVREMSh1B7NLV
+=uCoI
+-----END PGP SIGNATURE-----
+
+--===============5632630423321927513==--
