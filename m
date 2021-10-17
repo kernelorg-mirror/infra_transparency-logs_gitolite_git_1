@@ -1,50 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1684254153760618147=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sun, 17 Oct 2021 11:36:00 -0000
-Message-Id: <163447056024.19397.10263998435961251521@gitolite.kernel.org>
-
---===============1684254153760618147==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Sun, 17 Oct 2021 11:36:20 -0000
+Message-Id: <163447058007.19592.3948375540752901811@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.16
-    old: 636bdb5f84ca0a8a79e5ad6c368277a73fb04a42
-    new: 72bf80cf09c4693780ad93a31b48fa5a4e17a946
+  - ref: refs/heads/for-linus
+    old: c6e5d8470c5b3646ca87b335a9605c78907ae175
+    new: 7aec49b9c33e06842540b9dfe9a4a5eb6e6f1513
     log: |
-         72bf80cf09c4693780ad93a31b48fa5a4e17a946 regulator: lp872x: replacing legacy gpio interface for gpiod
+         7aec49b9c33e06842540b9dfe9a4a5eb6e6f1513 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-
---===============1684254153760618147==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1634470558 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1634470558-8976bc0a105452d8e1df0d167ea6e2787cda73c0
-
-636bdb5f84ca0a8a79e5ad6c368277a73fb04a42 72bf80cf09c4693780ad93a31b48fa5a4e17a946 refs/heads/regulator-5.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFsCp4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Iz+B/4za9YzoCvgC8V+HGU7kXt3yy+5C0K7
-/5N2vhYZ366541fE3BmzMmKmCuxKN+lHxJEKrtV5RWEDLEuKftMXxHilvSEvTYsL
-KVcnWxw+r7k5WyOezk9MDNG8ezc89JRGCyHlJVfIfu4mgI57ATmTAEllhGcDuW8x
-Drfp3MbjdnIAp8T/cXF8q+LUvF2bJ015iWlB/RQ3xa//JXSmwMqnI9nCoCtvgrjo
-gw1fogGSATWKDhjPfvghM13tmyDyozoOU+If8fv1VeVs98rcGj0301Nd7VAv348e
-pYhs+dHdIy099aJQMm7oWnV48ssWLPil5vKji44zkH1Ui2nW8BM2TBe8
-=gTAo
------END PGP SIGNATURE-----
-
---===============1684254153760618147==--
+  - ref: refs/heads/for-next
+    old: eb587229bc6b248b140db6c6da49d2784bd66581
+    new: 48772ddbb3366c79fab2bd480d81462b2b356306
+    log: |
+         d6365d0f0a03c1feb28d86dfd192972ddc647013 ASoC: rockchip: i2s-tdm: Strip out direct CRU use
+         4e52cb9e2c22c9d860910794c82461064baadd9f ASoC: dt-bindings: rockchip: i2s-tdm: Drop rockchip,cru property
+         7aec49b9c33e06842540b9dfe9a4a5eb6e6f1513 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         48772ddbb3366c79fab2bd480d81462b2b356306 Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+         
