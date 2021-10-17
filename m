@@ -1,124 +1,142 @@
-Content-Type: multipart/mixed; boundary="===============3300405369960625603=="
+Content-Type: multipart/mixed; boundary="===============2698176943669280419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 17 Oct 2021 08:09:57 -0000
-Message-Id: <163445819798.12545.14305353701674350627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 17 Oct 2021 08:11:22 -0000
+Message-Id: <163445828221.5406.845641507693489754@gitolite.kernel.org>
 
---===============3300405369960625603==
+--===============2698176943669280419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue-next
-    old: 71106f252315f99761ab3c577d5b8991b35cece0
-    new: 8f2b03774cd5be77df7dc10d678974dc31555caa
-    log: revlist-71106f252315-8f2b03774cd5.txt
+  - ref: refs/heads/queue/4.19
+    old: 37af94a34b6101d2922ce9fbf969a985b67dc666
+    new: be3ea11818852b47247e9b7184433c1c0ea0af29
+    log: revlist-37af94a34b61-be3ea1181885.txt
+  - ref: refs/heads/queue/5.10
+    old: 4cf804b0e06460db723a03cc05b84e99003f3368
+    new: 396544631121ef7a9da149e8ab24455474e7c4f5
+    log: revlist-4cf804b0e064-396544631121.txt
+  - ref: refs/heads/queue/5.14
+    old: 078cd57dd0973fc6c1eddcda406b7533aa48fe3a
+    new: 31d4751703d9bde9f8bd1451f83331ee1d4f2f08
+    log: revlist-078cd57dd097-31d4751703d9.txt
+  - ref: refs/heads/queue/5.4
+    old: fe2016bf708c82962903d27024dce55d784ca166
+    new: 22a809abb2d42475eac423fe1359f21662171374
+    log: revlist-fe2016bf708c-22a809abb2d4.txt
 
---===============3300405369960625603==
+--===============2698176943669280419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71106f252315-8f2b03774cd5.txt
+Content-Disposition: attachment; filename=revlist-37af94a34b61-be3ea1181885.txt
 
-e93d1c37a85b7276506c99ec964a4094d9c1bcf6 ice: remove ring_active from ice_ring
-dc23715cf30a9acb808f5b08962877c390d3e6ea ice: move ice_container_type onto ice_ring_container
-e72bba21355dbb67512a0d666fec9f4b56dbfc2f ice: split ice_ring onto Tx/Rx separate structs
-0bb4f9ecadd463db28d8b1820bb1bcb96af009d2 ice: unify xdp_rings accesses
-a55e16fa330acc15f35ee6a6c2aaaea4343c6c76 ice: do not create xdp_frame on XDP_TX
-eb087cd828648d5322954c86c3e18b2fc98b5700 ice: propagate xdp_ring onto rx_ring
-9610bd988df9882ccbd7a617e71fe303cddad591 ice: optimize XDP_TX workloads
-22bf877e528f683bffc2fc932d148e840f7cc27d ice: introduce XDP_TX fallback path
-2faf63b650bb2f6f4549227406631f6004b14101 ice: make use of ice_for_each_* macros
-4b2c5fa9c9902ce34ecea6711558d9af96351b31 net/mlx5: Add layout to support default timeouts register
-5945e1adeab527ec96c75a786213c146d4d482a4 net/mlx5: Read timeout values from init segment
-32def4120e4876b5367ad58eb3a641bf6915979b net/mlx5: Read timeout values from DTOR
-17ac528d886841a0b183f4d4a0205176eccfd158 net/mlx5: Bridge, provide flow source hints
-9fbe1c25ecca87f1c390d1bfd347df92749941c5 net/mlx5i: Enable Rx steering for IPoIB via ethtool
-fbfa97b4d79f26042f188b84959065213e9d3e99 net/mlx5: Disable roce at HCA level
-88594d83314ad06314c9743b1ec49d0a95a5d4c7 net/mlx5: CT: Fix missing cleanup of ct nat table on init failure
-0885ae1a9d34d946e12c1cf9834463ee3541a63a net/mlx5e: Add extack msgs related to TC for better debug
-0e6f3ef469bbf69ea6840aa4d15dcfc8ce978760 net/mlx5: DR, Prefer kcalloc over open coded arithmetic
-7b1b6d35f045d677f34f8085ac02827fe4080d7e net/mlx5: Check return status first when querying system_image_guid
-2ec16ddde1fa31a83aee04320b248e94348d9152 net/mlx5: Introduce new device index wrapper
-1021d0645d593ea86193c5fc371e33e5b208e14d net/mlx5: Use native_port_num as 1st option of device index
-8a543184d79c83d0887c25cf202a43559ba39583 net/mlx5: Use system_image_guid to determine bonding
-29211e7db28ab12a4a5aaab4bcc080a3ac67ec78 mptcp: Avoid NULL dereference in mptcp_getsockopt_subflow_addrs()
-72bcbc46a5c385961b9c167db79ad1f38f04e6a7 mptcp: increase default max additional subflows to 2
-3828c514726fce7d97063155c4749eafefd9fbd2 mptcp: Make mptcp_pm_nl_mp_prio_send_ack() static
-dcebeb8bfedcdf9d5964df1d7db3d3c55a321257 Merge branch 'mptcp-fixes'
-803a4344c7907e929dc155b6c958c972c0f20c21 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-93eb2b77212e93f8d1681f9abe438028e652fd00 Merge tag 'mlx5-updates-2021-10-15' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-1c5b5b3f0eab5eb8d954816dbb3124d2411fd800 net: macvtap: fix template string argument of device_create() call
-a07a296bba9ded457b853a3f11f3a23b1e5978d1 net: ipvtap: fix template string argument of device_create() call
-8ec53ed9af1f7baa8f359bfd0286c59dbc7bdb41 ethernet: adaptec: use eth_hw_addr_set()
-0d4c7517159fad5f507df7559dee1e4738c67d58 ethernet: aeroflex: use eth_hw_addr_set()
-ffaeca68fb5fd5cbf935bf297f78a523506246ab ethernet: alteon: use eth_hw_addr_set()
-f98c50509a20114d443551926357b1cb08424ec5 ethernet: amd: use eth_hw_addr_set()
-698c33d8b48999bdec6671d664dbd926bb27e474 ethernet: aquantia: use eth_hw_addr_set()
-a85c8f9ad2f650583a8b04f0d9c5dedf64e8d0f0 ethernet: bnx2x: use eth_hw_addr_set()
-0c9e0c7931c610b9c2edce0a7a60b8de97e31885 ethernet: bcmgenet: use eth_hw_addr_set()
-41edfff572d9ed0a9b8f8d136f2cfa213244746e ethernet: enic: use eth_hw_addr_set()
-10e6ded812357ad5ae754bd994521beca091c0b4 ethernet: ec_bhf: use eth_hw_addr_set()
-d9ca87233b688c2b6341fa5ee412711c2986d1da ethernet: enetc: use eth_hw_addr_set()
-5c8b348534acf7024587cfd55d747833d964b152 ethernet: ibmveth: use ether_addr_to_u64()
-ec356edef78c46cbe6467649f26ff75e2ace953f ethernet: ixgb: use eth_hw_addr_set()
-4b0dd004e357c1dd579638c50a79ce2739c94320 Merge branch 'dev_addr-conversions-part-1'
-24bcbe1cc69fa52dc4f7b5b2456678ed464724d8 net: stream: don't purge sk_error_queue in sk_stream_kill_queues()
-ed990df29f5b4ae720a9044958aaf589073eb26d net/smc: save stack space and allocate smc_init_info
-42042dbbc2ebb926e594b22490374d9343c746ef net/smc: prepare for SMC-Rv2 connection
-e5c4744cfb598f98672f8d21d59ef2c1fa9c9b5f net/smc: add SMC-Rv2 connection establishment
-e49300a6bf6218c835403545e9356141a6340181 net/smc: add listen processing for SMC-Rv2
-8ade200c269f8530efde05b616801ed0612d7d72 net/smc: add v2 format of CLC decline message
-24fb68111d4509524b483b2577f1b20a24f5fdfd net/smc: retrieve v2 gid from IB device
-8799e310fb3f15759824a78b6b93d7e6d5def067 net/smc: add v2 support to the work request layer
-b4ba4652b3f8b7c9bbb5786f8acf4724bdab2196 net/smc: extend LLC layer for SMC-Rv2
-b0539f5eddc2eefd24378bda3ee9cbbca916f58d net/smc: add netlink support for SMC-Rv2
-29397e34c76b57ce596493008176cf374f1cb867 net/smc: stop links when their GID is removed
-4e6e167bc04908c34d11f60cfbf3715eca184536 Merge branch 'smc-rv23'
-fac1c30118dbcc53e059b9e7b6da6ee06a47405f net/mlx5e: Add activate/deactivate stage to XDPSQ
-1ee651bed360f28046ca753751030f785af491fe net/mlx5e: Call synchronize_net outside of deactivating a queue
-d5502f8fdea2077cd92f81f34c5e0bf1a1aefda3 !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
-9f8b3c3f34d3c7c53707ed6920004488189e762f net/mlx5e: Do synchronize_net only once when deactivating channels
-ddca40831382ab7a347d364bcf4d5f0f320b4009 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
-2ba4bf4128799d206d27ae900fe9f7b2a7a22e74 Merge branch 'patchq/433941' into mlx5-for-net
-8b5a7dcd8671965cff0e3b5d27c524ed17bd5368 bpf: Use ipv6_only_sock in bpf_tcp_gen_syncookie
-01a9fc3ad548b94015a599019328caad485823ae bpf: Support dual-stack sockets in bpf_tcp_check_syncookie
-fdcf57b3d9304790e953f7287257bd70370db248 bpf: Use EOPNOTSUPP in bpf_tcp_check_syncookie
-74df8e634d77f43f8185c35232080684fcc2552d bpf: Make errors of bpf_tcp_check_syncookie distinguishable
-9c3eb63a536cb359ca408517dc2d9a75464bacba bpf: Fix documentation of th_len in bpf_tcp_{gen,check}_syncookie
-66d7b124a88b85fab8335567dd9c69450a9648dc bpf: Expose struct nf_conn to BPF
-b232d33c4e1ef67773d6447ff0fa8688a638a102 bpf: Add helpers to query conntrack info
-091bd2974a3376a6145128540797a0b70f7a97b2 bpf: Add helpers to issue and check SYN cookies in XDP
-1a0dafe601fbde2b5de8bfd64bfbdd0cd173d229 bpf: Add a helper to issue timestamp cookies in XDP
-280f4e668180ee8d1ab4ddc4f06fa423954d1647 bpf: Add sample for raw syncookie helpers
-37d57c01778da85dccee5478a3702a46ea7711f5 net/mlx5: DR, Fix querying vport 0 capabilities
-3fadd10c791f57ddba24218af5ff81bb9ca7a026 net/mlx5: Support partial TTC rules
-ee7dfaef5315e911b3e57f40f954a5705c800040 net/mlx5: Introduce port selection namespace
-1cd3f37577a815381cd3f7e34a75b5c8e4788b43 net/mlx5: Add support to create match definer
-a4bcb6a9e76731ccfd217971ad710cb21a66b575 net/mlx5: Introduce new uplink destination type
-655061f78e0edf14395c8caf88699d9f14dbbdb1 net/mlx5: Lag, move lag files into directory
-52b615ceb04dccdaea7bbfe9c8331d27f1db2c3a net/mlx5: Lag, set LAG traffic type mapping
-a2417573e3620b524e57a2cb1f73b2886fac7f4d net/mlx5: Lag, set match mask according to the traffic type bitmap
-76a817ee988bdde4060f8798595e4479d19f03e0 net/mlx5: Lag, add support to create definers for LAG
-5ca76d5b04ed37d66c50e93e68221b1cea66d050 net/mlx5: Lag, add support to create TTC tables for LAG port selection
-83173abd61d8d88c82e567604d97c21e8ec2def4 net/mlx5: Lag, add support to create/destroy/modify port selection
-14a23c986f525b2348d70f6bc52abd23e21d0b34 net/mlx5: Lag, use steering to select the affinity port in LAG
-251469346399544e4880801711db3de894d0a4a3 net/mlx5: E-Switch, Use dynamic alloc for dest array
-625ac03e11a8bdcf052b0b6cc9736983d47e0b85 Merge branch 'patchq/435320' into mlx5-queue
-e676b8d62d72a158e62df170c0190ac5327106ce net/mlx5: E-Switch, Increase supported number of forward destinations to 32
-49b89dcc80746b15462aac0c32f1441576268b36 Merge branch 'patchq/414851' into mlx5-queue
-46fb2d6328c851496c3bcc5e50a1e58786c83acb Merge branch 'patchq/428803' into mlx5-queue
-8ffd2a1a21a4e677e9a49549aa04321e5cbe34d2 Merge branch 'mlx5-vdpa' into net-next
-34a9d17720044b091787096971beeecef7732cdd Merge branch 'mlx5-queue' into net-next
-77ff00e33afb5f3b602e376ca624c082ffd312e8 Merge branch 'mlx4-for-net' into net-next
-ccfdfac4162f21b9b3550a1572f0570083614400 Merge branch 'mlx5-for-net' into net-next
-c7d001f42adb40c5f23daa347b8eee7105584fbb Merge branch 'net-next' into queue-next
-8f2b03774cd5be77df7dc10d678974dc31555caa Merge branch 'testing/rdma-next' into queue-next
+d8268429ea5ebffee403f2c8a3e71a8da5f378c9 net: phy: bcm7xxx: Fixed indirect MMD operations
+f566116ba9282b9dbbf8f656a86eb3519488f6c1 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+3bb2a0e8a081c27ae0cb6ff4339333ae43802616 netfilter: ip6_tables: zero-initialize fragment offset
+d575f0899d82cc5d5898a8a09158dd49f6ce786c mac80211: Drop frames from invalid MAC address in ad-hoc mode
+2f91c180694820712ef036865eccd26e43f9a8c0 m68k: Handle arrivals of multiple signals correctly
+d5109c17abba640eb76bb1f86141b92f06b10d3d net: prevent user from passing illegal stab size
+89566fb72c1fd7b4d2df6af0d5267a2607ac80c4 mac80211: check return value of rhashtable_init
+52b3b3fdd67523f749d08c9c56a7abff523cd7b9 net: sun: SUNVNET_COMMON should depend on INET
+9eee007d87b779b368297a6d4aaa947cd7c13d07 scsi: ses: Fix unsigned comparison with less than zero
+ad7ca4b5cebcb244cfeabb47c9983bf57d78ce51 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+68c0ee8586781b468af0dc149f9ac2b82e6c0e08 perf/x86: Reset destroy callback on event init failure
+be3ea11818852b47247e9b7184433c1c0ea0af29 sched: Always inline is_percpu_thread()
 
---===============3300405369960625603==--
+--===============2698176943669280419==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4cf804b0e064-396544631121.txt
+
+80b2052883adaee556942469bac8dc7b93fd7c2f ext4: check and update i_disksize properly
+a531229f1ee458da83c71902456072a816e0f783 ext4: correct the error path of ext4_write_inline_data_end()
+d4ffe08dfcddca9cef782ff3c8429c915efb5dab ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+10978ab0c6db1bf4aa78e11292f816dc67c99b47 HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+b008327715b69332b8237d46bdaf8dcdc7d14aa9 netfilter: ip6_tables: zero-initialize fragment offset
+343f2e5c0b1fa9f457714cbdbfa42c5d97b0dcaa HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+8b21abaaeb359620721b867ab5ba9a8c31fbb045 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+949019cc0d708f7a92e0266e0481d76001454495 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+577c5c7e54449d5b38d91fe2335710f25ad14907 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+8ff3adb085af0a5c0e37c0f874f26f934883218f mac80211: Drop frames from invalid MAC address in ad-hoc mode
+bdfa8c73874d19504731200adf316a3d326a5ca4 m68k: Handle arrivals of multiple signals correctly
+4413cba7dcbcf606bb473efe0daa91d24527b362 hwmon: (ltc2947) Properly handle errors when looking for the external clock
+9ef2a917a31150743a815e395ca3ca7ff72c46cf net: prevent user from passing illegal stab size
+0346ea7176fcaad456e0bb3733785ebe70d47a5b mac80211: check return value of rhashtable_init
+0e2a93e2d50f82accf7d7e3dff5d4214438517ac vboxfs: fix broken legacy mount signature checking
+eab7a2039fe49fc0b14d57d94faa872187e02a7f net: sun: SUNVNET_COMMON should depend on INET
+0a7f2764679b35fceda64dce0b4ed230b1c805e1 drm/amdgpu: fix gart.bo pin_count leak
+0210450b320001c0cc0cfa9928134f5ddc48322c scsi: ses: Fix unsigned comparison with less than zero
+9759ab253a4006eb0990ec552c6c020508aebde2 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+993a5f748f20b1bb6731e529b2cdf0054a048465 perf/core: fix userpage->time_enabled of inactive events
+74ac5c28b633e307e1f922ecca8475e3b879e9d9 sched: Always inline is_percpu_thread()
+396544631121ef7a9da149e8ab24455474e7c4f5 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+
+--===============2698176943669280419==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-078cd57dd097-31d4751703d9.txt
+
+73f9a2c28bfa52ba3dd2809e5ffbf127112f03d3 ext4: check and update i_disksize properly
+e739279e38da6f4d1ecc963b1bebbeb7c5ef38da ext4: correct the error path of ext4_write_inline_data_end()
+7df73c74167001297139d23d0bfb86e537e17384 ASoC: Intel: sof_sdw: tag SoundWire BEs as non-atomic
+77c98fbac046b3f95c09dfa53fb9224ab16b4606 ALSA: oxfw: fix transmission method for Loud models based on OXFW971
+09353fc41a5782373d08958be671df11b2277c1f ALSA: usb-audio: Unify mixer resume and reset_resume procedure
+de9a6b5bf8bc674ae85ce24f5417ab8e36b46b0d HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+a2c801d32557e2496d5a85ccd545326874df0b7a netfilter: ip6_tables: zero-initialize fragment offset
+88b989673345371c981e7f23ef9e7e42875b8cd1 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+ca649d8b86c4866400404e6889a79b11c4d13f40 ASoC: SOF: loader: release_firmware() on load failure to avoid batching
+c616854f42615a3aa38f089878183e651ff992d0 KVM: arm64: nvhe: Fix missing FORCE for hyp-reloc.S build rule
+f584cbaa6c691a69acd18b3e18cc22ce448d9ea7 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+e221a992d9d54057350adb3255a9b88b25273544 netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+339c789a9dffeaa974bc4e970b01eb4a28addc74 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+1b1df2f2d93f9a0deebc62ec3d91ed89f6aaefc6 pinctrl: qcom: sc7280: Add PM suspend callbacks
+1243bf7faab0c01d144a78acb3006705a2c9d71d m68k: Handle arrivals of multiple signals correctly
+b3a6e6fa35d5b4edf33b0dcd19e84bf087b6c5a7 hwmon: (ltc2947) Properly handle errors when looking for the external clock
+27171bb740e9a627ac12159da474da0f7aa3a928 net: prevent user from passing illegal stab size
+5301dd5b13c94345b6663365d3d5ddb2d4ce3b6c mac80211: check return value of rhashtable_init
+393e87205891de733914ac23dde349b95d264fcd net: bgmac-platform: handle mac-address deferral
+97b21e9a82ab884dafd041ddfb0c1ba25cdfc5d0 vboxfs: fix broken legacy mount signature checking
+aa26f9c7e488995eea415a5bcb3acae245a81056 net: sun: SUNVNET_COMMON should depend on INET
+9cd4bef6405e9b9d2960edb68f5c136901519aea drm/amdgpu: fix gart.bo pin_count leak
+ae90ef4da267baa39df3f6822ba4654fe676fd61 scsi: ses: Fix unsigned comparison with less than zero
+bd4313ea3240f5b8b4ba7788d128bbcb6dfeb27d scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+f55040934618edb1c9ba8b7bd89efe63107f7d74 scsi: qla2xxx: Fix excessive messages during device logout
+b0ad416530ac065b59b503afc6a17b61eb01ded8 perf/core: fix userpage->time_enabled of inactive events
+56e5de5147d2d1fab1ffa9245f74e722dd997a62 sched: Always inline is_percpu_thread()
+9214952609840a077866bdc82be9094f03515cbc io_uring: kill fasync
+31d4751703d9bde9f8bd1451f83331ee1d4f2f08 hwmon: (pmbus/ibm-cffps) max_power_out swap changes
+
+--===============2698176943669280419==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-fe2016bf708c-22a809abb2d4.txt
+
+9043867c5c78208d0052fe6565afd3bbcfd833ea net: phy: bcm7xxx: Fixed indirect MMD operations
+3c00c95126863cae17a4a702b6461c7886a6c37e ext4: correct the error path of ext4_write_inline_data_end()
+13cbe696725bc960b35179d92e663429a9bd9eee HID: apple: Fix logical maximum and usage maximum of Magic Keyboard JIS
+3f09e93b713b7898ea240ac94d0b971b59e75efa netfilter: ip6_tables: zero-initialize fragment offset
+0af418515d1759044f317651758b3f71ce3e01b3 HID: wacom: Add new Intuos BT (CTL-4100WL/CTL-6100WL) device IDs
+c6a82bbf8112e44b69e4c53d9341ce6a4618f9d4 netfilter: nf_nat_masquerade: make async masq_inet6_event handling generic
+9d775a434a2191aff010d63a74bda28403b47f0c netfilter: nf_nat_masquerade: defer conntrack walk to work queue
+810f5f6296075c64bcd6f592f8a99ca0aecf0030 mac80211: Drop frames from invalid MAC address in ad-hoc mode
+4b276033376aeb86f0a27a0e639bb85bf6d0c1a3 m68k: Handle arrivals of multiple signals correctly
+31d61150734c02d4651161edf85b22987167750a net: prevent user from passing illegal stab size
+88a0e32616b83988f927e32e5314eb136c202565 mac80211: check return value of rhashtable_init
+58baed35cc6dd06d252b34b28f26a3864b39f7a4 net: sun: SUNVNET_COMMON should depend on INET
+13931449c13e63dbeb7143037f3e4c88d980cc96 drm/amdgpu: fix gart.bo pin_count leak
+9c29dd42bd3f8c6566319fc6e3921d594b899fa9 scsi: ses: Fix unsigned comparison with less than zero
+8ecd531ef52d54c448166875c8f6906d4ceef326 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+22a809abb2d42475eac423fe1359f21662171374 sched: Always inline is_percpu_thread()
+
+--===============2698176943669280419==--
