@@ -1,28 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 17 Oct 2021 08:53:46 -0000
-Message-Id: <163446082670.12969.14024439791675599622@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4475447234671896489=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 17 Oct 2021 09:03:54 -0000
+Message-Id: <163446143418.26039.2089311960704710975@gitolite.kernel.org>
+
+--===============4475447234671896489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/arm-irq-stacks-v3
-    old: c359d0e1e6b4d1513b6c8a3c05b7366384d4ca7a
-    new: 6e48c5e1e5304c756c6cc7f5198b08dab422baf3
-    log: |
-         e761f13144b213a19b8e2d326c6edb417e8f4d1c ARM: remove some dead code
-         933b693d12721a30522758f9c3abe6606c15683e ARM: assembler: introduce bl_r and bl_m macros
-         35c989c5e2cee3fa8fc035a8d2ae38c22039d811 ARM: optimize indirect call to handle_arch_irq for v7 cores
-         ac1cf9793be0915e1d415a2e598ca0beb83c146d ARM: unwind: support unwinding across multiple stacks
-         dcc968a01d1e7db1f83419400f67fec081fdb36e ARM: export dump_mem() to other objects
-         82facc242fb0b50483a84e349d6d99fedc846e5f ARM: unwind: dump exception stack from calling frame
-         e738b16245cab218618191f170d91e641ad193b7 ARM: backtrace-clang: avoid crash on bogus frame pointer
-         771077b362c988039d28ad42e198d72761f13ab8 ARM: implement IRQ stacks
-         1beba84bf8af22e8b3c4e69ab08c5c007362e1bf ARM: call_with_stack: add unwind support
-         6e48c5e1e5304c756c6cc7f5198b08dab422baf3 ARM: run softirqs on the per-CPU IRQ stack
-         
+  - ref: refs/heads/net-rc
+    old: 1ac43c6356a65b95ccc62304cdb99407eed3b5f6
+    new: 5249f26262e39a50044cb1a4380651b8e1d85f89
+    log: revlist-1ac43c6356a6-5249f26262e3.txt
+
+--===============4475447234671896489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1ac43c6356a6-5249f26262e3.txt
+
+ff7e93219442f5ac5b2cfd33e4fe4b7d5942f957 ice: Fix failure to re-add LAN/RDMA Tx queues
+73e30a62b19b9fbb4e6a3465c59da186630d5f2e ice: Avoid crash from unnecessary IDA free
+e4c2efa1393c6f1fbfabf91d1d83fcb4ae691ccb ice: fix getting UDP tunnel entry
+b726ddf984a56a385c9df406a66c221f3a77c951 ice: Print the api_patch as part of the fw.mgmt.api
+0857d6f8c759d95f89d0436f86cdfd189ef99f20 ipv6: When forwarding count rx stats on the orig netdev
+2151135a1f613c16c134c3674382a1f202868486 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+ba95a6225b02c24d99f39fd930b6a388e5fd7b48 vsock_diag_test: remove free_sock_stat() call in test_no_sockets
+fac3cb82a54a4b7c49c932f96ef196cf5774344c net: bridge: mcast: use multicast_membership_interval for IGMPv3
+fac1c30118dbcc53e059b9e7b6da6ee06a47405f net/mlx5e: Add activate/deactivate stage to XDPSQ
+1ee651bed360f28046ca753751030f785af491fe net/mlx5e: Call synchronize_net outside of deactivating a queue
+d5502f8fdea2077cd92f81f34c5e0bf1a1aefda3 !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
+9f8b3c3f34d3c7c53707ed6920004488189e762f net/mlx5e: Do synchronize_net only once when deactivating channels
+ddca40831382ab7a347d364bcf4d5f0f320b4009 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
+2ba4bf4128799d206d27ae900fe9f7b2a7a22e74 Merge branch 'patchq/433941' into mlx5-for-net
+5249f26262e39a50044cb1a4380651b8e1d85f89 Merge branch 'mlx5-for-net' into net-rc
+
+--===============4475447234671896489==--
