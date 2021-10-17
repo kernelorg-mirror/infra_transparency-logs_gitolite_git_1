@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4471778317384080368=="
+Content-Type: multipart/mixed; boundary="===============6796248694788753226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 17 Oct 2021 03:22:31 -0000
-Message-Id: <163444095136.5425.513002899509705089@gitolite.kernel.org>
+Date: Sun, 17 Oct 2021 03:22:42 -0000
+Message-Id: <163444096231.5541.9722118274203687365@gitolite.kernel.org>
 
---===============4471778317384080368==
+--===============6796248694788753226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,97 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f2b85040acec9a928b4eb1b57a989324e8e38d3f
-    new: 85374b6392293d103c2b3406ceb9a1253f81d328
-    log: |
-         97e6ea6d78064e7f1e9e19c45dc690aabbb71297 scsi: mpi3mr: Fix duplicate device entries when scanning through sysfs
-         85374b6392293d103c2b3406ceb9a1253f81d328 scsi: sd: Fix crashes in sd_resume_runtime()
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: a5ecbd18a26bd51e9d629d44f1cd9975620501e5
+    new: c591f2c40577298ba6a28f463307baeb39735e1b
+    log: revlist-a5ecbd18a26b-c591f2c40577.txt
 
---===============4471778317384080368==
+--===============6796248694788753226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634440945 -0400
+pusher 75C5DE3D 1634440955 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634440944-83ed42ade38f6125f34cba8f20a7a24d53d0d591
+nonce 1634440955-b5da1ca16277e6c1a2f38555d9b7508ec79f9584
 
-f2b85040acec9a928b4eb1b57a989324e8e38d3f 85374b6392293d103c2b3406ceb9a1253f81d328 refs/heads/fixes
+a5ecbd18a26bd51e9d629d44f1cd9975620501e5 c591f2c40577298ba6a28f463307baeb39735e1b refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFrlvEACgkQ7ulgGnXF
-3j10yw/9FiiZdty8SlpzL3p6ls6HZd0YnLjM0RgYxTWwGsj4EJNZA84QSWSzOc4k
-U4Mfwkx0sjfDbQSPI1BR6QR9xVAk6lV9bmjqEtBqQYcv+acsU7XCeuYpx3SrbEE/
-FfOl8gJwnFY6BVr1FNCwVZtexvh0zPrrmR0FSORy3KpV9ggejPL3Nm0+XHoLLiJk
-l62RUkjvm86Z2VbHzVxPD7wa3bTq7NtxBr1rBpFMVnl4BPIr9rcijPTSMVeUx3tF
-qlQMjtZu1qkKKaMfm+59iwIzlY+GBv5BpvEIskmE8NM+KFTtqbIZMZ+Ht7gNbrov
-DlcGBDiY5PWdFXD1DGzAc+ph/FJzVCBzv+p+jYNik8kvVoFXj9A9uHbftytCWl5q
-YG7z7futvpWhBtUcErgOKJ4B7UMO1hNMHCs6XcWCzLJ4N++XuE6+z2yH009ZJig/
-6rMUEZ0IvFWomQZKLnDYzBGg1wdaa0RbqvDbxz/Ckja/yUrZyUM49LmPgcRgBWi1
-W6Hu1+yIaggfVctYtTDcXv4+SovEJr+QZkiI8d4wzaTlGMZvJEgAF91Zx60fC/av
-paGvJdYW5m04EwipzecV6LTF9Juc3fvyu79kiSUFpjRUs9v+Wb8GdWodpqyJA68Y
-7YaAZeoFu65kHTVGEBPyFnLtdmWxsb9fCo9srhpi7v8YykGQiJs=
-=xUdE
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFrlvsACgkQ7ulgGnXF
+3j3fIg//b7i8u3ZFQwR1k7cYbW/AhT2QOaMaI5m+aGUwYjV5ok+3mN7sXcupQRSz
+fCqYE2P57P7UrlqkK/FoskH8+B+h1ShxqaW4IETrxpnYaGnnVKYmNY9Ha/GcwaP7
+1yCO89TwwOAjgM88ls7aysMcCg/NdinZM1Xe1iVHeaSxaqWsZPjKIVRHW5NIabGu
+b7WRmyA8XfWKagyAabHCaVHTcpeBu9bAli9DIbdpAmYwZlWEYvs1XIGQBMYnTxIW
+jpFbjkyBly3SMVIZYJdOJCCPblf1qvDaZCvRoObfkGoCY2O6EGJHpIrNTIbDYYxK
+zZ26i/AvkQIiZ+CThDdJJHyvdJYaDz8NblivA9GoPODkRDuxYmUtZ2PySif9e8xd
+QJ8Vn/MsBX2lQKP/G+F2dE/bpJrxwgo41Yj+1YaOMph3EllaDmhMdtLwFgVVpvVf
+Qx6ABWonSvt+AFIHyRd6QB+MpyRoNhEhobUPqZtdSWHjZNLE7i+t5490GJBUQYgz
+2QleEwxAOlSoggWi78TOdAn92iuMDHnX7ipROmjjcBECLHAuI6TRSeFXauH2Y9Re
+ZrgiRVLWCAr2s9FjT6BFwcoiHJUVthJ6FnCdHRLBDR2yX7zo7RBT3ZpTfSDJpXlp
+emSTGK65Q2k17TnkgATMsWXZPIwR2vQoEAE28Cv+c6QysU6f3VE=
+=vNz0
 -----END PGP SIGNATURE-----
 
---===============4471778317384080368==--
+--===============6796248694788753226==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a5ecbd18a26b-c591f2c40577.txt
+
+6a2ea0d34af1ca807d5ba6a8350a037ff3cd35cc scsi: st: Add missing break in switch statement in st_ioctl()
+96fafe7c6523886308605d30ec92c7936abe7c2c scsi: elx: efct: Fix void-pointer-to-enum-cast warning for efc_nport_topology
+59936430e6a6acb0ef943e9306506b2e9c2e45a8 scsi: lpfc: Fix CPU to/from endian warnings introduced by ELS processing
+37e384095f20cca728500fe5344cd308aa6fd7ff scsi: lpfc: Fix compilation errors on kernels with no CONFIG_DEBUG_FS
+5d1e15108b8d058d537f19cdef4170d2ae4eed08 scsi: lpfc: Remove unneeded variable
+65ef27f7798b57138351d28fd2f61f2afa164400 scsi: ufs: ufshpb: Remove unused parameters
+4e28550829258f7dab97383acaa477bd724c0ff4 scsi: iscsi: Adjust iface sysfs attr detection
+e4953a93104c1fb1ef7989541f9867cc276467f9 scsi: mpt3sas: Call cpu_relax() before calling udelay()
+265dfe8ebbabae7959060bd1c3f75c2473b697ed scsi: sd: Free scsi_disk device via put_device()
+7215e909814fed7cda33c954943a4050d8348204 scsi: sd_zbc: Ensure buffer size is aligned to SECTOR_SIZE
+ef7ae7f746e95c6fa4ec2bcfacb949c36263da78 scsi: target: Fix the pgr/alua_support_store functions
+450907424d9ebcc28fab42a065c3cddce49ee97d scsi: elx: efct: Do not hold lock while calling fc_vport_terminate()
+1f97c29beee774e407839768439b7f51831c3ea1 scsi: ncr53c8xx: Remove unused retrieve_from_waiting_list() function
+17dfd54d391ea9f8d136fb137962987cb2c6444c scsi: megaraid: Fix Coccinelle warning
+fc13fc07490982c89f5d9d8d671ec29a39cddc85 scsi: Remove SCSI CDROM MAINTAINERS entry
+e699a4e1d37314eb842ba9de19a7ccee7f75da10 scsi: sr: Fix spelling mistake "does'nt" -> "doesn't"
+655a68b2203e44912afe462dff9d83d68ac88333 scsi: megaraid: Clean up some inconsistent indenting
+04c260bdaeede8c703bddc21099e4da96f2909e2 scsi: mpt3sas: Clean up some inconsistent indenting
+1cbc9ad3eecd492be33b727b4606ae75bc880676 scsi: ufs: ufs-pci: Fix Intel LKF link stability
+4521428c48118b0f5f7a637ce7dedd76c29bcdaa scsi: sd: Make sd_spinup_disk() less noisy
+1a0db7744e453844aa2db3f2959aea4a378025ea scsi: bsg: Fix device unregistration
+88b099006d83b0bf452379cad4ce494329084726 scsi: ufs: core: Revert "scsi: ufs: Synchronize SCSI and UFS error handling"
+1d479e6c9cb2b40abfb455863a4e9335db882e33 scsi: sd_zbc: Support disks with more than 2**32 logical blocks
+d04a968c33684b15d1206e23fc1119ce0f0587fb scsi: ufs: core: Unbreak the reset handler
+5f8579038842d77e6ce05e1df6bf9dd493b0e3ef scsi: qla2xxx: Restore initiator in dual mode
+bc41fcbffd5759c9610f7de211420eae6b379503 scsi: fas216: Kill scmd->tag
+756fb6a895afbf1f0615d93ebdd14863a00b1198 scsi: acornscsi: Remove tagged queuing vestiges
+a4869faf9642518145a8aa4b52e0d5ab0e7ee896 scsi: core: Remove 'current_tag'
+cdbc16c552f27ac211a44f9959d813b4f3188223 scsi: lpfc: Fix sprintf() overflow in lpfc_display_fpin_wwpn()
+6dacc371b77f473770ec646e220303a84fe96c11 scsi: lpfc: Use correct scnprintf() limit
+a38923f2d088d1a5cbaa86818abe039b2f87093d scsi: lpfc: Fix gcc -Wstringop-overread warning, again
+9a8ef2c73c727a3c64b70c01697c578c7b10fed2 scsi: target: Fix spelling mistake "CONFLIFT" -> "CONFLICT"
+fbdac19e642899455b4e64c63aafe2325df7aafa scsi: ses: Retry failed Send/Receive Diagnostic commands
+e8c2da7e329ce004fee748b921e4c765dc2fa338 scsi: ufs: Fix illegal offset in UPIU event trace
+dd689ed5aa905daf4ba4c99319a52aad6ea0a796 scsi: ses: Fix unsigned comparison with less than zero
+cced4c0ec7c06f5230a2958907a409c849762293 scsi: virtio_scsi: Fix spelling mistake "Unsupport" -> "Unsupported"
+8e2d81c6b5be0d7629fb50b6f678fc07a4c58fae scsi: qla2xxx: Fix excessive messages during device logout
+79a7482249a7353bc86aff8127954d5febf02472 scsi: csiostor: Add module softdep on cxgb4
+c5336400ca8b5f83123d965ce1eb9ac4a604cc95 scsi: acornscsi: Remove scsi_cmd_to_tag() reference
+f5ef336fd2e4c36dedae4e7ca66cf5349d6fda62 scsi: ufs: core: Fix task management completion
+a013c71c6315d6e9d6364d12251b98c75c9a2861 scsi: elx: efct: Delete stray unlock statement
+69a3a7bc7239170557dfc2c4ad5786a0c3d8759a scsi: lpfc: Fix memory overwrite during FC-GS I/O abort handling
+258aad75c62146453d03028a44f2f1590d58e1f6 scsi: iscsi: Fix iscsi_task use after free
+ec65e6beb02e09e34f3811dd85f7247da35edafc Merge branch '5.15/scsi-fixes' into 5.16/scsi-staging
+f4875d509a0a78ad294a1a538d534b5ba94e685a scsi: csiostor: Uninitialized data in csio_ln_vnp_read_cbfn()
+9561f58442e48c3c71da250aa63bd02ec6bffcb5 scsi: ufs: mediatek: Support vops pre suspend to disable auto-hibern8
+d489f18ad1fc33ab9b60dc40fe3851bb0d87de28 scsi: ufs: core: Fix synchronization between scsi_unjam_host() and ufshcd_queuecommand()
+36c6b7613ef1ffd88637315f11c71896f3ce4856 scsi: hisi_sas: Initialise devices in .slave_alloc callback
+046ab7d0f5943dd74c351e1f3a771dea785fe25d scsi: hisi_sas: Wait for phyup in hisi_sas_control_phy()
+00aeaf329a3a1ea3d3606fefa1d29f69f828bd21 scsi: libsas: Export sas_phy_enable()
+21c7e972475e6a975fbe97f8974c96fe4713077c scsi: hisi_sas: Disable SATA disk phy for severe I_T nexus reset failure
+a4bcbf71914b0cc44151a5238e4a8afa8e3319cd scsi: Documentation: Fix typo in sysfs-driver-ufs
+
+--===============6796248694788753226==--
