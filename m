@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4485060468785833338=="
+Content-Type: multipart/mixed; boundary="===============6507437102078008845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 18 Oct 2021 21:18:19 -0000
-Message-Id: <163459189957.10499.8686706923077503295@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 21:18:29 -0000
+Message-Id: <163459190932.10637.3462949195832765986@gitolite.kernel.org>
 
---===============4485060468785833338==
+--===============6507437102078008845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 4884ddba7f124da65cafa983b49b27daa460b91d
     new: d49fe5e8151711ed5276f049bc7f73e02dc141f8
     log: revlist-4884ddba7f12-d49fe5e81517.txt
 
---===============4485060468785833338==
+--===============6507437102078008845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ b416beb25d9317499c823aea1522eefd8d72ea36 mctp: unify sockaddr_mctp types
 5a20dd46b8b8459382685969cf0f196ae9fb9766 mctp: Be explicit about struct sockaddr_mctp padding
 d49fe5e8151711ed5276f049bc7f73e02dc141f8 selftests/tls: add SM4 algorithm dependency for tls selftests
 
---===============4485060468785833338==--
+--===============6507437102078008845==--
