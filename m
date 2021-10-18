@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 18 Oct 2021 22:38:27 -0000
-Message-Id: <163459670711.29604.14522571712306245421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 18 Oct 2021 22:40:36 -0000
+Message-Id: <163459683647.31706.859732748603429788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: fb9f9db151244c1995215d23bf93f54713ff47e6
-    new: 1b0374157c92f3256f1a4d0e69489486ca3f4508
+  - ref: refs/heads/dt/next
+    old: af5e7abe1015b1859d21d6028a7f21a8e81b9474
+    new: a997377a4366201346b15ce03fce7fb639d482f3
     log: |
-         6a154cd08000b48e817fd5ead9c1456ad99a0399 device: Fix unchecked return value
-         2287c517ca1bde4a642ea2ddbed852bcf37e7bb9 adapter: Fix unchecked return value
-         1dbc27ec331132b422e20ea317d652e4275fc445 attrib-server: Fix unchecked return value
-         0b23a290d097e3b85ec13d4c11357316c6b26225 plugins/admin: Fix unchecked return value
-         4ad622d592ba552b8c61797594b09fa268af140d profiles/a2dp: Fix unchecked return value
-         cd75918d2176e8978e1808f3fe67151c4e974437 profiles/input: Fix unchecked return value
-         799f6ff793250bbc692964d000429549803528a1 mesh: Fix unchecked return value
-         96ffb02e2b4dd45a8b35b19b27776a1ce89d1ee0 obexd: Fix unchecked return value
-         1b0374157c92f3256f1a4d0e69489486ca3f4508 peripheral: Fix unchecked return value
+         6d362ea625a1a53f40f41f7ddc97a58da818cb31 dt-bindings: nfc: nxp,nci: convert to dtschema
+         54aed10d43a15b7034f417075aa09d706a90550b dt-bindings: nfc: nxp,nci: document NXP PN547 binding
+         4cc0246c8af9c7474c6eba58994f382eebf52fb0 dt-bindings: nfc: nxp,pn532: convert to dtschema
+         4d9bae3345c3cc067202d894305487b93303a44d dt-bindings: nfc: st,st21nfca: convert to dtschema
+         d45c6e7a07c51c8ae2ad0d89d6bffa0bf392b4a3 dt-bindings: nfc: st,st95hf: convert to dtschema
+         19951f4ced267f9fa37df941640da928524b044b dt-bindings: nfc: st,nci: convert to dtschema
+         3470d69bfdbfed198996791bb5010c34fda31044 dt-bindings: nfc: ti,trf7970a: convert to dtschema
+         a997377a4366201346b15ce03fce7fb639d482f3 dt-bindings: nfc: marvell,nci: convert to dtschema
          
