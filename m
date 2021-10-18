@@ -1,30 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============4398577151751603122=="
+Content-Type: multipart/mixed; boundary="===============2681579374427201289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 Oct 2021 08:53:19 -0000
-Message-Id: <163454719989.615.1386687559082653634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 18 Oct 2021 09:10:45 -0000
+Message-Id: <163454824504.27314.18295492076261252473@gitolite.kernel.org>
 
---===============4398577151751603122==
-Content-Type: text/plain; charset="us-ascii"
+--===============2681579374427201289==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/m68k-queue
-    old: d17ab26832b350f1bc51bbf2a5945043ea82d9c9
-    new: 14e4804d25b7971d6aee21f2047755ad36810138
-    log: revlist-d17ab26832b3-14e4804d25b7.txt
+  - ref: refs/heads/master
+    old: a4201b7c5b9316d0d22476708aea607cdfa47515
+    new: 92f15e2e96185534d5d0af655ab7e29292989651
+    log: revlist-a4201b7c5b93-92f15e2e9618.txt
+  - ref: refs/heads/next
+    old: f9d9ae67a71d1c68b9961af72940aae2685f838b
+    new: 525a6b4bd53f32db8b94e94f802cfa91466d92f9
+    log: |
+         6be85db40135fb55883f35476a1edd00eb7a9a6b mailmap: Fix text encoding for Niklas Söderlund
+         525a6b4bd53f32db8b94e94f802cfa91466d92f9 Merge branch 'renesas-arm-dt-for-v5.16' into renesas-next
+         
 
---===============4398577151751603122==
-Content-Type: text/plain; charset="us-ascii"
+--===============2681579374427201289==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d17ab26832b3-14e4804d25b7.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-a4201b7c5b93-92f15e2e9618.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -385,6 +392,7 @@ b253c3026c29d4231099d3cf8d984d25787793af drm/hyperv: Fix double mouse pointers
 d1d94b0129dccd226784633c60b7df90e8a051b5 drm/nouveau/fifo: Reinstate the correct engine bit programming
 1a361b41c1a1c399399cd2a83e449c452d9d8115 drm/r128: fix build for UML
 a14bc107edd0c108bda2245e50daa22f91c95d20 drm/panel: olimex-lcd-olinuxino: select CRC32
+6be85db40135fb55883f35476a1edd00eb7a9a6b mailmap: Fix text encoding for Niklas Söderlund
 f42752729e2068a92c7d8b576d0dbbc9c1464149 eeprom: 93xx46: fix MODULE_DEVICE_TABLE
 71920ea97d6d1d800ee8b51951dc3fda3f5dc698 perf/x86/msr: Add Sapphire Rapids CPU support
 cd932c2a1ecc8f261ecb8d140fa431c16379931f Merge tag 'usb-serial-5.15-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
@@ -446,9 +454,7 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-a7e936eaa640f8597a58dfe4081f58052f818a7f m68k: muldi3: Use semicolon instead of comma
-15defb38a6b098383489d9372dc14ac3b0977b85 m68k: atari: usb: Add ISP1160 USB host controller support
-02d81bd0a35bd1d8b13ff2ae00f9e348e6da6c22 m68k: atari: Update Kconfig.bus help text
-14e4804d25b7971d6aee21f2047755ad36810138 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+525a6b4bd53f32db8b94e94f802cfa91466d92f9 Merge branch 'renesas-arm-dt-for-v5.16' into renesas-next
+92f15e2e96185534d5d0af655ab7e29292989651 Merge branch 'renesas-next', tag 'v5.15-rc6' into renesas-devel
 
---===============4398577151751603122==--
+--===============2681579374427201289==--
