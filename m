@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4162745115080364015=="
+Content-Type: multipart/mixed; boundary="===============8150992395943747858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 18 Oct 2021 11:49:20 -0000
-Message-Id: <163455776033.831.3452379802623280650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 18 Oct 2021 11:51:47 -0000
+Message-Id: <163455790782.3287.1304042955881177148@gitolite.kernel.org>
 
---===============4162745115080364015==
+--===============8150992395943747858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: 79cb6eeb29a4fa72b93238bfe541407858e580d0
-    new: 456272b356347bcc3b65a0cb2d3e7259eb5df69a
-    log: revlist-79cb6eeb29a4-456272b35634.txt
+  - ref: refs/heads/master
+    old: efbe34f1f638a0578c0c23b93dfe7832803163ff
+    new: e1cb19ac9ea60e01abdb0261701bcaefa1cb3066
+    log: |
+         e1cb19ac9ea60e01abdb0261701bcaefa1cb3066 5.4-stable patches
+         
 
---===============4162745115080364015==
+--===============8150992395943747858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79cb6eeb29a4-456272b35634.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ff0edc6e4206d7bb99baea05d09d5fcc761ed62c rcu/nocb: Fix misordered rcu_barrier() while (de-)offloading
-9ee7db038ec8a2400a185ce781af8a43bd521033 rcu/nocb: Prepare state machine for a new step
-9e691b150af923fdcab21e556dff39085e376d14 rcu/nocb: Invoke rcu_core() at the start of deoffloading
-f8b44a68424f22a6a51822b5efa21b065625302f rcu/nocb: Make rcu_core() callbacks acceleration preempt-safe
-056796c5d17c0d777f8da350d18e2f0137ca8943 rcu/nocb: Make rcu_core() callbacks acceleration (de-)offloading safe
-630959353528eadbe7844ae79f05504d5811ce0a rcu/nocb: Check a stable offloaded state to manipulate qlen_last_fqs_check
-e370e4767dcc1401e81cd209050769c8005f3074 rcu/nocb: Use appropriate rcu_nocb_lock_irqsave()
-cc1278227bcf4bcfc99727f30248969f5a50c2ad rcu/nocb: Limit number of softirq callbacks only on softirq
-4bbbceac4da9aff03b8ec558bab17596384b3d8d rcu: Fix callbacks processing time limit retaining cond_resched()
-d9fb2ee724cdb0c6d6d49e98d45d9bc294d3a1b1 rcu: Apply callbacks processing time limit only on softirq
-456272b356347bcc3b65a0cb2d3e7259eb5df69a rcu/nocb: Don't invoke local rcu core on callback overload from nocb kthread
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634557906 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1634557905-f5ffbcad71c3e06377f3ec28426a449f08e386e5
 
---===============4162745115080364015==--
+efbe34f1f638a0578c0c23b93dfe7832803163ff e1cb19ac9ea60e01abdb0261701bcaefa1cb3066 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtX9IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E00P/1OkZ4pCuQXbW1SmEpQZ
+HqGKKOfVK8/v8uBOBIJmm+Pn5EkhjooEWVwDOKVOg7nBR0weqLs57c5PtS768Q4Q
+wftQcTAEDdJxt96v80UkEEb8duGiPK/i1aZ/B/HsUAnH803gQCufTkgWUt4vsWvG
+p9B3/Ad2M3OJUit9j7Tvugq8lKNTl3RRWCajFqMp/d1xtlVqBSODyX6K7o1i5usj
+c3RlzLPaSUMImaa7Duy+HVlYjGNYJBnuj5HC3cfjPhkE1Ec+MBwH6t0x2caiMIDZ
+0Vmrt1GXM/DBEGdnTNYOgyJMN1veS2rBYcx3N3+ZUCE9NCqbN3YV3A78XNrfEglF
+OzhU/MPeWJExD7kLagnplB+jOHJP+XubbfPnQTum2Qz0o1xJ2TERZ9XWvb4Q6zyU
+K3tLMqNusqbma3F3GzbrJVrKQVRbZlasGkb0UPB68l+GqPYdVkIDuRQoMlfSaHv0
+PxuPbev+ulwse8Tjjx0pEgcdhFkyOkOBpSou85KmAp3u9w9bpKq0Nx23lfhoRddw
+1K+cb9oxp/FT3zYIvN7e3+zJ3VJASEbgdYca+pLPmxqluONKi/EGrX1+hnTZ2mL0
+45QvC60tBU4v+5mcP9GEOKGyoodT1WeTJov0jx3PRc+JqZxwIylE0IfobbufIfwS
+zWeh34CzWLTjC8KpoL0GX/IA
+=SVX1
+-----END PGP SIGNATURE-----
+
+--===============8150992395943747858==--
