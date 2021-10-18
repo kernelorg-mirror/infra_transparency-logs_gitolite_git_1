@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5169335677327073616=="
+Content-Type: multipart/mixed; boundary="===============8459944172105128027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 18 Oct 2021 15:07:43 -0000
-Message-Id: <163456966308.2159.9035138931619705965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 18 Oct 2021 15:09:40 -0000
+Message-Id: <163456978036.2813.12543117762557236205@gitolite.kernel.org>
 
---===============5169335677327073616==
+--===============8459944172105128027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 05c8f1b67e67dcd786ae3fe44492bbc617b4bd12
-    new: 8ef1e58783b9f55daa4a865c7801dc75cbeb8260
+  - ref: refs/heads/staging-testing
+    old: 6ba3047d493ff56e0af0b91c6fe2d17a0344c989
+    new: 548b6d7ebfa458f803bde3fc7ae1c70d5195a678
     log: |
-         8ef1e58783b9f55daa4a865c7801dc75cbeb8260 usb: typec: STUSB160X should select REGMAP_I2C
+         548b6d7ebfa458f803bde3fc7ae1c70d5195a678 staging: vt6655: Rename byPreambleType field
          
 
---===============5169335677327073616==
+--===============8459944172105128027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634569661 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1634569661-e771cc5e2dd33cf8b9bf9ca564a1234c68fb395b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634569778 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1634569778-531a03dd00042e65aaf98bfde173f5c830bec80d
 
-05c8f1b67e67dcd786ae3fe44492bbc617b4bd12 8ef1e58783b9f55daa4a865c7801dc75cbeb8260 refs/heads/usb-testing
+6ba3047d493ff56e0af0b91c6fe2d17a0344c989 548b6d7ebfa458f803bde3fc7ae1c70d5195a678 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtjb0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H6oP/0Prg8uSrLvY69ZaXRwE
-eHGR4dgvTewAKzxoFZXAUsLVtqhD1RKTuEnYLkuvcpwSDIXFHbtv4xKUN4H/2Hxe
-Kqq70GyCwBzU6uCmh4Lp8WKobYgO5YHAzCjtTIQri2gCQ+nAgnN5tU8PcF8oXb8l
-naVTrZ3FtNsFQRB2R+xPEClKhGQSSas39LVE4ln9ZR94Dx3rek/2J2Q/VSmRdF4l
-gF1BQLJ4/EZ9xJriIG5NzYxkuOC/9y75s1r4nwXhO1G0jb5Lc94NYmz1cZFeJmOK
-gWzOLz5zLdcjXDpfC/q4lYLrp7BolC6XvD0ehfM1j/cqMC5gXX50PA7HSsu0VG3C
-bbM+SsB7uKuxlCfPPTrQyZpk8d45u4l8sp8lVTQ3i8fSUp7DulqiEEviTiZOzRmk
-svT3fGGZWFCo+OBXDDQ7RFCEsApdYqO5hn2t6hAzzDeGTjogAossXzPsrCJoPcEt
-Q/PBM0cH3EIpxUvidpP79EtH4FCSSSDm9gv42/JX6eeyFBKEuQqLjLwdpO6RgzR4
-u27Uz7w5KNfhzOB0UdqWTzPG3zLJKfyMjk+vDIB+6MM2xficWX6NXDiBshiJzx8A
-l5r80PAPH9FhRdBg6psmlCgVqs1mRQtEnlmPC/3YOj+bfMGA4sIncjGrJL7/a6Kt
-ew21JctTLybRguM+TWNrAHbB
-=9r+9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtjjIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zw8QAIUImQSRo6oq5g24hwk3
+10ykTI4eNF1qWb8blskLTD9DJqxyPvv70Nyt45ehUlofXaeFK7vCZI1MV50mdnHX
+MN597cB7+v0SBcdkZ7Ep/COMRFn3AEpNBO/b53sYSCj0pygrOeMpBr2OFP0ZXC9W
+rFGGWlQUVFIvUrMoGivKzII0ZYYXkjHGQ1/dQOnT8dBzf5NDfZXRlmqbfysVOKfW
+I+Y0XUCW6QDlmsOt/rWQSuEc0XIpVchGLqIHCkNvS7M9VKgCtJZKCmjuNry1Elmh
+YSAO5FoiRl8sTUK7IhbZeFiaO7g62PBFXo6ZhQyTWgXbkyqcffy3xzmV0w8Rvh30
+T9OObDxWExiAwGE7Lu1tBvMhTxmc4h8eS7BO4ir0I5Ec+P390V6K+kz2j2Dhw54s
+dtCvKXUV7PUTNbN+Oes0BCK9A5tyP7fEvcuNRhxjXY31Fr+2Jiv1PTB5g7loNcY4
+0xqQa5Voifp13QWxkn6cx0K3EKtaoq5KizTXlYumanqlyOdjcaKkk/u1cLGfLbea
+/F0WXj27wLQ4CrRWIWmNZQ46y7VDN+KiGdqf0p7zEI9TXHbljR3xItcYnPsqw6IO
+pXbaATO107ODlBX80ueyh9Y5YPadD58iOgttxahSoeRpBovfF3ll5eYKHD1GTq/A
+exmQcuHOGnNK0Se51wDUJ7p9
+=L6V/
 -----END PGP SIGNATURE-----
 
---===============5169335677327073616==--
+--===============8459944172105128027==--
