@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4967553523269135734=="
+Content-Type: multipart/mixed; boundary="===============0273203801480631908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Oct 2021 11:16:44 -0000
-Message-Id: <163455580441.11055.6496812431854278294@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 11:20:28 -0000
+Message-Id: <163455602805.15368.6436296349578632533@gitolite.kernel.org>
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,388 +16,424 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: b0ddd823f6cb7b091d8b71eae575dbc5d21f9684
-    new: bb2a0600420dc3440719489cd8ad47c42d31befd
-    log: revlist-b0ddd823f6cb-bb2a0600420d.txt
+    old: bb2a0600420dc3440719489cd8ad47c42d31befd
+    new: 1b0c73c3bebb3bb05e53151bbe2d5ef621941c31
+    log: revlist-bb2a0600420d-1b0c73c3bebb.txt
   - ref: refs/heads/queue/4.19
-    old: c590b0d8eeab0c004f38614ce9b0a6846507dc52
-    new: fb61f19ff1fb2c07b58bcbcb68a8e041bccb9658
-    log: revlist-c590b0d8eeab-fb61f19ff1fb.txt
+    old: fb61f19ff1fb2c07b58bcbcb68a8e041bccb9658
+    new: c79246318c4d65572b1f7f235e9e712c27e9ea97
+    log: revlist-fb61f19ff1fb-c79246318c4d.txt
   - ref: refs/heads/queue/4.4
-    old: 9427ab0f29112bb8cfb1d1f7f46c488a9e50cbdb
-    new: 0fa63eacbb57c16e758efbb6509260aeda9522ff
-    log: revlist-9427ab0f2911-0fa63eacbb57.txt
+    old: 0fa63eacbb57c16e758efbb6509260aeda9522ff
+    new: aa50ca010b0485859c1b03a6775c600444695052
+    log: revlist-0fa63eacbb57-aa50ca010b04.txt
   - ref: refs/heads/queue/4.9
-    old: b8b8a9f048afd1412727acb242ceceae8c388dd1
-    new: 45a671037b20caf3bec194054786d5a7236b8335
-    log: revlist-b8b8a9f048af-45a671037b20.txt
+    old: 45a671037b20caf3bec194054786d5a7236b8335
+    new: 4508211c015be3708c14ac36bbbc6ed24729304e
+    log: revlist-45a671037b20-4508211c015b.txt
   - ref: refs/heads/queue/5.10
-    old: 0281a75ee1f210b07b92fb224b43cf131ef9e2bd
-    new: b54fddb7db540362a137161309fcbb7dbca6767d
-    log: revlist-0281a75ee1f2-b54fddb7db54.txt
+    old: b54fddb7db540362a137161309fcbb7dbca6767d
+    new: 041da4760c54daaf15fbf005263ef19a8c9de6b0
+    log: revlist-b54fddb7db54-041da4760c54.txt
   - ref: refs/heads/queue/5.14
-    old: 0dcbf6234a9c4b2404151cdfcc06436c0498d0da
-    new: f526d7086d5e5a77e18374647bd870b95d3a81d6
-    log: revlist-0dcbf6234a9c-f526d7086d5e.txt
+    old: f526d7086d5e5a77e18374647bd870b95d3a81d6
+    new: 2915d780f1b0267c6e5f68f888fd952d91b5e49d
+    log: revlist-f526d7086d5e-2915d780f1b0.txt
   - ref: refs/heads/queue/5.4
-    old: 350ca16ad4e3c029277ccb4512bf21941a358bc5
-    new: e91c5f92800f3915a97d9a20f7eedffa329d242a
-    log: revlist-350ca16ad4e3-e91c5f92800f.txt
+    old: e91c5f92800f3915a97d9a20f7eedffa329d242a
+    new: a2c1071fdb9b351dac53176b11e63d3a8f11e97c
+    log: revlist-e91c5f92800f-a2c1071fdb9b.txt
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0ddd823f6cb-bb2a0600420d.txt
+Content-Disposition: attachment; filename=revlist-bb2a0600420d-1b0c73c3bebb.txt
 
-6b58691ddfa7bb034eecc77f72838f40ae4973a4 stable: clamp SUBLEVEL in 4.14
-3b712b7ce51dacb9ecdcd88e7e1139604b5c2e4c ALSA: seq: Fix a potential UAF by wrong private_free call order
-e1b02c817343ee1f394cbb97e3a36a4b0c9a0229 s390: fix strrchr() implementation
-b0e646dd8cfe53d2eb36e335eb2b5115614f7564 btrfs: deal with errors when replaying dir entry during log replay
-363a18c72563fff3d648644853969c8136f11d0e btrfs: deal with errors when adding inode reference during log replay
-bdb83fbd7a982488693ec5defde56c31b2586a16 btrfs: check for error when looking up inode during dir entry replay
-6dbb9734eaca9363f568b57e9e9827a8384f3b24 xhci: Fix command ring pointer corruption while aborting a command
-872ec45adb9df3785f651857f095827e0804220d xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-d78ac4b4fbe026a7b78262f6a4135ac73eb779f8 cb710: avoid NULL pointer subtraction
-2c85c71fa248e5a66465adbfe2d77b0881fa2711 efi/cper: use stack buffer for error record decoding
-79314f095e81d79785a0b7d22833005d148ba86e efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-a5e21676b7af089185cbd2248a218ba91d8ec86c usb: musb: dsps: Fix the probe error path
-d63a94e5b881b99c6eaa76f8af614b9705697e5d Input: xpad - add support for another USB ID of Nacon GC-100
-7f44baa9086652ca198b8cb7c79f2be47d8e9452 USB: serial: qcserial: add EM9191 QDL support
-2fae3cb674033cf0f1c3c244d7e460a7dd1357c7 USB: serial: option: add Quectel EC200S-CN module support
-4215ee270556a245329d3ad0f8d784a736f36445 USB: serial: option: add Telit LE910Cx composition 0x1204
-34b35ce362f4f491bc6f82628e130c2f92897aaa USB: serial: option: add prod. id for Quectel EG91
-7f137a2371997264ee2b963f2528c496ce27ae95 virtio: write back F_VERSION_1 before validate
-eefbb1c6678fede49d40a4bb990b3eb6d4410988 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-2784e099fa47e0057b868c3b837c82a9e2a14f23 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-0c7d32863275ecee0bfc169fa949acfff5165809 iio: adc: aspeed: set driver data when adc probe.
-a32d5b8014225ed972b14b13bad1f49aeb645e2e iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-cfefc02d24aec2a5e14d9e7b02050a1d0924ff6e iio: light: opt3001: Fixed timeout error when 0 lux
-45f3659259a2e7defb727cf266b15895787ea000 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-c36440413fd4a9b46abe36df0ba9a1b71f39a761 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-dfdc78851025f20d101288af707519688ba92e11 sctp: account stream padding length for reconf chunk
-722923c01c1abe53a7be2c1f7ba1b7845bd1d215 net: arc: select CRC32
-6398e5c940fb0ba9f41c47d2b58a85095a8539c2 net: korina: select CRC32
-73c3a39d5f49cf323094c96c7f353157f4864ab8 net: encx24j600: check error in devm_regmap_init_encx24j600
-bb2a0600420dc3440719489cd8ad47c42d31befd ethernet: s2io: fix setting mac address during resume
+099994855b28c3efecf891fcd4e34c92b6f27e10 stable: clamp SUBLEVEL in 4.14
+1966b34338216baedc7620b4693b9a41db5429f7 ALSA: seq: Fix a potential UAF by wrong private_free call order
+83240d3ed1144daa25269a4f546fe1ac67687456 s390: fix strrchr() implementation
+6ad72b0a29180464514ec0270a3193c3a93df46a btrfs: deal with errors when replaying dir entry during log replay
+04acc06482d8ff7d3d5e2d6673987c61b31850cb btrfs: deal with errors when adding inode reference during log replay
+97aeee684f0a012965e3baa0927bf8c097ce33ea btrfs: check for error when looking up inode during dir entry replay
+223959940f15a19836a468df132cce5454f7015a xhci: Fix command ring pointer corruption while aborting a command
+a7bc28f8486aba5ae4d141bfb83e1533f6d4e0d7 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+878eb8aae1f3e7646c28012d83ca5846f1a4e2e1 cb710: avoid NULL pointer subtraction
+4d095fb7b4b6eb6e797b199177c2f998de2a2645 efi/cper: use stack buffer for error record decoding
+b364ab8db12e3610b5c5d5062740492a211fbccd efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+616f1876f0caae477d8feea12d66e5a6706eed8d usb: musb: dsps: Fix the probe error path
+cff6b9657abf0d5a7b0819dffb14d0c789513834 Input: xpad - add support for another USB ID of Nacon GC-100
+159ea4210a47eb5ad99b23ec773b34d7f5233ea0 USB: serial: qcserial: add EM9191 QDL support
+6274f2da144d21d2e508c58484e052eb29916519 USB: serial: option: add Quectel EC200S-CN module support
+523cfa852de54a3157d944bcd61f031a656246b4 USB: serial: option: add Telit LE910Cx composition 0x1204
+695bcb5564f94b79ea086f009a01b068441a434b USB: serial: option: add prod. id for Quectel EG91
+0c4978d28ee18f07f7cd58e6acdcd0fc9bb6e7cf virtio: write back F_VERSION_1 before validate
+ac8c7c5ec84ca8ec07d42a2f8d9d2cbfafd8ac40 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+d9d612c402ab6737723cdaba667fd845e0751c1e x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+c00eb648e2876337535c5b0fd1c791deb8aa6cdc iio: adc: aspeed: set driver data when adc probe.
+7e52d904132b2913c6c0a993ce6993bd7d296277 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+7c60fb6f4256ed5362782bbbef1af7bf1bfb30ad iio: light: opt3001: Fixed timeout error when 0 lux
+0481350277ae22e264a3849911c22fb43eeb4ee9 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+e3bbd5f66059d7fab1eaf2480132af60b55a947d iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+ddf9e66a365353f36ca4e6bcd8a87bead5da715a sctp: account stream padding length for reconf chunk
+4952856857f7c3fc9d41b298d294eafa21a5489a net: arc: select CRC32
+9f32a22e9fa491828dd865766ba459b8032c27dc net: korina: select CRC32
+fe8e02b2e3ca136994359cbc79a03de328997433 net: encx24j600: check error in devm_regmap_init_encx24j600
+1b0c73c3bebb3bb05e53151bbe2d5ef621941c31 ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c590b0d8eeab-fb61f19ff1fb.txt
+Content-Disposition: attachment; filename=revlist-fb61f19ff1fb-c79246318c4d.txt
 
-33ba117df33e8c22799d3b7636725749310eaa27 ALSA: seq: Fix a potential UAF by wrong private_free call order
-5ea3fd08e12bcee29523a33270a459e3e06f7ca7 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-7056aa31191882fa70bfe27d325dfcc9653ae4c9 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-b57fbb16ed5ecf94b438a3d95ce90c6fcf5f0e2b ALSA: hda/realtek - ALC236 headset MIC recording issue
-ab21abf01b556909df712f23f81ff093f81f0ecc nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-4f6f1592b83dfebf077ad2e50e202b198fbaa7f6 s390: fix strrchr() implementation
-80aaec940c678ec659d94a9df9a0b1410bd37754 btrfs: deal with errors when replaying dir entry during log replay
-22f43494cc8dabca1da9779b52f6fac0159f7d6d btrfs: deal with errors when adding inode reference during log replay
-b791152a3f9aaa2673eae5fa9799ed7d3324daa1 btrfs: check for error when looking up inode during dir entry replay
-57f82433da488085ca5152cae5e772eb9520973a x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-240891809bed7cb9121b555f06459ca03874e0f9 mei: me: add Ice Lake-N device id.
-264ad0d273f4b8ab19572a2dace8745f99e8b06f xhci: guard accesses to ep_state in xhci_endpoint_reset()
-250bbdf3139d5299071bd855f3990d8c5e4a0a30 xhci: Fix command ring pointer corruption while aborting a command
-ac1198fa45de58978581c71ed5dd463f3f170e26 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-f59131898b9e326628a28dc19b9ef030d6a4072d cb710: avoid NULL pointer subtraction
-a44a0b938bb8b5c5c94642fe8b6e30146ca03b4a efi/cper: use stack buffer for error record decoding
-cbcdec80141c35955ac22ac7970f1711e86ff4d4 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-c5996c5ce57c6292c41076633246194828cd1f7c usb: musb: dsps: Fix the probe error path
-b143ecc58ab8af4db576943a4c363b76247647a0 Input: xpad - add support for another USB ID of Nacon GC-100
-53538ad4fe1738d48f77fed1a2939f0da6db6776 USB: serial: qcserial: add EM9191 QDL support
-346df06edda3c951ce87fdf49edb2c54d4840af0 USB: serial: option: add Quectel EC200S-CN module support
-b0ff905dabf3d56e445d01f2f8c1b87bb5d01fc5 USB: serial: option: add Telit LE910Cx composition 0x1204
-e8551c4c0f35ed4b1b73dbe2a427547eb92e6a31 USB: serial: option: add prod. id for Quectel EG91
-44730b549ef7d139b45ffd17306766ccebc4d2c3 virtio: write back F_VERSION_1 before validate
-4e4fd49d2458fe25336e4c60fe9fa231114b589d nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-8bce85cd3c093026bbec9ebe289ce8e6f60d85e9 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-c9c1a1cfc51924bdbb9792af4a807e37578dbd4b iio: adc: aspeed: set driver data when adc probe.
-75d86234c5eb91355f0a5c170fe18fd683b1a678 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-e4c99143dfdf6fb100f61f68665a922030d04a8b iio: light: opt3001: Fixed timeout error when 0 lux
-7c2679eb0b4d9a294b70ef755cdb9c7fde88d71f iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-8a43a9bd301b7a0eef66fe624e406c47d71fbf96 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-efb734f7c451a1b698315e23f920c5d9f29196fe iio: dac: ti-dac5571: fix an error code in probe()
-7123d992fe1bc49f542983be1e93f6feb76b58ef sctp: account stream padding length for reconf chunk
-bffebe164703b89f0f00ce14efb23d82cec9688e net: arc: select CRC32
-e6a99f53a489506799443b25ce8b930e3bc7ec82 net: korina: select CRC32
-eee620b7c952f823643ceb8e12ef39483eb936b6 net: encx24j600: check error in devm_regmap_init_encx24j600
-fb61f19ff1fb2c07b58bcbcb68a8e041bccb9658 ethernet: s2io: fix setting mac address during resume
+4e392540f6ca088d95414d151030bee801cdf9f1 ALSA: seq: Fix a potential UAF by wrong private_free call order
+abb9c24b380592792f315ae5fab7b512e143b923 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+f76d2d4accc3f79e273b77c329f3e78d9764aec4 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+32e76aeeaeb39eb418c72bca14c022e05a8c0fde ALSA: hda/realtek - ALC236 headset MIC recording issue
+057d7e26f8c270f63458e1dc9edea0d74b4d45b8 nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+99d985abfa785a0ac5738fa5539f0ebba393e6b0 s390: fix strrchr() implementation
+10859cdb5d8464c6fab47fe8d57a45d23b203476 btrfs: deal with errors when replaying dir entry during log replay
+688c37bc3c32a9ee3b177f0461cceab8822b94ae btrfs: deal with errors when adding inode reference during log replay
+9e9b498aa87402f2b05d67cc67e16a5a38e75481 btrfs: check for error when looking up inode during dir entry replay
+144179ac2c35bf7438fc89959f6678ca9dd57a55 x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+5ca7e44f744044ef32f2197d4680d7b8583ce5f4 mei: me: add Ice Lake-N device id.
+7534844fb1d71e953ab97402ed61485f31b0522a xhci: guard accesses to ep_state in xhci_endpoint_reset()
+cefdb38faff5af82f6955bf2815d3ba418b70377 xhci: Fix command ring pointer corruption while aborting a command
+012aa5672da75d561644cec3b9da30565cf9e1de xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+fbb0aeff9875cda73644e6113062bbb564a5795c cb710: avoid NULL pointer subtraction
+598ebe665e0f851064a1d4dc8a1147c2f4727bdc efi/cper: use stack buffer for error record decoding
+286d8af06d74e0fdba15b8a3967581f07da4c92f efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+c45aebad8a81665dbcd4d34c26575d04f0781e5b usb: musb: dsps: Fix the probe error path
+affb2275c774dab877f80eadb4a97761a6628a80 Input: xpad - add support for another USB ID of Nacon GC-100
+193fbbf225fa636e9588115f590d30f2e6fc1e0c USB: serial: qcserial: add EM9191 QDL support
+35aba81e072e3e7bf4d8f9d3e31d339b8a9ad8d6 USB: serial: option: add Quectel EC200S-CN module support
+31f66b82aac30fb2a2b3cb95bc2a447ea7b897c6 USB: serial: option: add Telit LE910Cx composition 0x1204
+889cca7a44819dfde433cb9e4eb6e1992c82c6cb USB: serial: option: add prod. id for Quectel EG91
+6345097d66a8e07f9ef392c1e2c9cf5d03658c85 virtio: write back F_VERSION_1 before validate
+6386d73674572606d5db25f44d2e19601930c22b nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+f5feea0c9eb478dfb67cf289b6cdc806e332f40d x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+c3300d57aee11ae7f461d51fb36009fa69cc0628 iio: adc: aspeed: set driver data when adc probe.
+287077bc5e002c991aca494608b588a2527abee9 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+e2ea35e4225a46e150f15b6a1ae2cbe4a2aa08b7 iio: light: opt3001: Fixed timeout error when 0 lux
+0599bc177bd4aaa231d9b0c1f404f4e167024cbd iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+9670fee82f902a9f7635c27038b66b5897f2d86d iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+0c4836036e6bef44d79bcf4299ccc76a6ff2b7ec iio: dac: ti-dac5571: fix an error code in probe()
+02a8a21bcf9e715b57485bf4ea61f3596187cc49 sctp: account stream padding length for reconf chunk
+ecda75122e8b78c5edd3d88afde0a4e766703756 net: arc: select CRC32
+0c3cfacc16575d5cc7efb2ed318c5d9d74148974 net: korina: select CRC32
+85f28e5c29776cf6ae32fbd1fc0bf0017eff9392 net: encx24j600: check error in devm_regmap_init_encx24j600
+c79246318c4d65572b1f7f235e9e712c27e9ea97 ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9427ab0f2911-0fa63eacbb57.txt
+Content-Disposition: attachment; filename=revlist-0fa63eacbb57-aa50ca010b04.txt
 
-0152779cd3106bd81ddc9026534a9abe661611ec ALSA: seq: Fix a potential UAF by wrong private_free call order
-20e93478f0c0309b37066bacaa7b359a5ca3a869 s390: fix strrchr() implementation
-f0f49e3758675c763e0c4669912c372bb04a3181 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-13836d3c5868cd0705b42f65f88a11d2da32208e cb710: avoid NULL pointer subtraction
-9755a2c806ffd485397f7ff888a8b5e5c768bc64 efi/cper: use stack buffer for error record decoding
-7225a1be07522d271e24be914af95e14c0a83997 Input: xpad - add support for another USB ID of Nacon GC-100
-462956eb289725885df971e8c8c6a29d09e656c5 USB: serial: qcserial: add EM9191 QDL support
-c4885505e021e76c780144fbc1553a9619209032 USB: serial: option: add Telit LE910Cx composition 0x1204
-695bcf5a0c121b02e42a1199f9e247c27cbf70ea nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-7d1f8052e024d1f8c2844f2d10a3a1a33d13302f iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-1603f82361f182ae37a73ac4128e714f937d292e iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-0a5d17163c87b21a3957aac5acb67253cd8c6d98 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-700a8591cdfa1d9a5a04381be3c7b706706f0fca net: arc: select CRC32
-e2c2d487412a75e1b70e7c0d057665217a2bbbf0 net: korina: select CRC32
-f91977b4843d8d93db2649ac0ae8161acf0eba99 net: encx24j600: check error in devm_regmap_init_encx24j600
-0fa63eacbb57c16e758efbb6509260aeda9522ff ethernet: s2io: fix setting mac address during resume
+0b4216453233b882d4442996c48711b8528449de ALSA: seq: Fix a potential UAF by wrong private_free call order
+ec36031186130c9d7cd6e05a09eba5d290c6b6c2 s390: fix strrchr() implementation
+6746a52bb3de5dc8e43835c7c9889786168b711d xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+c77c86f1d8f6f62a3aec2167e5c79914da265765 cb710: avoid NULL pointer subtraction
+0112dafeb6b7ef3cdc82d0ea11d3370fe3166afa efi/cper: use stack buffer for error record decoding
+5ebee35535039bcf482c18928f5934fb445b4a2a Input: xpad - add support for another USB ID of Nacon GC-100
+c7fe5311cffd0a0a313fd6dccfcf6339de879d04 USB: serial: qcserial: add EM9191 QDL support
+b4c7fb6abd16d9510aaa07e1dd6ae0ab6fdd9e01 USB: serial: option: add Telit LE910Cx composition 0x1204
+b5e6724739f04b1c2f7a9c19802cee465356910a nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+c5320966aeb60625f7f88c7b98772533fd6f04cb iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+6ae5a7c8a78b93268124c9c80b855ea85ad5a378 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+b37450c3003e98622e15115b50e608ef8e782c05 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+e32247450667899021c8162cfe1e1c0b901765cc net: arc: select CRC32
+cb30b4b3a2e6ff3024617a4ef4b18af5c253b864 net: korina: select CRC32
+c1d0b47be4c5c39f9c4a44076c792256a0fb876d net: encx24j600: check error in devm_regmap_init_encx24j600
+aa50ca010b0485859c1b03a6775c600444695052 ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8b8a9f048af-45a671037b20.txt
+Content-Disposition: attachment; filename=revlist-45a671037b20-4508211c015b.txt
 
-4e4c3801e84d1677187c65abcc57dc8d54f1de17 ALSA: seq: Fix a potential UAF by wrong private_free call order
-f931a8dd7dbd58506f3f12a86d24a48ca187158a s390: fix strrchr() implementation
-b94514e3082733eda7a9a22d795271c6d7f1978f xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-3d15cf5f8eba70403e91dd32b16de4fc45af8cb1 cb710: avoid NULL pointer subtraction
-5bfc2583e28ffe94ded4c95fd8d8e618ec5e8fd2 efi/cper: use stack buffer for error record decoding
-c09ba4f2fa2b5be4bbf49137bdb7053f7b624dca efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-8fb9140258b145cb20ef4a5ce8e76f94527e1159 Input: xpad - add support for another USB ID of Nacon GC-100
-8e6e35aa7e9ff8a1e04cc8ff9b337c8d4b5a3a8b USB: serial: qcserial: add EM9191 QDL support
-06160ebeaa466f2ae2258c0252c73570205ae429 USB: serial: option: add Telit LE910Cx composition 0x1204
-c7b593cba1e3ba88074d496b5d55059a8c2ac6b4 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-798a5ae7ac41e4fc6f5190e56ee2912094ab2fea iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-e7765e8ed5f3380b382102d45ee4478cfb2d8adf iio: light: opt3001: Fixed timeout error when 0 lux
-f7b11eda063fc35a573e208ee91439e7d415d4c2 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-3dd5abc153f3e338c4accdbdadfa4a22f1128133 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-f3487447e0085ff234d88b4598ba6421a1a328db net: arc: select CRC32
-21e460b7b9585544ec24fa59c32048227933ed7a net: korina: select CRC32
-d54b3cba1d5b954f2275eb8182210e944f705ee5 net: encx24j600: check error in devm_regmap_init_encx24j600
-45a671037b20caf3bec194054786d5a7236b8335 ethernet: s2io: fix setting mac address during resume
+d1d54738d3d9d2b1f8f076939b8a0b50e7feded6 ALSA: seq: Fix a potential UAF by wrong private_free call order
+759a808be83cf674723a35f2e183bb92522c6176 s390: fix strrchr() implementation
+611b20fd00f51dcc43eb4caea06f0ef184e8acb2 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+d11d34d60b904049164790a98e3bc28c8d388ce1 cb710: avoid NULL pointer subtraction
+f2bfe49846c5fabeaea351f228e07896baad3a48 efi/cper: use stack buffer for error record decoding
+f61741c7905a4436d907455cf34d52deac3caaf1 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+0cbb4dc1cd5e21d33d2e99f9dd73be495f8435f2 Input: xpad - add support for another USB ID of Nacon GC-100
+4e1942124e8909ee00ec389a1ef1af28f881ba4f USB: serial: qcserial: add EM9191 QDL support
+22bb425b562efc974a37e0759f056d70ab052609 USB: serial: option: add Telit LE910Cx composition 0x1204
+cd9e4e4e18024b7319f76fc844e0853e3995f011 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+a57442135b220e830963b61ac595a805f43287a2 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+77e41780e5f7c5feeffb22c1c75bfaf0c496fc76 iio: light: opt3001: Fixed timeout error when 0 lux
+41d0cb0c4d45314ef3e92933528a4bf3abf39cf8 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+bfa110318e07996a3a9147fd3dfbeef0e87433fa iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+e1785fd8c5b15b63027409dba94e556011c9c63d net: arc: select CRC32
+0738b08ab6bedc931b14996aca8aa56a4b57dc55 net: korina: select CRC32
+ccdd52ccb6799ee7d2062abdeb37968ce2a7c244 net: encx24j600: check error in devm_regmap_init_encx24j600
+4508211c015be3708c14ac36bbbc6ed24729304e ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0281a75ee1f2-b54fddb7db54.txt
+Content-Disposition: attachment; filename=revlist-b54fddb7db54-041da4760c54.txt
 
-2b8af22ef93c7100e26b5b92ad825eaa67f96726 ALSA: usb-audio: Add quirk for VF0770
-7fcd8947f7fc48af19441ef365236f0c790f6a46 ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
-b5175b279af2bcfd65f606864fa62d878ff1a1e4 ALSA: seq: Fix a potential UAF by wrong private_free call order
-67f930a0554369afa588b4d79eb7e74fbc2e209a ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
-0e05cf647e6e437b9fe256009af642fda2f0b082 ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
-ae3ee892abe3ed94708dce1a9c3bf39a53e83ba0 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-3acf9f068f2a3dbae68b51be5cce38bf9664ef5a ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-623d4700a901d26b142916b1956ea5c9132d973b ALSA: hda/realtek - ALC236 headset MIC recording issue
-b9452ce171c43c0050006ed4e57e99e13fe2ab95 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-388cb56c4d18feceda1072723b19632c050439a7 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
-2d538415e78bb4e02bd57acbd673f68c56183eca ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
-76bfff2e1d9b402a7869fecff8a10da6212c8f9c nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-bab5d30ac47843ecf8ff7857d73c2fec95ae3751 s390: fix strrchr() implementation
-6ecb38ec2277d4a3b5bca97e504c7a77bb1e2f96 clk: socfpga: agilex: fix duplicate s2f_user0_clk
-42242036f228295756f93170660d487d8b742b7b csky: don't let sigreturn play with priveleged bits of status register
-4e4b054237434f52d62d2995568e28b4a4021053 csky: Fixup regs.sr broken in ptrace
-3182dd038b268b833e9c1a4e191cf627c3ce38ce arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-43ec2d413ccda4f7c41d7e140934b45d92886d16 drm/msm: Avoid potential overflow in timeout_to_jiffies()
-057c56fad333e837f5393aab9c668bf291f9dd92 btrfs: unlock newly allocated extent buffer after error
-30e409fc0809c57b64fa35ae0b7e3c99266c32b9 btrfs: deal with errors when replaying dir entry during log replay
-ed95096ca31afc4b554071142e116ab54abf9620 btrfs: deal with errors when adding inode reference during log replay
-1a6592b6e2a2786e6ed2bf1942ab5ae24e13ccfd btrfs: check for error when looking up inode during dir entry replay
-350aa2035c95139ac6938a60ad3a7ffb776f2d74 btrfs: update refs for any root except tree log roots
-bf251a6ca9ad5642ee715e06b1df2a2ecee282c8 btrfs: fix abort logic in btrfs_replace_file_extents
-d109b43adc99d8ac2101bc6363666963cfa15f7c x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-a743dd06a60f111416725dec7c841d5ef58a986f mei: me: add Ice Lake-N device id.
-36fc621e12ac5f3402eaea5cbf8c8645630871a6 USB: xhci: dbc: fix tty registration race
-7b31133ea4a6a1a04596389eb032b226466356c2 xhci: guard accesses to ep_state in xhci_endpoint_reset()
-2fd6d1405caaa9821032bcfed1467567e927d6a8 xhci: Fix command ring pointer corruption while aborting a command
-73893f5c0b6f951c0dd31f72c9955d752c1495f9 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-8fd97cd7b76458d2593c28da6fd32eefdb5eba38 cb710: avoid NULL pointer subtraction
-0ae52c3b56c7932436bf4f1a5c410fd601518cb0 efi/cper: use stack buffer for error record decoding
-2d3c6063c61ad2fffa2be4b50e18d45164d454cc efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-faa38ff1d6799235201a0dc3ca5dbd3048816d3c usb: musb: dsps: Fix the probe error path
-3a8340b8627f2432c45bb2273248421a995a6008 Input: xpad - add support for another USB ID of Nacon GC-100
-c43ff54d82e9238f19603d676070e58f640e135c USB: serial: qcserial: add EM9191 QDL support
-d58dff5d7b8033c8d7e8f0608d0e1d301893811f USB: serial: option: add Quectel EC200S-CN module support
-776d11e8759d12097c1986eb7faa6313aefc662a USB: serial: option: add Telit LE910Cx composition 0x1204
-256d5b6fb281a08dbe9904a3c38b2f1bdcbae1da USB: serial: option: add prod. id for Quectel EG91
-3ab58c2ac50c69cc7ed8a08c09ac3a54a95e75b9 misc: fastrpc: Add missing lock before accessing find_vma()
-01092bee4161c843fb40907efd6908dac85f5e4f virtio: write back F_VERSION_1 before validate
-2895c0208f9bedd4816a9abdade5f20037f2ee83 EDAC/armada-xp: Fix output of uncorrectable error counter
-f5141bb5a42ce6e54c9603dece3e4cd91b302fe8 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-4c3174886d6b8c54926b20d53fd6d5eede8eb62f KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
-576fa66eeedca24a9f4371ee23138f56a24426bc KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
-83380de96174ea1fff50b193629a034b6e526f5c x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-e88bddc435d241489751eaef4ccf15067e3929de powerpc/xive: Discard disabled interrupts in get_irqchip_state()
-47afcae59291451fd6e776b9d6156d27b6bc4d92 iio: adc: aspeed: set driver data when adc probe.
-dbe4ea2f7d83ff9317aeb694f8e80db24e0f827c drivers: bus: simple-pm-bus: Add support for probing simple bus only devices
-97768548e353fb3fcb8c656a796e3fac914272e4 driver core: Reject pointless SYNC_STATE_ONLY device links
-75b30dc3d678ceeccd8e72710b6fe4b1ec0371e6 iio: adc: ad7192: Add IRQ flag
-9c73f453be67d5f6122d22c6d0b0c404a5eab69a iio: adc: ad7780: Fix IRQ flag
-363ef0369c93a1dbddf07945bd19272a4c126240 iio: adc: ad7793: Fix IRQ flag
-59d395a36ec9d358f70acd95e6ee14a30075cbe1 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-059cf241566e7175ba1f366838dbfe9d185dabba iio: adc: max1027: Fix wrong shift with 12-bit devices
-234d49f290fbb9f3b0a37aa1073ba135489cc59a iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
-f64b862cd8282b30aa122149dccd61b288f88a55 iio: light: opt3001: Fixed timeout error when 0 lux
-c27120dd335252b876d27d40f406ce3517b865ff iio: adc: max1027: Fix the number of max1X31 channels
-11995be470a24748a6f8cd4e4e78bd2d93a97436 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-f58b9e7767cd72d12333771b8037986a359cb9c9 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-d2a05f7ad6a8c3de6e92fa5ac7ec9153097c5fe4 iio: dac: ti-dac5571: fix an error code in probe()
-e7ff8b0d1cadcb3b4fe330b8d4627bb11ce6a6c9 tee: optee: Fix missing devices unregister during optee_remove
-0c38eaea0a0bdd6be43a6a317bf69196e30c6c17 ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
-42f22f56ec8c242281530f302d71ee1b6fc961fb ARM: dts: bcm2711: fix MDIO #address- and #size-cells
-5b199dd0e35cdf3c0f87feb5eeea1cb309e7089c ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
-b54fddb7db540362a137161309fcbb7dbca6767d ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
+220eb968ce20d5bed14baa9b4f99a4648be79fc3 ALSA: usb-audio: Add quirk for VF0770
+3156a0b351f32b97e96183e8fca997173a266b92 ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
+c336d191d47233da3e862daf02428754acfeb9f1 ALSA: seq: Fix a potential UAF by wrong private_free call order
+1df7a6efb650688eeca5c2dcf0ba174eb2296549 ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
+8e02d12dd9924ddbdb89b0609d908e28f7c932c3 ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
+8dea163b4197fcdb70962d6420ee9690527da9a9 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+19981a26c1dc8ff55e27f3359450081388ba71fc ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+9de69d6133d26685772b05b82503caca2f4a7f1d ALSA: hda/realtek - ALC236 headset MIC recording issue
+d07a37bfc6d393a6ff8a14ca0aaeded68f4672a6 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
+e2be7326a8d927be1aaaa13f246dc3d41a63e873 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
+6aef82515498c173ab516899f72bfb1fa5461758 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
+8acfbc2c3ddc21e8209e3d33e8512d6966a7a4d8 nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+53befd78996d89d21bccd6d8892bcb86784ae56c s390: fix strrchr() implementation
+a0b164aa745c629a75ec5faa19a0158e653c253f clk: socfpga: agilex: fix duplicate s2f_user0_clk
+132dff567557e3aaae88e071b337469b472d8f12 csky: don't let sigreturn play with priveleged bits of status register
+f2f9d0062906802c45660a3a410b9842987386f8 csky: Fixup regs.sr broken in ptrace
+b3243a6edd505a16f29321e2d5092697839bedc2 arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
+8cd12b0248a7cbc1235208c1a44e6c9e29fa2d63 drm/msm: Avoid potential overflow in timeout_to_jiffies()
+e2901501badfaedbfd2327fc9756cf97698c5430 btrfs: unlock newly allocated extent buffer after error
+e80e0caf529edc9bc6c92fc5588f21f87e652cc0 btrfs: deal with errors when replaying dir entry during log replay
+562ee593e5a58ee29a7eb72613c21f149e81c34a btrfs: deal with errors when adding inode reference during log replay
+74d1e2d230e6f869c376d37b4dca01db0599e52b btrfs: check for error when looking up inode during dir entry replay
+8232f3def97af2317d9f6fdc9f8f13fbaa969f13 btrfs: update refs for any root except tree log roots
+19c3983701ea0350959ffbeb4be36554e5162756 btrfs: fix abort logic in btrfs_replace_file_extents
+f2e610ede1c8106f70bd49eb793423f4a83801cf x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+3e47aee9c1aa2541697634c3f0cd4b51ebe47938 mei: me: add Ice Lake-N device id.
+6d4d68465e72cb9bdbbe64bfb9dbff44f98d628a USB: xhci: dbc: fix tty registration race
+858d21118793752bbf6bff7f79154740f139d8da xhci: guard accesses to ep_state in xhci_endpoint_reset()
+dab7aff50b9ca9fd80d0b39c0099678fbcac5e26 xhci: Fix command ring pointer corruption while aborting a command
+cefc70d8239c53592fd261c55c8c51fc3b184259 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+12c6a454049616043c70bdb99e55d363d43cddb4 cb710: avoid NULL pointer subtraction
+bca8a4ad8c84ef8b1993c4fd821ba8349a0c43d9 efi/cper: use stack buffer for error record decoding
+47dc3ea45b91af7326b900a268a7502730fe58d2 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+9c2a6385e717d14c0dc2bf122c272a73d5b9f86d usb: musb: dsps: Fix the probe error path
+99f1a6c1b3e86054a0775ff19c2d2071b59e2086 Input: xpad - add support for another USB ID of Nacon GC-100
+2fb6c2bd7faf7c3fd1cd8b49cf7b995499e791fb USB: serial: qcserial: add EM9191 QDL support
+8e2540efe83ade10d93287dbfcc7dc06e6af5be7 USB: serial: option: add Quectel EC200S-CN module support
+dd4f19330a4bc72135f1d978e6617fafa149f6e7 USB: serial: option: add Telit LE910Cx composition 0x1204
+456a34ce4e07e0c7abfc1e5a39ab4df825242be8 USB: serial: option: add prod. id for Quectel EG91
+1524eccf899327ee221dee8b2d61fe3e8a92d2c5 misc: fastrpc: Add missing lock before accessing find_vma()
+596a1f37696f84d8afc6a64afec984ef8dcd687e virtio: write back F_VERSION_1 before validate
+3f9ff1a78526a7576d6d7b451631d3a6004838dc EDAC/armada-xp: Fix output of uncorrectable error counter
+503b30ed85dd922b390894f6f08b8fa33209655e nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+13f323d396502a835dba4de9eb6551723facb7ad KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
+9c1eae980c7fbecfce42f65547eaf0fe806ab7c0 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
+95ee76bcfe7f445fee1bc53b03b0d986dbc69faa x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+96798ddd4b6c003f167b34ec99aef9079f3ff3fd powerpc/xive: Discard disabled interrupts in get_irqchip_state()
+9e721c5c374ebee19c680a56c644e8e7be11683c iio: adc: aspeed: set driver data when adc probe.
+b60b03be5d2d91f94f766a3f3816e7fafe7bd118 drivers: bus: simple-pm-bus: Add support for probing simple bus only devices
+6d4865b4b5ba4ca526a5cc9114b605f4839abb92 driver core: Reject pointless SYNC_STATE_ONLY device links
+bb4b2b5aac80db41bd554d246aecbeb6fde0107e iio: adc: ad7192: Add IRQ flag
+9648aba5934a39b4c81eebe63f338fb29db2a107 iio: adc: ad7780: Fix IRQ flag
+f7eddd443d3ae415efee92278eee41064f3b561c iio: adc: ad7793: Fix IRQ flag
+b7872f7dd5a8e75b6659ddfb80c4efe46233b497 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+c84fbef5d7b62028f295ca8983f39c7a77eb23b5 iio: adc: max1027: Fix wrong shift with 12-bit devices
+78cac34016537be9b68fb870106185e3e2b6e55e iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
+b9f8b1afe47b4c5d1ff36684d396d7ac15daf42d iio: light: opt3001: Fixed timeout error when 0 lux
+a163230676ed1d79646f7b0df3cc43bfea2e2fbe iio: adc: max1027: Fix the number of max1X31 channels
+eefb8dcdc0330c73cbdc228dc59de70d6a1ef6e4 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+4b2a7c36332442c01faf621c89d9a7e50e189c07 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+37ffbf3e91554c3c1464f699247d9a13fd0ed904 iio: dac: ti-dac5571: fix an error code in probe()
+9b5ad4b9ce0995ad689a387f6195d7bcefb2a7ad tee: optee: Fix missing devices unregister during optee_remove
+c2c9c1817fd10d145c2ce9a5b3bf0860b4dcbba7 ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
+e0c96252f90a1e3de9a22e33571af53c72ea8550 ARM: dts: bcm2711: fix MDIO #address- and #size-cells
+428c58165e0a4c70bd6395ca9ded1cdcd8e487cf ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
+fa4a223418ac5db1803ef90985ad6b97a19d137d ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
+f83c7d07b6471d6b4b5150636828d91164dc931b nvme-pci: Fix abort command id
+2b597de97307f772109b39fee91d07d63101e3fb sctp: account stream padding length for reconf chunk
+1649ccd7b5536f4b0b128e1322e997336cc8c05b gpio: pca953x: Improve bias setting
+1e09e5ab9d53e508f9199a37af2381cd35c0b39d net: arc: select CRC32
+16e819933bd498d2cde52c836627242e25918c46 net: korina: select CRC32
+329adadbd99b99b8b13a832de4cde89c91c219c1 net/mlx5e: Fix memory leak in mlx5_core_destroy_cq() error path
+310d63ab659ee7d1ed993c5eac5e79f3942a3cdf net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
+d2d532c262847edd3779f9ea213060a83fcffc67 net: stmmac: fix get_hw_feature() on old hardware
+259bf39d9496dafc849c45711cf6b15670c1ab17 net: dsa: microchip: Added the condition for scheduling ksz_mib_read_work
+d81f503076eae6a9d559ff0f0372d8dd7d748eb7 net: encx24j600: check error in devm_regmap_init_encx24j600
+041da4760c54daaf15fbf005263ef19a8c9de6b0 ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dcbf6234a9c-f526d7086d5e.txt
+Content-Disposition: attachment; filename=revlist-f526d7086d5e-2915d780f1b0.txt
 
-938f679992252afeb2c7185879663b656b42fb5d ALSA: usb-audio: Add quirk for VF0770
-3094ccc6c9171b10b73e13c0449baa26aa4ba098 ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
-2f3113d0e9e1359e6beeda2b29dd1f4419291693 ALSA: usb-audio: Fix a missing error check in scarlett gen2 mixer
-8106cd14b3e25350a133f050b7f447b1b57dd4f7 ALSA: seq: Fix a potential UAF by wrong private_free call order
-36bf4af54f714eae060bf76db4553da6e6783efb ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
-5fbcaa7347ba84bff562079a0fd1ce85eba466e3 ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
-8754042c7dde7640b201fb010b252e23fb157656 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-014c030815b23ff313f402d59783f456c97c8463 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-87f861b5bc9ec2e446566711c7a831d860766aaf ALSA: hda/realtek - ALC236 headset MIC recording issue
-b3ab026dd6da54d65657ca7fc86257fa9ce708a0 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
-772d5e1c97b04be665194b6577a668871c759fa4 ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
-3e39356a0202c527a10da939c26ecb251343b0a7 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
-a00b83e7467aefc9aa3ca9ad5afe80b4edabb6da platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
-376fb4e324c0e068f9bc95049fb09e36b0ca1026 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
-bfd869d0211b6a96e09183f8f53f2b933c9ca3f2 spi: atmel: Fix PDC transfer setup bug
-9c9a8eee41f221f981f31ab6c5c00f5759be6ecc mtd: rawnand: qcom: Update code word value for raw read
-8fff4e5d3f4b8b7faa61cd55bf8458263145c52c nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-528d9b6a43292a85ea529c9285bfb2b27a8e94ec dm: fix mempool NULL pointer race when completing IO
-e7cf8a141f2683c3658cb80d772341acf8abeb82 ACPI: PM: Include alternate AMDI0005 id in special behaviour
-d650e184fcba27b712b64986adeb4f1b8ec093e0 dm rq: don't queue request to blk-mq during DM suspend
-44aa29417badacd6ec5960c72ece5f507467e428 s390: fix strrchr() implementation
-6087524e26df528231f3fa2653aab2e8a4144d69 clk: socfpga: agilex: fix duplicate s2f_user0_clk
-dbfcc3c941f8fc34fc66048417737499256b6366 csky: don't let sigreturn play with priveleged bits of status register
-e598f5910d418156dd0e7a9829440d2336326f5c csky: Fixup regs.sr broken in ptrace
-d551f7ffc3f3d834136cd78de03c9123d29d02d7 drm/fbdev: Clamp fbdev surface size if too large
-1c86c61ecbab2d3d0629daf93fbf7acf5d2626e8 arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
-4e5308553134309c2ae1fc01431e47a45dc81a4b drm/nouveau/fifo: Reinstate the correct engine bit programming
-faa4cc9d318c28c73408fa79595a75c6713dd8d3 drm/msm: Do not run snapshot on non-DPU devices
-e47a19a4384c148ed0e156c355963d348b16dc7e drm/msm: Avoid potential overflow in timeout_to_jiffies()
-7408b426c6e4aa2e075b44967a0faccd4acfcbe3 btrfs: unlock newly allocated extent buffer after error
-69f73f0c674b00811e6af50d6e9472bf994e506c btrfs: deal with errors when replaying dir entry during log replay
-977538f6c5b76ae6c1ff6ed4dab79cd286061174 btrfs: deal with errors when adding inode reference during log replay
-323c1f73bace568df76a967ef65715e5fc012631 btrfs: check for error when looking up inode during dir entry replay
-eda854c98d2c609e96d8167c5dc2ae52b515f7f0 btrfs: update refs for any root except tree log roots
-360893aa2c7af76c1cd9316a70d5492bcec31c9e btrfs: fix abort logic in btrfs_replace_file_extents
-aaa0b58e67bfa070c788885dc64d438feab064c8 module: fix clang CFI with MODULE_UNLOAD=n
-8613c5baec83d5643e7c010cceee9ea1ba5765a4 x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-f9bcc618142fe8299d1a4cd8191a71058ef44cdf mei: me: add Ice Lake-N device id.
-22cc05272d10d6ac6f9a5cc6168870f8c0417728 mei: hbm: drop hbm responses on early shutdown
-dd036e82fa0bc3e01fb35b8f9f01e0c0165b50fa USB: xhci: dbc: fix tty registration race
-f35cb00b3e11d49bc034772e018eb28a70d672f1 xhci: guard accesses to ep_state in xhci_endpoint_reset()
-d42feacc3d1b2ebb25367fa4064806686438d20f xhci: add quirk for host controllers that don't update endpoint DCS
-17ddda749375edb2347997beb1fa7c3be052aac3 xhci: Fix command ring pointer corruption while aborting a command
-94d545aa4fc74d480cafe2931ff738fe993a3245 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-933630de6c6b1a092abefcff0fa6390239eb0fe7 cb710: avoid NULL pointer subtraction
-91876446ce26a5d1f568f081821edaaf04be00be efi/cper: use stack buffer for error record decoding
-b73f96f62729d238ab25cbc327b6bf217906bf20 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-63df241fee16a03a4eab83c882b1103df0d4cf3c usb: musb: dsps: Fix the probe error path
-3cf721d39eba665bd47ea80edbb2bcb37e87698f Input: xpad - add support for another USB ID of Nacon GC-100
-00d6085bef214256488f2babda635d8a9dc8bfdc USB: serial: qcserial: add EM9191 QDL support
-95076a3eadbe933dda53bf277b7f93f9fc7e703a USB: serial: option: add Quectel EC200S-CN module support
-0f93e73ea2cb90ee2786e2b0da032dd4b74ac1ed USB: serial: option: add Telit LE910Cx composition 0x1204
-d360cc35e5d3ccad2bbdd06892c99820faa39336 USB: serial: option: add prod. id for Quectel EG91
-1a43f4a0447d0350099aac707d44a7b9b58158c2 misc: fastrpc: Add missing lock before accessing find_vma()
-82e825f30c3405c92609b6427c5cc86c09f3e48e virtio: write back F_VERSION_1 before validate
-b76c1a04e076f8de0939ef059c329c443e71c6b2 EDAC/armada-xp: Fix output of uncorrectable error counter
-a4e1a099e4a0a142c8f1e53a3d5315130ee77304 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-fdf56956a634f191406f1b805000e0cc769272db virtio-blk: remove unneeded "likely" statements
-428015ddd410b16c414affddd7fa69f35ffeb2e4 Revert "virtio-blk: Add validation for block size in config space"
-680ca1e6fcba52719d2dfe2f73d79c662f5ef2bc KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
-8ca5d339ddb4d41562d23e17bcac923c8236e5e0 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
-00a2907388d60ee6ae0e87e2e3e4023179c88531 x86/fpu: Mask out the invalid MXCSR bits properly
-027f7a05ed1f930882534371c5275b4dcceb8f56 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-e2ae5a0538b9bc4cd0370133d3098da52543d82d powerpc/xive: Discard disabled interrupts in get_irqchip_state()
-2e7a542819abdbe8619553935fb5d7ee1ac424e8 iio: adc: aspeed: set driver data when adc probe.
-ae22cbe799cf92bfe25ccd5d04e65eeab231b380 drivers: bus: simple-pm-bus: Add support for probing simple bus only devices
-0539a1beb886cf69a2be159fcf1bea28a7d609aa driver core: Reject pointless SYNC_STATE_ONLY device links
-98ac3135da93a05b75d194a26dd4a877196433ce iio: adc: ad7192: Add IRQ flag
-13961670e1957668f6e41877a80a808fc66b6465 iio: adc: ad7780: Fix IRQ flag
-1009197a4fd81393253e7df1bbb23ca9d13b0a8c iio: adc: ad7793: Fix IRQ flag
-bdce993c248d0af78192c4378201d3555a0fc577 iio: adis16480: fix devices that do not support sleep mode
-7f1bb8c2a3d43d60acc7d9b88e89eb073d5e54d8 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-0e2ef74707c5ae2a4f5d563e6ac10f03241e5fa2 iio: adc: max1027: Fix wrong shift with 12-bit devices
-870636d2d5a5e8f013afdfc32c684be35dd05e30 iio: adis16475: fix deadlock on frequency set
-18503363dc680d22a4d7a6e3a205010d880b0d37 iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
-2c3d1d5996c955cb90dd0a1628b56cf77df60b85 iio: light: opt3001: Fixed timeout error when 0 lux
-486b936006f0371e77d112c8055c579f81b92ce2 iio: accel: fxls8962af: return IRQ_HANDLED when fifo is flushed
-cd02d5ba94c1039df9d258b07c35565c98d9a34b iio: adc: max1027: Fix the number of max1X31 channels
-861985180e8af9ab5b69744eb6273155b5939ff0 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-773766c6eb16760638dc13f6edba73c4cbcb390b iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-757ea2380194293627a1055a197b419edb3d5218 Input: resistive-adc-touch - fix division by zero error on z1 == 0
-bfb0c800346e0d4cafca56bc29232dffa915732d eeprom: 93xx46: Add SPI device ID table
-9bc4ff068edc8153bc13cc38d02ed63a3cd1cccc eeprom: 93xx46: fix MODULE_DEVICE_TABLE
-3b22d12f10e96bc36c48978e72d3700c99638d6f eeprom: at25: Add SPI ID table
-c7937811eeff436b29f9645691fb41073f84fdc9 fpga: ice40-spi: Add SPI device ID table
-13cf3176d0c4965cb36a80caf7754fdeb1e7968b iio: dac: ti-dac5571: fix an error code in probe()
-bc7658382894d8d206ceb7615a91af8820221b6f tracing: Fix missing osnoise tracer on max_latency
-721e0c46a97758e938fb9c1c70e110386c8f154d tee: optee: Fix missing devices unregister during optee_remove
-8b5315807236696f2b365135e070257e5f6f57c0 ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
-eb5bdea1f6df1c0ffa6524ef67c52c85d111eaab ARM: dts: bcm283x: Fix VEC address for BCM2711
-f0fd17b46c6ebc85cc10a2362043f25984ca3c3a ARM: dts: bcm2711: fix MDIO #address- and #size-cells
-c29e7c171efdcf1e911b8e9b76d61dad8034d1cc firmware: arm_ffa: Fix __ffa_devices_unregister
-fc2f8c0472e0e164de7583386a7750f49892c909 firmware: arm_ffa: Add missing remove callback to ffa_bus_type
-1f91800ccfec9ecbbb892cf5a949916b150b1836 ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
-396b624c7d4b0f414c4e5369a3251a84ab1a114b ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
-f526d7086d5e5a77e18374647bd870b95d3a81d6 clk: renesas: rzg2l: Fix clk status function
+0450b07ef4472a50eb8383f74f6c2af571a6c46e ALSA: usb-audio: Add quirk for VF0770
+55c96f97cbbef7b0a5647aba9068468987fd4b1a ALSA: pcm: Workaround for a wrong offset in SYNC_PTR compat ioctl
+5e0cd86b5a8c3f9fd4aae65efb339c7e8473ad56 ALSA: usb-audio: Fix a missing error check in scarlett gen2 mixer
+bb4754fc270f90d06bb0f555420570e1d8b53ae3 ALSA: seq: Fix a potential UAF by wrong private_free call order
+7a228318eef4b747f9ad80ae5b14834745a35e5d ALSA: hda/realtek: Enable 4-speaker output for Dell Precision 5560 laptop
+74e7a011cf57b049719769b2f717e890fa7ddcec ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
+bd63d844be85c218428f24e6084adbdcc402c2cd ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+b50d9dffaea34838905cf2dff1e6917451f2ca0f ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+bf8a553347da3f50c961d2e870aa581eb6e5d0f5 ALSA: hda/realtek - ALC236 headset MIC recording issue
+8d87c10796d83f8911e1cb4ad0c322da021c6af9 ALSA: hda/realtek: Add quirk for TongFang PHxTxX1
+1cda32c7f60d18147f4fdeff132d428471d2f35b ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
+2d80d81c698b2d9e56c2704882a86e7963986bbc ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
+0aa344e07726fe106fc9cc8f003149eae3e17c8a platform/x86: gigabyte-wmi: add support for B550 AORUS ELITE AX V2
+b72e956c5099d0efe32353ddecf735c583449702 platform/x86: amd-pmc: Add alternative acpi id for PMC controller
+6c812573b514f4cc1aa1bc0a89e3a081fe2c8b4a spi: atmel: Fix PDC transfer setup bug
+aed6771585fec55978d7e5d2ab526e9d1522b6f9 mtd: rawnand: qcom: Update code word value for raw read
+9cc450fac6eefbfe71cc8af3129e7163b884437b nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+171d3e423ec7dcc474373c01191850e1a3d281e5 dm: fix mempool NULL pointer race when completing IO
+ed0effc6c7d6ac315a87de9f66b0a34f0fd14a2b ACPI: PM: Include alternate AMDI0005 id in special behaviour
+38d1279058bfe35e50f7f5e6d6888feef30232d7 dm rq: don't queue request to blk-mq during DM suspend
+ba9483fb11d87f64a349562e9074a3264f6d68ec s390: fix strrchr() implementation
+997caae149b81b96a6db23df3eff91a2a69fce70 clk: socfpga: agilex: fix duplicate s2f_user0_clk
+7a468d146f7c0c513e64aa6c6a69b5bea1f82aea csky: don't let sigreturn play with priveleged bits of status register
+e43d48741bed53f72c230fed0019fc6fba82b1d7 csky: Fixup regs.sr broken in ptrace
+a40244ec83e42ccb6ed9d2eb3a1c48cebfe54777 drm/fbdev: Clamp fbdev surface size if too large
+0141ccd256f1e174eddace8a0577f282c57559d5 arm64/hugetlb: fix CMA gigantic page order for non-4K PAGE_SIZE
+c83d183fbbfdfb731ffbaef8feffabad66ac9077 drm/nouveau/fifo: Reinstate the correct engine bit programming
+55c940539be29e8094256ff37690aa09862bf0ef drm/msm: Do not run snapshot on non-DPU devices
+1649b7286431b43574db9fa6bcee4eb10b75a13e drm/msm: Avoid potential overflow in timeout_to_jiffies()
+ce8529e283214b1377f85cb1797f3cf4024c8cf8 btrfs: unlock newly allocated extent buffer after error
+a18831478cb1f39bdde3a17242229a07ec15094c btrfs: deal with errors when replaying dir entry during log replay
+1fb670d628c42badd92b75e29062d3d3bc3a9400 btrfs: deal with errors when adding inode reference during log replay
+e779d67f8adc99a143c91a68ad7b8aa62add84ed btrfs: check for error when looking up inode during dir entry replay
+456d0c12eb6936739ae1d4cdb28ebcc8d6aca424 btrfs: update refs for any root except tree log roots
+f9c448f6ab5934ef7a6caa211e83e79746db2aa1 btrfs: fix abort logic in btrfs_replace_file_extents
+b49d170b199ebbe95779e873ca19ad0894d00c39 module: fix clang CFI with MODULE_UNLOAD=n
+f65d49ec08a7905accd792c07bc4f7370ddb810a x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+df8fac5c36460d2c7f5956c4a793d7e61c861129 mei: me: add Ice Lake-N device id.
+174e2694431cfc04350eacd493e950fcde6e7bc3 mei: hbm: drop hbm responses on early shutdown
+d751877c2db7cd89dccac72db108c1e3cfe09129 USB: xhci: dbc: fix tty registration race
+aba006d2ac224feb1ac62769cbbc660d37970d02 xhci: guard accesses to ep_state in xhci_endpoint_reset()
+3fa3840399be5612ba73a6837fa288617cdff33e xhci: add quirk for host controllers that don't update endpoint DCS
+d8747e4ce0d03b6259770c333024b571231c14f5 xhci: Fix command ring pointer corruption while aborting a command
+13d510fed328244f7a95e947fb29ddf7ae0240e2 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+2d606abaace86d692d3b50f52fa7347d1eb67942 cb710: avoid NULL pointer subtraction
+5149cbe6873716431ebec2b437b16e5dd056b701 efi/cper: use stack buffer for error record decoding
+baac1502edb72edcaefe4306b82d3e32f1615f83 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+f2cb706b4c625fc4d5f5c6a365baa737b1bec079 usb: musb: dsps: Fix the probe error path
+27fe115c07b12928a9d74b576695736376da3dcb Input: xpad - add support for another USB ID of Nacon GC-100
+fc552a70cebcc84f141cf5a0630883e0e8bd8d71 USB: serial: qcserial: add EM9191 QDL support
+539097a98f97f83b0ff2e04e5720ff2a91f7596b USB: serial: option: add Quectel EC200S-CN module support
+8eaba1a2c6f5a97389a6ebd7946b08065ee6ee85 USB: serial: option: add Telit LE910Cx composition 0x1204
+183047a79079e8c044e2c11cbf9ad5a682aef2cb USB: serial: option: add prod. id for Quectel EG91
+546fe272ce501a09b1961fc5715b09023e67eddf misc: fastrpc: Add missing lock before accessing find_vma()
+19c414e3ca789a0593af2c83307c222cdb3e608f virtio: write back F_VERSION_1 before validate
+3f54cf22f2775787c59860bcfdd8364928bffa75 EDAC/armada-xp: Fix output of uncorrectable error counter
+21fe08ed0ae6b35f9296e84339839c1814e9a173 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+eb614a6e9b5bfdede15f5a0ed082a6a9ba5fa684 virtio-blk: remove unneeded "likely" statements
+666254c28f28fa621f5ed68de10218ed4a6c1731 Revert "virtio-blk: Add validation for block size in config space"
+4aec07ad577ff8844d53f0bc42c155b09cea9683 KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
+18e384dc2a3483044881b5420b33daad00c1960f KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
+888ecf12d7cdd1772bab3607dafada718bf9367a x86/fpu: Mask out the invalid MXCSR bits properly
+34260b79ead43751e60a7d63628bde0e58903da0 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+6c316d494ec600337da493a5b94f0a3d373e6415 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
+f3154b4247c14e35c3fbe1c9b3a2c285ad2a65fc iio: adc: aspeed: set driver data when adc probe.
+979846f33c9079fd50c795f7008349198e9e1b25 drivers: bus: simple-pm-bus: Add support for probing simple bus only devices
+bf96b8cd9e42cf113b5d06c9b24726e486724616 driver core: Reject pointless SYNC_STATE_ONLY device links
+c09794009aee0f5001bc27a4078627f7688bb424 iio: adc: ad7192: Add IRQ flag
+1608a915d90d0abfbfeb538e947abc831a3c2fb6 iio: adc: ad7780: Fix IRQ flag
+a083b5fe65a99575c941b74916295f94d8fc986d iio: adc: ad7793: Fix IRQ flag
+fc7a4defd3a01b34dfd2f474af655683263710d2 iio: adis16480: fix devices that do not support sleep mode
+4d7bdefb99171d81abf6931e8db699e02d519964 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+56055303f2dbb008d5a1ef181b28e268056b2878 iio: adc: max1027: Fix wrong shift with 12-bit devices
+c7bf7a552bdec795456e49ef9ab54d9f14b357b8 iio: adis16475: fix deadlock on frequency set
+bbe8be37265f7a6a2d7789d985b54c5f233c49cb iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
+ac3f88084c33d6bec317a4688a130a960b6edae5 iio: light: opt3001: Fixed timeout error when 0 lux
+8fe0964a524db1009d3df74b811707027ac90d88 iio: accel: fxls8962af: return IRQ_HANDLED when fifo is flushed
+9ecd82dc21ed40412bb625eedd95d18d4dc53cba iio: adc: max1027: Fix the number of max1X31 channels
+d68c65aaeea6d833caaa63124e7c7ccd7479769b iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+7a8891600ae0ffd5c765edc7d1733edbb57ef70a iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+7ac952f3996ed571347843e52672435ab4b43dea Input: resistive-adc-touch - fix division by zero error on z1 == 0
+54208a380e69e0fbeed35d0f75e9edd52f40faa0 eeprom: 93xx46: Add SPI device ID table
+7e4971abdacd8750414324ed283e6aab579f1dd8 eeprom: 93xx46: fix MODULE_DEVICE_TABLE
+e3fb2f90d6b804fe1b1e5cfe56ca1a7e006cf1c1 eeprom: at25: Add SPI ID table
+b2c04aa1481d17f1e4f779d29a39de148cd1a619 fpga: ice40-spi: Add SPI device ID table
+dbbf77badac8625fd329cb95b6b7f5cf2078c82f iio: dac: ti-dac5571: fix an error code in probe()
+a131d5a62e1835ef5f4d41129aaec2ff9999591c tracing: Fix missing osnoise tracer on max_latency
+24cb3901b33651f578bedf60819b68abc848d695 tee: optee: Fix missing devices unregister during optee_remove
+ed67d039f8c9ddd270364c2563a3be99d0966d51 ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
+ba3ee22563b0a09ce1bb56d9e1cca6cf9e271ac6 ARM: dts: bcm283x: Fix VEC address for BCM2711
+b7b00a439e45c3a6043d408993264d5ff5d99379 ARM: dts: bcm2711: fix MDIO #address- and #size-cells
+3e4b84e8649cded6f58ad2ce2d51e17b3358d092 firmware: arm_ffa: Fix __ffa_devices_unregister
+f253bed5bb44bd454712d39a3d142b390db16484 firmware: arm_ffa: Add missing remove callback to ffa_bus_type
+cb1ec2ce3224a9ebeced321f016cca058cae9a52 ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
+4e177723945c869b1164b05d883258d4300bf5d5 ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
+7b075c2c8166b910590850b8b9409d8efd7ebfbf clk: renesas: rzg2l: Fix clk status function
+a8f982ffa7e557bd9fc26af5b26c724d65152d53 nvme-pci: Fix abort command id
+d5890d1904fd116ee4377f5feee30b8cb00f9061 sctp: account stream padding length for reconf chunk
+a46b179504cd51761b1393fce919fd905af25fb8 gpio: 74x164: Add SPI device ID table
+0e561f2b066ab85956517ae732de6b38d10f308c gpio: pca953x: Improve bias setting
+79430ce07f3d4ddbb7b098134db10710bcf746bb net: arc: select CRC32
+f137070ff9072e3daef948fc647771f641116187 net: korina: select CRC32
+23dab68d98931c49b31f49542b33a303de227527 net/smc: improved fix wait on already cleared link
+0abb75fb824e142b44aacd8b993d14003753bac4 net/mlx5e: Fix memory leak in mlx5_core_destroy_cq() error path
+5fe7a6ba04cbd77b3cbdff23797fac73f045e7a6 net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
+effbd867ea91e101c995d4b947f2e942d7e21603 net/mlx5e: Switchdev representors are not vlan challenged
+3ead7bfc68c5f9768f80f983d08a8794bea541e7 net: stmmac: fix get_hw_feature() on old hardware
+799d5c91b0597d71bc5b05ab421c70d1bab9cdd4 net: phy: Do not shutdown PHYs in READY state
+9a0f6711422b9bbe15c0429281092b338ff7a1a1 net: dsa: mv88e6xxx: don't use PHY_DETECT on internal PHY's
+4dd5869e51653b0618eea39abd3633b435f4b874 net: dsa: microchip: Added the condition for scheduling ksz_mib_read_work
+3cfb7adac971dd5de129e60f3f8701413e085313 net: dsa: fix spurious error message when unoffloaded port leaves bridge
+848d270525ba08410388a0550e653fbef2d1f480 net: encx24j600: check error in devm_regmap_init_encx24j600
+2915d780f1b0267c6e5f68f888fd952d91b5e49d ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==
+--===============0273203801480631908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-350ca16ad4e3-e91c5f92800f.txt
+Content-Disposition: attachment; filename=revlist-e91c5f92800f-a2c1071fdb9b.txt
 
-df731073999b1ea390202f7c6b7ed6bf796b2d1d ovl: simplify file splice
-cde8292c7ebfb27806d34ec003ead32e6161b8ec ALSA: usb-audio: Add quirk for VF0770
-9616386abb6e30e7a227dbefe0252433efd641de ALSA: seq: Fix a potential UAF by wrong private_free call order
-e94b3058c75a420d21d10e48b58aa58df8d8bec0 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-5529e79a0e562f8c359ee905bd0f5de198cc16d5 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-25cefd1c0dd4ab5ac48a5bd7525280b31cc91c34 ALSA: hda/realtek - ALC236 headset MIC recording issue
-6b0573050909378e6fe023930de02914c5760088 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
-dedccc4c02391b23515c3a68ec30d976f4d74355 nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-6c11aa5077cda7a5ff4813e44f88c568564de9c4 s390: fix strrchr() implementation
-8d7b7aa4a9fab5639f09b9405a3deed0742c2299 csky: don't let sigreturn play with priveleged bits of status register
-77dd3fcc7158f67ba77d6935e4630ba2fbe4e1c7 csky: Fixup regs.sr broken in ptrace
-7814183a7381e3a1d0b5cd196f5cedc487d344a1 btrfs: unlock newly allocated extent buffer after error
-7dac69dff9107acfd7fdf13e1fbe6a333e9139b2 btrfs: deal with errors when replaying dir entry during log replay
-4ae976bc83c964746d08f501c357307009661793 btrfs: deal with errors when adding inode reference during log replay
-f9c7468e5428494d93e40156c68f8f184c9ccdad btrfs: check for error when looking up inode during dir entry replay
-6a139a4254044bf7a70a7b9bafbb7c318245785b watchdog: orion: use 0 for unset heartbeat
-1c5dddd4de9ce06b5af73ed453914003de79182d x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-e2864e2c370058407885135c1048ec0bd3a70ff3 mei: me: add Ice Lake-N device id.
-fc20f9d87cb0d7e8d9eae678b5d3d4e93aed769c xhci: guard accesses to ep_state in xhci_endpoint_reset()
-a51ce968a94bef88384273fdf184de2bb58820aa xhci: Fix command ring pointer corruption while aborting a command
-b39d80f7c1bf6e10440850b04ff349aa3d9d5a11 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-f55e9e081bd685daa52e1a58d2c787f37fccada6 cb710: avoid NULL pointer subtraction
-c7c8824fc20a0e860bda972b169ba77ee4def963 efi/cper: use stack buffer for error record decoding
-c9408e3f9f096c792d246489c0973ef11f3d2e52 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-bf8d58781bdf255b0f62bceef8635c784486b03f usb: musb: dsps: Fix the probe error path
-444e3a809c342d64ff47490bab082c3f6f181a09 Input: xpad - add support for another USB ID of Nacon GC-100
-54649a8e99bb8c854d2ea55b68b9e50e72f84e86 USB: serial: qcserial: add EM9191 QDL support
-aecde3135c6ba4dc470d1dc5da0832cd03f477de USB: serial: option: add Quectel EC200S-CN module support
-960b3140d9c5383a1cf1c40341c7354bca352f08 USB: serial: option: add Telit LE910Cx composition 0x1204
-f0d6b29ff2733672d7966a8b4d1d01e97fcbc510 USB: serial: option: add prod. id for Quectel EG91
-61d474ea91b9adc59d0429c844f411655643669b virtio: write back F_VERSION_1 before validate
-2f2cc4c67297ff2df6eeb67ebc701506d8a2e0ae EDAC/armada-xp: Fix output of uncorrectable error counter
-67ca1fdedd1b3993ef47dd7714cb60a3bb320c5b nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-d481646216b841b46f1909e56c07447e2f482fff KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
-acdee700cd78eda71875d7afa74cf4d2f7b2ae17 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
-dcbf4c49cb9fc1bed6e6f468979347797297f17e x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-632abd991e69768a9dc592dcad2599c3a1694c18 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
-1af7c0ce65fdd1a5eb478160cf08cdee268f5e89 iio: adc: aspeed: set driver data when adc probe.
-b7dfe05d2b19888fb743400554b02e3a627f322d iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-736a08d325b438c74f69b3e5e24d51829cf727ab iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
-5c02ebc16fcc8f8c26763f8c1760e5a01476e9ca iio: light: opt3001: Fixed timeout error when 0 lux
-6917eeb88cc3cce71e10d1eeb3d74a2ffb2974dd iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-112be67d831868a2ec7cee95df00cdc86a058a8a iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-e91c5f92800f3915a97d9a20f7eedffa329d242a iio: dac: ti-dac5571: fix an error code in probe()
+60fa723f9910b9b521875ab55d31acae0a7b8c81 ovl: simplify file splice
+ff98d78a59ead2388405f94fa0c2f0dc8f72d692 ALSA: usb-audio: Add quirk for VF0770
+d2c3525efcfc488a3ebc0289c8a3c33fc0dafcc0 ALSA: seq: Fix a potential UAF by wrong private_free call order
+5ec0a4d7ddd2d3f76479905f5c998979faf55c4a ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+3403cf5705f8ed20833af7cc4083c5cd03f8f9c4 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+1ae7f92c3d5d0e1370aedeee27e443d2b8467bf8 ALSA: hda/realtek - ALC236 headset MIC recording issue
+a54d6db68ab425c4acf76bd743441384310866c2 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
+b9ed7ab962bd69d02e3cc7415e67b4de6c958e4a nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+dfd1d0048cc4256f68afcdd090c9ef6666d5cd32 s390: fix strrchr() implementation
+6c26e2c8537ab482dd659e0e1010da3274772f3d csky: don't let sigreturn play with priveleged bits of status register
+7d98d5da1b425ad831ac43b4aa3d5051ce1cc3c4 csky: Fixup regs.sr broken in ptrace
+28b17f549945e7acc690770498d42134c9b9b844 btrfs: unlock newly allocated extent buffer after error
+1e4dd485e1b24e84ee78fac28a8d21fb2cfe650e btrfs: deal with errors when replaying dir entry during log replay
+d1225d588aba7e5403e3da39ee7be99052195c69 btrfs: deal with errors when adding inode reference during log replay
+718a7372c19bf2d2a767d6c50dd8cc2e1d7186c0 btrfs: check for error when looking up inode during dir entry replay
+07ba07ea5a6bed7529b38ecc62f015904a82199b watchdog: orion: use 0 for unset heartbeat
+f41c1c27a5dff1e5196643d9022e770bf071855c x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+34f9afacd9d9b5d9881ea5875835f697e8911ea8 mei: me: add Ice Lake-N device id.
+460419350323d87c50ac9f85c15b85fac2cb7fc1 xhci: guard accesses to ep_state in xhci_endpoint_reset()
+44422e821576622b164a5e59be2de2bc9c063242 xhci: Fix command ring pointer corruption while aborting a command
+d5ea485bba008139c7cf4d396f8ad821f73b774f xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+f83531a11992bcd784f88a38c65c96abbc34e662 cb710: avoid NULL pointer subtraction
+eaa439736ae387bd4afe9af24b932a3bfc61bb3a efi/cper: use stack buffer for error record decoding
+fce1e2a0e8259f4b8c5d61479c9a73d44e6c6062 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+4943900e327b3299424ce9266ea555c63de80b76 usb: musb: dsps: Fix the probe error path
+f9f3542b581ec530bd1b1036ada154b174e0c88e Input: xpad - add support for another USB ID of Nacon GC-100
+24a746875f37089670012933c995f6006a287fc7 USB: serial: qcserial: add EM9191 QDL support
+be9d7739e8435bad6b5dc6e39681cc94da84681a USB: serial: option: add Quectel EC200S-CN module support
+5d228f7332908325626ee6adc74a0d4b414e82fe USB: serial: option: add Telit LE910Cx composition 0x1204
+c4c20759a527eab5306771a20c4ee5991a9fa7b6 USB: serial: option: add prod. id for Quectel EG91
+7ffa5cb2f1093cb81573272c1410bdde74a85f81 virtio: write back F_VERSION_1 before validate
+872d7c97ee20bd03aaeb72078e767261b458ae5f EDAC/armada-xp: Fix output of uncorrectable error counter
+a449e4f26d04915ac23d73c9a3468314e8578aca nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+4c3c0989f7f2d5065267432cb8c98740d7aa1109 KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
+1c23e46686e787bf9b4f6540988055d12cb8ee53 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
+5105ba96f6ee17905fb16ff8e017dd66c676b797 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+757be1d3550907bb080af7dc5c311947f2dfba54 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
+0285b356ae7de37a68ea99ae3ed25358c8c29d24 iio: adc: aspeed: set driver data when adc probe.
+3703d9b7e1ddcb75e7f79f90d8aca5a98c52ac19 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+bce5db3bb9d69bc4ca134c78cff7fb5fbe17920d iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
+8d7e18322b3360e57f52cdb756cc4f4dc36db366 iio: light: opt3001: Fixed timeout error when 0 lux
+b9b080dcc42107bf654b8418e5ed5dcf3dd3713a iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+0915d88ef380d9e2f4c376e27e7d9bd0efc7864e iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+2240d201bfe902964bc6f2d219c88894fb8b87c0 iio: dac: ti-dac5571: fix an error code in probe()
+ea74264e9a20b9b31b06891e16725220297a016d sctp: account stream padding length for reconf chunk
+9b207723aba28b21a0aca0a13f66832123857515 gpio: pca953x: Improve bias setting
+486a3a5ca1fc7b0685114412cb60e5800db3d40e net: arc: select CRC32
+29dd46a4a2f69ed209db94640ef74bf6a2ac6a20 net: korina: select CRC32
+219927de6ca7168b54caafa54092586e29181f97 net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
+044f8a9870cc0692f936fb987da0b970c0ed8251 net: stmmac: fix get_hw_feature() on old hardware
+998f6fabe7aa4de8d8e55664ea22e9e634739a84 net: encx24j600: check error in devm_regmap_init_encx24j600
+a2c1071fdb9b351dac53176b11e63d3a8f11e97c ethernet: s2io: fix setting mac address during resume
 
---===============4967553523269135734==--
+--===============0273203801480631908==--
