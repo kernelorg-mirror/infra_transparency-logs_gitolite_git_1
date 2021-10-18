@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6447015565086667723=="
+Content-Type: multipart/mixed; boundary="===============3196724768125200416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 18 Oct 2021 20:11:00 -0000
-Message-Id: <163458786035.1766.14699084022095473454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 18 Oct 2021 20:11:11 -0000
+Message-Id: <163458787195.1913.3748497540772626937@gitolite.kernel.org>
 
---===============6447015565086667723==
+--===============3196724768125200416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 7aec49b9c33e06842540b9dfe9a4a5eb6e6f1513
-    new: ae5d6ef8c525866a492280566d6dd2edec424445
-    log: revlist-7aec49b9c33e-ae5d6ef8c525.txt
+    old: 48de340548afa3ca1018e317f3e4521c86087dbd
+    new: 519d81956ee277b4419c723adfb154603c2565ba
+    log: revlist-48de340548af-519d81956ee2.txt
   - ref: refs/heads/for-next
-    old: 48772ddbb3366c79fab2bd480d81462b2b356306
-    new: 33ba2957b3a73a3e5da17a76335aa156930a1ab5
-    log: revlist-48772ddbb336-33ba2957b3a7.txt
+    old: 2eea51d9fcc93c1452bd52b700f3b7d6445f1b3e
+    new: 0735be7fa1adf0eb4ea99f6eb2cedadcc2712684
+    log: revlist-2eea51d9fcc9-0735be7fa1ad.txt
 
---===============6447015565086667723==
+--===============3196724768125200416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7aec49b9c33e-ae5d6ef8c525.txt
+Content-Disposition: attachment; filename=revlist-48de340548af-519d81956ee2.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -151,7 +151,6 @@ eb7b52e6db7c21400b9b2d539f9343fb6e94bd94 firmware: arm_ffa: Fix __ffa_devices_un
 68c9cdf37a0456b7ba25a50b1ea8794f305da17f efi/libstub: Simplify "Exiting bootservices" message
 b3a72ca80351917cc23f9e24c35f3c3979d3c121 efi/cper: use stack buffer for error record decoding
 38fa3206bf441911258e5001ac8b6738693f8d82 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-beb76cb4eebf9ac4ff15312e33f97db621b46da7 MAINTAINERS: rectify entry for SY8106A REGULATOR DRIVER
 cb2282213e84f04ab7e93fd4537815da5db2f010 serial: 8250: allow disabling of Freescale 16550 compile test
 b1e0c55a409955aba2d5a151f3f3a8bda8e45193 fs/ntfs3: Use available posix_acl_release instead of ntfs_posix_acl_release
 d81e06be921f90d5f1bada59d4549ca6f1bedc61 fs/ntfs3: Remove locked argument in ntfs_set_ea
@@ -450,13 +449,12 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-ae5d6ef8c525866a492280566d6dd2edec424445 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
 
---===============6447015565086667723==
+--===============3196724768125200416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48772ddbb336-33ba2957b3a7.txt
+Content-Disposition: attachment; filename=revlist-2eea51d9fcc9-0735be7fa1ad.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -579,7 +577,6 @@ eb7b52e6db7c21400b9b2d539f9343fb6e94bd94 firmware: arm_ffa: Fix __ffa_devices_un
 68c9cdf37a0456b7ba25a50b1ea8794f305da17f efi/libstub: Simplify "Exiting bootservices" message
 b3a72ca80351917cc23f9e24c35f3c3979d3c121 efi/cper: use stack buffer for error record decoding
 38fa3206bf441911258e5001ac8b6738693f8d82 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-beb76cb4eebf9ac4ff15312e33f97db621b46da7 MAINTAINERS: rectify entry for SY8106A REGULATOR DRIVER
 cb2282213e84f04ab7e93fd4537815da5db2f010 serial: 8250: allow disabling of Freescale 16550 compile test
 b1e0c55a409955aba2d5a151f3f3a8bda8e45193 fs/ntfs3: Use available posix_acl_release instead of ntfs_posix_acl_release
 d81e06be921f90d5f1bada59d4549ca6f1bedc61 fs/ntfs3: Remove locked argument in ntfs_set_ea
@@ -878,7 +875,6 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-ae5d6ef8c525866a492280566d6dd2edec424445 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-33ba2957b3a73a3e5da17a76335aa156930a1ab5 Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+0735be7fa1adf0eb4ea99f6eb2cedadcc2712684 Merge remote-tracking branch 'regulator/for-5.16' into regulator-next
 
---===============6447015565086667723==--
+--===============3196724768125200416==--
