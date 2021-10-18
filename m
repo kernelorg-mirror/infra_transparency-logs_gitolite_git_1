@@ -1,26 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0200845887814193415=="
+Content-Type: multipart/mixed; boundary="===============1381924009924777175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Mon, 18 Oct 2021 06:13:41 -0000
-Message-Id: <163453762120.2296.5373366466490290271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 18 Oct 2021 06:14:05 -0000
+Message-Id: <163453764514.2456.13675452105621101363@gitolite.kernel.org>
 
---===============0200845887814193415==
+--===============1381924009924777175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
     old: d999ade1cc86cd2951d41c11ea769cb4452c8811
     new: 519d81956ee277b4419c723adfb154603c2565ba
     log: revlist-d999ade1cc86-519d81956ee2.txt
 
---===============0200845887814193415==
+--===============1381924009924777175==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634537641 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1634537640-d21b733d72739a2d480efbe303ef1789afc40cde
+
+d999ade1cc86cd2951d41c11ea769cb4452c8811 519d81956ee277b4419c723adfb154603c2565ba refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtEKkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1mAP/jmfIDOSVupnumWhSKe/
+Ka8LnmFrHeLF+wRDrTHltL4pDxKbg9AAGfrtpAME/h7f3/csDdfQtcAVhg9p4sdV
+QPbNGCBm/HzQovEmL4PW6drf2cph/7yW+HgDe9MKQZCBiub3NHvmc44IbvdePj9F
+I2IxECXWzcI7bM2PMUaonzDTv7Yt98csNTA4yUKTXWWWss2jeIlOCSdSQGJfM8qj
+q5vLTUglsX2tTvFFRkmfXM6kuvddIwrqIpZgCPkFjbQBUqPE8aXDLa2zX6Phvbml
+ny1wD7nuAP1gpTOchEroZa7NcPlvEc6ewzQMtFdUCbnXDWsFCCBrshYrTpZa8u9q
+VTlAguOvLhJ5oxpKTTrSVH5ieNbbWUuqJgnCq6wJOcYMU7cW5nBMQ3a0Szdh6JIc
+c8w3M/6mBZpagXVdJ0plFgIFpX6pnaqETLrimeiki935l1ZK7ZG9Y/8j/r3o5YUo
+sPZBqhdqLCT7+06KZg2CuNqbdDBjBoPH2oPULchtF2ZC+TR+kQlbsOWAmOCynxFE
+rFpVq0Cl53S6TllAvCuUkx7fTTryAi45DEb0qRupSUILmfqKHeOEmGohEgQStB64
+kMptx1FPij85+fErbM4qguUkK0srTVxEfAM3J6mOmABAC1FN52OqGr5YrKalME9J
+zPulSuMMtZqEf5Ilh2+3N+tP
+=wDiy
+-----END PGP SIGNATURE-----
+
+--===============1381924009924777175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -134,4 +165,4 @@ f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of gi
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 
---===============0200845887814193415==--
+--===============1381924009924777175==--
