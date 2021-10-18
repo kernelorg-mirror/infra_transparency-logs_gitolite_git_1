@@ -1,140 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============2353550307775294948=="
+Content-Type: multipart/mixed; boundary="===============0494522199875315521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 18 Oct 2021 00:44:51 -0000
-Message-Id: <163451789136.19936.11782579250419758099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 18 Oct 2021 00:47:50 -0000
+Message-Id: <163451807036.22325.15497720239719682978@gitolite.kernel.org>
 
---===============2353550307775294948==
+--===============0494522199875315521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/pending-5.10
-    old: f2a77baa6bec41bab62ddd033fc804788f14544a
-    new: 916d0024f2ddb82ebd1d2740c2e712937df8e12c
-    log: revlist-f2a77baa6bec-916d0024f2dd.txt
-  - ref: refs/heads/pending-5.14
-    old: 71e5cb548ad272e0f76a73ab52f98306754c666c
-    new: 59866f9b89f5e40470ac87841bce5bf6eacdfdf6
-    log: revlist-71e5cb548ad2-59866f9b89f5.txt
-  - ref: refs/heads/pending-5.4
-    old: cfc19ca56591d8f717e3eaf0eae0fd90ac9f270f
-    new: f6bfb86c8f32e039554fd48b252f6e6be39008e7
-    log: |
-         a5a80d969478bcd936300a1ba73a46899beb5c67 net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
-         b48cc753cb98d5bf0671eb374cb75a76d35d8e87 net: arc: select CRC32
-         c0ab12d0df4f223c409a89728b92e60366252e19 net: encx24j600: check error in devm_regmap_init_encx24j600
-         2641151446093d8df50de8dd6a4dcef13672bece nfc: fix error handling of nfc_proto_register()
-         0d3598e25aa864468775013752a3dc359543718b NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-         a64ced4d5fdd075995edebc6df048798d39adfeb NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-         421cee130a90c2424787fa1a99c36ebae9fa1ff9 ethernet: s2io: fix setting mac address during resume
-         096e487a9c75d334f68a56b74161e7281f1c020d mlxsw: thermal: Fix out-of-bounds memory accesses
-         c63a42bc731f8785b7c1c06abb962f2f68db1372 sctp: account stream padding length for reconf chunk
-         f6bfb86c8f32e039554fd48b252f6e6be39008e7 drm/panel: olimex-lcd-olinuxino: select CRC32
-         
+  - ref: refs/heads/seen
+    old: 957ac05270bb467fcb2ccfe6dfb6a3f06f58878e
+    new: 2a00a1ffddd66b7f41b5a05add0345665b88a03a
+    log: revlist-957ac05270bb-2a00a1ffddd6.txt
 
---===============2353550307775294948==
+--===============0494522199875315521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2a77baa6bec-916d0024f2dd.txt
+Content-Disposition: attachment; filename=revlist-957ac05270bb-2a00a1ffddd6.txt
 
-11badb53aaff391850c271a33e888b225bcc8d67 spi: bcm-qspi: clear MSPI spifie interrupt during probe
-e8e96b1ff40d4921c6eecc4b78df78f7a0776508 platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-691cd1c620c501b710de25fe11eb406629151355 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-2477f1191c2fc30fdbb299151f8773fff6924e47 platform/x86: intel_scu_ipc: Fix busy loop expiry time
-77aafe426c0ac216594cdd7994689c611b1f33f7 drm/msm/mdp5: fix cursor-related warnings
-1de806535b22f35c531e6b9423514db3f970cd2e drm/msm: Fix null pointer dereference on pointer edp
-4006b6e8d10d08ed1ea5916c139b6f55b0965fc8 drm/msm/dsi: Fix an error code in msm_dsi_modeset_init()
-c008ea50b6f3f0fe1243ea447ee78ffd78b32165 drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-5f7456c428c7f28119fb2670b43933da8bafdd5f net: dsa: mv88e6xxx: Don't force link when using in-band-status
-3cd9e36189b5d62d0df9235c104420e0b9b9f1ec net: dsa: mv88e6xxx: don't use PHY_DETECT on internal PHY's
-4c5a0259233c1346a0aba48660aa62f6ca9fef41 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-0a577917bb5f9b87a5a7699cbaa3d53ac6618352 net: dsa: microchip: Added the condition for scheduling ksz_mib_read_work
-f0644c4f18b63d08a27fe0d9d190452270ad5a2e tee: optee: Fix missing devices unregister during optee_remove
-e31a14105db3d5cf942f59237358796f906b9358 ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
-125cd801b33a89c41e4366f0e0c60c38a25396d7 ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
-38f438aa57b665e523e5bc3a66a597774b59ac3a acpi/arm64: fix next_platform_timer() section mismatch error
-a069dc941f3a66d42ace5e71956581f006f89893 net/mlx5e: Fix memory leak in mlx5_core_destroy_cq() error path
-e9a47e426d7c1a47afb658643d969dcaad6edae5 net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
-1055de7d8db88a659d75519f22bd4c81cfde3100 nfp: flow_offload: move flow_indr_dev_register from app init to app start
-1e54886bd0418d6beb825c3178fc883c7c78ae36 net: mscc: ocelot: warn when a PTP IRQ is raised for an unknown skb
-5c5b2d7cae0dfd81360b3d8b4995cff1eb5ec02d net: arc: select CRC32
-2a70f18d90220b068ccd990b6dbe1e0084a6b6c4 net: encx24j600: check error in devm_regmap_init_encx24j600
-9a4bc914bd292bbd3a3ad2accebe1fad760da357 nfc: fix error handling of nfc_proto_register()
-c5bf851f5dabf724bf2bda71f08abf78cfe50941 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-aea49a657292c93a163c6cdbde0347cdc30a3ca6 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-33fe9e9f748165dbca5dd91a42275e77a9aed33c ethernet: s2io: fix setting mac address during resume
-1eaf203b8d2f247707cc0f208474c46550e2cc1b mlxsw: thermal: Fix out-of-bounds memory accesses
-69a0458a755b5078ea97d2647986e4f8bb70abe2 sctp: account stream padding length for reconf chunk
-bb645753feb6a41eb16d0256667151c60002c9cf drm/edid: In connector_bad_edid() cap num_of_ext by num_blocks read
-916d0024f2ddb82ebd1d2740c2e712937df8e12c drm/panel: olimex-lcd-olinuxino: select CRC32
+aa30fe1481b9af54efea9a14a367811849a339e5 branch tests: test for errno propagating on failing read
+ef18119dec8a9c65ed545fdd60c7ae9a6bc31f6f refs API: add a version of refs_resolve_ref_unsafe() with "errno"
+8b72fea7e91b5900c3a35891df1d8ea16d4b2bee refs API: make refs_read_raw_ref() not set errno
+df3458e95710b14bff1e5acb830ad77b2a4b0c73 refs API: make parse_loose_ref_contents() not set errno
+c339ff690f5b5a9f27e27f4cb4d22023a0b7ebaf refs API: make refs_rename_ref_available() static
+5ac15ad2509f31555cbb40fece720066c5d8a01b reflog tests: add --updateref tests
+52106430dc80ea20ec2e00a6079a7bc114d36b70 refs/files: remove "name exist?" check in lock_ref_oid_basic()
+76887df01440018e1e757761fea81a4d3a676f25 refs API: remove refs_read_ref_full() wrapper
+db7a3d25d639ba816fb85af3ca08d689702ab294 refs API: make resolve_gitlink_ref() not set errno
+096a7fbb97dc4015c97b1811aab4e08e2f0ac724 refs API: make loose_fill_ref_dir() not set errno
+ac0986e302b9a94fd927e8d0a811fe6dc4d4c074 refs API: make files_copy_or_rename_ref() et al not set errno
+ccf3cc1b189f732cb1e99b08bda37e92a896047f refs API: ignore errno in worktree.c's add_head_info()
+0506eb71f7b64dac71ae35fafa7ca23c7a41e276 refs API: ignore errno in worktree.c's find_shared_symref()
+6846f7248d2915e534eebf1457600b83573f981d refs tests: ignore ignore errno in test-ref-store helper
+f65bb9fb06f969e8fb89de2d6dc9218f13cb361c refs API: make refs_resolve_refdup() not set errno
+1e3ccb552f3d9166009ca2bc40b27bbc0c0e2b78 refs API: make refs_ref_exists() not set errno
+ed90f04155df1ec757b241ae3f45889c05efae26 refs API: make resolve_ref_unsafe() not set errno
+6582bd31e3f3fa6cfb16fae0cd31036081c14a0a refs API: make expand_ref() & repo_dwim_log() not set errno
+4755d7dff7a27f431493926541fd6aab2e860aa4 refs API: don't expose "errno" in run_transaction_hook()
+25a33b33424cd6c8e2c7db0f0c4b1ba01415ce38 refs API: post-migration API renaming [1/2]
+f1da24ca5eeecf8931ffc08b4c8251c689c94a47 refs API: post-migration API renaming [2/2]
+b79e383aeca3d5be0470e209af3af1282e9a403b t1092: run "rebase --apply" without "-q" in testing
+28807f74d347025e08794522434edbdc75d90845 Merge branch 'pw/sparse-cache-tree-verify-fix' into jch
+49959bb2a0f371fc85fa9b32883725f688e3c56e Merge branch 'rs/make-verify-path-really-verify-again' into jch
+463f51bc92e52b7b57b1141186ddf547bcbe6020 Merge branch 'bs/doc-blame-color-lines' into jch
+13b2d98dcc20b5ab1dab53093eccb58e2fd5b145 ###
+180177737b531c608a41fd2621bdd7df13487005 Merge branch 'js/windows-ci-path-fix' into jch
+a290325b088a2ebc8a40151a77246d7c2b1573ce Merge branch 'tz/doc-link-to-bundle-format-fix' into jch
+2948ee95c1684bcc397c84e27c9faa86a67dba86 Merge branch 'ab/fsck-unexpected-type' into jch
+27a8a6fb4b4830ca6e68c8c4a471ae9b832824ab Merge branch 'jh/perf-remove-test-times' into jch
+f444cfdcd2ffa69adcc55c0013d25b36a1e557a7 Merge branch 'ab/unpack-trees-leakfix' into jch
+f21226084d3c398fb8ce9712717a9671b7c76329 Merge branch 'jt/no-abuse-alternate-odb-for-submodules' into jch
+553378c2d2bd8dfa5ecac16aa23e4ecb88abb36f Merge branch 'rs/disable-gc-during-perf-tests' into jch
+04cf9f544b0fd615ba323a06c257fe40d6ba6fa4 Merge branch 'rs/add-dry-run-without-objects' into jch
+901d72ba88eb0dc3067bf7e444599b520a93c876 Merge branch 'ab/fix-commit-error-message-upon-unwritable-object-store' into jch
+0cb72923777f44f2ff61bfda403a6bcae52f3d16 Merge branch 'fs/ssh-signing-fix' into jch
+2e75844b27146c8a02cf74ea5cd146983ca37f10 ### match next
+53b6e1972760ea5050e6484a73491c8250930698 Merge branch 'da/mergetools-special-case-xxdiff-exit-128' into jch
+e6b60a62142510df31f59ebaaa1b40ff1689110b Merge branch 'js/userdiff-cpp' into jch
+8c1570d720315a3ccb856947395481166723e8af Merge branch 'ab/parse-options-cleanup' into jch
+625968ae0f9003937e29d9144db673db74486cb1 Merge branch 'ns/tmp-objdir' into jch
+44cf8f781652751469ed9fa0d2a2159917a7a609 Merge branch 'ns/batched-fsync' into jch
+ed04ad02ccf3e046ed901955973a549c4a68833b Merge branch 'ab/mark-leak-free-tests' into jch
+e2b4363f941841c356a6a5873047b2d92f24e079 Merge branch 'ab/mark-leak-free-tests-more' into jch
+c8e235360e585132cc7cf1c3d09ba0b9195951aa Merge branch 'jk/loosen-urlmatch' into jch
+c1cc7d23d7855dba26c10d41127ef09f6542ec3b Merge branch 'jc/doc-commit-header-continuation-line' into jch
+65849dcc33c6fa29b49fa4cdb020c31673947425 Merge branch 'gc/remote-with-fewer-static-global-variables' into jch
+2023dded2cb072adf89734a023651382fa29d034 ###
+aa0412669b4a17cf8932bb4afe9b0cea149fbc71 Merge branch 'ks/submodule-add-message-fix' into jch
+0bbedd57355415133c60506eee553eb8c43d01cb Merge branch 'tp/send-email-completion' into jch
+5549128b59b495ccf9df5f4701d0b63c8ba633b2 Merge branch 'ab/test-cleanly-recreate-trash-directory' into jch
+a2b9c7f99cb0c5d9419ab48f9c321d03a2808ae4 Merge branch 'rb/doc-commit-header-continuation-line' into jch
+fe2e26bbdb025a6bdeb7696794c91ea7e2d01885 Merge branch 'tb/fix-midx-rename-while-mapped' into jch
+36b4a3eec1195f04be0d6d14ac52b0c4272df87e Merge branch 'ab/pkt-line-cleanup' into jch
+ebc0c9f29de80462acfc9803f741d94fb844d0c3 Merge branch 'ab/fix-make-lint-docs' into jch
+6e32bb8489aaf23249d5a205650e66242b1c361c Merge branch 'ab/test-lib-diff-cleanup' into jch
+9d1f7968645856e17727710973961026dfcee1f4 Merge branch 'ab/ignore-replace-while-working-on-commit-graph' into jch
+083d9bf65a3ad9c1738d9f93ff127b90f0fe03e2 Merge branch 'so/stash-staged' into jch
+56835feff7aad54b1f879d79e617fe992a027c90 Merge branch 'hm/paint-hits-in-log-grep' into jch
+a9cfd906f4cda71221ba491c16a2369723db4c3b Merge branch 'gc/use-repo-settings' into jch
+cde26e7e772ddd6e729e541fa9471f63b8f280cb Merge branch 'vd/sparse-sparsity-fix-on-read' into jch
+8c97459dc9ed76da8d85c3bb9dfa7b47444c4e3d Merge branch 'js/scalar' into seen
+6dd0015f7449733efb9a17dd209451c72fdab9df Merge branch 'ms/customizable-ident-expansion' into seen
+f89ff8c5275899164f6d6f86fbcd01262ac7429f Merge branch 'en/zdiff3' into seen
+39ddc709e27b22dc8376cf2447964dcae35abf6e Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+4da129481c1e23ba4b14a87445cd82886358ef83 Merge branch 'pw/diff-color-moved-fix' into seen
+ae2fe3bd7c2097fef9708791c033f51dff544f04 Merge branch 'ab/only-single-progress-at-once' into seen
+71fd8bbd3cf2b33f85dc2ac0aca23e258381a3b7 Merge branch 'es/superproject-aware-submodules' into seen
+cdd47b05b4a7eb7bcb90164d55ec6b22090f2897 Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+1722217fea98cb0dd41bac5a89ee55e9bed6c3b1 Merge branch 'hn/reftable' into seen
+a91aca01670e54db4dd792384d91a6362fa2f753 Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into seen
+e03cbe9cd90fcfb21d703a1b0bde1f8c99ef86ca Merge branch 'ns/remerge-diff' into seen
+252dd85407fd414f608270674261a1f4deb38949 Merge branch 'vd/sparse-reset' into seen
+47a9f9c2a3ec24a75752ac9bc41091ecbcf87abb Merge branch 'ab/test-bail' into seen
+1358e8b9afc01556485e7c6fbf697cdcc3b4d4d1 Merge branch 'jh/builtin-fsmonitor-part2' into seen
+6f74e1fef83b36e3ff1eb340dd5871d3f47a2c1c Merge branch 'ld/sparse-diff-blame' into seen
+2a00a1ffddd66b7f41b5a05add0345665b88a03a Merge branch 'ab/refs-errno-cleanup' into seen
 
---===============2353550307775294948==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71e5cb548ad2-59866f9b89f5.txt
-
-e8525f4a7fee374164e0539a20c9e38e7383af8c spi: bcm-qspi: clear MSPI spifie interrupt during probe
-45aa9280c3e3c1f366c7c0dfd156f7844ea14e13 platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-130b7f4daa55d966cd31739592d9a5368679d510 platform/mellanox: mlxreg-io: Fix read access of n-bytes size attributes
-30dfca2be20d457b4f4b67534405f0a8bfc8f00c platform/x86: dell: Make DELL_WMI_PRIVACY depend on DELL_WMI
-2aee6c6d1e4ddfe3c1fa873c4d721a20d898bc62 platform/x86: intel_scu_ipc: Fix busy loop expiry time
-c3499e3d9aa25e34dcd2bf0f81e9c6f0117e107f platform/x86: intel_skl_int3472: Correct null check
-b5235c58f206567b55dddf75de4e646bfcd5bb0f drm/msm/dp: only signal audio when disconnected detected at dp_pm_resume
-95224af3c40a66f01297259399be378bfe0e5844 drm/msm/mdp5: fix cursor-related warnings
-3d5e6621e57f2e8fbdd0fe782805af25480500a9 drm/msm: Fix null pointer dereference on pointer edp
-77b599900404f692a8f8787a04edbb33e0eb1a7f drm/msm/a4xx: fix error handling in a4xx_gpu_init()
-964be6c6a0ac42e04b1fe7fd17532cb597e73852 drm/msm/a3xx: fix error handling in a3xx_gpu_init()
-f2f46fe6601fa8e039047444b68b1aad385e586d drm/msm/dpu: Fix address of SM8150 PINGPONG5 IRQ register
-947548e7190f4b8dd616728d682e3937d31e0251 drm/msm/dsi/phy: fix clock names in 28nm_8960 phy
-652fd07c83819b6fe57ce6b1063308324834c78d drm/msm/dsi: dsi_phy_14nm: Take ready-bit into account in poll_for_ready
-9215230d0bd397867307613d42dfeec6e26e693e drm/msm/dsi: Fix an error code in msm_dsi_modeset_init()
-21db67ea44748d3033ccf4c1c918b4cf5a466f5a drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-2ad0cebd3a04b4de2ff63f537ec70a1abdfe8994 net: dsa: mv88e6xxx: don't use PHY_DETECT on internal PHY's
-fe7436c85dc29200f92f2c9824a50f56b22cdc75 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-dd6c4de8a14f2745d57a7c7b939e5d534b220a00 net: dsa: microchip: Added the condition for scheduling ksz_mib_read_work
-4fd68ba68f0f9e8d789ff9c6bb3cdf80423760b3 ice: fix locking for Tx timestamp tracking flush
-b460b6b27bea3d56a3e719cf80483a4d8ba9a3bb tee: optee: Fix missing devices unregister during optee_remove
-e613999d8319c3b8a6317e774a4538a2a4b2b568 ARM: dts: bcm2711-rpi-4-b: Fix pcie0's unit address formatting
-3c4cec4093fded724209b8d1eea92e55c690affc ARM: dts: bcm2711-rpi-4-b: Fix usb's unit address
-83124d5d0ea8d54fbbea46227325ac0ed3b4d633 acpi/arm64: fix next_platform_timer() section mismatch error
-a2a2831787a05d10e3e0b0426d87edfe4767a3d9 net/mlx5: Fix cleanup of bridge delayed work
-1b5e5b2c44cc5aaec48fac0ea1721d0bf56068a8 net/mlx5e: Fix memory leak in mlx5_core_destroy_cq() error path
-e3c1a2fd241e3874687b755c991a9bf6a40d7306 net/mlx5e: Switchdev representors are not vlan challenged
-2d669effb65f4c0e7b2ddc5db42a590a5f9eb557 net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
-bd1332cac88a2925451574ec1bf4f9fa55f51c3a nfp: flow_offload: move flow_indr_dev_register from app init to app start
-20c2fb8fca7d27b23b6044d0171c1781d6a5babc net: dsa: fix spurious error message when unoffloaded port leaves bridge
-fd2469555f77a3572df785551577845bcea86459 net: mscc: ocelot: make use of all 63 PTP timestamp identifiers
-b929525df8f9e98bc04262143ce7893e7bfa88be net: mscc: ocelot: avoid overflowing the PTP timestamp FIFO
-2736fb1df2194e0960c0a65b7df6e3660b63cf19 net: mscc: ocelot: warn when a PTP IRQ is raised for an unknown skb
-ccfabdd9126eb013bae462faaea314626663b7b5 net: mscc: ocelot: deny TX timestamping of non-PTP packets
-8ca6f676bd3d3937d69f4d817105b84cba8d8045 net: mscc: ocelot: cross-check the sequence id from the timestamp FIFO with the skb PTP header
-31f597a2312430a041dc17a47b655ef3d09b9fa2 net: dsa: tag_ocelot: break circular dependency with ocelot switch lib driver
-de6fea6b303071871bf049a61c91719d000512d5 net: dsa: tag_ocelot_8021q: break circular dependency with ocelot switch lib
-bc2d9924fd877273644b28e8474bf4bc31fbb415 net: dsa: felix: purge skb from TX timestamping queue if it cannot be sent
-4085c9ac08937990be1e0efdfeb6852bd61affca net: dsa: tag_ocelot_8021q: fix inability to inject STP BPDUs into BLOCKING ports
-1f78109a1c7b14f4d83494e6170b157d7059fda0 net: dsa: felix: break at first CPU port during init and teardown
-2113962010c54a3149ae71a73fba29b9645162d2 net: arc: select CRC32
-f43b1f545012972a0eaa43adbf162bd7ee8f929e net: korina: select CRC32
-93d4142f49550427afe287409b4e904dad04e359 net: encx24j600: check error in devm_regmap_init_encx24j600
-cab180c1881d7d02e6d0c477ff7dc543ff089fe2 nfc: fix error handling of nfc_proto_register()
-ee0b9f64f204a4944c27854a0dece1b2ab013408 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-62ed19572160a84c482762748c2cabb71b7a656a NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-67631585fac28d34f8a677871b192c2dd2b51898 ethernet: s2io: fix setting mac address during resume
-814020dd350e1ecb1084066c34cd1fd262309b60 mlxsw: thermal: Fix out-of-bounds memory accesses
-1699074f1d268a4ca6c72e294bb690a71e32567a sctp: account stream padding length for reconf chunk
-d2fe4bcbf1dfc55ec4ab77f4f565c082dc55aac4 icmp: fix icmp_ext_echo_iio parsing in icmp_build_probe
-787a43631b5628724aae4f88e9ebe58f117f0ca2 drm/edid: In connector_bad_edid() cap num_of_ext by num_blocks read
-2a6c19524118a8913fe662c44e8f9aabb21dc477 drm/hyperv: Fix double mouse pointers
-ebf45ac9130e6fb862375dd7614241a0b8f5f611 drm/r128: fix build for UML
-59866f9b89f5e40470ac87841bce5bf6eacdfdf6 drm/panel: olimex-lcd-olinuxino: select CRC32
-
---===============2353550307775294948==--
+--===============0494522199875315521==--
