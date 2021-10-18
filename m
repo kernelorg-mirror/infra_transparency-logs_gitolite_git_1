@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3760525872018451160=="
+Content-Type: multipart/mixed; boundary="===============6566255852845008728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 18 Oct 2021 07:30:20 -0000
-Message-Id: <163454222037.11161.15124724249910082787@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 07:30:25 -0000
+Message-Id: <163454222584.11275.16297867342849735742@gitolite.kernel.org>
 
---===============3760525872018451160==
+--===============6566255852845008728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: f42752729e2068a92c7d8b576d0dbbc9c1464149
-    new: 519d81956ee277b4419c723adfb154603c2565ba
-    log: revlist-f42752729e20-519d81956ee2.txt
+  - ref: refs/heads/char-misc-next
+    old: d0221a780cbc99fec6c27a98dba2828dc5735c00
+    new: 22d4f9beaf32a7cda9edeafdf5e99bec3de32c51
+    log: revlist-d0221a780cbc-22d4f9beaf32.txt
 
---===============3760525872018451160==
+--===============6566255852845008728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542219 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542223 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1634542218-415fe972406f84e61997f9ac61f52b17b34d6cec
+nonce 1634542223-63e53a59b3fd80f9310c0418302484c74ad7f944
 
-f42752729e2068a92c7d8b576d0dbbc9c1464149 519d81956ee277b4419c723adfb154603c2565ba refs/heads/char-misc-linus
+d0221a780cbc99fec6c27a98dba2828dc5735c00 22d4f9beaf32a7cda9edeafdf5e99bec3de32c51 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtIosbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DSEP/2nt2wuFPOyq4CH1Xuq8
-T0s2HRJH2fZGqu4ZPbyJXypXrzPy7iNyrLcsiWbULcuvWVOmYTWYQQAxh211AbKz
-kDpE76B4MF/knb/fK/m9AgjXoN7KPIs6ZwFwrlv+tM2snq+kfYnOT9nbUlKaZto7
-7JIpJRu1P8DTr6I038pLx2WKR/ai0qzw6O/xoWCRbhEPwHySb8S/ag0J5Vfbh1u/
-TYGGFd5of6c+ByWg5nMahwXyg/y7gU60o9s7PStyQB2LtPUH2WBu5ztzAWdZnRXM
-znqjdS1wkiCci5jmXZHTIy24ieMcSqXw+9MFtqTT2PBbRSRyRc1ZDlCQOSu3H7He
-4PrJNJ3466l/3ZI3k97GOzlCmCwl2SgnYCEPnXUcqhVWvWXeMcnW94JpgiCJdxFb
-svg5F/V8BFdQa4/hqNwa2B4IvM1YecyE0i5aIo4Xuy+s7ImQ3RiTCTQF0Ehqr5hU
-qo/P9eE3LivjAo9uH68irVv1iX6xf5+Hbj/9JE/MfAos8+nk9Us56k2AIY8zGjEp
-9wMBdfyCOgbsyBG3nwj0B2e6WuMDZJTaB2HroqWDZtLmJn7RMY8KdiGx6LvqKdCB
-KHsaLXQEjW/TXpfASc904eq/JVSNUcHTpZaUSm8KYNxwtBGNj7uVRDmkyZtSuBfl
-r960qK9/vrOyEcsUFYncG7ji
-=w6Og
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtIo8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JG0QAMnnS7f5n2F5PKMrd6QM
+b7/vI+jTcubJpzVC7DDNdpUVfAwKADsKXon6h/eeunxCyF3+gvWX0kTAUEv32bmi
+bw8a3ct/8ASm3ZuCkgGnltNwVrKlrCQ4oM6s+/YejNcnI2ZOVhC+KnXiSGFZCm7J
+HJy5RSoExQy3Gn1RGSdqeRiy3gSGjwOVnuJ8WiUu7RW5vYCjeoF3DZZwlagXNuS3
+GlSsxxpxdBa/r2EEGMGwoT5JePCVxZllRi2ceJuvROseQ7ZG62Silem0TNNpt/Mw
+dHmoQ0XhoFgclJrPVU0LriMS5tda5Ugj8cgE3xfvSKvJzs8MVMA9S7hTXmavKPmz
+Fo8L4JmI7Ad3dcJj4hO29xYSDOXksEPkILZBnjkFz9MdJblERKzTW3ecDguzjB9b
+ItxhP3EQjR6oqyAZ4jQoISmj6hf8QALDpsIfVgS6urkAmqrfM9zXidhtLy90lHA2
+WzAJYfY60tteJ+lE9svEk5EAPIEgS+qM7bn5Orwt9znbg3FBS3Lk3tEl42DST62A
+7oTkfSl0A7JdWlbA+VuChumIHvK9rZsrU/I5r0o/IEtFAhW/gaxpDTGPaAm21fN6
+bhz2fZsHTVxCTenUo9Hyrb5JbszwXVtpNBFC611+PYo0axNeHQUq46C2ZLnn/ueh
+I10L7uyfAVCBs8ug2VvIjslA
+=7MHT
 -----END PGP SIGNATURE-----
 
---===============3760525872018451160==
+--===============6566255852845008728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f42752729e20-519d81956ee2.txt
+Content-Disposition: attachment; filename=revlist-d0221a780cbc-22d4f9beaf32.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -197,6 +197,7 @@ d67ed2510d28a1eb33171010d35cf52178cfcbdd xtensa: use CONFIG_USE_OF instead of CO
 2f9602870886af74d97bac23ee6db5f5466d0a49 selftests: drivers/dma-buf: Fix implicit declaration warns
 6489f8d0e1d93a3603d8dad8125797559e4cf2a2 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
 59c4e190b10cd2d6edccb5c238a3d2bda071a018 Merge tag 'v5.15-rc3' into spi-5.15
+2a2a79577ddae7d5314b2f57ca86b44d794403d5 fpga: ice40-spi: Add SPI device ID table
 fe5c735d0d47b495be6753d6aea4f8f78c909a0a iwlwifi: pcie: add configuration of a Wi-Fi adapter on Dell XPS 15
 151a7c12c4fc8340b51e849e4d1fcb7d794777a5 Revert "brcmfmac: use ISO3166 country code and 0 rev as fallback"
 1dc1eed46f9fa4cb8a07baa24fb44c96d6dd35c9 ovl: fix IOCB_DIRECT if underlying fs doesn't support direct IO
@@ -207,6 +208,7 @@ e189ae161dd784aa5d454b0832f818cacc0e131b netfilter: nf_tables: add position hand
 603a1621caa097be23c7784e36cb8edf23cd31db mwifiex: avoid null-pointer-subtraction warning
 4b65021a63a21791790960001b79dc5fd4af9ced Merge tag 'renesas-clk-for-v5.15-tag3' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
 571fa247ab411f3233eeaaf837c6e646a513b9f8 samples: bpf: Fix vmlinux.h generation for XDP samples
+4ca57d5139a0be3cf76c1667a4c0afb16d4a3b02 habanalabs: fix resetting args in wait for CS IOCTL
 d75fe9cb1dd062684c9fb8a4581738170365dc06 samples/bpf: Relicense bpf_insn.h as GPL-2.0-only OR BSD-2-Clause
 79e3445b38e0cab94264a3894c0c3d57c930b97e bpf, arm: Fix register clobbering in div/mod implementation
 23c216b335d1fbd716076e8263b54a714ea3cf0e powerpc/iommu: Report the correct most efficient DMA mask for PCI devices
@@ -233,6 +235,7 @@ dd1979cf3c710398a9eeba4853b908fe16426814 net/mlx5e: Fix the presented RQ index i
 4729445b47efebf089da4ccbcd1b116ffa2ad4af libbpf: Fix segfault in light skeleton for objects without BTF
 10eff1f5788b6ffac212c254e2f3666219576889 Revert "net: mdiobus: Fix memory leak in __mdiobus_register"
 ca6e11c337daf7925ff8a2aac8e84490a8691905 phy: mdio: fix memory leak
+8001f21fcd03253ba0eeac6f91f79239ac03ee60 MAINTAINERS: Add Hao and Yilun as maintainers
 2b987fe84429361c7f189568c476d1bd00d2ff7e ALSA: hda - Enable headphone mic on Dell Latitude laptops with ALC3254
 06f2ac3d4219bbbfd93d79e01966a42053084f11 x86/sev: Return an error on a returned non-zero SW_EXITINFO1[31:0]
 6e3cd95234dc1eda488f4f487c281bac8fef4d9b x86/hpet: Use another crystalball to evaluate HPET usability
@@ -267,6 +270,7 @@ dade7f9d819d89ba2da5f72a07cb4b91a1e1f74a Merge git://git.kernel.org/pub/scm/linu
 eed183abc0d3b8adb64fd1363b7cea7986cd58d6 powerpc/fsl/dts: Fix phy-connection-type for fm1mac3
 06cc978d3ff226072780f74897800b33e78abb57 block: genhd: fix double kfree() in __alloc_disk_node()
 7cd8b1542a7ba0720c5a0a85ed414a122015228b ptp_pch: Load module automatically if ID matches
+57b44817a8d63e75394bc21849f585ded53de8bb MAINTAINERS: Drop outdated FPGA Manager website
 bb4a23c994aebcd96c567a0be8e964d516bd4a61 riscv/vdso: Refactor asm/vdso.h
 78a743cd82a35ca0724179fc22834f06a2151fc2 riscv/vdso: Move vdso data page up front
 8bb0ab3ae7a4dbe6cf32deb830cf2bdbf5736867 riscv/vdso: make arch_setup_additional_pages wait for mmap_sem for write killable
@@ -274,6 +278,7 @@ bb4a23c994aebcd96c567a0be8e964d516bd4a61 riscv/vdso: Refactor asm/vdso.h
 26d90b5590579def54382a2fc34cfbe8518a9851 iio: light: opt3001: Fixed timeout error when 0 lux
 b2a4f4a302b83976ad0d2930abe0f38e6119a144 ARM: dts: imx: change the spi-nor tx
 04aa946d57b20c40e541fb4ba2bcb390a22f404c arm64: dts: imx8: change the spi-nor tx
+ad2b502bc5e65632104ef89372abd6691de8851c Merge tag 'misc-habanalabs-fixes-2021-09-29' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-linus
 1f8d398e1cd8813f8ec16d55c086e8270a9c18ab ALSA: hda/realtek: Complete partial device name to avoid ambiguity
 cc03069a397005da24f6783835c274d5aedf6043 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
 686cb8b9f6b46787f035afe8fbd132a74e6b1bdd bpf, s390: Fix potential memory leak about jit_data
@@ -378,9 +383,16 @@ b9af50bcbcd2344640e4c2937bd2af1f856a4ced ARM: dove: mark 'putc' as inline
 a6949059318a064880050c76a9d8fb070156385f ARM: defconfig: gemini: Restore framebuffer
 efa767b37229775fc09a4f5a2b27f72a79afa860 Merge tag 'imx-fixes-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 34186b48d29bb961b24ece417170e74289550a13 ARM: sharpsl_param: work around -Wstringop-overread warning
+a3e16937319aea285c64ab5bf8464470afac8dd3 misc: gehc: Add SPI ID table
+42641042c10c757fe10cc09088cf3f436cec5007 cb710: avoid NULL pointer subtraction
+f9a470db2736b01538ad193c316eb3f26be37d58 misc: fastrpc: Add missing lock before accessing find_vma()
 8241fffae7c8bab5cec5fc8bcaceccd03079e3aa fs/ntfs3: Forbid FALLOC_FL_PUNCH_HOLE for normal files
+97d8ebead87b7457ba5c4f4e7860b8fc8cf013fd misc: HI6421V600_IRQ should depend on HAS_IOMEM
+9e2cd444909b3c93f5cc83463d12291e3e0f990b eeprom: at25: Add SPI ID table
+137879f7ff23c635d2c6b2e43f4b39e2d305c3e2 eeprom: 93xx46: Add SPI device ID table
 45d65c0f09aaa6cdd21fe0743f317d4bbdfd1466 drm/amd/display: Fix B0 USB-C DP Alt mode
 2fe9a0e1173f4805669e7af34ea25af835274426 drm/amd/display: Fix DCN3 B0 DP Alt Mapping
+75c10c5e7a715550afdd51ef8cfd1d975f48f9e1 mei: me: add Ice Lake-N device id.
 95dd8b2c1ed00c76aaf41b552041c90724749a53 fs/ntfs3: Remove unnecessary functions
 7ab0965079bbc0e39fe0e1df4dcdf931c9d25372 drm/amd/display: USB4 bring up set correct address
 b072ef1215aca33186e3a10109e872e528a9e516 drm/amdkfd: fix a potential ttm->sg memory leak
@@ -399,6 +411,7 @@ b94729919db2c6737501c36ea6526a36d5d63fa2 perf jevents: Free the sys_event_tables
 9fce636e5c7dd84873f096ae4d094fb6bd797f9f tools include UAPI: Sync sound/asound.h copy with the kernel sources
 60a9483534ed0d99090a2ee1d4bb0b8179195f51 Merge tag 'warning-fixes-20211005' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 0b6c5371c03c2b17963e1abd7ed0e3f1f950cba9 perf tests attr: Add missing topdown metrics events
+dfffaf0238e5aad7b8c1c5362829f5dfed0902dd Merge tag 'fpga-fixes-5.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
 4d8b35968bbf9e42b6b202eedb510e2c82ad8b38 objtool: Remove reloc symbol type checks in get_alt_entry()
 dc02368164bd0ec603e3f5b3dd8252744a667b8a objtool: Make .altinstructions section entry size consistent
 fe255fe6ad97685e5a4be0d871f43288dbc10ad6 objtool: Remove redundant 'len' field from struct section
@@ -409,6 +422,7 @@ b13a270ace2e4c70653aa1d1d0394c553905802f bus: ti-sysc: Use CLKDM_NOAUTO for dra7
 80d680fdccba214e8106dc1aa33de5207ad75394 ARM: dts: omap3430-sdp: Fix NAND device node
 363999901116ffa9a5462215fef25ea9c7f2823c ksmbd: add the check to vaildate if stream protocol length exceeds maximum value
 319933a80fd4f07122466a77f93e5019d71be74c xen/balloon: fix cancelled balloon action
+ff53c4f6a668ee952c8a2fb494914c97ddbdaf87 Merge tag 'fpga-maintainer-update' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-linus
 9287e91e9019d4bc1018adb55ab791ae672e0b14 ARM: dts: bcm283x: Fix VEC address for BCM2711
 2faff6737a8a684b077264f0aed131526c99eec4 ARM: dts: bcm2711: fix MDIO #address- and #size-cells
 b55ec7528879a822a4d350248daa04bbb27f25fd ARM: dts: bcm2711-rpi-4-b: fix sd_io_1v8_reg regulator states
@@ -686,6 +700,7 @@ deab6b1cd9789bb9bd466d5e76aecb8b336259b4 net: dsa: tag_ocelot: break circular de
 2b94b6b79b7c24092a6169db9e83c4565be0db42 PCI/MSI: Handle msi_populate_sysfs() errors correctly
 6e44bd6d34d659c44cd8e7fc925c8a97f49b3c33 memblock: exclude NOMAP regions from kmemleak
 6f779e1d359b8d5801f677c1d49dcfa10bf95674 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
+6d7163f2c49fda5658e43105a96b555c89a4548d mei: hbm: drop hbm responses on early shutdown
 af628cdd64e11f03181a5a19645768ed4687bda4 drm/i915: Fix bug in user proto-context creation that leaked contexts
 82a59c7f456db9f2874e9f1e9cb4cc19e71e95c5 drm/i915: Free the returned object of acpi_evaluate_dsm()
 c2115b2b16421d93d4993f3fe4c520e91d6fe801 usb: musb: dsps: Fix the probe error path
@@ -695,6 +710,7 @@ ff63198850f33eab54b2da6905380fd4d4fc0739 Revert "virtio-blk: Add validation for 
 8b7216439e2e2128f6f1a19ad4b6be94d8b0e23d s390: add Alexander Gordeev as reviewer
 09b6addf64860bf7b0e3dddf03229c8c20eda4b5 VDUSE: fix documentation underline warning
 bcef9356fc2e1302daf373c83c826aa27954d128 vhost-vdpa: Fix the wrong input in config_cb
+5d388fa01fa6eb310ac023a363a6cb216d9d8fe9 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
 348949d9a4440abdab3b1dc99a9bb660e8c7da7c Merge tag 'modules-for-v5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jeyu/linux
 e599ee234ad4fdfe241d937bbabd96e0d8f9d868 net: arc: select CRC32
 e41bdd18644a5dde1f344b70eb262b5c426e6f16 clk: qcom: gcc-sm6115: Fix offset for hlos1_vote_turing_mmu_tbu0_gdsc
@@ -739,6 +755,7 @@ b253c3026c29d4231099d3cf8d984d25787793af drm/hyperv: Fix double mouse pointers
 d1d94b0129dccd226784633c60b7df90e8a051b5 drm/nouveau/fifo: Reinstate the correct engine bit programming
 1a361b41c1a1c399399cd2a83e449c452d9d8115 drm/r128: fix build for UML
 a14bc107edd0c108bda2245e50daa22f91c95d20 drm/panel: olimex-lcd-olinuxino: select CRC32
+f42752729e2068a92c7d8b576d0dbbc9c1464149 eeprom: 93xx46: fix MODULE_DEVICE_TABLE
 71920ea97d6d1d800ee8b51951dc3fda3f5dc698 perf/x86/msr: Add Sapphire Rapids CPU support
 cd932c2a1ecc8f261ecb8d140fa431c16379931f Merge tag 'usb-serial-5.15-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 9b4416c5095c20e110c82ae602c254099b83b72f KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
@@ -799,5 +816,6 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
+22d4f9beaf32a7cda9edeafdf5e99bec3de32c51 Merge 5.15-rc6 into char-misc-next
 
---===============3760525872018451160==--
+--===============6566255852845008728==--
