@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 18 Oct 2021 22:22:28 -0000
-Message-Id: <163459574896.20642.17855369175030811194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 18 Oct 2021 22:33:07 -0000
+Message-Id: <163459638753.26573.3893527555135422961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/seen
-    old: f327a6e98e496092d8dc894e89595ed84def166e
-    new: 05574572e29d960d4486ef966cc483c8cf74f880
+  - ref: refs/heads/stable-5.15
+    old: 67d69e9d1a6c889d98951c1d74b19332ce0565af
+    new: 6e3ee990c90494561921c756481d0e2125d8b895
     log: |
-         6aabfd21d82039e52c08a75f4ec8d54bc358bb7e Merge branch 'ld/sparse-diff-blame' into seen
-         05574572e29d960d4486ef966cc483c8cf74f880 Merge branch 'ab/refs-errno-cleanup' into seen
+         6e3ee990c90494561921c756481d0e2125d8b895 audit: fix possible null-pointer dereference in audit_filter_rules
          
