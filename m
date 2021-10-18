@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1120200686797212944=="
+Content-Type: multipart/mixed; boundary="===============1213159155992922947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Oct 2021 12:31:17 -0000
-Message-Id: <163456027781.28879.9375486711420288077@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 12:31:18 -0000
+Message-Id: <163456027803.28905.10515036439987908890@gitolite.kernel.org>
 
---===============1120200686797212944==
+--===============1213159155992922947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: a0cc68e7856a17b196b58722615d0a138dc1d91a
-    new: d4812d3a67ba10fadea6508a0dc48e138048614c
-    log: revlist-a0cc68e7856a-d4812d3a67ba.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 23de85e22f4def6f205365fc1a7d3c611eef56aa
+    new: 301f403b7353669567107e6ed1f6d9c23afb957c
+    log: revlist-23de85e22f4d-301f403b7353.txt
 
---===============1120200686797212944==
+--===============1213159155992922947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,53 +32,70 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634560276 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1634560275-2216f4022535fad56eb203054c4f3822383ce381
 
-a0cc68e7856a17b196b58722615d0a138dc1d91a d4812d3a67ba10fadea6508a0dc48e138048614c refs/heads/linux-4.4.y
+23de85e22f4def6f205365fc1a7d3c611eef56aa 301f403b7353669567107e6ed1f6d9c23afb957c refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtaRQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V2gQAM6nz3MnBnooM1wPQLDb
-Rh5rbW00uy813F5HlcONt3pWjVSqQ8JdWRIy5rdEGDSLXqvzWMmh+xZSqQ1wbN2h
-yx+iwG9X4i+Otpv1uEWrS+7e9RjcDi1uFxoNcil3xGY48Dcc2T8I0PKtvRZemG43
-01eO1Nhmini56g5hGAKtlFXMH32XmKe56NcvzX0G9YICzrEsJR7YH8NXPNdTupJh
-zyidUmwnndc1I+FbBXWHgBmkRRyh8JRv773+AGrXsMUpUp4eZfp4bwzPTyUPCej8
-gDZfQBmSXNwxkosyt65DRmFPG19kNFfLt5wPKKqfZWOwZH+8CmEE75/uxXpHiILt
-A+rCFeArtJkqeBbiKTe1wXhV85QJRqJntsUYdpN41EkdJa4ba2dukTyyLh8g7qmG
-wPx3d/ewMVqptXod/juo2vnuJFKZn8/emhmm7Yb1YoKe8SVqQiTYH+iwXVnxeH2I
-V2h1aAp2viHVVaTEnd2a+riO4U05ADSs8gQ8YTWSbXltb2ZAM08ZOzBSdMKd0DET
-7CHFOyelhKrvb7nEozcVvd1EjQiIvmgsBsXXNwoxNqUuDd9xdZ/IFYVpk2GmsPwC
-3wca1dDh1N/3Ww3YU9wPB8N4NwcKMh4hQi6L9jfDDw62eFDFTaOlJLqF0dr3XBr3
-8v262K2zinZ4Wu0KIUxtc/Zj
-=o7j5
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/bUQAKKAxrzH0qmdo+5lTVdr
+j6UknB8G73tdD9emcuPV8Fh2yqH0ZUK/wgMuWaauMCu5UkUZNQpLISr6gKhwDdi5
+RcprlXjJ6Zo6Aqm2BkpxPIAjBkdeYNtWKhmjCkpWvnq9vtbhbi/dDAXwv3AbK/PW
+LO8BP/xv5NHL6TrL+3WLE4c+DYE9Vu4f2rtCx/TBFKQoEwghSkDFFKmNiSOlM+m1
+GoLfj+tXJUQKA44WESuRzoX4MATKG1axPrOr2rpM+fJpRQAK2csdJLgBNu8YMjIl
+4HxPJr6ormUzCHzHrsRPX15WlpLknPeovQz7T+OfiKPEQHP4L30ir+hI0RHk6qm5
+WrCaBhfTOYrMuNn7p0D4xWOz+s85irjEOVnrb7C8ksFK14DIW1nOdCHX0Cs6Y946
+duWFBpopUTK3MhYL+k9XNHbLfhXJHVuzg19rrW6Y3lSVlpotiX9t/unntF+t+CAh
+RuWaA5GLBwCYR4UmHnISQRVYFa3ilZOwLUNvwjc13nr0bAG4xxyB1olR6Gw+ZrZd
+glmISAt/F3wGozoY9woobxVayzLi9PP3/EHJpDUNrNQbPlaakhSBgJcEIXneR4Q1
+qFC6knSf4EnGA3/ySunf28Kfy9IndcaDbHEgLIFMEYB9hVOZrstrTiAFTMhh0GNF
+2LKeBHXOgSSVDmtWYCMxs+xX
+=+a+X
 -----END PGP SIGNATURE-----
 
---===============1120200686797212944==
+--===============1213159155992922947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0cc68e7856a-d4812d3a67ba.txt
+Content-Disposition: attachment; filename=revlist-23de85e22f4d-301f403b7353.txt
 
-3249c851019fd762a8b2eba2799a645baecc7af0 ALSA: seq: Fix a potential UAF by wrong private_free call order
-a72183eb84b17ce7c79958cb240455f87aa91407 s390: fix strrchr() implementation
-acef407336cf3ee8e4f3c189e2838a5c9081a1dd xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-c614954c6b0fc7c9c72e7aab80396c90a4645e5e cb710: avoid NULL pointer subtraction
-e6e93fdf5574227c4d8e481b67617013d7d38d24 efi/cper: use stack buffer for error record decoding
-515eea1a9d61806d29fd42f9c07f56016543c38b Input: xpad - add support for another USB ID of Nacon GC-100
-6980f6cfc16ea5f79570e2a00b05d53e2702c51f USB: serial: qcserial: add EM9191 QDL support
-c59d0bf9ddd508f244914323630d9d01a8f6e15f USB: serial: option: add Telit LE910Cx composition 0x1204
-fbaab6a807831e7df0cbdcb5f8b02db76750b868 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-323ebabc821a99a5832e87daf7f66ad01b375df4 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-14a9ba221d9c501e5665bddeba51e40b7f147466 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-79b8e04a1adf918b6958fd2e5ed2df882f096c0f iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-5acc1dcc009cf7cdf147ed23410699cdfc71cc22 net: arc: select CRC32
-d3bee2364f3eb2eb1665783b0b6e422da14bc11b net: korina: select CRC32
-708e9be799df1c215c94fbea15d0d418bf21bda7 net: encx24j600: check error in devm_regmap_init_encx24j600
-0acacabee8237bf421d89d6cb941e144aa918e5f ethernet: s2io: fix setting mac address during resume
-fde9caece7c00b9fea3781d934d3c07cbe2f1f2a nfc: fix error handling of nfc_proto_register()
-f6cc2157e083f0da4915ec87c14475715ca40ac9 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-cc4e610b38257e94b200e25842ef5e2fd5caa09b NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-4e3dbc81bc803dba9e8abffe8a6ea0ea01cb69b3 pata_legacy: fix a couple uninitialized variable bugs
-210f3afde725331e89ac37cfc193bc89d49cf54f drm/msm: Fix null pointer dereference on pointer edp
-7acadfa311f03ed37ccdbf006121ad4fd7f3ef16 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-d4812d3a67ba10fadea6508a0dc48e138048614c Linux 4.4.290-rc1
+27d9b9cbe70267ccb4cc16f8f4bd176eded60d94 stable: clamp SUBLEVEL in 4.14
+8cf2321b23fcedcf9b7a3fce00331f29f7a6cccb ALSA: seq: Fix a potential UAF by wrong private_free call order
+fae4025a34226122808ddfea466d7450bef7e8f5 s390: fix strrchr() implementation
+a9534c95c3292870c7325075d31d121a31728266 btrfs: deal with errors when replaying dir entry during log replay
+6e983d7fb56be4dc74632f6ea62002c21aba1955 btrfs: deal with errors when adding inode reference during log replay
+99f4d1373b678c85eefbd55b1bfa96a8aee601ad btrfs: check for error when looking up inode during dir entry replay
+abd3d78094526710bedd5eba407a9bca50d51397 xhci: Fix command ring pointer corruption while aborting a command
+ba338728f51a37e1d68d2786dae17867e2bd1a0a xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+1e3e928f7f20cfc5871bff2685bcaf0aabd51ce0 cb710: avoid NULL pointer subtraction
+0426da8fc42e5ca35f3ae4ef5f2b22e12077f178 efi/cper: use stack buffer for error record decoding
+670eccb42362a07a2127d11640abfe55a316e85a efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+58b2e621d403ec607143b002424a9a1b61df2165 usb: musb: dsps: Fix the probe error path
+0f7c19f67fc8d32a653446ded93b17543471c661 Input: xpad - add support for another USB ID of Nacon GC-100
+4501598438038f1db96ab59ca578fa5ae1c4ecf9 USB: serial: qcserial: add EM9191 QDL support
+df3cb9c88e017fc39e71c93947253d64367f6a30 USB: serial: option: add Quectel EC200S-CN module support
+c7f24d174ac9350fb0fbf329deda1914ab99601b USB: serial: option: add Telit LE910Cx composition 0x1204
+e9d4d52637b042bf3afc9033bafe59839c243cfb USB: serial: option: add prod. id for Quectel EG91
+cd37558cd8523316a48482a062ae3d9144c9723b virtio: write back F_VERSION_1 before validate
+0d81708586022d7e51755b0314294e00981d5a4a nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+92d28462e0637f7da3029838e75e86385dde37f6 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+a12fff4dd7c4ff050751005617f6064510768c86 iio: adc: aspeed: set driver data when adc probe.
+88fa82137c3ce7217dd3232c9bea6f3471f98b1f iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+e57dd7048603078727ee7c42efca325f4fc490f7 iio: light: opt3001: Fixed timeout error when 0 lux
+04b5ae231357d1a1e122e26ba9cb23e3d44e7c32 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+9117ad150b4363556310ace8d0607a8e6ece93c3 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+7702ad59b746ac0a2ef7c7ea997840245f1048a4 sctp: account stream padding length for reconf chunk
+2ff7e5ef4871f28fd4ba09df0149887240fd1001 net: arc: select CRC32
+00549bc3adcb40255d4798dce2a955aba7540845 net: korina: select CRC32
+55bf303201375c610b49db42d5a196ae91b452e3 net: encx24j600: check error in devm_regmap_init_encx24j600
+f347433b35146f6116ab568f4a1f235176ec2fd1 ethernet: s2io: fix setting mac address during resume
+c1614876341aa5cf847c72d164b19dedfcf73ef7 nfc: fix error handling of nfc_proto_register()
+fa8341ff74979033a6706acebfb04adb5e8940cc NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
+d28a6565ec7e6b5936bae654983d908af408a0e2 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
+2d8fec7b924e37078d1d676a46b0109101828b45 pata_legacy: fix a couple uninitialized variable bugs
+af2d847fa23aaf71f9e220a1c92f14c79ae69aed drm/msm: Fix null pointer dereference on pointer edp
+f319c3eada227b06b522cb6c6db9b660b76c0bf8 drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
+5cbe3bb8663fdd1ae6b3395da4f9e3195ce3f26a acpi/arm64: fix next_platform_timer() section mismatch error
+a643b224b77e8a88e35971517b6fb243d5687797 qed: Fix missing error code in qed_slowpath_start()
+3d14ba71afda197a7d8f52f415137ad50888c3ee r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
+301f403b7353669567107e6ed1f6d9c23afb957c Linux 4.14.252-rc1
 
---===============1120200686797212944==--
+--===============1213159155992922947==--
