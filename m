@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7159358552744434161=="
+Content-Type: multipart/mixed; boundary="===============2898731570171999950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 18 Oct 2021 07:40:04 -0000
-Message-Id: <163454280459.17772.5157598320696536138@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 07:40:10 -0000
+Message-Id: <163454281057.18157.10837993968617419099@gitolite.kernel.org>
 
---===============7159358552744434161==
+--===============2898731570171999950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: cb2282213e84f04ab7e93fd4537815da5db2f010
-    new: 519d81956ee277b4419c723adfb154603c2565ba
-    log: revlist-cb2282213e84-519d81956ee2.txt
+  - ref: refs/heads/tty-next
+    old: 5f0ac3a1dae17ec0af6b845376247d7cc948ea3d
+    new: 412a5feba414127a6c69452dfad454086867011f
+    log: revlist-5f0ac3a1dae1-412a5feba414.txt
 
---===============7159358552744434161==
+--===============2898731570171999950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542803 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542808 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1634542803-39ef7826b7eb97696b9d00bf79ee2bb2d5d8c370
+nonce 1634542807-603db4d400f4a650a289da066f5e9a1a0c3e09e2
 
-cb2282213e84f04ab7e93fd4537815da5db2f010 519d81956ee277b4419c723adfb154603c2565ba refs/heads/tty-linus
+5f0ac3a1dae17ec0af6b845376247d7cc948ea3d 412a5feba414127a6c69452dfad454086867011f refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJNMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++nwP/2W78CgONa5CdF1sX1Sq
-G1DfCfRl1kTEsdfdTz4eK0F6PF06w+0EpNggNEi85H7M5jMy0CvBRLsQmywUMQa4
-lEXODvJ9rC/5RZcDHAWEnMPP8JYc304sbAkMy14chgosXLTWQZZESuL+eVT9wBFW
-n3xa5cgnYZIZ7L7S8sy+58ihlOU+rgvsF3LIrhboqOjU+pNN4IzkHd6xsRVomOMK
-EkqGQvzz2/58lvCQry2PJj3T2TlU7jXqiBwaLzBktQPGGOQgNmnrQIrx1hgiK5MC
-p5Bnsbm3gUbLCHggzoInPqo6mJGcKqeXWkAI3wAgZc+XrGSPJwoeDDJ9MRIwLTaL
-Kskk+mlzq0rA6bGM66KeeiRiwAt5PyJRx73LtliKsVbK8jZBCkvBOM2HrOFydJPJ
-ZipO+4KovFKsZYd0OcI7Qjrg8Lve2nNpmGkkWZ+SwNiUYdrOt1TfYR5Ei0+pgQr5
-ntKg6s9PoWYR+KFvOPjgPgFnhwlxWc/tJkAVJE8hqsvAiAZNcI99l+z7rTj34PLc
-Tm6M0j3/40Ayhprfy+b4YUHLCm20LbOTR+TxGRylx8A/Y5twwb7AIoAmXhJCQtw5
-F8df/n8Rgke9HSHlTBLa9oZdoc6YnaCtZypx2+1Hg30OYiwrVPdKu+sEaQ87fVkL
-UKkZbCvlMnYX38u545A9wiaK
-=GlgV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJNgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XZ0QALEhSHkq5rveykIoON/x
+JtF1NtxH1d0Oxi/e+gaJimqons/dIpOROWmZQaJdUAdRcJYQ1/QgEx0J+UnvdVa/
++u7hjTVmGuhEdbZgxfOfq6pdzJReBG9da0Wz0FHsi02ReYgazGry8uZ2EXa/wJh/
+glNHPpJp40/gjg3IVJPeFkRCMro6H2tXbldF8fMh4vmWNChdkXKpFlVXSf9561GO
+vFUsy/VVQUAenITj9b2VWsQ5Z1MVTCvmv76QVPG+l3bBlFogxe4d0F8ZiGLWYxvE
+PP60mGk5Fpzwh4oja/DapGOqTSikAgiO/BO5mT8CiG+ezid657mqsewoTp1KlIKu
+ghWNv9ejPPeBPKdkFalC+DKLmG4qQCyuiccEWQx42BFIMRPhuoNp71gsGgGOfRQn
+qShDpvsmYdxxF3GX6ocSiOxc9sEBl0ud50Yzwa+VE9tf8phuWWQpCU6D0hGsrd5G
+XD3fAbOIH+4Xd3Ceg2uUtdYCpTZ4lv8xSlOeSgBO3O+2BfYN67T1WRN/+WfXcvS4
+1Z2npuzPb2of4abNvUU6MKdBitDgevgtevuXfoByuCEjN81yYuh7kyrDgU5k72FN
+1IvzHvRKsO6oy8ZLcGiNUTiceaKStguonCUJcL3kGwc2DK1lnt6dszaOgYNRRUKb
+6xjBpOZRrX74ytjX2Vd1E7sv
+=z7Ja
 -----END PGP SIGNATURE-----
 
---===============7159358552744434161==
+--===============2898731570171999950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb2282213e84-519d81956ee2.txt
+Content-Disposition: attachment; filename=revlist-5f0ac3a1dae1-412a5feba414.txt
 
-ef12e4bf4276a07fd350179fa63d0d337ea0a867 vdpa/mlx5: Clear ready indication for control VQ
-759be8993b1b40e05b8908583336b8e230e67b08 vdpa/mlx5: Avoid executing set_vq_ready() if device is reset
 be9c6bad9b46451ba5bb8d366c51e2475f374981 vdpa: potential uninitialized return in vhost_vdpa_va_map()
 f8d858e607b2a36808ac6d4218f5f5203d7a7d63 xfrm: make user policy API complete
 88d0adb5f13b1c52fbb7d755f6f79db18c2f0c2c xfrm: notify default policy on update
@@ -633,6 +631,7 @@ beb76cb4eebf9ac4ff15312e33f97db621b46da7 MAINTAINERS: rectify entry for SY8106A 
 25a9da6641f1f66006e93ddbefee13a437efa8c0 net: sfp: Fix typo in state machine debug string
 e3cf002d5a4452f8adc5543df341cf96fd702fcf net: pcs: xpcs: fix incorrect CL37 AN sequence
 7707a4d01a648e4c655101a469c956cb11273655 netlink: annotate data races around nlk->bound
+cb2282213e84f04ab7e93fd4537815da5db2f010 serial: 8250: allow disabling of Freescale 16550 compile test
 f81fd21476187275b0d8181fbe8c18a6f47d9139 Merge tag 'optee-fix-for-v5.15' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 dd6a2ed801db6afde68330cb529cf78550b7a937 MAINTAINERS: Add Vignesh to TI K3 platform maintainership
 325c81e3fd52cb4dce1f5e7cc789bc82f2772ab2 Merge tag 'at91-fixes-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
@@ -1081,5 +1080,6 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
+412a5feba414127a6c69452dfad454086867011f Merge 5.15-rc6 into tty-next
 
---===============7159358552744434161==--
+--===============2898731570171999950==--
