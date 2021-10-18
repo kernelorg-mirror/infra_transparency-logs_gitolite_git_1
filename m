@@ -1,66 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============0696638116766689026=="
+Content-Type: multipart/mixed; boundary="===============1535812375329332099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 18 Oct 2021 18:50:03 -0000
-Message-Id: <163458300383.15421.4241032533909677238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 18 Oct 2021 19:02:23 -0000
+Message-Id: <163458374347.22503.5307453823424875759@gitolite.kernel.org>
 
---===============0696638116766689026==
+--===============1535812375329332099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.16/bdev-size
-    old: eebb7c5048163985fb21d6cb740ebac78cb46051
-    new: 8fd77e4cbec8df0d734c1b92ff40d0cba384f63d
-    log: |
-         8fd77e4cbec8df0d734c1b92ff40d0cba384f63d block: cache inode size in bdev
-         
-  - ref: refs/heads/for-next
-    old: df300910c93e1a0e4ad9fe7a984c569dc118000c
-    new: c74739813e790e6f5f7cd8efab31cd41cc00f233
-    log: |
-         8fd77e4cbec8df0d734c1b92ff40d0cba384f63d block: cache inode size in bdev
-         c74739813e790e6f5f7cd8efab31cd41cc00f233 Merge branch 'for-5.16/bdev-size' into for-next
-         
-  - ref: refs/heads/perf-wip
-    old: 08a99b3628a46aa57ae0709ff7ca586416229093
-    new: 392e5a1a362b5c3cb0a0640a7f52e98c9bb0905c
-    log: revlist-08a99b3628a4-392e5a1a362b.txt
+  - ref: refs/heads/net-next
+    old: ccfdfac4162f21b9b3550a1572f0570083614400
+    new: 3f9fed1a619fe0b56d0257703d28b270626d8055
+    log: revlist-ccfdfac4162f-3f9fed1a619f.txt
 
---===============0696638116766689026==
+--===============1535812375329332099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08a99b3628a4-392e5a1a362b.txt
+Content-Disposition: attachment; filename=revlist-ccfdfac4162f-3f9fed1a619f.txt
 
-29ad5263599a89f9954290f41d7c61b89d2fa645 block: cache inode size in bdev
-2556e6b614fd92ad4b2a6b7bdd1768af22ae5389 Merge branch 'for-5.16/bdev-size' into for-next
-1e27f28c1a1932e1b64e85336248cdc3433053bd Merge branch 'for-next' into perf-wip
-f692362876d9d7f91b25af3553ee8677787c309c block: move bdev_read_only() into the header
-1ee2ee3fc2408608674a1441f69eb9fd23147a8e block: inline fast path of driver tag allocation
-eca87f523b4139ffcb662e65172c27932c324c1d nvme: move command clear into the various setup helpers
-6d6664cd867884675af67efce366f13eda39c5c8 nvme: don't memset() the normal read/write command
-acd123fbe76dfde10ee922c7ab510d4d061fa9e3 block: don't call blk_status_to_errno in blk_update_request
-f0f7985e961546fa1595c223ea0eb5960017f3cb block: return whether or not to unplug through boolean
-f00309bf7a4485e4e44401fc925c402d88e52df7 block: get rid of plug list sorting
-ca9dedc129a807ecc980d61139c8b9b0d2612b31 block: change plugging to use a singly linked list
-0a7709307eeda4268ebf495bd297a618a385681e block: move blk_mq_tag_to_rq() inline
-3561dd627d55a8f4037da50287c7a44bafceb4c3 block: align blkdev_dio inlined bio to a cacheline
-dcfe7de4c3786187bd86df200ecf8cef6e932a3a net: decouple skb_frag_t from struct bio_vec
-995ae0505512d347aaf0528e3a6951ddf9e7b78d block: add bvec_set_page() helper
-cbf242c27676b942e7152cd6f9a9f07a9e310ebf block: add a DMA field to struct bio_vec
-77a0bbb5fb78a73a1418f00b8d53960987d28dfc block: add mq_ops method for DMA mapping bvecs
-1f2eba689d346861924af8fb2a3c5c646ae31d0f io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-25ad6f36b44d1ad5e571cd5bfb415979caac9d0f nvme: add support for pre-mapped IO buffers
-1d0c45dd9f31c196463710050841ad13065ff793 block: switch to atomic_t for request references
-e401adaedf4c741e10687e98f3d9ba33d6af3bec block: improve request timeout handling
-994ef0e3737f8176852710c74f5208f0779690ec nvme: don't copy fill bio_vec if we don't have to
-392e5a1a362b5c3cb0a0640a7f52e98c9bb0905c block/nvme: submit batches of requests at once
+2232642ec3fb4aad6ae4da1e109f55a0e7f2d204 ipvs: add sysctl_run_estimation to support disable estimation
+7b1394892de8d95748d05e3ee41e85edb4abbfa1 netfilter: nft_dynset: relax superfluous check on set updates
+7463acfbe52ae8b7e0ea6890c1886b3f8ba8bddd netfilter: Rename ingress hook include file
+17d20784223d52bf1671f984c9e8d5d9b8ea171b netfilter: Generalize ingress hook include file
+42df6e1d221dddc0f2acf2be37e68d553ad65f96 netfilter: Introduce egress hook
+0d7308c0ff5fa7c77164ab8491a91e0589da66e3 af_packet: Introduce egress hook
+8844e01062ddd8196c4550df9803cc1835d123c2 netfilter: iptables: allow use of ipt_do_table as hookfn
+e8d225b6002673366abc2e40e30c991bdc8d62ca netfilter: arp_tables: allow use of arpt_do_table as hookfn
+44b5990e7b463240e4c116c9e8670c67dad960cc netfilter: ip6tables: allow use of ip6t_do_table as hookfn
+f0d6764f7ddbf6d57302155b0f83eadb25ab0f0c netfilter: ebtables: allow use of ebt_do_table as hookfn
+9dd43a5f4b11b161c9dfcce9391e843e65d6a4cc netfilter: ipvs: prepare for hook function reduction
+8a9941b42de5132eae0cd2c27d5da41024f278a2 netfilter: ipvs: remove unneeded output wrappers
+540ff44b28f0b31d0c74b5e7082b050e1b14b36a netfilter: ipvs: remove unneeded input wrappers
+c650c35a2506d8eebe8a4d8d263317fba29fe078 netfilter: ipvs: merge ipv4 + ipv6 icmp reply handlers
+254ec036db1123b10e23e1412c191a3cf70dce71 net: make use of helper netif_is_bridge_master()
+ffdd33dd9c12a8c263f78d778066709ef94671f9 netfilter: core: Fix clang warnings about unused static inlines
+fbf307c89eb08c51da4dd039f68c19afbcf5949d gen_stats: Add instead Set the value in __gnet_stats_copy_basic().
+448e163f8b9b2dab4c07c47c9e35c9116dec9489 gen_stats: Add gnet_stats_add_queue().
+7361df4606ba5ab6b998f4467496b4bbf4e5526b mq, mqprio: Use gnet_stats_add_queue().
+10940eb746d417734fb9e5eba6df927e593e4f13 gen_stats: Move remaining users to gnet_stats_add_queue().
+f2efdb17928924c9c935c136dea764a081032006 u64_stats: Introduce u64_stats_set()
+67c9e6270f3013e4d86ec57c4e7f27459f2a0652 net: sched: Protect Qdisc::bstats with u64_stats
+f56940daa5a74fb20b5f5487535549949f2d8d0c net: sched: Use _bstats_update/set() instead of raw writes
+50dc9a8572aa4d7cdc56670228fcde40289ed289 net: sched: Merge Qdisc::bstats and Qdisc::cpu_bstats data types
+29cbcd85828372333aa87542c51f2b2b0fd4380c net: sched: Remove Qdisc::running sequence counter
+f8ba22a14268b432f685fd8463a958a3594b7fb6 Merge branch 'remove-qdisc-running-counter'
+2841bfd10aa7bc07aecc452c10158a5df10ebd04 net: ks8851: Make ks8851_remove_common() return void
+d40dfa0cebd8197aaca2fcac4b9fa61da6e1c9fd net: w5100: Make w5100_remove() return void
+8e60189d937c6cd5446a8eedaa12b727f1b2a33f dt-bindings: net: ave: Add bindings for NX1 SoC
+9fd3d5dced976640f588e0a866b9611db2d2cb37 net: ethernet: ave: Add compatible string and SoC-dependent data for NX1 SoC
+91e1aef746ed8ae9f866ef34133d81d3b0b41558 Merge branch 'uniphier-nx1'
+0e9e7598c68f1dc17ce1053b08494b8ed6dd4985 octeontx2-nic: fix mixed module build
+4abd7cffc09a38015fa14a22471e3de48a4ca032 ethernet: use eth_hw_addr_set() in unmaintained drivers
+7bbbbfaa7a1b0b03890f25fba5f28bb8c7ef145a ether: add EtherType for proprietary Realtek protocols
+487d3855b641b22a5875166de914c7253b63368b net: dsa: allow reporting of standard ethtool stats for slave devices
+9cb8edda2157afcd70dd90eb601b4cbc786c2e70 net: dsa: move NET_DSA_TAG_RTL4_A to right place in Kconfig/Makefile
+2e405875f39ff24aa88a21f90f63e5e18b344e8c dt-bindings: net: dsa: realtek-smi: document new compatible rtl8365mb
+1521d5adfc2b557e15f97283c8b7ad688c3ebc40 net: dsa: tag_rtl8_4: add realtek 8 byte protocol 4 tag
+4af2950c50c8634ed2865cf81e607034f78b84aa net: dsa: realtek-smi: add rtl8365mb subdriver for RTL8365MB-VC
+2ca2969aae1e110fe243a50d6d5809f6f4895092 net: phy: realtek: add support for RTL8365MB-VC internal PHYs
+c87350ced118ef898ffcb7badacf0939010f2549 Merge branch 'rtl8365mb-vc-support'
+7adaf56edd03751badc3f045e664e30f9d1b195e Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf-next
+06dd34a628ae5b6a839b757e746de165d6789ca8 net: dsa: qca8k: fix delay applied to wrong cpu in parse_port_config
+041c61488236a5a84789083e3d9f0a51139b6edf sfc: Fix reading non-legacy supported link modes
+5e520728ce01941a48c65ac5da872e3f42c66869 !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
+0c302d005dffd8266d4904cebac77befd4057656 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
+eec48e79bfc5197b3d97ac8efd5a609d6f1780ef net/mlx5: Support partial TTC rules
+ced7b2e80c526052ac4d074a43e7b12922d07dcd net/mlx5: DR, Fix querying vport 0 capabilities
+ae8f99f5c91d92423f0f4e84c26984eb5d8c3d9f net/mlx5: Introduce port selection namespace
+607498148ac93b06d744439c396969536bec711c net/mlx5: Add support to create match definer
+90d898bf21f5bd6bd1d52577bd192d8ad43bca04 net/mlx5: Introduce new uplink destination type
+1a3cf1fa19ff49779b36ab8b243dc9f4738a7b9c net/mlx5: Lag, move lag files into directory
+e2dc66485baaa3772720eb80731158c50db67be5 net/mlx5: Lag, set LAG traffic type mapping
+8799c1b06f4b6ffd078d733cc9fb60b95e882f38 net/mlx5: Lag, set match mask according to the traffic type bitmap
+fa31fe9be9971a652000c58f1c953d9141231115 net/mlx5: Lag, add support to create definers for LAG
+2c69b2e34eff81daf8c27e27ad7f15293c4385db net/mlx5: Lag, add support to create TTC tables for LAG port selection
+2d771869a20fddc4dc7c5066073407477df8fc53 net/mlx5: Lag, add support to create/destroy/modify port selection
+90da74b3d996d07f098a52036e460076fa82ea92 net/mlx5: Lag, use steering to select the affinity port in LAG
+a22029a107d4f9ccebc578765d621c91b8e7d862 net/mlx5: E-Switch, Use dynamic alloc for dest array
+daef8932d0a09b713e907ce60e7c737c540dcfd0 net/mlx5: E-Switch, Increase supported number of forward destinations to 32
+76abcc3703749ab76d4e6e6e6fbdd82cb5df337c Merge branch 'patchq/414851' into mlx5-queue
+71948fce495dad144788533b033447a49c563276 Merge branch 'patchq/428803' into mlx5-queue
+01d82b4ce224449731ca3981edaa19cea9af6865 Merge branch 'mlx5-vdpa' into net-next
+6ba361bb493b750129a6028ab420d54dfde6b43d Merge branch 'mlx5-queue' into net-next
+06a3d76d68a6c63aebbd70b589a7a29da9deda66 Merge branch 'mlx4-for-net' into net-next
+3f9fed1a619fe0b56d0257703d28b270626d8055 Merge branch 'mlx5-for-net' into net-next
 
---===============0696638116766689026==--
+--===============1535812375329332099==--
