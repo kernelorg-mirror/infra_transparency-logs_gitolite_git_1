@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6938203483053441872=="
+Content-Type: multipart/mixed; boundary="===============2701513768859297595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 18 Oct 2021 07:44:52 -0000
-Message-Id: <163454309231.20321.5384341902264986300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 18 Oct 2021 07:45:34 -0000
+Message-Id: <163454313433.22055.5640175734502019954@gitolite.kernel.org>
 
---===============6938203483053441872==
+--===============2701513768859297595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 1f8818e352f721c49ebea39025f6c98f25756eff
-    new: b5bc8ac25aa1477fee3853718f2673a594efdc4b
-    log: revlist-1f8818e352f7-b5bc8ac25aa1.txt
+  - ref: refs/heads/usb-linus
+    old: 11c52d250b34a0862edc29db03fbec23b30db6da
+    new: 519d81956ee277b4419c723adfb154603c2565ba
+    log: revlist-11c52d250b34-519d81956ee2.txt
 
---===============6938203483053441872==
+--===============2701513768859297595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634543091 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634543091-00ee93f3c85ce1f85cd6633042f4fd4c09537cb2
-
-1f8818e352f721c49ebea39025f6c98f25756eff b5bc8ac25aa1477fee3853718f2673a594efdc4b refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJfMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mMMP/1CP3ZT6Yx1IJ+kNdDAo
-oROgfSRcX17MsKOWGwePBgnjonXVVTgF3oPfI+xnsMkoYO7rEzru+7slzYxGmHBs
-H+2zLDc5upbPZf+1I5JiTeDtzEF8YNDhlY3ZX7YbcIMDj3ok8bED59qnF6gHQp6C
-5BEKE7Bv924BJ4I7S/+mn+4EAG0yPErgDE+limsw+GfieoX0Crjs0pgbT1EPQt2P
-m1j1wp3JUgqXJjMZ4c3mD3BFDrI7ewKXCTvAwNp0QzFnzVtj8qM4OsLMzZJiMbqk
-z7YdpJXulfiJ5sHBjUa/h89NqC9nlmH6c6odp6bOKPyogbykA19J9RVwXtPryMIM
-NufVAOHmyze9Uzwz3hQ2E/lnlBp/5s/jSlAK1K7nMb3IVOroNhLq6KMeqYxDJhMz
-tDvIQtg6uFkjHLYcjY2TErw7zhkqyp/Q+ObXV9JJPIwc96TlnhmFN3E2FsSYcFIq
-iA92xASo6LfiTr20PEooBtILQTXsEy0m1ZxH/5Ca9Wa4Sqxwk1pmoMkDh5Yy4ABS
-izMZUYy0oSELR/mZIkVHhftltvoRTnTr6h2iQwOHiyR3f8OjuoDWC5d6ifVQE74W
-TMhiLckRzvhNW6KGHFJvhIgWC+pMBHLnOzK6pIaNcwIKuIKE0ND8wlADTPEcA0C2
-DpXudpl7565DoYUPRStW4SYr
-=RkXR
------END PGP SIGNATURE-----
-
---===============6938203483053441872==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f8818e352f7-b5bc8ac25aa1.txt
+Content-Disposition: attachment; filename=revlist-11c52d250b34-519d81956ee2.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -488,12 +457,9 @@ a8cf90332ae3e2b53813a146a99261b6a5e16a73 bitfield: build kunit tests without str
 b46179d6bb3182c020f2bf9bb4df6ba5463b0495 objtool: Check for gelf_update_rel[a] failures
 86e1e054e0d2105cf32b0266cf1a64e6c26424f7 objtool: Update section header before relocations
 c0f1886de7e173865f1a0fa7680a1c07954a987f ALSA: hda: intel: Allow repeatedly probing on codec configuration errors
-f5a8a07edafed8bede17a95ef8940fe3a57a77d5 USB: serial: option: add Telit LE910Cx composition 0x1204
 4549c3ea3160fa8b3f37dfe2f957657bb265eda9 powerpc/lib: Add helper to check if offset is within conditional branch range
 3832ba4e283d7052b783dab8311df7e3590fed93 powerpc/bpf: Validate branch ranges
 8bbc9d822421d9ac8ff9ed26a3713c9afc69d6c8 powerpc/bpf: Fix BPF_MOD when imm == 1
-c184accc4a42c7872dc8e8d0fc97a740dc61fe24 USB: serial: option: add prod. id for Quectel EG91
-2263eb7370060bdb0013bc14e1a7c9bf33617a55 USB: serial: option: add Quectel EC200S-CN module support
 5855c4c1f415ca3ba1046e77c0b3d3dfc96c9025 powerpc/bpf: Fix BPF_SUB when imm == 0x80000000
 030905920f32e91a52794937f67434ac0b3ea41a powerpc/security: Add a helper to query stf_barrier type
 b7540d62509453263604a155bf2d5f0ed450cba2 powerpc/bpf: Emit stf barrier instruction sequences for BPF_NOSPEC
@@ -511,7 +477,6 @@ f08fb25bc66986b0952724530a640d9970fa52c1 powerpc/64s: Fix unrecoverable MCE call
 5a4b0320783a19f877dd595813569b3c25f4ff81 powerpc/pseries/msi: Add an empty irq_write_msi_msg() handler
 d93f9e23744b7bf11a98b2ddb091d129482ae179 powerpc/32s: Fix kuap_kernel_restore()
 eb8257a12192f43ffd41bd90932c39dade958042 pseries/eeh: Fix the kdump kernel crash during eeh_pseries_init
-11c52d250b34a0862edc29db03fbec23b30db6da USB: serial: qcserial: add EM9191 QDL support
 424b650f35c77defbb3cbd6e5221d3697af42250 tracing: Fix missing osnoise tracer on max_latency
 7671b026bb389a5a01722dd3ecf80b44703e9e84 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8d6c414cd2fb74aa6812e9bfec6178f8246c4f3a net: prefer socket bound to interface when not in VRF
@@ -816,6 +781,5 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-b5bc8ac25aa1477fee3853718f2673a594efdc4b Merge 5.15-rc6 into driver-core-next
 
---===============6938203483053441872==--
+--===============2701513768859297595==--
