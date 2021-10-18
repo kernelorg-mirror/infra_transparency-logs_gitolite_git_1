@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7117110317482401097=="
+Content-Type: multipart/mixed; boundary="===============2226413756947376607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 18 Oct 2021 07:37:49 -0000
-Message-Id: <163454266902.15364.11588669880720647460@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 07:37:52 -0000
+Message-Id: <163454267278.15425.3814353130570916486@gitolite.kernel.org>
 
---===============7117110317482401097==
+--===============2226413756947376607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,56 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 5816b3e6577eaa676ceb00a848f0fd65fe2adc29
+  - ref: refs/heads/staging-linus
+    old: 37f12202c5d28291ba5f83ce229771447ce9148f
     new: 519d81956ee277b4419c723adfb154603c2565ba
-    log: revlist-5816b3e6577e-519d81956ee2.txt
+    log: revlist-37f12202c5d2-519d81956ee2.txt
 
---===============7117110317482401097==
+--===============2226413756947376607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542665 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542671 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634542664-4e35aa47986ce4d38ca34701284b716ab4911f3a
+nonce 1634542671-999860c21835042e1233e740c319f19f262da5ec
 
-5816b3e6577eaa676ceb00a848f0fd65fe2adc29 519d81956ee277b4419c723adfb154603c2565ba refs/heads/main
+37f12202c5d28291ba5f83ce229771447ce9148f 519d81956ee277b4419c723adfb154603c2565ba refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJEkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+icgQAKyROtJgsHoS6MyfyHHA
-Copkeq7s/wfUnv/skNu8dxCq1u2Z8eWRz5irImUsSH71Y9m20tWKuk66C5S7eUTH
-IudSWAS8qIHuOqRjyajJDD0erenVTWe3sQXrOgy7dowzYRTDNr7lk9UvJxAIy5SM
-9WzqDV5LyLFnmwnYsJZR0cWog4B3YgwJeOSW2iepSkqSd5I/pM78FvqinDFKUryi
-zPWMQ/NCLByz6eKkg7LpgYvs2IGdpnWSFYscmqi14w9FCZnYZ0+X3oAx4UIwt4u4
-Vzjs+QoIG/jHcvJwNolYJ0Mg3wMTgYL1LJOwYBG3xA8MRIRoTWiPNamz4SiZahFD
-iHhPhmo+c2WncgIewpOpocQNIkzkzmGzBxCByezgbHrE3uNMz64m1+E3wMqflxMS
-8OKq5WfK3QiJ2ahDhvs8C/pdvGdbSH1XxKb2RD/2ayfEZsabvE67F0YQFqPbFmed
-jUPvLdQK7JX65IDijiydHz2riTzrOTGebWChFCz87pOfT6uD0bTtNPD6VjxkhM6t
-MRqL0Z+PW9O0zTC+xf6go/JjlCukeuq5ZJ7zDdK4eWz/dsYScADrHnmZZkmXFJf+
-OFrerbc4XsHR1e7ohluuuE1+N6P0dMf1LfhIrrnK2O3Nq13d191EzdYGC5kqvg/Y
-j9muOyX+Fw0umyGXXWKcanG+
-=+Evb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJE8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mQgQAJLFZcpYnc/Vss1N0E1g
+tIFUy/W5yx8QMFNUOoXVLXMfCzYkrAnUYvP6p444YHoONrpDXDSeFVcuAlS9myt/
+nhvGTnsC4amPP/aN/xbLba9/P38LHnirlWXhagUOJqW5mxuylmYh7pq34S9hehGy
+GAo/yrrfP9LySjA83T3uPyhr1SGtxGqHOqG4AND2HUxa8gYE1Dh4flZprUPM5KZB
+7MY2ipLJK6yWuHCiiEiZBWgLSDqOUCuIjQTZgLb6JxvUv1KN3CEF5OQM/WrV4NYR
+DXcdTreUWfP5qVmMbGzcaJ8WgK/13V90ZY15BA10twlaQ5vXiy/VSifdcT6PHu0P
+DaGs0pBImOEr6FrIODUqCcW03O0pwzb89ZxWcxTya3aWcwBvO5JDVvkBX6nkBPQq
+Ij7+/nFtwMC1pJvY1gWe4drmlMb53XPs4SJv8F5BUXgiGV3n9K16C9bFj/iSDdDi
+vtgAwAh0v/oh7ET6il093i2FxvvxtS5yrn7z7Pd/dB/bY+LVNeqLCWJx0v0tqktp
+tBpyGCGPLGKQo2VB3puCXhcEz4GXNIuHBm3oUMqZOC2STwq7M/XUwjqxQbwzpWPU
+YoBsBXGFPUz5ErhY0S/Mgkyizr47u3fvuAAydetguEIrniTUaLJI0yjw8sh2MmHJ
+wAhJXV+Fqxy0tI5gSovYhyKz
+=R+XO
 -----END PGP SIGNATURE-----
 
---===============7117110317482401097==
+--===============2226413756947376607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5816b3e6577e-519d81956ee2.txt
+Content-Disposition: attachment; filename=revlist-37f12202c5d2-519d81956ee2.txt
 
+3f1c260ffddb7ea51d54c37343c6d500a10317eb MAINTAINERS: Add myself as MStar/Sigmastar Armv7 SoC maintainers
+d0c624c03012e62ac36bf819dab120380a9ef415 Merge tag 'at91-fixes-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into arm/fixes
+f60f5741002b9fde748cff65fd09bd6222c5db0c mtd: rawnand: qcom: Update code word value for raw read
+356ed64991c6847a0c4f2e8fa3b1133f7a14f1fc bpf: Handle return value of BPF_PROG_TYPE_STRUCT_OPS prog
+2cc74e1ee31d00393b6698ec80b322fd26523da4 IB/cma: Do not send IGMP leaves for sendonly Multicast groups
+0d818706130e2f4e828c3fc028917677fac76a09 virtio: don't fail on !of_device_is_compatible
+6243e3c78ace66d337a1e43b60a1aa8f5b61bd72 vduse: missing error code in vduse_init()
+7bb5fb207334758ce6ee84345d6f08e4fb284fe6 vduse: Cleanup the old kernel states after reset failure
+ef12e4bf4276a07fd350179fa63d0d337ea0a867 vdpa/mlx5: Clear ready indication for control VQ
 759be8993b1b40e05b8908583336b8e230e67b08 vdpa/mlx5: Avoid executing set_vq_ready() if device is reset
 be9c6bad9b46451ba5bb8d366c51e2475f374981 vdpa: potential uninitialized return in vhost_vdpa_va_map()
 f8d858e607b2a36808ac6d4218f5f5203d7a7d63 xfrm: make user policy API complete
@@ -100,8 +109,6 @@ d36a97736b2cc9b13db0dfdf6f32b115ec193614 pinctrl: qcom: spmi-gpio: correct paren
 cfacfefd382af3b42905108b54f02820dca225c4 ASoC: SOF: trace: Omit error print when waking up trace sleepers
 e7165b1dff06b6e4373ab7758b21f3d9ed8a64ca pinctrl/rockchip: add a queue for deferred pin output settings on probe
 59dd178e1d7cb6cac03b32aba7ed9bbce6761b6f gpio/rockchip: fetch deferred output settings on probe
-4170d3dd1467e9d78cb9af374b19357dc324b328 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-8167c9a375ccceed19048ad9d68cb2d02ed276e0 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
 f0c15b360fb65ee39849afe987c16eb3d0175d0d media: ir_toy: prevent device from hanging during transmit
 27a221f433b7ac6604845b09696e60e803972d3c iwlwifi: mvm: d3: Fix off by ones in iwl_mvm_wowlan_get_rsc_v5_data()
 b6a46b4f6e4b35868e33930acaa7c50bf6cab821 iwlwifi: mvm: d3: missing unlock in iwl_mvm_wowlan_program_keys()
@@ -266,11 +273,8 @@ c5c24373ad0cb412002fe543683eab34189ec5ba arm64: dts: qcom: pm8150: specify reboo
 a295aef603e109a47af355477326bd41151765b6 ovl: fix missing negative dentry check in ovl_rename()
 09540fa337196be20e9f0241652364f09275d374 clk: socfpga: agilex: fix duplicate s2f_user0_clk
 7fe7f3182a0dd8f9bad463598ed103b3d8cfa739 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
-9da1b86865ab4376408c58cd9fec332c8bdb5c73 iio: adis16475: fix deadlock on frequency set
 b193e15ac69d56f35e1d8e2b5d16cbd47764d053 net: prevent user from passing illegal stab size
-c2980c64c7fd4585d684574c92d1624d44961edd iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
 319aeaf69c85dc39768b3754c1786225e38e2871 arm: dts: vexpress: Fix motherboard bus 'interrupt-map'
-ea1945c2f72d7bd253e2ebaa97cdd8d9ffcde076 iio: adis16480: fix devices that do not support sleep mode
 18d46769d54aba03c2c3fa666fe810f264b5d7b8 ksmbd: remove RFC1002 check in smb2 request
 d72a9c158893d537d769a669a5837bc80b0f851c ksmbd: fix invalid request buffer access in compound
 88a04049c08cd62e698bc1b1af2d09574b9e0aee HID: amd_sfh: Fix potential NULL pointer dereference
@@ -530,7 +534,6 @@ bb4a23c994aebcd96c567a0be8e964d516bd4a61 riscv/vdso: Refactor asm/vdso.h
 5155cf7b6aaefe64d7d7e1f8ca1871fce55444c4 Merge remote-tracking branch 'palmer/riscv-vdso-cleanup' into fixes
 e25ca045c32a0d787b143fef0acc5a43cc9ccc66 Merge tag '5.15-rc3-ksmbd-fixes' of git://git.samba.org/ksmbd
 7b66f4393ad421e425ba643fde0493fa64346a43 Merge tag 'hwmon-for-v5.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-26d90b5590579def54382a2fc34cfbe8518a9851 iio: light: opt3001: Fixed timeout error when 0 lux
 52c3c170623d994c468c1ee9cc36c56bbd6d6e56 Merge tag 'objtool_urgent_for_v5.15_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3a399a2bc465e7fb0e788bfbffefc9399d628a25 Merge tag 'perf_urgent_for_v5.15_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 777feabaea776a6bff3d198edfe931b0b45c45d9 Merge tag 'sched_urgent_for_v5.15_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -600,14 +603,11 @@ ffac30be2a06b2516b2ce2afa2dcb2cf8af65a52 drm/i915/audio: Use BIOS provided value
 a532cde31de3cae6ed60e60d6f9379771f652809 drm/i915/tc: Fix TypeC port init/resume time sanitization
 fdddf8c3a477f77b3a623f220e78d45e89fc50d5 drm/i915/bdb: Fix version check
 b2d73debfdc16b742e64948dc4461876af3f8c10 drm/i915: Extend the async flip VT-d w/a to skl/bxt
-85a877801618adc1312e4d5a6c844482c3e4b913 Merge tag 'iio-fixes-for-5.15a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into staging-next
 244f5d597e1ea519c2085fbd9819458688775e42 firmware: arm_ffa: Add missing remove callback to ffa_bus_type
 eb7b52e6db7c21400b9b2d539f9343fb6e94bd94 firmware: arm_ffa: Fix __ffa_devices_unregister
 a0e25f0a0d39d66c048d5dbac1e7ebaa6ec885d7 cachefiles: Fix oops with cachefiles_cull() due to NULL object
 330de47d14af0c3995db81cc03cf5ca683d94d81 netfs: Fix READ/WRITE confusion when calling iov_iter_xarray()
 5c0522484eb54b90f2e46a5db8d7a4ff3ff86e5d afs: Fix afs_launder_page() to set correct start file position
-7ff4034e910fe00a90d985f0d05bacf60c162f02 staging: vc04_services: shut up out-of-range warning
-37f12202c5d28291ba5f83ce229771447ce9148f staging: r8188eu: prevent array underflow in rtw_hal_update_ra_mask()
 68c9cdf37a0456b7ba25a50b1ea8794f305da17f efi/libstub: Simplify "Exiting bootservices" message
 b3a72ca80351917cc23f9e24c35f3c3979d3c121 efi/cper: use stack buffer for error record decoding
 38fa3206bf441911258e5001ac8b6738693f8d82 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
@@ -1082,4 +1082,4 @@ f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of gi
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 
---===============7117110317482401097==--
+--===============2226413756947376607==--
