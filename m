@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1642799856500864666=="
+Content-Type: multipart/mixed; boundary="===============4473816726509983571=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Oct 2021 13:23:31 -0000
-Message-Id: <163456341174.31101.2466031240048026428@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 13:23:35 -0000
+Message-Id: <163456341592.31179.14080268084146764381@gitolite.kernel.org>
 
---===============1642799856500864666==
+--===============4473816726509983571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,97 +16,116 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: a6e48b5979d50ba4c93923044d33a7de7e04cc02
-    new: 6332251ed7a3dc5e64f4a402ad2c246d24d08c95
-    log: revlist-a6e48b5979d5-6332251ed7a3.txt
+  - ref: refs/heads/linux-5.4.y
+    old: fffad172cc20cdc1a8ca1325c738d933936e3a3f
+    new: b75bde367f9045a53b08e4ab4f651d91498490f3
+    log: revlist-fffad172cc20-b75bde367f90.txt
 
---===============1642799856500864666==
+--===============4473816726509983571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634563410 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634563413 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1634563409-d72dc23209051e6584eb430771349bd7edfb90fe
+nonce 1634563412-80106dfb3982416e0539eaaad4255759d4483101
 
-a6e48b5979d50ba4c93923044d33a7de7e04cc02 6332251ed7a3dc5e64f4a402ad2c246d24d08c95 refs/heads/linux-4.19.y
+fffad172cc20cdc1a8ca1325c738d933936e3a3f b75bde367f9045a53b08e4ab4f651d91498490f3 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtdVIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8KQQAK8uO34tt3Bx6zFz7En3
-A+jo6gKE2F4o2MARgWTuIfEFiY8Wa1MSWuB9M/fu7KDMF6xMFTHzQun34dP/tU8W
-9j941AejF6paQHPWnZYMH1JMDIzSusOuid/F3RDKhuBAY7Elb4QWhpiHNAan2Sk5
-5jNUQSlUbc+82DNlf2JReXpwaT8T1bKAD+7NSzhttYStBc1yKaC25wNfePrG/R+L
-KT3iX4VrvwpKQE3GKiS9/W+bT5/BrwjX8bSng36rL8UT5BS/lOuUEVzTFY3cLdtz
-4IEgyAxWOt6lanljJOZgMOq5WeAouCjZ/XXc/KXqm2p317uI0KWC31xBPG2iOmQy
-RsrDq+fIjkN+nD5wtUbYzBNH/sc6ef1TrE5t6TXM27EbXKkdnFv7UUvFrJQtXVQH
-OcDgNMsWbuz/uH1Pzw2JPf7L9qn7IittZGXVU0N0EyO+4UTcLXKMwTnFYN8fRSDS
-2ROYLR5RkapR6jtdaNQtOxp14F/QZ2r+OP6lKcqh/Xj+eaVpPrr3CmavjG7jDgWq
-1JZSnXP40oVbLE59orf6p1WWx++HeOtpymKIHXOFjCCdVsGzGQbDrUW9XLMRSq4V
-9Lcdas9V3D8vU7VGD+PiK34nJJoSIXKS+574snXYG+5VHOEFRS85v0Ls/g0fJw3I
-qK886iWkJrj7yKmH8ifDEWLk
-=+IEQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtdVUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+blwQAMgqNw1cEXzZRHIVhmZS
+mPf5hYuxrWaG0oswPixMdtTq+ivKYAfFQcJSPi7Bgst9+OfeGjzdjtrZ/QKa4nyX
+SdsUFJfjybL3etRvoggOL+JEID1mk+GwD8IOnmNotgJZRiM4O1Ln4+el23EzzEdL
+QQ9y+PO92+wV+geY9M4xG/KGG2C2IQmUmcVpqDr/lBO5VNSvVYLsPYIG5Tno/9xv
+LHt2ImN21C4dGAtCHjHkRaM6dELwrWrVGYVd2kiq0i5/twJkXKwXu4n2B+IN3Q4T
+e5jZYonV4UmsmTL8aswNlS4MuD7Ezki3pXljC2GXs6ajCbTjnK0xRZBx2tySOsZI
+dJuOmOtcFG1oxZ+6c9aC38x4azVeY9vHQjCdOpIPx7MFuc8GdwDkiPVmFQk4uVib
+6xS9JvU/8HG57eOC9AYPZSHBGlpvKQlYzNtpuKT1lwX7hp3De0iUS37knnHQW/L4
+JEWxFPGodX3zvrKFnYQ4P2mq+uIU2dCFIzoTai5jNtqbclCXYUfdQYIns+wg8QXd
+pHPpFdaGDstp57oJx3BdNneyD8jbalhan5LHgBORJgRLrTWUiwjhKpstc+FD078M
+mrqLxebuIDFdrnCUJUS/hI38DFGH7yMlXNMVhcrzx5YQdr6FQnqu+R49cK5nim4d
++s6eaf1F29hq+MQYhcw+ebML
+=jPiX
 -----END PGP SIGNATURE-----
 
---===============1642799856500864666==
+--===============4473816726509983571==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6e48b5979d5-6332251ed7a3.txt
+Content-Disposition: attachment; filename=revlist-fffad172cc20-b75bde367f90.txt
 
-8686f3bbafd18f6a6239693feaac106ba68b09b6 ALSA: seq: Fix a potential UAF by wrong private_free call order
-e9b3effcd6e5c08ded80d2dcd710a4150ba9e978 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
-ae1de0323d6ba27e5800045720363354dba3dba0 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
-c8f93ff5a748451f360fea118607788607be727f ALSA: hda/realtek - ALC236 headset MIC recording issue
-e256d1a78d0fb028fb0d43f5f1740381a030e81c nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-fd021eff61342553334b21f8dabf103492bf0526 s390: fix strrchr() implementation
-93d6475f4ccc9200dcdae80fbb2085cb482f8a19 btrfs: deal with errors when replaying dir entry during log replay
-f7222542c94062a764a65e5d340c9cbe9cb92c81 btrfs: deal with errors when adding inode reference during log replay
-4626c0a8e6d0070145ee41b5b5c730d1f3c06ed2 btrfs: check for error when looking up inode during dir entry replay
-b9688ad332f58673b7225504c7bd0b548d24d2e4 x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
-fd97e2c0f6ab00322dae6ecb20f16ec2d7e36640 mei: me: add Ice Lake-N device id.
-c202bd2d1134c3cbfe10a6909dbe2c7b03ea85e0 xhci: guard accesses to ep_state in xhci_endpoint_reset()
-7c905a1051e175eabaabe20816109f9dca3e459b xhci: Fix command ring pointer corruption while aborting a command
-10109a43ffdd5cef06580b5a5c9ae3875b8e3013 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-e85228b63f9b6339235a0ea53446ed6d420bb7c0 cb710: avoid NULL pointer subtraction
-0f29f6ef1f971d0101307d93140af482adede448 efi/cper: use stack buffer for error record decoding
-d1cd5b4ecfc61fa5d979baa7f43b5486dd9383a8 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-b8ec14f7ac458c453e99ec381843ec9f76c406f3 usb: musb: dsps: Fix the probe error path
-0ff0a106fac531f8bd46f2946815581791dcbbff Input: xpad - add support for another USB ID of Nacon GC-100
-4882b0952924bc83f0d19397473cb784fab78742 USB: serial: qcserial: add EM9191 QDL support
-3c5a32b5c82e726ad5275c2111284d95e70e9e3a USB: serial: option: add Quectel EC200S-CN module support
-291c808e392828c23be425211291c1d5b203a3c6 USB: serial: option: add Telit LE910Cx composition 0x1204
-97ba434940a0bbb76766fc96893244f99895c1ac USB: serial: option: add prod. id for Quectel EG91
-7a38f5dab133a1197edcc3402d0b79993bd2f66b virtio: write back F_VERSION_1 before validate
-b4dc9327ef40b2d63b1621db9cd596d61e5cf410 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-15df510a763b5f47a3792c73018105bf067144b1 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-5a31479ad1fc903acf5e025f4b89b50971ddd9e6 iio: adc: aspeed: set driver data when adc probe.
-37626a69de473c439ee07c37545d940df8526842 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-bd761473ae63c4b9a333b0ecac96c887dcdd0401 iio: light: opt3001: Fixed timeout error when 0 lux
-8e413fe702249b887c7b55c2e230e5b542a38cc9 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-bee6e06e52949fd5384a21783144048dc5569ee9 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-3a6bc2e4d0742c18fd90b36109d20e99b59f756a iio: dac: ti-dac5571: fix an error code in probe()
-535e6c4e5aafba206e7c107ac57ae7891a2a0853 sctp: account stream padding length for reconf chunk
-352398cc3e6e0e2d4e0b4debe8f365685895891a net: arc: select CRC32
-7fe42e7f24458752aa536ed5d05aa19601683f5f net: korina: select CRC32
-0f61cc4303b5c1a5048fdb53c4970e5e6a774590 net: encx24j600: check error in devm_regmap_init_encx24j600
-94dc62aa8bb137ca51bf8998727a631f37c9cbcf ethernet: s2io: fix setting mac address during resume
-1191bd31f4f57c321a355a0a30bbe249fd5304d1 nfc: fix error handling of nfc_proto_register()
-16d9ed16ab876209e69e5cb5c2639806b1dc8b4d NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-9fc1bf8b9f510bf0bf92b5185e400f312f7ac634 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-6cfe62de8aa18ab627635d5098c4d267fdcdc0c6 pata_legacy: fix a couple uninitialized variable bugs
-8aee3b920f9528b9085444b829e623ee7c7c981f platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
-3d77034e5fd8ffe2f5376fb98133c16e30e0eba6 drm/msm: Fix null pointer dereference on pointer edp
-8e87ec2496e74d1b26a2e198b41acb52616b90b9 drm/msm/mdp5: fix cursor-related warnings
-1e65aece4914f756ebe093528e85681c57fb4b42 drm/msm/dsi: Fix an error code in msm_dsi_modeset_init()
-b1e50a693ca4692106a9db321e986e46f6921aad drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-a66f50edc947f17785503cb40f0b2f5be39d8520 acpi/arm64: fix next_platform_timer() section mismatch error
-ff43bd5e992a0846bae5cabe539d6491afcdb7ab mqprio: Correct stats in mqprio_dump_class_stats().
-804f2f7484749a45c376fce36290f3e39c976f52 qed: Fix missing error code in qed_slowpath_start()
-3cb33fe688b831f0d1ec336d053022bd124daac5 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-6332251ed7a3dc5e64f4a402ad2c246d24d08c95 Linux 4.19.213-rc1
+82b15d102d6d6eccc8b9ad872ce6d29bc8e64d97 ovl: simplify file splice
+a1814c7ef9442497ba8efa78f27fc94b56ce32bd ALSA: usb-audio: Add quirk for VF0770
+74545b11fef6daad24adad53b8ae6068de05dd74 ALSA: seq: Fix a potential UAF by wrong private_free call order
+1f57a3fea3ef0f60a056fd31f5ed6fa2e39982d3 ALSA: hda/realtek: Complete partial device name to avoid ambiguity
+b0268fdf949a606659db9c513bf0a91d94cefa95 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
+d117d3798cb05d82d9fe66b7d98f8c5d24db426c ALSA: hda/realtek - ALC236 headset MIC recording issue
+69d0a8e2920193e4729ff7a7cbb84cd14113ed15 ALSA: hda/realtek: Fix the mic type detection issue for ASUS G551JW
+a0b6c3f0dcaa1de78e5ab5978171003bca242804 nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
+be0070952cbe40dcefb2612ccdf27f0ac8dabc64 s390: fix strrchr() implementation
+3e68998c71e2c4a10b3b9350eca15dd6e3a8d932 csky: don't let sigreturn play with priveleged bits of status register
+522917ae1c6614c5feffaa6e4f2b33d3016a6c82 csky: Fixup regs.sr broken in ptrace
+5397b5d01a25cec72bf9f2550a87d975202ca3a3 btrfs: unlock newly allocated extent buffer after error
+8fd53cdd2f3e618b9c1da9fceb2b3c1f59dbae7f btrfs: deal with errors when replaying dir entry during log replay
+f3a7b87b31bfda58fb136dbf159a8ec8d5114818 btrfs: deal with errors when adding inode reference during log replay
+dee0296535d20d1cf7c8e42a01672e21f8d3d715 btrfs: check for error when looking up inode during dir entry replay
+60b6dc108762a1edf49ce001d69de91843ade371 watchdog: orion: use 0 for unset heartbeat
+997fccebebb4fb629067988ffe24063d111fd6f5 x86/resctrl: Free the ctrlval arrays when domain_setup_mon_state() fails
+5fc8d0713f243f91b97307ac5b6fc7a31665d277 mei: me: add Ice Lake-N device id.
+4783e3528b656440caaad0b7b2372cbc5f221c78 xhci: guard accesses to ep_state in xhci_endpoint_reset()
+3dc2c885f173be8d18bd2eca058b1bd49cdec6c2 xhci: Fix command ring pointer corruption while aborting a command
+d23814a64415591562b1365b5268d4e0cbc54588 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+659b483e30698fa3d58a335d8a4cac7f31759a9f cb710: avoid NULL pointer subtraction
+eb690089bcf4c620b0776ef83b5e6502880af0d2 efi/cper: use stack buffer for error record decoding
+5acba0b5e59c432af21130fc342e4ecf4788785a efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+5d311dfdbb0c65d00d0b8ea9987fc8e9488e8d83 usb: musb: dsps: Fix the probe error path
+547db83fecfad7f9637d8bbdbfa80160cf4c402a Input: xpad - add support for another USB ID of Nacon GC-100
+70f19ef62a4721cc5b6df44608b39892dee1f168 USB: serial: qcserial: add EM9191 QDL support
+741811fdd3a29892e4713dbe287f99462c0d216b USB: serial: option: add Quectel EC200S-CN module support
+4858ece45e35e252c22c1fe4fdc58da3d3da14e4 USB: serial: option: add Telit LE910Cx composition 0x1204
+a0a681838fe9647d77e8f3140460970cf230cf39 USB: serial: option: add prod. id for Quectel EG91
+6fd48bba6f76759fdff2aa62159b5507f86dce95 virtio: write back F_VERSION_1 before validate
+cb8e867d70f60b50fc97e225673566497fa2a990 EDAC/armada-xp: Fix output of uncorrectable error counter
+8553e41ae00620161fd55e29be512db0594ef864 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+6b474829a33b8a906906e7ac08db8ef2c93e414c KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
+0b81bec7f45fbb15eaf7bb21900f47e077b0e1d3 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
+14d0385f7b4e29cc2ab916d3cde7f09c663f84d9 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
+b57ed4f87a6b738b8c2c1c0d7988f832283cb213 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
+2dc4e7e5262012acae4e92b9fb4c959138ec62a5 iio: adc: aspeed: set driver data when adc probe.
+e9e29c8be0b854dc94d52777c614faef42aae981 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+d5c5b3341190b8e90d26722f58873a0b8463710b iio: mtk-auxadc: fix case IIO_CHAN_INFO_PROCESSED
+093b84570302a8808adf61f37d415436085c8e70 iio: light: opt3001: Fixed timeout error when 0 lux
+a2e93cf2e09921518a1981b56d4dc32bf38b7c64 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+91f2da4dd032b9ee073b919c22df6c57eac9c362 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+2e40a071d6e39d52599570c7a94a9b09b24bc51d iio: dac: ti-dac5571: fix an error code in probe()
+80958e109bfbb524227e794f4b5fea290f014330 sctp: account stream padding length for reconf chunk
+5284292bb326838193024374eed44f615ed34384 gpio: pca953x: Improve bias setting
+4572b772afa13f92d4ae421de6d6d0310102408d net: arc: select CRC32
+097f9df09b4b9696560cb254c6c2c5febfbccede net: korina: select CRC32
+e7a0dbf952e598881a8b0beb0d4dbab050079f1a net/mlx5e: Mutually exclude RX-FCS and RX-port-timestamp
+e2156b5ce73477d5fde79409b81f54113f1b2d01 net: stmmac: fix get_hw_feature() on old hardware
+bbc1a68ec93643f4441b5acac0d567408421fb23 net: encx24j600: check error in devm_regmap_init_encx24j600
+1b727ec55dd4ffb1a9efaf64c7cdcb2105a2071b ethernet: s2io: fix setting mac address during resume
+ee378510877bc0d253f45429e1d1ffb5a5ef5ba3 nfc: fix error handling of nfc_proto_register()
+4ca604cdd5304bbbb63d1fea828c5909e3a84af0 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
+a4c06745382b50ecdea13a6e7e86ab2695fa773a NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
+9e70d4f46e7452b3f6afca0049fc82ac35497b43 pata_legacy: fix a couple uninitialized variable bugs
+c04e93b169f8b60610474b94dfd5c59f1a5306f6 ata: ahci_platform: fix null-ptr-deref in ahci_platform_enable_regulators()
+b97efd097a70ae90704853b49e295fb74cfad5fa mlxsw: thermal: Fix out-of-bounds memory accesses
+3d0fef4902560d298c821096e04045d5c5d087b4 platform/mellanox: mlxreg-io: Fix argument base in kstrtou32() call
+141254a6bdbdb1f92c3aa6e3f4a54bb6439bfde3 drm/panel: olimex-lcd-olinuxino: select CRC32
+ef22d84067c225a7fdc29724a56e92d91f51b721 drm/msm: Fix null pointer dereference on pointer edp
+ea6205fd51149058f99381380a07c0e8fde8d42c drm/msm/mdp5: fix cursor-related warnings
+849a186882f6a7cd6b915071f889ba3f73df202d drm/msm/dsi: Fix an error code in msm_dsi_modeset_init()
+d7f55cd62338345b61c76aa273da2275dd1ee443 drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
+f29568af0dfbd4f0c89c97ed22c0e0bbca27b2e6 acpi/arm64: fix next_platform_timer() section mismatch error
+b35e283e756e6e37a3135da750aeed0144b6a84d mqprio: Correct stats in mqprio_dump_class_stats().
+373d4b939578408926597ddc8d7815987700958b qed: Fix missing error code in qed_slowpath_start()
+0e3a7b0caf78ca9b8cf57b5b4020e9e72faf9a15 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
+a9856ef4634676fb3a5b9efcb53f47e5a5c80a03 ionic: don't remove netdev->dev_addr when syncing uc list
+b75bde367f9045a53b08e4ab4f651d91498490f3 Linux 5.4.155-rc1
 
---===============1642799856500864666==--
+--===============4473816726509983571==--
