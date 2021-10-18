@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 18 Oct 2021 12:37:04 -0000
-Message-Id: <163456062477.32463.6448403068257374907@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 12:37:09 -0000
+Message-Id: <163456062984.32575.18137295544404446081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: c4cb38597f75425d515f629ef5922a56d2a12a97
-    new: a89621f947d2738c6b6f774ae59ab2e4e10cd99f
+  - ref: refs/heads/ath-next
+    old: 0a491167fe0cf9f26062462de2a8688b96125d48
+    new: 65b4b8aa0f59ec34508b262cdd0f8d731a09a074
     log: |
          65b4b8aa0f59ec34508b262cdd0f8d731a09a074 ath5k: replace snprintf in show functions with sysfs_emit
-         21a58b554d33d44cf816b7aa99037c133e2609e1 Merge branch 'ath-next'
-         f6b5d1955addda95a396f5da8bb24180b43aaa3e Add localversion-wireless-testing-ath
-         a89621f947d2738c6b6f774ae59ab2e4e10cd99f Revert "bus: mhi: Early MHI resume failure in non M3 state"
          
-  - ref: refs/tags/ath-202110181235
-    old: 0000000000000000000000000000000000000000
-    new: a89621f947d2738c6b6f774ae59ab2e4e10cd99f
+  - ref: refs/heads/ath-qca
+    old: daa02797b056e29df7048d1d0671cb72b6617e92
+    new: 5362c1c1b4be8a6d0e84953f67c47cd8860c7f0f
+    log: |
+         65b4b8aa0f59ec34508b262cdd0f8d731a09a074 ath5k: replace snprintf in show functions with sysfs_emit
+         5362c1c1b4be8a6d0e84953f67c47cd8860c7f0f Merge branch 'ath-next' into ath-qca
+         
