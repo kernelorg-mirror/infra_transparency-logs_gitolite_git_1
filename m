@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1293756173940534989=="
+Content-Type: multipart/mixed; boundary="===============2992294870977661114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 18 Oct 2021 07:41:30 -0000
-Message-Id: <163454289042.18751.8496182045935731182@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 07:41:34 -0000
+Message-Id: <163454289452.18830.14083963563579710096@gitolite.kernel.org>
 
---===============1293756173940534989==
+--===============2992294870977661114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
+  - ref: refs/heads/usb-linus
+    old: cd932c2a1ecc8f261ecb8d140fa431c16379931f
     new: 519d81956ee277b4419c723adfb154603c2565ba
-    log: revlist-64570fbc14f8-519d81956ee2.txt
+    log: revlist-cd932c2a1ecc-519d81956ee2.txt
 
---===============1293756173940534989==
+--===============2992294870977661114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542886 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542893 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1634542886-8c30dd0fb29aea6730572454fae19d6329ac66aa
+nonce 1634542893-2f666cefdd146ccef0e5b289a24635c45fa32e60
 
-64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc 519d81956ee277b4419c723adfb154603c2565ba refs/heads/main
+cd932c2a1ecc8f261ecb8d140fa431c16379931f 519d81956ee277b4419c723adfb154603c2565ba refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJSYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mC8P/jvA/KTvE8G4OfZk2WoH
-teIfWyqr82QLGQcjm94LKgju8tVntkZBg82JECethgSd9u8o0dkl/vlGD8QBVpNI
-NFZOZyQYEB1QhvhF8QpP33nsVyDafk22wH8/e3BAD5mlLI5INSorXOsl9PrQpNFI
-hc156ZZn8T5Lx1ZnigMwWqHnyGl9/d+gcohJKSxR/X4LGSFKXoklC4AhVd1p755F
-THojdmvvLHN+ZO2ljf5OFdFADnkqI1F2749bInw3RM7F+ObrVCdOarHfpjOn+MVm
-pts0geaiqt7KJGP9TEhwuZibec1i+odnAiDeYg3n2b0Ueernus53o4W7Iw/8xg5U
-Wr/YuEFXtg0hw4d+P9VRQM/rX9J9VOn+wmcXAG0pMbOIpzSgKu2ua96YtX/NxLgu
-ftd7ohym+9pEk9z5ffLhbms1OQsa29QKxirHNpBBIK4YnpZGwGmIbTekA5HVJSLj
-WyEBjLF+YUewJQiqpNEyfzMYgSlJut7xwt/mEAxyJSEzkIQG0yUH4QOH/zwZ8uUO
-yap12ENDr3Rm85AOKS/OSqEuQ8Gp6eZBN2YF/rvr0DQB0fY80OvUl6QPkEpmlF6O
-zUbKu4EX2Eh2tCPUpHUWp3G0uqW3zracj1iYhNgpbdqDd+yMUzPoldm8deJbPM8l
-K2ie616GmlwPsPtGDZoMkob3
-=/60Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtJS0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Bv4QAMpmsTkG+oaYvPLnxJJy
+hPbicdNSdo00XA45URIFc7KJA62u61VCpT/azfwjdSD6vBI+Y9AIcTkC9KuQlQzv
+Np/LhI/QTN/Pw3v4D3Uv0lYmXZ8T/kmo2GvT51f0qejZ1faVCoUOE8/J2bIsYIW2
+S6ZEZE/12YFA+ovXKU3MUq+hjQDjcUvWS65W1rprpxZ344rTrtqpDiqkzb0WwQSI
+vcLa02PzZkCTo7C+VhdkaoHmeZ9T1AYCEIrVtIi3pr7FPfLkeuj/AsJ756iLZoz2
+8sT4MTSwMJ2v2n+6fLIgvPUxl3wgRhdmRU28Pb1jUlhMANKDMZ1lDt9wtHjlNk0g
+zcAS0LLC/exVY1ajlPsTLjY/5sypMAO6U8m3F+LmNAR5vzXNCgYGKhMjDsalkdWh
+Q+zwJq4GL76pUwJ/ASzH+wqQmRhj7gV8zDDAvXEfL6+QrTi8HC7ZrKID6XaNUd3E
+c82GzbAsdfdJVVKSRUMjGonOFqR4bGPJEbH+YQuywQlE8M4nHk542dksLXMZCou3
+cKQTAveuFuhgN03pJG/rDFhfO52HYzLew2ztMptYM6vNUV26OpnrKpOfxQW2Mw8W
+AmI5G3oP3aNUanNiNC2FcgB/ISilmylAQ+mvLWNSgKA2j71jhCLYtEkfRgzBZdJs
+cyxWuI/fAbAc+hTmX1Y7TEzJ
+=PxJj
 -----END PGP SIGNATURE-----
 
---===============1293756173940534989==
+--===============2992294870977661114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64570fbc14f8-519d81956ee2.txt
+Content-Disposition: attachment; filename=revlist-cd932c2a1ecc-519d81956ee2.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -213,10 +213,6 @@ a8cf90332ae3e2b53813a146a99261b6a5e16a73 bitfield: build kunit tests without str
 b46179d6bb3182c020f2bf9bb4df6ba5463b0495 objtool: Check for gelf_update_rel[a] failures
 86e1e054e0d2105cf32b0266cf1a64e6c26424f7 objtool: Update section header before relocations
 c0f1886de7e173865f1a0fa7680a1c07954a987f ALSA: hda: intel: Allow repeatedly probing on codec configuration errors
-f5a8a07edafed8bede17a95ef8940fe3a57a77d5 USB: serial: option: add Telit LE910Cx composition 0x1204
-c184accc4a42c7872dc8e8d0fc97a740dc61fe24 USB: serial: option: add prod. id for Quectel EG91
-2263eb7370060bdb0013bc14e1a7c9bf33617a55 USB: serial: option: add Quectel EC200S-CN module support
-11c52d250b34a0862edc29db03fbec23b30db6da USB: serial: qcserial: add EM9191 QDL support
 424b650f35c77defbb3cbd6e5221d3697af42250 tracing: Fix missing osnoise tracer on max_latency
 85f74acf097a63a07f5a7c215db6883e5c35e3ff nvme-pci: Fix abort command id
 19ea40dddf1833db868533958ca066f368862211 btrfs: unlock newly allocated extent buffer after error
@@ -252,11 +248,6 @@ f49823939e41121fdffada4d583e3e38d28336f9 net: phy: Do not shutdown PHYs in READY
 6675880fc4b7c5137a2640b0725505c21b1ac525 tracing: Fix memory leak in eprobe_register()
 1ae43851b18afe861120ebd7c426dc44f06bb2bd bootconfig: init: Fix memblock leak in xbc_make_cmdline()
 b26503b15631229583e925de774e95b11d8144e8 tracing: Fix missing * in comment block
-a01ba2a3378be85538e0183ae5367c1bc1d5aaf3 xhci: guard accesses to ep_state in xhci_endpoint_reset()
-5255660b208aebfdb71d574f3952cf48392f4306 xhci: add quirk for host controllers that don't update endpoint DCS
-880de403777376e50bdf60def359fa50a722006f USB: xhci: dbc: fix tty registration race
-ff0e50d3564f33b7f4b35cadeabd951d66cfc570 xhci: Fix command ring pointer corruption while aborting a command
-ea0f69d8211963c4b2cc1998b86779a500adb502 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
 209ee634bc0d2fa10ac8f799abf09207b5ce489a Merge tag 'ffa-fixes-5.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 023a062f238129e8a542b5163c4350ceb076283e ALSA: hda/realtek: Fix for quirk to enable speaker output on the Lenovo 13s Gen2
 75b3cb97eb1f05042745c0655a7145b0262d4c5c spi: bcm-qspi: clear MSPI spifie interrupt during probe
@@ -364,7 +355,6 @@ deab6b1cd9789bb9bd466d5e76aecb8b336259b4 net: dsa: tag_ocelot: break circular de
 6d7163f2c49fda5658e43105a96b555c89a4548d mei: hbm: drop hbm responses on early shutdown
 af628cdd64e11f03181a5a19645768ed4687bda4 drm/i915: Fix bug in user proto-context creation that leaked contexts
 82a59c7f456db9f2874e9f1e9cb4cc19e71e95c5 drm/i915: Free the returned object of acpi_evaluate_dsm()
-c2115b2b16421d93d4993f3fe4c520e91d6fe801 usb: musb: dsps: Fix the probe error path
 2f9a174f918e29608564c7a4e8329893ab604fb4 virtio: write back F_VERSION_1 before validate
 97f854be203883b61d24f230445bd533bbdf770c vhost_vdpa: unset vq irq before freeing irq
 ff63198850f33eab54b2da6905380fd4d4fc0739 Revert "virtio-blk: Add validation for block size in config space"
@@ -418,7 +408,6 @@ d1d94b0129dccd226784633c60b7df90e8a051b5 drm/nouveau/fifo: Reinstate the correct
 a14bc107edd0c108bda2245e50daa22f91c95d20 drm/panel: olimex-lcd-olinuxino: select CRC32
 f42752729e2068a92c7d8b576d0dbbc9c1464149 eeprom: 93xx46: fix MODULE_DEVICE_TABLE
 71920ea97d6d1d800ee8b51951dc3fda3f5dc698 perf/x86/msr: Add Sapphire Rapids CPU support
-cd932c2a1ecc8f261ecb8d140fa431c16379931f Merge tag 'usb-serial-5.15-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 9b4416c5095c20e110c82ae602c254099b83b72f KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
 cdeb5d7d890e14f3b70e8087e745c4a6a7d9f337 KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
 86a44e9067c95083d5dbf5a140e3f4560e5af1ca Merge tag 'ntfs3_for_5.15' of git://github.com/Paragon-Software-Group/linux-ntfs3
@@ -478,4 +467,4 @@ f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of gi
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 
---===============1293756173940534989==--
+--===============2992294870977661114==--
