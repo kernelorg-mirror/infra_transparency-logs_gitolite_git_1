@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-Date: Mon, 18 Oct 2021 12:32:09 -0000
-Message-Id: <163456032964.29604.16503641720962986771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 18 Oct 2021 12:37:04 -0000
+Message-Id: <163456062477.32463.6448403068257374907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+repo: pub/scm/linux/kernel/git/kvalo/ath
 user: kvalo
 changes:
   - ref: refs/heads/master
-    old: ff1cc2fa3055ee4c83839f38b74b4ee370a2291c
-    new: f7e7e440550b0b176df3d2ea3e76106bc89915d9
+    old: c4cb38597f75425d515f629ef5922a56d2a12a97
+    new: a89621f947d2738c6b6f774ae59ab2e4e10cd99f
     log: |
-         e5f4eb8223aa740237cd463246a7debcddf4eda1 mwifiex: Read a PCI register after writing the TX ring write pointer
-         8e3e59c31fea5de95ffc52c46f0c562c39f20c59 mwifiex: Try waking the firmware until we get an interrupt
-         69ab1b72e863d8ee7381a40a47641721d69b7609 MAINTAINERS: add rtw89 wireless driver
-         c51ed74093d45af2a25af7f26dd8d0532f7aec3e rtw89: Fix two spelling mistakes in debug messages
-         f7e7e440550b0b176df3d2ea3e76106bc89915d9 rtw89: Remove redundant check of ret after call to rtw89_mac_enable_bb_rf
+         65b4b8aa0f59ec34508b262cdd0f8d731a09a074 ath5k: replace snprintf in show functions with sysfs_emit
+         21a58b554d33d44cf816b7aa99037c133e2609e1 Merge branch 'ath-next'
+         f6b5d1955addda95a396f5da8bb24180b43aaa3e Add localversion-wireless-testing-ath
+         a89621f947d2738c6b6f774ae59ab2e4e10cd99f Revert "bus: mhi: Early MHI resume failure in non M3 state"
          
+  - ref: refs/tags/ath-202110181235
+    old: 0000000000000000000000000000000000000000
+    new: a89621f947d2738c6b6f774ae59ab2e4e10cd99f
