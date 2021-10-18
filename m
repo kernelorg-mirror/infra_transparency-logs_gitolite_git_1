@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1451852410645195532=="
+Content-Type: multipart/mixed; boundary="===============4398577151751603122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 18 Oct 2021 08:53:08 -0000
-Message-Id: <163454718814.474.13182226527174523599@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 08:53:19 -0000
+Message-Id: <163454719989.615.1386687559082653634@gitolite.kernel.org>
 
---===============1451852410645195532==
+--===============4398577151751603122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6ef3012a72516d31109f7fcec7e8d458f4b514fd
-    new: 6b37b59f9fbf660843d28721a624eacc06f43273
-    log: revlist-6ef3012a7251-6b37b59f9fbf.txt
+  - ref: refs/heads/m68k-queue
+    old: d17ab26832b350f1bc51bbf2a5945043ea82d9c9
+    new: 14e4804d25b7971d6aee21f2047755ad36810138
+    log: revlist-d17ab26832b3-14e4804d25b7.txt
 
---===============1451852410645195532==
+--===============4398577151751603122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ef3012a7251-6b37b59f9fbf.txt
+Content-Disposition: attachment; filename=revlist-d17ab26832b3-14e4804d25b7.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -446,6 +446,9 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-6b37b59f9fbf660843d28721a624eacc06f43273 Merge tag 'v5.15-rc6'
+a7e936eaa640f8597a58dfe4081f58052f818a7f m68k: muldi3: Use semicolon instead of comma
+15defb38a6b098383489d9372dc14ac3b0977b85 m68k: atari: usb: Add ISP1160 USB host controller support
+02d81bd0a35bd1d8b13ff2ae00f9e348e6da6c22 m68k: atari: Update Kconfig.bus help text
+14e4804d25b7971d6aee21f2047755ad36810138 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1451852410645195532==--
+--===============4398577151751603122==--
