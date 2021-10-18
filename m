@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7713127313187291763=="
+Content-Type: multipart/mixed; boundary="===============2888178733317973904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 18 Oct 2021 07:32:58 -0000
-Message-Id: <163454237887.12243.8504466972880223926@gitolite.kernel.org>
+Date: Mon, 18 Oct 2021 07:33:02 -0000
+Message-Id: <163454238295.12319.9694124095066085309@gitolite.kernel.org>
 
---===============7713127313187291763==
+--===============2888178733317973904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
+  - ref: refs/heads/driver-core-linus
+    old: 81967efb5f3966e8692f9173c7fa2964034ece5d
     new: 519d81956ee277b4419c723adfb154603c2565ba
-    log: revlist-9e1ff307c779-519d81956ee2.txt
+    log: revlist-81967efb5f39-519d81956ee2.txt
 
---===============7713127313187291763==
+--===============2888178733317973904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542376 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634542381 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634542375-f283946f9093aa31ce2e4f86a482a6ae02abc22e
+nonce 1634542381-ca1880b4c6106e4524bd7e0077b18fb47c50cb52
 
-9e1ff307c779ce1f0f810c7ecce3d95bbae40896 519d81956ee277b4419c723adfb154603c2565ba refs/heads/main
+81967efb5f3966e8692f9173c7fa2964034ece5d 519d81956ee277b4419c723adfb154603c2565ba refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtIygbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yIIP/3xEgGLhfnbqn5CDegaT
-zvCBFkrN/BVHizVyAbucNeOC9J543Oy/DwSWD8F8LfIX2qYeyiQBh677sKCOLYJ1
-o6oKEt9L8DlJZ6BrYArsM4VSWW/VH6kbHMv/is1j4Aab1PB02b3tF2qMw1zI+H56
-2UNrIlH4Yh8w9wSQJTr27nTghWriO16nIusCuo+rJWvqRvQp1k2cp5Xtt3wzP8WG
-P1M7sSUs1iL9vxR3NubZKzCRMbyT7ldVw9Jq2ZKhV/Yu493fcg3vXUvWMzuP/aWm
-OdhTa37P3/xZKIwZdhEyvPzEaR/MH/6sQ8mdJbqNC/O3LCkdK10eEqaeZmC7e1S9
-dzjxQEabk+gr1h4Ho1HW1HE8G8uyNvgoDq0+HnJRfvO2B5bfxbpao631Oe6f5eog
-tBNxJemt1hI+b8IMLt6ALcfK1oELPGy6u+kU803Zua+FVKUUc7oZRtXXEoEAWnE9
-csBinidITVWKpwgWD6W9jpZ/ugZNPeBJkdrGo8HoRGidYgR8FoZjdsEf+deubKz9
-1hdZU0nANQ7jbxzMji/Yt6uU2vUgO+uiG8JIXgMDkETM29a3rOe+w4Vlys7UYK0e
-g1S4Cqges6KRxhp/FJ+u4e8bcBGoA9GtRX8uBJoXqolUQAdra5HgKtbpXfjNLA84
-Gpp1SgARgTVpeg4YdvmAZ/ne
-=4XOj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtIy0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CvAQAL2xboKCntbE5ORfNpQm
+TG+46QeZ1JZo8yOYxIBkuSTOWuhZmTO7AHrKJrvSKWMNb0y+4w1Q63eTrvChUsHI
+8do08RN9MEnJ1kWakn4W2JoO99m5DqECfiK896lu19UwsjtWfJxAhxpJ2BpG3GuU
+xB+Ww4OYSdUOURN0V0tcUBFC5LaMQmRYubn9o+FLwytuXGqki6o6Tz952Xrp3jkt
+pzbQgC0SjnY6mfPjRF0iADOyD6KBR/lWUQxeKKTTuGd35hqwNMI1yjT/vVMHCQsh
+ofVmQOXfGdrAF3AWQ6uhsNphGNhDt9GLiMnGreBwUaVxTfyFgBGpa1W65ts01RIb
+FmEfiij14cCta/N1zsxypB/mnfFQPsuEegODguyCzNfTefrR3fGAIvztOLY4x//N
+fdwMLK44A9XiRLxi8zthq/mqkTfbOMKWTv9YUkZkGC0I0X2fxLt+Zm32VPSmrc0Q
+fTKhMLj9oK7QbnnMlC0bDLoiYqek7o8Z26KXlcGtzLqJo2L7ejVmlfGvQxA4s0S1
+D2c3nk7FNqMRYRRxkLL+jZ2n6OECe4WnqdemNcgG3SaZMXeP7D0+84qDIA2pFQb+
+ogcDTNYQWVs+mP/RQ2C3R4RN3/kAxVC+2rJ/duzoby8j2ngjBNo+I3Cu/TIv3Owu
+nEjZMBV2ySNOnJ39jFpBOv2A
+=8GXu
 -----END PGP SIGNATURE-----
 
---===============7713127313187291763==
+--===============2888178733317973904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e1ff307c779-519d81956ee2.txt
+Content-Disposition: attachment; filename=revlist-81967efb5f39-519d81956ee2.txt
 
 e879f855e590b40fe3c79f2fbd8f65ca3c724120 bus: ti-sysc: Add break in switch statement in sysc_init_soc()
 3c10ffddc61f8a1a59e29a110ba70b47e679206a net: xfrm: fix shift-out-of-bounds in xfrm_get_default
@@ -283,7 +283,6 @@ ad2b502bc5e65632104ef89372abd6691de8851c Merge tag 'misc-habanalabs-fixes-2021-0
 cc03069a397005da24f6783835c274d5aedf6043 ALSA: hda/realtek: Add quirk for Clevo X170KM-G
 686cb8b9f6b46787f035afe8fbd132a74e6b1bdd bpf, s390: Fix potential memory leak about jit_data
 a46044a92add6a400f4dada7b943b30221f7cc80 s390/pci: fix zpci_zdev_put() on reserve
-410d591a19543f1347bc2b4b4ec3399cb548ba47 kernfs: don't create a negative dentry if inactive node exists
 ef162ac50d5512e51da53b4c971597aabac7ea1f ARM: dts: at91: sama7g5ek: add suspend voltage for ddr3l rail
 e42cbbe5c9a2a8423db4b1c32ec2a443d4de6323 ARM: at91: pm: group constants and addresses loading
 d8d667ee0236dec6d717f27eec690d1324e7f322 ARM: at91: pm: preload base address of controllers in tlb
@@ -399,9 +398,6 @@ b072ef1215aca33186e3a10109e872e528a9e516 drm/amdkfd: fix a potential ttm->sg mem
 d08ce8c6d29f8cc7493b781be282604b10fc6e1e Documentation/gpu: remove spurious "+" in amdgpu.rst
 1d617c029fd9c960f8ba7a8d1a10699d820bd6b9 drm/amdgpu: During s0ix don't wait to signal GFXOFF
 4702b34d1de9582df9dfa0e583ea28fff7de29df drm/amdgpu/display: fix dependencies for DRM_AMD_DC_SI
-f729a592adb6760013c3e48622a5bf256b992452 driver core: Reject pointless SYNC_STATE_ONLY device links
-98e96cf80045a383fcc47c58dd4e87b3ae587b3e drivers: bus: simple-pm-bus: Add support for probing simple bus only devices
-81967efb5f3966e8692f9173c7fa2964034ece5d drivers: bus: Delete CONFIG_SIMPLE_PM_BUS
 0dd10a961f2aa39d02e9aa2194946713cb36d403 drm/amdkfd: remove redundant iommu cleanup code
 714d9e4574d54596973ee3b0624ee4a16264d700 drm/amdgpu: init iommu after amdkfd device init
 248b061689a40f4fed05252ee2c89f87cf26d7d8 drm/amdgpu: handle the case of pci_channel_io_frozen only in amdgpu_pci_resume
@@ -817,4 +813,4 @@ f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of gi
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 
---===============7713127313187291763==--
+--===============2888178733317973904==--
