@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Mon, 18 Oct 2021 22:14:45 -0000
-Message-Id: <163459528525.13865.6774150676394910171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 18 Oct 2021 22:22:28 -0000
+Message-Id: <163459574896.20642.17855369175030811194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: f39b5afbcef4eca83abe0e6719f82fadc6aa6fbf
-    new: ed65df63a39a3f6ed04f7258de8b6789e5021c18
+  - ref: refs/heads/seen
+    old: f327a6e98e496092d8dc894e89595ed84def166e
+    new: 05574572e29d960d4486ef966cc483c8cf74f880
     log: |
-         be358af1191b1b2fedebd8f3421cafdc8edacc7d nds32/ftrace: Fix Error: invalid operands (*UND* and *UND* sections) for `^'
-         ed65df63a39a3f6ed04f7258de8b6789e5021c18 tracing: Have all levels of checks prevent recursion
+         6aabfd21d82039e52c08a75f4ec8d54bc358bb7e Merge branch 'ld/sparse-diff-blame' into seen
+         05574572e29d960d4486ef966cc483c8cf74f880 Merge branch 'ab/refs-errno-cleanup' into seen
          
