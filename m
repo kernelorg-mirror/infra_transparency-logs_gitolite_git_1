@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Mon, 18 Oct 2021 15:55:11 -0000
-Message-Id: <163457251136.1145.14792270864248090974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Mon, 18 Oct 2021 15:55:43 -0000
+Message-Id: <163457254304.1382.10967818894686589952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: egrumbach
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/iwlmei_v7
-    old: 0000000000000000000000000000000000000000
-    new: 2c03dae70b0143c1e518d05482524527c7933e5b
+  - ref: refs/heads/pci/misc
+    old: e98754233c58bfe7cad67ed4b7f3980d7e0d731d
+    new: 88dee3b0efe4b769fb22ce2e963aabae403e6801
+    log: |
+         88dee3b0efe4b769fb22ce2e963aabae403e6801 PCI: Remove unused pci_pool wrappers
+         
