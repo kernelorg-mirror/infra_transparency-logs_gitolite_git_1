@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2385031974637473475=="
+Content-Type: multipart/mixed; boundary="===============0395217186257052079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 18 Oct 2021 21:46:34 -0000
-Message-Id: <163459359447.28971.11640282404295581369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 18 Oct 2021 21:46:40 -0000
+Message-Id: <163459360007.29097.5769274057403580143@gitolite.kernel.org>
 
---===============2385031974637473475==
+--===============0395217186257052079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 5249f26262e39a50044cb1a4380651b8e1d85f89
-    new: 87c085f1679a95c49dd9618d56251c786a98eac8
-    log: revlist-5249f26262e3-87c085f1679a.txt
+  - ref: refs/heads/queue-rc
+    old: de7a952c6c1bfea4615ab913e020445986a224b9
+    new: 640a302a62fdb2086f206b04b47917d885b27d4d
+    log: revlist-de7a952c6c1b-640a302a62fd.txt
 
---===============2385031974637473475==
+--===============0395217186257052079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5249f26262e3-87c085f1679a.txt
+Content-Disposition: attachment; filename=revlist-de7a952c6c1b-640a302a62fd.txt
 
 b504a884f6b5a77dac7d580ffa08e482f70d1a30 can: j1939: j1939_tp_rxtimer(): fix errant alert in j1939_tp_rxtimer
 d9d52a3ebd284882f5562c88e55991add5d01586 can: j1939: j1939_netdev_start(): fix UAF for rx_kref of j1939_priv
@@ -51,5 +51,7 @@ d49fe5e8151711ed5276f049bc7f73e02dc141f8 selftests/tls: add SM4 algorithm depend
 5e520728ce01941a48c65ac5da872e3f42c66869 !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
 0c302d005dffd8266d4904cebac77befd4057656 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
 87c085f1679a95c49dd9618d56251c786a98eac8 Merge branch 'mlx5-for-net' into net-rc
+0940eb028a45a84d99175321343a1fbea11f1e44 Merge branch 'net-rc' into queue-rc
+640a302a62fdb2086f206b04b47917d885b27d4d Merge branch 'testing/rdma-rc' into queue-rc
 
---===============2385031974637473475==--
+--===============0395217186257052079==--
