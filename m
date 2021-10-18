@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 18 Oct 2021 13:28:21 -0000
-Message-Id: <163456370135.2407.9440592797337819116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 18 Oct 2021 13:31:05 -0000
+Message-Id: <163456386501.4739.8048577856051760686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 06dd34a628ae5b6a839b757e746de165d6789ca8
-    new: 041c61488236a5a84789083e3d9f0a51139b6edf
+  - ref: refs/heads/arm-vmap-stacks-v2
+    old: 595b603a63203c4f3e833e7e48acdd0ca0fd7fe4
+    new: eb2bffbfd48147962476fc96bf497ac9268ad03c
     log: |
-         041c61488236a5a84789083e3d9f0a51139b6edf sfc: Fix reading non-legacy supported link modes
+         2c978bd62cd7e4993baa800cf73eb7c21c6e940e ARM: switch_to: clean up Thumb2 code path
+         206e22b309d1e777322bcb23be926f171014b6b6 ARM: entry: rework stack realignment code in svc_entry
+         eb2bffbfd48147962476fc96bf497ac9268ad03c ARM: implement support for vmap'ed stacks
          
