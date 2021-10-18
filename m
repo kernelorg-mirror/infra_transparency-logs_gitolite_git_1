@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8459944172105128027=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 18 Oct 2021 15:09:40 -0000
-Message-Id: <163456978036.2813.12543117762557236205@gitolite.kernel.org>
-
---===============8459944172105128027==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 18 Oct 2021 15:26:23 -0000
+Message-Id: <163457078385.14838.7965086557590352229@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/staging-testing
-    old: 6ba3047d493ff56e0af0b91c6fe2d17a0344c989
-    new: 548b6d7ebfa458f803bde3fc7ae1c70d5195a678
+  - ref: refs/heads/rtc-next
+    old: 9f08c9ed580a287de6546044e28f15bb183d00ff
+    new: adb17a053e460f20740d713c4843d6966e66b1b1
     log: |
-         548b6d7ebfa458f803bde3fc7ae1c70d5195a678 staging: vt6655: Rename byPreambleType field
+         917425f71f36ce6f61841497040e10d0166106d8 rtc: add alarm related features
+         6a8af1b6568ad9ee08a419fb12c793f7992cf8a4 rtc: add parameter ioctl
+         2268551935dbf1abcbb4d4fb7b1ad74dbe0d1be0 rtc: expose correction feature
+         a6d8c6e1a5c6fb982964861dc84c0c7cb0151c7c rtc: add correction parameter
+         0d20e9fb1262b1f9ac895b287db892bc75b05b84 rtc: add BSM parameter
+         018d959ba7ffcadcc21e007f81c4b2b7a2b47447 rtc: rv3028: add BSM support
+         6084eac38e765c5ee1338f4e9b1ad3321f4c53eb rtc: rv3032: allow setting BSM
+         7d7234a4fff395ab17b021ec18f852e8ec8703b3 rtc: pcf8523: avoid reading BLF in pcf8523_rtc_read_time
+         adb17a053e460f20740d713c4843d6966e66b1b1 rtc: expose RTC_FEATURE_UPDATE_INTERRUPT
          
-
---===============8459944172105128027==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634569778 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634569778-531a03dd00042e65aaf98bfde173f5c830bec80d
-
-6ba3047d493ff56e0af0b91c6fe2d17a0344c989 548b6d7ebfa458f803bde3fc7ae1c70d5195a678 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFtjjIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zw8QAIUImQSRo6oq5g24hwk3
-10ykTI4eNF1qWb8blskLTD9DJqxyPvv70Nyt45ehUlofXaeFK7vCZI1MV50mdnHX
-MN597cB7+v0SBcdkZ7Ep/COMRFn3AEpNBO/b53sYSCj0pygrOeMpBr2OFP0ZXC9W
-rFGGWlQUVFIvUrMoGivKzII0ZYYXkjHGQ1/dQOnT8dBzf5NDfZXRlmqbfysVOKfW
-I+Y0XUCW6QDlmsOt/rWQSuEc0XIpVchGLqIHCkNvS7M9VKgCtJZKCmjuNry1Elmh
-YSAO5FoiRl8sTUK7IhbZeFiaO7g62PBFXo6ZhQyTWgXbkyqcffy3xzmV0w8Rvh30
-T9OObDxWExiAwGE7Lu1tBvMhTxmc4h8eS7BO4ir0I5Ec+P390V6K+kz2j2Dhw54s
-dtCvKXUV7PUTNbN+Oes0BCK9A5tyP7fEvcuNRhxjXY31Fr+2Jiv1PTB5g7loNcY4
-0xqQa5Voifp13QWxkn6cx0K3EKtaoq5KizTXlYumanqlyOdjcaKkk/u1cLGfLbea
-/F0WXj27wLQ4CrRWIWmNZQ46y7VDN+KiGdqf0p7zEI9TXHbljR3xItcYnPsqw6IO
-pXbaATO107ODlBX80ueyh9Y5YPadD58iOgttxahSoeRpBovfF3ll5eYKHD1GTq/A
-exmQcuHOGnNK0Se51wDUJ7p9
-=L6V/
------END PGP SIGNATURE-----
-
---===============8459944172105128027==--
