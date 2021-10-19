@@ -1,139 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============5137515939658099338=="
+Content-Type: multipart/mixed; boundary="===============1020373462135601495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
-Date: Tue, 19 Oct 2021 18:49:26 -0000
-Message-Id: <163466936659.8637.18210025350117431941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 19 Oct 2021 18:50:04 -0000
+Message-Id: <163466940436.10182.10229615100523758271@gitolite.kernel.org>
 
---===============5137515939658099338==
+--===============1020373462135601495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/deferred-item-caches-5.16
-    old: 9f636509a5f5618ab7b795adce97c57dabb1836b
-    new: d062d950c6544321cb4cded0b06db3807631642f
-    log: revlist-9f636509a5f5-d062d950c654.txt
-  - ref: refs/heads/master
-    old: 64570fbc14f8d7cb3fe3995f20e26bc25ce4b2cc
-    new: 9e1ff307c779ce1f0f810c7ecce3d95bbae40896
-  - ref: refs/heads/slab-cache-cleanups-5.16
-    old: 9f3c4e3d220022a805c52c0aeecb3455bc32f081
-    new: 1ca25b437f81d4ae8b1a7a79de923e35026065e8
-    log: revlist-9f3c4e3d2200-1ca25b437f81.txt
-  - ref: refs/heads/xfs-merge-5.16
-    old: 11a83f4c393040dc3a6a368c6399785dbfae7602
-    new: eeaeea743df3ecb2a90ebb49b61add36346ff771
-    log: revlist-11a83f4c3930-eeaeea743df3.txt
-  - ref: refs/tags/deferred-item-caches-5.16_2021-10-19
-    old: 0000000000000000000000000000000000000000
-    new: b8ba4fe7bb627a78447a5c1237a0cf726929f3ac
-  - ref: refs/tags/slab-cache-cleanups-5.16_2021-10-19
-    old: 0000000000000000000000000000000000000000
-    new: 50078ba1d83b590940a6317cd766b48c0bafa7de
-  - ref: refs/tags/xfs-merge-5.16_2021-10-19
-    old: 0000000000000000000000000000000000000000
-    new: 132af02bc3ebe90308c5c33005cf7dec426f6397
+  - ref: refs/heads/for-5.16/drivers
+    old: 86d46fdaa12ae5befc16b8d73fc85a3ca0399ea6
+    new: a9a7e30fd918588bc312ba782426e3a1282df359
+    log: |
+         9c3d29296fe4c297447d2055e7a9535c981a8370 nvme: move command clear into the various setup helpers
+         a9a7e30fd918588bc312ba782426e3a1282df359 nvme: don't memset() the normal read/write command
+         
+  - ref: refs/heads/for-next
+    old: 44b2b16cb77838b9596e6551088b1b18657398c2
+    new: 4ff840e57c845137bffe9583804623c2c172eabb
+    log: |
+         9c3d29296fe4c297447d2055e7a9535c981a8370 nvme: move command clear into the various setup helpers
+         a9a7e30fd918588bc312ba782426e3a1282df359 nvme: don't memset() the normal read/write command
+         4ff840e57c845137bffe9583804623c2c172eabb Merge branch 'for-5.16/drivers' into for-next
+         
+  - ref: refs/heads/perf-wip
+    old: bc05702ff5134b89f7d27ced50b2f98a0abea1ad
+    new: 97edaf1e9984969c405a4e2d781bc2d4a02d758f
+    log: revlist-bc05702ff513-97edaf1e9984.txt
 
---===============5137515939658099338==
+--===============1020373462135601495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f636509a5f5-d062d950c654.txt
+Content-Disposition: attachment; filename=revlist-bc05702ff513-97edaf1e9984.txt
 
-53eb47b491c86ab23787fa561a6dc8378cb0eb36 xfs: replace snprintf in show functions with sysfs_emit
-bf2307b195135ed9c95eebb38920d8bd41843092 xfs: fold perag loop iteration logic into helper function
-f1788b5e5ee25bedf00bb4d25f82b93820d61189 xfs: rename the next_agno perag iteration variable
-8ed004eb9d07a5d6114db3e97a166707c186262d xfs: terminate perag iteration reliably on agcount
-892a666fafa19ab04b5e948f6c92f98f1dafb489 xfs: fix perag reference leak on iteration race with growfs
-94a14cfd3b6e639c3fb90994ea24e8513f1b0cce xfs: fix incorrect decoding in xchk_btree_cur_fsbno
-cc411740472d958b718b9c6a7791ba00d88f7cef xfs: remove xfs_btree_cur.bc_blocklog
-efb79ea31067ae3dd0f348eb06e6b9a5e9907078 xfs: reduce the size of nr_ops for refcount btree cursors
-d47fef9342d0c322f69695a0eb2e2a643575b66d xfs: don't track firstrec/firstkey separately in xchk_btree
-eae5db476f9db78b31d6665924539dd8e2d2f431 xfs: dynamically allocate btree scrub context structure
-6ca444cfd663545e9e1c19ad2695836ffafad0a6 xfs: prepare xfs_btree_cur for dynamic cursor heights
-69724d920e7c30ca4421af615c499e92cfcc550b xfs: rearrange xfs_btree_cur fields for better packing
-56370ea6e5fe3e3d6e1ca2da58f95fb0d5e1779f xfs: refactor btree cursor allocation function
-c0643f6fdd6d3c448142ed1492a9a6b6505f9afb xfs: encode the max btree height in the cursor
-c940a0c54a2e9333478f1d87ed40006a04fcec7e xfs: dynamically allocate cursors based on maxlevels
-7cb3efb4cfdd4f3eb1f36b0ce39254b848ff2371 xfs: rename m_ag_maxlevels to m_allocbt_maxlevels
-b74e15d720d0764345934ebb599a99a077c52533 xfs: compute maximum AG btree height for critical reservation calculation
-1b236ad7ba800bc3e9994881a8a453eb8bf5ca0f xfs: clean up xfs_btree_{calc_size,compute_maxlevels}
-9ec691205e7d4a11190519df6561a168ae6af3a4 xfs: compute the maximum height of the rmap btree when reflink enabled
-bc8883eb775dd18d8b84733d8b3a3955b72d103a xfs: kill XFS_BTREE_MAXLEVELS
-0ed5f7356daee74244b02e100b3cc043e886e686 xfs: compute absolute maximum nlevels for each btree type
-eeaeea743df3ecb2a90ebb49b61add36346ff771 xfs: use separate btree cursor cache for each btree type
-b4afb79b1bb14c06cf639b4c028769d5800e9b78 xfs: remove kmem_zone typedef
-1ca25b437f81d4ae8b1a7a79de923e35026065e8 xfs: rename _zone variables to _cache
-8e8341ec65898f7c01755b5ca0e9ab5c968a356e xfs: compact deferred intent item structures
-23c95120651d7d081b944f956b10f3e75f26300c xfs: create slab caches for frequently-used deferred items
-c0f8860a1a3d22125ead5a498755eedf076caf3d xfs: rename xfs_bmap_add_free to xfs_free_extent_later
-7da2cd01d87c0557908e34805b562dc3e13cbd98 xfs: reduce the size of struct xfs_extent_free_item
-d062d950c6544321cb4cded0b06db3807631642f xfs: remove unused parameter from refcount code
+00169246e6981752e53266c62d0ab0c827493634 io_uring: warning about unused-but-set parameter
+661e6d6cb9e3a83d1415ab32acb0230e9d3bd455 Merge branch 'for-5.16/io_uring' into for-next
+d92ca9d8348fb12c89eac5928bd651c3a485d7b9 blk-mq: don't handle non-flush requests in blk_insert_flush
+44b2b16cb77838b9596e6551088b1b18657398c2 Merge branch 'for-5.16/block' into for-next
+9c3d29296fe4c297447d2055e7a9535c981a8370 nvme: move command clear into the various setup helpers
+a9a7e30fd918588bc312ba782426e3a1282df359 nvme: don't memset() the normal read/write command
+4ff840e57c845137bffe9583804623c2c172eabb Merge branch 'for-5.16/drivers' into for-next
+1f22d19f08e4776c77b4921c909c2256dc74e54a Merge branch 'for-next' into perf-wip
+736ca3c5427aa57bd6a7009ffc944a3ff74d2cf4 block: inline fast path of driver tag allocation
+145d2217172863e6963cb9e6cb3d51f39c95f679 block: add rq_flags to struct blk_mq_alloc_data
+c00455c505ea08130817424ddb8e6d0f16dc044f block: pass in blk_mq_tags to blk_mq_rq_ctx_init()
+4a28c0d1dc69ad6890a0b9c3d6d5a8bf0406b6e6 block: prefetch request to be initialized
+4948f04e34e26bcedf65fd7f20078234bd47b93b block: re-flow blk_mq_rq_ctx_init()
+7d2868e9133290892500baf11289d82f7c1bc242 net: decouple skb_frag_t from struct bio_vec
+dda80bd68fd64db1d840598c56cacfda2066e671 block: add bvec_set_page() helper
+9cf87742aa0b5978f488ab5513802d7931ca56b0 block: add a DMA field to struct bio_vec
+3935a8db836340f427d448606060c7cd142ce894 block: add mq_ops method for DMA mapping bvecs
+4e94b729ff51181b60d9c4a6c1d26c34e59187de io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
+44b951c94c87b48ef27b54037dff2bddee2cd49f nvme: add support for pre-mapped IO buffers
+cb3455fb31402b095dd05703e565611bc7b64151 block: switch to atomic_t for request references
+e12e6c138f1afbaf516b645e4bbf9e56aaeca1ec nvme: don't copy fill bio_vec if we don't have to
+d8831a4dec6079e4a02d888f3f37840c35708e67 block/nvme: submit batches of requests at once
+1638ca3aaf8857213df637c6cd9da3ba50fbe373 block: optimise blkdev_bio_end_io()
+2fa60898b86e32b70a0725ad08c3327f2b01df59 block: turn macro helpers into inline functions
+95ebc8cd4665a639a6a5b1c9f8089ad075f4162d block: add optimised version bio_set_dev()
+3ac983fb5bf8d1ddd0f12071ebd36e10bce8dfa0 block: optimise req_bio_endio()
+3cf5e62906e9b3982b056e7607d173decb7f966e block: don't bloat enter_queue with percpu_ref
+e957af81ac164c2467c89014f0d0239c94febd86 block: add single bio async direct IO helper
+aa1964da7ec32f5a3df831d17094152454779418 block: add async version of bio_set_polled
+38f076f702e79fc6ab640a1894bcf82865813fed block: inline a part of bio_release_pages()
+6e4dbd2a6a5b2a98769aeb589863134de38b32ca block: skip advance when async and not needed
+3fc251a3d363f09db29d165405391a4fe5aa40fe block: clean up blk_mq_submit_bio() merging
+68a04b04772e99b6427ca70257736f7d11439cb0 block: optimise blk_may_split for normal rw
+972f3c741ce9a95ce0f608e1bce35e8e0646d4d4 block: optimise submit_bio_checks for normal rw
+f9713500d28d6d30f453fcc5fdd6bd42c8f71f8a percpu_ref: percpu_ref_tryget_live() version holding RCU
+42a54ae6f1898fa23b8f186e390a093396be1b4b block: kill extra rcu lock/unlcok in enter_queue()
+ab6e6407aa96996028402bf1c02452ff1de8b6e9 block: move plug flush functions to blk-mq.c
+affe03bdb3e7ea7663a068395b7163a2cf7d4f87 block: optimise blk_flush_plug_list
+7b82f42748617d35e9efff358cc38bbbe5086903 block: optimise blk_mq_submit_bio()
+97edaf1e9984969c405a4e2d781bc2d4a02d758f block: use cached bdev size in read_iter
 
---===============5137515939658099338==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f3c4e3d2200-1ca25b437f81.txt
-
-53eb47b491c86ab23787fa561a6dc8378cb0eb36 xfs: replace snprintf in show functions with sysfs_emit
-bf2307b195135ed9c95eebb38920d8bd41843092 xfs: fold perag loop iteration logic into helper function
-f1788b5e5ee25bedf00bb4d25f82b93820d61189 xfs: rename the next_agno perag iteration variable
-8ed004eb9d07a5d6114db3e97a166707c186262d xfs: terminate perag iteration reliably on agcount
-892a666fafa19ab04b5e948f6c92f98f1dafb489 xfs: fix perag reference leak on iteration race with growfs
-94a14cfd3b6e639c3fb90994ea24e8513f1b0cce xfs: fix incorrect decoding in xchk_btree_cur_fsbno
-cc411740472d958b718b9c6a7791ba00d88f7cef xfs: remove xfs_btree_cur.bc_blocklog
-efb79ea31067ae3dd0f348eb06e6b9a5e9907078 xfs: reduce the size of nr_ops for refcount btree cursors
-d47fef9342d0c322f69695a0eb2e2a643575b66d xfs: don't track firstrec/firstkey separately in xchk_btree
-eae5db476f9db78b31d6665924539dd8e2d2f431 xfs: dynamically allocate btree scrub context structure
-6ca444cfd663545e9e1c19ad2695836ffafad0a6 xfs: prepare xfs_btree_cur for dynamic cursor heights
-69724d920e7c30ca4421af615c499e92cfcc550b xfs: rearrange xfs_btree_cur fields for better packing
-56370ea6e5fe3e3d6e1ca2da58f95fb0d5e1779f xfs: refactor btree cursor allocation function
-c0643f6fdd6d3c448142ed1492a9a6b6505f9afb xfs: encode the max btree height in the cursor
-c940a0c54a2e9333478f1d87ed40006a04fcec7e xfs: dynamically allocate cursors based on maxlevels
-7cb3efb4cfdd4f3eb1f36b0ce39254b848ff2371 xfs: rename m_ag_maxlevels to m_allocbt_maxlevels
-b74e15d720d0764345934ebb599a99a077c52533 xfs: compute maximum AG btree height for critical reservation calculation
-1b236ad7ba800bc3e9994881a8a453eb8bf5ca0f xfs: clean up xfs_btree_{calc_size,compute_maxlevels}
-9ec691205e7d4a11190519df6561a168ae6af3a4 xfs: compute the maximum height of the rmap btree when reflink enabled
-bc8883eb775dd18d8b84733d8b3a3955b72d103a xfs: kill XFS_BTREE_MAXLEVELS
-0ed5f7356daee74244b02e100b3cc043e886e686 xfs: compute absolute maximum nlevels for each btree type
-eeaeea743df3ecb2a90ebb49b61add36346ff771 xfs: use separate btree cursor cache for each btree type
-b4afb79b1bb14c06cf639b4c028769d5800e9b78 xfs: remove kmem_zone typedef
-1ca25b437f81d4ae8b1a7a79de923e35026065e8 xfs: rename _zone variables to _cache
-
---===============5137515939658099338==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11a83f4c3930-eeaeea743df3.txt
-
-53eb47b491c86ab23787fa561a6dc8378cb0eb36 xfs: replace snprintf in show functions with sysfs_emit
-bf2307b195135ed9c95eebb38920d8bd41843092 xfs: fold perag loop iteration logic into helper function
-f1788b5e5ee25bedf00bb4d25f82b93820d61189 xfs: rename the next_agno perag iteration variable
-8ed004eb9d07a5d6114db3e97a166707c186262d xfs: terminate perag iteration reliably on agcount
-892a666fafa19ab04b5e948f6c92f98f1dafb489 xfs: fix perag reference leak on iteration race with growfs
-94a14cfd3b6e639c3fb90994ea24e8513f1b0cce xfs: fix incorrect decoding in xchk_btree_cur_fsbno
-cc411740472d958b718b9c6a7791ba00d88f7cef xfs: remove xfs_btree_cur.bc_blocklog
-efb79ea31067ae3dd0f348eb06e6b9a5e9907078 xfs: reduce the size of nr_ops for refcount btree cursors
-d47fef9342d0c322f69695a0eb2e2a643575b66d xfs: don't track firstrec/firstkey separately in xchk_btree
-eae5db476f9db78b31d6665924539dd8e2d2f431 xfs: dynamically allocate btree scrub context structure
-6ca444cfd663545e9e1c19ad2695836ffafad0a6 xfs: prepare xfs_btree_cur for dynamic cursor heights
-69724d920e7c30ca4421af615c499e92cfcc550b xfs: rearrange xfs_btree_cur fields for better packing
-56370ea6e5fe3e3d6e1ca2da58f95fb0d5e1779f xfs: refactor btree cursor allocation function
-c0643f6fdd6d3c448142ed1492a9a6b6505f9afb xfs: encode the max btree height in the cursor
-c940a0c54a2e9333478f1d87ed40006a04fcec7e xfs: dynamically allocate cursors based on maxlevels
-7cb3efb4cfdd4f3eb1f36b0ce39254b848ff2371 xfs: rename m_ag_maxlevels to m_allocbt_maxlevels
-b74e15d720d0764345934ebb599a99a077c52533 xfs: compute maximum AG btree height for critical reservation calculation
-1b236ad7ba800bc3e9994881a8a453eb8bf5ca0f xfs: clean up xfs_btree_{calc_size,compute_maxlevels}
-9ec691205e7d4a11190519df6561a168ae6af3a4 xfs: compute the maximum height of the rmap btree when reflink enabled
-bc8883eb775dd18d8b84733d8b3a3955b72d103a xfs: kill XFS_BTREE_MAXLEVELS
-0ed5f7356daee74244b02e100b3cc043e886e686 xfs: compute absolute maximum nlevels for each btree type
-eeaeea743df3ecb2a90ebb49b61add36346ff771 xfs: use separate btree cursor cache for each btree type
-
---===============5137515939658099338==--
+--===============1020373462135601495==--
