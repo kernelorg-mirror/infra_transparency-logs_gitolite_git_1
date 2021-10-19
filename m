@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Oct 2021 01:35:55 -0000
-Message-Id: <163460735552.16304.4400949874508863473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 19 Oct 2021 02:03:15 -0000
+Message-Id: <163460899534.32689.5095353436346711598@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 431bfb9ee3e2ac0294d5ef58cee87683807299c0
-    new: 223f903e9c832699f4e5f422281a60756c1c6cfe
+  - ref: refs/heads/net-rc
+    old: 87c085f1679a95c49dd9618d56251c786a98eac8
+    new: 4c9b9cc17d880a91c71f8832e861245561b8fdac
     log: |
-         223f903e9c832699f4e5f422281a60756c1c6cfe bpf: Rename BTF_KIND_TAG to BTF_KIND_DECL_TAG
+         8a64ef042eab8a6cec04a6c79d44d1af79b628ca nfp: bpf: silence bitwise vs. logical OR warning
+         c3ab34d3fc55721c27b3af3720ae75e5c805fc1b !!! PENDING VER APPROVAL !!! net/mlx5e: kTLS, Fix crash in RX resync flow
+         76fa6205919e62130289f127bd246fadd99f98a8 !!! DEBUG PATCH !!! net/mlx5e: Monitor multiple resyncs on a context
+         4c9b9cc17d880a91c71f8832e861245561b8fdac Merge branch 'mlx5-for-net' into net-rc
          
