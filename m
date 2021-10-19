@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5376271626628360134=="
+Content-Type: multipart/mixed; boundary="===============2442335266843901295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 19 Oct 2021 07:33:24 -0000
-Message-Id: <163462880480.13450.17104524020765322945@gitolite.kernel.org>
+Date: Tue, 19 Oct 2021 07:33:42 -0000
+Message-Id: <163462882222.13597.16613700031948443759@gitolite.kernel.org>
 
---===============5376271626628360134==
+--===============2442335266843901295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 548b6d7ebfa458f803bde3fc7ae1c70d5195a678
-    new: 436c7525f31da2b2e3f892f1f344e964775d98ad
+    old: 436c7525f31da2b2e3f892f1f344e964775d98ad
+    new: 2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c
     log: |
-         436c7525f31da2b2e3f892f1f344e964775d98ad staging: mt7621-dts: get rid of nodes with no in-tree driver
+         2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c staging: r8188eu: fix a gcc warning
          
 
---===============5376271626628360134==
+--===============2442335266843901295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634628803 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634628820 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634628802-621dc09d0d415c725151e117e532df06ade47b11
+nonce 1634628820-73a63e46c7510a96f02a57ca124799da7a3b41b3
 
-548b6d7ebfa458f803bde3fc7ae1c70d5195a678 436c7525f31da2b2e3f892f1f344e964775d98ad refs/heads/staging-testing
+436c7525f31da2b2e3f892f1f344e964775d98ad 2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudMMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fgYP/jzpykbk5I0gjqmveQ4N
-KKhbZ2dkfmIlopUm/MjYzYGaXfqTVE2J0tQSyxh203a36zme57TqEAV96TVycXQz
-iav7XOgG/qttPD0ZBnMBQcVrat1ILtT79+xBTDVNgyxpb/lTbJ9AVzc3TwasUwAY
-p/4JrEH77+N5wtirEmtpmDEmk2kmhPzb/67z0rlUkkv/2O0fbi6N+hyEqk0syJ6B
-fukLuHat5W/UHnA+lK+3IpzNEoJ1yO0pW1eusDV53+A83ct3SZjnuhDmbnU0FYH6
-BySkt4ZQrrOqYqqW/qJJTVB1sI1wSFch7356gWCzD2qjN/kH7zjqSmxIQDm+bjY+
-yVj1u27mikTEDn4HGgQIqicjvzjQQWi3sKXK8yxFwlqfIDDvAhfM9wJaNtCkZ2Ag
-/VWidUmh9BJPYtQkpLSxFKXHVZPmzlMWpM0aXoIUFH74KCEDycLKxJ7Pbo3DrmMz
-WEZJCG69rtQno8Imquc92Rv5rZbz9ev1k8I2z1/NRN3nsILr6/bWf+T0jC7BEioi
-mO3qNg2FKr/4xy+ehMtUZ3ylfauVPfU6S8GyP0Ck5N5WOHPadsF3lrTl2v+xI+uC
-Rc+OJhnQkjW5JbVNthq+ARzn/oCR/dh3O6e3jGIb9OAlObsoJ3Fe5FO5HxjN8CYe
-dKFPSaKWakLKKtK7BwxSS28N
-=SJFQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudNQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y1sP/ilXK+2/KOigoUG/iEu6
+IAFIIpGeKmSCUWbypRhBcTeMDcaTYbSNRbIapV8LZT/q5yg2d1XABuWRFS6fx1Ey
+FR0SNwLV+5JD/2Oys2laJiAqHtzNEY+Yhj98yXc7cfv8nZfGZmn+GZCH8arQt+43
+sLJDy7zOjdz0C/vpD4yX77ptBFwaUxTfSEqkLxXYgSkQ5Mb0fZjgjwB+UUSboui7
+byrsGgQ+EMvcop12Oar+A6/nf9+4xfrrUw8Cj21yzBbmil2BRb+sjw7pc+fRcUP6
+eyb2h6TxpogHZWAkt4Y7ChHl2kkLN14i+mNkXVR71NoSuwRUB1zl0GQ9cFZmGZu9
+oVrho7NjK/IIPCUd1kFGZ1X8kO+VC50AFBDDKtV4KEem8y1JZJbkd2mzCd2uUtRV
+jC9S1ABTGXPsO8AIT1g3Ylacr9LAWm6Z8i1XMetEn8tJ0QcIDRzobsmxwE30Wy8X
+fxmV2gIMoc1S8TWUGiozMFFb0l91HBle8KAU0HzA2iSH6T7o7pkq7mTcNY1Hqinv
+Rebu7TCONEoxtsGt/DDytOZOKLhqX4NLpXcCj3xbC+yELcz4Dw3GnRJc1OhmwZVS
+2Gzz4vlAvqNhvapMajMMyszVR1OKKDINOil9Gip/Wn5Rw9EHbb5Dek+O1QYNNrqs
+FoR72Xe/XS4pNdlxjbyFjvGJ
+=OAOu
 -----END PGP SIGNATURE-----
 
---===============5376271626628360134==--
+--===============2442335266843901295==--
