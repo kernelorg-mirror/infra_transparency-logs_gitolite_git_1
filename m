@@ -1,40 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1242541624924235401=="
+Content-Type: multipart/mixed; boundary="===============8002911688342605904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 19 Oct 2021 15:20:23 -0000
-Message-Id: <163465682338.3728.496725864595027237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 19 Oct 2021 15:21:45 -0000
+Message-Id: <163465690590.4300.14841460638395737709@gitolite.kernel.org>
 
---===============1242541624924235401==
+--===============8002911688342605904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/review-hans
-    old: 249606d37d205eb2f9a6f2c8ecb8bd77b53e5d3e
-    new: fd96e35ea7b95f1e216277805be89d66e4ae962d
-    log: revlist-249606d37d20-fd96e35ea7b9.txt
+  - ref: refs/heads/objtool/core
+    old: b08cadbd3b8721db738d9a00ef3ce3ed667e6d9c
+    new: 584a828b28367d40d97b087a5e82e5ad43e26ed2
+    log: revlist-b08cadbd3b87-584a828b2836.txt
 
---===============1242541624924235401==
+--===============8002911688342605904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-249606d37d20-fd96e35ea7b9.txt
+Content-Disposition: attachment; filename=revlist-b08cadbd3b87-584a828b2836.txt
 
-95563d45b5da9cdd07496bf54f0d83f25d679847 platform/x86: system76_acpi: Report temperature and fan speed
-0de30fc684b3883be73602b7557661951319a9b9 platform/x86: system76_acpi: Replace Fn+F2 function for OLED models
-76f7eba3e0a248af4cc4f302d95031fa2fb65fab platform/x86: system76_acpi: Add battery charging thresholds
-603a7dd08f881e1b5c754429dac5af6c29992528 platform/x86: system76_acpi: Add attribute group for kb_led_color
-5558871360f3fed77b432e9257f3bf90fca7580e surface: surface3-wmi: Use ACPI_COMPANION() directly
-7c7ba5de7f534c4b563b4add4d430b2186f7ed17 surface: surface3_power: Drop redundant acpi_bus_get_device() call
-043449e7516106826346d9923a81da0310a387de platform: x86: ideapad-laptop: Use ACPI_COMPANION() directly
-2d5b0755b754fcb39598df87b3a8656a569e9979 platform/x86: panasonic-laptop: Replace snprintf in show functions with sysfs_emit
-33ce79be2784bb7c327ef0f3be184936238c91d3 platform/x86: thinkpad_acpi: Fix coccinelle warnings
-fd96e35ea7b95f1e216277805be89d66e4ae962d platform/x86: thinkpad_acpi: Fix bitwise vs. logical warning
+dff904b069c3ca84895295c4384f2f843e4d5241 static_call: Avoid building empty .static_call_sites
+559a60f6dab897a7467d8eb63088b786921e2c01 objtool: Optimize re-writing jump_label
+9cef5ef378c4bdabf888676f88106cfc1e04cb41 objtool: Add --dry-run
+d872e57988fdc8689a1f4c081c6e0d6effce5508 objtool: Explicitly avoid self modifying code in .altinstr_replacement
+92d260c11bbada8ab66ea2af5506cf6c25158707 x86/Kconfig: Simplify STACK_VALIDATION
+b37c7ab1b0581ceab89938e8bc5cddc44f1e9175 objtool,x86: Replace alternatives with .retpoline_sites
+3ee406b90867724c024bee2e297965c10d1f2ecb x86/retpoline: Remove unused replacement symbols
+7e19a945de7fc3f676ed48223a2e43ce41ee150e x86/asm: Fix register order
+3592a90f2484a21730d242dc777bed8164ed7214 x86/asm: Fixup odd GEN-for-each-reg.h usage
+305197e4e88a3adc245be75b7be6f3e093eba4bc x86/retpoline: Create a retpoline thunk array
+6303f449216018ed1f239e6b11f8b553086ad1de x86/alternative: Implement .retpoline_sites support
+326a435d66adbe4441b4607b1423da827125fd44 x86/alternative: Handle Jcc __x86_indirect_thunk_\reg
+23c89080d0cec0a76b7c22d55ad8af6e57c0b85a x86/alternative: Try inline spectre_v2=retpoline,amd
+63664864c1c440c1e61db91b29cee2da68fedd5b x86/alternative: Add debug prints to apply_retpolines()
+b21f40fc64b866a5fa4a5f619cee843b5e1055bb x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+d75e93b74c079a5c72df95450145a08ab1eca2c8 Signed-off-by: Peter Zijlstra (Intel) <peterz@infradead.org>
+584a828b28367d40d97b087a5e82e5ad43e26ed2 x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
 
---===============1242541624924235401==--
+--===============8002911688342605904==--
