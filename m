@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 19 Oct 2021 23:43:35 -0000
-Message-Id: <163468701520.30558.7105308683682598277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 19 Oct 2021 23:50:03 -0000
+Message-Id: <163468740364.3824.18234241070662617797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 223f903e9c832699f4e5f422281a60756c1c6cfe
-    new: 32fa0efab63eb724b4c439117d94be8b77c0bc3c
+  - ref: refs/heads/io_uring-5.15
+    old: 9f7f7ea493a1d5c202760cd6145d6dde744f71a2
+    new: 97f03243aa54b55b16fc0b6d58ad408427d59351
     log: |
-         d51b6b2287ae0c5432f03457a1dbc844e1968d12 libbpf: Remove Makefile warnings on out-of-sync netlink.h/if_link.h
-         34e3ab1447db13daad066bb9fcf76cb88a827da6 bpftool: Fix install for libbpf's internal header(s)
-         ced846c65e8ffdaac7138936cdbbc9337a939fb9 bpftool: Do not FORCE-build libbpf
-         062e1fc008ded14a637ed9c8631fa31f57534dfc bpftool: Turn check on zlib from a phony target into a conditional error
-         32fa0efab63eb724b4c439117d94be8b77c0bc3c Merge branch 'fixes for bpftool's Makefile'
+         bc369921d6708542eb93da33478762f1162a5805 io-wq: max_worker fixes
+         97f03243aa54b55b16fc0b6d58ad408427d59351 io_uring: apply max_workers limit to all future users
          
