@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8373972008263207901=="
+Content-Type: multipart/mixed; boundary="===============1588714437144023299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Oct 2021 07:39:27 -0000
-Message-Id: <163462916788.16860.13658420590693849178@gitolite.kernel.org>
+Date: Tue, 19 Oct 2021 07:40:38 -0000
+Message-Id: <163462923817.18659.2835645537200734015@gitolite.kernel.org>
 
---===============8373972008263207901==
+--===============1588714437144023299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: be24dd486d45a1846866615bd4ec5f5192ea5de4
-    new: 32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787
+    old: 32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787
+    new: 15c9a359094ec6251578b02387436bc64f11a477
     log: |
-         32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787 binder: don't detect sender/target during buffer cleanup
+         15c9a359094ec6251578b02387436bc64f11a477 char: xillybus: fix msg_ep UAF in xillyusb_probe()
          
 
---===============8373972008263207901==
+--===============1588714437144023299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634629166 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634629236 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1634629165-b3a605092c36f0e34a4e0f27052ed5526c5f656d
+nonce 1634629236-d5c13abece32113dbfd4a3feb4fa10d93c553a25
 
-be24dd486d45a1846866615bd4ec5f5192ea5de4 32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787 refs/heads/char-misc-testing
+32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787 15c9a359094ec6251578b02387436bc64f11a477 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudi4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AsAP/3b/SCKOhMCukwaIBMLg
-uRvV1ODnPkjPgxOLr/mZfEENRTupZjB94OHnsqwhrt616zZX2GBeyvBGm2a5nBIi
-83JGE6KhBWHKa9s4QElt+m6Z033BV5WaeRrwVnTxwCGnfNJtJ4nUnkOeDVTUdV/p
-IGEm/bZOB4kIFdFxjJdRadwdohnNqYML9L4rXZZwb00wr2f+fvWKrB9pJ0qrObnK
-i+VpXbp6hNqXVldxEcwz9FMHCaS6SeRPF7539d+hwYxG1ddY7L3+L3lvzSxuRveX
-hcc2tUsgX4HpXrdfqD47YVPhYW5eo3Mk5VTAnOzyc3lV5AbKC9Uma7AEhDbKFie6
-4wK0bmDyyqpjRnk695rp40OB6sFqshulk1XYOlMUzVAMjy1jzPD+1w6EHuPfniDo
-UsPoxF4OS4Jv6h/dnemDDYdBevEReE5BlvaIOPoN/xbByQL2siPVPg5DHvjYQiHl
-FW/2RB9M+su+epZQdvs69ikB83KmyuEj+ufqaC/TmKLD2FeMGtt39Ls/TwCAxV0k
-v9G9dSCB7B45JXb3FcYl23IoQTzUtt+aHXZq3nRgeFYnDQwmpuMoiOvRcLvmc9z5
-rCSMKfyw3zhJvrvOYodwfghx/9KCZMixXkjW7lbgbldjyszTQE/+wViYz/IxKz8s
-mfoCw6X4RQ2XTYJ11wHBt6WC
-=naqg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudnQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RKQQAKm1J/gEuZi4QgcezmNw
+agnLr5AY0kWjh9ELmRgj7IlXmpZqZ7S5AWhqotDk5EM9atVgEUmrg7hZpQZPBjGF
+qb6wl7WL3BaPdOQMe9PgjqWzNnijJsI0JvHTEdZKQuCuO8geFoYx91xMAcHmjjJh
+rwX9Tu5bWlev1VTrkEEdj1aX+DTUSG6kpMpmm7VKMAbkbchEAnKhr4cds+PhvCjo
+PYffK3JoaLT39GWzh0YR1kbziRAGMTKo35pkmg0pfZ8CsPbuQKLmjc5WsstmCbom
+3nkre/WvQPKAa8bqdSa5lWe3EJ1FYDqvSqTMq6SyBuCbJphaX8mXPQ5Iq2fMZJGX
+6X3Z9+z/U3WP+RK6XtBuIz1iUzSjkNqKr/CShfEiwJ9AHoRHMPlC1LnKBGmGTkqA
+i2bUj47WT7LRHufobhwJDC1w+Ni17s1V+Ttr8ty+f/XwOto19dV6oytVJCQZKddZ
+BtFZp77bYz6rBh4eBl9dI2QjxcVMtWv6qGRs8nG6+EDSLKPP4t2N3eY6X35tC/g3
+98b4r7s8VNHvje51A1dje++G1EIcwGFI+h0ftt8XiXMGFWw99djW5wrwCOQ49b/q
+DBuzR+RCDNC6wA0khdrXlBSIi2DTufvhhGmNx3bjBftlwmuJZcDm0Wv71hdCmgVR
+DoKggh61d5Fky1IijX022AON
+=ySaA
 -----END PGP SIGNATURE-----
 
---===============8373972008263207901==--
+--===============1588714437144023299==--
