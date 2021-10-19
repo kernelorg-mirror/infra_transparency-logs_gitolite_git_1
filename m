@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 19 Oct 2021 23:53:31 -0000
-Message-Id: <163468761131.5574.8901939448619539212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 19 Oct 2021 23:57:53 -0000
+Message-Id: <163468787365.8240.5686367378783490426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 04ee2752a5a9a715ad6dd56cc3eee3ec0bd846b4
-    new: ba69fd9101f20a6d05a96ab743341d4e7b1a2178
+    old: 32fa0efab63eb724b4c439117d94be8b77c0bc3c
+    new: 588cd7ef5382eb89d09a64ee9ba85e4f9a5b0bcb
     log: |
-         ba69fd9101f20a6d05a96ab743341d4e7b1a2178 net: dsa: Fix an error handling path in 'dsa_switch_parse_ports_of()'
+         588cd7ef5382eb89d09a64ee9ba85e4f9a5b0bcb bpf: Silence Coverity warning for find_kfunc_desc_btf
          
