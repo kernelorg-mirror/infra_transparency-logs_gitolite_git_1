@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2442335266843901295=="
+Content-Type: multipart/mixed; boundary="===============7459750333035078072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 19 Oct 2021 07:33:42 -0000
-Message-Id: <163462882222.13597.16613700031948443759@gitolite.kernel.org>
+Date: Tue, 19 Oct 2021 07:34:08 -0000
+Message-Id: <163462884849.13805.13175120442202891667@gitolite.kernel.org>
 
---===============2442335266843901295==
+--===============7459750333035078072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 436c7525f31da2b2e3f892f1f344e964775d98ad
-    new: 2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c
+    old: 2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c
+    new: d9f32a101e431bfb3adc96a5647d85e5fe3a661e
     log: |
-         2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c staging: r8188eu: fix a gcc warning
+         d250bf4c397ab8f529ed172a3eb4dab64f700a9d staging: r8188eu: Use completions for signaling start / end kthread
+         e8eb2f890f2c60acee7d58ac24840e5b75ffa349 staging: r8188eu: Use completions for signaling enqueueing
+         d9f32a101e431bfb3adc96a5647d85e5fe3a661e staging: r8188eu: Remove redundant 'if' statement
          
 
---===============2442335266843901295==
+--===============7459750333035078072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634628820 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634628846 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634628820-73a63e46c7510a96f02a57ca124799da7a3b41b3
+nonce 1634628846-b2a59a4a2984062104dea1124b3765759ffcd508
 
-436c7525f31da2b2e3f892f1f344e964775d98ad 2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c refs/heads/staging-testing
+2d68d8ee8fec9c2db1f37ed6fa82255d4e36df4c d9f32a101e431bfb3adc96a5647d85e5fe3a661e refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudNQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y1sP/ilXK+2/KOigoUG/iEu6
-IAFIIpGeKmSCUWbypRhBcTeMDcaTYbSNRbIapV8LZT/q5yg2d1XABuWRFS6fx1Ey
-FR0SNwLV+5JD/2Oys2laJiAqHtzNEY+Yhj98yXc7cfv8nZfGZmn+GZCH8arQt+43
-sLJDy7zOjdz0C/vpD4yX77ptBFwaUxTfSEqkLxXYgSkQ5Mb0fZjgjwB+UUSboui7
-byrsGgQ+EMvcop12Oar+A6/nf9+4xfrrUw8Cj21yzBbmil2BRb+sjw7pc+fRcUP6
-eyb2h6TxpogHZWAkt4Y7ChHl2kkLN14i+mNkXVR71NoSuwRUB1zl0GQ9cFZmGZu9
-oVrho7NjK/IIPCUd1kFGZ1X8kO+VC50AFBDDKtV4KEem8y1JZJbkd2mzCd2uUtRV
-jC9S1ABTGXPsO8AIT1g3Ylacr9LAWm6Z8i1XMetEn8tJ0QcIDRzobsmxwE30Wy8X
-fxmV2gIMoc1S8TWUGiozMFFb0l91HBle8KAU0HzA2iSH6T7o7pkq7mTcNY1Hqinv
-Rebu7TCONEoxtsGt/DDytOZOKLhqX4NLpXcCj3xbC+yELcz4Dw3GnRJc1OhmwZVS
-2Gzz4vlAvqNhvapMajMMyszVR1OKKDINOil9Gip/Wn5Rw9EHbb5Dek+O1QYNNrqs
-FoR72Xe/XS4pNdlxjbyFjvGJ
-=OAOu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CeEP/3kfxxSjWVjLjd0nsULw
+330ccRb5jlGoExn00wPnQ3Yom65pobzUcqqJFQ1GNtzOXEGFBfGfGBxwguzPQfyn
+TUm23yy11dvJIRphabFqC/YaW9Ha4/xJjGddVTlsO5Mmde8taELGjBhrmE14Uw+M
+8rY/3vjqmgk9/F0LVTLW3FAgqsrrX5Wtj/zGy++5hpxfm8YSySIwCUBbg46o2fUC
+lI4Xv0cG6PAzyJkQqdf10ujvuKcTzjieZ662r7PfosKbHPR8DDGRAwIw56RhA5Pc
+mKmGwBs3TEZfDeWBxExagBt/8QJyHLBJmYalNsczbcrY0BrkTbOpPisawwdAY3gC
+bmSLR0z9f/qGdCWPdGpD4r5BgoQNzDPu/uHt5NS84/mx3TbXflaJRrbhIhj/uJFZ
+7m15MQGW7lScnEVglpgkGBsbb2a/9AEwkws/yp6ATwHaDo+yZITsStKVaCFbcFeF
+slY2jXHdDHJC9W06tL6xPAMk4ZttvNE513RReLvPNbRAY3cL757dSzIVJYeaJoZe
+WHt0/Nmx4FXOO/qG0PZL75tVloDyznmUPPqRHVxN6KWHnpBMmRREnjLhXNpSj2Mf
+sHP9vr7wvbzLV/B9hZNfmhT9srwM8KpQiNdl3Ghv9uSqm9TJqhFVMYDZ4FRBum/5
++omTLbFpZKLMx8/dktuJy3e0
+=uc/h
 -----END PGP SIGNATURE-----
 
---===============2442335266843901295==--
+--===============7459750333035078072==--
