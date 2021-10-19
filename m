@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 19 Oct 2021 18:25:42 -0000
-Message-Id: <163466794218.27033.1291220708573662040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 19 Oct 2021 18:39:14 -0000
+Message-Id: <163466875412.1374.4019399817157410284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/next
-    old: 759f9ec3f3761ab1b6121eb8cdc04d5c03d92d18
-    new: 030997ccad9273d8d801f1c8982afbe1769d4b8c
+  - ref: refs/heads/master
+    old: 224721e7f03f2fee72d36f664444543d5f21bc29
+    new: b16621b9ee20e3bb3bcc51002fc98cf7ebdc5123
     log: |
-         037d5fcf9a8186e64a3db5d733650e4dd37ae20b phy: qcom-qusb2: Fix a memory leak on probe
-         6b0e686e7ca7ac6eaa72038049a08c99f51f7ea9 dt-bindings: phy: rockchip: remove usb-phy fallback string for rk3066a/rk3188
-         29aecc40f44f0e6b9565cfcb37c4e6e209a69ae5 phy: stm32: restore utmi switch on resume
-         689862d749af85fbd7d7f08ffa08949a8a217aff dt-bindings: phy: phy-stm32-usbphyc: add optional phy tuning properties
-         030997ccad9273d8d801f1c8982afbe1769d4b8c phy: stm32: add phy tuning support
+         7fed9f758f44c6a96eb43460f95b26dcd5ef7a21 ie: add ie_parse_oci
+         bf5afa52e504654f7b98c62a8ba861cdcc456590 netdev: add OCI elements to SA Query request/response frames
+         1c86327029788fb9bc61a3c420ea35ee6b472b05 auto-t: SAQuery-spoofing replace sleep with condition wait
+         850d2c7ea8911c82b675a1d099d078eee2be5111 auto-t: add OCV to testSAQuery-spoofing
+         8f036c229e3634ab3c5839eed68c6b0ce55d00e4 nl80211cmd: make CH_SWITCH_STARTED_NOTIFY name unique
+         4b88607b198a8659577e6dbe9eb51e85d059dbba netdev: start SA Query on channel switch event
+         74e7e341fd61c3d5ae418d1e609b96e70d990dbe auto-t: hostapd.py: add chan_switch()
+         b16621b9ee20e3bb3bcc51002fc98cf7ebdc5123 auto-t: Add channel switch test
          
