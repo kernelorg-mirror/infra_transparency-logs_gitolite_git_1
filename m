@@ -1,91 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4411638366510745244=="
+Content-Type: multipart/mixed; boundary="===============3505567574162204183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 19 Oct 2021 15:50:04 -0000
-Message-Id: <163465860414.24302.8330797004542558310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Tue, 19 Oct 2021 15:52:13 -0000
+Message-Id: <163465873345.25699.12975694349289303234@gitolite.kernel.org>
 
---===============4411638366510745244==
+--===============3505567574162204183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-5.16/block
-    old: 480d42dc001bbfe953825a92073012fcd5a99161
-    new: dc5fc361d891e089dfd9c0a975dc78041036b906
-    log: |
-         bc490f81731e181b07b8d7577425c06ae91692c8 block: change plugging to use a singly linked list
-         dc5fc361d891e089dfd9c0a975dc78041036b906 block: attempt direct issue of plug list
-         
-  - ref: refs/heads/for-next
-    old: 06114f3294e91818408c0008446ccf41d67cd63e
-    new: 59d62b58f1203a6b59a3e51244dee91ea80340cd
-    log: |
-         bc490f81731e181b07b8d7577425c06ae91692c8 block: change plugging to use a singly linked list
-         dc5fc361d891e089dfd9c0a975dc78041036b906 block: attempt direct issue of plug list
-         59d62b58f1203a6b59a3e51244dee91ea80340cd Merge branch 'for-5.16/block' into for-next
-         
-  - ref: refs/heads/perf-wip
-    old: e72347eba615e437f1d375b851aef701d795d9fa
-    new: bc05702ff5134b89f7d27ced50b2f98a0abea1ad
-    log: revlist-e72347eba615-bc05702ff513.txt
+  - ref: refs/heads/objtool/core
+    old: b08cadbd3b8721db738d9a00ef3ce3ed667e6d9c
+    new: 3fabba3d8d2d50b06b3d699f4b9f86a7de0aae4a
+    log: revlist-b08cadbd3b87-3fabba3d8d2d.txt
 
---===============4411638366510745244==
+--===============3505567574162204183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e72347eba615-bc05702ff513.txt
+Content-Disposition: attachment; filename=revlist-b08cadbd3b87-3fabba3d8d2d.txt
 
-86d46fdaa12ae5befc16b8d73fc85a3ca0399ea6 block: ataflop: fix breakage introduced at blk-mq refactoring
-8261473e98588fc02d999dd8688e3f22a74c16c5 Merge branch 'for-5.16/drivers' into for-next
-480d42dc001bbfe953825a92073012fcd5a99161 blk-wbt: prevent NULL pointer dereference in wb_timer_fn
-08c327b95c709187f76227c42f853478a4698c34 Merge branch 'for-5.16/block' into for-next
-946e99373037be4841e8b42dcd136e03093c9fd5 block/ioctl: use bdev_nr_sectors and bdev_nr_bytes
-f9831b885709978ed9d16833ceeb3a2ec174a2d2 partitions/efi: use bdev_nr_bytes instead of open coding it
-97eeb5fc14cc4b2091df8b841a07a1ac69f2d762 partitions/ibm: use bdev_nr_sectors instead of open coding it
-06114f3294e91818408c0008446ccf41d67cd63e Merge branch 'for-5.16/bdev-size' into for-next
-bc490f81731e181b07b8d7577425c06ae91692c8 block: change plugging to use a singly linked list
-dc5fc361d891e089dfd9c0a975dc78041036b906 block: attempt direct issue of plug list
-59d62b58f1203a6b59a3e51244dee91ea80340cd Merge branch 'for-5.16/block' into for-next
-d932f9ec276fdffac7e5245bcca1b1a1da9ad6c5 Merge branch 'for-next' into perf-wip
-99f96afe583913bc72a523007f030f9dab854dc7 block: inline fast path of driver tag allocation
-045998ecb6373c2681ef79e30b18944c30e03e78 nvme: move command clear into the various setup helpers
-defc48516b70691d20c646ad372ad5fcfe8fa15b nvme: don't memset() the normal read/write command
-2f9811fb1464922b43f8abbfbecfd033a0a3cd64 block: add rq_flags to struct blk_mq_alloc_data
-c470fc52d398cdf5cfa6028b5cff727bce7dc412 block: pass in blk_mq_tags to blk_mq_rq_ctx_init()
-c1a1210dd695a4227d2464f3f1fc0ecdf72efd49 block: prefetch request to be initialized
-e26d8a11a0998ac2547e5c8a7d4afe6fa395a1f8 block: re-flow blk_mq_rq_ctx_init()
-ce1732c38a81db5d77380ee375d92233c71fce71 net: decouple skb_frag_t from struct bio_vec
-53f17abe9d00b9e7d5a6a603d81d89f93add80bd block: add bvec_set_page() helper
-507a1ca44b043d4ae0a258e6b4d25b3ea77355fb block: add a DMA field to struct bio_vec
-0c150816652e1c7925d280dbd0431e9b6aa2a032 block: add mq_ops method for DMA mapping bvecs
-e26845c1c65a2c8436efcb4a907b54e42a0b9df7 io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-e395b272b4e7764d5a5b6efa0adf0806ae9a2a7a nvme: add support for pre-mapped IO buffers
-480883cb69c914e040e3223283a8c9e75c0e7d74 block: switch to atomic_t for request references
-7340621947ef24ead59393f5c867dd5248c046ff nvme: don't copy fill bio_vec if we don't have to
-6e14debd27e41c0efddf2ad7d30a21aa09e5754c block/nvme: submit batches of requests at once
-2e18f16736a619f7646fad72e7c0e2c213789969 block: optimise blkdev_bio_end_io()
-c1e49a0d406c14afc5e1193f9a328600cc146e86 block: turn macro helpers into inline functions
-88465442299e16541f1f487bdd6ad574b72610d6 block: add optimised version bio_set_dev()
-f95e2ff79714a62ffd00c4c83ed321a3799f07aa block: optimise req_bio_endio()
-af762f9724f0868181c89359e0f48d7f01a313af block: don't bloat enter_queue with percpu_ref
-a54df26f5a7dd1abfeec60f3fb64a424325718c7 block: add single bio async direct IO helper
-6894ac78c2dd4a00e05f72450b661ba24b2ad714 block: add async version of bio_set_polled
-98ad45cff5eaff9977490d4a1d7fac43760ad21e block: inline a part of bio_release_pages()
-55cfbc753d105225eee5997dc6cb106fa2e62ef9 block: skip advance when async and not needed
-846ff6ae0532b84304df6876cf784dc27e8f2ed1 block: clean up blk_mq_submit_bio() merging
-5d3fba6612676c0412158869c2f9596db6ab2215 block: optimise blk_may_split for normal rw
-1ebe0f4274bd9d74293f956488dc0b9517cebcf6 block: optimise submit_bio_checks for normal rw
-ea24986c0e69b286f6fa66f8211e2f8fd16dd0d0 percpu_ref: percpu_ref_tryget_live() version holding RCU
-4f6eff24677fbc304b7a38d1cb9df4f2c597a755 block: kill extra rcu lock/unlcok in enter_queue()
-52f322b764f3190b2d9f4e40bc3a65f550d52281 blocK: move plug flush functions to blk-mq.c
-99f321f15a82278bbc5b213d9095f8ce15334bb1 block: optimise blk_flush_plug_list
-c15a108391158a05d81c68819eb5b4c8475ff806 block: optimise blk_mq_submit_bio()
-bc05702ff5134b89f7d27ced50b2f98a0abea1ad block: use cached bdev size in read_iter
+465678486e8e08bce311de4654fc1a91f92be738 static_call: Avoid building empty .static_call_sites
+9b1754801c8d957fc5a80b1be52d6c961b1115d3 objtool: Optimize re-writing jump_label
+a1e6d8bafdde3c943ddd5dae5e1b73858bbbf4c8 objtool: Add --dry-run
+5c4ba3e7487eb95bc209c5615805e471d33e6d64 objtool: Explicitly avoid self modifying code in .altinstr_replacement
+b4cae2f380c5975f1cb8657ed989b76b9c71b9b2 x86/Kconfig: Simplify STACK_VALIDATION
+39231ab5537635f8294624e3f4211f244003e6a8 objtool,x86: Replace alternatives with .retpoline_sites
+95b87f32d573589e49a0f07f36f82ee86a5a5e3f x86/retpoline: Remove unused replacement symbols
+582791f1db9e4c7700c9a2d70b831c9bb3658e86 x86/asm: Fix register order
+063ef99bf8d7c3bb684eedfc73ead2b6cccf3e67 x86/asm: Fixup odd GEN-for-each-reg.h usage
+d4aab01e116a56c9816e6278ca84019e8d1da728 x86/retpoline: Create a retpoline thunk array
+8fce614b89c56cb2b7fe47aff1944c3c018caa73 x86/alternative: Implement .retpoline_sites support
+21bc399a8988da98128703f47da9ac8b9acb0b0b x86/alternative: Handle Jcc __x86_indirect_thunk_\reg
+4620343a1cdf0b47b79a1e8091fdc1617013a620 x86/alternative: Try inline spectre_v2=retpoline,amd
+fb0c9d7f4399dce339a35b8055db3c3db830af7e x86/alternative: Add debug prints to apply_retpolines()
+ef85aec2a034c8a44b4069658f0d6440ca8b6830 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+82ad1ab5ed7967a58506353f98d28e91b16d782c bpf,x86: Respect X86_FEATURE_RETPOLINE*
+3fabba3d8d2d50b06b3d699f4b9f86a7de0aae4a x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
 
---===============4411638366510745244==--
+--===============3505567574162204183==--
