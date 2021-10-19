@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8930608559559611679=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 19 Oct 2021 18:14:43 -0000
-Message-Id: <163466728341.17957.97759019974427473@gitolite.kernel.org>
-
---===============8930608559559611679==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 19 Oct 2021 18:25:42 -0000
+Message-Id: <163466794218.27033.1291220708573662040@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: 26bff56fa61c9a7e534200179052e7c1fd3e8dc5
-    new: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
+  - ref: refs/heads/next
+    old: 759f9ec3f3761ab1b6121eb8cdc04d5c03d92d18
+    new: 030997ccad9273d8d801f1c8982afbe1769d4b8c
     log: |
-         e6ab6113526aa485ca4256dbbfd8e6f48a4575f6 scsi: aha1542: Use memcpy_{from,to}_bvec()
-         1b74ab77d62fe542af83e4cac95e8995032a30db scsi: target: core: Stop using bdevname()
-         3d8fa78ebd61aada5d55de6e04beee7fd916c62b scsi: scsi_transport_sas: Add 22.5 Gbps link rate definitions
+         037d5fcf9a8186e64a3db5d733650e4dd37ae20b phy: qcom-qusb2: Fix a memory leak on probe
+         6b0e686e7ca7ac6eaa72038049a08c99f51f7ea9 dt-bindings: phy: rockchip: remove usb-phy fallback string for rk3066a/rk3188
+         29aecc40f44f0e6b9565cfcb37c4e6e209a69ae5 phy: stm32: restore utmi switch on resume
+         689862d749af85fbd7d7f08ffa08949a8a217aff dt-bindings: phy: phy-stm32-usbphyc: add optional phy tuning properties
+         030997ccad9273d8d801f1c8982afbe1769d4b8c phy: stm32: add phy tuning support
          
-
---===============8930608559559611679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1634667276 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634667276-2edc9f069ca1de9c2cca04ca54f4144589278f3d
-
-26bff56fa61c9a7e534200179052e7c1fd3e8dc5 3d8fa78ebd61aada5d55de6e04beee7fd916c62b refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFvCw0ACgkQ7ulgGnXF
-3j1RShAAjn8kgPGkwY8WohzS9MV7QzsdMC2070seE8lIMOXXTF3lyAt+JCxmd1wT
-LxmLoofswZC1UB62tG+kTp7IGth6P7LO7nmr+9TRfixzNGtWQJJZEblguDFwrrKU
-PAs6y4uVhibcrwp1odicqtDFXgL34fxRtVYlPQWrQA45cmpRDrm0CnXZXdxiFlxw
-F9WSVCspZlye7lXi1o3uHmJZO+buMrIHFUPBh/IM5jBMZfk9SXNQpeU4NkqWn8/A
-8eUIkjumf6UFYjbZcrsVGGY1llOsTUbuQghDtcnBIpeDHMKdLG/zQoydTRtwsSGy
-He3byDO/cLlq6vr5+EHTfW4oYGu1GXWX02+oqbpD5rmGyT8I8w3RVmewc36eSYom
-XbEIS6leAv9XuzTDEMc568f9yjsFNdj0+ffNHyY3DGyZxDPveFndp/lPsZ4uc0mR
-VJhIsSNam5bci4g5Se3NFq2M5skCfa7fOnHwHTw2nljxXtpUSkeQZzfokt8T4P1b
-d/i4NWVqtbHk0bKYxXsimwvgvEQrqpOOAdfLHTmdRvTiFouk4sD/ZAJRDHoA25PE
-rhJodWYCYncmUBB6GQgmfp3s0deRnLCXCq+2H1wAucmxQ9wvnFicdbKjPUYPuCZR
-1wvaJITSl6oUhhl5ka7zNriyVIfPP0LwMyZasH0pe2IhWy/fPfU=
-=J+2h
------END PGP SIGNATURE-----
-
---===============8930608559559611679==--
