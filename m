@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8221578980223129567=="
+Content-Type: multipart/mixed; boundary="===============1471179734366244752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 19 Oct 2021 06:06:17 -0000
-Message-Id: <163462357753.23592.2817430004127387330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 19 Oct 2021 06:06:32 -0000
+Message-Id: <163462359244.23727.8848230722046298380@gitolite.kernel.org>
 
---===============8221578980223129567==
+--===============1471179734366244752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: c03fb16bafdfc42a158d0f35a0472128a7d2ff57
-    new: 8ef1e58783b9f55daa4a865c7801dc75cbeb8260
+  - ref: refs/heads/tty-next
+    old: 412a5feba414127a6c69452dfad454086867011f
+    new: 3968ddcf05fb4b9409cd1859feb06a5b0550a1c1
     log: |
-         05c8f1b67e67dcd786ae3fe44492bbc617b4bd12 usb-storage: Add compatibility quirk flags for iODD 2531/2541
-         8ef1e58783b9f55daa4a865c7801dc75cbeb8260 usb: typec: STUSB160X should select REGMAP_I2C
+         3968ddcf05fb4b9409cd1859feb06a5b0550a1c1 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
          
 
---===============8221578980223129567==
+--===============1471179734366244752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634623576 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1634623575-8400a4dafac8f961045f45dcbefee8b35dbb052c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634623591 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1634623591-030c63789da273f6ff81b934e14f853c96e317c1
 
-c03fb16bafdfc42a158d0f35a0472128a7d2ff57 8ef1e58783b9f55daa4a865c7801dc75cbeb8260 refs/heads/usb-next
+412a5feba414127a6c69452dfad454086867011f 3968ddcf05fb4b9409cd1859feb06a5b0550a1c1 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFuYFgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+reoQAJHvcEzl6onYToTq6U3u
-bHn7VPn8f5K0PDvDEq61ozoisoZPyq9OuzvJtgz7b9eFzcsrltE/Hdss1lxlRsHP
-M1ueJoUj0NcXRTRRDjtxPsmZQaUvCfu7T3bS8X0YcEizR1dPGHM6bCXaTpx64Jks
-yUNoCYi3dzfnRNJG8J+VCYcCoKPE8XwLo/WY3a1CzV4hhE6ft6S1+fOXJeOuhgqG
-TxApTRuLzTowt7KRNwVsMMd0v7EXcspujzl7jFKFB0xRmvD67tF8tgGHpuq53Irf
-j7PiSWGEogduzohg5T/NVUWLDjV0oXplye2rEHVe+7tGvXra72rwGqc/yCx8hqBz
-Rksj3UxKj2NUypcVkqb47JTmLXcn5Oy3e8NcUFKwjzKrykd1DaKHxy2lpSeDlJ3T
-mekEqwGsJc1L/FB7evJUdLTFKSJgYj0aNeo6OVlFvd8w2S62MisKBC1O2HQ9lKQY
-XNGCKZezyVSM6ko99WjevqwNnfvmh7lBrXzTX6d6srEmWz7JlHlh8hQAjBkzsFvB
-y3jCszudPh1sS4eOaI4LtqziL3W7KF0n6iF1jDuhAl4DoTCvRKpvDcOBWgRjfghN
-mDqvo4GtT7dKN5nBuRN2ftOhgrGa3f3yn8Yq/c0/NmD0FN/eAogLF0MFK2wqgtAK
-vA7A81gZ7o4i9cB0Kaj6FJ48
-=yZEL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFuYGcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TXIQAIacSlgVL0cfEfWgTjJq
+E9FnfTgIZs37nezUbwzdwBKwOr0G6vuLheypeolUcOBs0ljUWX0wbldgPz4pDTTk
+IlJ+ZYox+bA29+08yIO4Ew9XUdWgpD9l87nVeCaJbbVHnOFPxOu7MPPWl/iIQz8S
+1C9ysNMaACtSws2sYGunQXWt8v+FyraNdtG1I/53tfgm69XWge1JJhPwPehwiOqQ
+M7VN3NDnZ+5kxHlnuy+NKWET/Duao+rx85bczYpC0O9GgQpfMb1jRYUwa5g9JxOc
+tcuuwy+CSpGQTPsEMTSJ6UKvVM65wn8YOrSfwRpfZlblR3ZFBcZHkRWOzOjVlJby
+UjN1jLWkuT1IwzCtB6KRLE6c87jLy+h0VGEcmSop1VPdz31fopn8Z+OxKeOz1vjE
+4L88EOX+KEXxEb5BP/usyeeK4oiehMFxiP0ozsqc3vlpK+P9ZLq9pQW6IeZ+EE3e
+10vTG6oE+WyNIdo9ekOypea2bt3BR8m3XAqOL2MZHUHhejg6Evt1AGJtj45D7sCB
+gBCWA8BRevyEjm2nBH4KEvqe+p+OXOJH971lhJGTN8Pm7iDraVqxQimLyaLOXcXI
+ZloieMW064RIOXbDfddwGEL+bPnCv5/GMaNkzoXdT8CvtuRoHywNJVNJxppqJQhx
+z185roiGMtsUxcj3SKDd4NvR
+=By5h
 -----END PGP SIGNATURE-----
 
---===============8221578980223129567==--
+--===============1471179734366244752==--
