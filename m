@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 19 Oct 2021 10:42:26 -0000
-Message-Id: <163464014635.20629.2211200657751734646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 19 Oct 2021 10:45:29 -0000
+Message-Id: <163464032933.23113.17818463627058126593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 8c62103627a86b674ccf947ae444df793257a3fd
-    new: 0efac36e9559b13b8c4daa794a478abd8fbaacc5
-    log: |
-         cddc976f185e341b776f695a72931426716dfac2 arm64: dts: mt8183: change rpmsg property name
-         0efac36e9559b13b8c4daa794a478abd8fbaacc5 Merge branch 'v5.16-tmp/dts64' into for-next
-         
+  - ref: refs/heads/arm32-ti-in-task
+    old: 1a3074da6972ec4df258a8503ef5541362b0d0d1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm32-ti-in-task-v2
+    old: f6218962c19dda50135ab93af3ea14c1ee517da8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm32-ti-in-task-v4
+    old: 819568e815b47a512a26ff49171a95ce79c7f975
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm32-ti-in-task-v5
+    old: 12e3ad2cad7748f0816216192d7554be2eca2655
+    new: 0000000000000000000000000000000000000000
