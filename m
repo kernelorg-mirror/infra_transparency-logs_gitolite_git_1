@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0293066425643058174=="
+Content-Type: multipart/mixed; boundary="===============8381928797241368135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 19 Oct 2021 00:54:05 -0000
-Message-Id: <163460484563.16831.7876741091704109983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 19 Oct 2021 00:54:12 -0000
+Message-Id: <163460485297.16932.9162527047374656572@gitolite.kernel.org>
 
---===============0293066425643058174==
+--===============8381928797241368135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 3f9fed1a619fe0b56d0257703d28b270626d8055
-    new: 6c494cd29841e4b48c27ee0cf95a38c3bb804644
-    log: revlist-3f9fed1a619f-6c494cd29841.txt
+  - ref: refs/heads/queue-next
+    old: 24b749428185596fe4f3309a3a35da98137d5af5
+    new: ee5db39a22104752a28ee25414b2b05440e739f8
+    log: revlist-24b749428185-ee5db39a2210.txt
 
---===============0293066425643058174==
+--===============8381928797241368135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f9fed1a619f-6c494cd29841.txt
+Content-Disposition: attachment; filename=revlist-24b749428185-ee5db39a2210.txt
 
 ff7e93219442f5ac5b2cfd33e4fe4b7d5942f957 ice: Fix failure to re-add LAN/RDMA Tx queues
 73e30a62b19b9fbb4e6a3465c59da186630d5f2e ice: Avoid crash from unnecessary IDA free
@@ -80,5 +80,7 @@ a8345ecf2d006d3e7da1dd772d950c468ae05b42 Merge branch 'mlx5-vdpa' into net-next
 91dfb4f223cd37e81a5a9cb1db8368ac224cd870 Merge branch 'mlx5-queue' into net-next
 ad0ce3143556352a354dec09f655deb9dbbb8ab5 Merge branch 'mlx4-for-net' into net-next
 6c494cd29841e4b48c27ee0cf95a38c3bb804644 Merge branch 'mlx5-for-net' into net-next
+6e0b03e52e0c8315778ef93ca705d6d901a66fac Merge branch 'net-next' into queue-next
+ee5db39a22104752a28ee25414b2b05440e739f8 Merge branch 'testing/rdma-next' into queue-next
 
---===============0293066425643058174==--
+--===============8381928797241368135==--
