@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1031191743354434178=="
+Content-Type: multipart/mixed; boundary="===============7407787913401423093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 18 Oct 2021 23:50:03 -0000
-Message-Id: <163460100343.10038.13908463862780520584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 19 Oct 2021 00:16:04 -0000
+Message-Id: <163460256415.25402.4021935067196044561@gitolite.kernel.org>
 
---===============1031191743354434178==
+--===============7407787913401423093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/perf-wip
-    old: 5d5efd6e1ef283940ab98d972abf0cd1090f4aa0
-    new: 6ad1560fbe04ef8f89ecc57082a6eed1b626d676
-    log: revlist-5d5efd6e1ef2-6ad1560fbe04.txt
+  - ref: refs/heads/dev
+    old: 4b246eab47507c5bca631f31ea9c873a55875f6f
+    new: 77510753b0f6b8d96a06fba38343d9347e8732b5
+    log: revlist-4b246eab4750-77510753b0f6.txt
+  - ref: refs/tags/efi-urgent-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: b8374a5506c51a7a36d66bdeb005d32f69d70cf4
+  - ref: refs/tags/objtool_urgent_for_v5.15_rc6
+    old: 0000000000000000000000000000000000000000
+    new: fefa0a07791a11333d99e24a81435502cfb0e05a
+  - ref: refs/tags/perf_urgent_for_v5.15_rc6
+    old: 0000000000000000000000000000000000000000
+    new: 9f64d9e2f73f06792cc1d42d397d188fe95ef829
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/x86_urgent_for_v5.15_rc6
+    old: 0000000000000000000000000000000000000000
+    new: 76ebb327813b4c0b15003fb047a84288a4ac2c23
 
---===============1031191743354434178==
+--===============7407787913401423093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d5efd6e1ef2-6ad1560fbe04.txt
+Content-Disposition: attachment; filename=revlist-4b246eab4750-77510753b0f6.txt
 
-eaf0e77f37591339190c7f0c94067e6ebea5ce43 block: improve request timeout handling
-5960040932f6f85fc83c23af847553fc9499fdaf nvme: don't copy fill bio_vec if we don't have to
-318e8332f8697584a460fbdcef1e8a2c4c8be474 block/nvme: submit batches of requests at once
-6d34d935277639cb6b9e8c35d747009e8081dd62 block: optimise blkdev_bio_end_io()
-926e9c7434c966cdf3dad08bd11a4b74c64fafdc block: turn macro helpers into inline functions
-1c2e29e78a2802eed9fcee1224634a84d6378eed block: add optimised version bio_set_dev()
-196351ef5902a831aecc37a787509603130a84d7 block: optimise req_bio_endio()
-66b5dd68e781fa02f2ad2b49d25b2628d5de64d5 block: don't bloat enter_queue with percpu_ref
-5804bf22b99c3a45a6fd76fc8e80e1961de38410 block: add single bio async direct IO helper
-43f1aea142a8849a5ce339d0e840debda5091546 block: add async version of bio_set_polled
-e886559a1b3149d6572ceb2576a7d7c6d43bf930 block: inline a part of bio_release_pages()
-b9cd890f0d9d90b3b29b032d40a212109a673d56 block: skip advance when async and not needed
-3445c97396cf92143a352c66064c69f847ebdf03 block: clean up blk_mq_submit_bio() merging
-f8c4a8ea85f38b44e3b72d976db12e0a6193cf6d block: optimise blk_may_split for normal rw
-e65533b574a70ae11b63c953a9374f289d355102 block: optimise submit_bio_checks for normal rw
-1a8f15dc1aacb08f7e04ea71a04bb59e4eb7e8ae percpu_ref: percpu_ref_tryget_live() version holding RCU
-ffc1408fddfde0165906589464457cf027c10e0a block: kill extra rcu lock/unlcok in enter_queue()
-82f5e8469c6fd612ea5cbc6eeb404c59743a74a1 blocK: move plug flush functions to blk-mq.c
-5a09550cd9b506dfdb3349c4f751ea44ba466e83 block: optimise blk_flush_plug_list
-6a1585f34fd1b08c9aad239c87cc4df6c5d943b4 block: optimise blk_mq_submit_bio()
-6ad1560fbe04ef8f89ecc57082a6eed1b626d676 block: use cached bdev size in read_iter
+5f55f8db5330b17a397da605e443e203825fa0c8 rcu/nocb: Prepare state machine for a new step
+6b2cb62a26435b7703289c40d8b37664902bafcf rcu/nocb: Invoke rcu_core() at the start of deoffloading
+ba44150e4efd5fb8c1215c60e22162ef22872087 rcu/nocb: Make rcu_core() callbacks acceleration preempt-safe
+2f82b5b9b5815bba2bec341aef6d6fef35aeac0a rcu/nocb: Make rcu_core() callbacks acceleration (de-)offloading safe
+0abd7773e0729c5c3f5134b52ee137281fb09ebb rcu/nocb: Check a stable offloaded state to manipulate qlen_last_fqs_check
+7a406747bba9626eb53924e05611a1c7ca7dd96b rcu/nocb: Use appropriate rcu_nocb_lock_irqsave()
+51059a39d6668eaa391dde96f108e43db1238a7e rcu/nocb: Limit number of softirq callbacks only on softirq
+65fd81c83fb52ac6c01904823f954e3244a42a1e rcu: Fix callbacks processing time limit retaining cond_resched()
+9cbbe788ad898b960d975494621045927c618036 rcu: Apply callbacks processing time limit only on softirq
+77510753b0f6b8d96a06fba38343d9347e8732b5 rcu/nocb: Don't invoke local rcu core on callback overload from nocb kthread
 
---===============1031191743354434178==--
+--===============7407787913401423093==--
