@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1588714437144023299=="
+Content-Type: multipart/mixed; boundary="===============0422776936224115728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 19 Oct 2021 07:40:38 -0000
-Message-Id: <163462923817.18659.2835645537200734015@gitolite.kernel.org>
+Date: Tue, 19 Oct 2021 07:41:00 -0000
+Message-Id: <163462926037.18815.7592101559239884488@gitolite.kernel.org>
 
---===============1588714437144023299==
+--===============0422776936224115728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787
-    new: 15c9a359094ec6251578b02387436bc64f11a477
+    old: 15c9a359094ec6251578b02387436bc64f11a477
+    new: c3ed761c9e1e4987406671b326dab48a048614ee
     log: |
-         15c9a359094ec6251578b02387436bc64f11a477 char: xillybus: fix msg_ep UAF in xillyusb_probe()
+         c3ed761c9e1e4987406671b326dab48a048614ee counter/counter-sysfs: use sysfs_emit everywhere
          
 
---===============1588714437144023299==
+--===============0422776936224115728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634629236 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634629258 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1634629236-d5c13abece32113dbfd4a3feb4fa10d93c553a25
+nonce 1634629258-b301d793dca66b093fc8b11b4315cda38462d152
 
-32e9f56a96d8d0f23cb2aeb2a3cd18d40393e787 15c9a359094ec6251578b02387436bc64f11a477 refs/heads/char-misc-testing
+15c9a359094ec6251578b02387436bc64f11a477 c3ed761c9e1e4987406671b326dab48a048614ee refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudnQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RKQQAKm1J/gEuZi4QgcezmNw
-agnLr5AY0kWjh9ELmRgj7IlXmpZqZ7S5AWhqotDk5EM9atVgEUmrg7hZpQZPBjGF
-qb6wl7WL3BaPdOQMe9PgjqWzNnijJsI0JvHTEdZKQuCuO8geFoYx91xMAcHmjjJh
-rwX9Tu5bWlev1VTrkEEdj1aX+DTUSG6kpMpmm7VKMAbkbchEAnKhr4cds+PhvCjo
-PYffK3JoaLT39GWzh0YR1kbziRAGMTKo35pkmg0pfZ8CsPbuQKLmjc5WsstmCbom
-3nkre/WvQPKAa8bqdSa5lWe3EJ1FYDqvSqTMq6SyBuCbJphaX8mXPQ5Iq2fMZJGX
-6X3Z9+z/U3WP+RK6XtBuIz1iUzSjkNqKr/CShfEiwJ9AHoRHMPlC1LnKBGmGTkqA
-i2bUj47WT7LRHufobhwJDC1w+Ni17s1V+Ttr8ty+f/XwOto19dV6oytVJCQZKddZ
-BtFZp77bYz6rBh4eBl9dI2QjxcVMtWv6qGRs8nG6+EDSLKPP4t2N3eY6X35tC/g3
-98b4r7s8VNHvje51A1dje++G1EIcwGFI+h0ftt8XiXMGFWw99djW5wrwCOQ49b/q
-DBuzR+RCDNC6wA0khdrXlBSIi2DTufvhhGmNx3bjBftlwmuJZcDm0Wv71hdCmgVR
-DoKggh61d5Fky1IijX022AON
-=ySaA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFudosbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3vUQAI96t+O6InG3xkjKQJ5K
+snc6M9nUBhuLkjEj3kLf8hioJyfCtBsecIXFuZcOkR+Dtd4XLRaDJk4N0M9ydkPO
+tAedUmiVdcKRJwzSBneFALtiE5yltxf5FwNslJORj0CSBjQaQpLUo/VJWLwfmuMA
+WERKEBYhCXwai9A4taDa2KAxdaapHfY+ZFKHmZKdKtPrRwd0wGt1pLjPgJQukH+b
+e0B4Evyuz1dh0gZfyQmxiI8JazFiAWf1lkqTRc/cyB3FHH5bChDki12rhByRwYlG
+wUFYNd0rNCZIhq4DJrBxNpoFFnr5j+IdDu9VGyOb9PTWbLBWZfccyhJu9XH8TTHA
+4Kkqs4fcv+cHbxqQt2XuTqurk1WBSVbJpnq5fxjlfUuX/0IkzNvDuu44diEfbqP3
+vIkOm+5ggZYCZjOoTeyCbabyx3TJXSQ6gnEbdbnSFZAwJKq72eRCb4dTZcIlvHIn
+Wn24+R0jXMG56lXcdeXIDgumVRilEm3Ze+JIj6Yrh/krF+lVmcWaN3++DB0bpsYd
+yJU+MaDKH7uxTiVaiaWvN94iivGC1Hy1s1+b4nO7gS0N7Kvl2nfKzOSmBlJ0amCf
+SKeBfkOUrcy696rh96qOKufghyEc6suCJaeYjmGod3yKNbFO95mO8T76pA9EGtfq
+z+xH7i174XmZxg3sdOpGY2An
+=LWZ7
 -----END PGP SIGNATURE-----
 
---===============1588714437144023299==--
+--===============0422776936224115728==--
