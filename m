@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6065473522694865962=="
+Content-Type: multipart/mixed; boundary="===============1284171564170069185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 19 Oct 2021 15:38:55 -0000
-Message-Id: <163465793520.15419.13059540549367228630@gitolite.kernel.org>
+Date: Tue, 19 Oct 2021 15:39:09 -0000
+Message-Id: <163465794915.15520.3998375269093195925@gitolite.kernel.org>
 
---===============6065473522694865962==
+--===============1284171564170069185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: fac3cb82a54a4b7c49c932f96ef196cf5774344c
-    new: 04ee2752a5a9a715ad6dd56cc3eee3ec0bd846b4
-    log: revlist-fac3cb82a54a-04ee2752a5a9.txt
+  - ref: refs/heads/dev-queue
+    old: 9b97fbe6510520a8e9633878b1489f4a37ff114f
+    new: 87d9f3271e7380322b217faa88a382f2e1f8a906
+    log: revlist-9b97fbe65105-87d9f3271e73.txt
 
---===============6065473522694865962==
+--===============1284171564170069185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fac3cb82a54a-04ee2752a5a9.txt
+Content-Disposition: attachment; filename=revlist-9b97fbe65105-87d9f3271e73.txt
 
 b504a884f6b5a77dac7d580ffa08e482f70d1a30 can: j1939: j1939_tp_rxtimer(): fix errant alert in j1939_tp_rxtimer
 d9d52a3ebd284882f5562c88e55991add5d01586 can: j1939: j1939_netdev_start(): fix UAF for rx_kref of j1939_priv
@@ -53,5 +53,42 @@ d674a8f123b4096d85955c7eaabec688f29724c9 can: isotp: isotp_sendmsg(): fix return
 e211210098cb7490db2183d725f5c0f10463a704 mISDN: Fix return values of the probe function
 c69b2f46876825c726bd8a97c7fa852d8932bc32 cavium: Fix return values of the probe function
 04ee2752a5a9a715ad6dd56cc3eee3ec0bd846b4 Merge tag 'linux-can-fixes-for-5.15-20211019' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+5fc88ff615f8b9001b135166b3fa9c2868e57f1b checkpatch: Fix warnings when --no-tree is used
+d23e0ee8d7c01609fde829ac99df6fc770ce1879 checkpatch.pl: seed camelcase from the provided kernel tree root
+846d6943120ffef7d4062ea037cf18be2a3a2c81 ice: Fix a couple off by one bugs
+f9df3fb45b16872d85f7f76ea09cf475eeeb4b3d i40e: Fix correct max_pkt_size on VF RX queue
+79078e00fe9f229c92f2948f736dc3dd9cad7c84 iavf: Fix return of set the new channel count
+08f07e6df1d436c388867b5e4f6ed5d026f7c2c7 i40e: Fix NULL ptr dereference on VSI filter sync
+4c0f39c2c407d75bc73bb2a0308bede139545903 ice: Fix VF true promiscuous mode
+4ba226810939549d56e75b7358146988bb0dd6ad i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+0deadac0228c9bb9d6b683ffc844b3a4901aedf3 i40e: Fix warning message and call stack during rmmod i40e driver
+c1642a4462ce5414b6f8c2b566b6baaad1969d66 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+1f8f2c21f4dbeb96653a05cecfbcdba57a1db432 ice: fix FDIR init missing when reset VF
+cec732794e643f353cb708472eded2ad026194b9 i40e: Fix failed opcode appearing if handling messages from VF
+6f735d8dcabe92cdbf07b0573bac393e08ff6efd iavf: check for null in iavf_fix_features
+576d15fce40f393c608153d127ae97ec5a72c37c iavf: free q_vectors before queues in iavf_disable_vf
+d507e5a7c2ca1bacd90201a6990cda6005568d0a iavf: don't clear a lock we don't hold
+b6b516d6cdd3934007f96f2b0a4e2aaad1d4bc0d iavf: Fix failure to exit out from last all-multicast mode
+2679a2255a4f24fc11d4c9318eac8f13a12cee3e iavf: prevent accidental free of filter structure
+c7f6cf3642af5abac6196f2084821d7cfc5c3204 iavf: validate pointers
+57021456de22619219709ee029544a78807f6e94 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+4b5be19fc7858e9193a1e507acf9302a9b136b3a iavf: Fix for setting queues to 0
+de80db2c76c9f877bbe8df0de5a1e2c5d31a6d20 i40e: Fix creation of first queue by omitting it if is not power of two
+b221fb185340eaa5adc3873269fce3a7d1eb8876 i40e: Fix pre-set max number of queues for VF
+7b107ad6a985a8d04644d548eccdcaf3555b50d7 i40e: Fix issue when maximum queues is exceeded
+046edd5a6697312c4ad45969263af946a7ca5923 iavf: Fix static code analysis warning
+d5e29cd7e8ce8df80ead7e01c9d010d2a0b06e2e igb: Fix removal of unicast MAC filters of VFs
+d5c898ea2ddf7cab873309ee322a16d7848bce0a iavf: Fix limit of total number of queues to active queues of VF
+5ae56b9ee9c6ab801e35fb2a0abd903e96930f84 iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+c631ac38a9133d7f37635457e90ff5eb4002dd98 i40e: Fix delay after global reset
+9d5a3945b4f46f279e31dcdcb5c7fdaf1e8346f2 iavf: Fix deadlock occurrence during resetting VF interface
+2bf32ed19ec03168c0f81ccca6ce0f9c96e7b349 ice: Fix not stopping Tx queues for VFs
+c58ad5716c735693b6d36c12d975700b94896a29 ice: Fix race conditions between virtchnl handling and VF ndo ops
+d7bb0adf7eced7b5043405d5fbc95324b9beec0f igc: Update the device ID
+161d6963de44c9036d5f2f6efd3e5ababa0b5fda iavf: Fix refreshing iavf adapter stats on ethtool request
+70d40b5d1ec52b1f02168cc312334bb91c46677f e1000e: Separate TGP board type from SPT
+39b39127fb82b4c4a3c49c854f4aece5917863b1 e1000e: Fix packet loss issues on new platforms
+eedc40fa4d0e72c857fbc3b94066892a88296a5f ice: Respond to a NETDEV_UNREGISTER event for LAG
+87d9f3271e7380322b217faa88a382f2e1f8a906 ice: check whether PTP is initialized in ice_ptp_release()
 
---===============6065473522694865962==--
+--===============1284171564170069185==--
