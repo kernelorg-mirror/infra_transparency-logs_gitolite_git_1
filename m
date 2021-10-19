@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 19 Oct 2021 10:45:29 -0000
-Message-Id: <163464032933.23113.17818463627058126593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 19 Oct 2021 10:50:00 -0000
+Message-Id: <163464060003.25827.560719734331766441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/arm32-ti-in-task
-    old: 1a3074da6972ec4df258a8503ef5541362b0d0d1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm32-ti-in-task-v2
-    old: f6218962c19dda50135ab93af3ea14c1ee517da8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm32-ti-in-task-v4
-    old: 819568e815b47a512a26ff49171a95ce79c7f975
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm32-ti-in-task-v5
-    old: 12e3ad2cad7748f0816216192d7554be2eca2655
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ffa_el3_spmc
+    old: 39d86dc85a6f4c5d0f56e8e7ddd94296c1774460
+    new: 374bf52cd3748ee8c05bb9ece48f6b8da96b5cf9
+    log: |
+         374bf52cd3748ee8c05bb9ece48f6b8da96b5cf9 firmware: test_ffa: Add Test FFA driver
+         
