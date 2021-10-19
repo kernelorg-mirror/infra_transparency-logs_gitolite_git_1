@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 19 Oct 2021 23:50:03 -0000
-Message-Id: <163468740364.3824.18234241070662617797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 19 Oct 2021 23:53:20 -0000
+Message-Id: <163468760021.5447.1365284309460625705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: 9f7f7ea493a1d5c202760cd6145d6dde744f71a2
-    new: 97f03243aa54b55b16fc0b6d58ad408427d59351
+  - ref: refs/heads/master
+    old: 05be94633783ffb3ad5b0aca7f6cff08cad6868d
+    new: 816219a86d21a26b176bea6f9c00a71823231973
     log: |
-         bc369921d6708542eb93da33478762f1162a5805 io-wq: max_worker fixes
-         97f03243aa54b55b16fc0b6d58ad408427d59351 io_uring: apply max_workers limit to all future users
+         4c57e2fac41cefa49583b9836677e5b59cbe9f64 net: sched: fix logic error in qdisc_run_begin()
+         97604c65bcda4b0e953cb86dae5335632e199f94 net: sched: remove one pair of atomic operations
+         816219a86d21a26b176bea6f9c00a71823231973 Merge branch 'net-sched-fixes-after-recent-qdisc-running-changes'
          
