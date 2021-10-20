@@ -1,24 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Wed, 20 Oct 2021 18:02:39 -0000
-Message-Id: <163475295922.822.14240299273335319655@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2753327669171741207=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 20 Oct 2021 18:21:22 -0000
+Message-Id: <163475408208.13541.1700433074894403931@gitolite.kernel.org>
+
+--===============2753327669171741207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: 030997ccad9273d8d801f1c8982afbe1769d4b8c
-    new: fc2a3a3641af90aeb0c5aaa17449108aa8a4afde
-    log: |
-         8d6ad05cf7ffdf4548efe28e1fdc94676a6c5b66 dt-bindings: phy: qcom,qmp: IPQ6018 and IPQ8074 PCIe PHY require no supply
-         19acaae447d77569bb7c893d3a50d7f07587d487 phy: ti: gmii-sel: check of_get_address() for failure
-         a3b7659a1561af469401d25bb66d0b30db77aa7b phy: cadence-torrent: Migrate to clk_hw based registration and OF APIs
-         a6b3293b79a59796e52c9f13ade77a854cef872d dt-bindings: phy: cadence-torrent: Add clock IDs for derived and received refclk
-         1aa4e4072b994879d52ed258e309c921c90f6f10 phy: cadence-torrent: Model reference clock driver as a clock to enable derived refclk
-         fc2a3a3641af90aeb0c5aaa17449108aa8a4afde phy: cadence-torrent: Add support to output received reference clock
-         
+  - ref: refs/heads/net-mlx5
+    old: d49fe5e8151711ed5276f049bc7f73e02dc141f8
+    new: 4225fea1cb28370086e17e82c0f69bec2779dca0
+    log: revlist-d49fe5e81517-4225fea1cb28.txt
+
+--===============2753327669171741207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d49fe5e81517-4225fea1cb28.txt
+
+8a64ef042eab8a6cec04a6c79d44d1af79b628ca nfp: bpf: silence bitwise vs. logical OR warning
+d674a8f123b4096d85955c7eaabec688f29724c9 can: isotp: isotp_sendmsg(): fix return error on FC timeout on TX path
+e211210098cb7490db2183d725f5c0f10463a704 mISDN: Fix return values of the probe function
+c69b2f46876825c726bd8a97c7fa852d8932bc32 cavium: Fix return values of the probe function
+04ee2752a5a9a715ad6dd56cc3eee3ec0bd846b4 Merge tag 'linux-can-fixes-for-5.15-20211019' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+ba69fd9101f20a6d05a96ab743341d4e7b1a2178 net: dsa: Fix an error handling path in 'dsa_switch_parse_ports_of()'
+55161e67d44fdd23900be166a81e996abd6e3be9 vrf: Revert "Reset skb conntrack connection..."
+60484103d5c387df49bd60de4b16c88022747048 net: hns3: Add configuration of TM QCN error event
+b63fcaab959807282e9822e659034edf95fc8bd1 net: hns3: reset DWRR of unused tc to zero
+731797fdffa3d083db536e2fdd07ceb050bb40b1 net: hns3: add limit ets dwrr bandwidth cannot be 0
+adfb7b4966c0c4c63a791f202b8b3837b07a9ece net: hns3: fix the max tx size according to user manual
+9f9f0f19994b42b3e5e8735d41b9c5136828a76c net: hns3: fix for miscalculation of rx unused desc
+68752b24f51a71d4f350a764d890b670f59062c5 net: hns3: schedule the polling again when allocation fails
+1385cc81baeb3bd8cbbbcdc1557f038ac1712529 net: hns3: fix vf reset workqueue cannot exit
+0dd8a25f355b4df2d41c08df1716340854c7d4c5 net: hns3: disable sriov before unload hclge layer
+323e9a957df89cf7240b3ce4952f2d40e426bd52 Merge branch 'hns3-fixes'
+641e3fd1a038c68045bbf89d78502f4b4bbc7284 nfc: st95hf: Make spi remove() callback return zero
+3cb958027cb8b78d3ee639ce9af54c2ef1bf964f net: stmmac: Fix E2E delay mechanism
+4225fea1cb28370086e17e82c0f69bec2779dca0 ptp: Fix possible memory leak in ptp_clock_register()
+
+--===============2753327669171741207==--
