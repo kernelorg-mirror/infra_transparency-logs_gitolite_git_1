@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 20 Oct 2021 23:02:47 -0000
-Message-Id: <163477096774.31818.3516704847832006740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 20 Oct 2021 23:04:27 -0000
+Message-Id: <163477106738.32365.7179162577860336183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/100GbE
-    old: fa5e4320db9839fe6f25e176957868ca5411f0eb
-    new: 9fea749856d14c4713a2f5dee6f692aeaa2700b9
+  - ref: refs/heads/wip/jgg-for-next
+    old: 71ee1f1275432421307d27dd4df43f33e60456de
+    new: 911a81c9c7092bfd75432ce79b2ef879127ea065
     log: |
-         0754d65bd4be5bb7392aa59339a290c80346a93c ice: Add infrastructure for mqprio support via ndo_setup_tc
-         fbc7b27af0f9fb181811424e29caf6825594a841 ice: enable ndo_setup_tc support for mqprio_qdisc
-         9fea749856d14c4713a2f5dee6f692aeaa2700b9 ice: Add tc-flower filter support for channel
+         dede33da0d97a423aae21b12c3bdd282b832853c RDMA/irdma: Make irdma_uk_cq_init() return a void
+         911a81c9c7092bfd75432ce79b2ef879127ea065 RDMA/core: Use kvzalloc when allocating the struct ib_port
          
