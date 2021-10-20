@@ -1,101 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============0340307686737811921=="
+Content-Type: multipart/mixed; boundary="===============7417195355479846767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 20 Oct 2021 08:42:46 -0000
-Message-Id: <163471936689.7923.8910835968825384901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Wed, 20 Oct 2021 08:42:51 -0000
+Message-Id: <163471937135.8003.4680060171193265642@gitolite.kernel.org>
 
---===============0340307686737811921==
+--===============7417195355479846767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f6b016a9d961296d2db609d0259654371625e22e
-    new: 2760370b164918bd9311e6bf445cf4c118d3463c
-    log: revlist-f6b016a9d961-2760370b1649.txt
+  - ref: refs/heads/next
+    old: a260d922af714688651218ab2779270846aa65ed
+    new: 32b7d80c5303529f3aa6a380dc25fcf321a472bf
+    log: revlist-a260d922af71-32b7d80c5303.txt
+  - ref: refs/heads/pci
+    old: a260d922af714688651218ab2779270846aa65ed
+    new: 32b7d80c5303529f3aa6a380dc25fcf321a472bf
+    log: revlist-a260d922af71-32b7d80c5303.txt
 
---===============0340307686737811921==
+--===============7417195355479846767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a260d922af71-32b7d80c5303.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634719365 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1634719364-ff84967d57f38a08707d4e8da2e12d3f526f714a
+948516a3fac0bdd47eb127fe1a86148ed86d5c65 bsd-user/mmap.c: Always zero MAP_ANONYMOUS memory in mmap_frag()
+26778ac3da794f29c2c7c7d473f0a8d77b874392 bsd-user/mmap.c: check pread's return value to fix warnings with _FORTIFY_SOURCE
+36d5d891559f6b9f0bae4907669de9bfdf5d4d94 bsd-user/mmap.c: MAP_ symbols are defined, so no need for ifdefs
+14837a3f7540f38ba78261238da3914a6529d882 bsd-user/mmap.c: mmap return ENOMEM on overflow
+953b69cc06fe3ae5fa1c157f17f054fa95620f38 bsd-user/mmap.c: mmap prefer MAP_ANON for BSD
+45b8765e8f3001436c09cebcd9b8b281e6c55804 bsd-user/mmap.c: Convert to qemu_log logging for mmap debugging
+a6b2d060667422d54e077c0a8e4c55bd083ef489 bsd-user/mmap.c: Don't mmap fd == -1 independently from MAP_ANON flag
+0fc76b685989d30a32316b17a9c43ba017e114a1 bsd-user/mmap.c: Implement MAP_EXCL, required by jemalloc in head
+91a5adda1583fa8a3166bc16d79c67f3c87e958b bsd-user/mmap.c: assert that target_mprotect cannot fail
+dda2da6c94484b85d28fe7c29f7fee562deaf177 meson: *-user: only descend into *-user when configured
+1fecb605f83f4a5db315cd183b6f4e30fc72518d bsd-user/target_os-user.h: Remove support for FreeBSD older than 12.0
+b03c0bb27aa513869fbdbff941b92e5aa3604bd0 bsd-user/strace.list: Remove support for FreeBSD versions older than 12.0
+fbbacc99821781f4d0faa0e714c4885d9570faf4 bsd-user: TARGET_RESET define is unused, remove it
+e5f674f01cdfbb7b98374a947aed84412f4c763f bsd-user: export get_errno and is_error from syscall.c
+7cb4d7c917c2718f9fd5a075c2e4b4fca3be482a bsd-user/errno_defs.h: Add internal error numbers
+f4a29b6ed29360cf556851c82875a2b782adb5ed bsd-user: move TARGET_MC_GET_CLEAR_RET to target_os_signal.h
+11170cbdcc64e4207850eb886baeb6db436aaf46 bsd-user/target_os_elf.h: Remove fallback ELF_HWCAP and reorder
+f6f0706cc2081ebaf786603aaaf204ae5a39dda7 bsd-user/target_os_elf: If ELF_HWCAP2 is defined, publish it
+7aac7392346d1f5bb9fc31cb7e4f3f1f3fc2be05 bsd-user: Remove used from TaskState
+653ccec26dd3f9942ac258c43be0edb93e16dfba bsd-user: Add stop_all_tasks
+da07e6944fb0f1fe162246cbf31271f31ec9a5c0 bsd-user/sysarch: Move to using do_freebsd_arch_sysarch interface
+11c7b43faa1d19c94524984c878479d14a7194f6 bsd-user: Rename sigqueue to qemu_sigqueue
+5abfac277d25feb5f12332422c03ea1cb21c6aa1 bsd-user/signal: Create a dummy signal queueing function
+362534a643b4a34bcb223996538ce9de5cdab946 Merge remote-tracking branch 'remotes/bsdimp/tags/pull-bsd-user-20211018-pull-request' into staging
+20171ea8950c619f00dc5cfa6136fd489998ffc5 multifd: Implement yank for multifd send side
+e9ab82b858c14aa76dac5235a99d1723ec069407 multifd: Unconditionally unregister yank function
+1230a25f6fa3048c56d0f7f4e70e451330f4d33c migration/ram: Don't passs RAMState to migration_clear_memory_region_dirty_bitmap_*()
+b7acd65707623a8b728b622f4c9dd96c2085c05b migration: allow multifd for socket protocol only
+5ad15e8614b0877225af42aa28a7195ed2fb74e4 migration: allow enabling mutilfd for specific protocol only
+e2daccb0d0375717efed80b772e9fd1e4c51ae5b migration/rdma: Try to register On-Demand Paging memory region
+911965ace9386e35ca022a65bb45a32fd421af3e migration/rdma: advise prefetch write for ODP region
+50352cce138ef3b30c1cda28a4df68fff5da3202 Merge remote-tracking branch 'remotes/juanquintela/tags/migration.next-pull-request' into staging
+685db13a38f7599fabd353382ff65d3c244ea641 tests: acpi: dump table with failed checksum
+e741aff0f43343d6d91242fee1072fee376d5cce tests: qtest: add qtest_has_accel() to check if tested binary supports accelerator
+c306cdb0cc5327f336fbf9a7411f319f0717ee75 tests: acpi: whitelist expected tables for acpi/q35/xapic testcase
+80a2f3387c239d06d4a4b6838b511a88838ddc0f tests: acpi: q35: test for x2APIC entries in SRAT
+b59a898458aea328618521be7dc180d2396c0bf4 tests: acpi: update expected tables blobs
+f6826ac4ae2dea392a69fe1ca870a8a27e2bf0ac tests: acpi: whitelist new expected table tests/data/acpi/q35/DMAR.dmar
+0ff92b6d99011c8de57321503c0eb655c461a217 tests: acpi: add testcase for intel_iommu (DMAR table)
+44d3bdd8a6f1ae2a5ca417251736a033900d4c08 tests: acpi: add expected blob for DMAR table
+c5a7baad2997091c48ec40a2a8efa63f18f9b3b7 tests: acpi: whitelist expected blobs for new acpi/q35/ivrs testcase
+a4c730cbb284479ec2f7799bbbd7521525553593 tests: acpi: add testcase for amd-iommu (IVRS table)
+ef422a14226fd0078bdf61657fdd63099cb49099 tests: acpi: update expected blobs
+709611cb23cc677fa0c2d4de76a21c24baefe9a0 tests: acpi: arm/virt: drop redundant test_acpi_one() in test_acpi_virt_tcg()
+07e6ed2c79b311aad4d2c87740753752ad1503ba tests: arm-cpu-features: use qtest_has_kvm() API
+b72c76033de766d4ff891c582514caf12edbbfb4 tests: migration-test: use qtest_has_accel() API
+220ffd949bf2c157665905f7744bdbf201333e1f tests: bios-tables-test: use qtest_has_accel() API to register TCG only tests
+c64038c93e171697058d96871f87a4438b613662 vdpa: Skip protected ram IOMMU mappings
+032e4d686e9c6f8ae3b9206c720ae3614e28d8a3 vdpa: Add vhost_vdpa_section_end
+013108b6e51e1c10b78859e2e091202364aa7a7d vdpa: Check for iova range at mappings changes
+819bbda81fd6a08bea79d56a6ca27092ec29719b virtio-iommu: Remove the non transitional name
+19d20e910a586f503994acf590d5f41c314fa4c3 virtio-iommu: Drop base_name and change generic_name
+6889eb2d431ae962e3e083b57bff47cd573cb1c4 libvhost-user: fix VHOST_USER_REM_MEM_REG skipping mmap_addr
+821d28b88f850e5fbc66ee62bdd155eb2d474a29 vhost-user-rng: Add vhost-user-rng implementation
+c7160fff7d48cead5d673ef2032b60c363c84e27 vhost-user-rng-pci: Add vhost-user-rng-pci implementation
+c47d4fa0c8f0a28614cc0ce849dc9bbaa5c6878f docs: Add documentation for vhost based RNG implementation
+a1ed9ef1de87c3e86ff68589604298ec90875a14 vhost-user: fix duplicated notifier MR init
+7fe7791e3f652ac31ef98dcc94a8f2a317ab846b failover: fix a regression introduced by JSON'ification of -device
+515efffc2fd0928317a0a1ec47b28a972c40ddad vhost-user-blk-test: pass vhost-user socket fds to QSD
+bcfc906be47a88803307cd6b665dc4c26fdd6dd2 qdev/qbus: remove failover specific code
+313fd4d66c21574778d90052f3513d5b6ffe5f9b hw/qdev-core: Add compatibility for (non)-transitional devs
+65343875448ab44dcfc223ca19e6cc6206c34217 rebuild-expected-aml.sh: allow partial target list
+d5ea49a90d5566dd8a9521d9d823dcb23b171e19 bios-tables-test: don't disassemble empty files
+92b9bffd69e7fdaae996ef0f49f2f86d0e553b34 vhost-vdpa: open device fd in net_init_vhost_vdpa()
+39b7b88d15d61e6516c55ad55ba5095d570e37a1 vhost-vdpa: classify one time request
+1e294517c319d5cec46babea5a8e7f1e98b35bd3 vhost-vdpa: prepare for the multiqueue support
+c10645b6d900bb33c8352bb59fdf3cd31f24c456 vhost-vdpa: let net_vhost_vdpa_init() returns NetClientState *
+37f756f414a4d52d6baa8c03a06b89d8c94bcb2d net: introduce control client
+53c187ff9bd7fe51953b41643f2cb7b3b519af40 vhost-net: control virtqueue support
+3e9d8e38b94b2d249ad908a2f63c66570bc6e26e virtio-net: use "queue_pairs" instead of "queues" when possible
+f9aa999da3b03c62498fc7b490a27e4bf555c449 vhost: record the last virtqueue index for the virtio device
+5577d6aae3a0d1d910026cad322bed00dadd911a virtio-net: vhost control virtqueue support
+32b7d80c5303529f3aa6a380dc25fcf321a472bf vhost-vdpa: multiqueue support
 
-f6b016a9d961296d2db609d0259654371625e22e 2760370b164918bd9311e6bf445cf4c118d3463c refs/heads/linux-4.14.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFv1oUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QpwQALEjUhRuy4Pia0apSQF8
-XU9KOfbVShxV0nmUbZKSO5LY5EWpP0NgYCzqAqZhwDJsjR+t92VV7yOIQD0HURQP
-mX5Z2JNJ8nzOJS67+C8/LrttsCdqST5dccqUdr4ppM8jjbo98Y2gJuyP8JWiWP5l
-BfG3Jw7gRiKSMpTiyNV1opxE5CjSoJbuR9jDKUiU8BkuN5qeaD1LG85zdtZIzrsf
-UA62OQKyuk4Z4xaZ/qlrl62GdcSDRpABCvCSSnCnrzf8ynzIRI3tzZVIZx9NGj8B
-bWq6lbbBb8BNpLEvTXTe6TZ7DITY4gstr266OXJ7+0b12Xh+CE6Z+FT5ZzGPuyCO
-artrC/WIiCt3C0e91H+YrxenuNZbM/eyG/7HFrrRqce2CWmHK9sjV6j7lgi9WgCm
-FQkrhfSSuLMTWsn7WJm/ybdyeanrfmhazU0LV/wWFaWf417hlMVkNLyLIwIUnxfG
-6H9F2d5yxCozR0EdVyaecSCquaQMWiUh4WFPfq+KwZyI1GYkyY047GtHwOPmqhnm
-wMebYYeU++ibXPYL1jK94fmv/oDARHVmpMaPxX6kzgj/8bkpZeBiBVNFv+Vu4D9a
-xabLyAj6hqiRuQOQ+0ydWMHFV49OBBUhLff/hr9swkajJiZ7A2ZNxzWMkp66OPYD
-vv3k1GNSif7+P4eeuJQqCO5q
-=TrWc
------END PGP SIGNATURE-----
-
---===============0340307686737811921==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6b016a9d961-2760370b1649.txt
-
-e131e0e880f942f138c4b5e6af944c7ddcd7ec96 stable: clamp SUBLEVEL in 4.14
-fd49da93654a5979f8fb17dc478a827fea2e5846 ALSA: seq: Fix a potential UAF by wrong private_free call order
-12d9315b0faa56ff788e280a6c2a34fa049a2d89 s390: fix strrchr() implementation
-861e5f03ab5455f2b750097830fa1c14cf4f8cad btrfs: deal with errors when replaying dir entry during log replay
-d096ad57ebcd136cf59e5242e7040809e75e2fd6 btrfs: deal with errors when adding inode reference during log replay
-f418475b74b8191b389f2eea387823142940fa4d btrfs: check for error when looking up inode during dir entry replay
-22bcb65ea41072ab5d03c0c6290e04e0df6d09a0 xhci: Fix command ring pointer corruption while aborting a command
-bf979fa5d0eb8345a48f577a53abc74374fa213f xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-cf79c98d528ee1b7c3b4e915fff434f6192664e0 cb710: avoid NULL pointer subtraction
-f2f5f0fe1a5770d98374916575e56842f8a550fd efi/cper: use stack buffer for error record decoding
-2d1792c078cd1b9f28ee3c7d3f1f8c2087ea39fd efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-5ed60a430fb5f3d93e7fef66264daef466b4d10c usb: musb: dsps: Fix the probe error path
-2019df031a4559fedcddd45610d7e5b851621963 Input: xpad - add support for another USB ID of Nacon GC-100
-1fe3573eba37525c82de85cb53b505d352a16a2e USB: serial: qcserial: add EM9191 QDL support
-83f380ece7079ceb23aeb23e29b95a6c799ed92d USB: serial: option: add Quectel EC200S-CN module support
-8915d2f489a914d95c91f8814facef9d8ae29ea9 USB: serial: option: add Telit LE910Cx composition 0x1204
-89235f4dc278126f83832d1dd7dcbc1c6e657085 USB: serial: option: add prod. id for Quectel EG91
-f5c147c0d9c0da96f26b9e0cf74d9a6d6bf265c7 virtio: write back F_VERSION_1 before validate
-2df6c023050205c4d04ffc121bc549f65cb8d1df nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-8f9527414867764018639968df457a1a26aec1e1 x86/Kconfig: Do not enable AMD_MEM_ENCRYPT_ACTIVE_BY_DEFAULT automatically
-b867607cf56f65db3242a0cd1a61f27783ddda0c iio: adc: aspeed: set driver data when adc probe.
-42518695ad9c65b5605634f4270ca9a53f329890 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-8bd6227e76bebbae3134e67d27b20fc0657c28b7 iio: light: opt3001: Fixed timeout error when 0 lux
-00b43c97840b6fd57ed9a92c16e336bf08471de1 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-d3bfe6035324a56dfdfb6ba9a2c87daf17d1bbd0 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-41f0bcc7d9eac315259d4e9fb441552f60e8ec9e sctp: account stream padding length for reconf chunk
-4ccf43a62c63937dc4f8587f22aa4e6d72728be6 net: arc: select CRC32
-d2397d19f4386d31a130d28e2ce5efcc0a693bcb net: korina: select CRC32
-fddc7f678d7fb93caa0d7bc512f968ff1e2bddbc net: encx24j600: check error in devm_regmap_init_encx24j600
-00f1d84844d42531611c97081ec2097644f18319 ethernet: s2io: fix setting mac address during resume
-2b7b36a24713a1ab0cd53032e0199d5dbeef71d0 nfc: fix error handling of nfc_proto_register()
-b7b023e6ff567e991c31cd425b0e1d16779c938b NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-fcce6e5255474ca33c27dda0cdf9bf5087278873 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-606fe5fbff23edfd478dcbd6caab4f80bc76a181 pata_legacy: fix a couple uninitialized variable bugs
-0cd063aa0a09822cc1620fc59a67fe2f9f6338ac drm/msm: Fix null pointer dereference on pointer edp
-2590ac875a4e45023b5c57aaf0a828056394a453 drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-b493e891a274b64af1da940a42fb050dd631918c acpi/arm64: fix next_platform_timer() section mismatch error
-1bb18987cadeb7cd455aa98e4ec6bc360df286de qed: Fix missing error code in qed_slowpath_start()
-d955af66d2a8a27cebd897d3e30724fba71625cb r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-2760370b164918bd9311e6bf445cf4c118d3463c Linux 4.14.252
-
---===============0340307686737811921==--
+--===============7417195355479846767==--
