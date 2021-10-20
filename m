@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 20 Oct 2021 14:40:08 -0000
-Message-Id: <163474080852.8726.3629921496023689665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 20 Oct 2021 14:43:39 -0000
+Message-Id: <163474101952.9839.18192259950339054059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/review-hans
-    old: 5ecc1e94782218b77b9bf7ae8ac53990f5ca4a7a
-    new: 86af1d02d458379ae53031fabad560f10f8bdadd
-    log: |
-         86af1d02d458379ae53031fabad560f10f8bdadd platform/x86: Support for EC-connected GPIOs for identify LED/button on Barco P50 board
-         
+  - ref: refs/heads/drivers/reset-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 3ad60b4b3570937f3278509fe6797a5093ce53f8
