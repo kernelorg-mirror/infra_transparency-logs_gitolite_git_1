@@ -1,16 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 20 Oct 2021 15:49:21 -0000
-Message-Id: <163474496109.20021.10502706915058475951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Wed, 20 Oct 2021 15:50:50 -0000
+Message-Id: <163474505022.22099.365261040331597738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/drivers/optee
-    old: 0000000000000000000000000000000000000000
-    new: 4615e5a34b95e0d81467f6d2176f19a5d184cb5d
+  - ref: refs/heads/ucount-fixes-for-v5.15
+    old: 346b5b4aa65689b3b6ec595dba14d2fcf6b6dfb4
+    new: 5ebcbe342b1c12fae44b4f83cbeae1520e09857e
+    log: |
+         5ebcbe342b1c12fae44b4f83cbeae1520e09857e ucounts: Move get_ucounts from cred_alloc_blank to key_change_session_keyring
+         
+  - ref: refs/heads/ucount-fixes-for-v5.16
+    old: 255850e1d2c110ab3500015a0fa00f4caba65e89
+    new: 32342701b4ba57a6fd77e8aca2f65f68c0fa1da6
+    log: |
+         5ebcbe342b1c12fae44b4f83cbeae1520e09857e ucounts: Move get_ucounts from cred_alloc_blank to key_change_session_keyring
+         99c31f9feda41d0f10d030dc04ba106c93295aa2 ucounts: In set_cred_ucounts assume new->ucounts is non-NULL
+         5fc9e37cd5ae762b856912cdedb226a884b3c3e0 ucounts: Remove unnecessary test for NULL ucount in get_ucounts
+         da70d3109e74adf6ae9f8d1f6c7c0c9735d314ba ucounts: Add get_ucounts_or_wrap for clarity
+         32342701b4ba57a6fd77e8aca2f65f68c0fa1da6 ucounts: Use atomic_long_sub_return for clarity
+         
