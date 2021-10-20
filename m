@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6329431879354685617=="
+Content-Type: multipart/mixed; boundary="===============1607505802071418316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 20 Oct 2021 14:03:51 -0000
-Message-Id: <163473863129.17638.11267269210767470032@gitolite.kernel.org>
+Date: Wed, 20 Oct 2021 14:04:33 -0000
+Message-Id: <163473867319.17957.279495474973299813@gitolite.kernel.org>
 
---===============6329431879354685617==
+--===============1607505802071418316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 0f1f557263856d23d2dd4bb8c9ba8f42f02feaf5
     new: 5a6f572f84d8bac2adfd66336f3b9ae32f269d58
     log: revlist-0f1f55726385-5a6f572f84d8.txt
 
---===============6329431879354685617==
+--===============1607505802071418316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -356,4 +356,4 @@ b56d2795b29792c465cc8ef036abad5127a003fb x86/fpu: Replace the includes of fpu/in
 e4c9e8ff548402844cf7da2bcf3b7c361a4b39e3 Merge remote-tracking branch 'tip/sched/urgent' into tip-master
 5a6f572f84d8bac2adfd66336f3b9ae32f269d58 Merge remote-tracking branch 'tip/x86/fpu' into tip-master
 
---===============6329431879354685617==--
+--===============1607505802071418316==--
