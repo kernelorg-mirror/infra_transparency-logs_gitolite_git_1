@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 20 Oct 2021 13:38:23 -0000
-Message-Id: <163473710376.991.10115293180244786914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 20 Oct 2021 13:39:30 -0000
+Message-Id: <163473717033.1420.802316149792259578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: cd4bc63de774eee95e9bac26a565cd80e0fca421
-    new: 2641b62d2fab52648e34cdc6994b2eacde2d27c1
-    log: |
-         2641b62d2fab52648e34cdc6994b2eacde2d27c1 phy: micrel: ksz8041nl: do not use power down mode
-         
+  - ref: refs/heads/rockchip/dt-2
+    old: 0000000000000000000000000000000000000000
+    new: 97ef6931208f7ab09f52dd291320aa53878aaa53
