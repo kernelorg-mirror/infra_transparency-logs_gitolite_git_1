@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8143710198357018860=="
+Content-Type: multipart/mixed; boundary="===============1136744865677422517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 20 Oct 2021 17:36:55 -0000
-Message-Id: <163475141597.16228.4953806560427576995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 20 Oct 2021 17:37:39 -0000
+Message-Id: <163475145936.16514.1011748435955772405@gitolite.kernel.org>
 
---===============8143710198357018860==
+--===============1136744865677422517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 5978d492f04746d2cbf486c62dc466f43e60805f
-    new: 573c79e42d4095097fd45a5e8bc6fcc339f69f66
+  - ref: refs/heads/usb-testing
+    old: 99984b081f99ca30bbbebe5490a8328b0a212931
+    new: b851f7c7b8fd5365e447bb60e1e18eb6de628507
     log: |
-         c052cc1a069c3e575619cf64ec427eb41176ca70 staging: rtl8712: fix use-after-free in rtl8712_dl_fw
-         26f448371820cf733c827c11f0c77ce304a29b51 staging: r8188eu: fix memleak in rtw_wx_set_enc_ext
-         cf8f6446bb9f031d89f54184c23c9fd16574415d staging: rtl8723bs: core: Remove true and false comparison
-         1263c10cdc55551e62c44c001bbbbd4fef2f2422 staging: vt6655: Rename `by_preamble_type` parameter
-         573c79e42d4095097fd45a5e8bc6fcc339f69f66 staging: vt6655: Rename `dwAL2230InitTable` array
+         b851f7c7b8fd5365e447bb60e1e18eb6de628507 usb: dwc3: gadget: Change to dev_dbg() when queuing to inactive gadget/ep
          
 
---===============8143710198357018860==
+--===============1136744865677422517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634751414 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634751413-5e43589348c8e69b8fc7d4f3fe29f0e999cba55d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634751457 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1634751457-a209d4aa70a0f97fc6d52c6d28b2941e084cc663
 
-5978d492f04746d2cbf486c62dc466f43e60805f 573c79e42d4095097fd45a5e8bc6fcc339f69f66 refs/heads/staging-testing
+99984b081f99ca30bbbebe5490a8328b0a212931 b851f7c7b8fd5365e447bb60e1e18eb6de628507 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwU7YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SLAQANME403vngTL4RX3TNPX
-KBsW7xxT6O6evuXcQuLaNpHox9Pu0h49r0e4wwI2T+G5JcH5rbn3fzcn2slxf4UQ
-IrocWHgJGCIVgupWAfcpKuIbdC+fS6qgzRMsHM+OsZEXyWoSOFqGoSqSyjLJmfO3
-PIfFtG5C1fIbH6a/4/wyvyjp1BQKjCa9lzS+qcnKT0qMcMopRHyzglP6R9nNy4uU
-ayDZJhYVUOP434uNzOHf0yog2aF35igRa3WbXIA4uubEWSwg+7kv/OlLAIpN9fHm
-EpljPUMfhfEQaKKcPG7dD0GTa5FT1Iqqy/DRRK6m3n4n7dNjbowE8+3rWSKEr6E+
-RMQNM6BF0E9z9c99Ijs9+GHOe0yp9l7lkwvBru7+EVtVpDGCe8GeN+NGpFstH3un
-3S/qdzGT9uv5Z9sJW2jtJU768DssYafLwz9JLCNeaiYPGOksTQWBv9+rsVATXWPB
-/yF3AUDaBxvTRvbTAqLhQebBLQzB8mS9FSouEgXORBXfepVKMvfr+LMb+uEX6rkw
-p12gnWVeem9m3W5golCXmpuKHen/LUirA01uMZuWLeXwI6YmScUQWb6V0Uz9lTyM
-K2brBP9ul6p3uztgfEnDi/rAIyS3dFx9Kluzd90utGUEDOILGp2csIafX0qCIYjO
-i5NvEibGRybHYZ5X3ll2FWhR
-=IHqJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwU+EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ab8P/313v6PA6/01YmSiAMcD
+O28mwc836CBm0kFfbhuszU8WeTR6XGOUlYa5ne7IbZEHLaZABXhlPbf7YBB3wZD0
+UB+HNBuor24cOwMPLVowb/+CSe74IQc6Ty8f2rISETzo+HxhANxtY/I8AxZIvrV7
+8nMXyeCCbusimoCPH3queweZ6Cefi1PPl2vVDlPqa+TaJatHbFM9lxw5Q30nj0Zx
+JDS/JWtiBvLn6G9f4hnQpCgv1cdM1QE6b/RNjTfBs2bmeyvm9O9/qI5nKt85v4iA
+guL7hf6/gbrJhT49xjqUfObr32U6/XL1qzrJdRQf5u9UdvmJzwkBhj/71JcJn1jB
+HkDpNfWq/NXxuY6UheoNlX6BZRyIrLeceRlquOB1osMljRXSAEO7SEhsJ4zmlh7I
+8ixv4NzQ2dVG8HucShFJ7kkApLi/F+7tzICufMLH8dfXQ6NR6uyd1VJ+JZvn7EPF
+riqylBbf76FXNdxv8Qgflyh/L9mgTW/AxzlWs1Z8kUf9cjvcIKFaWxdTtiyqExQP
+BGWRbiqRzItTcpa3TQ1w7l96GpShixNIT+DVbJP2bmMsnD6yhDCHY7hbVscjWDkr
+4kQpRalkBrtkhbJjjlNZhFyveUx8S1d8u0KiqobVIagmIAFaP5+PBP4uZN0Ud6ff
+MngtL/RpqLjST424bKmYzC9U
+=lDAy
 -----END PGP SIGNATURE-----
 
---===============8143710198357018860==--
+--===============1136744865677422517==--
