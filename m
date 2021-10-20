@@ -1,78 +1,104 @@
-Content-Type: multipart/mixed; boundary="===============5725524818326182464=="
+Content-Type: multipart/mixed; boundary="===============4189308318169048280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 20 Oct 2021 16:50:04 -0000
-Message-Id: <163474860455.28093.6206821619650319470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Wed, 20 Oct 2021 17:03:05 -0000
+Message-Id: <163474938522.2686.4501820856555449866@gitolite.kernel.org>
 
---===============5725524818326182464==
+--===============4189308318169048280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-5.15
-    old: 195f98fe9a0ec47358f32ef297e9874b0238809d
-    new: 4ea672ab694c23886b52e97cee10dea056e43e62
-    log: |
-         e139a1ec92f8dbaaa7380d7e7ea17e148d473d06 io_uring: apply max_workers limit to all future users
-         4ea672ab694c23886b52e97cee10dea056e43e62 io_uring: fix ltimeout unprep
-         
-  - ref: refs/heads/perf-wip
-    old: cfe144b6dc6fdc85b4360bdf96e60d513c828e5e
-    new: 56ade5dbdefd9117d6039db420565480fd329861
-    log: revlist-cfe144b6dc6f-56ade5dbdefd.txt
+  - ref: refs/heads/master
+    old: d9abdee5fd5abffd0e763e52fbfa3116de167822
+    new: 8e37395c3a5dceff62a5010ebbbc107f4145935c
+    log: revlist-d9abdee5fd5a-8e37395c3a5d.txt
 
---===============5725524818326182464==
+--===============4189308318169048280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfe144b6dc6f-56ade5dbdefd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a307e2abfc22880a3026bc2f2a997402b7c2d833 md: bcache: Fix spelling of 'acquire'
-0a2b3e363566c4cc8792d37c5e73b9d9295e075c bcache: reserve never used bits from bkey.high
-d55f7cb2e5c053010d2b527494da9bbb722a78ba bcache: fix error info in register_bcache()
-0259d4498ba48454749ecfb9c81e892cdb8d1a32 bcache: move calc_cached_dev_sectors to proper place on backing device detach
-7e84c2150731faec088ebfe33459f61d118b2497 bcache: remove the cache_dev_name field from struct cache
-0f5cd7815f7f4bb1dd340a9aeb9b9d6a7c7eec22 bcache: remove the backing_dev_name field from struct cached_dev
-00387bd21dac98f9e793294c895768d9e5441f82 bcache: use bvec_kmap_local in bch_data_verify
-39fa7a95552cc851029267b97c1317f1dea61cad bcache: remove bch_crc64_update
-4977e44673046707bc95ac70fdf11c5e65e2e410 Merge branch 'for-5.16/drivers' into for-next
-a214b949d8e365583dd67441f6f608f0b20f7f52 blk-mq: only flush requests from the plug in blk_mq_submit_bio
-dbb6f764a079d1dea883c6f2439d91db4f0fb2f2 blk-mq: move blk_mq_flush_plug_list to block/blk-mq.h
-b600455d84307696b3cb7debdaf3081080748409 block: optimise blk_flush_plug_list
-008f75a20e7072d0840ec323c39b42206f3fa8a0 block: cleanup the flush plug helpers
-8b8fd7d5f797851212e067ec0fb56d578fdcccdd Merge branch 'for-5.16/block' into for-next
-13ca63c11ddd3d005e302a2f1dd0fff664fea17a Merge branch 'for-next' into perf-wip
-2c610f917a2b73dea16d96ea6d819837a4505360 block: clean up blk_mq_submit_bio() merging
-e83c10db456e7e77d35252f21e4b0b6b3794caa3 block: optimise boundary blkdev_read_iter's checks
-e0f9295f74da939fb2ca1e5afa2de9bd3e2cd13c block: optimise blkdev_bio_end_io()
-d9208c77f5116a41a8e28be581e99f5752df9fcf block: add optimised version bio_set_dev()
-82c57cf7855dce42e6a54af309f92d125e7c3d41 block: add single bio async direct IO helper
-e9278cad3ba461965c5d40f994c5eb19424463a9 block: add async version of bio_set_polled
-5bc16c8c8419e77af5c1eaf7072ef092471f6b41 block: skip advance when async and not needed
-20455ec2bcb2ba612f139415a5d188b148221252 block: optimise blk_may_split for normal rw
-37eece8248e77c065ebc111673319b2cf9acd0ed block: optimise submit_bio_checks for normal rw
-dae0abead405e3fef8c750baa9da3bf80ba01c21 block: add rq_flags to struct blk_mq_alloc_data
-1785fc149d8bc468c69ee8790feba15433030768 block: pass in blk_mq_tags to blk_mq_rq_ctx_init()
-55712c785304c418cbabd87aa58a75c14602006b block: prefetch request to be initialized
-a2349ac40a6f1d0b52e105955e8218c72a057ceb block: re-flow blk_mq_rq_ctx_init()
-ea89d761b8649173fbb869a6dff9a45d846feb6a net: decouple skb_frag_t from struct bio_vec
-270c1821b3beb91d97c6421159c461c5b5d69dae block: add bvec_set_page() helper
-f892ed68818b972771772217a8e6f338af73b413 block: add a DMA field to struct bio_vec
-4fe4d4c972294d3a44860f14db43b271d048fb79 block: add mq_ops method for DMA mapping bvecs
-64caa4c96eeb72189ad5acba0d3f4c8fbd3579e9 io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-f9fbdd380cea96180cd1fc27630dd346da517a0f nvme: add support for pre-mapped IO buffers
-eb9862da77c7464bde105aa3e17735422b565cc6 block: switch to atomic_t for request references
-6cc34dd3a56176b458e8601a0d7f1ec9769cd7a9 nvme: don't copy fill bio_vec if we don't have to
-13d36b254231225fb2951760db53ca3e6e4ba18d block/nvme: submit batches of requests at once
-4d9f27685317b0a7da3a5950b9ba72af0639bd91 percpu_ref: percpu_ref_tryget_live() version holding RCU
-f1fadd8bdcb4ffc5111e248621baf7df60552f35 block: kill extra rcu lock/unlcok in enter_queue()
-1a0b549e15039828b156b148589c659106557c07 block: use cached bdev size in read_iter
-56ade5dbdefd9117d6039db420565480fd329861 fs: kill unused ret2 argument from iocb->ki_complete()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634749381 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1634749380-7d2c7dba6fb0f547d2e0eb58dfdbbf86f2c2c154
 
---===============5725524818326182464==--
+d9abdee5fd5abffd0e763e52fbfa3116de167822 8e37395c3a5dceff62a5010ebbbc107f4145935c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwS8UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aH8P/j0RfAtVsrkfmgyM9PoB
+LY/kOgFEFa6gt9Q9/BMRSm7w+Ryxk3Qu07pz0I4N7KzGg1sBAWasO+iM5BEH8AQr
+Gg5kilITXbA2Yu9+OiL7sE3kEItRmb3MNZxqG+rE9cJfO8hJfzOHoWMsaWCvQ5sh
+Nk9Xgbug0BS7E4FsWirjALwyheEVqUzAnaV+pqky2DfCVz0h6HYGkWjrAeiUHEWk
+E/Ed1ZYuV7ppv/9kG1muI4Trv0xkUuREeqabDuyWU766aCzhSlWKae20QEb6kfLz
+g9g/QbbuQpcrKIeC1wyL3fkRddHii+0irnZQ99LhlTJw/mUWs3vshnRp5LYBn6j+
+cEcRf8kWzBPlWJCQMrOsdUW1dlOY8i6qQpcONWFoMUfKdPxHVn+P7PE7AXjfSFRK
+KM5PlOr2qhwtp4ciGEb6fyDWxgucRsEXZdAnOK8oCy0kOt2MGXOkZTIt8QQ+tA2W
+h2GgZtCbZ14aVnFVa4jSs9gMQ+7og2vXaTFgP8onQV06ppBwsTRVoAcPH9VcAGbb
+nc/FaQzp9FcH5iSDwiXTOTL+2uD3pAjm7N9Z2mQBq/7fSFllduBHcNVI73jrw2mG
+1yX4lFx2fIbqO+MdkCG8aBq+vItFva/6nH/i5jLIdbIAszm4oHsMjZ9hND8/K3Lu
+ibs1OFrblRXonU7R/LFiIE4f
+=e+kk
+-----END PGP SIGNATURE-----
+
+--===============4189308318169048280==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d9abdee5fd5a-8e37395c3a5d.txt
+
+3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
+74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
+ceef3240f9b7e592dd8d10d619c312c7336117fa ASoC: pcm179x: Add missing entries SPI to device ID table
+0cc3687eadd0971d5d38ff90d14819d88f854960 ASoC: cs4341: Add SPI device ID table
+25b5476a294cd5f7c7730f334f6b400d30bb783d KVM: s390: Function documentation fixes
+42871e95a3afea8956d8cc567ea725b33a837775 ASoC: nau8824: Fix headphone vs headset, button-press detection no longer working
+2353e593a13ba76c82921940471ce442fe498927 Merge tag 'kvm-s390-master-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into kvm-master
+1d58a17ef54599506d44c45ac95be27273a4d2b1 KVM: arm64: Fix host stage-2 PGD refcount
+7615c2a514788559c6684234b8fc27f3a843c2c6 KVM: arm64: Report corrupted refcount at EL2
+6e6a8ef088e1222cb1250942f51ad9c1ab219ab2 KVM: arm64: Release mmap_lock when using VM_SHARED with MTE
+db0767b8a6e620b99459d2e688c1983c2e5add0d ASoC: wcd938x: Fix jack detection issue
+2577b868a48ef3601116908738efbe570451e605 ASoC: Intel: bytcht_es8316: Get platform data via dev_get_platdata()
+6f32c521061b704c0198be3ba9834f5a64ea5605 ASoC: Intel: bytcht_es8316: Use temporary variable for struct device
+10f4a96543b744c8cc7ef8b0799af21d911dd37d ASoC: Intel: bytcht_es8316: Switch to use gpiod_get_optional()
+c25d4546ca452b2e8c03bc735e4c65bc6dd751dd ASoC: Intel: bytcht_es8316: Utilize dev_err_probe() to avoid log saturation
+5af82c81b2c49cfb1cad84d9eb6eab0e3d1c4842 ASoC: DAPM: Fix missing kctl change notifications
+214174d9f56c7f81f4860a26b6b8b961a6b92654 ASoC: codec: wcd938x: Add irq config support
+c448b7aa3e66042fc0f849d9a0fb90d1af82e948 ASoC: soc-core: fix null-ptr-deref in snd_soc_del_component_unlocked()
+aa18457c4af7a9dad1f2b150b11beae1d8ab57aa ASoC: cs42l42: Ensure 0dB full scale volume is used for headsets
+6b9b546dc00797c74bef491668ce5431ff54e1e2 ASoC: wm8960: Fix clock configuration on slave mode
+22390ce786c59328ccd13c329959dee1e8757487 ALSA: usb-audio: add Schiit Hel device to quirk table
+aef454b40288158b850aab13e3d2a8c406779401 ALSA: hda/realtek: Add quirk for Clevo PC50HS
+3c414eb65c294719a91a746260085363413f91c1 ALSA: usb-audio: Provide quirk for Sennheiser GSP670 Headset
+d94befbb5ae379f6dfd4fa6d460eacc09fa7b9c3 ALSA: hda/realtek: Fixes HP Spectre x360 15-eb1xxx speakers
+019057bd73d1751fdfec41e43148baf3303d98f9 KVM: SEV-ES: fix length of string I/O
+e2b6d941ec3876d3c44b1dfed596a2cc78477da2 Merge tag 'kvmarm-fixes-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+eadeb06e7645f7a7ddbcfac39480be3892a60ae3 Merge tag 'asoc-fix-v5.15-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+4cce60f15c04d69eff6ffc539ab09137dbe15070 NIOS2: irqflags: rename a redefined register name
+fa13843d1565d4c5b3aeb9be3343b313416bef46 KVM: X86: fix lazy allocation of rmaps
+baa1e5ca172ce7bf9554070139482dd7ea919528 KVM: SEV-ES: Set guest_state_protected after VMSA update
+f7d8a19f9a056a05c5c509fa65af472a322abfee Revert "KVM: x86: Open code necessary bits of kvm_lapic_set_base() at vCPU RESET"
+9139a7a64581c80d157027ae20e86f2f24d4292c KVM: x86: WARN if APIC HW/SW disable static keys are non-zero on unload
+01c7d2672a84dbdfa8050d073c3ea466437578fd KVM: kvm_stat: do not show halt_wait_ns
+d61863c66f9b443192997613cd6aeca3f65cc313 KVM: VMX: Remove redundant handling of bus lock vmexit
+9f1ee7b169afbd10c3ad254220d1b37beb5798aa KVM: SEV-ES: reduce ghcb_sa_len to 32 bits
+ed65df63a39a3f6ed04f7258de8b6789e5021c18 tracing: Have all levels of checks prevent recursion
+6e3ee990c90494561921c756481d0e2125d8b895 audit: fix possible null-pointer dereference in audit_filter_rules
+29664923725a384dc7e0f74af7c66e5ab7bb2a26 ALSA: usb-audio: Fix microphone sound on Jieli webcam.
+0afe64bebb13509ef9a4be9deb18286b4c052c93 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+1e59977463e9894e3d579d4e1e2a1dc81f456633 Merge tag 'nios2_fixes_for_v5.15_part2' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+fc9b289344b845576aedefe0691a4210987f3711 Merge tag 'trace-v5.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+6da52dead8f59fcf81e19ad3937d903a9b87e1de Merge tag 'audit-pr-20211019' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+8e37395c3a5dceff62a5010ebbbc107f4145935c Merge tag 'sound-5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+
+--===============4189308318169048280==--
