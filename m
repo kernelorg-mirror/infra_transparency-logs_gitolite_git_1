@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2753327669171741207=="
+Content-Type: multipart/mixed; boundary="===============6146990802247529038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 20 Oct 2021 18:21:22 -0000
-Message-Id: <163475408208.13541.1700433074894403931@gitolite.kernel.org>
+Date: Wed, 20 Oct 2021 18:21:33 -0000
+Message-Id: <163475409328.13671.9653140402023089899@gitolite.kernel.org>
 
---===============2753327669171741207==
+--===============6146990802247529038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: d49fe5e8151711ed5276f049bc7f73e02dc141f8
     new: 4225fea1cb28370086e17e82c0f69bec2779dca0
     log: revlist-d49fe5e81517-4225fea1cb28.txt
 
---===============2753327669171741207==
+--===============6146990802247529038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ adfb7b4966c0c4c63a791f202b8b3837b07a9ece net: hns3: fix the max tx size accordin
 3cb958027cb8b78d3ee639ce9af54c2ef1bf964f net: stmmac: Fix E2E delay mechanism
 4225fea1cb28370086e17e82c0f69bec2779dca0 ptp: Fix possible memory leak in ptp_clock_register()
 
---===============2753327669171741207==--
+--===============6146990802247529038==--
