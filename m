@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6660448171627433536=="
+Content-Type: multipart/mixed; boundary="===============1943000546556216975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 20 Oct 2021 11:28:07 -0000
-Message-Id: <163472928794.15044.8612646923867312245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 20 Oct 2021 11:28:14 -0000
+Message-Id: <163472929433.15162.6013728475522832642@gitolite.kernel.org>
 
---===============6660448171627433536==
+--===============1943000546556216975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: a79b02d5f24ffb2f963971eef4ef7222a0f31ab4
     new: 430415055348a0b0af712761b2ff65ec0a52a854
     log: revlist-a79b02d5f24f-430415055348.txt
 
---===============6660448171627433536==
+--===============1943000546556216975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634729286 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1634729285-0550beac666645485897ef31b6f79a6c39c71288
+pusher C3F436CA30F5D8EB 1634729292 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634729292-ef9c900e7a7d300ab2bfc1c8826dba956100b76b
 
-a79b02d5f24ffb2f963971eef4ef7222a0f31ab4 430415055348a0b0af712761b2ff65ec0a52a854 refs/heads/for-5.16
+a79b02d5f24ffb2f963971eef4ef7222a0f31ab4 430415055348a0b0af712761b2ff65ec0a52a854 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFv/UYACgkQJNaLcl1U
-h9DOFQf+O/5eS4liDrKydXajXzO3if2I9NUT2GNZl1kh2RoHHfc+YJl/l76VYetd
-nGJBU4ZdB622T8ok3o0ksD0cxivXCfNmmShAzLEcENXB24sZoMVn4zvwKDh8XLay
-UylYq1J0YbzPcxZrk0QuO/2OwOJtNnhdgf8hpCRXbDiQZuX/sogajtygN59ccnvh
-xrpgwM6nAqv/sLefHt980YbHCJQpEndiIcWAeZyJAhN8fpzI/WDFbTvDN55eMnVC
-U+bgkWC3VCxgjiKsKQlFVtK4ZxcIMFOUk6tPLRhveit2oQ4awvU11r45WlsWlOFR
-xozjc+Sdn3yEAXZSgWHXnFtCEnGWfA==
-=GPgB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFv/UwACgkQJNaLcl1U
+h9CEwwf/SuTBZsjYZ4C2hA5i1CElzcz8oXbafTVFxi87203LocWJefV+bcg96no6
+TASIkw6YJ8bxIPxOHNhc0zzbdkKKp/4c2mM7NsPr8kO5tKit5/RF3MZdXNIS9Vc2
+EwCoJletIgTQJjOGCjEIdXusbglEE2wOze51KJ2L96m5Ghrncnec8jfshur+NYPQ
+APTGzCC+777tV8xY5K3eQr4FVysxIAuJliPrK5bhMqQadha/9CWYMyftfr4YgKyS
+aPug6YTTbRcRJF189h8lqqcLt+1g9orrKPZbKcTIaL6/Hndux99AKxR1WRbBJYd7
+V8NfIyBezx49u+Ca7lp4Rrd422a02g==
+=c2N2
 -----END PGP SIGNATURE-----
 
---===============6660448171627433536==
+--===============1943000546556216975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -83,4 +83,4 @@ fdbd256175a1e11c1ba827112d56b9a3952e1219 ASoC: cs42l42: Set correct SRC MCLK
 bfceb9c2160109ef8c9305e0a726c7fe6cd9cd9e Merge branch 'asoc-5.15' into asoc-5.16
 430415055348a0b0af712761b2ff65ec0a52a854 Merge series "ASoC: qcom: sm8250: add support for TX and RX Macro dais" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
 
---===============6660448171627433536==--
+--===============1943000546556216975==--
