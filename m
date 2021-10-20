@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6152357829645883967=="
+Content-Type: multipart/mixed; boundary="===============3947465504006174043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Oct 2021 12:44:43 -0000
-Message-Id: <163473388368.30255.14731018919719011716@gitolite.kernel.org>
+Date: Wed, 20 Oct 2021 12:48:00 -0000
+Message-Id: <163473408048.336.12805002510494760564@gitolite.kernel.org>
 
---===============6152357829645883967==
+--===============3947465504006174043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,99 +16,103 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 2760370b164918bd9311e6bf445cf4c118d3463c
-    new: 01cf9424898ef63621f56a02985c2ab1bb0ace23
+    old: 01cf9424898ef63621f56a02985c2ab1bb0ace23
+    new: 63b8b635b6adc382e1581d726f48bae300cbe41e
     log: |
-         01cf9424898ef63621f56a02985c2ab1bb0ace23 btrfs: always wait on ordered extents at fsync time
+         63b8b635b6adc382e1581d726f48bae300cbe41e btrfs: always wait on ordered extents at fsync time
          
   - ref: refs/heads/queue/4.4
-    old: b43036a09d4dfd255f87e73555e9968231c58157
-    new: b1b3b30b6d85ddc388b00d9f8e60b9de33d50375
-    log: revlist-b43036a09d4d-b1b3b30b6d85.txt
+    old: b1b3b30b6d85ddc388b00d9f8e60b9de33d50375
+    new: 983816d1202951e5098f0d3dfafeb15d69c8f12f
+    log: revlist-b1b3b30b6d85-983816d12029.txt
   - ref: refs/heads/queue/4.9
-    old: 083b993818a5317ff541554a5c61a7a23bb9d2c9
-    new: 8dc6b98152d7cfa33061a94012dfe53ff19e2ce5
-    log: revlist-083b993818a5-8dc6b98152d7.txt
+    old: 8dc6b98152d7cfa33061a94012dfe53ff19e2ce5
+    new: 8cf2329facb7b743bc0cf49feec4de49449d3e55
+    log: revlist-8dc6b98152d7-8cf2329facb7.txt
   - ref: refs/heads/queue/5.10
-    old: c9254e790037cfa8a475a982446b19bf097e06a6
-    new: 53cc81819812f8b519db42012b9e9203548a26c6
+    old: 53cc81819812f8b519db42012b9e9203548a26c6
+    new: 0f88f3203a535d60467ce64e75e1205d09c5ece6
     log: |
-         53cc81819812f8b519db42012b9e9203548a26c6 parisc: math-emu: Fix fall-through warnings
+         551c5d9b3e70b6ec654215b14296ccff123fa383 parisc: math-emu: Fix fall-through warnings
+         e4a625e6a868a36c41f8a1a583475b44f53da802 xhci: add quirk for host controllers that don't update endpoint DCS
+         0f88f3203a535d60467ce64e75e1205d09c5ece6 io_uring: fix splice_fd_in checks backport typo
          
   - ref: refs/heads/queue/5.14
-    old: 76a854afb0a204fc1f56ca2c44d825eb3e223c53
-    new: 961fd0d3094710f7a96d1fd5e848ee45503a575a
+    old: 961fd0d3094710f7a96d1fd5e848ee45503a575a
+    new: 9e48bd4610e458d8d05f393af8d6ae6d25298f23
     log: |
-         ac23a70c67e3dd04c7234e32b8618d6260e43d64 block/mq-deadline: Move dd_queued() to fix defined but not used warning
-         de001658f4bb19423792448bd04f984c0c63c725 parisc: math-emu: Fix fall-through warnings
-         961fd0d3094710f7a96d1fd5e848ee45503a575a sh: pgtable-3level: fix cast to pointer from integer of different size
+         0ee37d3bc641a8cca5a00224c12690b1aeba9cfc block/mq-deadline: Move dd_queued() to fix defined but not used warning
+         4b3c0f7e1deb3eaea203d57aee2c61004205f762 parisc: math-emu: Fix fall-through warnings
+         9e48bd4610e458d8d05f393af8d6ae6d25298f23 sh: pgtable-3level: fix cast to pointer from integer of different size
          
   - ref: refs/heads/queue/5.4
-    old: d624e844445384b8dbf3a070bc156876dba71da6
-    new: deb85c47ec1fc359c8fe69401594fa8661cc6ff7
+    old: deb85c47ec1fc359c8fe69401594fa8661cc6ff7
+    new: eac33b1d5763dbc7af633a91d2ab185162995ee8
     log: |
-         deb85c47ec1fc359c8fe69401594fa8661cc6ff7 parisc: math-emu: Fix fall-through warnings
+         4060d203182aa48830bed00749ffd1e74fd12074 parisc: math-emu: Fix fall-through warnings
+         c3dcb5e06344ccda06dc98f7c644136a5a61462e net: switchdev: do not propagate bridge updates across bridges
+         eac33b1d5763dbc7af633a91d2ab185162995ee8 tee: optee: Fix missing devices unregister during optee_remove
          
 
---===============6152357829645883967==
+--===============3947465504006174043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b43036a09d4d-b1b3b30b6d85.txt
+Content-Disposition: attachment; filename=revlist-b1b3b30b6d85-983816d12029.txt
 
-adc13bf643e208c7b329d810b1bc34ac28edc8b4 ALSA: seq: Fix a potential UAF by wrong private_free call order
-0c7b0ee526b5b6a0ba2a7451538afc0cece3e862 s390: fix strrchr() implementation
-3a16a841b29f14948bbd49b6b6db2f280200ebc0 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-eddb4d747ff049f4e890cc9d7dc7b70d80edb1e2 cb710: avoid NULL pointer subtraction
-4481f675d9c3849c16981425da492d7536362692 efi/cper: use stack buffer for error record decoding
-92f5a8f866d453a34da7b3adb4a570b9bfee2ba0 Input: xpad - add support for another USB ID of Nacon GC-100
-ea205e39345a8889f6406766336d214b513b0140 USB: serial: qcserial: add EM9191 QDL support
-16579cae674f2e5f0e150af423dcfbe0cb5fa1af USB: serial: option: add Telit LE910Cx composition 0x1204
-9a92c0092507989476d1b7a8e1d6ea30275bba72 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-44453d319386c5393dbff82a47c2b034ac8c4e6d iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-b7b954837eea82c57eabee82921cbbebf887447a iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-d8446ecf56eff0c45f3764f5d70929b13d8d697d iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-152d7a9f5016a255aa2e2b1b92a689e7379b3174 net: arc: select CRC32
-5235b5745b61c0287ef7a7860c98a6b633938b90 net: korina: select CRC32
-d5d7c60aca1f58a421f2293d79f3b895293ca8a8 net: encx24j600: check error in devm_regmap_init_encx24j600
-432dacd5d6d42654c586e6e7869ad216214ba3d9 ethernet: s2io: fix setting mac address during resume
-8037bf8febb491c03ec5ed52d20f0daef3d0f5dc nfc: fix error handling of nfc_proto_register()
-d100344fd747820a88ff2170fb375fedb42e074b NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-a3fb2c0ef08a615287fdc1ad57fc611e6210bf0d NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-fa6ab53885e3fa0fe551eb025257fee5058e57bb pata_legacy: fix a couple uninitialized variable bugs
-2bc227bd0209fa399d1b5ea3572a0da4ea57eb0c drm/msm: Fix null pointer dereference on pointer edp
-b1b3b30b6d85ddc388b00d9f8e60b9de33d50375 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
+6b71812ab1d0c34b4053edefa1368fbc3f4ab3c7 ALSA: seq: Fix a potential UAF by wrong private_free call order
+620541ba8e1a0a07a49dcc23ea85a8d7e5a53b5d s390: fix strrchr() implementation
+9f49e683eac2d25403fcaedca2de3afbff3fb5dd xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+d4e4014cec047e9359340373e4bbc1e058f7f71b cb710: avoid NULL pointer subtraction
+e6baf420520445f41215fee64436c99ff1736f3b efi/cper: use stack buffer for error record decoding
+f824e0e215a85706d9ca1ecb2f7433bddcc9bb5b Input: xpad - add support for another USB ID of Nacon GC-100
+c793af8085897c3bcf22f9e1144cd69d21e35be5 USB: serial: qcserial: add EM9191 QDL support
+7caa849dafebc028ccb0961b83017834225b6bca USB: serial: option: add Telit LE910Cx composition 0x1204
+cee435836eef53fddabefa9afa34db71ceb576bd nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+e57d2a84be6d1827fd8fe27c4569822965ba4325 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+06af4f351f755dc9669b2a07781ecc46d1af501e iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+d8dee39c219bc7b9073b7d48257a2ce729f16ac2 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+0a8bc3a4e345c79cbee9851a285e21b88b714045 net: arc: select CRC32
+bc836b433fe6289b8c338600b3cb81c1347992bf net: korina: select CRC32
+ddceda98776cdfb2e7da0d5799b2a67bd9891c40 net: encx24j600: check error in devm_regmap_init_encx24j600
+9692aa96685440b20e033be393294e8e1f85e426 ethernet: s2io: fix setting mac address during resume
+9a72dbb663eb3248f8581f142aea8342f4176bb5 nfc: fix error handling of nfc_proto_register()
+2376960b9c2610582550aba674d73c4ea60c4514 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
+cebcc097c57fe8c7daa9771abe0f25ae2c7f10b9 NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
+a5a2d0a533eafb8944307ce8c2076a3a8af20680 pata_legacy: fix a couple uninitialized variable bugs
+a571087118c17034e3ac456206a0ba7e5f99bfd0 drm/msm: Fix null pointer dereference on pointer edp
+983816d1202951e5098f0d3dfafeb15d69c8f12f r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
 
---===============6152357829645883967==
+--===============3947465504006174043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-083b993818a5-8dc6b98152d7.txt
+Content-Disposition: attachment; filename=revlist-8dc6b98152d7-8cf2329facb7.txt
 
-9343a68cb51be318f57445b180a664690cfe410a ALSA: seq: Fix a potential UAF by wrong private_free call order
-a55023eadf9bd266ecf7bdb0d7a190543f822522 s390: fix strrchr() implementation
-708d6e665cc1955695dff7ecb04faddb7f27d9ee xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-b5598c291aae636e52aeb63fc66fa79389dbba92 cb710: avoid NULL pointer subtraction
-d166285bc8761bf8fbef033cec7b512a05dd0abc efi/cper: use stack buffer for error record decoding
-47a49683c9fa5b3c9c556a387ca3e9451a2ccff8 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-a4eb00fb14ef746d61526e13b0addae1392b3677 Input: xpad - add support for another USB ID of Nacon GC-100
-dda99878820069e14a484059e0b2de75602fd37d USB: serial: qcserial: add EM9191 QDL support
-0a58471b92198bc7321dc36d8da9f36041bf4a23 USB: serial: option: add Telit LE910Cx composition 0x1204
-7ca7dedc2c057f6735d984bd8847c52f5f568a62 nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-7295dc096ccfba889b00a985ac417577b14e09dd iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-ceacd4aa83ec7d27ad4781e4eef06fe85f055ed5 iio: light: opt3001: Fixed timeout error when 0 lux
-7c6db832486017bb11864eb18a05d08aa9f9786c iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-1da0a45c58a105aa41acda285d3f38a3f01cb298 iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-7fd82ef60e7c3098cd7e5f553e0815eb1916b3a4 net: arc: select CRC32
-a6542a8ca0e7307f2c77083a23a1dbc708d5e7ca net: korina: select CRC32
-33f3c26c2957b68412addad8761cd696b0e2953c net: encx24j600: check error in devm_regmap_init_encx24j600
-e184298989561e4840f218d3578872b0b97c0386 ethernet: s2io: fix setting mac address during resume
-1f31b1e86756fc76de7b73b9b731409f550ab3c7 nfc: fix error handling of nfc_proto_register()
-43b861a4f224aeb1f184bda5357f08637f42870c NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-ce7455f946559551a8f6d39d272942507cf96aaa NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-7a2e65fc53cc055c419c82f714f44fd5a1310b30 pata_legacy: fix a couple uninitialized variable bugs
-f1259d94caaac93d1e5abe969811008c7c3b4790 drm/msm: Fix null pointer dereference on pointer edp
-da4d1d2ff3b076f9837f7607c919a9328111dd7a drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-8dc6b98152d7cfa33061a94012dfe53ff19e2ce5 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
+5135242a450ec30afb963b7322738eea8c4ead02 ALSA: seq: Fix a potential UAF by wrong private_free call order
+80cbb70867ebfb1cd799436ca0bfee74bf13c828 s390: fix strrchr() implementation
+7172949d7f9d64edcfb08cfb79c04c5518dc3298 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
+c90b6e655429c40745da83ad7ef68263450b9d7f cb710: avoid NULL pointer subtraction
+848062ec78575aa67f6296a8abd5415a9fbf42ed efi/cper: use stack buffer for error record decoding
+c88afcbaad84013c5ec703da79e0a1a54f1e9d44 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
+d84b935bcabce2b47610dbf3a542debc8a401451 Input: xpad - add support for another USB ID of Nacon GC-100
+caa1b838cb60887ac16d95bfe491d72f00ebb898 USB: serial: qcserial: add EM9191 QDL support
+8f94c540055273c6a2cde57119d0793663fa3c8b USB: serial: option: add Telit LE910Cx composition 0x1204
+c1e11639e1e589892b14bf966af2004a8a580cbe nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
+c1af15198f064e601b699d08a0b9e365869021f0 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
+ee6e8c7202ba53313b4216debea824e93a94cb49 iio: light: opt3001: Fixed timeout error when 0 lux
+e41b6c1c62acc1f23ba37b767c844ec2a9984cfb iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
+9fe37c54d684e155f56769eb77b74f3b12c95a1f iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
+f4e4c88d0365ee329c5eb0f248d2cd3552779af1 net: arc: select CRC32
+8b448e6131b6eaf52f91a6e50a730677b0fe2cf9 net: korina: select CRC32
+2f98a9fdc816d3c65603ed83b88092f8249297f0 net: encx24j600: check error in devm_regmap_init_encx24j600
+b8b8c6b5f3203277c5ef8de113e63ad1ce6466e6 ethernet: s2io: fix setting mac address during resume
+f43678cac09fabbe0a38dccb4684ba4299a04f3c nfc: fix error handling of nfc_proto_register()
+79e3e50d7bb05ea5143158b26e60c24026257717 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
+191f55dc6d999f574289c9e8179430061b68864e NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
+3e6902b172772b072cc82e02658c360e60a9a6cc pata_legacy: fix a couple uninitialized variable bugs
+1ced9090a4793e261cd786d1bd35b2d2780500db drm/msm: Fix null pointer dereference on pointer edp
+fbcbc83b6d4c3ab174efa8cf159d880ba2deec7d drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
+8cf2329facb7b743bc0cf49feec4de49449d3e55 r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
 
---===============6152357829645883967==--
+--===============3947465504006174043==--
