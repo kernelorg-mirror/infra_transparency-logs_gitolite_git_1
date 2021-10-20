@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7631726139390881042=="
+Content-Type: multipart/mixed; boundary="===============4973658269535113726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 20 Oct 2021 17:33:08 -0000
-Message-Id: <163475118836.13435.493307305230182400@gitolite.kernel.org>
+Date: Wed, 20 Oct 2021 17:35:03 -0000
+Message-Id: <163475130315.14756.13682771144681547985@gitolite.kernel.org>
 
---===============7631726139390881042==
+--===============4973658269535113726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,49 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: d9f32a101e431bfb3adc96a5647d85e5fe3a661e
-    new: 07e00148a2ee505205e239b7cf6fd103f0f87789
+    old: 07e00148a2ee505205e239b7cf6fd103f0f87789
+    new: 5978d492f04746d2cbf486c62dc466f43e60805f
     log: |
-         a35ff2f4888794240f51e7a61285ec1d59f986e9 staging: r8188eu: remove duplicate structure
-         b670be54c4a5ee9a4044202ee838536067082505 staging: r8188eu: BTRxRSSIPercentage is set but never used
-         ea49ef360b0a3f901c39d3d1b70c0be7fb7576ae staging: r8188eu: rename ODM_PhyStatusQuery_92CSeries()
-         4f276b3a35a767e494d2e83faa034404c32547fe staging: r8188eu: remove unused cases from ODM_CmnInfo{Hook,Update}
-         7b2f8ee2fe6ca9328393901db99d3a95303d04cb staging: r8188eu: remove unused fields from enum odm_common_info_def
-         b7a96e0d4018bec7572319c0b0e967ef488c0a33 staging: r8188eu: remove unused enums and defines from odm.h
-         07e00148a2ee505205e239b7cf6fd103f0f87789 staging: r8188eu: RFType type is always ODM_1T1R
+         6ed178cb23ec7503dd354c02c0c9ef97a6b8b22a staging: use eth_hw_addr_set()
+         349f631da4e1bdcb1b4a2a3ee630d689bfe6724d staging: use eth_hw_addr_set() instead of ether_addr_copy()
+         3928f64b1e473ec951cfbeac42634ff51d4f7f33 staging: use eth_hw_addr_set() for dev->addr_len cases
+         e7fd1a5a37f3f5b3bea255b10ed078221c907a19 staging: qlge: use eth_hw_addr_set()
+         d0cf28f1f5be5465e282538075566e510ee72493 staging: rtl8712: prepare for const netdev->dev_addr
+         13898e9341824f8d96cb37e5f36eb1828e9f2e63 staging: unisys: use eth_hw_addr_set()
+         e7c636f2bb50367581bec53782fb15ebf8648936 staging: rtl: use eth_hw_addr_set()
+         524b09ea34a44fc501edb82bb04cb52f464e96a1 staging: use eth_hw_addr_set() in orphan drivers
+         efbc7bd90f60c71b8e786ee767952bc22fc3666d staging: mt7621-dts: change palmbus address to lower case
+         5978d492f04746d2cbf486c62dc466f43e60805f staging: mt7621-dts: make use of 'IRQ_TYPE_LEVEL_HIGH' instead of magic numbers
          
 
---===============7631726139390881042==
+--===============4973658269535113726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634751186 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634751300 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634751185-1a25e859b2d9a8c48f4991f54840c123fdc1e240
+nonce 1634751299-7327730ef644dba9e00c276a59b827baa984db52
 
-d9f32a101e431bfb3adc96a5647d85e5fe3a661e 07e00148a2ee505205e239b7cf6fd103f0f87789 refs/heads/staging-testing
+07e00148a2ee505205e239b7cf6fd103f0f87789 5978d492f04746d2cbf486c62dc466f43e60805f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwUtIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PigP/RogItr64Wum5KKcQV5A
-kx5UcRE1U50bceNfWaEipeAy5Ve5YDxg7GhIxCXxGQduGwyFP9dIKOUrRxc8UoK3
-1HtrPBsFYBulSHxOAp4FtcjgDUnnt+XYOU9ubMiFLZ0w+yt8Lh1RLy7EAqgzazwB
-6F73LQ1i3BkEeXmiXV7BJBPjR/ZlX1XMIo60wwCaYspWrfarnrMNuQFuaQ9D4yZy
-AM+Ya3egVYfULb99dKvm2CWfdajdQ8WSq5oKWC2EJjkzYOrnqsnJOMAp/NfcFkwN
-Jm+EJzeOtatHapev2uo/KqZtIDQymFTDuZgs/xAJ96eWGsIgTarUQeHte8O+kcDj
-sureYk2DRm2BhtShWWTmKmGAMktEcUxZHB1Pw9BHOUKhqLyFILPo786R7DmFtIUR
-VldYLbA+22PGq1g5KFOvE7kD8HDojzXpdxpA9999mmh+KT5t+WUKzhl7eWTsQV21
-NOyZa4/wejxhbwd2UPNku/TtqP3xJekpRvJEDIE2UwLkl4jUUZq4JIzRU6boBPS+
-K5fTOOmbADQLCIFTk43QtRSjcz851QgDFr2iaeQ5YJUfqSu3mhq7oFQYHBRuUC4L
-lRJdLQJ8GU8hIRGacsfuPuPqbLu6uTC9Yq9d+GuQFbAx8hIVv21zM9zUu4wzjZ+t
-/eJ3byejkaOaDnTDkWddG8Mo
-=3Tha
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwU0QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zKMQAIhkrVbrf325d3hkauzr
+o80iCOB5LV1TYzmOIzWXYcphtOIUs/MPqqjZrf97yHYufh1f+LXlF607ZDtAGrVv
+rxdcJ5ythnfC8rWgQY+Tkf6tbz+PRDvDKFgSMHTsHNl+lSi21sBgRwXan/5sLhE5
+wBSuy8jo3/4coNqCA7/SZlMzZI3S+QeqNsvs/PZeyPtL57sLWvv9PekerYrcGwss
+lDay36BRlgtO+t/MmjD+cyE1xjagPItDQNxWY6AHltO6JMFaprGx52Mkt6Fi/qoe
+DzSCe4k+uW2sByD99ZJFxydGU+tBoZlkfdvYbz1Kvs6ekeHqyRKE5FMurSvOC0HL
+6o70FA8EUlJz/jlqK0QdgAR4GK0j+ieWevcrob921+chtnPffpFCEDw1ddaBM9Vi
+bSakQE4m/l0PiTnq+ZQLFhl9eIE8+yIossJolxIkcFD+xOEV213u674ylsQFYQyx
+XOYOLdaHkbyLBDeiA/p5rbtm4i+LUPgQCfDIlNE05IguyGhmhtWMikE/GkVzSltV
+r4zw1ch0vLX6W9ao8Mk758KUKueedSK3AXcT/Akk0t8QI7+YY+vN2SaqkS2eaIf6
+0l4qZno6nFH1E28RRRBUEuP+HUfvF5nKrivxwvl4RLyAagBc4WEHa144K6iuhkCt
+z8UACDy1um3mpKH+JFpEdPqp
+=h688
 -----END PGP SIGNATURE-----
 
---===============7631726139390881042==--
+--===============4973658269535113726==--
