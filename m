@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 20 Oct 2021 20:23:41 -0000
-Message-Id: <163476142100.25889.17832190845400092953@gitolite.kernel.org>
+Date: Wed, 20 Oct 2021 20:23:55 -0000
+Message-Id: <163476143541.26052.16865734850283753145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: ba6cf19bfa83d41e3383c1a70f45c63e20fc55c6
+  - ref: refs/heads/togreg
+    old: d8b2c7a7117160c2ecef944ff8c00b7ac91a2bf4
     new: ef226dcf3d88697a06335fbc55c4263ab164b135
     log: |
          7cde1f72a06b1931a6b079d1c7e1503a781553fd mux: add support for delay after muxing
