@@ -1,101 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============4171321362980335559=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 20 Oct 2021 12:25:57 -0000
-Message-Id: <163473275796.19876.2230569219558914101@gitolite.kernel.org>
-
---===============4171321362980335559==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 20 Oct 2021 12:26:15 -0000
+Message-Id: <163473277515.20037.16454248363503589225@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/tags/v4.14.251
-    old: 0000000000000000000000000000000000000000
-    new: 2510f869467368cde2cf0baeb08843a43ba10566
-  - ref: refs/tags/v4.14.252
-    old: 0000000000000000000000000000000000000000
-    new: dc185f53b0faebb1d73f386e0760b3ed3c267b5c
-  - ref: refs/tags/v4.19.212
-    old: 0000000000000000000000000000000000000000
-    new: 39986cd33d19a9dbc27e074c4941dac0e54c1fe2
-  - ref: refs/tags/v4.19.213
-    old: 0000000000000000000000000000000000000000
-    new: fe4a2492efc31abe865501dd4ed91c07b01627b5
-  - ref: refs/tags/v4.4.289
-    old: 0000000000000000000000000000000000000000
-    new: 427e56b97ce4e89c930f0157f1c34096e6c795ce
-  - ref: refs/tags/v4.9.287
-    old: 0000000000000000000000000000000000000000
-    new: e80f8b258cc3fd34df0e8a8a167131d2db77b8c0
-  - ref: refs/tags/v5.10.74
-    old: 0000000000000000000000000000000000000000
-    new: 7cfd1889d583ccceecf65846b073467cce961263
-  - ref: refs/tags/v5.10.75
-    old: 0000000000000000000000000000000000000000
-    new: 63c28652e29f957f49ff93302dd00ce9cfa3eb33
-  - ref: refs/tags/v5.14.13
-    old: 0000000000000000000000000000000000000000
-    new: 603d28fdab68f76a4a936b4cb24802f7441a17be
-  - ref: refs/tags/v5.14.14
-    old: 0000000000000000000000000000000000000000
-    new: 36fcffb8efe589795c29925ad0e97d7241b488f9
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.4.154
-    old: 0000000000000000000000000000000000000000
-    new: 2e79cf8c2c9a43cbd2d72eabbb8545b92b0a4ef1
-  - ref: refs/tags/v5.4.155
-    old: 0000000000000000000000000000000000000000
-    new: 124134091fc40ec11820417c0fce6f733cdcdbe9
-
---===============4171321362980335559==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634732754 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1634732753-105ca359d640bcf98bb2b6a4ec0b10daaa03356f
-
-0000000000000000000000000000000000000000 2510f869467368cde2cf0baeb08843a43ba10566 refs/tags/v4.14.251
-0000000000000000000000000000000000000000 dc185f53b0faebb1d73f386e0760b3ed3c267b5c refs/tags/v4.14.252
-0000000000000000000000000000000000000000 39986cd33d19a9dbc27e074c4941dac0e54c1fe2 refs/tags/v4.19.212
-0000000000000000000000000000000000000000 fe4a2492efc31abe865501dd4ed91c07b01627b5 refs/tags/v4.19.213
-0000000000000000000000000000000000000000 427e56b97ce4e89c930f0157f1c34096e6c795ce refs/tags/v4.4.289
-0000000000000000000000000000000000000000 e80f8b258cc3fd34df0e8a8a167131d2db77b8c0 refs/tags/v4.9.287
-0000000000000000000000000000000000000000 7cfd1889d583ccceecf65846b073467cce961263 refs/tags/v5.10.74
-0000000000000000000000000000000000000000 63c28652e29f957f49ff93302dd00ce9cfa3eb33 refs/tags/v5.10.75
-0000000000000000000000000000000000000000 603d28fdab68f76a4a936b4cb24802f7441a17be refs/tags/v5.14.13
-0000000000000000000000000000000000000000 36fcffb8efe589795c29925ad0e97d7241b488f9 refs/tags/v5.14.14
-0000000000000000000000000000000000000000 a8fa06cfb065a2e9663fe7ce32162762b5fcef5b refs/tags/v5.15-rc6
-0000000000000000000000000000000000000000 2e79cf8c2c9a43cbd2d72eabbb8545b92b0a4ef1 refs/tags/v5.4.154
-0000000000000000000000000000000000000000 124134091fc40ec11820417c0fce6f733cdcdbe9 refs/tags/v5.4.155
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFwCtIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I54QAKsMRib9JcL8Ji23nUqc
-jx/JpQGZGHAoA2CpAn5r9MkqX/mSBktMiA70hmw9SyicyZZg8rGjawaFvWDtdEmb
-7hDiO8HLO+/vysUqNyva9gYJ79g/mYHAY7hb7LyZu97Mz/bkXR8aPg1PP265Ywm6
-HCIjXbCrsEMOrpj1/DwFEA96nq9/foqflTI6KUcMCAPViDZMSt3b104is6NwZRyn
-Qy1oFqo7RLu3g2/VHYaR/GojaQ4tA6ktz/eZCixzCr7HlyF3LN2A2w5jqBNPYKq0
-agGwSqPOC4cGGKf0wchYZLkfBh4oQ9GLS5HJ5BbohxNIw9FquzCrY0GvysUr2PEH
-4WPvwnwb3qxnFtc4N6tdXhG9Y/NRmApScpxmunWfvqrETLQMd8hUPA1I5EWAiNhK
-LgxidH1hnCFsiNpcjwRMbejcKW1rOA88KOrTU/wXtUZcG9b1AxmYyCMmyzfMKL6t
-h0vE1dCQpJ/fJvAbRVSEAZiuBJVTy1kcIFJlDNARdT6VJtFLuxWfp/bCJXmFYuBr
-BzjOhVrTtwprF35aWtQPScRVpi5Ja+POBz4N6U+0mjShOYZ+0LOOxOyNtXG1d+mx
-B1HTFeJQWl/BjINBQp8vr6EwjLd/5OjCxiog61Ew11ggGnHGxr7zJVWYGIczmzHJ
-4lAIjCeCRM82L+d3WZXSabqA
-=gstu
------END PGP SIGNATURE-----
-
---===============4171321362980335559==--
+  - ref: refs/heads/next
+    old: 4d5b5539742d2554591751b4248b0204d20dcc9d
+    new: 15bf32398ad488c0df1cbaf16431422c87e4feea
+    log: |
+         1c73213ba991d26a91282e775d1f5a60e41e5184 selinux: fix a sock regression in selinux_ip_postroute_compat()
+         15bf32398ad488c0df1cbaf16431422c87e4feea security: Return xattr name from security_dentry_init_security()
+         
