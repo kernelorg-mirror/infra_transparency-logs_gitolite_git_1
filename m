@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 21 Oct 2021 09:19:29 -0000
-Message-Id: <163480796906.15107.15919941665789082783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 21 Oct 2021 09:24:10 -0000
+Message-Id: <163480825088.18021.18437377766417621558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 3111a22e06dff040372959f3b500b22fccd42981
-    new: 0fcbc3b7bceaf3d8eb1c2308a920fd8275c1f40c
+  - ref: refs/heads/fixes-togreg
+    old: fe6f45f6ba22d625a8500cbad0237c60dd3117ee
+    new: 486a25084155bf633768c26f022201c051d6fd95
     log: |
-         14b43c20c283de36131da0cb44f3170b9ffa7630 memory: tegra20-emc: Add runtime dependency on devfreq governor module
-         0fcbc3b7bceaf3d8eb1c2308a920fd8275c1f40c Merge branch 'mem-ctrl-next' into for-next
-         
-  - ref: refs/heads/mem-ctrl-next
-    old: 131dd9a436d8f6dbaf3d9597803765d271b2fc19
-    new: 14b43c20c283de36131da0cb44f3170b9ffa7630
-    log: |
-         14b43c20c283de36131da0cb44f3170b9ffa7630 memory: tegra20-emc: Add runtime dependency on devfreq governor module
+         19833c40d0415d6fe4340b5b9c46239abbf718f6 iio: core: fix double free in iio_device_unregister_sysfs()
+         69b31fd7a61784692db6433c05d46915b1b1a680 iio: adc: tsc2046: fix scan interval warning
+         486a25084155bf633768c26f022201c051d6fd95 iio: buffer: Fix memory leak in iio_buffers_alloc_sysfs_and_mask()
          
