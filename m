@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2919896658872960348=="
+Content-Type: multipart/mixed; boundary="===============5194557689119488127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 21 Oct 2021 03:40:22 -0000
-Message-Id: <163478762269.14958.6306481408060890353@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 03:40:32 -0000
+Message-Id: <163478763253.15112.13509513821242391649@gitolite.kernel.org>
 
---===============2919896658872960348==
+--===============5194557689119488127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5828dfa6e492455201c114deb917a15671f0d7ba
-    new: 948c02596ea58a27515eb90654507d9c8018609b
-    log: revlist-5828dfa6e492-948c02596ea5.txt
+  - ref: refs/heads/5.16/scsi-staging
+    old: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
+    new: 83c3a7beaef7fd261c190b69f6be6337f251bf16
+    log: revlist-3d8fa78ebd61-83c3a7beaef7.txt
 
---===============2919896658872960348==
+--===============5194557689119488127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634787613 -0400
+pusher 75C5DE3D 1634787626 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634787613-c9fcfd78895d06770d97137be7819bf22e29c250
+nonce 1634787625-ea0283c7ef5e099619d188e0c4c8816d6005ae71
 
-5828dfa6e492455201c114deb917a15671f0d7ba 948c02596ea58a27515eb90654507d9c8018609b refs/tags/mkp-scsi-staging
+3d8fa78ebd61aada5d55de6e04beee7fd916c62b 83c3a7beaef7fd261c190b69f6be6337f251bf16 refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFw4R0ACgkQ7ulgGnXF
-3j0rDg/+IZeyy8gGew1MRt+ROmnWBF5+xo6M2E8CdBtfF363jJV+ar9Q1VtSCLV9
-XhCqWG2oGe6ij1PAvJjfnxQ8qJokOTAigLYO7kljMdBb9yp5he4o89ayfOt209FL
-L4eqrxuz62WVMxvlKOEaepwpcFc3H3N4PQXHisl0fgEaKBSyTaU0LHkhQ0X3SF/m
-jbNncFhxuj1OG5rlne1U4bDH735l/wWdZYo4VALu52XULV1pPpUdAxvR/3FJmxGP
-Vz9xZJWrRX9JY95v3HgHmy9TB16slpe1szMvjNF8fL/PHif5K4ij4fz9HJ80IEEc
-NDhadM0j49XQNvbJESQ3AxyZ9ZNNpPtoNDKq6Iv1JNuLZP5M/pdApuVvFajwIOrr
-0SkVfMVoMpTAgJFD3eduwBALzJpS39p3e056slH9YG8QOIVE3HffyeMpwR/NePyA
-GXSxlx2+OorBhqowi4GX32FMrfI7Him/LJADSsXv+uZoXyUnQi7Pf76LmgJ9/Fn4
-UvMCE5HJ8ekmCLZYlglStzrbnAZFho6Bp+K77bgj+9A1G1osBdGE/KBfntqmVCiv
-8JBo8d7dkMuD3bOtd9dyubA9x4jLJwJRiekDzWpj1kdt55F+MmLRl7Ydk1jZuZrp
-T5jhk5K+PX7iAEvwy6c3vaA9BbDQZH+1+hzcyaFvBNGxdztbHF4=
-=MhCR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFw4SoACgkQ7ulgGnXF
+3j3TWw//RRvG2Gq6PZQj0i4LepyIjf9VIiT5jDVNPRo51WcC9jd0IX/vQLhp7DGt
+t+Ei/VyQsISJ93cNaI37eOvh29+5ZYunRQC/4leRpRC1mMg6D+SBdYvWze3MYyAJ
+/0pAXhksfJX9axPNO9KNJKT5GMZhFN1YWHn+RlulOsABb703I0IZO5ZLjSaaQnFc
+vLeZnD4jdLwpofBRKTnQt3aBPUTo2nXjvOl11FBGpG49DyyE/N9LYYEi+V8HVixR
+4yDJe4mD2EbPgJYGSK07R66kfJwCykfzY5R5gQmBJO0mNXYmMih4Bml1UCICWbU7
+wufcofQ/5TDEGVoq3fvfYmuuaYS5LhVplndgMeJvh+4mBn3lGtdLgkYrg+cDkZ4h
+TR7yJvFrEB9bDA6ChQ3S9WQ8DdL5orfF07eC5/79ZIh/lHeoCW4hjLI8nGkRRq2i
+MePfde2dvDBuS759oOxRlbu2pVJp1E5k/yWBaBmrXkiJQX5bwwTX2kDtrisq2IZx
+Wo7fHobnPm6hHkVXPxtT4xqqm7MP3gbkt7y/L0W1qurkyg8bTZJp6JqldF/axe5R
+A1JolhSWNlfxrCD3S0Db0TjwcX/5xvVgLLSy+S/8BUFNbRKUES0f4L9KKVgla/k0
+hgrkZamPKUbwy3lBJtgaqKRW9h5/K6mP8pCS1HzFqPzmU/Wi89s=
+=YePW
 -----END PGP SIGNATURE-----
 
---===============2919896658872960348==
+--===============5194557689119488127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5828dfa6e492-948c02596ea5.txt
+Content-Disposition: attachment; filename=revlist-3d8fa78ebd61-83c3a7beaef7.txt
 
 0ae8f4785107eb7f63ac17d86d894be681427dd2 scsi: mpt3sas: Make mpt3sas_dev_attrs static
 bb4a8dcb4e9498deccaf7b257449044968e514c7 scsi: ufs: mediatek: Avoid sched_clock() misuse
@@ -68,4 +68,4 @@ d305c253af693e69a36cedec880aca6d0c6d789d scsi: lpfc: Wait for successful restart
 af984c87293b19dccbd0b16afc57c5c9a4a279c7 scsi: lpfc: Allow fabric node recovery if recovery is in progress before devloss
 83c3a7beaef7fd261c190b69f6be6337f251bf16 scsi: lpfc: Update lpfc version to 14.0.0.3
 
---===============2919896658872960348==--
+--===============5194557689119488127==--
