@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Thu, 21 Oct 2021 17:02:20 -0000
-Message-Id: <163483574044.16183.11372993305074263300@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 17:02:31 -0000
+Message-Id: <163483575174.16313.14929696257512187070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,17 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-kernelci
-    old: a5825523024a426bd32409ebf7a9a972d6a97e84
-    new: 4c5b112b78ce77d67c05c4c940c4c3be9cd9b7d6
+  - ref: refs/heads/for-next
+    old: eb057514ccca92d44f37be057152c7d2791cdae0
+    new: 3119c28634ddc6ee3813778d9d17741baceef19d
     log: |
+         67ea0239fb600dd6aa11d97c08b4356696947d18 platform/chrome: cros_usbpd_notify: Rename cros_ec_pd_command()
+         7101c83950e629b83f9d827f288063e52074a6ea platform/chrome: cros_usbpd_notify: Move ec_command()
+         5d122256f4e5900f7f8de5d8787af570314f6701 platform/chrome: cros_ec_proto: Make data pointers void
+         4f1406396ed4d97518b8112327bdaf14fc9d4090 platform/chrome: cros_ec_proto: Add version for ec_command
+         fb75686bed1ac0b3d16055456625f4102100b64a platform/chrome: cros_ec_typec: Use cros_ec_command()
          3119c28634ddc6ee3813778d9d17741baceef19d MAINTAINERS: Chrome: Drop Enric Balletbo i Serra
-         2568054e446784b526ab7b2b4c2a123becde502a KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
-         cfcd651eee9973f605d5035b130b2fe808cd8be7 KERNELCI: Revert "spi: mediatek: fix build warnning in set cs timing"
-         0dc0dfe5dd5153375922983412d551c2f2618ca9 KERNELCI: Revert "spi: modify set_cs_timing parameter"
-         04cfe564ad0f326b9671a90bda1dcf630caf1df1 KERNELCI: Revert "drm/mediatek: Clear pending flag when cmdq packet is done"
-         099bd0f2d4d4549db4e131f3fa0083c0ba36199e KERNELCI: Revert "drm/mediatek: Add cmdq_handle in mtk_crtc"
-         b29b6e6e9e248cfa31d8e8024ebdd69ff1cd3fde KERNELCI: Revert "drm/mediatek: Detect CMDQ execution timeout"
-         15fb0f30b4a07b751c04482cfe4a757367bb89bb KERNELCI: Revert "drm/mediatek: Remove struct cmdq_client"
-         4c5b112b78ce77d67c05c4c940c4c3be9cd9b7d6 KERNELCI: Revert "drm/mediatek: Use mailbox rx_callback instead of cmdq_task_cb"
          
