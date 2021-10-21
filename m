@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8026666734189200737=="
+Content-Type: multipart/mixed; boundary="===============5502069067595391699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 21 Oct 2021 17:13:59 -0000
-Message-Id: <163483643925.22662.17463689770167432419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Thu, 21 Oct 2021 17:17:31 -0000
+Message-Id: <163483665182.25210.12795029512886124207@gitolite.kernel.org>
 
---===============8026666734189200737==
+--===============5502069067595391699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/ceph-fscache-rewrite-indexing
-    old: 55f66b45203511d2468b7ea80d58d5f09acf8ed0
-    new: 28b44ad89e351e9e530fe89fe25fb91f94e4ebb3
-    log: revlist-55f66b452035-28b44ad89e35.txt
+  - ref: refs/heads/for-kernelci
+    old: 6e44bd6d34d659c44cd8e7fc925c8a97f49b3c33
+    new: 420175a11288c002a1a5f45ebe2b5de363775b7c
+    log: revlist-6e44bd6d34d6-420175a11288.txt
 
---===============8026666734189200737==
+--===============5502069067595391699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55f66b452035-28b44ad89e35.txt
+Content-Disposition: attachment; filename=revlist-6e44bd6d34d6-420175a11288.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -328,7 +328,6 @@ deab6b1cd9789bb9bd466d5e76aecb8b336259b4 net: dsa: tag_ocelot: break circular de
 8d5f7954b7c8de54902a8beda141064a7e2e6ee0 net: dsa: felix: break at first CPU port during init and teardown
 847c6bdba833115e07376584024b2cb43ef7914b Merge branch 'felix-dsa-driver-fixes'
 2b94b6b79b7c24092a6169db9e83c4565be0db42 PCI/MSI: Handle msi_populate_sysfs() errors correctly
-6e44bd6d34d659c44cd8e7fc925c8a97f49b3c33 memblock: exclude NOMAP regions from kmemleak
 6f779e1d359b8d5801f677c1d49dcfa10bf95674 powerpc/xive: Discard disabled interrupts in get_irqchip_state()
 6d7163f2c49fda5658e43105a96b555c89a4548d mei: hbm: drop hbm responses on early shutdown
 af628cdd64e11f03181a5a19645768ed4687bda4 drm/i915: Fix bug in user proto-context creation that leaked contexts
@@ -446,74 +445,7 @@ cc0af0a95172db52db2ab41b1e8a9c9ac0930b63 Merge tag 'io_uring-5.15-2021-10-17' of
 f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of git://git.kernel.dk/linux-block
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
-98d0a6fb7303a6f4a120b8b8ed05b86ff5db53e8 ceph: skip existing superblocks that are blocklisted or shut down when mounting
-1bd85aa65d0e7b5e4d09240f492f37c569fdd431 ceph: fix handling of "meta" errors
-13d001549466631728c61ad2b59eabf3bfa89d63 ceph: convert to noop_direct_IO
-324bfaa1a6cc948c58f7af521994d0edc1836708 libceph: drop ->monmap and err initialization
-b4cc2b0012f45bcc501f240d977f59a2bbf78333 [DO NOT MERGE] rbd: bump RBD_MAX_PARENT_CHAIN_LEN to 128
-0e16aa1b35610b9d758b67e447bd8de1d2cb6d60 [DO NOT MERGE] ceph: dump info about cap flushes when we're waiting too long for them
-b0a6ac7236c21a1ad7839470053aa1c5ce17cf78 ceph: generalize addr/ip parsing based on delimiter
-422d284894b77a2bb7aa8c975777fb33459f1d50 ceph: rename parse_fsid() to ceph_parse_fsid() and export
-7d480de023d00d9b274689d77161ab782027ea61 ceph: new device mount syntax
-95c861a4657033c364eaec3d9a5dc4ace466bdc9 ceph: record updated mon_addr on remount
-37ee8fbff924645d7b9544fc9992fa98fbbab2f9 doc: document new CephFS mount device syntax
-bea54c16cdc80cbf3d02e01badfdb55e22aa7720 ceph: enable async dirops by default
-7f4aa7e0c73bcf7150dfb06ed1bacfb056a27b6d ceph: print inode numbers instead of pointer values
-440d5cb52e0f4006c47fb2235f9f542ecb8f0523 ceph: don't use -ESTALE as special return code in try_get_cap_refs
-a2659cae98669cb625a84c78f4aed36ecd7572fc ceph: drop private list from remove_session_caps_cb
-a517d82da032305398278a5a456a84b4662ee668 ceph: fix auth cap handling logic in remove_session_caps_cb
-79a3bca06a553e6d699f1a334214464784ae473d ceph: refactor remove_session_caps_cb
-2b603375572581f0da428700ed9981d8709dc6dc ceph: shut down access to inode when async create fails
-10959094343d7bc51214176af523e2b325c9c755 ceph: just use ci->i_version for fscache aux info
-2854362da7770a37b85656309edb738540734cf6 ceph: don't rely on error_string to validate blocklisted session.
-9b922fb85669c732d2d98f0154d48212c32a6f5a ceph: properly handle statfs on multifs setups
-c90320e2f888bb70ac46f6d74fd0294b0516027b ceph: ignore the truncate when size won't change with Fx caps ssued
-2f5211f446784a74fa839fe5712fc1e4a4326091 ceph: shut down mount on bad mdsmap or fsmap decode
-21f538940aa0315ea3b5e71db26b271e2435318d libceph: export ceph_debugfs_dir for use in ceph.ko
-0c5e5a91705ad7db750dbd81f93d994407d8d1b4 ceph: add debugfs entries for mount syntax support
-9e982c7a11e7fa573315326b05ebd99ce85c33b1 ceph: add a "client_shutdown" debugfs file
-8bf1d6992547b4002f3ea86d945121863d438ea2 fscache_old: Make a duplicate of fscache to support unconverted netfs's
-3fa28649d35f50bf615783503da451ef33dbfdec fscache_old: Rename CONFIG_FSCACHE* to CONFIG_FSCACHE_OLD*
-fade0c538e75a4218a469af5f840f318f2c2d768 cachefiles_old: Make a fork of cachefiles to support unconverted netfs's
-da630c04c8303f6684e313478e17ccda7e113511 cachefiles_old: Rename CONFIG_CACHEFILES* to CONFIG_CACHEFILES_OLD*
-b391a73d149b5e78df2fa0bbb86db05b3f700109 netfs: Display the netfs inode number in the netfs_read tracepoint
-67f667dac2cae7c56714eaee4a8ef80f42014825 netfs: Pass a flag to ->prepare_write() to say if there's no alloc'd space
-38583a6a5ff951be4e6867d6e17f59e9d3511afc fscache: Introduce new driver
-63f718f85943522ff89f32809c858e6ffd26b7b4 fscache: Implement a hash function
-4d32f5cd40f3283e2b8eb828fd3ee7b440cef3a6 fscache: Implement cache registration
-8c0f6001a848a58db9b08473a97a55c06b5aeb19 fscache: Implement volume registration
-522e59cd4972a3b025fef016db55d6fb0fc4a4ea fscache: Implement cookie registration
-1c682b95a9b35a2766fd4ec09321d09aa42017e7 fscache: Implement cache-level access helpers
-6585304c85cec94830026480a7ab33b277be83e9 fscache: Implement volume-level access helpers
-c13628d4139469f49b7c466ef241f2c06f9a81fd fscache: Implement cookie-level access helpers
-308766bd3abdee53279245a0e04b5812c8801268 fscache: Implement functions add/remove a cache
-cad8d389f91f62318ca93add24b2ef3f412968d3 fscache: Provide and use cache methods to lookup/create/free a volume
-6e94911c4ac120aa1ec2f1d2cbc1ba4273e690be fscache: Add a function for a cache backend to note an I/O error
-711eb8d992c3026cc93b495814fc5821dec68624 fscache: Implement simple cookie state machine
-58be04b2e61fc64afcb8ac03a6dc6d4fce42ed7a fscache: Implement cookie user counting and resource pinning
-ba5214f57e61b03251f889c6f5a3c1a6b30736a6 fscache: Implement cookie invalidation
-ba3b35ef79714b020719283ea83e17a34361411e fscache: Provide a means to begin an operation
-63ed53a2e43fa7586276df15374082ef0039e447 fscache: Provide read/write stat counters for the cache
-b4a6dc5af549de87b2062e7166a9aaabbcdced2d fscache: Provide a function to let the netfs update its coherency data
-3a45965717975bdf731a181bdd371b54159749b8 fscache: Implement I/O interface
-7040012cbe3a001710abe62a4538ea395e5f6855 fscache: Provide fallback I/O functions
-f132bb2932535d06daaae12097b685930153f4c0 vfs, fscache: Implement pinning of cache usage for writeback
-911d28b17f5cb9caa31d8af95b9230da079083a5 fscache: Provide a function to note the release of a page
-ae7f963df543c3c29a379058e491380e61c42cb9 fscache: Provide a function to resize a cookie
-2fa419013de1774a023942ccea1903547f4574dd cachefiles: Introduce new driver
-b59636c08f5e668d7ecf48ba128348513e3d7fe3 cachefiles: Add some error injection support
-10fcf38d262dace6dd66f50aa58f1c67927568c1 cachefiles: Define structs
-153d8caf76f99a21813811a36482f6baa70d60ed cachefiles: Add a couple of tracepoints for logging errors
-67c7165e0784f60977f0608c927541788d70f1c3 cachefiles: Add I/O error reporting macros
-cf8b6b7c298805f63af6dd943c35908f3b7a38b7 cachefiles: Provide a function to check how much space there is
-f05fc03d56e627b70e23cda444759bb8eb0267d8 cachefiles: Implement a function to get/create a directory in the cache
-b0340a6f8effd50bf7ba896065ded3f46f28e5b4 cachefiles: Implement daemon UAPI and cache registration
-cb317639969bb465e1481bf4285ddf10d72a9786 cachefiles: Implement volume support
-413fb8bc83937665b3afcc4458670a9545c46d09 cachefiles: Implement data storage object handling
-8503d43817e1672f6b2efeb1bd259d2e7ffef2fa Cachefiles: Implement begin and end I/O
-acd4e059ff09e9f7f06cfeaea1a4e8cf885706b9 cachefiles: Implement the I/O routines
-a7cc7a1b85f62fb03c5bef75d4a5c2ed137a991b Merge branch 'ceph-testing'
-da76ed99604bec58fe1f5a8eaa2603e7485634f4 ceph: conversion to new fscache API
-28b44ad89e351e9e530fe89fe25fb91f94e4ebb3 ceph: add fscache writeback support
+5be8b16c4ad9c15294c118a1fc554ffc33e9ee03 Revert "memblock: exclude NOMAP regions from kmemleak"
+420175a11288c002a1a5f45ebe2b5de363775b7c memblock: exclude MEMBLOCK_NOMAP regions from kmemleak
 
---===============8026666734189200737==--
+--===============5502069067595391699==--
