@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1231414621653814927=="
+Content-Type: multipart/mixed; boundary="===============3510358309740919374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 21 Oct 2021 13:39:13 -0000
-Message-Id: <163482355343.16168.3741810204484721382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Oct 2021 13:39:19 -0000
+Message-Id: <163482355987.16263.2386482643485904308@gitolite.kernel.org>
 
---===============1231414621653814927==
+--===============3510358309740919374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/regulator-5.16
     old: 72bf80cf09c4693780ad93a31b48fa5a4e17a946
     new: 061514dbfb79910ef60eb40dd9fc528be3f45d62
     log: revlist-72bf80cf09c4-061514dbfb79.txt
 
---===============1231414621653814927==
+--===============3510358309740919374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634823551 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1634823551-1422f98af0963ce876370f8715b97e9d8db7a8c0
+pusher C3F436CA30F5D8EB 1634823558 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634823557-36a105a7897df8a0f2b95a6dd36c97e939945d25
 
-72bf80cf09c4693780ad93a31b48fa5a4e17a946 061514dbfb79910ef60eb40dd9fc528be3f45d62 refs/heads/for-5.16
+72bf80cf09c4693780ad93a31b48fa5a4e17a946 061514dbfb79910ef60eb40dd9fc528be3f45d62 refs/heads/regulator-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFxbX8ACgkQJNaLcl1U
-h9C4mQf/f0oyzt1Y+IfCwYuYFzHBvKgRbTvm9y7UO7q11e6Feuv1MKNbNuARqtW0
-DMKVEygIrir+iPUgwu7ng9nw5AkK8fXmtqQsGj/hdXB5rmGFiCkaK3WBFk2+a6rP
-c8aeUPspuYGrZtZGts1aH7HbvhK/3xmbZB0rvt1myc6kTdaysDeFEyLkXAyWUoba
-d6ZSMoIH+8Uec6/hmongFmhc5dJnm/LMCgce+MRFJ+GsqgiLda4ZS/+YU1Oz5Qfo
-OPaMkq418DnUxt3GOnLJ50A0mEwq8dudNEA/gIHzVNfyVj9YphCP4v5DZWhb5KPM
-8kDQOq4HYR7C4kt5qll5c32zrrk/+g==
-=MVrS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFxbYYACgkQJNaLcl1U
+h9A4rgf/RJNCgE073USIkIltIs9remlAowNw/lWGEgWiTFAZiglM9Yod7KsMy1jF
+moTvzuxXQMTUf6YUgg9XI7DgLdrCDhmGbL9T0XeeJlvHLrKOBmp9Syt5aqfccuCZ
+Vsf/BcyXdbTcnpLSdNihi+bt4H5mCxNqnW0QftmEYsJp9fRiCZSqb5Isj1HS1LLj
+TNjOLr4/e/MFf1bgrcgIpiC58ieCSUzAf8QFqHf9A4bZfGuHLIFz5rC7dC3ZKa8d
+LT5PwtwsG/EzsS1HLbkjPNfqR9EqCPmB3y/kG3h+Q9QS8P72SE9xzHxLT3FeVOfg
+B5+Iaac/FyKXPTsN01sLJU62mF8t7w==
+=ddgM
 -----END PGP SIGNATURE-----
 
---===============1231414621653814927==
+--===============3510358309740919374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://gi
 ed96f35cecb0a7d1d95bbba8b9f212e60d0f7480 Merge tag 'v5.15-rc6' into regulator-5.16
 061514dbfb79910ef60eb40dd9fc528be3f45d62 regulator: lp872x: Remove lp872x_dvs_state
 
---===============1231414621653814927==--
+--===============3510358309740919374==--
