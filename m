@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3195043820185064897=="
+Content-Type: multipart/mixed; boundary="===============2700931459532090495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 21 Oct 2021 02:11:47 -0000
-Message-Id: <163478230730.24485.2438826011597743769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Thu, 21 Oct 2021 03:39:19 -0000
+Message-Id: <163478755956.12855.9497386211123161647@gitolite.kernel.org>
 
---===============3195043820185064897==
+--===============2700931459532090495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 887ebfc09f79b8701b4089c092224ba6b23d30f3
-    new: edc5cb40999b47dcef24327f99e5fda6ea10d6ac
-    log: revlist-887ebfc09f79-edc5cb40999b.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 765e148ef256b57029f8953e0e23f0447415b90f
+    new: 5d1a75968c5caed5071384bf765bec0a0ae495bd
+    log: |
+         e20f80b9b163dc402dca115eed0affba6df5ebb5 scsi: ibmvfc: Fix up duplicate response detection
+         282da7cef078a87b6d5e8ceba8b17e428cf0e37c scsi: ufs: ufs-exynos: Correct timeout value setting registers
+         
 
---===============3195043820185064897==
+--===============2700931459532090495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-887ebfc09f79-edc5cb40999b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ec65e6beb02e09e34f3811dd85f7247da35edafc Merge branch '5.15/scsi-fixes' into 5.16/scsi-staging
-f4875d509a0a78ad294a1a538d534b5ba94e685a scsi: csiostor: Uninitialized data in csio_ln_vnp_read_cbfn()
-9561f58442e48c3c71da250aa63bd02ec6bffcb5 scsi: ufs: mediatek: Support vops pre suspend to disable auto-hibern8
-d489f18ad1fc33ab9b60dc40fe3851bb0d87de28 scsi: ufs: core: Fix synchronization between scsi_unjam_host() and ufshcd_queuecommand()
-36c6b7613ef1ffd88637315f11c71896f3ce4856 scsi: hisi_sas: Initialise devices in .slave_alloc callback
-046ab7d0f5943dd74c351e1f3a771dea785fe25d scsi: hisi_sas: Wait for phyup in hisi_sas_control_phy()
-00aeaf329a3a1ea3d3606fefa1d29f69f828bd21 scsi: libsas: Export sas_phy_enable()
-21c7e972475e6a975fbe97f8974c96fe4713077c scsi: hisi_sas: Disable SATA disk phy for severe I_T nexus reset failure
-a4bcbf71914b0cc44151a5238e4a8afa8e3319cd scsi: Documentation: Fix typo in sysfs-driver-ufs
-97e6ea6d78064e7f1e9e19c45dc690aabbb71297 scsi: mpi3mr: Fix duplicate device entries when scanning through sysfs
-85374b6392293d103c2b3406ceb9a1253f81d328 scsi: sd: Fix crashes in sd_resume_runtime()
-06634d5b6e923ed0d4772aba8def5a618f44c7fe scsi: qla2xxx: Return -ENOMEM if kzalloc() fails
-7fb223d0ad801f633c78cbe42b1d1b55f5d163ad scsi: qla2xxx: Fix a memory leak in an error path of qla2x00_process_els()
-4a8f71014b4d56c4fb287607e844c0a9f68f46d9 scsi: qla2xxx: Fix unmap of already freed sgl
-4e5483b8440d01f6851a1388801088a6e0da0b56 scsi: ufs: ufs-pci: Force a full restore after suspend-to-disk
-c2136cc70973ef8a658bd8323ee92790ea754296 Merge branch 'fixes' into for-next
-edc5cb40999b47dcef24327f99e5fda6ea10d6ac Merge branch 'misc' into for-next
+certificate version 0.1
+pusher 75C5DE3D 1634787552 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1634787552-435a8877946e3d00118fff454b4bc0bd7180b625
 
---===============3195043820185064897==--
+765e148ef256b57029f8953e0e23f0447415b90f 5d1a75968c5caed5071384bf765bec0a0ae495bd refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFw4OAACgkQ7ulgGnXF
+3j3rPRAAmK7hcs1YFU4r24XEHLS29wFiPTzZ9f8B7fntatt6Ze+6DQXQjMWjMrBD
+dZgw4o8jmZ9lq0e18TDZ0HVNTAA4tAEUzYtDVuzf2tSSU3lOfG7L4fIaFKrvd/vr
+W6xqjdc1KJkIhiM1DZODS5UcpGIGZ9ADa/thtOGjmZiHBuCBZW63L3oFQKxMeBBe
+qXHv1/8A3xmm2TRHK86CO9mLCREfmpojUqUlh4ZhWA2xx3V67jkhMN2roRvieAc1
+RYxenc+CNlq8mvaAq+BH5Jku2OR/boLnBC6KdKItI9mZ1JLgbADFhV3a67Qil0QX
+xvXoVz+XU8ldIQRJPYRMhJyALuplIWOgzsI2ZF4T1KLG/xStZPXUI4Ik0uLoH6PU
+0Ivc3BIE/XvhzwCskPrhguerNjx96fyyhiAI3/ERr1b05Ro2RXeBZxiFenfJ3tRH
+BWti7w7YnG1lyq5ugj+eoUIJ7IkRMActa7Ms5URDVLgL0nbOVUE9Aepu9xqwMC4b
+dIe6d7Gf9VO1ILd3Y9GAkmDOCM2Qw8ZIPOUkKoCrOZEP6td8hcl+v3RO+1keTXNP
+P+zD9X5UTP5XyvzxbuaA6yZAsq3bjZvgM5k+rhTtVBc3I7A/ODkXyLYooa5I6Crf
+btm52k8SyUhz8/zUPXXNIlawO+2QEssV/Q3JZvvYvXoXbM2AYrw=
+=WlAM
+-----END PGP SIGNATURE-----
+
+--===============2700931459532090495==--
