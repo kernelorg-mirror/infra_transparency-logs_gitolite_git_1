@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0718388886319159713=="
+Content-Type: multipart/mixed; boundary="===============4403061584070728000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 21 Oct 2021 15:26:56 -0000
-Message-Id: <163483001603.20529.7382356460304024398@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 15:27:26 -0000
+Message-Id: <163483004670.20769.11913968180937828560@gitolite.kernel.org>
 
---===============0718388886319159713==
+--===============4403061584070728000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 5a6f572f84d8bac2adfd66336f3b9ae32f269d58
     new: 480ff896fba83f9d4ff5ea7180757988b4f76093
     log: revlist-5a6f572f84d8-480ff896fba8.txt
 
---===============0718388886319159713==
+--===============4403061584070728000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ ad6ede407aae01d9617e172b27e179ce1046cbfc x86/fpu: Use fpstate in fpu_copy_kvm_ua
 62132b6fd89413bbf1f1eb9c7cf5040e4875ff0f Merge remote-tracking branch 'tip/x86/urgent' into tip-master
 480ff896fba83f9d4ff5ea7180757988b4f76093 Merge remote-tracking branch 'tip/x86/fpu' into tip-master
 
---===============0718388886319159713==--
+--===============4403061584070728000==--
