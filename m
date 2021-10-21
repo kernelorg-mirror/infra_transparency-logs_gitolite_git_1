@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 21 Oct 2021 16:58:58 -0000
-Message-Id: <163483553851.13609.7805797903447297529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 Oct 2021 16:59:19 -0000
+Message-Id: <163483555958.13786.14901583498090424918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/irq/irq_cpu_offline
-    old: 5b3fc7a3f5c94f0acc4962ddf687719b4cb7d83e
-    new: e251bf3a0c0fe5e9b7fba0556cd8a4cdac566278
+  - ref: refs/heads/x86/sev
+    old: e7d445ab26db833d6640d4c9a08bee176777cc82
+    new: ce47d0c00ff5621ae5825c9d81722b23b0df395e
     log: |
-         f5bd4ea2cf84df74d00fff50392945fe51cfaceb irqchip/mips-gic: Get rid of the reliance on irq_cpu_online()
-         e251bf3a0c0fe5e9b7fba0556cd8a4cdac566278 genirq: Hide irq_cpu_{on,off}line() behind a deprecated option
+         5681981fb788281b09a4ea14d310d30b2bd89132 x86/sev: Fix stack type check in vc_switch_off_ist()
+         ce47d0c00ff5621ae5825c9d81722b23b0df395e x86/sev: Allow #VC exceptions on the VC2 stack
          
