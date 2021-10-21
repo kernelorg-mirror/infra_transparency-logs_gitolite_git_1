@@ -1,30 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 21 Oct 2021 13:00:13 -0000
-Message-Id: <163482121309.25653.9275187871297428281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 21 Oct 2021 13:00:31 -0000
+Message-Id: <163482123100.25800.10409431985385003182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 1f1040c78dba82d6b8d822d4e54d56c151d11306
-    new: cb28919893468531a2e087994d0bea72c84ef670
+    old: 6744c839e111cab52abcec666c7f6e68ee44e4ce
+    new: 587122e86c1aff3a7e4ad34aa59c9b21119d33de
     log: |
-         cb28919893468531a2e087994d0bea72c84ef670 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         6b6c496a88e7273a3cc945236b2d39a8f0568a8a spi: tegra20: fix build with CONFIG_PM_SLEEP=n
+         587122e86c1aff3a7e4ad34aa59c9b21119d33de Merge remote-tracking branch 'spi/for-5.15' into spi-linus
          
   - ref: refs/heads/for-next
-    old: e9cb4d969b85da266697a16ef7839e768097bace
-    new: 3176d5bbd8c1d74c73513cca51da88c025f3cb4f
+    old: c292766c0a5474f0a17c87048debd3d162bb37f0
+    new: 8605ad089701d1a3420f408affcbd40595676bcc
     log: |
-         961e7ba550c7a1f51012713afb75fb8d86a636eb ASoC: qcom: sm8250: add support for TX and RX Macro dais
-         810532e7392e764be5ee1b85603585065fa3e86b ASoC: qcom: sm8250: Add Jack support
-         bfceb9c2160109ef8c9305e0a726c7fe6cd9cd9e Merge branch 'asoc-5.15' into asoc-5.16
-         430415055348a0b0af712761b2ff65ec0a52a854 Merge series "ASoC: qcom: sm8250: add support for TX and RX Macro dais" from Srinivas Kandagatla <srinivas.kandagatla@linaro.org>:
-         cb28919893468531a2e087994d0bea72c84ef670 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-         3176d5bbd8c1d74c73513cca51da88c025f3cb4f Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
+         fbd30477ae5227319deb485ed544d2d2f5ab98cd Merge tag 'v5.15-rc6' into spi-5.16
+         6b6c496a88e7273a3cc945236b2d39a8f0568a8a spi: tegra20: fix build with CONFIG_PM_SLEEP=n
+         587122e86c1aff3a7e4ad34aa59c9b21119d33de Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+         8605ad089701d1a3420f408affcbd40595676bcc Merge remote-tracking branch 'spi/for-5.16' into spi-next
          
