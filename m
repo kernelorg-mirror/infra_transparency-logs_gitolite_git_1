@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5595397141477261175=="
+Content-Type: multipart/mixed; boundary="===============2794366821574859655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 21 Oct 2021 11:02:19 -0000
-Message-Id: <163481413942.15281.15723327238271684585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 21 Oct 2021 11:03:39 -0000
+Message-Id: <163481421947.15749.18430989686914825426@gitolite.kernel.org>
 
---===============5595397141477261175==
+--===============2794366821574859655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 09ee10ff804ec4bc58eb9849226312ff1c4d7e7b
-    new: c87761db2100677a69be551365105125d872af5b
+  - ref: refs/heads/char-misc-testing
+    old: 8135cc5b270b3f224615bdee8bd7d66afee87991
+    new: 654ca805b7303d2a51f4847f31e272c7adaec500
     log: |
-         c87761db2100677a69be551365105125d872af5b component: do not leave master devres group open after bind
+         310e75c72fefa3b0b4535f669c8b37c963a2dba5 counter: Cleanup lingering atomic.h includes
+         8ac33b8b6841e99a624ace543d92cbf598a91381 counter: Fix use-after-free race condition for events_queue_size write
+         654ca805b7303d2a51f4847f31e272c7adaec500 firmware: edd: simplify redundant logic judgment
          
 
---===============5595397141477261175==
+--===============2794366821574859655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634814137 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1634814137-f03d8350116ff8f52d09ff6e05ecd7a025db8b5f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634814217 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1634814216-acc010151a75240489bbf8513053010498577dcc
 
-09ee10ff804ec4bc58eb9849226312ff1c4d7e7b c87761db2100677a69be551365105125d872af5b refs/heads/driver-core-testing
+8135cc5b270b3f224615bdee8bd7d66afee87991 654ca805b7303d2a51f4847f31e272c7adaec500 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFxSLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Np4P/3Xs46tuZu7Z48H4QhhP
-vGq7TGd5ApREZzEbinPZMOIH8yN8W+tWqUUtmLYxhoxJG8QxEZ4xRNkuD/wNaSLO
-gUD3Zw6E83ThRgJ8391qTu3OHHOBkNkUEAKeigR0ehmozjh+KgTR4Pw76eo5qTZJ
-PjSnUVXOw/1TSzLxUZrBs+GgiMM+YgqYula3d/o+5mzmTqWRfyb1ULfJMym1wngu
-Df9XjFyQkVKBBo5y+hLvO9M/mCgmA52W1U38KUcH3SjoCCs1CpDDkh+AfgjA8EPa
-weEcK7mevsY5Q1hQXEjIkbtTD+xkRmbX3qinsw1SjSR2iyeMgWj44Gn6TU7NlzeM
-k0xPsshHBFyKB8Ux5K5Ygib/boVdJEn3jrIKQ0W3TcGiWx4klsr3uaAlsXYahDXK
-w28FdBkFpfMJBwqYxhHhn3IFOvTOiZ/WiudRTwPnQrGbfN0g/cyqJmLi8HooO6A3
-T7lxTvumopyi7ZfsWhPj3plJ/yci9uynqzmE8IfjbXZRNuiMahXcO8AEgXfhkR5t
-ac8PFiqLnx63fwqeTSbJHMs95hhqg/PkaSJYUUhJAOLIl99YqPmwmwf8hmdK6skE
-oe7WgtmQTkzKnxHCNUq7FHUyEoNDX+p9zXDOyYHgihlRraneXyiWO6dcjbU1UnDe
-7TgAl2I8YgRf3MPQB+B7w7no
-=Itlh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFxSQkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8VAQAKxq9iRTw5Qy6Vi6bxJI
+vpgL5VeqhNG2IU9R6niBoqlN0VSEc/KfadxJZYpDO8kJwos/nlOp64z3psmtBo+4
+kFy3XPx3r5I54ToeiVXcLR9RENisTcI58Zdtw2yQyc0VBX69aH49hgBD0Yce73Ps
+6uirXcnjpLTy2LnvBQfJO40AjrRam44uezy60+eTIW3e/2AwONsLKRMZ+D6KuIha
+tODl5922Ay+4sOYU0XjlNoJ2m9NpmYWWoOikZKXERo4++TCIKiOIADU2DlT12e5C
+c9Aic+r9/C0E+x8JUzjOYQCQXKqaPfZGdGrvVeWlgzfOm/N0AoMhPTuOw2OupqSN
+9rxvzAGziUDDzHuCuJbMb6ScH55SfXyHow+4arRJioksuPJlG2w3tyECvPcno7os
++qN3TGMj3Jya7V5tJDApmcEumSmXdPMmLCyDdmGa31ddQmi/BBTaxh2qCgvSSQu5
+zt+usYA0uc+pb4Zo7h5Xto0Ph3orzCeNoI+JVRcoy/Gci/APZlKj0a4x8QPdK5SK
+I2/1sgnxCbzCmKF56br5/lGvZRkdF47P0wA031in07HPfulKHJSjcSIgJ4LrGCvv
+1Ec2uLw9qJPPIYHMVE3WMqetrrzxYIVxzc2fi0s6XhjwhHw2heZmKvlHX7bl5kMp
+8AoaXlNjQITGgVR1CY7WNU5z
+=J5uH
 -----END PGP SIGNATURE-----
 
---===============5595397141477261175==--
+--===============2794366821574859655==--
