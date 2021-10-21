@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 21 Oct 2021 12:12:17 -0000
-Message-Id: <163481833788.26858.15103827331634423201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Thu, 21 Oct 2021 12:13:49 -0000
+Message-Id: <163481842981.27344.1230308523695352755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/for-next-v5.15
-    old: dcade84bcb79c6720e958b0a0814df5ec4a8e7cb
-    new: d7c6612be6b0dd29a0f6d2412ab3e61751c56512
-    log: |
-         d7c6612be6b0dd29a0f6d2412ab3e61751c56512 parisc: Make use of the helper macro kthread_run()
-         
+  - ref: refs/tags/clk-at91-5.16
+    old: 0000000000000000000000000000000000000000
+    new: 75df3294c427d93156d926dbea2029f62681f7a7
