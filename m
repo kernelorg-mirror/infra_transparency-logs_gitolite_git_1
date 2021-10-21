@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 21 Oct 2021 11:45:23 -0000
-Message-Id: <163481672384.9846.3001860593196317261@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 11:45:39 -0000
+Message-Id: <163481673933.10037.4035086847032910332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-dt
+  - ref: refs/heads/at91-next
     old: 71af4c5a5a83c2183575efbccccc4130d7f47c10
     new: f3c0366411d6893360be21a7544595bf275bc9b2
     log: |
