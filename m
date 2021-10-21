@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0034674423438762411=="
+Content-Type: multipart/mixed; boundary="===============6863942441714865083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Thu, 21 Oct 2021 04:15:52 -0000
-Message-Id: <163478975238.5106.383731183536665835@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 04:38:59 -0000
+Message-Id: <163479113981.18834.2073878923847246869@gitolite.kernel.org>
 
---===============0034674423438762411==
+--===============6863942441714865083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 519d81956ee277b4419c723adfb154603c2565ba
-    new: 2f111a6fd5b5297b4e92f53798ca086f7c7d33a4
-    log: revlist-519d81956ee2-2f111a6fd5b5.txt
+  - ref: refs/heads/for-next
+    old: a7fc6ff62208a375ddd93ff382657fe7b75e683d
+    new: 6cc861529aa63e1e0e062af2df1559c1b448755d
+    log: revlist-a7fc6ff62208-6cc861529aa6.txt
 
---===============0034674423438762411==
+--===============6863942441714865083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-2f111a6fd5b5.txt
+Content-Disposition: attachment; filename=revlist-a7fc6ff62208-6cc861529aa6.txt
 
 3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
 74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
@@ -96,5 +96,15 @@ fc9b289344b845576aedefe0691a4210987f3711 Merge tag 'trace-v5.15-rc5' of git://gi
 8e37395c3a5dceff62a5010ebbbc107f4145935c Merge tag 'sound-5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 515dcc2e02178ea8af2ea53b4ae5bdb6875b53ef Merge tag 'dma-mapping-5.15-2' of git://git.infradead.org/users/hch/dma-mapping
 2f111a6fd5b5297b4e92f53798ca086f7c7d33a4 Merge tag 'ceph-for-5.15-rc7' of git://github.com/ceph/ceph-client
+d1b63620032e8cbd7f65a4af20f77b82cb572e11 md: bcache: Fix spelling of 'acquire'
+ac478d821aa639b1ecca5f0506923e66e7128f8c bcache: reserve never used bits from bkey.high
+4bbf0ea7dcc4fc62317c96214530870fcc644106 bcache: fix error info in register_bcache()
+debfc423e4d5721643503da0ce88cdf8c3a048f6 bcache: move calc_cached_dev_sectors to proper place on backing device detach
+725560651d349d9beae3cd8e455b51aebba98225 bcache: remove the cache_dev_name field from struct cache
+c39ea254120831338e99346de0e8a892cab2fc6f bcache: remove the backing_dev_name field from struct cached_dev
+945fa7c6bb91f3c604a14a805c19ac95693a444a bcache: use bvec_kmap_local in bch_data_verify
+c3917e1a81f5734b636719cd448663d6ab75bf47 bcache: remove bch_crc64_update
+40063aed35b9b08c3e6bc4dda25d41edb4106600 bcache: move uapi header bcache.h to bcache code directory
+6cc861529aa63e1e0e062af2df1559c1b448755d bcache: replace snprintf in show functions with sysfs_emit
 
---===============0034674423438762411==--
+--===============6863942441714865083==--
