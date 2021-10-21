@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8979714818562936846=="
+Content-Type: multipart/mixed; boundary="===============7991547439519962287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 21 Oct 2021 03:39:49 -0000
-Message-Id: <163478758974.13208.12133823328385841926@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 03:39:59 -0000
+Message-Id: <163478759947.13326.18013130506549341725@gitolite.kernel.org>
 
---===============8979714818562936846==
+--===============7991547439519962287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: c591f2c40577298ba6a28f463307baeb39735e1b
-    new: 4a436da23aa4f55079b033d4740c10fb024c1da1
-    log: revlist-c591f2c40577-4a436da23aa4.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: a4bcbf71914b0cc44151a5238e4a8afa8e3319cd
+    new: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
+    log: revlist-a4bcbf71914b-3d8fa78ebd61.txt
 
---===============8979714818562936846==
+--===============7991547439519962287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1634787583 -0400
+pusher 75C5DE3D 1634787593 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1634787583-4056cc077191659edca68e465d2029392d645adc
+nonce 1634787592-364fbb50c04979c092b651bd04f60539fb4e659a
 
-c591f2c40577298ba6a28f463307baeb39735e1b 4a436da23aa4f55079b033d4740c10fb024c1da1 refs/tags/mkp-scsi-queue
+a4bcbf71914b0cc44151a5238e4a8afa8e3319cd 3d8fa78ebd61aada5d55de6e04beee7fd916c62b refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFw4P8ACgkQ7ulgGnXF
-3j2VFQ//STZc+m9bI+VTUAOO6GgtuMd5Nt2C3NbsYSsiTKhyEohTdawxZns/kA7h
-xBsojpcMNA592OPIWH6FJFKvLuWzvE/Mhb+YLvplkM1sgofJVHXiZyjPsPS8NkJ9
-XBEVnKXyX/Bg4qMopUkidxbeJOQwEfoTS8ZT09mtIYVrVZ5U+gqpPaThZVfT6AmM
-al5KaN6+70v6Zh6IhJuG6khavjxa4JBBkaqzlz5B5erl/bz+q/iDGjwWGd0AFBTn
-CQ4dm79QoWmbO5LZ0CHopki1xa5G7HgrpP5RSdqYOZ3ZnrabQmFEfj7KhDlm9q2a
-rjL0VHOPG2bvSlE6ECJdJzwfDwbBcEgsqwc3jX/QhhCM8VCWuJ4cBmqSvYIQGMza
-sHqKvJ+HnI4OP+J5DFNvPQyM/DRS0A6BejBSUYR0vwYd21Pz5gD4vMAd4iKDz5H3
-wXcYiheBT0hhJtYiEg8/KOpbDHw+gaSyZ/CCQLVA/g4SV7/do0+Bl2D1tey0Gk3e
-P3vmjYrPMVwr88kPM+KFFN/4pfujGxIbG7GdgeRxjzx4OeqirpQjdqW5qlEgYV+p
-wrp0k17C/WtrgOK0MWffMLL8DS7UWJ1L0aOXy4Bs9lbZgzFReYlgQWVzyT+Jj2qR
-I2avTuNGiei1SmbeWURgBsBqrlMpkWujaa6nIkSeC75DEt0FgqM=
-=2ieF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmFw4QkACgkQ7ulgGnXF
+3j3xRQ//f/DRkeMkctXvo4oDo30bT3PZJ7UMg7YhNhFK9ecFGcYYC3j7bUQXIq2o
+vzCaTTwS1ghsoQcfQcryK9z6QAiWU7Du12F8MdxLxcyhCi3Hq6+l1spbtLR+nhSh
+4iwJFonBagXblRYeo704eQcVRblk8Bx/n82bHfXISwtBsAKqAjY9300mtg/tysH2
+E5jfiI9eclyUO/91FNa7pF1lwFmg+clzARwb96fUTHawKPQMoXqg/scPzwJJCTpX
+D1ez81UhkI4zBigdO7KFAgCtVyd7ndBahJmzfE6rFfrlGIXTk4mjGkfOw5tF39ck
+H0Mz+nIaXXrjDWS5SnAGWb5N742toyqY8PL6ULzyp36NokE2WpPWGm+Ig0BpHVCo
+mvL81Y5gugecrOIT8vGhquWWC3+2tRvbKglNF+bM1LI+fDxc7MQ4As71Afe7D41+
+eZVTMLWidin/DpFoLgT3uVwlSJzQYkpNrNM7AVzvJZFrube/YtrWj31okLYftmPi
+viXwF3kZfL5QCeFsLE0fyU1XxJO8MXnCMfbS/mA/ITw022Ic2IV99bGJ5Up8tW5s
+ksnnfG/NE6TXTgR2MxDLFE4UQGuqH6O6e5z0XThBrRamlR9SnHFQfeB+T4ZQWAnk
+hIyS3YUXRaJOBkqHWSEeWZfWGHTsuhGKncgY0gU7IBOxYhLK9bI=
+=C/GR
 -----END PGP SIGNATURE-----
 
---===============8979714818562936846==
+--===============7991547439519962287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c591f2c40577-4a436da23aa4.txt
+Content-Disposition: attachment; filename=revlist-a4bcbf71914b-3d8fa78ebd61.txt
 
 a19a93e4c6a98c9c0f2f5a6db76846f10d7d1f85 scsi: core: pm: Rely on the device driver core for async power management
 1c9575326a4a09bdb82c104ed1ab4e932c7a1f49 scsi: sd: Rename sd_resume() into sd_resume_system()
@@ -218,4 +218,4 @@ e6ab6113526aa485ca4256dbbfd8e6f48a4575f6 scsi: aha1542: Use memcpy_{from,to}_bve
 1b74ab77d62fe542af83e4cac95e8995032a30db scsi: target: core: Stop using bdevname()
 3d8fa78ebd61aada5d55de6e04beee7fd916c62b scsi: scsi_transport_sas: Add 22.5 Gbps link rate definitions
 
---===============8979714818562936846==--
+--===============7991547439519962287==--
