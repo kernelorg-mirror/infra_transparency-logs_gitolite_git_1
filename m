@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3301369835962307857=="
+Content-Type: multipart/mixed; boundary="===============7829803891365668003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 21 Oct 2021 12:59:47 -0000
-Message-Id: <163482118786.23891.15174457605714263656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 21 Oct 2021 12:59:54 -0000
+Message-Id: <163482119464.24012.9747964374748093582@gitolite.kernel.org>
 
---===============3301369835962307857==
+--===============7829803891365668003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/spi-5.15
     old: f09f6dfef8ce7b70a240cf83811e2b1909c3e47b
     new: 6b6c496a88e7273a3cc945236b2d39a8f0568a8a
     log: |
          6b6c496a88e7273a3cc945236b2d39a8f0568a8a spi: tegra20: fix build with CONFIG_PM_SLEEP=n
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/spi-5.16
     old: 3340ec49ba2c294a163d05319054c8506a8f30d9
     new: fbd30477ae5227319deb485ed544d2d2f5ab98cd
     log: revlist-3340ec49ba2c-fbd30477ae52.txt
 
---===============3301369835962307857==
+--===============7829803891365668003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634821185 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1634821185-f70129d9c137ee64a64fbd9e473d3256ec9a39fd
+pusher C3F436CA30F5D8EB 1634821192 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634821192-6c425119cc842688dbfe9d10263e6ef099fc94d8
 
-f09f6dfef8ce7b70a240cf83811e2b1909c3e47b 6b6c496a88e7273a3cc945236b2d39a8f0568a8a refs/heads/for-5.15
-3340ec49ba2c294a163d05319054c8506a8f30d9 fbd30477ae5227319deb485ed544d2d2f5ab98cd refs/heads/for-5.16
+f09f6dfef8ce7b70a240cf83811e2b1909c3e47b 6b6c496a88e7273a3cc945236b2d39a8f0568a8a refs/heads/spi-5.15
+3340ec49ba2c294a163d05319054c8506a8f30d9 fbd30477ae5227319deb485ed544d2d2f5ab98cd refs/heads/spi-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFxZEEACgkQJNaLcl1U
-h9AduQf/Z2L9lcJ5K08VPHn3vWZMWh86HtiOkGsRQ1J+NUTIX26L9/SGJLEgpasI
-BaQiRu0N4Yz6YNGzFCYZSvlsQv032IUU/2QVBWTSwv8rE2ysN+JdRKfWUtoiDH5I
-YLNjUd6LZyTUiC8id1HBiMgUoVyglicounqaUX9H3D2jYaEZGnVNLbcywXZV1PAT
-W9vGVL1mrEBOc/UGp58brKnc04Q1l0G6s8Ef7lRIapOaw+VqHv7GWNWPeJCNdIcL
-hB+PP7k6jWETnjGcsZiEtoisB2OobsF+BCrizJ4jcfaOP4A+6sST+HR/LAiyQYwF
-d4RWAxh1TWRM1cNOU2ytEtwRioMNAA==
-=msbJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFxZEgACgkQJNaLcl1U
+h9A59gf/fcEpUQNpB9c4zZczO5dLwKveNZ0y/S2NcMyubT36k442p/t8NniGCb7Z
+uncVKJa3WG6ATRjRW1/al1426bxv7Ws6EY7+SJBdkB2a8MCCdvstzz6q+kNmysx5
+eF1pBKhm6C5ho1SLw/PnpT0V3DQB6rwDb96wOlOnT5Lqb4U9ruXa/VbNaDhKz4AE
+aZFZYCUGCkFrnUFzdjyyQXN0m4hWU9UfoW4dElFPmRC32z+GJcta+2rjS81AQGvz
+xt+rZtCsUlzBsh1brTAm9uhl/e5qgr6aul+UaE3HiJHKXb7DNbFXTP4qFeV4zfZq
+pMUr6vZPxjjf3iPTERTDJkwk2gYJpg==
+=xhbv
 -----END PGP SIGNATURE-----
 
---===============3301369835962307857==
+--===============7829803891365668003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -809,4 +809,4 @@ cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://gi
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 fbd30477ae5227319deb485ed544d2d2f5ab98cd Merge tag 'v5.15-rc6' into spi-5.16
 
---===============3301369835962307857==--
+--===============7829803891365668003==--
