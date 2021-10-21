@@ -1,83 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7294804388633906197=="
+Content-Type: multipart/mixed; boundary="===============2010151870383198235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 21 Oct 2021 15:09:00 -0000
-Message-Id: <163482894087.7900.1545793405654380968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 21 Oct 2021 15:10:51 -0000
+Message-Id: <163482905151.9921.16744667385701787229@gitolite.kernel.org>
 
---===============7294804388633906197==
+--===============2010151870383198235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/fscache-rewrite-indexing-2
-    old: 0d85a9adee0e7c015b374deed4ab34e61e284cf8
-    new: 0d614043121c8701a7f8df09ee7012f88a115d27
-    log: revlist-0d85a9adee0e-0d614043121c.txt
+  - ref: refs/heads/x86/fpu
+    old: 079ec41b22b952cdf3126527d735e373c9125f6d
+    new: 5509cc78080d29b23706dbf076d51691b69f3c79
+    log: revlist-079ec41b22b9-5509cc78080d.txt
 
---===============7294804388633906197==
+--===============2010151870383198235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d85a9adee0e-0d614043121c.txt
+Content-Disposition: attachment; filename=revlist-079ec41b22b9-5509cc78080d.txt
 
-101e5136f181eaed2004906f9d3c48cefeab611d fscache_old: Move the old fscache driver to one side
-70ea30ac33d8897068220c8a38ef4d522e4aa1d8 fscache_old: Rename CONFIG_FSCACHE* to CONFIG_FSCACHE_OLD*
-9e101dba9e364397fc64c2f0c4a9a30d77c5e17d cachefiles_old:  Move the old cachefiles driver to one side
-9225d911188ab267f08d0dcd638bc194c6e8ce7f cachefiles_old: Rename CONFIG_CACHEFILES* to CONFIG_CACHEFILES_OLD*
-77cc2f62ba4f294a98a6f148ef36ba7a821eebd8 netfs: Display the netfs inode number in the netfs_read tracepoint
-28e5c1c718c5a82989f5121b66ad5e2caa7d74c4 netfs: Pass a flag to ->prepare_write() to say if there's no alloc'd space
-da62c4eaec3f9cf7bf5411502dfc8a9f1fd063db fscache: Introduce new driver
-705467aefb056ba6ad9c2d9b5543a4b3e375f990 fscache: Implement a hash function
-52263f7b03e7f7018b9e7a86cc036f5f76e45fed fscache: Implement cache registration
-470bf7e20de590f478d61a8be42c113b79a8f65c fscache: Implement volume registration
-7e4d0fc8dd3fac8187d86f994100fc6481018275 fscache: Implement cookie registration
-c1bfeb6c49b5f65fa1d9e5681c27d66818e3ca4f fscache: Implement cache-level access helpers
-d6df9a6652c112df84e84e41b40a6ff70d7a6a57 fscache: Implement volume-level access helpers
-432696abaf913f04b5f2bfca7de7badb637aadd1 fscache: Implement cookie-level access helpers
-7822ab90c20aee6a91d0fa9d4222b4bb2302fa44 fscache: Implement functions add/remove a cache
-e1789e7e8f2d76228e5e9ce25dc2617338864a36 fscache: Provide and use cache methods to lookup/create/free a volume
-0e7a0c3201a60f92d3b74313c5cb57412f9991de fscache: Add a function for a cache backend to note an I/O error
-f2fb824bcd925fc479d5d52befff62b5e9502912 fscache: Implement simple cookie state machine
-0794b7c6a85b1cce81d640140e5d7e479492ba56 fscache: Implement cookie user counting and resource pinning
-de91c1cc60167e3f1dc6e010d3d3258de2a6c7b2 fscache: Implement cookie invalidation
-10ab0bfe650e031fbc8ba3d1921af2b1d8f70147 fscache: Provide a means to begin an operation
-987c5033aff50f72fde44825a403d5beb785858d fscache: Provide read/write stat counters for the cache
-18e127e638952a5cc1578700bcd03a9e57521d21 fscache: Provide a function to let the netfs update its coherency data
-9a94ad4016c75cd6f2184ebf861fea6a8c858d7f fscache: Implement I/O interface
-360b9a06b5150dfd84e761bf7332d2829f9584d4 fscache: Provide fallback I/O functions
-1d0e950608e57d5a910405d5da4a97778ed66a2f vfs, fscache: Implement pinning of cache usage for writeback
-3e4ca27625999934a86bdf1b2bdae7f341775cc3 fscache: Provide a function to note the release of a page
-d65b693d96999b51ec1d4b358f0779af29f4c47b fscache: Provide a function to resize a cookie
-b35a84b9eaa4e0948b430b93c71c2d635e25bdc2 cachefiles: Introduce new driver
-7f1d9113efb303469077e37acbae486228e1f094 cachefiles: Add some error injection support
-1997ba0dc514fa1db4e9848dee64e660342613ea cachefiles: Define structs
-52abfecf164cf6133af740356dacb7cd88db0ee5 cachefiles: Add a couple of tracepoints for logging errors
-7d571c9c77578ac172b11439107618dfa1c1fbd7 cachefiles: Add I/O error reporting macros
-3019a05e11e7f3e8a871a43c69253968679d7712 cachefiles: Provide a function to check how much space there is
-51f5fc962e19ead9f2b83c16ccbbf954c1ccb15e cachefiles: Implement a function to get/create a directory in the cache
-d6bd7913f40c81b6a49b95bcf713082e3ee77349 cachefiles: Implement daemon UAPI and cache registration
-ecc3f7c36d3e2cb31add2ebcb6b43fb26394a5f4 cachefiles: Implement volume support
-b5890fe46f501c1af3f221ec19c1e3f738d65863 cachefiles: Implement data storage object handling
-b9229f3c19786bb3b4314690fc679cc6e5ba7f9b cachefiles: Implement begin and end I/O
-bf8b1b6c3aecc2e1f65f58741e710244f00c7162 cachefiles: Implement the I/O routines
-3e386cdbaed57a3f4f7dd61c26e982276f174e37 afs: Handle len being extending over page end in write_begin/write_end
-fb69abb155a6845bf950f062db84f9c3aabb6e0c afs: Fix afs_write_end() to handle len > page size
-08ac703eb4684542ee1c34097ed763668de48683 afs: Make afs_write_begin() return the THP subpage
-472def96fe6c98a65e889adaae54fef5326b77ee afs: Convert afs to use the new fscache API
-594f29d5a2292ac72e3fd6e23abb355a08b73aaa afs: Copy local writes to the cache when writing to the server
-b0b815e87665d43a8ebb808e9555613572fc619b afs: Skip truncation on the server of data we haven't written yet
-c466e87cda51a3657d9100553a440738204701eb afs: Add synchronous O_DIRECT support
-991466ab8aaa9512c4d7078a515a92eeb2e7b588 9p: Use fscache indexing rewrite and reenable caching
-440fae5794f018602a0a312c235bb68e5750138d 9p: Copy local writes to the cache when writing to the server
-e6be7bd376d5a56d04d65c7246043d5b32ae1e30 nfs: Convert to new fscache volume/cookie API
-5d0df4fdd956865199c45b2d6a1c992855c1b247 cifs: Support fscache indexing rewrite (untested)
-7f7407152983618d3a01edd602649612332063e1 fscache: Fix __fscache_unuse_cookie()
-0d614043121c8701a7f8df09ee7012f88a115d27 fscache_old, cachefiles_old: Remove old drivers
+bf5d00470787067ff27593c6a097b5eb6e01168e x86/fpu: Replace KVMs home brewed FPU copy to user
+87d0e5be0fac322f4415128def9f16a71a267a40 x86/fpu: Provide struct fpstate
+f83ac56acdad0815366bb541b6cc9d24f6cea2b2 x86/fpu: Convert fpstate_init() to struct fpstate
+18b3fa1ad15fa8d777ac32f117553cce1a968460 x86/fpu: Convert restore_fpregs_from_fpstate() to struct fpstate
+087df48c298c1cb829f4cd468d90f93234b1bc44 x86/fpu: Replace KVMs xstate component clearing
+1c57572d754fc54e0b8ac0df5350969ce6292d12 x86/KVM: Convert to fpstate
+cceb496420fa11a6e11989abc68b8e7564dc40f9 x86/fpu: Convert tracing to fpstate
+caee31a36c33ed7788d0b3d93a663860157f6c55 x86/fpu/regset: Convert to fpstate
+7e049e8b74591038c831e765585ae9038b7880a1 x86/fpu/signal: Convert to fpstate
+c20942ce5128ef92e2c451f943ba33462ad2fbc4 x86/fpu/core: Convert to fpstate
+63d6bdf36ce1541e656966604c12ac4d9fc5d1f0 x86/math-emu: Convert to fpstate
+2f27b5034244c4ebd70c90066defa771a99a5320 x86/fpu: Remove fpu::state
+f0cbc8b3cdf7d1c724155cd9cecffe329bb96119 x86/fpu: Do not leak fpstate pointer on fork
+2dd8eedc80b184bb16aad697ae60367c5bf07299 x86/process: Move arch_thread_struct_whitelist() out of line
+248452ce21aeb08da2d2af23d88f890886bd379f x86/fpu: Add size and mask information to fpstate
+be31dfdfd75b172af3ddcfa7511cdc3bb7adb25e x86/fpu: Use fpstate::size
+073e627a4537e682c43a1e8df659ce24cbced40c x86/fpu/xstate: Use fpstate for os_xsave()
+0b2d39aa03574eb401cdfaac2f483a6f68173355 x86/fpu/xstate: Use fpstate for xsave_to_user_sigframe()
+ad6ede407aae01d9617e172b27e179ce1046cbfc x86/fpu: Use fpstate in fpu_copy_kvm_uabi_to_fpstate()
+3ac8d75778fc8c1c22daad9bc674166b862f6f6e x86/fpu: Use fpstate in __copy_xstate_to_uabi_buf()
+49e4eb4125d506937e52e10c34c8cafd93ab0ed6 x86/fpu/xstate: Use fpstate for copy_uabi_to_xstate()
+5509cc78080d29b23706dbf076d51691b69f3c79 x86/fpu/signal: Use fpstate for size and features
 
---===============7294804388633906197==--
+--===============2010151870383198235==--
