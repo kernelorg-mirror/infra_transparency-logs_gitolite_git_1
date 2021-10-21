@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 21 Oct 2021 17:03:45 -0000
-Message-Id: <163483582597.16811.3734436583118696702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 21 Oct 2021 17:10:00 -0000
+Message-Id: <163483620067.19999.3934299895554299436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/auto-latest
-    old: 480ff896fba83f9d4ff5ea7180757988b4f76093
-    new: 8254ef0e3d0be329bc4121f43522f822d8b2e2fb
-    log: |
-         5681981fb788281b09a4ea14d310d30b2bd89132 x86/sev: Fix stack type check in vc_switch_off_ist()
-         ce47d0c00ff5621ae5825c9d81722b23b0df395e x86/sev: Allow #VC exceptions on the VC2 stack
-         8254ef0e3d0be329bc4121f43522f822d8b2e2fb Merge remote-tracking branch 'tip/x86/sev' into tip-master
-         
+  - ref: refs/heads/for-next/trbe-errata
+    old: 0000000000000000000000000000000000000000
+    new: 8d81b2a38ddfc4b03662d2359765648c8b4cc73c
