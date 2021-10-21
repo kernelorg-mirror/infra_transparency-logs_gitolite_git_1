@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6205918066658592825=="
+Content-Type: multipart/mixed; boundary="===============1779321380964852324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 21 Oct 2021 10:53:56 -0000
-Message-Id: <163481363635.9768.8434766260730064896@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 10:58:11 -0000
+Message-Id: <163481389172.12405.7490742878725559998@gitolite.kernel.org>
 
---===============6205918066658592825==
+--===============1779321380964852324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 1ad707f559f7cb12c64f3d7cb37f0b1ea27c1058
-    new: 859c675d84d488e2f9b515c713ea890c9f045f0c
+    old: 859c675d84d488e2f9b515c713ea890c9f045f0c
+    new: e6bab2b66329b40462fb1bed6f98bc3fcf543a1c
     log: |
-         fc153aba3ef371d0d76eb88230ed4e0dee5b38f2 usb: max-3421: Use driver data instead of maintaining a list of bound devices
-         859c675d84d488e2f9b515c713ea890c9f045f0c usb: gadget: uvc: consistently use define for headerlen
+         e6bab2b66329b40462fb1bed6f98bc3fcf543a1c usb: gadget: uvc: rename function to be more consistent
          
 
---===============6205918066658592825==
+--===============1779321380964852324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634813634 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634813890 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1634813633-c5aaaa8731db619db89d544c12ac9fdebd5891a7
+nonce 1634813889-f46d0e22a790705ecdb5702af43ee7d5073c5710
 
-1ad707f559f7cb12c64f3d7cb37f0b1ea27c1058 859c675d84d488e2f9b515c713ea890c9f045f0c refs/heads/usb-testing
+859c675d84d488e2f9b515c713ea890c9f045f0c e6bab2b66329b40462fb1bed6f98bc3fcf543a1c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFxRsIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HZ4P/2wVy/ZE14XNnA7x/Nos
-l8aoP/6pdNaBsCnOMkD1I85jKEwEjAUKVmHerzJVdL16J5VqOpwrqU6AZ0/g/723
-/GpruVkZgP8sOqlAntYeqUfIJcKgnxQALohtkU6x5aHoQEWzTBN6uTeu179YAwgq
-F324pIvAo+fet5I5lKX2WWl8+VWJgyO1bg6cjevm9uhVm6wJoDryl34e7GX9GleJ
-eguw/ANCuWP9Rai+2yYZkUYhX5XDzpg6KRoz3VFigTRenFnfnIjmwZM9hrL4wDFi
-sBwDzttjX/HwVHe2dxGHl5M7d9NkJY//ECFtUCKG8sPYk6YtinSd4XeTYmnUSe4L
-SCO/pOunu7t3a5Tg/ZeMxkrImoY26SpwQNgx5xDQgOCZ6jLsJPJyIA98s+95IlNj
-P4rKqz+bNrtdiFz2T1jRRU2My3oN/ZHJw4kKNxBIUVTIQh/ZRA3NbraClDejvlSn
-uMesMaJmNKy7oam/tPR4q8NciIs8U41XZxyBh3u+755gSpRukTvXx/g0jXNKofzG
-BptpgWiLLYX9qGEH4dpPtZpm0DuAEkPHTqYsmAm3uw0DTvzvi81a7YSGD2xn3muO
-GqxTBZW990uU/D/VGwpRoxMsnJbTh7M9yZBW7gNWEbHmTSPzy5l2xS733cZs9n9/
-7NR6a979XxtX4ztKBSlMDTZe
-=cTVM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFxR8IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+90oP/2/cpk7dVoBpe78Fa+mo
+cE6Wf4GnO3creokBGiJa6mRFV1zQxxfrTV+FfOkncGaweVs19ddLWTIF4i9LuNcy
+RpEQam0nUt2yoc7Iu8m5JDh20ucv0D2hTmYH/zxW9aKONslgZDkZRTJSDl0t0lpA
+Y/i+WFIpu66rX36//b2jwDFG1yq25qXxCmv1Q9ySTMwgzgMQVCHrmvFrXmwnGlgt
+Xy0fbgUHHFqAZSSyqUIjd8FMMxIEUI8+byHK3chVT0hfl7qs+BpPpFM9qbwmbNgu
+RmJjWbLAgQP8pyajJ4UOgiKU/iPDszbz9DS1Ts5iblsctpN6y95WL6uZngYBlLB6
+C3eoXNWBm9DIFyQ0ZL4DkYJrQMjlawykkTYsZHJ9VZgxmXrHUqDr2ZZf9yFwkLnT
+sa+dJ8XnJPjoZYHYqyihQFu3cLu8uCpYYfHOWO2f9iEM8xLwNO2FxCWdOmG077Va
+g/RPfQdzqr2RB80864BXsl1fy31BB6oK0YmcCwYHiHA8/x+jtEE+Cyes2IVn5C+H
+r5S0T8guE/AicZWguN9mGz4M3OIegg8sB2KOihKEtYoG5JVyF2Fx/5g82U+4gsWF
+QuW5iTo/fqYe3j5BeeZa/lmOqAyKGnCQ/fV5cbymBtuys3thp7Z8GN13aOZhHdrr
+AenDaz6wzpZBirZJ2oZoviNe
+=IEhi
 -----END PGP SIGNATURE-----
 
---===============6205918066658592825==--
+--===============1779321380964852324==--
