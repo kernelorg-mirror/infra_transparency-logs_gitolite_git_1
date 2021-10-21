@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 21 Oct 2021 18:32:41 -0000
-Message-Id: <163484116175.8543.9581139116381184891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 21 Oct 2021 18:37:11 -0000
+Message-Id: <163484143161.11239.13150460261970947599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 1b0374157c92f3256f1a4d0e69489486ca3f4508
-    new: c49cf698370641536cf7c5288e66b0370676606a
+  - ref: refs/heads/review-hans
+    old: 86af1d02d458379ae53031fabad560f10f8bdadd
+    new: b53baa6835ea307e7a816986b3ba95cc6494e9b5
     log: |
-         46ee5feb55f778efdd8b21907b195ead363af742 monitor/msft: Fix uuid.u128 format
-         5226a2d35969ef1151f6e5cb3f3c35fb53afa5a3 monitor/msft: Add feature bits definition
-         a6b2fd7bf28c850821b50fe675766e0624dee3de emulator/vhci: Fix writing msft_opcode using binary format
-         655078d1f867390ad7ed9eaa208994506511666b btdev: Use Linux Foundation as manufacturer
-         47be9d40561649a2d060016cdc2a67bb79cd4d36 monitor: Enable decoding of MSFT extension with emulator
-         c49cf698370641536cf7c5288e66b0370676606a emulator: Add initial support for MSFT vendor commands
+         4c9dbf8622797eee44e9a4f7327d3d04aa4d1d5f platform/x86: amd-pmc: adjust arguments for `amd_pmc_send_cmd`
+         59348401ebed9f0e8ffe2d5b9cf1de30ecb24dde platform/x86: amd-pmc: Add special handling for timer based S0i3 wakeup
+         ef51b9a520f04875da3e5175fddbdb6980e9ab3a platform/surface: gpe: Add support for Surface Laptop Studio
+         4f042e40199ce8bac6bc2b853e81744ee4ea759c platform/surface: aggregator_registry: Add support for Surface Laptop Studio
+         27ab029fdbb4c808b377efc9bde8a4b1c7e93341 HID: surface-hid: Use correct event registry for managing HID events
+         791c70b43b0a2ab2212317c349f928642e412adf HID: surface-hid: Allow driver matching for target ID 1 devices
+         b53baa6835ea307e7a816986b3ba95cc6494e9b5 platform/x86: wmi: change notification handler type
          
