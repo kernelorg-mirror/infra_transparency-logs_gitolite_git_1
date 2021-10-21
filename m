@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 21 Oct 2021 22:02:57 -0000
-Message-Id: <163485377762.9495.7559335893481838038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 21 Oct 2021 22:09:30 -0000
+Message-Id: <163485417030.12748.6991652587994628603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 28fd0859284d02405da90ec5d9ace7ae1a63cf44
-    new: 1acfe7c9b44b1ebc36630682508ded74281f8070
+    old: db5b6a46f43aba3473c8b6b1d11aff1fa2aa354b
+    new: 44ce0ac11e4e6dd1aee2e41e7d74f95f3b961cfb
     log: |
-         1acfe7c9b44b1ebc36630682508ded74281f8070 bpf: Fix error usage of map_fd and fdget() in generic_map_update_batch()
+         44ce0ac11e4e6dd1aee2e41e7d74f95f3b961cfb samples: bpf: Suppress readelf stderr when probing for BTF support
          
