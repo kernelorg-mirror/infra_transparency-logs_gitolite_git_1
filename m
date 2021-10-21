@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 21 Oct 2021 17:03:05 -0000
-Message-Id: <163483578504.16527.9707483385357713793@gitolite.kernel.org>
+Date: Thu, 21 Oct 2021 17:03:45 -0000
+Message-Id: <163483582597.16811.3734436583118696702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 480ff896fba83f9d4ff5ea7180757988b4f76093
     new: 8254ef0e3d0be329bc4121f43522f822d8b2e2fb
     log: |
