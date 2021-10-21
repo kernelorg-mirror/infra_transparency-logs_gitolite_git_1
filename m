@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Thu, 21 Oct 2021 15:40:35 -0000
-Message-Id: <163483083564.28927.14726422937366658198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 21 Oct 2021 15:42:10 -0000
+Message-Id: <163483093011.29505.12595971616453682654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/thermal/linux-next
-    old: c4fcf1ada4ae63e0aab6afd19ca2e7d16833302c
-    new: a67a46af4ad6342378e332b7420c1d1a2818c53f
+  - ref: refs/heads/for-next/hardening
+    old: 87226823755186a38baea815fd7dfdd04dd70a14
+    new: 6425392acf24b6d469932dd1b217dc7b20d6447f
     log: |
-         0275c9fb0eff3f77d437ab8a95b16e6f8f80b7f2 thermal/core: Make the userspace governor deprecated
-         a67a46af4ad6342378e332b7420c1d1a2818c53f thermal/core: Deprecate changing cooling device state from userspace
+         8bd51a2ba3c3bb81a693fff17e983d02d914c14c gcc-plugins: Explicitly document purpose and deprecation schedule
+         b4d89579ccb1ad5ffcdb3430933ce1e31a009ec7 gcc-plugins: Remove cyc_complexity
+         6425392acf24b6d469932dd1b217dc7b20d6447f gcc-plugins: remove duplicate include in gcc-common.h
          
