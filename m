@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 22 Oct 2021 21:12:59 -0000
-Message-Id: <163493717997.25266.2383253915863222483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 22 Oct 2021 21:24:58 -0000
+Message-Id: <163493789885.521.7173890799590798570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: af96d4fda1e874b9326f9b0a78752ab0360fccfb
-    new: 29d8276417bd3069900e3bfc7594ad9a191a07f0
+    old: 29da17c48886543a73866f054f803c7737dee1c6
+    new: fae1b05e6f0acf116f6450535b0e1c13051102d3
     log: |
-         29d8276417bd3069900e3bfc7594ad9a191a07f0 Fri Oct 22 09:12:29 PM UTC 2021
+         fae1b05e6f0acf116f6450535b0e1c13051102d3 libbpf: Fix the use of aligned attribute
          
