@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 22 Oct 2021 12:24:02 -0000
-Message-Id: <163490544232.15955.8499176789255478922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 22 Oct 2021 12:35:42 -0000
+Message-Id: <163490614257.24015.3653214505940791906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
-    old: 0e14ef38669ce4faa80589247fe8ed8a3780f414
-    new: f8690a4b5a1b64f74ae5c4f7c4ea880d8a8e1a0d
+    old: 06f6e365e2ecf799c249bb464aa9d5f055e88b56
+    new: 3ae88f676aa63366ffa9eebb8ae787c7e19f0c57
     log: |
-         f8690a4b5a1b64f74ae5c4f7c4ea880d8a8e1a0d crypto: x86/sm4 - Fix invalid section entry size
+         7e75c33756c980d0ec1cca83082fef960f1dcc1f hwrng: s390 - replace snprintf in show functions with sysfs_emit
+         3ae88f676aa63366ffa9eebb8ae787c7e19f0c57 crypto: tcrypt - fix skcipher multi-buffer tests for 1420B blocks
          
