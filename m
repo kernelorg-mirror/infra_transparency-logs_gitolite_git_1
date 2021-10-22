@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 22 Oct 2021 00:32:46 -0000
-Message-Id: <163486276679.6758.10179566730889750602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leo/linux
+Date: Fri, 22 Oct 2021 00:39:44 -0000
+Message-Id: <163486318410.10113.4238538981120096005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/leo/linux
+user: leo
 changes:
   - ref: refs/heads/next
-    old: a9c99e98815f06bd034b2b32ce0a5114891f2370
-    new: c404f6fb8ff3e409e8e99a4b1cfae75d8b1cd808
+    old: a3aae3a98a3803c38c87ffde47040ab46258ccdb
+    new: 54c8b5b6f8a868b9c21a7b0efe92ed2fbcc67080
     log: |
-         cad8b8b840d621cd072aaf33eda5939a194ec530 btf_encoder: Make BTF_KIND_TAG conditional
-         9584c648754eeec281255aef53173953d4c51599 dwarf_loader: Fix heap overflow when accessing variable specification
-         d1a31c679bc0e8a41aea523f85ed5e3b89a78592 btf_encoder: Fix handling of percpu symbols on s390
-         2314a6a8ec916a845c6e8e090525dff2d405de3e fprintf: Fix nested struct printing wrt attributes
-         fa514ca51ceee890f3f3b996e170ca331b45354f pahole: Add --skip_missing option
-         d9061a5df0825b8c83d1d9f0365aef4453972ff6 btf_loader.c: Refactor class__fixup_btf_bitfields
-         c404f6fb8ff3e409e8e99a4b1cfae75d8b1cd808 btf_loader.c: Infer alignment info
+         e0162129c6763eb02765a1b33fdaac6980fb0c46 soc: fsl: guts: Make use of the helper function devm_platform_ioremap_resource()
+         ea41191165fdce7baef9a9ab09523c6d3d0525e1 soc: fsl: rcpm: Make use of the helper function devm_platform_ioremap_resource()
+         a7ff7dcaf4d2dfbfd901e28ab0101ee9a1b8bf98 soc: fsl: dpio: use an explicit NULL instead of 0
+         54c8b5b6f8a868b9c21a7b0efe92ed2fbcc67080 soc: fsl: dpio: rename the enqueue descriptor variable
          
