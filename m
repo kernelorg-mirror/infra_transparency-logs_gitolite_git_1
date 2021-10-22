@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 22 Oct 2021 17:18:34 -0000
-Message-Id: <163492311453.8250.12520750547804972769@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4325581260778345486=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 22 Oct 2021 17:18:44 -0000
+Message-Id: <163492312445.8510.8510807905129070218@gitolite.kernel.org>
+
+--===============4325581260778345486==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: e782911d334bec195f78c18d7609bfdfd08cc159
-    new: f0c244cc8432996e41451d56c3fe481caf1f1f4c
-    log: |
-         04773eaa2cd42d62e873f977fce0b51f84623aa4 doc: Update agent-api.txt to match code and clarify
-         028f963f51277d0d3fa916bc1000cc49188ecef0 treewide: Parse EnableNetworkConfiguration in one place
-         93b503fc4e98de63400e7a4667377b4ab2f63b7f main: Simplify away l_dbus_message_builder use
-         3a9ac8484a96103e6cdd5d7fa12fd5b245987e1f netconfig: Cache the IPv6 l_rtnl_address object
-         ca6767e5f71a4fcfd2300da57cec84cbf9b0d558 netconfig: Refactor netconfig_ipv4_get_gateway
-         f42022093bc9e7e10fdf829e3f600ed2c9b86a80 netconfig: trivial: Fix double-empty space
-         8fee37d036b063f4d83dbe9abfa59001c8f32907 netconfig: Track gateway address strings
-         d6f9282268489c182e8fd4ca1e38c08befa8c146 netconfig: Track DNS address string lists
-         f10018c0a90d591d7341f6e9a0a4a9d4600f4221 netconfig: Track local domains lists
-         f0c244cc8432996e41451d56c3fe481caf1f1f4c netconfig: Convert netconfig_load_settings to use _auto_
-         
+    old: 016c89460d348c405313019bffeb73971e35ed09
+    new: 07591ebec3cf2d6b78cb9b51a5a6f3ca731ec375
+    log: revlist-016c89460d34-07591ebec3cf.txt
+
+--===============4325581260778345486==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-016c89460d34-07591ebec3cf.txt
+
+93772114413ee7ba33b9abda54dd857e6e5d9a6e net: xen: use eth_hw_addr_set()
+a7021af707a3637c963ce41802b650db6793eb8a usb: smsc: use eth_hw_addr_set()
+18867486fea3f9439c4c7e66e92146bd6bf3de85 net: qmi_wwan: use dev_addr_mod()
+2674e7ea22ba0e22a2d1603bd51e0b8f6442a267 net: usb: don't write directly to netdev->dev_addr
+1e9258c389ee58b34238abaa600c10270b081af8 fddi: defxx,defza: use dev_addr_set()
+2e0566aeb9ff83db9fb22bf6f0b994f03377b038 fddi: skfp: constify and use dev_addr_set()
+ed088907563da490d227a734076d705acc0d236c net: fjes: constify and use eth_hw_addr_set()
+5ed5b1912a81b9084fad2ef2b126990d18c83827 net: hippi: use dev_addr_set()
+978bb0ae8b83097b2889f19907d2b519528ef235 net: s390: constify and use eth_hw_addr_set()
+7996acffd7cc83504eb300e791c80ac9c7f7e893 net: plip: use eth_hw_addr_set()
+5f07da89bcd0759ac8391b917245a07fbdcf9234 net: sb1000,rionet: use eth_hw_addr_set()
+65a4fbbf22636af5dd110fc272fac6b0d84e42fc net: hldc_fr: use dev_addr_set()
+07591ebec3cf2d6b78cb9b51a5a6f3ca731ec375 Merge branch 'net-don-t-write-directly-to-netdev-dev_addr'
+
+--===============4325581260778345486==--
