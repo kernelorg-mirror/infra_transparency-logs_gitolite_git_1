@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1853275852774043801=="
+Content-Type: multipart/mixed; boundary="===============8813549122611503442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 22 Oct 2021 09:06:15 -0000
-Message-Id: <163489357579.22435.16220839576879856211@gitolite.kernel.org>
+Date: Fri, 22 Oct 2021 09:06:47 -0000
+Message-Id: <163489360709.22655.616585353949375187@gitolite.kernel.org>
 
---===============1853275852774043801==
+--===============8813549122611503442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: c31237afcd6345d7a98c227e796088ed5bea0d44
-    new: 9da4b50c384c9d0567cedfb2e65d39d8c6b2a674
+    old: 9da4b50c384c9d0567cedfb2e65d39d8c6b2a674
+    new: 5c0480deda08ae804c495409a3d11c5345f2a964
     log: |
-         9da4b50c384c9d0567cedfb2e65d39d8c6b2a674 staging: vt6655: Use named constants when checking preamble type
+         5c0480deda08ae804c495409a3d11c5345f2a964 staging: r8188eu: Use memdup_user instead of kmalloc/copy_from_user
          
 
---===============1853275852774043801==
+--===============8813549122611503442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634893574 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1634893605 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1634893573-e682954b8e61813dc81e2e6c9702991c9bee9442
+nonce 1634893604-4017f7fb52f1033bc0b087062ec53b076004ca54
 
-c31237afcd6345d7a98c227e796088ed5bea0d44 9da4b50c384c9d0567cedfb2e65d39d8c6b2a674 refs/heads/staging-testing
+9da4b50c384c9d0567cedfb2e65d39d8c6b2a674 5c0480deda08ae804c495409a3d11c5345f2a964 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFyfwYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SE0P/2tmjkdRPlG3ZPyznm63
-IYGmuJ2nhii+Ahm5XqmPBZNoLQMpqFSHzWC46pocQhTSXyMbAOfRiaoOLSjhAa4e
-A8ecsQ9h/RNmDtnLy2YxDjxjoSjbMDzmRwtS18MBdi4NPKkU0uGkcTCfjB/uC52C
-Sx2NnVhGHqxbY693H0NWKVrA9va0I15ssGwaMDZab7wVp2oU9P26Mm/QOot2yrhG
-XieT5UnUnktqruW/Cc3fGD4o/BFy+TJbwtNaKNdWRkD5XJT370pVvEFdbUKb4DRc
-Dssws3BNV7YBZBVahn+lMkYfDPLdwruppGFEBx9/YC1ErNne2a/h3g71cGiYj09P
-7UdPep6hcsYVvDcyzSGljWjq/1mIW+xxeiVSvQIBx6AelfXnlDVQ7llR1C4gFskh
-N2qKjC0p+Sr/oLPY08yDz11JN3KBQnp9zPl2sC6XDkPIU2HHuENSWThimbYgLrD/
-q88doDbjtxPg6CFU1RTc7yvad06VUtFxjXFNAK9rWR9HFoCprroL6LUuAMLuCPcP
-lKsZMTfFVuboTCs5YkvfuIXLaYPEYjwK2LS2uAg5hxrGtfyLWo9ZcuuOOFA4tkPW
-Cqf30dZRnFpBme6Xj27JE93Y1Z7lSWUm+n7HWAG35z1y6xw9oT50XScFBi/wCynW
-6Ef7K02VyOc7A8q+zAxTbhtT
-=waue
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmFyfyUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fGQP/it38qmJVEG4Z+79Tsy6
+DleavDfFpDHAP9V60bw1HhoEEutuwryPSNs7+FJsoK8soJG9j166LTWlo5lIF/5i
+qGHNW6hRLrABU3/t23CA7/z6GZX2TQEbibF/Zo6o6LznW3DQAZ/asT5kqZT2aEno
+YZV/zHodaPZy7BpXGjnlnSSv+6+iTvfEzGPjJ74m4I7GxVM+rRw+xIXJqRyqUECE
++o7F5Yb/5jTYFDSVxtCsiSrTyku2odsqgad0N6yW0Qky9NLMEpSdPfKxFYpI1s/e
+OAjAEpae4VcuySxG9+1lAfzx1hvT806YNwPBgeTAy14/b+ED0KZCd5oDJZYV88Yc
+Cohwpgg5MTx3c1tyPKb2uLHQLlyYU/FkZ1nK29+qonVeQ8IVUgRkx7z8LTne1WVg
+EjuS7wiqORkAwnpz84XnbELzRKSnJCUs4tNISnno3w6KUNrZxJeZrgG3EDAzw2id
+uNLlyRJsE2uWLHnTyKGRMx488ff4Ld9yr5sUn3SKYKU+cWUJML9w3kd1IyspAq0W
+AJFiAts1kr1uf1cWcSbbqgl6AYMVaTfdaRqJw7FWoOsNL77SkNTl0ERs2+4qmzJH
+WgEp81oYnYM1//Cz46JLKIkjO6RqlsOuDer04uTU72WGd9wsTFxERSVbk76Si8sU
+z5e/H+cvw1yD4Evq/CKhIur1
+=/T/B
 -----END PGP SIGNATURE-----
 
---===============1853275852774043801==--
+--===============8813549122611503442==--
