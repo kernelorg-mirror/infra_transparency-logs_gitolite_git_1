@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4895623431565005849=="
+Content-Type: multipart/mixed; boundary="===============1220670668617940123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 22 Oct 2021 07:20:02 -0000
-Message-Id: <163488720286.4124.189953305844290609@gitolite.kernel.org>
+Date: Fri, 22 Oct 2021 07:21:20 -0000
+Message-Id: <163488728026.5874.9480744304234064022@gitolite.kernel.org>
 
---===============4895623431565005849==
+--===============1220670668617940123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: f7354d76523e61500e58c8fbeb824567e346bfd9
-    new: abda804ac425e1338c22ba76fb079f923872f93e
-    log: revlist-f7354d76523e-abda804ac425.txt
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+    new: c4a7eedcabf91624c113c5cc2b71cf2c8735ef91
+    log: revlist-f7354d76523e-c4a7eedcabf9.txt
+  - ref: refs/heads/master
+    old: abda804ac425e1338c22ba76fb079f923872f93e
+    new: c4a7eedcabf91624c113c5cc2b71cf2c8735ef91
+    log: revlist-abda804ac425-c4a7eedcabf9.txt
 
---===============4895623431565005849==
+--===============1220670668617940123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7354d76523e-abda804ac425.txt
+Content-Disposition: attachment; filename=revlist-f7354d76523e-c4a7eedcabf9.txt
 
 3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
 74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
@@ -206,6 +207,48 @@ e378f4967c8edd64c680f2e279cb646ee06b6f2d net: enetc: make sure all traffic class
 6c9a54551977ddf2d6e22c21354b4fb88946f96e Revert "memblock: exclude NOMAP regions from kmemleak"
 658aafc8139c23a6a23f6f4d9a0c4c95476838d4 memblock: exclude MEMBLOCK_NOMAP regions from kmemleak
 64222515138e43da1fcf288f0289ef1020427b87 Merge tag 'drm-fixes-2021-10-22' of git://anongit.freedesktop.org/drm/drm
-abda804ac425e1338c22ba76fb079f923872f93e Merge branch 'linus'
+40bd0b7b60c72ee521622b36b45278777320cd18 Merge branch 'x86/urgent'
+31a20d9f2a9f05cfec8587c651decb8c05b87ee6 Merge branch 'x86/sgx'
+291b8a74c30b095b4fda631f87ec35a1faefbb5c Merge branch 'x86/sev'
+8296ab1a7b7b346d75f54008d474c7ac722de3c4 Merge branch 'x86/misc'
+1e9ee43adbf6a9349486f46111f6c3d0311708ab Merge branch 'x86/fpu'
+b9e42436ff4cd7c27b32eb4b19e6c52874401fb8 Merge branch 'x86/cpu'
+672524bba11e4d1e2c9e0f6296269eddb12524ac Merge branch 'x86/core'
+3f9c59fe4d23a0f982173c6d9ecaa4a1b04bbed1 Merge branch 'x86/cleanups'
+62aa5d58d1f50c30cdccb2f856fab7ef63b0174d Merge branch 'x86/build'
+f59c2d09bcb5e4f1db8433d0747b6a0580016d30 Merge branch 'sched/urgent'
+bc185d276a0bf80af66b630e195772c3d6efddf9 Merge branch 'sched/core'
+66b3c1c30eacf5cbf7271c614221f0dbfb97847f Merge branch 'ras/core'
+d9c60b4771a44308d2e230938d4e930831f48446 Merge branch 'perf/core'
+9ad76a9edc181e093c314788cf8d20b129fd6ac0 Merge branch 'objtool/core'
+d42cc14d00aae5f3819864e9d79d1b8e26ba8c59 Merge branch 'locking/wwmutex'
+f048efc1aaf1ce5bb902558c1c89ed7f95b1abea Merge branch 'locking/core'
+f1b0f1e3059bf4e3073778a93bd564364889c885 Merge branch 'irq/core'
+c4a7eedcabf91624c113c5cc2b71cf2c8735ef91 Merge branch 'efi/core'
 
---===============4895623431565005849==--
+--===============1220670668617940123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-abda804ac425-c4a7eedcabf9.txt
+
+40bd0b7b60c72ee521622b36b45278777320cd18 Merge branch 'x86/urgent'
+31a20d9f2a9f05cfec8587c651decb8c05b87ee6 Merge branch 'x86/sgx'
+291b8a74c30b095b4fda631f87ec35a1faefbb5c Merge branch 'x86/sev'
+8296ab1a7b7b346d75f54008d474c7ac722de3c4 Merge branch 'x86/misc'
+1e9ee43adbf6a9349486f46111f6c3d0311708ab Merge branch 'x86/fpu'
+b9e42436ff4cd7c27b32eb4b19e6c52874401fb8 Merge branch 'x86/cpu'
+672524bba11e4d1e2c9e0f6296269eddb12524ac Merge branch 'x86/core'
+3f9c59fe4d23a0f982173c6d9ecaa4a1b04bbed1 Merge branch 'x86/cleanups'
+62aa5d58d1f50c30cdccb2f856fab7ef63b0174d Merge branch 'x86/build'
+f59c2d09bcb5e4f1db8433d0747b6a0580016d30 Merge branch 'sched/urgent'
+bc185d276a0bf80af66b630e195772c3d6efddf9 Merge branch 'sched/core'
+66b3c1c30eacf5cbf7271c614221f0dbfb97847f Merge branch 'ras/core'
+d9c60b4771a44308d2e230938d4e930831f48446 Merge branch 'perf/core'
+9ad76a9edc181e093c314788cf8d20b129fd6ac0 Merge branch 'objtool/core'
+d42cc14d00aae5f3819864e9d79d1b8e26ba8c59 Merge branch 'locking/wwmutex'
+f048efc1aaf1ce5bb902558c1c89ed7f95b1abea Merge branch 'locking/core'
+f1b0f1e3059bf4e3073778a93bd564364889c885 Merge branch 'irq/core'
+c4a7eedcabf91624c113c5cc2b71cf2c8735ef91 Merge branch 'efi/core'
+
+--===============1220670668617940123==--
