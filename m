@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5509483853689265099=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 22 Oct 2021 00:25:37 -0000
-Message-Id: <163486233709.3105.18157888913441440203@gitolite.kernel.org>
-
---===============5509483853689265099==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 22 Oct 2021 00:32:37 -0000
+Message-Id: <163486275790.6624.14848240464932219379@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: b0c7663dd5649ef014edc67f7249c65d8f6ec25a
-    new: 29da17c48886543a73866f054f803c7737dee1c6
-    log: revlist-b0c7663dd564-29da17c48886.txt
-
---===============5509483853689265099==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0c7663dd564-29da17c48886.txt
-
-b96c07f3b5ae6944eb52fd96a322340aa80aef5d libbpf: Deprecate btf__finalize_data() and move it into libbpf.c
-29a30ff501518a49282754909543cef1ef49e4bc libbpf: Extract ELF processing state into separate struct
-ad23b7238474c6319bf692ae6ce037d9696df1d1 libbpf: Use Elf64-specific types explicitly for dealing with ELF
-25bbbd7a444b1624000389830d46ffdc5b809ee8 libbpf: Remove assumptions about uniqueness of .rodata/.data/.bss maps
-8654b4d35e6c915ef456c14320ec8720383e81a7 bpftool: Support multiple .rodata/.data internal maps in skeleton
-ef9356d392f980b3b192668fa05b2eaaad127da1 bpftool: Improve skeleton generation for data maps without DATASEC type
-aed659170a3171e425913ae259d46396fb9c10ef libbpf: Support multiple .rodata.* and .data.* BPF maps
-30c5bd96476ced0d3e08372be5186ff7f421d10c selftests/bpf: Demonstrate use of custom .rodata/.data sections
-26071635ac5ecd8276bf3bdfc3ea1128c93ac722 libbpf: Simplify look up by name of internal maps
-4f2511e1990985103929ab799fb3ebca81969b77 selftests/bpf: Switch to ".bss"/".rodata"/".data" lookups for internal maps
-29da17c48886543a73866f054f803c7737dee1c6 Merge branch 'libbpf: support custom .rodata.*/.data.* sections'
-
---===============5509483853689265099==--
+  - ref: refs/heads/tmp.master
+    old: a9c99e98815f06bd034b2b32ce0a5114891f2370
+    new: c404f6fb8ff3e409e8e99a4b1cfae75d8b1cd808
+    log: |
+         cad8b8b840d621cd072aaf33eda5939a194ec530 btf_encoder: Make BTF_KIND_TAG conditional
+         9584c648754eeec281255aef53173953d4c51599 dwarf_loader: Fix heap overflow when accessing variable specification
+         d1a31c679bc0e8a41aea523f85ed5e3b89a78592 btf_encoder: Fix handling of percpu symbols on s390
+         2314a6a8ec916a845c6e8e090525dff2d405de3e fprintf: Fix nested struct printing wrt attributes
+         fa514ca51ceee890f3f3b996e170ca331b45354f pahole: Add --skip_missing option
+         d9061a5df0825b8c83d1d9f0365aef4453972ff6 btf_loader.c: Refactor class__fixup_btf_bitfields
+         c404f6fb8ff3e409e8e99a4b1cfae75d8b1cd808 btf_loader.c: Infer alignment info
+         
