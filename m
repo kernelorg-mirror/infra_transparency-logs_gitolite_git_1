@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7354539646710466173=="
+Content-Type: multipart/mixed; boundary="===============7075846328995015148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 22 Oct 2021 00:52:05 -0000
-Message-Id: <163486392530.19376.16772135230348255789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 22 Oct 2021 00:52:11 -0000
+Message-Id: <163486393184.19505.18089307298038115818@gitolite.kernel.org>
 
---===============7354539646710466173==
+--===============7075846328995015148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/regulator-5.16
     old: 061514dbfb79910ef60eb40dd9fc528be3f45d62
     new: 0627d75a18ea28d7422d3476352265399c86d7d6
     log: |
@@ -31,28 +31,28 @@ changes:
          0627d75a18ea28d7422d3476352265399c86d7d6 Merge series "regulator: Introduce UniPhier NX1 SoC support" from Kunihiko Hayashi <hayashi.kunihiko@socionext.com>:
          
 
---===============7354539646710466173==
+--===============7075846328995015148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634863922 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1634863921-3552852661b8d6e7472658954adee2476803e6d9
+pusher C3F436CA30F5D8EB 1634863929 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1634863929-0e4909f6b3f82e28dd486c0d1c6ce2e4642f4f3e
 
-061514dbfb79910ef60eb40dd9fc528be3f45d62 0627d75a18ea28d7422d3476352265399c86d7d6 refs/heads/for-5.16
+061514dbfb79910ef60eb40dd9fc528be3f45d62 0627d75a18ea28d7422d3476352265399c86d7d6 refs/heads/regulator-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFyCzIACgkQJNaLcl1U
-h9C0Awf/YRH0c1mjJ49KlcMLZlr6oK5Mpe/aEhL0kIm0GFMG9iI2a1RhKtp5EBmi
-6zGkNIgN8KGjhUyvYpngZoqcPXKoRL4mNW2kQtqzbQ293cQk3YrH1MmKrvXr//bt
-i0kUwMUcW1TIBdKkMNElSuGcskZV6GGxJZseqD5U/hlB4sxp8MVHl4n6ptrfrQ48
-rOvfL33sQ0TotFBjeB7iZ8lJNkCzW3qj8hmGdNjG/NkobrQQIlQw1NISKlfVNGs/
-/1mLn4hWDXlNKUQKDpYaT0+tcfxElWqayEslK/Kd+ysCVbHFV5zTty09oQZ/o6sR
-vV0cZIPysdRwnSiWywzkaIELAIgWZQ==
-=IoMl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFyCzoACgkQJNaLcl1U
+h9DIPAf8CGo52ghxlQujl5KcYYGeSEp+lKlnGaLccoKBVWXuryLZMdXH2kGZZXsc
+vcWxO9n49/zH8B5FRlq5cNa/1vnRCgw17C0GdThe8rIcsoJhhKf51anrbgjPHtAL
+MYPseS+8rppQoBUBOl4mIH5lpTPfJaS2DHsHfhDP4OMESsrwzdtSetZtEHGmLnQN
+gysksGIkF7rmoidkjlfECnEitde18ZXpa28QQkYk1vSR7gwiisfgN73J04D5e54g
+qiIAG9PPHa3+OaQsZFW7dPNnzZ/XH4nvRL6WW/uCysmmR1s7WcnYveF8CX1YXnOp
+Gv8cQZQwi5sk0tmquA2lpvuJN3+VUQ==
+=6tR1
 -----END PGP SIGNATURE-----
 
---===============7354539646710466173==--
+--===============7075846328995015148==--
