@@ -1,50 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2260365501590458173=="
+Content-Type: multipart/mixed; boundary="===============5289627565929988753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Fri, 22 Oct 2021 15:03:16 -0000
-Message-Id: <163491499610.19830.6586401011436874177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 22 Oct 2021 15:05:14 -0000
+Message-Id: <163491511470.21847.5469134385498976925@gitolite.kernel.org>
 
---===============2260365501590458173==
+--===============5289627565929988753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-next
-    old: 964d32e512670c7b87870e30cfed2303da86d614
-    new: 85bf4c6df4e91d3693748d769d2ea6a30b573339
-    log: revlist-964d32e51267-85bf4c6df4e9.txt
+  - ref: refs/heads/irq/handle-domain-irq
+    old: 3d56ab677733e5027da5b7529373e3acca17dc56
+    new: 1ea47b069cf6ce5326070705f23efb0fa277dd4b
+    log: revlist-3d56ab677733-1ea47b069cf6.txt
 
---===============2260365501590458173==
+--===============5289627565929988753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-964d32e51267-85bf4c6df4e9.txt
+Content-Disposition: attachment; filename=revlist-3d56ab677733-1ea47b069cf6.txt
 
-5c791fe1e2a4f401f819065ea4fc0450849f1818 fuse: make sure reclaim doesn't write the inode
-36ea23374d1f7b6a9d96a2b61d38830fdf23e45d fuse: write inode in fuse_vma_close() instead of fuse_release()
-bda9a71980e083699a0360963c0135657b73f47a fuse: annotate lock in fuse_reverse_inval_entry()
-5fe0fc9f1de63de748b87f121c038d39192a271d fuse: use kmap_local_page()
-b5d9758297858288f1d8cd9b24a4e2f899f169e0 fuse: delete redundant code
-371e8fd02969383204b1f6023451125dbc20dfbd fuse: move fuse_invalidate_attr() into fuse_update_ctime()
-84840efc3c0f225ee5597e0a013e9da03afc73c6 fuse: simplify __fuse_write_file_get()
-cefd1b83275d4c587bdeb2fe7aed07908642f875 fuse: decrement nlink on overwriting rename
-b22dd1a547a2d0b2503cd8f008da32752bc5298b fuse: don't increment nlink in link()
-62a4aa8d0abd76506971d51d02da2585a9561292 fuse: selective attribute invalidation
-4ab35b003435d0d5280eb764d89450273874dc66 fuse: don't bump attr_version in cached write
-c8ae84e8d31d00090832280638bfc07010e7c9bf fuse: rename fuse_write_update_size()
-b91247e786896329ce1cb9ff6eb792c6df3f0130 fuse: always invalidate attributes after writes
-d0efb34ff341e816f3dcfc9a8e5971f8b38b2171 fuse: fix attr version comparison in fuse_read_update_size()
-a99fd037f209a35f6c1aa8f48fc00bc1b55b8615 fuse: cleanup code conditional on fc->writeback_cache
-fdc239f5bc8e433ba097c38b046474f6a68d5da0 fuse: simplify local variables holding writeback cache state
-057a09df10c2ead0f9b5a7b484de341a73b7702e fuse: move reverting attributes to fuse_change_attributes()
-334ec7cd29c98c8951d192da4c726ae515d22f35 fuse: add cache_mask
-09fe6e0b335ab7585d5b8abb9d6884aab911b7b2 fuse: take cache_mask into account in getattr
-85bf4c6df4e91d3693748d769d2ea6a30b573339 fuse: only update necessary attributes
+fe047b3608b5bcda89e8ad48d0693031fbc1dd5e irq: mips: avoid nested irq_enter()
+b9d983db49242b0e61ea4a16c9f13bc86a6735e0 irq: mips: simplify bcm6345_l1_irq_handle()
+2e6d5b8e20de96830edd3469cde4262fc281b08d irq: mips: stop (ab)using handle_domain_irq()
+5814bcfceebc0ae017f048f9fb77ba2376bc63a7 irq: mips: simplify do_domain_IRQ()
+123b8b7e236665c900254a9e46a415f7267f5ebf irq: simplify handle_domain_{irq,nmi}()
+f284da197fb12a921de505130e76802789a38ce4 irq: unexport handle_irq_desc()
+db98ed01fca5598b772648ef817889c7b92e41c2 irq: add generic_handle_arch_irq()
+846a22e822b2cecfa37654acb668dd51cd17bbb1 irq: arc: avoid CONFIG_HANDLE_DOMAIN_IRQ
+2a701937ad47970c524062c8ac836de5f90df80b irq: nds32: avoid CONFIG_HANDLE_DOMAIN_IRQ
+d265469441676eea8f02081c9f2aa78ba658c414 irq: add a (temporary) CONFIG_HANDLE_DOMAIN_IRQ_IRQENTRY
+cd7f7794ff286866f94d589518d6b0ade1bd849a irq: arm: perform irqentry in entry code
+34849fc3db7800c130e17c57b2033089cacef2d5 irq: arm64: perform irqentry in entry code
+0721ca3bd85db1c8eb507e80e12a6a67721f2ad9 irq: csky: perform irqentry in entry code
+50010313a87a3a3293c5ec5564ffe121dc030a76 irq: openrisc: perform irqentry in entry code
+e7afff148569226a0b5d37d7174d64bd9b68e8ed irq: riscv: perform irqentry in entry code
+2792b26676de9dfee41968f61d975f027be33a43 irq: remove CONFIG_HANDLE_DOMAIN_IRQ_IRQENTRY
+1ea47b069cf6ce5326070705f23efb0fa277dd4b irq: remove handle_domain_{irq,nmi}()
 
---===============2260365501590458173==--
+--===============5289627565929988753==--
