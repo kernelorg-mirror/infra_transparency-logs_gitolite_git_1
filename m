@@ -1,60 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1700931033510513813=="
+Content-Type: multipart/mixed; boundary="===============2260365501590458173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 22 Oct 2021 14:50:04 -0000
-Message-Id: <163491420422.12592.9557127215610685409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Fri, 22 Oct 2021 15:03:16 -0000
+Message-Id: <163491499610.19830.6586401011436874177@gitolite.kernel.org>
 
---===============1700931033510513813==
+--===============2260365501590458173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/for-5.16/drivers
-    old: 83b863f4a3f0de4ece7802d9121fed0c3e64145f
-    new: 47e9624616c80c9879feda536c48c6a3a0ed9835
-    log: |
-         47e9624616c80c9879feda536c48c6a3a0ed9835 block: remove support for cryptoloop and the xor transfer
-         
   - ref: refs/heads/for-next
-    old: 8131e5e445acd1c92122876828712ab7c277641e
-    new: 3c52f3b2604850a42d4f989edccd88fc792659f8
-    log: revlist-8131e5e445ac-3c52f3b26048.txt
-  - ref: refs/heads/for-5.16/inode-sync
-    old: 0000000000000000000000000000000000000000
-    new: 1e03a36bdff4709c1bbf0f57f60ae3f776d51adf
-  - ref: refs/heads/for-5.16/passthrough-flag
-    old: 0000000000000000000000000000000000000000
-    new: 4845012eb5b4e56cadb5f484cb55dd4fd9d1df80
+    old: 964d32e512670c7b87870e30cfed2303da86d614
+    new: 85bf4c6df4e91d3693748d769d2ea6a30b573339
+    log: revlist-964d32e51267-85bf4c6df4e9.txt
 
---===============1700931033510513813==
+--===============2260365501590458173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8131e5e445ac-3c52f3b26048.txt
+Content-Disposition: attachment; filename=revlist-964d32e51267-85bf4c6df4e9.txt
 
-9208d414975895f69e9aca49153060ddd31b18d0 block: add a ->get_unique_id method
-b83ce214af3885437ff223b3a0c8ec6072a84167 sd: implement ->get_unique_id
-8c6aabd1c72bc241c55f5b71a86cea5ef28bceca nfsd/blocklayout: use ->get_unique_id instead of sending SCSI commands
-237ea1602fb4cd14cd31b745a56fd0639c58eea3 bsg-lib: initialize the bsg_job in bsg_transport_sg_io_fn
-68ec3b819a5d600a4ede8b596761dccac9f39ebc scsi: add a scsi_alloc_request helper
-4abafdc4360d993104c2b2f85943938a0c6ad025 block: remove the initialize_rq_fn blk_mq_ops method
-4845012eb5b4e56cadb5f484cb55dd4fd9d1df80 block: remove QUEUE_FLAG_SCSI_PASSTHROUGH
-47e9624616c80c9879feda536c48c6a3a0ed9835 block: remove support for cryptoloop and the xor transfer
-787b738970ab941ed0081a5b85a1eb70496b9851 Merge branch 'for-5.16/passthrough-flag' into for-next
-6490bff8e3a788a613e4a146a47685975a03ff3f Merge branch 'for-5.16/drivers' into for-next
-9a208ba5c9afa62c7b1e9c6f5e783066e84e2d3c fs: remove __sync_filesystem
-70164eb6ccb76ab679b016b4b60123bf4ec6c162 block: remove __sync_blockdev
-d39b0a2fae366793e707bbd576eea055b7e9db9f xen-blkback: use sync_blockdev
-1226dfff572f8878fdfc4ac2fd84a59c7a75f489 btrfs: use sync_blockdev
-cb9568ee755c8289855a7a5ce0e1ee0082eca576 fat: use sync_blockdev_nowait
-680e667bc2e4e458a373bbfd367b7174e4972eb5 ntfs3: use sync_blockdev_nowait
-1e03a36bdff4709c1bbf0f57f60ae3f776d51adf block: simplify the block device syncing code
-3c52f3b2604850a42d4f989edccd88fc792659f8 Merge branch 'for-5.16/inode-sync' into for-next
+5c791fe1e2a4f401f819065ea4fc0450849f1818 fuse: make sure reclaim doesn't write the inode
+36ea23374d1f7b6a9d96a2b61d38830fdf23e45d fuse: write inode in fuse_vma_close() instead of fuse_release()
+bda9a71980e083699a0360963c0135657b73f47a fuse: annotate lock in fuse_reverse_inval_entry()
+5fe0fc9f1de63de748b87f121c038d39192a271d fuse: use kmap_local_page()
+b5d9758297858288f1d8cd9b24a4e2f899f169e0 fuse: delete redundant code
+371e8fd02969383204b1f6023451125dbc20dfbd fuse: move fuse_invalidate_attr() into fuse_update_ctime()
+84840efc3c0f225ee5597e0a013e9da03afc73c6 fuse: simplify __fuse_write_file_get()
+cefd1b83275d4c587bdeb2fe7aed07908642f875 fuse: decrement nlink on overwriting rename
+b22dd1a547a2d0b2503cd8f008da32752bc5298b fuse: don't increment nlink in link()
+62a4aa8d0abd76506971d51d02da2585a9561292 fuse: selective attribute invalidation
+4ab35b003435d0d5280eb764d89450273874dc66 fuse: don't bump attr_version in cached write
+c8ae84e8d31d00090832280638bfc07010e7c9bf fuse: rename fuse_write_update_size()
+b91247e786896329ce1cb9ff6eb792c6df3f0130 fuse: always invalidate attributes after writes
+d0efb34ff341e816f3dcfc9a8e5971f8b38b2171 fuse: fix attr version comparison in fuse_read_update_size()
+a99fd037f209a35f6c1aa8f48fc00bc1b55b8615 fuse: cleanup code conditional on fc->writeback_cache
+fdc239f5bc8e433ba097c38b046474f6a68d5da0 fuse: simplify local variables holding writeback cache state
+057a09df10c2ead0f9b5a7b484de341a73b7702e fuse: move reverting attributes to fuse_change_attributes()
+334ec7cd29c98c8951d192da4c726ae515d22f35 fuse: add cache_mask
+09fe6e0b335ab7585d5b8abb9d6884aab911b7b2 fuse: take cache_mask into account in getattr
+85bf4c6df4e91d3693748d769d2ea6a30b573339 fuse: only update necessary attributes
 
---===============1700931033510513813==--
+--===============2260365501590458173==--
