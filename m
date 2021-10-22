@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 22 Oct 2021 21:26:52 -0000
-Message-Id: <163493801205.2757.13379415363946788865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 22 Oct 2021 21:28:22 -0000
+Message-Id: <163493810284.3279.15900212340822984208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: fae1b05e6f0acf116f6450535b0e1c13051102d3
-    new: 57385ae31ff0ffa6e9c9ae39206740efdc7f5972
+  - ref: refs/heads/master
+    old: 1acfe7c9b44b1ebc36630682508ded74281f8070
+    new: e8522c1423743addec78a0000ba0d28851081df2
     log: |
-         57385ae31ff0ffa6e9c9ae39206740efdc7f5972 selftests/bpf: Make perf_buffer selftests work on 4.9 kernel again
+         e8522c1423743addec78a0000ba0d28851081df2 cgroup: Fix memory leak caused by missing cgroup_bpf_offline
          
