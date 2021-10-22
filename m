@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/konrad/xen
-Date: Fri, 22 Oct 2021 22:59:17 -0000
-Message-Id: <163494355735.26639.4992124776603500019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 22 Oct 2021 23:01:50 -0000
+Message-Id: <163494371076.28893.4674845526796951573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/konrad/xen
-user: konrad
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/stable/for-linus-5.15
-    old: 0000000000000000000000000000000000000000
-    new: adbc38b4820fca35bdb12e79ca100520798953e3
+  - ref: refs/heads/master
+    old: 57385ae31ff0ffa6e9c9ae39206740efdc7f5972
+    new: 1000298c76830bc291358e98e8fa5baa3baa9b3a
+    log: |
+         1000298c76830bc291358e98e8fa5baa3baa9b3a libbpf: Fix memory leak in btf__dedup()
+         
