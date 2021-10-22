@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7951467851056898407=="
+Content-Type: multipart/mixed; boundary="===============5509483853689265099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 22 Oct 2021 00:25:30 -0000
-Message-Id: <163486233070.3007.10912439186630215525@gitolite.kernel.org>
+Date: Fri, 22 Oct 2021 00:25:37 -0000
+Message-Id: <163486233709.3105.18157888913441440203@gitolite.kernel.org>
 
---===============7951467851056898407==
+--===============5509483853689265099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b0c7663dd5649ef014edc67f7249c65d8f6ec25a
     new: 29da17c48886543a73866f054f803c7737dee1c6
     log: revlist-b0c7663dd564-29da17c48886.txt
 
---===============7951467851056898407==
+--===============5509483853689265099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ aed659170a3171e425913ae259d46396fb9c10ef libbpf: Support multiple .rodata.* and 
 4f2511e1990985103929ab799fb3ebca81969b77 selftests/bpf: Switch to ".bss"/".rodata"/".data" lookups for internal maps
 29da17c48886543a73866f054f803c7737dee1c6 Merge branch 'libbpf: support custom .rodata.*/.data.* sections'
 
---===============7951467851056898407==--
+--===============5509483853689265099==--
