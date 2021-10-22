@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============7075846328995015148=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 22 Oct 2021 00:52:11 -0000
-Message-Id: <163486393184.19505.18089307298038115818@gitolite.kernel.org>
-
---===============7075846328995015148==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 22 Oct 2021 00:52:29 -0000
+Message-Id: <163486394930.19655.11067314024886122115@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.16
+  - ref: refs/heads/for-next
     old: 061514dbfb79910ef60eb40dd9fc528be3f45d62
     new: 0627d75a18ea28d7422d3476352265399c86d7d6
     log: |
@@ -30,29 +25,3 @@ changes:
          6aed787cf7461462eeb03edbcf56fa149ef6ea93 Merge series "Initial Fairphone 4 support" from Luca Weiss <luca@z3ntu.xyz>:
          0627d75a18ea28d7422d3476352265399c86d7d6 Merge series "regulator: Introduce UniPhier NX1 SoC support" from Kunihiko Hayashi <hayashi.kunihiko@socionext.com>:
          
-
---===============7075846328995015148==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1634863929 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1634863929-0e4909f6b3f82e28dd486c0d1c6ce2e4642f4f3e
-
-061514dbfb79910ef60eb40dd9fc528be3f45d62 0627d75a18ea28d7422d3476352265399c86d7d6 refs/heads/regulator-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmFyCzoACgkQJNaLcl1U
-h9DIPAf8CGo52ghxlQujl5KcYYGeSEp+lKlnGaLccoKBVWXuryLZMdXH2kGZZXsc
-vcWxO9n49/zH8B5FRlq5cNa/1vnRCgw17C0GdThe8rIcsoJhhKf51anrbgjPHtAL
-MYPseS+8rppQoBUBOl4mIH5lpTPfJaS2DHsHfhDP4OMESsrwzdtSetZtEHGmLnQN
-gysksGIkF7rmoidkjlfECnEitde18ZXpa28QQkYk1vSR7gwiisfgN73J04D5e54g
-qiIAG9PPHa3+OaQsZFW7dPNnzZ/XH4nvRL6WW/uCysmmR1s7WcnYveF8CX1YXnOp
-Gv8cQZQwi5sk0tmquA2lpvuJN3+VUQ==
-=6tR1
------END PGP SIGNATURE-----
-
---===============7075846328995015148==--
