@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2467783706270196060=="
+Content-Type: multipart/mixed; boundary="===============0832332278617649672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 23 Oct 2021 13:33:26 -0000
-Message-Id: <163499600671.5078.10075834534666785910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sat, 23 Oct 2021 13:33:33 -0000
+Message-Id: <163499601346.5170.3195980720452191800@gitolite.kernel.org>
 
---===============2467783706270196060==
+--===============0832332278617649672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: c778c01d3e665045d29d548d946f7cd64aec0ff9
-    new: 866d744434f1d93b6bbf3012074b5e458beee826
+  - ref: refs/heads/for-5.16
+    old: 0627d75a18ea28d7422d3476352265399c86d7d6
+    new: 3253e24bc2b6418727cd05fe3a5f4f24c1118311
     log: |
-         e138233e56e9829e65b6293887063a1a3ccb2d68 ASoC: meson: axg-card: make links nonatomic
-         bf5e4887eeddb48480568466536aa08ec7f179a5 ASoC: meson: axg-tdm-interface: manage formatters in trigger
-         e7ee1ac4ecb5114d60b8ead333b6d52cdcf78862 ASoC: rt5682s: Downsizing the DAC volume scale
-         866d744434f1d93b6bbf3012074b5e458beee826 Merge series "ASoC: meson: axg: fix TDM channel order sync" from Jerome Brunet <jbrunet@baylibre.com>:
+         3253e24bc2b6418727cd05fe3a5f4f24c1118311 regulator: Fix SY7636A breakage
          
 
---===============2467783706270196060==
+--===============0832332278617649672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1634996005 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1634996004-1582634c0905b75210221bc02272c5e4b5610a58
+pusher C3F436CA30F5D8EB 1634996011 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1634996011-bcc4682fdd525f97ae136f102ca9b0291f230baa
 
-c778c01d3e665045d29d548d946f7cd64aec0ff9 866d744434f1d93b6bbf3012074b5e458beee826 refs/heads/asoc-5.16
+0627d75a18ea28d7422d3476352265399c86d7d6 3253e24bc2b6418727cd05fe3a5f4f24c1118311 refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0DyUACgkQJNaLcl1U
-h9D0KQf9FCrc4WQVIn6pbdQhuh4JmEe0UDRphO5/gcav+ksr0GChlxt/JnvksbL1
-ZfXA+TsOoAD3dl8nsDWa43bvklDsn1sriFd+X78GlyAs1Odu/5Somi+HLnXzrD4f
-DVGTekbJCZ7lq7g1XFgdQ19P4JhGjIAI59DPmZ9gY/3gskhGSK6bBIiWxrIGposc
-1pXXFxRNmgB2Ir0IB+CSMPcga8BXCiJawY3c26qqi1pxa4kAuIw9u4tOLrOP27GM
-8cId/daz2vhvlQcfuPf0XOhy/AZwLOOByHeKny7DPSl4ThiZGSHDewsh1uC/dD5g
-U5sIOdBzv2+nMFp9DFoBFgXel4BbsQ==
-=ZeHh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0DysACgkQJNaLcl1U
+h9Aq3Qf/dP5Zws5xruDn5TlbugIUbOM0UXrMcaOv3yrgElJDEiCbeac/zkqUR+iy
+x5ZTZLgOQb8lenOdIvXC8S1JpQ4PUx5Ljg5W36YDs9MVwRh4RolYuAgcHrhtbHJD
+oUUIzHdcFlKrZwK5ysIb0urcGLb1JeYgBOYmk8zlpHihKb7NrsazESDEp0mwyPwZ
+oMDFmqk4UltfaBPCzHMaBVSpbQDqot+qF6xDznI5mM/I9/crHrFgvD2lamfkVAqa
+rp23v/o0ktROxU8g05rsqVOuxClrGOou8KMKYmstirryrxY7pox/dFup5pqzVZ6D
+nZdQX+wUWtcBNBkuA4JnAiTfOkfUsg==
+=u1Xa
 -----END PGP SIGNATURE-----
 
---===============2467783706270196060==--
+--===============0832332278617649672==--
