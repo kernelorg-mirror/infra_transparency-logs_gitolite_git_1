@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 23 Oct 2021 15:57:53 -0000
-Message-Id: <163500467330.29391.6705522343370467477@gitolite.kernel.org>
+Date: Sat, 23 Oct 2021 15:58:48 -0000
+Message-Id: <163500472803.29734.3988599179546171402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: da42a26208b237ffb814deb43823f8670911ecfb
-    new: 2aa56930124f660e1fa341ffd4e3f8f7d1e29abb
+  - ref: refs/heads/fixes-base
+    old: 258aad75c62146453d03028a44f2f1590d58e1f6
+    new: 4e5483b8440d01f6851a1388801088a6e0da0b56
     log: |
          50b6cb3516365cb69753b006be2b61c966b70588 scsi: core: Fix shost->cmd_per_lun calculation in scsi_add_host_with_dma()
          187a580c9e7895978dcd1e627b9c9e7e3d13ca96 scsi: iscsi: Fix set_param() handling
