@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
-Date: Sat, 23 Oct 2021 20:14:43 -0000
-Message-Id: <163502008321.24913.8290787749050209370@gitolite.kernel.org>
+Date: Sat, 23 Oct 2021 20:19:39 -0000
+Message-Id: <163502037919.29146.13747785869104259480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/linux/kernel/git/backports/backports
 user: hauke
 changes:
   - ref: refs/heads/master
-    old: 494327817e174fa51a944020afd7e3c1910c02e1
-    new: 185ea1e61474c971ef2abcc98df4666f01c0f942
+    old: 185ea1e61474c971ef2abcc98df4666f01c0f942
+    new: 4c8e78a5b4ebc62f3cee348f2ab74768df2a0c68
     log: |
-         5802ef952338c9ac6adf20bdf2a62e2fa7acd83d patches: Refresh patches on top of kernel 5.12.19
-         9bb54ec000d6b343c89a998fd25dddcaf9b5af9e patches: include linux/modules.h in mt76/mt76_connac_mcu.c
-         44627f6772ed7afbd58ef0d24d8708b478be052b patches: Do not use rx_list in mt76/mt7921 driver on older kernel versions.
-         7611260d1c352bab35f73116b98d7ed0c689168a patches: Do not use rx_list in mt7601u driver on older kernel versions.
-         edbee60d1068f899c74411884e40d5dc412c5af9 dependencies: Build mt7921 only on kernel >= 4.6
-         5b85da32db03d8dd5b378c229519746ceeafb1f9 dependencies: Build NL80211_TESTMODE only on kernel >= 4.18
-         30e32dcad5c542e7463800c64d33e5b2ca88da81 headers: Add DECLARE_STATIC_KEY_FALSE
-         185ea1e61474c971ef2abcc98df4666f01c0f942 headers: Add ETH_P_MAP
+         8695d06becac6e01e0908ba7b945ab2141a3aa0b patches: Refresh on top of kernel 5.13.19
+         bb2e9faedc8957dea5fa1c50a959ca5d71141b33 headers: Add tasklet_disable_in_atomic()
+         af58b27b1b1ab1133c0fec4d817cd6360ebe280e headers: Add lockdep_assert_not_held()
+         35cf9be2759027850c22af2b68ef08001349f223 headers: Adapt signature of of_get_mac_address()
+         dfdd3dc2aab94e76b987c28201b5bbf9b9b7f443 headers: Add rfkill_set_hw_state_reason()
+         42fb268c4771eadff97d97655fee14203e2093d5 patches: Remove usage of threaded NAPI from mt76
+         1f0f42737c22cb589b35730023ce71a114f5bba1 headers: Adapt signature of thermal_zone_device_update()
+         4c8e78a5b4ebc62f3cee348f2ab74768df2a0c68 headers: Add time_after32()
          
-  - ref: refs/tags/v5.12.19-1
+  - ref: refs/tags/v5.13.19-1
     old: 0000000000000000000000000000000000000000
-    new: df97dee03d3bc81ca97fb5d6c392898ebd818fa4
+    new: 76df4766aeb845bf14b8c9b6e9fdedb65cb29193
