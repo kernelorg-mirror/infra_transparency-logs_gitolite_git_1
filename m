@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3071694509854190211=="
+Content-Type: multipart/mixed; boundary="===============3381424135408356499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sat, 23 Oct 2021 19:55:55 -0000
-Message-Id: <163501895574.14562.6447940313999594756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 23 Oct 2021 19:56:02 -0000
+Message-Id: <163501896203.14647.4354012643214729077@gitolite.kernel.org>
 
---===============3071694509854190211==
+--===============3381424135408356499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/regulator-5.16
     old: 3253e24bc2b6418727cd05fe3a5f4f24c1118311
     new: 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf
     log: |
@@ -25,28 +25,28 @@ changes:
          7492b724df4d33ca3d5b38b70fb4acb93e6d02bf Merge series "Remove TPS80031 driver" from Dmitry Osipenko <digetx@gmail.com>:
          
 
---===============3071694509854190211==
+--===============3381424135408356499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635018954 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1635018953-d611fa1c632629d7fa37afaa626c065d93907b48
+pusher C3F436CA30F5D8EB 1635018960 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1635018959-a6fa252eeb3829945d339909a3062a909dfc02b5
 
-3253e24bc2b6418727cd05fe3a5f4f24c1118311 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf refs/heads/for-5.16
+3253e24bc2b6418727cd05fe3a5f4f24c1118311 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf refs/heads/regulator-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aMoACgkQJNaLcl1U
-h9DDkgf/TCVNsSdCqkYTSGwPYNzv6J/fsXFl53YSTz5owGmCZCyaDYBEa8OoDp28
-XhJRKVLFzIOZ4/ZzXAUrEA3CuGnCOsMWRVUwHRPdA5RPzAT1IjuIgrYDbqwlIeaU
-VdGlr+EhM8KX22pJbXeIu9aJJ/k1Mi9Pm68RJQUH8B+QKmUzmSaiUbpUvl64kv5k
-Lg9sHta0Fv5/tf78JCXY4EgVk2dy1sVb4AF19+JWJV8Iz5GodtRwA/9Up2N4Vpri
-W4Y6g+R1mYtY38ucL+tRA3YzIB4HRpmz+ULTQ8ztp7GxhWP5bwWeidYRYSsumsKW
-shlry43cGFRp6lw1nA9qdNZ4HpX41Q==
-=ak4I
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aNAACgkQJNaLcl1U
+h9B+nQf/UHwO0YpdyVH7uNalBCHhtcap8R6yaCsoSr2NXm1v5r/IxbO2uFxoTRhk
+v+9/NXx5gLf/jQwFw90ZMgSw57Y0SOIIQpirEk6wggGOQ8H9JLLa9QA8oDRaruy3
+/LJTL3qke7xIG7ooCf7BTxKRLzybQu3obTI1vJSAaeaSc0omX+gQbjBh3QAVqVX8
+VjnSsp0FYwGSrP2y+PQ1OELnbNf7tFfyXS0qklGr5MyjZaIQEHbH0APC2K+3QB1Z
+uFuE2X6fBcz+JAUnMBtLliyllCBnqp68BeqCPcN2sm4x9X7zXBQJ1dB5TfUh4GMy
+z5LDqBUTDvt/Oj7CAuAMuDZ5TqXnBg==
+=GV5p
 -----END PGP SIGNATURE-----
 
---===============3071694509854190211==--
+--===============3381424135408356499==--
