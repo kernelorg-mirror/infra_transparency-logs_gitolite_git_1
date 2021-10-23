@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/backports/backports
-Date: Sat, 23 Oct 2021 20:19:39 -0000
-Message-Id: <163502037919.29146.13747785869104259480@gitolite.kernel.org>
+Date: Sat, 23 Oct 2021 20:26:54 -0000
+Message-Id: <163502081494.2193.7778063477678787797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/linux/kernel/git/backports/backports
 user: hauke
 changes:
   - ref: refs/heads/master
-    old: 185ea1e61474c971ef2abcc98df4666f01c0f942
-    new: 4c8e78a5b4ebc62f3cee348f2ab74768df2a0c68
+    old: 4c8e78a5b4ebc62f3cee348f2ab74768df2a0c68
+    new: d4e7ee647ddc26ff4607ea8667c0a63ebff02c8c
     log: |
-         8695d06becac6e01e0908ba7b945ab2141a3aa0b patches: Refresh on top of kernel 5.13.19
-         bb2e9faedc8957dea5fa1c50a959ca5d71141b33 headers: Add tasklet_disable_in_atomic()
-         af58b27b1b1ab1133c0fec4d817cd6360ebe280e headers: Add lockdep_assert_not_held()
-         35cf9be2759027850c22af2b68ef08001349f223 headers: Adapt signature of of_get_mac_address()
-         dfdd3dc2aab94e76b987c28201b5bbf9b9b7f443 headers: Add rfkill_set_hw_state_reason()
-         42fb268c4771eadff97d97655fee14203e2093d5 patches: Remove usage of threaded NAPI from mt76
-         1f0f42737c22cb589b35730023ce71a114f5bba1 headers: Adapt signature of thermal_zone_device_update()
-         4c8e78a5b4ebc62f3cee348f2ab74768df2a0c68 headers: Add time_after32()
+         7bc1bb697dbf3df423f5622f4d532133c58fbcc9 patches: Refresh on top of kernel 5.14.13
+         d4b66ced0fa9591114a9925cce0783ae3979ad92 headers: Add FW_ACTION_NOUEVENT and FW_ACTION_UEVENT
+         671fd655057701fac11b4101e1d4c54d37cd2b61 headers: Add linux/wwan.h file
+         02f1f842534cab47d160f43456367ba39e53726a headers: Add DEVICE_ATTR_ADMIN_RW
+         89410b7481ebfcd1740ad1e0a4c920af323a4028 headers: Add get_unaligned_be24
+         3d605593eee4429037ffe9788e5e1eafb6f95a49 headers: Add rbtree cached
+         889f90dadabd3b896805f01096c25bcaaa71eca3 headers: Adapt signature of hrtimer_forward_now()
+         d4e7ee647ddc26ff4607ea8667c0a63ebff02c8c dependencies: Build RTL8723BS only on kernel >= 5.4
          
-  - ref: refs/tags/v5.13.19-1
+  - ref: refs/tags/v5.14.13-1
     old: 0000000000000000000000000000000000000000
-    new: 76df4766aeb845bf14b8c9b6e9fdedb65cb29193
+    new: a1ff38179ab3640fc9f1bff534285e208f6c6e72
