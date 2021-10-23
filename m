@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0246683414913456622=="
+Content-Type: multipart/mixed; boundary="===============1840821074612615335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 23 Oct 2021 19:55:29 -0000
-Message-Id: <163501892951.14114.6830458033222848297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 23 Oct 2021 19:55:36 -0000
+Message-Id: <163501893627.14210.2022079674626461913@gitolite.kernel.org>
 
---===============0246683414913456622==
+--===============1840821074612615335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 866d744434f1d93b6bbf3012074b5e458beee826
     new: e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7
     log: revlist-866d744434f1-e8e8c4a5d11b.txt
 
---===============0246683414913456622==
+--===============1840821074612615335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635018927 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1635018926-aabf70c08f20e5ad1024ddc9f156d14d711b56d9
+pusher C3F436CA30F5D8EB 1635018934 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1635018933-53e3f32a198ce3b83779ae28a2fb17ebdaa19971
 
-866d744434f1d93b6bbf3012074b5e458beee826 e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7 refs/heads/for-5.16
+866d744434f1d93b6bbf3012074b5e458beee826 e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aK8ACgkQJNaLcl1U
-h9A0Egf/T8fFmPGjpChHAEksTYfwXo6BwVsdi8+ugLNK6KC9UUdGHTb71MByKA9H
-i1/8uwQjkTRyJoO+rWI3vbWU38m7ajF3/vesffgc51CtxN7knPJ9HSTYNLggWcD8
-tN85cw3XN+Zhb73yVv/WctOv3/nvNN/u11wzLcO4AoM5BbxtOy6skslcdIlx1+8e
-SpPpfyy5wdbponxEOHYuYVCITZsMgou26Qu8QBPozn/HJvBPg3jtMwdKVyniq7gB
-Ms1l71pbeBTnEKHV6dZVWEEFq1U/YTBK/vORD86Grp3z6dkIYbppZAL3ocqPZEom
-1WlFtffjOFqnKQCEtU2rPDYdNi/9Kg==
-=/yzQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aLYACgkQJNaLcl1U
+h9Chzgf5AQSyt7IfDYAVP5qQwCQnFZ4B795xjoahgVLf5vS0DMsi9VC6C6Ahq8j3
+9lhB6OjcheMhmlvVtyQV/nbLHDAUB7iebJ9RIVkXPfgdbVUetX2rscYGcR/QqlI8
+XH/1SuAPAJLsPfP9CGl2or3SuCEn+n8HsdTEes0sNb7938k/7JKB1eEWt9kMES7q
+uWjecWSpWYc3zr7rO7KdD1cXS5j78WXNj9pK5V0JlexfajLZNLx8PBF2HBgkBUNy
+pVf9XHOrFtcIw+/dftjNytSzSiwisVBm/Gahm+ZMzsTSv+sPPziiQLr6zAeiXQnX
+1gjkyaz810HwZ029LO6X2duG+iNibA==
+=w4FX
 -----END PGP SIGNATURE-----
 
---===============0246683414913456622==
+--===============1840821074612615335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ cabc3acec02a3fb63efaba8ac892b54e823cd111 ASoC: amd: acp: Add support for Maxim a
 d96e75bb1de2fd276046975aee4d7867719f4444 Merge series "Add Yellow Carp platform ASoC driver" from Vijendar Mukunda <Vijendar.Mukunda@amd.com>:
 e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7 Merge series "ASoC: Add common modules support for ACP hw block" from Ajit Kumar Pandey <AjitKumar.Pandey@amd.com>:
 
---===============0246683414913456622==--
+--===============1840821074612615335==--
