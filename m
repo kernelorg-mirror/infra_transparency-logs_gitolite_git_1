@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 23 Oct 2021 05:16:50 -0000
-Message-Id: <163496621043.7441.2726897746910243600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+Date: Sat, 23 Oct 2021 07:32:04 -0000
+Message-Id: <163497432421.26096.7076876716804762418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+user: kvalo
 changes:
-  - ref: refs/tags/cap/v1.2.60
-    old: 0000000000000000000000000000000000000000
-    new: 972a30314843f79feb3adb0950d0b4331cfe07ba
-  - ref: refs/tags/libcap-2.60
-    old: 0000000000000000000000000000000000000000
-    new: 5a958b744fd6507768e5c57eec4585c3eeb22da5
-  - ref: refs/tags/libcap-korg-2.60
-    old: 0000000000000000000000000000000000000000
-    new: a838c2c2307be12b9d87783a070884f89f024029
-  - ref: refs/tags/psx/v1.2.60
-    old: 0000000000000000000000000000000000000000
-    new: c0202ebb13cdcaf004bf68aaa0055ffea3f09567
-  - ref: refs/tags/v1.2.60
-    old: 0000000000000000000000000000000000000000
-    new: 2ae1977a30291c7903849a4f9f0771b686994a4a
+  - ref: refs/heads/master
+    old: 47b068247aa7d76bb7abea796b72e18a4c6e35c3
+    new: 753453afacc0243bd45de45e34218a8d17493e8f
+    log: |
+         8603caaec98f7a46419a661f306abfaf2f18ec4b mt76: mt7921: fix mt7921s Kconfig
+         a88cae727b3e031e1dfd03b5e03eec48f9ef9e6a mt76: mt7921: fix Wformat build warning
+         753453afacc0243bd45de45e34218a8d17493e8f mt76: mt7615: mt7622: fix ibss and meshpoint
+         
