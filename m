@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3381424135408356499=="
+Content-Type: multipart/mixed; boundary="===============1577760682566291050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 23 Oct 2021 19:56:02 -0000
-Message-Id: <163501896203.14647.4354012643214729077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 23 Oct 2021 19:56:08 -0000
+Message-Id: <163501896849.14728.3253211853611272335@gitolite.kernel.org>
 
---===============3381424135408356499==
+--===============1577760682566291050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.16
-    old: 3253e24bc2b6418727cd05fe3a5f4f24c1118311
-    new: 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf
+  - ref: refs/heads/for-5.16
+    old: fbd30477ae5227319deb485ed544d2d2f5ab98cd
+    new: 0204bdeb3df79a5c78d9e76119a7f04e3dcb1258
     log: |
-         d7477e646291b2dcdd5521cf926cd390ddd6a7c1 regulator: tps80031: Remove driver
-         400d5a5da43c0e84e5aa75151082ea91f0fae3c9 regulator: Don't error out fixed regulator in regulator_sync_voltage()
-         7492b724df4d33ca3d5b38b70fb4acb93e6d02bf Merge series "Remove TPS80031 driver" from Dmitry Osipenko <digetx@gmail.com>:
+         0204bdeb3df79a5c78d9e76119a7f04e3dcb1258 spi: bcm-qspi: Fix missing clk_disable_unprepare() on error in bcm_qspi_probe()
          
 
---===============3381424135408356499==
+--===============1577760682566291050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635018960 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1635018959-a6fa252eeb3829945d339909a3062a909dfc02b5
+pusher C3F436CA30F5D8EB 1635018966 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1635018966-938e177a877e64a4763d0cd0a6ea78798e0562f3
 
-3253e24bc2b6418727cd05fe3a5f4f24c1118311 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf refs/heads/regulator-5.16
+fbd30477ae5227319deb485ed544d2d2f5ab98cd 0204bdeb3df79a5c78d9e76119a7f04e3dcb1258 refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aNAACgkQJNaLcl1U
-h9B+nQf/UHwO0YpdyVH7uNalBCHhtcap8R6yaCsoSr2NXm1v5r/IxbO2uFxoTRhk
-v+9/NXx5gLf/jQwFw90ZMgSw57Y0SOIIQpirEk6wggGOQ8H9JLLa9QA8oDRaruy3
-/LJTL3qke7xIG7ooCf7BTxKRLzybQu3obTI1vJSAaeaSc0omX+gQbjBh3QAVqVX8
-VjnSsp0FYwGSrP2y+PQ1OELnbNf7tFfyXS0qklGr5MyjZaIQEHbH0APC2K+3QB1Z
-uFuE2X6fBcz+JAUnMBtLliyllCBnqp68BeqCPcN2sm4x9X7zXBQJ1dB5TfUh4GMy
-z5LDqBUTDvt/Oj7CAuAMuDZ5TqXnBg==
-=GV5p
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF0aNYACgkQJNaLcl1U
+h9Atggf+NAcI3OZ9coYyqGDCvw+YMihs2MsGYdrFSqhZBJzxkZVx32HjRArRdKnW
+lYD0JkNTxwGKNes3RSuzRnl20c9/puZmq4+fGA+1dPH5XRcTux5tU1NKcF/XdQxR
+0TJdZic3DcTb/2XM9qh4pH3o1eLBHRjYNZHGRF1zSKOzdiuyuumT+elRkZ0jaYDJ
+BvdV0DkEIZrsYyyLD5N6hWjUcc++kBevmBV++IOn2Q5HUa61PZCA+z6Ac9C2jgxT
+fiG9401CONXjVydSAPPnX0EYwVr06Y0zEwWbgWDPz63k8wDd73FnTJ21fzKIn1gZ
+rAnLnVNl5u6S8mtSeUxEjkt0byJ41Q==
+=7vX9
 -----END PGP SIGNATURE-----
 
---===============3381424135408356499==--
+--===============1577760682566291050==--
