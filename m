@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8714692851040121150=="
+Content-Type: multipart/mixed; boundary="===============7178092987363528600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 23 Oct 2021 15:59:23 -0000
-Message-Id: <163500476333.30053.16545947764107113974@gitolite.kernel.org>
+Date: Sat, 23 Oct 2021 16:11:04 -0000
+Message-Id: <163500546443.5305.4064240525267158576@gitolite.kernel.org>
 
---===============8714692851040121150==
+--===============7178092987363528600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: a4bcbf71914b0cc44151a5238e4a8afa8e3319cd
-    new: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
-    log: revlist-a4bcbf71914b-3d8fa78ebd61.txt
+  - ref: refs/heads/for-next
+    old: edc5cb40999b47dcef24327f99e5fda6ea10d6ac
+    new: 151a3b7b9d3ce651b97119fe0fa68ab7a9df590a
+    log: revlist-edc5cb40999b-151a3b7b9d3c.txt
 
---===============8714692851040121150==
+--===============7178092987363528600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4bcbf71914b-3d8fa78ebd61.txt
+Content-Disposition: attachment; filename=revlist-edc5cb40999b-151a3b7b9d3c.txt
 
 a19a93e4c6a98c9c0f2f5a6db76846f10d7d1f85 scsi: core: pm: Rely on the device driver core for async power management
 1c9575326a4a09bdb82c104ed1ab4e932c7a1f49 scsi: sd: Rename sd_resume() into sd_resume_system()
@@ -187,5 +187,9 @@ e9d658c2175b95a8f091b12ddefb271683aeacd9 scsi: sr: Add error handling support fo
 e6ab6113526aa485ca4256dbbfd8e6f48a4575f6 scsi: aha1542: Use memcpy_{from,to}_bvec()
 1b74ab77d62fe542af83e4cac95e8995032a30db scsi: target: core: Stop using bdevname()
 3d8fa78ebd61aada5d55de6e04beee7fd916c62b scsi: scsi_transport_sas: Add 22.5 Gbps link rate definitions
+e20f80b9b163dc402dca115eed0affba6df5ebb5 scsi: ibmvfc: Fix up duplicate response detection
+282da7cef078a87b6d5e8ceba8b17e428cf0e37c scsi: ufs: ufs-exynos: Correct timeout value setting registers
+1f6c7ccc98f71dbc12089890f54461c93798d0c0 Merge branch 'fixes' into for-next
+151a3b7b9d3ce651b97119fe0fa68ab7a9df590a Merge branch 'misc' into for-next
 
---===============8714692851040121150==--
+--===============7178092987363528600==--
