@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sun, 24 Oct 2021 02:52:56 -0000
-Message-Id: <163504397693.11662.1731484138634416041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 24 Oct 2021 04:50:22 -0000
+Message-Id: <163505102207.20282.10251165830385148017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/for-next
-    old: 35aab56bc55a75cb93c6b24d9545293d6e343611
-    new: 01b78648f9ce19b2b933c9803434a6e47b0c057f
+  - ref: refs/heads/kbuild
+    old: f8d711e31ee23319da345a31a2436bf4f000d4e1
+    new: 8212f8986d311ccf6a72305e6bdbd814691701d6
     log: |
-         89139102d31d9b664d08c673031c590725297676 arm64: dts: qcom: sdm845-oneplus: enable second wifi channel
-         0d84d646913f4a73e9c04c74ba8399f2dfc69acc arm64: defconfig: Enable Qualcomm prima/pronto drivers
-         2da521272ad3bba2019dd1a610261d99d62401fd arm64: defconfig: Enable Qualcomm LMH driver
-         a327dd3b6722252cfd69de2cbb6a426b1620e300 Merge branches 'arm64-fixes-for-5.15', 'drivers-fixes-for-5.15' and 'dts-fixes-for-5.15' into for-next
-         01b78648f9ce19b2b933c9803434a6e47b0c057f Merge branches 'arm64-defconfig-for-5.16', 'arm64-for-5.16', 'drivers-for-5.16' and 'dts-for-5.16' into for-next
+         6947fd96ae9bbe8c8c473a2199fd3edfd8b9f8c8 kbuild: split DEBUG_CFLAGS out to scripts/Makefile.debug
+         4c9d410f32b3fac15ff1197c4b8746da6d11a17e initramfs: Check timestamp to prevent broken cpio archive
+         10c6ae274fe29f732ca9bbcd7016e9827673c954 sh: remove meaningless archclean line
+         8212f8986d311ccf6a72305e6bdbd814691701d6 kbuild: use more subdir- for visiting subdirectories while cleaning
          
