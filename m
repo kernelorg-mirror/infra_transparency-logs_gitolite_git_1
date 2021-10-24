@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7873631707885989259=="
+Content-Type: multipart/mixed; boundary="===============7731651323921500922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 24 Oct 2021 12:30:32 -0000
-Message-Id: <163507863238.21294.11940133338901816979@gitolite.kernel.org>
+Date: Sun, 24 Oct 2021 12:31:33 -0000
+Message-Id: <163507869384.21658.16519523906615297414@gitolite.kernel.org>
 
---===============7873631707885989259==
+--===============7731651323921500922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 5c0480deda08ae804c495409a3d11c5345f2a964
-    new: 96381a778dc46dd265ab79f33afb8ef411ef928d
+    old: 96381a778dc46dd265ab79f33afb8ef411ef928d
+    new: 7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9
     log: |
-         ea6237488b7d49df30ac2db5be6d4da2c6e3f376 staging: mt7621-dts: complete 'cpus' node
-         e1be7542a3cbaabbb4485bdbde87dd6ca8b84012 staging: r8188eu: Remove initialized but unused semaphore
-         a624c06194ddfdf6adb780d371538bba79b3ccd9 staging: r8188eu: Remove unused semaphore "io_retevt"
-         6cc353158bdf14e0b641d3fa651656f8bbe3295a staging: vt6655: Rename `ii` variable
-         8628ff7ffe22c214401ba3c5b6745c8bd9a3767c staging: vt6655: Rename `byInitCount` variable
-         ead759a493cb4895e408ce1c762b043c12e7d606 staging: vt6655: Rename `bySleepCount` variable
-         0f4aa09169e682e6cbfb67b80b327c0abe0b297d staging: vt6655: Rename `uChannel` variable
-         96381a778dc46dd265ab79f33afb8ef411ef928d staging: vt6655: Rename `byRFType` variable
+         8a6d92d7cedf366410506d6b5ae98d14b09ee004 staging: rtl8723bs: core: Remove true and false comparison
+         53303e7a1f6eec05e9dd414a0335f493db5bc413 staging: rtl8723bs: core: Remove unnecessary parentheses
+         f49702e283e0446ff709d22f429a48d0d3aa0870 staging: rtl8723bs: core: Remove unnecessary space after a cast
+         75c5e966bda45915b6e0a6549fa21b10f94ad215 staging: rtl8723bs: core: Remove unnecessary blank lines
+         7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9 staging: r8188eu: Use a Mutex instead of a binary Semaphore
          
 
---===============7873631707885989259==
+--===============7731651323921500922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635078630 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635078691 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635078630-fb5891013e7b835d6a5645f421f4749da3eb8215
+nonce 1635078691-76fd2da958d5a83b97a708a57fad3e640649a8ad
 
-5c0480deda08ae804c495409a3d11c5345f2a964 96381a778dc46dd265ab79f33afb8ef411ef928d refs/heads/staging-testing
+96381a778dc46dd265ab79f33afb8ef411ef928d 7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF1UeYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hecP/A6rVBxA/X7H+Io1W/OP
-w4+GwbsYLTi4toES/i2kDGZxYLH2EKZjOu2le4ZCBrRcJjZb81WiGKlvD039bJeJ
-5ByKM1Qm8byPQ2tJA2CURuOFd3KDYyJaTlb4+LeIdqrIZ1PeaqkUuz8zjhRXed8R
-Krm35GXZe8WNn96xmWuZRlXXHcEK5LZs2Q8beY+GQqVbw8uwkV7bHgwnN3N3jCt3
-Hdjbv6q9QmoVw/uEQ+6EzNhIa3CDqKFTvJO5V40ue5S6/j5ZIsHvbNzI7k1VsrA2
-uje+e33yIKhiTFbTfosfMZkScCsXh9Dq42ckBNS70fimFuQ5Wi1qWcK520LYaCA4
-FjUpqj51jVi4VNm0NxT7WFharARiv+bgfw7NjOie3P/tjZXrnkRSryVraaW3GC55
-ryOl6Hs382iRZecBNCHK2TtMxycsgY1pju40dxKnCeu9qcD1S97o+3IiqyLPX6Xb
-5pFmZw00LG13aHTIUoLxcHitYnXCz53X5US/Qs9OJFh486TEX0/xahFfd/nhSAdc
-NRazuikCjtyUtfnqTpe/zd63KLjoDKVdfh2TTJ7EzYLQ55ULHjSKYLCQBsX/6RjM
-n2P6AzUGVU2nyIAe9pv1Z3Ugtz9GoBRD4G4Ref2RXtMfjwDyXzeVfXuy4pVz+ZCl
-NUIufcu8r/2yOzoiZVcYwsBa
-=62s2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF1UiMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+51QQAMN01w7V/1nJBXVrjZrL
+Fid4CGkeO1DFv7/rYJGj7DKtcuBCIJoIDhSAdCmVNeWqkHTh7UqW/q4DTFtmXTWb
+Gxo+UleLxbhjsv6VQEZJEyn4seC7eikjxqd4Cu2LOKm6iNJMrBdMAya1BjaGi7pm
+6lQ5mzw/rYqLbCHdb3T23xQublrS7lIPt4BrHnFvUgnWjrdJMwn4SFZn8aYpbREa
+wF0nMoc8P6D9P7K8ltkh3qWRXeQ/YfOYY1OpTMTegT9UjCijuTWNI/8+ciMsVwXh
+9Vg2HOy8lEZHfPs2+SS+Bgb3Lc63aRyTSBE9LvZdYLhBaLtQgHHuR4RU2m+xOWrQ
+mfU2ly79Yq6VwLFwY6pGZh2iNSQd40SEpi8ZWu/2TVc2QlZJc4BfitrAsjtbVrfN
+wYYgDD8FubA1ni2pTpH1KVi/2tatkWXEwdpfuUbdu6d6VmR4ATERj1SJ2er9N4/R
+wOog1zRz/qibVSKycE+hsfWF8/DxaPiLlI+G68HPIJTfcj4wkHzLbEtp/KnuidNd
+YGlJPSQowMtQsLHctfjArm08s5x8rbLZuI/AQgbIEMDQ1yv8mtLS31FgjTLeUG7z
+otG/32bXQ97dijzIyxVstjof1KMLooO4P4AzYSWZICXtJMmvqles+khhRSmgcAFT
++Zp+aC1HtGVjzqBjBptQ72k6
+=UEZL
 -----END PGP SIGNATURE-----
 
---===============7873631707885989259==--
+--===============7731651323921500922==--
