@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6904742692451471713=="
+Content-Type: multipart/mixed; boundary="===============8064397967617137099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 24 Oct 2021 16:43:25 -0000
-Message-Id: <163509380596.14013.4708361534844353959@gitolite.kernel.org>
+Date: Sun, 24 Oct 2021 16:46:39 -0000
+Message-Id: <163509399923.16404.11435215453872724011@gitolite.kernel.org>
 
---===============6904742692451471713==
+--===============8064397967617137099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 50af5969bb22bb8ea757f87934c2478715afa854
     new: 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8
     log: revlist-50af5969bb22-4d98bb0d7ec2.txt
 
---===============6904742692451471713==
+--===============8064397967617137099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -790,4 +790,4 @@ f4b054d9bb2b165296fbf4524f386d5b8a4aa455 dt-bindings: net: bcmgenet: Document 77
 25790844006af9538e1a01554bc043b404fd8845 dt-bindings: net: macb: Add mdio bus child node
 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8 net: macb: Use mdio child node for MDIO bus if it exists
 
---===============6904742692451471713==--
+--===============8064397967617137099==--
