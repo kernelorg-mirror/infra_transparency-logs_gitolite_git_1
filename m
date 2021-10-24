@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4504360387667708430=="
+Content-Type: multipart/mixed; boundary="===============9213792677869706295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sun, 24 Oct 2021 20:27:22 -0000
-Message-Id: <163510724211.23367.17959473916791434036@gitolite.kernel.org>
+Date: Sun, 24 Oct 2021 20:27:29 -0000
+Message-Id: <163510724951.23482.17560430036929888099@gitolite.kernel.org>
 
---===============4504360387667708430==
+--===============9213792677869706295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 0fc18176c2a62e1bcdb6cd61078eca7f5a29b985
-    new: b9b8218bb3c064628799f83c754dbebd124bd498
-    log: revlist-0fc18176c2a6-b9b8218bb3c0.txt
+  - ref: refs/heads/master
+    old: 4e6e167bc04908c34d11f60cfbf3715eca184536
+    new: 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8
+    log: revlist-4e6e167bc049-4d98bb0d7ec2.txt
 
---===============4504360387667708430==
+--===============9213792677869706295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1635107235 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1635107245 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1635107235-1053f1a1d7d67c0e75b1d3ca4440f07e2a542539
+nonce 1635107245-c0b094abaeeb3c0590337341d5337c7617301830
 
-0fc18176c2a62e1bcdb6cd61078eca7f5a29b985 b9b8218bb3c064628799f83c754dbebd124bd498 refs/heads/testing
+4e6e167bc04908c34d11f60cfbf3715eca184536 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmF1waMTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqRcHB/sHxMQZJnF/efoiuBtOCw1vVuamspXY
-hEPi5FcgQWmGkBDnAnGa1TVuB1gF23tQQGpaYs34OLyjrFcdZb4aDGcffv5hE3Lo
-DNZovxCSq0G1DSFQjXmxDCgCWIpjh7dWWs3N/0T6KsF8H/ugQdgpbmGAcmg79Cw4
-BjoQolOvBn49809ivuMjtgu7jl3s/1sjoPuObtDqsrjixGtRNNK6yQNPaSEv5FlE
-JJjACn4nnQINb6bgrI/4TdF7gdQG/yXHU7r9D4QRNSrmOQQnyB9FZScqmQTTiwDt
-3Kg6YGFV1J5LEcuxgUwPlDZKEbd/opGQM9MxggQazItvnV4gPgzl0UIT
-=31+V
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmF1wa0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqcPdB/49vEQqrDnbzWjKOAcOVkg3SmdJEJoI
+MmrEna5xerQr00dgGVREL4B4TbAXOolsqR1QxPWXzeIf+MAhoH16w/eZuwfVbm17
+IkLrR3BnV+zDcMQbqx0xCO8PuOYINOrV+Sj+gK0snUjuKOBdqeQD04AI4b00/HwT
+d8qFXvnngG++5tlmGh0/2HhTEnLwJkwauFnSnv+ZHTiOCtD0HEV/IP31ewNA9c6s
+xjOZ4A8ekADIhYHNs2k/d+NW8Agsvj/0yZMoCC900CIwI/j31ihsO9XVooJo8Qie
+N8OM9JoTIY6RqjSvy+KOhZLWqsJjWssc8XKFu8v9nwctsfVDCYJE/Hb3
+=D8DZ
 -----END PGP SIGNATURE-----
 
---===============4504360387667708430==
+--===============9213792677869706295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fc18176c2a6-b9b8218bb3c0.txt
+Content-Disposition: attachment; filename=revlist-4e6e167bc049-4d98bb0d7ec2.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -974,20 +974,5 @@ f4b054d9bb2b165296fbf4524f386d5b8a4aa455 dt-bindings: net: bcmgenet: Document 77
 3cd92eae9104a3dc1aa3a2de020e801061b947af net: bcmgenet: Add support for 7712 16nm internal EPHY
 25790844006af9538e1a01554bc043b404fd8845 dt-bindings: net: macb: Add mdio bus child node
 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8 net: macb: Use mdio child node for MDIO bus if it exists
-9b44a927e195087ff04fa7fcd3c3b08015db0d1c can: bcm: Use hrtimer_forward_now()
-e346290439609a8ac67122418ca2efbad8d0a7e7 can: bittiming: can_fixup_bittiming(): change type of tseg1 and alltseg to unsigned int
-63dfe0709643528290c8a6825f278eda0e3f3c2e can: bittiming: allow TDC{V,O} to be zero and add can_tdc_const::tdc{v,o,f}_min
-39f66c9e229797a58a12ea78388cbbad1f81aec9 can: bittiming: change unit of TDC parameters to clock periods
-da45a1e4d7b9d6b5a8231acb812df719fe3228b4 can: bittiming: change can_calc_tdco()'s prototype to not directly modify priv
-d99755f71a80df33b981484f0d3bb956ed15a247 can: netlink: add interface for CAN-FD Transmitter Delay Compensation (TDC)
-e8060f08cd69d1d692cfb9f0a2808477a501f35a can: netlink: add can_priv::do_get_auto_tdcv() to retrieve tdcv from device
-fa759a9395ea81c17db613dde43c46f0607df7e7 can: dev: add can_tdc_get_relative_tdco() helper function
-7bc9ab0f42b3a640af8b2c60aa3a616056c1f47c can: at91/janz-ican3: replace snprintf() in show functions with sysfs_emit()
-39aab46063ed4ce727d93f1ccf8340fbcafccb7f can: rcar: drop unneeded ARM dependency
-28616ed180c37ef110af6c24903a02fb1e0c3623 can: mscan: mpc5xxx_can: Make use of the helper function dev_err_probe()
-108194666a3f59ccaf22ff560a038ee0d7355a86 can: gs_usb: use %u to print unsigned values
-28e0a70cede3fa6835e36302207776831cc41b8b can: peak_usb: CANFD: store 64-bits hw timestamps
-c92603931bfd1367c34481b98ed22728e4299824 can: xilinx_can: remove repeated word from the kernel-doc
-b9b8218bb3c064628799f83c754dbebd124bd498 can: xilinx_can: xcan_remove(): remove redundant netif_napi_del()
 
---===============4504360387667708430==--
+--===============9213792677869706295==--
