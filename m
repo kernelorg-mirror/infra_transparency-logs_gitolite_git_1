@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 24 Oct 2021 04:50:22 -0000
-Message-Id: <163505102207.20282.10251165830385148017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Sun, 24 Oct 2021 05:47:08 -0000
+Message-Id: <163505442846.20607.10697132257831123507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/heads/kbuild
-    old: f8d711e31ee23319da345a31a2436bf4f000d4e1
-    new: 8212f8986d311ccf6a72305e6bdbd814691701d6
+  - ref: refs/heads/fixes
+    old: 420175a11288c002a1a5f45ebe2b5de363775b7c
+    new: 5da2b76dd1f9f41ac46159b35043da6cb09be256
     log: |
-         6947fd96ae9bbe8c8c473a2199fd3edfd8b9f8c8 kbuild: split DEBUG_CFLAGS out to scripts/Makefile.debug
-         4c9d410f32b3fac15ff1197c4b8746da6d11a17e initramfs: Check timestamp to prevent broken cpio archive
-         10c6ae274fe29f732ca9bbcd7016e9827673c954 sh: remove meaningless archclean line
-         8212f8986d311ccf6a72305e6bdbd814691701d6 kbuild: use more subdir- for visiting subdirectories while cleaning
+         fefbed24c74dd16b206c59789c5bed254428c96b Revert "memblock: exclude NOMAP regions from kmemleak"
+         5da2b76dd1f9f41ac46159b35043da6cb09be256 memblock: exclude MEMBLOCK_NOMAP regions from kmemleak
          
