@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8064397967617137099=="
+Content-Type: multipart/mixed; boundary="===============4913411464085243295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 24 Oct 2021 16:46:39 -0000
-Message-Id: <163509399923.16404.11435215453872724011@gitolite.kernel.org>
+Date: Sun, 24 Oct 2021 16:47:03 -0000
+Message-Id: <163509402381.16616.16195443385258341762@gitolite.kernel.org>
 
---===============8064397967617137099==
+--===============4913411464085243295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 50af5969bb22bb8ea757f87934c2478715afa854
-    new: 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8
-    log: revlist-50af5969bb22-4d98bb0d7ec2.txt
+  - ref: refs/heads/mlx5-queue
+    old: 1a7983a7dd155b9d91318141f078222f1e6da1d6
+    new: 5c39b8dfa414cc44dfcfa3ec787e391e2882925b
+    log: revlist-1a7983a7dd15-5c39b8dfa414.txt
 
---===============8064397967617137099==
+--===============4913411464085243295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50af5969bb22-4d98bb0d7ec2.txt
+Content-Disposition: attachment; filename=revlist-1a7983a7dd15-5c39b8dfa414.txt
 
 b8a30b4171b9a3c22ef0605ed74a21544d00c680 fs/ntfs3: Remove unnecesarry mount option noatime
 c2c389fd6c6b0393549578997744b03822dd2b24 fs/ntfs3: Remove unnecesarry remount flag handling
@@ -789,5 +789,32 @@ f4b054d9bb2b165296fbf4524f386d5b8a4aa455 dt-bindings: net: bcmgenet: Document 77
 3cd92eae9104a3dc1aa3a2de020e801061b947af net: bcmgenet: Add support for 7712 16nm internal EPHY
 25790844006af9538e1a01554bc043b404fd8845 dt-bindings: net: macb: Add mdio bus child node
 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8 net: macb: Use mdio child node for MDIO bus if it exists
+d6c2d26483c9fc4c2d15bbe0c56165e3897231c4 net/mlx5: Extend health buffer dump
+746ce313e86b71648088bdeb40f5ddfe382ba77b net/mlx5: Print health buffer by log level
+237cbb76f7f6636efb27be84892b5fe6b637a55e net/mlx5: Add periodic update of host time to firmware
+85943bbbf991a8c3c0604e5141cd1bef37ada9f8 net/mlx5: Separate FDB namespace
+1f6a3d3b4d1d45679519c6400b7fd8167e911bb0 net/mlx5: Refactor mlx5_get_flow_namespace
+b0c40e7cbf3f408259be6f5a53795ff440b28531 net/mlx5: Create more priorities for FDB bypass namespace
+e38d40c1f9452e968269cbe9d531c1ea6430b227 RDMA/mlx5: Add support to multiple priorities for FDB rules
+9b5f71d85e6e440db602eacd660db3d2537b272b net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+15a557d418580573f6632e958c442ca378443065 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+2970a4177e4714e5c6843fe871c1f75685606ba6 net/mlx5e: Allow profile-specific limitation on max num of channels
+e707e1859516b4607048b7b5a2b0b06c31757634 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+761f362581480c1e46adaa2d2db431a50c66b12d net/mlx5e: Allocate per-channel stats dynamically at first usage
+950767ad40f1a5c2d1659834d19b8455a67869a2 net/mlx5e: don't write directly to netdev->dev_addr
+7da31d422f608848f4f66ceb3699649f64d310e3 net/mlx5: Reduce flow counters bulk query buffer size for SFs
+e37a77f7a8346006b721860ed296d2d762886061 net/mlx5: SF, Add SF trace points
+fb32a5a40600b2eab265281135a893e7046859bb net/mlx5: SF_DEV Add SF device trace points
+74755b9548c0ed85c6688a22cc8e67f49fd0f0c0 net/mlx5: Let user configure io_eq_size param
+7f157f80f7013087f0c7c01d151a793193c78d54 net/mlx5: Let user configure event_eq_size param
+89a013370f1e8f79ce5ffd66d20651dec2de24b8 net/mlx5: Let user configure max_macs param
+aa3a5bb6d5f3e358aa0032c6e8f14735c9997fa8 net/mlx5: DR, Fix querying vport 0 capabilities
+04de0eab42b3eaf54e3afd45b0ebbdd10d98853e Merge branch 'patchq/434730' into mlx5-queue
+081da34471d6e78cb857369317125bf6511d6d69 Merge branch 'patchq/432332' into mlx5-queue
+a68421c1d28372a6754d10deae6223254ef67ec4 Merge branch 'patchq/440227' into mlx5-queue
+147bb758d7089b55bfe682578b61bdba527969fe Merge branch 'patchq/435738' into mlx5-queue
+9e24e56703988b8ba3780203b3f541fa9bd7ba43 Merge branch 'patchq/432142' into mlx5-queue
+a2a0f621ab5c9131a4f85df8c4cb8dca8a97277d Merge branch 'patchq/423994' into mlx5-queue
+5c39b8dfa414cc44dfcfa3ec787e391e2882925b Merge branch 'patchq/435320' into mlx5-queue
 
---===============8064397967617137099==--
+--===============4913411464085243295==--
