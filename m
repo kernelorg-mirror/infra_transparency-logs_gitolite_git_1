@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 24 Oct 2021 12:38:09 -0000
-Message-Id: <163507908924.24958.13256693078683317237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 24 Oct 2021 12:38:18 -0000
+Message-Id: <163507909873.25055.418741100439708891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1f83b835a3eaa5ae4bd825fb07182698bfc243ba
-    new: d6423d2ec39cce2bfca418c81ef51792891576bc
+    old: 0998aee279c3e8eaf8d1c865d4a910f881fd5637
+    new: db690aecafd1a5ef230d2544a00d4ed2ffa83dea
     log: |
-         d6423d2ec39cce2bfca418c81ef51792891576bc net: ethernet: microchip: lan743x: Fix driver crash when lan743x_pm_resume fails
+         db690aecafd1a5ef230d2544a00d4ed2ffa83dea octeontx2-af: Increase number of reserved entries in KPU
          
