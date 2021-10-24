@@ -1,57 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2784103652806470536=="
+Content-Type: multipart/mixed; boundary="===============4055692343913763370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 24 Oct 2021 09:56:49 -0000
-Message-Id: <163506940905.20552.17446516920204113318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Sun, 24 Oct 2021 09:59:54 -0000
+Message-Id: <163506959465.21524.7580921806307628005@gitolite.kernel.org>
 
---===============2784103652806470536==
+--===============4055692343913763370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: ec541437e99dc3d46fd47e1afda4b17f333cdc6b
-    new: 1a7983a7dd155b9d91318141f078222f1e6da1d6
-    log: revlist-ec541437e99d-1a7983a7dd15.txt
+  - ref: refs/heads/kvm/mm-hacking
+    old: 69f5adbc31f0df03611c69941bca08b4c74c9cfe
+    new: 4d48717a05b42e9b482140bdb3962b00f3462faa
+    log: revlist-69f5adbc31f0-4d48717a05b4.txt
 
---===============2784103652806470536==
+--===============4055692343913763370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec541437e99d-1a7983a7dd15.txt
+Content-Disposition: attachment; filename=revlist-69f5adbc31f0-4d48717a05b4.txt
 
-5f94e5a2c0b97f7a6607456d330498fac3dc9747 net/mlx5: Extend health buffer dump
-eb4110d41430a069de8b4bad7e44912843048e23 net/mlx5: Print health buffer by log level
-aa4676ce3f0fef0cf0a1f7a5ab9d95768bf62676 net/mlx5: Add periodic update of host time to firmware
-bdac0ab2a5e7dda50197e38b74d439fb9cfcb96e net/mlx5: Separate FDB namespace
-c643e581fd2c1ad9f96c04ce73ebe63dd19c8b98 net/mlx5: Refactor mlx5_get_flow_namespace
-3dae4977717adc1ea3f891abfb27e5439fba363d net/mlx5: Create more priorities for FDB bypass namespace
-bf23df4bd57ebcb75594bf186aff268e85ef7c22 RDMA/mlx5: Add support to multiple priorities for FDB rules
-5c61be7931345d6ad09371d3bd84c4c1e46559ed net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
-3e7e0861a0c7606341eab4c729fc03cfa40c084f net/mlx5e: Save memory by using dynamic allocation in netdev priv
-9b6b74c61fd37f1ce15b2e2aad9a832d7b495bf2 net/mlx5e: Allow profile-specific limitation on max num of channels
-e09f14df3eca4d55dfe50222fa37b8a7c9cab0fe !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
-1720f1fabe52594b9b7ef967630605b6ed9d2ba0 net/mlx5e: Allocate per-channel stats dynamically at first usage
-61c1d1d1b92bcb54dbc044a9b8aee1d9634a3a6f net/mlx5e: don't write directly to netdev->dev_addr
-0699be4e563d2f7c3e1e1a692bddd3d8b8fba8f7 net/mlx5: Reduce flow counters bulk query buffer size for SFs
-75473d060cfb80eaf91f8b905a16a3327bc4319d net/mlx5: SF, Add SF trace points
-57384f6c72fc7c44ca53562fadd1aea0efe44121 net/mlx5: SF_DEV Add SF device trace points
-31c2d99fd9f830105d1c7686dd88185effbe43c7 net/mlx5: Let user configure io_eq_size param
-fb149611bd1cb4c4b75f5b9054f79c9bf4681108 net/mlx5: Let user configure event_eq_size param
-af9a1a74bf5e690331e454a26845759c8b4e1924 net/mlx5: Let user configure max_macs param
-b330250f751d42adce19622bde6712491dd411c4 net/mlx5: DR, Fix querying vport 0 capabilities
-39b8892340659e7c5af9542cc095f6850460f62e Merge branch 'patchq/434730' into mlx5-queue
-801f797c7c50ae8c840536fd902da7c9e5bb880a Merge branch 'patchq/432332' into mlx5-queue
-4b0859c24cd9612a1c5174e003d2bf7a60894e79 Merge branch 'patchq/440227' into mlx5-queue
-fe0eed9e1d713d19cfc5bf14919eb97c0ad7b6d3 Merge branch 'patchq/435738' into mlx5-queue
-2ecf3d32a32b3627be92452957cba2d30e0b9294 Merge branch 'patchq/432142' into mlx5-queue
-c69ac76c9e93d83b95c59a1ecb602c8fc281df6d Merge branch 'patchq/423994' into mlx5-queue
-1a7983a7dd155b9d91318141f078222f1e6da1d6 Merge branch 'patchq/435320' into mlx5-queue
+b6216700f3b8ca1cc923b787de6ed040a51fdd43 [DEBUG] arm64: Enable KVM debug UART
+bc0b7754641935d3f1de080f0d40946485f97133 KVM: arm64: Disable GICv2 support in protected mode
+3d1a3871299087380e4bebd92b953dd3264c3a80 KVM: arm64: Provide a helper to compute the size of stage-2 PGDs
+c5d3efd539c50b711fa1ccf237053f7b49398d8b KVM: arm64: Back hyp_vmemmap for all of memory
+8a21d4892d389feea657ec6ffbbf850b39410dde KVM: arm64: Fix hyp_pool max order
+4c671d46caa830848d8a7caa6cdd90e11836195d KVM: arm64: Fix host stage-2 PGD refcount
+ae5e1ec51d141de678e0ebe7a7b285a39db218f1 KVM: arm64: Add flags to struct hyp_page
+bef9ff1260f85147adfe238910a3e80fb415f2f4 KVM: arm64: Introduce HYP_PAGE_COALESCEABLE page flag
+b2cbf3ca4c6fd174c3e6782661bc676e75340c79 KVM: arm64: Consolidate stage-2 init in one function
+8fd90591b0ab2e2094e59d97d30c273619298dbe KVM: arm64: Don't pass kvm_arch to kvm_pgtable_stage2_init()
+29ec83653623cd7c9165fd9dbc16f3327c378f69 Move kvm_shadow_vm to pkvm.h
+7f63569addca7d5540c6d8fa915eccc6b5e4e641 Move pkvm.c from kvm/ to kvm/hyp/
+7ec42336a71400ef062bac41ce00fd92971cc2e0 Add hyp_memcache helpers
+4edaf79eb3724a07dcef05a0bf117a137cc84bca Add hyp_memcache helpers in the kernel
+22620398ceeb06482ac9e10237d73c7c082de75c Add hyp_memcache helpers at hyp
+581d0784de0463ac82c9dec054ed88e235e6ffcd Prepare EL2 guest stage-2 page-table
+01a3c0d1cf77250a6c7f4d8a0dac7a67fc04ceb5 Add __pkvm_host_share_guest
+db501f5a5a20967c72138b485ff1252299c91781 Call __pkvm_host_share_guest
+ff5a62be1197e0c837aa9374cc6b9f433e348fcf Make amazon happy
+a18ec194279d7a72183caef1411228e681026a19 Teardown guest
+d225ce033315d2f25018a3462c65b0aae57965f2 KVM: arm64: WIP: Guest-host sharing
+4d48717a05b42e9b482140bdb3962b00f3462faa KVM: arm64: train hacking
 
---===============2784103652806470536==--
+--===============4055692343913763370==--
