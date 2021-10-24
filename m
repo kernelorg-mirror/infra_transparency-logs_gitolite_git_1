@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2570735378599257533=="
+Content-Type: multipart/mixed; boundary="===============4576726883507075570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 24 Oct 2021 15:38:21 -0000
-Message-Id: <163508990197.6057.11764608549161577134@gitolite.kernel.org>
+Date: Sun, 24 Oct 2021 15:38:31 -0000
+Message-Id: <163508991155.6190.8116049534165762735@gitolite.kernel.org>
 
---===============2570735378599257533==
+--===============4576726883507075570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: b93d7ea16f1e0da6c0b76ca9eae44a31967e4cb3
     new: 5323cc30d36f9fc65a1d6f567abf687bd3fb9951
     log: revlist-b93d7ea16f1e-5323cc30d36f.txt
 
---===============2570735378599257533==
+--===============4576726883507075570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ eda9a4f7af6ee47e9e131f20e4f8a41a97379293 clocksource/drivers/timer-ti-dm: Select
 a8da61cee95e627ed3d4274861428013aa9604ea Merge tag 'timers-v5.16-rc1' into timers/core
 5323cc30d36f9fc65a1d6f567abf687bd3fb9951 Merge remote-tracking branch 'tip/timers/core' into tip-master
 
---===============2570735378599257533==--
+--===============4576726883507075570==--
