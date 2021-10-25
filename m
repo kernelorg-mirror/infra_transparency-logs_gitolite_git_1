@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 25 Oct 2021 13:04:55 -0000
-Message-Id: <163516709524.9001.14048513917972735311@gitolite.kernel.org>
+Date: Mon, 25 Oct 2021 13:07:36 -0000
+Message-Id: <163516725666.11171.17666176297350639503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 2a7ca7459d905febf519163bd9e3eed894de6bb7
-    new: b5e6fa7a12572c82f1e7f2f51fbb02a322291291
+    old: b5e6fa7a12572c82f1e7f2f51fbb02a322291291
+    new: 2d6d4089ea894cf8eb481b10769160a35c181360
     log: |
-         b5e6fa7a12572c82f1e7f2f51fbb02a322291291 Bluetooth: bfusb: fix division by zero in send path
+         2d6d4089ea894cf8eb481b10769160a35c181360 Bluetooth: hci_bcm: Remove duplicated entry in OF table
          
