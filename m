@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 25 Oct 2021 18:19:56 -0000
-Message-Id: <163518599656.19035.15882276977607994710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 25 Oct 2021 18:21:26 -0000
+Message-Id: <163518608630.21322.2620004131763271127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 8b6b9b775615d533383894fce2e6a94927c9df28
-    new: 0626b79214ed72806283adfa70163e4a8e97eff5
+    old: ca6f5096e63fddaeaa1fe409bb7cd69b42bafe01
+    new: 6ae318206804abedd737da6122247ec74f1037c7
     log: |
-         0626b79214ed72806283adfa70163e4a8e97eff5 btdev: Fix using the callback return as command complete
+         6ae318206804abedd737da6122247ec74f1037c7 Mon Oct 25 06:20:53 PM UTC 2021
          
