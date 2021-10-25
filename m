@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3075688047137397734=="
+Content-Type: multipart/mixed; boundary="===============7189679831469208812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 25 Oct 2021 07:22:16 -0000
-Message-Id: <163514653625.3390.13566396097019028705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 25 Oct 2021 07:50:36 -0000
+Message-Id: <163514823696.21141.14213424146493120270@gitolite.kernel.org>
 
---===============3075688047137397734==
+--===============7189679831469208812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 7c0408d805797178f075f33d0f705a1c6ef76c82
-    new: 7c4327a15c600508dd757a961cf1d58cdf51dca7
+  - ref: refs/heads/master
+    old: f2d915ecb3047d00d3a704c941bb33246b79fa2b
+    new: 4bf920209575f6a610087296c2b912816a2a09a3
     log: |
-         a5b808f68ae0d79ce70930c8cd79177fa619e3be serial: 8250_pci: Refactor the loop in pci_ite887x_init()
-         239bd1f2550c96c7070883d8454f3561550cb523 serial: 8250_pci: Get rid of redundant 'else' keyword
-         7c4327a15c600508dd757a961cf1d58cdf51dca7 serial: 8250_pci: Replace dev_*() by pci_*() macros
+         4bf920209575f6a610087296c2b912816a2a09a3 4.14-stable patches
          
 
---===============3075688047137397734==
+--===============7189679831469208812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635146534 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1635146534-b26d3313a8f0cb40cb234223c3134e16cbf5c642
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635148235 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1635148235-d3627ee7e89fd7f241017065504eb57eab614e42
 
-7c0408d805797178f075f33d0f705a1c6ef76c82 7c4327a15c600508dd757a961cf1d58cdf51dca7 refs/heads/tty-testing
+f2d915ecb3047d00d3a704c941bb33246b79fa2b 4bf920209575f6a610087296c2b912816a2a09a3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WyYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LMIP/R8dMYtJfc9kW8fqKOCw
-RkgBkvBFq0xkRy3r3qmxdFDk3Np9Y6UgZ97R/9bTrDZtmk3X7HWGd36uOckzzl5A
-evdKdXRb4n0b1OXTr1FAHhfKKCHOAFZnni9NvfokfCwMNGQnqqJUsubjzYYJdwAx
-FArssqTJyp+tdHXLJcFQAr+SFH1BQEIhRnhy78m9CG9eQ+4qUVbhRPan/FfIZn6O
-J/Ss4cdsqL5W5SUGKBtNUXyjv1YIwJwT0DmltWRkXb6t1eUC5Lpe2mAOkj9C4csI
-ZuNYFhOAYrl56XzevtmjbG7nHekGBqt5aMVjubUwA2tfGUIr00zYeSMmWWQ3NIYX
-BSy0fNpE3R3Cle9+ZC+CzojBMoeKzhDH96McGgxPEzKbrOlWEmqXeIiMleGAlsid
-ugiizOUaC0nfiVud+fKq6fztc9rjpp+IvkHjUwc+1KfS19nfgBrv2ozSezAq1sKS
-Fq2dWB3nv99jlUk0wMbufNLU18NEj0Ii401/U5W6GlMCd0oAxRnR7Q0A7F+BPvx1
-mqJeXKw2JeS1LbWbKGSTwzvOv0eti7Q2V3ork9p90cVXA3QZRvO4XYYMXtfK3lzF
-Dx2MJ3T2d5BLgRmwGWHvTHyQlyVD1fOXWPkONoN9sgWjFXXpSb7DLVPOPVgLyrlh
-HHUgm8JVHchupZIB7rhW3hp4
-=JwuI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2YcsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+teUQAJFiy2oS4ipBqaRIiSW1
+/8E9D3NyJ0vdqOT3vie0FppACJjJ4vu+wpLpRnIsvRiiJXiFgEN6TH3svb3bvB3C
+2jklPpTBPhGZ2sfbniiD9n52Lzh4P7DhwmMcOB0uRGX7x/00sfIad03dQfV6DEUN
+wbhATj5ZVakhL1JGv7hZErpRWwHHuW48G7xbwJ5l07WRqEQc3FckcnoOYNUPjKaT
+IRa7vfefsdSOKUwZUg8qOfg9d14EQ2NTwXG1KE2J4VUAmyKzfrsMa04h/Q1XWNbj
+9afArwYCgUH09wqcDPzSNp7yFRxbNQ8UdeRGLMB7QfoR1vp/qW6U6G3t4r/nBXcy
+hrqsN8qCT/rk02HSchABFT2FANH3MmeK21OojY0JBcOvCQneDy8BB7V1V6MMD1OH
+Wdev12WZ1MpIXhXt8CGiwVmYmRIy+pOzhKgXsaRZcWhS7322fWNQD53xPGWK7o95
+bzzq3pUkdkRwvDwhGmwd2IePs4JC6MY0bpDn2PEBXDvNlqA58QUWJrpbfhcsihRK
++mKqS5LMttBluEoln90OstNx2t33fFv61yIgXwIfaniBp6umRK/gkgUH5R1Q23H5
+cU+h1oF6Pq6SpgkN+9S/79y18vTqGc2uWogqB4YGF+/2V38/Y/OTvkOoYW8zQNsc
+kWemTgj6by1jAQNXG5V8n2Br
+=SAjD
 -----END PGP SIGNATURE-----
 
---===============3075688047137397734==--
+--===============7189679831469208812==--
