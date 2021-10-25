@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1053751960310159200=="
+Content-Type: multipart/mixed; boundary="===============2290439423840988601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 25 Oct 2021 07:13:57 -0000
-Message-Id: <163514603714.28589.13187947725299964719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 25 Oct 2021 07:14:44 -0000
+Message-Id: <163514608479.28882.8301355038193880883@gitolite.kernel.org>
 
---===============1053751960310159200==
+--===============2290439423840988601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 0e53a9e038d4ac20a3a6bab68cfc9517c316c152
-    new: d46e58ef776bc6548b17b563ec4a8ed30c6643da
+  - ref: refs/heads/usb-next
+    old: e4ce9ed835bcaf4cd3230a53a79645986c25ce0f
+    new: c26f1c109d21f2ea874e4a85c0c76c385b8f46cb
     log: |
-         149538cd55cad138b6eaa4dc4735c28f53eb5d32 selftests/lkdtm: Add way to repeat a test
-         d46e58ef776bc6548b17b563ec4a8ed30c6643da lkdtm/bugs: Check that a per-task stack canary exists
+         02f8b1360312d888e3f4ae4ab47dec6cd542678d usb: musb: sunxi: Don't print error on MUSB_ULPI_BUSCONTROL access
+         21b5fcdccb32ff09b6b63d4a83c037150665a83f usb: musb: Balance list entry in musb_gadget_queue
+         9aaa81c3366e8393a62374e3a1c67c69edc07b8a USB: chipidea: fix interrupt deadlock
+         876a75cb520f5869533a30a6ca01545ec817b7a0 usb: dwc3: gadget: Skip resizing EP's TX FIFO if already resized
+         d1a4683747fe62905047b1ccd50405bc445cf86f usb: dwc3: Align DWC3_EP_* flag macros
+         260d88b79c9f9c9d9cda10aad9c9b8486ddcf56a usb: gadget: configfs: add cfg_to_gadget_info() helper
+         c26f1c109d21f2ea874e4a85c0c76c385b8f46cb usb: gadget: configfs: change config attributes file operation
          
 
---===============1053751960310159200==
+--===============2290439423840988601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635146035 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1635146035-47102c3778fd142fab6d8fd21ffa169557b97cae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635146084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1635146083-e4c2b6b1bd6bc2923705f85b57de49c902945308
 
-0e53a9e038d4ac20a3a6bab68cfc9517c316c152 d46e58ef776bc6548b17b563ec4a8ed30c6643da refs/heads/char-misc-testing
+e4ce9ed835bcaf4cd3230a53a79645986c25ce0f c26f1c109d21f2ea874e4a85c0c76c385b8f46cb refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WTMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c9EP/2MuHIeXOwjiw7vTK5BF
-uQA9PjkLDRTXx17bbZ1dgXsbShfkiLEmQe0nu1AKKwU/pfQ+fazREyIIjw5YhBj8
-NKs7A5+wIcbzXWijlV8oWk2bGDaP2J7vIu1VD5baVF3nPAsRw6ApNciygym51aBz
-bDo/Q1mOfyZM1j/bAkmBI3+SJDPP51lTyMeUbCTJPqsUagCNU2WO8/3a0XTbsyU/
-km3B0gmB6Iz761wvduKXNk/O2tlYqOGjrgvDGn9XWgEqBR+fTRDFdVKE7mY6J4EF
-NJnGGFwYMrRHqZUEyGGytcmx9rgmrZ3GzzYmUovLgtWVAzCU4YuhRq+v7iMZmQ1x
-kWGENxQ7TqmlaKmwdjoqxqTDO09NL3gRf+J3/AavrRaL4khYVroY6qIwmJxxI9bK
-UuWKAXFl+dYHnNpYj5Ck/N0YnM3xcUXEv7qE84ACFmYfYgNRKEdFJAJN2i8PMxPT
-0EVyEknSDbYQK0a3Dwet6eTqLwJaIVcH9LlmqYRRM/Yn74hGNoCWVjhbLl8TBjrw
-Exl/ZEmWHGrdAwnVTDcJgp2Viwq7o+USokegQ2/vkZWhn3aApJzkkN5UrOco79E5
-ACHJV2yyxBO2B0SX8BA1AYUJehYQ7ZpLkPs7U7ntxPpdG+gFjwsb1RdrUzCdffIS
-xcpFe1qLQZOx07KXBA2Pkd+X
-=cY2Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WWQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/OIP/RksDantTMjhTbwT0ZTH
+iwWDJG4kwQIgsGUNcDidn+/S9BgoObAs5WbeduRmEBZLw43UjtlSzdR0XeLHwi+y
+GmEZNi1iNTqMLbox04VZKesaNDDGBrxE9UXViRXcSpnnuQWmj+zqVZQpK7wc8P4V
+WWdf4tHRxgWAdNDL7YXQ0Mno5cI/oKp58W6ixJQvrd5ZMYG2m53lIB76JKpx5xIu
+rBkxf1yetusALyLiKyhUgDcOt/QonbegOULC7Yv14IBLO8vYG8m/XfjnDdlv4oSL
+BomWhasVhOc4pt+DjqeLnpZ7tWkKhAxx2HJ9fA6O0+xKqVepAm9b8SSJIVi116Rr
+HHO73L/RT7EnaF26dzOqyj1MWqoMAs9To7JcpRdpnl48FkDp1Lgdt7mTrPtrK6LB
+ZdLdpXDUhoLL0RhUeO1Yznv+ygzA4b5ETBP3oxndezs+Jm27R4Yqih1HtG7jJN45
+2nKYdZXQ5DoB/bReGvvTehzgcYbhMKv1lFj/1wE9tTq3P1s8lD3WbCJyW4Mvs/RY
+EhhDu6hntWLJs2IVYom9qXW3o8AtHmi8uamJqAbo5pEMOxe/1Fb2jc7Of8M/Zf2+
+IELZ5FxAn5eEZJ4Qd5Nnx6MxaCnUWX2hf+VwrcX3WnP8E/rSryhiE9Tghr5YLgLm
+elUgLNK0vbtSXbF9sfllQaFL
+=AdPZ
 -----END PGP SIGNATURE-----
 
---===============1053751960310159200==--
+--===============2290439423840988601==--
