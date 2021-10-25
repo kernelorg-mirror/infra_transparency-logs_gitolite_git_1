@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 25 Oct 2021 22:36:20 -0000
-Message-Id: <163520138064.15641.1513747311239585280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 25 Oct 2021 22:42:11 -0000
+Message-Id: <163520173166.18783.1598209704003390996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 6a477061c76a4bb798f731ba94d115a14ab8cc9a
-    new: 93a06769c432cc57e6da77d234ad0d0b62dc9466
+  - ref: refs/heads/for-next/overflow
+    old: 9a48e7564ac83fb0f1d5b0eac5fe8a7af62da398
+    new: 95cadae320be46583078690ac89ffe63c95cc9d2
     log: |
-         48b0a95528ff82d2afc10bfbb803048d12f60d5a client: Print daemon information at startup
-         93a06769c432cc57e6da77d234ad0d0b62dc9466 client: Print IP Addresses / hint about netconfig
+         95cadae320be46583078690ac89ffe63c95cc9d2 fortify: strlen: Avoid shadowing previous locals
          
