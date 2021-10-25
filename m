@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7254829806849164676=="
+Content-Type: multipart/mixed; boundary="===============1421290043712683301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 25 Oct 2021 10:37:36 -0000
-Message-Id: <163515825641.13613.15872364309586271468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 25 Oct 2021 10:38:07 -0000
+Message-Id: <163515828720.13810.16769159689427101957@gitolite.kernel.org>
 
---===============7254829806849164676==
+--===============1421290043712683301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 519d81956ee277b4419c723adfb154603c2565ba
     log: revlist-64570fbc14f8-519d81956ee2.txt
 
---===============7254829806849164676==
+--===============1421290043712683301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -447,4 +447,4 @@ f2b3420b921d142b4c55f7445385bdab4060d754 Merge tag 'block-5.15-2021-10-17' of gi
 cd079b1f870729a9fe3294f800dff18b548f129d Merge tag 'libata-5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 519d81956ee277b4419c723adfb154603c2565ba Linux 5.15-rc6
 
---===============7254829806849164676==--
+--===============1421290043712683301==--
