@@ -1,91 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============6511922493164602058=="
+Content-Type: multipart/mixed; boundary="===============1654652001105475459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 25 Oct 2021 12:18:18 -0000
-Message-Id: <163516429817.12043.7887463654949609192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 25 Oct 2021 12:20:08 -0000
+Message-Id: <163516440834.15170.6461568648122753383@gitolite.kernel.org>
 
---===============6511922493164602058==
+--===============1654652001105475459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 64222515138e43da1fcf288f0289ef1020427b87
-    new: 87066fdd2e30fe9dd531125d95257c118a74617e
-    log: revlist-64222515138e-87066fdd2e30.txt
+  - ref: refs/heads/ceph-fscache-rewrite-indexing
+    old: 28b44ad89e351e9e530fe89fe25fb91f94e4ebb3
+    new: 755b8768b586ee01c5a4837f516cb6eb8cb51e34
+    log: revlist-28b44ad89e35-755b8768b586.txt
 
---===============6511922493164602058==
+--===============1654652001105475459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64222515138e-87066fdd2e30.txt
+Content-Disposition: attachment; filename=revlist-28b44ad89e35-755b8768b586.txt
 
-136f282028dae7d9dd68469b197aa2b36b410992 ACPI: tools: fix compilation error
-50b6cb3516365cb69753b006be2b61c966b70588 scsi: core: Fix shost->cmd_per_lun calculation in scsi_add_host_with_dma()
-187a580c9e7895978dcd1e627b9c9e7e3d13ca96 scsi: iscsi: Fix set_param() handling
-6fd13d699d24beaa28310848fe65fd898fbb9043 scsi: storvsc: Fix validation for unsolicited incoming packets
-f2b85040acec9a928b4eb1b57a989324e8e38d3f scsi: core: Put LLD module refcnt after SCSI device is released
-f7db8fd03a4bc5baf70ccf8978fe17cb54368b97 ksmbd: add validation in smb2_ioctl
-bf8acc9e10e21c28452dfa067a7d31e6067104b1 ksmbd: improve credits management
-9a63b999ae5435d82a5c353c6b1467100f857742 ksmbd: fix potencial 32bit overflow from data area check in smb2_write
-dbad63001eac3abeeb2b66ddf71504e8ab128c5c ksmbd: validate compound response buffer
-4bc59477c3298b191c72b5d99feb54a1dc8c254d ksmbd: limit read/write/trans buffer size not to exceed 8MB
-2ea086e35c3d726a3bacd0a971c1f02a50e98206 ksmbd: add buffer validation for smb direct
-7a33488705008b5bb5f8d95d05326dcc64fc55f4 ksmbd: validate credit charge after validating SMB2 PDU body size
-97e6ea6d78064e7f1e9e19c45dc690aabbb71297 scsi: mpi3mr: Fix duplicate device entries when scanning through sysfs
-85374b6392293d103c2b3406ceb9a1253f81d328 scsi: sd: Fix crashes in sd_resume_runtime()
-5370b0f49078203acf3c064b634a09707167a864 blk-cgroup: blk_cgroup_bio_start() should use irq-safe operations on blkg->iostat_cpu
-9fbfabfda25d8774c5a08634fdd2da000a924890 block: fix incorrect references to disk objects
-06634d5b6e923ed0d4772aba8def5a618f44c7fe scsi: qla2xxx: Return -ENOMEM if kzalloc() fails
-7fb223d0ad801f633c78cbe42b1d1b55f5d163ad scsi: qla2xxx: Fix a memory leak in an error path of qla2x00_process_els()
-4a8f71014b4d56c4fb287607e844c0a9f68f46d9 scsi: qla2xxx: Fix unmap of already freed sgl
-4e5483b8440d01f6851a1388801088a6e0da0b56 scsi: ufs: ufs-pci: Force a full restore after suspend-to-disk
-63acd42c0d4942f74710b11c38602fb14dea7320 sched/scs: Reset the shadow stack when idle_task_exit
-bc28368596436e6e81ffc48c815b8225d96121c0 ACPI: PM: Do not turn off power resources in unknown state
-bc369921d6708542eb93da33478762f1162a5805 io-wq: max_worker fixes
-34061d6b76a41b1e43c19e1e50d98e5d77f77d4e ksmbd: validate OutputBufferLength of QUERY_DIR, QUERY_INFO, IOCTL requests
-621be84a9d1fbf0097fd058e249ec5cc4f35f3c5 ksmbd: throttle session setup failures to avoid dictionary attacks
-0d994cd482ee4e8e851388a70869beee51be1c54 ksmbd: add buffer validation in session setup
-e139a1ec92f8dbaaa7380d7e7ea17e148d473d06 io_uring: apply max_workers limit to all future users
-4ea672ab694c23886b52e97cee10dea056e43e62 io_uring: fix ltimeout unprep
-25f54d08f12feb593e62cc2193fedefaf7825301 autofs: fix wait name hash calculation in autofs_wait()
-de7cd3f6761f49bef044ec49493d88737a70f1a6 KVM: x86: check for interrupts before deciding whether to exit the fast path
-3a25dfa67fe40f3a2690af2c562e0947a78bd6a0 KVM: nVMX: promptly process interrupts delivered while in guest mode
-d534d31d6a45d71de61db22090b4820afb68fddc fuse: check s_root when destroying sb
-a27c061a49afd7ad2d935e6ac734e2a9f62861b8 fuse: get rid of fuse_put_super()
-c191cd07ee948c93081d8e4cba43d23b18b2f3da fuse: clean up fuse_mount destruction
-80019f1138324b6f35ae728b4f25eeb08899b452 fuse: always initialize sb->s_fs_info
-964d32e512670c7b87870e30cfed2303da86d614 fuse: clean up error exits in fuse_fill_super()
-0a30896fc5025e71c350449760b240fba5581b42 MAINTAINERS: Add Dave Hansen to the x86 maintainer team
-a3ca5281bb771d8103ea16f0a6a8a5df9a7fb4f3 KVM: MMU: Reset mmu->pkru_mask to avoid stale data
-c8c340a9b4149fe5caa433f3b62463a1c8e07a46 KVM: SEV: Flush cache on non-coherent systems before RECEIVE_UPDATE_DATA
-b22fa62a35d7f2029d757a518d78041822b7c7c1 io_uring: apply worker limits to previous users
-b5998402e3de429b5e5f9bdea08ddf77c5fd661e KVM: SEV-ES: rename guest_ins_data to sev_pio_data
-0d33b1baeb6ca7165d5ed4fdd1a8f969985e35b9 KVM: x86: leave vcpu->arch.pio.count alone in emulator_pio_in_out
-ea724ea420aac58b41bc822d1aed6940b136b78d KVM: SEV-ES: clean up kvm_sev_es_ins/outs
-3b27de27183911d461afedf50c6fa30c59740c07 KVM: x86: split the two parts of emulator_pio_in
-6b5efc930bbc8c97e4a1fe2ccb9a6f286365a56d KVM: x86: remove unnecessary arguments from complete_emulator_pio_in
-4fa4b38dae6fc6a3695695add8c18fa8b6a05a1a KVM: SEV-ES: keep INS functions together
-95e16b4792b0429f1933872f743410f00e590c55 KVM: SEV-ES: go over the sev_pio_data buffer in multiple passes if needed
-7a7489005a80af97ba289dc0579fccd50af4fe8d Merge branch 'acpi-tools'
-cd82c4a73b6713984b69c57a2a687203d3e0e34a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-1d4590f5069bff7d41d7ed1a7e7674fb9d6d502a Merge tag 'acpi-5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-8017c99680fa65e1e8d999df1583de476a187830 hyperv/vmbus: include linux/bitops.h
-477b4e80c57f787cf8f494ccb9be23a23642b2f2 Merge tag 'hyperv-fixes-signed-20211022' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-5ab2ed0a8d75ce55ade89e3ff6b75bef7d9fa53f Merge tag 'fuse-fixes-5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-da4d34b669723508601a4c29daa22cdc669ee005 Merge tag 'io_uring-5.15-2021-10-22' of git://git.kernel.dk/linux-block
-9c0c4d24ac000e52d55348961d3a3ba42065e0cf Merge tag 'block-5.15-2021-10-22' of git://git.kernel.dk/linux-block
-0f386a604ce5074724909a8927d6d97ef998b5a9 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-c460e7896e6906d4e154f2e7fb7f40d46edbd006 Merge tag '5.15-rc6-ksmbd-fixes' of git://git.samba.org/ksmbd
-16bc177666c037b4aa3e1f68f4eac685006c622b Merge tag 'x86_urgent_for_v5.15_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6c62666d8879238578b727f8e0a821e90c88f87e Merge tag 'sched_urgent_for_v5.15_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b20078fd69a3da08d85c79b95101cf25c4afcc97 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-87066fdd2e30fe9dd531125d95257c118a74617e Revert "mm/secretmem: use refcount_t instead of atomic_t"
+101e5136f181eaed2004906f9d3c48cefeab611d fscache_old: Move the old fscache driver to one side
+70ea30ac33d8897068220c8a38ef4d522e4aa1d8 fscache_old: Rename CONFIG_FSCACHE* to CONFIG_FSCACHE_OLD*
+9e101dba9e364397fc64c2f0c4a9a30d77c5e17d cachefiles_old:  Move the old cachefiles driver to one side
+9225d911188ab267f08d0dcd638bc194c6e8ce7f cachefiles_old: Rename CONFIG_CACHEFILES* to CONFIG_CACHEFILES_OLD*
+77cc2f62ba4f294a98a6f148ef36ba7a821eebd8 netfs: Display the netfs inode number in the netfs_read tracepoint
+28e5c1c718c5a82989f5121b66ad5e2caa7d74c4 netfs: Pass a flag to ->prepare_write() to say if there's no alloc'd space
+da62c4eaec3f9cf7bf5411502dfc8a9f1fd063db fscache: Introduce new driver
+705467aefb056ba6ad9c2d9b5543a4b3e375f990 fscache: Implement a hash function
+52263f7b03e7f7018b9e7a86cc036f5f76e45fed fscache: Implement cache registration
+470bf7e20de590f478d61a8be42c113b79a8f65c fscache: Implement volume registration
+7e4d0fc8dd3fac8187d86f994100fc6481018275 fscache: Implement cookie registration
+c1bfeb6c49b5f65fa1d9e5681c27d66818e3ca4f fscache: Implement cache-level access helpers
+d6df9a6652c112df84e84e41b40a6ff70d7a6a57 fscache: Implement volume-level access helpers
+432696abaf913f04b5f2bfca7de7badb637aadd1 fscache: Implement cookie-level access helpers
+7822ab90c20aee6a91d0fa9d4222b4bb2302fa44 fscache: Implement functions add/remove a cache
+e1789e7e8f2d76228e5e9ce25dc2617338864a36 fscache: Provide and use cache methods to lookup/create/free a volume
+0e7a0c3201a60f92d3b74313c5cb57412f9991de fscache: Add a function for a cache backend to note an I/O error
+8f067624f3cfac69b5919d9ce69ef147ed64b0cc ceph: add a "client_shutdown" debugfs file
+6dd8f9aaa0d159f72dd94ca59eaceb6858b290c4 fscache: Implement simple cookie state machine
+3333dce6d318d3b86b39399ad32516cb14da74af fscache: Implement cookie user counting and resource pinning
+0527daa6c15b7777de0a280d4aaa1bfc7bf31b9a fscache: Implement cookie invalidation
+cb0062a539c90bb3c80375cbc4dd5f20a03f3d00 fscache: Provide a means to begin an operation
+d3757a417e0e677e3be76c72636656dae034e3ff fscache: Provide read/write stat counters for the cache
+86adbaa4d7d2565299a9ed66fd152d609d4547e7 fscache: Provide a function to let the netfs update its coherency data
+c09f9ae6d029cce05c84e3c9c799d47492a5c2bf fscache: Implement I/O interface
+87a9455358def773c3f88c83b6a8216aa51694d7 fscache: Provide fallback I/O functions
+8dd26f4e81efad949beb5a672823e19994249e5e vfs, fscache: Implement pinning of cache usage for writeback
+170388823cde9026571bd056aed9a912b2d26efd fscache: Provide a function to note the release of a page
+9a553ee668f605d02e851fa2012ceee2b535670d fscache: Provide a function to resize a cookie
+20bafeafc2d1e4f3f57d78a24211235ce02655b6 cachefiles: Introduce new driver
+73de3e182b88d90b18efdc31b103f9e7bd23591a cachefiles: Add some error injection support
+fedce7c28e56f4a0a54395756cbf40bb104a570d cachefiles: Define structs
+288568f859e57ff5d2be88702fc7757f50fb5022 cachefiles: Add a couple of tracepoints for logging errors
+4145e0024efd8bdf103f2812f6cb89841cbccae2 cachefiles: Add I/O error reporting macros
+a0b11a68e47b41a5249b18d63f2678f0f4dc3ac7 cachefiles: Provide a function to check how much space there is
+20b918636f67884e3cb8bcf1ec3c2a41e7a870dc cachefiles: Implement a function to get/create a directory in the cache
+60ca6a0c351881c6ebe1a0fa683ff57e86069e7f cachefiles: Implement daemon UAPI and cache registration
+27d927de7dcd77a3e807b39adbfdff02d5f6b13b cachefiles: Implement volume support
+aec5f73a7990abefeddc18289c75fd8014b1ee6b cachefiles: Implement data storage object handling
+187ba535f42330edc05f38af695fc3a6184dfabc cachefiles: Implement begin and end I/O
+0cdb319c9ee8e62be3f3c395eabfd746515a8c9b cachefiles: Implement the I/O routines
+8664773de8724c885a626a52ef2cab4adeea7f62 afs: Handle len being extending over page end in write_begin/write_end
+e53c72c45fe75adf51c698b32ba9c8b95803ea33 afs: Fix afs_write_end() to handle len > page size
+8a29f82d57934c0cf85bfe4f7023cdd3b829db82 afs: Make afs_write_begin() return the THP subpage
+47f0e91ec5d47c424751d48e69fad36670ccacdb afs: Convert afs to use the new fscache API
+55e47bc9c4aa9506085264d114d17051f62061cc afs: Copy local writes to the cache when writing to the server
+dc1259177836c1a81e8032d24894ea1e5c77f2c9 afs: Skip truncation on the server of data we haven't written yet
+1f07f44f66d4f7c1d541f4f5e81267b232c4205b afs: Add synchronous O_DIRECT support
+672d9d464c8401411fc9180f6f83968b6d30d15c 9p: Use fscache indexing rewrite and reenable caching
+0b76aac544e3c78256cf23a001a86ed98640f060 9p: Copy local writes to the cache when writing to the server
+2774badc2d86b4516ec95d879ea80110e7203728 nfs: Convert to new fscache volume/cookie API
+caf16b68f740181a5d93053818bc5a27cd51b2c7 cifs: Support fscache indexing rewrite (untested)
+af3cb4e444e8a9443793de5ebe3c35b445fd9bb8 fscache, cachefiles: Display stats of no-space events
+0edc7fbb29e53fcbe139437c87cad28cbf444420 fscache, cachefiles: Display stat of culling events
+90bb44e5d6dcd202b7443fbe2dd1f71cd408b942 fscache_old, cachefiles_old: Remove old drivers
+bf658815cc1b7f0696db734c33feea3848f87848 Merge branch 'ceph-testing'
+7b94647de8762974645985c3abf641b6fae09721 ceph: conversion to new fscache API
+755b8768b586ee01c5a4837f516cb6eb8cb51e34 ceph: add fscache writeback support
 
---===============6511922493164602058==--
+--===============1654652001105475459==--
