@@ -1,63 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4831439236797714483=="
+Content-Type: multipart/mixed; boundary="===============1053751960310159200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Oct 2021 07:12:39 -0000
-Message-Id: <163514595949.28145.7239503699749492466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 25 Oct 2021 07:13:57 -0000
+Message-Id: <163514603714.28589.13187947725299964719@gitolite.kernel.org>
 
---===============4831439236797714483==
+--===============1053751960310159200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 608230e7337c0218d64320a3924b696ca0d65446
-    new: 846bf13da0b293caaed2c588e36726c43730cb6d
+  - ref: refs/heads/char-misc-testing
+    old: 0e53a9e038d4ac20a3a6bab68cfc9517c316c152
+    new: d46e58ef776bc6548b17b563ec4a8ed30c6643da
     log: |
-         1e1093ff9633be76262b69e7cab80404b674b737 staging: vchiq_core: cleanup blank lines
-         8a7e5633b506d69d790c385686490cbdca726e99 staging: vchiq_core: cleanup code alignment issues
-         9dcc5f1c44f27336a99e15c0e8cfbc808128ecd8 staging: vchiq_core.h: fix CamelCase in function declaration
-         f9f061d90702476c9e38afe59000e4bbfe1b96f4 staging: vchiq_core.h: use preferred kernel types
-         8dd56723240e431059193f5582dc774287fcc5bf staging: vchiq: drop trailing semicolon in macro definition
-         9393b3bba17e69e4dc3a5e9a7fbd21b9e879abaf staging: vchiq_core: drop extern prefix in function declarations
-         6ab92ea6e7c63f51e079dc15b9a69d61cf82d201 staging: vchiq_core: cleanup lines that end with '(' or '['
-         846bf13da0b293caaed2c588e36726c43730cb6d staging: vchiq_core: fix quoted strings split across lines
+         149538cd55cad138b6eaa4dc4735c28f53eb5d32 selftests/lkdtm: Add way to repeat a test
+         d46e58ef776bc6548b17b563ec4a8ed30c6643da lkdtm/bugs: Check that a per-task stack canary exists
          
 
---===============4831439236797714483==
+--===============1053751960310159200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635145957 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635145957-be95b7a6ba7a2b516708e16ea2fda78db8e82267
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635146035 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1635146035-47102c3778fd142fab6d8fd21ffa169557b97cae
 
-608230e7337c0218d64320a3924b696ca0d65446 846bf13da0b293caaed2c588e36726c43730cb6d refs/heads/staging-testing
+0e53a9e038d4ac20a3a6bab68cfc9517c316c152 d46e58ef776bc6548b17b563ec4a8ed30c6643da refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WOUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ThUQANKDQiy9BDzWMiy4NaJl
-yXeY0LshCLCIlhWJVFkSvHYKUqGQCadtFUhDs0Y3zkJCWWqmSBmksnLvhqv6h+RB
-9kKmbcddGoy+X9Se2mc2mlFRBMrcY6Z2FqoNFBEN6Sde/xMXzUJY4/WfT1lmuMuU
-8tsbi/W6Pl/YAKpMzrRyorA3WN+bGq2dhxiDQKoIb6iy5fSMxTFG4TKXe7g0uGhf
-XpOb8PAr43yXkTi3g+turHVWI+7X1Js0ktSVgnuhh/0HvVrMsv/esK12lz/srtMv
-Q2XxkQz8urbtqVMzUw5zPx9HoMI2SEhOHgZ62e42MLr0hKSw/cgTTHlTJKNWeXaZ
-f0EigQ0EO3tHWn8I5wFTPZh4Mcr/nJlxkVSLUkQtJFqx4YatgG9GwZ5iygfcCDL9
-7/aaPPR2Cmy0Xw+K7Bvfzeq8fEetfYETq7c3TK8ehOq02hAq1fKziZ/+xzEgPW+n
-ZR46idSEhKvg1TPhtxj3qFbd3Dj6DNwy/57i+On3SnGOO3opFCi2/nBVbtNaksXR
-m8KNs/ETErOun1oUpQQ5fN9kHarDcTTPgbPNd7f1xKK8Z3sxnW/jWHWICo2F9gW2
-ZBaMSzB6+AjYUE8kQsll78J1EmxS8bCX9GbwajTNOxi9erbk0RaMfel4ttAEzyWu
-izFWlPc/MAr5xZ0F4qNFAh9d
-=TAxw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WTMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c9EP/2MuHIeXOwjiw7vTK5BF
+uQA9PjkLDRTXx17bbZ1dgXsbShfkiLEmQe0nu1AKKwU/pfQ+fazREyIIjw5YhBj8
+NKs7A5+wIcbzXWijlV8oWk2bGDaP2J7vIu1VD5baVF3nPAsRw6ApNciygym51aBz
+bDo/Q1mOfyZM1j/bAkmBI3+SJDPP51lTyMeUbCTJPqsUagCNU2WO8/3a0XTbsyU/
+km3B0gmB6Iz761wvduKXNk/O2tlYqOGjrgvDGn9XWgEqBR+fTRDFdVKE7mY6J4EF
+NJnGGFwYMrRHqZUEyGGytcmx9rgmrZ3GzzYmUovLgtWVAzCU4YuhRq+v7iMZmQ1x
+kWGENxQ7TqmlaKmwdjoqxqTDO09NL3gRf+J3/AavrRaL4khYVroY6qIwmJxxI9bK
+UuWKAXFl+dYHnNpYj5Ck/N0YnM3xcUXEv7qE84ACFmYfYgNRKEdFJAJN2i8PMxPT
+0EVyEknSDbYQK0a3Dwet6eTqLwJaIVcH9LlmqYRRM/Yn74hGNoCWVjhbLl8TBjrw
+Exl/ZEmWHGrdAwnVTDcJgp2Viwq7o+USokegQ2/vkZWhn3aApJzkkN5UrOco79E5
+ACHJV2yyxBO2B0SX8BA1AYUJehYQ7ZpLkPs7U7ntxPpdG+gFjwsb1RdrUzCdffIS
+xcpFe1qLQZOx07KXBA2Pkd+X
+=cY2Q
 -----END PGP SIGNATURE-----
 
---===============4831439236797714483==--
+--===============1053751960310159200==--
