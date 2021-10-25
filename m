@@ -1,46 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2923802651118288235=="
+Content-Type: multipart/mixed; boundary="===============8567278065524789797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 25 Oct 2021 06:53:02 -0000
-Message-Id: <163514478215.16664.653032608246249759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 25 Oct 2021 06:53:14 -0000
+Message-Id: <163514479466.16787.7193106564307418568@gitolite.kernel.org>
 
---===============2923802651118288235==
+--===============8567278065524789797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 635156d94b644a4000ff19c4fff68a60afff279f
-    new: 4c0eee50658746b0333d35a75d3db6e0aac08ef9
-    log: revlist-635156d94b64-4c0eee506587.txt
+  - ref: refs/heads/char-misc-testing
+    old: 7b473ae754fec86cfa44f05f0882d1329d244e6c
+    new: 0e53a9e038d4ac20a3a6bab68cfc9517c316c152
+    log: |
+         75eac387a2539aa6c6bbee3affa23435f2096396 soundwire: debugfs: use controller id and link_id for debugfs
+         3733c12ef4b55097efeeee4c7daf380b0810606f ABI: sysfs-bus-soundwire-master: use wildcards on What definitions
+         ccfdcb325f2a9fd188b89bcd43bb82680823201d ABI: sysfs-bus-soundwire-slave: use wildcards on What definitions
+         4cbbe74d906be0bcffbe1e74b43a00f99626a69c soundwire: bus: stop dereferencing invalid slave pointer
+         abd9a6049bb59a9bab8cc8b42ccbe4a46c307f92 soundwire: qcom: add debugfs entry for soundwire register dump
+         0e53a9e038d4ac20a3a6bab68cfc9517c316c152 Merge tag 'soundwire-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-next
+         
 
---===============2923802651118288235==
+--===============8567278065524789797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-635156d94b64-4c0eee506587.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e7e1e880b114ca640a2f280b0d5d38aed98f98c6 dmaengine: dmaengine_desc_callback_valid(): Check for `callback_result`
-05f4fae9a2f5785d180b48ee93d7fa75425091c3 dmaengine: rcar-dmac: refactor the error handling code of rcar_dmac_probe
-c5a51fc89c0103c03b8a54cf12dac7d014b3a2bf dmaengine: tegra210-adma: fix pm runtime unbalance
-2f802d0af7ab5a629a8b4dc9d7be2e11bf477612 dmaengine: tegra210-adma: fix pm runtime unbalance in tegra_adma_remove
-15af840831f69baa9efb0d50007459d2015397a5 dmaengine: idxd: remove kernel wq type set when load configuration
-98da0106aac0d3c5d4a3c95d238f1ff88957bbfc dmanegine: idxd: fix resource free ordering on driver removal
-b3b180e735409ca0c76642014304b59482e0e653 dmaengine: remove debugfs #ifdef
-ee5c6f0ca219b65f5085043d481d9b6f045693d5 dmaengine: idxd: Use list_move_tail instead of list_del/list_add_tail
-5b5b5aa50d1b90392f13afd15089e191d57316f5 dmaengine: fsl-edma: fix for missing dmamux module
-88d97ea82cbe352851a8654ee952d3a694c8c2c6 dmaengine: idxd: add halt interrupt support
-e530a9f3db4188d1f4e3704b0948ef69c04d5ca6 dmaengine: idxd: reconfig device after device reset command
-7789e3464cb610cb8925cd8605bc0aa9d088280d dmaengine: sa11x0: Make use of the helper macro SET_NOIRQ_SYSTEM_SLEEP_PM_OPS()
-dbe3c54e71051b50a4aa863502368000d3e7701f dmaengine: xilinx_dma: Fix kernel-doc warnings
-fe14c67267886e3af3c377a7bee4e6f915778636 dmaengine: milbeaut-hdmac: Prefer kcalloc over open coded arithmetic
-9bf9e0b44104d05b21761441227ae566c732ecb9 dmaengine: mmp_pdma: fix reference count leaks in mmp_pdma_probe
-4c0eee50658746b0333d35a75d3db6e0aac08ef9 dmaengine: sh: make array ds_lut static
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635144792 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1635144792-040fe2d49efe2c6a15328b36be4f1da520000c0c
 
---===============2923802651118288235==--
+7b473ae754fec86cfa44f05f0882d1329d244e6c 0e53a9e038d4ac20a3a6bab68cfc9517c316c152 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2VFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I+cQAK+jTBl8EERRSJpdSm/0
+YSB8at0KcxJnzG3Gd6AdDk/0S5BoeYht+kq40pFRpFnKxTGR1w7i6XdLjW5SID42
+3H5x6gukbxZmsWLu9dyBiJP8vn2Mky8bNAPPoAhVlb12ujSbUGgAD2jP/2JlloSX
+IHyc1k/XIjAn4ptKkh0JsHMGlYbcJ8TF+gviYaveNvllA5NABBkjLlRw/fHlAnVF
+/aGeWyn4Ku81dhVSwBIuqkRo7ximxyRTjeGCSpEo6QAzGjlXOlfrJIVABVYQ+A8y
+na9O9Bq18ha6JEdVPkKHUQVEwM0tzr+ATgzUco5O4HDqyiEgRIN4WjTtur863CiF
+7xOpY8Z96YSo5h1ZYQmIMiEY24BmH24yg1JWdVAP1qKKhNxxb3eirbi19oNHAlh1
+5GjsL0nI8h9OKa1RDNVdCn5XtxMc/Mu6hEY2jvuOxVRAOrvWavemLJXs7eorZxsH
+57EilsqQFy+Z5t5z1JHoVn1YtQascskVTh++GTziEK79QpRacCQ4o00yZd8jns9c
+F/gc7zf9pVXLlOV1Ilyj9QZF+Mq4iQoDqi2Wz5XC8uuCxHYgTPF6tFz7BgnIWecZ
+C80F5Sywe2OUC2XFINDlQJ1rvt93Z+I52tYqtIogAmvbz85wcFKXptFYicJoxTVm
+vwAbVZ/BIsQ1vCMtplLXZ58B
+=OsDL
+-----END PGP SIGNATURE-----
+
+--===============8567278065524789797==--
