@@ -1,67 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2143423313922386296=="
+Content-Type: multipart/mixed; boundary="===============6394933134093503596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 25 Oct 2021 16:38:36 -0000
-Message-Id: <163517991618.17415.2344518243117490968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 25 Oct 2021 16:38:43 -0000
+Message-Id: <163517992393.17532.17891344292086418453@gitolite.kernel.org>
 
---===============2143423313922386296==
+--===============6394933134093503596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7
-    new: 141b64f47202ff72f5a50f2dedbe338d68cf1efd
-    log: revlist-e8e8c4a5d11b-141b64f47202.txt
+  - ref: refs/heads/for-5.16
+    old: 0204bdeb3df79a5c78d9e76119a7f04e3dcb1258
+    new: 186640328685ef09d2c575fb26a243d3ac7963aa
+    log: |
+         f4bafa944553f606e0f471fadfb64d84afe70fb0 spi: tegra20-slink: Put device into suspend on driver removal
+         186640328685ef09d2c575fb26a243d3ac7963aa spi: tegra210-quad: Put device into suspend on driver removal
+         
 
---===============2143423313922386296==
+--===============6394933134093503596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635179914 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1635179913-fe6cae6540a8995b9a22c71b6771398437b005dc
+pusher C3F436CA30F5D8EB 1635179922 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1635179921-0530b7c3c1727a958c09256a6bc403547887c3a9
 
-e8e8c4a5d11b50f5aef9728e3ce5b0dad0c1b1b7 141b64f47202ff72f5a50f2dedbe338d68cf1efd refs/heads/asoc-5.16
+0204bdeb3df79a5c78d9e76119a7f04e3dcb1258 186640328685ef09d2c575fb26a243d3ac7963aa refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF23YoACgkQJNaLcl1U
-h9DzkQf/d9UfYaEkncTnxJKSF8NUtVRJUXXjTa8actihINy2dujQuzyhJP/h4Xht
-F6+2QORBACpJzzFlIs1JwycgyJhCXtYeSLZWyqRvHP+5/p1sLN/y5jEatg+SjNbL
-5n+a+TdiZ0+gaktQKccWAiFZG2zCWrqmSg9D8rrtRplPO+EJHDjEy5ByDHSkNr/D
-NX8FrSW52F1uYah2XuOqbu4qYYoAMd2SNJ5BLe2Ct60vLZYy/W1A8MD2lgqV+c9e
-hR+twpVu2uObUByJPPC5r4DaEv0wbri+l2GH7SvxCAwDQ3+zkYVos/3RtAbTiWH1
-iTPp1y8JOYm8pOiKiyK3zlCau2ZiHQ==
-=PeDu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF23ZIACgkQJNaLcl1U
+h9AdIQf9HY32OoNm7AM1pKZNVaYfR/L3Qe42HvT5Yp6im57YVKPBIqjiS3PWXQWn
+04I7xsdBBCyQMXBEAB1HWSpPbLvjUpFSs/NDg8bP0gk1efO4yeSJ6JF9DBNpl41Z
+uynq+1sciDBSgY0ZWEpcgpylBvKz9S9rcTd/rDx2VaRDrYO1Z9dS+UktBxtyWRQs
+LSyo1DPgGsKQqBVJwCRtrEDE6x8mp5oPTq5ansf+wsT51N8PlvqkTDlWkDFQdBou
+8LxEYoYkqMhKC11SCL3JYw5g6cvxxzIwaf5X78y+PzOYAhLDz1dh3MkwYUjhFS5N
++KbVMXZHQFwpPHgn7djNTpIJVTpYtQ==
+=mRsa
 -----END PGP SIGNATURE-----
 
---===============2143423313922386296==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8e8c4a5d11b-141b64f47202.txt
-
-8a8e1b90bd2cc7db85ba544e63c8dc01fe113fa9 ASoC: amd: acp: Add acp_machine struct for renoir platform.
-a6d968a3e8f01bdc09fc397697ce27ef75392ce7 ASoC: doc: update codec example code
-8b27cb2e6dd67552f19f45b4560bdedce1ffb638 ASoc: wm8731: Drop empty spi_driver remove callback
-de8fc2b0a3f9930f3cbe801d40758bb1d80b0ad8 ASoC: tegra: Restore AC97 support
-824edd866a13db7dbb0d8e26d2142f10271b6460 ASoC: tegra: Set default card name for Trimslice
-03f0267b090ff3c2ae7899d26d4c12d925f47cf2 ASoc: wm8900: Drop empty spi_driver remove callback
-ca7270a7b60dfb25b7fd180d93ea18eebd5edee7 ASoC: cs35l41: Make cs35l41_remove() return void
-3e701151feefc58c5194e1d9eb5af98568574f2d ASoC: fix unmet dependency on GPIOLIB for SND_SOC_MAX98357A
-044c114014435fa723e2a0540cb7ef55d2c812da ASoC: wm8962: Convert to devm_clk_get_optional()
-2003c44e28ac9759200a78dda20c5f695949e3f4 ASoC: cs42l42: Prevent NULL pointer deref in interrupt handler
-cd51b942f34431a2a2c92a8385e94cdd97e15350 ASoC: dt-bindings: wlf,wm8962: Convert to json-schema
-141b64f47202ff72f5a50f2dedbe338d68cf1efd Merge series "ASoC: wm8962: Conversion to json-schema and fix" from Geert Uytterhoeven <geert+renesas@glider.be>:
-
---===============2143423313922386296==--
+--===============6394933134093503596==--
