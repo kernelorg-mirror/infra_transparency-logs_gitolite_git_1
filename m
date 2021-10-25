@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5692856297903942539=="
+Content-Type: multipart/mixed; boundary="===============5881420029030193288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 25 Oct 2021 09:26:50 -0000
-Message-Id: <163515401097.1712.14257797976977763776@gitolite.kernel.org>
+Date: Mon, 25 Oct 2021 09:26:53 -0000
+Message-Id: <163515401396.1793.5159207957213539683@gitolite.kernel.org>
 
---===============5692856297903942539==
+--===============5881420029030193288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,93 +16,100 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 0e4a453b84fed606c3586f61c663c014078821f7
-    new: 24dd986cba7369dc8a36d554172d7b55bec13c77
-    log: revlist-0e4a453b84fe-24dd986cba73.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 5932cc97a1d30e95146816db8df19ceb1b7fca62
+    new: 3724d8ca1865edc535f282b33ac55b82c64403ac
+    log: revlist-5932cc97a1d3-3724d8ca1865.txt
 
---===============5692856297903942539==
+--===============5881420029030193288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635154009 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635154011 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1635154009-c68921937df27ebff427a908cab9969923e942e1
+nonce 1635154011-348fb032fcfb8cc117e45726586b4f20af1bba5e
 
-0e4a453b84fed606c3586f61c663c014078821f7 24dd986cba7369dc8a36d554172d7b55bec13c77 refs/heads/linux-4.9.y
+5932cc97a1d30e95146816db8df19ceb1b7fca62 3724d8ca1865edc535f282b33ac55b82c64403ac refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2eFkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2SgP/31JCLZCJPSimdu5LeBl
-qozCZCu0RBQPu3DJ/9G0u0bXsAZcesMWsEY0lI9epLq3pMN8+K85rm8PkqPBIBfU
-ood5j2jNI91B3mHJ2Qr82IydICOiI2s7WKrLQu5u6SUhrJd/WYruNM9z/wHiQgfM
-+CUkK7j2fWmL8idDOK/7yFZE7iPEockcp/aXiHoRSt6fyPwNYZPlijmUkzipLP3W
-ANCFrFm0LsYAK7xXKC4bSvHo/iYwPzzvudML7FAPy7uubApjysX1B8NsqP0EAozE
-I23x9zVz4emhguu+hrRy+DYsTsX085n4N9sF90Nokg4DNfB63wjyzXMD7P/7h37d
-t9TTHFYOOAhYp6t3jLjfZSxqJx78G1Z/zysb1eKclnkFpQEXHrzvZP0+V50aN6JJ
-p9lyrgMUaaYaXcfut0QwSLBDdU0EoQeuWzWchNarbDGb0xE5HXnN+6fr1OOi5BPZ
-tURp6gcYRhOuvOL3SeWbDBt1/uju1Nra3BbSJ31ycofzuavMmuhTNBoMt4kMHTPQ
-Uzu8cxVYMAsB/tLLCAoPi8uwfgQ0GBJRQhd5UAFMISKOxWL1BNd9r8ap4FAdCVvT
-3e5xeHUkG049tM2Cy7gbpxeSRy2lfOiSLBH81uAs78XlZ3OUmFFd9xfByIiZxWqf
-WVwLIT7oVh3bMGZbwCFMTan1
-=Z1QW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2eFsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G5MQAJB+K2GSKM1Buc2604Io
+nsTelgzM+hTvzC1rlPIezPUuxBHr6jr0LE0NwnOs5jjG5GqchJre1nVYAyTBhj4Z
+IcDKEjII1iDzEKEwPB69Ig51P2Hb7YZupnudnR7yD5R52JOQoRf5gr5DIbGjLdjW
+5iV2mOGRZ1fIUO9YqYI1iBCvxAdGe+oMcL6gJrCWA+dJiOoWxLSVXywvAofe2N1r
+kpPpfGgmdi8MepK7L2l6z5eq4QMKp+1tP51DyoMwo6AfGSKe/+ADnPUe36HOkRiA
+Gddl1Wa0zClI6OT0RcUYJ+VuuLdFBMvIMI16BhL2TrgRhPjema7+Mg5s2ujABNih
+V/ryvlJWMkxyO9AFb/N2QhCw7ZgDm5WVdN5aUEvuSvmsOdNNXra51Dk9WRAmSWxu
+f0T9PrCNE72qvJC1445sB4FlSFSW5L8FRVLS3TzS2FuumEGQ2WCH/SsaBkK8SxyK
+i+G0YHQwMYbMRn30dRCS2YqqHRVDC+HdLZr+NutffImuThb1nhMUDjp7pJwURc3z
+sgREBXWIdR1DbzwU9Pcpu6091DOXNL0cGfKJLWWuE21CVCAgvfcULkywYn9ZZ64v
+B9Hz3Ov0/LoJuqZ0Q40H2OF0TqWUoswmNx0mToWq1IZdwy7um+w9B7TdeHTbRqEn
+v7mVZTUU27jKejigqULYqpUd
+=mTGS
 -----END PGP SIGNATURE-----
 
---===============5692856297903942539==
+--===============5881420029030193288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e4a453b84fe-24dd986cba73.txt
+Content-Disposition: attachment; filename=revlist-5932cc97a1d3-3724d8ca1865.txt
 
-4420e0ca9ac305a5c3452ad84dec7250ffe86e7a ALSA: seq: Fix a potential UAF by wrong private_free call order
-b3e503e8895710a47ebc80b035f949febc06deb5 s390: fix strrchr() implementation
-b982ac0a40b5f702f3135a5a4c67d62485f3ffe8 xhci: Enable trust tx length quirk for Fresco FL11 USB controller
-14dc3068fcd950ba37b2e400b6a235dc68869ddc cb710: avoid NULL pointer subtraction
-7429ffb87a3dcb20fc606dadfa70f938c79af11b efi/cper: use stack buffer for error record decoding
-c2197aa391959bca08f41f7faa369c9ab9d91d46 efi: Change down_interruptible() in virt_efi_reset_system() to down_trylock()
-f9df24432d6c467f5df3f92a11839f86de62f100 Input: xpad - add support for another USB ID of Nacon GC-100
-9e16819f1dc679f702f2383778cce0a329011f8f USB: serial: qcserial: add EM9191 QDL support
-8d96113356fdb74a234ca05a48972e99ed02cbd3 USB: serial: option: add Telit LE910Cx composition 0x1204
-e4675363a7936dcf479b1e439d28363a3b8583bd nvmem: Fix shift-out-of-bound (UBSAN) with byte size cells
-c7379af801592de29dc8440a8822cdd829c8d703 iio: adc128s052: Fix the error handling path of 'adc128_probe()'
-729f1ff24aac6979f33ca7826dc14a39216ebf29 iio: light: opt3001: Fixed timeout error when 0 lux
-568119a72e05487a4e377211341a1a2d54ef6259 iio: ssp_sensors: add more range checking in ssp_parse_dataframe()
-dd0396a0e0371bac8a8045bed7358622188bd3da iio: ssp_sensors: fix error code in ssp_print_mcu_debug()
-4ece4f75457ffc16fadce2784ac2e80c4d5f982e net: arc: select CRC32
-b71bd5dc885128f82739bb57556494458a5e8be2 net: korina: select CRC32
-eb053766651ea99f13a290fbb76bda306123195e net: encx24j600: check error in devm_regmap_init_encx24j600
-d977473e4acea4f8bea9747066c948c8fd69b68f ethernet: s2io: fix setting mac address during resume
-93362f7e333b867768a360bd6d715a46ca4239fc nfc: fix error handling of nfc_proto_register()
-4facfd7bd309660689eb28e597bd48b6bc7c34e8 NFC: digital: fix possible memory leak in digital_tg_listen_mdaa()
-283d497298d0e1b199fe904a918559eee69e5a8c NFC: digital: fix possible memory leak in digital_in_send_sdd_req()
-5c8f291c999085489d479f3245bdff52b3f5ec87 pata_legacy: fix a couple uninitialized variable bugs
-636d40b7e441729a786927e5bd82580023282090 drm/msm: Fix null pointer dereference on pointer edp
-da0ba774368f0299201570428ab8729618c73082 drm/msm/dsi: fix off by one in dsi_bus_clk_enable error handling
-0fa936b55b471f501a177e56772d5c38b1b3bf3e r8152: select CRC32 and CRYPTO/CRYPTO_HASH/CRYPTO_SHA256
-8831d002317a85dd6d1a31160e86bf83bfdce80a xtensa: xtfpga: use CONFIG_USE_OF instead of CONFIG_OF
-708ed2d6f367b9d885086fecde1202f3669f98d2 xtensa: xtfpga: Try software restart before simulating CPU reset
-08df1bcca69bf76ee647baeed453516a58d252f8 NFSD: Keep existing listeners on portlist error
-6a5fdf24f71bf68a135111d601946ab1a7efa52a netfilter: ipvs: make global sysctl readonly in non-init netns
-c05eb2990cb30bdf852d72f65874ab92f4fe86ef NIOS2: irqflags: rename a redefined register name
-54eb6048705537b47547e4251b244600d6568d97 can: rcar_can: fix suspend/resume
-0f9fef01b82b1b8c8ce24595ea4f10f760ac499c can: peak_usb: pcan_usb_fd_decode_status(): fix back to ERROR_ACTIVE state notification
-08b7f3c9e5a2ddb3b3e0ac9c9bf25d11e18ff6e4 can: peak_pci: peak_pci_remove(): fix UAF
-9731e8c062b032a50708cfb91cb0cfa42f6645f4 ocfs2: fix data corruption after conversion from inline format
-032517eaf4c9964c0a57f4a9e5fd529010c574f8 ocfs2: mount fails with buffer overflow in strlen
-7a36c703c29e25407b3df51fbec6b1da305b22ad elfcore: correct reference to CONFIG_UML
-eea2181054920811bbd3e2a8f0f35ced986da7df vfs: check fd has read access in kernel_read_file_from_fd()
-c2508ed1c2f01f58c617da99aae3f2161c495d3e ALSA: usb-audio: Provide quirk for Sennheiser GSP670 Headset
-5fe613b67aecac40b9ecdb0fd0dfa1d7d7505c4c ASoC: DAPM: Fix missing kctl change notifications
-c7e9a938983ae2f1cb051326825ebfb21c25adf5 nfc: nci: fix the UAF of rf_conn_info object
-af3120b2cf5bd6b54be5b175e171db38a6fa906d isdn: cpai: check ctr->cnr to avoid array index out of bound
-0a6f1df1f0b2e96f3c1fd619d4ed7c26e9c58575 netfilter: Kconfig: use 'default y' instead of 'm' for bool config option
-3a48f6b8dc873677ff041b7ef32ef09683ee7b12 ARM: dts: spear3xx: Fix gmac node
-f88a4c9415e937691660c0384588d55b34450c4c isdn: mISDN: Fix sleeping function called from invalid context
-1418e3de9aba3576be0578f5128c5f3ad81f7b33 platform/x86: intel_scu_ipc: Update timeout value in comment
-3d84e3b287aa625391f2916250fbccabbe994d6a ALSA: hda: avoid write to STATESTS if controller is in reset
-24dd986cba7369dc8a36d554172d7b55bec13c77 Linux 4.9.288-rc1
+2a03ca631f53a90e690adcf77cd7928a54fe9c44 parisc: math-emu: Fix fall-through warnings
+f828c45786b0faa2fd45b5acba3935e4c7428587 net: switchdev: do not propagate bridge updates across bridges
+35e4a65166311a15c6714905c019088f6d86fc14 tee: optee: Fix missing devices unregister during optee_remove
+654bccb76c9508a9c537c79bfd2e834e91149582 ARM: dts: at91: sama5d2_som1_ek: disable ISC node by default
+bd048ad7e38f9952d768b9017ea9c6c4e093220e xtensa: xtfpga: use CONFIG_USE_OF instead of CONFIG_OF
+5489faee99188b58a807d7fa3197d3ad04d20899 xtensa: xtfpga: Try software restart before simulating CPU reset
+5b6a925cda3b48ada5c71566c193d53ff335e1de NFSD: Keep existing listeners on portlist error
+fa55ff48c52f274a714c74e63ed549ae81308f8b dma-debug: fix sg checks in debug_dma_map_sg()
+4332889bc071b2a2011165aebcfe5f7f1a091002 ASoC: wm8960: Fix clock configuration on slave mode
+0b3c8562d4b2d755a35871142faf70f077729723 netfilter: ipvs: make global sysctl readonly in non-init netns
+48a34f2bdbedc8fdac29fc9848e5b23c0672e049 lan78xx: select CRC32
+3ec5181cdc138cc637f0808e8e954b1b99a2ce66 net: dsa: lantiq_gswip: fix register definition
+9e7dd452e32650a391a77bf439d709bbf0a1052b NIOS2: irqflags: rename a redefined register name
+2fd178fe4597f22816c468663ab23a4b2319e90d net: hns3: reset DWRR of unused tc to zero
+91f1606fe13b5fcee06d6444d0d51e82ceb4de74 net: hns3: add limit ets dwrr bandwidth cannot be 0
+15e9a69520a03c6a9c7004a787d3f923d2338cad net: hns3: disable sriov before unload hclge layer
+87353da67040fb00b963ba724e13a957f1fc0fa5 net: stmmac: Fix E2E delay mechanism
+157c24ddb4bc4bbcd0082914ae9880bf52a36048 net: enetc: fix ethtool counter name for PM0_TERR
+1092dcb4bc5fa86b63d4e5ebe3f58f6ec4038385 can: rcar_can: fix suspend/resume
+fd406a21a5e357c4e0f401ea3ad2e9b8ccd1ded6 can: peak_usb: pcan_usb_fd_decode_status(): fix back to ERROR_ACTIVE state notification
+88550d3f5538a5daed6ea35e62bb1ef7027a82ff can: peak_pci: peak_pci_remove(): fix UAF
+1e2fc681de6d0b379d8befbca10e8d6f02deb9b4 can: j1939: j1939_tp_rxtimer(): fix errant alert in j1939_tp_rxtimer
+97a5696a9538c3f3d30f4179cf7b9c7bfe951b29 can: j1939: j1939_netdev_start(): fix UAF for rx_kref of j1939_priv
+2babaab8e0bb10200d4fe6943346ad7b3908bf06 can: j1939: j1939_xtp_rx_dat_one(): cancel session if receive TP.DT with error length
+2b9574692cacdc121e58598cbebb3d2d1fa58401 can: j1939: j1939_xtp_rx_rts_session_new(): abort TP less than 9 bytes
+b66ef8c3988e762e0633a4432263fe596f286fec ceph: fix handling of "meta" errors
+91523deb8bdd55f5f6513848aa5ab65a6bb24a29 ocfs2: fix data corruption after conversion from inline format
+3b1cb6346a1058a2cbcdc91a667000add299f9a5 ocfs2: mount fails with buffer overflow in strlen
+53a3a5a313217574466f3c875db360f2d376544f elfcore: correct reference to CONFIG_UML
+a07b5604db8588d926449ac507ad4c976aeb287c vfs: check fd has read access in kernel_read_file_from_fd()
+020cca070c16844e5905c2bf9ebd076c4e10e4fe ALSA: usb-audio: Provide quirk for Sennheiser GSP670 Headset
+4cacc61d089e552b9fb041b446827bc9b8e7434d ALSA: hda/realtek: Add quirk for Clevo PC50HS
+841805d76d8404c8354c831053022394d8bd958a ASoC: DAPM: Fix missing kctl change notifications
+979c382acb66525d3fd03fb3ffa54e9c3eed9f31 audit: fix possible null-pointer dereference in audit_filter_rules
+72fa3834a9b8e8ec6199fcf222dff7b2eb20f691 powerpc64/idle: Fix SP offsets when saving GPRs
+34971133c3396b58c37d5995e57404b4988a3816 KVM: PPC: Book3S HV: Fix stack handling in idle_kvm_start_guest()
+a822cda7cd259ae314fbfe9a7206d508ec36f31d KVM: PPC: Book3S HV: Make idle_kvm_start_guest() return 0 if it went to guest
+fe7a796d280a1e107f79cf22f3e0993c1afa13bf powerpc/idle: Don't corrupt back chain when going idle
+a404afae058889077bc7b6291a1f883ef930c0d8 mm, slub: fix mismatch between reconstructed freelist depth and cnt
+ae2726aaed97b29d6094224f3d3bf020cefa6926 mm, slub: fix potential memoryleak in kmem_cache_open()
+3a397d3270d3ebe1aea278165db08fb80a0cd040 nfc: nci: fix the UAF of rf_conn_info object
+16454cb0ef62485311515de68d8820506541d8ab isdn: cpai: check ctr->cnr to avoid array index out of bound
+4c2812785b482a75d190f197558c6d9556d6e9fd netfilter: Kconfig: use 'default y' instead of 'm' for bool config option
+293cb8228b2cad156f5ac7b44369b74a1c836b19 selftests: netfilter: remove stray bash debug line
+b7613b320955dfd6a611dbc367763c6eebb3399e gcc-plugins/structleak: add makefile var for disabling structleak
+03085f5ef0cb19b16a2095451a2b20bbfad7fac7 btrfs: deal with errors when checking if a dir entry exists during log replay
+3a5e9bcf98f75391897db3d1a324b0558fe0d40a net: stmmac: add support for dwmac 3.40a
+8f296fa720275d405d6965b09e567b06639031e0 ARM: dts: spear3xx: Fix gmac node
+5d72a2e3ab6e4b465c49ca2e3288398fb61b8314 isdn: mISDN: Fix sleeping function called from invalid context
+2cd4c8ac7e6e9f675196b15662bc2a0649da7d78 platform/x86: intel_scu_ipc: Update timeout value in comment
+89ecc9e5042aba504c1dc7926aaf648840b26087 ALSA: hda: avoid write to STATESTS if controller is in reset
+43f107e39c5902574ec2d27b1671439b02d1abd8 Input: snvs_pwrkey - add clk handling
+f91f0a88b0169a4f59345bacbedd7bc6b1fae7a6 scsi: core: Fix shost->cmd_per_lun calculation in scsi_add_host_with_dma()
+3724d8ca1865edc535f282b33ac55b82c64403ac Linux 5.4.156-rc1
 
---===============5692856297903942539==--
+--===============5881420029030193288==--
