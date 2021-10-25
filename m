@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8661718568226886452=="
+Content-Type: multipart/mixed; boundary="===============4372538403122928843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Oct 2021 10:06:39 -0000
-Message-Id: <163515639956.26613.12239036196170858068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Mon, 25 Oct 2021 10:28:45 -0000
+Message-Id: <163515772520.7731.17165866761393721535@gitolite.kernel.org>
 
---===============8661718568226886452==
+--===============4372538403122928843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/staging-testing
-    old: 846bf13da0b293caaed2c588e36726c43730cb6d
-    new: dcf7be79c953b17bbdfb72cbcecd0eff0767f831
+  - ref: refs/heads/rdma-next
+    old: 89baeee29503df46dd28a6a5edbad9ec1a1d86f1
+    new: 99e5f86ffd08106659ce3b221964c6a2d63dbb16
     log: |
-         dcf7be79c953b17bbdfb72cbcecd0eff0767f831 staging: mt7621-dts: add missing SPDX license to files
+         07b6aa3232d85719c0224a735c6af1fa5154d44e net/mlx5: Introduce migration bits and structures
+         343ab761b68c10a5d8b5b7012c959b2b86dc6e7f vfio/mlx5: Expose migration commands over mlx5 device
+         c1c7378e690687c67c619a18dae18933fb2b2d42 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
+         433fb61c77cde087d546bb5a715c00b72eef78c3 vfio/pci: Expose vfio_pci_aer_err_detected()
+         4d8d68e6791fe3c4b01f5e4bd2cf95e54f46280b vfio/mlx5: Use its own PCI reset_done error handler
+         f3eabb7e3d254d81f6e8c19d1a1a6839382ed0d2 RDMA/sa_query: Use strscpy_pad instead of memcpy to copy a string
+         c38e27a0dd8cd64251dd7989ae9d6d929d773579 RDMA/core: Initialize lock when allocate a rdma_hw_stats structure
+         99e5f86ffd08106659ce3b221964c6a2d63dbb16 RDMA/core: Rely on vendors to set right IOV
+         
+  - ref: refs/heads/testing/rdma-next
+    old: b202e31cc92928be921ce9a78db61e3c9c9c1bfb
+    new: dd26386f5c9f3c1383b0d6e5c5cf36e15308cbcc
+    log: revlist-b202e31cc929-dd26386f5c9f.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: 04271d5b33cdf27fb2b01ed7239847010628f071
+    new: 98977f7b9c23ca02d095e2641d1d486ce200c7cb
+    log: |
+         98977f7b9c23ca02d095e2641d1d486ce200c7cb Merge branch 'master' into testing/rdma-rc
          
 
---===============8661718568226886452==
+--===============4372538403122928843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b202e31cc929-dd26386f5c9f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635156398 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635156397-de70d30fc399be0145dbd948ee4c7942a251c9eb
+07b6aa3232d85719c0224a735c6af1fa5154d44e net/mlx5: Introduce migration bits and structures
+343ab761b68c10a5d8b5b7012c959b2b86dc6e7f vfio/mlx5: Expose migration commands over mlx5 device
+c1c7378e690687c67c619a18dae18933fb2b2d42 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
+433fb61c77cde087d546bb5a715c00b72eef78c3 vfio/pci: Expose vfio_pci_aer_err_detected()
+4d8d68e6791fe3c4b01f5e4bd2cf95e54f46280b vfio/mlx5: Use its own PCI reset_done error handler
+f3eabb7e3d254d81f6e8c19d1a1a6839382ed0d2 RDMA/sa_query: Use strscpy_pad instead of memcpy to copy a string
+c38e27a0dd8cd64251dd7989ae9d6d929d773579 RDMA/core: Initialize lock when allocate a rdma_hw_stats structure
+99e5f86ffd08106659ce3b221964c6a2d63dbb16 RDMA/core: Rely on vendors to set right IOV
+98977f7b9c23ca02d095e2641d1d486ce200c7cb Merge branch 'master' into testing/rdma-rc
+29cc6b9ac3847af806e9db24b6cead5dd569f242 Merge branch 'rdma-next' into testing/rdma-next
+dd26386f5c9f3c1383b0d6e5c5cf36e15308cbcc Merge remote-tracking branch 'vfio/next' into testing/rdma-next
 
-846bf13da0b293caaed2c588e36726c43730cb6d dcf7be79c953b17bbdfb72cbcecd0eff0767f831 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2ga4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PzgP/jd7APq4wH6yp8uJb4hN
-0iY1RPZODzI4Bf3fBbRLgLxVEh9+HfPikk4pVVIVjHXE84Hoq57xlIoowODpRYMe
-Z2POmaID2EFEqTz4MpXH0HzwWtBh5mP7jRR+1u3xJ9hVcBRWdvFqgkdH9cHFicXg
-gvg8eRAOVWqr+htBzkN4w5f8yxmFyqY7Bc0gUgQqQ4piA8ElLMCCEc6l+dxISrPg
-sAwk76J+fuhvAGmr7VXCHtKhNzI8lMulmfb5Dec3jJfdWptzZ0/SDnjPo9hhhf0q
-bk3h7qYxvb2vAUFilXoXYzMh/8gyRHva0f636I5Ag9yJ7JhFxhud75Waa75OXOgq
-ZcOIfSpx//EDwoqaU9V6FE9OdOw89L4RupCj16/u4MyXlD6lEjl8dvmP6DauNtfZ
-7MgKtGQQLlFBgH4LPFz5pGkuREGKHUIdd85873AWBUgq/wUaGqNmY6HpRIsk2L8J
-47qMcuH32vU+MTWCVwwGyzxr1JOh0dnlkLDQw9hFnsgwfB154gYmo/T/oe/JtMw6
-SGgPigGI42nurJUwR/3RZAJul7KAYO0IRfy0jbqW9aQz+DoLD0aDC4lr9re3AyK6
-m1Zj1n20GRRqCVwb/jTC24Ex8LBzHaXAnYNzDgnvD96+Y8+yG0qSzSErOx5pHucB
-v7TnDKehavcfTac2jvy1bc7O
-=n8DC
------END PGP SIGNATURE-----
-
---===============8661718568226886452==--
+--===============4372538403122928843==--
