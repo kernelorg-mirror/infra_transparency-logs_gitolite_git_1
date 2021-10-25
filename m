@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 25 Oct 2021 21:32:24 -0000
-Message-Id: <163519754455.7368.16921172666101164463@gitolite.kernel.org>
+Date: Mon, 25 Oct 2021 21:32:35 -0000
+Message-Id: <163519755510.7458.6094770780381147294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 26da4abfb38201c3cbe127daeded76d4c2bc9077
-    new: 02f7d8a89553da1b54c0733a0a72fb7c0f4eb9ee
+  - ref: refs/heads/locking/core
+    old: 5197fcd09ab6dcc4df79edec7e8e27575276374c
+    new: cbdf4cf0456d67e1d683e2217d0a36817f553400
     log: |
-         02f7d8a89553da1b54c0733a0a72fb7c0f4eb9ee perf/x86/intel: fix ICL/SPR INST_RETIRED.PREC_DIST encodings
+         cbdf4cf0456d67e1d683e2217d0a36817f553400 locking: remove spin_lock_flags() etc
          
