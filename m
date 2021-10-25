@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Oct 2021 16:28:50 -0000
-Message-Id: <163517933090.11446.11369476517284535808@gitolite.kernel.org>
+Date: Mon, 25 Oct 2021 16:30:05 -0000
+Message-Id: <163517940576.13377.10019723472216792780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/sev
-    old: ce47d0c00ff5621ae5825c9d81722b23b0df395e
-    new: 007faec014cb5d26983c1f86fd08c6539b41392e
+  - ref: refs/heads/master
+    old: a87d4b47dd03dd4837fbf3d37319f18db2c11672
+    new: 07d1c025abb36637f8b80106097b6a7654ee48f2
     log: |
          007faec014cb5d26983c1f86fd08c6539b41392e x86/sev: Expose sev_es_ghcb_hv_call() for use by HyperV
+         07d1c025abb36637f8b80106097b6a7654ee48f2 Merge branch 'tip-x86-sev' into tip-master
          
