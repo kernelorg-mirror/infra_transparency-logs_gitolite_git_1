@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 25 Oct 2021 08:36:42 -0000
-Message-Id: <163515100245.17873.17963101748914416375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/bcache-tools
+Date: Mon, 25 Oct 2021 08:40:41 -0000
+Message-Id: <163515124158.20446.2025237744717523039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/colyli/bcache-tools
+user: colyli
 changes:
-  - ref: refs/heads/auto-latest
-    old: 5323cc30d36f9fc65a1d6f567abf687bd3fb9951
-    new: a6a55424db3da17b3701797e2d2ca93a602e1076
+  - ref: refs/heads/nvdimm_meta
+    old: 23e168dd13554219029938523861c90427289ad1
+    new: 492ef7a3b1a131f8a5d52ebf17d79f10fb85608e
     log: |
-         b35633854ccb5cb0129e1cd160d55112f94cbdce x86/fpu: Provide infrastructure for KVM FPU cleanup
-         61fb3a87598361283d96913bb1f0f3d0fe1310ef x86/kvm: Convert FPU handling to a single swap buffer
-         c341f1fe1543dfaf94916cef298aa60be545235f x86/fpu: Remove old KVM FPU interface
-         a6a55424db3da17b3701797e2d2ca93a602e1076 Merge branch 'tip-x86-fpu' into tip-master
+         841d25e49a90063ba8a9fb285e9a45e73ab59786 bcache-tools: add initial data structures for nvm pages
+         af187303469a7212c9885ea9435be12dfeca92c7 bcache-tools: add BCH_FEATURE_INCOMPAT_NVDIMM_META to incompatible feature set
+         4a8af34ed26cb72dcaac0dd4953c6c99094284d4 bcache-tools: write nvm namespace super block on nvdimm
+         492ef7a3b1a131f8a5d52ebf17d79f10fb85608e bcache-tools: support "bcache show -d" for nvdimm-meta device
          
