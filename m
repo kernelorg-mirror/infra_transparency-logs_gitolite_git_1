@@ -1,59 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1340361262405726988=="
+Content-Type: multipart/mixed; boundary="===============5123743817913313274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 25 Oct 2021 07:20:38 -0000
-Message-Id: <163514643859.2743.6094680217226469219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 25 Oct 2021 07:20:52 -0000
+Message-Id: <163514645272.2914.17237558228686945205@gitolite.kernel.org>
 
---===============1340361262405726988==
+--===============5123743817913313274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/usb-testing
-    old: fd03af27c3dfbff4f6b3905c5fceedebeca70e5e
-    new: 9e894ee30afe0910edf2d85dc4680974b5720ddf
-    log: |
-         bb88dbbee2c9ccbef81f9fe6a4949538ae218b93 dt-bindings: usb: dwc2: Add reference to usb-drd.yaml
-         924e2b408ca43c644c4ffbddb05ef68e5cf8bab5 dt-bindings: usb: dwc2: adopt otg properties defined in usb-drd.yaml
-         f5c8a6cb23752cdb8de7cb4fd71ad2a227c404c0 usb: dwc2: add otg_rev and otg_caps information for gadget driver
-         9e894ee30afe0910edf2d85dc4680974b5720ddf usb: dwc2: stm32mp15: set otg_rev
-         
+  - ref: refs/heads/next
+    old: 2ef7843375dca1fd0247adda34238ab584fc063d
+    new: 67cf68b6a5ccac8bc7dfef0a220b59af4c83fd2c
+    log: revlist-2ef7843375dc-67cf68b6a5cc.txt
 
---===============1340361262405726988==
+--===============5123743817913313274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2ef7843375dc-67cf68b6a5cc.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635146436 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1635146436-3fa854980f0d74d2cbbf11bd7927c8df1ad5aaac
+9b57e9d5010bbed7c0d9d445085840f7025e6f9a KVM: s390: clear kicked_mask before sleeping again
+0e9ff65f455dfd0a8aea5e7843678ab6fe097e21 KVM: s390: preserve deliverable_mask in __airqs_kick_single_vcpu
+2d8fb8f3914b40e3cc12f8cbb74daefd5245349d s390/gmap: validate VMA in __gmap_zap()
+b159f94c86b43cf7e73e654bc527255b1f4eafc4 s390/gmap: don't unconditionally call pte_unmap_unlock() in __gmap_zap()
+fe3d10024073f06f04c74b9674bd71ccc1d787cf s390/mm: validate VMA in PGSTE manipulation functions
+949f5c1244ee6c36d2e81c588d1200eaa83a3df6 s390/mm: fix VMA and page table handling code in storage key handling functions
+46c22ffd2772201662350bc7b94b9ea9d3ee5ac2 s390/uv: fully validate the VMA before calling follow_page()
+8318c404cf8c2b5141746af739fdb62c030508ca s390/mm: no need for pte_alloc_map_lock() if we know the pmd is present
+7cb70266b0e3996daf4bbef9758b6e27e9ec904d s390/mm: optimize set_guest_storage_key()
+14ea40e22c4193ed71cd93ec79c0c05216c3600a s390/mm: optimize reset_guest_reference_bit()
+57c5df13eca4017ed28f9375dc1d246ec0f54217 KVM: s390: pv: add macros for UVC CC values
+d4074324b07a94a1fca476d452dfbb3a4e7bf656 KVM: s390: pv: avoid double free of sida page
+1e2aa46de526a5adafe580bca4c25856bb06f09e KVM: s390: pv: avoid stalls for kvm_s390_pv_init_vm
+f0a1a0615a6ff6d38af2c65a522698fb4bb85df6 KVM: s390: pv: avoid stalls when making pages secure
+8eeba194a32e0f50329354a696baaa2e3d9accc5 KVM: s390: Simplify SIGP Set Arch handling
+67cf68b6a5ccac8bc7dfef0a220b59af4c83fd2c KVM: s390: Add a routine for setting userspace CPU state
 
-fd03af27c3dfbff4f6b3905c5fceedebeca70e5e 9e894ee30afe0910edf2d85dc4680974b5720ddf refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2WsQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m8MP+wSgySu9f7Bf3XO2ZSD9
-6/IxB3r1ENDrcd8dbZBKpFRjo9l6xWfjRsnbnXXOOlSw3YMRIWWL+E2OSI5HkMVB
-Ff2o7fPYqdJcliKmnqS4/8PDa0gWC1FmNPjKQJInarBDkBWvu2LRKKIqNtTv5hsJ
-l3MRCOR1ai/8qlZxk6dmNS9BqB3fwHr7TjnqO0sY+mpzLE/5lP+KsQ/U+MhA+8ST
-r9qt+U/ZiOsA64AjCRVZwDscchHxWKKj1Ea2xzU2E+2PjiimK8XAfxD8Eey9MiWE
-knPdf7hnzYjfVYpEn6Zjw5d95tUsdQMMrUCRSN33WEeWh5SJCFc+RYECkf3dPTjt
-iXDWqvjcCDPmImBQrIvJa/GNsIVJmadk44CORVKvdwYr40GQyI1fzuyTeD+Y0+gE
-WTf2LmTRuzVnS/BIAOW2L7Y3hL+asiYv0RpqPSpBBtbYrGRRuAEjgAuDMMh5HhlV
-N7y+9Pln+wWg2pe2qcK/B4/rsxREbsXVy4aaQg7GWqHE2M7W5kBiUUWRcvtYBhWv
-0Bd6/ECWYtN6Honerolj324wbOl6LP6JYpOqx5wox11alSwxRHdbfJFyAGOgjv54
-iJh5exy9YJ4mPZg3c7X+x1fmmbW+e2PUFzwML5fZETe+V76uPYIF83fvrVoQdGPD
-tpY61kV/27fhGQs0sjgInpn1
-=iVxJ
------END PGP SIGNATURE-----
-
---===============1340361262405726988==--
+--===============5123743817913313274==--
