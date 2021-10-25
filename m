@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0686364819916282577=="
+Content-Type: multipart/mixed; boundary="===============7571226296961533487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 25 Oct 2021 18:07:04 -0000
-Message-Id: <163518522447.10427.17522575103176559317@gitolite.kernel.org>
+Date: Mon, 25 Oct 2021 18:07:13 -0000
+Message-Id: <163518523373.10568.8398207314414261498@gitolite.kernel.org>
 
---===============0686364819916282577==
+--===============7571226296961533487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8
-    new: 57bb11328f9ab88571889f4a842859fcdd64d6cb
-    log: revlist-4d98bb0d7ec2-57bb11328f9a.txt
+  - ref: refs/heads/mlx5-queue
+    old: 006adfb9016ef6692c17ef454702a3f57ce2a56f
+    new: 27e4d647cac355f75a6ebff5ba42f6b8f918770c
+    log: revlist-006adfb9016e-27e4d647cac3.txt
 
---===============0686364819916282577==
+--===============7571226296961533487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d98bb0d7ec2-57bb11328f9a.txt
+Content-Disposition: attachment; filename=revlist-006adfb9016e-27e4d647cac3.txt
 
 643979cf5ec46279a5829bf52ad01d2e978e2a39 net: dsa: sja1105: wait for dynamic config command completion on writes too
 1681ae1691ef418c3fd5d3bef48c4e2f3f98791f net: dsa: sja1105: serialize access to the dynamic config interface
@@ -74,5 +74,26 @@ cf231b436f7ceaf0d87016eedf830677c0c1f7dc net: dsa: lantiq_gswip: serialize acces
 d70b51f2845d4a0352361fd4f9741913a2cf2145 selftests: lib: forwarding: allow tests to not require mz and jq
 eccd0a80dc7f4be65430236db475546b0ab9ec37 selftests: net: dsa: add a stress test for unlocked FDB operations
 57bb11328f9ab88571889f4a842859fcdd64d6cb Merge branch 'dsa-rtnl'
+96d534173c5c357fd8bdcc9f1b37a12a829e13ca net/mlx5: Extend health buffer dump
+1a98fcc40d9167ddf5096d8e5d69e66205077507 net/mlx5: Print health buffer by log level
+6a09897a382e4f9c88d2203d583e7c0be4030257 net/mlx5: Add periodic update of host time to firmware
+53bad4a8a83b34103db853bb5bb1727e9ed9629f net/mlx5: Separate FDB namespace
+d83690f8ab913a9625984df480d0bf526c119cea net/mlx5: Refactor mlx5_get_flow_namespace
+3bc21980deac179c3dcf8c511b520a958915a536 net/mlx5: Create more priorities for FDB bypass namespace
+e61ada7c54451a4fac3351076d906d46e18b392c RDMA/mlx5: Add support to multiple priorities for FDB rules
+1b9e6bc6ff3b3dce577c0529398a8b2fa408154e net/mlx5e: don't write directly to netdev->dev_addr
+4dfbce063e1041aca78b768d1086a3d3691d7b57 net/mlx5: Reduce flow counters bulk query buffer size for SFs
+0fc85aaccde0ea69516af4edce6fc05ad333b51e net/mlx5: SF, Add SF trace points
+d14dc2e49806dc242d87226b2e2f7de7a134eb24 net/mlx5: SF_DEV Add SF device trace points
+b5063de4ebd34f6e6f8fe18e0dc91f119d164e42 net/mlx5: Let user configure io_eq_size param
+f4171d5355a96a2e8e5572d5db453eadb95e7b3b net/mlx5: Let user configure event_eq_size param
+29d5eafe64f68208f18c61f156c37cf72cb73c03 net/mlx5: Let user configure max_macs param
+a8b7c731d39dc3621f44bb0e03da00c6aabfd010 net/mlx5: DR, Fix querying vport 0 capabilities
+4ed14a38bbae5c80f066e9f8a7d94a611757ac02 Merge branch 'patchq/434730' into mlx5-queue
+bc661577371c0a97002ba423e82c4f4148d283f1 Merge branch 'patchq/440227' into mlx5-queue
+7148514e2cdec7a2570eacffa64df35dc0fcd292 Merge branch 'patchq/435738' into mlx5-queue
+f747cad90382f20b206616f7b07183c9dc2a67ac Merge branch 'patchq/432142' into mlx5-queue
+bd8963c4c74bb3564a609ac0492dac949ff51e60 Merge branch 'patchq/423994' into mlx5-queue
+27e4d647cac355f75a6ebff5ba42f6b8f918770c Merge branch 'patchq/435320' into mlx5-queue
 
---===============0686364819916282577==--
+--===============7571226296961533487==--
