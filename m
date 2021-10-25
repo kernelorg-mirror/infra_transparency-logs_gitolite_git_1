@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 25 Oct 2021 10:50:58 -0000
-Message-Id: <163515905860.23251.5038401633763801352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 25 Oct 2021 10:57:15 -0000
+Message-Id: <163515943599.26432.16808629347593927609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/tags/thunderbolt-for-v5.16-rc1
+  - ref: refs/tags/intel-pinctrl-v5.16-1
     old: 0000000000000000000000000000000000000000
-    new: b0c6f019113ca1b42e9f16fadd4077c5aa8135c6
+    new: 0afce6605d3d2a44a6e62f24f010ea3b690e4be6
