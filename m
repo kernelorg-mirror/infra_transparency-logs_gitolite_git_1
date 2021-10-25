@@ -1,74 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4839507535174185201=="
+Content-Type: multipart/mixed; boundary="===============2923802651118288235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 25 Oct 2021 06:52:12 -0000
-Message-Id: <163514473205.16373.14087223960904905841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 25 Oct 2021 06:53:02 -0000
+Message-Id: <163514478215.16664.653032608246249759@gitolite.kernel.org>
 
---===============4839507535174185201==
+--===============2923802651118288235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/staging-next
-    old: 5c0480deda08ae804c495409a3d11c5345f2a964
-    new: 7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9
-    log: revlist-5c0480deda08-7e4c7947b42c.txt
+  - ref: refs/heads/next
+    old: 635156d94b644a4000ff19c4fff68a60afff279f
+    new: 4c0eee50658746b0333d35a75d3db6e0aac08ef9
+    log: revlist-635156d94b64-4c0eee506587.txt
 
---===============4839507535174185201==
+--===============2923802651118288235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-635156d94b64-4c0eee506587.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635144731 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635144730-05f07738415182608ca1f0830f88723c50fcf454
+e7e1e880b114ca640a2f280b0d5d38aed98f98c6 dmaengine: dmaengine_desc_callback_valid(): Check for `callback_result`
+05f4fae9a2f5785d180b48ee93d7fa75425091c3 dmaengine: rcar-dmac: refactor the error handling code of rcar_dmac_probe
+c5a51fc89c0103c03b8a54cf12dac7d014b3a2bf dmaengine: tegra210-adma: fix pm runtime unbalance
+2f802d0af7ab5a629a8b4dc9d7be2e11bf477612 dmaengine: tegra210-adma: fix pm runtime unbalance in tegra_adma_remove
+15af840831f69baa9efb0d50007459d2015397a5 dmaengine: idxd: remove kernel wq type set when load configuration
+98da0106aac0d3c5d4a3c95d238f1ff88957bbfc dmanegine: idxd: fix resource free ordering on driver removal
+b3b180e735409ca0c76642014304b59482e0e653 dmaengine: remove debugfs #ifdef
+ee5c6f0ca219b65f5085043d481d9b6f045693d5 dmaengine: idxd: Use list_move_tail instead of list_del/list_add_tail
+5b5b5aa50d1b90392f13afd15089e191d57316f5 dmaengine: fsl-edma: fix for missing dmamux module
+88d97ea82cbe352851a8654ee952d3a694c8c2c6 dmaengine: idxd: add halt interrupt support
+e530a9f3db4188d1f4e3704b0948ef69c04d5ca6 dmaengine: idxd: reconfig device after device reset command
+7789e3464cb610cb8925cd8605bc0aa9d088280d dmaengine: sa11x0: Make use of the helper macro SET_NOIRQ_SYSTEM_SLEEP_PM_OPS()
+dbe3c54e71051b50a4aa863502368000d3e7701f dmaengine: xilinx_dma: Fix kernel-doc warnings
+fe14c67267886e3af3c377a7bee4e6f915778636 dmaengine: milbeaut-hdmac: Prefer kcalloc over open coded arithmetic
+9bf9e0b44104d05b21761441227ae566c732ecb9 dmaengine: mmp_pdma: fix reference count leaks in mmp_pdma_probe
+4c0eee50658746b0333d35a75d3db6e0aac08ef9 dmaengine: sh: make array ds_lut static
 
-5c0480deda08ae804c495409a3d11c5345f2a964 7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9 refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF2VBsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HaQP/1FWlkMQ05GmQKXBVUcR
-pbb36gDgNVC7kDaihFrSnHztI4XKtxxtIsUL9amoxtGTcoQS4MyQ3FT6YDd2xvr8
-XgdEC3xSSnA8/F55Jzo7fmGhf9lEbGVcP7NUhxRPYKayLZtz27zhjkFtdgXh2RPG
-jT+Egp2NziMM3SvWZ5/+Ga2QcZGoCvZxo3seHy73/jG/jUDnU8P4tm3CU/ITIk69
-xMNUzaZyOWPM36q2WsvDFCiwU9AAe//UNJWKHwmL8leE8569YqboG8hqitTo7HXc
-4OamZ14BDCsCjV7WZM8ii3BasK3q2mWwqBQFu6kG0DIXHNmwBmyzCOZU/vYtcQJf
-1ZjkujVZmHLJivnlxhiCzD0fQQH3VigJpCNT/rGVKVRtNbvDB0cRkzSooKYiqQqE
-fsBJ22kjMPamgVFAYZNfXdG+4uuGSug0FVW8JMz29EIMlcMcqQKFBnNt1BE0J2hX
-GkJlFKAYyDucw+1LYm8MQZ4Uc4Lw2kDyf+pIvPu5A3/U3UUklM5qCK2XFyWhsmLu
-H+l1eemNTPna7dpKtuPVgscd3SBgP5VI0BV9YgRAf5iDOKtrBr/JM5v2VccLNffT
-uhZGE2H6o8/dtx63GkrBmwQMSvMSAsC0yzfSzRSrfLvrydo6E71POYJeRE8uP46m
-n9MY1DLTsBiM9YSIhGnYX+oU
-=zmYf
------END PGP SIGNATURE-----
-
---===============4839507535174185201==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c0480deda08-7e4c7947b42c.txt
-
-ea6237488b7d49df30ac2db5be6d4da2c6e3f376 staging: mt7621-dts: complete 'cpus' node
-e1be7542a3cbaabbb4485bdbde87dd6ca8b84012 staging: r8188eu: Remove initialized but unused semaphore
-a624c06194ddfdf6adb780d371538bba79b3ccd9 staging: r8188eu: Remove unused semaphore "io_retevt"
-6cc353158bdf14e0b641d3fa651656f8bbe3295a staging: vt6655: Rename `ii` variable
-8628ff7ffe22c214401ba3c5b6745c8bd9a3767c staging: vt6655: Rename `byInitCount` variable
-ead759a493cb4895e408ce1c762b043c12e7d606 staging: vt6655: Rename `bySleepCount` variable
-0f4aa09169e682e6cbfb67b80b327c0abe0b297d staging: vt6655: Rename `uChannel` variable
-96381a778dc46dd265ab79f33afb8ef411ef928d staging: vt6655: Rename `byRFType` variable
-8a6d92d7cedf366410506d6b5ae98d14b09ee004 staging: rtl8723bs: core: Remove true and false comparison
-53303e7a1f6eec05e9dd414a0335f493db5bc413 staging: rtl8723bs: core: Remove unnecessary parentheses
-f49702e283e0446ff709d22f429a48d0d3aa0870 staging: rtl8723bs: core: Remove unnecessary space after a cast
-75c5e966bda45915b6e0a6549fa21b10f94ad215 staging: rtl8723bs: core: Remove unnecessary blank lines
-7e4c7947b42c4d9af0daa8d51dc58d4f17605dd9 staging: r8188eu: Use a Mutex instead of a binary Semaphore
-
---===============4839507535174185201==--
+--===============2923802651118288235==--
