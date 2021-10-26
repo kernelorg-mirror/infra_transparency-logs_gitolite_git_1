@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 26 Oct 2021 11:46:48 -0000
-Message-Id: <163524880850.15713.11099174755110920609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Tue, 26 Oct 2021 11:56:22 -0000
+Message-Id: <163524938299.22721.1460367177987433298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/for-next/ffa
-    old: 82a8daaecfd9382e9450a05f86be8a274cf69a27
-    new: 01537a078b86917c7bb69aa4b756b42b980c158b
+  - ref: refs/heads/next
+    old: 67cf68b6a5ccac8bc7dfef0a220b59af4c83fd2c
+    new: 01cee7a7d519b280f3dbcaf62810b0d1c754b3bd
     log: |
-         01537a078b86917c7bb69aa4b756b42b980c158b firmware: arm_ffa: Remove unused 'compat_version' variable
+         f8e57d328a1da759f867e45d87106844af8a9589 KVM: s390: Fix handle_sske page fault handling
+         01cee7a7d519b280f3dbcaf62810b0d1c754b3bd KVM: s390: pv: properly handle page flags for protected guests
          
