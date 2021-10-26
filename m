@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5922366570892797034=="
+Content-Type: multipart/mixed; boundary="===============6145377059340887414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 26 Oct 2021 12:47:31 -0000
-Message-Id: <163525245188.23019.2160445570987444060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 26 Oct 2021 12:47:52 -0000
+Message-Id: <163525247271.23177.13268823633237670090@gitolite.kernel.org>
 
---===============5922366570892797034==
+--===============6145377059340887414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 519d81956ee277b4419c723adfb154603c2565ba
     new: 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea
     log: revlist-519d81956ee2-3906fe9bb7f1.txt
 
---===============5922366570892797034==
+--===============6145377059340887414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -286,4 +286,4 @@ ac8a6eba2a117e0fdc04da62ab568d1b7ca4c8f6 spi: Fix tegra20 build with CONFIG_PM=n
 cb685432398122053f3e1dc6a1d68924e5b77be4 secretmem: Prevent secretmem_users from wrapping to zero
 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea Linux 5.15-rc7
 
---===============5922366570892797034==--
+--===============6145377059340887414==--
