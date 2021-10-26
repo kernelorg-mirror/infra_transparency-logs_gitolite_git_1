@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1365850266758765377=="
+Content-Type: multipart/mixed; boundary="===============3319938227102423457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 26 Oct 2021 17:18:27 -0000
-Message-Id: <163526870796.11641.14956406860813333269@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 17:19:03 -0000
+Message-Id: <163526874381.12936.12227393680294423636@gitolite.kernel.org>
 
---===============1365850266758765377==
+--===============3319938227102423457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 159f1f9e46dd09bffee3674d300b02856221e794
-    new: 175003d7f9d15d4d5172f48d51e926acac676ad6
+    old: 175003d7f9d15d4d5172f48d51e926acac676ad6
+    new: 6333a485062172e1c118b44585d90c1d835aec52
     log: |
-         88b20f84f0fe47409342669caf3e58a3fc64c316 serial: xilinx_uartps: Fix race condition causing stuck TX
-         4290242776a603d1acc9ae944e7396057d7aec66 serial: 8250_pci: Replace custom pci_match_id() implementation
-         175003d7f9d15d4d5172f48d51e926acac676ad6 serial: 8250_pci: Remove empty stub pci_quatech_exit()
+         e0abc903deea0148955af1e7ccabf3e980af7815 serial: stm32: rework RX dma initialization and release
+         6eeb348c8482862a788a2903e3fc45e76d4ea6b5 serial: stm32: terminate / restart DMA transfer at suspend / resume
+         6333a485062172e1c118b44585d90c1d835aec52 serial: stm32: push DMA RX data before suspending
          
 
---===============1365850266758765377==
+--===============3319938227102423457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268706 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268742 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1635268705-2b04dd4eb3e2ae9efc34416746d6710651160650
+nonce 1635268741-73ed5fc34564c2f956ef6101b3e2b7f6a47cf2c2
 
-159f1f9e46dd09bffee3674d300b02856221e794 175003d7f9d15d4d5172f48d51e926acac676ad6 refs/heads/tty-testing
+175003d7f9d15d4d5172f48d51e926acac676ad6 6333a485062172e1c118b44585d90c1d835aec52 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4OGIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3qcP/iikOnTafYAOL7S4Ug7D
-KmS0O/HrUUlfIrFnSMjHfFIyx2ISrd5mlaCZv7w3tWgV24A/7mrfYilPwgKHtwlr
-I3zTYhHNvPXQKTcof4wu89Mwsbdx3Ov68v4QBd3eaH0qNPyxRhT5vy2Fs3dS3RHB
-sE07DdMkEbU79n+tGEYs+HsrNVIROVTAU1VB1QiyMb248ZBebb+fZOR89kE6FuaY
-VKz2eKmOFqTmlSteC2nVZcEGLLe7n5CInOfGCg6fYWNhHkt3f2KOpyVx2btg4NvI
-Gn2ALlud5Qu2ILdfV+HFFVXmnprdvC1lr9ECeAxkTU2+kzK6ReoHcIJSUxJRmqrK
-41FBKyX2w/yn679FUREq0keriViWGi+PCpb5nE9e04bRoCJv5nDup4nOuWlAEbFD
-VudF1eysw4IvvpANysWgxZK9Q6w2sFK5AmK/wBX51JPnZ00mBfa3GYJY9FppunMX
-P9a8V50/r9x8QhqLrbHjjhDLF7jb9joIuoV1iJFhGFu8SJ6DpOzBd2I1rI5j80Wh
-5ahS0ulFVgPuywt2CXbXlm5Cq/BGhIQPrn01O99nz40kEv1xL34C9a1gJCzllu2r
-NOP+D24gx/Pmh5SDZV5Rfdg2Ub4+iR7C7e+Iz/hMmJlECN6czdAFZWQb9GG1Q3Vs
-zPGbM8VtMBmCCsdArBFT+eTk
-=oQ7q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4OIYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3j0P/i1O5fgkxjHQnz0UO1+w
+W1QlnJeJPFr/705jkrBwqPXYBMwbhjwArehXvGliWYo4VztPO4c/mRS4j6u4rkCb
+Ffl48W/DvVvQ/c+o4ZaBvXYO6MVc3+JeN82C9tng/nGGN5jHNxDBIddcxmZ0ysf8
+yOvD4WJLprYeSQJ6H4COEXBG+tywYeoBUgh2f6Jp/1ZOZ7RHd+R6BKfMo5wIdQBY
+DqBqes2G7rOtx8VdimAE3/8psN+jma02JrTOJOjqrYYmK5uezTRMCIESKzHSLhDE
+7FXqhIZ0uOySyLeqTpR7Fe22/fOPLUhx4dghgCgKoCn69EJmRthPmPyFxBHpF5xq
+IoLc5QfqOynZ2CgNAuNCZTgSATTORkWA81Sl8DCFlXzUauB2K8Gem4ZYDx83JGhc
+MbHfjtnPQHlteHtT6i9yvvVwaw69vlj2umKl+fhCcVct98jgdFoK7IuZPs8QYWLW
+elitD2Rr5Pbm+g9ud+Q05D3TgsDRRaXHROaUvGcD5UWJnX9TCsnfzbhk49gzPlbr
++kgznlZX6CV8sQn24Hh4MSfHUgrdeDxvvZzUPBWxkEP88DgMfImoOzzSSkG4By3g
+FUW1AV2/UGMNnRkMvfCAEbh9SysF1sbPr6o86QYd5WaAV5eUeQ144YJRboIazVHZ
+dgOgjA0hD/X/LhqDCziym9Q/
+=txSv
 -----END PGP SIGNATURE-----
 
---===============1365850266758765377==--
+--===============3319938227102423457==--
