@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3319938227102423457=="
+Content-Type: multipart/mixed; boundary="===============6763637273417928712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 26 Oct 2021 17:19:03 -0000
-Message-Id: <163526874381.12936.12227393680294423636@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 17:19:53 -0000
+Message-Id: <163526879326.13304.12824140525653717800@gitolite.kernel.org>
 
---===============3319938227102423457==
+--===============6763637273417928712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 175003d7f9d15d4d5172f48d51e926acac676ad6
-    new: 6333a485062172e1c118b44585d90c1d835aec52
+    old: 6333a485062172e1c118b44585d90c1d835aec52
+    new: 73a3d4f41886e6bd27f8b09c6235539a586e5131
     log: |
-         e0abc903deea0148955af1e7ccabf3e980af7815 serial: stm32: rework RX dma initialization and release
-         6eeb348c8482862a788a2903e3fc45e76d4ea6b5 serial: stm32: terminate / restart DMA transfer at suspend / resume
-         6333a485062172e1c118b44585d90c1d835aec52 serial: stm32: push DMA RX data before suspending
+         0572da285d694e945303e74b7f9084b41e02ecbd tty: rpmsg: Assign returned id to a local variable
+         408a507996e4c2ba943bc9b28be8bbb8424410b1 tty: rpmsg: Unify variable used to keep an error code
+         8673ef7bd96dd75ed308cb71d48a292eaa1b72fa tty: rpmsg: Use dev_err_probe() in ->probe()
+         88af70be4a5b936aa440bb9e22e6c57304067db6 tty: rpmsg: Add pr_fmt() to prefix messages
+         73a3d4f41886e6bd27f8b09c6235539a586e5131 tty: rpmsg: Define tty name via constant string literal
          
 
---===============3319938227102423457==
+--===============6763637273417928712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268742 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268791 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1635268741-73ed5fc34564c2f956ef6101b3e2b7f6a47cf2c2
+nonce 1635268791-b3055921bee5884aa784402c61c9be230e062754
 
-175003d7f9d15d4d5172f48d51e926acac676ad6 6333a485062172e1c118b44585d90c1d835aec52 refs/heads/tty-testing
+6333a485062172e1c118b44585d90c1d835aec52 73a3d4f41886e6bd27f8b09c6235539a586e5131 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4OIYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3j0P/i1O5fgkxjHQnz0UO1+w
-W1QlnJeJPFr/705jkrBwqPXYBMwbhjwArehXvGliWYo4VztPO4c/mRS4j6u4rkCb
-Ffl48W/DvVvQ/c+o4ZaBvXYO6MVc3+JeN82C9tng/nGGN5jHNxDBIddcxmZ0ysf8
-yOvD4WJLprYeSQJ6H4COEXBG+tywYeoBUgh2f6Jp/1ZOZ7RHd+R6BKfMo5wIdQBY
-DqBqes2G7rOtx8VdimAE3/8psN+jma02JrTOJOjqrYYmK5uezTRMCIESKzHSLhDE
-7FXqhIZ0uOySyLeqTpR7Fe22/fOPLUhx4dghgCgKoCn69EJmRthPmPyFxBHpF5xq
-IoLc5QfqOynZ2CgNAuNCZTgSATTORkWA81Sl8DCFlXzUauB2K8Gem4ZYDx83JGhc
-MbHfjtnPQHlteHtT6i9yvvVwaw69vlj2umKl+fhCcVct98jgdFoK7IuZPs8QYWLW
-elitD2Rr5Pbm+g9ud+Q05D3TgsDRRaXHROaUvGcD5UWJnX9TCsnfzbhk49gzPlbr
-+kgznlZX6CV8sQn24Hh4MSfHUgrdeDxvvZzUPBWxkEP88DgMfImoOzzSSkG4By3g
-FUW1AV2/UGMNnRkMvfCAEbh9SysF1sbPr6o86QYd5WaAV5eUeQ144YJRboIazVHZ
-dgOgjA0hD/X/LhqDCziym9Q/
-=txSv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4OLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7CkP/0yTP6rngZNKI0ivEHsE
+1iU7GFCc/G6C6NfWuiD+Dxt4wGhcQ8yVhIGrvSBLSX531dk4BhFkt3lYwFq26Cwx
+QK85m7XcMEGIPbPvTxa+ungDPnq4/ou+BM0GW+lixtd+1NPalhBvfsI9Q5XYMToX
+pb75nTuPpX/WztwyqO/sgTgGNUoAhRZ3nmSGmRez9Rzoyqfadzjgl/momQkFOtvt
+T/hL8w87MDwP/UziET7eMvpYlX2i0jj188XsVOz2AN+jhTyUVFjgvfC3PF51j4OD
+1++1JUbygqFFRQ33VhIpDNJ6jRCy6RxRQezjY3Ca43uu8V0JLU8pJxrrdJZ6lC8X
+zllvAPqdkwquwPBwF1mEkdjUf8hTZfvYOsp+SnZR8M2Flcmt1xTzV9fmkrQWFkDE
+S9bYdz5g0uhvtbQBMkVeY87ghZ+HQlgKNxUJgeRJdDqEqt74T3eqFg3QyN3KjIOv
+yQEVk2VPVZY9yo1myt8yV1nGP5rDxayZU3KybfFzkbJdiBb1h6r+ZRcgbgK0ErGX
+8kGQJH8Cbxcg1ZZefyuYIMg0GiqWeqNDA1p6C7e0UtaOc6AX8omvEvyxx65JHNHQ
+4tCF5xWANstsXMiq9lpE5J8YC9MsmQMXoRl9i4Rga86ONc3K0FVjIJOFFLhlm2VF
+XVWOpUAPEPN7NtYAovHTXWjk
+=o4G+
 -----END PGP SIGNATURE-----
 
---===============3319938227102423457==--
+--===============6763637273417928712==--
