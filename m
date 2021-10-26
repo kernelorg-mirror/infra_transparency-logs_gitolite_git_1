@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8012335209925362301=="
+Content-Type: multipart/mixed; boundary="===============3037799206456913535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Oct 2021 09:08:08 -0000
-Message-Id: <163523928807.12592.2019112698644942652@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 09:11:09 -0000
+Message-Id: <163523946953.14981.14863033515543291531@gitolite.kernel.org>
 
---===============8012335209925362301==
+--===============3037799206456913535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,67 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 57bb11328f9ab88571889f4a842859fcdd64d6cb
-    new: 36d935a0a67e4456bd84943319718448c9647675
-    log: revlist-57bb11328f9a-36d935a0a67e.txt
+  - ref: refs/heads/net-next
+    old: 0e27be7156407f02a344be0f1303b1ad92d91b93
+    new: fe833f05d3ddb6bdda983464efc44ffe14943431
+    log: revlist-0e27be715640-fe833f05d3dd.txt
 
---===============8012335209925362301==
+--===============3037799206456913535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57bb11328f9a-36d935a0a67e.txt
+Content-Disposition: attachment; filename=revlist-0e27be715640-fe833f05d3dd.txt
 
-8603caaec98f7a46419a661f306abfaf2f18ec4b mt76: mt7921: fix mt7921s Kconfig
-a88cae727b3e031e1dfd03b5e03eec48f9ef9e6a mt76: mt7921: fix Wformat build warning
-753453afacc0243bd45de45e34218a8d17493e8f mt76: mt7615: mt7622: fix ibss and meshpoint
-0969becb5f7661fb0db1a5d6b60f3d7f046ff6a7 s390/qeth: improve trace entries for MAC address (un)registration
-2decb0b7ba2d1310d85a9fa12e8ed007b7dd6b45 s390/qeth: remove .do_ioctl() callback from driver discipline
-a18c28f0aeeb0f03c7176cd328c7b79e9f8e59e9 s390/qeth: move qdio's QAOB cache into qeth
-fdd3c5f076b69cba2e53e00d9b5191724c7d62f3 s390/qeth: clarify remaining dev_kfree_skb_any() users
-dc15012bb083c70502b625cf56fbf32b6cf17fe4 s390/qeth: don't keep track of Input Queue count
-22e2b5cdb0b9b59d4df6da5ca9bc5773a4f8e3ea s390/qeth: fix various format strings
-79140e22d245aa3d06e2991f397c187b3ab07df3 s390/qeth: add __printf format attribute to qeth_dbf_longtext
-7ffaef824c9a80950fba9f93ce4636a34148c5f0 s390/qeth: fix kernel doc comments
-56c5af2566a7f012e689002032f2356267a08eb3 s390/qeth: update kerneldoc for qeth_add_hw_header()
-6047862d5e736b903ab8e9eaffe5649eb4ca0030 Merge branch 's390-qeth-next'
-c99fead7cb07979f5db38035ccb5f02ad2c7106a net: hns3: add debugfs support for interrupt coalesce
-0bd7e894dffaa1fdbef9dcf68b5994a18ff32024 net: hns3: modify mac statistics update process for compatibility
-4e4c03f6ab636e9c39558845da5bfbcd60baf33d net: hns3: device specifications add number of mac statistics
-c8af2887c941fbe15637e7d9b0d75fa100cb7827 net: hns3: add support pause/pfc durations for mac statistics
-58cb422ef625750fe8719045d1b8557e15875a9e net: hns3: modify functions of converting speed ability to ethtool link mode
-6eaed433ee5f607f8b46ed9f15b3aa1112404704 net: hns3: add update ethtool advertised link modes for FIBRE port when autoneg off
-b566ef60394c528ae201a7c33182539183edd3bf net: hns3: add new ras error type for roce
-da3fea80fea481dc5d135c3087b5c686e1656cea net: hns3: add error recovery module and type for himac
-0b87074b9064645ce1ccd5045fe8f29ed5e2fef2 Merge branch 'hns3-next'
-c0f0b563f8c0660a6068711f2ac11b75609232c8 net: phy: at803x: replace AT803X_DEVICE_ADDR with MDIO_MMD_PCS
-2d4284e88a59114f2f02b60da4977b49ace149bc net: phy: at803x: use phy_modify()
-7beecaf7d507b64ef1d6210835aec6ed4e64f30a net: phy: at803x: improve the WOL feature
-9540cdda91139e482865619d9cdf9be5b413921a net: phy: at803x: use GENMASK() for speed status
-daf61732a49a2eca2db24bdc550395fa392d542b net: phy: add qca8081 ethernet phy driver
-79c7bc0521545fd11a5cf52b946f71e2ded213d3 net: phy: add qca8081 read_status
-765c22aad157771c25a0de18fb4a84e7f02c2a6b net: phy: add qca8081 get_features
-f884d449bf2894f2adf3b41fc6d0d589d4020ce5 net: phy: add qca8081 config_aneg
-1cf4e9a6fbdbc9850216a2a6d8ed52888679a077 net: phy: add constants for fast retrain related register
-63c67f526db86d3102a77437a510c949f6debb08 net: phy: add genphy_c45_fast_retrain
-2acdd43fe009a99817c2324b086f32403f9faecd net: phy: add qca8081 config_init
-9d4dae29624f1b9467f58d596174803cde9be7a1 net: phy: add qca8081 soft_reset and enable master/slave seed
-8bc1c5430c4bbeaa2b0b5d5ca147ce85d492c775 net: phy: adjust qca8081 master/slave seed value if link down
-8c84d7528d8d84e625f548e74d4959c6f7b7cb52 net: phy: add qca8081 cdt feature
-71de5b234c3be9f5a58082a2fd43627fba6aa86b Merge branch 'qca8081-phy-driver'
-b8bfafe43481e0b053694227bb013150f10db3ae selftests: mlxsw: Add helpers for skipping selftests
-535ac9a5fba51acce1cbde2257a0ef8f35d4ac70 selftests: mlxsw: Use permanent neighbours instead of reachable ones
-e860419684b547dd4daa8143ad70a97955571482 selftests: mlxsw: Reduce test run time
-233cdfbac8bc9bc5d0cddd7d68a3ddb13c619821 Merge branch 'mlxsw-selftests-updates'
-1344e751e91092ac0cb63b194621e59d2f364197 gve: Add RX context.
-37149e9374bf7271563f7477ace9014ebc65a8af gve: Implement packet continuation for RX.
-255489f5b33ccec046be689dd45b5ccdec2b2a32 gve: Add a jumbo-frame device option.
-6df5713e050b7d7d3f7d1bc9e169c425ed4d2d9e Merge branch 'gve-jumbo-frame'
-2b30da451062a8d30043f3aded7cb440896805e2 Merge tag 'wireless-drivers-next-2021-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-7ce9a701ac8f44798e46dede02b924504dc65a5c usbb: catc: use correct API for MAC addresses
-2c087dfcc9d5e7e8557d217f01f58ba42d1ddbf1 mlxsw: spectrum: Use 'bitmap_zalloc()' when applicable
-39d8fb96e3d74aa55143eb1d076800af87505cfa net/tls: tls_crypto_context add supported algorithms context
-3fb59a5de5cbb04de76915d9f5bff01d16aa1fc4 net/tls: getsockopt supports complete algorithm list
 a0c8c3372b41002e65dc109d431eb50da002e728 fddi: defza: add missing pointer type cast
 08c181f052ed8e89beb84f61c1e8cb87f199dd8d bluetooth: use eth_hw_addr_set()
 a1916d34462f0641c61bf446ea5859b24cbbc69c bluetooth: use dev_addr_set()
@@ -95,5 +45,33 @@ e43b76abf768cb10880282990eca54c10d0ff40c Merge branch 'tcp-receive-path-optimiza
 165f8e82c2f1fee914f43d5288f8bd08c7e0f69e net: qed_ptp: fix check of true !rc expression
 036f590fe5720d964a45533ed04aa3d09c267003 net: qed_dev: fix check of true !rc expression
 36d935a0a67e4456bd84943319718448c9647675 Merge branch 'small-fixes-for-true-expression-checks'
+3bb02f4b04c69f75cf108f6a5a8aaae230251ec5 net/mlx5: Lag, Make mlx5_lag_is_multipath() be static inline
+2ac74cb41827d9bb9b99a76e88eafd77b8248e9a net/mlx5e: Sync TIR params updates against concurrent create/modify
+7f0017704a42e5864981d231481ac9406dd672a6 Merge branch 'patchq/380712' into mlx5-for-net
+62cc686f81df3d47b2d89608f12c98a692372385 net/mlx5: Extend health buffer dump
+fcac87a66deed0fdd1ef11b1df0e0bd6fc9b0d05 net/mlx5: Print health buffer by log level
+8799098b4c2e2f7599ecc87484d107ec9f201c1a net/mlx5: Add periodic update of host time to firmware
+a75e9a59f39e62b19f3f92f7488350481c7aeb3f net/mlx5: Separate FDB namespace
+88fa171ebf8ef3c6506fad09f11737beebe523a6 net/mlx5: Refactor mlx5_get_flow_namespace
+3aa761684c99853f553f0328fa14f15abaae28b3 net/mlx5: Create more priorities for FDB bypass namespace
+d5722b6849130ddfcafa50ed47b615291a7a8e30 RDMA/mlx5: Add support to multiple priorities for FDB rules
+c264a377591d79258cdcf962951015a5f1e5a6b5 net/mlx5e: don't write directly to netdev->dev_addr
+b892b87cce2cea7d56f5a51ade2694091a57f517 net/mlx5: Reduce flow counters bulk query buffer size for SFs
+e2d3c83210f1b53fa57d65c7bc11cbdfd0bb9c27 net/mlx5: SF, Add SF trace points
+692206b43a621c1c11ea5764024c99fd82008c5d net/mlx5: SF_DEV Add SF device trace points
+43e727eef6dc5a86a361866eed86493334dacd98 net/mlx5: Let user configure io_eq_size param
+0f93c2def2371946ec1d3a34fb491ed8d7181235 net/mlx5: Let user configure event_eq_size param
+b9cb2294c414c9aa2131e7bc3eae5f13cf199623 net/mlx5: Let user configure max_macs param
+368d2fdbedd439e640c20a7726b500f4407290fb net/mlx5: DR, Fix querying vport 0 capabilities
+5fe27fdf1f454c6003ba19037b4311f28ebaa096 Merge branch 'patchq/434730' into mlx5-queue
+817afeb1c506661ac3e1579615a0e8527fae03c1 Merge branch 'patchq/440227' into mlx5-queue
+dd00a33e27af836a84a115ad3dde2e137ebebc42 Merge branch 'patchq/435738' into mlx5-queue
+05f0c741b00d340cd5ba3590a9cb1f31f494b295 Merge branch 'patchq/432142' into mlx5-queue
+d92edc0838a6d5c0298ba323b2e83fd51e8465b1 Merge branch 'patchq/423994' into mlx5-queue
+3f390c5e5609470bf6bad6f98c8880a2fe817e14 Merge branch 'patchq/435320' into mlx5-queue
+f09d6e1edc18a29078110811121e4d133681fb0c Merge branch 'mlx5-vdpa' into net-next
+5c13e4e4ad4ca4cb1f96d7e8bede3d44c4d007a9 Merge branch 'mlx5-queue' into net-next
+a6a92f44145a98d166dfaa843e0758328fc45232 Merge branch 'mlx4-for-net' into net-next
+fe833f05d3ddb6bdda983464efc44ffe14943431 Merge branch 'mlx5-for-net' into net-next
 
---===============8012335209925362301==--
+--===============3037799206456913535==--
