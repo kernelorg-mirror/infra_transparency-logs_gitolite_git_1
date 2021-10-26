@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8541453312076891899=="
+Content-Type: multipart/mixed; boundary="===============2076855019421423866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 26 Oct 2021 02:03:59 -0000
-Message-Id: <163521383978.20519.1546820132786623884@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 02:04:25 -0000
+Message-Id: <163521386546.20734.11652586726881344313@gitolite.kernel.org>
 
---===============8541453312076891899==
+--===============2076855019421423866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a1d949cfc3c3a5c665383233cad2d04bb9d61ce6
+  - ref: refs/heads/next
+    old: f985911b7bc75d5c98ed24d8aaa8b94c590f7c6a
     new: 7eba41fe8c7bb01ff3d4b757bd622375792bc720
-    log: revlist-a1d949cfc3c3-7eba41fe8c7b.txt
+    log: revlist-f985911b7bc7-7eba41fe8c7b.txt
 
---===============8541453312076891899==
+--===============2076855019421423866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1d949cfc3c3-7eba41fe8c7b.txt
+Content-Disposition: attachment; filename=revlist-f985911b7bc7-7eba41fe8c7b.txt
 
 78f8876c2d9f6fdeb9ff62ed1911505156cd7b3d io-wq: exclusively gate signal based exit on get_signal() return
 7d5cfafe8b4006a75b55c2f1fdfdb363f9a5cc98 RDMA/hfi1: Fix kernel pointer leak
@@ -1051,4 +1051,4 @@ a0bcce2b2a169e10eb265c8f0ebdd5ae4c875670 tpm: Check for integer overflow in tpm2
 79ca6f74dae067681a779fd573c2eb59649989bc tpm: fix Atmel TPM crash caused by too frequent queries
 7eba41fe8c7bb01ff3d4b757bd622375792bc720 tpm_tis_spi: Add missing SPI ID
 
---===============8541453312076891899==--
+--===============2076855019421423866==--
