@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 26 Oct 2021 23:08:48 -0000
-Message-Id: <163528972812.5712.7957900900451477505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 26 Oct 2021 23:14:15 -0000
+Message-Id: <163529005568.8705.41866107018677616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 98ee609fa82a00c27348b8f2837f734dcdd1d846
-    new: 704f6142a9033e76aaa054c7ecf93b4bb4bf0028
+  - ref: refs/heads/for-next
+    old: f9ace4ede49b09d59d82fea88aa0dc0c770743eb
+    new: 683b33f7e7ec0d827502dd0d8b947bdcfe2df6f1
+    log: |
+         683b33f7e7ec0d827502dd0d8b947bdcfe2df6f1 riscv/vdso: Drop unneeded part due to merge issue
+         
