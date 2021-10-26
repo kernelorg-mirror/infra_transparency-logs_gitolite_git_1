@@ -1,48 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5418108678305854536=="
+Content-Type: multipart/mixed; boundary="===============2361295054441715903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 26 Oct 2021 10:10:48 -0000
-Message-Id: <163524304830.20375.17709720949004837760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 26 Oct 2021 10:17:57 -0000
+Message-Id: <163524347792.23946.13085536866998288746@gitolite.kernel.org>
 
---===============5418108678305854536==
+--===============2361295054441715903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 5ea83e2096fe209319baf8f95092527db3334bab
-    new: 1757172c00a602bcf677288b167056aa6e80f286
-    log: revlist-5ea83e2096fe-1757172c00a6.txt
+  - ref: refs/heads/for-mfd-next
+    old: 813c24f4caf323dd7d90de95ab8a8d96ee73647a
+    new: 818ed35d6425236a793f1f6cb79ad3d6f74bc302
+    log: revlist-813c24f4caf3-818ed35d6425.txt
 
---===============5418108678305854536==
+--===============2361295054441715903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ea83e2096fe-1757172c00a6.txt
+Content-Disposition: attachment; filename=revlist-813c24f4caf3-818ed35d6425.txt
 
-c65b52d02f6c1a06ddb20cba175ad49eccd6410d irq: mips: avoid nested irq_enter()
-46b61c88e1075829103874c95f13160e3b9e1618 irq: mips: simplify bcm6345_l1_irq_handle()
-bab4ff1edccd5853c956ac72e5152b073a237b50 irq: mips: stop (ab)using handle_domain_irq()
-4cb6f4df976b288aa02bbb658d38e73d34d8231f irq: mips: simplify do_domain_IRQ()
-d21e64027ce4d4df0c46d527b96f12d3811cd08d irq: simplify handle_domain_{irq,nmi}()
-76adc5be6f505d0c137b210a95ad00dbd089473d irq: unexport handle_irq_desc()
-a1b09501971435ef213251891753afb0d7f3d27a irq: add generic_handle_arch_irq()
-e54957fa3b3b374c63c66f60a8236dd95cf5e2be irq: arc: avoid CONFIG_HANDLE_DOMAIN_IRQ
-6f877e13c24d8b7b96a2f4e78f13a2bdfd401c8b irq: nds32: avoid CONFIG_HANDLE_DOMAIN_IRQ
-2fe35f8ee726466f0898ba60c5868c6f9a1ac566 irq: add a (temporary) CONFIG_HANDLE_DOMAIN_IRQ_IRQENTRY
-a7b0872e964cf306fe26d9d49585a90486e32fdf irq: arm: perform irqentry in entry code
-26dc129342cfc1e09dcf8473331efcf419a471af irq: arm64: perform irqentry in entry code
-287232987f0ebb29f68cfab13625017bbfb38adc irq: csky: perform irqentry in entry code
-418360b23113d62aa99586ada37806b4a7a53afa irq: openrisc: perform irqentry in entry code
-7ecbc648102f2fa80d2aefb75b7f8b482f1a4483 irq: riscv: perform irqentry in entry code
-5aecc243776e89b0c462edd0a589030baba99ef8 irq: remove CONFIG_HANDLE_DOMAIN_IRQ_IRQENTRY
-0953fb263714e1c8c1c3d395036d9a14310081dd irq: remove handle_domain_{irq,nmi}()
-1757172c00a602bcf677288b167056aa6e80f286 Merge tag 'remove-handle-domain-irq-20211026' into irq/irqchip-next
+3d39a440b22d6eabeb37122fabfe71c2e2edaed6 dt-bindings: mfd: syscon: Add samsung,exynosautov9-sysreg compatible
+1f3c0b819c88d867320423267d03d72f8aee3626 mfd: mc13xxx: Make mc13xxx_common_exit() return void
+e8ff02e75eb638a83a80f811ac3304b62c1ef21e mfd: stmpe: Make stmpe_remove() return void
+8263b135ad9062ca2827ec7aba0a77de43560d79 mfd: tps65912: Make tps65912_device_exit() return void
+82c5137a25d243fbe9b47f145fbfffdb23377284 mfd: altera-a10sr: Include linux/module.h
+5de037ec8521d83d5382c28684025ae94bea6a9d mfd: janz-cmoio: Replace snprintf in show functions with sysfs_emit
+d5ac8df83f10968935becb86c9b3fc2644e026c1 mfd: qcom-spmi-pmic: Sort the compatibles in the binding
+c818c1f9c19b5c82aae0f60bcc6fb864c530b584 mfd: qcom-spmi-pmic: Sort compatibles in the driver
+0e988802e380c3f854a5f1226d7003dde7f71dd3 mfd: qcom-spmi-pmic: Document ten more PMICs in the binding
+4c3714dc59d1e06d089506f61443cfcac7a3f8f6 mfd: qcom-spmi-pmic: Add missing PMICs supported by socinfo
+4f4c22b8412e98465e448271addc7d607538e582 mfd: dln2: Add cell for initializing DLN2 ADC
+2558405a0a40e3dc9efd27e651de58b4c3dd1586 dt-bindings: mfd: qcom: pm8xxx: Add pm8018 compatible
+d4f65dca21d6e3ca255c73546524d116a3b18c24 mfd: wcd934x: Replace legacy gpio interface for gpiod
+4145158f9e81746437bc65f409421575a17a07ef mfd: max77686: Correct tab-based alignment of register addresses
+818ed35d6425236a793f1f6cb79ad3d6f74bc302 mfd: tps80031: Remove driver
 
---===============5418108678305854536==--
+--===============2361295054441715903==--
