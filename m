@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1401987565986888411=="
+Content-Type: multipart/mixed; boundary="===============1751429128214930977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 26 Oct 2021 16:46:17 -0000
-Message-Id: <163526677768.23429.343965310333471527@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 16:46:48 -0000
+Message-Id: <163526680837.23645.8555562753667905880@gitolite.kernel.org>
 
---===============1401987565986888411==
+--===============1751429128214930977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,50 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: dcf7be79c953b17bbdfb72cbcecd0eff0767f831
-    new: b6f8bd68120faebfa04c4ba34845bf8498eaf868
+    old: b6f8bd68120faebfa04c4ba34845bf8498eaf868
+    new: 3d34b180323b487cad6f1e7560f1ec653110c899
     log: |
-         4cfa36d312d6789448b59a7aae770ac8425017a3 staging: rtl8192u: fix control-message timeouts
-         ce4940525f36ffdcf4fa623bcedab9c2a6db893a staging: r8712u: fix control-message timeout
-         0869b73f615bbd462662ea0d586b9c6fde8b4cda staging: vt6655: Rename `dwAL2230ChannelTable0` array
-         5898832fb98637b331bfa00c0bbf640bc09daf10 staging: vt6655: Rename `dwAL2230ChannelTable1` array
-         b9b419af41a4b635c4bfce7aca485ff920a5a96e staging: vt6655: Rename `dwAL7230ChannelTable0` array
-         913d3e9ec360b590b0c7297fabe3e847ad46fafe staging: vt6655: Rename `dwAL7230ChannelTable1` array
-         787f48d7add147c80d6a475e21bb836fe1791d90 staging: vt6655: Rename `dwAL7230ChannelTable2` array
-         267062a6c907847d46fc530fc833fd5efd0ab3dd staging: vt6655: Rename `dwAL7230InitTableAMode` array
-         01701302a2685356a3fdb365f1d061bc011e006b staging: vt6655: Rename `dwAL2230PowerTable` array
-         f3d90f5139e59e04ed50ee72a01f73863e5dcc70 staging: vt6655: Rename `dwAL7230InitTable` array
-         b6f8bd68120faebfa04c4ba34845bf8498eaf868 staging: r8188eu: core: remove goto statement
+         3d34b180323b487cad6f1e7560f1ec653110c899 staging: r8188eu: core: remove the goto from rtw_IOL_accquire_xmit_frame
          
 
---===============1401987565986888411==
+--===============1751429128214930977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635266775 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635266806 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635266775-bd18da6d31723fbdccdd43f03432764b26184fa4
+nonce 1635266806-65bc2a237747eeee73690ef0a3d461f299c174d6
 
-dcf7be79c953b17bbdfb72cbcecd0eff0767f831 b6f8bd68120faebfa04c4ba34845bf8498eaf868 refs/heads/staging-testing
+b6f8bd68120faebfa04c4ba34845bf8498eaf868 3d34b180323b487cad6f1e7560f1ec653110c899 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4MNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1lkQAJ4IXE4gC7EiQk7DQO8p
-wBxmF+9mX2oKpCF1gfzCfM3jzb9odG2Rbg6nX+mapUDZmJAiR77K2LjyJciBYemJ
-AyK3lDP1U4PJKoNst4U6AO06QD+TqqbOVQH08M9grq31iBVql2uiKocLXtfZzLps
-esZkPy34VAghB8uSypeAd6cIH/IqmaZZFMFk0qvPik8uXBd7zKHbn7vqSQiLdr5I
-ieulxC1HYTzW0+wJzqGqOLUquXmrFKREyiH+GPKnQmE5Vvf62Fi5NJL/HDUkUv0a
-XOib/v221PDqkm4tUhRlM5chcDzYWZl+OJBT5bY7OjYgdQmslb1OHmgy4nlC6yDX
-lPE3heTdlZ4ULNDEKWaIRr8LNpXox/aw3iXaf3AeGY1POoLr4zOC/NR8fVW3FKTn
-6erX1JacAVOINqrkjaTU8OJFS0Kf7Ff6VlmkpXb7fIFrVeoIpRcv3p12V7aHPyHd
-49jm2Jj/npjPIyoBFbozOmsNIHHk87mwNZDGoQoyTpzfRNF2L7Q59K/7CvigZFIB
-vT+ICaXKpbG08Pm38jB6mmsP16pTBLp5H8kNjX6/OKk4U0fW9++MVrNkvLsz3RhJ
-b6GOMOTHa9ppeFdu2HD3OC54ZSkNI92uWhtk3GHsQwvx8noHVJ0pGQsYf8vqv3uA
-mO91qDU0YCNczi6Z1tOuFiah
-=Swum
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4MPYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H+4QALWXgb/XATbjOSHECm/e
+N3PLukXouQH9uJP78lO3SLg7o7V4ZLPLcrHBwOonRFy/fOuKbfTscpI+q1PbR91i
+XoXwPp6Jxh7yFTPr86+X7vmVHKipZW3/F3l1Zg1RtqS/8nb7SINqWUxZx5J0k+vb
+6YrRK/LTC09+Teox6MlAQ51qeLBIFka1IMJQ8UEu/plkaV12hT6kdx3vNYLB1/aZ
+4qzgMaFSibQOKQsZ6kPBX95H7iQw3QZ5K5J5rjqlwDfZY1J/FwAY5RXZgHdJWCqE
+KIFLKf+M3o5PcvcGs22UlyaFhzKddJqL3GCqOy2v/TV+yLSbjIzcWCBy+8xODW2t
+7a65QKD9RcbAGKRk037Dg1mucyf6gF5M63QAfwxxLwGcTI1BLoITjliOZF7GKkSB
+gZwcdmyeeCTOnF49RpTJml9t8NsSSFM4iR4agO4DmgiDeCBfHlcCQp1xbU30Jbg6
+jN/V7lY9MP1lIQnOguDrkSO7lA9ICNaL8Pn1zD+zNUwXPN+jM+YVBpw5UofMRq5R
+xuCPu3dg34PGyXBxG609kJP1CN3BIvzN/D7v21o9D5V7MAoLyN7S7Y6pvRCcHxHt
+CBC2sihrB//CJtw6OBG86ADue25Xt8B27TGxYFub5bjTu98RCpAYwutJsHVc9TrM
+C+X8UAuMXFs3f/wWEDwqrZSs
+=mHw/
 -----END PGP SIGNATURE-----
 
---===============1401987565986888411==--
+--===============1751429128214930977==--
