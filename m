@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2524686536744964604=="
+Content-Type: multipart/mixed; boundary="===============8044416881065445549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 26 Oct 2021 19:01:21 -0000
-Message-Id: <163527488145.14289.15874565916146406564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 26 Oct 2021 19:01:28 -0000
+Message-Id: <163527488848.14412.7502996363337842760@gitolite.kernel.org>
 
---===============2524686536744964604==
+--===============8044416881065445549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 1198ff12cbdd5f42c032cba1d96ebc7af8024cf9
     new: d7a8940dcdab71a197e8646b02af289f1e3977e3
     log: revlist-1198ff12cbdd-d7a8940dcdab.txt
 
---===============2524686536744964604==
+--===============8044416881065445549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635274878 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1635274878-ddf8ab86e6de476e4981f0b85c82a036ef919a42
+pusher C3F436CA30F5D8EB 1635274886 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1635274885-aaae3e43888002c37e90bf1498990ccc2958388f
 
-1198ff12cbdd5f42c032cba1d96ebc7af8024cf9 d7a8940dcdab71a197e8646b02af289f1e3977e3 refs/heads/for-5.16
+1198ff12cbdd5f42c032cba1d96ebc7af8024cf9 d7a8940dcdab71a197e8646b02af289f1e3977e3 refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF4UH4ACgkQJNaLcl1U
-h9ADHQf+PkIOCaaTaZS1WWxUv3YwywJjGMLihx13858vlC6otojCgGrT4ukErGWH
-sUkIXo6Kj68r+MKQ45FxBAYDm7gLak+IBAzqwXQEctBseY4DvzDrrgdA0g6YJ+3+
-L5TUbfmbsemdPdfWNsWOFz4cXtFmk1s6D6h0YHVciyRPTKuJJLh3XNH93tGWjBGg
-gN1BNxPf212rNPp3YmoNHMs7Q5ByU7ETvIpa/RswEhZRitQA2MkIZ/uUJ0vAPbmE
-jUbIyaCdmS//xPqB+KScU3Zp0PFm95C3k9B+3XlX/MVHLl48Ooi38AaCwwnFNUmz
-F8zOZohjOt9FLvFhkC65SrPFDAxwMQ==
-=9Yhp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF4UIYACgkQJNaLcl1U
+h9AKpwf/SPfhZJIt0M+OmTyjMeo6+/30U5nc5FkomafaY9iUOAAiNDHVpnMqL+/z
+Il6E5ehD0FYNrUzCGND29/IC7MG8LiZ7ycCF4KyBIV7FaHuT8Hz8vjO/X4f+roZn
+7y1cbL8wLr4GI3LmCDUxCB630n2hXRfK4rhJHFPc1rVBtWJTsZSSviW9RGv+Vrgv
+N/+yY3dd22DA9IjLsjEcj/YOnKxVJUnC2MN6yK3xg1GRTRqwc+xH92MOc6JaleFn
+gjqf5NnyCHoTr/A1RWeVqojGi5kCnMd/vKud/ocnIGH6RFdojNcQ4rzZVrLGDr4c
+7Z5IHCtHPoJ5r8QvPgNIvd8OX+XI2A==
+=h/Jd
 -----END PGP SIGNATURE-----
 
---===============2524686536744964604==
+--===============8044416881065445549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ f31c9399738870d0ae8081a65f264f5d103fd180 ASoC: amd: acp: SND_SOC_AMD_{LEGACY_MAC
 1af4d2e78504a0be2c3b8e8f548796a120c0d77b Merge series "Update Lpass digital codec macro drivers" from Srinivasa Rao Mandadapu <srivasam@codeaurora.org>:
 d7a8940dcdab71a197e8646b02af289f1e3977e3 Merge series "ASoC: cs42l42: Fixes to power-down" from Richard Fitzgerald <rf@opensource.cirrus.com>:
 
---===============2524686536744964604==--
+--===============8044416881065445549==--
