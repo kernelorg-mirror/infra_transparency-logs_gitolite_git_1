@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ostr/linux
-Date: Tue, 26 Oct 2021 12:50:41 -0000
-Message-Id: <163525264165.27238.5524336266198626377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Tue, 26 Oct 2021 12:54:12 -0000
+Message-Id: <163525285255.28557.15604131257263537306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ostr/linux
-user: ostr
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-linus-5.16
-    old: 71489efcf98ed5004558ed059f75e245ab90bf46
-    new: 921cae0aba3da3b3504284cf172b47732dd1030d
+  - ref: refs/heads/master
+    old: 93a06769c432cc57e6da77d234ad0d0b62dc9466
+    new: 062fc7852a7e58f3cbcd09b4963076f8b2d75673
     log: |
-         921cae0aba3da3b3504284cf172b47732dd1030d xen: Fix implicit type conversion
+         062fc7852a7e58f3cbcd09b4963076f8b2d75673 client: Only print daemon info in interactive mode
          
