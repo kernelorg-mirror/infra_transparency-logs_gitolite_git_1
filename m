@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8780114542661302233=="
+Content-Type: multipart/mixed; boundary="===============5940890245070893853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 26 Oct 2021 17:12:12 -0000
-Message-Id: <163526833285.7604.7853057779031590831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 26 Oct 2021 17:12:45 -0000
+Message-Id: <163526836526.7818.12266582500871336577@gitolite.kernel.org>
 
---===============8780114542661302233==
+--===============5940890245070893853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: a56d3e40bda460edf3f8d6aac00ec0b322b4ab83
-    new: 63b3e810eff65fb8587fcb26fa0b56802be12dcf
+  - ref: refs/heads/usb-testing
+    old: e8d6336d9d7198013a7b307107908242a7a53b23
+    new: 79a4479a17b83310deb0b1a2a274fe5be12d2318
     log: |
-         63b3e810eff65fb8587fcb26fa0b56802be12dcf most: fix control-message timeouts
+         ebcf652dbb22c14a21a01ee5431448f13ffb24d6 Documentation: USB: fix example bulk-message timeout
+         79a4479a17b83310deb0b1a2a274fe5be12d2318 USB: iowarrior: fix control-message timeouts
          
 
---===============8780114542661302233==
+--===============5940890245070893853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268331 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1635268331-c216d6617adc498a2d886c84afe9e04eb7e135d2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635268363 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1635268363-a8baea961dee12db8046844e8986a9962f829624
 
-a56d3e40bda460edf3f8d6aac00ec0b322b4ab83 63b3e810eff65fb8587fcb26fa0b56802be12dcf refs/heads/char-misc-testing
+e8d6336d9d7198013a7b307107908242a7a53b23 79a4479a17b83310deb0b1a2a274fe5be12d2318 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4NusbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ioAQAMB55LTotHQvcu9IPP9l
-+5ixOW3kxu9tXpKnIyVvhCUQCvs6NthRKERa9+//HI2MuSGwR6jaSKWTYZ+DlZGu
-MvsaYU31INsJVql7HaKQw0fl/sbazO9ZhjW2RHezqaMnUuU5QdUJ1DpgpFlAg1FR
-HgEe6uaekg2my5/wm7FhM56vLLqalMSA1qbAZASaVJ7ZBjsBKOdOcEGQjOWy1ioe
-KoWKiRUiZOgFaDsUqAlWN9Ju5Ode3STUmvQR7/0NZ1Ltk4ISUBJmeeDt2hMggHND
-zQ9uc0kJpzUcrzxIiZBw7AoQAcjXvY+Jhm/0J1jM+thHu/OR9uP+dv4bCgmerLnj
-bZHc82UWq2DV+OqOG02auiNdVNzeynaxKF/dI3bgmcjYY3Mdky1WqNy3hv55PWXR
-XAN0FIS4didJVQyMbBidO0Aza1ilZSmgKJZ6D5h495NkiuB+bsajUKH+zC//oICF
-4lgNfphHTRYbdlNlno003Z8eP//DVcqC75mUPz3RonhIXTm+0dcPN7sYyDIdvHCi
-i3tcDmAlGq6JGv2hcWC/XqFkIG7XuVPmAHSF2/M+7QTd6AUTqCV0qvPMusgvuugh
-6vPurZaDQ8qYov2voX9mgry5s/OJkrvt2TYxMf4I2rUL+gxfU8fFGn9yOd7/6vZh
-A337N1GjPUrfeEGEZ5ydFAtG
-=/XaR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4NwsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VFkP/2mewS5YI1+VK/Ea/6fN
+gHhS9cGCDpdu8Jd1LNd0ceZznecfGGdFPqABZEZCyzGVMsMLZs0el3ubk+1K613l
+xX6g/yl3GOu3W5913DI6RUv0QUqkoZTfpJEgkkCJzrISMPuPRlsWeTAUi6uLRhFR
+3MD5Yqt0/sqqDMkrBIhLYrMdrOoZDRZvU37RIOD19rQwdSMe6Ou1GmYeTHtrCbDw
+AxKOVWde1ewMkTFBCj7CXDNQQ3OWCNc9ttU/teu4TUn6ml1Q0edCU6hwRhhJWdhw
+Vdps7L5r234Hm6R0gzDZkO0LxGxGdvnRASyxSUD7fjTQz8uZnkXd5IC7BAMAzyah
+asiVn2+SyiZzI9D7r51hNTFzo/a5HLzH7LULKYBmQYUqLEhQ/ag14RQsmJFetcHm
+QEGrQFoStaPi2SlxlZKowp+zZR1DFFnR28wfX3pWBWxpz7C9onLHYZGChghxtbtF
+jj1HPKiZW++zPApv+Dya6NuzvQPETmtsPMxr93M7DfIBzsZVmu54XEmQ5qmUrw29
+j3jgLwBrGYkp6L2BXizpSzDu6offwlERIAl9QGVp/Ord6lmnwZMj0NEbEO0nuLw4
+gSqaf8ux8poNob+q2/f1kGPzHl/qFALZI8HFxplHtBmvTdaZVhynB77knnQlR4Pu
+TLVYH6ooCacX+w4t1oPtCT9c
+=69Hu
 -----END PGP SIGNATURE-----
 
---===============8780114542661302233==--
+--===============5940890245070893853==--
