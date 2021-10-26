@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2146425218095188290=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
-Date: Tue, 26 Oct 2021 17:02:52 -0000
-Message-Id: <163526777287.1747.8582637653274563175@gitolite.kernel.org>
-
---===============2146425218095188290==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Tue, 26 Oct 2021 17:07:20 -0000
+Message-Id: <163526804057.4522.13763563681075283572@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211-next
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: 2f73a4212ab4a86db910ba07ce96379de7a03cb9
-    new: 56b0c30a257335afced0a372d9398ac87df80118
+  - ref: refs/heads/pci/dwc
+    old: 4caab28a6215da5f3c1b505ff08810bc6acfe365
+    new: bfe21516f621d5a235bfba91551828493a70bb0c
     log: |
-         56b0c30a257335afced0a372d9398ac87df80118 mac80211_hwsim: Fix spelling mistake "Droping" -> "Dropping"
+         d47ce47d42872b85b21819f2de14b8535c555f70 PCI: kirin: Reorganize the PHY logic inside the driver
+         d4e3bca652f67ffc2095acbb28c19e27db2ac265 PCI: kirin: Add support for a PHY layer
+         dda6b60f7344cba7f6a72c881710da08939af227 PCI: kirin: Use regmap for APB registers
+         b18e6960c4e8c9108a9870340030fd90baaa9273 PCI: kirin: Add support for bridge slot DT schema
+         8437a72237a8ed1161e8c6e25a9a79c9b8b0a0e6 PCI: kirin: Add Kirin 970 compatible
+         c13feb61d959fb2da3fc9d31e642beff3ee0620a PCI: kirin: Add MODULE_* macros
+         65b5a405bfa043f9d6154b66045131dc8120c6dc PCI: kirin: Allow building it as a module
+         c64d84136d323200bc7c822c80efeed6e9a6f660 PCI: kirin: Add power_off support for Kirin 960 PHY
+         41441a5d0526d7a263869b69706e0453f362fb13 PCI: kirin: Move the power-off code to a common routine
+         7caaf7ceb7b897c8002fbd5270fb8edb25c93297 PCI: kirin: Disable clkreq during poweroff sequence
+         2410a6853aec8140456aaa70f22ceb2a42c17233 PCI: kirin: De-init the dwc driver
+         bfe21516f621d5a235bfba91551828493a70bb0c PCI: kirin: Allow removing the driver
          
-
---===============2146425218095188290==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1635267733 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
-nonce 1635267733-f2ae2cd81afa794e1ab05628d76aff68fa6e065a
-
-2f73a4212ab4a86db910ba07ce96379de7a03cb9 56b0c30a257335afced0a372d9398ac87df80118 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmF4NJUACgkQB8qZga/f
-l8TYhxAAlUVorSTdnhnHMG8i1OQEL5Mai+h9azFzysss0197SnT2fi6pIOC5NCVb
-1Vj9gVmXL+nvins1ou4YAmqcmXDq0yPRUzkaeTMdFb5csRDS+aL2/uAnjTQafxq8
-Zq4Ymx5wtD6H5ygXtoO8i0PgQQCR8pF/HyOIaS52AwNd2MNoro/aH38gietK9l2I
-pLHGwgp96OjoSE30grubvMKcx90nb4rN1FPa8zBf3ZoyNDd68BWELvwYm4iHROpD
-d3/a4NcPQZl3HiII8Yz6Re9enBrBSXfiQp7G1XAA5/MLubi+ZbAdl3CdMp5GJV8B
-vrcXb6C4k7QUU8zKEt8UFg0DJ1v5GWFisbC9N5VBTbr3K4byZ7rOcOqttiFkOTu7
-mzaPIY5mF8zH9cVEFyY7NHbOYwHr7VoFUmZ8SKG7gVXSGsIGviybNoCF4D8OsB8t
-VvAI2pER2GNSj+2aC30T9AHq2/DQNLw4Rovk3I5kuNSR9ZjmnfU/SdbyvXs7Vq7J
-i2JZPRntGCxfdrde8t3F65j8FY9BVzdVa+kMh/RTIC9fmuSBfQnHsdgztE+PyfbO
-OHxWb+lxy2QuswzQyuhNvHckUFBUUjgaw3qdUydvv2KtQM/7mC/ii7jas/bycxqD
-JBsItqq4skjG+LYt9LLm1IHYLh84O8womVfZI87VH2+uGzOp36c=
-=Z6BD
------END PGP SIGNATURE-----
-
---===============2146425218095188290==--
