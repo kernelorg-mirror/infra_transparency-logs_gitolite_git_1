@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3713384979470758829=="
+Content-Type: multipart/mixed; boundary="===============1355561697216962459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Oct 2021 10:59:46 -0000
-Message-Id: <163524598692.18399.10378807851224988353@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 10:59:56 -0000
+Message-Id: <163524599613.18531.9712052859643086106@gitolite.kernel.org>
 
---===============3713384979470758829==
+--===============1355561697216962459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 57bb11328f9ab88571889f4a842859fcdd64d6cb
-    new: 36d935a0a67e4456bd84943319718448c9647675
-    log: revlist-57bb11328f9a-36d935a0a67e.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3f390c5e5609470bf6bad6f98c8880a2fe817e14
+    new: b7aa371344f3dca380c040468c6c4d1d8ae5a8d0
+    log: revlist-3f390c5e5609-b7aa371344f3.txt
 
---===============3713384979470758829==
+--===============1355561697216962459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57bb11328f9a-36d935a0a67e.txt
+Content-Disposition: attachment; filename=revlist-3f390c5e5609-b7aa371344f3.txt
 
 8603caaec98f7a46419a661f306abfaf2f18ec4b mt76: mt7921: fix mt7921s Kconfig
 a88cae727b3e031e1dfd03b5e03eec48f9ef9e6a mt76: mt7921: fix Wformat build warning
@@ -95,5 +95,26 @@ e43b76abf768cb10880282990eca54c10d0ff40c Merge branch 'tcp-receive-path-optimiza
 165f8e82c2f1fee914f43d5288f8bd08c7e0f69e net: qed_ptp: fix check of true !rc expression
 036f590fe5720d964a45533ed04aa3d09c267003 net: qed_dev: fix check of true !rc expression
 36d935a0a67e4456bd84943319718448c9647675 Merge branch 'small-fixes-for-true-expression-checks'
+44f6b79d5541d31d277d3de1112a8087917ed071 net/mlx5: Extend health buffer dump
+18a93cdc9c04030c82f522c31b1c68527f59fd7d net/mlx5: Print health buffer by log level
+795fb23a2b9592368976d7cc61c7bc820782db6e net/mlx5: Add periodic update of host time to firmware
+e61e04f186f2d91d32304dfa89c0b983066a1f5c net/mlx5: Separate FDB namespace
+2d813817bc735c2ad002da3db54177d904f74b87 net/mlx5: Refactor mlx5_get_flow_namespace
+4be654d352a554aceb4c6a83fda52e65cb8d0909 net/mlx5: Create more priorities for FDB bypass namespace
+40584bc3cf6d8741b89dbad8b2de783ec55d559c RDMA/mlx5: Add support to multiple priorities for FDB rules
+79631a611896fbccbc7eeaffb244d91c701662cb net/mlx5e: don't write directly to netdev->dev_addr
+aef656255816d7be6d88d8f02eb3e07ce17fcfaa net/mlx5: SF, Add SF trace points
+d1085d73d0c1f530a7a97bae9dc3b31ffbb2383e net/mlx5: Reduce flow counters bulk query buffer size for SFs
+18e576c8442d7e3051b54e35957de61db8ca7323 net/mlx5: SF_DEV Add SF device trace points
+f2adf3cb1d0e196e78d94fabf1aeec25c1a59fda net/mlx5: Let user configure io_eq_size param
+c1e0177403d80e8d38400ecef26a2548685ea20f net/mlx5: Let user configure event_eq_size param
+b1c45f73e960b38c2e0fecdb0ffedcf096da2dc2 net/mlx5: Let user configure max_macs param
+019a8c22a532960cabaa4054687e7ee5ca481b39 Merge branch 'patchq/434730' into mlx5-queue
+d1f4455a4ed629715e335d4b3f4a1f1c6d2e9746 Merge branch 'patchq/440227' into mlx5-queue
+f50ac76718ae450dfd69fcaa0d4f9bb4e556e6ee net/mlx5: DR, Fix querying vport 0 capabilities
+ce259fb75821fa842d2037f32907071e2564f836 Merge branch 'patchq/435738' into mlx5-queue
+93230c2c91551e9e4d9717c022b882d3877839b7 Merge branch 'patchq/432142' into mlx5-queue
+f77bcad7de06d5c2c4b31098f0d7e46b7c8962cd Merge branch 'patchq/423994' into mlx5-queue
+b7aa371344f3dca380c040468c6c4d1d8ae5a8d0 Merge branch 'patchq/435320' into mlx5-queue
 
---===============3713384979470758829==--
+--===============1355561697216962459==--
