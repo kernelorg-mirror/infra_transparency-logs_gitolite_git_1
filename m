@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0700143499743331738=="
+Content-Type: multipart/mixed; boundary="===============7476650392049335671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Tue, 26 Oct 2021 07:08:02 -0000
-Message-Id: <163523208287.18251.1446627109196447330@gitolite.kernel.org>
+Date: Tue, 26 Oct 2021 07:08:07 -0000
+Message-Id: <163523208736.18321.4058967547858596407@gitolite.kernel.org>
 
---===============0700143499743331738==
+--===============7476650392049335671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6b37b59f9fbf660843d28721a624eacc06f43273
-    new: 32e14e83735eaee6a0d041b75d68f0e830aa9eb4
-    log: revlist-6b37b59f9fbf-32e14e83735e.txt
+  - ref: refs/heads/m68k-queue
+    old: 14e4804d25b7971d6aee21f2047755ad36810138
+    new: 43ad235ab7abc43500d00b8f1718715a3bb7c677
+    log: revlist-14e4804d25b7-43ad235ab7ab.txt
 
---===============0700143499743331738==
+--===============7476650392049335671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b37b59f9fbf-32e14e83735e.txt
+Content-Disposition: attachment; filename=revlist-14e4804d25b7-43ad235ab7ab.txt
 
 3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
 74b7ee0e7b61838a0a161a84d105aeff0d042646 ASoC: fsl_xcvr: Fix channel swap issue with ARC
@@ -285,6 +285,9 @@ c2b43854aad9e52b422e6c6342a1da2261f98fa5 Merge tag 'for-linus' of git://git.arml
 ac8a6eba2a117e0fdc04da62ab568d1b7ca4c8f6 spi: Fix tegra20 build with CONFIG_PM=n once again
 cb685432398122053f3e1dc6a1d68924e5b77be4 secretmem: Prevent secretmem_users from wrapping to zero
 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea Linux 5.15-rc7
-32e14e83735eaee6a0d041b75d68f0e830aa9eb4 Merge tag 'v5.15-rc7'
+72d61b9f58e0da24290482eb3f873e37eef8efdf m68k: muldi3: Use semicolon instead of comma
+6eaf86e20764123b7dbe09bb30e087e51d133d62 m68k: atari: usb: Add ISP1160 USB host controller support
+2fc32d8b7c9215cf83ee5a61917a78fed3e76652 m68k: atari: Update Kconfig.bus help text
+43ad235ab7abc43500d00b8f1718715a3bb7c677 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0700143499743331738==--
+--===============7476650392049335671==--
