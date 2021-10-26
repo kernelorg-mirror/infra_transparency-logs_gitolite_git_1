@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 26 Oct 2021 19:35:36 -0000
-Message-Id: <163527693641.3998.7237607692632764874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 26 Oct 2021 19:39:40 -0000
+Message-Id: <163527718046.5178.1120683843933708520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: a94b5aae2a40b164f1d67c37f466f06cb1398ef0
-    new: 99d0a3831e3500d945162cdb2310e3a5fce90b60
+  - ref: refs/heads/for-next/kspp-misc-fixes
+    old: 8f809b8c862de2fd30b8e63b973f27188f37b5ce
+    new: c96cfbdcacb46c0eeb357af335bf732c60eab869
     log: |
-         99d0a3831e3500d945162cdb2310e3a5fce90b60 bpf: Move BPF_MAP_TYPE for INODE_STORAGE and TASK_STORAGE outside of CONFIG_NET
+         c96cfbdcacb46c0eeb357af335bf732c60eab869 firmware/psci: fix application of sizeof to pointer
          
