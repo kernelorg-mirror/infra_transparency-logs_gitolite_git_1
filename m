@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3037799206456913535=="
+Content-Type: multipart/mixed; boundary="===============8570040800202322052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Oct 2021 09:11:09 -0000
-Message-Id: <163523946953.14981.14863033515543291531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 26 Oct 2021 09:11:17 -0000
+Message-Id: <163523947704.15076.17204769392208250765@gitolite.kernel.org>
 
---===============3037799206456913535==
+--===============8570040800202322052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 0e27be7156407f02a344be0f1303b1ad92d91b93
-    new: fe833f05d3ddb6bdda983464efc44ffe14943431
-    log: revlist-0e27be715640-fe833f05d3dd.txt
+  - ref: refs/heads/queue-next
+    old: 772cc8bbbd31e13fa3895977d4e7b252ed0a7ad8
+    new: 1509d6397cda4cfb36c05d3a0df94c732219d9df
+    log: revlist-772cc8bbbd31-1509d6397cda.txt
 
---===============3037799206456913535==
+--===============8570040800202322052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e27be715640-fe833f05d3dd.txt
+Content-Disposition: attachment; filename=revlist-772cc8bbbd31-1509d6397cda.txt
 
 a0c8c3372b41002e65dc109d431eb50da002e728 fddi: defza: add missing pointer type cast
 08c181f052ed8e89beb84f61c1e8cb87f199dd8d bluetooth: use eth_hw_addr_set()
@@ -73,5 +73,7 @@ f09d6e1edc18a29078110811121e4d133681fb0c Merge branch 'mlx5-vdpa' into net-next
 5c13e4e4ad4ca4cb1f96d7e8bede3d44c4d007a9 Merge branch 'mlx5-queue' into net-next
 a6a92f44145a98d166dfaa843e0758328fc45232 Merge branch 'mlx4-for-net' into net-next
 fe833f05d3ddb6bdda983464efc44ffe14943431 Merge branch 'mlx5-for-net' into net-next
+5be48be1a5de23e38de2ea7ec97b411a7766c0a9 Merge branch 'net-next' into queue-next
+1509d6397cda4cfb36c05d3a0df94c732219d9df Merge branch 'testing/rdma-next' into queue-next
 
---===============3037799206456913535==--
+--===============8570040800202322052==--
