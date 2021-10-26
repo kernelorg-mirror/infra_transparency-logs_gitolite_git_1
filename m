@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4399205040510069980=="
+Content-Type: multipart/mixed; boundary="===============2146425218095188290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 26 Oct 2021 17:00:48 -0000
-Message-Id: <163526764857.1030.8267526309274950367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Tue, 26 Oct 2021 17:02:52 -0000
+Message-Id: <163526777287.1747.8582637653274563175@gitolite.kernel.org>
 
---===============4399205040510069980==
+--===============2146425218095188290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
+user: jberg
+git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: bc136c52016bb742ce5a64cec4a30e12b9d1d5f1
-    new: 64c647bb4fd941cc7d13bddccd3fc9bedf896eda
+    old: 2f73a4212ab4a86db910ba07ce96379de7a03cb9
+    new: 56b0c30a257335afced0a372d9398ac87df80118
     log: |
-         64c647bb4fd941cc7d13bddccd3fc9bedf896eda drop usbnet-sanity-check-for-maxpacket.patch from everywhere
+         56b0c30a257335afced0a372d9398ac87df80118 mac80211_hwsim: Fix spelling mistake "Droping" -> "Dropping"
          
 
---===============4399205040510069980==
+--===============2146425218095188290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635267645 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1635267644-0397c07b81176669fd318a71e76d872534f1625b
+pusher 7BF9099A 1635267733 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
+nonce 1635267733-f2ae2cd81afa794e1ab05628d76aff68fa6e065a
 
-bc136c52016bb742ce5a64cec4a30e12b9d1d5f1 64c647bb4fd941cc7d13bddccd3fc9bedf896eda refs/heads/master
+2f73a4212ab4a86db910ba07ce96379de7a03cb9 56b0c30a257335afced0a372d9398ac87df80118 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4ND0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sFoP/R22ykOtWv5E2oGMEKlG
-DP/GHt6jFwQ5XS0U/+13h5bT9o0kG+kFPzQVXjrtd6fW1TNR3EB2+joSaAGyKNRb
-IwNjfXodTqE0yWwviYh32UlfcsadE2k3BGwBua+fBWgKC3gt4iDMorgajnENAgpY
-NlQs9Q7Dc6Mk8Af7MI7sc7jIHlWsLWU/bmpguwVxvxcv/tqqfSY959iVRmIZ+W+k
-EgakTP5pjSvIYRTAwrkA2cGQssS+/KJqjfbz0KRFu+WtKQfU89HneNDPzxl7FjcU
-EjZV3ItrGLeo1KwLJP8iqPcQGIsa7qhBm7IH7x1SF1RHiGbloPzGqoPBZYrjxvZM
-+VqaTUZs0/a8qUPutwKx2zaolC/ybjz59LTeLp+glvI+K24jDk7Qdvq8/uTIsXh4
-bimMwUeZ/uFIpIQz7X6XEts4bNa2bJ6H84xqIYnm+ddAazx7UHYv5lWrdN7XCWAi
-hWWt2ibsJuCSkfgpZQxsmJscuIGEqalaZqZdMae3SPkKhAL34yW7Bkw1zx0rLZFq
-CdI6oVENFPSnbJIVVTac6aLGiqIUQH6/g2oaoFnZNfzkLjnfw+mYpiXeOkJhC9Hj
-Cs4Wjj69V2XA8PnWChXJTAwcocC9p+LFNShWxriJ4dNkemOTW7+dPSRZ0d+uNlt9
-+ytF0ovo/S8PhGF9af89plZL
-=HJ8d
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmF4NJUACgkQB8qZga/f
+l8TYhxAAlUVorSTdnhnHMG8i1OQEL5Mai+h9azFzysss0197SnT2fi6pIOC5NCVb
+1Vj9gVmXL+nvins1ou4YAmqcmXDq0yPRUzkaeTMdFb5csRDS+aL2/uAnjTQafxq8
+Zq4Ymx5wtD6H5ygXtoO8i0PgQQCR8pF/HyOIaS52AwNd2MNoro/aH38gietK9l2I
+pLHGwgp96OjoSE30grubvMKcx90nb4rN1FPa8zBf3ZoyNDd68BWELvwYm4iHROpD
+d3/a4NcPQZl3HiII8Yz6Re9enBrBSXfiQp7G1XAA5/MLubi+ZbAdl3CdMp5GJV8B
+vrcXb6C4k7QUU8zKEt8UFg0DJ1v5GWFisbC9N5VBTbr3K4byZ7rOcOqttiFkOTu7
+mzaPIY5mF8zH9cVEFyY7NHbOYwHr7VoFUmZ8SKG7gVXSGsIGviybNoCF4D8OsB8t
+VvAI2pER2GNSj+2aC30T9AHq2/DQNLw4Rovk3I5kuNSR9ZjmnfU/SdbyvXs7Vq7J
+i2JZPRntGCxfdrde8t3F65j8FY9BVzdVa+kMh/RTIC9fmuSBfQnHsdgztE+PyfbO
+OHxWb+lxy2QuswzQyuhNvHckUFBUUjgaw3qdUydvv2KtQM/7mC/ii7jas/bycxqD
+JBsItqq4skjG+LYt9LLm1IHYLh84O8womVfZI87VH2+uGzOp36c=
+=Z6BD
 -----END PGP SIGNATURE-----
 
---===============4399205040510069980==--
+--===============2146425218095188290==--
