@@ -1,62 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7667383921185344805=="
+Content-Type: multipart/mixed; boundary="===============0119860962770810195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 26 Oct 2021 15:57:40 -0000
-Message-Id: <163526386044.25146.9211453842283678740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 26 Oct 2021 16:14:03 -0000
+Message-Id: <163526484399.1794.7658193788120701411@gitolite.kernel.org>
 
---===============7667383921185344805==
+--===============0119860962770810195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/topic-nfsd-tracepoints
-    old: dc8d3093f466381a1de90b11ca56a1adfad84ce3
-    new: af45666fd62535dea7632fca7ae6e3b1ff6a9be2
-    log: revlist-dc8d3093f466-af45666fd625.txt
+  - ref: refs/heads/x86/fpu
+    old: c341f1fe1543dfaf94916cef298aa60be545235f
+    new: 93175ec299f8418b415da8aabd9cc97506d49ab7
+    log: revlist-c341f1fe1543-93175ec299f8.txt
 
---===============7667383921185344805==
+--===============0119860962770810195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc8d3093f466-af45666fd625.txt
+Content-Disposition: attachment; filename=revlist-c341f1fe1543-93175ec299f8.txt
 
-465b58abac708ae25b3c798d246d1982b6e01c41 NFSD: Fix misuse of rcu_assign_pointer
-6a1589f6248f956fab60ffc7a6deb34e792a4575 NFS: Move generic FS show macros to global header
-55e94d486de09b0d3df991ce0823319b4bc5c7b0 NFS: Move NFS protocol display macros to global header
-5f00b85635e634643ef75e981cda69d746e5b5af SUNRPC: Remove low signal-to-noise tracepoints
-4694d6b080169d8e7124321f93c558422a8e0dc4 SUNRPC: Record endpoint information in trace log
-1b5e9d5233c6eae1d27512f6f9dec9fcd127d3a3 SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
-3677d588b3477008194e4a3adf9046d8af71e188 NFSD: Combine XDR error tracepoints
-e1ace820ce11dbd5065b3a310cd6cf306f5cde41 NFSD: Remove NFSD_PROC_ARGS_* macros
-99c921387703c30f01c5509752539366ee3e3147 NFSD: Display NFS procedure during XDR failure
-27e41ce1d73bce5548f5777a21e03cb75814de40 NFSD: Rename XDR error tracepoints
-bebccf09bc113142b49227b78d08ca9cc346d781 NFSD: Remove NFSD_PROC_RES_* macros
-7d4a28df1ba5eb54dc9d79967dd46ab3b92a9945 NFSD: Update tracepoints that report COMPOUND XDR errors
-354fbbf381ef4a196d267c6fb6d508d4fd0cfc05 trace: Add show_fs_file_type() macro
-63ef9c9eb37677ee2b6b2ef2573e3378755415e4 NFSD: Update the nfsd_dirent() tracepoint
-e7ba06fb90c1349b096893cbc04c76508a1b7fd5 NFSD: Add tracepoint to record NFSv3 filename3 arguments
-dfcccbd5cc8099db6009d1dca0f774a89c8089ad NFSD: Add tracepoints to record NFSv3 fh3 arguments and results
-8e5edf99c337f05f26cc6192fd00a8dbcce48c85 NFSD: Add tracepoint to record NFSv3 attrstat results
-a8fca4265015b10cd9e413e0a62115dd365a9c10 NFSD: Add tracepoint to record NFSv3 nfsstat3 results
-89386c567d60de712fd951389f7aca51dcf32ef5 NFSD: Add tracepoint to record NFSv3 SETATTR arguments
-6996299327088525746c33859efb83888d22406e NFSD: Add tracepoints to record NFSv3 wcc_data results
-226d5c1640595b5f99118cc9afaa79c8002bed42 NFSD: Add tracepoint to record NFSv3 post_op_attr results
-f73fe05df910fc66419eea658be3c726c8a42a56 NFSD: Add tracepoints to record NFSv3 ACCESS arguments and results
-64b156513d3ef5ceb98724614fb389303d288757 NFSD: Add tracepoints to record NFSv3 READ arguments and results
-da28503b2718bc9a52785b85fbef14ce724291c4 NFSD: Add tracepoints to record NFSv3 WRITE arguments and results
-70774f3281a6a483188f709e1ce2e6404d4392d0 NFSD: Add tracepoints to record NFSv3 COMMIT arguments and results
-679d2a0407a768e0425d2ee1bb56efa64bddbc05 NFSD: Add a tracepoint to record NFSv3 SYMLINK arguments
-37155213146e4d1404d344f066cc7172ce385308 NFSD: Add tracepoints for NFSv3 READDIR arguments and results
-a6f31177ce9f33b0a499acad73e1861270a830af NFSD: Add tracepoint for NFSv3 READLINK result
-4c5029123315746042a08eabd454467e8d992beb NFSD: Add tracepoint to record NFSv3 FSSTAT result
-4da666c9c8c6a68deb57df1c31d0e84905bc06a8 NFSD: Add tracepoint to record NFSv3 FSINFO result
-4833fbe92b7a1fd87b925124e544d45abc5a8c19 NFSD: Add tracepoint to record NFSv3 PATHCONF result
-af45666fd62535dea7632fca7ae6e3b1ff6a9be2 NFSD: Remove NFSv3 proc dprintk call sites
+69f6ed1d14c6bcf712f4bb22a231c15eeab401e7 x86/fpu: Provide infrastructure for KVM FPU cleanup
+d69c1382e1b73a0496a70872a035ca2b22d074e5 x86/kvm: Convert FPU handling to a single swap buffer
+582b01b6ab2714a0a4d554cea7f0d4efeaa2154d x86/fpu: Remove old KVM FPU interface
+1bdda24c4af64cd2d65dec5192ab624c5fee7ca0 signal: Add an optional check for altstack size
+3aac3ebea08f2d342364f827c8979ab0e1dd591e x86/signal: Implement sigaltstack size validation
+84e4dccc8fce20b497388d756e12de5c9006eb48 x86/fpu/xstate: Provide xstate_calculate_size()
+6f6a7c09c4065a5b140194dfcfe4cf7104fec4d2 x86/fpu: Add members to struct fpu to cache permission information
+c33f0a81a2cf3920465309ce683534751bb86485 x86/fpu: Add fpu_state_config::legacy_features
+db8268df0983adc2bb1fb48c9e5f7bfbb5f617f3 x86/arch_prctl: Add controls for dynamic XSTATE components
+23686ef25d4ae81bc12fe3994d1905191fcf71f8 x86/fpu: Add basic helpers for dynamically enabled features
+4b7ca609a33dd8696bcbd2f1ad949e26a591592f x86/signal: Use fpu::__state_user_size for sigalt stack validation
+53599b4d54b9b8dda1d537a558946869d2acbddc x86/fpu/signal: Prepare for variable sigframe length
+9e798e9aa14c45fb94e47b30bf6347b369ce9df7 x86/fpu: Prepare fpu_clone() for dynamically enabled features
+e61d6310a0f80cb986fd2076d432760b3619fb6d x86/fpu: Reset permission and fpstate on exec()
+c351101678ce54492b6e09810ec02efc0df036a9 x86/cpufeatures: Add eXtended Feature Disabling (XFD) feature bit
+dae1bd58389615d401a84aedc38fa075ef8f7de6 x86/msr-index: Add MSRs for XFD
+8bf26758ca9659866b844dd51037314b4c0fa6bd x86/fpu: Add XFD state to fpstate
+5529acf47ec31ece0815f69d43f5e6a1e485a0f3 x86/fpu: Add sanity checks for XFD
+672365477ae8afca5a1cca98c1deb733235e4525 x86/fpu: Update XFD state where required
+783e87b404956f8958657aed8a6a72aa98d5b7e1 x86/fpu/xstate: Add XFD #NM handler
+500afbf645a040a39e1af0dba2fdf6ebf224bd47 x86/fpu/xstate: Add fpstate_realloc()/free()
+70c3f1671b0cbc386b387f1de33b7837e276a195 x86/fpu/xstate: Prepare XSAVE feature table for gaps in state component numbers
+eec2113eabd92b7bfbaf1033fa82dc8eb4951203 x86/fpu/amx: Define AMX state components and have it used for boot-time checks
+2ae996e0c1a38ca57a52438ab9deec6761dcba62 x86/fpu: Calculate the default sizes independently
+db3e7321b4b84b1cb39598ff79b90d1252481378 x86/fpu: Add XFD handling for dynamic states
+2308ee57d93d896618dd65c996429c9d3e469fe0 x86/fpu/amx: Enable the AMX feature in 64-bit mode
+93175ec299f8418b415da8aabd9cc97506d49ab7 Documentation/x86: Add documentation for using dynamic XSTATE features
 
---===============7667383921185344805==--
+--===============0119860962770810195==--
