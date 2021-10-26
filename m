@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 26 Oct 2021 08:07:01 -0000
-Message-Id: <163523562150.23499.12069406509606824749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 26 Oct 2021 08:07:24 -0000
+Message-Id: <163523564434.23696.6218345101301139741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-devel-2021-10-26-v5.15-rc7
+  - ref: refs/heads/renesas-clk-for-v5.17
     old: 0000000000000000000000000000000000000000
-    new: c0c76723a4350552ca5061025583770748d6a5e8
-  - ref: refs/tags/v5.15-rc7
+    new: 29e6f71d7d85b64f0a94fd9be55e5f08afa69e3a
+  - ref: refs/heads/renesas-pinctrl-for-v5.17
     old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
+    new: a14c786382eaafe655d8f84ddc6bc0b477cf0c1a
