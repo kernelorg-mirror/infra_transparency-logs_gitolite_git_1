@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7448871828015942650=="
+Content-Type: multipart/mixed; boundary="===============1422768260489679050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 26 Oct 2021 07:27:31 -0000
-Message-Id: <163523325114.31115.14436979288324006057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 26 Oct 2021 07:46:16 -0000
+Message-Id: <163523437678.10257.11738085001784286393@gitolite.kernel.org>
 
---===============7448871828015942650==
+--===============1422768260489679050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 1bb38d9ce6e86d2d2b7f36767adf5346afc6a814
-    new: d52c10910a7b99970bb18897ca651fbb9b601b2c
-    log: revlist-1bb38d9ce6e8-d52c10910a7b.txt
+  - ref: refs/heads/damon/next
+    old: fc54a21e50c77f3cac258e00fcf5d0e09bdd8981
+    new: fff60a98e314f07ee905ba610a07c06015a845e9
+    log: revlist-fc54a21e50c7-fff60a98e314.txt
 
---===============7448871828015942650==
+--===============1422768260489679050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bb38d9ce6e8-d52c10910a7b.txt
+Content-Disposition: attachment; filename=revlist-fc54a21e50c7-fff60a98e314.txt
 
-0ca9daa979ce590887e0f82992d1a1d79058c7a8 net/mlx5: Extend health buffer dump
-2e151a8654742ece1dd58a75eed719ca127fbdea net/mlx5: Print health buffer by log level
-eebb71d90d3b01c2e746b4a51afa19081a366feb net/mlx5: Add periodic update of host time to firmware
-adb52282eb8bb18dc3367a306bb0883a25da6a4a net/mlx5: Separate FDB namespace
-92ab61ff3dfb0c512347c2ea1d402063661cb7df net/mlx5: Refactor mlx5_get_flow_namespace
-7786316eff7004176db5fd2060ab4acbafde9d09 net/mlx5: Create more priorities for FDB bypass namespace
-b5adc08bbdb75ab725a590ffef9ffa7c82cea151 RDMA/mlx5: Add support to multiple priorities for FDB rules
-326ca00bdc8407ec6516b22dea4d3a78fa0f524e net/mlx5e: don't write directly to netdev->dev_addr
-7133cadce086b14768c1f9d25f5937d010b66f91 net/mlx5: SF, Add SF trace points
-8baf4f8efb6082101f48a1c6cddc2b9d3ec4f4c8 net/mlx5: Reduce flow counters bulk query buffer size for SFs
-42207b6cdb60874596df48a9b3f3cf584c5f9acf net/mlx5: SF_DEV Add SF device trace points
-2ed36e702c118fec0951bc68f99752b022519363 net/mlx5: Let user configure io_eq_size param
-e672a4e7273a93722653748c37f6d8e637a023fa net/mlx5: Let user configure event_eq_size param
-4a1a7ac814b18302238f82c09b5e698e9a72e1d5 net/mlx5: Let user configure max_macs param
-3432a94270e5fec19832cfee02f457ea7ac2b8af Merge branch 'patchq/434730' into mlx5-queue
-4ad98ba9a6d54e992fc45e1e0f86d4a531bd381c net/mlx5: DR, Fix querying vport 0 capabilities
-8e0ee8b03958844b3a1dcfe0d84221c3b34fed86 Merge branch 'patchq/440227' into mlx5-queue
-54b4da51f9a6a22dbdb5538f5abc8cb20d7d3dd4 Merge branch 'patchq/435738' into mlx5-queue
-482de280fcd2a8fb1b6b2ea9442d8019e6360769 Merge branch 'patchq/432142' into mlx5-queue
-9eb2642c6a607b56cb6ff6cfad0571c3e8a454cf Merge branch 'patchq/423994' into mlx5-queue
-d52c10910a7b99970bb18897ca651fbb9b601b2c Merge branch 'patchq/435320' into mlx5-queue
+608a6585db4029bc46957cbfe3e455335133c87c for_damon_hack: Add files for DAMON hacks
+7330f4817528b6d50e1c3ce55cb5f408a0ee57a4 (NOT-FOR-POSTING) Patches in -mm but mmotm
+77ce9567ff6cbb9f1660f29fc480a32220e67dde Docs/admin-guide/mm/damon/start: Fix wrong example commands
+815dddbba15a6cbf8f08ae5ddfdef39bb6281c86 Docs/admin-guide/mm/damon/start: Fix a wrong link
+1775b70c88606c0116fc0c82594d01935507eea5 Docs/admin-guide/mm/damon/start: Simplify the content
+712a12c6967e016978fad60ddbd4552f4c174832 Docs/admin-guide/mm/pagemap: Wordsmith page flags descriptions
+295ff0e6250582d89610ea171ffc0398abaaf836 selftests/kselftest/runner/run_one(): Allow running non-executable files
+ecaee580b2da4c7330e24486e91d3cded9c0d74e (NOT-FOR-POSTING) DAMON patches reviewed by SJ but not in -mm starts
+7770ff5846c782120fdaa3549822e7e0f6543f20 mm/damon: Fix missing-prototype build warning for 'damon_pa_apply_scheme()'
+15d892a2809c4ecb7eb377eac66b63a6d4b03d7f mm/damon: fix error return code in damon_reclaim_turn()
+97f27537fed4639f1f3d1ce4d4c2a561c217d114 (NOR-FOR-POSTING) DAMON recording implementation starts
+00ba534aa946c0f537514088093b6f19d76c7786 mm/damon/dbgfs: Implement recording feature
+114659ac7afcddc0f57fd3d73436819aa8aad606 mm/damon/dbgfs-test: Implement kunit tests for the record feature
+14ede370cc048441dd4b2f322bd195872c3dd43f selftests/damon: Test recording feature
+d8fbf9870673fb6d9babfb2da5f062a98398e5d6 Docs/damon/usage: Update for the record feature
+a467e4af90e5976b88d430a46cc5b0be3f048803 (NOT-FOR-POSTING) More not-yet-posted commits
+4cb52ca378a9d346925fb2a4c1a1112f27be5116 mm/damon/paddr: Separate commonly usable functions
+9833d07e8c8d36294f6ffc3e3f35dd84c4ec11cf mm/damon: Introduce arbitrary target type
+9311eb8c3274c7c9187ec76995038d27eb17e1f0 mm/damon: Implement primitives for page granularity idleness monitoring
+e1561784529117800eadbff4daae911bc59a48de tools: Introduce a minimal user-space tool for DAMON
+170e44b6caf753613479e5b23913c8123d01e3c0 tools/perf: Integrate DAMON in perf
+2df52770fd809034edf2a7f2c525a2b85a500d8d (drop) mm/damon: Add debug code
+e69c17f5f6d9f04083ac24434847e479ddefaadf ksummit_2021_demo/mm/damon: Export DAMON functions for ksummit live coding
+85564b3f6cc634cb19ebbf1a535efb35d11952a6 ksummit_2021_demo: Implement backup DAMON application modules for ksummit21 live coding
+fff60a98e314f07ee905ba610a07c06015a845e9 ksummit_2021_demo: Add the live-coded code
 
---===============7448871828015942650==--
+--===============1422768260489679050==--
