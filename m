@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 26 Oct 2021 19:39:49 -0000
-Message-Id: <163527718901.5299.5069795873761411746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 26 Oct 2021 19:40:10 -0000
+Message-Id: <163527721041.6845.17241671333876197338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 99d0a3831e3500d945162cdb2310e3a5fce90b60
-    new: 54713c85f536048e685258f880bf298a74c3620d
+  - ref: refs/heads/for-next/kspp
+    old: e14664e6a4ec1bd4394ee2016513c1ea2624ac47
+    new: ed6a0ee336c7ecb5f5aff7b6f17f1999dbd00cba
     log: |
-         54713c85f536048e685258f880bf298a74c3620d bpf: Fix potential race in tail call compatibility check
+         c96cfbdcacb46c0eeb357af335bf732c60eab869 firmware/psci: fix application of sizeof to pointer
+         ed6a0ee336c7ecb5f5aff7b6f17f1999dbd00cba Merge branch 'for-next/kspp-misc-fixes' into for-next/kspp
          
