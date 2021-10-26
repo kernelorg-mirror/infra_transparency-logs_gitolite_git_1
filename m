@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Tue, 26 Oct 2021 11:32:26 -0000
-Message-Id: <163524794696.7119.11956669699432552352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 26 Oct 2021 11:40:54 -0000
+Message-Id: <163524845458.12374.11276563289621051046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: 5f6dedfb86d616a7f340e2627f4bbc1e58b63e15
-    new: 1c66260df6664a5751644cbfc6ab9dcadf1d90c1
+    old: da554076adc3c6362368b391198bb94c96c635d2
+    new: 33bff2efaf29f2d25369bc14332c01809379d584
     log: |
-         d64a37b9bf4609444161a73cf8a48b17684b0229 Assemble: apply sysfs rules
-         1c66260df6664a5751644cbfc6ab9dcadf1d90c1 Fix 2 dc stream buffer
+         7cf72ba7005fd4ad0284d47ac3ac8f2a69fdaf87 Revert "dt-bindings: pinctrl: bcm4708-pinmux: rework binding to use syscon"
+         5ba56fab8e21a2130e6d776069ae7648fbbc78fd dt-bindings: pinctrl: brcm,ns-pinmux: drop unneeded CRU from example
+         9dccab709bb6c4483d391ff91277f5951e75025d Merge tag 'pinctrl-v5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         33bff2efaf29f2d25369bc14332c01809379d584 Merge tag 'v5.15-rc7-dts-raw'
          
