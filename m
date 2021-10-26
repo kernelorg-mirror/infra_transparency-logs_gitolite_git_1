@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 26 Oct 2021 02:08:58 -0000
-Message-Id: <163521413879.23468.11293581486152304864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 26 Oct 2021 02:10:46 -0000
+Message-Id: <163521424674.25476.6336100989722841297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/tpmdd-next-v5.16
-    old: 0000000000000000000000000000000000000000
-    new: 4a58acf4baac08a2c2250c9e0a6521e0e3f3a386
+  - ref: refs/heads/master
+    old: f7a1e76d0f608961cc2fc681f867a834f2746bce
+    new: 759635760a804b0d8ad0cc677b650f1544cae22f
+    log: |
+         759635760a804b0d8ad0cc677b650f1544cae22f mlxsw: pci: Recycle received packet upon allocation failure
+         
