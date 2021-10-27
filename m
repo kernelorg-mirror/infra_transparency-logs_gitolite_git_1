@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6652025003792721083=="
+Content-Type: multipart/mixed; boundary="===============6340177346591518139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 27 Oct 2021 17:28:13 -0000
-Message-Id: <163535569348.22964.15823662049034002400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 27 Oct 2021 17:28:20 -0000
+Message-Id: <163535570049.23064.13487785163390658961@gitolite.kernel.org>
 
---===============6652025003792721083==
+--===============6340177346591518139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.15
+  - ref: refs/heads/asoc-5.15
     old: 5ba8ecf2272d34de9cd2271a0ac12f5f615ef7aa
     new: 5d03907bbf9ccf10e0d2cfb4f4d312b7cc4274f4
     log: |
          5d03907bbf9ccf10e0d2cfb4f4d312b7cc4274f4 ASoC: meson: t9015: Add missing AVDD-supply property
          
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: d7a8940dcdab71a197e8646b02af289f1e3977e3
     new: 1dcc81d95b910dc404c40ff6101bfa2520a3528e
     log: revlist-d7a8940dcdab-1dcc81d95b91.txt
 
---===============6652025003792721083==
+--===============6340177346591518139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635355691 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1635355690-4f52cb59bdb059244bbafcf02695fd804cfadc3a
+pusher C3F436CA30F5D8EB 1635355698 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1635355697-8e9160baf31354c822d1b5671bba38808bdd6420
 
-5ba8ecf2272d34de9cd2271a0ac12f5f615ef7aa 5d03907bbf9ccf10e0d2cfb4f4d312b7cc4274f4 refs/heads/for-5.15
-d7a8940dcdab71a197e8646b02af289f1e3977e3 1dcc81d95b910dc404c40ff6101bfa2520a3528e refs/heads/for-5.16
+5ba8ecf2272d34de9cd2271a0ac12f5f615ef7aa 5d03907bbf9ccf10e0d2cfb4f4d312b7cc4274f4 refs/heads/asoc-5.15
+d7a8940dcdab71a197e8646b02af289f1e3977e3 1dcc81d95b910dc404c40ff6101bfa2520a3528e refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF5jCsACgkQJNaLcl1U
-h9D5Twf+JlQKk3Qp8XHCoxm4xk63iuW7vN+h3IyaD4IxhdYojnWx6fGiW9q1KvqT
-cxmzK+r6Kf3D8iLp3tNi7Vqd6NpMpxCrUW+cQvAWOspdsQzoGl0BKIOlS78rupzw
-h0pvbbq1cQQlzDspOZpRu589rtHdKHOxZh16cAxz8bR5Ahos8XVfg+ZzQ27egJ4H
-2glfe/wsE5VycWsW9hoiOphhf4n2LqP7s8yvOHih3P2FFN6lLVWi+f6H99QuyAYe
-3vdZ9uGPYUWYOLboUc1eHe6NAMqROHlvmXC2rbvXMnZOqJ8k96H64FvsZNsfOWGk
-FH0a4psfnBIYffr3+RX1Pax6edXRtw==
-=tN/C
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF5jDIACgkQJNaLcl1U
+h9CeOAf+PnPORwE+0Inctb37EvmQFtdPiB1HsS0bzi6zsAAlpGaq1kasPszfQ9oz
+hRdcESXjca+nn4WdfxuDaRUjQyjijeGCeAZ8v417D0n2WgXT3IEW/B1c51LNJ4Mm
+TMlVXrkOVD6HMnODaufV4pE+jLImxkdzhXT8xjAkqm67wz3U3umVPUQoBitIh2Xm
+pu0arD/oZs/r6cLhLHSyx7eaO7tCCMEX6p6u4NYyWQFwfmbDaramcSh1c8Vij6pu
+d5EGyu9bvBAFJCPKQlAbFy6EyRQPcmPGukBUNJ3S48TrgeOSr7wfqkSHT/5vBvQ5
+S/QRAm3NtAtsP7jGtC/wjfHgp+5YRQ==
+=sunS
 -----END PGP SIGNATURE-----
 
---===============6652025003792721083==
+--===============6340177346591518139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ fdde18b9773636cc5866ccd8f2093e1cf0022dea ASoC: amd: acp: Fix return value check 
 4bff619222a75ed1a51f6d94de9146b8ed5733d1 Merge series "Make genaral and simple for new sof machine driver" from David Lin <CTLIN0@nuvoton.com>:
 1dcc81d95b910dc404c40ff6101bfa2520a3528e ASoC: amd: acp: fix Kconfig dependencies
 
---===============6652025003792721083==--
+--===============6340177346591518139==--
