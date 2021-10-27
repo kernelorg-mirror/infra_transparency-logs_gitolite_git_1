@@ -1,81 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4406173366182314300=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Oct 2021 12:45:42 -0000
-Message-Id: <163533874255.14632.3404202824769959489@gitolite.kernel.org>
-
---===============4406173366182314300==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 27 Oct 2021 12:52:21 -0000
+Message-Id: <163533914162.11131.2898569179291238128@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/tags/v4.14.253
-    old: 0000000000000000000000000000000000000000
-    new: d63439199dcc19ffe85275613814d23d008d6c64
-  - ref: refs/tags/v4.19.214
-    old: 0000000000000000000000000000000000000000
-    new: 447c50562c7582832d2b8462b1cdff1f62c88828
-  - ref: refs/tags/v4.4.290
-    old: 0000000000000000000000000000000000000000
-    new: 8222a2e259d8f29e361bc13f87419ac857607ce6
-  - ref: refs/tags/v4.9.288
-    old: 0000000000000000000000000000000000000000
-    new: 793ef462e5e2df366be7926f8d8f6faa3058e573
-  - ref: refs/tags/v5.10.76
-    old: 0000000000000000000000000000000000000000
-    new: 8f2c97c909946b6a494d84092904460ad14b2e8e
-  - ref: refs/tags/v5.14.15
-    old: 0000000000000000000000000000000000000000
-    new: 0677d81ffe841e90a003a1548ba6d0d4a89e7fe2
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
-  - ref: refs/tags/v5.4.156
-    old: 0000000000000000000000000000000000000000
-    new: fed74f577ecd189fac88d6f70bf923196ca63ab5
-
---===============4406173366182314300==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635338740 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1635338740-e7efb9651453bc0952a2e4c6add0216ef2f0e447
-
-0000000000000000000000000000000000000000 d63439199dcc19ffe85275613814d23d008d6c64 refs/tags/v4.14.253
-0000000000000000000000000000000000000000 447c50562c7582832d2b8462b1cdff1f62c88828 refs/tags/v4.19.214
-0000000000000000000000000000000000000000 8222a2e259d8f29e361bc13f87419ac857607ce6 refs/tags/v4.4.290
-0000000000000000000000000000000000000000 793ef462e5e2df366be7926f8d8f6faa3058e573 refs/tags/v4.9.288
-0000000000000000000000000000000000000000 8f2c97c909946b6a494d84092904460ad14b2e8e refs/tags/v5.10.76
-0000000000000000000000000000000000000000 0677d81ffe841e90a003a1548ba6d0d4a89e7fe2 refs/tags/v5.14.15
-0000000000000000000000000000000000000000 46d7e6997a768a578d08ddf53f65e779dd1b1776 refs/tags/v5.15-rc7
-0000000000000000000000000000000000000000 fed74f577ecd189fac88d6f70bf923196ca63ab5 refs/tags/v5.4.156
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF5SfQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TK0P/iKPCWZMrppU35y2T3SU
-giXqnJaP7jOa11H+gqH3M6cx/omRz8qw0dGxKx4uzIPAOZbCdH83d1OBq/qhI4+8
-zghWAjTYJuGH7646qI8OCPa+0VRAD9HY2HknXAjLbFuNxkeTnQ+FP9t2CEukk5PH
-o/cE6d5Pn/M+tt/evt1S8bDaA67WyfqHgxtTJjmyl7SrvOgnkdMzjTY8GJ0WE214
-DOQLL6fy1WUMV/S1potf0K0Bvc2+CW2OL1TW0HiDBe2osd5mQ6OkOyUMrupF8ORT
-odpOW8YwGaU8xaevIrRg5Nc4GlA2yLJaLJ66zpJTKFuWi8Iwwcb/KWw5SoPeb/AQ
-cIWsnL1CFgGq8jdcX1LpgSOzMGfKRjwutbijy+pPbGpFt9RkKtCY/gRtxwCOAYt7
-qM2upbPG4z53MKbgCfJL9DYLJDeZX86KppoOzcdGyeCtuSpaPVwCSeKPfQ2HKAs3
-uL5R3fXDY/Zq4fAXttwoz0PAfWiTrZGZNQYZ4mipdFIMHYELdCw53M3PRIGebLFY
-tvQpyU4YPOeKOlWtwu9GwZ1mD/h6tw/524AMAxs8gSGManoWpQg5zNxiXGsvNzpi
-d4zNe0W0Uxx7KechIju37XDnmyDg6Xc8YBfl5GCQ3SPj49hItQ4SN40EwRnIOdjw
-cqwe4y9qwM8IKAfpmxiI5mUu
-=egL7
------END PGP SIGNATURE-----
-
---===============4406173366182314300==--
+  - ref: refs/heads/for-next
+    old: 911a81c9c7092bfd75432ce79b2ef879127ea065
+    new: e058953c0ed18b5d2e125edec1cb6a258aa52446
+    log: |
+         97ad8c8c719d0f7fbf3e828be7e99121b4b05b1f RDMA/mlx5: fix build error with INFINIBAND_USER_ACCESS=n
+         10f7b9bc85ec2421c46588732ea72a58c00d0926 RDMA/ipoib: Use dev_addr_mod()
+         50693e66fd3f089851c23a3b03bb6d6680fbdfd3 RDMA/mlx5: Use dev_addr_mod()
+         fd92213e9af3b8e5cb3b4d3bf925c9baafb46c9e RDMA: Constify netdev->dev_addr accesses
+         86479f8a3fc72df53bb07fe2f26acbd249baebfe RDMA/irdma: Remove the unused spin lock in struct irdma_qp_uk
+         e058953c0ed18b5d2e125edec1cb6a258aa52446 RDMA/qedr: Remove unsupported qedr_resize_cq callback
+         
