@@ -1,79 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8313946014041912379=="
+Content-Type: multipart/mixed; boundary="===============6835407338814076033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 27 Oct 2021 07:47:30 -0000
-Message-Id: <163532085084.31614.10096352667568100495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 27 Oct 2021 07:48:06 -0000
+Message-Id: <163532088657.32019.17963416849023124921@gitolite.kernel.org>
 
---===============8313946014041912379==
+--===============6835407338814076033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea
-    new: d25f27432f80a800a3592db128254c8140bd71bf
-    log: revlist-3906fe9bb7f1-d25f27432f80.txt
+    old: b896fef17af85ff47e5b070dd681cc14fedf8f52
+    new: 42545dde9ddd29d8b4e4d1bf79b225b0bf0c94bd
+    log: revlist-b896fef17af8-42545dde9ddd.txt
+  - ref: refs/tags/ath-202110270747
+    old: 0000000000000000000000000000000000000000
+    new: 42545dde9ddd29d8b4e4d1bf79b225b0bf0c94bd
 
---===============8313946014041912379==
+--===============6835407338814076033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b896fef17af8-42545dde9ddd.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635320849 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1635320848-9f5806545d099a788722761a6978e749dae5d57f
+8a27ca39478270e07baf9c09aa0c99709769ba03 wcn36xx: Correct band/freq reporting on RX
+2371b15f8eeb5fb2c5f323ad4d4ea221277ac21e wcn36xx: Enable hardware scan offload for 5Ghz band
+a224b47ab36d7db5fb5d410622777fd10794f4cd wcn36xx: Add chained transfer support for AMSDU
+2f1ae32f736ddafa3b3c7a62b8e943ef53b3230f wcn36xx: Treat repeated BMPS entry fail as connection loss
+285bb1738e196507bf985574d0bc1e9dd72d46b1 Revert "wcn36xx: Disable bmps when encryption is disabled"
+960ae77f25631bbe4e3aafefe209b52e044baf31 wcn36xx: Fix HT40 capability for 2Ghz band
+9bfe38e064af5decba2ffce66a2958ab8b10eaa4 wcn36xx: add proper DMA memory barriers in rx path
+113f304dbc1627c6ec9d5329d839964095768980 wcn36xx: Fix discarded frames due to wrong sequence number
+df0697801d8aa2eebfe7f0b7388879639f8fe7cc wcn36xx: Fix packet drop on resume
+43ea9bd84f27d06482cc823d9749cc9dd2993bc8 Revert "wcn36xx: Enable firmware link monitoring"
+cfa962e066ebc423ce0081b8d9833055fc828ce9 Merge branch 'ath-next'
+2b2a9fd620d52061b992bb438f932eeab56a61ad Add localversion-wireless-testing-ath
+42545dde9ddd29d8b4e4d1bf79b225b0bf0c94bd Revert "bus: mhi: Early MHI resume failure in non M3 state"
 
-3906fe9bb7f1a2c8667ae54e967dc8690824f4ea d25f27432f80a800a3592db128254c8140bd71bf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF5BBEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L5cP/i0ItrJiyNrBYCORHHzc
-uTNWBiQpE/KaM9wX2wQHym8y1N9dSQn3iIiigsSaO80I40sm2OASMl5FI3BfDgWM
-XIeDOo2Am44E0Esl+VmlIHEtvq3cGAzoHH0qFeqO+9KQz7B1xU5B8UvzCWUcX1Om
-RBvgnOS4ed1L60k5IeVaiir/SquDBVGcZnsija940SHt3WRNd3gbrGuGueG6A3TJ
-LYE419K09JBKeF+acTke6DoHCFZk+u/+9KVgZf/9toSKEubqaMLnmTh616y86JMd
-JfkJm0IUu3JHSNaFo+lrI3fT+l3SD+9881cwxwUPPADWA9PX0fXaPnw29GTSJWLD
-/2O533+GPuBb7Zw//25Mnmwyqnt2cyJVB9Mgfw4A8bKxOGUo7jnOKYA0ZKSNLFt4
-TolkXVDQj9Oi8UEOCs7hL4r/n0mmMwZCN8ODypIC66muxQRKaaxxRaKHUQIgHD5g
-1LXbvU8+Bkj4j0iFwC4/hJ2JBHzLT8Glnv8tnYiLUG11bfvkffuy1uZo6dmgV0vw
-ApTlEbUts8AonPmbo6tIKkXv7J3mRD3EXqaetgz2O7RvCAF14WGPxVQOzg+AcQ9f
-iUN47ffvUfQyqzzxt22BP+rJ/WUMhWA/Y5UGOnMFmwJgXMXgou5roQbeF0Vul6+k
-BPbB1C4EVFMMt+teaDYsU8J9
-=RZUI
------END PGP SIGNATURE-----
-
---===============8313946014041912379==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3906fe9bb7f1-d25f27432f80.txt
-
-0764e365dacd0b8f75c1736f9236be280649bd18 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
-55dd7e059098ce4bd0a55c251cb78e74604abb57 ARM: dts: sun7i: A20-olinuxino-lime2: Fix ethernet phy-mode
-f33eb7f29c16ba78db3221ee02346fd832274cdd reset: brcmstb-rescal: fix incorrect polarity of status bit
-4af160707d7197d671a5b0ad9899383b6cb7c067 reset: pistachio: Re-enable driver selection
-c045ceb5a145d2a9a4bf33cbc55185ddf99f60ab reset: tegra-bpmp: Handle errors in BPMP response
-3ad60b4b3570937f3278509fe6797a5093ce53f8 reset: socfpga: add empty driver allowing consumers to probe
-82a4f329b133ad0de66bee12c0be5c67bb8aa188 arm64: dts: imx8mm-kontron: Make sure SOC and DRAM supply voltages are correct
-256a24eba7f897c817fb0103dac73467d3789202 arm64: dts: imx8mm-kontron: Set lower limit of VDD_SNVS to 800 mV
-6562d6e350284307e33ea10c7f46a6661ff22770 arm64: dts: imx8mm-kontron: Fix polarity of reg_rst_eth2
-ca6f9d85d5944046a241b325700c1ca395651c28 arm64: dts: imx8mm-kontron: Fix CAN SPI clock frequency
-0b28c41e3c951ea3d4f012cfa9da5ebd6512cf6e arm64: dts: imx8mm-kontron: Fix connection type for VSC8531 RGMII PHY
-72cd4e3bde4e8ad178f9a698996275e20d235b63 Merge tag 'imx-fixes-5.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-e23c7487f5a74f5cc9f7e1090f1d83c3e33ae315 Merge tag 'sunxi-fixes-for-5.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-36b6dcbc1245a3b4dd6bc5cc6b0284c9f05cdddc Merge tag 'reset-fixes-for-v5.15' of git://git.pengutronix.de/pza/linux into arm/fixes
-e091b836a3baee4c8b1423a969589196b88a9e06 Revert "arm64: dts: qcom: sm8250: remove bus clock from the mdss node for sm8250 target"
-f44e8f91b89d42af0dd26f3b299a0c055d5737e0 Merge tag 'qcom-arm64-fixes-for-5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-05d5da3cb11c91c39e607066d3313a6ce621796a MAINTAINERS: Add maintainers for DHCOM i.MX6 and DHCOM/DHCOR STM32MP1
-d25f27432f80a800a3592db128254c8140bd71bf Merge tag 'arm-soc-fixes-5.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-
---===============8313946014041912379==--
+--===============6835407338814076033==--
