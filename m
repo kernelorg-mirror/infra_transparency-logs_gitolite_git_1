@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 27 Oct 2021 22:12:19 -0000
-Message-Id: <163537273901.5311.12227267258467370281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 27 Oct 2021 22:32:30 -0000
+Message-Id: <163537395062.18051.11558064943321553149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 683b33f7e7ec0d827502dd0d8b947bdcfe2df6f1
-    new: ffa7a9141bb70702744a312f904b190ca064bdd7
+  - ref: refs/heads/pci/misc
+    old: fd1ae23b495b3a8a9975e49705b7678f6e2ab67b
+    new: fb2099960d46c486c552807a216aae33819155c9
     log: |
-         ffa7a9141bb70702744a312f904b190ca064bdd7 riscv: defconfig: enable DRM_NOUVEAU
+         fb2099960d46c486c552807a216aae33819155c9 MAINTAINERS: Update PCI subsystem information
          
