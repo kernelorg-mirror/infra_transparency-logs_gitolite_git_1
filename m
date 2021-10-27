@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 27 Oct 2021 18:17:10 -0000
-Message-Id: <163535863016.21095.5967788091867010311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 27 Oct 2021 18:21:28 -0000
+Message-Id: <163535888802.25195.5366886088233595243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 689624f037ce219d42312534eff4dc470b54dec4
-    new: f9d532fc5d6c2577687221869f6e7433eb177ec7
+  - ref: refs/heads/master
+    old: fa210a0036f4f58291f9f647c595f6b6c161fe67
+    new: 81e22bc3effb31d46842ada91fe2b9d6a67fc92c
     log: |
-         f941eadd8d6d4ee2f8c9aeab8e1da5e647533a7d bpf: Avoid races in __bpf_prog_run() for 32bit arches
-         d979617aa84d96acca44c2f5778892b4565e322f bpf: Fixes possible race in update_prog_stats() for 32bit arches
-         61a0abaee2092eee69e44fe60336aa2f5b578938 bpf: Use u64_stats_t in struct bpf_prog_stats
-         f9d532fc5d6c2577687221869f6e7433eb177ec7 Merge branch 'bpf: use 32bit safe version of u64_stats'
+         81e22bc3effb31d46842ada91fe2b9d6a67fc92c Wed Oct 27 06:20:54 PM UTC 2021
          
