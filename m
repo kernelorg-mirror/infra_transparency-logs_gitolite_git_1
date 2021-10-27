@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3145638958720145593=="
+Content-Type: multipart/mixed; boundary="===============5165513393743804429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Oct 2021 03:58:41 -0000
-Message-Id: <163530712197.27788.8644695323611626964@gitolite.kernel.org>
+Date: Wed, 27 Oct 2021 03:58:53 -0000
+Message-Id: <163530713367.27932.14046811032239594169@gitolite.kernel.org>
 
---===============3145638958720145593==
+--===============5165513393743804429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,70 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
-    new: 83c3a7beaef7fd261c190b69f6be6337f251bf16
-    log: revlist-3d8fa78ebd61-83c3a7beaef7.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 948c02596ea58a27515eb90654507d9c8018609b
+    new: 6f4dee462e583b740804a080a226e3210c9ee2b0
+    log: revlist-948c02596ea5-6f4dee462e58.txt
 
---===============3145638958720145593==
+--===============5165513393743804429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1635307115 -0400
+pusher 75C5DE3D 1635307126 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1635307115-9cb147531feec84de6cded1c53a0293f5729952c
+nonce 1635307126-43683539ccf0f76b5bb57062e5f3446b0b1f092c
 
-3d8fa78ebd61aada5d55de6e04beee7fd916c62b 83c3a7beaef7fd261c190b69f6be6337f251bf16 refs/heads/queue
+948c02596ea58a27515eb90654507d9c8018609b 6f4dee462e583b740804a080a226e3210c9ee2b0 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmF4zmsACgkQ7ulgGnXF
-3j0tyBAAs7CNnjjLWa0JvS0Z3RjtPV58fq1Rpx0X/4RuHgJk8b9/E2N3eQ+vsUTV
-Nuy9SNIQz5STJcfUUC+z/3GEfQDfSrD7YPZna1Lid0JtLraPKRPZAYusE/pxC3c0
-c0w23/Lre7Nc1+fMYi3jPhZrCMtAQa1gNXWzCb3Mq72dIpLL3Jyh+gk/uMmIRuzw
-W1xIqZ0UqGWlFA/gPoywG4EXdDsFIJ9zHc/+J9+Co80BgSW4fYUEamrA+hoVNEoN
-/62Ct1/OvhnoQh48LzyIjJ5VIO6SUofE5DYw1DqgFCvPEAXJGRbtnSGMVz8VvGfe
-nNWipdAS8naJrWJqYEwNR53gejMRvasYBSJWxiybemjyfx7SrG0bPhhNc9/OGZcU
-6BA9jWyBeD7yLkWuogT5uV7GtOspa/0W4+1fid35LgrqB6h8W802pIq1CEP0XPkE
-WP/Uu/Vbp/7rtasnHGLNG6uKwYwtBExxPfRKOynZzmHVCQHYJQTKS33qxKpBWAOl
-QKvfIezX4zS9yFlHJre+gKg1TlRWiRu3igtYdRvY26iIiTBg/+4ZehRpKryxMpdk
-BkLD5o2Z4Q0TapbqH91JUP+V8L20tdCpYDrNM3u7z2QqMam3cPpbhIspTMiqs9gd
-YahLf9nlTjztK6Z4dnHqt84kv+GbATQACeyMsDmpSOZg3drehhE=
-=Urih
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmF4znYACgkQ7ulgGnXF
+3j0Jsw//Roq7V2I4Ad+8Mo0VindcaHRUH2bvHeE7CwBXGM6dnJCXuyZ22c+p6pj8
+UaJ/T2ElDyIIyBSyuLal2xXJDNb+i1lRtElIjEY9ctnWSIyhHcGgAvkad5WV32QG
+x1OQgNHTFD9EXvkxou/aLZRhYCqonGoJJ2x2rUp4g+S2XZm6aum06drtGMU0xJRJ
+8cfEnDQ8+ZBXY+tsXtGkdXKJX4bVXhmULPu8g37okBjINuZVSkrLXH3vOwVXGIYj
+LlNTtTHTU8EasCXM0b8+JnGYt8iCB0wC7X42eHGE8wB1Px1npI31sB+xnTVO5y+c
+7sfnXt4cYlJ/M5cEqeo+EH9l1SxmmXV+q3L6bCSrWy7BIT7vUoPsl/ZkhGCk0jVe
+p2Pi+ZnmbIucAjcEM2gFEfJUk/9SF3W7d0CcxOoYUARIpKLbVlYczW/5vXazMi+U
+1AfQZXKCxT0mAlBncpHo3iuPg8eLoX2VVahdFhhZyURmdv3lE/XvtT2RXiqMQcGH
+64AaJsq1NSKR/BAVCM0KQ6LrIIEXbpJ1Lm/ItXITPqb2LGl63cSJ7LRxn/MtMyB4
+9S1cw5oGhH4Qd2nntfurQn944+tJMHO4sPw8vqdOJJdZlMZXfg4CTxtl+540e42Y
+F5h/DIhebGVKsMtelc7AM5PssAOhQ7CiOrnYeygJ80ICaIHqzZE=
+=NFKb
 -----END PGP SIGNATURE-----
 
---===============3145638958720145593==
+--===============5165513393743804429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d8fa78ebd61-83c3a7beaef7.txt
+Content-Disposition: attachment; filename=revlist-948c02596ea5-6f4dee462e58.txt
 
-0ae8f4785107eb7f63ac17d86d894be681427dd2 scsi: mpt3sas: Make mpt3sas_dev_attrs static
-bb4a8dcb4e9498deccaf7b257449044968e514c7 scsi: ufs: mediatek: Avoid sched_clock() misuse
-b6ca770ae7f2c560a29bbd02c4e3d734fafaf804 scsi: ufs: ufshcd-pltfrm: Fix memory leak due to probe defer
-a516074c20261d7a49164206579ef89a04b8fc39 scsi: lpfc: Revert LOG_TRACE_EVENT back to LOG_INIT prior to driver_resource_setup()
-d305c253af693e69a36cedec880aca6d0c6d789d scsi: lpfc: Wait for successful restart of SLI3 adapter during host sg_reset
-7a1dda943630038dbe149268b00eb6a2946d38af scsi: lpfc: Correct sysfs reporting of loop support after SFP status change
-79b20beccea3a3938a8500acef4e6b9d7c66142f scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi() routine
-15af02d8a5852acd07617ad4deb2500ca2e0304c scsi: lpfc: Allow PLOGI retry if previous PLOGI was aborted
-1854f53ccd88ad4e7568ddfafafffe71f1ceb0a6 scsi: lpfc: Fix link down processing to address NULL pointer dereference
-af984c87293b19dccbd0b16afc57c5c9a4a279c7 scsi: lpfc: Allow fabric node recovery if recovery is in progress before devloss
-83c3a7beaef7fd261c190b69f6be6337f251bf16 scsi: lpfc: Update lpfc version to 14.0.0.3
+12b6fcd0ea7f3cb7c3b34668fc678779924123ae scsi: target: core: Remove from tmr_list during LUN unlink
+11682523573c1c37f8d7a6ff1096c456267ebfff scsi: ufs: Revert "Retry aborted SCSI commands instead of completing these successfully"
+91bb765ccab1a067e646c9dbed0b5ed0bb7c39c9 scsi: ufs: core: Improve source code comments
+957d63e77a9ce9ef63b2a6b4d1d84d549e427cd8 scsi: ufs: core: Improve static type checking
+4693fad7d6d4c26fc60ec43fc50f9f3d74e11dbe scsi: ufs: core: Log error handler activity
+267a59f6a5e4e5e3cb5b0f88c4a58a738833d8b3 scsi: ufs: core: Export ufshcd_schedule_eh_work()
+e0022c6c2906ddd85416c793948118d1b6b86b36 scsi: ufs: core: Make it easier to add new debugfs attributes
+7340faae947400907e5e7581444712110d2811d5 scsi: ufs: core: Add debugfs attributes for triggering the UFS EH
+3ad317a1f932f3dfdedfba405f7b2d02154e20e1 scsi: ufs: core: Remove three superfluous casts
+9a868c8ad3f467fe3487e3d96fc0e2f3c90f34f9 scsi: ufs: core: Add a compile-time structure size check
+1ea7d8026300f72344bb574a12667f9543f73348 scsi: ufs: core: Micro-optimize ufshcd_map_sg()
+2c2934c80e139ad4528fda2197c17938249e8eff scsi: elx: Use 'bitmap_zalloc()' when applicable
+bb2ca6b3f09ac20e8357d257d0557ab5ddf6adcd scsi: qla2xxx: Relogin during fabric disturbance
+c98c5daaa24b583cba1369b7d167f93c6ae7299c scsi: qla2xxx: Fix gnl list corruption
+0b7a9fd934a68ebfc1019811b7bdc1742072ad7b scsi: qla2xxx: Turn off target reset during issue_lip
+8e6d5df3cb32dddf558a52414d29febecb660396 scsi: qla2xxx: edif: Fix app start fail
+b492d6a4880fddce098472dec5086d37802c68d3 scsi: qla2xxx: edif: Fix app start delay
+b1af26c245545a289b331c7b71996ecd88321540 scsi: qla2xxx: edif: Flush stale events and msgs on session down
+8062b742d3bd336ca10ab5a1db1629d33700f9c6 scsi: qla2xxx: edif: Replace list_for_each_safe with list_for_each_entry_safe
+6c9998ce4be2adddfb6753a73ade9df1e912550c scsi: qla2xxx: edif: Tweak trace message
+91f6f5fbe87ba834133fcc61d34881cb8ec9e518 scsi: qla2xxx: edif: Reduce connection thrash
+0f6d600a26e89d31d8381b324fc970f72579a126 scsi: qla2xxx: edif: Increase ELS payload
+36f468bfe98c7de7916ab3391ee5dd6fd2549979 scsi: qla2xxx: edif: Fix inconsistent check of db_flags
+9fd26c633e8ab5a291c0241533efff161bbe5570 scsi: qla2xxx: edif: Fix EDIF bsg
+feadce93e668840790d8f7e7bf679779355d66f8 scsi: qla2xxx: Update version to 10.02.07.200-k
 
---===============3145638958720145593==--
+--===============5165513393743804429==--
