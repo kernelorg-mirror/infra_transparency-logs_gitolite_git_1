@@ -1,73 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============4038661685511187392=="
+Content-Type: multipart/mixed; boundary="===============5027270892185535545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 27 Oct 2021 07:23:42 -0000
-Message-Id: <163531942225.26357.735652906941721705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 27 Oct 2021 07:24:06 -0000
+Message-Id: <163531944695.26558.14796184852744374935@gitolite.kernel.org>
 
---===============4038661685511187392==
+--===============5027270892185535545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: dcf7be79c953b17bbdfb72cbcecd0eff0767f831
-    new: 3d34b180323b487cad6f1e7560f1ec653110c899
-    log: revlist-dcf7be79c953-3d34b180323b.txt
+  - ref: refs/heads/tty-next
+    old: 60f41e8484926c2a82fe6fe0585edfccaf1208f5
+    new: 73a3d4f41886e6bd27f8b09c6235539a586e5131
+    log: revlist-60f41e848492-73a3d4f41886.txt
 
---===============4038661685511187392==
+--===============5027270892185535545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635319421 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635319421-87089980017e0a5cd321c2ef730407108f9fd96d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635319446 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1635319445-c648c5218c12b2c408aef5a786afac2581e74dc0
 
-dcf7be79c953b17bbdfb72cbcecd0eff0767f831 3d34b180323b487cad6f1e7560f1ec653110c899 refs/heads/staging-next
+60f41e8484926c2a82fe6fe0585edfccaf1208f5 73a3d4f41886e6bd27f8b09c6235539a586e5131 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4/n0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++RQQAJrsZtZBZ8XzdsijlWvQ
-cNSE/WI4V9g9chfQ6QfMQs8yaIoH95v+aZeU8sUQ22eorDvawvV41D45phPBRCwX
-FH8Vv4NJPqESirBfLVKdwERmC5am7cnomTAZaDQ8YJpQ7Up1KF0dHpSza/8iN8V/
-KsrAdzfXCizG7He1rNSGLkuyJhMhiK1uqcnF9RW4o0juhunRg4EX6bW3+49OlU0p
-rp/10H9nqfsbEVWP3Pcytvr7Q6A1KlwevO3Kp9h4G2Kf2SzA6X9PtRSvgImxBV2e
-8G1PHpjXwOF//1viKLJ3LDBIAThFulqAyP/BOHLr9kbCoK52++p5F8G67vM/nkXg
-CsjnMm+cMWEXQKvKlQahXGEJ84T2q6BkM522mBiP8psRb+HL3kdaosV61oZB+NXb
-iTbo5QaVvYYUOaafWZFvriS2opOZUxGIJoTwa4gwI650lWI3hHZ9Feup9Sm1049m
-YFP2U4TPaz5ZCn7pcg07Hto0VVz/TzCgoWShRmLIGkPne+kaPM9k4xD6QLCP0RyF
-TqKJsxsAb/OKj3TXGRrPw1cyg1UaY0YS/gHLvF+qpn+8dpiApfa6EyjJdUMKpor+
-TxALzSBs1M10RrMPhca7MI58+B4A3D552lBptRypzcr3j+K3QTxTWOe7k8uKPdlO
-JIzyGq11zLO3TzgzLkbzb3ZS
-=Qdbn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4/pYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kR4P/jpaNXXVbnSwQYSfu0bf
+Ufz3UObYK8WmI5o54R9UvD8htP+ZcshDuHdPZOZ2pcPmjzoXdc/FRiBGSK5+CI+r
+jd3B6/Fc+2Is7KX0mp2JME36uzip5qwjzb6mv5m7Mk/GcveqiyBEK8ZCfdHQ5AeL
+V8h/Vh3bGdJEP/aJc7mK/Q/oDPYikv3gAo8Iy/WgxqrrKPTlrVITnl8ZlMRP0rEc
+Ta3xGiDJIQ4zxnJLPjeprRZha+/z/hM0NYAGtiSJu7B04jbJxKpolTHSJplpruWO
+M1C1PIMNtRToIgQeUbtK0tIa0+lgXrds663FqZY5eHge5ozQf4mHwg2DMSO5WKqF
+7cwWj6mNRvX8Hg0yTKGihphfVJKktSSZ4LzW9AszeiZ77E1KuaJAR5Yd5Y3LHRsT
+e+Ceh8ACbPPQ/z8pfoZSIRnmHRhWvGyuEkfiT4XiI6oi1R31WmcD0og+y+cN9jv8
+z5AFWpZGHkvH0a6OVm5u+bepdmGBlrlyTPkNoKmAvgOvBPRgYThvbXikm2TzocJN
+YfLv8ybV2ivSzLh56tZ0wVui8k2/rBiYZsAUpK3avEkM72tVUUIROn8yM83FECEk
+0OYELm0QWGNzG78dQFPtsqmXBbUPWowKFQ2LJgAWb8RHx61FWaTfbdkYDjRZ815y
+pTPHdDF/S/rA/NZtF/L7aGHy
+=CqaD
 -----END PGP SIGNATURE-----
 
---===============4038661685511187392==
+--===============5027270892185535545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcf7be79c953-3d34b180323b.txt
+Content-Disposition: attachment; filename=revlist-60f41e848492-73a3d4f41886.txt
 
-4cfa36d312d6789448b59a7aae770ac8425017a3 staging: rtl8192u: fix control-message timeouts
-ce4940525f36ffdcf4fa623bcedab9c2a6db893a staging: r8712u: fix control-message timeout
-0869b73f615bbd462662ea0d586b9c6fde8b4cda staging: vt6655: Rename `dwAL2230ChannelTable0` array
-5898832fb98637b331bfa00c0bbf640bc09daf10 staging: vt6655: Rename `dwAL2230ChannelTable1` array
-b9b419af41a4b635c4bfce7aca485ff920a5a96e staging: vt6655: Rename `dwAL7230ChannelTable0` array
-913d3e9ec360b590b0c7297fabe3e847ad46fafe staging: vt6655: Rename `dwAL7230ChannelTable1` array
-787f48d7add147c80d6a475e21bb836fe1791d90 staging: vt6655: Rename `dwAL7230ChannelTable2` array
-267062a6c907847d46fc530fc833fd5efd0ab3dd staging: vt6655: Rename `dwAL7230InitTableAMode` array
-01701302a2685356a3fdb365f1d061bc011e006b staging: vt6655: Rename `dwAL2230PowerTable` array
-f3d90f5139e59e04ed50ee72a01f73863e5dcc70 staging: vt6655: Rename `dwAL7230InitTable` array
-b6f8bd68120faebfa04c4ba34845bf8498eaf868 staging: r8188eu: core: remove goto statement
-3d34b180323b487cad6f1e7560f1ec653110c899 staging: r8188eu: core: remove the goto from rtw_IOL_accquire_xmit_frame
+159f1f9e46dd09bffee3674d300b02856221e794 serial: sunzilog: Mark sunzilog_putchar() __maybe_unused
+88b20f84f0fe47409342669caf3e58a3fc64c316 serial: xilinx_uartps: Fix race condition causing stuck TX
+4290242776a603d1acc9ae944e7396057d7aec66 serial: 8250_pci: Replace custom pci_match_id() implementation
+175003d7f9d15d4d5172f48d51e926acac676ad6 serial: 8250_pci: Remove empty stub pci_quatech_exit()
+e0abc903deea0148955af1e7ccabf3e980af7815 serial: stm32: rework RX dma initialization and release
+6eeb348c8482862a788a2903e3fc45e76d4ea6b5 serial: stm32: terminate / restart DMA transfer at suspend / resume
+6333a485062172e1c118b44585d90c1d835aec52 serial: stm32: push DMA RX data before suspending
+0572da285d694e945303e74b7f9084b41e02ecbd tty: rpmsg: Assign returned id to a local variable
+408a507996e4c2ba943bc9b28be8bbb8424410b1 tty: rpmsg: Unify variable used to keep an error code
+8673ef7bd96dd75ed308cb71d48a292eaa1b72fa tty: rpmsg: Use dev_err_probe() in ->probe()
+88af70be4a5b936aa440bb9e22e6c57304067db6 tty: rpmsg: Add pr_fmt() to prefix messages
+73a3d4f41886e6bd27f8b09c6235539a586e5131 tty: rpmsg: Define tty name via constant string literal
 
---===============4038661685511187392==--
+--===============5027270892185535545==--
