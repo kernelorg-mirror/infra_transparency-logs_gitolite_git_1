@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 27 Oct 2021 08:22:32 -0000
-Message-Id: <163532295204.27763.14306601258448581147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 27 Oct 2021 09:09:39 -0000
+Message-Id: <163532577942.6526.16022629361079135513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/x86/fpu
-    old: 93175ec299f8418b415da8aabd9cc97506d49ab7
-    new: f5c72edd71f199a87895ed17616ea602d2298991
+  - ref: refs/heads/x86/core
+    old: 541ac97186d9ea88491961a46284de3603c914fd
+    new: ca136cac37eb51649d52d5bc4271c55e30ed354c
     log: |
-         60cdfc6a9e48c1b22332ba27c6af535c753c9c7f selftests/x86/amx: Add test cases for AMX state management
-         f5c72edd71f199a87895ed17616ea602d2298991 selftests/x86/amx: Add context switch test
+         a54c401ae66fc78f3f0002938b3465ebd6379009 x86/tools/relocs: Support >64K section headers
+         0d054d4e82072bcfd5eb961536b09a9b3f5613fb x86/boot: Allow a "silent" kaslr random byte fetch
+         33f98a9798f55fd77c36ce79d8cfa5329e55a789 x86/boot/compressed: Avoid duplicate malloc() implementations
+         ca136cac37eb51649d52d5bc4271c55e30ed354c vmlinux.lds.h: Have ORC lookup cover entire _etext - _stext
          
