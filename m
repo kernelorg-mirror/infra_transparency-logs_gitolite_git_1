@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 27 Oct 2021 13:50:03 -0000
-Message-Id: <163534260331.15267.7416200865006426316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Wed, 27 Oct 2021 13:55:28 -0000
+Message-Id: <163534292843.18911.8844361431949564847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/block-5.15
-    old: 9586e67b911c95ba158fcc247b230e9c2d718623
-    new: e0c60d0102a5ad3475401e1a2faa3d3623eefce4
+  - ref: refs/heads/main
+    old: 61ca6a84d3b4ad109ea8a768a6a6415a46a2ceed
+    new: 72bc6170cc71bc3563e4e89bfa17a7b0227b22c3
     log: |
-         e0c60d0102a5ad3475401e1a2faa3d3623eefce4 block: Fix partition check for host-aware zoned block devices
+         72bc6170cc71bc3563e4e89bfa17a7b0227b22c3 tuna: Improve sysfs.py
          
