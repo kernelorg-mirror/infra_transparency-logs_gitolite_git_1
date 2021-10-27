@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5507833800519985030=="
+Content-Type: multipart/mixed; boundary="===============7422758370633954539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 27 Oct 2021 07:20:33 -0000
-Message-Id: <163531923323.25301.14504298621308388267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 27 Oct 2021 07:23:05 -0000
+Message-Id: <163531938536.26083.373563801951102044@gitolite.kernel.org>
 
---===============5507833800519985030==
+--===============7422758370633954539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm/dt
-    old: d584cdc9e8c66f8b6abb03ceeccda5e19ceaa21c
-    new: aa1accb76bd5eb63fd7b45c4a2091fe01f7d1af4
+  - ref: refs/heads/char-misc-next
+    old: 63b3e810eff65fb8587fcb26fa0b56802be12dcf
+    new: 08e438e6296c566062a2b0627706b5967ceaf183
     log: |
-         97f0b33b9d2ca3904101f199b906c1e6825a0be0 arm64: apple: Add pinctrl nodes
-         3ca4ea148ba421872fa013d91011be11a05f8488 arm64: apple: Add PCIe node
-         1877225c5fa0b280b32f3cb5b588cf84e5a680a8 arm64: dts: apple: t8103: Add PCIe DARTs
-         92038722074ed6f7f8d6043f2ae2799959dfaf6a arm64: dts: apple: t8103: Add root port interrupt routing
-         fcc92afad9b57d80d2e5cb9b34cabdf69589ca29 arm64: dts: apple: j274: Expose PCI node for the Ethernet MAC address
-         aa1accb76bd5eb63fd7b45c4a2091fe01f7d1af4 Merge tag 'asahi-soc-dt-5.16' of https://github.com/AsahiLinux/linux into arm/dt
+         08e438e6296c566062a2b0627706b5967ceaf183 fix for "dma-buf: move dma-buf symbols into the DMA_BUF module namespace"
          
-  - ref: refs/heads/for-next
-    old: 2388cf9633f67b270216e9cf490193fcbc8ff988
-    new: 2b9e24b69db4f853f469280178c8d0b5b95f7d1a
-    log: revlist-2388cf9633f6-2b9e24b69db4.txt
 
---===============5507833800519985030==
+--===============7422758370633954539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2388cf9633f6-2b9e24b69db4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e775eb9fc2a4107f03222fa48bc95c2c82427e64 soc: fsl: dpio: replace smp_processor_id with raw_smp_processor_id
-dc7e5940aad6641bd5ab33ea8b21c4b3904d989f soc: fsl: dpio: use the combined functions to protect critical zone
-8120bd469f5525da229953c1197f2b826c0109f4 soc: fsl: dpaa2-console: free buffer before returning from dpaa2_console_read
-f2434d68992c37626cb9794aed6d7464aa780bc3 MAINTAINERS: Add pasemi i2c to ARM/APPLE MACHINE
-4c929eb8eab498de3a9a706e892da45998fa8aa2 MAINTAINERS: add pinctrl-apple-gpio to ARM/APPLE MACHINE
-97f0b33b9d2ca3904101f199b906c1e6825a0be0 arm64: apple: Add pinctrl nodes
-3ca4ea148ba421872fa013d91011be11a05f8488 arm64: apple: Add PCIe node
-1877225c5fa0b280b32f3cb5b588cf84e5a680a8 arm64: dts: apple: t8103: Add PCIe DARTs
-92038722074ed6f7f8d6043f2ae2799959dfaf6a arm64: dts: apple: t8103: Add root port interrupt routing
-fcc92afad9b57d80d2e5cb9b34cabdf69589ca29 arm64: dts: apple: j274: Expose PCI node for the Ethernet MAC address
-76f79231666a7a3c9a1db82c002e083125de5861 Merge tag 'soc-fsl-fix-v5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/leo/linux into arm/fixes
-27c81d4f08e8174f80b900c59eec519ab5458e01 Merge tag 'asahi-soc-maintainers-5.16' of https://github.com/AsahiLinux/linux into arm/soc
-aa1accb76bd5eb63fd7b45c4a2091fe01f7d1af4 Merge tag 'asahi-soc-dt-5.16' of https://github.com/AsahiLinux/linux into arm/dt
-ada10f80a625d98c096a7a6acdbb521295d62d4e Merge branch 'arm/dt' into for-next
-18cc3b9b22616a08c628d5f3f0d61f75a245a14b Merge branch 'arm/soc' into for-next
-7f6bda54af3d5cf7b2fdb16ccfcebb7624584b64 Merge branch 'arm/fixes' into for-next
-2b9e24b69db4f853f469280178c8d0b5b95f7d1a soc: document merges
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635319384 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1635319384-06298cf2287be0d972376c6f1df9d865bb2b153e
 
---===============5507833800519985030==--
+63b3e810eff65fb8587fcb26fa0b56802be12dcf 08e438e6296c566062a2b0627706b5967ceaf183 refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF4/lgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1e4QAMmQpE57wDbQPccxjdlJ
+cJA/F7IeEw/8X+cJG2/1Zz4TJkkabHOHefT9RRFLgjCopC/pfH17pbGfun4eVPMq
+rdeXgFZ0hKlczpbVH7N47x6nCH+l0xRVmrd0qrFqORw5MMhsWD4eIjuNRlT4qBC+
+4qi5DbtFQ3JxCSOuxU2yXAaEIHMWgLO+K6bhYWFdJ/V3f9nfx+Nd00uolj4pHEem
+v+6I0W4FKDBnLWJFjcPiyxHAyBLVKxAglEcGMhm3JhDTkr8MkZWtazsTZ3D+bp30
+yaDp8+xD33/xC7prkgcR4EM0iOL5R2kVezrhMI5ldG7hy42QLXh/2Ev9mFwsqjqi
+CVP1LgVrI5NSGiGsGqfJK4hQMwYryxAOGapr/HzYK58TvR4YQP2M5yEwvCmD5RrQ
+Mc2vIVlF5T5/9Ar1Ute9mCmS5Y2YXUAWYJwKV3G3Wcq0Rt8gM80FOXWVhQcKfSRh
+Deqvr8c53gE0lZ5i6qVG5wmo/pWOq2l0K6dCEvElFbg/s12F4a6HreviA5/25qqO
+Xy1qmlfArjKag323kRp8K/sysYyex3nJshMNAAo7zm5tx8TLaOLEcCY30skqz2sx
+E1NKM6GiiPG2JPqD/jBwgwu2iOltrUAM6FkTXwONfr4ctRCTI7pkpBrvIC9jBJnm
+m9WFWeXYniyw1oAmdjicITNj
+=5Ijw
+-----END PGP SIGNATURE-----
+
+--===============7422758370633954539==--
