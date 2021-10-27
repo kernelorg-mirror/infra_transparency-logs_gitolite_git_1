@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 27 Oct 2021 16:22:55 -0000
-Message-Id: <163535177571.14280.7080112270000190533@gitolite.kernel.org>
+Date: Wed, 27 Oct 2021 16:25:15 -0000
+Message-Id: <163535191538.16502.4573219243419583097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,70 +12,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: a4ea13b7bdc570884554a65d770e6151ba05078e
-    new: 16d7d56146cc7f5ec9ea33e12bffb59884203f10
+    old: 16d7d56146cc7f5ec9ea33e12bffb59884203f10
+    new: eb14705a4f4c225dbe1e626d3ea47973dd13e656
     log: |
-         e75dda3fa6f9901ab1b0f1632926d0e2a6331eb8 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         02ade5819eabb3370ef564b0e848a80e8a8a492c ARM: 9134/1: remove duplicate memcpy() definition
-         57a59fddd41e05d492bdabd80c9049060af7c8d6 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         16d7d56146cc7f5ec9ea33e12bffb59884203f10 powerpc/bpf: Fix BPF_MOD when imm == 1
+         5db87bb56ea4937b12e28b63f4bf56c142037593 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         58ca817e4f6cab1f1025a2173f810b623633ca64 ARM: 9134/1: remove duplicate memcpy() definition
+         2603e9e04e6505a46c8693aab9feb424ed71f0a3 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         eb14705a4f4c225dbe1e626d3ea47973dd13e656 powerpc/bpf: Fix BPF_MOD when imm == 1
          
   - ref: refs/heads/queue/4.19
-    old: fcb41826dc35f08e299498efc5157f7779dc5f26
-    new: 2222f5de5ed9f02eac28b1356d0f589ee69b49cf
+    old: 2222f5de5ed9f02eac28b1356d0f589ee69b49cf
+    new: 5711345ba20e31c707ad79e118bc8d0abcf3cd02
     log: |
-         3ce1b374f79de519b74623dbc4302969953e8159 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         c61b5ccb98f28ea4de7a2a278c5066da3e017d6c ARM: 9134/1: remove duplicate memcpy() definition
-         fcd2cc4364d6f0c0f1ccba7093a59a7839d73d9c ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         2222f5de5ed9f02eac28b1356d0f589ee69b49cf ARM: 9141/1: only warn about XIP address when not compile testing
+         40c5717a4e157a6c6000e78d854d40c4ad990344 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         0af357de4cb779a27c360556f8e6ea172ec31887 ARM: 9134/1: remove duplicate memcpy() definition
+         85fc02b9e025a2257d199d6a34d121b7c1d544e9 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         2fadf03ca9be67eb13c429e91059d4abba4bc1e4 ARM: 9141/1: only warn about XIP address when not compile testing
+         08400624a975138ddd65d30b5f753ebf7077f13b powerpc/bpf: Fix BPF_MOD when imm == 1
+         5711345ba20e31c707ad79e118bc8d0abcf3cd02 arm64: Avoid premature usercopy failure
          
   - ref: refs/heads/queue/4.4
-    old: 748fe5f1a25d6ff31346d80a6f6670a46e74fab0
-    new: 08a243e6297cfb23e0b879d0ac6848bc75538bea
+    old: 08a243e6297cfb23e0b879d0ac6848bc75538bea
+    new: 99df95edc67f07cbe3e69ecb1dfd027f8e8714de
     log: |
-         95a60c3ee5637619850bd3ec55aeb7375729e9f9 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         5db540059a09644a1fecf971891aa3838711d577 ARM: 9134/1: remove duplicate memcpy() definition
-         08a243e6297cfb23e0b879d0ac6848bc75538bea ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         8e8306c47ef7a0d9ac3a84c13cc098be4ce53700 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         5f458506e7e1e6fcd5e6ec3cb2e0e378e55b22d7 ARM: 9134/1: remove duplicate memcpy() definition
+         99df95edc67f07cbe3e69ecb1dfd027f8e8714de ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
          
   - ref: refs/heads/queue/4.9
-    old: f969083664bfe986a39523a6d66af65319a9c6c2
-    new: 826a9174d94ed4d60fdee79c5a77f299c8fdf7d7
+    old: 826a9174d94ed4d60fdee79c5a77f299c8fdf7d7
+    new: 6706f76370facd23f00d515989cc3bd046c80d8d
     log: |
-         8414e9b97812f862fc075d1a28b2a5a3edec9b89 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         11a9e2434d6c5a7084cdfdece199995bec81d85f ARM: 9134/1: remove duplicate memcpy() definition
-         e6eb91080571ed01fb78b2425437cbb970619831 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         826a9174d94ed4d60fdee79c5a77f299c8fdf7d7 powerpc/bpf: Fix BPF_MOD when imm == 1
+         4a46e2a137d23fda2f5d3cb55a5ff9007a533809 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         528c8dcc7c7f7a9bdfc5793aa16f9b28a3038a63 ARM: 9134/1: remove duplicate memcpy() definition
+         0b84d5ab09bca9cf5c4d629eaa5b2fbf0c5971cf ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         6706f76370facd23f00d515989cc3bd046c80d8d powerpc/bpf: Fix BPF_MOD when imm == 1
          
   - ref: refs/heads/queue/5.10
-    old: 7ebaa7b1b5faac3e97981199c31cfb68d838b1f5
-    new: 0d42ddd4a44c69d34baf33dca915a00e4b551453
+    old: 0d42ddd4a44c69d34baf33dca915a00e4b551453
+    new: d80e9b23dc7ad3d8030f976d658f5c123950082d
     log: |
-         cb316a9e69fb41a1364ae3112885ea255bc06c25 ARM: 9132/1: Fix __get_user_check failure with ARM KASAN images
-         b4d220596e24ad468cd8d60407f070a0b1b96a6d ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         d0c6da30f68ced998a3132d511d4c90b222ffb60 ARM: 9134/1: remove duplicate memcpy() definition
-         dbbfa304bbb7a0ff27570ea5f3f4822e6f5b6dba ARM: 9138/1: fix link warning with XIP + frame-pointer
-         3d01a8f002b4910eed4de1482b8ab3151e4163e9 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         4ca273b5d6f2e468837093ffcb4bbd3a3c8b460b ARM: 9141/1: only warn about XIP address when not compile testing
-         0d42ddd4a44c69d34baf33dca915a00e4b551453 io_uring: don't take uring_lock during iowq cancel
+         d53d512803c03ec43e7528902a00270cf9efa362 ARM: 9132/1: Fix __get_user_check failure with ARM KASAN images
+         901c51347abd982dbe082aa4b9c2279b76b966e8 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         7b6671c067b7c0c18bd4ad40b222313dbddf72d9 ARM: 9134/1: remove duplicate memcpy() definition
+         dc5512a28460ca685e9c7ec0154dda70e2f3aa86 ARM: 9138/1: fix link warning with XIP + frame-pointer
+         23fb78fd5616db69f76966df8a6ebf56a18be1b5 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         27e3ec84bf0aa40e9705c602627f0ff2fefd4a77 ARM: 9141/1: only warn about XIP address when not compile testing
+         e3a145a743d69ebc01cfb67720de52a765adcd66 io_uring: don't take uring_lock during iowq cancel
+         a0fee03fff78164b12830cf862ba2066b30445f1 powerpc/bpf: Fix BPF_MOD when imm == 1
+         d80e9b23dc7ad3d8030f976d658f5c123950082d arm64: Avoid premature usercopy failure
          
   - ref: refs/heads/queue/5.14
-    old: 03bf7b53d01da5921f5532d769ef156410f9fb25
-    new: 928264b26ed7458e61febe7339e61ebcf5ebe274
+    old: 928264b26ed7458e61febe7339e61ebcf5ebe274
+    new: 3b41443225b7d3c583b6b455d65a653a66ebac0c
     log: |
-         756d5ad0360009fe72982aa35ca931022352ef44 ARM: 9132/1: Fix __get_user_check failure with ARM KASAN images
-         ac3b53918e37d8e09d40cbf93e02b5e247405101 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         d7ec90d92ec16b80e463dcfbca21f1e3a9169ffd ARM: 9134/1: remove duplicate memcpy() definition
-         9dd259bcebc37ebb19d18e6af582f1d840a27b89 ARM: 9138/1: fix link warning with XIP + frame-pointer
-         5d5822092395c348b4010494cf1bdff2b1e124a6 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         35a49270776237669078c46c2d2681a20d2e443e ARM: 9141/1: only warn about XIP address when not compile testing
-         928264b26ed7458e61febe7339e61ebcf5ebe274 ARM: 9148/1: handle CONFIG_CPU_ENDIAN_BE32 in arch/arm/kernel/head.S
+         3a096b915321ee7a55ac4f262db39d0b190227de ARM: 9132/1: Fix __get_user_check failure with ARM KASAN images
+         bf7b6b1de58a8fb2b57b35170d7b56834f1a5c54 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         73e9c6353e60ff8b0f6a408aca25875f73345fa5 ARM: 9134/1: remove duplicate memcpy() definition
+         adaf8f088218bbb7ff0a4dad2badd3c8b1102332 ARM: 9138/1: fix link warning with XIP + frame-pointer
+         a709a557f7d681a892e8f99e384b620a3e475467 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         3075b256fff58d0b3af1ca4f8fdaabd636bc6a52 ARM: 9141/1: only warn about XIP address when not compile testing
+         3b41443225b7d3c583b6b455d65a653a66ebac0c ARM: 9148/1: handle CONFIG_CPU_ENDIAN_BE32 in arch/arm/kernel/head.S
          
   - ref: refs/heads/queue/5.4
-    old: 085ac7e053dbb278eec93750cb3e2067038b8603
-    new: 8fc2c25e4b22b65290a03ef6832c130642847af1
+    old: 8fc2c25e4b22b65290a03ef6832c130642847af1
+    new: 001ac491321923672329c0c5ab76e73f1892d8f0
     log: |
-         d57558901c7169570249a75bb37ece98ab78cde9 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-         965929048a121f882d33e17c7ccf8d198ac5493b ARM: 9134/1: remove duplicate memcpy() definition
-         e23fbb27aaca021c32d7f3df70a7f614c38a6679 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-         8fc2c25e4b22b65290a03ef6832c130642847af1 ARM: 9141/1: only warn about XIP address when not compile testing
+         7305bb2e48841c15f174e85d08f156d568182da1 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+         b966e9a77f7e422720f5e9c08ed2f14aa2b0429e ARM: 9134/1: remove duplicate memcpy() definition
+         f7da4b706981badd35143ea8fe7e9c85246bc0c9 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+         03601ffc901b5c52c14eefbb37a1867ad6204a0f ARM: 9141/1: only warn about XIP address when not compile testing
+         001ac491321923672329c0c5ab76e73f1892d8f0 powerpc/bpf: Fix BPF_MOD when imm == 1
          
