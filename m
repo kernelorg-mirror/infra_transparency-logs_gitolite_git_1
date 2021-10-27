@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3484294776890000368=="
+Content-Type: multipart/mixed; boundary="===============3388102804068623984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 27 Oct 2021 04:59:47 -0000
-Message-Id: <163531078758.1713.12013902709180568459@gitolite.kernel.org>
+Date: Wed, 27 Oct 2021 05:00:39 -0000
+Message-Id: <163531083912.3481.10990666120705172743@gitolite.kernel.org>
 
---===============3484294776890000368==
+--===============3388102804068623984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea
-    log: revlist-6880fa6c5660-3906fe9bb7f1.txt
+  - ref: refs/heads/devfreq-next
+    old: 6b28c7d0781e9554cd50e5e7d4b48aea0c2bdf93
+    new: 5cf79c293821d12fd88dee901692cd404247782e
+    log: revlist-6b28c7d0781e-5cf79c293821.txt
 
---===============3484294776890000368==
+--===============3388102804068623984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6880fa6c5660-3906fe9bb7f1.txt
+Content-Disposition: attachment; filename=revlist-6b28c7d0781e-5cf79c293821.txt
 
-51032e6f17ce990d06123ad7307f258c50d25aa7 e100: fix buffer overrun in e100_get_regs
-a2941f6aa71a72be2c82c0a168523a492d093530 nvme: add command id quirk for apple controllers
-6489f8d0e1d93a3603d8dad8125797559e4cf2a2 xtensa: call irqchip_init only when CONFIG_USE_OF is selected
 42d43c92fc577dca59ed74aec7868abec8d6ca6e Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 78f8876c2d9f6fdeb9ff62ed1911505156cd7b3d io-wq: exclusively gate signal based exit on get_signal() return
 7d5cfafe8b4006a75b55c2f1fdfdb363f9a5cc98 RDMA/hfi1: Fix kernel pointer leak
@@ -1050,5 +1047,8 @@ c2b43854aad9e52b422e6c6342a1da2261f98fa5 Merge tag 'for-linus' of git://git.arml
 ac8a6eba2a117e0fdc04da62ab568d1b7ca4c8f6 spi: Fix tegra20 build with CONFIG_PM=n once again
 cb685432398122053f3e1dc6a1d68924e5b77be4 secretmem: Prevent secretmem_users from wrapping to zero
 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea Linux 5.15-rc7
+28d7f0f3f10be9d6ecca15669fa17d561581a843 devfreq: exynos-ppmu: use node names with hyphens
+14714135a8358830ccd156c335fe6447e7e6e923 devfreq: exynos-ppmu: simplify parsing event-type from DT
+5cf79c293821d12fd88dee901692cd404247782e PM / devfreq: Strengthen check for freq_table
 
---===============3484294776890000368==--
+--===============3388102804068623984==--
