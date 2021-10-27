@@ -1,81 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5565987508285216581=="
+Content-Type: multipart/mixed; boundary="===============3758749330030398951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 27 Oct 2021 01:33:22 -0000
-Message-Id: <163529840254.3026.17041270270913210187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 27 Oct 2021 01:44:07 -0000
+Message-Id: <163529904758.8910.9394425819732433809@gitolite.kernel.org>
 
---===============5565987508285216581==
+--===============3758749330030398951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/clk-at91
-    old: c405f5c15e9f6094f2fa1658e73e56f3058e2122
-    new: 0b59e619ef246a83b2d10e41345d2cfa27c4ea28
-    log: revlist-c405f5c15e9f-0b59e619ef24.txt
-  - ref: refs/heads/clk-next
-    old: ee7bfa2baf9012da64e9d7a0c60d21799397903a
-    new: 9c4c7a13f4c8729de7838374b096abb0a12aa27c
-    log: revlist-ee7bfa2baf90-9c4c7a13f4c8.txt
-  - ref: refs/heads/clk-debugfs
-    old: 0000000000000000000000000000000000000000
-    new: dd742cac340f3b4711e0c0a355d63133c0ee4944
-  - ref: refs/heads/clk-ux500
-    old: 0000000000000000000000000000000000000000
-    new: b14cbdfd467d1e505ad8e03f94e18b3cffc37043
+  - ref: refs/heads/mlx5-queue
+    old: b7aa371344f3dca380c040468c6c4d1d8ae5a8d0
+    new: 6b838eea0b5cfd36368c53f4c1c4c9dd6bc5026e
+    log: revlist-b7aa371344f3-6b838eea0b5c.txt
 
---===============5565987508285216581==
+--===============3758749330030398951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c405f5c15e9f-0b59e619ef24.txt
+Content-Disposition: attachment; filename=revlist-b7aa371344f3-6b838eea0b5c.txt
 
-36971566ea7a519bcde1830f39b6aa37c34e0fb4 clk: at91: re-factor clocks suspend/resume
-4d21be86409296bd28614db22884ac122c5247d2 clk: at91: pmc: execute suspend/resume only for backup mode
-c884c7a0acb29357d694ebafec8aa272015e7c52 clk: at91: sama7g5: add securam's peripheral clock
-c55388167775960412fe576a343f4c9001523786 clk: at91: clk-master: add register definition for sama7g5's master clock
-88bdeed3d08d833d814de1f6ca13ff33377d524c clk: at91: clk-master: improve readability by using local variables
-5df4cd9099d049b1696dd4b20f1d0413ee2af93f clk: at91: pmc: add sama7g5 to the list of available pmcs
-f12d028b743bb6136da60b17228a1b6162886444 clk: at91: sam9x60-pll: use DIV_ROUND_CLOSEST_ULL
-c2910c00fee4cbb7b222d6e02846adef9ae4135a clk: at91: clk-master: check if div or pres is zero
-a27748adeacab6e1fa957cdc4838f3cdedce3ce5 clk: at91: clk-master: mask mckr against layout->mask
-0ef99f8202c5078a72c05af76bfaed2ea4daab19 clk: at91: clk-master: fix prescaler logic
-1e229c21a47241626b345c31ba443490372cf2b5 clk: at91: clk-sam9x60-pll: add notifier for div part of PLL
-7029db09b2025f863f191b3d5b1d7859a5e26a8d clk: at91: clk-master: add notifier for divider
-facb87ad75603813bc3b1314f5a87377f020fcb8 clk: at91: sama7g5: remove prescaler part of master clock
-0b59e619ef246a83b2d10e41345d2cfa27c4ea28 clk: at91: sama7g5: set low limit for mck0 at 32KHz
+b81ca7ffb8a442b01542910d4a51c75449a3854e net/mlx5: Extend health buffer dump
+8254ab0bef35e1de1a40502381f00ed62bcbf4e6 net/mlx5: Print health buffer by log level
+a490f0cf60a4bee6e0abc2238356106beabb90e5 net/mlx5: Separate FDB namespace
+01fbf33e8a6f5b3949961f833d25191f2415c9eb net/mlx5: Add periodic update of host time to firmware
+44797e3791e482002b1a5080aedcaabced69f924 net/mlx5: Refactor mlx5_get_flow_namespace
+15b7f72fe742adcb10cc0d823e544aafc58155b8 net/mlx5: Create more priorities for FDB bypass namespace
+256edae4cfd4b410fe840b2d060c1e9e7998bc05 RDMA/mlx5: Add support to multiple priorities for FDB rules
+7059b117492b621e59cee89090d140e0c99b2266 net/mlx5e: don't write directly to netdev->dev_addr
+101e4349a75f337f62076dbff7861277787a7074 net/mlx5: SF, Add SF trace points
+dcd6ebad600fd24c9414dba80de08658c73eca30 net/mlx5: Reduce flow counters bulk query buffer size for SFs
+13b519caef68ce252d640a41e1bbb6b3c769d874 net/mlx5: SF_DEV Add SF device trace points
+0f7b2f79da9f6ad55c39b4045ef24a482e061e26 net/mlx5: Let user configure io_eq_size param
+51b0be495373c2686330e2c296d4666dee3f8ccd net/mlx5: Let user configure event_eq_size param
+f0cd056953fe38e0a4bdd5610471821322fcd2e8 net/mlx5: Let user configure max_macs param
+9ee324e9543216d474b0aa4a8670c606f4d83b62 net/mlx5: DR, Fix querying vport 0 capabilities
+8ed65b548fd6cef89fce1543efae3acedeb04229 Merge branch 'patchq/434730' into mlx5-queue
+3516d5c26d3f90531e36151645fdf6971280677b Merge branch 'patchq/440227' into mlx5-queue
+a2f96be98cfd43ac0bf5093ef8e5e2936249515d Merge branch 'patchq/435738' into mlx5-queue
+c7bcd8b092120a9f836b324bb5c8fc942496bfde Merge branch 'patchq/432142' into mlx5-queue
+5b13ef63348c685cecf230e19c9e26bbf983d51f Merge branch 'patchq/423994' into mlx5-queue
+6b838eea0b5cfd36368c53f4c1c4c9dd6bc5026e Merge branch 'patchq/435320' into mlx5-queue
 
---===============5565987508285216581==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee7bfa2baf90-9c4c7a13f4c8.txt
-
-f2b883bbdd08b32f4c52cc95bccb4defae6ebf74 dt-bindings: clock: u8500: Rewrite in YAML and extend
-b14cbdfd467d1e505ad8e03f94e18b3cffc37043 clk: ux500: Add driver for the reset portions of PRCC
-f847897939b660af616ee6e705de1304fe602b0a Merge branch 'clk-ux500' into clk-next
-36971566ea7a519bcde1830f39b6aa37c34e0fb4 clk: at91: re-factor clocks suspend/resume
-4d21be86409296bd28614db22884ac122c5247d2 clk: at91: pmc: execute suspend/resume only for backup mode
-c884c7a0acb29357d694ebafec8aa272015e7c52 clk: at91: sama7g5: add securam's peripheral clock
-c55388167775960412fe576a343f4c9001523786 clk: at91: clk-master: add register definition for sama7g5's master clock
-88bdeed3d08d833d814de1f6ca13ff33377d524c clk: at91: clk-master: improve readability by using local variables
-5df4cd9099d049b1696dd4b20f1d0413ee2af93f clk: at91: pmc: add sama7g5 to the list of available pmcs
-f12d028b743bb6136da60b17228a1b6162886444 clk: at91: sam9x60-pll: use DIV_ROUND_CLOSEST_ULL
-c2910c00fee4cbb7b222d6e02846adef9ae4135a clk: at91: clk-master: check if div or pres is zero
-a27748adeacab6e1fa957cdc4838f3cdedce3ce5 clk: at91: clk-master: mask mckr against layout->mask
-0ef99f8202c5078a72c05af76bfaed2ea4daab19 clk: at91: clk-master: fix prescaler logic
-1e229c21a47241626b345c31ba443490372cf2b5 clk: at91: clk-sam9x60-pll: add notifier for div part of PLL
-7029db09b2025f863f191b3d5b1d7859a5e26a8d clk: at91: clk-master: add notifier for divider
-facb87ad75603813bc3b1314f5a87377f020fcb8 clk: at91: sama7g5: remove prescaler part of master clock
-0b59e619ef246a83b2d10e41345d2cfa27c4ea28 clk: at91: sama7g5: set low limit for mck0 at 32KHz
-05c7df958f37cb2b8075fa3de88a95a664c7fdbd Merge branch 'clk-at91' into clk-next
-dd742cac340f3b4711e0c0a355d63133c0ee4944 clk: use clk_core_get_rate_recalc() in clk_rate_get()
-9c4c7a13f4c8729de7838374b096abb0a12aa27c Merge branch 'clk-debugfs' into clk-next
-
---===============5565987508285216581==--
+--===============3758749330030398951==--
