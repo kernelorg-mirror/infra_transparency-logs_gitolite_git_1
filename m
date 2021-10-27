@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 27 Oct 2021 12:05:12 -0000
-Message-Id: <163533631225.21704.807528248540249143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Wed, 27 Oct 2021 12:05:42 -0000
+Message-Id: <163533634240.21937.16220142052004819017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 05d5da3cb11c91c39e607066d3313a6ce621796a
-    new: 76f79231666a7a3c9a1db82c002e083125de5861
+  - ref: refs/heads/for-5.16-vsprintf-pgp
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: 23efd0804c0a869dfb1e78470f80a27251317b7e
     log: |
-         e775eb9fc2a4107f03222fa48bc95c2c82427e64 soc: fsl: dpio: replace smp_processor_id with raw_smp_processor_id
-         dc7e5940aad6641bd5ab33ea8b21c4b3904d989f soc: fsl: dpio: use the combined functions to protect critical zone
-         8120bd469f5525da229953c1197f2b826c0109f4 soc: fsl: dpaa2-console: free buffer before returning from dpaa2_console_read
-         76f79231666a7a3c9a1db82c002e083125de5861 Merge tag 'soc-fsl-fix-v5.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/leo/linux into arm/fixes
+         c666d447e091be3a742588b49290e7733115769f test_printf: Make pft array const
+         a25a0854a2264a0c592ba1ea01a165101f8c1a6c test_printf: Remove separate page_flags variable
+         5b358b0de963f822226bfee916fb53c80bae4000 test_printf: Remove custom appending of '|'
+         507f98603607d43cb76ed39c370c4dc1ed6a94f9 test_printf: Append strings more efficiently
+         23efd0804c0a869dfb1e78470f80a27251317b7e vsprintf: Make %pGp print the hex value
          
