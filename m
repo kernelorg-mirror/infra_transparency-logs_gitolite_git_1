@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5165513393743804429=="
+Content-Type: multipart/mixed; boundary="===============0727828475680119379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 27 Oct 2021 03:58:53 -0000
-Message-Id: <163530713367.27932.14046811032239594169@gitolite.kernel.org>
+Date: Wed, 27 Oct 2021 03:59:03 -0000
+Message-Id: <163530714382.28047.15869208635873279767@gitolite.kernel.org>
 
---===============5165513393743804429==
+--===============0727828475680119379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 948c02596ea58a27515eb90654507d9c8018609b
-    new: 6f4dee462e583b740804a080a226e3210c9ee2b0
-    log: revlist-948c02596ea5-6f4dee462e58.txt
+  - ref: refs/heads/5.16/scsi-staging
+    old: 83c3a7beaef7fd261c190b69f6be6337f251bf16
+    new: feadce93e668840790d8f7e7bf679779355d66f8
+    log: revlist-83c3a7beaef7-feadce93e668.txt
 
---===============5165513393743804429==
+--===============0727828475680119379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1635307126 -0400
+pusher 75C5DE3D 1635307137 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1635307126-43683539ccf0f76b5bb57062e5f3446b0b1f092c
+nonce 1635307136-586e0bb630ab7395c6fc6e1f4e4e90877e33c217
 
-948c02596ea58a27515eb90654507d9c8018609b 6f4dee462e583b740804a080a226e3210c9ee2b0 refs/tags/mkp-scsi-staging
+83c3a7beaef7fd261c190b69f6be6337f251bf16 feadce93e668840790d8f7e7bf679779355d66f8 refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmF4znYACgkQ7ulgGnXF
-3j0Jsw//Roq7V2I4Ad+8Mo0VindcaHRUH2bvHeE7CwBXGM6dnJCXuyZ22c+p6pj8
-UaJ/T2ElDyIIyBSyuLal2xXJDNb+i1lRtElIjEY9ctnWSIyhHcGgAvkad5WV32QG
-x1OQgNHTFD9EXvkxou/aLZRhYCqonGoJJ2x2rUp4g+S2XZm6aum06drtGMU0xJRJ
-8cfEnDQ8+ZBXY+tsXtGkdXKJX4bVXhmULPu8g37okBjINuZVSkrLXH3vOwVXGIYj
-LlNTtTHTU8EasCXM0b8+JnGYt8iCB0wC7X42eHGE8wB1Px1npI31sB+xnTVO5y+c
-7sfnXt4cYlJ/M5cEqeo+EH9l1SxmmXV+q3L6bCSrWy7BIT7vUoPsl/ZkhGCk0jVe
-p2Pi+ZnmbIucAjcEM2gFEfJUk/9SF3W7d0CcxOoYUARIpKLbVlYczW/5vXazMi+U
-1AfQZXKCxT0mAlBncpHo3iuPg8eLoX2VVahdFhhZyURmdv3lE/XvtT2RXiqMQcGH
-64AaJsq1NSKR/BAVCM0KQ6LrIIEXbpJ1Lm/ItXITPqb2LGl63cSJ7LRxn/MtMyB4
-9S1cw5oGhH4Qd2nntfurQn944+tJMHO4sPw8vqdOJJdZlMZXfg4CTxtl+540e42Y
-F5h/DIhebGVKsMtelc7AM5PssAOhQ7CiOrnYeygJ80ICaIHqzZE=
-=NFKb
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmF4zoEACgkQ7ulgGnXF
+3j0cJw//SzS284+rzKdmP24tOvVMzIcyAQhWkw5aY+SKDBGK0IAB9wrejLKQg99+
+sZuJnYNgdFJpIcn0D8cEJxGs8EOxII76KomCqaUHNWvu4pSga74OVKnTV1EbKYE3
+4ecj9h5GVIp+FScqiR2h/DW4nGtV8CB08zQNMmSZIMhuchwtiUITeyf7OOUYYKa/
+B1nzeWPPVO6mSuZ6ZlJBpTRJxnKMhjjrkitPexd+SiZHAk5cOaFjUGZuGsMdFBvy
+P7ubDGpKomipWNIuzhTiNXQr0zVFIaiXOj5CRsGXEV8/8+HHhkRYYDKYzXSMASx0
+2IVwU2L8DaajrQJNiS1FplAvCytdw9nhnG1QOXttD5MbJkcLRMH8QYMMQbFtNzVn
+bLG+GBz4rTBQf+sQKW7G7kDBvyIhX5UEjbWP3sQj+ZyUm/S6YtBp+K9bWSY45Kt/
+Mhamfh3oKd8BlMhwIbx3fhkTHQJf+/pFPmtjpDsDog8TIXfkCXPUzOO23rj8Kkq0
+cRkjXxq/xY+B6878BBJ3kf5otevg5HyDPWxNBWhfapEC3QclX6p8IGMR5UsVqNmV
+eBSHsoPbcbPG5p2IK0rw16/zy5CiUCambxIgbMo7bXfK+31CJdqi+TFglPWPdVTf
+bSDhFZbtA2gznadRNBvAhB4d0KOyDPfYoFWq4I6MiHzhEd1p/1M=
+=G5CC
 -----END PGP SIGNATURE-----
 
---===============5165513393743804429==
+--===============0727828475680119379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-948c02596ea5-6f4dee462e58.txt
+Content-Disposition: attachment; filename=revlist-83c3a7beaef7-feadce93e668.txt
 
 12b6fcd0ea7f3cb7c3b34668fc678779924123ae scsi: target: core: Remove from tmr_list during LUN unlink
 11682523573c1c37f8d7a6ff1096c456267ebfff scsi: ufs: Revert "Retry aborted SCSI commands instead of completing these successfully"
@@ -82,4 +82,4 @@ b1af26c245545a289b331c7b71996ecd88321540 scsi: qla2xxx: edif: Flush stale events
 9fd26c633e8ab5a291c0241533efff161bbe5570 scsi: qla2xxx: edif: Fix EDIF bsg
 feadce93e668840790d8f7e7bf679779355d66f8 scsi: qla2xxx: Update version to 10.02.07.200-k
 
---===============5165513393743804429==--
+--===============0727828475680119379==--
