@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2739437876231860082=="
+Content-Type: multipart/mixed; boundary="===============8020985138399350528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 27 Oct 2021 11:45:52 -0000
-Message-Id: <163533515230.8414.16037737779302710109@gitolite.kernel.org>
+Date: Wed, 27 Oct 2021 11:46:55 -0000
+Message-Id: <163533521529.8779.10575000547755195499@gitolite.kernel.org>
 
---===============2739437876231860082==
+--===============8020985138399350528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 3d8fa78ebd61aada5d55de6e04beee7fd916c62b
-    new: 83c3a7beaef7fd261c190b69f6be6337f251bf16
-    log: revlist-3d8fa78ebd61-83c3a7beaef7.txt
+  - ref: refs/heads/for-next
+    old: 151a3b7b9d3ce651b97119fe0fa68ab7a9df590a
+    new: cfb34c044d8ed8a65a2c9131cfe90be887d6ee62
+    log: revlist-151a3b7b9d3c-cfb34c044d8e.txt
 
---===============2739437876231860082==
+--===============8020985138399350528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d8fa78ebd61-83c3a7beaef7.txt
+Content-Disposition: attachment; filename=revlist-151a3b7b9d3c-cfb34c044d8e.txt
 
 0ae8f4785107eb7f63ac17d86d894be681427dd2 scsi: mpt3sas: Make mpt3sas_dev_attrs static
 bb4a8dcb4e9498deccaf7b257449044968e514c7 scsi: ufs: mediatek: Avoid sched_clock() misuse
@@ -37,5 +37,6 @@ d305c253af693e69a36cedec880aca6d0c6d789d scsi: lpfc: Wait for successful restart
 1854f53ccd88ad4e7568ddfafafffe71f1ceb0a6 scsi: lpfc: Fix link down processing to address NULL pointer dereference
 af984c87293b19dccbd0b16afc57c5c9a4a279c7 scsi: lpfc: Allow fabric node recovery if recovery is in progress before devloss
 83c3a7beaef7fd261c190b69f6be6337f251bf16 scsi: lpfc: Update lpfc version to 14.0.0.3
+cfb34c044d8ed8a65a2c9131cfe90be887d6ee62 Merge branch 'misc' into for-next
 
---===============2739437876231860082==--
+--===============8020985138399350528==--
