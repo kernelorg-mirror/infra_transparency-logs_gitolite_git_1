@@ -1,31 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 28 Oct 2021 15:00:44 -0000
-Message-Id: <163543324428.9614.4841669400813359673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Thu, 28 Oct 2021 15:09:07 -0000
+Message-Id: <163543374740.13366.17625619486553201326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/main
-    old: 76b30805f9f6ed644831c7149dd6c30988971a63
-    new: e2947f6fd8099a8f722e7140e3cba1a6c2528883
+  - ref: refs/heads/misc-next
+    old: f5fe3b79ee66466959ef5619079e440762b06d4a
+    new: 42b432f82ad45a829a9712a15e1684f2e85c82ea
     log: |
-         c76a3849ec307ae216eb7ae674dcc7aea2f7dde1 ip, neigh: Fix up spacing in netlink dump
-         040e52526c22163a218b9cb2224f51a2de0e6576 ip, neigh: Add missing NTF_USE support
-         9e009e78e7f14ec98efdaca38998d0f472e45ea5 ip, neigh: Add NTF_EXT_MANAGED support
-         e2947f6fd8099a8f722e7140e3cba1a6c2528883 Merge branch 'managed-neighbor' into next
-         
-  - ref: refs/heads/master
-    old: 76b30805f9f6ed644831c7149dd6c30988971a63
-    new: e2947f6fd8099a8f722e7140e3cba1a6c2528883
-    log: |
-         c76a3849ec307ae216eb7ae674dcc7aea2f7dde1 ip, neigh: Fix up spacing in netlink dump
-         040e52526c22163a218b9cb2224f51a2de0e6576 ip, neigh: Add missing NTF_USE support
-         9e009e78e7f14ec98efdaca38998d0f472e45ea5 ip, neigh: Add NTF_EXT_MANAGED support
-         e2947f6fd8099a8f722e7140e3cba1a6c2528883 Merge branch 'managed-neighbor' into next
+         ef95facb5f4f6217d2a891dabd42a8ec4580d428 btrfs: fix deadlock between quota enable and other quota operations
+         42b432f82ad45a829a9712a15e1684f2e85c82ea btrfs: fix ENOSPC failure when attempting direct IO write into NOCOW range
          
