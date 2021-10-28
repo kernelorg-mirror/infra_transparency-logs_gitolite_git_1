@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1774538691381175013=="
+Content-Type: multipart/mixed; boundary="===============0680958329719433640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 28 Oct 2021 20:33:56 -0000
-Message-Id: <163545323670.22795.17398616074706852300@gitolite.kernel.org>
+Date: Thu, 28 Oct 2021 20:34:20 -0000
+Message-Id: <163545326058.23006.12145146537203805129@gitolite.kernel.org>
 
---===============1774538691381175013==
+--===============0680958329719433640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f2edaa4ad5d51371709196f2c258fbe875962dee
-    new: 7df621a3eea6761bc83e641aaca6963210c7290d
-    log: revlist-f2edaa4ad5d5-7df621a3eea6.txt
+  - ref: refs/heads/dev-queue
+    old: 3e07092a3fa6493cbb9216eeb29ef0a387906e86
+    new: 7bbdf6a3a70f9525724070e44da13c6f0d11731f
+    log: revlist-3e07092a3fa6-7bbdf6a3a70f.txt
 
---===============1774538691381175013==
+--===============0680958329719433640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2edaa4ad5d5-7df621a3eea6.txt
+Content-Disposition: attachment; filename=revlist-3e07092a3fa6-7bbdf6a3a70f.txt
 
 0764e365dacd0b8f75c1736f9236be280649bd18 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
 55dd7e059098ce4bd0a55c251cb78e74604abb57 ARM: dts: sun7i: A20-olinuxino-lime2: Fix ethernet phy-mode
@@ -238,5 +238,128 @@ eecd231a80a5d54afc5eb350fc890ab15350408d Merge tag 'linux-watchdog-5.15-rc7' of 
 4fb7d85b2ebf0f06d6b47df2c9f2d45c6fec8b8c Merge tag 'spi-fix-v5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 411a44c24a561e449b592ff631b7ae321f1eb559 Merge tag 'net-5.15-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 7df621a3eea6761bc83e641aaca6963210c7290d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+6b86d41fd5b2f6b9dd6d97455cf95e2c23a4ef96 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+f521f4d458d7d975c4e316367e98bdfce9ecca24 igc: Add UDP segmentation offload support
+6b3805de857c4c150165ac4952605cab5db06366 i40e: Fix correct max_pkt_size on VF RX queue
+3ff46278c9ce5c2c5d3fb4a71a8d7a2626a91e31 iavf: Fix return of set the new channel count
+aec83887540194b60f0eb48142119c503bf9d15c i40e: Fix NULL ptr dereference on VSI filter sync
+5c0142b5fb9eb324f0be1254bcd98edadb72b964 ice: Fix VF true promiscuous mode
+54a83bbc4a3d4881bf62807110e7c12a8de3d442 igb: unbreak I2C bit-banging on i350
+3b6d0646d6d7429e26a5fe9357a4f7a768b7a515 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+6f2279942788a2202a28d5a3de5dc8fbe4e88420 ice: Refactor promiscuous functions
+d50ad7a92f4ece5142a9139d2a1625a86676c2f5 i40e: Fix warning message and call stack during rmmod i40e driver
+55b39af1b0529fb4e6063afd1908cd2b75296c7c i40e: Fix changing previously set num_queue_pairs for PFs
+9ab627ae0357c03102c3f824794b88d9bcd5c2c8 i40e: Fix ping is lost after configuring ADq on VF
+424f6cd7c43ca88cd3c3c3a5cab2d78094f5ad78 ice: Remove toggling of antispoof for VF trusted promiscuous mode
+b00f6084e4f1e4b3fb58fa298978af2f82549d39 ice: fix FDIR init missing when reset VF
+192a588aee70162cdc47f3017d030e8cb6fc9d34 ice: Remove boolean vlan_promisc flag from function
+acf0a88ff39248025952b50fcb858cbc617a4523 ice: Fix replacing VF hardware MAC to existing MAC filter
+2d0e372a69344d5a8dd6d0f4a7cac0325120591d virtchnl: Remove unused VIRTCHNL_VF_OFFLOAD_RSVD define
+94d13b012fc305d82b07770deaf9e6fd57e0aedb virtchnl: Use the BIT() macro for capability/offload flags
+999d2d9d6c16ec33acdc9806cdc6fd8ee0973282 i40e: Fix failed opcode appearing if handling messages from VF
+7991f3b4590c9a3ba24591a051777643801f7add iavf: check for null in iavf_fix_features
+2c053ee520f9aedcd58e908869ddc9b5967d6464 iavf: free q_vectors before queues in iavf_disable_vf
+fb86a3107d96e0dca9ef518835c40ce9d85a701f iavf: don't clear a lock we don't hold
+7fd5898160650fed434eb13fdec4cbaccd2c4a55 iavf: Fix failure to exit out from last all-multicast mode
+10eb7f40874068654cd15a0bfa81cee35b2b4271 iavf: prevent accidental free of filter structure
+352d8ad14d33367b6050bf6f2265f07f270fb736 iavf: validate pointers
+1bef17b17d5ff203b6e040002cb34f469d862f7a iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+e430c6c514d8ca84cf69c463ab2975076e830bdd iavf: Fix for setting queues to 0
+ae4821e237010ef7d72c4be4619226f622b786eb iavf: Restore non MAC filters after link down
+5e98d83e7993b7e34f7ea51551e9f670f0917e3f iavf: restore MSI state on reset
+7c38a9a99db1a87a3ebe1396f887b820dad351e2 iavf: Add change MTU message
+47717af6f48afe47a17690ff073256c103aaa07b iavf: Prevent changing static ITR values if adaptive moderation is on
+78eb7e46b4548d8e0ea1eeb9af9b0d10469753d8 iavf: Log info when VF is entering and leaving Allmulti mode
+6516bb252449d8c88e650fa43a8e7cc2f1b6fb62 iavf: return errno code instead of status code
+b70df1dd125ff2fa4c5601a9f2d6707efa6ae5f5 iavf: don't be so alarming
+c0e7ef9713481619a418ff6687f0f1a8a29c9111 i40e: Refactor arrow operator usage in i40e_update_adq_vsi_queues()
+2a7b4917415e48683bf90a269558731e8ea8fac4 i40e: Add ensurance of MacVlan resources for every trusted VF
+cd0131db65fa47b5d5841f17b4a953dae18a47f8 i40e: Fix creation of first queue by omitting it if is not power of two
+6ca33ce4f3b0f0a1e03427b2b689bbf8ed42ca26 iavf: Add trace while removing device
+1dc03bcac95da8fe8ac4720ea0359ff0ab0ee04e ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
+f5e3da236cc92fadf3130f8b3e17bb7d3142ade7 ixgbevf: Improve error handling in mailbox
+5b801aa0365950f0281528cb76f43c57092b6080 ixgbevf: Add legacy suffix to old API mailbox functions
+dc6d28b5c410c7a03314c93fb311b6828fe01287 ixgbevf: Mailbox improvements
+08b043cbce37d06706a03c551cc299a3fe1f3a76 ixgbevf: Add support for new mailbox communication between PF and VF
+31ff8c4556e3b2c6d23f3fd12e49299d38e5e971 igbvf: Refactor trace
+0a4709f4914ea625f61067b692ed282250f0e0b9 ice: rearm other interrupt cause register after enabling VFs
+752ec5cd75f5ca3817c55f64a7265d6db084dc7a i40e: Fix pre-set max number of queues for VF
+962eef51d968c0abaf7d517b249ae854404d2774 iavf: Enable setting RSS hash key
+dd9c12057a6e0bd6257a2b6cf7c9f12829d75d24 ice: Add package PTYPE enable information
+24231e184c6797d8df90e4e9963ee791fbb16622 ice: refactor PTYPE validating
+c84ea7d46d0884ebc57c587bda7acd94fab9d5de igc: Remove media type checking on the PHY initialization
+63103ba061a4493ef3346b79e56b62b91aedab6b i40e: Fix issue when maximum queues is exceeded
+3b11f87419685cc49e944b3002684afbdce5ea79 iavf: Fix static code analysis warning
+27da8cd8a3f5e04c35d6dc93361e021130d6308b igb: Fix removal of unicast MAC filters of VFs
+0829cb0b678d602ba1e448fe5520531e6753ecff iavf: Refactor iavf_mac_filter struct memory usage
+c9acb947cd1f1ea4febfcb4c050c477b555685ec igc: Add new device ID
+43eca5028f32ccd62dcd3f9377c65af12dd14970 iavf: Refactor text of informational message
+1be03b2a0565655dfab15dcf31fb00a382dd9d53 iavf: Refactor string format to avoid static analysis warnings
+c13b7c744bf49a6cafd794cf4a322ed5936df271 iavf: Fix limit of total number of queues to active queues of VF
+5b5147f48937d753a78edcdb621f8bacad6d211b iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+d2aa7358b75d4a42c764a681864093b4d9ca1fb6 i40e: Fix delay after global reset
+8ff3a407bcf3e1d555ad17757b0ed6d36dfc7630 iavf: Fix deadlock occurrence during resetting VF interface
+1b5fd9446606fdeda5a7427660e223507f89ef3f ice: Fix not stopping Tx queues for VFs
+23c688560b7531e86ce5a90adef20fef8d6a276c ice: Fix race conditions between virtchnl handling and VF ndo ops
+430dd8b350a886103b48aae8416a37651d564dbe igc: Change Device Reset to Port Reset
+c183f7a1279815592a06e435a6ce2d3f29780671 net: ixgbevf: Remove redundant initialization of variable ret_val
+400573b763d897c0d723e8a5705347e038dc5258 iavf: Fix refreshing iavf adapter stats on ethtool request
+8d2992200fa96d3018503a52b3616dbf42c97436 iavf: Add helper function to go from pci_dev to adapter
+6bb811e48aa1b5bafc7efddaf07c113a57a75f92 iavf: Fix displaying queue statistics shown by ethtool
+1f034ea0670646902f5b05c860679b801cf9598c intel: Simplify bool conversion
+8f4eab54c7beeb4b3c45eba52bb6dbd91d1c308d i40e: avoid spin loop in i40e_asq_send_command()
+5110868551031ecbcc3bdb4bea0cede839609951 ice: Simplify tracking status of RDMA support
+8b8e82763ac0109750943d4a855fc84f7d972442 ice: support for indirect notification
+e9198eacdcbf396b6a1b6147062583210c452511 ice: VXLAN and Geneve TC support
+9bd8c5e89416fc02a7c17db002426080833a1bf5 ice: low level support for tunnels
+790bee9f534a0223be02be645d0f822b61e46100 ice: support for GRE in eswitch
+232ea8feb2cad0a6faadc26ead54ba8c6506f337 ice: fix error return code in ice_get_recp_frm_fw()
+aab00d4d45e228c4d2a89a6df973226109875ca2 ice: Refactor status flow for DDP load
+94e0b7785cc429f3ed5283d1516a411e58d605ee ice: Remove string printing for ice_status
+a9eab20b4f68ac5887a4cba3272c03dd1d693265 ice: Use int for ice_status
+38f2b35993c585db461644318a686cf9b0f529ce ice: Remove enum ice_status
+c43e2af1d8b408a785ef912e3ae095ac4eca1485 ice: Cleanup after ice_status removal
+d87c3950a37fe9f2e7b09b1d9ae87fb853074e8a ice: Remove excess error variables
+7a775ad1260f650e3293957a4fe699abb41abe3d ice: Propagate error codes
+ed2c0705f743cadcf2aeb6efb2b0363ee60e40c1 ice: devlink: add shadow-ram region to snapshot Shadow RAM
+b3ff916d688a2aac64990a49decc81467968ccae ice: move and rename ice_check_for_pending_update
+2fbf388afeb2428de0f795e92ab5832b9875f605 ice: move ice_devlink_flash_update and merge with ice_flash_pldm_image
+73203da52a94ce9926eba538604ccbbdda737746 ice: support immediate firmware activation via devlink reload
+7998a495cc8efaf2299de168778b04480827747e ice: Fix problems with DSCP QoS implementation
+8e76d86469bfb94699180dbde8b4636a78d98aa7 ice: introduce ice_base_incval function
+f1ee4a1049134844d51b4a8508b59f56adbc94a9 ice: PTP: move setting of tstamp_config
+d0dfbccf3e5e1393e8f86cb1b19d905db7a36cbc ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
+c0c5a20f07503495e8fa4289a5aa74cf34a6dfc9 ice: introduce ice_ptp_init_phc function
+80c0466cbd48b4a960f5e6680a05837c7f8d43cb ice: convert clk_freq capability into time_ref
+97c1209618029647583d44c80a639644778c71b3 ice: implement basic E822 PTP support
+c193f7b3b4e257961609564932254ba9017a38e1 ice: ensure the hardware Clock Generation Unit is configured
+0471a4c1e5f30572fa0aa6a2d38afcb4d307a1b4 ice: exit bypass mode once hardware finishes timestamp calibration
+9f7d58d5bbf08d9fd1b86df9dbcd6c8dd7593710 ice: support crosstimestamping on E822 devices if supported
+ceaf8cc0c8f65def93964b949617dfe2fa498ac3 igc: Remove unused _I_PHY_ID define
+68c979e5e6da0967e62b33a8a2d7a978bd7a1000 ice: send correct vc status in switchdev
+dd3f2b8f545ed13e0b6ceb4d05c10831076fe99f ice: Add support to print error on PHY FW load failure
+d310d6dd6bd3be072735bb548f2ed97b4598bd61 igb: move SDP config initialization to separate function
+8a49510c6bd89b60d50321f89bac2387762c0248 igb: move PEROUT and EXTTS isr logic to separate functions
+7b96b62b007a594e133a3d663e1bce5c556ae35c igb: support PEROUT on 82580/i354/i350
+9bdcbebd9310b14d702f1d312fbd8b2f33f40aa9 igb: support EXTTS on 82580/i354/i350
+fcd82c188d3ee2aba471266069aeeaebbc53aacf ice: Add support for changing MTU on PR in switchdev mode
+c2889e762b194018052ba178d55ffc8e194c13ac devlink: Add 'enable_iwarp' generic device param
+8932bf541f0525993bcc0cff8fa273ee70e396e2 ice: Add support for enable_iwarp and enable_roce devlink param
+0ff095b0a0b742f62e9dc3ee2bc5ed2629e1191e RDMA/irdma: Set protocol based on PF rdma_mode flag
+b2959714f3e7234e8c7552c265f4cfcf76f5db32 ice: Fix clang -Wimplicit-fallthrough in ice_pull_qvec_from_rc()
+3defdc40caa7e942b8596c8ad181ef4be683e500 iavf: Fix kernel BUG in free_msi_irqs
+ca71355aa6f9a209a786e02c6b399c5f0b4724ba ice: ignore dropped packets during init
+6f1b9e485119a32e124857257ebed20ec688c539 igc: Remove unused phy type
+ce48c74aa35594c90a7d5648eeed830f640150d5 ice: update to newer kernel API
+a82e6f4cd50e26924bae2881a7c48ee0f95e91ba ice: use prefetch methods
+15283cba4f33721e110d521469df9cda8393d8a8 ice: tighter control over VSI_DOWN state
+ef19e772a76941c468ad2e687ba4551db24a520e ice: use modern kernel API for kick
+4ae77f9f7f4bc8d91ac0966c1f14b0e42e57fe02 ice: fix vsi->txq_map sizing
+0f1beaac29b6ac5678076133a0b581c988e10d76 ice: avoid bpf_prog refcount underflow
+eb02d547ddb2bf6c9934d872edae03a79dc805eb ice: replay advanced rules after reset
+9ad2d3c75018bf86119911e5444350fd91ee917a ice: improve switchdev's slow-path
+12719bd96fa9a072f145febc7827b803997a2020 ice: Clear synchronized addrs when adding VFs in switchdev mode
+c290308e3cd3e03b53ac660a96cb9339fd047c57 ice: Hide bus-info in ethtool for PRs in switchdev mode
+7bbdf6a3a70f9525724070e44da13c6f0d11731f ice: remove unnecessary RTNL lock assert
 
---===============1774538691381175013==--
+--===============0680958329719433640==--
