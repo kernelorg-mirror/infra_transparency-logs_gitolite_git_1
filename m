@@ -1,120 +1,145 @@
-Content-Type: multipart/mixed; boundary="===============1690523479401763456=="
+Content-Type: multipart/mixed; boundary="===============6229683771695168864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 28 Oct 2021 06:12:40 -0000
-Message-Id: <163540156065.17025.15061264574044278125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 28 Oct 2021 07:03:29 -0000
+Message-Id: <163540460988.16122.11648695745790650339@gitolite.kernel.org>
 
---===============1690523479401763456==
+--===============6229683771695168864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: 4fc7c4799014dd27d6584d4643f402720bef1f97
-    new: a6ec5e5fb57716636357ba7cbcf096c66e8e7d1f
-    log: revlist-4fc7c4799014-a6ec5e5fb577.txt
-  - ref: refs/heads/seen
-    old: 38bf63f24e577eb09e23dfa000b4aa2ec738964e
-    new: 645cd4e6c73944283d3c5a374c4198a08e080704
-    log: revlist-38bf63f24e57-645cd4e6c739.txt
+  - ref: refs/heads/mlx5-queue
+    old: 4932cf23e23a414c5fd2e01e53f1bc6cf35a5fbb
+    new: 448dcc377eccc563f2d8722e387b8c2d943a4c41
+    log: revlist-4932cf23e23a-448dcc377ecc.txt
 
---===============1690523479401763456==
+--===============6229683771695168864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4fc7c4799014-a6ec5e5fb577.txt
+Content-Disposition: attachment; filename=revlist-4932cf23e23a-448dcc377ecc.txt
 
-203eb8381a3351ce4d92456f5f9a6d21ea1d2f6f format-patch (doc): clarify --base=auto
-8252ec300e5bfb97ae0a0eca3af8d69730731464 branch (doc): -m/-c copies config and reflog
-6a9a50a8afd7f7dead7495fdc2c9b4053acfefc6 command-list.txt: remove 'sparse-index' from main help
-85bc0065612d83f6297d24f0cf62b2e2a0f33d25 git-multi-pack-index.txt: change "folder" to "directory"
-c314b62553e2abf9055aa58d5e4ed2e5bb8c9f64 gitignore.txt: change "folder" to "directory"
-236bae14da6240b68bfab783623b602af2ffc003 gitweb.txt: change "folder" to "directory"
-a4dfb4491e36f4e689aa9a7448490726eb71d4ca git-bundle.txt: add missing words and punctuation
-020dc425a49713c9eecbf0eb283ae552c7f4d4a1 Merge branch 'sg/sparse-index-not-that-common-a-command' into next
-99200092f78bcdcfd07e1794e71aa8b88b06b467 Merge branch 'ma/doc-folder-to-directory' into next
-32c227324a169485b5ae7aeb0954b36624007818 Merge branch 'jc/doc-format-patch-clarify-auto-base' into next
-efc3d304571f27c7a0a1e54a74222238c6f80ee3 Merge branch 'jc/branch-copy-doc' into next
-a6ec5e5fb57716636357ba7cbcf096c66e8e7d1f Merge branch 'ab/unbundle-progress' into next
+8de1e9b01b03d2805f58aa490ea5bf0df003bc80 net/mlx5: Add uid field to UAR allocation structures
+d2c8a1554c10d5e0443b1f97f480d7dacd55cf55 IB/mlx5: Enable UAR to have DevX UID
+8208461d3912e3e97e31bcbd4ce716e4a251a5dd net/mlx5: Add ifc bits to support optional counters
+b8dfed636fc6239396c3a2ae5f812505906cf215 net/mlx5: Add priorities for counters in RDMA namespaces
+cf6a8b1b24d675afc35a01cccd081160014a0125 RDMA/mlx5: Remove iova from struct mlx5_core_mkey
+062fd731e51ee29ba745b2fd1c7ac87dd460d4ca RDMA/mlx5: Remove size from struct mlx5_core_mkey
+c64674168b6a2f293e92caf33c917ccf10886801 RDMA/mlx5: Remove pd from struct mlx5_core_mkey
+83fec3f12a5904b62330fd1a89af6d892afc387e RDMA/mlx5: Replace struct mlx5_core_mkey by u32 key
+4123bfb0b28b77b944360be8c758b1a0974e96ad RDMA/mlx5: Move struct mlx5_core_mkey to mlx5_ib
+ae0579acde812bc1efd074086ae3bc5eae170f20 RDMA/mlx5: Attach ndescs to mlx5_ib_mkey
+60dd57c7479418e2bc902143eb46a2fdcfeecbbb Merge brank 'mlx5_mkey' into rdma.git for-next
+537e4d2e6fe3c5481c49e0424f4950cc89c746ec net/mlx5e: don't write directly to netdev->dev_addr
+a64c5edbd20ec042fcd719c6aec0574e68db618b net/mlx5: Remove unnecessary checks for slow path flag
+038e5e471874d26881d5f3b234c78e41a71ad606 net/mlx5: Fix unused function warning of mlx5i_flow_type_mask
+2fdeb4f4c2aea53a6a2e8adb69e811cf304a0ae5 net/mlx5: Reduce flow counters bulk query buffer size for SFs
+cb464ba53c0cb497dcb4a3daaf4fad4b75291863 net/mlx5: Extend health buffer dump
+b87ef75cb5c98a16a7b8e01765277890a6a175cd net/mlx5: Print health buffer by log level
+5a1023deeed02a2078bcc11eec1c4be31e85892d net/mlx5: Add periodic update of host time to firmware
+2deda2f1bf4e4778dc6ff62e37cedee92098cc2c net/mlx5: Bridge, extract code to lookup and del/notify entry
+3518c83fc96b46d10fcb9b185334d0a012241c16 net/mlx5: Bridge, support replacing existing FDB entry
+46ae40b94d8826591472798114a723cc7feac7a7 net/mlx5: Let user configure io_eq_size param
+a6cb08daa3b459e3dab1d98c67cb8c931f4d81a5 net/mlx5: Let user configure event_eq_size param
+554604061979d656bbbec50f101526349cd5aa5f net/mlx5: Let user configure max_macs param
+b3ccada68b2d29d0ff44c0314bd8d7e4c9fa2ca9 net/mlx5: SF, Add SF trace points
+d67ab0a8c130be38b6dda8da3616a97f020ac424 net/mlx5: SF_DEV Add SF device trace points
+cf12e6f9124629b18a6182deefc0315f0a73a199 tcp: don't free a FIN sk_buff in tcp_remove_empty_skb()
+4900a7691574033baef966ee7246d7bb8a930283 Merge tag 'mlx5-updates-2021-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+8e0538d8ee061699b7c2cf0b193cc186952cbc21 netfilter: conntrack: skip confirmation and nat hooks in postrouting for vrf
+8c9c296adfae9ea05f655d69e9f6e13daa86fb4a vrf: run conntrack only in context of lower/physdev for locally generated packets
+be348926448ae11333e4e025580ec9ce650e4d0a Merge branch 'netfilter-vrf-rework'
+d25d7fc31ed2a4ea9496ac2ba71f6f775bee98bd mlxsw: reg: Add MAC profile ID field to RITR register
+a8428e5045d76dad945807cfd691fdb8d0e9a704 mlxsw: resources: Add resource identifier for RIF MAC profiles
+26029225d9927b75cd26cdccc1d0b766e47b9647 mlxsw: spectrum_router: Propagate extack further
+605d25cd782a67f0c9d871096ee04acfe14f89ca mlxsw: spectrum_router: Add RIF MAC profiles support
+1c375ffb2efab992b74fb1801c2e0bb2051a6e6e mlxsw: spectrum_router: Expose RIF MAC profiles to devlink resource
+152f98e7c5cb472e37d44ff8bb07029e77e9508d selftests: mlxsw: Add a scale test for RIF MAC profiles
+a10b7bacde60894b999cf9b5fa194ad55f7ded41 selftests: mlxsw: Add forwarding test for RIF MAC profiles
+20d446db6144ff2d60dfebb9db7bea885d7b726b selftests: Add an occupancy test for RIF MAC profiles
+c24dbf3d4f884527bce85417db3065fd5d65dc89 selftests: mlxsw: Remove deprecated test cases
+72b93a86856cfe9358752d8797a729ca8e9b6a5f Merge branch 'mlxsw-rif-mac-prefixes'
+d18785e213866935b4c3dc0c33c3e18801ce0ce8 net: annotate data-race in neigh_output()
+f8dd3b8d70206a0d427ffb0aada6dcada1cf3720 tcp: rename sk_stream_alloc_skb
+8a794df69300cf2f889b4f02ada9c54baa9bca91 tcp: use MAX_TCP_HEADER in tcp_stream_alloc_skb
+c4322884ed2132beee95a16234035ad7cc991f09 tcp: remove unneeded code from tcp_stream_alloc_skb()
+3247e3ffafd91b231d5def0cc62f92117671d01f Merge branch 'tcp_stream_alloc_skb'
+eafaa88b3eb7f28aecb222281655473431d3ef2e net: hsr: Add support for redbox supervision frames
+a137c069fbc1972bdaf2dd6c75083cd2f3e6e3d7 net: mana: Allow setting the number of queues while the NIC is down
+3c5548812a0cf536b98f8d9f7f9377bd304809c1 net: ax88796c: Fix clang -Wimplicit-fallthrough in ax88796c_set_mac()
+971f5c4079ed46a131ad3ac6e684ed056a7777da net: ax88796c: Remove pointless check in ax88796c_open()
+99ce45d5e7dbde399997a630f45ac9f654fa4bcc mctp: Implement extended addressing
+046178e726c2977d686ba5e07105d5a6685c830e ifb: Depend on netfilter alternatively to tc
+d7d0d423dbaa73fd0506e25971dfdab6bf185d00 net: dsa: flush switchdev workqueue when leaving the bridge
+425d19cedef8f5ad5cff07ac545d51feec29733c net: dsa: stop calling dev_hold in dsa_slave_fdb_event
+656bcd5db804b1c66971c62934266226c0164040 Merge branch 'dsa-isolation-prep'
+8e20f591f204f8db7f1182918f8e2285d3f589e0 net: phy: add phy_interface_t bitmap support
+38c310eb46f5f80213a92093af11af270c209a76 net: phylink: add MAC phy_interface_t bitmap
+d25f3a74f30aace819163dfa54f2a4b8ca1dc932 net: phylink: use supported_interfaces for phylink validation
+4d2af64bb7f56292842fb7d9aceaea7e98d3f1e4 Merge branch 'phy-supported-interfaces-bitmap'
+6b3671746a8a3aa05316b829e1357060f35009c1 net/mlx5: remove the recent devlink params
+06338ceff92510544a732380dbb2d621bd3775bf net: phy: fixed warning: Function parameter not described
+7529cc7fbd9c02eda6851f3260416cbe198a321d lib: bitmap: Introduce node-aware alloc API
+54b2b3eccab63e0c359aad562498cd9f49a1547d net: Prevent HW-GRO and LRO features operate together
+50f477fe9933193e960785f1192be801d7cd307a net/mlx5e: Rename lro_timeout to packet_merge_timeout
+7025329d208cae45937d2a0910786a45b9981475 net/mlx5: Add SHAMPO caps, HW bits and enumerations
+eaee12f046924eeb1210c7e4f3b326603ff1bd85 net/mlx5e: Rename TIR lro functions to TIR packet merge functions
+d7b896acbdcb3ef5dab1fd2f33ba5a8da6ba1dda net/mlx5e: Add support to klm_umr_wqe
+e5ca8fb08ab2c4b2c9ea31a41a02ae2a0236ded4 net/mlx5e: Add control path for SHAMPO feature
+f97d5c2a453e26071e3b0ec12161de57c4a237c4 net/mlx5e: Add handle SHAMPO cqe support
+64509b05252587fbf9a02fb1458eeb81bf942bb8 net/mlx5e: Add data path for SHAMPO feature
+92552d3abd329fbc598c9ded30743ab96df36a30 net/mlx5e: HW_GRO cqe handler implementation
+def09e7bbc3d85844443cb4bf13faae969ea115f net/mlx5e: Add HW_GRO statistics
+83439f3c37aa811223f16704d2d7dc743a7fa4e0 net/mlx5e: Add HW-GRO offload
+ae3452995bd4723549520e3d61d0ccbcacb2745f net/mlx5e: Prevent HW-GRO and CQE-COMPRESS features operate together
+8ca9caee851c444810b70d9c167e7321f3ff68f8 net/mlx5: Lag, Make mlx5_lag_is_multipath() be static inline
+c230dc8627de832fe13bee64613a52a46c5b54ab Merge tag 'mlx5-updates-2021-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+fdedb695e6a8657302341cda81d519ef04f9acaa net: mvneta: populate supported_interfaces member
+d9ca72807ecb236f679b960c70ef5b7d4a5f0222 net: mvneta: remove interface checks in mvneta_validate()
+099cbfa286ab937d8213c2dc5c0b401969b78042 net: mvneta: drop use of phylink_helper_basex_speed()
+e334df1d33b6d68f4441494e2d0e2640dd1bfdde Merge branch 'mvneta-phylink'
+4682048af0c819872fa1d43578338cfa528f7504 net: bridge: remove fdb_notify forward declaration
+5f94a5e276ae8e592bdeea80becc262f7b193033 net: bridge: remove fdb_insert forward declaration
+4731b6d6b257dfa7c684a05fe5bc31788f0314c9 net: bridge: rename fdb_insert to fdb_add_local
+f6814fdcfe1ba0a56eb14e16349dfbd21dadf333 net: bridge: rename br_fdb_insert to br_fdb_add_local
+9574fb558044ce99cba8a9f062a4c9de9817d8ba net: bridge: reduce indentation level in fdb_create
+5cda5272a4605c34740859378bf7a7940229feca net: bridge: move br_fdb_replay inside br_switchdev.c
+fab9eca88410ddd22e4c4bb275849b8327b49a60 net: bridge: create a common function for populating switchdev FDB entries
+716a30a97a52aa78afd70db48d522855f624e7e0 net: switchdev: merge switchdev_handle_fdb_{add,del}_to_device
+6487c819393ed1678ef847fd260ea86edccc0bb3 Merge branch 'br-fdb-refactoring'
+fb9d19c2d844c415d612bb93c231abf2ccf2a821 Revert "devlink: Remove not-executed trap group notifications"
+c5e0321e43deed0512b34d8d8d40a16c0e22b541 Revert "devlink: Remove not-executed trap policer notifications"
+4796e2518a52c23769c51b41f100f3fa369e7e61 Merge branch 'two-reverts-to-calm-down-devlink-discussion'
+f25c0515c521375154c62c72447869f40218c861 net: sched: gred: dynamically allocate tc_gred_qopt_offload
+11f94a4fff1a62ae7a0eb1b4930787ccaded2496 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+8433ae2e08751f56ba1e216d71e4024460a310e1 net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
+d199d98f6d63c7fa79de80a6263d9e5221680649 net/mlx5: CT: Remove warning of ignore_flow_level support for VFs
+b5971b6c53bfcbd8c0d891063c36bfa88384571a net/mlx5e: IPsec: Refactor checksum code in tx data path
+ccd9d059ca98cccb976d1be14f41859ed3faea7a net/mlx5e: Refactor rx handler of represetor device
+a9152976cc20f45dafed05a350151a7c116255d2 net/mlx5e: Use generic name for the forwarding dev pointer
+84fffa5799da2ecae4168300a6b152cb85e2e71c net/mlx5: E-Switch, Add ovs internal port mapping to metadata support
+d466aa76f56c9aa2c90a1b79b58415e501a06fa6 net/mlx5e: Accept action skbedit in the tc actions list
+94920d202bf4fca26736f138e387cffe0f00587d net/mlx5e: Offload tc rules that redirect to ovs internal port
+c7bb66c6801abc486a32d474dd7259edbd3d0e51 net/mlx5e: Offload internal port as encap route device
+ac717e77c9f1a0652f8896a5bfe262471012431f net/mlx5e: Add indirect tc offload of ovs internal port
+2adefe45e2986565b6f947ef9fab5d0e33a865c2 net/mlx5e: Term table handling of internal port rules
+2a8cb3ffe15da61c837339b61698c29d625b357f net/mlx5: Support internal port as decap route device
+9e09c11463c38591097026c6399571a773bec805 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+ed810bb8fb50faefef55f61da90bdc05d8a5c487 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+f4039b70b026265e3d2798b86408a0b40079ee5e net/mlx5e: Allow profile-specific limitation on max num of channels
+805379704c0cd483aca268e4b5d42d7a517f8599 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+27fbca99597c41cb097ada5dffaa55262700b8f4 net/mlx5e: Allocate per-channel stats dynamically at first usage
+4020fea199518334103ee3e688aae4b8ae97dfb3 Merge branch 'patchq/441693' into mlx5-queue
+5d78842c1c241952f7269edeb79698740d6b87d2 net/mlx5: DR, Fix querying vport 0 capabilities
+5861c72b4daaa0f0994fa8f4a4f134f6693ba899 Merge branch 'patchq/394186' into mlx5-queue
+5f8188d47c7e9cf949252158a39a7bfec80822a8 Merge branch 'patchq/432332' into mlx5-queue
+448dcc377eccc563f2d8722e387b8c2d943a4c41 Merge branch 'patchq/435320' into mlx5-queue
 
---===============1690523479401763456==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38bf63f24e57-645cd4e6c739.txt
-
-6a11309447dcaaadb3a90cc683f70797ca0c55f7 progress.c tests: make start/stop commands on stdin
-b185b0abd1b633803853e8e6acfe3bd4ab0b4654 progress.c tests: test some invalid usage
-8e2273e32c057d249ab92618869bb52c8e9b1422 progress.c: add temporary variable from progress struct
-1ac7663bfa9a03b44e442c6e48905577ebaf1241 pack-bitmap-write.c: don't return without stop_progress()
-2c62753dd301b37f882ce01a2a3c33de39c651d2 various *.c: use isatty(1|2), not isatty(STDIN_FILENO|STDERR_FILENO)
-2d6eb0a18b56dc0c4c59fe51e59b008cb0a6f459 progress.c: add & assert a "global_progress" variable
-d00211f82ebe8b911f0635b979c7f93c72600399 Merge branch 'bs/doc-blame-color-lines' into jch
-e2ad2011db5332d09c5c1ea7cdaacaede59f6d48 Merge branch 'ab/make-sparse-for-real' into jch
-e8aa90da4ea18cb4022d59d5ebb64a0a652583b6 Merge branch 'ab/test-bail' into jch
-6ff0224a0a5b42d66c0f639278ec227cc4617026 Merge branch 'jk/http-push-status-fix' into jch
-4d4cd78c156d592127dc3ce2b26ed4931e460922 Merge branch 'ab/ref-filter-leakfix' into jch
-cc8c2417a35ac16cfc454c9fb8fab9323c94c882 Merge branch 'ab/plug-handle-path-exclude-leak' into jch
-7d082182e8399d95e03e8a66b97049b5733a5271 Merge branch 'ab/plug-random-leaks' into jch
-6eaedb653e18758b156434419a36697ff6e8953e Merge branch 'ab/sh-retire-rebase-preserve-merges' into jch
-07000795964b48be9ed4aeb33162baf0b20804ba Merge branch 'ab/fix-make-lint-docs' into jch
-2e2a19158c971c68ea8274f38b1bf37bab0eca90 ###
-af7cb076bd7825a2dea88cb8d4f4a022134bb319 Merge branch 'ns/tmp-objdir' into jch
-fee5d1904e513963487d5d8800b1c240ec45a896 Merge branch 'ns/batched-fsync' into jch
-8f5535718faed481491d74da52bef2b9ec314a20 Merge branch 'jk/loosen-urlmatch' into jch
-4a97fd8ad63cc2b6554d6096b941f9fcac8f79df Merge branch 'hm/paint-hits-in-log-grep' into jch
-8b175077e0f67ca9d4385a0be650df2e1a7a7b3d Merge branch 'ab/ignore-replace-while-working-on-commit-graph' into jch
-2e222a155e5b02494fe1ffc2e40608c65889d170 Merge branch 'so/stash-staged' into jch
-ef2c534bdf70001e5e65ad54895d64edc27bedc8 Merge branch 'gc/use-repo-settings' into jch
-27a5b12e8e77024d87a778966c6aa5c94f42f7dd Merge branch 'ks/submodule-add-message-fix' into jch
-b1200149f8ed3bb9c46d215662f0480bbced247b Merge branch 'bs/archive-doc-compression-level' into jch
-5f51af64cde89828ade936bd4da614e2b057c82f Merge branch 'js/expand-runtime-prefix' into jch
-f6f11387f34bdc8b0e13ba6816abf37b73c7cbf4 Merge branch 'ma/doc-git-version' into jch
-7308b26c90827de52e576c534d2bd29ab76676c3 Merge branch 'sg/sparse-index-not-that-common-a-command' into jch
-d9de4aa4c64644164ccd2d7f52f3894d75d0cc39 Merge branch 'ma/doc-folder-to-directory' into jch
-8cca33631ad549956a3285e63ac1e6e5362f4f75 Merge branch 'jc/doc-format-patch-clarify-auto-base' into jch
-4a4f88835608b16061377f8bf2481cab39412dd5 Merge branch 'jc/branch-copy-doc' into jch
-a7ab79f2360a559411fbc109ec98ee9ef2aac01c Merge branch 'ab/unbundle-progress' into jch
-748917c39a4a8a85687442bcd1641f3c41aaefc2 ### match next
-e2efd49f8e4502ada398e190696c185d677fbf1e Merge branch 'ow/stash-count-in-status-porcelain-output' into jch
-b8d2ab7c3d6d4ee973364c0f1393e46adaed9a9b Merge branch 'ab/refs-errno-cleanup' into jch
-07c3f492b93a063be1da7b3ef59e24ecbeee2d7d Merge branch 'jc/tutorial-format-patch-base' into jch
-4a4d7c178ed43636d1e9eb93f7f37967edaf8bdd ###
-d67ac24b207118b5b519cee023525015dac16c11 Merge branch 'tp/send-email-completion' into jch
-7fd8421fd645b7976f10ae93c47a181b35f01452 Merge branch 'vd/sparse-sparsity-fix-on-read' into jch
-8ccebb9455f346bf0a34d9879a426012619185d3 Merge branch 'js/branch-track-inherit' into jch
-6b642d85ef4648c24d4a238ac95880f16e85ebb3 Merge branch 'jc/fix-pull-ff-only-when-already-up-to-date' into jch
-ebdaf3650dd84d2ddc14598b58b9993d61fc11eb Merge branch 'jc/fix-ref-sorting-parse' into jch
-369e0ed77bc1bb79f3f936c2004bdde42642a2ad Merge branch 'tb/plug-pack-bitmap-leaks' into jch
-18c269bad5c7da39c03f4e2f20e8a68cee238005 Merge branch 'ab/sh-retire-helper-functions' into jch
-19d124b120846fcff9b4bcb71ea1a5b4543b034c Merge branch 'rd/http-backend-code-simplification' into jch
-9137471b0c4dfe1849bf7e079db6d952b7856950 Merge branch 'jc/doc-submitting-patches-choice-of-base' into jch
-856faa0e9c8c454789718acaf8cfef87401ecbf9 Merge branch 'fs/ssh-signing-key-lifetime' into seen
-b9718499f5cd4a8a64e2aef44ec7a45458aaa953 Merge branch 'ab/only-single-progress-at-once' into seen
-848a8c6168997c0d5aeaa06f0b97e530ac2af1cd Merge branch 'ab/generate-command-list' into seen
-fc5917569f2c094f8ddfa32959f4a48cf672bdcd Merge branch 'js/scalar' into seen
-9e62eae95b008d28ed9e1b8c31fade78fe3f97a8 Merge branch 'ms/customizable-ident-expansion' into seen
-def64e1ccd824ecb4c8f0aa080637ceb6eeb267d Merge branch 'en/zdiff3' into seen
-fc6e333c2d65310654e916280ed19b00ebab1b1e Merge branch 'cf/fetch-set-upstream-while-detached' into seen
-9f6ea421672237406f681cc2a637a25d1af8d579 Merge branch 'pw/diff-color-moved-fix' into seen
-f6240f369e8181229c070b0c5c4aeb8854ae41d7 Merge branch 'es/superproject-aware-submodules' into seen
-226702b435d660688bd477ab22a5af69ebc18cb1 Merge branch 'pw/fix-some-issues-in-reset-head' into seen
-c0223b58fbc8d2d936a9102b8f5b3f0ba741c069 Merge branch 'hn/reftable' into seen
-b634b1791d358c30e0e510503d2439ba68b120e6 Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into seen
-59a625797ccb9232e9b53b37746ff4c3e0fa12cb Merge branch 'ns/remerge-diff' into seen
-bab085fefe185a9e26f2108b5e83641290a74920 Merge branch 'vd/sparse-reset' into seen
-7cad2f232905f638636fa6e6704ee24bd115cbec Merge branch 'ld/sparse-diff-blame' into seen
-7012fe7f515d04485f771631a68bff7ecf3fc025 Merge branch 'ab/config-based-hooks-2' into seen
-2a6914162cf0957598beca330de5b319e53ec97b Merge branch 'jh/builtin-fsmonitor-part2' into seen
-72f714e49261b796a940138efb0df9a6cdcaaae7 Merge branch 'gc/remote-with-fewer-static-global-variables' into seen
-b4d2beac389ffaa104a662bc580917d304ea4da4 Merge branch 'es/pretty-describe-more' into seen
-662ca5a5d7a84da8b7600ccc4e5dbf49e3021ff7 Merge branch 'if/redact-packfile-uri' into seen
-645cd4e6c73944283d3c5a374c4198a08e080704 Merge branch 'ar/fix-git-pull-no-verify' into seen
-
---===============1690523479401763456==--
+--===============6229683771695168864==--
