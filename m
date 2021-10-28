@@ -1,76 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============3132846065767350794=="
+Content-Type: multipart/mixed; boundary="===============2984204014218983720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 28 Oct 2021 18:50:04 -0000
-Message-Id: <163544700412.24326.3009922587720612519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 28 Oct 2021 19:10:15 -0000
+Message-Id: <163544821540.4059.10764299378719850037@gitolite.kernel.org>
 
---===============3132846065767350794==
+--===============2984204014218983720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-5.16/block
-    old: 57a13a5b8157d9a8606490aaa1b805bafe6c37e1
-    new: 02f7eab0095a47b45f48a4321d33de3569c59061
-    log: |
-         02f7eab0095a47b45f48a4321d33de3569c59061 block: improve readability of blk_mq_end_request_batch()
-         
-  - ref: refs/heads/for-5.16/io_uring
-    old: 3884b83dff245e41def99ceacca8ed2056baf0a8
-    new: 57d9cc0f0dfe7453327c4c71ea22074419e2e800
-    log: |
-         db3191671f970164d0074039d262d3f402a417eb io_uring: refactor event check out of __io_async_wake()
-         34ced75ca1f63fac6148497971212583aa0f7a87 io_uring: reduce frequent add_wait_queue() overhead for multi-shot poll request
-         57d9cc0f0dfe7453327c4c71ea22074419e2e800 io_uring: don't get completion_lock in io_poll_rewait()
-         
-  - ref: refs/heads/for-next
-    old: 5f6f1dc0433b524633f6f069ae4032ffaa0d81e5
-    new: 2a06989064552b0b4207f30d3c7ffdbc707f9e77
-    log: |
-         02f7eab0095a47b45f48a4321d33de3569c59061 block: improve readability of blk_mq_end_request_batch()
-         2c2a28f57c2fb45dbf6dfebf0af69a163f54baf8 Merge branch 'for-5.16/block' into for-next
-         db3191671f970164d0074039d262d3f402a417eb io_uring: refactor event check out of __io_async_wake()
-         34ced75ca1f63fac6148497971212583aa0f7a87 io_uring: reduce frequent add_wait_queue() overhead for multi-shot poll request
-         57d9cc0f0dfe7453327c4c71ea22074419e2e800 io_uring: don't get completion_lock in io_poll_rewait()
-         2a06989064552b0b4207f30d3c7ffdbc707f9e77 Merge branch 'for-5.16/io_uring' into for-next
-         
-  - ref: refs/heads/perf-wip
-    old: 2ad89849c1738ebe96818581ccf6a666061dadf6
-    new: 03b560ccf75e145d2bdc374f3f6f670500a12c94
-    log: revlist-2ad89849c173-03b560ccf75e.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 8433ae2e08751f56ba1e216d71e4024460a310e1
+    new: eed6ada6767c415f85d8c2d384236121e3830e8c
+    log: revlist-8433ae2e0875-eed6ada6767c.txt
 
---===============3132846065767350794==
+--===============2984204014218983720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ad89849c173-03b560ccf75e.txt
+Content-Disposition: attachment; filename=revlist-8433ae2e0875-eed6ada6767c.txt
 
-02f7eab0095a47b45f48a4321d33de3569c59061 block: improve readability of blk_mq_end_request_batch()
-2c2a28f57c2fb45dbf6dfebf0af69a163f54baf8 Merge branch 'for-5.16/block' into for-next
-224e4c238b8c88e493fa51baae683b0df2e1a45c Merge branch 'for-next' into perf-wip
-67e1cdab621429ff2e50344bb4ec3ed012056267 block: add optimised version bio_set_dev()
-9c377f77c0fd7dc8169f4551f23c603495ddc76a block: optimise blk_may_split for normal rw
-7f5a4b62895b555189e221cb94a09105564f3b23 block: optimise submit_bio_checks for normal rw
-2d9b20526c508da516f21b7fbd6cf9f6c8aa5cd8 net: decouple skb_frag_t from struct bio_vec
-83f2a6df2cfd013cc74e3a5a86137394407395b9 block: add bvec_set_page() helper
-0a0767f10e033bcad6eacfc1d9647ad2d2e1113d block: add a DMA field to struct bio_vec
-52d69534ed835474060da656cdce3ebba8e5c19c block: add mq_ops method for DMA mapping bvecs
-a34c2a49e60e86dcc80e58d93ec0eb795d4329bf io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
-76d5aec4aec14934185fc3e5b559dff086b2d061 nvme: add support for pre-mapped IO buffers
-6b2d2c22b812ef0034d9f2f66a94f376f2fd398d block: switch to atomic_t for request references
-10b85e34225a6c44d2ea111fbeb7408427f7e3a9 nvme: don't copy fill bio_vec if we don't have to
-bd938b5c71ae33ba45bcc98ffca6c987e3ae4b55 block: add mq_ops->queue_rqs hook
-4a95f941184d897075d8885c4ddce2b42abd486b nvme: add support for mq_ops->queue_rqs()
-aff8298d20fc7a467efd3e1ce04a84aa3f0cbdb7 block: use cached bdev size in read_iter
-e63824ae31adcbf630980469f9bbb6e980db078c mm: don't read i_size of inode unless we need it
-23bcf131bd503ce7eda5c229a470952cb1e020b5 mm: move more expensive part of XA setup out of mapping check
-0ff8cbf4f776aedf93292436fa73dab0f5177940 mm: move filemap_range_needs_writeback() into header
-03b560ccf75e145d2bdc374f3f6f670500a12c94 block: move direct_IO into our own read_iter handler
+267463823adbeb16a822648adfe123c84c061052 net: sch: eliminate unnecessary RCU waits in mini_qdisc_pair_swap()
+85c0c3eb9a6657887e3f7c5140e38f529c815ee0 net: sch: simplify condtion for selecting mini_Qdisc_pair buffer
+8db3cbc50748fe0990bfaa7dea113406b416e70b net: macb: Fix mdio child node detection
+8b6ce9b0267259c16b26756661d7aea2b8e02828 staging: use of_get_ethdev_address()
+5a48585d7ec1d0e1e83539d56846c1e513ef66ea net: thunderbolt: use eth_hw_addr_set()
+b859a360d88d5ad239d46978c78fe2b63dd9efe5 xdp: Remove redundant warning
+9dfc685e0262d4c5e44e13302f89841fa75173ca inet: remove races in inet{6}_getname()
+5823fc96d754d824bb298622055e8dd5e1252122 tcp: define macros for a couple reclaim thresholds
+292e6077b04091d138bae6010fb9fdc958170d64 net: introduce sk_forward_alloc_get()
+6511882cdd82d6cf2178932fa9b78647d130b860 mptcp: allocate fwd memory separately on the rx and tx path
+b8e0def397d7753206b1290e32f73b299a59984c mptcp: drop unused sk in mptcp_push_release
+21214d555ff2fd066d2c72cf1c8c7913ca8d71dd Merge branch 'mptcp-rework-fwd-memory-allocation-and-one-cleanup'
+911e3a46fb38669560021537e00222591231f456 net: phy: Fix unsigned comparison with less than zero
+573bce9e675b0654e18a338ca9a64187fc19806f Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux into net-next
+3ded97bc41a1e76e1e72eeb192331c01ceacc4bc tcp: remove dead code from tcp_sendmsg_locked()
+27728ba80f1eb279b209bbd5922fdeebe52d9e30 tcp: cleanup tcp_remove_empty_skb() use
+bd446314717176507e629b6b5511c107b99c1c25 tcp: remove dead code from tcp_collapse_retrans()
+f401da475f98c1840d48c9e00a6eb228237357c0 tcp: no longer set skb->reserved_tailroom
+a52fe46ef160b4101b8d14209729f49a71388b52 tcp: factorize ip_summed setting
+4f2266748eabc42f107ecb6a3cc5b34614b29a12 tcp: do not clear skb->csum if already zero
+8b7d8c2bdb7653605aaa1770b882e79b25ba4002 tcp: do not clear TCP_SKB_CB(skb)->sacked if already zero
+701b951954849dab2c1b84b47796190133fdbf41 Merge branch 'tcp-tx-side-cleanups'
+707182e45b8197705a82d918458ce585fdea7097 media: use eth_hw_addr_set()
+aaaaa1377e7afca758749b302192b719d58234ed firewire: don't write directly to netdev->dev_addr
+e0b4f1cd36bf43babb444a8417d7cb7740979646 mpt fusion: use dev_addr_set()
+06e6c88fba2413a8408f321b0b3a5b0954e76436 ipv6: enable net.ipv6.route.max_size sysctl in network namespace
+8498e17ed4c5e08ad1695195ae1b0d8fbec48719 net: mvpp2: populate supported_interfaces member
+6c0c4b7ac06f87af466177caec4f51c6e7d21821 net: mvpp2: remove interface checks in mvpp2_phylink_validate()
+76947a635874f740198f73a4e5b06d040fdae5e3 net: mvpp2: drop use of phylink_helper_basex_speed()
+b63f1117aefc67516fe26bd104bc3a8ffa617a05 net: mvpp2: clean up mvpp2_phylink_validate()
+1feef2dece56de5825513e55b92a1826358a55b0 Merge branch 'mvpp2-phylink'
+3a26babb418362de060811fc7b077088ba650f7f Merge tag 'mlx5-net-next-5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+648a991cf31644a06e32dc7640319f0bc15e93ae sch_htb: Add extack messages for EOPNOTSUPP errors
+442e796f0aa755ea2a9e3d2f007a6bfcf08bb183 devlink: add documentation for octeontx2 driver
+ee046d9a22a4110fcf14cefa7536c265d0e6f174 net: ipconfig: Release the rtnl_lock while waiting for carrier
+6a03bfbd5eade19e1943551abba2acd4d9079762 sky2: Remove redundant assignment and parentheses
+a406290af0ffd150af8d54819407f2d19c513fdc net: cleanup __sk_stream_memory_free()
+11195bf5a355a5ef048e690f12b90b70b2c42a86 ptp: fix code indentation issues
+788050256c41136057c55ce289dd6740e96b2872 net: phy: microchip_t1: add cable test support for lan87xx phy
+1910ccf0330660dd82251e19197d846cb616fe56 octeontx2-af: debugfs: Minor changes.
+0daa55d033b02a899a5979e407cc3af530980f1e octeontx2-af: cn10k: debugfs for dumping LMTST map table
+9716a40a0f482b91af485b1130cca19441243177 octeontx2-af: debugfs: Add channel and channel mask.
+b0e77fcc5dfde8be9b8fc801da3ccc8015d7ff4e Merge branch 'octeontx2-debugfs-updates'
+ee775b56950faef934d6e9c2252de6e2e5a8e912 devlink: Simplify internal devlink params implementation
+f2edaa4ad5d51371709196f2c258fbe875962dee net: virtio: use eth_hw_addr_set()
+eed6ada6767c415f85d8c2d384236121e3830e8c net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
 
---===============3132846065767350794==--
+--===============2984204014218983720==--
