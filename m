@@ -1,46 +1,55 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 28 Oct 2021 14:50:03 -0000
-Message-Id: <163543260385.2556.6221890613208443367@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4065640818971044998=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 28 Oct 2021 14:54:24 -0000
+Message-Id: <163543286457.4705.14632221636933361581@gitolite.kernel.org>
+
+--===============4065640818971044998==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/block-5.15
-    old: e0c60d0102a5ad3475401e1a2faa3d3623eefce4
-    new: f4aaf1fa8b17e74aa46bf0165c35a1575b239d4e
+  - ref: refs/heads/bleeding-edge
+    old: 2fe946b6a5fcd31f2b30f7131b1ce3dc7b284f41
+    new: ff77b4a23e470f82642897284e6140ad581c714a
     log: |
-         926245c7d22271307606c88b1fbb2539a8550e94 nvmet-tcp: fix a memory leak when releasing a queue
-         25e1f67eda4a19c91dc05c84d6d413c53efb447b nvme-tcp: fix H2CData PDU send accounting (again)
-         ce7723e9cdae4eb3030da082876580f4b2dc0861 nvme-tcp: fix possible req->offset corruption
-         d89b9f3bbb58e9e378881209756b0723694f22ff nvme-tcp: fix data digest pointer calculation
-         e790de54e94a7a15fb725b34724d41d41cbaa60c nvmet-tcp: fix data digest pointer calculation
-         86aeda32b887cdaeb0f4b7bfc9971e36377181c7 nvmet-tcp: fix header digest verification
-         f4aaf1fa8b17e74aa46bf0165c35a1575b239d4e Merge tag 'nvme-5.15-2021-10-28' of git://git.infradead.org/nvme into block-5.15
+         1cb35b70a791d8ba09a5b52ac0e9fb0ae1673308 Merge branches 'acpi-apei' and 'acpi-drivers' into linux-next
+         1eb4f10091caba528d8f81e0e14e9f6be1b22427 Merge branches 'pm-devfreq' and 'pm-sleep' into linux-next
+         61a3c78d991c7f5e189e82fa54ddaa9d514544a2 ACPI: glue: Use acpi_device_adr() in acpi_find_child_device()
+         ff77b4a23e470f82642897284e6140ad581c714a Merge branch 'acpi-glue' into bleeding-edge
          
-  - ref: refs/heads/for-5.16/drivers
-    old: d28e4dff085c5a87025c9a0a85fb798bd8e9ca17
-    new: ca7787973a8652651bf391a5be6bec236a367c9c
-    log: |
-         785d584c30ffc1224027536fe55bdc15ee509f14 nvme: add new discovery log page entry definitions
-         598e75934c38e2e8af6be92374053e59df8071ad nvmet: switch check for subsystem type
-         2953b30b1d9feb1bc555682e64e6479d197b9231 nvmet: register discovery subsystem as 'current'
-         d156cfcafbd0eae4224ea007d95ebda467eb0c46 nvmet: use flex_array_size and struct_size
-         ca7787973a8652651bf391a5be6bec236a367c9c Merge tag 'nvme-5.16-2021-10-28' of git://git.infradead.org/nvme into for-5.16/drivers
-         
-  - ref: refs/heads/for-next
-    old: 47af7468b7e07f697ab352eac174c38ca94c41a7
-    new: 5f6f1dc0433b524633f6f069ae4032ffaa0d81e5
-    log: |
-         785d584c30ffc1224027536fe55bdc15ee509f14 nvme: add new discovery log page entry definitions
-         598e75934c38e2e8af6be92374053e59df8071ad nvmet: switch check for subsystem type
-         2953b30b1d9feb1bc555682e64e6479d197b9231 nvmet: register discovery subsystem as 'current'
-         d156cfcafbd0eae4224ea007d95ebda467eb0c46 nvmet: use flex_array_size and struct_size
-         ca7787973a8652651bf391a5be6bec236a367c9c Merge tag 'nvme-5.16-2021-10-28' of git://git.infradead.org/nvme into for-5.16/drivers
-         5f6f1dc0433b524633f6f069ae4032ffaa0d81e5 Merge branch 'for-5.16/drivers' into for-next
-         
+  - ref: refs/heads/linux-next
+    old: ba9410801460466c3d47801e2df1052da9f36132
+    new: 1eb4f10091caba528d8f81e0e14e9f6be1b22427
+    log: revlist-ba9410801460-1eb4f10091ca.txt
+  - ref: refs/heads/testing
+    old: ba9410801460466c3d47801e2df1052da9f36132
+    new: 1eb4f10091caba528d8f81e0e14e9f6be1b22427
+    log: revlist-ba9410801460-1eb4f10091ca.txt
+
+--===============4065640818971044998==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba9410801460-1eb4f10091ca.txt
+
+28d7f0f3f10be9d6ecca15669fa17d561581a843 devfreq: exynos-ppmu: use node names with hyphens
+14714135a8358830ccd156c335fe6447e7e6e923 devfreq: exynos-ppmu: simplify parsing event-type from DT
+5cf79c293821d12fd88dee901692cd404247782e PM / devfreq: Strengthen check for freq_table
+bf7fc0c369585e34652d5666ed590d5cac07c2e2 ACPI: APEI: EINJ: Relax platform response timeout to 1 second
+06606646af97fa9aa0c36a723f4615157e41400a ACPI: APEI: mark apei_hest_parse() static
+d5a8fb654c3bfc25d585802d2e63a5ccccd7a912 perf: qcom_l2_pmu: ACPI: Use ACPI_COMPANION() directly
+031eda1840ffd819acbf2c0c1ea7d541d5d647ca Merge tag 'devfreq-next-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
+259714100d98b50bf04d36a21bf50ca8b829fc11 PM / wakeirq: support enabling wake-up irq after runtime_suspend called
+0537282d3b09df6f51e58f284ddfa730951060ad usb: xhci-mtk: enable wake-up interrupt after runtime_suspend called
+7ddae8c779dacc83918e7c6e0e2463bdd71005dd usb: mtu3: enable wake-up interrupt after runtime_suspend called
+1cb35b70a791d8ba09a5b52ac0e9fb0ae1673308 Merge branches 'acpi-apei' and 'acpi-drivers' into linux-next
+1eb4f10091caba528d8f81e0e14e9f6be1b22427 Merge branches 'pm-devfreq' and 'pm-sleep' into linux-next
+
+--===============4065640818971044998==--
