@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 28 Oct 2021 13:34:29 -0000
-Message-Id: <163542806966.16661.14781812986576711375@gitolite.kernel.org>
+Date: Thu, 28 Oct 2021 13:35:46 -0000
+Message-Id: <163542814669.18487.8540398506285715070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 3a26babb418362de060811fc7b077088ba650f7f
-    new: 648a991cf31644a06e32dc7640319f0bc15e93ae
+    old: 648a991cf31644a06e32dc7640319f0bc15e93ae
+    new: 442e796f0aa755ea2a9e3d2f007a6bfcf08bb183
     log: |
-         648a991cf31644a06e32dc7640319f0bc15e93ae sch_htb: Add extack messages for EOPNOTSUPP errors
+         442e796f0aa755ea2a9e3d2f007a6bfcf08bb183 devlink: add documentation for octeontx2 driver
          
