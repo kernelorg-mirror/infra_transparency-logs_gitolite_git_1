@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ostr/linux
-Date: Thu, 28 Oct 2021 12:57:37 -0000
-Message-Id: <163542585724.25820.8502204044364148157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 28 Oct 2021 12:58:59 -0000
+Message-Id: <163542593990.26304.8506403199201232035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ostr/linux
-user: ostr
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/for-linus-5.16
-    old: 97c79d81697911132a9ed3a21b78f053180f2cf6
-    new: e8ab090d6675d8ec2468813ad5b1640cc569fd39
+  - ref: refs/heads/for-linus
+    old: a985f0eee47032dc496448cb770506e4b7878f23
+    new: 1f57906ee2debfc3413ccca7e58e5daee354155e
     log: |
-         a73d2628b0b201da477513c115a6408a39628e7e x86/xen: remove xen_have_vcpu_info_placement flag
-         3cb88858bfda8acede82a0dd055b144ce0d5810f x86/xen: switch initial pvops IRQ functions to dummy ones
-         e8ab090d6675d8ec2468813ad5b1640cc569fd39 xen-pciback: allow compiling on other archs than x86
+         1f57906ee2debfc3413ccca7e58e5daee354155e Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 6f19a44bbe1d771ac45ed6f22fe667f665a2e719
+    new: 3a99d60e0b664e780c4f68047a03596ae734bb9a
+    log: |
+         5c7dee4407dcd3522a133acdd90d64bf41d00986 ASoC: fix unmet dependencies on GPIOLIB for SND_SOC_DMIC
+         c6c203bc4dfed6812cf77e7737074b9cff8dd78d ASoC: qdsp6: audioreach: Fix clang -Wimplicit-fallthrough
+         1f57906ee2debfc3413ccca7e58e5daee354155e Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         3a99d60e0b664e780c4f68047a03596ae734bb9a Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
          
