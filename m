@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 29 Oct 2021 19:18:31 -0000
-Message-Id: <163553511172.19730.6276133263316387699@gitolite.kernel.org>
+Date: Fri, 29 Oct 2021 19:19:01 -0000
+Message-Id: <163553514177.21027.2375870553994533734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/next
-    old: ed97afb53365cd03dde266c9644334a558fe5a16
+  - ref: refs/heads/pending
+    old: de3fffb36b80374837c4741f79036e3bf8aa20de
     new: c6d7e1341cc99ba49df1384c8c5b3f534a5463b1
     log: |
-         91a45b12d49e2b43d86caba25ed59fae43344ab8 cxl/acpi: Do not fail cxl_acpi_probe() based on a missing CHBS
          cdcce47cb33a6a2ecb1bc113d0ba42ec300a33fe cxl/pci: Convert register block identifiers to an enum
          d22fed9c2b70d8ccc91c9a56ed2df2c1a0c2ebab cxl/pci: Remove dev_dbg for unknown register blocks
          ca76a3a8052b71c0334d5c094859cfa340c290a8 cxl/pci: Fix NULL vs ERR_PTR confusion
