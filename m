@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 29 Oct 2021 08:31:16 -0000
-Message-Id: <163549627638.20269.17734111854879138747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 29 Oct 2021 09:16:06 -0000
+Message-Id: <163549896666.30634.7445487221841724565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/v5.15-rc7-rt15
+  - ref: refs/tags/kvmarm-5.16
     old: 0000000000000000000000000000000000000000
-    new: 6f02bfecf1ff04f515ea58d597498295c37eff10
-  - ref: refs/tags/v5.15-rc7-rt15-patches
-    old: 0000000000000000000000000000000000000000
-    new: abd7546fa21f133fc10108d8dc284e26f31e426f
-  - ref: refs/tags/v5.15-rc7-rt15-rebase
-    old: 0000000000000000000000000000000000000000
-    new: a318a38ad1ef6ee42f122938390617b2b4bdb7d6
+    new: bfaa50fd4a4e827f4b2b7b09f58d1edbf7c1e186
