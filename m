@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 29 Oct 2021 04:28:25 -0000
-Message-Id: <163548170510.31501.11275292955582303654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Fri, 29 Oct 2021 06:18:38 -0000
+Message-Id: <163548831826.591.1783914717213159483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 38d9f06c57403383d574727d9978ad049b011197
-    new: 10f0d2ab9aa672707559d46601fd35544759ff70
+  - ref: refs/heads/master
+    old: 83688aec17bf3203d8477a9dd7cce88132950798
+    new: ad57dae8a64da3926a22debbbe7d3b487a685a08
     log: |
-         10f0d2ab9aa672707559d46601fd35544759ff70 hwmon: (nct7802) Add of_node_put() before return
+         ad57dae8a64da3926a22debbbe7d3b487a685a08 xfrm: Remove redundant fields and related parentheses
          
