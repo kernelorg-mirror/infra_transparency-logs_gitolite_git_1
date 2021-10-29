@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1964431273663742230=="
+Content-Type: multipart/mixed; boundary="===============5269098925044297161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 29 Oct 2021 20:53:57 -0000
-Message-Id: <163554083788.15534.1829529253408742146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 29 Oct 2021 20:54:04 -0000
+Message-Id: <163554084486.15625.17189318433799846086@gitolite.kernel.org>
 
---===============1964431273663742230==
+--===============5269098925044297161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 6c8552ebba7742e7128134859846e17edbfdf222
     new: 6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb
     log: revlist-6c8552ebba77-6195eb15f6d6.txt
 
---===============1964431273663742230==
+--===============5269098925044297161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1635540835 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1635540835-ac4c2898d4e7cbaf608cd8cb768714bc929b59b1
+pusher C3F436CA30F5D8EB 1635540842 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1635540842-d14b5b85dd3811b64b305305a02862920fe42be1
 
-6c8552ebba7742e7128134859846e17edbfdf222 6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb refs/heads/for-5.16
+6c8552ebba7742e7128134859846e17edbfdf222 6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb refs/heads/asoc-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF8X2MACgkQJNaLcl1U
-h9CYaQf/WJm8wveb5KXm+3HIZTC4yB/bXh2mf7M5z5GiJaeDn7/kFyMC6gfwfh/B
-6IUChM6IxsMFwnvGRCH+brwkeHWs3t8pT126Qn61Xv1JtVlbSmaFVQ3LLh/+Nzfi
-y7qQ0sVTtShL8PuQGrfGvMS8Sz4mdKeZkqO8fPh1ruw2Xll/Q9BguQpPFcIFR6Ek
-nv1kHBZwfG9gK235IrimOzzp2sBLJo5v5UwVTSrk1ga76AH9QMVEGxZHK07iLabP
-s/yBQB6IG08leX4kwy9+hHuEIvkGeh5Q3CDgyIMYGFDRWbcVPrqaGto4uyk3LdWU
-Vw6OD3d4ln/6TKJSgqTR80v9+jISIA==
-=d3Yh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF8X2oACgkQJNaLcl1U
+h9AHUQgAgTGCCvM+6W81AiUHQwGSTO4s+5S4S8rqQBqfsu9D/tvTI8u/5im6Idh9
+jGKCKdnOAFThCzA8MHmKRItGb0aSMBmlXpoF6jelpJQz1tJoTeXspRm2DhgwcVRD
+KQnFzH05lQH4Ud2sH5jO8brXZ3TA+jwm8y+7kg3ZNOjKfTwiX/4PoJfKiqbjMcNL
+UZeUvFi+JGw8fUHCG/QJY5pehFK7UrzBwzNqh3/rwHRSp6624H+wAVLJX98JUoTC
+60pQAgH3/lmdhT8JdY7fuXJm46yVIhUOcBD4O1nADwA075DNsCmR8bpqwUuGcxiH
+79l2HXAFQmShVG68MNxHwut8THKpKQ==
+=WYxl
 -----END PGP SIGNATURE-----
 
---===============1964431273663742230==
+--===============5269098925044297161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ dac7cbd55dca4fd9e646e37401079ebfae3935e0 ASoC: Intel: soc-acpi-byt: shrink table
 956ac4f1f53c58f87f38fd79d4c87e9146245c09 Merge series "ASoC: Sanity checks and soc-topology updates" from Cezary Rojewski <cezary.rojewski@intel.com>:
 6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb Merge series "Multiple headphone codec driver support" from Brent Lu <brent.lu@intel.com>:
 
---===============1964431273663742230==--
+--===============5269098925044297161==--
