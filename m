@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3422444602628814977=="
+Content-Type: multipart/mixed; boundary="===============4896084055333238247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Oct 2021 01:03:09 -0000
-Message-Id: <163546938981.32611.18159012622834141748@gitolite.kernel.org>
+Date: Fri, 29 Oct 2021 01:03:23 -0000
+Message-Id: <163546940379.32752.15075384558981853500@gitolite.kernel.org>
 
---===============3422444602628814977==
+--===============4896084055333238247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 759635760a804b0d8ad0cc677b650f1544cae22f
     new: 411a44c24a561e449b592ff631b7ae321f1eb559
     log: revlist-759635760a80-411a44c24a56.txt
 
---===============3422444602628814977==
+--===============4896084055333238247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -213,4 +213,4 @@ eecd231a80a5d54afc5eb350fc890ab15350408d Merge tag 'linux-watchdog-5.15-rc7' of 
 4fb7d85b2ebf0f06d6b47df2c9f2d45c6fec8b8c Merge tag 'spi-fix-v5.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 411a44c24a561e449b592ff631b7ae321f1eb559 Merge tag 'net-5.15-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3422444602628814977==--
+--===============4896084055333238247==--
