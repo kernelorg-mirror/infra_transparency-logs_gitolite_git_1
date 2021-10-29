@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 29 Oct 2021 17:55:02 -0000
-Message-Id: <163553010250.32091.5769427657563750582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 29 Oct 2021 18:06:30 -0000
+Message-Id: <163553079012.7223.5930506319538700467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 08a6c186a778ed1da4c57820e1432a5c1d176e8b
-    new: 1625a736fb9d684cc2126beb1bf245ba7af9f407
+  - ref: refs/heads/fixes
+    old: 64a19591a2938b170aa736443d5d3bf4c51e1388
+    new: 54c5639d8f507ebefa814f574cb6f763033a72a5
     log: |
-         ebd64f88b391f5f11ed1d3b698c77ebb473f7692 watchdog: ux500_wdt: Drop platform data
-         d8224df9b818a9ef3d7ac3a97a935ab17c7d1139 watchdog: db8500_wdt: Rename driver
-         1625a736fb9d684cc2126beb1bf245ba7af9f407 watchdog: db8500_wdt: Rename symbols
+         cf11d01135ea1ff7fddb612033e3cb5cde279ff2 riscv: Do not re-populate shadow memory with kasan_populate_early_shadow
+         54c5639d8f507ebefa814f574cb6f763033a72a5 riscv: Fix asan-stack clang build
          
