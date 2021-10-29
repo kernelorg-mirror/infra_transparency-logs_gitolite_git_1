@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 29 Oct 2021 13:01:24 -0000
-Message-Id: <163551248408.9497.4517944530847859021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 29 Oct 2021 13:04:20 -0000
+Message-Id: <163551266062.10392.7114579529015041934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: bb5dbf2cc64d5cfa696765944c784c0010c48ae8
-    new: 7444d706be31753f65052c7f6325fc8470cc1789
+    old: 34d7ecb3d4f772eb00ce1f7195ae30886ddf4d2e
+    new: 6de6e46d27ef386feecdbea56b3bfd6c3b3bc1f9
     log: |
-         7444d706be31753f65052c7f6325fc8470cc1789 ifb: fix building without CONFIG_NET_CLS_ACT
+         6de6e46d27ef386feecdbea56b3bfd6c3b3bc1f9 cls_flower: Fix inability to match GRE/IPIP packets
          
