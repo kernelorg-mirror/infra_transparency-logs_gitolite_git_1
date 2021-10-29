@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Fri, 29 Oct 2021 15:12:15 -0000
-Message-Id: <163552033523.25754.15019760352478705660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 29 Oct 2021 15:14:52 -0000
+Message-Id: <163552049222.26534.1963589089614643711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/main
-    old: 72bc6170cc71bc3563e4e89bfa17a7b0227b22c3
-    new: 43b434867514934593ada5aa8ea448ef6a1778f9
+  - ref: refs/heads/wip/jgg-for-next
+    old: 000b8490ecacb3ad5145314ca235c0a17d0187bf
+    new: 04567caf96e5e1150ecd6a3b3301f5aafe015ec0
     log: |
-         1dd72d9db74b063c8dd96f13701a14e299abc325 tuna: Print warning if setting affinity results in EBUSY and continue
-         43b434867514934593ada5aa8ea448ef6a1778f9 tuna: Don't use relative imports in tuna.py
+         04567caf96e5e1150ecd6a3b3301f5aafe015ec0 RDMA/bnxt_re: Fix kernel panic when trying to access bnxt_re_stat_descs
+         
+  - ref: refs/heads/wip/jgg-for-rc
+    old: 64733956ebba7cc629856f4a6ee35a52bc9c023f
+    new: 4f960393a0ee9a39469ceb7c8077ae8db665cc12
+    log: |
+         571fb4fb78a3bf0fcadbe65eca9ca4ccee885af4 RDMA/hns: Fix initial arm_st of CQ
+         0e60778efb072d47efc7100c4009b5bd97273b0b RDMA/hns: Modify the value of MAX_LP_MSG_LEN to meet hardware compatibility
+         4f960393a0ee9a39469ceb7c8077ae8db665cc12 RDMA/qedr: Fix NULL deref for query_qp on the GSI QP
          
