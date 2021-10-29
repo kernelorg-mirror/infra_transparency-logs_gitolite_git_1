@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1254495867745289306=="
+Content-Type: multipart/mixed; boundary="===============3065860813410877154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 29 Oct 2021 14:56:32 -0000
-Message-Id: <163551939240.16416.16412632802222824829@gitolite.kernel.org>
+Date: Fri, 29 Oct 2021 14:57:00 -0000
+Message-Id: <163551942040.16619.16137529617593608804@gitolite.kernel.org>
 
---===============1254495867745289306==
+--===============3065860813410877154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 79a4479a17b83310deb0b1a2a274fe5be12d2318
     new: c47055e943b0b71c2e719bc2d0b47e00f89becaa
     log: revlist-79a4479a17b8-c47055e943b0.txt
 
---===============1254495867745289306==
+--===============3065860813410877154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635519390 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635519419 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1635519389-422006a78b83c373025559d0a17485ca35e897a0
+nonce 1635519418-f565a1b5b77a5318e66ce26986824b5ce47edb53
 
-79a4479a17b83310deb0b1a2a274fe5be12d2318 c47055e943b0b71c2e719bc2d0b47e00f89becaa refs/heads/usb-testing
+79a4479a17b83310deb0b1a2a274fe5be12d2318 c47055e943b0b71c2e719bc2d0b47e00f89becaa refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF8C54bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GpkP/3acBMxNPdRLqKFGCOTX
-bF9pae9dRMqjd6vBXtoq4y5RMw5suSmpDshpQA30LoVp/oM0VlsKa5p/fXxJV/Ga
-hxQp/wAS6O9YjxvrNJMp3Z5Acdf+ZwyNS3L8bI9S/O+DNcNIZkD2/cFmEm/3SzSq
-wTvHMbdC24Qbous9+ledaMijNQJVSnHo7CesDVWYObDwb6FQu3wuafVrAbMqBtKM
-fVeUCNcKABdmKP1KwFXHlaIVx228ow01dECtBBVPLH8eNJUhiAdM7iKhdcfR5i4O
-bx0L6GHKNToN2e1wcJEMlu1xAUrEo5HQ0+IemdxD+J6B8U7EyuGL39/1D1a8oNPV
-6Ts4d/2m4A4EFWQTd9v8i/fO8VRJZwpAfsM9bAorh2+3JqBDwCHqVzAg9TryBnKv
-1jKZ2pPiPUChPFAln3tq5m7I76M3i+JtZx6OQ/cwZsPeN5MQ7YkA7MAX7mKyxatu
-1alkMPydXicXwIC0bNaJ7jsXdJX03+mKEoNKw9n/6y382ngxLTxSmrSvKbJGo81J
-4xfNKpg5P7typTXa/zIQ+zwoy1OO1xLCrDsaAdXj5fB2Kym9wqIsTRtKtVRXrPD+
-w8vHS0EmJrXYORCRoDDZw5wwBMyT1sFSYX+QOEX34fd8r0wIumHFTckURhDSC98B
-Dyf70uowYpctHanGGe5IOkyL
-=G2Zn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF8C7sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lpkP/A30vAPRRbZ5HsVG1ERn
+zAYapvPPmc1UUyoFb3ooSwdnkzrcwkJzSUNOEhrWaa36GT7kl0ASxSvZJ2nEvC2a
+yIPbtGockvlpp8zqRsHn9tjDePgcHY3HGFBBjetnaTPhGMDsa4c8czRnz2/EYyO9
+SE7oz+hP9IFBed4Zoi7Vq+xsVLh78Fnow+zLEbYDt6+lG4Hff8dpsTBbBGCd4F/p
+GyUjyRRthj5HD0swT5Rpb45ArPvFlEMQCiDqf6jdpiAhyuSZ0A9Kt+iEPUXsnEm2
+sK5AuUWg7xOUsHmYS2yQZdSjbuYV2DKIj+9m2FdJbtHWlw+/7u1Sd3ntNkvrVFeB
+0uWP9fzk/L/kJK5yGtzQnPG5aBXmgVqlQddLoOsfB0/Ld26XHFFobb0hmNpWUuSo
+p26K3r2AvTuqpeBKIS/kdT0uJz2COMG2c44wPgR2atla94VSNfVHwMKNKd3Sf+ya
+EV7QJkZIi1x3vidLkFRz/BvVPDn+LeOElnopDCx8Wo0Z8qtcBHGt7A+8j2bO8p4p
+9OBzcKJB+zbd++rqQxFuGHAiG+Vbe7nOwiXr9LMeNKEE2USWLFjTyx+r9NHtTFsA
+Ga7H22b4pOyPCEeK5pu3+TIZCdG/qsP1joNXsOQWtoZmi5zGIC2uErlRLoeg21pn
+v50x01nmB/Tck4hZRJ5ZzdrO
+=H5cT
 -----END PGP SIGNATURE-----
 
---===============1254495867745289306==
+--===============3065860813410877154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ f5cfbecb0a162319464c9408420282d22ed69721 USB: serial: cp210x: use usb_control_ms
 910c996335c37552ee30fcb837375b808bb4f33b USB: serial: keyspan: fix memleak on probe errors
 c47055e943b0b71c2e719bc2d0b47e00f89becaa Merge tag 'usb-serial-5.16-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 
---===============1254495867745289306==--
+--===============3065860813410877154==--
