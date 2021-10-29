@@ -1,24 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6209470121500232264=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 29 Oct 2021 14:57:41 -0000
-Message-Id: <163551946159.16917.17302632792501518642@gitolite.kernel.org>
-
---===============6209470121500232264==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 29 Oct 2021 14:58:48 -0000
+Message-Id: <163551952857.17354.17703336396408117085@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: c6c203bc4dfed6812cf77e7737074b9cff8dd78d
-    new: 62a30322607f120e10ea1a7d07895b5af8049baa
+  - ref: refs/heads/for-linus
+    old: 1f57906ee2debfc3413ccca7e58e5daee354155e
+    new: 5ca560e787a9fd60e2b85e0b28be8ecdfe1ae82c
+    log: |
+         5ca560e787a9fd60e2b85e0b28be8ecdfe1ae82c Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: 3a99d60e0b664e780c4f68047a03596ae734bb9a
+    new: 3d961acf85d05d4a404097646e32b32f450f45cb
     log: |
          2a2df2a755172afb25f0883a52aedba3b67d8a48 ASoC: dt-bindings: cs42l42: Correct description of ts-inv
          778a0cbef5fb76bf506f84938517bb77e7a1c478 ASoC: cs42l42: Correct configuring of switch inversion from ts-inv
@@ -27,30 +28,6 @@ changes:
          88b4d77d6035dcf1182c4bf05c743e30363f3078 ASoC: Intel: glk_rt5682_max98357a: support ALC5682I-VS codec
          1560081f4c4b5f0919244af7fc63d3d0de9db949 Merge series "ASoC: cs42l42: Fix definition and handling of jack switch invert" from Richard Fitzgerald <rf@opensource.cirrus.com>:
          62a30322607f120e10ea1a7d07895b5af8049baa ASoC: amd: acp: select CONFIG_SND_SOC_ACPI
+         5ca560e787a9fd60e2b85e0b28be8ecdfe1ae82c Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         3d961acf85d05d4a404097646e32b32f450f45cb Merge remote-tracking branch 'asoc/for-5.16' into asoc-next
          
-
---===============6209470121500232264==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1635519459 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1635519459-8d8e4020a4ac1eb4330487c0c4c3876bf82d6a9b
-
-c6c203bc4dfed6812cf77e7737074b9cff8dd78d 62a30322607f120e10ea1a7d07895b5af8049baa refs/heads/asoc-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF8C+MACgkQJNaLcl1U
-h9AbXgf/cqE5IfV2PsZmoBneitjkLfHJ27DxFXisPdnyTj8Iu77g4KIPy0oqGgCE
-pu42UEriWuEYwHuNILkdep6AD3d6z/4iMTjMp/Wn+PAirqe5k/sX6Fue/8JuC5Aw
-hElHF0m53XJpFOL5Zpi8ZDa/R+y73kB/q/4LgseRRKcPKFCAg5WBNcpxryTRB6Vh
-7z8Ib58t/xHFAASgMpcmXb7C48faDqoEeif7QrqbHukETbDBF6v9DJNx4m+TOEYw
-jhef0R32SYkg8HdttfFhno4d4FV8Qf6hQNJlXP1HQjxLO/0JnrSD91OXFY2z2fac
-/uu3ikv3IwMnsp8ldtxy3wAiuKzx3A==
-=FSNo
------END PGP SIGNATURE-----
-
---===============6209470121500232264==--
