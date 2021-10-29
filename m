@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 29 Oct 2021 17:37:16 -0000
-Message-Id: <163552903642.20699.7986038461278200454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 29 Oct 2021 17:39:04 -0000
+Message-Id: <163552914479.21248.18308080124533091720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev-test
-    old: 99bc49736baa5e90f4e2cb31caf38e33d6cd055a
-    new: f63551b9e4938f3e0ece4a60b5fb37fbff31972d
+  - ref: refs/heads/1GbE
+    old: bb766c0a701490d875de690c0824b2743a130468
+    new: e377a063e2c267287f69c7cd3c4400ba900dce48
     log: |
-         ade81b96c9e45b9e72241d732fa36db0cabc1470 f2fs-tools: remove false failure alarm when fixing quota
-         f63551b9e4938f3e0ece4a60b5fb37fbff31972d f2fs-tools: separate other bugs in fsck_verify
+         e377a063e2c267287f69c7cd3c4400ba900dce48 igc: Change Device Reset to Port Reset
          
