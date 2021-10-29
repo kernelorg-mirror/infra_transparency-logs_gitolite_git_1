@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1952014458960404654=="
+Content-Type: multipart/mixed; boundary="===============0622785894961131502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 29 Oct 2021 11:32:17 -0000
-Message-Id: <163550713799.17728.1934141354200856847@gitolite.kernel.org>
+Date: Fri, 29 Oct 2021 11:32:26 -0000
+Message-Id: <163550714653.17820.7063219863429368511@gitolite.kernel.org>
 
---===============1952014458960404654==
+--===============0622785894961131502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 1760a259bbdbbfe5e5508ce3f2bcea17e313ef82
     new: 95bbdb1410843e34fcecff0818ef1421286acb33
     log: revlist-1760a259bbdb-95bbdb141084.txt
 
---===============1952014458960404654==
+--===============0622785894961131502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -280,4 +280,4 @@ dd413074f9544197e964739c393e3c5e2c8f5049 Merge /x86/cleanups into tip/master
 2258a6fc33d56227a981a45069fc651d85a0076f Merge tag 'irqchip-5.16' into irq/core
 95bbdb1410843e34fcecff0818ef1421286acb33 Merge irq/core into tip/master
 
---===============1952014458960404654==--
+--===============0622785894961131502==--
