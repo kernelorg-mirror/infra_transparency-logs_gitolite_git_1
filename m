@@ -1,40 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 29 Oct 2021 17:50:05 -0000
-Message-Id: <163552980528.30145.5081142369954622696@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4334604606635293526=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 29 Oct 2021 17:54:00 -0000
+Message-Id: <163553004000.31423.3779586997063093956@gitolite.kernel.org>
+
+--===============4334604606635293526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/for-5.16/bdev-size-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 77e32fed02deb46c8dd92b7479b11cbbe65594a7
-  - ref: refs/tags/for-5.16/block-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: cd8be7acb1996cbb8c9f27ebd64e37b046c0177b
-  - ref: refs/tags/for-5.16/cdrom-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 0ce8013714cadce2d56d1dda8ee8c8387aed11b1
-  - ref: refs/tags/for-5.16/drivers-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 4cedc21d5fc85ca931b116d37a075c74541d0839
-  - ref: refs/tags/for-5.16/inode-sync-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: ab2a74d28465237f5711eb0014aad3c19be49b08
-  - ref: refs/tags/for-5.16/io_uring-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 86151be2234fcea293b82ae2a61e7a06a8c46a21
-  - ref: refs/tags/for-5.16/ki_complete-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 586efaa5c76df28383db9a93be4ea6a95985dbc1
-  - ref: refs/tags/for-5.16/passthrough-flag-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: da055517952e618c5939005cbccfb96408118f31
-  - ref: refs/tags/for-5.16/scsi-ma-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: de244fb63469859db674e67c4225b1c5cb3d7089
+  - ref: refs/heads/for-5.16
+    old: b6a4e209fb7da1b49cb72fedb405f90e485d5a48
+    new: 6c8552ebba7742e7128134859846e17edbfdf222
+    log: |
+         0261e36477cfa2608468c1300e30cb667c5e1269 ASoC: mediatek: mt8195: add machine driver with mt6359, rt1011 and rt5682
+         6c8552ebba7742e7128134859846e17edbfdf222 ASoC: mediatek: mt8195: add mt8195-mt6359-rt1011-rt5682 bindings document
+         
+
+--===============4334604606635293526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1635530038 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1635530037-34d13ade1093b8ab3730f1518d1ca8af45edce26
+
+b6a4e209fb7da1b49cb72fedb405f90e485d5a48 6c8552ebba7742e7128134859846e17edbfdf222 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmF8NTYACgkQJNaLcl1U
+h9CPkQf9ESEb8sjbSl7oL/jEHBHpLT0ebJSfdTBm/QEmqEXT4KsikhZBm5BcOcPG
+Y96KxGHMJV8RDqQ1Bu+YX7w2q8dZr+7ojc4XIJv95Hjx1KQx6ZciWI6BmrPJYZN5
+Z/4Rut+a8JqHuCMLyyymqt7r+nGmHwfI/oOjr+2yxuMt9ODj8M50WVdCopsknh4X
+9MAsKNiVeS1M2Ec3AugUTG4bcBO+by7s81CsDggOXiuJJo79lFWKD+Or5ooDQ6OJ
+38w6g/3EsucO28nnmhJm3HSFqZ1DWY4nwkrsRMCAqUMbb+bYJGBVF685dIao3DBL
+7JYyFc5rs4LBbo+z2bwJRCpgEHp/lg==
+=wDBv
+-----END PGP SIGNATURE-----
+
+--===============4334604606635293526==--
