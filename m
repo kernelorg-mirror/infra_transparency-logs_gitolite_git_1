@@ -1,110 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2613799714028189740=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Oct 2021 16:47:30 -0000
-Message-Id: <163552605044.21488.5782877619172468357@gitolite.kernel.org>
-
---===============2613799714028189740==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 29 Oct 2021 16:50:03 -0000
+Message-Id: <163552620374.24247.1363187812040058417@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 8f84cbd4d9571022f5c9d50db63a90f95933415a
-    new: 58d6313f2aec60283d2fd753b386f5eacfe98cce
-    log: revlist-8f84cbd4d957-58d6313f2aec.txt
-
---===============2613799714028189740==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f84cbd4d957-58d6313f2aec.txt
-
-195bb48fccdef4965a65579ef05db8a8fcba8dca ice: support for indirect notification
-9e300987d4a81fb95c323f042dd5aa484f4eb3dd ice: VXLAN and Geneve TC support
-8b032a55c1bd5d47527263445aba9dc45144b00d ice: low level support for tunnels
-f0a35040adbe72f6b2e9ddc9fefdbcdbe0b92c55 ice: support for GRE in eswitch
-e492c2e12d7bb2cf3f10abd8038431e7de565058 ice: send correct vc status in switchdev
-e984c4408fc9a88d7eb51f241aee41f71c71f080 ice: Add support for changing MTU on PR in switchdev mode
-99d407524cdffa0f8938586d82e9538fa9a6618f ice: Add support to print error on PHY FW load failure
-370764e60b183eee671e90e62510c2684f4ea849 ice: Fix clang -Wimplicit-fallthrough in ice_pull_qvec_from_rc()
-c8e51a012214a09017d4065c478f8a908f8f060b ice: fix error return code in ice_get_recp_frm_fw()
-48e4d00b1b93cc9ce9174cc8c99d2bcdfb6ecc0f mlxsw: spectrum_qdisc: Offload root TBF as port shaper
-3d5290ea1daeee5da2e46abda730351c2e5b1faa selftests: mlxsw: Test offloadability of root TBF
-2b11e24ebaef77e7151ddcc1762429798b9f75d5 selftests: mlxsw: Test port shaper
-d57beb0e1418181faf9042ed9c98f17fd32f99b8 Merge branch 'mlxsw-offload-root-tbf-as-port-shaper'
-c5f6e5ebc2af65fc7d2e7c3a18446443afeca914 net: bridge: provide shim definition for br_vlan_flags
-4a6849e4617309b7b5934f9ea761c02915b5332a net: bridge: move br_vlan_replay to br_switchdev.c
-9ae9ff994b0e42eefcc33f8adda1ec498f79338e net: bridge: split out the switchdev portion of br_mdb_notify
-9776457c784f6549d43f80eb96d4122b51558258 net: bridge: mdb: move all switchdev logic to br_switchdev.c
-326b212e9cd67498841f3654a96d91718dd11f39 net: bridge: switchdev: consistent function naming
-a812a046c22d02c4afba62cbd4630e6be4367fce Merge branch 'code-movement-to-br_switchdev-c'
-c7dd4a5b0a155c4db0ff9758668235651c2ebf22 bnxt_en: refactor printing of device info
-d900aadd86b0c9ddb8b78e5fa512fb4133b30559 bnxt_en: refactor cancellation of resource reservations
-228ea8c187d814e1b8e369086e640dfc1d42974f bnxt_en: implement devlink dev reload driver_reinit
-8f6c5e4d1470499b8feff98353eb2920bd81635a bnxt_en: implement devlink dev reload fw_activate
-892a662f04736ba40e241c794b15f1b2ee489dc3 bnxt_en: add enable_remote_dev_reset devlink parameter
-1596847d0f7b00147c4cb01158325d72c096cdde bnxt_en: improve error recovery information messages
-aadb0b1a0b3628291dff2dab8c8af1b63df1cae9 bnxt_en: remove fw_reset devlink health reporter
-2bb21b8db5c0e515549d7d1d0de5dc905a32a338 bnxt_en: consolidate fw devlink health reporters
-8cc95ceb7087d6910050286301d05f4824a0bf59 bnxt_en: improve fw diagnose devlink health messages
-9a575c8c25ae2372112db6d6b3e553cd90e9f02b bnxt_en: Refactor coredump functions
-b032228e58ea2477955058ad4d70a636ce1dec51 bnxt_en: move coredump functions into dedicated file
-80f62ba9d53d40e7a71b79543026e8e20afe4ec1 bnxt_en: Add compression flags information in coredump segment header
-80194db9f53bc8877468f96734133b7a8d28aa4c bnxt_en: Retrieve coredump and crashdump size via FW command
-4e59f0600790cc205192203570a677375671d1d7 bnxt_en: extract coredump command line from current task
-188876db04a3524aa81ced7475686e7c44ca1a5e bnxt_en: implement dump callback for fw health reporter
-21e70778d0d4e677bf4b1882a3280cd05c80d559 bnxt_en: Update firmware interface to 1.10.2.63
-3c4153394e2c749b415947b86eb560114ec0f64d bnxt_en: implement firmware live patching
-63185eb3aa267f2844580bbd8c9c1c97516f5dbb bnxt_en: Provide stored devlink "fw" version on older firmware
-eff441f3b5972fd5c012ca471d471e025d7cfd5c bnxt_en: Update bnxt.rst devlink documentation
-f8f20f2986cb43073fb52a0d2869f4fb0a937a12 Merge branch 'bnxt_en-devlink'
-7e553c44f09a8f536090904c6db5b8c9dbafa03b net: lantiq_xrx200: Hardcode the burst length value
-0b3f86397feebe00732ad3e04daefdacc483a7f0 dt-bindings: net: lantiq-xrx200-net: Remove the burst length properties
-704bc986ffda2344cb0bb092f086d8edb1ce6fd2 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-40d5cb400530663074740365681d239c0c2e43b8 net: sgi-xp: use eth_hw_addr_set()
-ac617341343cf9d4690e95384b879211c3775d75 net: um: use eth_hw_addr_set()
-7e1dd824e531aad89d8112b49c5cb4db694eeac7 net: xtensa: use eth_hw_addr_set()
-e311eb9192497a20199c68181d58cb61871f1f86 Merge branch 'eth_hw_addr_set'
-212c10c3c658b191c18ecdf80efb742f9bce5205 mctp: Return new key from mctp_alloc_local_tag
-78476d315e190533757ab894255c4f2c2f254bce mctp: Add flow extension to skb
-67737c457281dd199ceb9e31b6ba7efd3bfe566d mctp: Pass flow data & flow release events to drivers
-6689d716fded86e5b85309537e2c42945763eeea Merge branch 'MCTP-flow-support'
-a1f1627540cde6622d61fca9cd11ea2d98f0c201 net: ethernet: microchip: lan743x: Increase rx ring size to improve rx performance
-c4cb8d0ac7149ad9d6989081844f37f2c94ff03b net: netxen: fix code indentation
-5bd663212f2e455f87368cc3a51bee72411499f4 net: bareudp: fix duplicate checks of data[] expressions
-c52ef04d592024c007ea596e05c72bfc671757b5 devlink: make all symbols GPL-only
-bb5dbf2cc64d5cfa696765944c784c0010c48ae8 net: marvell: prestera: add firmware v4.0 support
-7444d706be31753f65052c7f6325fc8470cc1789 ifb: fix building without CONFIG_NET_CLS_ACT
-e882f0c0ce8a5e300aeb3aaebe83a004a4139286 net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
-c81a7bba22357ceddfeba1ac3e7d80bdbc62b48e net/mlx5: Allow skipping counter refresh on creation
-67e87a07b32ca5753a5112a097f5eccdf9bdf898 net/mlx5e: IPsec: Refactor checksum code in tx data path
-cc1094de834e03b1976e146038e201156bc975c4 net/mlx5e: Refactor rx handler of represetor device
-45077b1b2b01b422ff85b8b530708a615a0dd249 net/mlx5: CT: Remove warning of ignore_flow_level support for VFs
-53c160025b12a12eef7379562da0c6a6a87e14b6 net/mlx5e: Use generic name for the forwarding dev pointer
-9f463907a5dee4d57cf50eb1099a08407e6ada76 net/mlx5: E-Switch, Add ovs internal port mapping to metadata support
-40df6781e420c6744376bf3a871571920b519963 net/mlx5e: Accept action skbedit in the tc actions list
-b1adb09ed8597322607673cfe62aff03ae5ff683 net/mlx5e: Offload tc rules that redirect to ovs internal port
-427c4fdb41fa50e6c2741e2618c8bf7084c54913 net/mlx5e: Offload internal port as encap route device
-176f7f26d87575380fae4538692f9b87727c7ee6 net/mlx5e: Add indirect tc offload of ovs internal port
-3a23b775b9ba0049e23c8531d03c0ed19c0d1aff net/mlx5e: Term table handling of internal port rules
-0374fd9ecf300ccc04dd98d07d3fb417240c07dd net/mlx5: Support internal port as decap route device
-c4da7652fd0dcdd367fb91354b0f410f81dc6a6d net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
-0e8a865fcd2f9d375ed01351418cd0fcae9d5049 net/mlx5e: Save memory by using dynamic allocation in netdev priv
-fbeb8055084bd5e42a6f960f430a4824df5d5235 net/mlx5e: Allow profile-specific limitation on max num of channels
-a0d10dc6a54656e8ba42bda56936a449a931c5ea !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
-f310f2d5729abd616184718b858f7d5cd6d13606 net/mlx5e: Allocate per-channel stats dynamically at first usage
-13cb34f7ca73b11d638347c93db2a6d656322bfa net/mlx5: DR, Fix querying vport 0 capabilities
-4da6f2332dfba1345791043601d43c632bb87ab3 Merge branch 'patchq/441693' into mlx5-queue
-81f8d7975fde6a96cea4c8f4e784c1db9065d5bd Merge branch 'patchq/427348' into mlx5-queue
-c8a3a13d220903b838699709ecdbb1f3d793b551 Merge branch 'patchq/394186' into mlx5-queue
-ff030c7247f6923161ec8c5e42b6d6cb464715c4 Merge branch 'patchq/432332' into mlx5-queue
-58d6313f2aec60283d2fd753b386f5eacfe98cce Merge branch 'patchq/435320' into mlx5-queue
-
---===============2613799714028189740==--
+  - ref: refs/heads/for-5.16/io_uring
+    old: 3ecd20a9c77c632a5afe4e134781e1629936adab
+    new: 1d5f5ea7cb7d15b9fb1cc82673ebb054f02cd7d2
+    log: |
+         f75d118349be055d47407b4ba4ceb98e6437e472 io_uring: harder fdinfo sq/cq ring iterating
+         1d5f5ea7cb7d15b9fb1cc82673ebb054f02cd7d2 io-wq: remove worker to owner tw dependency
+         
+  - ref: refs/heads/for-next
+    old: 2187494c046edac54b1a2960abe9f90405b2ed10
+    new: 7605f0d0f2424c22f1850f89ee66567c7459548d
+    log: |
+         f75d118349be055d47407b4ba4ceb98e6437e472 io_uring: harder fdinfo sq/cq ring iterating
+         1d5f5ea7cb7d15b9fb1cc82673ebb054f02cd7d2 io-wq: remove worker to owner tw dependency
+         cb270adda4b18fa4306df111b9e95821dd98d461 Merge branch 'for-5.16/drivers' into for-next
+         db8a0117b61c3da65a63cb7a55bc57581d6c9aff Merge branch 'for-5.16/block' into for-next
+         dbe63eaa9e1602dd1fe4fbf634be842e2c253df6 Merge branch 'for-5.16/passthrough-flag' into for-next
+         7605f0d0f2424c22f1850f89ee66567c7459548d Merge branch 'for-5.16/io_uring' into for-next
+         
