@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6697238653352586608=="
+Content-Type: multipart/mixed; boundary="===============2613799714028189740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 29 Oct 2021 16:47:20 -0000
-Message-Id: <163552604038.21355.13059448956060262018@gitolite.kernel.org>
+Date: Fri, 29 Oct 2021 16:47:30 -0000
+Message-Id: <163552605044.21488.5782877619172468357@gitolite.kernel.org>
 
---===============6697238653352586608==
+--===============2613799714028189740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 7df621a3eea6761bc83e641aaca6963210c7290d
-    new: 7444d706be31753f65052c7f6325fc8470cc1789
-    log: revlist-7df621a3eea6-7444d706be31.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8f84cbd4d9571022f5c9d50db63a90f95933415a
+    new: 58d6313f2aec60283d2fd753b386f5eacfe98cce
+    log: revlist-8f84cbd4d957-58d6313f2aec.txt
 
---===============6697238653352586608==
+--===============2613799714028189740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7df621a3eea6-7444d706be31.txt
+Content-Disposition: attachment; filename=revlist-8f84cbd4d957-58d6313f2aec.txt
 
 195bb48fccdef4965a65579ef05db8a8fcba8dca ice: support for indirect notification
 9e300987d4a81fb95c323f042dd5aa484f4eb3dd ice: VXLAN and Geneve TC support
@@ -82,5 +82,29 @@ c4cb8d0ac7149ad9d6989081844f37f2c94ff03b net: netxen: fix code indentation
 c52ef04d592024c007ea596e05c72bfc671757b5 devlink: make all symbols GPL-only
 bb5dbf2cc64d5cfa696765944c784c0010c48ae8 net: marvell: prestera: add firmware v4.0 support
 7444d706be31753f65052c7f6325fc8470cc1789 ifb: fix building without CONFIG_NET_CLS_ACT
+e882f0c0ce8a5e300aeb3aaebe83a004a4139286 net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
+c81a7bba22357ceddfeba1ac3e7d80bdbc62b48e net/mlx5: Allow skipping counter refresh on creation
+67e87a07b32ca5753a5112a097f5eccdf9bdf898 net/mlx5e: IPsec: Refactor checksum code in tx data path
+cc1094de834e03b1976e146038e201156bc975c4 net/mlx5e: Refactor rx handler of represetor device
+45077b1b2b01b422ff85b8b530708a615a0dd249 net/mlx5: CT: Remove warning of ignore_flow_level support for VFs
+53c160025b12a12eef7379562da0c6a6a87e14b6 net/mlx5e: Use generic name for the forwarding dev pointer
+9f463907a5dee4d57cf50eb1099a08407e6ada76 net/mlx5: E-Switch, Add ovs internal port mapping to metadata support
+40df6781e420c6744376bf3a871571920b519963 net/mlx5e: Accept action skbedit in the tc actions list
+b1adb09ed8597322607673cfe62aff03ae5ff683 net/mlx5e: Offload tc rules that redirect to ovs internal port
+427c4fdb41fa50e6c2741e2618c8bf7084c54913 net/mlx5e: Offload internal port as encap route device
+176f7f26d87575380fae4538692f9b87727c7ee6 net/mlx5e: Add indirect tc offload of ovs internal port
+3a23b775b9ba0049e23c8531d03c0ed19c0d1aff net/mlx5e: Term table handling of internal port rules
+0374fd9ecf300ccc04dd98d07d3fb417240c07dd net/mlx5: Support internal port as decap route device
+c4da7652fd0dcdd367fb91354b0f410f81dc6a6d net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+0e8a865fcd2f9d375ed01351418cd0fcae9d5049 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+fbeb8055084bd5e42a6f960f430a4824df5d5235 net/mlx5e: Allow profile-specific limitation on max num of channels
+a0d10dc6a54656e8ba42bda56936a449a931c5ea !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+f310f2d5729abd616184718b858f7d5cd6d13606 net/mlx5e: Allocate per-channel stats dynamically at first usage
+13cb34f7ca73b11d638347c93db2a6d656322bfa net/mlx5: DR, Fix querying vport 0 capabilities
+4da6f2332dfba1345791043601d43c632bb87ab3 Merge branch 'patchq/441693' into mlx5-queue
+81f8d7975fde6a96cea4c8f4e784c1db9065d5bd Merge branch 'patchq/427348' into mlx5-queue
+c8a3a13d220903b838699709ecdbb1f3d793b551 Merge branch 'patchq/394186' into mlx5-queue
+ff030c7247f6923161ec8c5e42b6d6cb464715c4 Merge branch 'patchq/432332' into mlx5-queue
+58d6313f2aec60283d2fd753b386f5eacfe98cce Merge branch 'patchq/435320' into mlx5-queue
 
---===============6697238653352586608==--
+--===============2613799714028189740==--
