@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 29 Oct 2021 20:08:58 -0000
-Message-Id: <163553813881.18882.3696591685036696459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 29 Oct 2021 20:34:45 -0000
+Message-Id: <163553968597.2245.11170381689310417646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: cfb34c044d8ed8a65a2c9131cfe90be887d6ee62
-    new: ce327c53a8df0639fdc51b84728c1afdf98d05f6
+  - ref: refs/heads/gpio/for-next
+    old: f4a20dfac88c06c9b529a41ff4cf9acba8f3fdff
+    new: 6c2a6ddca763271fa583e22bce10c2805c1ea9f6
     log: |
-         61a9f252c1c026f84129a7bfa476e880b75e80eb scsi: mpt3sas: Fix reference tag handling for WRITE_INSERT
-         facdc632bb5f86ac861c653afb7458ecda82e171 scsi: ufs: ufshpb: Remove HPB2.0 flows
-         ce327c53a8df0639fdc51b84728c1afdf98d05f6 Merge branch 'fixes' into for-next
+         2b725265cb08d6a0001bf81631ccb5728d095229 gpio: mlxbf2: Introduce IRQ support
+         6c2a6ddca763271fa583e22bce10c2805c1ea9f6 net: mellanox: mlxbf_gige: Replace non-standard interrupt handling
          
