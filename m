@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Sat, 30 Oct 2021 15:10:57 -0000
-Message-Id: <163560665764.26521.18126401062689679850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 30 Oct 2021 15:50:04 -0000
+Message-Id: <163560900409.18851.11018541158317776432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/gpio/gpio-sim
-    old: bb369f4373f5cda706048efe0e5ed9de552322d4
-    new: 5065e08e4ef3c3fd0daf141f601de4b4d1af2333
+  - ref: refs/heads/for-5.16/block
+    old: 9b84c629c90374498ab5825dede74a06ea1c775b
+    new: ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6
     log: |
-         5065e08e4ef3c3fd0daf141f601de4b4d1af2333 gpio: sim: fix missing unlock on error in gpio_sim_config_commit_item()
+         ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6 blk-mq: fix redundant check of !e expression
+         
+  - ref: refs/heads/for-next
+    old: 7605f0d0f2424c22f1850f89ee66567c7459548d
+    new: f2e83d851e545c4b16770040b4ff89c3d874968b
+    log: |
+         ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6 blk-mq: fix redundant check of !e expression
+         f2e83d851e545c4b16770040b4ff89c3d874968b Merge branch 'for-5.16/block' into for-next
          
