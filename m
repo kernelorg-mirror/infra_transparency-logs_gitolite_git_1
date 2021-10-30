@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8649283296923418196=="
+Content-Type: multipart/mixed; boundary="===============6253322346803760381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 30 Oct 2021 16:10:08 -0000
-Message-Id: <163561020800.30804.6123337007761201714@gitolite.kernel.org>
+Date: Sat, 30 Oct 2021 16:48:00 -0000
+Message-Id: <163561248009.20360.6628288001287696219@gitolite.kernel.org>
 
---===============8649283296923418196==
+--===============6253322346803760381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: e882f0c0ce8a5e300aeb3aaebe83a004a4139286
-    new: 0cd4e90eba480caf9c6ee80dacd8416642cc4bb7
-    log: revlist-e882f0c0ce8a-0cd4e90eba48.txt
+  - ref: refs/heads/net-next-mlx4
+    old: 7444d706be31753f65052c7f6325fc8470cc1789
+    new: ae0393500e3b0139210749d52d22b29002c20e16
+    log: revlist-7444d706be31-ae0393500e3b.txt
 
---===============8649283296923418196==
+--===============6253322346803760381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e882f0c0ce8a-0cd4e90eba48.txt
+Content-Disposition: attachment; filename=revlist-7444d706be31-ae0393500e3b.txt
 
 1f171f4f1437f7811b7610ef959e4340b9212a11 iwlwifi: Add support for getting rf id with blank otp
 af82c00736b4d1ef6a77b0467a1065916e0b15bf iwlwifi: Add support for more BZ HWs
@@ -156,6 +156,5 @@ ba064e4cf923326989a59da1e889f45282abb6b8 netdevsim: remove max_vfs dentry
 d269287761abc366c9fa9bda9ede87031538c5e9 bnxt_en: Remove not used other ULP define
 6d40edcf4ee16a296f06e4ede604473dbad99ebf Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 ae0393500e3b0139210749d52d22b29002c20e16 net: bridge: switchdev: fix shim definition for br_switchdev_mdb_notify
-0cd4e90eba480caf9c6ee80dacd8416642cc4bb7 net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
 
---===============8649283296923418196==--
+--===============6253322346803760381==--
