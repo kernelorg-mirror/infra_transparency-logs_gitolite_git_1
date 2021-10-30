@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 30 Oct 2021 15:50:04 -0000
-Message-Id: <163560900409.18851.11018541158317776432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Sat, 30 Oct 2021 15:54:07 -0000
+Message-Id: <163560924792.20587.17737488862093836638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
+user: colyli
 changes:
-  - ref: refs/heads/for-5.16/block
-    old: 9b84c629c90374498ab5825dede74a06ea1c775b
-    new: ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6
+  - ref: refs/heads/nvdimm-meta
+    old: 544e57301b9adc7628556f4b709f65c35142df47
+    new: a3d60637083fbe7556527b79671f62905532cc7e
     log: |
-         ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6 blk-mq: fix redundant check of !e expression
-         
-  - ref: refs/heads/for-next
-    old: 7605f0d0f2424c22f1850f89ee66567c7459548d
-    new: f2e83d851e545c4b16770040b4ff89c3d874968b
-    log: |
-         ef1661ba6d2e9c8eecd13ee04067bdcc59f7aac6 blk-mq: fix redundant check of !e expression
-         f2e83d851e545c4b16770040b4ff89c3d874968b Merge branch 'for-5.16/block' into for-next
+         a3d60637083fbe7556527b79671f62905532cc7e bcache: store btree nodes on nvdimm
          
