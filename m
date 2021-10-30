@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1510013675647155127=="
+Content-Type: multipart/mixed; boundary="===============3120828206020092066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 30 Oct 2021 08:56:36 -0000
-Message-Id: <163558419649.13258.5810716169115747357@gitolite.kernel.org>
+Date: Sat, 30 Oct 2021 09:02:09 -0000
+Message-Id: <163558452952.29419.8793789590586711787@gitolite.kernel.org>
 
---===============1510013675647155127==
+--===============3120828206020092066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c47055e943b0b71c2e719bc2d0b47e00f89becaa
-    new: 9fff139aeb11186fd8e75860c959c86cb43ab2f6
+    old: 9fff139aeb11186fd8e75860c959c86cb43ab2f6
+    new: a0548b26901f082684ad1fb3ba397d2de3a1406a
     log: |
-         b0d5d2a71641bb50cada708cc8fdca946a837e9a usb: gadget: udc: core: Revise comments for USB ep enable/disable
-         9fff139aeb11186fd8e75860c959c86cb43ab2f6 usb: gadget: f_mass_storage: Disable eps during disconnect
+         a0548b26901f082684ad1fb3ba397d2de3a1406a usb: gadget: Mark USB_FSL_QE broken on 64-bit
          
 
---===============1510013675647155127==
+--===============3120828206020092066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635584194 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635584528 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1635584194-37e1db62b07088820578499ee2c7549469632c22
+nonce 1635584527-810f29588cd2f7c6acbf01c7d688ec1e430632af
 
-c47055e943b0b71c2e719bc2d0b47e00f89becaa 9fff139aeb11186fd8e75860c959c86cb43ab2f6 refs/heads/usb-testing
+9fff139aeb11186fd8e75860c959c86cb43ab2f6 a0548b26901f082684ad1fb3ba397d2de3a1406a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF9CMIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5SQQALABaIuEmJtveM3T8R2Z
-R1vBEWJIxrIdmxyFKsi6Hw9ICoBpUDdsgN/MaJGlP8OTjlapxEZoZdGCKqLy0H0v
-vsqEu15M/g2I/G9KwtIKx1eNoBXhzfkN1YSdpreePKFDDC4jrTn+Q5n+wCJVrtCD
-+j38zAp/uMr7ZYWyYlatBiaXJm5OCqyc95p/W/E4mjWJd2oE2HfDOZrFd1JEwooT
-tS7tbPEL7+H4JcClkGWQqgGwTrvXnWKFMK6ndmVWwREyWuf5nD7xrYIqDyLem3WH
-TTJd3ZEmg/fxXTi1Z0vGRzB50ulTbsbpbIeNjn+bwWc+fXpfUfc378JA3xAJ9lOz
-/UI2c5I5IcGfoJ1sPU/ZEQExRSk19pcxG5u0l292EH9ji23387ekoUBKG66lfK42
-e2skLRBwljy8vbqpIB0+zTR4/+izGPgg/8m+jI9/2iUVcKqlGLIHzGGPs8FB64Mw
-EeJCzF3u+QMKUduu6CYgsZ1DQaOHUYhX/o46Ojcl4F2KQl6QEZ3sV/T9+4ko8c0C
-JPeFFcOsTslO3r3cWPMlsNEwdIACQNMr5tuZWKCvFWRbWpBzLItwPG3gCAQPlqc6
-fW3HYgWjvvyarQWl0BJut7iC1F3gmEmR/yxtRwcHjm5merkAsvbR+1rpwbQGYG8T
-gn8B+hQxE7pXHrzphEaP5qlv
-=0gl1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF9ChAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nrkQAJoUt8D3hXM71b9YTU47
+nixazClvlWDUoUzgJbRoWdiEtBU39+V9MDAEIlkHInB21o4BDWqZ3X4Se+gVMUX2
+lJ9QwWFkLB8SbhH06+bw2HoXx8zX9+llQ7p336h+fvza/1ZEclDcbxMG16x+cs4K
+gcxAu7pBFe59ikmaD0uSeP8y2HQQcYm/xefoeSElHgsgtjrcQtzSPhyKfu9TzWkS
+QrRektVRsAFvygtin1m6kwhnTwMOCrqAotOVX0VYj6KhMVoHL8NM/c9YVUGqBOY3
+wvzYBS/SfW78MEFB6Rb808d76DnCLMtqCErCU/YFVC8REoThu9Hau5zfYVKqvbwu
+zj3l18d1AAMy2xz7hIHG9e5U1SnHhdXnVvsC7RWErCHJgZef/4ZZ00Spcwv2MQF6
++c/0c8WvE4M6KJxgM6wyF3O95nDQCOuxEu5bFL0b9DBbxR75rsuFjWS96pTMTEgP
+rGHO5mdB7jnqNInntmDvNSLpGKqT3N4XlsZ7K4+bbQR2A4/UEPA3fpTvXIidxBTn
+tQOLrIA46LHc4fU0BAzTrUqCLmsXH+QrbGEeD0ccrqOZxPjb/lt7XBU/2/u6FLjv
+sr25MsJI3fEnFx7y9rz9xmcEVzPz1NX24pXfOWt09LjNj9HHtV6EwalBSwRU8vIv
+bCmyxY2BkN26S1Z1Qk5fh8pn
+=FFgd
 -----END PGP SIGNATURE-----
 
---===============1510013675647155127==--
+--===============3120828206020092066==--
