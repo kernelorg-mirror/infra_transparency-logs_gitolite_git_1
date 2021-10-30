@@ -1,40 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6240233923741160341=="
+Content-Type: multipart/mixed; boundary="===============2677701503211916848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 30 Oct 2021 12:49:17 -0000
-Message-Id: <163559815744.2032.1557868229368078627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 30 Oct 2021 12:50:30 -0000
+Message-Id: <163559823084.4302.9447777181076803509@gitolite.kernel.org>
 
---===============6240233923741160341==
+--===============2677701503211916848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: fc3341b4b55f46ad0846a22ae149d94bac6ce40b
-    new: bf653b61cf5fb4a9b5a9c1a5a19dc5d5f5bd4172
-    log: revlist-fc3341b4b55f-bf653b61cf5f.txt
+  - ref: refs/heads/master
+    old: c485d4b1a954442cee291821bdd0972ad53bf94b
+    new: de5dae559dc5a9b3eca48d26dfdcc156ce0a6964
+    log: |
+         de5dae559dc5a9b3eca48d26dfdcc156ce0a6964 5.4-stable patches
+         
 
---===============6240233923741160341==
+--===============2677701503211916848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc3341b4b55f-bf653b61cf5f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2978891aff80e8dcae85f078213048a4bcd0ec2b platform/x86: amd-pmc: fix compilation without CONFIG_RTC_SYSTOHC_DEVICE
-16a035a314060c4b12f70284302df448feb11bec platform/x86: amd-pmc: Downgrade dev_info message to dev_dbg
-9587f39277ef799ab3be7bb04b191bdf1a3e697a platform/x86: amd-pmc: Drop check for valid alarm time
-d411e370978fcbf2135a51b43e9acabc879b304b platform/x86: hp-wmi: rename platform_profile_* function symbols
-3aa539a584f6f65fc4e471274c8c8b443331eb52 platform/x86: asus-wmi: rename platform_profile_* function symbols
-9045512ca6cdb221cd1ed32d483eac3c30c53bed platform/x86: mlx-platform: Extend FAN and LED configuration to support new MQM97xx systems
-4289fd4ad43afaed6d1515c573efe9e42a83219f platform/x86: mlx-platform: Add BIOS attributes for CoffeeLake COMEx based systems
-4616e54795cc8183ecf2a6cef6c7a9091cb1ae56 platform/x86: mlx-platform: Add support for new system SGN2410
-025a2fbd8ddc5fe6479bb5d2b0252ad9e789805f platform/surface: aggregator_registry: Add initial support for Surface Pro 8
-bf653b61cf5fb4a9b5a9c1a5a19dc5d5f5bd4172 platform/x86: touchscreen_dmi: Add info for the Viglen Connect 10 tablet
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635598229 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1635598229-f3e310c402c6a07fd5b3851a6e4d59534faf02b6
 
---===============6240233923741160341==--
+c485d4b1a954442cee291821bdd0972ad53bf94b de5dae559dc5a9b3eca48d26dfdcc156ce0a6964 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF9P5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EnQQALXUopQB/H7vKHCefXGp
+bqyBKRint8SgUSczFXVvzHXB+lCB7JjLmI3G6QbVzvuEzMLYn3LotMYa+MhwO4HX
+PybShK6o/qm/3xONyCGKiLeXTNsM7JuSIuuAVqJfTZKOmKkOXj1CslAqFd13XtCT
+KfGy2P6aqWCcnN0a6Ee1at0pPQIIFrxKiUa0FMa4rnWeMScxfSNummz4FwOSfuSN
+NOWC/BgTLEK8RcENNzyMnlMCzER0YBFx34hfOreRHUYd9YHy1t5BUhRR386fOcLh
+719cOJSPO5oX4eh0DrhSnKGWWYwkyD3L5QYOCjPh4JrWUUNKfypbIX/BkSsTM4W5
+WBbiTRfAtzQPRzdywTDP0JoAk/SrPJHwOSDuUHSYBAjXqyQAM9ikAb7D+yFSAzRh
+i4dihpFeWbga3+n7SF8SZwissmOy8y/LmiRYneogXxCcCDbdsJ8NByJIiI8lG9+x
+wALgQLbzRsOy4Gw27QyS+MRXETBW5o45Qcnd5CEUSuNObgRoNOKUjiL5Q/062pPJ
+Y+AWg73an0HMunIug/pebjsmEEXUEA2yVsmwsqy+ccLHu52gNDwDRCZzmJwEA/YY
+g1MOjOn04o+oHjK4UohDgr2WWJxlDhwlCbl+FpXqNXwnC17xmCbpM5BnUxoymArR
+CLkZNjXvcr0DAh4xNY/87Q+M
+=rC1S
+-----END PGP SIGNATURE-----
+
+--===============2677701503211916848==--
