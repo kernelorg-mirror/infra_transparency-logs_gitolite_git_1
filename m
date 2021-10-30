@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 30 Oct 2021 21:22:02 -0000
-Message-Id: <163562892291.29562.8020095183996295707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 30 Oct 2021 21:25:20 -0000
+Message-Id: <163562912029.31927.7105693594018691108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: cf7a5e1b918275e1f2ef246ac21269b744596a6f
-    new: e5d73427526bb9d53fc4dc81e457a993afb578e9
+  - ref: refs/heads/x86/core
+    old: ca136cac37eb51649d52d5bc4271c55e30ed354c
+    new: a72fdfd21e01c626273ddcf5ab740d4caef4be54
     log: |
-         e5d73427526bb9d53fc4dc81e457a993afb578e9 Sat Oct 30 09:21:16 PM UTC 2021
+         a72fdfd21e01c626273ddcf5ab740d4caef4be54 selftests/x86/iopl: Adjust to the faked iopl CLI/STI usage
          
