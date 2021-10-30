@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 30 Oct 2021 02:03:49 -0000
-Message-Id: <163555942975.11935.15764294820149608524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sat, 30 Oct 2021 02:40:18 -0000
+Message-Id: <163556161891.2323.8427695562039960496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/experimental
-    old: 9fe440d0ac03f85259532ee24345b373b5bd855d
-    new: f4cc27522a7f4ac71e8fe14ace56545f95c59993
+  - ref: refs/tags/clk-fixes-for-linus
+    old: f3276558b99c5db3854f53a5b6c12444626d997f
+    new: c9261015dc2397588e6a9bfaf3d9f4d344229fff
     log: |
-         447df4c6342db5e3db4885d6f899fafb9199a907 erofs-utils: sort out contact information
-         aa7d72201985803adc3a6468543ec3950a95a924 erofs-utils: add liblzma dependency
-         0623d5ed755a35316dbe4a9842ce64df6f05069d erofs-utils: fuse: add LZMA algorithm support
-         f4cc27522a7f4ac71e8fe14ace56545f95c59993 erofs-utils: mkfs: add LZMA algorithm support
+         675c496d0f92b481ebe4abf4fb06eadad7789de6 clk: composite: Also consider .determine_rate for rate + mux composites
+         197634683362b6d027e31cd8e062be52cf628c10 Merge branch 'clk-composite-determine-fix' (early part) into clk-fixes
          
