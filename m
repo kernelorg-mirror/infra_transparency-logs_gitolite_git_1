@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 31 Oct 2021 14:25:05 -0000
-Message-Id: <163569030597.23636.1387285078449138646@gitolite.kernel.org>
+Date: Sun, 31 Oct 2021 14:35:39 -0000
+Message-Id: <163569093939.29432.5899853218825393750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental-dump
-    old: cd25b3d5c99bea74cd0a5e1d794c21bc3b8b6b4b
-    new: 977e36d5980a8470e693bb96d4636c6463f0fc1f
+    old: 977e36d5980a8470e693bb96d4636c6463f0fc1f
+    new: 728ee1640295cd4d3c447c94b77401a7bd34691d
     log: |
-         681637fb7f4b5a6e61eb2cac3a87b1bb2a419a8e erofs-utils: dump: add option to print specified file infomation.
-         cfe736be7c03044002711cf85111621ff0f5db9d erofs-utils: dump: add support for showing file extents.
-         977e36d5980a8470e693bb96d4636c6463f0fc1f erofs-utils: manpage: add dump.erofs manpage.
+         8645016f68903f0c26e208ddece86bc5f6e9447e erofs-utils: dump: add option to print specified file infomation.
+         b67ee62963ccb0b3f957867acec96c2ca9324f47 erofs-utils: dump: add support for showing file extents.
+         728ee1640295cd4d3c447c94b77401a7bd34691d erofs-utils: manpage: add dump.erofs manpage.
          
