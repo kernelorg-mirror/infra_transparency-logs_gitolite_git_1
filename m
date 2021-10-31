@@ -1,19 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 31 Oct 2021 17:28:25 -0000
-Message-Id: <163570130502.5699.9235280043529951665@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6033448263741490884=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 31 Oct 2021 17:39:07 -0000
+Message-Id: <163570194791.11638.11060512088105430819@gitolite.kernel.org>
+
+--===============6033448263741490884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 2cda0910af74f511683a187de1725d03dc811c16
-    new: a4383a9bccc5348513a347eb5ac1d48d8a68c399
-    log: |
-         a4383a9bccc5348513a347eb5ac1d48d8a68c399 tpm: tpm_tis_spi_cr50: Add default RNG quality
-         
+  - ref: refs/heads/mlx5-queue
+    old: 0847e3cb64e1d5bfdbcb4f88fd5e83a77145a779
+    new: fbfa64242e09e7e505c87d925447941c69d17757
+    log: revlist-0847e3cb64e1-fbfa64242e09.txt
+
+--===============6033448263741490884==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0847e3cb64e1-fbfa64242e09.txt
+
+7253f21cc8926b76b47dadea9e76c229f1407ac8 net/mlx5: Add esw assignment back in mlx5e_tc_sample_unoffload()
+f8f30fa408f5bec5975c8e9b0d0fbd6dca485a52 net/mlx5: DR, Add check for unsupported fields in match param
+1b991d03ac5430920456273e4d30a514024dd2fc net/mlx5: Allow skipping counter refresh on creation
+e0797624e28a7b8c899e29960984e5eecfa57b6e net/mlx5e: IPsec: Refactor checksum code in tx data path
+426b15231eb99cbcad3cc093dbdb0420c168ddf5 net/mlx5: CT: Remove warning of ignore_flow_level support for VFs
+e6d585d2dc45f8d1f9b7352dca55eba513487e7f net/mlx5e: Refactor rx handler of represetor device
+f863dd43675125c69a58d89e0b0b3ede03aeaf01 net/mlx5e: Use generic name for the forwarding dev pointer
+00c6a7e0fcdcd91d809f1e5e9913ee3ca1614932 net/mlx5: E-Switch, Add ovs internal port mapping to metadata support
+5fd4ae0e98583a87c9048b02a09176b22004393e net/mlx5e: Accept action skbedit in the tc actions list
+d244a0067ac78ba6a37d51ded02e9798b4286401 net/mlx5e: Offload tc rules that redirect to ovs internal port
+1d8a078a199eee727b7d79424d3fda523e0e2ba1 net/mlx5e: Offload internal port as encap route device
+09b8a3e8203b03a3ca01ab568e0f8e7a2dcfea9f net/mlx5e: Add indirect tc offload of ovs internal port
+80979be78b5c4d5db7ef35394397cbb921d7b1db net/mlx5e: Term table handling of internal port rules
+7b44e6c8d00f6cc5b8dc7e4125a72fbc3e4eb88c net/mlx5: Support internal port as decap route device
+162d5fc28fd42761e0b304a670ec16768d0be00d net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+798368e262cbe9d5b490c2c1bce898ffbfead311 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+b0ca14be49cb4dc6b5a0062c4775e621a6760e29 net/mlx5e: Allow profile-specific limitation on max num of channels
+1633e34e2e5ccf459b0f5e642242cc057edeb05b !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+d9b24ba63e580d7c8961e22461f03dab07dabe1d net/mlx5e: Allocate per-channel stats dynamically at first usage
+da470f9fd39c83e8576e91da9527dfe8757c1ee4 net/mlx5: DR, Fix querying vport 0 capabilities
+9cd4299201999b20e7fec9ff0c7577da7ccce361 Merge branch 'patchq/414153' into mlx5-queue
+9954cc9fd4dfff3c787c0efbe11ffc266549714c Merge branch 'patchq/441693' into mlx5-queue
+9564f3bded986f04dc1a29cd4a73317b0abcae4d Merge branch 'patchq/427348' into mlx5-queue
+dff4ea0c940058d666f1154f4dfc32776f92a945 Merge branch 'patchq/394186' into mlx5-queue
+0baa82759f7521ee8acbacc1006174b69cbbe64f Merge branch 'patchq/432332' into mlx5-queue
+fbfa64242e09e7e505c87d925447941c69d17757 Merge branch 'patchq/435320' into mlx5-queue
+
+--===============6033448263741490884==--
