@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1828198199891927296=="
+Content-Type: multipart/mixed; boundary="===============1758422287837305067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sun, 31 Oct 2021 13:02:02 -0000
-Message-Id: <163568532299.4667.13743631273158528140@gitolite.kernel.org>
+Date: Sun, 31 Oct 2021 13:03:21 -0000
+Message-Id: <163568540114.5096.11058423786246230509@gitolite.kernel.org>
 
---===============1828198199891927296==
+--===============1758422287837305067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 4e3386843325299df13069a1c94e27237b12be51
-    new: 9c6eb531e7606dc957bf0ef7f3eed8a5c5cb774d
-    log: revlist-4e3386843325-9c6eb531e760.txt
+  - ref: refs/tags/kvm-5.16-1
+    old: 5f0ea0ace80f2348a0c4115e9c77efba00b878eb
+    new: 008e5a421ede6cd4e11e3e414bf508976a58bf0b
+    log: revlist-5f0ea0ace80f-008e5a421ede.txt
 
---===============1828198199891927296==
+--===============1758422287837305067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1635685321 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1635685399 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1635685321-8f24da2d094b368cb4841799749eacd7c5a5a011
+nonce 1635685399-51a9a7a04007d845f97c7ad8615c8313a82a1156
 
-4e3386843325299df13069a1c94e27237b12be51 9c6eb531e7606dc957bf0ef7f3eed8a5c5cb774d refs/heads/next
+5f0ea0ace80f2348a0c4115e9c77efba00b878eb 008e5a421ede6cd4e11e3e414bf508976a58bf0b refs/tags/kvm-5.16-1
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmF+k8kUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroO2Cgf/Vp4eMaXWmLTPvjriLJLuA7fjwoQv
-ufsAKI6/rHzyIHXlXvb8c+hY2R76375+0jaTVZDksuEhsxYxMByAkcLkVD6z+kAY
-mw46Kp/nJTTJXzUeZz1x01pi1SEjXaSl9/wNhihdgMlLRr4gZNg50yKi71w/oEQp
-KwPUdMVizXqtTL1dDomecJ14MM5MK27qhfBNz8bioE1H835Cq+cQyPEVTdWEIMQ/
-LsxY4x1gYRQz+F1rdLz7PlxaoakZxKzcbg6mgvV8HP8CrcaF2vvjhp7IniVYbVSP
-QrACW1cFPnIu6ffxZZYzk9+zi0uwGMADs0Pua7UbqoTP500edN0MncQ6ag==
-=FVVA
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmF+lBcUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOuvAf9F2jhgmWS1VXkakweh2UZizRpp5Da
+pNby9nlhof3jHl7+6gQwWB0sli6F0/u3n7CPat0u02dTs0njZNQrj7Xj5uFWRGes
+HptHH1vbhVKSIqauXY/Kg8h2qYna31FxlGpmkbGHXWI4n3T3CZTf1zVbLd78z6WL
+2eCYBr2xvPh63Oy78ZE02bEoY3ScipuLAzBG6xTPqtDjzac/s34IPNY9JCPhNvC0
+ObAIZy31CqzsKj+/fsuCGxn3w8LXW42V9pgjiQlsRQelRqHlusOmiHNGMaMsWCaR
+tSVlNWAHX9jH4A4YkUOWWyca/ef3GD9g0JCT6raEkQJVOnlY4R69NPPiig==
+=/eS0
 -----END PGP SIGNATURE-----
 
---===============1828198199891927296==
+--===============1758422287837305067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e3386843325-9c6eb531e760.txt
+Content-Disposition: attachment; filename=revlist-5f0ea0ace80f-008e5a421ede.txt
 
 9b57e9d5010bbed7c0d9d445085840f7025e6f9a KVM: s390: clear kicked_mask before sleeping again
 0e9ff65f455dfd0a8aea5e7843678ab6fe097e21 KVM: s390: preserve deliverable_mask in __airqs_kick_single_vcpu
@@ -74,4 +74,4 @@ f0a1a0615a6ff6d38af2c65a522698fb4bb85df6 KVM: s390: pv: avoid stalls when making
 7c8de080d476e3433d9aec0d6111758c3e4ea917 RISC-V: KVM: Fix GPA passed to __kvm_riscv_hfence_gvma_xyz() functions
 9c6eb531e7606dc957bf0ef7f3eed8a5c5cb774d Merge tag 'kvm-s390-next-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 
---===============1828198199891927296==--
+--===============1758422287837305067==--
