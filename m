@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 31 Oct 2021 23:04:45 -0000
-Message-Id: <163572148530.890.18065590717105836872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Sun, 31 Oct 2021 23:07:00 -0000
+Message-Id: <163572162072.3056.17310102608976539121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: bleung
 changes:
-  - ref: refs/tags/timers-core-2021-10-31
+  - ref: refs/heads/chrome-platform-5.16
     old: 0000000000000000000000000000000000000000
-    new: 8374242043510311bfc8162cb28f6e409074174a
+    new: 297d34e73d491a3edbd6e8c31d33ec90447a908b
