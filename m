@@ -1,61 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4935740310246372349=="
+Content-Type: multipart/mixed; boundary="===============4153691028499088270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 31 Oct 2021 08:22:36 -0000
-Message-Id: <163566855635.12555.14369271609543681148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 31 Oct 2021 08:25:23 -0000
+Message-Id: <163566872381.14775.10211308477077359450@gitolite.kernel.org>
 
---===============4935740310246372349==
+--===============4153691028499088270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 3d34b180323b487cad6f1e7560f1ec653110c899
-    new: 10508ae08ed8ce8794785194ad7309f1437d43fd
+  - ref: refs/heads/tty-next
+    old: 73a3d4f41886e6bd27f8b09c6235539a586e5131
+    new: cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07
     log: |
-         68264c4609ea74fc175d0ccc968ba16b0847ac2a staging: r8188eu: fix missing unlock in rtw_resume()
-         bdcfac6ab6c9362c45959fdc91c730ecc2c18f7e staging: fieldbus: anybus: reframe comment to avoid warning
-         d8a364820e01b6abd9ae5dea1fc18f7f5b1a1450 staging: vchiq_core: get rid of typedef
-         88c47bbf9a2f1dd30ac145ffa057ba72c6ddec1b staging: rtl8723bs: fix unmet dependency on CRYPTO for CRYPTO_LIB_ARC4
-         cacd73e55e77f6d290d827eaf23e9bf28ed20836 staging: rtl8723bs: hal remove the assignment to itself
-         10508ae08ed8ce8794785194ad7309f1437d43fd staging: r8188eu: hal: remove goto statement and local variable
+         d142585bceb3218ad432ed0fcd5be9d6e3cd9052 serial: cpm_uart: Protect udbg definitions by CONFIG_SERIAL_CPM_CONSOLE
+         cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07 tty: Fix extra "not" in TTY_DRIVER_REAL_RAW description
          
 
---===============4935740310246372349==
+--===============4153691028499088270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635668555 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1635668555-e304c1a487a9077120ca6928f5cb69c27f37d275
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635668722 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1635668722-e9faec574e31bdf76e2104a0f4213dd2c6029c17
 
-3d34b180323b487cad6f1e7560f1ec653110c899 10508ae08ed8ce8794785194ad7309f1437d43fd refs/heads/staging-next
+73a3d4f41886e6bd27f8b09c6235539a586e5131 cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF+UksbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/ZIP/iv6CwOL/hFUfgrLAnNY
-6AT3re2oway7o9B3WqzT/du583xI0z8qeDDjwGNwdNdfgRcuHAOAM0Uf6neqRlyA
-8kM73U+4HvqaZuXWuq0YdzrewsfT2YtS3HC+FZg1vzKnbm2nk/7mlpnMuTVL54is
-6qe6hrXqH9UPjaH7/Njfjac3X72VMXJw71dvBiyPNZbd/47Z4scD6NzMw0wBdaHd
-7rpJPhrqN8VyGt6+es/UJ2xEuIVs1Ylia7J+WvLP0ZJMACx4BJb37O3ahTYUCxqL
-PLf1sZFyy51M9fnhzbhe7+FKL3Poro3L3jaF+jxZKh3sQGAM6h1RfSUCo+2msWC6
-k8sHmxOXJQjLJ2AbjrX97c9//SWXsWzee1b3So+d6GZc/f5xliZhXw+ffIGyULSW
-Vl8KOzEkjOjzXtb5BSqrMA9moErjImi4OvSlddlzhCsMvvyU6PbOM/x/lzlvCLgt
-Jre0R3hPigVsmC3uTBLIqE/j6RFp+xFHG7tZ8J/wQfsO5ix8YLo9SrX8jDJM08Zj
-hzgSmsTmWn8N4jA2++h9O34fMt+bfBhGcJyFxfu74tOmesUsOzEAnIei8wsIWLCn
-Wrn0femMl57OzJa4rAv7y3IXfXs/+dEW59ZEQr+ftVMCubG0N99VRHlQ8M7cwOXB
-RiGNTdMzTdgP/82ul+fXtW6L
-=D2XK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF+UvIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QdAQAKUqo5ZiRhkE441on+an
+YnKJmd+cDMl2P0LzW8ZDQf6PDXqeWCccJDP1caJd80mMXs6FUGxgYGHeQ7FvCCst
+yTKNtpHl8TNwjqIAg6CzzbnRSalfK5CzvMxZ7UYS/T45IIkMjpqV2sk7mvMG1tK1
+6JjKNrx6X8tul4KnT7mQ2YVBFyZWftPnX8GRFXY8C8yj8KDeWXWpCE16wZZPRcyw
+2sTzm0hgc0M83D2ID0o+BnayZ/F/j/nr5s0zkLpeiWDEXHbBs72kGgfyc5FH3/WS
+CLqJ4MJvhBSU5c+cktxymzkmAls39Mp2tsxj4ISG2yTD35bshh0O1ZJR52C8pkRU
+Sm9JgMw8aw1XscaTo/DIU1lQJ/HDiFcHa+c5aEu2PGvBA+CEmUAeUO2xciEb5RTt
+8S/QehJufH6I6uK91vcsH67fcKpapBu+liDQPSvg8smtTizXT2zFohYXr0mNRDbP
+vSzVw5kegqZRegwcXbOI8U7uCghX09+ig8Ckm6FuMiS2ncSt5YN7fUlOpfSgVteK
+7Um+R7Pnu4XzPaPf2NC4ys+2KhtvRfjrCFMt3cedW5bvmV5dMGx/8B+eRZQIoG5a
+e6NFBFg75DVCY5W8dzHGWocdn+nHZHizPjDV2e8yHdhvSpebCQySR14Sy0jpGyIM
+oCh/5AAcsoWo5ZKDVb0l5FgQ
+=kTCL
 -----END PGP SIGNATURE-----
 
---===============4935740310246372349==--
+--===============4153691028499088270==--
