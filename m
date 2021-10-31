@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9175687487619674092=="
+Content-Type: multipart/mixed; boundary="===============2905981340495180409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 31 Oct 2021 09:40:08 -0000
-Message-Id: <163567320817.10866.6570197222199868734@gitolite.kernel.org>
+Date: Sun, 31 Oct 2021 09:40:16 -0000
+Message-Id: <163567321695.10993.8682078643920158662@gitolite.kernel.org>
 
---===============9175687487619674092==
+--===============2905981340495180409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 95bbdb1410843e34fcecff0818ef1421286acb33
     new: 5989725f40fa65ac00fc0f7d884ddcfc3f8d8e99
     log: revlist-95bbdb141084-5989725f40fa.txt
 
---===============9175687487619674092==
+--===============2905981340495180409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -105,4 +105,4 @@ e2c8faae799ab2625b5cc6bf0e4f82eb3ffbb55d Merge x86/fpu into tip/master
 e14f833f4dcb7d0f9cc8b0700e3b4ab573b67f18 Merge locking/core into tip/master
 5989725f40fa65ac00fc0f7d884ddcfc3f8d8e99 Merge x86/core into tip/master
 
---===============9175687487619674092==--
+--===============2905981340495180409==--
