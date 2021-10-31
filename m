@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 30 Oct 2021 23:52:27 -0000
-Message-Id: <163563794708.24482.6680785766405003519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 31 Oct 2021 00:04:34 -0000
+Message-Id: <163563867429.30773.273562784447254641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 3a4347d82efdfcc5465b3ed37616426989182915
-    new: 180eca540ae06246d594bdd8d8213426a259cc8c
+    old: e5d73427526bb9d53fc4dc81e457a993afb578e9
+    new: 31eed9ab4a19d7a00f4a5e8d1aa2afae3216e48e
     log: |
-         e20f80b9b163dc402dca115eed0affba6df5ebb5 scsi: ibmvfc: Fix up duplicate response detection
-         282da7cef078a87b6d5e8ceba8b17e428cf0e37c scsi: ufs: ufs-exynos: Correct timeout value setting registers
-         61a9f252c1c026f84129a7bfa476e880b75e80eb scsi: mpt3sas: Fix reference tag handling for WRITE_INSERT
-         09d9e4d041876684d33f21d02bcdaea6586734f1 scsi: ufs: ufshpb: Remove HPB2.0 flows
-         180eca540ae06246d594bdd8d8213426a259cc8c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+         31eed9ab4a19d7a00f4a5e8d1aa2afae3216e48e Sun Oct 31 12:03:51 AM UTC 2021
          
