@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2577590862936499609=="
+Content-Type: multipart/mixed; boundary="===============1260165918501917200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 01 Nov 2021 18:14:21 -0000
-Message-Id: <163579046173.27719.8745498778816794752@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 18:14:28 -0000
+Message-Id: <163579046861.27835.14506321225630966909@gitolite.kernel.org>
 
---===============2577590862936499609==
+--===============1260165918501917200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 1649b83766944e320a6f087abf1e8a221f1cd8b0
     new: 8bb7eca972ad531c9b149c0a51ab43a417385813
     log: revlist-1649b8376694-8bb7eca972ad.txt
 
---===============2577590862936499609==
+--===============1260165918501917200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kern
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
 
---===============2577590862936499609==--
+--===============1260165918501917200==--
