@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 01 Nov 2021 18:39:54 -0000
-Message-Id: <163579199479.11128.308554152415626434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 01 Nov 2021 18:46:08 -0000
+Message-Id: <163579236888.15792.1353494887207659601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next/kspp-misc-fixes
-    old: 71e4bbca070e84b85ee2f1748caf92f97e091c7b
-    new: ebe4560ed5c8cbfe3759f16c23ca5a6df090c6b5
-    log: |
-         ebe4560ed5c8cbfe3759f16c23ca5a6df090c6b5 firewire: Remove function callback casts
-         
+  - ref: refs/tags/selinux-pr-20211101
+    old: 0000000000000000000000000000000000000000
+    new: 804fee94d8306739d658751463461d9888a08271
