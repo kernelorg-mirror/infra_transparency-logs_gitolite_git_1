@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 01 Nov 2021 20:50:03 -0000
-Message-Id: <163579980375.29200.6166043336107029655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Mon, 01 Nov 2021 20:58:33 -0000
+Message-Id: <163580031363.1784.16234480300935222822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/for-5.16/block
-    old: c36ecd03c4ba4f5788d7d83163f8716ffd31929e
-    new: e719593760c34fbf346fc6e348113e042feb5f63
+  - ref: refs/heads/linux-next
+    old: 837b21d4c30410bc1c590ec50b941b0aa888fec8
+    new: 59c3dfc42ca6cc291121777c1660ed62340d5fb1
     log: |
-         2c3fdf57bda097fdaa85a4ddbbf660f8fa329209 block: replace always false argument with 'false'
-         256117fb3b4f8832d6b29485d49d37ccc4c314d5 scsi: avoid to quiesce sdev->request_queue two times
-         fba9539fc2109740e70e77c303dec50d1411e11f scsi: make sure that request queue queiesce and unquiesce balanced
-         e719593760c34fbf346fc6e348113e042feb5f63 dm: don't stop request queue after the dm device is suspended
-         
-  - ref: refs/heads/for-next
-    old: c85b3ad996e84b361750ef75bf4d8a8cb97af6dc
-    new: 88d2c6ab15f7236011d784ce2c0fb8f486b2a320
-    log: |
-         256117fb3b4f8832d6b29485d49d37ccc4c314d5 scsi: avoid to quiesce sdev->request_queue two times
-         fba9539fc2109740e70e77c303dec50d1411e11f scsi: make sure that request queue queiesce and unquiesce balanced
-         e719593760c34fbf346fc6e348113e042feb5f63 dm: don't stop request queue after the dm device is suspended
-         88d2c6ab15f7236011d784ce2c0fb8f486b2a320 Merge branch 'for-5.16/block' into for-next
+         fae8e7017e1f9cb21e362606ba87f8dbda709b1a x86/xen: remove 32-bit pv leftovers
+         321d124f13fdc927e3858d2e3e8d67fb6ba12b93 xen: allow pv-only hypercalls only with CONFIG_XEN_PV
+         fc3b26228d6daaffe00f88cae67e76abefee1529 xen: remove highmem remnants
+         59c3dfc42ca6cc291121777c1660ed62340d5fb1 x86/xen: remove 32-bit awareness from startup_xen
          
