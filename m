@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6938338055271475364=="
+Content-Type: multipart/mixed; boundary="===============2493800597020216082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 01 Nov 2021 08:24:48 -0000
-Message-Id: <163575508881.28262.14659302173765970960@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 08:24:52 -0000
+Message-Id: <163575509284.28345.11609248969007666323@gitolite.kernel.org>
 
---===============6938338055271475364==
+--===============2493800597020216082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,67 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 7e1cc0d92c7deb0994154b3b6e9eea8e3aa4af0c
-    new: d0c0f8a764f8c71b396535e71f1d3bd792f4b34d
-    log: revlist-7e1cc0d92c7d-d0c0f8a764f8.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 5a782a7fe1d98298d5671bdd1528751afdb7db9d
+    new: d353d4ac36c75b17763e36cff9fc912b94d27a11
+    log: revlist-5a782a7fe1d9-d353d4ac36c7.txt
 
---===============6938338055271475364==
+--===============2493800597020216082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635755086 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635755090 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1635755085-ef3e42a74be32d5554b0952eaaa4325c35d81c7b
+nonce 1635755089-a1965b0456060a311e0e7463e8b39c0815faf5e1
 
-7e1cc0d92c7deb0994154b3b6e9eea8e3aa4af0c d0c0f8a764f8c71b396535e71f1d3bd792f4b34d refs/heads/linux-4.4.y
+5a782a7fe1d98298d5671bdd1528751afdb7db9d d353d4ac36c75b17763e36cff9fc912b94d27a11 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF/pE4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d7gP/14SWdlznQheOYwSDz6R
-lEbcF9/gNEcZedG6dK66VFUfb/wIA+c3F/rNckTzJK5+oU+agAPgV1quaUf1s596
-9ktKE3ESI4eXL325EIbUYoxR7aR3sLLTLdCrX4FnU2v77G+pv2U95YnZBX3VQ8D5
-R4+YIm82c3sD68+PjUJiJqoraXRV7zMUX+duJ1PBIbYh34Tnjmwo79usEFbnNRij
-cr3vcE8Oc/h08XvFWhpZVbTOFZ61+DpeGX0MyTAEq/NRHPFHsTGLhi8jVuZ4lUp9
-Eky44ypzoXV14WsUiCCVLS35ch4mF3oh6Ca04JYCeeKZRWYlADnycXW2gk0lBr8Y
-/d8zXsvg3hKD+dVuUPejxGYAJCBsGnh0YpEnxKSbRtpXCByBcOTbIrOY7LbDNZLK
-bqcD8Hhna9UOFKWrvV8sUC0z+goxC3LRMYYRmPfFxdf10IPWkbkaey0RMoPhcJxt
-0t+q1zCoddWzyZimaaaNat95nMmWJCCXd+J0eF+AJGOklq/Wll+GYAHcsiwcfpiY
-a9yFE4LSKQxIOCYy2cV/FgiuHiw9gzHXteEeosnntWsIcrJ/nMiobp1y205gEjpa
-5yd1w/SQsJrmmsM4rfsh0zu5cVNlCJ7nUxDCNssIpERLeuA5btEsqNGFQthTzxYT
-NwyHheMMz/RztAH4rcaBQ84Q
-=W1w8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF/pFIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fKMP/RdeCfJjya6FLU98KHRO
+tSesWaEJmI3ZGpDGdEu09Mo1ax0vuX3Vpiw77l6N8ICyxH4x+pgk6hz5E7RfbEXR
+FtPLH8g3jWmpPGosg0bU54z+a4ZwJv7PL5v2BdqMfbca8KCXrgSPP0kkM4SascAY
+lR6HMIJ+WiYwRDvC0WjG2y1m/JhRPCpCLtZypZ2dcSFcfB2gEGjfQYSjNuPDYw7p
+14QaoZOM3+6FvH7eKzypRYlgYl6Ko+9uyc6fnZa5rj6qQKpu65A66dsdFAgxrXyk
+P6AhMas0eIoFM2OdPOyfaR27IfX4BlbP/zUvC2M5IGCb+KCM8KZOp7P3I+u9bR2q
+3ektlPtcCnpcKJggFdPhoJDqyK/+G9vaInZo1BICrYlnGGmmXxhSL1zG8zk0e/+o
+eatXyUMpbi9DpZ/16Qq+j+qyu28grJ8yMhnDpIfUuztvtUGKbk1Oi6aI8BQXZxcZ
+9PbW//2N+4WMDgVmRjF8gZTnhkzIz51FVgg+L9bPVTTK5OuGDV+s5zPxy9N4m3Pu
+AHghg04mC8UV8B3UIpy+EFDDDeCyPXqgxkky8KDJKgXv1i5X0hc3ax9wGLYs37N3
+d7v2gO1ghVE4cBpylUJKeh9deflJf6Z2pMbuYOPYKhQ/u6Fkt8eHvXhAHCCDAtje
+c7JMpLG2FPZ3vP9CPeUSF+QZ
+=HfmR
 -----END PGP SIGNATURE-----
 
---===============6938338055271475364==
+--===============2493800597020216082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e1cc0d92c7d-d0c0f8a764f8.txt
+Content-Disposition: attachment; filename=revlist-5a782a7fe1d9-d353d4ac36c7.txt
 
-d72a52b1bf61b5b74ee6fe7752aae570400271d9 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-9048b290f60fa67cd24812ed17dcef90d1a2e9e7 ARM: 9134/1: remove duplicate memcpy() definition
-59aec1f3cccc0a3963d3947e767abff702722891 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-9f8de704bee354966c773e779695e7d6e3d280ca ARM: 8819/1: Remove '-p' from LDFLAGS
-b3427a8609ab6c402fd339d1369b693afa46ac72 usbnet: sanity check for maxpacket
-77af648dc6e74a27439da1f3651dd3ff9c4aac4b usbnet: fix error return code in usbnet_probe()
-c49cfa33a17a898a4ffa8300454071f1971fd342 ata: sata_mv: Fix the error handling of mv_chip_id()
-046d68bebd877a3cb41ba798b2485f18832dced0 nfc: port100: fix using -ERRNO as command type mask
-35dc529020627bbe3bf170288eae0f60930b56fe Revert "net: mdiobus: Fix memory leak in __mdiobus_register"
-a092e9e3d40c54282987d06f2cc4744b59b12977 mmc: vub300: fix control-message timeouts
-6d5ff3c62b59d7ed610f82c5af743d90bc961a58 mmc: dw_mmc: exynos: fix the finding clock sample value
-5c8d0b936aa1d88ae1734724c1c05c3f9835d252 mmc: sdhci: Map more voltage level to SDHCI_POWER_330
-61d6ef719395e13470f983758edd097c0a597104 net: lan78xx: fix division by zero in send path
-6e5b85bd11ec57ad8c42defe8388054bb1b1b678 regmap: Fix possible double-free in regcache_rbtree_exit()
-f928e8b3b5e67ffd6659c98945985d59da6f436c nios2: Make NIOS2_DTB_SOURCE_BOOL depend on !COMPILE_TEST
-2aad07ff475dfb84b6a39343f428a328dafae8ed sctp: use init_tag from inithdr for ABORT chunk
-e358b9cc1067ecf6eed7c409e3a15145df50fb58 sctp: add vtag check in sctp_sf_violation
-d0c0f8a764f8c71b396535e71f1d3bd792f4b34d Linux 4.4.291-rc1
+85ea4b0e10757b3b975cf5d2c01c2b2f42651a25 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+791ff8a7edd5aef57d58411bda18aeaaea693887 ARM: 9134/1: remove duplicate memcpy() definition
+118131970fa3952e2e4b19c6e2ed20ff91f06c81 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+b02007d712880484f6fee82260ab4ce452a40fcf powerpc/bpf: Fix BPF_MOD when imm == 1
+b6bb168489b13d5902d8e7806978f42306827e6d ARM: 8819/1: Remove '-p' from LDFLAGS
+30d0893ecf872860b44ce86a415dca5a26fa38e3 usbnet: sanity check for maxpacket
+871b9beee19c9b27e9db5aa104dc14e105eda53c usbnet: fix error return code in usbnet_probe()
+187e18e1cab51944e706ebbd3e9e932f8a7a7fb9 ata: sata_mv: Fix the error handling of mv_chip_id()
+7e62e85d65137c67ae4e0017d41513ce42feb715 nfc: port100: fix using -ERRNO as command type mask
+9f382cf2e48083faae062452082066547674b303 Revert "net: mdiobus: Fix memory leak in __mdiobus_register"
+8163ca167ad0703a151ae260881d0ceab91e5485 mmc: vub300: fix control-message timeouts
+a9e28b9dc7bcb8282d1ee99258fa3be3b1844d10 mmc: dw_mmc: exynos: fix the finding clock sample value
+58a6f8ce1c76268d786951ba3ccaffa106c37e70 mmc: sdhci: Map more voltage level to SDHCI_POWER_330
+785aaa34c400a9e987b967d24dc9353cf4bfa38d net: lan78xx: fix division by zero in send path
+f70e537796faceaf2074800e1fecec133fd4274c regmap: Fix possible double-free in regcache_rbtree_exit()
+b5e381eda20241826e8499bd68f3f66d990b03a8 net: batman-adv: fix error handling
+41f8ef41c66967e2eb83ec1d68e9c500fd6c7cc7 nios2: Make NIOS2_DTB_SOURCE_BOOL depend on !COMPILE_TEST
+82265a009f71ccdf569e50d0f8ba175d882cf3f7 net: nxp: lpc_eth.c: avoid hang when bringing interface down
+302c79fafe66f59776bfe2f8719cb0559969c3c2 sctp: use init_tag from inithdr for ABORT chunk
+65b9fa5de99c4072f55bab0986d16c3413c6ce41 sctp: add vtag check in sctp_sf_violation
+d353d4ac36c75b17763e36cff9fc912b94d27a11 Linux 4.9.289-rc1
 
---===============6938338055271475364==--
+--===============2493800597020216082==--
