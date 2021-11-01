@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 01 Nov 2021 20:58:33 -0000
-Message-Id: <163580031363.1784.16234480300935222822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 01 Nov 2021 21:00:22 -0000
+Message-Id: <163580042237.3845.13510951535734445770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: ostr
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/linux-next
-    old: 837b21d4c30410bc1c590ec50b941b0aa888fec8
-    new: 59c3dfc42ca6cc291121777c1660ed62340d5fb1
-    log: |
-         fae8e7017e1f9cb21e362606ba87f8dbda709b1a x86/xen: remove 32-bit pv leftovers
-         321d124f13fdc927e3858d2e3e8d67fb6ba12b93 xen: allow pv-only hypercalls only with CONFIG_XEN_PV
-         fc3b26228d6daaffe00f88cae67e76abefee1529 xen: remove highmem remnants
-         59c3dfc42ca6cc291121777c1660ed62340d5fb1 x86/xen: remove 32-bit awareness from startup_xen
-         
+  - ref: refs/tags/rcu.2021.11.01a
+    old: 0000000000000000000000000000000000000000
+    new: 41ee8d4a69c8288cdd13a778b2caf1e22a8e0ebf
