@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7004429765339029206=="
+Content-Type: multipart/mixed; boundary="===============2876012268786437969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 01 Nov 2021 17:27:47 -0000
-Message-Id: <163578766750.31066.10567931299951932615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 01 Nov 2021 17:27:53 -0000
+Message-Id: <163578767368.31153.6323340452088702692@gitolite.kernel.org>
 
---===============7004429765339029206==
+--===============2876012268786437969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 82bc4d7fe0b775b635694c677d74517a9e71c682
-    new: b1a964e3cae737496279b2d4be49f6dca78424f9
-    log: revlist-82bc4d7fe0b7-b1a964e3cae7.txt
+    old: 6a8a739a5b6da122050642edcaa154bc98f12c34
+    new: 6e6934bae891681bc23b2536fff20e0898683f2c
+    log: revlist-6a8a739a5b6d-6e6934bae891.txt
 
---===============7004429765339029206==
+--===============2876012268786437969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82bc4d7fe0b7-b1a964e3cae7.txt
+Content-Disposition: attachment; filename=revlist-6a8a739a5b6d-6e6934bae891.txt
 
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
 b2a4f4a302b83976ad0d2930abe0f38e6119a144 ARM: dts: imx: change the spi-nor tx
@@ -1049,6 +1049,6 @@ bf85ba018f9229ce54765a62dba2dea60f7cdafb Merge tag 'riscv-for-linus-5.15-rc8' of
 ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
-b1a964e3cae737496279b2d4be49f6dca78424f9 audit: add a Linux Audit specific README.md
+6e6934bae891681bc23b2536fff20e0898683f2c selinux: add a SELinux specific README.md
 
---===============7004429765339029206==--
+--===============2876012268786437969==--
