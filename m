@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4431809809018176862=="
+Content-Type: multipart/mixed; boundary="===============0383311515262435589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Nov 2021 09:35:16 -0000
-Message-Id: <163575931612.25248.8920773366445792498@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 09:36:42 -0000
+Message-Id: <163575940259.25713.12628194337631440739@gitolite.kernel.org>
 
---===============4431809809018176862==
+--===============0383311515262435589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 5989725f40fa65ac00fc0f7d884ddcfc3f8d8e99
     new: 116241e9c110fd28f40af198871956ac1c1536da
     log: revlist-5989725f40fa-116241e9c110.txt
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
 
---===============4431809809018176862==
+--===============0383311515262435589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +69,4 @@ edfb8366b13b8947fc6fdeb8009c7dbcfe15cd3c Merge branch 'locking/core'
 67ec0b0f87d0c5886006cb2b00b7c82eeab8c004 Merge branch 'irq/core'
 116241e9c110fd28f40af198871956ac1c1536da Merge branch 'efi/core'
 
---===============4431809809018176862==--
+--===============0383311515262435589==--
