@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1247624811100363782=="
+Content-Type: multipart/mixed; boundary="===============7844205585599941193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 01 Nov 2021 20:12:04 -0000
-Message-Id: <163579752469.4966.71297195368238495@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 20:12:14 -0000
+Message-Id: <163579753484.5118.11838609875224614129@gitolite.kernel.org>
 
---===============1247624811100363782==
+--===============7844205585599941193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 170765332f0c10290ef6611e0b4e430f8cb46e83
-    new: cb67a11d4a0c0d10c778cb3c2f024d137699abae
-    log: revlist-170765332f0c-cb67a11d4a0c.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: 83c3a7beaef7fd261c190b69f6be6337f251bf16
+    new: a1efc896cb8a2831de3cf5a9747e030b494f1a26
+    log: revlist-83c3a7beaef7-a1efc896cb8a.txt
 
---===============1247624811100363782==
+--===============7844205585599941193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1635797515 -0400
+pusher 75C5DE3D 1635797528 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1635797514-3aef5e73e823e9d041bb90cf69937e2174ceebd1
+nonce 1635797527-6a977f1ada843c63c6fb1e5ab86529aea2cb7548
 
-170765332f0c10290ef6611e0b4e430f8cb46e83 cb67a11d4a0c0d10c778cb3c2f024d137699abae refs/tags/mkp-scsi-queue
+83c3a7beaef7fd261c190b69f6be6337f251bf16 a1efc896cb8a2831de3cf5a9747e030b494f1a26 refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGASgsACgkQ7ulgGnXF
-3j1GJg/8D8lD3VmGEAklrMGA3o1W5bm5IdW2g0QofKd369nn7pN3xAJBMgRe6g1S
-6lN5xUF+wT28LeLZhifk3D66T25EH1aFZy4cAYGaDLXI/5ugIxFiUmw59YzJ0sv4
-KDzDyJm9ItcQ8hRRU1zKGXfimYqw7jUPvco/NpRPEDIYK6eubmUfEE56Q9d9To7W
-RL+xdfupymP9cvzrQclzt7a5TrnhtXMk82ffRgNcpY8yOWdB7Io1tP+sIvR9VB0N
-AjmZm8BsB545YW3PJ5Bs/2Fz4xLC2E2PDCrchagM5DwrATuto8SHQMigwk8Gw8B/
-rl3gFvJuMWHi10FlNLXsxIwPAggmd/G7gQEiVUZWRnt77fxxQr58ZhUYO5g9V3Gi
-dOxfDHIE0D6YME6ERdjrXySjdH9ZGTuYN/I+fp79xoQfEJcRzcMxteTPO/uAyLEC
-Y+NiCZgGfZpYPkYUa+KwrSYeSEqoB1eVYUd8N1VyW/CJ6R0GGdVjCnlscftvRUPI
-zmH6gPh1zpu7uTN0VFjXp1YOhWxO+eEKKkHCEAOzSi/8zBzuBGNsk4aLT2uxnf1A
-jUtMREZhPdBfB4g+xtezQPDybWrC8OOaNpN99x07RwvhQJXcVeRP3mGfA0enuVjJ
-HKkmMJfpoyn1qCcnbSMG91GkNaXmm76/wJFAJBttFW0FVuW13c8=
-=IWV6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGAShgACgkQ7ulgGnXF
+3j2okhAAkKk9QDu3Qf9oOAu7GTgevR5LUuhYcvNoyqN93f7YW1rzQdJX7CQjhcLI
+a329ZlS5X/tufb+p+CkDnmicytcczhwyRSUWhkwUnMz08PyJlSpuxfYGG4wuh6mS
+WfcZdGKo8rij7Ajhw8Se/+cj5/pwjDfIgQTkFPWe7X+2wjx04aIT6jtnQtHrfags
+nhULyFZ8npUMZG8O1XF8SPORGvmutL/DZFiWOS91HAgKGvJ4jiDKgnCC2ISY+E5r
+Wrmv6auj79U0r4MqGbOPL6RTrmfKEdwDH1oPrSwdPB3sZHr+acbK6F/kAYLqJsZf
+2vUsDl914FS6agxh0ecFYI7fi727eYfXOUya4rzzzbKQrKryEktZmbnKsHQaNw7D
+0N/qzsyvZt2j7xdu7Gx6wDciv55oNQoUSZKKmH6mTQ8vdKqT/V0OgrXhldsvzq9s
+t8PgmWH1LaaDK3aEmrnaMHEH3EYRUh/XeOHFb5tlu/V+dj+iRGvo8AZaRsdZGgo5
+gYMm8NdKezpJBJjVwXBIDMlUxqgZkJgTZJGYS8z6j5a5AytkmeSh1yTgqVJHKPEq
+abS0iHaA14ZTiOahgKTQ1MkETN9GRoIHEWHKdP+VVs7zPTvBt7xMlwPoNiRgJYjP
+rzzf+vIeWzxO4AOLbsHaiB/UHZR9RMxy4Yzw02U1n3gqU7MCakk=
+=yX62
 -----END PGP SIGNATURE-----
 
---===============1247624811100363782==
+--===============7844205585599941193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-170765332f0c-cb67a11d4a0c.txt
+Content-Disposition: attachment; filename=revlist-83c3a7beaef7-a1efc896cb8a.txt
 
 12b6fcd0ea7f3cb7c3b34668fc678779924123ae scsi: target: core: Remove from tmr_list during LUN unlink
 11682523573c1c37f8d7a6ff1096c456267ebfff scsi: ufs: Revert "Retry aborted SCSI commands instead of completing these successfully"
@@ -97,4 +97,4 @@ b52aea54b6bf740b31f675cc1c637a6c5806b37b scsi: ufs: ufs-exynos: Multi-host confi
 be39f4fd8dd430053304b2ff6db712c0b3168e7f scsi: ufs: ufs-exynos: Introduce ExynosAuto v9 virtual host
 a1efc896cb8a2831de3cf5a9747e030b494f1a26 scsi: sr: Remove duplicate assignment
 
---===============1247624811100363782==--
+--===============7844205585599941193==--
