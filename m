@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 01 Nov 2021 23:19:57 -0000
-Message-Id: <163580879703.26193.2497877007448914165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 01 Nov 2021 23:33:37 -0000
+Message-Id: <163580961788.2007.17007472735485408951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: 9fe440d0ac03f85259532ee24345b373b5bd855d
-    new: f4cc27522a7f4ac71e8fe14ace56545f95c59993
+  - ref: refs/heads/master
+    old: d4a07dc5ac34528f292a4f328cf3c65aba312e1b
+    new: 047304d0bfa5be2ace106974f87eec51e0832cd0
     log: |
-         447df4c6342db5e3db4885d6f899fafb9199a907 erofs-utils: sort out contact information
-         aa7d72201985803adc3a6468543ec3950a95a924 erofs-utils: add liblzma dependency
-         0623d5ed755a35316dbe4a9842ce64df6f05069d erofs-utils: fuse: add LZMA algorithm support
-         f4cc27522a7f4ac71e8fe14ace56545f95c59993 erofs-utils: mkfs: add LZMA algorithm support
+         047304d0bfa5be2ace106974f87eec51e0832cd0 netdevsim: fix uninit value in nsim_drv_configure_vfs()
          
