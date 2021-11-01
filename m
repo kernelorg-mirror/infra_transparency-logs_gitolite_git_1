@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 01 Nov 2021 23:19:40 -0000
-Message-Id: <163580878050.26016.11180296391925732955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 01 Nov 2021 23:19:57 -0000
+Message-Id: <163580879703.26193.2497877007448914165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
   - ref: refs/heads/dev
-    old: 0000000000000000000000000000000000000000
-    new: 879dbe9ffebc1328717cd66eab7e4918a3f499bd
+    old: 9fe440d0ac03f85259532ee24345b373b5bd855d
+    new: f4cc27522a7f4ac71e8fe14ace56545f95c59993
+    log: |
+         447df4c6342db5e3db4885d6f899fafb9199a907 erofs-utils: sort out contact information
+         aa7d72201985803adc3a6468543ec3950a95a924 erofs-utils: add liblzma dependency
+         0623d5ed755a35316dbe4a9842ce64df6f05069d erofs-utils: fuse: add LZMA algorithm support
+         f4cc27522a7f4ac71e8fe14ace56545f95c59993 erofs-utils: mkfs: add LZMA algorithm support
+         
