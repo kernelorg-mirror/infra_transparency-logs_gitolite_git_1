@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8454577726239499510=="
+Content-Type: multipart/mixed; boundary="===============7339504354341749395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 01 Nov 2021 17:45:26 -0000
-Message-Id: <163578872647.10256.13036612268898840452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 01 Nov 2021 17:45:36 -0000
+Message-Id: <163578873680.10384.10332152342794372992@gitolite.kernel.org>
 
---===============8454577726239499510==
+--===============7339504354341749395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/topic-nfsd-tracepoints
-    old: f93ff1d9fbe5479de8445694a99efaa5bbcd5887
-    new: 5847aeba9ff0132fecbebbe304a5a4e8a4e934a1
-    log: revlist-f93ff1d9fbe5-5847aeba9ff0.txt
+  - ref: refs/heads/fixes
+    old: 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea
+    new: 8bb7eca972ad531c9b149c0a51ab43a417385813
+    log: revlist-3906fe9bb7f1-8bb7eca972ad.txt
 
---===============8454577726239499510==
+--===============7339504354341749395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f93ff1d9fbe5-5847aeba9ff0.txt
+Content-Disposition: attachment; filename=revlist-3906fe9bb7f1-8bb7eca972ad.txt
 
 0764e365dacd0b8f75c1736f9236be280649bd18 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
 55dd7e059098ce4bd0a55c251cb78e74604abb57 ARM: dts: sun7i: A20-olinuxino-lime2: Fix ethernet phy-mode
@@ -259,73 +259,5 @@ bf85ba018f9229ce54765a62dba2dea60f7cdafb Merge tag 'riscv-for-linus-5.15-rc8' of
 ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
-3d36a088fb68041169083870a485850a195f40b4 NFSD: Fix sparse warning
-dd36ba86085dbeb0a5b1a161d71d8e4f8d82363d NFSD: Fix misuse of rcu_assign_pointer
-5c7ac478c8198db86e51033364d0566844cae5c8 NFS: Move generic FS show macros to global header
-5224dbfc0800e5cf14df33b75056121fe24f1427 NFS: Move NFS protocol display macros to global header
-06a444bc90fa2d17d94e6bdf18b1c50c30e5f9f4 SUNRPC: Remove low signal-to-noise tracepoints
-c7aaacd3944f01045f5e5f5e02a3317730c16857 SUNRPC: Record endpoint information in trace log
-b1ffc69f609510e159ee7d670592d1d3dff6a7ec SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
-4da3b6e9a58d7e4222406f7cabe10d6ddb69936d NFSD: Combine XDR error tracepoints
-370d40f5c72392fdcbd6fc2ee69aed1fa3f15bda NFSD: Remove NFSD_PROC_ARGS_* macros
-3853b4d3f0dc15e3f48225267078c76dd5fa6605 NFSD: Display NFS procedure during XDR failure
-8d708db29928e19daeb9cbe3b57fdc7932550ade NFSD: Rename XDR error tracepoints
-79001a37e81ff8783ec8783df2cd023651cb03e1 NFSD: Remove NFSD_PROC_RES_* macros
-0ceb36252e4174952f443c84d83a4a33305b8a4b NFSD: Update tracepoints that report COMPOUND XDR errors
-bed7d84945f29e887efc71cd60a96c3f9a73f396 NFSD: Update the nfsd_dirent() tracepoint
-5d9274381b386e8168eedca0bab34526f4cdea97 trace: Add show_fs_file_type() macro
-79b27ded13bf0356433b1e6f7d4bb932d9745eab trace: Add show_nfs3_access() macro
-52db2fd04f118f7e45a4a866ec66ecc5a48a539d trace: Add show_nfs3_acl_mask helper macro
-47507c45a3a7ef99bd32e5fd33a5b0e560ad885d NFSD: Add infrastructure for NFSv3 XDR tracepoints
-360f94d1b35d01dd81927bafa10057312a31a61d NFSD: Add tracepoint to record fhandle arguments
-f6465d48bf38c6d5f7c22aec701af3ced4d2e1cf NFSD: Add tracepoints to record NFSv3 sattr3 arguments
-7f272788322fd4ba086121d9255e98460d9f7066 NFSD: Add a tracepoint to record NFSv3 diropargs
-948cba86803e60b5a39a44b8668eacaf57593836 NFSD: Add a tracepoint to record NFSv3 ACCESS args
-4861906881b9fedb39a521621ae7cde9c10d72ef NFSD: Add tracepoint to record NFSv3 READ arguments
-01cb96437a02bf0e94b50c15fff3f1f573557b3b NFSD: Add tracepoint to record NFSv3 WRITE arguments
-6e426630a2ccbdd563b415914c70a1f231f9d106 NFSD: Add tracepoints for NFSv3 CREATE arguments
-f511d644a0a865bd8d35195259cb687f68cfd47d NFSD: Add tracepoint to record NFSv3 MKDIR arguments
-b846d28d03c3be8a5a816a6de7a88a0ab77d5ffa NFSD: Add tracepoint for NFSv3 SYMLINK arguments
-1b15a0e6c6c779172a0905f8927626bacebaa373 NFSD: Add tracepoints to record NFSv3 MKNOD arguments
-ef79d161ea46ddfb3688d638004be45446ea586e NFSD: Add tracepoint to record NFSv3 RENAME arguments
-8d9797e70de656e556dfb3eb351332cbc30beeb9 NFSD: Add a tracepoint to record NFSv3 LINK arguments
-6f43a7e34001a6c18244ef007c786fb71036bba1 NFSD: Add a tracepoint to record NFSv3 READDIR arguments
-acf90e9b7713aad01fca79b31fef25cd1df44faa NFSD: Add a tracepoint to record NFSv3 COMMIT arguments
-3012c735aa3c0ea8d3d7bef821dc17370e2f3950 NFSD: Clean up svcxdr_encode_wcc_data()
-7775e0f0315e051d08cbcdaeabbb86db0952f688 NFSD: Refactor encode_post_op_attr
-65ff796e608e218b02a92c4ea4f42197e6732ce7 NFSD: Add a tracepoint to record NFSv3 GETATTR results
-6d5970755dbf6dba543520e27b9a0bfcbc97fea5 NFSD: Add a tracepoint to record NFSv3 post_op_attr results
-03a754c8753f9067cc1a54bd37d741c20e02d04b NFSD: Add tracepoints to record NFSv3 wcc_data results
-74d71902a157d72ad693cfc5cba26f420e99640d NFSD: Add tracepoints to record NFSv3 LOOKUP results
-e178c61f47c1f7df79ae706e92c114d8b611e935 NFSD: Add tracepoints to report NFSv3 ACCESS results
-c2cfe9e67a6c54b1b5e64c635a209cb511e20b1a NFSD: Add tracepoints to record NFSv3 READLINK results
-571e695ff170b45006a8c31b4a029ee50f4b8b89 NFSD: Add tracepoints to record NFSv3 READ results
-ae6e3c20d9b643d9110d64717fd5cf06e5f30559 NFSD: Add tracepoints to record NFSv3 WRITE results
-1862d92f5ec78ac1aa3535a97fe7239c25750b1f NFSD: Add tracepoints to record NFSv3 CREATE results
-2edf183504f7996657b6de36e912edef7c281368 orDate: Wed Oct 27 14:48:19 2021 -0400 it:     Chuck Lever <chuck.lever@oracle.com> itDate: Sat Oct 30 14:32:29 2021 -0400
-d1201ee944eb9e72ad0c5d3a027e817ab558fcc3 orDate: Wed Oct 27 14:48:19 2021 -0400 it:     Chuck Lever <chuck.lever@oracle.com> itDate: Sat Oct 30 14:31:00 2021 -0400
-d48219dd995274a34103ea61535887a5b5aa2d45 NFSD: Add tracepoints to record NFSv3 READDIR results
-14205b4027d2497c464f800497331e8892455832 NFSD: Add tracepoints to record NFSv3 FSSTAT results
-751a948f7f8b4a26ef05db7e3069cb99c821a38d NFSD: Add tracepoints for NFSv3 FSINFO results
-1e1ae7bd4ec93dddc44b51d2484eb34245003c9a NFSD: Add tracepoints to record NFSv3 PATHCONF results
-0cc5a905277781a25a5baf8507b5bda5a94af2c2 NFSD: Add tracepoints to record NFSv3 COMMIT results
-b440a936b2686e12e0568ff735c1fdd124a2b9f4 NFSD: Add tracepoints to record NFSACLv3 arguments and results
-ef3f1bf165999d199a65e0e7fe1cc183c19667d1 NFSD: Remove NFSv3 proc dprintk call sites
-8279f349a7bababf688bb6367a90905be215a663 lockd: Infrastructure for lockd XDR tracepoints
-46b92710b115898d3bd17c621c48ee7fa8a78d12 lockd: Add a tracepoint to record NLM NULL calls
-f8c936020837711d9fb662f2e2001d42576a3735 lockd: Add a tracepoint to record nlm_lock arguments
-477ee108d24b625b0b47e0b474db774a8bfb8fb7 lockd: Add a tracepoint to record NLM TEST arguments
-156fb7b29fd03aa4ee8f69acd2dbfb355a077dfe lockd: Add a tracepoint to record NLM LOCK arguments
-21e9d51e15137935e4a8576bf4b0678312e5e0c2 lockd: Add a tracepoint to record NLM CANCEL arguments
-f82ccb36068e68276c023e2c1f66a9b93ddc9860 lockd: Add a tracepoint to record NLM UNLOCK arguments
-46cafb2c2b89a994ff7abd3f1070c6fa2494805a lockd: Add a tracepoint to record NLM GRANTED arguments
-e7c40bc217da157ce351d3d6cd5fa6a35366cd24 lockd: Add a tracepoint to record NLMv4 REBOOT arguments
-9a7256e0c6ad73bcf1beefde2b841a60197cb3e3 lockd: Add a tracepoint to record NLM SHARE arguments
-4aaa8ff3594b7b4dcb55bc63dbb7032a553c859b lockd: Add a tracepoint to record NLM NOTIFY arguments
-73404f8724c508c7c010d2675b5e89f834a6deae lockd: Add a tracepoint to record NLM NULL replies
-3c9cce18533a4752be1d8ed08c41639e7b98cb9a lockd: Add a tracepoint to record NLM TEST results
-2d3a3d7a4065b8abc6b15646217bea3172538817 lockd: Add a tracepoint to record NLM nlm_res results
-ee647bc86e722cf7dddbd20d24b1b17925e394de lockd: Remove NLM proc dprintk call sites
-5847aeba9ff0132fecbebbe304a5a4e8a4e934a1 lockd: Add tracepoints to record XDR encoding and decoding errors
 
---===============8454577726239499510==--
+--===============7339504354341749395==--
