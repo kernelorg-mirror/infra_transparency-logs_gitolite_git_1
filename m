@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7194906687585279888=="
+Content-Type: multipart/mixed; boundary="===============4176995132902896492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 01 Nov 2021 17:44:40 -0000
-Message-Id: <163578868044.8393.15855854918533072658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 01 Nov 2021 17:45:00 -0000
+Message-Id: <163578870069.8575.8839635292133477872@gitolite.kernel.org>
 
---===============7194906687585279888==
+--===============4176995132902896492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
   - ref: refs/heads/master
     old: 3906fe9bb7f1a2c8667ae54e967dc8690824f4ea
     new: 8bb7eca972ad531c9b149c0a51ab43a417385813
     log: revlist-3906fe9bb7f1-8bb7eca972ad.txt
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
 
---===============7194906687585279888==
+--===============4176995132902896492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -263,4 +260,4 @@ ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kern
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
 
---===============7194906687585279888==--
+--===============4176995132902896492==--
