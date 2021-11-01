@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1195451001383027299=="
+Content-Type: multipart/mixed; boundary="===============9106600122209237399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 01 Nov 2021 08:25:05 -0000
-Message-Id: <163575510544.29918.12473461360086653367@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 08:25:18 -0000
+Message-Id: <163575511821.30039.11371302987219897386@gitolite.kernel.org>
 
---===============1195451001383027299==
+--===============9106600122209237399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,82 +16,98 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 38ec06730e44b2166e87fecca9e36380080801ac
-    new: 962d495f17b68cd509e3e3e9003eab994cab7b6e
-    log: revlist-38ec06730e44-962d495f17b6.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 89b6869b942b8730467f2a0760ea466044aa52d2
+    new: 2c353528e893abf7ed1ff492f6c496f6e641ef06
+    log: revlist-89b6869b942b-2c353528e893.txt
 
---===============1195451001383027299==
+--===============9106600122209237399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635755102 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1635755115 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1635755101-9fd31deaddb12f5324ee1d3cb398d8b7b160be48
+nonce 1635755114-e829f5ac6162214f96f0baf2de95115575b888a3
 
-38ec06730e44b2166e87fecca9e36380080801ac 962d495f17b68cd509e3e3e9003eab994cab7b6e refs/heads/linux-4.19.y
+89b6869b942b8730467f2a0760ea466044aa52d2 2c353528e893abf7ed1ff492f6c496f6e641ef06 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF/pF4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CwIQAJosbZ0AdEuzJ7JPSHpd
-b1v8OByHrO1renCJq5QdVyGSHF+wAM5siv6QFK8UYXjYsE9uHLYptOP2AyEWjScK
-YEKUpG9+sbW65buXurkpg2nkCUKIhkTKOag8B6J3cig1G8R+xZVjigoZvxub0mct
-OxL0LaRDveYjwlEaXmIPi+mXI2s/gCcpbYpJ0l6Igfx6hvHH+z7rj5SXWbnQEsvG
-Gu/rmaMn+ahiWe8lph2WLTX1NGZFdi7orw+5PJuoACq3nRbDTAqTnWd0p3CLDF5B
-ehnG38H3WbU5jTn2kHW3oqm7CksYOZlOAZnoc9wyG7qaj9BJxp4XybmE3L4lOn8L
-ycHbB51bstvWjCSSr184YtPXqYcouF3V5i4Ta0zuwuznTI7/UtVcyTJE0iNhGofY
-fnfkC/6yhA6FeiOZVNcuQjAuALSh5N86dE7tYrF8hvIiHtDlzhRbLxVxQU45GmSV
-VRGGPHHFyKNNjrXi+7rM9B4AInQbmLzHm9jrmrVdJYGsU3UqsOX0afNiXZ3Sx0yd
-jcMnZ4tlOWnyblVImxx/Rgf71Fzt+zROH2ZasV28BcscMUPB+D3M0RU7cH8HVW64
-jEqrWsNmGp2sHLyRcDsscRk4hnp1dQu9AzgjAqIFjF0zpTnPq0iPVqshAqy8YCWc
-iiucBVjoUcKLQCK2K4NmQL6f
-=QYcW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmF/pGsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tucQAJ8W4k0d5E5XRpApswlr
+nFjeEYEShiluvTcnykf7Fn3l2QfyjGzlgShTMhSjAwKYx/cS8M6mShXvJ9ORoU/t
+1bR2691+PMMTDoymr8IEMmSfym8TfG7jRcWrQ247Bbo6HaatpUT+EQ9qzWdrx3BF
+eWKvx1Ab9noVR+oFuLEkzFcZ+DtNH8pVAqCk8GpNIXPInvENXPH5s96Yqyvyui+2
+78tsRnG8lR8zAAUJNMWAg7Jl4cdyXEErSd7QNCDzFPoisnWQrjSOFiAgNHK6aprT
+SkYeK55qmiSltS4hewvn79l4lkHE0lu2xPunyTQoY+h5qe6rQ8s4BA+EwSQBB8wU
+7QL+brxz8yKIEykrgd3X1DlytTen1I40+YstlPhk6QnxfxeY4hqkNITyUrsWnWnN
+KmzxLufctLgU2C7vUNH3Th9EHyehU/Q/QH/400nAN2gCHrPR0H7vfBHEt3DsX/jN
+yDfV1vK1YPEEojDm8LcfYCVvfVRiwGO68QAR8dY/oT5XSF1VyH5uj3EqEx4x4868
+dE7WuYFJZS2kZFqMFYANE0ehFTbeYDQjrppAFvJFCIBhHY6B1deeU9PM69Q372Zl
+kdEzwIsuguWhN3h24/8miDKCVBvPcMc/sU8Qq+pw2PDtB/6fJzEt/PAbG4nqgFEi
++/J6IpeuJqhUpb0H0gSBFYIx
+=Gw8e
 -----END PGP SIGNATURE-----
 
---===============1195451001383027299==
+--===============9106600122209237399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38ec06730e44-962d495f17b6.txt
+Content-Disposition: attachment; filename=revlist-89b6869b942b-2c353528e893.txt
 
-06f199766329327b37c697aa4e051259b912ba30 ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
-bad2da6f9b438ba8d740db4de9e0bfe234f8058b ARM: 9134/1: remove duplicate memcpy() definition
-3788f9d18ff401b6bee7b29bfa42317952ef8a0a ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
-01adc0ae6e083b6b8f089d32d4c290f8f5c073f5 ARM: 9141/1: only warn about XIP address when not compile testing
-1061e25fbb23eb6715803719e16d5dd91b6de5af powerpc/bpf: Fix BPF_MOD when imm == 1
-9ade9a9d2c5ff0567a2d57af028601b3cbc868a9 arm64: Avoid premature usercopy failure
-a608af2f9d09f0d2d4cd2e959232b83fe9a8f52f ARM: 8819/1: Remove '-p' from LDFLAGS
-bc78a73cd1b210feb7670830a830d469d3949379 usbnet: sanity check for maxpacket
-6b87f6566b4f1fa9dbc09440039d5a63b4c6499b usbnet: fix error return code in usbnet_probe()
-d67359237aa40d4b22d3de2b95eb2c98bd5e7c9a ata: sata_mv: Fix the error handling of mv_chip_id()
-6fd639669e3c6d71b3761cd19c48e6d73be818f6 nfc: port100: fix using -ERRNO as command type mask
-e59af6c0705ca9729667d362505af62f7c91958a Revert "net: mdiobus: Fix memory leak in __mdiobus_register"
-4242e8819060b79d0844bb690bac5b3463d47ba5 ipv4: use siphash instead of Jenkins in fnhe_hashfun()
-ec5736d35f237a6612954930d7ba47a49d2428c9 ipv6: use siphash in rt6_exception_hash()
-f9ec2e01cd1acacb2f49d4d748ae11a9482d48d9 ipv6: make exception cache less predictible
-ae1b56770d0f339a0168a0ce18be448c571873c2 mmc: vub300: fix control-message timeouts
-73abdfa1f427d568373ebef0ab03ec72656f6c3d mmc: cqhci: clear HALT state after CQE enable
-b97d3439d9311699f016b0438db7dcc717028b24 mmc: dw_mmc: exynos: fix the finding clock sample value
-4845b5f40b4be1a8d8c888e63c67b41ff2c699be mmc: sdhci: Map more voltage level to SDHCI_POWER_330
-ca86e34efdd190270fa4d710935899c473e1aa18 mmc: sdhci-esdhc-imx: clear the buffer_read_ready to reset standard tuning circuit
-d3c6df35920b798a0e216b1b3d260b45273a881f net: lan78xx: fix division by zero in send path
-5f5403c9316a8551139a88170484f1c083ea7f4b RDMA/mlx5: Set user priority for DCT
-8a483e9fdd8de1c8334168c2b4490750969d2473 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
-dfb173c19dffde1a429bd225188e3ec3559a865d regmap: Fix possible double-free in regcache_rbtree_exit()
-1c71be01557c7352b71bf589bb1eca9f5afe7fd2 net: batman-adv: fix error handling
-180044b552857d010590d77196d2bc56ab8ddfd2 net: Prevent infinite while loop in skb_tx_hash()
-a93f0270840cac5de997889afcf48d9c0a5911a7 nios2: Make NIOS2_DTB_SOURCE_BOOL depend on !COMPILE_TEST
-dbea077e818b3775627363f1cc43532524c328fc net: ethernet: microchip: lan743x: Fix driver crash when lan743x_pm_resume fails
-59c1847c32f72dfd2eea69545dbc0296a876d8e6 net: ethernet: microchip: lan743x: Fix dma allocation failure by using dma_set_mask_and_coherent
-0943b41297b24b35e24460ef72b7fb3e75eec0cb net: nxp: lpc_eth.c: avoid hang when bringing interface down
-02a52a35465ff0d400f3dc10628f604b01033f7b sctp: use init_tag from inithdr for ABORT chunk
-4d9b4d55a416e0fb1fedacf06950728851b244ac sctp: fix the processing for COOKIE_ECHO chunk
-3cf330ea66789e9b241547281cf7469e68eb17d1 sctp: add vtag check in sctp_sf_violation
-364f3750f1ffa193b65e6ac1592d889b14cdb2f0 sctp: add vtag check in sctp_sf_do_8_5_1_E_sa
-117d75c796c7c6685445dc84b38ae19dd4566792 sctp: add vtag check in sctp_sf_ootb
-962d495f17b68cd509e3e3e9003eab994cab7b6e Linux 4.19.215-rc1
+edf91d8d7491161610e6edafcb77c3451b00cf6f ARM: 9133/1: mm: proc-macros: ensure *_tlb_fns are 4B aligned
+14cbd78cf2e175b706a534152461146171f7397d ARM: 9134/1: remove duplicate memcpy() definition
+89adfb74483eec8048f9d77e51f980d9c9c02a15 ARM: 9139/1: kprobes: fix arch_init_kprobes() prototype
+0f553fd767a16f1dcb510775df59853b890e3974 ARM: 9141/1: only warn about XIP address when not compile testing
+ab03da49b7e78ade7d0b1f1e40e3a19739282099 powerpc/bpf: Fix BPF_MOD when imm == 1
+33487a3c8f66cca29909e4eba3eb750f0392cb24 ipv6: use siphash in rt6_exception_hash()
+4ba0e0bd0283e709c39e3111459196c5f66dc360 ipv4: use siphash instead of Jenkins in fnhe_hashfun()
+6eaa7d759e059099bdc50257f2129ddf93aa9167 usbnet: sanity check for maxpacket
+43825bcd462258487a42a36d7dd99e1fcd48768a usbnet: fix error return code in usbnet_probe()
+cb57d52e27625eb148ce7f62ad1e7971292d7b9a Revert "pinctrl: bcm: ns: support updated DT binding as syscon subnode"
+e62b370217149217087bcfc4e6c63017853bba7e ata: sata_mv: Fix the error handling of mv_chip_id()
+5dd90fc43b4146e391ba83c04c50c0932008e1aa nfc: port100: fix using -ERRNO as command type mask
+2e004bad18f96b0d8b60673496976d4d1498e611 Revert "net: mdiobus: Fix memory leak in __mdiobus_register"
+e33d60fcb5aa85cdca9dc763615200d45ea7dec9 net/tls: Fix flipped sign in tls_err_abort() calls
+5b93c61c946d07a898adceef0bb61e7deb8a1862 mmc: vub300: fix control-message timeouts
+693fa380981b52947f214c37ae7ba6d94403d951 mmc: cqhci: clear HALT state after CQE enable
+5452748ebdf9aa47017801b44fc092c186f6a46e mmc: dw_mmc: exynos: fix the finding clock sample value
+ff13dd5e84f784b9ae9a0989073ef9ebfb9dbcc8 mmc: sdhci: Map more voltage level to SDHCI_POWER_330
+317736042388b493ef4c0fe8cf092cd4575560fd mmc: sdhci-esdhc-imx: clear the buffer_read_ready to reset standard tuning circuit
+c47491a91ad238ad72354cf646e731961f8ed6b3 cfg80211: scan: fix RCU in cfg80211_add_nontrans_list()
+79544e89c901eaeb8932aa5d13b6af0fcaad5802 net: lan78xx: fix division by zero in send path
+a3e8d62d61b27cf4aa9f1a31eee46ce6701db8d0 drm/ttm: fix memleak in ttm_transfered_destroy
+80f141adf6468271993a1719433a70f221dec5fe tcp_bpf: Fix one concurrency problem in the tcp_bpf_send_verdict function
+f6f4709b552a593ca9a2676bec3edc2b3cf357ab IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+7b72dc9a00edabb2c65c94e6cfbfbe80046abce3 IB/hfi1: Fix abba locking issue with sc_disable()
+60aa92bb00f08c831a9ef981401423a28a2bb3cd nvmet-tcp: fix data digest pointer calculation
+4e84710d579d2b9439f518a92100bcff7db01804 nvme-tcp: fix data digest pointer calculation
+170541e2bf8cac0194c7fdb94477acd1f6f73178 RDMA/mlx5: Set user priority for DCT
+62d357c9cb5a8214b8326b05d0c81c323e75b51b arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
+117a1281cae632d91ee30affb29cb9cc81df410a regmap: Fix possible double-free in regcache_rbtree_exit()
+e2bbbc51db33fabb0dbd2a1d7ccd36c3507ea0da net: batman-adv: fix error handling
+343d9009ff430efd74d4e6a4b8c70470fd6654cf net: Prevent infinite while loop in skb_tx_hash()
+9e5000a35c4a14da1836f870e1d14ffd3a807cb4 RDMA/sa_query: Use strscpy_pad instead of memcpy to copy a string
+20319f1868aead489236e271525b001a71bfdfcc nios2: Make NIOS2_DTB_SOURCE_BOOL depend on !COMPILE_TEST
+d626546b724555adc24d17451d82a2a852c0f5e1 net: ethernet: microchip: lan743x: Fix driver crash when lan743x_pm_resume fails
+fce086700aa1ba60ce0ee30841234f06ac252d6c net: ethernet: microchip: lan743x: Fix dma allocation failure by using dma_set_mask_and_coherent
+acc225e1d7adae3de09592c545612f5a8b524632 net: nxp: lpc_eth.c: avoid hang when bringing interface down
+54cef9f66c8bfb6ea312119ed379ab79ff63c5e2 net/tls: Fix flipped sign in async_wait.err assignment
+ff2ef3046d175d5c0b1d2d7184705cf31f29f3fb phy: phy_ethtool_ksettings_get: Lock the phy for consistency
+605ff3a2c55f11e6aadfd15d025947ddb0ed3e91 phy: phy_start_aneg: Add an unlocked version
+c67d0c8bf0698f367cbc6812fe10d4e5a7acae3a sctp: use init_tag from inithdr for ABORT chunk
+cb6c764a96a7ac9b8675ddfedf336833fdb86683 sctp: fix the processing for INIT_ACK chunk
+2cde5a2b30845c787990901db4e58465764ce408 sctp: fix the processing for COOKIE_ECHO chunk
+5a6b5eaa2e391892dbd16bb75f13920cde2876df sctp: add vtag check in sctp_sf_violation
+1faa967eaf1d56a5c91ee9871a3073174385c259 sctp: add vtag check in sctp_sf_do_8_5_1_E_sa
+2d5fa1a9b50be7c5e388eecdc1d9b15d03682d4d sctp: add vtag check in sctp_sf_ootb
+c46d16ca132863876b110a3fcff365e10eee81b3 net: use netif_is_bridge_port() to check for IFF_BRIDGE_PORT
+d0304d9e21982efee8bb2ce0ef8c6d23eea15619 cfg80211: correct bridge/4addr mode check
+6d1745d702188bed7afd355673db051c21bfb8f8 KVM: s390: clear kicked_mask before sleeping again
+7b215dd92c0403193d56e1b378102d03225f6840 KVM: s390: preserve deliverable_mask in __airqs_kick_single_vcpu
+26cf09de3cc802796f2283f90e0235aeeff4b61b perf script: Check session->header.env.arch before using it
+2c353528e893abf7ed1ff492f6c496f6e641ef06 Linux 5.4.157-rc1
 
---===============1195451001383027299==--
+--===============9106600122209237399==--
