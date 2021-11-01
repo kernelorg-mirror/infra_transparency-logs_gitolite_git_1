@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9031356089603134164=="
+Content-Type: multipart/mixed; boundary="===============1918644806916539236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Mon, 01 Nov 2021 22:49:41 -0000
-Message-Id: <163580698161.6633.17742153250231687935@gitolite.kernel.org>
+Date: Mon, 01 Nov 2021 23:00:21 -0000
+Message-Id: <163580762180.14422.14590209274575560287@gitolite.kernel.org>
 
---===============9031356089603134164==
+--===============1918644806916539236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,24 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/mst/qemu
 user: mst
 changes:
-  - ref: refs/heads/next
-    old: a8339e07f94a47f99560baef59d65a9e039aaf45
-    new: 12db50298e730acb3e8285054512facbe45543e6
-    log: revlist-a8339e07f94a-12db50298e73.txt
-  - ref: refs/heads/pci
-    old: a8339e07f94a47f99560baef59d65a9e039aaf45
-    new: 12db50298e730acb3e8285054512facbe45543e6
-    log: revlist-a8339e07f94a-12db50298e73.txt
+  - ref: refs/tags/for_autotest
+    old: 512e40fd7daeb7453d04cdd45c22aa5d11ad90f9
+    new: d508485dc13a431bcd18d5b4e5d4617634e41deb
+    log: revlist-512e40fd7dae-d508485dc13a.txt
+  - ref: refs/tags/for_autotest_next
+    old: 512e40fd7daeb7453d04cdd45c22aa5d11ad90f9
+    new: d508485dc13a431bcd18d5b4e5d4617634e41deb
+    log: revlist-512e40fd7dae-d508485dc13a.txt
+  - ref: refs/tags/for_upstream
+    old: 512e40fd7daeb7453d04cdd45c22aa5d11ad90f9
+    new: d508485dc13a431bcd18d5b4e5d4617634e41deb
+    log: revlist-512e40fd7dae-d508485dc13a.txt
 
---===============9031356089603134164==
+--===============1918644806916539236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8339e07f94a-12db50298e73.txt
+Content-Disposition: attachment; filename=revlist-512e40fd7dae-d508485dc13a.txt
 
 afc9fcde55296b83f659de9da3cdf044812a6eeb Merge remote-tracking branch 'remotes/mst/tags/for_upstream' into staging
 e976459b3b127838befaef57f1587770452a0827 mac_via: update comment for VIA1B_vMystery bit
@@ -300,4 +304,4 @@ c2d7ebbeaa4e31d2005f666859a81cc1cf8459dd tests/acpi: add test case for VIOT on q
 f58b99c60cb558ed6e136d29ba5b410589995a9f pci: Export pci_for_each_device_under_bus*()
 12db50298e730acb3e8285054512facbe45543e6 hw/i386: fix vmmouse registration
 
---===============9031356089603134164==--
+--===============1918644806916539236==--
