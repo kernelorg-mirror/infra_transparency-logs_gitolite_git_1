@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Tue, 02 Nov 2021 10:52:01 -0000
-Message-Id: <163585032192.25352.12144238393083718144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 02 Nov 2021 10:58:14 -0000
+Message-Id: <163585069416.28599.1901194996030287474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/tags/afs-next-20211102
-    old: 0000000000000000000000000000000000000000
-    new: 8c4284fba1290b8b617013791be3d8dff9e0d17c
+  - ref: refs/heads/master
+    old: 782bd7d652955dab8dfc582bcc5b029777981eee
+    new: 2751be893a7968776d1ea6d8ea1af30b6c918e28
+    log: |
+         2751be893a7968776d1ea6d8ea1af30b6c918e28 x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
+         
