@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1165356753345649915=="
+Content-Type: multipart/mixed; boundary="===============4960458209223831459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 02 Nov 2021 18:53:30 -0000
-Message-Id: <163587921072.28292.5370708224148267818@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 18:53:48 -0000
+Message-Id: <163587922878.28445.15418354275011849355@gitolite.kernel.org>
 
---===============1165356753345649915==
+--===============4960458209223831459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ae0393500e3b0139210749d52d22b29002c20e16
-    new: cc0356d6a02e064387c16a83cb96fe43ef33181e
-    log: revlist-ae0393500e3b-cc0356d6a02e.txt
+  - ref: refs/heads/mlx5-queue
+    old: fbfa64242e09e7e505c87d925447941c69d17757
+    new: a55a8532e05f5b4b20f1dfabb22a2356c3f9f76f
+    log: revlist-fbfa64242e09-a55a8532e05f.txt
 
---===============1165356753345649915==
+--===============4960458209223831459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae0393500e3b-cc0356d6a02e.txt
+Content-Disposition: attachment; filename=revlist-fbfa64242e09-a55a8532e05f.txt
 
-11384580e3322b41dbaa68dbcd949af875b8aa22 nvme-multipath: add error handling support for add_disk()
-09748122009aed7bfaa7acc33c10c083a4758322 nvme-rdma: fix error code in nvme_rdma_setup_ctrl
-58847f12fe7823c56f844218abcca6920901097d nvme-pci: clear shadow doorbell memory on resets
-2b81a5f015199f3d585ce710190a9e87714d3c1e nvme: drop scan_lock and always kick requeue list when removing namespaces
-117d5b6d00ee02f73d7065fe906e2ef1af74bb68 nvmet: use struct_size over open coded arithmetic
-ebc7b50a3849d73665013573cf3c09f27fb14fde libbpf: Migrate internal use of bpf_program__get_prog_info_linear
-5f52d47c5f75a955ae29c59bed2ca886faba0ff4 bpf/preload: Clean up .gitignore and "clean-files" target
-b8f49dce799f0c177ee6a56b3fd67e7fdc6e68c2 selftests/bpf: Remove duplicated include in cgroup_helpers
-efc36d6c642a753c2880d97b8e8c3c7cfaf64ad1 bpftool: Remove useless #include to <perf-sys.h> from map_perf_ring.c
-b599015f044df53e93ad0a2957b615bc1a26bf73 samples/bpf: Fix application of sizeof to pointer
-f1985002839af80d6c84e9537834a81fb1364d6e irqchip: Provide stronger type checking for IRQCHIP_MATCH/IRQCHIP_DECLARE
-12f04f9ff1f66a44c2e562871c220865490807d7 Merge branch irq/devm-churn into irq/irqchip-next
-a947aa00edd4d465f89fdb6029ed40c00a344bc2 irqchip/meson-gpio: Make it possible to build as a module
 dfd8c90eb28b8f7c77ce7173c4bae591b26ea51a arm64: meson: remove MESON_IRQ_GPIO selection
 b16d12f3900283e00aded9131ba1e9b2880513c3 selftests/bpf: Use cpu_number only on arches that have it
 c9e982b879465ca74e3593ce82808aa259265a71 libbpf: Fix dumping big-endian bitfields
@@ -1050,5 +1037,18 @@ bfc484fe6abba4b89ec9330e0e68778e2a9856b2 Merge branch 'linus' of git://git.kerne
 84882cf72cd774cf16fd338bdbf00f69ac9f9194 Revert "net: avoid double accounting for pure zerocopy skbs"
 fc02cb2b37fe2cbf1d3334b9f0f0eab9431766c4 Merge tag 'net-next-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 cc0356d6a02e064387c16a83cb96fe43ef33181e Merge tag 'x86_core_for_v5.16_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a3c40ed48364ffd69f228d2a20fd82d75c6f4c20 net/mlx5e: Refactor mod header management API
+5e58b4393ab0a1d65cf6e5c8c3e3dd86a8769a99 net/mlx5: CT: Allow static allocation of mod headers
+8f15457c8f9d30eee0f744c281c1b44b81a720e7 net/mlx5e: TC, Destroy nic flow counter if exists
+f13aaaa7f61caf72c2987bc7dc0c420aa07f98c6 net/mlx5e: TC, Move kfree() calls after destroying all resources
+14138b59a34db5446b046b7c585b27d845d0d059 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+5ef07e0dfcc5dbbb552e7b73e0428177d7ea8d3d net/mlx5e: Save memory by using dynamic allocation in netdev priv
+5577e48f3783155b19b23589ac10be5d8a96f802 net/mlx5e: Allow profile-specific limitation on max num of channels
+41590c215fae31892b5e2921aaa77976b5001d03 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+0117dc0b58d50246d711b3b3f41453642c30aa3b net/mlx5e: Allocate per-channel stats dynamically at first usage
+b575dab50d4691640b962346962a9e6f45d07709 Merge branch 'patchq/443926' into mlx5-queue
+cbd3d8002b60a045f6bd5fba1a6b9d4d19e310a6 net/mlx5: DR, Fix querying vport 0 capabilities
+10028ed2d25ee7272d7907951dfa03cea8969fc4 Merge branch 'patchq/432332' into mlx5-queue
+a55a8532e05f5b4b20f1dfabb22a2356c3f9f76f Merge branch 'patchq/435320' into mlx5-queue
 
---===============1165356753345649915==--
+--===============4960458209223831459==--
