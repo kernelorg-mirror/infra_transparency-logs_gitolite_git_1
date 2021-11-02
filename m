@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Tue, 02 Nov 2021 05:19:59 -0000
-Message-Id: <163583039987.29414.7043962520327502211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Nov 2021 05:32:05 -0000
+Message-Id: <163583112524.4775.1865549427765428812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/cxl-2.0v5
-    old: 0000000000000000000000000000000000000000
-    new: b1f662830648e7390928e0a72d0f8d05213c6af1
+  - ref: refs/tags/net-next-for-5.16
+    old: e87072dce2e247a119ce33bbf25685fcce153ded
+    new: 0000000000000000000000000000000000000000
