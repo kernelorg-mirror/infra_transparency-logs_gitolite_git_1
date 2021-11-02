@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0374073793448986038=="
+Content-Type: multipart/mixed; boundary="===============2355370313072587478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 02 Nov 2021 03:44:59 -0000
-Message-Id: <163582469966.682.6480818332510819695@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 03:45:06 -0000
+Message-Id: <163582470626.2352.16225573291684429960@gitolite.kernel.org>
 
---===============0374073793448986038==
+--===============2355370313072587478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: f8690a4b5a1b64f74ae5c4f7c4ea880d8a8e1a0d
     new: 39ef08517082a424b5b65c3dbaa6c0fa9d3303b9
     log: revlist-f8690a4b5a1b-39ef08517082.txt
 
---===============0374073793448986038==
+--===============2355370313072587478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ a472cc0dde3eb057db71c80f102556eeced03805 crypto: s5p-sss - Add error handling in
 68b6dea802cea0dbdd8bd7ccc60716b5a32a5d8a crypto: pcrypt - Delay write to padata->info
 39ef08517082a424b5b65c3dbaa6c0fa9d3303b9 crypto: testmgr - fix wrong key length for pkcs1pad
 
---===============0374073793448986038==--
+--===============2355370313072587478==--
