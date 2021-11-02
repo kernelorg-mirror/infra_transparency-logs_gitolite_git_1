@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 02 Nov 2021 08:40:38 -0000
-Message-Id: <163584243809.24114.17942803726270115637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 02 Nov 2021 08:48:21 -0000
+Message-Id: <163584290150.28007.5253269469594064846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/v5.15-rt16
-    old: 0000000000000000000000000000000000000000
-    new: 9774dfc7b1423192ad354fa0e8c322c064ed48a0
-  - ref: refs/tags/v5.15-rt16-patches
-    old: 0000000000000000000000000000000000000000
-    new: 2eec3dc79c037ddd21bbd44ee66cae9ffa42be3f
-  - ref: refs/tags/v5.15-rt16-rebase
-    old: 0000000000000000000000000000000000000000
-    new: e9e0e2eeeaf84d08ed8c0b372aacdbd89f9e5241
+  - ref: refs/heads/hack/m1-pmu-WIP
+    old: 3fde9c88514475f7d43bee782686a1a4b84495ec
+    new: 1d4a33da04eeeb6a3c4610553124484d9f200559
+    log: |
+         1d4a33da04eeeb6a3c4610553124484d9f200559 WIP
+         
