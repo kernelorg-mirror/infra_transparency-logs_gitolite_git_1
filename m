@@ -1,32 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 02 Nov 2021 17:50:03 -0000
-Message-Id: <163587540371.28038.6397650103541489554@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6634525231125172889=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 02 Nov 2021 18:29:41 -0000
+Message-Id: <163587778186.18802.8499098584511351195@gitolite.kernel.org>
+
+--===============6634525231125172889==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16/drivers
-    old: e1528830bd4ebf435d91c154e309e6e028336210
-    new: e2daec488c57069a4a431d5b752f50294c4bf273
+  - ref: refs/heads/for-5.16
+    old: 6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb
+    new: a2697972b9369c41afea8a928c30ac5b7f28d292
     log: |
-         e4c4871a73944353ea23e319de27ef73ce546623 nbd: fix max value for 'first_minor'
-         940c264984fd1457918393c49674f6b39ee16506 nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
-         69beb62ff0d1723a750eebe1c4d01da573d7cd19 nbd: Fix incorrect error handle when first_minor is illegal in nbd_dev_add
-         e2daec488c57069a4a431d5b752f50294c4bf273 nbd: Fix hungtask when nbd_config_put
+         a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
          
-  - ref: refs/heads/for-next
-    old: c656bca071217a513132316d9835af2d68b68c8f
-    new: 8edeb85f96da7c2e430b937da4a0910b8c0bdf2e
-    log: |
-         e4c4871a73944353ea23e319de27ef73ce546623 nbd: fix max value for 'first_minor'
-         940c264984fd1457918393c49674f6b39ee16506 nbd: fix possible overflow for 'first_minor' in nbd_dev_add()
-         69beb62ff0d1723a750eebe1c4d01da573d7cd19 nbd: Fix incorrect error handle when first_minor is illegal in nbd_dev_add
-         e2daec488c57069a4a431d5b752f50294c4bf273 nbd: Fix hungtask when nbd_config_put
-         8edeb85f96da7c2e430b937da4a0910b8c0bdf2e Merge branch 'for-5.16/drivers' into for-next
-         
+
+--===============6634525231125172889==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1635877780 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1635877779-adda7feef0bd8851569161718048df4bb23bc76f
+
+6195eb15f6d60dd92d1644dc11f1c1c2e84ebfeb a2697972b9369c41afea8a928c30ac5b7f28d292 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGBg5QACgkQJNaLcl1U
+h9De1Qf+OfvfgzBtAyDDusE8OO7jf6zypE4VD735TJu5Hi0stcXjp7vTADtSoGb7
+7RWe2xScmy6dxuqQd1hG/Eb+cx56G5iF67ZMYuHUKv+XcAEWgvKxBiOW/Wk4YBZY
+AKBpf0io/VsfQ7ylp5Ef1WfEovw3iK7rKHp0LshuIliWF5iZkc6Bse4MFRWE+hgX
+rwY36Z2YrPSIBW4vIPFGVadR9cWyrLw38d55HVVbgBZEdDVESp6GRFBBYxbYM8PX
+C3gIiRUKl/PaAcmqBkAL+iCdhT7+TLEq12+CMsH9u1MRhScGxuafrkvkblOPBbYY
+W7dh5py8uzZ1aDi/B8HmY8VzWjH6OA==
+=IHbx
+-----END PGP SIGNATURE-----
+
+--===============6634525231125172889==--
