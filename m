@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 02 Nov 2021 11:21:22 -0000
-Message-Id: <163585208238.11572.3329284052678219632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 02 Nov 2021 11:27:15 -0000
+Message-Id: <163585243510.15047.14484960877573018558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 7db04787b4d62fc96e6b305229af4221cd89ee0b
-    new: c9e68c429a4a2146873b7019c7bf4a7922a7d140
+    old: 168b2ad8ec41e5bf856f39b765960466d23cf2da
+    new: 441f9b9303d015f1777aec7168807d58feacca31
     log: |
-         c9e68c429a4a2146873b7019c7bf4a7922a7d140 rtl_bt: Update RTL8852A BT USB firmware to 0xDBA9_6937
+         7e58b71dfa9bf27f574fd79424f56206f44fa806 login: Restore tty size after calling vhangup()
+         441f9b9303d015f1777aec7168807d58feacca31 login: improve coding style
          
