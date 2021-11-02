@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1734074858875240001=="
+Content-Type: multipart/mixed; boundary="===============2781798092269780099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 02 Nov 2021 15:59:17 -0000
-Message-Id: <163586875756.14673.12788620251405441929@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 15:59:43 -0000
+Message-Id: <163586878350.14873.14807320892392948632@gitolite.kernel.org>
 
---===============1734074858875240001==
+--===============2781798092269780099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8a33dcc2f6d5cf60cc77b72c277d1eba8e4ac8fb
     new: cc0356d6a02e064387c16a83cb96fe43ef33181e
     log: revlist-8a33dcc2f6d5-cc0356d6a02e.txt
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
 
---===============1734074858875240001==
+--===============2781798092269780099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1066,4 +1051,4 @@ bfc484fe6abba4b89ec9330e0e68778e2a9856b2 Merge branch 'linus' of git://git.kerne
 fc02cb2b37fe2cbf1d3334b9f0f0eab9431766c4 Merge tag 'net-next-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 cc0356d6a02e064387c16a83cb96fe43ef33181e Merge tag 'x86_core_for_v5.16_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============1734074858875240001==--
+--===============2781798092269780099==--
