@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 02 Nov 2021 21:32:27 -0000
-Message-Id: <163588874743.21106.17190973126306592667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 02 Nov 2021 21:32:36 -0000
+Message-Id: <163588875634.21242.12442234268845186995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/damon/next
-    old: 385410403e321cf006babcc7e5261691c672b278
-    new: 70eb5bd5d9ebafa34a8772b90d8a7baa585f52bc
-    log: |
-         70eb5bd5d9ebafa34a8772b90d8a7baa585f52bc mm/damon/dbgfs: Use '__GFP_NOWARN' for user input buffer allocation
-         
+  - ref: refs/tags/devicetree-for-5.16
+    old: 0000000000000000000000000000000000000000
+    new: aa962e0ba9547a3de6649fae3ccfb45f12db4906
