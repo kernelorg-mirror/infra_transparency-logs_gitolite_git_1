@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 02 Nov 2021 01:34:17 -0000
-Message-Id: <163581685749.18061.17171688118003718646@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 01:34:26 -0000
+Message-Id: <163581686638.18157.17202183298253832877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: a16c4510683ff254cb73c2a5ca0b16958c5dfaf2
+  - ref: refs/heads/dt/next
+    old: a77725a9a3c5924e2fd4cd5b3557dd92a8e46f87
     new: 4c7a7d5086cd0f9ce22bb3df86604576d0604db5
     log: |
          b68d0924ad8391d637f55bad0f987f8696a2d126 of/unittest: Disable new dtc node_name_vs_property_name and interrupt_map warnings
