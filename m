@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Tue, 02 Nov 2021 17:12:52 -0000
-Message-Id: <163587317245.12197.4162902785796986558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mdadm/mdadm
+Date: Tue, 02 Nov 2021 17:13:34 -0000
+Message-Id: <163587321454.12494.2056710500195831569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/utils/mdadm/mdadm
+user: jes
 changes:
-  - ref: refs/tags/v5.14-rc7
-    old: 53371b959e5823998cd617e74b585e7d328f5840
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 1c66260df6664a5751644cbfc6ab9dcadf1d90c1
+    new: 4389ce73b542768bdda9b64ec38691af5ceccfd6
+    log: |
+         a35aa68fef246a3eb6bc995cd7af75af420418cc mdadm/lib: Define a new helper function is_dev_alived
+         8e1a258ecbc239c04052b3f36ed57e62da71a19e mdadm/Detail: Can't show container name correctly when unpluging disks
+         4389ce73b542768bdda9b64ec38691af5ceccfd6 imsm: introduce helpers to manage file descriptors
+         
