@@ -1,92 +1,98 @@
-Content-Type: multipart/mixed; boundary="===============6609807099129250012=="
+Content-Type: multipart/mixed; boundary="===============6974823984426998648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 02 Nov 2021 04:26:32 -0000
-Message-Id: <163582719288.29638.14060182993462962762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/song/md
+Date: Tue, 02 Nov 2021 05:16:20 -0000
+Message-Id: <163583018005.26993.17291475766731299320@gitolite.kernel.org>
 
---===============6609807099129250012==
+--===============6974823984426998648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/song/md
+user: song
 changes:
-  - ref: refs/heads/master
-    old: d2fac0afe89fe30c39eaa98dda71f7c4cea190c2
-    new: bfc484fe6abba4b89ec9330e0e68778e2a9856b2
-    log: revlist-d2fac0afe89f-bfc484fe6abb.txt
+  - ref: refs/heads/md-next
+    old: 042dce02de9c583e7fc8263e554cfbf0fcf4bae9
+    new: 5663ca4e2a1249da72b675ba7f7a18801017fa63
+    log: revlist-042dce02de9c-5663ca4e2a12.txt
 
---===============6609807099129250012==
+--===============6974823984426998648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2fac0afe89f-bfc484fe6abb.txt
+Content-Disposition: attachment; filename=revlist-042dce02de9c-5663ca4e2a12.txt
 
-04cb788ecee8369c11edb7104775f30ed6247a26 crypto: jitter - drop kernel-doc notation
-d5e93b3374e465700fb8c11c955a4433cad5b17e hwrng: Kconfig - Add helper dependency on COMPILE_TEST
-4a7e1e5fc294687a8941fa3eeb4a7e8539ca5e2f crypto: sm4 - Do not change section of ck and sbox
-b9e699f91236cb1cc97a3d02ccb8063af5e4cc46 crypto: arm64/gcm-aes-ce - remove non-SIMD fallback path
-96c34e143689bc498508c27ea35c4446aed9f42e crypto: arm64/aes-neonbs - stop using SIMD helper for skciphers
-676e508122d96aec199ab7181fd62c592c2cb8d5 crypto: arm64/aes-ce - stop using SIMD helper for skciphers
-36a916af641dc71ef7d4b98417bf4019ddeb4ebe crypto: arm64/aes-ccm - yield NEON when processing auth-only data
-b3482635e5d69c8a40288bd025f61a994b3b1126 crypto: arm64/aes-ccm - remove non-SIMD fallback path
-741691c44606b1903e674d12f3e4a4b68ade69ad crypto: arm64/aes-ccm - reduce NEON begin/end calls for common case
-898387e40cf538b7d1605e05d456699fe418a77f crypto: arm64/aes-ccm - avoid by-ref argument for ce_aes_ccm_auth_data
-cbbb5f07ab737f868f90d429255d5d644280f6a9 crypto: hisilicon - Fix sscanf format signedness
-8de8d4fe7d5a38e1ded234269f808898e72e9fb2 crypto: hisilicon/qm - fix the uacce mmap failed
-8bb765271aded24ca724a39701c6e686234c7020 crypto: hisilicon/qm - support the userspace task resetting
-ba79a32acfde1ffdaefc05b02420c4124b60dbd3 crypto: qat - replace deprecated MSI API
-0e64dcd7c94b94f90b820bfbe57bbcea8bf21545 crypto: qat - remove unmatched CPU affinity to cluster IRQ
-9832fdc917de0f28772558688d7fa6c097c9c6cc crypto: qat - free irqs only if allocated
-70fead3adb4eea70cf6f9dba681394653b1387e3 crypto: qat - free irq in case of failure
-40da865381ad061ab75a7a9da469ed4e623bdfeb crypto: qat - remove unneeded packed attribute
-29601c8159c8089782fb5da25acadd3c146f2944 hwrng: ixp4xx - Make use of the helper function devm_platform_ioremap_resource()
-5e91f56a0bb32fd14096e20224bf4f93f1b174b1 crypto: img-hash - remove need for error return variable ret
-81f53028dfbc79844f727a7c13d337ba827a471c crypto: drbg - Fix unused value warning in drbg_healthcheck_sanity()
-a2d3cbc80d2527b435154ff0f89b56ef4b84370f crypto: aesni - check walk.nbytes instead of err
-f20311cc9c58052e0b215013046cbf390937910c crypto: caam - disable pkc for non-E SoCs
-ca605f97dae4bf070b7c584aec23c1c922e4d823 crypto: qat - power up 4xxx device
-7c5329697ed4e0e1bf9a4e4fc9f0053f2f58935d crypto: marvell/cesa - drop unneeded MODULE_ALIAS
-adad556efcdd42a1d9e060cbe5f6161cccf1fa28 crypto: api - Fix built-in testing dependency failures
-f7324d4ba9e846e96ac85fbe74afe3fbdacf3b75 hwrng: meson - Improve error handling for core clock
-38aa192a05f22f9778f9420e630f0322525ef12e crypto: ecc - fix CRYPTO_DEFAULT_RNG dependency
-6e96dbe7c40a66a1dac3cdc8d29e9172d937a7b1 crypto: hisilicon/zip - Fix spelling mistake "COMSUMED" -> "CONSUMED"
-e42dff467ee688fe6b5a083f1837d06e3b27d8c0 crypto: api - Export crypto_boot_test_finished
-183b60e005975d3c84c22199ca64a9221e620fb6 crypto: hisilicon/qm - modify the uacce mode check
-cfd6fb45cfaf46fa9547421d8da387dc9c7997d4 crypto: ccree - avoid out-of-range warnings from clang
-9b768e8a3909ac1ab39ed44a3933716da7761a6f crypto: qat - detect PFVF collision after ACK
-18fcba469ba5359c1de7e3fb16f7b9e8cd1b8e02 crypto: qat - disregard spurious PFVF interrupts
-e17f49bb244a281fe39bfdad0306a38b3a02e7bf crypto: qat - remove unnecessary collision prevention step in PFVF
-993161d36ab5f0f8064751f157482d332a8fcf2c crypto: qat - fix handling of VF to PF interrupts
-b79c7532dc337c87365fda62914eaeb0e038160d crypto: qat - remove duplicated logic across GEN2 drivers
-c3878a786be09d3f7df17936c922be430cdd4e8e crypto: qat - use hweight for bit counting
-6e680f94bc31d0fd0ff01123c964d895ea8040fa crypto: qat - make pfvf send message direction agnostic
-21db65edb6a5a160a402311d1fad0c8ae050eec1 crypto: qat - move pfvf collision detection values
-71b5f2ab5e52df6f1a927e91243251bfc35c50e4 crypto: qat - rename pfvf collision constants
-7a73c4622aaa8a7a3820800c5c6b53e1097527ed crypto: qat - add VF and PF wrappers to common send function
-aa3c68634df86280087e8a4f2d3ba751eee3c6b4 crypto: qat - extract send and wait from adf_vf2pf_request_version()
-32dfef6f92dd0aa287a4798a4a358c351f78aa32 crypto: qat - share adf_enable_pf2vf_comms() from adf_pf2vf_msg.c
-82e269ad8afe1c73aa6c28dca3c23fecc6c8b616 crypto: testmgr - Only disable migration in crypto_disable_simd_for_test()
-b6f5f0c8f72d348b2d07b20d7b680ef13a7ffe98 hwrng: mtk - Force runtime pm ops for sleep ops
-b97c2b219b56d30e7f6c482a246c191df016e502 crypto: ccp - Fix whitespace in sev_cmd_buffer_len()
-06f6e365e2ecf799c249bb464aa9d5f055e88b56 crypto: octeontx2 - set assoclen in aead_do_fallback()
-7e75c33756c980d0ec1cca83082fef960f1dcc1f hwrng: s390 - replace snprintf in show functions with sysfs_emit
-3ae88f676aa63366ffa9eebb8ae787c7e19f0c57 crypto: tcrypt - fix skcipher multi-buffer tests for 1420B blocks
-cad439fc040efe5f4381e3a7d583c5c200dbc186 crypto: api - Do not create test larvals if manager is disabled
-1730c5aa3b158b15af567eb3aae84f5cf6ca66f2 crypto: engine - Add KPP Support to Crypto Engine
-a745d3ace3fd65ada44d61dafa64a2a69679ac35 crypto: ecc - Move ecc.h to include/crypto/internal
-eaffe377e168d25c52091cf31f5a7a6511897857 crypto: ecc - Export additional helper functions
-cadddc89a0445bbd5133f4f4523e07a9ce4c6e52 dt-bindings: crypto: Add Keem Bay ECC bindings
-c9f608c38009062d7a7c8c48c7d43a328a4d9eee crypto: keembay-ocs-ecc - Add Keem Bay OCS ECC Driver
-a472cc0dde3eb057db71c80f102556eeced03805 crypto: s5p-sss - Add error handling in s5p_aes_probe()
-284340a368a034243d304bd64e5f6923780e3708 crypto: sa2ul - Use the defined variable to clean code
-83bff109616433d4cfd999e14f1ffc4759c3c1e0 crypto: ccp - Make use of the helper macro kthread_run()
-68b6dea802cea0dbdd8bd7ccc60716b5a32a5d8a crypto: pcrypt - Delay write to padata->info
-39ef08517082a424b5b65c3dbaa6c0fa9d3303b9 crypto: testmgr - fix wrong key length for pkcs1pad
-bfc484fe6abba4b89ec9330e0e68778e2a9856b2 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+86d46fdaa12ae5befc16b8d73fc85a3ca0399ea6 block: ataflop: fix breakage introduced at blk-mq refactoring
+9c3d29296fe4c297447d2055e7a9535c981a8370 nvme: move command clear into the various setup helpers
+a9a7e30fd918588bc312ba782426e3a1282df359 nvme: don't memset() the normal read/write command
+0c98057be9efa32de78dbc4685fc73da9d71faa1 nbd: Fix use-after-free in pid_show
+169bbdacaa473a2f3abd3ab8170e1c7795931560 s390/dasd: handle request magic consistently as unsigned int
+10c78e53eea3d9359d4e2a0a4a17a73aacd85497 s390/dasd: fix kernel doc comment
+23596961b43752be871ea3a5756c7267f8140cff s390/dasd: split up dasd_eckd_read_conf
+74e2f2110258d5cb5f3bcbf3f9813d523eb049b9 s390/dasd: move dasd_eckd_read_fc_security
+542e30ce8e6e1104e99c78a520a821b05b6ea98b s390/dasd: summarize dasd configuration data in a separate structure
+9dffede0115e96d0ff0a07e4382569a9c6dba735 s390/dasd: fix missing path conf_data after failed allocation
+a8e5d491dfc184c6b78cbb7f44107b01229c9df2 s390/dasd: fix possibly missed path verification
+a307e2abfc22880a3026bc2f2a997402b7c2d833 md: bcache: Fix spelling of 'acquire'
+0a2b3e363566c4cc8792d37c5e73b9d9295e075c bcache: reserve never used bits from bkey.high
+d55f7cb2e5c053010d2b527494da9bbb722a78ba bcache: fix error info in register_bcache()
+0259d4498ba48454749ecfb9c81e892cdb8d1a32 bcache: move calc_cached_dev_sectors to proper place on backing device detach
+7e84c2150731faec088ebfe33459f61d118b2497 bcache: remove the cache_dev_name field from struct cache
+0f5cd7815f7f4bb1dd340a9aeb9b9d6a7c7eec22 bcache: remove the backing_dev_name field from struct cached_dev
+00387bd21dac98f9e793294c895768d9e5441f82 bcache: use bvec_kmap_local in bch_data_verify
+39fa7a95552cc851029267b97c1317f1dea61cad bcache: remove bch_crc64_update
+f6f09c15a767fad1206068bc09ec62d3cf273460 nvme: generate uevent once a multipath namespace is operational again
+01d838164b4c305c1cafb0c3f71fb0027d99358b nvme-fc: add support for ->map_queues
+2b2af50ae8367b0655e12ccfe6252d5c1d7ae7bf qla2xxx: add ->map_queues support for nvme
+e3e19dcc4c416d65f99f13d55be2b787f8d0050e nvmet: fix use-after-free when a port is removed
+fcf73a804c7d6bbf0ea63531c6122aa363852e04 nvmet-rdma: fix use-after-free when a port is removed
+2351ead99ce9164fb42555aee3f96af84c4839e9 nvmet-tcp: fix use-after-free when a port is removed
+44c3c6257e99c6284f312206de73783575fc8906 nvme-rdma: limit the maximal queue size for RDMA controllers
+6d1555cc41c088d738b4968009b32aaeda8542a3 nvmet: add get_max_queue_size op for controllers
+c7d792f9b8b0502c807ecda57aeb5eac70cc7ab9 nvmet-rdma: implement get_max_queue_size controller op
+626851e9225df93eda00f6b256cb74ad0860e418 nvmet: make discovery NQN configurable
+e15a8a9755659ff5972f30de4dd64867c97f242d nvme: add CNTRLTYPE definitions for 'identify controller'
+a294711ed5123f757ed8ed2f103c851b8ee416c9 nvmet: add nvmet_is_disc_subsys() helper
+d3aef70124e7f69975eabeb340866bc91672532d nvmet: set 'CNTRLTYPE' in the identify controller data
+954ae16681f6bdf684f016ca626329302a38e177 nvme: expose subsystem type in sysfs attribute 'subsystype'
+20e8b689c9088027b7495ffd6f80812c11ecc872 nvme: Add connect option 'discovery'
+e5ea42faa773c6a6bb5d9e9f5c2cc808940b5a55 nvme: display correct subsystem NQN
+571b5444d1eee112e82eebd0cf877dc510b8b5a5 nvmet: use macro definition for setting nmic value
+d56ae18f063e38eba47550c632519c9fe3f76b19 nvmet: use macro definitions for setting cmic value
+11384580e3322b41dbaa68dbcd949af875b8aa22 nvme-multipath: add error handling support for add_disk()
+09748122009aed7bfaa7acc33c10c083a4758322 nvme-rdma: fix error code in nvme_rdma_setup_ctrl
+58847f12fe7823c56f844218abcca6920901097d nvme-pci: clear shadow doorbell memory on resets
+2b81a5f015199f3d585ce710190a9e87714d3c1e nvme: drop scan_lock and always kick requeue list when removing namespaces
+117d5b6d00ee02f73d7065fe906e2ef1af74bb68 nvmet: use struct_size over open coded arithmetic
+cbab6ae0d0bd7459e53443c878b2a5355ac89426 Merge tag 'nvme-5.16-2021-10-21' of git://git.infradead.org/nvme into for-5.16/drivers
+ff06ed7e815ccd3f80cfd4d5dd30687bc722e871 block: aoe: fixup coccinelle warnings
+e7089f65dd51afeda5eb760506b5950d95f9ec29 dm: add add_disk() error handling
+2961c3bbcaec0ed7fb7b9a465b3796f37f2294e5 bcache: add error handling support for add_disk()
+293a7c528803321479593d42d0898bb5a9769db1 xen-blkfront: add error handling support for add_disk()
+21fd880d3da7564bab68979417cab7408e4f9642 m68k/emu/nfblock: add error handling support for add_disk()
+66638f163a2b5c5b462ca38525129b14a20117eb um/drivers/ubd_kern: add error handling support for add_disk()
+2e9e31bea01997450397d64da43b6675e0adb9e3 rnbd: add error handling support for add_disk()
+83b863f4a3f0de4ece7802d9121fed0c3e64145f mtd: add add_disk() error handling
+47e9624616c80c9879feda536c48c6a3a0ed9835 block: remove support for cryptoloop and the xor transfer
+d28e4dff085c5a87025c9a0a85fb798bd8e9ca17 block: ataflop: more blk-mq refactoring fixes
+785d584c30ffc1224027536fe55bdc15ee509f14 nvme: add new discovery log page entry definitions
+598e75934c38e2e8af6be92374053e59df8071ad nvmet: switch check for subsystem type
+2953b30b1d9feb1bc555682e64e6479d197b9231 nvmet: register discovery subsystem as 'current'
+d156cfcafbd0eae4224ea007d95ebda467eb0c46 nvmet: use flex_array_size and struct_size
+ca7787973a8652651bf391a5be6bec236a367c9c Merge tag 'nvme-5.16-2021-10-28' of git://git.infradead.org/nvme into for-5.16/drivers
+cf2197ca4b8c199d188593ca6800ea1827c42171 bcache: move uapi header bcache.h to bcache code directory
+1b86db5f4e025840e0bf7cef2b10e84531954386 bcache: replace snprintf in show functions with sysfs_emit
+df75db1fc1e5608271397de37cab43371bb838d2 block: ataflop: Fix warning comparing pointer to 0
+15dfc662ef31a20b59097d59b0792b06770255fa null_blk: Fix handling of submit_queues and poll_queues attributes
+5e2e1cc4131cf4d21629c94331f2351b7dc8b87c zram: add error handling support for add_disk()
+ff4cbe0fcf5d749f76040f782f0618656cd23e33 ps3disk: add error handling support for add_disk()
+3c30883acab1d20ecbd3c48dc12b147b51548742 ps3vram: add error handling support for add_disk()
+e1528830bd4ebf435d91c154e309e6e028336210 block/brd: add error handling support for add_disk()
+ebf02c0dd80669b73b73c0027c32415d0713c417 md/bitmap: don't set max_write_behind if there is no write mostly device
+5663ca4e2a1249da72b675ba7f7a18801017fa63 raid5-ppl: use swap() to make code cleaner
 
---===============6609807099129250012==--
+--===============6974823984426998648==--
