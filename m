@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Tue, 02 Nov 2021 01:00:14 -0000
-Message-Id: <163581481444.25798.2531799846844865706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 02 Nov 2021 01:07:58 -0000
+Message-Id: <163581527855.32306.12692326870174446026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/socfpga_qspi_fix
-    old: 0000000000000000000000000000000000000000
-    new: 1e1be506ec6a92bfde62c8f42ab833ca511fffe3
+  - ref: refs/heads/master
+    old: a20eac0af02810669e187cb623bc904908c423af
+    new: 0869e5078afbd1b22c20832b391b2d85291bc0a8
+    log: |
+         b9979db8340154526d9ab38a1883d6f6ba9b6d47 bpf: Fix propagation of bounds from 64-bit min/max into 32-bit and var_off.
+         388e2c0b978339dee9b0a81a2e546f8979e021e2 bpf: Fix propagation of signed bounds from 64-bit min/max into 32-bit.
+         0869e5078afbd1b22c20832b391b2d85291bc0a8 selftests/bpf: Add a testcase for 64-bit bounds propagation issue.
+         
