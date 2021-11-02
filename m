@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7501331657335769976=="
+Content-Type: multipart/mixed; boundary="===============8635173558904696161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 02 Nov 2021 07:57:23 -0000
-Message-Id: <163583984386.29464.10815758482286647687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 02 Nov 2021 07:57:49 -0000
+Message-Id: <163583986975.29648.504241242359845034@gitolite.kernel.org>
 
---===============7501331657335769976==
+--===============8635173558904696161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8bb7eca972ad531c9b149c0a51ab43a417385813
     log: revlist-6880fa6c5660-8bb7eca972ad.txt
 
---===============7501331657335769976==
+--===============8635173558904696161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kern
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
 
---===============7501331657335769976==--
+--===============8635173558904696161==--
