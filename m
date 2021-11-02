@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 02 Nov 2021 00:56:50 -0000
-Message-Id: <163581461037.22596.2985075718769793839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Tue, 02 Nov 2021 01:00:14 -0000
+Message-Id: <163581481444.25798.2531799846844865706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: f1a7263d792260f7730a1fd2884ee3285f63efc6
-    new: 9872dc5ad35357e30e8abc0a8a4adbda969047c8
-    log: |
-         9872dc5ad35357e30e8abc0a8a4adbda969047c8 Tue Nov  2 12:55:00 AM UTC 2021
-         
+  - ref: refs/heads/socfpga_qspi_fix
+    old: 0000000000000000000000000000000000000000
+    new: 1e1be506ec6a92bfde62c8f42ab833ca511fffe3
