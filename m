@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6450903312638298661=="
+Content-Type: multipart/mixed; boundary="===============8763026482058470024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 02 Nov 2021 03:16:26 -0000
-Message-Id: <163582298625.16446.16042364149387225870@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 03:41:59 -0000
+Message-Id: <163582451932.32133.171745319419763241@gitolite.kernel.org>
 
---===============6450903312638298661==
+--===============8763026482058470024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,117 +16,63 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: d54f486035fd89f14845a7f34a97a3f5da4e70f2
-    new: 79ef0c00142519bc34e1341447f3797436cc48bf
-    log: revlist-d54f486035fd-79ef0c001425.txt
+    old: 79ef0c00142519bc34e1341447f3797436cc48bf
+    new: 6fedc28076bbbb32edb722e80f9406a3d1d668a8
+    log: revlist-79ef0c001425-6fedc28076bb.txt
 
---===============6450903312638298661==
+--===============8763026482058470024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d54f486035fd-79ef0c001425.txt
+Content-Disposition: attachment; filename=revlist-79ef0c001425-6fedc28076bb.txt
 
-8f7262cd66699a4b02eb7549b35c81b2116aad95 kprobes: Do not use local variable when creating debugfs file
-5d6de7d7fb4b0f752adff80ca003b4fd4b467b64 kprobes: Use helper to parse boolean input from userspace
-02afb8d6048d6526619e6e2dcdc95ce9c2bdb52f kprobe: Simplify prepare_kprobe() by dropping redundant version
-71bdc8fe22ace3554144911a49d5d973b7e8a49f csky: ftrace: Drop duplicate implementation of arch_check_ftrace_location()
-4402deae8993fb0e25a19bb999b38df13e25a7e0 kprobes: Make arch_check_ftrace_location static
-9c89bb8e327203bc27e09ebd82d8f61ac2ae8b24 kprobes: treewide: Cleanup the error messages for kprobes
-223a76b268c9cfa265d454879ae09e2c9c808f87 kprobes: Fix coding style issues
-dfc05b55c3c6b15dbd889e9901ecb3fb695421bd kprobes: Use IS_ENABLED() instead of kprobes_built_in()
-57d4e31780106ad97516bfd197fac47a81482353 kprobes: Add assertions for required lock
-c42421e205fc2570a4d019184ea7d6c382c93f4c kprobes: treewide: Use 'kprobe_opcode_t *' for the code address in get_optimized_kprobe()
-29e8077ae2beea6a85ad2d0bae9c550bd5d05ed9 kprobes: Use bool type for functions which returns boolean value
-a7fe2378454cf46cd5e2776d05e72bbe8f0a468c ia64: kprobes: Fix to pass correct trampoline address to the handler
-f2ec8d9a3b8c0f22cd6a2b4f5a2d9aee5206e3b7 kprobes: treewide: Replace arch_deref_entry_point() with dereference_symbol_descriptor()
-96fed8ac2bb64ab45497fdd8e3d390165b7a9be8 kprobes: treewide: Remove trampoline_address from kretprobe_trampoline_handler()
-adf8a61a940c49fea6fab9c3865f2b69b8ceef28 kprobes: treewide: Make it harder to refer kretprobe_trampoline directly
-03bac0df2886882c43e6d0bfff9dee84a184fc7e kprobes: Add kretprobe_find_ret_addr() for searching return address
-e028c4f7ac7ca8c96126fe46c54ab3d56ffe6a66 objtool: Add frame-pointer-specific function ignore
-5b284b1933688ff18099b2cb8e83456bdd149e10 objtool: Ignore unwind hints for ignored functions
-eb4a3f7d78c7cf03654dfebdb2df64bd00a7af10 x86/kprobes: Add UNWIND_HINT_FUNC on kretprobe_trampoline()
-bb6121b11c22912ae558f853036f8ac37eb45973 ARC: Add instruction_pointer_set() API
-c1f76fe58f6983205ad14045dbc303416d5e990a ia64: Add instruction_pointer_set() API
-7391dd19027cec4e0edf81b7c27079ae0ecd2d6b arm: kprobes: Make space for instruction pointer on stack
-df91c5bccb0c2cb868b54bd68a6ddf1fcbede6b1 kprobes: Enable stacktrace from pt_regs in kretprobe handler
-1f36839308cf8d7d9d35586029f8ae4322e18ef5 x86/kprobes: Push a fake return address at kretprobe_trampoline
-19138af1bd880d52318bbb164de72a482e59a45c x86/unwind: Recover kretprobe trampoline entry
-7da89495d500d6a1e6fe1019587c3b611c7bd217 tracing: Show kretprobe unknown indicator only for kretprobe_trampoline
-bf094cffea2a6503ce84062f9f0243bef77c58f9 x86/kprobes: Fixup return address in generic trampoline handler
-6954e415264eeb5ee6be0d22d789ad12c995ee64 tracing: Place trace_pid_list logic into abstract functions
-8d6e90983ade25ec7925211ac31d9ccaf64b7edf tracing: Create a sparse bitmask for pid filtering
-b30a779d5c557e99b93917f33d441948c9aead97 tracing: Initialize upper and lower vars in pid_list_refill_irq()
-49d67e445742bbcb03106b735b2ab39f6e5c56bc tracefs: Have tracefs directories not set OTH permission bits by default
-21ccc9cd72116289469e5519b6159c675a2fa58f tracing: Disable "other" permission bits in the tracefs files
-6644c654ea70e0d8b8d5111e1272f8f29df00f21 ftrace: Cleanup ftrace_dyn_arch_init()
-bdac5c2b243f68ec15f8203c3348ae79fee8e8d8 bootconfig: Allocate xbc_data inside xbc_init()
-e306220cb7b7c2948f191414ab06851e143b54c1 bootconfig: Add xbc_get_info() for the node information
-f30f00cc9664e6c6c9dc31846db5d8c5134fadd8 tools/bootconfig: Run test script when build all
-115d4d08aeb942133d025a425dd611092893d774 bootconfig: Rename xbc_destroy_all() to xbc_exit()
-f3668cde8562997b47a9edbc915da32279d4a743 bootconfig: Split parse-tree part from xbc_init
-9b81c9bfff4651abb28bfa6d83c8b879e467963b bootconfig: Remove unused debug function
-160321b2602ff8e42ea77a09f2e3f1b35e3acfaf tools/bootconfig: Print all error message in stderr
-4f292c4886bfdfc2a7191ef4ff3f7aac69d1cc3f bootconfig: Replace u16 and u32 with uint16_t and uint32_t
-4ee1b4cac236650979a5d9b745bb0a83efde3a46 bootconfig: Cleanup dummy headers in tools/bootconfig
-43c9dd8ddf4efdce126e0a0b176d729c72445b0f ftrace: Add unit test for removing trace function
-affc659246293df42ba2d184c674cc959c05aa02 tracing: in_irq() cleanup
-34cdd18b8d245f3e901e5325313c27de727ab80d tracing: Use linker magic instead of recasting ftrace_ops_list_func()
-7ce1bb83a14019f8c396d57ec704d19478747716 tracing/cfi: Fix cmp_entries_* functions signature mismatch
-9b84fadc444de5456ab5f5487e2108311c724c3f tracing: Reuse logic from perf's get_recursion_context()
-91ebe8bcbff9d2ff21303e73bf7434f39a98b255 tracing/perf: Add interrupt_context_level() helper
-1e85010e17c1d72627eaf14d75d22e4d693abf70 x86/ftrace: Remove extra orig rax move
-8646698aefad7547dc7acee8f8c2099d7653dc70 x86/ftrace: Remove fault protection code in prepare_ftrace_return
-4a30e4c9305142ba40ab09a02a2e8ff3c1f3751f ftrace/x86_64: Have function graph tracer depend on DYNAMIC_FTRACE
-0c0593b45c9b4e5b212ffb3fb28bb8d3c0ec0dc8 x86/ftrace: Make function graph use ftrace directly
-130c08065848a98163b243b55e99f66c24609efb tracing: Add trampoline/graph selftest
-4e341cad6b7a58376bfc6d1c8347727d094a6274 tracing: Fix selftest config check for function graph start up test
-1904a8144598031af85406873c5fbec806ee3fd7 ftrace: Add ftrace_add_rec_direct function
-f64dd4627ec6edc39bf1430fe6dbc923d2300a88 ftrace: Add multi direct register/unregister interface
-ccf5a89efd6f0a9483cea8acd4a0822b1a47e59a ftrace: Add multi direct modify interface
-5fae941b9a6f95773df644e7cf304bf199707876 ftrace/samples: Add multi direct interface test module
-ed29271894aa92826d308231593b7ee7ac5a4932 ftrace/direct: Do not disable when switching direct callers
-bce5c81cb31f7f124ce231ec79df9e85a8bac132 tracing: Explain the trace recursion transition bit better
-8720aeecc246837bc6da64c5118dc3177c162e14 tracing: use %ps format string to print symbols
-e44e81c5b90f698025eadceb7eef8661eda117d5 kprobes: convert tests to kunit
-811b93ffaa488a4733270d8c8bc6c773334ab351 x86/unwind: Compile kretprobe fixup code only if CONFIG_KRETPROBES=y
-f8717410621571b182d3f2c45ffc52796c418787 arm64: kprobes: Record frame pointer with kretprobe instance
-fc6d647638a8412800dfd10ad687709cb4aee373 arm64: kprobes: Make a frame pointer on __kretprobe_trampoline
-cd9bc2c9258816dc934b300705076519d7375b81 arm64: Recover kretprobe modified return address in stacktrace
-b3ea5d56f212ad81328c82454829a736197ebccc ARM: clang: Do not rely on lr register for stacktrace
-7e9bf33b812471ee57a03ec7f9b544ca437cc706 ARM: kprobes: Make a frame pointer on __kretprobe_trampoline
-fed240d9c9743815fcbc0ca5c0913292ce1f25e2 ARM: Recover kretprobe modified return address in stacktrace
-172f7ba9772cae12f099fc563352e905dc9a1921 ftrace: Make ftrace_profile_pages_init static
-f604de20c0a47e0e9518940a1810193678c92fa8 tools/latency-collector: Use correct size when writing queue_full_warning
-9e20028b529dfc26666b3f527d34ea4d36f60f66 perf/core: allow ftrace for functions in kernel/event/core.c
-9bd985766a43ac0115f13f67783d381ebcba70c6 trace/osnoise: Fix an ifdef comment
-4d4eac7b5af4c627cdab50c9e3b7bd19c4a144c6 tracing/doc: Fix typos on the timerlat tracer documentation
-e0f3b18be733ac4a3b6deb2ff586bc1936ad0368 trace/osnoise: Add migrate-disabled field to the osnoise header
-aeafcb82d99c97ff5c6054a4091eeb12aefca9ab trace/timerlat: Add migrate-disabled field to the timerlat header
-3c20bd3af535d64771b193bb4dd41ed662c464ce tracing: Fix missing trace_boot_init_histograms kstrdup NULL checks
-1d6288914264a22c0efdfb3a5748c101c0d12baa tracing/hwlat: Make some internal symbols static
-17b251a290ba84a0c2c5c82df9596cb2e7207ca6 ftrace/sh: Add arch_ftrace_ops_list_func stub to have compressed image still link
-4d1c92a4f5ad8454259cfc711c210da6d4cfe8cc lib/bootconfig: Make xbc_alloc_mem() and xbc_free_mem() as __init function
-1f6d3a8f5e397f5d31afbc58d84e1dc68318b874 kprobes: Add a test case for stacktrace from kretprobe handler
-010db091b6879786b5d935555b9e19c41e504f71 lib/bootconfig: Fix the xbc_get_info kerneldoc
-f76fbbbb5061fe14824ba5807c44bd7400a6b4e1 samples/kretprobes: Fix return value if register_kretprobe() failed
-438697a39f0692d65a7a96e4debca139fa1be9fe docs, kprobes: Remove invalid URL and add new reference
-b9e94a7bb6fad880ba1ec0d58897480c62f587cf test_kprobes: Move it from kernel/ to lib/
-5c03d8fb04fbf2cf73dd0eacb0912fde59aaa8ed MAINTAINERS: Update KPROBES and TRACING entries
-25b95138728028dd0f576d9f252bc8f0b6c609fa selftests/ftrace: Stop tracing while reading the trace file by default
-52cfb373536a7fb744b0ec4b748518e5dc874fb7 tracing: Add support for creating hist trigger variables from literal
-bcef044150320217e2a00c65050114e509c222b8 tracing: Add division and multiplication support for hist triggers
-9710b2f341a0d96f35b911580639853cfda4677d tracing: Fix operator precedence for hist triggers expression
-c5eac6ee8bc5d32e48b3845472b547574061f49f tracing/histogram: Simplify handling of .sym-offset in expressions
-f47716b7a955e40e2591b960d1eccb1fde967a70 tracing/histogram: Covert expr to const if both operands are constants
-722eddaa4043acee8f031cf238ced5f7514ad638 tracing/histogram: Optimize division by a power of 2
-2d2f6d4b8ce738ef43fc3436b43cecd2fea64152 tracing/histogram: Document expression arithmetic and constants
-ce5e48036c9e76a2a5bd4d9079eac273087a533a ftrace: disable preemption when recursion locked
-d33cc657372366a8959f099c619a208b4c5dc664 ftrace: do CPU checking after preemption disabled
-39d9c1c103d3061ac94219ac12c04753860b337e bootconfig: Initialize ret in xbc_parse_tree()
-a90afe8d020da9298c98fddb19b7a6372e2feb45 tracing: Show size of requested perf buffer
-e531e90b5ab0f7ce5ff298e165214c1aec6ed187 tracing: Increase PERF_MAX_TRACE_SIZE to handle Sentinel1 and docker together
-93d76e4a0e0112b320c4f0e2a3930ad634628c58 tracing/histogram: Fix documentation inline emphasis warning
-feea69ec121f067073868cebe0cb9d003e64ad80 tracing/histogram: Fix semicolon.cocci warnings
-79ef0c00142519bc34e1341447f3797436cc48bf Merge tag 'trace-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+11e46f0804c406ff5cd67f5ed8387ee8a2f30b8a torture: Apply CONFIG_KCSAN_STRICT to kvm.sh --kcsan argument
+2431774f04d1050292054c763070021bade7b151 rcu: Mark accesses to rcu_state.n_force_qs
+52b030aa278642194f5d25872c33360013b0167e rcu-nocb: Fix a couple of tree_nocb code-style nits
+88ee23ef1c129e40309f4612f80dd74be4590c03 rcu: Eliminate rcu_implicit_dynticks_qs() local variable rnhqp
+9424b867a759febc2b67b6777bfa27f0f830d437 rcu: Eliminate rcu_implicit_dynticks_qs() local variable ruqp
+13bc8fa8057a064007d4e69c12799450123ef731 doc: Add another stall-warning root cause in stallwarn.rst
+3ac858785231e2573d2964950738aac087ebf30c rcu: Fix undefined Kconfig macros
+ebc88ad491362e6a4fae5bfb1c23c06c876f70be rcu: Comment rcu_gp_init() code waiting for CPU-hotplug operations
+2caebefb00f03b5ba13d44aa6cc3723759b43822 rcu: Move rcu_dynticks_eqs_online() to rcu_cpu_starting()
+768f5d50e6ad88363291f96a2e230442b8d633bc rcu: Simplify rcu_report_dead() call to rcu_report_exp_rdp()
+4aa846f97c0c0d9740d120f9ac3e2fba1522ac0c rcu: Make rcutree_dying_cpu() use its "cpu" parameter
+ebb6d30d9ed1fe7137486e1be2ae9d621e918c4a rcu: Make rcu_normal_after_boot writable again
+1eac0075ebeecbf5c972f575ac448a0ea92e4f3a rcu: Make rcu update module parameters world-readable
+f0b2b2df5423fb369ac762c77900bc7765496d58 rcu: Fix existing exp request check in sync_sched_exp_online_cleanup()
+cbe0d8d91415c9692fe88191940d98952b6855d9 rcu-tasks: Wait for trc_read_check_handler() IPIs
+fda84866b1e68ab409074e7fcf1a7db800615445 rcutorture: Suppressing read-exit testing is not an error
+efeff6b39b9de4480572c7b0c5eb77204795cb57 rcutorture: Warn on individual rcu_torture_init() error conditions
+b3b3cc618ee07f5f4c409e8ca86ac7fbac085ebd locktorture: Warn on individual lock_torture_init() error conditions
+ed60ad733aa49b70720c9d8dded1b18374ec5022 refscale: Warn on individual ref_scale_init() error conditions
+eb77abfdeed29dd032c923e16fe8d91fa95cd316 rcuscale: Warn on individual rcu_scale_init() error conditions
+fd13fe16db0d82612b260640f4e26f6d9d1e11fd rcutorture: Don't cpuhp_remove_state() if cpuhp_setup_state() failed
+71921a9606ddbcc1d98c00eca7ae82c373d1fecd rcutorture: Avoid problematic critical section nesting on PREEMPT_RT
+b380b10b84c3b8334aba51a5a10eabb30f37589f torture: Make torture.sh print the number of files to be compressed
+96017bf9039763a2e02dcc6adaa18592cd73a39d rcu-tasks: Simplify trc_read_check_handler() atomic operations
+18f08e758f34e6dfe0668bee51bd2af7adacf381 rcu-tasks: Add trc_inspect_reader() checks for exiting critical section
+a5c071ccfa1728508f31e61213ee795e4529d0d4 rcu-tasks: Remove second argument of rcu_read_unlock_trace_special()
+c4f113ac450afc9c7c4d2ce84a08f516dbec69b1 rcu-tasks: Fix s/instruction/instructions/ typo in comment
+0db7c32ad3160ae06f497d48a74bd46a2a35e6bf rcu-tasks: Move RTGS_WAIT_CBS to beginning of rcu_tasks_kthread() loop
+d0a85858569ead8d39ba5b41501cd99bc7d7e7bd rcu-tasks: Fix s/rcu_add_holdout/trc_add_holdout/ typo in comment
+89401176daf0a44ab517d9a0e296adb85af246df rcu-tasks: Correct firstreport usage in check_all_holdout_tasks_trace
+d39ec8f3c12abe3710f7031ce3d5564bda12b19e rcu-tasks: Correct comparisons for CPU numbers in show_stalled_task_trace
+a6517e9ce0115e33617062c9e73b4c5e6f787525 rcu-tasks: Clarify read side section info for rcu_tasks_rude GP primitives
+ed42c38067129c85ab1bda39f2fd91924a432dc0 rcu-tasks: Fix read-side primitives comment for call_rcu_tasks_trace
+46aa886c483f57ef13cd5ea0a85e70b93eb1d381 rcu-tasks: Fix IPI failure handling in trc_wait_for_one_reader
+8af9e2c7826a67a26c2c7a0cd3ce09a5acaf8035 rcu-tasks: Update comments to cond_resched_tasks_rcu_qs()
+925da92ba5cb0c82d07cdd5049a07e40f54e9c44 rcu: Avoid unneeded function call in rcu_read_unlock()
+2f611d044b8dcab245b6bbe5f691b6dce173ff56 scftorture: Allow zero weight to exclude an smp_call_function*() category
+2b1388f8a408e68fda6443ec166f42ae4ffca87c scftorture: Shut down if nonsensical arguments given
+da9366c627ef459a1ceb6e5535648683e2adbdb2 scftorture: Account for weight_resched when checking for all zeroes
+c3d0258d5af2a50529e8928fe458344e38653d25 scftorture: Count reschedule IPIs
+f2bdf7dc0da234d78636994367e6ea4af055c689 scftorture: Warn on individual scf_torture_init() error conditions
+2010776f8ccb68b85efbade3f19a11b17fb33d74 tools/rcu: Add an extract-stall script
+ae3357ac11273fe1aad9c790febf179ef05b930a torture: Allot 1G of memory for scftorture runs
+faaaf2ac03a81ad6f9dece28d9cb0b65b515a5cb torture: Make kvm-remote.sh print size of downloaded tarball
+7663ad9a5dbcc27f3090e6bfd192c7e59222709f rcu: Always inline rcu_dynticks_task*_{enter,exit}()
+74aece72f95f399dd29363669dc32a1344c8fab4 rcu: Fix rcu_dynticks_curr_cpu_in_eqs() vs noinstr
+dd1277d2ad95e7f0de1b79c70fdfe635d9df0f80 Merge branches 'fixes.2021.10.07a', 'scftorture.2021.09.16a', 'tasks.2021.09.15a', 'torture.2021.09.13b' and 'torturescript.2021.09.16a' into HEAD
+6fedc28076bbbb32edb722e80f9406a3d1d668a8 Merge tag 'rcu.2021.11.01a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 
---===============6450903312638298661==--
+--===============8763026482058470024==--
