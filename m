@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 02 Nov 2021 23:36:27 -0000
-Message-Id: <163589618757.24714.9377962102390763430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 02 Nov 2021 23:45:23 -0000
+Message-Id: <163589672333.30083.9168622272380727099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 28e85e549d75c2204bdf35a94749c8d2130de151
-    new: 726058e39f7ab7afa7f62489f0a912ff2b658531
+    old: c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793
+    new: 5fe11512cdc24ccc66ac5da3c815ac9e59449abc
     log: |
-         7234c7394e781dce2d9324c439ecbad988102259 main.conf: Fix Privacy modes
-         7725579d6aa795931bcf3dfaea351c3a41a8388f mgmt-tester: Add test for Limited/Device Privacy
-         06c8b17448b0b35e71c394a33ae84029a21c2700 advertising-api: Clarify Duration property
-         726058e39f7ab7afa7f62489f0a912ff2b658531 device: Fix not updating the auto-connect/accept list
+         5fe11512cdc24ccc66ac5da3c815ac9e59449abc Input: remove unused header <linux/input/cy8ctmg110_pdata.h>
+         
+  - ref: refs/heads/next
+    old: c6ac8f0b4ca927316eb40e1e9ba83df5d29f3793
+    new: 5fe11512cdc24ccc66ac5da3c815ac9e59449abc
+    log: |
+         5fe11512cdc24ccc66ac5da3c815ac9e59449abc Input: remove unused header <linux/input/cy8ctmg110_pdata.h>
          
