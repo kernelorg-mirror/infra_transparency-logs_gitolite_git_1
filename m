@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5229973359546472766=="
+Content-Type: multipart/mixed; boundary="===============0105092844878318762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 02 Nov 2021 17:42:47 -0000
-Message-Id: <163587496731.22334.12223743466444564870@gitolite.kernel.org>
+Date: Tue, 02 Nov 2021 17:43:15 -0000
+Message-Id: <163587499509.22537.14196931913334047839@gitolite.kernel.org>
 
---===============5229973359546472766==
+--===============0105092844878318762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: dfbd98c196b622d3d8da0b280c110b8f2be5557e
+  - ref: refs/heads/net-mlx4
+    old: 6de6e46d27ef386feecdbea56b3bfd6c3b3bc1f9
     new: cc0356d6a02e064387c16a83cb96fe43ef33181e
-    log: revlist-dfbd98c196b6-cc0356d6a02e.txt
+    log: revlist-6de6e46d27ef-cc0356d6a02e.txt
 
---===============5229973359546472766==
+--===============0105092844878318762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfbd98c196b6-cc0356d6a02e.txt
+Content-Disposition: attachment; filename=revlist-6de6e46d27ef-cc0356d6a02e.txt
 
 fdd3c5f076b69cba2e53e00d9b5191724c7d62f3 s390/qeth: clarify remaining dev_kfree_skb_any() users
 dc15012bb083c70502b625cf56fbf32b6cf17fe4 s390/qeth: don't keep track of Input Queue count
@@ -1051,4 +1051,4 @@ bfc484fe6abba4b89ec9330e0e68778e2a9856b2 Merge branch 'linus' of git://git.kerne
 fc02cb2b37fe2cbf1d3334b9f0f0eab9431766c4 Merge tag 'net-next-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 cc0356d6a02e064387c16a83cb96fe43ef33181e Merge tag 'x86_core_for_v5.16_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============5229973359546472766==--
+--===============0105092844878318762==--
