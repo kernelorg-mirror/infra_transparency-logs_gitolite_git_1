@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Tue, 02 Nov 2021 18:30:40 -0000
-Message-Id: <163587784076.20619.5828311360019071516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 02 Nov 2021 18:32:39 -0000
+Message-Id: <163587795992.21255.493439935413622201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/header_unbreak
-    old: 0000000000000000000000000000000000000000
-    new: 79590f61b2e65dde3750c6207836b57249f65dc6
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/heads/clk-qcom
+    old: 3652265514f52880b3ef8facafaf8117540382f6
+    new: 1b771839de054710e1e015b10e29a4d04c41f54b
+    log: |
+         1b771839de054710e1e015b10e29a4d04c41f54b clk: qcom: gdsc: enable optional power domain support
+         
