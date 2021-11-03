@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3688876748578780731=="
+Content-Type: multipart/mixed; boundary="===============2595000371598079969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 03 Nov 2021 16:34:08 -0000
-Message-Id: <163595724807.21712.16392112610309987288@gitolite.kernel.org>
+Date: Wed, 03 Nov 2021 16:34:28 -0000
+Message-Id: <163595726817.21895.17380769388328675450@gitolite.kernel.org>
 
---===============3688876748578780731==
+--===============2595000371598079969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: cc0356d6a02e064387c16a83cb96fe43ef33181e
     new: 92f62485b3715882cd397b0cbd80a96d179b86d6
     log: revlist-cc0356d6a02e-92f62485b371.txt
 
---===============3688876748578780731==
+--===============2595000371598079969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ acaea0d5a63406c052444ad3a7cb54241adaf805 net:ipv6:Remove unneeded semicolon
 5f15d392dcb4aa250a63d6f2c5adfc26c0aedc78 net: dsa: qca8k: make sure PAD0 MAC06 exchange is disabled
 92f62485b3715882cd397b0cbd80a96d179b86d6 net: dsa: felix: fix broken VLAN-tagged PTP under VLAN-aware bridge
 
---===============3688876748578780731==--
+--===============2595000371598079969==--
