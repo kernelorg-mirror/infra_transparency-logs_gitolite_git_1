@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 03 Nov 2021 21:28:36 -0000
-Message-Id: <163597491673.13158.9626337534204628421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 03 Nov 2021 21:30:43 -0000
+Message-Id: <163597504311.15314.568697661789534951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/dev-queue
-    old: 156e1b7e4cc7b494d484d7e5a4a83b9a49b6ceba
-    new: 581e1cbfdda9ddcb87ba8d7952a7d38bf4fb9377
+  - ref: refs/heads/master
+    old: d6b973acd7566e326e22459e827ea9a871e85a7d
+    new: be2f2d1680dfb36793ea8d3110edd4a1db496352
     log: |
-         581e1cbfdda9ddcb87ba8d7952a7d38bf4fb9377 iavf: Restore non MAC filters after link down
+         be2f2d1680dfb36793ea8d3110edd4a1db496352 libbpf: Deprecate bpf_program__load() API
          
