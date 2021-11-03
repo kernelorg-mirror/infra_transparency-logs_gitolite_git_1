@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 03 Nov 2021 21:14:31 -0000
-Message-Id: <163597407176.3411.15828567764418198270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 03 Nov 2021 21:23:07 -0000
+Message-Id: <163597458736.10168.15944895519371853978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/todo
-    old: 04050d587cac76d2100195af3b7a69ef710665e5
-    new: 3282ed08669d2b27b828d8fcae3a27c9a70e57d1
-    log: |
-         3282ed08669d2b27b828d8fcae3a27c9a70e57d1 What's cooking (2021/11 #02)
-         
+  - ref: refs/heads/dev
+    old: d07ab377778189eebd636ff8d346e72ef257e1b2
+    new: 40711875eb52fd09836e31821bbb56783e634c4e
