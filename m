@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 03 Nov 2021 13:42:13 -0000
-Message-Id: <163594693392.10997.13278058283903402107@gitolite.kernel.org>
+Date: Wed, 03 Nov 2021 13:42:54 -0000
+Message-Id: <163594697436.11218.9802942084908929783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/dinguyen/linux
 user: dinguyen
 changes:
   - ref: refs/heads/nios2_for_v5.16
-    old: 0000000000000000000000000000000000000000
-    new: 97497b288e3c5e80d7de693e535484382629fbb3
+    old: 97497b288e3c5e80d7de693e535484382629fbb3
+    new: 0000000000000000000000000000000000000000
