@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8575621321913952668=="
+Content-Type: multipart/mixed; boundary="===============6953825290844018260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 03 Nov 2021 20:30:49 -0000
-Message-Id: <163597144970.9869.1176547528106281439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 03 Nov 2021 20:39:08 -0000
+Message-Id: <163597194805.13639.17475636671377863694@gitolite.kernel.org>
 
---===============8575621321913952668==
+--===============6953825290844018260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: a602285ac11b019e9ce7c3907328e9f95f4967f0
-    new: d4ec3d5535c784c3adbc41c2bbc5d17a00a4a898
-    log: revlist-a602285ac11b-d4ec3d5535c7.txt
+  - ref: refs/heads/next
+    old: c1ecd53f999030bd39c563d78fc2bab3f776ae83
+    new: 2f167b8a48d3e91880e4fed9c6e2f31dc9511a44
+    log: revlist-c1ecd53f9990-2f167b8a48d3.txt
 
---===============8575621321913952668==
+--===============6953825290844018260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a602285ac11b-d4ec3d5535c7.txt
+Content-Disposition: attachment; filename=revlist-c1ecd53f9990-2f167b8a48d3.txt
 
-fec2432c9a7370788faab416b38589ac9f4350e5 bus/fsl-mc: Add generic implementation for open/reset/close commands
-8798a803ddf6329dc3b995775862b571db4909d2 vfio/fsl-mc: Add per device reset support
-38a68934aa72459217986cf6b461d87f7602648a vfio: Move vfio_iommu_group_get() to vfio_register_group_dev()
-b00621603d050f77a6af9e81e32daeccfd246d6a vfio: factor out a vfio_iommu_driver_allowed helper
-c5b4ba9730e6d607d11c3c3c9b2f04852e121423 vfio: remove the iommudata check in vfio_noiommu_attach_group
-1362591f15233bdc3d1fbf27e266068bd16a4e92 vfio: factor out a vfio_group_find_or_alloc helper
-3af917713230c8a6c3431e60601f0c7ad72eceb6 vfio: refactor noiommu group creation
-c04ac34078a4d7c08e1218b548e0a6b197f01582 vfio: remove the iommudata hack for noiommu groups
-c68ea0d00ad82428154aed890ec9f793e460fa1c vfio: simplify iommu group allocation for mediated devices
-67462037872d5ca57dc4674cccff191947b9b43e vfio: remove unused method from vfio_iommu_driver_ops
-8cc02d22d7e1596ed687c4ff967c32056c2bef3e vfio: move the vfio_iommu_driver_ops interface out of <linux/vfio.h>
-fda49d97f2c4faf0b42e8796d3e6c868d992f3af vfio: remove the unused mdev iommu hook
-c3c0fa9d94f7078b6664d29d79484d071a144f2e vfio: clean up the check for mediated device in vfio_iommu_type1
-898639041484003e219e35fd1623b4bb1f4c0d04 vfio/spapr_tce: reject mediated devices
-65cdbf10633783647c45eb22f0e70f193fee3789 vfio/iommu_type1: initialize pgsize_bitmap in ->open
-296e505baddf92ed73f6ca2ddbb426357bb5abc4 vfio/iommu_type1: remove the "external" domain
-3f901389fa88d32d660cf2209aac6e395902d017 vfio/iommu_type1: remove IS_IOMMU_CAP_DOMAIN_IN_CONTAINER
-d9a0cd510c3383b61db6f70a84e0c3487f836a63 Merge branch 'v5.16/vfio/hch-cleanup-vfio-iommu_group-creation-v6' into v5.16/vfio/next
-052493d5534af4a47332193144cee8e369cce60b Merge branch 'v5.16/vfio/diana-fsl-reset-v2' into v5.16/vfio/next
-49ba1a2976c8305647f772eec04c9596c12c6d3f vfio/pci: Add OpRegion 2.0+ Extended VBT support.
-48f06ca420c350635423685b40cf27374380bac4 Merge branch 'v5.16/vfio/colin_xu_igd_opregion_2.0_v8' into v5.16/vfio/next
-63b150fde7a2549e8bf7cb0fca7e9cfb9cad50d7 vfio: Delete vfio_get/put_group from vfio_iommu_group_notifier()
-1ceabade1df78c420e30efd4d39a48ceb46487bc vfio: Do not open code the group list search in vfio_create_group()
-325a31c920309d2225311573a05c2f4dd402b2ed vfio: Don't leak a group reference if the group already exists
-2b678aa2f0990a25e15cdef66256a131566ecd2e vfio: Use a refcount_t instead of a kref in the vfio_group
-9cef73918e15d2284e71022291a8a07901e80bad vfio: Use cdev_device_add() instead of device_create()
-d0a9329d460cbc2f8150da520b1b75e397bbef9f vfio/ccw: Remove unneeded GFP_DMA
-0972c7dddf716a781dbe9abf4d042264b679ab53 vfio/ccw: Use functions for alloc/free of the vfio_ccw_private
-39b6ee011f341526308577847f1002be5d1e0a6e vfio/ccw: Pass vfio_ccw_private not mdev_device to various functions
-3bf1311f351ef289f2aee79b86bcece2039fa611 vfio/ccw: Convert to use vfio_register_emulated_iommu_dev()
-d4ec3d5535c784c3adbc41c2bbc5d17a00a4a898 Merge tag 'vfio-v5.16-rc1' of git://github.com/awilliam/linux-vfio
+31dedb8ed11e0d9aa266bb33e46d827006c4a72f PCI: cpqphp: Use <linux/io.h> instead of <asm/io.h>
+ef0955e18454734b5ee81489cdeebd6d6b0999be PCI: vmd: Use <linux/device.h> instead of <asm/device.h>
+496bb18483cc0474913e81e18a6b313aaea4c120 PCI: j721e: Fix j721e_pcie_probe() error path
+27cd7e3c9bb1ae13bc16f08138edd6e4df3cd211 PCI: cadence: Add cdns_plat_pcie_probe() missing return
+b3ec7c20679eb64d6f72b56bb26018c2ca169c6e Merge branch 'pci/acpi'
+b6873c70a119e48b4e33c71f42fb4411d5cb8101 Merge branch 'pci/aspm'
+73742cc07cabcb740d8e42a39f9d8c97848f43e9 Merge branch 'pci/enumeration'
+c0d9f418d03d2bc411318a74ff5f58dadf9cf4df Merge branch 'pci/driver'
+38469477a30f0e772b827a6132be7fc0b507e4c0 Merge branch 'pci/hotplug'
+7dae2fb5ad88bfbd10f8c9f0c3a5e3bd851ddf2d Merge branch 'pci/msi'
+d4e2fa90fa7d017576ee844eb858171bd7630013 Merge branch 'pci/p2pdma'
+7b8616a12f84cb3ec273e51bd5cf0aca10c41f2a Merge branch 'pci/portdrv'
+1a739bdaac7f5b3ede94ee487888dff37c2d71d2 Merge branch 'pci/resource'
+d19b952cc255d117af18f34fff45680a0ecad58f Merge branch 'pci/switchtec'
+ded9b84b236c44ef01fda2a842db68016580d8ee Merge branch 'pci/sysfs'
+197b171129030d9f2e177a3a24214485c1aa86af Merge branch 'pci/virtualization'
+e8e883066677c4d861b1af25f78bc716ac63f5be Merge branch 'pci/vpd'
+a70ca73936aad667624768cae29a983053020395 Merge branch 'pci/misc'
+0573d99888bebf70430dd17e2603940f60a8a76b Merge branch 'remotes/lorenzo/pci/aardvark'
+093237f26f7e8bddc3e07b9231e87af671f13729 Merge branch 'remotes/lorenzo/pci/apple'
+f3fb689c483eeb986e43781387205f73f62a8899 Merge branch 'pci/host/cadence'
+38de6ed924f26a13c419188dafe1b9f9f3298fbf Merge branch 'remotes/lorenzo/pci/dt'
+387c9807450a4d4c5855a76d38993586641a0dff Merge branch 'pci/host/dwc'
+9fb095db4d5541e41c2d3bcfd6112fcf43da12e1 Merge branch 'remotes/lorenzo/pci/endpoint'
+f8676bbe1e2f0bd970e53971b37f9fb9092641ba Merge branch 'remotes/lorenzo/pci/imx6'
+f3c40c1c6caa0b1aecfea461cc0093fe419b515e Merge branch 'pci/host/kirin'
+898cf6eac72ec50a932d6f2768b657be63c0c7e4 Merge branch 'pci/host/mt7621'
+43acdb7a3b68443c3491cb49e7deccbb4e2d69fa Merge branch 'remotes/lorenzo/pci/qcom'
+cebdbbe7164e0126fc2ede982c06bbf222d03bb9 Merge branch 'pci/host/rcar'
+d075d070253b5e9e82a3b13deae348fae1c510ab Merge branch 'remotes/lorenzo/pci/vmd'
+2f167b8a48d3e91880e4fed9c6e2f31dc9511a44 Merge branch 'remotes/lorenzo/pci/xgene'
 
---===============8575621321913952668==--
+--===============6953825290844018260==--
