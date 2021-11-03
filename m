@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 03 Nov 2021 16:44:53 -0000
-Message-Id: <163595789394.28334.1009409094721854697@gitolite.kernel.org>
+Date: Wed, 03 Nov 2021 16:47:18 -0000
+Message-Id: <163595803822.30661.14558930086384293171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,68 +12,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 86b9ed2d25ed079d0d818f066b7ac155a92b7544
-    new: ff444b101ef3c87bc0af841e4a79dbef8ae1c373
+    old: ff444b101ef3c87bc0af841e4a79dbef8ae1c373
+    new: 14f4df2c6e3681921b2905e947379fc0e774bf27
     log: |
-         006109035bd1d4be2bac76ed10ea32af35306637 scsi: core: Put LLD module refcnt after SCSI device is released
-         ff444b101ef3c87bc0af841e4a79dbef8ae1c373 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         eb8fd7c66d392c9b35721479705ce298aaf6e8ea scsi: core: Put LLD module refcnt after SCSI device is released
+         14f4df2c6e3681921b2905e947379fc0e774bf27 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
          
   - ref: refs/heads/queue/4.19
-    old: c0f3298fc2a916d86166b7a307d794480f3bda79
-    new: ac5e30f0816ede1066c346a67d2f5243ca09e1d0
+    old: ac5e30f0816ede1066c346a67d2f5243ca09e1d0
+    new: 642122a8cfa88a1b5a15997c46555ce25bae7281
     log: |
-         e2b2a2dee5508d0420f5fc1e523f6aa2056cdfbc scsi: core: Put LLD module refcnt after SCSI device is released
-         ac5e30f0816ede1066c346a67d2f5243ca09e1d0 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         0b125727bf7f2a551ffd08ab92c85b77021cbcbe scsi: core: Put LLD module refcnt after SCSI device is released
+         642122a8cfa88a1b5a15997c46555ce25bae7281 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
          
   - ref: refs/heads/queue/4.4
-    old: ca04241b82597a209e08914cb6a15d5258e950c0
-    new: 0d284d1b50d51782b4eb2edf63948f4b04834bca
+    old: 0d284d1b50d51782b4eb2edf63948f4b04834bca
+    new: 385de851d0ad3acfedb6401f56d4836bb7fc1c7c
     log: |
-         0d284d1b50d51782b4eb2edf63948f4b04834bca scsi: core: Put LLD module refcnt after SCSI device is released
+         385de851d0ad3acfedb6401f56d4836bb7fc1c7c scsi: core: Put LLD module refcnt after SCSI device is released
          
   - ref: refs/heads/queue/4.9
-    old: 2a132ad10a512f453b2af37a06e396a5375a876f
-    new: 3970568065a5d1ca4b89a25a7c338a087b1b8feb
+    old: 3970568065a5d1ca4b89a25a7c338a087b1b8feb
+    new: 52beaea7992a29bfeb1fd0e09b59658cac9745dc
     log: |
-         3970568065a5d1ca4b89a25a7c338a087b1b8feb scsi: core: Put LLD module refcnt after SCSI device is released
+         52beaea7992a29bfeb1fd0e09b59658cac9745dc scsi: core: Put LLD module refcnt after SCSI device is released
          
   - ref: refs/heads/queue/5.10
-    old: 0dcd029c5b9b3031b4c1a10af3bc55cde8111f75
-    new: 62eb813841d5360ea47d32676ee2aef7a44a1d70
+    old: 62eb813841d5360ea47d32676ee2aef7a44a1d70
+    new: 4acaea57242fc63bd3403dab529e6068621ea9d0
     log: |
-         67dbde99d610b726d2ca5e0473ebfd6dd9c70fab scsi: core: Put LLD module refcnt after SCSI device is released
-         c996aecf326189bc1f3a6ad4e13d321571d9b8cc Revert "io_uring: reinforce cancel on flush during exit"
-         0c596308bb8af4f6d7fa8b165c8a764472d6799a sfc: Fix reading non-legacy supported link modes
-         ccbe000c4b913422b9029f196bb8d2c8aa5dd2d0 vrf: Revert "Reset skb conntrack connection..."
-         8eee03ffa032a8095742da6502fa3a5fbd46e28b net: ethernet: microchip: lan743x: Fix skb allocation failure
-         92a03211d23da33b03767302d1d0c4eb455dc5ef mm: hwpoison: remove the unnecessary THP check
-         0e3f8571e395d1a91b2cf630a81996400dfcd2be mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
-         62eb813841d5360ea47d32676ee2aef7a44a1d70 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         6a0a0ef8c32bd9800d9e97f6dc2b479c59f3508f scsi: core: Put LLD module refcnt after SCSI device is released
+         9ac1d1fee8c5b02492e193296f70480b2dae9b97 Revert "io_uring: reinforce cancel on flush during exit"
+         a23718fb5f19d3056e65175499718b762ffaad8b sfc: Fix reading non-legacy supported link modes
+         4cba3f3cb54df1da72ceba5e7cf77eff585e16d0 vrf: Revert "Reset skb conntrack connection..."
+         a08947815186f83880d72fe2b8659a95c57acdc4 net: ethernet: microchip: lan743x: Fix skb allocation failure
+         a240f90ce143f09c2b582c8cba65b67fa87ad83e mm: hwpoison: remove the unnecessary THP check
+         1bf47f0b52abf4be019bd66e8b9b14df0c3e140f mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
+         73dab0712a6aa1cc370bcc608c8a9e8adc6b1344 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         99a947fa9fff0d3f58a157770ccb4e11f97ad499 Revert "xhci: Set HCD flag to defer primary roothub registration"
+         4acaea57242fc63bd3403dab529e6068621ea9d0 Revert "usb: core: hcd: Add support for deferring roothub registration"
          
   - ref: refs/heads/queue/5.14
-    old: de92c86f05266dbb413a317102a6c1b5de0853e8
-    new: 814120ed29075bcd8ec4318ef5f62d828744c108
+    old: 814120ed29075bcd8ec4318ef5f62d828744c108
+    new: 90b81889e7b9b36a1a39d4fb205f05967a0be74f
     log: |
-         55a6effce30a93a3490ad76b98715d0f02c381ec scsi: core: Put LLD module refcnt after SCSI device is released
-         e86f370ddddc9e5000f8d1057bd4fa08306a468b sfc: Fix reading non-legacy supported link modes
-         87f48d5a8e02d1e3d72d99a1557c4e04f96d4a50 vrf: Revert "Reset skb conntrack connection..."
-         c5cab5fd8a92b1d89264a8a300d3fc1df2f57fba media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         31ef6749ae56c33b658d91a75951af8fddbc5a91 Revert "xhci: Set HCD flag to defer primary roothub registration"
-         814120ed29075bcd8ec4318ef5f62d828744c108 Revert "usb: core: hcd: Add support for deferring roothub registration"
+         cc4ad6a0e799b706fe3c4f2054fd3b722db38b41 scsi: core: Put LLD module refcnt after SCSI device is released
+         43dd8548357bca7abbe2d3690b59d45c70fde197 sfc: Fix reading non-legacy supported link modes
+         d91b4501146d77b19a0cae4979182d598fea6c04 vrf: Revert "Reset skb conntrack connection..."
+         4749edce10dedea667edfc1001f725674258e535 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         5dfdb63e35284b11e00bf50da20b5bd1a7e09463 Revert "xhci: Set HCD flag to defer primary roothub registration"
+         90b81889e7b9b36a1a39d4fb205f05967a0be74f Revert "usb: core: hcd: Add support for deferring roothub registration"
          
   - ref: refs/heads/queue/5.15
-    old: 20f1a3c1df71ed1a362852cb06f936e686645d62
-    new: c658f97301be6f7ba4337362230d9daa073496d3
+    old: c658f97301be6f7ba4337362230d9daa073496d3
+    new: b2a03cb85e5575bcd46ec6e8a475b3b89978b32d
     log: |
-         5486ab5286b86a0b680d45a4af847cb317dbf1b8 sfc: Fix reading non-legacy supported link modes
-         c658f97301be6f7ba4337362230d9daa073496d3 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         038a0f795dd7593afb26c0fa61d70c43585eec7d sfc: Fix reading non-legacy supported link modes
+         b2a03cb85e5575bcd46ec6e8a475b3b89978b32d media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
          
   - ref: refs/heads/queue/5.4
-    old: c73c62ddcd27a4127a93283854d57ec07f49acb2
-    new: 898d0a3e01b6f24496c8e07b2f53702eaa9274d8
+    old: 898d0a3e01b6f24496c8e07b2f53702eaa9274d8
+    new: 7faf043e30418d7b9321c56ec14b8de4478e9666
     log: |
-         adf37bd38fa393f6bf8a39543388a03f73d979d7 scsi: core: Put LLD module refcnt after SCSI device is released
-         a32259a7ebbacafba5e7b0187397121e958ff9e7 vrf: Revert "Reset skb conntrack connection..."
-         78ed77d2ab05fa5c5f1f10ad0bff44af3d1f3581 net: ethernet: microchip: lan743x: Fix skb allocation failure
-         898d0a3e01b6f24496c8e07b2f53702eaa9274d8 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         8c77d87ba93827a2966a2633f213488a96a1d851 scsi: core: Put LLD module refcnt after SCSI device is released
+         3b279db11d66bcaedc93a7d4ba0ca8a9329d914e vrf: Revert "Reset skb conntrack connection..."
+         1a90bd59f26c81f9d069d08370d1d28edd36cac5 net: ethernet: microchip: lan743x: Fix skb allocation failure
+         7faf043e30418d7b9321c56ec14b8de4478e9666 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
          
