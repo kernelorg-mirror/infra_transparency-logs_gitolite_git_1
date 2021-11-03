@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Wed, 03 Nov 2021 14:35:38 -0000
-Message-Id: <163595013861.13316.14493664304805985059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 03 Nov 2021 14:36:23 -0000
+Message-Id: <163595018363.13599.5488896729540827665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/ch/git-2-33
-    old: 3ea06f89f0b46ef1c98a077edce62dda8bfc83ef
-    new: 45eff406554f3ff31bdf7d54daae1da5635db72e
-    log: |
-         45eff406554f3ff31bdf7d54daae1da5635db72e git: update to v2.33.0
-         
+  - ref: refs/heads/for-next
+    old: 381599d3eb726623948c6b4adb2ea49a7359232b
+    new: 0000000000000000000000000000000000000000
