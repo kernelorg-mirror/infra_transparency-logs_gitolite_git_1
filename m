@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5596344510917573016=="
+Content-Type: multipart/mixed; boundary="===============0110150972051606951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 03 Nov 2021 16:42:13 -0000
-Message-Id: <163595773353.27308.11063566189697236984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 03 Nov 2021 16:42:24 -0000
+Message-Id: <163595774451.27403.658271611166899853@gitolite.kernel.org>
 
---===============5596344510917573016==
+--===============0110150972051606951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 10d1e2c52ddc379cd1816650d366d746bbfd87ed
-    new: 1dbfda0c387d4bb4d8225ddfb4626c9ad7c939d2
-    log: revlist-10d1e2c52ddc-1dbfda0c387d.txt
+  - ref: refs/heads/queue-rc
+    old: bea39dccbb89591e3a66fe663fbb29b20e6acde0
+    new: 561053da99ee49ef38a7bc180f4e91c760478950
+    log: revlist-bea39dccbb89-561053da99ee.txt
 
---===============5596344510917573016==
+--===============0110150972051606951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10d1e2c52ddc-1dbfda0c387d.txt
+Content-Disposition: attachment; filename=revlist-bea39dccbb89-561053da99ee.txt
 
 5648b5e1169ff1d6d6a46c35c0b5fbebd2a5cbb2 netfilter: nfnetlink_queue: fix OOB when mac header was cleared
 2199f562730dd1382946e0a2532afc38cd444129 ipvs: autoload ipvs on genl access
@@ -66,5 +66,7 @@ cbbd13b1859bee448fa516587607632fa21bc9b5 net/mlx5e: kTLS, Fix crash in RX resync
 ea12b54f36febec2ef7293bfec6356a1e5014adc Merge branch 'patchq/440546' into mlx5-for-net
 d19340f1d462daa4f9015de11309f70930937596 Merge branch 'patchq/431094' into mlx5-for-net
 1dbfda0c387d4bb4d8225ddfb4626c9ad7c939d2 Merge branch 'mlx5-for-net' into net-rc
+79b5cbae54e7a421251e577143f9fbe842a377e5 Merge branch 'net-rc' into queue-rc
+561053da99ee49ef38a7bc180f4e91c760478950 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5596344510917573016==--
+--===============0110150972051606951==--
