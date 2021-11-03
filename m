@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 03 Nov 2021 14:21:31 -0000
-Message-Id: <163594929188.4703.2010777262328084860@gitolite.kernel.org>
+Date: Wed, 03 Nov 2021 14:22:12 -0000
+Message-Id: <163594933218.4940.6279351079305846901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 563bcbae3ba233c275c244bfce2efe12938f5363
-    new: 5f15d392dcb4aa250a63d6f2c5adfc26c0aedc78
+    old: 5f15d392dcb4aa250a63d6f2c5adfc26c0aedc78
+    new: 92f62485b3715882cd397b0cbd80a96d179b86d6
     log: |
-         5f15d392dcb4aa250a63d6f2c5adfc26c0aedc78 net: dsa: qca8k: make sure PAD0 MAC06 exchange is disabled
+         92f62485b3715882cd397b0cbd80a96d179b86d6 net: dsa: felix: fix broken VLAN-tagged PTP under VLAN-aware bridge
          
