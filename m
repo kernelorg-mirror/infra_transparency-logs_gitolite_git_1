@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Wed, 03 Nov 2021 19:25:16 -0000
-Message-Id: <163596751632.2476.8244053238351897816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 03 Nov 2021 19:31:33 -0000
+Message-Id: <163596789364.5751.14561741600561742205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: e2947f6fd8099a8f722e7140e3cba1a6c2528883
-    new: 6e15d27aae947510efd824c7ce4bc7ea3b8a5aae
-    log: |
-         258e350ca9ebab360bc0ad5d71b1066d5e1c0d98 Update kernel headers
-         9cae1de56486ca6eb7640250e31618daccb432f4 Import amt.h
-         6e15d27aae947510efd824c7ce4bc7ea3b8a5aae ip: add AMT support
-         
   - ref: refs/heads/master
-    old: e2947f6fd8099a8f722e7140e3cba1a6c2528883
-    new: 6e15d27aae947510efd824c7ce4bc7ea3b8a5aae
+    old: 5c4e0a21fae877a7ef89be6dcc6263ec672372b8
+    new: a602285ac11b019e9ce7c3907328e9f95f4967f0
     log: |
-         258e350ca9ebab360bc0ad5d71b1066d5e1c0d98 Update kernel headers
-         9cae1de56486ca6eb7640250e31618daccb432f4 Import amt.h
-         6e15d27aae947510efd824c7ce4bc7ea3b8a5aae ip: add AMT support
+         7d613f9f72ec8f90ddefcae038fdae5adb8404b3 signal: Remove the bogus sigkill_pending in ptrace_stop
+         4f627af8e6068892cafe031df6c14e8a0aaaa426 ptrace: Remove the unnecessary arguments from arch_ptrace_stop
+         7e3c4fb7fc19bcf20657de3edb718ec1b26c7df3 exec: Check for a pending fatal signal instead of core_state
+         d67e03e361619b20c51aaef3b7dd1497617c371d exit: Factor coredump_exit_mm out of exit_mm
+         92307383082daff5df884a25df9e283efb7ef261 coredump:  Don't perform any cleanups before dumping core
+         0258b5fd7c7124b87e185a1a9322d2c66b1876b7 coredump: Limit coredumps to a single thread group
+         3f66f86bfed33dee2e9c1d0e14486915bb0750b0 per signal_struct coredumps
+         a602285ac11b019e9ce7c3907328e9f95f4967f0 Merge branch 'per_signal_struct_coredumps-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
          
