@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 03 Nov 2021 19:03:13 -0000
-Message-Id: <163596619343.20010.10754586332693610194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Wed, 03 Nov 2021 19:11:10 -0000
+Message-Id: <163596667072.25042.4648821411273892905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: c2aab532991ebfac0395785b1fb60be43b784f86
-    new: 1e6d69c7b9cd7735bbf4c6754ccbb9cce8bd8ff4
+  - ref: refs/heads/exit-cleanups-for-v5.16
+    old: ac4fdfaf4792d41ad7b24d1c8ab486aeb7ccd495
+    new: 00b06da29cf9dc633cdba87acd3f57f4df3fd5c7
     log: |
-         48d5fd06453de57f9d9385c7ebcdf3b50658a962 selftests/seccomp: Stop USER_NOTIF test if kcmp() fails
-         1e6d69c7b9cd7735bbf4c6754ccbb9cce8bd8ff4 selftests/seccomp: Report event mismatches more clearly
+         00b06da29cf9dc633cdba87acd3f57f4df3fd5c7 signal: Add SA_IMMUTABLE to ensure forced siganls do not get changed
          
