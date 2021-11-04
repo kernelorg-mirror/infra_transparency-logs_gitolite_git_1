@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6240528366562304211=="
+Content-Type: multipart/mixed; boundary="===============5919524881445904581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 04 Nov 2021 17:14:15 -0000
-Message-Id: <163604605581.22977.10598677558935587710@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 17:14:20 -0000
+Message-Id: <163604606062.23062.17949440073189730616@gitolite.kernel.org>
 
---===============6240528366562304211==
+--===============5919524881445904581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,54 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 519d81956ee277b4419c723adfb154603c2565ba
+  - ref: refs/heads/usb-next
+    old: a0548b26901f082684ad1fb3ba397d2de3a1406a
     new: 048ff8629e117d8411a787559417c781bcd78d7e
-    log: revlist-519d81956ee2-048ff8629e11.txt
+    log: revlist-a0548b26901f-048ff8629e11.txt
 
---===============6240528366562304211==
+--===============5919524881445904581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046054 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046059 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1636046054-8186cbf5e33cd83755666803059ec88897104e24
+nonce 1636046058-d19cafc16b7ecb3e3e611b431b865871b47851c7
 
-519d81956ee277b4419c723adfb154603c2565ba 048ff8629e117d8411a787559417c781bcd78d7e refs/heads/usb-linus
+a0548b26901f082684ad1fb3ba397d2de3a1406a 048ff8629e117d8411a787559417c781bcd78d7e refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFOYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zn8P/1/kHRxNuwVMocUEUSY1
-mJZD8MouxcM3lLdDiYWNJm5sxSkhcCwZKUM8F5jJpCIjLZKVy42+IS9fhE4i1PWp
-GpHc0CQSUL1YLh4ME6bdNvUb2GYThvrqF9LtTlod7mv1SJ9Cha3ebF19i/WSakK8
-SllFVj1GKl6sllnsQmWKP7KBOqGAFNOJMatCruL9+c+MkTDxchc+cemz18aJBtXZ
-YnJ26qDDuPpjlwEwFGfuqML70WaFKiKYBC1F8j6RgXO7GDDqCA3DtpnVegUaP+Js
-QfqFo/eSNWlww+IY3VCVFmjMkPwn4H+5qeJ5fvqWxMN5V29Yv/45e3744O8ubYSx
-7fav54YUs/nSvU+20sV0byXNVkey1iKp/Zd6I4FmGRwrp+1bhBU5qJcSeOXwnmKd
-8n30sbzbo06jLLjLaN3vmrJVtNwbT0ebvhw7cQND+k6yZld6Lb59eA3jEpaWfpyL
-plsMzj5RJm//k3Zn3xQsGXRoeREwSzZcYMdjtRuCdAT4MSPCCdE4t90uvfGOGUI+
-x56RAZm5tkWFGRGjrEq5LzE17PVra7xpHsgW+nTciR401UcdG+XbUN2eN2GvQbuq
-pEQdmekXo+7hbQ3xtF2JEyEKHwFhVdO8Z5zZi+loLKBKhH4W0TgI2q8MB4OqPlsg
-mCPv99Z7b8Ci78JRdU9+DPZD
-=uN4C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFOsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T7QP/1HEYocywyPbJcOF7J4G
+1/u40sLMPTy2Ww96wPPfXxxP9ZwV+z5v/SnpBudctwCJWbibaZ1hBvm/LljGNq65
+2pJ5+DkS6E54cJaWPLoIxUm9MhWcdIX8x+Z9BYk3NA8AQITESrJ6rOy4ymHE486M
+qfdNQgZisqEpniEyWHhPRsh72g/fmnoUKWczgX/mGUDveEYh1Qs9DpYhS3gxXmE7
+2I3fC5pnGwfJHMxS/GmKT2NcuuICjoRFz7hp9VUw/OxaegqvMaqScrbuZ+uYFabG
+qiSpM6q7uDDjtWvJJbDzlTIU+jOIabOrhFdFLYjpwdDYImemuNsRKZuxbAiKHxOF
+qE//+5WbUJQXWr8dw2Z4B3vu//D3mElDWpcwK2pVmF/XVrbmgzj4i3EMK2l/NQTs
+ICQ4Sf1Iian1E9aEJTrP6tFeyFN92Wn3JyH7O8vnGO2weAMxQjim4AH6Pz+uKbDK
+qQnytoODSg483Gf1/aj4yApOHTF+svAMru/jsy3VwVBPsA/nOQ/M16UXu9E/le3d
+N7iXf+GixXWKg5lszDALumvB3gyZB0l2I+n2ys98UWe/AEzr/bxXFVxzt4OBHY8h
+RC3IIh7QwPCvPYApUWQjgLAk+BQpxRNs8n7HCD82naYBijkUfT5L9t2/3tg4p8wz
+/sB5lFL2HG1d1aLnMZN36LMX
+=u1rk
 -----END PGP SIGNATURE-----
 
---===============6240528366562304211==
+--===============5919524881445904581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-048ff8629e11.txt
+Content-Disposition: attachment; filename=revlist-a0548b26901f-048ff8629e11.txt
 
+de904d80aaec5e01cf069c3418ee087829b4f119 Merge tag 'iwlwifi-next-for-kalle-2021-10-22' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+1aa3367ca78ce6c1b06726587da1a6d8aa387797 wlcore: spi: Use dev_err_probe()
+d549107305b4634c81223a853701c06bcf657bc3 libertas_tf: Fix possible memory leak in probe and disconnect
+9692151e2fe7a326bafe99836fd1f20a2cc3a049 libertas: Fix possible memory leak in probe and disconnect
+dea857700a75943017488b1d47f6687cfc037642 rtw89: fix error function parameter
+090f8a2f7b38f3a1dcf202437e5307761e8e4625 rtw89: remove duplicate register definitions
+c6477cb237048725922f6a786f68b5232abb418f rtw89: fix return value in hfc_pub_cfg_chk
 5d44f0672319c19a41ff0e0e4f0d64164cf9752b rtw89: Fix variable dereferenced before check 'sta'
 d3c6daa174ff53b61215d8e67c85d466adf57cad libertas: replace snprintf in show functions with sysfs_emit
 8a27ca39478270e07baf9c09aa0c99709769ba03 wcn36xx: Correct band/freq reporting on RX
@@ -100,15 +107,12 @@ ff2a8d91d80c548bfec1b0e998ae9b1fdc994119 arm64: apple: Add PCIe node
 e1bebf97815158f16da96f69e9d9bb891a4c69eb arm64: dts: apple: j274: Expose PCI node for the Ethernet MAC address
 671e2d745da0482dd11b9881b0806de32d8adf1d MAINTAINERS: Add pasemi i2c to ARM/APPLE MACHINE
 e081c53a5ba10041d3512f51d0e3975ac514c532 MAINTAINERS: add pinctrl-apple-gpio to ARM/APPLE MACHINE
-74f266455062c158f343bc3aa35ef84b3eb7adf1 USB: serial: ch314: use usb_control_msg_recv()
 1bb6b81029456f4e2e6727c5167f43bdfc34bee5 block: avoid extra iter advance with async iocb
 25d207dc22271c2232df2d610ce4be6e125d1de8 block: kill unused polling bits in __blkdev_direct_IO()
 e71aa913e26543768d5acaef50abe14913c6c496 block: kill DIO_MULTI_BIO
 842e39b013465a279fb60348427b9309427a29de block: add async version of bio_set_polled
-f5cfbecb0a162319464c9408420282d22ed69721 USB: serial: cp210x: use usb_control_msg_recv() and usb_control_msg_send()
 e0c60d0102a5ad3475401e1a2faa3d3623eefce4 block: Fix partition check for host-aware zoned block devices
 24a1dffbecafeb00d8830985eb7a318e37aabc4e lib/vsprintf.c: Amend static asserts for format specifier flags
-910c996335c37552ee30fcb837375b808bb4f33b USB: serial: keyspan: fix memleak on probe errors
 c17c7cc775b31ab54e8cba05f9e7b16fd32dd84f Merge tag 'asahi-soc-dt-5.16-v2' of https://github.com/AsahiLinux/linux into arm/dt
 a56c75d62c94ad0370e6466ab7a9e7694e943e39 Merge tag 'asahi-soc-maintainers-5.16-v2' of https://github.com/AsahiLinux/linux into arm/soc
 c230dc8627de832fe13bee64613a52a46c5b54ab Merge tag 'mlx5-updates-2021-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -622,7 +626,6 @@ a77725a9a3c5924e2fd4cd5b3557dd92a8e46f87 scripts/dtc: Update to upstream version
 571fb4fb78a3bf0fcadbe65eca9ca4ccee885af4 RDMA/hns: Fix initial arm_st of CQ
 0e60778efb072d47efc7100c4009b5bd97273b0b RDMA/hns: Modify the value of MAX_LP_MSG_LEN to meet hardware compatibility
 4f960393a0ee9a39469ceb7c8077ae8db665cc12 RDMA/qedr: Fix NULL deref for query_qp on the GSI QP
-c47055e943b0b71c2e719bc2d0b47e00f89becaa Merge tag 'usb-serial-5.16-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 b6a4e209fb7da1b49cb72fedb405f90e485d5a48 ASoC: codecs: tfa989x: Add support for tfa9897 RCV bit
 04567caf96e5e1150ecd6a3b3301f5aafe015ec0 RDMA/bnxt_re: Fix kernel panic when trying to access bnxt_re_stat_descs
 f48ad69097fe79d1de13c4d8fef556d4c11c5e68 selftests/bpf: Fix fclose/pclose mismatch in test_progs
@@ -720,9 +723,6 @@ ba064e4cf923326989a59da1e889f45282abb6b8 netdevsim: remove max_vfs dentry
 d269287761abc366c9fa9bda9ede87031538c5e9 bnxt_en: Remove not used other ULP define
 6d40edcf4ee16a296f06e4ede604473dbad99ebf Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 ae0393500e3b0139210749d52d22b29002c20e16 net: bridge: switchdev: fix shim definition for br_switchdev_mdb_notify
-b0d5d2a71641bb50cada708cc8fdca946a837e9a usb: gadget: udc: core: Revise comments for USB ep enable/disable
-9fff139aeb11186fd8e75860c959c86cb43ab2f6 usb: gadget: f_mass_storage: Disable eps during disconnect
-a0548b26901f082684ad1fb3ba397d2de3a1406a usb: gadget: Mark USB_FSL_QE broken on 64-bit
 fa191b711c32ba107cf8d3474cd860407b7e997a ARM: 9150/1: Fix PID_IN_CONTEXTIDR regression when THREAD_INFO_IN_TASK=y
 c1e42efacb9bb4ae873e9b1cf249fa4fb6ef7f84 ARM: 9151/1: Thumb2: avoid __builtin_thread_pointer() on Clang
 09d9e4d041876684d33f21d02bcdaea6586734f1 scsi: ufs: ufshpb: Remove HPB2.0 flows
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 7ddb58cb0ecae8e8b6181d736a87667cc9ab8389 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 048ff8629e117d8411a787559417c781bcd78d7e Merge tag 'usb-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============6240528366562304211==--
+--===============5919524881445904581==--
