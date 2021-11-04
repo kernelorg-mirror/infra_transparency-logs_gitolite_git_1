@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 04 Nov 2021 15:29:04 -0000
-Message-Id: <163603974493.22279.292506475696123139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 04 Nov 2021 15:34:44 -0000
+Message-Id: <163604008463.25411.9104431186377511437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/parisc-5.16-2
-    old: 0000000000000000000000000000000000000000
-    new: 2a2e8202c7a16a85a881ad2b6e32ccbebdc01dda
+  - ref: refs/heads/gpio/for-next
+    old: 585a07079909ba9061ddd88214c36653e1aef71a
+    new: eff5cdd745a68863a73095b0b4d62d15e0d9d902
+    log: |
+         eff5cdd745a68863a73095b0b4d62d15e0d9d902 gpio: virtio: Add IRQ support
+         
