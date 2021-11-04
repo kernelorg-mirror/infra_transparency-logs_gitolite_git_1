@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8873344123356891867=="
+Content-Type: multipart/mixed; boundary="===============0736521345696159952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 04 Nov 2021 17:22:18 -0000
-Message-Id: <163604653876.31266.5525167694621601430@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 17:22:23 -0000
+Message-Id: <163604654329.31355.9673024420239518517@gitolite.kernel.org>
 
---===============8873344123356891867==
+--===============0736521345696159952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 519d81956ee277b4419c723adfb154603c2565ba
+  - ref: refs/heads/tty-next
+    old: cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07
     new: abfecb39092029c42c79bacac3d1c96a133ff231
-    log: revlist-519d81956ee2-abfecb390920.txt
+    log: revlist-cc8d7b4aea79-abfecb390920.txt
 
---===============8873344123356891867==
+--===============0736521345696159952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046537 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046542 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1636046537-3c022dd04165d9f74057dad9fce8fca05ffc9e4d
+nonce 1636046541-b9ab7f378749a4c697b458c1633413dc1365d809
 
-519d81956ee277b4419c723adfb154603c2565ba abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/tty-linus
+cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07 abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFskbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eakP/0SLbNhPl3zaJTDzW7qx
-SLaT4qe3NolpsEyYEkNpZNqGuEeUH+lDSGwK7ZjmsuhAwsDhtY8qpTfpW9sEmmMT
-go3SXxFouYZXNqMxt3+aTcLK37iKeG7iTZzVJvr1EkTstWTK4HfNal2ZnPUNEqet
-Ul5rrmQGHg5BbLhzpnYid4U0k8cFhW1hZCkK1f35ch5Z3c2mo+8e91GmBgWb8n4C
-ANB7HhRmCdd0xjKoazXshcwwkpHNeq58X8mYXinD9lpzRHDpRhIGMgRY89pd1z0W
-8ZRi7OMD22icK/Sx4ebVJdmbBXl2FRx64gdfblPrV/zjl8qLS8shgzG0p8sDruRg
-dJ4k+nXCemQRynAjn2G1ZZFfK36hnr1ponLWJWjpefuw5PBGTasz8oUjhdQGd7Rk
-GiopMW4bcjgFGl12GI4S6IrW5H+3IuwkdkCf2dBQFv8/7hwqQjz3ZYQ9rJ2Aqz/W
-82F2DSf+pj0osVYvDovWRS5c6umIwtPEQ05Q7ITrjEyXSZ3unp7hVtu2LZFY0x9t
-5JbSiGqzg7wYv0Y9iZfF6EH0WLyGR+O1gGLGdM5ijZ1a4tIdftgjQnBNjWrMn985
-BfmD28q1S6emsWEXx6wjRz78EeLqf75HxmKSSZHvRsdN3VW2IuwDbhlgatAbklXy
-T3U4F+dQx6HP8ITzTpmQyQlr
-=n1jH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFs4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kHYQAJbqdorIe3Xzbsmc+T7R
+mHEaSKO2eS3a8fGGk3I/1PdVCgMp5zrXPvEVteBKoM4bNR2d2iaxvuHXgvA6CrrV
+Q0xz14EUYXlEeivh3qJdzOf82TElFUX47didXcW7sJUIUPZlzw61WXYLT+8pYmGW
+vQ3EyXD8W6fdlhD26bwnFi6o4EzQ3vSSrYQPG++WYAWqFzRgAM1XQ8hjN4scJWsZ
+fWWh9AYiGEnWq5ppJx+zY0Nw9358iQ1Ct1me9md1XrQMqsf6RQ4xOuru1aSBSBhC
+puH0XP75JbXGODl4+QRlU/0l/Zr3kT4kuH+xE4+v/J8A6316ZCRi0/8TWR7r3nxP
+ksLQogETMAOIT59VO1sTrBiyVGA1ue7l7U7QyfcAVI6a96MaYOvlxkKnR2dxq7nn
+2vlF2LGsRzSQ0iffaUdd3dj7fyMSSXMdNlWvH/0catE1Ig98hjiM47S1/AQ79ZPT
+TlMCUrsBKU39YLIjM/tXC/nj+N/ZC6gnFklyqSBWenttyni9YpN3MP6zjDxz8/ZU
+bDzMBos4P1gx98Z3Sic/7mbPLlqiPYflKoTR0b+z3YuvPwHrlO5K3hfTP9RxIP8T
+AFL7eqP6FGoCZIwAey+M8psIUIQQ/AWHpsDcgYikWkOieEquSbT7v1MqAJYjkqxy
+jiYWYwx9i570YmkwT3kZ9G7v
+=2Tjo
 -----END PGP SIGNATURE-----
 
---===============8873344123356891867==
+--===============0736521345696159952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-abfecb390920.txt
+Content-Disposition: attachment; filename=revlist-cc8d7b4aea79-abfecb390920.txt
 
+24a1dffbecafeb00d8830985eb7a318e37aabc4e lib/vsprintf.c: Amend static asserts for format specifier flags
+910c996335c37552ee30fcb837375b808bb4f33b USB: serial: keyspan: fix memleak on probe errors
 c17c7cc775b31ab54e8cba05f9e7b16fd32dd84f Merge tag 'asahi-soc-dt-5.16-v2' of https://github.com/AsahiLinux/linux into arm/dt
 a56c75d62c94ad0370e6466ab7a9e7694e943e39 Merge tag 'asahi-soc-maintainers-5.16-v2' of https://github.com/AsahiLinux/linux into arm/soc
 c230dc8627de832fe13bee64613a52a46c5b54ab Merge tag 'mlx5-updates-2021-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -711,8 +713,6 @@ ae0393500e3b0139210749d52d22b29002c20e16 net: bridge: switchdev: fix shim defini
 b0d5d2a71641bb50cada708cc8fdca946a837e9a usb: gadget: udc: core: Revise comments for USB ep enable/disable
 9fff139aeb11186fd8e75860c959c86cb43ab2f6 usb: gadget: f_mass_storage: Disable eps during disconnect
 a0548b26901f082684ad1fb3ba397d2de3a1406a usb: gadget: Mark USB_FSL_QE broken on 64-bit
-d142585bceb3218ad432ed0fcd5be9d6e3cd9052 serial: cpm_uart: Protect udbg definitions by CONFIG_SERIAL_CPM_CONSOLE
-cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07 tty: Fix extra "not" in TTY_DRIVER_REAL_RAW description
 68264c4609ea74fc175d0ccc968ba16b0847ac2a staging: r8188eu: fix missing unlock in rtw_resume()
 bdcfac6ab6c9362c45959fdc91c730ecc2c18f7e staging: fieldbus: anybus: reframe comment to avoid warning
 d8a364820e01b6abd9ae5dea1fc18f7f5b1a1450 staging: vchiq_core: get rid of typedef
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 95faf6ba654dd334617f347023e65b06d791c4a6 Merge tag 'driver-core-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 abfecb39092029c42c79bacac3d1c96a133ff231 Merge tag 'tty-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============8873344123356891867==--
+--===============0736521345696159952==--
