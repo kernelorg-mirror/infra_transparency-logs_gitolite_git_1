@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 04 Nov 2021 09:47:52 -0000
-Message-Id: <163601927231.4026.15694974943336279717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/vfs
+Date: Thu, 04 Nov 2021 10:05:00 -0000
+Message-Id: <163602030087.14595.9123899898193448504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mszeredi/vfs
+user: mszeredi
 changes:
-  - ref: refs/heads/master
-    old: a74bd833a6917a3f0151ff0773502f055b3490d1
-    new: b0a360c0d07b0c34821250e0c3ca0ef337e2d5de
+  - ref: refs/heads/overlayfs-next
+    old: 9a254403760041528bc8f69fe2f5e1ef86950991
+    new: 1f5573cfe7a7056e80a92c7a037a3e69f3a13d1c
     log: |
-         b0a360c0d07b0c34821250e0c3ca0ef337e2d5de Thu Nov  4 09:44:04 AM UTC 2021
+         1f5573cfe7a7056e80a92c7a037a3e69f3a13d1c ovl: fix warning in ovl_create_real()
          
