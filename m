@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0405052141532190988=="
+Content-Type: multipart/mixed; boundary="===============3344256450102534843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 04 Nov 2021 17:17:20 -0000
-Message-Id: <163604624094.25656.13235086324127481133@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 17:17:26 -0000
+Message-Id: <163604624640.25722.17064961578154913150@gitolite.kernel.org>
 
---===============0405052141532190988==
+--===============3344256450102534843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,87 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 519d81956ee277b4419c723adfb154603c2565ba
+  - ref: refs/heads/char-misc-next
+    old: 536de747bc48262225889a533db6650731ab25d3
     new: abfecb39092029c42c79bacac3d1c96a133ff231
-    log: revlist-519d81956ee2-abfecb390920.txt
+    log: revlist-536de747bc48-abfecb390920.txt
 
---===============0405052141532190988==
+--===============3344256450102534843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046239 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046245 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1636046239-07caad8791dc5fcf44d22e6bf7017425807464ef
+nonce 1636046243-af55c890d5347c6c508e3ba82259bd2f3e59da9d
 
-519d81956ee277b4419c723adfb154603c2565ba abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/char-misc-linus
+536de747bc48262225889a533db6650731ab25d3 abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFZ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rX4QAJgfoFyv7jMt8iKpgoUm
-0iFMklFMxtJGyFIww6zGpNkrKqgEstoBHg8sm6ydxLZZecSwINBSBKLjasdZyr3I
-KM1DSKCq3vBU75F1hNVGhaWvh3bbZlN3D7gkUnQnIBc7prBV4B4qUFxUuDI3bosl
-rgoTkdu9uzIqDAfR/g2e/tSZPSc9Uc5b3OfADn0Ptc3sqVj1Yb9wJcIZVV9I7W8N
-Iowsn7OieuhzUwmogENnbrymJBUIz9lG5P+CQKAncwSFoRaTHPFnKG4WtFfDzDh1
-21HLygngMeAMbJqtJS0Es6W+yJ0Hd10Iu/hOrxdYN2NOxFuKs/ddFd+NJJGu7HFc
-f1cz/5xx1MnfjlWDRiW/u5EtZ+Q9a3mHVuCtGpXSvOjd/n1/dXIqe1V7OrrtYpq9
-CxJ1iiUYrBGlwj246owcFiliDv5j+CZTJbufFQjXf5T9A73VBxeJV7lvP1knlYg9
-8AO0aH/h4YdmsV8ol9ks/5ekYBWRK+VqHkOkrFjJnRwpbTflhuxtUJGEzWK1FMKJ
-ymjs5vOiQBgvLePmze6W0ovFVe18Lh8ukobyRFpbGYn/Tp2VU9igN0U2G0LTj1k4
-4SaxrElPTZe3rIxG2gUMGCpJpwLNWg52pFoY6Bbzl2v7GaIl8KqOluIeuXw7fxry
-0fYgIZOOfo7pSgaCb69sArTg
-=mD4l
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HEgP/R39IDtz+VNYXXTWJTE+
+jKjKuUmVjOc5YssCSyFpn/BrqF347ML4srbKa0qt5c7vHzxMF+Okal2An6hUoEGo
+yYcbLLdD4ety0xFrYy1CybliKPAui1ufHNjLK/OAlmo49Gw0NrMej4NbG+tLf+j+
+gMhSJDIh8INq/ZtHqyAc2nxp5FBBesy03bitkRtiN9vHzQ/5UtatL4bN7vrH7Ww7
+54Y6awq8mI90UPcoQHiVdDQ7HVm2FqQjS6SvJB+Ay/M3ld814S7GPVFTuDj9mitw
++ytQJlvjjOqvvIbZ2l0rKp6ei06tuflHrY6MtRTg7R9pvFmETtnXpMS99KzryALe
+WUTLEzAnu9se1UrBbBJeC0ulamWSuINw2z6Gb/c4InR0mrncowtG43+ho3pheVbt
+LQEx9eyetgX5FgI4MlVia6BQTmpdkhi51nb0KpGcxhIYzZY7FWFXmUuyhahqkTON
+ugy4X5HjzJ0781EbZqNaHiTCcGa4aaBYogBBBN9SlE4HB5j2THGqZDoa00fkobDe
+88ISQDzbubdFz1H3x2eBieotieYX3gQUknok15BjTQlznCJK6yKVvv70z8xkqh6q
+8UvQK8X8WGxxqQaueZecC45My54ESI1rGg6/sl46Bov8NcrfXTstVSPkjzwXdt7z
+SPVc99x1u3vmNUWxK/v2iKwl
+=U+1o
 -----END PGP SIGNATURE-----
 
---===============0405052141532190988==
+--===============3344256450102534843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-abfecb390920.txt
+Content-Disposition: attachment; filename=revlist-536de747bc48-abfecb390920.txt
 
+3a60f6537c9adf0828bf1dd868c59f659395257e Revert "btrfs: compression: drop kmap/kunmap from generic helpers"
+a54c401ae66fc78f3f0002938b3465ebd6379009 x86/tools/relocs: Support >64K section headers
+0d054d4e82072bcfd5eb961536b09a9b3f5613fb x86/boot: Allow a "silent" kaslr random byte fetch
+33f98a9798f55fd77c36ce79d8cfa5329e55a789 x86/boot/compressed: Avoid duplicate malloc() implementations
+ca136cac37eb51649d52d5bc4271c55e30ed354c vmlinux.lds.h: Have ORC lookup cover entire _etext - _stext
+5d03907bbf9ccf10e0d2cfb4f4d312b7cc4274f4 ASoC: meson: t9015: Add missing AVDD-supply property
+1baad7dad115ea3976fb5e5d0e3f3bec83dfd7ca ASoC: topology: handle endianness warning
+49ba5e936e1512d4c7812d433048f8909234fca0 ASoC: rt5682s: use 'static' qualifier
+765e08bdc7faa44b13bf96df4663a580d68a1c49 ASoC: nau8821: fix kernel-doc
+46ae0b3f554a323322a770c0edee50aa8019a655 ASoC: nau8821: clarify out-of-bounds check
+33fb790fcc02a717c1cac90958f203f06da14f7e ASoC: mediatek: remove unnecessary initialization
+73983ad922764e747d40b486ec7c2526e0355db1 ASoC: mediatek: mt8195: rename shadowed array
+439c06f341aa1f09ad7def774998db1076946c98 ASoC: mediatek: mt8195: fix return value
+f913582190ddfe2380ecf8ee87b4ff2c8dcb5d48 ASoC: rockchip: i2s_tdm: improve return value handling
+8af1f903391419809160aef3dac0641fa15680f5 ASoC: dt-bindings: max98520: add initial bindings
+f88ee76b8645c6da37eec79cfd45f2cc646bd01a ASoC: max98520: add max98520 audio amplifier driver
+fdde18b9773636cc5866ccd8f2093e1cf0022dea ASoC: amd: acp: Fix return value check in acp_machine_select()
+63ff4c50ac5667f697799d780c0fe7b74585e28b ASoC: Intel: soc-acpi: add entry for ESSX8336 on JSL
+e954af1343f6334bf7e081f2631cc2902d07a0ee spi: fsi: Fix contention in the FSI2SPI engine
+c666d447e091be3a742588b49290e7733115769f test_printf: Make pft array const
+a25a0854a2264a0c592ba1ea01a165101f8c1a6c test_printf: Remove separate page_flags variable
+5b358b0de963f822226bfee916fb53c80bae4000 test_printf: Remove custom appending of '|'
+507f98603607d43cb76ed39c370c4dc1ed6a94f9 test_printf: Append strings more efficiently
+23efd0804c0a869dfb1e78470f80a27251317b7e vsprintf: Make %pGp print the hex value
+0a8282b831196b777bbad5f007d66f698421f71e arm64: apple: Add pinctrl nodes
+ff2a8d91d80c548bfec1b0e998ae9b1fdc994119 arm64: apple: Add PCIe node
+3c866bb79577ed26768680a18fb09903150c6a4f arm64: dts: apple: t8103: Add PCIe DARTs
+128888a6fdb6959862b1871546e335b6689300da arm64: dts: apple: t8103: Add root port interrupt routing
+e1bebf97815158f16da96f69e9d9bb891a4c69eb arm64: dts: apple: j274: Expose PCI node for the Ethernet MAC address
+671e2d745da0482dd11b9881b0806de32d8adf1d MAINTAINERS: Add pasemi i2c to ARM/APPLE MACHINE
+e081c53a5ba10041d3512f51d0e3975ac514c532 MAINTAINERS: add pinctrl-apple-gpio to ARM/APPLE MACHINE
+74f266455062c158f343bc3aa35ef84b3eb7adf1 USB: serial: ch314: use usb_control_msg_recv()
+1bb6b81029456f4e2e6727c5167f43bdfc34bee5 block: avoid extra iter advance with async iocb
+25d207dc22271c2232df2d610ce4be6e125d1de8 block: kill unused polling bits in __blkdev_direct_IO()
+e71aa913e26543768d5acaef50abe14913c6c496 block: kill DIO_MULTI_BIO
+842e39b013465a279fb60348427b9309427a29de block: add async version of bio_set_polled
+f5cfbecb0a162319464c9408420282d22ed69721 USB: serial: cp210x: use usb_control_msg_recv() and usb_control_msg_send()
+e0c60d0102a5ad3475401e1a2faa3d3623eefce4 block: Fix partition check for host-aware zoned block devices
+24a1dffbecafeb00d8830985eb7a318e37aabc4e lib/vsprintf.c: Amend static asserts for format specifier flags
+910c996335c37552ee30fcb837375b808bb4f33b USB: serial: keyspan: fix memleak on probe errors
 c17c7cc775b31ab54e8cba05f9e7b16fd32dd84f Merge tag 'asahi-soc-dt-5.16-v2' of https://github.com/AsahiLinux/linux into arm/dt
 a56c75d62c94ad0370e6466ab7a9e7694e943e39 Merge tag 'asahi-soc-maintainers-5.16-v2' of https://github.com/AsahiLinux/linux into arm/soc
 c230dc8627de832fe13bee64613a52a46c5b54ab Merge tag 'mlx5-updates-2021-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -96,13 +136,11 @@ d411e370978fcbf2135a51b43e9acabc879b304b platform/x86: hp-wmi: rename platform_p
 fe6134f66906dfa16d4877cab60106275f48eef7 block: pass in blk_mq_tags to blk_mq_rq_ctx_init()
 92aff191cc5b15a56d10a7a1a0b4bc5f6e17fcf3 block: prefetch request to be initialized
 c7b84d4226adaa601e9f73574ef123d1500cf712 block: re-flow blk_mq_rq_ctx_init()
-db788e6bf66d4bb466b1499e71d9f467b25a4e61 Merge tag 'extcon-next-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 709d297503e64ec3804b3b8150628656db164d4b ASoC: rt5682-i2c: Use devm_clk_get_optional for optional clock
 192cf41fefad0d5ac11e426038b24210ec0cca0d Merge series "ASoC: minor cleanup of warnings" from Pierre-Louis Bossart <pierre-louis.bossart@linux.intel.com>:
 4bff619222a75ed1a51f6d94de9146b8ed5733d1 Merge series "Make genaral and simple for new sof machine driver" from David Lin <CTLIN0@nuvoton.com>:
 9b0971ca7fc75daca80c0bb6c02e96059daea90a KVM: SEV-ES: fix another issue with string I/O VMGEXITs
 1dcc81d95b910dc404c40ff6101bfa2520a3528e ASoC: amd: acp: fix Kconfig dependencies
-27182be962006916ed3d43f65b4ff88d2851dadd Merge tag 'phy-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 afe8ca110cf4c99dee7b31473eacb56b72944df4 Merge tag 'mac80211-for-net-2021-10-27' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
 ce5e48036c9e76a2a5bd4d9079eac273087a533a ftrace: disable preemption when recursion locked
 d33cc657372366a8959f099c619a208b4c5dc664 ftrace: do CPU checking after preemption disabled
@@ -116,42 +154,7 @@ ab2aa486f48c79b0c9df77e3827922d29c60df0c Merge tag 'for-linus' of git://git.kern
 1fc596a56b334f4d593a2b49e5ff55af6aaa0816 Merge tag 'trace-v5.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 1bfaa49abf077864f11a8f3ae03d1a02550b95b7 dt-bindings: hwmon: Add nct7802 bindings
 0e346a86a51debe23755dae3b89957c1ba8ffbfd hwmon: (nct7802) Make temperature/voltage sensors configurable
-692c9a499b286ea478f41b23a91fe3873b9e1326 coresight: cti: Correct the parameter for pm_runtime_put
-204879e6990d2a57d7a6e26792cec34f97a63c0e coresight: cpu-debug: Control default behavior via Kconfig
-0ab47f8079f27edc44ea0bcc67078561bcfdf542 dt-bindings: coresight: Add burst size for TMC
-4d5d88baa6c838bf92ed6a63c50dd3167c5a4956 coresight: tmc: Configure AXI write burst size
-26701ceb4c2c6bfa5f8c8984fa1a1ea08fa0f02c coresight: tmc-etr: Add barrier after updating AUX ring buffer
-bd8d06886d0a9b59d020fdb2496c76db77816768 coresight: tmc-etf: Add comment for store ordering
-f36dec8da1a4a083c51e4d2297985d3648b6740f coresight: tmc-etr: Use perf_output_handle::head for AUX ring buffer
-7ba7ae1d5a4737ebea582526ada9d79c74dfd75d coresight: Update comments for removing cs_etm_find_snapshot()
-0abd076217a39c4abc47dcd84d0c8f491f87cbe7 coresight: tmc-etr: Speed up for bounce buffer in flat mode
 f4cbba74c3ec481af882c1057f911c237a5d37d5 hwmon: (nct6775) add ProArt X570-CREATOR WIFI.
-8c60acbcb982bfff14d1e85094474671c4f3d006 coresight: Don't immediately close events that are run on invalid CPU/sink combos
-937d3f58cacf377cab7c32e475e1ffa91d611dce coresight: etm4x: Save restore TRFCR_EL1
-5f6fd1aa8cc147b111af1a833574487a87237dc0 coresight: etm4x: Use Trace Filtering controls dynamically
-2ef43054bb26cd3df53a32f50d7eea796a578931 coresight: etm-pmu: Ensure the AUX handle is valid
-5bd9ff830c8728bf6a532ff893b73e7afae007f1 coresight: trbe: Ensure the format flag is always set
-acee3ef86d5cfda094fa9806935aee45833444e3 coresight: trbe: Drop duplicate TRUNCATE flags
-04a37a174e5697d90c129c286bdb6bbcb516058f coresight: trbe: Unify the enabling sequence
-85fb92353e0dece18048bdb35c7e6b682129deff coresight: trbe: irq handler: Do not disable TRBE if no action is needed
-7037a39d379733f5352af5e04a202dad35562ef3 coresight: trbe: Fix handling of spurious interrupts
-0a5f355633eaacb7300598d96e8013a401a02c5e coresight: trbe: Do not truncate buffer on IRQ
-9bef9d0850a024a07f46d13828c05becf03eb79f coresight: trbe: End the AUX handle on truncation
-dcfecfa444b12546c028e0f5a66255347a78cbd2 coresight: trbe: Prohibit trace before disabling TRBE
-0605b89d0597f326aba3f70d0574750368a9fbe0 coresight: etm4x: Add ETM PID for Kryo-5XX
-bb5293e334af51b19b62d8bef1852ea13e935e9b coresight: trbe: Fix incorrect access of the sink specific data
-a08025b3fe56185290a1ea476581f03ca733f967 coresight: trbe: Defer the probe on offline CPUs
-41c0e5b7a35392c90a467a9a085178642a131324 coresight: trbe: Add a helper to calculate the trace generated
-4585481af322e3ae53dfb78e3ec046ddfdf8902a coresight: trbe: Add a helper to pad a given buffer area
-2336a7b29b5826a9cd15c39818ded665f88d2e5b coresight: trbe: Decouple buffer base from the hardware base
-e4bc8829a748c61ab07617b41da5d071b060126e coresight: trbe: Allow driver to choose a different alignment
-8a1065127d952e22a95ccf1c4b84e733f656bb2c coresight: trbe: Add infrastructure for Errata handling
-5cb75f18800bac3c4bfc46f28d3d42d87439d9e2 coresight: trbe: Workaround TRBE errata overwrite in FILL mode
-7c2cc5e26cc0c6bc2478ac203e3fe71950418ea0 coresight: trbe: Add a helper to determine the minimum buffer size
-adf35d058617c94810c03628efd7ae7821f3c5e7 coresight: trbe: Make sure we have enough space
-f9efc79d0ab9b780bf74c624616bd50c6cefdeeb coresight: trbe: Work around write to out of range
-74b2740f57cc161297b800ecb0e1e549d13c3bb9 arm64: errata: Enable workaround for TRBE overwrite in FILL mode
-561ced0bb90a4be298b7db5fb54f29731d74a3f6 arm64: errata: Enable TRBE workaround for write to out-of-range address
 689624f037ce219d42312534eff4dc470b54dec4 libbpf: Deprecate bpf_objects_list
 f941eadd8d6d4ee2f8c9aeab8e1da5e647533a7d bpf: Avoid races in __bpf_prog_run() for 32bit arches
 d979617aa84d96acca44c2f5778892b4565e322f bpf: Fixes possible race in update_prog_stats() for 32bit arches
@@ -705,9 +708,6 @@ ba064e4cf923326989a59da1e889f45282abb6b8 netdevsim: remove max_vfs dentry
 d269287761abc366c9fa9bda9ede87031538c5e9 bnxt_en: Remove not used other ULP define
 6d40edcf4ee16a296f06e4ede604473dbad99ebf Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 ae0393500e3b0139210749d52d22b29002c20e16 net: bridge: switchdev: fix shim definition for br_switchdev_mdb_notify
-28eb3b363df76cb5fdffc5ef0498ca7dcedea4e7 Merge tag 'coresight-next-v5.16.v3' of gitolite.kernel.org:pub/scm/linux/kernel/git/coresight/linux into char-misc-next
-907767da8f3a925b060c740e0b5c92ea7dbec440 comedi: ni_usb6501: fix NULL-deref in command paths
-536de747bc48262225889a533db6650731ab25d3 comedi: dt9812: fix DMA buffers on stack
 b0d5d2a71641bb50cada708cc8fdca946a837e9a usb: gadget: udc: core: Revise comments for USB ep enable/disable
 9fff139aeb11186fd8e75860c959c86cb43ab2f6 usb: gadget: f_mass_storage: Disable eps during disconnect
 a0548b26901f082684ad1fb3ba397d2de3a1406a usb: gadget: Mark USB_FSL_QE broken on 64-bit
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 95faf6ba654dd334617f347023e65b06d791c4a6 Merge tag 'driver-core-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 abfecb39092029c42c79bacac3d1c96a133ff231 Merge tag 'tty-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============0405052141532190988==--
+--===============3344256450102534843==--
