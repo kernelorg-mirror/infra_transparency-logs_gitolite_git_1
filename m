@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4803125185268841053=="
+Content-Type: multipart/mixed; boundary="===============5120314925051482017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 04 Nov 2021 17:21:56 -0000
-Message-Id: <163604651615.30859.13131265605745014434@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 17:22:00 -0000
+Message-Id: <163604652026.30995.7922172836209818238@gitolite.kernel.org>
 
---===============4803125185268841053==
+--===============5120314925051482017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 10508ae08ed8ce8794785194ad7309f1437d43fd
     new: abfecb39092029c42c79bacac3d1c96a133ff231
     log: revlist-10508ae08ed8-abfecb390920.txt
 
---===============4803125185268841053==
+--===============5120314925051482017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046515 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046519 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636046514-dfd96799769cddb0a70055cd3d831022c6d2455c
+nonce 1636046518-f51990a0266296b0930ae825db0f4ffc687bda9c
 
-10508ae08ed8ce8794785194ad7309f1437d43fd abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/staging-next
+10508ae08ed8ce8794785194ad7309f1437d43fd abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFrMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HR8QAMbqOMHkEw9EBc1MvM+D
-wDfFGOmYyN5gFSqAC/wBt1vu781WlSoptSYvpvbOYAhHo0g6Vl/VFGPvb3c+0XYX
-513uX9DRW6VXUK9hVEsEGZxFw8brVi/H9lGor+vmZeY0KgtNLXLIAiEOKLom+ghs
-0J0LzT8Nc82vRuB+KGMQBwOdNIY6hO7DwoUDJYaArOkfL8r54cYoRRuW32aQ3rQr
-G9zUa6TJ7mshND5Z65TUiKxYr9EY66cn3qWKimDeRIHh1Mi0ZG7+BnEmBl1YgfXx
-N/5rzBjex0Epl7E5bLg8GSQBV4Z9taIc37BtkivBlkOrMdMRj2PsZCInL2g4ZJSi
-kj/CnEqn7giXdDBRQAHCLifqdNieHSQnnUDEcxBcDj/rD6Ufa8qJoy/fY2y0q4wl
-Bnf82ojWKFOh0olaB8mmS36YP3opjRjwLdxogdzh4BOjNDwsYE+QF6OJmGcDfN9Y
-lIlQz7DXQcf7tFausPfWm1JPwzOBSB0EhGoqndvhVuqGue7sxMZ/JnbuSIP0c1HO
-F25viUOy85P9tg+7m6ndPyyTeU6gqf+GTbYPlKfHHiyjsJL8ylQTyLb4oV2OZ++5
-VYZiwwyLlewILsnF9nJCU3hTO/wDPlTBbwWfF+zUtw7AgQpaWB/Hr/6PIUztdXKi
-N/IZ+d+C6560XxNWUtq9ykbr
-=9hzH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFrcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BZkP/RoOS5DI6/qB6pAKCvOH
+P1UlKL/zEppoFvqiSHjqkWMdtSUB30e2R9G5bjt7uoDeod5ajcieK90o7D57jgUl
+3lMl3NBZRmOLtduF0y23PZoPk5yYFsAZRm2nYz/3CDN7oIZ5C1ZKZzDOZ5zUIvoZ
+zsHs6GKVYeAqA9qI+6Z0S/roAXOAvOGjoI2BKb+4NX6KpFajnV615hZUJhXoDwKE
+VEbik/kRnxUvC2aYJ7nJVLA2ILlBGKK+qTaH/oJ4xRAIhCB+JqKb1/fZTtYmmdOc
+OO33oM2VBtsWnL2qcNOdXQ2I60kAVYp+/TkLu008FBzT31++Ix0Ofn4yGweaKwTD
+ltX0Ev9Nwm4I4Xs2mgoj3jYu54nMHNYZFz8K598U415n6vF+/DJFfzGi9W0DC8Di
+SEX8WQxd5y7ienNN+71Pf0KE1l3zUthlCFlzZTKKTetIWy0cF4rJDLSnyueq0k3p
+UOM5rMgZwUugnigAdGaYNxuPefFf/Mc8BgsiX41L60ukfz5AyRLbnSGwhVNedCnF
+gJcXdIw3wGwHLPpcZqZfR5nu3xKOoGAQ1o3oOpm1X3qG9GT3BI71VqQM52qVP9Md
+CgazYsPeKzkablfKUCG6MlpgO1Y0BeOXWRvtW2yBPdm18tj0eLqyqaubC2Hn6ghQ
+5l91GH83vPirxSu2sCtU1v2J
+=2Ty/
 -----END PGP SIGNATURE-----
 
---===============4803125185268841053==
+--===============5120314925051482017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 95faf6ba654dd334617f347023e65b06d791c4a6 Merge tag 'driver-core-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 abfecb39092029c42c79bacac3d1c96a133ff231 Merge tag 'tty-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============4803125185268841053==--
+--===============5120314925051482017==--
