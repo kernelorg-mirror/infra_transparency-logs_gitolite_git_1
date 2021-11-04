@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1351307134828044968=="
+Content-Type: multipart/mixed; boundary="===============2887427610116042309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 04 Nov 2021 14:12:00 -0000
-Message-Id: <163603512009.6051.13953712393295562748@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 14:12:01 -0000
+Message-Id: <163603512169.6135.4380870448749286705@gitolite.kernel.org>
 
---===============1351307134828044968==
+--===============2887427610116042309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,48 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 59d4178b517472a1f023886baded2191458a76b5
-    new: c1043f1153b5b1861ff2362bbd718badf6eee7d2
+  - ref: refs/heads/linux-4.19.y
+    old: a027d43cf3f2fdaabf467b4bcb92d0fe748c2eaf
+    new: afcee5295c1e9b8651e30edeac3014a1049f15c1
     log: |
-         add4e17d66b7726d33e806f2e168e5eedfd370a8 scsi: core: Put LLD module refcnt after SCSI device is released
-         51f3e55f1ff4fe2f3fd3ab676fb42556336b1cbf mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         f13351632c1e4c16822880a0080d43fa6667cf82 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         b8dd0db40429ba7a5a634425a142aa72f3006318 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         c1043f1153b5b1861ff2362bbd718badf6eee7d2 Linux 4.9.290-rc1
+         66f51aa26482c104b312f58f4e64d6ec7578f133 scsi: core: Put LLD module refcnt after SCSI device is released
+         859dbca4e0df657bc16761bf6497d760722e8b48 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         dab4b7d858ebb8fefb47cd8fefa9c899550131fe IB/qib: Use struct_size() helper
+         1d75e8d3b68df0e14f64842f750b94064c028676 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         23fa004c5b96aa5699f9c7f0b9dadc20be0db1a6 sfc: Fix reading non-legacy supported link modes
+         55a6075fe08fa80e68ff6ee19410bc526cb90473 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         12330d4485c9423894d58932bca1f910bd6e2f1f ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         afcee5295c1e9b8651e30edeac3014a1049f15c1 Linux 4.19.216-rc1
          
 
---===============1351307134828044968==
+--===============2887427610116042309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636035118 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636035120 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1636035118-9ca0f736dd249ee649e736a87a874d46dc6e3a2c
+nonce 1636035119-f4503f7b58e84824bd36eac4ed83037dada7ef46
 
-59d4178b517472a1f023886baded2191458a76b5 c1043f1153b5b1861ff2362bbd718badf6eee7d2 refs/heads/linux-4.9.y
+a027d43cf3f2fdaabf467b4bcb92d0fe748c2eaf afcee5295c1e9b8651e30edeac3014a1049f15c1 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGD6i4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0I4P/3GlD2qmowgRGTiTr1OH
-20CXAj+WzFEHn2uXfaVm5rkl7IQpdCxz9bY+Ll+6SvYrWBo1+5kdvm+jye9Kh6FD
-vMoBcMkH9TwfzJmw1vH5mzR5G0nlqYe4KeLsBMsZkwNl1qThlQ8SEtMWrS234Y4w
-lzlC7GkL0IbOC76AGZdY0im8kYlIZCy7r4WUDifHXwqmwp3zchWMZcmYAcWcjjZn
-j+YWAxjzFYglTfKBZm3PiaqSq3vFydYeikUKDL6apxF3OPwewp7P8RD8xqGGwGjY
-gzbGsmMG/nLJ2IvXKTyMZyhBSEQ3WK+nNpjL38wD+joUsmuI2Xy98C7rkEsLKzDF
-rTw7IOR7ENVtZhvXugi42lBe2CAWKv4dBO+qfWf7b9Ck9SNUoi+QM0GWjl+L5FCC
-TQ5MlNx4NNK90FfDczsQSKH9Qi+HarzOSNmKDPDIP2hftYZl+Uh7YONI9KZ1ATHq
-GL+I4g4nKB22m7k7MQdDS5C10YSJKsNpBIBkkz5EdavzwAxcb7GTrJZUhKdOYOYv
-6RJdUiuvWQTPv0iDdYIHTxqLZKPWex2j0JhlrWmJWhiSb7K4NrpSEMzRLbLTBf5D
-Md/fvr7lNxlXrnxTd/6abaD6d57MPTyXlg2FHx4dpTHsGL3Bisr7m1e+DKVfeiSg
-JGwvBoQlNE4LZHQfezKDxE8p
-=26/E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGD6jAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++PQP/2fHeQHm8l1wxTYUi1/o
+u1ZrZPjcqMv4Te7shH2zntLrDezO4qndGfbwWQoKQnchO36QAisjZ3O4HC3sTAqm
+MK8Ibv6tadYqQivEd0HPNiDmZfqfTNDKkHcU0Zex1VNQXEiiGW0IrWknJJ5R10HM
+UiANNoyP9b7W3GHShqk4HnnK5KZFIN3o2ikDSKIGbjNtVy3yd3MPMt3WQTLqyyJD
+2vpde9j+Gy1sQNV80IkaRE3fmfJYOsXKs8trx1hE4WzQbPE7QqghxnZGJn8GwWCL
+DPc1zgOpk2mvitTKpSbE+pztiXbUpG+7DW1+uNj1FPGgnXhbYopkb1IyxfUpw4jX
+Ag0E82gp+H2zgZNoxDbrGt9cRyQ7PqKbu6mXImb1XHtu8eELB3B00dfJ/jmWmnTd
+NsCjixSaw6e64u3UAdp68cvrY7zQ1my8wfYJW6j7Mk/DRaxm1ebAghoMIJVrNyOj
+HbX9X8wa8Wd9xaoU0L4195tGWZJ3uygQCDK5SOeUbQBCNdyZ1IU3VSYSDgocVMvp
+mMI09WxbQyk1MruHFIJAqnKoBcIZ4LuySteVRNTCnPADr93mq5KIdSojMdSxbavl
+e80D7djYKDuy9FRWn6SoltTcwHRkTcuTnCo91WKZpBLRkNcy9YKnIVMXNwzIAusp
+EaEqOuc9MAFje2L/f6ZB81uk
+=B0+x
 -----END PGP SIGNATURE-----
 
---===============1351307134828044968==--
+--===============2887427610116042309==--
