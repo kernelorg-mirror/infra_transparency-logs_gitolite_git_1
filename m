@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 04 Nov 2021 15:25:39 -0000
-Message-Id: <163603953983.21250.12265281533596077460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 04 Nov 2021 15:29:04 -0000
+Message-Id: <163603974493.22279.292506475696123139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: c08455dec5acf4668f5d1eb099f7fedb29f2de5f
-    new: a38bc45a08e9759f04d61669f45941d6624d173c
-    log: |
-         a38bc45a08e9759f04d61669f45941d6624d173c selftests/net: Fix reuseport_bpf_numa by skipping unavailable nodes
-         
+  - ref: refs/heads/parisc-5.16-2
+    old: 0000000000000000000000000000000000000000
+    new: 2a2e8202c7a16a85a881ad2b6e32ccbebdc01dda
