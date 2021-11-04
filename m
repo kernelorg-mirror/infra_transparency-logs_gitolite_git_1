@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
-Date: Thu, 04 Nov 2021 23:43:16 -0000
-Message-Id: <163606939691.8492.8552107713388084440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Nov 2021 23:51:15 -0000
+Message-Id: <163606987529.15101.2841452893367080961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/e2fsprogs
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: bd2e72c5c5521b561d20a881c843a64a5832721a
-    new: 02827d06bcf0d838c26d92f8f5ae7579de161110
+    old: d00c8ee31729248ba40b4ab25cd3b3b580c6f87c
+    new: a4db9055fdb9cf607775c66d39796caf6439ec92
     log: |
-         02827d06bcf0d838c26d92f8f5ae7579de161110 ext2fs: avoid re-reading inode multiple times
-         
-  - ref: refs/heads/next
-    old: bd2e72c5c5521b561d20a881c843a64a5832721a
-    new: 02827d06bcf0d838c26d92f8f5ae7579de161110
-    log: |
-         02827d06bcf0d838c26d92f8f5ae7579de161110 ext2fs: avoid re-reading inode multiple times
+         96d0c9be432dfd4908e96dde7cab860368a348ab devlink: fix flexible_array.cocci warning
+         a4db9055fdb9cf607775c66d39796caf6439ec92 net: phy: fix duplex out of sync problem while changing settings
          
