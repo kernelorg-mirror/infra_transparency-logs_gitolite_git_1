@@ -1,49 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2075947936397184207=="
+Content-Type: multipart/mixed; boundary="===============8246252411418757728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 04 Nov 2021 22:50:32 -0000
-Message-Id: <163606623227.10533.17243899953289974521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 04 Nov 2021 22:52:28 -0000
+Message-Id: <163606634829.11211.14172628223878155923@gitolite.kernel.org>
 
---===============2075947936397184207==
+--===============8246252411418757728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/queue-rc
-    old: 561053da99ee49ef38a7bc180f4e91c760478950
-    new: 7bed2b1aac104be7e74e6038136ddec43cd5bb1c
-    log: revlist-561053da99ee-7bed2b1aac10.txt
+  - ref: refs/heads/mlx5-queue
+    old: f0e0c69b4c1bca2fa07f0bd9325fadc2c27f677a
+    new: 9797556520eeb9c78d800dc78f431b1ab82f9cb3
+    log: revlist-f0e0c69b4c1b-9797556520ee.txt
 
---===============2075947936397184207==
+--===============8246252411418757728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-561053da99ee-7bed2b1aac10.txt
+Content-Disposition: attachment; filename=revlist-f0e0c69b4c1b-9797556520ee.txt
 
-a985442fdecb59504e3a2f1cfdd3c53af017ea5b selftests: net: properly support IPv6 in GSO GRE test
-3b65abb8d8a650e50ff5448ac38992ef8a74c584 tcp: Use BIT() for OPTION_* constants
-d00c8ee31729248ba40b4ab25cd3b3b580c6f87c net: fix possible NULL deref in sock_reserve_memory
-48bf1d83f7fdaa59f05d4a5d4930c7ab5efb97de net/mlx5: DR, Fix check for unsupported fields in match param
-49d996b812ead755e8a875af8fb8309c7b5f8fcd net/mlx5: DR, Handle eswitch manager and uplink vports separately
-b3d75173d4e3a0fefab78ace1c09c698ee36d311 net/mlx5e: nullify cq->dbg pointer in mlx5_debug_cq_remove()
-6355c189eb8cbe6b2f63112686b0e6cd093bf243 net/mlx5: E-Switch, Fix resetting of encap mode when entering switchdev
-c296ab5d883f72650d634631c85f2a5568175a94 net/mlx5e: Wait for concurrent flow deletion during neigh/fib events
-155e72f4f911bd5206f027bec28d131eb05e9cbc net/mlx5: Create single FDB on BlueField
-144c5bfa5705cc8c6b76c7de631ce37952bc23ea Merge branch 'patchq/444827' into mlx5-for-net
-432ffac98725c30f5c5b2740922a7b8ded5814f9 Merge branch 'patchq/441928' into mlx5-for-net
-8aeacccc984a0800af36906cc1097f9f741d1f17 Merge branch 'patchq/440943' into mlx5-for-net
-74884c4fc40a48026bf2d926886b3efd41d36ede net/mlx5e: kTLS, Fix crash in RX resync flow
-1cfcfee720a6b28f6cd0347e34f69d250ceeada6 Merge branch 'patchq/441523' into mlx5-for-net
-57496820628ab6293566e33d3605c3b3e0648437 Merge branch 'patchq/440546' into mlx5-for-net
-e1a0fe13da485c13286213aff14bef7999527564 Merge branch 'patchq/431094' into mlx5-for-net
-e6e8cdb0f1c82d0b5782cf7691b7a55ad9afce65 Merge branch 'mlx5-for-net' into net-rc
-cb9f216043c8cd510f7f387893403be423ff652e Merge branch 'net-rc' into queue-rc
-7bed2b1aac104be7e74e6038136ddec43cd5bb1c Merge branch 'testing/rdma-rc' into queue-rc
+6a162068eee5c89b0eb3443ba22bae4cc56062e4 net/mlx5: Fix format-security build warnings
+271a88ba9275a7de206a5b66fcff62e3fccbba0f net/mlx5: TC, using swap() instead of tmp variable
+344fd1e4f6f6aba5e11e59d8734400d29d61efff net/mlx5e: TC, Destroy nic flow counter if exists
+7e856e4b411ac0b8639863584bd3f9f8b657f74b net/mlx5: Fix too early queueing of log timestamp work
+beff07754edd54691157931c32d16ef34c337385 net/mlx5e: TC, Move kfree() calls after destroying all resources
+132434d87fcee6c188a97372b4caf4660b715727 net/mlx5e: Refactor mod header management API
+9685c275c03f6ba6134aa6f4aa0ccc77ff421961 net/mlx5: CT: Allow static allocation of mod headers
+13ecffd4a657a7e01162ab94189f8160a76dc3b4 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+b264735d931fd1d46b0c6c22fa7f6049eb4953f5 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+1ef818f307950157ee1adbaf46332a073e7fe82a net/mlx5e: Allow profile-specific limitation on max num of channels
+57a5921d27381b1d973923770aea053ff2c7d323 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
+95bbe174090dcb92af3e060bbefe6938e4451c97 Merge branch 'patchq/444443' into mlx5-queue
+b52b94206fa3cea31c0225e19c569b8bef48cedf net/mlx5e: Allocate per-channel stats dynamically at first usage
+863e6c52860a0e65d1d587fbf4a79f71e4cb83bd Merge branch 'patchq/443647' into mlx5-queue
+4e37129cfb2903caba03595fdc28ba0aaa842101 Merge branch 'patchq/443926' into mlx5-queue
+d1fd562a90850ba45f85d390e6beed7b6e2d1543 Merge branch 'patchq/414154' into mlx5-queue
+9797556520eeb9c78d800dc78f431b1ab82f9cb3 Merge branch 'patchq/432332' into mlx5-queue
 
---===============2075947936397184207==--
+--===============8246252411418757728==--
