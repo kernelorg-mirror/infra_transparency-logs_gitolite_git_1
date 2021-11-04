@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6854408781079400039=="
+Content-Type: multipart/mixed; boundary="===============6582793148375966803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 04 Nov 2021 17:19:45 -0000
-Message-Id: <163604638529.27959.9448220388639500078@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 17:19:54 -0000
+Message-Id: <163604639484.28050.7805122093403237440@gitolite.kernel.org>
 
---===============6854408781079400039==
+--===============6582793148375966803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 519d81956ee277b4419c723adfb154603c2565ba
+  - ref: refs/heads/driver-core-next
+    old: 27e0bcd02990f7291adb0f111e300f06c495d509
     new: abfecb39092029c42c79bacac3d1c96a133ff231
-    log: revlist-519d81956ee2-abfecb390920.txt
+    log: revlist-27e0bcd02990-abfecb390920.txt
 
---===============6854408781079400039==
+--===============6582793148375966803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046384 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046393 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1636046383-3a11d61bc8b4320d2a56c5064e559a16af743df2
+nonce 1636046393-efbdbca3125bf0f580f4ac566b54591822d034aa
 
-519d81956ee277b4419c723adfb154603c2565ba abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/driver-core-linus
+27e0bcd02990f7291adb0f111e300f06c495d509 abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AZsQAJ3G92Be3+OjUAQvDni3
-xQO+1HpHrixM8B1mb6wz4FKaXEAIxFvKRLa/XKurbtETBJakWGzA014GhP2FF7Qa
-qAzs06b+q2FX9wxcSp+DRMAwoqDeaG+MhPvt9lOYrbQbu6eRd9zZ4iHzJiAIhIj9
-hlvvHKmjRRrw9tQJQBzPGPxghwWSzG3x28oHFwpGlY8kw5PYNKSMPi6p8ODQ/Y8W
-tkurhoRbA3PzSXTKa3wWOpyXWYbni5Z2356+DIaPtarhaKcbZGZFZYP+VsGac62N
-1Lj07NOVTZ+tKfOLMaYCvPhsciuNXk18asiIer2aEX2vnmnyg6ripdcfIFM+wWwg
-D5LOXI6pb3HGQgCERN3DARBsvquxcOK/CGWfGStMyc8l/d/Mx2rsPzkYW6+PJZRZ
-lnRcvpo/+PwNnBJyJUhYWj+v5LcPKwZJqwnJMjVz+yKOU5gaKWVMAHNI3KkY14Zd
-+cHpWo1fKZqaPIGzoAeZUysDhvaPM6/q4XiMyX2kJeVkUlRZ7jEnUSwheVQGwo1b
-ssBMATMpr6vKceSgIhzOb29EVSNZkscalqdlfDioxL0466ut/Vqfxx0V6Bk+cgg5
-khQP66QNAu2joamgA6rvyQJ4KQRQX6LZ7nP8RcqyLcV4Td9hw3DITlVrqh1B+/rd
-1sKnQH7jB9z0QkI+UJzYZGIe
-=mtxX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFjkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zG4QAJX+uOM9Cw4/yDVVw3Ru
+0qj+dtm03XX+IUP2MREWUWiDpRZUKxMl0JxiarPlVuTPdn8r0+Iqzc1f4PzHtTqm
+yBX0lOwirmT7VVNUf8Kzhme7KrWnEzEdBBkXZAynCQcdSDmz4RMPqk9DjCQ5HbmX
+m6cRYnN3q7mv/+rmYHPNolpPHmnzh1mE1F4sjIKXZe4PUctwRm+U6PhIlikFTfxr
+BM601ytZ1KpgXScpByGRCayS6MsyCDv/P5MZghou2/8vLdvK4TQWWA83uXh+A2Fu
+yWdJuMBcZFVgel3Mt2xFDNM1L7GzGrmTs/qaLu2ZmHCfobPt9O+oWxGvYnRInj9J
+rXddDVeq/hOj/4somAcBKDdWRYE8Iy5b6psTWR5T2ptCjWnIfF4TkrRCllowvLtQ
+lJ9PUodkMx9Cjqyh11YpSj3QBCqyoZbpxm2nG3Fk705O0h1HGkb7tscZvJA91btm
+N277pJ4UurtmOqNBD0wE8TxykkX9h53VKSp9SX0Qst7U4W2uuGmlAfN9DuSfXWu/
+l7VwjhpI2shsE+/iSGifA3WbVTRtyVPWOu4Px56P6tgGPT/Mk49d8dyxyDrPNwDC
+8XLcy+YEL/E9GBC8FpY1e1eIf+iu6PVKhOfklS7Nxi1TUe14kZUmbROgbJWAeT28
+Nj6arNkaMA393mZtFdZK9CN5
+=Kz6g
 -----END PGP SIGNATURE-----
 
---===============6854408781079400039==
+--===============6582793148375966803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-abfecb390920.txt
+Content-Disposition: attachment; filename=revlist-27e0bcd02990-abfecb390920.txt
 
 c17c7cc775b31ab54e8cba05f9e7b16fd32dd84f Merge tag 'asahi-soc-dt-5.16-v2' of https://github.com/AsahiLinux/linux into arm/dt
 a56c75d62c94ad0370e6466ab7a9e7694e943e39 Merge tag 'asahi-soc-maintainers-5.16-v2' of https://github.com/AsahiLinux/linux into arm/soc
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 95faf6ba654dd334617f347023e65b06d791c4a6 Merge tag 'driver-core-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 abfecb39092029c42c79bacac3d1c96a133ff231 Merge tag 'tty-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============6854408781079400039==--
+--===============6582793148375966803==--
