@@ -1,61 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5303197368544459988=="
+Content-Type: multipart/mixed; boundary="===============7279203977752530164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 04 Nov 2021 21:35:52 -0000
-Message-Id: <163606175280.28336.5279683812906952632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 04 Nov 2021 21:54:57 -0000
+Message-Id: <163606289755.7059.11342900390910058529@gitolite.kernel.org>
 
---===============5303197368544459988==
+--===============7279203977752530164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/next
-    old: 749469142bb6dd5b38b52ba4ca1943bbee09e1a4
-    new: a8f2d49bf757ba2c86786af15b13aa59f85cae38
-    log: revlist-749469142bb6-a8f2d49bf757.txt
+  - ref: refs/heads/master
+    old: c1e2e0350ce37f633b5ce3ce1cdf4428513fc2a2
+    new: d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7
+    log: revlist-c1e2e0350ce3-d4439a1189f9.txt
 
---===============5303197368544459988==
-Content-Type: text/plain; charset="us-ascii"
+--===============7279203977752530164==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-749469142bb6-a8f2d49bf757.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-c1e2e0350ce3-d4439a1189f9.txt
 
-d8fcbe52d7d382106ab1dfa89c4b6a4952524125 PCI: apple: Add INTx and per-port interrupt support
-476c41ed4597512f9da334be8ddf2fb2262d3057 PCI: apple: Implement MSI support
-946d619fa25f55483206befb035fed6a99fbe7b5 iommu/dart: Exclude MSI doorbell from PCIe device IOVA range
-468c8d52c33271d21aac070ebef9283f302094cc PCI: apple: Configure RID to SID mapper on device addition
-a2ff50d4e637e31bd7adbf202cd629d551ea46de Merge branch 'pci/acpi'
-c761254b6f69413e9493deb070b5f93449a720a4 Merge branch 'pci/aspm'
-5f02b46575d168009953de870121bec7af7727ff Merge branch 'pci/enumeration'
-2567748a3fd6b39c34f7da3c9ce2c356dd8f3b5b Merge branch 'pci/driver'
-3732a58c80d0ec81696989ca7bdc83bf11f30ea2 Merge branch 'pci/hotplug'
-a15297fd7eb60d38801b9a0eb411e3120c5058d1 Merge branch 'pci/msi'
-bcb87681075d35502510a6d2fda1c40bf6bd6246 Merge branch 'pci/p2pdma'
-7ff9c96a1e464119942ef599dc654500fe59cb0c Merge branch 'pci/portdrv'
-8e074f857a0fbcd74e696d18c50a68a75e42941a Merge branch 'pci/resource'
-70d02fc78785d2a4631254cdd4ed15f9e44b9c11 Merge branch 'pci/switchtec'
-c4db7fde8c9d18b5daba93a22afec4bd7a299ef3 Merge branch 'pci/sysfs'
-d5fb8ad8c2e903b1f9474ebd4503e06aa9b4ddba Merge branch 'pci/virtualization'
-fa9d2eb7f8287c08ca36b9a3e1b14abfc2bdb26a Merge branch 'pci/vpd'
-bdb841371734cbaf9eaaae96dbf2bf675f102b71 Merge branch 'pci/misc'
-d660124fa02b7e33e9e68eb98c14b99649892a87 Merge branch 'remotes/lorenzo/pci/aardvark'
-54fea2ac52b211bb39b8c53c499217a17d91deb3 Merge branch 'pci/host/apple'
-bda3617d5bcb1468d479a14957f45b1fc7cdd5f4 Merge branch 'pci/host/cadence'
-c2c3e52d1fe268d133efe8f8bb58be6817a6b439 Merge branch 'remotes/lorenzo/pci/dt'
-050ef63598fd8b0594cfcf8cd9c8a6352f8518a4 Merge branch 'pci/host/dwc'
-deca398c738311248a146d365128c824a6cb3ba0 Merge branch 'remotes/lorenzo/pci/endpoint'
-c45540eeb6117cc8f67c165a7f687832b38cd0f6 Merge branch 'remotes/lorenzo/pci/imx6'
-3b7da5ec3cbf89d2b57e5addc2d74b766963dfaa Merge branch 'pci/host/kirin'
-1625cb5a5b46c9f579efa1bc9e60e4ecb67541b1 Merge branch 'pci/host/mt7621'
-eb3af4c953c3edcf4bbbbcd6de61257ec6915c5f Merge branch 'remotes/lorenzo/pci/qcom'
-b7b91d3c6497ce980f1e87f1e8fbc34c96f562e6 Merge branch 'pci/host/rcar'
-409e2cd930f5abdd8af8f1fb20d209d3eac2487c Merge branch 'remotes/lorenzo/pci/vmd'
-a8f2d49bf757ba2c86786af15b13aa59f85cae38 Merge branch 'remotes/lorenzo/pci/xgene'
+82ab575eb89e4d8c07ab8e693e0b31603a0d202d power: supply: max17040: extend help/description
+40a2d98c9763dbd05fa0eb7be96e161bb7e9d45c power: supply: max17042: extend help/description
+067930724ecdca0e3a31b6d9e8c1b252b0976e68 power: reset: ltc2952: Use hrtimer_forward_now()
+5d1f642aad69c76f6a260528a22701ec4a8f12f5 docs: ABI: sysfs-class-power: Documented cycle_count property
+9ba533eb99bb2acf8b2268c6f48dcf73e1e47753 power: supply: core: Add psy_has_property()
+5ce39985c60418579fab1d4ee81427d12bf9e64f power: supply: core: Move psy_has_property() to fix build
+4ef69e17eb567a3b276fcc3cb3452dcf89d8b063 HSI: cmt_speech: unmark comments as kernel-doc
+73d59c9263a0fbcf8f769daea9c1fe33ae38c9e8 power: supply: wm831x_power: fix spelling mistake on function name
+f558c8072c3461b65c12c0068b108f78cebc8246 power: reset: at91-reset: check properly the return value of devm_of_iomap
+0fd1cdf222a092ec0a08968913aeaefd6ce2d298 dt-bindings: power: supply: max17040: switch to unevaluatedProperties
+223a3b82834f036a62aa831f67cbf1f1d644c6e2 power: supply: max17042_battery: use VFSOC for capacity when no rsns
+d0c27c9211fef3ce8083cc3ad2ca3067d211edc9 power: supply: max17042_battery: fix typo in MAX17042_IAvg_empty
+0668281d329db2c21ba6494a7bfcb8331dd0f5fa power: supply: cpcap-battery: use device_get_match_data() to simplify code
+a3d5c47c328a8002cb748d293fdcaef0c752bcdf dt-bindings: power: Bindings for Samsung batteries
+ed229454856e565c5a7d3287cbc63f2cf077b34f power: supply: axp288-charger: Optimize register reading method
+bf895295e9a73411889816f1a0c1f4f1a2d9c678 power: supply: rt5033_battery: Change voltage values to µV
+1d422ecfc48ee683ae1ccc9217764f6310c0ffce power: supply: max17040: fix null-ptr-deref in max17040_probe()
+744bbdb7958d424f469863f2b402040fcbf0e76d MAINTAINERS: power: supply: max17042: add entry with reviewers
+7462a894bd53b3d149c01518c82562d20368f960 MAINTAINERS: power: supply: max17040: add entry with reviewers
+0cf48167b87e388fa1268c9fe6d2443ae7f43d8a power: supply: max17042_battery: Clear status bits in interrupt handler
+e660dbb68c6b3f7b9eb8b9775846a44f9798b719 power: supply: max17042_battery: Prevent int underflow in set_soc_threshold
+db6e436264dae9fbfc92d93bf61772e8a129940c power: supply: axp288_charger: Fix missing mutex_init()
+eb415571c78267162e4adc91f259a9f6ee5b344b dt-bindings: power: supply: ab8500: Standard monitored-battery
+1a6784359540dcfbf4fa73c07868b80c8405cc14 power: supply: ab8500_bmdata: Use standard phandle
+0b5a9135d5f12dce8dedaa18de6336364e04e873 power: supply: axp288-charger: Add depends on IOSF_MBIO to Kconfig
+9052ff9b0387a6931d40f6999186099d038d2d33 power: supply: axp288-charger: Remove unnecessary is_present and is_online helpers
+5b5100c569b533195d9535fd2155d9f1cf389d0c power: supply: axp288-charger: Simplify axp288_get_charger_health()
+172d0ccea55ce69718bac693d2ea9341fb61b6c7 power: bq25890: add return values to error messages
+cdf10ffe8f626d8a2edc354abf063df0078b2d71 power: supply: bq27xxx: Fix kernel crash on IRQ handler register error
+d01363da53ebd1920a9676ea12e5c1168e292346 power: supply: bq25890: Fix race causing oops at boot
+22ad4f99f63fc892412cde5a45d43b2288a60b88 power: supply: bq25890: Fix initial setting of the F_CONV_RATE field
+72e65f7e525fe1ed399c0c5f4adda562602d025a Merge tag 'for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7 Merge tag 'hsi-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 
---===============5303197368544459988==--
+--===============7279203977752530164==--
