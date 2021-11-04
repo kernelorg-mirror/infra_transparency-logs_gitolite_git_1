@@ -1,68 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============5120314925051482017=="
+Content-Type: multipart/mixed; boundary="===============1231806999735670004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 04 Nov 2021 17:22:00 -0000
-Message-Id: <163604652026.30995.7922172836209818238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 04 Nov 2021 17:22:14 -0000
+Message-Id: <163604653484.31151.12385836112989309548@gitolite.kernel.org>
 
---===============5120314925051482017==
+--===============1231806999735670004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 10508ae08ed8ce8794785194ad7309f1437d43fd
+  - ref: refs/heads/main
+    old: 519d81956ee277b4419c723adfb154603c2565ba
     new: abfecb39092029c42c79bacac3d1c96a133ff231
-    log: revlist-10508ae08ed8-abfecb390920.txt
+    log: revlist-519d81956ee2-abfecb390920.txt
 
---===============5120314925051482017==
+--===============1231806999735670004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046519 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636046518-f51990a0266296b0930ae825db0f4ffc687bda9c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636046522 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1636046521-09f2e98cee1590cf794cf838d4cc672bc4e8a3a1
 
-10508ae08ed8ce8794785194ad7309f1437d43fd abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/staging-testing
+519d81956ee277b4419c723adfb154603c2565ba abfecb39092029c42c79bacac3d1c96a133ff231 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFrcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BZkP/RoOS5DI6/qB6pAKCvOH
-P1UlKL/zEppoFvqiSHjqkWMdtSUB30e2R9G5bjt7uoDeod5ajcieK90o7D57jgUl
-3lMl3NBZRmOLtduF0y23PZoPk5yYFsAZRm2nYz/3CDN7oIZ5C1ZKZzDOZ5zUIvoZ
-zsHs6GKVYeAqA9qI+6Z0S/roAXOAvOGjoI2BKb+4NX6KpFajnV615hZUJhXoDwKE
-VEbik/kRnxUvC2aYJ7nJVLA2ILlBGKK+qTaH/oJ4xRAIhCB+JqKb1/fZTtYmmdOc
-OO33oM2VBtsWnL2qcNOdXQ2I60kAVYp+/TkLu008FBzT31++Ix0Ofn4yGweaKwTD
-ltX0Ev9Nwm4I4Xs2mgoj3jYu54nMHNYZFz8K598U415n6vF+/DJFfzGi9W0DC8Di
-SEX8WQxd5y7ienNN+71Pf0KE1l3zUthlCFlzZTKKTetIWy0cF4rJDLSnyueq0k3p
-UOM5rMgZwUugnigAdGaYNxuPefFf/Mc8BgsiX41L60ukfz5AyRLbnSGwhVNedCnF
-gJcXdIw3wGwHLPpcZqZfR5nu3xKOoGAQ1o3oOpm1X3qG9GT3BI71VqQM52qVP9Md
-CgazYsPeKzkablfKUCG6MlpgO1Y0BeOXWRvtW2yBPdm18tj0eLqyqaubC2Hn6ghQ
-5l91GH83vPirxSu2sCtU1v2J
-=2Ty/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGEFrobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+18MQALqZO/DB4WLKaTRBkthm
+WkfYt9ajItDSEz1PXJ6TwoYHPyVGYmjlPJaveFUt5kQSIp8UZC4CN6Hm7BnhY5aZ
+vzpAAfDXNrjuWxiKt+kHqmfTZl1uvzueA2y+/EtC8KjtgOKVpXQAIsNeYbvtliqt
+cehWYjkVTXftNiKavL2tza2Qk4gVm5P5JkfkpHl9JTKtB0/6phlmwaxyrP/bjbTl
+ImKib+lkx+0FPs/sY1Fm61CfV9zjwd8bIk+MmEpEIjP9Hmz2+dQZXRJGXzsrS9GJ
+DGHx8ewpjfXgP1892YiXi9zwrTSQKxcd7/Dwc3Vcr9KI6TpzSso55HzZNd+IkMMV
+T7tICd3gV5HStV8XJYzs5LwzeYegjw59W7eJF5T/PopYfXNWD5rHhBcR7lqhv0SL
+MlxMB/D/oxwitd/fGINy8EltY0s2G94Ih0PUESAsnfqjdesTrPGnzNhSsawBbLAr
+4NWwu8mCbEI0HkhxojNbP0nVlcJf+qOKvXoJYtXvq5dTeg/m2J1+k5LITewNlB6K
+xKW7YXoAKVSPVhAWoGsPyarlN0/pOe+IcwGpf8bpEusc/qlTa+2MQnYHGiI8OBjg
+WuYTdkSipVgo0cdoZOl9LE31zVUXlf72L9H6xFX7oBkI8KCwV4HiMWEz4qUAAErJ
+7BItZ2c+xJVtBbSRFDrjgq/7
+=L3lO
 -----END PGP SIGNATURE-----
 
---===============5120314925051482017==
+--===============1231806999735670004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10508ae08ed8-abfecb390920.txt
+Content-Disposition: attachment; filename=revlist-519d81956ee2-abfecb390920.txt
 
-e71aa913e26543768d5acaef50abe14913c6c496 block: kill DIO_MULTI_BIO
-842e39b013465a279fb60348427b9309427a29de block: add async version of bio_set_polled
-f5cfbecb0a162319464c9408420282d22ed69721 USB: serial: cp210x: use usb_control_msg_recv() and usb_control_msg_send()
-e0c60d0102a5ad3475401e1a2faa3d3623eefce4 block: Fix partition check for host-aware zoned block devices
-24a1dffbecafeb00d8830985eb7a318e37aabc4e lib/vsprintf.c: Amend static asserts for format specifier flags
-910c996335c37552ee30fcb837375b808bb4f33b USB: serial: keyspan: fix memleak on probe errors
 c17c7cc775b31ab54e8cba05f9e7b16fd32dd84f Merge tag 'asahi-soc-dt-5.16-v2' of https://github.com/AsahiLinux/linux into arm/dt
 a56c75d62c94ad0370e6466ab7a9e7694e943e39 Merge tag 'asahi-soc-maintainers-5.16-v2' of https://github.com/AsahiLinux/linux into arm/soc
 c230dc8627de832fe13bee64613a52a46c5b54ab Merge tag 'mlx5-updates-2021-10-26' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -719,6 +713,12 @@ b0d5d2a71641bb50cada708cc8fdca946a837e9a usb: gadget: udc: core: Revise comments
 a0548b26901f082684ad1fb3ba397d2de3a1406a usb: gadget: Mark USB_FSL_QE broken on 64-bit
 d142585bceb3218ad432ed0fcd5be9d6e3cd9052 serial: cpm_uart: Protect udbg definitions by CONFIG_SERIAL_CPM_CONSOLE
 cc8d7b4aea79df7cb45b74f9bc5b8a8bd2ed4c07 tty: Fix extra "not" in TTY_DRIVER_REAL_RAW description
+68264c4609ea74fc175d0ccc968ba16b0847ac2a staging: r8188eu: fix missing unlock in rtw_resume()
+bdcfac6ab6c9362c45959fdc91c730ecc2c18f7e staging: fieldbus: anybus: reframe comment to avoid warning
+d8a364820e01b6abd9ae5dea1fc18f7f5b1a1450 staging: vchiq_core: get rid of typedef
+88c47bbf9a2f1dd30ac145ffa057ba72c6ddec1b staging: rtl8723bs: fix unmet dependency on CRYPTO for CRYPTO_LIB_ARC4
+cacd73e55e77f6d290d827eaf23e9bf28ed20836 staging: rtl8723bs: hal remove the assignment to itself
+10508ae08ed8ce8794785194ad7309f1437d43fd staging: r8188eu: hal: remove goto statement and local variable
 fa191b711c32ba107cf8d3474cd860407b7e997a ARM: 9150/1: Fix PID_IN_CONTEXTIDR regression when THREAD_INFO_IN_TASK=y
 c1e42efacb9bb4ae873e9b1cf249fa4fb6ef7f84 ARM: 9151/1: Thumb2: avoid __builtin_thread_pointer() on Clang
 09d9e4d041876684d33f21d02bcdaea6586734f1 scsi: ufs: ufshpb: Remove HPB2.0 flows
@@ -1082,4 +1082,4 @@ ce840177930f591a181f55515fc6ac9e1f56b84a Merge tag 'defconfig-5.16' of git://git
 95faf6ba654dd334617f347023e65b06d791c4a6 Merge tag 'driver-core-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 abfecb39092029c42c79bacac3d1c96a133ff231 Merge tag 'tty-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============5120314925051482017==--
+--===============1231806999735670004==--
