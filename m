@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6249025279518019633=="
+Content-Type: multipart/mixed; boundary="===============5643172300826638125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 04 Nov 2021 09:26:33 -0000
-Message-Id: <163601799353.24556.11146290330782374969@gitolite.kernel.org>
+Date: Thu, 04 Nov 2021 09:29:26 -0000
+Message-Id: <163601816604.25499.11245807089378547402@gitolite.kernel.org>
 
---===============6249025279518019633==
+--===============5643172300826638125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,124 +16,128 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 4ee39fe65b6d7157e0dec89ee1e4822224c04681
-    new: 6679047d3ab871bf3e78f2aaa52ee7b12b3478a5
+    old: 6679047d3ab871bf3e78f2aaa52ee7b12b3478a5
+    new: 3d92ee97adf095a2a4209ba6ef0246c61dc7fb25
     log: |
-         b6a628b51b82cb1071c2ba2f1c70a3f938a830fb scsi: core: Put LLD module refcnt after SCSI device is released
-         538739f1b7218c3b473600894ab9383a5a140d33 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         b9710921e3c5ec3e638ee95416f640abd6d92b3d mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         6fffc831a0d2c22a0aa0d621fab42a648273b6ba arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         6679047d3ab871bf3e78f2aaa52ee7b12b3478a5 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         6e20e205049bde0d06c9e9f94c3ccf055651c073 scsi: core: Put LLD module refcnt after SCSI device is released
+         4d0e51526a0727c94eaa57a9ba3d13bd9c6fa2d3 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         bfd4a066d2c60e18e98a03cec831f0b93d834269 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         eabd4a6b4ae6560e9d85465fd2c1e623705352f6 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         3d92ee97adf095a2a4209ba6ef0246c61dc7fb25 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
          
   - ref: refs/heads/queue/4.19
-    old: 72dba1807f93d5eba3b2f94e5db89db5ce1940e4
-    new: 58a0d26f56164606e37e7b361a8c6ea70db61bb2
+    old: 58a0d26f56164606e37e7b361a8c6ea70db61bb2
+    new: 5bccbe57958a4fc7fb22f2b7b8a8819cbda6da6d
     log: |
-         c4d1049ac32b77797b6557c7d3ed95ca16dea7a4 scsi: core: Put LLD module refcnt after SCSI device is released
-         fa7c91d29211b77865531f95f6ab8e1d9c5a0df3 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         872b35aec276cb7248606f3331ce5f65d2a7a8da IB/qib: Use struct_size() helper
-         0bd01b54157c53fc8162f119216398c6fe329890 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-         a19b0f1e30decf1b1f8833b305f184f4b9d77a0a sfc: Fix reading non-legacy supported link modes
-         58a0d26f56164606e37e7b361a8c6ea70db61bb2 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         64570b628e75eb251dacd58ed4cc7321a72f20c0 scsi: core: Put LLD module refcnt after SCSI device is released
+         120c51fdaf2cc59099c41af9f8f88368ae212134 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         5315ef1579f0cb620c61f7d170ac0ac29be4e033 IB/qib: Use struct_size() helper
+         b027afb68d4f632c171332cb591d89989b4a53b3 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         c4f0aed3ab155ac566487d456479a7a0c06b45ae sfc: Fix reading non-legacy supported link modes
+         03a34a22f5b9a3d8b63de0911db7488a1878c59f arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         5bccbe57958a4fc7fb22f2b7b8a8819cbda6da6d ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
          
   - ref: refs/heads/queue/4.4
-    old: 840ed584c9239734f260df1e23311c1d9d7ba53f
-    new: ade48a790ccd6d8dba66231065194c831b62a02a
+    old: ade48a790ccd6d8dba66231065194c831b62a02a
+    new: a47dd3d771a0810c3a8ea97c585ea86052e84708
     log: |
-         e4855be8867d7ffbb81116fb3a53598e86dac3c3 scsi: core: Put LLD module refcnt after SCSI device is released
-         ade48a790ccd6d8dba66231065194c831b62a02a ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         4c8dfe0e5c69d77be18a3fbbcdf5f7d43f66457f scsi: core: Put LLD module refcnt after SCSI device is released
+         a47dd3d771a0810c3a8ea97c585ea86052e84708 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
          
   - ref: refs/heads/queue/4.9
-    old: 97ec098d61d2478c1bbf0a2a9fe5f46f9cccad5a
-    new: 0189cadd4dee2b58a50f86095821b636fd98d1d6
+    old: 0189cadd4dee2b58a50f86095821b636fd98d1d6
+    new: 451dbefd88c64bac339af6e9e5218f68aa949293
     log: |
-         e5085fc05db6ee79b91e937995af476003482e85 scsi: core: Put LLD module refcnt after SCSI device is released
-         973ebd8621595ef1d2da42666750168a23a93fe4 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         e5683632cf391ea85cb253277e43241a23425f04 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         0189cadd4dee2b58a50f86095821b636fd98d1d6 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         402f73d2f4ad9a1f5daebc7e0805fec129d38949 scsi: core: Put LLD module refcnt after SCSI device is released
+         97a2c36b28c4f02aeb6abacae5ce2d554bfd4ae5 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         246028787d5887b4cddcaa6e9126dac44f00844f arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         451dbefd88c64bac339af6e9e5218f68aa949293 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
          
   - ref: refs/heads/queue/5.10
-    old: cf3e27519a9d89eb791cb5b17dc5ff8d93951830
-    new: f0fd917226586d616fa7efb5abc7bd5f5edd07d2
-    log: revlist-cf3e27519a9d-f0fd91722658.txt
+    old: f0fd917226586d616fa7efb5abc7bd5f5edd07d2
+    new: 7031df7ce83ae9f49228d6b3aeec16ef4f477d6a
+    log: revlist-f0fd91722658-7031df7ce83a.txt
   - ref: refs/heads/queue/5.14
-    old: f0ca5a976d2580a947bd29eda86b3cb081f3351d
-    new: f45b1fcf87558b3cac02edb2a15e66f02ea7f731
-    log: revlist-f0ca5a976d25-f45b1fcf8755.txt
+    old: f45b1fcf87558b3cac02edb2a15e66f02ea7f731
+    new: da4108f8f53c4b520158c508b9d6785091a43a9f
+    log: revlist-f45b1fcf8755-da4108f8f53c.txt
   - ref: refs/heads/queue/5.15
-    old: 8ba1e4c391d0a99d2572cc55c9e0081d4070db3e
-    new: a81cc7907883120a350cd259e4fd7aa78983c53d
-    log: revlist-8ba1e4c391d0-a81cc7907883.txt
+    old: a81cc7907883120a350cd259e4fd7aa78983c53d
+    new: a4272b976767749ba1d43befc90b846d1e533a46
+    log: revlist-a81cc7907883-a4272b976767.txt
   - ref: refs/heads/queue/5.4
-    old: 68e2cf97b209918014e94944612a34b22fe8853b
-    new: 78fa62f79a4fb8385181e9a29d0f75436c744313
+    old: 78fa62f79a4fb8385181e9a29d0f75436c744313
+    new: 011c5d2b6096c2adabcbec2085946436c49deeed
     log: |
-         b3c9f65295397d8429854f9783de20a74c9730fb scsi: core: Put LLD module refcnt after SCSI device is released
-         b76a5f376aa0a87ef414619fb753f7456d3e748d vrf: Revert "Reset skb conntrack connection..."
-         ec2b3f07a97b51808ab79e81dcfebe859aae3aca net: ethernet: microchip: lan743x: Fix skb allocation failure
-         726a51d9f7d18eb6f7d7f62db06268d90ec7a139 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         000b225e908e72464018e8d38f7563752cb42580 Revert "xhci: Set HCD flag to defer primary roothub registration"
-         6264566190dde1defc4f42ec3ad62ffed0bb1126 Revert "usb: core: hcd: Add support for deferring roothub registration"
-         f526bc6ca06029cb1165de93a778cb3bf040ca1c sfc: Fix reading non-legacy supported link modes
-         78fa62f79a4fb8385181e9a29d0f75436c744313 Revert "drm/ttm: fix memleak in ttm_transfered_destroy"
+         289839ca094fb54f2be1d6e020487cf88970e033 scsi: core: Put LLD module refcnt after SCSI device is released
+         4bad3733006c161a973bb7d2b239158331e38067 vrf: Revert "Reset skb conntrack connection..."
+         b282f7df80b79a7227128fd211e0a11dbd3abc29 net: ethernet: microchip: lan743x: Fix skb allocation failure
+         c9772a34e65ee8f2ea48e238242a0f357c9644e0 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         00c29f6d13ceffe54471810cb1a471b92dcf762b Revert "xhci: Set HCD flag to defer primary roothub registration"
+         7be17d2cae3e9339cafb84eac24f4916ddb1ac5b Revert "usb: core: hcd: Add support for deferring roothub registration"
+         6384b53b864c243fd3ddcbc7291ef6c12944d6e7 sfc: Fix reading non-legacy supported link modes
+         5feebbfdf20ebbf0ba28bd9b24820393d4356a87 Revert "drm/ttm: fix memleak in ttm_transfered_destroy"
+         011c5d2b6096c2adabcbec2085946436c49deeed ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
          
 
---===============6249025279518019633==
+--===============5643172300826638125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf3e27519a9d-f0fd91722658.txt
+Content-Disposition: attachment; filename=revlist-f0fd91722658-7031df7ce83a.txt
 
-6ed4880714d2670e8429df548e5ab662ea59f7f1 scsi: core: Put LLD module refcnt after SCSI device is released
-faa6e64f2840a6e188082d2b38437a38532dae2c Revert "io_uring: reinforce cancel on flush during exit"
-b86e863b02cc9fd27af03b2f0e01905a197aee90 sfc: Fix reading non-legacy supported link modes
-f999f24a9ca2d4c083d0978c9b68eb79a4a3d2a5 vrf: Revert "Reset skb conntrack connection..."
-7d34f1edfc6fddf75cc16efd7981de71ea0a0c5b net: ethernet: microchip: lan743x: Fix skb allocation failure
-8d1dd73eb4a4ef1d3b0173a19aacb357ea48bddf mm: hwpoison: remove the unnecessary THP check
-1ba1b52cb73830f2836fa35758de9d752843705a mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
-713266a47307f95baeb20902ae87a7c0e424ad12 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-3fe0c65a125bf59dc4d50902a6d5069726de33b7 Revert "xhci: Set HCD flag to defer primary roothub registration"
-4a6016de592f0a33b1b110217b2e9c41569494d0 Revert "usb: core: hcd: Add support for deferring roothub registration"
-be836e174d9ab379712156b5af1c00557746f079 mm: khugepaged: skip huge page collapse for special files
-f0fd917226586d616fa7efb5abc7bd5f5edd07d2 Revert "drm/ttm: fix memleak in ttm_transfered_destroy"
+191386faad9015ce03579b38627aef2b83c015ad scsi: core: Put LLD module refcnt after SCSI device is released
+413f351edb99f1508c2f20294c0c9b7c8b0eea29 Revert "io_uring: reinforce cancel on flush during exit"
+27791f56173a5e4aea9d392c50e4b67d61b1c58c sfc: Fix reading non-legacy supported link modes
+a80b6547cd99c34ad5a65be2d90fa5516d6827b7 vrf: Revert "Reset skb conntrack connection..."
+ebfec58928f953e1917c0e2189985eb87b6ede1c net: ethernet: microchip: lan743x: Fix skb allocation failure
+2782e98a5358e52444a4ce53f186913b0bbc24ec mm: hwpoison: remove the unnecessary THP check
+6158e7dfb86185fd9093a54ad071cf81f52f74b2 mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
+0bb3ebcad886a37104872a4ef731d497b29c34f2 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+24d035f92b37c3a47631103dd22dbde3480a94ae Revert "xhci: Set HCD flag to defer primary roothub registration"
+92fac1302c5e25a1a71612a67f5d051293327ee9 Revert "usb: core: hcd: Add support for deferring roothub registration"
+8e83da8e8c7d51feffde874c7a7d98f4112fade0 mm: khugepaged: skip huge page collapse for special files
+e0c888b901a1f7876b5969b68d9b788ca0c0da2f Revert "drm/ttm: fix memleak in ttm_transfered_destroy"
+0a2a4d21deb007265ab14207df494c23b006fa28 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+7031df7ce83ae9f49228d6b3aeec16ef4f477d6a Revert "wcn36xx: Disable bmps when encryption is disabled"
 
---===============6249025279518019633==
+--===============5643172300826638125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0ca5a976d25-f45b1fcf8755.txt
+Content-Disposition: attachment; filename=revlist-f45b1fcf8755-da4108f8f53c.txt
 
-802ed829285c27cb3fee853d92ff6ee80acda822 scsi: core: Put LLD module refcnt after SCSI device is released
-54dd38d2c1b3bcabcb2ffe71a30de8a7a4484205 sfc: Fix reading non-legacy supported link modes
-444281ef6836b86eb62cb0121d0a0b3633841acd vrf: Revert "Reset skb conntrack connection..."
-a4e356b3f61524f293dd6575b455bbe1bb2c2009 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-36ab14e2c92a938d4c68669c6f381a8f6009912c Revert "xhci: Set HCD flag to defer primary roothub registration"
-08c785da965413b0172a89ed5ffd887ef1ecf065 Revert "usb: core: hcd: Add support for deferring roothub registration"
-4f25f2f8f8bbf9b5ca1bca747d6f15c7163be243 drm/amdkfd: fix boot failure when iommu is disabled in Picasso.
-c367380376cb7c8fd5e561df71fd2b9d3e914b92 drm/i915: Remove memory frequency calculation
-cd773ffb0fa4446812a9e26776a1de37f2e938ee Revert "soc: imx: gpcv2: move reset assert after requesting domain power up"
-57155030424e149d0e8cd2ec6b902610ea81a080 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-1b1215ffaac7ff1f752b56fb30347ca0f964e67f Revert "wcn36xx: Disable bmps when encryption is disabled"
-08739da6236e75d1076935b3d27b7c089cc95b3f drm/amdgpu: revert "Add autodump debugfs node for gpu reset v8"
-b4787a406312e9258bc667488358650a02deb51b drm/amd/display: Revert "Directly retrain link from debugfs"
-f45b1fcf87558b3cac02edb2a15e66f02ea7f731 Revert "drm/i915/gt: Propagate change in error status to children on unhold"
+35839465730eee31701921dccfbf7c41a05a1afe scsi: core: Put LLD module refcnt after SCSI device is released
+1f738e4cbafc7b2bf8961385b121278742d59ccb sfc: Fix reading non-legacy supported link modes
+c5a71e909150f5578dfb43fcc06a3d40441cee5d vrf: Revert "Reset skb conntrack connection..."
+a23440978ee6314c5e43e9da1f0bdfba29735854 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+2cb9ee85fffa3b9595f60d2e95016c0d96c00194 Revert "xhci: Set HCD flag to defer primary roothub registration"
+6b8115b292277b4b158cb4ccdd9aaacdae8b406d Revert "usb: core: hcd: Add support for deferring roothub registration"
+35dff0ab6ec27bc7c31c3e1565b1a5febc1c1e57 drm/amdkfd: fix boot failure when iommu is disabled in Picasso.
+9c9333351336f835e5de683755697dee0235381e drm/i915: Remove memory frequency calculation
+cf05a1e2065844cba4bfdc1ad6f8e6e272b07558 Revert "soc: imx: gpcv2: move reset assert after requesting domain power up"
+2fc18665984281cd47e23306dace5ee911b8dfbd ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+4094ff4ae78a4fd6ac2f3abd52ede1c24b501a4a Revert "wcn36xx: Disable bmps when encryption is disabled"
+816812de407cd8d7a5bcfd38c9a6b869cdd5bc2b drm/amdgpu: revert "Add autodump debugfs node for gpu reset v8"
+60ed94f2e78b0476003c33af8c01274f0be690ed drm/amd/display: Revert "Directly retrain link from debugfs"
+da4108f8f53c4b520158c508b9d6785091a43a9f Revert "drm/i915/gt: Propagate change in error status to children on unhold"
 
---===============6249025279518019633==
+--===============5643172300826638125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ba1e4c391d0-a81cc7907883.txt
+Content-Disposition: attachment; filename=revlist-a81cc7907883-a4272b976767.txt
 
-c385bafcbeea78e8e0e37b34142084a5c15065ce sfc: Fix reading non-legacy supported link modes
-6225b482e37ea14b5e88b02f459c44c2a3a74d0b media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-f683a975f1c82a409133f9dffd329b487910e13c Revert "xhci: Set HCD flag to defer primary roothub registration"
-264cc0dc6572690bfcd1974d49fb2a6a6b29c38a Revert "usb: core: hcd: Add support for deferring roothub registration"
-cdc87bafe3d08f79e1e7e68b18e9d496c1672652 drm/amdkfd: fix boot failure when iommu is disabled in Picasso.
-db69fbf9a5d091a46fa759b40c7517cd168d4209 Revert "soc: imx: gpcv2: move reset assert after requesting domain power up"
-95f380131a85b9e84aaa1fd6261f78b52c1a7938 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-48c81b83852d314dbce250bc535d47f018fcb288 Revert "wcn36xx: Disable bmps when encryption is disabled"
-2b1977700527b953570d941e5c6e6ad6109367a9 drm/amdgpu: revert "Add autodump debugfs node for gpu reset v8"
-a999bbc7931aaf4c744352ef3b7e9ee482b0c933 drm/amd/display: Revert "Directly retrain link from debugfs"
-a81cc7907883120a350cd259e4fd7aa78983c53d Revert "drm/i915/gt: Propagate change in error status to children on unhold"
+a7e054b5b6c8adfbc4ecf80d80b51420ee90ac26 sfc: Fix reading non-legacy supported link modes
+ea9163adf83987e8014916931bdd0ba60720608a media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+0e0a5a5f093354a9b7fa88679508ec3917d24ed4 Revert "xhci: Set HCD flag to defer primary roothub registration"
+d1cc45bb69738b00c84648d4b7764946949d900a Revert "usb: core: hcd: Add support for deferring roothub registration"
+490a66be2901baf2141800dce0506012c0458f5b drm/amdkfd: fix boot failure when iommu is disabled in Picasso.
+6e2f500023d02c678d6ebbbd8624cea7d4a4f2a7 Revert "soc: imx: gpcv2: move reset assert after requesting domain power up"
+3490dd7a2bd8b63dda297bd85c6aeea1e7e18e5c ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+43f498aba05e7bace65ddee1a1197a8082500a92 Revert "wcn36xx: Disable bmps when encryption is disabled"
+f5a13933a7e3be8ab38f8e14d326e3dc50901b7e drm/amdgpu: revert "Add autodump debugfs node for gpu reset v8"
+a3e7a2257c86da04449326b0588b6a1618a4f39d drm/amd/display: Revert "Directly retrain link from debugfs"
+a4272b976767749ba1d43befc90b846d1e533a46 Revert "drm/i915/gt: Propagate change in error status to children on unhold"
 
---===============6249025279518019633==--
+--===============5643172300826638125==--
