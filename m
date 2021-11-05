@@ -1,77 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============4579903525579107556=="
+Content-Type: multipart/mixed; boundary="===============8700300973636443167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 05 Nov 2021 15:47:56 -0000
-Message-Id: <163612727667.11651.16818467656678158203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 05 Nov 2021 15:50:03 -0000
+Message-Id: <163612740383.14359.15771811039175100795@gitolite.kernel.org>
 
---===============4579903525579107556==
+--===============8700300973636443167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: ea79c24a30aa27ccc4aac26be33f8b73f3f1f59c
-    new: a8a3e27f7cf41ebac7d10beac366c4d48c570c7a
-    log: revlist-ea79c24a30aa-a8a3e27f7cf4.txt
+  - ref: refs/heads/for-next
+    old: d4805b3285e88fdc24274cff72a0d79002bca368
+    new: f59c60c42df66bc689995aafa29ba9297ae73363
+    log: |
+         a19577808fd33d9e64e015808fbca2769a96721b io_uring: remove dead 'sqe' store
+         f59c60c42df66bc689995aafa29ba9297ae73363 Merge branch 'io_uring-5.16' into for-next
+         
+  - ref: refs/heads/io_uring-5.16
+    old: 83956c86fffe0465408c7d62e925d88748075e00
+    new: a19577808fd33d9e64e015808fbca2769a96721b
+    log: |
+         a19577808fd33d9e64e015808fbca2769a96721b io_uring: remove dead 'sqe' store
+         
+  - ref: refs/heads/perf-wip
+    old: 042bdb58fc57527ac2a305e4d134f51c1918911b
+    new: ce73f4f8c42f978b97d3981b5a96433a2f20abef
+    log: revlist-042bdb58fc57-ce73f4f8c42f.txt
 
---===============4579903525579107556==
-Content-Type: text/plain; charset="us-ascii"
+--===============8700300973636443167==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea79c24a30aa-a8a3e27f7cf4.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-042bdb58fc57-ce73f4f8c42f.txt
 
-8234125034e65cbab7e233ba94c5e33687edf001 Merge locking/wwmutex into tip/master
-b72ac6c6bb7c9ec9b230a4ad34f774edcf4ee8f9 Merge irq/core into tip/master
-e82637064d96e5451437b85b6fc30e6544d3d066 Merge ras/core into tip/master
-120d625fab5cc921be78e6e8d8d5394d34ed233e Merge efi/core into tip/master
-2c9829c43ce27b2e9e8d5b3796b7dcdae8ebce61 Merge x86/build into tip/master
-e713c54514abab65806212b89ee1b66ff0f40f80 Merge x86/cc into tip/master
-b89c06b53fdb5921f9cbd275f2f9b7a7822fe61f Merge x86/misc into tip/master
-f09c879cbf19014049331bf485b683e3f7112c24 Merge perf/core into tip/master
-2bbd2b78063c79a118a4f6fd58b23174299ba315 Merge locking/core into tip/master
-8abe9e3790620c1bc4c4baaec50098c9aa6ec802 Merge x86/cpu into tip/master
-116ff7ea60ddba45485be1ed4423d305d1b39ae9 Merge x86/sgx into tip/master
-62f793c85af6d7bee7b6f2bbb9a182f18c08127d Merge timers/core into tip/master
-a0714a4cf734dd09b8f9355e58f5ecf56b85b819 Merge x86/sev into tip/master
-8bdc214d3c1042830c0a68005ff1212b9c698fe0 Merge sched/core into tip/master
-d931877e8049982ddffe0d97d625d5acd723ec66 Merge x86/core into tip/master
-eeb3705eaacaa820c36a2da5bfb30f6b19addabd Merge x86/fpu into tip/master
-dd413074f9544197e964739c393e3c5e2c8f5049 Merge /x86/cleanups into tip/master
-0bf9de9bbe0a59b94c0a01f835c72c16ee33a239 Merge objtool/core into tip/master
-8d6f23647a97bfb9b647593bafdbd677a84a8b2d Merge x86/apic into tip/master
-95bbdb1410843e34fcecff0818ef1421286acb33 Merge irq/core into tip/master
-58ee9823e9ca505de26c8baf9061600001549a8e static_call: Avoid building empty .static_call_sites
-91ab94f7eee9134ab0129548dbe70e8577832954 objtool: Optimize re-writing jump_label
-dfffbc611487506d604e79eed9cb33a50a172c40 objtool: Add --dry-run
-6de315c30edbebb10f2e7829d7818c0af8782177 x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
-d5d9b8c8885d6ad56888eb16976d10923bffb07a Merge branch 'tip/sched/core'
-2d4e7c259f47662f03841e19cbc2770a8a3da849 sched/wchan: Exclude dying tasks
-8c6b3f8afb1cad9baf1defd27fb2bd5ae0be0df5 stacktrace,sched: Make stack_trace_save_tsk() more robust
-804bc3585a826453a3b8da7c0db57042ff0e67db ARM: implement ARCH_STACKWALK
-0ba2c18548d999100b590d5177a9c9dcb479ead3 arch: Make ARCH_STACKWALK independent of STACKTRACE
-4c472f882ed9e426d9c0c6947c6e2a197d6deb89 powerpc, arm64: Mark __switch_to() as __sched
-6533954efd89bf66d7b51a40c51b370596c17b73 arch: __get_wchan() || ARCH_STACKWALK
-3b52c241da0a42d7eb416cc5b0b40e4119544666 selftests: proc: Make sure wchan works when it exists
-436f544c1bd5b9280abbb83233e333a92a6caa24 Merge branch 'tip/objtool/core'
-6fa7a1112b2634f9c98cd9056684225f47dfa768 x86: Add straight-line-speculation mitigation
-c4e4dc5cb8ff463d5e631272212b1714fe13d697 mm: Update ptep_get_lockless()'s comment
-bcb9f8f978ec6c53a5138676a38d8a24a40d9e2f x86/mm/pae: Make pmd_t similar to pte_t
-ae3ad138a68ca226bee938195d6dd3f9aabd34bb sh/mm: Make pmd_t similar to pte_t
-dccf2bb488eb0fd9d495c68ec5d7ca5c52a8b268 mm: Fix pmd_read_atomic()
-a5d65fa5eddacea4650b11e0be4e6e1877b340f7 mm: Rename pmd_read_atomic()
-0455cec2a082b686c9f6b20f7343828359b10ca7 mm/gup: Fix the lockless PMD access
-a94e0ff099ce2c3434390603eb5e82b56745d316 x86/mm/pae: Don't (ab)use atomic64
-5a36a95406abdf57d3a35ed63bf8ae17da778582 x86/mm/pae: Use WRITE_ONCE()
-fc5eadd90fb64a8d89d4d682aa16c03f58ad3c67 x86/mm/pae: Be consistent with pXXp_get_and_clear()
-27237ab52fe73b512cff1c2859090f85ce14acef Merge branch 'objtool/core'
-90bf86d9f01c78d460dcc3423554a0edea843d3b Merge branch 'sched/wchan'
-3bce7f895bb145f58c0289c0149b058e5cbd67b7 Merge branch 'x86/sls'
-a8a3e27f7cf41ebac7d10beac366c4d48c570c7a Merge branch 'x86/mm'
+82ab575eb89e4d8c07ab8e693e0b31603a0d202d power: supply: max17040: extend help/description
+40a2d98c9763dbd05fa0eb7be96e161bb7e9d45c power: supply: max17042: extend help/description
+067930724ecdca0e3a31b6d9e8c1b252b0976e68 power: reset: ltc2952: Use hrtimer_forward_now()
+5d1f642aad69c76f6a260528a22701ec4a8f12f5 docs: ABI: sysfs-class-power: Documented cycle_count property
+9ba533eb99bb2acf8b2268c6f48dcf73e1e47753 power: supply: core: Add psy_has_property()
+5ce39985c60418579fab1d4ee81427d12bf9e64f power: supply: core: Move psy_has_property() to fix build
+4ef69e17eb567a3b276fcc3cb3452dcf89d8b063 HSI: cmt_speech: unmark comments as kernel-doc
+73d59c9263a0fbcf8f769daea9c1fe33ae38c9e8 power: supply: wm831x_power: fix spelling mistake on function name
+f558c8072c3461b65c12c0068b108f78cebc8246 power: reset: at91-reset: check properly the return value of devm_of_iomap
+0fd1cdf222a092ec0a08968913aeaefd6ce2d298 dt-bindings: power: supply: max17040: switch to unevaluatedProperties
+223a3b82834f036a62aa831f67cbf1f1d644c6e2 power: supply: max17042_battery: use VFSOC for capacity when no rsns
+d0c27c9211fef3ce8083cc3ad2ca3067d211edc9 power: supply: max17042_battery: fix typo in MAX17042_IAvg_empty
+0668281d329db2c21ba6494a7bfcb8331dd0f5fa power: supply: cpcap-battery: use device_get_match_data() to simplify code
+a3d5c47c328a8002cb748d293fdcaef0c752bcdf dt-bindings: power: Bindings for Samsung batteries
+ed229454856e565c5a7d3287cbc63f2cf077b34f power: supply: axp288-charger: Optimize register reading method
+bf895295e9a73411889816f1a0c1f4f1a2d9c678 power: supply: rt5033_battery: Change voltage values to µV
+1d422ecfc48ee683ae1ccc9217764f6310c0ffce power: supply: max17040: fix null-ptr-deref in max17040_probe()
+744bbdb7958d424f469863f2b402040fcbf0e76d MAINTAINERS: power: supply: max17042: add entry with reviewers
+7462a894bd53b3d149c01518c82562d20368f960 MAINTAINERS: power: supply: max17040: add entry with reviewers
+0cf48167b87e388fa1268c9fe6d2443ae7f43d8a power: supply: max17042_battery: Clear status bits in interrupt handler
+e660dbb68c6b3f7b9eb8b9775846a44f9798b719 power: supply: max17042_battery: Prevent int underflow in set_soc_threshold
+db6e436264dae9fbfc92d93bf61772e8a129940c power: supply: axp288_charger: Fix missing mutex_init()
+eb415571c78267162e4adc91f259a9f6ee5b344b dt-bindings: power: supply: ab8500: Standard monitored-battery
+1a6784359540dcfbf4fa73c07868b80c8405cc14 power: supply: ab8500_bmdata: Use standard phandle
+0b5a9135d5f12dce8dedaa18de6336364e04e873 power: supply: axp288-charger: Add depends on IOSF_MBIO to Kconfig
+9052ff9b0387a6931d40f6999186099d038d2d33 power: supply: axp288-charger: Remove unnecessary is_present and is_online helpers
+5b5100c569b533195d9535fd2155d9f1cf389d0c power: supply: axp288-charger: Simplify axp288_get_charger_health()
+172d0ccea55ce69718bac693d2ea9341fb61b6c7 power: bq25890: add return values to error messages
+cdf10ffe8f626d8a2edc354abf063df0078b2d71 power: supply: bq27xxx: Fix kernel crash on IRQ handler register error
+d01363da53ebd1920a9676ea12e5c1168e292346 power: supply: bq25890: Fix race causing oops at boot
+22ad4f99f63fc892412cde5a45d43b2288a60b88 power: supply: bq25890: Fix initial setting of the F_CONV_RATE field
+72e65f7e525fe1ed399c0c5f4adda562602d025a Merge tag 'for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7 Merge tag 'hsi-for-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
+138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
+d4805b3285e88fdc24274cff72a0d79002bca368 Merge branch 'for-5.16/bdev-size' into for-next
+a19577808fd33d9e64e015808fbca2769a96721b io_uring: remove dead 'sqe' store
+f59c60c42df66bc689995aafa29ba9297ae73363 Merge branch 'io_uring-5.16' into for-next
+2fa6f68d0c9fcd8284922d397ebc45d3f6dcdfc5 Merge branch 'for-next' into perf-wip
+d340379d1d2f72441e0e120243a322145cd291c3 block: add optimised version bio_set_dev()
+19a3249a6d0274173fa715f5fa06b2c2cce6feeb block: optimise blk_may_split for normal rw
+13ead5fdd1853ff536068e6bae4f48c2290c4bf2 block: optimise submit_bio_checks for normal rw
+e24c8a30bfb49db3834f6a8f1222422270da8b1e mm: don't read i_size of inode unless we need it
+c7b8c1c62c21172ce9ea40bb7adfe4f59beb2cf7 mm: move more expensive part of XA setup out of mapping check
+6b0c4ce9a6f661113ceb37ca9cbf2e891b16d59d mm: move filemap_range_needs_writeback() into header
+a3ebb4eda34a62cfe69554a4dd1eee6a7dd260c7 block: move direct_IO into our own read_iter handler
+bc60378b1eb157a1095a3db94cee892420a10236 block: switch to atomic_t for request references
+e1c9d47515f58cf90444ba893615585720575cac net: decouple skb_frag_t from struct bio_vec
+85b74ff08195a32024dcec149f73e43efb8d3b1f block: add bvec_set_page() helper
+d6177129a02172c29a0f820a1802af19ba6cb6f1 block: add a DMA field to struct bio_vec
+32a08935b930c7dc0f562e1fe2a8e99c29cdf647 block: add mq_ops method for DMA mapping bvecs
+84e2064e18adfd1148587165b98cdb58933f1cd9 io_uring: add IORING_REGISTER_{MAP,UNMAP}_BUFFERS
+c3563827be0f9728b6bec0bb01a3afe069af3c31 nvme: add support for pre-mapped IO buffers
+45fa00399894200a849207aac479a9145fe4141e nvme: don't copy fill bio_vec if we don't have to
+159bc33690cae65d38dede217fc790c0c0aa28bd block: add mq_ops->queue_rqs hook
+97bcf6259142e26b66cf35623f71b9543aa08f77 nvme: split command copy into a helper
+9e10d91106b3cf878a2ee5aa59ccab1d2719e78c nvme: separate command prep and issue
+ce73f4f8c42f978b97d3981b5a96433a2f20abef nvme: add support for mq_ops->queue_rqs()
 
---===============4579903525579107556==--
+--===============8700300973636443167==--
