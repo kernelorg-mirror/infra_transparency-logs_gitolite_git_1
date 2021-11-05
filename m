@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 05 Nov 2021 16:48:09 -0000
-Message-Id: <163613088906.17483.14510735521592386242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Fri, 05 Nov 2021 16:56:30 -0000
+Message-Id: <163613139058.24232.16657248674905440092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8990a235b722bcf6a4d75857f13ed33d271d177b
-    new: 61ac432725e851b95d0e7e253816c2237c3f0295
-    log: |
-         567af705206564946f724cf752ff36cb7a2935e3 thermal: Replace pr_warn() with pr_warn_once() in user_space_bind()
-         61ac432725e851b95d0e7e253816c2237c3f0295 Merge branch 'thermal-core' into bleeding-edge
-         
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 2d3fc2c24e602b9a20aa4c22451acf853e3cec7f
