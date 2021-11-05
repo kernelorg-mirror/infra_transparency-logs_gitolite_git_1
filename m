@@ -1,34 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 05 Nov 2021 13:46:16 -0000
-Message-Id: <163611997654.30120.13051588759683553847@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1489737365063525661=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 05 Nov 2021 13:48:51 -0000
+Message-Id: <163612013126.31352.1654820464245672750@gitolite.kernel.org>
+
+--===============1489737365063525661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 9eb949f875ede02daa4305a773686b0d0e15ecf5
-    new: 5473463d5cca4ea40a080765f6bf0091c49e8dff
+  - ref: refs/heads/master
+    old: 3b721ff71fe39fb12d7d01239fc10461d26a3992
+    new: cbb3e149cc2f9d5ca82cd80b8b8bb9099edce590
     log: |
-         81728de40d37b179333d9b3af97e8281e740fc3e wcn36xx: Fix DMA channel enable/disable cycle
-         b10259c75bb1ce8b29af42dbfb997add194f9d29 wcn36xx: Release DMA channel descriptor allocations
-         e550d613409267486d34548178240d252faa1372 wcn36xx: Put DXE block into reset before freeing memory
-         c367e0e3022930e04148fe19d4ecb1a45efe16ba wcn36xx: populate band before determining rate on RX
-         73840628b9eb2c859c7463ca01ce4131d4db1227 wcn36xx: fix RX BD rate mapping for 5GHz legacy rates
-         5473463d5cca4ea40a080765f6bf0091c49e8dff Merge branch 'pending' into master-pending
+         cbb3e149cc2f9d5ca82cd80b8b8bb9099edce590 4.4-stable patches
          
-  - ref: refs/heads/pending
-    old: 1619f62ef8c1766f887eeef36f4d03f01c16b4c9
-    new: 73840628b9eb2c859c7463ca01ce4131d4db1227
-    log: |
-         81728de40d37b179333d9b3af97e8281e740fc3e wcn36xx: Fix DMA channel enable/disable cycle
-         b10259c75bb1ce8b29af42dbfb997add194f9d29 wcn36xx: Release DMA channel descriptor allocations
-         e550d613409267486d34548178240d252faa1372 wcn36xx: Put DXE block into reset before freeing memory
-         c367e0e3022930e04148fe19d4ecb1a45efe16ba wcn36xx: populate band before determining rate on RX
-         73840628b9eb2c859c7463ca01ce4131d4db1227 wcn36xx: fix RX BD rate mapping for 5GHz legacy rates
-         
+
+--===============1489737365063525661==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636120130 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1636120129-78459e289b2f7d993abe13f0082362810712fc80
+
+3b721ff71fe39fb12d7d01239fc10461d26a3992 cbb3e149cc2f9d5ca82cd80b8b8bb9099edce590 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGFNkIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PjUP/3IFOK4OPfFmXn/jKY7i
+EonER82CF7PFbXTcLQTT6MLe3UsDA90TvEJg9ePrYjcDqSkWpUbf9RYo+a/rgOKO
+J1ig9ArFUmxsry5gP4MQafsJeVg7i4ZTuNz7AtwXh4nxu7a2YO+ieDRXwn7n+ISv
+HVlKUfgx11SvTkZVlo0ijn8VpGb2qpg99hR1L8PUm0fbMhr6cHmmHm+dsRa7Ry3Q
+QLQ2KISiHeHCbwHrqMgpOCSSu5DgXlMW8VJ1KRBjqLw+Je7yilO3e9jQGUka3HV9
+uQc+gc2e2WGir/gppZ0qGADJwRYOxq98wq0ymK63sDkw5xKns3c8qxhU/gsY4tUm
+Fi0FoQWnZu+gIh6ZPC2dtcUKZQewZ1WlTEXzioX0z0l58ItMT5XR3FqA7JxjCby0
+gf2EEEm9jMuHaC4GtTjHkjhZLrI3AA43uIs/Gx3YkDyMYuJ1mKz0+qyOzcBK5t7e
+UnFz5FhWho9mXH2FlR8LoUKkYszYQ7sw08PtyVUJ/ON47f4UuW4I5DNqf5ocn3gt
+e1andJEgKd3EX2C7/OD/QsvbwojdBtUZELE29jCFKhnS5JeOBhVoJz4yS7AmW3XL
+Q2s9GakPwoCcrVYycyGKOdVZj97yvhEqrlN+ZOji25/cn4d4qJTTlEyPrVDxES4e
+vq7hAnkDJV+c4/4CNvalKCLi
+=AU+5
+-----END PGP SIGNATURE-----
+
+--===============1489737365063525661==--
