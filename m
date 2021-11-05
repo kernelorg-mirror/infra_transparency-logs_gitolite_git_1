@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 05 Nov 2021 23:16:05 -0000
-Message-Id: <163615416520.1955.4108748994633822726@gitolite.kernel.org>
+Date: Fri, 05 Nov 2021 23:30:56 -0000
+Message-Id: <163615505670.11789.12056647164756713429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: fa1ef27113799af4337a40169da594acbdbeac43
-    new: 42d6b89a26bb151d259a8126a66413c0ba61e35c
+    old: 42d6b89a26bb151d259a8126a66413c0ba61e35c
+    new: 7afe0abefb06aa8a6f6bdf0b6a730dc6716fab6b
     log: |
-         42d6b89a26bb151d259a8126a66413c0ba61e35c erofs-utils: introduce fsck.erofs
+         7afe0abefb06aa8a6f6bdf0b6a730dc6716fab6b erofs-utils: introduce fsck.erofs
          
