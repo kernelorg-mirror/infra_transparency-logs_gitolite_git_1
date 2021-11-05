@@ -1,47 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5833537846098401995=="
+Content-Type: multipart/mixed; boundary="===============8145897294864280208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 05 Nov 2021 17:34:34 -0000
-Message-Id: <163613367477.14424.9763069332914410013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 05 Nov 2021 17:48:09 -0000
+Message-Id: <163613448986.22663.24449336212256140@gitolite.kernel.org>
 
---===============5833537846098401995==
+--===============8145897294864280208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 9797556520eeb9c78d800dc78f431b1ab82f9cb3
-    new: 08255295711e6fbc01cc0e739a97f0da96a16dcf
-    log: revlist-9797556520ee-08255295711e.txt
+  - ref: refs/heads/for-5.16
+    old: 827b0913a9d9d07a0c3e559dbb20ca4d6d285a54
+    new: f55af7055cd465f6b767a0c1126977d4529c63c8
+    log: |
+         0a8facac0d1e38dc8b86ade6d3f0d8b33dae7c58 ASoC: mediatek: mt8173-rt5650: Rename Speaker control to Ext Spk
+         8f4fa45982b3f2daf5b3626ca0f12bde735f31ff ASoC: Intel: sof_sdw: Add support for SKU 0AF3 product
+         a1797d61cb35848432867a5bc294ce43058b5ead ASoC: Intel: soc-acpi: add SKU 0AF3 SoundWire configuration
+         cf304329e4afb97ffabce232eadaba94f025641d ASoC: Intel: sof_sdw: Add support for SKU 0B00 and 0B01 products
+         6fef4c2f458680399b7c512cb810c1e1784d7444 ASoC: Intel: sof_sdw: Add support for SKU 0B11 product
+         6448d0596e48dbc16a910f04ffc248c3f3c0a65c ASoC: Intel: sof_sdw: Add support for SKU 0B13 product
+         11e18f582c14fdf08f52d99d439d2b82d98ac37d ASoC: Intel: soc-acpi: add SKU 0B13 SoundWire configuration
+         0c2ed4f03f0bfe2be34efbabbebe9875c3aa9ca9 ASoC: Intel: sof_sdw: Add support for SKU 0B29 product
+         359ace2b9a411c3bd4b89fdc56f8b60e0f6696d2 ASoC: Intel: soc-acpi: add SKU 0B29 SoundWire configuration
+         f55af7055cd465f6b767a0c1126977d4529c63c8 ASoC: Intel: sof_sdw: Add support for SKU 0B12 product
+         
 
---===============5833537846098401995==
+--===============8145897294864280208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9797556520ee-08255295711e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3bccbdb56ba1fd5e395c6754cc29a9f9bcf19903 net/mlx5: Fix format-security build warnings
-1f5295b1a4773db3b2206fae9e5a94624ea5f0d2 net/mlx5: TC, using swap() instead of tmp variable
-fb7224bf8d664700ab376023c962da2558a6eece net/mlx5e: TC, Destroy nic flow counter if exists
-127ebf4146586687e66ef8a35b01f39376e6958b net/mlx5: Fix too early queueing of log timestamp work
-c222425f530198b7323a4b64eefc1969af41a3bc net/mlx5e: TC, Move kfree() calls after destroying all resources
-aa0b960f4edb9379e39dfaa903d26af1ae2be924 net/mlx5e: Refactor mod header management API
-bba9f2e2e8f8f878b23e1b4765e524634e526f49 net/mlx5: CT: Allow static allocation of mod headers
-22ff95db25dab94730e182a074d2ee0c9297bb7e net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
-73deff82226b300f9ea170ebc6ecad6e5f77b997 net/mlx5e: Save memory by using dynamic allocation in netdev priv
-f67d8875e27422805b5d004374dcf0e83f288e0f net/mlx5e: Allow profile-specific limitation on max num of channels
-6231e4c165ba6563af9cae79d5a5a52104f3cb70 !!! PENDING VER APPROVAL !!! net/mlx5e: Use dynamic per-channel allocations in stats
-395ccc2aecd5fff2d7fbf680f87482f2b879c2d9 Merge branch 'patchq/444443' into mlx5-queue
-f9fc4fd0e0a137adbda753c0d9ffac468a0c5ac4 Merge branch 'patchq/443647' into mlx5-queue
-b2f5cf6268273fe14acec4dfb7a004d7199e7693 Merge branch 'patchq/443926' into mlx5-queue
-611bab3ba94bc1c55bd21d560cc60d265776931f net/mlx5e: Allocate per-channel stats dynamically at first usage
-94daa02660cfb018d9222b749ef75efdcee6bb71 Merge branch 'patchq/414154' into mlx5-queue
-08255295711e6fbc01cc0e739a97f0da96a16dcf Merge branch 'patchq/432332' into mlx5-queue
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1636134487 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1636134486-9319fc2d0e9b8b24afe0dd53f19056e898f51cbd
 
---===============5833537846098401995==--
+827b0913a9d9d07a0c3e559dbb20ca4d6d285a54 f55af7055cd465f6b767a0c1126977d4529c63c8 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGFblcACgkQJNaLcl1U
+h9A6Xwf/aZUb29rICINmMxG8+r4LPwXYc4024Srb5TEt4QMLGISo8TvlK8TC2UsC
+B87jbot2HpLNAgY2VfUC6JOAU0yYaTk87K6lyouAcPsNG1Kg/TXnusYpvIaA7WUy
+OWcRAlEHCu+1Te+4k6sudvdiOTPtW3JoNJNVCEjc7oJC7CemdoIUMq1+wgHFmN99
+27WvBrFE9P8XljJddopaJGbCrb0l/PDU/HTz+iRY5mK16MUcr9QijbUiLaiBEzTj
+1osUpeKzuK26h6VszYgPSeXA4fWCOxw4kkqk5GHqs8fMPyhYMC6ar8h9gPZ1Rkll
+5yDQ1k1qyD9mCpamxnnrj5ytnh+QDw==
+=wYhh
+-----END PGP SIGNATURE-----
+
+--===============8145897294864280208==--
