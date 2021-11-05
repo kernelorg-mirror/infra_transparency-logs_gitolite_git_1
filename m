@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 05 Nov 2021 10:43:07 -0000
-Message-Id: <163610898744.8388.18347739782944367619@gitolite.kernel.org>
+Date: Fri, 05 Nov 2021 10:44:15 -0000
+Message-Id: <163610905588.8797.11632639976493327493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 827beb7781d3dbba1a8cd8dc364cc3cb3fc13b11
-    new: 69dfccbc1186f7091f97b70a9437d6a51313834d
+    old: 69dfccbc1186f7091f97b70a9437d6a51313834d
+    new: 6789a4c05127d3f9257db6767fd7ede614e0241f
     log: |
-         69dfccbc1186f7091f97b70a9437d6a51313834d net: udp: correct the document for udp_mem
+         6789a4c05127d3f9257db6767fd7ede614e0241f net: ax88796c: hide ax88796c_dt_ids if !CONFIG_OF
          
