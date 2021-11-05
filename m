@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 05 Nov 2021 14:26:30 -0000
-Message-Id: <163612239095.24670.11950056867607972887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 05 Nov 2021 14:34:37 -0000
+Message-Id: <163612287782.28509.13087272727037772514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f
-    new: a46a5036e7d2c537995ed331b7b8727d0e28390c
+  - ref: refs/heads/for-mfd-next
+    old: 52a68ae9662e3eb9ba43a302b6de2773fd3dc37c
+    new: 8450aa5c081e1a1e37e9c4c72dd7feb643142c46
     log: |
-         a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
+         8450aa5c081e1a1e37e9c4c72dd7feb643142c46 mfd: simple-mfd-i2c: Select MFD_CORE to fix build error
          
