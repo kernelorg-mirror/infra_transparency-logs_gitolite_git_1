@@ -1,55 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6378434607886878965=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 05 Nov 2021 02:44:42 -0000
-Message-Id: <163608028252.27653.3793175930531273322@gitolite.kernel.org>
-
---===============6378434607886878965==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Fri, 05 Nov 2021 02:53:31 -0000
+Message-Id: <163608081178.2459.15086272819342202044@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/5.16/scsi-staging
-    old: 559a5d048ec3525585b4a6a2c2678b2c214b2613
-    new: 703535e6ae1e94c89a9c1396b4c7b6b41160ef0c
+  - ref: refs/heads/META
+    old: 9f68ed823d79345dc687e910121cb019eaaaedc4
+    new: 7311e335de9dfe874f99bda95c87f44e4ee5e1b6
     log: |
-         703535e6ae1e94c89a9c1396b4c7b6b41160ef0c scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
+         06f956e82b4e93f842aaa3b1365ab37134c69690 build_config.sh: update to latest git versions
+         7311e335de9dfe874f99bda95c87f44e4ee5e1b6 build_config.sh: update to latest git versions
          
-
---===============6378434607886878965==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1636080276 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1636080274-01a48a4750e3ffeca4816a3ef6da50ba0b59550f
-
-559a5d048ec3525585b4a6a2c2678b2c214b2613 703535e6ae1e94c89a9c1396b4c7b6b41160ef0c refs/heads/5.16/scsi-staging
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGEmpQACgkQ7ulgGnXF
-3j1FTQ//Q8g++F0nADbN96YjMDIXidjhrj8JECGm+EjHOi8c+uaiSnijBi5QNCmH
-/GuqX+yJkPOvdC0P5YOrtffZ0L13TmHM49ahbz1/gTjYDrk0VzF9wUER7t3HLb/r
-vsaqpThptWTGzZw07uwzYed3UfWjRlzM80KDb1HbR5bk3jfnLkKOWPjc0NHchKTW
-nCHCG2swaMy5FpzP18IShzfsDPrucmrVpzyXtl6J14+8U9KtiYM+aVvwOfr9Y0/1
-cBGRZV1Gws6u92oe6Il07RkSPM6HBICWVqLSM7YvVcGH3sFV2kWvZHRbsVuU2Mqi
-nypUTQ0uczTdyjDxBbsNSQ2p8AP97KrpNsPGwlearthUpH2I8DAdMdv/grrKZYNp
-xbJC6qoGNPISY8Gxt1SHjfEYFop0I7/d7und1oLjpGcRhC/5XA+WbC+gyNumwzy+
-C4qiZ0Lzpv1evXBSFY423UB4AzAPX5oP0RV4xgiM9Va6CYlYhtq+DeT9/g/7wSg2
-hHXZgvB8cGoSy3xdfPkCZ6gX/sGM4V6PG0kM8mqx+Hsh4qS50kpBi4kjnlmhwi8a
-Hf3DNmkhIkcRqM7bJoLldaMRjQ/mCmZCXzJ/T2lWSigLu5/ntTGPgEfKfb57xZhv
-72Y32wyqjSXpCEX7AWIZKjnTGcFxNxxOrnil4XtJy38cwad9e08=
-=CfHW
------END PGP SIGNATURE-----
-
---===============6378434607886878965==--
+  - ref: refs/heads/master
+    old: 8c07d085e0d0adf1c5d29903a32090ddd3edbc57
+    new: d1e67b1ac8168c6239b09784e06ab68f903ffd2e
+    log: |
+         559c486795929784da83517e0444c80af051973a parse_cli: add CLI option --primary-fstype
+         1eec249851a8089192209638676d29dd822e4deb test-appliance: support SCRATCH_RTDEV in file system configs
+         184a4439833225fa73d1de3f5fe0691e5ed60a97 test-appliance: add new xfs configs
+         bb28858c24d83eb4a73ec4daa1be756ffb0b5a22 test-appliance: always create all of the partitions for gce-xfstests
+         6e7867469bd3b135125a76e633e0bb50045ccb3c test-appliance: allow tests to be excluded based on the appliance flavor
+         a8b3fe81d1be2819c36b45af529513252c7442ee test-appliance: add the ext4/discard-4k fs config
+         4c894a39c8c6e7a68b3c0da31255c416807938ce test-applaince: add generic/647 to btrfs's exclude file
+         d1e67b1ac8168c6239b09784e06ab68f903ffd2e kvm-xfstests, gce-xfstestS: create TINY_TST and TINY_SCR devices
+         
