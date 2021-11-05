@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0065886899850023053=="
+Content-Type: multipart/mixed; boundary="===============4805376430099032264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 05 Nov 2021 12:15:29 -0000
-Message-Id: <163611452960.2270.6489634770779827680@gitolite.kernel.org>
+Date: Fri, 05 Nov 2021 12:15:58 -0000
+Message-Id: <163611455865.2519.16149139610435954326@gitolite.kernel.org>
 
---===============0065886899850023053==
+--===============4805376430099032264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 83c3a7beaef7fd261c190b69f6be6337f251bf16
-    new: a1efc896cb8a2831de3cf5a9747e030b494f1a26
-    log: revlist-83c3a7beaef7-a1efc896cb8a.txt
+  - ref: refs/heads/for-next
+    old: 3c7603727c3ac764d6ff50de610df5f008153d1c
+    new: a4dde9b4c3b0a39ab8ed18be2b1238d8a460d4ff
+    log: revlist-3c7603727c3a-a4dde9b4c3b0.txt
 
---===============0065886899850023053==
+--===============4805376430099032264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83c3a7beaef7-a1efc896cb8a.txt
+Content-Disposition: attachment; filename=revlist-3c7603727c3a-a4dde9b4c3b0.txt
 
 12b6fcd0ea7f3cb7c3b34668fc678779924123ae scsi: target: core: Remove from tmr_list during LUN unlink
 11682523573c1c37f8d7a6ff1096c456267ebfff scsi: ufs: Revert "Retry aborted SCSI commands instead of completing these successfully"
@@ -66,5 +66,6 @@ cc52e15397cc5dc773d3c6792b98352d3209f93f scsi: ufs: ufs-exynos: Support ExynosAu
 b52aea54b6bf740b31f675cc1c637a6c5806b37b scsi: ufs: ufs-exynos: Multi-host configuration for ExynosAuto v9
 be39f4fd8dd430053304b2ff6db712c0b3168e7f scsi: ufs: ufs-exynos: Introduce ExynosAuto v9 virtual host
 a1efc896cb8a2831de3cf5a9747e030b494f1a26 scsi: sr: Remove duplicate assignment
+a4dde9b4c3b0a39ab8ed18be2b1238d8a460d4ff Merge branch 'misc' into for-next
 
---===============0065886899850023053==--
+--===============4805376430099032264==--
