@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8190745187478281056=="
+Content-Type: multipart/mixed; boundary="===============6954744441884998263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Fri, 05 Nov 2021 06:32:01 -0000
-Message-Id: <163609392152.8459.6740358285704322949@gitolite.kernel.org>
+Date: Fri, 05 Nov 2021 06:35:34 -0000
+Message-Id: <163609413430.10873.629858157598915122@gitolite.kernel.org>
 
---===============8190745187478281056==
+--===============6954744441884998263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main-5.15.y
+  - ref: refs/heads/main
     old: 0b74d47119af79261d05bd661fb8d01aebc0e871
     new: f0381b4ee06628e50c1fd3ee6d941dea188a1416
     log: revlist-0b74d47119af-f0381b4ee066.txt
 
---===============8190745187478281056==
+--===============6954744441884998263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f2446c557de917a2b4514c9e86d7858fbd464fdd mm: use_mm: fix for arches checking mm_
 08afe7e6dd05f64c64af20ea11825067d497004b mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
 f0381b4ee06628e50c1fd3ee6d941dea188a1416 Merge remote-tracking branch 'gitlab/main' into main
 
---===============8190745187478281056==--
+--===============6954744441884998263==--
