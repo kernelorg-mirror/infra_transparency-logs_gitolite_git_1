@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8698080301787387664=="
+Content-Type: multipart/mixed; boundary="===============7256294973504929081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 05 Nov 2021 19:21:06 -0000
-Message-Id: <163614006618.16820.10946100108039912890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 05 Nov 2021 19:21:13 -0000
+Message-Id: <163614007351.16946.13597681158800893617@gitolite.kernel.org>
 
---===============8698080301787387664==
+--===============7256294973504929081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 642d66f3a2babb39298bff42754f0b2f0050e0a0
-    new: e4e0878a6024e9e0afd9815b86bc2903da28439c
-    log: revlist-642d66f3a2ba-e4e0878a6024.txt
+  - ref: refs/heads/queue-next
+    old: 14bab73c7f573cd5127c496c8855c9cdb94fbb4c
+    new: 8cd5b95b4cb426c411b3de0776be6b8d1731d609
+    log: revlist-14bab73c7f57-8cd5b95b4cb4.txt
 
---===============8698080301787387664==
+--===============7256294973504929081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-642d66f3a2ba-e4e0878a6024.txt
+Content-Disposition: attachment; filename=revlist-14bab73c7f57-8cd5b95b4cb4.txt
 
 1a8c7778bcde5981463a5b9f9b2caa44a327ff93 ice: Fix VF true promiscuous mode
 0299faeaf8eb982103e4388af61fd94feb9c2d9f ice: Remove toggling of antispoof for VF trusted promiscuous mode
@@ -84,5 +84,7 @@ b2f5cf6268273fe14acec4dfb7a004d7199e7693 Merge branch 'patchq/443926' into mlx5-
 1c050ad952ff5e4980947140b91f6376c4977d8b Merge branch 'mlx5-queue' into net-next
 b38a9e18305512b2081e6db2ee0d8894593524c4 Merge branch 'mlx4-for-net' into net-next
 e4e0878a6024e9e0afd9815b86bc2903da28439c Merge branch 'mlx5-for-net' into net-next
+9778e511388fddd8efcb8369b30494d11c01ad0c Merge branch 'net-next' into queue-next
+8cd5b95b4cb426c411b3de0776be6b8d1731d609 Merge branch 'testing/rdma-next' into queue-next
 
---===============8698080301787387664==--
+--===============7256294973504929081==--
