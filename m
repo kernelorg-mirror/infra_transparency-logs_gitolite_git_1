@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============7023117640992205702=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 06 Nov 2021 13:15:08 -0000
-Message-Id: <163620450895.8675.16070789843908982067@gitolite.kernel.org>
-
---===============7023117640992205702==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sat, 06 Nov 2021 13:16:05 -0000
+Message-Id: <163620456518.31393.2362954282553852753@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,58 +12,32 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 22c68fca1222afb447678c34912b4f3f62db7551
-    new: 82ced2388b9d673d30855f3cc8ff455cd93fc161
+    old: 82ced2388b9d673d30855f3cc8ff455cd93fc161
+    new: 8fa9029bb41de933e53de0058d7f16c95d26d24e
     log: |
-         4f10424d0f01b390e8b1df38f038fd2483efda7f scsi: core: Put LLD module refcnt after SCSI device is released
-         9cc45324d8df1431173a56c71e593bdadecfaccb media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         8432ff81d8e1aa4e2125c3791e050a8ec5857c8d mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         2af94cd3635817aebe7e8293db2b6704507b6fec arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         2c1bb40dd6130c2d06429cd8dbaf3c56dbb1e649 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         c2015543f4d37439ec42b471b24075c142041a09 IB/qib: Use struct_size() helper
-         82ced2388b9d673d30855f3cc8ff455cd93fc161 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         2b54ef17ac189a77fdae1f939f97d4e9d5e5cf55 scsi: core: Put LLD module refcnt after SCSI device is released
+         b3fb100a71c270fa6809f14cc04fbb5f3315d9e3 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         a0b906053a1a87ddb5ddd35148af240f51189218 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         61b0ef85e61a905bec7f34ab36513373683e6cfb arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         78765cf76db7ee4442828c0ba01eb48085646aa8 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         188630487257bd7f4f536ce36c794b2f19a210d1 IB/qib: Use struct_size() helper
+         8fa9029bb41de933e53de0058d7f16c95d26d24e IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
          
   - ref: refs/heads/queue/4.4
-    old: 3a37280836b7030d7dcbf594d01b95a58f88ed2c
-    new: e2f1e8aa338487a98b511e9139573ab3e35f9fd9
+    old: e2f1e8aa338487a98b511e9139573ab3e35f9fd9
+    new: 4b7696b55f5dbc9e0acdabcadd6f45c5f2e36e72
     log: |
-         282092013c8418534b962a3831f5ea2f3b66822f scsi: core: Put LLD module refcnt after SCSI device is released
-         fb3635274514f4c273f683d8e1c06ee546e283eb ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         e2f1e8aa338487a98b511e9139573ab3e35f9fd9 net: hso: register netdev later to avoid a race condition
+         005b746442b29da976c4711e82317a40757b9492 scsi: core: Put LLD module refcnt after SCSI device is released
+         3982582c281c8803eaa80b9b20b75ed4d6b31a58 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         4b7696b55f5dbc9e0acdabcadd6f45c5f2e36e72 net: hso: register netdev later to avoid a race condition
          
   - ref: refs/heads/queue/4.9
-    old: ea64a587b8055300a8c5fd6bddd59202bb7d6b89
-    new: 04b415d5ec260b1ba4819defd8b59c05e073f596
+    old: 04b415d5ec260b1ba4819defd8b59c05e073f596
+    new: a04f0d029c20c3cdbdbcab0c82fb20334facfbff
     log: |
-         82e42d811aa4def8fbdcd2c4cd1dc9afc093d46e scsi: core: Put LLD module refcnt after SCSI device is released
-         d2ab5cde4b6f75ec7506021e35b9b5d9fdd7fc51 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         a275aa5137703a2118cfeafe21847baf3eabd154 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         96232c706fe2715874feb10fc0d3351689f918cb ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         04b415d5ec260b1ba4819defd8b59c05e073f596 net: hso: register netdev later to avoid a race condition
+         c6a1ccef6e5c04518506bd9cc7b62c32820b296f scsi: core: Put LLD module refcnt after SCSI device is released
+         938ad844cc5ecac88c47d7acdca06ea468311fdb mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         0671973407fc8bfe487526e4b4374e2a0e4f727a arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         bb22ee1c1ce77b1f00b06dede1b28a6e9084d750 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         a04f0d029c20c3cdbdbcab0c82fb20334facfbff net: hso: register netdev later to avoid a race condition
          
-  - ref: refs/heads/queue/5.15
-    old: 34abd415c7d8f6803e06937b94f689e55bbb1429
-    new: b6abb62daa5511c4a3eaa30cbdb02544d1f10fa2
-    log: revlist-34abd415c7d8-b6abb62daa55.txt
-
---===============7023117640992205702==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34abd415c7d8-b6abb62daa55.txt
-
-abc558fd0f8963b71aff3360468f3c0b9328eb51 sfc: Fix reading non-legacy supported link modes
-cb667140875a3b1db92e4c50b4617a7cbf84659b media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-421f91bf045195fe2359462ce6b2956a04ffaa1a Revert "xhci: Set HCD flag to defer primary roothub registration"
-f5e3b7f0f0b78514d68c44e7909ff2547c51bbb7 Revert "usb: core: hcd: Add support for deferring roothub registration"
-f17dca0ab3f38b19c0f1b935f417f62d4a528723 drm/amdkfd: fix boot failure when iommu is disabled in Picasso.
-110d5f4421ed8276801a7e10257803d4e5f163e2 Revert "soc: imx: gpcv2: move reset assert after requesting domain power up"
-57f31b313231d81639813eac0a3c2e21984bf557 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-a273384cf1af36fbfaa90039f33e184375508b4c Revert "wcn36xx: Disable bmps when encryption is disabled"
-6ecad8906f05a44d3ce15ec3cba6871f2de93095 drm/amdgpu: revert "Add autodump debugfs node for gpu reset v8"
-8af3a335b5531ca3df0920b1cca43e456cd110ad drm/amd/display: Revert "Directly retrain link from debugfs"
-fd5f954b690c63a9d5825ec8c7369329bae1740d Revert "drm/i915/gt: Propagate change in error status to children on unhold"
-569fd073a954616c8be5a26f37678a1311cc7f91 ALSA: usb-audio: Add quirk for Audient iD14
-b6abb62daa5511c4a3eaa30cbdb02544d1f10fa2 Linux 5.15.1
-
---===============7023117640992205702==--
