@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 06 Nov 2021 15:47:12 -0000
-Message-Id: <163621363239.365.17802283591822394550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 06 Nov 2021 15:50:03 -0000
+Message-Id: <163621380391.3759.15223383170686873823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8e1e967bc8d99a3233d51f67f6b88620cdff78dc
-    new: 9c4997d6592e5daf046a6968ac83cf615c51fbe1
+  - ref: refs/heads/perf-wip
+    old: 944947f217e992a55d2144ad81e3edd3d74eedcc
+    new: 8338c19be664074e32e338d5ba05b3d3bfaa5701
     log: |
-         9c4997d6592e5daf046a6968ac83cf615c51fbe1 capsh: better error handling for integer parsing.
+         8338c19be664074e32e338d5ba05b3d3bfaa5701 io_uring: support for user allocated memory for rings/sqes
          
