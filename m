@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4252486937393137132=="
+Content-Type: multipart/mixed; boundary="===============5949185288234062732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sat, 06 Nov 2021 21:07:30 -0000
-Message-Id: <163623285068.9496.250875037867684789@gitolite.kernel.org>
+Date: Sat, 06 Nov 2021 21:07:39 -0000
+Message-Id: <163623285910.9576.8279787708756206427@gitolite.kernel.org>
 
---===============4252486937393137132==
+--===============5949185288234062732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,49 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: d674a8f123b4096d85955c7eaabec688f29724c9
-    new: 69c55f6e7669d46bb40e41f6e2b218428178368a
-    log: revlist-d674a8f123b4-69c55f6e7669.txt
+  - ref: refs/heads/master
+    old: 95a359c9553342d36d408d35331ff0bfce75272f
+    new: 70bf363d7adb3a428773bc905011d0ff923ba747
+    log: revlist-95a359c95533-70bf363d7adb.txt
 
---===============4252486937393137132==
+--===============5949185288234062732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1636232847 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1636232855 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1636232846-d515c749f6fae4b54d25dd894435ed53a6ab0ef6
+nonce 1636232854-057c53dba0954c97a557eec0c5404b4f976a24d5
 
-d674a8f123b4096d85955c7eaabec688f29724c9 69c55f6e7669d46bb40e41f6e2b218428178368a refs/heads/testing
+95a359c9553342d36d408d35331ff0bfce75272f 70bf363d7adb3a428773bc905011d0ff923ba747 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGG7o8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqXJFCAC1InAihuRmLEj8lkBFT4AWeMI0eMd9
-aSI+7KOxv7YUNQ1K962VDz6eetJr8NnOSn+wG3br4U5PdPmYDUXCurdbWVeDmNK4
-8C+88YG3ef1u1Qm+SI5VhaXQU8kuRwotlqUjN52OFq53SST6YHA1fDlC4aY+1cAG
-LllBEzIzTp5V02UayXLJ0A/MB/kCh1h5t+Y24PnxqTVjCiR+uo5lir39U9/N4/qM
-26dU5jerF4Sip+Ry32gAfiBZPpo8xZqKI9mNR89nLjuY/r54ABSwIdFRKeanR9dh
-fv8/5eOOswE5gcSRCUxpR3roG6Ca7k6dOfunddJhmMU6kje1XWmNigJJ
-=PDl3
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGG7pcTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqXb0CACuMAEGfIrZIXbmMwm/nZA0BrABGr7S
+01X34Xc9smhQAmn1AKGmMB00zpS1sR4iy8KGeFdf4c/PwOkyCroSuRxB47OYMMhe
+b2yowZRSA3gGkL+fmfLCwTYb6kPBBsbxKezdMupdaLD89B/hc+1tCSj+PvHWEwT0
+38sdm0Ki3vuFjKbaCZm9bw8OAQwomnPqqJltN0Vrwv/Ep+3AyU60/8/9mlSu2H+z
+5yb7T086n4c0EIIZvM3Ykyhgns1hj34QmYOKr9Lv8R7PNjeO5CDkscjXM99gf8Xt
+dLLi2u3shIBBsrdUQ2bYi4vWXgPVu0tw62RUxW18u6VByLsouGKoHzQn
+=5seE
 -----END PGP SIGNATURE-----
 
---===============4252486937393137132==
+--===============5949185288234062732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d674a8f123b4-69c55f6e7669.txt
+Content-Disposition: attachment; filename=revlist-95a359c95533-70bf363d7adb.txt
 
+c33f0a81a2cf3920465309ce683534751bb86485 x86/fpu: Add fpu_state_config::legacy_features
+db8268df0983adc2bb1fb48c9e5f7bfbb5f617f3 x86/arch_prctl: Add controls for dynamic XSTATE components
+23686ef25d4ae81bc12fe3994d1905191fcf71f8 x86/fpu: Add basic helpers for dynamically enabled features
+4b7ca609a33dd8696bcbd2f1ad949e26a591592f x86/signal: Use fpu::__state_user_size for sigalt stack validation
+53599b4d54b9b8dda1d537a558946869d2acbddc x86/fpu/signal: Prepare for variable sigframe length
+9e798e9aa14c45fb94e47b30bf6347b369ce9df7 x86/fpu: Prepare fpu_clone() for dynamically enabled features
+e61d6310a0f80cb986fd2076d432760b3619fb6d x86/fpu: Reset permission and fpstate on exec()
+c351101678ce54492b6e09810ec02efc0df036a9 x86/cpufeatures: Add eXtended Feature Disabling (XFD) feature bit
 dae1bd58389615d401a84aedc38fa075ef8f7de6 x86/msr-index: Add MSRs for XFD
 8bf26758ca9659866b844dd51037314b4c0fa6bd x86/fpu: Add XFD state to fpstate
 926245c7d22271307606c88b1fbb2539a8550e94 nvmet-tcp: fix a memory leak when releasing a queue
@@ -1067,13 +1075,5 @@ f53ea9dbf78d42a10e2392b5c59362ccc224fd1d selftests/bpf/xdp_redirect_multi: Use a
 f47d4ffe3a84ae11fc4bddc37939b9719467042c riscv, bpf: Fix RV32 broken build, and silence RV64 warning
 9bea6aa4980f1b1afa69d4f83cdaa449d47c0fc4 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 70bf363d7adb3a428773bc905011d0ff923ba747 ipv6: remove useless assignment to newinet in tcp_v6_syn_recv_sock()
-c0f49d98006f2db3333b917caac65bce2af9865c can: j1939: j1939_tp_cmd_recv(): ignore abort message in the BAM transport
-a79305e156db3d24fcd8eb649cdb3c3b2350e5c2 can: j1939: j1939_can_recv(): ignore messages with invalid source address
-164051a6ab5445bd97f719f50b16db8b32174269 can: j1939: j1939_tp_cmd_recv(): check the dst address of TP.CM_BAM
-d9447f768bc8c60623e4bb3ce65b8f4654d33a50 can: etas_es58x: es58x_rx_err_msg(): fix memory leak in error path
-3f1c7aa28498e52a5e6aa2f1b89bf35c63352cfd can: peak_usb: always ask for BERR reporting for PCAN-USB devices
-6b78ba3e51f9a2fa5b48eef959acc8b6f02cbf1f can: peak_usb: exchange the order of information messages
-691204bd66b34ba982e19988e6eba9f6321dfe6c can: mcp251xfd: mcp251xfd_irq(): add missing can_rx_offload_threaded_irq_finish() in case of bus off
-69c55f6e7669d46bb40e41f6e2b218428178368a can: mcp251xfd: mcp251xfd_chip_start(): fix error handling for mcp251xfd_chip_rx_int_enable()
 
---===============4252486937393137132==--
+--===============5949185288234062732==--
