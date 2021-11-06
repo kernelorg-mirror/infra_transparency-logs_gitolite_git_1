@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 06 Nov 2021 14:11:18 -0000
-Message-Id: <163620787854.6039.6717558118775675046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Sat, 06 Nov 2021 14:23:31 -0000
+Message-Id: <163620861188.13841.9777515852987258770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/heads/kvm-arm64/vcpu-xarray
-    old: ed6e48e687d24f485caced8d2f9d95de6ed0df58
-    new: fc21d44cdf6f70e7a6911050dc09d610752bf0f4
+  - ref: refs/heads/master
+    old: 71e6d9990f6b9a9ab30f8db4041ef34c6a79b5ef
+    new: 2261c74a88f9bc9e87c9ffaae5a98261087730ae
     log: |
-         9bbd4d000036c5749e370d1851d42aef9634cfc3 KVM: Move wiping of the kvm->vcpus array to common code
-         67fab78a9ac0539e4e3d5dcdc2ecb4803db3e204 KVM: mips: Use kvm_get_vcpu() instead of open-coded access
-         986de23ffc759f37a1f9f4c8984eb5e147645bed KVM: s390: Use kvm_get_vcpu() instead of open-coded access
-         bf50c68739352f7a2bf7fcae2196f84329ccd69f KVM: x86: Use kvm_get_vcpu() instead of open-coded access
-         669c63abe00f6fa17bfce617a4761336316780dd KVM: Convert the kvm->vcpus array to a xarray
-         a9553c70596fba73345ba2997e75ff0d0f607bab KVM: Convert kvm_for_each_vcpu() to using xa_for_each_range()
-         6215c91b9c99ad2bffb3e0e4144b86cdbbbb28a8 KVM: arm64: vgic: Tighten vgic teardown
-         fc21d44cdf6f70e7a6911050dc09d610752bf0f4 KVM: arm64: vgic-v3: Move early init to kvm_vgic_create()
+         775527e886a94d89ac90239ef54e1ef436956e75 fix the buf not freed in read_field
+         e02896c5da8f56c139b1a3ecfd68d72336ca7727 Merge pull request #98 from Huangxiaodui/master
+         da78c54b2fdf1140dfa1438172183473deb30d96 fix python errors in genconfig.py
+         dcd169248b897d1a709f6f640cb1e72cfac19c89 add furture print function for Python2
+         a8c74e6066a010e9809e87c7c9df5e265a97a44e Merge pull request #99 from meow-watermelon/fix_genconfig_python_syntax
+         5a1e150e3743096539eb3535b8b118841b902aac remove outdated mcelog.conf.5 manual file
+         b563c9964e770fd2a9954d8eb50035960466c7ca Merge pull request #101 from meow-watermelon/remove_outdated_mcelog.conf.5
+         2261c74a88f9bc9e87c9ffaae5a98261087730ae Fix logrotate syntax
          
