@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0321805355174437572=="
+Content-Type: multipart/mixed; boundary="===============7553230715253973880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 07 Nov 2021 10:53:30 -0000
-Message-Id: <163628241018.6667.13270680883015537646@gitolite.kernel.org>
+Date: Sun, 07 Nov 2021 10:53:34 -0000
+Message-Id: <163628241408.6739.9841300470012706101@gitolite.kernel.org>
 
---===============0321805355174437572==
+--===============7553230715253973880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7
     new: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
     log: revlist-d4439a1189f9-b5013d084e03.txt
 
---===============0321805355174437572==
+--===============7553230715253973880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636282409 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636282413 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636282408-a4c97e0f3144cc54ace93317f9dad96396010120
+nonce 1636282412-5d3f47d19fdad661f701d13292daab0500a41265
 
-d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7 b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb refs/heads/staging-linus
+d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7 b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGHsCkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yEoP/Rqv87K0b07DH+b3pPTm
-ITUQvhf2e8KGszeYyIWcI6vAo9GONIcwX72iFdTIiM5Etb4mVWDZaUQgGizRl0BY
-n13Sxl8WjaN+nvIVGD+pBWTcdxYjePzIvV8TiS6T2ltlK2D6XXyl2ycF293jAIVz
-Se2bmZ30tkymK6Xm1Q3t6YfvqP/n8vj+uuwPbEPNkk5VL/ronskPj7vBrt3L4O9m
-OUh8ro16XOf+d43mluyfinM0osHlLuyJgJPAWVvWJSZBeRKroUxHQKYPB6Oih+CA
-AJP/GaAJrLGAhHHK9vtj1ob/fh0vNuqA13OrgE9QY1/c+arR0n8ef+rt4uVHyibo
-Xfl4PgOUCnL0FEMeRaLtIpRJ5Tqee8cvzKPxL/owdivxn4jBagqkQ9oJ2pqTisiS
-Kw8KDL3V+DJgZxroRMY6K1QiAhgjXDBdJi8Cszhf02L87y9yAp0SAn2ed2mXv6x8
-7aRGbBxDJ4tdymxVvYdb8HgZbqQrW1KXqA5cEYwzRUiHDwzKGD/x69NXMlkSViYH
-bgq/81UKI9vsWHgnqeAe4SUgi1vV3rZJan1lDQnubRzfsvWBjQcTMImRy5nfE5/s
-7Z1ypI08f09s4le3SLSHOuXShJqA2/l5CqiZuT+jMzDNHOk8Gb5096uBCxVCCo3Y
-cXie9iabqYPXA7gLTqy+Wogc
-=cwRk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGHsC0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+By4P/jGuIqAokQGPfL630Du7
+HOuxhKOPGX9blrUXLxkbEcZRC1Z+fDHAm/SLPTxhVwY4vUaAsG0WFf5r0czvNkqW
+GyEw+hp9zC00876I2UJfgasqPXoV0D+XutKtk4nN2sHR9Ebio7h4adqXIHUMJkXm
+DJKc++euFgxF3LnHDDh8DXtXUQVgbRf1nBXylNYE5YzlG/+MFPQYYEoc4ldmIj5l
+U4D4ztEQGt9I2hhaXPWFsEXdx9Est0ZY0RJJgHi8bCNgEMRDJ0K2pQkGmnRgb5sS
+TPb5/PUuFnRFGNxGE8AVU83aWBpzgRv8ZLFXbUYrQQKCzJHBxLHCrD5mxEuoRpyw
+r2oRH0pLlN5jyVhLvCDEDU6jc/EXEKYCWg85crAggoSdsG2NI/CTrDj03mZFUf26
+N0lTCYVnXG0As0SNNHTErR0oAEVDZULI/GBhwnGStrMWSom+4WDygaDn4xKYm0dc
+EVDtk8wRigr40ecMuqx4mlyMQUqFhYJ2LJbZsn6Vj2V6nOCVh0ltmEmfpqK2P/Ce
+m5JEPHPt1PhvuHLPivAmYZ9ysVNoRcqn1plVg1/5cJLFBBi5IvO/fn0exJVasR5g
+HmyYN4qK0iR1S38MdFRfhDZjLVR80kZEWZbK7U3HWUDIzXX3HnLBhdESu2v0YQPw
+jBpX/qqbAqKPq3GQ7ugrtOAC
+=+gRO
 -----END PGP SIGNATURE-----
 
---===============0321805355174437572==
+--===============7553230715253973880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d8b4e5bd4889e6568e8c3db983b4320f06091594 Merge tag 'fs_for_v5.16-rc1' of git://g
 2acda7549e7081f75bac6e1e51518eb8a3bf5d5d Merge tag 'fsnotify_for_v5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb Merge tag '5.16-rc-part1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============0321805355174437572==--
+--===============7553230715253973880==--
