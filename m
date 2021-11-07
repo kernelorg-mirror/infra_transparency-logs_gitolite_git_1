@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5211770406899201238=="
+Content-Type: multipart/mixed; boundary="===============8284976796720797129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Sun, 07 Nov 2021 16:16:58 -0000
-Message-Id: <163630181814.10308.13015098789489664597@gitolite.kernel.org>
+Date: Sun, 07 Nov 2021 16:18:01 -0000
+Message-Id: <163630188127.10689.16177977074748576429@gitolite.kernel.org>
 
---===============5211770406899201238==
+--===============8284976796720797129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mdf/linux-fpga
 user: mdf
 changes:
-  - ref: refs/heads/fixes
-    old: 2a2a79577ddae7d5314b2f57ca86b44d794403d5
+  - ref: refs/heads/for-next
+    old: 57b44817a8d63e75394bc21849f585ded53de8bb
     new: 8bb7eca972ad531c9b149c0a51ab43a417385813
-    log: revlist-2a2a79577dda-8bb7eca972ad.txt
+    log: revlist-57b44817a8d6-8bb7eca972ad.txt
 
---===============5211770406899201238==
+--===============8284976796720797129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a2a79577dda-8bb7eca972ad.txt
+Content-Disposition: attachment; filename=revlist-57b44817a8d6-8bb7eca972ad.txt
 
 9b2f72cc0aa4bb444541bb87581c35b7508b37d3 elf: don't use MAP_FIXED_NOREPLACE for elf interpreter mappings
 9e1ff307c779ce1f0f810c7ecce3d95bbae40896 Linux 5.15-rc4
@@ -1051,4 +1051,4 @@ ca5e83eddc8bc85db5698ef702b610ee64243459 Merge tag 'for-linus' of git://git.kern
 75fcbd38608c3ce9f4dc784f2ac8916add64c9a8 Merge tag 'perf-tools-fixes-for-v5.15-2021-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 8bb7eca972ad531c9b149c0a51ab43a417385813 Linux 5.15
 
---===============5211770406899201238==--
+--===============8284976796720797129==--
