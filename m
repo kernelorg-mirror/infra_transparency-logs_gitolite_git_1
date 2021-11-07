@@ -1,42 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7614865701654601639=="
+Content-Type: multipart/mixed; boundary="===============0796309522394027520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 07 Nov 2021 10:23:52 -0000
-Message-Id: <163628063210.20066.847599878845077267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 07 Nov 2021 10:50:59 -0000
+Message-Id: <163628225909.5503.18176698920676634185@gitolite.kernel.org>
 
---===============7614865701654601639==
+--===============0796309522394027520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rc0+notifiers
-    old: 29ab05dcfc8e05ffc1cae77249ea956b787939d2
-    new: bd7ff13a5d822700da2ce50fe1abcebbbea4f5ed
-    log: revlist-29ab05dcfc8e-bd7ff13a5d82.txt
+  - ref: refs/heads/char-misc-linus
+    old: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
+    new: a4119be4370eea352df0dad294488e60e67321cf
+    log: |
+         20b02fe36530a1e48dde73c80b882ae276346ea3 arm64: cpufeature: Export this_cpu_has_cap helper
+         a4119be4370eea352df0dad294488e60e67321cf Merge tag 'coresight-fixes-v5.16' of gitolite.kernel.org:pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
+         
 
---===============7614865701654601639==
+--===============0796309522394027520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29ab05dcfc8e-bd7ff13a5d82.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9a49619791a3cac5789764593d855c54de1c70bc parisc: Check notifier registration return value
-ac1e7a9ae7cda81679b15961a9701a3d74acf0a8 macintosh/adb: Check notifier registration return value
-8c535ef9402d256330a4d8894457eab801216660 mips: Check notifier registration return value
-e8be2bdaad04826b80fda10dcceff41bd3579be1 powerpc: Check notifier registration return value
-afa19854f2e9a373d6e12dec58bba69cf0c4c12f sh: Check notifier registration return value
-da1096f0feb80a48b73f3f9bc09aeef983368ff4 s390: Check notifier registration return value
-6cc4d1e806026db631e5816b3d555a4430a995dd sparc: Check notifier registration return value
-f85f03cb9facb19c76b0f0e8c05233bb26149230 xtensa: Check notifier registration return value
-c694d541b4062d40b820c57c2159e162553e651b crypto: ccree - check notifier registration return value
-79caa3b58bbd45091f87cacbc2a968d0ebfb5b14 EDAC/altera: Check notifier registration return value
-ec65972160591d015a8fc8861b93f407d28c2720 power: supply: ab8500: Check notifier registration return value
-bd7ff13a5d822700da2ce50fe1abcebbbea4f5ed notifier: Return an error when callback is already registered
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636282256 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1636282256-c01204401864bb08f88d24735d7d05623a4aceb4
 
---===============7614865701654601639==--
+b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb a4119be4370eea352df0dad294488e60e67321cf refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGHr5AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H68P/i8ZImNaTKRr5NqXTmiU
+31fZ6F0m9iOT47Iht8LWGvbNR5XI1sOuTA8kEdTUsLZx5ZORbbUBLQ3+2aPzCVDz
+41+4Jjh9zamDWwbG10aMMUZdbHEaZBeMJ2x4e8SrWpxOtdLb0a1PJwXSZZ8XrLg/
+KA92v+42p2PRZCWnx1HUzWisxwzSslCQiLUFwaecWJJYwVUpC5o6E+sW1ax+LY0g
+C3yc5GBhDvxzYgv4WqhKAAUnjIvY+LbORBYfWMZu7Piff99k6SJhZGwOR/m62E2p
+uuuZoZO2SiNTdl0O4lhIq9csSzVd61RlPxWcv65sM3+UzZRMxZyiGCZYolE+G2aM
+NhXd/7YpB6Adgy6IL0LhsA7/kTBnKsYoR0U7pUCJMprZxOdQWJGpT+TVy4psevwW
+Nc7SWhWAmWKdMdd167WtsIhG5dBQA8gB0YAOl56VzRNfEfcAOHj7a6OZ6ySkU5KE
+1CkPDZBtsqf8dyfJo9IX6WxoW0A+fFbA5PHSvbidwqQJsJ73YkV5Ynt5MfgFW4mQ
+/liJHV1wM8G1djjv6QcFqvlnW4WFJQ4NyhsK9Q7fb+Agg/Ph90rUD26ridsfhIoC
+6/QVDSeuaZBAiLBN5yvo8sn9S+GFoGscN9r7Q1lS4EtVnBP8qCb1dkBnfNiJ9iwA
+4yBkPALWNpWu4iMwPQZUsRty
+=Ewkn
+-----END PGP SIGNATURE-----
+
+--===============0796309522394027520==--
