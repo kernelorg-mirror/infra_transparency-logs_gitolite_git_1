@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3526624038856054000=="
+Content-Type: multipart/mixed; boundary="===============3901696076616169923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 07 Nov 2021 10:52:53 -0000
-Message-Id: <163628237309.6339.6377793872439169236@gitolite.kernel.org>
+Date: Sun, 07 Nov 2021 10:53:26 -0000
+Message-Id: <163628240641.6563.8483468303528779725@gitolite.kernel.org>
 
---===============3526624038856054000==
+--===============3901696076616169923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,60 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 8a90ee69bff5d56d90c8a9d69d681df877a1cb74
-    new: 67c09cd8b781a80780314dd00c564f37dd6e5bd2
-    log: revlist-8a90ee69bff5-67c09cd8b781.txt
+  - ref: refs/heads/main
+    old: d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7
+    new: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
+    log: revlist-d4439a1189f9-b5013d084e03.txt
 
---===============3526624038856054000==
+--===============3901696076616169923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636282355 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636282404 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636282354-717c3a3f4fd1384b80ecd5c26044e7caf9b07d68
+nonce 1636282403-4c1a5dd27d61b37d1bebaccb52fc9a38d2f48e42
 
-8a90ee69bff5d56d90c8a9d69d681df877a1cb74 67c09cd8b781a80780314dd00c564f37dd6e5bd2 refs/heads/staging-testing
+d4439a1189f93d0ac1eaf0197db8e6b3e197d5c7 b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGHr/MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p1AP/RW0PTsJ6S2r6tp9WDL6
-CL279wNa51sQduknpx9ne1sHgyWPzPz2s6L2e6ZW7OTPMjdt/OtByTSAEGtJHykA
-S1CEnKskJOrQ3R23AciUol8YfnSSHV34KeyRO30yEW2rRJdjQYCcew5jebXSqDVG
-Hrg3WJOUvT8ddCWufI9P6BmGCqvsv9yrdpZXIdHd84QolFXDC9q75m3/VTra1CbA
-14UL7uu+dPjBtysE9TVIgwtB96ze7C8Uc4thrpPBSZHcCtkgyjMxN19POUoSOc8e
-apc/W32EADvVdU+vmse101xIj923DVnASWnXUN1/ZhCK7r4yc9Wj/v3AvZ0wX9u8
-A7lcXZlW6nRKxr6ZilEkUPF7DOs0IbqZx9UoGNQU2VHafXTvH0AUhG6x8eM5L0gm
-IDNUH/qD9bzUXN7MLFyVNJAIpcXzUG+mjceNo3AL2FfvLj1EuTLOThDNpzq83AzG
-mXY8EUxldWxnNVE6uG4QUTfN02YXQ0XPa8M4tTtFrTGrgLr3vq09ZXU57AobTrLx
-UJRRFE8fyJCKOA1CY/w6uODgAqzfBagL1HvoFCcw27d4ENBhdBkZl1nsKoJSfNMu
-Un1t39yO+5E1DM9d6eO1wrGMTGc6KWyCCn8JTIQy8MxIKGeIThMWQYw8Gox6dip7
-olmG9PPYgfHU4Z4QF2KiAB8b
-=qguf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGHsCQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O1wQALGWq6r44p3ZLEMp0Twx
+ZyV12w0+c/bmyJbIstav1DhSCcwCfdjhAV0pw7gaze7WUatYiCA2wamAoCB6BLkN
+ZO9S0BzMedAAA+3vlf2N6DWczR8y+ydD7PCQ8ywI+62wD70thHROjOiM7A8dwQlP
+Sc1bxABQSlmP+eqxIYHWWfbUcfcDkb2gXccF2XNp3CR9GImQe2ZC8YdLvPdU+d1W
+t8Eg8u+oSgX1j4asnkhhD0gPJx9P1mrZ7UUggcEKHLgj6CkfvQF/gcQL+o8DcgDM
+vgrF6NWfe8Yr4BQ94stvxmNLo263PJxefpTzUKMeTMk8sjuHfl69Nd6DjNZsjeXX
+Tpf6g48iXWmlLEM89eMeS3ubUdfz/O1im3XitnCBgB4iLu9URRGcg3klUnGCMG79
+Xl2wg1yMQKYXVUzNY2WZkGDJNlZkCzVNdSiX+M54o6xp+vbRAO7MAwFtTyUTct4N
+6FGoYzKjeQSEmi0ImvsnrsyJM8VPitOma9E3/Yggtk+TYSOaCv51vwHY5fW6+n5u
+X3rqP2TQ2D5xH09wUtThP/IivXfcAU1A3uSstkffheVIPbg+/6fT9KHWkdWsem20
+k5LPYtTA1rf2jYcffGXA16QeJZzNwLVrpRQg4HBWG8aVrjRvdPy+30CVNmACJZYk
+jDavu4FQwpKcW8VB5ix7DAIh
+=y+GN
 -----END PGP SIGNATURE-----
 
---===============3526624038856054000==
+--===============3901696076616169923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a90ee69bff5-67c09cd8b781.txt
+Content-Disposition: attachment; filename=revlist-d4439a1189f9-b5013d084e03.txt
 
+08d0a992131a4db7328b0c2f5a0259732e4d0d12 scsi: pm80xx: Fix incorrect port value when registering a device
+b27a40534ef76a22628a5c12f98ea489823a8ba5 scsi: pm80xx: Fix lockup in outbound queue management
+c29737d03c74fbaf69ea50d355b25e43d0bacc73 scsi: pm80xx: Correct inbound and outbound queue logging
+51e6ed83bb4ade7c360551fa4ae55c4eacea354b scsi: pm80xx: Fix memory leak during rmmod
+9e1c3206960f8e0a5b6a42d3e6693f10c5ca10ac scsi: qla2xxx: Add support for mailbox passthru
+52cca50d35f814e737791e2c2cf8c279219a9f29 scsi: qla2xxx: Display 16G only as supported speeds for 3830c card
+8192817efbc34e9ca482edf340d41c5ca0d4dad0 scsi: qla2xxx: Check for firmware capability before creating QPair
+e6e22e6cc2962d3f3d71914b47f7fbc454670e8a scsi: qla2xxx: Fix crash in NVMe abort path
+527d46e0b0147f2b32b78ba49c6a231835b24a41 scsi: qla2xxx: edif: Use link event to wake up app
+3ef68d4f0c9e7cb589ae8b70f07d77f528105331 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+38c61709e66294f33e474eaafd6ae3be381030da scsi: qla2xxx: Call process_response_queue() in Tx path
+3a4e1f3b3a3c733de3b82b9b522e54803e1165ae scsi: qla2xxx: Move heartbeat handling from DPC thread to workqueue
+3d33b303d4f3b74a71bede5639ebba3cfd2a2b4d scsi: qla2xxx: Fix use after free in eh_abort path
 b0fe235dad775d267d75aa19c0ce61fa527a287f scsi: qla2xxx: Update version to 10.02.07.100-k
 914418f3690177b600f5b0d91e1902ab7332536d scsi: qla2xxx: Remove redundant initialization of pointer req
 99154581b05c8fb22607afb7c3d66c1bace6aa5d scsi: lpfc: Fix list_add() corruption in lpfc_drain_txq()
@@ -1068,18 +1081,5 @@ b1eee3c5486003b247127538210f15fd6ebb5ee5 Docs/admin-guide/mm/damon/start: simpli
 d8b4e5bd4889e6568e8c3db983b4320f06091594 Merge tag 'fs_for_v5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 2acda7549e7081f75bac6e1e51518eb8a3bf5d5d Merge tag 'fsnotify_for_v5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb Merge tag '5.16-rc-part1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-97a0b328ee363bb26791c40161d7dc09a7d59ae8 staging: r8188eu: remove ODM_Read1Byte
-125668e0e205ae1acd7b75a461cac429ec67b04c staging: r8188eu: remove ODM_Read4Byte
-a32379ba70d3dd3500e738b3b11ed1af47739221 staging: r8188eu: remove ODM_Write1Byte
-fdceabd0c52e0913f1c2a8dc6c19fbd566aa62db staging: r8188eu: remove ODM_Write2Byte
-fbfd1881185b9bdb840aa1bf64553e4ebf088689 staging: r8188eu: remove ODM_Write4Byte
-493402bed2ee64dcf44cbfbc4691c06cb829152c staging: r8188eu: os_dep: remove the goto statement
-a1d3db9b251066ab9b8a660a4b7edeca619ea3ea staging: r8188eu: core: remove the function __nat25_timeout
-69fd95742a2ec09e76a01b0b21e950b1c063927a staging: r8188eu: core: remove unused variable sz
-0a3f3c2b5b25d4e8759b9ee3cc475c4328e90329 staging: r8188eu: core: remove the unused variable pAdapter
-2930093c359b298eb6e4ea61a8f89d1101d85966 staging: r8188eu: remove MSG_88E call from odm_TXPowerTrackingThermalMeterInit
-76891ce4f63d4af644ccf3c0661c1a0ab8a5a2aa staging: fbtft: Remove fb_watterott driver
-b870067ed6fe7ce486b12d9bf4c131089fdd8ce2 staging: rtl8723bs: core: remove unused variable pAdapter
-67c09cd8b781a80780314dd00c564f37dd6e5bd2 staging: rtl8723bs: core: remove unused local variable padapter
 
---===============3526624038856054000==--
+--===============3901696076616169923==--
