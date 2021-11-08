@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3321146553799056880=="
+Content-Type: multipart/mixed; boundary="===============5914675578039087168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 08 Nov 2021 14:30:50 -0000
-Message-Id: <163638185093.14114.7822493709583174612@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 14:31:00 -0000
+Message-Id: <163638186051.14229.5468604071880401494@gitolite.kernel.org>
 
---===============3321146553799056880==
+--===============5914675578039087168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/ceph-fscrypt-size
-    old: b7d5fc2631ef2bc596cc3c99a04dd290b4c6d77a
-    new: 42cb4762205af057443cb3da9479d47d183c8b53
-    log: revlist-b7d5fc2631ef-42cb4762205a.txt
+  - ref: refs/heads/ceph-fscrypt-fnames
+    old: a44957d1bcd62ad83b59caaa35599dba85cbc093
+    new: 98d487ede749a480b75cc8473d7abd0508d7c6d7
+    log: revlist-a44957d1bcd6-98d487ede749.txt
 
---===============3321146553799056880==
+--===============5914675578039087168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7d5fc2631ef-42cb4762205a.txt
+Content-Disposition: attachment; filename=revlist-a44957d1bcd6-98d487ede749.txt
 
 0764e365dacd0b8f75c1736f9236be280649bd18 arm64: dts: allwinner: h5: NanoPI Neo 2: Fix ethernet node
 3f4b57ad07d9237acf1b8cff3f8bf530cacef87a ASoC: pcm512x: Mend accesses to the I2S_1 and I2S_2 registers
@@ -571,14 +571,5 @@ b405f1255a239c95fdbd132f0e71bf66d531154e ceph: create symlinks with encrypted an
 0cdadc559f219a634b8779921bb97480cbb91e91 ceph: add a new ceph.fscrypt.auth vxattr
 e98f5d6eca5dd62b35d4a2179f2b3aece9941385 ceph: add some fscrypt guardrails
 98d487ede749a480b75cc8473d7abd0508d7c6d7 ceph: don't allow changing layout on encrypted files/directories
-67f017e4edf94472477cae3fee4b5289ff7ed976 libceph: add CEPH_OSD_OP_ASSERT_VER support
-f101a36542a748cfb05779fa9c7e41aace3803d6 ceph: size handling for encrypted inodes in cap updates
-48c6a21c000c7b5423609b47774fb572999eae90 ceph: fscrypt_file field handling in MClientRequest messages
-071d5fc5b21eff3418b1125eb8b4fd6a549dc0fa ceph: get file size from fscrypt_file when present in inode traces
-50709509eef90e04207c68c840c5bc6f2e5b1e86 ceph: handle fscrypt fields in cap messages from MDS
-c316473f6c5785ef5398e68bfb818652714f7958 ceph: add __ceph_get_caps helper support
-b0e5dcc4ad03b572c3b697dd2806c2e88c9027ac ceph: add __ceph_sync_read helper support
-428fe6185c09008b1290be42a9d1a9ae4c25fae0 ceph: add object version support for sync read
-42cb4762205af057443cb3da9479d47d183c8b53 ceph: add truncate size handling support for fscrypt
 
---===============3321146553799056880==--
+--===============5914675578039087168==--
