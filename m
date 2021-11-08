@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 08 Nov 2021 02:02:52 -0000
-Message-Id: <163633697260.20213.1046141805310320746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 08 Nov 2021 03:06:41 -0000
+Message-Id: <163634080159.27081.10194402871612867006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/fixes
-    old: 0b0f33c533dd01ae346b5cc690752d248cd10a99
-    new: 4c7e42552b3a1536f3cdf534aba8c4262ee26716
+  - ref: refs/heads/master
+    old: 2f38b15c1e6e35a374c51ec07fd02c0a33e62219
+    new: a1f2577ee2be1a464c2e63191f17f21f24fc81f8
     log: |
-         86432a6dca9bed79111990851df5756d3eb5f57c erofs: fix unsafe pagevec reuse of hooked pclusters
-         4c7e42552b3a1536f3cdf534aba8c4262ee26716 erofs: remove useless cache strategy of DELAYEDALLOC
+         a1f2577ee2be1a464c2e63191f17f21f24fc81f8 docker: Stay with Fedora 34
          
