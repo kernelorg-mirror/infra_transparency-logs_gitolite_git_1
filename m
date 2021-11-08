@@ -1,62 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Nov 2021 07:08:37 -0000
-Message-Id: <163635531709.14251.8873136954493294239@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8818383230546683872=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 08 Nov 2021 07:09:09 -0000
+Message-Id: <163635534932.14472.9138008836521630072@gitolite.kernel.org>
+
+--===============8818383230546683872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: ea0cfb8afd900f801001fd1fbba5c8294735f6cb
-    new: b442d19afc6001c5c805b39b09d417a89b8b9adf
+  - ref: refs/heads/master
+    old: 06b5936dbffcd4c17a4b4d51b96328007a772482
+    new: c9c26aaf5036b8cd10ff9bc81e588ca38bd39806
     log: |
-         8dc07567a48ff1f99b01eaa6cb1f65ce645a5d14 scsi: core: Put LLD module refcnt after SCSI device is released
-         7123bc41274bd143d291fc864617b33caa9dd52d media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         1b9501165550bd232e3a48c7c6d6c16a66d0afb0 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         8553e79eebb1022c501da7332e147f028e082dae arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         f33e5b9059da7584e88e6337a27a38bf38d7dade ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         54765c57305f3eb7b7cf013309d82ef8608df858 IB/qib: Use struct_size() helper
-         f3b879eacea561f995ac5c8d84436c323bf0d8aa IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-         e7f002b51c6dfb762ebf626a8761a469b9549370 block: introduce multi-page bvec helpers
-         b442d19afc6001c5c805b39b09d417a89b8b9adf Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         c9c26aaf5036b8cd10ff9bc81e588ca38bd39806 5.14-stable patches
          
-  - ref: refs/heads/queue/4.4
-    old: 782b24c39ef3858aae8ebe6a2eade5246cb18e5f
-    new: 6ee00ffacb613b4221342ef365e9624048b811d3
-    log: |
-         8a174d9172e8cb3a005d7d5a383d42a03e1cc65a scsi: core: Put LLD module refcnt after SCSI device is released
-         0099598396e045fcc469d592cae183ef6b8d6377 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         6ee00ffacb613b4221342ef365e9624048b811d3 net: hso: register netdev later to avoid a race condition
-         
-  - ref: refs/heads/queue/4.9
-    old: 0438b1190877c128f23e4e112be98bbfc21888c9
-    new: d39519e23c919db2b6154a6d71b9a33976d8a2e0
-    log: |
-         7813a70a60d7534d1aa805e7a2bb836fb581c94b scsi: core: Put LLD module refcnt after SCSI device is released
-         c0b9b6886e951f02db6e3a09c154adc9f8ba947a mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         b6f2a4a7ed9635116df31f0c1f1e24a5d8ff230a arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         b2a9534ad2e9b879a1054c897e52f584b6a9cd82 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         87d54bdbd50d048ace290f59134d06cf0bd4bf4a net: hso: register netdev later to avoid a race condition
-         d39519e23c919db2b6154a6d71b9a33976d8a2e0 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         
-  - ref: refs/heads/queue/5.14
-    old: 3bb4e28d3f78396ff2e3646e4ae331d1f218a6bc
-    new: fad81893e738678b34b238761842333ef1955b92
-    log: |
-         00b050781602f87045fe016897b98f58a200a4a3 ALSA: pcm: Check mmap capability of runtime dma buffer at first
-         8dc7d99bd8a3c73f27307aa68e07ca164fe55778 ALSA: pci: cs46xx: Fix set up buffer type properly
-         114b579e57678ff2c2256a8b12ad72d20787deec KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         fad81893e738678b34b238761842333ef1955b92 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         
-  - ref: refs/heads/queue/5.15
-    old: 2c7f3cd30bdba1f65db9e07662392e9f6a4831d6
-    new: 1895e5e09cd198e1bb2c0b29d770b8e5239ccc1f
-    log: |
-         9dae1b86cdc11d72296af2a33167fecb218236c6 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         1895e5e09cd198e1bb2c0b29d770b8e5239ccc1f Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         
+
+--===============8818383230546683872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636355348 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1636355347-8dfd2a8f719468568786721c72e987b8a03e06d1
+
+06b5936dbffcd4c17a4b4d51b96328007a772482 c9c26aaf5036b8cd10ff9bc81e588ca38bd39806 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGIzRQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L0sQAIzARydQ0bkdmLxwC/Iu
+Pkk2YeyjjaWiB4ct3U2xw1EPJPom/mf2QR0zV6UVG+XD2NQjVhei8P0uIa3+BlM5
+Kw++mBMvDg6rQfpABKh8XOrZM8nESbjokr8Vq066qCiV8dCOaTnicSsDsAc1yrV3
+G4N6iHrN5dag6oZVktEHpoZs0uOrR3/aPB879+048BNq82rdxIbJVoQbscAsrJhN
+nVmQ79hsbCdDnrvcTL4qDKu+Bo//YCLQml1b6UzT3xu7yfWj2lWaXk3VT3Xwq1xY
+sRRLhUrGw2JRxGEwXzwHxDSGSdkoU+xR5rVEc/66rAIjenGGLCNvERulXdexwqH1
+sAc61IxIoXiiMoIzPDg8sDp4L886Mfmyd8q3d7UYfg1zDcD9WVmx7mMvYwW+d1ZH
+RLjsziFdZANo2PZs+GEaTwfEwNVpCC1ixihyeQzfb2VlIW0HMpRUtSefzpkYp/gE
+4Bg4KLIfRl3GiLceAdFMnsCWQwnzIY6LfYU+2R9PYHg+iG4bJg8AJEJHKIKx+7w6
+PVRgqn/z1xBIB9Drf+xTb+VhTrFlQq2rM1FFnX5zM4yEFV9gAtrhKJXWrAsr6HlA
+IDBLrVQ1Lb0YDx5bvKWHERua0j5EpFOt4PxqxauMAz0D+rM+2UZLKZTrSA6eGPRj
+nhTJWui4A3kgqVge9sB0+U/C
+=fCd2
+-----END PGP SIGNATURE-----
+
+--===============8818383230546683872==--
