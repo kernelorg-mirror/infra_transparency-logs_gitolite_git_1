@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1101735714392146306=="
+Content-Type: multipart/mixed; boundary="===============6517417155349281659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Nov 2021 12:37:10 -0000
-Message-Id: <163637503006.7723.8642238441120524632@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 12:40:18 -0000
+Message-Id: <163637521862.10175.3268812063266718149@gitolite.kernel.org>
 
---===============1101735714392146306==
+--===============6517417155349281659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,104 +16,121 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 32e6402e132a2b495f8c44407b6aff5af867b66a
-    new: 0819e255730ef68f3ddf1057f9f8cba239618c56
-    log: revlist-32e6402e132a-0819e255730e.txt
+    old: 0819e255730ef68f3ddf1057f9f8cba239618c56
+    new: 923d11bd34b9ba1e84659c5cef3a9523076fccab
+    log: revlist-0819e255730e-923d11bd34b9.txt
   - ref: refs/heads/queue/4.19
-    old: d0b3e3593494a3e4b16cb5debcf9474550f07b3c
-    new: f3bff734baf9528354616c3bcd92140d0ceb6586
+    old: f3bff734baf9528354616c3bcd92140d0ceb6586
+    new: c918d64f13e9e28bb77e4e67bab386c1c9d490df
     log: |
-         8d2207a864b1c633ccba928cfc15fe6261ef03a0 block: introduce multi-page bvec helpers
-         53d7b48a0e32ccca758c97e5ccb015b0b9baa69d Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         f3bff734baf9528354616c3bcd92140d0ceb6586 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         92201dd4859f560fb6e7c195af8440bf9d40d7eb block: introduce multi-page bvec helpers
+         65cbb80bfbcf58a26bdbb0259ed53742039c00a6 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         580ac5586ada741b78f1ba983d0cb811e0e1139c usb: ehci: handshake CMD_RUN instead of STS_HALT
+         78df8cc973536fd250ee60991fa77095ba55ed99 usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         3b5927b80c2b34a9f425aa1a98684824ac5c83e8 usb: musb: Balance list entry in musb_gadget_queue
+         c918d64f13e9e28bb77e4e67bab386c1c9d490df usb-storage: Add compatibility quirk flags for iODD 2531/2541
          
   - ref: refs/heads/queue/4.4
-    old: b0a1613e9493882190b93cd74615871b39e50d9c
-    new: 0ce35a733bedf64de2231e3c84e98c70632e4e30
+    old: 0ce35a733bedf64de2231e3c84e98c70632e4e30
+    new: c8615621e022defe434711e9e518c25fe05cf1c1
     log: |
-         e24d833c76c44932450b633313826e8210f83b25 scsi: core: Put LLD module refcnt after SCSI device is released
-         edc79fb03da0b3a1926ed739f396a875ad3ed3c4 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         02be00865ae952ccf9b5fdd2f5e627276882a963 net: hso: register netdev later to avoid a race condition
-         bf0bba8d0df3277bbd3daa80727e701bd330efa2 IB/qib: Use struct_size() helper
-         bf2a9f5954d5cd2ae7f588ee5fc07ce7f5d3715e IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-         fc6c145293147fd89f7186d1b516685a89293244 usb: gadget: Mark USB_FSL_QE broken on 64-bit
-         0ce35a733bedf64de2231e3c84e98c70632e4e30 usb-storage: Add compatibility quirk flags for iODD 2531/2541
+         575217f691f96c6a43298f3a9ec3bb5b2be33158 scsi: core: Put LLD module refcnt after SCSI device is released
+         0fefd6f2846d4832952b555cca3710f6ddde6d31 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         137c421e5051c1688555ed2efd2040ebaf4e23f4 net: hso: register netdev later to avoid a race condition
+         eb54d59e655cfc7a5219a32ce520c248a9681d0a IB/qib: Use struct_size() helper
+         ebd31d34c115fea13ac11a2c5fa7334abdaa7ef9 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         400823ec8c392894abdb12db5ccd4f0e596fe79e usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         c8615621e022defe434711e9e518c25fe05cf1c1 usb-storage: Add compatibility quirk flags for iODD 2531/2541
          
   - ref: refs/heads/queue/4.9
-    old: 4aa4ea508631c73e7bb7f699ace8ebaf5926aef6
-    new: d821fa1113be02fb4592a015b6d6676954b3b948
-    log: revlist-4aa4ea508631-d821fa1113be.txt
+    old: d821fa1113be02fb4592a015b6d6676954b3b948
+    new: 6cf156718dbbde0d436ffe8b9f6eb05196263ba9
+    log: revlist-d821fa1113be-6cf156718dbb.txt
   - ref: refs/heads/queue/5.10
-    old: 5fa5cae791fc0377de7134aec1fb6220661a28e7
-    new: 81fec089aa323aaa89a9dda44631d9403548255f
+    old: 81fec089aa323aaa89a9dda44631d9403548255f
+    new: 971aa399ddc64091790f5f8c9b6649196242be6d
     log: |
-         adbbf2772ef4e1e15c50a03458d520ffdc8acf9e KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         97e1a1f82b574cf8415990f5d66071efb7bc05f5 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         8de2e178a234de3df7a1d08860acfce0a20ee058 usb: ehci: handshake CMD_RUN instead of STS_HALT
-         9bc0329b5b75392f3520a8e11433579d1741ecad mm: hwpoison: remove the unnecessary THP check
-         81fec089aa323aaa89a9dda44631d9403548255f mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
+         1eccec80e03952626cea30356cdd267ad02a1a03 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         f506e6ec3f99a003f62aa384d7f02d0cd61fd406 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         7cb4a354798a457deddd0e6fedf191415618fbbd usb: ehci: handshake CMD_RUN instead of STS_HALT
+         70e802ffc53c0eab2e331a9ffded424df6abe6ee mm: hwpoison: remove the unnecessary THP check
+         5aa5a343ed7039e6d35cd9815e550b7546107397 mm: filemap: check if THP has hwpoisoned subpage for PMD page fault
+         0790deb3f61d96636573a40f038580f76e237bb7 usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         2259a75221a99319690d0c7b751c1c598da14ea6 usb: musb: Balance list entry in musb_gadget_queue
+         971aa399ddc64091790f5f8c9b6649196242be6d usb-storage: Add compatibility quirk flags for iODD 2531/2541
          
   - ref: refs/heads/queue/5.14
-    old: 23147dd1acd23e92723fd51440ed64a3a06a57e9
-    new: ba34adfc47c06c5e964f71cc8fda35a45f866430
+    old: ba34adfc47c06c5e964f71cc8fda35a45f866430
+    new: 9f7eecaa70b3cec9afa340bb6f31ff9192aff77c
     log: |
-         55feb38fd589690b4a3c535b0e13f2c3e52b6ef3 ALSA: pcm: Check mmap capability of runtime dma buffer at first
-         8318fcd8e6a148144feb47f8626cf4a0c747ba70 ALSA: pci: cs46xx: Fix set up buffer type properly
-         7f03dc68248ac6668a4a64f62a6ea2cabbbe9816 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         963ce570dc382d9e9a38ca0a66095d5b9174f914 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         ba34adfc47c06c5e964f71cc8fda35a45f866430 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         968b770b0c1e5e97890075ebf2725a9207e7d693 ALSA: pcm: Check mmap capability of runtime dma buffer at first
+         24e688a75a8fd6b76396b2a892fab1eaabf200d7 ALSA: pci: cs46xx: Fix set up buffer type properly
+         6f719995a647093664a2e4e687071b5adb171cd9 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         14e4320b38ac08077104069fdd02372eceb898a3 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         2dd742affe07a4fd6e642571af6c2d15d90da874 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         a763f549b10a6b59d52248fb9ccafe4a80044176 usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         2cdc12c42d9dd2ba933d8a74b2e90bc40b054e17 usb: musb: Balance list entry in musb_gadget_queue
+         caf22a2f0fee16accc3762a404c2eac9470c6e49 usb-storage: Add compatibility quirk flags for iODD 2531/2541
+         9f7eecaa70b3cec9afa340bb6f31ff9192aff77c Revert "proc/wchan: use printk format instead of lookup_symbol_name()"
          
   - ref: refs/heads/queue/5.15
-    old: e5b4297eb4df7935e1e2963846bea730890faa09
-    new: da092976d00f868c0b7ad67b59c4039fe47e156e
+    old: da092976d00f868c0b7ad67b59c4039fe47e156e
+    new: aedb6a113739b2627f1ceb6011613fb98d83a918
     log: |
-         d46409e950404fa5dd8cb67e0afa8a443520536d KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         5fe5c585fdfdea46b19a19de7bdb441f8a44bff4 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         da092976d00f868c0b7ad67b59c4039fe47e156e usb: ehci: handshake CMD_RUN instead of STS_HALT
+         e03481784c9a0471448efafbe03399d9930f22c2 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         2761ceee1bc13b2c0404853d960e764770601d33 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         1589d12ee518bf5350f9e82ea343f054c3f64670 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         225851385d10c4ff61a897b98163721f67720be9 usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         660b37edefbe8b6c5e6ad7dcdb6674938f3c42bd usb: musb: Balance list entry in musb_gadget_queue
+         76dcd9528fa62db6ff4c70fc0016c4273cdfea4c usb-storage: Add compatibility quirk flags for iODD 2531/2541
+         aedb6a113739b2627f1ceb6011613fb98d83a918 Revert "proc/wchan: use printk format instead of lookup_symbol_name()"
          
   - ref: refs/heads/queue/5.4
-    old: 54dd0c28ae4eec3639a302d8bc401226c23820f7
-    new: e9ec9c6abac6d458d5fa3befe0c83b377aea60f5
+    old: e9ec9c6abac6d458d5fa3befe0c83b377aea60f5
+    new: fcfd72f4e22001dc7180ab91d9a8ede4d8687897
     log: |
-         1399cb83aceca37f140b10d85466b6cda946d0d8 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         e9ec9c6abac6d458d5fa3befe0c83b377aea60f5 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         b8236aa266c6336a46f14846a8ca77e33955044b Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         7cc868becdb0fd6ff7121b94b27541167966eda9 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         f9cb7676b908b61426a008ed522cf5e29f2faf8c usb: gadget: Mark USB_FSL_QE broken on 64-bit
+         86b4680547f6a2bba9f58106cde167cb25bcd88f usb: musb: Balance list entry in musb_gadget_queue
+         fcfd72f4e22001dc7180ab91d9a8ede4d8687897 usb-storage: Add compatibility quirk flags for iODD 2531/2541
          
 
---===============1101735714392146306==
+--===============6517417155349281659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32e6402e132a-0819e255730e.txt
+Content-Disposition: attachment; filename=revlist-0819e255730e-923d11bd34b9.txt
 
-033fdf42a96003c154e7afc9bb5e8b73ba12971b scsi: core: Put LLD module refcnt after SCSI device is released
-b48f918eb367429930798f96be50a52bf08c65cc media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-b0e9f4ee2f01d0137f357638492f113ef88f336c mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-9de61ca72c007b0c153057dc8dcad6b9621ad34b arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-74bb4d4e6a7e07554751dd9e9b52d41b2d3fe613 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-1c66491323fbf064e7abcc521c22162a3c83308a IB/qib: Use struct_size() helper
-421c7fb8318ddaa6fc3f8736945e44245658b90d IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-1d4d77d60f79f654a7d5ff41208f8b642e951d25 block: introduce multi-page bvec helpers
-9fe0b66d992db52d2707442b06ea55f4de09662d Revert "x86/kvm: fix vcpu-id indexed array sizes"
-e77b8d64d4259e34c91139a84edcb382aa934166 usb: gadget: Mark USB_FSL_QE broken on 64-bit
-9ac8bf08352845a7afcbaa59e16864b59c1be82c usb: musb: Balance list entry in musb_gadget_queue
-0819e255730ef68f3ddf1057f9f8cba239618c56 usb-storage: Add compatibility quirk flags for iODD 2531/2541
+e813b6ae619a979b43563b9f11af3c44e43cf778 scsi: core: Put LLD module refcnt after SCSI device is released
+09f0345c08fca7a1701a11431edbefca26facd61 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+220152100091138c0c1ce8d949d519f62f74214e mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+c7fee5e1ac9bda0ad175b06b90f500b2d2fc1afe arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+f80cd6f36d94227bff3b401b8baa8613a9ac3e4a ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+b45ddeea47f32f32599a24af3c993291c48f317a IB/qib: Use struct_size() helper
+e1edcac83965efe6362034174546f2bbaad3a4cf IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+d4a21468a39024dfa3c14d3acf10e91a31f3de58 block: introduce multi-page bvec helpers
+d2982a2730681062b2ef7d7e75ad23ef0d102713 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+7f7402fead627d0027e6f9856f6c5fd0a1dc492d usb: gadget: Mark USB_FSL_QE broken on 64-bit
+632ed837f77f49b9ca8d29f0d7c0c3001c4f44c1 usb: musb: Balance list entry in musb_gadget_queue
+923d11bd34b9ba1e84659c5cef3a9523076fccab usb-storage: Add compatibility quirk flags for iODD 2531/2541
 
---===============1101735714392146306==
+--===============6517417155349281659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4aa4ea508631-d821fa1113be.txt
+Content-Disposition: attachment; filename=revlist-d821fa1113be-6cf156718dbb.txt
 
-cc3e4750b94d0fc9a3d10921bc299decc6b4a645 scsi: core: Put LLD module refcnt after SCSI device is released
-abfec320c41bba9561736d79708eda14df753ca7 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-a4ec0fe5d60a6841a9507745ec30449cd8d07c27 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-d287db5351ea7112d095c593cf84b12726afea82 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-2e41bfd43abbd4ea721268a5fab2a8a717fb54c8 net: hso: register netdev later to avoid a race condition
-75a45de932f6ca93b68868cb18692d5d21c490ff Revert "x86/kvm: fix vcpu-id indexed array sizes"
-01a6602f12d80edf307af727b87ff0ef541ff19d IB/qib: Use struct_size() helper
-c54ed15d66296bef15851ffc891e33d7e418d31d IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-dba2f84cc515246ed6114bd97fe5175a47afe9af usb: gadget: Mark USB_FSL_QE broken on 64-bit
-95b02e470323017ce6a432f27035db220f1ae7da usb: musb: Balance list entry in musb_gadget_queue
-d821fa1113be02fb4592a015b6d6676954b3b948 usb-storage: Add compatibility quirk flags for iODD 2531/2541
+d99a24fa4e05d0c99b9d0cc5827e3ed55683e32b scsi: core: Put LLD module refcnt after SCSI device is released
+351acf6ef66944319a176f48330a12beb0f23b79 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+62fb1dab0eff86dc5968ae19da8c64f010c305ae arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+3831f2da71e1fe3611cd4cc8516757f87391527b ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+8386f2ae8ea2941dd87435deaf0cd36c027df3b5 net: hso: register netdev later to avoid a race condition
+711e5f2a11338e0f95ba68cc33c0a729789cae11 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+08f097e0941faa2e62739f6e37fb236b4ea2be5c IB/qib: Use struct_size() helper
+922fccca950c609faa82a8f71c389134f441abc6 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+bb7b95057536d98a60aff075b462c51eb7fd7900 usb: gadget: Mark USB_FSL_QE broken on 64-bit
+7872cd50103adcf8a43e70e757ec5fe11d111bd5 usb: musb: Balance list entry in musb_gadget_queue
+6cf156718dbbde0d436ffe8b9f6eb05196263ba9 usb-storage: Add compatibility quirk flags for iODD 2531/2541
 
---===============1101735714392146306==--
+--===============6517417155349281659==--
