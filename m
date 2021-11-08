@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6761728292420019808=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 08 Nov 2021 07:05:24 -0000
-Message-Id: <163635512470.13112.14995668202227431620@gitolite.kernel.org>
-
---===============6761728292420019808==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 08 Nov 2021 07:06:09 -0000
+Message-Id: <163635516973.13439.4755290721134064683@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: e20afc32be9225a49bbf200babd930dc50ff5342
-    new: 06b5936dbffcd4c17a4b4d51b96328007a772482
+  - ref: refs/heads/queue/4.14
+    old: 5e1c5746a6fc9a4393bb45db42a87a5f50380dce
+    new: ea0cfb8afd900f801001fd1fbba5c8294735f6cb
     log: |
-         06b5936dbffcd4c17a4b4d51b96328007a772482 5.14-stable patches
+         18ab580494336bc1c9bf078d30eeb0d7edd76658 scsi: core: Put LLD module refcnt after SCSI device is released
+         1ddb55d03b0079931b302e353dd3aeb4b7062f1f media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         1041bc12094e60dc5d4cb9e87389180265269bb5 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         dd558306ebcad5664a5a4e3ff722ed5d968979cb arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         8de94acd23c9add8ddda88d74b0d5862548b7d69 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         d630afe16e1f971d26b8dffbe1f330be1efbbc85 IB/qib: Use struct_size() helper
+         b833514ec6a21f9e618dd687f1c07ad2d4804fd9 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         ea0cfb8afd900f801001fd1fbba5c8294735f6cb block: introduce multi-page bvec helpers
          
-
---===============6761728292420019808==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636355123 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1636355123-4ad8ebf1b6c9a397826a3070e74d6f6c5b41ed8c
-
-e20afc32be9225a49bbf200babd930dc50ff5342 06b5936dbffcd4c17a4b4d51b96328007a772482 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGIzDMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EOsP/0XqXFBzsgrrN+zThxep
-0ADWi7H8S99KAWq1XWTVLCovzFqzj8aszw5rVKZ3YcMN9oRVGM/ecM9Nf913szRv
-PJ246tBwaw6ANzfwVfj6km0byCk4cN5W3KzWEQMc+gCymc5LhPM092H72//QBa3s
-ZQOw/YVLN4j4TnmrVtKOCphqhY9gJ0VFD3wjh4G0gBPzZPeRF3mT9ecSJiNs7w60
-ODpi7b272llz+4QIJ610NBCDXa+V0o94GNG/70P0+xQn/wuTM+G/oPSD0nFFLWZ/
-7XbyGHIoMywhZHX21Tc/tcP/ickY0QA0fYKNqltxfuM5T1NgT1rs9Grl79XoAjJv
-5eGJsn3U3KpxT0OLY/MumGWaOVwBUpVsIKvfIN1uxo8sNeDpu31LHvmXi8PQ/IW5
-1ujyRFDCgbk/4Pi60DRAbbmRX15X7aQwq4Mgn0ikfi/1YfoFbBnDXdOjuuf1GHEF
-z6b1SkRYX23K612D4x4791P+iNi6duM6r6nR56/Nu8Z/UuqfjEZg/c3pvRB+DE8y
-B5EUq6xus9uzeXlxaYEO0xAU695kc1wGeBnKKBLNBzgNSR8DYAnFGmmE650RWbdN
-8Ej2ykPENpe3vrphOgTpCOOYNLnhxeddr6d3TsrjOoCBR4obRpQ+IRSzFL4orRcD
-6Zv4ksFFZpdK+dM0Sy5dXw91
-=5l14
------END PGP SIGNATURE-----
-
---===============6761728292420019808==--
+  - ref: refs/heads/queue/4.4
+    old: 08600dad28470e2f60b3fdb737088d6b506d15b3
+    new: 782b24c39ef3858aae8ebe6a2eade5246cb18e5f
+    log: |
+         703a3c912fb72f775de950a23db60b17581be374 scsi: core: Put LLD module refcnt after SCSI device is released
+         54057085b7bdc1282558e1fe5520f4e29015b3bc ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         782b24c39ef3858aae8ebe6a2eade5246cb18e5f net: hso: register netdev later to avoid a race condition
+         
+  - ref: refs/heads/queue/4.9
+    old: babae3a60a7713e66caa8519209699f790d2a890
+    new: 0438b1190877c128f23e4e112be98bbfc21888c9
+    log: |
+         fde7d5d74b84bef40b7b7b83b3bf9daf2492d925 scsi: core: Put LLD module refcnt after SCSI device is released
+         0345e42639179eaf385503235f6fc408b5ed5ac6 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         aff2442d83ae5081b9930afdd6543085d69e2832 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         d551a3418f073b10697de0131dd1fcb4d84a0f73 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         0438b1190877c128f23e4e112be98bbfc21888c9 net: hso: register netdev later to avoid a race condition
+         
+  - ref: refs/heads/queue/5.14
+    old: d733aef97fea1ba98ef19776d044308e8a77428f
+    new: 3bb4e28d3f78396ff2e3646e4ae331d1f218a6bc
+    log: |
+         cbe59e38353639c0c8f8f264b6d1229f5ca1b25e ALSA: pcm: Check mmap capability of runtime dma buffer at first
+         c12155a914333f01c21be16285bbfba433810e41 ALSA: pci: cs46xx: Fix set up buffer type properly
+         3bb4e28d3f78396ff2e3646e4ae331d1f218a6bc KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         
+  - ref: refs/heads/queue/5.15
+    old: b6abb62daa5511c4a3eaa30cbdb02544d1f10fa2
+    new: 2c7f3cd30bdba1f65db9e07662392e9f6a4831d6
+    log: |
+         15eeb8b30c90c6e2aedaab001c02427a9ef32917 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         2c7f3cd30bdba1f65db9e07662392e9f6a4831d6 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         
