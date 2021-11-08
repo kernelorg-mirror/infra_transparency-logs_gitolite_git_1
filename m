@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 08 Nov 2021 15:00:10 -0000
-Message-Id: <163638361034.381.2110288824475575682@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 15:01:25 -0000
+Message-Id: <163638368543.876.6725204672880788445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: dcff01d326ab4ec83e38d590312830f5956778c9
-    new: 77cef25b1e5d521d80be0d2b3f5c1915c0d9d12d
+    old: 77cef25b1e5d521d80be0d2b3f5c1915c0d9d12d
+    new: d0f00698245a2dccbd4b853e3d7b94e7a76cd906
     log: |
-         77cef25b1e5d521d80be0d2b3f5c1915c0d9d12d dhcp-server: Omit OPTION_ROUTER if not configured
+         d0f00698245a2dccbd4b853e3d7b94e7a76cd906 dhcp6: Switch to BOUND before LEASE_OBTAINED
          
