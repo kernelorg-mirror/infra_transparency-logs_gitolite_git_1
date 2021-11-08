@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2452370088632191866=="
+Content-Type: multipart/mixed; boundary="===============1819331176877806940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 08 Nov 2021 09:44:43 -0000
-Message-Id: <163636468368.29263.16905592861223710309@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 09:47:09 -0000
+Message-Id: <163636482997.31470.286364426653514135@gitolite.kernel.org>
 
---===============2452370088632191866==
+--===============1819331176877806940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,251 +15,121 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-1
-    old: 66f7cf3629d621a2833a5b8d3799dd29fac92ed0
-    new: f0a98b8692671ae76d4af29b87408a5b6bebe523
-    log: |
-         9063e75e568d8b27a680c8b64c5ef9d6e2b75bfb scsi: advansys: Fix kernel pointer leak
-         1a4a0d99fdd8b09aaf3233e336425eba0cb3692a ARM: dts: omap: fix gpmc,mux-add-data type
-         c5e5e6eb5d175a85be857e6a373e13ad5c4a700b usb: host: ohci-tmio: check return value after calling platform_get_resource()
-         05819e7e570aff2c8f37b28ca2adc2eaca5e4104 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-         00778f78673f2ff68de4178958bcd53d392454f2 MIPS: sni: Fix the build
-         f73788983b17cc1faea70d71835d55d3cf3a6f6a scsi: target: Fix ordered tag handling
-         1ad77b8b9957640ccb8c7fe8100e926fd4eeeff7 scsi: target: Fix alua_tg_pt_gps_count tracking
-         cc47849a4143659dc025be0395e64cb43b25e1d9 powerpc/5200: dts: fix memory node unit name
-         8b336a2a4b83b3f1c20eeb0ce929e692bd4373c9 ALSA: gus: fix null pointer dereference on pointer block
-         f0a98b8692671ae76d4af29b87408a5b6bebe523 powerpc/dcr: Use cmplwi instead of 3-argument cmpli
-         
-  - ref: refs/heads/for-greg/4.19-1
-    old: f181ab3131b95bc7e62602f85ee148ea35a18249
-    new: a4f004a8361e6292363eccb880aaefd9ea4b816c
-    log: revlist-f181ab3131b9-a4f004a8361e.txt
-  - ref: refs/heads/for-greg/5.10-1
-    old: aa9034092a73aca087566f2ba78df72fd7cd1bf2
-    new: 99a253742d35bc1c9b86928b7da35a4511c95f76
-    log: revlist-aa9034092a73-99a253742d35.txt
-  - ref: refs/heads/for-greg/5.14-1
-    old: 03785ec52d1a65b47b90646820e17f7bac3c4f34
-    new: a1a0e860676a565e16160d7bc6b83e5c86684afe
-    log: revlist-03785ec52d1a-a1a0e860676a.txt
-  - ref: refs/heads/for-greg/5.15-1
-    old: 06c3736b122ff8bee7dd2bd73976fcbc72de1e36
-    new: c803a53faa1bfff33d846660684a815ce76e3ab9
-    log: revlist-06c3736b122f-c803a53faa1b.txt
-  - ref: refs/heads/for-greg/5.4-1
-    old: dbd7b3155ca0b1adeabfcf03704e3d11ba925e3f
-    new: a64629c7030b7f2c053d4e8446e764fee31b4843
-    log: revlist-dbd7b3155ca0-a64629c7030b.txt
+  - ref: refs/heads/for-greg/5.15-100
+    old: 2833470a7ad1e1bae22616646b8dae6bb457ddc0
+    new: 442657ef6fc778119af9ee332b4d68a71603e59f
+    log: revlist-2833470a7ad1-442657ef6fc7.txt
 
---===============2452370088632191866==
-Content-Type: text/plain; charset="us-ascii"
+--===============1819331176877806940==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f181ab3131b9-a4f004a8361e.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-2833470a7ad1-442657ef6fc7.txt
 
-afa5602f02b494591a6bf4bddd9ed7bcbf40fa46 arm64: dts: freescale: fix arm,sp805 compatible string
-6d289c1d06864e07c7b2d2cd3e84fec67cb6fadb ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
-e89d695a215cf635807edb9f1cebad44c9d68a01 scsi: advansys: Fix kernel pointer leak
-e562cb77773bc27f94be02d30dfd12c7be60bc3c firmware_loader: fix pre-allocated buf built-in firmware use
-45266aafeaa92eb0ee76627ff7f9d11c44b27b73 ARM: dts: omap: fix gpmc,mux-add-data type
-dd3c3812f5ed6dfbb9c3209a13fd0d1b6062ee57 usb: host: ohci-tmio: check return value after calling platform_get_resource()
-2475d4796e9f02cec307967d25f6c5d8e5ec8339 ALSA: ISA: not for M68K
-365d2372aebd45309cf75e762b979065acfcd443 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-57f3d813c1fca3958d9d3cba0251eb3ccd9a69c6 MIPS: sni: Fix the build
-611928a574010e6bb2eb4cc700b49fabc13cafaa scsi: target: Fix ordered tag handling
-9c536d6f03378da86b556ebdf16b51797c419658 scsi: target: Fix alua_tg_pt_gps_count tracking
-f08bf37f8a4b5627daa99819925d161dddab1770 powerpc/5200: dts: fix memory node unit name
-b20bd3e396711a64de13f07e8533c26d73bc9d2b ALSA: gus: fix null pointer dereference on pointer block
-a4f004a8361e6292363eccb880aaefd9ea4b816c powerpc/dcr: Use cmplwi instead of 3-argument cmpli
+a56794b1006df0e0fd2c79ee7eae9edcd92530f2 MIPS: loongson64: make CPU_LOONGSON64 depends on MIPS_FP_SUPPORT
+f4b1b355757d2eca7611cb7d61de6a1436a798b0 JFS: fix memleak in jfs_mount
+7c807dcad51ca304a170a40a43a36cfdf42d6638 pinctrl: renesas: rzg2l: Fix missing port register 21h
+e2c80c18547494d83cd38233007a18b518646e3f ASoC: wcd9335: Use correct version to initialize Class H
+9dbf5814e4721fecba65669c32be933afec5e15e arm64: dts: qcom: msm8916: Fix Secondary MI2S bit clock
+05cf44316fde9d67360d4a8cc7ec4fcc27463744 arm64: dts: renesas: beacon: Fix Ethernet PHY mode
+6c920e1ee65b29add912580613d746fe4c6a4013 iommu/mediatek: Fix out-of-range warning with clang
+a0963a793754613c20dc6b2ea0ab4e2a7d4dc620 arm64: dts: qcom: pm8916: Remove wrong reg-names for rtc@6000
+328a15165cee886a20c57f9ede812f045b7926e3 arm64: dts: qcom: msm8916-longcheer-l8150: Use &pm8916_usbin extcon
+231197debf1d8baa2e885d78cd1b82b6a82ede99 iommu/dma: Fix sync_sg with swiotlb
+9c9e22559268be4494cec2f76e5ae07ed7076062 iommu/dma: Fix arch_sync_dma for map
+30125616ff0bee6591d9940ee0a6a83d57cd9dea ALSA: hda: Reduce udelay() at SKL+ position reporting
+a3b0515ce7f49d61f56cf1eff069314d18e0296f ALSA: hda: Use position buffer for SKL+ again
+8f86dc4ced94cfdfd0d53dcc0037002357aba571 ALSA: usb-audio: Fix possible race at sync of urb completions
+a93751ab20dec63858e0ad56e25e460b5ba4e021 soundwire: debugfs: use controller id and link_id for debugfs
+4c7447db3275c1cd66f5a3d9929ff8587085dffc power: reset: at91-reset: check properly the return value of devm_of_iomap
+e585fee8571600850484a73a8125a409c1126b42 scsi: ufs: core: Fix ufshcd_probe_hba() prototype to match the definition
+5f132e07440295efdbc2ef7e4692cbf2da8f08cf scsi: ufs: core: Stop clearing UNIT ATTENTIONS
+d9909228fd286284d229981a6776d6e5739e9ddc scsi: megaraid_sas: Fix concurrent access to ISR between IRQ polling and real interrupt
+c46ca1c65fc71220a85a2b9faa8a4d7259e6b6df scsi: pm80xx: Fix misleading log statement in pm8001_mpi_get_nvmd_resp()
+6b5e7e965a5348229b147ce5378332242d12aac9 driver core: Fix possible memory leak in device_link_add()
+80654076d4045103e2fc51e1225d425f2ca6650d arm: dts: omap3-gta04a4: accelerometer irq fix
+9083c85fd34882fdca11684af753450f577407ee ASoC: SOF: topology: do not power down primary core during topology removal
+7de2ad6ddc82b00890f368dea059509ce795c130 iio: st_pressure_spi: Add missing entries SPI to device ID table
+87e3e6b89591fc3410fda36fc160b7fd925bf7c0 soc/tegra: Fix an error handling path in tegra_powergate_power_up()
+2221daeaf79b4f800e2ee43a2456c5d2664bf16d memory: fsl_ifc: fix leak of irq and nand_irq in fsl_ifc_ctrl_probe
+c91f794c77094ea1c7c293a3f389bd3dda3057c0 clk: at91: check pmc node status before registering syscore ops
+6f6e1ab3170b309862a3febc5384a3c8bc6029d3 powerpc/mem: Fix arch/powerpc/mm/mem.c:53:12: error: no previous prototype for 'create_section_mapping'
+38bc6856969258a1b6c28ed4755b43b27ee32202 video: fbdev: chipsfb: use memset_io() instead of memset()
+2e88915fe1334c7122ffe93bbba23fae48474b66 powerpc: fix unbalanced node refcount in check_kvm_guest()
+fd940e0e6008dd139b353139576a37aeded56200 powerpc/paravirt: correct preempt debug splat in vcpu_is_preempted()
+2431cdb7e1bfb2c52519607d0bd9ef8187e66c30 powerpc/pseries/cpuhp: cache node corrections
+fd2c4ab976ff2e4a030d6a547bab74e40491de19 serial: 8250_dw: Drop wrong use of ACPI_PTR()
+e7f617c439fb0aa0066610b5570db788041ac918 usb: gadget: hid: fix error code in do_config()
+c131b9ac249e77c2569003875e542f213d7372b0 power: supply: rt5033_battery: Change voltage values to µV
+75a4dfeb12e500a10286a27301bafa46320e5ec8 power: supply: max17040: fix null-ptr-deref in max17040_probe()
+c4e66c5a2d063018e02fc1439b00dea67398971d scsi: csiostor: Uninitialized data in csio_ln_vnp_read_cbfn()
+681910ae0f1323e8eb54598d29820815272550d8 RDMA/mlx4: Return missed an error if device doesn't support steering
+90b597dab5c38f8e562402b5da9a65517cad5546 usb: musb: select GENERIC_PHY instead of depending on it
+0caa476a4ee5bfc21f6970d880ac6cc5e3117b58 staging: most: dim2: do not double-register the same device
+03f48f1143901170ce826f74b8b84c9506e2ccc6 staging: ks7010: select CRYPTO_HASH/CRYPTO_MICHAEL_MIC
+d8cc5241dcb1fea278bcfb3e091859a061748b6e RDMA/core: Set sgtable nents when using ib_dma_virt_map_sg()
+dfe8be930265d328684e2295f454840d5df19a1d dyndbg: make dyndbg a known cli param
+6b53e3830a3a7e57ea8a7d4d9bb911897f03ff79 powerpc/perf: Fix cycles/instructions as PM_CYC/PM_INST_CMPL in power10
+3ece0b01230cf808df68c290ecefe79a920b52a2 pinctrl: renesas: checker: Fix off-by-one bug in drive register check
+180091fff6023eef071fb5944d71cc22a3b8f25e ARM: dts: stm32: Reduce DHCOR SPI NOR frequency to 50 MHz
+6992a0c56b12c3a701fc6bf4f3257200f5a58f4c ARM: dts: stm32: fix STUSB1600 Type-C irq level on stm32mp15xx-dkx
+ab3758bcfd9e93a036dbaa9d7a3823fc33eb55d8 ARM: dts: stm32: fix SAI sub nodes register range
+b8995cf901b0bda53298a44523fe2f0fa69788c8 ARM: dts: stm32: fix AV96 board SAI2 pin muxing on stm32mp15
+5c4f27b01d68a936cd61cfe8ced1546d633df5b8 ASoC: cs42l42: Always configure both ASP TX channels
+b7960279c304b9afc8c1d20dfea5d665231e4d0c ASoC: cs42l42: Correct some register default values
+37b3074325ddb5828ea54d95a360cedd2a99d9b5 ASoC: cs42l42: Defer probe if request_threaded_irq() returns EPROBE_DEFER
+2c5b59230869a8dd41244bd0d13d13bf46505800 soc: qcom: rpmhpd: Make power_on actually enable the domain
+bce9968130c261c24e03febfe68ea39fbb2cb521 soc: qcom: socinfo: add two missing PMIC IDs
+3da7653fcf32a45011ce6d6289869411c86717d6 iio: buffer: Fix double-free in iio_buffers_alloc_sysfs_and_mask()
+28064b717b0c0624a7c857cff67f641f002a3c48 usb: typec: STUSB160X should select REGMAP_I2C
+1fc4bafeb08373e9f5a091ab05423efe868f04e6 iio: adis: do not disabe IRQs in 'adis_init()'
+ea5b1efce456379a95dd941dcf743f57deff934c iio: adc: ti-adc108s102: Fix alignment of buffer pushed to iio buffers.
+ee7ed12cce3a5620a9f11898d265e73c037fc55f iio: gyro: mpu3050: Fix alignment and size issues with buffers.
+c7223ebf741d428b0d5da974a5b76bee75081135 iio: imu: adis16400: Fix buffer alignment requirements.
+ec2ea4f0b5c671536b394cd562a0d48d9ee083cb soundwire: bus: stop dereferencing invalid slave pointer
+4ea4f4222dd0d33708b0f637fd9306e2198e3115 scsi: ufs: ufshcd-pltfrm: Fix memory leak due to probe defer
+503af9a474b7c1fd177ca75d28e2e56d2d09ab1e scsi: lpfc: Wait for successful restart of SLI3 adapter during host sg_reset
+fedf2ea319a867c3047e8281b44c4376c5d86273 serial: imx: fix detach/attach of serial console
+7c2717413cada379617a2266c0a86234f4c73d1a usb: dwc2: drd: fix dwc2_force_mode call in dwc2_ovr_init
+20ea72533f6bc3a59b5d6e02ed5cae60a534472f usb: dwc2: drd: fix dwc2_drd_role_sw_set when clock could be disabled
+0087746e0a09422b7bcd9d49b7bd95959e671ef6 usb: dwc2: drd: reset current session before setting the new one
+8cf8f2fec62c2424627eedc2e2ad788ea0be32b3 powerpc/booke: Disable STRICT_KERNEL_RWX, DEBUG_PAGEALLOC and KFENCE
+a6d1d95dfff8bed5c1a7ec0b1e74725112aa354b usb: dwc3: gadget: Skip resizing EP's TX FIFO if already resized
+c1446a6de5634a73a2e325636a2172d081623b96 firmware: qcom_scm: Fix error retval in __qcom_scm_is_call_available()
+31a6be18928d07e0ed7ede0e9c475efb53efb1ef soc: qcom: rpmhpd: fix sm8350_mxc's peer domain
+b8e97ff5450d73bab534d5a989516a0fb85e1c8e soc: qcom: apr: Add of_node_put() before return
+f618a99ab80877bde591f4932d322a49e8ff0e19 arm64: dts: qcom: pmi8994: Fix "eternal"->"external" typo in WLED node
+d869178f059d9fd2d25608c1503c6342f0cbe392 arm64: dts: qcom: sdm845: Use RPMH_CE_CLK macro directly
+92338957c56930d6f33407e63b27177c47f55b1d arm64: dts: qcom: sdm845: Fix Qualcomm crypto engine bus clock
+492aaf37867abe9fc0222bdccf87e94887a4df16 pinctrl: equilibrium: Fix function addition in multiple groups
+99099f910afc2f41e2aedec88ec58e6309da37fd ASoC: topology: Fix stub for snd_soc_tplg_component_remove()
+0382ce2794035b5254be676e946f54e733f0f0a7 phy: qcom-qusb2: Fix a memory leak on probe
+080394c3cd9b5d3cb91727dfedfdf7116f27371d phy: ti: gmii-sel: check of_get_address() for failure
+2548af9a9f42504a4c5ea2fe8f742cfa5f586b08 phy: qcom-qmp: another fix for the sc8180x PCIe definition
+8930706b50bf29c0061abf2f888592f52d5d1db1 phy: qcom-snps: Correct the FSEL_MASK
+ac1bbccc4ed6ceb759f37c0ca7d7b08da3be537e phy: Sparx5 Eth SerDes: Fix return value check in sparx5_serdes_probe()
+006b3d5a56166cc532fe743492de9194d6d70244 serial: xilinx_uartps: Fix race condition causing stuck TX
+67d4f93761c672d561387b4d6b539354c6deb574 clk: at91: sam9x60-pll: use DIV_ROUND_CLOSEST_ULL
+f4883429709bc1cfa774e261474e2b2cb049c45c clk: at91: clk-master: check if div or pres is zero
+d04d8c9fe214472445e1443433eeacd63d7f4c60 clk: at91: clk-master: fix prescaler logic
+51496bb45733e7faf5cd7f2f9896b4e6985ad304 HID: u2fzero: clarify error check and length calculations
+e3720bcf7246f2dc90985c56ef4800d363414a28 HID: u2fzero: properly handle timeouts in usb_submit_urb
+862c4f6002aa6d05a6c9b2e24a4d66848e7c8db8 powerpc/nohash: Fix __ptep_set_access_flags() and ptep_set_wrprotect()
+5c5c03d926bf2e37fdf12d6644a2af833c3ac9b3 powerpc/book3e: Fix set_memory_x() and set_memory_nx()
+c0edcdb9dd7558f3933a60e2e7c786a5a285154b powerpc/44x/fsp2: add missing of_node_put
+75f458f347208c6c1a762a1c25ebf214ca3d95d6 powerpc/xmon: fix task state output
+cb47cf4876cce8567dc4329527215be132295e96 ALSA: oxfw: fix functional regression for Mackie Onyx 1640i in v5.14 or later
+455f79041ce2e90fe31bb4a14afbfa8f144abc76 iommu/dma: Fix incorrect error return on iommu deferred attach
+7835dbd0a252952a3e9ce743d8d6bb0e7deaf105 powerpc: Don't provide __kernel_map_pages() without ARCH_SUPPORTS_DEBUG_PAGEALLOC
+2583a9fa159d50a86722bfc56f7bcd9dcfdafb00 ASoC: cs42l42: Correct configuring of switch inversion from ts-inv
+027da00f43ebef4ff6a46a373c8e7452f555cf68 RDMA/hns: Fix initial arm_st of CQ
+641bf4907c0802bb031b07ffd24eb7c63043683d RDMA/hns: Modify the value of MAX_LP_MSG_LEN to meet hardware compatibility
+e81224b13cc905e23e2032da3de46e1e67323b6a ASoC: rsnd: Fix an error handling path in 'rsnd_node_count()'
+64dcaa471c418ac70c02ff5e88cb2531739bc5eb serial: cpm_uart: Protect udbg definitions by CONFIG_SERIAL_CPM_CONSOLE
+69e3c8943066e735c56e62df420a7807948ce376 virtio_ring: check desc == NULL when using indirect with packed
+67c47b5409cdf5e696e17fa08b11500e657e5782 vdpa/mlx5: Fix clearing of VIRTIO_NET_F_MAC feature bit
+f24a4583f43571aaef26cc297a6c618e549c4145 mips: cm: Convert to bitfield API to fix out-of-bounds access
+d506cae9e3b1c816d604d5dce669ba3d68fb9203 power: supply: bq27xxx: Fix kernel crash on IRQ handler register error
+442657ef6fc778119af9ee332b4d68a71603e59f RDMA/core: Require the driver to set the IOVA correctly during rereg_mr
 
---===============2452370088632191866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa9034092a73-99a253742d35.txt
-
-4785adf8a9c4e51b7c13c2da6a501ef0c6c74eb5 ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
-ca4efbf94632651ea95c9cf8e2502e07c9f97107 scsi: advansys: Fix kernel pointer leak
-e0ee2db2a3f65087e4f6e3e2e626389e7eded004 ALSA: intel-dsp-config: add quirk for APL/GLK/TGL devices based on ES8336 codec
-80c7bc8b5b975116af7d4974eaa2cf5e503a51ce ASoC: Intel: sof_sdw: add missing quirk for Dell SKU 0A45
-21c14f22f408aefe4a9197c4774b1af27dcadffc firmware_loader: fix pre-allocated buf built-in firmware use
-b43e20a9a40b8fbb10ce9aadeb818733d6941638 cpuidle: tegra: Check whether PMC is ready
-33f95959d6431200c59c7468ebbe382007167d92 ARM: dts: omap: fix gpmc,mux-add-data type
-3b5cd3e5b0e4f323d0ef2dcd42fc080840c9f24b usb: host: ohci-tmio: check return value after calling platform_get_resource()
-f059d8a24b34b5e41fd2fcf7ca73010ee75fbdc3 ARM: dts: ls1021a: move thermal-zones node out of soc/
-0151dd080d5bc7775d76918b45af7b979870b521 ARM: dts: ls1021a-tsn: use generic "jedec,spi-nor" compatible for flash
-f4bcc2ef53ab2128d6e6bb9761140f9d95567f1d ALSA: ISA: not for M68K
-1f3d09f9d4203cb5a12dd8b10c2980919a70d7b2 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-c3b6e618823213124bf7d1da3eedc3d52a2275e5 MIPS: sni: Fix the build
-6140fdd76eb74e06eddfacbbcf7a61a535fa21b2 scsi: scsi_debug: Fix out-of-bound read in resp_readcap16()
-2b0c5ba7388662a4b6e7f4b3b7c87a4c4fe10e01 scsi: scsi_debug: Fix out-of-bound read in resp_report_tgtpgs()
-ea52c566c0b4751687443f21a0f18d5a11089f94 scsi: target: Fix ordered tag handling
-8829a74401f1f34ebb043534a1597e649bbe8776 scsi: target: Fix alua_tg_pt_gps_count tracking
-cf85fc833d90b7d5102a045f2a7fc8608bc51c8e iio: imu: st_lsm6dsx: Avoid potential array overflow in st_lsm6dsx_set_odr()
-eaaa65d3735fe09fa28a4abd3bcf1c43b2cedb3b powerpc/5200: dts: fix memory node unit name
-86c862f627bca26e72623f36e9f7de7e15d11384 arm64: dts: qcom: msm8916: Add CPU ACC and SAW/SPM
-9a78d89b9f902e5ed95277cdce2a13d28fca5f6f ARM: dts: qcom: fix memory and mdio nodes naming for RB3011
-7153831930cb1cb107de5944545535c1438cac1e ALSA: gus: fix null pointer dereference on pointer block
-3653f7bd43a7356d9c4248b9b68c967651a573a4 powerpc/dcr: Use cmplwi instead of 3-argument cmpli
-99a253742d35bc1c9b86928b7da35a4511c95f76 powerpc/8xx: Fix Oops with STRICT_KERNEL_RWX without DEBUG_RODATA_TEST
-
---===============2452370088632191866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03785ec52d1a-a1a0e860676a.txt
-
-09eb9ae2c15b45d330205ebadd80b3abe7088f98 bus: ti-sysc: Use context lost quirks for gpmc
-f6c189d7d44f9730e33676bcedf92656cc8ebf4d bus: ti-sysc: Use context lost quirk for otg
-8d387184307c8403bca0f7068112777aad0ca212 usb: musb: tusb6010: check return value after calling platform_get_resource()
-e51bf9386c977d753979ff507edf88e5bb528f54 usb: typec: tipd: Remove WARN_ON in tps6598x_block_read
-489bbf3ba8565bed4d7c0842b09d8a04618c4d09 ARM: dts: ux500: Skomer regulator fixes
-0dc9753c7913faf7bf13575d9768b4d3d27d1319 staging: rtl8723bs: remove possible deadlock when disconnect (v2)
-e7031590e2679943f52f5228fb9141213ef761c2 staging: rtl8723bs: remove a third possible deadlock
-2170f62994f54050b31875122ffa12d1c118fdc7 ARM: BCM53016: Specify switch ports for Meraki MR32
-aa2a049ac05416d94e4e60e62be435b131593d58 arm64: dts: qcom: msm8998: Fix CPU/L2 idle state latency and residency
-49c7011a52f0a8532b8f19cba589d71be69d603d arm64: dts: qcom: ipq6018: Fix qcom,controlled-remotely property
-9588c08d203ae88e03be46e7c5918e0c55768f51 arm64: dts: qcom: sdm845: Fix qcom,controlled-remotely property
-7c5112b08cd2aef79db67b9b1079a9b6bf0f57d9 arm64: dts: qcom: msm8916: Add unit name for /soc node
-dbe22419896e0e7befc466108b42b1540971af19 arm64: dts: freescale: fix arm,sp805 compatible string
-e762e8a1a9a5ef0d076d61f189aeaf1ebbebbb6c arm64: dts: ls1012a: Add serial alias for ls1012a-rdb
-fa9317d9638e0c827eb7bafe5cf3ee2c58f59053 RDMA/rxe: Separate HW and SW l/rkeys
-255cfb1216f0bea6aa1dc0601f33a393edef8beb ASoC: SOF: Intel: hda-dai: fix potential locking issue
-e4cafb0bd42c81efe69ebf51401a1052392dd3f5 scsi: core: Fix scsi_mode_sense() buffer length handling
-9f3e321471296aa5ae105697477dc178b30235e9 ALSA: usb-audio: disable implicit feedback sync for Behringer UFX1204 and UFX1604
-6fd35ed854eb001f330cc876fb5ad9dda43add73 clk: imx: imx6ul: Move csi_sel mux to correct base register
-4eb4b03e41b5749670c42827715b2cdf0d25551d ASoC: es8316: Use IRQF_NO_AUTOEN when requesting the IRQ
-7e70e974a6d2a8a8f4ae693045eb725fe5ed4595 ASoC: rt5651: Use IRQF_NO_AUTOEN when requesting the IRQ
-7851be3fb319467396032dbca5e4c134a0479940 ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
-092156ab500ff05d7baad0ae087465e36d6947d6 scsi: advansys: Fix kernel pointer leak
-503d82ff2c909252a1b6922d1d4d068ce863b19b scsi: smartpqi: Add controller handshake during kdump
-ff724f895a67d76fe66f37364b5cecb69748a059 arm64: dts: imx8mm-kontron: Fix reset delays for ethernet PHY
-7a0af8c859bced2e03885fdf84ef4ac58c8ec975 ALSA: intel-dsp-config: add quirk for APL/GLK/TGL devices based on ES8336 codec
-d6ccd4d5d17ff98c413c1bbef5dbe50d3c55347d ASoC: Intel: soc-acpi: add missing quirk for TGL SDCA single amp
-3350dfdc07406e4aeeebc3bec2a91873ace314ab ASoC: Intel: sof_sdw: add missing quirk for Dell SKU 0A45
-ebf986605b7de92e2367fdb5ad0ade457482c3fa firmware_loader: fix pre-allocated buf built-in firmware use
-214317fa44fb0d4ae857cb774a01e70c112bfbd0 cpuidle: tegra: Check whether PMC is ready
-c56a037af198576b4065c8534af2cefa1197b8b9 HID: multitouch: disable sticky fingers for UPERFECT Y
-98fe92de59baf61279be47ae2f2e4f6aaa06d420 ALSA: usb-audio: Add support for the Pioneer DJM 750MK2 Mixer/Soundcard
-0a586366bca5b40cfade97c70524cc9bfcc95fa4 ARM: dts: omap: fix gpmc,mux-add-data type
-8798b35ee77a976caf0b2ead00e147bcaf293bb7 usb: host: ohci-tmio: check return value after calling platform_get_resource()
-69aa3d57c580d092a6a409ce522107fe89dca5fe ARM: dts: ls1021a: move thermal-zones node out of soc/
-c65720346109e7e90a41533b7c628d1ff72f5547 ARM: dts: ls1021a-tsn: use generic "jedec,spi-nor" compatible for flash
-b47b360e7b1a0b2510bad59526907e54d0446b6a ALSA: ISA: not for M68K
-0a0f3439af388f885f36a3833764209bb083af75 iommu/vt-d: Do not falsely log intel_iommu is unsupported kernel option
-55d34489b32610a6693cc0ef9ee0f3cfef93db19 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-9f851057bac72d90a4f741ac573bce16dc62505e MIPS: sni: Fix the build
-6c1d8eca660338d23c8b278065f1572027a0265f scsi: scsi_debug: Fix out-of-bound read in resp_readcap16()
-616250ad9e894c5f420537c5d20866f63bacb6bd scsi: scsi_debug: Fix out-of-bound read in resp_report_tgtpgs()
-418ed737b2e5ef91ba1e2d762497aa210b29f9aa scsi: target: Fix ordered tag handling
-666c1754d1f53e9673661de7fee6cae8d1334ad3 scsi: target: Fix alua_tg_pt_gps_count tracking
-cdcf0259fa66e96751177d53a11a82cce5e9d197 iio: imu: st_lsm6dsx: Avoid potential array overflow in st_lsm6dsx_set_odr()
-a42f31c6d53c763b5aef762dd6bb5a7dafe5e0b1 RDMA/core: Use kvzalloc when allocating the struct ib_port
-e7fd64b9ccb67c2734a6fcc4982dc96986db53ec scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi() routine
-97f9a51e9bfc4c7632fd33b8638b6fd6d160042b scsi: lpfc: Fix link down processing to address NULL pointer dereference
-b60243f27c51facf46b790b1f05b58532fcc11a6 memory: tegra20-emc: Add runtime dependency on devfreq governor module
-2e9bc6b7b3b4ef485af2add85a6cbe173e6ffde5 powerpc/5200: dts: fix memory node unit name
-fe90f992d7ca5a0af2874b77e85ab44c41ebc99f arm64: dts: qcom: msm8916: Add CPU ACC and SAW/SPM
-65411adbcf06f4c1e90da1f615be7cf159bc16ac ARM: dts: qcom: fix memory and mdio nodes naming for RB3011
-7ef6165a77a51736b8df6c4dbcec92e52aaaa8df ALSA: gus: fix null pointer dereference on pointer block
-018517a4a693b8e59c5261efebc4b863116bb6fb ALSA: usb-audio: fix null pointer dereference on pointer cs_desc
-27353119fa9a7ceadcb07f884c73749b92964c2d clk: at91: sama7g5: remove prescaler part of master clock
-558658f1e6599e2ae1f30e367d64e1419ce4a123 powerpc/dcr: Use cmplwi instead of 3-argument cmpli
-f714dbd7d3df9a5fd13f55eb3b6fbe5e1d739511 powerpc/8xx: Fix Oops with STRICT_KERNEL_RWX without DEBUG_RODATA_TEST
-a1a0e860676a565e16160d7bc6b83e5c86684afe HID: playstation: require multicolor LED functionality
-
---===============2452370088632191866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06c3736b122f-c803a53faa1b.txt
-
-6fe773f537cfafb536d275dd2adc4d9c5a039ac3 bus: ti-sysc: Use context lost quirks for gpmc
-c65ed37b8fdea4f1f29dae250d2ffc1e0dae4d71 bus: ti-sysc: Use context lost quirk for otg
-bb2efad83337e45fdfa8cb72980cdf1bbaa0bc09 usb: musb: tusb6010: check return value after calling platform_get_resource()
-58328616066d74577fa03ca7df0e125f281b5513 usb: typec: tipd: Remove WARN_ON in tps6598x_block_read
-49bb2cb2d294647ce85902c0c335db76481ef2b4 ARM: dts: ux500: Skomer regulator fixes
-5be1d984c0d421954bec430aca9e1790da25b559 staging: rtl8723bs: remove possible deadlock when disconnect (v2)
-218371d299156213e588342d0bb521430641a04c staging: rtl8723bs: remove a second possible deadlock
-ad11d2ac5b67099e97a95948398abae62291cb0a staging: rtl8723bs: remove a third possible deadlock
-9d8a97704326285fe14167c7b4159cefa2aaa669 ARM: BCM53016: Specify switch ports for Meraki MR32
-d6412c8c07be05262ea3e1365cf9bf4b3f813a67 arm64: dts: qcom: msm8998: Fix CPU/L2 idle state latency and residency
-cefed82bce846d54997bd49f554608da3ee71251 arm64: dts: qcom: ipq6018: Fix qcom,controlled-remotely property
-9e27eeb1488c8b16a7bf3c982896092191a7f1a4 arm64: dts: qcom: ipq8074: Fix qcom,controlled-remotely property
-4bd4ae7073d3bed82b6b644f64331ea7354f9b90 arm64: dts: qcom: sdm845: Fix qcom,controlled-remotely property
-af039a0225f6a3cd0b03842044c6dde68588f094 arm64: dts: qcom: msm8916: Add unit name for /soc node
-99306bf2f59475f4a2acfa4bca911602f73fcaf6 arm64: dts: freescale: fix arm,sp805 compatible string
-42a6a6ad6244827a50b8cef207865f92acf5faf3 arm64: dts: ls1012a: Add serial alias for ls1012a-rdb
-9e8c07cbd93647cf2d8d56f080a73abf46d64320 RDMA/rxe: Separate HW and SW l/rkeys
-a03a57904365aca812ad2039cfd2e8117aad98d9 ASoC: SOF: Intel: hda-dai: fix potential locking issue
-1125b088fa9ade8b00446289ad448a16cea02644 scsi: core: Fix scsi_mode_sense() buffer length handling
-b4cc5fd0db3043a68fa06e383e70742fcfc988dc ALSA: usb-audio: disable implicit feedback sync for Behringer UFX1204 and UFX1604
-d93172b80429ea642643eb5707443bd87e9cc692 clk: imx: imx6ul: Move csi_sel mux to correct base register
-8b09c4a0fa5dd7872dca97365a1556625a709be9 ASoC: es8316: Use IRQF_NO_AUTOEN when requesting the IRQ
-e7df1c9a4d25ad84c5c0827014aca9793822179a ASoC: rt5651: Use IRQF_NO_AUTOEN when requesting the IRQ
-dda83568ae4f456a2ce239c19d5874ed7e7ca588 ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
-53cb190d3370c93b0b7d35a00d7e6b3643dfed34 scsi: advansys: Fix kernel pointer leak
-a4cdf36fb18ef0c872558998442afe0b8b57f3ae scsi: smartpqi: Add controller handshake during kdump
-55396c6a8af36499aa3b749ae6b62d34fd5b3993 arm64: dts: imx8mm-kontron: Fix reset delays for ethernet PHY
-35ae2a81a343e38175406b658f391af7dfbb419f ALSA: intel-dsp-config: add quirk for APL/GLK/TGL devices based on ES8336 codec
-a9715ab2bde95c13ada6d2b725964a578ab43555 ASoC: Intel: soc-acpi: add missing quirk for TGL SDCA single amp
-9b6917babcdb9505ea06f056b378e63559cbcef0 ASoC: Intel: sof_sdw: add missing quirk for Dell SKU 0A45
-c0ff65c198cfb23c17144e93e3d46f301db2983e firmware_loader: fix pre-allocated buf built-in firmware use
-d571c14f5693d40dab66269a00c431ee008c1a77 cpuidle: tegra: Check whether PMC is ready
-3632d0f129d15c74e713d7840e28c3150a0bcdf5 HID: multitouch: disable sticky fingers for UPERFECT Y
-5bbbbaac840b345cf96e113b95d10e72bdb717c6 ALSA: usb-audio: Add support for the Pioneer DJM 750MK2 Mixer/Soundcard
-5e5568dabdfdbd6768ae42e965540692a9b38123 ARM: dts: omap: fix gpmc,mux-add-data type
-9d3e1ddefd1cb5e48bc1b73657477f0da5c90501 usb: host: ohci-tmio: check return value after calling platform_get_resource()
-1e9f02844d309db70c89f72bc89068831d92756d ASoC: rt5682: fix a little pop while playback
-a429c3c4b4772aa3f375caaf710e9c0adf11f583 ARM: dts: ls1021a: move thermal-zones node out of soc/
-fb60f6e73fa4c1e66b5e3db20c916ba5006fbc9d ARM: dts: ls1021a-tsn: use generic "jedec,spi-nor" compatible for flash
-097f004243c3feab510321c686cd979fe793c445 ALSA: ISA: not for M68K
-d51d0caacb4db3169e1958a53282982acfa281f2 iommu/vt-d: Do not falsely log intel_iommu is unsupported kernel option
-2dc86029023342311cd6ac3f1871f673ab0bf8de tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-46d0b2ae6416504cf5026ddc238b632b55025a65 MIPS: sni: Fix the build
-704e3f55a0a69a5e2c2ccac96c703b08b75cca77 scsi: scsi_debug: Fix out-of-bound read in resp_readcap16()
-80a7ad27e0e91a181ae4ee58ce4e2b5e19a8e55b scsi: scsi_debug: Fix out-of-bound read in resp_report_tgtpgs()
-7e37f6672821752405e4bbe25992096f8fa696de scsi: target: Fix ordered tag handling
-cace5782de8e7ce8d214c43ecc0b16046122aaad scsi: target: Fix alua_tg_pt_gps_count tracking
-7bcbf75b709883fcdcbb2e0d07ca98274fb30b21 iio: imu: st_lsm6dsx: Avoid potential array overflow in st_lsm6dsx_set_odr()
-96c32bc69db9aca3cae6baaad06a0f3fb55d1649 RDMA/core: Use kvzalloc when allocating the struct ib_port
-ff6e7917c8ddf95458c9a132713a30f5bed80f24 scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi() routine
-5fdfd87940f8baa467775d2ab4ef87b6f74244dd scsi: lpfc: Fix link down processing to address NULL pointer dereference
-c0bb9af173fd10ea34bc5442a3bd002e6330fadc scsi: lpfc: Allow fabric node recovery if recovery is in progress before devloss
-fa079f0f2e07f932a505c6815c984d96028730f9 memory: tegra20-emc: Add runtime dependency on devfreq governor module
-4ed95bfa182bd3376e7f5383f795669d36d480ca powerpc/5200: dts: fix memory node unit name
-35078b054dcb44d36c60e7436490aa771e186817 arm64: dts: qcom: msm8916: Add CPU ACC and SAW/SPM
-2f8f378d88b85d5bd638ba73c9faeea1f43793b2 ARM: dts: qcom: fix memory and mdio nodes naming for RB3011
-e611ac31e1e5534a569d115201cb891e14d3305f arm64: dts: qcom: Fix node name of rpm-msg-ram device nodes
-92c3228cb15a6964f44702c96c1c6b167fa8fc9d ALSA: gus: fix null pointer dereference on pointer block
-fc8b243990bcf0094669433d570c8535049b5658 ALSA: usb-audio: fix null pointer dereference on pointer cs_desc
-2c4010d81a06f47227d6ac93637e6489a2963b19 clk: at91: sama7g5: remove prescaler part of master clock
-f242d01cd3a015adc836b86a897f79d13ccbd0c5 iommu/dart: Initialize DART_STREAMS_ENABLE
-040418af0b7660a66e64f1ac3734b6fffb81159b powerpc/dcr: Use cmplwi instead of 3-argument cmpli
-6c89933f342d5ed09813592bba22bb4c7297500b powerpc/8xx: Fix Oops with STRICT_KERNEL_RWX without DEBUG_RODATA_TEST
-c803a53faa1bfff33d846660684a815ce76e3ab9 HID: playstation: require multicolor LED functionality
-
---===============2452370088632191866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dbd7b3155ca0-a64629c7030b.txt
-
-d2bb71e87eb6da8f569171f3d59fa981620ffa1a ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
-269471b53cfd1e05ade13c230c4f6fa541a9bf26 scsi: advansys: Fix kernel pointer leak
-c52d2d2191cc292195e529babf5840721f0904a8 firmware_loader: fix pre-allocated buf built-in firmware use
-83924fd030217cb4a2c754a08435f2ed6b327da6 ARM: dts: omap: fix gpmc,mux-add-data type
-418546b4bb28714b4feb7f57307960f7c89d64d4 usb: host: ohci-tmio: check return value after calling platform_get_resource()
-bea128170e94a60010878c4a845a80b7ec83ee31 ARM: dts: ls1021a: move thermal-zones node out of soc/
-8d058ec3199db2e4bf2cbb4850c7fad44f4df8ee ARM: dts: ls1021a-tsn: use generic "jedec,spi-nor" compatible for flash
-25f6b1cb909cabb95d674ddd1e34dd8f8a1ca6b9 ALSA: ISA: not for M68K
-6f37015c2d22c55d864dc7bfed417c8c43e7a368 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
-e788da2cda542a74c43f7d01c51d83c384b6beb8 MIPS: sni: Fix the build
-dbdc28bb29703540fee6fa9341175b7df88b2576 scsi: target: Fix ordered tag handling
-f8f50151b4c44216005ae31a5666952383e73f5b scsi: target: Fix alua_tg_pt_gps_count tracking
-2686c88fb96f25ff569559dfff608d5e951c325f iio: imu: st_lsm6dsx: Avoid potential array overflow in st_lsm6dsx_set_odr()
-7220931afdbb7fba41f1900aec5b6dcac5a90811 powerpc/5200: dts: fix memory node unit name
-13aedb0914f448727c13f310a4d6ede8d203e55b ALSA: gus: fix null pointer dereference on pointer block
-a64629c7030b7f2c053d4e8446e764fee31b4843 powerpc/dcr: Use cmplwi instead of 3-argument cmpli
-
---===============2452370088632191866==--
+--===============1819331176877806940==--
