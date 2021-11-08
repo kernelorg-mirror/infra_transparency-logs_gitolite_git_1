@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 08 Nov 2021 00:41:03 -0000
-Message-Id: <163633206377.29985.15462273305323998362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 08 Nov 2021 00:49:18 -0000
+Message-Id: <163633255886.2745.5503115215661648877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 7afe0abefb06aa8a6f6bdf0b6a730dc6716fab6b
-    new: e67f706e23dbe6a1cf3a7e1616624ddb0f680ccd
+  - ref: refs/heads/fixes
+    old: c186b38dc7f91b34343699b6e43c088176359998
+    new: 0b0f33c533dd01ae346b5cc690752d248cd10a99
     log: |
-         e67f706e23dbe6a1cf3a7e1616624ddb0f680ccd erofs-utils: introduce fsck.erofs
+         0b0f33c533dd01ae346b5cc690752d248cd10a99 erofs: remove useless cache strategy of DELAYEDALLOC
          
