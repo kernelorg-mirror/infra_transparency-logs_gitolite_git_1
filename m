@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7252074903940905518=="
+Content-Type: multipart/mixed; boundary="===============7780746467071774312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 08 Nov 2021 22:02:45 -0000
-Message-Id: <163640896588.4792.3412045182370124655@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 22:03:04 -0000
+Message-Id: <163640898479.4922.3636318073677630472@gitolite.kernel.org>
 
---===============7252074903940905518==
+--===============7780746467071774312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 87066fdd2e30fe9dd531125d95257c118a74617e
+  - ref: refs/heads/for-5.16
+    old: 1af5f7af2484004e71d384d8b88c221fc62cd6b5
     new: d2f38a3c6507b2520101f9a3807ed98f1bdc545a
-    log: revlist-87066fdd2e30-d2f38a3c6507.txt
+    log: revlist-1af5f7af2484-d2f38a3c6507.txt
 
---===============7252074903940905518==
+--===============7780746467071774312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87066fdd2e30-d2f38a3c6507.txt
+Content-Disposition: attachment; filename=revlist-1af5f7af2484-d2f38a3c6507.txt
 
 d8a2c0fba530f318c32e60310bc9df79fa54a14d Merge branch 'for-next/kexec' into for-next/core
 082f6b4b6223966567d52fb9eb78a1fc70e95069 Merge branch 'for-next/kselftest' into for-next/core
@@ -1051,4 +1051,4 @@ d20f7a09e5eeeeef5db679adc9a490fecb6a4c87 Merge tag 'gpio-updates-for-v5.16' of g
 3a9b0a46e1708b6b3c298f2cf22923cc5a2ca63f Merge tag 'mfd-next-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 d2f38a3c6507b2520101f9a3807ed98f1bdc545a Merge tag 'backlight-next-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 
---===============7252074903940905518==--
+--===============7780746467071774312==--
