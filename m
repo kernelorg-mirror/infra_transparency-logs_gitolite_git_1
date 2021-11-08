@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1326807186500598190=="
+Content-Type: multipart/mixed; boundary="===============3783664476897723480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Mon, 08 Nov 2021 08:44:37 -0000
-Message-Id: <163636107746.8754.13470457708663778034@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 08:58:50 -0000
+Message-Id: <163636193061.18726.14258191807720150546@gitolite.kernel.org>
 
---===============1326807186500598190==
+--===============3783664476897723480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: jberg
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: 861460888758e9de0004f747ea1e5df0eace290d
-    new: 46242202c602cdc407913036c9c29ba52ac37043
+    old: 46242202c602cdc407913036c9c29ba52ac37043
+    new: d034d73ad655ade6615f1aa5593cfddee0db10a9
     log: |
-         b8d5974a630a06de53ca10d6d835c7c32f38c891 update nl80211.h
-         46242202c602cdc407913036c9c29ba52ac37043 info: add FILS_CRYPTO_OFFLOAD extended feature
+         d034d73ad655ade6615f1aa5593cfddee0db10a9 bump version to 5.16
          
+  - ref: refs/tags/v5.16
+    old: 0000000000000000000000000000000000000000
+    new: 4b6fd9f2470c5441a1fa5d0af0c2fb796abd693c
 
---===============1326807186500598190==
+--===============3783664476897723480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1636361072 +0100
+pusher 7BF9099A 1636361925 +0100
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1636361072-eccef97b039cd73737068aed640537c564083264
+nonce 1636361925-beeb40eb5cd06c01572ecb579bed5c495393ccd8
 
-861460888758e9de0004f747ea1e5df0eace290d 46242202c602cdc407913036c9c29ba52ac37043 refs/heads/master
+46242202c602cdc407913036c9c29ba52ac37043 d034d73ad655ade6615f1aa5593cfddee0db10a9 refs/heads/master
+0000000000000000000000000000000000000000 4b6fd9f2470c5441a1fa5d0af0c2fb796abd693c refs/tags/v5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmGI43AACgkQB8qZga/f
-l8TNgA/+Ka4NKpl3J0cuSTJGTwUCWjMk3qQDPXsrYtNEq4qsDoY4T6uYaq6m0QKI
-Af2RL/IlEVmMyL+YHi+NBJITKFMBRc3vBfQ5letH4s1+iVtZfBCDTsrtcK4Y9dTK
-BkncPTcg3guMj7ha2u824cV1iACzyxfqEKz3poJsCEpWm/xTj7lPG9KSWUJJEMwH
-+mRG3PiDj5L0uQEgEvc5GDnf2iiJvthpIqLGIesi4RS3xHvi0QKzSoSnldXTHNSC
-I1TldWu2HOwwqilQx11cSWNX7+sGbC/zYPnpK4JBBuGhQrqKQ5hb3OeOMWnzHf02
-AHuQl11prmCnyNcoNeOaMVNaMXJXmdH29HlM1Lw6zGjPSZ5llFsrXg+izXGms4KQ
-pKN4PgVVX25Kio2A5EtXJ5+0t7aif/kxNOTosCqZqPBhNNlRZmQV/ZZsr6RazATG
-QZXeicwIFDrMplUXbIsrOShRmcuOGTfAKxMDYceB3TuoSvtqcWZQWg7tHMRycgtX
-Sosh/LuE80EA9/0dwVLl/FyEtHMud/caNnINMy4ww5M6oH5YDPtgZH4JbE8gELR+
-3UXH6NC8Db7gknS6CEACXwhsAN2jsW4yCnShbhk6f4keKC/A/emWDMi78Tkdnk1W
-cLJHOZOaRMm0HZ0k1rVtDQ2Q3zjzineXDa1s9Sw/6EZX8sR5lV8=
-=ltQV
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmGI5sUACgkQB8qZga/f
+l8Tk+g//R4c+LjtNJazJFW2Mr12H/4RlqCfYvc+OWKiPBrYtSOSUsbGPbrlKmwn1
+hakcNXPRdZEk3eUhZbYADxHQuYs5jviQdh3pwkGZq+LjXjsqi76VPHQcA5mRWWra
+EuYumYTSmlzapRG398egRUQp63BS1hwBTlmIYkk5kBRXK3xIdb0XoozdrWhRehG8
+0wnmLFvsUMx7Wgoatml3RfoeZ4IhcG4e0R1P1YZxhntgXzzmZwov23ucUd+t/nzQ
+dZrILCIzLXZTsnGnbrKjOMqvNwif9CEyFC8jin9haif9UUVpvWxep7dW6YKZaNyf
+kL2ITMu4n9QwLcURL6jWhHGC91dpYBhmFxH6Akd4wjvb3d1SPr6tW8ZOnCsXBvXg
+AixxxqgXfQsmY0CrKQUvVYKZZJm3C2KrEPmBiRCg9u6TWXUOOE0mnYFABtZf7LXY
+MeQrTg3YE+TnqiCmGYeNXwE+DHJA8c4hlqNLT3MMWQF0g+24Fr5HS38TR31AJwKt
+eI94b5Z4bxe4aZPLlfVjjytLRxIEU99m2GgIB31PMDcJWu3jdcV4FJDObaNehHil
+eW4K8+HOFK2kjaJwLGj6gv5rWTynTqyNpW56oh7UYGT0Jq7JxRipOSnScqZUvuqw
+pINLlHELkCJMG8nZrH8M+jkRbcwVVLSd32Cxp7HsgLi3eX/Tcms=
+=xefg
 -----END PGP SIGNATURE-----
 
---===============1326807186500598190==--
+--===============3783664476897723480==--
