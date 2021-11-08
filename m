@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 08 Nov 2021 10:50:50 -0000
-Message-Id: <163636865001.8075.8245612474217156867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
+Date: Mon, 08 Nov 2021 11:03:54 -0000
+Message-Id: <163636943484.14593.14017228658280506856@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/danielt/linux
+user: danielt
 changes:
-  - ref: refs/heads/fixes
-    old: deacd669e18a51cb2085450c56d851aef72b3256
-    new: 08e873cb70f30e11e912a93390f1c0c4e65fae1c
-    log: |
-         08e873cb70f30e11e912a93390f1c0c4e65fae1c KVM: arm64: Change the return type of kvm_vcpu_preferred_target()
-         
+  - ref: refs/tags/kgdb-5.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bdf48d5294661c861d44e7621cde1dc394e530da
