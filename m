@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6437900986823844938=="
+Content-Type: multipart/mixed; boundary="===============5999949421850003770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 08 Nov 2021 20:47:08 -0000
-Message-Id: <163640442889.20067.16510120620828885144@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 20:49:14 -0000
+Message-Id: <163640455467.22042.15734498733967909494@gitolite.kernel.org>
 
---===============6437900986823844938==
+--===============5999949421850003770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 70bf363d7adb3a428773bc905011d0ff923ba747
-    new: c45231a7668d6b632534f692b10592ea375b55b0
-    log: revlist-70bf363d7adb-c45231a7668d.txt
+  - ref: refs/heads/mlx5-queue
+    old: 99141aefac7a1d602ede9a25318808cc17bf5df3
+    new: 0e0a3a5ce3d190a0fbd4189fd438de38821adc13
+    log: revlist-99141aefac7a-0e0a3a5ce3d1.txt
 
---===============6437900986823844938==
+--===============5999949421850003770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70bf363d7adb-c45231a7668d.txt
+Content-Disposition: attachment; filename=revlist-99141aefac7a-0e0a3a5ce3d1.txt
 
-c0f49d98006f2db3333b917caac65bce2af9865c can: j1939: j1939_tp_cmd_recv(): ignore abort message in the BAM transport
-a79305e156db3d24fcd8eb649cdb3c3b2350e5c2 can: j1939: j1939_can_recv(): ignore messages with invalid source address
-164051a6ab5445bd97f719f50b16db8b32174269 can: j1939: j1939_tp_cmd_recv(): check the dst address of TP.CM_BAM
-d9447f768bc8c60623e4bb3ce65b8f4654d33a50 can: etas_es58x: es58x_rx_err_msg(): fix memory leak in error path
-3f1c7aa28498e52a5e6aa2f1b89bf35c63352cfd can: peak_usb: always ask for BERR reporting for PCAN-USB devices
-6b78ba3e51f9a2fa5b48eef959acc8b6f02cbf1f can: peak_usb: exchange the order of information messages
-691204bd66b34ba982e19988e6eba9f6321dfe6c can: mcp251xfd: mcp251xfd_irq(): add missing can_rx_offload_threaded_irq_finish() in case of bus off
-69c55f6e7669d46bb40e41f6e2b218428178368a can: mcp251xfd: mcp251xfd_chip_start(): fix error handling for mcp251xfd_chip_rx_int_enable()
-f05fb508ec3bb2d4b6006682d76d380d50a6fc42 Merge tag 'linux-can-fixes-for-5.16-20211106' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-08fcdfa6e3ae394ce44ad27485f9722e7eb4e142 nfc: port100: lower verbosity of cancelled URB messages
-85879f131d78151847baf29f9557c5be1aa8e066 net: hisilicon: fix hsn3_ethtool kernel-doc warnings
-8ac9dfd58b138f7e82098a4e0a0d46858b12215b llc: fix out-of-bound array index in llc_sk_dev_hash()
-e7ea51cd879c8214a824717d28a169b5f2262c02 sctp: remove unreachable code from sctp_sf_violation_chunk()
-e1464db5c57ef393dde8126f09d2b04d166acf16 net: marvell: prestera: fix hw structure laid out
-62b12ab5dff038ea43b69207b1f42ddc2f0a0b09 selftests: net: tls: remove unused variable and code
-9fec40f850658e00a14a7dd9e06f7fbc7e59cc4a nfc: pn533: Fix double free when pn533_fill_fragment_skbs() fails
-c45231a7668d6b632534f692b10592ea375b55b0 litex_liteeth: Fix a double free in the remove function
+893cf936122331d02a1d7b9b4755905b640fd993 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+841c5197e58eac6e89bfb7cd9c6ce54c2203dcdd net/mlx5e: Save memory by using dynamic allocation in netdev priv
+fe824260106cbcc4f68d6cfa62237a3a251ff2dd net/mlx5e: Allow profile-specific limitation on max num of channels
+576e85f1957dba973fb8bda6d8112c30b9729a6b net/mlx5e: Use dynamic per-channel allocations in stats
+7aafb0d667ee60accd1cbb7ad3ed7544d8a97975 net/mlx5e: Allocate per-channel stats dynamically at first usage
+5d2cfab8e27c7a67f5cac18503733ed048e79f0e net/mlx5: Fix format-security build warnings
+52b51168cff958798d37773a8e0c39e0f35fe4d7 net/mlx5: TC, using swap() instead of tmp variable
+a9983f1396d173a07bc094150f2b8f8880201b3a net/mlx5e: TC, Destroy nic flow counter if exists
+fc484a6659e45ff8956c3d49c0500b8ef305c855 net/mlx5e: TC, Move kfree() calls after destroying all resources
+b447f023fa6afc1abc9ac15b3f736063243aee23 net/mlx5e: Refactor mod header management API
+833d2f9b88bb5d9adc2da44371493fe1ecc29dde Merge branch 'patchq/444903' into mlx5-queue
+04401867d9c2261cded06a1ff61dbeb1b257b309 Merge branch 'patchq/444443' into mlx5-queue
+ad7d79504673237d767d0b6ac165720d033c30c2 net/mlx5: CT: Allow static allocation of mod headers
+35fd407cc8d18981fc6a6275e19e63935b631f12 Merge branch 'patchq/443926' into mlx5-queue
+0e0a3a5ce3d190a0fbd4189fd438de38821adc13 Merge branch 'patchq/414154' into mlx5-queue
 
---===============6437900986823844938==--
+--===============5999949421850003770==--
