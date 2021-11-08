@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 08 Nov 2021 21:21:35 -0000
-Message-Id: <163640649558.10796.11261553660449323797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
+Date: Mon, 08 Nov 2021 21:46:49 -0000
+Message-Id: <163640800988.24833.9885893888309332005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/kabel/linux
+user: kabel
 changes:
-  - ref: refs/heads/master
-    old: 43059d5022355cd060cf0ec2d63f59734aeb6c85
-    new: cfd191a803a1577e70638b027bb2ec095985baf8
-    log: |
-         cfd191a803a1577e70638b027bb2ec095985baf8 eap: Silence uninitialized var warning
-         
+  - ref: refs/tags/marvell10g-LED-support
+    old: 92c3f5c1cfd3190eb7ad377361cecc2c6ad7558b
+    new: 0000000000000000000000000000000000000000
