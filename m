@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
-Date: Mon, 08 Nov 2021 22:23:14 -0000
-Message-Id: <163641019491.17859.12719999085923392848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 08 Nov 2021 22:25:34 -0000
+Message-Id: <163641033476.19936.7092498418305376087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kabel/linux
-user: kabel
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/net-queue-work2
+  - ref: refs/heads/objtool-compiler-annotation-macro-fixes
     old: 0000000000000000000000000000000000000000
-    new: 6e6c882b9f9314372cef270671a39ea67460ea6b
+    new: c2ac7c02d14aef631c5f705226594d5227ea4337
