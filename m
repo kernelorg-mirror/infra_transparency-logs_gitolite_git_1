@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3651482487352831961=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 08 Nov 2021 07:11:01 -0000
-Message-Id: <163635546140.16750.17153863094110284331@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 07:12:50 -0000
+Message-Id: <163635557095.17397.4614883952671546505@gitolite.kernel.org>
+
+--===============3651482487352831961==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,53 +16,94 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: b442d19afc6001c5c805b39b09d417a89b8b9adf
-    new: 6ef2bb6c4b64bc38e446c20c988f02be933cd02c
+    old: 6ef2bb6c4b64bc38e446c20c988f02be933cd02c
+    new: df45fe9ed98b573c0f6bf64cde8d92f7d5660c8a
     log: |
-         352c9f0593542b13282a32583811f91cfab3c94d scsi: core: Put LLD module refcnt after SCSI device is released
-         25660ea4a5a58b1cbef1405122962f8e0813028e media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         0160040ebc6b24f24392c6af9bbd18913ed4f26d mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         d9ad71348a0431d371e15e3ff3e452f6981cfeb3 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         a1a574bd360d3327990d9d268efdfdf010c9fa53 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         9b06c68f3f3b0b24fe836d3b3a12b8cc976df2a1 IB/qib: Use struct_size() helper
-         4ab7c06785e9fe7263c5173dd3eb89af8cc07d2f IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
-         ccc34c163bdba432f0bb9a28c52f251f56820346 block: introduce multi-page bvec helpers
-         6ef2bb6c4b64bc38e446c20c988f02be933cd02c Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         375ba09141285a9ee22f8c85a0eaada945928439 scsi: core: Put LLD module refcnt after SCSI device is released
+         0a1b7025d304ebbfb0c95060b8951a74c4ed9b16 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         86bec192deb9280dbbb49f5a6c1ae0ffa8679935 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         e3df207536bbf550e6b3c0b49b80ed94fd1fd24a arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         c699cef6069c094590284859a633bba4589f3155 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         7c702af3e63040238a312b6899589507eb3d24a4 IB/qib: Use struct_size() helper
+         50aa7ecb826c4a2a1dad80befbcecc1713d8cd82 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         56cfdea6710d5087fb89f04d1a5dd321cdf4fb9e block: introduce multi-page bvec helpers
+         df45fe9ed98b573c0f6bf64cde8d92f7d5660c8a Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         
+  - ref: refs/heads/queue/4.19
+    old: bffe8f87a0d0dd245160d3bbe7a71c8e97185369
+    new: 23c05f0e62b7a6d76769fb871c86033e77344b3e
+    log: |
+         c2df161f69fb1c67f63adbd193368b47f511edc0 scsi: core: Put LLD module refcnt after SCSI device is released
+         53ec9dab4eb0a8140fc85760fb50effb526fe219 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         cde048c5fe6ff79b6f26fb68d94c165d4a420c09 IB/qib: Use struct_size() helper
+         73d2892148aa4397a885b4f4afcfc5b27a325c42 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+         3659fd7e08cfad2717d3b61c4470d82c5942a4bb sfc: Fix reading non-legacy supported link modes
+         d4fe42d646f277dfbc8a6cbc82bc4c8a12dd7798 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         de4868f6b081733490e1d2828644c4b157f19c87 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         3033e5726834e4c9c8c48cdb2273f33bd105f938 Linux 4.19.216
+         bd40143e3eda80b82a164578b916c2346c981554 block: introduce multi-page bvec helpers
+         05f0c405a169192ce2c758573eba84c0a0353629 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         23c05f0e62b7a6d76769fb871c86033e77344b3e usb: ehci: handshake CMD_RUN instead of STS_HALT
          
   - ref: refs/heads/queue/4.4
-    old: 6ee00ffacb613b4221342ef365e9624048b811d3
-    new: 2cddad79cb9dfe9d4dfe60442cc175221656704c
+    old: 2cddad79cb9dfe9d4dfe60442cc175221656704c
+    new: 2a346de74129e4c1c35d05297ef409bd2ed26841
     log: |
-         a182a25acef4c291ee9c19dc40f4bb1e48bb1821 scsi: core: Put LLD module refcnt after SCSI device is released
-         352f0221cdcb0eac0c9ff34c0df9d7ff2e41ddea ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         2cddad79cb9dfe9d4dfe60442cc175221656704c net: hso: register netdev later to avoid a race condition
+         d952cecca5dbd057ad2aa45408e180ae5bc72b22 scsi: core: Put LLD module refcnt after SCSI device is released
+         7bf59c60cdcd64ce7de99a6d35b4ba8587e15914 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         2a346de74129e4c1c35d05297ef409bd2ed26841 net: hso: register netdev later to avoid a race condition
          
   - ref: refs/heads/queue/4.9
-    old: d39519e23c919db2b6154a6d71b9a33976d8a2e0
-    new: 58b7053b475e716a3666dd5f8338d32c60e15e00
+    old: 58b7053b475e716a3666dd5f8338d32c60e15e00
+    new: fbfd51851317fc606f6271b8ca5160154837d364
     log: |
-         103cce76f2b65dd028f4d6071be05db168c4e1a5 scsi: core: Put LLD module refcnt after SCSI device is released
-         8199b98dfc63db2b855eea8c3f3702704f4a6564 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-         9ea4285fcd98ee7b7d9eaa23d93f9ebaf7bcdead arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
-         cfab999f8b6e45b3c2be603bb4c740366b7d6ad3 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
-         1b7776aed090d2d5f1be20edfb555b6bc7f7b86b net: hso: register netdev later to avoid a race condition
-         58b7053b475e716a3666dd5f8338d32c60e15e00 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         0e79407510eec295a31d90803f8d1ccb1ea18ecb scsi: core: Put LLD module refcnt after SCSI device is released
+         cce69b111d89eb961254e2455e321618b8d288f1 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+         276592c163d18155c5f73b0e68134b1767f6317f arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+         8c065e770b3059b5fe18f7157aa51ec3355624ed ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+         7bf52f911ed85d3f697689c01462046ce7cce224 net: hso: register netdev later to avoid a race condition
+         fbfd51851317fc606f6271b8ca5160154837d364 Revert "x86/kvm: fix vcpu-id indexed array sizes"
          
   - ref: refs/heads/queue/5.14
-    old: fad81893e738678b34b238761842333ef1955b92
-    new: 317bf653b876cdcc4b0ef9c967694e54f22ae209
+    old: 317bf653b876cdcc4b0ef9c967694e54f22ae209
+    new: bb334e2e28d7ef150d82489981dea0c32667814a
     log: |
-         27d7e8f0623d08ba9c961d59169103e832a2f8e9 ALSA: pcm: Check mmap capability of runtime dma buffer at first
-         620337ea5cdecef3a4c39767825e369de90c7fef ALSA: pci: cs46xx: Fix set up buffer type properly
-         5bf3508cea5970840f53524d7ab383ee952fee12 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         e94b3b72e7fe793441e95a0f810eed6b549eb97f Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         317bf653b876cdcc4b0ef9c967694e54f22ae209 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         f15a05569c1ea77995bc7a9c5ca49cec705e31d6 ALSA: pcm: Check mmap capability of runtime dma buffer at first
+         fb3fc5c6a201247a95be5ce590d61b7208fce68a ALSA: pci: cs46xx: Fix set up buffer type properly
+         d87734a4fba8f684525869fea04f6466ed0b3a61 KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         11d5896f2ddb9817f2e0aaf8765d601071a4983e Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         bb334e2e28d7ef150d82489981dea0c32667814a usb: ehci: handshake CMD_RUN instead of STS_HALT
          
   - ref: refs/heads/queue/5.15
-    old: 1895e5e09cd198e1bb2c0b29d770b8e5239ccc1f
-    new: acd29aa05ce827a7cbe53dc58e0cb364eb3588e5
+    old: acd29aa05ce827a7cbe53dc58e0cb364eb3588e5
+    new: 33151dbca49a78922ec84946f252b9d024ec8fea
     log: |
-         44f664ba439d152abbf9e1515305e7ac401fe6be KVM: x86: avoid warning with -Wbitwise-instead-of-logical
-         19e0781f1e0cb694dd8accc05712ce34274a4fa8 Revert "x86/kvm: fix vcpu-id indexed array sizes"
-         acd29aa05ce827a7cbe53dc58e0cb364eb3588e5 usb: ehci: handshake CMD_RUN instead of STS_HALT
+         059ac7edc30d8a3a12344be51b40b9bb5b96a24b KVM: x86: avoid warning with -Wbitwise-instead-of-logical
+         f3b118e66b188fd8acd1eec046afcdd486c6d518 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+         33151dbca49a78922ec84946f252b9d024ec8fea usb: ehci: handshake CMD_RUN instead of STS_HALT
          
+  - ref: refs/heads/queue/5.4
+    old: d05869a7f0f3efadca705a43adcc2b31214e53f7
+    new: a327fda720c2d8fec7aff765dcaa8db782fe0b3d
+    log: revlist-d05869a7f0f3-a327fda720c2.txt
+
+--===============3651482487352831961==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d05869a7f0f3-a327fda720c2.txt
+
+1ce287eff9f23181d5644db787f472463a61f68b scsi: core: Put LLD module refcnt after SCSI device is released
+e02fdd7db471e04653f0378a9e23ec055c1fb1b4 vrf: Revert "Reset skb conntrack connection..."
+21fc2bb836e505f5037f309aecd8bd3340d38220 net: ethernet: microchip: lan743x: Fix skb allocation failure
+2461f38384d50dd966e1db44fe165b1896f5df5a media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+049849492b77aa0df7f7130f1d522f3553c4084b Revert "xhci: Set HCD flag to defer primary roothub registration"
+6789e4b7593bc656a3e7af3e2f7c6dd9d3f41253 Revert "usb: core: hcd: Add support for deferring roothub registration"
+a73ebe514a60262e528386b87cf74492fb1ed843 sfc: Fix reading non-legacy supported link modes
+960b1fdfc39aba8f41e9e27b2de0c925c74182d9 Revert "drm/ttm: fix memleak in ttm_transfered_destroy"
+e31d51f8a41fab7867a4c4a449856dcfebc85615 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+c65356f0f7268b1260dd64415c2145e73640872e Linux 5.4.158
+b7d83975e6f6bd82879df2f2bbfcff9718d922fa Revert "x86/kvm: fix vcpu-id indexed array sizes"
+a327fda720c2d8fec7aff765dcaa8db782fe0b3d usb: ehci: handshake CMD_RUN instead of STS_HALT
+
+--===============3651482487352831961==--
