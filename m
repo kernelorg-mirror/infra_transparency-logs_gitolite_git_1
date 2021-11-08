@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Mon, 08 Nov 2021 10:49:49 -0000
-Message-Id: <163636858947.5860.17884820266436271035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 08 Nov 2021 10:50:50 -0000
+Message-Id: <163636865001.8075.8245612474217156867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
   - ref: refs/heads/fixes
-    old: b484d7f223db5944d57ef3f05e0fd3c84d005f31
-    new: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
+    old: deacd669e18a51cb2085450c56d851aef72b3256
+    new: 08e873cb70f30e11e912a93390f1c0c4e65fae1c
+    log: |
+         08e873cb70f30e11e912a93390f1c0c4e65fae1c KVM: arm64: Change the return type of kvm_vcpu_preferred_target()
+         
