@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
-Date: Mon, 08 Nov 2021 21:57:20 -0000
-Message-Id: <163640864098.1001.16242181915733851431@gitolite.kernel.org>
+Date: Mon, 08 Nov 2021 21:57:23 -0000
+Message-Id: <163640864318.1054.3617740321370985801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kabel/linux
 user: kabel
 changes:
-  - ref: refs/tags/populate-supported_interfaces
-    old: c08087fa9a6a9a3b7fa52aa507ba32358abbeba2
+  - ref: refs/tags/mvpp2-fix-xlg
+    old: e73616896f04c62e6cef7c19ed1938b655c3423f
     new: 0000000000000000000000000000000000000000
