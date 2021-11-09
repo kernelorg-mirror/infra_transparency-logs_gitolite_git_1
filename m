@@ -1,26 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 09 Nov 2021 15:28:30 -0000
-Message-Id: <163647171023.19742.2773062899327892668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 09 Nov 2021 15:50:04 -0000
+Message-Id: <163647300429.1588.1693532682443373547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/mips-next
-    old: 36de23a4c5f0b61ceb4812b535422fa6c6e97447
-    new: cca2aac8acf470b01066f559acd7146fc4c32ae8
+  - ref: refs/heads/for-5.16/block
+    old: a846a8e6c9a5949582c5a6a8bbc83a7d27fd891e
+    new: 26af1cd00364ce20dbec66b93ef42f9d42dc6953
     log: |
-         1f761b3e67e4d7058c0ff538bd3f6eecce3d9dae MIPS: Allow modules to set board_be_handler
-         f1245bc8cbe81005b3c07dd35ca71a1c90b57efe MIPS: Update bmips_stb_defconfig
-         5eeaafc8d69373c095e461bdb39e5c9b62228ac5 mips: BCM63XX: ensure that CPU_SUPPORTS_32BIT_KERNEL is set
-         bdbf2038fbf47e7de0b3909e9c8ac3ca4598e9e0 MIPS: VDSO: remove -nostdlib compiler flag
-         1d987052e32f3554e84a296c4494551bc60f3877 MIPS: BMIPS: Enable PCI Kconfig
-         70060ee313be521e28b782e5ac05aa9db0d4c4fc PCI: brcmstb: Allow building for BMIPS_GENERIC
-         0706f74f719e6e72c3a862ab2990796578fa73cc MIPS: fix *-pkg builds for loongson2ef platform
-         cca2aac8acf470b01066f559acd7146fc4c32ae8 MIPS: fix duplicated slashes for Platform file path
+         9ef4d0209cbadb63656a7aa29fde49c27ab2b9bf blk-mq: add one API for waiting until quiesce is done
+         d2b9f12b0f7cf95c43f5fd4a18688d958d39e423 scsi: avoid to quiesce sdev->request_queue two times
+         93542fbfa7b726d053c01a9399577c03968c4f6b scsi: make sure that request queue queiesce and unquiesce balanced
+         26af1cd00364ce20dbec66b93ef42f9d42dc6953 nvme: wait until quiesce is done
+         
+  - ref: refs/heads/for-next
+    old: 7466c30966dd34f8b0c21919d76c825a113d6763
+    new: 5b57ed4125d65ae0cb1064d5dec6b4cb9c75b911
+    log: |
+         9ef4d0209cbadb63656a7aa29fde49c27ab2b9bf blk-mq: add one API for waiting until quiesce is done
+         d2b9f12b0f7cf95c43f5fd4a18688d958d39e423 scsi: avoid to quiesce sdev->request_queue two times
+         93542fbfa7b726d053c01a9399577c03968c4f6b scsi: make sure that request queue queiesce and unquiesce balanced
+         26af1cd00364ce20dbec66b93ef42f9d42dc6953 nvme: wait until quiesce is done
+         5b57ed4125d65ae0cb1064d5dec6b4cb9c75b911 Merge branch 'for-5.16/block' into for-next
          
