@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 09 Nov 2021 11:48:51 -0000
-Message-Id: <163645853118.12057.1115230022489136516@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 11:49:26 -0000
+Message-Id: <163645856619.13176.2662322955752056628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 54f0bad6686cdc50a3f4c5f7c4252c5018511459
-    new: 3e0588c291d6ce225f2b891753ca41d45ba42469
+    old: 3e0588c291d6ce225f2b891753ca41d45ba42469
+    new: 0b9111922b1f399aba6ed1e1b8f2079c3da1aed8
     log: |
-         3e0588c291d6ce225f2b891753ca41d45ba42469 hamradio: defer ax25 kfree after unregister_netdev
+         0b9111922b1f399aba6ed1e1b8f2079c3da1aed8 hamradio: defer 6pack kfree after unregister_netdev
          
