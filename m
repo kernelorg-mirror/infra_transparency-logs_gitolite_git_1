@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5936234109911201436=="
+Content-Type: multipart/mixed; boundary="===============6026914225417008011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Nov 2021 04:31:10 -0000
-Message-Id: <163643227036.25555.16998911875127591083@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 04:31:20 -0000
+Message-Id: <163643228024.25694.11029013045281583216@gitolite.kernel.org>
 
---===============5936234109911201436==
+--===============6026914225417008011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 75c252b3cfb80d1bd5c8e9b7df100e9fc17b8b1e
-    new: 905558dc2cb0e0a1aa5df4ea3ad9e522aee354bd
+  - ref: refs/heads/5.16/scsi-staging
+    old: 3344b58b53a76199dae48faa396e9fc37bf86992
+    new: 375622ecf36e6b468dcc6a27bd4ce3d3866f98e3
     log: |
          cd892096c940c6570cc1624009c9c0602c80a82a scsi: ufs: core: Improve SCSI abort handling
          9e4d8fb1249b9e0d3dbeac4df3bc3c36ade83d0d scsi: iscsi: Unblock session then wake up error handler
@@ -28,33 +28,33 @@ changes:
          375622ecf36e6b468dcc6a27bd4ce3d3866f98e3 scsi: qla2xxx: Fix mailbox direction flags in qla2xxx_get_adapter_id()
          
 
---===============5936234109911201436==
+--===============6026914225417008011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1636432263 -0500
+pusher 75C5DE3D 1636432273 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1636432262-737ec8fcc979415349be4c3daace0001d1626145
+nonce 1636432273-03867a2ac5043e37fc87f27eff37c8245ffb9a78
 
-75c252b3cfb80d1bd5c8e9b7df100e9fc17b8b1e 905558dc2cb0e0a1aa5df4ea3ad9e522aee354bd refs/tags/mkp-scsi-staging
+3344b58b53a76199dae48faa396e9fc37bf86992 375622ecf36e6b468dcc6a27bd4ce3d3866f98e3 refs/heads/5.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGJ+YcACgkQ7ulgGnXF
-3j0JXQ//RRLPexwl8qMaoJegvWVN2c/nQtOJ/4vEX+sPtU0LAAOg8nto1vf261L3
-jAFEVpToxEKIKmb2AQ8f+nhdTzuf7F+chNLFNLa77jCigJxdev7NYR1Z/8D1h0cr
-Pex+sGVQmRMJYOd24YKCPPALbmSaT/krOmHWDibCZsEgkc0IOm80i77cto3ES5NG
-yL50VupOgIUWP3JvzkmnK1MO3sUmM4SJvHW1lfdvW8CBhXXAugjmiki+DyIfzhua
-RU6OkkgNHtpL0WXLtL+gu77+DCU638owD9d0VD8ywjgs1b57mfxwBw31TI9YLq0x
-y03xaz25BqIur4fN074bqjZ83LCK7BDx3dJYU5O/XOe9Mu2v5AevWfcDt0rTRceQ
-V2G1bZ0uB9eDjOGmYFso2HQP7MSmVqB+ZrVwRFmtmEFwbIRzolyIVIC3zbrst/tj
-vyKP9K1rkMaW8S8gFhjT5FL72NkyfyN/315n+G7vWBVJOaelKlt2G1og34BczYdm
-AMPc3bMmYOQU6LwLgavaP0mdHRlpd6+S6JKkrOql7TFIX6E5zYUjM3iNsiBHUBX/
-Yy+Oy+0GzQqncT3XlOpg13ZImhRqsPSoNwI/rlajQTZsoRKFo2scH9bqawMkURct
-ghp39FAt8+EOk2/XRxcWCL5qj6LhylobPzyC6bTKa/xe98lFpj8=
-=QAmO
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGJ+ZEACgkQ7ulgGnXF
+3j3L3hAAkn0Mv41+i9q+kDfMRpnwfsZnayGNWFvEKxTBcCycru4d78Lb6CmC/B6X
+Dy/6tOiRbWbJDBNLJ/YRDRlWvY167lC0CoQOTdMtdmaSikyUo0FYvAyyn5CXpSnB
+bdCTr68y09/NLjtFjK3qDCX5frd5k0K4aTqPhE7Tx8EPnq+SHD9ob4qlBwZQglkW
+f8dxVTdpQZQEvXEOliGGUM83q0324ulCt9verXWxxFVAuf3KoPTm/VtUxVKYlrAS
+GPvoDGe/vuxEyfNzz0NU6eljnWCmqb8Nruzq40r2SADhhs8OLu4thWUnc0tKg5z/
+YqwOPfv3yDg8XkUnF2a0y/g0n6wbHTMoD3GCVmACMZM/QtYnpG4qkwER7UHPUceO
+Cs/aFkE14ZFNCC0p84YZAzRMhZDAZtjsbkudmLj0b7Q7Bt97FjVWk3l7BhKCro2P
+w/IqA2e0VBGg3JiRCKdiaXXGcVpUYnviXNQa9/hr9fTj0c4PaF/B89zcZqSjtUtJ
+vEjEMYz4+ykoWKCO1BlRHqNwnBbPw1LqHmgpwVL9EwUCuSh6DR/SNQXkSQihrX2D
+IhmSGvKJwaZCtIJSUsxJ58EkcfqEYYM0Ab4qVtxGnG2sQjfZK5WrjAz1li1RyN/2
+Eqv75OJDUu8v/hMF1ppg1HXXMHza4qfqNHJXkmkhzPh7Z/COfvg=
+=vuOP
 -----END PGP SIGNATURE-----
 
---===============5936234109911201436==--
+--===============6026914225417008011==--
