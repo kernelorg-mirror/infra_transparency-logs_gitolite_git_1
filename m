@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 09 Nov 2021 17:50:04 -0000
-Message-Id: <163648020420.12015.11079319777702423515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 09 Nov 2021 18:41:00 -0000
+Message-Id: <163648326098.9745.13119463929545348779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/tags/for-5.16/bdev-size-2021-11-09
-    old: 0000000000000000000000000000000000000000
-    new: 6fa029dfc6f44d6944a1e6679338707e9f00c1d5
-  - ref: refs/tags/for-5.16/block-2021-11-09
-    old: 0000000000000000000000000000000000000000
-    new: a797a35b043b03f1c2727dc33f3fba931fd17c2c
-  - ref: refs/tags/for-5.16/drivers-2021-11-09
-    old: 0000000000000000000000000000000000000000
-    new: a3f4abdf9bdcaf3c66e428dcc9d0c4350ca3e642
-  - ref: refs/tags/io_uring-5.16-2021-11-09
-    old: 0000000000000000000000000000000000000000
-    new: d48d7d9fa57c4b9bd241760ba0a92f7caf08a304
+  - ref: refs/heads/main
+    old: 50b668bdbf0ebc270495eb4b352d0c3982159d0a
+    new: 35c81b18c4ed9e9b25e89d40bc7d0d47e958e041
+    log: |
+         35c81b18c4ed9e9b25e89d40bc7d0d47e958e041 uapi: update vdpa.h
+         
