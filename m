@@ -1,23 +1,76 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 09 Nov 2021 00:58:33 -0000
-Message-Id: <163641951333.17677.3654179679800772987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dgc/linux-xfs
+Date: Tue, 09 Nov 2021 01:39:05 -0000
+Message-Id: <163642194525.14224.14523548341385411335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/dgc/linux-xfs
+user: dgc
 changes:
-  - ref: refs/heads/dev
-    old: 7a7becb4d01e99471523ac38adf3ed64f8be092e
-    new: e1ca02b1a5a057589c7e848a3be1b7aa75b9979f
-    log: |
-         83bb7d2d5621622252f00baf67163c2d5e202446 squash! clocksource: Forgive repeated long-latency watchdog clocksource reads
-         e23e243eef66823d875c4633ae84d52fa8117399 rcu-tasks: Introduce ->percpu_enqueue_shift for dynamic queue selection
-         e4fd1c0096ef186138ead00765fd4bf1bbd66519 rcu-tasks: Convert grace-period counter to grace-period sequence number
-         a064bc7a26632a4a9d7428d02ea62f212b3aeef1 rcu_tasks: Convert bespoke callback list to rcu_segcblist structure
-         e1ca02b1a5a057589c7e848a3be1b7aa75b9979f rcu-tasks: Use spin_lock_rcu_node() and friends
-         
+  - ref: refs/heads/xfs-cil-scale-3
+    old: 0000000000000000000000000000000000000000
+    new: a8968d20003626369fb703f2c77f7deced2d9f9d
+  - ref: refs/tags/v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/tags/v5.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/tags/v5.14-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+  - ref: refs/tags/v5.14-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/tags/v5.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
