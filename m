@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7329417624216961037=="
+Content-Type: multipart/mixed; boundary="===============4070812732764903368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Nov 2021 04:30:39 -0000
-Message-Id: <163643223936.25187.17475886042919274304@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 04:30:49 -0000
+Message-Id: <163643224917.25328.8024795372111814117@gitolite.kernel.org>
 
---===============7329417624216961037==
+--===============4070812732764903368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: cb67a11d4a0c0d10c778cb3c2f024d137699abae
-    new: 34c9a6f8761948d22a227db7b18f6562e9a8c9fe
-    log: revlist-cb67a11d4a0c-34c9a6f87619.txt
+  - ref: refs/heads/5.16/scsi-queue
+    old: a1efc896cb8a2831de3cf5a9747e030b494f1a26
+    new: 3344b58b53a76199dae48faa396e9fc37bf86992
+    log: revlist-a1efc896cb8a-3344b58b53a7.txt
 
---===============7329417624216961037==
+--===============4070812732764903368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1636432232 -0500
+pusher 75C5DE3D 1636432242 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1636432232-28fd877fb01267752dcb09164d1ab9f346d72764
+nonce 1636432242-bc8a8cbcdf660c35490b54a4804a4ecc82160175
 
-cb67a11d4a0c0d10c778cb3c2f024d137699abae 34c9a6f8761948d22a227db7b18f6562e9a8c9fe refs/tags/mkp-scsi-queue
+a1efc896cb8a2831de3cf5a9747e030b494f1a26 3344b58b53a76199dae48faa396e9fc37bf86992 refs/heads/5.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGJ+WgACgkQ7ulgGnXF
-3j0XmA//QLHzlpz2jOO+n+JWRWVRf3CSvZwnGWneG63kQH/HuoY0xwEp7EqV/Rdj
-DfTtKiXmF4v+CkXEpd7T408Wsn1g1RM2p5Pwjftq8CZiIDOBK9bnoIs4iau/MptR
-BX9ktcrELLapm8X3rWJVkBoNZY0BFfFpP1apDBZSw2Q1usRIDyuZ80TkGhgcQsvc
-2Ol2d8ZzN9Y6hN2HDDKVwBe4aOAtFtJ0FMfumSr/YKo0h8Ry01SXgGyZYHpS0QJh
-skCRa0lsp8ibgKN9pTYDUVTWfJ7a8MC4V7ro0ySxx4+b/1F/AsM0a03Q3SWEgH/z
-lXHwcVcdCSD6HTswTuM8RzNGJterQjHZkIbYwBMux0Eq/vXoygJ0BnWsa+DsinD1
-4E4YIHbxWIJmNa0u3VqnJvLJeNKIV6cfV90iySMLYtEGSn4EdNcN8GvLUl9Q9b1Y
-jjO38HQEjDhcDOthYwKjUOl18m0M1dKGoJfdQ+GaNsvj6s0TJRgbM76dAm0Y6kcj
-aeays5WV8ppPwf9/6UZx4pN8rWz++J6ue27lJSlBirC4K/x2YJHoYldVDVMXjjHN
-KsQYceaLryvFuMJDa2eksh0++iYikGY3efrrY4L/drfqOUDUhrZojcztL/d62a/q
-0g9uqBVaKCX6NMCl8gC7MLCS0Ebb0e1S1Xcp1kUgJY1jjoW8xyk=
-=dJ+w
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGJ+XIACgkQ7ulgGnXF
+3j0c2g//SULpsvMaRXgmjBEH13mZuqX2akNMSNhgffhkIhFvZIPhCYUfFxMssQFx
+NNQU/FZaDKbXvgA5hue0MOdAkmOlx7TaLauzUBDBcGPkjq9ygbOBh/XocsWDPZrN
+33bAsD3tWZ1LTHw4pj/GmnkTntUCTvBAqMuOPjfpnzE1uxZS1C4bZOrmgB2DKpe+
+55Ft2dB+r/2yAEMgY3w209tcNubuBRqj8SJ10LuJApeJSMe3ewo0dnPIaHCXkL8q
+g8PmtBw7HGnjOpbBekunw2E/ezIrKhrg24i7rX0KrNb1mJJU16dy0knFpHwN8jCl
+7SWfJ5bujxOU6j21+kbkNeVKCs4E1VNe8jeQAVprHs6UJG9Oiv3iD52TwSfe5joL
+bZwcf4gjv2MOZ3OTJhkXfmYt3u4661o1oN7qpLZlFJqLPNXLms6k1lUAHcPnz+jv
+sg4X7PPjMm2bAd/fp7qn/NC6cqJxDBssyicCtT6SaA/4JDNquRuv7ICqxb6GfpJc
+qlBu6tbPjRauc3Pda+nREQJvpJDzLQREzQdaVP5IF/VRJPBRpOkesdVWTcMEjtuX
+Fht0jUng3Pb3xJ/yXN3L6o/RJatYCR1SAvT/qLavIL+nrRe3KHYDfXu8ociYtyqn
++IKa+xoWK+NTmgiDe6X+cLhWo/5rAcqdBuBLVyfcwOYCcBOIZWc=
+=iG+6
 -----END PGP SIGNATURE-----
 
---===============7329417624216961037==
+--===============4070812732764903368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb67a11d4a0c-34c9a6f87619.txt
+Content-Disposition: attachment; filename=revlist-a1efc896cb8a-3344b58b53a7.txt
 
 50b6cb3516365cb69753b006be2b61c966b70588 scsi: core: Fix shost->cmd_per_lun calculation in scsi_add_host_with_dma()
 187a580c9e7895978dcd1e627b9c9e7e3d13ca96 scsi: iscsi: Fix set_param() handling
@@ -78,4 +78,4 @@ e20f80b9b163dc402dca115eed0affba6df5ebb5 scsi: ibmvfc: Fix up duplicate response
 703535e6ae1e94c89a9c1396b4c7b6b41160ef0c scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
 3344b58b53a76199dae48faa396e9fc37bf86992 scsi: scsi_debug: Don't call kcalloc() if size arg is zero
 
---===============7329417624216961037==--
+--===============4070812732764903368==--
