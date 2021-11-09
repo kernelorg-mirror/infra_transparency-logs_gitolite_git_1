@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7350072916439835809=="
+Content-Type: multipart/mixed; boundary="===============1013174437364987520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 09 Nov 2021 11:22:14 -0000
-Message-Id: <163645693402.28548.13956073482002240887@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 11:22:31 -0000
+Message-Id: <163645695196.28695.14478476780113106294@gitolite.kernel.org>
 
---===============7350072916439835809==
+--===============1013174437364987520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 81121524f1c798c9481bd7900450b72ee7ac2eef
-    new: 1bcd588164110a3a9dc2a1f0960b15b8a1c0613f
-    log: revlist-81121524f1c7-1bcd58816411.txt
+  - ref: refs/heads/sched/urgent
+    old: 63acd42c0d4942f74710b11c38602fb14dea7320
+    new: 37cf0624386d2feadfe28d8b2732a200664838a1
+    log: revlist-63acd42c0d49-37cf0624386d.txt
 
---===============7350072916439835809==
+--===============1013174437364987520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81121524f1c7-1bcd58816411.txt
+Content-Disposition: attachment; filename=revlist-63acd42c0d49-37cf0624386d.txt
 
-837d7a8fe852cf93fff1cd3b73d707b3a6ae340f h8300: Fix linux/irqchip.h include mess
-11e45471abea1a69dc3a92b1d1632c4d628b3b98 Merge branch irq/misc-5.16 into irq/irqchip-next
 9330986c03006ab1d33d243b7cfe598a7a3c1baa bpf: Add bloom filter map implementation
 47512102cde2d252d7b984d9675cfd3420b48ad9 libbpf: Add "map_extra" as a per-map-type extra flag
 ed9109ad643cfbe69670a37cdbaf2da9f409fed0 selftests/bpf: Add bloom filter map test cases
@@ -1049,6 +1047,8 @@ b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb Merge tag '5.16-rc-part1-smb3-client-fi
 e54ffb96e6f41eb5ca2f89788f95224273ce09f1 Merge tag 'compiler-attributes-for-linus-v5.16' of git://github.com/ojeda/linux
 e582e08ec059cc9a93d5d154a6429fc4779cf275 Merge tag 'auxdisplay-for-linus-v5.16' of git://github.com/ojeda/linux
 6b75d88fa81b122cce37ebf17428a849ccd3d0f1 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-1bcd588164110a3a9dc2a1f0960b15b8a1c0613f static_call,x86: Robustify trampoline patching
+c0eb64d352797872f292bfd9467fd46029b471d9 x86/smp: Factor out parts of native_smp_prepare_cpus()
+42018d7c2fe9b20c3689b993ce6d1c88664c2170 sched/core: Mitigate race cpus_share_cache()/update_top_cache_domain()
+37cf0624386d2feadfe28d8b2732a200664838a1 sched/fair: Prevent dead task groups from regaining cfs_rq's
 
---===============7350072916439835809==--
+--===============1013174437364987520==--
