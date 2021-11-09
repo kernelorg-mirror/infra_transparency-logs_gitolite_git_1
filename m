@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1013174437364987520=="
+Content-Type: multipart/mixed; boundary="===============0087991426872655557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 09 Nov 2021 11:22:31 -0000
-Message-Id: <163645695196.28695.14478476780113106294@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 11:22:41 -0000
+Message-Id: <163645696163.28780.7442524479964559082@gitolite.kernel.org>
 
---===============1013174437364987520==
+--===============0087991426872655557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 63acd42c0d4942f74710b11c38602fb14dea7320
-    new: 37cf0624386d2feadfe28d8b2732a200664838a1
-    log: revlist-63acd42c0d49-37cf0624386d.txt
+  - ref: refs/heads/perf/urgent
+    old: 71920ea97d6d1d800ee8b51951dc3fda3f5dc698
+    new: 87ecb9706fa0c75ccb392889cd6e9fe290775a2c
+    log: revlist-71920ea97d6d-87ecb9706fa0.txt
 
---===============1013174437364987520==
+--===============0087991426872655557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63acd42c0d49-37cf0624386d.txt
+Content-Disposition: attachment; filename=revlist-71920ea97d6d-87ecb9706fa0.txt
 
+11e45471abea1a69dc3a92b1d1632c4d628b3b98 Merge branch irq/misc-5.16 into irq/irqchip-next
 9330986c03006ab1d33d243b7cfe598a7a3c1baa bpf: Add bloom filter map implementation
 47512102cde2d252d7b984d9675cfd3420b48ad9 libbpf: Add "map_extra" as a per-map-type extra flag
 ed9109ad643cfbe69670a37cdbaf2da9f409fed0 selftests/bpf: Add bloom filter map test cases
@@ -1047,8 +1048,7 @@ b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb Merge tag '5.16-rc-part1-smb3-client-fi
 e54ffb96e6f41eb5ca2f89788f95224273ce09f1 Merge tag 'compiler-attributes-for-linus-v5.16' of git://github.com/ojeda/linux
 e582e08ec059cc9a93d5d154a6429fc4779cf275 Merge tag 'auxdisplay-for-linus-v5.16' of git://github.com/ojeda/linux
 6b75d88fa81b122cce37ebf17428a849ccd3d0f1 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-c0eb64d352797872f292bfd9467fd46029b471d9 x86/smp: Factor out parts of native_smp_prepare_cpus()
-42018d7c2fe9b20c3689b993ce6d1c88664c2170 sched/core: Mitigate race cpus_share_cache()/update_top_cache_domain()
-37cf0624386d2feadfe28d8b2732a200664838a1 sched/fair: Prevent dead task groups from regaining cfs_rq's
+f3c87887e645a513c62556efd8acf5df360bf0fe perf/x86/lbr: Reset LBR_SELECT during vlbr reset
+87ecb9706fa0c75ccb392889cd6e9fe290775a2c perf/x86/vlbr: Add c->flags to vlbr event constraints
 
---===============1013174437364987520==--
+--===============0087991426872655557==--
