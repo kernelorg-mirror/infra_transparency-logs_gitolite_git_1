@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1123687271508359828=="
+Content-Type: multipart/mixed; boundary="===============5994450830246639221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 09 Nov 2021 02:19:37 -0000
-Message-Id: <163642437770.8050.12110496230891665930@gitolite.kernel.org>
+Date: Tue, 09 Nov 2021 02:19:53 -0000
+Message-Id: <163642439307.8204.5096804428959918185@gitolite.kernel.org>
 
---===============1123687271508359828==
+--===============5994450830246639221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: e4e737bb5c170df6135a127739a9e6148ee3da82
+  - ref: refs/heads/fixes
+    old: 0664684e1ebd7875e120d0cecd525bac4805f8ed
     new: e851dfae4371d3c751f1e18e8eb5eba993de1467
-    log: revlist-e4e737bb5c17-e851dfae4371.txt
+    log: revlist-0664684e1ebd-e851dfae4371.txt
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
 
---===============1123687271508359828==
+--===============5994450830246639221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4e737bb5c17-e851dfae4371.txt
+Content-Disposition: attachment; filename=revlist-0664684e1ebd-e851dfae4371.txt
 
 549a63238603103fa33cecd49487cf6c0f52e503 libbpf: Ensure that BPF syscall fds are never 0, 1, or 2
 92274e24b01b331ef7a4227135933e6163fe94aa libbpf: Use O_CLOEXEC uniformly when opening fds
@@ -1051,4 +1069,4 @@ bbdbeb0048b443082bcce5ed65a336bcc578a60e Merge tag 'perf-tools-for-v5.16-2021-11
 a2b03e48e961be442560796105211fc71bed02ae Merge tag 'for-linus' of git://github.com/openrisc/linux
 e851dfae4371d3c751f1e18e8eb5eba993de1467 Merge tag 'kgdb-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 
---===============1123687271508359828==--
+--===============5994450830246639221==--
