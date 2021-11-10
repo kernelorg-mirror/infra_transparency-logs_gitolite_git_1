@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6336796032445317365=="
+Content-Type: multipart/mixed; boundary="===============8976280036374142647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 10 Nov 2021 08:05:41 -0000
-Message-Id: <163653154193.30948.11457622444995428759@gitolite.kernel.org>
+Date: Wed, 10 Nov 2021 08:06:09 -0000
+Message-Id: <163653156907.31177.6097770371272388360@gitolite.kernel.org>
 
---===============6336796032445317365==
+--===============8976280036374142647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 8a893759d0075ea9556abcf86a4826d9865ba4bf
-    new: a9ad67a1c47e823c0ba5b009073db0cc8fb04b52
-    log: revlist-8a893759d007-a9ad67a1c47e.txt
+  - ref: refs/heads/main
+    old: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
+    new: cb690f5238d71f543f4ce874aa59237cf53a877c
+    log: revlist-b5013d084e03-cb690f5238d7.txt
 
---===============6336796032445317365==
+--===============8976280036374142647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636531539 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636531568 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636531538-a538df341aab3a6740662f0dad12e5c85a4ceec1
+nonce 1636531567-c74388312a89f0c6338b4eba312948447bd52239
 
-8a893759d0075ea9556abcf86a4826d9865ba4bf a9ad67a1c47e823c0ba5b009073db0cc8fb04b52 refs/heads/staging-testing
+b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb cb690f5238d71f543f4ce874aa59237cf53a877c refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGLfVMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NJUP/21iWXZRpHe5Va2D0vgH
-6Un/NciTQQILB32ft/ZfKbXi1/wkaWJPrz4nVL+tYaHI54g7E3deyq/oppZokbdS
-bmpPclpppM1t6QySKW0KJX1Xiyprv42ChZeriq4YwvPAZJmTZx0l67yiwA5EiHJH
-DnNKuUPH9SEI4mgXFfwotss5gq+vIiqsXlqLs9gIPcri0rrrGAkzLwUg5d1Radsf
-7yDCz2bQEGZeyIYdsJINeBQjhKg1tKrYglIT494GdZZEzaACTS7vXqecmUgNIc8n
-qomwiM6WUVXVvPH2mteXLL8/THR3oprMRpZeRn8USmhOQas48KSZR33JAw3Z6Bu2
-lJRdNYUHHsj3HnFByBTwGjTbaxGaXSBIYPTZVeu+znL89fkbaHBUtYyLJAlB7bAc
-IrFywWFBE/DfcSHZ669mYTthPSAwKTSFcb+qhAWtlX2mG660lR/ND7auwjLheb9W
-ZYSIY0OddJ4F3PhxYcRDuXD9HdOdNkQim6Kflzk2tbpYTNO3jMMg/kx3vXadHLLg
-uICKu/HmYiF9BFtrO/dR98pRIDQEY2iNKj3mBgcWs+30xXqgjojEnWy+JEXI+9bd
-o7CIZpdz0i9yIDW/iHOlTZKKW+t7Qp0ghgcn65g2UZQ/u/BWa6ar3lnPBoS0GM4y
-QdAeOTcHNz86qoe+EQx3z78/
-=6GJe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGLfXAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ccMQAL1MG3atCaiZWykpItTO
+0kyAsilC4SfQbmUtxKbd6cdFMiHrY/d7NMTCldjGhYJwJoNU0zjKI/2MfJ185Vov
+gs6xda+rmNnJTL1NF/3IKhHCfWVO6mRzeJwhkXYKIBxoHTlvm+5sMdvG9mNFNrI/
+Oto7vjvYRLxYbPf7JyDI5vy27TOnaATZ8+NqGtkOf/1pUnvmN+iyfc/TxjSqa2nU
+qn12/K7Og7hQhqPcqZOHkEk+P6Dk/pCtvZJWQ4m8zXwJtvQH0pk2JJ/v5QWSbb2v
+8unLgYkoOYN4rSfc7Wjt8gEuVnd0pip8CaCbSgPK8D4IlxTEEmklLDa1jrAm0gog
+BkWwvHbvfU0Es07YPe0IKu7T4XAyNSf9UjGI3P2dXrUzyFHRzpq3hpD+jK9MxGuF
+RzbHPnG+dNpz24ctZUX1HAnyExE1SN5/vEWEl6eEuyY/YxO2WtwXnXYWysKItqi6
+M08vMIUIphqH/oXInIRnug1fAhxsCO1fEHO1Hdc+40EbfQ5fNVAVtNnZBWgefhjn
+cWg5uQbo6mnBhbLMQHNiWlRecFMsOTFQl8o0nPdEzdLt7EZNRsUqNzNxhh33BeQR
+oquoC3jhRKpFkxxdtWLXot9+C9eTyz8CO5lo37yuEwA0niZfSOUf1HPbx0v4PmvF
+e5Sz9vULj+c3Gie590mW5YVX
+=oZgx
 -----END PGP SIGNATURE-----
 
---===============6336796032445317365==
+--===============8976280036374142647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a893759d007-a9ad67a1c47e.txt
+Content-Disposition: attachment; filename=revlist-b5013d084e03-cb690f5238d7.txt
 
 7629254054820bead6e18f8c3ae65c2bb01a5ae2 dt-bindings: at24: add ON Semi CAT24C04 and CAT24C05
 3ea046564039b7f20b3974adbea9271af64a4295 dt-bindings: gpio: add gpio-line-names to rockchip,gpio-bank.yaml
@@ -730,21 +730,5 @@ c183e1707aba2c707837569b473d1e9fd48110c4 Merge tag 'for-5.16/dm-changes' of git:
 1dc1f92e24d6a5479ae8ceea3e2fac69f8d9dab7 Merge tag 'for-5.16/bdev-size-2021-11-09' of git://git.kernel.dk/linux-block
 3e28850cbd359bed841b832200f9fc208a9ef040 Merge tag 'for-5.16/block-2021-11-09' of git://git.kernel.dk/linux-block
 cb690f5238d71f543f4ce874aa59237cf53a877c Merge tag 'for-5.16/drivers-2021-11-09' of git://git.kernel.dk/linux-block
-e81d0ae6b92c0dfbbee53c6a091ee75a74880eca staging: r8188eu: remove ODM_Read1Byte
-669845f90851fffc4074b96edd0148fd3eb5dd91 staging: r8188eu: remove ODM_Read4Byte
-55a71839c63cca4d4b3591ea7b9bc0651dc6b78f staging: r8188eu: remove ODM_Write1Byte
-6a59cf42e35c4af72b4e274e62ef8dd7da2c7f3a staging: r8188eu: remove ODM_Write2Byte
-15534ce120617b66635e0ced611aed9c8aae6a70 staging: r8188eu: remove ODM_Write4Byte
-95b8dda37f1b81839dd8481be4d3cdb16e364263 staging: r8188eu: os_dep: remove the goto statement
-82d401211f223426cb6c725a305c6bc88ac8c3f8 staging: r8188eu: core: remove the function __nat25_timeout
-8c3224a18272cb4bbceb8260a9559797409d5b31 staging: r8188eu: core: remove unused variable sz
-113557b36ac7eef51b4e92d7d40c6f3266d18d26 staging: r8188eu: core: remove the unused variable pAdapter
-1d791c021888d196a476eafc6e7e9ba73547521c staging: r8188eu: remove MSG_88E call from odm_TXPowerTrackingThermalMeterInit
-1db847eb5809877dbc0ebfd57bed6ab480bacfb5 staging: fbtft: Remove fb_watterott driver
-ee7e5dbcb10a8bfe14777da7046937ebd3323caa staging: rtl8723bs: core: remove unused variable pAdapter
-e7b0323ec9b4613ba57542c2c617dab4adb810b9 staging: rtl8723bs: core: remove unused local variable padapter
-07249e40785b857e1083451232538e381d60c2ee staging: vt6655: fix camelcase byData in card.c
-2070c60195cc6f67ea63894e3494db59e91edb57 staging: r8188eu: convert final two MSG_88E calls to netdev_dbg
-a9ad67a1c47e823c0ba5b009073db0cc8fb04b52 staging: r8188eu: remove MSG_88E macro
 
---===============6336796032445317365==--
+--===============8976280036374142647==--
