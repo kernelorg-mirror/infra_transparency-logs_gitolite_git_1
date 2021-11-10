@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 10 Nov 2021 15:36:53 -0000
-Message-Id: <163655861336.30294.4414577633747567062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 10 Nov 2021 15:38:15 -0000
+Message-Id: <163655869592.30755.351740263178105474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 05ae9689eb80ff2350f2d8d03d9c25333badb670
-    new: 76c41775fb38e1d3a869456a566eb16a0231f6e9
+  - ref: refs/heads/dev
+    old: 4b5e8b0abc7bc901dcfba88f5ef1da951a5f0c90
+    new: fddb9155f7971d09b63aab39bbdb1b9285e30d85
     log: |
-         76c41775fb38e1d3a869456a566eb16a0231f6e9 doc: Bump test-runner python requirement to 3.9
+         fddb9155f7971d09b63aab39bbdb1b9285e30d85 erofs-utils: fsck: use "--extract" instead of "-c"
+         
+  - ref: refs/heads/experimental
+    old: 4b5e8b0abc7bc901dcfba88f5ef1da951a5f0c90
+    new: fddb9155f7971d09b63aab39bbdb1b9285e30d85
+    log: |
+         fddb9155f7971d09b63aab39bbdb1b9285e30d85 erofs-utils: fsck: use "--extract" instead of "-c"
          
