@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9039424940190082055=="
+Content-Type: multipart/mixed; boundary="===============6765801133380040062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 10 Nov 2021 05:05:30 -0000
-Message-Id: <163652073028.17416.8678067844842037156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 10 Nov 2021 05:57:40 -0000
+Message-Id: <163652386038.16557.17112299603138096707@gitolite.kernel.org>
 
---===============9039424940190082055==
+--===============6765801133380040062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
+repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/queue-next
-    old: 6616aeb5e86c6e29da50be2771f45b8ad990c0ee
-    new: 7ca89bd3e10df9c91de621c8e60ca8bf718d2596
-    log: revlist-6616aeb5e86c-7ca89bd3e10d.txt
+  - ref: refs/heads/net-rc
+    old: c7fd2fb116d427dc1983e47041f816a5808375fb
+    new: b3e479ddf94b2581fbb212f84719c77f826d0ee9
+    log: revlist-c7fd2fb116d4-b3e479ddf94b.txt
 
---===============9039424940190082055==
+--===============6765801133380040062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6616aeb5e86c-7ca89bd3e10d.txt
+Content-Disposition: attachment; filename=revlist-c7fd2fb116d4-b3e479ddf94b.txt
 
 3990ed4c426652fcd469f8c9dc08156294b36c28 bpf: Stop caching subprog index in the bpf_pseudo_func insn
 d99341b373215cf32bfb7f341fb3e720e0e791ef bpf: selftest: Trigger a DCE on the whole subprog
@@ -57,25 +57,6 @@ f3d77f9d5c054693f83a0d852956d5c1716e13ea Merge branch 'patchq/440943' into mlx5-
 40591d46c7f2747bbedf5f34222e94f641e471f8 Merge branch 'patchq/441523' into mlx5-for-net
 ca0f92d8e2c3ac097e6bf20ce5858bbf093cfd7b Merge branch 'patchq/440546' into mlx5-for-net
 9c10cadb27d1f63ee2006128671427bf2bc39fda Merge branch 'patchq/431094' into mlx5-for-net
-c1460f529b899255033529d752365f747b131665 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
-7ed9f1b800b515bbd3631fce9089687c667fc3f3 net/mlx5e: Save memory by using dynamic allocation in netdev priv
-a89ed9a50a604ae09b747ed96b5f68893cbd23ae net/mlx5e: Allow profile-specific limitation on max num of channels
-3cb5b4285145db1867f5ec3d351c52b2ae9a94eb net/mlx5e: Use dynamic per-channel allocations in stats
-0fe40224489be1e79d15fc2a159a1ebad9040c07 net/mlx5: Fix format-security build warnings
-b6349081b1199d02dd59e77d265d1ec21da7737d net/mlx5e: Allocate per-channel stats dynamically at first usage
-37a98d527d1eabc29bd96cd4b5c3a50bc47d1919 net/mlx5: TC, using swap() instead of tmp variable
-96303e90c0b4ac0f52a5df3fc6a51f7e1c5ce721 net/mlx5e: TC, Destroy nic flow counter if exists
-60d9df2d98e1a1fa5754ac5365d885a98246664d net/mlx5e: TC, Move kfree() calls after destroying all resources
-9de39604d764397363e65a5686930539257bc16a net/mlx5e: Refactor mod header management API
-afc175992d96f2fa55b2a62f98e3a430cbdfcaa7 net/mlx5: CT: Allow static allocation of mod headers
-6845ec62662ac48391085c3803576d2331efc325 Merge branch 'patchq/444903' into mlx5-queue
-d5d5383b278f9a6101ab960875deff1f00c6e4b2 Merge branch 'patchq/444443' into mlx5-queue
-7137f73f848aca92e5d61951cbdbedd8704c261b Merge branch 'patchq/443926' into mlx5-queue
-5b32721984112848d10473530ffd99f0de9aca38 Merge branch 'patchq/414154' into mlx5-queue
-f7f99ad87543afd6d31a2fd7c636bdcaa47d4ce5 Merge branch 'mlx5-queue' into net-next
-717672e466813d13fa2bdd4e06030cb4e5d3dac2 Merge branch 'mlx4-for-net' into net-next
-6186bf5e301d03111715c9452e33ccd9c1c6d16c Merge branch 'mlx5-for-net' into net-next
-7cf8e1fc58cedef68fac07edef20e4fac02268a6 Merge branch 'net-next' into queue-next
-7ca89bd3e10df9c91de621c8e60ca8bf718d2596 Merge branch 'testing/rdma-next' into queue-next
+b3e479ddf94b2581fbb212f84719c77f826d0ee9 Merge branch 'mlx5-for-net' into net-rc
 
---===============9039424940190082055==--
+--===============6765801133380040062==--
