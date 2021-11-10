@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6765801133380040062=="
+Content-Type: multipart/mixed; boundary="===============8498212037221359919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 10 Nov 2021 05:57:40 -0000
-Message-Id: <163652386038.16557.17112299603138096707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 10 Nov 2021 05:57:45 -0000
+Message-Id: <163652386581.16674.8819480891977755463@gitolite.kernel.org>
 
---===============6765801133380040062==
+--===============8498212037221359919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: c7fd2fb116d427dc1983e47041f816a5808375fb
-    new: b3e479ddf94b2581fbb212f84719c77f826d0ee9
-    log: revlist-c7fd2fb116d4-b3e479ddf94b.txt
+  - ref: refs/heads/queue-rc
+    old: 6b2330a4c424016178c1efe541bd2d270889d54a
+    new: 2a3a86de3f7860f01ff8665cfc40307cb647bbf8
+    log: revlist-6b2330a4c424-2a3a86de3f78.txt
 
---===============6765801133380040062==
+--===============8498212037221359919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7fd2fb116d4-b3e479ddf94b.txt
+Content-Disposition: attachment; filename=revlist-6b2330a4c424-2a3a86de3f78.txt
 
 3990ed4c426652fcd469f8c9dc08156294b36c28 bpf: Stop caching subprog index in the bpf_pseudo_func insn
 d99341b373215cf32bfb7f341fb3e720e0e791ef bpf: selftest: Trigger a DCE on the whole subprog
@@ -58,5 +58,7 @@ f3d77f9d5c054693f83a0d852956d5c1716e13ea Merge branch 'patchq/440943' into mlx5-
 ca0f92d8e2c3ac097e6bf20ce5858bbf093cfd7b Merge branch 'patchq/440546' into mlx5-for-net
 9c10cadb27d1f63ee2006128671427bf2bc39fda Merge branch 'patchq/431094' into mlx5-for-net
 b3e479ddf94b2581fbb212f84719c77f826d0ee9 Merge branch 'mlx5-for-net' into net-rc
+21990706aca822a5b2b6f6cf4eb5c3c202d7bc4b Merge branch 'net-rc' into queue-rc
+2a3a86de3f7860f01ff8665cfc40307cb647bbf8 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============6765801133380040062==--
+--===============8498212037221359919==--
