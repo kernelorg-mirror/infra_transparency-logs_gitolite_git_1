@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 10 Nov 2021 19:48:09 -0000
-Message-Id: <163657368930.26031.4128338990837875134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Wed, 10 Nov 2021 19:53:48 -0000
+Message-Id: <163657402803.30376.16664965506909375123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-linus
-    old: c058493df7edcef8f48c1494d9a84218519f966b
-    new: 39173303c83859723dab32c2abfb97296d6af3bf
+  - ref: refs/heads/dt/linus
+    old: 9710e55de97030e1791a01a71386ba0a21f296e9
+    new: cbf0e0d466fcf238bcff348e1c4f00dc8c5e105e
     log: |
-         39173303c83859723dab32c2abfb97296d6af3bf ALSA: hda: Free card instance properly at probe errors
-         
-  - ref: refs/heads/for-next
-    old: c058493df7edcef8f48c1494d9a84218519f966b
-    new: 39173303c83859723dab32c2abfb97296d6af3bf
-    log: |
-         39173303c83859723dab32c2abfb97296d6af3bf ALSA: hda: Free card instance properly at probe errors
-         
-  - ref: refs/heads/master
-    old: 6322ec8d0de924cf9672b23c1b5052afafc2f03b
-    new: a642adf87693d9e65a511adeb05986a45fc68945
-    log: |
-         39173303c83859723dab32c2abfb97296d6af3bf ALSA: hda: Free card instance properly at probe errors
-         a642adf87693d9e65a511adeb05986a45fc68945 Merge branch 'for-linus'
+         6b39ba0723b53ad292271a4079f109f28160293d dt-bindings: timer: Update maintainers for st,stm32-timer
+         d4499692a70ec8aa48314dbb61f311314eadc44f dt-bindings: mfd: timers: Update maintainers for st,stm32-timers
+         91f4de5c5ee64b4f732d9ab9278c2d5939e0cd98 dt-bindings: media: Update maintainers for st,stm32-cec.yaml
+         a408a5842c91e7ac48339d5429a70cca60cac9f7 dt-bindings: media: Update maintainers for st,stm32-hwspinlock.yaml
+         cbf0e0d466fcf238bcff348e1c4f00dc8c5e105e dt-bindings: treewide: Update @st.com email address to @foss.st.com
          
