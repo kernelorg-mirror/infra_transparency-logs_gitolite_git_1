@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 Nov 2021 14:42:38 -0000
-Message-Id: <163655535844.27271.12709967492216754826@gitolite.kernel.org>
+Date: Wed, 10 Nov 2021 14:44:13 -0000
+Message-Id: <163655545349.27807.16319513538560139552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 68eabc348148ae051631e8dab13c3b1a85c82896
-    new: 721111b1b29c67fd18ac2f69b3a48c06ba996762
+    old: 721111b1b29c67fd18ac2f69b3a48c06ba996762
+    new: e5d5aadcf3cd59949316df49c27cb21788d7efe4
     log: |
-         721111b1b29c67fd18ac2f69b3a48c06ba996762 gve: fix unmatched u64_stats_update_end()
+         c7ebe23cee350fb187ee00ff445b01e11de0bfe9 net/mlx5: Lag, fix a potential Oops with mlx5_lag_create_definer()
+         e5d5aadcf3cd59949316df49c27cb21788d7efe4 net/smc: fix sk_refcnt underflow on linkdown and fallback
          
