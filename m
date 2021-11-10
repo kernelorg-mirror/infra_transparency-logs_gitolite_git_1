@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kabel/linux
-Date: Wed, 10 Nov 2021 18:22:50 -0000
-Message-Id: <163656857020.6574.2868338644578305457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 10 Nov 2021 18:23:12 -0000
+Message-Id: <163656859252.6721.14253441569415887791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kabel/linux
-user: kabel
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/phy-modes-for-andrew
-    old: 0000000000000000000000000000000000000000
-    new: bb855bee3df7e4cc2b002e95821c0b935fc48b30
+  - ref: refs/heads/master
+    old: c4365533392608a0035698c43b44920c63870a80
+    new: b564a405e7c7a4cb48008f0982e017266079a9b2
+    log: |
+         b564a405e7c7a4cb48008f0982e017266079a9b2 Wed Nov 10 06:22:13 PM UTC 2021
+         
