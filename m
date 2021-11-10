@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 10 Nov 2021 14:44:13 -0000
-Message-Id: <163655545349.27807.16319513538560139552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 10 Nov 2021 14:44:59 -0000
+Message-Id: <163655549963.28093.10979687588577913737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 721111b1b29c67fd18ac2f69b3a48c06ba996762
-    new: e5d5aadcf3cd59949316df49c27cb21788d7efe4
+  - ref: refs/heads/for-linus
+    old: 4ddac46031c1b341f2d3466243ac280f589ca41b
+    new: c058493df7edcef8f48c1494d9a84218519f966b
     log: |
-         c7ebe23cee350fb187ee00ff445b01e11de0bfe9 net/mlx5: Lag, fix a potential Oops with mlx5_lag_create_definer()
-         e5d5aadcf3cd59949316df49c27cb21788d7efe4 net/smc: fix sk_refcnt underflow on linkdown and fallback
+         c058493df7edcef8f48c1494d9a84218519f966b ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+         
+  - ref: refs/heads/for-next
+    old: 4ddac46031c1b341f2d3466243ac280f589ca41b
+    new: c058493df7edcef8f48c1494d9a84218519f966b
+    log: |
+         c058493df7edcef8f48c1494d9a84218519f966b ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+         
+  - ref: refs/heads/master
+    old: 8e1491b364f540094997c28ef0fd75de55144cad
+    new: 6322ec8d0de924cf9672b23c1b5052afafc2f03b
+    log: |
+         c058493df7edcef8f48c1494d9a84218519f966b ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+         6322ec8d0de924cf9672b23c1b5052afafc2f03b Merge branch 'for-linus'
          
