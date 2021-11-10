@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 10 Nov 2021 09:57:13 -0000
-Message-Id: <163653823316.19939.17066137641338505829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 10 Nov 2021 10:05:26 -0000
+Message-Id: <163653872617.25209.3558236942569161939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 232e85af3fe1f2809d5d12afdbe75c760bad5481
-    new: d1732bba383a95786b5ec7bc1f4a173b644fe871
-    log: |
-         d1732bba383a95786b5ec7bc1f4a173b644fe871 bash-completion: fix irqtop
-         
+  - ref: refs/heads/x86/wip.extable
+    old: 0000000000000000000000000000000000000000
+    new: 25656de5e13f5875a2b87b24c85ce45e77283a02
