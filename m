@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0054629882250058989=="
+Content-Type: multipart/mixed; boundary="===============8914718378717461983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 10 Nov 2021 18:20:06 -0000
-Message-Id: <163656840662.5354.907303849645685356@gitolite.kernel.org>
+Date: Wed, 10 Nov 2021 18:20:07 -0000
+Message-Id: <163656840741.5443.12532478791756847516@gitolite.kernel.org>
 
---===============0054629882250058989==
+--===============8914718378717461983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: c65356f0f7268b1260dd64415c2145e73640872e
-    new: 1422b7f3f43d27856aa1eaf04eac12fc7e565f66
-    log: revlist-c65356f0f726-1422b7f3f43d.txt
+  - ref: refs/heads/linux-4.14.y
+    old: f7a5edc710aa71d9c8fac12fd07ee9c1f8414edf
+    new: 0e0c342dbc368325d81b6ae17b54f1e668fa7447
+    log: revlist-f7a5edc710aa-0e0c342dbc36.txt
 
---===============0054629882250058989==
+--===============8914718378717461983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636568404 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636568405 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1636568403-0b26f58ee69b4f235cc5f49d63f3eb1c23b3844e
+nonce 1636568405-e7bbc6dd96ceae6d1051200de007c9478f9c783b
 
-c65356f0f7268b1260dd64415c2145e73640872e 1422b7f3f43d27856aa1eaf04eac12fc7e565f66 refs/heads/linux-5.4.y
+f7a5edc710aa71d9c8fac12fd07ee9c1f8414edf 0e0c342dbc368325d81b6ae17b54f1e668fa7447 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGMDVQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+acIQAKeNFvqXFiOuQve27AqW
-3jb8HFqau3YYmW8vQ0T1GK/cKB60C+vwCGvey9lqSMwgx/tomEoguaNYvi1fenZH
-x6O/giLwpBITeTQWbF4TmRxL09X697Ffn3OwDCMNfxdV8Z9eXdt4fA0QAurrwTb/
-crad4Sg+8k8h1EYNd30aByAO0FO7ulS2SQzeEDnfNyAxlIvZoBp69qTU970Al7l6
-rSZGtsoSa22gnYxlojpfFd/YaJdNLUf44OcFNCnXmUOkjfNIgjsmNmDTj2KclPFV
-fksxK8hQrpZsI2WgSLlPSnsd7jkOYCzuhl3gJKF2N1ubYm2y8xi+1z22LYsSZnvV
-qYY3YRlpGLA4AXdWRVN/GPG8k/9CD2wUHsmludiI/evb46wmp0u0iGs56kZy5rNm
-Ocom66Un/kAO0CCyhP819E16pIXZUZXIGzTgKoqDe8VsVHmOhr45vyX2Z9k2dMpa
-Ax87rCObSOosVn9SC18Wlg0sux6UUAPYoRGU1NNCPHjok1p5uQrH3w88wu6jnhfg
-l0FH0gg2RdMYeLObnZh1NvfA080hFirDMdYRsj7R7xhbXCejwSBaAvUN9uAhTr1g
-bo02ciP1LX9jOVmTbjXyhkbwjB+3Ov3BzlcCHuKdfgTIglqu6xT4kIMUYLF4j2+b
-cHXZDzkMEKKTawbS8/NKM4Kb
-=vFki
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGMDVUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I6sQAKX2CXn0WZb6cUBQ9afa
+gI2YI4m6HLFqLauEsrTM8Kl1HTP8lWsbpF1StEVqyX8FinQCP6qPvSSpgidigrWW
+c5t/qu/LRIstRA3x+K8pFGoPycJgdx2UF2p7oMtB7/ZI1fjf4XI1822nl5pqRhwz
+3fG9IqD6PD2sM9UzflfkydM+g0rx0HPg1ffmd52HOU6abE5VhqMttYgA8yei9vHI
+//waejFO1jOMyxseokpBdHFThjaodLufSBbZ2plmBUuc3yTaAWMLoLe0c9dXeghO
+as7j8ETIjWDd9bp+w6+2lVSL+asc9VzCK0e6nqR8L6M6Y7FmA2mncN4MynM7Rk8O
+KDvVE39xorZjNHvTZjXAgSCpAGruZ7kPEIeTcguyqC7DmJrFI09DbKvh28n+etrW
+yIW3+g/ejI8mqLRLdPe3hgp6bd+BI+fmg6nP4GqrkMaZuZ2Vv5zy1ye1axCu1SGk
+iQC5BCGrDxvKJzFQF3lv6WAwQvjJWV7rVjjtIPmrOD0xE1aPu2284EjE8GYGXhEx
+2KHSOifRA/xaQo/NFnu3sgdBLeOXAkuFSU3oNsvgQ2hxtZ85oa+d5R/yOkFfvcsn
+HqvgXkE1+17Vm3DfTHoz9soZU0ICZkFpXO0t8lRpoeylJ+FLwYc6/HS5YarD7BkS
+OqcxslwOI62jbuyY5rvebwur
+=A9iY
 -----END PGP SIGNATURE-----
 
---===============0054629882250058989==
+--===============8914718378717461983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c65356f0f726-1422b7f3f43d.txt
+Content-Disposition: attachment; filename=revlist-f7a5edc710aa-0e0c342dbc36.txt
 
-eb1377e4fa984e6cd6ea1584102b19c5326c091c Revert "x86/kvm: fix vcpu-id indexed array sizes"
-f2ca676d1b5a6bf22a60848adf158aabc8255321 usb: ehci: handshake CMD_RUN instead of STS_HALT
-a4485d03185040c71b129fcafa0168b1c7bb8ad3 usb: gadget: Mark USB_FSL_QE broken on 64-bit
-c8df0ee2d9387814f90bcce5bda86eda84c986c0 usb: musb: Balance list entry in musb_gadget_queue
-e06d3d8c3d650f3658823ec6a3244a3553669fd4 usb-storage: Add compatibility quirk flags for iODD 2531/2541
-4d9f0ed189f7a4f1576ea3d8684487ed2879dee6 binder: don't detect sender/target during buffer cleanup
-7a4ae189788d7fb5b426fece82e5fbf4c7b67601 printk/console: Allow to disable console output by using console="" or console=null
-cb2c45c9cff4343b98d02385e94ddf6e6c4cb18c isofs: Fix out of bound access for corrupted isofs image
-9898804588a479ec3463f9f25fc2571de7fa011e comedi: dt9812: fix DMA buffers on stack
-c57a49a7c326cf36da3091989ab3339e374f1a24 comedi: ni_usb6501: fix NULL-deref in command paths
-4a5b08e2379f8ce5bca486d1ba22399707f435ee comedi: vmk80xx: fix transfer-buffer overflows
-c0aea7c9d56e7801534847439dc80821c6f5faa3 comedi: vmk80xx: fix bulk-buffer overflow
-e8e280bd4c64b1ba8f7fc0812cd2c05c940a7542 comedi: vmk80xx: fix bulk and interrupt message timeouts
-64edbf37a5e9a683df983f201af396695aaec99a staging: r8712u: fix control-message timeout
-f5fb838e789d512ab56e8675629a5eb20dc4e9cd staging: rtl8192u: fix control-message timeouts
-16e6f4a478777ff7e3044abdb41fcb93668ebade media: staging/intel-ipu3: css: Fix wrong size comparison imgu_css_fw_init
-cdab06600508e70240e201da31601cf5603ccd24 rsi: fix control-message timeout
-1422b7f3f43d27856aa1eaf04eac12fc7e565f66 Linux 5.4.159-rc1
+f7d892d72fc9efb10cb6f9d540e10048e31e8d7a scsi: core: Put LLD module refcnt after SCSI device is released
+8aad8c396b406156f76760bb623132dfcb9d2f51 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+e8c8dc39984cb47956c562a4deb65f511bf21720 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
+61e6340c94c29d8c9de5c82d9083ce3725da38d1 arch: pgtable: define MAX_POSSIBLE_PHYSMEM_BITS where needed
+a238ed7a7a970b730b6f96c6ad08afbc58b54191 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+1ed469c1989f39d149ed2d9e4bdfebf5d665cfa4 IB/qib: Use struct_size() helper
+316db38c3b561e4400dae0223e813b2d0c04791d IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+c2d70e72c060ac901558599e88cc7555b80a5c31 block: introduce multi-page bvec helpers
+6e2532e5631e549a0938cf7e364a3489cfeeaf79 Revert "x86/kvm: fix vcpu-id indexed array sizes"
+3041e5e7ebb03a65bedd7ac2e4a656f5a62123fe usb: gadget: Mark USB_FSL_QE broken on 64-bit
+21652b173ff1cd795e2a818380da4413f281b380 usb: musb: Balance list entry in musb_gadget_queue
+852e8d2801ef39f4ad5a0e6f08543108462b0668 usb-storage: Add compatibility quirk flags for iODD 2531/2541
+78f962d62e2e3ad180823b3154c2da93af46e289 printk/console: Allow to disable console output by using console="" or console=null
+b888932263a9db4d4b6ca3ef516e3c00eacbd967 isofs: Fix out of bound access for corrupted isofs image
+e8433448deeba5ccc77ea50a7a2f89009a01a165 comedi: dt9812: fix DMA buffers on stack
+434d61c1a6f0f3a527ff3ec704109b91b7170f8b comedi: ni_usb6501: fix NULL-deref in command paths
+88bb6a41278d1f47e1ce97f227de9d2b2b405181 comedi: vmk80xx: fix transfer-buffer overflows
+6590b21a5cbe39e3b002ff0a738d5ebbc194a973 comedi: vmk80xx: fix bulk-buffer overflow
+954f289008f666b29c584d371d9d86d070d575b2 comedi: vmk80xx: fix bulk and interrupt message timeouts
+0a07b1f6458f02b84c5c5ae0a60e55fb58d2b311 staging: r8712u: fix control-message timeout
+e8929ac03e8309619010c4c837d18bb93994184d staging: rtl8192u: fix control-message timeouts
+ee46145bd9ebdf2e1e37f47a7d9d55e137d09359 rsi: fix control-message timeout
+0e0c342dbc368325d81b6ae17b54f1e668fa7447 Linux 4.14.255-rc1
 
---===============0054629882250058989==--
+--===============8914718378717461983==--
