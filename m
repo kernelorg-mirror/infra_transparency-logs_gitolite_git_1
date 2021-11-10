@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 10 Nov 2021 12:02:15 -0000
-Message-Id: <163654573504.32336.11971278604582281003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 10 Nov 2021 12:04:02 -0000
+Message-Id: <163654584218.422.6517087345869643912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/tags/dmaengine-5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f191848289b6de6665a323cf5d51194ba75a1036
+  - ref: refs/heads/for-next
+    old: 9ee44a7fbd9b14639d65622e1b2f0f5ee5a8a688
+    new: 070248ab212d48ba1a81ec5306459b9ab06ea744
+    log: |
+         070248ab212d48ba1a81ec5306459b9ab06ea744 iomap: Fix inline extent handling in iomap_readpage
+         
