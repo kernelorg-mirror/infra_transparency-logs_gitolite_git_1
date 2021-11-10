@@ -1,35 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 10 Nov 2021 06:23:42 -0000
-Message-Id: <163652542259.32482.18379613406713515272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 10 Nov 2021 06:35:42 -0000
+Message-Id: <163652614234.7769.914472954262220858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 322a552e19550872eb9f3a54330a5f615db42916
-    new: 27931d38ce057f36e68bc68cd4bf4ba24bbb9c57
+  - ref: refs/heads/for-linus
+    old: d159037abbe3412285c271bdfb9cdf19e62678ff
+    new: 4ddac46031c1b341f2d3466243ac280f589ca41b
     log: |
-         16e28abb7290c4ca3b3a0f333ba067f34bb18c86 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-         6e4860410b828f8576c0c003d412fcf8a7d433f9 Input: synaptics-rmi4 - Fix device hierarchy
-         be896bd3b72b44126c55768f14c22a8729b0992e Input: elantench - fix misreporting trackpoint coordinates
-         de889108391f0d6b8d5cdebb538d3629cf0050c6 Input: ili210x - special case ili251x sample read out
-         8639e042ad6aca7fc2a5b2fe8652396e2f522627 Input: ili210x - improve polled sample spacing
-         27931d38ce057f36e68bc68cd4bf4ba24bbb9c57 Input: ili210x - reduce sample period to 15ms
+         4ddac46031c1b341f2d3466243ac280f589ca41b ALSA: memalloc: Remove a stale comment
          
-  - ref: refs/heads/next
-    old: 322a552e19550872eb9f3a54330a5f615db42916
-    new: 27931d38ce057f36e68bc68cd4bf4ba24bbb9c57
+  - ref: refs/heads/for-next
+    old: d159037abbe3412285c271bdfb9cdf19e62678ff
+    new: 4ddac46031c1b341f2d3466243ac280f589ca41b
     log: |
-         16e28abb7290c4ca3b3a0f333ba067f34bb18c86 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-         6e4860410b828f8576c0c003d412fcf8a7d433f9 Input: synaptics-rmi4 - Fix device hierarchy
-         be896bd3b72b44126c55768f14c22a8729b0992e Input: elantench - fix misreporting trackpoint coordinates
-         de889108391f0d6b8d5cdebb538d3629cf0050c6 Input: ili210x - special case ili251x sample read out
-         8639e042ad6aca7fc2a5b2fe8652396e2f522627 Input: ili210x - improve polled sample spacing
-         27931d38ce057f36e68bc68cd4bf4ba24bbb9c57 Input: ili210x - reduce sample period to 15ms
+         4ddac46031c1b341f2d3466243ac280f589ca41b ALSA: memalloc: Remove a stale comment
+         
+  - ref: refs/heads/master
+    old: 8f39803934f24f34e8f6c01ad78b2c221653ddfd
+    new: 8e1491b364f540094997c28ef0fd75de55144cad
+    log: |
+         4ddac46031c1b341f2d3466243ac280f589ca41b ALSA: memalloc: Remove a stale comment
+         8e1491b364f540094997c28ef0fd75de55144cad Merge branch 'for-linus'
          
