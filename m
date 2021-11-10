@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 10 Nov 2021 15:32:21 -0000
-Message-Id: <163655834102.27421.11895167663830935071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 10 Nov 2021 15:33:04 -0000
+Message-Id: <163655838481.27691.5234959741495215472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/dev
-    old: b2585be335c1839afbbcfcae4b4d62495c1eaaa5
-    new: 0d3c4902b583c0e1539468bdba769308da40cbef
+  - ref: refs/heads/master
+    old: c473290b47b09370843b088be266caf18545f017
+    new: 05ae9689eb80ff2350f2d8d03d9c25333badb670
     log: |
-         21db2743bd3f64ca3b6a1d7d591392f457539e0f AOSP: erofs-utils: avoid lzma inclusion when liblzma is disabled
-         0d3c4902b583c0e1539468bdba769308da40cbef erofs-utils: fsck: use "--extract" instead of "-c"
-         
-  - ref: refs/heads/experimental
-    old: b2585be335c1839afbbcfcae4b4d62495c1eaaa5
-    new: 0d3c4902b583c0e1539468bdba769308da40cbef
-    log: |
-         21db2743bd3f64ca3b6a1d7d591392f457539e0f AOSP: erofs-utils: avoid lzma inclusion when liblzma is disabled
-         0d3c4902b583c0e1539468bdba769308da40cbef erofs-utils: fsck: use "--extract" instead of "-c"
+         d30fc9781554eab135b475c4180aed355b34f581 autotests: Test DHCPv6 client in testNetconfig
+         005198bf07f17e951bbe0ff6132005a12ae3d055 doc: Document autotest radvd dependency
+         05ae9689eb80ff2350f2d8d03d9c25333badb670 auto-t: use tmp radvd pid file
          
