@@ -1,73 +1,126 @@
-Content-Type: multipart/mixed; boundary="===============2779260484889312296=="
+Content-Type: multipart/mixed; boundary="===============1362513884443137631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 11 Nov 2021 00:10:26 -0000
-Message-Id: <163658942626.27335.9914906957226088726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 11 Nov 2021 00:11:54 -0000
+Message-Id: <163658951498.27858.4962357167702028299@gitolite.kernel.org>
 
---===============2779260484889312296==
+--===============1362513884443137631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev
-    old: a27b578052832783c6544fe0925d3e5752509c4b
-    new: aeac8cf537f3fc0bf64f7166210210be08b4d562
-    log: revlist-a27b57805283-aeac8cf537f3.txt
-  - ref: refs/heads/dev.2021.11.01a
-    old: 0000000000000000000000000000000000000000
-    new: 5770d92be38f4be24805613f1cacdcaa42bbafc3
+  - ref: refs/heads/main
+    old: 6c220937e2b26d85920bf2d38ff2464a0d57fd6b
+    new: 4d53e91c6b2c3f5b5c7375e579a453fc5053c08b
+    log: |
+         361cb52383fb986f76a34506bdec9a1dd11133f0 pull: --ff-only should make it a noop when already-up-to-date
+         974ef7ced24a782ff32b2248103e25a397276f36 simple-ipc: work around issues with Cygwin's Unix socket emulation
+         689a2aa719c1e08e501a11c6c22b6697b30efdd9 maintenance: disable cron on macOS
+         ca7a5bf4bd41daa2d475fa98dd014a97e02eb08e t/lib-gpg: avoid broken versions of ssh-keygen
+         7c7cf62c485f527bee6d3eb7e37dcfbf8064cab2 Merge branch 'jc/fix-pull-ff-only-when-already-up-to-date'
+         c1d16cedd4024884064b9d0834cae4f5506d6221 Merge branch 'ds/no-usable-cron-on-macos'
+         aace36fd3c553b29d96997a8b80fb3364961fe9e Merge branch 'js/simple-ipc-cygwin-socket-fix'
+         fe319d5fe11b9ce068f5095782c9b5c3a69caeb3 Merge branch 'jk/ssh-signing-fix'
+         4d53e91c6b2c3f5b5c7375e579a453fc5053c08b A few hotfixes
+         
+  - ref: refs/heads/master
+    old: 6c220937e2b26d85920bf2d38ff2464a0d57fd6b
+    new: 4d53e91c6b2c3f5b5c7375e579a453fc5053c08b
+    log: |
+         361cb52383fb986f76a34506bdec9a1dd11133f0 pull: --ff-only should make it a noop when already-up-to-date
+         974ef7ced24a782ff32b2248103e25a397276f36 simple-ipc: work around issues with Cygwin's Unix socket emulation
+         689a2aa719c1e08e501a11c6c22b6697b30efdd9 maintenance: disable cron on macOS
+         ca7a5bf4bd41daa2d475fa98dd014a97e02eb08e t/lib-gpg: avoid broken versions of ssh-keygen
+         7c7cf62c485f527bee6d3eb7e37dcfbf8064cab2 Merge branch 'jc/fix-pull-ff-only-when-already-up-to-date'
+         c1d16cedd4024884064b9d0834cae4f5506d6221 Merge branch 'ds/no-usable-cron-on-macos'
+         aace36fd3c553b29d96997a8b80fb3364961fe9e Merge branch 'js/simple-ipc-cygwin-socket-fix'
+         fe319d5fe11b9ce068f5095782c9b5c3a69caeb3 Merge branch 'jk/ssh-signing-fix'
+         4d53e91c6b2c3f5b5c7375e579a453fc5053c08b A few hotfixes
+         
+  - ref: refs/heads/next
+    old: b6195caa045f9a181a78ef276836d0ede176ab1c
+    new: b550198c73edd4cc058832dcf74b41aeec2adba2
+    log: |
+         7c7cf62c485f527bee6d3eb7e37dcfbf8064cab2 Merge branch 'jc/fix-pull-ff-only-when-already-up-to-date'
+         c1d16cedd4024884064b9d0834cae4f5506d6221 Merge branch 'ds/no-usable-cron-on-macos'
+         aace36fd3c553b29d96997a8b80fb3364961fe9e Merge branch 'js/simple-ipc-cygwin-socket-fix'
+         fe319d5fe11b9ce068f5095782c9b5c3a69caeb3 Merge branch 'jk/ssh-signing-fix'
+         4d53e91c6b2c3f5b5c7375e579a453fc5053c08b A few hotfixes
+         b550198c73edd4cc058832dcf74b41aeec2adba2 Sync with master
+         
+  - ref: refs/heads/seen
+    old: b75084c7b3c453401952e1d6e63d6823294c8889
+    new: 43d2b341f8ec8306180b25636ebdf6716c6e466a
+    log: revlist-b75084c7b3c4-43d2b341f8ec.txt
 
---===============2779260484889312296==
+--===============1362513884443137631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a27b57805283-aeac8cf537f3.txt
+Content-Disposition: attachment; filename=revlist-b75084c7b3c4-43d2b341f8ec.txt
 
-2a43fb0479aa53c6ff866aa26df2708de0c86b12 clocksource: Forgive repeated long-latency watchdog clocksource reads
-34edc585615bdfadac96e0edd0850de1a719ab95 torture: Test splatting for delay-ridden clocksources
-d8d83f6e3a774313eee28014838ba220c8ae17c8 tools/nolibc: x86-64: Fix startup code bug
-c528dd9a2f6dc78efac545f0eb7ab65cb22d4e93 tools/nolibc: i386: fix initial stack alignment
-0f408fc4dea2283a84393ad9b5b15565cdf6d41c tools/nolibc: fix incorrect truncation of exit code
-9d7cb05193245cd55e1a6c31a7b6f82870f2acea rcu: Improve tree_plugin.h comments and add code cleanups
-9a7b389ea7907701885d0436fe44b58fc031df33 tools/nolibc: x86: Remove `r8`, `r9` and `r10` from the clobber list
-fb90f0d0419b3a20b579b62d3917559afaeace5b tools/nolibc: x86-64: Use `mov $60,%eax` instead of `mov $60,%rax`
-18f05a78725f11a67cdb69045142a297a20ce193 tools/nolibc: Implement gettid()
-a7b23f39ebe392c3f68c452312babf7f85db6c92 refscale: Simplify the errexit checkpoint
-eb69f9d88cb0a81617edc348094642996ce226f3 refscale: Prevent buffer to pr_alert() being too long
-10705162831833cb31aba54a8f0d6d102fa2e651 refscale: Always log the error message
-a72ffa6d3df35433f338b0288317c4f29d464ad5 Documentation: Add refcount analogy to What is RCU
-6944479db35017b01fb14a1630c387a7f2b81bb8 tools/memory-model: Provide extra ordering for unlock+lock pair on the same CPU
-45fa8874561c059e4ee18501366a1ea50601c0dc tools/memory-model: doc: Describe the requirement of the litmus-tests directory
-1a8ba8371b69cbac4733d46a56ef123449ab25be tools/memory-model: litmus: Add two tests for unlock(A)+lock(B) ordering
-5705129d749fb8aac8dffb15fb8c1e509509d091 refscale: Add missing '\n' to flush message
-dd1fff3de01c1a2c8b3a5a2661bb89dacbfe74b6 scftorture: Add missing '\n' to flush message
-302d1777123d94078fbfcdf454ed92d6e071fd30 scftorture: Remove unused SCFTORTOUT
-262bc612ebc3145a56165e8436ccf2b0e517636c rcuscale: Always log error message
-69897d891651528fd5b5b682cada859ba8cead52 scftorture: Always log error message
-754eb0ce8f5edc43d6a019eae2593392761201e5 locktorture,rcutorture,torture: Always log error message
-3fae793466c933be9794f9499652371528e9155e docs: RCU: Avoid 'Symbol' font-family in SVG figures
-f74dbf238f2ee33ccfc23b6767607a66458f203a EXP i915/gem/dmabuf: add <asm/smp.h> to fix build error
-d12ee66c6bc554f3cf564236a936b732eb73ebd4 rcu-tasks:  Create per-CPU callback lists
-6019afd82474b28982f0644543b05d5d83973039 rcu-tasks: Introduce ->percpu_enqueue_shift for dynamic queue selection
-10b6954f3482dc5cdbc44a6981a5ade3b822887c rcu-tasks: Convert grace-period counter to grace-period sequence number
-889af1c1ccb6b00dd021bfcebe96808434c8bd78 rcu_tasks: Convert bespoke callback list to rcu_segcblist structure
-a3ecbdd6d841a025ebe87b79c7538b4dc44edc94 rcu-tasks: Use spin_lock_rcu_node() and friends
-85b3327e6dbcbc84d33928545fdfc5d5fba9be87 rcu-tasks: Inspect stalled task's trc state in locked state
-8de688af49ef7dffb545ba6a1341857b93532795 rcu-tasks: Add a ->percpu_enqueue_lim to the rcu_tasks structure
-c4c4e0aa269fe1cc416b22ba3e6e8cd13a90eb64 rcu-tasks: Abstract checking of callback lists
-3c6828314798b2dd2bfefa3fc80bbcf30b0f7631 rcu-tasks: Abstract invocations of callbacks
-7f7911874302ea9b740c08df0d8a48fbf06a8185 workqueue: Add try_queue_work_on() to suggest a CPU
-019640ebce88804c7bb26481bcdb04a3a3f56383 rcu: Make sync_rcu_exp_select_cpus() use try_queue_work_on()
-95af473e88d50ca76ae280990fa521fda2618c72 srcu: Use try_queue_work_on() to downgrade CPU to suggestion
-37ec2ddc6366b6efc9590881cf5e69c22775a051 torture: Make kvm-find-errors.sh report link-time undefined symbols
-cafffee599ad1f69cc4c242948448955b2e4c00a fixup! rcu-tasks:  Create per-CPU callback lists
-40fcb44f7226c00a36269a80a8c4d513e101c373 rcu-tasks: Use workqueues for multiple rcu_tasks_invoke_cbs() invocations
-aeac8cf537f3fc0bf64f7166210210be08b4d562 rcutorture: Avoid soft lockup during cpu stall
+d34182b9e37fc72e04e40e834775a1c29e80c970 receive-pack: ignore SIGPIPE while reporting status to client
+7c7cf62c485f527bee6d3eb7e37dcfbf8064cab2 Merge branch 'jc/fix-pull-ff-only-when-already-up-to-date'
+c1d16cedd4024884064b9d0834cae4f5506d6221 Merge branch 'ds/no-usable-cron-on-macos'
+aace36fd3c553b29d96997a8b80fb3364961fe9e Merge branch 'js/simple-ipc-cygwin-socket-fix'
+fe319d5fe11b9ce068f5095782c9b5c3a69caeb3 Merge branch 'jk/ssh-signing-fix'
+4d53e91c6b2c3f5b5c7375e579a453fc5053c08b A few hotfixes
+5a6656e3adabc906ccd4c748f32f6919f9d422a8 Merge branch 'ns/tmp-objdir' into jch
+63416efae15e77a610af04f23ca0dea3aaef9cc4 Merge branch 'ns/batched-fsync' into jch
+f79b7f1651722d63aa75ff44e8e6386fa3aeb45c Merge branch 'jk/loosen-urlmatch' into jch
+4df7f256df51c3dd38c59c4074e83b820d1801f1 Merge branch 'ow/stash-count-in-status-porcelain-output' into jch
+0786e63f0ce83ab6064b3c7dc00d1de999f9e897 Merge branch 'ab/refs-errno-cleanup' into jch
+161738342b6d32465b16db86633bff886b9f2163 Merge branch 'jc/tutorial-format-patch-base' into jch
+142d9a3e5e9dc4a83adeed8fdc77009f075dc67c Merge branch 'so/stash-staged' into jch
+35bdcacb389a6bf0479f5355598694247102ca85 Merge branch 'jc/fix-ref-sorting-parse' into jch
+395b8af73c70ce2ac3057fc727decd93d20741a1 Merge branch 'jc/unsetenv-returns-an-int' into jch
+d19f99f2b331022a998564ba19ea9d813b4d2888 Merge branch 'tp/send-email-completion' into jch
+ae8ce214285b49cebe971f9d7007c067edbde966 Merge branch 'tb/plug-pack-bitmap-leaks' into jch
+461863edf4ff288b8d3a101d6cabe1b7c1024cb3 Merge branch 'ab/sh-retire-helper-functions' into jch
+476729b930232aee5f3ea47c7cb840fb5675b4e0 Merge branch 'mc/clean-smudge-with-llp64' into jch
+847036639fcf5170cee92d82e1e9b58ee2f134b7 ### match next
+bf07dd9d201f07768bf06b69f4cab940aa2fb8cd Merge branch 'vd/sparse-sparsity-fix-on-read' into jch
+33b098403206702c3cec14210c9d14e0cd382cb2 Merge branch 'gc/remote-with-fewer-static-global-variables' into jch
+a4c20c42bfabcdf4f1a40e2a7416a3ff06000ee4 Merge branch 'ja/doc-cleanup' into jch
+a921e57606f469e60704313983ef8ab3a78690ea Merge branch 'js/branch-track-inherit' into jch
+43ff2f4d7a2152724dce1410bcfb54ccc319299b Merge branch 'jc/doc-submitting-patches-choice-of-base' into jch
+9e918c2ee163e1dd7eb5e6de9c814462f1ed67c1 Merge branch 'ew/test-wo-fsync' into jch
+dda92d26c1d769f7ac6039823cc18fc36883b9c2 Merge branch 'if/redact-packfile-uri' into jch
+a1fffd0a96e6c297e38b2c381650f9a2ac6ba918 Merge branch 'jc/fix-first-object-walk' into jch
+bc5657aaef741cfbeed3eca38aed9010d7f17de5 Merge branch 'js/ci-no-directional-formatting' into jch
+2ef44d986d84e69c4cc0e15cdadec702594afaef Merge branch 'jk/strbuf-addftime-seconds-since-epoch' into jch
+55b6d75bb4ec6557b0837327bc1890285a6cc70e Merge branch 'tw/var-default-branch' into jch
+550c19ccb0b89820b3f9114ff6c09fd2469bbe2c Merge branch 'ak/fetch-not-overwrite-any-current-branch' into jch
+0b588e2e2ad1c2bb848a527ebaead57bb624fb0a Merge branch 'ab/generate-command-list' into jch
+f3dca8c1f50d607d2595f16dd22078019a4f1cc3 Merge branch 'jk/test-bitmap-fix' into jch
+03cd7dce91e2d416dbc8c4d66d63bd805891cfee Merge branch 'jk/jump-merge-with-pathspec' into jch
+42685a7eabf16de45fe5e6e5df51f139341c9623 Merge branch 're/color-default-reset' into seen
+5879d4e6160e7cd450c155a96fe4a797511ad7ae Merge branch 'fs/ssh-signing-key-lifetime' into seen
+d8be81b4f8931f39ee34a373bc16d94aff9ecd41 Merge branch 'ab/only-single-progress-at-once' into seen
+fc044738c0de3ec294b609d5fa50158a26d56717 Merge branch 'js/scalar' into seen
+5c16a56c080ab702aa0ddba627737935d1809fde Merge branch 'ms/customizable-ident-expansion' into seen
+224c25f5ee58d3a06166fde669613a53482ba910 Merge branch 'en/zdiff3' into seen
+8eabbc4b7b5590042c476c0fcff86c420c07e9f2 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+98917d40a300eb030c5248d448879a975bf6213d Merge branch 'pw/diff-color-moved-fix' into seen
+25d0fbf141ff07945a7704615bc10b35c4919d0d Merge branch 'es/superproject-aware-submodules' into seen
+310f4a71de7078f5940eb20466c6320e6ec3228c Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+8519f28b1ff2523a95ee61bd600528d31a0a4fa4 Merge branch 'hn/reftable' into seen
+e3e52ddf4e98cc9320f8e11e002330951c2335e0 Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into seen
+86303f2d86b387417e5a789ae41c86a6f66faba1 Merge branch 'ns/remerge-diff' into seen
+d4a0b19c34ef233496e8e53504799cdc4e74bdee Merge branch 'vd/sparse-reset' into seen
+dc8c0b2657d7dc31045c3f6ed91054a3a3d0b19e Merge branch 'ld/sparse-diff-blame' into seen
+3a5420cded686c45248ea2fbb68164c123adea78 Merge branch 'ab/config-based-hooks-2' into seen
+3eff918ff280e2f13a554db2617d9dad04dff690 Merge branch 'jh/builtin-fsmonitor-part2' into seen
+a5c6dc99e9c0202aa080ac849c7609a547dc610a Merge branch 'es/pretty-describe-more' into seen
+3b780cf02d21bf5632e42038618a902299fc8c8f Merge branch 'ab/mark-leak-free-tests-even-more' into seen
+8af122fc80eb35874e5339fcdf59525e1abefe13 Merge branch 'rj/receive-pack-avoid-sigpipe-during-status-reporting' into seen
+68611f512c143c15b4a3b968bb5b6ceb933c9ca6 parse-options.c: use "enum parse_opt_result" for parse_nodash_opt()
+43d2b341f8ec8306180b25636ebdf6716c6e466a Merge branch 'ab/parse-options-cleanup' into seen
 
---===============2779260484889312296==--
+--===============1362513884443137631==--
