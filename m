@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 11 Nov 2021 00:25:28 -0000
-Message-Id: <163659032833.5467.15045293873922907503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Nov 2021 00:50:03 -0000
+Message-Id: <163659180386.20476.4078322486294099803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: b564a405e7c7a4cb48008f0982e017266079a9b2
-    new: e7f95a8245cbd642275bda1d28f1513a08127453
+  - ref: refs/heads/block-5.16
+    old: 278167fd2f8ffe679351605fe03e29ff3ab8db18
+    new: 68636e242d45453d48a7d30a18a49f80d4ae08c0
     log: |
-         e7f95a8245cbd642275bda1d28f1513a08127453 Thu Nov 11 12:24:12 AM UTC 2021
+         68636e242d45453d48a7d30a18a49f80d4ae08c0 block: fix kerneldoc for disk_register_independent_access__ranges()
          
