@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1104577527138097459=="
+Content-Type: multipart/mixed; boundary="===============1801594382790218949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 11 Nov 2021 11:22:58 -0000
-Message-Id: <163662977873.10888.3755514876934078132@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 11:23:09 -0000
+Message-Id: <163662978965.10982.14257191375549217969@gitolite.kernel.org>
 
---===============1104577527138097459==
+--===============1801594382790218949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 81121524f1c798c9481bd7900450b72ee7ac2eef
-    new: f5a2478ba491c5cdfb317b29f1f33d501fb97b93
-    log: revlist-81121524f1c7-f5a2478ba491.txt
+  - ref: refs/heads/sched/urgent
+    old: 63acd42c0d4942f74710b11c38602fb14dea7320
+    new: 6226777656c8d0fc1363607d367109b9f015a482
+    log: revlist-63acd42c0d49-6226777656c8.txt
 
---===============1104577527138097459==
+--===============1801594382790218949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81121524f1c7-f5a2478ba491.txt
+Content-Disposition: attachment; filename=revlist-63acd42c0d49-6226777656c8.txt
 
-8fc70b3a142f97f7859bf052151df896933d2586 samples: Make fs-monitor depend on libc and headers
-9abeae5d4458326e16df7ea237104b58c27dfd77 docs: Fix formatting of literal sections in fanotify docs
-b7eccf75c28e5469bb4685a03310dbb66ee323f9 samples: Fix warning in fsnotify sample
 7b161d9cab5d2c853b8861b2ad21bcd79d669fe3 RISC-V: KVM: remove unneeded semicolon
 bbd5ba8db7662dbfcc15204eb105cd0c2971a47c RISC-V: KVM: fix boolreturn.cocci warnings
 4e446714fb89e93665173477bc70ce0494e9d5b1 RDMA/qed: Use helper function to set GUIDs
@@ -1049,6 +1046,9 @@ a41b74451b35f7a6529689760eb8c05241feecbc Merge tag 'kernel.sys.v5.16' of git://g
 38764c734028bf0ae4cf262f3eb7d965c86298bd Merge tag 'nfsd-5.16' of git://linux-nfs.org/~bfields/linux
 6070dcc8e5b1495e11ffd467c77eaeac40f95a93 Merge tag 'for-5.16-deadlock-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 debe436e77c72fcee804fb867f275e6d31aa999c Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-f5a2478ba491c5cdfb317b29f1f33d501fb97b93 static_call,x86: Robustify trampoline patching
+97ecec3ef647b20a51466ec2e0dbac40c42cc7c4 x86/smp: Factor out parts of native_smp_prepare_cpus()
+200c21daaf5e3bd99d23c1923604747b9f1ecef1 sched/core: Mitigate race cpus_share_cache()/update_top_cache_domain()
+838206f6a8e8510318c7ffd5cbcaf39ed3f523e1 sched/fair: Prevent dead task groups from regaining cfs_rq's
+6226777656c8d0fc1363607d367109b9f015a482 arch_topology: Fix missing clear cluster_cpumask in remove_cpu_topology()
 
---===============1104577527138097459==--
+--===============1801594382790218949==--
