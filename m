@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 11 Nov 2021 14:15:29 -0000
-Message-Id: <163664012920.20943.5939001402459265260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 11 Nov 2021 14:39:15 -0000
+Message-Id: <163664155520.2238.14044601741372252990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 80492bf700811f9c7211fe82c7a7ce2f4a5d9830
-    new: a1e3c1a19f76a99b9509fa0f380de745497917d5
+  - ref: refs/heads/kvm-arm64/pkvm/hackathon/phase-5
+    old: a2c86af1b026183d5d2c0d8606321cc75ec1a314
+    new: 8de60aeaf00f86e0617b6b70a68e1180cb1009bb
     log: |
-         554c577cee95bdc1d03d9f457e57dc96eb791845 gfs2: Prevent endless loops in gfs2_file_buffered_write
-         314763027fed176b461a2d8a9284b2afc21c2086 iomap: Fix iomap_readahead_iter error handling
-         a1e3c1a19f76a99b9509fa0f380de745497917d5 iomap: Fix inline extent handling in iomap_readpage
+         2471f4387384b7733ecd0f2e2c381d913c90923f KVM: arm64: pkvm: Deconstify entry/exit handlers
+         60f12fda76f3f2b4c25d769005bbb98048ca62b1 KVM: arm64: pkvm: Depopulate handle_pvm_entry_psci()
+         816e2f73161c353e9c18c85cd1dd9f4388d94d45 KVM: arm64: pkvm: Move memcache topup into a helper
+         b4a6f9ade71b6095b187a320b674242fac21093b KVM: arm64: Add shadow VM flags
+         8d2aa35f2f18c291eab7f6548db738f036d1c334 KVM: arm64: pkvm: Rework sysreg entry/exit handling
+         8de60aeaf00f86e0617b6b70a68e1180cb1009bb KVM: arm64: pkvm: Refactor DABT entry/exit
          
