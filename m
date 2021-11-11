@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 11 Nov 2021 20:41:06 -0000
-Message-Id: <163666326657.1420.7239563253172914297@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 20:44:44 -0000
+Message-Id: <163666348433.2565.3834793996451035521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 22c77cc037114d1f3b77f62ac191f3761a6cc9b7
-    new: f82422cc63f601fb193c3dc2f957dccb5e7191e1
+    old: f82422cc63f601fb193c3dc2f957dccb5e7191e1
+    new: 83cfaee59a49e64b4a95b45581eaf4c0375b9f9e
     log: |
-         f82422cc63f601fb193c3dc2f957dccb5e7191e1 gitignore: Add tags and cscope files
+         83cfaee59a49e64b4a95b45581eaf4c0375b9f9e doc: Mark NetworkConfigurationAgent API experimental
          
