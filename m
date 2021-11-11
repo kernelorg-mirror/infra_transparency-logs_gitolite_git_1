@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6356232821724152126=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 11 Nov 2021 19:49:53 -0000
-Message-Id: <163666019367.1891.12602516669010224120@gitolite.kernel.org>
-
---===============6356232821724152126==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 11 Nov 2021 19:50:03 -0000
+Message-Id: <163666020379.3050.3162212381528254450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 6ea5e11d5aa51406eaa4cbb7a983b48a27334502
-    new: 51e1f284b1c3de6507dce507105cd03d47ee2f0c
+  - ref: refs/heads/block-5.16
+    old: c7f87443cd935134b21fcc6b76693f45d15fccc0
+    new: 86399ea071099ec8ee0a83ac9ad67f7df96a50ad
     log: |
-         51e1f284b1c3de6507dce507105cd03d47ee2f0c Update EF4CA1502CCBAB41 (Palmer Dabbelt)
+         438cd74223c0029cd7409ca99aaf92e0972f3557 block: fix kerneldoc for disk_register_independent_access__ranges()
+         10f7335e3627b4efa341ef8ac457f2c0770c5c19 blk-mq: don't grab ->q_usage_counter in blk_mq_sched_bio_merge
+         b131f2011115f3c18a49e17762486501496fea3c blk-mq: rename blk_attempt_bio_merge
+         86399ea071099ec8ee0a83ac9ad67f7df96a50ad block: Hold invalidate_lock in BLKRESETZONE ioctl
          
-
---===============6356232821724152126==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1636660193 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1636660193-71a5e8803065d1c33c17d99fdf88ca7b0bd5f75a
-
-6ea5e11d5aa51406eaa4cbb7a983b48a27334502 51e1f284b1c3de6507dce507105cd03d47ee2f0c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYY1z4QAKCRC2xBzjVmSZ
-bDSOAP48qn03EsbhBi1ykShLPY8A0Oe6xpXmoqylJCsED+so1QEA2CrzN4YU51f9
-gxp9o4jt5hw+yMs7qyokn8vmn7XTYgs=
-=1cDg
------END PGP SIGNATURE-----
-
---===============6356232821724152126==--
