@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 11 Nov 2021 20:35:57 -0000
-Message-Id: <163666295701.30819.18141805249063565615@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 20:40:01 -0000
+Message-Id: <163666320136.32023.6662315109506856782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 9cd1f8a7dfab261d86659049c65052571a4f31bf
-    new: fa1c12453ba7720b6461c33c1815faba16335c5c
+    old: fa1c12453ba7720b6461c33c1815faba16335c5c
+    new: 22c77cc037114d1f3b77f62ac191f3761a6cc9b7
     log: |
-         fa1c12453ba7720b6461c33c1815faba16335c5c build: treewide: Set retain attribute
+         22c77cc037114d1f3b77f62ac191f3761a6cc9b7 auto-t: replace ifconfig with ip commands
          
