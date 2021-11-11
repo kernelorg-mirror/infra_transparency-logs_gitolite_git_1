@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2688976877699782391=="
+Content-Type: multipart/mixed; boundary="===============3896085787194638824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 11 Nov 2021 09:26:14 -0000
-Message-Id: <163662277441.3083.18258235851962217770@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 09:26:18 -0000
+Message-Id: <163662277812.3148.2005404591525800832@gitolite.kernel.org>
 
---===============2688976877699782391==
+--===============3896085787194638824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: cb690f5238d71f543f4ce874aa59237cf53a877c
     new: debe436e77c72fcee804fb867f275e6d31aa999c
     log: revlist-cb690f5238d7-debe436e77c7.txt
 
---===============2688976877699782391==
+--===============3896085787194638824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636622773 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636622777 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636622772-af0b205ac4058b648ae502316dadce745206bbc3
+nonce 1636622776-69b07260d25a2e2f4f789c52fd52aea6a649178e
 
-cb690f5238d71f543f4ce874aa59237cf53a877c debe436e77c72fcee804fb867f275e6d31aa999c refs/heads/staging-linus
+cb690f5238d71f543f4ce874aa59237cf53a877c debe436e77c72fcee804fb867f275e6d31aa999c refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGM4bUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7DgQALF9bmWTtEMxBSpvqzjC
-G5lprwzp7swR6Dg75HHPOuftQzkCgRiQIJ5O2aGS4gYRQmoWGkKdY+gbr7tl0LwS
-OdhogJ3y9PVhwtfYRRuN3s+HB/CIvuCMNW7MDOw98W9LJ62JNHF1d0S5k/7qd3QF
-7MTSArpNqENmL06e5QtGz3fzTJtJkhCz1GXjNc4m1z50VDJz9CYJWGP5K1CbX9YI
-vGe2VZlNZ288/EUnbpmLSVPr52JkCNdr+Et6OEZV2txBWb84d8nAU+GPiUnVsa4q
-W15FIU4o3DmeDMP1pFhTQw04/mTrvoyogQ8TpFPMVtMYzO4tVsydbYgeG0ErGAeS
-+UhDThh7Q58mYvFcXJpM3lMXLsNhZg1E/5kew3NymNz0V/vPc6D14hIA+iAA6oHk
-XH8uDgyC9auiEHkfOKQM3akvxAPzukOeTk1dH0Sq6FZbH7BS2sQMRttolbzGfzBV
-oRV58Vw4uvlV7zeGy1pME/tBw9cHI75jJ4DIs2SGz2yuR2VqJtXe3YB420ecktbK
-FWeiYzFM25aTPjXgkAF5gwQ5bB5IVvXUoMcM7N1BQJ45OFMlCXK0HLTAEmTKL7wg
-5oxTf69xhAAEeukQeJFShqWktunHR0Diuw8gLMYkM1PUsmD0uGLl0gyUjope5PE0
-L7os4U9/UP6DQwBKdLdTF7UX
-=cImA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGM4bkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ScMQAI7WvITXvuox6Di0pnJH
+QleTBIFocDMEA7fYWkqyd7qlhMs5EqopVPvrNq14rblL0CNKVePu+JYo3i2ojLY0
+UhSs0SMCjguj3kF7oe0TjEfI3nrgsEX8vCpSaaJ1vQFOOi+tcFEMRsjqL6j5Suwy
+oHwHbDs57fIPhYorfeIsElDELmPvJuPOIX8J9o5KRMZjzrCWbfy+TvuZSz37nzZO
+6/UQBsHVd2dIa6lMAZQrT2q/iw4/+p88f4oZqpADCHjI2RUJFbHxo4/lA5K4YQTa
+x8BpGWzhZOJjibTh6Ul9aJIBVxwJOXnmyj/dj+INO9kgd7W5Nec+SO4KKTnZIcUk
+cKkUJgd49sfhMocYNIoxAbCOO33QAavVq2f+k2SJh0TSFZNnbntmZ06rB2JXuGb1
+7QW3x7hVhvt1/+aNXx/7FMIg4r18kPCBv5JYRokiWL6QRNsKXNSJTQYrBSHSqdRU
+hTaag5krHrF+3EJN3iw20D2Oof0ScDVNHl7xZ/tEGaLR1RLyIQa2CDn3EzHl1p6b
+paahU4cIZBThumLo5dHSadSJ3EyR82RiP6fx4tSMT5fzsFbv5lUWR6HNRrCEu7DW
+fxQfiT1OoAmisIHyWe2H41IVy0j3MCiw9I2Qn1HPy5Gg65oixl0SIJAECPEyfLJS
+K7Z/Y8WByamaw7T/Fs2xNDwt
+=Joc7
 -----END PGP SIGNATURE-----
 
---===============2688976877699782391==
+--===============3896085787194638824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -462,4 +462,4 @@ a41b74451b35f7a6529689760eb8c05241feecbc Merge tag 'kernel.sys.v5.16' of git://g
 6070dcc8e5b1495e11ffd467c77eaeac40f95a93 Merge tag 'for-5.16-deadlock-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 debe436e77c72fcee804fb867f275e6d31aa999c Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 
---===============2688976877699782391==--
+--===============3896085787194638824==--
