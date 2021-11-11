@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8030811356179651101=="
+Content-Type: multipart/mixed; boundary="===============6406240757267126108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 11 Nov 2021 11:29:14 -0000
-Message-Id: <163663015491.14970.7227583853805562439@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 11:29:24 -0000
+Message-Id: <163663016485.15054.6999823886824035362@gitolite.kernel.org>
 
---===============8030811356179651101==
+--===============6406240757267126108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 63acd42c0d4942f74710b11c38602fb14dea7320
-    new: 48b56a1cb2aa50d92a628ace1bac3ea18e919f71
-    log: revlist-63acd42c0d49-48b56a1cb2aa.txt
+  - ref: refs/heads/perf/urgent
+    old: 71920ea97d6d1d800ee8b51951dc3fda3f5dc698
+    new: db6a232797672e586d9b76fc1be0fe759ddbf5e4
+    log: revlist-71920ea97d6d-db6a23279767.txt
 
---===============8030811356179651101==
+--===============6406240757267126108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63acd42c0d49-48b56a1cb2aa.txt
+Content-Disposition: attachment; filename=revlist-71920ea97d6d-db6a23279767.txt
 
+b7eccf75c28e5469bb4685a03310dbb66ee323f9 samples: Fix warning in fsnotify sample
+7b161d9cab5d2c853b8861b2ad21bcd79d669fe3 RISC-V: KVM: remove unneeded semicolon
 bbd5ba8db7662dbfcc15204eb105cd0c2971a47c RISC-V: KVM: fix boolreturn.cocci warnings
 4e446714fb89e93665173477bc70ce0494e9d5b1 RDMA/qed: Use helper function to set GUIDs
 15c72660fe9a3fddb301ac90175860b14c63ff03 samples: remove duplicate include in fs-monitor.c
@@ -1045,10 +1047,8 @@ a41b74451b35f7a6529689760eb8c05241feecbc Merge tag 'kernel.sys.v5.16' of git://g
 38764c734028bf0ae4cf262f3eb7d965c86298bd Merge tag 'nfsd-5.16' of git://linux-nfs.org/~bfields/linux
 6070dcc8e5b1495e11ffd467c77eaeac40f95a93 Merge tag 'for-5.16-deadlock-fix-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 debe436e77c72fcee804fb867f275e6d31aa999c Merge tag 'ext4_for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-11daeefb29d44ff2161cb3b370c2f44342a34c8f x86/smp: Factor out parts of native_smp_prepare_cpus()
-290d5757d1ec3f1d2a9bedab30ac036a6b4e5b0a sched/core: Mitigate race cpus_share_cache()/update_top_cache_domain()
-08778494b6b39479941d99cf6539e02779b12f38 sched/fair: Prevent dead task groups from regaining cfs_rq's
-352b421a1392d81927fa0b71086844b12ff41c38 arch_topology: Fix missing clear cluster_cpumask in remove_cpu_topology()
-48b56a1cb2aa50d92a628ace1bac3ea18e919f71 preempt: Restore preemption model selection configs
+fc4b913c78dbfb56a26454d241100ea7b4d88c59 perf/x86/lbr: Reset LBR_SELECT during vlbr reset
+d300bf9153690ca9ad56e0031a9a052d43182041 perf/x86/vlbr: Add c->flags to vlbr event constraints
+db6a232797672e586d9b76fc1be0fe759ddbf5e4 perf/core: Avoid put_page() when GUP fails
 
---===============8030811356179651101==--
+--===============6406240757267126108==--
