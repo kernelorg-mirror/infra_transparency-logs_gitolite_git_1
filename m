@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 11 Nov 2021 17:39:35 -0000
-Message-Id: <163665237549.16286.9682088513028169718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 11 Nov 2021 17:44:56 -0000
+Message-Id: <163665269649.19239.3667381625055632224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/topic-rpc-with-tls
-    old: 145fc832f266eaa91a0df6ec989639fdbd2a6bdc
-    new: d7b34d4219072d59a2ad6a81857ce1520b1cc82d
+  - ref: refs/heads/tmp.master
+    old: 696c62180455fd291cd12086eeeee4ff400fbd86
+    new: ec62499774c4bcac720706018385ced0c1f060ab
     log: |
-         d7b34d4219072d59a2ad6a81857ce1520b1cc82d SUNRPC: Teach server to recognize RPC_AUTH_TLS
+         468b4196f65458e81d81a85583d47302a09ca3b5 dwarf_loader: support typedef DW_TAG_LLVM_annotation
+         ec62499774c4bcac720706018385ced0c1f060ab btf_encoder: generate BTF_KIND_DECL_TAGs for typedef btf_decl_tag attributes
          
