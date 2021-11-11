@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0819940740094894801=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 11 Nov 2021 18:33:45 -0000
-Message-Id: <163665562552.17836.817531929694673573@gitolite.kernel.org>
-
---===============0819940740094894801==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 11 Nov 2021 18:50:52 -0000
+Message-Id: <163665665209.29965.16559138900896915574@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djbw
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/pending
-    old: 44a88683e4a9db51bf83dcd08dc7b0af37e4b0f9
-    new: 0bb9639516a4509079e881b7f104906965b8974c
-    log: revlist-44a88683e4a9-0bb9639516a4.txt
-
---===============0819940740094894801==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44a88683e4a9-0bb9639516a4.txt
-
-a47799766cd7ad1679db77100db8daee61f2ea21 cxl/memdev: Change cxl_mem to a more descriptive name
-c738ad68bdc7c21a98d64ad32bb8055dbbf136e5 cxl/core: Convert to EXPORT_SYMBOL_NS_GPL
-e8bf5986f1b85b3f46d4e33b9b8d8cb34103012c cxl/memdev: Remove unused cxlmd field
-04ba7a31bfb8845eeb6d770c06312ef6ea7717d1 tools/testing/cxl: add mock output for the GET_HEALTH_INFO command
-7d55489f244fb1519ab87348602149afa5bbc7d0 ACPI: Keep sub-table parsing infrastructure available for modules
-df7e5f349139026ad316af89d31d063a1fe4925d ACPI: Teach ACPI table parsing about the CEDT header format
-897458917609b4300fdc5f40fddc62c4c81d1b32 ACPI: Add a context argument for table parsing handlers
-f4b4e217ffcae58be7337e3fc5f33ae4f1f2eded cxl/acpi: Convert CFMWS parsing to ACPI sub-table helpers
-21355a79bee9e719f8d68a8f07073be859924b0a cxl/test: Mock acpi_table_parse_cedt()
-a4afba62ab3a31e3a67152fe8a58a74116bdd3c6 ACPI: NUMA: Add a node and memblk for each CFMWS not in SRAT
-0bb9639516a4509079e881b7f104906965b8974c cxl/pmem: Fix module reload vs workqueue state
-
---===============0819940740094894801==--
+  - ref: refs/heads/tmp.perf/core
+    old: cf6b9588fb753eaa146188c501bfbea59d003f0c
+    new: 636320fd5784a15906a8ba0cbaabe357978148b3
+    log: |
+         ef1b752c3ae9a2cbac18886a608a25f12f31952e perf vendor events power10: Add metric events JSON file for power10 platform
+         c60ac7f17984d16d796fff4fb2bf3505601f78ea perf arm-spe: Track task context switch for cpu-mode events
+         c342fc769fe3c8737b9d378c1e909bb87e315854 perf arm-spe: Update --switch-events docs in 'perf record'
+         962ca30ee13bca519298a08e68afe57742be59aa perf arm-spe: Save context ID in record
+         b27bc9abd3d109815927a245e41f2deb86e3a3b0 perf arm-spe: Support hardware-based PID tracing
+         7c36d98649daec13dcde52d85a29cb809205164d perf tools: Add more weak libbpf functions
+         636320fd5784a15906a8ba0cbaabe357978148b3 bpftool: Install libbpf headers for the bootstrap version, too
+         
