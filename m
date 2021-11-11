@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0483709530003757445=="
+Content-Type: multipart/mixed; boundary="===============2280012139477509820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 11 Nov 2021 07:37:07 -0000
-Message-Id: <163661622753.16144.5458181771478346971@gitolite.kernel.org>
+Date: Thu, 11 Nov 2021 07:37:52 -0000
+Message-Id: <163661627295.16423.13736186913695574949@gitolite.kernel.org>
 
---===============0483709530003757445==
+--===============2280012139477509820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-5.16
     old: 8cc90c00d3b5d4095e1a5dd111457da229aebf19
     new: 8e973315564f3edd20523ad041104af976e747c4
     log: revlist-8cc90c00d3b5-8e973315564f.txt
 
---===============0483709530003757445==
+--===============2280012139477509820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -435,4 +435,4 @@ debe436e77c72fcee804fb867f275e6d31aa999c Merge tag 'ext4_for_linus' of git://git
 7309ad8fa909fe4191985c9161258d2b26a61ab9 libata: add horkage for missing Identify Device log
 8e973315564f3edd20523ad041104af976e747c4 libata: libahci: declare ahci_shost_attr_group as static
 
---===============0483709530003757445==--
+--===============2280012139477509820==--
