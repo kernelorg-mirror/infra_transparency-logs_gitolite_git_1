@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7087812878268126821=="
+Content-Type: multipart/mixed; boundary="===============0722317629247319662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 12 Nov 2021 10:04:28 -0000
-Message-Id: <163671146880.24236.15347068734891250364@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 10:04:57 -0000
+Message-Id: <163671149763.24410.4842745718763512979@gitolite.kernel.org>
 
---===============7087812878268126821==
+--===============0722317629247319662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 7f80d91d10589a1732a6d8d61d7b746a73dd06ca
-    new: 9419fa3d201710cd29da21fea04decd48c58d68e
-    log: revlist-7f80d91d1058-9419fa3d2017.txt
+  - ref: refs/heads/main
+    old: debe436e77c72fcee804fb867f275e6d31aa999c
+    new: 5833291ab6de9c3e2374336b51c814e515e8f3a5
+    log: revlist-debe436e77c7-5833291ab6de.txt
 
---===============7087812878268126821==
+--===============0722317629247319662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636711462 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636711496 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636711461-07c235fee96666bc6a72a69ff8ef3b52daa3ec0f
+nonce 1636711495-3526b79aa3a822429345264c93fd639bd92a28d1
 
-7f80d91d10589a1732a6d8d61d7b746a73dd06ca 9419fa3d201710cd29da21fea04decd48c58d68e refs/heads/staging-testing
+debe436e77c72fcee804fb867f275e6d31aa999c 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOPCYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S78QAJMzOi8a0EufMgk8IDQF
-xTvLMXQGCO/ZIwbyf2ujZ2ElomP7EDT4l9TXzgGWK6ZIXeSXhuULFlwsBzjd83vs
-FWvSUjMJ0xLUHzFukDdQzS0Rf3XUiiigA4YBD/51VTGv7N0v45ZqWVGBp2x9XxhJ
-GrLZRtpUGDdmVmcW++K5YKUia3FMR+gGBlp8o0/sggHjHR7OU3X+FKRMvBQGgzHR
-mHPw3ENKhzAFhdyJqzkUn//Y+Rqj1mODcsCeoh5meWNF6IBiEQaJdWRyprX5x5Q8
-NYun793XNnHu0GaoYPLs5LVu26Q/eFn3K8c4pibyqawhV7PJi5Ife23rGSJzL/LS
-+oM6VYPIb86oi+SgfFwzVNClSqDCISTxq2/ewiITRdyLLz/8qIFup416HnKTYctK
-dWVJ1mhptojwwZWuEtrPFMbAVjG9j+fc8aD854IYZGMVKCKURlJ/pPwq6sJWAOkh
-Sz0bTBIv9zZiGhvRLgk6JSxm+C3jIB4JNzhgZ1jXVlkeQziT8uAegYsiJdgSIi8j
-nPUIPrjYcOh39QS1s6cD3pGOlwRRUw0Vt+P6/lZ9Cfg77o/XocHR3YOfUryivq12
-3Ov4HIg0l9d/xGgLV7Y0SGe8hIGHAIiTKJFPQCOt516IoDKjzHNszzHocoSRJwt1
-jt808hWjvTiF3q44Tfqbl3N5
-=1zkh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOPEgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ywQP/iWXAwlEtoOhYR9qdMFH
+a9BLg1c83CavCX3eBpuh8xDLeLYq2Bs8413TWmb/f7EQkTJzwXY+Vwixx6cbUI6a
+Ua2RAXrvfF5gOkZJcxwq/jEA/fXvCwBofkPcTSyLypqWGtyW6Xhuzd29kxiBaaM/
+SJSAQJHBTaFrj4FieaReOMIWF3zqxpbpdlq5inE2O2JfrSKhpdrxqBJfE3iT/d6A
+oCrpJS2uK5VOyuQEzCeKx2iiEi7MrAPwwWO68uqjl4KZQBTD33UYwxaY3vmnnADA
+Y3zx3tNo+N+1AJqNrpLQ3xrG8Ny9XVmrBKMkmo+j9cBjvD2DTMAXSHg96UBnpVtV
+W0Z7W2c1pqeeSrKDZh9fSxeXnsOhrM7TiJ+GHlCev2uyGJwd7W1mucdwxk4Pf8UH
+AGmmfQesCK8P9js15tH+XGH++4hc72c531dDnTtKFaNGLV1hv7xT+AtSPOK08Qgv
+z+Ptz4Csn+6NQ5XJdv+078AEmlvtSZwdxkQOg5kkerRRf16IKPmEMb/kNhKELYtM
+9YVpCx8m1I1Oeitr20X37sQPZbP1pqMKPYK+NRF8MDV7VbCUM4pDS9m1L8LZfHbS
+TvEy2XVKpjtg+2cA+2+6EZRNqAbxFVtUDzGk8C+bs/hyoG0zuZcH77r54v7Hr351
+V4WxaPiDM9f8ZflTDOKgGIxI
+=nEHc
 -----END PGP SIGNATURE-----
 
---===============7087812878268126821==
+--===============0722317629247319662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f80d91d1058-9419fa3d2017.txt
+Content-Disposition: attachment; filename=revlist-debe436e77c7-5833291ab6de.txt
 
 2cf002d194977c4ec8848496a9a9804a317099dd apparmor: check/put label on apparmor_sk_clone_security()
 5268d795d6888b202ad9f2b16a254cd00d0de77b apparmor: fix introspection of of task mode for unconfined tasks
@@ -242,31 +242,5 @@ dbf49896187fd58c577fa1574a338e4f3672b4b2 Merge branch 'akpm' (patches from Andre
 5593a733f968521444df84902901902233c17d8f Merge tag 'apparmor-pr-2021-11-10' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
-d22ea6de5562eaca2ca85f670d12e98394bc19aa staging: r8188eu: remove ODM_Read1Byte
-4581238724190f1dd26baec5f938588e6a5da06a staging: r8188eu: remove ODM_Read4Byte
-1ecf3b405b24e61048be7f14503a4e7210de57a1 staging: r8188eu: remove ODM_Write1Byte
-6ec07444625865df931ded62c56bace403f77828 staging: r8188eu: remove ODM_Write2Byte
-6dc2678c05f5f5833de52587aa6e23e8220d3747 staging: r8188eu: remove ODM_Write4Byte
-73ee7fdc1860daf0f4d0a0bcef15e1c7d0cc793d staging: r8188eu: os_dep: remove the goto statement
-c36eede595865dd4740cf818c2937776a77c179f staging: r8188eu: core: remove the function __nat25_timeout
-29108d026c9412d4403689f28571006be320fa59 staging: r8188eu: core: remove unused variable sz
-89fa4706e2a7db54746dc61d38090862ebcb17de staging: r8188eu: core: remove the unused variable pAdapter
-b4231ebe27c9fe66c79d4d498df6915993d6b8f1 staging: r8188eu: remove MSG_88E call from odm_TXPowerTrackingThermalMeterInit
-cbd8874bf9ebac3e1d28460569d67d89da4d8375 staging: fbtft: Remove fb_watterott driver
-72f1b1cc66a8ff18cdb3445948c2754661506dc1 staging: rtl8723bs: core: remove unused variable pAdapter
-37590bceeacc3a1a0a56bbf5e80a8e4fc8fe4360 staging: rtl8723bs: core: remove unused local variable padapter
-36c26ba45908ee216718b3fe246ba5ddbd4d93dd staging: vt6655: fix camelcase byData in card.c
-c0a629e11b53228779690251f497e2c8e6ba0fdb staging: r8188eu: convert final two MSG_88E calls to netdev_dbg
-0d195bb603af5104d44176992386861dba62d2b9 staging: r8188eu: remove MSG_88E macro
-d18d3c08b21a4b7edba12f5bcba86d8325a5c7f4 staging: pi433: print rf69 debug message more detail
-2008a99d6af52a208a80bca7a5bcdb4b7f6f1de0 staging: r8188eu: remove unused phy_PathA_IQK_8188E parameter
-e8701648e18d7437bc8b58e91d4177e2db36ed3d staging: r8188eu: remove unused phy_PathA_RxIQK parameter
-e71a7d8e689933e5e1ae760269a37a2bc73bb8b6 staging: r8188eu: remove constant phy_IQCalibrate_8188E parameter
-b371780b461a211aaf0f606e57eacb4ada0c0380 staging: r8188eu: clean up _PHY_PathADDAOn
-02f1cfe7b0645b944ddf33c04ffbcae065ac3c45 staging: r8188eu: remove write support from rtl8188e_EfusePowerSwitch
-a21719635a35557631994a7c85f08982ab14641b staging: r8188eu: remove efuse write functions
-72f76751496a2b62495a4f0f4ed3f28098d15876 staging: r8188eu: os_dep: Change the return type of function
-c3c5e1d207bf9791cfe6284a00d79bcc7cf9d99c staging: rtl8723bs: core: avoid unnecessary if condition
-9419fa3d201710cd29da21fea04decd48c58d68e staging: rtl8192u: remove the if condition without effect
 
---===============7087812878268126821==--
+--===============0722317629247319662==--
