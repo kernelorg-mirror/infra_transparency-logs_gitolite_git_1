@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7363152783559355269=="
+Content-Type: multipart/mixed; boundary="===============6231442379011483998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 12 Nov 2021 09:20:02 -0000
-Message-Id: <163670880235.4573.4645844275861856718@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 09:20:07 -0000
+Message-Id: <163670880750.5929.4160882362597192360@gitolite.kernel.org>
 
---===============7363152783559355269==
+--===============6231442379011483998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 048ff8629e117d8411a787559417c781bcd78d7e
+  - ref: refs/heads/usb-linus
+    old: e1959faf085b004e6c3afaaaa743381f00e7c015
     new: 5833291ab6de9c3e2374336b51c814e515e8f3a5
-    log: revlist-048ff8629e11-5833291ab6de.txt
+    log: revlist-e1959faf085b-5833291ab6de.txt
 
---===============7363152783559355269==
+--===============6231442379011483998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636708800 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636708805 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1636708800-638fe1f73932122b85c57dfa9c8a9c2c67e67378
+nonce 1636708805-2328366f086d9cf3be146073188bf1fd07cec818
 
-048ff8629e117d8411a787559417c781bcd78d7e 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/main
+e1959faf085b004e6c3afaaaa743381f00e7c015 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOMcAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4xsP/RXJjBWpqraQiblgPebE
-Z+kdfvIBCtTmq7iyziqd9BUHxOBw1ESHA0WjvdNFRLhEdm5nRTxQ9DZPjzHzyFSK
-0R8GPGW3Zc988LhlwVE1d3qT2A/0rM2u6gEEnYdZ5KHUaZDEf33J3bmsuzA4gUmq
-U/szvCDBTmgaNqSL1H7vSZ7ESe2K2rdqJnKyK4OxHzWxqFKdahnoGw440MgtJr2f
-o1b+kyy79O2YcaK/MU5dTrQchn3Esz+smcA2N9TDG+H2hCGiQW/IO7O8XKqSNw1V
-NIQgWlETHMWTSKAlqZ/4iPu0eQx+175d5T/yYaH7ypdpO2vN3f4lPuLb1GxKhfsA
-irbv8iHu6uF+uqem3tw2UsoY5g1ufglfxb5Lio1b34eY7wisgOfyIzAiYKRhRBlQ
-D9RncNhJPC6Pq2ARDmWROf4BdJZOBcQ5QpzdfzurohaOJgiktCYz7zamv8PKAbtC
-srmOsbDE2nESvvIiKISUQTs6+Gzx+Dq9HRU3R+p82wu5Ox328c7TU7fr6lQnrI9G
-KzqxMR5vIzZchu1+ByRXiZMB10W7izuZkQO2oJxr927ZxP91LvLq6Wkx0MZIzN+x
-pYDp8qf6z15BxMA7FD/DBER28ZuHQ5QMvsN8Wg4orlt2BsGXwneSWMmnCDJQZdhu
-oE/UvJMEDUgC5sw5JJoICixr
-=3IlV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOMcUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+00EP/23NoG9LVQjdbBwmk6Jj
+wIzCHbVMEsrCxnWcGq4i8ADJgEMcvZiDSIrNLBiU70GvMnkRj8PWvFiFLhSF5nN2
+U64hYM4iY2yy0jKK6xw9Yppk64LLGFcowoMsbe8jWNBwebQZATFo52hPAMlSMPhz
+2uWs0ESD/FSKxUexAbrMu3jzwX4cd29cT1vyf/tIalyOa1ez1AqLhatB5xLZx5Xk
+/zgVYB5CAaItcu/XGOr3gHf9ViWqUvMEflfqgvJairFDCKxt3j+hr8Poz300/MZK
+8BPOuUQNfqERRxuSIe9sn7nvGbrxlBJDeMTY8FHUX5lSfoPTYpnhZvgH+MRP/PNe
+K0goKNWd9+BRIjC5mliD6IRp/ns8qJJ68XERMXlM4hbv+dbSfxUl2yPOVhWwep2T
+JfhfLp9UL6GCqKXnhpstX9B5+X9Lr2vkiDJlsNWTKK06yK6ebT3lW6tyW10HUVyz
+x5RyohvUMO6JI6jJ3mEq7Lsja0ZZRuaVmz+qN7VOUQSftwsKrPrCJLel5Yf5P1Dz
+rasdiOSGMG+2c0xvyULaS09A9kXA7uKLcarRCj7UMr4paBFTZz59obytYbZxnntO
+01zKtUpFwe6E/G4pgxKytAHof+eMJ7S9TxUf5blVfj3YjJkx7Qu/ud8C57NP4ooM
+ofpvl3IZrtWPEGuJo//IsgFd
+=iYEq
 -----END PGP SIGNATURE-----
 
---===============7363152783559355269==
+--===============6231442379011483998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-048ff8629e11-5833291ab6de.txt
+Content-Disposition: attachment; filename=revlist-e1959faf085b-5833291ab6de.txt
 
+b1f896ce3542eb2eede5949ee2e481526fae1108 powerpc/xmon: fix task state output
+19b27f37ca97d1e42453b9e48af1cccb296f6965 MAINTAINERS: Update powerpc KVM entry
+6ea5d1a3e301a3d1f0364dfd481210aa6aa3cf17 perf script: Support instruction latency
 63c12ae2f246dcdc30895ec7c980365a5133433d perf evsel: Add bitfield_swap() to handle branch_stack endian issue
 10269a2ca2b08cbdda9232771e59ba901b87a074 perf test sample-parsing: Add endian test for struct branch_flags
 5b9f69ffa6b4a791d43c0fb28a0d9de3966dcb73 Merge branch 'topic/ppc-kvm' into next
@@ -407,8 +410,6 @@ e9ea574ec1c27e555e7f78cbbcd28af91889d529 mctp: handle the struct sockaddr_mctp_e
 900e080752025f0016128f07c9ed4c50eba3654b block: move queue enter logic into blk_mq_submit_bio()
 10c47870155b5d9a8597eff3345d244e2fe1847f block: ensure cached plug request matches the current queue
 fe7d064fa3faec5d8157029fb8720b4fddc9e1e8 block: fix device_add_disk() kobject_create_and_add() error handling
-0a55457c7c37642118e0973816286566be19240d Revert "xhci: Set HCD flag to defer primary roothub registration"
-439b08c57c3fe1df85cfe9d00accdf9b62cb3275 Revert "usb: core: hcd: Add support for deferring roothub registration"
 b93c6a911a3fe926b00add28f3b932007827c4ca bonding: Fix a use-after-free problem when bond_sysfs_slave_add() failed
 af1877b6cad16bdd8d8d93ca1c7b37e8f21ef4e3 net/smc: Print function name in smcr_link_down tracepoint
 0c500ef5d3395b68f615486c90aaf28868e0032c tg3: Remove redundant assignments
@@ -557,7 +558,6 @@ d7171cd1acf70eb949ece8ccc95be27b3dfcf4da smb3: add dynamic trace points for sock
 d83d42d071b6c58e71e54b8778ca5b279be98f7d module: fix validate_section_offset() overflow bug on 64-bit
 7fd982f394c42f25a73fe9dfbf1e6b11fa26b40a module: change to print useful messages from elf_validity_check()
 70bf363d7adb3a428773bc905011d0ff923ba747 ipv6: remove useless assignment to newinet in tcp_v6_syn_recv_sock()
-e1959faf085b004e6c3afaaaa743381f00e7c015 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
 c0f49d98006f2db3333b917caac65bce2af9865c can: j1939: j1939_tp_cmd_recv(): ignore abort message in the BAM transport
 a79305e156db3d24fcd8eb649cdb3c3b2350e5c2 can: j1939: j1939_can_recv(): ignore messages with invalid source address
 164051a6ab5445bd97f719f50b16db8b32174269 can: j1939: j1939_tp_cmd_recv(): check the dst address of TP.CM_BAM
@@ -1082,4 +1082,4 @@ dbf49896187fd58c577fa1574a338e4f3672b4b2 Merge branch 'akpm' (patches from Andre
 ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 
---===============7363152783559355269==--
+--===============6231442379011483998==--
