@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2545168682842570010=="
+Content-Type: multipart/mixed; boundary="===============4651950100256591619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 12 Nov 2021 10:05:02 -0000
-Message-Id: <163671150272.24617.157938215766770191@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 10:05:07 -0000
+Message-Id: <163671150775.25984.13569219007233522410@gitolite.kernel.org>
 
---===============2545168682842570010==
+--===============4651950100256591619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: debe436e77c72fcee804fb867f275e6d31aa999c
     new: 5833291ab6de9c3e2374336b51c814e515e8f3a5
     log: revlist-debe436e77c7-5833291ab6de.txt
 
---===============2545168682842570010==
+--===============4651950100256591619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636711501 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636711506 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636711500-744f2902682759436de47868e5ffddfee654476f
+nonce 1636711505-28fc888f5953d9e2b7cb5f75e2891e2173478188
 
-debe436e77c72fcee804fb867f275e6d31aa999c 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/staging-linus
+debe436e77c72fcee804fb867f275e6d31aa999c 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOPE0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+djIQAMTZR0KRE2WyjXnsp9D/
-xutrYwbGj0CJoUahuLjqMSI2iOuhPduNtb7NmVgf6gJUTpP/pVp78Alu+pUBvqnK
-XOzavZXTcf17ieFOe4u+SU8WOs6/MaP0DFx0FU0BTKmFuqU59IT5epJV28aKCF6k
-3DsEw2hg2/JVO4Pj1x0noMHuDpszpuRgFdJZidzr1uXG6eAWADexVolgj5pIoGnT
-g4fskdmVercnxEA1a8goZDxzPS3DbCkGGkMkKSYbSdCuAniwRXUM0+bFU2QyGbJH
-lMFRoZqLzeq6GrY0R2Xp1snIh5QkUTwoqQPTz/l3flNHJYLS1jpbpPAdjJXWLM9b
-Js680pj8dZMcnE8Ca3aWHPSRWI9EXG6SMv+iTpM2mLRSl1wUan/fwr2lGwyIC+cM
-H9/sOGGiDsgCBLbQqbf98qqYSrMtyFc3hZRKl5TZSukPoWg4aFouv0AzaFudNBtU
-+ZftYy4rpsYWBU7e10ZPXSvV64M3o8duJpo7GaWG8Qx5XRRGoKvO+MyvnOVNAPpy
-O2qoqka5gvAn2Ops540NlHAtkYqWc6xGyH4izzkc73upnGyMBu3V7idBalIfn2/A
-eLI8UNqQjpDXFkxx5I016HNBMSXVE1FIj/MCmV4vkxr6yqZ7g1xhQFJFV+IQFfpU
-SXgAR1PiX56+piikAR3jUCr/
-=vEe6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOPFIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bY0P/jJKZd25S/GacVOt65Ss
+yMY4hxDpFq6mYk/PevxFAzEPxxTBCxG9Ofl/hPPqJPo7FTa76E59+hDhA74Hxg8A
+ZubQydN9vSMjgdj7qEWLLPyAdDH585ExAkaM8DApl6RFv0vez13RckBenLdbr4Ms
+Y7LKKRww6m5HOkvz2Bvwoq0Anf9syzDdYOzPBl6AdUs4QnA3nIa74Ii9wj22EiTw
+aZvoYeEY6ztQjUJd6Kx+29GwCySncNOkDHRQrAUKog3jRAvWweMNiisx2Jdf15Ag
+F7kTP6qyV2WoMiXdMBAbiE1xP3/+wXs/RB8twfZGlVzqdqpAaJgDhYan4d/m0Xem
+R+iT0IE/F1+ut5fW9neodVmZOmY96afvwLdFW09TMkTDLMc4cxjNYIjnVU9bi5xL
+Tr0/LqOeeKYW5sm1ZHGS9TUgVPTF8IC3lbJHEpmSwopZaE/99H/kG/QRnpdSAPyG
+Biu1IhlMF/PPjAR11UOZleIYKV04tpk9Jy44aarPyHYG9UAqMdhjnzz6H/by+yek
+FfT6btJGCPLa+KAvBgbGrh1Yd2FoIRnB2xynJIfkyG2s3IunhV57VefoBQocwajR
+ldsFOxmvK0iq6EMWNPDGmO2OQssj7VQJQXGKK+nTvWs/21ZwJ5JJt8rV+jXMZ8og
+rzAcyzDtFuDgKe1LZZ+RR1jG
+=Bup9
 -----END PGP SIGNATURE-----
 
---===============2545168682842570010==
+--===============4651950100256591619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -243,4 +243,4 @@ dbf49896187fd58c577fa1574a338e4f3672b4b2 Merge branch 'akpm' (patches from Andre
 ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 
---===============2545168682842570010==--
+--===============4651950100256591619==--
