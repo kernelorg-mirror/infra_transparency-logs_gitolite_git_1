@@ -1,56 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============7952338003639108431=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Nov 2021 16:54:45 -0000
-Message-Id: <163673608558.23626.1304812902545008084@gitolite.kernel.org>
-
---===============7952338003639108431==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 12 Nov 2021 16:57:11 -0000
+Message-Id: <163673623161.25816.9728029054784925755@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 139b3cd7efe622948c0344da1d0ef23311dfec2c
-    new: bb3805abfbf0ef78388e45fa35e1770f9b565d98
+  - ref: refs/heads/queue/4.14
+    old: 5c9bda5f0d7f11bbc4229fd31c9fced656f19b4e
+    new: c7ff976017bd00296c3dc30d9613a9dfa0da7bea
     log: |
-         bb3805abfbf0ef78388e45fa35e1770f9b565d98 4.19-stable patches
+         a2fd8c3f80f7c5083dc5ad822f911de3e5f5dab3 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         fc0ed5530e55353525ec98b7eb396041c871c630 binder: use euid from cred instead of using task
+         c7ff976017bd00296c3dc30d9613a9dfa0da7bea binder: use cred instead of task for selinux checks
          
-
---===============7952338003639108431==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636736084 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1636736083-2daae29b526ba6403447d04ece49c3d66bb8bd2a
-
-139b3cd7efe622948c0344da1d0ef23311dfec2c bb3805abfbf0ef78388e45fa35e1770f9b565d98 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOnFQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vEQP/3VG9pzTQ6qL/o0d+dUQ
-uaqVMfmg7NXVkbbemcbEiTkGyMivoM78XIyqfo85GcYRyamDPMOM6Usi4aUwjc63
-92lPdBfU5qNS1H2OkXm5q9xEz1q1V0xOzxCdd7eM9/QHZTtqs4dqbdjplhj1nkvt
-TF1LlixYkbCB0Qg0CUhSotuK5kWdWXTXcww0QdXK8Dy3rxpd7zCdBSm7jjqAJZmD
-YXwZ7tIXMg9nwPLvztf3TNjZjVePMG7mPMD2AOLm3kcDy34ao1xdu+ZMB7ZqXjKZ
-owOj0EDQClEGVeHt96utglfMSXuBk1HbySTIGgR+EJjzwstdQhqSW9MLr1VOP03C
-opokb/S0mIUx000c8LElpsNbK4tcXv7GNZ/VF2DcSuSoVXux2SB9bkgw3wiTsFvX
-iXLHSqq7QTKs/wRkxMUrX2l8/xXQwO0xB9CdDnnl6DUa1eyP+MLqslLwvO0E8NBx
-JziTwGpSyangBBh27qG5wsVYFS2kBIburwr4xp78sxAMDusHjEaetI/dFDVpKxPd
-nMUstCSPOGdEIX6EDPr1M6xKdjheMQtSM167fOFde+sIhps+Ucx2dMCd/yX4EV8t
-lJp90sg29JtLXV7AvNSg2jOCkmwxEK+mUeVDCwe3OnsPgZAl2gGBBP2ihjvul+Mp
-EcCJ5gC6/+JTNt1Vw0gvt9dC
-=jwg4
------END PGP SIGNATURE-----
-
---===============7952338003639108431==--
+  - ref: refs/heads/queue/4.19
+    old: e6a5313b9f12bebcf323f8ad4f0abca7387b68ce
+    new: 3e6ea8c4d7084efdb9f7682a1abb53b7fdb7bd89
+    log: |
+         10671046f57db42285f764638684f66974f97996 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         e281fe1bb43a41800c49a269d318e6029f11f489 binder: use euid from cred instead of using task
+         3e6ea8c4d7084efdb9f7682a1abb53b7fdb7bd89 binder: use cred instead of task for selinux checks
+         
+  - ref: refs/heads/queue/4.4
+    old: 2d96ff10bc6fe13e70687a491b3f85b2e5d3c9fe
+    new: 317280d595748dab3967ea44899aaa78e968fe73
+    log: |
+         5f392a74b8b8cfa4114aac5265182ce2318caf1e binder: use euid from cred instead of using task
+         0a92de5502d81357d4f9c15963f793d7ac5ccd2e binder: use cred instead of task for selinux checks
+         317280d595748dab3967ea44899aaa78e968fe73 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         
+  - ref: refs/heads/queue/4.9
+    old: 16f735b0c041b7b682184a43faf1f14ea2e000c9
+    new: a0450cbaedd689516837558932deba437d04cbb1
+    log: |
+         911348bf2b614427533c18be54809d2bfdf99343 binder: use euid from cred instead of using task
+         e2e0be87136d8b5a63c5495f098e271ca64dd6d1 binder: use cred instead of task for selinux checks
+         a0450cbaedd689516837558932deba437d04cbb1 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         
+  - ref: refs/heads/queue/5.10
+    old: 04abd7e1ff13b8ccf436acce22f31b7ebf5a27b7
+    new: 12fdd418d084a8d76d7c3b519b2a614e3ebd3bb0
+    log: |
+         e187ce6c34ee9548de6149ae16137e1fec0454bd xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         12fdd418d084a8d76d7c3b519b2a614e3ebd3bb0 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+         
+  - ref: refs/heads/queue/5.14
+    old: 9c321fc5562f8a72577091e165d015635c32fe24
+    new: 96c5ecb36d381e0fa1ee629dd51171da1cacb6a0
+    log: |
+         ca248f91aa80154a4cd4d7de0f72d842a8b857aa xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         96c5ecb36d381e0fa1ee629dd51171da1cacb6a0 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+         
+  - ref: refs/heads/queue/5.15
+    old: 6b0dad8bdb7335aa7c93aaaaa88fbabd4368ac0a
+    new: 48a1eb9b66a55c5921bb553fbe710a2562ea7e32
+    log: |
+         6c6d71790a0764dede0b56808c9de3439d9e7cba xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         48a1eb9b66a55c5921bb553fbe710a2562ea7e32 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+         
+  - ref: refs/heads/queue/5.4
+    old: 280d24338365a1b192e1dd7cc715519c8dcbb559
+    new: cf16f9cc28517716ab2f9368d33b1a2ff9f0b8a5
+    log: |
+         e26ce6ed32c6cd2580b2befc267594f290bdbbb7 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+         cf16f9cc28517716ab2f9368d33b1a2ff9f0b8a5 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+         
