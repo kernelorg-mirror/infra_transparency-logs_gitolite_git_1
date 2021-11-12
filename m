@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 12 Nov 2021 10:28:37 -0000
-Message-Id: <163671291776.7662.8793839520112986413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Fri, 12 Nov 2021 10:28:54 -0000
+Message-Id: <163671293467.7801.18342802138816484999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/for-5.16/upstream-fixes
-    old: bf9167a8b40c9cf463521da05342db81808c1b6e
-    new: e3d9234f3002bb23eb021f6d317e037b5487d4d0
+  - ref: refs/heads/master
+    old: 186b4aca9eea01286b4c17d954e0f08ce21817bb
+    new: 320aacd730aa95166684ad8715a27b69a2a7c89a
     log: |
-         e3d9234f3002bb23eb021f6d317e037b5487d4d0 Revert "HID: hid-asus.c: Maps key 0x35 (display off) to KEY_SCREENLOCK"
-         
-  - ref: refs/heads/for-next
-    old: 049007698d4765dcfe2141ea971239190704ec0a
-    new: 5554d0b808c21f1c936aa4244d7df4ff110bec4f
-    log: |
-         e3d9234f3002bb23eb021f6d317e037b5487d4d0 Revert "HID: hid-asus.c: Maps key 0x35 (display off) to KEY_SCREENLOCK"
-         5554d0b808c21f1c936aa4244d7df4ff110bec4f Merge branch 'for-5.16/upstream-fixes' into for-next
+         320aacd730aa95166684ad8715a27b69a2a7c89a x86/sgx: Maintain encl->va_page_cnt and check it for limits
          
