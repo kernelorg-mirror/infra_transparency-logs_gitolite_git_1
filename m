@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 12 Nov 2021 00:10:40 -0000
-Message-Id: <163667584052.1324.9187248969613706210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Fri, 12 Nov 2021 00:20:54 -0000
+Message-Id: <163667645423.8591.6639536333486963933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/pci/host/apple
-    old: 468c8d52c33271d21aac070ebef9283f302094cc
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/libata-5.16-rc1-p2
+    old: 0000000000000000000000000000000000000000
+    new: 3a31fe53faad45b829edce995bd21eabf1dd5d9e
