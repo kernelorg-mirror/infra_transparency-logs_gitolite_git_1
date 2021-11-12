@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlawall/linux
-Date: Fri, 12 Nov 2021 10:27:11 -0000
-Message-Id: <163671283179.7180.5750297903348004397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 12 Nov 2021 10:28:37 -0000
+Message-Id: <163671291776.7662.8793839520112986413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlawall/linux
-user: jlawall
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/tags/coccinelle-5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 20c3d9f9e92a4aafac351157965514c2cbbf3073
+  - ref: refs/heads/for-5.16/upstream-fixes
+    old: bf9167a8b40c9cf463521da05342db81808c1b6e
+    new: e3d9234f3002bb23eb021f6d317e037b5487d4d0
+    log: |
+         e3d9234f3002bb23eb021f6d317e037b5487d4d0 Revert "HID: hid-asus.c: Maps key 0x35 (display off) to KEY_SCREENLOCK"
+         
+  - ref: refs/heads/for-next
+    old: 049007698d4765dcfe2141ea971239190704ec0a
+    new: 5554d0b808c21f1c936aa4244d7df4ff110bec4f
+    log: |
+         e3d9234f3002bb23eb021f6d317e037b5487d4d0 Revert "HID: hid-asus.c: Maps key 0x35 (display off) to KEY_SCREENLOCK"
+         5554d0b808c21f1c936aa4244d7df4ff110bec4f Merge branch 'for-5.16/upstream-fixes' into for-next
+         
