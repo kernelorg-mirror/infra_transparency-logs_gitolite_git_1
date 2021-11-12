@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 12 Nov 2021 14:56:49 -0000
-Message-Id: <163672900964.21865.15403947881842152738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 12 Nov 2021 15:06:43 -0000
+Message-Id: <163672960313.27573.3833262607310811922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 5833291ab6de9c3e2374336b51c814e515e8f3a5
-    new: 199d983bc01513173dd9cc486dbddf4d0e414d42
-    log: |
-         199d983bc01513173dd9cc486dbddf4d0e414d42 xsk: Fix crash on double free in buffer pool
-         
+  - ref: refs/heads/irq/interrupt-map-fixes
+    old: 0000000000000000000000000000000000000000
+    new: f95db00e84aeffb48a4abe6c87ea9e833b779b0c
