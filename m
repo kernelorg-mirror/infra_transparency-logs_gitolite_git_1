@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 12 Nov 2021 22:45:21 -0000
-Message-Id: <163675712179.16061.3033713208507410647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Fri, 12 Nov 2021 22:52:52 -0000
+Message-Id: <163675757284.21350.7005135110382041270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/sunplus-logitech
-    old: 63f7c0a55ea70a3105e441a44b00a208d18ba614
-    new: a0fe91bf16385f7cddd9f7869c63e0ad0ccfed7b
+  - ref: refs/heads/next
+    old: 6a628fa43810f861da50c593c69f2ead1c829231
+    new: c5d32eac8f520ef8fec1b016c2c0ef52953b557b
     log: |
-         5e7ccbe8968a4f03ec65653a2b792628480f3d8e media: uvcvideo: Refactor clock circular buffer
-         a0fe91bf16385f7cddd9f7869c63e0ad0ccfed7b media: uvcvideo: Fix hw timestampt handling for slow FPS
+         4fbb72ca0da5dcf7071503d1b30ff43d8ade0004 fs: dlm: don't call kernel_getpeername() in error_report()
+         c5d32eac8f520ef8fec1b016c2c0ef52953b557b fs: dlm: replace use of socket sk_callback_lock with sock_lock
          
