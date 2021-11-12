@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 12 Nov 2021 19:58:03 -0000
-Message-Id: <163674708374.8498.12186469231531436887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 12 Nov 2021 20:00:55 -0000
+Message-Id: <163674725572.10846.3686729665077091799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/uvc-compliance-season2-v2
-    old: c79166b864854e3f11dd688875e450e5494dd575
-    new: c637f291b74b77571aed1b1b089bbfef2cbd32de
-    log: |
-         c637f291b74b77571aed1b1b089bbfef2cbd32de media: uvcvideo: Set the colorspace as sRGB if undefined
-         
+  - ref: refs/heads/x86/urgent1
+    old: fbdb5e8f2926ae9636c9fa6f42c7426132ddeeb2
+    new: 0000000000000000000000000000000000000000
