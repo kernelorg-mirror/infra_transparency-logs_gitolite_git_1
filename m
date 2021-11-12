@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4352698707918185620=="
+Content-Type: multipart/mixed; boundary="===============6874724118401076132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 12 Nov 2021 09:21:10 -0000
-Message-Id: <163670887005.6493.17790371545809267173@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 09:21:15 -0000
+Message-Id: <163670887551.6612.12531101263656424237@gitolite.kernel.org>
 
---===============4352698707918185620==
+--===============6874724118401076132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb
+  - ref: refs/heads/char-misc-linus
+    old: a4119be4370eea352df0dad294488e60e67321cf
     new: 5833291ab6de9c3e2374336b51c814e515e8f3a5
-    log: revlist-b5013d084e03-5833291ab6de.txt
+    log: revlist-a4119be4370e-5833291ab6de.txt
 
---===============4352698707918185620==
+--===============6874724118401076132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636708868 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636708873 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1636708868-e2ff9910e1ba7701fb18e486061f769a97bcd6a2
+nonce 1636708873-8522c3886d6ee952ce4330b738a6f7ab53cc4f7b
 
-b5013d084e03e82ceeab4db8ae8ceeaebe76b0eb 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/main
+a4119be4370eea352df0dad294488e60e67321cf 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOMgQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8FQP+gMMPQWEScca0ul4wB6g
-/Nbus/kUEj3BZG3HwIJ/wpAG1H++Hef2TiCi8zDFTZXtXsfwMYUbnpTjtMDSFc1U
-qweDOOqCVa+8D9vO/kabphm1qlNSLRVu1Kjvc6VrJmYVjoOYnc3zs6SlMgZHhjSO
-zE0/M/LNx6TgrgjjuoEJ6Jh8cNvh450CCuWJ4fIEgO7dntaNPpy22H4yV15ewz/h
-aTuN44Jw8xnSufLwFO4XpjA/88tHVKbFaHFTIpx6kFVvDEh8mRWVwB80D3ZMrnYT
-O3CctohYVgku9dp2yl7wkq2JkLvUJmE7Amr2HxfOgPaE60FdLlN+BK0MXAU3EehT
-bicpb0S2alq+37yjsyckzgqPYC/Knn/gjtsGOSZ57COOO85PVfkudhCjouDNJdp8
-lea6jHaRgGvnwovlhGHwo7Ct5dURrx2l8QqhdtOFi5PmlmD9Dng0Xa6bGONKHSJi
-jmAox+dKYlvm6WThGzTTIASMYLh/q+PIjcXQ5cbjJZGmZeS4KLvVcHm8w/99IGt9
-ZUx/ek5uFMC7qlo1DmMm2/uWTPeQ2hecHhTaKfWaSt5Z9hN0gQGbNA3W3y6quRXl
-jMEnUijAO9t2ftcChrS3qtLof9wEfkN70dsuNXbXxzIAAkEsmtcAVevrxT0/8LW6
-psN9WjxJ5aYiDpeFb+RaYPF+
-=6K0U
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOMgkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qU8QAMolu9tW02EqZ0H6H2H6
+jy0gAaQGwLLpoTxcm7O+Gk6R1htPUY9a6za0Z+VVeczItttNO75GX9A98pksXSrW
+5hizLCKChLWo9FyxbDOwIkLqk+a97SwFiFftn4BaWxhrd9XKoSvaLolAmHwPHx27
+w1t/9bl2vinu5PDlDHwh0oiPmqvPWugP+otlzI1+JtY03AkrJGCwWrgLDOAOhH+f
+LMPB37BvDLxHqbSdNpciPiZeAm7VBtcnCMUNsniciUFLR5GS2phnhOHtj1ohstXg
+bijYkwKiIUII4SzEI1VAgZSHC1sR8zMPWGWccIiFxkSqln6GAO0DVlc5uonkQ6vE
+HMXBgsXvCXcP/YbMfboRsgTEpB9pmSlRic5Cz6oBfdNvZGTE/o45xDsQXWDmZN/W
+QbyxWS9ftjlHZpl1gNfdvmvXOJJzlHrJL98ukq257sm9ycag5MaENLAWDdzSaC1j
+zTzDAe6Ujl5J2R1SvjqKaFzVJ9aNzrDnQY/CD1fJd6A/M6GEVdAl5vZQMbCDt2Uv
+o+83psVCxm1kqWnFC6b+xfbMaxxks2lMUhpx02y4r1b6/4fuc7uiJEphqA5QPSsY
+w6yZwoENxx1LxeG4ONJZXUAgTiKFCUcpgEJRtRgTh7+4cTUNAziCFGqMJIphCac2
+Hwtj2fWIi1JOBqSudJUZgXkX
+=Ln/3
 -----END PGP SIGNATURE-----
 
---===============4352698707918185620==
+--===============6874724118401076132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5013d084e03-5833291ab6de.txt
+Content-Disposition: attachment; filename=revlist-a4119be4370e-5833291ab6de.txt
 
+4844bdbe9166bc3d194b1d20d13dc1f01d3c1bb7 PM / devfreq: tegra30: Check whether clk_round_rate() returns zero rate
+e68ce0faf29c7c268666e11e95bf27dca97d28b0 mfd: hi6421-spmi-pmic: Cleanup drvdata to only include regmap
 3f491d11d8cbc3e4b4ff67bfc7f065e1cb56bcef MAINTAINERS: Add spi-nor device tree binding under SPI NOR maintainers
 27ff8187f13ecfec8a26fb1928e906f46f326cc5 opp: Fix return in _opp_add_static_v2()
 91a45b12d49e2b43d86caba25ed59fae43344ab8 cxl/acpi: Do not fail cxl_acpi_probe() based on a missing CHBS
@@ -688,7 +690,6 @@ afcc4e32f606dbfb47aa7309172c89174b86e74c ext4: scope ret locally in ext4_try_to_
 a38bc45a08e9759f04d61669f45941d6624d173c selftests/net: Fix reuseport_bpf_numa by skipping unavailable nodes
 eff5cdd745a68863a73095b0b4d62d15e0d9d902 gpio: virtio: Add IRQ support
 7d0003da6297eb128f3490e396e6fc6df71557cd virtio_gpio: drop packed attribute
-20b02fe36530a1e48dde73c80b882ae276346ea3 arm64: cpufeature: Export this_cpu_has_cap helper
 2116274af46b12df7cea1dc5698f3cf2f231f8a9 block: add a loff_t cast to bdev_nr_bytes
 40fdea0284bb20814399da0484a658a96c735d90 xen/balloon: add late_initcall_sync() for initial ballooning done
 121f2faca2c0a1b3af5581213c04817b3f3ceeb9 xen/balloon: rename alloc/free_xenballooned_pages
@@ -839,7 +840,6 @@ d99341b373215cf32bfb7f341fb3e720e0e791ef bpf: selftest: Trigger a DCE on the who
 88c42f4d6cb249eb68524282f8d4cc32f9059984 perf bpf: Add missing free to bpf_event__print_bpf_prog_info()
 3500eeebeda842e8499617b8983a4c55fd6bdfe3 perf evsel: Fix missing exclude_{host,guest} setting
 c80be257a4cd0f72c083e6056ff0ce2da871e9dc i2c: xgene-slimpro: Fix wrong pointer passed to PTR_ERR()
-a4119be4370eea352df0dad294488e60e67321cf Merge tag 'coresight-fixes-v5.16' of gitolite.kernel.org:pub/scm/linux/kernel/git/coresight/linux into char-misc-linus
 76eb4db611e1012cbdc2461540fe6bb9d40a0f27 i2c: i801: Add support for Intel Ice Lake PCH-N
 c6f49acb52c79f8e84af2eda4fc002a2068a6c9e i2c: amd-mp2-plat: ACPI: Use ACPI_COMPANION() directly
 f96f8cc4a63dd645e07ea9712be4e0a76ea4ec1f NFSv4: Sanity check the parameters in nfs41_update_target_slotid()
@@ -1082,4 +1082,4 @@ dbf49896187fd58c577fa1574a338e4f3672b4b2 Merge branch 'akpm' (patches from Andre
 ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 
---===============4352698707918185620==--
+--===============6874724118401076132==--
