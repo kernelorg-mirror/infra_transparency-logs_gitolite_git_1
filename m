@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8297973073675286321=="
+Content-Type: multipart/mixed; boundary="===============7352867016243660711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 12 Nov 2021 09:21:44 -0000
-Message-Id: <163670890439.7181.7840366131885001506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 12 Nov 2021 09:36:59 -0000
+Message-Id: <163670981973.7293.9370767347264277582@gitolite.kernel.org>
 
---===============8297973073675286321==
+--===============7352867016243660711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: cb690f5238d71f543f4ce874aa59237cf53a877c
     new: 5833291ab6de9c3e2374336b51c814e515e8f3a5
     log: revlist-cb690f5238d7-5833291ab6de.txt
 
---===============8297973073675286321==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636708902 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1636708901-6a6d2721c849513c28ae06926cc93443611fa83e
-
-cb690f5238d71f543f4ce874aa59237cf53a877c 5833291ab6de9c3e2374336b51c814e515e8f3a5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOMiYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eR4P/0ecYHVccCc8gTUGsvHH
-BK/9PJYEC19gT0VMsgBVJq4bL+8hK6br0WhUQmiP5sQf0ue906Cj0N8HYwSzm0bA
-IvDGkUquuKxavWRkBzu704DRq/j9PsUMRcF6clNkPON9VLUDxvRMTcp6eWhgHbmE
-wBQ/PbjumDvZqaawt1mxttff2SiqI4tbWtSLQ3OWD/46dYa8M+qmAbTZUFNCRDqP
-x4WSlkVfyUc3MEYMYG21uAz1JGqeXjadSNeTdp4H3KulufaTA1y8VrWuacIIuE/2
-qIU/rrUNpeU3ibKmpxaSRc4synZzre+rcpGq1y72Rfso/A4W1bSRAXUoaEAzqU/8
-uG3itHLp7SImJZ+887L0M/fTZtMXqmr5bA3OLv12eq0x3RvQ3SVN6yLoY5Fy8l1j
-Ryj1IQzWyhgPo9W57rLfRCzQjHGDlqC/6pmktAf4PT4qRk4aquvL1knegVgVbSsO
-ZJJVXCUMx2OWbsF/3REdh2wNMdYa983I779EPqzwtdBxxZ5C4AeCn8N9ZKrHbEnc
-FgIxzU8242icMWg+6iOa91xGLl+d0p2KoUmwl0ly2LNSX48wgsdRUFDoHmAhuJmq
-BYdnUgsrboe3cZqP44OF24LJDZLtyUh4JcuEwbzaHbav3R6dy9U1+0urSV1eoPgV
-6r4AwJGhvnxL621/ioaxfKJd
-=ha9H
------END PGP SIGNATURE-----
-
---===============8297973073675286321==
+--===============7352867016243660711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -647,4 +616,4 @@ dbf49896187fd58c577fa1574a338e4f3672b4b2 Merge branch 'akpm' (patches from Andre
 ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 
---===============8297973073675286321==--
+--===============7352867016243660711==--
