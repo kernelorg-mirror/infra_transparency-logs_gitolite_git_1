@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-Date: Fri, 12 Nov 2021 10:30:22 -0000
-Message-Id: <163671302273.9815.15411714933160504268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 12 Nov 2021 10:39:59 -0000
+Message-Id: <163671359994.13923.14687542936538075373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/tags/pwm/for-5.16-rc1
+  - ref: refs/tags/mips_5.16_1
     old: 0000000000000000000000000000000000000000
-    new: b7b06212c855737a7ed4278e046eea8a5590de10
+    new: 71a33b0af2630dd717080b94331a2f62ca420b24
