@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6231780282503854946=="
+Content-Type: multipart/mixed; boundary="===============8485389952561985747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Nov 2021 16:25:02 -0000
-Message-Id: <163673430231.3734.11182672460715258263@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 16:25:30 -0000
+Message-Id: <163673433054.5327.12350013194206357467@gitolite.kernel.org>
 
---===============6231780282503854946==
+--===============8485389952561985747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 297f73f4d5c91ffdea8de39e1be4eac732a6f68c
-    new: 6cf13c65dc3355b9386008fcffdf225768a8da73
+    old: 6cf13c65dc3355b9386008fcffdf225768a8da73
+    new: 0cd4be4722e4242d28e28b45baba9b237436afff
     log: |
-         a43aa19b3ff60f75bc88e2ebf2f13f94664f7d24 drop queue-4.14/usb-xhci-enable-runtime-pm-by-default-on-amd-yellow-carp-platform.patch
-         6cf13c65dc3355b9386008fcffdf225768a8da73 4.19-stable patches
+         0cd4be4722e4242d28e28b45baba9b237436afff 5.4-stable patches
          
 
---===============6231780282503854946==
+--===============8485389952561985747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636734301 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636734329 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1636734300-d07b1356a8db16e38af03ed3a53f989707da85e4
+nonce 1636734328-daf5dae6c934d4a0ee76e5331cfd3e5470d9ba9f
 
-297f73f4d5c91ffdea8de39e1be4eac732a6f68c 6cf13c65dc3355b9386008fcffdf225768a8da73 refs/heads/master
+6cf13c65dc3355b9386008fcffdf225768a8da73 0cd4be4722e4242d28e28b45baba9b237436afff refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOlV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E2oP/3+63pV4d3rvcktAU7JD
-gmxW/1rzX91OtDMACjOGycWN24MG15aKvcInQdNvdPja069H4/ba1OKQLEvPDFOx
-KnlW9VP1EZktqaVU202Y2MdTl6eDXrPNXoHRWjfj+qZahvdnZ1r2J9+YY2z057ky
-o9rW9Lwffld8R6nXYGEAfuVw+uDPY4JqZ3qcmUVJtSEhhw7o+uf3+ol1zms05//Z
-gdKhR4hFUrmsj9lptt7bY7OqQm47Yn5UYqtMFZuVaFXvbgGtDibB5W5ShVpmVX31
-zuaUkEzudOA+miFY/Dypq/UG5ebp2q24SbOfz2ST400Kjr86YOoTiFOcLFQySUzA
-IjYwpjHet6OOOv8pqeADOin8TPNxgL+bIiSb2QCQSrhr44DxFX71K+Y3KBFYYegi
-s9P/r4LjYOgEJul9jkmJ62U4kMVxYe6fpAyZ/EBkMWu6zibqzqYmaZRrpUnI0Y54
-pVp2oaUQ3YrNj88OuwSGE+Nr3XNlE7nnsskmVfAsdLSIv1sZBLFZ05rdPIqgHL9m
-rt9dsiil7NvOEP99UhL8RD9yUAJkSSHYV/uYxynIFBnqa+kusBhr58xD0ILWET6x
-/DGon9VJ8jPxV3iYSpS8PqBDCrnrv0YUWHw/zlKkn9s/lb2rnTXQN1oEUi/6PuBh
-F7sXl1LldtzobHvKtTfEnp5Q
-=v7/B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOlXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4Q8P/i8KRGcX6JXO6Fc6DBiE
+nCAIrGISn+8GCTp0R50DAIEdaRlnT/2Vo6XmPxOJyGP47Eho9AmIXTKBEIozemTW
+7hlMc/Hzk9JvZsKWFI+hxmAe8038AS0M6uu/mtKnfnAv2X/vzwx39I/2V8KA4dIa
+G7UMTMLAE91cE/gwAybOvtF3bKCqqolnqlveIFa80Yzyh+sOsB1bEErJXH6wi88y
+ZlYR2C8VUQEY9wjuDtr1CCeNL8cpsUfPlA4I415emcplyekS9xCHTF1HUaWqwQTS
+xRUYWSdnaGYQ/cOSgXuUKjHaneQ/yVI/oi02jFdfVqK2eGHhBLyAZbR5F6O/Kxqq
+6mLX7oqOFoMJrBCVKbbwYLWRW0edAf0aAepGQ30KbPCl7zV1rkpcB6M9PibEdxkE
+PZ8+3qMhu9JedTSEbNM3+baDQ/ewKgz42MgfXkJiqm4f7GwKmFvu1lquBdiOs7X0
+UuiR+J72fbFpD9cqM5vUDJOJnqD1AxwESQvGTqAM11a1e4H1VYrRwOWgy6tUUDeB
++xiX2ku5HafI2WeIdNFX8d0wjyrnGRSecDy5q8Fv1zZRHiUdx71I78IBbcy7aln2
+yv72GeFJeIPP49g7nIcVTEL25s9ZF+Uk4DxrCwlSMHx0jVfFDCVtekxK0PYLFsJ5
+I2urnyrTiYXC89TRGDd1yP6b
+=vyRV
 -----END PGP SIGNATURE-----
 
---===============6231780282503854946==--
+--===============8485389952561985747==--
