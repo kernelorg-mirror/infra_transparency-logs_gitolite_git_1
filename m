@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5426093473448158636=="
+Content-Type: multipart/mixed; boundary="===============1404208665637050650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 12 Nov 2021 16:12:39 -0000
-Message-Id: <163673355964.27417.4724792646834869903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 12 Nov 2021 16:13:43 -0000
+Message-Id: <163673362309.27826.9271543698317423619@gitolite.kernel.org>
 
---===============5426093473448158636==
+--===============1404208665637050650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 85a314819fcfc66ef4fae875b544b96b417d20f7
-    new: fdbcfd8128a6b0d04bfc61e9d77c3aa18d8e1caf
-    log: |
-         fdbcfd8128a6b0d04bfc61e9d77c3aa18d8e1caf 4.4-stable patches
-         
+  - ref: refs/heads/queue/4.4
+    old: 4087fc507b36314fbe0f3ebd356b388e366a1d48
+    new: 63869e8168313f85ad3d961c44b770b305b3be85
+    log: revlist-4087fc507b36-63869e816831.txt
 
---===============5426093473448158636==
+--===============1404208665637050650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4087fc507b36-63869e816831.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636733558 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1636733558-9283954bc0b521fed8cacc20fd89c4fbedfd531a
+1105573d964f7b78734348466b01f5f6ba8a1813 scsi: core: Put LLD module refcnt after SCSI device is released
+d1159586a772fd0d1fcc318308ea5f4f0c820348 ARM: 9120/1: Revert "amba: make use of -1 IRQs warn"
+a2592cbdff09743ce86f6af5ba0ae9b187414702 net: hso: register netdev later to avoid a race condition
+8171dd5ae287bc3b6eb7ab236f658c551c287ce6 IB/qib: Use struct_size() helper
+bda41654b6e0c125a624ca35d6d20beb8015b5d0 IB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields
+dda81f7e3496ff0197d80b7d80c454ed6b5daa1a usb: gadget: Mark USB_FSL_QE broken on 64-bit
+2c48d74a6c0ee1185ae98e7809ecb23a6010e6ed usb-storage: Add compatibility quirk flags for iODD 2531/2541
+0181a55027a0ff6f4cccccaae1b0e48ebd0c066f printk/console: Allow to disable console output by using console="" or console=null
+cbefdf724282e6a948885f379dc92ab841c2fee0 usb: hso: fix error handling code of hso_create_net_device
+156ce5bb6cc43a80a743810199defb1dc3f55b7f isofs: Fix out of bound access for corrupted isofs image
+a6af69768d5cb4b2528946d53be5fa19ade37723 comedi: dt9812: fix DMA buffers on stack
+58478143771b20ab219937b1c30a706590a59224 comedi: ni_usb6501: fix NULL-deref in command paths
+d81a427f5a9fc07e5d3f506ce9b60e85d485c33d staging: comedi: drivers: replace le16_to_cpu() with usb_endpoint_maxp()
+5229159f1d052821007aff1a1beb7873eacf1a9f comedi: vmk80xx: fix transfer-buffer overflows
+e0e6a63fd97ad95fe05dfd77268a1952551e11a7 comedi: vmk80xx: fix bulk-buffer overflow
+eeb2451e30abb66c72f05a98a2a655e7ec348b7d comedi: vmk80xx: fix bulk and interrupt message timeouts
+dc8f5cfd5cf19fdb107a8282539ee6687e12d778 staging: r8712u: fix control-message timeout
+c53135d6edf9a35ee824ffafa040196a09bafda6 staging: rtl8192u: fix control-message timeouts
+4eb824f432de3ab830b27aae25595c370473f39e rsi: fix control-message timeout
+18dc3b942ce31a243fb8ca212b42cccb2711f980 Linux 4.4.292
+63869e8168313f85ad3d961c44b770b305b3be85 binder: use euid from cred instead of using task
 
-85a314819fcfc66ef4fae875b544b96b417d20f7 fdbcfd8128a6b0d04bfc61e9d77c3aa18d8e1caf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOknYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dFQQALKDUJYQvIXyNUzX4qAF
-zx0p1746gED72wB/zqi/DR9Q8b4XNN1SH+JnNsrgqVaQMxPIv5b7wOyR51JodzwI
-l2rO7Z+faeTB8Q8wT9B8WftJBsaxq1TfvBLi2q2/Du4gbMeAR09V7ZwR0uLQnpIA
-YuPTSEZC5UHo/vqdJEe5YzVPghvvpVgHk2Ph1RJ985h0w6VQkr2QrITVo+hdgD0b
-O++2dWw/87HJ4d/umoWOIrJHrDuYgCh1V/PMCo5aKoE6XdndC8hDkGb7vQls87gW
-UYSzz+X+vvH7t7RfpwzT3uH0G+FmH5nrRzYxDEite4P0AOpowiqUsG9CN/vUDCJZ
-giY0TRZOgdErJ5N4IYfVWPfQ/PikO8WgWSTM7wOtU/piejGOxqoZOriRbafEEPIy
-klGHrJEV5xuKvze02V3Tzkp3gFxAUwchSiIvz1UzdjjVvMqeR87regWZbgDyE3J6
-PWoDQU4b7kfeBPwI86gqHxjcwRz38TYiQy49pJyN4SpTNse4O6OCKMzKeicsx52u
-2f5+FRZlZVF7aIifO0XZk7TSo0Yfq06izHggP82lfWG6rscydx9zXTNJ9z9sO0j9
-l3nQQkvRtfITRo5Vz0r6hQ8YyvQjDiEVdhWQiG49KNtzsbE5jwVG3WhxIDn0mYMV
-tPtYcYDJPIfidSIxQBpk6sxj
-=1C/n
------END PGP SIGNATURE-----
-
---===============5426093473448158636==--
+--===============1404208665637050650==--
