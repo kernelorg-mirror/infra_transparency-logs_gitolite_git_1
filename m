@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7919640550623226437=="
+Content-Type: multipart/mixed; boundary="===============1807894233177411604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 12 Nov 2021 22:09:20 -0000
-Message-Id: <163675496049.24710.13623591025770315579@gitolite.kernel.org>
+Date: Fri, 12 Nov 2021 22:09:26 -0000
+Message-Id: <163675496670.24781.3068260147104329455@gitolite.kernel.org>
 
---===============7919640550623226437==
+--===============1807894233177411604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: c9e68c429a4a2146873b7019c7bf4a7922a7d140
     new: 150c19f3cab201ad1573a61eeafe03608f5cea41
     log: revlist-c9e68c429a4a-150c19f3cab2.txt
 
---===============7919640550623226437==
+--===============1807894233177411604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ea6b937c76905e5c77fe53fa59bde7d036274b8c amdgpu: update raven firmware from 21.4
 db3f08b9fe4c6c8e643170c84343318d5b1b882a amdgpu: update navi14 firmware from 21.40
 150c19f3cab201ad1573a61eeafe03608f5cea41 amdgpu: update raven2 firmware from 21.40
 
---===============7919640550623226437==--
+--===============1807894233177411604==--
