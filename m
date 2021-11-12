@@ -1,79 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0822333618797572295=="
+Content-Type: multipart/mixed; boundary="===============6553581056074155589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 12 Nov 2021 21:05:11 -0000
-Message-Id: <163675111101.18440.14171954802956188320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 12 Nov 2021 21:25:58 -0000
+Message-Id: <163675235857.31320.6602857934552527458@gitolite.kernel.org>
 
---===============0822333618797572295==
+--===============6553581056074155589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3e067fd8503d6205aa0c1c8f48f6b209c592d19c
-    new: 84886c262ebcfa40751ed508268457af8a20c1aa
+  - ref: refs/heads/for-5.16
+    old: f55af7055cd465f6b767a0c1126977d4529c63c8
+    new: 58da0d84fdd2563939dafa48334e190fad1b536c
     log: |
-         8bb084119f1acc2ec55ea085a97231e3ddb30782 KVM: arm64: Extract ESR_ELx.EC only
-         deacd669e18a51cb2085450c56d851aef72b3256 KVM: arm64: nvhe: Fix a non-kernel-doc comment
-         08e873cb70f30e11e912a93390f1c0c4e65fae1c KVM: arm64: Change the return type of kvm_vcpu_preferred_target()
-         50a8d3315960c74095c59e204db44abd937d4b5d KVM: arm64: Fix host stage-2 finalization
-         501cfe06790651af4470d8ca77f162515867cd4d KVM: SEV: unify cgroup cleanup code for svm_vm_migrate_from
-         84886c262ebcfa40751ed508268457af8a20c1aa Merge tag 'kvmarm-fixes-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
-         
-  - ref: refs/tags/for-linus
-    old: 338c4f65e18710644428bb6cb54c335740fee5cc
-    new: daba5eaca4b74fa0e5bd99715aae4cea9c190ea6
-    log: |
-         8bb084119f1acc2ec55ea085a97231e3ddb30782 KVM: arm64: Extract ESR_ELx.EC only
-         deacd669e18a51cb2085450c56d851aef72b3256 KVM: arm64: nvhe: Fix a non-kernel-doc comment
-         08e873cb70f30e11e912a93390f1c0c4e65fae1c KVM: arm64: Change the return type of kvm_vcpu_preferred_target()
-         50a8d3315960c74095c59e204db44abd937d4b5d KVM: arm64: Fix host stage-2 finalization
-         501cfe06790651af4470d8ca77f162515867cd4d KVM: SEV: unify cgroup cleanup code for svm_vm_migrate_from
-         84886c262ebcfa40751ed508268457af8a20c1aa Merge tag 'kvmarm-fixes-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
-         
-  - ref: refs/tags/kvm-5.16-2
-    old: 338c4f65e18710644428bb6cb54c335740fee5cc
-    new: daba5eaca4b74fa0e5bd99715aae4cea9c190ea6
-    log: |
-         8bb084119f1acc2ec55ea085a97231e3ddb30782 KVM: arm64: Extract ESR_ELx.EC only
-         deacd669e18a51cb2085450c56d851aef72b3256 KVM: arm64: nvhe: Fix a non-kernel-doc comment
-         08e873cb70f30e11e912a93390f1c0c4e65fae1c KVM: arm64: Change the return type of kvm_vcpu_preferred_target()
-         50a8d3315960c74095c59e204db44abd937d4b5d KVM: arm64: Fix host stage-2 finalization
-         501cfe06790651af4470d8ca77f162515867cd4d KVM: SEV: unify cgroup cleanup code for svm_vm_migrate_from
-         84886c262ebcfa40751ed508268457af8a20c1aa Merge tag 'kvmarm-fixes-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into kvm-master
+         9bb4e4bae5a19ca68527392e85ad5ee88fc4b786 ASoC: rt9120: Update internal ocp level to the correct value
+         8f1f1846d78a318c7cdb8268b47a964a3dbc0075 ASoC: rt9120: Fix clock auto sync issue when fs is the multiple of 48
+         dbe638f71eaed5c7b5fbbf03fb044e429c4a2d48 ASoC: rt9120: Add the compatibility with rt9120s
+         a382285b6feda8db56955e5897453405c198048d ASoC: rt1011: revert 'I2S Reference' to SOC_ENUM_EXT
+         a3774a2a6544a7a4a85186e768afc07044aa507f ASoC: rt5682: Avoid the unexpected IRQ event during going to suspend
+         2cd9b0ef82d936623d789bb3fbb6fcf52c500367 ASoC: rt5682: Re-detect the combo jack after resuming
+         8c32984bc7da29828260ac514d5d4967f7e8f62d ASoC: mediatek: mt8173: Fix debugfs registration for components
+         1218f06cb3c6e2c51699998bc17c0d9a41ab37a6 ASoC: SOF: build compression interface into snd_sof.ko
+         2ce1b21cb3326e12af3c72c47e1d294b19d73947 ASoC: rsnd: fixup DMAEngine API
+         58da0d84fdd2563939dafa48334e190fad1b536c Merge series "" from :
          
 
---===============0822333618797572295==
+--===============6553581056074155589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1636751108 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1636751108-f630db5456e48d3541bafd0094574d2f02b5c3b7
+pusher C3F436CA30F5D8EB 1636752356 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1636752356-2a1a52d14886cca8effda15b08f0aaff7648a905
 
-3e067fd8503d6205aa0c1c8f48f6b209c592d19c 84886c262ebcfa40751ed508268457af8a20c1aa refs/heads/master
-338c4f65e18710644428bb6cb54c335740fee5cc daba5eaca4b74fa0e5bd99715aae4cea9c190ea6 refs/tags/for-linus
-338c4f65e18710644428bb6cb54c335740fee5cc daba5eaca4b74fa0e5bd99715aae4cea9c190ea6 refs/tags/kvm-5.16-2
+f55af7055cd465f6b767a0c1126977d4529c63c8 58da0d84fdd2563939dafa48334e190fad1b536c refs/heads/for-5.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmGO1wQUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPRVwf+PcLKFtivpXulYVpCphwdz9ELJXeM
-bdpzceHMepOMdTQW4D3oJ4Ia8Y6yAcRcWxJG0UH6XwK9XqCR8Xl5Xs51yPr+xX9b
-ptLjDT0guA8GBjP8yd4z9/q6jS50h5/uMQgW6bNz5dOc405LyBqTrf6IrA6d9ZZP
-7LdIsyAPJPop7QtVLr+pYnlysrJt0p51FEzUImBOVMiEhiYiSCE+jEQA3vv40epF
-Bn9jSUUguQLhEKXcjZeiOcxkff4naMhUufZJz57Ry6GNjTrC1pvO7kyBXa8oVHVN
-JbIMTIGpFmJ6rT09KPd1+sSI6cwm5V5t4nZQC+l16eQIkBFSqx5y7vf/0g==
-=Nxzv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGO2+QACgkQJNaLcl1U
+h9DD7Af9HN/8guPlvr4Y0UC2WdYK+0CKRKZvFBAtiiDlz/GaFEErRqt2ZPbU/0Nd
+qTEeyVX95wGSTZb0mFVMY4SnEZdQuRBere8pUozVGBrg8LYbDZeVAp5ja76XYpAl
+aySjkSW4xMRANJ46SSUlfGNQBAwT++GNAV7fNc3KkzxrY8QUVo1qM9cvtOKzd+67
+jdvZskudZK0j+4xrTVseJYFLDJYIuz+RIy3ktEFo56lPX8ZKlHaCqSL2n5gnSE0E
+PTqdYoLkaqZIoJQ29DjvhqF16vYUZJI7eShXqdwffuWsb6RBV9AEOUhaNw02EUGU
+/VHhq3BZpCtJHZe+R6UIZMprQ9f+6w==
+=E6uL
 -----END PGP SIGNATURE-----
 
---===============0822333618797572295==--
+--===============6553581056074155589==--
