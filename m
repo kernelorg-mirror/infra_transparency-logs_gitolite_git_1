@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0981180733481145613=="
+Content-Type: multipart/mixed; boundary="===============5784101548203134350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 12 Nov 2021 14:05:43 -0000
-Message-Id: <163672594306.22448.3818319516862320789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 12 Nov 2021 14:06:11 -0000
+Message-Id: <163672597125.30062.2260633566148325422@gitolite.kernel.org>
 
---===============0981180733481145613==
+--===============5784101548203134350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 3bdaf1bbf2145d9e8184fee71f7782675e5871b1
-    new: b4d21defbd19a3912df26362ed10e7717877c10d
-    log: revlist-3bdaf1bbf214-b4d21defbd19.txt
-  - ref: refs/heads/pending
-    old: d7f7e114e23c191c2d47c38d88ca53de2775dad3
-    new: 6625b418e7ddfbc81495afa5e597873a7f58e3bf
-    log: revlist-d7f7e114e23c-6625b418e7dd.txt
+  - ref: refs/heads/master
+    old: 901698ea817292c5d5d45cf6b67901610769d5cc
+    new: 85a314819fcfc66ef4fae875b544b96b417d20f7
+    log: |
+         85a314819fcfc66ef4fae875b544b96b417d20f7 Linux 5.15.2
+         
 
---===============0981180733481145613==
+--===============5784101548203134350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bdaf1bbf214-b4d21defbd19.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a9bb0177f3bb0083dbb33af5d74c3f43f6148f09 ath11k: enable IEEE80211_VHT_EXT_NSS_BW_CAPABLE if NSS ratio enabled
-ebf77978e32b6955c026a65a1bab3b5d04124a3a ath11k: remove return for empty tx bitrate in mac_op_sta_statistics
-9b6d3e13346ed5882c4cefba567f63fc0024320f ath11k: fix the value of msecs_to_jiffies in ath11k_debugfs_fw_stats_request
-2e39bdca44035ce56bb21e69a0c40055360fdec3 ath11k: move peer delete after vdev stop of station for QCA6390 and WCN6855
-9ebf2077085e3bfba11c7649eb9ee80d1bc6a256 ath11k: fix FCS_ERR flag in radio tap header
-2184c9bc91d6f4ce04c4929b0ed9285be5326749 ath11k: send proper txpower and maxregpower values to firmware
-f9d3b8bb0760672d12533db0f5374ea5ec8f3048 ath11k: Increment pending_mgmt_tx count before tx send invoke
-a258e41c04b9ba5e2f65265dad79e760ca0da50e ath11k: add ath11k_qmi_free_resource() for recovery
-c049af56751b0e836e83a953f648bcf8535621ee ath11k: add support for device recovery for QCA6390
-6625b418e7ddfbc81495afa5e597873a7f58e3bf ath11k: add synchronization operation between reconfigure of mac80211 and ath11k_base
-b4d21defbd19a3912df26362ed10e7717877c10d Merge branch 'pending' into master-pending
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636725970 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1636725969-9288cb3912eb667d3dc4ded673a2ce015d778e94
 
---===============0981180733481145613==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7f7e114e23c-6625b418e7dd.txt
+901698ea817292c5d5d45cf6b67901610769d5cc 85a314819fcfc66ef4fae875b544b96b417d20f7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-a9bb0177f3bb0083dbb33af5d74c3f43f6148f09 ath11k: enable IEEE80211_VHT_EXT_NSS_BW_CAPABLE if NSS ratio enabled
-ebf77978e32b6955c026a65a1bab3b5d04124a3a ath11k: remove return for empty tx bitrate in mac_op_sta_statistics
-9b6d3e13346ed5882c4cefba567f63fc0024320f ath11k: fix the value of msecs_to_jiffies in ath11k_debugfs_fw_stats_request
-2e39bdca44035ce56bb21e69a0c40055360fdec3 ath11k: move peer delete after vdev stop of station for QCA6390 and WCN6855
-9ebf2077085e3bfba11c7649eb9ee80d1bc6a256 ath11k: fix FCS_ERR flag in radio tap header
-2184c9bc91d6f4ce04c4929b0ed9285be5326749 ath11k: send proper txpower and maxregpower values to firmware
-f9d3b8bb0760672d12533db0f5374ea5ec8f3048 ath11k: Increment pending_mgmt_tx count before tx send invoke
-a258e41c04b9ba5e2f65265dad79e760ca0da50e ath11k: add ath11k_qmi_free_resource() for recovery
-c049af56751b0e836e83a953f648bcf8535621ee ath11k: add support for device recovery for QCA6390
-6625b418e7ddfbc81495afa5e597873a7f58e3bf ath11k: add synchronization operation between reconfigure of mac80211 and ath11k_base
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGOdNIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G1gP/Appbx0yR3+Wh8ZLSaEl
+N/K2I19ihuNlUter/MK8zN/2Vnk6VwWpAWmfJ+pyCeF2jbwdSMbuWNGDpPCW6DPm
+I2kqIaAKF0e1qn3ZOAcLvXyN895gSLpkjrucGtR69L46v0ECw+G0cev59FTJRViz
+0JPtl69tYPEUSBSLdF4rNCqa3Q6rjDpNo2cQpRBzSjA8BapepkxoIIj1CoLEy8OE
+vm+XlzeFeIAzjdpI/DRaXnpTKaxIa3txL0aYDgp0FVDOJ1wyVG7mhOdoVER8+zLy
+DIdVL7I0ln0C9BF9SKfKoDfYde1V2HqDMJfRgT+pdDJwcOccGTOqvGDt60vKvnRe
+9aJtZsJFE38na4fiINwuIw4SSruOY8dm9jyAbdn0zCqLFnUhnFjZZpwIj0GmHBYh
+TNG3qkp4PT0dBkmJnfOLKOpDRBU8YGsWls/PqpAQaZwM99yFPcd++4Ga7wLuWQRr
+XV+LYU21mrHP9mmaxk405POylAELc/meyIILyjfxY6kfbs3LUEoOIDm8h3p77kp/
+XI1mKsgSDiyBMGq6seJwTyFvzqGvlSrEePnsqN4B1uYmZYWl+w/eRzQZAx69j9wv
+rhEG1GnUhLRfChGtFthqiPIJb9E/LS7AYJ/J8ynIS6hO9dsCa1v/u3z07FHPUA5d
+CB0XNio+3mcRjF4navhVaqxN
+=C65A
+-----END PGP SIGNATURE-----
 
---===============0981180733481145613==--
+--===============5784101548203134350==--
