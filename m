@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 12 Nov 2021 21:58:06 -0000
-Message-Id: <163675428686.18563.2254087236886546143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Fri, 12 Nov 2021 22:00:34 -0000
+Message-Id: <163675443480.20796.10294189563265405649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/master
-    old: 30e7b49e25f7b4d911f5cd3ec24bc00aaaa0af7f
-    new: c06d2d81c94d62e0a3e10857a070406629c9c89d
-    log: |
-         c06d2d81c94d62e0a3e10857a070406629c9c89d Fri Nov 12 09:56:55 PM UTC 2021
-         
+  - ref: refs/heads/cxl-2.0v6
+    old: 0000000000000000000000000000000000000000
+    new: 1baaa9035ca5402561a94b9d322b2edbcba4f249
