@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5921512552531909994=="
+Content-Type: multipart/mixed; boundary="===============4369648421597498534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 13 Nov 2021 13:45:06 -0000
-Message-Id: <163681110613.7011.12594888231595106614@gitolite.kernel.org>
+Date: Sat, 13 Nov 2021 13:47:42 -0000
+Message-Id: <163681126292.7908.8229560495072835332@gitolite.kernel.org>
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,314 +16,370 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 3dcdedbc12e3cbc340646ae12d54c41c200f1f29
-    new: 4007760fd5f6d990db42d91bd6079921bfdf24db
-    log: revlist-3dcdedbc12e3-4007760fd5f6.txt
+    old: 4007760fd5f6d990db42d91bd6079921bfdf24db
+    new: c4c528575801028ed3b9c468f35962fb6adf874a
+    log: revlist-4007760fd5f6-c4c528575801.txt
   - ref: refs/heads/queue/4.19
-    old: 9474d2ad83317af6d4c1870ea84737b24265ae51
-    new: c746fa36253ab0e7008eeb1f57964a39cf47ca55
-    log: revlist-9474d2ad8331-c746fa36253a.txt
+    old: c746fa36253ab0e7008eeb1f57964a39cf47ca55
+    new: 67a29a8d2acc662c33320369bea4e657b7f15d2b
+    log: revlist-c746fa36253a-67a29a8d2acc.txt
   - ref: refs/heads/queue/4.4
-    old: a89facf4f77a2a7b5da45b8a3e23f2eab57e96bc
-    new: 6f0ea6dd2c9057dfe489c01ba2eb8f7b29828a17
-    log: revlist-a89facf4f77a-6f0ea6dd2c90.txt
+    old: 6f0ea6dd2c9057dfe489c01ba2eb8f7b29828a17
+    new: 8ecb4c58619f80146533565a03dbffc4a98a133a
+    log: revlist-6f0ea6dd2c90-8ecb4c58619f.txt
   - ref: refs/heads/queue/4.9
-    old: 2a8b7c4374695db3d3710178f8486b4c81183468
-    new: 96e098b9ac4820575a30c00135fff8dbe816ac78
-    log: revlist-2a8b7c437469-96e098b9ac48.txt
+    old: 96e098b9ac4820575a30c00135fff8dbe816ac78
+    new: bd7faf3ee7535d8a3f5fda09a092be08ac1fed83
+    log: revlist-96e098b9ac48-bd7faf3ee753.txt
   - ref: refs/heads/queue/5.10
-    old: 847877e907f9c5155088e1bdde5df2d287aafa87
-    new: b9d2ad2153e9d262b4a0251f3d940100968ef0c1
-    log: revlist-847877e907f9-b9d2ad2153e9.txt
+    old: b9d2ad2153e9d262b4a0251f3d940100968ef0c1
+    new: 4fe30d752b5ee6ffd9b6ff22f191ea2bcad47051
+    log: revlist-b9d2ad2153e9-4fe30d752b5e.txt
   - ref: refs/heads/queue/5.14
-    old: 4c2f804e807a9ebf5660e07f362a52a12180824d
-    new: 5cc73517d9002b6657a4e94eb097f6f5da1b3458
-    log: revlist-4c2f804e807a-5cc73517d900.txt
+    old: 5cc73517d9002b6657a4e94eb097f6f5da1b3458
+    new: 8e7f2d132b9375d7bd4ba93496c60d371d31bd9b
+    log: revlist-5cc73517d900-8e7f2d132b93.txt
   - ref: refs/heads/queue/5.15
-    old: 4b9f7408625b9d558d39e6bd3e08c444831163fc
-    new: 20131a7a3a20495d67b46859dab6b7bc0a9a5855
-    log: revlist-4b9f7408625b-20131a7a3a20.txt
+    old: 20131a7a3a20495d67b46859dab6b7bc0a9a5855
+    new: 47d09b1fc87d905812b0032d5c58febe22db8541
+    log: revlist-20131a7a3a20-47d09b1fc87d.txt
   - ref: refs/heads/queue/5.4
-    old: 02f192422862ec75baf527617f3179f2f0089059
-    new: 9288003389dc685e09bf111961d1f6cd4741fb19
-    log: revlist-02f192422862-9288003389dc.txt
+    old: 9288003389dc685e09bf111961d1f6cd4741fb19
+    new: 5af0b4682858bac88d63940c6518b7abdd222dcf
+    log: revlist-9288003389dc-5af0b4682858.txt
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dcdedbc12e3-4007760fd5f6.txt
+Content-Disposition: attachment; filename=revlist-4007760fd5f6-c4c528575801.txt
 
-ac62b945e931854e9815c2b313bdaa3601ae4a30 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-57e25ec801e3c87c335e424eee6af50429cf84d7 binder: use euid from cred instead of using task
-870821d9024e69fcd04b65fc0184a4722c4714ee binder: use cred instead of task for selinux checks
-47a6eb23b10b3376b543e8bc98a6733b3ad0d01a Input: elantench - fix misreporting trackpoint coordinates
-7b916092e87a3e20418127fc05cbda241d532d75 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-acdc8f0a706c32f14a9668f3778846ab8d7baf79 libata: fix read log timeout value
-96a29b4acdd065478dc617c33640ec6963e466cc ocfs2: fix data corruption on truncate
-ec0582747b11e0f957ad597916b2895ba0d6316f mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-fd3c0d296ea5a1923dbfbdaecd163f3bb39637b3 parisc: Fix ptrace check on syscall return
-3b1de81148681dd68303bff39db4ee1e52fd7b4f tpm: Check for integer overflow in tpm2_map_response_body()
-03c772ab18f2685267704223e4dc119f0c69e406 media: ite-cir: IR receiver stop working after receive overflow
-f440f99b07600b110fc867e5899adda6b009b42f ALSA: ua101: fix division by zero at probe
-5013885595dc491732930e0032370101bc277c2d ALSA: 6fire: fix control and bulk message timeouts
-d962dcb9539ba1b004c0ff78c8d05a9647c04c51 ALSA: line6: fix control and interrupt message timeouts
-6cc47628593aeb830d9a646c67b88a3336c488b6 ALSA: synth: missing check for possible NULL after the call to kstrdup
-14b656954d395c16bf4368e83295863ca04af2ac ALSA: timer: Fix use-after-free problem
-12d458913869f99a6eadadf8a7288e56338c213d ALSA: timer: Unconditionally unlink slave instances, too
-234812828ee1e200b247e92edb4e763d78fe49aa fuse: fix page stealing
-4007760fd5f6d990db42d91bd6079921bfdf24db x86/irq: Ensure PI wakeup handler is unregistered before module unload
+4c25324586bfc7abac0eff40f0773ce6a07fdb7a xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+8918888e534c1b67c9321105fcc4060fb154ac97 binder: use euid from cred instead of using task
+4306e1a4e46b5d995b609e0d1cd7202a410181a2 binder: use cred instead of task for selinux checks
+aa87480eba645500ba654f0d56453598aeb36eb3 Input: elantench - fix misreporting trackpoint coordinates
+b552b2b37be1fada200dab1ab180059303ecb0b5 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+994ab7bf0da024adcae0716a2a53787124da01f1 libata: fix read log timeout value
+c61b9b98c9a834f34875dee8bed9bf2bbb7d1248 ocfs2: fix data corruption on truncate
+9af1daae051a7489f167c8f01c27a4f02aaa4338 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+9d02cf6de8b789b1603a5125cf97056abac79757 parisc: Fix ptrace check on syscall return
+030fad3a0aaffe09ee1c5d00ba36b04b37847775 tpm: Check for integer overflow in tpm2_map_response_body()
+2b41cbe405712ad39c9df985bd07de7cb3743ba4 media: ite-cir: IR receiver stop working after receive overflow
+b6626340e5b2128849c7828235a6d0ff552fb776 ALSA: ua101: fix division by zero at probe
+82b4f8726741221f9fbbed5187597b51e374abd0 ALSA: 6fire: fix control and bulk message timeouts
+cb6a7ea2400a8766ada7b94a4f8934ac00efb617 ALSA: line6: fix control and interrupt message timeouts
+dc6198faa423ad00e96b024da4db03f71a481da3 ALSA: synth: missing check for possible NULL after the call to kstrdup
+527a3f180812137ebf72aa21fefdc20de810fa17 ALSA: timer: Fix use-after-free problem
+cd0cfae7ea4403b3c16b2ead48aadf0c881ce001 ALSA: timer: Unconditionally unlink slave instances, too
+1b9cac0cb3a88ec3d6b13135a688a96c9bfa59cc fuse: fix page stealing
+c4c528575801028ed3b9c468f35962fb6adf874a x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9474d2ad8331-c746fa36253a.txt
+Content-Disposition: attachment; filename=revlist-c746fa36253a-67a29a8d2acc.txt
 
-b056e1154efef7d9fd26681317c8818ddcd3bf3b xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-8dc51f7261209b5046aee7daf1f073c61b24de26 binder: use euid from cred instead of using task
-dc72b08c4a89ed602ceee651740137a027853579 binder: use cred instead of task for selinux checks
-3d68df0c765b924737ade979782deabab962899c Input: elantench - fix misreporting trackpoint coordinates
-4b6a97540695128bd6037994a89c8496c4265554 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-99c07f0f8e45c99f28fe1c450fa2183afaad0f6d libata: fix read log timeout value
-c322745aab106bf0fc4707b06fccd3f12f7b1798 ocfs2: fix data corruption on truncate
-90f603962991db621a250b36bf1b351764127918 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-ed1a4203e834e1cafc413e0c57d694d09c54a0d7 parisc: Fix ptrace check on syscall return
-aee289ed9be3579bbbb6639a3c2a4b8702b5013d tpm: Check for integer overflow in tpm2_map_response_body()
-e911a51bc77d97f7e02e56b207319d8ccb0d8a29 firmware/psci: fix application of sizeof to pointer
-7eb02b92e3319de3cbd9ea3368540f1cd2f6648f crypto: s5p-sss - Add error handling in s5p_aes_probe()
-1c65d78afc2afe5fa4a256b3bad5e25d75cf0a98 media: ite-cir: IR receiver stop working after receive overflow
-88dc9117c8450181b30252d9a1cc7ed9e98bc78c media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
-c0ea88774811fda8862290f30fee5d54f312bb0b ALSA: hda/realtek: Add quirk for Clevo PC70HS
-292730bbf3e5c048b61f80be2169e8c819b95394 ALSA: ua101: fix division by zero at probe
-dc737416575d679c7a04bceef9f22c71f7860872 ALSA: 6fire: fix control and bulk message timeouts
-b7ac1ea4c8775aae0d24d0d0356f2d56ed5519a4 ALSA: line6: fix control and interrupt message timeouts
-37118c4c11aff5f09823fca0b459d646b7f02a19 ALSA: usb-audio: Add registration quirk for JBL Quantum 400
-87589fa367cf4ab9dad038cb52deec43d691d3d4 ALSA: synth: missing check for possible NULL after the call to kstrdup
-428eab26273eb63178fd81f98aa01c3c8c9238b8 ALSA: timer: Fix use-after-free problem
-9a9982fee67af38c00bf66eecf7bb3697886408c ALSA: timer: Unconditionally unlink slave instances, too
-6cdf6f17c6da6561626f26093508384b618945ec fuse: fix page stealing
-0426bafcd66b799b45f4c56d4e309d003a47dfe2 x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
-c746fa36253ab0e7008eeb1f57964a39cf47ca55 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+e3b82b125a7cfc5220db6e3307947a2add430a0c xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+26e10c276a5b2396eb16ffdf8ab9a1de0ad3ff3a binder: use euid from cred instead of using task
+490616a48f962034c58b89b334bee3ec09c4085c binder: use cred instead of task for selinux checks
+c6062b4d2b07362e841336b69b2f4d6830d0f318 Input: elantench - fix misreporting trackpoint coordinates
+36ba427d53f64fbe2d333464ebf9e865c08140f3 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+e06d8ca19fb75dc2c0d4129a4c51dfea0a6a9f08 libata: fix read log timeout value
+a3ef3cd46cc4dfdb3c04dd3f2a8c284a74574e6c ocfs2: fix data corruption on truncate
+05647f12e403880119805c81bab6883a9d59fb2f mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+032b95d5076308508d0621265f9c48d459970b5f parisc: Fix ptrace check on syscall return
+58a21d0e1a325d250972eae1c5e42851377c56be tpm: Check for integer overflow in tpm2_map_response_body()
+3d7091707a636861a83a606c2b2c50065a29f717 firmware/psci: fix application of sizeof to pointer
+a68d49c3ce0179f85a3ada0ad4ffc6aac71616aa crypto: s5p-sss - Add error handling in s5p_aes_probe()
+2c2b45e9e316b35457aeb6dc3f9b30cb48709b8f media: ite-cir: IR receiver stop working after receive overflow
+01514bb27767c363b2dd37691c2851fc343480db media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
+d17d0f4e56a81086a1ae7f66403871fd94ebcf0d ALSA: hda/realtek: Add quirk for Clevo PC70HS
+150ed9dd198a9369d6c5a2e3f8a70ca010f99dee ALSA: ua101: fix division by zero at probe
+fc6b237601c066167f524ac9ade61b0b8f327489 ALSA: 6fire: fix control and bulk message timeouts
+90031cf3f3569f8c1560bafe523938926f201215 ALSA: line6: fix control and interrupt message timeouts
+012d82563e18e6066f46ee7a92796be2ec763dcb ALSA: usb-audio: Add registration quirk for JBL Quantum 400
+5eefb3b3d65b740b61978d5447af06f28dae38d4 ALSA: synth: missing check for possible NULL after the call to kstrdup
+fc9154c3b3d792dda1e46ad43f32a22708723c70 ALSA: timer: Fix use-after-free problem
+f1b16b524def5ba3c3855d41c4a790b78a2ef8e9 ALSA: timer: Unconditionally unlink slave instances, too
+12804591aba814e5d313d6b04938df0d551c3f78 fuse: fix page stealing
+c22e2f17aeedfdddeaa17f793fb3d02c0ac98e73 x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
+67a29a8d2acc662c33320369bea4e657b7f15d2b x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a89facf4f77a-6f0ea6dd2c90.txt
+Content-Disposition: attachment; filename=revlist-6f0ea6dd2c90-8ecb4c58619f.txt
 
-90a1591b668c280571bbbee18aa5d7262c5d0d37 binder: use euid from cred instead of using task
-88a5b97425108d48c7c27e411ed2de64a4e800fc binder: use cred instead of task for selinux checks
-1ca8e86709711c4d40d490d702021e77b4024025 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-fa8d10189311164e0f276a87c34632793e984bca Input: elantench - fix misreporting trackpoint coordinates
-ee2805b17066d39784c71e2f0e180760f447dc48 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-2ce22b474e9e88b4208972dad4d882a12704be24 libata: fix read log timeout value
-d13ba7e57eea516a2fcd7edbdadffbf0a2666a89 ocfs2: fix data corruption on truncate
-14aaee316c7feae1beea63ecbde74029f854eff5 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-044a29bfaa4daa6baafb9ec98810cd099de957bb parisc: Fix ptrace check on syscall return
-e87ea73ec80d335f06c86540347d524fda60635e media: ite-cir: IR receiver stop working after receive overflow
-e635d2ee1011fc0a0dfb0d7b8ccaeec961b30fe6 ALSA: ua101: fix division by zero at probe
-ee2db85bc4de5d1697cf5aaaf301e91c35f4c8ed ALSA: 6fire: fix control and bulk message timeouts
-080c29ba4f23e0fab82409bc2e6b07a27c27aaf9 ALSA: line6: fix control and interrupt message timeouts
-785e06f494c8c82393f12ea4bb075989163b60a7 ALSA: synth: missing check for possible NULL after the call to kstrdup
-a6811b65e851686fba66fa17df41f47fd57bb29c ALSA: timer: Fix use-after-free problem
-470b7012a24031e6cdfa684ed85adfbe6e0cd9aa ALSA: timer: Unconditionally unlink slave instances, too
-6f0ea6dd2c9057dfe489c01ba2eb8f7b29828a17 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+c62379e76f11b127761b6624243911f5dd6c24fa binder: use euid from cred instead of using task
+49a70c0bf885393745c13a993016ab279cfdd5b4 binder: use cred instead of task for selinux checks
+6c0abb001262fa0699e76a820dc35fc8bc858f92 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+683895407892bef8a213070462000af3ce55c43f Input: elantench - fix misreporting trackpoint coordinates
+219897e81ce5c38c86c8134098577fba85a90751 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+bf0f8b6d8ea8d2616c1b3961ff1d851bd26f8ce4 libata: fix read log timeout value
+68fdaf8085f0b12a5cd2b99b8c9acf7d54f4b244 ocfs2: fix data corruption on truncate
+419999ea2c6f05c940ecbb3827cc6a6696af0c5c mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+f2c537882870547fa3994abf93128c266be3e5c5 parisc: Fix ptrace check on syscall return
+01824bc52f12ebf4eeacb441199e2649c00759ae media: ite-cir: IR receiver stop working after receive overflow
+1d10ab733f15eb5a5c066b5ed530ea32e3fe01ee ALSA: ua101: fix division by zero at probe
+a6c035ee0ce032e2fb62288ebfaba9f3c8b3d6f9 ALSA: 6fire: fix control and bulk message timeouts
+6019717c50d96e35b92a99e152806fc6a8bca55a ALSA: line6: fix control and interrupt message timeouts
+befe3eee6548a2dda4398c8ac0c9e608f7f79fb3 ALSA: synth: missing check for possible NULL after the call to kstrdup
+f1522df5548f7090eaa0870627090692c88e1ca8 ALSA: timer: Fix use-after-free problem
+a1ce474b474a54decee87fb1bd19bc98610b112b ALSA: timer: Unconditionally unlink slave instances, too
+8ecb4c58619f80146533565a03dbffc4a98a133a x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a8b7c437469-96e098b9ac48.txt
+Content-Disposition: attachment; filename=revlist-96e098b9ac48-bd7faf3ee753.txt
 
-1f6b2d824d94016d43d9d8e122fb11cfc4b132e1 binder: use euid from cred instead of using task
-69912954c2b014ab1af4e5e715ce59c243ce0045 binder: use cred instead of task for selinux checks
-2073a51dba5b20c56da189ade0f26b50429a04fa xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-446eabdd039382acb305115c3f0e441d4b071161 Input: elantench - fix misreporting trackpoint coordinates
-d0ef8534328c3501571244d05cc16193022f905d Input: i8042 - Add quirk for Fujitsu Lifebook T725
-4c1bdb46be4f50e4a62be521fd1156b549d14996 libata: fix read log timeout value
-3ef3b8df2b9904cabf811af7fd140586a8acf283 ocfs2: fix data corruption on truncate
-a75dd2254a9cd9d3c86fb79f1b020f9045658364 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-1547907840bccfdadefa93643cb44838ffc188eb parisc: Fix ptrace check on syscall return
-b0bc1abc39018677211338511f381c520d98a995 media: ite-cir: IR receiver stop working after receive overflow
-24ae9308533012e69e8b256348e128c665e18e97 ALSA: ua101: fix division by zero at probe
-aede7b8a2d441ba41e00f0680df9aa20707be423 ALSA: 6fire: fix control and bulk message timeouts
-75879c3ac4868b016088db86b77341c96710271a ALSA: line6: fix control and interrupt message timeouts
-2392f2fa477d47eb6e3ba81493bb8bac74094194 ALSA: synth: missing check for possible NULL after the call to kstrdup
-a108e48e885d52d8eef4f073f0f02d90504ca571 ALSA: timer: Fix use-after-free problem
-c96b27c47b4dfd45494e14c9e40664f99c04b861 ALSA: timer: Unconditionally unlink slave instances, too
-dec23cc73677b331bdc0f1f94140a5020897c3d1 fuse: fix page stealing
-96e098b9ac4820575a30c00135fff8dbe816ac78 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+46042011bdd711e7d36e8372160d60b9e6226a5b binder: use euid from cred instead of using task
+2b281ca83dc00269fcace8a13c5c54a3aeb5ea28 binder: use cred instead of task for selinux checks
+8ef31e67c8278ffd507bf78ad82271ca73781276 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+0e30c2b727ea8526313d44db36d11e53d296cdb9 Input: elantench - fix misreporting trackpoint coordinates
+9ae6a15d8fafaf8ed6ed4e3c49d8064154a8c3a5 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+2736df13dd615924ec9510155749a638d2909b07 libata: fix read log timeout value
+7cd03411102153dc7120b1a7a5a3c8891111676c ocfs2: fix data corruption on truncate
+08a4d1edb81b6da5ba6c360b3a878a989c7b84db mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+eef2ae2c1eec9bc76e570c7b7c7d19e7152420da parisc: Fix ptrace check on syscall return
+86468a9db7ab80bda2fe001607c4b1bed108f156 media: ite-cir: IR receiver stop working after receive overflow
+675365298214d810db66ae9ebe373017ae76dfd9 ALSA: ua101: fix division by zero at probe
+b68eab76ae0765fa87dc1de3bae85b962f9866ee ALSA: 6fire: fix control and bulk message timeouts
+c161c7d3a4fc644b1f9bca995a90e770b0e6786b ALSA: line6: fix control and interrupt message timeouts
+ca1b35cb48caa36b252e46fc5d4273afab751378 ALSA: synth: missing check for possible NULL after the call to kstrdup
+df99ddb675d265eb92a92665b62e2c0e6c2dd59e ALSA: timer: Fix use-after-free problem
+6e7bb6dcc5c9a55d162873179c537eb7fe60804a ALSA: timer: Unconditionally unlink slave instances, too
+2aa46c1715195c1cb543e5219ef13cc456110fb3 fuse: fix page stealing
+bd7faf3ee7535d8a3f5fda09a092be08ac1fed83 x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-847877e907f9-b9d2ad2153e9.txt
+Content-Disposition: attachment; filename=revlist-b9d2ad2153e9-4fe30d752b5e.txt
 
-083655c878509ba53da694b9f274764299185041 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-f387ebcb14c1c95b12f73f25f99df13de6e62eb4 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
-3bdc64ef07d1272ee42196eee308077e94c4f2a7 binder: use euid from cred instead of using task
-78eec920b2f634dc9e7d39c28b8213408757b55c binder: use cred instead of task for selinux checks
-fdadcbb15e6c3cc6aa3f9994a5703bce49f4d423 binder: use cred instead of task for getsecid
-b60bade17df4505b725ef404e93d43130b9d4ba7 Input: iforce - fix control-message timeout
-c439f8d7c1120dc7e20ba3de1e5129e02d532bad Input: elantench - fix misreporting trackpoint coordinates
-304e1edc458eaec7413ced78a2e2874f93ee8fd7 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-9f8f44b26d2ecdd4166cf21c9ef1dbff534a0059 libata: fix read log timeout value
-fe8b62423cc83a298ee34429345263adbf57e766 ocfs2: fix data corruption on truncate
-a32b3a06b13c551515e62b7f0ad54840fa510ac3 scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
-7bd87456d768f544755ef849ada9d992d5cb0bd8 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
-d01e9bf7c90b07d614606bd06b5ac16cfce8c46a scsi: qla2xxx: Fix use after free in eh_abort path
-130bf3831de51847035f28a27f093493df9043a3 mmc: mtk-sd: Add wait dma stop done flow
-e3468ddda880d3df4a461b41fd625ab03414474b mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-b11089cb0082f7d2b3153ec603982a9434f04c17 exfat: fix incorrect loading of i_blocks for large files
-2d9c4dff5c6c058d8eb09570c26b5ec1cec94831 parisc: Fix set_fixmap() on PA1.x CPUs
-80a6e22db413a0311277beeae1b3f9bf57284af1 parisc: Fix ptrace check on syscall return
-f9f635c041f093a154ca7ab7d37df8a426e26767 tpm: Check for integer overflow in tpm2_map_response_body()
-e3556e4696de366eae6a54126b21b7b55a2c0c31 firmware/psci: fix application of sizeof to pointer
-233b7474f9d5efe5c59c1d865c176b196003514c crypto: s5p-sss - Add error handling in s5p_aes_probe()
-85d0ca25ed4e7b4aa373ab73922c57340e62b933 media: rkvdec: Do not override sizeimage for output format
-3d479877e1b06e77619c52a3058588b1172d6caf media: ite-cir: IR receiver stop working after receive overflow
-d037a167a899dd323b45873a5d400889aec81c1b media: rkvdec: Support dynamic resolution changes
-cf5dfc84e912b34468c6c92c38e582e2bd08dd47 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
-7f887e5007a120af1bb8eeaa8b3f63b994500fe3 media: v4l2-ioctl: Fix check_ext_ctrls
-871abf4ab58ffad93a3bc6faa37ca686d5a84304 ALSA: hda/realtek: Fix mic mute LED for the HP Spectre x360 14
-6b31a8a24bb3ab0e055adeb543a1005d6268516a ALSA: hda/realtek: Add a quirk for HP OMEN 15 mute LED
-0c041055f28c8d1bd47fce6837e1999c289e6fbc ALSA: hda/realtek: Add quirk for Clevo PC70HS
-6cd4267c5497136f8fb68c32fc2fa825ef5ad786 ALSA: hda/realtek: Headset fixup for Clevo NH77HJQ
-697fc9b40464835c121f3a329a44e5fcee0a465f ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
-87578dfa85c51c9402cdcade613d8e3cadbaf680 ALSA: hda/realtek: Add quirk for ASUS UX550VE
-39edfd6f946ae28bfa75190af825e0f6b8104e0d ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
-3fda32f722bb849736f8397ed92a79ea53ffc319 ALSA: ua101: fix division by zero at probe
-9e2a496aad42ac34f38a395d28f6a2fbb5a884fe ALSA: 6fire: fix control and bulk message timeouts
-a08d5582b6293e71fc2585b1c7f03e51641f4426 ALSA: line6: fix control and interrupt message timeouts
-1e21f0eb9d98ef23d511f7c53431e7ba1f05e48e ALSA: usb-audio: Line6 HX-Stomp XL USB_ID for 48k-fixed quirk
-32cbf70291e5d8f971e75d48abf2a42db4888c77 ALSA: usb-audio: Add registration quirk for JBL Quantum 400
-a592c7ae052110d30b6a1e91b52164c4b886b4f5 ALSA: hda: Free card instance properly at probe errors
-1d31e25c626fefa2a13bec48de88972e16a2892b ALSA: synth: missing check for possible NULL after the call to kstrdup
-b7bd9217818fe1553b9f0b456f7e3095840839ab ALSA: timer: Fix use-after-free problem
-fcb6af8fb07bee2e72bb16086adc284c46cfe86c ALSA: timer: Unconditionally unlink slave instances, too
-f39ab5c04f8d653f2fff36acb7565fd87ec66e47 ext4: fix lazy initialization next schedule time computation in more granular unit
-095f60335f130e80d0657d96fd63ae9fd8ea673e ext4: ensure enough credits in ext4_ext_shift_path_extents
-01517b2aced4385becf24611700ed50a3eb98f33 ext4: refresh the ext4_ext_path struct after dropping i_data_sem.
-63ce9792937e7005e829d22984a8f94e7b6cde36 fuse: fix page stealing
-39484e4431a260587ea4741c10e80d5cb1036404 x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
-c94a3ad7b77118dfe3ddda66f00d78175b99c469 x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
-b9d2ad2153e9d262b4a0251f3d940100968ef0c1 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+6327ee06195b599cfb8231e03941df7e0aecd08e xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+d4ef525ef93f7e5daee8706ddfc9479839d79ae6 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+0deeb66e08b35926aebf7949bc49e5a63570aea3 binder: use euid from cred instead of using task
+e8e4c78d1996662e60b2946022cff21048f51c9e binder: use cred instead of task for selinux checks
+14e522b72a82abd0bdeefcf69efaad12a01a4d29 binder: use cred instead of task for getsecid
+bf247f5e099e256263ff7fa5e4d143dd9f0f441f Input: iforce - fix control-message timeout
+168e9bf867d3164806ce353aa58c8dbdf7b7d977 Input: elantench - fix misreporting trackpoint coordinates
+d5871f8cd1871ebadf84843235e9d611766b1cfe Input: i8042 - Add quirk for Fujitsu Lifebook T725
+607de0358682dd9cb70047437eac5c3ee58013c6 libata: fix read log timeout value
+c04e5d369551134fab0fcba201f85b5b3329b033 ocfs2: fix data corruption on truncate
+5a20f306d3061ea308385bf8aacdc7285e95f916 scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
+532486a1271ecd2c084d8f04a7de7023a3e5839f scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+1b5a4dabbde74d1ff32c926764ceefea7050f732 scsi: qla2xxx: Fix use after free in eh_abort path
+0ad312cb2f36c8deb1eb0d6bfe9dd3bd5482c058 mmc: mtk-sd: Add wait dma stop done flow
+3e9b7198d4a65870aa7f986213180bc9bf1c0c06 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+d2a046ee9f80adfecc6315120311e002cb599c01 exfat: fix incorrect loading of i_blocks for large files
+b2d4ccaf617b7a678ccd217c71764f4ffedd1ad5 parisc: Fix set_fixmap() on PA1.x CPUs
+142f5d6ad5c664dea85c41978316a04730f5f865 parisc: Fix ptrace check on syscall return
+c5cfbab6fd93ae985f55650c973e069189f52d49 tpm: Check for integer overflow in tpm2_map_response_body()
+25673214376efb1c5bed92928bc7bb8b66e49224 firmware/psci: fix application of sizeof to pointer
+60f43446fa07d2393b85bce796c5e072b93d4acf crypto: s5p-sss - Add error handling in s5p_aes_probe()
+45ff2fd5ba84e7dd74af30763545c45daa496aed media: rkvdec: Do not override sizeimage for output format
+3fedd30442874ef8e5ad5204486d4590c8981730 media: ite-cir: IR receiver stop working after receive overflow
+32f8f6eca4c68ca526ce644b671f1ee1af71685a media: rkvdec: Support dynamic resolution changes
+3f9796dc870e80aeb49582e14e28fa28c766c1b9 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
+838657d1460a001b48b6499dddaddfbb5c338fed media: v4l2-ioctl: Fix check_ext_ctrls
+0f04f7337bba37938488cc69f423c7c9563bbbd8 ALSA: hda/realtek: Fix mic mute LED for the HP Spectre x360 14
+6d67e768ed54364e624f42421babf07e8a72fe43 ALSA: hda/realtek: Add a quirk for HP OMEN 15 mute LED
+727dc2430ddd8652c5db0873c7834bae28b8e992 ALSA: hda/realtek: Add quirk for Clevo PC70HS
+7c502ca8b4eec3dac3128a583aeb958703025eda ALSA: hda/realtek: Headset fixup for Clevo NH77HJQ
+e5d9b78a441a14b5979ab7561b8080ae5c765ca1 ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
+82a14e01464bc5452f0dc52221917734430c1f3e ALSA: hda/realtek: Add quirk for ASUS UX550VE
+e812f49143b8fe4980ea17f9e83822cf69ab0591 ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+3665e8d1ad5a688b829829f645e87f1b7100c90c ALSA: ua101: fix division by zero at probe
+54c53b788cb300bb386af3edb8cbe6a0659a2893 ALSA: 6fire: fix control and bulk message timeouts
+88a51fab29dd024733b284fe7be441e5a02da680 ALSA: line6: fix control and interrupt message timeouts
+81b64354093214697da6d16847c50751b56af29b ALSA: usb-audio: Line6 HX-Stomp XL USB_ID for 48k-fixed quirk
+96144b83c11f3118a32c176edab0b2f17b52d6ba ALSA: usb-audio: Add registration quirk for JBL Quantum 400
+bc3b63962209b0c79d82b7cf47a4e6ab7d19d2df ALSA: hda: Free card instance properly at probe errors
+67e9efe6cbc328a0db19f643974d0b0f63ef2a34 ALSA: synth: missing check for possible NULL after the call to kstrdup
+37ccfcf9e5254ae7dd3f4d1e03ebeeb83a813832 ALSA: timer: Fix use-after-free problem
+3518307ced42071fa5ba811c50e99bf0a4c90cc2 ALSA: timer: Unconditionally unlink slave instances, too
+6086cf2a3b0b33597b54edd84433e553b4e65e0f ext4: fix lazy initialization next schedule time computation in more granular unit
+5b13a87d631126fbfb39c340a25ae30f28ffcb57 ext4: ensure enough credits in ext4_ext_shift_path_extents
+e0056a5d4dfd5598f203ae8351bb6fdc4c9d0fef ext4: refresh the ext4_ext_path struct after dropping i_data_sem.
+12661c2299cfc908958d10877e760e9e2e32e3f9 fuse: fix page stealing
+5a11bada81939914af18030b414765373d2616ab x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
+f279d0ea78f11028d58bd812a3cd1ce6fe6bc195 x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
+4fe30d752b5ee6ffd9b6ff22f191ea2bcad47051 x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c2f804e807a-5cc73517d900.txt
+Content-Disposition: attachment; filename=revlist-5cc73517d900-8e7f2d132b93.txt
 
-f8807ea02f131bc0dbaa59a50fc407339c37f938 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-d3c420cc6822b508be6a58880e372afe570f2189 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
-a72714795e62c11debe1360bef91c27b5cce4082 Input: iforce - fix control-message timeout
-2c2b941f2239c2cdc94ac5886551aa89918cc230 Input: elantench - fix misreporting trackpoint coordinates
-4c88ef998b31a0a3dcc2ff933c1d3738d2f15b00 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-489ac7dfe2a180e447301ab893cb8c670583a85b libata: fix read log timeout value
-b374f1fa3edf2942687a8e05a8d534ef2837bbc8 ocfs2: fix data corruption on truncate
-e1597d7ae1b56f32f7dee253e5cb073a67858c31 scsi: core: Avoid leaving shost->last_reset with stale value if EH does not run
-1a920b5cb2a796261ed86cb0472a26fb3f018cde scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
-988d5850cf2243536b628ab015873b831112dc7a scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
-d6a6faae54f6c39fa8b336da05e325d9279a3b88 scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
-6208a2d7a1fa53452dfd5f32ecd8bb8482ba16aa scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
-db2f9d0cb0df0ddc5a283a3b70a3ab294cdc70e1 scsi: qla2xxx: Fix use after free in eh_abort path
-39df4eff7a62e064805f999aaad6398c58dc09e8 ce/gf100: fix incorrect CE0 address calculation on some GPUs
-319434725368d40d15a36628a56a84286a59ad93 char: xillybus: fix msg_ep UAF in xillyusb_probe()
-6e8182a6d7d45cf2627ef9b99a23c5cbf952ea34 mmc: mtk-sd: Add wait dma stop done flow
-a35b1a2d6f244c9e6e3d02a9cdee4ec16dc848d2 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-3b5164ccadd2c175465e097f8f520507229d9e2f exfat: fix incorrect loading of i_blocks for large files
-c1aa5961b32af47bc54df3bca6166a271a23b100 parisc: Fix set_fixmap() on PA1.x CPUs
-fdcfeb0365c6a39f4745706696d141e906a12cdd parisc: Fix ptrace check on syscall return
-6214bdc92a54069436482e5708802866632a1695 tpm: Check for integer overflow in tpm2_map_response_body()
-5cb2cd1116915b414da9e4d4494cc6e3efcb9e26 firmware/psci: fix application of sizeof to pointer
-22029867a4316a0010fb8c2df89b1423c05e9560 crypto: s5p-sss - Add error handling in s5p_aes_probe()
-9acf35de945e1155584db7ef51199d1a1b2a411c media: rkvdec: Do not override sizeimage for output format
-cf8f6b0b11f5f239f751d80719575daccf636c2b media: ite-cir: IR receiver stop working after receive overflow
-3bdcf894e74da2726ac54ba48d9614238aec98a0 media: rkvdec: Support dynamic resolution changes
-7574f4833890d59171757bef530d24b6d0c0b160 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
-5cc73517d9002b6657a4e94eb097f6f5da1b3458 media: v4l2-ioctl: Fix check_ext_ctrls
+b58d1d510e3588f1fe8e274bd4a49ae142700b74 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+ab8993fd9cca526280c4330dfb62e8494006f0c2 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+2c82294505057aba75f27e8f0f762dfec961cff8 Input: iforce - fix control-message timeout
+a2b137acfb610e927dc5e750d4d6f40a3a12de32 Input: elantench - fix misreporting trackpoint coordinates
+ba057142b16e8e8564ba36c75b1ce34c81278a7d Input: i8042 - Add quirk for Fujitsu Lifebook T725
+d6d0446571b66f47cd33296640d3acae3d08bb42 libata: fix read log timeout value
+39b6a0bfc37464b504d783d9379082caf9bd23f4 ocfs2: fix data corruption on truncate
+949c8fc69e0c948e77aa248d10a11750c0d1a5af scsi: core: Avoid leaving shost->last_reset with stale value if EH does not run
+73c3d0ea0bc479f0e176946e9c88934a4602cd83 scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
+401fff296bd6b22f9d8eb1a5352b79b36554979a scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
+6c1eb599ac5d40b30e8444d80c5a3d9388a51225 scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
+b53099c068ff64b341de3493ce1a494e7b076263 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+9f6afaeb21b235c737d0be71888c8d684d96de92 scsi: qla2xxx: Fix use after free in eh_abort path
+2c9b25f145310e891454458124fe1639d87f78e5 ce/gf100: fix incorrect CE0 address calculation on some GPUs
+4861308728677cae0480252e2101a1f60396da2d char: xillybus: fix msg_ep UAF in xillyusb_probe()
+4ba625ade15ab14ffe59064cfce112b0c4ac7e06 mmc: mtk-sd: Add wait dma stop done flow
+c3ef8002a29ad0ce2094632e63a929ffdc5208af mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+63d097b08b502370ff81a5b55721001406864ccb exfat: fix incorrect loading of i_blocks for large files
+3254ede9dc35764ce3c907f8021d85e84bcddc96 parisc: Fix set_fixmap() on PA1.x CPUs
+4773f5f5ba32cf9ebefd5dbb5d3f2444b27ff90e parisc: Fix ptrace check on syscall return
+0ed934530e9f28582fa27c9e28d42462045b43e7 tpm: Check for integer overflow in tpm2_map_response_body()
+0a09683db2074c0631886d05790325c5a963d4b3 firmware/psci: fix application of sizeof to pointer
+3966c97c782caf03f3996512ea559b8a2db225af crypto: s5p-sss - Add error handling in s5p_aes_probe()
+abd3a844d22d3b1389f610a01a759f561bb70aa9 media: rkvdec: Do not override sizeimage for output format
+08a2168f7eae3e2a7b18333c129ba08ae3e5e325 media: ite-cir: IR receiver stop working after receive overflow
+5b2090e9d67ec13129b41a90095689ead58e3928 media: rkvdec: Support dynamic resolution changes
+218a10c6bca2ee4581de5e1b1a075debdac7dcf5 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
+baed6396ad932455cc1c970e3552162d245aa79f media: v4l2-ioctl: Fix check_ext_ctrls
+8d6bcf0430b6ac1eca46e6449460881a2e839e71 ALSA: hda/realtek: Fix mic mute LED for the HP Spectre x360 14
+529e9b201709b76718d2bb7a3c2c2011ff876cbf ALSA: hda/realtek: Add a quirk for HP OMEN 15 mute LED
+0458a3087b3b51408d15189f48302195a7281b79 ALSA: hda/realtek: Add quirk for Clevo PC70HS
+1634995154b1095b05fe4db5e19c0fa52b961d9d ALSA: hda/realtek: Headset fixup for Clevo NH77HJQ
+2e28c1839f3377821cd95e0d80cef7bcba1c970a ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
+9e45cee4835f5699802f8ebd539aec13478cc0a9 ALSA: hda/realtek: Add quirk for ASUS UX550VE
+00b5efaaecd83235fdb1a67654de372b7cd4c596 ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+26cbf4c1af500e1fdd5500234bb0be3ff581b4a3 ALSA: ua101: fix division by zero at probe
+186b0229eb6c2208e3605aeb91d4a1295c738c9d ALSA: 6fire: fix control and bulk message timeouts
+4c78ecc1ea159c4c6800b17ff6c5de219d59418e ALSA: line6: fix control and interrupt message timeouts
+cd6af4fdf6f53be2812b6c95b2e704fbe1fee26f ALSA: mixer: oss: Fix racy access to slots
+ebf3b3c322fc04263aabb87071e548bb876cf56a ALSA: mixer: fix deadlock in snd_mixer_oss_set_volume
+9be1e8ecb171b127d1f150cfa1b1ccd26387e0ef ALSA: usb-audio: Line6 HX-Stomp XL USB_ID for 48k-fixed quirk
+97b6dae6726d2f54b1b8f69c9bbcf10b738ad8aa ALSA: usb-audio: Add registration quirk for JBL Quantum 400
+58d45d855aeee877c6a4c7ac255dca73e2aaeceb ALSA: hda: Free card instance properly at probe errors
+2d779e36e41b21a450537b6065c06fdebd2098d6 ALSA: synth: missing check for possible NULL after the call to kstrdup
+a3bbefac95d41614d60534482788df76fc7901bf ALSA: PCM: Fix NULL dereference at mmap checks
+ed2dea913df4a16aa208698b214d8c2eff9ed355 ALSA: timer: Fix use-after-free problem
+dfa6807e18df08b8006bdb830a28c4b624d3f70a ALSA: timer: Unconditionally unlink slave instances, too
+3da2e86778bb3234f659463745706f5c8a23c45c ext4: fix lazy initialization next schedule time computation in more granular unit
+14e414da16f2906e39affe017c7979fe0eb4a03a ext4: ensure enough credits in ext4_ext_shift_path_extents
+2edf8645c0d7a5ba1b0bc62928390ef9072eb4eb ext4: refresh the ext4_ext_path struct after dropping i_data_sem.
+45589534e6f72046cae544492e5349f22b3d1d8c fuse: fix page stealing
+96c011fbe3889268af88f95072333ebbf566cb3f x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
+e5bcb4118f02d96987e7ef5b6c2b0b9c4463c42e x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
+cc0253977a0742f79f70b6d498ecf9685315fba9 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+8e7f2d132b9375d7bd4ba93496c60d371d31bd9b x86/iopl: Fake iopl(3) CLI/STI usage
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b9f7408625b-20131a7a3a20.txt
+Content-Disposition: attachment; filename=revlist-20131a7a3a20-47d09b1fc87d.txt
 
-449b80d3c5fdcb392a30d3594b432e28c4a24a27 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-1136f102b5640b892b4d37040b4aa717fe74f379 usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
-805094dd82cfae2216a97e4470e61bdc140c2b88 Input: iforce - fix control-message timeout
-8153515cebe847dbe1e2517231d4f15ce95857a7 Input: elantench - fix misreporting trackpoint coordinates
-fd13407525c9b160997a6e37e8e480140f55feec Input: i8042 - Add quirk for Fujitsu Lifebook T725
-59d994d2e0e655e426280bbbd475814661279284 libata: fix read log timeout value
-de23c0e4fc972c2e0dcdfbcb0198b394d1e97074 ocfs2: fix data corruption on truncate
-50cb433ede3b3fc7ca33ebab49cd6a5905778400 scsi: scsi_ioctl: Validate command size
-c4b5a4a1aeca8f9d19163e423753ef961d58fd5e scsi: core: Avoid leaving shost->last_reset with stale value if EH does not run
-20a3a1911ff2eef21956d12b68f201ba35c16029 scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
-c094de49ab8b89c150c7b60ae61c955e7de8b2aa scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
-75303ed01fb5c44479cfd882f95491fe471ab985 scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
-e1427df379c46be5d4a6780efe368373913c28fb scsi: qla2xxx: Fix crash in NVMe abort path
-a3579a591b8bb4c17f1f1edf332070e013791dfa scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
-d8d8a35139292b96910d65cae3747aec0138c796 scsi: qla2xxx: Fix use after free in eh_abort path
-3b6b6bf4459573bcab5eba5b8869ce651fdf3464 ce/gf100: fix incorrect CE0 address calculation on some GPUs
-c8ea1e4c1df0af2fc984aa4568a156282052dda7 char: xillybus: fix msg_ep UAF in xillyusb_probe()
-da19c2bcf6f257788bdda825b73137d9cb8e3450 mmc: mtk-sd: Add wait dma stop done flow
-cff82e80aef625220418ff8706e24cb5c7135267 mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-a87cb249aafab5b011908863c9a91b369af6ece1 exfat: fix incorrect loading of i_blocks for large files
-aa14f12193e6870052fd8560d3b8c8b9a76254a0 io-wq: remove worker to owner tw dependency
-c083b7fde200a974f7534c8f301935b769824d5f parisc: Fix set_fixmap() on PA1.x CPUs
-8e6bc4e4cf835ae4bf629d3e63d73b2a3a340b75 parisc: Fix ptrace check on syscall return
-6c9a336d90a0b38f15583db0fe154eced7902b7b tpm: Check for integer overflow in tpm2_map_response_body()
-438db0024a929295e7f3c3f851f8b16a3c994563 firmware/psci: fix application of sizeof to pointer
-e98bd678456acf23f48d680c27607f05c590b98a crypto: s5p-sss - Add error handling in s5p_aes_probe()
-032d08d1c9f4e858c5c1ba328055913b8df10450 media: rkvdec: Do not override sizeimage for output format
-c08cc7582f5316c0adec9fa70d2dfeb9cf53bbe1 media: ite-cir: IR receiver stop working after receive overflow
-1aede75ebe7c536bce3c9c2189ae58e1a3bac462 media: rkvdec: Support dynamic resolution changes
-0fec9e28bee14de2b0ea6754d7d366e9ebdda70d media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
-20131a7a3a20495d67b46859dab6b7bc0a9a5855 media: v4l2-ioctl: Fix check_ext_ctrls
+98860a9076e5ed618fec6b0ad002274cf8f0e10f xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+de27bded96ff5e7a3f18ae783b35f94ee812ea3e usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+b90ee4442d87efe7badd8e067f15ba5e0ca44f99 Input: iforce - fix control-message timeout
+73a450f0648c656e21b5c7be8d72639425e675a3 Input: elantench - fix misreporting trackpoint coordinates
+3d1006c1ae0b14cd95bfc024895c22f498531c92 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+012b74eb3bcba0abb057142b08fd668fe2f33037 libata: fix read log timeout value
+226f962749cabf6c476343b127e56448d8bfa864 ocfs2: fix data corruption on truncate
+35c3313fa1b8dbf4c1538321812edbd83f55880b scsi: scsi_ioctl: Validate command size
+ecd9fb8649c1f916394019382f38407da9ee57f1 scsi: core: Avoid leaving shost->last_reset with stale value if EH does not run
+f83b0905f33da4851fc7f4fc091fc763609bbb8b scsi: core: Remove command size deduction from scsi_setup_scsi_cmnd()
+2402efc4fe2a271f8089a79c7db5c417c43d3985 scsi: lpfc: Don't release final kref on Fport node while ABTS outstanding
+3e38c8503c429e8c5f3167ef7dc19d75c33504b4 scsi: lpfc: Fix FCP I/O flush functionality for TMF routines
+5bfcb3dcb024562a6e85aa2aaafb8e4d18bbdbdf scsi: qla2xxx: Fix crash in NVMe abort path
+1566f7bb2a6101f9c875d9d1b20a478d73f95b93 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+70a2dd3935948f7fe82790c73097de96b1f7af74 scsi: qla2xxx: Fix use after free in eh_abort path
+11b5c605cd9be057b4596ce3435c3b280b4878ab ce/gf100: fix incorrect CE0 address calculation on some GPUs
+95ae2b01eb706d5dc83e39cd3c8c6a7383668901 char: xillybus: fix msg_ep UAF in xillyusb_probe()
+eceddd87b6a7440fdf52b9c7d82ba90115a37571 mmc: mtk-sd: Add wait dma stop done flow
+99aa7f9e0872515a26722a494ea2888b659d60fd mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+6d5d38c3e9b2ffa5492460fda39fb6e711095a7e exfat: fix incorrect loading of i_blocks for large files
+b8b218ebf984b9215249875f17367348fa30213d io-wq: remove worker to owner tw dependency
+43df749f595957c30c5e423873e43885150d3b9e parisc: Fix set_fixmap() on PA1.x CPUs
+d059aac5f2fd8a8f86b31e0e0b1fe23a18a9728f parisc: Fix ptrace check on syscall return
+02611284fb74f2ad85e9a0cabc48ae1233b4ed5b tpm: Check for integer overflow in tpm2_map_response_body()
+8af1ba8b7cd55a0f9109c62b2e3fa165d68e0bab firmware/psci: fix application of sizeof to pointer
+3f5e7aec22de9d7395108b67fa366d8f06f43807 crypto: s5p-sss - Add error handling in s5p_aes_probe()
+9698b548e3dd144a7ef5493636716cc57a00e09f media: rkvdec: Do not override sizeimage for output format
+be377e2047e93a7d242a9ae7b17ab0ae6f77163d media: ite-cir: IR receiver stop working after receive overflow
+34105e6062d1080700422322c7cd395dd1dc300b media: rkvdec: Support dynamic resolution changes
+61feaa43c0052edc33a107109e65339a364445eb media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
+20eba8b94406b32a76c5893edcdb147a9f086aaf media: v4l2-ioctl: Fix check_ext_ctrls
+20111e8f7dc66e981cc0970058d374c88441ec11 ALSA: hda/realtek: Fix mic mute LED for the HP Spectre x360 14
+0371a83cedbf4e58c7c1bc773fc31d9b3e55fe74 ALSA: hda/realtek: Add a quirk for HP OMEN 15 mute LED
+21fa1993265afbed8a39f8e57d16d7fdca07d43f ALSA: hda/realtek: Add quirk for Clevo PC70HS
+5b02f9f6be25522613dc7f72a69ecf828d2506d9 ALSA: hda/realtek: Headset fixup for Clevo NH77HJQ
+b29ead75d26fc5ffdc469d5f90d11726b0de20cf ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
+97e705e431d1b4422d23017a18f8095f9f676623 ALSA: hda/realtek: Add quirk for ASUS UX550VE
+54435709447bb4f32f79555943037ec3ae45cf83 ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+f6f131f71ba08ed2c36cca776067162760bef9f1 ALSA: ua101: fix division by zero at probe
+522eaaa3cea8243ab9c318597e7caab39d87dbf4 ALSA: 6fire: fix control and bulk message timeouts
+dce3fd68465baa3607712765cce9ee41d7715978 ALSA: line6: fix control and interrupt message timeouts
+2617141533f5a9eaa9b055bd1645f26560726bdb ALSA: mixer: oss: Fix racy access to slots
+d1a1d4d6443613de34c06f3ad10f83e5faf234e5 ALSA: mixer: fix deadlock in snd_mixer_oss_set_volume
+3c701e408c65e98cdd7ece91e6d4a5cb3741ecf8 ALSA: usb-audio: Line6 HX-Stomp XL USB_ID for 48k-fixed quirk
+846fd95c2b50c2b1b9d848cd4e3dc89b53659130 ALSA: usb-audio: Add registration quirk for JBL Quantum 400
+59b9b3b76dec0dd75f5ec0b80789bcabb0812f3b ALSA: hda: Free card instance properly at probe errors
+51f798291773a54b9b117ccde69f3a4b3b5df4b5 ALSA: synth: missing check for possible NULL after the call to kstrdup
+2d1e3e93d50446fac5a056d4c3afd9fa5b8c24bb ALSA: pci: rme: Fix unaligned buffer addresses
+31b008e197ee8fb462ee6a15fd50fc728699c59e ALSA: PCM: Fix NULL dereference at mmap checks
+cb47e5a899d4e0f2d43d0845d095623a85776ddb ALSA: timer: Fix use-after-free problem
+55021dc1aa5debc8e88dd8573249990f58285db6 ALSA: timer: Unconditionally unlink slave instances, too
+d10c081cb56e3994ab9fe96c4007d3e80a626f29 Revert "ext4: enforce buffer head state assertion in ext4_da_map_blocks"
+fe8a2ebd0738d3e027fac28f6a59e100db196633 ext4: fix lazy initialization next schedule time computation in more granular unit
+49b878257d3217c61b58c700b074940bad93065b ext4: ensure enough credits in ext4_ext_shift_path_extents
+e0cb34bccaa99827fb00386401220c3f98311e46 ext4: refresh the ext4_ext_path struct after dropping i_data_sem.
+e20afca1f8f94ce26fb1e1a18b2cb14925e74d70 fuse: fix page stealing
+539a18256e22061fae65722793e090475fe044af x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
+6da6866d619173d706972400e8a4629d4a90798e x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
+d433245d28ea55375e1357191b739207ee53e727 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+47d09b1fc87d905812b0032d5c58febe22db8541 x86/iopl: Fake iopl(3) CLI/STI usage
 
---===============5921512552531909994==
+--===============4369648421597498534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02f192422862-9288003389dc.txt
+Content-Disposition: attachment; filename=revlist-9288003389dc-5af0b4682858.txt
 
-05ea6ea40dd0abd02d10ab767afb938f55eb229c xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
-d3c7308ba4f01da0e5975b661199eb48bc3ab5bc usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
-10da538df6e36c04314f4e75bf01cc0dc9e8f030 binder: use euid from cred instead of using task
-d5b801a960c084dc8b868d9be718a57722f26ef7 binder: use cred instead of task for selinux checks
-725e1d5f6d4abd89916c96c44ba0289def149362 binder: use cred instead of task for getsecid
-86da8df480154a71949c498bbd1789baf9a2c85c Input: iforce - fix control-message timeout
-e5f4f90b95c4fa76790c8085c4b56c2bdbf117bb Input: elantench - fix misreporting trackpoint coordinates
-cb775852d7642fb2d0ab08b2867ac86550861321 Input: i8042 - Add quirk for Fujitsu Lifebook T725
-1980e0d82a0ddb9f4e2bcaeb7007c1e0339fd720 libata: fix read log timeout value
-c6db13bd12ddfb10fc0eb0bb42cc41cfcd2a5caa ocfs2: fix data corruption on truncate
-b8f4190ed0eea36d94b77b4676abe14bb7942f90 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
-1ea1018a4f705a87c0b7fccfce6b845e87693fec scsi: qla2xxx: Fix use after free in eh_abort path
-6e2c0c590cfc5674c48b7bc24a2f7f7d79216efe mmc: dw_mmc: Dont wait for DRTO on Write RSP error
-f5f6fdd5b80b51bf6a512acec296869e14835209 parisc: Fix ptrace check on syscall return
-30d07999da934666ebf60093c78edfeb9a9d7280 tpm: Check for integer overflow in tpm2_map_response_body()
-27aa36810336e8f8c85bd779384565812e11fa28 firmware/psci: fix application of sizeof to pointer
-f2d8876d7e8a3ba205e2ae18b338453496447c19 crypto: s5p-sss - Add error handling in s5p_aes_probe()
-225a4697a630a7ce628aa793b6b547517efb11d2 media: ite-cir: IR receiver stop working after receive overflow
-7cfb90e98039d0e95f713b9293de81b76da7ad39 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
-1e4c22f098f52f6e7b4edc9c5c8133697b27354a media: v4l2-ioctl: Fix check_ext_ctrls
-d72807f15528c7f40743706e6c860cb5ec309f6d ALSA: hda/realtek: Add quirk for Clevo PC70HS
-9994a30705423566c86f450b9e3f37df4cebc608 ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
-f633a92e549de5e0615af3f6eca1f3e2c81e05ae ALSA: hda/realtek: Add quirk for ASUS UX550VE
-9caed756da945147d90234227d8b66e663f39954 ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
-cdad595a9657a3aaa3a5369bfcee8bb19852a7ba ALSA: ua101: fix division by zero at probe
-1b54ea80e0af4c94c83b0175cbfea11a95ddef19 ALSA: 6fire: fix control and bulk message timeouts
-60c4d363a3f4748035840495320a42d267dd7218 ALSA: line6: fix control and interrupt message timeouts
-c903df2c64ff1652997dd8f411ec06d253511cb2 ALSA: usb-audio: Add registration quirk for JBL Quantum 400
-4c4e6d20cd1f912952b30eae59908a370b680551 ALSA: synth: missing check for possible NULL after the call to kstrdup
-4dde4e38d97f58cfb8d4afdcb7fb7dfa21ff7956 ALSA: timer: Fix use-after-free problem
-00015d066c8b4d8856916046fa4239dd5300c725 ALSA: timer: Unconditionally unlink slave instances, too
-8fa1dc61ffe84968f3d86ac279eaa61bc7d0cb24 fuse: fix page stealing
-204e66251a093248e16ddb2187e91f67ee85ba65 x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
-734cab1bf4aa22a09a24a67588b9a5e1fb6ebc2b x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
-9288003389dc685e09bf111961d1f6cd4741fb19 x86/irq: Ensure PI wakeup handler is unregistered before module unload
+1ae212d795da2f581f607fd083d4aa04a40be8d0 xhci: Fix USB 3.1 enumeration issues by increasing roothub power-on-good delay
+1476cb884fb1392398850d5f505eccc915228f8d usb: xhci: Enable runtime-pm by default on AMD Yellow Carp platform
+7389c4aa854e7e8f2253979d0bdcff97bdc2b74e binder: use euid from cred instead of using task
+2a24b6ae11db81eebe4ab7a4d8e460039d2b8631 binder: use cred instead of task for selinux checks
+00f76397fdffc0b36e624e4f75506fe1be92a0f2 binder: use cred instead of task for getsecid
+c188727345399c065a2c53de80ca82cbb252ad6d Input: iforce - fix control-message timeout
+9ec245ea312f5c5fc69a32604b4f887ad0e1fb6a Input: elantench - fix misreporting trackpoint coordinates
+983093533861dc0f75918e142770892e83662158 Input: i8042 - Add quirk for Fujitsu Lifebook T725
+41b246415879dd231006793d8c79fb0054b86538 libata: fix read log timeout value
+c77a73dc94a36c45f56628e026df47254ff5b739 ocfs2: fix data corruption on truncate
+dddbbefbaf37f3fdf406c764a7e648e85f849071 scsi: qla2xxx: Fix kernel crash when accessing port_speed sysfs file
+d7b013cbef1da1f4b7dbe031c9abc54a15bdc058 scsi: qla2xxx: Fix use after free in eh_abort path
+076b875ef53ade32a158e06ca3d9b8fc20ab50ab mmc: dw_mmc: Dont wait for DRTO on Write RSP error
+afab8bb0ebd934b1df2c3e578651480440347450 parisc: Fix ptrace check on syscall return
+176cda258b0eb061dd605df30cf05fd6e2efdb99 tpm: Check for integer overflow in tpm2_map_response_body()
+a533cc78b43d53ce36ef49a1b234a33216c23ed0 firmware/psci: fix application of sizeof to pointer
+a6c5601ce05136bcc0e439c5757b4a48906a1cd2 crypto: s5p-sss - Add error handling in s5p_aes_probe()
+8dcfb37745af40c19e1069ace6e0b1b98bb95d9f media: ite-cir: IR receiver stop working after receive overflow
+5f13de4519e99c346994cbc1a1e33b8efa8d1dc3 media: ir-kbd-i2c: improve responsiveness of hauppauge zilog receivers
+da62e4121c7a9211d38d0769b729ee20261578a2 media: v4l2-ioctl: Fix check_ext_ctrls
+782a7ebc747c16ef7751a9d2b7b7c927b4528431 ALSA: hda/realtek: Add quirk for Clevo PC70HS
+818622cc302ec2ddd005221d5112631c8ffd8cfb ALSA: hda/realtek: Add a quirk for Acer Spin SP513-54N
+065527466f1ada71c6e66350c7f3a4c1caf19528 ALSA: hda/realtek: Add quirk for ASUS UX550VE
+b5d4686be756b46dd44d29ad560e1470c09b2f57 ALSA: hda/realtek: Add quirk for HP EliteBook 840 G7 mute LED
+68364a679896798fb1e7ccb26843ca7954905cde ALSA: ua101: fix division by zero at probe
+6380fea1bec60ecd8c3daadb7179300e95e757d1 ALSA: 6fire: fix control and bulk message timeouts
+2d39dc80cad36989d798a67f910f3a2e0e9b03aa ALSA: line6: fix control and interrupt message timeouts
+3882f97c5e8fcad23e2aefa4eb9bfcc2653896ea ALSA: usb-audio: Add registration quirk for JBL Quantum 400
+9077268d8ca7b9d5e177ebcbac6d5b1a84445b2c ALSA: synth: missing check for possible NULL after the call to kstrdup
+64aef8cb8d736e778932403387f569d7bfae13f4 ALSA: timer: Fix use-after-free problem
+60bc103ab32c0744d040f8f641202f8441b00446 ALSA: timer: Unconditionally unlink slave instances, too
+bc2424a103aa758a370ae1b98747b49c72c1a9b2 fuse: fix page stealing
+511d818542daee4b650c8b0990528682dc311104 x86/sme: Use #define USE_EARLY_PGTABLE_L5 in mem_encrypt_identity.c
+0c02bc78c293a362aa93ca3f61d59ea36cb7e124 x86/cpu: Fix migration safety with X86_BUG_NULL_SEL
+5af0b4682858bac88d63940c6518b7abdd222dcf x86/irq: Ensure PI wakeup handler is unregistered before module unload
 
---===============5921512552531909994==--
+--===============4369648421597498534==--
