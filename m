@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2087448512308938487=="
+Content-Type: multipart/mixed; boundary="===============2805530329022307153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 13 Nov 2021 03:28:10 -0000
-Message-Id: <163677409053.27866.8316746355645466574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 13 Nov 2021 03:28:14 -0000
+Message-Id: <163677409484.27983.1464862596386155256@gitolite.kernel.org>
 
---===============2087448512308938487==
+--===============2805530329022307153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 66f4beaa6c1d28161f534471484b2daa2de1dce0
     log: revlist-5833291ab6de-66f4beaa6c1d.txt
 
---===============2087448512308938487==
+--===============2805530329022307153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -355,4 +355,4 @@ f78e9de80f5ad15719a069a4e6c11e2777122188 Merge branch 'for-linus' of git://git.k
 6cbcc7ab2147d721700029a78558dc0ea4207153 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 66f4beaa6c1d28161f534471484b2daa2de1dce0 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 
---===============2087448512308938487==--
+--===============2805530329022307153==--
