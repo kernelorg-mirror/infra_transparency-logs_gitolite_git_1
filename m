@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8589527748874040248=="
+Content-Type: multipart/mixed; boundary="===============1746981387578254090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 14 Nov 2021 19:02:04 -0000
-Message-Id: <163691652400.28885.6937890064496754760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 14 Nov 2021 19:07:29 -0000
+Message-Id: <163691684993.31829.502632898860092555@gitolite.kernel.org>
 
---===============8589527748874040248==
+--===============1746981387578254090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: ccfff0a2bd2a30de130b5623d242ddecd0272bc2
     new: fc661f2dcb7e41dcda9ae862efb822bb2f461646
     log: revlist-ccfff0a2bd2a-fc661f2dcb7e.txt
 
---===============8589527748874040248==
+--===============1746981387578254090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -116,4 +116,4 @@ c8c109546a19613d323a319d0c921cb1f317e629 Merge tag 'zstd-for-linus-v5.16' of git
 f7018be29253b89175d03284f8f49ac4ffed0472 Merge tag 'perf_urgent_for_v5.16_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc661f2dcb7e41dcda9ae862efb822bb2f461646 Merge tag 'sched_urgent_for_v5.16_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============8589527748874040248==--
+--===============1746981387578254090==--
