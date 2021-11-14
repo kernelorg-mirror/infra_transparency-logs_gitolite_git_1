@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5411386184846531973=="
+Content-Type: multipart/mixed; boundary="===============4468107415704662160=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 14 Nov 2021 12:05:29 -0000
-Message-Id: <163689152942.29157.13366625309274079810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 14 Nov 2021 12:05:52 -0000
+Message-Id: <163689155268.29337.7417222072940568631@gitolite.kernel.org>
 
---===============5411386184846531973==
+--===============4468107415704662160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 66f4beaa6c1d28161f534471484b2daa2de1dce0
-    new: c8c109546a19613d323a319d0c921cb1f317e629
-    log: revlist-66f4beaa6c1d-c8c109546a19.txt
+  - ref: refs/heads/staging-testing
+    old: 997d815099fdac532714c2f5ca6a6ab2039bf222
+    new: 501d3e5056387568baf1f60e1d0929d912f5893f
+    log: revlist-997d815099fd-501d3e505638.txt
 
---===============5411386184846531973==
+--===============4468107415704662160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636891528 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1636891527-fcd58a9ee9745c51143608db36b4cc66c44a7882
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636891547 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1636891546-991c0e8272b7231712d714af37ed8224e124216e
 
-66f4beaa6c1d28161f534471484b2daa2de1dce0 c8c109546a19613d323a319d0c921cb1f317e629 refs/heads/tty-testing
+997d815099fdac532714c2f5ca6a6ab2039bf222 501d3e5056387568baf1f60e1d0929d912f5893f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGQ+4gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r9IP/1oLvgo9ZUtZXC1ZX3Ed
-X+iSS39kQ7Pr3MmZbfJlpnMqT4ml3AVvbAZ/hMMY4LNP2idAp6w6T0J77dKJ2cbD
-sv/rpwtob2fBIBZ0mTsmIEHIW1e7ghabxdRV9Il6rhN8j0qFGOeYY6vkQrXMnibh
-YrsfqyKNKdV6quYafdAjx/widD6cUnKL/2xgIYfAuw7vaOeSWAfGrHtv9O8YCNYb
-Z1l6lmaXIRztj/VcHkW6TSKb/0SVavwttJfHtvMfdX6XFtscn4hL49ZTTxUO4PrS
-XfMoq4J6ZxiqYt3i3kAoHbQOm40J4GgAiNhvgl6XbN4O0TPLycXxNf3Tx73Xwk/9
-g4Y806umEq9lko1OsqVPG8kLpJsNWT5lcFb3hrOzNuEtDhMnCp7wt/5OztkmGUQN
-ALRkRexvYsLg+G7AzUwOA20X3YgeSAvX6BAjrpBNZhnaFOljp7QML5xaIhofikKu
-oAtyfyEmOX4QGAW5EgjEX82HUYLsFW32cHjMRu7xnkjyE4/GKJLASHGE9x1qZsuk
-JhDzAYL7wahhywEj/C4j84tdyyoF8RyvjGpnUOHFxPzCRv5/oxjENGH+Wy9TbS1E
-HftqhVfUB4dheGMnXe6usYjmq/vW1W0nb7UePcmvbccbaC/td9yydp01AuBTUvHp
-ISW7d9bMalJVbDVWJqPzJHzE
-=bVqs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGQ+5sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6IIP/RwEAHibXwruounh/4Kw
+iEJNXjy4MCdbU8Q1ntyEa2Z9lPS/YnB+I+NoGdcVkkUV4m7EtDVfvmAN9qwFzQRS
+OmNvclGH2JavaO/xDQhx28ALo1z8tY0tr5iQzFSHCt9c8kvWMVPMrnItTaoAS9t/
+nLjZu6/z1gDdr3y9Md7xZWysthoAlFOl/M2ZYHUEyyK7mZPwIYB2bm2N8pdcLWYe
+frI96utinf8STXkG0DSI+ypLHROVMs/fJAAC+uivUUHdF58jMe0tO4/i+gsRkeGk
+gFOvy+YAlt4zKzcn5aZO52pFLDMtZXvlgjWRGMbz5vV+2DqS8JdjUnqLXwLD0BIi
+4QsXKA9woRChHqcq6ZEl7CzKz1d6Eq6YZ4MhMT8DRsvfHQlkE4fyAfZ3zWAulr7U
+o8PSbvuC1T/k+uhtoHQp0VvQ/rUS05NBtQDcwJLkxfKhuD3n3PBm/OufQYF/LojZ
+4VmNAUisGBt7OhJt/7JqJfKD4K4+HPmmzOoIkkp+uPx2eS1EAsNtyhOcsY8cHPda
+fCC3Rq69GJiYMMZ5vPLcLzsnKG/P85fIdWnBRvG4I7B1DqTaP1ZFSuhGWWKIsNq+
+d+w44plWGnCyBZ740afalEY4+9wxvG3fNxsxK5/Bw3dS4IgpHVUTh/g8NHbft40o
+a9tUiOcmO5sGLVz62ZUI3IEu
+=Kd05
 -----END PGP SIGNATURE-----
 
---===============5411386184846531973==
+--===============4468107415704662160==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66f4beaa6c1d-c8c109546a19.txt
+Content-Disposition: attachment; filename=revlist-997d815099fd-501d3e505638.txt
 
 ac5f313624d876b41d4a1292181d17e80d44159c coccinelle: semantic patch to check for inappropriate do_div() calls
 92d602bc7177325e7453189a22e0c8764ed3453e f2fs: should use GFP_NOFS for directory inodes
@@ -276,5 +276,40 @@ f44c7dbd74ec1527744e1f673e60265b6f5fd084 Merge tag 'block-5.16-2021-11-13' of gi
 3ad7befd4842afa2449026715987122a1c6dcb85 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ccfff0a2bd2a30de130b5623d242ddecd0272bc2 Merge tag 'virtio-mem-for-5.16' of git://github.com/davidhildenbrand/linux
 c8c109546a19613d323a319d0c921cb1f317e629 Merge tag 'zstd-for-linus-v5.16' of git://github.com/terrelln/linux
+fc99c1cd15dacdb0de6c2c262f87e4d88ae04d00 staging: r8188eu: remove ODM_Read1Byte
+c1c4dedab71b38266fe5590c7e557fc4fbb790f5 staging: r8188eu: remove ODM_Read4Byte
+99d7615ebf08116d7ff5f60ee649718b9ce53020 staging: r8188eu: remove ODM_Write1Byte
+22c01f4f343f5848dd9a775e66c114d8d2ca9d08 staging: r8188eu: remove ODM_Write2Byte
+b35ad44fb7ed31f33de90d039d23661983b03187 staging: r8188eu: remove ODM_Write4Byte
+4ee98a8f4ee19764501080e39ba7935204abc103 staging: r8188eu: os_dep: remove the goto statement
+5ec77a607427cc7fa19965560939ad1ac7f60f63 staging: r8188eu: core: remove the function __nat25_timeout
+7cedb8f68179faeba5b5f419a438e68d412c1de3 staging: r8188eu: core: remove unused variable sz
+dfcd2dcb0f3785b7eaf30fd7160db050a92fd681 staging: r8188eu: core: remove the unused variable pAdapter
+8e8d7c33851ff9153c44e33fc4894c1c5968656a staging: r8188eu: remove MSG_88E call from odm_TXPowerTrackingThermalMeterInit
+ffa3bb43fb3e14342665b462115f1c723de09eb2 staging: fbtft: Remove fb_watterott driver
+4515de7c8c75eb9ee30d8b632911267b1b60f332 staging: rtl8723bs: core: remove unused variable pAdapter
+d13d9de39826282b48523ae5e097fb3e5243baeb staging: rtl8723bs: core: remove unused local variable padapter
+3a80d9bf92348bee0245a4b2f9b3d74d4f75183e staging: vt6655: fix camelcase byData in card.c
+9845a6c8645ae13d433f4696e119d6e8d50e3995 staging: r8188eu: convert final two MSG_88E calls to netdev_dbg
+825b91175a41bd2d28c23f5559571a9f68cf39b5 staging: r8188eu: remove MSG_88E macro
+020e94a52fb32bf1790f5c975fe42a9f572921d4 staging: pi433: print rf69 debug message more detail
+950f006e49fac58ae3489b368f0cb624d85562a2 staging: r8188eu: remove unused phy_PathA_IQK_8188E parameter
+b4bb4e24eacb9f4bae41a33df3c11053f41c4c66 staging: r8188eu: remove unused phy_PathA_RxIQK parameter
+2e6e07841c19708e7d9a9cda7518c1e95609fd45 staging: r8188eu: remove constant phy_IQCalibrate_8188E parameter
+274c8f0f467900132fd780d34c5ece482c74e96c staging: r8188eu: clean up _PHY_PathADDAOn
+c90ab7e903b395a0e899ffa5f0ef5e1ca790d7ab staging: r8188eu: remove write support from rtl8188e_EfusePowerSwitch
+1501f92d02a519f90abca72e65d88f9f20735c21 staging: r8188eu: remove efuse write functions
+4c39da470ed134615c35493d735a66013ab9a8e8 staging: r8188eu: os_dep: Change the return type of function
+2565680ab7d8ffb4a5e183a4cdc3ce57dee33f8b staging: rtl8723bs: core: avoid unnecessary if condition
+18949ef07e808c616ea3a125b416c5f63431481a staging: rtl8192u: remove the if condition without effect
+cf92d83cb5ddd9782ae301fa1aa62f9f62beaf49 staging: r8188eu: remove haldata's EEPROMVID / PID
+5e12e8603d82680618b8b46c11cb20da32f7f55e staging: r8188eu: remove haldata's EEPROMCustomerID
+fe68940740b3a87ef9ed7e08b2ab0d2da5e3d989 staging: r8188eu: remove haldata's EEPROMSubCustomerID
+74e3b29b4004e954770a8e1f38b31f051d191aa9 staging: r8188eu: remove autoload check
+7cc33015cbe730c21f74c5aa62b96afcd492ace3 staging: r8188eu: rf_chip is constant
+3b5ebf62252c2079792583488648d896b9dd871e staging: r8188eu: merge three small functions
+e68bb867b929a65e9610af8fc9bac8402db4e626 staging: r8188eu: simplify two boolean assignments
+890c6fa2410ccd2d0c7cd4b1249fc95471c9ba5c staging: vt6655: fix camelcase in bRadioOff
+501d3e5056387568baf1f60e1d0929d912f5893f staging: wlan-ng: Removed unused comments
 
---===============5411386184846531973==--
+--===============4468107415704662160==--
