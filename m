@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4199184882625953794=="
+Content-Type: multipart/mixed; boundary="===============7579820695074862060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sun, 14 Nov 2021 02:47:47 -0000
-Message-Id: <163685806756.4338.11598860769877993360@gitolite.kernel.org>
+Date: Sun, 14 Nov 2021 02:47:56 -0000
+Message-Id: <163685807650.4438.11493077644389284622@gitolite.kernel.org>
 
---===============4199184882625953794==
+--===============7579820695074862060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: ff1ffd71d5f0612cf194f5705c671d6b64bf5f91
+  - ref: refs/heads/dev
+    old: 5429c9dbc9025f9a166f64e22e3a69c94fd5b29b
     new: c8c109546a19613d323a319d0c921cb1f317e629
-    log: revlist-ff1ffd71d5f0-c8c109546a19.txt
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
+    log: revlist-5429c9dbc902-c8c109546a19.txt
 
---===============4199184882625953794==
+--===============7579820695074862060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1ffd71d5f0-c8c109546a19.txt
+Content-Disposition: attachment; filename=revlist-5429c9dbc902-c8c109546a19.txt
 
+3eda41df05d6ad5c825cbc7fef03d563597b1afa Revert "ext4: enforce buffer head state assertion in ext4_da_map_blocks"
+39fec6889d15a658c3a3ebb06fd69d3584ddffd3 ext4: fix lazy initialization next schedule time computation in more granular unit
 83c5688b8977b1cd495a05ca0455e4353c8f6655 ext4: correct the left/middle/right debug message for binsearch
 4268496e48dc681cfa53b92357314b5d7221e625 ext4: ensure enough credits in ext4_ext_shift_path_extents
 1811bc401aa58c7bdb0df3205aa6613b49d32127 ext4: refresh the ext4_ext_path struct after dropping i_data_sem.
@@ -733,8 +714,6 @@ cca2aac8acf470b01066f559acd7146fc4c32ae8 MIPS: fix duplicated slashes for Platfo
 d2b9f12b0f7cf95c43f5fd4a18688d958d39e423 scsi: avoid to quiesce sdev->request_queue two times
 93542fbfa7b726d053c01a9399577c03968c4f6b scsi: make sure that request queue queiesce and unquiesce balanced
 26af1cd00364ce20dbec66b93ef42f9d42dc6953 nvme: wait until quiesce is done
-e3b49ea36802053f312013fd4ccb6e59920a9f76 f2fs: invalidate META_MAPPING before IPU/DIO write
-5429c9dbc9025f9a166f64e22e3a69c94fd5b29b f2fs: fix UAF in f2fs_available_free_memory
 51b8c1fe250d1bd70c1722dc3c414f5cff2d7cca vfs: keep inodes with page cache off the inode shrinker LRU
 83c1fd763b3220458652f7d656d5047292ebcde4 mm,hugetlb: remove mlock ulimit for SHM_HUGETLB
 0658a0961b0ace06b4cf0e1b73a4f20e349f4346 procfs: do not list TID 0 in /proc/<pid>/task
@@ -1072,4 +1051,4 @@ f44c7dbd74ec1527744e1f673e60265b6f5fd084 Merge tag 'block-5.16-2021-11-13' of gi
 ccfff0a2bd2a30de130b5623d242ddecd0272bc2 Merge tag 'virtio-mem-for-5.16' of git://github.com/davidhildenbrand/linux
 c8c109546a19613d323a319d0c921cb1f317e629 Merge tag 'zstd-for-linus-v5.16' of git://github.com/terrelln/linux
 
---===============4199184882625953794==--
+--===============7579820695074862060==--
