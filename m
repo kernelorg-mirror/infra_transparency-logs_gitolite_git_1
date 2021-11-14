@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2778210268420949867=="
+Content-Type: multipart/mixed; boundary="===============7136785366769513902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 14 Nov 2021 14:31:38 -0000
-Message-Id: <163690029887.25162.5633622981100310370@gitolite.kernel.org>
+Date: Sun, 14 Nov 2021 14:32:05 -0000
+Message-Id: <163690032521.25367.3649447395585029030@gitolite.kernel.org>
 
---===============2778210268420949867==
+--===============7136785366769513902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 40dfa3291f73e01f55d8f34481faa9e1d86c17a4
-    new: 462d76020cc6193a38a483594f08cea9e47d6989
-    log: revlist-40dfa3291f73-462d76020cc6.txt
+    new: e341763ac2aa2d3c451316dfcb8f67f6876546df
+    log: revlist-40dfa3291f73-e341763ac2aa.txt
+  - ref: refs/heads/master
+    old: 462d76020cc6193a38a483594f08cea9e47d6989
+    new: e341763ac2aa2d3c451316dfcb8f67f6876546df
+    log: |
+         a0b248ce721db05b3f9d91e850906ac57694b337 Merge branch 'x86/urgent'
+         87de43303ea0f08089589c4dd5095bdef258be9f Merge branch 'timers/urgent'
+         a8eaf8426e2ac8f29b3ced1a352e4449365f5cb9 Merge branch 'sched/urgent'
+         fe9f677e6591a0b3e0714fa01c2b8c5fee0dda34 Merge branch 'perf/urgent'
+         67a0e6d28473b76407ae33c877411fce66c1b767 Merge branch 'locking/urgent'
+         e341763ac2aa2d3c451316dfcb8f67f6876546df Merge branch 'irq/urgent'
+         
 
---===============2778210268420949867==
+--===============7136785366769513902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40dfa3291f73-462d76020cc6.txt
+Content-Disposition: attachment; filename=revlist-40dfa3291f73-e341763ac2aa.txt
 
 2cf002d194977c4ec8848496a9a9804a317099dd apparmor: check/put label on apparmor_sk_clone_security()
 5268d795d6888b202ad9f2b16a254cd00d0de77b apparmor: fix introspection of of task mode for unconfined tasks
@@ -758,6 +769,11 @@ f44c7dbd74ec1527744e1f673e60265b6f5fd084 Merge tag 'block-5.16-2021-11-13' of gi
 3ad7befd4842afa2449026715987122a1c6dcb85 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ccfff0a2bd2a30de130b5623d242ddecd0272bc2 Merge tag 'virtio-mem-for-5.16' of git://github.com/davidhildenbrand/linux
 c8c109546a19613d323a319d0c921cb1f317e629 Merge tag 'zstd-for-linus-v5.16' of git://github.com/terrelln/linux
-462d76020cc6193a38a483594f08cea9e47d6989 Merge branch 'linus'
+a0b248ce721db05b3f9d91e850906ac57694b337 Merge branch 'x86/urgent'
+87de43303ea0f08089589c4dd5095bdef258be9f Merge branch 'timers/urgent'
+a8eaf8426e2ac8f29b3ced1a352e4449365f5cb9 Merge branch 'sched/urgent'
+fe9f677e6591a0b3e0714fa01c2b8c5fee0dda34 Merge branch 'perf/urgent'
+67a0e6d28473b76407ae33c877411fce66c1b767 Merge branch 'locking/urgent'
+e341763ac2aa2d3c451316dfcb8f67f6876546df Merge branch 'irq/urgent'
 
---===============2778210268420949867==--
+--===============7136785366769513902==--
