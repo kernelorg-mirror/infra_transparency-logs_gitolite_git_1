@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8556919328245029009=="
+Content-Type: multipart/mixed; boundary="===============1303418937992601207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 14 Nov 2021 14:29:39 -0000
-Message-Id: <163690017959.22818.14497241123639023906@gitolite.kernel.org>
+Date: Sun, 14 Nov 2021 14:30:22 -0000
+Message-Id: <163690022226.24612.10930633985981698608@gitolite.kernel.org>
 
---===============8556919328245029009==
+--===============1303418937992601207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: ea79c24a30aa27ccc4aac26be33f8b73f3f1f59c
+    new: 40dfa3291f73e01f55d8f34481faa9e1d86c17a4
+    log: revlist-ea79c24a30aa-40dfa3291f73.txt
   - ref: refs/heads/master
-    old: 9a6cf455a952725422f4fb10848839989f833579
-    new: ae67123d9efa605e7c31e33b22efa30ed45d4af1
-    log: revlist-9a6cf455a952-ae67123d9efa.txt
+    old: ae67123d9efa605e7c31e33b22efa30ed45d4af1
+    new: 40dfa3291f73e01f55d8f34481faa9e1d86c17a4
+    log: |
+         56ee1b14a88d2753f732fdf7f73a0f154c1684f1 Merge branch 'x86/urgent'
+         f21cf936ad96eed1afcc08405a92f3ddab401666 Merge branch 'timers/urgent'
+         7df600b498f027bb3dee993d75e9c531a4c5733a Merge branch 'sched/urgent'
+         445c9c0889035c4b79b253ff5c229af9e0f7e30f Merge branch 'perf/urgent'
+         dc4e4c7087fe4fde3c58a44b6bc9a63f7ba257f8 Merge branch 'locking/urgent'
+         40dfa3291f73e01f55d8f34481faa9e1d86c17a4 Merge branch 'irq/urgent'
+         
 
---===============8556919328245029009==
+--===============1303418937992601207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a6cf455a952-ae67123d9efa.txt
+Content-Disposition: attachment; filename=revlist-ea79c24a30aa-40dfa3291f73.txt
 
-173632358fde7a567f28e07c4549b959ee857986 ASoC: rsnd: Fix an error handling path in 'rsnd_node_count()'
-cdcce47cb33a6a2ecb1bc113d0ba42ec300a33fe cxl/pci: Convert register block identifiers to an enum
-d22fed9c2b70d8ccc91c9a56ed2df2c1a0c2ebab cxl/pci: Remove dev_dbg for unknown register blocks
 ca76a3a8052b71c0334d5c094859cfa340c290a8 cxl/pci: Fix NULL vs ERR_PTR confusion
 84e36a9d1bbd2c41481e7160e0553480781b008b cxl/pci: Remove pci request/release regions
 7dc7a64de2bb3daf613f4c2e809e49678c579148 cxl/pci: Make more use of cxl_register_map
@@ -354,6 +362,7 @@ a602285ac11b019e9ce7c3907328e9f95f4967f0 Merge branch 'per_signal_struct_coredum
 3aefb5ee843fbe4789d03bb181e190d462df95e4 nvdimm/btt: do not call del_gendisk() if not needed
 d4ec3d5535c784c3adbc41c2bbc5d17a00a4a898 Merge tag 'vfio-v5.16-rc1' of git://github.com/awilliam/linux-vfio
 27cd7e3c9bb1ae13bc16f08138edd6e4df3cd211 PCI: cadence: Add cdns_plat_pcie_probe() missing return
+30d02551ba4f681cfa605cedacf231b8641169f0 x86/fpu: Optimize out sigframe xfeatures when in init state
 43e1b12927276cde8052122a24ff796649f09d60 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 2219b0ceefe835b92a8a74a73fe964aa052742a2 Merge tag 'soc-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 ae45d84fc36d01dcb1007f4298871eec37907904 Merge tag 'dt-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -467,6 +476,7 @@ a6be4c6c4ead4742543bbd80303bbd6ffb544fef Merge branch 'for-5.16/playstation' int
 a7c2b7ea82ea934d9bf7045f1c5623dadba7e444 Merge branch 'for-5.16/u2fzero' into for-linus
 3f81b3a387f7f7b0978647a96f99fc5b5fd9b64c Merge branch 'for-5.16/wacom' into for-linus
 5a2506bb8cb3e618fd79966a92454edac67fb468 Merge branch 'for-5.16/xiaomi' into for-linus
+43d3b7f6a362c06a19f14ff432993780aaad7ffd MAINTAINERS: Add some information to PARAVIRT_OPS entry
 138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
@@ -1045,10 +1055,11 @@ a8b76910e465d718effce0cad306a21fa4f3526b preempt: Restore preemption model selec
 e629fc1407a63dbb748f828f9814463ffc2a0af0 x86/mce: Add errata workaround for Skylake SKX37
 fbdb5e8f2926ae9636c9fa6f42c7426132ddeeb2 x86/cpu: Add Raptor Lake to Intel family
 979292af5b512c27803316de2cd06970c54251e5 Merge tag 'irqchip-fixes-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-537363a0b69f1dafbc88313320778c18cf2bd210 Merge branch 'x86/urgent'
-be2e71720b850823909d1ded95348d67ddb70444 Merge branch 'sched/urgent'
-2f7c9a76ed90b6294a49221535c0bd65145e6864 Merge branch 'perf/urgent'
-cc92ea00491bc1b36e6a8e7a2bca47ec64577c8f Merge branch 'locking/urgent'
-ae67123d9efa605e7c31e33b22efa30ed45d4af1 Merge branch 'irq/urgent'
+56ee1b14a88d2753f732fdf7f73a0f154c1684f1 Merge branch 'x86/urgent'
+f21cf936ad96eed1afcc08405a92f3ddab401666 Merge branch 'timers/urgent'
+7df600b498f027bb3dee993d75e9c531a4c5733a Merge branch 'sched/urgent'
+445c9c0889035c4b79b253ff5c229af9e0f7e30f Merge branch 'perf/urgent'
+dc4e4c7087fe4fde3c58a44b6bc9a63f7ba257f8 Merge branch 'locking/urgent'
+40dfa3291f73e01f55d8f34481faa9e1d86c17a4 Merge branch 'irq/urgent'
 
---===============8556919328245029009==--
+--===============1303418937992601207==--
