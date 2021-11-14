@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 14 Nov 2021 20:43:19 -0000
-Message-Id: <163692259932.24955.9797560827542253229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 14 Nov 2021 20:45:08 -0000
+Message-Id: <163692270883.26971.15801078390118382017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: c3b68c27f58a07130382f3fa6320c3652ad76f15
-    new: ce49bfc8d0372212ccd7d1c1b45c60b077f77684
+    old: 9ef5d24155c09c66cbd5ab557052f3a3c6f6361b
+    new: 2c2388a8b25a396a21061c6d0ee09b6b547cf54a
     log: |
-         5b068aadf62da006891383f6b23e47bc3ad49995 xfs: use swap() to make dabtree code cleaner
-         29f11fce211c7fcf32713457c031e71785fb6088 xfs: #ifdef out perag code for userspace
-         4a6b35b3b3f28df81fea931dc77c4c229cbdb5b2 xfs: sync xfs_btree_split macros with userspace libxfs
-         ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+         2c2388a8b25a396a21061c6d0ee09b6b547cf54a Sun Nov 14 08:44:20 PM UTC 2021
          
