@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 14 Nov 2021 10:52:14 -0000
-Message-Id: <163688713472.16570.5266880895597198401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 14 Nov 2021 11:19:21 -0000
+Message-Id: <163688876155.32236.9246594550654974537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dev
-    old: 0852f601a5614012fb4b90251baa6cb30c0d6fd1
-    new: d9a01943f8c5398ae6a12b39f85a1953ece63eba
-    log: |
-         d9a01943f8c5398ae6a12b39f85a1953ece63eba AOSP: erofs-utils: mkfs: add block list support for chunked files
-         
-  - ref: refs/heads/experimental
-    old: 0852f601a5614012fb4b90251baa6cb30c0d6fd1
-    new: d9a01943f8c5398ae6a12b39f85a1953ece63eba
-    log: |
-         d9a01943f8c5398ae6a12b39f85a1953ece63eba AOSP: erofs-utils: mkfs: add block list support for chunked files
-         
+  - ref: refs/tags/sched_urgent_for_v5.16_rc1
+    old: 0000000000000000000000000000000000000000
+    new: cac26147c505e19a162b70a09757c0a5af07929b
