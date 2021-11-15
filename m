@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8604774406933886412=="
+Content-Type: multipart/mixed; boundary="===============6885653014978428864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 15 Nov 2021 08:57:26 -0000
-Message-Id: <163696664600.30935.223551853134840110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 15 Nov 2021 08:57:38 -0000
+Message-Id: <163696665845.31065.9871522278118935039@gitolite.kernel.org>
 
---===============8604774406933886412==
+--===============6885653014978428864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/master
     old: c8c109546a19613d323a319d0c921cb1f317e629
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-c8c109546a19-fa55b7dcdc43.txt
+    new: 8ab774587903771821b59471cc723bba6d893942
+    log: revlist-c8c109546a19-8ab774587903.txt
 
---===============8604774406933886412==
+--===============6885653014978428864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636966645 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1636966644-671313d48f4deccf675ae8189a8df55b0e04f42e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636966656 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1636966656-b9b1a8b6e69ff248711374c8c827d15c7ff5dbca
 
-c8c109546a19613d323a319d0c921cb1f317e629 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf refs/heads/char-misc-testing
+c8c109546a19613d323a319d0c921cb1f317e629 8ab774587903771821b59471cc723bba6d893942 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGSIPUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+URgQANQus5RE9TZQIY76dok/
-GcSLfU8MrIlHK/0HclQN9ICC0MNpjj6aqa2qfJL7fNH3szinaFVnn7EdrG69C3iH
-wvst2IMS2OQhGf+/o6vep5tpWIJsXMiooy4AVUdRmVL5Fihz4ZfAaQpLgX0xDyL7
-IfjgN351aXOW5uRU5r4WsXD/xDtMeJouTv7PxAx8faDRzBCSinMb/H3hjcPfRRP5
-8LftAIW2N/WVEgsOEuhPKrchABSTqt08ye7jBRG9G1eoEOjIxz6nvDMRs/ZlaVQ6
-SXBgCtFn1I3h2Ts7gaRdcwVMf9Rp+SAimXRbpJ/qR3O7JZOpxe5DcfLhg6M/z6Ma
-Kelt9VAVSvynz10VJH2PMIgjs+Qt7XOcOr4Bq2ph/aLA6/o6uIOolvFAEcGOGCJ+
-EERbFS0hnrCJMA0khq80X+ERpR3RHvFJpcEGYFbv33n0dFTLgUI7hTU3t+KWGEwq
-Uaia9ijonEqVndUjprlOI0NV6RcpAQl3AT9tu67bfNa3R7Na5gIY2ftG35VZvLMv
-cbSqVbuORnT9lsHfHDnZHVXkbumS2FHRRDBSBofh5RziJMAURDjBziAYsbDbO+Se
-TNGYg/fXZtIpz+lXpOu4k7O7t9T9R+lnas9iPEe8pV0pmQneb3tklzt0+48TWNZy
-fx2uKIfXnkbR/d1qgUI9bRZJ
-=Tbvb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGSIQAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3asP/0bcQnYhcWomrTrbB2eJ
+/7zk82psK7JfisDgbv4ov1IfeNQXbIGf2BXF9+Ol6FhnYYLRsexjmIG7BuZALaOm
+9/mzZVusKZO2JJvCFdCCOCQLaqcsV9MZEt8gKJwonSxe8Ml7xdWqGGGdpzzohgxr
+p34IQR3+cVH/nY5ow0qktO60PYNHBomRPsAzBDwEn/3Mqt0Rl3mCkCKNTLZai7tL
+cgU+B4imjby1xkj09iMgzhNhsfFuno4ikHlzPUk53op9vrpxWU9TvSAVnfX+wW1e
+WcG3kqgALa8Ux5DT5Y68pySm9iJ1J1k2H4JW/LjGigXtrtv0iqBTKw/nKO1uqtLT
+g5CicyysDW9yG5CF70W5Qr1fJtdY4GRghen5MK3N4hiLuIX4Dk91Th7AQ/+1a2Pl
+xUF0NKY+iBgXsWNbW4kPiFzU7wMPaMkV//tg4t0ZFqmvmwYWzkZTdlsBrdJMhhsX
+n5O3od9iJLgvORhE0Uj5SbFIPV2fCnrzeQFOyoc73YpdpVNuDkrn5MUPlLMMuz70
+g2JGRpDQJor6AUZgFTZGPWZq0Dj8MhzN3wRR/jU4cOLNvkhg5xHgjGaEl0ee7YPu
+aTXTmL7HBGp2mYHiV39uXyBiu75tBzUEqAX7vu4hrAW5HgCnU55G9r7J2AXZ1BXX
+Feg/eG8Cb2X2dBCGUSsWSlKk
+=HAqS
 -----END PGP SIGNATURE-----
 
---===============8604774406933886412==
+--===============6885653014978428864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8c109546a19-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-c8c109546a19-8ab774587903.txt
 
 ca42bc4b7bda7c6d68f1cc97c27fc8ff7385c4c7 sh: fix trivial misannotations
 0e38225c92c7964482a8bb6b3e37fde4319e965c sh: check return code of request_irq
@@ -195,5 +195,8 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
+938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
+158ea2d2b2ff8fb49f39209a31b4920f13193a3d kbuild: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
+8ab774587903771821b59471cc723bba6d893942 Merge tag 'trace-v5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============8604774406933886412==--
+--===============6885653014978428864==--
