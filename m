@@ -1,33 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 15 Nov 2021 14:10:14 -0000
-Message-Id: <163698541436.18500.6057276162262970866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Mon, 15 Nov 2021 14:12:06 -0000
+Message-Id: <163698552636.19107.8661136452360410906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/fixes
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 8c5ba21c16bd7f8e23b8740dead6eaf164b8caa0
-    log: |
-         8c5ba21c16bd7f8e23b8740dead6eaf164b8caa0 memory: mtk-smi: Fix a null dereference for the ostd
-         
   - ref: refs/heads/for-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 395879305333601722c77c2e1304bf7ef5684bb3
+    old: d667c53845771170d7468f3bd839de1f1228dc77
+    new: 2f61f240215d22a7298c80bb1eb5d3e39f66f38a
     log: |
-         8c5ba21c16bd7f8e23b8740dead6eaf164b8caa0 memory: mtk-smi: Fix a null dereference for the ostd
-         3191e91ae15b60e69523578975bf5c6326ce1be4 memory: mtk-smi: Use ARRAY_SIZE to define MTK_SMI_CLK_NR_MAX
-         395879305333601722c77c2e1304bf7ef5684bb3 Merge branch 'mem-ctrl-next' into for-next
-         
-  - ref: refs/heads/mem-ctrl-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 3191e91ae15b60e69523578975bf5c6326ce1be4
-    log: |
-         3191e91ae15b60e69523578975bf5c6326ce1be4 memory: mtk-smi: Use ARRAY_SIZE to define MTK_SMI_CLK_NR_MAX
+         5b9fbb94ff5af1f14913661666c21cb9e0bf0307 leds: tca6507: use swap() to make code cleaner
+         2f61f240215d22a7298c80bb1eb5d3e39f66f38a leds: led-core: Update fwnode with device_set_node
          
