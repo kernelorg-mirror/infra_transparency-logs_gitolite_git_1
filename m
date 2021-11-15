@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5711222137808765116=="
+Content-Type: multipart/mixed; boundary="===============0099302505896347187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 15 Nov 2021 16:57:28 -0000
-Message-Id: <163699544868.2277.17382559017772117034@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 16:57:40 -0000
+Message-Id: <163699546017.2370.16026704386315970622@gitolite.kernel.org>
 
---===============5711222137808765116==
+--===============0099302505896347187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/core
-    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
-    new: 6e425ebcf3efa2cb233e1639db1f2249f545fcfd
-    log: revlist-87c87ecd00c5-6e425ebcf3ef.txt
+  - ref: refs/heads/x86/mm
+    old: 314a1e1eabea5b86532e90e0d4e217fa88471e3b
+    new: cd0374507045bdf1fc1e9fe8fb593094cbd9e2ae
+    log: revlist-314a1e1eabea-cd0374507045.txt
 
---===============5711222137808765116==
+--===============0099302505896347187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87c87ecd00c5-6e425ebcf3ef.txt
+Content-Disposition: attachment; filename=revlist-314a1e1eabea-cd0374507045.txt
 
-9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
-3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
-15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
-48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
-ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
 635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
 4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
 c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
@@ -1046,9 +1041,14 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-1a1d5256fb97a74dead395ffc91da39677914f42 static_call: Avoid building empty .static_call_sites
-05887c4a1b77830ba9b2461bb560fab60f31c89c objtool: Optimize re-writing jump_label
-8ec96f2b660ab51b707b58cc48c1822e1b0b1788 objtool: Add --dry-run
-6e425ebcf3efa2cb233e1639db1f2249f545fcfd x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
+669ca3af087e0349a01839ffa109c2db88ee657d mm: Update ptep_get_lockless()'s comment
+8d86fc5827b03cdf2439b9c5b3aab64f3b219199 x86/mm/pae: Make pmd_t similar to pte_t
+865deb22f9b972e8174d7be3f388da8eb6df709d sh/mm: Make pmd_t similar to pte_t
+24ee0eeeb2dabb133ecc87bb219e22e02f1323d2 mm: Fix pmd_read_atomic()
+58ca7423cd47b3a70e989ca43de6363b340fdfca mm: Rename pmd_read_atomic()
+0146a2ff485f443177047d8b5a723b255e4dd0d3 mm/gup: Fix the lockless PMD access
+8948a66b19df452bddbeed053208aa8a053972a7 x86/mm/pae: Don't (ab)use atomic64
+a1c6ed807f309737b44fed878cc6323676d1c46a x86/mm/pae: Use WRITE_ONCE()
+cd0374507045bdf1fc1e9fe8fb593094cbd9e2ae x86/mm/pae: Be consistent with pXXp_get_and_clear()
 
---===============5711222137808765116==--
+--===============0099302505896347187==--
