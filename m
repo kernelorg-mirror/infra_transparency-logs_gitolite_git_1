@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 15 Nov 2021 02:17:01 -0000
-Message-Id: <163694262139.8398.10361749931830144224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Mon, 15 Nov 2021 02:26:00 -0000
+Message-Id: <163694316030.15170.16998568939148801460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/test-clang-ft
-    old: 3bf5323604e0d7ffc4ddfb4096d0771047f43640
-    new: 4ceb6d04c2cdcff2c6bd0cfcc1aad57915eaac2b
+  - ref: refs/heads/ftrace/urgent
+    old: 6cee14744d5bdb7d347f3b1cf46c1b08a8cd738c
+    new: 938aa33f14657c9ed9deea348b7d6f14b6d69cb7
     log: |
-         4ceb6d04c2cdcff2c6bd0cfcc1aad57915eaac2b kconfig: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
+         938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
          
