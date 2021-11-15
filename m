@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7666035577176826052=="
+Content-Type: multipart/mixed; boundary="===============2455317839644483884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Nov 2021 08:22:17 -0000
-Message-Id: <163696453773.7943.9421473973722499441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 15 Nov 2021 08:23:00 -0000
+Message-Id: <163696458081.8236.12291164074764887110@gitolite.kernel.org>
 
---===============7666035577176826052==
+--===============2455317839644483884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 740da9d7ca4e25f5d87db9f80d75432681b61305
+  - ref: refs/heads/master
+    old: 8bb7eca972ad531c9b149c0a51ab43a417385813
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-740da9d7ca4e-fa55b7dcdc43.txt
+    log: revlist-8bb7eca972ad-fa55b7dcdc43.txt
 
---===============7666035577176826052==
+--===============2455317839644483884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-740da9d7ca4e-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-8bb7eca972ad-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============7666035577176826052==--
+--===============2455317839644483884==--
