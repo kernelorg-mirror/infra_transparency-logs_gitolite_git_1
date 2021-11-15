@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2669245326415889775=="
+Content-Type: multipart/mixed; boundary="===============8520334106937277248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Mon, 15 Nov 2021 23:01:04 -0000
-Message-Id: <163701726424.8652.6857423460730367990@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 23:01:14 -0000
+Message-Id: <163701727457.8784.14065930179485550423@gitolite.kernel.org>
 
---===============2669245326415889775==
+--===============8520334106937277248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kfence/dev
-    old: ff1797bc443327d95db4ad6b55cf2798bef3a1ea
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-ff1797bc4433-fa55b7dcdc43.txt
+  - ref: refs/heads/kasan/dev
+    old: 1654953522236592233654d339f28839f9262e4b
+    new: 907b2f9c16265b5e879ff24463ddba9c3dc824ab
+    log: revlist-165495352223-907b2f9c1626.txt
 
---===============2669245326415889775==
+--===============8520334106937277248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff1797bc4433-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-165495352223-907b2f9c1626.txt
 
-a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
 a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
 138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
@@ -1050,5 +1049,6 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
+907b2f9c16265b5e879ff24463ddba9c3dc824ab kasan: add ability to detect double-kmem_cache_destroy()
 
---===============2669245326415889775==--
+--===============8520334106937277248==--
