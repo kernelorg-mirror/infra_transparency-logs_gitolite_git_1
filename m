@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9191664482055393108=="
+Content-Type: multipart/mixed; boundary="===============3050096454010839822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 15 Nov 2021 15:58:55 -0000
-Message-Id: <163699193566.25821.1805851062205339146@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 15:59:12 -0000
+Message-Id: <163699195218.25965.6271580410099548964@gitolite.kernel.org>
 
---===============9191664482055393108==
+--===============3050096454010839822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 92f62485b3715882cd397b0cbd80a96d179b86d6
-    new: cf4f5530bb55ef7d5a91036b26676643b80b1616
-    log: revlist-92f62485b371-cf4f5530bb55.txt
+  - ref: refs/heads/dev-queue
+    old: 581e1cbfdda9ddcb87ba8d7952a7d38bf4fb9377
+    new: 6488f1ec9b19784b27a968fc72658c62e502c8ea
+    log: revlist-581e1cbfdda9-6488f1ec9b19.txt
 
---===============9191664482055393108==
+--===============3050096454010839822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92f62485b371-cf4f5530bb55.txt
+Content-Disposition: attachment; filename=revlist-581e1cbfdda9-6488f1ec9b19.txt
 
-d0d845a790d31adb0c90f1f8364de199b23128c8 apparmor: use per file locks for transactional queries
-4d47fbbe54bf75b72eac3f5a0caa664300937620 apparmor: fix zero-length compiler warning in AA_BUG()
-8244a3bc27b3efd057da154b8d7e414670d5044f drm/prime: Fix use after free in mmap with drm_gem_ttm_mmap
-0dc54bd4d6e03be1f0b678c4297170b79f1a44ab fscache_cookie_enabled: check cookie is valid before accessing it
-eb497943fa215897f2f60fd28aa6fe52da27ca6c 9p: Convert to using the netfs helper lib to do reads and caching
-e4eeefbafc9dc237faf22f0f3dc5bdcb88ad9230 fs/9p: cleanup: opening brace at the beginning of the next line
-6d66ffc1293b9cfe42b91a9c175fb4f6e956adf6 9p: fix minor indentation and codestyle
-772712c581e7ab88f60c63b7c722913902697cfb fs/9p: fix warnings found by checkpatch.pl
-9a268faa5f8627a0d4279480b8779231adaa45c5 fs/9p: fix indentation and Add missing a blank line after declaration
-024b7d6a435a450819f112690052f2923fa5ffdd 9p: fix file headers
-10c69a0d08bb2ad5bf17ef85a27362783ffb893a 9p v9fs_parse_options: replace simple_strtoul with kstrtouint
-05f975cd6a0b35a0fba725250c7b7cdb680046fa 9p p9mode2perm: remove useless strlcpy and check sscanf return code
-27dff9a9c247d4e38d82c2e7234914cfe8499294 openrisc: fix SMP tlb flush NULL pointer dereference
-8468f45091d2866affed6f6a7aecc20779139173 bcache: fix use-after-free problem in bcache_device_free()
-dd83f482d2cd5aa6a515a343b822c12b66661c2e RDMA/bnxt_re: Remove unsupported bnxt_re_modify_ah callback
-f1a090f09f42be5a5542009f0be310fdb3e768fc RDMA/core: Require the driver to set the IOVA correctly during rereg_mr
-576acc259146af848cec0940f573f7125a116b9f nfs4: take a reference on the nfs_client when running FREE_STATEID
-4330fe35b8213e92ff51907b4cb6323be943a9ad nfs: remove unused header <linux/pnfs_osd_xdr.h>
-6429e46304ac7820eebbea2bf5d73b90c18e0e06 libfs: Move shmem_exchange to simple_rename_exchange
-3871cb8cf741dcd8ebaec4f960be9479da2f176b libfs: Support RENAME_EXCHANGE in simple_rename()
-9fc23c22e5745decc93ba5789bdcf2b093f21145 selftests/bpf: Convert test_bpffs to ASSERT macros
-7e5ad817ec297f91a2fa5c423a39a458a4701bca selftests/bpf: Test RENAME_EXCHANGE and RENAME_NOREPLACE on bpffs
-401a33da3a45cc05859b121314f8ab52c2c01977 selftests/bpf: Make netcnt selftests serial to avoid spurious failures
-f30d4968e9aee737e174fc97942af46cfb49b484 bpf: Do not reject when the stack read size is different from the tracked scalar size
-ff0700f03609b9f0defacd4ce96d9519d721e0a2 Merge tag 'sound-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-c08455dec5acf4668f5d1eb099f7fedb29f2de5f selftests/bpf: Verifier test on refill from a smaller spill
-25edbc383b72c2364c7b339245c1c5db84e615e1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-1a8c7778bcde5981463a5b9f9b2caa44a327ff93 ice: Fix VF true promiscuous mode
-0299faeaf8eb982103e4388af61fd94feb9c2d9f ice: Remove toggling of antispoof for VF trusted promiscuous mode
-ce572a5b88d5ca6737b5e23da9892792fd708ad3 ice: Fix replacing VF hardware MAC to existing MAC filter
-b385cca47363316c6d9a74ae9db407bbc281f815 ice: Fix not stopping Tx queues for VFs
-e6ba5273d4ede03d075d7a116b8edad1f6115f4d ice: Fix race conditions between virtchnl handling and VF ndo ops
-781dd830ec4f4d56b99d5d0c64bacda4c3ee3cfd block: move RQF_ELV setting into allocators
-a1cb65377e707500819b2c2c34064e5ceb32798b blk-mq: only try to run plug merge if request has same queue with incoming bio
-62ba0c008f5d46006b71b2757e2db29e0ce7e68b blk-mq: add RQF_ELV debug entry
-3b87c6ea671a18fb77709240d658f4201904f8e4 blk-mq: update hctx->nr_active in blk_mq_end_request_batch()
 c0317c0e87094f5b5782b6fdef5ae0a4b150496c ALSA: timer: Fix use-after-free problem
 fc3d4aeb559f2f704b490f8c1dff82f3b5b142ca MAINTAINERS: Update BCM7XXX entry with additional patterns
 1278cc5ac2f96bab50dd55c8c05e0a6a77ce323e ALSA: hda/realtek: Headset fixup for Clevo NH77HJQ
@@ -1050,5 +1014,41 @@ b06cf78fae0f53eebbc5c077464da47e4076f041 Merge branch 'bnxt_en-fixes'
 271351d255b09e39c7f6437738cba595f9b235be tipc: only accept encrypted MSG_CRYPTO msgs
 938cca9e4109b30ee1d476904538225a825e54eb sock: fix /proc/net/sockstat underflow in sk_clone_lock()
 cf4f5530bb55ef7d5a91036b26676643b80b1616 net/smc: Make sure the link_id is unique
+92fd95c0178729c6045dc1a1a6d573f5381a4d80 checkpatch: Fix warnings when --no-tree is used
+1a71422adaf965aac8f3e75cea318b2e2ccf8bb1 checkpatch.pl: seed camelcase from the provided kernel tree root
+acd302f7af3f785bdbbdc594ece2e3f7258253ef ice: Fix a couple off by one bugs
+cf0fc834ab5815ddcab191ba5cecbb36d3e051e1 i40e: Fix correct max_pkt_size on VF RX queue
+496f79e00599807b29b917c917bbe00135f46221 iavf: Fix return of set the new channel count
+39a8dc39bee95ef83502f56360e94338860ae95e i40e: Fix NULL ptr dereference on VSI filter sync
+d4702b88e3bbc98ba3beebad717f5105b97f18dc i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+d0e8f4cd09ef22963f5769fc2799d2705b615899 i40e: Fix warning message and call stack during rmmod i40e driver
+f35c8eeeeb59b580d41eb3c01b96346571d80f86 ice: fix FDIR init missing when reset VF
+242b91209fefcf444d243e712f46394d188d0e06 i40e: Fix failed opcode appearing if handling messages from VF
+975997ab86ea234404ce5f611ef410db1dbdf7dc iavf: check for null in iavf_fix_features
+a4689a0933a7b47d3e820b109f30e80dff885113 iavf: free q_vectors before queues in iavf_disable_vf
+c9d0b028497f20b50e65efe294b7a82a9410a3b1 iavf: don't clear a lock we don't hold
+b3f539d91c00d80e5f4cfe8ed7da522b37a24c1a iavf: Fix failure to exit out from last all-multicast mode
+6902c635af5f3f12c775f80b94bfc9c4e51f5d75 iavf: prevent accidental free of filter structure
+05129451a32f50e466ded3c19ec97970a35694c0 iavf: validate pointers
+f4502c80a97d6dd25454e4b18ac4eb5dc6bca802 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+3f17a9f283bf32c5707fc981efc8001ad9a9a301 iavf: Fix for setting queues to 0
+574f789a51b568a3d1893b6802c0dca6ff03e1fb i40e: Fix creation of first queue by omitting it if is not power of two
+05cc2b29702f4dbc5240ce9512b19472559abd35 i40e: Fix pre-set max number of queues for VF
+66340a7bb907c6e112fffd87729a8757a42a1129 i40e: Fix issue when maximum queues is exceeded
+f8acf3bdf882f2106abc1f1d10cbc7c5453c9504 iavf: Fix static code analysis warning
+4cf75db6c2d1db9e72808a98269f6dbf78b71574 igb: Fix removal of unicast MAC filters of VFs
+ee6f4d2305ee92b00401f2d51d0d4caa20cdb316 iavf: Fix limit of total number of queues to active queues of VF
+f5b0491d0ace20667cde45feeffb20bc46e0341e iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+39358cd31426624b6cfad6bbcf44fb8fffb826fd iavf: Fix deadlock occurrence during resetting VF interface
+83c0cfa95fdd7b2460f0d8ab90c688a263d91654 iavf: Fix refreshing iavf adapter stats on ethtool request
+8223d71bc8ff371fd3575d96c1ec4d5267a49776 ice: ignore dropped packets during init
+46be6b50debcfa454e2482363975ec0fcf47670c ixgbe: Document how to enable NBASE-T support
+451ae99be2d9c2471ee2a4323be392b02fb92fe4 iavf: Fix reporting when setting descriptor count
+b8c4844b68e616d5943b38fc321771edaac149e3 i40e: Fix VF failed to init adminq: -53
+f5b281094a9f1364d5f43ef6c081cbf941a4bc13 i40e: Increase delay to 1 s after global EMP reset
+c223b76033106c2dc1014703d1ac0cb5ad8815cf i40e: Fix display error code in dmesg
+5aa4b1f3fb467c6bf5bd945ab494f6c2192b21af ixgbe: set X550 MDIO speed before talking to PHY
+00b5bf06f36d40d1a56ec365477e83a0ec9bbc02 igc: Fix typo in i225 LTR functions
+6488f1ec9b19784b27a968fc72658c62e502c8ea iavf: Restore non MAC filters after link down
 
---===============9191664482055393108==--
+--===============3050096454010839822==--
