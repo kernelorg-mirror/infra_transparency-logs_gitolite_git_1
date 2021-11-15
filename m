@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/luto/linux
-Date: Mon, 15 Nov 2021 23:10:23 -0000
-Message-Id: <163701782343.14277.10978054912730719593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/toke/linux
+Date: Mon, 15 Nov 2021 23:15:33 -0000
+Message-Id: <163701813317.17293.1953769367810774735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/luto/linux
-user: luto
+repo: pub/scm/linux/kernel/git/toke/linux
+user: toke
 changes:
-  - ref: refs/heads/sched/lazymm
-    old: 42124b287817e0eb9eb0bec372a4e1612c5e8591
-    new: 09108e6db7d25483dc7d800668a3cd14c1a65c08
+  - ref: refs/heads/xdp-traffic-gen-01
+    old: fe25e608904cabc4e9453734eb34c20c2c5b3533
+    new: 761a256b232b448d2dd2da7a28dd4bf966d0e852
     log: |
-         0830d78e8e37c234f8c12c65ed118529a01fa5cd exec: Remove unnecessary vmacache_seqnum clear in exec_mmap()
-         c60ab2d617c24a5f928c8425e3c7986102e8fb39 WIP: consolidate mm switching
-         b8cba11983edc7166cbfc3ced505110b1fc19f54 kthread: Switch to __change_current_mm()
-         3a50b4a9c28e6d91a1bb9193175fff93932f1af6 sched: Use lightweight hazard pointers to grab lazy mms
-         09108e6db7d25483dc7d800668a3cd14c1a65c08 x86/mm: Opt in to IRQs-off activate_mm()
+         99502b5d66b994e7d7165f92b6815c58d9e55188 samples/bpf: Fix summary per-sec stats in xdp_sample_user
+         5dc8b0db69010d4e5f4caf0355aac503570582bd xdp: Allow registering memory model without rxq reference
+         46b438e09aa08a9e1e9fc7ad8c2b97d3129db673 page_pool: Add page_pool instance to task_struct
+         aac51ca1ad4ed9e4e0217e4000a1486b875e7ada bpf: Add XDP_REDIRECT support to XDP for bpf_prog_run()
+         761a256b232b448d2dd2da7a28dd4bf966d0e852 samples/bpf: Add xdp_trafficgen sample
          
