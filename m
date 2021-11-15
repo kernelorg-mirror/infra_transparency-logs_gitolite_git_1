@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7771949969005336592=="
+Content-Type: multipart/mixed; boundary="===============8038204617124357686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 15 Nov 2021 23:34:03 -0000
-Message-Id: <163701924332.28841.14929115980403804900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 15 Nov 2021 23:34:10 -0000
+Message-Id: <163701925027.28958.17560491874337122781@gitolite.kernel.org>
 
---===============7771949969005336592==
+--===============8038204617124357686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 7e5dfedb53a33cba87350c81124b73b5f2be7cc2
     new: a6e849d0007b374fc7fbb18d55941c77aa7c3923
     log: |
          a6e849d0007b374fc7fbb18d55941c77aa7c3923 ASoC: wm_adsp: wm_adsp_control_add() error: uninitialized symbol 'ret'
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 0c61ac2786ff0c355c2eeaa884ef9d75a969eaff
     new: 5ecc573d0c542c0f95497ba4586a6226814e4e18
     log: |
@@ -38,29 +38,29 @@ changes:
          5ecc573d0c542c0f95497ba4586a6226814e4e18 ASoC: wm8903: Convert txt bindings to yaml
          
 
---===============7771949969005336592==
+--===============8038204617124357686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637019240 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637019240-2f59baf7d82f135bdad2f491f1a75bf4ef1cc28a
+pusher C3F436CA30F5D8EB 1637019248 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637019247-08773f811505d2100e4aec7aefad033ca1badbf4
 
-7e5dfedb53a33cba87350c81124b73b5f2be7cc2 a6e849d0007b374fc7fbb18d55941c77aa7c3923 refs/heads/for-5.16
-0c61ac2786ff0c355c2eeaa884ef9d75a969eaff 5ecc573d0c542c0f95497ba4586a6226814e4e18 refs/heads/for-5.17
+7e5dfedb53a33cba87350c81124b73b5f2be7cc2 a6e849d0007b374fc7fbb18d55941c77aa7c3923 refs/heads/asoc-5.16
+0c61ac2786ff0c355c2eeaa884ef9d75a969eaff 5ecc573d0c542c0f95497ba4586a6226814e4e18 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGS7mkACgkQJNaLcl1U
-h9B3ogf/VSvQRwHLGiAhGx1H2wi67I41unRBWa/+cIxhhos2znwhPRVh34ggezal
-NafdqiMrpimztmYu6r2vZFPmVsSxbF8XGXiThYXWY3iNVjyjd7xmqosGOhGXUOdW
-p2kDDXE3b4VL0URj2kqMwwCZZ6SHRkQI+/SxQurt/7A6u0LoSk8h0E5AzR/VyBF3
-XlNnSY6WsVwTYCJeJmnsOHwoWE5r4Ex749kN/NoUhhIFKywXY0AlvDDgltqOTOxK
-f+yXjzfgKhKa3hy0++8Ch9FaWkGnGGG+KdY+byKOn/65nsTag03j0oxO8ZDJ0VaZ
-KeA2T1hJNkGaab8Wo6rKZJIP+Hm/1g==
-=MkJQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGS7nAACgkQJNaLcl1U
+h9B63Af/ZGo53RbnrA9DUev85Q/fRnzigBx16Xz83S0HP7iU/Pc7NkSp3+mXiB5j
+0X6Yo96SmHj2q6Eu+h6VwPNzjvPOjD2RRQOb/kMPCcTXczBuTTS45nycxgz25yVd
+bJzjs4m1KID4DqMzY8KlSmk3vluAfbkkNQVxvdRLRabWSXY71slNjW4MWbbd75RE
+B2JGisKmz3MFAr+Dq65+hPqrbqsDrmZ0lSMUtAbWUsNvppbuUoLvKwlYRd5bpgMF
+1q1D79/MHWdc1ZG1XS1F+P0KC9MMp9uRxDJa48joaAoE7zvaXFY2BLkNDmsfmzp3
+3jUNdIGP5PTDQEJHDS9Inj3vJJIEaA==
+=xf2w
 -----END PGP SIGNATURE-----
 
---===============7771949969005336592==--
+--===============8038204617124357686==--
