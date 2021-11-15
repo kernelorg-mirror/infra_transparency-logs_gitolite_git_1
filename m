@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2871265719520859980=="
+Content-Type: multipart/mixed; boundary="===============4522950003801823414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 15 Nov 2021 16:12:50 -0000
-Message-Id: <163699277095.2234.3081872996959765721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 15 Nov 2021 16:14:06 -0000
+Message-Id: <163699284673.2648.15248488583669088793@gitolite.kernel.org>
 
---===============2871265719520859980==
+--===============4522950003801823414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 4c7a7d5086cd0f9ce22bb3df86604576d0604db5
-    new: 5ebea8244afb6ad50108f0550baae7954c0af538
-    log: revlist-4c7a7d5086cd-5ebea8244afb.txt
+  - ref: refs/heads/ras/core
+    old: 15802468a95bd8ec9060eb861468f4a0f0106fa4
+    new: 70aeb807cf8649dedbcd59b70dfc38fb89bdf1bd
+    log: revlist-15802468a95b-70aeb807cf86.txt
 
---===============2871265719520859980==
+--===============4522950003801823414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c7a7d5086cd-5ebea8244afb.txt
+Content-Disposition: attachment; filename=revlist-15802468a95b-70aeb807cf86.txt
 
-dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
-138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
 15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
@@ -1049,6 +1046,9 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-5ebea8244afb6ad50108f0550baae7954c0af538 dt-bindings: vendor-prefixes: add T-Head Semiconductor
+0b746e8c1e1e3fcc9e4036efe8d3ea3fd3e5d4c3 x86/MCE/AMD, EDAC/amd64: Move address translation to AMD64 EDAC
+b3218ae47771f943b3e222f35fc46afacba39929 x86/amd_nb, EDAC/amd64: Move DF Indirect Read to AMD64 EDAC
+448c3d6085b71aad58cd515469560ee76c982007 EDAC/amd64: Allow for DF Indirect Broadcast reads
+70aeb807cf8649dedbcd59b70dfc38fb89bdf1bd EDAC/amd64: Add context struct
 
---===============2871265719520859980==--
+--===============4522950003801823414==--
