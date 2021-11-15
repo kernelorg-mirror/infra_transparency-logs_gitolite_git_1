@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3344631075952867901=="
+Content-Type: multipart/mixed; boundary="===============2608086924463526653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 15 Nov 2021 09:25:33 -0000
-Message-Id: <163696833331.27350.4498237040784533665@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 09:26:02 -0000
+Message-Id: <163696836215.27570.17681514708051275910@gitolite.kernel.org>
 
---===============3344631075952867901==
+--===============2608086924463526653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 8bb7eca972ad531c9b149c0a51ab43a417385813
+  - ref: refs/heads/review-andy
+    old: 176412f8674be8ba9a45bb61086e224e2118324a
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-8bb7eca972ad-fa55b7dcdc43.txt
+    log: revlist-176412f8674b-fa55b7dcdc43.txt
 
---===============3344631075952867901==
+--===============2608086924463526653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bb7eca972ad-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-176412f8674b-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============3344631075952867901==--
+--===============2608086924463526653==--
