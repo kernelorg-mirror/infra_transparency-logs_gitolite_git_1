@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 15 Nov 2021 14:02:59 -0000
-Message-Id: <163698497952.13040.16562181268643724238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 15 Nov 2021 14:04:41 -0000
+Message-Id: <163698508122.13598.16166916518545739049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 330dcf98682a478bd776f339ac2afafdccbdd790
-    new: cb49adb703b2a0b0cb4dcad0b985e186149ce65c
+    old: f8885ac89ce310570e5391fe0bf0ec9c7c9b4fdc
+    new: b922f622592af76b57cbc566eaeccda0b31a3496
     log: |
-         10d7224f7bd85cc71e878fc00bd6e2473dcf6ba9 nsenter: clear SIGCHLD inherited setting
-         ec711d72d15626c15a0a4c2dba907452bcb652d0 unshare: clear SIGCHLD inherited setting
-         e18f896eb1df011bff2c8cede5f14dd2295b9dd5 more: clear SIGCHLD inherited setting
-         cb49adb703b2a0b0cb4dcad0b985e186149ce65c fsck: clear SIGCHLD inherited setting
+         b922f622592af76b57cbc566eaeccda0b31a3496 atlantic: Fix OOB read and write in hw_atl_utils_fw_rpc_wait
          
