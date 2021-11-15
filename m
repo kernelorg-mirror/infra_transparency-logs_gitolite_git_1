@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0783360085607356324=="
+Content-Type: multipart/mixed; boundary="===============2871265719520859980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 15 Nov 2021 16:12:42 -0000
-Message-Id: <163699276278.2091.4536221077923058313@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 16:12:50 -0000
+Message-Id: <163699277095.2234.3081872996959765721@gitolite.kernel.org>
 
---===============0783360085607356324==
+--===============2871265719520859980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 4c7a7d5086cd0f9ce22bb3df86604576d0604db5
     new: 5ebea8244afb6ad50108f0550baae7954c0af538
     log: revlist-4c7a7d5086cd-5ebea8244afb.txt
 
---===============0783360085607356324==
+--===============2871265719520859980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fal
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 5ebea8244afb6ad50108f0550baae7954c0af538 dt-bindings: vendor-prefixes: add T-Head Semiconductor
 
---===============0783360085607356324==--
+--===============2871265719520859980==--
