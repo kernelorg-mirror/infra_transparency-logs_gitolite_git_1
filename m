@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6196532880736111383=="
+Content-Type: multipart/mixed; boundary="===============2100547781634041068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 15 Nov 2021 04:20:31 -0000
-Message-Id: <163695003104.22324.1117058577075868077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 15 Nov 2021 04:20:39 -0000
+Message-Id: <163695003938.22429.893361436293977391@gitolite.kernel.org>
 
---===============6196532880736111383==
+--===============2100547781634041068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
   - ref: refs/heads/next
-    old: abd9a6049bb59a9bab8cc8b42ccbe4a46c307f92
+    old: b4dc97ab0a629eda8bda20d96ef47dac08a505d9
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-abd9a6049bb5-fa55b7dcdc43.txt
+    log: revlist-b4dc97ab0a62-fa55b7dcdc43.txt
   - ref: refs/tags/v5.15-rc2
     old: 0000000000000000000000000000000000000000
     new: 249433b711cba85aaec2e714898b46e3fa821571
@@ -52,7 +52,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: dc7089468610f429e9264420c43d5a3625fd5d8b
 
---===============6196532880736111383==
+--===============2100547781634041068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,11 +1083,11 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============6196532880736111383==
+--===============2100547781634041068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abd9a6049bb5-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-b4dc97ab0a62-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -2114,4 +2114,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============6196532880736111383==--
+--===============2100547781634041068==--
