@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 15 Nov 2021 11:40:53 -0000
-Message-Id: <163697645329.17007.4914758375256037007@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 11:41:00 -0000
+Message-Id: <163697646094.17109.7575046196045767742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/pcc_type3
-    old: 20017298e66df04622c01444a28f1745c6504422
+  - ref: refs/heads/v5.15/pcc_type3
+    old: db918d7c13901646937da28423737c14528b9379
     new: 0000000000000000000000000000000000000000
