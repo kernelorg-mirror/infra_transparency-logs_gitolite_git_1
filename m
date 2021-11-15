@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0009796155088544119=="
+Content-Type: multipart/mixed; boundary="===============5825783169828375106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 15 Nov 2021 10:55:44 -0000
-Message-Id: <163697374449.21535.3031957401986488216@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 10:56:47 -0000
+Message-Id: <163697380745.21898.5692249533524752006@gitolite.kernel.org>
 
---===============0009796155088544119==
+--===============5825783169828375106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 348ecd61770f6aca0d060fea2bb538e749775638
-    new: 2e9fe7101314d5056d63a9131b3f6d3b23255000
-    log: revlist-348ecd61770f-2e9fe7101314.txt
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+  - ref: refs/heads/fixes
+    old: 90935eb303e0d12f3d3d0383262e65290321f5f6
+    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    log: revlist-90935eb303e0-fa55b7dcdc43.txt
 
---===============0009796155088544119==
+--===============5825783169828375106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-348ecd61770f-2e9fe7101314.txt
+Content-Disposition: attachment; filename=revlist-90935eb303e0-fa55b7dcdc43.txt
 
+a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
+dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
+a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
+138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
+9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
+3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
+15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
 48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
 ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
 635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
@@ -1046,12 +1050,5 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-9bb2d6346e8c11430d9f5098132509283e6f1f1f mmc: tmio: reinit card irqs in reset routine
-1a3a23bd06b9adf11e8b99ea7c58320782c5b42b mmc: core: rewrite mmc_fixup_device()
-819becf0bd191a8ffc36630bfc288c7f02d8036a mmc: core: allow to match the device tree to apply quirks
-1da7d3a33a63943842f7ba678e266cf7ab68077c mmc: core: provide macro and table to match the device tree to apply quirks
-520c5dab35db09235b72fa4a38294fa360660254 mmc: core: Fixup storing of OCR for MMC_QUIRK_NONSTD_SDIO
-10d6e7edc64932ada2915210d131b9b3a4ec1e79 mmc: core: transplant ti,wl1251 quirks from to be retired omap_hsmmc
-2e9fe7101314d5056d63a9131b3f6d3b23255000 mmc: omap_hsmmc: Revert special init for wl1251
 
---===============0009796155088544119==--
+--===============5825783169828375106==--
