@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7151763601947907644=="
+Content-Type: multipart/mixed; boundary="===============4394344339864437704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 15 Nov 2021 16:50:00 -0000
-Message-Id: <163699500037.27067.11784022127944073763@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 16:50:26 -0000
+Message-Id: <163699502610.29036.15448214013643320486@gitolite.kernel.org>
 
---===============7151763601947907644==
+--===============4394344339864437704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/master
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============7151763601947907644==
+--===============4394344339864437704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============7151763601947907644==--
+--===============4394344339864437704==--
