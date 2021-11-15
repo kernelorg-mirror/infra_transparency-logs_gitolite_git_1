@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7301162804909802982=="
+Content-Type: multipart/mixed; boundary="===============4926295839072438334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 15 Nov 2021 10:34:50 -0000
-Message-Id: <163697249073.5734.1188525650484336183@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 10:35:23 -0000
+Message-Id: <163697252353.7354.7811397417372212341@gitolite.kernel.org>
 
---===============7301162804909802982==
+--===============4926295839072438334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 23646c2b8ad5c841e96b93510b3a5c82d11526d1
+  - ref: refs/heads/master
+    old: e1b5c6a848a4381dcd84bc6ed3bb599907c53218
     new: d16e6dfa3fe1ea8c3e593a9d1774b37acadfc45e
-    log: revlist-23646c2b8ad5-d16e6dfa3fe1.txt
+    log: revlist-e1b5c6a848a4-d16e6dfa3fe1.txt
 
---===============7301162804909802982==
+--===============4926295839072438334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23646c2b8ad5-d16e6dfa3fe1.txt
+Content-Disposition: attachment; filename=revlist-e1b5c6a848a4-d16e6dfa3fe1.txt
 
 7b727545af0c6b941486b82410dab31b0dae1e77 headers/deps: Add header dependencies to .c files: <linux/resource_ext_api.h>
 c70a0cba03f8da42851576faaf50b2451a100f77 headers/deps: Add header dependencies to .c files: <linux/rtnetlink.h>
@@ -1051,4 +1051,4 @@ ba58f4b2279d75c59c10827704cf94558b398799 PREP: headers/deps: Add header dependen
 e111a5e767f12de73b828e980e036474b585888f FIX: f08236a5b35c headers/deps: smp: Optimize <linux/smp.h> dependencies, remove <linux/smp_api.h> inclusion
 d16e6dfa3fe1ea8c3e593a9d1774b37acadfc45e headers/prep: sched/headers: Add header guard to <linux/task_io_account.h>
 
---===============7301162804909802982==--
+--===============4926295839072438334==--
