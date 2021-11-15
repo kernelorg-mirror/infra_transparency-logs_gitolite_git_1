@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8892441357534798911=="
+Content-Type: multipart/mixed; boundary="===============8002560750776156002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 15 Nov 2021 08:56:00 -0000
-Message-Id: <163696656094.30250.6323684176461440093@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 08:56:20 -0000
+Message-Id: <163696658074.30404.15765484939556954004@gitolite.kernel.org>
 
---===============8892441357534798911==
+--===============8002560750776156002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/at24/for-next
-    old: 7629254054820bead6e18f8c3ae65c2bb01a5ae2
+  - ref: refs/heads/at24/for-current
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-762925405482-fa55b7dcdc43.txt
+    log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============8892441357534798911==
+--===============8002560750776156002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-762925405482-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============8892441357534798911==--
+--===============8002560750776156002==--
