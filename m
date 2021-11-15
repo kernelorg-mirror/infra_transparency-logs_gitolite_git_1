@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4744609712021440842=="
+Content-Type: multipart/mixed; boundary="===============0880724149284026270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Mon, 15 Nov 2021 18:11:00 -0000
-Message-Id: <163699986041.17396.14565887065082067144@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 18:12:08 -0000
+Message-Id: <163699992862.17829.18138289428016605449@gitolite.kernel.org>
 
---===============4744609712021440842==
+--===============0880724149284026270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,208 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 4c646eceff35f0bfee4c67285c6963ac2db6849e
-    new: 90f5a0f43a05540e8f9485875874047bf4ae7faf
-    log: revlist-4c646eceff35-90f5a0f43a05.txt
-  - ref: refs/tags/5.16-rc1-5.10
+  - ref: refs/heads/linux-5.4.y
+    old: d1b648ad1597684bca53ffa95d348d52929b5acc
+    new: e3aafa6046dcd0f34100ed307088041e3a1a2360
+    log: revlist-d1b648ad1597-e3aafa6046dc.txt
+  - ref: refs/tags/5.16-rc1-5.4
     old: 0000000000000000000000000000000000000000
-    new: 90f5a0f43a05540e8f9485875874047bf4ae7faf
-  - ref: refs/tags/f2fs-for-5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: a1f9c918c98ba2e23a7a242ad9260946a7503169
-  - ref: refs/tags/v4.14.247
-    old: 0000000000000000000000000000000000000000
-    new: 232212bea464d04980a558f2c6900bc16af601f7
-  - ref: refs/tags/v4.14.248
-    old: 0000000000000000000000000000000000000000
-    new: bfbb7c5731c5bbb43ed9a9886b8fb4fe2514d579
-  - ref: refs/tags/v4.14.249
-    old: 0000000000000000000000000000000000000000
-    new: 51f71d65c52875061ebb1d368205278fcd9fadf0
-  - ref: refs/tags/v4.14.250
-    old: 0000000000000000000000000000000000000000
-    new: ab1ad1d301a0a16c530c4eb13f048dd626a3e22f
-  - ref: refs/tags/v4.19.207
-    old: 0000000000000000000000000000000000000000
-    new: da08604be62d832315e0732e4332b319d3981d61
-  - ref: refs/tags/v4.19.208
-    old: 0000000000000000000000000000000000000000
-    new: 704da4de1a3a1569a1b8654a16d5a1b3605e5aed
-  - ref: refs/tags/v4.19.209
-    old: 0000000000000000000000000000000000000000
-    new: 092901e063f94ca820d2b0559f794537ce6e4093
-  - ref: refs/tags/v4.19.210
-    old: 0000000000000000000000000000000000000000
-    new: 23d12dd1614fbf4890dfa6dd52ff1095fec3e473
-  - ref: refs/tags/v4.19.211
-    old: 0000000000000000000000000000000000000000
-    new: 63f29715ffaed92cf202589a8c963fc19ec6a2b6
-  - ref: refs/tags/v4.4.284
-    old: 0000000000000000000000000000000000000000
-    new: c1f0e5c36e5a2c939f4997644be293700893ec40
-  - ref: refs/tags/v4.4.285
-    old: 0000000000000000000000000000000000000000
-    new: f6538136372a9dca2784e1e68278a6c9846a9c16
-  - ref: refs/tags/v4.4.286
-    old: 0000000000000000000000000000000000000000
-    new: 7f34646afac70b488a576c6c288b6d45f6df2fb0
-  - ref: refs/tags/v4.4.287
-    old: 0000000000000000000000000000000000000000
-    new: 4ad508e3523c85db8f97a6e085bd5c03cc94f0dd
-  - ref: refs/tags/v4.4.288
-    old: 0000000000000000000000000000000000000000
-    new: 6897ebd168c7288373ff1b790dca33e3fc3fedd7
-  - ref: refs/tags/v4.9.283
-    old: 0000000000000000000000000000000000000000
-    new: 543e3971355c594206122114a8a10beb3c561497
-  - ref: refs/tags/v4.9.284
-    old: 0000000000000000000000000000000000000000
-    new: 3ea575f854b3f7c3a69509f81f746ecdf5746f2e
-  - ref: refs/tags/v4.9.285
-    old: 0000000000000000000000000000000000000000
-    new: d614f9db32bf8480a98db6f6d96a3c9cedf64318
-  - ref: refs/tags/v4.9.286
-    old: 0000000000000000000000000000000000000000
-    new: 21b9bd13a1ca30ff7d2892dde2af9a7029c6094e
-  - ref: refs/tags/v5.10.64
-    old: 0000000000000000000000000000000000000000
-    new: bed6d60e2cc6dcb57f1dd376d686b411198bc4dd
-  - ref: refs/tags/v5.10.65
-    old: 0000000000000000000000000000000000000000
-    new: 43ceb4e4354135939207669f68ff10beaac3ba4e
-  - ref: refs/tags/v5.10.66
-    old: 0000000000000000000000000000000000000000
-    new: 92f794460ea4fbdb0f25cacc00c15651526b077d
-  - ref: refs/tags/v5.10.67
-    old: 0000000000000000000000000000000000000000
-    new: 7eff07b953619567880d347a6a5fa4b7f5a7ed48
-  - ref: refs/tags/v5.10.68
-    old: 0000000000000000000000000000000000000000
-    new: 845a075b301ed1596d3782b40a4eb2b5d26cd1f2
-  - ref: refs/tags/v5.10.69
-    old: 0000000000000000000000000000000000000000
-    new: 573281ca0278f7e9358d5877b06b3d2e64dbc1a2
-  - ref: refs/tags/v5.10.70
-    old: 0000000000000000000000000000000000000000
-    new: 3fb4f61dc3307eedb69425c8c20f1c71bc17ffad
-  - ref: refs/tags/v5.10.71
-    old: 0000000000000000000000000000000000000000
-    new: 33432b5005a5db90f79fa4c3f1239115b464f724
-  - ref: refs/tags/v5.10.72
-    old: 0000000000000000000000000000000000000000
-    new: 8a3699288efa98f4119659ec0f674eb94a620c62
-  - ref: refs/tags/v5.10.73
-    old: 0000000000000000000000000000000000000000
-    new: 7de2c0938fa2d9fa140d3ee444c0c4841678c7ed
-  - ref: refs/tags/v5.13.16
-    old: 0000000000000000000000000000000000000000
-    new: b762446b8e1e3b8e01804f29b5074f614c37369a
-  - ref: refs/tags/v5.13.17
-    old: 0000000000000000000000000000000000000000
-    new: d8a7727efbe639f8c482d811c4d7d44ad02d7817
-  - ref: refs/tags/v5.13.18
-    old: 0000000000000000000000000000000000000000
-    new: ba4179e3b1e7bc04ff3fb5b8980f9446a274c988
-  - ref: refs/tags/v5.13.19
-    old: 0000000000000000000000000000000000000000
-    new: 41993700483c206ca546811893e3a1e19a596906
-  - ref: refs/tags/v5.14.10
-    old: 0000000000000000000000000000000000000000
-    new: 45fe9ca8bfdce371872d3c6cd59e46ab4171ac85
-  - ref: refs/tags/v5.14.11
-    old: 0000000000000000000000000000000000000000
-    new: 7fb2c125e75fe8d9a6f81bdd34ecc57333204464
-  - ref: refs/tags/v5.14.12
-    old: 0000000000000000000000000000000000000000
-    new: 9431e22e1d986ce41c322ce15feaff7e3388c2c8
-  - ref: refs/tags/v5.14.3
-    old: 0000000000000000000000000000000000000000
-    new: 787ccb9cba759e35906f1793fbf975d3336053d9
-  - ref: refs/tags/v5.14.4
-    old: 0000000000000000000000000000000000000000
-    new: 9e615ec238185940012cb28c9b5788ea3dc40d49
-  - ref: refs/tags/v5.14.5
-    old: 0000000000000000000000000000000000000000
-    new: 5146fe22a2e3de723c7c2524aa1d20e53d270421
-  - ref: refs/tags/v5.14.6
-    old: 0000000000000000000000000000000000000000
-    new: e00ea6a02c7814007badfd82630be67ddc31301a
-  - ref: refs/tags/v5.14.7
-    old: 0000000000000000000000000000000000000000
-    new: 44991afaadd4906995e65e3cfa40f25d9d2fd1df
-  - ref: refs/tags/v5.14.8
-    old: 0000000000000000000000000000000000000000
-    new: d7283ef3bf72d300f05db793184d17a18a7e995b
-  - ref: refs/tags/v5.14.9
-    old: 0000000000000000000000000000000000000000
-    new: d2017ba205dae4b57b4fea63303d62723c7df7a3
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.4.145
-    old: 0000000000000000000000000000000000000000
-    new: 03afb479d88dc969e8928f8a61677f4f007abb39
-  - ref: refs/tags/v5.4.146
-    old: 0000000000000000000000000000000000000000
-    new: 8d7440b91279e8ff030d50a16f9dc425985c61f3
-  - ref: refs/tags/v5.4.147
-    old: 0000000000000000000000000000000000000000
-    new: 9076f07b3768a7c182c5b539828e2f4c622ce6f9
-  - ref: refs/tags/v5.4.148
-    old: 0000000000000000000000000000000000000000
-    new: efe5bdd94b339d249babe4892b1316032cad187c
-  - ref: refs/tags/v5.4.149
-    old: 0000000000000000000000000000000000000000
-    new: a72bb5a80113621d75f8baeb8f75ed381d5d4b3d
-  - ref: refs/tags/v5.4.150
-    old: 0000000000000000000000000000000000000000
-    new: 9758738fea8cc0b00b1de5228a896c0b2eb97fab
-  - ref: refs/tags/v5.4.151
-    old: 0000000000000000000000000000000000000000
-    new: be7ddf102916bcbb7feb42ffa7f91d9e10c4443c
-  - ref: refs/tags/v5.4.152
-    old: 0000000000000000000000000000000000000000
-    new: 033cf5fa82663cbe6b7e7fd864408a01fe63f383
-  - ref: refs/tags/v5.4.153
-    old: 0000000000000000000000000000000000000000
-    new: ce9c78d64b929baa5c899948f6e41b4ad1f18d20
+    new: e3aafa6046dcd0f34100ed307088041e3a1a2360
 
---===============4744609712021440842==
+--===============0880724149284026270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c646eceff35-90f5a0f43a05.txt
+Content-Disposition: attachment; filename=revlist-d1b648ad1597-e3aafa6046dc.txt
 
-f0670763e6abf83c6914da675f93ae81651c3c4e f2fs: should use GFP_NOFS for directory inodes
-8469d15f5006c1effc9e7398f4bc4df30b918d33 f2fs: quota: fix potential deadlock
-34dac742e9a1e97d931c90232fd9c8f2c1c55154 f2fs: avoid attaching SB_ACTIVE flag during mount
-c4670e57eb02c66aea480cff6753834415e39262 f2fs: introduce excess_dirty_threshold()
-7d8f1ae0c9d065935b5d03e7d13a1157015c61e1 f2fs: set SBI_NEED_FSCK flag when inconsistent node block found
-c6ad2610362a1fc7ee0604fd9f66fb601d457b6c f2fs: fix up f2fs_lookup tracepoints
-922ca94f6b006048d744719233a78000e6f92e95 f2fs: fix to use WHINT_MODE
-26385e6f510c44801c978c6ac99bcb7ac15394ed f2fs: fix wrong condition to trigger background checkpoint correctly
-9ed55fcf323373dff1ce737426db1903f4c210dc f2fs: include non-compressed blocks in compr_written_block
-26c9a7cb9d0eee8d8eb22d3770a3e0b6d18298d5 f2fs: replace snprintf in show functions with sysfs_emit
-52edd213e21324deb3f4efcd579da9bf170366dd f2fs: introduce fragment allocation mode mount option
-315124b9bc2193e10e26cf6a0234c664ee4e3cb2 f2fs: multidevice: support direct IO
-e421f58de2033b33ca8599b09adacd7f8b7af62d f2fs: compress: fix overwrite may reduce compress ratio unproperly
-71a1a022288091b27f915373117e69c52400fece f2fs: compress: disallow disabling compress on non-empty compressed file
-eed99d8e62ec44a0cad91a588890ea0209ae7c52 f2fs: fix incorrect return value in f2fs_sanity_check_ckpt()
-347e8631862589669297e7c5cb1764469b908495 f2fs: support fault injection for dquot_initialize()
-f406d69343a6cc3edfd0fd03c83709edf46f2c74 f2fs: invalidate META_MAPPING before IPU/DIO write
-90f5a0f43a05540e8f9485875874047bf4ae7faf f2fs: fix UAF in f2fs_available_free_memory
+f176efb2ee7ef06fb2caa4f102e9a19fecef4a03 f2fs: should use GFP_NOFS for directory inodes
+556942acd63bf78674a72ee6fc0e33b57400f0e0 f2fs: quota: fix potential deadlock
+d8600a40c38135f4e99c36526b9009e84a430ca6 f2fs: avoid attaching SB_ACTIVE flag during mount
+c17566fc24ecc4032a5b9dd839b3c30bc1965e5d f2fs: introduce excess_dirty_threshold()
+2914bf4b12ec6daf47ff4d9d5d213cc07552f408 f2fs: set SBI_NEED_FSCK flag when inconsistent node block found
+9a046468ae2fa32317e280c037401b373d1864ee f2fs: fix up f2fs_lookup tracepoints
+76b4c7055eff9a6bcc4e304cf58982b5c9e5da3b f2fs: fix to use WHINT_MODE
+c6c956b0715ab6b1eb3059f33c55e11abdfa3dd1 f2fs: fix wrong condition to trigger background checkpoint correctly
+eca07e705aa9757632d5304c376b3ddc98222fa9 f2fs: include non-compressed blocks in compr_written_block
+61c60b0131d214f8aa61cef5cce5bb6681daebec f2fs: introduce fragment allocation mode mount option
+074c05ee80975c6aef3f1e54361e42e1025a2689 f2fs: multidevice: support direct IO
+8bdb27196326a841d5c18bfe9fae710d6be854eb f2fs: compress: fix overwrite may reduce compress ratio unproperly
+eb59c1367c28a3dbddd958fde1d84d6a02153c80 f2fs: compress: disallow disabling compress on non-empty compressed file
+2ae933c080e60adc7227bb8293e67b53a32414f9 f2fs: fix incorrect return value in f2fs_sanity_check_ckpt()
+3492eba418755cdb6e1e5e8f9a5c6e87da274149 f2fs: support fault injection for dquot_initialize()
+20f6a6f4fe233e14545cd5fea87d436e17de4962 f2fs: invalidate META_MAPPING before IPU/DIO write
+e3aafa6046dcd0f34100ed307088041e3a1a2360 f2fs: fix UAF in f2fs_available_free_memory
 
---===============4744609712021440842==--
+--===============0880724149284026270==--
