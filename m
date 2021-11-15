@@ -1,32 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 15 Nov 2021 12:22:28 -0000
-Message-Id: <163697894843.12313.3878415895564039319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 15 Nov 2021 12:25:26 -0000
+Message-Id: <163697912672.14560.17319074659499175944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/master-pending
-    old: ced42bc57349f1ae6282fd712be983e495aefc75
-    new: 4716d5bb1e168a4db246bc6aac343c9bbf0811dd
+  - ref: refs/heads/master
+    old: 3f75edade927c2aaf321a6b05e6a59f0b195fdcc
+    new: 12c9f22f8b61703a523f497b477790414f4c1d5c
     log: |
-         078e14e0a93122e59b0cff696269ab88d257b47b ath11k: add string type to search board data in board-2.bin for WCN6855
-         e869126b3d4ac4a1a2c15b3f1526b48f9d5bd991 ath11k: add support for BSS color change
-         76a4b41dc6c2f164e54f10970c5af14c5eaff85e ath11k: clear the keys properly via DISABLE_KEY
-         f9cf725b0b431e65ddec81bb46bd737a55c55e0d ath11k: reset RSN/WPA present state for open BSS
-         4716d5bb1e168a4db246bc6aac343c9bbf0811dd Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: fb5887e2004522f03b2ebb825f0b43b1500c217c
-    new: f9cf725b0b431e65ddec81bb46bd737a55c55e0d
-    log: |
-         078e14e0a93122e59b0cff696269ab88d257b47b ath11k: add string type to search board data in board-2.bin for WCN6855
-         e869126b3d4ac4a1a2c15b3f1526b48f9d5bd991 ath11k: add support for BSS color change
-         76a4b41dc6c2f164e54f10970c5af14c5eaff85e ath11k: clear the keys properly via DISABLE_KEY
-         f9cf725b0b431e65ddec81bb46bd737a55c55e0d ath11k: reset RSN/WPA present state for open BSS
+         6cb66b5f9db849c09fb4e810a699cc8d51dba2c1 Drop mips-ralink-don-t-define-pc_iobase-but-increase-io_s.patch
+         12c9f22f8b61703a523f497b477790414f4c1d5c Drop btrfs-subpage-make-btrfs_submit_compressed_write-com.patch
          
