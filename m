@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0405134475616074495=="
+Content-Type: multipart/mixed; boundary="===============1011026394288678867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 15 Nov 2021 20:23:10 -0000
-Message-Id: <163700779079.4892.7636537723471428540@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 20:23:22 -0000
+Message-Id: <163700780228.5040.11194414689250179132@gitolite.kernel.org>
 
---===============0405134475616074495==
+--===============1011026394288678867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: cc0356d6a02e064387c16a83cb96fe43ef33181e
-    new: 6d3b1b069946e8a9dbb5e6ea45c3aeee1d56ea44
-    log: revlist-cc0356d6a02e-6d3b1b069946.txt
+  - ref: refs/heads/mlx5-queue
+    old: 5b32721984112848d10473530ffd99f0de9aca38
+    new: 63b1812909ceec3b5f2f382d92c9be3385d7d8e6
+    log: revlist-5b3272198411-63b1812909ce.txt
 
---===============0405134475616074495==
+--===============1011026394288678867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc0356d6a02e-6d3b1b069946.txt
+Content-Disposition: attachment; filename=revlist-5b3272198411-63b1812909ce.txt
 
-8883deb50eb6529ae1fd4641e402da8ab4f720d2 kselftests/net: add missed vrf_strict_mode_test.sh test to Makefile
-17b67370c38de2a878debf39dcbc704a206af4d0 kselftests/net: add missed toeplitz.sh/toeplitz_client.sh to Makefile
-843c3cbbdf89e8a2801363c3837f43557568d08f Merge branch 'kselftests-net-missing'
-c081d53f97a1a90a38e4296dd3d6fda5e38dca2c security: pass asoc to sctp_assoc_request and sctp_sk_clone
-e215dab1c49070cd75620afd801f777207a5b65c security: call security_sctp_assoc_request in sctp_sf_do_5_1D_ce
-7c2ef0240e6abfd3cc59511339517358350a8910 security: add sctp_assoc_established hook
-e7310c94024cdf099c0d29e6903dd6fe9205bb60 security: implement sctp_assoc_established hook in selinux
-2bd080b0961d776f90e7b1ef9788c56da3638c73 Merge branch 'sctp-=security-hook-fixes'
-aedddb4e45b34426cfbfa84454b6f203712733c5 NFC: add necessary privilege flags in netlink layer
-acaea0d5a63406c052444ad3a7cb54241adaf805 net:ipv6:Remove unneeded semicolon
-9b65b17db72313b7a4fe9bc9502928c88be57986 net: avoid double accounting for pure zerocopy skbs
-1aabe578dd86e9f2867c4db4fba9a15f4ba1825d ethtool: fix ethtool msg len calculation for pause stats
-27dff9a9c247d4e38d82c2e7234914cfe8499294 openrisc: fix SMP tlb flush NULL pointer dereference
-8468f45091d2866affed6f6a7aecc20779139173 bcache: fix use-after-free problem in bcache_device_free()
-dd83f482d2cd5aa6a515a343b822c12b66661c2e RDMA/bnxt_re: Remove unsupported bnxt_re_modify_ah callback
-f1a090f09f42be5a5542009f0be310fdb3e768fc RDMA/core: Require the driver to set the IOVA correctly during rereg_mr
-576acc259146af848cec0940f573f7125a116b9f nfs4: take a reference on the nfs_client when running FREE_STATEID
-250962e4684678629afd2feeaefdc40c5db501f4 net: udp6: replace __UDP_INC_STATS() with __UDP6_INC_STATS()
-4330fe35b8213e92ff51907b4cb6323be943a9ad nfs: remove unused header <linux/pnfs_osd_xdr.h>
-563bcbae3ba233c275c244bfce2efe12938f5363 net: vlan: fix a UAF in vlan_dev_real_dev()
-5f15d392dcb4aa250a63d6f2c5adfc26c0aedc78 net: dsa: qca8k: make sure PAD0 MAC06 exchange is disabled
-92f62485b3715882cd397b0cbd80a96d179b86d6 net: dsa: felix: fix broken VLAN-tagged PTP under VLAN-aware bridge
-6429e46304ac7820eebbea2bf5d73b90c18e0e06 libfs: Move shmem_exchange to simple_rename_exchange
-3871cb8cf741dcd8ebaec4f960be9479da2f176b libfs: Support RENAME_EXCHANGE in simple_rename()
-9fc23c22e5745decc93ba5789bdcf2b093f21145 selftests/bpf: Convert test_bpffs to ASSERT macros
-7e5ad817ec297f91a2fa5c423a39a458a4701bca selftests/bpf: Test RENAME_EXCHANGE and RENAME_NOREPLACE on bpffs
-401a33da3a45cc05859b121314f8ab52c2c01977 selftests/bpf: Make netcnt selftests serial to avoid spurious failures
-f30d4968e9aee737e174fc97942af46cfb49b484 bpf: Do not reject when the stack read size is different from the tracked scalar size
 ff0700f03609b9f0defacd4ce96d9519d721e0a2 Merge tag 'sound-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 c08455dec5acf4668f5d1eb099f7fedb29f2de5f selftests/bpf: Verifier test on refill from a smaller spill
 25edbc383b72c2364c7b339245c1c5db84e615e1 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
@@ -1050,5 +1022,33 @@ cc0be1ad686fb29a4d127948486f40b17fb34b50 net: bridge: Slightly optimize 'find_po
 02a0988b98930491db95966fb8086072e47dabb6 net: mvneta: use phylink_generic_validate()
 5038ffea0c6c9476f1a8288b112609ac5a49f51b net: mvpp2: use phylink_generic_validate()
 6d3b1b069946e8a9dbb5e6ea45c3aeee1d56ea44 Merge branch 'generic-phylink-validation'
+1c0018a29fd151db808123dfdeaab30473db7186 net/mlx5e: Support ethtool cq mode
+f3729ee5f190745b40fac64d36e781c5d955bc22 net/mlx5e: Specify out ifindex when looking up decap route
+40a081c3af989338b30392ec805f75a305a19151 net/mlx5: E-switch, Enable vport QoS on demand
+a941ebae1af8f5c6d30353339ba0d138e93c1b10 net/mlx5: E-switch, Create QoS on demand
+ec5a43fc682bca0866be91e7d6855893d822101a devlink: Add support to set port function as trusted
+64e4c41b8e553d9cfed7d285233160d09eac16b3 net/mlx5: E-switch, Remove vport enabled check
+549f5c1f4a6f9716b08c3cdbe49bf8757ffbd8eb net/mlx5: E-switch, Reuse mlx5_eswitch_set_vport_mac
+c8b5c5958f75920ecebd7e611c6dfe0958287d83 net/mlx5: E-switch, move offloads mode callbacks to offloads file
+26e01101e462a46a7cb98db50d0e43042fdbaf92 net/mlx5: SF/VF, Port function trust set support
+6e36b608b5afba70ceb2af08d06250ef15cc2513 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+65d58fff135e10847b66903c4825b7b8c97e0a49 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+eb057c911061d2164adb24d973195b24d9dd9ded net/mlx5e: Allow profile-specific limitation on max num of channels
+f811dded50a2bb3f14ba0b18b4b40f6ec88117fa net/mlx5e: Use dynamic per-channel allocations in stats
+6c6b4cf87993ce66677cb2a274f864960f7fd1d7 net/mlx5e: Allocate per-channel stats dynamically at first usage
+1f441d579a97cd5b6f417aec1dac46c441c1ff89 net/mlx5: Fix format-security build warnings
+c83cf6e9df646d4349574803d4a1c82a095a4b91 net/mlx5: TC, using swap() instead of tmp variable
+5118b3f587732fcbfd22eda611160a497e33d28c net/mlx5e: TC, Destroy nic flow counter if exists
+ae9d38ac1d23f81c1211e5230339a31a0eec0c1d net/mlx5e: TC, Move kfree() calls after destroying all resources
+81b235b69db2824165d023833886e2d6ae2420b9 net/mlx5e: Refactor mod header management API
+db4ed78a7bb8daa96dde5343c2d9c483cd2312b6 net/mlx5: CT: Allow static allocation of mod headers
+f6e93d8b9f325b20b5184e949e1677990ef5828a Merge branch 'patchq/441909' into mlx5-queue
+5612c7717db047e19ee73e681f8750fc948d3c13 Merge branch 'patchq/426386' into mlx5-queue
+8775839ebc1cf2df8b988dc66d88e080c9480f69 Merge branch 'patchq/433635' into mlx5-queue
+e3b0f44a47a8c0b25b40a4fe5bf8a454a93c87f3 Merge branch 'patchq/432332' into mlx5-queue
+185465c711483a8d11ec2dbc050db7e0f24cc42b Merge branch 'patchq/444903' into mlx5-queue
+9c53f93175b04846d9786747ba70d496a61788d5 Merge branch 'patchq/444443' into mlx5-queue
+19a72a454bf987f354906976ddcefee62598290b Merge branch 'patchq/443926' into mlx5-queue
+63b1812909ceec3b5f2f382d92c9be3385d7d8e6 Merge branch 'patchq/414154' into mlx5-queue
 
---===============0405134475616074495==--
+--===============1011026394288678867==--
