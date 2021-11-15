@@ -1,58 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2431074907871647566=="
+Content-Type: multipart/mixed; boundary="===============4736028223653263885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 15 Nov 2021 10:13:13 -0000
-Message-Id: <163697119354.24295.7247887758129237637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 15 Nov 2021 10:28:40 -0000
+Message-Id: <163697212086.1941.2133382621560029341@gitolite.kernel.org>
 
---===============2431074907871647566==
+--===============4736028223653263885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 7fb77af71236681ccf007554cca576ca33589ebd
-    new: 3cb8cdc2a80f3e2d8a697449efb703e8aa125a1b
-    log: revlist-7fb77af71236-3cb8cdc2a80f.txt
+  - ref: refs/heads/master
+    old: ee746325c55436cdf9cd64a0a06a190fe72678b5
+    new: fd3659fd4309cfa765464c92978ee507e04f7710
+    log: revlist-ee746325c554-fd3659fd4309.txt
 
---===============2431074907871647566==
+--===============4736028223653263885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ee746325c554-fd3659fd4309.txt
 
-certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1636971191 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1636971191-89d2204c18abf06c487765a730e700eda563f23c
-
-7fb77af71236681ccf007554cca576ca33589ebd 3cb8cdc2a80f3e2d8a697449efb703e8aa125a1b refs/heads/sunxi/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYZIytwAKCRDj7w1vZxhR
-xbVdAP9aomWwA2y9DMH9KFr2S6AK+dqtlXvyzDPfgz8roxqFNwEAxJ+SV4a4P/wN
-z/ooxDZ5TP2KFVHVUukgHwljU0mvZwA=
-=JC3y
------END PGP SIGNATURE-----
-
---===============2431074907871647566==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7fb77af71236-3cb8cdc2a80f.txt
-
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
-138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
-9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
-3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
-15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
-48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
 ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
 635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
 4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
@@ -1069,7 +1042,13 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-d900a1cd310de097fb94796ca575c118b2637b3b arm64: dts: allwinner: add 'chassis-type' property
-3cb8cdc2a80f3e2d8a697449efb703e8aa125a1b Merge branch 'sunxi/dt-for-5.17' into sunxi/for-next
+85744f2d938c5f3cfc44cb6533c157469634da93 ARM: shmobile: rcar-gen2: Add missing of_node_put()
+1ab0a62f28c9347a5abb9ff9ba544271deb45f87 ARM: dts: r8a7742-iwg21d-q7-dbcm-ca: Add missing camera regulators
+4c7924fb905b02323ff6d9d20f370892615dccfa soc: renesas: rcar-rst: Add support to set rproc boot address
+68f8eb19c18a377181622e58c1fd2ca0f5c0d15d arm64: dts: renesas: r9a07g044: Add SCIF[1-4] nodes
+5a8aa63c9bca800e6049d90422abe5404227a703 arm64: dts: renesas: rzg2l-smarc: Enable SCIF2 on carrier board
+f9a2adcc9e908907129c18518d4ea6195c44bf00 arm64: dts: renesas: r9a07g044: Add SCI[0-1] nodes
+17fc0a96f4b49440c8f494f996de7ca33086036a Merge branches 'renesas-arm-dt-for-v5.17', 'renesas-arm-soc-for-v5.17' and 'renesas-drivers-for-v5.17' into renesas-next
+fd3659fd4309cfa765464c92978ee507e04f7710 Merge branch 'renesas-next' into renesas-devel
 
---===============2431074907871647566==--
+--===============4736028223653263885==--
