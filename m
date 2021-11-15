@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2608086924463526653=="
+Content-Type: multipart/mixed; boundary="===============4024968108792106538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 15 Nov 2021 09:26:02 -0000
-Message-Id: <163696836215.27570.17681514708051275910@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 09:26:12 -0000
+Message-Id: <163696837243.27664.14582637364928104463@gitolite.kernel.org>
 
---===============2608086924463526653==
+--===============4024968108792106538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 176412f8674be8ba9a45bb61086e224e2118324a
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-176412f8674b-fa55b7dcdc43.txt
 
---===============2608086924463526653==
+--===============4024968108792106538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============2608086924463526653==--
+--===============4024968108792106538==--
