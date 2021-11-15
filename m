@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6603460466392746727=="
+Content-Type: multipart/mixed; boundary="===============6685136845900264301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 15 Nov 2021 08:44:16 -0000
-Message-Id: <163696585636.19772.13194264695878635727@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 08:44:31 -0000
+Message-Id: <163696587188.19915.6443321504271019328@gitolite.kernel.org>
 
---===============6603460466392746727==
+--===============6685136845900264301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next/defconfig
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============6603460466392746727==
+--===============6685136845900264301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============6603460466392746727==--
+--===============6685136845900264301==--
