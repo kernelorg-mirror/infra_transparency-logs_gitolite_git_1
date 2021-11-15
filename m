@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4157625921474658812=="
+Content-Type: multipart/mixed; boundary="===============4384331666501341296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 15 Nov 2021 11:58:13 -0000
-Message-Id: <163697749379.28222.6209182721442042445@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 11:58:24 -0000
+Message-Id: <163697750495.28312.8057810112771312500@gitolite.kernel.org>
 
---===============4157625921474658812==
+--===============4384331666501341296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: f98a3dccfcb0b9b9c3bef8df9edd61cda80ad937
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-f98a3dccfcb0-fa55b7dcdc43.txt
+  - ref: refs/heads/objtool/core
+    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
+    new: c615cd9fa3d6006a369ab10ecf9e02a196123259
+    log: revlist-87c87ecd00c5-c615cd9fa3d6.txt
 
---===============4157625921474658812==
+--===============4384331666501341296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f98a3dccfcb0-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-87c87ecd00c5-c615cd9fa3d6.txt
 
-a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
-dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
-138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
 15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
@@ -1050,5 +1046,9 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
+027a5d6ecc4ead9ded1287083dd80c6a1a5bfb87 static_call: Avoid building empty .static_call_sites
+13a276ea767e396b43e5ac04722d5d41d0de39e0 objtool: Optimize re-writing jump_label
+7b47729513d6d7db13272da3491f5c7e5940072b objtool: Add --dry-run
+c615cd9fa3d6006a369ab10ecf9e02a196123259 x86,retpoline: Poison retpoline thunks for !X86_FEATURE_RETPOLINE
 
---===============4157625921474658812==--
+--===============4384331666501341296==--
