@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0271712067560066369=="
+Content-Type: multipart/mixed; boundary="===============7066747214917806214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 15 Nov 2021 10:30:06 -0000
-Message-Id: <163697220691.4057.17727528647012188233@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 10:30:32 -0000
+Message-Id: <163697223203.4266.14463664333494494291@gitolite.kernel.org>
 
---===============0271712067560066369==
+--===============7066747214917806214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 2bd9feed23166f5ab67dec2ca02bd3f74c77b0ba
+  - ref: refs/heads/renesas-clk-for-v5.17
+    old: 29e6f71d7d85b64f0a94fd9be55e5f08afa69e3a
     new: 161450134ae9bab3778c5f5732941162626d0eaa
-    log: revlist-2bd9feed2316-161450134ae9.txt
-  - ref: refs/heads/renesas-pinctrl
-    old: f4e260bffcf367523b77f936fe0dbd278581305e
+    log: revlist-29e6f71d7d85-161450134ae9.txt
+  - ref: refs/heads/renesas-pinctrl-for-v5.17
+    old: a14c786382eaafe655d8f84ddc6bc0b477cf0c1a
     new: adb613f84a9e3638dfcc85975c7d58a4e80eef02
-    log: revlist-f4e260bffcf3-adb613f84a9e.txt
+    log: revlist-a14c786382ea-adb613f84a9e.txt
 
---===============0271712067560066369==
+--===============7066747214917806214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bd9feed2316-161450134ae9.txt
+Content-Disposition: attachment; filename=revlist-29e6f71d7d85-161450134ae9.txt
 
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
 15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
@@ -1055,11 +1055,11 @@ a0d2a2c6736c849463b424a7203f5e0e40949c03 clk: renesas: r9a07g044: Add clock and 
 dc446cba4301bbe2dbe16711091635d987626410 clk: renesas: r9a07g044: Rename CLK_PLL2_DIV16 and CLK_PLL2_DIV20 macros
 161450134ae9bab3778c5f5732941162626d0eaa clk: renesas: r9a07g044: Add OSTM clock and reset entries
 
---===============0271712067560066369==
+--===============7066747214917806214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4e260bffcf3-adb613f84a9e.txt
+Content-Disposition: attachment; filename=revlist-a14c786382ea-adb613f84a9e.txt
 
 635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
 4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
@@ -2086,4 +2086,4 @@ d1189991c823b50990291c8157b56fb141c47155 pinctrl: renesas: rzg2l: Add helper fun
 22972a2d5bc4bae3db9521580cea8971c96204bc pinctrl: renesas: rzg2l: Rename PIN_CFG_* macros to match HW manual
 adb613f84a9e3638dfcc85975c7d58a4e80eef02 pinctrl: renesas: rzg2l: Add support to get/set drive-strength and output-impedance-ohms
 
---===============0271712067560066369==--
+--===============7066747214917806214==--
