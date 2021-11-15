@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7005390514454555927=="
+Content-Type: multipart/mixed; boundary="===============0996266041892526805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 15 Nov 2021 10:32:46 -0000
-Message-Id: <163697236672.4991.9355653085176228525@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 10:33:21 -0000
+Message-Id: <163697240132.5238.13246367009118749956@gitolite.kernel.org>
 
---===============7005390514454555927==
+--===============0996266041892526805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: e341763ac2aa2d3c451316dfcb8f67f6876546df
-    new: 7376fad0edafafc741e550224b68b36090f4f92c
-    log: revlist-e341763ac2aa-7376fad0edaf.txt
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+    new: 8ab774587903771821b59471cc723bba6d893942
+    log: revlist-e341763ac2aa-8ab774587903.txt
+  - ref: refs/heads/master
+    old: 7376fad0edafafc741e550224b68b36090f4f92c
+    new: 8ab774587903771821b59471cc723bba6d893942
 
---===============7005390514454555927==
+--===============0996266041892526805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e341763ac2aa-7376fad0edaf.txt
+Content-Disposition: attachment; filename=revlist-e341763ac2aa-8ab774587903.txt
 
 ca42bc4b7bda7c6d68f1cc97c27fc8ff7385c4c7 sh: fix trivial misannotations
 0e38225c92c7964482a8bb6b3e37fde4319e965c sh: check return code of request_irq
@@ -148,6 +148,5 @@ fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
 158ea2d2b2ff8fb49f39209a31b4920f13193a3d kbuild: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
 8ab774587903771821b59471cc723bba6d893942 Merge tag 'trace-v5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-7376fad0edafafc741e550224b68b36090f4f92c Merge branch 'linus'
 
---===============7005390514454555927==--
+--===============0996266041892526805==--
