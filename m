@@ -1,25 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0631322150390610040=="
+Content-Type: multipart/mixed; boundary="===============6196532880736111383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Mon, 15 Nov 2021 04:18:05 -0000
-Message-Id: <163694988500.18920.6280068688893867085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 15 Nov 2021 04:20:31 -0000
+Message-Id: <163695003104.22324.1117058577075868077@gitolite.kernel.org>
 
---===============0631322150390610040==
+--===============6196532880736111383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-6880fa6c5660-fa55b7dcdc43.txt
-  - ref: refs/heads/for-linus
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
@@ -28,9 +24,9 @@ changes:
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
   - ref: refs/heads/next
-    old: eb91224e47ec33a0a32c9be0ec0fcb3433e555fd
+    old: abd9a6049bb59a9bab8cc8b42ccbe4a46c307f92
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-eb91224e47ec-fa55b7dcdc43.txt
+    log: revlist-abd9a6049bb5-fa55b7dcdc43.txt
   - ref: refs/tags/v5.15-rc2
     old: 0000000000000000000000000000000000000000
     new: 249433b711cba85aaec2e714898b46e3fa821571
@@ -56,7 +52,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: dc7089468610f429e9264420c43d5a3625fd5d8b
 
---===============0631322150390610040==
+--===============6196532880736111383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1087,15 +1083,12 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============0631322150390610040==
+--===============6196532880736111383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb91224e47ec-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-abd9a6049bb5-fa55b7dcdc43.txt
 
-5a2506bb8cb3e618fd79966a92454edac67fb468 Merge branch 'for-5.16/xiaomi' into for-linus
-43d3b7f6a362c06a19f14ff432993780aaad7ffd MAINTAINERS: Add some information to PARAVIRT_OPS entry
-9dcc00715a7c0aea0d3afe1e935f4b4aefbeb294 ax88796c: fix ioctl callback
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
 a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
@@ -1634,6 +1627,9 @@ e0c1b49f5b674cca7b10549c53b3791d0bbc90a8 lib: zstd: Upgrade to latest upstream z
 a99a65cfb92c68c48c761ec5e6383caf63124ce1 MAINTAINERS: Add maintainer entry for zstd
 0a8ea235837cc39f27c45689930aa97ae91d5953 lib: zstd: Add cast to silence clang's -Wbitwise-instead-of-logical
 beaaaa37c664e9afdf2913aee19185d8e3793b50 crypto: api - Fix boot-up crash when crypto manager is disabled
+2498363310e9b5e5de0e104709adc35c9f3ff7d9 dmaengine: stm32-dma: avoid 64-bit division in stm32_dma_get_max_width
+5c6c6d60e4b489308ae4da8424c869f7cc53cd12 dmaengine: ti: k3-udma: Set bchan to NULL if a channel request fail
+eb91224e47ec33a0a32c9be0ec0fcb3433e555fd dmaengine: ti: k3-udma: Set r/tchan or rflow to NULL if request fail
 ad4f93ca41388f36ec40ec9c1d97b52177f25fa3 ALSA: memalloc: Use proper SG helpers for noncontig allocations
 d159037abbe3412285c271bdfb9cdf19e62678ff ALSA: synth: missing check for possible NULL after the call to kstrdup
 bcae3af286f49bf4f6cda03f165fbe530f4a6bed drm/locking: fix __stack_depot_* name conflict
@@ -2118,4 +2114,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============0631322150390610040==--
+--===============6196532880736111383==--
