@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1687995156839824174=="
+Content-Type: multipart/mixed; boundary="===============4117105954280373673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 15 Nov 2021 10:51:07 -0000
-Message-Id: <163697346795.18678.18275366073769926142@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 10:51:20 -0000
+Message-Id: <163697348098.18830.4542222097399797059@gitolite.kernel.org>
 
---===============1687995156839824174==
+--===============4117105954280373673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 66c41a87a182fbf2547dba18312cc1eb483f5c95
-    new: 0c3f9e7220ddd6ad1d9093b4a1bae7ec750d523c
-    log: revlist-66c41a87a182-0c3f9e7220dd.txt
+  - ref: refs/heads/m68k-queue
+    old: 89a4f1ec7be37b80e863c124ae2b90aa195a3eec
+    new: 9e1878577694e23c433641d74ea7a3955af4525d
+    log: revlist-89a4f1ec7be3-9e1878577694.txt
 
---===============1687995156839824174==
+--===============4117105954280373673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66c41a87a182-0c3f9e7220dd.txt
+Content-Disposition: attachment; filename=revlist-89a4f1ec7be3-9e1878577694.txt
 
-dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
 138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
@@ -1049,6 +1047,8 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-0c3f9e7220ddd6ad1d9093b4a1bae7ec750d523c Merge tag 'v5.16-rc1'
+c5795452f611bb587a736d13ae7160b9c73cdae5 m68k: atari: usb: Add ISP1160 USB host controller support
+896662c024d4af123deb45c0225576341debb07b m68k: atari: Update Kconfig.bus help text
+9e1878577694e23c433641d74ea7a3955af4525d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1687995156839824174==--
+--===============4117105954280373673==--
