@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2164510504608114019=="
+Content-Type: multipart/mixed; boundary="===============1091651989053756294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 15 Nov 2021 07:21:24 -0000
-Message-Id: <163696088480.2508.16542931837775362136@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 07:21:37 -0000
+Message-Id: <163696089776.2640.542238396419240618@gitolite.kernel.org>
 
---===============2164510504608114019==
+--===============1091651989053756294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 519d81956ee277b4419c723adfb154603c2565ba
+  - ref: refs/heads/master
+    old: e4e737bb5c170df6135a127739a9e6148ee3da82
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-519d81956ee2-fa55b7dcdc43.txt
+    log: revlist-e4e737bb5c17-fa55b7dcdc43.txt
 
---===============2164510504608114019==
+--===============1091651989053756294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519d81956ee2-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-e4e737bb5c17-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============2164510504608114019==--
+--===============1091651989053756294==--
