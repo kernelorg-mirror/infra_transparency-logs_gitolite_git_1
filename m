@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2703063085324207268=="
+Content-Type: multipart/mixed; boundary="===============5419485545655164940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 15 Nov 2021 13:18:55 -0000
-Message-Id: <163698233590.16005.16236073635734346244@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 13:19:22 -0000
+Message-Id: <163698236213.16787.12442421385339565382@gitolite.kernel.org>
 
---===============2703063085324207268==
+--===============5419485545655164940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============2703063085324207268==
+--===============5419485545655164940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============2703063085324207268==--
+--===============5419485545655164940==--
