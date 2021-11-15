@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4499859435251381006=="
+Content-Type: multipart/mixed; boundary="===============7784545211438923990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 15 Nov 2021 00:26:38 -0000
-Message-Id: <163693599854.980.13725176194259339104@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 00:27:17 -0000
+Message-Id: <163693603747.1248.12416377225846309008@gitolite.kernel.org>
 
---===============4499859435251381006==
+--===============7784545211438923990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: 4157a441ff068cc406513e7b8069efa19bba89d0
+  - ref: refs/heads/mediatek-drm-next
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-4157a441ff06-fa55b7dcdc43.txt
+    log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============4499859435251381006==
+--===============7784545211438923990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4157a441ff06-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============4499859435251381006==--
+--===============7784545211438923990==--
