@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5683981805013777339=="
+Content-Type: multipart/mixed; boundary="===============7208367200445357814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Mon, 15 Nov 2021 22:59:46 -0000
-Message-Id: <163701718646.6603.255507779905222833@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 23:00:46 -0000
+Message-Id: <163701724659.8484.9361535519525784286@gitolite.kernel.org>
 
---===============5683981805013777339==
+--===============7208367200445357814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/misc
-    old: f3dc59cb0e96f59086bc740f5d24c827c262ab8f
-    new: 863c823095fccd89dc089a3fc15fb7082f176544
-    log: revlist-f3dc59cb0e96-863c823095fc.txt
+  - ref: refs/heads/kcsan/dev
+    old: 470cdda556aba446e8b187cdc6db68a5d3b44166
+    new: 8c52f6d5bc7297692ea060a624e8e04eb89310cc
+    log: revlist-470cdda556ab-8c52f6d5bc72.txt
 
---===============5683981805013777339==
+--===============7208367200445357814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3dc59cb0e96-863c823095fc.txt
+Content-Disposition: attachment; filename=revlist-470cdda556ab-8c52f6d5bc72.txt
 
-9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
-3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
-15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
-48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
-ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
-635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
-4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
-c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
-3060c54ce3c234ce103a3989e1fd431c987ceb72 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
-fcd8d92f1d1fa6a7db6793d271623381323d13b2 mfd: sprd: Add support for SC2730 PMIC
-23ee74df137378320b3cc607d37cfca1b49907c3 mfd: Kconfig: Fix typo in PMIC_ADP5520 from AD5520 to ADP5520
-f12ebfd31eed4fab148c4897e95713641e3816cf mfd: cros_ec: Drop unneeded MODULE_ALIAS
-b147a055680ad1721f2ff1ce0b292e65f921ee2a dt-bindings: mfd: logicvc: Add patternProperties for the display
-6854a10526f88ad79c7a648697ec656af1d5da1a mfd: sec-irq: Do not enforce (incorrect) interrupt trigger type
-215e50b0864678e2fd765a8d57ae9aec713156c4 mfd: max77686: Do not enforce (incorrect) interrupt trigger type
-f5f082eb0486365deab279bb226acdc3f08306b0 mfd: max77693: Do not enforce (incorrect) interrupt trigger type
-8163fbd97144a488b1edd1776765eec394b0cf17 mfd: max14577: Do not enforce (incorrect) interrupt trigger type
-ddb1ada416fd3db44642b3bfaee5fe5bb3304721 mfd: intel-lpss: Add support for MacBookPro16,2 ICL-N UART
-002be81140075e17a1ebd5c3c55e356fbab0ddad mfd: core: Add missing of_node_put for loop iteration
 7c0f35e7b4d7b661d8b9e62989eafd093a345a53 mfd: exynos-lpass: Describe driver in KConfig
 4ea673e87e50684249223103ccdfef2c0ea83321 mfd: altr_a10sr: Add SPI device ID table
 d5fa8592b773f4da2b04e7333cd37efec5e4ca43 mfd: cpcap: Add SPI device ID table
@@ -1046,9 +1027,28 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-34d3ef50324b51f11b852591224aae1da33f7658 perf test: Add basic stress test for sigtrap handling
-57e56e74607c348762786b3e28403c7b232499ca mm/slab_common: use WARN() if cache still has objects on destroy
-807393ffbf88ff777c90ac9375bc6e8ba502f90a perf: Ignore sigtrap for tracepoints destined for other tasks
-863c823095fccd89dc089a3fc15fb7082f176544 panic: use error_report_end tracepoint on warnings
+3e94563d8f3f3a7b07b221c189587d2ae3ca316f kcsan: Refactor reading of instrumented memory
+748711151e1e583f8c11633b657e7c226322020e kcsan: Remove redundant zero-initialization of globals
+710d4e6ca2b10aa51215d018a68390cc40878e5b kcsan: Avoid checking scoped accesses from nested contexts
+deacfa3e4514162ac141912abea43b932c2f7f73 kcsan: Add core support for a subset of weak memory modeling
+dbff79c54bfc17457eb9c95437c9ae154ef38103 kcsan: Add core memory barrier instrumentation functions
+1b8298233be8db255790169d2ce02fbf051d7e40 kcsan, kbuild: Add option for barrier instrumentation only
+d10758ac1fef1efa4c14c961261d8a5f243d18e4 kcsan: Call scoped accesses reordered in reports
+3f1fc4a779ab9d20c2dbf1e40cae4c61f3a544a7 kcsan: Show location access was reordered to
+d4f6581de3eb8ac67cac7486a74f163b71d7442f kcsan: Document modeling of weak memory
+7b5d2812e51e48081d3fd8a9dc38f4f172ccd50a kcsan: test: Match reordered or normal accesses
+3099e8ab4d09664651b13f27a89304efd4a871bd kcsan: test: Add test cases for memory barrier instrumentation
+4fa871ba26688478f61af55cfd56f0bac5be0e38 kcsan: Ignore GCC 11+ warnings about TSan runtime support
+72a6100ac218e1b5c8a32dca1d69cceab2552c07 kcsan: selftest: Add test case to check memory barrier instrumentation
+b16c5b56b9efb6079d34aa6f267e20ad84ecc9ec locking/barriers, kcsan: Add instrumentation for barriers
+814d754da5eb649f06b0a166333bb7425d4ae0b0 locking/barriers, kcsan: Support generic instrumentation
+fce7068b091ee9df621d5eba494c13fb6729cbfd locking/atomics, kcsan: Add instrumentation for barriers
+7dd80ad6ce4990034dddc6c406a9cbac7d00a980 asm-generic/bitops, kcsan: Add instrumentation for barriers
+ae63398049233ca55e508c5abb6d014ef7f90734 x86/barriers, kcsan: Use generic instrumentation for non-smp barriers
+22ce30a6730e6b394d9d2cc08af2c23ad20c46e5 x86/qspinlock, kcsan: Instrument barrier of pv_queued_spin_unlock()
+e58c72d90b7248e0eedfe69ced372550c854cdf3 mm, kcsan: Enable barrier instrumentation
+67266a331bc6948110f0ae04c6c0cec3ecf45b4d sched, kcsan: Enable memory barrier instrumentation
+ac9614dfe28e7d1062c9228601aa3f094df5030e objtool, kcsan: Add memory barrier instrumentation to whitelist
+8c52f6d5bc7297692ea060a624e8e04eb89310cc objtool, kcsan: Remove memory barrier instrumentation from noinstr
 
---===============5683981805013777339==--
+--===============7208367200445357814==--
