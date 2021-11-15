@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5498266495672021941=="
+Content-Type: multipart/mixed; boundary="===============8153994908530603367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 15 Nov 2021 08:44:44 -0000
-Message-Id: <163696588459.20116.8546530418808228146@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 08:44:51 -0000
+Message-Id: <163696589101.20202.9357089301699918608@gitolite.kernel.org>
 
---===============5498266495672021941==
+--===============8153994908530603367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/next/dt
-    old: 7b06c1ad884ee80e43604ba2a0bbc5f8ef3524e1
+  - ref: refs/heads/next/dt64
+    old: b2f217cc7fbd3e6a097021b8b663328a649ea232
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-7b06c1ad884e-fa55b7dcdc43.txt
+    log: revlist-b2f217cc7fbd-fa55b7dcdc43.txt
 
---===============5498266495672021941==
+--===============8153994908530603367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b06c1ad884e-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-b2f217cc7fbd-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============5498266495672021941==--
+--===============8153994908530603367==--
