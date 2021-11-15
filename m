@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1078422399733481116=="
+Content-Type: multipart/mixed; boundary="===============1122420974405018647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 15 Nov 2021 20:11:37 -0000
-Message-Id: <163700709774.29202.13207705169832325892@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 20:13:04 -0000
+Message-Id: <163700718425.29680.11211443265117432390@gitolite.kernel.org>
 
---===============1078422399733481116==
+--===============1122420974405018647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djbw
 changes:
-  - ref: refs/heads/pending
-    old: 0bb9639516a4509079e881b7f104906965b8974c
+  - ref: refs/heads/next
+    old: c6d7e1341cc99ba49df1384c8c5b3f534a5463b1
     new: 53989fad1286e652ea3655ae3367ba698da8d2ff
-    log: revlist-0bb9639516a4-53989fad1286.txt
+    log: revlist-c6d7e1341cc9-53989fad1286.txt
 
---===============1078422399733481116==
+--===============1122420974405018647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bb9639516a4-53989fad1286.txt
+Content-Disposition: attachment; filename=revlist-c6d7e1341cc9-53989fad1286.txt
 
 fcd8d92f1d1fa6a7db6793d271623381323d13b2 mfd: sprd: Add support for SC2730 PMIC
 23ee74df137378320b3cc607d37cfca1b49907c3 mfd: Kconfig: Fix typo in PMIC_ADP5520 from AD5520 to ADP5520
@@ -1051,4 +1051,4 @@ f4ce1f766f1ebf39161b3b9447a83f4f1dfe593b cxl/acpi: Convert CFMWS parsing to ACPI
 fd49f99c180996cef2d707ad71bee4f060dbe367 ACPI: NUMA: Add a node and memblk for each CFMWS not in SRAT
 53989fad1286e652ea3655ae3367ba698da8d2ff cxl/pmem: Fix module reload vs workqueue state
 
---===============1078422399733481116==--
+--===============1122420974405018647==--
