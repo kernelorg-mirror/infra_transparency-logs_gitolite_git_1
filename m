@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3886823165777591791=="
+Content-Type: multipart/mixed; boundary="===============5502811346958140323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 15 Nov 2021 13:52:04 -0000
-Message-Id: <163698432407.6586.15469345331911934863@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 13:59:36 -0000
+Message-Id: <163698477634.10199.1083055545793171718@gitolite.kernel.org>
 
---===============3886823165777591791==
+--===============5502811346958140323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 276ac4a74b0cddc2328a7b919f4d3d31c587fb16
-    new: 09ff91cd80c569c0f1c3c8a93b2a10dac34b7d69
+    old: 09ff91cd80c569c0f1c3c8a93b2a10dac34b7d69
+    new: 5d4bf5efbadfd1d76b3c6d4159d8946ec3cf9dd1
     log: |
-         297278a1cfbfe121587ade7eb2537c5fc0b8d02f 4.19-stable patches
-         f54439babbf6c4e1fef20fc497fbc50a00b13f43 5.4-stable patches
-         588df6a15ced0f65fe04f5f0da30a3f95c7fb0e2 5.10-stable patches
-         58491c52ce52e2d96df32935789ff89d99dc5de3 5.14-stable patches
-         3f76d95524cab6c9a94e9314bc11fecc0a4050e6 5.15-stable patches
-         09ff91cd80c569c0f1c3c8a93b2a10dac34b7d69 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         5d4bf5efbadfd1d76b3c6d4159d8946ec3cf9dd1 5.4-stable patches
          
 
---===============3886823165777591791==
+--===============5502811346958140323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636984322 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636984775 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1636984321-e0b3b00756dcbabd15b5ea6b13749a69a016eb8c
+nonce 1636984774-d6ecf343dac0bb7a812fd4744599e20f6cba8e85
 
-276ac4a74b0cddc2328a7b919f4d3d31c587fb16 09ff91cd80c569c0f1c3c8a93b2a10dac34b7d69 refs/heads/master
+09ff91cd80c569c0f1c3c8a93b2a10dac34b7d69 5d4bf5efbadfd1d76b3c6d4159d8946ec3cf9dd1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGSZgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+89MQAKdlDeOb01vr8NGI0NRM
-tAAqPfSql1B0RohGeMlcBkO2mfNMyG9i7dOkl2TzMlWDH0XbmNR8s4JrQEwJUhfo
-qaJ4snB/EBSQPv8MHSOkfrXXiOiRCZG1D+8fZZ3/geNpW66dgdGZTMbYOplAsGkW
-G4wBYF9RsaLk1JAeHANjGQbPOSBsvLN2cgLM+Q8RZt+a+52mWOMwG5bP37Xhemqd
-hiXF3lHUlVzG2aAxyRRmROM46zjAMvIQNe0sw1bE/63AGn2fY0kQXjyQbFGliQ6A
-M3ei+IVmJrz8jGp413x8lKMvjIfd1ltST09S4HsyYt2oEdUS4cj1esmprsdbhGkf
-x5FbiFhEj2UpAMkXjafNmFr+eEBheJO4xQ8xFyP+w96R1JmvQ/uA5yYkjqYlp7q5
-ZwxFXQLMQXNwUoWoRVN0cuN3tjRKP1Du+uLS9XRxeTYyEilnUc1tY5Xz1R0MFhUW
-HeWXeR/esUszaUDzcifyzSRBSrD6mFJHwO+3+SA1/aR4HnPFFJf3sBjiaivc3Jnv
-MAKhwl+MmE5Dg2oiznf5Cq7lrqFdDzKCmZL2l+uqaOnqBZU84hMrp9GoK7Jj8Wjn
-i9VHXN3aUm8jYWHoNtlwsOfljBNVcAU+2gTPRJ3mRAUYl7btUVmHqTAa1KclFksH
-F2pl+YQXRHs8ephu1E5iDs5l
-=3Rcg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGSZ8cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZtQP/j4KAGxJ/vAkKaGKRmcw
+eOeKfozFAvaVmmxfhqWy/DHXV9vdRTN6MSs96xPe8+h2GNHHqD0yoMs0nVnmXoPv
+oKQKA+Hhvb0MlrFDTE1CA3PKVSL9b788rDcoFJEDby/DRfzybodhW5NbzpbKBUun
+OI0iASFejB8Lgbr0OXjlj93GrOb8PkG5z5syH+JkyOQrr6/74VPlJm1sgaQHDLro
+WWaQrSnGMLLZs7LVEhyIwK+BjDwYYJaiPb/GejBke6rWVirWWPKwkKPEfWdGzffS
+vmjaUk2WAbvSI0F+5hUvTjIBu0AodL83NlJ483+OdY1tTddRWkAqNnGk75g8u+wQ
+AtfduY72L0Omo8jlsU0fCoHZGxx2o8Uas6K49LSf2aDphLpBREbFsP04WCTS6fdb
+0FUKTaa0MIzGkLFAyJ7/c1oI6MsG2Zizkd8xQrolqQVr6ZHSTyz6c7N15/ik8rQT
+R5sW6oATOp0SLZ/senO4+mEKCuDFT2SRCks3KYed5HYeI9TAGM8xj4HxocPMx7cI
+1TtY3pGmUdMxHPEDZpE3Cga6CpAvZvkZfFfUJqJ9XFhTGBKorO4qs8y1pYMzzhhZ
+p4JZMwB1vH+swzXRQRKmBWIxNUvTjJlzTuGf3cvmF+ae5Wg2WHxCMtVZ0/3dhXlE
+i5HM4gSMNcu4msG1sC12z6Rn
+=k69o
 -----END PGP SIGNATURE-----
 
---===============3886823165777591791==--
+--===============5502811346958140323==--
