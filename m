@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8351841207607292458=="
+Content-Type: multipart/mixed; boundary="===============1669195216438790006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 15 Nov 2021 07:23:36 -0000
-Message-Id: <163696101649.3576.15880085413949468695@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 07:23:51 -0000
+Message-Id: <163696103103.3725.15952594044928902508@gitolite.kernel.org>
 
---===============8351841207607292458==
+--===============1669195216438790006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: 0f79ce970e79ffb771733f9634d5918d0eb3e30a
-    new: b15c90153fd906af6e70821a301e78d379bd482d
-    log: revlist-0f79ce970e79-b15c90153fd9.txt
+  - ref: refs/heads/gnss-linus
+    old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
+    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    log: revlist-e73f0f0ee754-fa55b7dcdc43.txt
 
---===============8351841207607292458==
+--===============1669195216438790006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f79ce970e79-b15c90153fd9.txt
+Content-Disposition: attachment; filename=revlist-e73f0f0ee754-fa55b7dcdc43.txt
 
+a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
 a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
 138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
@@ -1049,6 +1050,5 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-b15c90153fd906af6e70821a301e78d379bd482d gnss: drop stray semicolons
 
---===============8351841207607292458==--
+--===============1669195216438790006==--
