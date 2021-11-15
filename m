@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5934066433870258218=="
+Content-Type: multipart/mixed; boundary="===============4970285407288719950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 15 Nov 2021 18:45:12 -0000
-Message-Id: <163700191254.6638.6932270083019108501@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 18:45:31 -0000
+Message-Id: <163700193150.6821.12276660588655813356@gitolite.kernel.org>
 
---===============5934066433870258218==
+--===============4970285407288719950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: fceb07950a7aac43d52d8c6ef580399a8b9b68fe
     new: cf4f5530bb55ef7d5a91036b26676643b80b1616
     log: revlist-fceb07950a7a-cf4f5530bb55.txt
 
---===============5934066433870258218==
+--===============4970285407288719950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b06cf78fae0f53eebbc5c077464da47e4076f041 Merge branch 'bnxt_en-fixes'
 938cca9e4109b30ee1d476904538225a825e54eb sock: fix /proc/net/sockstat underflow in sk_clone_lock()
 cf4f5530bb55ef7d5a91036b26676643b80b1616 net/smc: Make sure the link_id is unique
 
---===============5934066433870258218==--
+--===============4970285407288719950==--
