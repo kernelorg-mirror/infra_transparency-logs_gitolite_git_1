@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1669195216438790006=="
+Content-Type: multipart/mixed; boundary="===============8957497695021779885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 15 Nov 2021 07:23:51 -0000
-Message-Id: <163696103103.3725.15952594044928902508@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 07:24:00 -0000
+Message-Id: <163696104016.3835.7780438904770703757@gitolite.kernel.org>
 
---===============1669195216438790006==
+--===============8957497695021779885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/master
     old: e73f0f0ee7541171d89f2e2491130c7771ba58d3
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-e73f0f0ee754-fa55b7dcdc43.txt
 
---===============1669195216438790006==
+--===============8957497695021779885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============1669195216438790006==--
+--===============8957497695021779885==--
