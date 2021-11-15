@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6879436157767882722=="
+Content-Type: multipart/mixed; boundary="===============0435651733181790951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 15 Nov 2021 08:52:37 -0000
-Message-Id: <163696635746.27523.13917119161437400368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 15 Nov 2021 08:53:20 -0000
+Message-Id: <163696640027.27808.12252396820862774240@gitolite.kernel.org>
 
---===============6879436157767882722==
+--===============0435651733181790951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/for-next
-    old: 0fcbc3b7bceaf3d8eb1c2308a920fd8275c1f40c
+  - ref: refs/heads/master
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-0fcbc3b7bcea-fa55b7dcdc43.txt
+    log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============6879436157767882722==
+--===============0435651733181790951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fcbc3b7bcea-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============6879436157767882722==--
+--===============0435651733181790951==--
