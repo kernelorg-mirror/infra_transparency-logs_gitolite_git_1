@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 15 Nov 2021 22:30:36 -0000
-Message-Id: <163701543634.21643.11570258222875175064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 15 Nov 2021 22:48:58 -0000
+Message-Id: <163701653877.32300.10518768393432229134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: 4d36477ec68a2b14e12deb2f18940e956a0e641e
-    new: a2cbfbbc5cab6124f52cc12b5b3c3756ee070b7b
+  - ref: refs/heads/hwmon-next
+    old: 879af177e7210478f39ea366ce6d95e1e7a48d0e
+    new: 82b520da9134a594eb9816759ed66ba6ef44888e
     log: |
-         a2cbfbbc5cab6124f52cc12b5b3c3756ee070b7b rcu/nocb: Create nocb kthreads on all CPUs as long as rcu_nocb= is passed
+         82b520da9134a594eb9816759ed66ba6ef44888e hwmon: (adm1021) Improve detection of LM84, MAX1617, and MAX1617A
          
