@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7211023253639577759=="
+Content-Type: multipart/mixed; boundary="===============3706689241673216275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 15 Nov 2021 09:23:51 -0000
-Message-Id: <163696823182.25112.2633295481840583492@gitolite.kernel.org>
+Date: Mon, 15 Nov 2021 09:24:00 -0000
+Message-Id: <163696824066.25232.12271521380271523771@gitolite.kernel.org>
 
---===============7211023253639577759==
+--===============3706689241673216275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 8bb7eca972ad531c9b149c0a51ab43a417385813
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     log: revlist-8bb7eca972ad-fa55b7dcdc43.txt
 
---===============7211023253639577759==
+--===============3706689241673216275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============7211023253639577759==--
+--===============3706689241673216275==--
