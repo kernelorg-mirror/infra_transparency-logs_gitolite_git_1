@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 15 Nov 2021 23:26:29 -0000
-Message-Id: <163701878957.25094.10840122478275165615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 15 Nov 2021 23:30:42 -0000
+Message-Id: <163701904294.27834.8024421773252803585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/dev-queue
-    old: c226c10a1698e36d327d16a35331537328a59d08
-    new: 594782e57873aa744ea88ff0773390cd072cc3c2
+  - ref: refs/heads/mediatek-drm-next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 01365f549c8899a60bd6d30f31602b15f4270629
     log: |
-         898e15dd0dd9535e6ced005cd0c74e2428d78e50 iavf: Fix VLAN feature flags after VFR
-         c4beda3020a3580dda5d573ff284ce24aa716ca0 i40e: Add placeholder for ndo set VLANs
-         9089bec24b86a78bba5442a06007ba016e4bb341 i40e: Refactor VF queue requesting
-         2d67e9536e2dacf595bc6330ba2ca2165dea076a igc: Remove obsolete mask
-         f0957cc54fbfeef4bc784fc36c707db92280fcae ice: Remove unnecessary casts
-         594782e57873aa744ea88ff0773390cd072cc3c2 i40e: Update FVL/FPK FW API version
+         787a7a871c6f402a32d556b7a53d0d4e0d4f8913 drm/mediatek: Add component OVL_2L2
+         8c9f215a31c6e7fd284a4b4f363ee30e6dcc2a69 drm/mediatek: Add component POSTMASK
+         f4cca88efd1ad9642b64a181aaa6ebd4ff24a389 drm/mediatek: Add component RDMA4
+         01365f549c8899a60bd6d30f31602b15f4270629 drm/mediatek: Add support for Mediatek SoC MT8192
          
