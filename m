@@ -1,58 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3949833497931686267=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
 Date: Mon, 15 Nov 2021 09:29:42 -0000
-Message-Id: <163696858245.28905.1545306739871943445@gitolite.kernel.org>
-
---===============3949833497931686267==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <163696858294.28975.8793454095056096069@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/staging-testing
-    old: ac0c9be91ae82c281637d3413bf321d3f8920230
-    new: 53a2f33caaeacb820f554899f0780387b1b4381b
+  - ref: refs/heads/for-next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 1e9fc71213d784dfbd153289daf08fdfc87f32ba
     log: |
-         5bfc10690c6c590a972be014ed8595e77e1e2dea staging: ralink-gdma: remove driver from tree
-         87dd67f496f71c3693431a236b2b542793d786ff staging: mt7621-dma: remove driver from tree
-         53a2f33caaeacb820f554899f0780387b1b4381b staging: mt7621-dts: remove 'gdma' and 'hsdma' nodes
+         83c9eee72603adbaaf0420eb2c4d537a9d65d5fe arm64: dts: meson-sm1-odroid: add cec nodes
+         cdc5091694595606f0e38d651135d5d67fd397d0 arm64: dts: amlogic: meson-g12: Fix thermal-zones indent
+         bb98a6fd0b0e227cefb2ba91cea2b55455f203b7 arm64: dts: amlogic: meson-g12: Fix GPU operating point table node name
+         95d35256b564aca33fb661eac77dc94bfcffc8df arm64: dts: amlogic: Fix SPI NOR flash node name for ODROID N2/N2+
+         8182a35868db5f053111d5d9d4da8fcb3f99259d arm64: dts: meson-gxbb-wetek: fix HDMI in early boot
+         c019abb2feba3cbbd7cf7178f8e6499c4fa6fced arm64: dts: meson-gxbb-wetek: fix missing GPIO binding
+         1e9fc71213d784dfbd153289daf08fdfc87f32ba arm64: dts: meson-gxbb-wetek: use updated LED bindings
          
-
---===============3949833497931686267==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1636968580 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1636968579-4cb1f35d4c87802a89afd56dd066245e620b5f10
-
-ac0c9be91ae82c281637d3413bf321d3f8920230 53a2f33caaeacb820f554899f0780387b1b4381b refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGSKIQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TusQANYmJDGuKp7xCkPEs20g
-WhxS5pZgPC3DHRB7+C+tcjsHT2XI5dtNgOcIMRZU5ow5qC1AZEzeQFDAovp3zadv
-ozfdtB9uNlUic9jQWl4+9VgUlF2EqzD4/+mi+HfqRXtVEWt9L/Sku6YNFuucBVnu
-rpcCtUNMV0quVR6NHg7+gfHJb+hKN2hJXEFYkbb+uaK/+3QYef4Ng+9QbtRfOJvB
-hweZk9JrpPeo0pG4I14JKAULDRag/aFUdw3aKmjtU5eoNnVl8PsDbjXwsmHUZreL
-zjMdSruIPWPQC8mW4tttDZw206Qrm33jIW4Lr15ZeUIzN+qvQaOvz0/gbjP2NC48
-2t3dS6PY5sp9kfyORuj0TNcw4VyKh/caAhzf+5TQbQp3fDPUuIUpztLUxmukPt3g
-i7LPg+YNacSpgg+eTAgQ5oV+l30KfH6zEnpjkRgK3uX5WQt5PT0aQGSMekvwJz8J
-OttSYssERPqpM9x10xKxCdSuI1dWxU9MDxUjK67XNSwN9NUa1yzoEDCMY/C7dBVS
-FnOgRrIBVlwV/eAtBjZCtgw2wI/FX1ukcJp9lO6UoCadDBXNicDCgUoe2u3ncKnJ
-cmOZrBC4UpHTYn5EFGjiMgyb6s4kz2ucjjExg0cp0oiEazhvwUAG4T0pnpcFD0PX
-2YyKUF+uboRV9mc9iu4NFPt/
-=ylhS
------END PGP SIGNATURE-----
-
---===============3949833497931686267==--
