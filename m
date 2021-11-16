@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 16 Nov 2021 16:02:56 -0000
-Message-Id: <163707857690.30200.12807377569343982584@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7308059038688791976=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
+Date: Tue, 16 Nov 2021 16:03:35 -0000
+Message-Id: <163707861561.30495.13411161168902919916@gitolite.kernel.org>
+
+--===============7308059038688791976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jberg/mac80211
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/kvm-arm64/vcpu-xarray
-    old: e03800cf2b829cd47d615347e8484f768bbcc147
-    new: 79ca740cf5369c5e7b3627975b6f47e429c94414
-    log: |
-         d2187ea79a5acddb0810df92393e8696b0f55955 KVM: Move wiping of the kvm->vcpus array to common code
-         f4f66f880f88ba484a10133f8e327544b6995e3d KVM: mips: Use kvm_get_vcpu() instead of open-coded access
-         b5d3130d3d766a760195035f3cca7bb4bca8d766 KVM: s390: Use kvm_get_vcpu() instead of open-coded access
-         2e7e3731b5d5e462ed9a2ed753aecf7cfce8f0a3 KVM: x86: Use kvm_get_vcpu() instead of open-coded access
-         d7b1480598308548f921e9619ebe98967a7e8e17 KVM: Convert the kvm->vcpus array to a xarray
-         c0e2dc2fac098c53c22e824e7b4b54790d2dcbb6 KVM: Use 'unsigned long' as kvm_for_each_vcpu()'s index
-         79ca740cf5369c5e7b3627975b6f47e429c94414 KVM: Convert kvm_for_each_vcpu() to using xa_for_each_range()
-         
+  - ref: refs/tags/mac80211-for-net-2021-11-16
+    old: 0000000000000000000000000000000000000000
+    new: 352c3b5ea1430c130a764d3a6a7e69d646daed81
+
+--===============7308059038688791976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1637078585 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
+nonce 1637078585-e00803aecc09e17a206ff0ad0b986667c80470cc
+
+0000000000000000000000000000000000000000 352c3b5ea1430c130a764d3a6a7e69d646daed81 refs/tags/mac80211-for-net-2021-11-16
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmGT1jkACgkQB8qZga/f
+l8Rang//bEg9IUXu4k7RiUR/k3d2L3sAbzCJ9dasPCl5eTn2R3YdBQIW4KX/+DeH
+AQUKpRphM5LCN/TDFIhWTKNrwEp5kffQL7LnrqbxBmZg+J8nulh2S4TEldu9wAWb
+IelvRZvaGzSadjW199fbR1llMIfOo1Q2JSXDsptpPUjBdDR0PBN7d7cAfBrtnyBz
+JOcUWevjAWcx8hvTPwsYDSf9qtegN0Fw2zis8hENLdhO1tmGWE591y+rwtS020Pe
+84W9MgOb5F54JEwvEJ7mUNWD2nY21se/8tEEwzm4girU2d+UJOTtu0FBcAq/A/4h
+6ZLYH4sh8vSls66tw2QD/VUOIv6FnUyDBxwUMUBjV73QohgHk+oYshHfwkiRHqm6
+SjNLII0Oq5A4PKc9jLaK1YlwqKJ2VatkQepLbR5D1xsRdnqk80U4RS2XEd86Jak9
+LMjguTw20dt1lrlfT6F4Rtjxzkh1ljZTlC5EmTWDRWY8tmWxzjGHlu33oicjF4nF
+zXVXqCzbI6Ot5RoPB6Ei3JM/XQO3eHR/Xb1cS4LWBRZDL54eN9JacHbBbimUZpJH
+X8B6Odwn0sXLB3WlJQZbo0yO+8dksDtcwWAy4GKE4542zgyE/rc5gpCSsbrOzHT/
+jS90SpTqpOtE67QczSMwKvUsB2Z04M1Gp5kZ/eMQocAUW1ZyjxM=
+=VRx2
+-----END PGP SIGNATURE-----
+
+--===============7308059038688791976==--
