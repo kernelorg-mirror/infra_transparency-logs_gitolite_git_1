@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6848542923844389518=="
+Content-Type: multipart/mixed; boundary="===============7396583189315035545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 16 Nov 2021 19:18:29 -0000
-Message-Id: <163709030989.23533.2708349517649431325@gitolite.kernel.org>
+Date: Tue, 16 Nov 2021 19:18:41 -0000
+Message-Id: <163709032115.23699.4831908058357180442@gitolite.kernel.org>
 
---===============6848542923844389518==
+--===============7396583189315035545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 6d3b1b069946e8a9dbb5e6ea45c3aeee1d56ea44
-    new: 62803fec52f80e4dd375de2dd76510c405792928
-    log: revlist-6d3b1b069946-62803fec52f8.txt
+  - ref: refs/heads/mlx5-queue
+    old: 63b1812909ceec3b5f2f382d92c9be3385d7d8e6
+    new: 6b19ce7787341bd8603fb31f65e7825e2879a076
+    log: revlist-63b1812909ce-6b19ce778734.txt
 
---===============6848542923844389518==
+--===============7396583189315035545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d3b1b069946-62803fec52f8.txt
+Content-Disposition: attachment; filename=revlist-63b1812909ce-6b19ce778734.txt
 
 60f270753960291895cdd07d360c4e09c56c4596 bpftool: Migrate -1 err checks of libbpf fn calls
 c59765cfd193382b00454b1a4424cb78d4c065e2 bpftool: Use bpf_obj_get_info_by_fd directly
@@ -143,5 +143,38 @@ d477eb9004845cb2dc92ad5eed79a437738a868a net: make sock_inuse_add() available
 4199bae10c49e24bc2c5d8c06a68820d56640000 net: merge net->core.prot_inuse and net->core.sock_inuse
 b3cb764aa1d753cf6a58858f9e2097ba71e8100b net: drop nopreempt requirement on sock_prot_inuse_add()
 62803fec52f80e4dd375de2dd76510c405792928 Merge branch 'inuse-cleanups'
+876caed21dd45fa5c544e625e9becdcc315d3bc3 net/mlx5: Let user configure io_eq_size resource
+c94dd42f30dd7381fe9e330e8ab078422fabdfe7 net/mlx5: Let user configure event_eq_size resource
+03fe6cd4832b9e24ae443346c40fd71e869c0af7 devlink: Clarifies max_macs generic devlink param
+8f6e994a4c13e62ca91147d540370204f5a689b6 net/mlx5: Let user configure max_macs param
+0a063d33db3498dc3b795ccd1888ea04bd5e3ae3 net/mlx5e: Specify out ifindex when looking up decap route
+237ae5a6f1682d5addea604386aaea03425beeb3 devlink: Add support to set port function as trusted
+3fc09d7ad054801637e6e5b12d9d5751969b41fd net/mlx5: E-switch, Remove vport enabled check
+72e885f13cb532f28b14229be78c5358b46d49be net/mlx5: E-switch, Reuse mlx5_eswitch_set_vport_mac
+a130b32c83e3d81ff119341750fc1d5c2f722284 net/mlx5: E-switch, move offloads mode callbacks to offloads file
+3fb2f12011e4882cba25134abc13652a249941a7 net/mlx5: SF/VF, Port function trust set support
+b48ad673ca6a6b489c829c32dddfd0aba8329b5a net/mlx5e: Support ethtool cq mode
+90205bc169cbcb9cb513e6c737a78a79b872180f net/mlx5: E-switch, Enable vport QoS on demand
+d98fcf77bbb7e608beb14b3ac0b3fd31165ab53f net/mlx5: E-switch, Create QoS on demand
+849cc767da5b02bbb467632d1d32ee5bbc3f126e net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+7ad5e6e9dca657872d0419a9e8b3eb74387ae25a net/mlx5e: Save memory by using dynamic allocation in netdev priv
+7fbe093b432efd015806df3fe53fe5ddc7b44aff net/mlx5e: Allow profile-specific limitation on max num of channels
+d13c726bd27087bea38d6322e6728d35dbd1524d net/mlx5e: Use dynamic per-channel allocations in stats
+80f2fdf8b8fda2672e6f97eaea10ff42a6feda58 net/mlx5e: Allocate per-channel stats dynamically at first usage
+df78c834e3e7fddfeb5a58b8bef28cf7248b3621 net/mlx5: Fix format-security build warnings
+c18410c88b590bc1538313f384443de65033d29b net/mlx5: TC, using swap() instead of tmp variable
+796dd999dd8665e97bd59fbfc810a4b71998df0c net/mlx5e: TC, Destroy nic flow counter if exists
+1d302340725eb725d6cfe28fc1b0b9ddabdc5af2 net/mlx5e: TC, Move kfree() calls after destroying all resources
+46402cc775def91496449e88c6d48bdda53581a8 net/mlx5e: Refactor mod header management API
+6b54bf7491a12e0dc84bcc1d465d2124abb0cbdb net/mlx5: CT: Allow static allocation of mod headers
+f07d87a81d5faac710b26522cadf459323f0d238 Merge branch 'patchq/441909' into mlx5-queue
+84ee5ee1913039e701098b65e959b456fcaa23c0 Merge branch 'patchq/433635' into mlx5-queue
+0bddf69c78882a528cf12d172c651f1d5990d8c0 Merge branch 'patchq/430999' into mlx5-queue
+45dd80de2816a8d531c49d136760a77bbf2acf0a Merge branch 'patchq/426386' into mlx5-queue
+a0a8fedcb716fd1c13b0dd9ede8e593de546971c Merge branch 'patchq/432332' into mlx5-queue
+e7ebb89505180991d6d161f32700a988d564560e Merge branch 'patchq/444903' into mlx5-queue
+159ad2f8cb893644c87d374dbd7c3bfdd71cf762 Merge branch 'patchq/444443' into mlx5-queue
+69b18f208d115caa35f9b5ce1240f92ce7b3eb5d Merge branch 'patchq/443926' into mlx5-queue
+6b19ce7787341bd8603fb31f65e7825e2879a076 Merge branch 'patchq/414154' into mlx5-queue
 
---===============6848542923844389518==--
+--===============7396583189315035545==--
