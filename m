@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 16 Nov 2021 14:49:58 -0000
-Message-Id: <163707419888.15117.14626342470766351714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 16 Nov 2021 14:50:58 -0000
+Message-Id: <163707425822.17313.11486422223554160042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/hackathon/phase-3-WIP
-    old: 6b316c845d7d7ea95e4c9be4ff226afda1efcc9b
-    new: 8e55560eb4cbdd8e02684026f8020fa4c868e4d6
+  - ref: refs/heads/rcu/experimental
+    old: da3e86294840090236eb172593de422a4f3e8825
+    new: ba03d2bb22896996cd67baa30fbc5533324fea7c
     log: |
-         8e55560eb4cbdd8e02684026f8020fa4c868e4d6 fixup! KVM: arm64: pkvm: Rework sysreg entry/exit handling
+         ba03d2bb22896996cd67baa30fbc5533324fea7c rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
          
