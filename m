@@ -1,34 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 16 Nov 2021 10:23:55 -0000
-Message-Id: <163705823528.3956.8369780029371975947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Tue, 16 Nov 2021 10:24:02 -0000
+Message-Id: <163705824275.4082.8080999952610373768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 4de0ebb10652193a63b97940209f4287927cc065
-    new: f69590af7cbcf48f33c6de50758920e0abe31083
-    log: |
-         7f9ec9b59c278f31b0c2c8fabcf564e6fc02d4d8 ARM: s3c: add one more "fallthrough" statement in Jive
-         ddb0fc6f055d12518b724fd1ee00669e07f03b96 arm64: exynos: Enable Exynos Multi-Core Timer driver
-         fc6303bf30fb2cd2c9d13bc6ecde9788dfa60561 Merge branch 'next/soc' into for-next
-         f69590af7cbcf48f33c6de50758920e0abe31083 Merge branch 'next/soc64' into for-next
-         
-  - ref: refs/heads/next/soc
-    old: 90dc0df9168b6c1ddb339481b440d7c13cc4417c
-    new: 7f9ec9b59c278f31b0c2c8fabcf564e6fc02d4d8
-    log: |
-         7f9ec9b59c278f31b0c2c8fabcf564e6fc02d4d8 ARM: s3c: add one more "fallthrough" statement in Jive
-         
-  - ref: refs/heads/next/soc64
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: ddb0fc6f055d12518b724fd1ee00669e07f03b96
+    new: b0ef7b1a7a07dde54c5849e0ca94070a1ed08d04
     log: |
-         ddb0fc6f055d12518b724fd1ee00669e07f03b96 arm64: exynos: Enable Exynos Multi-Core Timer driver
+         1e6a58ad39a638f29f9d3e8c8128a2ab355ad1ac dt-bindings: pinctrl: samsung: Document Exynos7885
+         b0ef7b1a7a07dde54c5849e0ca94070a1ed08d04 pinctrl: samsung: Add Exynos7885 SoC specific data
          
