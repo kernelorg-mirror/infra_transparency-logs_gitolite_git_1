@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============2636213409526653446=="
+Content-Type: multipart/mixed; boundary="===============1928341283165929267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 16 Nov 2021 15:22:28 -0000
-Message-Id: <163707614871.4907.13085378040503577783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 16 Nov 2021 15:28:52 -0000
+Message-Id: <163707653221.8180.3499858881629305999@gitolite.kernel.org>
 
---===============2636213409526653446==
+--===============1928341283165929267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ceph-fscrypt-fnames
-    old: ec6044ac1b32803e66249e62e969dfec74fc0cf5
-    new: 2f5f8546823e455510122c1c30c7d52225d05047
-    log: revlist-ec6044ac1b32-2f5f8546823e.txt
+  - ref: refs/heads/x86/sev
+    old: 007faec014cb5d26983c1f86fd08c6539b41392e
+    new: 75cc9a84c9eb36e436e3fcee5158fe31d1dfd78f
+    log: revlist-007faec014cb-75cc9a84c9eb.txt
 
---===============2636213409526653446==
+--===============1928341283165929267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec6044ac1b32-2f5f8546823e.txt
+Content-Disposition: attachment; filename=revlist-007faec014cb-75cc9a84c9eb.txt
 
+9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
+3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
+15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
+48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
+ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
+635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
+4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
 c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
 3060c54ce3c234ce103a3989e1fd431c987ceb72 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
 fcd8d92f1d1fa6a7db6793d271623381323d13b2 mfd: sprd: Add support for SC2730 PMIC
@@ -484,6 +491,26 @@ e1464db5c57ef393dde8126f09d2b04d166acf16 net: marvell: prestera: fix hw structur
 c45231a7668d6b632534f692b10592ea375b55b0 litex_liteeth: Fix a double free in the remove function
 86432a6dca9bed79111990851df5756d3eb5f57c erofs: fix unsafe pagevec reuse of hooked pclusters
 4c7e42552b3a1536f3cdf534aba8c4262ee26716 erofs: remove useless cache strategy of DELAYEDALLOC
+9c43ff4490ef1d721877fdfdb4ff2d9bda93f391 ceph: convert to noop_direct_IO
+a341131eb31e55c31f61c038f152a66634d16095 libceph: drop ->monmap and err initialization
+f7a67b463fb83a4b9b11ceaa8ec4950b8fb7f902 ceph: enable async dirops by default
+6407fbb9c3cb5b89361ca95afc62090b933c3fb5 ceph: print inode numbers instead of pointer values
+8006daff5f94b157ab1df7c6eb1b55fc470d0d24 ceph: don't use -ESTALE as special return code in try_get_cap_refs
+c35cac610a24f8b2e2d6f6535b7300d3bb2e5c29 ceph: drop private list from remove_session_caps_cb
+3c3050267e3c9a230f23a5621d7c6bd084d15094 ceph: fix auth cap handling logic in remove_session_caps_cb
+36e6da987e7ea839c671c950da5d3a6d175b3f0d ceph: refactor remove_session_caps_cb
+5d6451b1489ad1781a0778cc876bf26a21910413 ceph: shut down access to inode when async create fails
+25b7351161941222da17d4caa136d49031fdba6b ceph: just use ci->i_version for fscache aux info
+e1c9788cb39777e81ebfbf31ae80b4ec14eb6f6d ceph: don't rely on error_string to validate blocklisted session.
+e90334e89b0c3caa64213ba80fbbc053c7975c66 ceph: ignore the truncate when size won't change with Fx caps issued
+0e24421ac431e7af62d4acef6c638b85aae51728 ceph: fix mdsmap decode when there are MDS's beyond max_mds
+631ed4b082872767412cda8a941af832f227335c ceph: shut down mount on bad mdsmap or fsmap decode
+8cfc0c7ed34f7929ce7e5d7c6eecf4d01ba89a84 ceph: properly handle statfs on multifs setups
+c3d8e0b5de487a7c462781745bc17694a4266696 ceph: return the real size read when it hits EOF
+cbed4ff76bbb8083780dcd6ebb5bed2af25b9505 ceph: split 'metric' debugfs file into several files
+17e9fc9fca0c4e0d5924f4b92f89c2c2b6b4be15 ceph: clean-up metrics data structures to reduce code duplication
+aca39d9e86f3edeaac5d2c467f5fd31e0b0df606 libceph, ceph: move ceph_osdc_copy_from() into cephfs code
+c02cb7bdc4501debc3e71a4d2daf7286c48e1d38 ceph: add a new metric to keep track of remote object copies
 9dc232a8ab18bb20f1dcb03c8e049e3607f3ed15 arm64: arm64_ftr_reg->name may not be a human-readable string
 34688c76911e4fe7d405ace8b42f565878922045 arm64: vdso: remove -nostdlib compiler flag
 aedad3e1c6ddec234b63cfb57ac231da0f680e50 arm64: mte: change PR_MTE_TCF_NONE back into an unsigned long
@@ -1019,36 +1046,9 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
-158ea2d2b2ff8fb49f39209a31b4920f13193a3d kbuild: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
-8ab774587903771821b59471cc723bba6d893942 Merge tag 'trace-v5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-a34ab53357603d02ed30fae40cb929ccdb1cecf6 Merge branch 'ceph/testing'
-915f46d1736aabe52a37ef734b65a87f704d4343 vfs: export new_inode_pseudo
-0ea2bf546943a0fb8478228c349db9307c03530b fscrypt: export fscrypt_base64url_encode and fscrypt_base64url_decode
-6cdbd0fd75443db34a26f53d91438234cbef6a84 fscrypt: export fscrypt_fname_encrypt and fscrypt_fname_encrypted_size
-c4d5742c6ffe540f4dd03aacb344a230b07c44b5 fscrypt: add fscrypt_context_for_new_inode
-85162786c2ba4caaaaec3cf36de9b2004e643b03 fscrypt: uninline and export fscrypt_require_key
-d6fdd306cff68186a3b7b971443c8a1f9114eecf ceph: preallocate inode for ops that may create one
-4a923d6be72ba32fcecdebb84c9b79f54ed75128 ceph: crypto context handling for ceph
-04a97470fdd1975d7acd305bbf8a6efa7db632cc ceph: parse new fscrypt_auth and fscrypt_file fields in inode traces
-b28d84ac1518db69f30e51a2b0851393fec648d4 ceph: add fscrypt_* handling to caps.c
-26228cbb6c2d50af31a5696063497a9150639f57 ceph: add ability to set fscrypt_auth via setattr
-0deeb03799918bb9852dcfdcc4edb93975e3fa9a ceph: implement -o test_dummy_encryption mount option
-056976fd164ea79e940cd5dbbc6b6db6de24287b ceph: decode alternate_name in lease info
-782a71000c597bf529aac7f3ee482a32eaceddb5 ceph: add fscrypt ioctls
-a6d41154e849d2f366ee2850f00bf470f9709034 ceph: make ceph_msdc_build_path use ref-walk
-afc10c8b9d6130cb8a030c8c3b7db9269ec5b55d ceph: add encrypted fname handling to ceph_mdsc_build_path
-ac38e8b19395b8fc44dbde1d75ac1e7947985d99 ceph: send altname in MClientRequest
-623924bc9fbd11fb2fcafd4bf9c92ceb6660ae26 ceph: encode encrypted name in dentry release
-56bec3d6ba1175e353ce88aa17ba8c15d8cf307b ceph: properly set DCACHE_NOKEY_NAME flag in lookup
-1647fd70a82b196e7bd5fa5d2f5d4f2785712ff7 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
-aae92a9a78b507280c6a11e5726a90a55de524d6 ceph: add helpers for converting names for userland presentation
-22873932a0e3776f068a4f63eb3ca5a875e6b136 ceph: add fscrypt support to ceph_fill_trace
-fcd6582be6edfaea8458285861c90ceadbd99980 ceph: add support to readdir for encrypted filenames
-95ac4aaf99be86123a27fbddaf66aa6b26ce0306 ceph: create symlinks with encrypted and base64-encoded targets
-3c3ea90342e843d74f12423949fd08897996ca58 ceph: make ceph_get_name decrypt filenames
-9a8e1d766bc0c253edb565ccc7efed64fd64a7ab ceph: add a new ceph.fscrypt.auth vxattr
-a8f572c09c51cae88706358fd6cb8de0d541db95 ceph: add some fscrypt guardrails
-2f5f8546823e455510122c1c30c7d52225d05047 ceph: don't allow changing layout on encrypted files/directories
+18c3933c1983157df9dc06d4f3bfc764f161ed7a x86/sev: Shorten GHCB terminate macro names
+dbc4c70e3cdfe204a67dd66bed78709ee3000ec0 x86/sev: Get rid of excessive use of defines
+5ed0a99b12aa2dd09afe7ba485145529b89f26e6 x86/head64: Carve out the guest encryption postprocessing into a helper
+75cc9a84c9eb36e436e3fcee5158fe31d1dfd78f x86/sev: Remove do_early_exception() forward declarations
 
---===============2636213409526653446==--
+--===============1928341283165929267==--
