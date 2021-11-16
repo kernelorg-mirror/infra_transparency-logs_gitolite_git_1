@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6556885127814772668=="
+Content-Type: multipart/mixed; boundary="===============5895849422762560895=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 16 Nov 2021 12:44:51 -0000
-Message-Id: <163706669123.28102.4870349046790846313@gitolite.kernel.org>
+Date: Tue, 16 Nov 2021 12:46:47 -0000
+Message-Id: <163706680747.30295.626764657129838544@gitolite.kernel.org>
 
---===============6556885127814772668==
+--===============5895849422762560895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/ceph-fscrypt-fnames
-    old: 98d487ede749a480b75cc8473d7abd0508d7c6d7
-    new: ec6044ac1b32803e66249e62e969dfec74fc0cf5
-    log: revlist-98d487ede749-ec6044ac1b32.txt
+  - ref: refs/heads/ceph-fscrypt-size
+    old: 42cb4762205af057443cb3da9479d47d183c8b53
+    new: d401a7d6cdf7efcb869b0b12ab745004c8745bd0
+    log: revlist-42cb4762205a-d401a7d6cdf7.txt
 
---===============6556885127814772668==
+--===============5895849422762560895==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98d487ede749-ec6044ac1b32.txt
+Content-Disposition: attachment; filename=revlist-42cb4762205a-d401a7d6cdf7.txt
 
 85bba8b9e092be5abed5a3c36075d460787c6298 ceph: don't check for quotas on MDS stray dirs
 8a6ea527345d54db456a54da551aa381fd1bbed9 ceph: Fix incorrect statfs report for small quota
@@ -55,5 +55,14 @@ fb2f766c207f4d6b8c1e378471f97b29c13b5376 ceph: make ceph_get_name decrypt filena
 aef5cc99e974d604f4f7ba426594838d1cb6868d ceph: add a new ceph.fscrypt.auth vxattr
 e1ead3a042a68eb8f5b4f0192c4ae28603c4095b ceph: add some fscrypt guardrails
 ec6044ac1b32803e66249e62e969dfec74fc0cf5 ceph: don't allow changing layout on encrypted files/directories
+48a0ee268c7c4e4aa28c76280845136d1a070d82 libceph: add CEPH_OSD_OP_ASSERT_VER support
+2e6bf35a881081012dcf8d3bc81cdfba165997d8 ceph: size handling for encrypted inodes in cap updates
+8478c3710faab36b90a6a68bda41d882350cf896 ceph: fscrypt_file field handling in MClientRequest messages
+dba9cdeb1e30b24471a81d24316631ba625e98f0 ceph: get file size from fscrypt_file when present in inode traces
+b3b564be283e23630787f1c4c18fc8df00d9938e ceph: handle fscrypt fields in cap messages from MDS
+710fe5031e1ad31511ce01ca62c3ad2917f5cd76 ceph: add __ceph_get_caps helper support
+ff1c97d45e1628234a251cde74163649a48cd508 ceph: add __ceph_sync_read helper support
+8ee36fe93fa80cf05343da9869ab4ddd1e58ecc0 ceph: add object version support for sync read
+d401a7d6cdf7efcb869b0b12ab745004c8745bd0 ceph: add truncate size handling support for fscrypt
 
---===============6556885127814772668==--
+--===============5895849422762560895==--
