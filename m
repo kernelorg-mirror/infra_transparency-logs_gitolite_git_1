@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1143501790697411864=="
+Content-Type: multipart/mixed; boundary="===============2636213409526653446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 16 Nov 2021 15:22:05 -0000
-Message-Id: <163707612573.4718.7145893263774580907@gitolite.kernel.org>
+Date: Tue, 16 Nov 2021 15:22:28 -0000
+Message-Id: <163707614871.4907.13085378040503577783@gitolite.kernel.org>
 
---===============1143501790697411864==
+--===============2636213409526653446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/ceph-fscrypt-size
-    old: d401a7d6cdf7efcb869b0b12ab745004c8745bd0
-    new: d691c0e848112e4c8ad931bdd52b9f4616e20e33
-    log: revlist-d401a7d6cdf7-d691c0e84811.txt
+  - ref: refs/heads/ceph-fscrypt-fnames
+    old: ec6044ac1b32803e66249e62e969dfec74fc0cf5
+    new: 2f5f8546823e455510122c1c30c7d52225d05047
+    log: revlist-ec6044ac1b32-2f5f8546823e.txt
 
---===============1143501790697411864==
+--===============2636213409526653446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d401a7d6cdf7-d691c0e84811.txt
+Content-Disposition: attachment; filename=revlist-ec6044ac1b32-2f5f8546823e.txt
 
+c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
+3060c54ce3c234ce103a3989e1fd431c987ceb72 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
+fcd8d92f1d1fa6a7db6793d271623381323d13b2 mfd: sprd: Add support for SC2730 PMIC
+23ee74df137378320b3cc607d37cfca1b49907c3 mfd: Kconfig: Fix typo in PMIC_ADP5520 from AD5520 to ADP5520
+f12ebfd31eed4fab148c4897e95713641e3816cf mfd: cros_ec: Drop unneeded MODULE_ALIAS
+b147a055680ad1721f2ff1ce0b292e65f921ee2a dt-bindings: mfd: logicvc: Add patternProperties for the display
+6854a10526f88ad79c7a648697ec656af1d5da1a mfd: sec-irq: Do not enforce (incorrect) interrupt trigger type
+215e50b0864678e2fd765a8d57ae9aec713156c4 mfd: max77686: Do not enforce (incorrect) interrupt trigger type
+f5f082eb0486365deab279bb226acdc3f08306b0 mfd: max77693: Do not enforce (incorrect) interrupt trigger type
 8163fbd97144a488b1edd1776765eec394b0cf17 mfd: max14577: Do not enforce (incorrect) interrupt trigger type
 ddb1ada416fd3db44642b3bfaee5fe5bb3304721 mfd: intel-lpss: Add support for MacBookPro16,2 ICL-N UART
 002be81140075e17a1ebd5c3c55e356fbab0ddad mfd: core: Add missing of_node_put for loop iteration
@@ -1041,14 +1050,5 @@ fcd6582be6edfaea8458285861c90ceadbd99980 ceph: add support to readdir for encryp
 9a8e1d766bc0c253edb565ccc7efed64fd64a7ab ceph: add a new ceph.fscrypt.auth vxattr
 a8f572c09c51cae88706358fd6cb8de0d541db95 ceph: add some fscrypt guardrails
 2f5f8546823e455510122c1c30c7d52225d05047 ceph: don't allow changing layout on encrypted files/directories
-03d8a984c2f0d6f9995bd1cfc9e273f7eeefd98f libceph: add CEPH_OSD_OP_ASSERT_VER support
-d05b4238a60f2c2af55eab50196984ab994242fb ceph: size handling for encrypted inodes in cap updates
-250f896d30bc4ba5924df478dfad687e1a8a5e5a ceph: fscrypt_file field handling in MClientRequest messages
-16c631343cd769b67a82e27723b41bc3a22a8588 ceph: get file size from fscrypt_file when present in inode traces
-9d059a191b700bbd3806edae09765ec18ea3d488 ceph: handle fscrypt fields in cap messages from MDS
-70b2921b0dd0dd0b0561c937255725bf3ac6db7f ceph: add __ceph_get_caps helper support
-6f76823b6f5d530cad5db846b30cf969ea2d644f ceph: add __ceph_sync_read helper support
-616ed8171889c13f93133fa507361fe9121fd07c ceph: add object version support for sync read
-d691c0e848112e4c8ad931bdd52b9f4616e20e33 ceph: add truncate size handling support for fscrypt
 
---===============1143501790697411864==--
+--===============2636213409526653446==--
