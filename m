@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6014738307263033518=="
+Content-Type: multipart/mixed; boundary="===============8587685748048729285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 16 Nov 2021 17:46:33 -0000
-Message-Id: <163708479332.30258.16350266851596683132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 16 Nov 2021 17:46:40 -0000
+Message-Id: <163708480012.30355.9039748621611772307@gitolite.kernel.org>
 
---===============6014738307263033518==
+--===============8587685748048729285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: a6e849d0007b374fc7fbb18d55941c77aa7c3923
     new: cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d
     log: |
@@ -30,7 +30,7 @@ changes:
          006ea27c4e7037369085755c7b5389effa508c04 ASoC: codecs: wcd934x: return error code correctly from hw_params
          cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d ASoC: codecs: lpass-rx-macro: fix HPHR setting CLSH mask
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 5ecc573d0c542c0f95497ba4586a6226814e4e18
     new: 7548a391c53cab2af0954d252cc5a9a793fd4c0e
     log: |
@@ -38,29 +38,29 @@ changes:
          7548a391c53cab2af0954d252cc5a9a793fd4c0e ASoC: SOF: i.MX: simplify Kconfig
          
 
---===============6014738307263033518==
+--===============8587685748048729285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637084791 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637084790-42ea80b7b46731148c69e370f714a346a552d038
+pusher C3F436CA30F5D8EB 1637084797 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637084797-bd4acefeea2c300c2a968b559a90fdf67a391780
 
-a6e849d0007b374fc7fbb18d55941c77aa7c3923 cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d refs/heads/for-5.16
-5ecc573d0c542c0f95497ba4586a6226814e4e18 7548a391c53cab2af0954d252cc5a9a793fd4c0e refs/heads/for-5.17
+a6e849d0007b374fc7fbb18d55941c77aa7c3923 cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d refs/heads/asoc-5.16
+5ecc573d0c542c0f95497ba4586a6226814e4e18 7548a391c53cab2af0954d252cc5a9a793fd4c0e refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGT7ncACgkQJNaLcl1U
-h9AWqQf/WL1qk8wMr2MeaflaNesoG1gAC3V9QuDyZlGqDTS/WJ/DUlBHWvcq9Plg
-ws5qdtRxbqtoYnvTNbCrZ+N+qBoPzbY2PL8IOzJn6MfYAcpY4W+8QKxmmgPxVkay
-7WYbbiBfOvb0u5jLHJWxtZd7DzavnkfwJlETMHszuE4ZuVvrNPXMYHzKRyOdhW1j
-HykniuQq2pnnOGIyJx7dcVfrG6zlSmz7rajU4d0sW+CJv2J71kc9cYgsl1zvxKYK
-VrFvuTgEs0KhS/Pn+o4yzjwHoTZeiLZpc/roT1V3cDxA/z+k+0zM8LNoOPM80ILd
-v2HTKAAr29266pBeOQgM3VI4tiHPxg==
-=aNXk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGT7n0ACgkQJNaLcl1U
+h9C4OAf/dqpmapoaR4h4G5lcmqPiAP8DODEsrH74PsbyT5J5Y/hOj0rHZqIQzoM5
+qePjUTe6j8KhExEjL3n0emxll1qV4ga2t+KqMKKep+0ep12rSUpnEhD0DF7IvGKs
+9txwzGONVs7bmIh3XxB9qeFTvAXl7MdNaDalPiKASKmYJG2XV5XKCQvQwC78XrQV
+7pxx1BmjtcqLAyNRsvHRoT/3sMaio8A/7w2ha/Eu04b3HUBCa5eyVIEO3LjT0sKu
++q2GSpxCD/7SRB1fWceXzai+Cjmv3EvOCl08oqZi0ZoVNocUQ0lUldAQ08z65APj
+nm9Sjx0oyh+/n7BlDDUM1EaGk0tldw==
+=hbHF
 -----END PGP SIGNATURE-----
 
---===============6014738307263033518==--
+--===============8587685748048729285==--
