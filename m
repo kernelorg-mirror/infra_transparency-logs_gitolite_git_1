@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Tue, 16 Nov 2021 17:14:18 -0000
-Message-Id: <163708285811.9544.5244507980652653541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Tue, 16 Nov 2021 17:14:20 -0000
+Message-Id: <163708286069.9621.13067024734456820959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 934a5dc1546b1c637999bfcebcdd1598eaab4818
+  - ref: refs/heads/master
+    old: 8118c247a75ae95169f0a9a539dfc661ffda8bc5
+    new: 77256108c0edcaee78dc16352e7339fb13ddeb05
     log: |
-         934a5dc1546b1c637999bfcebcdd1598eaab4818 coresight: Use devm_bitmap_zalloc when applicable
+         77256108c0edcaee78dc16352e7339fb13ddeb05 compat: update for RHEL 8.5
          
