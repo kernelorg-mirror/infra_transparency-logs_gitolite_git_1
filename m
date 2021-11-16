@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 16 Nov 2021 16:00:27 -0000
-Message-Id: <163707842794.29436.11463364690173422776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 16 Nov 2021 16:02:56 -0000
+Message-Id: <163707857690.30200.12807377569343982584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: cf4f5530bb55ef7d5a91036b26676643b80b1616
-    new: 848e5d66fa3105b4136c95ddbc5654e9c43ba7d7
+  - ref: refs/heads/kvm-arm64/vcpu-xarray
+    old: e03800cf2b829cd47d615347e8484f768bbcc147
+    new: 79ca740cf5369c5e7b3627975b6f47e429c94414
     log: |
-         4e5e6b5d9d1334d3490326b6922a2daaf56a867f iavf: Fix return of set the new channel count
-         8a4a126f4be88eb8b5f00a165ab58c35edf4ef76 iavf: check for null in iavf_fix_features
-         89f22f129696ab53cfbc608e0a2184d0fea46ac1 iavf: free q_vectors before queues in iavf_disable_vf
-         2135a8d5c8186bc92901dc00f179ffd50e54c2ac iavf: don't clear a lock we don't hold
-         8905072a192fffe9389255489db250c73ecab008 iavf: Fix failure to exit out from last all-multicast mode
-         4f0400803818f2642f066d3eacaf013f23554cc7 iavf: prevent accidental free of filter structure
-         131b0edc4028bb88bb472456b1ddba526cfb7036 iavf: validate pointers
-         321421b57a12e933f92b228e0e6d0b2c6541f41d iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
-         9a6e9e483a9684a34573fd9f9e30ecfb047cb8cb iavf: Fix for setting queues to 0
-         4293014230b887d94b68aa460ff00153454a3709 iavf: Restore VLAN filters after link down
-         848e5d66fa3105b4136c95ddbc5654e9c43ba7d7 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         d2187ea79a5acddb0810df92393e8696b0f55955 KVM: Move wiping of the kvm->vcpus array to common code
+         f4f66f880f88ba484a10133f8e327544b6995e3d KVM: mips: Use kvm_get_vcpu() instead of open-coded access
+         b5d3130d3d766a760195035f3cca7bb4bca8d766 KVM: s390: Use kvm_get_vcpu() instead of open-coded access
+         2e7e3731b5d5e462ed9a2ed753aecf7cfce8f0a3 KVM: x86: Use kvm_get_vcpu() instead of open-coded access
+         d7b1480598308548f921e9619ebe98967a7e8e17 KVM: Convert the kvm->vcpus array to a xarray
+         c0e2dc2fac098c53c22e824e7b4b54790d2dcbb6 KVM: Use 'unsigned long' as kvm_for_each_vcpu()'s index
+         79ca740cf5369c5e7b3627975b6f47e429c94414 KVM: Convert kvm_for_each_vcpu() to using xa_for_each_range()
          
