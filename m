@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 17 Nov 2021 01:23:19 -0000
-Message-Id: <163711219926.29698.8444240770623709317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 17 Nov 2021 02:01:41 -0000
+Message-Id: <163711450112.22310.10208019544559203825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 1cc41b1c969f1fa5090b166397e4bab4ab1aa449
-    new: c19a4bafa514c2c85876f0de35782abd11bed7ec
+  - ref: refs/heads/experimental
+    old: bb54052be3bebd159218a822000a90f16919d723
+    new: 8a023762505593305c39f1d4fc08c8d24e20d8db
     log: |
-         c19a4bafa514c2c85876f0de35782abd11bed7ec libfdt: fix an incorrect integer promotion
-         
-  - ref: refs/heads/master
-    old: 1cc41b1c969f1fa5090b166397e4bab4ab1aa449
-    new: c19a4bafa514c2c85876f0de35782abd11bed7ec
-    log: |
-         c19a4bafa514c2c85876f0de35782abd11bed7ec libfdt: fix an incorrect integer promotion
+         dcda25c8520a35d2e3438feafb4e04a864452cb3 erofs-utils: mkfs: enable block map chunk format
+         8a023762505593305c39f1d4fc08c8d24e20d8db erofs-utils: manpage: document `noinline_data' extended option
          
