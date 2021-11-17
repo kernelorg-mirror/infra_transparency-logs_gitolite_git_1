@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0627329494493898678=="
+Content-Type: multipart/mixed; boundary="===============5603883319420681685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Nov 2021 00:49:03 -0000
-Message-Id: <163711014372.3444.7602055482025399378@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 00:49:16 -0000
+Message-Id: <163711015639.3609.14753157261796133819@gitolite.kernel.org>
 
---===============0627329494493898678==
+--===============5603883319420681685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,52 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 09d9e4d041876684d33f21d02bcdaea6586734f1
-    new: 392006871bb26166bcfafa56faf49431c2cfaaa8
-    log: revlist-09d9e4d04187-392006871bb2.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 34c9a6f8761948d22a227db7b18f6562e9a8c9fe
+    new: b6530abc4ff61d1b5f957de53d3f50cd34a17979
+    log: revlist-34c9a6f87619-b6530abc4ff6.txt
 
---===============0627329494493898678==
+--===============5603883319420681685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1637110135 -0500
+pusher 75C5DE3D 1637110148 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1637110135-3f8601d26bb028d712f57a2524653ea49f48d52a
+nonce 1637110147-b0c083bdee451ef07cfd68982aea09d1491297b1
 
-09d9e4d041876684d33f21d02bcdaea6586734f1 392006871bb26166bcfafa56faf49431c2cfaaa8 refs/heads/fixes
+34c9a6f8761948d22a227db7b18f6562e9a8c9fe b6530abc4ff61d1b5f957de53d3f50cd34a17979 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGUUXcACgkQ7ulgGnXF
-3j2few/+KHyX5L0cWjrbgXiWpocM2G0ix9DCirKlkSSu6mF5NF80hIdKuEUQIgDu
-SsBdQPqgfJ4ouXPxIdxj6LgDBUuLRGpoeVRk1MMuLRoLnJusqgy32XJ1rcWOGdN/
-jufLoEEmm5Pl7DbM+b6v6HvNfnfaXxj/FGtHdhg+uRU2Sym0N5zchf8fUaasxeVo
-RKW8HJWg2Mxyt/5gCtBr5aajVrta6PSnxJgJLgXb1/sd4hO3zncRkrGs60nrVRRy
-sS6zALGn0h3Yg10pT3JgQb69AYpfOJc3Cnjo97Jpdt7TFtwwVdB/BtJYx4qSG5M7
-2yRMqLyJZ4AH9EFwyDEzjmbCKws7sqTAWd1OWHPuOEDhuvmD3k5g31Ah+1qY8YIs
-+LDLDRC5rwUusJnCGGgQ9c3HfyASfPW/oR7IvNcts3QIGqX+8xsD3NlRzludEXpI
-3AFssBNdtuD39QBKk+TMM4TMGeMxM0tIRCJY5mEQjQ/3e7CBLxxaqyhYYA5Q0zxa
-lxN0jzxMg0xmWuUrJlvTXl2AagTvAEqsuWqXJ8PIOdAs5/UsG9O7UJWVN6MXdE22
-rDY4vSj6RMiTvlWUx+nSCRBc5gQZUH690Ib/B4+K0gFXXz6kz+/4HdJsBJIMx80Q
-QawrVBWgq9GgOO0357hErPc8tlSxLlGrrJDf98Q/X/BWgu4XY10=
-=NEIM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGUUYQACgkQ7ulgGnXF
+3j3tYA//d4wk0QLUPLI8qAfaFpCcSjRWgbKzezLHjKaC+HuBFTi0/nTgRKPeRO5r
+z3q0PM3N4TxqcVHa6K/tCRMqhkaDd5abgyi/2POV76V+ZNMUlN08PCDn2FnYMGSC
+vZb0LY96nO1on8zWvf627NtRFNmKKA5eXp9hW8SeOwU27wg/EpoepDRSdmh8OIOI
+jD5PxpkzphdZpaIoaUjz9VNwqx0OQzs1P/hfxdwwyZONML+FRoslsml5iCn9JLEr
+n/TutaTPI8u2iEWtZ8lLYXgrTebGiI6hEu8Ei3zYTv+ar7G5x6pD2XfDafE55Rmf
+0qRvgDZHw/zhOBtP7gKhe0eP9Ai83eUOF/hR5ABbIwWBOI5qCf3si14C+TgtqGLr
+cFFQcna2h9stBQGZ84RPm4+oSvmcAVl9dicvNc/rMJTqJgtcut6ZlazSCT9hqM9P
+DSWOifs2LAVFq/ks0m7Pt2cCgbnBymDi0lePQgaF0UMw81lhRzoimEfB1h7ygzNc
+Ungs3iFkYh9FRzsP1ooiZpnOhZmp4YHD+un1QdlO5BZcpTSCJvN1KjSKeCoqQGYV
++RJzPdW9GMLOCLLxGI7LQTSoQr0/h0lQ8uDHhm03WmHoY0q+GXcP3seSTXm0eoz/
+02E4oTkz2HEEEJyrv2J7xsjQDEGR+9bsloL5/FZU1Vfi4a5C8CU=
+=qts7
 -----END PGP SIGNATURE-----
 
---===============0627329494493898678==
+--===============5603883319420681685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09d9e4d04187-392006871bb2.txt
+Content-Disposition: attachment; filename=revlist-34c9a6f87619-b6530abc4ff6.txt
 
+a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
+dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
+a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
+138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
+9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
+3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
 15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
 48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
 ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
@@ -1074,11 +1080,5 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-3ff1f6b6ba6f97f50862aa50e79959cc8ddc2566 scsi: ufs: core: Improve SCSI abort handling
-a0c2f8b6709a9a4af175497ca65f93804f57b248 scsi: iscsi: Unblock session then wake up error handler
-4edd8cd4e86dd3047e5294bbefcc0a08f66a430f scsi: core: sysfs: Fix hang when device state is set via sysfs
-886fe2915cce6658b0fc19e64b82879325de61ea scsi: ufs: core: Fix task management completion timeout race
-5cb37a26355d79ab290220677b1b57d28e99a895 scsi: ufs: core: Fix another task management completion race
-392006871bb26166bcfafa56faf49431c2cfaaa8 scsi: qla2xxx: Fix mailbox direction flags in qla2xxx_get_adapter_id()
 
---===============0627329494493898678==--
+--===============5603883319420681685==--
