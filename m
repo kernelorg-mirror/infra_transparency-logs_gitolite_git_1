@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 17 Nov 2021 19:13:23 -0000
-Message-Id: <163717640388.23847.13088871272813044872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 17 Nov 2021 19:32:57 -0000
+Message-Id: <163717757786.4278.730868873501690486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3b8bfff0a7efce0592d4260b49b79e45dfcf7e5b
-    new: 310eeb695db6630697feeb3476ed08bc9231d404
+  - ref: refs/heads/dev
+    old: d32c4813b8d2040cb6f4f3f9a4fa988af7de2825
+    new: b3b2202d42995c7348388cdf92753ee90de8af2e
     log: |
-         11e17503988694fbd0af571b7aa5988e78ed518f cpufreq: intel_pstate: Add Ice Lake server to out-of-band IDs
-         190c6afc6c3cf9824a6a0c092538b9ce0180dbd6 cpufreq: intel_pstate: Fix active mode offline/online EPP handling
-         310eeb695db6630697feeb3476ed08bc9231d404 Merge branch 'pm-cpufreq' into bleeding-edge
+         3271d7eb00f1df82d9ea26b359ed065129639f7c f2fs: compress: reduce one page array alloc and free when write compressed page
+         3d697a4a6b7dab8fb8a8c928b640999af3a08d87 f2fs: rework write preallocations
+         4fa18391ae8cf8f1e498d54b46c571aebf3aa806 f2fs: do not expose unwritten blocks to user by DIO
+         1d0e41a36bdeb5bca3bbea9da73ac6e0fe040c0c f2fs: reduce indentation in f2fs_file_write_iter()
+         b55f51fe5c256e79a325145704e69e5e5d4c23e7 f2fs: fix the f2fs_file_write_iter tracepoint
+         b6efa1f5cc0b3287e638b31997f3d522876b09e5 f2fs: implement iomap operations
+         b3b2202d42995c7348388cdf92753ee90de8af2e f2fs: use iomap for direct I/O
          
