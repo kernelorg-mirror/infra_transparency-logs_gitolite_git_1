@@ -1,57 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5303064530123599756=="
+Content-Type: multipart/mixed; boundary="===============0969337143385163541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 17 Nov 2021 13:09:13 -0000
-Message-Id: <163715455360.13951.10895940675115830859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Wed, 17 Nov 2021 13:15:58 -0000
+Message-Id: <163715495869.18808.4118306401303547656@gitolite.kernel.org>
 
---===============5303064530123599756==
+--===============0969337143385163541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/heads/staging-linus
-    old: 47ac6f567c28581f7729bd1f168639f8f066a2eb
-    new: b535917c51acc97fb0761b1edec85f1f3d02bda4
-    log: |
-         ffcf7ae90f4489047d7b076539ba207024dea5f6 staging: greybus: Add missing rwsem around snd_ctl_remove() calls
-         b535917c51acc97fb0761b1edec85f1f3d02bda4 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-         
+  - ref: refs/heads/spi-nor/next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 228e804599602555e15db467e41a11977757489f
+    log: revlist-fa55b7dcdc43-228e80459960.txt
 
---===============5303064530123599756==
+--===============0969337143385163541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-228e80459960.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637154551 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1637154550-ebf2a75fb87cf38d259fa1235a9d3a2becee9f94
+a360ae43217c45fb7ca37603ffb6c06aad2b3929 mtd: spi-nor: core: Fix spi_nor_flash_parameter otp description
+7158c86e560789a4a07fe161cc284f8058d52ccc mtd: spi-nor: core: Use container_of to get the pointer to struct spi_nor
+5854d4a6cc356ba3e16d8593ac1c089a32d1759c mtd: spi-nor: Get rid of nor->page_size
+dacc8cfee493891b130507a4646806b3d0597ee7 mtd: spi-nor: core: Introduce the late_init() hook
+b0fa1db7d2f6803783707a8215e34616922ec3e7 mtd: spi-nor: atmel: Use flash late_init() for locking
+7d4ff0613fb537315c7a4214de74d32b2615c72a mtd: spi-nor: sst: Use flash late_init() for locking
+00947a9649497273ec315ab080dd309e2b36ee8e mtd: spi-nor: winbond: Use manufacturer late_init() for OTP ops
+3fdad69e7fb298020a895cf7e1fc2f9c110ca1c9 mtd: spi-nor: xilinx: Use manufacturer late_init() to set setup method
+f22a48dbd01b66c01403b6182ad871476c19a813 mtd: spi-nor: sst: Use manufacturer late_init() to set _write()
+d396e735ba0c91911aac5d696b5da090e38e919b mtd: spi-nor: spansion: Use manufacturer late_init()
+228e804599602555e15db467e41a11977757489f MAINTAINERS: Add myself as SPI NOR co-maintainer
 
-47ac6f567c28581f7729bd1f168639f8f066a2eb b535917c51acc97fb0761b1edec85f1f3d02bda4 refs/heads/staging-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGU/vcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nOMP/3lrDNXVe3sOTMrLFj28
-U5GFpj4iuEJJD/dPbX9Iu10AmtotpFlNdtHRyezwoh0W87sL0gPs6p/irxFmGO3p
-/a0ct+aVZwURD3YCe9/hPi5CZlStjJhAKiuRIQe63mEgGK4EU4r8qTnZ7pjn+WYU
-Spb089NzPD5b7y6ZSAyEgLeZuDunyZzsRRgJsgD3RZ0ZU19x/nZ9zqKaMfuD2Rw9
-oS/u2Zh4c1L4vte8pOScfJrI+WqwcJcq21hssuv2RYyXmiFVyk73r4h//pi5TP9Y
-MZIDln+4ia3SMGskWz3ZEgr4e8cDvf/zvBcmUZQ43a9Dd9FXACMq59iFI4ldqWTf
-uZD+yigsaje+/xMnYM1zImT0ZKd5uhv8MbfLHUIDVkuaPcBHlzeHNGONxbj3lVoG
-d60Gj/AwWKjxhhlC559AR2mfM2CA5Jkjz2/18fz0Cd/eZMRgYYKECeMxuT3Rzyj9
-aZ4QSBbgz3ndeGcn72kvyLeUftb3WhwvfAWyBChz/UNGhPL+e1wcc9lKnMzRLo8Y
-kSG5hXJ4ZNI4jQGKBZVsHK4OxxTJnJW4Azak4i2HHAk1CEQqqqmec1lqdxBL1VJi
-KPmbTK4ehrLONOimTM/h7jXdajqL5hioWE9dWUnCi0yy8tY97AR6a23ASYG7neTF
-paWiDnUeWt1I47hg9fScivYB
-=d2r9
------END PGP SIGNATURE-----
-
---===============5303064530123599756==--
+--===============0969337143385163541==--
