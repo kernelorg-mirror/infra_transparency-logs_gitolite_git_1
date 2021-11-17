@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5299181199115236055=="
+Content-Type: multipart/mixed; boundary="===============3434010031372048443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 17 Nov 2021 18:24:27 -0000
-Message-Id: <163717346798.25768.2222374741368864349@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 18:24:38 -0000
+Message-Id: <163717347855.25855.9440584956558944425@gitolite.kernel.org>
 
---===============5299181199115236055==
+--===============3434010031372048443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 848e5d66fa3105b4136c95ddbc5654e9c43ba7d7
     new: c366ce28750e9633f8d4b07829a9cde0e59034eb
     log: revlist-848e5d66fa31-c366ce28750e.txt
 
---===============5299181199115236055==
+--===============3434010031372048443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ f77b83b5bbab53d2be339184838b19ed2c62c0a5 net: usb: r8152: Add MAC passthrough su
 cf9acc90c80ecbee00334aa85d92f4e74014bcff net: virtio_net_hdr_to_skb: count transport header in UFO
 c366ce28750e9633f8d4b07829a9cde0e59034eb net: ax88796c: use bit numbers insetad of bit masks
 
---===============5299181199115236055==--
+--===============3434010031372048443==--
