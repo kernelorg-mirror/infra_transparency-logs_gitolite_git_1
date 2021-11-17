@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2564146599838493243=="
+Content-Type: multipart/mixed; boundary="===============6168859578507672076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 17 Nov 2021 19:57:40 -0000
-Message-Id: <163717906080.20036.6112268245053065894@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 19:57:54 -0000
+Message-Id: <163717907417.20186.14076914901375427957@gitolite.kernel.org>
 
---===============2564146599838493243==
+--===============6168859578507672076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 62803fec52f80e4dd375de2dd76510c405792928
-    new: 17a7555bf21ce755219bf575b8a83adbf19580bd
-    log: revlist-62803fec52f8-17a7555bf21c.txt
+  - ref: refs/heads/mlx5-queue
+    old: 6b19ce7787341bd8603fb31f65e7825e2879a076
+    new: 8fbd8a727a16bd8e8dbb491a65214a63b6f8b94c
+    log: revlist-6b19ce778734-8fbd8a727a16.txt
 
---===============2564146599838493243==
+--===============6168859578507672076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62803fec52f8-17a7555bf21c.txt
+Content-Disposition: attachment; filename=revlist-6b19ce778734-8fbd8a727a16.txt
 
 d16e6d19ccc6d3aa6b96d6a8fdb9e04fb9dffdbd Bluetooth: hci_vhci: Fix calling hci_{suspend,resume}_dev
 83775456504c251e6e4e1ee50c470e77202b8d21 Bluetooth: Fix handling of SUSPEND_DISCONNECTING
@@ -150,5 +150,14 @@ b32563b6ccbacf2a1bf6fb7093b4fd2b7dc28612 Merge tag 'for-net-next-2021-11-16' of 
 dab8fe320726b38a6b1dc6a7ca6e386c5f7779e8 net: do not inline netif_tx_lock()/netif_tx_unlock()
 bec251bc8b6ab83464f6fca6842ad4ee47307d2e net: no longer stop all TX queues in dev_watchdog()
 17a7555bf21ce755219bf575b8a83adbf19580bd Merge branch 'dev_watchdog-less-intrusive'
+728e624f558b7e09bcc3c537bf03979c123cbfa1 net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+72ff39b7729efc45e52ab952a49f77545fcbd160 net/mlx5: Print more info on pci error handlers
+fbe580f0abd1fe0251036413afdead775047ebb1 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+c214cb78cd84ce32eb325df38da640aae8c6f2e7 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+950a3463d993595500c9f992192f57034efff1ac net/mlx5e: Allow profile-specific limitation on max num of channels
+1aa05dc266cb57a803d5f40bfcd7c6d4eae67255 net/mlx5e: Use dynamic per-channel allocations in stats
+194c4f7960d14ff1ebd4eaa99f8ede0dccf6648a net/mlx5e: Allocate per-channel stats dynamically at first usage
+f6b2660e2010e51787deba429ec2512007e6399d Merge branch 'patchq/435082' into mlx5-queue
+8fbd8a727a16bd8e8dbb491a65214a63b6f8b94c Merge branch 'patchq/432332' into mlx5-queue
 
---===============2564146599838493243==--
+--===============6168859578507672076==--
