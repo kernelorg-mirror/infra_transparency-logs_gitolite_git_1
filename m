@@ -1,33 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4206031858150189573=="
+Content-Type: multipart/mixed; boundary="===============1080899472410673387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 17 Nov 2021 00:50:04 -0000
-Message-Id: <163711020474.5144.16765942863141411960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 17 Nov 2021 00:50:13 -0000
+Message-Id: <163711021373.5974.17798862603483824833@gitolite.kernel.org>
 
---===============4206031858150189573==
+--===============1080899472410673387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-5.16
-    old: d3e3c102d107bb84251455a298cf475f24bab995
-    new: f6f9b278f2059478e9a57ac221995105641c7498
-    log: revlist-d3e3c102d107-f6f9b278f205.txt
+  - ref: refs/heads/staging
+    old: 375622ecf36e6b468dcc6a27bd4ce3d3866f98e3
+    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    log: revlist-375622ecf36e-fa55b7dcdc43.txt
 
---===============4206031858150189573==
+--===============1080899472410673387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3e3c102d107-f6f9b278f205.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-43d3b7f6a362c06a19f14ff432993780aaad7ffd MAINTAINERS: Add some information to PARAVIRT_OPS entry
-9dcc00715a7c0aea0d3afe1e935f4b4aefbeb294 ax88796c: fix ioctl callback
+certificate version 0.1
+pusher 75C5DE3D 1637110205 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1637110205-1ca114def4432f0fa0e040da1b28d7abbadd5293
+
+375622ecf36e6b468dcc6a27bd4ce3d3866f98e3 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf refs/heads/staging
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGUUb0ACgkQ7ulgGnXF
+3j30Eg/+IzUBqd5e8kIU1hvh50I6p0IIJIGzMiS9S0vaHRmh/kQ8oCaMNtcNiX/q
+BHoXliKiYHZGfwMA5m0We/NyfrS3Yfrz7Dp6HXCyYIgMWug3BjhLvg9IRCiGT26F
+u1j0lO0yTfE9DizqwA6I592oVB0vzFkQkFHqzuoQ6bJxGVIFFBcVxoB+25mtqUbs
+lBgsiRnFqwcm/IDfFOCA5FJeqaQ1UC0eK98E5IQWZQps5WCjYurOGsf/BAhIK/uh
+CLsGEBhoOkgvonFtutMlJmR85atMGv1pVg5dDdm93FPEZhHVurrHWAPEdF096NL1
+j8TlDEhLbY8ZJFL9WJNCZbvq7cpongbVUqk4ZbjhtKbbJhp3HQa0YBR29lqwMr6U
+s3KKF3Ay+5N6dk25PDZ+/XNTW27eHwjvKqECfpon1eD+ftjx+S2BVDDEH/kSfKY3
+44+UXCN3ucfiooMtc7V3Xs9sQiVuEQZiCO8ZNQDO+ELwpbYjwRg9vx/1/MmUbEd9
+EvWV/ywIISawBh/tKTbNFlSqipBt/XRtIwiTu57HT0fOXFcu9Qu0u3MZMXm44fQN
+9xuXNS0m6tF4IT6JW09a3My9jQUffJEy7Bc2MYY2Q8speGu0NKqBs2WiUQihVMnc
+1naHwJUyB6XDMjj2oF4WH3KgbjnJ7z8J/DcXYN4+IcrA4tfq6Bc=
+=6iK/
+-----END PGP SIGNATURE-----
+
+--===============1080899472410673387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-375622ecf36e-fa55b7dcdc43.txt
+
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
 a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
@@ -91,6 +119,7 @@ e41ac2020bca4acdb7485ddca34098f68d3af5ae bpftool: Install libbpf headers for the
 a51e4a1acb5fa4ce0b0f0bd3606463a09e6fa1b0 Merge tag 'microblaze-v5.16' of git://git.monstr.eu/linux-2.6-microblaze
 5a1bcbd965341537c354e3682f939a7274ac3f5d Merge tag 'pinctrl-v5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 64165ddf8ea184631c65e3bbc8d59f6d940590ca libbpf: Fix lookup_and_delete_elem_flags error reporting
+a19577808fd33d9e64e015808fbca2769a96721b io_uring: remove dead 'sqe' store
 5af06603c4090617be216a9185193a7be3ca60af Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 8b4ac13abe7d82da0e0d22a9ba2e27301559a93e selftests/bpf/xdp_redirect_multi: Put the logs to tmp folder
 f53ea9dbf78d42a10e2392b5c59362ccc224fd1d selftests/bpf/xdp_redirect_multi: Use arping to accurate the arp number
@@ -536,6 +565,7 @@ a4751f157c194431fae9e9c493f456df8272b871 s390/cio: check the subchannel validity
 2878feaed543c35f9dbbe6d8ce36fb67ac803eef bcache: Revert "bcache: use bvec_virt"
 a846a8e6c9a5949582c5a6a8bbc83a7d27fd891e blk-mq: don't free tags if the tag_set is used by other device in queue initialztion
 43d35ccc36dad52377dd349b2e3ea803b72c3906 ALSA: pci: rme: Fix unaligned buffer addresses
+bad119b9a00019054f0c9e2045f312ed63ace4f4 io_uring: honour zeroes as io-wq worker limits
 501586ea5974a9dafee41f54a66326addb01a5ac xen/balloon: fix unused-variable warning
 f91140e4553408cacd326624cd50fc367725e04a soc: ti: fix wkup_m3_rproc_boot_thread return type
 67b7e1f2410ecb94b86749cfbd1edf6d66ca237d Merge tag 'modules-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
@@ -881,6 +911,7 @@ ca2ef2d9f2aad7a28d346522bb4c473a0aa05249 Merge tag 'kcsan.2021.11.11a' of git://
 1b87bda1f29a91720a410ac0819866a3cf0df32d libata: libahci: declare ahci_shost_attr_group as static
 5833291ab6de9c3e2374336b51c814e515e8f3a5 Merge tag 'pci-v5.16-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 447212bb4f8ebd7d95dd6e160cd82c69c9a23c4c BackMerge tag 'v5.15' into drm-next
+d3e3c102d107bb84251455a298cf475f24bab995 io-wq: serialize hash clear with wakeup
 5d2f0b1083eb158bdff01dd557e2c25046c0a7d2 ksmbd: set unique value to volume serial field in FS_VOLUME_INFORMATION
 561a1cf57535154f094f31167a9170197caae686 ksmbd: remove md4 leftovers
 cb4517201b8acdb5fd5314494aaf86c267f22345 ksmbd: remove smb2_buf_length in smb2_hdr
@@ -1049,6 +1080,5 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-f6f9b278f2059478e9a57ac221995105641c7498 io_uring: fix missed comment from *task_file rename
 
---===============4206031858150189573==--
+--===============1080899472410673387==--
