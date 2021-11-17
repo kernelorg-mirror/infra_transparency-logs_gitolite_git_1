@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6518050538061613754=="
+Content-Type: multipart/mixed; boundary="===============2809292367643749886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 17 Nov 2021 22:30:24 -0000
-Message-Id: <163718822483.19479.11853883510648452507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 17 Nov 2021 22:30:31 -0000
+Message-Id: <163718823107.19606.3798690856021246484@gitolite.kernel.org>
 
---===============6518050538061613754==
+--===============2809292367643749886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/spi-5.17
     old: 44ebcb44584f81d1d38fafb45cf57d651f44616e
     new: 40fafc8eca3f0d41b9dade5c10afb2dad723aad7
     log: |
          40fafc8eca3f0d41b9dade5c10afb2dad723aad7 spi: hisi-kunpeng: Fix the debugfs directory name incorrect
          
 
---===============6518050538061613754==
+--===============2809292367643749886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637188223 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1637188222-24d2a9a8c3f68625ddc01c354cee9d3272c0b69c
+pusher C3F436CA30F5D8EB 1637188229 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637188229-f2e55cb41d6eeb67ae21f0d5b0bfe6ce4fe58afb
 
-44ebcb44584f81d1d38fafb45cf57d651f44616e 40fafc8eca3f0d41b9dade5c10afb2dad723aad7 refs/heads/for-5.17
+44ebcb44584f81d1d38fafb45cf57d651f44616e 40fafc8eca3f0d41b9dade5c10afb2dad723aad7 refs/heads/spi-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGVgn8ACgkQJNaLcl1U
-h9D/xAf/RhKWrEJeAomEuBxY4TeS8WJpGsueY6eoUsqP0PeJpHAD4Ndioo92jjqv
-DiVFCkHejSN6soI8s6pDKenRdo83+B44VWOZQFt9U7tMafGH7LHsfIoso0FK0agD
-KGhyAugKmWATme1Wx3dKhhMjChB47rhTsQnQI779+GcjyToId+VUbfEJh+B2Ih/h
-wey24c82mlYZqR+1TbQ0HEgwSnbJFoxkgI6v/HjLu/1OOKGdA+M1UBKZ2uU22EJG
-lL5YJoIiI563ciLEgIbnbhE0HRfMNOg415ghFMB6itGA0iPNz2SPa2j6xLWBUpkj
-YwMOgDPevyxekfr2uhNvHKpd2c80Eg==
-=iMXl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGVgoUACgkQJNaLcl1U
+h9Avngf8CFFS4jgXzRdcFNr6KkvrDNJSW12qTp58pe+u/K2+2FyX5OTOpNO0LaEo
+kJ9hHsg4r4noAUzoAGRmstimKDR3BHuTSdfupN1wOePBKo/J8U21cN/s0fuQEXRZ
+1O6Wz2DuvLJ6E6iJW7LByJTSItVqgleDW6U/KP37b0lPqug6KoTlqhLa36rLnBL+
+o/zuIb8WYTFNbbN4AKUj85SH/bqiVY6V3+PE567zDZlWVcKbe8Zt4Aw4Rh6Pvz3Y
+4qDVg44e0uylWpjwQKoQxZQ9WuPNNihT9psWgNFLZaWbkrPCiB4nUm0jBhlWtyxv
+e0uX66Zfo1LLFt9wyHzElTBgXup2Cg==
+=kuz2
 -----END PGP SIGNATURE-----
 
---===============6518050538061613754==--
+--===============2809292367643749886==--
