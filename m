@@ -1,71 +1,99 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Wed, 17 Nov 2021 12:12:23 -0000
-Message-Id: <163715114352.11114.11947923100622517697@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8000670217542812945=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 17 Nov 2021 12:16:50 -0000
+Message-Id: <163715141077.13942.2718999563142193935@gitolite.kernel.org>
+
+--===============8000670217542812945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: ce52bb2f5a2fee9d267b5b6e92f07ed9025639f2
-    new: c400a84987502506f8213cfba99626377c39071e
-    log: |
-         c400a84987502506f8213cfba99626377c39071e Add 2.4.2 release notes.
-         
-  - ref: refs/merge-requests/189/merge
-    old: bc33d82ef4432d9f790ea76e3467ca9e9c757a3a
-    new: 029ac78a6eedb7802f0df5fb3e7b6c6816b31aa0
-    log: |
-         0b3a7ecd0113c76fdcdc8a23f7f696ded820bd81 Update cryptsetup.pot.
-         0f656105e2dc49d56c039a349d69f541d885352b po: update cs.po (from translationproject.org)
-         1b08d47045b0423fce3ed3bcf469369cfcfc10ee po: update de.po (from translationproject.org)
-         aa8d8ec0aef14336c9e5dca7b6a316dc4d5b01ee po: update fr.po (from translationproject.org)
-         17ca4637673199073e7bf968a09096d85f92db3a po: update ja.po (from translationproject.org)
-         bf374ca9e65667826e35a8ca8bc6f75c5846e44c po: update ru.po (from translationproject.org)
-         ce52bb2f5a2fee9d267b5b6e92f07ed9025639f2 po: update uk.po (from translationproject.org)
-         029ac78a6eedb7802f0df5fb3e7b6c6816b31aa0 Merge branch 'base64' into 'master'
-         
-  - ref: refs/merge-requests/201/merge
-    old: a26de32b4783c7b9ce5ef75cb129afafbd6d3593
-    new: b96befa27838f8098e94f151db466fca295494d6
-    log: |
-         0b3a7ecd0113c76fdcdc8a23f7f696ded820bd81 Update cryptsetup.pot.
-         0f656105e2dc49d56c039a349d69f541d885352b po: update cs.po (from translationproject.org)
-         1b08d47045b0423fce3ed3bcf469369cfcfc10ee po: update de.po (from translationproject.org)
-         aa8d8ec0aef14336c9e5dca7b6a316dc4d5b01ee po: update fr.po (from translationproject.org)
-         17ca4637673199073e7bf968a09096d85f92db3a po: update ja.po (from translationproject.org)
-         bf374ca9e65667826e35a8ca8bc6f75c5846e44c po: update ru.po (from translationproject.org)
-         ce52bb2f5a2fee9d267b5b6e92f07ed9025639f2 po: update uk.po (from translationproject.org)
-         b96befa27838f8098e94f151db466fca295494d6 Merge branch 'veritysetup-output' into 'master'
-         
-  - ref: refs/merge-requests/210/merge
-    old: c23ddad992f117d12050d39e3ba8c100015092b5
-    new: 05b903786384d216f80c4f26f8126b9914ae2596
-    log: |
-         0b3a7ecd0113c76fdcdc8a23f7f696ded820bd81 Update cryptsetup.pot.
-         0f656105e2dc49d56c039a349d69f541d885352b po: update cs.po (from translationproject.org)
-         1b08d47045b0423fce3ed3bcf469369cfcfc10ee po: update de.po (from translationproject.org)
-         aa8d8ec0aef14336c9e5dca7b6a316dc4d5b01ee po: update fr.po (from translationproject.org)
-         17ca4637673199073e7bf968a09096d85f92db3a po: update ja.po (from translationproject.org)
-         bf374ca9e65667826e35a8ca8bc6f75c5846e44c po: update ru.po (from translationproject.org)
-         ce52bb2f5a2fee9d267b5b6e92f07ed9025639f2 po: update uk.po (from translationproject.org)
-         05b903786384d216f80c4f26f8126b9914ae2596 Merge branch 'resume-by-token' into 'master'
-         
-  - ref: refs/merge-requests/236/merge
-    old: f5c52a946728e1946e927ab9242ca1ec82959ce6
-    new: 27fca25afaa7b0a7e735093d1e4d117da4799e8a
-    log: |
-         0b3a7ecd0113c76fdcdc8a23f7f696ded820bd81 Update cryptsetup.pot.
-         0f656105e2dc49d56c039a349d69f541d885352b po: update cs.po (from translationproject.org)
-         1b08d47045b0423fce3ed3bcf469369cfcfc10ee po: update de.po (from translationproject.org)
-         aa8d8ec0aef14336c9e5dca7b6a316dc4d5b01ee po: update fr.po (from translationproject.org)
-         17ca4637673199073e7bf968a09096d85f92db3a po: update ja.po (from translationproject.org)
-         bf374ca9e65667826e35a8ca8bc6f75c5846e44c po: update ru.po (from translationproject.org)
-         ce52bb2f5a2fee9d267b5b6e92f07ed9025639f2 po: update uk.po (from translationproject.org)
-         27fca25afaa7b0a7e735093d1e4d117da4799e8a Merge branch 'token-replace' into 'master'
-         
+  - ref: refs/tags/for-linus
+    old: daba5eaca4b74fa0e5bd99715aae4cea9c190ea6
+    new: 4f3e0511cf0e8b13e10de259995f0ab9986f794b
+    log: revlist-daba5eaca4b7-4f3e0511cf0e.txt
+
+--===============8000670217542812945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1637151403 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1637151402-aade4e7a3f82e60c8a78a1a9be85fa1fcbfbda39
+
+daba5eaca4b74fa0e5bd99715aae4cea9c190ea6 4f3e0511cf0e8b13e10de259995f0ab9986f794b refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmGU8qsUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMuXgf/a11+SVIGLzQY9RAdGWPoQUOsrc3N
+a/jX5IKY3009BLFGeHRMhJWd6pHsr9bnf3RZw9CvEJhKzpJFO0W4ZSvlocr3j2SB
+6yZp07Dy2Wm0Tm9eaiUqmM1Ak6fj/lUa1OopaeBYe+QYF3/AS19+2Fh+ggnlicGz
+iy7LQsNlkOyAg6vUAedIlZ/SJgyCsTrWQCLmUk5px9zPAZYeEEyDJIxwfW+k4WWz
+d00T32bgS+KTCbLB3AtldR2U5a6rqfXD0mn4wCPO//4LifEGKfcCL59vqlvSdOao
+W2iBwv40fXfDuk6n1zTE4AwAXyTpcF5pmGnGKSZB+VmaJ7mPU5LHPfExwA==
+=0+3H
+-----END PGP SIGNATURE-----
+
+--===============8000670217542812945==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-daba5eaca4b7-4f3e0511cf0e.txt
+
+7c4de881f7eba40088241f1c3ff5ca28c4e7fa48 KVM: selftests: Add event channel upcall support to xen_shinfo_test
+531ca3d6d518f520f67a71e270ac733901896d8f KVM: selftests: Explicitly state indicies for vm_guest_mode_params array
+c071ff41e1502990a0902c7c3fcf72a462e46330 KVM: selftests: Expose align() helpers to tests
+f4870ef3e15ab889a689f99a579fe0fe7c53a960 KVM: selftests: Assert mmap HVA is aligned when using HugeTLB
+69cdcfa6f321da2cc1dd2e62fa4a9ee256299b18 KVM: selftests: Require GPA to be aligned when backed by hugepages
+b65e1051e489be4fe783cb14f1cd33235a0f9803 KVM: selftests: Use shorthand local var to access struct perf_tests_args
+613d61182fffca6b36ea0df1e44927ccf45b1e9b KVM: selftests: Capture per-vCPU GPA in perf_test_vcpu_args
+92e34c9974f55519bc0c3386221aadf387162ea6 KVM: selftests: Use perf util's per-vCPU GPA/pages in demand paging test
+b91b637f4a595c5be435e215f78b1a3bd8c252b3 KVM: selftests: Move per-VM GPA into perf_test_args
+a5ac0fd1b90ae811ba51da6a9928633bddefb792 KVM: selftests: Remove perf_test_args.host_page_size
+f5e8fe2a92e4923b63d1edd6ed53d9856b6515ce KVM: selftests: Create VM with adjusted number of guest pages for perf tests
+cf1d59300ab27af6a2e96b4882fe3d9a72b32b15 KVM: selftests: Fill per-vCPU struct during "perf_test" VM creation
+13bbc70329c8df003e64c4fbea8678f9db0e75d5 KVM: selftests: Sync perf_test_args to guest during VM creation
+36c5ad73d7016f34146cf0821c78f08737bdb5e9 KVM: selftests: Start at iteration 0 instead of -1
+81bcb26172a8f00840e0ca44277272dcb673887a KVM: selftests: Move vCPU thread creation and joining to common helpers
+89d9a43c1d2d3d703fae25c990a1d98dd178dd17 KVM: selftests: Wait for all vCPU to be created before entering guest mode
+e2bd936581038f3107c45e8ae32309a567b54bf4 KVM: selftests: Use perf_test_destroy_vm in memslot_modification_stress_test
+c5adbb3af051079f35abfa26551107e2c653087f KVM: x86: Fix uninitialized eoi_exit_bitmap usage in vcpu_load_eoi_exitmap()
+a31a01172ebfaf62e87691ae3003388f64e7055e cpuid: kvm_find_kvm_cpuid_features() should be declared 'static'
+f6749f2f0087748732efc6288ffbc0ddc1a72876 KVM: Fix steal time asm constraints
+39aa254352c92a1cd77901849e911e41930e5a0f KVM: nVMX: don't use vcpu->arch.efer when checking host state on nested state load
+51ead10569d3f903cd82188aeed4163bba7d1253 KVM: x86/mmu: include EFER.LMA in extended mmu role
+489026077440c5a5752711eafdcfb1f60c7559b7 KVM: x86/xen: Fix get_attr of KVM_XEN_ATTR_TYPE_SHARED_INFO
+77aec65134718fb3629a61b4bd8e6399c82c770b KVM: nVMX: Use kvm_{read,write}_guest_cached() for shadow_vmcs12
+fc704f047aee0cea26be486a092e9537cd6e5567 KVM: x86/xen: Use sizeof_field() instead of open-coding it
+8249f5c64e52e538a26d4ed70912dfd182ba0951 KVM: nVMX: Use kvm_read_guest_offset_cached() for nested VMCS check
+205d6acb691a147f804460d035d00d3bde69a2b7 KVM: nVMX: Use a gfn_to_hva_cache for vmptrld
+d79f9da821fda5cbc5383a2d9b16a12c962cb772 KVM: Kill kvm_map_gfn() / kvm_unmap_gfn() and gfn_to_pfn_cache
+479f52f308a4653d7a6204238f5f3e7f69891548 KVM: SEV: Disallow COPY_ENC_CONTEXT_FROM if target has created vCPUs
+3e7c6c0e45ed78d2ab951d925e3234dffabb38ef KVM: SEV: Set sev_info.active after initial checks in sev_guest_init()
+9379a2efb3775bf130b66937759c9f538231fe3a KVM: SEV: WARN if SEV-ES is marked active but SEV is not
+5fd47d36eb09047c7dc13ec724ad1f4cb61a7e6f KVM: SEV: Drop a redundant setting of sev->asid during initialization
+7dcae066049f197184a4d37c1e4ae98740a53451 KVM: SEV: Fix typo in and tweak name of cmd_allowed_from_miror()
+e5bc4d4602b8e0e63c9d00d210120d6bcfaea590 Merge branch 'kvm-selftest' into kvm-master
+60f6409e5a4f421a3efa3fb9cbbd47aaa4ce24d9 Merge branch 'kvm-5.16-fixes' into kvm-master
+5501013e150fc34cbdcdebd757468a5ceb129967 riscv: kvm: fix non-kernel-doc comment block
+77c6b7d262c7eb30d3e77d7b766e1f55ab984eeb selftests: KVM: Add /x86_64/sev_migrate_tests to .gitignore
+4069b8292d0855f59322eb35d878bcf58156b0c9 KVM: x86: Assume a 64-bit hypercall for guests with protected state
+3c7bbf265ee42ee761f91794a88df1c23d15ca41 KVM: arm64: Cap KVM_CAP_NR_VCPUS by kvm_arm_default_max_vcpus()
+f97736c45a09d08090786c9ddd95863d50de50ed KVM: MIPS: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+35cd2b7741488f592a13e1352fa1a69fc0eadb52 KVM: PPC: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+a572f0c8ab521ea4962cb84681254400883c8292 KVM: RISC-V: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+bb77f47f93d8b27fa6d4972b6680cca150c7ed9c KVM: s390: Cap KVM_CAP_NR_VCPUS by num_online_cpus()
+761f976f39d82e885219ba7aa197917c8f163385 KVM: x86: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+
+--===============8000670217542812945==--
