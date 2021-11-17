@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7367562356094368095=="
+Content-Type: multipart/mixed; boundary="===============7338558225619876627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Nov 2021 14:04:35 -0000
-Message-Id: <163715787553.19427.10800589185187863202@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 14:05:33 -0000
+Message-Id: <163715793354.21147.12942230652956553979@gitolite.kernel.org>
 
---===============7367562356094368095==
+--===============7338558225619876627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 26288448120b28af1dfd85a6fa6b6d55a16c7f2f
-    new: 362468830dd5bea8bf6ad5203b2ea61f8a4e8288
+    old: 362468830dd5bea8bf6ad5203b2ea61f8a4e8288
+    new: d4d2e5329ae9dfd6742c84d79f7d143d10410f1b
     log: |
-         310780e825f3ffd211b479b8f828885a6faedd63 usb: dwc2: hcd_queue: Fix use of floating point literal
-         47ce45906ca9870cf5267261f155fb7c70307cf0 usb: dwc3: leave default DMA for PCI devices
-         362468830dd5bea8bf6ad5203b2ea61f8a4e8288 usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
+         6ae6dc22d2d1ce6aa77a6da8a761e61aca216f8b usb: hub: Fix usb enumeration issue due to address0 race
+         d4d2e5329ae9dfd6742c84d79f7d143d10410f1b usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
          
 
---===============7367562356094368095==
+--===============7338558225619876627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637157872 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637157931 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1637157872-22b588bd7b0203754518c078716775d03a8234cd
+nonce 1637157930-49086391d6be242948a660e4e7d7985ac49e58ec
 
-26288448120b28af1dfd85a6fa6b6d55a16c7f2f 362468830dd5bea8bf6ad5203b2ea61f8a4e8288 refs/heads/usb-linus
+362468830dd5bea8bf6ad5203b2ea61f8a4e8288 d4d2e5329ae9dfd6742c84d79f7d143d10410f1b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVC/EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+btMP/3kDOgJ5b50GomMmZkqo
-TFDgYQ4xxW77GqnT6YO+uzLr23Zdt2bAWqoyF390VPTifmMa3FAQkP1uokQ7Z+i6
-oZKa0/8DYvza4VywjFvGH983TDRFskPZuEjdn0NBFua/THuNTsBbB9TTeMBcVsC3
-70RN6gaAsE4nHc92tc7+8ICNh5fgr8KB/NL2XIbBv1ewALw5KS/SzDDuyZj2sB3X
-5wTSWUHRH+9qyjaGbIRc6scfl0RrdTtZf4MvsjOI2ncXjuieEUfoNoBnkr2MYEFY
-CDbZJIjl46PzlKxhjnCn/MS43xNh2RjVJt2+exPpCsCWnQIZEeDDb7Z90LHIFxqY
-9lKQ0pIrX6sU5LLVtcChCr0yfgn8nm9bND4vks9pdE5gSIPZ9iK4ZgIJV0FFSGaf
-9nOjyCSHWHcQxEb1qS9vtT+gGXlfQuHJEB0YCmNAEnb4mRZS+wpM9LMh7ArqOnPK
-yoNHAZu4vzfH1wdkmtmNJGxv1n/wuIDwxZ/APRAwidFnLXZM3pMEQAQ5dRDqV7N6
-TkS0N8jsR3oS/pnle5n4thEvrKWxpl3IORCn2mT/bDHd0krXcoElbSfYvrP5dRyR
-9PLRhDOGAoPVBmqg0SkF29cR9fHlldFqtEfm/TlIgGn96djQ8vUcPSXajigEpBC5
-fGLss7T+WUICf3NqqES2agmx
-=/70j
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVDCsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BpcP/j/pZKZKwkcjx7rZTJQE
+rpKGpsqvH5N07d36t0clpyz+gHJIHgmVt9jcoeDOBHdWjM3fsXnAVOtaCzhhokQW
+to7PnxO9SGOZIFZqaOUWHIeeMrkcpz/TZEZfc7u1JdwF9X/VpcI9pT8fISUy2Nre
+ObyCNs5RTTolqC0n//mgc2Bt9Qn0KyRaeQZHb+eqvrWZBpmG7VYeDkGLwBPX3WZx
+kDHK1PxKB0gTx4CFq+5XulALB9Me4GGsBJQPvKUkQmdAp3H746gmCZrASeTQJ4ex
+Lbpv/jaY/0OS1dZ79Lwn0HjRMZ9rkAIUl24kAJ7BZ1diim+T7pGJhxXe3dZzI7CL
+VH99otx/WBNsPWECGjQC5IlmM662EeOoBPVUTV4+/0WOucSPUU4wsHkUB+jUEoix
+u1s8flNOG5fo2Eg1ra3k3CgGt7YzqSt4SID/71hX551wEcxOkCeD+3v36saXUnPr
+WmZ2cgrjU069elc10DSUeCkvzHlQcxAocVrzrFqx+YQj4BSamlVXdg+GwC2vh8kr
+ewDXntyPOn/TsqfJoS+iAngrrXCkvdRGeLJltNYbAGcTg0ra9LDBE9sEE/1hWwIv
+E49FnPgZ80O4SyeJ0cB//pHpzJ+FS5fCQcGJQDgdyyLnmv6tYQAPQcxalOrS/m7y
+EePTeeVaVWJgMw+CRSo2BjmE
+=5usk
 -----END PGP SIGNATURE-----
 
---===============7367562356094368095==--
+--===============7338558225619876627==--
