@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 17 Nov 2021 13:35:00 -0000
-Message-Id: <163715610038.30378.1519454764162959745@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 13:35:06 -0000
+Message-Id: <163715610611.31843.4064147969795689019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kfence/dev
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 44b8de3ca3b45eeca3dfe4aad276a4d804f61908
+  - ref: refs/heads/kasan/dev
+    old: 907b2f9c16265b5e879ff24463ddba9c3dc824ab
+    new: 32135fddfc9a276c4eaf7a68095292927c64cf75
     log: |
-         44b8de3ca3b45eeca3dfe4aad276a4d804f61908 docs: kernel-parameters: add info about kfence.sample_interval
+         32135fddfc9a276c4eaf7a68095292927c64cf75 kasan: test: add globals left-out-of-bounds test
          
