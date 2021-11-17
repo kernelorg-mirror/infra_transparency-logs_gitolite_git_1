@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 17 Nov 2021 22:52:51 -0000
-Message-Id: <163718957131.1704.4291178112209608858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 17 Nov 2021 23:06:22 -0000
+Message-Id: <163719038289.9889.14848031120759765686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: 5931d9a3d0529dc803c792a10e52f0de1d0b9991
-    new: dd7f091fd22b1dce6c20e8f7769aa068ed88ac6d
-    log: |
-         dd7f091fd22b1dce6c20e8f7769aa068ed88ac6d selftests/bpf: Fix xdpxceiver failures for no hugepages
-         
+    old: ef9e7727d062a136671a48095c54998611168531
+    new: 554c577cee95bdc1d03d9f457e57dc96eb791845
