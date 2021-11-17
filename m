@@ -1,99 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8000670217542812945=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 17 Nov 2021 12:16:50 -0000
-Message-Id: <163715141077.13942.2718999563142193935@gitolite.kernel.org>
-
---===============8000670217542812945==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 17 Nov 2021 12:44:22 -0000
+Message-Id: <163715306236.30090.1120787794229732285@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/tags/for-linus
-    old: daba5eaca4b74fa0e5bd99715aae4cea9c190ea6
-    new: 4f3e0511cf0e8b13e10de259995f0ab9986f794b
-    log: revlist-daba5eaca4b7-4f3e0511cf0e.txt
-
---===============8000670217542812945==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1637151403 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1637151402-aade4e7a3f82e60c8a78a1a9be85fa1fcbfbda39
-
-daba5eaca4b74fa0e5bd99715aae4cea9c190ea6 4f3e0511cf0e8b13e10de259995f0ab9986f794b refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmGU8qsUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMuXgf/a11+SVIGLzQY9RAdGWPoQUOsrc3N
-a/jX5IKY3009BLFGeHRMhJWd6pHsr9bnf3RZw9CvEJhKzpJFO0W4ZSvlocr3j2SB
-6yZp07Dy2Wm0Tm9eaiUqmM1Ak6fj/lUa1OopaeBYe+QYF3/AS19+2Fh+ggnlicGz
-iy7LQsNlkOyAg6vUAedIlZ/SJgyCsTrWQCLmUk5px9zPAZYeEEyDJIxwfW+k4WWz
-d00T32bgS+KTCbLB3AtldR2U5a6rqfXD0mn4wCPO//4LifEGKfcCL59vqlvSdOao
-W2iBwv40fXfDuk6n1zTE4AwAXyTpcF5pmGnGKSZB+VmaJ7mPU5LHPfExwA==
-=0+3H
------END PGP SIGNATURE-----
-
---===============8000670217542812945==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daba5eaca4b7-4f3e0511cf0e.txt
-
-7c4de881f7eba40088241f1c3ff5ca28c4e7fa48 KVM: selftests: Add event channel upcall support to xen_shinfo_test
-531ca3d6d518f520f67a71e270ac733901896d8f KVM: selftests: Explicitly state indicies for vm_guest_mode_params array
-c071ff41e1502990a0902c7c3fcf72a462e46330 KVM: selftests: Expose align() helpers to tests
-f4870ef3e15ab889a689f99a579fe0fe7c53a960 KVM: selftests: Assert mmap HVA is aligned when using HugeTLB
-69cdcfa6f321da2cc1dd2e62fa4a9ee256299b18 KVM: selftests: Require GPA to be aligned when backed by hugepages
-b65e1051e489be4fe783cb14f1cd33235a0f9803 KVM: selftests: Use shorthand local var to access struct perf_tests_args
-613d61182fffca6b36ea0df1e44927ccf45b1e9b KVM: selftests: Capture per-vCPU GPA in perf_test_vcpu_args
-92e34c9974f55519bc0c3386221aadf387162ea6 KVM: selftests: Use perf util's per-vCPU GPA/pages in demand paging test
-b91b637f4a595c5be435e215f78b1a3bd8c252b3 KVM: selftests: Move per-VM GPA into perf_test_args
-a5ac0fd1b90ae811ba51da6a9928633bddefb792 KVM: selftests: Remove perf_test_args.host_page_size
-f5e8fe2a92e4923b63d1edd6ed53d9856b6515ce KVM: selftests: Create VM with adjusted number of guest pages for perf tests
-cf1d59300ab27af6a2e96b4882fe3d9a72b32b15 KVM: selftests: Fill per-vCPU struct during "perf_test" VM creation
-13bbc70329c8df003e64c4fbea8678f9db0e75d5 KVM: selftests: Sync perf_test_args to guest during VM creation
-36c5ad73d7016f34146cf0821c78f08737bdb5e9 KVM: selftests: Start at iteration 0 instead of -1
-81bcb26172a8f00840e0ca44277272dcb673887a KVM: selftests: Move vCPU thread creation and joining to common helpers
-89d9a43c1d2d3d703fae25c990a1d98dd178dd17 KVM: selftests: Wait for all vCPU to be created before entering guest mode
-e2bd936581038f3107c45e8ae32309a567b54bf4 KVM: selftests: Use perf_test_destroy_vm in memslot_modification_stress_test
-c5adbb3af051079f35abfa26551107e2c653087f KVM: x86: Fix uninitialized eoi_exit_bitmap usage in vcpu_load_eoi_exitmap()
-a31a01172ebfaf62e87691ae3003388f64e7055e cpuid: kvm_find_kvm_cpuid_features() should be declared 'static'
-f6749f2f0087748732efc6288ffbc0ddc1a72876 KVM: Fix steal time asm constraints
-39aa254352c92a1cd77901849e911e41930e5a0f KVM: nVMX: don't use vcpu->arch.efer when checking host state on nested state load
-51ead10569d3f903cd82188aeed4163bba7d1253 KVM: x86/mmu: include EFER.LMA in extended mmu role
-489026077440c5a5752711eafdcfb1f60c7559b7 KVM: x86/xen: Fix get_attr of KVM_XEN_ATTR_TYPE_SHARED_INFO
-77aec65134718fb3629a61b4bd8e6399c82c770b KVM: nVMX: Use kvm_{read,write}_guest_cached() for shadow_vmcs12
-fc704f047aee0cea26be486a092e9537cd6e5567 KVM: x86/xen: Use sizeof_field() instead of open-coding it
-8249f5c64e52e538a26d4ed70912dfd182ba0951 KVM: nVMX: Use kvm_read_guest_offset_cached() for nested VMCS check
-205d6acb691a147f804460d035d00d3bde69a2b7 KVM: nVMX: Use a gfn_to_hva_cache for vmptrld
-d79f9da821fda5cbc5383a2d9b16a12c962cb772 KVM: Kill kvm_map_gfn() / kvm_unmap_gfn() and gfn_to_pfn_cache
-479f52f308a4653d7a6204238f5f3e7f69891548 KVM: SEV: Disallow COPY_ENC_CONTEXT_FROM if target has created vCPUs
-3e7c6c0e45ed78d2ab951d925e3234dffabb38ef KVM: SEV: Set sev_info.active after initial checks in sev_guest_init()
-9379a2efb3775bf130b66937759c9f538231fe3a KVM: SEV: WARN if SEV-ES is marked active but SEV is not
-5fd47d36eb09047c7dc13ec724ad1f4cb61a7e6f KVM: SEV: Drop a redundant setting of sev->asid during initialization
-7dcae066049f197184a4d37c1e4ae98740a53451 KVM: SEV: Fix typo in and tweak name of cmd_allowed_from_miror()
-e5bc4d4602b8e0e63c9d00d210120d6bcfaea590 Merge branch 'kvm-selftest' into kvm-master
-60f6409e5a4f421a3efa3fb9cbbd47aaa4ce24d9 Merge branch 'kvm-5.16-fixes' into kvm-master
-5501013e150fc34cbdcdebd757468a5ceb129967 riscv: kvm: fix non-kernel-doc comment block
-77c6b7d262c7eb30d3e77d7b766e1f55ab984eeb selftests: KVM: Add /x86_64/sev_migrate_tests to .gitignore
-4069b8292d0855f59322eb35d878bcf58156b0c9 KVM: x86: Assume a 64-bit hypercall for guests with protected state
-3c7bbf265ee42ee761f91794a88df1c23d15ca41 KVM: arm64: Cap KVM_CAP_NR_VCPUS by kvm_arm_default_max_vcpus()
-f97736c45a09d08090786c9ddd95863d50de50ed KVM: MIPS: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
-35cd2b7741488f592a13e1352fa1a69fc0eadb52 KVM: PPC: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
-a572f0c8ab521ea4962cb84681254400883c8292 KVM: RISC-V: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
-bb77f47f93d8b27fa6d4972b6680cca150c7ed9c KVM: s390: Cap KVM_CAP_NR_VCPUS by num_online_cpus()
-761f976f39d82e885219ba7aa197917c8f163385 KVM: x86: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
-
---===============8000670217542812945==--
+  - ref: refs/heads/rcu/experimental
+    old: ba03d2bb22896996cd67baa30fbc5533324fea7c
+    new: 17dd3bd85eb5e4df163d775b47d92dd5d44032a6
+    log: |
+         2390725d4936d7e35896e5bddf6c51e93ee1a056 rcu/nocb: Remove rdp from nocb list when de-offloaded
+         5b377bca4231b39a202ace66f40170e838c9b46f rcu/nocb: Prepare nocb_cb_wait() to start with a non-offloaded rdp
+         6791adcab9a9387cd407f62cd4b9155eed5d6a9b rcu/nocb: Optimize initialization
+         ebb7327643ec7c1bad72a2ddf65b26b1967b0a98 rcu/nocb: Create nocb kthreads on all CPUs as long as rcu_nocb= is passed
+         924f814af60fe386d7e2893e03cf7a60b3751982 rcu/nocb Allow empty rcu_nocbs= kernel parameter
+         17dd3bd85eb5e4df163d775b47d92dd5d44032a6 rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
+         
