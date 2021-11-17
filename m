@@ -1,24 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 17 Nov 2021 16:48:02 -0000
-Message-Id: <163716768292.27604.2520858101097798097@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2541976342925480553=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 17 Nov 2021 16:50:03 -0000
+Message-Id: <163716780369.30589.14777616754993000705@gitolite.kernel.org>
+
+--===============2541976342925480553==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8ab774587903771821b59471cc723bba6d893942
-    new: ee1703cda8dc777e937dec172da55beaf1a74919
-    log: |
-         8a7eb2d476c6823cd44d8c25a6230a52417d7ef8 Drivers: hv: balloon: Use VMBUS_RING_SIZE() wrapper for dm_ring_size
-         daf972118c517b91f74ff1731417feb4270625a4 x86/hyperv: Fix NULL deref in set_hv_tscchange_cb() if Hyper-V setup fails
-         f3e613e72f66226b3bea1046c1b864f67a3000a4 x86/hyperv: Move required MSRs check to initial platform probing
-         c0019b7db1d7ac62c711cda6b357a659d46428fe NFSD: Fix exposure in nfsd4_decode_bitmap()
-         ef1d8dda23e7df10b48c90f86b12c9b4c62da1ab Merge tag 'nfsd-5.16-1' of git://linux-nfs.org/~bfields/linux
-         ee1703cda8dc777e937dec172da55beaf1a74919 Merge tag 'hyperv-fixes-signed-20211117' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-         
+  - ref: refs/heads/perf-wip
+    old: f55e54d9379a598b9d81a7e8d441b8362d26ac8d
+    new: cc04fb5c354a3d998a3c7d36ddc70c54e1806fe8
+    log: revlist-f55e54d9379a-cc04fb5c354a.txt
+
+--===============2541976342925480553==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f55e54d9379a-cc04fb5c354a.txt
+
+b2089d8f07fc2c3e398b5aca1d22b364ea1ddc09 block: add mq_ops->queue_rqs hook
+9b23ad09e1112276851abc5df4a289feda611a92 nvme: separate command prep and issue
+04bf82e62d62d59f5ccb35fe1fa0fd0e0987d641 nvme: add support for mq_ops->queue_rqs()
+a095a98ecd376c9b4afa9dd0e093f4eef8221be9 io_uring: remove sq/cq_off memset
+4d13d5efdd2c39e42f1f0f84e038315adbedd7dd io_uring: return error pointer from io_mem_alloc()
+42205ba7229949907d580860279494a5ebf58ea1 io_uring: add ring freeing helper
+13d3889b168de3fba8cabdcafaf6d4308d3aee2f io_uring: support for user allocated memory for rings/sqes
+fcbcbb7ccdb1f5662cb4c60d6a28bfd09f8da1d4 block: move io_context creation into where it's needed
+858f6ad467ba97dc5f9c8c4f8793dae3522afa19 blk-ioprio: don't set bio priority if not needed
+8e3bf640bcc18e91ec735c3be6570a8bb647beb7 block: only allocate poll_stats if there's a user of them
+5c1f3d61fef0b7298d0534128b58bb4c2468d221 block: separate out rq_qos linkage
+cc04fb5c354a3d998a3c7d36ddc70c54e1806fe8 block: use separate links for rq_qos tracking
+
+--===============2541976342925480553==--
