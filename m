@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4254151516342665910=="
+Content-Type: multipart/mixed; boundary="===============7680679849512062885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 17 Nov 2021 15:09:44 -0000
-Message-Id: <163716178411.29549.8990395566905535543@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 15:10:52 -0000
+Message-Id: <163716185216.31330.7645361735983522424@gitolite.kernel.org>
 
---===============4254151516342665910==
+--===============7680679849512062885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-testing
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: c21a80ca0684ec2910344d72556c816cb8940c01
+    new: dc74e8cf2324ad61b050a55ec0ffa9db6f4fce33
     log: |
-         c21a80ca0684ec2910344d72556c816cb8940c01 binder: fix test regression due to sender_euid change
+         dc74e8cf2324ad61b050a55ec0ffa9db6f4fce33 nitro_enclaves: Remove redundant 'flush_workqueue()' calls
          
 
---===============4254151516342665910==
+--===============7680679849512062885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637161781 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637161850 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1637161780-d1283c268c14324c26d7fb7225af0985235eb59a
+nonce 1637161849-3347d0eb83a9c1ec24d4f98d7c5b183874217ca5
 
-fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf c21a80ca0684ec2910344d72556c816cb8940c01 refs/heads/char-misc-linus
+fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf dc74e8cf2324ad61b050a55ec0ffa9db6f4fce33 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVGzUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eO4QAKqJJGMbXpB439O4TotK
-EDZlQ+a1fNvXVRGnUtIL+/Q7vHkM93bcVYexkLhC3riIjlStnj30ViFB/4brdpRH
-x5MJ9uW1Ex3fhNuNB3KIp+DwtR3LuJI8PKTgJ7BtxCVDWdN+XaBQ1QVyVpHk6qyW
-ln63Li+QLWWYUqbLakQ13TLK5SUW7Wj86lH+43LcBi3pO1NEVnceEL5AIXc32UgT
-KYkjWSQBg/osxvV+q+faUF5kpkOilbOL7tJMZutsPjbxaWE2jbs2Br+g3MBWr3T7
-V0cEHYAhPyNG5J6shbUSG/Gg4ZRGPa0EHZgPw2bl3vj/A4dtUZFRqDac5VtQjTzw
-wGgPjuVohQ2ssU7y1viEdlykIjXRbyAy80kJTV7IMNKJIpDkyxgc1eeUoKi5Bv/R
-/B2pV2+pthkw4IZzpKybtRRDDxMlIyUvEVFA0LY5hvw2UONH184i+8rAkjioHu5j
-XT9lESdukgeOEUi1YhC/LRp43Eu9hcXIO6cEOaayQ63Lr4TVvmkpN9ID6Rd3C8Hh
-RnmMmNjFbRurE8lMTlbu7kFJ05hTvz98siTrj1hGbpKH9TgrPEagNDUpYftmK2fQ
-MgikcWLdNNJb4YTc8in28gPd7F/EjBEFUIk2nGo0TTgivtwrKbP0nwOK2NxzU+eO
-U6LUtw+D2bRIW4NXLqCX7MBZ
-=iSGv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVG3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xiMP/2NxfXOU8DHK9XcOgUb/
+PpXm5No7ATaBKyG22lwmWmK7+bIMliKczfaZGvBfg1Akxo25wnLI7LNkp50kdyk+
+xkoegnAg6NZIw6W+oE0wpux+3wemA5zJBku+9agi501BBsOrn+bu2aFO+T0FGBT7
+ZEgSKUcT2w86o99GNTdqhk5VTeECFPKmeDfBvWBFfuqs3+I+PpmHbZ/THjnmkIVm
+XbnFwD9vN1yPpAvH5prFA5gbaR8EE5OYBxYuWmL51v9c499acXXYA3UqX/tqIZQ+
+69sMK0ZjUMtE64DMDN5Q/4gCjnn6y7uyXdFTHxOzYvu6ELd0xWwvRdzYNkagnJcJ
+2P9Dedr+9b1mCyjtWetVOpYxHybUsaEFdFOvWtOiHoYimzdBukcIkbtdA3k8toUb
+641HaKJiT2hRSMiiEcV2FQTHcEYNU7onQ5rJTfsX88QhXMtFIpzppY0tvmaS79rp
+biMXmxWNfyVCFThl0wIMEQHwqvHCUXMKWP4YYVzxLiZWiVNmTTG9Y6tRE+VvXJBs
+uWf4hoNhzg9Sn8cX1aJ98MtK1f52mySG0moJ/OecuaV/Tzn+YkwCOtrSQPR8UAxq
+pvQmZYgKuREd/mp7B53iUgYC0KyDf+W74Q39OCz3G9+V2KAH3WUtqrG5h/ueC0Wr
+GYoD5Lo51DouooM31e8QfCh7
+=k/3v
 -----END PGP SIGNATURE-----
 
---===============4254151516342665910==--
+--===============7680679849512062885==--
