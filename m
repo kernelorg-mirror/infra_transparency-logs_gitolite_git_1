@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2216360247686316040=="
+Content-Type: multipart/mixed; boundary="===============5339895846222889421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 17 Nov 2021 22:30:08 -0000
-Message-Id: <163718820887.19254.14091182205447445158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 17 Nov 2021 22:30:18 -0000
+Message-Id: <163718821805.19388.11734330809997435969@gitolite.kernel.org>
 
---===============2216360247686316040==
+--===============5339895846222889421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d
     new: 424fe7edbed18d47f7b97f7e1322a6f8969b77ae
     log: |
          424fe7edbed18d47f7b97f7e1322a6f8969b77ae ASoC: stm32: i2s: fix 32 bits channel length without mclk
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 7548a391c53cab2af0954d252cc5a9a793fd4c0e
     new: b6a5f4f05592e79cad076767c8eac2aaf04fc61e
     log: revlist-7548a391c53c-b6a5f4f05592.txt
 
---===============2216360247686316040==
+--===============5339895846222889421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637188206 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637188205-36226e2d31ee17cfd8c593ce6da875ef6cdc3fe9
+pusher C3F436CA30F5D8EB 1637188215 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637188215-2ff56ff026110ead901613a4f0a928c36ef4bfab
 
-cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d 424fe7edbed18d47f7b97f7e1322a6f8969b77ae refs/heads/for-5.16
-7548a391c53cab2af0954d252cc5a9a793fd4c0e b6a5f4f05592e79cad076767c8eac2aaf04fc61e refs/heads/for-5.17
+cb04d8cd0bb0b82acc34cc73cb33ae77cbfb020d 424fe7edbed18d47f7b97f7e1322a6f8969b77ae refs/heads/asoc-5.16
+7548a391c53cab2af0954d252cc5a9a793fd4c0e b6a5f4f05592e79cad076767c8eac2aaf04fc61e refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGVgm4ACgkQJNaLcl1U
-h9Djswf+NtM53HoQBwz5u1vxUHWBRBH6A2EU6BDblOkCkPM5uPzPkiSRim7XS1pw
-WGbbMBibpGFz1HDvgCflsKd/49Qh92J6zhnGdxX33yLAzq0e1USopzLV+JiL0rYy
-U1TO5WtZMaHMP8q7sQdQ9Gyu05SKMeiIY+ZcDPlVxwGdggg5EJ8owWYQWJXssKSo
-zbiEt/Iko5F8SWyFB6Zc/Lecgt4XHMED21GvI6YCG+Y30e9vIfPdZJYf2QTCG908
-uauRUD/r55ReVQxT1NfAkQEyIEAaOynhe13cMGUq3BOEDcG0BLWTUszkXONw0UH+
-1WZZ6oAYPhTb5Bj0kLJMgp3sknky6Q==
-=BtT4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGVgncACgkQJNaLcl1U
+h9Az5wf+LVTpwcbw4FyiXmSfKq2Lf42fCe0QkmddYSwzW7XfxIkXMsWi28Na0c9l
+kDhq9GckDczcUWCuA2HjfX/MGn29g/zPUwyIep7FuEbqKT4+728Yazu+D2u8fOxD
+PNkw1ArBO6z9sK+aAG1Lc2mkZTtyRL61Vq0QdpuWkYMSqACU2RxDSTzk2Rxp/D6J
+DfQRZpj/KXjVXaccpzosfgfI0CcBG0AvQ2uiWeE5hHfsfWAgc3FLNMbVGQa/nyT0
+rsQI+Q1tcqMkDjIzbxqOR84P9aw/ugEej5rLkpHGgzLs5tTC5rlnG9U5Ae4JMGiD
+6NAXkpHXFO9/Hm2CNmVKu3r0NDh3mw==
+=sIuh
 -----END PGP SIGNATURE-----
 
---===============2216360247686316040==
+--===============5339895846222889421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -94,4 +94,4 @@ f444da38ac924748de696c393327a44c4b8d727e firmware: cs_dsp: Add offset to cs_dsp 
 745a8e7cbea86eea1af441d6d039f8958bf30e36 ASoC: SOF: New debug feature: IPC message injector
 b6a5f4f05592e79cad076767c8eac2aaf04fc61e ASoC: SOF: Platform updates for AMD and Mediatek
 
---===============2216360247686316040==--
+--===============5339895846222889421==--
