@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3240891152781184832=="
+Content-Type: multipart/mixed; boundary="===============2923629450195343618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 17 Nov 2021 13:54:50 -0000
-Message-Id: <163715729080.13295.17620966469115534384@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 13:56:16 -0000
+Message-Id: <163715737647.15183.9532693624589727247@gitolite.kernel.org>
 
---===============3240891152781184832==
+--===============2923629450195343618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: f98a3dccfcb0b9b9c3bef8df9edd61cda80ad937
-    new: 2202e15b2b1a946ce760d96748cd7477589701ab
-    log: revlist-f98a3dccfcb0-2202e15b2b1a.txt
+  - ref: refs/heads/x86/core
+    old: a72fdfd21e01c626273ddcf5ab740d4caef4be54
+    new: d31c3c683ee668ba5d87c0730610442fd672525f
+    log: revlist-a72fdfd21e01-d31c3c683ee6.txt
 
---===============3240891152781184832==
+--===============2923629450195343618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f98a3dccfcb0-2202e15b2b1a.txt
+Content-Disposition: attachment; filename=revlist-a72fdfd21e01-d31c3c683ee6.txt
 
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
 a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
@@ -1049,6 +1049,6 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-2202e15b2b1a946ce760d96748cd7477589701ab kernel/locking: Use a pointer in ww_mutex_trylock().
+d31c3c683ee668ba5d87c0730610442fd672525f x86/csum: Rewrite/optimize csum_partial()
 
---===============3240891152781184832==--
+--===============2923629450195343618==--
