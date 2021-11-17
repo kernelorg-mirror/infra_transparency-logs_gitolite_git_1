@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7653499099186499515=="
+Content-Type: multipart/mixed; boundary="===============3289233289787626751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 17 Nov 2021 16:05:55 -0000
-Message-Id: <163716515528.1414.4706536457979110451@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 16:06:03 -0000
+Message-Id: <163716516323.1573.9911841072223007985@gitolite.kernel.org>
 
---===============7653499099186499515==
+--===============3289233289787626751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 848e5d66fa3105b4136c95ddbc5654e9c43ba7d7
-    new: c366ce28750e9633f8d4b07829a9cde0e59034eb
-    log: revlist-848e5d66fa31-c366ce28750e.txt
+  - ref: refs/heads/dev-queue
+    old: e6f93269a3a545d9c7bf7e2f61020e43f331518a
+    new: a052188f8de23f40bbf33e2ede45ecb14cb8e299
+    log: revlist-e6f93269a3a5-a052188f8de2.txt
 
---===============7653499099186499515==
+--===============3289233289787626751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-848e5d66fa31-c366ce28750e.txt
+Content-Disposition: attachment; filename=revlist-e6f93269a3a5-a052188f8de2.txt
 
 199d983bc01513173dd9cc486dbddf4d0e414d42 xsk: Fix crash on double free in buffer pool
 34d11a440c6167133201b7374065b59f259730d7 bpf: Fix inner map state pruning regression.
@@ -73,5 +73,36 @@ f77b83b5bbab53d2be339184838b19ed2c62c0a5 net: usb: r8152: Add MAC passthrough su
 9b5a333272a48c2f8b30add7a874e46e8b26129c net: dpaa2-eth: fix use-after-free in dpaa2_eth_remove
 cf9acc90c80ecbee00334aa85d92f4e74014bcff net: virtio_net_hdr_to_skb: count transport header in UFO
 c366ce28750e9633f8d4b07829a9cde0e59034eb net: ax88796c: use bit numbers insetad of bit masks
+e72c99bb48416a9fb627e3bf8fb44dd32b52a27c checkpatch: Fix warnings when --no-tree is used
+50a65a114decb1e05060f09b2d8eed85ece7132e checkpatch.pl: seed camelcase from the provided kernel tree root
+2755fddb2204dd663d0686ad99678e5676587115 ice: Fix a couple off by one bugs
+755cbe25a207959ff65c6198eb95bf0562f69389 i40e: Fix correct max_pkt_size on VF RX queue
+58bbf8ec5b4c58c83383a2127c69c2ddf3f3429b i40e: Fix NULL ptr dereference on VSI filter sync
+35d5bf67ae6b3083d7168566cd4ffb9c21b9435b i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+ebf572a8adcab819857190109e92b36c239e4691 i40e: Fix warning message and call stack during rmmod i40e driver
+36b263152ad411ca25dfbde4472b76767a088db6 ice: fix FDIR init missing when reset VF
+c4bdd9c1d2e13b3c50e9463eb91a28f65640871d i40e: Fix failed opcode appearing if handling messages from VF
+8aca7116cd9e616428b41aac9983f48c838fae3a i40e: Fix creation of first queue by omitting it if is not power of two
+f55fcb08553660c1461e80c98ea35b66faa62b2d i40e: Fix pre-set max number of queues for VF
+e0e8c965b0d7cebf4943a99a91be6c5a2b7df9f4 iavf: Fix static code analysis warning
+9e23018be870319261238699a5a7e870c6115fc7 igb: Fix removal of unicast MAC filters of VFs
+57c3a004534d1c70b99dd5173c23992dc8328d1a iavf: Fix limit of total number of queues to active queues of VF
+6edb07fe611c09b95868380bfcff2c8bbd5c9038 iavf: Fix RTNL deadlock with new flag IAVF_FLAG_REINIT_MSIX_NEEDED
+afed44de57e53e17942eff1b0f0fbaa1f2cb69b7 iavf: Fix deadlock occurrence during resetting VF interface
+c753bfd5d64c80a3af043919884a4eeef66a9f33 iavf: Fix refreshing iavf adapter stats on ethtool request
+cae182e195d1d3921cda46cd06d09d38dcab9c34 ice: ignore dropped packets during init
+0d46fced015f85d6874c991a95f2c92e3966fefb ixgbe: Document how to enable NBASE-T support
+9b5ece9961522b26150c3fa417f02fcf7a4f08b5 iavf: Fix reporting when setting descriptor count
+a4f02eedd6f6ab6a94c49956f0418141e6d6bb64 i40e: Fix VF failed to init adminq: -53
+4e5ad492f3a2b87af810b9f3cac4f78f038f24bf i40e: Increase delay to 1 s after global EMP reset
+84a9a3f404289e734b2e04f3618deba2beb32f3f i40e: Fix display error code in dmesg
+7cd1876e123ef92e7faa01d0466380e397f5dd52 ixgbe: set X550 MDIO speed before talking to PHY
+d661559202eaa4445659e7a8b92043327ec313f3 igc: Fix typo in i225 LTR functions
+2186746e645def273a7948e351717323eccdd07f i40e: Fix issue when maximum queues is exceeded
+ef70b7123bdcc3f84e86f1a25ac3cd4444f715d4 ice: Use div64_u64 instead of div_u64 in adjfine
+d8e235304ac9be791714a8785b853f8d95246310 iavf: missing unlocks in iavf_watchdog_task()
+7c90e1986e55841c93885033a34ee2ba279039fd e100: fix device suspend/resume
+ddc35ef3c105bf87af7d98babb4b2d580946415e ice: safer stats processing
+a052188f8de23f40bbf33e2ede45ecb14cb8e299 iavf: Fix VLAN feature flags after VFR
 
---===============7653499099186499515==--
+--===============3289233289787626751==--
