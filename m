@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0525865050568247131=="
+Content-Type: multipart/mixed; boundary="===============1456279507502467888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 17 Nov 2021 13:24:58 -0000
-Message-Id: <163715549855.24249.10370024392157530142@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 13:26:09 -0000
+Message-Id: <163715556931.26034.5231500247835028883@gitolite.kernel.org>
 
---===============0525865050568247131==
+--===============1456279507502467888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8ab774587903771821b59471cc723bba6d893942
-    new: 9c8846c73ec0014acaac1f2ff4134ab5a9cc2996
+    old: 9c8846c73ec0014acaac1f2ff4134ab5a9cc2996
+    new: ba67723f946165684fb82f367096ddd126b64d2d
     log: |
-         9c8846c73ec0014acaac1f2ff4134ab5a9cc2996 usb: cdnsp: Remove unneeded semicolon after `}'
+         ba67723f946165684fb82f367096ddd126b64d2d dt-bindings: usb: dwc2: document the port when usb-role-switch is used
          
 
---===============0525865050568247131==
+--===============1456279507502467888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637155496 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637155567 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1637155495-c0be0b35aebafd9b9b53c3c8099ad5c8789e0a5d
+nonce 1637155566-0874efa8f3655a7c3bfa240534a3108bc135bc6c
 
-8ab774587903771821b59471cc723bba6d893942 9c8846c73ec0014acaac1f2ff4134ab5a9cc2996 refs/heads/usb-testing
+9c8846c73ec0014acaac1f2ff4134ab5a9cc2996 ba67723f946165684fb82f367096ddd126b64d2d refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVAqgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IBUP/iM3L3NUYJJ9q1wTyGFF
-LDMmDAfCnhcdUpTzB2C5hfCSwlvIKgrdQE/KThLjfEt3ZkLZo/9aVz0FtX2ceDOp
-sFwbEu4uYaTxjeXmnc1u38nXxf6eGL1+ZOYMs5qwmFRrSECTWaEdeskPfQuWRuqQ
-T+dq56pSH6CRa38WKw0j/sBBeNs72K94YI7oUWF1K3MeMSc0W9T5jD2V7nzVLVLX
-9tcGGFHYacXnpwmUpxIjUkc9VU8ccLlMEu9IugfQXOEdUOu3ce5d1uo30IAnxliF
-0aAGo589CiECriUTCKhx1MhqvJnSmmE4vqc5Zw/OYVMykzc4yvbBO5PQ78i7PzQk
-qUyJvrWS4wDkYAA/8xrNeiilZPntmX7wkO6K6MYZi8Z1qCHHuRclSCJcdKG5RjtL
-IcDsfYTUEz85tMclIENroAQ/BXVqKPYmhIheLDfBQMzIOgOiE86b81qISfB1vVWY
-A5KPRBUM+dQ51mOIXRFtBVEdpsCAXw5mSYdfsr8rM4mh9VdHdqjUOBATxcd7dBES
-J5dn6DrX14tREO6XDIrVIo6BRwW4hHVr2Nshpj9rt4CzS6fP7aqtIAkSmodfEFtg
-xQ+hF7oN722IjfE9hfgZjjxEOU0++4u+N2JE+bqxLcySsD+T5rj0YkldeA5m61Oo
-zqXqtgts48kolJkCdjQ4qAy5
-=kA5B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGVAu8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GMAP/R/w1cmMfjUE+OGHz0H0
+juDgW7b4RUIY1v3cfvt+BFhGXt5eMM6Z7ssHHVNqX+/f1pp7GR6SdrLTJJyeHZUZ
+/JI0SFKTOt/+kpxbu32RV+gZv6HQp48uK3sdJWPbpvzZrexDfMkWiMEoLjRdr6hU
+Wa93uu8Mqq0Y7kjuXUevW9SROhUElzzzqkf6ld+3BDnvlD5qGgS7ok8RmNz0gJKK
+yg0cl6Mj4g06htl8uBIn31KR/FSxNGvOsHtaGypN4xEqBksCT5yhpoY8euHNE/84
+dcFVGvGurLgQiOH7bYNRcxocxBblZzVeluMTrX6JeggaXgYS0iW/FCedCMiXvy9F
+iTs0vKcsYYVC4u6dRghh+Y+xf4x35Q7yB+DjTiTmxM21HDQ2ytdaqht7zwUWd/TX
+wMBoyWgWdQQJMuwgtvITODmBR/WIMJTiihir3vMDAvJC1yJzoJRstByrP25QrO58
+5CtCw9O3o7LoNCguMVR9O4xxvWWgsnxaWA4RWoQhuCN5xMQIPI0SKRsl25+IaAzp
+GPis3VkiuwQnU5NhAeolLMlIvMb8ag6YJJBQavvE1qZ8zJvRotQmHQodVGHgdY4S
+WGFJ5TlIhWXmPgiXNP44ECyg2kLkAUUQat4Q7kP1Jmue58trVnKXD8wv7xVtFQ7H
+Hu3bpVwjsejCsNeAMGyOqRib
+=+dJ9
 -----END PGP SIGNATURE-----
 
---===============0525865050568247131==--
+--===============1456279507502467888==--
