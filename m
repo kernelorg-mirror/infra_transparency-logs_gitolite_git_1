@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2814405230441318360=="
+Content-Type: multipart/mixed; boundary="===============6095869830450182043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Nov 2021 00:49:38 -0000
-Message-Id: <163711017876.3854.6281642302316756884@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 00:49:51 -0000
+Message-Id: <163711019125.4002.1422600938917446977@gitolite.kernel.org>
 
---===============2814405230441318360==
+--===============6095869830450182043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3344b58b53a76199dae48faa396e9fc37bf86992
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-3344b58b53a7-fa55b7dcdc43.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 905558dc2cb0e0a1aa5df4ea3ad9e522aee354bd
+    new: ca971c8fc5eba73989afb54c116c5f0d0e29e85f
+    log: revlist-905558dc2cb0-ca971c8fc5eb.txt
 
---===============2814405230441318360==
+--===============6095869830450182043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1637110170 -0500
+pusher 75C5DE3D 1637110183 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1637110170-46f9709521bec61a79f68f4687a0afdef0984d56
+nonce 1637110182-f5f4ae938ec3d120c54a2306ebca9eb337364ecc
 
-3344b58b53a76199dae48faa396e9fc37bf86992 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf refs/heads/queue
+905558dc2cb0e0a1aa5df4ea3ad9e522aee354bd ca971c8fc5eba73989afb54c116c5f0d0e29e85f refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGUUZoACgkQ7ulgGnXF
-3j1HxA/+NBlOQ4WrZLLpB1Tns+LNYRvn5bh8vqo7BQ+1aMejNqo/9GbqQiek5h9H
-L3FG1OEQdK4M07F73fQePhs84NpPqEPi3XiC5oSV0DZyF/Y/RWx0xupuCt7sidUq
-uLAk68CBLxVrRYOJFf087htomP1F5IYDXD+oP3/h0c0GTybjoMKJ20NS8ltG+W89
-FsJVfTpzC56/ByELd0Fd7bHh7lXZWeV8VxAliSmfFJ7C0/PDj/S50v94jDkQ79sH
-vq2j8a3l/sAObIPcW4IRRCBZ2EOIhjEc2pExg7AhCmsGOkXqhYXSGOIKPuLW+i6Y
-EW+dSgKkaXBiKGVrCtI7RNh3MZ0JqwQVr4Ob9oSyMsQvrgSbfBhvnXvVeb6Fr9g3
-Y0WclLnJDLmXHe0xnq0D3kABbMeUB+D4q+eHcCJGEo7/qwR2tuKEobS/unSJvNOX
-rX0Wsabir01D6Yp2DhAdp4klBQlilakPr2FwswPJSlGgEu0yCCdBbV7lJHnGg7lD
-OL7qc4pPMXcJSO1qPuHUtj6k1bbZDXmExT94yzHFZzwyexuo/pQGLo8uapDp45IG
-vITQeP7W4wRc2b2OTCtI1svCVILC8eM6QaKBdMROPruy9Mdz4LClAe5U5479MZCC
-5Dsmz9FxHtT1itAPM+v2tyy+iaDb4nK3FI7TzUYdx9SwtHVoORM=
-=14or
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGUUacACgkQ7ulgGnXF
+3j3hZw/8CiwBZl/gFqp4pYw1AlBjqtZsliWDKe1Q4tQd7SWscbC36vqnfpYfu3Wz
+WEk1cPxnatyD6Bf1soI2KHpatcZlZgZ48m0hQMtQbvktMgoEco6bSwJ1GQCR2L07
+TLRGRqHdmzLuYTr1vRtocbi1xpH+jRt+hTKp5au3mSRXm2t6m1c5aAdWKJ+KWnlY
+Ys2xG2M2oQSyqyLUylN2PCT0tWn5g3f/wtIzMjY5eqTat+nhl57/dno8RHsTY7SR
+Njat32nPpHOZuwV93AVMw/uYEqx/MDcuVdzHEwcN9gjA460EGEr51vntbr2fkbQ+
+vQqtSNtSgaCE9y//QuQRt7dp6Ot0QEVuY9XHFKPsvPPMncCd5tJLNdjReUhQ5KGw
+3Qt4a3Q2AQTtMLYhd4Bi6yXBdSbsy0zFiCA1iiaMsZfPCQnei3POknJp5r/Gm1ln
+5VHzXej+FceuOZk9jXN4dIJ9uwsA+0Z1bxBWdAl29th2DJpdy8CXt27b+cRITvKv
+S6OsxYPJ47fRLsUlZV88IFwMHxUDj9kOoPDbW7AO00DHYUgIrwpun7kex5kofIzS
+HrWhF2CyfTcOqXVvFGV/3aNeZ+sEvkkKVI9bgkfE5A7UjHjO4XGyBptlELp4ArIF
+OWvRu3tDQVlZ9uK3SP7cMDLm7/8HZmr2oAYIYNiecvBr/brJ0Fo=
+=++pY
 -----END PGP SIGNATURE-----
 
---===============2814405230441318360==
+--===============6095869830450182043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3344b58b53a7-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-905558dc2cb0-ca971c8fc5eb.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1081,4 +1081,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============2814405230441318360==--
+--===============6095869830450182043==--
