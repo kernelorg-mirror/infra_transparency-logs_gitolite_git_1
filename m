@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 17 Nov 2021 13:27:00 -0000
-Message-Id: <163715562022.26445.18053059882145779791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Wed, 17 Nov 2021 13:34:46 -0000
+Message-Id: <163715608650.30187.17182297704522455257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: 17dd3bd85eb5e4df163d775b47d92dd5d44032a6
-    new: 8f50f830b9128ff734c7329d07981d04797b3515
+  - ref: refs/heads/misc
+    old: 863c823095fccd89dc089a3fc15fb7082f176544
+    new: d6eccf9df5a7b25ce07c780f2ef0d981ad5c468b
     log: |
-         eb6e082459aadf7133cd61c2c32903616c6f3773 rcu/nocb: Remove rdp from nocb list when de-offloaded
-         f1247d049fd56d3830f042c2ef63adb8cf1116fd rcu/nocb: Prepare nocb_cb_wait() to start with a non-offloaded rdp
-         9f017c7ae2e7ddbd82bd71641199adbf96543302 rcu/nocb: Optimize initialization
-         8bb00ba43c81f092e5c8c3ce886ab996189f6621 rcu/nocb: Create nocb kthreads on all CPUs as long as rcu_nocb= is passed
-         0f1b5d3c3384692e321c15cb0eb79a5799c1a37f rcu/nocb Allow empty rcu_nocbs= kernel parameter
-         8f50f830b9128ff734c7329d07981d04797b3515 rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
+         cbe326090a5febf82f9d4a180688af06de331b5f perf test: Add basic stress test for sigtrap handling
+         7ba8433e1c4085d9f596606fac0cba290887debb mm/slab_common: use WARN() if cache still has objects on destroy
+         da8c293907c875b3affae6c6397b2e4d89d33c8f perf: Ignore sigtrap for tracepoints destined for other tasks
+         d6eccf9df5a7b25ce07c780f2ef0d981ad5c468b panic: use error_report_end tracepoint on warnings
          
