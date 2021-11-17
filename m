@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 17 Nov 2021 23:14:36 -0000
-Message-Id: <163719087635.13677.16360878239137820035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 17 Nov 2021 23:14:47 -0000
+Message-Id: <163719088756.13818.5401046421915103079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: f7c3f31db877d30056d19761e48499f5b0bfa0b6
-    new: 5711325cbb37d10c21a6975d1f1ebea11799c05e
-    log: |
-         5711325cbb37d10c21a6975d1f1ebea11799c05e Makefile: Fix android compilation
-         
+  - ref: refs/tags/gfs2-v5.15-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 79f2ceb78b250321d5d0265a86db5043e03d334f
