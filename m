@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 17 Nov 2021 11:22:03 -0000
-Message-Id: <163714812369.12956.17065584270768142029@gitolite.kernel.org>
+Date: Wed, 17 Nov 2021 11:24:00 -0000
+Message-Id: <163714824003.13588.18374660831632076726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d3a410001e670540936a6bac3ea7e36c69dd7158
-    new: 253d091cdf998711b96f770d2f2bf58df986e9c3
+    old: 253d091cdf998711b96f770d2f2bf58df986e9c3
+    new: c11239f3556c0c83d1f8f646bdc9dd1cdaf6e42b
     log: |
-         ae089a8191764ba39d2867293eab5e7a9627f12c net: sparx5: populate supported_interfaces member
-         9b5cc05fd91c1ea0f6eb4765464449a519d1eea4 net: sparx5: clean up sparx5_phylink_validate()
-         319faa90b724ce68b3dccd24161c65feb4a77988 net: sparx5: use phylink_generic_validate()
-         253d091cdf998711b96f770d2f2bf58df986e9c3 Merge branch 'sparx5-phylink'
+         83800d29f0c578e82554e7d4c6bfdbdf9b6cf428 net: mtk_eth_soc: populate supported_interfaces member
+         db81ca153814475d7e07365d46a4d1134bd122e2 net: mtk_eth_soc: remove interface checks in mtk_validate()
+         71d927494463c4f016d828e1134da26b7e961af5 net: mtk_eth_soc: drop use of phylink_helper_basex_speed()
+         a4238f6ce151afa331375d74a5033b76da637644 net: mtk_eth_soc: use phylink_generic_validate()
+         c11239f3556c0c83d1f8f646bdc9dd1cdaf6e42b Merge branch 'mtk_eth_soc-phylink'
          
