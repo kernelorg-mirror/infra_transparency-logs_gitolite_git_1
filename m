@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1411242624429338716=="
+Content-Type: multipart/mixed; boundary="===============3215105897743793956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 17 Nov 2021 21:52:28 -0000
-Message-Id: <163718594814.27405.13361638075737907888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sfr/next-fixes
+Date: Wed, 17 Nov 2021 22:00:03 -0000
+Message-Id: <163718640307.31127.13327703954060871738@gitolite.kernel.org>
 
---===============1411242624429338716==
+--===============3215105897743793956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/sfr/next-fixes
+user: sfr
 changes:
-  - ref: refs/heads/for-next
-    old: c20106944eb679fa3ab7e686fe5f6ba30fbc51e5
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-c20106944eb6-fa55b7dcdc43.txt
+  - ref: refs/heads/fixes
+    old: e71ba9452f0b5b2e8dc8aa5445198cd9214a6a62
+    new: 3483d332d72c666b2dcad2ae800672f0b26c8f8e
+    log: revlist-e71ba9452f0b-3483d332d72c.txt
 
---===============1411242624429338716==
+--===============3215105897743793956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c20106944eb6-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-e71ba9452f0b-3483d332d72c.txt
 
-a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
-dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
-138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
-9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
-3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
-15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
-48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
-ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
-635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
 4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
 c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
 3060c54ce3c234ce103a3989e1fd431c987ceb72 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
@@ -1050,5 +1040,15 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
+938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
+158ea2d2b2ff8fb49f39209a31b4920f13193a3d kbuild: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
+8ab774587903771821b59471cc723bba6d893942 Merge tag 'trace-v5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+8a7eb2d476c6823cd44d8c25a6230a52417d7ef8 Drivers: hv: balloon: Use VMBUS_RING_SIZE() wrapper for dm_ring_size
+daf972118c517b91f74ff1731417feb4270625a4 x86/hyperv: Fix NULL deref in set_hv_tscchange_cb() if Hyper-V setup fails
+f3e613e72f66226b3bea1046c1b864f67a3000a4 x86/hyperv: Move required MSRs check to initial platform probing
+c0019b7db1d7ac62c711cda6b357a659d46428fe NFSD: Fix exposure in nfsd4_decode_bitmap()
+ef1d8dda23e7df10b48c90f86b12c9b4c62da1ab Merge tag 'nfsd-5.16-1' of git://linux-nfs.org/~bfields/linux
+ee1703cda8dc777e937dec172da55beaf1a74919 Merge tag 'hyperv-fixes-signed-20211117' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+3483d332d72c666b2dcad2ae800672f0b26c8f8e Mark NTFS_RW as BROKEN
 
---===============1411242624429338716==--
+--===============3215105897743793956==--
