@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5493393160964607815=="
+Content-Type: multipart/mixed; boundary="===============0297658436318724428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 18 Nov 2021 18:13:01 -0000
-Message-Id: <163725918171.23492.10744442459868392896@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 18:13:14 -0000
+Message-Id: <163725919412.23630.6059361907665778814@gitolite.kernel.org>
 
---===============5493393160964607815==
+--===============0297658436318724428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: c366ce28750e9633f8d4b07829a9cde0e59034eb
     new: c7521d3aa2fa7fc785682758c99b5bcae503f6be
     log: revlist-c366ce28750e-c7521d3aa2fa.txt
 
---===============5493393160964607815==
+--===============0297658436318724428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ fec1faf221f61118aa52f44c65a13c3e173a64c2 devlink: Don't throw an error if flash 
 0fa68da72c3be09e06dd833258ee89c33374195f net: ethernet: dec: tulip: de4x5: fix possible array overflows in type3_infoblock()
 c7521d3aa2fa7fc785682758c99b5bcae503f6be ptp: ocp: Fix a couple NULL vs IS_ERR() checks
 
---===============5493393160964607815==--
+--===============0297658436318724428==--
