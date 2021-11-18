@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux-firmware
-Date: Thu, 18 Nov 2021 16:52:31 -0000
-Message-Id: <163725435133.5745.17503133044327391028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 18 Nov 2021 16:58:43 -0000
+Message-Id: <163725472336.9010.16182637761074483927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hansg/linux-firmware
-user: hansg
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/QCA6174-ms-surface-board-data
-    old: 82ae93ac69d44022434a5a70a6f23233cf068570
-    new: 01b80dc1c26fb47881387601d2b960c40f322fd9
-    log: |
-         01b80dc1c26fb47881387601d2b960c40f322fd9 ath10k/QCA6174/hw3.0/board-2.bin
-         
+  - ref: refs/tags/net-5.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 66ba6a82d17b1544322190b2265e7d40a71e594a
