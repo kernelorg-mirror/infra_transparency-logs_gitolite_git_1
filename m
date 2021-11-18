@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7993256252135136876=="
+Content-Type: multipart/mixed; boundary="===============5356732064335156437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 18 Nov 2021 19:03:42 -0000
-Message-Id: <163726222265.8413.5055927047716286690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 Nov 2021 19:03:49 -0000
+Message-Id: <163726222958.8544.12589620007220125266@gitolite.kernel.org>
 
---===============7993256252135136876==
+--===============5356732064335156437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 424fe7edbed18d47f7b97f7e1322a6f8969b77ae
     new: 8cf72c4e75a0265135d34a8e29224b4c1e92b51c
     log: revlist-424fe7edbed1-8cf72c4e75a0.txt
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: b6a5f4f05592e79cad076767c8eac2aaf04fc61e
     new: 626a3dfbdb5d11f92e709680135abf272057ef59
     log: |
@@ -36,32 +36,32 @@ changes:
          626a3dfbdb5d11f92e709680135abf272057ef59 ASoC: SOF: Add support for Mediatek MT8195
          
 
---===============7993256252135136876==
+--===============5356732064335156437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637262220 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637262219-3be5b4ab03c3208295ddbb0f124c803fbe4160e7
+pusher C3F436CA30F5D8EB 1637262227 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637262226-14e1529abd41943c599836d38cbde7795e1a6ef7
 
-424fe7edbed18d47f7b97f7e1322a6f8969b77ae 8cf72c4e75a0265135d34a8e29224b4c1e92b51c refs/heads/for-5.16
-b6a5f4f05592e79cad076767c8eac2aaf04fc61e 626a3dfbdb5d11f92e709680135abf272057ef59 refs/heads/for-5.17
+424fe7edbed18d47f7b97f7e1322a6f8969b77ae 8cf72c4e75a0265135d34a8e29224b4c1e92b51c refs/heads/asoc-5.16
+b6a5f4f05592e79cad076767c8eac2aaf04fc61e 626a3dfbdb5d11f92e709680135abf272057ef59 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGWo4wACgkQJNaLcl1U
-h9Aj0Qf9FJjMxDHznn0yoFGj6toL3DvHSmB67w16zeNzZSkrWIv1Qn9Tv465X2C8
-o75c/j52GdoZ8hKFhOh26H0qEs4B6M+84bHCMAz9MLXRr4pWDe9azXCEpoJD6S/s
-VO4vwK6V8Q1gC4Nww9gRwG+lgfIcHJEOB4Z/T0F59pbSKSfezDj22GUOec+mjGt+
-A5M+pVGwPcHw6JqXTtsz4De5PwmCg0Sk+1W+JkbXC6EMiL2AslfnHhPjB+36YUyu
-9f1ELPJKSF7SpDF+kw0ZEHn58h3o4HKnR9V98ki3KtvkVP9O1rqetX8aBlhsHvog
-N0xCNeDn3HeXxtm5W3jgGn7fnFtkMQ==
-=Vurh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGWo5MACgkQJNaLcl1U
+h9Dr6wf/ZDmcX5Qy5NcqT1nq5lM1xUPYbU43XXtodifY7MZZu9ybRFHWHc92ozAv
+Pert4o/iorV9H2GEUQS38NIVTEQiFNmaUIwePEZqWaYSrTt4pn5OSM7jbW2a4QS+
+SLhcjQuyc+vm+qULCHaBnQIr30cxhsUGjEGANKGVKwnsNiWjAlpddu/NyusO2Pf/
+iAyD+M93nz2yDzzKpYmKqe7mt/jmyBfbZMlb7grwSGYx4s+bmMjsmJMrcLbUidLA
+vRlqrSm4y8c2Vn0PxdeBKbLw0QMjIpcuGi1FAoBbiVToZrLb3cc9GSMPDOafs+g/
+Higsz8UFstkwmBOS1WPVEonWTyN2qA==
+=E91i
 -----END PGP SIGNATURE-----
 
---===============7993256252135136876==
+--===============5356732064335156437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -84,4 +84,4 @@ b31f8febd1850bbe74aba184779ec54552d92752 ASoC: tegra: Fix kcontrol put callback 
 3c97881b8c8a2aa8afd4d7a379b7ff03884c9e4a ASoC: tegra: Fix kcontrol put callback in ADX
 8cf72c4e75a0265135d34a8e29224b4c1e92b51c ASoC: tegra: Fix kcontrol put callback in Mixer
 
---===============7993256252135136876==--
+--===============5356732064335156437==--
