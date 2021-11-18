@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Thu, 18 Nov 2021 13:01:53 -0000
-Message-Id: <163724051314.9315.1416649458030219474@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5410274819160080418=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 18 Nov 2021 13:01:54 -0000
+Message-Id: <163724051417.9360.8529750171857230578@gitolite.kernel.org>
+
+--===============5410274819160080418==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/task_stack_free
-    old: 5667a1bd4b9ac60b951b55b267be082f64c423b9
-    new: 80810d6b610fbf4ecd58fcfd1f80de6c99802e3e
+  - ref: refs/heads/master
+    old: 6cfde779209885679ca9b61979d1c0f0f4f84895
+    new: 434ca6c841ea6205917d588f61d7bebe0b5b0897
     log: |
-         d99ecc20f8a81d4ca3f9f6d515a592aabcba9c1c kernel/fork: Redo ifdefs around task's handling.
-         2e321361209f64d1289b41432a29a0202c3c275a kernel/fork: Duplicate task_struct before stack allocation.
-         635d00042bc2951a05323faa166c5d542d83aaf8 kernel/fork, IA64: Provide a alloc_thread_stack_node() for IA64.
-         f4455c81235bb020f4e4434747282aec37cc9670 kernel/fork: Don't assign the stack pointer in dup_task_struct().
-         1c4c9d521560171dbf21522cb372773e12124600 kernel/fork: Move memcg_charge_kernel_stack() into CONFIG_VMAP_STACK.
-         4e89d73e08e443902278d0fb54a43ace68d114b2 kernel/fork: Move task stack account to do_exit().
-         e9b6a0e09fe1fcdf056ed2630508aa37ca6d20a8 kernel/fork: Only chache the VMAP stack in finish_task_switch().
-         80810d6b610fbf4ecd58fcfd1f80de6c99802e3e kernel/fork: Use IS_ENABLED() in account_kernel_stack().
+         434ca6c841ea6205917d588f61d7bebe0b5b0897 Linux 5.14.20
          
+
+--===============5410274819160080418==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637240513 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1637240512-a536e0afa3e26200db0e076b7944cc1452224f49
+
+6cfde779209885679ca9b61979d1c0f0f4f84895 434ca6c841ea6205917d588f61d7bebe0b5b0897 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWTsEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+60kQAM8yLe6QbF4QAoH/28w3
+cgjgZiXh1ixo9jq5wqSCkyFkgItoiovRh+u0k2SHjBvevHwtu9iAANneSACcY6k+
+XNKqfndBUsSCXokQKFp0h+AV3z59HuQtIkQtbg4KzrWfCyDEuewVIqYsSCBPimgU
+wKoTAJcJ/T4odinf/7kBzdo3whC992xc1dTZoaHMpY4FVQwdyivt+joIS10JLCtB
+fgZ7ARNM6i4JLt8fxXuYAs2+AKxOOeslv+sKgY//gBD/k2MOAjd9nreYJgSyObSF
+4EZnD+Clt9zoCMBuVLY3nHhkOeY6ut4LsJ52cjG9gSKrd8AFmMcogo4RUMPcHVmk
+Ol+AkFM8bCED9AiveuAnip8c0Zi5BQBYVfdYojd9z4i0kyCb/0BkMFuVTr3B2mBI
+/XuezRGckf+Tk1HSO8GNyltBftUAHf8YVlU9fjkpeCtkBxTJX86R71HLE+p8OxER
+2XMvJW3DKvP67dwDCTuvLyAZoZNdDZG6YDtexgcjRSRpU08AsIndLOSep8k2rthm
+Ta6+IpxVw2TbSTUi4iE/Zl3XSiHddqel0JqOeZEStNs9/MaHjTzQ4GMARXjYFWea
+Hr7d+VjyWyPPKIOh2+dW8/lz9AVCvxvgZoAlKpoYGYwx5NbFzeHN61um1MgrsgN1
+m4j3/7QPI0yUK1lp0lcKgGf5
+=Jvlw
+-----END PGP SIGNATURE-----
+
+--===============5410274819160080418==--
