@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7298350700278815531=="
+Content-Type: multipart/mixed; boundary="===============8875386883567311590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 18 Nov 2021 13:09:23 -0000
-Message-Id: <163724096386.5583.14487955616481334353@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 13:09:36 -0000
+Message-Id: <163724097661.5719.15951168244626961230@gitolite.kernel.org>
 
---===============7298350700278815531==
+--===============8875386883567311590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,42 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.14.y
-    old: 0e62c60b3e7e0cb6ef4679e9da31709ac68918e9
-    new: ff7124b91f52412696e66683b37a5724c303cc11
-    log: |
-         b51c1a592faaf114b33f56f25aec757d21a826e0 Revert "x86: Fix __get_wchan() for !STACKTRACE"
-         961913f45ff64ee68b689ae8070e1ab42108d02b Revert "sched: Add wrapper for get_wchan() to keep task blocked"
-         1b86960dc451412e7029b267e9e87536fdd554cb Revert "x86: Fix get_wchan() to support the ORC unwinder"
-         ff7124b91f52412696e66683b37a5724c303cc11 Linux 5.14.20
-         
+  - ref: refs/tags/v5.10.80
+    old: 0000000000000000000000000000000000000000
+    new: 07b84418fcab20f2f57a8a9609943cf422d17318
+  - ref: refs/tags/v5.14.20
+    old: 0000000000000000000000000000000000000000
+    new: cc10056276bc3eb57c101950c30a44deb1a4e093
 
---===============7298350700278815531==
+--===============8875386883567311590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637240961 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637240970 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1637240960-adbb792dd6cfda98fbba7b91ed7201a475b2c26f
+nonce 1637240969-6db32f06356c0abebff04e883e43dcf328e0e4b4
 
-0e62c60b3e7e0cb6ef4679e9da31709ac68918e9 ff7124b91f52412696e66683b37a5724c303cc11 refs/heads/linux-5.14.y
+0000000000000000000000000000000000000000 07b84418fcab20f2f57a8a9609943cf422d17318 refs/tags/v5.10.80
+0000000000000000000000000000000000000000 cc10056276bc3eb57c101950c30a44deb1a4e093 refs/tags/v5.14.20
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWUIEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cG0QAMQPsBmu1sREpK6fHZba
-DD/4+reT14OmXiIy+WTgiGopVvq9d25YL1pqy+FfvOC4SH6i/Xzt8bXjBJYM18IP
-Mo2ji9jGxYbECQ+jXyfVXHDkt5iI9s2ZXMKr/P5AJ/8zf0wjQ+eZU1pA7E9eS4T0
-D567G8P8HfBS73wkOxXpOEKadlKSIfL7TBWMuMZbKXshaQ8TvajUzAgABv/Y9+QU
-H25PVFbXb5lI331W8NC89F5OLoY66ZVEpe9ZG4xFaPccSIFUkUX77ZUkUuMHi+2C
-q5siEaZaO2w/s1yGuPXNIhIGotEdfK6CB9pV03LAWC9AeDDBDfA5F8b3bY/DjnsS
-YpLvYIMSQCkMHN7M62bhsOBKUgKcOao1hvQH+YtzFwXKysfopPw0ZIE8Xav9oZzE
-WozU16EL8hEjWwOs9gDogAb/IlNcFJhvGNvVV1EIdqjZRkLGpqstATHK3LZVlXCo
-wD9gIuZ1QZ6prejt7YzuZhvRLy1p/ed29TIojWYsZWTXcmAensAOlMr4eD1B6yR9
-Ph17gPykoX0lHGnLjoHHPixs68W9/omG1nNh7KLbyOr0ZXB3BEH5egw+zNEWNMz3
-rreTKIt26j0z9QW5s8NfV9rP2yDC6paObnyTmEQzgb74N/UAVXQrONNEBemNC5Q7
-XaRRRIkzOANK8F8O8Rf366CC
-=YtC7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWUIobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5tIP/0JlyByB4K+0CasIKEHp
+H2r+UO+F36pU9EBuESwmyXSzuIToNMeQPVZrp8eb6UI+IehJ5+yfyip+Swniofj7
+CLLilBtIckAlcgwog5XlvXAEeNwtCVXoOvYss+W2erE9O65mBslw4oLQECnIqqtJ
+YxqsLoiuQtenSZwcXL304MbAGWOycd5YAWD89YP/zGpUGMuwqHKH3oiClm5OEneu
+CQ1BtbBKYdhVXc6j4VJYmPXb8zF75SbtOol+0Xinlt/BDx0Gv6jTncttFtQfEssI
+hCVPWvM7C5n87dqWqkHGo34NVOK/Vc0oxskTX2tpNQI6iLpY1qzbHH26T5p+q2qq
+X9TYUlNokFNJGP0WaqxxcUR1nuxSN6tREalmDyz1hpJZCm2DIXAcIpxQ+ttu2eni
+jb2GCGAj+txGtX+Ufz5T6S85DDm7V4/os5vQgL2rAQ3IuNqPacu1PCVF5KfpiEfv
+JYohn1hzznruzrM3o3z69eEDr4LAnUO3YzmRF9kMP+yzUlDI46Ziu9e9CfYjqtcE
+SohTXsqlpBUKmQVimfeFaW3Wb74RJXnx2bNRuKBzBYBhyUE7AgD6DDBR4eHDReYb
+zb+Iez866zM0vYi56MQ87OMNmrX2b1zDQiasxFEEzYkmqRKL99+T5LOZ/DM152aC
+9/vwAj4U2NB2AMOZu2isuc8d
+=YH5A
 -----END PGP SIGNATURE-----
 
---===============7298350700278815531==--
+--===============8875386883567311590==--
