@@ -1,59 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6767435697275186150=="
+Content-Type: multipart/mixed; boundary="===============5631878591788531428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 18 Nov 2021 19:04:03 -0000
-Message-Id: <163726224319.8765.10763020969660274815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 18 Nov 2021 19:04:09 -0000
+Message-Id: <163726224976.8864.10469313217871781511@gitolite.kernel.org>
 
---===============6767435697275186150==
+--===============5631878591788531428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.16
-    old: 7492b724df4d33ca3d5b38b70fb4acb93e6d02bf
-    new: 6966df483d7b5b218aeb0e13e7e334a8fc3c1744
+  - ref: refs/heads/for-5.17
+    old: 40fafc8eca3f0d41b9dade5c10afb2dad723aad7
+    new: 61f6e38ae8b6cbe140cfd320b3003a52147edef0
     log: |
-         6966df483d7b5b218aeb0e13e7e334a8fc3c1744 regulator: Update protection IRQ helper docs
-         
-  - ref: refs/heads/regulator-5.17
-    old: 4950486cd86f450baa847bfc13557244d834526c
-    new: 92b1348277f8893671e5354adde64fe3cf462821
-    log: |
-         8b6e88555971eac384b89fb0bd6c72ee4e1e6a6a regulator: rohm-regulator: add helper for restricted voltage setting
-         e7543e199591c24175c4a06beec15611ce4b5a5b regulator: bd718x7: Use rohm generic restricted voltage setting
-         92b1348277f8893671e5354adde64fe3cf462821 regulator: Add units to limit documentation
+         61f6e38ae8b6cbe140cfd320b3003a52147edef0 spi: qcom: geni: remove unused defines
          
 
---===============6767435697275186150==
+--===============5631878591788531428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637262241 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1637262240-83b5e174bd700225fd9d46645a96ecee6bcc8879
+pusher C3F436CA30F5D8EB 1637262248 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1637262247-4b24c22708ba3a302ab04d0faace9009a70cc69f
 
-7492b724df4d33ca3d5b38b70fb4acb93e6d02bf 6966df483d7b5b218aeb0e13e7e334a8fc3c1744 refs/heads/regulator-5.16
-4950486cd86f450baa847bfc13557244d834526c 92b1348277f8893671e5354adde64fe3cf462821 refs/heads/regulator-5.17
+40fafc8eca3f0d41b9dade5c10afb2dad723aad7 61f6e38ae8b6cbe140cfd320b3003a52147edef0 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGWo6EACgkQJNaLcl1U
-h9BFWggAhdN5Z3d9HHPXxxJfeQOFNZjvySGGRvhZee4hQ7ISyQZxDGh0NOyFsmpi
-hF6lqGxS8k7h/rJ7yumDREoUYXOAV1WxB8ZvDdc7yQYusWqi2ZXEaE54pJrcBExj
-xqDeBCfuMshXT4Cr1trw1XwYJQBYXlnenKy8FNDJfpgPeHrJxGFN7s5WziWEMwhn
-j6oykgTHaE0MEHKaEpP1tcFKksDZP4Jrl3Yz3MQfrHIv51P1XHvQr8COMh5vKG9F
-s/Ll7BM//8kk3ek0fwWGXqenfonvBlDB2sWpylA+XTl/u9CCvD5fde6YU246uBMU
-dVKv3/hUgdfgEqDjUtr0GOkkZDPZCg==
-=APNU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGWo6gACgkQJNaLcl1U
+h9AGmwf/U37rc6ZKAmIguPerGTQjD+Bixj74vatSqgF8Yc1xK6c9wnFqsG9ZBQmR
+MQ/84/Fa1RRznBXRfWUGhcKGyy3hP4IzUpJBn2Hs53e77t4b3YdhqVIJ1fGxp3sc
+6zoHUQFgHDc0KIeOWR7UsFtkqp5FOjF/PGNTdvG3Az85IQ5apore250dVvs8BMKI
+VyodcLNwVVdTlCc8i3e+nI61wzONzbUGnZ0UpDoWxL/GGtbi2EXuFWCI57MGbLak
+C4W38XWXkW3LYFA8fLpeLj8qqQ7sMjop7dfsDnxYqFSA3qchBrUyTJTKNNDqaEQb
+w/KqI85wURxdfyPDKPj8dslaByFTEw==
+=P/AC
 -----END PGP SIGNATURE-----
 
---===============6767435697275186150==--
+--===============5631878591788531428==--
