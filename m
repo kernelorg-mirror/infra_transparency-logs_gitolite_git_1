@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 18 Nov 2021 11:40:52 -0000
-Message-Id: <163723565234.21949.13263519184243612792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 18 Nov 2021 11:42:18 -0000
+Message-Id: <163723573821.22435.13681895572373658700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/review-hans
-    old: b3c3d5881e0ede0526fc996c98949cffac697295
-    new: 640a5fa50a42b99bfa2a0ec51b4ea9591d9bd055
+  - ref: refs/heads/master
+    old: 5d2ca2e12dfb2aff3388ca57b06f570fa6206ced
+    new: 5f9c55c8066bcd93ac25234a02585701fe2e31df
     log: |
-         adca4b68713f3c2f9fc1b2b529296a5da6f1eb4b Documentation: syfs-class-firmware-attributes: Lenovo Opcode support
-         640a5fa50a42b99bfa2a0ec51b4ea9591d9bd055 platform/x86: think-lmi: Opcode support
+         5f9c55c8066bcd93ac25234a02585701fe2e31df ipv6: check return value of ipv6_skip_exthdr
          
