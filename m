@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============4497474267462434752=="
+Content-Type: multipart/mixed; boundary="===============1020944401591089308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 18 Nov 2021 07:48:43 -0000
-Message-Id: <163722172375.18851.14950197913890090901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 18 Nov 2021 07:52:13 -0000
+Message-Id: <163722193320.22494.17157290993285038222@gitolite.kernel.org>
 
---===============4497474267462434752==
+--===============1020944401591089308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5df535463d860a490f6b3b0eb32f8eaf9a8e99bc
-    new: a01f2e1dd61b3f65b805162b58418e805c179a80
+  - ref: refs/heads/char-misc-next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: f4d77525679e289d4976ca03b620ac4cc5403205
     log: |
-         a01f2e1dd61b3f65b805162b58418e805c179a80 5.10-stable patches
+         dc74e8cf2324ad61b050a55ec0ffa9db6f4fce33 nitro_enclaves: Remove redundant 'flush_workqueue()' calls
+         f6bdc0aafe88cf4c727e7bb00da1f480ecd80bee nitro_enclaves: Merge contiguous physical memory regions
+         090ce7831d340e8be92e5f2a90617cca6e92156e nitro_enclaves: Sanity check physical memory regions during merging
+         07503b3c1e13fdeb66d4531c5dcba335eed9602a nitro_enclaves: Add KUnit tests setup for the misc device functionality
+         fbf3443f77503f68f244cd7afa050c19ac78511c nitro_enclaves: Add KUnit tests for contiguous physical memory regions merging
+         1881eadb2041889d74d60c074eb04189c4a07dad firmware: xilinx: add register notifier in zynqmp firmware
+         fbce9f14055e547d270046f61758c29c957e675d firmware: xilinx: add macros of node ids for error event
+         f4d77525679e289d4976ca03b620ac4cc5403205 firmware: xilinx: export the feature check of zynqmp firmware
          
 
---===============4497474267462434752==
+--===============1020944401591089308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637221722 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1637221721-06e57bf7efbefae5c0713b8bfd1e3bb47cf819a5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637221932 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1637221931-7d0e9fad3e32693b716a74c6c921f3e173da603d
 
-5df535463d860a490f6b3b0eb32f8eaf9a8e99bc a01f2e1dd61b3f65b805162b58418e805c179a80 refs/heads/master
+fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf f4d77525679e289d4976ca03b620ac4cc5403205 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWBVobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AVsQALp1qep08/dkZcGku7fi
-AT+OYIbNfN6K8Z/L1y0C6lyKi7+JTvft6jxfmPzIi6NLd2azJ6wMHbXZ2yDUgHZQ
-WmO7/1+cPMK50HFD02O8SoWGvCSjO8vaSfum8GCguHj0JAKLOKuyDKArQYlCbaGm
-jwntv4tvHu6kohLjXrUQTSQXUZS4hFYQLc0qcbJQTsFME5ypQahyyttVeRx10DRj
-Yha03jr6aj0wuTfEZWb9XgkyXA7Aaf21lSp5bg4SCn8QrGUSFVf07oIENz6tYihR
-cMZkHbhdjMkAm7zey9c9FgoTW7czBtc1LIm9EygUKkCi7Exi12GGqYhCvLeZd+PN
-Gtt8n1A1CyuIaqEg8Z44g/785szJ42VZDk3m2d7tLmIPs903HbrlRA5g6ac38nmf
-O8m5kIEm2sCrQo6Z1vSE5p5ynisHO0z8i95v3W3c89lFf0VTkJLWsP1f/IO6KO0I
-Jzspumitgdw2SWeVCMJp7jFOG1ZGSggPBasg9AwbQR/KK2QzQ9Uf48KVgxwxbeYt
-4y4u4KpFx0VMKVFwujMGCSif/lhJlzMqgepIcjs+eq5bdvktt7kbLqZLdIOlFkWv
-xs94v5buyu1mBILxklYn/w6UovjMnjAiYmJrChIo+sRy4fSW0J6RQIMp5226P2PN
-u+ePEg9rVuah2n8JgOPTJLgs
-=TLBQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWBiwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+anYQAKbDvqoiFvKQ3olIFwvq
+xL1qLZvnPK+ahhuQk2BWNvUpIHLZrmi833DnEvSo4pC4CcrBKtcJPc7/uhq8PpqR
+HF2Ae0fbihAWDaT6ld8tAVDQ2TJLkcbnhKKhqkirY727z7AoN4lFC42m2dEvPsmQ
++7aMwCM5GrRoQ9/YBczuL6k9nTtSCNNCjDAVB/xYV3GE3fnEp81DldhIfH4SpsxD
+M8llBVhNWqT/HAITAFT3YTduFvchpObmsPw5ggNlvmKBr3vAjvZ4+GGLjks1xoE7
+FYHQuvHhLfyd2evDYUsBA/jaC2LEaTsu6um1IBoPNaoqjVtA6BPfZJIeNU6TNdDy
+PRpz1/xBxsXUHapeACLFVgHIVtWgI2WKkegdAW5ADr5xzplRauHeFmkOvIZyvotG
+GwnM+adEBKgBX/3/apvaLHFog+1kvyD3h0WGB2hs9QnyZ452glzH6w6vVvBW71GF
+k6wHFl3ifS74FTnWEBdx0sBPWOrHTGvcRyd/7PNS8wfmsNSqW0vNbOdwTRBLTXj4
+4UXpnhtgUUMfwrOBbMLjxwHgrsAUwVqLTIBUVPBv7fc/ykpgWHzxOri+pCOiijxP
+RmwO2HNmWhMTb2/FObS4BRcnoGa3KFtrZwTRMZ6QzlBMdSfLd41z7XAwPHeLMeeS
+aygtf86bwAtsd711JjM6H+JK
+=9q+V
 -----END PGP SIGNATURE-----
 
---===============4497474267462434752==--
+--===============1020944401591089308==--
