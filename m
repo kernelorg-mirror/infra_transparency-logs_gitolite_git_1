@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0831842295664030430=="
+Content-Type: multipart/mixed; boundary="===============6047802898657218590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 18 Nov 2021 20:24:03 -0000
-Message-Id: <163726704381.28319.16818930770637248776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Thu, 18 Nov 2021 20:24:18 -0000
+Message-Id: <163726705849.28462.14337344142585802255@gitolite.kernel.org>
 
---===============0831842295664030430==
+--===============6047802898657218590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/next
-    old: 15bf32398ad488c0df1cbaf16431422c87e4feea
+    old: d9516f346e8b8e9c7dd37976a06a5bde1a871d6f
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-15bf32398ad4-fa55b7dcdc43.txt
+    log: revlist-d9516f346e8b-fa55b7dcdc43.txt
 
---===============0831842295664030430==
+--===============6047802898657218590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15bf32398ad4-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-d9516f346e8b-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============0831842295664030430==--
+--===============6047802898657218590==--
