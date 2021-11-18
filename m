@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============6467817090596364750=="
+Content-Type: multipart/mixed; boundary="===============7333821747801003185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 18 Nov 2021 13:01:57 -0000
-Message-Id: <163724051726.9436.15588504747016206109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 18 Nov 2021 13:02:05 -0000
+Message-Id: <163724052527.9580.16051504490699370039@gitolite.kernel.org>
 
---===============6467817090596364750==
+--===============7333821747801003185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.14.20
-    old: 0000000000000000000000000000000000000000
-    new: 223d798bf52b043cbe9c902beb7fe520d4c31965
+  - ref: refs/heads/linux-5.14.y
+    old: 0e62c60b3e7e0cb6ef4679e9da31709ac68918e9
+    new: ff7124b91f52412696e66683b37a5724c303cc11
+    log: |
+         b51c1a592faaf114b33f56f25aec757d21a826e0 Revert "x86: Fix __get_wchan() for !STACKTRACE"
+         961913f45ff64ee68b689ae8070e1ab42108d02b Revert "sched: Add wrapper for get_wchan() to keep task blocked"
+         1b86960dc451412e7029b267e9e87536fdd554cb Revert "x86: Fix get_wchan() to support the ORC unwinder"
+         ff7124b91f52412696e66683b37a5724c303cc11 Linux 5.14.20
+         
 
---===============6467817090596364750==
+--===============7333821747801003185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637240516 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1637240515-169b3997fe585a55f3862c2ba09680eb6ebdbd9c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637240523 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1637240522-d00196dc76b701986f09120025fb13c80b207af8
 
-0000000000000000000000000000000000000000 223d798bf52b043cbe9c902beb7fe520d4c31965 refs/tags/v5.14.20
+0e62c60b3e7e0cb6ef4679e9da31709ac68918e9 ff7124b91f52412696e66683b37a5724c303cc11 refs/heads/linux-5.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWTsQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BNkP/RBzgf1VkTDwYoUdiVPR
-+CRFMNJ5NgtAYy8yMJhCbJZ+rDGdvz8ISECbBwnLrxDESNM+MjJsZWLzM780aj6A
-Z/ga4G2G0bliXtN7dG6UJeJQrJ4xe1JgVQ/6JBUGi2EyAd7zzu88s9o0jJ/i5G6d
-oKKMW+0B8SL0vnBZln5lHjKa6gUfgN6GGYq1g5eTYwjJUktIfg7HF+tYU3Faz8uG
-dZWJovL8yfEsPyCa5dBVK5qlSbo01Sjubs54JjFLt4vvlhyH5MFKVMU/5zUHWllZ
-RuKu9MhRWMVE41OZbIYh3lQqLsRH/YYx7jkb4kBqzYcru2VCLJ/B8EpBm4tlf46M
-9Xt0DU4gC8lfL28aPva+/Fat1/LX7/p6X+vyBEkJ1l+9Wc/gvN/AtGx3+qn8K3Wo
-LfHQcUfwHgmFDwsOMBi+welqvXCbloWNmyZYkFfr019W6AeX1JhTJQ+tymdeJdZh
-HMYssDanSZJQWUJCXTijkVOC5XEWx54BXIZcsgwoUugKQXCzOR24tvG8muqsmQW9
-32iPKzF03yH2bd/LVy0DiYt6C0VuuB7CepXyy/dUlfpxMDOet5eGaV7TsvUD74IW
-N9OXCH8ub/t4p8bxAOoJR5QEdVMVOp9zgXZRmnPbdqzXpRMDPmw3xIHFFQKku1W/
-vBWfKPdB6kTEGV9Sl/I3ys/9
-=n+7E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGWTssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y24QAJXeDQtu7uKeb4GAO5NV
+aAoAxsTfDOOTQShsTFKL9M7KMx8S/lr/NpgwYRDY6Vv9YDhA2Is3kxh+7/UIZ4pk
+LnRf3aJxco9YAIkngpi/luw0TYPU2aAMgJwHxfYuHBm6KQQtTqt+XK/wdBGemG7I
+zBH6kRWKOA5wcIfCES8Y5fCKn8ljkKiZJHfl59bAXXcFffP2jgJ/ZswrGacLlh3S
+lizTkuSs1xSpz4ChQdw16EMzCdaOCH1N8HhghHjoepsZ+Y1LVzPrzUXrKvAGspZZ
+WzdTTKp+A/Nw6S8n91jeWhynhgPph81L76n8uCNU4haQ31jzO/vuYbiQxtiIoBEj
+xJUYgZKdovx7iDqoVVBBDgNzlxK4zVzb8kN7nywUY6RXb+Bf9mTFlEjT/dl2jJc5
+08lQ5JifwgV9H7NpY39isxf9Q3Pm6/YZex9PUtvirW3xnCjdEnxVLISd9h+CNkto
+DUeXgt5l08DhSURNapQPFGHY4MykGYHy6HLet0yp9ijRjWl1kt3iXQFaTFfLkKOp
+IBu8ua6QoWl/T0WBrhalJp4+3pafOuJ4RPH/y+//28ElJyexFDFRLvpH++H+0/cW
+vjE7d7oT1YOvVxhLoDTRCVRsg9qyZSb5vckiaEww7PiCXHIcSDnvbVhyE0i1i337
+iuCDWrdy797gr33jPIHBobCP
+=7ajI
 -----END PGP SIGNATURE-----
 
---===============6467817090596364750==--
+--===============7333821747801003185==--
