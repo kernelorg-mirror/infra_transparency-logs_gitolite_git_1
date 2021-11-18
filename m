@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 18 Nov 2021 13:33:18 -0000
-Message-Id: <163724239804.13530.2023787049043922263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 18 Nov 2021 13:39:23 -0000
+Message-Id: <163724276392.16715.255764818888076728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 2ec25837d45d598b509af5a5fcf92dcc5c4e45cf
-    new: aed210e925520eeb43bd39f812f0636f5a5b32ad
+    old: aab112dd248a3e6fcbd8b18b35b3f97bd71a7bbf
+    new: 2a83759765aeedf41d6a053150bf6c3873491b80
     log: |
-         aed210e925520eeb43bd39f812f0636f5a5b32ad ordering: Fix typo in QQ A.3
+         b8f2fce2a20944cd8b1a7e91dfa04f9725ec3eb8 libmount: (--all) continue although /proc is not mounted
+         2a83759765aeedf41d6a053150bf6c3873491b80 findmnt: make sure all entries are in tree output
          
