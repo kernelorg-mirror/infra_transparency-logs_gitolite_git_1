@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5534720202968247090=="
+Content-Type: multipart/mixed; boundary="===============5664053284368170788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 18 Nov 2021 09:32:35 -0000
-Message-Id: <163722795525.4835.16339118120750712909@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 09:33:48 -0000
+Message-Id: <163722802833.5268.2694687319868420966@gitolite.kernel.org>
 
---===============5534720202968247090==
+--===============5664053284368170788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/fixes
-    old: 7df227847ab562c42d318bceccebb0c911c87b04
-    new: d477a907cba317cfa58a8c89c09454d3fced1964
-    log: revlist-7df227847ab5-d477a907cba3.txt
+  - ref: refs/heads/master
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
+    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    log: revlist-6880fa6c5660-fa55b7dcdc43.txt
 
---===============5534720202968247090==
+--===============5664053284368170788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7df227847ab5-d477a907cba3.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-fa55b7dcdc43.txt
 
+a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
+dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
+a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
+138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
+9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
+3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
+15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
+48be356343d66615dc96d3b52f37ed9d878456ef dt-bindings: mfd: brcm,cru: Add USB 2.0 PHY
+ad70c03f211a9fad32af1c1b551738c741f7c751 mfd: ti_am335x_tscadc: Fix spelling mistake "atleast" -> "at least"
 635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
 4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
 c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
@@ -1041,14 +1050,5 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-287273a80be5d45d59d1742557cab69cabf0ef3c platform/mellanox: mlxreg-lc: fix error code in mlxreg_lc_create_static_devices()
-707f0c290f2b0a16c0222bb3272079cfe5af831d platform/x86: amd-pmc: Make CONFIG_AMD_PMC depend on RTC_CLASS
-c961a7d2aa23ae19e0099fbcdf1040fb760eea83 platform/x86: hp_accel: Fix an error handling path in 'lis3lv02d_probe()'
-3e58e1c4da396427eb39a72933e47bd4d35bfc0f platform/x86: samsung-laptop: Fix typo in a comment
-0f07c023dcd08ca49b6d3dd018abc7cd56301478 platform/x86: dell-wmi-descriptor: disable by default
-812fcc609502096e98cc3918a4b807722dba8fd9 platform/x86: think-lmi: Abort probe on analyze failure
-1f338954a5fbe21eb22b4223141e31f2a26366d5 platform/x86: thinkpad_acpi: Add support for dual fan control
-39f53292181081d35174a581a98441de5da22bc9 platform/x86: thinkpad_acpi: Fix WWAN device disabled issue after S3 deep
-d477a907cba317cfa58a8c89c09454d3fced1964 platform/x86: thinkpad_acpi: fix documentation for adaptive keyboard
 
---===============5534720202968247090==--
+--===============5664053284368170788==--
