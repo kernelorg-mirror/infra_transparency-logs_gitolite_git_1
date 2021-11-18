@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 18 Nov 2021 05:35:01 -0000
-Message-Id: <163721370125.32528.10144268089510455512@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 05:35:19 -0000
+Message-Id: <163721371906.1741.18378425583290123475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.16-fixes
-    old: 48bed755f4346d02b142a0ee097ca10daad95ac5
+  - ref: refs/heads/for-next
+    old: f0a1826e144e6170b0391a9d236ea4ccb6f35d99
     new: cac7e8b5f5fa94e28d581fbb9e76cb1c0c7fd56a
     log: |
          06f6c4c6c3e8354dceddd77bd58f9a7a84c67246 ata: libata: add missing ata_identify_page_supported() calls
