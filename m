@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 18 Nov 2021 13:39:23 -0000
-Message-Id: <163724276392.16715.255764818888076728@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 13:45:47 -0000
+Message-Id: <163724314797.21485.16772242850194483608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: aab112dd248a3e6fcbd8b18b35b3f97bd71a7bbf
-    new: 2a83759765aeedf41d6a053150bf6c3873491b80
+    old: 2a83759765aeedf41d6a053150bf6c3873491b80
+    new: d05e2f53e7ad42854af476a53ee670ea4b50134e
     log: |
-         b8f2fce2a20944cd8b1a7e91dfa04f9725ec3eb8 libmount: (--all) continue although /proc is not mounted
-         2a83759765aeedf41d6a053150bf6c3873491b80 findmnt: make sure all entries are in tree output
+         319563bf31bacc6d97ccc054b07b792c15f60c99 Do not include sys/syscall.h if not available
+         d05e2f53e7ad42854af476a53ee670ea4b50134e Merge branch 'fix_syscall_usage' of https://github.com/dengraf/util-linux
          
