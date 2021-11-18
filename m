@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 18 Nov 2021 11:27:05 -0000
-Message-Id: <163723482508.13413.15430638011643966973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 18 Nov 2021 11:33:23 -0000
+Message-Id: <163723520391.16729.9372197519126831059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 306f6ef55a3395c0bac8a0df0e51f4cb23c29b21
-    new: 5d43c8cff9ed3edb37456fddc0ec2db77d219e7d
+  - ref: refs/heads/master
+    old: 8ff978b8b222bc9d51dd109a46b51026336c95d8
+    new: 6c950ca7c11c17e025326713b7668fd1fb2b996c
     log: |
-         79fdd265a1eba7aee3cceba40b930a07b5022d97 ARM: entry: rework stack realignment code in svc_entry
-         5d43c8cff9ed3edb37456fddc0ec2db77d219e7d ARM: implement support for vmap'ed stacks
+         6c950ca7c11c17e025326713b7668fd1fb2b996c net: stmmac: dwmac-qcom-ethqos: add platform level clocks management
          
