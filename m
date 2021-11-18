@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6690734526299739002=="
+Content-Type: multipart/mixed; boundary="===============5534720202968247090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 18 Nov 2021 09:30:18 -0000
-Message-Id: <163722781874.4117.5241877190065177339@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 09:32:35 -0000
+Message-Id: <163722795525.4835.16339118120750712909@gitolite.kernel.org>
 
---===============6690734526299739002==
+--===============5534720202968247090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/for-next
-    old: 97ae45953ea957887170078f488fd629dd1ce786
-    new: b3c3d5881e0ede0526fc996c98949cffac697295
-    log: revlist-97ae45953ea9-b3c3d5881e0e.txt
+  - ref: refs/heads/fixes
+    old: 7df227847ab562c42d318bceccebb0c911c87b04
+    new: d477a907cba317cfa58a8c89c09454d3fced1964
+    log: revlist-7df227847ab5-d477a907cba3.txt
 
---===============6690734526299739002==
+--===============5534720202968247090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97ae45953ea9-b3c3d5881e0e.txt
+Content-Disposition: attachment; filename=revlist-7df227847ab5-d477a907cba3.txt
 
+635a0535e2fa8fbd88bb49d65eed35c7ed808b8e mfd: intel_pmt: Only compile on x86
+4d94b98f2e2407e3f053b2546f86c76179fea644 mfd: rk808: Add support for power off on RK817
+c9a20383578abd8f7fb8ba88f4c6d25b47924c34 mfd: da9063: Add support for latest EA silicon revision
+3060c54ce3c234ce103a3989e1fd431c987ceb72 dt-bindings: mfd: qcom,tcsr: Document ipq6018 compatible
+fcd8d92f1d1fa6a7db6793d271623381323d13b2 mfd: sprd: Add support for SC2730 PMIC
 23ee74df137378320b3cc607d37cfca1b49907c3 mfd: Kconfig: Fix typo in PMIC_ADP5520 from AD5520 to ADP5520
 f12ebfd31eed4fab148c4897e95713641e3816cf mfd: cros_ec: Drop unneeded MODULE_ALIAS
 b147a055680ad1721f2ff1ce0b292e65f921ee2a dt-bindings: mfd: logicvc: Add patternProperties for the display
@@ -1045,10 +1050,5 @@ c961a7d2aa23ae19e0099fbcdf1040fb760eea83 platform/x86: hp_accel: Fix an error ha
 1f338954a5fbe21eb22b4223141e31f2a26366d5 platform/x86: thinkpad_acpi: Add support for dual fan control
 39f53292181081d35174a581a98441de5da22bc9 platform/x86: thinkpad_acpi: Fix WWAN device disabled issue after S3 deep
 d477a907cba317cfa58a8c89c09454d3fced1964 platform/x86: thinkpad_acpi: fix documentation for adaptive keyboard
-79f960e29cfc87db324479ef982a3f97025328dc platform/x86: thinkpad_acpi: Convert platform driver to use dev_groups
-0f0ac158d28ff78e75c334e869b1cb8e69372a1f platform/x86: asus-wmi: Add support for custom fan curves
-38543b72fbe52b7eec0dedd420d80a06c652d8e4 platform/surface: aggregator: Make client device removal more generic
-acff7091df0eae74fe40917b961588a444d1d60e platform/surface: aggregator_registry: Use generic client removal function
-b3c3d5881e0ede0526fc996c98949cffac697295 platform/surface: aggregator_registry: Rename device registration function
 
---===============6690734526299739002==--
+--===============5534720202968247090==--
