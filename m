@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4320135356675434007=="
+Content-Type: multipart/mixed; boundary="===============0756262955888673797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 18 Nov 2021 17:58:50 -0000
-Message-Id: <163725833021.14890.16544939971424474476@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 17:58:57 -0000
+Message-Id: <163725833702.14954.14237738680347416918@gitolite.kernel.org>
 
---===============4320135356675434007==
+--===============0756262955888673797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: c25441ca551164c56b34885df3d657e2ea4d623f
     log: revlist-fa55b7dcdc43-c25441ca5511.txt
 
---===============4320135356675434007==
+--===============0756262955888673797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f972707662dbaf066d055a507c0654e4bb6e659e pinctrl: st: Use temporary variable for
 9122cda6a325f80564f02b7899cc063009f5e1f9 pinctrl: zynqmp: Unify pin naming
 c25441ca551164c56b34885df3d657e2ea4d623f gpio: mockup: Switch to use kasprintf_strarray()
 
---===============4320135356675434007==--
+--===============0756262955888673797==--
