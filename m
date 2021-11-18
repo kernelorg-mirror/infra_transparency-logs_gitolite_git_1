@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============7576914665753251703=="
+Content-Type: multipart/mixed; boundary="===============0273393812531192389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 18 Nov 2021 13:19:52 -0000
-Message-Id: <163724159266.5136.11576722037379759933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 18 Nov 2021 13:21:04 -0000
+Message-Id: <163724166494.7109.4737975964884775120@gitolite.kernel.org>
 
---===============7576914665753251703==
+--===============0273393812531192389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/damon/next
-    old: fc27d269b75bc820155ff81f2d6d450a91a5ac58
-    new: c1a7e832b34f6de8d4e953ea72d1402d026bac93
-    log: revlist-fc27d269b75b-c1a7e832b34f.txt
+  - ref: refs/heads/tmp.perf/urgent
+    old: 27730c8cd60d1574d8337276e7a9d7d2ca92e0d1
+    new: b194c9cd09dd98af76beaa32a041af674260d730
+    log: revlist-27730c8cd60d-b194c9cd09dd.txt
 
---===============7576914665753251703==
+--===============0273393812531192389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc27d269b75b-c1a7e832b34f.txt
+Content-Disposition: attachment; filename=revlist-27730c8cd60d-b194c9cd09dd.txt
 
+356bbabade8e56efe2834159b5c062b8aff277dd mfd: stmpe: Make stmpe_remove() return void
+ec14d90dee8ec6960324ae9f1116103efcde8a52 mfd: tps65912: Make tps65912_device_exit() return void
+37f127cf8112461cd9d8ec38551bc4af87cb27f5 mfd: altera-a10sr: Include linux/module.h
+6ae210f1b51f1ba18142108e3247d332e6775210 mfd: janz-cmoio: Replace snprintf in show functions with sysfs_emit
 0af9b5c5090b0086fd9d5627e277d7b66fb94e7d mfd: qcom-spmi-pmic: Sort the compatibles in the binding
 0e2a35ac05af3d93e8b90a12dd84695529a4ed41 mfd: qcom-spmi-pmic: Sort compatibles in the driver
 7d165f6451943183ac47be2eb41012fbc24d1d63 mfd: qcom-spmi-pmic: Document ten more PMICs in the binding
@@ -1030,25 +1034,21 @@ ef1d8dda23e7df10b48c90f86b12c9b4c62da1ab Merge tag 'nfsd-5.16-1' of git://linux-
 ee1703cda8dc777e937dec172da55beaf1a74919 Merge tag 'hyperv-fixes-signed-20211117' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 3fa595481b3b33105d7e0480710591edb2bd8dcb Merge tag 'mips-fixes_5.16_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 42eb8fdac2fc5d62392dcfcf0253753e821a97b0 Merge tag 'gfs2-v5.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-272a27c9673885bccb6f7f99f01f5c6f10dfd9fe (NOT-FOR-POSTING) DAMON hack tree commits start
-444b5f1cca2e306bb244aa00e05189df4554839d tools/testing/kunit/kunit.py: Explicitly use Python3.7
-84758a71c290b1d3b2ab92a36799a60a9a95264b for_damon_hack: Add files for DAMON hacks
-d9920394d59a1fe93f1c6534b548c106b72d0977 (NOT-FOR-POSTING) Patches in -mm but mmotm
-98df88e3a3530a589cad490469d2c6610a0ad457 mm/damon: unified access_check function naming rules
-241f5287526d4dcbb65891145825907e9ec1cad2 mm/damon: add 'age' of region tracepoint support
-b5ad86deb2a660effd387d1abbeb94acf2a6ac52 mm/damon/core: use abs() instead of diff_of()
-81373efb2406158f526b829ea9a77f4fdd7beb7f mm/damon: remove some unneeded function definitions in damon.h
-95ea177823ce02716f037c3770a147b7697b05c7 mm/damon/vaddr: remove swap_ranges() and replace it with swap()
-2da4db42758f46dc0b501e3bd754134a9e074fe9 mm/damon/dbgfs: use '__GFP_NOWARN' for user-specified size buffer allocation
-01b0c6e8a6efefc7a12174dc40e3e32ea5fa4bd8 mm/damon/dbgfs: fix missed use of damon_dbgfs_lock
-41acf8b57405c7fc85e04ed77c811f842a77c2e5 (NOT-FOR-POSTING) Patches written or reviewed by SJ but not merged in -mm starts
-3d78ca93388a8bf88bbfc89a2867c63716202c73 mm/damon: Fixup trivial nits in mm-damon-remove-some-no-need-func-definitions-in-damonh-file.patch
-b3e69dccb64c505b0376cd409fb727c3eb1efcf4 (NOT-FOR-POSTING) More not-yet-posted commits
-902afdaf82330961399ec8831c08053d85c4c361 mm/damon/paddr: Separate commonly usable functions
-71ffd1139837ab6b40873ab0718fdce39766498f mm/damon: Introduce arbitrary target type
-cbba209f1eb9955cabc37f46e834e8e70534ef7d mm/damon: Implement primitives for page granularity idleness monitoring
-4d44a7a288cfdfaae11b2e713c4ab1bc81485582 tools: Introduce a minimal user-space tool for DAMON
-654aa46c7fa0d58e483ae0daba0dd4a7215a3c72 tools/perf: Integrate DAMON in perf
-c1a7e832b34f6de8d4e953ea72d1402d026bac93 (drop) mm/damon: Add debug code
+b075c1d81e7d0e96758877ff9ded30ab87df2b77 tools headers cpufeatures: Sync with the kernel sources
+346e91998cba46b64e8ef5f89813f8918c2731e6 tools headers UAPI: Sync linux/kvm.h with the kernel sources
+ccb05590c4325ce50b1c0deedd54d5f24f4f1652 perf tests wp: Remove unused functions on s390
+70f9c9b2df1dd12cf40862b2b31c7bf89e311066 perf tools: Set COMPAT_NEED_REALLOCARRAY for CONFIG_AUXTRACE=1
+784e8adda4cdb3e2510742023729851b6c08803c perf sort: Fix the 'weight' sort key behavior
+4d03c75363eeca861c843319a0e6f4426234ed6c perf sort: Fix the 'ins_lat' sort key behavior
+db4b284029099224f387d75198e5995df1cb8aef perf sort: Fix the 'p_stage_cyc' sort key behavior
+162b944598344fd72800d453885979f06ca263f3 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
+cb5a63feae2d963cac7b687e6598d620bed13507 perf test sample-parsing: Fix branch_stack entry endianness check
+92723ea0f11d92496687db8c9725248e9d1e5e1d perf bench: Fix two memory leaks detected with ASan
+9e1a8d9f683260d50e0a14176d3f7c46a93b2700 perf inject: Fix ARM SPE handling
+e8c04ea0fef5731dbcaabac86d65254c227aedf4 tools build: Fix removal of feature-sync-compare-and-swap feature detection
+8b8dcc3720d57d88faa74e0da2fb419da953ddd0 tools headers UAPI: Sync MIPS syscall table file changed by new futex_waitv syscall
+0ca1f534a776cc7d42f2c33da4732b74ec2790cd perf hist: Fix memory leak of a perf_hpp_fmt
+d9fc706108c15f8bc2d4ccccf8e50f74830fabd9 perf report: Fix memory leaks around perf_tip()
+b194c9cd09dd98af76beaa32a041af674260d730 perf evsel: Fix memory leaks relating to unit
 
---===============7576914665753251703==--
+--===============0273393812531192389==--
