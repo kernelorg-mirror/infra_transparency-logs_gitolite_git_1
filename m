@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6204588018733432372=="
+Content-Type: multipart/mixed; boundary="===============4520777588728733404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 18 Nov 2021 18:32:28 -0000
-Message-Id: <163726034894.21031.12779465563004842127@gitolite.kernel.org>
+Date: Thu, 18 Nov 2021 18:32:52 -0000
+Message-Id: <163726037293.21206.6198956744930918730@gitolite.kernel.org>
 
---===============6204588018733432372==
+--===============4520777588728733404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 17a7555bf21ce755219bf575b8a83adbf19580bd
-    new: bb8cecf8ba127abca8ccd102207a59c55fdae515
-    log: revlist-17a7555bf21c-bb8cecf8ba12.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8fbd8a727a16bd8e8dbb491a65214a63b6f8b94c
+    new: 51fd0f023666f3140376b382b7df53063cbf6f10
+    log: revlist-8fbd8a727a16-51fd0f023666.txt
 
---===============6204588018733432372==
+--===============4520777588728733404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17a7555bf21c-bb8cecf8ba12.txt
+Content-Disposition: attachment; filename=revlist-8fbd8a727a16-51fd0f023666.txt
 
 0edbecd5705728e803a56d646194f4ccdef5845f ixgbevf: Rename MSGTYPE to SUCCESS and FAILURE
 887a32031a8ae5d9ad805973f28744ebe685c4e5 ixgbevf: Improve error handling in mailbox
@@ -64,5 +64,14 @@ c450a8eb187a4d7ebe92e0afec54ac31ce403e79 lan78xx: Introduce Rx URB processing im
 0dd87266c1337db64cd6d3bbd1503553b922aa88 lan78xx: Remove hardware-specific header update
 ec4c7e12396b1a30fbacfa68425118f5b46ea878 lan78xx: Introduce NAPI polling support
 bb8cecf8ba127abca8ccd102207a59c55fdae515 Merge branch 'lan78xx-napi'
+62ae84967df8c3724b4ad2790da9f135362b9f4a net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+84fd5d165a05cc7b3916d0b029663f264c8871de net/mlx5: Print more info on pci error handlers
+4416ddb285c7e97d6896f62709bc4707e86752cf net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+5538eea68dfec7ae4622aa693ca1b0c5fe3c2e7a net/mlx5e: Save memory by using dynamic allocation in netdev priv
+72d25ba6014aca45bd0cd71b915b5e8d09132c50 net/mlx5e: Allow profile-specific limitation on max num of channels
+1a23d7225418dc9e367cae08c8475b7928a0f8c0 net/mlx5e: Use dynamic per-channel allocations in stats
+96a4a6699b58df799671345818e057dc57a80773 net/mlx5e: Allocate per-channel stats dynamically at first usage
+d8a5ea67a7582bab38fdfc8c3772eff2570ae756 Merge branch 'patchq/435082' into mlx5-queue
+51fd0f023666f3140376b382b7df53063cbf6f10 Merge branch 'patchq/432332' into mlx5-queue
 
---===============6204588018733432372==--
+--===============4520777588728733404==--
