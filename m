@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8926767675236766970=="
+Content-Type: multipart/mixed; boundary="===============3820834856559322292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 19 Nov 2021 21:15:54 -0000
-Message-Id: <163735655463.12794.7850663236906943732@gitolite.kernel.org>
+Date: Fri, 19 Nov 2021 21:16:05 -0000
+Message-Id: <163735656525.12930.12448656233403403009@gitolite.kernel.org>
 
---===============8926767675236766970==
+--===============3820834856559322292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: b194c9cd09dd98af76beaa32a041af674260d730
     new: 8b98436af2c0d6a6fc970700a290666600e2ba13
     log: revlist-b194c9cd09dd-8b98436af2c0.txt
 
---===============8926767675236766970==
+--===============3820834856559322292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -293,4 +293,4 @@ ecd510d2ff86953378c540182f14c8890b1f1225 Merge tag 'scsi-fixes' of git://git.ker
 9539ba4308ad5bdca6cb41c7b73cbb9f796dcdd7 Merge tag 'riscv-for-linus-5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 8b98436af2c0d6a6fc970700a290666600e2ba13 Merge tag 'perf-tools-fixes-for-v5.16-2021-11-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============8926767675236766970==--
+--===============3820834856559322292==--
