@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 19 Nov 2021 11:54:46 -0000
-Message-Id: <163732288664.10197.12693209076026518436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 19 Nov 2021 11:54:58 -0000
+Message-Id: <163732289862.10337.17267488510495261291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e8d032507cb7912baf1d3e0af54516f823befefd
-    new: 0f296e782f21dc1c55475a3c107ac68ab09cc1cf
+    old: 8f2a83b454c9b17989843756313e0180827a7ace
+    new: 812ad3d270cb900d156a1542360d81f749dbe040
     log: |
-         6a405f6c372d14707b87d3097b361b69899a26c8 atlantic: fix double-free in aq_ring_tx_clean
-         0f296e782f21dc1c55475a3c107ac68ab09cc1cf stmmac_pci: Fix underflow size in stmmac_rx
+         b5d8cf0af167f3ab9f4cfe44918cde01e20a1222 net/af_iucv: Use struct_group() to zero struct iucv_sock region
+         812ad3d270cb900d156a1542360d81f749dbe040 ethtool: stats: Use struct_group() to clear all stats at once
          
