@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1542514321469609440=="
+Content-Type: multipart/mixed; boundary="===============0497783987380195618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 19 Nov 2021 04:09:13 -0000
-Message-Id: <163729495375.23755.2726592064571848002@gitolite.kernel.org>
+Date: Fri, 19 Nov 2021 04:09:24 -0000
+Message-Id: <163729496470.23855.14318148570776387500@gitolite.kernel.org>
 
---===============1542514321469609440==
+--===============0497783987380195618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: e97af2fd89afbd7b6758a6ac729511fc67665a1c
-    new: 5c044b540aa964a27087bdc9fb926426ad33e1f7
+  - ref: refs/heads/5.16/scsi-fixes
+    old: 392006871bb26166bcfafa56faf49431c2cfaaa8
+    new: 9c6603e1faf880bada541e9cce6514d2f3248da0
     log: |
          73185a13773af10264f9d8ee70386c01c849ff2c scsi: ufs: ufshpb: Fix warning in ufshpb_set_hpb_read_to_upiu()
          e11e285b9cd132db21568b5d29c291f590841944 scsi: qla2xxx: edif: Fix off by one bug in qla_edif_app_getfcinfo()
@@ -31,33 +31,33 @@ changes:
          9c6603e1faf880bada541e9cce6514d2f3248da0 scsi: target: configfs: Delete unnecessary checks for NULL
          
 
---===============1542514321469609440==
+--===============0497783987380195618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1637294945 -0500
+pusher 75C5DE3D 1637294957 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1637294945-14b3868e22e8fe28b4984658c1d54975b6896f56
+nonce 1637294957-5902d7b5bad3504525650b85ea83e0a3594ffe8e
 
-e97af2fd89afbd7b6758a6ac729511fc67665a1c 5c044b540aa964a27087bdc9fb926426ad33e1f7 refs/tags/mkp-scsi-fixes
+392006871bb26166bcfafa56faf49431c2cfaaa8 9c6603e1faf880bada541e9cce6514d2f3248da0 refs/heads/5.16/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGXI2EACgkQ7ulgGnXF
-3j0K8Q//Xo3aevR0TCY07XT6Q2Ow7MtZUq3zd9hNI/FB/7qSNb5DzBjNXgnVM4VL
-NtyXHdJPyFm8TbGksKyZzSEhEgtGTppYVN5JqAXCJC7Eu9e49v/F/wWOXKRO39lw
-XfDuiWoGdZsaoTFQjYLrhauaEjY7dclMdWzXy2TlUF699b9EEc7ATQscnFZ3D/Je
-0rG753AdFNrtTOjoCrhagv6i9q9P/2z90kQk2euWMalabhn0byiWsNXbh2I3VLQH
-Q8INqDlgMg4rGZXzbWyOh91a/9FeLXTwd0vtbW3hcTkE3s8DeguFwWDpLDdb3vGW
-93VTmS/a1RSaFNReRu1odCiFZgSIH7PQtGICdL+rmLrwoM8sr/ExndrYLgAQS043
-PMgd7vGgvaUQAJfL8r3PRkRBrVUUpJ49SXk0966+vvPdyvazX950l7S26x+V5hN5
-GT+B9geKzDZliogMf8gBQOYeGcUgdjY/5PcqfaMamCtRRzrJFbVRo+5TIY5R47t9
-0z1wyojG5rXcz6n8U5QWbqQku5pl64iAKyhzbpClQDD7MMDZQjMN/uQce3MHAJog
-ltKl/MmE7VfGMIcuuKGgzH/JimRwflNQSNE+8Sx5As46xAl7Ufe1+ABZAMyIb13Q
-bMoRoYqvMi/dvRSJpCpa2p7Pwe12/24G7O7Y9bcTM47Fdr4tsLw=
-=OiB0
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGXI20ACgkQ7ulgGnXF
+3j29gRAAhwLXTeF+ru7968iKlaMYvJ2pe0mx83xXEhHdSi5TS2rf+H1UhRlM255D
+vX6YsVNs59JTa2HXip735TNtsFrBScF7aR5FlCJpRZpYuO/X3qUz3iTGGXtuhZyq
+fHUsT3EOKD9TVpXP6AYZnQIqwXAfbDAWp2VccVgk6l7VE7p3Xyq6WTUknxj9CYjy
+JBhCXM7GUNblQ+LMIN4wtj0wThREa6qkESxpMbsOqmRReJTqVAMxhxROKNJP1JJD
+7LgXpUDyMga7dZY1D9WWfymTouZkOz1VuzOpSm48wn7cqszEDAP3Q3x1lTATGTup
+zZBJ+yVbLwU9yPdnSbBrh/Qtvcw2DFrX+DBnL6ShZds+15hH43OaN5QEugg+k/z9
+uI51vX9GNaqnx/e+957sW+8/neK2DYjnZOxkrCQBxUzj4HmVKrY6B5aj9+A79MS3
+1WXFShV9tU8kXnFF9LkqjLJmKUsAUolC7U6OfyV49ZqyihV+mQUJnDq1uxh4EZp0
+fsAUy7wqabmRNsOpWpXdd0lngQKnZNXYJ/LIjW3zLxbc3QZWqXHnXzKnY3rS0mPL
+RuB7ZmZWbQEfMlwLVikVy8TnGSkHxZIDof0nv6cO1+4YmypWlfwZuMJkyLLFROVi
+IGm4LJxcSP6KHOHaW12DZEYLz8vdqlI9Zpbd45tvqNFB/nccyWo=
+=pu+T
 -----END PGP SIGNATURE-----
 
---===============1542514321469609440==--
+--===============0497783987380195618==--
