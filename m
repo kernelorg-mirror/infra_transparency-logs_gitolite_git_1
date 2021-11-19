@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2537024258325040284=="
+Content-Type: multipart/mixed; boundary="===============8419420826407962502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 19 Nov 2021 17:14:46 -0000
-Message-Id: <163734208665.21196.13896110920444778992@gitolite.kernel.org>
+Date: Fri, 19 Nov 2021 17:14:47 -0000
+Message-Id: <163734208718.21235.5616901378850043884@gitolite.kernel.org>
 
---===============2537024258325040284==
+--===============8419420826407962502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.14.y
-    old: ff7124b91f52412696e66683b37a5724c303cc11
-    new: 050eba56bb1eb0015d96d6ce8874ec81522d8f4a
-    log: revlist-ff7124b91f52-050eba56bb1e.txt
+  - ref: refs/heads/linux-5.10.y
+    old: f884bb85b8d877d4e0c670403754813a7901705b
+    new: ed689bd1df46a07911fffa509cd06c5ec7beb9c1
+    log: revlist-f884bb85b8d8-ed689bd1df46.txt
 
---===============2537024258325040284==
+--===============8419420826407962502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,48 +30,54 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637342085 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1637342084-a401321834c92ae08c7e1c917170cd949becb1aa
+nonce 1637342085-efdd94bb2510b755782a583067c659a9ac6277a0
 
-ff7124b91f52412696e66683b37a5724c303cc11 050eba56bb1eb0015d96d6ce8874ec81522d8f4a refs/heads/linux-5.14.y
+f884bb85b8d877d4e0c670403754813a7901705b ed689bd1df46a07911fffa509cd06c5ec7beb9c1 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGX24UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++G8P/2qVsS5//3yjMizznmIP
-Je0Spxh+3sfgyetYESuPx04MX8+EeFbtXzjLaEw1fipfB2RlOQqqkz+QrTnLGQIz
-8oZwmj7t5+hbUgcKHg/T18cBezOi6cE50g5PUwDq+WZhEAIdIwpxMQ1bnZmtwgMs
-cmR089zXxxMrmdyyCJamq5LdD7KixBRqeRH4dZ7jzuXNm3KUVCuWItsW/gWQoBW9
-9XuPmfBRQ0zKqiYdI8OdHRyTJiW6WEh2cQDHO5Ya0d6DMe0T6gBp6QUB0jEMzvPD
-xxtxcfvjPWiIIIKSUX6Gd0wrG6adRpIvNIcmNq5DUCBl25gNUTkOEt7d0VZ+X74C
-GdQMLjfiXdUcTAINJsPT1XKyyAykg5+fATZGxHGl/6d5eeChDbignnOfqPRXh5nb
-3nreMKtXIjIicptwUU8bfsCRja1UA52U/ccAVRad+E/lCGFWu8vWo58jHOS7FVOo
-Q5O7d6OtSaHhGZOoWhEgRzHW21B/n0wEvMf2m52tboqBrXk0ZzDOinco0v1NRiVC
-Y9SXiq5XAnXmMuB+LOBa8l/0ZRloaqO37w/JPytrrItjhGA8ekfDpzj1cg/xaVpZ
-ElTXMIHspOeeazDIUIvG3sc8fuy5YkM1vt3YWKMo0kOIyM7bsjhFZsYDP2BKEjtM
-S6H9Bx7m3LoZ4kVuig9+TnCt
-=rSpe
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I1oP/RZ9/rfFHAeOcuuE6ShZ
+Jxl2lpIahAbCEv1kS86PJec9UekN2WYvGBR/cCEqN1HO8MfP4FyvHQelnZ41CAJq
+/lFc6Jn4ZdBjI8CIRDTNuIoLXNWs9YfdARSp+Vbfhny/NlRJ+McNT5oRZ1J5kJI0
+IlTIap4wCwnmsvjpYJQ8pmoFXoBEMPutWzfRZeNYQBQOFLR24mcbcUVk5cRcUPO/
+QHTRScPZ0uPOuyWjoYDXEQJekJ3wcPltM5kWItCbQER3odtLojwPexQhEErRDCnm
+vs49iVaZ1FcN6JfukKm7Txr44te/SDPc0xCMSxVzxWhhiRQPv/VnoCC+4aZJCLfM
+Q4LlTxFuJ1tE19EOmNJgjEV8Z4klzfT5C1zD7a4N2TNmV1UgWQ8AkRw4y0+Aw2Ro
+xDn+zj4ZA7DYQ1xE0R2gxeh290PNRfdDzVHjjbH9xsgXMa+X1jGNeVcxUa7RYF2S
+XJg7YkS55wP3Bxbs4o/iajQA/SJGVfkbkv+V5uiR0Blkx6nHcWSRqjv5IX5TJMoT
+aqZxTxq7m5JpL+gCW6U9WUGvXzMQo7d3P04Gx0FddQIAXzunaBqFH5JVW2WtMsme
+v2IV5QYZUewsm1VPbw+BcsDaWb8aJa36Q7GmogR3gR6WRxN5oA73+qy3/Z9WiOwO
+C2kGZHZrQRurWziMOh2Xojor
+=XlnB
 -----END PGP SIGNATURE-----
 
---===============2537024258325040284==
+--===============8419420826407962502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff7124b91f52-050eba56bb1e.txt
+Content-Disposition: attachment; filename=revlist-f884bb85b8d8-ed689bd1df46.txt
 
-b32da9ee3a36f7d66c2742c831af18d044e07ce0 Revert "drm: fb_helper: improve CONFIG_FB dependency"
-e65aadc6e726bb882cfe98a14c3c05b5cf4c9d62 Revert "drm: fb_helper: fix CONFIG_FB dependency"
-4654fc67c25022abc633d7478721590540b085ee KVM: Fix steal time asm constraints
-b02b19995d0d3972e832d08895ddfcca8734efde fortify: Explicitly disable Clang support
-72a107e5622ec67010cc3f8aa0c256ecd8a017f9 block: Add a helper to validate the block size
-d860b8ba8499d3687fcd9416e3788b1a352c887d loop: Use blk_validate_block_size() to validate block size
-e70615a586f3bdaf606e6d1b01ffae425e6cc35b bootconfig: init: Fix memblock leak in xbc_make_cmdline()
-aedb7ac049e0212f2a04023b74902ee367c5594e Bluetooth: btusb: Add support for TP-Link UB500 Adapter
-7041bec2b4400316610312969baeffd9f320bd4e parisc/entry: fix trace test in syscall exit path
-a759aa709a9f26c191865e65a96cd1804dedc9db PCI/MSI: Destroy sysfs before freeing entries
-df9605827d6c9a9168f15a6efed17b2b9960bad9 PCI/MSI: Deal with devices lying about their MSI mask capability
-3bedd9e9a6dce53e34891bdb0112f76cd1c090f1 PCI: Add MSI masking quirk for Nvidia ION AHCI
-f81bd7dbb8fc6d02008c5f26f74724ee8ed51a66 perf/core: Avoid put_page() when GUP fails
-f90ab42d73d64784657bacc7f4de8174fdac67b1 thermal: Fix NULL pointer dereferences in of_thermal_ functions
-d9a75aa983df2319dd7a17c63da852a923caff3d Revert "ACPI: scan: Release PM resources blocked by unused objects"
-050eba56bb1eb0015d96d6ce8874ec81522d8f4a Linux 5.14.21-rc1
+15297cbc4ed6490010b7935a8f0b0791ac3d289a fortify: Explicitly disable Clang support
+59ae5781708e01fffb6fce56e3fc03ee6dbb819f block: Add a helper to validate the block size
+9dbe8f3f4194919bbc0b26155a8741926c4b0a8b loop: Use blk_validate_block_size() to validate block size
+f90c8e18075ba9a2e80cc007be8ccebf83b2f03e bootconfig: init: Fix memblock leak in xbc_make_cmdline()
+9b55536f0d059811634e8aeadd82dfb8218bf9ab net: stmmac: add clocks management for gmac driver
+7687ea2757b589e2a2487e0bfc114100c86f46ff net: stmmac: platform: fix build error with !CONFIG_PM_SLEEP
+f33b15c813b4b68811849f443f3259f0b1bdfc9e net: stmmac: fix missing unlock on error in stmmac_suspend()
+90debc89a00e34ac03ac2a4d6c66a9b589bfaf66 net: stmmac: fix system hang if change mac address after interface ifdown
+cb3dcd1d5255b592e7733b286b4fffc50bc4c294 net: stmmac: fix issue where clk is being unprepared twice
+8526eb2f031aad4ace9cbac5e1e9a00d8f23d47b net: stmmac: dwmac-rk: fix unbalanced pm_runtime_enable warnings
+26f50f44b6b2cae287ec605bab2afa7f43e63844 arm64: vdso32: suppress error message for 'make mrproper'
+55acfd55b75ed7a25989ccf75ace052859cc9925 x86/iopl: Fake iopl(3) CLI/STI usage
+f62fa1d2120820e861c5f5fa37ff2ed602353461 parisc/entry: fix trace test in syscall exit path
+31d7051b03ad747b7ead8dde74843c716c2935ae PCI/MSI: Destroy sysfs before freeing entries
+fb628798280dcdaf1ebc989efd8bd0533a8a996a PCI/MSI: Deal with devices lying about their MSI mask capability
+bf4dc09c21ee0b29c41ab470aa5069320978cbb2 PCI: Add MSI masking quirk for Nvidia ION AHCI
+bbd8bb2ff74a543b85883626cebf83b3f051ed27 erofs: remove the occupied parameter from z_erofs_pagevec_enqueue()
+1d1cc7d23e016f9a18e1d99e0bbb2f34c575635f erofs: fix unsafe pagevec reuse of hooked pclusters
+d35228abfee3b77feb7d1f9e6ec82b0ba96ded7a scripts/lld-version.sh: Rewrite based on upstream ld-version.sh
+2d9c2b7a68eef0ec727908cc21d61ef31d30b79e perf/core: Avoid put_page() when GUP fails
+b6ab303f2232ec4defbd5852dba1cd2e2cc9423f thermal: Fix NULL pointer dereferences in of_thermal_ functions
+ed689bd1df46a07911fffa509cd06c5ec7beb9c1 Linux 5.10.81-rc1
 
---===============2537024258325040284==--
+--===============8419420826407962502==--
