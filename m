@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 19 Nov 2021 13:50:03 -0000
-Message-Id: <163732980398.21087.10165050253509328849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 19 Nov 2021 13:50:57 -0000
+Message-Id: <163732985798.22277.12262129056624455218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/block-5.16
-    old: 245a489e81e13dd55ae46d27becf6d5901eb7828
-    new: 2b504bd4841bccbf3eb83c1fec229b65956ad8ad
+  - ref: refs/heads/x86/core
+    old: d31c3c683ee668ba5d87c0730610442fd672525f
+    new: 65fb0a46f365606d0495c7117e2b84730d71746f
     log: |
-         15c30104965101b8e76b24d27035569d6613a7d6 blk-cgroup: fix missing put device in error path from blkg_conf_pref()
-         2b504bd4841bccbf3eb83c1fec229b65956ad8ad blk-mq: don't insert FUA request with data into scheduler queue
+         65fb0a46f365606d0495c7117e2b84730d71746f x86/csum: Fix compilation error for UM
          
