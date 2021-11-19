@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 19 Nov 2021 22:35:46 -0000
-Message-Id: <163736134607.1441.12777010350860570652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 19 Nov 2021 22:46:43 -0000
+Message-Id: <163736200360.7528.3313100986433461066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/for-next
-    old: 9a49afe6f5a516eb33bec24be0f81cb35ca79445
-    new: 8cccee9e91e19207671b94af40bacf7c1d2e74ef
+  - ref: refs/heads/linux-next
+    old: 08f6c2b09ebd4b326dbe96d13f94fee8f9814c78
+    new: 239d2bf20906e6788db46d51c0c634814caad6d0
     log: |
-         8cccee9e91e19207671b94af40bacf7c1d2e74ef libbpf: Change bpf_program__set_extra_flags to bpf_program__set_flags
+         2a0991929aba0a3dd6fe51d1daba06a93a96a021 xen/pvh: add missing prototype to header
+         239d2bf20906e6788db46d51c0c634814caad6d0 xen: detect uninitialized xenbus in xenbus_init
          
