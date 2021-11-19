@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8865211971050461145=="
+Content-Type: multipart/mixed; boundary="===============2904838454315529996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 19 Nov 2021 21:56:44 -0000
-Message-Id: <163735900482.7014.4485516679025988084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 19 Nov 2021 21:56:51 -0000
+Message-Id: <163735901136.7103.9658230730039444468@gitolite.kernel.org>
 
---===============8865211971050461145==
+--===============2904838454315529996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 049038ff94bb092a3e9ebe9fb13cf8eb2438f58b
-    new: a6091ba527ceda26c9cd2ca257286f2e6f58c592
-    log: revlist-049038ff94bb-a6091ba527ce.txt
+  - ref: refs/heads/queue-rc
+    old: a35fd015eda52544ce9f5ba8f0775c41a67c41bf
+    new: f6862a89e3cd6ea5560985b839311014528924a0
+    log: revlist-a35fd015eda5-f6862a89e3cd.txt
 
---===============8865211971050461145==
+--===============2904838454315529996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-049038ff94bb-a6091ba527ce.txt
+Content-Disposition: attachment; filename=revlist-a35fd015eda5-f6862a89e3cd.txt
 
 33b8aad21ac175eba9577a73eb62b0aa141c241c selftests: netfilter: add a vrf+conntrack testcase
 228c3fa054ad118f78fc60f1a3f05ba29b043608 selftests: netfilter: extend nfqueue tests to cover vrf device
@@ -55,5 +55,7 @@ c95b66ac955b9bc1d71f80ae4c04fdc69e0af1f4 Merge branch 'patchq/447861' into mlx5-
 8bb68b44277b2923f299e2ecaa2d711b675420e8 Merge branch 'patchq/448867' into mlx5-for-net
 79d5e6c1a7429ddcb69002a7f8fe4a85faff9df3 Merge branch 'patchq/436164' into mlx5-for-net
 a6091ba527ceda26c9cd2ca257286f2e6f58c592 Merge branch 'mlx5-for-net' into net-rc
+95a14955eef4bc4d786387785971869371662e69 Merge branch 'net-rc' into queue-rc
+f6862a89e3cd6ea5560985b839311014528924a0 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8865211971050461145==--
+--===============2904838454315529996==--
