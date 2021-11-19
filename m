@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6901638663774817532=="
+Content-Type: multipart/mixed; boundary="===============3461850525185518121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 19 Nov 2021 18:57:58 -0000
-Message-Id: <163734827850.23715.17066624013962165486@gitolite.kernel.org>
+Date: Fri, 19 Nov 2021 18:58:10 -0000
+Message-Id: <163734829001.23823.3267698770002804096@gitolite.kernel.org>
 
---===============6901638663774817532==
+--===============3461850525185518121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: bb8cecf8ba127abca8ccd102207a59c55fdae515
-    new: 520fbdf7fb19b7744e370d36d9244a446299ceb7
-    log: revlist-bb8cecf8ba12-520fbdf7fb19.txt
+  - ref: refs/heads/mlx5-queue
+    old: c88f2b8c292c3b9b5e0c75ae093bc711172fd8d0
+    new: 167af3f279e1ac83ecfe6d2305719a15ef7c647e
+    log: revlist-c88f2b8c292c-167af3f279e1.txt
 
---===============6901638663774817532==
+--===============3461850525185518121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb8cecf8ba12-520fbdf7fb19.txt
+Content-Disposition: attachment; filename=revlist-c88f2b8c292c-167af3f279e1.txt
 
 ac5f313624d876b41d4a1292181d17e80d44159c coccinelle: semantic patch to check for inappropriate do_div() calls
 92d602bc7177325e7453189a22e0c8764ed3453e f2fs: should use GFP_NOFS for directory inodes
@@ -633,5 +633,20 @@ b5d8cf0af167f3ab9f4cfe44918cde01e20a1222 net/af_iucv: Use struct_group() to zero
 812ad3d270cb900d156a1542360d81f749dbe040 ethtool: stats: Use struct_group() to clear all stats at once
 eaa54d66145e4314eb785a507341a7c8b13f6df8 nfp: flower: correction of error handling
 520fbdf7fb19b7744e370d36d9244a446299ceb7 net/bridge: replace simple_strtoul to kstrtol
+eb1f0eeba6d2623feaa2f22a7b9d83d8bf6d0081 net/mlx5e: TC, Remove redundant action stack var
+ebe7904e0e07672ed3afe87148505a70a0359da0 net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+84890270c7bdcf48179a2ee1a7b291bea0376f59 net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+3a4b67c5fbbb0bf837051d17a171a731dcf06b9d net/mlx5e: TC, Move common flow_action checks into function
+e6d346920b49ab9a8c61c369b1cf102ec36c3404 net/mlx5e: TC, Set flow attr ip_version earlier
+29ad8325a4f602e13f4cafe9985ff5f5b522524f net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+10b9b315cdae8ed7e7de2d8e9d1f20d1d123c449 net/mlx5: Print more info on pci error handlers
+877188f77a28e9d466c66d285f8d33b88c0c98eb net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+64475495433f013ab8fbb4a2bb9b00ae9a342b8b net/mlx5e: Save memory by using dynamic allocation in netdev priv
+f611884f467b9c9a3f452936c2154e94bb7d06af net/mlx5e: Allow profile-specific limitation on max num of channels
+fdf091eea2c72061a5a35968b766ae6abbabbc55 net/mlx5e: Use dynamic per-channel allocations in stats
+3b142cabcd5d88d7369f94528d3a10e8d11a655d net/mlx5e: Allocate per-channel stats dynamically at first usage
+209ba8db91ce66fc357c8f5247ad350de5e18452 Merge branch 'patchq/446962' into mlx5-queue
+a47fc7a8f2ce8411c743bd638237c8bc847da957 Merge branch 'patchq/435082' into mlx5-queue
+167af3f279e1ac83ecfe6d2305719a15ef7c647e Merge branch 'patchq/432332' into mlx5-queue
 
---===============6901638663774817532==--
+--===============3461850525185518121==--
