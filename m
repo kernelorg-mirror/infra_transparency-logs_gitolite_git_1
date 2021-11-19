@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1473572873455496928=="
+Content-Type: multipart/mixed; boundary="===============5635154244721904702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 19 Nov 2021 04:09:48 -0000
-Message-Id: <163729498862.24109.15385490581245883054@gitolite.kernel.org>
+Date: Fri, 19 Nov 2021 04:09:59 -0000
+Message-Id: <163729499960.24251.7300600323472203300@gitolite.kernel.org>
 
---===============1473572873455496928==
+--===============5635154244721904702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: ca971c8fc5eba73989afb54c116c5f0d0e29e85f
-    new: 0e9ce2de49d6dc4b7d58ca9bf2fd5f3d29a79572
-    log: revlist-ca971c8fc5eb-0e9ce2de49d6.txt
+  - ref: refs/heads/5.17/scsi-staging
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 659109a45c6c5a3c81a8ce35dea59318c44cfa6e
+    log: revlist-fa55b7dcdc43-659109a45c6c.txt
 
---===============1473572873455496928==
+--===============5635154244721904702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1637294980 -0500
+pusher 75C5DE3D 1637294992 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1637294980-8ca4b404bd10e7636c3c63938cf4af08c8671e1d
+nonce 1637294991-bcf8cc6cc49d43a13bcad0cdc81d67dcb216db62
 
-ca971c8fc5eba73989afb54c116c5f0d0e29e85f 0e9ce2de49d6dc4b7d58ca9bf2fd5f3d29a79572 refs/tags/mkp-scsi-staging
+fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf 659109a45c6c5a3c81a8ce35dea59318c44cfa6e refs/heads/5.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGXI4QACgkQ7ulgGnXF
-3j1ZsBAAgfSF+0W322USwbvEYBTgzYfXhHwD45j/fI35NoadE0kGL0CxWC95RwqE
-Lk6HJT4lNDAcZm73JG9OhcEGbU9RkoMxHFLQt2QzpJ7QcIlExg3HWFgemBxlBFFx
-wKSia9gxuEJ0wfVzYThKV0SCMNGn6YqoR2UV2uQtHXZokdcVpW0oz+fPYKuxT02G
-2j5AvPXYgjAMM8XhvlM/itayuGRCPfY2TDs/F3OJpYjS8h1yv+rOx3C8OUrJ/695
-odKnJRepuCTe3/gJR58t81QpihhS+KBAPIugdbe32EpVsoolaBL7N2gORGvwcML5
-1tN8tEYb1zH54X7xQDMewtz/5RuwJheiU1C4srBT85H7mjKKWSgL57TXJ/u4SYgp
-IgvipczB5KzEiXFWpVhaYZTv9bPBjlYTUBpVjMiqIVrG9Di6JQn80TMHgx/HTh08
-rIvpKpjnDkS6dNN9FszF2Y+H1AsVMmNwJwaTHqKIKZB3L0SDLjPY7ES7kMHoV1KJ
-WP0d8/dFsXiIL7VKNMoM+gfZ2k2wCIj0F0uHKGQ0B24BxusSHzGU6FAqsuxcysxO
-BhC1YEfXlExuqywRsIo5CnU1KvP/m0iUehI/jrlvMAcnx1HPLsTU5ZqAfJB/yT2L
-iB1Wd1eK3WurgI1E37T4z+sqrlmOBEkWaiMsGugu/r1J+CQDcdU=
-=MjUm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGXI5AACgkQ7ulgGnXF
+3j2ZxRAAp0oDhqzk+KxusQ0TSPIfmx7Z8C1D61Fk7JgCMEjcAma8Sw1OA3G1B8Y5
+SxaHurOaq6ID+kQwG0waekQ14u8no0JxM1A/ctqDzn192A4EXUuq3t5z5ry6IrbG
+05+tQ6V5RaqOOFuKCt53AjMWjrkeYwRnYt8tmTCNSQJp2vNTRCXoKSacveyXpfmF
+vjLg6QW1mlMoEbKwbS061HvLgrq+KUp+h15551hZLfFJC8ChPcQF5xiJww+WvurG
+lZnYyMkCi6VQ42MjHHtJsr5oQ/EPprrSF1j0hfThnuZmRALMuxn+zzAGUGg5d7xj
+z9iQjlJrkfv9ifz9EEyVZh6ExH5+8Zv/Yi1b8h/LxkUN1cBmBoU+XdE23/G6ohVI
+mSWNZfE1un5RNwAKKGhKTLeaRr1bn9n+i9Rw5p65raWqHjOE6SBonrkR/9vMt4lW
+HYgiCOHk02hlwbB7e/a2HHuLAmuCkZ0blzb5m7WQZdPR4l2FNs8gT+8/qqXp0aVr
+njEFGgsQcLTXypm9bqtb/B7dvC77kCNcPS67b5UIyphyTB+qCr1wvOALXiU9SHHd
+bZ7y/4H+J1wd0spOx+uiEa4La0BjUQMi92pfY2ewXCzd6A52YJWn8IlsmemxQVvU
+9alYvDlkInRED36ywgHjFyWoQ0goOQBnjVZ6hEpszs5IklBQMd0=
+=gpxg
 -----END PGP SIGNATURE-----
 
---===============1473572873455496928==
+--===============5635154244721904702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca971c8fc5eb-0e9ce2de49d6.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-659109a45c6c.txt
 
 54d816d3d36293728ffc8488fae14b002d4b4a64 scsi: core: Simplify control flow in scmd_eh_abort_handler()
 0a84486d6c1da1c2738544d8fc1b07b1d3ce046f scsi: core: Remove Scsi_Host.shost_dev_attr_groups
@@ -68,4 +68,4 @@ adcc796b4f55c18ee5fca8190a592c84cf8682e0 scsi: core: Use eh_timeout for START ST
 d28a78537d1d79f1ba6b9e68f5d44cc869045afe scsi: ufs: Wrap Universal Flash Storage drivers in SCSI_UFSHCD
 659109a45c6c5a3c81a8ce35dea59318c44cfa6e scsi: ufs: Fix double space in SCSI_UFS_HWMON description
 
---===============1473572873455496928==--
+--===============5635154244721904702==--
