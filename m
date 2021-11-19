@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Fri, 19 Nov 2021 17:44:11 -0000
-Message-Id: <163734385100.7878.2537731842479861158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 19 Nov 2021 17:45:08 -0000
+Message-Id: <163734390830.9713.9993799019339408591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: fbe42f1ac83ba034be96895b1e63e19692973c31
-    new: 2ef75e9bd2c998f1c6f6f23a3744136105ddefd5
+  - ref: refs/heads/master
+    old: 5711325cbb37d10c21a6975d1f1ebea11799c05e
+    new: beda9d8d9e9148ff34eaa0eeb0cde19a36f47494
     log: |
-         f86b0aaad741c45aba5a84a27277dd56a96808ba tracing/histogram: Fix UAF in destroy_hist_field()
-         c4c1dbcc09e723295969a62aff401815b7ee15f4 tracing: Use memset_startat() to zero struct trace_iterator
-         2ef75e9bd2c998f1c6f6f23a3744136105ddefd5 tracing: Don't use out-of-sync va_list in event printing
+         0a852a50c315776de0b43185e30576f15a420a24 fio: Introduce the log_entries option
+         9eff5320c9f4e4ce19c10f87d9548cb5098f62be t/io_uring: use internal random generator
+         beda9d8d9e9148ff34eaa0eeb0cde19a36f47494 t/io_uring: add -R option for random/sequential IO
          
