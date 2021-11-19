@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 19 Nov 2021 21:59:50 -0000
-Message-Id: <163735919014.8066.18326095241563335903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
+Date: Fri, 19 Nov 2021 22:04:01 -0000
+Message-Id: <163735944191.12518.6763263979487256861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mdf/linux-fpga
+user: mdf
 changes:
-  - ref: refs/heads/master
-    old: 95349bb2704cc02a634d321126cc69eaac088ef1
-    new: 04f916043cd56ed92e81f3368e85dfdc816196b6
-    log: |
-         04f916043cd56ed92e81f3368e85dfdc816196b6 Fri Nov 19 09:57:36 PM UTC 2021
-         
+  - ref: refs/heads/for-5.17
+    old: 0000000000000000000000000000000000000000
+    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
