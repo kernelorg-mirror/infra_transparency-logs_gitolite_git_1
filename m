@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 19 Nov 2021 16:24:17 -0000
-Message-Id: <163733905704.22684.9497252704059070962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Fri, 19 Nov 2021 16:37:47 -0000
+Message-Id: <163733986758.30744.4071320561004354159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: aacb5dfcd90e0cc994189c89912a3213b15d0e5c
-    new: 4dbae993fb22333b7e7b47b06cd150c3f855393a
+  - ref: refs/heads/for-next
+    old: 2f61f240215d22a7298c80bb1eb5d3e39f66f38a
+    new: 2c702b9c8e9b448d0eebf6ea6c25145b24d5f3d0
     log: |
-         1047fe20c93b2eaa08478ea3ada67dd2e56c59ec base64: Null terminate encoding
-         4dbae993fb22333b7e7b47b06cd150c3f855393a unit: update base64 test with API change
+         bd5fc9db54e2c81950340032fe17cf0455d5b583 leds: tca6507: use swap() to make code cleaner
+         94d0fdf061c55db2dfcc213cab45044643d5892a leds: led-core: Update fwnode with device_set_node
+         2c702b9c8e9b448d0eebf6ea6c25145b24d5f3d0 dt-bindings: leds: Replace moonlight with indicator in mt6360 example
          
