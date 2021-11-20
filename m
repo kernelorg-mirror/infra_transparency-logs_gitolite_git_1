@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sat, 20 Nov 2021 03:22:12 -0000
-Message-Id: <163737853232.15747.7648049468105162027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 20 Nov 2021 04:21:27 -0000
+Message-Id: <163738208782.24361.17991948953150575722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/relo_core
-    old: db02b41830c1ce59f55d0228f7c2f9e04f1a6c07
-    new: 4fc54326d2ae43f32be5534aac353b12aecbf28e
+  - ref: refs/heads/master
+    old: 520fbdf7fb19b7744e370d36d9244a446299ceb7
+    new: 1388d4ad9d828f7d5ad8327d12fa2afb9abdf08a
     log: |
-         8d59a01c615d1598093347b73c6edd594cdf3917 libbpf: Use CO-RE in the kernel in light skeleton.
-         12f4fb90f0c0706726c984ea5425d1d81abb00e7 libbpf: Support init of inner maps in light skeleton.
-         11405ea443a60773c1ace97a8f7ec40239e92ae5 selftests/bpf: Add lskel version of kfunc test.
-         4071d4ff6d0af81cd1b79c2e84e747adcd33564f selftests/bpf: Improve inner_map test coverage.
-         584f43ebeedcf09e539cc8e72f839ea0d5624ddf selftests/bpf: Convert map_ptr_kern test to use light skeleton.
-         b16c96b6e45887ce9e8baad06e0f5ecfff917718 selftests/bpf: Additional test for CO-RE in the kernel.
-         4fc54326d2ae43f32be5534aac353b12aecbf28e selftest/bpf: Revert CO-RE removal in test_ksyms_weak.
+         8d22679dc89a6d9e1d41b2514902e3f7ef51547a ipv6: ip6_skb_dst_mtu() cleanups
+         d9f31aeaa1e5aefa68130878af3c3513d41c1e2d ethernet: renesas: Use div64_ul instead of do_div
+         1388d4ad9d828f7d5ad8327d12fa2afb9abdf08a net: phy: add support for TI DP83561-SP phy
          
