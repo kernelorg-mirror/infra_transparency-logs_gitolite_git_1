@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0774787535229033868=="
+Content-Type: multipart/mixed; boundary="===============3247362879552548647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 20 Nov 2021 19:42:24 -0000
-Message-Id: <163743734412.21673.4800673863078128774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 20 Nov 2021 19:42:31 -0000
+Message-Id: <163743735192.21794.2274312584486938792@gitolite.kernel.org>
 
---===============0774787535229033868==
+--===============3247362879552548647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 2c220a1bef3755f3f39fdb8b7b3b7401948da19f
-    new: 564285585922fd016094f339982d17c7c7cc4357
-    log: revlist-2c220a1bef37-564285585922.txt
+  - ref: refs/heads/queue-next
+    old: 50fca668f5e494f10f547a25c750aa5f66b04ef1
+    new: abe1429941a8d2c4f2083f48b3c64345b1275121
+    log: revlist-50fca668f5e4-abe1429941a8.txt
 
---===============0774787535229033868==
+--===============3247362879552548647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c220a1bef37-564285585922.txt
+Content-Disposition: attachment; filename=revlist-50fca668f5e4-abe1429941a8.txt
 
 e792779e6b639c182df91b46ac1e5803460b0b15 iavf: Prevent changing static ITR values if adaptive moderation is on
 0cc318d2e8408bc0ffb4662a0c3e5e57005ac6ff iavf: Fix deadlock occurrence during resetting VF interface
@@ -87,5 +87,7 @@ a2d3ffc52f8c40353fdde459309cbd2ee6731898 Merge branch 'patchq/446962' into mlx5-
 833231faa5aea38ccdd505e84e3bcb6490dc796d Merge branch 'mlx5-queue' into net-next
 013cc712809d9afc8239dff65f2ec176d147911d Merge branch 'mlx4-for-net' into net-next
 564285585922fd016094f339982d17c7c7cc4357 Merge branch 'mlx5-for-net' into net-next
+e66f26dd11103f9cc9c08eeb01f73d7cb84f938e Merge branch 'net-next' into queue-next
+abe1429941a8d2c4f2083f48b3c64345b1275121 Merge branch 'testing/rdma-next' into queue-next
 
---===============0774787535229033868==--
+--===============3247362879552548647==--
