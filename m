@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 20 Nov 2021 22:45:40 -0000
-Message-Id: <163744834015.3928.5740502783010795884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 20 Nov 2021 23:02:58 -0000
+Message-Id: <163744937835.14721.8465647696915520481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/hwmon
-    old: 214f525255069a55b4664842c68bc15b2ee049f0
-    new: 0e4190d762ef2609111507e1b9553a166436f556
+  - ref: refs/heads/master
+    old: d73e43a22e1f034ecd3aca8380b96d4b994e32d4
+    new: c55debd84ef63145044c40d1936036f811fef850
     log: |
-         0e4190d762ef2609111507e1b9553a166436f556 hwmon: (sht4x) Fix EREMOTEIO errors
+         c55debd84ef63145044c40d1936036f811fef850 Sat Nov 20 11:01:44 PM UTC 2021
          
