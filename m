@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7929723764893018489=="
+Content-Type: multipart/mixed; boundary="===============4041903829786728965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sat, 20 Nov 2021 18:54:44 -0000
-Message-Id: <163743448455.25325.2575083639990115160@gitolite.kernel.org>
+Date: Sat, 20 Nov 2021 18:55:54 -0000
+Message-Id: <163743455440.27131.16432540065883206983@gitolite.kernel.org>
 
---===============7929723764893018489==
+--===============4041903829786728965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
-    old: 0385979a30dc4abdef2dcebbccef818947c80cb7
+  - ref: refs/heads/edac-for-next
+    old: f889e52436d6a42e773c4e8aab390c6b25841d61
     new: a9e6b3819b365fd1955fafad588a5c0ada569383
-    log: revlist-0385979a30dc-a9e6b3819b36.txt
+    log: revlist-f889e52436d6-a9e6b3819b36.txt
 
---===============7929723764893018489==
+--===============4041903829786728965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0385979a30dc-a9e6b3819b36.txt
+Content-Disposition: attachment; filename=revlist-f889e52436d6-a9e6b3819b36.txt
 
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
@@ -1051,4 +1051,4 @@ f7824ded41491d7ebc156a3a2f6fa05cd89da7c2 EDAC/synopsys: Add support for version 
 f6bc0d8bc2c5872e94e6d51472bd16fc4479622b EDAC/synopsys: Enable the driver on Intel's N5X platform
 a9e6b3819b365fd1955fafad588a5c0ada569383 dt-bindings: memory: Add entry for version 3.80a
 
---===============7929723764893018489==--
+--===============4041903829786728965==--
