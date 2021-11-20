@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Sat, 20 Nov 2021 06:19:52 -0000
-Message-Id: <163738919233.349.15697157462849642166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 20 Nov 2021 08:05:00 -0000
+Message-Id: <163739550099.31394.16742990437346117744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/topic/warns
-    old: 410797b05eda15bcba9b5367b4bcd3c22d2ba1d9
-    new: 826eceb48f2e03b12500ae64804786837c889104
+  - ref: refs/heads/for-linus
+    old: 83de8f83816e8e15227dac985163e3d433a2bf9d
+    new: fa9730b4f28b7bd183d28a0bf636ab7108de35d7
     log: |
-         31c66bfa95c14321e754ade581a65a50fd482841 phy: mvebu-cp110-utmi: Fix kernel-doc warns
-         e697ffe39a0df3cc0cd977059a9207cb3084ff11 phy: qualcomm: qmp: Add missing struct documentation
-         1de7c6ad9a093100682e8d28e8e066d86a339b48 phy: qualcomm: usb-hsic: Fix the kernel-doc warn
-         466b1516e74ffbb268dce83e41ca62bcfc822cb6 phy: ti: tusb1210: Fix the kernel-doc warn
-         90e05ae33dd508a12495d1803f7da000fa4b6f42 phy: qualcomm: ipq806x-usb: Fix kernel-doc style
-         826eceb48f2e03b12500ae64804786837c889104 phy: ti: omap-usb2: Fix the kernel-doc style
+         fa9730b4f28b7bd183d28a0bf636ab7108de35d7 ALSA: intel-dsp-config: add quirk for JSL devices based on ES8336 codec
+         
+  - ref: refs/heads/for-next
+    old: 37c4fd0db7c961145d9d1909ecab386fdf703c26
+    new: de2f29c4394efa64c3a5ba1b15302eb558ed4c56
+    log: |
+         de2f29c4394efa64c3a5ba1b15302eb558ed4c56 ALSA: hda: Remove redundant runtime PM calls
+         
+  - ref: refs/heads/master
+    old: 274513aca5151a89b9c933b35999ae99120712bd
+    new: 060c20a50fd28d01776543a3e81f8a8be4134fa1
+    log: |
+         fa9730b4f28b7bd183d28a0bf636ab7108de35d7 ALSA: intel-dsp-config: add quirk for JSL devices based on ES8336 codec
+         57d43112f407f8874244ad9766d37ab6d70d0c8d Merge branch 'for-linus'
+         de2f29c4394efa64c3a5ba1b15302eb558ed4c56 ALSA: hda: Remove redundant runtime PM calls
+         060c20a50fd28d01776543a3e81f8a8be4134fa1 Merge branch 'for-next'
          
