@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 20 Nov 2021 15:04:15 -0000
-Message-Id: <163742065589.12856.10377389545361475356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 20 Nov 2021 15:10:44 -0000
+Message-Id: <163742104435.17514.11845362083561104398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/arm-vmap-stacks-v4
-    old: 306f6ef55a3395c0bac8a0df0e51f4cb23c29b21
-    new: 311ad8e1c5904ed9cd8aee3eb1ec4f4966a0d756
+  - ref: refs/heads/master
+    old: efaa9990cd3fcc1258343662dde390fb8cea3753
+    new: f9390b249c90a15a4d9e69fbfb7a53c860b1fcaf
     log: |
-         79fdd265a1eba7aee3cceba40b930a07b5022d97 ARM: entry: rework stack realignment code in svc_entry
-         311ad8e1c5904ed9cd8aee3eb1ec4f4966a0d756 ARM: implement support for vmap'ed stacks
+         f9390b249c90a15a4d9e69fbfb7a53c860b1fcaf af_unix: fix regression in read after shutdown
          
