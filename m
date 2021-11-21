@@ -1,22 +1,118 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 21 Nov 2021 02:12:57 -0000
-Message-Id: <163746077760.1305.7019411291931003420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Sun, 21 Nov 2021 02:14:44 -0000
+Message-Id: <163746088492.2020.15088184648709452264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: c0a8351976375aae006d2c85f4feb91b54a43d2b
-    new: 4729984b3f53f445963b13a092e68646ca9080fc
-    log: |
-         691bab264d35db8e6955b05ec4e465932c4f4d65 x86/sgx: Rename encl->page_cnt and encl->secs_child_cnt
-         f21d8a9dd3fd28a2e120d29489de94ee483e225d x86/sgx: Check against 'nr_pages' overflow in sgx_encl_add_page()
-         71f9cbb868c8526171efad643bd4f0409553c0d3 x86/sgx: Validate 'nr_pages' in sgx_encl_release()
-         4729984b3f53f445963b13a092e68646ca9080fc x86/sgx: Maintain 'nr_va_pages' and validate it in sgx_encl_release()
-         
+  - ref: refs/tags/am654-fixes-for-v4.20
+    old: 0000000000000000000000000000000000000000
+    new: 76e25c200e5c15f6d18f3351b002da638e6b0204
+  - ref: refs/tags/am654-fixes-for-v5.2
+    old: 0000000000000000000000000000000000000000
+    new: 8a53120340d334b371a1aa299681ee17adb6d48a
+  - ref: refs/tags/am654-for-v4.20
+    old: 0000000000000000000000000000000000000000
+    new: df9ee0bee39912d34a6e18233a0b3dd97a46562e
+  - ref: refs/tags/am654-for-v4.21
+    old: 0000000000000000000000000000000000000000
+    new: d650b46ec6a69177c0e7f002d4d546dea19ff8d3
+  - ref: refs/tags/am654-for-v5.1
+    old: 0000000000000000000000000000000000000000
+    new: c8f0ab2dcba76e8dc2a98636f1e3923ee8b38198
+  - ref: refs/tags/am654-for-v5.1-part2
+    old: 0000000000000000000000000000000000000000
+    new: 09e85a582bfba1777ed440ae9bdccaca0a6e0d56
+  - ref: refs/tags/clk-ti-for-4.20
+    old: 0000000000000000000000000000000000000000
+    new: a32df6efef73b44b4277a3a554ad6485eb4a1bce
+  - ref: refs/tags/keystone-clk-for-5.3-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7378c1d86851ed6ea68d11f19e797562482ae0df
+  - ref: refs/tags/ti-clk-fixes-for-5.4
+    old: 0000000000000000000000000000000000000000
+    new: 27517337ef9213d9ccab7b24d849f220cf0e0a1b
+  - ref: refs/tags/ti-clk-for-5.1
+    old: 0000000000000000000000000000000000000000
+    new: e3ae0dd126db91239e11b60854705c45871a932d
+  - ref: refs/tags/ti-clk-for-5.5
+    old: 0000000000000000000000000000000000000000
+    new: cdbb9abbd3590f0dfda2611fcc1f8221332b7a85
+  - ref: refs/tags/ti-clk-for-5.5-v2
+    old: 0000000000000000000000000000000000000000
+    new: bcd011b45a5abd4349134ad56fe884b417bc1564
+  - ref: refs/tags/ti-clk-for-5.6
+    old: 0000000000000000000000000000000000000000
+    new: ed3abebd964e1e040d6af466ee7b376328f27fd6
+  - ref: refs/tags/ti-k3-config-for-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 1260d75dcf8becad763a01a064e66985b48ea489
+  - ref: refs/tags/ti-k3-config-for-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 19fa2bae9a3bb8a2f186d617df8f51d64ac3193e
+  - ref: refs/tags/ti-k3-dt-fixes-for-v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 24e8cabdf3918763601a29d2f922438d64030d32
+  - ref: refs/tags/ti-k3-dt-fixes-for-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: aff9ed63199a468dd67e74549b72302e066b644f
+  - ref: refs/tags/ti-k3-dt-for-v5.10
+    old: 0000000000000000000000000000000000000000
+    new: 4453d88870280f73c44b13512c17f77338a60c15
+  - ref: refs/tags/ti-k3-dt-for-v5.10-part2
+    old: 0000000000000000000000000000000000000000
+    new: c21ae9768fbb219dab58518776a1461aa4e31444
+  - ref: refs/tags/ti-k3-dt-for-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 045b17ca691ec21a20cad07a7cfc66ed52e132d4
+  - ref: refs/tags/ti-k3-dt-for-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 919fd781cde95bed32f6e529d20d3008cfd0c719
+  - ref: refs/tags/ti-k3-dt-for-v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 81982be1ad954a5340d10f216823bf01618cbfca
+  - ref: refs/tags/ti-k3-dt-for-v5.14
+    old: 0000000000000000000000000000000000000000
+    new: 2f36712695dc9d7f47d81d00389e7b016f174464
+  - ref: refs/tags/ti-k3-dt-for-v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 6a1cb727909f23b578909dbacd9a626487e824e2
+  - ref: refs/tags/ti-k3-dt-for-v5.16
+    old: 0000000000000000000000000000000000000000
+    new: 45728a4c8392f836a819912b0cd81c866de93501
+  - ref: refs/tags/ti-k3-dt-for-v5.8
+    old: 0000000000000000000000000000000000000000
+    new: bac172167b5cc40f5d7844e8304783845c9d2a1c
+  - ref: refs/tags/ti-k3-dt-for-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: c4f48ead65a6ce13387a19d62f9ad07f301bf00c
+  - ref: refs/tags/ti-k3-maintainer-for-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: cb396568714f9523d896c181262c342ce56515e0
+  - ref: refs/tags/ti-k3-soc-for-v5.3
+    old: 0000000000000000000000000000000000000000
+    new: 375406d0511448109a6e94e7372957486233ab66
+  - ref: refs/tags/ti-k3-soc-for-v5.4
+    old: 0000000000000000000000000000000000000000
+    new: d952d7cf08c62e8622a7331bbca187d976739113
+  - ref: refs/tags/ti-k3-soc-for-v5.5
+    old: 0000000000000000000000000000000000000000
+    new: 62b914ffab6aca911229da112b2f84262c413cd9
+  - ref: refs/tags/ti-k3-soc-for-v5.6
+    old: 0000000000000000000000000000000000000000
+    new: 48cc51c726cba380da6584e66734da5b92d471d4
+  - ref: refs/tags/ti-k3-soc-for-v5.6-part2
+    old: 0000000000000000000000000000000000000000
+    new: 91744af6ed47bb8facd782dc97f53b89708b7bcd
+  - ref: refs/tags/ti-k3-soc-for-v5.7
+    old: 0000000000000000000000000000000000000000
+    new: baaeb8b3b94c7d6df9d8a884a4f02262810a9d9f
+  - ref: refs/tags/ti-sci-for-5.3-v2
+    old: 0000000000000000000000000000000000000000
+    new: 069d1ee36889891fb31346fb9f5d62731f4469b8
