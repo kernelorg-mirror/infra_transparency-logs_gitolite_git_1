@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 21 Nov 2021 22:17:16 -0000
-Message-Id: <163753303652.17948.11702086923328324998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 21 Nov 2021 22:34:04 -0000
+Message-Id: <163753404443.28175.9388987941412802381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 42555598bf70dde98d1aaf5e3967bd9dbc2e5112
-    new: 2ec5fdcdd5280b36e72957febac142b961fe63b2
+    old: ead167ef7450108cf6965619b33983b74c329deb
+    new: 280ef24b871d905b0398ae9aa1ad8cca809f1147
     log: |
-         2ec5fdcdd5280b36e72957febac142b961fe63b2 Include link for cap_max_bits.3 man page.
+         280ef24b871d905b0398ae9aa1ad8cca809f1147 Sun Nov 21 10:33:21 PM UTC 2021
          
