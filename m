@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 21 Nov 2021 00:58:41 -0000
-Message-Id: <163745632110.21054.5517489415559712096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 21 Nov 2021 01:06:18 -0000
+Message-Id: <163745677843.26149.7365174665085572537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 5446f20dffffc36f05d84bddc0807dc509daf477
-    new: c0a8351976375aae006d2c85f4feb91b54a43d2b
+    old: e0582d0aee30032190222c110d72d7be22c715af
+    new: 4c7dde9f519095f74d19982fb3c1d05fb1ff46be
     log: |
-         c0a8351976375aae006d2c85f4feb91b54a43d2b x86/sgx: Maintain 'nr_va_pages' and validate it in sgx_encl_release()
+         f7deb5ad451458eeec20f9e7546d731e932bec2c Add some information about cap_max_bits().
+         4c7dde9f519095f74d19982fb3c1d05fb1ff46be Add some more info to the libcap.so as an executable.
          
