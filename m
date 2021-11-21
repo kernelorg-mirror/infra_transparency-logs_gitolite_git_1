@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 21 Nov 2021 21:56:45 -0000
-Message-Id: <163753180540.6618.14493122667319021694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 21 Nov 2021 22:17:16 -0000
+Message-Id: <163753303652.17948.11702086923328324998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1
-    new: 136057256686de39cc3a07c2e39ef6bc43003ff6
+    old: 42555598bf70dde98d1aaf5e3967bd9dbc2e5112
+    new: 2ec5fdcdd5280b36e72957febac142b961fe63b2
     log: |
-         136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
+         2ec5fdcdd5280b36e72957febac142b961fe63b2 Include link for cap_max_bits.3 man page.
          
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
