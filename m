@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 21 Nov 2021 11:04:50 -0000
-Message-Id: <163749269089.19898.6577386168632081155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 21 Nov 2021 11:26:52 -0000
+Message-Id: <163749401277.2144.18033049477291133367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/damon/fixes-for-v5.15.y-2021-11-21-12-03
-    old: 0000000000000000000000000000000000000000
-    new: 159a940db8a074166e884a9ecab7ed699e74ba08
+  - ref: refs/heads/fixes-togreg
+    old: 822c2c76e8da9a8d316aa103f789cad1ee487850
+    new: 92beafb76a31bdc02649eb44e93a8e4f4cfcdbe8
+    log: |
+         fde272e78e004a45c7e4976876277d7e6a5a0ede iio: gyro: adxrs290: fix data signedness
+         92beafb76a31bdc02649eb44e93a8e4f4cfcdbe8 iio: adc: axp20x_adc: fix charging current reporting on AXP22x
+         
