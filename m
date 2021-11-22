@@ -1,33 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 22 Nov 2021 12:53:32 -0000
-Message-Id: <163758561286.25556.5558990543450995275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 22 Nov 2021 12:55:28 -0000
+Message-Id: <163758572859.27573.16945593524442166658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/arm/fixes
-    old: e95d8eaee21cd0d117d34125d4cdc97489c1ab82
-    new: 18fe42bdd635d290d230ff279e5e86072f1e7e9f
-    log: |
-         18fe42bdd635d290d230ff279e5e86072f1e7e9f MAINTAINERS: Add entry to MAINTAINERS for Milbeaut
-         
   - ref: refs/heads/for-next
-    old: e95d8eaee21cd0d117d34125d4cdc97489c1ab82
-    new: b86314b30dee961692ea602b753e71932824c7e2
+    old: b3c3d5881e0ede0526fc996c98949cffac697295
+    new: c15f86856bec5bbf9a5ea909ce5ccc5b05744eb1
     log: |
-         8e0150fe5cf5b86df55257d800258e57d7d34202 ARM: dts: milbeaut: add a clock node for M10V
-         2fc4dfc294eef022889e56ebcd4f0c6c6e34e3c5 ARM: dts: milbeaut: set clock phandle to timer node
-         69a25d34f377b5602d188a05827f6173c26ff0de ARM: dts: milbeaut: set clock phandle to uart node
-         18fe42bdd635d290d230ff279e5e86072f1e7e9f MAINTAINERS: Add entry to MAINTAINERS for Milbeaut
-         de4ddd0fce1c00cf44c1a2965999c6defd708a95 Merge branch 'arm/dt' into for-next
-         b86314b30dee961692ea602b753e71932824c7e2 Merge branch 'arm/fixes' into for-next
+         adca4b68713f3c2f9fc1b2b529296a5da6f1eb4b Documentation: syfs-class-firmware-attributes: Lenovo Opcode support
+         640a5fa50a42b99bfa2a0ec51b4ea9591d9bd055 platform/x86: think-lmi: Opcode support
+         01df1385ec4ec699ad6a63007e7f1081089e83a0 platform/x86: think-lmi: Move kobject_init() call into tlmi_create_auth()
+         ff448bbaacfb6f216ae101c1f16d8c5142c16fdf platform/x86: think-lmi: Simplify tlmi_analyze() error handling a bit
+         c15f86856bec5bbf9a5ea909ce5ccc5b05744eb1 platform/x86: thinkpad_acpi: Accept ibm_init_struct.init() returning -ENODEV
          
-  - ref: refs/heads/arm/dt
-    old: 0000000000000000000000000000000000000000
-    new: 69a25d34f377b5602d188a05827f6173c26ff0de
