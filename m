@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6695631059885405042=="
+Content-Type: multipart/mixed; boundary="===============8365450289772846071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 Nov 2021 16:12:38 -0000
-Message-Id: <163759755885.21589.621698420483834776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 22 Nov 2021 16:14:56 -0000
+Message-Id: <163759769675.22307.3720094037132351412@gitolite.kernel.org>
 
---===============6695631059885405042==
+--===============8365450289772846071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/topic-xdr-tracepoints
-    old: 07f44f67cedcceb30d1fc98899a509d7da3827d1
-    new: a536b4ebb14d8a8be436258fb9f96bc6c6202b55
-    log: revlist-07f44f67cedc-a536b4ebb14d.txt
+  - ref: refs/heads/master
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 136057256686de39cc3a07c2e39ef6bc43003ff6
+    log: revlist-fa55b7dcdc43-136057256686.txt
 
---===============6695631059885405042==
+--===============8365450289772846071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07f44f67cedc-a536b4ebb14d.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-136057256686.txt
 
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
 7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
@@ -416,173 +416,5 @@ b100274c70546decba3ec12cd614e1ab895515a5 Merge tag 'pinctrl-v5.16-2' of git://gi
 af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
-36c4880484781785e25f2d8d525b0fbbfc4c02af NFSD: Fix sparse warning
-8d0202fb16195089e1b23869c73f7422adaace73 SUNRPC: Remove low signal-to-noise tracepoints
-156aa3084c2382933c168e61e722b9d2ef6fd81b SUNRPC: Record endpoint information in trace log
-fb012c2458e474c8a2f761b387b2adc524472df4 SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
-c8d5a54a61e706601b779b0f379bbd9278bb2460 NFSD: Combine XDR error tracepoints
-bdb8be2ecd6f5246fc4e0beef7bf38de3db80096 NFSD: Remove NFSD_PROC_ARGS_* macros
-95644f116837c8e07f359d5d05bf29a86e120993 NFSD: Add infrastructure for NFSD XDR tracepoints
-e8e7667ce46863cb5b7e700cda58b385d7232528 NFSD: Relocate tracepoints that report XDR errors
-ad1cfb75c02741f521ca931648a71864e10211e1 NFSD: Add tracepoints to record NFS and NFSACL void arguments
-193a2f2288feb895c8518ff00bfc2b32f7abb2b2 NFSD: Add a tracepoint to record NFS and NFSACL void results
-531da2816163e2feb1f3fbe266b70652e73c7eb6 trace: Add show_fs_file_type() macro
-df9a73b0ccdd5a30156db2241a5a4e775ae3d5dc trace: Add show_nfs3_access() macro
-03d299ecdf8a47df173b435633bc22f8ded99fdf trace: Add show_nfs3_acl_mask helper macro
-fb45cb7f41d9ce681ca834227bb682bd61affc83 trace: Add show_attr_valid_flags() macro
-065e48b1cf2abef9112aa794ca58589bda16e55e NFSD: Add infrastructure for NFSv3 XDR tracepoints
-94d0caa4f545c9b136ddf362c3b7bc1cfee899fd NFSD: Add tracepoint to record decoded nfs_fhandle arguments
-cfd6caa69056846ccbf7695887b5f66575eee952 NFSD: Add tracepoints to record decoded NFSv3 sattr3 arguments
-9a51fa42815313e28d8927bc91aeb3c99727b2fa NFSD: Add a tracepoint to record decoded NFSv3 diropargs
-5040fcc610cf35db23b12cb93afbd56abf5523e8 NFSD: Add a tracepoint to record decoded NFSv3 ACCESS args
-7e92ab60a702339c135dcca9cfa804f273cd8ee5 NFSD: Add tracepoint to record decoded NFSv3 READ arguments
-96393a50a61e3690ee32ef0702f830d9ce7e9cb6 NFSD: Add tracepoint to record decoded NFSv3 WRITE arguments
-af6c2cfafc469d57c3cc34fc897730bb1d7e3e77 NFSD: Add tracepoints for decoded NFSv3 CREATE arguments
-0f329dcc783338630e56eb9b55eb1a4de554e429 NFSD: Add tracepoint to record decoded NFSv3 SYMLINK arguments
-3fbb56096deb65a65fb0d8eb6e75cff9b2ac4ab4 NFSD: Add tracepoints to record decoded NFSv3 MKNOD arguments
-15a65cf7c971041a91215f7c733d2e5e7b8e9251 NFSD: Add tracepoint to record decoded NFSv3 RENAME arguments
-5499280b09dc10a859e5b504fc290cffb0c82683 NFSD: Add a tracepoint to record decoded NFSv3 LINK arguments
-36dcccaad27e3d685a20ab22fc012e5eb2eaacdb NFSD: Add a tracepoint to record decoded NFSv3 READDIR arguments
-d8dec229b7eee1f4794d284500a4021c2abfa4e7 NFSD: Add a tracepoint to record decoded NFSv3 COMMIT arguments
-76d25fa8c1d32823a8b7040db1c879c4130604de NFSD: Clean up svcxdr_encode_wcc_data()
-e96d52ce61529b7233035db8e185637dc1d8a0c4 NFSD: Refactor encode_post_op_attr
-c43de2083e7a946c08f9594cdeb3a9d07dc79729 NFSD: Add a tracepoint to record encoded NFSv3 GETATTR results
-0728648d55e75a8f6e545b7d694bc592f4304f88 NFSD: Add a tracepoint to record encoded NFSv3 post_op_attr results
-2b11404b9355ac4ef27c51fa5bd1085638955eef NFSD: Add tracepoints to record encoded NFSv3 wcc_data results
-ac713f1b0bc739c3903fa903603ad9c770f34918 NFSD: Add tracepoints to record encoded NFSv3 LOOKUP results
-e9e8117c27dc4ac6648db6b3a64a5e34e974ebce NFSD: Add tracepoints to report encoded NFSv3 ACCESS results
-f32c5282430d2e0b1aa0caa64d8488b2fee92a2c NFSD: Add tracepoints to record encoded NFSv3 READLINK results
-624ba767306be3dfab308b7395f7c8bc40fe9af4 NFSD: Add tracepoints to record encoded NFSv3 READ results
-d99e8468315f9ac4b666d2b223a3232bbe239277 NFSD: Add tracepoints to record encoded NFSv3 WRITE results
-d2f0b756b6e0cb674edb72521cb098e0bddad74e NFSD: Add tracepoints to record encoded NFSv3 CREATE results
-c799a45f36516e34d3bce8c6ca92beeb60ca925e NFSD: Add tracepoints to record encoded NFSv3 RENAME results
-463f49de02251888ed4cbe0301b4db5777655c00 NFSD: Add tracepoints to record encoded NFSv3 LINK results
-843262ff49b636e18f008abd291b05dff21a3bf5 NFSD: Add tracepoints to record encoded NFSv3 READDIR results
-58786a3c2fa201566984be84c06b7d027f6d6cd5 NFSD: Add tracepoints to record encoded NFSv3 FSSTAT results
-5bc92e0731f3d27458169b9b42e85793fd8ca383 NFSD: Add tracepoints to record encoded NFSv3 FSINFO results
-3c574ab465c783c9d67814e6e6c7f482ca05a517 NFSD: Add tracepoints to record encoded NFSv3 PATHCONF results
-0220e3709f47b0b78b2d7f59dd5d4ce6acfb444d NFSD: Add tracepoints to record encoded NFSv3 COMMIT results
-8482fa0982e1bde6439cd53934910cc83cb433ab NFSD: Add tracepoints to record NFSACLv3 arguments and results
-878c8d0acac5e030b87b73478d41a56ff3994fc8 NFSD: Remove NFSv3 proc dprintk call sites
-96ef4edb65d6528362c808130cdc0ee955eb1205 lockd: Infrastructure for lockd server-side XDR tracepoints
-6cbff5c97274e1af7a427766ddb6026b2c5cdfd7 lockd: Add a tracepoint to record decoded NLM void arguments
-490f2125361d3f1ba0f1c8ea8419a2d367dd6b35 lockd: Add a tracepoint to record decoded nlm_lock arguments
-06872de10e3ee99e6ad92557e82a32f5dbbabaea lockd: Add a tracepoint to record decoded NLM TEST arguments
-472660f9bf03a7cc04ef62e1798a4cfc85b217a1 lockd: Add a tracepoint to record decoded NLM LOCK arguments
-93cdf739a7caad445223133669b266652dea5c7f lockd: Add a tracepoint to record decoded NLM CANCEL arguments
-4707ff4f8cea876ecfdf77fd0d0d666b31f3ad30 lockd: Add a tracepoint to record decoded NLM UNLOCK arguments
-b49c1a87a71cc7614b758365f8957f2598d51feb lockd: Add a tracepoint to record decoded NLM GRANTED arguments
-7f4a9280722c09c33b291b760bdd8b870a8def6b lockd: Add a tracepoint to record decoded NLM REBOOT arguments
-a28d57840bf17d3e2b8a4141794654696464fb7b lockd: Add a tracepoint to record decoded NLM SHARE arguments
-a74da8c5f602a71feb0d843d9b8746e003f53f10 lockd: Add a tracepoint to record decoded NLM NOTIFY arguments
-557a0f676b1c41bc18b4bd2e215d744e22cbe206 lockd: Add a tracepoint to record encoded NLM void results
-3f487e3a53d6780b72a0c7336684ee3e10fab948 lockd: Add a tracepoint to record encoded NLM TEST results
-788af5b667c90293a0cfa12f5506b2b3c1d7fedf lockd: Add a tracepoint to record encoded NLM nlm_res results
-a3b494041c6cf33ce0d2b72256032930efcf83db lockd: Add tracepoints to record XDR encoding and decoding errors
-4c8785d77ec0c562c01d0025d686c873c138a7a4 lockd: Remove NLM svcproc dprintk call sites
-f233a2c36fe18c90646f3f3ebcee4d1a162fd743 lockd: Add infrastructure to support tracepoints in cln*xdr.c
-7eb0a1668bcd3403b063391175a906241c4761e6 lockd: Add a tracepoint to record encoded nlm_lock arguments
-a9f49e4274a478ea4cc41df40dad97627685f6a0 lockd: Add a tracepoint to record encode NLM TEST arguments
-1dcd1f0b2cab08b9303195800ccf2a26c225ba84 lockd: Add a tracepoint to record encode NLM LOCK arguments
-6afeb2844f4a9202b3024d3fc1633a8bc8c32b0f lockd: Add a tracepoint to record encode NLM CANCEL arguments
-c34c1e37aa35ded0b6ab73579026aa75a9e579a3 lockd: Add a tracepoint to record encode NLM UNLOCK arguments
-6cc45dfb4cdde869af184f580aa0bb765789285f lockd: Add a tracepoint to record encode NLM GRANTED arguments
-5d9afd9222026a880fc2244e0465edee897b9411 lockd: Checkpoint. Split this one up.
-e17b9addc727280c15790ed0c540385556d46da4 trace: Add show_nfs4_file_type() macro
-061745b46e0c82f4272a88f18eef1a5b25629bac trace: Add show_nfs4_channel_dir macros
-80f2b5a57917bbd2c68f10e393c60937170a2a64 trace: Add show_nfs4_session() macro
-9cb5640dab2294882032c4f331b6c2aad7e79749 trace: Add show_nfs4_exchgid4 macros
-96ae22c65620d2b3c101c958a12dc5f7d478d3a3 trace: Add show_nfs4_csa_flags() macro
-42b07f7932c7fb5159a69fe1d8aa34d75ca95d31 trace: Add show_nfs4_fattr4_bm_word macros
-c460111e2671a08a8c31ce64da64f1deb08e29d2 trace: Ad show_nfs4_fh_expire_type() macro
-c83ef0da11d3627345a0ee8c5fcc6d795613c4ac trace: Add show_nfs4_aclsupport() macro
-a0c830998839e3d336ab59cf3ca7fa58a4fa8a68 trace: Add show_nfs4_change_attr_type() macro
-2237b3adacb6fe21189c5301b2fdad1eec4f3a3a trace: Add show_nfs4_lock_type() macro
-c1039be4f4e3f53113092633df114764fadf3151 trace: Add show_nfs4_open_create() macro
-192e9d0008b49d0e54a548e2949fb14212bfc91a trace: Add show_nfs4_open_claimtype() macro
-23084148287e07bb900a202bc4159ab71b342080 trace: Add show_nfs4_open_sharedeny_flags() macro
-a62575ef2c9f6b2217455c8958ab642e75787fca trace: Add show_nfs4_delegation_type() macro
-ca661a5d93b07845000dab1de544a8f7520e1d21 trace: Add show_pnfs-layout-type() macro
-02a846c56d950d8cf208e308610e690b9134c5a9 trace: Add show_pnfs_notify_types() macro
-67f0c4833bdb8fd0e32321139de6e3d26c84c0b2 trace: Add show_pnfs_return_types() macro
-3a75cf31de89b51b3c37ad9bd8083bd8e96974a8 trace: Add show_nfs4_secinfo_style() macro
-f719f3263ee467a281ee6680e9edbc7bdc1ae2ef trace: Add show_nfs4_data_content() macro
-2b47c9755faa836d541f4eeb19d38439760e03d8 trace: Add show_nfs4_ace4_access_type() macro
-057c609e1c3565d489ed2ff0fc65f29cb2ec4658 trace: Add show_nfs4_ace4_flags() macro
-cf0213a46ed502b401b1a2110ccd1c477a986482 trace: Add show_nfs4_ace4_access_mask() macro
-8fff6568e0b54cc58233752ce4b8971f73c54061 trace: Add show_nfs4_open_result() macro
-837734debc3d24cb763fc8d9d223ac4a45435afe trace: Add show_nfs4_why_no_delegation() macro
-deed9bc02ecfd9d326c487e614440bfeb9a8a35c trace: Add show_fs_umode() macro
-500a8941fa4642c8005af2a84a5cc3d8aec4c73c NFSD: Add NFSv4 XDR tracepoint infrastructure
-dd105d1d59073885ab8bf245bbbd93a4e85cef47 NFSD: Update XDR error tracepoints to display names instead of numbers
-d2dc87a804cfda0913441ccde6ecc0f1ed50e20b NFSD: Carry op index in nfsd4_compoundargs
-2b9cbc365a0500d464a75208171718ccb020ddbb NFSD: Update the synopsis of trace_nfsd_compound_decode_err()
-4fdb44b3dc24452be785e15b78a229dd2aa21a97 NFSD: Update the synopsis of trace_nfsd_compound_encode_err()
-ac198d0419ae4dead5a95c3654d6775413614347 NFSD: Remove the nfsd_compound() tracepoint
-2ed2dd364c2229bcc2b5980dddc4c75e6dda1517 NFSD: Add tracing helper macros
-063f09d44820e1c6f7e8f637c6f4b7987664b975 NFSD: Relocate and update the nfsd_compound_status_tracepoint()
-40150993d59bfe8a5824b58b962ea667352afe5b NFSD: Add tracepoints to record NFSv4 ACCESS arguments and results
-44d6a17ebdc26c83ab8c5401755b5482a4737872 NFSD: Refactor nfsd4_decode_fallocate()
-533f6c12860729751ba88058eabab7383678276e NFSD: Add tracepoints to record NFSv4.2 ALLOCATE arguments and results
-4b4f8808bc790f4353ab9a4ccc60d8ecdd58a231 NFSD: Add tracepoints to record NFSv4.1 BACKCHANNEL_CTL arguments and results
-222c3014875336024085579caedbd36b734d4429 NFSD: Add tracepoints to record NFSv4.1 BIND_CONN_TO_SESSION arguments and results
-954fc083f047c6ceae241e46b6f795d41d3ff182 NFSD: Add tracepoints to record NFSv4.2 CLONE arguments and results
-6810f7e1724c9a2bf76297e5ba168cd1e78395c7 NFSD: Add tracepoints to record NFSv4 CLOSE arguments and results
-fc23dd3cdbbcf28b40a6641e3ade961963801de7 NFSD: Add tracepoints to record NFSv4 COMMIT arguments and results
-d90b041f0c320c84df52b06cd5ba3de679e1cfbd NFSD: Add tracepoints to record NFSv4.2 COPY arguments and results
-6fb42a1e5aef1f7b6bfe1a3dd86badaeedabc227 NFSD: Add tracepoints to record NFSv4.2 COPY_NOTIFY arguments and results
-a6d3ce8a0d348427a32364dd608df581a9eabae3 NFSD: Add tracepoints to record NFSv4 CREATE arguments and results
-d163817c5aa97a175b93a9036d2baa838d82ce05 NFSD: Add tracepoints to record NFSv4.1 CREATE_SESSION arguments and results
-b577f6c9d35434691f9ac455249e74633d5c8878 NFSD: Add tracepoints to record NFSv4.2 DEALLOCATE arguments and results
-6b8321c129e6c86df12656b7ad57c0c3df23f16e NFSD: Add tracepoints to record NFSv4 DELEGRETURN arguments and results
-3024c6b92f35abb91f9137976ea76c4983897d82 NFSD: Add tracepoints to record NFSv4.1 DESTROY_CLIENTID arguments and results
-5b0eb2647c98a1fac068cc16f3658e85c638b79c NFSD: Add tracepoints to record NFSv4.1 DESTROY_SESSION arguments and results
-2194f33ac5ce0ca778ecb8d4e83d532cb3fb71d4 NFSD: Add tracepoints to record NFSv4.1 EXCHANGE_ID arguments and results
-decb56ab6c3afccf5cd16cd6553e72c6bdf10670 NFSD: Add tracepoints to record NFSv4.1 FREE_STATEID arguments and results
-6d3bcb682d4616339fafc2bc9c45d398394dd4a3 NFSD: Add tracepoints to record fattr4 results
-23746947fb5a8735afd01e995a51f40c12b2f093 NFSD: Add tracepoints to record NFSv4 GETATTR arguments and results
-85a4bce8085017092ec6a4e7b6409ab537733885 NFSD: Add tracepoints to record NFSv4.1 GETDEVICEINFO arguments and results
-4634c56f9d6cefd466fde502dfa75fb9b398220f NFSD: Add tracepoints to record NFSv4 GETFH arguments and results
-5c00b526ec3ea97bfa7dc6e26d6748f5d50a2817 NFSD: Add tracepoints to record NFSv4.1 LAYOUTCOMMIT arguments and results
-efd113eb9bc8a7453b101cece1fafd684b30b9ae NFSD: Add tracepoints to record NFSv4.2 LAYOUTGET arguments and results
-2d51778bd8e877584c561850f7b799c0c76e4f08 NFSD: Add tracepoints to record NFSv4.1 LAYOUTRETURN arguments and results
-b54c9cb247c932af95244b960c103ac9ec65ffa4 NFSD: Add tracepoints to record NFSv4 LINK arguments and results
-d5d8ad3fc757fd081df70d3aa9a144c49ed4275d NFSD: Add tracepoints to record NFSv4 LOCK arguments and results
-9fb6824101bf8fb9a78e4aa69490d114a133b823 NFSD: Add tracepoints to record NFSv4 LOCKT arguments and results
-43f46b9735f38d825bedd846aa8b9f7179964104 NFSD: Add tracepoints to record NFSv4 LOCKU arguments and results
-e3002f5f55b3cbe6df57b677c6793240d2076673 NFSD: Add tracepoints to record NFSv4 LOOKUP arguments and results
-cab7de5d788bf0c4105e63888629384386acabf0 NFSD: Add tracepoints to record NFSv4 LOOKUPP arguments and results
-2a8be20f1bac8c83349f44cf7565764f37e1c334 NFSD: Refactor nfsd4_decode_verify()
-850e54087aa4217bc6a435fa393438c8b2aabf37 NFSD: Add tracepoints to record NFSv4 NVERFIY arguments and results
-d15417075e73b82b1f9fd42d1fdee5f674a7f68c NFSD: Add tracepoints to record NFSv4.2 OFFLOAD_CANCEL arguments and results
-fb251e7521218274cb0ba99aa3a6d86ab505b96b NFSD: Add tracepoints to record NFSv4.2 OFFLOAD_STATUS arguments and results
-040aa6866a730f55c866e3f6620bf0ed3391a05e NFSD: Add tracepoints to record NFSv4 OPEN arguments and results
-b3f7dfc6a0d717452bc45d970f05ba4982f35387 NFSD: Add tracepoints to record NFSv4 OPEN_CONFIRM arguments and results
-2f33f4f53ca67a55408896e858a34b2767511e90 NFSD: Add tracepoints to record NFSv4 OPEN_DOWNGRADE arguments and results
-94e6912273ea945ebbc4ed03bebe4f29e98fbf78 NFSD: Add tracepoints to record NFSv4 PUTFH arguments and results
-37e8e9709b872760051b7399086bbf3b4f6c5670 NFSD: Add tracepoints to record NFSv4 PUTPUBFH arguments and results
-f37f5889ca660f1cf1f77a4b7449d99503183cc9 NFSD: Add tracepoints to record NFSv4 PUTROOTFH arguments and results
-2b94c2c7af349a34922aee6d0ab77b3eb35ab7bb NFSD: Add tracepoints to record NFSv4 READ arguments and results
-de39abd9ccc6e4078c85bc91f8cb1e8eeba4114c NFSD: Add tracepoints to record NFSv4.2 READ_PLUS results
-9dfb8c29158edb5cf952876040a0c77f429355f2 NFSD: Add tracepoints to record NFSv4 READDIR arguments and results
-62191bf8c7dc95984425c39adec706a35b05ca84 NFSD: Add tracepoints to record NFSv4 READLINK arguments and results
-bf6894ef99920a9d9f5668926b425cff51cfc497 NFSD: Add tracepoints to record NFSv4.1 RECLAIM_COMPLETE arguments and results
-f95ab906b64884fa2b781ab569b1d6cadc658a0d NFSD: Add tracepoints to record NFSv4 RELEASE_LOCKOWNER arguments and results
-a1a541c170d332de75e43c2002ec88f0a22317f6 NFSD: Add tracepoints to record NFSv4 REMOVE arguments and results
-d57506f693d66663dff479da133423d779bc9c65 NFSD: Add tracepoints to record NFSv4 RENAME arguments and results
-815dca8a1735f17dacdd7e91f977b4ae809cf835 NFSD: Add tracepoints to record NFSv4 RENEW arguments and results
-8c18f01ab7974c4fd39cde222b2c7bfee5558cfe NFSD: Add tracepoints to record NFSv4 RESTOREFH arguments and results
-adbddc1531ea799f4de1126753ae2c5d4395787e NFSD: Add tracepoints to record NFSv4 SAVEFH arguments and results
-ef966db06703480da9fb6b4ee59a716b651e5b35 NFSD: Add tracepoints to record NFSv4 SECINFO arguments and results
-2e1b90580439b3ddbceddb8c21baef03f7b15911 NFSD: Add tracepoints to record NFSv4.1 SECINFO_NO_NAME arguments and results
-4293c0de5ef6bc039e4d373fc083be31e4a2f58f NFSD: Add tracepoints to record NFSv4.2 SEEK arguments and results
-a90e8f3477f0627e8e83bf8e96df9856df0380a5 NFSD: Add tracepoints to record NFSv4.1 SEQUENCE arguments and results
-602be61f92dea898c743601056439ef20289e46a NFSD: Add tracepoints to record decoded fattr4 arguments
-1f2da80c39be5e58b92a24e602b4e86265b14b3e NFSD: Add tracepoints to record NFSv4 SETATTR arguments and results
-c2a50aea6f813dd6408a10f34607f452bf54d39d NFSD: Add tracepoints to record NFSv4 SETCLIENTID arguments and results
-98b1cdba5debfef2d145f50aafd5be05d871bb25 NFSD: Add tracepoints to record NFSv4 SETCLIENTID_CONFIRM arguments and results
-88ceaa9f0e74eb54f32a4ef70acf2c7d83c706e8 NFSD: Add tracepoints to record NFSv4.1 TEST_STATEID arguments and results
-ca8c918a4ebeb8765136ffb9cdee00d0f62e1ae4 NFSD: Add tracepoints to record NFSv4 VERFIY arguments and results
-a536b4ebb14d8a8be436258fb9f96bc6c6202b55 NFSD: Add tracepoints to record NFSv4 WRITE arguments and results
 
---===============6695631059885405042==--
+--===============8365450289772846071==--
