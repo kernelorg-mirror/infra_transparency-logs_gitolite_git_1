@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 22 Nov 2021 21:52:31 -0000
-Message-Id: <163761795168.6979.16477647046462306295@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7134434008629334123=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Mon, 22 Nov 2021 21:54:39 -0000
+Message-Id: <163761807957.7626.6806645603761730934@gitolite.kernel.org>
+
+--===============7134434008629334123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 88c786093b51ef8debba3930e465bff509b1ec7f
-    new: aed383b037ba6fd7c471ea80a300d330cdb96311
+  - ref: refs/heads/main
+    old: 90b28bed4caf4484dd24866f6a001abb38db3524
+    new: a98eb325b5b98e5475ab0640648fd5ab44f48867
     log: |
-         b735c90c42d758ab525a90c9ec2daa433d13b7ae crypto: use void* args for aes_siv_{encrypt,decrypt}
-         876fe9f210da8553c369d05ab176a3d1fe8ecdd6 crypto: use void* for hkdf_expand
-         44faa81a06e310eb57d073dafd5603aba7913584 auto-t: iwd.py: use args[0] for station debug interface
-         aed383b037ba6fd7c471ea80a300d330cdb96311 wiphy: make wiphy work queue reentrancy safe
+         a98eb325b5b98e5475ab0640648fd5ab44f48867 patatt: man page typo fix
          
+
+--===============7134434008629334123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1637618079 -0500
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1637618079-6e64f82d89dfbc28e0327231b5a77e74bedcac75
+
+90b28bed4caf4484dd24866f6a001abb38db3524 a98eb325b5b98e5475ab0640648fd5ab44f48867 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYZwRnwAKCRC2xBzjVmSZ
+bG91AP43TySvQJziAT5KoxpoEqUoOkY/azXyWy7VQLaXs4rLGQEAtPlQ1qZtMW4c
+tKDR5DCZuhaiRqVOUtzCEvDGHXTRhQI=
+=+R3k
+-----END PGP SIGNATURE-----
+
+--===============7134434008629334123==--
