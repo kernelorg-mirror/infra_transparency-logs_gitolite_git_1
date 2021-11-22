@@ -1,35 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============2571262934149543598=="
+Content-Type: multipart/mixed; boundary="===============6695631059885405042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 22 Nov 2021 16:12:22 -0000
-Message-Id: <163759754245.21448.14215295665908914439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 22 Nov 2021 16:12:38 -0000
+Message-Id: <163759755885.21589.621698420483834776@gitolite.kernel.org>
 
---===============2571262934149543598==
+--===============6695631059885405042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 4c388a8e740d3235a194f330c8ef327deef710f6
-    new: 136057256686de39cc3a07c2e39ef6bc43003ff6
-    log: revlist-4c388a8e740d-136057256686.txt
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/heads/topic-xdr-tracepoints
+    old: 07f44f67cedcceb30d1fc98899a509d7da3827d1
+    new: a536b4ebb14d8a8be436258fb9f96bc6c6202b55
+    log: revlist-07f44f67cedc-a536b4ebb14d.txt
 
---===============2571262934149543598==
+--===============6695631059885405042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c388a8e740d-136057256686.txt
+Content-Disposition: attachment; filename=revlist-07f44f67cedc-a536b4ebb14d.txt
 
+9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
+7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
+49462e2be119d38c5eb5759d0d1b712df3a41239 gfs2: release iopen glock early in evict
+f3506eee81d1f700d9ee2d2f4a88fddb669ec032 gfs2: Fix length of holes reported at end-of-file
+a7ac203d8fd366bb6318f856466f52484c623d05 gfs2: Fix "Introduce flag for glock holder auto-demotion"
+a48fc69fe6588b48d878d69de223b91a386a7cb4 udf: Fix crash after seekdir
+5d5e4522a7f404d1a96fd6c703989d32a9c9568d printk: restore flushing of NMI buffers on remote CPUs after NMI backtraces
+554c577cee95bdc1d03d9f457e57dc96eb791845 gfs2: Prevent endless loops in gfs2_file_buffered_write
+4d1cd1443db3d5605ebcde8672869b1944ade92d powercap: DTPM: Fix suspend failure and kernel warning
+d704aa0d44ade12660d4d7220b2a8d785b7b4247 Documentation: power: Add description about new callback for EM registration
+08374410a5ea3ff2fa9a87edd7d7ab15375b1c31 Documentation: power: Describe 'advanced' and 'simple' EM models
 3cc1ae1fa70ab369e4645e38ce335a19438093ad drm/nouveau: hdmigv100.c: fix corrupted HDMI Vendor InfoFrame
+199d983bc01513173dd9cc486dbddf4d0e414d42 xsk: Fix crash on double free in buffer pool
+34d11a440c6167133201b7374065b59f259730d7 bpf: Fix inner map state pruning regression.
+98d948eb833104a094517401ed8be26ba3ce9935 spi: cadence-quadspi: fix write completion support
+12f62a857c83b2efcbf8d9961aacd352bf81ad3d spi: lpspi: Silence error message upon deferred probe
+6532582c353f4c83e3ccdd7255020ab852b90b0b spi: spi-geni-qcom: fix error handling in spi_geni_grab_gpi_chan()
+6c53b45c71b4920b5e62f0ea8079a1da382b9434 spi: fix use-after-free of the add_lock mutex
+6af2e1237412ca735e3f18f2044902b0c514f2db selftests/bpf: Check map in map pruning
+dc14ca4644f48b1cfa93631e35c28bdc011ad109 samples/bpf: Fix summary per-sec stats in xdp_sample_user
+e4ac80ef8198636a23866a59575917550328886f tools/runqslower: Fix cross-build
+2453afe3845523d9dfe89dbfb3d71abfa095e260 samples/bpf: Fix incorrect use of strlen in xdp_redirect_cpu
+ba05fd36b8512d6aeefe9c2c5b6a25b726c4bfff libbpf: Perform map fd cleanup for gen_loader in case of error
+81b1d548d00bcd028303c4f3150fa753b9b8aa71 hamradio: remove needs_free_netdev to avoid UAF
+87530779de0440f1ca3cd727299b1a78a9e564d0 ptp: ptp_clockmatrix: repair non-kernel-doc comment
+0cda7d4bac5fd29dceb13df26083333fa99d6bb4 selftests: net: switch to socat in the GSO GRE test
+27df68d579c67ef6c39a5047559b6a7c08c96219 net/ipa: ipa_resource: Fix wrong for loop range
+aae458725412332825f31121a5feb8fd887cac5a ethernet: sis900: fix indentation
+70701b83e208767f2720d8cd3e6a62cddafb3a30 tcp: Fix uninitialized access in skb frags array for Rx 0cp.
+1aa3b2207e889a948049c9a8016cedb0218c2389 net,lsm,selinux: revert the security_sctp_assoc_established() hook
+938aa33f14657c9ed9deea348b7d6f14b6d69cb7 tracing: Add length protection to histogram string copies
+158ea2d2b2ff8fb49f39209a31b4920f13193a3d kbuild: Fix -Wimplicit-fallthrough=5 error for GCC 5.x and 6.x
+8ab774587903771821b59471cc723bba6d893942 Merge tag 'trace-v5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 dae581864609d36fb58855fd59880b4941ce9d14 KVM: PPC: Book3S HV: Use GLOBAL_TOC for kvmppc_h_set_dabr/xdabr()
 2da516d7ed0865bf9835830907f2f6631006d628 powerpc/83xx/mpc8349emitx: Drop unused variable
 964c33cd0be621b291b5d253d8731eb2680082cb powerpc: clean vdso32 and vdso64 directories
@@ -39,13 +68,61 @@ dae581864609d36fb58855fd59880b4941ce9d14 KVM: PPC: Book3S HV: Use GLOBAL_TOC for
 fb4ee2b30cd09e95524640149e4ee0d7f22c3e7b powerpc/pseries/ddw: simplify enable_ddw()
 ad3976025b311cdeb822ad3e7a7554018cb0f83f powerpc/pseries/ddw: Do not try direct mapping with persistent memory and one window
 995f54ea962e03ec08b8bc6a4fe11a32b420edd3 drm/cma-helper: Release non-coherent memory with dma_free_noncoherent()
+6d6a8d6a4ed03702fe73cc7770acddda5ecc8a15 docs: Update Sphinx requirements
+de80e6c51e5044cd8581a5e2d79509d75da55de9 Documentation: arm: marvell: Add some links to homepage / product infos
+b3dda08c3304f977f279bc779c1695ee4b6d1101 Documentation: arm: marvell: Put Armada XP section between Armada 370 and 375
+738943fab84852261136dbf6459e41ed661634a3 Documentation: arm: marvell: Fix link to armada_1000_pb.pdf document
+951e0d00205cd3bbf457d31515aa6a96c5f4d053 docs: ftrace: fix the wrong path of tracefs
+563fbefed46ae4c1f70cffb8eb54c02df480b2c2 cfg80211: call cfg80211_stop_ap when switch from P2P_GO type
+ce6b69749961426c6d822215ded9e67154e1ad4f nl80211: fix radio statistics in survey dump
 bb162bb2b4394108c8f055d1b115735331205e28 drm/sun4i: fix unmet dependency on RESET_CONTROLLER for PHY_SUN6I_MIPI_DPHY
+232d45277f0a6549d6ca7985bb152a60adac7b43 doc/zh_CN: fix a translation error in management-style
+77dfc2bc0bb4b8376ecd7a430f27a4a8fff6a5a0 mac80211: do not access the IV when it was stripped
+53b606fa29e321352a105978726b975b42b292a4 docs: filesystems: Fix grammatical error "with" to "which"
+c033a38a81bc539d6c0db8c5387e0b14d819a0cf mac80211: fix radiotap header generation
+f6ab25d41b18f3d26883cb9c20875e1a85c4f05b mac80211: drop check for DONT_REORDER in __ieee80211_select_queue
+6dd2360334f3cb3b45fc1b8194c670090474b87c mac80211: fix monitor_sdata RCU/locking assertions
+30f6cf96912b638d0ddfc325204b598f94efddc2 mac80211: fix throughput LED trigger
 8d48bf8206f77aa8687f0e241e901e5197e52423 x86/boot: Pull up cmdline preparation and early param parsing
+8a7eb2d476c6823cd44d8c25a6230a52417d7ef8 Drivers: hv: balloon: Use VMBUS_RING_SIZE() wrapper for dm_ring_size
+daf972118c517b91f74ff1731417feb4270625a4 x86/hyperv: Fix NULL deref in set_hv_tscchange_cb() if Hyper-V setup fails
+f3e613e72f66226b3bea1046c1b864f67a3000a4 x86/hyperv: Move required MSRs check to initial platform probing
+86c3a3e964d910a62eeb277d60b2a60ebefa9feb tipc: use consistent GFP flags
+a31d27fbed5d518734cb60956303eb15089a7634 tun: fix bonding active backup with arp monitoring
+10a2308ffb8cf262e473eb324fde42ae31b6da04 net: Clean up some inconsistent indenting
 f7715b3a349900e3741d9029d02cd1e91b4fc588 gpio: virtio: remove unneeded semicolon
+6e228d8cbb1cc6ba78022d406340e901e08d26e0 net: ipa: HOLB register sometimes must be written twice
+816316cacad2b5abd5b41423cf04e4845239abd4 net: ipa: disable HOLB drop when updating timer
+ae32bd420b91070a9743c996993559d086a6c80c Merge branch 'net-ipa-fixes'
+2153bd1e3d3dbf6a3403572084ef6ed31c53c5f0 net/smc: Transfer remaining wait queue entries during fallback
 92a59d7f381d2caf69385bfa00590028e32eea26 selftests: gpio: fix gpio compiling error
 c472d71be0be0f0ca0fbb794dce83bd76623ee2f selftests: gpio: fix uninitialised variable warning
 4f4d0af7b2d997635b08fabd748673eff1bb12d6 selftests: gpio: restore CFLAGS options
+f8885ac89ce310570e5391fe0bf0ec9c7c9b4fdc net: bnx2x: fix variable dereferenced before check
+b922f622592af76b57cbc566eaeccda0b31a3496 atlantic: Fix OOB read and write in hw_atl_utils_fw_rpc_wait
+a0ddee65c527d877e798205c1391c6170e580c66 printk: Remove printk.h inclusion in percpu.h
+e97b21e94652f5f0d1c196452c111151f6d15883 net: ethernet: lantiq_etop: fix build errors/warnings
+46d08f55d24e69e921456b5a40717da09199267b bnxt_en: extend RTNL to VF check in devlink driver_reinit
+b68a1a933fe4a52a8316d214e3421f2a89bc113e bnxt_en: fix format specifier in live patch error message
+b0757491a118ae5727cf9f1c3a11544397d46596 bnxt_en: reject indirect blk offload when hw-tc-offload is off
+b06cf78fae0f53eebbc5c077464da47e4076f041 Merge branch 'bnxt_en-fixes'
+9119570039481d56350af1c636f040fb300b8cf3 net: stmmac: socfpga: add runtime suspend/resume callback for stratix10 platform
+6def480181f15f6d9ec812bca8cbc62451ba314c net: return correct error code
+271351d255b09e39c7f6437738cba595f9b235be tipc: only accept encrypted MSG_CRYPTO msgs
+938cca9e4109b30ee1d476904538225a825e54eb sock: fix /proc/net/sockstat underflow in sk_clone_lock()
+cf4f5530bb55ef7d5a91036b26676643b80b1616 net/smc: Make sure the link_id is unique
+c0019b7db1d7ac62c711cda6b357a659d46428fe NFSD: Fix exposure in nfsd4_decode_bitmap()
 94c4b4fd25e6c3763941bdec3ad54f2204afa992 block: Check ADMIN before NICE for IOPRIO_CLASS_RT
+4e5e6b5d9d1334d3490326b6922a2daaf56a867f iavf: Fix return of set the new channel count
+8a4a126f4be88eb8b5f00a165ab58c35edf4ef76 iavf: check for null in iavf_fix_features
+89f22f129696ab53cfbc608e0a2184d0fea46ac1 iavf: free q_vectors before queues in iavf_disable_vf
+2135a8d5c8186bc92901dc00f179ffd50e54c2ac iavf: don't clear a lock we don't hold
+8905072a192fffe9389255489db250c73ecab008 iavf: Fix failure to exit out from last all-multicast mode
+4f0400803818f2642f066d3eacaf013f23554cc7 iavf: prevent accidental free of filter structure
+131b0edc4028bb88bb472456b1ddba526cfb7036 iavf: validate pointers
+321421b57a12e933f92b228e0e6d0b2c6541f41d iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+9a6e9e483a9684a34573fd9f9e30ecfb047cb8cb iavf: Fix for setting queues to 0
+4293014230b887d94b68aa460ff00153454a3709 iavf: Restore VLAN filters after link down
 95febeb61bf87ca803a1270498cd4cd61554a68f block: fix missing queue put in error path
 e9380df851878cee71df5a1c7611584421527f7e ACPI: Add stubs for wakeup handler functions
 2d54067fcd23aae61e23508425ae5b29e973573d pinctrl: amd: Fix wakeups when IRQ is shared with SCI
@@ -58,9 +135,27 @@ a3143f7822a9eeb38f0e046080ae8f79f6c7122d Remove unused header <linux/sdb.h>
 293083f877a7d9dba8165cc3bd159cbfcea28fe7 pinctrl: tegra194: remove duplicate initializer again
 62209e805b5c68577602a5803a71d8e2e11ee0d3 pinctrl: qcom: sm8350: Correct UFS and SDC offsets
 2a19b28f7929866e1cec92a3619f4de9f2d20005 blk-mq: cancel blk-mq dispatch work in both blk_cleanup_queue and disk_release()
+5e0bc3082e2e403ac0753e099c2b01446bb35578 bpf: Forbid bpf_ktime_get_coarse_ns and bpf_timer_* in tracing progs
+e60e6962c503f337531f80e2752423b5bd885443 selftests/bpf: Add tests for restricted helpers
+9e4dc8925525de9139ce9ac38f8644169316f390 Merge branch 'Forbid bpf_ktime_get_coarse_ns and bpf_timer_* in tracing progs'
+6060a6cb05e3223146a3c30a1977f136da6c85e7 samples/bpf: Fix build error due to -isystem removal
+353050be4c19e102178ccc05988101887c25ae53 bpf: Fix toctou on read-only map's constant scalar tracking
 467dd91e2f783d34b2205751bdf88bcdcac55984 Merge drm/drm-fixes into drm-misc-fixes
+b3ff2881ba18b852f79f5476d7631940071f1adb MIPS: syscalls: Wire up futex_waitv syscall
+255e51da15baed47531beefd02f222e4dc01f1c1 MIPS: generic/yamon-dt: fix uninitialized variable error
+e8f67482e5a4bc8d0b65d606d08cb60ee123b468 mips: bcm63xx: add support for clk_get_parent()
+fc1aabb088860d6cf9dd03612b7a6f0de91ccac2 mips: lantiq: add support for clk_get_parent()
 d6912b1251b47e6b04ea8c8881dfb35a6e7a3e29 gpio: rockchip: needs GENERIC_IRQ_CHIP to fix build errors
 4eaf02d6076c138d929f98b4c8afc4fef6d2915d drm/scheduler: fix drm_sched_job_add_implicit_dependencies
+287273a80be5d45d59d1742557cab69cabf0ef3c platform/mellanox: mlxreg-lc: fix error code in mlxreg_lc_create_static_devices()
+707f0c290f2b0a16c0222bb3272079cfe5af831d platform/x86: amd-pmc: Make CONFIG_AMD_PMC depend on RTC_CLASS
+c961a7d2aa23ae19e0099fbcdf1040fb760eea83 platform/x86: hp_accel: Fix an error handling path in 'lis3lv02d_probe()'
+3e58e1c4da396427eb39a72933e47bd4d35bfc0f platform/x86: samsung-laptop: Fix typo in a comment
+0f07c023dcd08ca49b6d3dd018abc7cd56301478 platform/x86: dell-wmi-descriptor: disable by default
+812fcc609502096e98cc3918a4b807722dba8fd9 platform/x86: think-lmi: Abort probe on analyze failure
+1f338954a5fbe21eb22b4223141e31f2a26366d5 platform/x86: thinkpad_acpi: Add support for dual fan control
+39f53292181081d35174a581a98441de5da22bc9 platform/x86: thinkpad_acpi: Fix WWAN device disabled issue after S3 deep
+d477a907cba317cfa58a8c89c09454d3fced1964 platform/x86: thinkpad_acpi: fix documentation for adaptive keyboard
 5b54860943dc4681be5de2fc287408c7ce274dfc powerpc/book3e: Fix TLBCAM preset at boot
 5499802b2284331788a440585869590f1bd63f7f powerpc/signal32: Fix sigset_t copy
 1e35eba4055149c578baf0318d2f2f89ea3c44a0 powerpc/8xx: Fix pinned TLBs with CONFIG_STRICT_KERNEL_RWX
@@ -72,13 +167,54 @@ d6912b1251b47e6b04ea8c8881dfb35a6e7a3e29 gpio: rockchip: needs GENERIC_IRQ_CHIP 
 7b737adc10d269e7fdf714ae2caa2281b6a801cf s390/vdso: remove -nostdlib compiler flag
 00b55eaf45549ce26424224d069a091c7e5d8bac s390/vdso: filter out -mstack-guard and -mstack-size
 6c122360cf2f4c5a856fcbd79b4485b7baec942a s390: wire up sys_futex_waitv system call
+099f896f498a2b26d84f4ddae039b2c542c18b48 udp: Validate checksum in udp_read_sock()
+7c4de881f7eba40088241f1c3ff5ca28c4e7fa48 KVM: selftests: Add event channel upcall support to xen_shinfo_test
+531ca3d6d518f520f67a71e270ac733901896d8f KVM: selftests: Explicitly state indicies for vm_guest_mode_params array
+c071ff41e1502990a0902c7c3fcf72a462e46330 KVM: selftests: Expose align() helpers to tests
+f4870ef3e15ab889a689f99a579fe0fe7c53a960 KVM: selftests: Assert mmap HVA is aligned when using HugeTLB
+69cdcfa6f321da2cc1dd2e62fa4a9ee256299b18 KVM: selftests: Require GPA to be aligned when backed by hugepages
+b65e1051e489be4fe783cb14f1cd33235a0f9803 KVM: selftests: Use shorthand local var to access struct perf_tests_args
+613d61182fffca6b36ea0df1e44927ccf45b1e9b KVM: selftests: Capture per-vCPU GPA in perf_test_vcpu_args
+92e34c9974f55519bc0c3386221aadf387162ea6 KVM: selftests: Use perf util's per-vCPU GPA/pages in demand paging test
+b91b637f4a595c5be435e215f78b1a3bd8c252b3 KVM: selftests: Move per-VM GPA into perf_test_args
+a5ac0fd1b90ae811ba51da6a9928633bddefb792 KVM: selftests: Remove perf_test_args.host_page_size
+f5e8fe2a92e4923b63d1edd6ed53d9856b6515ce KVM: selftests: Create VM with adjusted number of guest pages for perf tests
+cf1d59300ab27af6a2e96b4882fe3d9a72b32b15 KVM: selftests: Fill per-vCPU struct during "perf_test" VM creation
+13bbc70329c8df003e64c4fbea8678f9db0e75d5 KVM: selftests: Sync perf_test_args to guest during VM creation
+36c5ad73d7016f34146cf0821c78f08737bdb5e9 KVM: selftests: Start at iteration 0 instead of -1
+81bcb26172a8f00840e0ca44277272dcb673887a KVM: selftests: Move vCPU thread creation and joining to common helpers
+89d9a43c1d2d3d703fae25c990a1d98dd178dd17 KVM: selftests: Wait for all vCPU to be created before entering guest mode
+e2bd936581038f3107c45e8ae32309a567b54bf4 KVM: selftests: Use perf_test_destroy_vm in memslot_modification_stress_test
+c5adbb3af051079f35abfa26551107e2c653087f KVM: x86: Fix uninitialized eoi_exit_bitmap usage in vcpu_load_eoi_exitmap()
+848e5d66fa3105b4136c95ddbc5654e9c43ba7d7 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+6f019c0e0193411add33c195a226f4d694499f45 btrfs: fix a out-of-bound access in copy_compressed_data_to_page()
+45da9c1767ac31857df572f0a909fbe88fd5a7e9 btrfs: fix memory ordering between normal and ordered work functions
+4d9380e0da7be2351437cdac71673a9cd94e50fd btrfs: silence lockdep when reading chunk tree during mount
+a91cf0ffbc244792e0b3ecf7d0fddb2f344b461f btrfs: check-integrity: fix a warning on write caching disabled disk
+d08e38b62327961295be1c63b562cd46ec97cd07 btrfs: make 1-bit bit-fields of scrub_page unsigned int
+6c405b24097c24cbb11570b47fd382676014f72e btrfs: deprecate BTRFS_IOC_BALANCE ioctl
 0226487ad8146433be74d20955448e12d85fd251 cifs: move debug print out of spinlock
 446e21482e8c10b96d540862c5f6a37009436f00 cifs: protect srv_count with cifs_tcp_ses_lock
 8ae87bbeb5d1bfd4ddf2f73f72be51d02d6be2eb cifs: introduce cifs_ses_mark_for_reconnect() helper
 83dde7498fefeb920b1def317421262317d178e5 RDMA/netlink: Add __maybe_unused to static inline in C file
 6cd7397d01c4a3e09757840299e4f114f0aa5fa0 RDMA/core: Set send and receive CQ before forwarding to the driver
 da86dc175b5af1f3e95642cdb536bfa4f7ddb1a9 IB/hfi1: Properly allocate rdma counter desc memory
+e5bc4d4602b8e0e63c9d00d210120d6bcfaea590 Merge branch 'kvm-selftest' into kvm-master
+994a04a20b03128838ec0250a0e266aab24d23f1 thermal: int340x: Limit Kconfig to 64-bit
 ac5d272a0ad0419f52e08c91953356e32b075af7 x86/sgx: Fix free page accounting
+99b63316c39988039965693f5f43d8b4ccb1c86c thermal: core: Reset previous low and high trip during thermal zone init
+cc4a9cc03faa6d8db1a6954bb536f2c1e63bdff6 net/mlx5e: kTLS, Fix crash in RX resync flow
+362980eada85b5ea691e5e0d9257a991aa7ade47 net/mlx5e: Wait for concurrent flow deletion during neigh/fib events
+d7751d6476185ff754b9dad2cba0c0a6e43ecadc net/mlx5: E-Switch, Fix resetting of encap mode when entering switchdev
+76ded29d3fcda4928da8849ffc446ea46871c1c2 net/mlx5e: nullify cq->dbg pointer in mlx5_debug_cq_remove()
+9091b821aaa4c2d107ca8f97c32baefcb1e7e40d net/mlx5: DR, Handle eswitch manager and uplink vports separately
+455832d49666e1765acf812be79710b9f84a8cbf net/mlx5: DR, Fix check for unsupported fields in match param
+ba50cd9451f6c49cf0841c0a4a146ff6a2822699 net/mlx5: Update error handler for UCTX and UMEM
+2eb0cb31bc4ce2ede5460cf3ef433b40cf5f040d net/mlx5: E-Switch, rebuild lag only when needed
+38a54cae6f76c3e6a1e6c1e52c2e43a069fa78cb net/mlx5: Fix flow counters SF bulk query len
+806401c20a0f9c51b6c8fd7035671e6ca841f6c2 net/mlx5e: CT, Fix multiple allocations and memleak of mod acts
+ae396d85c01c7bdc9eeceecde1f493d03f793465 net/mlx5: Lag, update tracker when state change event received
+c4c3176739dfa6efcc5b1d1de4b3fd2b51b048c7 net/mlx5: E-Switch, return error if encap isn't supported
 23ef63d5e14f916c5bba39128ebef395859d7c0f ata: libata: improve ata_read_log_page() error message
 d1faacbf67b1944f0e0c618dc581d929263f6fe9 Revert "mark pstore-blk as broken"
 3ff1f6b6ba6f97f50862aa50e79959cc8ddc2566 scsi: ufs: core: Improve SCSI abort handling
@@ -87,9 +223,26 @@ a0c2f8b6709a9a4af175497ca65f93804f57b248 scsi: iscsi: Unblock session then wake 
 886fe2915cce6658b0fc19e64b82879325de61ea scsi: ufs: core: Fix task management completion timeout race
 5cb37a26355d79ab290220677b1b57d28e99a895 scsi: ufs: core: Fix another task management completion race
 392006871bb26166bcfafa56faf49431c2cfaaa8 scsi: qla2xxx: Fix mailbox direction flags in qla2xxx_get_adapter_id()
+f083ec3160325b6eb32907279bf2960566c2b585 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+f5c741608b8cfad66d57881de5ca22652f8253cb Merge tag 'mac80211-for-net-2021-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
+2460386bef0b9b98b71728d3c173e15558b78d82 net: mvmdio: fix compilation warning
+9f5363916a5099e618e6e40606e91b8ce0833754 bnxt_en: Fix compile error regression when CONFIG_BNXT_SRIOV is not set
+0a83f96f8709f65a6498a012ba49f608925dfae6 MAINTAINERS: remove GR-everest-linux-l2@marvell.com
+b0024a04e48837b6556a080ff37ecd8351632596 amt: cancel delayed_work synchronously in amt_fini()
+f799ada6bf2397c351220088b9b0980125c77280 net: sched: act_mirred: drop dst for the direction from egress to ingress
+1d127effdc1750d1f43de42100185430ea0c90bf selftests: add a test case for mirred egress to ingress
+e4ca7823da001d70d71793704a321fb7ae6d7b52 Merge branch 'net-fix-the-mirred-packet-drop-due-to-the-incorrect-dst'
+3751c3d34cd5a750c86d1c8eaf217d8faf7f9325 net: stmmac: Fix signed/unsigned wreckage
 963d0b3569354230f6e2c36a286ef270a8901878 drm/scheduler: fix drm_sched_job_add_implicit_dependencies harder
+968219708108440b23bc292e0486e3cc1d9a1bed fs: handle circular mappings correctly
 fb561bf9abde49f7e00fdbf9ed2ccf2d86cac8ee fbdev: Prevent probing generic drivers if a FB is already registered
+bec05f33ebc1006899c6d3e59a00c58881fe7626 parisc/sticon: fix reverse colors
+9311ccef2782488ab58676c8282f9f71d01cebf5 Merge tag 'mlx5-fixes-2021-11-16' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 8e80a73fa9a7747e3e8255cb149c543aabf65a24 powerpc/xive: Change IRQ domain to a tree domain
+1c1c3c7d08d8f51c8317119ccba8c93effc02c2b libbpf: update index.rst reference
+0f60a29c52b515532e6b11dc6b3c9e5b5f7ff2b4 docs: accounting: update delay-accounting.rst reference
+636e36b19d3fac05a21f6a1d2236a2e0b04fe52d Documentation: update vcpu-requests.rst reference
+b96ff02ab2be1791248237b1bf318aaf62e8b701 Documentation/process: fix a cross reference
 f15863b27752682bb700c21de5f83f613a0fb77e Revert "drm/i915/tgl/dsi: Gate the ddi clocks after pll mapping"
 d33233d8782ede666b54f655522064d000767f74 drm/i915/dsi/xelpd: Fix the bit mask for wakeup GB
 8b2abf777d8ea8d8db15af553454e0e976804225 drm/i915/guc: fix NULL vs IS_ERR() checking
@@ -98,21 +251,82 @@ e324234e0aa881b7841c7c713306403e12b069ff perf/x86/intel/uncore: Fix filter_tid m
 bdc0feee05174418dec1fa68de2af19e1750b99f perf/x86/intel/uncore: Fix IIO event constraints for Snowridge
 f3fd84a3b7754b60df67ebfe64e1d90623895111 x86/perf: Fix snapshot_branch_stack warning in VM
 245a489e81e13dd55ae46d27becf6d5901eb7828 block: avoid to quiesce queue in elevator_init_mq
+f77b83b5bbab53d2be339184838b19ed2c62c0a5 net: usb: r8152: Add MAC passthrough support for more Lenovo Docks
+9b5a333272a48c2f8b30add7a874e46e8b26129c net: dpaa2-eth: fix use-after-free in dpaa2_eth_remove
+cf9acc90c80ecbee00334aa85d92f4e74014bcff net: virtio_net_hdr_to_skb: count transport header in UFO
+c366ce28750e9633f8d4b07829a9cde0e59034eb net: ax88796c: use bit numbers insetad of bit masks
+6afbd7b3c53cb7417189f476e99d431daccb85b0 i40e: Fix correct max_pkt_size on VF RX queue
+37d9e304acd903a445df8208b8a13d707902dea6 i40e: Fix NULL ptr dereference on VSI filter sync
+d2a69fefd75683004ffe87166de5635b3267ee07 i40e: Fix changing previously set num_queue_pairs for PFs
+9e0a603cb7dce2a19d98116d42de84b6db26d716 i40e: Fix ping is lost after configuring ADq on VF
+3b2b49e6dfdcf423506a771bf44cee842596351a Revert "ACPI: scan: Release PM resources blocked by unused objects"
+ef1d8dda23e7df10b48c90f86b12c9b4c62da1ab Merge tag 'nfsd-5.16-1' of git://linux-nfs.org/~bfields/linux
+ee1703cda8dc777e937dec172da55beaf1a74919 Merge tag 'hyperv-fixes-signed-20211117' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 378c67413de18b69fb3bb78d8c4f0f1192cfa973 RDMA/mlx4: Do not fail the registration on port stats
 d821f7c13ca03318ad1bdc64ce64afb43080a07a RDMA/nldev: Check stat attribute before accessing it
 38a268b39182bfe694806e03974326270c1f170f drm/amd/pm: Enhanced reporting also for a stuck command
 69650a879b93e7e445e7a833287701ea7f32bd3a drm/amdgpu: add error print when failing to add IP block(v2)
 6ee27ee27ba8b2e725886951ba2d2d87f113bece drm/amd/pm: avoid duplicate powergate/ungate setting
 be83a5676767c99c2417083c29d42aa1e109a69d drm/amd/pm: Remove artificial freq level on Navi1x
+3fa595481b3b33105d7e0480710591edb2bd8dcb Merge tag 'mips-fixes_5.16_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+42eb8fdac2fc5d62392dcfcf0253753e821a97b0 Merge tag 'gfs2-v5.16-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
+3a3b311e3881172fc8e019b6508f04bc40c92d9d i40e: Fix warning message and call stack during rmmod i40e driver
+2e6d218c1ec6fb9cd70693b78134cbc35ae0b5a9 i40e: Fix creation of first queue by omitting it if is not power of two
+5aff430d4e33a0b48a6b3d5beb06f79da23f9916 i40e: Fix display error code in dmesg
 dab60582685aabdae2d4ff7ce716456bd0dc7a0f drm/amd/display: Fix OLED brightness control on eDP
 bf552083916a7f8800477b5986940d1c9a31b953 drm/amdgpu: fix set scaling mode Full/Full aspect/Center not works on vga and dvi connectors
 3dac776e349a214c07fb2b0e5973947b0aade4f6 drm/amd/pm: add GFXCLK/SCLK clocks level print support for APUs
+3e6db079751afd527bf3db32314ae938dc571916 tipc: check for null after calling kmemdup
 2cf49e00d40d5132e3d067b5aa6d84791929ab15 drm/amd/amdkfd: Fix kernel panic when reset failed and been triggered again
 27dfaedc0d321b4ea4e10c53e4679d6911ab17aa drm/amd/amdgpu: fix potential memleak
+86cdf8e38792545161dbe3350a7eced558ba4d15 NFC: reorganize the functions in nci_request
+3e3b5dfcd16a3e254aab61bd1e8c417dd4503102 NFC: reorder the logic in nfc_{un,}register_device
+48b71a9e66c2eab60564b1b1c85f4928ed04e406 NFC: add NCI_UNREG flag to eliminate the race
+a280ef90af01dc133d0a52387e563015686d6294 octeontx2-af: debugfs: don't corrupt user memory
 06f6c4c6c3e8354dceddd77bd58f9a7a84c67246 ata: libata: add missing ata_identify_page_supported() calls
 1527f69204fe35f341cb599f1cb01bd02daf4374 ata: ahci: Add Green Sardine vendor ID as board_ahci_mobile
 7c5f641a5914ce0303b06bcfcd7674ee64aeebe9 ata: libahci: Adjust behavior when StorageD3Enable _DSD is set
 cac7e8b5f5fa94e28d581fbb9e76cb1c0c7fd56a ata: libata-sata: Declare ata_ncq_sdev_attrs static
+dc23a5110b106da13502de5735399ad83ed1a682 cpuid: kvm_find_kvm_cpuid_features() should be declared 'static'
+964b7aa0b040bdc6ec1c543ee620cda3f8b4c68a KVM: Fix steal time asm constraints
+af957eebfcc17433ee83ab85b1195a933ab5049c KVM: nVMX: don't use vcpu->arch.efer when checking host state on nested state load
+b8453cdcf26020030da182f0156d7bf59ae5719f KVM: x86/mmu: include EFER.LMA in extended mmu role
+4e8436479ad3be76a3823e6ce466ae464ce71300 KVM: x86/xen: Fix get_attr of KVM_XEN_ATTR_TYPE_SHARED_INFO
+297d597a6da38fc1b40fa470044a767e33801438 KVM: nVMX: Use kvm_{read,write}_guest_cached() for shadow_vmcs12
+6a834754a568bb809a1466001a0523dab8e6adef KVM: x86/xen: Use sizeof_field() instead of open-coding it
+7d0172b3ca4231f0a0566157e9a28a3d3ffc0142 KVM: nVMX: Use kvm_read_guest_offset_cached() for nested VMCS check
+cee66664dcd6241a943380ef9dcd2f8a0a7dc47d KVM: nVMX: Use a gfn_to_hva_cache for vmptrld
+357a18ad230f0867791b788d2b1d6f280f6f6e61 KVM: Kill kvm_map_gfn() / kvm_unmap_gfn() and gfn_to_pfn_cache
+79b11142763791bdead8b6460052cbdde8e08e2f KVM: SEV: Disallow COPY_ENC_CONTEXT_FROM if target has created vCPUs
+a41fb26e61697382b2428ae63e039e97b0e6d164 KVM: SEV: Set sev_info.active after initial checks in sev_guest_init()
+1bd00a4257a86db654499137fd8e6db7d1e484dc KVM: SEV: WARN if SEV-ES is marked active but SEV is not
+ea410ef4dad6282420bde00e1ffca874344f0e95 KVM: SEV: Drop a redundant setting of sev->asid during initialization
+8e38e96a4e616ed0936faa964ceeb5d390b6425e KVM: SEV: Fix typo in and tweak name of cmd_allowed_from_miror()
+817506df9dbaacf360e518d9ef26ca4075bbbacd Merge branch 'kvm-5.16-fixes' into kvm-master
+0e2e641921000ffc647b12918cdfcc504a9f6e3b riscv: kvm: fix non-kernel-doc comment block
+b768f60bd9791c528a4a4b98659674787b2e7c63 selftests: KVM: Add /x86_64/sev_migrate_tests to .gitignore
+b5aead0064f33ae5e693a364e3204fe1c0ac9af2 KVM: x86: Assume a 64-bit hypercall for guests with protected state
+f60a00d7295057cb4baea5a321501efc72794453 KVM: arm64: Cap KVM_CAP_NR_VCPUS by kvm_arm_default_max_vcpus()
+57a2e13ebdda8b65602b44ec8b80e385603eb84c KVM: MIPS: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+b7915d55b1ac0e68a7586697fa2d06c018135c49 KVM: PPC: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+37fd3ce1e64a2e86a986542a17bebf1553512da9 KVM: RISC-V: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+82cc27eff4486f8e79ef8faac1af1f5573039aa4 KVM: s390: Cap KVM_CAP_NR_VCPUS by num_online_cpus()
+2845e7353bc334d43309f5ea6d376c8fdbc94c93 KVM: x86: Cap KVM_CAP_NR_VCPUS by KVM_CAP_MAX_VCPUS
+4d7804d201f2588469798faaab7b54caeb67410b parisc: Include stringify.h to avoid build error in crypto/api.c
+8f663eb3b7e8c4c88919be8c42768a8100ca6060 parisc: Wire up futex_waitv
+4017b230c960c9d6c6a19e52bf3df01222dc7737 parisc: Wrap assembler related defines inside __ASSEMBLY__
+79df39d535c7a3770856fe9f5aba8c0ad1eebdb6 Revert "parisc: Reduce sigreturn trampoline to 3 instructions"
+9412f5aaa86429e018941994076bd63a0618111c parisc: Enable CONFIG_PRINTK_TIME=y in 32bit defconfig
+bf6d0d1e1ab38309ea2a234e2e4ba2a18d014af9 Merge branch 'rework/printk_safe-removal' into for-linus
+a66998e0fbf213d47d02813b9679426129d0d114 ethernet: hisilicon: hns: hns_dsaf_misc: fix a possible array overflow in hns_dsaf_ge_srst_by_port()
+f915b75bffb7257bd8d26376b8e1cc67771927f8 page_pool: Revert "page_pool: disable dma mapping support..."
+fec1faf221f61118aa52f44c65a13c3e173a64c2 devlink: Don't throw an error if flash notification sent before devlink visible
+5d2ca2e12dfb2aff3388ca57b06f570fa6206ced e100: fix device suspend/resume
+5f9c55c8066bcd93ac25234a02585701fe2e31df ipv6: check return value of ipv6_skip_exthdr
+4e5d2124f74f6f481de4f85bc825fe52a5af4280 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net- queue
+61217be886b5f7402843677e4be7e7e83de9cb41 net: tulip: de4x5: fix the problem that the array 'lp->phy[8]' may be out of bound
+0fa68da72c3be09e06dd833258ee89c33374195f net: ethernet: dec: tulip: de4x5: fix possible array overflows in type3_infoblock()
+c7521d3aa2fa7fc785682758c99b5bcae503f6be ptp: ocp: Fix a couple NULL vs IS_ERR() checks
 b075c1d81e7d0e96758877ff9ded30ab87df2b77 tools headers cpufeatures: Sync with the kernel sources
 346e91998cba46b64e8ef5f89813f8918c2731e6 tools headers UAPI: Sync linux/kvm.h with the kernel sources
 ccb05590c4325ce50b1c0deedd54d5f24f4f1652 perf tests wp: Remove unused functions on s390
@@ -135,7 +349,26 @@ b194c9cd09dd98af76beaa32a041af674260d730 perf evsel: Fix memory leaks relating t
 f1ab2e0d4cbd5d81bf9be187b38192efba3d96e7 MAINTAINERS: update email address of Christian Borntraeger
 503e45108451dd4227c6f15c52ba459c29a86840 ftrace/samples: add missing Kconfig option for ftrace direct multi sample
 890e3dc8bb6ee630870560c34054692f7a45da42 ftrace/samples: add s390 support for ftrace direct multi sample
+7d5775d49e4a488bc8a07e5abb2b71a4c28aadbb Merge tag 'printk-for-5.16-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 f86b0aaad741c45aba5a84a27277dd56a96808ba tracing/histogram: Fix UAF in destroy_hist_field()
+4ae275bc6d2fb2b399a8723fc0a0be0929e10e0d Merge tag 'docs-5.16-2' of git://git.lwn.net/linux
+47b577ae6fba635de1e5e042d425ebd0f9313111 Merge branch 'powercap'
+b49e0015c1bd8ab6c228981ca2eb4ad217ed8223 Merge branch 'thermal-int340x'
+c46e8ece9613b18d9554e2382a228b6e1795288d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+a6a6d227facf8024e3356f8eafcd8155453cd2e2 Merge tag 'for-5.16/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+7cf7eed103d3eea600146ea1853d15ee1f2f0456 Merge tag 'fs.idmapped.v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
+db850a9b8d173afd622984c6d28c0064412b3fd8 Merge tag 'fs_for_v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+6fdf886424cf8c4fff96a20189c00606327e5df6 Merge tag 'for-5.16-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+8d0112ac6fd001f95aabb084ec2ccaa3637bc344 Merge tag 'net-5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+ae8d67b2117f1ec6c8170d6e1af8ded17392bd2c lib: zstd: Fix unused variable warning
+1974990cca43a6ba708a70b15862113eb9c2f399 lib: zstd: Don't inline functions in zstd_opt.c
+7416cdc9b9c10968c57b1f73be5d48b3ecdaf3c8 lib: zstd: Don't add -O3 to cflags
+ea229296809aa696fbe006d29d6cd8692880f60e Merge tag 'spi-fix-v5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+d1c2b55d84a609c9ede39138d055adcd26fc165f Merge tag 'platform-drivers-x86-v5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+17e10707059d60fce4ab0f1e24785d6ec41a71eb Merge tag 'acpi-5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+18e2befaf6c2a2b877a8842f8caa7bce54d9b59b Merge tag 'pm-5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+e26dd976580a6a427c69e6116508dd3d412742e5 Merge tag 'thermal-5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+4c388a8e740d3235a194f330c8ef327deef710f6 Merge tag 'zstd-for-linus-5.16-rc1' of git://github.com/terrelln/linux
 c4c1dbcc09e723295969a62aff401815b7ee15f4 tracing: Use memset_startat() to zero struct trace_iterator
 2ef75e9bd2c998f1c6f6f23a3744136105ddefd5 tracing: Don't use out-of-sync va_list in event printing
 0e11279b77e0a15048161e0c25aa7495ed20ec20 Merge tag 'drm-misc-fixes-2021-11-18' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
@@ -183,5 +416,173 @@ b100274c70546decba3ec12cd614e1ab895515a5 Merge tag 'pinctrl-v5.16-2' of git://gi
 af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
+36c4880484781785e25f2d8d525b0fbbfc4c02af NFSD: Fix sparse warning
+8d0202fb16195089e1b23869c73f7422adaace73 SUNRPC: Remove low signal-to-noise tracepoints
+156aa3084c2382933c168e61e722b9d2ef6fd81b SUNRPC: Record endpoint information in trace log
+fb012c2458e474c8a2f761b387b2adc524472df4 SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
+c8d5a54a61e706601b779b0f379bbd9278bb2460 NFSD: Combine XDR error tracepoints
+bdb8be2ecd6f5246fc4e0beef7bf38de3db80096 NFSD: Remove NFSD_PROC_ARGS_* macros
+95644f116837c8e07f359d5d05bf29a86e120993 NFSD: Add infrastructure for NFSD XDR tracepoints
+e8e7667ce46863cb5b7e700cda58b385d7232528 NFSD: Relocate tracepoints that report XDR errors
+ad1cfb75c02741f521ca931648a71864e10211e1 NFSD: Add tracepoints to record NFS and NFSACL void arguments
+193a2f2288feb895c8518ff00bfc2b32f7abb2b2 NFSD: Add a tracepoint to record NFS and NFSACL void results
+531da2816163e2feb1f3fbe266b70652e73c7eb6 trace: Add show_fs_file_type() macro
+df9a73b0ccdd5a30156db2241a5a4e775ae3d5dc trace: Add show_nfs3_access() macro
+03d299ecdf8a47df173b435633bc22f8ded99fdf trace: Add show_nfs3_acl_mask helper macro
+fb45cb7f41d9ce681ca834227bb682bd61affc83 trace: Add show_attr_valid_flags() macro
+065e48b1cf2abef9112aa794ca58589bda16e55e NFSD: Add infrastructure for NFSv3 XDR tracepoints
+94d0caa4f545c9b136ddf362c3b7bc1cfee899fd NFSD: Add tracepoint to record decoded nfs_fhandle arguments
+cfd6caa69056846ccbf7695887b5f66575eee952 NFSD: Add tracepoints to record decoded NFSv3 sattr3 arguments
+9a51fa42815313e28d8927bc91aeb3c99727b2fa NFSD: Add a tracepoint to record decoded NFSv3 diropargs
+5040fcc610cf35db23b12cb93afbd56abf5523e8 NFSD: Add a tracepoint to record decoded NFSv3 ACCESS args
+7e92ab60a702339c135dcca9cfa804f273cd8ee5 NFSD: Add tracepoint to record decoded NFSv3 READ arguments
+96393a50a61e3690ee32ef0702f830d9ce7e9cb6 NFSD: Add tracepoint to record decoded NFSv3 WRITE arguments
+af6c2cfafc469d57c3cc34fc897730bb1d7e3e77 NFSD: Add tracepoints for decoded NFSv3 CREATE arguments
+0f329dcc783338630e56eb9b55eb1a4de554e429 NFSD: Add tracepoint to record decoded NFSv3 SYMLINK arguments
+3fbb56096deb65a65fb0d8eb6e75cff9b2ac4ab4 NFSD: Add tracepoints to record decoded NFSv3 MKNOD arguments
+15a65cf7c971041a91215f7c733d2e5e7b8e9251 NFSD: Add tracepoint to record decoded NFSv3 RENAME arguments
+5499280b09dc10a859e5b504fc290cffb0c82683 NFSD: Add a tracepoint to record decoded NFSv3 LINK arguments
+36dcccaad27e3d685a20ab22fc012e5eb2eaacdb NFSD: Add a tracepoint to record decoded NFSv3 READDIR arguments
+d8dec229b7eee1f4794d284500a4021c2abfa4e7 NFSD: Add a tracepoint to record decoded NFSv3 COMMIT arguments
+76d25fa8c1d32823a8b7040db1c879c4130604de NFSD: Clean up svcxdr_encode_wcc_data()
+e96d52ce61529b7233035db8e185637dc1d8a0c4 NFSD: Refactor encode_post_op_attr
+c43de2083e7a946c08f9594cdeb3a9d07dc79729 NFSD: Add a tracepoint to record encoded NFSv3 GETATTR results
+0728648d55e75a8f6e545b7d694bc592f4304f88 NFSD: Add a tracepoint to record encoded NFSv3 post_op_attr results
+2b11404b9355ac4ef27c51fa5bd1085638955eef NFSD: Add tracepoints to record encoded NFSv3 wcc_data results
+ac713f1b0bc739c3903fa903603ad9c770f34918 NFSD: Add tracepoints to record encoded NFSv3 LOOKUP results
+e9e8117c27dc4ac6648db6b3a64a5e34e974ebce NFSD: Add tracepoints to report encoded NFSv3 ACCESS results
+f32c5282430d2e0b1aa0caa64d8488b2fee92a2c NFSD: Add tracepoints to record encoded NFSv3 READLINK results
+624ba767306be3dfab308b7395f7c8bc40fe9af4 NFSD: Add tracepoints to record encoded NFSv3 READ results
+d99e8468315f9ac4b666d2b223a3232bbe239277 NFSD: Add tracepoints to record encoded NFSv3 WRITE results
+d2f0b756b6e0cb674edb72521cb098e0bddad74e NFSD: Add tracepoints to record encoded NFSv3 CREATE results
+c799a45f36516e34d3bce8c6ca92beeb60ca925e NFSD: Add tracepoints to record encoded NFSv3 RENAME results
+463f49de02251888ed4cbe0301b4db5777655c00 NFSD: Add tracepoints to record encoded NFSv3 LINK results
+843262ff49b636e18f008abd291b05dff21a3bf5 NFSD: Add tracepoints to record encoded NFSv3 READDIR results
+58786a3c2fa201566984be84c06b7d027f6d6cd5 NFSD: Add tracepoints to record encoded NFSv3 FSSTAT results
+5bc92e0731f3d27458169b9b42e85793fd8ca383 NFSD: Add tracepoints to record encoded NFSv3 FSINFO results
+3c574ab465c783c9d67814e6e6c7f482ca05a517 NFSD: Add tracepoints to record encoded NFSv3 PATHCONF results
+0220e3709f47b0b78b2d7f59dd5d4ce6acfb444d NFSD: Add tracepoints to record encoded NFSv3 COMMIT results
+8482fa0982e1bde6439cd53934910cc83cb433ab NFSD: Add tracepoints to record NFSACLv3 arguments and results
+878c8d0acac5e030b87b73478d41a56ff3994fc8 NFSD: Remove NFSv3 proc dprintk call sites
+96ef4edb65d6528362c808130cdc0ee955eb1205 lockd: Infrastructure for lockd server-side XDR tracepoints
+6cbff5c97274e1af7a427766ddb6026b2c5cdfd7 lockd: Add a tracepoint to record decoded NLM void arguments
+490f2125361d3f1ba0f1c8ea8419a2d367dd6b35 lockd: Add a tracepoint to record decoded nlm_lock arguments
+06872de10e3ee99e6ad92557e82a32f5dbbabaea lockd: Add a tracepoint to record decoded NLM TEST arguments
+472660f9bf03a7cc04ef62e1798a4cfc85b217a1 lockd: Add a tracepoint to record decoded NLM LOCK arguments
+93cdf739a7caad445223133669b266652dea5c7f lockd: Add a tracepoint to record decoded NLM CANCEL arguments
+4707ff4f8cea876ecfdf77fd0d0d666b31f3ad30 lockd: Add a tracepoint to record decoded NLM UNLOCK arguments
+b49c1a87a71cc7614b758365f8957f2598d51feb lockd: Add a tracepoint to record decoded NLM GRANTED arguments
+7f4a9280722c09c33b291b760bdd8b870a8def6b lockd: Add a tracepoint to record decoded NLM REBOOT arguments
+a28d57840bf17d3e2b8a4141794654696464fb7b lockd: Add a tracepoint to record decoded NLM SHARE arguments
+a74da8c5f602a71feb0d843d9b8746e003f53f10 lockd: Add a tracepoint to record decoded NLM NOTIFY arguments
+557a0f676b1c41bc18b4bd2e215d744e22cbe206 lockd: Add a tracepoint to record encoded NLM void results
+3f487e3a53d6780b72a0c7336684ee3e10fab948 lockd: Add a tracepoint to record encoded NLM TEST results
+788af5b667c90293a0cfa12f5506b2b3c1d7fedf lockd: Add a tracepoint to record encoded NLM nlm_res results
+a3b494041c6cf33ce0d2b72256032930efcf83db lockd: Add tracepoints to record XDR encoding and decoding errors
+4c8785d77ec0c562c01d0025d686c873c138a7a4 lockd: Remove NLM svcproc dprintk call sites
+f233a2c36fe18c90646f3f3ebcee4d1a162fd743 lockd: Add infrastructure to support tracepoints in cln*xdr.c
+7eb0a1668bcd3403b063391175a906241c4761e6 lockd: Add a tracepoint to record encoded nlm_lock arguments
+a9f49e4274a478ea4cc41df40dad97627685f6a0 lockd: Add a tracepoint to record encode NLM TEST arguments
+1dcd1f0b2cab08b9303195800ccf2a26c225ba84 lockd: Add a tracepoint to record encode NLM LOCK arguments
+6afeb2844f4a9202b3024d3fc1633a8bc8c32b0f lockd: Add a tracepoint to record encode NLM CANCEL arguments
+c34c1e37aa35ded0b6ab73579026aa75a9e579a3 lockd: Add a tracepoint to record encode NLM UNLOCK arguments
+6cc45dfb4cdde869af184f580aa0bb765789285f lockd: Add a tracepoint to record encode NLM GRANTED arguments
+5d9afd9222026a880fc2244e0465edee897b9411 lockd: Checkpoint. Split this one up.
+e17b9addc727280c15790ed0c540385556d46da4 trace: Add show_nfs4_file_type() macro
+061745b46e0c82f4272a88f18eef1a5b25629bac trace: Add show_nfs4_channel_dir macros
+80f2b5a57917bbd2c68f10e393c60937170a2a64 trace: Add show_nfs4_session() macro
+9cb5640dab2294882032c4f331b6c2aad7e79749 trace: Add show_nfs4_exchgid4 macros
+96ae22c65620d2b3c101c958a12dc5f7d478d3a3 trace: Add show_nfs4_csa_flags() macro
+42b07f7932c7fb5159a69fe1d8aa34d75ca95d31 trace: Add show_nfs4_fattr4_bm_word macros
+c460111e2671a08a8c31ce64da64f1deb08e29d2 trace: Ad show_nfs4_fh_expire_type() macro
+c83ef0da11d3627345a0ee8c5fcc6d795613c4ac trace: Add show_nfs4_aclsupport() macro
+a0c830998839e3d336ab59cf3ca7fa58a4fa8a68 trace: Add show_nfs4_change_attr_type() macro
+2237b3adacb6fe21189c5301b2fdad1eec4f3a3a trace: Add show_nfs4_lock_type() macro
+c1039be4f4e3f53113092633df114764fadf3151 trace: Add show_nfs4_open_create() macro
+192e9d0008b49d0e54a548e2949fb14212bfc91a trace: Add show_nfs4_open_claimtype() macro
+23084148287e07bb900a202bc4159ab71b342080 trace: Add show_nfs4_open_sharedeny_flags() macro
+a62575ef2c9f6b2217455c8958ab642e75787fca trace: Add show_nfs4_delegation_type() macro
+ca661a5d93b07845000dab1de544a8f7520e1d21 trace: Add show_pnfs-layout-type() macro
+02a846c56d950d8cf208e308610e690b9134c5a9 trace: Add show_pnfs_notify_types() macro
+67f0c4833bdb8fd0e32321139de6e3d26c84c0b2 trace: Add show_pnfs_return_types() macro
+3a75cf31de89b51b3c37ad9bd8083bd8e96974a8 trace: Add show_nfs4_secinfo_style() macro
+f719f3263ee467a281ee6680e9edbc7bdc1ae2ef trace: Add show_nfs4_data_content() macro
+2b47c9755faa836d541f4eeb19d38439760e03d8 trace: Add show_nfs4_ace4_access_type() macro
+057c609e1c3565d489ed2ff0fc65f29cb2ec4658 trace: Add show_nfs4_ace4_flags() macro
+cf0213a46ed502b401b1a2110ccd1c477a986482 trace: Add show_nfs4_ace4_access_mask() macro
+8fff6568e0b54cc58233752ce4b8971f73c54061 trace: Add show_nfs4_open_result() macro
+837734debc3d24cb763fc8d9d223ac4a45435afe trace: Add show_nfs4_why_no_delegation() macro
+deed9bc02ecfd9d326c487e614440bfeb9a8a35c trace: Add show_fs_umode() macro
+500a8941fa4642c8005af2a84a5cc3d8aec4c73c NFSD: Add NFSv4 XDR tracepoint infrastructure
+dd105d1d59073885ab8bf245bbbd93a4e85cef47 NFSD: Update XDR error tracepoints to display names instead of numbers
+d2dc87a804cfda0913441ccde6ecc0f1ed50e20b NFSD: Carry op index in nfsd4_compoundargs
+2b9cbc365a0500d464a75208171718ccb020ddbb NFSD: Update the synopsis of trace_nfsd_compound_decode_err()
+4fdb44b3dc24452be785e15b78a229dd2aa21a97 NFSD: Update the synopsis of trace_nfsd_compound_encode_err()
+ac198d0419ae4dead5a95c3654d6775413614347 NFSD: Remove the nfsd_compound() tracepoint
+2ed2dd364c2229bcc2b5980dddc4c75e6dda1517 NFSD: Add tracing helper macros
+063f09d44820e1c6f7e8f637c6f4b7987664b975 NFSD: Relocate and update the nfsd_compound_status_tracepoint()
+40150993d59bfe8a5824b58b962ea667352afe5b NFSD: Add tracepoints to record NFSv4 ACCESS arguments and results
+44d6a17ebdc26c83ab8c5401755b5482a4737872 NFSD: Refactor nfsd4_decode_fallocate()
+533f6c12860729751ba88058eabab7383678276e NFSD: Add tracepoints to record NFSv4.2 ALLOCATE arguments and results
+4b4f8808bc790f4353ab9a4ccc60d8ecdd58a231 NFSD: Add tracepoints to record NFSv4.1 BACKCHANNEL_CTL arguments and results
+222c3014875336024085579caedbd36b734d4429 NFSD: Add tracepoints to record NFSv4.1 BIND_CONN_TO_SESSION arguments and results
+954fc083f047c6ceae241e46b6f795d41d3ff182 NFSD: Add tracepoints to record NFSv4.2 CLONE arguments and results
+6810f7e1724c9a2bf76297e5ba168cd1e78395c7 NFSD: Add tracepoints to record NFSv4 CLOSE arguments and results
+fc23dd3cdbbcf28b40a6641e3ade961963801de7 NFSD: Add tracepoints to record NFSv4 COMMIT arguments and results
+d90b041f0c320c84df52b06cd5ba3de679e1cfbd NFSD: Add tracepoints to record NFSv4.2 COPY arguments and results
+6fb42a1e5aef1f7b6bfe1a3dd86badaeedabc227 NFSD: Add tracepoints to record NFSv4.2 COPY_NOTIFY arguments and results
+a6d3ce8a0d348427a32364dd608df581a9eabae3 NFSD: Add tracepoints to record NFSv4 CREATE arguments and results
+d163817c5aa97a175b93a9036d2baa838d82ce05 NFSD: Add tracepoints to record NFSv4.1 CREATE_SESSION arguments and results
+b577f6c9d35434691f9ac455249e74633d5c8878 NFSD: Add tracepoints to record NFSv4.2 DEALLOCATE arguments and results
+6b8321c129e6c86df12656b7ad57c0c3df23f16e NFSD: Add tracepoints to record NFSv4 DELEGRETURN arguments and results
+3024c6b92f35abb91f9137976ea76c4983897d82 NFSD: Add tracepoints to record NFSv4.1 DESTROY_CLIENTID arguments and results
+5b0eb2647c98a1fac068cc16f3658e85c638b79c NFSD: Add tracepoints to record NFSv4.1 DESTROY_SESSION arguments and results
+2194f33ac5ce0ca778ecb8d4e83d532cb3fb71d4 NFSD: Add tracepoints to record NFSv4.1 EXCHANGE_ID arguments and results
+decb56ab6c3afccf5cd16cd6553e72c6bdf10670 NFSD: Add tracepoints to record NFSv4.1 FREE_STATEID arguments and results
+6d3bcb682d4616339fafc2bc9c45d398394dd4a3 NFSD: Add tracepoints to record fattr4 results
+23746947fb5a8735afd01e995a51f40c12b2f093 NFSD: Add tracepoints to record NFSv4 GETATTR arguments and results
+85a4bce8085017092ec6a4e7b6409ab537733885 NFSD: Add tracepoints to record NFSv4.1 GETDEVICEINFO arguments and results
+4634c56f9d6cefd466fde502dfa75fb9b398220f NFSD: Add tracepoints to record NFSv4 GETFH arguments and results
+5c00b526ec3ea97bfa7dc6e26d6748f5d50a2817 NFSD: Add tracepoints to record NFSv4.1 LAYOUTCOMMIT arguments and results
+efd113eb9bc8a7453b101cece1fafd684b30b9ae NFSD: Add tracepoints to record NFSv4.2 LAYOUTGET arguments and results
+2d51778bd8e877584c561850f7b799c0c76e4f08 NFSD: Add tracepoints to record NFSv4.1 LAYOUTRETURN arguments and results
+b54c9cb247c932af95244b960c103ac9ec65ffa4 NFSD: Add tracepoints to record NFSv4 LINK arguments and results
+d5d8ad3fc757fd081df70d3aa9a144c49ed4275d NFSD: Add tracepoints to record NFSv4 LOCK arguments and results
+9fb6824101bf8fb9a78e4aa69490d114a133b823 NFSD: Add tracepoints to record NFSv4 LOCKT arguments and results
+43f46b9735f38d825bedd846aa8b9f7179964104 NFSD: Add tracepoints to record NFSv4 LOCKU arguments and results
+e3002f5f55b3cbe6df57b677c6793240d2076673 NFSD: Add tracepoints to record NFSv4 LOOKUP arguments and results
+cab7de5d788bf0c4105e63888629384386acabf0 NFSD: Add tracepoints to record NFSv4 LOOKUPP arguments and results
+2a8be20f1bac8c83349f44cf7565764f37e1c334 NFSD: Refactor nfsd4_decode_verify()
+850e54087aa4217bc6a435fa393438c8b2aabf37 NFSD: Add tracepoints to record NFSv4 NVERFIY arguments and results
+d15417075e73b82b1f9fd42d1fdee5f674a7f68c NFSD: Add tracepoints to record NFSv4.2 OFFLOAD_CANCEL arguments and results
+fb251e7521218274cb0ba99aa3a6d86ab505b96b NFSD: Add tracepoints to record NFSv4.2 OFFLOAD_STATUS arguments and results
+040aa6866a730f55c866e3f6620bf0ed3391a05e NFSD: Add tracepoints to record NFSv4 OPEN arguments and results
+b3f7dfc6a0d717452bc45d970f05ba4982f35387 NFSD: Add tracepoints to record NFSv4 OPEN_CONFIRM arguments and results
+2f33f4f53ca67a55408896e858a34b2767511e90 NFSD: Add tracepoints to record NFSv4 OPEN_DOWNGRADE arguments and results
+94e6912273ea945ebbc4ed03bebe4f29e98fbf78 NFSD: Add tracepoints to record NFSv4 PUTFH arguments and results
+37e8e9709b872760051b7399086bbf3b4f6c5670 NFSD: Add tracepoints to record NFSv4 PUTPUBFH arguments and results
+f37f5889ca660f1cf1f77a4b7449d99503183cc9 NFSD: Add tracepoints to record NFSv4 PUTROOTFH arguments and results
+2b94c2c7af349a34922aee6d0ab77b3eb35ab7bb NFSD: Add tracepoints to record NFSv4 READ arguments and results
+de39abd9ccc6e4078c85bc91f8cb1e8eeba4114c NFSD: Add tracepoints to record NFSv4.2 READ_PLUS results
+9dfb8c29158edb5cf952876040a0c77f429355f2 NFSD: Add tracepoints to record NFSv4 READDIR arguments and results
+62191bf8c7dc95984425c39adec706a35b05ca84 NFSD: Add tracepoints to record NFSv4 READLINK arguments and results
+bf6894ef99920a9d9f5668926b425cff51cfc497 NFSD: Add tracepoints to record NFSv4.1 RECLAIM_COMPLETE arguments and results
+f95ab906b64884fa2b781ab569b1d6cadc658a0d NFSD: Add tracepoints to record NFSv4 RELEASE_LOCKOWNER arguments and results
+a1a541c170d332de75e43c2002ec88f0a22317f6 NFSD: Add tracepoints to record NFSv4 REMOVE arguments and results
+d57506f693d66663dff479da133423d779bc9c65 NFSD: Add tracepoints to record NFSv4 RENAME arguments and results
+815dca8a1735f17dacdd7e91f977b4ae809cf835 NFSD: Add tracepoints to record NFSv4 RENEW arguments and results
+8c18f01ab7974c4fd39cde222b2c7bfee5558cfe NFSD: Add tracepoints to record NFSv4 RESTOREFH arguments and results
+adbddc1531ea799f4de1126753ae2c5d4395787e NFSD: Add tracepoints to record NFSv4 SAVEFH arguments and results
+ef966db06703480da9fb6b4ee59a716b651e5b35 NFSD: Add tracepoints to record NFSv4 SECINFO arguments and results
+2e1b90580439b3ddbceddb8c21baef03f7b15911 NFSD: Add tracepoints to record NFSv4.1 SECINFO_NO_NAME arguments and results
+4293c0de5ef6bc039e4d373fc083be31e4a2f58f NFSD: Add tracepoints to record NFSv4.2 SEEK arguments and results
+a90e8f3477f0627e8e83bf8e96df9856df0380a5 NFSD: Add tracepoints to record NFSv4.1 SEQUENCE arguments and results
+602be61f92dea898c743601056439ef20289e46a NFSD: Add tracepoints to record decoded fattr4 arguments
+1f2da80c39be5e58b92a24e602b4e86265b14b3e NFSD: Add tracepoints to record NFSv4 SETATTR arguments and results
+c2a50aea6f813dd6408a10f34607f452bf54d39d NFSD: Add tracepoints to record NFSv4 SETCLIENTID arguments and results
+98b1cdba5debfef2d145f50aafd5be05d871bb25 NFSD: Add tracepoints to record NFSv4 SETCLIENTID_CONFIRM arguments and results
+88ceaa9f0e74eb54f32a4ef70acf2c7d83c706e8 NFSD: Add tracepoints to record NFSv4.1 TEST_STATEID arguments and results
+ca8c918a4ebeb8765136ffb9cdee00d0f62e1ae4 NFSD: Add tracepoints to record NFSv4 VERFIY arguments and results
+a536b4ebb14d8a8be436258fb9f96bc6c6202b55 NFSD: Add tracepoints to record NFSv4 WRITE arguments and results
 
---===============2571262934149543598==--
+--===============6695631059885405042==--
