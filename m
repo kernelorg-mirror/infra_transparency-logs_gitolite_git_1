@@ -1,31 +1,106 @@
-Content-Type: multipart/mixed; boundary="===============6439245219827096333=="
+Content-Type: multipart/mixed; boundary="===============5187694253513821539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 22 Nov 2021 11:52:46 -0000
-Message-Id: <163758196674.18842.17256046335487410576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Mon, 22 Nov 2021 12:10:22 -0000
+Message-Id: <163758302210.29668.5400006747452409755@gitolite.kernel.org>
 
---===============6439245219827096333==
+--===============5187694253513821539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: 8f50f830b9128ff734c7329d07981d04797b3515
-    new: dbdfdd9b862cc5b6ca0136256f6f97e4abe49e34
-    log: revlist-8f50f830b912-dbdfdd9b862c.txt
+  - ref: refs/heads/misc-next
+    old: 42b432f82ad45a829a9712a15e1684f2e85c82ea
+    new: 5d89b416ce3cf1ee64a9f0f11a8fc5bab337ad22
+    log: revlist-42b432f82ad4-5d89b416ce3c.txt
 
---===============6439245219827096333==
+--===============5187694253513821539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f50f830b912-dbdfdd9b862c.txt
+Content-Disposition: attachment; filename=revlist-42b432f82ad4-5d89b416ce3c.txt
 
+c39cf60feba62e2b5b387ca3dfe642f9d473c195 mfd: mc13xxx: Make mc13xxx_common_exit() return void
+356bbabade8e56efe2834159b5c062b8aff277dd mfd: stmpe: Make stmpe_remove() return void
+ec14d90dee8ec6960324ae9f1116103efcde8a52 mfd: tps65912: Make tps65912_device_exit() return void
+37f127cf8112461cd9d8ec38551bc4af87cb27f5 mfd: altera-a10sr: Include linux/module.h
+6ae210f1b51f1ba18142108e3247d332e6775210 mfd: janz-cmoio: Replace snprintf in show functions with sysfs_emit
+0af9b5c5090b0086fd9d5627e277d7b66fb94e7d mfd: qcom-spmi-pmic: Sort the compatibles in the binding
+0e2a35ac05af3d93e8b90a12dd84695529a4ed41 mfd: qcom-spmi-pmic: Sort compatibles in the driver
+7d165f6451943183ac47be2eb41012fbc24d1d63 mfd: qcom-spmi-pmic: Document ten more PMICs in the binding
+e7488f3e4e21944ee7dfe07fdad7c243ca48bf8d mfd: qcom-spmi-pmic: Add missing PMICs supported by socinfo
+313c84b5ae4104e48c661d5d706f9f4c425fd50f mfd: dln2: Add cell for initializing DLN2 ADC
+bfe6a66570a5cc3473f0554aad9cb0edf5c0ecdc dt-bindings: mfd: qcom: pm8xxx: Add pm8018 compatible
+6a0ee2a61a31cae2ea0a86a4401d6a70a0be3be4 mfd: wcd934x: Replace legacy gpio interface for gpiod
+0cee0416563d7cac807c8f092941f3e37ede05db mfd: max77686: Correct tab-based alignment of register addresses
+b20cd02f7fef68ae395d9df0a9fb9edcf414b5a2 mfd: tps80031: Remove driver
+5dc6dafe62099ade0e7232ce9db4013b7673d860 mfd: simple-mfd-i2c: Select MFD_CORE to fix build error
+452a3e723f75880757acf87b053935c43aa89f89 ACPI: PM: Fix device wakeup power reference counting error
+0d35e382e4e96a4fd97a1438bc1b11a91d2d85a6 cifs: Create a new shared file holding smb2 pdu definitions
+63b0a7b16f06b087e6ed4cc5c58f57e92847f3d9 ACPI: Drop ACPI_USE_BUILTIN_STDARG ifdef from acgcc.h
+fc0b3844694948a945595315a01063040bbe7855 cifs: move NEGOTIATE_PROTOCOL definitions out into the common area
+d8d9de532de9fa3f3ee0c1c96c42da9507fbade6 cifs: Move more definitions into the shared area
+c462870bf8547d9cefa2e89abd0f78599c9786fe cifs: Move SMB2_Create definitions to the shared area
+2aa36604e8243698ff22bd5fef0dd0c6bb07ba92 PM: sleep: Avoid calling put_device() under dpm_list_mtx
+a3f36773802d44d1e50e7c4c09b3e17018581d11 Merge tag 'mips_5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+5c0b0c676ac2d84f69568715af91e45b610fe17a Merge tag 'powerpc-5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+e41ac2020bca4acdb7485ddca34098f68d3af5ae bpftool: Install libbpf headers for the bootstrap version, too
+a51e4a1acb5fa4ce0b0f0bd3606463a09e6fa1b0 Merge tag 'microblaze-v5.16' of git://git.monstr.eu/linux-2.6-microblaze
+5a1bcbd965341537c354e3682f939a7274ac3f5d Merge tag 'pinctrl-v5.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+64165ddf8ea184631c65e3bbc8d59f6d940590ca libbpf: Fix lookup_and_delete_elem_flags error reporting
+a19577808fd33d9e64e015808fbca2769a96721b io_uring: remove dead 'sqe' store
+5af06603c4090617be216a9185193a7be3ca60af Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+8b4ac13abe7d82da0e0d22a9ba2e27301559a93e selftests/bpf/xdp_redirect_multi: Put the logs to tmp folder
+f53ea9dbf78d42a10e2392b5c59362ccc224fd1d selftests/bpf/xdp_redirect_multi: Use arping to accurate the arp number
+648c3677062fbd14d754b853daebb295426771e8 selftests/bpf/xdp_redirect_multi: Give tcpdump a chance to terminate cleanly
+fe91c4725aeed35023ba4f7a1e1adfebb6878c23 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+8955c1a329873385775081e029d9a7c6aa9037e1 selftests/bpf/xdp_redirect_multi: Limit the tests in netns
+f47d4ffe3a84ae11fc4bddc37939b9719467042c riscv, bpf: Fix RV32 broken build, and silence RV64 warning
+8d55770b68538d1ea96bd21061851ac093251598 Merge branch 'pci/acpi'
+5e19196c142f040a7d99bcc1540e2052c68231e8 Merge branch 'pci/aspm'
+1cac57a267c1692594413f27913adec85ba3b02a Merge branch 'pci/enumeration'
+d03c426f7a739d017623d49ade2d3ce4dc766e2a Merge branch 'pci/driver'
+4917f7189bd8be326d0910055b029d3cbf50256c Merge branch 'pci/hotplug'
+efe6856390bae3a2aa170bdd51c34b8832b83bc6 Merge branch 'pci/msi'
+1f948b88b148d8392cb98540ea4d0d268dc257e0 Merge branch 'pci/p2pdma'
+357cf0cdddceea974a7d32668a0df0d9f77055cb Merge branch 'pci/portdrv'
+1ebec13fc9e4ce93736658a95cf35f937e716b1b Merge branch 'pci/resource'
+e34f4262f69e7ad3c159f6262c524352e301a6e6 Merge branch 'pci/switchtec'
+ebf275b8564ccc3a75a3ee8f9167a4a20794f050 Merge branch 'pci/sysfs'
+7aae94125f584cc5b199725ee60ff535a61ba307 Merge branch 'pci/virtualization'
+10d0f97f78bab4fe72c1a4bb57010a4cc5d430a9 Merge branch 'pci/vpd'
+78be29ab548f050fb61065f94f8c129a6cdde5c2 Merge branch 'pci/misc'
+27e76d06bfb344f26707ef5699d672323c1ce50e Merge branch 'remotes/lorenzo/pci/aardvark'
+6b0567dae2e7b4bb3034f07e02e49ab67d713c2b Merge branch 'pci/host/apple'
+93a6bba088c72d5829a22208f1f1544264e81599 Merge branch 'pci/host/cadence'
+c840bb27e3222aca368b5f247ea1a7af98eb0a30 Merge branch 'remotes/lorenzo/pci/dt'
+07dd8bbec131d0b1af444feeb1e744192cf94819 Merge branch 'pci/host/dwc'
+fd6c10ca26f5dd02bebc131bca6cad8b182bd6df Merge branch 'remotes/lorenzo/pci/endpoint'
+1f42bc19bb12f8caa8f16df5dfa3e129c151360f Merge branch 'remotes/lorenzo/pci/imx6'
+581e8fcec53c61b015ccd5ad1c169c7bfa220856 Merge branch 'pci/host/kirin'
+83e168d607d6783db5c18203076d3785b20e7f9e Merge branch 'pci/host/mt7621'
+cd48bff78ae5c5ea037c1928ebe91053be0ae294 Merge branch 'remotes/lorenzo/pci/qcom'
+607f7f0b4cb22059a4ed4c2bb69987da9894f8a4 Merge branch 'pci/host/rcar'
+7b4bc1011182bacd5bec8bf6c2c5096ecbb80061 Merge branch 'remotes/lorenzo/pci/vmd'
+dda4b381f05d447a0ae31e2e44aeb35d313a311f Merge branch 'remotes/lorenzo/pci/xgene'
+96cfe05051fd8543cdedd6807ec59a0e6c409195 thermal: Fix NULL pointer dereferences in of_thermal_ functions
+567af705206564946f724cf752ff36cb7a2935e3 thermal: Replace pr_warn() with pr_warn_once() in user_space_bind()
+4798f8058d6b6bcfaedf5560fc28a83f404cbb57 NFS: Don't trace an uninitialised value
+9d6366e743f37d36ef69347924ead7bcc596076e drm: fb_helper: improve CONFIG_FB dependency
+14d9a37c952588930d7226953359fea3ab956d39 Revert "drm/imx: Annotate dma-fence critical section in commit path"
+25a1a08fe79be6ef00e1393b1f5545f6ba62919f drm/amd/display: Don't allow partial copy_from_user
+a6283010e2907a5576f96b839e1a1c82659f137c drm/amdkfd: avoid recursive lock in migrations back to RAM
+7ef6b7f8441f5744ac3fa5e2067b25940ee1ff63 drm/amdgpu: Make sure to reserve BOs before adding or removing
+e9c76719c1e99caf95e70de74170291b9457bbc1 drm/amdgpu/powerplay: fix sysfs_emit/sysfs_emit_at handling
+c4fc13b5818f6e55ca86672dfddd9ea3a4fed470 drm/amd/amdgpu: Avoid writing GMC registers under sriov in gmc9
+6ddc0eb7a2e8b731991fe977eb52516fc56ac405 drm/amd/amdgpu: Fix csb.bo pin_count leak on gfx 9
+c451c979eafc3b7ffc1527c724058245ae41b01e drm/amd/pm: Correct DPMS disable IP version check
 7513c9ff44d9dfb035ec35b55f469244304806e6 drm/amdgpu: correct xgmi ras error count reset
 e6ef9b396b6354b33373c62f0f47edf8702f12e5 drm/amdgpu: correctly toggle gfx on/off around RLC_SPM_* register access
 b8c20c74ab8c765b29fb253f6da4b0e59d9bdf3d drm/amd/amdkfd: Don't sent command to HWS on kfd reset
@@ -940,115 +1015,40 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
-12637ec9a1505c5a3e8a59bf08ac5d5d63937d8a tools/memory-model:  Document locking corner cases
-5665cde49ec08d603b79e31b7401cbae58f52069 tools/memory-model: Make judgelitmus.sh note timeouts
-2e8007e79af5b33414c014c9cacf8d3ea1d0358e tools/memory-model: Make cmplitmushist.sh note timeouts
-7a318106499153d3b3cd2f64ab991af6733c4ec3 tools/memory-model: Make judgelitmus.sh identify bad macros
-4e11469f67f2efaf018bdc6aaf08cea57a2ad1a9 tools/memory-model: Make judgelitmus.sh detect hard deadlocks
-4ac970d8647b50cbeb10c5b0b8060bd9a7309846 tools/memory-model: Fix paulmck email address on pre-existing scripts
-de51b88e749d6a646d367a0f51f76d1ca0644957 tools/memory-model: Update parseargs.sh for hardware verification
-e61cafe1df6e232858506832779a3d3377f206cc tools/memory-model: Make judgelitmus.sh handle hardware verifications
-da4e146aa57ea1557a6be0964e87b8a3b4a7f823 tools/memory-model: Add simpletest.sh to check locking, RCU, and SRCU
-cfdd2d36c1a28357874eb7d07e9cef485ef00bc7 tools/memory-model: Fix checkalllitmus.sh comment
-2744a10f5bed4db13c89922d68cce57dd33e9eb4 tools/memory-model: Hardware checking for check{,all}litmus.sh
-ea73f8f43219c309e6aa44d90e0c808fc9611d43 tools/memory-model: Make judgelitmus.sh ransack .litmus.out files
-59f0c43f9617365a7a7576df4aa525f50029d640 tools/memory-model: Split runlitmus.sh out of checklitmus.sh
-ef85f71d0f918e28f76e5d00ec6fb878b7e0123c tools/memory-model: Make runlitmus.sh generate .litmus.out for --hw
-2de3f1dd897828e8670e5289149ed36498995d8f tools/memory-model: Move from .AArch64.litmus.out to .litmus.AArch.out
-e7bbab4e4b3585dcdc3dcb07f20fe034ed38a2cc tools/memory-model: Keep assembly-language litmus tests
-1a01190dc6739d42c82b898a8d46b25a36e2daf8 tools/memory-model: Allow herd to deduce CPU type
-ef89f5f276df9c80351fa8ae72de7554c8596c5b tools/memory-model: Make runlitmus.sh check for jingle errors
-5a286ae35e2d7e7e4fb260b7c2706237eef54faa tools/memory-model: Add -v flag to jingle7 runs
-1e62e291c6dc7d5fc7b7fc306e12d94294938c2d tools/memory-model: Implement --hw support for checkghlitmus.sh
-d833c5480a57412e10cac11bd0382d797902e467 tools/memory-model: Fix scripting --jobs argument
-bd980b6a37fa74397fbfca022a2e9e3c9d06908b tools/memory-model: Make checkghlitmus.sh use mselect7
-39e5cc6aee40e6facc8958c78efdd1ac2f52e437 tools/memory-model: Make history-check scripts use mselect7
-845b59426c02818eb6f10e5f7c69d90903069e3b tools/memory-model:  Add "--" to parseargs.sh for additional arguments
-7ba9730c44bd91a6c36cfe80b3b42efe3f8c7d5d tools/memory-model: Repair parseargs.sh header comment
-7ad736d914dbdd12a6888cb752390d234e2027c6 tools/memory-model: Add checktheselitmus.sh to run specified litmus tests
-2cc9fdc7d53bcc70f8493662fe319babcbba7428 tools/memory-model: Add data-race capabilities to judgelitmus.sh
-c080caf86b2b235acf88069f539e5469b1b6c85c tools/memory-model: Make judgelitmus.sh handle scripted Result: tag
-d069e38e66dbfeca541d7a2f9790ef8e8d3c911a tools/memory-model: Use "-unroll 0" to keep --hw runs finite
-2a1d7ed8553daa0647d2b1b8e1ec14d72865c2d1 EXP timers/nohz: Last resort update jiffies on nohz_full IRQ entry
-0bc35b694a8270ebf58b269c6b42c79dc7674279 rcu: Replace ________p1 and _________p1 with __UNIQUE_ID(rcu)
-21e034adb9df3581fda926a29b3a11bda38ba93b rcu: Tighten rcu_advance_cbs_nowake() checks
-22e038701d100c0e57c309932ce13d29ae7dc80d rcu-tasks: Don't remove tasks with pending IPIs from holdout list
-ca507a89ffbb952f7f711029c321fe53e662a238 testing/bpf: Update test names for xchg and cmpxchg
-570f3a520a1a842afb58c3c210d0c378454f0243 torture: Catch kvm.sh help text up with actual options
-bcc46f0b2ad366b830d84e295a65255d50cdc7ec rcutorture: Sanitize RCUTORTURE_RDR_MASK
-46faccd52724dc4f779da6c328b8d894846b8e30 rcutorture: More thoroughly test nested readers
-441a467cd9793d31b83ec766c572e963663a85c1 srcu: Prevent redundant __srcu_read_unlock() wakeup
-80f3a71aacefdf685cdff0a21d436539c7b40bfe rcutorture: Suppress pi-lock-across read-unlock testing for Tiny SRCU
-9ac47f4ef371426b60fff96fc6a50df5f8f2de31 doc: Remove obsolete kernel-per-CPU-kthreads RCU_FAST_NO_HZ advice
-d6e647583e90d50a191b6c3e94fa3b55be86df58 torture: Remove RCU_FAST_NO_HZ from rcuscale and refscale scenarios
-d28d49c93f217ea1e51a2a47679bb623812ee808 torture: Remove RCU_FAST_NO_HZ from rcu scenarios
-243304ab12403610338f1aee1513b5cc1c7d1ea5 rcu: Remove the RCU_FAST_NO_HZ Kconfig option
-b739989c0a018322d93f469cec89b09a08d4ea11 rcu: Move rcu_needs_cpu() to tree.c
-692ea596d6f096028898da360e4154c622818d50 rcu: Ignore rdp.cpu_no_qs.b.exp on premptible RCU's rcu_qs()
-cdc0c67279a5182722a36d950bfdba0eb0a11742 rcu: Move rcu_data.cpu_no_qs.b.exp reset to rcu_export_exp_rdp()
-ee4d938fc8421559348cf49db68e5c915d027348 rcu: Remove rcu_data.exp_deferred_qs and convert to rcu_data.cpu no_qs.b.exp
-4d76a23479f5082d0ad0fc47a8dfd833a2894117 rcu: Mark sync_sched_exp_online_cleanup() ->cpu_no_qs.b.exp load
-165eba21658fb31f3b62a1dcce057de5d2c811a3 rcu: in_irq() cleanup
-c16ca300070b8f2117cee125ac074b1153dc6086 rcu: Prevent expedited GP from enabling tick on offline CPU
-abb6c8d48e3b94632c381aaa7c6366b18f2034a8 rcu: Make idle entry report expedited quiescent states
-f88e92e686ee2d797b8ac6e9b52b2dbdf825aead rcu/nocb: Make local rcu_nocb_lock_irqsave() safe against concurrent deoffloading
-0116332055c265e455382732844bc05361fba883 rcu/nocb: Prepare state machine for a new step
-674222d7ed40471f20169e55b05bb0ad73ac35b7 rcu/nocb: Invoke rcu_core() at the start of deoffloading
-00a8a70a95a3a8d41e941101a2ad19aee169bbb3 rcu/nocb: Make rcu_core() callbacks acceleration preempt-safe
-dfa9292814ffb7b7eae4eaadf7a578884b1e5fe9 rcu/nocb: Make rcu_core() callbacks acceleration (de-)offloading safe
-5ee28cf7fb6e3fc6e0a51a4232bde13f6b7a79b3 rcu/nocb: Check a stable offloaded state to manipulate qlen_last_fqs_check
-063857119feaae2ee4bcd08457784a29098691aa rcu/nocb: Use appropriate rcu_nocb_lock_irqsave()
-a083a87214daf7f8f98e0ba44c7b2fa967d0980b rcu/nocb: Limit number of softirq callbacks only on softirq
-e4a92058701cfcd6249d71ba6a82962035675413 rcu: Fix callbacks processing time limit retaining cond_resched()
-29fd627e98901a7db6b26028b50e677f225ba78b rcu: Apply callbacks processing time limit only on softirq
-0baa69cd66994c35626e609916c963efac67c72d rcu/nocb: Don't invoke local rcu core on callback overload from nocb kthread
-83272afd00b82977fada78335d3cf996a6a74dba clocksource: Forgive repeated long-latency watchdog clocksource reads
-92b8b82aa04917537136ad3f8e23f908573c4b73 torture: Test splatting for delay-ridden clocksources
-b97b2f8cfa6aa2f4d6561f9f591a419eed2c8ed2 tools/nolibc: x86-64: Fix startup code bug
-18885054dbd6937fd29596a0593bdc4a4615565a tools/nolibc: i386: fix initial stack alignment
-a60558bca8e182192c337e72c2743d6b81d2aaf6 tools/nolibc: fix incorrect truncation of exit code
-cbf4536f7071dfeb79ee4958f51f05d585c52ed6 rcu: Improve tree_plugin.h comments and add code cleanups
-8e454296d75d4547163776296cc60419b718e8b3 tools/nolibc: x86: Remove `r8`, `r9` and `r10` from the clobber list
-ad6d321ded8104e1445d37f2a0124a73e5eb0016 tools/nolibc: x86-64: Use `mov $60,%eax` instead of `mov $60,%rax`
-b7f344024611d9c4ffedc1876297de14f96105c0 tools/nolibc: Implement gettid()
-ad3b4071d577f2779c706a22956b6d167710459b refscale: Simplify the errexit checkpoint
-4d12f41d6c9a83f720a7ece556aa255aaa320e33 refscale: Prevent buffer to pr_alert() being too long
-6bd34e8b3a8269a297a292a3392e0a772ef83e77 refscale: Always log the error message
-d11865e428bc72777f64d84c8588da2fe007946f Documentation: Add refcount analogy to What is RCU
-74274d305b215c35a10b221bf1cfe1825ab061c4 tools/memory-model: Provide extra ordering for unlock+lock pair on the same CPU
-1116151081873dbec1c6743397c0a8967f4326c9 tools/memory-model: doc: Describe the requirement of the litmus-tests directory
-de467461ac1ab32b1fe6ac713d719f7777382b3e tools/memory-model: litmus: Add two tests for unlock(A)+lock(B) ordering
-7a409312cdea0ad89bfcd9365a842c3b599bd788 refscale: Add missing '\n' to flush message
-197e93ba7ed2e48577993ea78ec3ae0a1b82512c scftorture: Add missing '\n' to flush message
-fa3ff35826177fe82bd2d1bc5ce55ad2e951a54a scftorture: Remove unused SCFTORTOUT
-a20f09f6f32193c7115d3b1660a28b5cb43455b3 rcuscale: Always log error message
-c1730a2f8732e0f8ef5a7e7d9fb220d490a3208b scftorture: Always log error message
-6fc32dbc9838822fbcee1f9501dfe95a7839303a locktorture,rcutorture,torture: Always log error message
-c16ed919e74d1f86102fc81e3dc489a840c77097 docs: RCU: Avoid 'Symbol' font-family in SVG figures
-cb6dad70ea3aaaf8c6d211d6cb7b8b437bc2d806 rcu-tasks:  Create per-CPU callback lists
-dbb154731e569eafdf0e39822b90a54a01badadb rcu-tasks: Introduce ->percpu_enqueue_shift for dynamic queue selection
-65f30e502b32a1c7d878ff4d8911a59266bbc9b3 rcu-tasks: Convert grace-period counter to grace-period sequence number
-8413203834a3f68724d99b9aaf4b2ebd2264a5bb rcu_tasks: Convert bespoke callback list to rcu_segcblist structure
-37f6a2122bb876a10e9dcf265b20a7540cb75c54 rcu-tasks: Use spin_lock_rcu_node() and friends
-bf5df5cd1713b92a0e666207d81c7f2f7a62d391 rcu-tasks: Inspect stalled task's trc state in locked state
-0ca500cee56a99135cd10fc8f1392ab2f751904a rcu-tasks: Add a ->percpu_enqueue_lim to the rcu_tasks structure
-276e34e288418b38bdd3b32fab80a08151c7c158 rcu-tasks: Abstract checking of callback lists
-2a0ff9d1f8ed4b9cee8611ef1d72b50c32d0f793 rcu-tasks: Abstract invocations of callbacks
-31baf2a5d2c94612bbe4c517fa9c2b96cb849556 torture: Make kvm-find-errors.sh report link-time undefined symbols
-5e2938df86fa6feb5fbef304174b2c28ebf2110e rcu-tasks: Use workqueues for multiple rcu_tasks_invoke_cbs() invocations
-bde5498aa2cbd8d4dfe0e131358b1905e6a2af65 rcutorture: Avoid soft lockup during cpu stall
-a0a28a1e114310f5e2aec7bf598d78a37fc52d11 rcu-tasks: Make rcu_barrier_tasks*() handle multiple callback queues
-0b886cc4b10ff270f95b5084cf8454a5fef9aad8 rcu-tasks: Add rcupdate.rcu_task_enqueue_lim to set initial queueing
-d6d182b78a86deeecb40a97b1440fb7dae5ac55b rcutorture: Test RCU-tasks multiqueue callback queueing
-023abfa704ff2cb7e01faf2e5b0870546cfdd7e2 rcu: Avoid running boost kthreads on isolated CPUs
-492b6b3a3bf56b6a9f90fc8ae2b2a7c35c07bfe1 rcu: Avoid alloc_pages() when recording stack
-58d38a084ffc7ab49feb3df2d9997619c1c76355 rcutorture: Add CONFIG_PREEMPT_DYNAMIC=n to tiny scenarios
-794a7e5d2a98166afb200bf8b964b9ff2b5ce3cd workqueue: Upgrade queue_work_on() comment
-84f4acbb1e3a6fc5f2b978f3d6c7997641d09af9 rcu/nocb: Remove rdp from nocb list when de-offloaded
-9f396be77513178b9dda4318f37615cbf30d8477 rcu/nocb: Prepare nocb_cb_wait() to start with a non-offloaded rdp
-399cfff54f32b40f6a8af62a21c09dce6b8b9878 rcu/nocb: Optimize kthreads and rdp initialization
-00a30c80c3b18f86f99ff3ae609d69b5e73bde4e rcu/nocb: Create nocb kthreads on all CPUs as long as the "rcu_nocb=" is passed
-a6a2730ff10a212f4f4c961a9f83f8568a3ed33e rcu/nocb: Allow empty "rcu_nocbs" kernel parameter
-dbdfdd9b862cc5b6ca0136256f6f97e4abe49e34 rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
+9d48aac530402660ca9937bdf9e5bc62096430ff btrfs: fix memory ordering between normal and ordered work functions
+b103a9bfdb7cb25ed9216f94653d6c755c46f52f btrfs: fix ENOSPC failure when attempting direct IO write into NOCOW range
+5bf7d010775eb2e4262227dd9c0f53dc5c334f55 btrfs: fix deadlock between quota enable and other quota operations
+a88d33b7dc98f8e6ef4e68acd0c8fc315e246b93 btrfs: remove spurious unlock/lock of unused_bgs_lock
+d4b5d76835e90c3b92b5a0b55bb2a95d7f8e37bb btrfs: silence lockdep when reading chunk tree during mount
+6aedfcbbc1f8c7caeea208fd891b18de329c2675 btrfs: check-integrity: fix a warning on write caching disabled disk
+90a4e2cc9bdad08b86e9378fcb03b9963475f2d4 btrfs: only copy dir index keys when logging a directory
+099725d2a05eedb2ed32564b03054c50d4fe6b5e btrfs: remove no longer needed logic for replaying directory deletes
+e2475e9e9aa5497f7babdfc465d9689176fabfdf btrfs: use btrfs_item_size_nr/btrfs_item_offset_nr everywhere
+ea2237894e5068bc63f5ad8749df1d380cd07e61 btrfs: add btrfs_set_item_*_nr() helpers
+22c930aee041c3dbdc08975945cd731cfdac5274 btrfs: make btrfs_file_extent_inline_item_len take a slot
+9cb4aea5af3b1b95d95ef8fddc6bd15023618165 btrfs: introduce item_nr token variant helpers
+242db53eafb335aeeb3b6a38744ba17006341fef btrfs: drop the _nr from the item helpers
+e36bce985cd5a73b9d370b2120c27bda0f131dc3 btrfs: remove the btrfs_item_end() helper
+e1ac5f289076474506948af9fb61f5df231040d8 btrfs: rename btrfs_item_end_nr to btrfs_item_data_end
+e7b06765f0800c6f6e8443bb50b7325385ace486 btrfs: send: remove unused found_type parameter to lookup_dir_item_inode()
+9b45c1ccfae6ddcc3c11c6fdab75be57c9c89022 btrfs: send: remove unused type parameter to iterate_inode_ref_t
+3cc41925fd0f74fad6e7307e542ae0be8b8dd378 btrfs: switch seeding_dev in init_new_device to bool
+4872c473ae6ed8791d251ebd22c3ee71d8ead8d5 btrfs: consolidate device_list_mutex in prepare_sprout to its parent
+67266372b88cf551486f4a09454ee8240bf01902 btrfs: reduce the scope of the tree log mutex during transaction commit
+93125cc0884e2e7613aec038458a7d02e4ec592a btrfs: make 1-bit bit-fields of scrub_page unsigned int
+ddc8e9cb530eb957cd643ef15e4d7456716297dc btrfs: deprecate BTRFS_IOC_BALANCE ioctl
+802dc2194f5a2eb5de71cc7446019c88d89a446e btrfs: remove unused parameter fs_devices from btrfs_init_workqueues
+1c0066baa869433131d5fac536c73bf5db370679 btrfs: cache reported zone during mount
+bf9cda02bd4cadcb50e444ec6efc10a7a43fd6e0 btrfs: fix a out-of-boundary access for copy_compressed_data_to_page()
+0efba7f6ad43598cbeb4a8b48e5b12a0a3c6e1d5 btrfs: fix error pointer dereference in btrfs_ioctl_rm_dev_v2()
+5cf7c8e9375fc20c132a105db9404bcd906e6a84 btrfs: handle priority ticket failures in their respective helpers
+5ee541c094388083ef15858664d6a2f1cdbebc91 btrfs: check for priority ticket granting before flushing
+6d72baf8c96d1d817b2541d0d53bf7f347f7b6ea btrfs: check ticket->steal in steal_from_global_block_rsv
+8d57afc26d02c74ca4c0481a0b1efd029be82e7b btrfs: make BTRFS_RESERVE_FLUSH_EVICT use the global rsv stealing code
+a660a8c334b4e2f506823f63d5e414b71fba1d3b btrfs: remove global rsv stealing logic for orphan cleanup
+d4cff5052e06fc38d44690cfeb20939d6fa215d4 btrfs: get rid of root->orphan_cleanup_state
+36afa6b9e7f42aff8ce7418dada3d7d8e7180a96 btrfs: change root to fs_info for btrfs_reserve_metadata_bytes
+e31d55b7ba0362704fe2a3e6a30e58e8444e8f9b btrfs: remove unnecessary @nr_written parameters
+5d89b416ce3cf1ee64a9f0f11a8fc5bab337ad22 btrfs: make send work with concurrent block group relocation
 
---===============6439245219827096333==--
+--===============5187694253513821539==--
