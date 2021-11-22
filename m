@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8084875645592702051=="
+Content-Type: multipart/mixed; boundary="===============2144198696619214248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 22 Nov 2021 11:08:39 -0000
-Message-Id: <163757931954.21430.3317249908949870714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 22 Nov 2021 11:09:41 -0000
+Message-Id: <163757938100.21790.14369912377910632264@gitolite.kernel.org>
 
---===============8084875645592702051==
+--===============2144198696619214248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/hack/m1-pci-fixes
-    old: 6175a41892875a9f6386f4bfae7d88b29a3d9936
-    new: a12ee7001b7448b553a3764e5b04168c12305ea8
-    log: revlist-6175a4189287-a12ee7001b74.txt
+  - ref: refs/heads/master
+    old: 0c3f9e7220ddd6ad1d9093b4a1bae7ec750d523c
+    new: c9ab59f27f9ab56550096b19e26cff7f743b0b4a
+    log: revlist-0c3f9e7220dd-c9ab59f27f9a.txt
 
---===============8084875645592702051==
+--===============2144198696619214248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6175a4189287-a12ee7001b74.txt
+Content-Disposition: attachment; filename=revlist-0c3f9e7220dd-c9ab59f27f9a.txt
 
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
 7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
@@ -416,8 +416,6 @@ b100274c70546decba3ec12cd614e1ab895515a5 Merge tag 'pinctrl-v5.16-2' of git://gi
 af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
-cdb4616ef556725911b8364a8e5de258457a62af PCI: apple: Follow the PCIe specifications when resetting the port
-84bde8d692b06239ddef0551b5b85cd5e0f83922 PCI: apple: Fix REFCLK1 enable/poll logic
-a12ee7001b7448b553a3764e5b04168c12305ea8 PCI: apple: Enable clock gating
+c9ab59f27f9ab56550096b19e26cff7f743b0b4a Merge tag 'v5.16-rc2'
 
---===============8084875645592702051==--
+--===============2144198696619214248==--
