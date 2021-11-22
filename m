@@ -1,22 +1,42 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 22 Nov 2021 13:42:13 -0000
-Message-Id: <163758853394.24048.6195519439961831792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 22 Nov 2021 13:56:32 -0000
+Message-Id: <163758939227.1376.930363714291669603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: a246f9a3eec31bbbf6bfa91d1ad69d9194574e08
-    new: 3f2d6db62d71c66c356e43c6b004c6aa9a1da9cc
+  - ref: refs/heads/master-pending
+    old: fe8cb1198e4faa37e431a9ff800cd82707eeb9fb
+    new: fc8249f3a6695f3233a95d7b908d71f8180e85af
     log: |
-         387c11ce0d204bd0e0ab028480b0486952303d72 xhci: Fix commad ring abort, write all 64 bits to CRCR register.
-         07f4735d49ba4e598d1c37c059f51415bc64b869 usb: hub: avoid warm port reset during USB3 disconnect
-         f6135a3c2556833b8923221f07be866ffd13c01e usb: hub: Fix usb enumeration issue due to address0 race
-         3f2d6db62d71c66c356e43c6b004c6aa9a1da9cc usb: hub: Fix locking issues with address0_mutex
+         d50c4dc891fb3ef446158e23e026de9d299f70c6 ath11k: calculate the correct NSS of peer for HE capabilities
+         c0f40170924b1c5599826ed78343ba7b92d56415 ath11k: fix read fail for htt_stats and htt_peer_stats for single pdev
+         855421d7c75f19a80358900eec450dbfb3b7279c ath11k: skip sending vdev down for channel switch
+         81438753c6381ad0be9b445b2562366a18749667 ath11k: add read variant from SMBIOS for download board data
+         561b8a9c107fcbc28c504df91bd59f3f7e952f2f ath11k: report rssi of each chain to mac80211
+         4dc665449e7347cd440d1113e313c5d9c308840e ath11k: Fix mon status ring rx tlv processing
+         2d5d2eb9af23d35679380d508a669723b9e08c6a ath11k: Use host CE parameters for CE interrupts configuration
+         d116a0aee1c6e446802a15c875f72c3b2d5e2edb ath11k: add dbring debug support
+         2f106555c9b158e3e9b72335ffdcdba69c50e96e ath11k: add spectral/CFR buffer validation support
+         fc8249f3a6695f3233a95d7b908d71f8180e85af Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 90b9c3f229ba510662d8297c66c072f2e09cbb3d
+    new: 2f106555c9b158e3e9b72335ffdcdba69c50e96e
+    log: |
+         d50c4dc891fb3ef446158e23e026de9d299f70c6 ath11k: calculate the correct NSS of peer for HE capabilities
+         c0f40170924b1c5599826ed78343ba7b92d56415 ath11k: fix read fail for htt_stats and htt_peer_stats for single pdev
+         855421d7c75f19a80358900eec450dbfb3b7279c ath11k: skip sending vdev down for channel switch
+         81438753c6381ad0be9b445b2562366a18749667 ath11k: add read variant from SMBIOS for download board data
+         561b8a9c107fcbc28c504df91bd59f3f7e952f2f ath11k: report rssi of each chain to mac80211
+         4dc665449e7347cd440d1113e313c5d9c308840e ath11k: Fix mon status ring rx tlv processing
+         2d5d2eb9af23d35679380d508a669723b9e08c6a ath11k: Use host CE parameters for CE interrupts configuration
+         d116a0aee1c6e446802a15c875f72c3b2d5e2edb ath11k: add dbring debug support
+         2f106555c9b158e3e9b72335ffdcdba69c50e96e ath11k: add spectral/CFR buffer validation support
          
