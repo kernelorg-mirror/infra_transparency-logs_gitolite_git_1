@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5595358309479805613=="
+Content-Type: multipart/mixed; boundary="===============4984282014171360368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Nov 2021 23:58:34 -0000
-Message-Id: <163762551453.19194.10319294725136078176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Nov 2021 23:58:41 -0000
+Message-Id: <163762552157.19296.17017995886229383177@gitolite.kernel.org>
 
---===============5595358309479805613==
+--===============4984282014171360368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 8cf72c4e75a0265135d34a8e29224b4c1e92b51c
     new: 428ee30a05cd1362c8aa86a4c909b0d1c6bc48a4
     log: |
          28c916ade1bd4205958f74bb817fd3a05dbb7afc ASoC: soc-acpi: Set mach->id field on comp_ids matches
          428ee30a05cd1362c8aa86a4c909b0d1c6bc48a4 ASoC: rk817: Add module alias for rk817-codec
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 626a3dfbdb5d11f92e709680135abf272057ef59
     new: 65c16dd2942f4476a3f96a2625b1475c6137c09a
     log: revlist-626a3dfbdb5d-65c16dd2942f.txt
 
---===============5595358309479805613==
+--===============4984282014171360368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637625512 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637625511-501942e2027ec0964882e595318cf262228e27cf
+pusher C3F436CA30F5D8EB 1637625519 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637625518-2ef85abf2dcf6b23cfbdf570ad599c00aad4e1f5
 
-8cf72c4e75a0265135d34a8e29224b4c1e92b51c 428ee30a05cd1362c8aa86a4c909b0d1c6bc48a4 refs/heads/for-5.16
-626a3dfbdb5d11f92e709680135abf272057ef59 65c16dd2942f4476a3f96a2625b1475c6137c09a refs/heads/for-5.17
+8cf72c4e75a0265135d34a8e29224b4c1e92b51c 428ee30a05cd1362c8aa86a4c909b0d1c6bc48a4 refs/heads/asoc-5.16
+626a3dfbdb5d11f92e709680135abf272057ef59 65c16dd2942f4476a3f96a2625b1475c6137c09a refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGcLqgACgkQJNaLcl1U
-h9CoZAf+Pe3zLZOmSK96nQhasxDHdR80AXNhXujG1rxbZmT0eYZjsJK7uTP2UAeg
-6jynALZll2/DhPvoKaMr3mjCg1sdU5BFbEhU5iunsM1m7xTwU44jqsW3J0u5i4f7
-Xa+7xUjua1KDecFor3uyrJxEuvkDnIq9GheZ7kfABR0xu3o+ekojw/pqndyLhhcd
-pUkhXJecU7nyx+4T9S4+vqRd9mAfwnivpw2prg0DqxMV8M5dLICKpcn/sJoJNj7g
-CCj2iVm6hs/N6u5hSTKNpPABOOXtRjfT0OEuEuWmxn4xiFkxM81smK7+BwaZu26G
-Bv3pemROaxH+ez+Xxtj/YPjnfDowyQ==
-=gaAO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGcLq8ACgkQJNaLcl1U
+h9DQawf/XkErHNq0ffjoE7rzhrAF2ai4FibJHf0OHFqhdEpw200gRPrtZjrtLkw8
++6dHda242QRFIjr9XNHHeiqvOFlk8KzIsvzaLrQxqTKzsi7JP2aNpN1Eqp2DRqZM
+ca0O8ntTzkofxIMHApl3ra/3XV/RNvR+8NFbq6UPfxJbifc057TbeEoidMPT4iLE
+CYrGfbMi4Bw1z1NlBmdg6N9mjsVqF7/CjsWAqctNlpPs/bUtSL407HlShLCM1ZD0
+F41GqUrEki0ngQUUlvhS9XUiCiFzx4XN+q8Mf1dqNvnTOtdK9BsJ+Vai6Dv97CMB
+MZ4ZTZ3aaAZf2lEpVWr12P4XLI2C0A==
+=DzsY
 -----END PGP SIGNATURE-----
 
---===============5595358309479805613==
+--===============4984282014171360368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -89,4 +89,4 @@ c5d22d5e12e776fee4e346dc098fe51d00c2f983 ASoC: tlv320aic31xx: Handle BCLK set as
 6d86bdb391c7409a1783aabd2b05e5feb83cdd41 ASoC: stm32: add pm runtime support
 65c16dd2942f4476a3f96a2625b1475c6137c09a ASoC: SOF: Add PM support for i.MX8/i.MX8X/i.MX8M
 
---===============5595358309479805613==--
+--===============4984282014171360368==--
