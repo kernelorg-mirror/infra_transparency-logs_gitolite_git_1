@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 22 Nov 2021 14:53:56 -0000
-Message-Id: <163759283676.4988.5414390113380493626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 22 Nov 2021 15:05:57 -0000
+Message-Id: <163759355767.12689.14909410721218305070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e968b1b3e9b86c4751faea019a5d340fee9e9142
-    new: cb902b332f9545635911063b671927defa5866bf
+    old: 7a61432dc81375be06b02f0061247d3efbdfce3a
+    new: a68229ca634066975fff6d4780155bd2eb14a82a
     log: |
-         cb902b332f9545635911063b671927defa5866bf sections: global data can be in .bss
+         a68229ca634066975fff6d4780155bd2eb14a82a nixge: fix mac address error handling again
          
