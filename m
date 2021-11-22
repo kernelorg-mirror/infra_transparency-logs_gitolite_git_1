@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2144198696619214248=="
+Content-Type: multipart/mixed; boundary="===============6568118607693543523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 22 Nov 2021 11:09:41 -0000
-Message-Id: <163757938100.21790.14369912377910632264@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 11:09:46 -0000
+Message-Id: <163757938621.21900.8604197745554203191@gitolite.kernel.org>
 
---===============2144198696619214248==
+--===============6568118607693543523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0c3f9e7220ddd6ad1d9093b4a1bae7ec750d523c
-    new: c9ab59f27f9ab56550096b19e26cff7f743b0b4a
-    log: revlist-0c3f9e7220dd-c9ab59f27f9a.txt
+  - ref: refs/heads/m68k-queue
+    old: 9e1878577694e23c433641d74ea7a3955af4525d
+    new: 17bda6542afe0d690328874679795524e2ffb12f
+    log: revlist-9e1878577694-17bda6542afe.txt
 
---===============2144198696619214248==
+--===============6568118607693543523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c3f9e7220dd-c9ab59f27f9a.txt
+Content-Disposition: attachment; filename=revlist-9e1878577694-17bda6542afe.txt
 
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
 7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
@@ -416,6 +416,8 @@ b100274c70546decba3ec12cd614e1ab895515a5 Merge tag 'pinctrl-v5.16-2' of git://gi
 af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
-c9ab59f27f9ab56550096b19e26cff7f743b0b4a Merge tag 'v5.16-rc2'
+54aaa380027eb5031030f941036980b1111f9286 m68k: atari: usb: Add ISP1160 USB host controller support
+f4c07b5ae098020384235b70c4196e0d8893d69f m68k: atari: Update Kconfig.bus help text
+17bda6542afe0d690328874679795524e2ffb12f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2144198696619214248==--
+--===============6568118607693543523==--
