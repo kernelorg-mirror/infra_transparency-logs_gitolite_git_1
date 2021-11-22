@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8315184037714594623=="
+Content-Type: multipart/mixed; boundary="===============4324895947062613894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 22 Nov 2021 10:57:34 -0000
-Message-Id: <163757865484.15341.5143517673415992343@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 11:03:02 -0000
+Message-Id: <163757898254.18440.11485086526119686086@gitolite.kernel.org>
 
---===============8315184037714594623==
+--===============4324895947062613894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
+  - ref: refs/heads/for-next
     old: 76f79231666a7a3c9a1db82c002e083125de5861
     new: e95d8eaee21cd0d117d34125d4cdc97489c1ab82
     log: revlist-76f79231666a-e95d8eaee21c.txt
 
---===============8315184037714594623==
+--===============4324895947062613894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d17c4bf2c7e9bb7c7e9238b283d54157d92fd66b Merge tag 'scmi-fixes-5.16' of git://gi
 4fd932a7250c87c05c32926943166626547e9a8b Merge tag 'socfpga_fix_for_v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
 e95d8eaee21cd0d117d34125d4cdc97489c1ab82 firmware: smccc: Fix check for ARCH_SOC_ID not implemented
 
---===============8315184037714594623==--
+--===============4324895947062613894==--
