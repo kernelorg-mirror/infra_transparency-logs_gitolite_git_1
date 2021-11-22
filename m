@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3559581414015822937=="
+Content-Type: multipart/mixed; boundary="===============2925979251840702429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 22 Nov 2021 06:49:10 -0000
-Message-Id: <163756375052.13782.13930276324987376578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 22 Nov 2021 07:02:29 -0000
+Message-Id: <163756454904.14165.12795033868333030981@gitolite.kernel.org>
 
---===============3559581414015822937==
+--===============2925979251840702429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/heads/fixes
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: fa51b16d05583c7aebbc06330afb50276243d198
+    log: |
+         885633075847f475f26a29249d772cc0da85d8cd dmaengine: dw-axi-dmac: Fix uninitialized variable in axi_chan_block_xfer_start()
+         1ffc6f359f7ab114ad0d2bbe6a85cbd848709ab2 dmaengine: dw-edma: Fix return value check for dma_set_mask_and_coherent()
+         fa51b16d05583c7aebbc06330afb50276243d198 dmaengine: idxd: fix calling wq quiesce inside spinlock
+         
+  - ref: refs/heads/next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: c61d7b2ef141abf81140756b45860a2306f395a2
+    log: revlist-fa55b7dcdc43-c61d7b2ef141.txt
 
---===============3559581414015822937==
+--===============2925979251840702429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-c61d7b2ef141.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637563749 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1637563745-07742d6c941b687f7de133d56a649159f63bbfa7
+365fceecd66e2f4c9b4c4f636b506079052562ea dmaengine: ti: edma: Use 'for_each_set_bit' when possible
+5d78abb6fbc974d601dd365b9ce39f320fb5ba79 dmaengine: idxd: rework descriptor free path on failure
+8b67426e05584e956775f4b134596b56bc0d35e0 dmaengine: idxd: int handle management refactoring
+eb0cf33a91b46cd50b590d032471f7f977d5a92a dmaengine: idxd: move interrupt handle assignment
+46c6df1c958e55558212cfa94cad201eae48d684 dmaengine: idxd: add helper for per interrupt handle drain
+bd5970a0d01f8e45af9b2e2cf1d245b84ea757ba dmaengine: idxd: create locked version of idxd_quiesce() call
+f6d442f7088cbf5e2ac4561aca6888380239d5b9 dmaengine: idxd: handle invalid interrupt handle descriptors
+56fc39f5a36794c4f27f5fee047b641eac3f5b89 dmaengine: idxd: handle interrupt handle revoked event
+58fe107660483138a7a77acd673b911016e4ad31 dmaengine: Add documentation for new memcpy scatter-gather function
+3218910fd5858842a1dd98ce92b602f0878f8210 dmaengine: Add core function and capability check for DMA_MEMCPY_SG
+29cf37fa6dd9c4de81b745ad3ae77f3709931d1e dmaengine: Add consumer for the new DMA_MEMCPY_SG API function.
+2bfab6f8b4f1814eabfcbf335c2fc451592e9fc5 dmaengine: qcom: gpi: Remove unnecessary print function dev_err()
+37829227f04247125894a7857e3299e8764c2d6f Documentation: dmaengine: Add a description of what dmatest does
+c61d7b2ef141abf81140756b45860a2306f395a2 Documentation: dmaengine: Correctly describe dmatest with channel unset
 
-0000000000000000000000000000000000000000 afb057419d0194961ca1e0001ec27f7c6f23699c refs/tags/v5.16-rc2
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGbPWUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AlsQALJcAX1ijlmbymANt75+
-GIRJu7k1zRod46Zf9r4vu0e0031QC+q0ib0fj/RLXXRNeYceCxK2eQIWzJPPT/4I
-JCPo3iyowVPwSO83loaqw4P1s4SyJL4FFiWBr7wPVmF14vu3Aq4PVLhNZrDBWbIn
-cp/s2JYiuHecVaxK/DkEMLJYplqdsFr4EcsmrGU9vKHew7BY04eQymQQltMStvs9
-PglXtIkRw3p83ms7accTj6VvHfk82IBMRZSUBnayek1x1y0ACv47CzeiuLmd1RkI
-Fj8PS8tEogyhTxIQe9kXXZzGOCO6nX2BV0UP+kk44ZFCMJ6qsREJTmS3p63h019O
-Kmp1rFMq9DE5IUHWGCKxRd2Rpk6Rz36rKUMelXrQUx9lPktMIQaqcrc0dY35WG4O
-1gOp9LNatrXarDwp7cYY4AAF8azlWwtZWj5c2D5EqXDH6iG/5ownChSespO+wfla
-h7J6UAAy1ELQwebcYKNze02IX3vE4/c1/MVmt1xQhvxNyVHrQa5Yn2nR1pPWy6BX
-K4oUYwX1qMXf7K0h5HKXreRrdDfzk0hXYrkVbUa1QNe+X7W1yPET7LGShK2mc/Nh
-i7FsIXUBafbbQNgnn2e9I+LLYjCOqGbKxiHli1TxQI6h6Yccowblm2jpCNQeDf0F
-sTkIvjCKSECZnVBVTdJFyu+X
-=IN56
------END PGP SIGNATURE-----
-
---===============3559581414015822937==--
+--===============2925979251840702429==--
