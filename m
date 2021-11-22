@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3428022762210298655=="
+Content-Type: multipart/mixed; boundary="===============6654614887412570065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 Nov 2021 15:35:44 -0000
-Message-Id: <163759534403.31482.2410854006407729418@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 15:36:00 -0000
+Message-Id: <163759536081.31636.8380553398303177299@gitolite.kernel.org>
 
---===============3428022762210298655==
+--===============6654614887412570065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: e9b915a8e8166fb8a3ed9d9200df31e4674054ca
-    new: 24e47575a84587017c30c7efcd089a1e49f5b9c9
-    log: revlist-e9b915a8e816-24e47575a845.txt
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/heads/master
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 136057256686de39cc3a07c2e39ef6bc43003ff6
+    log: revlist-fa55b7dcdc43-136057256686.txt
 
---===============3428022762210298655==
+--===============6654614887412570065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9b915a8e816-24e47575a845.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-136057256686.txt
 
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
 7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
@@ -419,7 +416,5 @@ b100274c70546decba3ec12cd614e1ab895515a5 Merge tag 'pinctrl-v5.16-2' of git://gi
 af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
-514f4be2953adff006c1a5f6b7eb2ee3d4ddb2ab sunrpc: fix header include guard in trace header
-24e47575a84587017c30c7efcd089a1e49f5b9c9 NFSD: Fix sparse warning
 
---===============3428022762210298655==--
+--===============6654614887412570065==--
