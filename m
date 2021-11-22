@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geoff/ps3-linux
-Date: Mon, 22 Nov 2021 20:34:49 -0000
-Message-Id: <163761328958.22755.1279932950030965059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 22 Nov 2021 20:50:15 -0000
+Message-Id: <163761421559.2178.15097423776985469600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geoff/ps3-linux
-user: geoff
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/heads/dev
+    old: 794a7e5d2a98166afb200bf8b964b9ff2b5ce3cd
+    new: 415857fea26f1b2742de81a756b6d1a3f136d9da
+    log: |
+         415857fea26f1b2742de81a756b6d1a3f136d9da torture: Retry download once before giving up
+         
