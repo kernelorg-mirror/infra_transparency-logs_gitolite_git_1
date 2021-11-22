@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 22 Nov 2021 14:28:47 -0000
-Message-Id: <163759132782.20833.6779168845460347884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 22 Nov 2021 14:32:16 -0000
+Message-Id: <163759153678.23352.18135533595946255172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: ac9f66ff04a983974cb33dd207a5fcb3e5356d90
-    new: db473c075f01befd9cf10154098267e7d6ee7d11
+    old: 3bd6b2a838ba6a3b86d41b077f570b1b61174def
+    new: f93fd0ca5e7de743ce687951266950fb37877e34
     log: |
-         db473c075f01befd9cf10154098267e7d6ee7d11 rds: Fix a typo in a comment
+         a6da2bbb0005e6b4909472962c9d0af29e75dd06 net: stmmac: retain PTP clock time during SIOCSHWTSTAMP ioctls
+         f93fd0ca5e7de743ce687951266950fb37877e34 net: ax88796c: do not receive data in pointer
          
