@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8365450289772846071=="
+Content-Type: multipart/mixed; boundary="===============3925299727084401407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 22 Nov 2021 16:14:56 -0000
-Message-Id: <163759769675.22307.3720094037132351412@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 16:15:05 -0000
+Message-Id: <163759770506.23888.4502232778335404707@gitolite.kernel.org>
 
---===============8365450289772846071==
+--===============3925299727084401407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/mips-fixes
+    old: fc1aabb088860d6cf9dd03612b7a6f0de91ccac2
     new: 136057256686de39cc3a07c2e39ef6bc43003ff6
-    log: revlist-fa55b7dcdc43-136057256686.txt
+    log: revlist-fc1aabb08886-136057256686.txt
 
---===============8365450289772846071==
+--===============3925299727084401407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-136057256686.txt
+Content-Disposition: attachment; filename=revlist-fc1aabb08886-136057256686.txt
 
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
 7a92deaae613c3b95f0fd02814bb09be7f7a5820 gfs2: Fix atomic bug in gfs2_instantiate
@@ -141,10 +141,6 @@ e60e6962c503f337531f80e2752423b5bd885443 selftests/bpf: Add tests for restricted
 6060a6cb05e3223146a3c30a1977f136da6c85e7 samples/bpf: Fix build error due to -isystem removal
 353050be4c19e102178ccc05988101887c25ae53 bpf: Fix toctou on read-only map's constant scalar tracking
 467dd91e2f783d34b2205751bdf88bcdcac55984 Merge drm/drm-fixes into drm-misc-fixes
-b3ff2881ba18b852f79f5476d7631940071f1adb MIPS: syscalls: Wire up futex_waitv syscall
-255e51da15baed47531beefd02f222e4dc01f1c1 MIPS: generic/yamon-dt: fix uninitialized variable error
-e8f67482e5a4bc8d0b65d606d08cb60ee123b468 mips: bcm63xx: add support for clk_get_parent()
-fc1aabb088860d6cf9dd03612b7a6f0de91ccac2 mips: lantiq: add support for clk_get_parent()
 d6912b1251b47e6b04ea8c8881dfb35a6e7a3e29 gpio: rockchip: needs GENERIC_IRQ_CHIP to fix build errors
 4eaf02d6076c138d929f98b4c8afc4fef6d2915d drm/scheduler: fix drm_sched_job_add_implicit_dependencies
 287273a80be5d45d59d1742557cab69cabf0ef3c platform/mellanox: mlxreg-lc: fix error code in mlxreg_lc_create_static_devices()
@@ -417,4 +413,4 @@ af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of g
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
 
---===============8365450289772846071==--
+--===============3925299727084401407==--
