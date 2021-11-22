@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5019437148820339720=="
+Content-Type: multipart/mixed; boundary="===============5914856734727391322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 22 Nov 2021 10:34:58 -0000
-Message-Id: <163757729830.32509.15846796307631963543@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 10:35:38 -0000
+Message-Id: <163757733837.1791.15495843484991360152@gitolite.kernel.org>
 
---===============5019437148820339720==
+--===============5914856734727391322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: 136057256686de39cc3a07c2e39ef6bc43003ff6
     log: revlist-fa55b7dcdc43-136057256686.txt
 
---===============5019437148820339720==
+--===============5914856734727391322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -417,4 +417,4 @@ af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of g
 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1 Merge tag 'x86-urgent-2021-11-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
 
---===============5019437148820339720==--
+--===============5914856734727391322==--
