@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 22 Nov 2021 13:38:54 -0000
-Message-Id: <163758833462.21638.3547824155986439017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Mon, 22 Nov 2021 13:42:13 -0000
+Message-Id: <163758853394.24048.6195519439961831792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-next
-    old: b5e29cf7617cfae70a5d8b850b26cd3cdd7deaa0
-    new: 570727e9acfac1c2330a01dd5e1272e9c3acec08
+  - ref: refs/heads/for-usb-linus
+    old: a246f9a3eec31bbbf6bfa91d1ad69d9194574e08
+    new: 3f2d6db62d71c66c356e43c6b004c6aa9a1da9cc
     log: |
-         c1b6ad9a902539f9c037b6b3c35cb134c5724022 clk: imx: Use div64_ul instead of do_div
-         570727e9acfac1c2330a01dd5e1272e9c3acec08 clk: imx8mn: Fix imx8mn_clko1_sels
+         387c11ce0d204bd0e0ab028480b0486952303d72 xhci: Fix commad ring abort, write all 64 bits to CRCR register.
+         07f4735d49ba4e598d1c37c059f51415bc64b869 usb: hub: avoid warm port reset during USB3 disconnect
+         f6135a3c2556833b8923221f07be866ffd13c01e usb: hub: Fix usb enumeration issue due to address0 race
+         3f2d6db62d71c66c356e43c6b004c6aa9a1da9cc usb: hub: Fix locking issues with address0_mutex
          
