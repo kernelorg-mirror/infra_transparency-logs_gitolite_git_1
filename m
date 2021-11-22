@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2202787001985726819=="
+Content-Type: multipart/mixed; boundary="===============7206793932744104878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 22 Nov 2021 18:53:12 -0000
-Message-Id: <163760719237.25782.10030118644594524596@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 18:53:23 -0000
+Message-Id: <163760720351.25933.2687041155729867069@gitolite.kernel.org>
 
---===============2202787001985726819==
+--===============7206793932744104878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 89f971182417cb27abd82cfc48a7f36b99352ddc
-    new: 3b0e04140bc30f9f5c254a68013a901e5390b0a8
-    log: revlist-89f971182417-3b0e04140bc3.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3a1ef1b4d1362832bee9b59c0b2e38b5afa8d90a
+    new: b2ee9ec2e08911a70c58ff26801d2dc33142a6f1
+    log: revlist-3a1ef1b4d136-b2ee9ec2e089.txt
 
---===============2202787001985726819==
+--===============7206793932744104878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89f971182417-3b0e04140bc3.txt
+Content-Disposition: attachment; filename=revlist-3a1ef1b4d136-b2ee9ec2e089.txt
 
 448f413a8bdc727d25d9a786ccbdb974fb85d973 ethtool: add support to set/get tx copybreak buf size via ethtool
 e445f08af2b15035474439fbbb8649f466ad2501 net: hns3: add support to set/get tx copybreak buf size via ethtool for hns3 driver
@@ -67,5 +67,22 @@ c126f118b330ccf0db0dda4a4bd6c729865a205f net: dsa: qca8k: add additional MIB cou
 6a3bdc5209f45d2af83aa92433ab6e5cf2297aa4 net: dsa: qca8k: add set_ageing_time support
 ba8f870dfa635113ce6e8095a5eb1835ecde2e9e net: dsa: qca8k: add support for mdb_add/del
 3b0e04140bc30f9f5c254a68013a901e5390b0a8 Merge branch 'qca8k-next'
+1aea1a7dfa2505cfdebd8193663038a9b6c3b7d9 net/mlx5e: TC, Remove redundant action stack var
+c84cddfd8d6fa679a7e82070895701e063cac944 net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+b7f3a2ff62b8b6f28d495dd6434cb23e8e5470d0 net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+dc2bf3e77698cc26003c1e759bf8e8801cc9f62a net/mlx5e: TC, Move common flow_action checks into function
+3a5033d1f1ea21af449f4b3bf6347046696e7c53 net/mlx5e: TC, Set flow attr ip_version earlier
+1aaa419a400d4f1bf937c887f60f4da673ec2e87 net/mlx5e: Hide function mlx5e_num_channels_changed
+27f843fa0edcdd5ed536b03d89c8efaf94865549 net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+a4f64a0f2edd989aa038ed8c4789aaf9f7589fed net/mlx5: Print more info on pci error handlers
+b7b5cfd67eb2f9a746675f2b29cd3718e35c9bab net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+26ffefc2a009ee7a93a2deed79cc5a26c95c204f net/mlx5e: Save memory by using dynamic allocation in netdev priv
+4102c123829f119a4bccb7140ef3a7704f78a446 net/mlx5e: Allow profile-specific limitation on max num of channels
+d4b9251c592cca88ebd780a4cc5bb27a5de778eb net/mlx5e: Use dynamic per-channel allocations in stats
+a7578d81ec8a4aa082e2fe6c2e589394d9e4cac3 Merge branch 'patchq/430124' into mlx5-queue
+f31481f929996d897bb4760eec75fdb77c9870dc net/mlx5e: Allocate per-channel stats dynamically at first usage
+67236765b68ccf59aece27f35a10ce6cd2e934b9 Merge branch 'patchq/446962' into mlx5-queue
+8b034792f5d1789cc1d7db1570e95c26643b132f Merge branch 'patchq/435082' into mlx5-queue
+b2ee9ec2e08911a70c58ff26801d2dc33142a6f1 Merge branch 'patchq/432332' into mlx5-queue
 
---===============2202787001985726819==--
+--===============7206793932744104878==--
