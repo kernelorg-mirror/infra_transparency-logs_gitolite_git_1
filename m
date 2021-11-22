@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0191026153514159803=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 22 Nov 2021 21:36:38 -0000
-Message-Id: <163761699824.29053.842228622869573810@gitolite.kernel.org>
-
---===============0191026153514159803==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Mon, 22 Nov 2021 21:39:32 -0000
+Message-Id: <163761717286.29934.4553017238969051215@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/master
-    old: 51e1f284b1c3de6507dce507105cd03d47ee2f0c
-    new: f6b1a5cfeb0c21a9a3fd90e68f8fe7c65ebccb76
+  - ref: refs/heads/for-usb-linus
+    old: 3f2d6db62d71c66c356e43c6b004c6aa9a1da9cc
+    new: 2624a1319817e1d3e9c28162f344b5bc763c8aba
     log: |
-         f6b1a5cfeb0c21a9a3fd90e68f8fe7c65ebccb76 Add 82930ECB55BFCAE2 (Nick Terrell)
+         2624a1319817e1d3e9c28162f344b5bc763c8aba usb: hub: Fix locking issues with address0_mutex
          
-
---===============0191026153514159803==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1637616997 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1637616997-07d549c839162c066bc176e0a93361a5cc2b76e4
-
-51e1f284b1c3de6507dce507105cd03d47ee2f0c f6b1a5cfeb0c21a9a3fd90e68f8fe7c65ebccb76 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYZwNZQAKCRC2xBzjVmSZ
-bO1GAQDfPTfjzXfSDYUe7euu9792+6EyqsoYs/WJC1Kq8vdWRwD/au6yjVWTUp6/
-mNiy1moI6jrgun03w6s+3d3Az9rZZQk=
-=kTV6
------END PGP SIGNATURE-----
-
---===============0191026153514159803==--
