@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6580507561367699699=="
+Content-Type: multipart/mixed; boundary="===============2319519546002781329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 22 Nov 2021 15:42:13 -0000
-Message-Id: <163759573372.2486.5697179138143913172@gitolite.kernel.org>
+Date: Mon, 22 Nov 2021 15:42:21 -0000
+Message-Id: <163759574174.2579.12599703235138242362@gitolite.kernel.org>
 
---===============6580507561367699699==
+--===============2319519546002781329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 0f296e782f21dc1c55475a3c107ac68ab09cc1cf
-    new: a68229ca634066975fff6d4780155bd2eb14a82a
-    log: revlist-0f296e782f21-a68229ca6340.txt
+  - ref: refs/heads/dev-queue
+    old: 5fb4e2df55686e5cac3dea8439cadc69dc9a7a42
+    new: 2c6a3d0b0d1e07888c0b833866cb569aafd3572d
+    log: revlist-5fb4e2df5568-2c6a3d0b0d1e.txt
 
---===============6580507561367699699==
+--===============2319519546002781329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f296e782f21-a68229ca6340.txt
+Content-Disposition: attachment; filename=revlist-5fb4e2df5568-2c6a3d0b0d1e.txt
 
 e792779e6b639c182df91b46ac1e5803460b0b15 iavf: Prevent changing static ITR values if adaptive moderation is on
 0cc318d2e8408bc0ffb4662a0c3e5e57005ac6ff iavf: Fix deadlock occurrence during resetting VF interface
@@ -46,5 +46,28 @@ f93fd0ca5e7de743ce687951266950fb37877e34 net: ax88796c: do not receive data in p
 f7a36b03a7320d1a3ba52f9305571eddad325a05 vsock/virtio: suppress used length validation
 7a61432dc81375be06b02f0061247d3efbdfce3a net/smc: Avoid warning of possible recursive locking
 a68229ca634066975fff6d4780155bd2eb14a82a nixge: fix mac address error handling again
+371bf05958ea9219326c27e10597f5633a6ebf67 checkpatch: Fix warnings when --no-tree is used
+d119d1f22347e355b84ebbd1671c401f81124f53 checkpatch.pl: seed camelcase from the provided kernel tree root
+87dde80185b14266da60dbdafb4aab23c43c3ac8 ice: Fix a couple off by one bugs
+714fa322786e2dd342ec7659e5c1c59b3784790e i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+76512fcd234a412e7c376779caaa2a8ba3ca077c ice: fix FDIR init missing when reset VF
+c07d63debe550e77f66fa6da92178fccc54947a0 i40e: Fix failed opcode appearing if handling messages from VF
+f6822adc185ac2e068639d7d26bef4d3c9d2c86f i40e: Fix pre-set max number of queues for VF
+29b70a91eb08cec5a191837402bbcf55ea7d2c0c iavf: Fix static code analysis warning
+fc7a2b6f083adc920b26253b5483a25db58d7205 igb: Fix removal of unicast MAC filters of VFs
+78c016347209f74ceb4668e82471f04907acd4cf iavf: Fix limit of total number of queues to active queues of VF
+2feb54eb38e338fbf24c9f8d124587dacc4d3e7b ice: ignore dropped packets during init
+ceaa0637d08b2c8bd0eb8406dd4b0d3973e06e1a ixgbe: Document how to enable NBASE-T support
+fc9627c873d5da10e8b78f6d463e5869be6443da iavf: Fix reporting when setting descriptor count
+09ebda070f6dc0c44057af7a4fbaaad611abf29d i40e: Fix VF failed to init adminq: -53
+6a36ed5babd28819381a6d490f21cf986a6480d0 i40e: Increase delay to 1 s after global EMP reset
+adcfc6de58f2341e77c49e73328b4e4385d7c2b4 ixgbe: set X550 MDIO speed before talking to PHY
+a1fd7f290f132ed5c942d4f0c0326abfd44727ea igc: Fix typo in i225 LTR functions
+559f025cb793a878a9fd577e1d22f3b5ae547233 i40e: Fix issue when maximum queues is exceeded
+b17f53b83f48fd99ee4ced08a401c4433eafabd4 ice: Use div64_u64 instead of div_u64 in adjfine
+d8688fef9a432432ea85a56f72b111c155184e21 iavf: missing unlocks in iavf_watchdog_task()
+6c4bb8c64c2e4705a6bc1894c45d88aa8c0b0e39 ice: safer stats processing
+01894f684c5074dec3370e2aed05d1a07cef196e ice: fix choosing UDP header type
+2c6a3d0b0d1e07888c0b833866cb569aafd3572d net: igbvf: fix double free in `igbvf_probe`
 
---===============6580507561367699699==--
+--===============2319519546002781329==--
