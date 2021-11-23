@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0615257376734894657=="
+Content-Type: multipart/mixed; boundary="===============0500867189101877865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 23 Nov 2021 03:36:59 -0000
-Message-Id: <163763861971.30062.18167577625464149916@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 03:37:10 -0000
+Message-Id: <163763863047.30161.11695263407277277579@gitolite.kernel.org>
 
---===============0615257376734894657==
+--===============0500867189101877865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 5c044b540aa964a27087bdc9fb926426ad33e1f7
-    new: e2578d04f537611aa9f95488027a4fcaad973595
+  - ref: refs/heads/5.16/scsi-fixes
+    old: 9c6603e1faf880bada541e9cce6514d2f3248da0
+    new: 2d62253eb1b60f4ce8b39125eee282739b519297
     log: |
          e0a2c28da11e2c2b963fc01d50acbf03045ac732 scsi: scsi_debug: Sanity check block descriptor length in resp_mode_select()
          eb97545d6264b341b06ba7603f52ff6c0b2af6ea scsi: core: sysfs: Fix setting device state to SDEV_RUNNING
          2d62253eb1b60f4ce8b39125eee282739b519297 scsi: scsi_debug: Zero clear zones at reset write pointer
          
 
---===============0615257376734894657==
+--===============0500867189101877865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1637638612 -0500
+pusher 75C5DE3D 1637638623 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1637638611-eec4f2740e6f85cf85dc00855f2b651dbbacc129
+nonce 1637638622-385f8e6aff0d6993341518f58a2db08770c4deb6
 
-5c044b540aa964a27087bdc9fb926426ad33e1f7 e2578d04f537611aa9f95488027a4fcaad973595 refs/tags/mkp-scsi-fixes
+9c6603e1faf880bada541e9cce6514d2f3248da0 2d62253eb1b60f4ce8b39125eee282739b519297 refs/heads/5.16/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGcYdQACgkQ7ulgGnXF
-3j2cYA/1FQqTANNRlhPRxXhlUAv+iGSO2md4ScUBR4CjDTDrq6LXHRjwt5XmWx4i
-1Aav5gBogljsD/Np09r9dt03lRqN06dAA0oiurrBvW107zvR25AQzxY8sn3+I1Zz
-yHAD3HD2J8yRVHmwk4XhlFbMDqtFH7SBRCU+y+pK3ahJVfFzo1bN0/gfTTpO6nYL
-JOuL0iG+xaCfJ9CECsPWmXBt0F7dQv/MLKja8ZpnyQcDdD5jn0kQ4VwsNsMGdVJt
-pwWL5wNSu2d3rJRZtV1bVHzEs6GxoyOQDHm1AQMFfSkxAg+8qh2f0SwYEvx0cQ+R
-/zTRkgkjKaY6bHYh+qAz8ezmso2DJSrBow5c7JaWbusvB4cXIcF206qY4B9UDOm4
-fC8WgKWVeF8cYpYOcbv3PXMJZX4tekpu1oaYuQbNRewfhbP7rSiAwe26kLr84zJS
-Ix7oOfhqn/7LNE81AYiLtCZyjP3nmOGX+B5bDv5klDBQ/m4qXNqyfKI7/dNtISXY
-iRJPhpSY8FYW9XTIfBJRW1YOxXn6hQ0IsQr466JoLJfCG1sblz8gCyvYuoWiJn8d
-AGFc8wRW0dfviWYf5FglsTSrQYeRLMUZo303EdkQNxTmLNIjV399G1p2h9+mDtZH
-FMbt3GSOQIJWHnweiG04ZxdHhFRcgbVcQRwv2bAGzszGyAX8DQ==
-=b2rU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGcYd8ACgkQ7ulgGnXF
+3j1nzA/+OaXaa8N/EwR8dHpvzuK1FDbkp2VY/hw9AHAi6oa7e+lL9fR4wVB0VclO
+9xdtQAzKsC1xcKzpHQU3EfmgiaucHOtSq9AXi3hTOvypwJFkLww5c+duh8uF0iqO
+xasgdDgxkQBs9H9oquTvNT1WUnV8TSgP7elSWgf37Tb7Hm5ZB7I/QcHxdBV8zqB7
+8YVqBS1ipQBq8QTF4/4m2nH8w7IGW/REohcNQ356ahzY9HgIax43xXH97yVoF1B6
+lVbo3IVmtJAgnvH7T/N1S2UrCY/8DLa/DkPKqOgVmUyA0T1wu1gHqOMtlxSnPEre
+D+twIdpD1S1N9M88lj8Cm95druZDcmasOP3H4SW6hBTei1QTiM7H7hy2tcTt5ssY
+EshgZ27uPCD726+9ZtfH/tJv52r81HHIpNFxR4DVASFWMeqqPijONgbneqgaNFv9
++eu7ojodWiLtdxBJBass+2+vjYJ5We2wBRCGDwg0UGZScvs5VqCynJp9D4pkZIew
+06YOTqMw8hF5YPQiuM1pH+3YBb2vHW99yGTtG9ur9dbuQGVMfKt4zBNz2YQPoxV5
+q2reOiQjdgP++E+4qvxklcQoYUKkxEp29VhQqlXAL8H5aDcmcmofh4tsf7aNCIpk
+MI12BrpZRS7II4zcq3Obk0B5oXCA+vdSKQ5eHr1wneR/r1pifo0=
+=KxtO
 -----END PGP SIGNATURE-----
 
---===============0615257376734894657==--
+--===============0500867189101877865==--
