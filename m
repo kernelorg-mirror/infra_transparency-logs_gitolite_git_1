@@ -1,45 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8495307490709849432=="
+Content-Type: multipart/mixed; boundary="===============7231544508308756918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 23 Nov 2021 14:33:43 -0000
-Message-Id: <163767802356.2384.3866548704093767457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 23 Nov 2021 14:38:42 -0000
+Message-Id: <163767832205.5162.10163768573053356548@gitolite.kernel.org>
 
---===============8495307490709849432==
+--===============7231544508308756918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/hwmon-next
-    old: ff88cfa3c315ac87b10389f9de2b4443c83f3de3
-    new: 9d07e54a25b84099983f56e33e00f2914f06b53f
-    log: revlist-ff88cfa3c315-9d07e54a25b8.txt
+  - ref: refs/heads/master
+    old: f6b1a5cfeb0c21a9a3fd90e68f8fe7c65ebccb76
+    new: 3fe4bb87e76657153f14053c543389254eec70fc
+    log: |
+         3fe4bb87e76657153f14053c543389254eec70fc Add EB37F6CFEB8352CE (James Morse)
+         
 
---===============8495307490709849432==
+--===============7231544508308756918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff88cfa3c315-9d07e54a25b8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0e4190d762ef2609111507e1b9553a166436f556 hwmon: (sht4x) Fix EREMOTEIO errors
-9bf746feef0abad5f37866b15fc664001a4be650 x86/amd_nb: Add AMD Family 19h Models (10h-1Fh) and (A0h-AFh) PCI IDs
-9152fecb7ad064d3f3ea53e0bfdb64422a979b5c hwmon: (k10temp) Remove unused definitions
-219d0cffbdc92c8a710a6b440f622c9cae1b0a62 hwmon: (k10temp) Add support for AMD Family 19h Models 10h-1Fh and A0h-AFh
-3e545b457e47956895f5dc0324abbac727be0d29 dt-bindings: hwmon: ti,ina2xx: Document ti,ina238 compatible string
-2fe85400010dda650fa7e35223acb8e351b235cc dt-bindings: hwmon: ti,ina2xx: Add ti,shunt-gain property
-0553bd6115f7de28e5f31fc2704a41c7ee05b986 hwmon: Driver for Texas Instruments INA238
-1090528010b1b3e7dc5e5aaa9822bf69aaece5f5 hwmon: (tmp401) Simplify temperature register arrays
-244e1e93623d3fb34f264ce6ee48b5788ac37b65 hwmon: (tmp401) Convert to _info API
-c94e9bb9da208d7d23e091386ed4e25a46f235ad hwmon: (tmp401) Use regmap
-e5aa5331203dfb1039856cd52275cb6548fce625 hwmon: (tmp401) Hide register write address differences in regmap code
-58f07b774373784afe47cb9613b34c4d7274059d hwmon: (adm1021) Improve detection of LM84, MAX1617, and MAX1617A
-f2bab2467f6040dc75035deb80365891fcd3709b hwmon: (f71882fg) Add F81966 support
-c04c7f7bfcbe2f11f83a00b624990e4dd8d46d3d hwmon: (asus_wmi_ec_sensors) Support B550 Asus WMI.
-9d07e54a25b84099983f56e33e00f2914f06b53f hwmon: (asus_wmi_sensors) Support X370 Asus WMI.
+certificate version 0.1
+pusher B6C41CE35664996C! 1637678321 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1637678321-968a5aadc6e7882af548366696c38c47b742d8cd
 
---===============8495307490709849432==--
+f6b1a5cfeb0c21a9a3fd90e68f8fe7c65ebccb76 3fe4bb87e76657153f14053c543389254eec70fc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYZz88QAKCRC2xBzjVmSZ
+bEv6AQCvyzi7E2g6/lyyYtMtpVUjrrJwLr9tsQqVVrKtN6/SegEAya3FCLcOv0b1
+sB8ln6YzuZetaTP5dr1mv+dwXNuM0Ao=
+=oTyc
+-----END PGP SIGNATURE-----
+
+--===============7231544508308756918==--
