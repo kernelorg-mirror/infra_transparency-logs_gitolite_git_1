@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 23 Nov 2021 02:09:19 -0000
-Message-Id: <163763335953.8068.13076982025345190855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Nov 2021 02:18:03 -0000
+Message-Id: <163763388350.13600.9356815447883496875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: ee97fe5fb77c737df0f77d92ab0d92edd3a11be6
-    new: 17eb5c417bd56be4b2f7627c2d6879fbad6a86d6
+  - ref: refs/heads/master
+    old: 8cccee9e91e19207671b94af40bacf7c1d2e74ef
+    new: fa721d4f0b91f525339996f4faef7bb072d70162
     log: |
-         534eda7f8678e5b8fc8ca0f5cf0d9d7a932e0d48 erofs-utils: fix Makefile for fsck.erofs manpage
-         57519a9cbe00e1563c2171bef493519a910e96ad erofs-utils: add fuse/macosx.h to noinst_HEADERS
-         17eb5c417bd56be4b2f7627c2d6879fbad6a86d6 erofs-utils: dump: fix de->nid issues
+         fa721d4f0b91f525339996f4faef7bb072d70162 selftests/bpf: Fix trivial typo
          
