@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5800767195894038515=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 23 Nov 2021 16:55:53 -0000
-Message-Id: <163768655393.27111.7716073744966414372@gitolite.kernel.org>
-
---===============5800767195894038515==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 23 Nov 2021 16:55:57 -0000
+Message-Id: <163768655757.27190.18336737850422455064@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-5.17
-    old: 92b1348277f8893671e5354adde64fe3cf462821
-    new: cff6f593251cdf5398dc3c57f7032b8e9dcb633e
+  - ref: refs/heads/for-linus
+    old: fa9730b4f28b7bd183d28a0bf636ab7108de35d7
+    new: ae26c08e6c8071ba8febb0c7c0829da96c75248c
     log: |
-         cff6f593251cdf5398dc3c57f7032b8e9dcb633e regulator: rohm-generic: iniline stub function
+         ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
          
-
---===============5800767195894038515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1637686552 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1637686551-c1dd561c85a2947ffa930ac71e4f88ac73714ea3
-
-92b1348277f8893671e5354adde64fe3cf462821 cff6f593251cdf5398dc3c57f7032b8e9dcb633e refs/heads/for-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGdHRgACgkQJNaLcl1U
-h9Aahwf/eDnL8npOKsJnF4uwmhrmsoLZuFZM6Wv3DX2TKcOS2ZTTPH7dF56jYvd5
-xru2il9f3VOoFc6qb4UwSPkiwAifhZqYx0f6ffWs+01hu+P6LKTRvMB4oNtSuHQG
-EZlx5gK0EUqHWGhXAVgm63UtWmL9Cltjt6IzvdNPraDUsx/OGeLbdBoNMl7+kktU
-tn2JDDu7Uc4kkDCwewj5kUmkbG6CJm5VRhXIxy/wjUUyUiHGhJce6EbfhLu5zo6N
-rFeqXMTorppzv22JXKd29tgXtmJs6eb/dNj8ckUj83Zonf6lQljdkuf4c2mP6VR3
-x1wDqsjRTKXQMWWJ3whWoNj481+bUQ==
-=rDiN
------END PGP SIGNATURE-----
-
---===============5800767195894038515==--
+  - ref: refs/heads/master
+    old: 060c20a50fd28d01776543a3e81f8a8be4134fa1
+    new: f2e3f7db3eb628dba22a67b4973043e8be783dd6
+    log: |
+         ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
+         f2e3f7db3eb628dba22a67b4973043e8be783dd6 Merge branch 'for-linus'
+         
