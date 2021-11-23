@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 23 Nov 2021 17:24:21 -0000
-Message-Id: <163768826139.12159.2527766687744122276@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 17:25:57 -0000
+Message-Id: <163768835703.14436.13124947939146303434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: f5d519563ac9d2d1f382a817aae5ec5473811ac8
-    new: 9a296661651156bd4957259a92affe9e6acd8652
+    old: 9a296661651156bd4957259a92affe9e6acd8652
+    new: afa07126a53e6b6bbe95eb200fd16e71b0bdcbfa
     log: |
-         73a13f4d8d6059768f1090a95c43b8b5333b58db QCA: Add Bluetooth firmware for WCN685x
-         9a296661651156bd4957259a92affe9e6acd8652 Merge https://github.com/tjiang123/qca-btfw into main
+         77e72100290150317c3a29baddf97f8fd27b58b4 mrvl: prestera: Update Marvell Prestera Switchdev v4.0
+         afa07126a53e6b6bbe95eb200fd16e71b0bdcbfa Merge branch 'prestera-v4.0' of https://github.com/PLVision/linux-firmware into main
          
