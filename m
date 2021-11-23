@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9095914795439946395=="
+Content-Type: multipart/mixed; boundary="===============7961457417960644787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 23 Nov 2021 18:39:41 -0000
-Message-Id: <163769278165.27517.15013872218816400084@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 18:39:47 -0000
+Message-Id: <163769278716.27628.9245849912519627495@gitolite.kernel.org>
 
---===============9095914795439946395==
+--===============7961457417960644787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 03a000bfd7193cacefb40e309283578c6ae207b5
-    new: 7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb
-    log: revlist-03a000bfd719-7b1b62bc1e6a.txt
+  - ref: refs/heads/net-next-mlx4
+    old: 3b0e04140bc30f9f5c254a68013a901e5390b0a8
+    new: 2106efda785b55a8957efed9a52dfa28ee0d7280
+    log: revlist-3b0e04140bc3-2106efda785b.txt
 
---===============9095914795439946395==
+--===============7961457417960644787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03a000bfd719-7b1b62bc1e6a.txt
+Content-Disposition: attachment; filename=revlist-3b0e04140bc3-2106efda785b.txt
 
-792b2086584f25d84081a526beee80d103c2a913 ice: fix vsi->txq_map sizing
-f65ee535df775a13a1046c0a0b2d72db342f8a5b ice: avoid bpf_prog refcount underflow
-16517829f2e02f096fb5ea9083d160381127faf3 hamradio: fix macro redefine warning
-e5b40668e930979bd1e82c7ed7c9029db635f0e4 slip: fix macro redefine warning
-1c743127cc54b112b155f434756bd4b5fa565a99 net: nexthop: fix null pointer dereference when IPv6 is not enabled
-45c3ff7a9ac195135536057021c1d3ac664f3f62 net/smc: Clean up local struct sock variables
-606a63c9783a32a45bd2ef0eee393711d75b3284 net/smc: Ensure the active closing peer first closes clcsock
-5789d04b77126752ab1d70c7f7fc00d65401cb1d Merge branch 'smc-fixes'
-ce4995bc6c8eec9685707e36c3f38aea3c8694fa mlxsw: spectrum: Allow driver to load with old firmware versions
-63b08b1f6834bbb0b4f7783bf63b80c8c8e9a047 mlxsw: spectrum: Protect driver from buggy firmware
-bd08ee2315a30b42a422ad37a0600ab258b90a5b Merge branch 'mlxsw-fixes'
-33a153100bb3459479bd95d3259c2915b53fefa8 net: ipa: directly disable ipa-setup-ready interrupt
-8afc7e471ad3c92a9c96adc62d1b67de77378bb6 net: ipa: separate disabling setup from modem stop
-60ebd6737c880e81eefa30b6ea7961fceee4bdec Merge branch 'ipa-fixes'
-52911bb62ed82f0ba4dfddcd1540494d78b1a717 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-c75a9ad43691de040bead75f1924928111571f9c r8169: fix incorrect mac address assignment
-b82d71c0f84a2e5ccaaa7571dfd5c69e0e2cfb4a net: chelsio: cxgb4vf: Fix an error code in cxgb4vf_pci_probe()
-a049a30fc27c1cb2e12889bbdbd463dbf750103a net: usb: Correct PHY handling of smsc95xx
-e4e9bfb7c93d7e78aa4ad7e1c411a8df15386062 net: ipa: kill ipa_cmd_pipeline_clear()
-7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb net: marvell: mvpp2: increase MTU limit when XDP enabled
+325e0d0aa683a96b9d9cd5802be524d4da5e2dd2 devlink: Add 'enable_iwarp' generic device param
+e523af4ee56090fbdd9cf474752448d35930bcd4 net/ice: Add support for enable_iwarp and enable_roce devlink param
+774a90c1e1a340ebad7b1d8783356bed490ca02f RDMA/irdma: Set protocol based on PF rdma_mode flag
+ed1607e2ddf4b3196703b209428cbce3de869ff8 mlxsw: spectrum_router: Remove deadcode in mlxsw_sp_rif_mac_profile_find
+c1020d3cf4752f61a6a413f632ea2ce2370e150d mlxsw: pci: Add shutdown method in PCI driver
+25e2735de8613e5677e53730e751bbaf83998be5 Merge branch 'mlxsw-updates'
+a0c2ccd9b5ad0a9e838158404e041b5a8ff762dd mctp: Add MCTP-over-serial transport binding
+1e84dc6b7bbfc4d1dd846decece4611b7e035772 neigh: introduce neigh_confirm() helper function
+2c1bdbc7e7560d7de754cad277d968d56bb1899e net: dsa: qca8k: add support for mirror mode
+def975307c01191b6f0170048c3724b0ed3348af net: dsa: qca8k: add LAG support
+33e2ec523230c2ef38a87027b6d14f714f417520 Merge branch 'qca8k-mirror-and-lag-support'
+75e47206512bf98ad3d5cd4ef18f3d92b9050a45 tsnep: Fix set MAC address
+a1fb410a57511b96d980a9a71b5af1873bf43171 phy: marvell: phy-mvebu-cp110-comphy: add support for 5gbase-r
+4043ec701c43c7e61ad71c3afbd242d687fb6ecf net: marvell: mvpp2: Add support for 5gbase-r
+5f11542f13728d26e4d867fc95263d7f14d61bf3 Merge branch 'mvpp2-5gbase-r-support'
+c384cee14aa330ba2f5616fb821ba81f2ef42ccd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+2106efda785b55a8957efed9a52dfa28ee0d7280 net: remove .ndo_change_proto_down
 
---===============9095914795439946395==--
+--===============7961457417960644787==--
