@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8963970630726407808=="
+Content-Type: multipart/mixed; boundary="===============9095914795439946395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 23 Nov 2021 18:39:30 -0000
-Message-Id: <163769277097.27429.14553040450124289672@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 18:39:41 -0000
+Message-Id: <163769278165.27517.15013872218816400084@gitolite.kernel.org>
 
---===============8963970630726407808==
+--===============9095914795439946395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 03a000bfd7193cacefb40e309283578c6ae207b5
     new: 7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb
     log: revlist-03a000bfd719-7b1b62bc1e6a.txt
 
---===============8963970630726407808==
+--===============9095914795439946395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ a049a30fc27c1cb2e12889bbdbd463dbf750103a net: usb: Correct PHY handling of smsc9
 e4e9bfb7c93d7e78aa4ad7e1c411a8df15386062 net: ipa: kill ipa_cmd_pipeline_clear()
 7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb net: marvell: mvpp2: increase MTU limit when XDP enabled
 
---===============8963970630726407808==--
+--===============9095914795439946395==--
