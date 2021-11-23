@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 23 Nov 2021 04:00:40 -0000
-Message-Id: <163764004085.13218.11343718577607651442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 23 Nov 2021 05:00:09 -0000
+Message-Id: <163764360915.18090.4689569027880972398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 40c93d7fff6ff05c1c4c9f9c01a067eac6a791b1
-    new: 136057256686de39cc3a07c2e39ef6bc43003ff6
+  - ref: refs/heads/dev
+    old: 415857fea26f1b2742de81a756b6d1a3f136d9da
+    new: 027c7016a2762adc0b3c715ab76880745e39f056
     log: |
-         136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
+         dba33663222d8a9ee2e3bf2b5e6c1fde745ed028 rcu-tasks: Count trylocks to estimate call_rcu_tasks() contention
+         027c7016a2762adc0b3c715ab76880745e39f056 rcutorture: Enable multiple concurrent callback-flood kthreads
          
