@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 23 Nov 2021 02:03:38 -0000
-Message-Id: <163763301851.5002.8579414576428769089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 23 Nov 2021 02:09:19 -0000
+Message-Id: <163763335953.8068.13076982025345190855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 7c1c1d36e83073aab18d3dd596b735bcc6ea7984
+  - ref: refs/heads/dev
+    old: ee97fe5fb77c737df0f77d92ab0d92edd3a11be6
+    new: 17eb5c417bd56be4b2f7627c2d6879fbad6a86d6
     log: |
-         8aa35e0bb5eaa42bac415ad0847985daa7b4890c soc: ti: pruss: fix referenced node in error message
-         7c1c1d36e83073aab18d3dd596b735bcc6ea7984 firmware: ti_sci: rm: remove unneeded semicolon
-         
-  - ref: refs/heads/ti-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 71907ae8e0c0441464752fb7cb6e2bf9b494db61
-    log: |
-         8aa35e0bb5eaa42bac415ad0847985daa7b4890c soc: ti: pruss: fix referenced node in error message
-         7c1c1d36e83073aab18d3dd596b735bcc6ea7984 firmware: ti_sci: rm: remove unneeded semicolon
-         71907ae8e0c0441464752fb7cb6e2bf9b494db61 Merge branch 'ti-drivers-soc-next' into ti-next
+         534eda7f8678e5b8fc8ca0f5cf0d9d7a932e0d48 erofs-utils: fix Makefile for fsck.erofs manpage
+         57519a9cbe00e1563c2171bef493519a910e96ad erofs-utils: add fuse/macosx.h to noinst_HEADERS
+         17eb5c417bd56be4b2f7627c2d6879fbad6a86d6 erofs-utils: dump: fix de->nid issues
          
