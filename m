@@ -1,121 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============4403214841560594075=="
+Content-Type: multipart/mixed; boundary="===============3916081420735111084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Tue, 23 Nov 2021 00:47:41 -0000
-Message-Id: <163762846180.17132.10233075596923566686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 23 Nov 2021 01:23:40 -0000
+Message-Id: <163763062025.13143.3768105703810337095@gitolite.kernel.org>
 
---===============4403214841560594075==
+--===============3916081420735111084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/msi
-    old: 5d062868fb562b32f6433bac8a69488cc29a7f55
-    new: 2d9ab27714e1576db18b1ee323eaae9886e16006
-    log: revlist-5d062868fb56-2d9ab27714e1.txt
+  - ref: refs/heads/next
+    old: f8b28837226f3932b867ca88a4f830bf203d2afe
+    new: df2c515fd2f71aa5d8e503abd1de824b3aa471dc
+    log: |
+         33c5d6c8456ecb1e89450483586f5f3f115ffa93 dir: revert "dir: select directories correctly"
+         e3f7e01b50be94bfe6cf35b2f1e01ab75804d8d8 Revert "editor: save and reset terminal after calling EDITOR"
+         2e7fbcf5ad7088a4ddc9e4bbe3adc59d2fdafe81 Merge branch 'ds/add-rm-with-sparse-index' into next
+         df2c515fd2f71aa5d8e503abd1de824b3aa471dc Merge branch 'jc/save-restore-terminal-revert' into next
+         
+  - ref: refs/heads/seen
+    old: 2eb85f0b330e316ac66b97081d633c48b2a5323d
+    new: 93c9b0fa14c4535f126bbd34b8eaa43223dd9600
+    log: revlist-2eb85f0b330e-93c9b0fa14c4.txt
 
---===============4403214841560594075==
+--===============3916081420735111084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d062868fb56-2d9ab27714e1.txt
+Content-Disposition: attachment; filename=revlist-2eb85f0b330e-93c9b0fa14c4.txt
 
-8cbc7b4f04d1c5040b01c61d41079c54794b78a3 powerpc/4xx: Remove MSI support which never worked
-a46eb42ae5d28cdc3f25897bf470bc5afc5ebf86 PCI/MSI: Fix pci_irq_vector()/pci_irq_get_attinity()
-671ff96ea5f5bdf118a14d0be1fc4d033600faf8 genirq/msi: Guard sysfs code
-1b86c5ddc3424e33a48ccb9344e6299b5fe16d44 genirq/msi: Remove unused domain callbacks
-7fad5a9df7f296f6d3bb6b1e02f81ebef503325d genirq/msi: Fixup includes
-21493634d1e1f9429de8ef5f1b67d81a393a9009 PCI/MSI: Make pci_msi_domain_write_msg() static
-474eaa3c98d077533cc4c73f270552a0b050b372 PCI/MSI: Remove msi_desc_to_pci_sysdata()
-4da7c2c1b98dd6d4a30ff8d84371ea99e0f933cb PCI/sysfs: Use pci_irq_vector()
-f973654bbeb3f574b6ce6e7410efe27a8f691104 MIPS: Octeon: Use arch_setup_msi_irq()
-05387377a58ebd5ea3645fe7b365c3cdbd56c3f3 genirq/msi, treewide: Use a named struct for PCI/MSI attributes
-010d83d6642fabebce98a4b386fcc54a9288a569 x86/hyperv: Refactor hv_msi_domain_free_irqs()
-0f1b6337f0c1ecc44da9cbbecdc78ab90cb1accd PCI/MSI: Make arch_restore_msi_irqs() less horrible.
-83fd74877d77540721e95348733275adf3eca511 PCI/MSI: Cleanup include zoo
-b4fe89866ffde1ba9c54a7d0dd998992638ad78e PCI/MSI: Make msix_update_entries() smarter
-4b51a2055dfbe8f26c24a65746f2e3cde8b38952 PCI/MSI: Move code into a separate directory
-6b6783a63784fe4424ac6be487621f5fc25fa1c1 PCI/MSI: Split out CONFIG_PCI_MSI independent part
-fd491329eea71f158c6db310afada8ab91347e77 PCI/MSI: Split out !IRQDOMAIN code
-5e32e214c6eeda4237b4fb01cd77c6c247465e0c PCI/MSI: Split out irqdomain code
-102882877286a0d9ea09a7a6b7ac34aeeaf4ee50 PCI/MSI: Sanitize MSIX table map handling
-f36a3928369208107a01a7645d47281a83e1e227 PCI/MSI: Make pci_msi_domain_check_cap() static
-a0f23468e288a912898a83479b3b6d31f6af3e92 genirq/msi: Handle PCI/MSI allocation fail in core code
-e90f67822464bc49df4ac44ab2e12f8e879ae864 PCI/MSI: Move descriptor counting on allocation fail to the legacy code
-704c83387b6905c5c066689736c50447112796d8 device: Move MSI related data into a struct
-c02574bafd30cd52bb3d7369c051b086dab92d2f device: Add device::msi_data pointer and struct msi_device_data
-94f47c120c71ec744feafca5be3618af83952f44 PCI/MSI: Allocate MSI device data on first use
-6a2bf5db78bcb363c32737c10901fb6ad3864a11 PCI/MSI: Use lock from msi_device_data
-4d0f84d8bb880b69ada79afedf08cdd9137cac1e platform-msi: Allocate MSI device data on first use
-0c7aff991cca0fd430cdf4ff5232ab0665693f33 bus: fsl-mc-msi: Allocate MSI device data on first use
-4fbe4198b29fc00d87dfacd590c59cc66340eacc soc: ti: ti_sci_inta_msi: Allocate MSI device data on first use
-296116487d8c289ddd1ed5a0f20acef046bc2bd9 genirq/msi: Provide msi_device_populate/destroy_sysfs()
-a4ab1e91fbf2614da4f1dc2ff1c4c33f10db356f PCI/MSI: Let the irq code handle sysfs groups
-0d617882c365900a61e6ef0352083c8060a8aa77 platform-msi: Let the core code handle sysfs groups
-acd216fef8fe9ce8fac80fee1906ff90e6f3a296 genirq/msi: Remove the original sysfs interfaces
-b0d975c2025ed8de1b951462e628a4c86d36aa4d platform-msi: Rename functions and clarify comments
-d7fa3e0ead85db17a72327e593d78e31c6a72e31 platform-msi: Store platform private data pointer in msi_device_data
-3d2ea31de88313aec59766946a3e76658e8546d5 genirq/msi: Consolidate implementation data
-8c23d44c0017940db0038f6ae716c2d73622a293 platform-msi: Use msi_desc::msi_index
-75c184c6d3a2b60c63348dae5b7b35e901d3ab90 bus: fsl-mc-msi: Use msi_desc::msi_index
-c1e0a427d9c2a6e2aec1a4e7795131374f9f1df0 soc: ti: ti_sci_inta_msi: Use msi_desc::msi_index
-1160c7d699be389a56c1566a90a5041ed58426d7 PCI/MSI: Use msi_desc::msi_index
-11e082afa6ad1c348516394f353bc73d96e3247f genirq/msi: Add msi_device_data::properties
-83693c980b3146f54d951d87fa6f26b3af356c40 PCI/MSI: Store properties in device::msi::data
-b205558b583362911653f70875298be4c57e8dc5 x86/pci/XEN: Use device MSI properties
-b9ccc75be802504415982fcc6f0fa3867be5bb4b x86/apic/msi: Use device MSI properties
-4e0217f32c23994fa22ecc9bdaee9d19370842f1 genirq/msi: Use device MSI properties
-b0142c9aadbcbb67df7e8ed229b827adb04453fc powerpc/cell/axon_msi: Use MSI device properties
-db411251ca2dee92b6877e7ebb0ee5c8334e3349 powerpc/pseries/msi: Use MSI device properties
-3d68194fcfefc9b50be64aa31c04c974e45f905b PCI/MSI: Provide MSI_FLAG_MSIX_CONTIGUOUS
-c7a8fe0de5a9fefa6e84fbf45e8a65e0e1e42b44 powerpc/pseries/msi: Let core code check for contiguous entries
-b08eeae99fa8a7d617ce8e2854ec37742d811a97 genirq/msi: Provide interface to retrieve Linux interrupt number
-e7bdaa4395ad506349eca67584b18cb1013b04dd PCI/MSI: Use __msi_get_virq() in pci_get_vector()
-d6a8be06dbbd6c84adedb792e3f09bc3ac0bf71a PCI/MSI: Simplify pci_irq_get_affinity()
-433f75dcb2b86ec382a76504101a1f9c07f323f7 dmaengine: mv_xor_v2: Get rid of msi_desc abuse
-022e94100ccc2d644468b3e3d7c0629b648004c3 perf/smmuv3: Use msi_get_virq()
-50f5467b87dc5c96e20d28fc155b8e662bba4fa6 iommu/arm-smmu-v3: Use msi_get_virq()
-78dc2c5b8885ed5519d8fccfee1816dbf6ab6bbd mailbox: bcm-flexrm-mailbox: Rework MSI interrupt handling
-2dc45ce6284ebde3f3323b7011ecce23781c03ab bus: fsl-mc: fsl-mc-allocator: Rework MSI handling
-c3ab92fbfbbe1f9ecd5123c1b069d1e130ce1390 soc: ti: ti_sci_inta_msi: Get rid of ti_sci_inta_msi_get_virq()
-8b680cd29411211fdbc45e529f161d0a21254c63 dmaengine: qcom_hidma: Cleanup MSI handling
-e0a2e32a8700f14895d7defd8494d6c1a3c8bd11 genirq/msi: Move descriptor list to struct msi_device_data
-3566078bca836c49178302388a07151030b2b1fe genirq/msi: Add mutex for MSI list protection
-278c3b65ad77d3666d30da4d730b6d4e0c7b9087 genirq/msi: Provide msi_domain_alloc/free_irqs_descs_locked()
-9c6ead30af8fb4417786089ee75cea148f966cd3 genirq/msi: Provide a set of advanced MSI accessors and iterators
-68ddd1e039b0e81bfafa447c69a3766cf255376d genirq/msi: Provide msi_alloc_msi_desc() and a simple allocator
-b892924445f92c0f3a3ba9c6d3a023444d553a9b genirq/msi: Provide domain flags to allocate/free MSI descriptors automatically
-30c3858bfb5c73169711a1e17b867988bc3fa13a genirq/msi: Count the allocated MSI descriptors
-dd61178d7665f473afe55a644cd6e05b495e91ed PCI/MSI: Protect MSI operations
-612fc8ecaea00043dca993f7241f1c68a0187788 PCI/MSI: Use msi_add_msi_desc()
-8882a4818e2a1e4e9ffebf36cff0a284c33b4487 PCI/MSI: Let core code free MSI descriptors
-233f63106f9990a2e99cb39745749cbe04a4c2e9 PCI/MSI: Use msi_on_each_desc()
-6adb277ae0813d66c5efc5d2d78a454856b26432 x86/pci/xen: Use msi_for_each_desc()
-a394390cb20382abf0de8f5a3fce16885de02109 xen/pcifront: Rework MSI handling
-d0a5e26b0b9dfc84bf4ff4cb22c3e89f53627bac s390/pci: Rework MSI descriptor walk
-982fc21a605bbacbf17421c0389f54f62fd992af powerpc/4xx/hsta: Rework MSI handling
-b4edfc15eae83afe84aeb1169a565c25ed4ec225 powerpc/cell/axon_msi: Convert to msi_on_each_desc()
-9d9d099ee3871a8cbfa6113a64232f9a1c47fb09 powerpc/pasemi/msi: Convert to msi_on_each_dec()
-848d7142edbf11a36bafad494c2f7d5c118d278f powerpc/fsl_msi: Use msi_for_each_desc()
-7cdad8fff99066d0cf3866ce17e3e638af3ce744 powerpc/mpic_u3msi: Use msi_for_each-desc()
-5482ca32f42066df715c0a8959c5b7a6422d6e47 PCI: hv: Rework MSI handling
-411a6edf2e55602fe1e37d2e782052f0e3fe1d9b NTB/msi: Convert to msi_on_each_desc()
-4ab131da9272adc2eee735862730f4a40a0d324a soc: ti: ti_sci_inta_msi: Rework MSI descriptor allocation
-92a87c0898124a5a6d8e8577fb4969ff4c250f92 soc: ti: ti_sci_inta_msi: Remove ti_sci_inta_msi_domain_free_irqs()
-9637b06f11ba303c2bc7f37a433236e4782f287f bus: fsl-mc-msi: Simplify MSI descriptor handling
-caba9d4f148a6e6a9228100815eddab2e2949908 platform-msi: Let core code handle MSI descriptors
-2dbc2bb70eddf7b8a793120218f7373eadc9a80b platform-msi: Simplify platform device MSI code
-f93534fe6385431d0059c77498ab1880620e8647 genirq/msi: Make interrupt allocation less convoluted
-dd578b22e672ec46a27511026dfb3dc6be68e59a genirq/msi: Convert to new functions
-867d4ec804276a9d8971b674cd4646ed3f28ae7c genirq/msi: Mop up old interfaces
-ad824d9ec083883dd9f8568eedfa7d708ce6e2b7 genirq/msi: Add abuse prevention comment to msi header
-b43ee8075150ca41e6a4b643477ee1a5fc1dff07 genirq/msi: Simplify sysfs handling
-2d9ab27714e1576db18b1ee323eaae9886e16006 genirq/msi: Convert storage to xarray
+3d33046bd20ff5c09ede54fc454192ee86fcc88d CI: remove Travis CI support
+6c8aa1937beb54f853e51217127c9c6f21d5b2f5 CI: use shorter names that fit in UX tooltips
+23e0ee273024bc212f8d63e10679d1d8ab81f9bc CI: rename the "Linux32" job to lower-case "linux32"
+8fbc718c6a0b2447268f81e4a6790b653986d687 CI: use "$runs_on_pool", not "$jobname" to select packages & config
+58bb46ee46570ce1035156a579ab581b61c78212 CI: don't run "make test" twice in one job
+d30be1246fe4e6f8b43aad40cb40957855a5e4e7 Merge branch 'ds/add-rm-with-sparse-index' into jch
+38bdaa21c41a2e63881db9356ee69100407c6675 Merge branch 'jc/save-restore-terminal-revert' into jch
+826e36e4576565e362d19ed51a92db5559a4d0b8 ###
+45b9a035d43cebfe3f4d6b5f42ea144213e655f6 Merge branch 'ns/tmp-objdir' into jch
+63e8ce0bf126f099eba135d7f4015f4e015263d2 Merge branch 'ns/batched-fsync' into jch
+036a2d42d17bed6e4e9e56f355cb98efd9df557e Merge branch 'jk/loosen-urlmatch' into jch
+8de1e0c31236990f573b467ed23e3c42059ceb32 Merge branch 'ow/stash-count-in-status-porcelain-output' into jch
+3ba0db10690e6ea000da111a8daf6c323c572f03 Merge branch 'ab/refs-errno-cleanup' into jch
+19e83ba691a5f72ca375d7a5adbffd477008fcb6 Merge branch 'jc/tutorial-format-patch-base' into jch
+55a4a1c511dcedf481801f64180026864cf67893 Merge branch 'so/stash-staged' into jch
+d26fb5cc3be43eca792907d0ee8b248b29b234e2 Merge branch 'jc/fix-ref-sorting-parse' into jch
+1c6d28627e0c8dbe1b94b23bd89ceee79e6c3c2e Merge branch 'jc/unsetenv-returns-an-int' into jch
+e4418977a6f7d5e4990278db3a4b06cf0310545f Merge branch 'tp/send-email-completion' into jch
+cfadfa93a0f957410ba135618107f96268fdab5d Merge branch 'tb/plug-pack-bitmap-leaks' into jch
+a15835fae0c8937ad6533f288aadf03ac1b04b46 Merge branch 'ab/sh-retire-helper-functions' into jch
+c0367586c24215bb818a5cb2c8151fe691a935d4 Merge branch 'mc/clean-smudge-with-llp64' into jch
+87301f384683d96fd65a9665920e7d317a484433 ### match next
+eb58999b40ce41406bd970dfeb8b346a6f9b6ceb Merge branch 'cw/protocol-v2-doc-fix' into jch
+89132b213ff78afb93237e12f28d3c28ef445b7f Merge branch 'vd/sparse-sparsity-fix-on-read' into jch
+7ada42fd39f82d5b191dbdc2b27f0a82e23a0a69 Merge branch 'gc/remote-with-fewer-static-global-variables' into jch
+3275be7a41064913e2338fbbd6a877515153e52e Merge branch 'ja/doc-cleanup' into jch
+2e1dc3846dde4de7fe95ce53eb795bed0980e231 Merge branch 'js/branch-track-inherit' into jch
+e9c44d77ac9efbcdb973760ddccc1ccf000cfa74 Merge branch 'jc/doc-submitting-patches-choice-of-base' into jch
+bfe87dae7ffa066eec369facb2215697ee48e134 Merge branch 'ew/test-wo-fsync' into jch
+4a209a00cd04b4398a2a8fb2e70bb65008fdfb9c Merge branch 'if/redact-packfile-uri' into jch
+44a8058d3dabddce332b24b3c091f3ff4302999e Merge branch 'jc/fix-first-object-walk' into jch
+87de2b72187155bfbb1e52ae108cbbbb451982e3 Merge branch 'js/ci-no-directional-formatting' into jch
+792c9875eca7f44ba47df46fa03f481efa538975 Merge branch 'jk/strbuf-addftime-seconds-since-epoch' into jch
+7ca0d6cbf852471a9b5b5b29ebab6a08e3cc1db6 Merge branch 'tw/var-default-branch' into jch
+567b364bfc229d661394e9ebaa365d9adef389f9 Merge branch 'ak/protect-any-current-branch' into jch
+67251c74ee5f6fe2630e394b298db45db71a1b79 Merge branch 'ab/generate-command-list' into jch
+54775df7c5c68db6bdea8a5ae96ca7015a214038 Merge branch 'jk/test-bitmap-fix' into jch
+9d57acbfe317311f8977e50d13ae7af99a360a65 Merge branch 'jk/jump-merge-with-pathspec' into jch
+2b79b825bef5f790a01db98317b91765ab0f01f6 Merge branch 'jt/pack-header-lshift-overflow' into jch
+c57f09fb458d31e8d981d2f147721ccfb917d563 Merge branch 'pw/xdiff-classify-record-in-histogram' into jch
+eb14498035549a3042f3021b87490915a6f80c9f Merge branch 'js/trace2-avoid-recursive-errors' into jch
+b7e891d227fc6991f2e738e6e0ce1b2b14bdd3e2 Merge branch 'fs/test-prereq' into jch
+037a18a19149aab61927e6fa235798830a2c9cc0 Merge branch 'jk/t5319-midx-corruption-test-deflake' into jch
+8ee7591481a2dc3ada9545f3744f1bab4cbc63aa Merge branch 'ab/checkout-branch-info-leakfix' into jch
+2232cdf336eb3e5e27dbb66d9b1b940ca7ca1660 Merge branch 'ah/advice-pull-has-no-preference-between-rebase-and-merge' into jch
+5ae0908d626f4661a862e61799236640d5ba22e5 Merge branch 'rs/mergesort' into jch
+521a9e4c2f3e6e4f594b142fef1c1c8512040d02 Merge branch 'tl/midx-docfix' into jch
+6a6ddfaf11fc11faf63276b2a96b4ba53131e8bb Merge branch 'fs/ssh-signing-key-lifetime' into jch
+0fee6e41c24a81c7b68e40af921117f7a2b40445 Merge branch 'fs/ssh-signing-other-keytypes' into jch
+d804808bbbb831407f1fd6f06930a68335723eea Merge branch 'ds/fetch-pull-with-sparse-index' into jch
+22a6fc92fbbb28ec202bf23fc4a4652a11fbb3b5 Merge branch 'hk/ci-checkwhitespace-commentfix' into jch
+c2196c4b90e424432948d16b8954d9aa3279df00 Merge branch 'jk/fetch-pack-avoid-sigpipe-to-index-pack' into jch
+82f3d9b4d47b46995db37f6b19366dfb984e7d29 Merge branch 'jk/refs-g11-workaround' into jch
+f2f3e428082a9fae75e7628fd6c39b62acf881db Merge branch 'jc/c99-var-decl-in-for-loop' into jch
+f752105e78c50adcbd4302b2aa08c85b9043694c Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into jch
+1e35a0f8e8dfe8ba59729725f15057b2d59ab235 Merge branch 'xw/am-empty' into jch
+c29386f4879bb3abdb6de114087331b9d7cbd70b Merge branch 'jk/t7006-sigpipe-tests-fix' into jch
+760c0982d2cd32e20ca30a7bbf6bbb4f05f29725 Merge branch 'jt/midx-doc-fix' into jch
+4c22597478be525df449aca0268990d610591d24 Merge branch 'hn/create-reflog-simplify' into jch
+2fb2d4857094917557d92df0ed4963ace8514b86 Merge branch 'ab/run-command' into seen
+3c355d82fc68dda12d4f7bf1e73ac31923a29aa1 Merge branch 'tl/ls-tree-oid-only' into seen
+200a57276292b0adc94f8d4f30568903151d2200 Merge branch 'en/keep-cwd' into seen
+2b3dabb2fb7969dc4e13bdf539cceb656f53713b Merge branch 're/color-default-reset' into seen
+76056dfc561eac62600260200f5fef9491debdce Merge branch 'ab/only-single-progress-at-once' into seen
+fc7406ed7ab281ef03f9ec89e87b39385b6960d4 Merge branch 'ms/customizable-ident-expansion' into seen
+be2aa7d61621bbb0369613f933d043a3300c07f5 Merge branch 'en/zdiff3' into seen
+f91fe2a110f4c9b540ecbda0594ad0a897a06848 Merge branch 'cf/fetch-set-upstream-while-detached' into seen
+b7764ff3f95d4eeb603accd86a59a3db6caf4ed7 Merge branch 'pw/diff-color-moved-fix' into seen
+9874da2612ffc0f48c5da9b2878ae7159917e458 Merge branch 'es/superproject-aware-submodules' into seen
+a9a66a51429f12eaf83b1d995d045b284f1da92d Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+29f408d6c39f1320b3762726a2bc34ac7f4f79f5 Merge branch 'hn/reftable' into seen
+5e8b97a169f18c487f2029a9300140d291d1b10d Merge branch 'ns/remerge-diff' into seen
+7b240aebb8833b09ad0ddfbf40e5a1b6cad5140d Merge branch 'ab/config-based-hooks-2' into seen
+a5547080551143d491af5e4ac92e765974567454 Merge branch 'jh/builtin-fsmonitor-part2' into seen
+6f8914a0d6a204df3b55f18faa573de707f3b3f5 Merge branch 'es/pretty-describe-more' into seen
+0936b922275def4c7d9eb3f61ea8ac71e4874ada Merge branch 'ab/mark-leak-free-tests-even-more' into seen
+e2427bac4fa81028ee3abeea538f17ca005c6e56 Merge branch 'rj/receive-pack-avoid-sigpipe-during-status-reporting' into seen
+8113af0211f6b06602ef54593f8c576a6b19b779 Merge branch 'ab/parse-options-cleanup' into seen
+de5d33fbafab79693b7cded4dfb1052f96fdd196 Merge branch 'ab/make-dependency' into seen
+6d0af54dc3dfad0aeae504cacd9ab36f6576942b Merge branch 'hn/reflog-tests' into seen
+93c9b0fa14c4535f126bbd34b8eaa43223dd9600 Merge branch 'ab/ci-updates' into seen
 
---===============4403214841560594075==--
+--===============3916081420735111084==--
