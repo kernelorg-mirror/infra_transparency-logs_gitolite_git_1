@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 23 Nov 2021 16:51:46 -0000
-Message-Id: <163768630698.24253.8563162039461442912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 23 Nov 2021 16:53:33 -0000
+Message-Id: <163768641321.24832.10007480310414467401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm/hackathon/topic/phase-5
-    old: 0000000000000000000000000000000000000000
-    new: b8944c878db4729ac797e0442170b1ad131a1236
+  - ref: refs/heads/renesas/gpio-logic-analyzer-v5
+    old: 6c89ff67cba40fe1a6d141e7d49c4aa194496bae
+    new: 08317ff1a77ec92ed1e495757f241acf6d26ddca
+    log: |
+         08317ff1a77ec92ed1e495757f241acf6d26ddca gpio: add sloppy logic analyzer using polling
+         
