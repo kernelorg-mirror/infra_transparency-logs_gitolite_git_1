@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Nov 2021 11:43:55 -0000
-Message-Id: <163766783505.21126.7203345019636259678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 23 Nov 2021 11:45:29 -0000
+Message-Id: <163766792930.23131.17366755205702694789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 1c743127cc54b112b155f434756bd4b5fa565a99
-    new: 5789d04b77126752ab1d70c7f7fc00d65401cb1d
+    old: 3b0e04140bc30f9f5c254a68013a901e5390b0a8
+    new: 25e2735de8613e5677e53730e751bbaf83998be5
     log: |
-         45c3ff7a9ac195135536057021c1d3ac664f3f62 net/smc: Clean up local struct sock variables
-         606a63c9783a32a45bd2ef0eee393711d75b3284 net/smc: Ensure the active closing peer first closes clcsock
-         5789d04b77126752ab1d70c7f7fc00d65401cb1d Merge branch 'smc-fixes'
+         ed1607e2ddf4b3196703b209428cbce3de869ff8 mlxsw: spectrum_router: Remove deadcode in mlxsw_sp_rif_mac_profile_find
+         c1020d3cf4752f61a6a413f632ea2ce2370e150d mlxsw: pci: Add shutdown method in PCI driver
+         25e2735de8613e5677e53730e751bbaf83998be5 Merge branch 'mlxsw-updates'
          
