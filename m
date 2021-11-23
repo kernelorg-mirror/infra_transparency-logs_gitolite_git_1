@@ -1,26 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 23 Nov 2021 16:55:57 -0000
-Message-Id: <163768655757.27190.18336737850422455064@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6075953661316861606=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 23 Nov 2021 16:56:00 -0000
+Message-Id: <163768656032.27305.2891024468374837874@gitolite.kernel.org>
+
+--===============6075953661316861606==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: fa9730b4f28b7bd183d28a0bf636ab7108de35d7
-    new: ae26c08e6c8071ba8febb0c7c0829da96c75248c
+  - ref: refs/heads/regulator-5.17
+    old: 92b1348277f8893671e5354adde64fe3cf462821
+    new: cff6f593251cdf5398dc3c57f7032b8e9dcb633e
     log: |
-         ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
+         cff6f593251cdf5398dc3c57f7032b8e9dcb633e regulator: rohm-generic: iniline stub function
          
-  - ref: refs/heads/master
-    old: 060c20a50fd28d01776543a3e81f8a8be4134fa1
-    new: f2e3f7db3eb628dba22a67b4973043e8be783dd6
-    log: |
-         ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
-         f2e3f7db3eb628dba22a67b4973043e8be783dd6 Merge branch 'for-linus'
-         
+
+--===============6075953661316861606==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1637686558 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637686558-a9891779c129a1f76ed5403670f4d0fa92a43af6
+
+92b1348277f8893671e5354adde64fe3cf462821 cff6f593251cdf5398dc3c57f7032b8e9dcb633e refs/heads/regulator-5.17
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGdHR4ACgkQJNaLcl1U
+h9Be4AgAgClBRf0+DJrbKwWy3SIgBvjztoLtkVflc400friUWN2d0Sz5c0Xi9NgG
+9yt5E3YLPHf8fNGWbBiYqjcNk3ON/zFg4TLjr/UFWqcrZiUVjsv8NelWJ+Df1m+P
+13v88cF/0HLdf/n4WhhskTJJl1Pul4+yYKLka9L/Omnt0Vufy1Z4/ek5wWXNHNlH
+SPZkTfYyFS7ALD+BW6Xh4da5h1g1FETJZGf/OCp9Sw1IuXBlIFILpftAQo/Nx13c
+R8oMmvK0SfXwQrqEhwA8d35vBlbVhKNJMHJ8I6c9zTeCObpo3sDQv2kH9Rton7kF
+VNJpW4pPSzHIb0s0l2CiRB49LnQSlA==
+=qGSW
+-----END PGP SIGNATURE-----
+
+--===============6075953661316861606==--
