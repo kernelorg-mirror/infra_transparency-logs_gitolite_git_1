@@ -1,24 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Tue, 23 Nov 2021 18:34:33 -0000
-Message-Id: <163769247319.24573.8568123616749196120@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8963970630726407808=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 23 Nov 2021 18:39:30 -0000
+Message-Id: <163769277097.27429.14553040450124289672@gitolite.kernel.org>
+
+--===============8963970630726407808==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: a84d951aec0446b26ef452a8e601c50d1d55144b
-    new: b77826af5d3a852571671774219b24df0bd7b867
-    log: |
-         4165ad5e8f138d3d801a0898dab1dac15c6f1131 libbpf: Sync with latest libbpf repo to pick support for BTF_KIND_TYPE_TAG
-         f2ee2ae85d243676a3ce662c8d696715774d91b8 dutil: Move DW_TAG_LLVM_annotation definition to dutil.h
-         a3884642ca6ac7a857892abb680c482e420d9660 dwarf_loader: Support btf_type_tag attribute
-         37b65df2ecf8b6e496b32b30c8deea770a9abd2c man pages: Add missing --skip_encoding_btf_type_tag entry
-         495d0c9ebb4a201d9c2a181625e3577d60e18d7e man pages: Add missing --skip_encoding_btf_decl_tag entry
-         b77826af5d3a852571671774219b24df0bd7b867 btf_encoder: Support btf_type_tag attribute
-         
+  - ref: refs/heads/net-mlx5
+    old: 03a000bfd7193cacefb40e309283578c6ae207b5
+    new: 7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb
+    log: revlist-03a000bfd719-7b1b62bc1e6a.txt
+
+--===============8963970630726407808==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-03a000bfd719-7b1b62bc1e6a.txt
+
+792b2086584f25d84081a526beee80d103c2a913 ice: fix vsi->txq_map sizing
+f65ee535df775a13a1046c0a0b2d72db342f8a5b ice: avoid bpf_prog refcount underflow
+16517829f2e02f096fb5ea9083d160381127faf3 hamradio: fix macro redefine warning
+e5b40668e930979bd1e82c7ed7c9029db635f0e4 slip: fix macro redefine warning
+1c743127cc54b112b155f434756bd4b5fa565a99 net: nexthop: fix null pointer dereference when IPv6 is not enabled
+45c3ff7a9ac195135536057021c1d3ac664f3f62 net/smc: Clean up local struct sock variables
+606a63c9783a32a45bd2ef0eee393711d75b3284 net/smc: Ensure the active closing peer first closes clcsock
+5789d04b77126752ab1d70c7f7fc00d65401cb1d Merge branch 'smc-fixes'
+ce4995bc6c8eec9685707e36c3f38aea3c8694fa mlxsw: spectrum: Allow driver to load with old firmware versions
+63b08b1f6834bbb0b4f7783bf63b80c8c8e9a047 mlxsw: spectrum: Protect driver from buggy firmware
+bd08ee2315a30b42a422ad37a0600ab258b90a5b Merge branch 'mlxsw-fixes'
+33a153100bb3459479bd95d3259c2915b53fefa8 net: ipa: directly disable ipa-setup-ready interrupt
+8afc7e471ad3c92a9c96adc62d1b67de77378bb6 net: ipa: separate disabling setup from modem stop
+60ebd6737c880e81eefa30b6ea7961fceee4bdec Merge branch 'ipa-fixes'
+52911bb62ed82f0ba4dfddcd1540494d78b1a717 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+c75a9ad43691de040bead75f1924928111571f9c r8169: fix incorrect mac address assignment
+b82d71c0f84a2e5ccaaa7571dfd5c69e0e2cfb4a net: chelsio: cxgb4vf: Fix an error code in cxgb4vf_pci_probe()
+a049a30fc27c1cb2e12889bbdbd463dbf750103a net: usb: Correct PHY handling of smsc95xx
+e4e9bfb7c93d7e78aa4ad7e1c411a8df15386062 net: ipa: kill ipa_cmd_pipeline_clear()
+7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb net: marvell: mvpp2: increase MTU limit when XDP enabled
+
+--===============8963970630726407808==--
