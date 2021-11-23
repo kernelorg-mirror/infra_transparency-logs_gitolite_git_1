@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 23 Nov 2021 11:12:20 -0000
-Message-Id: <163766594056.1621.16963009216950939333@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 11:12:28 -0000
+Message-Id: <163766594862.1734.9824607465123695175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 1775160ec437baeabed7a4234b5da224c0fa8867
-    new: f20d7a60c46096a2fb7b3a6e2c94215a382c7bcb
+  - ref: refs/heads/kasan/dev
+    old: 32135fddfc9a276c4eaf7a68095292927c64cf75
+    new: 1d952e05a7a1337a4bfc44b55cdf83a297f7e76e
     log: |
-         20276c0395a172242d1597d3df2b2c1f1eb8a266 objtool, kcsan: Remove memory barrier instrumentation from noinstr
-         202a73945ac98a944aa445b1e1e98a8e097c0c4f fixup! kcsan: Remove redundant zero-initialization of globals
-         f20d7a60c46096a2fb7b3a6e2c94215a382c7bcb fixup! kcsan: Refactor reading of instrumented memory
+         dc23b7dd54e2bf8202b5cadca0cf98fef4d3b708 kasan: test: add globals left-out-of-bounds test
+         45a6ebc5978c8903acc7d99f18cf8f17c4cb1944 kasan: add ability to detect double-kmem_cache_destroy()
+         1d952e05a7a1337a4bfc44b55cdf83a297f7e76e kasan: test: add test case for double-kmem_cache_destroy()
          
