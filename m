@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0847658381110558262=="
+Content-Type: multipart/mixed; boundary="===============0907843992951801550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 23 Nov 2021 18:40:54 -0000
-Message-Id: <163769285452.29476.17505670420387771239@gitolite.kernel.org>
+Date: Tue, 23 Nov 2021 18:41:05 -0000
+Message-Id: <163769286560.29629.929735814870588392@gitolite.kernel.org>
 
---===============0847658381110558262==
+--===============0907843992951801550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 3b0e04140bc30f9f5c254a68013a901e5390b0a8
-    new: 2106efda785b55a8957efed9a52dfa28ee0d7280
-    log: revlist-3b0e04140bc3-2106efda785b.txt
+  - ref: refs/heads/mlx5-queue
+    old: b2ee9ec2e08911a70c58ff26801d2dc33142a6f1
+    new: 0408f1d95fc90be411fe237b6232af945441d07f
+    log: revlist-b2ee9ec2e089-0408f1d95fc9.txt
 
---===============0847658381110558262==
+--===============0907843992951801550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b0e04140bc3-2106efda785b.txt
+Content-Disposition: attachment; filename=revlist-b2ee9ec2e089-0408f1d95fc9.txt
 
 325e0d0aa683a96b9d9cd5802be524d4da5e2dd2 devlink: Add 'enable_iwarp' generic device param
 e523af4ee56090fbdd9cf474752448d35930bcd4 net/ice: Add support for enable_iwarp and enable_roce devlink param
@@ -43,5 +43,22 @@ a1fb410a57511b96d980a9a71b5af1873bf43171 phy: marvell: phy-mvebu-cp110-comphy: a
 5f11542f13728d26e4d867fc95263d7f14d61bf3 Merge branch 'mvpp2-5gbase-r-support'
 c384cee14aa330ba2f5616fb821ba81f2ef42ccd Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 2106efda785b55a8957efed9a52dfa28ee0d7280 net: remove .ndo_change_proto_down
+5ad5c08f3783dcf7c94975f6527b0f3c8f1037fa net/mlx5e: TC, Remove redundant action stack var
+70482cad178b33918f90cc640b8dc1f6cad9ff09 net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+51705347f97c4e6fb8ab47192659a2f88c865dcd net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+cfefb4a3e77abd3e1331426d86012dc65a2b6451 net/mlx5e: TC, Move common flow_action checks into function
+357325311e4dc1b83290d51455177f8a74f39283 net/mlx5e: TC, Set flow attr ip_version earlier
+739f3a9bc6a4909ad6aea50ff0ca414c67bcce36 net/mlx5e: Hide function mlx5e_num_channels_changed
+eb62d61acccb3495b74d13ca401e6316277de65a net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+9ba95aaaa134d2f76577508dc45026081e537322 net/mlx5: Print more info on pci error handlers
+e4a852600b7d1ffb062002e75fac3411e7d3e8f0 net/mlx5e: Take num_txqs getters of PTP and QOS into the profile
+df5fd77ca4bc225ecdf5a8db70eba7125a47f97c net/mlx5e: Save memory by using dynamic allocation in netdev priv
+ff4e77fdf112b0444b4e213e04f6240e26496a35 net/mlx5e: Allow profile-specific limitation on max num of channels
+0aa693bc20ec71cf8e7a88927ac9ae788b34d4fb net/mlx5e: Use dynamic per-channel allocations in stats
+47c06dab3a01bcc833f5091726d42e497859bdd3 net/mlx5e: Allocate per-channel stats dynamically at first usage
+0f899c3029b945856ac0de24008da023deac5094 Merge branch 'patchq/430124' into mlx5-queue
+8996a8ed2748f251116e79fa851f8ec35c9b0883 Merge branch 'patchq/446962' into mlx5-queue
+3217ccd08076fa7ca0be0297697589ea101a8758 Merge branch 'patchq/435082' into mlx5-queue
+0408f1d95fc90be411fe237b6232af945441d07f Merge branch 'patchq/432332' into mlx5-queue
 
---===============0847658381110558262==--
+--===============0907843992951801550==--
