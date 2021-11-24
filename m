@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6193077954323058653=="
+Content-Type: multipart/mixed; boundary="===============5241614140631101203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 24 Nov 2021 17:09:58 -0000
-Message-Id: <163777379840.8061.14663424970970770107@gitolite.kernel.org>
+Date: Wed, 24 Nov 2021 17:10:08 -0000
+Message-Id: <163777380824.9551.9540634181652003889@gitolite.kernel.org>
 
---===============6193077954323058653==
+--===============5241614140631101203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.16
+  - ref: refs/heads/for-next
     old: 7552750d0494fdd12f71acd8a432f51334a4462d
     new: 1b8d2789dad0005fd5e7d35dab26a8e1203fb6da
     log: revlist-7552750d0494-1b8d2789dad0.txt
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
 
---===============6193077954323058653==
+--===============5241614140631101203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ af16bdeae8e036942590a2c1f4227fecda477e7a Merge tag 'perf-urgent-2021-11-21' of g
 136057256686de39cc3a07c2e39ef6bc43003ff6 Linux 5.16-rc2
 1b8d2789dad0005fd5e7d35dab26a8e1203fb6da dm btree remove: fix use after free in rebalance_children()
 
---===============6193077954323058653==--
+--===============5241614140631101203==--
