@@ -1,51 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4208625483924940606=="
+Content-Type: multipart/mixed; boundary="===============6944655630500707893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 24 Nov 2021 18:30:15 -0000
-Message-Id: <163777861577.28709.3818410915174021287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 24 Nov 2021 18:30:31 -0000
+Message-Id: <163777863129.28864.11946724288614199734@gitolite.kernel.org>
 
---===============4208625483924940606==
+--===============6944655630500707893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: ff7bfe106db5fdc09debd19e9de4c3a72f47524a
-    new: d0a99d0a75edb58d2a98380def7634dc5b6d914e
-    log: revlist-ff7bfe106db5-d0a99d0a75ed.txt
+  - ref: refs/heads/master
+    old: 5d9f4cf36721aba199975a9be7863a3ff5cd4b59
+    new: 5f53fa508db098c9d372423a6dac31c8a5679cdf
+    log: revlist-5d9f4cf36721-5f53fa508db0.txt
 
---===============4208625483924940606==
+--===============6944655630500707893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff7bfe106db5-d0a99d0a75ed.txt
+Content-Disposition: attachment; filename=revlist-5d9f4cf36721-5f53fa508db0.txt
 
-c6d5f1933085f9a92ed5c256a859ab31c7a35f88 net: stmmac: Calculate CDC error only once
-e7049395b1c3085d12b5ba16d058c65598368853 dccp/tcp: Remove an unused argument in inet_csk_listen_start().
-b4a8e7493d74121093f2e1e024a9d3bb1a912912 dccp: Inline dccp_listen_start().
-91eddd309c679a96ad6c8d9b568e23af8fdb10a3 Merge branch 'dccp-tcp-minor-fixes-for-inet_csk_listen_start'
-45932221bd948c635a09a4075c189d25bfcc7449 lan78xx: Clean up some inconsistent indenting
-d9069dab207534d9f6f41993ee78a651733becea net: hns3: add log for workqueue scheduled late
-4f331fda35f1695af8ddd8180edc948880def74b net: hns3: format the output of the MAC address
-8488e3c682147f60d592b03bc69eaea0fbe1ebcf net: hns3: debugfs add drop packet statistics of multicast and broadcast for igu
-db596298edbf18c8a0d2778ca4d76ee09ed761f6 net: hns3: add dql info when tx timeout
-d156250018ab5adbcfcc9ea90455d5fba5df6769 Merge branch 'hns3-next'
-0bb049d9af2f955f2213a5f2beb424d902b2dbb7 net/mlx5e: TC, Remove redundant action stack var
-f2a847a8fc3305461509837abb2b0b5309767675 net/mlx5e: Remove redundant actions arg from validate_goto_chain()
-f74efde9149a98e4b934ac532bbe30ebc91e3e1a net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
-bdb9665d5a6c1a0c11d91e1106067395d77038e7 net/mlx5e: TC, Move common flow_action checks into function
-6861977a6c897864ac418b3eb15bea562742b420 net/mlx5e: TC, Set flow attr ip_version earlier
-e548942dd71823a5761cbb68408b8228bef355bc net/mlx5e: Hide function mlx5e_num_channels_changed
-74f36cce9d0ded8a1db79a2bbe65267178e3a8cb net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
-30c2c0480d9ac03c72ce5b5df861da80380050a6 net/mlx5: Print more info on pci error handlers
-eb2c907d1e7c72898c0aee2a68430791dfb02fb9 Merge branch 'patchq/430124' into mlx5-queue
-4505cd3096a5b569242ae3d5addbaf30af952e3a Merge branch 'patchq/446962' into mlx5-queue
-d0a99d0a75edb58d2a98380def7634dc5b6d914e Merge branch 'patchq/435082' into mlx5-queue
+fa443bc3c1e4b28d9315dea882e8358ba6e26f8b HID: intel-ish-hid: add support for MODULE_DEVICE_TABLE()
+cb1a2c6847f7bd2ba45ee1b2c86543c783aec270 HID: intel-ish-hid: use constants for modaliases
+44e2a58cb8803e3e40eaf5708c4d15b4118913c4 HID: intel-ish-hid: fw-loader: only load for matching devices
+0d0cccc0fd83f4657cfc2e50706bfa16f125057e HID: intel-ish-hid: hid-client: only load for matching devices
+facfe0a4fdce3f545a4a883358eda3078b0425c7 platform/chrome: chros_ec_ishtp: only load for matching devices
+f155dfeaa4ee21bce3f8f76b2addaec396b41b39 platform/x86: isthp_eclite: only load for matching devices
+304dd3680b56a2a5c8eaff41bcf1a3e49adf7dfc HID: nintendo: unlock on error in joycon_leds_create()
+7fb0413baa7f8a04caef0c504df9af7e0623d296 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+64355db3caf6468dc711995239efe0cbcd7d0091 mod_devicetable: fix kdocs for ishtp_device_id
+bf9167a8b40c9cf463521da05342db81808c1b6e HID: intel-ish-hid: fix module device-id handling
+e3d9234f3002bb23eb021f6d317e037b5487d4d0 Revert "HID: hid-asus.c: Maps key 0x35 (display off) to KEY_SCREENLOCK"
+a94f61e63f337d95001e1a976ab701100fa1d666 HID: ft260: fix i2c probing for hwmon devices
+7fc48fd6b2c0acacd8130d83d2a037670d6192d2 HID: input: Fix parsing of HID_CP_CONSUMER_CONTROL fields
+3e6a950d98366f5e716904e9a7e8ffc7ed638bd6 HID: input: set usage type to key on keycode remap
+b74edf9bfbc11a7d0d0d756f06b17beb213ad5ca HID: Ignore battery for Elan touchscreen on HP Envy X360 15-eu0xxx
+fa48020c9fae2872f7bf8f38e09f73eb61fdb4ce HID: thrustmaster: fix sparse warnings
+a1091118e0d6d84c2fdb94e6c397ac790bfb9dd6 HID: magicmouse: prevent division by 0 on scroll
+f61e06391d65c4ecb11ff2a0bdc1e7d70c2aa407 HID: nintendo: eliminate dead datastructures in !CONFIG_NINTENDO_FF case
+32bea35746097985c48cec836d5f557a3b66b60a HID: multitouch: Fix Iiyama ProLite T1931SAW (0eef:0001 again!)
+8d192bec534bd5b778135769a12e5f04580771f7 parisc: Increase FRAME_WARN to 2048 bytes on parisc
+169d1a4a2adb2c246396c56aa2f9eec3868546f1 parisc: Provide an extru_safe() macro to extract unsigned bits
+df2ffeda6370a77011902e7c9d7a1eb1cbffed4f parisc: Fix extraction of hash lock bits in syscall.S
+3fbdc121bd051d9f1b3b2e232ad734c44b47d32c parisc: Convert PTE lookup to use extru_safe() macro
+98400ad75e95860e9a10ec78b0b90ab66184a2ce Revert "parisc: Fix backtrace to always include init funtion names"
+1880ed71ce863318c1ce93bf324876fb5f92854f tracing/uprobe: Fix uprobe_perf_open probes iteration
+740bebf42104d2f082514b1545a14056f3b1b56c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+29889216befc1cee635da8a64f48caae47ffbcaf Merge tag 'trace-v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+5f53fa508db098c9d372423a6dac31c8a5679cdf Merge tag 'for-5.16/parisc-5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============4208625483924940606==--
+--===============6944655630500707893==--
