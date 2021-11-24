@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 24 Nov 2021 15:30:14 -0000
-Message-Id: <163776781434.11824.2361888245294437966@gitolite.kernel.org>
+Date: Wed, 24 Nov 2021 15:31:34 -0000
+Message-Id: <163776789469.12261.12575246909931312449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: d555b1f2c333d442ae9c84760d698f38796e459e
-    new: 27fe097bc60a344ccd8107522184c2750f45df5c
+    old: 27fe097bc60a344ccd8107522184c2750f45df5c
+    new: 741268adb34061c28d8236dd67217f0df580c930
     log: |
-         27fe097bc60a344ccd8107522184c2750f45df5c Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+         741268adb34061c28d8236dd67217f0df580c930 Bluetooth: btusb: re-definition for board_id in struct qca_version
          
