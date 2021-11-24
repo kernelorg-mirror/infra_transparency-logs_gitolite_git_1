@@ -1,60 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4727409575368324776=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Wed, 24 Nov 2021 17:18:04 -0000
-Message-Id: <163777428467.13681.3345235013329248847@gitolite.kernel.org>
-
---===============4727409575368324776==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 24 Nov 2021 17:20:53 -0000
+Message-Id: <163777445358.17223.15020032522907317373@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master-pending
-    old: d435f85ae3ee75ab5688ddd671b92ee745053356
-    new: 4630ef6bb403b65e5f6b9da3fb200ac78b1bab59
-    log: revlist-d435f85ae3ee-4630ef6bb403.txt
-  - ref: refs/heads/pending
-    old: bda6bed508a6aa289299de13b5d04dbb767e429b
-    new: beb10d5217850cc125a898ed393b9ca8956e35d4
+  - ref: refs/heads/net-next-mlx5
+    old: 2106efda785b55a8957efed9a52dfa28ee0d7280
+    new: d156250018ab5adbcfcc9ea90455d5fba5df6769
     log: |
-         72f4124347724e3b8aa434f6bc4a2cd69f7bb336 Revert "ath11k: add read variant from SMBIOS for download board data"
-         c27506cc7733261bafd7a97e7990407eef433d32 ath11k: Fix spelling mistake "detetction" -> "detection"
-         d5549e9a6b863fe10388a55ab5dfc12b0a1473d3 ath11k: Use memset_startat() for clearing queue descriptors
-         2fa6f5d2c376cc1d7513457939c1950fc052ed4c ath11k: report rssi of each chain to mac80211
-         85c15ededeb9883573689092671f4b10f4b6e521 ath11k: Use host CE parameters for CE interrupts configuration
-         ba0b3d667dbac2b3f60835381b322b3cee35ef7f ath11k: add dbring debug support
-         f9a2e00810890c15bcf1c230e15a03f55882942c ath11k: add spectral/CFR buffer validation support
-         1b4863da0cc602571e24b69a88ff6398be004430 wcn36xx: Use correct SSN for ADD BA request
-         b99c852899f1d26ccaad0830b0693b2250e5fce4 ath10k: Fix the MTU size on QCA9377 SDIO
-         beb10d5217850cc125a898ed393b9ca8956e35d4 ath11k: fix destination monitor ring out of sync
+         c6d5f1933085f9a92ed5c256a859ab31c7a35f88 net: stmmac: Calculate CDC error only once
+         e7049395b1c3085d12b5ba16d058c65598368853 dccp/tcp: Remove an unused argument in inet_csk_listen_start().
+         b4a8e7493d74121093f2e1e024a9d3bb1a912912 dccp: Inline dccp_listen_start().
+         91eddd309c679a96ad6c8d9b568e23af8fdb10a3 Merge branch 'dccp-tcp-minor-fixes-for-inet_csk_listen_start'
+         45932221bd948c635a09a4075c189d25bfcc7449 lan78xx: Clean up some inconsistent indenting
+         d9069dab207534d9f6f41993ee78a651733becea net: hns3: add log for workqueue scheduled late
+         4f331fda35f1695af8ddd8180edc948880def74b net: hns3: format the output of the MAC address
+         8488e3c682147f60d592b03bc69eaea0fbe1ebcf net: hns3: debugfs add drop packet statistics of multicast and broadcast for igu
+         db596298edbf18c8a0d2778ca4d76ee09ed761f6 net: hns3: add dql info when tx timeout
+         d156250018ab5adbcfcc9ea90455d5fba5df6769 Merge branch 'hns3-next'
          
-
---===============4727409575368324776==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d435f85ae3ee-4630ef6bb403.txt
-
-72f4124347724e3b8aa434f6bc4a2cd69f7bb336 Revert "ath11k: add read variant from SMBIOS for download board data"
-c27506cc7733261bafd7a97e7990407eef433d32 ath11k: Fix spelling mistake "detetction" -> "detection"
-d5549e9a6b863fe10388a55ab5dfc12b0a1473d3 ath11k: Use memset_startat() for clearing queue descriptors
-8ad7eaf0f248466b4951ab7245731dee8d185998 Merge branch 'ath-next'
-12b30607d608912a6352d8aab1c4c42afe638ac4 Merge remote-tracking branch 'mhi/mhi-next'
-9dc522a9c6d6fda2df90b4daa7fe2b3d87191066 Add localversion-wireless-testing-ath
-69954c82aa6a49cb4b1e1b67c2e8abee362b5160 Revert "bus: mhi: Early MHI resume failure in non M3 state"
-2fa6f5d2c376cc1d7513457939c1950fc052ed4c ath11k: report rssi of each chain to mac80211
-85c15ededeb9883573689092671f4b10f4b6e521 ath11k: Use host CE parameters for CE interrupts configuration
-ba0b3d667dbac2b3f60835381b322b3cee35ef7f ath11k: add dbring debug support
-f9a2e00810890c15bcf1c230e15a03f55882942c ath11k: add spectral/CFR buffer validation support
-1b4863da0cc602571e24b69a88ff6398be004430 wcn36xx: Use correct SSN for ADD BA request
-b99c852899f1d26ccaad0830b0693b2250e5fce4 ath10k: Fix the MTU size on QCA9377 SDIO
-beb10d5217850cc125a898ed393b9ca8956e35d4 ath11k: fix destination monitor ring out of sync
-4630ef6bb403b65e5f6b9da3fb200ac78b1bab59 Merge branch 'pending' into master-pending
-
---===============4727409575368324776==--
