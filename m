@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 24 Nov 2021 03:52:54 -0000
-Message-Id: <163772597459.20096.1896588009576171167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 24 Nov 2021 04:10:49 -0000
+Message-Id: <163772704921.30749.17553069679260053735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fixes
-    old: 5a19c7e06236a9c55dfc001bb4d1a8f1950d23e7
-    new: 9f1ec74c667d453196124623952bc2e39ef0b908
+  - ref: refs/heads/master
+    old: 0afefdced47d039bd418f5d67f594a60aea20871
+    new: 619ca0d0108a5866cca7793bd7e19c5d7a30e750
     log: |
-         3e41c251e780c4b1cf2de2e2801ec950494422ff riscv: dts: unleashed: Add gpio card detect to mmc-spi-slot
-         9f1ec74c667d453196124623952bc2e39ef0b908 riscv: dts: unmatched: Add gpio card detect to mmc-spi-slot
+         619ca0d0108a5866cca7793bd7e19c5d7a30e750 selftests: add arp_ndisc_evict_nocarrier to Makefile
          
