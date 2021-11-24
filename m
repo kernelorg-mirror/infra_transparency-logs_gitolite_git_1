@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 24 Nov 2021 22:45:49 -0000
-Message-Id: <163779394967.24570.14958729587231042630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux-next
+Date: Wed, 24 Nov 2021 22:52:39 -0000
+Message-Id: <163779435934.29718.12304025175421305455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/mcgrof/linux-next
+user: mcgrof
 changes:
-  - ref: refs/heads/for-next/kspp-misc-fixes
-    old: 466d53502d6e008630965d8ef9d921f320c8efe6
-    new: 004a9cea9666ecd470e442ef776a22d24870bba9
-    log: |
-         004a9cea9666ecd470e442ef776a22d24870bba9 treewide: Replace zero-length arrays with flexible-array members
-         
+  - ref: refs/heads/20211124-sysctl-cleanups-v2
+    old: 0000000000000000000000000000000000000000
+    new: c66aee3b7120f4a5f1d40cc9109dcf684643cc17
