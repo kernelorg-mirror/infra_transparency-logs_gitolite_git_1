@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 24 Nov 2021 17:36:06 -0000
-Message-Id: <163777536645.26537.475557202357868216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 24 Nov 2021 17:36:23 -0000
+Message-Id: <163777538308.26683.8183992595211636948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: cff6f593251cdf5398dc3c57f7032b8e9dcb633e
-    new: 432dd1fc134ef902b049b26839edfd3fdc1f8dc0
+  - ref: refs/heads/for-linus
+    old: ecceaa393998a4cffc794477ad3c022557b94fd8
+    new: edf041a53a92558159c94596bedf5b78a799ee51
     log: |
-         1b6ed6bf32fb22ef8e3572fc9c0f6454adf1ca40 regulator: Drop unnecessary struct member
-         6fadec4c5561e2fbe1dfa8a7da9bc58d094a8f04 regulator: Add regulator_err2notif() helper
-         a764ff77d697a4a13e69b3379cc613f7409c6b9a regulator: irq_helper: Provide helper for trivial IRQ notifications
-         432dd1fc134ef902b049b26839edfd3fdc1f8dc0 regulator: rohm-generic: remove unused dummies
+         edf041a53a92558159c94596bedf5b78a799ee51 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: 44ec41b7f7831f91c79a06de5e45f2d7ce6e4fbd
+    new: b79332ef9d61513d0ccda74a5161bb7c31851e9c
+    log: |
+         fffc84fd87d963a2ea77a125b8a6f5a3c9f3192d spi: spidev: Make probe to fail early if a spidev compatible is used
+         b79332ef9d61513d0ccda74a5161bb7c31851e9c spi: Fix condition in the __spi_register_driver()
          
