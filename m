@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jikos/jikos
-Date: Wed, 24 Nov 2021 17:39:26 -0000
-Message-Id: <163777556688.27582.10079682361177336387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+Date: Wed, 24 Nov 2021 17:48:37 -0000
+Message-Id: <163777611738.901.16901116058835244831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jikos/jikos
-user: jikos
+repo: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+user: jkacur
 changes:
-  - ref: refs/heads/for-5.16/mvm-wiphy-lock
-    old: 0fa95b6a16eb46888fcd0fbf36dfe042c80b5f66
-    new: a981f4cca5bbb8ee7f456bd1b4f839c02f10fb22
+  - ref: refs/heads/main
+    old: 1afacfd11ddd97c1126951204623170abd39417a
+    new: 1b81ccb79e2e6cfde8bbe5bb7d32d021eedda29d
     log: |
-         a981f4cca5bbb8ee7f456bd1b4f839c02f10fb22 kasan: distinguish kasan report with generic BUG()
+         7570fc0d6082cb476c32233c2904214dd57737a8 python-linux-procfs: Fix traceback with non-utf8 chars in the /proc/PID/cmdline
+         b19fcff34817fed331b4b5e554be8665cb42c40b python-linux-procfs: Propagate error to user if a pid is completed
+         79cd0d3cf76c6b48ab253affaa2748c909a84540 python-linux-procfs: pflags: Handle pids that completed
+         1b81ccb79e2e6cfde8bbe5bb7d32d021eedda29d python-linux-procfs: Makefile: Add ctags
          
-  - ref: refs/heads/kasan-report
-    old: 0000000000000000000000000000000000000000
-    new: 16c333d712b514b518d529ac90b306f73d48ce06
