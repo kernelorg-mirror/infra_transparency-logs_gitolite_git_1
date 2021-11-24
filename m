@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 24 Nov 2021 13:29:07 -0000
-Message-Id: <163776054718.31632.2577400502855819126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 24 Nov 2021 13:32:01 -0000
+Message-Id: <163776072154.1676.10221662661934673173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm/hackathon/topic/phase-5
-    old: 2dcb048211b73f2bc5db78811bc55314de88a2ca
-    new: 3644bdc5bd2c7aba9ab3d24d2f8d2cb52e5b252e
+  - ref: refs/heads/fixes
+    old: 7d05c5b65fa9f981a7a2c55457434c45df5b7c8e
+    new: 7183b2b5ae6b8d77a37069566d77cf2a74060f7e
     log: |
-         3644bdc5bd2c7aba9ab3d24d2f8d2cb52e5b252e KVM: arm64: pkvm: merge get_num_hvc_args into handle_pvm_exit_hvc64
+         83bb2c1a01d7127d5adc7d69d7aaa3f7072de2b4 KVM: arm64: Save PSTATE early on exit
+         7183b2b5ae6b8d77a37069566d77cf2a74060f7e KVM: arm64: Move pkvm's special 32bit handling into a generic infrastructure
          
