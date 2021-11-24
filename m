@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-Date: Wed, 24 Nov 2021 17:22:17 -0000
-Message-Id: <163777453706.17677.9126132955985215904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Wed, 24 Nov 2021 17:27:31 -0000
+Message-Id: <163777485119.20574.15298838620770078262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 6e53d6d26920d5221d3f4d4f5ffdd629ea69aa5c
-    new: 2a9e9857473bfc5721092ff274bc1e371e5a0d2f
+    old: 1d08bfb018e600cc47f122fb78c02bf74b84dee8
+    new: 2b00ac1c82d54795911343c9b3b3f4ef64c92d92
     log: |
-         ebb75b1b43d3e2bafc4d33eb4b1ae9c8d2759771 mt76: fix timestamp check in tx_status
-         2a9e9857473bfc5721092ff274bc1e371e5a0d2f mt76: fix possible pktid leak
+         ff236b51e8b92470eaed72a3a3b1fbf45d786645 parse: handle comma-separated options
+         2b00ac1c82d54795911343c9b3b3f4ef64c92d92 Merge branch 'fix-parse-sync-file-range' of https://github.com/oleglatin/fio
          
