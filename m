@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 24 Nov 2021 17:53:29 -0000
-Message-Id: <163777640939.5062.17233633183976218633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 24 Nov 2021 18:04:36 -0000
+Message-Id: <163777707630.11168.5256439647011417794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/fscache-rewrite-indexing-3
-    old: 7cb6fc11f97e7d40213fb323f0474fdf5ce4ff24
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/fscache-rewrite
-    old: 0000000000000000000000000000000000000000
-    new: 7cb6fc11f97e7d40213fb323f0474fdf5ce4ff24
+  - ref: refs/heads/usb-linus
+    old: aa5721a9e0c9fb8a4bdfe0c8751377cd537d6174
+    new: 88459e3e42760abb2299bbf6cb1026491170e02a
+    log: |
+         88459e3e42760abb2299bbf6cb1026491170e02a USB: serial: option: add Fibocom FM101-GL variants
+         
