@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6599800705773368438=="
+Content-Type: multipart/mixed; boundary="===============8325387626111459976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 24 Nov 2021 17:34:39 -0000
-Message-Id: <163777527931.24173.16096242867106714793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 24 Nov 2021 17:34:46 -0000
+Message-Id: <163777528611.24296.10011432873900850391@gitolite.kernel.org>
 
---===============6599800705773368438==
+--===============8325387626111459976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 8a6cc0ded6d942e4a506c421c4d87a634bda6e75
     new: 86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61
     log: |
          872fc0b6bde8b2dd6891c740cd792d214255dca3 ASoC: cs35l41: Set the max SPI speed for the whole device
          86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 ASoC: SOF: hda: reset DAI widget before reconfiguring it
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 65c16dd2942f4476a3f96a2625b1475c6137c09a
     new: cd2f33e93d578e9e1c47ef8981ec69298da9cb38
     log: |
@@ -37,29 +37,29 @@ changes:
          cd2f33e93d578e9e1c47ef8981ec69298da9cb38 ASoC: SOF: Intel: power optimizations with HDaudio SPIB register
          
 
---===============6599800705773368438==
+--===============8325387626111459976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637775277 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637775276-40f2a16f813b5c43ff1fce74049a9249217f2692
+pusher C3F436CA30F5D8EB 1637775283 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637775283-9aa74c20a486574b87df806a09310f2c86dfb2c0
 
-8a6cc0ded6d942e4a506c421c4d87a634bda6e75 86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 refs/heads/for-5.16
-65c16dd2942f4476a3f96a2625b1475c6137c09a cd2f33e93d578e9e1c47ef8981ec69298da9cb38 refs/heads/for-5.17
+8a6cc0ded6d942e4a506c421c4d87a634bda6e75 86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 refs/heads/asoc-5.16
+65c16dd2942f4476a3f96a2625b1475c6137c09a cd2f33e93d578e9e1c47ef8981ec69298da9cb38 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGed60ACgkQJNaLcl1U
-h9ASmgf8CIGjKMBgzpUGDyWrzf6N2dGkZ/HiFfqpVebSy/HS1IPJqCN/cmylD9Jx
-8ME/Bt2e0MGBTTvAD2yPjgc9+IjWDzRT9sEd/fa7rsj7lzfZ4KdeKPHJWnbFtaHg
-nazOKWnCJoS9I5kf/Evy9+sPcYC6yw5ttVeAGWhPvhVqNREhiWv6HV/K+tLtA9eK
-hMiH4uYWgwC7v9v0baLoqgctnULIK3yf4QO7yA9lQBaw5NVpypESu6tVjKkclA+m
-+WJ9XxR2FPzddElEIVA6DD3UXpH8LJVwhwMQQyAt2sAwTydFfdSYW7DThOpq4lz6
-2ICTu+xWLJQvFv7rP0uR7+w9vxpWMQ==
-=9Sd1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGed7MACgkQJNaLcl1U
+h9CKmwf7BkQIYtmm1vGAxQptgwa0NPGYrL8dE48nJ6O7VjJdeiEdBeRLBg6rRMDe
+/m0hwCnl0fgKmkTJyiojm7FabfiEtsPhGa/BVdVpQyqqsxwLAse9y/B3Mt4RxREp
+auJj9GMVH6pzIeACU2ny9qbYqdsH9VBppmpLnNZLo1QBpAFQ0sWj7kmreWZc8xY4
+PRQH4fw52ljvhCDw/N3qhj+VzmG8pW9DlPy1BqbBZFjiv7ZxZpq6iKdoHHj9yd3t
+1VUqPAm8LdNjhds/t5EZ7LiReld0qekhUZUnrsm/XJvv2WxbP+aY7jNbMh8iR3tJ
++Y5lBIoXg8GVKP+AQGvYIsRS5N57HQ==
+=0UbK
 -----END PGP SIGNATURE-----
 
---===============6599800705773368438==--
+--===============8325387626111459976==--
