@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 24 Nov 2021 14:05:11 -0000
-Message-Id: <163776271130.22922.16372059681429311337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 24 Nov 2021 14:12:35 -0000
+Message-Id: <163776315537.26449.15322667349858099364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/tags/for-5.16/parisc-5
-    old: 0000000000000000000000000000000000000000
-    new: 9032016fcfd1531141f517cf1a73680115eff6a0
+  - ref: refs/heads/hwmon-next
+    old: 9d07e54a25b84099983f56e33e00f2914f06b53f
+    new: 9d7d41752e9e9794b1725f85252fc34ab302e679
+    log: |
+         9d7d41752e9e9794b1725f85252fc34ab302e679 hwmon: (asus_wmi_sensors) Support X370 Asus WMI.
+         
