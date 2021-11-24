@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 24 Nov 2021 17:36:23 -0000
-Message-Id: <163777538308.26683.8183992595211636948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jikos/jikos
+Date: Wed, 24 Nov 2021 17:39:26 -0000
+Message-Id: <163777556688.27582.10079682361177336387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jikos/jikos
+user: jikos
 changes:
-  - ref: refs/heads/for-linus
-    old: ecceaa393998a4cffc794477ad3c022557b94fd8
-    new: edf041a53a92558159c94596bedf5b78a799ee51
+  - ref: refs/heads/for-5.16/mvm-wiphy-lock
+    old: 0fa95b6a16eb46888fcd0fbf36dfe042c80b5f66
+    new: a981f4cca5bbb8ee7f456bd1b4f839c02f10fb22
     log: |
-         edf041a53a92558159c94596bedf5b78a799ee51 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+         a981f4cca5bbb8ee7f456bd1b4f839c02f10fb22 kasan: distinguish kasan report with generic BUG()
          
-  - ref: refs/heads/for-next
-    old: 44ec41b7f7831f91c79a06de5e45f2d7ce6e4fbd
-    new: b79332ef9d61513d0ccda74a5161bb7c31851e9c
-    log: |
-         fffc84fd87d963a2ea77a125b8a6f5a3c9f3192d spi: spidev: Make probe to fail early if a spidev compatible is used
-         b79332ef9d61513d0ccda74a5161bb7c31851e9c spi: Fix condition in the __spi_register_driver()
-         
+  - ref: refs/heads/kasan-report
+    old: 0000000000000000000000000000000000000000
+    new: 16c333d712b514b518d529ac90b306f73d48ce06
