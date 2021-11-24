@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 24 Nov 2021 20:46:36 -0000
-Message-Id: <163778679657.15567.8872147575485268012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niklas/linux
+Date: Wed, 24 Nov 2021 20:58:46 -0000
+Message-Id: <163778752601.23455.12986993759336318142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/niklas/linux
+user: niklas
 changes:
-  - ref: refs/heads/master
-    old: 21a241b3bc153b346987a28cc132674646589e02
-    new: 899663be5e75dc0174dc8bda0b5e6826edf0b29a
-    log: |
-         899663be5e75dc0174dc8bda0b5e6826edf0b29a Bluetooth: refactor malicious adv data check
-         
+  - ref: refs/meta/cgit
+    old: 0000000000000000000000000000000000000000
+    new: b3c6e92f2c99706dbca2b021b9b3da00e9496340
