@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 24 Nov 2021 11:53:50 -0000
-Message-Id: <163775483042.3426.1197149913336332083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 24 Nov 2021 11:55:41 -0000
+Message-Id: <163775494124.5385.16349565252359112709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 619ca0d0108a5866cca7793bd7e19c5d7a30e750
-    new: ac132852147ad303a938dda318970dd1bbdfda4e
+    old: 91eddd309c679a96ad6c8d9b568e23af8fdb10a3
+    new: 45932221bd948c635a09a4075c189d25bfcc7449
     log: |
-         ac132852147ad303a938dda318970dd1bbdfda4e net/ncsi : Add payload to be 32-bit aligned to fix dropped packets
+         45932221bd948c635a09a4075c189d25bfcc7449 lan78xx: Clean up some inconsistent indenting
          
