@@ -1,51 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4789007890707573574=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 24 Nov 2021 17:35:12 -0000
-Message-Id: <163777531216.26062.3701324123835401285@gitolite.kernel.org>
-
---===============4789007890707573574==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 24 Nov 2021 17:35:40 -0000
+Message-Id: <163777534092.26311.3122898100386459322@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.17
-    old: 44ec41b7f7831f91c79a06de5e45f2d7ce6e4fbd
-    new: b79332ef9d61513d0ccda74a5161bb7c31851e9c
+  - ref: refs/heads/for-linus
+    old: 693d609322c0e77fd3227599b704be191f920ce2
+    new: 8fc6f1e59c87181f5a579ba09c0f24e1d9599197
     log: |
-         fffc84fd87d963a2ea77a125b8a6f5a3c9f3192d spi: spidev: Make probe to fail early if a spidev compatible is used
-         b79332ef9d61513d0ccda74a5161bb7c31851e9c spi: Fix condition in the __spi_register_driver()
+         8a6cc0ded6d942e4a506c421c4d87a634bda6e75 ASoC: Intel: soc-acpi: add entry for ESSX8336 on CML
+         872fc0b6bde8b2dd6891c740cd792d214255dca3 ASoC: cs35l41: Set the max SPI speed for the whole device
+         86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 ASoC: SOF: hda: reset DAI widget before reconfiguring it
+         8fc6f1e59c87181f5a579ba09c0f24e1d9599197 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-
---===============4789007890707573574==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1637775310 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1637775310-4a98986293a4363678fb16265d888e3b6c607869
-
-44ec41b7f7831f91c79a06de5e45f2d7ce6e4fbd b79332ef9d61513d0ccda74a5161bb7c31851e9c refs/heads/spi-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGed84ACgkQJNaLcl1U
-h9CMmQf/Qmi7NkBRRHx7j70vJ8xnJIbjPATyuyWpys6XOYpLYQVCoTw48X7/YyKq
-mTH44yMJY4OyruukExT0hqhmpk1+kFVM04S9CgFOYHsf2HPW2RZ54/czRH/P2l6J
-ym0mqd5CRsy2EqdZ+EXScLJlnJSsVq6tYp+99Ei5LYoXIWhWC4ogih11VFK0UaZW
-AJGLsYkHebHomifGker/BBOJJ4WcOQ6Tw5IlpawUFy3SS08MVBAkoE077ceP3Yy/
-Vq1JTzE/9+gvmz/1rlRSIlQLjzvYNOc15YBSLzSTZxtqVoEtB47077rT8bE8T8tW
-VEVEf1MF48uxdBVAlCvcMz72zjYHPg==
-=D5gq
------END PGP SIGNATURE-----
-
---===============4789007890707573574==--
+  - ref: refs/heads/for-next
+    old: 65c16dd2942f4476a3f96a2625b1475c6137c09a
+    new: cd2f33e93d578e9e1c47ef8981ec69298da9cb38
+    log: |
+         0e888a74e52db369e19aec908131cf171079b306 ALSA: pcm: unconditionally check if appl_ptr is in 0..boundary range
+         b456abe63f60ad93c83a526d33b71574bc32656c ALSA: pcm: introduce INFO_NO_REWINDS flag
+         4a39ea3f07f14f21a6b97e78c972f71fc5761d3a ASoC: SOF: pcm: add .ack callback support
+         6c26b5054ce2b822856e32f1840d13f777c6f295 ASoC: SOF: Intel: add .ack support for HDaudio platforms
+         01429183f479c54c1b5d15453a8ce574ea43e525 ASoC: SOF: sof-audio: setup sched widgets during pipeline complete step
+         fb71d03b29bcbd8c03798d36e7b2a2297b6dea45 ASoC: SOF: topology: don't use list_for_each_entry_reverse()
+         96da174024b9c63bd5d3358668d0bc12677be877 ASoC: SOF: handle paused streams during system suspend
+         cd2f33e93d578e9e1c47ef8981ec69298da9cb38 ASoC: SOF: Intel: power optimizations with HDaudio SPIB register
+         
