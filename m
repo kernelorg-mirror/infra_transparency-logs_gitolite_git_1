@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8930404672667318501=="
+Content-Type: multipart/mixed; boundary="===============1985281888039393729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 24 Nov 2021 04:21:51 -0000
-Message-Id: <163772771130.6924.6077982393187413386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 24 Nov 2021 04:21:57 -0000
+Message-Id: <163772771716.6998.10682142466198864826@gitolite.kernel.org>
 
---===============8930404672667318501==
+--===============1985281888039393729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 49c61e9331f7a8bdfb44a1d5a875d8eca3c65f43
-    new: 5e921f966f213d1f947a0b0554dab5ab42cd1399
-    log: revlist-49c61e9331f7-5e921f966f21.txt
+  - ref: refs/heads/queue-rc
+    old: 215ddd86ff9b2480f511fd142896c2d32ac647e3
+    new: e79a01b61cbbc26f461976d14357e18c5ed92ce4
+    log: revlist-215ddd86ff9b-e79a01b61cbb.txt
 
---===============8930404672667318501==
+--===============1985281888039393729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49c61e9331f7-5e921f966f21.txt
+Content-Disposition: attachment; filename=revlist-215ddd86ff9b-e79a01b61cbb.txt
 
 3b00a07c2443745d62babfe08dbb2ad8e649526e net: dsa: qca8k: fix internal delay applied to the wrong PAD config
 65258b9d8cde45689bdc86ca39b50f01f983733b net: dsa: qca8k: fix MTU calculation
@@ -81,5 +81,7 @@ c89dda49d10b09a8034c76d589751af575e6fe09 Merge branch 'patchq/443584' into mlx5-
 9ade1d083b8e123c190af7d5838a4e423af904d4 Merge branch 'patchq/448867' into mlx5-for-net
 320b09cc8cb5cdbf86f6d7848dc80a0476b29113 Merge branch 'patchq/436164' into mlx5-for-net
 5e921f966f213d1f947a0b0554dab5ab42cd1399 Merge branch 'mlx5-for-net' into net-rc
+3bdc47bf0d25035223c13148d64df70f4f262b1c Merge branch 'net-rc' into queue-rc
+e79a01b61cbbc26f461976d14357e18c5ed92ce4 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8930404672667318501==--
+--===============1985281888039393729==--
