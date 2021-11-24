@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 24 Nov 2021 18:57:16 -0000
-Message-Id: <163778023600.13637.12995199226362013173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 24 Nov 2021 19:38:06 -0000
+Message-Id: <163778268616.5411.126339247182809887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 42cd6c46198007b6e72217cb22e67e06873a28e5
-    new: c6f55d3c5ffe48b3fd8a77a75b9b3b13b9763acb
+  - ref: refs/heads/for-next
+    old: f7c151d86487eec720f52843133bce270b07fecc
+    new: 6b4542664c2d1fc7a770f0a4182ef5e36672d313
     log: |
-         c6f55d3c5ffe48b3fd8a77a75b9b3b13b9763acb Wed Nov 24 06:56:37 PM UTC 2021
+         6b4542664c2d1fc7a770f0a4182ef5e36672d313 pinctrl: baytrail: Set IRQCHIP_SET_TYPE_MASKED flag on the irqchip
          
