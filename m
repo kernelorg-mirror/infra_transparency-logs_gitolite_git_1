@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 25 Nov 2021 13:58:30 -0000
-Message-Id: <163784871054.6563.4073179524707825278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Thu, 25 Nov 2021 14:10:29 -0000
+Message-Id: <163784942972.14266.1009819373876297441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/kvm-arm64/nv-5.16-WIP
-    old: e4caac1b39804ddfab5f320d62da6e15e4664695
-    new: 4d97f986dd72dd278c13dc09f1de06838e90eeb3
-    log: |
-         4d97f986dd72dd278c13dc09f1de06838e90eeb3 fixup! KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
-         
+  - ref: refs/tags/fuse-fixes-5.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 967a14689933715763fddd5d69b2f691aae9ecf6
