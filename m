@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6177975951064445864=="
+Content-Type: multipart/mixed; boundary="===============4825788567983339051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Nov 2021 23:16:42 -0000
-Message-Id: <163788220256.24761.10261780203527485226@gitolite.kernel.org>
+Date: Thu, 25 Nov 2021 23:16:55 -0000
+Message-Id: <163788221533.24916.5203578986626412353@gitolite.kernel.org>
 
---===============6177975951064445864==
+--===============4825788567983339051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2fe256a429cb6c0b0064563af4158470143a363c
     new: 8f6f41f39348f25db843f2fcb2f1c166b4bfa2d7
     log: revlist-2fe256a429cb-8f6f41f39348.txt
 
---===============6177975951064445864==
+--===============4825788567983339051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ e2e0d90c550a2588ebed7aa2753adaac0f633989 selftests/bpf: Fix misaligned memory ac
 43080b7106db5bcdb4f09c2648e968151e1461b7 selftests/bpf: Fix misaligned memory accesses in xdp_bonding test
 8f6f41f39348f25db843f2fcb2f1c166b4bfa2d7 selftests/bpf: Fix misaligned accesses in xdp and xdp_bpf2bpf tests
 
---===============6177975951064445864==--
+--===============4825788567983339051==--
