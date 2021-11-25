@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Nov 2021 15:41:18 -0000
-Message-Id: <163785487842.5881.8260848430353616147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 25 Nov 2021 15:42:07 -0000
+Message-Id: <163785492741.6195.13015024837709080269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/master
-    old: fef30d6371b0ad71c200a7c360a219b74b3fe07c
-    new: eaeace60778e524a2820d0c0ad60bf80289e292c
+  - ref: refs/heads/linux-next
+    old: 36e8f60f0867d3b70d398d653c17108459a04efe
+    new: 00db58cf21188f4b99bc5f15fcc2995e30e4a9fe
     log: |
-         eaeace60778e524a2820d0c0ad60bf80289e292c igb: fix netpoll exit with traffic
+         b1c45ad53efbad779aa6cdb588de0b8ea1ed54bb xen: make HYPERVISOR_get_debugreg() always_inline
+         00db58cf21188f4b99bc5f15fcc2995e30e4a9fe xen: make HYPERVISOR_set_debugreg() always_inline
          
