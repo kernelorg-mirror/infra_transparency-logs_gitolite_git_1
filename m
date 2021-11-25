@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0458801305353140338=="
+Content-Type: multipart/mixed; boundary="===============5302683071722784820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 25 Nov 2021 17:32:07 -0000
-Message-Id: <163786152734.4685.3803414781999228641@gitolite.kernel.org>
+Date: Thu, 25 Nov 2021 17:32:49 -0000
+Message-Id: <163786156970.4949.11896499481661925450@gitolite.kernel.org>
 
---===============0458801305353140338==
+--===============5302683071722784820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
-    new: 2765852e74c8cfb5317cd22331800f00ab71ff46
+    old: 2765852e74c8cfb5317cd22331800f00ab71ff46
+    new: 862f72187a41008df2cce3f8e97f57070cbc7060
     log: |
-         7ee7482e60fd7a870ca7cd13f4c7bc3841f99815 serial: 8250: replace snprintf in show functions with sysfs_emit
-         b88fea5faa0c903c858d9dd3a05930dc46039407 dt-bindings: serial: fsl-lpuart: Add imx8ulp compatible string
-         635e4172bd0a43af943fb164799965fc9a9a705d arm: remove zte zx platform left-over
-         ea502201da45d3737a77d17e96d952d0a85cdc7d n_gsm: remove unused parameters from gsm_error()
-         463d4c74bffd7209914bf1eefb6d2fa991422863 tty: remove TTY_SOFT_SAK part from __do_SAK()
-         8cb28417dd2ce46938fea9aca9f56fb1f7b1934a tty: remove tty NULL check from __do_SAK()
-         954a0881a9d4f92bd645ebb06a5f939a19c82056 tty: clean up whitespace in __do_SAK()
-         2765852e74c8cfb5317cd22331800f00ab71ff46 tty: serial, join uport checks in uart_port_shutdown()
+         0836150c26c4028be9bd77c9a3dc3e3493542815 dt-bindings: serial: renesas,scif: Make resets as a required property
+         e1c0fc101340716fc1786b89f627425ecc6e5420 dt-bindings: serial: renesas,sci: Document RZ/G2L SoC
+         862f72187a41008df2cce3f8e97f57070cbc7060 serial: sh-sci: Add support to deassert/assert reset line
          
 
---===============0458801305353140338==
+--===============5302683071722784820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637861522 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637861566 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1637861509-bb64d0d0f766f641283c4a644f40c0f75872fddd
+nonce 1637861554-fe96b3b13e0a9e2c4860d898a892db977a6ab833
 
-136057256686de39cc3a07c2e39ef6bc43003ff6 2765852e74c8cfb5317cd22331800f00ab71ff46 refs/heads/tty-testing
+2765852e74c8cfb5317cd22331800f00ab71ff46 862f72187a41008df2cce3f8e97f57070cbc7060 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfyJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NJ8P/3gkd0jnBCyusLDW+kTB
-n1xKf0YBuAxdLJM6R43Bpt5rdSkj5xAXALbgg808wqj/mmzG2PoShACHDkumY0T/
-VOu2l0pxiRvY33zE8NBoSLRlhLNC/1iv8EfKLwfHTPgorVPteyI+FGIniPs2qQf9
-v9Iw5jAoEf5Y5WGWGPY87rW3AXL0LBrt2qei2iRpDDGhYz+L2Wtqm4O/pR2m0Wur
-2fEvW881cYmJ6++h2UwkdZbGhgIt3qdivxMNyayCkuVaF6pKauO3IYG6Uxcg2yBz
-svrUj+xMZOcUiZs1m2zM3/wi9bZQhUYVgHSC8tpVMHKml8shpGHKrU4aTNOy6jdK
-fdo4+EdE9B+DcTwTtCfXGalUOPaFeTJscLy3w49jfQQL+scTXvOD0TZFx/e2s0JJ
-RE2ZHTB/r5uxTBtkQpftxBKIBILYQgbl6G6q1AzEWtde9MeV4YKMWJZ26UBjbUDc
-Op8qNPE80Ac02rfxmm2IpEK6o8OTM3jCvhIBU3KGvbNuXf/VeX/O0B2Ydh3xF3M/
-rFv6i82+CPCxw8jhdXO00pG1WQAa4hJeOJk1LqeEoy/QiQ5yCdG2OaI6RqwDjKMe
-+zjqdiyWRyBq6AWiAZ8NqDxnWqoRRPAozrQ0GK6bJiZERJVp8bUMLqB408y/Kn6g
-uSQmsLs8yna/38/RzIouqTqH
-=91o0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfyL4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tKgP/3GdN//BnVv1yzSWHYKs
+PcbiX12tSERSI+W+Ro52afxNwBn6xLabsMm+w7wGILeDP0MXVLJCclrwMDdMZsnX
+hApHv2LtQfabLjkcuALp/gKKy11acYFGUM8ZMLYxzYa2KCsoJFKpL9lJHnNgNtUj
+Jhlw2or1vR6SxlxP0ZuhGIdK/9t7Y2/gzLdCnfAB0Ohfoh/PRH94pga+qwMMEiXC
+2upfVta6zsCm8nShJ/Cw2atWu7MH/DPGPispX/0D7Jf9wAGnvxFQ2TOQDpMBAIDr
+28HncKiMJ/xl6DkxDp5iX8hOM+pLCDHUtSuCU2wTL6/XWH//fB2TtQYo2/NdkDZa
+LwWd9YZP44NJbEUaaKCfkGCoKI1DaBIr74mdgPFUpzYZLUSiLEhSKgf5sg9+xjc6
+DAAsX4HDozYwd2dxsNwHUH8LQnf/H9dMILsy5GJ6OVXpdkih/dNv86ZGUCDygTly
+nT9WYKb3wMg6nHyAjYnk72qI+rvXyzSxTjb0lKKQ29Ab8EFxgRonQBEBQeKqgVX1
+2dqNTSeeVqbozwCQlcvLKstEdXWf+aKW1Qwv2/uspcxG9zO8hqyjmDLPfrDQEJD4
+sbfHM/ExgmOioFXnZtM5+OeTavR5eucFhjs6X1NdWxB8snSrP1HG1nz615PSTpAt
+ZGJVpONGVVjkO4MIFGLg+Qad
+=2CDo
 -----END PGP SIGNATURE-----
 
---===============0458801305353140338==--
+--===============5302683071722784820==--
