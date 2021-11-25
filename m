@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0859021253252805157=="
+Content-Type: multipart/mixed; boundary="===============8618892468246569257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 25 Nov 2021 18:43:01 -0000
-Message-Id: <163786578101.16052.11303624909464683765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 25 Nov 2021 18:45:02 -0000
+Message-Id: <163786590239.16724.2270829168582560043@gitolite.kernel.org>
 
---===============0859021253252805157==
+--===============8618892468246569257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 5f53fa508db098c9d372423a6dac31c8a5679cdf
     new: b501b85957deb17f1fe0a861fee820255519d526
     log: revlist-5f53fa508db0-b501b85957de.txt
 
---===============0859021253252805157==
+--===============8618892468246569257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ a0eb2da92b715d0c97b96b09979689ea09faefe6 futex: Wireup futex_waitv syscall
 6ef9d23121d0a7ed80488e546cea69ec48299d96 Merge tag 'arm-fixes-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 b501b85957deb17f1fe0a861fee820255519d526 Merge tag 'asm-generic-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 
---===============0859021253252805157==--
+--===============8618892468246569257==--
