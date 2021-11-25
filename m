@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6622894811888098747=="
+Content-Type: multipart/mixed; boundary="===============5522837563930100994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 25 Nov 2021 18:09:35 -0000
-Message-Id: <163786377584.27352.17598619767305868859@gitolite.kernel.org>
+Date: Thu, 25 Nov 2021 18:09:51 -0000
+Message-Id: <163786379184.27491.11692777223513624207@gitolite.kernel.org>
 
---===============6622894811888098747==
+--===============5522837563930100994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: ac132852147ad303a938dda318970dd1bbdfda4e
     new: eaeace60778e524a2820d0c0ad60bf80289e292c
     log: revlist-ac132852147a-eaeace60778e.txt
 
---===============6622894811888098747==
+--===============5522837563930100994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ dbae3388ea9ca33bd1d5eabc3b0ef17e69c74677 net: phylink: Force retrigger in case o
 fef30d6371b0ad71c200a7c360a219b74b3fe07c Merge branch 'net-smc-fixes-2021-11-24'
 eaeace60778e524a2820d0c0ad60bf80289e292c igb: fix netpoll exit with traffic
 
---===============6622894811888098747==--
+--===============5522837563930100994==--
