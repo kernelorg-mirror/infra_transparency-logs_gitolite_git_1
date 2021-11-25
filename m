@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 25 Nov 2021 01:28:13 -0000
-Message-Id: <163780369380.1063.18200163037283162744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 25 Nov 2021 01:34:29 -0000
+Message-Id: <163780406901.4415.14109421856682600328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 550b8e1d182cdc59bf99852503b9ce8a5ab2c34e
-    new: 4e1fddc98d2585ddd4792b5e44433dcee7ece001
+    old: 5a45ab3f248b3489af8b8440eb56b2ebaae59a6c
+    new: 0898ca67b86e14207d4feb3f3fea8b87cec5aab1
     log: |
-         4e1fddc98d2585ddd4792b5e44433dcee7ece001 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+         e670e1e86beb82a6eef0d9b451829a32cfa23c81 cxgb4: allow reading unrecognized port module eeprom
+         0898ca67b86e14207d4feb3f3fea8b87cec5aab1 net: dsa: qca8k: fix warning in LAG feature
          
