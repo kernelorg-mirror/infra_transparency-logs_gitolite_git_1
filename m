@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8624840209007357172=="
+Content-Type: multipart/mixed; boundary="===============7840422953523919554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Nov 2021 09:38:43 -0000
-Message-Id: <163783312325.3768.18400566590768222503@gitolite.kernel.org>
+Date: Thu, 25 Nov 2021 09:39:16 -0000
+Message-Id: <163783315686.4013.14572420655893944317@gitolite.kernel.org>
 
---===============8624840209007357172==
+--===============7840422953523919554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 7284bd9822f33a3be80ac6d92b4540d6dcfb5219
-    new: dec6b7c894d0fa594e8b86ad810628cb3a456ee9
-    log: revlist-7284bd9822f3-dec6b7c894d0.txt
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+    new: b1b6b42a35e79233ba57bc9a3613afecf2ef2da5
+    log: revlist-7284bd9822f3-b1b6b42a35e7.txt
+  - ref: refs/heads/master
+    old: dec6b7c894d0fa594e8b86ad810628cb3a456ee9
+    new: b1b6b42a35e79233ba57bc9a3613afecf2ef2da5
+    log: |
+         5e8bac2c0275c09e9dd585ea58954d51739a1c1e Merge branch 'x86/urgent'
+         2160e7d2bdcb18f2907d3aff8cb273bcd1218ede Merge branch 'x86/sgx'
+         1204aba1c415ad0ee56620b0e6dba39a500f1318 Merge branch 'x86/sev'
+         368419456c4b785d4d8820d913e200595bcffca3 Merge branch 'x86/mm'
+         f2791cbf724c611c6010c4303e932483a717226d Merge branch 'x86/fpu'
+         8f021dd40365b57bd594b9fcc3e21bb42cd568a5 Merge branch 'x86/cpu'
+         6b39fb3ef39e018d47e5f6f8414b58d01793cd92 Merge branch 'x86/core'
+         f5f9f7a24fe745e9db5e6e179a4dda7bca4a88c3 Merge branch 'sched/urgent'
+         5509175118879f2820437a8a7907389b322e3e42 Merge branch 'sched/core'
+         cd15b22a0f0b5543d1638eb1fa468d7b01fd2d25 Merge branch 'ras/core'
+         868922f723ff0d4160c8fa52547df9db3a065e7e Merge branch 'perf/urgent'
+         be09af618a8509e21f666897dec9fdd884239c27 Merge branch 'perf/core'
+         0bd28a16bab787f8b5320aad640cb609d9e88bc4 Merge branch 'locking/urgent'
+         b1b6b42a35e79233ba57bc9a3613afecf2ef2da5 Merge branch 'locking/core'
+         
 
---===============8624840209007357172==
+--===============7840422953523919554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7284bd9822f3-dec6b7c894d0.txt
+Content-Disposition: attachment; filename=revlist-7284bd9822f3-b1b6b42a35e7.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
@@ -505,14 +521,19 @@ dce1ca0525bfdc8a69a9343bc714fbc19a2f04b3 sched/scs: Reset task stack state in br
 3f2bedabb62c6210df63b604dc988d2f7f56f947 futex: Ensure futex_atomic_cmpxchg_inatomic() is present
 3297481d688a5cc2973ea58bd78e66b8639748b1 futex: Remove futex_cmpxchg detection
 9c7e2634f647630db4e0719391dd80cd81132a66 x86/cpu: Don't write CSTAR MSR on Intel CPUs
-13af18c5c7d122b2868faa7c599070ddd1280c9e Merge branch 'linus'
-0a772cb7bab174cbf35f2d41d9d5daac52be9955 Merge branch 'x86/urgent'
-fda5a781c6ce829699c358a972ac1f8183dd8c0a Merge branch 'x86/cpu'
-93261a8855ec527824986606cd7f612647732b41 Merge branch 'x86/core'
-ecdee2972150172ab2d9aa043e3943b93df57972 Merge branch 'sched/urgent'
-8ede1b86876146dc900ee7f9e7d62c0fdc636098 Merge branch 'sched/core'
-626ea1ab23d40383ee5ff21c203e14ae0dd85bc8 Merge branch 'perf/urgent'
-7de51d49cbb2325774a1494da80237563219744a Merge branch 'locking/urgent'
-dec6b7c894d0fa594e8b86ad810628cb3a456ee9 Merge branch 'locking/core'
+5e8bac2c0275c09e9dd585ea58954d51739a1c1e Merge branch 'x86/urgent'
+2160e7d2bdcb18f2907d3aff8cb273bcd1218ede Merge branch 'x86/sgx'
+1204aba1c415ad0ee56620b0e6dba39a500f1318 Merge branch 'x86/sev'
+368419456c4b785d4d8820d913e200595bcffca3 Merge branch 'x86/mm'
+f2791cbf724c611c6010c4303e932483a717226d Merge branch 'x86/fpu'
+8f021dd40365b57bd594b9fcc3e21bb42cd568a5 Merge branch 'x86/cpu'
+6b39fb3ef39e018d47e5f6f8414b58d01793cd92 Merge branch 'x86/core'
+f5f9f7a24fe745e9db5e6e179a4dda7bca4a88c3 Merge branch 'sched/urgent'
+5509175118879f2820437a8a7907389b322e3e42 Merge branch 'sched/core'
+cd15b22a0f0b5543d1638eb1fa468d7b01fd2d25 Merge branch 'ras/core'
+868922f723ff0d4160c8fa52547df9db3a065e7e Merge branch 'perf/urgent'
+be09af618a8509e21f666897dec9fdd884239c27 Merge branch 'perf/core'
+0bd28a16bab787f8b5320aad640cb609d9e88bc4 Merge branch 'locking/urgent'
+b1b6b42a35e79233ba57bc9a3613afecf2ef2da5 Merge branch 'locking/core'
 
---===============8624840209007357172==--
+--===============7840422953523919554==--
