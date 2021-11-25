@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 25 Nov 2021 22:39:55 -0000
-Message-Id: <163787999582.1276.11645892877710206043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/geschiche
+Date: Thu, 25 Nov 2021 23:08:26 -0000
+Message-Id: <163788170626.19592.8472935701233927938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/rw/geschiche
+user: rw
 changes:
-  - ref: refs/heads/for-next
-    old: e4f7ac90c2b09766e4acf771908987391c836413
-    new: 2fe256a429cb6c0b0064563af4158470143a363c
+  - ref: refs/heads/master
+    old: 4c99d67c341b5723a1526d4dcfd112e6a4350b1f
+    new: 5d54ec00ec4fc4a94d44a9dc77db7a79de083121
     log: |
-         992c4225419a38663d6239bc2f525b4ac0429188 libbpf: Unify low-level map creation APIs w/ new bpf_map_create()
-         a9606f405f2c8f24751b0a7326655a657a63ad60 libbpf: Use bpf_map_create() consistently internally
-         99a12a32fee4f740af2f36bb8f64e11c026f3389 libbpf: Prevent deprecation warnings in xsk.c
-         2fe256a429cb6c0b0064563af4158470143a363c selftests/bpf: Migrate selftests to bpf_map_create()
+         5d54ec00ec4fc4a94d44a9dc77db7a79de083121 Reload source files is mtime has changed.
          
