@@ -1,65 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============1786770526184747212=="
+Content-Type: multipart/mixed; boundary="===============4397344397366083192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 25 Nov 2021 16:48:07 -0000
-Message-Id: <163785888703.15251.1188515731772461537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 25 Nov 2021 16:50:04 -0000
+Message-Id: <163785900422.18156.8707938761619251477@gitolite.kernel.org>
 
---===============1786770526184747212==
+--===============4397344397366083192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/staging-testing
-    old: b3d893ab19026a1e9f808e10314b382cd904e95c
-    new: 5f154cad675234929957a454dfc55164b6aa4d12
+  - ref: refs/heads/block-5.16
+    old: efcf5932230b9472cfdbe01c858726f29ac5ec7d
+    new: e30028ace8459ea096b093fc204f0d5e8fc3b6ae
+    log: revlist-efcf5932230b-e30028ace845.txt
+  - ref: refs/heads/for-5.17/block
+    old: f08fd5d1f9d146428809a7cd61d557df6af56f7b
+    new: b488606166844e7fb03e5995dbc9d608bbd57c05
     log: |
-         2c7517b1eff274075eb15f1a4607a6b2304e2cdb staging: r8188eu: Efuse_CalculateWordCnts is not used
-         dfff95efa22e0b5998e127a92e1a094862ca7192 staging: r8188eu: efuse_WordEnableDataRead is not used
-         445a740c0b10b157bc0d800799dd8bd356203de2 staging: r8188eu: remove unused efuse defines
-         d0fe08b29ea66b6cbb7779cf609aca4c5d5bb47c staging: r8188eu: do not extract eeprom version from the fuses
-         8da08f11ff5ad43d4c80ee65f37e87f193fc6951 staging: r8188eu: remove unused eeprom defines
-         e3f6a0050663f68258b91f9fd1fdf8426e694aa1 staging: r8188eu: hal data's board type is unused
-         1875be81b5a86e1d83bbb624e3613eb2644cb9e3 staging: r8188eu: remove the _set_workitem wrapper
-         05b57e8c91ca5cf2af112c1a30ca97446f084232 staging: r8188eu: remove the _init_workitem wrapper
-         84c365f8ff8fc93a34d6cabe780d0b0f49c177e2 staging: r8188eu: remove the _cancel_workitem_sync wrapper
-         5f154cad675234929957a454dfc55164b6aa4d12 staging: r8188eu: use a delayed worker for led updates
+         f783a8cc7d0701bcfb1ee0989a2227250c847178 blk-mq: Add blk_mq_complete_request_direct()
+         a5d6aee0c81f86fc83950567b8b6988bf8ca6ff1 mmc: core: Use blk_mq_complete_request_direct().
+         4896c4e64ba5d5d5acdbcf68c5910dd4f6d8fa62 block: Provide blk_mq_sched_get_icq()
+         421165c5bb2e7c7480290a229ea7a24512237494 bfq: Track number of allocated requests in bfq_entity
+         e0ef40059557df144110865953ea4c0b87c11ac5 bfq: Store full bitmap depth in bfq_data
+         3d7a7c45e29d5d1f5a9622557acb47443e8b6e28 bfq: Limit number of requests consumed by each cgroup
+         d7eb68e3958fc91711f5df981c517fec9da35c42 bfq: Limit waker detection in time
+         2bbd0f81ac7050bfd537437a65579d49bc2128c1 bfq: Provide helper to generate bfqq name
+         e330e2ab2c40e624029cf208c9505cad2b3c81fd bfq: Log waker detections
+         b488606166844e7fb03e5995dbc9d608bbd57c05 bfq: Do not let waker requests skip proper accounting
          
+  - ref: refs/heads/for-5.17/io_uring
+    old: 5562a8d71aa32ea27133d8b10406b3dcd57c01a5
+    new: b6c7db32183251204f124b10d6177d46558ca7b8
+    log: |
+         e302f1046f4c209291b07ff7bc4d15ca26891f16 io_uring: fix no lock protection for ctx->cq_extra
+         b6c7db32183251204f124b10d6177d46558ca7b8 io_uring: better to use REQ_F_IO_DRAIN for req->flags
+         
+  - ref: refs/heads/for-next
+    old: f0afafc21027c39544a2c1d889b0cff75b346932
+    new: de5de0813b7dbbb71fb5d677ed823505a0e685c5
+    log: revlist-f0afafc21027-de5de0813b7d.txt
 
---===============1786770526184747212==
+--===============4397344397366083192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-efcf5932230b-e30028ace845.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637858883 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1637858879-cfa027ecc7b1a9a15ea0bdb9b7e88abe5545d237
+a208fc56721775987c1b86e20d86d7e0d017c0b2 nvmet-tcp: fix a race condition between release_queue and io_work
+69b85e1f1d1d1e49601ec3e85d2031188657cca2 nvmet-tcp: add an helper to free the cmd buffers
+af21250bb503a02e705b461886321e394b300524 nvmet-tcp: fix memory leak when performing a controller reset
+102110efdff6beedece6ab9b51664c32ac01e2db nvmet-tcp: fix incomplete data digest send
+1d3ef9c3a39e04be31155c27ebf80342350c3abf nvme-tcp: validate R2T PDU in nvme_tcp_handle_r2t()
+a5053c92b3db71c3f7f9f13934ca620632828d06 nvme-tcp: fix memory leak when freeing a queue
+5a6254d55e2a9f7919ead8580d7aa0c7a382b26a nvme-pci: add NO APST quirk for Kioxia device
+8e8aaf512a91ae44d40647a88b51326c7b0a70a8 nvme-fabrics: ignore invalid fast_io_fail_tmo values
+00b33cf3da726757aef636365bb52e9536434e9a nvme: fix write zeroes pi
+c024b226a417c4eb9353ff500b1c823165d4d508 nvmet: use IOCB_NOWAIT only if the filesystem supports it
+3fd40fa2fb9196d5d8ec8decb66148d35aca9f88 Merge tag 'nvme-5.16-2021-11-25' of git://git.infradead.org/nvme into block-5.16
+e30028ace8459ea096b093fc204f0d5e8fc3b6ae block: fix parameter not described warning
 
-b3d893ab19026a1e9f808e10314b382cd904e95c 5f154cad675234929957a454dfc55164b6aa4d12 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
+--===============4397344397366083192==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f0afafc21027-de5de0813b7d.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfvkMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2bYP/38GI/w0sc+oGeZn747C
-53w5u3ZtN/KEFv147E9In4UyVYrh9m+D7eNe2uDwGOqlVO4LemIm8Lba0r4mrOCs
-r/LdMzSmI8bwRgahcFlNdF6gYDcphfUL0/bHseIxA2p3VVBR/ayhYaobfcgEgNRD
-ScDaJVhSiPlb6y9FP0mEmc3yTQLk3lBp8aXf+onas0b6tcm4CZl43zXeMIKtS79y
-AUL84gf1a1oM8NC/3cRRXCzaJGPInbdJXn/s2BFiW9Xtuy+E5MCFjAxqy6sYHZ/G
-YhYQ5gaNPRYJD3fLZkW/VVjIeYrb/v/OYumfuKS2mqrRKzWHhwuEuIKeR0DbX8JE
-sooT9oidcR9IUshGSV5IByx8h3m06s4pojbaUSarfCWE6APVzUTbeX+9FpjV8fTx
-IDkyB5laIKz+4jdRa6dHfcZrKeJVFExT7JMCfZgiSXWYiDLy1uLHvKTdtcoiAHBU
-dqbTFmmG+PeMldI27iiaGP7LIM7Uijbletry0KVAxlX/dPIsrRPlcfFdVRWIBUCQ
-prFLz4VkgaiVwVgtXhIabO5I5IPXCpec9e8lMZ5ZW+mbabmc+LMf0wYFC7drqb+b
-AjRxZxejaRv+4u72Ns8Ca65hWmm9/UawVrRgiuTedlS3okqnlHv3lIak79+mEDBt
-emfY9SrrVK0IveheZUwPYvBK
-=BRGe
------END PGP SIGNATURE-----
+e302f1046f4c209291b07ff7bc4d15ca26891f16 io_uring: fix no lock protection for ctx->cq_extra
+b6c7db32183251204f124b10d6177d46558ca7b8 io_uring: better to use REQ_F_IO_DRAIN for req->flags
+f783a8cc7d0701bcfb1ee0989a2227250c847178 blk-mq: Add blk_mq_complete_request_direct()
+a5d6aee0c81f86fc83950567b8b6988bf8ca6ff1 mmc: core: Use blk_mq_complete_request_direct().
+8b333e2b7f20a21c8bb969c1c05aa9c2d8c6f73f Merge branch 'for-5.17/io_uring' into for-next
+f84a329386ec7a8dd2f2f628bd116f840f71a071 Merge branch 'for-5.17/block' into for-next
+4896c4e64ba5d5d5acdbcf68c5910dd4f6d8fa62 block: Provide blk_mq_sched_get_icq()
+421165c5bb2e7c7480290a229ea7a24512237494 bfq: Track number of allocated requests in bfq_entity
+e0ef40059557df144110865953ea4c0b87c11ac5 bfq: Store full bitmap depth in bfq_data
+3d7a7c45e29d5d1f5a9622557acb47443e8b6e28 bfq: Limit number of requests consumed by each cgroup
+d7eb68e3958fc91711f5df981c517fec9da35c42 bfq: Limit waker detection in time
+2bbd0f81ac7050bfd537437a65579d49bc2128c1 bfq: Provide helper to generate bfqq name
+e330e2ab2c40e624029cf208c9505cad2b3c81fd bfq: Log waker detections
+b488606166844e7fb03e5995dbc9d608bbd57c05 bfq: Do not let waker requests skip proper accounting
+de5de0813b7dbbb71fb5d677ed823505a0e685c5 Merge branch 'for-5.17/block' into for-next
 
---===============1786770526184747212==--
+--===============4397344397366083192==--
