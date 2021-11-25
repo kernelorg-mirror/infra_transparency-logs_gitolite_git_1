@@ -1,131 +1,162 @@
-Content-Type: multipart/mixed; boundary="===============3139542884357841086=="
+Content-Type: multipart/mixed; boundary="===============3994925132811811373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 25 Nov 2021 09:18:37 -0000
-Message-Id: <163783191773.22927.17616069667651003471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 25 Nov 2021 09:21:24 -0000
+Message-Id: <163783208421.26390.11243541856547348296@gitolite.kernel.org>
 
---===============3139542884357841086==
+--===============3994925132811811373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/msi
-    old: dc30dfbcac1f2794804512c878788102dd2e8626
-    new: 1bd31f3b9bc0cc3328fe9030a6b240ac1772d60a
-    log: revlist-dc30dfbcac1f-1bd31f3b9bc0.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 5536f983eab3f22f834c1132ff754a1d4c5960e2
+    new: e0db70362c5c0a16742e4ccf61e02b223031e658
+    log: revlist-5536f983eab3-e0db70362c5c.txt
 
---===============3139542884357841086==
+--===============3994925132811811373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc30dfbcac1f-1bd31f3b9bc0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-36e03f6fe556ba24241184c2d38e90f30b54e03d powerpc/4xx: Remove MSI support which never worked
-570246e9d924282f0a3e8dfea4da082c9174a30b PCI/MSI: Fix pci_irq_vector()/pci_irq_get_attinity()
-49362925b45d5903b85b6306f3d2c21e3ef06bf3 genirq/msi: Guard sysfs code
-9638464ad2625b7f7724ed4a7e6e5ed32e4098d9 genirq/msi: Remove unused domain callbacks
-1f295281d3facfb5a67f0233920f0a45ba82a7e5 genirq/msi: Fixup includes
-9e6825ef5a51526714d26197f7f493106c91714b PCI/MSI: Make pci_msi_domain_write_msg() static
-6d951170e8605fa7564055923c3204283fa868e7 PCI/MSI: Remove msi_desc_to_pci_sysdata()
-1ab6ed6f84e53f53588f00a99150e3ac069691e2 PCI/sysfs: Use pci_irq_vector()
-0df2faf96f4081092f4669ec352d1e3b302ef3f7 MIPS: Octeon: Use arch_setup_msi_irq()
-5138c7d060675e2677f355a3444278bdd69fae21 genirq/msi, treewide: Use a named struct for PCI/MSI attributes
-72a98769307cd2fb26f5a7331a4b4d1fa60d3529 x86/hyperv: Refactor hv_msi_domain_free_irqs()
-50bdc34fc21655ef3e571fc8269b879e202b78cf PCI/MSI: Make arch_restore_msi_irqs() less horrible.
-670a48affc00c1299195782fedea5752af1c008c PCI/MSI: Cleanup include zoo
-9f3bc6d977bbd481d82b6047adc61debb5ae4ece PCI/MSI: Make msix_update_entries() smarter
-bc28ea26b25ef904e442199089e6a520405fe6ee PCI/MSI: Move code into a separate directory
-8e6b205161ac4b4413b5526c8d71322b404dcd34 PCI/MSI: Split out CONFIG_PCI_MSI independent part
-3c930d5d3391fcca298fb66b99892298c5633f38 PCI/MSI: Split out !IRQDOMAIN code
-74aaf5f2aa0f3d3d711316bffec8198ece80757d PCI/MSI: Split out irqdomain code
-81307d391e6f8070668176b4b990330b6f233c0a PCI/MSI: Sanitize MSIX table map handling
-50c962c25f1a338d5465efa218a47887db67a7dd PCI/MSI: Make pci_msi_domain_check_cap() static
-4afca8e4b4fd15970621660f057bfb9069f785e8 genirq/msi: Handle PCI/MSI allocation fail in core code
-7e88c9dc5fa1b5c54f60590469bb49e9fd80c640 PCI/MSI: Move descriptor counting on allocation fail to the legacy code
-acdb53040728e18cc32f7bcde7c44d914644d88f device: Move MSI related data into a struct
-10cfee79ade091da59cf1c6560a3909068231212 device: Add device::msi_data pointer and struct msi_device_data
-d22ee00bba73660f3072aec16f81ded6afeb5a5b PCI/MSI: Allocate MSI device data on first use
-6ec9be3e13ebc80a128e7cef3d052a8b9a808c49 PCI/MSI: Use lock from msi_device_data
-ae7557fa8ef8637fc8dcea138f2fd265c9f75676 platform-msi: Allocate MSI device data on first use
-613c581bfc61aa53f43a879b32f3f3cc19d91d71 bus: fsl-mc-msi: Allocate MSI device data on first use
-025c2c9e7077d3a11bf258d5798525da98f5f9bd soc: ti: ti_sci_inta_msi: Allocate MSI device data on first use
-dbf608284146b03eefe39884529d8c226269a3cf genirq/msi: Provide msi_device_populate/destroy_sysfs()
-92388d915fe950f36cbadecbce38df2613716193 PCI/MSI: Let the irq code handle sysfs groups
-a430ec65142ade303c1d91618125c95971f61ce5 platform-msi: Let the core code handle sysfs groups
-412f5f2fccf2c5b7ac1cf76621451ff79603e94b genirq/msi: Remove the original sysfs interfaces
-07b0a1590186e40a39c9e92d07634896109c82bf platform-msi: Rename functions and clarify comments
-8b6efae7ad962bc991ed6d654c4d9e047a7bc5b7 platform-msi: Store platform private data pointer in msi_device_data
-232e73ba005d8fe1dc42438cb9ac28218aad5d2b genirq/msi: Consolidate MSI descriptor data
-51a5913b0c4cc5c5f3f42ddc1bae487956310808 platform-msi: Use msi_desc::msi_index
-d0f93f15c71c7e673fdaf5c8b4eeacad8533be3e bus: fsl-mc-msi: Use msi_desc::msi_index
-19c4baa2759544d188c05c1b4147fe30573886ca soc: ti: ti_sci_inta_msi: Use msi_desc::msi_index
-633d98f606727e4d8bb5ad560d9ade329bb68bcd PCI/MSI: Use msi_desc::msi_index
-de08c7fd61e0cf1da8e0a89745137e005695cb04 genirq/msi: Add msi_device_data::properties
-82cf75fbbf9d0dc538ff0d76b1c2168fe0ccc974 PCI/MSI: Store properties in device::msi::data
-df6505bca0b2fb353915c34d44fe4c70caf4b7a3 x86/pci/XEN: Use device MSI properties
-91514e77f8bf82422df3cc38e8dd6a3d07b0f41c x86/apic/msi: Use device MSI properties
-e88de8cb6e3ae75d88028a55f89fdb7478e01db1 genirq/msi: Use device MSI properties
-00b1dcf4fec47defcc9f5e6fab12641404d37640 powerpc/cell/axon_msi: Use MSI device properties
-831173c4e54756655fefbcbca875cb729198ca56 powerpc/pseries/msi: Use MSI device properties
-e8410806a960da5c6af210bdbdf4314ed15055b8 PCI/MSI: Provide MSI_FLAG_MSIX_CONTIGUOUS
-4ab3b61131cfebade5cb59682ca6272cefad84d8 powerpc/pseries/msi: Let core code check for contiguous entries
-c22e7ef78a3a1dd2f331881c01d5e2c1e85726d2 genirq/msi: Provide interface to retrieve Linux interrupt number
-ddf35064cf5ffdb33799f2773b3ea815d182c22b PCI/MSI: Use __msi_get_virq() in pci_get_vector()
-4cf718b79c689ea9d8f60a44a76f8edaef466a2a PCI/MSI: Simplify pci_irq_get_affinity()
-927ae4be04f62b0c4cbed5b0f8d2df3ce950cab5 dmaengine: mv_xor_v2: Get rid of msi_desc abuse
-2c76042a48c417285d34aaacc65c2d9d21e7cc7e perf/smmuv3: Use msi_get_virq()
-3eb02ff022541c0ff3706c92cf8d279ebd41d452 iommu/arm-smmu-v3: Use msi_get_virq()
-ae5a5355d70b6e170dad6fe5b9f21497ff01a660 mailbox: bcm-flexrm-mailbox: Rework MSI interrupt handling
-0819f58f0787d465a006e56a1bb771de1aab5017 bus: fsl-mc: fsl-mc-allocator: Rework MSI handling
-6e131e75fef55f81a5a48caa7e379361036c301a soc: ti: ti_sci_inta_msi: Get rid of ti_sci_inta_msi_get_virq()
-5e2a28753928eea6ae1f3b9ba4648a7556977c47 dmaengine: qcom_hidma: Cleanup MSI handling
-f9c716548c6f2e06b78b6328a9ce44a7e8db5373 genirq/msi: Move descriptor list to struct msi_device_data
-182ab0f90ccf5bc829ae5060fd5d839d7dec0c85 genirq/msi: Add mutex for MSI list protection
-2a09bd460fbd4c9dbda80c458fa9d93850ced2eb genirq/msi: Provide msi_domain_alloc/free_irqs_descs_locked()
-6b3f307ccdb1ece8087b058b359b47534cad0c51 genirq/msi: Provide a set of advanced MSI accessors and iterators
-cc54e911a221ff5edc95c24e648ddc3b826f4a09 genirq/msi: Provide msi_alloc_msi_desc() and a simple allocator
-05e7611afa3333b7b36320b74e66473669d8fc3a genirq/msi: Provide domain flags to allocate/free MSI descriptors automatically
-042f10c4d36de6eac797efe5d2b056cbaf03ad71 genirq/msi: Count the allocated MSI descriptors
-90aa7c4235c054e45db7fc4ceef549129f150806 PCI/MSI: Protect MSI operations
-f1533733b2b76123886b46674f7b6bea51ffcdd0 PCI/MSI: Use msi_add_msi_desc()
-2b0f10fede93c554d48bb8b4d357f1679ec0950a PCI/MSI: Let core code free MSI descriptors
-d9604bad467dde6261a45cdebf9a5c31140f5372 PCI/MSI: Use msi_on_each_desc()
-387c3da998ee4032439b725b45f6abc8a5a575ef x86/pci/xen: Use msi_for_each_desc()
-7902f54e1c35916bbf84ee2bd1a05ff1d6847189 xen/pcifront: Rework MSI handling
-26cba35ab394df69db9e2f09bd32f5bda2abc807 s390/pci: Rework MSI descriptor walk
-b17cc23e72a73daf6f732d72c5172063701af688 powerpc/4xx/hsta: Rework MSI handling
-12b5f85ed9ba3819138df2fbb8860edc65ca0d66 powerpc/cell/axon_msi: Convert to msi_on_each_desc()
-0dc288dad3d7e587594650d0ffb36b263ce033f9 powerpc/pasemi/msi: Convert to msi_on_each_dec()
-7121e0d6ebf0d5ff1c9d99031d0fde7dab277188 powerpc/fsl_msi: Use msi_for_each_desc()
-f62538f88d77b15f170c9bfbfe325d4eaf696e7f powerpc/mpic_u3msi: Use msi_for_each-desc()
-15c20745d4b5cd9a474ab6aa9ff351caf6eff8a2 PCI: hv: Rework MSI handling
-67998cb572df6e19663ee5240c6266601da8edd8 NTB/msi: Convert to msi_on_each_desc()
-b9f8772d4c17ea7bb4be6bd44f44077f791e29ca soc: ti: ti_sci_inta_msi: Rework MSI descriptor allocation
-2f0c56af28f7e99c999a81a6fa4416bd3059c592 soc: ti: ti_sci_inta_msi: Remove ti_sci_inta_msi_domain_free_irqs()
-bb3e9693953ae3569e552fc7af967892e2162d84 bus: fsl-mc-msi: Simplify MSI descriptor handling
-17056fbb024a4f40489166042d1d6e70525add0a platform-msi: Let core code handle MSI descriptors
-4cc66fb11b837c0d92f48c7083cf6f9dee54b559 platform-msi: Simplify platform device MSI code
-60e397514e8ea902a29c4a15cc5d23bcd0799de0 genirq/msi: Make interrupt allocation less convoluted
-2220071810e533edd6f0ce3914635f30b800e0c5 genirq/msi: Convert to new functions
-fa025fc7ca59c2755364cce35f1ca59a74e207cb genirq/msi: Mop up old interfaces
-71d24998e4e5ba4713b8b43ed0f5943da89a928e genirq/msi: Add abuse prevention comment to msi header
-56feb45643467df8db6a3b57cb07fb4b1f4a1505 genirq/msi: Simplify sysfs handling
-51e978f56406e52fca2ea32d3c3317dbc06b554a genirq/msi: Convert storage to xarray
-390516502c9ba81c14cc09891b887c1d8c7e04ad genirq/msi: Add range argument to alloc/free MSI domain ops
-ff97d45fcc8af0d7ca617f3dfe7f35fb7d5339dc genirq/msi: Add range argument to msi_domain_alloc/free_descs_locked()
-eabd2aa19966e9321118b02e5c77396738acf518 genirq/msi: Make MSI descriptor alloc/free ready for range allocations
-c1c48736d40710eb086b480f5fd8ad5d6b20e753 genirq/msi: Prepare MSI domain alloc/free for range irq allocation
-f77ecceedbc1ee1a1ff138d8a47c3d6f60f554c9 genirq/msi: Add domain info flag MSI_FLAG_CAN_EXPAND
-e50924201bc0ceb50634dc328e1ece4fb0083c02 PCI/MSI: Use range in allocation path
-4f8469f0849568d2b1e716d8689ea2c6a0deda0a PCI/MSI: Make free related functions range based
-5b5e428d9bb2dc239cd593baaf5f1c5685a02fad PCI/MSI: Provide pci_msi_domain_supports_expand()
-34b899a3dfe06a2e484cc0e04abf473af5792f05 PCI/MSI: Provide pci_msix_expand_vectors[_at]()
-1bd31f3b9bc0cc3328fe9030a6b240ac1772d60a x86/apic/msi: Support MSI-X vector expansion
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637832078 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1637832032-aeb6f94b3b5def59cd205784571d24c5b61703a4
 
---===============3139542884357841086==--
+5536f983eab3f22f834c1132ff754a1d4c5960e2 e0db70362c5c0a16742e4ccf61e02b223031e658 refs/heads/linux-5.4.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfVY4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+afcQAMbMbK+wNBQIGx3Tqgap
+uNN8nVyIrr70lbeh7rWXOz6PEPUpFIMdiO/yMaGu2MceJ8s809Hi3hiP2CfgmRnv
+dMw1c/CYE6fKMAZf3j41jkDrwmAJ42P5HzTUwyvIpmqDIFtgvb49+YPklmepDat7
+GYlUMXQ0XH8+b9BXZub2lDXYK4eOfb84sKdY2Ob5457w3xiM71OQxDa9Cl1eCLYV
+g0AIWCzf20t4lLvyOuUR7EDAQsLDcEeA2FszHEiPh5P+pXloVALHxkzoIfi3mGuL
+gcnQFlQ0Iwd511kL6bz8o8DViIthTvLtBsw6hdziusA8yL3QZVKIo80ASzyEVhw2
+1Vq7uT1Dw2kL5L6nzMRq+mTIUU2qk33Md7/wInyOei8+G4xP31oV20ituWodfOfd
+XuPCNdd2kamDeOhxprLuhQItTkyqOusJPS2hIEJl121OwZkGm/vLSflwvVlX2Dal
+cO4t7QY34HsLGLVvg0ybqyFl12lgOGoxPBniR3Q9ACcflW5XvBtZfy6tj7WE0rDL
+TVkEuMhOp6Y0FcsgcrAfVn7Ut5Zs+R/K85nf8ro1MQZMqBjlGon+bMdlYCzQBiXR
+qerMRV87jHJJRUb5fQhZX+RYLdIn3/iM25IvlKopsU0CVzfWjuW4xHcycPyaPlGt
+JsfF9s+wIxh6sOXhqsP7Xnkf
+=g/C1
+-----END PGP SIGNATURE-----
+
+--===============3994925132811811373==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5536f983eab3-e0db70362c5c.txt
+
+545b8151fcb022098fedc13515427d9a6b709106 arm64: zynqmp: Do not duplicate flash partition label property
+99e9a7933c28ecb8acb838209bdec971f4bb623e arm64: zynqmp: Fix serial compatible string
+cfc41c387385e7d72b1c9fa49c12da8744359415 ARM: dts: NSP: Fix mpcore, mmc node names
+ffcbed0f54eb684946a81cf46a94eb3bfa5c645f scsi: lpfc: Fix list_add() corruption in lpfc_drain_txq()
+abc2bdc22a67a55e2e7104dd3d16bdf710b4a9d1 arm64: dts: hisilicon: fix arm,sp805 compatible string
+555b1cd0fddbf086dcaa3270c5784a7a25e3f155 RDMA/bnxt_re: Check if the vlan is valid before reporting
+81a87ee8da4d104ce7d616d9dc2c5d9d1874e4bc usb: musb: tusb6010: check return value after calling platform_get_resource()
+41d29cfa959ceef14b236680c7691fc1ac0c1ea8 usb: typec: tipd: Remove WARN_ON in tps6598x_block_read
+c5f7dd45b90b911031a040257012b2af862340e2 arm64: dts: qcom: msm8998: Fix CPU/L2 idle state latency and residency
+531f180a949fb0ec797732cec4f6cb1c07497405 arm64: dts: freescale: fix arm,sp805 compatible string
+3ee582b0f3c929e71ce1555ee7162644a0cf51a4 ASoC: SOF: Intel: hda-dai: fix potential locking issue
+298d3e4d88aab4830148e56a6e3d43bf0e2ca6af clk: imx: imx6ul: Move csi_sel mux to correct base register
+4a669a75b5953b02ac219f078161bde61c2c4c05 ASoC: nau8824: Add DMI quirk mechanism for active-high jack-detect
+d37b2542a1a400e32f7e0a7a2560c421b87f30f3 scsi: advansys: Fix kernel pointer leak
+c66d608cea975bf125b13a12f087f028df1def37 firmware_loader: fix pre-allocated buf built-in firmware use
+e42699addd103dbc924b94cc5c50c15998e3df45 ARM: dts: omap: fix gpmc,mux-add-data type
+0147b88b225199f0d3f6d8ba9c641224d1a8cb50 usb: host: ohci-tmio: check return value after calling platform_get_resource()
+99be96fe37923a167ba339796ef2f6a4666105f0 ARM: dts: ls1021a: move thermal-zones node out of soc/
+b6bd201d3b8790aabb39b1e961ca2d57084a2b49 ARM: dts: ls1021a-tsn: use generic "jedec,spi-nor" compatible for flash
+1777a01e9c0192a84b8ae861797f29deed6db0e0 ALSA: ISA: not for M68K
+6fc60e741e8ebb18c8010f4b08df64c1e218a684 tty: tty_buffer: Fix the softlockup issue in flush_to_ldisc
+245baf7f099f181f9fc5aa5e7f38bba459cebc86 MIPS: sni: Fix the build
+e20ccc41e37a6aaa3b88fe585f9da09785f698f6 scsi: target: Fix ordered tag handling
+27fc39e9112f82c16c9cfd0efa1cf7be1418f895 scsi: target: Fix alua_tg_pt_gps_count tracking
+fb60a8226039cde65ff3688d3a262e01f32eeb81 iio: imu: st_lsm6dsx: Avoid potential array overflow in st_lsm6dsx_set_odr()
+58a83f7568c61dcbf22718ddab75150c3cf49b7b powerpc/5200: dts: fix memory node unit name
+9244ed2e0481e4e0179745b48c1e050df2072ef9 ALSA: gus: fix null pointer dereference on pointer block
+890de8858629554afd45379016a6aaf4713178c3 powerpc/dcr: Use cmplwi instead of 3-argument cmpli
+a908d44c701e4b89fe1ed40c151c92f0b126552a sh: check return code of request_irq
+73b77e44e0f8afe45794b9105ec9e82c8d0095bf maple: fix wrong return value of maple_bus_init().
+c38f2ebcea4f97dd72ae446cbc509347eebcc480 f2fs: fix up f2fs_lookup tracepoints
+763b8003d0b963daa998a923af5fe197131f3ffa sh: fix kconfig unmet dependency warning for FRAME_POINTER
+f181dbe881450c6862315533780fc7f91b5f94e9 sh: math-emu: drop unused functions
+d9d3512352e8ab5fde23d423f3723511f34ba79b sh: define __BIG_ENDIAN for math-emu
+57f6734a915170851b7ff09040af84b5a7ac796e clk: ingenic: Fix bugs with divided dividers
+076a77b96db82c932d884d05576f17490938f5af clk/ast2600: Fix soc revision for AHB
+d7066bad11223c181ac760896588d0ca8655e89d clk: qcom: gcc-msm8996: Drop (again) gcc_aggre1_pnoc_ahb_clk
+126ee23b185778df60db3a5c35bd1afe03c3741e mips: BCM63XX: ensure that CPU_SUPPORTS_32BIT_KERNEL is set
+75a5a33eca887f86a808834bc36043be63ab2bd9 sched/core: Mitigate race cpus_share_cache()/update_top_cache_domain()
+0a48a6dddf38b0b08dcfcf8ec4b0931cb505a756 tracing: Save normal string variables
+6334127b75bbf2049a981ac0ce63db132f30144a tracing/histogram: Do not copy the fixed-size char array field over the field size
+449eb1ff8bab481b8937b9c98984efd1b3eb82c2 RDMA/netlink: Add __maybe_unused to static inline in C file
+b9781ed5eb1433022bd2e1ca28cbef54bc15ffc6 perf bpf: Avoid memory leak from perf_env__insert_btf()
+4910f66d5ba20298cd53c828f90fdf2bbf3b0a01 perf bench futex: Fix memory leak of perf_cpu_map__new()
+7f0c80978bcbc3771b2cd8451de0babaddf273ed perf tests: Remove bash construct from record+zstd_comp_decomp.sh
+423c702ba898c54974c5e9fa87e6774bc82d9a06 net: bnx2x: fix variable dereferenced before check
+dc17f5e6676838029e7adc33d8fb5e528e32f1d4 iavf: check for null in iavf_fix_features
+8cdc76db354145be6eba1b57108bb91fe31d2e3f iavf: free q_vectors before queues in iavf_disable_vf
+f31fcf5a3f48aad7f2ef66481c506408c6c0e486 iavf: Fix failure to exit out from last all-multicast mode
+28b739dd0bc976d78e8b9f893d3760d7128f9c80 iavf: prevent accidental free of filter structure
+5057f9b4b72166fa6f069b3e85d0fd39873c7abb iavf: validate pointers
+a486bb65556c7b9cb8a45337bb88708658cf9332 iavf: Fix for the false positive ASQ/ARQ errors while issuing VF reset
+b634bb9864889d3d8984c559cd76eadbe589ae57 MIPS: generic/yamon-dt: fix uninitialized variable error
+1d8e66f0f75ac23efe1bf81442d6a3a5760137eb mips: bcm63xx: add support for clk_get_parent()
+2ca6df4cbb9e581edd97889beec140d69e83d56b mips: lantiq: add support for clk_get_parent()
+dde9ad190a897257d2f9f8f96284c37774124b3d platform/x86: hp_accel: Fix an error handling path in 'lis3lv02d_probe()'
+64f8c5a6917d9e127d889c477ac3e163c3a5a1be scsi: core: sysfs: Fix hang when device state is set via sysfs
+025dc11bc049a1e6ee90a79cdba8d440ec570f86 net: sched: act_mirred: drop dst for the direction from egress to ingress
+c82fd2e28c4473bb583510f2229bee3bf1841622 net: dpaa2-eth: fix use-after-free in dpaa2_eth_remove
+511beb97389e0c6efee00276c152cf8e8af7e025 net: virtio_net_hdr_to_skb: count transport header in UFO
+afade9173e80709b7d7ef14db568b3219b936de9 i40e: Fix correct max_pkt_size on VF RX queue
+8d1cb9dcabce92f4657dbb9d0d1418a73b4e25b6 i40e: Fix NULL ptr dereference on VSI filter sync
+4fcaada0cc093d31606b2d7bda147f94baeed954 i40e: Fix changing previously set num_queue_pairs for PFs
+9b5ec8aa160b960b72311ccf4d7eb96b9baaee6e i40e: Fix ping is lost after configuring ADq on VF
+4536013a430bbf9b5c73a59df4c84ac5f30de80b i40e: Fix creation of first queue by omitting it if is not power of two
+aa5cc0dc0adb98901014bcfcefb9a77ce9ffa546 i40e: Fix display error code in dmesg
+ebf91839df562202797297557ab81d4067c58d65 NFC: reorganize the functions in nci_request
+d987cdc9903aeb33e5ac24985eba8fea93faa1b9 drm/nouveau: hdmigv100.c: fix corrupted HDMI Vendor InfoFrame
+9e55f6782f61d59940213929d25d813d0eb9c775 NFC: reorder the logic in nfc_{un,}register_device
+acdab2c509a27238fddf6af91fed55367b69ebbc KVM: PPC: Book3S HV: Use GLOBAL_TOC for kvmppc_h_set_dabr/xdabr()
+16b4cab4bf31182f98c9ff3f1c95ee2353dfef03 perf/x86/intel/uncore: Fix filter_tid mask for CHA events on Skylake Server
+844fb04ab7433447e3e2aaab334986199d4e8d8b perf/x86/intel/uncore: Fix IIO event constraints for Skylake Server
+fc3eb6c3ab35ea97bb9a2c8edeec79a41d5039f5 s390/kexec: fix return code handling
+2d43f31cdacebcefebb2b39fb255cabc4a87d080 arm64: vdso32: suppress error message for 'make mrproper'
+115dd37174bb93b6252f8970abb8d7c48db95247 tun: fix bonding active backup with arp monitoring
+70dd8ecd732fbf256e228b38cd399f4bc593c99e hexagon: export raw I/O routines for modules
+f814899c9f71e85c11a1e65655f029bffc988026 ipc: WARN if trying to remove ipc object which is absent
+e9b3b1d1f9ab35e2a8de25445819e7b4395947a8 mm: kmemleak: slob: respect SLAB_NOLEAKTRACE flag
+9e5261724d29ae20e4e2af7922dc0f069a8bca71 x86/hyperv: Fix NULL deref in set_hv_tscchange_cb() if Hyper-V setup fails
+165274aef3d1dbf8226a750806150a66e716766a s390/kexec: fix memory leak of ipl report buffer
+0506fcb72fb8377500803c488286af975fc8a463 udf: Fix crash after seekdir
+930cd0637b224110694f3d6ebfec8b2f463b9632 btrfs: fix memory ordering between normal and ordered work functions
+8316fc41ae9cddbc2d1270f71b85ce234d973bd2 parisc/sticon: fix reverse colors
+94d0665bad2076b72e10b67d305678224cacdda4 cfg80211: call cfg80211_stop_ap when switch from P2P_GO type
+39b9d16237e7be92d561b396d1fecc2fda1b44fa drm/udl: fix control-message timeout
+bdc0595e25097d70e1a69cfa629cc16db0047093 drm/nouveau: use drm_dev_unplug() during device removal
+c1e07fd7d1980c07fbb996fb70fe861f96f23d1f drm/i915/dp: Ensure sink rate values are always valid
+b864a72b301ab53957d0099604b7a5347d71fa0d drm/amdgpu: fix set scaling mode Full/Full aspect/Center not works on vga and dvi connectors
+f3f6ecc1edcc7ee910ec4bf8d2d32adea9af930a Revert "net: mvpp2: disable force link UP during port init procedure"
+e0509586e54da28a97637112b83b4c890af4e133 perf/core: Avoid put_page() when GUP fails
+a685f06c4ef195c14779ce3fdbe3b36ce2a68d36 batman-adv: Consider fragmentation for needed_headroom
+598998fa4ea395f9597b547de8b206ce8d753861 batman-adv: Reserve needed_*room for fragments
+6aed204731df575cc5530e94f75c8664f127847f batman-adv: Don't always reallocate the fragmentation skb head
+4c9b401b710d6cee0a3ff1735466f02a37b0dd00 ASoC: DAPM: Cover regression by kctl change notification fix
+8af7fe096abd28f881159c3279f0a7771a7c4a14 usb: max-3421: Use driver data instead of maintaining a list of bound devices
+7b20a4afffb690be13d790f2fb526cedd57012a2 ice: Delete always true check of PF pointer
+aa160e5764f689745dbbef7e30a1e26289fe8c37 tlb: mmu_gather: add tlb_flush_*_range APIs
+3d3cf024e7d5b05e9c17c72abcde73f76ffdb6ba hugetlbfs: flush TLBs correctly after huge_pmd_unshare
+427f4745d938758e489b30e4ed48e4ad5198f506 ALSA: hda: hdac_ext_stream: fix potential locking issues
+60fcbdd3301aee0513220819ac5905d2bfee5b54 ALSA: hda: hdac_stream: fix potential locking issue in snd_hdac_stream_assign()
+e0db70362c5c0a16742e4ccf61e02b223031e658 Linux 5.4.162-rc2
+
+--===============3994925132811811373==--
