@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 25 Nov 2021 22:28:13 -0000
-Message-Id: <163787929380.27460.3631481320876168523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 25 Nov 2021 22:39:38 -0000
+Message-Id: <163787997894.1107.10978820389799639943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 562edb33af8cf9f31191caf700c442a14f39a6f2
-    new: 04845dcc465b104bb6c8d7b3c079bd34f490d80c
+  - ref: refs/heads/master
+    old: e4f7ac90c2b09766e4acf771908987391c836413
+    new: 2fe256a429cb6c0b0064563af4158470143a363c
     log: |
-         8dcb23be2a4d9e9641e18636ad611782bdf933d8 gfs2: Cancel delete work synchronously in gfs2_create_inode
-         04845dcc465b104bb6c8d7b3c079bd34f490d80c gfs2: Clear inode glock object when lookup fails
+         992c4225419a38663d6239bc2f525b4ac0429188 libbpf: Unify low-level map creation APIs w/ new bpf_map_create()
+         a9606f405f2c8f24751b0a7326655a657a63ad60 libbpf: Use bpf_map_create() consistently internally
+         99a12a32fee4f740af2f36bb8f64e11c026f3389 libbpf: Prevent deprecation warnings in xsk.c
+         2fe256a429cb6c0b0064563af4158470143a363c selftests/bpf: Migrate selftests to bpf_map_create()
          
