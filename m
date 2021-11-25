@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6580015399443497641=="
+Content-Type: multipart/mixed; boundary="===============4637491283925135546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 25 Nov 2021 13:34:57 -0000
-Message-Id: <163784729766.23120.15276996333492105767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 25 Nov 2021 13:35:04 -0000
+Message-Id: <163784730444.24552.4043615808894023387@gitolite.kernel.org>
 
---===============6580015399443497641==
+--===============4637491283925135546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61
     new: 12dc48f545fd349ef2cadcc4d816706951b87998
     log: |
          12dc48f545fd349ef2cadcc4d816706951b87998 ASoC: dt-bindings: wlf,wm8962: add missing interrupt property
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: cd2f33e93d578e9e1c47ef8981ec69298da9cb38
     new: 2b9c8d2b3c89708d53b6124dc49c212dc5341840
     log: |
@@ -34,29 +34,29 @@ changes:
          2b9c8d2b3c89708d53b6124dc49c212dc5341840 ASoC: rt5640: Add the HDA header support
          
 
---===============6580015399443497641==
+--===============4637491283925135546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637847295 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637847294-822c30ed477c351422ff135875e5129e6f633a5d
+pusher C3F436CA30F5D8EB 1637847302 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637847301-3d4ae1d79df478be849432dfa683a7d746389a75
 
-86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 12dc48f545fd349ef2cadcc4d816706951b87998 refs/heads/for-5.16
-cd2f33e93d578e9e1c47ef8981ec69298da9cb38 2b9c8d2b3c89708d53b6124dc49c212dc5341840 refs/heads/for-5.17
+86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 12dc48f545fd349ef2cadcc4d816706951b87998 refs/heads/asoc-5.16
+cd2f33e93d578e9e1c47ef8981ec69298da9cb38 2b9c8d2b3c89708d53b6124dc49c212dc5341840 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGfkP8ACgkQJNaLcl1U
-h9Axywf+JeoY7kmLPEuxAXtNdc1BDp0IqANv1S9BieLG0CUgns04Ff8Eb0eEcBVR
-UAVTby+C914y4iuuloHe4FkOLhQbwsgwXMq9YZGPuW4D01KYagLo3wYRtPEa4fh7
-9678KxQz/bhkQ/9sJCZIhm68oFQPIDJsvkYXhHwBlrKjbRpclKzILVK/ILI/JM3q
-loPDE1y/bqBYvmdfkSbWxJ2S7jvzgMRHhpYRBx/fAh6EgAKzkD3tJchrFvptV+q5
-4A8rJGzndLXc8rq0+Jcdh5c0nnAnR3R3pw6KKQUcBvZ765tJ4mYUlntoL/IzHQ8r
-/nIpVAj9nKqfPzzykIs9k9ZiR1P7VA==
-=Z8Fs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGfkQYACgkQJNaLcl1U
+h9CI8Af8DuG9OyAQfM4bpop/8DRAw1SlY8lRhp1aiv3oXMA7hEy0vkVIHewDE/Wj
+0LhHDLdZHy91zX0gcSuO/TI6qjwYrH8C0sNg9ePk0YfVLutuj6oT6Y9dHCHe16aK
+Sz9DPr8gokUcjfhNR/TX+Zx7+CJhjLHb2f2ShfUwSFyTDhkrnOVvcqiEWR0KIEuX
+t1I98bbzWjyvvQaj3LXxS/eQhjqbay0/CbaWBesYXkYi9DkAdY5Li1xVrm/oTd3V
+MP/bIKgReLPdv0B88Vejts/VEMXaPRSuu0KGPFeJwKqRFb+P9DY8QwFWqy69luQ1
+yv1vPCgiuJ7jitQ1mLteogAI3U0vmw==
+=xGgR
 -----END PGP SIGNATURE-----
 
---===============6580015399443497641==--
+--===============4637491283925135546==--
