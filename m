@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 25 Nov 2021 16:07:33 -0000
-Message-Id: <163785645346.22833.5363856650712761467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 25 Nov 2021 16:13:28 -0000
+Message-Id: <163785680843.25973.14124717531720809693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/experimental
-    old: 17eb5c417bd56be4b2f7627c2d6879fbad6a86d6
-    new: db31e3f8f2deb9f9efdf9f91c2e1f428b184238e
-    log: |
-         db31e3f8f2deb9f9efdf9f91c2e1f428b184238e erofs-utils: mark certain callback function pointers as const
-         
+  - ref: refs/tags/kvmarm-fixes-5.16-2
+    old: 0000000000000000000000000000000000000000
+    new: c8d4cae4aef38434f322cf13241217320098858d
