@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Thu, 25 Nov 2021 09:35:42 -0000
-Message-Id: <163783294245.2740.16037296326145937728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/rtc-tools
+Date: Thu, 25 Nov 2021 09:37:11 -0000
+Message-Id: <163783303103.3231.1620450502804583909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/abelloni/rtc-tools
+user: abelloni
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
-    new: fbf3bce458214bb971d3d571515b3b129eac290b
+  - ref: refs/heads/master
+    old: 7bb32bee2534da0edf6b40087aa0965c240280b7
+    new: b50b8ea6087f324706aa666d1219b561f93818b2
     log: |
-         fbf3bce458214bb971d3d571515b3b129eac290b MIPS: boot/compressed/: add __ashldi3 to target for ZSTD compression
+         b50b8ea6087f324706aa666d1219b561f93818b2 rtc: add more feature support
          
