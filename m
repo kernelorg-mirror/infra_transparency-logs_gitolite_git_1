@@ -1,62 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4637491283925135546=="
+Content-Type: multipart/mixed; boundary="===============7577389966202255283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 25 Nov 2021 13:35:04 -0000
-Message-Id: <163784730444.24552.4043615808894023387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 25 Nov 2021 13:35:12 -0000
+Message-Id: <163784731226.24719.16549372473452670507@gitolite.kernel.org>
 
---===============4637491283925135546==
+--===============7577389966202255283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: 86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61
-    new: 12dc48f545fd349ef2cadcc4d816706951b87998
+  - ref: refs/heads/for-5.17
+    old: b79332ef9d61513d0ccda74a5161bb7c31851e9c
+    new: e10a6bb5f52de70c7798b720d16632d4042d2552
     log: |
-         12dc48f545fd349ef2cadcc4d816706951b87998 ASoC: dt-bindings: wlf,wm8962: add missing interrupt property
-         
-  - ref: refs/heads/asoc-5.17
-    old: cd2f33e93d578e9e1c47ef8981ec69298da9cb38
-    new: 2b9c8d2b3c89708d53b6124dc49c212dc5341840
-    log: |
-         faf695517c1c77bb4a4b46d54007a283962eb00e ASoC: mediatek: remove unnecessary CONFIG_PM
-         fc6c62cf1cbf24c81ccb1d248120311336d5f3cc ASoC: SOF: mediatek: Add missing of_node_put() in platform_parse_resource()
-         49f893253ab43566e34332a969324531fea463f6 ASoC: uniphier: drop selecting non-existing SND_SOC_UNIPHIER_AIO_DMA
-         2039cc1da4bee1fd0df644e26b28ed769cd32a81 ASoC: codecs: wcd938x: add SND_SOC_WCD938_SDW to codec list instead
-         083a7fba38885a8ffa03a2857e383421cefd36e6 ASoC: rt5640: Add the binding include file for the HDA header support
-         2b9c8d2b3c89708d53b6124dc49c212dc5341840 ASoC: rt5640: Add the HDA header support
+         c74526f947ab946273939757c72499c0a5b09826 spi: bcm-qspi: choose sysclk setting based on requested speed
+         e10a6bb5f52de70c7798b720d16632d4042d2552 spi: bcm-qspi: set transfer parameter only if they change
          
 
---===============4637491283925135546==
+--===============7577389966202255283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637847302 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1637847301-3d4ae1d79df478be849432dfa683a7d746389a75
+pusher C3F436CA30F5D8EB 1637847310 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1637847310-1b3f9d2cfc9c222061f838bbd687edd9f8164087
 
-86f74ba3fef56dd1cee19b7a15ae27fc0da5bb61 12dc48f545fd349ef2cadcc4d816706951b87998 refs/heads/asoc-5.16
-cd2f33e93d578e9e1c47ef8981ec69298da9cb38 2b9c8d2b3c89708d53b6124dc49c212dc5341840 refs/heads/asoc-5.17
+b79332ef9d61513d0ccda74a5161bb7c31851e9c e10a6bb5f52de70c7798b720d16632d4042d2552 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGfkQYACgkQJNaLcl1U
-h9CI8Af8DuG9OyAQfM4bpop/8DRAw1SlY8lRhp1aiv3oXMA7hEy0vkVIHewDE/Wj
-0LhHDLdZHy91zX0gcSuO/TI6qjwYrH8C0sNg9ePk0YfVLutuj6oT6Y9dHCHe16aK
-Sz9DPr8gokUcjfhNR/TX+Zx7+CJhjLHb2f2ShfUwSFyTDhkrnOVvcqiEWR0KIEuX
-t1I98bbzWjyvvQaj3LXxS/eQhjqbay0/CbaWBesYXkYi9DkAdY5Li1xVrm/oTd3V
-MP/bIKgReLPdv0B88Vejts/VEMXaPRSuu0KGPFeJwKqRFb+P9DY8QwFWqy69luQ1
-yv1vPCgiuJ7jitQ1mLteogAI3U0vmw==
-=xGgR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGfkQ4ACgkQJNaLcl1U
+h9DNhwf9Hez0cWet1kX+QRTndFtpCJAc45qM+6lS5t6YWDVtTQETLU5YFvPA1GgD
+ExcUhQgG93U6qdpt6GLz+wpTOw/VJpqtmJSTy4Z3QG3UpnC3O/fN1kZVTOgiVfKc
+e4xaDGbghE26O00sQz8t7fMfHUlDc75Tiofx+Fo8p5CmzTnl4w4rT4KckPVGZYsq
+l6wkS/n8ad7y52FZUeF89ExQLrZfms8CLyISGXDRhnk10CZwgESs3YsJ21vkWD3p
+zVQNocnjzJ2l/vWBhm0yBW4+ZrK63P1IKju8kezmZCosWn9KktybE2wFjWJ37DuQ
+vIjirMUEnxIIgT9R4xn6ANjS44zCEQ==
+=AFLq
 -----END PGP SIGNATURE-----
 
---===============4637491283925135546==--
+--===============7577389966202255283==--
