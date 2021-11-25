@@ -1,21 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 25 Nov 2021 15:24:12 -0000
-Message-Id: <163785385240.27265.4902157196304311878@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3546857079643752393=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 25 Nov 2021 15:30:06 -0000
+Message-Id: <163785420622.31864.177621266037635439@gitolite.kernel.org>
+
+--===============3546857079643752393==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 18fe42bdd635d290d230ff279e5e86072f1e7e9f
-    new: 383a44aec91c327ef4a9d03cfa65d1eaf3746c06
-    log: |
-         82be5f5bd390aeb5214a966ea39290a5d49df252 MAINTAINERS: Update maintainer entry for keystone platforms
-         5fe762515bc9dd0476ed1de06377d7186565da99 arm64: dts: exynos: drop samsung,ufs-shareability-reg-offset in ExynosAutov9
-         383a44aec91c327ef4a9d03cfa65d1eaf3746c06 memory: mtk-smi: Fix a null dereference for the ostd
-         
+  - ref: refs/heads/review-hans
+    old: 07c4cf3a033c8e7fac447833b798551a37ddab1b
+    new: e9ff190973df2c417c2a97a8b70e709e0bdc2716
+    log: revlist-07c4cf3a033c-e9ff190973df.txt
+
+--===============3546857079643752393==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-07c4cf3a033c-e9ff190973df.txt
+
+c7e1c782f2432cd4dc6c6ea930d99d93997a0edb platform/x86: thinkpad_acpi: Make *_init() functions return -ENODEV instead of 1
+5a47ac0041678d3d610b3ac724bca8c4bda2ddff platform/x86: thinkpad_acpi: Simplify dytc_version handling
+0b0d2fba4f3302b601c429c9286e66b3af2d29cb platform/x86: thinkpad_acpi: Cleanup dytc_profile_available
+798682e236893a20e5674de02ede474373dd342d platform/x86: thinkpad_acpi: Properly indent code in tpacpi_dytc_profile_init()
+cb97f5f01d383ff166d50e356d07ac38d6033ac8 platform/x86: thinkpad_acpi: Remove "goto err_exit" from hotkey_init()
+3a0abea60c6a39f5362db6d78cba7a932850fec2 platform/x86: thinkpad_acpi: Fix thermal_temp_input_attr sorting
+910524004383863bb1d2888e510dd61fd00119d0 platform/x86: thinkpad_acpi: Restore missing hotkey_tablet_mode and hotkey_radio_sw sysfs-attr
+2f5ad08f3eec8d4376b62f3fe708102f6aaea056 platform/x86: thinkpad_acpi: Register tpacpi_pdriver after subdriver init
+5cd689683eb0507c67f825f1c29b17bb80612468 platform/x86: thinkpad_acpi: tpacpi_attr_group contains driver attributes not device attrs
+526ac103dbc67291a071fc57aab0f85ad7298ef3 platform/x86: thinkpad_acpi: Fix the hwmon sysfs-attr showing up in the wrong place
+f3dc3009c2edb1512e0fe6964f387045a36b2ff4 platform/x86: thinkpad_acpi: Remove unused sensors_pdev_attrs_registered flag
+67e7d50d13e94abeaf82e9945dce929352771b94 platform/x86: thinkpad_acpi: Move input_unregister_device() to the top of thinkpad_acpi_module_exit()
+7b20ca42fa8e7520d00619259ac99f579b47ffde platform/x86: thinkpad_acpi: Add LED_RETAIN_AT_SHUTDOWN to led_class_devs
+2fb9f4dce56bdd5caa72426749437b860a1f77bb platform/x86: thinkpad_acpi: Add lid_logo_dot to the list of safe LEDs
+2609a55e83d6c032a93d15d2fbb60c5417951979 platform/x86: asus-wmi: remove unneeded semicolon
+85544020b0fcc0f6b69453535672d7685b71e53d platform/x86: lg-laptop: Recognize more models
+e9ff190973df2c417c2a97a8b70e709e0bdc2716 platform/x86: touchscreen_dmi: Add TrekStor SurfTab duo W1 touchscreen info
+
+--===============3546857079643752393==--
