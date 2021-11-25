@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4661955794331981989=="
+Content-Type: multipart/mixed; boundary="===============2973848393458822105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 25 Nov 2021 17:40:17 -0000
-Message-Id: <163786201723.10215.15955440547193521668@gitolite.kernel.org>
+Date: Thu, 25 Nov 2021 17:41:46 -0000
+Message-Id: <163786210622.10711.461548140982765397@gitolite.kernel.org>
 
---===============4661955794331981989==
+--===============2973848393458822105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: d78328bcc4d0e677f2ff83f4ae1f43c933fbd143
-    new: 693a622b08ccbd0f0f38695664a4428b712babea
+  - ref: refs/heads/tty-linus
+    old: 4e9679738a918d8a482ac6a2cb2bb871f094bb84
+    new: f85e04503f369b3f2be28c83fc48b74e19936ebc
     log: |
-         c67643b46c28fc8bb7d81c65bc7eef18c3fbe972 tty: serial: imx: clear the RTSD status before enable the RTSD irq
-         028e083832b06fdeeb290e1e57dc1f6702c4c215 tty: serial: imx: disable UCR4_OREN in .stop_rx() instead of .shutdown()
-         693a622b08ccbd0f0f38695664a4428b712babea dt-bindings: serial: fsl-lpuart: add i.MXRT compatible
+         f85e04503f369b3f2be28c83fc48b74e19936ebc serial: 8250: Fix RTS modem control while in rs485 mode
          
 
---===============4661955794331981989==
+--===============2973848393458822105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637862014 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637862103 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1637862007-74d00178eaf572eced27201091a120c565b6dae2
+nonce 1637862097-8de0b32e051758246f8a2372d7197a15d25b6a60
 
-d78328bcc4d0e677f2ff83f4ae1f43c933fbd143 693a622b08ccbd0f0f38695664a4428b712babea refs/heads/tty-testing
+4e9679738a918d8a482ac6a2cb2bb871f094bb84 f85e04503f369b3f2be28c83fc48b74e19936ebc refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfyn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bTYP/iejQYpOrqihlzpELCV7
-WthzMF47rl1vihbsT0yh7FL/8mzdhBJ6imNePLGb6nvbBkl8oNli7DQeXkecLj3t
-TNodnl3aPLeGygDrLFnvOJreenZT/QGVe/Dcncsz6lZOfalpbSodoI/vVBe7M3o7
-GrvlCxI5HX5FyTJDpq2w5TuNrNdpcQArUK8G2oLMOriGL1DpJAhHHK1WeP0NQnJJ
-etiDaVjapgozDx5TFHreyN1Y2vDUGzGp84yHjdcgOb/plaKXtXrxpfP3XCeZkbxU
-Hpd6uujdjN9GywFSD30a8REkCT/yCuvEw3h4I1Kh8iDCzSMGx92fBp/q6VY6AEJp
-T31UbJ7c+vQDVlSwLf27kvM3kr5uLq3MWqty39QSxm7lEayPqsYI5pJCW+HPhOq8
-iG8iY82pDNHsZhSGTIMFYhyryKNrdie4kvIOABnhTnsSLhZYasFR8x5O2+dzJiF1
-/2wWIxj67/8bC46UBmBqULN23Ui175mCiPEXWDlMgQB4MbG8cJSYxe+s5ZK4yDF7
-jDvx9337qh1K5ESGUuuwVXQzL4UV4PgEdQ9A/LsfEIWMB0cUtpByRszyzKRmG1G6
-KPb1mlj/iuxoJsadovjhvWiuDXyx/qCjNd9fpDYVPhauWKxYL2DD+eI9BtnAeF/q
-IPfdOGLtewWfjSo6doioHPDd
-=YNMG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGfytcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p88P/jXPbI7iu8yYC3OzxKsY
+2zRLd19gWOJZf4puelSh41MI9SbBGlbXzOG/UeaAN+Lhzfb1Iv9IcycrcvSvsb8J
+ZZfz+NyrCJ2Dnc0FZ49LZxtlegEgMGez+LH4asxYd4I0d9W88UMiyfx/tnw+h7lh
+rfIXJhxm6CIFeO+e40JvK5cAqZTMURTcFQBqZKqmp16evxsT+UUTW+xhysokZRY4
+rV1pbIXUy3dbjJJWejqwMK2xfd+HTRj4FWNl0Ybqk7EofOpYvhpTipiWkdAq2ogL
+QGiCusL4NC7w7rZfUISQp52NSdTJWy+lGIcfD5kLxR3bf2O8BMKHxpJr8KgU9Xom
+1TJIBqzuwFFmNPJG7D9x5HRyjHSXpyHzgfrW+HcuQ1UtM/qKdWDVNyGFukJ2XJPK
+za6TPvKqwyEDqGQ4m7zwT/93SokHJ84JucP86S9n129QwPg9lKX7rsXsGfEuRNzP
+lFFSjbhmEhRfMwrf+eblnV+j1G/fdv5k5fIJihILFCEJtg3pwiEiohb1SM466T7k
+N43H6WLVu/YufTxT2lhh3psTiEg8PPIvaBqShjW75LsC4jqSR9OFAEscwWZCyLW2
+8WMfGSl6uxjm+VAZXyjS02Zk7x8m1q/7MoCjdEv+LyUvBnjuf2fEznHvrmvhQAnU
+9aHbU6YnghOniJuWgXAFdlAl
+=Iln1
 -----END PGP SIGNATURE-----
 
---===============4661955794331981989==--
+--===============2973848393458822105==--
