@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 26 Nov 2021 03:34:24 -0000
-Message-Id: <163789766412.25705.8037326623712268848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 26 Nov 2021 03:41:09 -0000
+Message-Id: <163789806948.30431.3600882113464172575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9dbe33cf371bd70330858370bdbc35c7668f00c3
-    new: 49573ff7830b1186011f5f2e9c08935ec5fc39b6
+    old: 4636440f913b2bd5051fae6006dd6f6c2456eb3b
+    new: 342e5f9fc73f7af0fa253c1ec8ea237512b5ebf5
     log: |
-         a125f91fe783a79c9d990fe6e28a3da8d9a0857f selftests: tls: add helper for creating sock pairs
-         31180adb0bed7d3e67ae97121dc83f320bbd45be selftests: tls: factor out cmsg send/receive
-         ef0fc0b3cc2b8df7f29656a190a13ceb644b0c00 selftests: tls: add tests for handling of bad records
-         520493f66f6822551aef2879cd40207074fe6980 tls: splice_read: fix record type check
-         d87d67fd61ef4e7619eb24ab20cba3250a6444e8 selftests: tls: test splicing cmsgs
-         e062fe99cccd9ff9f232e593d163ecabd244fae8 tls: splice_read: fix accessing pre-processed records
-         274af0f9e2799da22a866139d9bd203cc0baacff selftests: tls: test splicing decrypted records
-         f3911f73f51d1534f4db70b516cc1fcb6be05bae tls: fix replacing proto_ops
-         f884a3426291b3f368231c0ac0e50a6a061f6aca selftests: tls: test for correct proto_ops
-         49573ff7830b1186011f5f2e9c08935ec5fc39b6 Merge branch 'tls-splice_read-fixes'
+         a8bd9fa5b5272d8cac189b2bd5c64588431ee06a net: ocelot: remove "bridge" argument from ocelot_get_bridge_fwd_mask
+         8abe19703825eda9c49f54624af57546c23af53f net: dsa: felix: enable cut-through forwarding between ports by default
+         76b5fbcd6b47e5c96daf4ae58a74613f3e0c58a7 net: ipa: kill ipa_modem_init()
+         dc901505fd9820e2428dabb38f5c700d195ce2d3 net: ipa: zero unused portions of filter table memory
+         e6aab6b9b60050d4f635011213d488ee16e8234c net: ipa: rework how HOL_BLOCK handling is specified
+         01c36637aeaf5d3e74be4d8e00e8f4e62857dac0 net: ipa: explicitly disable HOLB drop during setup
+         1b65bbcc9a71012003511b23b02b32db5c2f1adb net: ipa: skip SKB copy if no netdev
+         7ece9eaa3f16cec20f3138bab84f4fc98eff0ec8 net: ipa: GSI only needs one completion
+         faa88ecead2f3f1326d6c753af6e700a49872482 net: ipa: rearrange GSI structure fields
+         342e5f9fc73f7af0fa253c1ec8ea237512b5ebf5 Merge branch 'net-ipa-small-collected-improvements'
          
