@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Fri, 26 Nov 2021 10:04:32 -0000
-Message-Id: <163792107218.25686.13621478413616376396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
+Date: Fri, 26 Nov 2021 10:12:06 -0000
+Message-Id: <163792152601.30635.7172121016781708339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/rui/linux
+user: rui
 changes:
-  - ref: refs/tags/imx-fixes-5.16
+  - ref: refs/heads/amd-pstate-simulate-acpi-pstate
     old: 0000000000000000000000000000000000000000
-    new: dd7e6fde2796541bbafc537dbff1eae18c482525
+    new: b0c47010c1717ff8a76d6be6a8eca20a6ee3b091
