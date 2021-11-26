@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 26 Nov 2021 03:23:54 -0000
-Message-Id: <163789703432.19703.13017028432245054371@gitolite.kernel.org>
+Date: Fri, 26 Nov 2021 03:29:32 -0000
+Message-Id: <163789737284.22742.427502890217101661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: a0341b73d843143afef52313b9f4470f5523941e
-    new: 739752d655b3a5fa6ea3d72c1b53cec082f86486
+    old: 739752d655b3a5fa6ea3d72c1b53cec082f86486
+    new: 61da6ac715700bcfeef50d187e15c6cc7c9d079b
     log: |
-         739752d655b3a5fa6ea3d72c1b53cec082f86486 tsnep: Add missing of_node_put() in tsnep_mdio_init()
+         61da6ac715700bcfeef50d187e15c6cc7c9d079b net: stmmac: perserve TX and RX coalesce value during XDP setup
          
