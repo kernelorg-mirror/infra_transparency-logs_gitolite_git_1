@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 26 Nov 2021 21:13:33 -0000
-Message-Id: <163796121376.26649.4453895115144958900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 26 Nov 2021 21:25:34 -0000
+Message-Id: <163796193402.3332.10514913106547268120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 8f6f41f39348f25db843f2fcb2f1c166b4bfa2d7
-    new: e32cb12ff52a2840fc1248998717f7b95c42f064
-    log: |
-         e32cb12ff52a2840fc1248998717f7b95c42f064 bpf, mips: Fix build errors about __NR_bpf undeclared
-         
+  - ref: refs/tags/net-5.16-rc3
+    old: 226dbbd578f75e0d50208490dbf6229dbcf023b7
+    new: 0000000000000000000000000000000000000000
