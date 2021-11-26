@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 26 Nov 2021 22:15:09 -0000
-Message-Id: <163796490979.648.5251986154502375599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 26 Nov 2021 22:53:12 -0000
+Message-Id: <163796719245.24156.398734427928295413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: abc7a4c812b25a36032b8ad465fa0ef3a1e34739
-    new: ecc3d5a3862b90e35a8a99566c5bb298e6c6d005
-    log: |
-         ecc3d5a3862b90e35a8a99566c5bb298e6c6d005 Fri Nov 26 10:14:10 PM UTC 2021
-         
+  - ref: refs/heads/devel/sub-page-faults
+    old: 570e8f78ef7c8ad48f00cc440658bee92dee9134
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/devel/btrfs-live-lock-fix
+    old: 0000000000000000000000000000000000000000
+    new: 687d35167893822691f7718c6f337aeada2912d2
