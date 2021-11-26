@@ -1,33 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 26 Nov 2021 17:50:04 -0000
-Message-Id: <163794900414.30221.1163979110969096784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 26 Nov 2021 17:55:17 -0000
+Message-Id: <163794931722.1245.10206487526976460503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/block-5.16
-    old: e30028ace8459ea096b093fc204f0d5e8fc3b6ae
-    new: d422f40163087408b56290156ba233fc5ada53e4
+  - ref: refs/heads/net-mlx5
+    old: eaeace60778e524a2820d0c0ad60bf80289e292c
+    new: 49573ff7830b1186011f5f2e9c08935ec5fc39b6
     log: |
-         98b26a0e766724957b48301e3a6f7093a142d54b block: call rq_qos_done() before ref check in batch completions
-         d422f40163087408b56290156ba233fc5ada53e4 zram: only make zram_wb_devops for CONFIG_ZRAM_WRITEBACK
-         
-  - ref: refs/heads/for-5.17/block
-    old: b488606166844e7fb03e5995dbc9d608bbd57c05
-    new: 3f39d47d7ad858c024bd777f5f2a86fa7f6a9f14
-    log: |
-         3f39d47d7ad858c024bd777f5f2a86fa7f6a9f14 blk-mq: use bio->bi_opf after bio is checked
-         
-  - ref: refs/heads/for-next
-    old: de5de0813b7dbbb71fb5d677ed823505a0e685c5
-    new: 4d162e24e9979dcb3d7825229982c172ca4bde54
-    log: |
-         3f39d47d7ad858c024bd777f5f2a86fa7f6a9f14 blk-mq: use bio->bi_opf after bio is checked
-         4d162e24e9979dcb3d7825229982c172ca4bde54 Merge branch 'for-5.17/block' into for-next
+         9dbe33cf371bd70330858370bdbc35c7668f00c3 mdio: aspeed: Fix "Link is Down" issue
+         a125f91fe783a79c9d990fe6e28a3da8d9a0857f selftests: tls: add helper for creating sock pairs
+         31180adb0bed7d3e67ae97121dc83f320bbd45be selftests: tls: factor out cmsg send/receive
+         ef0fc0b3cc2b8df7f29656a190a13ceb644b0c00 selftests: tls: add tests for handling of bad records
+         520493f66f6822551aef2879cd40207074fe6980 tls: splice_read: fix record type check
+         d87d67fd61ef4e7619eb24ab20cba3250a6444e8 selftests: tls: test splicing cmsgs
+         e062fe99cccd9ff9f232e593d163ecabd244fae8 tls: splice_read: fix accessing pre-processed records
+         274af0f9e2799da22a866139d9bd203cc0baacff selftests: tls: test splicing decrypted records
+         f3911f73f51d1534f4db70b516cc1fcb6be05bae tls: fix replacing proto_ops
+         f884a3426291b3f368231c0ac0e50a6a061f6aca selftests: tls: test for correct proto_ops
+         49573ff7830b1186011f5f2e9c08935ec5fc39b6 Merge branch 'tls-splice_read-fixes'
          
