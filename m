@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3443126781933463388=="
+Content-Type: multipart/mixed; boundary="===============1622145018648594139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 26 Nov 2021 10:34:22 -0000
-Message-Id: <163792286242.12134.17797013465888742816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 26 Nov 2021 10:36:58 -0000
+Message-Id: <163792301861.14363.3441109474217269120@gitolite.kernel.org>
 
---===============3443126781933463388==
+--===============1622145018648594139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master-pending
-    old: 4630ef6bb403b65e5f6b9da3fb200ac78b1bab59
-    new: b5008c7ab11153d41bb667b80778e285cd22e089
-    log: revlist-4630ef6bb403-b5008c7ab111.txt
-  - ref: refs/heads/pending
-    old: beb10d5217850cc125a898ed393b9ca8956e35d4
-    new: 089690f0304adcb3c4d528ff4c930616219f3844
+  - ref: refs/heads/master
+    old: 16fbc8d8ce3e43a1218974b32208e47def7c7835
+    new: 5fd32aafb6f8ac49844d75b7fc693b6570c36e36
     log: |
-         b689f091aafd1a874b2f88137934276ab0fca480 ath11k: Use host CE parameters for CE interrupts configuration
-         23cddeb5a7705daf305f02bd01ff73598ebd6461 wcn36xx: Use correct SSN for ADD BA request
-         932999613158c6276e620ad6c28111adec837910 ath11k: Avoid NULL ptr access during mgmt tx cleanup
-         8356d4fab224c215d8af5077bb56418368500153 ath11k: add dbring debug support
-         9e7459dee49eaf4887e641d87dc28fb73a67ba89 ath11k: add spectral/CFR buffer validation support
-         e798f3e5bfaace993b92d950aefcccaa5af0aeec ath10k: Fix the MTU size on QCA9377 SDIO
-         d22c8079c223848c1de17e2e8133a7c90d9365f4 ath11k: fix destination monitor ring out of sync
-         089690f0304adcb3c4d528ff4c930616219f3844 ath9k: switch to rate table based lookup
+         5fd32aafb6f8ac49844d75b7fc693b6570c36e36 Linux 4.19.218
          
 
---===============3443126781933463388==
+--===============1622145018648594139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4630ef6bb403-b5008c7ab111.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b689f091aafd1a874b2f88137934276ab0fca480 ath11k: Use host CE parameters for CE interrupts configuration
-23cddeb5a7705daf305f02bd01ff73598ebd6461 wcn36xx: Use correct SSN for ADD BA request
-ead1ef6f444513b33d5dc7015ab9ecad2a8fcb74 Merge branch 'ath-next'
-52e72c07294309d855f5cd4adf7ec115f80b6e12 Merge remote-tracking branch 'mhi/mhi-next'
-4775ee9bf3a42253c8bb524715a8630994a0e402 Add localversion-wireless-testing-ath
-bafe5e82c3a93012b77e88edefa14ee6f8c317c9 Revert "bus: mhi: Early MHI resume failure in non M3 state"
-932999613158c6276e620ad6c28111adec837910 ath11k: Avoid NULL ptr access during mgmt tx cleanup
-8356d4fab224c215d8af5077bb56418368500153 ath11k: add dbring debug support
-9e7459dee49eaf4887e641d87dc28fb73a67ba89 ath11k: add spectral/CFR buffer validation support
-e798f3e5bfaace993b92d950aefcccaa5af0aeec ath10k: Fix the MTU size on QCA9377 SDIO
-d22c8079c223848c1de17e2e8133a7c90d9365f4 ath11k: fix destination monitor ring out of sync
-089690f0304adcb3c4d528ff4c930616219f3844 ath9k: switch to rate table based lookup
-b5008c7ab11153d41bb667b80778e285cd22e089 Merge branch 'pending' into master-pending
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637923017 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1637923016-40eac112a40acdb6c2ef85a67ee491b15b945fe8
 
---===============3443126781933463388==--
+16fbc8d8ce3e43a1218974b32208e47def7c7835 5fd32aafb6f8ac49844d75b7fc693b6570c36e36 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGguMkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fvsP/jZLX+DKxwBqbhhIqAyQ
+1uH8T7QBPttRVfZV8B8+00SVseei5lR0eTjH4WcC2mqUTTrwDVLeMhGVwpEFetNt
+iBXLAPsE4bBZz+ItcnqyY+YZgrAltIWmvl0qLJoTO0uJr5achkkuC2gYX3I49MSE
+kNF6NvUGXcNjeCXpliFST7U6VljehMjP+H2gY4xmD+5VShvDvhZrt38J+aoOuogG
+UWwbJHuZFadcHHGeiB6m/Z924FQLuUApiF5+nqfUFe1kpTW1lJA5ATUl2Gz/JltV
+7ynXJiFSzp/3Ib6X49vwmjz0AkrVC5i4dWrX+6ond+1SnYJIp6aafHtxE/9zIjmv
+d1SLe68n8b2Q4gUIbyInbAwQCfY29NsoFYXokJYqUv2JB4q04CFlfrPiiVpTvPil
+zlD+S8ku/RtZlxarMFXuoOIgdrTDm/QTovqhNrkigbOd9qETGJgs+JAy7XlVegmw
+nk8qm/SeMsP6dCf/XiIZSBaByJH+Av9FK+C1oaTXpUhj1+f/N9RvDAnqCUSohhkp
+SVgFvqGP3iextsn3Z8o9ZnueX3CVIm3BY0itBDn8fqwk6MzEaMGIHchHeo8RU4WW
+3w6BXjSNkkFH6qdLDSmpOKFACMVCMLUTRnVMQORdm+M59D1zv7XjYc/sqpZTFqEz
+YPh9SZba1lu8KIeh+S7tvrZ2
+=eZHZ
+-----END PGP SIGNATURE-----
+
+--===============1622145018648594139==--
