@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0074658059817446365=="
+Content-Type: multipart/mixed; boundary="===============4635176757074610591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Fri, 26 Nov 2021 07:48:29 -0000
-Message-Id: <163791290929.20756.2480514533379684716@gitolite.kernel.org>
+Date: Fri, 26 Nov 2021 07:48:52 -0000
+Message-Id: <163791293271.21200.8526626639270069403@gitolite.kernel.org>
 
---===============0074658059817446365==
+--===============4635176757074610591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 8bb7eca972ad531c9b149c0a51ab43a417385813
-    new: a4849f6000e29235a2707f22e39da6b897bb9543
-    log: revlist-8bb7eca972ad-a4849f6000e2.txt
+  - ref: refs/heads/for-next
+    old: 6cc861529aa63e1e0e062af2df1559c1b448755d
+    new: d521ed6f859f0027a89ca40c1ce17240f8e118f4
+    log: revlist-6cc861529aa6-d521ed6f859f.txt
 
---===============0074658059817446365==
+--===============4635176757074610591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bb7eca972ad-a4849f6000e2.txt
+Content-Disposition: attachment; filename=revlist-6cc861529aa6-d521ed6f859f.txt
 
-2479b523898633768e28796238534af31fbd6846 lib: zstd: Add decompress_sources.h for decompress_unzstd
-e0c1b49f5b674cca7b10549c53b3791d0bbc90a8 lib: zstd: Upgrade to latest upstream zstd version 1.4.10
-a99a65cfb92c68c48c761ec5e6383caf63124ce1 MAINTAINERS: Add maintainer entry for zstd
-0a8ea235837cc39f27c45689930aa97ae91d5953 lib: zstd: Add cast to silence clang's -Wbitwise-instead-of-logical
-beaaaa37c664e9afdf2913aee19185d8e3793b50 crypto: api - Fix boot-up crash when crypto manager is disabled
-2498363310e9b5e5de0e104709adc35c9f3ff7d9 dmaengine: stm32-dma: avoid 64-bit division in stm32_dma_get_max_width
-5c6c6d60e4b489308ae4da8424c869f7cc53cd12 dmaengine: ti: k3-udma: Set bchan to NULL if a channel request fail
-eb91224e47ec33a0a32c9be0ec0fcb3433e555fd dmaengine: ti: k3-udma: Set r/tchan or rflow to NULL if request fail
-ad4f93ca41388f36ec40ec9c1d97b52177f25fa3 ALSA: memalloc: Use proper SG helpers for noncontig allocations
-d159037abbe3412285c271bdfb9cdf19e62678ff ALSA: synth: missing check for possible NULL after the call to kstrdup
-fa443bc3c1e4b28d9315dea882e8358ba6e26f8b HID: intel-ish-hid: add support for MODULE_DEVICE_TABLE()
-cb1a2c6847f7bd2ba45ee1b2c86543c783aec270 HID: intel-ish-hid: use constants for modaliases
 44e2a58cb8803e3e40eaf5708c4d15b4118913c4 HID: intel-ish-hid: fw-loader: only load for matching devices
 0d0cccc0fd83f4657cfc2e50706bfa16f125057e HID: intel-ish-hid: hid-client: only load for matching devices
 facfe0a4fdce3f545a4a883358eda3078b0425c7 platform/chrome: chros_ec_ishtp: only load for matching devices
@@ -1050,5 +1038,17 @@ f3caa22643c172e758878c324caa7107ed9570b5 Merge tag 'amd-drm-fixes-5.16-2021-11-2
 7798a7369272b523646d6810ffe71012cf9f420a Merge tag 'drm-misc-fixes-2021-11-25' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
 fc026c8b926835b46509a2757732bfa38a2162f1 Merge tag 'drm-intel-fixes-2021-11-24' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 a4849f6000e29235a2707f22e39da6b897bb9543 Merge tag 'drm-fixes-2021-11-26' of git://anongit.freedesktop.org/drm/drm
+04a82803243f75034296174c519abc616a7f2a36 bcache: add initial data structures for nvm pages
+1aa14bd7dc4aa2eb4e2d01bad628ca3c431c1314 bcache: initialize the nvm pages allocator
+cbeef758d955a1924e0c4f79eebbbcfa58c66329 bcache: initialization of the buddy
+6bb68450e6bcc53314d29f7441b69bb2aa92039f bcache: bch_nvmpg_alloc_pages() of the buddy
+7fd77a5306ee19666e7d2396ace6fccb61d3ef2e bcache: bch_nvmpg_free_pages() of the buddy allocator
+a7696157e17729304feee783a9f594cd5f46d5cc bcache: get recs list head for allocated pages by specific uuid
+e8a57faf0e37490dc77d479289ba5aa47274baee bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
+b5bafad7230245e9d4cb8f04088faeb41b28f060 bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
+1223a410eaf402e96efe562d15c1f60939eaf375 bcache: initialize bcache journal for NVDIMM meta device
+17f3580d9092662bcd3e1a5a845169ca080a486d bcache: support storing bcache journal into NVDIMM meta device
+d5532e5a2b74d5c4ff9b847f89720c146599f700 bcache: read jset from NVDIMM pages for journal replay
+d521ed6f859f0027a89ca40c1ce17240f8e118f4 bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
 
---===============0074658059817446365==--
+--===============4635176757074610591==--
