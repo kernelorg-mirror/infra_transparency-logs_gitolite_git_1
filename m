@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3669344107405022465=="
+Content-Type: multipart/mixed; boundary="===============4816769565352277258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 26 Nov 2021 17:55:41 -0000
-Message-Id: <163794934101.1474.5154905333041056462@gitolite.kernel.org>
+Date: Fri, 26 Nov 2021 17:57:02 -0000
+Message-Id: <163794942277.1992.17957322966408974299@gitolite.kernel.org>
 
---===============3669344107405022465==
+--===============4816769565352277258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 305e95bb893cc50f7c59edf2b47d95effe73498a
     new: 35bf8c86eeb8ae609f61c43aeab3b530fedcf1b4
     log: revlist-305e95bb893c-35bf8c86eeb8.txt
 
---===============3669344107405022465==
+--===============4816769565352277258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ fe68c43ce38865299de03b691e5069d3daca015a net: ipa: support enhanced channel flow
 29c3002644bdd653f6ec6407d25135d0a4f7cefb net: optimize skb_postpull_rcsum()
 35bf8c86eeb8ae609f61c43aeab3b530fedcf1b4 Merge branch 'net-small-csum-optimizations'
 
---===============3669344107405022465==--
+--===============4816769565352277258==--
