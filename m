@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 26 Nov 2021 13:21:18 -0000
-Message-Id: <163793287865.23996.9169084188139704518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 26 Nov 2021 13:21:53 -0000
+Message-Id: <163793291330.24216.4342743942631716116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/tags/renesas-devel-2021-11-26-v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: efdf2c685c3b4b74f74bcd2945400b1e34a7ef0d
-  - ref: refs/tags/renesas-next-2021-11-26-v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 11dd5a4764c96197b2dbd97d8453f436fcbef4db
+  - ref: refs/heads/renesas-clk
+    old: 827fbac821a656b80b761e8e39a172669569cdcf
+    new: 33b22d9c3272003a525ba2d6b7b851f3d4f30574
+    log: |
+         366df82fc68a9db22ab9de890a372d79662e397c mmc: renesas_sdhi: Use devm_clk_get_optional() to obtain CD clock
+         45177fc641f9de58180af158d1fac8defa99afca mmc: renesas_sdhi: Simplify an expression
+         33b22d9c3272003a525ba2d6b7b851f3d4f30574 clk: renesas: r9a07g044: Add TSU clock and reset entry
+         
+  - ref: refs/heads/renesas-clk-for-v5.17
+    old: 827fbac821a656b80b761e8e39a172669569cdcf
+    new: 33b22d9c3272003a525ba2d6b7b851f3d4f30574
+    log: |
+         366df82fc68a9db22ab9de890a372d79662e397c mmc: renesas_sdhi: Use devm_clk_get_optional() to obtain CD clock
+         45177fc641f9de58180af158d1fac8defa99afca mmc: renesas_sdhi: Simplify an expression
+         33b22d9c3272003a525ba2d6b7b851f3d4f30574 clk: renesas: r9a07g044: Add TSU clock and reset entry
+         
