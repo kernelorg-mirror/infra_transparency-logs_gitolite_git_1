@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5967634904264230549=="
+Content-Type: multipart/mixed; boundary="===============0071423226178395583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 26 Nov 2021 16:04:01 -0000
-Message-Id: <163794264166.28017.18213852434405013175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 26 Nov 2021 16:27:10 -0000
+Message-Id: <163794403006.10620.15554787261767294989@gitolite.kernel.org>
 
---===============5967634904264230549==
+--===============0071423226178395583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: b6379e73add8dc56ff2b7e5d88a8dce89a8ace56
-    new: cd455ebb748c4e198c8158e5d61b3034bf10f22b
+  - ref: refs/heads/driver-core-testing
+    old: 6a4e0b75cfa09e70c0aa39a03b478641cf2a7974
+    new: 012f09e157b3b64012353c68ad216b19347fbe5c
     log: |
-         1f8ff525f3d316116892852d5d39eeefa9fcb217 speakup: remove redundant assignment of variable i
-         cd455ebb748c4e198c8158e5d61b3034bf10f22b most: usb: replace snprintf in show functions with sysfs_emit
+         012f09e157b3b64012353c68ad216b19347fbe5c kobject: Replace kernel.h with the necessary inclusions
          
 
---===============5967634904264230549==
+--===============0071423226178395583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637942639 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1637942638-a612aa83e61aab3d9d2110a399b68545b6fe2412
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1637944027 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1637944026-b32e00bb2f617426f0ebb77cfc0af6bd833403a4
 
-b6379e73add8dc56ff2b7e5d88a8dce89a8ace56 cd455ebb748c4e198c8158e5d61b3034bf10f22b refs/heads/char-misc-testing
+6a4e0b75cfa09e70c0aa39a03b478641cf2a7974 012f09e157b3b64012353c68ad216b19347fbe5c refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGhBW8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gW8QAMIvgvYAylT8lPMDBe3n
-yRdaEhkCAMZOk0G+M0xpy+dtEmZubtJlwHV/MEh/iDM3aU1j2pz3XNv3mBAeIpTY
-N/2e5HVYAnQGGCcz2xv2rDcnlSDzWkSv4Crf/9ozgOiZGmRsmm9dyV/lUsN5k6IL
-JAY0sSwi6BAH7zEf7If8a4Hndw19UwW/lIJw4hA9syaBoKZp+Fgwg2PcqJy4Fh5M
-VtHcDgt8a8/XRrWW1xQfQIoG+rqrMHpelW/39TKiXv+sClwyCRa1hk1BGiolORVW
-VXpKfkKPrgFDPtC7FdayxlmeUpxPt4z3RJOcywoCcDAFScNdg6M6sd/Ai8Be+8W3
-0NJdRLlRmSjgE8HcSgmLCh17sdRdRf7cLX+eAyRrXJNv5Yo4RlzoHSlX1ADqciOp
-GTO9u3o8fQXzk0EBTd5W80Yi3EBj4E7yfANEaV5o4Sdj3ap9gVRRyBqt9Vd1EjrJ
-S6cDPOrwl1UcQaL+/ZVngOk8WKf1ergnp9rgG9nBBp4Fn6LnfSrdYs1u93W2m3kV
-U+/7jt0ihrhtSgvWMYgd/QdO04M93PiqXRnzT2HuhGZT5KoHHEnlbkl481es9JDB
-93/n6e0YuPF++npvC6kkGoH1QR0bovdcRNCCQJg7AsTnqf2rsKARunG3TXgrW9VE
-hK/n4d3dq70vrJGTzc4DAyIv
-=Sj4B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGhCtsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zyYP/il8UJIPyTieSzG/9vKS
+N06pbtnSiLWhkSB0BtRJd20QEs3xRMnmcfm+N8+63HWlbflNaa1pWsonVCuEI1vs
+FgVyKa9rzSuNR65bDJaDA68W7/kZY3w6Pkc/F5eQY2XzbTHldP4OdC6ncOrZOvak
+kkg1dn789ZqJg1h4p86gXnd+xl2MkxrNmIWpgs/ElZ4wy8z6NxZfoQmnPFFl9djn
+ZWISurcKGXGnYQENilUqDwHWEYWE04PI4t42+pu5mszIGKTDe0hGbRyae1Zmqlfn
+m8dZleMHpJ1yt4YE7Z72bOOORprJlqE7dyR+tJTyLX78hDtLEB4I+wrNRmf9LKoc
+CqvXn/6ZEtvpKxjaKc/NVwDdCh0egoR9cic2ZTIk/rQbH6eyP3otvQZff0zQ+r5X
+Zz6/dBZiOvt9tbV8Pp/GV3JVeEb/8j61E+YCCYy6k4VbGtN4U+fqPrLBDCeXDqtg
+WJK/EVS2pOH4GEMCqVudd+S0JHBOryatUM+vW86YAu782/6FusKjMq9UMfZATtH/
+iwdtBnVdjBfIOc8suytrT1XQXBBWkgCiIvTOJRBGF5Ve1Sb1XUVKody6X1VC0Nmt
+dI/KvQsTAIQu9A3k1JK5Sg1eeKiM7jYg9orqBtMeVFBnjlXrCm0iQ0GwL4PmgTdi
+zJILIt1UgMZbsR/+CNbYw/2E
+=4gYJ
 -----END PGP SIGNATURE-----
 
---===============5967634904264230549==--
+--===============0071423226178395583==--
