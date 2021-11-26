@@ -1,60 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6454333464548641408=="
+Content-Type: multipart/mixed; boundary="===============4731890691902374436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Fri, 26 Nov 2021 12:12:00 -0000
-Message-Id: <163792872090.11449.12661790345791073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 26 Nov 2021 12:14:00 -0000
+Message-Id: <163792884007.12094.10794274802166700059@gitolite.kernel.org>
 
---===============6454333464548641408==
+--===============4731890691902374436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 49573ff7830b1186011f5f2e9c08935ec5fc39b6
-    new: 8f9dcc29566626f683843ccac6113a12208315ca
+  - ref: refs/heads/for-next
+    old: 9c3631d17054a8766dbdc1abf8d29306260e7c7f
+    new: 0e938533d96d656764fbd3fe0e2578873ec6d3e6
+    log: revlist-9c3631d17054-0e938533d96d.txt
+  - ref: refs/heads/for-rc
+    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
+    new: b0969f83890bf8b47f5c8bd42539599b2b52fdeb
     log: |
-         48c06708e63e71b4395e4159797366aa03be10ff mac80211: fix TCP performance on mesh interface
-         d5e568c3a4ec2ddd23e7dc5ad5b0c64e4f22981a mac80211: track only QoS data frames for admission control
-         18688c80ad8a8dd50523dc9276e929932cac86d4 mac80211: fix rate control for retransmitted frames
-         73111efacd3c6d9e644acca1d132566932be8af0 mac80211: fix regression in SSN handling of addba tx
-         942bd1070c3a39d1302fc5db73d60c86e3033c81 mac80211: set up the fwd_skb->dev for mesh forwarding
-         8f9dcc29566626f683843ccac6113a12208315ca mac80211: fix a memory leak where sta_info is not freed
+         84b01721e8042cdd1e8ffeb648844a09cd4213e0 RDMA: Fix use-after-free in rxe_queue_cleanup
+         f0ae4afe3d35e67db042c58a52909e06262b740f RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow
+         c4a6f9cd10bd8f84c601516b96b24e3eb6dcc86a Remove Doug Ledford from MAINTAINERS
+         52414e27d6b568120b087d1fbafbb4482b0ccaab RDMA/hns: Do not halt commands during reset until later
+         b0969f83890bf8b47f5c8bd42539599b2b52fdeb RDMA/hns: Do not destroy QP resources in the hw resetting phase
          
 
---===============6454333464548641408==
+--===============4731890691902374436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9c3631d17054-0e938533d96d.txt
 
-certificate version 0.1
-pusher 7BF9099A 1637928690 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1637928690-6b10a4f1d9a8e05dde69482d99afdbde46107c24
+12d1e2f3c5762df4ad72c75b2464a5b538f12aa9 IB/mthca: Use bitmap_zalloc() when applicable
+a277f383217a2c03f96166c5b33304c8b939532e IB/mthca: Use bitmap_set() when applicable
+19453f34cf4916054cbbe499fd77715fde791622 IB/mthca: Use non-atomic bitmap functions when possible in 'mthca_allocator.c'
+675e2694fc6c99effd6f07df296b1d806e49ec88 IB/mthca: Use non-atomic bitmap functions when possible in 'mthca_mr.c'
+d4fdc383c023efcdc88bcb9a30ea982e036758c1 RDMA/cxgb4: Use bitmap_zalloc() when applicable
+967a578af0c6d0c6c50ee5f9c48216cd2eebe4ef RDMA/cxgb4: Use bitmap_set() when applicable
+223b4d5c8702a92fb18d14e3f32953e474313e5b RDMA/cxgb4: Use non-atomic bitmap functions when possible
+8d0d2b0f41b1b2add8a30dbd816051a964efa497 RDMA/cma: Remove open coding of overflow checking for private_data_len
+925cac6358677d3d64f9b25f205eeb3d31c9f7f8 RDMA/rtrs-clt: Fix the initial value of min_latency
+0abfc79d724102ec91287e3e77ac8115fcf3ffe9 RDMA/siw: Use helper function to set sys_image_guid
+0e938533d96d656764fbd3fe0e2578873ec6d3e6 RDMA/bnxt_re: Remove dynamic pkey table
 
-49573ff7830b1186011f5f2e9c08935ec5fc39b6 8f9dcc29566626f683843ccac6113a12208315ca refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmGgzvIACgkQB8qZga/f
-l8SWaQ//blC90xMHpxGVR6lc0+M7GSXEWNsNkuvegD0aHSDdLU1zV0M/Cpyas1V/
-L9Ay/mGqUShGMcyhZclKcknX23hoInAjnMcLDN2Sl3TiKzgIRsH4ADr9RYN4DuHQ
-Uadhfpa37Kx874rar7uwf7fKfZFqDxUVzBQ+yJMe1Ve4kcT+U2JFzYRkoRV/hJPi
-pEKH5Y6z26/b+b3vkjqROQhlYhfSyKJIeaKvtDhuUDDuAoHeFWfO6brQiUCRcabd
-OBo7mk2feMAJfWxqnU2pZ5zzouS4UOgyJ02XB3AmZZpTWTpd+3KmDozzH2ZrO+oW
-Dr5RFqswRdgUVJEIkA1wiirnGQFkO0FH5tLp8pIiIUjFi/Y6/o4rvmfU9bhAGSh2
-XvrZgQCY3WsJRcbha6o6sYDSuNi+5yxQfKtdE7kcL2PwC0MLwd2QFjF1ZvhWDmLt
-F/dlSwc1AgvwP/6XskCk9V0aZhWT3n2n4Ia6kYOv/XOnOPQbuk3F/RhJniG1xiFC
-+CoIlLLJD/aaU2UDO5/Rd8xdbyOtYl1+OCfQm1yR8R4J1IMlJhUh90DfTEVqqJBk
-FUwjyiM4L15fKLzSzc+Is6fOcP+8u869ZYD4HTrP4DLw/oPmceYkurYkH34KlkRw
-BYp6AejD3lhJBA+5UG4CyC2TgGy32VOulH/fk4Z+KnymzlfzhZA=
-=+qWU
------END PGP SIGNATURE-----
-
---===============6454333464548641408==--
+--===============4731890691902374436==--
