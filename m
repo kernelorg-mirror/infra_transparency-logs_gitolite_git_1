@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4816769565352277258=="
+Content-Type: multipart/mixed; boundary="===============4519900207805464501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 26 Nov 2021 17:57:02 -0000
-Message-Id: <163794942277.1992.17957322966408974299@gitolite.kernel.org>
+Date: Fri, 26 Nov 2021 17:57:12 -0000
+Message-Id: <163794943298.2136.7854858724751445318@gitolite.kernel.org>
 
---===============4816769565352277258==
+--===============4519900207805464501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 305e95bb893cc50f7c59edf2b47d95effe73498a
-    new: 35bf8c86eeb8ae609f61c43aeab3b530fedcf1b4
-    log: revlist-305e95bb893c-35bf8c86eeb8.txt
+  - ref: refs/heads/mlx5-queue
+    old: 4cc1ed39c1cf5d6ef2bcf182db67f4e23d25d8e4
+    new: c2dd8973cc5b836b3602f08f40a98abfd776140f
+    log: revlist-4cc1ed39c1cf-c2dd8973cc5b.txt
 
---===============4816769565352277258==
+--===============4519900207805464501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-305e95bb893c-35bf8c86eeb8.txt
+Content-Disposition: attachment; filename=revlist-4cc1ed39c1cf-c2dd8973cc5b.txt
 
 4e9c91cf92ec3acee94e04425594aa3688a225e8 r8169: disable detection of chip version 60
 cc0a75eb037539f68f7117a632673a75e39d8d6b net: macb: convert to phylink_generic_validate()
@@ -54,5 +54,16 @@ fe68c43ce38865299de03b691e5069d3daca015a net: ipa: support enhanced channel flow
 0bd28476f6363c7ccc841fe6a0ab0dd1fdb822f6 gro: optimize skb_gro_postpull_rcsum()
 29c3002644bdd653f6ec6407d25135d0a4f7cefb net: optimize skb_postpull_rcsum()
 35bf8c86eeb8ae609f61c43aeab3b530fedcf1b4 Merge branch 'net-small-csum-optimizations'
+971c0476c7606cb32a7475d498231dbf3c0e15ad net/mlx5e: TC, Remove redundant action stack var
+246866e5c6406b1adcb09627096d7762d8ab00cc net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+b5318f30a978a24e961890acad6e9a1ee01a3a0c net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+86864aedd90bcd28befd98216188c1aef1534013 net/mlx5e: TC, Move common flow_action checks into function
+6972732ea51d2bf5a6607a989c5c0f562ff050ac net/mlx5e: TC, Set flow attr ip_version earlier
+cf812e86cbde210b340ee1745957a3c733c973d5 net/mlx5e: Hide function mlx5e_num_channels_changed
+2f18a242a7a8121f8d965f8a66ae01aa172eeda7 net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+29e354d03353e78bed4d98e399a89e643cad853f net/mlx5: Print more info on pci error handlers
+95492ad421b1c762bb4e0ab37945840e3cbf594f Merge branch 'patchq/430124' into mlx5-queue
+750515e4f0d5d3896b69c811de548c1a99744b2b Merge branch 'patchq/446962' into mlx5-queue
+c2dd8973cc5b836b3602f08f40a98abfd776140f Merge branch 'patchq/435082' into mlx5-queue
 
---===============4816769565352277258==--
+--===============4519900207805464501==--
