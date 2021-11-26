@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Fri, 26 Nov 2021 13:21:53 -0000
-Message-Id: <163793291330.24216.4342743942631716116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 26 Nov 2021 13:22:12 -0000
+Message-Id: <163793293244.24382.7710494893868011392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 827fbac821a656b80b761e8e39a172669569cdcf
-    new: 33b22d9c3272003a525ba2d6b7b851f3d4f30574
+  - ref: refs/heads/next
+    old: 5006605640284ceb1790bc27132bec1e734db4df
+    new: 6940aac950b9756d222fe6ab8a01f2e2f511f110
     log: |
-         366df82fc68a9db22ab9de890a372d79662e397c mmc: renesas_sdhi: Use devm_clk_get_optional() to obtain CD clock
-         45177fc641f9de58180af158d1fac8defa99afca mmc: renesas_sdhi: Simplify an expression
-         33b22d9c3272003a525ba2d6b7b851f3d4f30574 clk: renesas: r9a07g044: Add TSU clock and reset entry
-         
-  - ref: refs/heads/renesas-clk-for-v5.17
-    old: 827fbac821a656b80b761e8e39a172669569cdcf
-    new: 33b22d9c3272003a525ba2d6b7b851f3d4f30574
-    log: |
-         366df82fc68a9db22ab9de890a372d79662e397c mmc: renesas_sdhi: Use devm_clk_get_optional() to obtain CD clock
-         45177fc641f9de58180af158d1fac8defa99afca mmc: renesas_sdhi: Simplify an expression
-         33b22d9c3272003a525ba2d6b7b851f3d4f30574 clk: renesas: r9a07g044: Add TSU clock and reset entry
+         e7bbdeeeac299b358aa828543f00e1626108c67c mmc: dw_mmc: add common capabilities to replace caps
+         d067c4485813aad5b8260c938c17182e5eae5fb0 mmc: dw_mmc: hi3798cv200: use common_caps
+         445e9b10d17a4ac8e89dd397707767c7c2574abf mmc: dw_mmc: rockchip: use common_caps
+         6940aac950b9756d222fe6ab8a01f2e2f511f110 mmc: dw_mmc: exynos: use common_caps
          
