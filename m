@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 27 Nov 2021 16:04:18 -0000
-Message-Id: <163802905820.26117.11326385493356065771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 27 Nov 2021 16:12:52 -0000
+Message-Id: <163802957230.31280.10272931156510424000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 92beafb76a31bdc02649eb44e93a8e4f4cfcdbe8
-    new: 784b470728f5ae44f245338e4660144d46dc0876
+  - ref: refs/heads/for-kernelci
+    old: c5b14169a4809e847ead1349584eadcfc8b11c23
+    new: 4b3fa51b8b6aa34517c40b0860cf2e960d16c7c4
     log: |
-         652e7df485c6884d552085ae2c73efa6cfea3547 iio: at91-sama5d2: Fix incorrect sign extension
-         784b470728f5ae44f245338e4660144d46dc0876 iio: adc: stm32: fix null pointer on defer_probe error
+         4b3fa51b8b6aa34517c40b0860cf2e960d16c7c4 ARM: percpu: add SMP_ON_UP support
          
