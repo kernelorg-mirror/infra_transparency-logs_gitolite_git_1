@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Sat, 27 Nov 2021 23:37:55 -0000
-Message-Id: <163805627531.15266.12955802656220253812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 27 Nov 2021 23:37:58 -0000
+Message-Id: <163805627815.15360.4325677236274840000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/heads/master
+    old: 47bacffbd7e1d615a755ecf9fa0fbdf2f0541d92
+    new: a3c8296fe7d0f57ff6dcb692ad22cccc6b0569e3
+    log: |
+         a3c8296fe7d0f57ff6dcb692ad22cccc6b0569e3 Sat Nov 27 11:37:24 PM UTC 2021
+         
