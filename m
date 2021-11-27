@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8860427846719806084=="
+Content-Type: multipart/mixed; boundary="===============6649776872058997370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 27 Nov 2021 11:33:09 -0000
-Message-Id: <163801278956.18960.13294586783735029138@gitolite.kernel.org>
+Date: Sat, 27 Nov 2021 11:33:14 -0000
+Message-Id: <163801279435.19073.8913876084896552251@gitolite.kernel.org>
 
---===============8860427846719806084==
+--===============6649776872058997370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/char-misc-linus
+    old: c21a80ca0684ec2910344d72556c816cb8940c01
     new: c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5
-    log: revlist-fa55b7dcdc43-c5c17547b778.txt
+    log: revlist-c21a80ca0684-c5c17547b778.txt
 
---===============8860427846719806084==
+--===============6649776872058997370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638012788 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638012793 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1638012788-ecf04e6e35b2acdb9bff786a37e4f81d8a6badd9
+nonce 1638012792-e5b6763d05142e3f12fe86880166bf8b1a6aeead
 
-fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5 refs/heads/main
+c21a80ca0684ec2910344d72556c816cb8940c01 c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGiF3QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EBoP/RPUwZClt9ks8rKRNg9A
-ratzGWxuxWKjI+dREbwjXY9f/wMyzLXVC4fhGy2zH1Qg6NwZCFFY+iWPQ2weIgNQ
-QCLtjb/v+MyZDGIMcBGkl+IHSL7c8MEafChbFTPc4Sj6WlwwZWc8HGdXd6fR/oNb
-O9toH611dFqq7v6dq0yDQrmxMlCMLOZh2GlfTOw73WnjxUqnOF+AwhN6IkajC8EF
-MhEzbhc4McXe3uNmSY2lPzw/t/YqBJ/3NGBY44KWOekryq57/nmM9QuxdJrNjSus
-+KUU/ObO85fCzntsPZi6kbDwYkMXrDySW6caaPKIO48rKvc2ixLc2s4giZqKjP3Z
-iNOS4+tSf0HjydC0+ToSHyPtZc5eqRbRxSdkRsq8fZCPAJaAi7+GywD0qXp2CSmO
-hAvEWsM/H62iEDPbrNh5EEewbpCQ6THuDXHpOcyClbHKP9TGy15v+tkTsYBvI77B
-SppJ51bKyFJjZRHs4OWIUUidHSphhaIxT6e55xMCL34qIlREOeaNFSa694gOmGok
-6Dh78sEhBik4N36Wa5RHF/FFRkW5OwLonrchMMoZRhVqwuaqzkV4cd8nWZ1b/u2a
-FmnxExLcS0i8yFuX4TLMug2IyHbg6DD/doDa+im6Ko4rf1BZdfs4LQ1xB7X6ZaNv
-4b4TeqkkKq9xBRjymngOONvs
-=+pqA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGiF3kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zGoQAKgcvpSyStLCA/webh67
+jTCqyb28rbDiautpSf+pz+QmIovswfRTmNtNewBl93VsCWEBMIb3fUVnOQ8Piob+
+frcL8yhcT6fJC+wKpfP6RX9JiZEaRi0ygq9u8fzycVT3lsvC3as6OI40PQS2dc7K
+o2OZSO5vm7kggmNSe6+1tJL6abc0CjM6fkbFqdYPMsevv5UjjHSjO9aNEGzMbRic
+VOc3pfhDhTfXyel7QhEhlLQ1mpP4KrK7NbRyM7/5kKUod5VX0R0xkRUD3ro1rXip
+TWfSrrtvSXxrAZ01vLHT41bIhyvc3CpUwVPjkZQ6vbQG1rslQFyfV3T6y4ZGQBuG
+phVShKEQub0pVDJ1is2LobKOhsUHZpXTMZSXfwcv0Xq2S3smi1fpG+sRMx75ZQPf
+UWB2KQ6O2/keZr2zluEKYIZ5Qp2Ockw5aZSeIN8Z22IZbCpY90d0lgHiFLnH9FvO
+x6vXDVhX/ddVtNmowHIG9TEhJEBOiSD67Hwg90gvy8u0afYjzo53yKl89QofOPYx
+scAOWmC7p6Gah7d/sLHsGIL+oCfMhwbULHpEvQ/ZA9rIyuTi+tkEYP0CqICbixx8
+zsbQEs55HIvvjngQcB3nSmcGmvf026Tfq8Nh74Cn2P6YKXHlLm0Erkh9iTmXcIJk
+cJhGKFG+o4/Mc8aQuWQfVFM2
+=ZDHf
 -----END PGP SIGNATURE-----
 
---===============8860427846719806084==
+--===============6649776872058997370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-c5c17547b778.txt
+Content-Disposition: attachment; filename=revlist-c21a80ca0684-c5c17547b778.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
@@ -385,7 +385,6 @@ f77b83b5bbab53d2be339184838b19ed2c62c0a5 net: usb: r8152: Add MAC passthrough su
 9b5a333272a48c2f8b30add7a874e46e8b26129c net: dpaa2-eth: fix use-after-free in dpaa2_eth_remove
 cf9acc90c80ecbee00334aa85d92f4e74014bcff net: virtio_net_hdr_to_skb: count transport header in UFO
 c366ce28750e9633f8d4b07829a9cde0e59034eb net: ax88796c: use bit numbers insetad of bit masks
-c21a80ca0684ec2910344d72556c816cb8940c01 binder: fix test regression due to sender_euid change
 522a0032af005502507f5f81ae64fdcc82b5d068 Add linux/cacheflush.h
 9c3252152e8a6401c2b9e32490a5a16ec4472778 mm: Rename folio_test_multi to folio_test_large
 a1efe484dd8c04c4c2d4eb1ee6b04d01cfc07ccc mm: Remove folio_test_single
@@ -792,4 +791,4 @@ c49a35eedfef08bffd46b53c25dbf9d6016a86ff net: mscc: ocelot: correctly report the
 b3612ccdf2841c64ae7a8dd9e780c91240093fe6 net: dsa: microchip: implement multi-bridge support
 c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5 Merge tag 'net-5.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8860427846719806084==--
+--===============6649776872058997370==--
