@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8205363038492886095=="
+Content-Type: multipart/mixed; boundary="===============8073398307966180538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 27 Nov 2021 13:14:23 -0000
-Message-Id: <163801886306.18351.14866520059635627768@gitolite.kernel.org>
+Date: Sat, 27 Nov 2021 13:16:23 -0000
+Message-Id: <163801898336.20539.6496961348708498998@gitolite.kernel.org>
 
---===============8205363038492886095==
+--===============8073398307966180538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,131 +16,170 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e62ba024d97cf38d1a09ee90b390d5e6a221d025
-    new: 55380961ae11d4fb15f67193eeda20d19734f297
+    old: 55380961ae11d4fb15f67193eeda20d19734f297
+    new: 331524e11e2598247a02bb32d432451e030935b3
     log: |
-         21f1b91de01f197e9b9fe8f7621f0d98cb47ccaa USB: serial: option: add Telit LE910S1 0x9200 composition
-         066e606aa8ebbcc2df254810fed7baaf79f3c519 USB: serial: option: add Fibocom FM101-GL variants
-         5e78500ca14ae03b138bd44008adc7d9528eaf42 usb: hub: Fix usb enumeration issue due to address0 race
-         076bc8ef495fa595216206c17663c9f5b9a94b66 usb: hub: Fix locking issues with address0_mutex
-         f3ba02d2ce177762b73b69d69fea17361d999f41 binder: fix test regression due to sender_euid change
-         34f9ceac368cfe1111d3415e72608aff1cb66742 ALSA: ctxfi: Fix out-of-range access
-         dc66a4cf028cd9eea8fdb320e3b2c31080596526 media: cec: copy sequence field for the reply
-         9960d56caa9a2177b298675bbad364d34d5955de HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
-         d853ab9ee376a483ee0df936f3024ebd3a886c60 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-         55380961ae11d4fb15f67193eeda20d19734f297 fuse: fix page stealing
+         06fd889e76b1d4689634f337c8d2e97921d5450c USB: serial: option: add Telit LE910S1 0x9200 composition
+         47ef2dfb56e56bd5ddee6955c7b341851d55d464 USB: serial: option: add Fibocom FM101-GL variants
+         439558515ae4ab370370d76d610d1f856c8eaa93 usb: hub: Fix usb enumeration issue due to address0 race
+         4e3fa94d4d6748c9709f2863f0fc0e565fa587e1 usb: hub: Fix locking issues with address0_mutex
+         74c73bf241dba24d8a9aa39de97e4369d742d487 binder: fix test regression due to sender_euid change
+         7a349576862baeb0ab765c85085998dae73efaa3 ALSA: ctxfi: Fix out-of-range access
+         9a3e0222b06c75fdb815bb30a4b3c441a632846f media: cec: copy sequence field for the reply
+         12388e35908e6c1af7ef359eb43298f814952571 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+         a9fc53ccad2da4b34e77bb0699e58f89f6e7fcd3 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+         331524e11e2598247a02bb32d432451e030935b3 fuse: fix page stealing
          
   - ref: refs/heads/queue/4.19
-    old: f73fc5db05599a602b8a58c90aad6c0dfdf119eb
-    new: 08cc879c2a2bd121eb36d17549a63a93cc385b9b
+    old: 08cc879c2a2bd121eb36d17549a63a93cc385b9b
+    new: 683be722a3e85708d6ba8619d138457311779fff
     log: |
-         78dfc9447cd095f57f5757c144a26d77164753a9 USB: serial: option: add Telit LE910S1 0x9200 composition
-         9bb80efa47015db9a5952a27395cddbf6aff6690 USB: serial: option: add Fibocom FM101-GL variants
-         329f9c56405675c3bfbe16f72a987195cde14f2c usb: dwc2: hcd_queue: Fix use of floating point literal
-         ce03ef8309192d922a8bbdb2a13dad9a5885bc18 usb: hub: Fix usb enumeration issue due to address0 race
-         7e0fa29c073718487fd60758bcfa2ff0f3fabe0f usb: hub: Fix locking issues with address0_mutex
-         ca90878acec76e001b8adc33abcf44f5434fec9a binder: fix test regression due to sender_euid change
-         40ebf8a760dde662f5b64fb901e6702b945dff7c ALSA: ctxfi: Fix out-of-range access
-         908aa36012712a412ddd156954093d9842f4eab4 media: cec: copy sequence field for the reply
-         23eb9bc789c3f1d42139221297cd9ea809dda302 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
-         7162e6dd661b51f40ec578bb6294b0ff6cb6ed64 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-         08cc879c2a2bd121eb36d17549a63a93cc385b9b fuse: fix page stealing
+         b7be8526ce6542beb1e701d04a053854bc1d5e3b USB: serial: option: add Telit LE910S1 0x9200 composition
+         f8f50573dd6ac98859ccefc5d685ec5b93362376 USB: serial: option: add Fibocom FM101-GL variants
+         3cc81e7fb2ff71a2162c9fe8f0f4ecba06e1321b usb: dwc2: hcd_queue: Fix use of floating point literal
+         dc86967421ed1ed11afbc67e3720b84227f1f81e usb: hub: Fix usb enumeration issue due to address0 race
+         d5cf2129b9b075bb2eb1a4da087dc9e2e028145e usb: hub: Fix locking issues with address0_mutex
+         3acc357d504d9fa520bc4e2e5f12901e93824a42 binder: fix test regression due to sender_euid change
+         28e97e6fc3ff4089d97bd2d19336085e21cf79e6 ALSA: ctxfi: Fix out-of-range access
+         5d37982930ffb194eadd499803fd73a370bc51f5 media: cec: copy sequence field for the reply
+         680c0406d73e6c06dde5722df9fbfba861d4a32c HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+         111216400e05fd3aaf4d6323b27036ef79384afe staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+         683be722a3e85708d6ba8619d138457311779fff fuse: fix page stealing
          
   - ref: refs/heads/queue/4.4
-    old: dd9f1fff7371ecfb92f4920766c3f17804f0be10
-    new: a7d79bd1db064be20cc20acafc77b66ba7e053e2
+    old: a7d79bd1db064be20cc20acafc77b66ba7e053e2
+    new: 0a2d353d748d55d9668bb4a6b1f78ad11a8559cf
     log: |
-         8de4dc1052eb05610d358c9f3ed90e6ac7255a98 staging: ion: Prevent incorrect reference counting behavour
-         e6378cb694bd43074d88f2081fef502b50894634 USB: serial: option: add Telit LE910S1 0x9200 composition
-         9a800192bad890f92c754d9b796f51dd8cc59fed USB: serial: option: add Fibocom FM101-GL variants
-         a9b7dd75c72bd3d245aa23d7fb61d15b64ee7b02 usb: hub: Fix usb enumeration issue due to address0 race
-         b67d7006eb67ffaf917153b38178da6074643061 usb: hub: Fix locking issues with address0_mutex
-         b1580be2b63c43f0f5eebd725b0c3874f9cc5841 binder: fix test regression due to sender_euid change
-         d0eec05eadb9a932b6e39d2b55941be21d5dd05b ALSA: ctxfi: Fix out-of-range access
-         a7d79bd1db064be20cc20acafc77b66ba7e053e2 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+         2a9c83901490f76c6fc4340ed3d873450340da1b staging: ion: Prevent incorrect reference counting behavour
+         4b4d21510d1ef12c3f71abb5ee6da078da5da0b6 USB: serial: option: add Telit LE910S1 0x9200 composition
+         2ff91456c7102cd0d4a7efe1b9f8f47b8d196c3d USB: serial: option: add Fibocom FM101-GL variants
+         2e6e1ca8ff35a6a454394fda22e783556f0bc29f usb: hub: Fix usb enumeration issue due to address0 race
+         5b11c0a1f37dc6677e48423878f946c8f7c4e80a usb: hub: Fix locking issues with address0_mutex
+         f6f4f3ad3d8ea345f9502debb206097e12611dd4 binder: fix test regression due to sender_euid change
+         bbcc0e359c5f5c7bc7bb8ee3a331ceff54c090ec ALSA: ctxfi: Fix out-of-range access
+         0a2d353d748d55d9668bb4a6b1f78ad11a8559cf staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
          
   - ref: refs/heads/queue/4.9
-    old: e2734a26e7d4cb5ba1544c2c2b9d7498a0cc6405
-    new: d6583ad46be01088473ebc9347b0ee3fa1ea2d32
+    old: d6583ad46be01088473ebc9347b0ee3fa1ea2d32
+    new: 3fa2182ee75a6ebc9cf787ff8bae813e4bd3bd32
     log: |
-         db7d8cd7f61aa5e6e7520d7f5b7dc297bf10bb81 staging: ion: Prevent incorrect reference counting behavour
-         0a3b74f001fb3ddf6f9d569fe44c3374dfbdd895 USB: serial: option: add Telit LE910S1 0x9200 composition
-         a6fd1d58a04ea1b4632fb627a8f02b74f54786a5 USB: serial: option: add Fibocom FM101-GL variants
-         0a3462041d0e626c603693b7a8cb5061e883618a usb: hub: Fix usb enumeration issue due to address0 race
-         5041cecc4421cbe595a74072ad148c40384cbb37 usb: hub: Fix locking issues with address0_mutex
-         cac01deaa51602d620d3bdc9b22fc92b1460d64c binder: fix test regression due to sender_euid change
-         d7c1a650f557ed74463918315ee0bb9fa724bd71 ALSA: ctxfi: Fix out-of-range access
-         9ed633c154d6fb50f44c5b4879741ad2a9a390a3 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-         d6583ad46be01088473ebc9347b0ee3fa1ea2d32 fuse: fix page stealing
+         6450370f37eceb85ec85918fe34ddd7b5dcddf9b staging: ion: Prevent incorrect reference counting behavour
+         3963937dbc837c22da2975ca1456a9a03a0f59bd USB: serial: option: add Telit LE910S1 0x9200 composition
+         8dd544b55ebcaadd0aa9275fc10aa1e8976a5fe8 USB: serial: option: add Fibocom FM101-GL variants
+         4df3e516e96d7f8495adfff8fe611acd4909c2ca usb: hub: Fix usb enumeration issue due to address0 race
+         d1f6c7673e8ea095ba4083425ed83a6a966406f5 usb: hub: Fix locking issues with address0_mutex
+         7c4cf39f6625a27802f8622848b78db785a371bb binder: fix test regression due to sender_euid change
+         dddee0a332ca463907aec95b078ee964a2a1cf77 ALSA: ctxfi: Fix out-of-range access
+         ceb7a0b622609ecda7f60c4124a22358f43db7cf staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+         3fa2182ee75a6ebc9cf787ff8bae813e4bd3bd32 fuse: fix page stealing
          
   - ref: refs/heads/queue/5.10
-    old: 22c561c7c1ba6183ca2bb497f8096737c182b9f8
-    new: b6afb06e5687a5ec1d2e95375280ae5c51f9b9b4
-    log: revlist-22c561c7c1ba-b6afb06e5687.txt
+    old: b6afb06e5687a5ec1d2e95375280ae5c51f9b9b4
+    new: cf754d8e4a7cafe37a7e2f1d52b3c18332210713
+    log: revlist-b6afb06e5687-cf754d8e4a7c.txt
   - ref: refs/heads/queue/5.15
-    old: e26f53f3e9a5a32bcf55e35a797bd8733bcf8b50
-    new: 1bd3168ac2e293f0878af77669ec7d41700c2d66
-    log: revlist-e26f53f3e9a5-1bd3168ac2e2.txt
+    old: 1bd3168ac2e293f0878af77669ec7d41700c2d66
+    new: 90e38a4b4523b8276da862654007ec9b110ad90b
+    log: revlist-1bd3168ac2e2-90e38a4b4523.txt
   - ref: refs/heads/queue/5.4
-    old: 7c5736e5f584d5c607df0da629f0e6c393b90a42
-    new: 0f62f2f438b7a42de92b738c220b22322e8eb9ac
-    log: |
-         fd6fafe6eb1418eb9bf57ac9c8d27381cb3204e8 USB: serial: option: add Telit LE910S1 0x9200 composition
-         2f4326a0881c4b4ce8895c82b694a807a121e092 USB: serial: option: add Fibocom FM101-GL variants
-         6200e348eea349e81d26889c14c429eceb5e9c94 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
-         87ff0767382429e113ae4348c49a08b39a19c2a2 usb: dwc2: hcd_queue: Fix use of floating point literal
-         df41c6c93ccd32eb5ffe254662473b1d14f786e9 net: nexthop: fix null pointer dereference when IPv6 is not enabled
-         bd61fb167f6f615e87ae9b35b99c04b7962d65ea usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
-         b811b4d7ddc79d22e5bc860ac66c0b3960496dd0 usb: hub: Fix usb enumeration issue due to address0 race
-         0f62f2f438b7a42de92b738c220b22322e8eb9ac usb: hub: Fix locking issues with address0_mutex
-         
+    old: 0f62f2f438b7a42de92b738c220b22322e8eb9ac
+    new: dd68caff28e1c86092839ddb84deb646c8542acb
+    log: revlist-0f62f2f438b7-dd68caff28e1.txt
 
---===============8205363038492886095==
+--===============8073398307966180538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22c561c7c1ba-b6afb06e5687.txt
+Content-Disposition: attachment; filename=revlist-b6afb06e5687-cf754d8e4a7c.txt
 
-9541ba14d394d8c9f52b0b55dbe06d1d51ded993 bpf: Fix toctou on read-only map's constant scalar tracking
-d58673b3d3fb836774ee5de0e3ce7ca23b7a3bfd ACPI: Get acpi_device's parent from the parent field
-80aec69c83fb5554c3671685628ccdbd23fb34f5 USB: serial: option: add Telit LE910S1 0x9200 composition
-2061cbbd3b8bbcd60b38370f7db53c2426ea1778 USB: serial: option: add Fibocom FM101-GL variants
-20d34dd54804f8c7f325908a2c2ce68d73107f7d usb: dwc2: gadget: Fix ISOC flow for elapsed frames
-32722c1d13a62ffa1c39a71f25c4a726ae68302b usb: dwc2: hcd_queue: Fix use of floating point literal
-c223e1dc162b0ed903e7d0ef6b233ff7b21f2b4b usb: dwc3: gadget: Ignore NoStream after End Transfer
-04505e8d85cabb3b9263961401c48093a21916ed usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
-cc315bb8902c9075a0eaece3ee6148285d5cf36b usb: dwc3: gadget: Fix null pointer exception
-b23d9d57fdac6dae6cf2b4135359f10c6a4819ca net: nexthop: fix null pointer dereference when IPv6 is not enabled
-c52738c4c3b6d1036920cae0022b5a04ff39cb9c usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
-9ac078aa0a02d775a8d2b417ea2ec97e782aa00c usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
-0b7509526d79da4c26a56bdad2d64a290ba4e077 usb: hub: Fix usb enumeration issue due to address0 race
-b6afb06e5687a5ec1d2e95375280ae5c51f9b9b4 usb: hub: Fix locking issues with address0_mutex
+4950644b6c2f4e2d3652bdfec98ad2cba7f2cd08 bpf: Fix toctou on read-only map's constant scalar tracking
+8c5ebc9a46489293769e049496bb513d49fe8def ACPI: Get acpi_device's parent from the parent field
+6f22f707cf37b1c18f4253bf5f6d72b59a62a8a7 USB: serial: option: add Telit LE910S1 0x9200 composition
+a11a271f3a32444397790fcb1b5e457610012cba USB: serial: option: add Fibocom FM101-GL variants
+098369986594fedeaf9e52abdc659da0837a8a40 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
+af85fc978d777f308b2c2a1c13a8813f7671fa45 usb: dwc2: hcd_queue: Fix use of floating point literal
+39f0246b7faaa9f22721f3045f44dec369f71c70 usb: dwc3: gadget: Ignore NoStream after End Transfer
+af493d7105c053a7ed6d43e8df862db70f6a169c usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
+1c59ba8c907b23c893ec8aace663602842e8aa8c usb: dwc3: gadget: Fix null pointer exception
+ea241a342c8b614d6fbb565143eb83ef740e703b net: nexthop: fix null pointer dereference when IPv6 is not enabled
+fa992df74d74c129ca7e2cc36231ff0dc9ff53b2 usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
+8d4156a8940dc9780aa183912a294fd14378d013 usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
+1f629805278ccc51c7d2c07e15e442cea84a6b48 usb: hub: Fix usb enumeration issue due to address0 race
+1762836d50f3a582ce0ac600ad1e36fab8b54778 usb: hub: Fix locking issues with address0_mutex
+b1a34ce2b0f249e1b1704bba78cb842e55af4185 binder: fix test regression due to sender_euid change
+846bbd0aa24d179ab2e5221bc8dfd1700211aa93 ALSA: ctxfi: Fix out-of-range access
+b383b313489049678d3476b178425a772f779454 ALSA: hda/realtek: Add quirk for ASRock NUC Box 1100
+be5b98163142014182a31acdc7a584115ad966aa ALSA: hda/realtek: Fix LED on HP ProBook 435 G7
+1de57e0491e3e809eed7f878e07f0c3b7e7eb3c6 media: cec: copy sequence field for the reply
+86248d493fb943bcb50459350bc2d7fc95fba652 Revert "parisc: Fix backtrace to always include init funtion names"
+45779f8a880b427800f596dee5d2d5e8332f5b0d HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+12d54bdc9f650e88de7da301170e14a27dd484fa staging/fbtft: Fix backlight
+aa9579fe9d99e8315eaad9ee89073e23e7639473 staging: greybus: Add missing rwsem around snd_ctl_remove() calls
+9bee1a2a457573f218f080cae026eb637d22533e staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+cf754d8e4a7cafe37a7e2f1d52b3c18332210713 fuse: release pipe buf after last use
 
---===============8205363038492886095==
+--===============8073398307966180538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e26f53f3e9a5-1bd3168ac2e2.txt
+Content-Disposition: attachment; filename=revlist-1bd3168ac2e2-90e38a4b4523.txt
 
-8473d8b66dd962f111d5a32795c66b408c675897 scsi: sd: Fix sd_do_mode_sense() buffer length handling
-cb3d6a5ecbbf3e9181eb77eeb81307e7b4cd1c8f ACPI: Get acpi_device's parent from the parent field
-c943543cacb67921b5169e109d530f022b50c17f ACPI: CPPC: Add NULL pointer check to cppc_get_perf()
-219b88759747948a67709b4e6491ddcd1de5236c USB: serial: pl2303: fix GC type detection
-d1c795cca36ab8c4aec0f5cd611680f26f76a5e5 USB: serial: option: add Telit LE910S1 0x9200 composition
-b622b2b4a337190a380836ebe04263ee57c75985 USB: serial: option: add Fibocom FM101-GL variants
-7401112b38f64e40f11bb7d1fc416bc615d248b4 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
-3c49ea1e52492eb4dedc181408cfb1d949287582 usb: dwc2: hcd_queue: Fix use of floating point literal
-727beb7eff234e48a4c9933a9fe32c549ef02130 usb: dwc3: leave default DMA for PCI devices
-29e0746bbb1efb561e8fe1d15796bd6d2e60ccd5 usb: dwc3: core: Revise GHWPARAMS9 offset
-00968cab7ce288d6016603299614ffc78847ef09 usb: dwc3: gadget: Ignore NoStream after End Transfer
-e091124afd6d897e4968481d7431d93a6c4d0f14 usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
-0986e2c56953a2ecb4882445e30e866ee3487c52 usb: dwc3: gadget: Fix null pointer exception
-afd26112157308de0c6a3b3149bc5bff3c641a04 net: usb: Correct PHY handling of smsc95xx
-0e67968e84cb16476ef60644397c931053638348 net: nexthop: fix null pointer dereference when IPv6 is not enabled
-1bd5f24d4cc8cd6f8cdcd7745e67dd5d16c8417e usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
-63786c9553a04fe85dea96ef61ee2d9d38585557 usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
-44578b2a2630f490ed961751f81b89167c1bccf9 usb: xhci: tegra: Check padctrl interrupt presence in device tree
-547ebd4bed7042fbf45a895a45a9e59dfe460cbd usb: hub: Fix usb enumeration issue due to address0 race
-1bd3168ac2e293f0878af77669ec7d41700c2d66 usb: hub: Fix locking issues with address0_mutex
+3eb8a4de6c5c683b12ca44a6e64f991b6cfccc7e scsi: sd: Fix sd_do_mode_sense() buffer length handling
+5187e6cf5b053c71582c73f1be6187a1abf7f560 ACPI: Get acpi_device's parent from the parent field
+c911aab3cd370be8fd86c83e8d33f8781645f909 ACPI: CPPC: Add NULL pointer check to cppc_get_perf()
+a005f6230660328d258b2d5d96c632cb3e5ad2a8 USB: serial: pl2303: fix GC type detection
+67256f51ff2761531eff13694c5bc6fabc38f6ea USB: serial: option: add Telit LE910S1 0x9200 composition
+104d69aa743bc8719f8cf19877542da244c0b6c9 USB: serial: option: add Fibocom FM101-GL variants
+8f110c3ef6f6f2c175ac7d1de6bd849b8ad54098 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
+341029d2e4a37eaea08e1430a58a04b7b2a10409 usb: dwc2: hcd_queue: Fix use of floating point literal
+81261787767fd336af3dd3ecb2d0afab0f815d4e usb: dwc3: leave default DMA for PCI devices
+7dd6378bb811ab18ef5e752f37f66034a50df76b usb: dwc3: core: Revise GHWPARAMS9 offset
+4ba2eb764b98b58fe104c52cd044343b0ba37cf6 usb: dwc3: gadget: Ignore NoStream after End Transfer
+ae68ac189064a55963e8c160de2760d36fbabbd2 usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
+791158512246be7aeee0273bfb421deef72da3ca usb: dwc3: gadget: Fix null pointer exception
+b840768a30356bc71dcb79d6b25d13bf6b3cfc8d net: usb: Correct PHY handling of smsc95xx
+2e23588b10647599eca1bc6c0ecd554a3235f137 net: nexthop: fix null pointer dereference when IPv6 is not enabled
+6ad5fe3c295d762e17ce20b3a5c6941187c2317f usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
+df1549d7bafb960c520586945a8b7f9d5e6ee324 usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
+bfb1c510bea733d84bee4fecbc1d6887fde8ae97 usb: xhci: tegra: Check padctrl interrupt presence in device tree
+d3ad9576894fee11562ab9574ebed890cf433c48 usb: hub: Fix usb enumeration issue due to address0 race
+cab81229019a27d125710632ba92ded67a4289d3 usb: hub: Fix locking issues with address0_mutex
+7fe1e084f424df719661a3c3ba2ca36219f518e4 binder: fix test regression due to sender_euid change
+06a3af3c997da6f0e71223b0b255220e8e7b8ad9 ALSA: ctxfi: Fix out-of-range access
+5a5453538e00416632c7c0f5f1af096714f533e5 ALSA: hda/realtek: Add quirk for ASRock NUC Box 1100
+40c322fe5b1dcf8df7b136da2cb4f50fa8f10d7f ALSA: hda/realtek: Fix LED on HP ProBook 435 G7
+63a04c80888a7437692875d6f9b9d13229f8a85d media: cec: copy sequence field for the reply
+766d6d1069b485b8a607fca3952f2426ed561871 Revert "parisc: Fix backtrace to always include init funtion names"
+b1cab22da2bfbcc3489a830e5d9547f851679e63 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+af3e3e83a8968b796d152b126e5923679d87c8da staging/fbtft: Fix backlight
+31941d00c5a2442eee11c66f4b9625b859136ff4 staging: greybus: Add missing rwsem around snd_ctl_remove() calls
+2b0f40922a20d3043d2e9d3021ecb97e3ac37861 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+bfb3d85b335319672b33c2c9f54ffd00539bb7f5 staging: r8188eu: Use kzalloc() with GFP_ATOMIC in atomic context
+53567c39720cf763d47be6f5a8c0f453d89395da staging: r8188eu: Fix breakage introduced when 5G code was removed
+7f6a3a8dfbaa6c94f6ddf7ccbd76c88df4c6e8fc staging: r8188eu: use GFP_ATOMIC under spinlock
+5155d1938cc01a59e3141791bc7f29c4eb19c267 staging: r8188eu: fix a memory leak in rtw_wx_read32()
+90e38a4b4523b8276da862654007ec9b110ad90b fuse: release pipe buf after last use
 
---===============8205363038492886095==--
+--===============8073398307966180538==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0f62f2f438b7-dd68caff28e1.txt
+
+16e7fe02291c0c27116df621708b684c7d94ce5f USB: serial: option: add Telit LE910S1 0x9200 composition
+9d0691abee71b7b6f5bcd4f29fde57fb2dfbf969 USB: serial: option: add Fibocom FM101-GL variants
+6e91d44b48d7d07897350bae4070f3e52213a253 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
+403c3e287daeadaccbdbd83c3a0c0a1064f4d9ea usb: dwc2: hcd_queue: Fix use of floating point literal
+1e0ceff5e618eefdf7fb2823bafed87eb9dbcbbe net: nexthop: fix null pointer dereference when IPv6 is not enabled
+75fd65962ca978643d59a696cb318146f35552bd usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
+b867833c4be69f7fe08b639bdaba0031e100a3d4 usb: hub: Fix usb enumeration issue due to address0 race
+4553798f2c6c9ecb06023b84681f0f304c7a9ffb usb: hub: Fix locking issues with address0_mutex
+3953f356fbf4013e5e52178f6557eca85b6b77c1 binder: fix test regression due to sender_euid change
+eddd0d957f76716274b19fb4b3f9940588337dad ALSA: ctxfi: Fix out-of-range access
+fbd0ccb5c2d5d5126f1f35dfab57828a1663c23e media: cec: copy sequence field for the reply
+4160bdada592c47e87028c2ee333ea486a79c4f5 Revert "parisc: Fix backtrace to always include init funtion names"
+09c8002d0f86d2d09b2239d4d6dfe931d62cf96d HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+f36f16da94643ddc90b9b561324a9520e75b888d staging/fbtft: Fix backlight
+dd68caff28e1c86092839ddb84deb646c8542acb staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+
+--===============8073398307966180538==--
