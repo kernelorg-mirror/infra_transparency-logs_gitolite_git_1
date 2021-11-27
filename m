@@ -1,51 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3931425217808366806=="
+Content-Type: multipart/mixed; boundary="===============1382141936776695554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 27 Nov 2021 01:28:19 -0000
-Message-Id: <163797649949.22910.15233498363862779486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 27 Nov 2021 01:28:25 -0000
+Message-Id: <163797650599.23001.6621574570142103904@gitolite.kernel.org>
 
---===============3931425217808366806==
+--===============1382141936776695554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: 432dd1fc134ef902b049b26839edfd3fdc1f8dc0
-    new: f8843e5e2dc85dc6a546ec130d76be66e62abed6
+  - ref: refs/heads/for-5.17
+    old: e10a6bb5f52de70c7798b720d16632d4042d2552
+    new: f89d2cc3967af9948ffc58e4cc9a1331f1c4971a
     log: |
-         76e95f331be09bac8764e971613439d294422d6e dt-bindings: regulator: qcom: spmi-regulator: Document pm8226 compatible
-         f8843e5e2dc85dc6a546ec130d76be66e62abed6 regulator: qcom_spmi: Add pm8226 regulators
+         c1b00674aab0c6950970e52c0f059756064a9e8c spi: atmel: Drop slave_config argument in atmel_spi_dma_slave_config()
+         f44a29ceb99fc99832ee1d55d7fe9c4dbf594660 spi: atmel: Remove setting of deprecated member of struct dma_slave_config
+         f89d2cc3967af9948ffc58e4cc9a1331f1c4971a spi: tegra210-quad: use devm call for cdata memory
          
 
---===============3931425217808366806==
+--===============1382141936776695554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637976497 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1637976497-a1e0ea8912de752b333152f1f6be9f0f89639c7f
+pusher C3F436CA30F5D8EB 1637976504 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1637976503-55c3c55811291c57314c2df6605c0384b16cfc15
 
-432dd1fc134ef902b049b26839edfd3fdc1f8dc0 f8843e5e2dc85dc6a546ec130d76be66e62abed6 refs/heads/regulator-5.17
+e10a6bb5f52de70c7798b720d16632d4042d2552 f89d2cc3967af9948ffc58e4cc9a1331f1c4971a refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGhibEACgkQJNaLcl1U
-h9AE6wf/WRU7Cj67bWXbqu+SeYcX3EX5xUWKZWsugfamMWmKPBkUcvXDlqTZpn+X
-sOgHBBXb7JrsiilNB20YCnyVoLyKXt680aFGLQxkgB1cAHa25nT4uRswq4vGvlOo
-dZUMB9woZmvmbfdFhNxQ2B+8ndkPXsZzjiLLyKPKjhM7CDDoeler6s82zw+kxbnA
-hFpBqCPG2CH+Heo8k0iC3xy2ANF0Lg6lQwSH3fe2hOm/J+GF5A5CMDcertnpwbNu
-OkpOMOn1j2lDw5tbk7xtxubDtD15ZYKvV3+f5/fdxqFbJ2cz02dwaD4zWzdD58EG
-a48oY1aZCzR4BCFfG754TITFMsIBMg==
-=qwxU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGhibgACgkQJNaLcl1U
+h9AcMwf/RPjd+lTpFn7sf1ZX+bY9wxq2MIG/FlBz4K6TbzvkoBYZWL3gR/2xAEt7
+i/mxnwGouIDm+ENcW15XBL3CaPZPo3XzRj4Ah/zR//5ayKO89+piGD9VUVQ+Xco8
+GN3215JUzg+JQPOrn0ag2rUoJBBC6D6J1rOHV973WsUDJ5N63dm1v7xGCWzDEUEe
+nUoGC1wJ983DquCOm90eLXzxDGg63eZNyqlSQQ7PGqc6zYlmjKgDDHmG6vK9mr6R
+4wGEQ8JhajzdR3Y6Jp6UKGveSaFVW7w78ERCYk8jqne+z7Hm/cx8tLeh/ubM4SyR
+xuGfLagiodufG81WGh1ByZINEoXEEA==
+=B7DN
 -----END PGP SIGNATURE-----
 
---===============3931425217808366806==--
+--===============1382141936776695554==--
