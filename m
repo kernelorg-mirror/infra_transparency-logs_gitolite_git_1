@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0893585883409315498=="
+Content-Type: multipart/mixed; boundary="===============5977457555111529457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 27 Nov 2021 01:27:59 -0000
-Message-Id: <163797647937.22614.14362306206357615220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 27 Nov 2021 01:28:06 -0000
+Message-Id: <163797648648.22713.6647728449042404520@gitolite.kernel.org>
 
---===============0893585883409315498==
+--===============5977457555111529457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 12dc48f545fd349ef2cadcc4d816706951b87998
     new: 8a724d5f60904084e09de2685ff9e77bc8a40815
     log: |
@@ -30,37 +30,37 @@ changes:
          750dc2f622192c08664a15413bc9746d9cbc4361 ASoC: rt5682s: Fix crash due to out of scope stack vars
          8a724d5f60904084e09de2685ff9e77bc8a40815 Suspend related fixes on Tegra
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 2b9c8d2b3c89708d53b6124dc49c212dc5341840
     new: 335302dbc2e4d041b579614beed83124f341ff43
     log: revlist-2b9c8d2b3c89-335302dbc2e4.txt
 
---===============0893585883409315498==
+--===============5977457555111529457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1637976477 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1637976476-4dbdeb0ccae431f31b67213e71666042be660ae2
+pusher C3F436CA30F5D8EB 1637976484 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1637976483-03b787d212c9083231c4c787a6b4f586f87fe15d
 
-12dc48f545fd349ef2cadcc4d816706951b87998 8a724d5f60904084e09de2685ff9e77bc8a40815 refs/heads/for-5.16
-2b9c8d2b3c89708d53b6124dc49c212dc5341840 335302dbc2e4d041b579614beed83124f341ff43 refs/heads/for-5.17
+12dc48f545fd349ef2cadcc4d816706951b87998 8a724d5f60904084e09de2685ff9e77bc8a40815 refs/heads/asoc-5.16
+2b9c8d2b3c89708d53b6124dc49c212dc5341840 335302dbc2e4d041b579614beed83124f341ff43 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGhiZ0ACgkQJNaLcl1U
-h9BPvQf/Q+xCqgFedtzrQmgkgeTPpYdaPEbg8gzo0ITx6UBLtv3jNfZzO/L0Hqsz
-Qy9qGHGE1f4rCqg+eHeTLbY9i4k/u4/rI42bKExZiqAEmPMjZOpLk069qA5pNnwk
-HryhoxdpyfSowwGEaAZ4QcKgb8EYg+gFc/RgX6lkf1ra6fvitPzohG4A4g1dzSK/
-2+U9TNt9BArGB/3bUglccTv5CCl/HbjMUQdP7qOAr++f709pESfQg8ckJnCY+X6q
-MmgOrGi+Y2eKVhg3pfE7+Nu/Jgq9oy/VAFTcqGKf91ZV24qTOOTunEL8dq3NGjSx
-FaWSao0AClEvtQW1QVG64M3c8k4SLA==
-=U6c5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGhiaQACgkQJNaLcl1U
+h9BwBAf+Lm4XorFJN7B5xKD++v5MunTH4ZuDhY0mqaKFoC2titUrSYOScHRNjpfY
+9GQedYnx/zP8CgzSh4McRaX/CrovMuRsvvdphAbAH/XbtSvRNgvJdvTZiatmxfp9
+Sjj4AQkv3Xlb/Vkn7teN3b2mXLReZdK8ERgNAqfR5w4xmsRdh9QCf9y4cjhr/kr+
+yuvnnQ25RlT6ss6lyk1tm7gcjhpXQZ76Q2O/ohLdnOCea6a+HbPdQlj34MlB6mGa
+sZclq+ehCxcHEksyCToWhI4LNVeO7xyFXCIIeK4tA2Zb7/Up7pKUIupyyJQVuxai
+h8Y9YXHbkhXVQJsOAs02OKRiG+3N4g==
+=sTlq
 -----END PGP SIGNATURE-----
 
---===============0893585883409315498==
+--===============5977457555111529457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ a5e0091d62abb9599d9dea505ec0e8c820001831 ASoC: cs35l41: Fix link problem
 4dcddadf5530a0da00e6b2eb8194297b49d33506 ASoC: SOF: mediatek: Use %pR/%pa to print resources/physical addresses
 335302dbc2e4d041b579614beed83124f341ff43 ASoC: SOF: Fixes for Intel HD-Audio DMA stopping
 
---===============0893585883409315498==--
+--===============5977457555111529457==--
