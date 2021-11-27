@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 27 Nov 2021 20:13:24 -0000
-Message-Id: <163804400457.18124.9723696780767438410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 27 Nov 2021 20:14:05 -0000
+Message-Id: <163804404523.18411.2138691812542014418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: bfb69daa94d070073c1e8367b52940a87bec6caf
-    new: e696a06c4977ccf8fef4bb0d07300dd710ceb66b
+    old: 86799cdfbcd2308cbad6c1dc983b81595b77b639
+    new: 86155d6b43ced7768b70e7b57bcf53a6fb6b1f2d
     log: |
-         e696a06c4977ccf8fef4bb0d07300dd710ceb66b Sat Nov 27 08:12:47 PM UTC 2021
+         6cb206508b621a9a0a2c35b60540e399225c8243 tracing: Check pid filtering when creating events
+         a55f224ff5f238013de8762c4287117e47b86e22 tracing: Fix pid filtering when triggers are attached
+         86155d6b43ced7768b70e7b57bcf53a6fb6b1f2d Merge tag 'trace-v5.16-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
          
