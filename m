@@ -1,241 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sat, 27 Nov 2021 00:13:19 -0000
-Message-Id: <163797199961.7619.1191329260825140380@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4064377468199256080=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Sat, 27 Nov 2021 00:13:31 -0000
+Message-Id: <163797201127.7837.12621435123877229007@gitolite.kernel.org>
+
+--===============4064377468199256080==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/tags/msi-v1-part-1
-    old: 0000000000000000000000000000000000000000
-    new: d53c72192b6e6c1f7bed98077a72c746c1b0dbcb
-  - ref: refs/tags/msi-v1-part-2
-    old: 0000000000000000000000000000000000000000
-    new: e803ce3f586ec95dea4274a54bd69dfecd85109e
-  - ref: refs/tags/msi-v1-part-3
-    old: 0000000000000000000000000000000000000000
-    new: 0255cf139bf4f7f9f351887c3cc8be853bfc5dc3
-  - ref: refs/tags/msi-v1-part-4
-    old: 0000000000000000000000000000000000000000
-    new: d5f940f297ad2847a9467031bdbaf1605148ace5
-  - ref: refs/tags/perf-for-bpf-2020-05-06
-    old: 0000000000000000000000000000000000000000
-    new: ece406120a3ca187f9bb887308e3529f7c58de1a
-  - ref: refs/tags/v5.10
-    old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.10-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
-  - ref: refs/tags/v5.10-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
-  - ref: refs/tags/v5.10-rc4
-    old: 0000000000000000000000000000000000000000
-    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
-  - ref: refs/tags/v5.10-rc5
-    old: 0000000000000000000000000000000000000000
-    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
-  - ref: refs/tags/v5.10-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 2884f0b6b25db35053dd51e8e1839696746d8321
-  - ref: refs/tags/v5.10-rc7
-    old: 0000000000000000000000000000000000000000
-    new: dd0039844c8b2b960d0e0175923da0135f87c392
-  - ref: refs/tags/v5.11
-    old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
-  - ref: refs/tags/v5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.11-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
-  - ref: refs/tags/v5.11-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
-  - ref: refs/tags/v5.11-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 7341df6992e7840498cff6ad21380aa7dd97870b
-  - ref: refs/tags/v5.11-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
-  - ref: refs/tags/v5.11-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 45e6659327a54b98d7715964f2993e44dfb2c318
-  - ref: refs/tags/v5.11-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d61728d5dac3c065b21f39249b406988aaefa193
-  - ref: refs/tags/v5.12
-    old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.12-rc1-dontuse
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
-  - ref: refs/tags/v5.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: a6d574dee98b6bc676391ba747e348b7705732c0
-  - ref: refs/tags/v5.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
-  - ref: refs/tags/v5.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
-  - ref: refs/tags/v5.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
-  - ref: refs/tags/v5.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 33bc861b3af62f4d44957319d850f1767d16ab84
-  - ref: refs/tags/v5.12-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 939326287f7e63045200ed4ee1653029a7aa8065
-  - ref: refs/tags/v5.13
-    old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
-  - ref: refs/tags/v5.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 9e8e06c7a2169db945749f338334cd2042e08799
-  - ref: refs/tags/v5.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 3d34748611aa9c15509eb286463ebace02eaae14
-  - ref: refs/tags/v5.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
-  - ref: refs/tags/v5.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
-  - ref: refs/tags/v5.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
-  - ref: refs/tags/v5.14
-    old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
-  - ref: refs/tags/v5.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e610ab8323e2278fdf9e9f83eb56183d373257be
-  - ref: refs/tags/v5.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
-  - ref: refs/tags/v5.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: f6c803e46645d21750457cceaa97f9fa078f39c2
-  - ref: refs/tags/v5.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0958b0b45a7419c681d581384a094b94af5469c1
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
-  - ref: refs/tags/v5.7
-    old: 0000000000000000000000000000000000000000
-    new: 6499c53216d11948deb2e39ccc9ca9824b8f38ab
-  - ref: refs/tags/v5.7-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 191ae8df7494029b5cc540b17fc4526e64ae7c38
-  - ref: refs/tags/v5.7-rc7
-    old: 0000000000000000000000000000000000000000
-    new: effde58ab3a6dc1211e9395066beba7e2c59d762
-  - ref: refs/tags/v5.8
-    old: 0000000000000000000000000000000000000000
-    new: 6ae53c863e5a0dd2621bb9ad6f94102fc1bb3376
-  - ref: refs/tags/v5.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 1eca23c384437f4208ccd940846c2920f69b731f
-  - ref: refs/tags/v5.8-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 770e1f41c77abae9307e63a70739ba1904b85044
-  - ref: refs/tags/v5.8-rc3
-    old: 0000000000000000000000000000000000000000
-    new: b47cc0b6f2e3c7bb58280670e8fe4b250066c8a1
-  - ref: refs/tags/v5.8-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 5d6c002b4f4bf2220e1bbf297571062c4deff969
-  - ref: refs/tags/v5.8-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 11a2b71ea939c343764c1acd733e10e455cb51e9
-  - ref: refs/tags/v5.8-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e00a63f888eae9670eb3091a98e62a87caa64e1d
-  - ref: refs/tags/v5.8-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 629727c85a175b5dd28ce5fd9ae40ff3f5c0fcd6
-  - ref: refs/tags/v5.9
-    old: 0000000000000000000000000000000000000000
-    new: 0ed79c602730cb0e73f78dcd503aca452f0d414b
-  - ref: refs/tags/v5.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 2ce39e75455d7770efdf27acd4ff3346719cdfcd
-  - ref: refs/tags/v5.9-rc2
-    old: 0000000000000000000000000000000000000000
-    new: a7b66aa9df187c132a48990f82665b9d23ef64d5
-  - ref: refs/tags/v5.9-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 02d49d0a468efe1cd14a85b15501daf9bb4143ea
-  - ref: refs/tags/v5.9-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 58c26e62f075825dc598345e31f0afbcb1da48ef
-  - ref: refs/tags/v5.9-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 43b10d5a9053d0111bb547ea09abe5e102355d06
-  - ref: refs/tags/v5.9-rc6
-    old: 0000000000000000000000000000000000000000
-    new: df38e3687160a8a22016c8e41b481de779945364
-  - ref: refs/tags/v5.9-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
-  - ref: refs/tags/v5.9-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
+  - ref: refs/heads/kcsan/dev
+    old: 9ce8764b94b6fc250acb39724e1c84095361f761
+    new: 42dd579becc0a69fb3af086800927b3ce8e75a32
+    log: revlist-9ce8764b94b6-42dd579becc0.txt
+
+--===============4064377468199256080==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9ce8764b94b6-42dd579becc0.txt
+
+be3b950398c1b415a07bdbe158688cd5eb0b4de3 kcsan: Add core memory barrier instrumentation functions
+d894195f9a56b145f07e4d1ea3859571f62a59de kcsan, kbuild: Add option for barrier instrumentation only
+05b2ca7a1f37793b088cdd7440819a511474867a kcsan: Call scoped accesses reordered in reports
+e6316c6cff71be5d75b9720fd66386bc553a6e20 kcsan: Show location access was reordered to
+4bf3688a87c09a09adb327e226356f7973620d3b kcsan: Document modeling of weak memory
+9a2ad921dcddead231f6c4797dc5d592feb4b5e9 kcsan: test: Match reordered or normal accesses
+f63a4226dd1ce4d599c8d7377178fdd1404b2c37 kcsan: test: Add test cases for memory barrier instrumentation
+d71c6de30f1c6efe477d2bee2c1e5589b3ff338c kcsan: Ignore GCC 11+ warnings about TSan runtime support
+4054d5feb6352a079cd9682d91d3637948cdde09 kcsan: selftest: Add test case to check memory barrier instrumentation
+eed6577dfbb9f753fe77e96aa9b4440b59ad71c9 locking/barriers, kcsan: Add instrumentation for barriers
+9fd2ecfabdac0cc2f3f7bb9ce91aebd386f5c03b locking/barriers, kcsan: Support generic instrumentation
+7f4dc308b978b2e0ee2010fb06afac3f0786f99b locking/atomics, kcsan: Add instrumentation for barriers
+f9c25e507c8ef3a563c3dab23fdfac96823a8e7b asm-generic/bitops, kcsan: Add instrumentation for barriers
+d77f0e08996d4e3a5b1932a703a7701b1ad3993c x86/barriers, kcsan: Use generic instrumentation for non-smp barriers
+ceea1468a0063329994662bb63b96574c26d6bb0 x86/qspinlock, kcsan: Instrument barrier of pv_queued_spin_unlock()
+291323a162db6cd0885916b1f71d208e6cb23695 mm, kcsan: Enable barrier instrumentation
+527dad0b2a6306a51dcc9446d6cd0d61c7481542 sched, kcsan: Enable memory barrier instrumentation
+a803acf1350b88e9911add602b326656a8ef61b1 objtool, kcsan: Add memory barrier instrumentation to whitelist
+5960ca4baae9e560a8028ee556787eeb5fec6346 objtool, kcsan: Remove memory barrier instrumentation from noinstr
+ad8566758c17d463f7dc7e7caf58aac00c3934d8 compiler_attributes.h: Add __disable_sanitizer_instrumentation
+42dd579becc0a69fb3af086800927b3ce8e75a32 kcsan: Support WEAK_MEMORY with Clang where no objtool support exists
+
+--===============4064377468199256080==--
