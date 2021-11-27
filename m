@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/man-pages
-Date: Sat, 27 Nov 2021 02:48:54 -0000
-Message-Id: <163798133452.6997.2430551344824789529@gitolite.kernel.org>
+Date: Sat, 27 Nov 2021 02:49:35 -0000
+Message-Id: <163798137533.7911.18366956049825650134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/man-pages
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 8bdd4a1d2432c453d6e4599621941b2f70cb22b5
-    new: 0dd71d3d73098cd489ee06dce4bd5fb30e14ab82
+    old: 0dd71d3d73098cd489ee06dce4bd5fb30e14ab82
+    new: 8273137079574beb97574493ce8d24f767ef8570
     log: |
-         0dd71d3d73098cd489ee06dce4bd5fb30e14ab82 Fixup
+         8273137079574beb97574493ce8d24f767ef8570 Fixup
          
