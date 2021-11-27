@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 27 Nov 2021 16:12:52 -0000
-Message-Id: <163802957230.31280.10272931156510424000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Sat, 27 Nov 2021 16:40:20 -0000
+Message-Id: <163803122086.16411.6509073541331648820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/for-kernelci
-    old: c5b14169a4809e847ead1349584eadcfc8b11c23
-    new: 4b3fa51b8b6aa34517c40b0860cf2e960d16c7c4
+  - ref: refs/heads/for-next/kspp-misc-fixes
+    old: 004a9cea9666ecd470e442ef776a22d24870bba9
+    new: fb29d640e9640985e307deaee123e83144305633
     log: |
-         4b3fa51b8b6aa34517c40b0860cf2e960d16c7c4 ARM: percpu: add SMP_ON_UP support
+         fb29d640e9640985e307deaee123e83144305633 treewide: Replace zero-length arrays with flexible-array members
          
