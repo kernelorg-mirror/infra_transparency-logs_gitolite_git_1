@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 28 Nov 2021 17:56:55 -0000
-Message-Id: <163812221526.19621.8934626833393757672@gitolite.kernel.org>
+Date: Sun, 28 Nov 2021 18:02:01 -0000
+Message-Id: <163812252159.22659.18080226343137327759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/watchdog-next
-    old: ab3337f5f7db1b87ca77134f22faa53f8d88b607
-    new: 293903b9dfe43520f01374dc1661be11d6838c49
+  - ref: refs/heads/hwmon-next
+    old: b71c5aeaecf659ae4b83c3d4bdaea2a3b3b44314
+    new: 7844f4722a8c1bcb366d00264dd7793326469fcc
     log: |
-         3f84147aa38ae95c38386469d852a2cba4b0e83f dt-bindings: watchdog: Realtek Otto WDT binding
-         293903b9dfe43520f01374dc1661be11d6838c49 watchdog: Add Realtek Otto watchdog timer
+         98e3756043282e5c4f4026792ad964084e4af217 hwmon: (ntc_thermistor) Merge platform data into driver
+         08a0ff082521572e5dded5c517847c45ee73c82c hwmon: (ntc_thermistor) Drop get_ohm()
+         85e9e5138ee0d4e7e706a9b8f524cc729e469045 hwmon: (ntc_thermistor) Drop read_uv() depend on OF and IIO
+         7844f4722a8c1bcb366d00264dd7793326469fcc hwmon: (ntc_thermistor) Merge platform data
          
