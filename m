@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8099334700388232132=="
+Content-Type: multipart/mixed; boundary="===============6300639171975402400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 28 Nov 2021 21:31:37 -0000
-Message-Id: <163813509711.22614.3043629253578188639@gitolite.kernel.org>
+Date: Sun, 28 Nov 2021 21:31:51 -0000
+Message-Id: <163813511138.22749.8272318965229124402@gitolite.kernel.org>
 
---===============8099334700388232132==
+--===============6300639171975402400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 49573ff7830b1186011f5f2e9c08935ec5fc39b6
     new: c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5
     log: revlist-49573ff7830b-c5c17547b778.txt
 
---===============8099334700388232132==
+--===============6300639171975402400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -467,4 +467,4 @@ c49a35eedfef08bffd46b53c25dbf9d6016a86ff net: mscc: ocelot: correctly report the
 b3612ccdf2841c64ae7a8dd9e780c91240093fe6 net: dsa: microchip: implement multi-bridge support
 c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5 Merge tag 'net-5.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8099334700388232132==--
+--===============6300639171975402400==--
