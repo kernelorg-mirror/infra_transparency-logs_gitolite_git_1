@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2690504642692020504=="
+Content-Type: multipart/mixed; boundary="===============8294010133432447650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 28 Nov 2021 21:35:31 -0000
-Message-Id: <163813533147.25304.13116984310290175652@gitolite.kernel.org>
+Date: Sun, 28 Nov 2021 21:35:42 -0000
+Message-Id: <163813534246.25419.15185401085334065313@gitolite.kernel.org>
 
---===============2690504642692020504==
+--===============8294010133432447650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 35bf8c86eeb8ae609f61c43aeab3b530fedcf1b4
-    new: d40ce48cb3a68b54be123a1f99157c5ac613e260
-    log: revlist-35bf8c86eeb8-d40ce48cb3a6.txt
+  - ref: refs/heads/mlx5-queue
+    old: c2dd8973cc5b836b3602f08f40a98abfd776140f
+    new: 26499cc8514e2e0c280d1d4096a758a379a60680
+    log: revlist-c2dd8973cc5b-26499cc8514e.txt
 
---===============2690504642692020504==
+--===============8294010133432447650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35bf8c86eeb8-d40ce48cb3a6.txt
+Content-Disposition: attachment; filename=revlist-c2dd8973cc5b-26499cc8514e.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 d9835eaa3e9fb4770745294fef3f8416446178c0 ASoC: SOF:control: Fix variable type in snd_sof_refresh_control()
@@ -583,5 +583,16 @@ e6b4b873896f0e9298f70d25726f4bb1e1b265ba af_unix: Save hash in sk_hash.
 afd20b9290e184c203fe22f2d6b80dc7127ba724 af_unix: Replace the big lock with small locks.
 9acbc584c3a4e9706703039708ec947ffc152c66 af_unix: Relax race in unix_autobind().
 d40ce48cb3a68b54be123a1f99157c5ac613e260 Merge branch 'af_unix-replace-unix_table_lock-with-per-hash-locks'
+845375746a34586578991fc18c8dc145dabcd14e net/mlx5e: TC, Remove redundant action stack var
+75a48d0a39b403f174dc26cc162c60ce391c695d net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+aeb414900dcf2f4da20d925c2bb5b5e12f143481 net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+ed9de19e4cb7ee8e65b21e8316667319a6d40769 net/mlx5e: TC, Move common flow_action checks into function
+4540f83b384aafe376ffc95fa81e373a5e90d4a5 net/mlx5e: Hide function mlx5e_num_channels_changed
+be0b554443e0a8e31197607130a1d188b6d919a1 net/mlx5e: TC, Set flow attr ip_version earlier
+9f353a7e7ea0050fe4fc1dfd068a6f12b9995d9c net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+baeb10cdf47f5031258d23bc2b3d7026c28bdccb Merge branch 'patchq/430124' into mlx5-queue
+a1464e7ae4c5e5c01e60ecd364e94ce37db7536e net/mlx5: Print more info on pci error handlers
+c4966160a69e8b8a6d533b9ab4f2587c985f93d8 Merge branch 'patchq/446962' into mlx5-queue
+26499cc8514e2e0c280d1d4096a758a379a60680 Merge branch 'patchq/435082' into mlx5-queue
 
---===============2690504642692020504==--
+--===============8294010133432447650==--
