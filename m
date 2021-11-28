@@ -1,21 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdf/linux-fpga
-Date: Sun, 28 Nov 2021 22:04:26 -0000
-Message-Id: <163813706625.9780.3310424194270641862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Sun, 28 Nov 2021 22:06:21 -0000
+Message-Id: <163813718133.11936.1522091593325046813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdf/linux-fpga
-user: mdf
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: 8886a579744fbfa53e69aa453ed10ae3b1f9abac
+  - ref: refs/heads/master
+    old: 6eae9f6e91504941e6707bcf261fdb55777a3f5b
+    new: feb4d24327b89fb0bc6afa9eaf05d2503707fcb0
     log: |
-         4ba0b2c294fe691921271372f7b59e5cc2ce4b0f fpga: mgr: Use standard dev_release for class driver
-         0d70af3c2530a70f1b2c197feaa63fbd3548ce34 fpga: bridge: Use standard dev_release for class driver
-         8886a579744fbfa53e69aa453ed10ae3b1f9abac fpga: region: Use standard dev_release for class driver
+         79405631312a83336117242187a6e8e13c4755de Add limitation to cryptsetup group again in CI.
+         03e4cc6f6d76cf043322de06d693ad21438de4a0 Fix missing backslash in CI.
+         e5534c47e9119f13670812ac051417164b2c58a5 Fix tabs in GitLab CI scripts and remove gcc comment.
+         8a3716d18c33f7308b75311b929d91b175622a6f Do not mix tabs and spaces in Gitlab CI script.
+         feb4d24327b89fb0bc6afa9eaf05d2503707fcb0 Do not mix tabs and spaces in GitHub CI script.
          
+  - ref: refs/pipelines/417931489
+    old: 5529f191142e3e0ff726ecd8058f1bc5a72d1a55
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/pipelines/417952236
+    old: 0000000000000000000000000000000000000000
+    new: feb4d24327b89fb0bc6afa9eaf05d2503707fcb0
