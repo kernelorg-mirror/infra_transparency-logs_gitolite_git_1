@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 28 Nov 2021 22:31:46 -0000
-Message-Id: <163813870690.27586.16709583652037977713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Sun, 28 Nov 2021 23:04:43 -0000
+Message-Id: <163814068339.14775.490011596393838343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: d06c942efea40e1701ade200477a7449008d9f24
-    new: d58071a8a76d779eedab38033ae4c821c30295a5
+  - ref: refs/heads/rcu/experimental
+    old: cb85541b8f38a544b047af37506aff395d592eda
+    new: 9d0f455429a4bf19c89ebaadd3a5b9345ea2572f
     log: |
-         d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
+         9d0f455429a4bf19c89ebaadd3a5b9345ea2572f further debug
          
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
