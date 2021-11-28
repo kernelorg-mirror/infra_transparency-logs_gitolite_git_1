@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4124645809857446629=="
+Content-Type: multipart/mixed; boundary="===============9160726081581562908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 28 Nov 2021 17:51:32 -0000
-Message-Id: <163812189265.16618.13061699429576045406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 28 Nov 2021 17:53:33 -0000
+Message-Id: <163812201339.17232.5091973851970892247@gitolite.kernel.org>
 
---===============4124645809857446629==
+--===============9160726081581562908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/watchdog-next
-    old: 5c9a4cc5516e30ac2e0586e315e0806ae766321b
-    new: ab3337f5f7db1b87ca77134f22faa53f8d88b607
-    log: revlist-5c9a4cc5516e-ab3337f5f7db.txt
+  - ref: refs/heads/master
+    old: 0757ca01d944001254a94ac1b25ced702a1e9ac5
+    new: 9557e60b8c3521e43bf5f21db95b2b42d7c43ac9
+    log: revlist-0757ca01d944-9557e60b8c35.txt
 
---===============4124645809857446629==
+--===============9160726081581562908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c9a4cc5516e-ab3337f5f7db.txt
+Content-Disposition: attachment; filename=revlist-0757ca01d944-9557e60b8c35.txt
 
-e8ee578c1bd049e0c3e6f389065e765805345ed6 watchdog: s3c2410: Cleanup PMU related code
-5c0145c7f9262dfd7085239eca95b15967c539fe watchdog: s3c2410: Support separate source clock
-bdbd11a57c9c6b7af4b897cdacac1bde6786b52e watchdog: s3c2410: Remove superfluous err label
-045bbfaf88e34fa5a80d5824c86cdc2ed0785297 dt-bindings: watchdog: imx7ulp-wdt: Add imx8ulp compatible string
-d4cba125f13c1d500bbabaea15842d7f52a94791 watchdog: Kconfig: fix help text indentation
-c8284ffbfe999c6341e44f6be1eb9dbad1c0c86d watchdog: meson_gxbb_wdt: remove stop_on_reboot
-a5b2ebc8f6e67b5c81023e8bde6b19ff48ffdb02 dt-bindings: watchdog: convert Broadcom's WDT to the json-schema
-079a2959e68b48e1b8407d014555834ecf55a451 dt-bindings: watchdog: Add BCM6345 compatible to BCM7038 binding
-c4e49acc7a88998c925e9539cae2646c7932f513 watchdog: bcm7038_wdt: Support platform data configuration
-4db23bb50e7d333dcf18e969d2e1886d80ed6d90 watchdog: Allow building BCM7038_WDT for BCM63XX
-27e81c1258932f0a63e0912aaac8f6ff0f0f62c3 watchdog: bcm7038_wdt: Add platform device id for bcm63xx-wdt
-72445dcfe22053a49b3921d9a21d0f584f14f1cb MIPS: BCM63XX: Provide platform data to watchdog device
-807ede28821f14c68dc56ec82b7f6c32da404b7a watchdog: Remove BCM63XX_WDT
-07ae2ab8edcff0a425144afa2ae71181c6ecfbc1 watchdog: davinci: Use div64_ul instead of do_div
-5ea29919c29413c984f4ba3e04a6679d306e7a6e watchdog: da9063: use atomic safe i2c transfer in reset handler
-ab3337f5f7db1b87ca77134f22faa53f8d88b607 watchdog: s3c2410: Add Exynos850 support
+d257cc8cb8d5355ffc43a96bab94db7b5a324803 locking/rwsem: Make handoff bit handling more consistent
+14c24048841151548a3f4d9e218510c844c1b737 locking/rwsem: Optimize down_read_trylock() under highly contended case
+73743c3b092277febbf69b250ce8ebbca0525aa2 perf: Ignore sigtrap for tracepoints destined for other tasks
+c0f2077baa4113f38f008b8e912b9fb3ff8d43df x86/boot: Mark prepare_command_line() __init
+dce1ca0525bfdc8a69a9343bc714fbc19a2f04b3 sched/scs: Reset task stack state in bringup_cpu()
+27ff768fa21ca3286fcc87c3f38ac67d1a2cbe2d tracing: Test the 'Do not trace this pid' case in create event
+f8132d62a2deedca1b7558028cfe72f93ad5ba2d Merge tag 'trace-v5.16-rc2-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1ed1d3a3da224d8d2d82ad4a1f769a472a603e62 Merge tag 'perf-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+97891bbf38f71ec97199d2459368b5b4b700706e Merge tag 'sched-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9557e60b8c3521e43bf5f21db95b2b42d7c43ac9 Merge tag 'x86-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============4124645809857446629==--
+--===============9160726081581562908==--
