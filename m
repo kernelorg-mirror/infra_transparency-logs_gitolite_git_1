@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 28 Nov 2021 18:25:31 -0000
-Message-Id: <163812393169.5798.3634220588588655957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 28 Nov 2021 18:57:15 -0000
+Message-Id: <163812583544.24653.13661045181568850464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 1c36ddfe731408aab3977657801dd5696edaa899
-    new: 6eae9f6e91504941e6707bcf261fdb55777a3f5b
+    old: 9870f0b5a697e1e2c3975ff312a8c29d4523c3b2
+    new: 873f036f5c12cbf1bf2b65929b8e8adaf23f2dae
     log: |
-         6eae9f6e91504941e6707bcf261fdb55777a3f5b bitlk: Fix support for startup key with new metadata entry
+         873f036f5c12cbf1bf2b65929b8e8adaf23f2dae Sun Nov 28 06:56:40 PM UTC 2021
          
-  - ref: refs/pipelines/417881972
-    old: d00eb0e3500097dd6d314d2f87faac2e014b6096
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/pipelines/417907055
-    old: 0000000000000000000000000000000000000000
-    new: 6eae9f6e91504941e6707bcf261fdb55777a3f5b
