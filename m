@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Sun, 28 Nov 2021 23:04:43 -0000
-Message-Id: <163814068339.14775.490011596393838343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 28 Nov 2021 23:26:55 -0000
+Message-Id: <163814201508.29238.3327686627150595533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/rcu/experimental
-    old: cb85541b8f38a544b047af37506aff395d592eda
-    new: 9d0f455429a4bf19c89ebaadd3a5b9345ea2572f
+  - ref: refs/heads/master
+    old: 873f036f5c12cbf1bf2b65929b8e8adaf23f2dae
+    new: 4831b2f3b649c1bf66a82dca8abf9b0689e9e0ea
     log: |
-         9d0f455429a4bf19c89ebaadd3a5b9345ea2572f further debug
+         4831b2f3b649c1bf66a82dca8abf9b0689e9e0ea Sun Nov 28 11:26:12 PM UTC 2021
          
