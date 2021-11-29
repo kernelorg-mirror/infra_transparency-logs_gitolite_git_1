@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Nov 2021 12:55:31 -0000
-Message-Id: <163819053157.29655.3982720917527357357@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 12:59:59 -0000
+Message-Id: <163819079938.30969.15233672759370220291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,14 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 754d71be52926563ddd5cef2a3837a5742a08c37
-    new: 35aefaad326bb267ef254e64ef65a374bd99c98f
+    old: 35aefaad326bb267ef254e64ef65a374bd99c98f
+    new: 77a31246836019c8de7d1a82636ca0020c4e96c6
     log: |
-         b014861d96a69f7fd101406f3ebd61e2a76f5dbe net: dsa: realtek-smi: don't log an error on EPROBE_DEFER
-         1ecab9370eef94a334c790fd7ae584b88de56545 net: dsa: rtl8365mb: fix garbled comment
-         ef136837aaf6f37f2dec78551671a6883f868d69 net: dsa: rtl8365mb: set RGMII RX delay in steps of 0.3 ns
-         9c37b09d3a9a00569358b8932133d3f4e64f5bc0 dt-bindings: net: Add bindings for IXP4xx V.35 WAN HSS
-         35aefaad326bb267ef254e64ef65a374bd99c98f net: ixp4xx_hss: Convert to use DT probing
+         642fcf53a9ac145c451483036ab73b6dfce7f8d7 dt-bindings: net: lan966x: Add lan966x-switch bindings
+         db8bcaad539314df5d58f2c57465e965440d1aa6 net: lan966x: add the basic lan966x driver
+         d28d6d2e37d10d607f931d25c835a0bd94d370e3 net: lan966x: add port module support
+         e18aba8941b40baa7d0b3120e438df2e3187dfd6 net: lan966x: add mactable support
+         12c2d0a5b8e2a1afc8c7738e19a0d1dd7f3d4007 net: lan966x: add ethtool configuration and statistics
+         813f38bf3b892bf4b7ea52450cd7cc088686910b net: lan966x: Update MAINTAINERS to include lan966x driver
+         77a31246836019c8de7d1a82636ca0020c4e96c6 Merge branch 'lan966x-driver'
          
