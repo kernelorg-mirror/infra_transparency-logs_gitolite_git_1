@@ -1,94 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============2214534343341195290=="
+Content-Type: multipart/mixed; boundary="===============8938716823056253419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 29 Nov 2021 21:46:35 -0000
-Message-Id: <163822239590.14454.1807660734776582112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 29 Nov 2021 21:49:53 -0000
+Message-Id: <163822259353.16733.15243293046271144397@gitolite.kernel.org>
 
---===============2214534343341195290==
+--===============8938716823056253419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/fscache-next
-    old: 507ac576a4a7568cff143e5e4366bed30b980e47
-    new: b3c088faf78bb988ab01af74dcbbdecda60373d4
-    log: revlist-507ac576a4a7-b3c088faf78b.txt
+  - ref: refs/heads/mlx5-queue
+    old: 26499cc8514e2e0c280d1d4096a758a379a60680
+    new: c808c02869ad273d1ba76c2c1f440defa7e458df
+    log: revlist-26499cc8514e-c808c02869ad.txt
 
---===============2214534343341195290==
+--===============8938716823056253419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-507ac576a4a7-b3c088faf78b.txt
+Content-Disposition: attachment; filename=revlist-26499cc8514e-c808c02869ad.txt
 
-d6d5a5b6b2a9228633f180f764282b9f365b999b fscache, cachefiles: Disable configuration
-d18c9010376b2c48d91bf82f46bca325d8d6fc7b cachefiles: Delete the cachefiles driver pending rewrite
-608bfec640edb21a6dd4e739c8b640d5805dab39 fscache: Remove the contents of the fscache driver, pending rewrite
-ba8324be0b702541ccd58d28770db89471db8c2b netfs: Display the netfs inode number in the netfs_read tracepoint
-c3bf20848181d09df76f360581dc95cb7eed0e99 netfs: Pass a flag to ->prepare_write() to say if there's no alloc'd space
-c630596c646a47d4fef0dd0036421c987cc73b03 fscache: Introduce new driver
-3c30075cacb7d1ab4ff9a84d3949abf598766aaf fscache: Implement a hash function
-14d4fdd58880cb557477593f3b5176363deef7de fscache: Implement cache registration
-27beaec4d5462c3dd7643cce352c3f376801d880 fscache: Implement volume registration
-7018720c8eccf1a96b8080e5cf0ba6d87dd6c528 fscache: Implement cookie registration
-9a2f9df6e303428738933c709c110996aa0cf797 fscache: Implement cache-level access helpers
-3fda8375f18bc27518b35ea2398eb7e4fa0b363a fscache: Implement volume-level access helpers
-a87def99e914f75986209013737a21a69a84706f fscache: Implement cookie-level access helpers
-e9449918e1e46ed244aeae19acb41a439500246f fscache: Implement functions add/remove a cache
-f84ecaf828a64dd629cd4b85ea09302ab8d9359a fscache: Provide and use cache methods to lookup/create/free a volume
-94f235e827bc3fc8d9dec95438f84f9662438958 fscache: Add a function for a cache backend to note an I/O error
-26173c101bc70cc9ba1e5073209dd78cdc54bf2d fscache: Implement simple cookie state machine
-d5450f7c8285342854a0ab9d66b89b53bceda73c fscache: Implement cookie user counting and resource pinning
-8bea8920d419c490c0b6232b0441d6a8b1fd84ef fscache: Implement cookie invalidation
-af51054fce60dacca727c025bc2faa52b129a90f fscache: Provide a means to begin an operation
-32b16b8c8b97a6adc434c8814557fb39cb4866a7 fscache: Count data storage objects in a cache
-62f2009d718ddcddf6b9cd6b33c938d28fb852b9 fscache: Provide read/write stat counters for the cache
-1689fe7eeb6732c42450fdc85b205fffae363b8f fscache: Provide a function to let the netfs update its coherency data
-46bf4ebaff2011de5fafaaab51223fa371a487d8 netfs: Pass more information on how to deal with a hole in the cache
-fa40be633b22c13f1a206a6e340240be24e1eae3 fscache: Implement raw I/O interface
-b2fb5758d8e81aae17b61edf2500426d1f4d78ce fscache: Implement higher-level write I/O interface
-6cc42f4acb0d2ac2d10e7c5ba077010da36dfc24 vfs, fscache: Implement pinning of cache usage for writeback
-b30a99800fe817896977c4c7c7bbf158e0bc2250 fscache: Provide a function to note the release of a page
-4c0e33c73c5865d21afaa0043cf5af17ff17acb5 fscache: Provide a function to resize a cookie
-cbb68b01cdbbb7f2fcdab173af447804fe5100f8 cachefiles: Introduce rewritten driver
-4a333c708724a726f1556bcb66b687a9c2c8ff3b cachefiles: Define structs
-ebbca8fcff9c335c0085e0f5ea9f896f332c08c4 cachefiles: Add some error injection support
-8b38897403ba42d5be374da110881e1c8de93f39 cachefiles: Add a couple of tracepoints for logging errors
-ca043ee88726710f12eaf5c2fed7670765328e12 cachefiles: Add cache error reporting macro
-8ba7a10bf776f64db848922f067082542f63529a cachefiles: Add security derivation
-3fde658806e97fe200fa4dafb9583b350b9615b1 cachefiles: Register a miscdev and parse commands over it
-ebdfca9cb21f1e93016f6961fb956917e33271de cachefiles: Provide a function to check how much space there is
-44c2dd0ee1eaec7492aaa6f2be9629d0a166c135 vfs, cachefiles: Mark a backing file in use with an inode flag
-338d9f0e963ea88ac4cc2ebfe4fbb28c0c55d51b cachefiles: Implement a function to get/create a directory in the cache
-825fc6281ca1d5d20d6b67cf0ccd0802e0686b05 cachefiles: Implement cache registration and withdrawal
-1ecd3ca5632e995343461b5d62a6440f22b6b8c8 cachefiles: Implement volume support
-d6358da84a5ebbd1674d6860a71cb25a25b5f252 cachefiles: Add tracepoints for calls to the VFS
-bed2df84a9a6b9b40cfba8e7a7817f649af1f434 cachefiles: Implement object lifecycle funcs
-e18da053d367c8b9ec26bedba1b4da71cbf4c30d cachefiles: Implement key to filename encoding
-882e6cfd3b44c96398132525cdd18270f38c3043 cachefiles: Implement metadata/coherency data storage in xattrs
-7d63062c825f89e5320d3438e5b274c493592550 cachefiles: Mark a backing file in use with an inode flag
-e19b617e438aa12faec20af54ac11cc50567d9d2 cachefiles: Implement culling daemon commands
-5cc1b2a78318c08dd7f96a1da14400a0c3ebfbad cachefiles: Implement backing file wrangling
-b838c32dddab750349015770424ab97013b1903d cachefiles: Implement begin and end I/O operation
-267b3aca066808334b745781e2bdb5f7c99ff2ea cachefiles: Implement cookie resize for truncate
-0443b01eccbb2c6eb9c3b497b6b576b024010c91 cachefiles: Implement the I/O routines
-0a347188b78edd86c8aa7ccfeac3489751ccb339 cachefiles: Allow cachefiles to actually function
-e3d88d630749d38431e0a5ae07add88f8fbf29ec fscache, cachefiles: Display stats of no-space events
-216171c4f20c6c423a298ff0af57327241ec72b9 fscache, cachefiles: Display stat of culling events
-89d0deb169165afbf11884e536524164e7b9de18 afs: Handle len being extending over page end in write_begin/write_end
-75cafe23bc6a541994bcfbf7d9324ef232ac18d9 afs: Fix afs_write_end() to handle len > page size
-614aac8263ca4d8601a3780903a9ead9bc5f1edc afs: Convert afs to use the new fscache API
-168d2ff6b6718ad17e2a30107505207e3ce9c73b afs: Copy local writes to the cache when writing to the server
-98ac956f3ea31f572b0ad06fd7c4181350fa4566 afs: Skip truncation on the server of data we haven't written yet
-c7e351a677b238769fc2e1eddefd29431d910bdc 9p: Use fscache indexing rewrite and reenable caching
-12b841dc2cfd4f2053b9dbb08205ac2460bd82f3 9p: Copy local writes to the cache when writing to the server
-1234f5681081b5383babfa1ed414850f2eaf2993 nfs: Convert to new fscache volume/cookie API
-935b45107a805bbcf096d81067219e6b7dbaca25 cifs: Support fscache indexing rewrite (untested)
-b3c088faf78bb988ab01af74dcbbdecda60373d4 fscache: Rewrite documentation
+2f7ed29f2c54ace09eb09e3f97fd573a31b79309 net: mdio: ipq8064: replace ioremap() with devm_ioremap()
+75fa71e3acadbb4ab5eda18505277eb9a1f69b23 net: mvneta: Use struct tc_mqprio_qopt_offload for MQPrio configuration
+e7ca75fe6662f78bfeb0112671c812e4c7b8e214 net: mvneta: Don't force-set the offloading flag
+e9f7099d0730341b24c057acbf545dd019581db6 net: mvneta: Allow having more than one queue per TC
+2551dc9e398c37a15e52122d385c29a8b06be45f net: mvneta: Add TC traffic shaping offload
+275f37ea50acdda09cc0863b8a0edcaaf1ae7f23 Merge branch 'mvneta-next'
+07b8ca3792dec6bc3288b08ff85d80b5330de1d6 net/l2tp: convert tunnel rwlock_t to rcu
+fd888e85fe6b661e78044dddfec0be5271afa626 net: Write lock dev_base_lock without disabling bottom halves.
+ed618bd80947fa8d9644baf8ac18cb2a02223a5e net: vxlan: add macro definition for number of IANA VXLAN-GPE port
+e54b708c5441e3aee20b9352334ff610649ac227 net: hns3: use macro IANA_VXLAN_GPE_UDP_PORT to replace number 4790
+fc1e5a3613a8e5e08522b6c84894c6fabf1b5499 Merge branch 'vxlan-port'
+f3aee7c900ed15615e9fc7abf3ff92266820b599 dt-bindings: net: Add schema for Qualcomm BAM-DMUX
+21a0ffd9b38c61d79b5ade54893b0f59f2e8c2c3 net: wwan: Add Qualcomm BAM-DMUX WWAN network driver
+688e075748645b43cf4d55e8fd279f5249699b7a Merge branch 'qualcomm-bam-dmux'
+69d9c0d07726b6d49cf8b2609226b7b88a0f3d51 net: mpls: Remove duplicate variable from iterator macro
+f05b0b97335be1b4f9f1f1044eb617f4e12c681e net: mpls: Make for_nexthops iterator const
+fe42e885c7a9e594cd9e5290407e752aa0afbd7e Merge branch 'mpls-cleanups'
+754d71be52926563ddd5cef2a3837a5742a08c37 selftests: net: bridge: fix typo in vlan_filtering dependency test
+b014861d96a69f7fd101406f3ebd61e2a76f5dbe net: dsa: realtek-smi: don't log an error on EPROBE_DEFER
+1ecab9370eef94a334c790fd7ae584b88de56545 net: dsa: rtl8365mb: fix garbled comment
+ef136837aaf6f37f2dec78551671a6883f868d69 net: dsa: rtl8365mb: set RGMII RX delay in steps of 0.3 ns
+9c37b09d3a9a00569358b8932133d3f4e64f5bc0 dt-bindings: net: Add bindings for IXP4xx V.35 WAN HSS
+35aefaad326bb267ef254e64ef65a374bd99c98f net: ixp4xx_hss: Convert to use DT probing
+642fcf53a9ac145c451483036ab73b6dfce7f8d7 dt-bindings: net: lan966x: Add lan966x-switch bindings
+db8bcaad539314df5d58f2c57465e965440d1aa6 net: lan966x: add the basic lan966x driver
+d28d6d2e37d10d607f931d25c835a0bd94d370e3 net: lan966x: add port module support
+e18aba8941b40baa7d0b3120e438df2e3187dfd6 net: lan966x: add mactable support
+12c2d0a5b8e2a1afc8c7738e19a0d1dd7f3d4007 net: lan966x: add ethtool configuration and statistics
+813f38bf3b892bf4b7ea52450cd7cc088686910b net: lan966x: Update MAINTAINERS to include lan966x driver
+77a31246836019c8de7d1a82636ca0020c4e96c6 Merge branch 'lan966x-driver'
+a27a762828375a2b076de7ded5ce5830dec9f4c9 net: mdio: mscc-miim: convert to a regmap implementation
+5186c4a05b9713138b762a49467a8ab9753cdb36 net: dsa: ocelot: seville: utilize of_mdiobus_register
+b99658452355d316debee11079e8f1c6c1029355 net: dsa: ocelot: felix: utilize shared mscc-miim driver for indirect MDIO access
+a4920d5d98f57b15e08eb2cc28bf225e6151fcb4 Merge branch 'seville-shared-mdio'
+e9538f8270db24d272659e15841854c7ea11119e devlink: Remove misleading internal_flags from health reporter dump
+aeeecb889165617a841e939117f9a8095d0e7d80 net: snmp: add statistics for tcp small queue check
+ed0e658c51aadb64b871cfa3de7d26599f171cdb net: hns3: refactor reset_prepare_general retry statement
+e74a726da2c4dcedb8b0631f423d0044c7901a20 net: hns3: refactor hns3_nic_reuse_page()
+e6fe5e167185b610a948337ab565ed7a7e313f80 net: hns3: refactor two hns3 debugfs functions
+a4ae2bc0abd44032fee3d826bc145661983bdf4e net: hns3: split function hns3_get_tx_timeo_queue_info()
+e46da6a3d4d390adaad4eb1471307156933954cc net: hns3: refine function hclge_cfg_mac_speed_dup_hw()
+7ca561be11d0336c4329604a82e4d7bfb149d27d net: hns3: add new function hclge_tm_schd_mode_tc_base_cfg()
+e06dac5290b7f5b98d9f3e4f909548f704f1b335 net: hns3: refine function hclge_tm_pri_q_qs_cfg()
+8469b645c9a188c6a748bc2c45ddd0c67302a2ab net: hns3: split function hns3_nic_get_stats64()
+2fbf6a07f537e89b0a79d74feffd6bce3f164261 net: hns3: split function hns3_handle_bdinfo()
+1d851c0905f86a3a369c9619b9ed3236758f9999 net: hns3: split function hns3_set_l2l3l4()
+ff45b48d35078a0da13c130be81cbb9710f06ae7 Merge branch 'hns3-cleanups'
+dcad856fe55a6e921e36fb4c57fb6df4bc5a3ce7 net: dsa: felix: fix flexible_array.cocci warnings
+09ae03e2fc9d04240c21759ce9f1ef63d7651850 stmmac: remove ethtool driver version info
+de2ccb496fcb9fe16d02a04c3e60f555d8e0353e net/mlx5e: TC, Remove redundant action stack var
+81405669633d4b891846c46f916a98f551f46281 net/mlx5e: Remove redundant actions arg from validate_goto_chain()
+fb591ed3737529c9842f819798224bfeffead3e5 net/mlx5e: Remove redundant actions arg from vlan push/pop funcs
+505bb8cc5ab44732e25cf692b9804f463fde9a48 net/mlx5e: TC, Move common flow_action checks into function
+12b646b40bd47b285f88532772915f85d80bec1a net/mlx5e: TC, Set flow attr ip_version earlier
+b2d90042dd9a88dd6bc4c3fad03c6237a3fe47e2 net/mlx5e: Hide function mlx5e_num_channels_changed
+9a911e0c8852f3866ad9f85eb36a221fde7900ce net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+5749e92dfa406876ecb98647c7b010b1482f1b4f Merge branch 'patchq/430124' into mlx5-queue
+42f468ae741831d142520a4ffa7393aa725be616 net/mlx5: Print more info on pci error handlers
+338fda8d3965e48a099d2bfcd5944a2335f867ec Merge branch 'patchq/446962' into mlx5-queue
+c808c02869ad273d1ba76c2c1f440defa7e458df Merge branch 'patchq/435082' into mlx5-queue
 
---===============2214534343341195290==--
+--===============8938716823056253419==--
