@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3837536298359938509=="
+Content-Type: multipart/mixed; boundary="===============8334501663594892477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 29 Nov 2021 13:25:22 -0000
-Message-Id: <163819232238.17110.17847312147286786568@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 13:25:30 -0000
+Message-Id: <163819233028.17228.6408650751480719251@gitolite.kernel.org>
 
---===============3837536298359938509==
+--===============8334501663594892477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: d58071a8a76d779eedab38033ae4c821c30295a5
     log: revlist-136057256686-d58071a8a76d.txt
 
---===============3837536298359938509==
+--===============8334501663594892477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -455,4 +455,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============3837536298359938509==--
+--===============8334501663594892477==--
