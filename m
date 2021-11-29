@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 29 Nov 2021 12:05:04 -0000
-Message-Id: <163818750451.27048.2940007581713674808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 29 Nov 2021 12:10:13 -0000
+Message-Id: <163818781368.30232.1756434451443406400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/tags/ib-mfd-gpio-regulator-v5.17
+  - ref: refs/heads/pci/mediatek-gen3
     old: 0000000000000000000000000000000000000000
-    new: 4fc4cd212f4097277096f8e787081923303ba9fb
+    new: ab344fd43f2958726d17d651c0cb692c67dca382
