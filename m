@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4752024617624086723=="
+Content-Type: multipart/mixed; boundary="===============8185227451677111390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 29 Nov 2021 07:05:30 -0000
-Message-Id: <163816953082.4285.11846641991681434454@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 07:05:35 -0000
+Message-Id: <163816953574.7180.10857007850895312502@gitolite.kernel.org>
 
---===============4752024617624086723==
+--===============8185227451677111390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8ab774587903771821b59471cc723bba6d893942
+  - ref: refs/heads/usb-linus
+    old: a88db2ecc2d2c11aa8744be9817d6d249d001cca
     new: d58071a8a76d779eedab38033ae4c821c30295a5
-    log: revlist-8ab774587903-d58071a8a76d.txt
+    log: revlist-a88db2ecc2d2-d58071a8a76d.txt
 
---===============4752024617624086723==
+--===============8185227451677111390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638169529 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638169534 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1638169529-495f5f3fe2aa5e689eb282d97b577ae1cfe6179b
+nonce 1638169533-2082906c439514d4e3e5cbad5879c47b8eef36e7
 
-8ab774587903771821b59471cc723bba6d893942 d58071a8a76d779eedab38033ae4c821c30295a5 refs/heads/main
+a88db2ecc2d2c11aa8744be9817d6d249d001cca d58071a8a76d779eedab38033ae4c821c30295a5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGke7kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JnQP/2o1VZgf4T5ZN2DI4Xhe
-5c07C60bBVclotbq4RY2rVhT7WDKF0Hbl2nQqomQl1+nwItHWACQGGV+FhOX+G+y
-aAUIjqm6tzP+HBBWe2swqPljJ5DR9UMK/CvIkZ8Hrb9cISlBvvcc4PpQ3r6GUM3V
-Q2i5t2dfL5Vw2XS+WFuDrhPWuN0mXVLf4GrUnrzAnoV5/VWY3Qnq3g+qQQMP/zlB
-Aa60jDfW+AuuoYLQQRPqhgCCEXAOrcUj0d+hMohE/Gl+sbm0BEbslCtifoyjdS9z
-qffsoxk571dCl3HB6VdR/Qafti2RpuzGIN9wkH2NgIV0YkqCT2XkBDKKmR2dhP5W
-L5Whg7kDY9aDZcjIVjkfoV65RpSr7lXabOEONj5veLb6I+KDCCp+X5unNEFvGJQC
-I6rhMtNNR+3OuVbkaUgKzIeEMf6i1siQeG1yCBvsdhSNGwbnfCPHSwkgBsXKuVLV
-9s3o9lmDCLKFtQxij9Ktn2nSfW4QnS88a+j0cvfH/1hE0lIRfjFkZ3Vm69E5yEYR
-aWFcEwwlgX/thIys/qhl1N1nWfJXpUNDDDYEVk3RKLOsoEQX6j8Dv+WNBjdT2F32
-b4VY3VC7M5NZSk82F14o6PvRDBV3A3HIYtoYq/Npvy7tJDbyv7BDn6AYPeNcI5Kf
-yMfVggZ2mRpczOq1VWGOTWsE
-=2c2I
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGke74bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SQIQAJBcsMsf6dheMvv0w5Te
+PSqVEXtbvJBOpA6ejXY2gbDQsFhTLB8u7UqG6Qjq9xF35xgU8rU3RzjxYjlX+FNj
+c6SpKUNTr8gW3pFYiMx8oHxs77wXxCzDfVS6OtJ7tgEiqMWLr3M00TvTr2mA/kpk
+x2aAmfYY7IQmW1u1Nq2U/tb0Q1ER04+dQ68eHVq6hbbaFCwJwO+Oi++332L2fg8I
+8tGzmbDOWZexeSL1ZlU8dM21C/tajn1N13P8T4cAr0edfVDw5MW0nHjebw5YV5AA
+rWVG79KoziqUhZgqgQjZUKh7RxsuZnZEIU0pgPKulZRuA8IVRJhLvQl3z6rakTb+
+NswODdX9U7+OrNylScjpxPlfabbxOrzifU6YdVrw+K2NU6pkJtCHCeSIx8OP6dmr
+joatlXSc0SEJXkR3aUx7LuEwJqj62mrYlH2VUdqw+tVCzU6GYLNsQP0SFgw3V5nj
+8Ct6hZ97Jyh9ByMtnkUzKuyVrjP0+K/sDLdb3OmjCfVhWMKfFPXZQ9f3roZJRuTt
+WuF0ZbPQzO8EDh5V023GfJUxbVG7x151Zy3Sw0O7E0twGJX58vXNtqFpvBHaH87s
+jzqj/A3/4i8S9KRS03o23his02eMKsbdFdJf0cJgBpZfUPFvojniYLRDqXyHj2RS
+9IhTaE00A7j7gkpGF8hNxYL2
+=qg9N
 -----END PGP SIGNATURE-----
 
---===============4752024617624086723==
+--===============8185227451677111390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ab774587903-d58071a8a76d.txt
+Content-Disposition: attachment; filename=revlist-a88db2ecc2d2-d58071a8a76d.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
@@ -365,18 +365,6 @@ e324234e0aa881b7841c7c713306403e12b069ff perf/x86/intel/uncore: Fix filter_tid m
 3866ae319c846a612109c008f43cba80b8c15e86 perf/x86/intel/uncore: Fix IIO event constraints for Skylake Server
 bdc0feee05174418dec1fa68de2af19e1750b99f perf/x86/intel/uncore: Fix IIO event constraints for Snowridge
 f3fd84a3b7754b60df67ebfe64e1d90623895111 x86/perf: Fix snapshot_branch_stack warning in VM
-250fdabec6ffcaf895c5e0dedca62706ef10d8f6 usb: dwc3: core: Revise GHWPARAMS9 offset
-d74dc3e9f58c28689cef1faccf918e06587367d3 usb: dwc3: gadget: Ignore NoStream after End Transfer
-63c4c320ccf77074ffe9019ac596603133c1b517 usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
-7ad4a0b1d46b2612f4429a72afd8f137d7efa9a9 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
-51f2246158f686c881859f4b620f831f06e296e1 usb: xhci: tegra: Check padctrl interrupt presence in device tree
-3b8599a6f4817bdd7c5e7145f2972b7f22f00a9d usb: gadget: udc-xilinx: Fix an error handling path in 'xudc_probe()'
-26288448120b28af1dfd85a6fa6b6d55a16c7f2f usb: dwc3: gadget: Fix null pointer exception
-310780e825f3ffd211b479b8f828885a6faedd63 usb: dwc2: hcd_queue: Fix use of floating point literal
-47ce45906ca9870cf5267261f155fb7c70307cf0 usb: dwc3: leave default DMA for PCI devices
-362468830dd5bea8bf6ad5203b2ea61f8a4e8288 usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
-6ae6dc22d2d1ce6aa77a6da8a761e61aca216f8b usb: hub: Fix usb enumeration issue due to address0 race
-d4d2e5329ae9dfd6742c84d79f7d143d10410f1b usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
 245a489e81e13dd55ae46d27becf6d5901eb7828 block: avoid to quiesce queue in elevator_init_mq
 f77b83b5bbab53d2be339184838b19ed2c62c0a5 net: usb: r8152: Add MAC passthrough support for more Lenovo Docks
 9b5a333272a48c2f8b30add7a874e46e8b26129c net: dpaa2-eth: fix use-after-free in dpaa2_eth_remove
@@ -607,7 +595,6 @@ d8af404ffce71448f29bbc19a05e3d095baf98eb iomap: Fix inline extent handling in io
 df2ffeda6370a77011902e7c9d7a1eb1cbffed4f parisc: Fix extraction of hash lock bits in syscall.S
 3fbdc121bd051d9f1b3b2e232ad734c44b47d32c parisc: Convert PTE lookup to use extru_safe() macro
 98400ad75e95860e9a10ec78b0b90ab66184a2ce Revert "parisc: Fix backtrace to always include init funtion names"
-e353f3e88720300c3d72f49a4bea54f42db1fa5e USB: serial: option: add Telit LE910S1 0x9200 composition
 3449d6bf4c4581f7c11a2a2ff60cb53160906474 Merge tag 'arm-soc/for-5.16/devicetree-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
 d063f30765fef6bca08e0caecb41ca3d6b96dc78 Merge tag 'optee-fix-for-v5.16' of git://git.linaro.org/people/jens.wiklander/linux-tee into arm/fixes
 d17c4bf2c7e9bb7c7e9238b283d54157d92fd66b Merge tag 'scmi-fixes-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
@@ -648,7 +635,6 @@ d257cc8cb8d5355ffc43a96bab94db7b5a324803 locking/rwsem: Make handoff bit handlin
 aa6fed90fea20bf52215952b276169efab8ae5ad dt-bindings: i2c: imx-lpi2c: Fix i.MX 8QM compatible matching
 9b5bf5878138293fb5b14a48a7a17b6ede6bea25 i2c: i801: Restore INTREN on unload
 03a976c9afb5e3c4f8260c6c08a27d723b279c92 i2c: i801: Fix interrupt storm from SMB_ALERT signal
-aa5721a9e0c9fb8a4bdfe0c8751377cd537d6174 USB: serial: pl2303: fix GC type detection
 84e1d0bf1d7121759622dabf8fbef4c99ad597c5 i2c: virtio: disable timeout handling
 5f719948b5d43eb39356e94e8d0b462568915381 mmc: spi: Add device-tree SPI IDs
 16517829f2e02f096fb5ea9083d160381127faf3 hamradio: fix macro redefine warning
@@ -672,9 +658,6 @@ e4e9bfb7c93d7e78aa4ad7e1c411a8df15386062 net: ipa: kill ipa_cmd_pipeline_clear()
 7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb net: marvell: mvpp2: increase MTU limit when XDP enabled
 cd23f02f166892603eb9f2d488152b975872b682 cpufreq: intel_pstate: Add Ice Lake server to out-of-band IDs
 ed38eb49d101e829ae0f8c0a0d3bf5cb6bcbc6b2 cpufreq: intel_pstate: Fix active mode offline/online EPP handling
-6cca13de26eea6d32a98d96d916a048d16a12822 usb: hub: Fix locking issues with address0_mutex
-7b9c90e3e6a13d89048717f846ba664dfbd4c6c7 usb: typec: tipd: Fix typo in cd321x_switch_power_state
-113972d2e111304553d4d3226f49d18ea4b7f2f7 usb: typec: tipd: Fix initialization sequence for cd321x
 03c83982a0278207709143ba78c5a470179febee cpufreq: intel_pstate: ITMT support for overclocked system
 b9ad6b5b687e798746024e5fc4574d8fa8bdfade cifs: nosharesock should be set on new server
 5112d80c162f456b3956dd4f5c58e9f0c6498516 cifs: populate server_hostname for extra channels
@@ -717,7 +700,6 @@ b8d8436840caa2e9b6d156e69336d2135f49f10f drm/i915/gt: Hold RPM wakelock during P
 740bebf42104d2f082514b1545a14056f3b1b56c Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 29889216befc1cee635da8a64f48caae47ffbcaf Merge tag 'trace-v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 5f53fa508db098c9d372423a6dac31c8a5679cdf Merge tag 'for-5.16/parisc-5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-88459e3e42760abb2299bbf6cb1026491170e02a USB: serial: option: add Fibocom FM101-GL variants
 a1de97fe296c52eafc6590a3506f4bbd44ecb19a xfs: Fix the free logic of state in xfs_attr_node_hasname
 1090427bf18f9835b3ccbd36edf43f2509444e27 xfs: remove xfs_inew_wait
 5ad448ce2976f829d95dcae5e6e91f6686b0e4de iomap: iomap_read_inline_data cleanup
@@ -765,7 +747,6 @@ f8fbfd85f5c95fff477a7c19f576725945891d0c ksmbd: Fix an error handling path in 's
 1ec72153ff434ce75bace3044dc89a23a05d7064 ksmbd: contain default data stream even if xattr is empty
 178ca6f85aa3231094467691f5ea1ff2f398aa8d ksmbd: fix memleak in get_file_stream_info()
 fbf3bce458214bb971d3d571515b3b129eac290b MIPS: boot/compressed/: add __ashldi3 to target for ZSTD compression
-a88db2ecc2d2c11aa8744be9817d6d249d001cca Merge tag 'usb-serial-5.16-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 473441720c8616dfaf4451f9c7ea14f0eb5e5d65 fuse: release pipe buf after last use
 a0eb2da92b715d0c97b96b09979689ea09faefe6 futex: Wireup futex_waitv syscall
 82be5f5bd390aeb5214a966ea39290a5d49df252 MAINTAINERS: Update maintainer entry for keystone platforms
@@ -873,4 +854,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============4752024617624086723==--
+--===============8185227451677111390==--
