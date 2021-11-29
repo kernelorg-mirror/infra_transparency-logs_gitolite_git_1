@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6943733246730258443=="
+Content-Type: multipart/mixed; boundary="===============6376567518022945506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 29 Nov 2021 08:07:50 -0000
-Message-Id: <163817327011.23090.7445549228727463391@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 08:08:00 -0000
+Message-Id: <163817328093.23201.530474467541294200@gitolite.kernel.org>
 
---===============6943733246730258443==
+--===============6376567518022945506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-next
     old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: d58071a8a76d779eedab38033ae4c821c30295a5
     log: revlist-136057256686-d58071a8a76d.txt
 
---===============6943733246730258443==
+--===============6376567518022945506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -455,4 +455,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============6943733246730258443==--
+--===============6376567518022945506==--
