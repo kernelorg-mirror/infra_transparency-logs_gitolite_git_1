@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0238452939463902036=="
+Content-Type: multipart/mixed; boundary="===============6333233216785694900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Nov 2021 10:05:05 -0000
-Message-Id: <163818030570.16815.5475453887554286168@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 10:05:17 -0000
+Message-Id: <163818031776.16933.1571417241300564978@gitolite.kernel.org>
 
---===============0238452939463902036==
+--===============6333233216785694900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c9ab59f27f9ab56550096b19e26cff7f743b0b4a
-    new: 6312c672bea8b22c3042d7d383c4933a0a144d12
-    log: revlist-c9ab59f27f9a-6312c672bea8.txt
+  - ref: refs/heads/m68k-queue
+    old: 17bda6542afe0d690328874679795524e2ffb12f
+    new: 677ec87dbd4f0df19c1f5397765288eb6898fae6
+    log: revlist-17bda6542afe-677ec87dbd4f.txt
 
---===============0238452939463902036==
+--===============6333233216785694900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9ab59f27f9a-6312c672bea8.txt
+Content-Disposition: attachment; filename=revlist-17bda6542afe-677ec87dbd4f.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 d9835eaa3e9fb4770745294fef3f8416446178c0 ASoC: SOF:control: Fix variable type in snd_sof_refresh_control()
@@ -454,7 +454,9 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 9557e60b8c3521e43bf5f21db95b2b42d7c43ac9 Merge tag 'x86-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
-f5c54a5859b9fc22b2ecd0236964d900e95084b6 Merge tag 'v5.16-rc3'
-6312c672bea8b22c3042d7d383c4933a0a144d12 m68k: Enable memtest functionality
+775cad16de15a34fc0ccab0f01afae4026e071d1 m68k: Enable memtest functionality
+4c479a14c411e67ac8fff962ac0ea74e39f1fd14 m68k: atari: usb: Add ISP1160 USB host controller support
+9a0c8f5902670c82709f349478d4f2272a8c6f4f m68k: atari: Update Kconfig.bus help text
+677ec87dbd4f0df19c1f5397765288eb6898fae6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0238452939463902036==--
+--===============6333233216785694900==--
