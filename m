@@ -1,26 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5907375374177527609=="
+Content-Type: multipart/mixed; boundary="===============7229584135723735340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 29 Nov 2021 01:24:12 -0000
-Message-Id: <163814905259.8487.14948368345402196149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 29 Nov 2021 01:41:56 -0000
+Message-Id: <163815011699.19132.14005624085187303729@gitolite.kernel.org>
 
---===============5907375374177527609==
+--===============7229584135723735340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/dev-test
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: d58071a8a76d779eedab38033ae4c821c30295a5
     log: revlist-fa55b7dcdc43-d58071a8a76d.txt
+  - ref: refs/heads/master
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: d58071a8a76d779eedab38033ae4c821c30295a5
+    log: revlist-fa55b7dcdc43-d58071a8a76d.txt
+  - ref: refs/tags/v5.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e9966818ad676112345dca60e65d48ef2e686930
 
---===============5907375374177527609==
+--===============7229584135723735340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -845,4 +852,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============5907375374177527609==--
+--===============7229584135723735340==--
