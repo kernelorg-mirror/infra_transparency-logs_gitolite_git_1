@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6062245443315082818=="
+Content-Type: multipart/mixed; boundary="===============7865663786218568288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 29 Nov 2021 07:03:53 -0000
-Message-Id: <163816943302.23028.11092990852704059597@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 07:03:57 -0000
+Message-Id: <163816943744.23089.1309356724033698250@gitolite.kernel.org>
 
---===============6062245443315082818==
+--===============7865663786218568288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/staging-linus
+    old: b535917c51acc97fb0761b1edec85f1f3d02bda4
     new: d58071a8a76d779eedab38033ae4c821c30295a5
-    log: revlist-fa55b7dcdc43-d58071a8a76d.txt
+    log: revlist-b535917c51ac-d58071a8a76d.txt
 
---===============6062245443315082818==
+--===============7865663786218568288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638169431 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638169436 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1638169431-968b1f6b64552268b0c59f3b8c1bf864f2b6fc7f
+nonce 1638169435-f50e04971ee110c1cb1c49a650ef3706336a911e
 
-fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf d58071a8a76d779eedab38033ae4c821c30295a5 refs/heads/main
+b535917c51acc97fb0761b1edec85f1f3d02bda4 d58071a8a76d779eedab38033ae4c821c30295a5 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGke1gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YPQQAItkUNPsvl3AvuxmMn3B
-BVeFQOL5ma1eCplViutT/cdDqeKBcUobtwzljmKCRmUL8DN3LftR89veU03UILjw
-V1QAxawwD7Tsa5DDxcv48PPunuo69+eP5Nywq2c8dNZlugUtb6L2iWO99WGraa54
-pLjbn//EDZJCnHlXmwkh7c1YaJAT31zlaJIlMFyvVyZxHLoHX9h3x6xnS+vVEDDL
-DlEgLcs+NOzcBvIDTU/g4ZxVQH0j42tBnhvtLPjxgjsmQDmcbYyEYAtFtUjw5C0J
-mI1xXuvd17lRT2H/RXsOvBxpRKATvYHO8gojUAMie+lK4X0YRDAQNg0gOX9u0vAr
-JOeoWCAw/FBv5eDskhzhOJIF0TjHzZW2pyArqYF5XaPRWN9m/pya57ok4Dk/xRR1
-e9xYABUEkok1UZMkIQ1MRnUjuFtSfRJaz/X/RYD5gHmfQ6+XohGxN5tjCtF7BfSs
-CSEnxPWm/nmTI0+YOQ1s4C6FtQwOJnWyY06xWYa95kRMCUpHiYepk82+6IU4sqC6
-5zKaMokpPDVhjBrDBnXRx9rm6HuGRdqn8/NpwNROXPm7/1BklIw6iCrKja/Kzu+4
-nXnKVbSPpqMYE32ykI/OFMWlIrCjfb8B6qQ0Qnk4hSCZRTvgV63MRPL/tc+0Ob1j
-Na86MbKnqb7F5YZFs3RYiaC8
-=OkHY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGke1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aHsP/3/iWebFSlL48aqzKMn8
+uoFIYiV75jy5SdpeR39u0Vuu3fnlyTdOAiVtZtzIZ06r7KD584abwIgHvPEeUve+
+X+Un6mjauo0Yq+dQbk26MPffDHaftFsrLhMfEfzc7WLuvfZEketWJ3HLw1U49oVK
+imFL5rhF1jl04t9dPQ5Bc/+wWPWbYwX9ViHDqp/h7TZwI+dRq5IopzYJUF7b/8nx
+aOPDm/XKPzH31inhzjTDEjKys8NQb2VMGp6HB4n9c0dL9LCF1oopUNvwwigmBvu8
++TIZesG4QcW/gCkgBHeo3lvDdlIU/mN6N36jalaEegsqPE+iQxVuZL1B5fUbkoJK
+hoMx4x0y/6UoDTE2FdMvN1lvyLJUPx2L5pqvp/hamC/GwNIqoBDX2WlqjHj1yhC2
+v8g9TNlC4CRETkxBThKScOnvtI9qcHENBuSz1DKV3NS7Idcp+EGCvVXj0Tva6sQ0
+gPCddaH4wBP2nXs5vsV6jKgD93PADhE0dQ0WH7oj/4VURAFsiOod0NDb/o0fRqMY
+Bcw1nJ1kSgXiR5C/fseSWbdn7KfVziNccoPsrGVJjPecRURq5ViYiIKVOdLyoOtv
+m/e5IhVgt19dxhP5PjeN0VOauo3rSLKmw5F5ifo14IOlV+1c4v9jwqECu8w/doi7
+yd4cVXDNYOzGRmdSUtIPNDUE
+=433I
 -----END PGP SIGNATURE-----
 
---===============6062245443315082818==
+--===============7865663786218568288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-d58071a8a76d.txt
+Content-Disposition: attachment; filename=revlist-b535917c51ac-d58071a8a76d.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
@@ -147,12 +147,6 @@ dae581864609d36fb58855fd59880b4941ce9d14 KVM: PPC: Book3S HV: Use GLOBAL_TOC for
 2d33f5504490a9d90924476dbccd4a5349ee1ad0 powerpc/pseries/ddw: Revert "Extend upper limit for huge DMA window for persistent memory"
 fb4ee2b30cd09e95524640149e4ee0d7f22c3e7b powerpc/pseries/ddw: simplify enable_ddw()
 ad3976025b311cdeb822ad3e7a7554018cb0f83f powerpc/pseries/ddw: Do not try direct mapping with persistent memory and one window
-d5f0b804368951b6b4a77d2f14b5bb6a04b0e011 staging: r8188eu: Fix breakage introduced when 5G code was removed
-7865dd24934ad580d1bcde8f63c39f324211a23b staging/fbtft: Fix backlight
-c15a059f85de49c542e6ec2464967dd2b2aa18f6 staging: r8188eu: Use kzalloc() with GFP_ATOMIC in atomic context
-4a293eaf92a510ff688dc7b3f0815221f99c9d1b staging: r8188eu: use GFP_ATOMIC under spinlock
-be4ea8f383551b9dae11b8dfff1f38b3b5436e9a staging: r8188eu: fix a memory leak in rtw_wx_read32()
-47ac6f567c28581f7729bd1f168639f8f066a2eb staging: Remove Netlogic XLP network driver
 995f54ea962e03ec08b8bc6a4fe11a32b420edd3 drm/cma-helper: Release non-coherent memory with dma_free_noncoherent()
 6d6a8d6a4ed03702fe73cc7770acddda5ecc8a15 docs: Update Sphinx requirements
 de80e6c51e5044cd8581a5e2d79509d75da55de9 Documentation: arm: marvell: Add some links to homepage / product infos
@@ -355,8 +349,6 @@ d1cbd9e0f7e51ae8e3638a36ba884fdbb2fc967e firmware: arm_scmi: Fix base agent disc
 bd074e5039ee16d71833a67337e2f6bf5d106b3a firmware: arm_scmi: Fix type error in sensor protocol
 026d9835b62bba34b7e657a0bfb76717822f9319 firmware: arm_scmi: Fix type error assignment in voltage protocol
 424fe7edbed18d47f7b97f7e1322a6f8969b77ae ASoC: stm32: i2s: fix 32 bits channel length without mclk
-ffcf7ae90f4489047d7b076539ba207024dea5f6 staging: greybus: Add missing rwsem around snd_ctl_remove() calls
-b535917c51acc97fb0761b1edec85f1f3d02bda4 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
 1c1c3c7d08d8f51c8317119ccba8c93effc02c2b libbpf: update index.rst reference
 0f60a29c52b515532e6b11dc6b3c9e5b5f7ff2b4 docs: accounting: update delay-accounting.rst reference
 636e36b19d3fac05a21f6a1d2236a2e0b04fe52d Documentation: update vcpu-requests.rst reference
@@ -876,4 +868,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============6062245443315082818==--
+--===============7865663786218568288==--
