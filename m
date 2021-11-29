@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 29 Nov 2021 12:45:48 -0000
-Message-Id: <163818994832.21229.14122441758781532078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 29 Nov 2021 12:47:21 -0000
+Message-Id: <163819004192.21735.6232106209283024851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 49989adc38f8693fb6e9f019904dd00c1d1db5ac
-    new: ef56b64001625c84e80ff7e061ccb0f28e606abb
+    old: 688e075748645b43cf4d55e8fd279f5249699b7a
+    new: fe42e885c7a9e594cd9e5290407e752aa0afbd7e
     log: |
-         817b653160db9852d5a0498a31f047e18ce27e5b net: usb: lan78xx: lan78xx_phy_init(): use PHY_POLL instead of "0" if no IRQ is available
-         7d4741eacdefa5f0475431645b56baf00784df1f net: mpls: Fix notifications when deleting a device
-         189168181bb67825a14e8083d1503cfdc2891ebf net: mpls: Remove rcu protection from nh_dev
-         ef56b64001625c84e80ff7e061ccb0f28e606abb Merge branch 'mpls-notifications'
+         69d9c0d07726b6d49cf8b2609226b7b88a0f3d51 net: mpls: Remove duplicate variable from iterator macro
+         f05b0b97335be1b4f9f1f1044eb617f4e12c681e net: mpls: Make for_nexthops iterator const
+         fe42e885c7a9e594cd9e5290407e752aa0afbd7e Merge branch 'mpls-cleanups'
          
