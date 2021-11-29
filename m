@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 29 Nov 2021 14:40:59 -0000
-Message-Id: <163819685938.745.18429357238727595554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 29 Nov 2021 14:43:47 -0000
+Message-Id: <163819702776.1709.12534680615542187302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: dcad856fe55a6e921e36fb4c57fb6df4bc5a3ce7
-    new: 09ae03e2fc9d04240c21759ce9f1ef63d7651850
+    old: d00a50cf25208838ab62c9684c10f667c512a706
+    new: cdef485217d30382f3bf6448c54b4401648fe3f1
     log: |
-         09ae03e2fc9d04240c21759ce9f1ef63d7651850 stmmac: remove ethtool driver version info
+         cdef485217d30382f3bf6448c54b4401648fe3f1 ipv6: fix memory leak in fib6_rule_suppress
          
