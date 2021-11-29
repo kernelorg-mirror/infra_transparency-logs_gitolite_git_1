@@ -1,38 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7900621539134209260=="
+Content-Type: multipart/mixed; boundary="===============2510968792792564199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 29 Nov 2021 11:54:43 -0000
-Message-Id: <163818688315.19690.13654010027646440069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 29 Nov 2021 11:54:51 -0000
+Message-Id: <163818689170.19797.6052283606360888884@gitolite.kernel.org>
 
---===============7900621539134209260==
+--===============2510968792792564199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
     old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: d58071a8a76d779eedab38033ae4c821c30295a5
     log: revlist-136057256686-d58071a8a76d.txt
-  - ref: refs/heads/rdma-next
-    old: 82c09d8ecb19338fd2ef00508605adb33def5631
-    new: 10e4a930e72e9e35f67b47c025dcac31d3a09b38
-    log: revlist-82c09d8ecb19-10e4a930e72e.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 974e77bbd8ef6e717fd914b2b911c7e3ab7f5dcd
-    new: c181819efc6d96aaf445559c28e42ae208a90543
-    log: revlist-974e77bbd8ef-c181819efc6d.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: b0969f83890bf8b47f5c8bd42539599b2b52fdeb
-    new: c039066854863c9120e52246ad03e12a30ce3966
-    log: revlist-b0969f83890b-c03906685486.txt
+  - ref: refs/heads/queue-next
+    old: d4b84f3011e4201a4df38ee8fa997ee6614a944a
+    new: 9c62056f430d099a48afa3d38c8854133975a550
+    log: revlist-d4b84f3011e4-9c62056f430d.txt
+  - ref: refs/heads/queue-rc
+    old: 90168613937e5f542e5575f9a4e101a6a4a48a66
+    new: 95f0dc0f3375fa6add2e833187ef75dce499f7d6
+    log: revlist-90168613937e-95f0dc0f3375.txt
 
---===============7900621539134209260==
+--===============2510968792792564199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -467,43 +463,11 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============7900621539134209260==
+--===============2510968792792564199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82c09d8ecb19-10e4a930e72e.txt
-
-5bf2325658d3f609335b63d4d335b115e586bcbb RDMA/mlx5: Delay the deregistration of a non-cache mkey
-31775c72d3c0cf7bb328f02f0c7a1a614640b55d RDMA/mlx5: Renaming of the mkey cache variables and functions
-733ea7edc9945f558d91dfed0524428251689f91 RDMA/core: Introduce peer memory interface
-c0fd9028132e8c9bf42e65a82f46b44d808fdb6b PCI/IOV: Add pci_iov_vf_id() to get VF index
-7f3137ad98d4974256b7e39563f2cc2ecb3ef722 net/mlx5: Reuse exported virtfn index function call
-4add8260f717e74192df4e69e8bfe552c7176de9 net/mlx5: Disable SRIOV before PF removal
-e403c690b0ea22a86d587720917f81b1165a127d PCI/IOV: Add pci_iov_get_pf_drvdata() to allow VF reaching the drvdata of a PF
-a7225f00f99bdc307b971f200895f9eaefb0e005 net/mlx5: Expose APIs to get/put the mlx5 core device
-68b454bdacd1518f197562e1f889f612a9c3a51a vfio: Fix VFIO_DEVICE_STATE_SET_ERROR macro
-5ec9e76b910b509c3807325dc8e2c6a98b35f0f9 vfio: Add a macro for VFIO_DEVICE_STATE_ERROR
-5613f51356484e47d1d64b175559c4c91a4fba91 vfio/pci_core: Make the region->release() function optional
-ce46537511cfa9a6d263f5d29825cfc454a3743a net/mlx5: Introduce migration bits and structures
-a31ab4ff5a4de3d2e9627fb72a97f7785b9aad08 vfio/mlx5: Expose migration commands over mlx5 device
-fdcadc2e70defe968eab2853bb98ad7c775491d2 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
-286cb518218cb165ae1b8ba9bbffd6f1cc7259d4 vfio/pci: Expose vfio_pci_core_aer_err_detected()
-ea64150925588a0bfff507dfdb4668bbb1f0bc90 vfio/mlx5: Use its own PCI reset_done error handler
-de4318e9062fcc7fba2d544325513060d448a398 vfio: Add documentation for migration
-1a20cec8ecb9b433ecae109d63c5e87b38ac5cd6 RDMA/core: Modify rdma_query_gid() to return accurate error codes
-666e338a9e3ffb34b6803eef28af8e035f583f21 RDMA/core: Let ib_find_gid() continue search even after empty entry
-fcf0fcb2c0566ca2ad2f832a5b4ad094535e3416 RDMA/cma: Let cma_resolve_ib_dev() continue search even after empty entry
-9f3e67db4305a0530d5b9b73a697504899fe7028 RDMA/mlx5: Release transport domain if loopback enable failed
-e29c8bf0fef2422903b2cd15c50fe34cdbd27619 devlink: Don't throw an error if flash notification sent before devlink visible
-c8675b222494e3f2c3f0cee57c8aa1a0a7852848 Revert "RDMA/mlx5: Release transport domain if loopback enable failed"
-66542c8bcad06f8034bdbca938de76f980e0056b RDMA/mlx5: Don't remove cache MRs when a delay is needed
-10e4a930e72e9e35f67b47c025dcac31d3a09b38 RDMA/mlx5: Add a missing update of cache->last_add
-
---===============7900621539134209260==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-974e77bbd8ef-c181819efc6d.txt
+Content-Disposition: attachment; filename=revlist-d4b84f3011e4-9c62056f430d.txt
 
 d3c45824ad65aebf765fcf51366d317a29538820 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
 93c2e5e0a9ecfc183ab1204e1ecaa7ee7eb2a61a NFS: Add a tracepoint to show the results of nfs_set_cache_invalid()
@@ -617,12 +581,13 @@ c8675b222494e3f2c3f0cee57c8aa1a0a7852848 Revert "RDMA/mlx5: Release transport do
 c039066854863c9120e52246ad03e12a30ce3966 Merge branch 'master' into testing/rdma-rc
 7fff2aebd0379592a46f96762bdfbf0a9e639b17 Merge remote-tracking branch 'mlxsw/combined_queue' into testing/rdma-next
 c181819efc6d96aaf445559c28e42ae208a90543 Merge branch 'rdma-next' into testing/rdma-next
+9c62056f430d099a48afa3d38c8854133975a550 Merge branch 'testing/rdma-next' into queue-next
 
---===============7900621539134209260==
+--===============2510968792792564199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0969f83890b-c03906685486.txt
+Content-Disposition: attachment; filename=revlist-90168613937e-95f0dc0f3375.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 d9835eaa3e9fb4770745294fef3f8416446178c0 ASoC: SOF:control: Fix variable type in snd_sof_refresh_control()
@@ -638,16 +603,6 @@ cf304329e4afb97ffabce232eadaba94f025641d ASoC: Intel: sof_sdw: Add support for S
 0c2ed4f03f0bfe2be34efbabbebe9875c3aa9ca9 ASoC: Intel: sof_sdw: Add support for SKU 0B29 product
 359ace2b9a411c3bd4b89fdc56f8b60e0f6696d2 ASoC: Intel: soc-acpi: add SKU 0B29 SoundWire configuration
 f55af7055cd465f6b767a0c1126977d4529c63c8 ASoC: Intel: sof_sdw: Add support for SKU 0B12 product
-33b8aad21ac175eba9577a73eb62b0aa141c241c selftests: netfilter: add a vrf+conntrack testcase
-228c3fa054ad118f78fc60f1a3f05ba29b043608 selftests: netfilter: extend nfqueue tests to cover vrf device
-00d8b83725e9b9bf5eac1f23712aa94ce30dad46 netfilter: nft_payload: Remove duplicated include in nft_payload.c
-e1f8bc06e49794ebecc0f276429a7ab9f105ac06 selftests: nft_nat: Improve port shadow test stability
-85c0c8b342e89761554eed3f572ee55c0e5c6536 selftests: nft_nat: Simplify port shadow notrack test
-ad81d4daf6a3f4769a346e635d5e1e967ca455d9 netfilter: ctnetlink: fix filtering with CTA_TUPLE_REPLY
-77522ff02f333434612bd72df9b376f8d3836e4d netfilter: ctnetlink: do not erase error code with EINVAL
-c95c07836fa4c1767ed11d8eca0769c652760e32 netfilter: ipvs: Fix reuse connection if RS weight is 0
-c08d3286caf1ec774b80ebb26e3ec31a0b434973 netfilter: xt_IDLETIMER: replace snprintf in show functions with sysfs_emit
-39f6eed4cb209643f3f8633291854ed7375d7264 netfilter: flowtable: fix IPv6 tunnel addr match
 fa443bc3c1e4b28d9315dea882e8358ba6e26f8b HID: intel-ish-hid: add support for MODULE_DEVICE_TABLE()
 cb1a2c6847f7bd2ba45ee1b2c86543c783aec270 HID: intel-ish-hid: use constants for modaliases
 44e2a58cb8803e3e40eaf5708c4d15b4118913c4 HID: intel-ish-hid: fw-loader: only load for matching devices
@@ -680,7 +635,6 @@ c15a059f85de49c542e6ec2464967dd2b2aa18f6 staging: r8188eu: Use kzalloc() with GF
 be4ea8f383551b9dae11b8dfff1f38b3b5436e9a staging: r8188eu: fix a memory leak in rtw_wx_read32()
 47ac6f567c28581f7729bd1f168639f8f066a2eb staging: Remove Netlogic XLP network driver
 95161165727650a707bc34ecfac286a418b6bb00 firmware: arm_scmi: Fix null de-reference on error path
-a2acf0c0e2da29950d0361a3b5ea05e8d0351dfe selftests: nft_nat: switch port shadow test cases to socat
 adab993c25191b839b415781bdc7173a77315240 mmc: sdhci-esdhc-imx: disable CMDQ support
 7e5dfedb53a33cba87350c81124b73b5f2be7cc2 ASoC: Merge rt9120 series from ChiYuan Huang:
 a6e849d0007b374fc7fbb18d55941c77aa7c3923 ASoC: wm_adsp: wm_adsp_control_add() error: uninitialized symbol 'ret'
@@ -755,12 +709,7 @@ e7cc3e09600822eb4f87734ff850724ea4dc540b media: hi846: include property.h instea
 eee5d6f1356a016105a974fb176b491288439efa ALSA: usb-audio: Switch back to non-latency mode at a later point
 83de8f83816e8e15227dac985163e3d433a2bf9d ALSA: usb-audio: Don't start stream for capture at prepare
 96c5f82ef0a145d3e56e5b26f2bf6dcd2ffeae1c drm/vc4: fix error code in vc4_create_object()
-d6821c5bc6b678808a6a5c07e4a5bd3deac9d9f4 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 b4a6aaeaf4aa79f23775f6688a7e8db3ee1c1303 drm/aspeed: Fix vga_pw sysfs output
-253e9b4d11e577bb8cbc77ef68a9ff46438065ca net: marvell: prestera: fix brige port operation
-e8d032507cb7912baf1d3e0af54516f823befefd net: marvell: prestera: fix double free issue on err path
-6a405f6c372d14707b87d3097b361b69899a26c8 atlantic: fix double-free in aq_ring_tx_clean
-0f296e782f21dc1c55475a3c107ac68ab09cc1cf stmmac_pci: Fix underflow size in stmmac_rx
 a94f61e63f337d95001e1a976ab701100fa1d666 HID: ft260: fix i2c probing for hwmon devices
 7fc48fd6b2c0acacd8130d83d2a037670d6192d2 HID: input: Fix parsing of HID_CP_CONSUMER_CONTROL fields
 3e6a950d98366f5e716904e9a7e8ffc7ed638bd6 HID: input: set usage type to key on keycode remap
@@ -769,18 +718,9 @@ fa48020c9fae2872f7bf8f38e09f73eb61fdb4ce HID: thrustmaster: fix sparse warnings
 a1091118e0d6d84c2fdb94e6c397ac790bfb9dd6 HID: magicmouse: prevent division by 0 on scroll
 f61e06391d65c4ecb11ff2a0bdc1e7d70c2aa407 HID: nintendo: eliminate dead datastructures in !CONFIG_NINTENDO_FF case
 32bea35746097985c48cec836d5f557a3b66b60a HID: multitouch: Fix Iiyama ProLite T1931SAW (0eef:0001 again!)
-e792779e6b639c182df91b46ac1e5803460b0b15 iavf: Prevent changing static ITR values if adaptive moderation is on
-0cc318d2e8408bc0ffb4662a0c3e5e57005ac6ff iavf: Fix deadlock occurrence during resetting VF interface
-3b5bdd18eb76e7570d9bacbcab6828a9b26ae121 iavf: Fix refreshing iavf adapter stats on ethtool request
-5951a2b9812d8227d33f20d1899fae60e4f72c04 iavf: Fix VLAN feature flags after VFR
 dc27f3c5d10c58069672215787a96b4fae01818b selinux: fix NULL-pointer dereference when hashtab allocation fails
 2a0991929aba0a3dd6fe51d1daba06a93a96a021 xen/pvh: add missing prototype to header
 fa9730b4f28b7bd183d28a0bf636ab7108de35d7 ALSA: intel-dsp-config: add quirk for JSL devices based on ES8336 codec
-262ae1f9de4e9bde96db5cbe0d85f17909c7f7ef Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net- queue
-ee50e67ba0e17b1a1a8d76691d02eadf9e0f392c mptcp: fix delack timer
-bcd97734318d1d87bb237dbc0a60c81237b0ac50 mptcp: use delegate action to schedule 3rd ack retrans
-efaa9990cd3fcc1258343662dde390fb8cea3753 Merge branch 'mptcp-rtx-timer'
-f9390b249c90a15a4d9e69fbfb7a53c860b1fcaf af_unix: fix regression in read after shutdown
 d8af404ffce71448f29bbc19a05e3d095baf98eb iomap: Fix inline extent handling in iomap_readpage
 8d192bec534bd5b778135769a12e5f04580771f7 parisc: Increase FRAME_WARN to 2048 bytes on parisc
 169d1a4a2adb2c246396c56aa2f9eec3868546f1 parisc: Provide an extru_safe() macro to extract unsigned bits
@@ -793,25 +733,7 @@ d063f30765fef6bca08e0caecb41ca3d6b96dc78 Merge tag 'optee-fix-for-v5.16' of git:
 d17c4bf2c7e9bb7c7e9238b283d54157d92fd66b Merge tag 'scmi-fixes-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 4fd932a7250c87c05c32926943166626547e9a8b Merge tag 'socfpga_fix_for_v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
 e95d8eaee21cd0d117d34125d4cdc97489c1ab82 firmware: smccc: Fix check for ARCH_SOC_ID not implemented
-3b00a07c2443745d62babfe08dbb2ad8e649526e net: dsa: qca8k: fix internal delay applied to the wrong PAD config
-65258b9d8cde45689bdc86ca39b50f01f983733b net: dsa: qca8k: fix MTU calculation
-bdf1565fe03d29777d24e239163d0d53e4af9ce0 selftests/tc-testing: match any qdisc type
-ac2944abe4d7732f29a79f063c9cae7df2a3e3cc selftests/tc-testings: Be compatible with newer tc output
-19d36c5f294879949c9d6f57cb61d39cc4c48553 ipv6: fix typos in __ip6_finish_output()
-3bd6b2a838ba6a3b86d41b077f570b1b61174def nfp: checking parameter process for rx-usecs/tx-usecs is invalid
 18fe42bdd635d290d230ff279e5e86072f1e7e9f MAINTAINERS: Add entry to MAINTAINERS for Milbeaut
-a6da2bbb0005e6b4909472962c9d0af29e75dd06 net: stmmac: retain PTP clock time during SIOCSHWTSTAMP ioctls
-f93fd0ca5e7de743ce687951266950fb37877e34 net: ax88796c: do not receive data in pointer
-f7a36b03a7320d1a3ba52f9305571eddad325a05 vsock/virtio: suppress used length validation
-7a61432dc81375be06b02f0061247d3efbdfce3a net/smc: Avoid warning of possible recursive locking
-a68229ca634066975fff6d4780155bd2eb14a82a nixge: fix mac address error handling again
-4177d5b017a71433d4760889b88f7a29e11fad10 net, neigh: Fix crash in v6 module initialization error path
-8837cbbf854246f5f4d565f21e6baa945d37aded net: ipv6: add fib6_nh_release_dsts stub
-1005f19b9357b81aa64e1decd08d6e332caaa284 net: nexthop: release IPv6 per-cpu dsts when replacing a nexthop group
-02ebe49ab06111a887202959e4d58a3cf252b5ee selftests: net: fib_nexthops: add test for group refcount imbalance bug
-03a000bfd7193cacefb40e309283578c6ae207b5 Merge branch 'nh-group-refcnt'
-792b2086584f25d84081a526beee80d103c2a913 ice: fix vsi->txq_map sizing
-f65ee535df775a13a1046c0a0b2d72db342f8a5b ice: avoid bpf_prog refcount underflow
 a4a118f2eead1d6c49e00765de89878288d4b890 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
 13e4ad2ce8df6e058ef482a31fdd81c725b0f7ea hugetlbfs: flush before unlock on move_hugetlb_page_tables()
 064a91771f7aae4ea2d13033b64e921951d216ce SUNRPC: use different lock keys for INET6 and LOCAL
@@ -831,25 +753,7 @@ aa6fed90fea20bf52215952b276169efab8ae5ad dt-bindings: i2c: imx-lpi2c: Fix i.MX 8
 aa5721a9e0c9fb8a4bdfe0c8751377cd537d6174 USB: serial: pl2303: fix GC type detection
 84e1d0bf1d7121759622dabf8fbef4c99ad597c5 i2c: virtio: disable timeout handling
 5f719948b5d43eb39356e94e8d0b462568915381 mmc: spi: Add device-tree SPI IDs
-16517829f2e02f096fb5ea9083d160381127faf3 hamradio: fix macro redefine warning
-e5b40668e930979bd1e82c7ed7c9029db635f0e4 slip: fix macro redefine warning
-1c743127cc54b112b155f434756bd4b5fa565a99 net: nexthop: fix null pointer dereference when IPv6 is not enabled
-45c3ff7a9ac195135536057021c1d3ac664f3f62 net/smc: Clean up local struct sock variables
-606a63c9783a32a45bd2ef0eee393711d75b3284 net/smc: Ensure the active closing peer first closes clcsock
-5789d04b77126752ab1d70c7f7fc00d65401cb1d Merge branch 'smc-fixes'
-ce4995bc6c8eec9685707e36c3f38aea3c8694fa mlxsw: spectrum: Allow driver to load with old firmware versions
-63b08b1f6834bbb0b4f7783bf63b80c8c8e9a047 mlxsw: spectrum: Protect driver from buggy firmware
-bd08ee2315a30b42a422ad37a0600ab258b90a5b Merge branch 'mlxsw-fixes'
 bed68f4f4db429a0bf544887e64dc710e5a690ea docs: i2c: smbus-protocol: mention the repeated start condition
-33a153100bb3459479bd95d3259c2915b53fefa8 net: ipa: directly disable ipa-setup-ready interrupt
-8afc7e471ad3c92a9c96adc62d1b67de77378bb6 net: ipa: separate disabling setup from modem stop
-60ebd6737c880e81eefa30b6ea7961fceee4bdec Merge branch 'ipa-fixes'
-52911bb62ed82f0ba4dfddcd1540494d78b1a717 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-c75a9ad43691de040bead75f1924928111571f9c r8169: fix incorrect mac address assignment
-b82d71c0f84a2e5ccaaa7571dfd5c69e0e2cfb4a net: chelsio: cxgb4vf: Fix an error code in cxgb4vf_pci_probe()
-a049a30fc27c1cb2e12889bbdbd463dbf750103a net: usb: Correct PHY handling of smsc95xx
-e4e9bfb7c93d7e78aa4ad7e1c411a8df15386062 net: ipa: kill ipa_cmd_pipeline_clear()
-7b1b62bc1e6a7b2fd5ee7a4296268eb291d23aeb net: marvell: mvpp2: increase MTU limit when XDP enabled
 cd23f02f166892603eb9f2d488152b975872b682 cpufreq: intel_pstate: Add Ice Lake server to out-of-band IDs
 ed38eb49d101e829ae0f8c0a0d3bf5cb6bcbc6b2 cpufreq: intel_pstate: Fix active mode offline/online EPP handling
 6cca13de26eea6d32a98d96d916a048d16a12822 usb: hub: Fix locking issues with address0_mutex
@@ -1053,5 +957,6 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 c039066854863c9120e52246ad03e12a30ce3966 Merge branch 'master' into testing/rdma-rc
+95f0dc0f3375fa6add2e833187ef75dce499f7d6 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============7900621539134209260==--
+--===============2510968792792564199==--
