@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3652274775259895925=="
+Content-Type: multipart/mixed; boundary="===============5649450630696940685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Nov 2021 16:43:53 -0000
-Message-Id: <163820423329.15124.13733701830806855671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 29 Nov 2021 16:43:58 -0000
+Message-Id: <163820423865.15242.7647293366578146001@gitolite.kernel.org>
 
---===============3652274775259895925==
+--===============5649450630696940685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 42f7bb1688c0b560e518bca0b7ea7a09f7bab3f4
-    new: 121e466739c49bf2a99d10f4e7181be3cbd168f0
+  - ref: refs/heads/for-5.17
+    old: 335302dbc2e4d041b579614beed83124f341ff43
+    new: 7be10cef0fbe91f83c55faea7e8b70c0529dde5f
     log: |
-         121e466739c49bf2a99d10f4e7181be3cbd168f0 5.4-stable patches
+         8544f08c816292c2219f28c6eaa69236b978bfb9 ASoC: soc-dai: update snd_soc_dai_delay() to snd_soc_pcm_dai_delay()
+         403f830e7a0be5a9e33c7a9d208574f79887ec57 ASoC: soc-component: add snd_soc_pcm_component_delay()
+         feea640aaf1a5ae9dff6e33931e680542432e8dd ASoC: amd: acp-pcm-dma: add .delay support
+         796b64a72db0b416f0aa1815e87aa28388b4715d ASoC: intel: sst-mfld-platform-pcm: add .delay support
+         dd894f4caf7df77cf72dc6ae7547900b55d0de42 ASoC: soc-pcm: tidyup soc_pcm_pointer()'s delay update method
+         fd03cf7f5b4726028cfc2ef76e42d0d5c66377aa ASoC: sun8i-codec: Add AIF, ADC, and DAC volume controls
+         425c5fce8a03c9da70a4c763cd7db22fbb422dcf ASoC: qcom: Add support for ALC5682I-VS codec
+         679de7b64f9622eff8f74357fc3ee071629d25b3 ASoC: sunxi: sun4i-spdif: Implement IEC958 control
+         7be10cef0fbe91f83c55faea7e8b70c0529dde5f ASoC: soc-pcm: tidyup soc_pcm_pointer()'s delay update method
          
 
---===============3652274775259895925==
+--===============5649450630696940685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638204232 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1638204231-11a676d91694ba7b46828c6594564eacea046897
+pusher C3F436CA30F5D8EB 1638204236 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1638204236-d121bec50ded57ed2b433c53072c00f19200e2de
 
-42f7bb1688c0b560e518bca0b7ea7a09f7bab3f4 121e466739c49bf2a99d10f4e7181be3cbd168f0 refs/heads/master
+335302dbc2e4d041b579614beed83124f341ff43 7be10cef0fbe91f83c55faea7e8b70c0529dde5f refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGlA0gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iMcP/1QXSG8pIAffDvTPc2a8
-990z1Zi9fdecUrM5Bhea8KsDl95P+qHHiDN9rCLcUww/4hQ+CoYGtTaG4RXNRqep
-h26K6E05n1aU+nlXgxtp396fUiJ1JrETvHD1rC8GtN0hTG/KwtIn1e8NQ58mp8s8
-gv/aFCqrTyzdrEj1ovSBxWhODwkEhNOisWB0TiEDAeplbYaVvQR5sFxgiOww7Szu
-aOA50sJS5AsZpQG7SMGI4xCxqolpxlCR7CWP3OtP0pnKcF1RQ4fpu0LuU+cMbJpz
-aqGKglVai9nkUdtSU09bC2ruTq8z7qisgmDytZPXtGnSx0rFCcMqUWQLxM0u7kPG
-JUy1tTZwSydsodxKBR2+nC/58L5NfzyVUhoXGdce+U7X5nxTEOSzrt8IWknKH1wZ
-tuD0xmW8pDugaCCrKQuoYlESbwyQg9i4hrIdf+i7DkVT949Hy/+nMVE0p/1uvlE4
-+Ottlx3c45H0wOUtxi1/J8CpPZuxVHGw8L1CUrQBdkbAGYeXj/gdPI9MwF10y8KT
-+tdWx+uX5MN/IHwWKJ98zTJMB/A9ahGPoyVaSZlhvJeKhHvR/UwsiavL6HFEn/ix
-22YMEDz6lIPDCeVpSYCt+jw34bJ53x9wUjz7fjMots6ozJRTcIugMZr0Lii8p06G
-WpaQX0FH6CVmqTm0/6qwyydw
-=+WTF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGlA0wACgkQJNaLcl1U
+h9BiJwf/Ya8AIwFoDSmSlEVvVS0LTS3LLBfD5a0zjayoybifAgGLd+dnt3zMz+hP
+hngW/1hE0yblhq8kQN+K+hB9JoGwAEDHWG5cwA29tPAP51YFdUd6COFfmWjaEEby
+zAdRIbzONk5KsJZE2snWNsvD5BkCifrDBmcAFcUV+o2fRePpEKf2nfgQQwkj7thS
+qppDeWp4QMNsOzVZC5DXcbOZsayhfbDHW9oEx10VLL/2o0IRLaRAfaH6oCu9UQkg
+oSYSjpkKPPc9JIAJoddYdxhRL2+PDTbQ9mEs872xE1sH/7bBgbYIQYIgTDyLAeU8
+O/O9lAtv28Bs1fz9JN7X4c1NnSBZCA==
+=clVJ
 -----END PGP SIGNATURE-----
 
---===============3652274775259895925==--
+--===============5649450630696940685==--
