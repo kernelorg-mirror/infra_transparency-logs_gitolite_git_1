@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 29 Nov 2021 15:14:31 -0000
-Message-Id: <163819887182.22518.5009001559898789630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 29 Nov 2021 15:20:31 -0000
+Message-Id: <163819923108.28554.16666903554235821765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: b0969f83890bf8b47f5c8bd42539599b2b52fdeb
-    new: db6169b5bac1c75ed37cfdaedc7dfb1618f3f362
+  - ref: refs/heads/watchdog-next
+    old: 293903b9dfe43520f01374dc1661be11d6838c49
+    new: dc30f2a405728d9f46627a792add965e53a778bb
     log: |
-         db6169b5bac1c75ed37cfdaedc7dfb1618f3f362 RDMA/rtrs: Call {get,put}_cpu_ptr to silence a debug kernel warning
+         dc30f2a405728d9f46627a792add965e53a778bb watchdog: da9063: Add hard dependency on I2C
          
