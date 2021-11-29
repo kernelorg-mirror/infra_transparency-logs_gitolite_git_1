@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8865648424686071373=="
+Content-Type: multipart/mixed; boundary="===============7775948734651109531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 29 Nov 2021 08:53:36 -0000
-Message-Id: <163817601637.19969.16340590798073555042@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 08:54:06 -0000
+Message-Id: <163817604679.20166.15714534484384015215@gitolite.kernel.org>
 
---===============8865648424686071373==
+--===============7775948734651109531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: d58071a8a76d779eedab38033ae4c821c30295a5
     log: revlist-136057256686-d58071a8a76d.txt
 
---===============8865648424686071373==
+--===============7775948734651109531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -455,4 +455,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============8865648424686071373==--
+--===============7775948734651109531==--
