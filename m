@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Mon, 29 Nov 2021 12:10:28 -0000
-Message-Id: <163818782898.30385.11864890180524719902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 29 Nov 2021 12:11:09 -0000
+Message-Id: <163818786910.30631.15036676320494151079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/rcu/experimental2
-    old: 8e98311f5161832c212b9accfdeb0e7b1792087e
-    new: ef7ff0326c7901a73d2a60464ed700d64d9d8d2e
+  - ref: refs/heads/master
+    old: c5c17547b778975b3d83a73c8d84e8fb5ecf3ba5
+    new: f8e7dfd6fdabb831846ab1970a875746559d491b
     log: |
-         ef7ff0326c7901a73d2a60464ed700d64d9d8d2e workqueue: Another fix
+         f8e7dfd6fdabb831846ab1970a875746559d491b net: stmmac: Avoid DMA_CHAN_CONTROL write if no Split Header support
          
