@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 29 Nov 2021 13:04:15 -0000
-Message-Id: <163819105571.1759.14201683334540262903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 29 Nov 2021 13:04:38 -0000
+Message-Id: <163819107886.1922.8854776934196631896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d8519565447078f141c58ba4193d820f2cdf1914
-    new: 2191b1dfef7d45f44b5008d2148676d9f2c82874
+    old: a4920d5d98f57b15e08eb2cc28bf225e6151fcb4
+    new: e9538f8270db24d272659e15841854c7ea11119e
     log: |
-         2191b1dfef7d45f44b5008d2148676d9f2c82874 net/mlx4_en: Update reported link modes for 1/10G
+         e9538f8270db24d272659e15841854c7ea11119e devlink: Remove misleading internal_flags from health reporter dump
          
