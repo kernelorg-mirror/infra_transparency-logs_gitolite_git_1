@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 29 Nov 2021 15:49:14 -0000
-Message-Id: <163820095467.13358.7940132995604134106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 29 Nov 2021 15:57:00 -0000
+Message-Id: <163820142049.18562.12349108726712986090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/ath-next
-    old: 23cddeb5a7705daf305f02bd01ff73598ebd6461
-    new: a93789ae541c7d5c1c2a4942013adb6bcc5e2848
+  - ref: refs/heads/for-kernelci
+    old: 5fcdfa7c441a5ce396ac2d5759b5142156037ce6
+    new: 817f68d8ca45b363cd4d277c08af94826c62cead
     log: |
-         a93789ae541c7d5c1c2a4942013adb6bcc5e2848 ath11k: Avoid NULL ptr access during mgmt tx cleanup
-         
-  - ref: refs/heads/ath-qca
-    old: 010c44f3fe726ba2e86252049b65c49262ef22f2
-    new: aa3f87b6fed0778051d2d7951b5d7dff9137ac67
-    log: |
-         a93789ae541c7d5c1c2a4942013adb6bcc5e2848 ath11k: Avoid NULL ptr access during mgmt tx cleanup
-         aa3f87b6fed0778051d2d7951b5d7dff9137ac67 Merge branch 'ath-next' into ath-qca
+         ef37153700115e95f27e938642ed528380ba10e8 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+         817f68d8ca45b363cd4d277c08af94826c62cead ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
          
