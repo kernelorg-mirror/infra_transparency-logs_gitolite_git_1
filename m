@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2008159381178245875=="
+Content-Type: multipart/mixed; boundary="===============6943733246730258443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 29 Nov 2021 08:07:40 -0000
-Message-Id: <163817326021.22961.9282947583456326843@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 08:07:50 -0000
+Message-Id: <163817327011.23090.7445549228727463391@gitolite.kernel.org>
 
---===============2008159381178245875==
+--===============6943733246730258443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 41ce097f714401e6ad8f3f5eb30d7f91b0b5e495
+  - ref: refs/heads/master
+    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: d58071a8a76d779eedab38033ae4c821c30295a5
-    log: revlist-41ce097f7144-d58071a8a76d.txt
+    log: revlist-136057256686-d58071a8a76d.txt
 
---===============2008159381178245875==
+--===============6943733246730258443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41ce097f7144-d58071a8a76d.txt
+Content-Disposition: attachment; filename=revlist-136057256686-d58071a8a76d.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 d9835eaa3e9fb4770745294fef3f8416446178c0 ASoC: SOF:control: Fix variable type in snd_sof_refresh_control()
@@ -346,6 +346,7 @@ f8fbfd85f5c95fff477a7c19f576725945891d0c ksmbd: Fix an error handling path in 's
 8e537d1465e7401f352a6e0a728a93f8cad5294a ksmbd: downgrade addition info error msg to debug in smb2_get_info_sec()
 1ec72153ff434ce75bace3044dc89a23a05d7064 ksmbd: contain default data stream even if xattr is empty
 178ca6f85aa3231094467691f5ea1ff2f398aa8d ksmbd: fix memleak in get_file_stream_info()
+fbf3bce458214bb971d3d571515b3b129eac290b MIPS: boot/compressed/: add __ashldi3 to target for ZSTD compression
 a88db2ecc2d2c11aa8744be9817d6d249d001cca Merge tag 'usb-serial-5.16-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 473441720c8616dfaf4451f9c7ea14f0eb5e5d65 fuse: release pipe buf after last use
 a0eb2da92b715d0c97b96b09979689ea09faefe6 futex: Wireup futex_waitv syscall
@@ -358,6 +359,9 @@ b1c45ad53efbad779aa6cdb588de0b8ea1ed54bb xen: make HYPERVISOR_get_debugreg() alw
 00db58cf21188f4b99bc5f15fcc2995e30e4a9fe xen: make HYPERVISOR_set_debugreg() always_inline
 eaeace60778e524a2820d0c0ad60bf80289e292c igb: fix netpoll exit with traffic
 9dbe33cf371bd70330858370bdbc35c7668f00c3 mdio: aspeed: Fix "Link is Down" issue
+1cab5bd69eb1f995ced2d7576cb15f8a8941fd85 MIPS: Fix using smp_processor_id() in preemptible in show_cpuinfo()
+7db5e9e9e5e6c10d7d26f8df7f8fd8841cb15ee7 MIPS: loongson64: fix FTLB configuration
+41ce097f714401e6ad8f3f5eb30d7f91b0b5e495 MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
 e30028ace8459ea096b093fc204f0d5e8fc3b6ae block: fix parameter not described warning
 79941493ff3e75219fd1d37a09b46a604e9e55ac Merge tag 'folio-5.16b' of git://git.infradead.org/users/willy/pagecache
 6ef9d23121d0a7ed80488e546cea69ec48299d96 Merge tag 'arm-fixes-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -451,4 +455,4 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 
---===============2008159381178245875==--
+--===============6943733246730258443==--
