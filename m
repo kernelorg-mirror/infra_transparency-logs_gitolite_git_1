@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8330078037312193521=="
+Content-Type: multipart/mixed; boundary="===============3816555904016631872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 29 Nov 2021 18:17:05 -0000
-Message-Id: <163820982500.11851.17407046321763656230@gitolite.kernel.org>
+Date: Mon, 29 Nov 2021 18:17:07 -0000
+Message-Id: <163820982739.11920.8769277872733733298@gitolite.kernel.org>
 
---===============8330078037312193521==
+--===============3816555904016631872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,83 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: d0a6005afb1e1cb961e5bd396a120aa337ae8895
-    new: 8d63932e7370161a3a375545fb2aae080284b673
-    log: revlist-d0a6005afb1e-8d63932e7370.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 2cd9f5eb5e7f3f73535f86845cc0ba6c203e19ca
+    new: 45b2659d6eff6c5964c83b3218aa7b9acc792c63
+    log: revlist-2cd9f5eb5e7f-45b2659d6eff.txt
 
---===============8330078037312193521==
+--===============3816555904016631872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638209823 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638209825 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1638209820-9c67e610d37246ebfaa2d9fd2dd1ab10a675f22a
+nonce 1638209823-8fe39d53eef1582f28a813d5d6de6545d404e5f8
 
-d0a6005afb1e1cb961e5bd396a120aa337ae8895 8d63932e7370161a3a375545fb2aae080284b673 refs/heads/linux-4.4.y
+2cd9f5eb5e7f3f73535f86845cc0ba6c203e19ca 45b2659d6eff6c5964c83b3218aa7b9acc792c63 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGlGR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DwAP/ipZ7zakR1M4mKK92d3U
-tJnEDf/jJy4t5LwdHe2K3Aw7k4G83O02eGj/Tt8Uu+8A89JmhtCYdzcD73HpaPq5
-rbeF9z+ufRRUfet9YI3d9ExC711TpY3tFpoNG9/J/zLBP10rdLiQZhcsEBYLuzza
-cZvfGvyskQqrK8UlkaQo8aDpdi4zQXHYQQCh0dmKN/JIuz92OtX7pF+iL78v4JNd
-9dsNhOFXm9QaBaFajQmMeJMw54zUPcl87qdH7Pek3V03pJ/0kyyzNEGgqBgEW/i8
-8ypDwFpvcGfmlRmfcihhuwrYk4sOBcdiqbV+3WpTxiV7WfWepnh9a4i8OubjM5NZ
-5trurJz4CeoaSPO0Z4RwH2QOmCNdmIShGoh58WL0DB805786FEnyha7jySI2+pwU
-IK7Q90nvlP+cFCaNVp+cMMb6qtuO6ZsjCGrcKV5IJ+QZGpsFdBeZBt8vTSu60IdK
-5yDZYo4KW6G5o4aoLCmDjy97OohYRhY/E70WKZDhDhsGBh7N9FC8HYplg2biYV9h
-Nfcmdx/cBh9+GQYQV0HDntYReeIaVoc1P99gDKJd/MlsPFnyLbsrGPD5lFbKwG+e
-fsJqTmtlbw6gJHF827njD4skhDJstEUD/lMm2j0wilXlyEbRj9C1sO2CVVq70+HS
-pHTQa7SjdHd9DXCTaKCdSTqH
-=MSUZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGlGSEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qoYP/i6Uw4buYdlqOsH8cvPH
+PxKkHYO7h39eC3larwCSycGGfjJP/3+nklMOSYjCBrQAbILvh+HyUKH00I3TF6GR
+pCNCMwmpyfnajrJLkX6QrVGp+bmEaQ/f2gwXxb2JAnodNCS9gxmlp4lpP5VW/E/u
+eKicc+y+Z2p93aWkAlojQpILHrrETXCbgyeHV3mnhQ3dJ97Z9s3F0MPGcZjH960e
+iKcqjuVW8TfrDuTXxnu4pHAV4xlHmx6utc2kMzQehOsY5rwFvuJmPRCWkOp3M4wY
+j5xPvpWGtBqsXrZLMWfA6I5JWpNgmi/0yzD9rzlzMkWqAE9G5665voMIJIfPU1Hw
+SqVjykDvmPMS7ww3qpSjjZC6u1DPaj49pG1W9G5tYyugr7Cjc/BBbmNH/UfGazXo
+L8MUNiXF8o3AkLynyHHFy93jK+qiY9jjk/A09YfoV9R9a10ISgBiYkqxTQI1bx3n
+gVPfYFqIU6v+zn43fkYVqBxeEWawNz83M0lcCfHJ2hkjd/ulUyB9BKAN+qb4DKg4
+lPGj3dCNIITmnPGaBPhLwzsEIZe5BM3X0rfeGN437H2k19eo4k4wORgQ2A+GKgJY
+sS4JRNvcK9pDGkdn/hjPPDgm3rdX6ruDWBLfoq5/vkik99G6NVms7b1YbB1CD/R3
+L/S5WB+JYgcDTnVbnuhTzhg/
+=aYiy
 -----END PGP SIGNATURE-----
 
---===============8330078037312193521==
+--===============3816555904016631872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0a6005afb1e-8d63932e7370.txt
+Content-Disposition: attachment; filename=revlist-2cd9f5eb5e7f-45b2659d6eff.txt
 
-3d50aab6f101e1c28372e4b9a0ff0eeab7cec3c8 staging: ion: Prevent incorrect reference counting behavour
-6362a7e0598b8a464deb8fea0f541beca827f62b USB: serial: option: add Telit LE910S1 0x9200 composition
-e1b4be4c57d50a92e82d1bb3b2d71150e958ff39 USB: serial: option: add Fibocom FM101-GL variants
-39b790eace77f14ce2b82af5515f27b4c56fef45 usb: hub: Fix usb enumeration issue due to address0 race
-f154af3c582466e5bd93b95f840a93dbc31af4c8 usb: hub: Fix locking issues with address0_mutex
-3f8ece0b92454f0be4721b46aef696ae5172da23 binder: fix test regression due to sender_euid change
-8295f799d954d643f29d4f32068b0dc82b4c7155 ALSA: ctxfi: Fix out-of-range access
-dc43a2281d004d2ccc919778bd2040ec95e548aa staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-37e941e080c4005ed34c0b572dc8d6ec0369f46b xen: don't continue xenstore initialization in case of errors
-1cd776987ac51f965f1dd5062c8a1ed15c3ab61c xen: detect uninitialized xenbus in xenbus_init
-8841dc53ef47116464b46d40e9d510ae89504baa ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-0ee9989caa65851ec4a38856808ab53607d73f1f ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-5cb96169d60f7ab7c5d89fb3e2590988554eed56 net: ieee802154: handle iftypes as u32
-2f2e2fa669b389d77efd74466b6ba113adaae448 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-20bcd812aa11eafc707bda93299d1db48027971f ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-76cb93a1d83c959f3d3dba70dee87eee3c349c5e scsi: mpt3sas: Fix kernel panic during drive powercycle test
-e4100ba3bd135ae74f7528df080640607f0c0d71 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-50cf6c49315e22a001d056bfbfd6044ecdc16dcd tracing: Check pid filtering when creating events
-7a7c162b548d6aee2a8957a8378a3e9b9d3fed6c hugetlbfs: flush TLBs correctly after huge_pmd_unshare
-73e66ba77e3aa7afad9fde7f5d9345f78c324eb0 proc/vmcore: fix clearing user buffer by properly using clear_user()
-df258050a3b4a6b3b7852c28ca3db2f37b380cb7 NFC: add NCI_UNREG flag to eliminate the race
-255aaba61ffa577e278de7bf6b1c6a0d25dccadb fuse: release pipe buf after last use
-37843059a2f6b8e76c32e89771853059e3d0fdb5 xen: sync include/xen/interface/io/ring.h with Xen's newest version
-f8c8a395e36a7f2d178871b4344dfda441da3a2d xen/blkfront: read response from backend only once
-5b482d632f3ee013499d6b0fae51de9158c0ccb4 xen/blkfront: don't take local copy of a request from the ring page
-f611519b1f16a1370e8b0cc65d36d34bb59507e1 xen/blkfront: don't trust the backend response data blindly
-1c0881ba2de7c010168c0fa1689e55705e8fc731 xen/netfront: read response from backend only once
-ec756a53ee4e0aa253c4f0b24ee00a918a7a5b88 xen/netfront: don't read data from request on the ring page
-b7bc685f5f757820e0b5396261396ef31ba3d863 xen/netfront: disentangle tx_skb_freelist
-cf8af1c450652492ef555fac197b7d5c36cc2c10 xen/netfront: don't trust the backend response data blindly
-0817823ac007076321b65ff50999c43867c30a74 tty: hvc: replace BUG_ON() with negative return value
-8d63932e7370161a3a375545fb2aae080284b673 Linux 4.4.294-rc1
+2161e42c41dd62a0295d131c0148950c39be5cd7 staging: ion: Prevent incorrect reference counting behavour
+cd5a8e9f9213afae3ea6fca5fe218639f04a846b USB: serial: option: add Telit LE910S1 0x9200 composition
+56fd063e88eec7e671ca42b47ba2182aee4f1d0f USB: serial: option: add Fibocom FM101-GL variants
+cbedf5fa77555119bac948e5ed7517b66f181e9e usb: hub: Fix usb enumeration issue due to address0 race
+052025a13d49a63717bab31cc226b19629afc722 usb: hub: Fix locking issues with address0_mutex
+06edea2786afdc87a7b0e2748565094f2536df5f binder: fix test regression due to sender_euid change
+26cd15324391fdc6b5fd8f508e6b5843a468e4e3 ALSA: ctxfi: Fix out-of-range access
+8641d29bd8e3424c84e4c62e10ab62d3add66689 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+a48716c03532baf4769da82dccfebf0371f0a618 fuse: fix page stealing
+a48745e3eddce4167b90c6c3b0761ea86a204c85 xen: don't continue xenstore initialization in case of errors
+3c2403f24d58d84bee70f6c06429442eaeeb96e6 xen: detect uninitialized xenbus in xenbus_init
+0f821540a900b9064836adbf679994bcdb202a8e tracing: Fix pid filtering when triggers are attached
+bf3401db7a147b02be0c0933b8d079e2ee131eba ARM: dts: BCM5301X: Add interrupt properties to GPIO node
+e74d46a1402d9c7f68853b23778818c635dc0311 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
+18fb4a6704e60b4179762391eb85635835bc324e net: ieee802154: handle iftypes as u32
+36a9d5265fd5678771fb799559aa80fadf10cdf0 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
+2a28b09b79af3e368dac0c78888401995b47d32b ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
+82f1b3f36e9577307d11a833569b448e083b4623 scsi: mpt3sas: Fix kernel panic during drive powercycle test
+1c954637402aee9cd2b45177c330551cd709e45e drm/vc4: fix error code in vc4_create_object()
+f63afa435c4ca5749c2b429a93863563b0bd0062 PM: hibernate: use correct mode for swsusp_close()
+c3a396efd28e1eebaa9c95cb19ce345e54bc3f44 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+a8d4cb37675c842f7ea63f14d3f807fc7fdab23b tracing: Check pid filtering when creating events
+c8332ecae683658579b8372431919cef396d6d3c hugetlbfs: flush TLBs correctly after huge_pmd_unshare
+f938094ca86052b1eb938a5b4fc432c33553ff85 vhost/vsock: fix incorrect used length reported to the guest
+3157a24289f3fb9f69e5ced274cf39fcba497f24 proc/vmcore: fix clearing user buffer by properly using clear_user()
+5607327cd80532a2b9ba3f781b0c3a0549ba7d87 NFC: add NCI_UNREG flag to eliminate the race
+36842c2a7de2922a111548d61af6e3b1e0375a56 fuse: release pipe buf after last use
+ec2c5f6f1785af2a7653c080f06334ba2cd955de xen: sync include/xen/interface/io/ring.h with Xen's newest version
+cf9453922d1958eaf79795ca3aaeb2c2bccec691 xen/blkfront: read response from backend only once
+4bd52c32ba81414397f6a7c1c54a3e8513cc5a14 xen/blkfront: don't take local copy of a request from the ring page
+a643bccff80ef4823ab7ec400259ca2e8addfdd0 xen/blkfront: don't trust the backend response data blindly
+65104400f3a84ec611084ddf7e534b87cd92a1a6 xen/netfront: read response from backend only once
+09d31a9927be5ea46d1c6f5438eff4105b76afa9 xen/netfront: don't read data from request on the ring page
+b2a9031b6ea67ebb19c681b0ba3615a63fb49133 xen/netfront: disentangle tx_skb_freelist
+8d1a43a89dd261ad93269def161313c3eb61676b xen/netfront: don't trust the backend response data blindly
+032f88ac6929bb6ab2a1e39e5a8b36fb688d4da1 tty: hvc: replace BUG_ON() with negative return value
+45b2659d6eff6c5964c83b3218aa7b9acc792c63 Linux 4.9.292-rc1
 
---===============8330078037312193521==--
+--===============3816555904016631872==--
