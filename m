@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 29 Nov 2021 18:01:33 -0000
-Message-Id: <163820889313.2428.18270258352434795366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 29 Nov 2021 18:01:35 -0000
+Message-Id: <163820889529.2504.4725786801790974298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: bdf36141b058f078148bef08587e485909efc212
-    new: aa361e22164aeb8a161a75e7704ea265eeae7472
+  - ref: refs/heads/pci/xgene
+    old: 1ed9b961be1492e2acc0ce5113936ab08e379de7
+    new: 1ed90068d5e850d8cb2dad01d2fb335bdfdbc243
     log: |
-         ebf2d7935690c00c7fd12768177e2023fc63c9fe gatt-client: Fix disconnecting due to GattCharacteristic1.MTU
-         aa361e22164aeb8a161a75e7704ea265eeae7472 gatt: Omit MTU if not connected
+         1ed90068d5e850d8cb2dad01d2fb335bdfdbc243 PCI: mt7621: declare 'mt7621_pci_ops' static
          
