@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3493170745428116543=="
+Content-Type: multipart/mixed; boundary="===============7970154714033112001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 30 Nov 2021 18:08:01 -0000
-Message-Id: <163829568183.23436.14517666942417504138@gitolite.kernel.org>
+Date: Tue, 30 Nov 2021 18:08:28 -0000
+Message-Id: <163829570864.23643.17309148167193841879@gitolite.kernel.org>
 
---===============3493170745428116543==
+--===============7970154714033112001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: cdef485217d30382f3bf6448c54b4401648fe3f1
     new: 34d8778a943761121f391b7921f79a7adbe1feaf
     log: revlist-cdef485217d3-34d8778a9437.txt
 
---===============3493170745428116543==
+--===============7970154714033112001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ d1ec975f9fa6d2211c1f403010361034a87e317f ice: xsk: clear status_error0 for each 
 f4a8adbfe4841491b60c14fe610571e1422359f9 dpaa2-eth: destroy workqueue at the end of remove function
 34d8778a943761121f391b7921f79a7adbe1feaf MAINTAINERS: s390/net: add Alexandra and Wenjia as maintainer
 
---===============3493170745428116543==--
+--===============7970154714033112001==--
