@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 30 Nov 2021 12:27:12 -0000
-Message-Id: <163827523225.900.12402641606666116543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Tue, 30 Nov 2021 12:28:13 -0000
+Message-Id: <163827529372.1306.6354630047957800655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
   - ref: refs/heads/for-next
-    old: 0e938533d96d656764fbd3fe0e2578873ec6d3e6
-    new: 81ff48ddda0b7e1d4d1251d2a9c8e4059cd9456f
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: 7ebc2dd8511966c5d70cec2389e0a7ebd9caca71
     log: |
-         27c2f5029ae33a6f5b7da935f42fda907df0d00c RDMA/ocrdma: Use bitmap_zalloc() when applicable
-         e02d9cc2f8581ff39d13e0c01c98131bbac70206 RDMA/ocrdma: Simplify code in 'ocrdma_search_mmap()'
-         0c83da72d0c98cbde21fee4d0e8a7f3b5cac273a RDMA/mlx4: Use bitmap_alloc() when applicable
-         f86dbc9fc5d83384eae7eda0de17f823e8c81ca0 IB/hfi1: Use bitmap_zalloc() when applicable
-         67ec0fdfc5de1d14b438402c6e9759da73c5c9eb RDMA/pvrdma: Use bitmap_zalloc() when applicable
-         ecd68ef8d936ef1c589ba4831e9f0fec63565444 RDMA/pvrdma: Use non-atomic bitmap functions when possible
-         81ff48ddda0b7e1d4d1251d2a9c8e4059cd9456f RDMA/bnxt_re: Use bitmap_zalloc() when applicable
+         5c953867ca774e09e7cdbd329bcf83e2274bf687 ARM: dts: bcm283x: Drop fallback compatible for vchiq
+         7ebc2dd8511966c5d70cec2389e0a7ebd9caca71 dt-bindings: soc: bcm: Convert brcm,bcm2835-vchiq to json-schema
          
