@@ -1,59 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1241096795043817766=="
+Content-Type: multipart/mixed; boundary="===============6514066671301003586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Tue, 30 Nov 2021 12:44:03 -0000
-Message-Id: <163827624399.10641.60600583353761123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 30 Nov 2021 12:47:55 -0000
+Message-Id: <163827647525.13258.6114840337170892176@gitolite.kernel.org>
 
---===============1241096795043817766==
+--===============6514066671301003586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: c9d61dcb0bc26a761dc84a87bd8a0d3b3c432f10
-    new: 7cfc5c653b07782e7059527df8dc1e3143a7591e
-    log: |
-         e90e51d5f01d2baae5dcce280866bbb96816e978 KVM: VMX: clear vmx_x86_ops.sync_pir_to_irr if APICv is disabled
-         7cfc5c653b07782e7059527df8dc1e3143a7591e KVM: fix avic_set_running for preemptable kernels
-         
-  - ref: refs/tags/for-linus
-    old: e7de46e16ebec039663ba0bbbab715cc3277f57c
-    new: 57d826a0720bbcf2250217cc99e06d394a7f4abe
-    log: |
-         e90e51d5f01d2baae5dcce280866bbb96816e978 KVM: VMX: clear vmx_x86_ops.sync_pir_to_irr if APICv is disabled
-         7cfc5c653b07782e7059527df8dc1e3143a7591e KVM: fix avic_set_running for preemptable kernels
-         
+  - ref: refs/heads/fixes-base
+    old: 392006871bb26166bcfafa56faf49431c2cfaaa8
+    new: 2d62253eb1b60f4ce8b39125eee282739b519297
+    log: revlist-392006871bb2-2d62253eb1b6.txt
 
---===============1241096795043817766==
+--===============6514066671301003586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-392006871bb2-2d62253eb1b6.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1638276241 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1638276240-a0674eb5610a8ff95bb62fedb65678057b887dda
+73185a13773af10264f9d8ee70386c01c849ff2c scsi: ufs: ufshpb: Fix warning in ufshpb_set_hpb_read_to_upiu()
+e11e285b9cd132db21568b5d29c291f590841944 scsi: qla2xxx: edif: Fix off by one bug in qla_edif_app_getfcinfo()
+36e07d7ede88a1f1ef8f0f209af5b7612324ac2c scsi: scsi_debug: Fix type in min_t to avoid stack OOB
+cc03facb1c4248997592fc683518c00cc257db1a scsi: ufs: ufs-mediatek: Add put_device() after of_find_device_by_node()
+0ee4ba13e09c9d9c1cb6abb59da8295d9952328b scsi: mpt3sas: Fix kernel panic during drive powercycle test
+91202a01a2fb2b78da3d03811b6d3d973ae426aa scsi: mpt3sas: Fix system going into read-only mode
+5ecae9f8c705fae85fe4d2ed9f1b9cddf91e88e9 scsi: mpt3sas: Fix incorrect system timestamp
+e2a49a95b571d9d208f28a03d63353374e724f13 scsi: target: core: Use RCU helpers for INQUIRY t10_alua_tg_pt_gp
+9c6603e1faf880bada541e9cce6514d2f3248da0 scsi: target: configfs: Delete unnecessary checks for NULL
+e0a2c28da11e2c2b963fc01d50acbf03045ac732 scsi: scsi_debug: Sanity check block descriptor length in resp_mode_select()
+eb97545d6264b341b06ba7603f52ff6c0b2af6ea scsi: core: sysfs: Fix setting device state to SDEV_RUNNING
+2d62253eb1b60f4ce8b39125eee282739b519297 scsi: scsi_debug: Zero clear zones at reset write pointer
 
-c9d61dcb0bc26a761dc84a87bd8a0d3b3c432f10 7cfc5c653b07782e7059527df8dc1e3143a7591e refs/heads/master
-e7de46e16ebec039663ba0bbbab715cc3277f57c 57d826a0720bbcf2250217cc99e06d394a7f4abe refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmGmHJEUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNd5wf/eGZT9LwEg6Kuu7Zk6rgvrPn/9uKe
-7cWqczyuhITeeLrTl2HRaiQMA+7bbyH9HD3LWA6vjiKGtCjWR2XcWtWAMQl7sMMX
-swG+UdJ4ilUynE8Df6n9DEr5v/aQChmBgB+th+kIs/sE8fCMdi7DSYKCWj0kuKLd
-vsI+8hFox7ZhRxF1exbrYNkHn4uIknTVLogQ4dzcOz7u2E+I6RqUgdDLptbv63sj
-J4jsl3plhHyk3IfvU8OSJDLRyGerWJ7QeeP32VeaiwDQBOZATe5gOPVj3rBF7yg/
-ZY/K/jmgd30SwOyGBTbguQta9EgIiQwdYbvAAs+Vyt7uHUtElF69ZhHxhw==
-=RemN
------END PGP SIGNATURE-----
-
---===============1241096795043817766==--
+--===============6514066671301003586==--
