@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4693788539105469431=="
+Content-Type: multipart/mixed; boundary="===============7983106147345956845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 30 Nov 2021 15:37:46 -0000
-Message-Id: <163828666629.25047.13142359420663377036@gitolite.kernel.org>
+Date: Tue, 30 Nov 2021 15:41:35 -0000
+Message-Id: <163828689531.27596.9576712641589282842@gitolite.kernel.org>
 
---===============4693788539105469431==
+--===============7983106147345956845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 5f719948b5d43eb39356e94e8d0b462568915381
-    new: 7dba402807a85fa3723f4a27504813caf81cc9d7
-    log: revlist-5f719948b5d4-7dba402807a8.txt
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
+  - ref: refs/heads/next
+    old: 967a0b2f17d365d72f5c51fed632f2cdfa2fe645
+    new: f9962ac595d2068035ac2f0873c571585755d8bf
+    log: revlist-967a0b2f17d3-f9962ac595d2.txt
 
---===============4693788539105469431==
+--===============7983106147345956845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f719948b5d4-7dba402807a8.txt
+Content-Disposition: attachment; filename=revlist-967a0b2f17d3-f9962ac595d2.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 9642c8c44d0db43bc20a166dd70ac6d2ab3ce5b9 gfs2: Only dereference i->iov when iter_is_iovec(i)
@@ -845,5 +842,25 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 7dba402807a85fa3723f4a27504813caf81cc9d7 mmc: renesas_sdhi: initialize variable properly when tuning
+10f0ed8faa6afe81e49fa3101121ae1c64f23807 mmc: tmio: reinit card irqs in reset routine
+a8ddb97f8cb7ac6619028801ae8854a264e1342b mmc: core: rewrite mmc_fixup_device()
+63dc65dc03191b84c1a7a43aeb52691991780ffc mmc: core: allow to match the device tree to apply quirks
+52ba58d60a606afee00c4adb5308eb616099c96d mmc: core: provide macro and table to match the device tree to apply quirks
+bd2a0031529e2ecd26c34114a6bc876fb32cf529 mmc: core: Fixup storing of OCR for MMC_QUIRK_NONSTD_SDIO
+4f528cc5e73209942775f127da6308216fbee399 mmc: core: transplant ti,wl1251 quirks from to be retired omap_hsmmc
+70c4c3d649833d8f472e12f0b3a7f2817e3fec13 mmc: omap_hsmmc: Revert special init for wl1251
+ab1fbcb9b91a93abf1e5f4cf07008af0e68be277 mmc: dw_mmc: Avoid hung state if GEN_CMD transfer fails
+85e778428c91112a4fe48f869252f22af4d74ec6 dt-bindings: mmc: imx-esdhc: Add imx8ulp compatible string
+6f5876d1fa981318341d6560a2f8098e5fa3fbf9 mmc: core: change __mmc_poll_for_busy() parameter type
+c950f257c1fb18979b9c9a7d03e2af2bc8064eac mmc: core: adjust polling interval for CMD1
+d5bc33487eab397385d0bff4c9a2b6d8ac0dd46e mmc: dw_mmc: Allow lower TMOUT value than maximum
+d6d7b82de994f38d055baa988d30aecf1f112763 mmc: sdhci-pci: Add PCI ID for Intel ADL
+0e6f2c4c2072bcfbf0bfa3b946f8117fa58e55a5 mmc: dw_mmc: add common capabilities to replace caps
+0905627f1b2ab091ef046cc5039a1defc3c88fb9 mmc: dw_mmc: hi3798cv200: use common_caps
+d4849f77fa91c0f8e38fb8c5e86bb2794f194297 mmc: dw_mmc: rockchip: use common_caps
+3e2b9b7601196c41b36b88693dc1da194413d3de mmc: dw_mmc: exynos: use common_caps
+afc6d066111f375f68cbb9847ed2db0e629c8390 Merge branch 'fixes' into next
+a897d8bde5b86ba7252426b89478fec220d890d5 dt-bindings: mmc: fsl-imx-esdhc: add i.MXRT compatible string
+f9962ac595d2068035ac2f0873c571585755d8bf mmc: sdhci-esdhc-imx: Add sdhc support for i.MXRT series
 
---===============4693788539105469431==--
+--===============7983106147345956845==--
