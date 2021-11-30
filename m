@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2216421801564904515=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 30 Nov 2021 13:09:22 -0000
-Message-Id: <163827776274.27142.13453876693317940046@gitolite.kernel.org>
-
---===============2216421801564904515==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 30 Nov 2021 13:24:54 -0000
+Message-Id: <163827869436.4839.3569791841092417616@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: ee261c58cc566e6b4d7f2f2ad06c956c8a79a9a4
-    new: 5e5cbc9a21c477f8b4ae2827bedaf8cd309dc526
+    old: 135dd1dd14712a3a19ec723729a2943e38b1e4be
+    new: 97c61e5ee55d51e98dab40f8466d9b9f10483ac3
     log: |
-         5e5cbc9a21c477f8b4ae2827bedaf8cd309dc526 Update 254BCFC56BF6CE8D (Maxime Ripard)
+         5ab35198d270cbe7584bcd0e0801963658ef658d Add Earlier Phytium cores
+         5462d4438335e1a1cfbc8ab5de50447c72cc263a script.1.adoc: correct socond as second
+         27da9ab0cd5a841d67edf15cb0ef2401ae0520d5 Merge branch 'mantypo' of https://github.com/vice/util-linux
+         97c61e5ee55d51e98dab40f8466d9b9f10483ac3 lscpu: (arm) remove extra whitespace
          
-
---===============2216421801564904515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1638277762 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1638277762-19902e6da5fd0c0eec5d877006533d21dc3ccd55
-
-ee261c58cc566e6b4d7f2f2ad06c956c8a79a9a4 5e5cbc9a21c477f8b4ae2827bedaf8cd309dc526 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYaYiggAKCRC2xBzjVmSZ
-bB6eAQD6qH5t5eVzqRFDqi7kH4ihE4bakWgqVxjtNsndqOY45gEAuPIbZcPpYOLK
-PRh4Abr4hrQ9ofWi92OIEM3ixEW53ww=
-=L6R7
------END PGP SIGNATURE-----
-
---===============2216421801564904515==--
