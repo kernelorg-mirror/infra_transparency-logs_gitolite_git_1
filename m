@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Tue, 30 Nov 2021 06:10:18 -0000
-Message-Id: <163825261804.8740.6515859380971309674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 30 Nov 2021 06:47:15 -0000
+Message-Id: <163825483578.30415.9266676962220674211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/mhi-next
-    old: 77c0bbfcd2eabfebff2321cf75a4d4277269ee21
-    new: 46827f596963123cac07f253cf205490b8e9e6c9
+  - ref: refs/heads/mlx5-queue
+    old: 84e1bc9728bc3930414050ad10873eaf6de49098
+    new: 5717872dfb3cbd62277775e9ddcf83bb438fd784
     log: |
-         68c3c45d80fe055feac88140be1d87363c5b779c mhi: pci_generic: Graceful shutdown on freeze
-         8b324a7f697f070188035c8c4f89a9b74cdeade4 bus: mhi: core: Use macros for execution environment features
-         a9ee5abdf890104c8fd180ab8361799777889f07 bus: mhi: Minor style and comment fixes
-         46827f596963123cac07f253cf205490b8e9e6c9 bus: mhi: pci_generic: Simplify code and axe the use of a deprecated API
+         1dceb9ff7aa84034083d30fe48461f9bffae2668 net/mlx5e: Hide function mlx5e_num_channels_changed
+         98031528341c02bc921d90bf4589d38a3a7ecf54 net/mlx5e: SHAMPO, clean MLX5E_MAX_KLM_PER_WQE macro
+         b85fb27f46dd1e63772dcdd0bd47c8b530f5c8b7 net/mlx5: Print more info on pci error handlers
+         8ca2c147e35a1a7cc4e974045b399480c2b2dd1d Merge branch 'patchq/446962' into mlx5-queue
+         5717872dfb3cbd62277775e9ddcf83bb438fd784 Merge branch 'patchq/435082' into mlx5-queue
          
