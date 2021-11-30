@@ -1,45 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0738022194042615561=="
+Content-Type: multipart/mixed; boundary="===============3569374691952587649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Tue, 30 Nov 2021 17:05:16 -0000
-Message-Id: <163829191682.15951.5643956738081491717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 30 Nov 2021 17:18:34 -0000
+Message-Id: <163829271442.22779.9480205256741475026@gitolite.kernel.org>
 
---===============0738022194042615561==
+--===============3569374691952587649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/next
-    old: ff81d75aa0e465f4a37e30da1d48f4cdd43a12ba
-    new: bef2b1c97d77978924005e0b5c3def392200dafb
-    log: revlist-ff81d75aa0e4-bef2b1c97d77.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 09ae03e2fc9d04240c21759ce9f1ef63d7651850
+    new: 196073f9c44be0b4758ead11e51bc2875f98df29
+    log: revlist-09ae03e2fc9d-196073f9c44b.txt
 
---===============0738022194042615561==
+--===============3569374691952587649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff81d75aa0e4-bef2b1c97d77.txt
+Content-Disposition: attachment; filename=revlist-09ae03e2fc9d-196073f9c44b.txt
 
-ab344fd43f2958726d17d651c0cb692c67dca382 PCI: mediatek-gen3: Disable DVFSRC voltage request
-4e0e90539bb0e6c0ca3768c642df9eed2118a8bb PCI: qcom: Fix an error handling path in 'qcom_pcie_probe()'
-e2b86f9777432c08186342f4aa4b2e1f878e2441 PCI: xilinx-nwl: Simplify code and fix a memory leak
-eccca3e757379bbec2f72b609a49653a38f28b5b PCI: brcmstb: Declare a bitmap as a bitmap, not as a plain unsigned long
-8a0c1afb8560c2f64bcbdb559931f5ca8b83de87 PCI: mt7621: Declare mt7621_pci_ops static
-6de343d5aa2a2242c790c0949acfc04a96fae750 Merge branch 'pci/aspm'
-f3153a20e5564215bca18f19ee8021acbd1f0c75 Merge branch 'pci/enumeration'
-d5108eabcc75aa291f46bb8b4614d37f3e0cb4d5 Merge branch 'pci/hotplug'
-246e86239da0355bc5e6fe7f616850307b76a735 Merge branch 'pci/switchtec'
-feffbb6bede34232b4b7c3e5c31c36610e2a071b Merge branch 'remotes/lorenzo/pci/brcmstb'
-db4fd78e0a11c089f6ac3a90565577a516c9a805 Merge branch 'remotes/lorenzo/pci/mediatek-gen3'
-f24d0d40f178eb00dc63078c2c1830346560a7e4 Merge branch 'remotes/lorenzo/pci/mt7621'
-ca912087e08555bced1ae97aa8bd7437900dc532 Merge branch 'remotes/lorenzo/pci/qcom'
-3569169276a13354ff759825b75a2ec372ebbbd2 Merge branch 'remotes/lorenzo/pci/xilinx-nwl'
-bef2b1c97d77978924005e0b5c3def392200dafb Merge branch 'pci/errors'
+a21ee5b2fcb8d6d3973446c5039e966c4cfe40d1 net: ifb: support ethtools stats
+72a2ff567fc38a3648507c5386a383007400bb3a ethtool: netlink: Slightly simplify 'ethnl_features_to_bitmap()'
+4047b9db1aa7512a10ba3560a3f63821c8c40235 net: stmmac: Add platform level debug register dump feature
+dc2724a64e72429856fc22d8eb015225af63129e net/tls: simplify the tls_set_sw_offload function
+7709efa62c4fd2a79d154579ea19be34f9fa9a31 net: nexthop: reduce rcu synchronizations when replacing resilient groups
+6130805066659cda3d685fc4c8d912c72a005ef5 net: ipv6: use the new fib6_nh_release_dsts helper in fib6_nh_release
+2680ce7fc9939221da16e86a2e73cc1df563c82c net: lantiq: fix missing free_netdev() on error in ltq_etop_probe()
+5944b5abd8646e8c6ac6af2b55f87dede1dae898 Bonding: add arp_missed_max option
+067bb3c307ccb8432cf5e3f66805c3a2f2b0d601 net: cxgb3: fix typos in kernel doc
+6167597d442f6676c6b79a05d5cba18967dca366 net: cxgb: fix a typo in kernel doc
+94dd016ae538b12ea665015e5fd0c9844b184005 bond: pass get_ts_info and SIOC[SG]HWTSTAMP ioctl to active device
+c448c898ae890d966a48c8031b199fda9c6a1d93 net: mdio: mscc-miim: Set back the optional resource.
+4c897cfc46a554a523343fc3296333c473a2fc52 devlink: Simplify devlink resources unregister call
+47327e198d42c77322dbe175817499d2d7ddc26a net: prestera: acl: migrate to new vTCAM api
+6e36c7bcb4611414b339173cdc33fdcb55c08f9e net: prestera: add counter HW API
+adefefe5289ceb27bb14cf1cb1cc4e16834c7185 net: prestera: acl: add rule stats support
+9ace2300fc42b1df8c64bcbbcc58fe9bad78cd6b Merge branch 'prestera-next'
+c0190879323f88be22a0debda814680dc6e66751 net: hns3: make symbol 'hclge_mac_speed_map_to_fw' static
+9c32950f24f9e7df158887bdc80e5b79fbf5ed8d net: mscc: ocelot: fix mutex_lock not released
+196073f9c44be0b4758ead11e51bc2875f98df29 net: ixp4xx_hss: drop kfree for memory allocated with devm_kzalloc
 
---===============0738022194042615561==--
+--===============3569374691952587649==--
