@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 30 Nov 2021 12:10:17 -0000
-Message-Id: <163827421701.21994.10439160798622629367@gitolite.kernel.org>
+Date: Tue, 30 Nov 2021 12:11:30 -0000
+Message-Id: <163827429096.22472.1517358167684431442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,17 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm-up-ti-in-task-v2
-    old: d419533e519ad307649f0541c042ffffc9609327
-    new: c290d1e8d279252ad4875540485cefaca1436e2c
+    old: c290d1e8d279252ad4875540485cefaca1436e2c
+    new: 7e79199c96732429590bfeea01b83486524d5ec5
     log: |
-         afc9a2271040fe0e82aa78c853386b54d4529c42 ARM: iop32x: offset IRQ numbers by 1
-         a86cea7ed741090a3a1d267fa6f89052a87b3abd ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
-         622514af3311d3ae579a17b4413a1cd1c9ac1459 ARM: remove old-style irq entry
-         decae0d4a86bad319fdb3131be11af3c01142b1f ARM: entry: preserve thread_info pointer in switch_to
-         80b5326c075c968ef9f5cbcc5c581a1018c68160 ARM: module: implement support for PC-relative group relocations
-         e3f5602ad3864942db55b015a63ce5fa07e6aec2 ARM: assembler: add optimized ldr/str macros to load variables from memory
-         9b822f4e8c4a7920d17d389f7140896b4f4f6d91 ARM: percpu: add SMP_ON_UP support
-         6fb9d776ed75a804332e317daeda4cf642ced2a8 ARM: use TLS register for 'current' on !SMP as well
-         d08ac1d63c24dc406b9cfcc398426e4cdec1bd97 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
-         c290d1e8d279252ad4875540485cefaca1436e2c ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
+         89a8f2670d4874028d7aad7717f4fb6dfb4f9ca6 ARM: iop32x: offset IRQ numbers by 1
+         84fa8bb1dea4b80c560111a55046baecac33c5d7 ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
+         bbf73e90a498fc35ddd7c03c34ab40b1c6e6f50b ARM: remove old-style irq entry
+         58e1e90df7fa4acd862e26a2a36afec4d84ffd76 ARM: entry: preserve thread_info pointer in switch_to
+         8b441c91c814240e4f982f7a186be4150ae4c148 ARM: module: implement support for PC-relative group relocations
+         cda51729a8c0ca659b5c36f328e6bad3be7683b5 ARM: assembler: add optimized ldr/str macros to load variables from memory
+         cb3619a7ca833f02c3038f87d3866844ca5d2747 ARM: percpu: add SMP_ON_UP support
+         46925cfc0ccb1df48b94219d944987aa672bc9a1 ARM: use TLS register for 'current' on !SMP as well
+         711e92c8213723259867e34b6bdbcb5ef12ef5a5 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+         7e79199c96732429590bfeea01b83486524d5ec5 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
          
