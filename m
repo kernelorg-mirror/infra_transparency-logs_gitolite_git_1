@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 30 Nov 2021 09:32:26 -0000
-Message-Id: <163826474693.19737.6515494808022031582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 30 Nov 2021 09:39:11 -0000
+Message-Id: <163826515192.23064.677791404026579146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/mips-next
-    old: 4e1fc0a48037ae0cb197922c0acf28424abbb41d
-    new: 97ad1d89624df8f3f8f035ff3cdf24bbd9c6d7b1
-    log: |
-         97ad1d89624df8f3f8f035ff3cdf24bbd9c6d7b1 MIPS: TXx9: Let MACH_TX49XX select BOOT_ELF32
-         
+  - ref: refs/heads/arm-up-ti-in-task-v2
+    old: 0000000000000000000000000000000000000000
+    new: b47ae52c5a8a3f906a9ebbf5b4ca001f4bf964ae
