@@ -1,53 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2912601640789951384=="
+Content-Type: multipart/mixed; boundary="===============3493170745428116543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 30 Nov 2021 18:04:17 -0000
-Message-Id: <163829545703.20888.10321052521692924139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 30 Nov 2021 18:08:01 -0000
+Message-Id: <163829568183.23436.14517666942417504138@gitolite.kernel.org>
 
---===============2912601640789951384==
+--===============3493170745428116543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: 59eadd2af3f717f2ff70dbb6c153757dc1650651
-    new: d07fef2fcd4d79198a700f4b4d2ca4670649c9ff
-    log: |
-         24f0853228f3b98f1ef08d5824376c69bb8124d2 regulator: da9121: Prevent current limit change when enabled
-         c5187a245e9bb0af2da8d37ede191569c824c66b regulator: da9121: Add DA914x support
-         b9c044b7d63b2ffae9664349721c80c4ab3e56c9 regulator: da9121: Remove erroneous compatible from binding
-         d07fef2fcd4d79198a700f4b4d2ca4670649c9ff regulator: da9121: Add DA914x binding info
-         
+  - ref: refs/heads/net-mlx5
+    old: cdef485217d30382f3bf6448c54b4401648fe3f1
+    new: 34d8778a943761121f391b7921f79a7adbe1feaf
+    log: revlist-cdef485217d3-34d8778a9437.txt
 
---===============2912601640789951384==
+--===============3493170745428116543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cdef485217d3-34d8778a9437.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1638295455 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1638295454-f6da26cfc24ac1ad5ebcdcc9c7167054bc8a6d5f
+ca77fba821351190777b236ce749d7c4d353102e rxrpc: Fix rxrpc_peer leak in rxrpc_look_up_bundle()
+beacff50edbd6c9659a6f15fc7f6126909fade29 rxrpc: Fix rxrpc_local leak in rxrpc_lookup_peer()
+ae9287811ba75571cd69505d50ab0e612ace8572 wireguard: allowedips: add missing __rcu annotation to satisfy sparse
+03ff1b1def73f817e196bf96ab36ac259490bd7c wireguard: selftests: increase default dmesg log size
+782c72af567fc2ef09bd7615d0307f24de72c7e0 wireguard: selftests: actually test for routing loops
+b251b711a92189d558b07fde5a7ccd5a7915ebdd wireguard: main: rename 'mod_init' & 'mod_exit' functions to be module-specific
+7e938beb8321d34f040557b8915b228af125f73c wireguard: selftests: rename DEBUG_PI_LIST to DEBUG_PLIST
+20ae1d6aa159eb91a9bf09ff92ccaa94dbea92c2 wireguard: device: reset peer src endpoint when netns exits
+886fcee939adb5e2af92741b90643a59f2b54f97 wireguard: receive: use ring buffer for incoming handshakes
+fb32f4f606c17b869805d7cede8b03d78339b50a wireguard: receive: drop handshakes if queue lock is contended
+4e3fd721710553832460c179c2ee5ce67ef7f1e0 wireguard: ratelimiter: use kvcalloc() instead of kvzalloc()
+f7e5b9bfa6c8820407b64eabc1f29c9a87e8993d siphash: use _unaligned version by default
+cbd92e7d74314e10a90d12a8f18f6fc66be4fb16 Merge branch 'wireguard-siphash-patches-for-5-16-rc6'
+5fdc2333e6c3e7ef8b98295024bef27f8edf9202 Merge tag 'rxrpc-fixes-20211129' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
+1a59c9c55585e1ec5b352d31b3f8402f196eae94 net: mscc: ocelot: fix missing unlock on error in ocelot_hwstamp_set()
+b83f5ac7d922e69a109261f5f940eebbd4e514c4 net: marvell: mvpp2: Fix the computation of shared CPUs
+d1ec975f9fa6d2211c1f403010361034a87e317f ice: xsk: clear status_error0 for each allocated desc
+f4a8adbfe4841491b60c14fe610571e1422359f9 dpaa2-eth: destroy workqueue at the end of remove function
+34d8778a943761121f391b7921f79a7adbe1feaf MAINTAINERS: s390/net: add Alexandra and Wenjia as maintainer
 
-59eadd2af3f717f2ff70dbb6c153757dc1650651 d07fef2fcd4d79198a700f4b4d2ca4670649c9ff refs/heads/regulator-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGmZ58ACgkQJNaLcl1U
-h9Dj4gf+OGtZmOJxfYD5E9J0qZDMw/zF+o0IOVMn/v+z/Xzos6IZx7iKc+jHAZmY
-ai9B9/LN9FlHVjaHDePMvf/FoVOTljPwOjVrmBYZzjjVfPcd9WlYO4QaVrw9uEoJ
-59SS81kVwCIUA1dR94CZUjOC/xTs5CfxZZR4UpYRNtdqLMTPiZc1pXM0y0YbOI6X
-/3Av3u44n2zpzDmDjmZw4Exldfdpwd6uEwd2utxzSNAcIDpgB3GUMYJoh96585c4
-MSmxIpEO8H9QwpZ2ZapBTKsfjA7hj52QxemQU3SmXl07VdqHPavzGRu2m2Pzgsyr
-EjyjoKauYsJCKPUdeEY6GiIkMYBD7Q==
-=Cscy
------END PGP SIGNATURE-----
-
---===============2912601640789951384==--
+--===============3493170745428116543==--
