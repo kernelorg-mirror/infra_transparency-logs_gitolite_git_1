@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 30 Nov 2021 14:09:15 -0000
-Message-Id: <163828135523.1096.14046355263747364102@gitolite.kernel.org>
+Date: Tue, 30 Nov 2021 14:11:46 -0000
+Message-Id: <163828150663.3335.5485749677903123888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/review-hans
-    old: e9ff190973df2c417c2a97a8b70e709e0bdc2716
-    new: 8e117d92ecbab545dc5bb10d0d81cf61bd166754
+    old: 8e117d92ecbab545dc5bb10d0d81cf61bd166754
+    new: 1971ad2b7ea9fc86760bd90dc12f0e853ba1f3ab
     log: |
-         8e117d92ecbab545dc5bb10d0d81cf61bd166754 amd-pmu: fix s2idle failures on certain AMD laptops
+         1971ad2b7ea9fc86760bd90dc12f0e853ba1f3ab platform/x86: amd-pmu: Fix s2idle failures on certain AMD laptops
          
