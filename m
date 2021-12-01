@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1319347223678395914=="
+Content-Type: multipart/mixed; boundary="===============7250098481534707666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 01 Dec 2021 09:19:37 -0000
-Message-Id: <163835037736.398.3790233774939485764@gitolite.kernel.org>
+Date: Wed, 01 Dec 2021 09:21:43 -0000
+Message-Id: <163835050392.2848.6038315549543445546@gitolite.kernel.org>
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,314 +16,349 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 335c0bf984d922ad7a8ead00d0968d8ff4234c35
-    new: af12bf1bfde7ff3d62e9a0e1e469f8844b5eac4a
-    log: revlist-335c0bf984d9-af12bf1bfde7.txt
+    old: af12bf1bfde7ff3d62e9a0e1e469f8844b5eac4a
+    new: 127727bac26be0d86bc7ec9cf4edb10e49ef4c00
+    log: revlist-af12bf1bfde7-127727bac26b.txt
   - ref: refs/heads/queue/4.19
-    old: 89387eadd4039a24ffae82da0687b431f6d9dc19
-    new: e46ea09e22047c015619860d1b50d9d3807b51c0
+    old: e46ea09e22047c015619860d1b50d9d3807b51c0
+    new: 334f0c9afaaa1ad40d2c209f4fe4784279ce521c
     log: |
-         c2bce3c916ac48d2ba0cad0db2963cc2be8d5edd shm: extend forced shm destroy to support objects from several IPC nses
-         e46ea09e22047c015619860d1b50d9d3807b51c0 NFSv42: Fix pagecache invalidation after COPY/CLONE
+         188d366eeeb5439e772c066a9214e521e92060c6 shm: extend forced shm destroy to support objects from several IPC nses
+         334f0c9afaaa1ad40d2c209f4fe4784279ce521c NFSv42: Fix pagecache invalidation after COPY/CLONE
          
   - ref: refs/heads/queue/4.4
-    old: 5b80daf77d2d2b9491a7a3fe840383c8f9a3304b
-    new: 7b732b976a5e31d9a452ae567d897cdc710065fb
-    log: revlist-5b80daf77d2d-7b732b976a5e.txt
+    old: 7b732b976a5e31d9a452ae567d897cdc710065fb
+    new: fe2c5280cbbe0cd59786425c753c43a89f2ed47f
+    log: revlist-7b732b976a5e-fe2c5280cbbe.txt
   - ref: refs/heads/queue/4.9
-    old: e97274ad405a2d3c10b4d32d892007f497b97185
-    new: 17eea106c89b05a31ebbf2828005c8994f23df51
-    log: revlist-e97274ad405a-17eea106c89b.txt
+    old: 17eea106c89b05a31ebbf2828005c8994f23df51
+    new: d3b69581b56040c2fc2a61371986ccefcaa9162b
+    log: revlist-17eea106c89b-d3b69581b560.txt
+  - ref: refs/heads/queue/5.10
+    old: 540b56d0f9eccfd124f2ead4a2d0c1b56e292408
+    new: be94beeac2486e40879309ccfe8ac8bba464d1e8
+    log: revlist-540b56d0f9ec-be94beeac248.txt
   - ref: refs/heads/queue/5.15
-    old: 70ccd355f8b1e1bdfdf40d49eca01d94ecce3e3b
-    new: 2ecdf50008f3c2efd47a04e8d34cbfe0c5b086c7
-    log: revlist-70ccd355f8b1-2ecdf50008f3.txt
+    old: 2ecdf50008f3c2efd47a04e8d34cbfe0c5b086c7
+    new: e52f00242b3141352bd309a5e100fd4e541741f4
+    log: revlist-2ecdf50008f3-e52f00242b31.txt
   - ref: refs/heads/queue/5.4
-    old: f4b0482608796af201257aa7b2d071c8c8be1e6c
-    new: 7531eb2668242699c6de51a53be838b8cf3eaf26
-    log: revlist-f4b048260879-7531eb266824.txt
+    old: 7531eb2668242699c6de51a53be838b8cf3eaf26
+    new: 43f2579134a9b057db1a2adde701426c10584ff4
+    log: |
+         43f2579134a9b057db1a2adde701426c10584ff4 NFSv42: Fix pagecache invalidation after COPY/CLONE
+         
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-335c0bf984d9-af12bf1bfde7.txt
+Content-Disposition: attachment; filename=revlist-af12bf1bfde7-127727bac26b.txt
 
-66a49586945bfbd23e4736590f6604b965d30d9b USB: serial: option: add Telit LE910S1 0x9200 composition
-4ada76bb3cd2f20a118e9f12263acc2fc882355c USB: serial: option: add Fibocom FM101-GL variants
-9644ff9059936c849dc58a066da9eb381d9305ec usb: hub: Fix usb enumeration issue due to address0 race
-78cababd5da3f6e8de9b9a9910eb4d0b7388547f usb: hub: Fix locking issues with address0_mutex
-9e8b87f948ada8b6db6e78891ad1ac21dde0500e binder: fix test regression due to sender_euid change
-4c14ad47a7695213fcb03a91a42e79aac30e4463 ALSA: ctxfi: Fix out-of-range access
-225c33c92967a08ed88274983e8bd877b9012c0d media: cec: copy sequence field for the reply
-1ef7649d6387dc7af2f1ea009d71b402d0199750 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
-d350e38d6a721854c63b40dd7cb5d3ffaa34723e staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-208ef9992f8ffdd4c7b2c71b054f3c3f139d3634 fuse: fix page stealing
-9300013da4b6aa4d5e686dddbc2af7f2607cf769 xen: don't continue xenstore initialization in case of errors
-9c92e36b1116f3402b3b8fe91d6c1e2ae9c111ae xen: detect uninitialized xenbus in xenbus_init
-abd97e30df467c8a4d84b137e70dc203ffea3157 tracing: Fix pid filtering when triggers are attached
-3ddf5b60281e6381f62705e8e04228225e63e28d netfilter: ipvs: Fix reuse connection if RS weight is 0
-24292a3554ff3a4fc56ecd9fde0769360594815d ARM: dts: BCM5301X: Fix I2C controller interrupt
-ac9fb6ff7f3171460e1ff24fcc197c919dc7d73d ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-51b1cd84b4cbb00120a0fa53dace1b6d02f17d37 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-0f621855dd3ac8a365ae8bf308601fdf935bf0f7 net: ieee802154: handle iftypes as u32
-dfffa2dbe1b9a3895b69d54ca98c713b53faced3 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-926e617c2e5d8c888b4e563ca0444737b1dea2da ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-0a0c7005b68bab7197615ee132f18e08ea287724 scsi: mpt3sas: Fix kernel panic during drive powercycle test
-d9634bc9d325a0350bfcf11a4430140e409e5710 drm/vc4: fix error code in vc4_create_object()
-dc01b99ea7ace2433b03334bf4cbef4e0862e94c ipv6: fix typos in __ip6_finish_output()
-3fca596c7bf4bc2928864af9beb02a2915a670b8 net/smc: Ensure the active closing peer first closes clcsock
-a3c8d4ccef77507b9803df883d4aa0a35e2b1b43 PM: hibernate: use correct mode for swsusp_close()
-d81a21db2b31af3930e9159d7b0b43c5be7ad864 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-94b2790acb8c1611f06b1ee6543094233447d833 MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
-5e7a37982e49bdce5d74e207c69eeb7fe70fef5b net/smc: Don't call clcsock shutdown twice when smc shutdown
-4b41e994efd4e18ffdebc33d4902fe5fa0caf95c vhost/vsock: fix incorrect used length reported to the guest
-76af415518445cf18708829e1717bac149a5726e tracing: Check pid filtering when creating events
-644be749f7c9ea9364761213a797c04c940c48bb s390/mm: validate VMA in PGSTE manipulation functions
-9f0e87970c9ffbde0c67f3c6336fc7c212deff03 PCI: aardvark: Fix I/O space page leak
-5ed286fb482228b73f86a7d795714b999dc8fc22 PCI: aardvark: Fix a leaked reference by adding missing of_node_put()
-ea1e8bd7364dcca6977ea4e8d9a389bd08ffd681 PCI: aardvark: Wait for endpoint to be ready before training link
-898d42549a508aaf23a114bca09854733701bc05 PCI: aardvark: Train link immediately after enabling training
-a91286223cac03d8175d47e856f46295a8e2b6dd PCI: aardvark: Improve link training
-d15537fdb69221f29ee43ca0c563eb90c473d3b6 PCI: aardvark: Issue PERST via GPIO
-ce78b7f1afb01191e2ddb3fbc44512c56749c9ca PCI: aardvark: Replace custom macros by standard linux/pci_regs.h macros
-11cdc956384de753ed9b9eb683d58018bdd74a1a PCI: aardvark: Indicate error in 'val' when config read fails
-dd42bf46f6264e79b29a3157974b7f87372fdc2c PCI: aardvark: Introduce an advk_pcie_valid_device() helper
-a1f6a8426020d9ff6082cd7480e7e28f5bfbed09 PCI: aardvark: Don't touch PCIe registers if no card connected
-991f0c3a9ea4331118069de5fc59cb09cae3cd46 PCI: aardvark: Fix compilation on s390
-52f3d101acedb97c4c8a81a55890e754c89a2412 PCI: aardvark: Move PCIe reset card code to advk_pcie_train_link()
-6bff5dda6a0a57133b132634d18dfaac5f925a15 PCI: aardvark: Update comment about disabling link training
-a16dc9a7015c7179c2c76a28fcc0fc90d3beb490 PCI: aardvark: Remove PCIe outbound window configuration
-caba3af544bb3c2ac2fc0e2d03388ea5da5dda5e PCI: aardvark: Configure PCIe resources from 'ranges' DT property
-1fc2771429bb6dbc3354b7950fe937f8d4f42311 PCI: aardvark: Fix PCIe Max Payload Size setting
-bbcdb191eda8fd60c6bf972f44be46fc46566105 PCI: Add PCI_EXP_LNKCTL2_TLS* macros
-4d808c936145449771385bb1960e8aa90e8ee5fd PCI: aardvark: Fix link training
-583e99d09b9441037eedd496b2593f6e5089d7a1 PCI: aardvark: Fix checking for link up via LTSSM state
-7bbfd3d565f9101b4e69869d6ad3ee7823e75059 pinctrl: armada-37xx: Correct mpp definitions
-c70704c4cd49594c9d43c7fc84f92c514ca3c077 pinctrl: armada-37xx: add missing pin: PCIe1 Wakeup
-a6f384606ce52e4e220d26dcb6c2c1b4e1a95edb pinctrl: armada-37xx: Correct PWM pins definitions
-1523def765b297ebeeb44b69c21040faa972c5a8 arm64: dts: marvell: armada-37xx: declare PCIe reset pin
-1fe4abcf9920dfac4a1da5ee36ebd6dbdd191e4c arm64: dts: marvell: armada-37xx: Set pcie_reset_pin to gpio function
-338d498e7401caafc728289d46120646c410b059 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
-b50c5975ed13c88ead29e110963ec848c36f46ce proc/vmcore: fix clearing user buffer by properly using clear_user()
-8300268edab504b5b62f709d58a64f81274b18b4 NFC: add NCI_UNREG flag to eliminate the race
-6eda44fdb2bd0c2a26c358542e8ea9a31784be49 fuse: release pipe buf after last use
-847867339da47b97af285bb71d1fb27bcedc3795 xen: sync include/xen/interface/io/ring.h with Xen's newest version
-e3a0ba4c77db521b698c1807dbfc84283a2d2c35 xen/blkfront: read response from backend only once
-3e0dfff297f5be88c8c4b3c6b83cad99ad4a7f74 xen/blkfront: don't take local copy of a request from the ring page
-1e465e48bfb8b34d13b80318893d41c22b83a87f xen/blkfront: don't trust the backend response data blindly
-6e7635ee107c3854dea9a30d107aa72a9b376599 xen/netfront: read response from backend only once
-107baa35d2ce98d05d84dd6096b6cc727fffb3b1 xen/netfront: don't read data from request on the ring page
-6ce7d964d19dfe5b7f349db230504f26bfca07a8 xen/netfront: disentangle tx_skb_freelist
-44fd02c72a4bebc74fb77a16f4de722f2805b5b4 xen/netfront: don't trust the backend response data blindly
-b3edfd996f5cbf970e26d2717d8fd8c398b3e5eb tty: hvc: replace BUG_ON() with negative return value
-e05f4821b44d402d0eb422baf7a19ee6738fcb53 shm: extend forced shm destroy to support objects from several IPC nses
-efb5646764692c10db4d202c36a8daa9a311d1a7 ipc: WARN if trying to remove ipc object which is absent
-af12bf1bfde7ff3d62e9a0e1e469f8844b5eac4a NFSv42: Fix pagecache invalidation after COPY/CLONE
+36da23e34f2dc932c1330f804c127e4bc6f97b86 USB: serial: option: add Telit LE910S1 0x9200 composition
+ab5d4cea42e97efa510fb3a6ccf9b2b461ec1b59 USB: serial: option: add Fibocom FM101-GL variants
+b75e58fd3e2d635fe69a991ad59639516d57cf07 usb: hub: Fix usb enumeration issue due to address0 race
+869422a0eda3be74e490cb0cb7426b083aa0bcb8 usb: hub: Fix locking issues with address0_mutex
+6763d1a6e496219f54899c64f741a346c9a75435 binder: fix test regression due to sender_euid change
+84a60f0ea1b63e2f210cfa7062eddfd60b9f5c80 ALSA: ctxfi: Fix out-of-range access
+6aecce6f24e58ed0181e3d9c3e2c7c8b817a366f media: cec: copy sequence field for the reply
+bc165e8056c8d3d817cbe9404aafc15f2197ea64 HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+1be4657d9648f6dd4450c004433e436003a68d4b staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+ab90c1651fc8868a2e6b9f60fc534280c6b8e9b1 fuse: fix page stealing
+f58225c33bd507fea3d1328c17f3c29b00fdbaa6 xen: don't continue xenstore initialization in case of errors
+4937540b6b99ab8d63268f2f39b9946c256acc2f xen: detect uninitialized xenbus in xenbus_init
+c1c0e0d7727c800c20129d0398047e5c42085d09 tracing: Fix pid filtering when triggers are attached
+216c96e06427ef43b6b7abae439a835cab4d1c0f netfilter: ipvs: Fix reuse connection if RS weight is 0
+471cdcb298fd9fff86be1ed7952680cecf78eb42 ARM: dts: BCM5301X: Fix I2C controller interrupt
+dc198a73a7cf6ce440d0dccaff401f2928a2cee2 ARM: dts: BCM5301X: Add interrupt properties to GPIO node
+55b3d83287a74f64c0bc98251a149b1aa92c36fb ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
+f5b69c0520592239fcaad86ab8cab9778ca4821c net: ieee802154: handle iftypes as u32
+c65089c46e76efe0e8be9b0fc614d714d1b25661 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
+5ff79cd004b9040b675bf11db18c8ceed8c557a5 ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
+b0e28cb885a5c8aad44461fcf3f47af0b97d3834 scsi: mpt3sas: Fix kernel panic during drive powercycle test
+a3c828ac56d9fa2a1b8c2250781a286e92cf1a92 drm/vc4: fix error code in vc4_create_object()
+d259af08056aa0859c1b865d87119516ff6a6542 ipv6: fix typos in __ip6_finish_output()
+f63b434b27dbe9502f62692759ba236529b0fb73 net/smc: Ensure the active closing peer first closes clcsock
+af9f27126a24aa2c5d2a282fecf54d780c8249b3 PM: hibernate: use correct mode for swsusp_close()
+98288fd7dca5b6adcabda2e972881118fd1289af tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+8f000f557b0b47b40ec83d78bd6a28ac7b06e897 MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
+cb4808aea747978c068844cf642eb5c0c4052d27 net/smc: Don't call clcsock shutdown twice when smc shutdown
+a20b32ba2bae501cfc2ae583c37a7c10389dcd3a vhost/vsock: fix incorrect used length reported to the guest
+1ccb0501eb47ad8d5a95d130a68bcb09c5676001 tracing: Check pid filtering when creating events
+c31594ceadb3b1d96183853d3d311278618fc3dd s390/mm: validate VMA in PGSTE manipulation functions
+b2ebe4c96d96f676b2ae4c965a1a56c4cd0c6635 PCI: aardvark: Fix I/O space page leak
+c21f3d2d2b3b3c8d9ef985d098370bc7a332207a PCI: aardvark: Fix a leaked reference by adding missing of_node_put()
+2196b7c96c919ec7fdb1761042ec78f668193b7f PCI: aardvark: Wait for endpoint to be ready before training link
+9243590a2b1bbb9c62c46b494a7b8c0c67e121df PCI: aardvark: Train link immediately after enabling training
+99a3bd798b50c7c8aa3a07c7fcaa2cf617e9621b PCI: aardvark: Improve link training
+52cc2a380f4ebf5afdcacacfbb999f0324e507da PCI: aardvark: Issue PERST via GPIO
+f79924098281e2c9aafb5a2b9d637e8db660520b PCI: aardvark: Replace custom macros by standard linux/pci_regs.h macros
+6b869416ab06d3d556efe8ff69b49168632522ab PCI: aardvark: Indicate error in 'val' when config read fails
+7e782fb114cb2150c27c862e8db7a3cb357eac66 PCI: aardvark: Introduce an advk_pcie_valid_device() helper
+53c713d0f30ce328a417e25d8405704dc2f73056 PCI: aardvark: Don't touch PCIe registers if no card connected
+e98ebb792fd56edc7ad0ab0d5c914425f8a68697 PCI: aardvark: Fix compilation on s390
+f9fc7dd2265c076b0d340f406d848e1e05485ed7 PCI: aardvark: Move PCIe reset card code to advk_pcie_train_link()
+4f621bc462bbd848b7d3ff5efe1468d115fcfbd1 PCI: aardvark: Update comment about disabling link training
+e7051f19063d894825e7839f9e5efe0d47602e12 PCI: aardvark: Remove PCIe outbound window configuration
+9acebe248d1354a942a309922d92383e9b19f677 PCI: aardvark: Configure PCIe resources from 'ranges' DT property
+7b85f3ed9c6118236eb5e9cb2e8b34f65cb8921d PCI: aardvark: Fix PCIe Max Payload Size setting
+1851220feed2ad81b4e0c21104802a85daaa370e PCI: Add PCI_EXP_LNKCTL2_TLS* macros
+f15076271add8f6e6e50f2415383566b15d60dcc PCI: aardvark: Fix link training
+c18db8b80c107c7a7edd26d65dca471ddc4eb1e7 PCI: aardvark: Fix checking for link up via LTSSM state
+b84231360d1bb50578acdebdd05bd3a7d6a0b74a pinctrl: armada-37xx: Correct mpp definitions
+a9e869a8d3f25d001bba40fcf8a1180cc5045901 pinctrl: armada-37xx: add missing pin: PCIe1 Wakeup
+0c47e2a1b18f08ef9b98ed75f0d4a51f4e3ccd16 pinctrl: armada-37xx: Correct PWM pins definitions
+88bad6378f19c675511d01ba112e89423be51585 arm64: dts: marvell: armada-37xx: declare PCIe reset pin
+257959b4777d113126c24c92e145435ce3bcb9dd arm64: dts: marvell: armada-37xx: Set pcie_reset_pin to gpio function
+47571bb3b98d0c546d3781dc97d51a8fbbb8def6 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
+364b2533af27bc9f314d50ea20b90ae1140129c7 proc/vmcore: fix clearing user buffer by properly using clear_user()
+b0dbc7a973828376f06e1d718e9a9de955cfa9fa NFC: add NCI_UNREG flag to eliminate the race
+7b06068afaf52bf1712c2aaf2a1adb1843db41d7 fuse: release pipe buf after last use
+2dbf1e3cee90b0aa08c867f58e9004a1967a5eb3 xen: sync include/xen/interface/io/ring.h with Xen's newest version
+2f848d7a3d14a3ef75bda99cb1c2f2983e8bfc3d xen/blkfront: read response from backend only once
+37c91a70ac0f12af040d2bfe7edadd7aa1852ffd xen/blkfront: don't take local copy of a request from the ring page
+fec66334cfdea741aaff48905f0f6db45c571d61 xen/blkfront: don't trust the backend response data blindly
+fd323a221b44d6a67c7ac73f9df5c401e54d014d xen/netfront: read response from backend only once
+153c535f583f0dffa5695a9cd14a57135f268194 xen/netfront: don't read data from request on the ring page
+1da8b67135a82545baa90391bff45b665658a6aa xen/netfront: disentangle tx_skb_freelist
+d56dbf56206836dec413226eb57d43b7bb6365f7 xen/netfront: don't trust the backend response data blindly
+37161afb48fe66f347c2586621029657b6e387d7 tty: hvc: replace BUG_ON() with negative return value
+095c40b9d5d1884c483e825cedbff28b4062f80b shm: extend forced shm destroy to support objects from several IPC nses
+c35355760e57c118e6f7e48fa732875464d85363 ipc: WARN if trying to remove ipc object which is absent
+127727bac26be0d86bc7ec9cf4edb10e49ef4c00 NFSv42: Fix pagecache invalidation after COPY/CLONE
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b80daf77d2d-7b732b976a5e.txt
+Content-Disposition: attachment; filename=revlist-7b732b976a5e-fe2c5280cbbe.txt
 
-6641c7a66ea79606a3cafa9811f4815afacc2535 staging: ion: Prevent incorrect reference counting behavour
-e62fd48c08c99a097a30feb00ab3e16f9ee8b7b9 USB: serial: option: add Telit LE910S1 0x9200 composition
-fb8b9a9347455e9dfc43b7d04fbc651f3297dfce USB: serial: option: add Fibocom FM101-GL variants
-74071c8893a353a7ff9ac551dc1a1fbd1c7410cc usb: hub: Fix usb enumeration issue due to address0 race
-c220b4bc7d85aa9bb76771187d2d5698ca27f963 usb: hub: Fix locking issues with address0_mutex
-8115f1836903640c5ab3e5e42cf60bb7462e77dd binder: fix test regression due to sender_euid change
-4bf73a1fed4d7aae6451e99dc0bb1fc6c49cf213 ALSA: ctxfi: Fix out-of-range access
-344c1d8a06f1576bb19c85005a4b5357e51e86c4 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-bd6bf4155a778be50715513224b6acf0ebbcf0b2 xen: don't continue xenstore initialization in case of errors
-27350e0bdf4f33206e3cbdc41a8bfcddb91304dc xen: detect uninitialized xenbus in xenbus_init
-b3d197ccd79e99d6952f522a8a74a4ac591b94ce ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-1375236dd3d6f8c19eab45b5cad9d75158305d69 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-0f2767b4f25c52c6a9620c5bcfcfbf07c1f4fbce net: ieee802154: handle iftypes as u32
-c67a4cda015f2ab17a91bd61e416b3904f900d98 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-4702f905846d09babdd052badb047f9ae80a262d ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-c28e4277986243287cf6794edaf1d5a64f22cd3d scsi: mpt3sas: Fix kernel panic during drive powercycle test
-690f80bf86816f3fe011cfe32b7f6da55dedf151 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-b90da4a8444c72ad86d7beea8b04b864ecd3204a tracing: Check pid filtering when creating events
-49d8ad95e869c85de6b17c87d48c8f2047f68670 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
-33ba55ebf120543ee52130143af03d9c2a21d3a8 proc/vmcore: fix clearing user buffer by properly using clear_user()
-763a896dce04ba527604048d53091ac4179beed0 NFC: add NCI_UNREG flag to eliminate the race
-bb14df8a4cddd1408ec042b3da8ded59510f17a1 fuse: fix page stealing
-e84c9c130a871e97d5aa7ef0ba6526fe1255723d fuse: release pipe buf after last use
-4815182bf3323feff6cc4cf3912e2e69010337dd shm: extend forced shm destroy to support objects from several IPC nses
-ed4d5c98526ed91c9e816ca38e18d68f9dc87d0d xen: sync include/xen/interface/io/ring.h with Xen's newest version
-60552aca385a88ab74c3f49519a6c0f6cbd1266a xen/blkfront: read response from backend only once
-a45b71b13a114a9394d3c19c09fb57edb8761d20 xen/blkfront: don't take local copy of a request from the ring page
-42bbb201747cd449181d412379e32fc5504b7a1a xen/blkfront: don't trust the backend response data blindly
-a00128f58de02b368b94b774a21e0c9a91591a23 xen/netfront: read response from backend only once
-2ddec3a19ad921260b516375aaafb4c3071e5f7a xen/netfront: don't read data from request on the ring page
-cb87661a49f666b155fc2c717d1098e90c626e33 xen/netfront: disentangle tx_skb_freelist
-a9a99549ad2049251e68d93826f44a41b6490427 xen/netfront: don't trust the backend response data blindly
-7b732b976a5e31d9a452ae567d897cdc710065fb tty: hvc: replace BUG_ON() with negative return value
+fb2d3b49116a446bc7cbfe88aaebc077a31eac68 staging: ion: Prevent incorrect reference counting behavour
+f111459e0e3ee49567365c3dfb8bb857292ec207 USB: serial: option: add Telit LE910S1 0x9200 composition
+2bb537d0b5ddd415387c822cde6f6ee0219af907 USB: serial: option: add Fibocom FM101-GL variants
+581979598b836eb42670231305738f301211cb91 usb: hub: Fix usb enumeration issue due to address0 race
+d2923b16c7989d7389ef680a14fdc290df15660e usb: hub: Fix locking issues with address0_mutex
+3aff650421ef3c48fb90610463d38d279b25fb20 binder: fix test regression due to sender_euid change
+a52c37774c62c3a7d05c66343d6d9b2a011008f9 ALSA: ctxfi: Fix out-of-range access
+2f94caeaa6abfa6930197d5608d3efd55e09a7f9 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+c895c453d34575292ebe51dfe4090e42289cb759 xen: don't continue xenstore initialization in case of errors
+7bbb2ef78a0af701e91635c1c6f4ca2ed394f987 xen: detect uninitialized xenbus in xenbus_init
+c92ccccde4fe8202cde6c4af616c9394513d2d6a ARM: dts: BCM5301X: Add interrupt properties to GPIO node
+e0073897be68fb6a020026437e193c9fb44a7951 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
+060a9460401d7af15f0f2ee684301a13e0716b19 net: ieee802154: handle iftypes as u32
+178a078f9a80899d3fc382a22d433148833082eb NFSv42: Don't fail clone() unless the OP_CLONE operation failed
+6b1ad3e9549815a2f11ff369d26464479ec48e58 ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
+4f0aff50e2322e2cc7fa37e77b133a3312b03037 scsi: mpt3sas: Fix kernel panic during drive powercycle test
+85e43be21cc102186616e95bea8e0b6aa3289d6f tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+d5bd429fd7e0bdbb49d047800b8e880bc61e65f1 tracing: Check pid filtering when creating events
+8c189a831864f6280fc0d0add5766f26f77038b2 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
+b0a5e82f88b8dbb0b32d9297c97705e6f51d099c proc/vmcore: fix clearing user buffer by properly using clear_user()
+8dff9297c77ba909188826086b79068d4782c425 NFC: add NCI_UNREG flag to eliminate the race
+3f458d3f884ad56690232c9cef7f9e7777d2af0a fuse: fix page stealing
+07ce804248e46299eea8df72472cf596fedc4b6a fuse: release pipe buf after last use
+63bae2de8e6dcd47bdc6c69043e2e15182187f0c shm: extend forced shm destroy to support objects from several IPC nses
+54d85ad82f0011da2fc31b90085f9a49d81d3789 xen: sync include/xen/interface/io/ring.h with Xen's newest version
+e9946c942468decf036756a576e8da2d7318a7c4 xen/blkfront: read response from backend only once
+ef428c02750bd9be63c2309e91f8b55728010659 xen/blkfront: don't take local copy of a request from the ring page
+9981ef3413c49df0c6fa8fd872f7140b97b0c77a xen/blkfront: don't trust the backend response data blindly
+f8e6b45ca156b74dfa1c828c065e35ab3c8a76a5 xen/netfront: read response from backend only once
+2b02a1c8a8916a22426e904231b49a75d92e09cf xen/netfront: don't read data from request on the ring page
+cee08b8ba8f9ff05a7b074167e1868699031c19b xen/netfront: disentangle tx_skb_freelist
+2a2eb964e59e9d9246425e0380f81ccdda1c3b65 xen/netfront: don't trust the backend response data blindly
+fe2c5280cbbe0cd59786425c753c43a89f2ed47f tty: hvc: replace BUG_ON() with negative return value
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e97274ad405a-17eea106c89b.txt
+Content-Disposition: attachment; filename=revlist-17eea106c89b-d3b69581b560.txt
 
-aa167c9ec1895c44bf32f8410b2aec150b4ea5d9 staging: ion: Prevent incorrect reference counting behavour
-d456ae9fbd2c4642e6816fe238682db9bac95617 USB: serial: option: add Telit LE910S1 0x9200 composition
-96d5128a9e9970dea3f5ac60e56477d1dbdb7b5d USB: serial: option: add Fibocom FM101-GL variants
-49365485da7907f8cdf30beadf6f405ed8e32724 usb: hub: Fix usb enumeration issue due to address0 race
-71a4d7a03804896dbe7a0d11de7b12fff22d181b usb: hub: Fix locking issues with address0_mutex
-396c7f45801b26160d88101b1a33dba8fe9917e0 binder: fix test regression due to sender_euid change
-3ae35ad70d5772224fa78cc35e87e84c26c37c9b ALSA: ctxfi: Fix out-of-range access
-e354cc5ff070fc38ccf3ec474b2ce935279f231a staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-0abc2cc3c1e339151c1c00f7150ab3dc78a6a623 fuse: fix page stealing
-e2d3a20a0d4fe83bc536bf85959db48e8780ae88 xen: don't continue xenstore initialization in case of errors
-6d7792398a07ff4c339a38ab9b4a8799a53753fc xen: detect uninitialized xenbus in xenbus_init
-cb53280380999b21ccf6abcbdd2e5ed3fc1e681b tracing: Fix pid filtering when triggers are attached
-5a1dd06d785729d5c1f910bbe8f60b1d182215ce ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-cc6853ba22da67a99cfec88097cf91de736c3e62 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-745177bd799b1b731181c9f8c04d06d7e1456ea8 net: ieee802154: handle iftypes as u32
-9612a2c6ac00e81478a6f98d54a27ce125e53c0c NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-307399eb08527e549c6d9ca540a4f99eca2e9fe4 ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-97267d5c13b4f6e574228b8187d9035c3dd836f2 scsi: mpt3sas: Fix kernel panic during drive powercycle test
-73477c0c66273169a4ad94e7d318f594b0e2d3ff drm/vc4: fix error code in vc4_create_object()
-c8b4e31fe70e0ff926e4879ebc8a17223a3f8272 PM: hibernate: use correct mode for swsusp_close()
-87464c5dc5815bf3f65662a026a35418d1405278 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-a49266d60c80c28d49f91c87f3748b418ce2ef49 tracing: Check pid filtering when creating events
-6046be69b9fdc5997baf2156eff5412e5c78c77c hugetlbfs: flush TLBs correctly after huge_pmd_unshare
-0377ede16d0255dc1ae69aa44f075cce1c4ef500 vhost/vsock: fix incorrect used length reported to the guest
-ee07b76f2e3ac84fc492ffc6c2ebf041a179420d proc/vmcore: fix clearing user buffer by properly using clear_user()
-d82b72d970ea74ea4c32f5bb74ff53979d8c8bf3 NFC: add NCI_UNREG flag to eliminate the race
-ee97ee6a6a4039904234e9cd5a4793c6616b0419 fuse: release pipe buf after last use
-6a6f33fd106be1d164b342c6e6c3d34f1889f490 xen: sync include/xen/interface/io/ring.h with Xen's newest version
-248895cf4f18e1d4d4388e30d6386fa36e11d026 xen/blkfront: read response from backend only once
-81e1e2a75da95875f9a5653c0c1842e6408aecc6 xen/blkfront: don't take local copy of a request from the ring page
-405219cf35cbd03db25ec0c26083540cf2727186 xen/blkfront: don't trust the backend response data blindly
-47b25619afc4f08d84369c9a3321448481545b15 xen/netfront: read response from backend only once
-7b073bf2c7031027a1e163ddac5a461fc01e77ad xen/netfront: don't read data from request on the ring page
-168736edba7e14b5e3079ba56fc38e9f484dbf38 xen/netfront: disentangle tx_skb_freelist
-faeee98286ceb49ce8c4689a624ce7d60d7d7e82 xen/netfront: don't trust the backend response data blindly
-059c7bb92f88632a1ca88d4cc89396e822c14e45 tty: hvc: replace BUG_ON() with negative return value
-91bbd3ae4ef28726bbad340745003f4d218b3cf6 shm: extend forced shm destroy to support objects from several IPC nses
-17eea106c89b05a31ebbf2828005c8994f23df51 NFSv42: Fix pagecache invalidation after COPY/CLONE
+c7a87c3c5068f30777460eda69442cb0f6dbb916 staging: ion: Prevent incorrect reference counting behavour
+29c902bb9447ff0c636f085e0a8348d2d1f28bd9 USB: serial: option: add Telit LE910S1 0x9200 composition
+38d941ebcd08c9124a8d437838be0e2cae22434f USB: serial: option: add Fibocom FM101-GL variants
+40255ddf6905f276cda998146def30d04e618ac8 usb: hub: Fix usb enumeration issue due to address0 race
+8f15181496dffaf96b3cae59adcd30e64ffc9650 usb: hub: Fix locking issues with address0_mutex
+d6f7b6ef4230b764832513174eba4ddb83418c89 binder: fix test regression due to sender_euid change
+068d87a13b7fd0854fdeab2c4160aa51e56e3aec ALSA: ctxfi: Fix out-of-range access
+5f7baa3a4f82772283f3341b283ab4fffa3bc9a8 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+b97daf54e9c488585f6c4a8d4e15a8abdebbaca9 fuse: fix page stealing
+2043e838ad410e3a7637b0ec15e38c2193a8f3eb xen: don't continue xenstore initialization in case of errors
+a9397127e93c1f76f4042239aa5fc280fc4a4aad xen: detect uninitialized xenbus in xenbus_init
+b4880ff756db611ef40698968d23c9ed0646aa34 tracing: Fix pid filtering when triggers are attached
+984c56d2200e97ffe304fec6865893b1d7d1e955 ARM: dts: BCM5301X: Add interrupt properties to GPIO node
+6104ddddc2a0691e42bffcbf01049a66b4cbbbda ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
+405d2ad406e7a7f94cf565eefba3c74e888f438a net: ieee802154: handle iftypes as u32
+fe6d6308f9cc2763956a0c72e7c61c6f08706036 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
+a4761537d14a8bc0f654f144607cd4f1b6f8691c ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
+530cb823fdfbadef01febf78973fad748dda596c scsi: mpt3sas: Fix kernel panic during drive powercycle test
+4762c27ed9c3b1b705c5ce5b8bcc406d76ec64fb drm/vc4: fix error code in vc4_create_object()
+0695e308018339498fea266d2157a7d7e1ab88eb PM: hibernate: use correct mode for swsusp_close()
+7fc65594b4a13c941405f3deb48e728616975300 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+ce9f2f6ebfd25bebfe781157895e41ca582fd388 tracing: Check pid filtering when creating events
+02dfbd8a81cbc5f45977a82cd7cf195ec9455393 hugetlbfs: flush TLBs correctly after huge_pmd_unshare
+179f9a0d6fbb4190c2e41d509a7aac35c5589754 vhost/vsock: fix incorrect used length reported to the guest
+2a07bfe46b1bf9bd294f50601dc0f0cbebeff770 proc/vmcore: fix clearing user buffer by properly using clear_user()
+eac8a865e3b12e61fd15d8507100e6d9a1095f88 NFC: add NCI_UNREG flag to eliminate the race
+585148b2f4532aac4c9c5eb79cac91eb624bf11a fuse: release pipe buf after last use
+611a3b4ac48bc4e2302037fe179804c21c24e0fe xen: sync include/xen/interface/io/ring.h with Xen's newest version
+1ede73830f575e035ac454e1153c03cf273a6d50 xen/blkfront: read response from backend only once
+acd39bb55ce7ebef4a7401c6bab399a03593b100 xen/blkfront: don't take local copy of a request from the ring page
+3d63b29e1646b20a1ac9f5c0fd14e6fc5c584f0f xen/blkfront: don't trust the backend response data blindly
+e7f636ce880b525f7227d8e2f179246e69931dec xen/netfront: read response from backend only once
+228830865851dcd1fb1b56556c6a89173f7419de xen/netfront: don't read data from request on the ring page
+bda883c2f67ca0ecee35bf61014d9771ce95d7ae xen/netfront: disentangle tx_skb_freelist
+aaa4de9e5ec8adc391765d6d502dd50d4d4dffdd xen/netfront: don't trust the backend response data blindly
+d4a66b2fdc9f326ffb9eb327cb4fbcbb68f6403b tty: hvc: replace BUG_ON() with negative return value
+d534a75548dee7193645e3230db51216f3df5ef2 shm: extend forced shm destroy to support objects from several IPC nses
+d3b69581b56040c2fc2a61371986ccefcaa9162b NFSv42: Fix pagecache invalidation after COPY/CLONE
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70ccd355f8b1-2ecdf50008f3.txt
+Content-Disposition: attachment; filename=revlist-540b56d0f9ec-be94beeac248.txt
 
-3d15ab100a88802bdef87fc8c0846347bafc1133 ALSA: usb-audio: Restrict rates for the shared clocks
-7226648b67319b11569391c9772e4b3f9a87c4e9 ALSA: usb-audio: Rename early_playback_start flag with lowlatency_playback
-94830e4fa9a8c4071f76b9276f7e2deafd3681a2 ALSA: usb-audio: Disable low-latency playback for free-wheel mode
-1356f1539d8971ab6e7e263894f8ff16292170e1 ALSA: usb-audio: Disable low-latency mode for implicit feedback sync
-c6b5b77270b799b038c162d4e06745b963ced6ba ALSA: usb-audio: Check available frames for the next packet size
-581d45605581733d1bbed998c8ad2c179f7625bc ALSA: usb-audio: Add spinlock to stop_urbs()
-9256ebe6095b44840bbea38d7c4dea1fba3c790e ALSA: usb-audio: Improved lowlatency playback support
-1fa8313ddf6e16bf4f30c04fb6e6229a8642ce8b ALSA: usb-audio: Avoid killing in-flight URBs during draining
-f8b2da6b78bd6559bec94fec652d1090336790d5 ALSA: usb-audio: Fix packet size calculation regression
-2924ac4964c9c34eb7a8f52780c1e096ff2c2b01 ALSA: usb-audio: Less restriction for low-latency playback mode
-ef404f5fa8fb4c1f2b38f196782b62788257c672 ALSA: usb-audio: Switch back to non-latency mode at a later point
-2ecdf50008f3c2efd47a04e8d34cbfe0c5b086c7 ALSA: usb-audio: Don't start stream for capture at prepare
+33fe044f6a9e8977686a6a09f0bf33e5cc75257e bpf: Fix toctou on read-only map's constant scalar tracking
+854c14b2a15c84eb04d17d4904f843ce0693bfe8 ACPI: Get acpi_device's parent from the parent field
+ff721286369e7a038b34ed09ac31af6817dd510a USB: serial: option: add Telit LE910S1 0x9200 composition
+16f1cac8f702a7755630186c7314d49fb89b0319 USB: serial: option: add Fibocom FM101-GL variants
+4b18ccad9671cc1b645646f8d52cf213ac68a975 usb: dwc2: gadget: Fix ISOC flow for elapsed frames
+2b7ab82f51736a8550a3b4248054ca8042c57869 usb: dwc2: hcd_queue: Fix use of floating point literal
+3abf746e800b56077fabb3f128afa5929ea94eb9 usb: dwc3: gadget: Ignore NoStream after End Transfer
+140e2df472ba0014692c6202e6b44cc5e5161f79 usb: dwc3: gadget: Check for L1/L2/U3 for Start Transfer
+0755f3f32277b0860b10a09fcd28b66361b7fd4d usb: dwc3: gadget: Fix null pointer exception
+b70ff391deeec35cdd8a05f5f63f5fe28bc4f225 net: nexthop: fix null pointer dereference when IPv6 is not enabled
+56fbab4937e04c8d51a592dc78c2e17658af7f22 usb: chipidea: ci_hdrc_imx: fix potential error pointer dereference in probe
+00f1038c72f86d01e2c685b5d20b9e22eab72ecb usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
+5bf3a0c7789e6fb4b1d9733a8cb62f407abf3c25 usb: hub: Fix usb enumeration issue due to address0 race
+aea184ae6408c1783f74483bb47184e2b249e84d usb: hub: Fix locking issues with address0_mutex
+4402cf0402526f7c5befa97481be13b131797838 binder: fix test regression due to sender_euid change
+172167bc8dac6aced27959a6912b18c4aef0cc7b ALSA: ctxfi: Fix out-of-range access
+60274e248e3d87d1a701b5fdc6856f6e6fb27a2b ALSA: hda/realtek: Add quirk for ASRock NUC Box 1100
+3798218a1af4ffb9ff10a3d86fa307dcf9dfb309 ALSA: hda/realtek: Fix LED on HP ProBook 435 G7
+3a4aeb37a7a61740aa50d763697ebb88280cc37b media: cec: copy sequence field for the reply
+6ca32e2e776e6bd55a1d64b3bb32963832639193 Revert "parisc: Fix backtrace to always include init funtion names"
+8fc5e3c7caccaf932dedee7fef8885a9673c65cd HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
+146283f16b7e857d688b72f42e46d9567bef6e96 staging/fbtft: Fix backlight
+0bfed81b2ccd31f8c0ffdf582f27e2fd3a5e8066 staging: greybus: Add missing rwsem around snd_ctl_remove() calls
+8d0163cec7de995f9eb9c3128c83fb84f0cb1c64 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
+8f4d0719f323e84f2ad9ce6b0fc62752abf2bbd4 fuse: release pipe buf after last use
+e1d492c2751954202207d432ca7ac99b7973773c xen: don't continue xenstore initialization in case of errors
+bfed9c2f2f2ed36b06ad9a9bedc9c47c0d92f10e xen: detect uninitialized xenbus in xenbus_init
+b777c866aafc8fec2f79bf45dde7af044ad3c5ff KVM: PPC: Book3S HV: Prevent POWER7/8 TLB flush flushing SLB
+68fa6bf7f1798edd07fbfc9865a7e9b92dfbef4c tracing/uprobe: Fix uprobe_perf_open probes iteration
+092a58f0d9ef5013ad3c197a9a5ecf2d7f797a88 tracing: Fix pid filtering when triggers are attached
+63195705b334fc8bf4b17f0b8ef655c81c9e21ec mmc: sdhci-esdhc-imx: disable CMDQ support
+14c3ce30ddbd70a0b025202249dd8d83c6072592 mmc: sdhci: Fix ADMA for PAGE_SIZE >= 64KiB
+bf00edd9e6c9d6f19bb3f7501de97e94e9a74b32 mdio: aspeed: Fix "Link is Down" issue
+dfe906da9a1abebdebe8b15bb3e66a2578f6c4c7 powerpc/32: Fix hardlockup on vmap stack overflow
+2b7bc1c4b2c835cd13a6173f448156b669f1c163 PCI: aardvark: Deduplicate code in advk_pcie_rd_conf()
+e7f2e2c758ea55df94356d5f0341874ab9179110 PCI: aardvark: Update comment about disabling link training
+df5748098878c5ca34798b39dbca09c6161eeb63 PCI: aardvark: Implement re-issuing config requests on CRS response
+aec0751f61f5097565820a0f0a546ae1a07f133e PCI: aardvark: Simplify initialization of rootcap on virtual bridge
+1f520a0d78fc0f5e847dd08cf8beccf16734191b PCI: aardvark: Fix link training
+a8a917058faf4abaec9fb614bb6d5f8fe3529ec6 proc/vmcore: fix clearing user buffer by properly using clear_user()
+a3d829e5f37590b768e2a0bef2f17ee1833ef2e9 netfilter: ctnetlink: fix filtering with CTA_TUPLE_REPLY
+994065f6efdcc6edcb5270b2aa0d72746f88705e netfilter: ctnetlink: do not erase error code with EINVAL
+d689176e0e18adf43e57d85b04e41769b4fee3f4 netfilter: ipvs: Fix reuse connection if RS weight is 0
+b7ef25e8c27183bb24975a0f35fa2c3a0dd5fe81 netfilter: flowtable: fix IPv6 tunnel addr match
+b2cd6fdcbe0a5cb44e4610a08cc58261d494a885 ARM: dts: BCM5301X: Fix I2C controller interrupt
+9db1d4a3c2700e1cc84c3d61199411d75c2a3ec6 ARM: dts: BCM5301X: Add interrupt properties to GPIO node
+2be17eca48aeb86584336308a6823caf5b982b29 ARM: dts: bcm2711: Fix PCIe interrupts
+9196a6858150a309f52c231515a6769dcd43a949 ASoC: qdsp6: q6routing: Conditionally reset FrontEnd Mixer
+4a4f900e0415bfc0d97755882d9bf2ad94421cf8 ASoC: qdsp6: q6asm: fix q6asm_dai_prepare error handling
+3a25def06de8061ade6006e4295fa83c14cee8e8 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
+2925aadd1f324e224e3a5cd4328121286981cc38 ASoC: codecs: wcd934x: return error code correctly from hw_params
+8730a679c3cbfb65f1e65562473dec612a826407 net: ieee802154: handle iftypes as u32
+c9ba7864d3a2bfaabd9dca31b0ea8e914d3333d5 firmware: arm_scmi: pm: Propagate return value to caller
+86c5adc7808384a504618d912fd4e956cac62cd7 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
+0effb7f51b65840bb129f52ddc765105c48c87ba ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
+29ecb4c0f0d70a5472f6d3b41968caa8063469cd drm/nouveau/acr: fix a couple NULL vs IS_ERR() checks
+2bf9c5a5039c8f4b037236aed505e6a25c1d5f7b scsi: mpt3sas: Fix kernel panic during drive powercycle test
+b33c5c828144bb6794be72689ed8abd9f69a2e35 drm/vc4: fix error code in vc4_create_object()
+5dca8eff4627315df98feec09fff9dfe3356325e net: marvell: prestera: fix double free issue on err path
+f5af2def7e05cbf739701f2c240b3267a03d76c0 iavf: Prevent changing static ITR values if adaptive moderation is on
+061542815af1a217486d715aaae35726f8c8af5b ALSA: intel-dsp-config: add quirk for JSL devices based on ES8336 codec
+bbd1683e795cec80acc2e5107c3d29b9c3f49297 mptcp: fix delack timer
+6d9e8dabd46faa2fdf5cc3c78b493a63de994340 firmware: smccc: Fix check for ARCH_SOC_ID not implemented
+9b44cb67d387f08a99aee702c4cd54e587c6ba91 ipv6: fix typos in __ip6_finish_output()
+cc301ad3120719b850d2adfa8bd0bdae08894c09 nfp: checking parameter process for rx-usecs/tx-usecs is invalid
+79068e6b1cfba1a03e1016c2ccc520a27c351914 net: stmmac: fix system hang caused by eee_ctrl_timer during suspend/resume
+dc2f7e9d8d20c0c407054596509e3d4316e2c9f3 net: stmmac: retain PTP clock time during SIOCSHWTSTAMP ioctls
+3c40584595f8175d5fd8acaac30479e16eeb8a82 net: ipv6: add fib6_nh_release_dsts stub
+26ed13d06422120dec22a01ae22c3d9fecd8cdef net: nexthop: release IPv6 per-cpu dsts when replacing a nexthop group
+1eb5395add786613c7c5579d3947aa0b8f0ec241 ice: fix vsi->txq_map sizing
+e65a8707b4cd756d26d246bb2b9fab06eebafac1 ice: avoid bpf_prog refcount underflow
+725ba1289508e1940ddc43142ff6f91cbcf77ec4 scsi: core: sysfs: Fix setting device state to SDEV_RUNNING
+9f540c7ffb1e5be3b5d5607deabfda0dec0d0a2d scsi: scsi_debug: Zero clear zones at reset write pointer
+77d9c2efa870c969b52a75aa50119752ae33dfd7 erofs: fix deadlock when shrink erofs slab
+29e1b57347957a2be71af782ba5aeaadf544be29 net/smc: Ensure the active closing peer first closes clcsock
+33d89128a9602c34d2875dbf7153d9bdbccd7511 mlxsw: Verify the accessed index doesn't exceed the array length
+90d0736876c50ecde1a3275636a06b9ddb1cace9 mlxsw: spectrum: Protect driver from buggy firmware
+8889ff80fde3461e24e25e1578b7f170c0bb9cab net: marvell: mvpp2: increase MTU limit when XDP enabled
+ac88cb3c44b6cf2fa29cd76c09cf8717e7056685 nvmet-tcp: fix incomplete data digest send
+440bd9faad298c3cb31dcc6713070dc718769d47 net/ncsi : Add payload to be 32-bit aligned to fix dropped packets
+f634c755a0ee16232a450406cbd6266f0f500d2d PM: hibernate: use correct mode for swsusp_close()
+3187623096091d8c60231de5ca0e020bfa5e6ee9 drm/amd/display: Set plane update flags for all planes in reset
+c5e4316d9c02e926ed74f53ecd65a757dcbe0cd9 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
+95ba8f0d57ce1248eb105fa0a003d57ec98ab730 lan743x: fix deadlock in lan743x_phy_link_status_change()
+50162ff3c80fe8db7cfff76ecf54b9e80c5923a3 net: phylink: Force link down and retrigger resolve on interface change
+3d4937c6a328947f980ba0e7a7f03901a2ec2aa0 net: phylink: Force retrigger in case of latched link-fail indicator
+c94cbd262b6aa3b54d73a1ed1f9c0d19df57f4ff net/smc: Fix NULL pointer dereferencing in smc_vlan_by_tcpsk()
+12ceb52f2cc49583394bad42a39468fde9d8e0cc net/smc: Fix loop in smc_listen
+f2a58ff3e3ad6104fde2561407f35a1aba5a5b7b nvmet: use IOCB_NOWAIT only if the filesystem supports it
+5e823dbee23cc06712d6d39dc7bb38711f407ffc igb: fix netpoll exit with traffic
+a6a5d853f1e6b731d5c4709001f71b4a35c31f1b MIPS: loongson64: fix FTLB configuration
+3b6c71c097daff9dd724cd306042045d18fd6b03 MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
+22156242b1042d5cce74f1bd20db541abdd2ecd7 tls: splice_read: fix record type check
+e3509feb46fa15680a9c8afbcb760e962349c1e2 tls: fix replacing proto_ops
+ae2659d2c670252759ee9c823c4e039c0e05a6f2 net/sched: sch_ets: don't peek at classes beyond 'nbands'
+6e800ee43218a56acc93676bbb3d93b74779e555 net: vlan: fix underflow for the real_dev refcnt
+215167df4512f2e7f3ace6b864a1697fcfeea03d net/smc: Don't call clcsock shutdown twice when smc shutdown
+62343dadbb963cfaa9566795a9cb6ede00152a81 net: hns3: fix VF RSS failed problem after PF enable multi-TCs
+73115a2b38dd09ed28015a4d58b0587742fd7299 net: mscc: ocelot: don't downgrade timestamping RX filters in SIOCSHWTSTAMP
+72f2117e450b631d269ad3a5372223febe487e13 net: mscc: ocelot: correctly report the timestamping RX filters in ethtool
+71e38a0c7cf88c9ea672b8aa9cf978e01fdb17a3 tcp: correctly handle increased zerocopy args struct size
+e6ee7abd6bfe559ad9989004b34c320fd638c526 sched/scs: Reset task stack state in bringup_cpu()
+22423c966e02175a45bc010134d734e920b76cdf f2fs: set SBI_NEED_FSCK flag when inconsistent node block found
+c380062d0850d854578ef47ca714f135e6597a99 ceph: properly handle statfs on multifs setups
+5655b8bccb8a19a34c83225a1c7bf2adca50c2c3 smb3: do not error on fsync when readonly
+fbc0514e1a343f82cfa7afa3aedda9007ccaac9b iommu/amd: Clarify AMD IOMMUv2 initialization messages
+4fd0ad08ee332d7b61e0fc7fabead1fb57554065 vhost/vsock: fix incorrect used length reported to the guest
+406f2d5fe368d440fd4e262188a6640f92804c5d tracing: Check pid filtering when creating events
+b98284aa3fc520e79e59753855c40f63b8c5389f xen: sync include/xen/interface/io/ring.h with Xen's newest version
+273f04d5d135c5a00f2b8666f51c2fe87b38bcb7 xen/blkfront: read response from backend only once
+8e147855fcf275f30dbc93e1a8f4031724e7ad13 xen/blkfront: don't take local copy of a request from the ring page
+1ffb20f0527dab03c17f0182ec6a63b9301af5f1 xen/blkfront: don't trust the backend response data blindly
+f5e493709800243181e268ddbfae949d2cc37f0b xen/netfront: read response from backend only once
+e17ee047eea7122c1d4196ed39032e517dad4152 xen/netfront: don't read data from request on the ring page
+334b0f278761a65718324137e87efe722d536700 xen/netfront: disentangle tx_skb_freelist
+1c5f722a8fdf19d383112fb701525e1b6870d8ca xen/netfront: don't trust the backend response data blindly
+a94e4a7b77edb1ae20f41c7c53677a9c6cee1fd8 tty: hvc: replace BUG_ON() with negative return value
+aa20e966d8a1249754da934342cc3793f4638e7f s390/mm: validate VMA in PGSTE manipulation functions
+a15261d2a1214c9304d17d4b9b819255c7406de5 shm: extend forced shm destroy to support objects from several IPC nses
+98b02755d544ce26ac0a41ff52bf56f2bd79e4c0 net: stmmac: platform: fix build warning when with !CONFIG_PM_SLEEP
+45b42cd05391197d5426a9097043d5e77bdbefc9 drm/amdgpu/gfx9: switch to golden tsc registers for renoir+
+a324ad794566ae2ad2d5aa7f7e3c1825fb5cd5b7 Linux 5.10.83
+be94beeac2486e40879309ccfe8ac8bba464d1e8 NFSv42: Fix pagecache invalidation after COPY/CLONE
 
---===============1319347223678395914==
+--===============7250098481534707666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4b048260879-7531eb266824.txt
+Content-Disposition: attachment; filename=revlist-2ecdf50008f3-e52f00242b31.txt
 
-ee034eae9d9bd3e63e85565612d6725e7702b02a USB: serial: option: add Telit LE910S1 0x9200 composition
-c2e05c4ed8a3b52b7c9a79d3c09261cfa013d80b USB: serial: option: add Fibocom FM101-GL variants
-e44a934f9e04b59d3a312857782d16afa2f6462f usb: dwc2: gadget: Fix ISOC flow for elapsed frames
-9ad421aedc55b4ca062ebc1e62e6518ca8117550 usb: dwc2: hcd_queue: Fix use of floating point literal
-7b6f44856da5ba0b1aa61403eb9fddd272156503 net: nexthop: fix null pointer dereference when IPv6 is not enabled
-d00bf013aed2cc1eba0b8388c390abc62904169d usb: typec: fusb302: Fix masking of comparator and bc_lvl interrupts
-4b354aeea43106f125a4d3b270c0df28ce74f362 usb: hub: Fix usb enumeration issue due to address0 race
-d797fde8644a7e8d0fc1da194e0b8637570fce9f usb: hub: Fix locking issues with address0_mutex
-aaa83768ba39586fe0abe2fb1825b89f3bf6270c binder: fix test regression due to sender_euid change
-8d0b9ea1917491bf71720b516d97e3afb336952f ALSA: ctxfi: Fix out-of-range access
-4a6f918a92b06e9969132175d8925442f0a6de34 media: cec: copy sequence field for the reply
-c03ad97293d2615e4c86c2aa81b7c27c6d8d7e4e Revert "parisc: Fix backtrace to always include init funtion names"
-9b406e39e539ff6f368a0bf66afa45fe669c69fa HID: wacom: Use "Confidence" flag to prevent reporting invalid contacts
-e72e981d16fcc5bc1075c1fc606d439405eaa187 staging/fbtft: Fix backlight
-2e1ec01af2c7139c6a600bbfaea1a018b35094b6 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-173fe1aedf677a1704e2a9609eedc28fa97c982f xen: don't continue xenstore initialization in case of errors
-4f1adc3f572a529d4cc3edc868079783b268c6e0 xen: detect uninitialized xenbus in xenbus_init
-5c895828f42157aede85fc8bfc757f9fdcd614c7 KVM: PPC: Book3S HV: Prevent POWER7/8 TLB flush flushing SLB
-f5bbebfd7ca15ba7ebbed801ecb76ebf59b35cbd tracing/uprobe: Fix uprobe_perf_open probes iteration
-e09e868c6341057e1b7d3acd9bd1c199a7007cc9 tracing: Fix pid filtering when triggers are attached
-e466278662be609768d764b8be1feb0013d37761 mmc: sdhci: Fix ADMA for PAGE_SIZE >= 64KiB
-57c7d46e8b1d4a8f511b3e03ca5861b8520b219a mdio: aspeed: Fix "Link is Down" issue
-65d962199b7f16c6a76d16a062ba1750cc8c4cf9 PCI: aardvark: Deduplicate code in advk_pcie_rd_conf()
-5551081d845e56502f24d7410da97360cc959c2e PCI: aardvark: Wait for endpoint to be ready before training link
-bbe213fd12fb742973741eb7a427e243d0204070 PCI: aardvark: Fix big endian support
-063a98c00528c706ea2a71a752f42a83eb93f2f9 PCI: aardvark: Train link immediately after enabling training
-0ad291db2d01e44f56d64e8b84e7b3cb80515f2c PCI: aardvark: Improve link training
-e090b2e2708e1b98ec92b49a6d57cd067b8aa50a PCI: aardvark: Issue PERST via GPIO
-8b0f7b8b783913a2efec999b84b72b4fc90116a7 PCI: aardvark: Replace custom macros by standard linux/pci_regs.h macros
-93491c5d26f71017dc0a682523a901c76c0a7846 PCI: aardvark: Don't touch PCIe registers if no card connected
-14311e77c93eb6ce8070020d9842ecd958db7015 PCI: aardvark: Fix compilation on s390
-fe8a8c3a408e7e510020e000dd7fd7cf3deb0ad0 PCI: aardvark: Move PCIe reset card code to advk_pcie_train_link()
-ea6eef03dafbc9754d26c6b21e4e35d070b651e6 PCI: aardvark: Update comment about disabling link training
-e3c51ac70aae138fb4143ec610429f423b738aed PCI: pci-bridge-emul: Fix array overruns, improve safety
-c697885a1281c7adeec8f4a62496e7ca183ba4bd PCI: aardvark: Configure PCIe resources from 'ranges' DT property
-75faadcc3a0e3f1a08e8b4afc629dfb406c325b9 PCI: aardvark: Fix PCIe Max Payload Size setting
-a06ace0d317d5102e1f32abf46645e19e12db3e0 PCI: aardvark: Implement re-issuing config requests on CRS response
-3d770a20950b200afe9241c29fb1a85afa1b2bcc PCI: aardvark: Simplify initialization of rootcap on virtual bridge
-bbc6201152fbce863a6cb7a0f9435f12fab7176e PCI: aardvark: Fix link training
-44b2776a9307c0e92c05d88db77d3907c7fcd162 PCI: aardvark: Fix support for bus mastering and PCI_COMMAND on emulated bridge
-7c517d7b8898db064355493c8d5617838439f1b4 PCI: aardvark: Set PCI Bridge Class Code to PCI Bridge
-086226048bcde44706b3b6ebde432a57ccf90a13 PCI: aardvark: Fix support for PCI_BRIDGE_CTL_BUS_RESET on emulated bridge
-3a4baf070c6a9a05fde11d43466d77cab6edb7d6 pinctrl: armada-37xx: Correct PWM pins definitions
-66d6eacba7a6173466dba863aea5746792ef8cff arm64: dts: marvell: armada-37xx: Set pcie_reset_pin to gpio function
-fd7974c547abfb03072a4ee706d3a6f182266f89 proc/vmcore: fix clearing user buffer by properly using clear_user()
-17a763eab714cce1546c7eb44dd23227ec79c143 netfilter: ipvs: Fix reuse connection if RS weight is 0
-03f7379e2c6917fa368d16eb41e432a69aaec170 ARM: dts: BCM5301X: Fix I2C controller interrupt
-a848a22e9434f1f463b28423fdbb942d70957a04 ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-76867d0cb83fa0bffcf9ab6082009b9c2a074f77 ASoC: qdsp6: q6routing: Conditionally reset FrontEnd Mixer
-4421a196fdaf14d1f7ed4a8737e95a19afee7acd ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-7360abf31ce0a7bdda6693490ae73635c5e792e9 net: ieee802154: handle iftypes as u32
-ce50e97a06bde039b33e577f54e03a8f225d4c2a firmware: arm_scmi: pm: Propagate return value to caller
-a078967dd34b07e3a10276669c4f7f603857efa0 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-dc9eb93d5a0ab4c096d9aa45113be5d0a9aa6201 ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-7e324f734a914957b8cc3ff4b4c9f0409558adb5 scsi: mpt3sas: Fix kernel panic during drive powercycle test
-4374e414fcbf3dffb848931fcded00b05ea22033 drm/vc4: fix error code in vc4_create_object()
-8029ced6d775af5d5bf5b4d61a675f37cdf1f7eb iavf: Prevent changing static ITR values if adaptive moderation is on
-b638eb32c64d8cdbb0c13198f5ead13569073d13 ipv6: fix typos in __ip6_finish_output()
-ddd0518c1e09a0eb8928e4f7c8f9f6160a7bd732 nfp: checking parameter process for rx-usecs/tx-usecs is invalid
-cca61bb1704236411ba907aaeaa6b073bb53861c net: ipv6: add fib6_nh_release_dsts stub
-67a6f64a0c847a0927fb91d96abb03b3b0521394 net: nexthop: release IPv6 per-cpu dsts when replacing a nexthop group
-7854de57be29c69f42240b64d867cb19b117e16e scsi: core: sysfs: Fix setting device state to SDEV_RUNNING
-6c0ab2caa8d1b08817e9d23b036688cf2d1981fe net/smc: Ensure the active closing peer first closes clcsock
-080f6b694ef1fde32bc711fdf61df66b97fbb873 nvmet-tcp: fix incomplete data digest send
-2654e6cfc483dd3ce256cfcadbf93b9af422359c net/ncsi : Add payload to be 32-bit aligned to fix dropped packets
-562fe6a6d2c553092787b0afc2939cedd8d386ff PM: hibernate: use correct mode for swsusp_close()
-d54662a91faab8dfeafc643c5c35afc64d09dc19 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-25980820c4f05e8da8adb346765ccc2efce47285 nvmet: use IOCB_NOWAIT only if the filesystem supports it
-9f5838471aedf128b1024fa7e2693ad6c2555e57 igb: fix netpoll exit with traffic
-296139e1de169945586468fcba696b4a7014de5e MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
-5e44178864b38dd70b877985abd7d86fdb95f27d net: vlan: fix underflow for the real_dev refcnt
-3b961640399b69394fec0f9a94dd35bdada6a213 net/smc: Don't call clcsock shutdown twice when smc shutdown
-0ea2e5497b8c8fb43159bae522a817a79ee954e5 net: hns3: fix VF RSS failed problem after PF enable multi-TCs
-ee4e3f9d3dd7caaff3b6a06d9fd92a42e7815bfd net: mscc: ocelot: don't downgrade timestamping RX filters in SIOCSHWTSTAMP
-3ceecea047c22ee17adaa5a8b155a83f95ed13d2 net: mscc: ocelot: correctly report the timestamping RX filters in ethtool
-51be334da375058694043224a0941275a353eaac f2fs: set SBI_NEED_FSCK flag when inconsistent node block found
-2eacc0acf6eaa5b5c1b19c59a6e7e6996f081e26 smb3: do not error on fsync when readonly
-dda227cccf14b5d2307b275898a69995c59b5ac5 vhost/vsock: fix incorrect used length reported to the guest
-3c9a213e0edbeb993d2da06ce99588612d433134 tracing: Check pid filtering when creating events
-b23c0c4c9e0a988e7248b270daaefb38c1a29fb2 s390/mm: validate VMA in PGSTE manipulation functions
-43788453983e38f17cb48e1d2205850e61e46875 shm: extend forced shm destroy to support objects from several IPC nses
-eff32973ecc3838d9a6dc5174bd24d76b120843c NFC: add NCI_UNREG flag to eliminate the race
-54f682cd48498f5c16c6cc42999f9b3bb878a230 fuse: release pipe buf after last use
-61826a7884cbac40b9c0fea23a007370cdd13ffd xen: sync include/xen/interface/io/ring.h with Xen's newest version
-ce011335cb426b3935e41d5ae4c0ba7934237341 xen/blkfront: read response from backend only once
-6392f51a9d2ec305da31f1c348d895b876306018 xen/blkfront: don't take local copy of a request from the ring page
-3456a07614b17a831ed98ea3c48a02f3abaadcaf xen/blkfront: don't trust the backend response data blindly
-5c374d830e1b215c2162796a2cb1cfa6824ddc19 xen/netfront: read response from backend only once
-5b757077dacd0907b41d934f891ee1930067b427 xen/netfront: don't read data from request on the ring page
-828b1d3861a1a1d2bd1da1ba62a2a3e534215d0e xen/netfront: disentangle tx_skb_freelist
-c3024e1945fe74810573c68e9e0b613014c98f02 xen/netfront: don't trust the backend response data blindly
-6c728efe164fbb2613ee4dee5f803e441c5d371c tty: hvc: replace BUG_ON() with negative return value
-57899c4e26bf5a02b9b405267a1812f26b9ccce5 Linux 5.4.163
-7531eb2668242699c6de51a53be838b8cf3eaf26 NFSv42: Fix pagecache invalidation after COPY/CLONE
+59aaa3b41c6506e2c25475f7c32db0ff4ec7cba9 ALSA: usb-audio: Restrict rates for the shared clocks
+190b7fb883623750bfb958f3814f0ce504f04e15 ALSA: usb-audio: Rename early_playback_start flag with lowlatency_playback
+8198943dee09a75940a0b7b33960c928dcb5fb11 ALSA: usb-audio: Disable low-latency playback for free-wheel mode
+9ca2ef3595080ac17808a6d5fc2414c4f0281fa9 ALSA: usb-audio: Disable low-latency mode for implicit feedback sync
+4cd983f7bbbd8e8faa7f3a35ba6f056ca10d7e16 ALSA: usb-audio: Check available frames for the next packet size
+c66e779f4ae682061c1e7239375069443bca0aa1 ALSA: usb-audio: Add spinlock to stop_urbs()
+41ccac9e250c4f995afb335f59d3fdc0feca501e ALSA: usb-audio: Improved lowlatency playback support
+d56fe976a09776fc2e0352d30a939975a5d9dbcc ALSA: usb-audio: Avoid killing in-flight URBs during draining
+a9398331a5fbf89fc43d8d0f68411f1a532af4c8 ALSA: usb-audio: Fix packet size calculation regression
+65e1327b00fef28d8d55ab2ba1c75bb579c41d78 ALSA: usb-audio: Less restriction for low-latency playback mode
+ef706ba50329691f04b03fcf998dec92dfec6fa6 ALSA: usb-audio: Switch back to non-latency mode at a later point
+e52f00242b3141352bd309a5e100fd4e541741f4 ALSA: usb-audio: Don't start stream for capture at prepare
 
---===============1319347223678395914==--
+--===============7250098481534707666==--
