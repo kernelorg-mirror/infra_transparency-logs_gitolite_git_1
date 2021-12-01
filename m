@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 01 Dec 2021 08:31:24 -0000
-Message-Id: <163834748438.18328.10369826911249662563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/wireless-drivers
+Date: Wed, 01 Dec 2021 08:40:49 -0000
+Message-Id: <163834804941.24095.4132879861812761345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/kvalo/wireless-drivers
+user: kvalo
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: ea708ac5bf419d9735354f9deada384c1059700f
-    new: 4f45348934074553681a8964bae740a22599cf2e
-    log: |
-         4f45348934074553681a8964bae740a22599cf2e dt-bindings: gpio: sifive,gpio: Group interrupt tuples
-         
+  - ref: refs/tags/wireless-drivers-2021-12-01
+    old: 0000000000000000000000000000000000000000
+    new: 92ef067167fec6bcd85d3b0d8573082289a8378e
