@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0885782174263379028=="
+Content-Type: multipart/mixed; boundary="===============5233946014569601382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 01 Dec 2021 18:30:28 -0000
-Message-Id: <163838342873.25450.12172686003512466160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 01 Dec 2021 18:30:35 -0000
+Message-Id: <163838343508.25552.16064822829574587462@gitolite.kernel.org>
 
---===============0885782174263379028==
+--===============5233946014569601382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/regulator-5.17
     old: d07fef2fcd4d79198a700f4b4d2ca4670649c9ff
     new: d69e19723f88a3ba6d4e0e52f51dd4c59cc2ae93
     log: |
@@ -24,28 +24,28 @@ changes:
          d69e19723f88a3ba6d4e0e52f51dd4c59cc2ae93 regulator: qcom-rpmh: Add support for PM8450 regulators
          
 
---===============0885782174263379028==
+--===============5233946014569601382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1638383427 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1638383426-809abe345cdf1df5455ecd3285415820de18c66c
+pusher C3F436CA30F5D8EB 1638383433 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1638383432-8b8571abc10c1cc789d422defc0892703e313b3f
 
-d07fef2fcd4d79198a700f4b4d2ca4670649c9ff d69e19723f88a3ba6d4e0e52f51dd4c59cc2ae93 refs/heads/for-5.17
+d07fef2fcd4d79198a700f4b4d2ca4670649c9ff d69e19723f88a3ba6d4e0e52f51dd4c59cc2ae93 refs/heads/regulator-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGnv0MACgkQJNaLcl1U
-h9BdhQf/URhGeQ16PEPPQDnStDAYHtfD+Uve02LrLp4iRhMRsZPTY2TCznMpu7TN
-KRHy/afjAGKZeuz/YQvnkP2gIh2GtFLiRKwcK+skwx7JTIRDXdvKtWL1IANIFqhQ
-TuWvPF+98FktT+5qjo2cafNZnPhxaESgbqcWKqvt7AdPMZUDZ5mlM5+75BPtdjz4
-K7dJJ9c3HjrSmsFmClxHvrlA2sUoE1argwheqMltFuqiqjHbgArEcdsDJKa1Vwmc
-qZ9AIgIp7xIYorCYzEik41Ak6McDrNISfmhQ3gqOUHvA0GBLrEzQ3Zqaqt21R8dC
-svP4P38XrPSTZMCBs8m1OGJrGkOhsw==
-=Grpv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGnv0kACgkQJNaLcl1U
+h9AWfQf+MxfrpSY2D9yMDCJpSPj+pgZrQ3wDoTT7ZU2PjV3OlpPxy+gxj6XCdmx9
+C55afPPmyfCxiu8u48ZPK5o+9D/IOIM2j9axHb31I7SBaEPBzfp7j17GtgGVuvWm
+019GI0RovljF2GCmY55m6r9tixcuRwgf8X1RJmVfxWLx6tOqhGiczvn7dHlB3Lai
+HLtiJoCuvLRnIOIGXEtf6InJodyLdDCzHkvWuRDHGaZk0Csqmjj3bHX3KD397BYw
+zyDjZf28bPmmHfaIuoJr2ocGuN02oJl2VdGVHeKEx+zLjCr9lQR6vH9PLLbRT88u
+s8/VU82FKHNRfppp4f2t2giB2VZOHw==
+=j6qu
 -----END PGP SIGNATURE-----
 
---===============0885782174263379028==--
+--===============5233946014569601382==--
