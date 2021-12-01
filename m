@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 01 Dec 2021 22:46:02 -0000
-Message-Id: <163839876270.22365.17669450295068740550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 Dec 2021 23:44:19 -0000
+Message-Id: <163840225964.24919.15130724191404025992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
-    old: 668b0ffd27ea65ffe47cc5ff51c108a264c76cdb
-    new: a631373248278d3d999db1e897d59c83097803f9
+  - ref: refs/heads/x86/urgent
+    old: 52d0b8b18776f184c53632c5e0068201491cdb61
+    new: b50db7095fe002fa3e16605546cba66bf1b68a3e
     log: |
-         29771731c900d49a2777a9eeb592fd7e04b4c204 dt-bindings: net: ethernet-controller: add 2.5G and 10G speeds
-         a631373248278d3d999db1e897d59c83097803f9 dt-bindings: dma: sifive,fu540-c000-pdma: Group interrupt tuples
+         c7719e79347803b8e3b6b50da8c6db410a3012b5 x86/tsc: Add a timer to make sure TSC_adjust is always checked
+         b50db7095fe002fa3e16605546cba66bf1b68a3e x86/tsc: Disable clocksource watchdog for TSC on qualified platorms
          
