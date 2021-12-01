@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 01 Dec 2021 14:32:58 -0000
-Message-Id: <163836917866.2624.9243079332624151545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 01 Dec 2021 14:41:25 -0000
+Message-Id: <163836968575.8394.6558660775118867746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/arm64/mm/reporting
-    old: 8e7165ea3819634d4b20f6b971e79c9110c5de79
-    new: c8ab84eda14e7cc52e9a8fa1e2aa2239e34d8867
+  - ref: refs/heads/master
+    old: 23ea630f86c70cbe6691f9f839e7b6742f0e9ad3
+    new: b8a841a9da74283537dad6ab8d938da26aeb0656
     log: |
-         c8ab84eda14e7cc52e9a8fa1e2aa2239e34d8867 arm64: mm: log potential KASAN shadow alias
+         4fa8fcd3440101dbacf4fae91de69877ef751977 igc: AF_XDP zero-copy metadata adjust breaks SKBs on XDP_PASS
+         f51b5e2b5943d26387d2abb463bce2b4bd0a4a8d igc: enable XDP metadata in driver
+         b8a841a9da74283537dad6ab8d938da26aeb0656 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
