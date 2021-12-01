@@ -1,60 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6379501217094205362=="
+Content-Type: multipart/mixed; boundary="===============3685071346998168330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 01 Dec 2021 16:15:07 -0000
-Message-Id: <163837530719.2443.8164450256888907064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 01 Dec 2021 16:17:42 -0000
+Message-Id: <163837546273.3239.4421560283303536143@gitolite.kernel.org>
 
---===============6379501217094205362==
+--===============3685071346998168330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 196073f9c44be0b4758ead11e51bc2875f98df29
-    new: 10184da91666e3f37fb2ddb722239097b55cc0a2
-    log: revlist-196073f9c44b-10184da91666.txt
+  - ref: refs/heads/damon/next
+    old: 50311a0c235e24a38e4076671ea42a9da3542e21
+    new: 572cd9dedf0a1e6472a8517aa4512d37f80015e5
+    log: revlist-50311a0c235e-572cd9dedf0a.txt
 
---===============6379501217094205362==
+--===============3685071346998168330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-196073f9c44b-10184da91666.txt
+Content-Disposition: attachment; filename=revlist-50311a0c235e-572cd9dedf0a.txt
 
-7b62483f64dd61e6483c75b514c821fe0e339af3 net/ice: Fix boolean assignment
-244714da8d5d088faa2e0e32ba84ca1913a093ef net/ice: Remove unused enum
-4fa8fcd3440101dbacf4fae91de69877ef751977 igc: AF_XDP zero-copy metadata adjust breaks SKBs on XDP_PASS
-f51b5e2b5943d26387d2abb463bce2b4bd0a4a8d igc: enable XDP metadata in driver
-aeb5d11fd1efc96fefed850782a1ab62c4624c82 iavf: Add change MTU message
-f1db020ba4eff3b2a1e3de476fe39a0d836a5303 iavf: Log info when VF is entering and leaving Allmulti mode
-9f4651ea3e07339b460d403ff01b7cc2178fef7b iavf: return errno code instead of status code
-bdb9e5c7aec73a7b8b5acab37587b6de1203e68d iavf: Add trace while removing device
-b231b59a2f96bbc3f4759d2e8ecaa1c71a9e7616 iavf: Enable setting RSS hash key
-4d0dbd9678ad604963e9eab212fefb78a9fdb4aa iavf: Refactor iavf_mac_filter struct memory usage
-349181b7b86367bfe66341c6fc2708f01c568f0d iavf: Fix static code analysis warning
-fbe66f57d371d787835f1f2a0612720f655bda2f iavf: Refactor text of informational message
-c2fbcc94d511e963d7fefa91d5f5748e8906f1cf iavf: Refactor string format to avoid static analysis warnings
-64430f70ba6fcd5872ac190f4ae3ddee3f48f00d iavf: Fix displaying queue statistics shown by ethtool
-5cfe53cfeb1c05b73e5f2e09d7fe3140b17c1204 mctp: remove unnecessary check before calling kfree_skb()
-23ea630f86c70cbe6691f9f839e7b6742f0e9ad3 net: natsemi: fix hw address initialization for jazz and xtensa
-b8a841a9da74283537dad6ab8d938da26aeb0656 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-749c69400a4584484a3e09e6c27e3de331e94693 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-8c659fdab06a4967f8c5cc754b407b0165a53865 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-2cb310dc4402d259fa58ce8644c0827c4fedc47f mlxsw: spectrum: Bump minimum FW version to xx.2010.1006
-b25dea489b55a54d6ede2d9836c84ef2f50210fc mlxsw: reg: Remove unused functions
-fda39347d90f42dafaec5e8ed7490e8054e8dcad mlxsw: item: Add support for local_port field in a split form
-fd24b29a1b7412e7707aec093e3805946ec17fa3 mlxsw: reg: Align existing registers to use extended local_port field
-da56f1a0d2a5ebe19b475342485e6d22aea6fc67 mlxsw: reg: Increase 'port_num' field in PMTDB register
-242e696e035fca96e972773023f20adfba124d10 mlxsw: reg: Adjust PPCNT register to support local port 255
-c934757d90000a9d3779d2b436a70e3d060ef693 mlxsw: Use u16 for local_port field instead of u8
-f8538aec88b46642553a9ba9efa0952f5958dbed mlxsw: Add support for more than 256 ports in SBSR register
-e86ad8ce5beda5dbd351957b22948fdb077f9f53 mlxsw: Use Switch Flooding Table Register Version 2
-51ef6b00798ccf022efc83b91fc9038afe4c953f mlxsw: Use Switch Multicast ID Register Version 2
-10184da91666e3f37fb2ddb722239097b55cc0a2 Merge branch 'mlxsw-Spectrum-4-prep'
+7d5696c2e90766baa242f2d556eb15948a46de8b for_damon_hack: Add files for DAMON hacks
+5f0ca2469dee88b2c49c2a356aeb53093e9871b7 (NOT-FOR-POSTING) Patches in -mm but mmotm
+de2ca9abc2ab1b6692ab272e950868fe9562ddbf (NOT-FOR-POSTING) Patches written or reviewed by SJ but not merged in -mm starts
+b7aaeac25b8da16f9c039453aa11fb4261eb0a77 mm/damon/core: Use better timer mechanisms selection threshold
+aef9626f02023c7d831d81e79cf8e4fc3e1cc2dc mm/damon/dbgfs: Remove an unnecessary error message
+e8f7c31322d5bb567921f0a861472c6fc5a0f772 mm/damon/core: Remove unnecessary error messages
+835e44928631bf8d9a655e36d24c554052060234 mm/damon/vaddr: Remove an unnecessary warning message
+c4bd413355b5c02425859a6c3e7a7194d7a206c5 mm/damon/vaddr-test: Split a test function having >1024 bytes frame size
+69fbcb2794d7a0c545c930e12b516465115a96ae mm/damon/vaddr-test: Remove unnecessary variables
+619e3c052984fcd9f73ebceed4a18cbdf279554a selftests/damon: Skip test if DAMON is running
+661f0f2570ac94c45e6ae86801a0ee7098908be3 selftests/damon: Test DAMON enabling with empty target_ids case
+45c23c94f1d233186fd2c68cb2605bfbad4b94bd selftests/damon: Test wrong DAMOS condition ranges input
+314cf1a22b6954196b7fb1b3534339d7f82db6bf selftests/damon: Test debugfs file reads/writes with huge count
+f0a027f46dbe205e40f83892e67ff65c2301354c selftests/damon: Split test cases
+336c375adcbd99dcc4ecfe055f3c4faceb6d073b (NOT-FOR-POSTING) More not-yet-posted commits
+ac05219d8d2ca494c6ad1efe48148ad43878a54a mm/damon/paddr: Separate commonly usable functions
+7babb78e29323e6322e4debc287c6bed4ecaa169 mm/damon: Introduce arbitrary target type
+e25b3c6e852deb1bac55381cbc3020acfb244c87 mm/damon: Implement primitives for page granularity idleness monitoring
+732ac1f58ef5e3c8a20012925d93008fd6bd54f9 tools: Introduce a minimal user-space tool for DAMON
+edd89ca3587c19226bdc7b806ca35fa7fa4da69b tools/perf: Integrate DAMON in perf
+f61cf0a36b084340f59ae1aed40eefa1883e7f26 (drop) mm/damon: Add debug code
+572cd9dedf0a1e6472a8517aa4512d37f80015e5 mm/damon: Improve DAMOS stats: Need more works
 
---===============6379501217094205362==--
+--===============3685071346998168330==--
