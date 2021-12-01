@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8255039946605207962=="
+Content-Type: multipart/mixed; boundary="===============3991114843973270732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 01 Dec 2021 12:07:54 -0000
-Message-Id: <163836047403.7493.9736331129959453907@gitolite.kernel.org>
+Date: Wed, 01 Dec 2021 12:08:08 -0000
+Message-Id: <163836048880.7648.8475148399964377938@gitolite.kernel.org>
 
---===============8255039946605207962==
+--===============3991114843973270732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-lts
-    old: a0e43b58695b2ae19e57c5854375211ccc222551
-    new: 8b95f9676861fb1de31008fa3056cbba182a7323
-    log: revlist-a0e43b58695b-8b95f9676861.txt
+  - ref: refs/heads/linux-rolling-stable
+    old: f47d2864fda6e455a2fd5f70cb5ca9f0dcec276d
+    new: e808e2860a020556c667313e9f20202801a90eed
+    log: revlist-f47d2864fda6-e808e2860a02.txt
 
---===============8255039946605207962==
+--===============3991114843973270732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638360472 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638360487 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1638360472-e35bf8712bcbea23c6a3a979aead0bf2b3aa28c4
+nonce 1638360486-0edd6920fb6164b19daa1bc8665d139981189842
 
-a0e43b58695b2ae19e57c5854375211ccc222551 8b95f9676861fb1de31008fa3056cbba182a7323 refs/heads/linux-rolling-lts
+f47d2864fda6e455a2fd5f70cb5ca9f0dcec276d e808e2860a020556c667313e9f20202801a90eed refs/heads/linux-rolling-stable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGnZZgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HIwP/jbSKLu3o1Q9t7mYO+s7
-zH5KC82MPwHK19zADMc4mo82OHoWtNPufq0ZmOYObhBTWra+nxLCkQ5mb9HqtSpz
-seuKSU2A88UlDJJJ2Zp1hI88GhYkmgNZhvydgisxbYwqiCKjpaHW1lzF65XbC24X
-J7ayhV2w0sLkGO4oO88TKk6maCA/PnlVhyY7HNx1+2aTt70DM7fLLPwXESkoWpLF
-iouUVRfkcQozHCl8eF4Zfv9EDSf+8wkQfjtMqNdZmmjRYJ+1UCJucVU/yLxtk6Lc
-QKEwoAdDuqVSy8x95bhIelXnIzZtjbOvoQdxcjesezPqqhOfpZoqAKlpNVUkfk0E
-flYPf7ti25gsDT9EJhU2+W8f/r8NyKYLW5ZMmMAx+oPH2nyBTcOlqeJAKC9QKvUu
-nSk/z+srXKfFso3f1QCV+8RK7K14x/yE8SzGXSFxtelI1h8ymOvLx5OPMUSAm/V2
-CdoecoNaIUSayHmpuVg6XELPGTuXtt7evg0FJfKobtpG3Ixh5t9EveS86qp5KQmM
-Wuq9mNABQD0X3ZtKXeo54FOeQgBKAuuoCclVOouwgzzJKTb430yVO2a8s9aeFeO/
-F2afPJgwev/16l1bCW4F1+NbEWZK9ZYcJVzyrCdlJVjh2op+pR8QrT0B9PyxXxjF
-zDSsRkjunSAluSi1eOTWPZDl
-=AbIx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGnZacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1lIP/1envwuJqK7kVE1r4cbw
+xO1+3QIytL7p0t/eMFjPsbSHm568RYjw97GURPCaEXJ1Rz6WUZWvAHcXilmsfrXH
+DsUVNxK/5kE+Jgte69CHn9pQ5nCdI6dEiyPlqPQ92NQefItFr56n3ajueU0ZR9uU
+OdM+4VzYo3+SlOysFAe4DgcpY2+dNGGR5ZDgVTt8o5mLarb0SJ+gDLuGToDclhz+
+SfE/GKlqe66+m+zH0YvRGc9ukaWJRCrwfG0u/MzHtWeTBIsqFKFgSjzWRvuPpaMR
+NfnHVnzfM7r3jztpumnccHDLTPRBm6JIwSuSvs9i1xvVt0ppE9j5DaGl6nYDKn8y
+k0fj2MdkrVAEh6vcEZSowOK+gY+f8U3ZYEmOR17U1hDEIE33wWd7V7PDKW5MJBkF
+uL2G/dqzvrBZtwGG79QHSZ/TtQWKVwQvG6ogSlj+r5TzDxpVbNvLZ5O8oJMPAxdY
+JkLajTLixwN9SRJ8d5dY63Ux2pNsmj6tRD+MQ8d4XBRlgZjT5lVsYX7a1sdrC6ky
+DlgQ+U55wqQyQyPprhgtC3hvVbQ8wQ/pNsJjWUSOinP5f6zzcFodPTso2Daj/8ly
+LzjowXykrdhmwjwtuz/kGJt5PwCr41/W155zKqQVaNHfGhp600BbpTzsFx2nkQuv
+cuzJPrpGdOztewoXmVQAxfSg
+=Wmed
 -----END PGP SIGNATURE-----
 
---===============8255039946605207962==
+--===============3991114843973270732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0e43b58695b-8b95f9676861.txt
+Content-Disposition: attachment; filename=revlist-f47d2864fda6-e808e2860a02.txt
 
 c82cd4eed1282806e48345e3c4d37a3c1d3f90e7 scsi: sd: Fix sd_do_mode_sense() buffer length handling
 dbd961095ed44585fc628962d7c7da866852f9a5 ACPI: Get acpi_device's parent from the parent field
@@ -237,6 +237,6 @@ db8ed1e61b4922b841b47c989a0000e06acac0fe block: avoid to quiesce queue in elevat
 8c501d9cf1229fe9676da75f3c1f77c61ccffe22 drm/amdgpu/gfx10: add wraparound gpu counter check for APUs as well
 4268e8325d63c63c424640e58da0ce6bad6344e0 drm/amdgpu/gfx9: switch to golden tsc registers for renoir+
 a2547651bc896f95a3680a6a0a27401e7c7a1080 Linux 5.15.6
-8b95f9676861fb1de31008fa3056cbba182a7323 Merge v5.15.6
+e808e2860a020556c667313e9f20202801a90eed Merge v5.15.6
 
---===============8255039946605207962==--
+--===============3991114843973270732==--
