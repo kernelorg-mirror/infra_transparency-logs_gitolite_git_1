@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1573086311863937434=="
+Content-Type: multipart/mixed; boundary="===============0285498875677837984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 01 Dec 2021 17:54:18 -0000
-Message-Id: <163838125805.1122.3840876751944572734@gitolite.kernel.org>
+Date: Wed, 01 Dec 2021 17:54:28 -0000
+Message-Id: <163838126864.1284.1403389445149749888@gitolite.kernel.org>
 
---===============1573086311863937434==
+--===============0285498875677837984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 34d8778a943761121f391b7921f79a7adbe1feaf
     new: 3968e3cafafb72ecf12d1263f935d20bc9df9bc2
     log: revlist-34d8778a9437-3968e3cafafb.txt
 
---===============1573086311863937434==
+--===============0285498875677837984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ ede359d8843a2779d232ed30bc36089d4b5962e4 net: dsa: mv88e6xxx: Link in pcs_get_st
 4326d04f5c0a5ae009d0cfefb84e286764a3ab0f Merge tag 'mlx5-fixes-2021-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 3968e3cafafb72ecf12d1263f935d20bc9df9bc2 Merge tag 'wireless-drivers-2021-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
 
---===============1573086311863937434==--
+--===============0285498875677837984==--
