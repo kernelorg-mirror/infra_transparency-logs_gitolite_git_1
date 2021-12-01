@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 01 Dec 2021 18:00:59 -0000
-Message-Id: <163838165924.6522.14514761211623630197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 01 Dec 2021 18:09:21 -0000
+Message-Id: <163838216101.10343.3800387302508215804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-linus
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: a213ee6ef820287fea2e586f5b82b88b50fed730
+  - ref: refs/heads/fuzzing/5.16-rc3
+    old: 5def24697fc2d0ad52a62b8df2bd8399667d36b7
+    new: 24a22db61d641e1cecb296348b0eb6b9965cee38
     log: |
-         a213ee6ef820287fea2e586f5b82b88b50fed730 Revert "PCI: aardvark: Fix support for PCI_ROM_ADDRESS1 on emulated bridge"
+         1fc441050de291c299c6656095f2f33b75584ab2 arm64: mm: use die_kernel_fault() in do_mem_abort()
+         629531534a0e11b9ffc655c956079d4940a9dbd6 kasan: move kasan_shadow_to_mem() to shared header
+         24a22db61d641e1cecb296348b0eb6b9965cee38 arm64: mm: log potential KASAN shadow alias
          
