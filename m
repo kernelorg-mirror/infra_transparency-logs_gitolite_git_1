@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1462247574106808656=="
+Content-Type: multipart/mixed; boundary="===============5245651132350955921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 Dec 2021 18:30:15 -0000
-Message-Id: <163838341500.25230.3876005609587468297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 01 Dec 2021 18:30:22 -0000
+Message-Id: <163838342206.25324.213234107939388446@gitolite.kernel.org>
 
---===============1462247574106808656==
+--===============5245651132350955921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: 046aede2f847676f93a2ea4f48b77909c51dba40
     new: 3fc27e9a1f619b50700f020e6cd270c1b74755f0
     log: |
@@ -25,37 +25,37 @@ changes:
          d9be0ff4796d1b6f5ee391c1b7e3653a43cedfab ASoC: codecs: wcd934x: return correct value from mixer put
          3fc27e9a1f619b50700f020e6cd270c1b74755f0 ASoC: codecs: wsa881x: fix return values from kcontrol put
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: f316c9d9ba8ea08d6994bc5ba8fa276eab186208
     new: b80155fe61a76784273c2e7b8b15ae8249eb7440
     log: revlist-f316c9d9ba8e-b80155fe61a7.txt
 
---===============1462247574106808656==
+--===============5245651132350955921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1638383412 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1638383412-5dd17ef0f43f8435dcf2811858fdad9cafa5b5c2
+pusher C3F436CA30F5D8EB 1638383419 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1638383419-bcc60f6e648edfe1854ea7f1f97a8a1107b1851b
 
-046aede2f847676f93a2ea4f48b77909c51dba40 3fc27e9a1f619b50700f020e6cd270c1b74755f0 refs/heads/for-5.16
-f316c9d9ba8ea08d6994bc5ba8fa276eab186208 b80155fe61a76784273c2e7b8b15ae8249eb7440 refs/heads/for-5.17
+046aede2f847676f93a2ea4f48b77909c51dba40 3fc27e9a1f619b50700f020e6cd270c1b74755f0 refs/heads/asoc-5.16
+f316c9d9ba8ea08d6994bc5ba8fa276eab186208 b80155fe61a76784273c2e7b8b15ae8249eb7440 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGnvzQACgkQJNaLcl1U
-h9B9zwf/W0f6SOoKk/piMzrbzDp+X+tvazfWF4SzvQhm6CFOjNePIKr7K9VqNTd6
-rh4t04rjn8ib08GW5Z/IIF52UPqMBLAGwiX3S/Mz3rbQ9aK+3MdC1uofrGODwfrj
-beHKY5RpidQg/32l6YAHGvNqRxVopY2h9SALKFlxqJa6oOaxkWe0xAxQvAOWp9pZ
-yyL2NfG4YELmxVnwxYFn/MHdHympMszMOQqtiJUjLqUGKg+O6WfCgvZYPeDkYjl8
-+ip6/kfT7IJUtVqVBEZL9PggQJoBW4zaurZGfXmvaAGOVwXBJxNOrpZ874tD/aIE
-xgj0/W10lLA5zOHmZieszVk5oMR2aA==
-=ucYC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGnvzsACgkQJNaLcl1U
+h9B7sgf9HkTSChuS4Xpy0hkDcYK4WQuOwuPl4t1Ss69vWtNUpl2s11FBMOsa+SPF
+wXi7r1DG7kUnA7DI6GwZHzrTYBfS58pkreSp/l0fDnyPzByGBJkm2/6HyzNjJEo4
+AalvRofZqBpai11fizdGvLDVRDN1QT1sqyNb/IgKWtajOZD2yw7xZT4nA9THmoCW
+7KT1rAfnsd7NJR+CiP+W1A0ZH4SxNuLCtT1KGrnR5mjir+9TCa6IcxzLTK5LpqPy
+D140Bv1KTapVKiiTfWEGifFI+5jRfi9xzrGV6/MHXQE6aEUHlyEBdsRs8EC8DU+o
+dKdi1H/+jqyhwAB6vV6hszXMBwDV3Q==
+=ywun
 -----END PGP SIGNATURE-----
 
---===============1462247574106808656==
+--===============5245651132350955921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -111,4 +111,4 @@ d5c137f41352e8dd864522c417b45d8d1aebca68 ASoC: amd: fix uninitialized variable i
 0d242698fa693ab8cb98c11ba7cf7fc8f7242c0b ASoC: tegra: Add master volume/mute control support
 b80155fe61a76784273c2e7b8b15ae8249eb7440 ASoC: codecs: wcd934x: remove redundant ret variable
 
---===============1462247574106808656==--
+--===============5245651132350955921==--
