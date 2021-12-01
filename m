@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 01 Dec 2021 13:41:26 -0000
-Message-Id: <163836608692.30174.9263413905760016976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 01 Dec 2021 13:47:05 -0000
+Message-Id: <163836642506.1392.1929729069082761855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/review-andy
-    old: be3dc15ffe644d1b8bfae4a05eae3dc413a7c5e7
-    new: e1610431b95ccbada74e1393b0944ef4c2750624
+  - ref: refs/heads/fs.idmapped.fs
+    old: 4a3d000862460a94441d1937d257247e22aa6a22
+    new: 2d6741b6316c85be6d8f0ce7a9aad79bff2d9e8b
     log: |
-         82b2cd4c8caebf0b61b39daf5e0ed6be170a4ae1 gpio: pch: Use .driver_data instead of checking Device IDs again
-         2822b02765ed0609825d3532ea15de3914b59f09 gpio: pch: Cache &pdev->dev to reduce repetition
-         06939f22ae5f7abf80d9a6ff5e43b4a916256f44 gpio: ml-ioh: Cache &pdev->dev to reduce repetition
-         46155a0c55eb9c64da619e4f3a03537f47fbe583 gpio: ml-ioh: Use BIT() to match gpio-pch.c
-         7bc14ff2952da56d445efab50256569fc96aa95b gpio: ml-ioh: Change whitespace to match gpio-pch.c
-         e1610431b95ccbada74e1393b0944ef4c2750624 gpio: dwapb: clarify usage of the register file version
+         0f7488a454709829af9fe749c8805d6532a62789 fs: add is_idmapped_mnt() helper
+         c907dc28dc0cbabc9b4a16c7685ce958022e75a1 fs: move mapping helpers
+         66cf5b070bb1eb9a961e4cc0c6436e3003797bd9 fs: tweak fsuidgid_has_mapping()
+         97383e6b8e23eabe9a999a033d8eeba0e0f5c459 fs: account for filesystem mappings
+         f98a7958523628498da0547eefda844bf1a6e04a docs: update mapping documentation
+         a87dd00a5bbbf74525ebd2d5feff152ee8d71c17 fs: use low-level mapping helpers
+         ee169e500e75160bdc83335f26b6bf685c532a4a fs: remove unused low-level mapping helpers
+         b8bb769b2789ef7d4d750b619220e99b7d409264 fs: port higher-level mapping helpers
+         294cf7608d70391d0111759497395f2d722c11c7 fs: add i_user_ns() helper
+         2d6741b6316c85be6d8f0ce7a9aad79bff2d9e8b fs: support mapped mounts of mapped filesystems
          
