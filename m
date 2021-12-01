@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0158289129401529548=="
+Content-Type: multipart/mixed; boundary="===============7610437180627244896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 01 Dec 2021 17:40:15 -0000
-Message-Id: <163838041533.24519.222483327440779738@gitolite.kernel.org>
+Date: Wed, 01 Dec 2021 17:40:22 -0000
+Message-Id: <163838042271.24610.432064884698305198@gitolite.kernel.org>
 
---===============0158289129401529548==
+--===============7610437180627244896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 34d8778a943761121f391b7921f79a7adbe1feaf
-    new: 3968e3cafafb72ecf12d1263f935d20bc9df9bc2
-    log: revlist-34d8778a9437-3968e3cafafb.txt
+  - ref: refs/heads/dev-queue
+    old: 605ac048e635ee6418555e65ab9228de5e1524b8
+    new: 01d31cbe373396856de189d2692ec7fed278ecd6
+    log: revlist-605ac048e635-01d31cbe3733.txt
 
---===============0158289129401529548==
+--===============7610437180627244896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34d8778a9437-3968e3cafafb.txt
+Content-Disposition: attachment; filename=revlist-605ac048e635-01d31cbe3733.txt
 
 fe785f56ad5886c08d1cadd9e8b4e1ff6a1866f6 iwlwifi: pcie: fix constant-conversion warning
 1b54403c9cc444b6e0ade1f441efdf1270877ace iwlwifi: Fix missing error code in iwl_pci_probe()
@@ -61,5 +61,32 @@ ede359d8843a2779d232ed30bc36089d4b5962e4 net: dsa: mv88e6xxx: Link in pcs_get_st
 74b95b073b7b323a7309b8a1fad0def5a60c7194 Merge branch 'mv88e6xxx-fixes'
 4326d04f5c0a5ae009d0cfefb84e286764a3ab0f Merge tag 'mlx5-fixes-2021-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 3968e3cafafb72ecf12d1263f935d20bc9df9bc2 Merge tag 'wireless-drivers-2021-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers
+e1701e03d79731b504a4246eb17db4fb6f052f0c checkpatch: Fix warnings when --no-tree is used
+aa9ed7326948bfbceb42cd31f7ef26ee99c57141 checkpatch.pl: seed camelcase from the provided kernel tree root
+5823a043edbe6b068df369d1dd40c3275bbca78c ice: Fix a couple off by one bugs
+0ec729e3a9e471a2733562a41db0e73d00011124 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+ad43d385479760d1de4ea62ae311a409fe48a8fd ice: fix FDIR init missing when reset VF
+a617e0076148904b4d0bba26e8a0cebec37fffef i40e: Fix failed opcode appearing if handling messages from VF
+0b78b2fc624cc98e622e3cf9b822477cb0822aa1 i40e: Fix pre-set max number of queues for VF
+aa12d0608705c58c781e3be7d169e425c0da9484 iavf: Fix static code analysis warning
+fd049ac245bd341cba66e0577b303a91f05a7efa igb: Fix removal of unicast MAC filters of VFs
+ebb89f77f1b13d310a34c0e625a19fef2c52f22f iavf: Fix limit of total number of queues to active queues of VF
+d6e6be32ba899f24d30e9b3596509e124b99dc6f ice: ignore dropped packets during init
+199392f40e31c455939145e2e37797d5920b21a6 ixgbe: Document how to enable NBASE-T support
+de236c80e0a8f3b01ca049c7804ab2a6e1c11cdd iavf: Fix reporting when setting descriptor count
+afe8c0c278cad13afc8adf1d15190ac941d061fa i40e: Fix VF failed to init adminq: -53
+7cf756dcc13a8c48721631cc0d387b4e3dc1734a i40e: Increase delay to 1 s after global EMP reset
+624c7716d7a0753d7c04f754959b51ff54733d03 ixgbe: set X550 MDIO speed before talking to PHY
+703679cfff7c978ff97165fd36c591f076646ccd igc: Fix typo in i225 LTR functions
+a0c72c7981e8c4242b6ad6d99db28381bdd54088 i40e: Fix issue when maximum queues is exceeded
+73edf2c91ec9bed21ba9af96efe21468b98d0d35 ice: Use div64_u64 instead of div_u64 in adjfine
+2b41a9cf00f4d02cd22d8fb41863ecd91a340642 iavf: missing unlocks in iavf_watchdog_task()
+29a0f16fe65954044aaea6f9810570fa065ddb5c ice: safer stats processing
+628868ed6e23560fed6e6153f5a8d1560f466be0 ice: fix choosing UDP header type
+0e714f659ba94ef8111d695806405818ed9303bd net: igbvf: fix double free in `igbvf_probe`
+0b804c30a66b043b1eb865cec2871cfba4127946 i40e: Fix NULL pointer dereference in i40e_dbg_dump_desc
+726bf0ddcb6a0767f7c504b7a9cf1cbbc28fac67 i40e: Fix for displaying message regarding NVM version
+5ad8164d2b1fc512cf01091d9ef420ed98f1d83e ice: fix adding different tunnels
+01d31cbe373396856de189d2692ec7fed278ecd6 i40e: Fix queues reservation for XDP
 
---===============0158289129401529548==--
+--===============7610437180627244896==--
