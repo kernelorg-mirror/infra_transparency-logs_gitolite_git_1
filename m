@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Wed, 01 Dec 2021 09:28:46 -0000
-Message-Id: <163835092668.6509.5651519600257966090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 01 Dec 2021 09:30:34 -0000
+Message-Id: <163835103455.8560.7466834768925019169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/pci/xilinx-nwl
-    old: e2b86f9777432c08186342f4aa4b2e1f878e2441
-    new: 61f0aa4da397bdb00907c95ae21ef27090137409
+  - ref: refs/heads/v5.16/fixes
+    old: c2584017f757da3c84a743b607d6cfc763ebcc2b
+    new: 5ad77b1272fce36604779efe6e2036c500e6fe7a
     log: |
-         61f0aa4da397bdb00907c95ae21ef27090137409 PCI: xilinx-nwl: Simplify code and fix a memory leak
+         5ad77b1272fce36604779efe6e2036c500e6fe7a arm64: meson: remove COMMON_CLK
          
