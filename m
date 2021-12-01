@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2261641885006142314=="
+Content-Type: multipart/mixed; boundary="===============8997491859083357289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 01 Dec 2021 20:02:10 -0000
-Message-Id: <163838893025.18261.13442974778997488738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 01 Dec 2021 20:02:26 -0000
+Message-Id: <163838894624.18426.6836778050297350217@gitolite.kernel.org>
 
---===============2261641885006142314==
+--===============8997491859083357289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 960dff4cc0bfc59cc7a168c8f1e1f58c93f6a10d
-    new: 1a0ff069696987c0f363b3949fca351434c6132f
-    log: revlist-960dff4cc0bf-1a0ff0696969.txt
+  - ref: refs/heads/queue-next
+    old: 1568bf3791bddf3a2c99237c80f114fe98ad59b6
+    new: 51cb2b7d8db9787c689a7145189612a4ed6cb933
+    log: revlist-1568bf3791bd-51cb2b7d8db9.txt
 
---===============2261641885006142314==
+--===============8997491859083357289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-960dff4cc0bf-1a0ff0696969.txt
+Content-Disposition: attachment; filename=revlist-1568bf3791bd-51cb2b7d8db9.txt
 
 fe785f56ad5886c08d1cadd9e8b4e1ff6a1866f6 iwlwifi: pcie: fix constant-conversion warning
 1b54403c9cc444b6e0ade1f441efdf1270877ace iwlwifi: Fix missing error code in iwl_pci_probe()
@@ -124,5 +124,7 @@ c45d295ff8db426af7f97b4fb3d98a722dd39102 net/mlx5e: Hide function mlx5e_num_chan
 6c3ba40b529140552c469883288c397844fd52fb Merge branch 'patchq/435082' into mlx5-queue
 cb698b34064ca0025a05df620efd6e8d702819a0 Merge branch 'mlx5-queue' into net-next
 1a0ff069696987c0f363b3949fca351434c6132f Merge branch 'mlx4-for-net' into net-next
+f58c0545f9c4446112e18544e73958d700b80475 Merge branch 'net-next' into queue-next
+51cb2b7d8db9787c689a7145189612a4ed6cb933 Merge branch 'testing/rdma-next' into queue-next
 
---===============2261641885006142314==--
+--===============8997491859083357289==--
