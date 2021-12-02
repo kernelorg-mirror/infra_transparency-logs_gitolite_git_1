@@ -1,27 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Thu, 02 Dec 2021 21:59:40 -0000
-Message-Id: <163848238040.7946.2588038466420346535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Thu, 02 Dec 2021 22:09:06 -0000
+Message-Id: <163848294626.13643.16091689052063532544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: sandeen
 changes:
-  - ref: refs/heads/next
-    old: c5e7133411601492ec0000dd4301ec9629f390a4
-    new: 429f2fc288437a2c54ce7cb47b7f1c47dc3e1c9a
+  - ref: refs/heads/for-next
+    old: 604087cabe4dbd56f9bcf0aa6e86662696555476
+    new: 0e0de3669c37deee975002bb9c8d6771305bdeb2
     log: |
-         73091cd94023c8a10de3b2c0a3b89601d29f3b2f sff-8636: Use an SFF-8636 specific define for maximum number of channels
-         837c1662ebd6b0e0f410c5b58188c909970137a4 sff-common: Move OFFSET_TO_U16_PTR() to common header file
-         8658852e0ef7558ca39d2016948207c54d26318c cmis: Initialize Page 02h in memory map
-         27b42a92286b62491a7e023823c27662f463b8e6 cmis: Initialize Banked Page 11h in memory map
-         340d88ee128994cbb3d8fe19351fc4f62fc48f14 cmis: Parse and print diagnostic information
-         eae6a99f3d13e4bffeb8bd145ebff3f41be1eb06 cmis: Print Module State and Fault Cause
-         82012f2dbfeb6b813b8c638948a764704d255476 cmis: Print Module-Level Controls
-         d7b100713f73a4392a9b07bd95352d6065edb4fe sff-8636: Print Power set and Power override bits
-         429f2fc288437a2c54ce7cb47b7f1c47dc3e1c9a Merge branch 'review/cmis-diag' into master
+         27aa80862f6ac7baaaa9b74458e1d6a9c54bc11e libfrog: fix crc32c self test code on cross builds
+         7448af588a2ea37ec6f96572d616d8832133c97c libxfs: fix atomic64_t poorly for 32-bit architectures
+         0e0de3669c37deee975002bb9c8d6771305bdeb2 xfsprogs: Release v5.14.1
          
+  - ref: refs/heads/master
+    old: 604087cabe4dbd56f9bcf0aa6e86662696555476
+    new: 0e0de3669c37deee975002bb9c8d6771305bdeb2
+    log: |
+         27aa80862f6ac7baaaa9b74458e1d6a9c54bc11e libfrog: fix crc32c self test code on cross builds
+         7448af588a2ea37ec6f96572d616d8832133c97c libxfs: fix atomic64_t poorly for 32-bit architectures
+         0e0de3669c37deee975002bb9c8d6771305bdeb2 xfsprogs: Release v5.14.1
+         
+  - ref: refs/tags/v5.14.1
+    old: 0000000000000000000000000000000000000000
+    new: f5db15286f33a27580a2136dd9754cb7983efef2
