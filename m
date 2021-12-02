@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 02 Dec 2021 17:30:21 -0000
-Message-Id: <163846622123.32211.5364090911662395391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 02 Dec 2021 17:33:40 -0000
+Message-Id: <163846642004.793.17758519940420871953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
   - ref: refs/heads/for-next
-    old: 0838a3bfcd1b0c8d2ce38afcc94b81920486dabd
-    new: 9652c02428f3992129b73321fee32fe60b77c90f
+    old: 1090427bf18f9835b3ccbd36edf43f2509444e27
+    new: e445976537ad139162980bee015b7364e5b64fff
     log: |
-         9652c02428f3992129b73321fee32fe60b77c90f power: bq25890: add POWER_SUPPLY_PROP_TEMP
+         e445976537ad139162980bee015b7364e5b64fff xfs: remove incorrect ASSERT in xfs_rename
          
+  - ref: refs/heads/xfs-5.16-fixes
+    old: 1090427bf18f9835b3ccbd36edf43f2509444e27
+    new: e445976537ad139162980bee015b7364e5b64fff
+    log: |
+         e445976537ad139162980bee015b7364e5b64fff xfs: remove incorrect ASSERT in xfs_rename
+         
+  - ref: refs/tags/xfs-5.16-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: 6d7646c9398d50af05c02cf573672c4dd79459b9
