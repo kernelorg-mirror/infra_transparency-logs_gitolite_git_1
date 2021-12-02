@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 02 Dec 2021 08:39:16 -0000
-Message-Id: <163843435607.5218.15302660179735884907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Thu, 02 Dec 2021 09:10:44 -0000
+Message-Id: <163843624408.9214.15630510025445334861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: ce9778b7a0272f7c7e5bc33f537380a5d2aed6c7
-    new: 1e583aef12aa74afd37c1418255cc4b74e023236
+  - ref: refs/heads/rtc-next
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: a478c433d72bf006f36bef68c239c8a68b062e5b
     log: |
-         1e583aef12aa74afd37c1418255cc4b74e023236 ALSA: usb-audio: Drop superfluous '0' in Presonus Studio 1810c's ID
-         
-  - ref: refs/heads/master
-    old: 77571986936e9ef3d7aa4b09714d95a41ed4a4fa
-    new: 4faab30197f1d87e0b9882f01fa32ae0adf65f75
-    log: |
-         1e583aef12aa74afd37c1418255cc4b74e023236 ALSA: usb-audio: Drop superfluous '0' in Presonus Studio 1810c's ID
-         4faab30197f1d87e0b9882f01fa32ae0adf65f75 Merge branch 'for-next'
+         f601aa7930669439623dd266fc9e90b0218b42c1 rtc: rs5c372: Add RTC_VL_READ, RTC_VL_CLR ioctls
+         1c1b3098ae1e0d9725d0d4d49986e0edebba443a rtc: pcf85063: add i2c_device_id name matching support
+         a478c433d72bf006f36bef68c239c8a68b062e5b rtc: da9063: switch to RTC_FEATURE_UPDATE_INTERRUPT
          
