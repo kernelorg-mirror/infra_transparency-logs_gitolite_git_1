@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3648032977089478883=="
+Content-Type: multipart/mixed; boundary="===============3219344377364107873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 02 Dec 2021 18:21:38 -0000
-Message-Id: <163846929877.32208.15559267493219670939@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 18:21:50 -0000
+Message-Id: <163846931098.32343.1990072616456512496@gitolite.kernel.org>
 
---===============3648032977089478883==
+--===============3219344377364107873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 3968e3cafafb72ecf12d1263f935d20bc9df9bc2
     new: 88362ebfd7fb569c78d5cb507aa9d3c8fc203839
     log: revlist-3968e3cafafb-88362ebfd7fb.txt
 
---===============3648032977089478883==
+--===============3219344377364107873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ a05431b22be819d75db72ca3d44381d18a37b092 selftests: net: Correct case name
 1ebb87cc8928360d0eabf987d80512c7786594b1 gro: Fix inconsistent indenting
 88362ebfd7fb569c78d5cb507aa9d3c8fc203839 net: dsa: b53: Add SPI ID table
 
---===============3648032977089478883==--
+--===============3219344377364107873==--
