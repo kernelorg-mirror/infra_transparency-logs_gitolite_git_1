@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Thu, 02 Dec 2021 13:16:16 -0000
-Message-Id: <163845097692.32570.14853797250912041805@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 13:16:27 -0000
+Message-Id: <163845098741.32655.5200887303281205034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/topic/rcar_rst_rproc
+  - ref: refs/tags/rcar_rst_rproc-tag1
     old: 0000000000000000000000000000000000000000
-    new: 4c7924fb905b02323ff6d9d20f370892615dccfa
+    new: 0085c6409cb853f6ab1e3fa42a921fc685673d32
