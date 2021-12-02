@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 02 Dec 2021 17:35:03 -0000
-Message-Id: <163846650332.1978.5406121230099233026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Thu, 02 Dec 2021 17:47:22 -0000
+Message-Id: <163846724205.9227.468884981277894966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/whatamess
-    old: 35040db9132136a23f7b2fe1fb7b3e881a7efa9b
-    new: 35f6a47ca3c522810519c17f5a7eb614ed3865c9
+  - ref: refs/heads/x86/mm
+    old: 27dff0f58bdef4bcafdad8a8c2217d561bcf9506
+    new: 9a951429b2e1670a76b68c90880b01430fe509e4
     log: |
-         e445976537ad139162980bee015b7364e5b64fff xfs: remove incorrect ASSERT in xfs_rename
-         35f6a47ca3c522810519c17f5a7eb614ed3865c9 Merged korg/for-next at Thu Dec  2 09:34:45 PST 2021.
+         19c88fc96d941dd7102399bbf7f437f2b93d7e4e x86/mm: Add missing <asm/cpufeatures.h> dependency to <asm/page_64.h>
+         9a951429b2e1670a76b68c90880b01430fe509e4 x86/mm: Fix PAGE_KERNEL_IO removal breakage
          
