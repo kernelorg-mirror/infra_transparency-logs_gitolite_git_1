@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 02 Dec 2021 11:43:31 -0000
-Message-Id: <163844541167.5387.4619525131060423437@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2239438175190227746=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 02 Dec 2021 11:47:26 -0000
+Message-Id: <163844564648.8058.3959732497589431167@gitolite.kernel.org>
+
+--===============2239438175190227746==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 4d34e242ff2911196b0cc8c312d90e59a0c574b8
-    new: f19b52de3ae5b10514bf8589ed09beaf30f6ec66
+  - ref: refs/heads/hid_is_usb
+    old: 0a6c579f381aa88f6e8f7cd5515056416e247a2b
+    new: f296f3506707e93cb44c3a3d210de3329facf65b
     log: |
-         e11b02df60bdf2ac6bb8eaed525db4f02415a902 gfs2: Fix remote demote of weak glock holders
-         b8e12e3599ad61b25478159b290d94d66326b3c3 gfs2: gfs2_inode_lookup cleanup
-         5f6e13baebf31d71779617b45fbe88ed62f121dc gfs2: gfs2_inode_lookup rework
-         3d36e57ff768dbb919c06ffedec4bfe4587c6254 gfs2: gfs2_create_inode rework
-         85bcf6ce5516c9a45a3578cd532efac0501acfe4 gfs2: Fix __gfs2_holder_init function name in kernel-doc comment
-         59db79a6aa5a51a044da09ef20392fac1d28ce3a gfs2: remove redundant set of INSTANTIATE_NEEDED
-         ef8c3f508a2d01ec47741fe3b0f38e0f9e61dc48 gfs2: Remove redundant check for GLF_INSTANTIATE_NEEDED
-         f19b52de3ae5b10514bf8589ed09beaf30f6ec66 gfs2: Fix gfs2_instantiate description
+         f296f3506707e93cb44c3a3d210de3329facf65b HID: add USB_HID dependancy on some USB HID drivers
          
+
+--===============2239438175190227746==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638445645 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1638445644-790088800fc68f153eb262a675ff7b69abe1f653
+
+0a6c579f381aa88f6e8f7cd5515056416e247a2b f296f3506707e93cb44c3a3d210de3329facf65b refs/heads/hid_is_usb
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGosk0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DYQP/As1rY4PsnQEIGUHZBdJ
++8sOwQqH9Es35b7NnbyesDh1oA3PHPNLifQ9rqMQgx90rAsPlFPLTSl8AFPNq2w4
+QkdV5VEJT9Focl5S3j5l3MwUm9Mn20gOIA/JZfBAY2t/XStKfqoyrwLk86myf2h4
+HlHgbDdxne3EdYlkKD/sKSSuBFuHi0VvR4am2wgAeavw51HcoNAcfk+Z146J/Y87
+pBT/MKGMtsIB3FpIIjWT+t9uyeEYiK0sORRrE88lanVdWrdaO7+s7kiDVijk+K24
+gqVnnJ48fZp7R9HMOnkdXTMcsSkG06GdewrQvKWMWjU2BhOfFajqSrPTtvAg3d53
+mpMO9KJAfNvVoWbYWzJkYs4Z4wUHcBrGLc07q35X0E35W2ntYorCHKM+0ya6LEfv
+LdPGEl4PRjcqiBqqJwYk4NvzQxhIsIMejFekpvoeOw0Q1UX6yMZ5CNJYQ7Tr2INV
+jJY3953AX2cyjd8xZg3mysocMrp8sQUTUEHdBAZPOg5hsSAviXheC3jTuT60v7h9
+5NhvlGIqzLAiVwPlsdSywSsk7CQgykreE6PjuZx9ZV/XZjuAHM3IxCG5tTA75KZf
+9n70LiW3UBaSmDLINgzsaChX5EOtsuxr/BHrgADuV+9WNkAHi85Cct4PfG2m/U2p
+N5O0qTwTA59MuVJ7xgkpYeNT
+=S7W2
+-----END PGP SIGNATURE-----
+
+--===============2239438175190227746==--
