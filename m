@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4374829409822076402=="
+Content-Type: multipart/mixed; boundary="===============8592862098901807445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 02 Dec 2021 16:19:49 -0000
-Message-Id: <163846198967.18849.8228283781789980329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 02 Dec 2021 16:23:18 -0000
+Message-Id: <163846219883.21442.8513501698683305028@gitolite.kernel.org>
 
---===============4374829409822076402==
+--===============8592862098901807445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/damon/next
-    old: 572cd9dedf0a1e6472a8517aa4512d37f80015e5
-    new: 473dfb119ccd114aae5f05794e371a84767dd98b
-    log: revlist-572cd9dedf0a-473dfb119ccd.txt
+  - ref: refs/heads/for-next
+    old: 9973ade339e2c2d4bb93619e1057b3194f7febf3
+    new: 4547ece9de7c852e39037d6fabc712000266a4bd
+    log: revlist-9973ade339e2-4547ece9de7c.txt
 
---===============4374829409822076402==
+--===============8592862098901807445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-572cd9dedf0a-473dfb119ccd.txt
+Content-Disposition: attachment; filename=revlist-9973ade339e2-4547ece9de7c.txt
 
-2b514ed1ea29c2752dde604115ccb48cf609d1fc for_damon_hack: Add files for DAMON hacks
-0d35f86c1327234399350a870c3e96f73a4b6351 (NOT-FOR-POSTING) Patches in -mm but mmotm
-0e5d1956805289641fbda7dde8a7db700c2c907f mm/damon/core: Use better timer mechanisms selection threshold
-d5b6fcbf46ac53b2f98938109c61e9764a5d7e30 mm/damon/dbgfs: Remove an unnecessary error message
-68a6f43c8ed50337c6b613c09757c5dfa2fc945d mm/damon/core: Remove unnecessary error messages
-0f13511592617522d7b9ce072d45b408f84a15fa mm/damon/vaddr: Remove an unnecessary warning message
-b6c4ac36a531a014519dd8cd4fdec18850ae123a mm/damon/vaddr-test: Split a test function having >1024 bytes frame size
-9017b4ec5d8b4048ebcf1bce9ccb9817db633826 mm/damon/vaddr-test: Remove unnecessary variables
-7cc51c607c7a8878240ce3b7966b18ecb1838f43 selftests/damon: Skip test if DAMON is running
-82ffc970474eeda3a23b8d4207a448ca7040e68e selftests/damon: Test DAMON enabling with empty target_ids case
-1739144c05a2e8a21e9ca7dc257b491d64f6a2df selftests/damon: Test wrong DAMOS condition ranges input
-6957c36ac13dbb2fc22c3ed3246f90cc10c64a42 selftests/damon: Test debugfs file reads/writes with huge count
-72a6531aef9284627a3fa82bf6878d6386e123ce selftests/damon: Split test cases
-3d985b37a385e569bfa136aa90b8f4b946a53d2a (NOT-FOR-POSTING) Patches written or reviewed by SJ but not merged in -mm starts
-c8fee13bf57785c77b381a1b8aa61e4251e50fa4 mm/damon: move damon_rand() definition into damon.h
-a4d2efd3f4be75b0063c3193434730168b5c2915 (NOT-FOR-POSTING) More not-yet-posted commits
-e1333b6538baf052fdddc5713f4f9f7ee07b1ca8 mm/damon/paddr: Separate commonly usable functions
-d6c7263559d2e2b36fe2a1c324cb10c5233cd998 mm/damon: Introduce arbitrary target type
-636d414c9654510c2d33b3ef28ae0adc3aef484c mm/damon: Implement primitives for page granularity idleness monitoring
-762bea4fc370cd44637efebe85eea12fca033732 tools: Introduce a minimal user-space tool for DAMON
-27c32393f7ea317113d9068a3f367266671071b7 tools/perf: Integrate DAMON in perf
-f7ac88048933f39c0fc5a14201f3c7112d86b265 (drop) mm/damon: Add debug code
-473dfb119ccd114aae5f05794e371a84767dd98b mm/damon: Improve DAMOS stats: Need more works
+72596c7a43a8466f3cf08823a39ab86d5d583b87 NFSD: handle errors better in write_ports_addfd()
+9616aeff190ce60e1306329239faaab64655660d SUNRPC: change svc_get() to return the svc.
+07a76804bcce7f39811bd00b7545baac72151dd4 SUNRPC/NFSD: clean up get/put functions.
+c3a52eb2397e9797441e3b6417a126add347adb3 SUNRPC: stop using ->sv_nrthreads as a refcount
+df7874f16ef2d9972b96d883db4f12b7d39a9a1e nfsd: make nfsd_stats.th_cnt atomic_t
+e6a64f86dc7e64b5d4302b34889e4494255fa101 SUNRPC: use sv_lock to protect updates to sv_nrthreads.
+5a0092c713a57ab7dcb454fb61513d2c22b7e8d7 NFSD: narrow nfsd_mutex protection in nfsd thread
+8f9c3f1c93fd3bae28e694251ce398b2415e1e6e NFSD: Make it possible to use svc_set_num_threads_sync
+b2f1dc8a18f2ebdc4990956b519a930fd4929bae SUNRPC: discard svo_setup and rename svc_set_num_threads_sync()
+3332eb5aba14464e2048fc9e81b88cfd3d8f75dc NFSD: simplify locking for network notifier.
+327781af0ea9d51f096e9cccb4f7720027acd819 lockd: introduce nlmsvc_serv
+9f2763081cd72384cc242ad51c56d80f04a61031 lockd: simplify management of network status notifiers
+9e628be5f37b9157ac464af3df979b6961d9fb17 lockd: move lockd_start_svc() call into lockd_create_svc()
+5bd7c1f3f694b22499a128aae36a73de380dc0bc lockd: move svc_exit_thread() into the thread
+ada44e46e2a378b0bded6b269e788049d5748cad lockd: introduce lockd_put()
+03f9d71ef0c7f25499702b466cd9605045ec763a lockd: rename lockd_create_svc() to lockd_get()
+e70bf30673735c62e0bfb46a59f14781c18e029a SUNRPC: move the pool_map definitions (back) into svc.c
+5bf022185018bd2c71bfc12fb992e4b6a2f6d2b4 SUNRPC: always treat sv_nrpools==1 as "not pooled"
+fdd0891bd55bf7684be2da26666f571a77a7a860 lockd: use svc_set_num_threads() for thread start and stop
+bff401fce09c8c793b6ab8d0b4f1c1d3d0c36fbe NFS: switch the callback service back to non-pooled.
+ea9b8a2bb787779d7d330135a3cc1ce77aeaba3a NFSD: make symbol 'nfsd_notifier_lock' static
+c158be36d9d8a299ca774016580f546c7557e2ab NFSD: Remove be32_to_cpu() from DRC hash function
+4547ece9de7c852e39037d6fabc712000266a4bd NFSD: Fix inconsistent indenting
 
---===============4374829409822076402==--
+--===============8592862098901807445==--
