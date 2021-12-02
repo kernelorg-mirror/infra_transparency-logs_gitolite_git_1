@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 02 Dec 2021 15:50:03 -0000
-Message-Id: <163846020379.32187.4999618909737106319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 02 Dec 2021 15:50:56 -0000
+Message-Id: <163846025624.853.12591405767858447348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
 changes:
-  - ref: refs/heads/for-5.17/block
-    old: 8a7518931baa8ea023700987f3db31cb0a80610b
-    new: 18d78171c061889a9a43152f60d6a27a10fc7656
+  - ref: refs/heads/slab-struct_slab-v3r1
+    old: 0a3b501af325e4616f94bf0b94ecb2344f933612
+    new: d395d823b3aecf8a65774d4abb52decabb960695
     log: |
-         18d78171c061889a9a43152f60d6a27a10fc7656 blk-mq: check q->poll_stat in queue_poll_stat_show
-         
-  - ref: refs/heads/for-next
-    old: c2626d30f312afc341158e07bf088f5a23b4eeeb
-    new: 20dff3deab5e445568e327423c0ca299ed2cfaa0
-    log: |
-         18d78171c061889a9a43152f60d6a27a10fc7656 blk-mq: check q->poll_stat in queue_poll_stat_show
-         20dff3deab5e445568e327423c0ca299ed2cfaa0 Merge branch 'for-5.17/block' into for-next
+         45992ff63ce7646ec7744863c2d01bcc82c69b7f mm/sl*b: Differentiate struct slab fields by sl*b implementations
+         1c21580b39259656b9f5522960f5b1b2f6a5359e mm/slub: Simplify struct slab slabs field definition
+         c45322d8fa9cd3da213c96169b55d250af638323 mm/slub: Define struct slab fields for CONFIG_SLUB_CPU_PARTIAL only when enabled
+         5718b5cdd6e58f553fa923f437615e8399602af4 zsmalloc: Stop using slab fields in struct page
+         d395d823b3aecf8a65774d4abb52decabb960695 bootmem: Use page->index instead of page->freelist
          
