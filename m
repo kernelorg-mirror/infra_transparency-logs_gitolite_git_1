@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 02 Dec 2021 10:56:10 -0000
-Message-Id: <163844257022.10210.5723660067337666767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 02 Dec 2021 11:11:57 -0000
+Message-Id: <163844351719.18905.3845045935957599393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: 94902d849e85093aafcdbea2be8e2beff47233e6
-    new: 35b6b28e69985eafb20b3b2c7bd6eca452b56b53
+  - ref: refs/heads/fuzzing/5.16-rc3
+    old: 24a22db61d641e1cecb296348b0eb6b9965cee38
+    new: 0b7b32f49be970ced9aa0fd739647eb09266c5f4
     log: |
-         ce39d473d1edd6914e1eed097deb0c0612baa8f6 arm64: update PAC description for kernel
-         2f2183243f52a8ee77eecba4796316606701d101 arm64: kexec: use __pa_symbol(empty_zero_page)
-         35b6b28e69985eafb20b3b2c7bd6eca452b56b53 arm64: ftrace: add missing BTIs
+         b6f362a0b3f72e7790343ed539f9bb621a29b1e4 kasan: move kasan_shadow_to_mem() to shared header
+         482722dc611bd093c8701f41051193b4659243ea arm64: mm: use die_kernel_fault() in do_mem_abort()
+         0b7b32f49be970ced9aa0fd739647eb09266c5f4 arm64: mm: log potential KASAN shadow alias
          
