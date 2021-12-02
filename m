@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Dec 2021 02:56:53 -0000
-Message-Id: <163841381344.21708.3170380592153562791@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 03:08:56 -0000
+Message-Id: <163841453620.28033.11312757210469980778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 3968e3cafafb72ecf12d1263f935d20bc9df9bc2
-    new: e2dabc4f7e7b60299c20a36d6a7b24ed9bf8e572
+    old: e2dabc4f7e7b60299c20a36d6a7b24ed9bf8e572
+    new: addad7643142f500080417dd7272f49b7a185570
     log: |
-         e2dabc4f7e7b60299c20a36d6a7b24ed9bf8e572 net: qlogic: qlcnic: Fix a NULL pointer dereference in qlcnic_83xx_add_rings()
+         ee201011c1e1563c114a55c86eb164b236f18e84 vrf: Reset IPCB/IP6CB when processing outbound pkts in vrf dev xmit
+         addad7643142f500080417dd7272f49b7a185570 net/mlx4_en: Fix an use-after-free bug in mlx4_en_try_alloc_resources()
          
