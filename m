@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Dec 2021 12:19:20 -0000
-Message-Id: <163844756005.29172.796855371329390061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 02 Dec 2021 12:23:20 -0000
+Message-Id: <163844780046.31890.5855422091550563430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 19f36edf14bcdb783aef3af8217df96f76a8ce34
-    new: a05431b22be819d75db72ca3d44381d18a37b092
+    old: a290cf692779ccce6dbb05398fad32d035bfd313
+    new: a72d45e646547d4ec59ee16f122c2764eb36bf05
     log: |
-         a05431b22be819d75db72ca3d44381d18a37b092 selftests: net: Correct case name
+         7e9979e360075ef5db77e77d1e8ab3efbcba6eef qed: Enhance rammod debug prints to provide pretty details
+         a72d45e646547d4ec59ee16f122c2764eb36bf05 dt-bindings: net: lan966x: Add additional properties for lan966x
          
