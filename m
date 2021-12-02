@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Thu, 02 Dec 2021 15:50:56 -0000
-Message-Id: <163846025624.853.12591405767858447348@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 15:51:01 -0000
+Message-Id: <163846026180.990.12624842505942435526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vbabka/linux
 user: vbabka
 changes:
-  - ref: refs/heads/slab-struct_slab-v3r1
+  - ref: refs/heads/slab-next
     old: 0a3b501af325e4616f94bf0b94ecb2344f933612
     new: d395d823b3aecf8a65774d4abb52decabb960695
     log: |
