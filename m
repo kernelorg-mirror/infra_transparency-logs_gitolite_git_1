@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 02 Dec 2021 20:36:12 -0000
-Message-Id: <163847737257.19453.2074365487900928145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 02 Dec 2021 20:50:03 -0000
+Message-Id: <163847820351.28446.18309551456909064117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 916be699403081ebe21e49226ce141b529c7396d
-    new: 87cc8b056da38d11fe28497912ad85e570c4d526
+  - ref: refs/heads/perf-wip
+    old: 8a232c44f6caf0bd76667325981e93b2d8c21690
+    new: 970fdf70dcf8008c49b8d56e3d5ec4e99728b853
     log: |
-         87cc8b056da38d11fe28497912ad85e570c4d526 Thu Dec  2 08:35:07 PM UTC 2021
+         859ee698c4d8c619c33b0385f8782265399b6d1c block: add completion handler for fast path
+         ad6250980572f23b213784c6871805969cd270c5 block: use singly linked list for bio cache
+         970fdf70dcf8008c49b8d56e3d5ec4e99728b853 block: enable bio allocation cache for IRQ driven IO
          
