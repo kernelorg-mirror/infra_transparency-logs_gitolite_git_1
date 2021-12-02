@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1365154087450102095=="
+Content-Type: multipart/mixed; boundary="===============8054170103756196531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 02 Dec 2021 19:42:03 -0000
-Message-Id: <163847412370.17009.2748844714541345684@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 19:42:06 -0000
+Message-Id: <163847412604.17084.12794380397918444543@gitolite.kernel.org>
 
---===============1365154087450102095==
+--===============8054170103756196531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 64b5b97b8cfff64409fcc234ae3151bc8de0c4d6
     new: 7fb4d48dc255cf186ecd11cadf34f56cd10bf3b7
     log: revlist-64b5b97b8cff-7fb4d48dc255.txt
 
---===============1365154087450102095==
+--===============8054170103756196531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ d82fa9b708d7d8a9c275d86c4388d24ecc63206c selftests/bpf: Improve inner_map test c
 098dc5335a2083223c80d058ab4d23f6ce120b97 selftests/bpf: Add CO-RE relocations to verifier scale test.
 7fb4d48dc255cf186ecd11cadf34f56cd10bf3b7 Merge branch 'bpf: CO-RE support in the kernel'
 
---===============1365154087450102095==--
+--===============8054170103756196531==--
