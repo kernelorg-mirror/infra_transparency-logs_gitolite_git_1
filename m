@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6937322598432684719=="
+Content-Type: multipart/mixed; boundary="===============1469912103080671696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 02 Dec 2021 16:13:31 -0000
-Message-Id: <163846161135.14068.11369581317953342094@gitolite.kernel.org>
+Date: Thu, 02 Dec 2021 16:14:32 -0000
+Message-Id: <163846167215.14451.9250100813645875@gitolite.kernel.org>
 
---===============6937322598432684719==
+--===============1469912103080671696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 8212f8986d311ccf6a72305e6bdbd814691701d6
-    new: 4dc0759c563a9aa3aa09c316a066d265f3930887
-    log: revlist-8212f8986d31-4dc0759c563a.txt
+  - ref: refs/heads/for-next
+    old: 7528edbafeeff1dd47d0adff55ee66a0e6a42d9d
+    new: 373c0a8905200b630da6ac1f0d2d614ee7bdb4e2
+    log: revlist-7528edbafeef-373c0a890520.txt
 
---===============6937322598432684719==
+--===============1469912103080671696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8212f8986d31-4dc0759c563a.txt
+Content-Disposition: attachment; filename=revlist-7528edbafeef-373c0a890520.txt
 
-7120a447c7fe37a123ab7a63afefdbf0787b9002 drm/ttm: Double check mem_type of BO while eviction
 9c8e9c9681a0f3f1ae90a90230d059c7a1dece5a PCI/MSI: Move non-mask check back into low level accessors
 2226667a145db2e1f314d7f57fd644fe69863ab9 PCI/MSI: Deal with devices lying about their MSI mask capability
 f21082fb20dbfb3e42b769b59ef21c2a7f2c7c1f PCI: Add MSI masking quirk for Nvidia ION AHCI
@@ -1050,5 +1049,6 @@ df05c0e9496ce1e28b51f79f9fae94479a37fa60 Documentation: Raise the minimum suppor
 e1ab4182ca113f9a14e3aefc15cf7652b8446991 Revert "ARM: 9070/1: Make UNWINDER_ARM depend on ld.bfd or ld.lld 11.0.0+"
 0766bffcae0706baddea6aa3f85b43031ede0e0d gcov: Remove compiler version check
 4dc0759c563a9aa3aa09c316a066d265f3930887 init/Kconfig: Drop linker version check for LD_ORPHAN_WARN
+373c0a8905200b630da6ac1f0d2d614ee7bdb4e2 [for -next only] kconfig: generate include/generated/rustc_cfg
 
---===============6937322598432684719==--
+--===============1469912103080671696==--
