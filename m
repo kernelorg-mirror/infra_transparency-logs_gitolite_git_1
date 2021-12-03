@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2900382405663652967=="
+Content-Type: multipart/mixed; boundary="===============9180483765882613169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 03 Dec 2021 17:40:02 -0000
-Message-Id: <163855320212.18997.4276614155419327323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Fri, 03 Dec 2021 17:46:33 -0000
+Message-Id: <163855359395.23802.7473146706395385791@gitolite.kernel.org>
 
---===============2900382405663652967==
+--===============9180483765882613169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/x86/platform
-    old: c06a2ba62fc401b7aaefd23f5d0bc06d2457ccc1
-    new: 9e4d52a00a0217857fa40dc998971a375f861a61
-    log: revlist-c06a2ba62fc4-9e4d52a00a02.txt
+  - ref: refs/heads/socfpga_qspi_fix
+    old: 3685002da93da6b8106b18bc2c033145cddd733f
+    new: cb25b11943cbcc5a34531129952870420f8be858
+    log: revlist-3685002da93d-cb25b11943cb.txt
 
---===============2900382405663652967==
+--===============9180483765882613169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c06a2ba62fc4-9e4d52a00a02.txt
+Content-Disposition: attachment; filename=revlist-3685002da93d-cb25b11943cb.txt
 
 2ec20f489591962db8ff1718aa6055c08d88d0cc Merge tag 'nfs-for-5.16-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 38764c734028bf0ae4cf262f3eb7d965c86298bd Merge tag 'nfsd-5.16' of git://linux-nfs.org/~bfields/linux
@@ -1049,6 +1049,6 @@ d039f38801245ed99c0351b2259550170d7fe17b Merge tag 'locking-urgent-2021-11-28' o
 9557e60b8c3521e43bf5f21db95b2b42d7c43ac9 Merge tag 'x86-urgent-2021-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
-9e4d52a00a0217857fa40dc998971a375f861a61 x86/ce4100: Replace "ti,pcf8575" by "nxp,pcf8575"
+cb25b11943cbcc5a34531129952870420f8be858 ARM: socfpga: dts: fix qspi node compatible
 
---===============2900382405663652967==--
+--===============9180483765882613169==--
