@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Fri, 03 Dec 2021 19:15:05 -0000
-Message-Id: <163855890526.16123.5085134160346592193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 03 Dec 2021 19:18:42 -0000
+Message-Id: <163855912268.17545.8273592581966959049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/dev-test
-    old: f63551b9e4938f3e0ece4a60b5fb37fbff31972d
-    new: 972d71073af32a1854aeece018746a9f8021dd14
-    log: |
-         972d71073af32a1854aeece018746a9f8021dd14 fsck.f2fs: do not assert if i_size is missing i_blocks in symlink
-         
+  - ref: refs/heads/linkage/alias-rework
+    old: 0000000000000000000000000000000000000000
+    new: a5a4709ef14bf3269f0de4c776d7ca425e119ddd
