@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8411882944262614166=="
+Content-Type: multipart/mixed; boundary="===============8853472941540259469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 03 Dec 2021 17:31:47 -0000
-Message-Id: <163855270708.14944.5827085005347062730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 03 Dec 2021 17:36:34 -0000
+Message-Id: <163855299467.17751.9410600056349071354@gitolite.kernel.org>
 
---===============8411882944262614166==
+--===============8853472941540259469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
   - ref: refs/heads/x86/mm
@@ -20,7 +20,7 @@ changes:
     new: e1cd82a339024beda8439fb2e20718363ee989a8
     log: revlist-9a951429b2e1-e1cd82a33902.txt
 
---===============8411882944262614166==
+--===============8853472941540259469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -846,4 +846,4 @@ d06c942efea40e1701ade200477a7449008d9f24 Merge tag 'for_linus' of git://git.kern
 d58071a8a76d779eedab38033ae4c821c30295a5 Linux 5.16-rc3
 e1cd82a339024beda8439fb2e20718363ee989a8 x86/mm: Add missing <asm/cpufeatures.h> dependency to <asm/page_64.h>
 
---===============8411882944262614166==--
+--===============8853472941540259469==--
