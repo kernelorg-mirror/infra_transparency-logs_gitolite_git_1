@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 03 Dec 2021 00:36:21 -0000
-Message-Id: <163849178143.10380.16148851766822526718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 03 Dec 2021 00:53:27 -0000
+Message-Id: <163849280755.21276.9808173103274463540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/tags/v5.16-rc3
+  - ref: refs/tags/mlx5-updates-2021-12-02
     old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
+    new: 3041c689c12af9b4558c09cd52f740bfc10c7ea9
