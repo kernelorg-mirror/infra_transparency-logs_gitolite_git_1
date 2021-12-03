@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 03 Dec 2021 20:18:58 -0000
-Message-Id: <163856273841.23805.9310085711402013927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Fri, 03 Dec 2021 20:21:01 -0000
+Message-Id: <163856286178.26280.8488240986221213925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 changes:
-  - ref: refs/heads/master
-    old: c0a0f610571d528413ea59946c38c6be5c9a7959
-    new: c0d7a913045330a11788242ae38ffe7cfe56adf7
+  - ref: refs/heads/main
+    old: 5f8bb902e14f91161f9ed214d5fc1d813af8ed88
+    new: 3f77bc62533c0b50da135e3f90ae6549b012d1ed
     log: |
-         c0d7a913045330a11788242ae38ffe7cfe56adf7 Fri Dec  3 08:18:24 PM UTC 2021
+         3f77bc62533c0b50da135e3f90ae6549b012d1ed uapi: update to if_ether.h
          
