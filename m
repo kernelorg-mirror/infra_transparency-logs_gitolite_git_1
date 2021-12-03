@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 03 Dec 2021 08:42:50 -0000
-Message-Id: <163852097042.26113.6462068235152261139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 03 Dec 2021 09:00:38 -0000
+Message-Id: <163852203878.26173.10585624634139458681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: afbf9a26b1933a78d7568718b1183cdfdd67a38d
-    new: 7d859aba56e6c6b240aa0e4add1aaa967d849a69
+  - ref: refs/heads/rtc-next
+    old: a478c433d72bf006f36bef68c239c8a68b062e5b
+    new: 5c0189a8b52f76d8a061d2ec80adb11559742d78
     log: |
-         d080811f27936f712f619f847389f403ac873b8f HID: add USB_HID dependancy to hid-chicony
-         30cb3c2ad24b66fb7639a6d1f4390c74d6e68f94 HID: add USB_HID dependancy to hid-prodikeys
-         caff009098e6cf59fd6ac21c3a3befcc854978b4 HID: google: add eel USB id
-         086e81f6b90e41a07a1a885bb11e93daa6915747 HID: intel-ish-hid: ipc: only enable IRQ wakeup when requested
-         7d859aba56e6c6b240aa0e4add1aaa967d849a69 Merge branch 'for-5.16/upstream-fixes' into for-next
+         029d3a6f2f3c73ac29a7460d8007798e940488fd rtc: da9063: add as wakeup source
+         10d96b44a94e5cfd23739d2dcb950a7bdc109736 dt/bindings: rtc: rx8900: Add an entry for RX8804
+         5c0189a8b52f76d8a061d2ec80adb11559742d78 rtc: rv8803: Add support for the Epson RX8804 RTC
          
