@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7717282829863365257=="
+Content-Type: multipart/mixed; boundary="===============3579442123304450206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 03 Dec 2021 15:57:33 -0000
-Message-Id: <163854705384.19606.16087528295657793504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 03 Dec 2021 15:57:38 -0000
+Message-Id: <163854705875.19693.3224726133752221394@gitolite.kernel.org>
 
---===============7717282829863365257==
+--===============3579442123304450206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5f58da2befa58edf3a70b91ed87ed9bf77f1e70e
     log: revlist-58e1100fdc59-5f58da2befa5.txt
 
---===============7717282829863365257==
+--===============3579442123304450206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -203,4 +203,4 @@ a51e3ac43ddbad891c2b1a4f3aa52371d6939570 Merge tag 'net-5.16-rc4' of git://git.k
 a687efed194bdc185fd7cb33920fe8b4e60ecb9e Merge tag 'drm-intel-fixes-2021-12-02' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 5f58da2befa58edf3a70b91ed87ed9bf77f1e70e Merge tag 'drm-fixes-2021-12-03-1' of git://anongit.freedesktop.org/drm/drm
 
---===============7717282829863365257==--
+--===============3579442123304450206==--
