@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0167900899271478804=="
+Content-Type: multipart/mixed; boundary="===============7366716605573631083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Fri, 03 Dec 2021 13:14:51 -0000
-Message-Id: <163853729151.11046.12876061469472838894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 03 Dec 2021 13:15:35 -0000
+Message-Id: <163853733514.12802.16172146969742696980@gitolite.kernel.org>
 
---===============0167900899271478804==
+--===============7366716605573631083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: luca
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pending
-    old: 69831173fcbbfebb7aa2d76523deaf0b87b8eddd
-    new: c41548abd17463917296e2749fe077ac28b9ae47
-    log: revlist-69831173fcbb-c41548abd174.txt
+  - ref: refs/heads/tty-linus
+    old: bb1201d4b38ec67bd9a871cf86b0cc10f28b15b5
+    new: 9cabe26e65a893afd5846908aa393bd283ab6609
+    log: |
+         9cabe26e65a893afd5846908aa393bd283ab6609 serial: 8250_bcm7271: UART errors after resuming from S2
+         
 
---===============0167900899271478804==
+--===============7366716605573631083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69831173fcbb-c41548abd174.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-44abbbc50f40336a3d4df3b09b4d3188e9dffd1b iwlwifi: mvm: fix delBA vs. NSSN queue sync race
-51aea5b79ea47b19fdb77e2f3a323ae1b03e83f3 iwlwifi: mvm: synchronize with FW after multicast commands
-64d2ea8b61f27ee1d1e33dd5670bccb7f26ebf35 iwlwifi: properly support 4-bit MAC step
-fc8626515758622967dd21f1a23eb91902fa2ffa iwlwifi: add support for Bz-Z HW
-f309942ddd154d5057dec27fd69134d4bf0f7cf8 iwlwifi: mvm: d3: move GTK rekeys condition
-63f3d150689af86dfdda7168532768c72ab8c077 iwlwifi: pcie: support Bz suspend/resume trigger
-f856cb190a4e4653ed4b10d2d534c512e804725e iwlwifi: mvm: parse firmware alive message version 6
-73637acafe0bcfd400609be40ee6e86c4ab7a1a9 iwlwifi: mvm: d3: support v12 wowlan status
-55faa3782bb0b8c1f0c0d574aa0795bd26550efa iwlwifi: mvm: support RLC configuration command
-d7c4ed8e85e0aba6dae1d2e0803d5b5085bc4d39 iwlwifi: fw: api: add link to PHY context command struct v1
-aca5bd78518eee6bd98d948b625ac3e1e51efbf4 iwlwifi: mvm: add support for PHY context command v4
-c41548abd17463917296e2749fe077ac28b9ae47 iwlwifi: remove unused iwlax210_2ax_cfg_so_hr_a0 structure
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638537333 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1638537333-419a44838f6b7fcdb023262af02736efb7bbd0e0
 
---===============0167900899271478804==--
+bb1201d4b38ec67bd9a871cf86b0cc10f28b15b5 9cabe26e65a893afd5846908aa393bd283ab6609 refs/heads/tty-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqGHUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xy0P/26Op2CUg/SLlcmoONMi
+XkTkjgyutaS8CWyKVnlL8+OHYZ+aDbG4XKNcuTHJMI45X6B3cZLHTq76CmJOIFMt
+chb03xK5ToioHIcba9mVOuXg8jR9i0VNhwbiWoFSatsL9O807ilg5Q5+/9WbRIFj
+1OqhHxPz+U/5AOkD86c81VkSJXRVwLs+K5ElkqcfX11c0Hs2N9N5NyBTWuIkzkyz
+QAhLdmMEjryi/S6GwzBZWQOK+S/Fvggzu5A2rtS3Je6LSozgEdljHCWFSA0AxR9n
+Ba13O8nzEKk9NnhhdGAMu21x07RDYDO2KxANlVb0ibv2TPHC+bMr5VnjnlsBsf0U
+MqKRAYYcEHpI5imsRj0SihCWoqVX71ImB93LwsAGVLnpzaquCi2vrnAMPgr050S1
+1m4dQVItYGOYAzgU/4pA8xPomb6TQv4abWIWTVm7MJofaLPyTVhVBEgRtxt52pmo
+OBG++AA8VKO3B14wPOMvgOBXkY4wEvMWcevCN91m4tQagoXpFj5f1CR3pmbVcOKv
+RfrGLJfZyHYP/dySEGxjgD2nxWW+O73xd7qF0Sn7wph8QbgqU9OeRPe6yGasgm8Q
+0cssZnOKkaDyFyyHKUBaI8uX/uZL5TsXtPAzVCtOn8mUYhtZOk+XOov804yFULj4
+gvW6JJ2KqektPWXvYOkPcN1H
+=xRCm
+-----END PGP SIGNATURE-----
+
+--===============7366716605573631083==--
