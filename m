@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 03 Dec 2021 04:47:06 -0000
-Message-Id: <163850682650.10731.9584670272112195203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 03 Dec 2021 05:00:25 -0000
+Message-Id: <163850762554.20501.950250497740277649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 3ed6dfbd3bb987b3d2de86304ae45972ebff5870
-    new: 8f5783ad9eb83747471f61f94dbe209fb9fb8a7d
+  - ref: refs/heads/master
+    old: 330507fbc9d8c3bc4525ea2ae9c3774738bc0c80
+    new: 0ea275df84c389e910a3575a9233075118c173ee
     log: |
-         8f5783ad9eb83747471f61f94dbe209fb9fb8a7d cpufreq: qcom-hw: Use optional irq API
+         087e1d715bccf25dc0e83294576e416b0386ba20 crypto: caam - save caam memory to support crypto engine retry mechanism.
+         5876b0cb883da7a16129dadc06250a36a79a8ee1 crypto: sa2ul - Use bitfield helpers
+         0ea275df84c389e910a3575a9233075118c173ee crypto: octeontx2 - uninitialized variable in kvf_limits_store()
          
