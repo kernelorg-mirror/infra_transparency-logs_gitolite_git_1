@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1088587016985202701=="
+Content-Type: multipart/mixed; boundary="===============0618598373978159506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 03 Dec 2021 13:30:22 -0000
-Message-Id: <163853822233.23141.6417053049396827139@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 13:32:17 -0000
+Message-Id: <163853833719.23779.7993665886800689086@gitolite.kernel.org>
 
---===============1088587016985202701==
+--===============0618598373978159506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 09184ae9b5756cc469db6fd1d1cfdcffbf627c2d
-    new: 33dc3e3e99e626ce51f462d883b05856c6c30b1d
+  - ref: refs/heads/char-misc-linus
+    old: 9a626577398c24ecab63c0a684436c8928092367
+    new: 0edeb8992db8e7de9b8fe3164ace9a4356b17021
     log: |
-         33dc3e3e99e626ce51f462d883b05856c6c30b1d w1: Misuse of get_user()/put_user() reported by sparse
+         0edeb8992db8e7de9b8fe3164ace9a4356b17021 misc: rtsx: Avoid mangling IRQ during runtime PM
          
 
---===============1088587016985202701==
+--===============0618598373978159506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638538221 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638538335 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1638538220-e3546cc1f9a1cc70140480bdcd6ae2e7546c7a6c
+nonce 1638538335-291f1c50422cb2b074162f60170432d49aa87def
 
-09184ae9b5756cc469db6fd1d1cfdcffbf627c2d 33dc3e3e99e626ce51f462d883b05856c6c30b1d refs/heads/char-misc-testing
+9a626577398c24ecab63c0a684436c8928092367 0edeb8992db8e7de9b8fe3164ace9a4356b17021 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqG+0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6VQP/3299bPnDKV1CjdNGPrg
-ioPdEp3qt/xFMHWgqQ8SB51PmXDGkdbvK9DC9kaXX5Y6XnA+lK1QXAGoxLWZEWFE
-y1Dy4dawkHbqqStcQ1jolmz1zT4qYY3YEHC0/B/j6vDU1dChfoBWgTxoGmugAmB8
-xyII2Qgf86EowCOwvgzlOBW5KFapNFwUFCxTd3ko7hFZsEG8EFo1lTIktlUmdXsF
-nWTTOY+JO2cv9DdTh8SDh3Njx1BtKT9fTSqFwqg2WY64RDKRkseFFRFDlMu2q8Xc
-H1rJ80j5ppHbEVqKO7OF1PfGk1DeaMd8Rz6uCvYAMOwtjXV8Bwf0/eKbEQR3qP/F
-MdecV0PoyXpRurYt7IhI8ovsg0NGu5L80ScZs/hXjFGLiIlLl87fCp3ItpLKMArM
-HAcAF0XUv7iwaj146ITNRJM8Sc54E/ITJx/pCFhgKfudJPUAQtC8zxiXFGpTmKaf
-DhWFTNS5ECxExc/9WnsMmsdei56zUjcjnll0L9xzxxkeppHeWA/dNEVFJl744ltN
-J0Hzkp5OpYY/rh9GRLOSblFpI277GVgK7hIdNbGrxJjfBEpHbReg7Vaa4XrnLqvG
-8cV/HwcJRtpoQdbx/UhuKN0ctl6JdsmObZFhKa6T85bCm5IFMkSQp/2dkKIWtC0I
-VQwI6ejCee2+/t5oIts7dA07
-=rGVf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqHF8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gMoP/jI5cY49K77MDho0+xNo
+p3sqyBDg+bpl3cMt9f7j7QaCg66K57i88954G+ljmz9UmQfa2UbJTOE4sD2URrzP
+ix1emOaBoB+cIoq9BFtmFDWo4t1mDuqNunw1Wq+TUYobqruFTr4zggWe9YWmXEJG
+/NJ5oc2B5eSTxvjYDQ3bfDKWOF/xTEW9uhmcavxhnFPawNaiZU8eLx+cjDRH66rr
+Y2foppKstdEMZnNdHos1kW2safByBciRBMZrZ/jK83pdqgdvHebUcdSTxl9/+jzK
+9mEvAtwiB1OeJ6cwIWq8ZhCOw9BDxJT0yzHac7QrsmRSnU3u/4KNtk6r3I38enAY
+Uu+Kr02lJ42LGnE1RzgtLz6VfFp+re6Hk3s9YaWIIw2nTeTLk81xghWpfEvoD/iQ
+L4Mqkxb4pP+dimE60pNBTzLwlDVO1x/UOMKEE8HGFyYk+knkqVM0v8+RRED1kMuL
+zoZoFXsAErdkkdtdhNfSf9pmdolwssUZOg7sHXheqVLgq08luKY1peJ1GkkZHcAJ
+E3rThyhJIVOhrV8Ckqh8N5303KWkfhb8DKDm01hjiry1dZ6cbsAUeJcaXIL9fdIL
+BJ1wgQC2OSbR6fF3NGXdatZyj6xKuWMwzAecfhAYcWDR6eg7+wfAJkn2q3SLvWF3
+S8FumuN1kEf7W6PHLCOKh+Th
+=HHM5
 -----END PGP SIGNATURE-----
 
---===============1088587016985202701==--
+--===============0618598373978159506==--
