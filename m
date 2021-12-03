@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7299772619758526572=="
+Content-Type: multipart/mixed; boundary="===============4581836067477802210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 03 Dec 2021 18:20:39 -0000
-Message-Id: <163855563968.14449.8372379879837867109@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 18:20:53 -0000
+Message-Id: <163855565336.14607.15110504400827131293@gitolite.kernel.org>
 
---===============7299772619758526572==
+--===============4581836067477802210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 88362ebfd7fb569c78d5cb507aa9d3c8fc203839
     new: badd7857f5c933a3dc34942a2c11d67fdbdc24de
     log: revlist-88362ebfd7fb-badd7857f5c9.txt
 
---===============7299772619758526572==
+--===============4581836067477802210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -210,4 +210,4 @@ dac8e00fb640e9569cdeefd3ce8a75639e5d0711 bonding: make tx_rebalance_counter an a
 128f6ec95a282b2d8bc1041e59bf65810703fa44 net: bcm4908: Handle dma_set_coherent_mask error codes
 badd7857f5c933a3dc34942a2c11d67fdbdc24de net: altera: set a couple error code in probe()
 
---===============7299772619758526572==--
+--===============4581836067477802210==--
