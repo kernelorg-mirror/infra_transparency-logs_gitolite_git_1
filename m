@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============6454544262412647524=="
+Content-Type: multipart/mixed; boundary="===============2613492748317125017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 03 Dec 2021 09:27:04 -0000
-Message-Id: <163852362495.6247.16459587999536910561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Fri, 03 Dec 2021 09:41:08 -0000
+Message-Id: <163852446834.14595.17483707840733981411@gitolite.kernel.org>
 
---===============6454544262412647524==
+--===============2613492748317125017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/arm-up-ti-in-task-v3
-    old: 3a5522c28c01d266676715c2e23bbee25786a06c
-    new: 2cedab86cc9a797163eb2b1b828bbdc1f6b9c228
-    log: revlist-3a5522c28c01-2cedab86cc9a.txt
+  - ref: refs/heads/mac80211-next
+    old: 690c735dc56561a2cf331dcded3eecdbad1edd7f
+    new: 527686cda037164304259a21bde1cd2fcc53652a
+    log: revlist-690c735dc565-527686cda037.txt
 
---===============6454544262412647524==
+--===============2613492748317125017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a5522c28c01-2cedab86cc9a.txt
+Content-Disposition: attachment; filename=revlist-690c735dc565-527686cda037.txt
 
-2a665d7d4a00b01ca45a54dfb1530ca4dbeb0a23 ARM: iop32x: offset IRQ numbers by 1
-d511b81c5869e728c94e293ab55cb2fc1dd8e598 ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
-a30cea7017bb296ca7b85d8f5f3d48de8778a8b4 ARM: remove old-style irq entry
-c420e74249900d2ce319d4521e67b63be1aed27d irqchip: nvic: Use GENERIC_IRQ_MULTI_HANDLER
-c014d0f84e823b2e8d92b0aa8b255f07b4455120 ARM: entry: preserve thread_info pointer in switch_to
-434f801dc3ec260f93b63640e9b888d9a2e15b8e ARM: module: implement support for PC-relative group relocations
-78cb1ff012b3ec5661ecfcb1dc0313873c560ba3 ARM: assembler: add optimized ldr/str macros to load variables from memory
-16875ef67bb6aed23d88727febc4a72939ac89b6 ARM: percpu: add SMP_ON_UP support
-0ec48f0e6422278384597165b4b83fa33db21414 ARM: use TLS register for 'current' on !SMP as well
-45618a76aad18263508caad69ecb413fd6b8c422 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
-2e33af278d869ec5a017ce354628cb82b35d8a53 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
-2cedab86cc9a797163eb2b1b828bbdc1f6b9c228 ARM: v7m: enable support for IRQ stacks
+ac51d574458c0ab84eeff5f2cf577b9ce0488f79 mac80211: add more HT/VHT/HE state logging
+bef76299d3a684ae4afc17c942a8e72404e3a732 cfg80211: Add support for notifying association comeback
+1ab812568e840099d1f5558f70b53ad0aba0c7f5 mac80211: Notify cfg80211 about association comeback
+71eb2176e54e60a9900d9db46d42c1ae05a99053 cfg80211: Use the HE operation IE to determine a 6GHz BSS channel
+6929667badbe349608ebe42113752bb5a2874fce [BUGFIX] cfg80211: check fixed size before ieee80211_he_oper_size()
+e6fc106000909416c161b5412fcafad1dc93d797 mac80211: introduce channel switch disconnect function
+7589987d472f0817083798b7a4f3c2ebc95f6dad mac80211: mark TX-during-stop for TX in in_reconfig
+2f5b6edbdfbde693dcd915ca899e0b228481de34 mac80211: do drv_reconfig_complete() before restarting all
+e3d476868e362a3f0b72db8e235c1fe29bcb43a2 cfg80211: Fix order of enum nl80211_band_iftype_attr documentation
+48dbbd0836d87912e7d87791443ed9cf647dbe0f mac80211: update channel context before station state
+cdacf0e335d62433ed3375c7c8d79d82ae37b9c0 cfg80211: simplify cfg80211_chandef_valid()
+a39f43db91037a7b8815c8d739723189e7f0f75f mac80211: Remove a couple of obsolete TODO
+07f668218643a5523cdcba283caac180673f3be1 mac80211: Fix the size used for building probe request
+a41f33c1abd319f12c55570a9a664f6b682818b2 mac80211: fix lookup when adding AddBA extension element
+f519884c8784caa48bc4b703fba8341e3d531a07 mac80211: agg-tx: don't schedule_and_wake_txq() under sta->lock
+527686cda037164304259a21bde1cd2fcc53652a cfg80211: Acquire wiphy mutex on regulatory work
 
---===============6454544262412647524==--
+--===============2613492748317125017==--
