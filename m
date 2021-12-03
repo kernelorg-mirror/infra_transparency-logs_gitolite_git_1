@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 Dec 2021 21:22:25 -0000
-Message-Id: <163856654596.32235.14889597686134870997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 03 Dec 2021 21:23:59 -0000
+Message-Id: <163856663991.398.4316124593947529077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 0bf40542c05ef62997738cd45eea553415adb045
-    new: 78c1f8d0634cc35da613d844eda7c849fc50f643
-    log: |
-         78c1f8d0634cc35da613d844eda7c849fc50f643 libbpf: Reduce bpf_core_apply_relo_insn() stack usage.
-         
+  - ref: refs/heads/x86/wip.sls
+    old: 0000000000000000000000000000000000000000
+    new: 6e193eea4eb731c1da2764591f0ced73ca9f326b
