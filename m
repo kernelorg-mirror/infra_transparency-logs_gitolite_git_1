@@ -1,37 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 03 Dec 2021 07:57:34 -0000
-Message-Id: <163851825415.30892.14302823057014182131@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5820776353025270327=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 03 Dec 2021 08:12:10 -0000
+Message-Id: <163851913046.7018.14836556060480519314@gitolite.kernel.org>
+
+--===============5820776353025270327==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/clk-fixes
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: eee377b8f44e7ac4f76bbf2440e5cbbc1d25c25f
+  - ref: refs/heads/hid_is_usb
+    old: be29771805ee7d748ac02a0df3e1e10f5ead521f
+    new: af3dbd1886094f390518a8b6a27e7734dde0f301
     log: |
-         9a61f813fcc8d56d85fcf9ca6119cf2b5ac91dd5 clk: qcom: regmap-mux: fix parent clock lookup
-         a1f0019c342bd83240b05be68c9888549dde7935 clk: qcom: clk-alpha-pll: Don't reconfigure running Trion
-         eee377b8f44e7ac4f76bbf2440e5cbbc1d25c25f clk: imx: use module_platform_driver
+         e29ffbd95ee533c185c73d029358583b55a6317c HID: add USB_HID dependancy to hid-chicony
+         af3dbd1886094f390518a8b6a27e7734dde0f301 HID: add USB_HID dependancy to hid-prodikeys
          
-  - ref: refs/heads/clk-next
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    new: e45d8b63eb89b9d11e7349039445898d876c11e9
-    log: |
-         9a61f813fcc8d56d85fcf9ca6119cf2b5ac91dd5 clk: qcom: regmap-mux: fix parent clock lookup
-         a1f0019c342bd83240b05be68c9888549dde7935 clk: qcom: clk-alpha-pll: Don't reconfigure running Trion
-         71e762316140445c3146bac98ffb29ad6ea0d36c clk: imx: pllv1: fix kernel-doc notation for struct clk_pllv1
-         8a3492cd8de45013bb1a152efeb8757cfeb43cdd clk: zynq: pll: Fix kernel-doc warnings
-         ecb64bbff7dddf510c7b011a7c0bd6a87e5c88e8 clk: Gemini: fix struct name in kernel-doc
-         b26e2d14838d91c7162c8aa79b1205a472d0e3db Merge branch 'clk-doc' into clk-next
-         eee377b8f44e7ac4f76bbf2440e5cbbc1d25c25f clk: imx: use module_platform_driver
-         e45d8b63eb89b9d11e7349039445898d876c11e9 Merge branch 'clk-fixes' into clk-next
-         
-  - ref: refs/heads/clk-doc
-    old: 0000000000000000000000000000000000000000
-    new: ecb64bbff7dddf510c7b011a7c0bd6a87e5c88e8
+
+--===============5820776353025270327==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638519126 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1638519126-33927459b8630ac6db5d7ba457a9c9084379e821
+
+be29771805ee7d748ac02a0df3e1e10f5ead521f af3dbd1886094f390518a8b6a27e7734dde0f301 refs/heads/hid_is_usb
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGp0VYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m8UQAMiPiyojOlSmZ3VMMLB2
+ENnUQ3RXxeIfL+KRPf2IVIv0uEfzl6OV3FXnRK8Xe9v0nGetFaqhZfO4aB2A3toa
+fxHsARdW987k2M+j5mG4nJrW2WH6xaSqycg4bHi570eTlRdAQyalWKptIwp+TQU/
+N8zfc+b1q+EsfbmObhxNob3Ks643Ud65ZktvmwBbcAcylbbGOTYgw1jydfjxgjxI
+7Hc/pJ2/nadr8SiUlbqHj+vLUreV6RKT3j08u54h6EKeml473hxlpeK99mgLwwAQ
+6OCFyU93lV5PtwdCcctQd8iGsKdUe8giPyzQxCjRJdkiY1+l5hsQmk4jZ1eum57k
+4wXl732zoIs41cNSONqpYnxLFpgfxr9UGj2kEoFapi6XhQdyxOSyP4LMidbj/oxV
+/SZVYY8ovezGlD01JylC34D/A2wsg8hTxxQLUfZ8YEQWGm2gv+CP5eBWY84Q41+w
+1KgKN0roCzaLopN4eTKRbkj8KkWBkieYSwiszrnDaZXX7gsEIiU5SHldfL2cOc18
+FjcrKg3owgwOvA+pVDPvKrZMqXI7S+EJkKwiN9xP4tg/hzCL4XqSNWuSwmi7T/Y8
+3r7J4GgFFFu8DFRBI77SmPPU9dqYwSOs8WR/+Dre8ZaGuTDqapnByyzBfeeZKo6K
+34wdvgvG8w31pMnPD0P5IkjP
+=Vb63
+-----END PGP SIGNATURE-----
+
+--===============5820776353025270327==--
