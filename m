@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 03 Dec 2021 21:33:25 -0000
-Message-Id: <163856720594.6943.16308535819681610937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Fri, 03 Dec 2021 21:47:47 -0000
+Message-Id: <163856806712.15377.15095536608246449877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/master
-    old: ec339c26764987b636b525a69c21b413e0130bbf
-    new: 0de304b359dd03a9ce94684181269a91575989f7
+  - ref: refs/heads/for-next
+    old: 5ae9497dda62833a33c4f8817a52d91b4ae1a140
+    new: 9d3f401c52e3eeeb6cf2c642a8d17879b0e1a3d3
     log: |
-         387b2bf3938d8ac211f63da77ee4b2cd3ab800c7 Bluetooth: MGMT: Use hci_dev_test_and_{set,clear}_flag
-         0de304b359dd03a9ce94684181269a91575989f7 Bluetooth: hci_core: Rework hci_conn_params flags
+         e349d945fac76bddc78ae1cb92a0145b427a87ce signal: Don't always set SA_IMMUTABLE for forced signals
+         fcb116bc43c8c37c052530ead79872f8b2615711 signal: Replace force_fatal_sig with force_exit_sig when in doubt
+         9d3f401c52e3eeeb6cf2c642a8d17879b0e1a3d3 Merge SA_IMMUTABLE-fixes-for-v5.16-rc2
          
