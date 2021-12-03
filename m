@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5909276239424065301=="
+Content-Type: multipart/mixed; boundary="===============5799722567845087196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 03 Dec 2021 14:12:25 -0000
-Message-Id: <163854074594.16524.11894409637582278527@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 14:15:48 -0000
+Message-Id: <163854094840.19070.7760418675765151131@gitolite.kernel.org>
 
---===============5909276239424065301==
+--===============5799722567845087196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,62 +17,69 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: d9367afb1bd92c45c8281371cb99e19f3c4fdb55
-    new: 783133cd07d51ff568898e0b6cea628cc8f3e816
-    log: revlist-d9367afb1bd9-783133cd07d5.txt
+    old: 783133cd07d51ff568898e0b6cea628cc8f3e816
+    new: 7fb6aea9ca847fbd7e4d3273ed202df943edce29
+    log: revlist-783133cd07d5-7fb6aea9ca84.txt
 
---===============5909276239424065301==
+--===============5799722567845087196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638540743 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638540945 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1638540743-fe2d35d387bef49e10264037064c094c5d9f165b
+nonce 1638540945-737fdcc4728746a87adcb2cffd5c901d86a16d1c
 
-d9367afb1bd92c45c8281371cb99e19f3c4fdb55 783133cd07d51ff568898e0b6cea628cc8f3e816 refs/heads/staging-testing
+783133cd07d51ff568898e0b6cea628cc8f3e816 7fb6aea9ca847fbd7e4d3273ed202df943edce29 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqJccbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LucP/0G6NWqwWuaSN53J/qBv
-UNvmBCLioV0a7P84jCGa2nJVYwFxZJ+TnD5ZYqP7o+sxUU8D6XYN1hssBS34rNSr
-HOc/nDtYRaRG7tbmmbLb7RIBhbYZswM+PxxQ52g30W1TE2tbJUK7CpUMcOkUT39J
-psR9CCEtB7vWlg2jdGp4eiHx7rzQpM22ireDX22Bmr62SEIiRXRWTDoFh8bYcWgs
-6Q1ohwABjyATd6TOtieoHD6J+cpa6V42hO/OV9w/5g4FaJTkzbYsm0AZM5kuPHAH
-A/UtEQ3hgrdVNhWkStnWANpJkJt5CITdAy7tjqJ8wH8ZW+3PuCWVJGjVpdEPfFYg
-BnpiUHfZbbp2Mp9vikiv0Hp3Qz6HVB+dbyvwRJfXs07Bjw0vhbTUKyvtP2qrlhSZ
-WsdPtPN7FGFRbGjM03ayEET+9j7MGRpbpvH64WnKCfshyQHsLptZ5NJHeus/JRCm
-3qe+4Y53A0Sp0gicGMPLPq1ZrFpg5GkpFxnUE8JAzn6OrUP/xerikYnJ5mUbHkEF
-Psk1+4UZSZz1WzXGCQNiQ1Iq4P+68VnQDGvNUsKFyjM+wsAo5jA2uem0kAu56BjZ
-n76Mx8RmSI1X2LmOTNfHsns9Qd9ur54TrNvIpi5ZVCO6CyVleUX8jKz66lPRUQJR
-l1mn7PuGWVEoNt6FivdVCIbr
-=tIf9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqJpEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kRAP/3Qgpwt6cbwCPVA1dCrw
+lmBi6n0T1yx/Pnl8Er8Ze4lWY3nRPO0i5T7dDBnttjZBm/QhmKql+cb7kqTdSuZC
+og6F2DGxrVhAfQ0lC8dFJcx2N22hxUi2ghruHtWG9y0VC2JqFwPb1Unm1EY1tO0S
+MmdSQEu9aN/80xe9fbSE7zZ4WJy69QG1aiIHg0sjb4Hg14P2l4+6QZWrOfrU17mo
+YnkqLUrDPetq9vf431Lc4TwvJM9TUrDQHopIqzjIk4QlRaYagf+jf+5FmzfL+Xyv
+1B4/8KAEqCf+m4kNxGAIVLorWdnmUqOAp7G2s5Xv+g5MdWRURDr7zQRfh2hIOYXz
+q4mppwUIRD4Q1iPmxACtlAQKOWgzw95HgnkM5lqitqVAfGjm9wQQm2SmyQC4pC7J
+VcPhwghdQysklyhyRrCHyUvtmiBauTu3j9P4wNiRCtM4rMyk41uxbnMEsza6wnsu
+RGpQsunq6Wt67lgQXv6YWTrS+LIz7ZPsOtWrDDiaibeTDuYB2JS3/rjWXttWApzp
+ZIFSdc20f+xCsbPrEEPBnpYpNTMUl+J4p+JI4l13CdJcAKebP0gGI78rEm2/51Fa
+Q97cGKJgWF4+NnROmI7mS1cB1AUxcaRCgEmkLxdEjsrezB8zg8wT3M6B9ARy09uN
+FpDkSNS42v+OYp3NymxCdvQh
+=FyMH
 -----END PGP SIGNATURE-----
 
---===============5909276239424065301==
+--===============5799722567845087196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9367afb1bd9-783133cd07d5.txt
+Content-Disposition: attachment; filename=revlist-783133cd07d5-7fb6aea9ca84.txt
 
-7988cf07e7bf63a3dc7aee245e8a06a8e0bcb149 staging: vt6655: refactor camelcase uCurrRSSI to current_rssi
-f47b40a4fa917e257b598cc2398e618c9f877b86 staging: rtl8192u: make array queuetopipe static const
-68bf78ff59a0891eb1239948e94ce10f73a9dd30 staging: rtl8192e: return error code from rtllib_softmac_init()
-e730cd57ac2dfe94bca0f14a3be8e1b21de41a9c staging: rtl8192e: rtllib_module: fix error handle case in alloc_rtllib()
-7de80b094e4f7f694e373c8537fce43a782bd99c staging: rtl8192e: rtllib_module: remove unnecessary assignment
-678fb0b65e6eac8c550260f37531b8ecd53cd8bd staging: r8188eu: rtw_read_port needs no cnt parameter
-25b9bd7589109abcdc02a9e953c35f484037620e staging: r8188eu: only the bulk in ep is used for network data
-ad697c64350f64faabf98c851abb625b1b880116 staging: r8188eu: get the rcv bulk pipe handle directly
-5da7b6537feed299a739d017e74cfb2a5b97a0be staging: r8188eu: remove code to get int in pipe handle
-9c4bb17a207a76da97abdce6660710095652676c staging: r8188eu: if2 is not used
-d667d76b62cd41a5571203f9965cd67d1713086e staging: r8188eu: remove ep_num array
-47ca8d19408e250ed626e0ff20afe1b7e80cc452 staging: r8188eu: don't store nr_endpoint in a global struct
-75c488c0a44dc10dc03d90b87c1eebbf0b79d55a staging: r8188eu: require a single bulk in endpoint
-bf77d584b563a09913d028b14459eda5ef16b33c staging: r8188eu: remove pm_netdev_open
-cc8e6570e88ba55e492879dfadccc34abf91ce17 staging: r8188eu: remove _ps_open_RF
-2c102853a8e33edcdf023c0f7ce3d4d6ea686536 staging: r8188eu: remove _ps_close_RF
-783133cd07d51ff568898e0b6cea628cc8f3e816 staging: r8188eu: loadparam needs no net_device
+d6734d08e45cebb129596930c2edb72eec1c482e staging: r8188eu: remove rf_type from rtw_update_ht_cap()
+f95de483b5b138e3c1bea55617f89f5e2f38d10c staging: r8188eu: remove rf_type from issue_assocreq()
+0cafa5b5eb224be837dd3c948d34bc977ddedc88 staging: r8188eu: remove rf_type from storePwrIndexDiffRateOffset()
+8f18397277308220e7079fadaf71d5d9c72c71c5 staging: r8188eu: remove rf_type from getTxPowerIndex88E()
+2f43a4e87a7b82d62778236bd71c18347a2e91bb staging: r8188eu: remove TxCount from getTxPowerIndex88E()
+3a8482bc23addd7806d374d72c1bcf8927e1e0f1 staging: r8188eu: remove rf_type from writeOFDMPowerReg88E()
+23a23327329895c6b3759540fdeef781aae2e2c2 staging: r8188eu: remove rf_type from bb_reg_dump()
+5f56585eea13be872030dc1a0ac29dbdb43f9a20 staging: r8188eu: remove unused HW_VAR_RF_TYPE
+8bdb3f27d00b6c23d2f57343f25a4b8df007c219 staging: r8188eu: remove rf_type from struct hal_data_8188e
+6732886cf02b8807ebaf0e4c69bfbb757dd63347 staging: r8188eu: remove module parameter rtw_rf_config
+9875e5b1e9ed13d37925f0b03fbeb34937b4e032 staging: r8188eu: convert DBG_88E_LEVEL calls in core/rtw_mlme_ext.c
+5d81da8ddd42d506fd8ba98a71a6f303d95166b8 staging: r8188eu: convert DBG_88E_LEVEL calls in core/rtw_pwrctrl.c
+3ebdaac3636da9e37d985669107e73be38496bb9 staging: r8188eu: convert DBG_88E_LEVEL call in core/rtw_xmit.c
+6ba36a15b51b39b8ceffad1c68c1b3c6d86a62e0 staging: r8188eu: convert DBG_88E_LEVEL calls in core/rtw_ioctl_set.c
+5ec394d58bdba731c2a33645be7018e71f72f287 staging: r8188eu: convert DBG_88E_LEVEL call in hal/rtl8188e_hal_init.c
+9763a6501e5f48d846bb0bd79f24407d83cc9878 staging: r8188eu: convert DBG_88E_LEVEL calls in os_dep/ioctl_linux.c
+505cf656383439ac6031fda6ae1906d8a1b368ea staging: r8188eu: remove DBG_88E_LEVEL macro from include/rtw_debug.h
+d7f79cdfe09067bc464b5b0293bfcc23cb29a2e4 staging: r8188eu: use a delayed worker for led updates
+55c57806796d614a5e99481134602b7c4f36619b staging: r8188eu: RFType is set but never used
+28478b06acdff3034c6b357fb5d198b7bf06dd38 staging: r8188eu: remove unused variables from odm_dm_struct
+993c689df5c4c1a8fda7d6eda749d06a80698226 staging: r8188eu: pbNet_closed is set but never used
+bbd11e051e104b08a6991f7dbbe16e71dda1ad78 staging: r8188eu: pSecurity is set but never used
+85d8264d9d580befee057dbc2b74b8fe6155f7da staging: r8188eu: pNumTxBytesUnicast is set but never used
+7fb6aea9ca847fbd7e4d3273ed202df943edce29 staging: r8188eu: pNumRxBytesUnicast is set but never used
 
---===============5909276239424065301==--
+--===============5799722567845087196==--
