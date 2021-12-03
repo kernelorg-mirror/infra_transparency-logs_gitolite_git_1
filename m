@@ -1,55 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2610983058300748912=="
+Content-Type: multipart/mixed; boundary="===============0682756620632026527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 03 Dec 2021 16:37:18 -0000
-Message-Id: <163854943889.11873.12512334506628234633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 03 Dec 2021 16:43:05 -0000
+Message-Id: <163854978589.14988.15866189960153805473@gitolite.kernel.org>
 
---===============2610983058300748912==
+--===============0682756620632026527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: 4a234a84720f9ee0788a7cd04a337ff9f151be2f
-    new: fe90808c12f91a180afde9eb71ce44dfcd99bbc3
-    log: revlist-4a234a84720f-fe90808c12f9.txt
+  - ref: refs/heads/master
+    old: 6dce5df90d7df5b46909123f960f6780d76ef857
+    new: 99bf3efc10301843fa6e73fcc3127f776b85c914
+    log: |
+         99bf3efc10301843fa6e73fcc3127f776b85c914 Update 224FA7E7CC82A664 (Vlastimil Babka)
+         
 
---===============2610983058300748912==
+--===============0682756620632026527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a234a84720f-fe90808c12f9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-76e1c58bdce556c890b5be8d2797bd0ca5750570 kcsan: Refactor reading of instrumented memory
-c39a7e85165529fec9719d4b60164e7d1f174f51 kcsan: Remove redundant zero-initialization of globals
-f0d572a6a3310397b5755e49e65cc7fe649aac58 kcsan: Avoid checking scoped accesses from nested contexts
-952ee23ecf6bded9dc9468122be5737534f1f27a kcsan: Add core support for a subset of weak memory modeling
-d323391c95e7828538a878b6c42b99967b28c65f kcsan: Add core memory barrier instrumentation functions
-bbb9550ed40e16f5ed77f10fd78c5e95b7ea15d7 kcsan, kbuild: Add option for barrier instrumentation only
-70c2731e0d326d2b27c071ea4bf69a2e327ef132 kcsan: Call scoped accesses reordered in reports
-53f40c066e2c9d0d4a2160c0997479af6457360e kcsan: Show location access was reordered to
-1effa01079536dfa4888b7af1b4a0206c589bd5e kcsan: Document modeling of weak memory
-5ded58076ab6468952726e384f69e53332c26514 kcsan: test: Match reordered or normal accesses
-8165da98aa7b69bd9f374a75467c06e5e232d15b kcsan: test: Add test cases for memory barrier instrumentation
-574f0e9d68c14e926e63af6e7a81b252b6d852fd kcsan: Ignore GCC 11+ warnings about TSan runtime support
-510b49b8d4c91d32e946e9949e46aca42e709744 kcsan: selftest: Add test case to check memory barrier instrumentation
-31a060491205cae6f710fa65d118580ee680619f locking/barriers, kcsan: Add instrumentation for barriers
-d7668499118fbf0432a1218c5e7c4b35adc76e67 locking/barriers, kcsan: Support generic instrumentation
-433d5be441b14e3ac7228a9b24840e21a7ae8693 locking/atomics, kcsan: Add instrumentation for barriers
-d1c212df2318c1ac3ef6543a56c22ef02fa67a0f asm-generic/bitops, kcsan: Add instrumentation for barriers
-96f97c5e290fb4a4891bafab6961b72be2c554af x86/barriers, kcsan: Use generic instrumentation for non-smp barriers
-1735f53096d6e6b00543c084aaabffa309ac47e7 x86/qspinlock, kcsan: Instrument barrier of pv_queued_spin_unlock()
-0b91a3e5c73a81ff80a76487e04392a1bc72ec8b mm, kcsan: Enable barrier instrumentation
-32891fb62ceb595f8782eb74716f03853d290c6a sched, kcsan: Enable memory barrier instrumentation
-3d4cd9f99240223850c7c02fcd0857d4cad90f22 objtool, kcsan: Add memory barrier instrumentation to whitelist
-79575487c9c8bf33edd579bfcc11e51462cf1ff4 objtool, kcsan: Remove memory barrier instrumentation from noinstr
-95a7f275b2db8eebcd784635cccad3943c480930 compiler_attributes.h: Add __disable_sanitizer_instrumentation
-fe90808c12f91a180afde9eb71ce44dfcd99bbc3 kcsan: Support WEAK_MEMORY with Clang where no objtool support exists
+certificate version 0.1
+pusher B6C41CE35664996C! 1638549785 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1638549785-901f8b31cd0853fa446460b157781483eb4776e2
 
---===============2610983058300748912==--
+6dce5df90d7df5b46909123f960f6780d76ef857 99bf3efc10301843fa6e73fcc3127f776b85c914 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYapJGQAKCRC2xBzjVmSZ
+bGVsAP0aoMC08AEThRXIW19s2mJ81FqIbivrSIPfuK0DqmOmEgEAsI+voddOqUi8
++YcrOj8x6POYOjfOyHtdZCujjhJb0AM=
+=ua2x
+-----END PGP SIGNATURE-----
+
+--===============0682756620632026527==--
