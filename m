@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 03 Dec 2021 01:19:28 -0000
-Message-Id: <163849436867.9018.16576548990142014869@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 01:52:43 -0000
+Message-Id: <163849636385.31219.17545741633136416057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: c816397a43b050fff84337b4484e67f72cb5501a
-    new: 43c52e68d447c50096c9bad9e241791bb24981d8
+  - ref: refs/heads/experimental
+    old: 43c52e68d447c50096c9bad9e241791bb24981d8
+    new: fd63355e1d993b8ec211891abfcd22ac7a991add
     log: |
-         519dbd2368240c4c6d159459ab5614e1d9540c3c erofs-utils: make liberofs more C++ friendly
-         43c52e68d447c50096c9bad9e241791bb24981d8 erofs-utils: loosen hash_64 compile restriction
+         fd63355e1d993b8ec211891abfcd22ac7a991add erofs-utils: lib: use GPL-2.0+ OR Apache-2.0 dual license
          
