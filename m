@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8084238167183761005=="
+Content-Type: multipart/mixed; boundary="===============3873023725744132323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 03 Dec 2021 15:03:53 -0000
-Message-Id: <163854383327.17703.9459143739309264539@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 15:09:06 -0000
+Message-Id: <163854414698.20657.5608189942506063240@gitolite.kernel.org>
 
---===============8084238167183761005==
+--===============3873023725744132323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 33dc3e3e99e626ce51f462d883b05856c6c30b1d
-    new: 86192251033308bb42f1e9813c962989d8ed07ec
+    old: 86192251033308bb42f1e9813c962989d8ed07ec
+    new: 70602b37c4afd91c4dfc237121b31310b6c02a7a
     log: |
-         86192251033308bb42f1e9813c962989d8ed07ec nvmem: core: set size for sysfs bin file
+         c7fdb2404f66131bc9c22e06f712717288826487 drivers: soc: xilinx: add xilinx event management driver
+         a515814e742d8dbd04a0bc2d73b798d7855ec532 firmware: xilinx: instantiate xilinx event manager driver
+         70602b37c4afd91c4dfc237121b31310b6c02a7a driver: soc: xilinx: register for power events in zynqmp power driver
          
 
---===============8084238167183761005==
+--===============3873023725744132323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638543831 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638544143 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1638543831-4c69639a9180a8b394748ac0f80f35552ba4ab6f
+nonce 1638544143-f50b2e2f8dff3ab94b816019d826d9693f7c7d4e
 
-33dc3e3e99e626ce51f462d883b05856c6c30b1d 86192251033308bb42f1e9813c962989d8ed07ec refs/heads/char-misc-testing
+86192251033308bb42f1e9813c962989d8ed07ec 70602b37c4afd91c4dfc237121b31310b6c02a7a refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqMdcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RmsQAJcE6FSDoEiEwmq51g9N
-VIbhBra5JUewg000dW/0HD0uUYZrRGvBvi7rg8YREKe+PCoNkTfy/LVyzCVZsKwF
-IE7FdJ5QVndKKZK/zkWZ7Ffap6YJ9cIrPkDYhqNOlwsiJ7TDFTBRu261kXjUgtAm
-8yn5vf+ZDHSJCJFeNWBaQZ51swXApvmcc5GxvOkEWq+sa7zfLqBOgjTQ6/Tc5CL3
-ZTMRxpp37jMtxHBSepsfjQkzxsBhi4XNBLt4h8whVgF6X1XmePZlazB3cBYmij+E
-E7HDNFvTL95CprfQe65LlVWF4Q2ddGwCnmKSGXjyUFxsech95wyrsVkWGmIxjXoo
-ooaGURrbURNESoqOKgFaKZrvZGXbmfiy3xCxuQR7RNrkoPyZIBSHaTrJqPUxEkrH
-aHaOFzjpoVF/lzwTtXjeq5NvZ0OvSUX1oKFnW+Phc0w8PkDb5tzWvvGTaIy2UIsh
-Z6yofclmISWC7l/MCp2YNNL2n+jsssRJ54PVW1GDO2+mCY6OjY4r4OAWJ0MDzu5o
-gVAhOXSM7nCXLZtMsx439ZiS1VsReDcM8W9YZZ/nML/ZXwY8ScqED6nRtmsT0QI3
-ciBFqu81vTujZb+V4kftbuX9OGEtpxm9hCy2AkyHangkzMRjB+sftXsjQn9eB6ao
-kEQIJ+J0Z2BmMd9Yayu/4dSz
-=l7QI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGqMw8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6y8P/2VH/Q+HCYTKIPMdRXPO
+IH4bOJwXE5caoFyrZjHlEA7BlMEZgrOPJVtISKlZnJ9EIdrulF14ywI04yDZ/LQv
+gLDbH66I46mgYLqRJ6G3C8cqZKdcZBUryw7KGcFDNvUx69mHZiVQ7fLpTawOTyac
+d7ctGAhF7OFsxpKert4uIlP/JYMjK5UHAd2S3qoYHLQI4K8Z8RnhH4m09gSvP9/J
+l8B9IqXnz1pZPOQTkN7GZXpOBxsfdHrsbIBEtnSrCYcQQ1B8SCWNlUckwxlLPwPY
+vMPd+285H0dQAvWT6WBHiHikPg37sft3tpFHvjzZnwVQ3hduIfMkr6pDoVsnc26e
+QnjvNSQOgPVaqwPGjet5JInIVPK61DxbByQUFGTJSvBbzC3dF9XAW0Wz/1JiZ1HM
+Wq5YIAiKlL8jSqZ5FDDu9z0cTbXNXttsa4RkG6GxbR9+iTE9wlHu9oJcP5pWgjxq
+pVetBc/e9EI7yyoxTZAPibu2+psEtOXUpDRj2JfguFi0i013I73OUwzMq8eS45UY
+UO5PTmh3hzOzfNLV16ZGHGVHnzu9pae7aKXfT/8LU38htJRUKAp2+vnKOUvGAApr
+DNnExRYBf1rGNhh35mZlx1oUoZREMo45tqpVtgUoEWAJIzcfcqs/6B/iAyG4hguj
+YyMEipy9uBYDUTS5ii0zbsNO
+=qhM1
 -----END PGP SIGNATURE-----
 
---===============8084238167183761005==--
+--===============3873023725744132323==--
