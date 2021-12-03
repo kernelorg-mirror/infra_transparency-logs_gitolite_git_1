@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4898210856567705806=="
+Content-Type: multipart/mixed; boundary="===============7431559946018704829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 03 Dec 2021 03:02:42 -0000
-Message-Id: <163850056279.10182.5891153904907306706@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 03:02:53 -0000
+Message-Id: <163850057321.10326.17468493032091885648@gitolite.kernel.org>
 
---===============4898210856567705806==
+--===============7431559946018704829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 424478faac5e06aa17dfc8c818337232d4ad1459
-    new: d93808d13031203b3930ac767eb41278b11fe875
-    log: revlist-424478faac5e-d93808d13031.txt
+  - ref: refs/heads/5.17/scsi-queue
+    old: 659109a45c6c5a3c81a8ce35dea59318c44cfa6e
+    new: db33028647a3eca9e3e6fccf170d75f3b56a466c
+    log: revlist-659109a45c6c-db33028647a3.txt
 
---===============4898210856567705806==
+--===============7431559946018704829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1638500555 -0500
+pusher 75C5DE3D 1638500566 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1638500555-c82c95e272fba3f2a4410e05039c0779867edc42
+nonce 1638500565-2d4bb912ea1eb8b1d201952e530db1a78e99bd71
 
-424478faac5e06aa17dfc8c818337232d4ad1459 d93808d13031203b3930ac767eb41278b11fe875 refs/tags/mkp-scsi-queue
+659109a45c6c5a3c81a8ce35dea59318c44cfa6e db33028647a3eca9e3e6fccf170d75f3b56a466c refs/heads/5.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGpiMsACgkQ7ulgGnXF
-3j3uiQ//VtZHJNsrzZUO2iLzxU+NYakqhVwjzz1n6xjFTE3b0ermw/owuJAfxFAL
-2A+CZ0hHMXg5wE/mod5OVilouoEIpeEWmapNWzx+4nLZBEC4COdROdpurpTcWlLp
-LRdQKNZFWPXAUpFO68h13p3Qk2CTN9rMvSm1knmHx5fWCH3VSzkjnAt9x6YJUQDN
-aPc4ag4Wv7Q1D0mkuDJTRhauvceqZTn1ZyXmUkRniJMfRihyKtVj0v/TOP2b1sD+
-q0itZGA8RI6TW9982xTjNIMX4qYLrFrgb28nfKJEJfFJciGWMc9txRbq8UqlfMMM
-4LyxnAzXKehYgyXv1iO7mOPyLh5kr914CmrTdpMMATxLqgagMLgtoVknsLfifYBx
-hS/v0SDbniQrls8Knn794EYKiTR16fgUacxyjk81Gi/QZt4+3hyaNkU55BC/LgYT
-OD28tTUdkHAfkKPi3Yhb37IH0wdj1OBdt9Xf3keSlUav678o7vqUgMnaOzGlXIw8
-4x/xjJntgzo69dH5iPxyxADsvBubXh5UIK+fZ3afuJ1dtK8DQAf6F+fRr2csW17y
-X+v5CIBZjgxrtCfiISqgmECU0SiaTn/1QaF7F7+DAVRCaAINZDCIxB30TIi+72k4
-dc6eSV9hYgGSTy3uwy11oTfpQ1nm0QxhxYc3Sir6tsx8fFykCzQ=
-=chsE
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGpiNYACgkQ7ulgGnXF
+3j2mYxAAlSbWGKdvZa+iHgMG2I5UgqZEUROc0fJFHKi9pVkRsbRzbZKDAHNQSqew
+DjY6ITlQIZvm207AFQiGBUfWR4/4lSllc+ZDNoST1jVCoSq11SohlTFm+bU5PObp
+lZrytiFViO5N3ONbQ5PL1u7sI0eWv/+HFmF5cDtEYcrzfG6bR1NngKGraYIKAq/3
+xfSToER/UNVGzRQSpSLUj7CZGnHWcce3Ll7JdXjcNVbKnCnZ4rsJdcWKpzRrehCz
+QOTUjYzhK0diDRG0tkHA4N7CwkSGnjsilMu0faM7NIRBjDbAEHnqEYNyth3Bw6gw
+MusLHG1WVGJ3DWBKSTlPAFkKBz82oqsAO8Qvj3nHYD3MUWVJbvT7GOsgNzf31KqN
+EbgcrCCYsUndreqVAAF+RWlnADgBv5loPI0mIcaUoxa5XfY3cLGZDO9qf3HdZuPn
+mrrQ6/30E5r783T8kYNBjj+fDeeasP9hBPC2vepQonSlNjyRLkhSQqoNcmUM4cX3
+SQfi/LJPIWi4Z7VN199iyct6FiZD8zE1ljvY2m8nqYBS0v1fUhfIOjauFVCxQzQd
+iRBaTHHmbuSBuobiwfXYRSNxIC3gKhtMjwUnuDz3wP52Fz5l9jRTpK2lE0zVscrY
+1FKRbm6WnDs1BfbCPKi5YpeIK/C6yCFe7oyTBGBBJimvBUFPtso=
+=ztOO
 -----END PGP SIGNATURE-----
 
---===============4898210856567705806==
+--===============7431559946018704829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-424478faac5e-d93808d13031.txt
+Content-Disposition: attachment; filename=revlist-659109a45c6c-db33028647a3.txt
 
 ddba1cf7a506b09b3583bcac2d64ec88bd4e3a96 scsi: ufs: Let devices remain runtime suspended during system suspend
 6d8619f034f01c841fb3836d4a1bc682571db995 scsi: qedi: Remove set but unused 'page' variable
@@ -71,4 +71,4 @@ d6e71a43b11c67cae3f3c595beef020899ec68e9 scsi: pm8001: Fix kernel-doc warnings
 b558fa11e4b53027776c451553437aeda4463e4d scsi: pmcraid: Fix a kernel-doc warning
 db33028647a3eca9e3e6fccf170d75f3b56a466c scsi: Remove superfluous #include <linux/async.h> directives
 
---===============4898210856567705806==--
+--===============7431559946018704829==--
