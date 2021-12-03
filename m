@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7368283836268202926=="
+Content-Type: multipart/mixed; boundary="===============8831044080712204709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 03 Dec 2021 18:38:15 -0000
-Message-Id: <163855669505.24132.16524119728083420346@gitolite.kernel.org>
+Date: Fri, 03 Dec 2021 18:38:27 -0000
+Message-Id: <163855670720.24239.17282691710162417179@gitolite.kernel.org>
 
---===============7368283836268202926==
+--===============8831044080712204709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 36d7d36fcf69e7f95068307f8bc519af31085431
-    new: bb14bfc7eb927b47717d82ba7ecc8345d9099cf4
-    log: revlist-36d7d36fcf69-bb14bfc7eb92.txt
+  - ref: refs/heads/mlx5-queue
+    old: f96812dd83c0d3658019c65312684a8124b3ca60
+    new: 971aba1a767e461ce1e77aa8a460bacc0479c1a4
+    log: revlist-f96812dd83c0-971aba1a767e.txt
 
---===============7368283836268202926==
+--===============8831044080712204709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36d7d36fcf69-bb14bfc7eb92.txt
+Content-Disposition: attachment; filename=revlist-f96812dd83c0-971aba1a767e.txt
 
 1d49eb91e86e8c1c1614c72e3e958b6b7e2472a9 ipmi: Move remove_work to dedicated workqueue
 d3c45824ad65aebf765fcf51366d317a29538820 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
@@ -323,5 +323,9 @@ e7a51bf590e3ea87b0bab8c09c1a6fb6be7b3c11 net: hns3: refactor function hclge_set_
 ab11393fd004ed048cff93076569e41bb31fe22b net: dsa: vsc73xxx: Get rid of duplicate of_node assignment
 f6882b8fac60f928fda51efc64274463806f956c net: prestera: acl: fix return value check in prestera_acl_rule_entry_find()
 bb14bfc7eb927b47717d82ba7ecc8345d9099cf4 net: lan966x: fix a IS_ERR() vs NULL check in lan966x_create_targets()
+fa301d8f04385ce413e0708464dfd5265d1f2dea net/mlx5: Separate FDB namespace
+b690594594a8db1e0e83cb2ad1ba9d07e9e7e786 net/mlx5: Refactor mlx5_get_flow_namespace
+a0b4fc2a1d2185b5364e0253d2b7d7bcb21484c9 net/mlx5: Create more priorities for FDB bypass namespace
+971aba1a767e461ce1e77aa8a460bacc0479c1a4 RDMA/mlx5: Add support to multiple priorities for FDB rules
 
---===============7368283836268202926==--
+--===============8831044080712204709==--
