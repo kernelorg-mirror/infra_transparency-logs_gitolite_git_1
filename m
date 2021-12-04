@@ -1,59 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============7077661128905317834=="
+Content-Type: multipart/mixed; boundary="===============2175055162842676059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 04 Dec 2021 09:33:15 -0000
-Message-Id: <163861039563.16754.18302328516155886588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 04 Dec 2021 09:35:22 -0000
+Message-Id: <163861052296.18803.11129758779830602797@gitolite.kernel.org>
 
---===============7077661128905317834==
+--===============2175055162842676059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 3f19fed8d0daed6e0e04b130d203d4333b757901
-    new: 13a5fad39a7b781c21d9528bcf52a5f5babafe99
+  - ref: refs/heads/usb-next
+    old: 4d012040161cba054208555300d9fdf2b8925c34
+    new: e1c72d907f4c3f4f859f0c5890d5326d804625dc
     log: |
-         ffccc78a5862100e1859f74fa8eea0b85b7591f1 tty: serial: fsl_lpuart: add timeout for wait_event_interruptible in .shutdown()
-         3672fb65155530b5eea6225685c75329b6debec3 tty: serial: uartlite: allow 64 bit address
-         d1180405c7b5c7a1c6bde79d5fc24fe931430737 serial: amba-pl011: do not request memory region twice
-         13a5fad39a7b781c21d9528bcf52a5f5babafe99 tty: mips_ejtag_fdc: Make use of the helper function kthread_run_on_cpu()
+         bc27117c7cdd4b57d0f079620b483f3b229074bd usb: dwc3: gadget: Skip checking Update Transfer status
+         a02a26eb0aeaa2859a8b2f182bd5b5f7228ee1fe usb: dwc3: gadget: Ignore Update Transfer cmd params
+         76c4c95dac0da03f64d8b59a8834faf8020af8dc usb: dwc3: gadget: Skip reading GEVNTSIZn
+         554abfe2eadec97d12c71d4a69da1518478f69eb usb: uhci: add aspeed ast2600 uhci support
+         e1c72d907f4c3f4f859f0c5890d5326d804625dc usb: bdc: fix error handling code in bdc_resume
          
 
---===============7077661128905317834==
+--===============2175055162842676059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638610394 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1638610394-a22f407f4da1f764d51b8cfc5e5ab2eb04391870
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638610522 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1638610521-b92df32221e452955f97a59159f0e414d610f559
 
-3f19fed8d0daed6e0e04b130d203d4333b757901 13a5fad39a7b781c21d9528bcf52a5f5babafe99 refs/heads/tty-next
+4d012040161cba054208555300d9fdf2b8925c34 e1c72d907f4c3f4f859f0c5890d5326d804625dc refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGrNdobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MmQP/iZ7yX1jC9ulqVqFPtIR
-e0KnyflqkUYRpMSlZPHSeJUKteBY4TvrUQurHK3lgACdp5hJSq/fjXG9dP4DACJu
-O8KJpM8/N4hnlQsaYZoauiWnpYgtIejXAFbvRSSY9i7YVwVDiphIvmlSiaIg2M/J
-s6Oq6jNuintRazuiRiemF3lR7nKvJx9jOLHO0j0c9JlQ2y/yRiTGSHP+r+lQZxYb
-j6N6e1J+IVGXWap5EvLFGD90pHYHCGOwS+k103JfaFYsG1soyFO4OTYgvv6PFfNp
-6ByRTH9pQ35iDy02Dp4EWttLECYbr7JN3b9TuUBv1smHYgy6FeUppBJdcdKF9eUL
-+AjmDJrJ2MUYiSLd2N8H4ICwXREpGJFCOY19KTEK3f4x7+WsTsYA3/fkMFsly84b
-Wg2kMwQXE8BjppRplQhuN2vjCtvloHAGRFQ6ITs6H03VzB55YBGFnENsQph6MZPh
-MT9wybM0qKZhx5XtFcWJPfT23g6Ko3md1VGXlY2JfZ2xHOWT79waDLALNdGlpqpO
-A6EKQbtXddm3gGrkLpCUblPr2Lqu+6Loow078zw65LvjSm+7YbvC0g67iTZUWd2q
-qLjAN6Kx+FMbR32LbHX87K077R55cPhtLAD50sK2p5U+TMh6ZqRtQ+uu/Ft0Q/QL
-zM/fLQKCTaKuMC5fJdJ8+02H
-=+LOK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGrNlobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MB0QANHegYsB62vMSpg9lPpk
+iF2icdr5RqUvOBlGz9MdP1+v8tCzCFwfOcqsBw/FvoF+Xa9YmctN7NffocsDtiyL
+VIV+h0MSs/pIooGOvcaqgw57+2uFlZuZtbfPJLHkK3bRvmEGqSWV98PUyQsS+e+A
+Hvv07rK1XKQ7AOI40AKKyPojmTD3Rfee30RhI49X4WGS6AeLzq/2WBJnopoRP/Fj
+A2ETVGx9stnLr8O/ymy2IhYSxXOxSkR1llr1NvF9IkmHtpZ941ar0iG0N0qvpkL9
+qDb4SW+EZ2CYNGZFtWAS0FthnpCXq6KmQoRQzS0XBJq14NCi7qSgOG7CpIETkpq8
+xY2sHyjWLNciSwXWDPQZz69ZrlJou24gYMRh2IE3/zWCYm1n0wVk9cFPE+305bQp
+Tb+BBaJ7jtZHGMvDuj2xHB+c6EsqZX7i4PD1GrBKHb8kOdKmXAjHZ0BBZFSKAW70
+Wa8eHNlEcGOXh5vEwFmASIM/2sGLfjInLRjbOmmjL8N1RqpLtVntGenbebrnA20d
+4sB2pUl7SjqIEBNYpOepDKuZ0Kok51+mYDVvb0gHfg+ydPyYwQVY5H9p62WnX9i+
+Sv8ab7EGrxw+e222o6yxo9DKrgtFMY7YyXRXSI1TsN1E9MH5tg5Sj4qyTLxIC8s7
+Zcgoe22si7suLyXH3QK+Wb0X
+=ICm2
 -----END PGP SIGNATURE-----
 
---===============7077661128905317834==--
+--===============2175055162842676059==--
