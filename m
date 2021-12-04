@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 04 Dec 2021 17:09:46 -0000
-Message-Id: <163863778661.2279.8484150683630655604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 04 Dec 2021 17:37:17 -0000
+Message-Id: <163863943753.19834.15307423241467862447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: bb14bfc7eb927b47717d82ba7ecc8345d9099cf4
-    new: ce83278f313ce65a9bbd780a3e07fa3f62d82525
+  - ref: refs/heads/master
+    old: 314b13fd48b65e571028f4b517404702ab99e7aa
+    new: df85e9cd133e0d643c052302b463bca50ee3ee8b
     log: |
-         0cc3a8017900f856f9bf4fdc41c2b5cb1670aabe qed*: enhance tx timeout debug info
-         823163ba6e52e644be5df4539a19e3df8d0988dd qed*: esl priv flag support through ethtool
-         ce83278f313ce65a9bbd780a3e07fa3f62d82525 Merge branch 'qed-enhancements'
+         df85e9cd133e0d643c052302b463bca50ee3ee8b Sat Dec  4 05:36:41 PM UTC 2021
          
