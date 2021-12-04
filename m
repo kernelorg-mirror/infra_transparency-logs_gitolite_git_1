@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 04 Dec 2021 09:42:27 -0000
-Message-Id: <163861094758.22307.6690039810824020223@gitolite.kernel.org>
+Date: Sat, 04 Dec 2021 09:43:56 -0000
+Message-Id: <163861103638.22881.2880245137704245167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -13,8 +13,9 @@ user: peterz
 changes:
   - ref: refs/heads/sched/urgent
     old: e7f2be115f0746b969c0df14c0d182f65f005ca5
-    new: ca27fbdc55fc7373307f4ceb0ea915d0bad94a56
+    new: 77548ce600b6000dccd6908ddccf82965b970fab
     log: |
-         257a5b413d60e1e90bdbbc9a3d7faf5669a1c6de preempt/dynamic: Fix setup_preempt_mode() return value
-         ca27fbdc55fc7373307f4ceb0ea915d0bad94a56 sched/fair: Fix per-CPU kthread and wakee stacking for asym CPU capacity
+         05873e33adf1fa663557f5064c54702a7e2e0c27 preempt/dynamic: Fix setup_preempt_mode() return value
+         432695c326c4698cf3997043380e5fddfc70697e sched/fair: Fix per-CPU kthread and wakee stacking for asym CPU capacity
+         77548ce600b6000dccd6908ddccf82965b970fab sched/uclamp: Fix rq->uclamp_max not set on first enqueue
          
