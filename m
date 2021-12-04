@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Sat, 04 Dec 2021 01:28:05 -0000
-Message-Id: <163858128528.23250.6241782457179242189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 04 Dec 2021 02:28:04 -0000
+Message-Id: <163858488445.27232.6829241472413899965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 196a3a63c466204f3e8f4fa35194fc9ab7cb1ab7
-    new: a5d2910872b652e7bcaa4dd7d4985a59cf283ed2
+    old: bb14bfc7eb927b47717d82ba7ecc8345d9099cf4
+    new: ce83278f313ce65a9bbd780a3e07fa3f62d82525
     log: |
-         620a0b35eac8f5b1ecf938d65ebab999e032aa9e trace-cmd library: Fix typo in tracecmd_output_set_msg()
-         9f6c2756510ee559d297fb112791188b7beba51c trace-cmd library: New API for creating an output trace handle
-         aece48bab4510a08b442a36bd76152556301895a trace-cmd library: Rename tracecmd_output_allocate()
-         93a8dcf95b3d16cb6b38a2bab30ec648088dbbce trace-cmd library: Remove APIs for create and init output handle
-         a5d2910872b652e7bcaa4dd7d4985a59cf283ed2 trace-cmd library: Make tracecmd_output_write_init static
+         0cc3a8017900f856f9bf4fdc41c2b5cb1670aabe qed*: enhance tx timeout debug info
+         823163ba6e52e644be5df4539a19e3df8d0988dd qed*: esl priv flag support through ethtool
+         ce83278f313ce65a9bbd780a3e07fa3f62d82525 Merge branch 'qed-enhancements'
          
