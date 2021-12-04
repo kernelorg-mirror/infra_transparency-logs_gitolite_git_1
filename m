@@ -1,58 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3053807219978739092=="
+Content-Type: multipart/mixed; boundary="===============0614819249578814976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sat, 04 Dec 2021 10:46:37 -0000
-Message-Id: <163861479782.23718.10286421152894404632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 04 Dec 2021 10:46:45 -0000
+Message-Id: <163861480523.23850.5792919795621482754@gitolite.kernel.org>
 
---===============3053807219978739092==
+--===============0614819249578814976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/testing/rdma-next
-    old: 3e3c1610ca62fde177998be89db710a450cefb51
-    new: bce37fe4a74bb9df269e04e208b153eafd1fa225
-    log: revlist-3e3c1610ca62-bce37fe4a74b.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 16eaab68de759ca635976d8a1c62da47e7dd38e1
-    new: 20bf4fb5bd0d42d18663956f49e028aa91b54a01
+  - ref: refs/heads/queue-next
+    old: a438d662f6c73c51ab6d40fc80034afdf56dc646
+    new: d89d5c69fe426b9118f2957b70cda5376c469033
+    log: revlist-a438d662f6c7-d89d5c69fe42.txt
+  - ref: refs/heads/queue-rc
+    old: bb3e9776b00bf1d06182514e2876feaf6d946c76
+    new: 11e5cb474a0296681a62dc495460fb6e85a6cc75
     log: |
          5f67fe57f3fd2475f7bc845863b4ed95263aca0e Merge branch 'master' into testing/rdma-rc
          20bf4fb5bd0d42d18663956f49e028aa91b54a01 Merge remote-tracking branch 'vfio/for-linus' into testing/rdma-rc
+         11e5cb474a0296681a62dc495460fb6e85a6cc75 Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============3053807219978739092==
+--===============0614819249578814976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e3c1610ca62-bce37fe4a74b.txt
+Content-Disposition: attachment; filename=revlist-a438d662f6c7-d89d5c69fe42.txt
 
-e6d72f6ac2ad4965491354d74b48e35a60abf298 net: hns3: extract macro to simplify ring stats update code
-a1cfb24d011a39ab65bb154dd85d9f879c6e5e4d net: hns3: refactor function hns3_fill_skb_desc to simplify code
-b60f9d2ec479966383c7f2cdf3b1a3a66c25f212 net: hns3: split function hclge_init_vlan_config()
-a41fb3961d8df745adac5374d87a6c2398057364 net: hns3: split function hclge_get_fd_rule_info()
-8d4b409bac5710cbf51c97c5d74e956476cd4de0 net: hns3: split function hns3_nic_net_xmit()
-d25f5eddbe1ace18fa95318fd229b07a64ec4353 net: hns3: split function hclge_update_port_base_vlan_cfg()
-673b35b6a5bfd8e1adf122e3fdbb343c31c609d2 net: hns3: refactor function hclge_configure()
-358e3edb31d5f49a39be25e8059c96b99cf101a6 net: hns3: refactor function hclge_set_channels()
-1b33341e3dc09dd356897b351e9b3c008cb1a69e net: hns3: refactor function hns3_get_vector_ring_chain()
-b061d14fc1ec0997d8c875f30e56555cf084d7ba Merge branch 'hns3-cleanups'
-75c9901544792b88d09094f4c6cbdc61ef16e955 dt-bindings: net: dsa: split generic port definition from dsa.yaml
-dfb40cba6d4500f8196b2df66c29c54f5c17af2b dt-bindings: net: dsa: qca8k: improve port definition documentation
-a290cf692779ccce6dbb05398fad32d035bfd313 net: lan966x: Fix duplicate check in frame extraction
-7e9979e360075ef5db77e77d1e8ab3efbcba6eef qed: Enhance rammod debug prints to provide pretty details
-a72d45e646547d4ec59ee16f122c2764eb36bf05 dt-bindings: net: lan966x: Add additional properties for lan966x
-cc9cf69eea4847c8d6db6114b0e094fb51736c33 net: lan966x: Fix builds for lan966x driver
-0c4789460e8cc6a84f10a06ba9410a31432550e1 ipvlan: Remove redundant if statements
-98fa41d627604e58c3e486d910ada04d90e67d33 net: openvswitch: Remove redundant if statements
-d9e56d1839fa40dbaab640ec205390826bddf8ae mctp: Remove redundant if statements
-36d7d36fcf69e7f95068307f8bc519af31085431 selftests: net: remove meaningless help option
 f574268ca87ecdab799426f6713d3c6f1522d5b7 mlxsw: Rename virtual router flex key element
 69bdb6b518f2f55b545d3bd5f3fc35c1eca8b007 mlxsw: Introduce flex key elements for Spectrum-4
 548e39e90e7b64767264e03364de9f2b1b906e8a mlxsw: spectrum: Extend to support Spectrum-4 ASIC
@@ -76,5 +57,6 @@ ba724fa0159c0bfbe1adada085255b6db1765042 devlink: Open devlink to parallel opera
 ac1ee88969e9e48eb5c4e02014bbdab2c63dd347 Merge remote-tracking branch 'mlxsw/combined_queue' into testing/rdma-next
 93ef74bf87ee6c55d274b94e67b8826ac876b28e Merge branch 'rdma-next' into testing/rdma-next
 bce37fe4a74bb9df269e04e208b153eafd1fa225 Merge branch 'devlink' into testing/rdma-next
+d89d5c69fe426b9118f2957b70cda5376c469033 Merge branch 'testing/rdma-next' into queue-next
 
---===============3053807219978739092==--
+--===============0614819249578814976==--
