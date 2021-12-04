@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 04 Dec 2021 20:36:26 -0000
-Message-Id: <163865018667.1032.15701724260474295174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 04 Dec 2021 20:45:16 -0000
+Message-Id: <163865071612.6485.5272525756408131420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 8d88382b7436551a9ebb78475c546b670790cbf6
-    new: afdb4a5b1d340e4afffc65daa21cc71890d7d589
+  - ref: refs/heads/net-rc
+    old: a6fcf07fb698971300d7fc7aab74f60422920b3f
+    new: 41da0ba2f2a00bbe89c460bc0420e59f2816a6bd
     log: |
-         0f9fee4cdebfbe695c297e5b603a275e2557c1cc parisc: Fix "make install" on newer debian releases
-         afdb4a5b1d340e4afffc65daa21cc71890d7d589 parisc: Mark cr16 CPU clocksource unstable on all SMP machines
+         8e227b198a55859bf790dc7f4b1e30c0859c6756 qede: validate non LSO skb length
+         2be6d4d16a0849455a5c22490e3c5983495fed00 net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
+         561c914e382ec915fcd3774491fac884c856f295 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
+         2c0d04815551d2cc437b7b7e2ef82f7f33332d18 net/sched: Extend qdisc control block with tc control block
+         505a1adff632b29882c1093cc6eca6d8fc218cb0 net/sched: flow_dissector: Fix matching on zone id for invalid conns
+         79acbd4f50840a5406677d7f62f7ac2a1ce8743f net: openvswitch: Fix matching zone id for invalid conns arriving from tc
+         a9782eca8890102ee8928e8bb4144a275103aa51 Merge branch 'patchq/447567' into mlx5-for-net
+         41da0ba2f2a00bbe89c460bc0420e59f2816a6bd Merge branch 'mlx5-for-net' into net-rc
          
