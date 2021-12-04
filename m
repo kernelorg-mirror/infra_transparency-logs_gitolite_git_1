@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 04 Dec 2021 15:32:08 -0000
-Message-Id: <163863192863.8105.13549102845898849863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Sat, 04 Dec 2021 15:40:55 -0000
+Message-Id: <163863245504.13342.11586361527626749044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 784b470728f5ae44f245338e4660144d46dc0876
-    new: 893621e0606747c5bbefcaf2794d12c7aa6212b7
+  - ref: refs/heads/master
+    old: 0de304b359dd03a9ce94684181269a91575989f7
+    new: 5d8eb1294572ec56abc1f539f4a9c765b805a9f2
     log: |
-         893621e0606747c5bbefcaf2794d12c7aa6212b7 iio: trigger: stm32-timer: fix MODULE_ALIAS
+         5d8eb1294572ec56abc1f539f4a9c765b805a9f2 Bluetooth: btusb: Add support for queuing during polling interval
          
