@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 04 Dec 2021 13:38:23 -0000
-Message-Id: <163862510339.1803.14602402076151353060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 04 Dec 2021 14:14:51 -0000
+Message-Id: <163862729164.23269.10218999165838293269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/sched/urgent
-    old: e7f2be115f0746b969c0df14c0d182f65f005ca5
-    new: 315c4f884800c45cb6bd8c90422fad554a8b9588
+  - ref: refs/tags/scsi-fixes
+    old: 74ede70d1cff9977eec62a262c6aca57f3a130ba
+    new: d563093ba5caac6e1f4f898c5140986d543b09dd
     log: |
-         9ed20bafc85806ca6c97c9128cec46c3ef80ae86 preempt/dynamic: Fix setup_preempt_mode() return value
-         315c4f884800c45cb6bd8c90422fad554a8b9588 sched/uclamp: Fix rq->uclamp_max not set on first enqueue
+         0956ba63bd94355bf38cd40f7eb9104577739ab8 scsi: lpfc: Fix non-recovery of remote ports following an unsolicited LOGO
+         7dc9fb47bc9a95f1cc6c5655341860c5e50f91d4 scsi: ufs: ufs-pci: Add support for Intel ADL
          
