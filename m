@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1699074900270674536=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 04 Dec 2021 10:45:11 -0000
-Message-Id: <163861471104.23091.17671407436996414330@gitolite.kernel.org>
-
---===============1699074900270674536==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Sat, 04 Dec 2021 10:45:19 -0000
+Message-Id: <163861471943.23212.12915168713185175643@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/master
-    old: 6aae06df49fc98a4232491572bba94e174e03ebe
-    new: a6e8b7c7675e07bdc06a3f76e40df37c56750a78
+  - ref: refs/heads/pending
+    old: c41548abd17463917296e2749fe077ac28b9ae47
+    new: 12c5b0cffe52f1fcb9e44b9876dbdf59057510ee
     log: |
-         a6e8b7c7675e07bdc06a3f76e40df37c56750a78 4.14-stable patches
+         483977310ca202b2d9d1204f22930b2fab8b13a1 iwlwifi: mvm: remove session protection upon station removal
+         e7fa5b87fbdb13eb93ffaba1ddeb2516505ccbec iwlwifi: add missing entries for Gf4 with So and SoF
+         26c8bd826c8347eed0115936a576536f74365d02 iwlwifi: mvm: Fix wrong documentation for scan request command
+         392a4af559bc7ec08808a29cb29a88f34b94011d iwlwifi: mvm: Add support for a new version of scan request command
+         832c7b599202ba350fbf5fa79390458736ed93d3 iwlwifi: mvm: add support for statistics update version 15
+         b0743a588d14018ac83e7004347a6287d502a6e9 iwlwifi: mvm: avoid clearing a just saved session protection id
+         139d74d2b063757efae1b066f0d13a689afe84ab iwlwifi: mvm: update rate scale in moving back to assoc state
+         488268ffb2a6705c2a56c4ae7860e2f95a96d275 iwlwifi: yoyo: support for DBGC4 for dram
+         12c5b0cffe52f1fcb9e44b9876dbdf59057510ee iwlwifi: acpi: fix wgds rev 3 size
          
-
---===============1699074900270674536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638614710 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1638614709-d972d3f7106f0083e3394ab056f377641a17e444
-
-6aae06df49fc98a4232491572bba94e174e03ebe a6e8b7c7675e07bdc06a3f76e40df37c56750a78 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGrRrYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ILQQAIkb4DfAGAlypym058jI
-/p5eoB8O2ORuzlprCwA+OWfn65I6wS+GYn2ko9nBIDGm2cplkJlOnMi+TEWJyTe5
-l67F152mUZW1qGypK9sIvkwdNn36rmCDdfwdZXMG4Vtg/MZU3oGXnwIp1Lonod/D
-mIwP25L0oyT/nFeph8EPWyhSOunshk2+zAEBfSLZR3+0NfzjSyYXJ6Dyv5UFZDXf
-lYHrvkaWQ2FLQmmmawcydY+vdTZ/hxH2kz8qkU289XGJFqqQmeAkoTYCEVvKONSV
-MNMuVfGK4i2O1EI1SGjicVD2aavQvwqzIfjbLpP5wxUzTR9OTrLpT2SavXnCAUIo
-6YXoEQxA5djpxpp7J8zbWtspvPmWtGqgIPxWK7HpJR0Z3j55yWeFJlmAMQJljz8B
-wOR+tXqYnA8DaJrhtGb+ZbnXFndf5v1gXuUTiwsCYP43mjaYmBaIiKiCPjdAVwFP
-QGGFHpap5c26/yK6KDjxs24l9XjXD0Z9JX/NrOdLv9G50YHGDhV2cwCPujTHKe/Y
-Itz9xzsU2v6sQFEEJTDPZo258vwMa0NuBzjw8K/3craKFRs5WxV5HxW/GyOlM+VH
-Ano56woK3jdJSzQwU6NAALjebu1no/jqvkh0DTFWAksjC+i+TYJ6rJ0DScB4G6C/
-6NONtJR+zo9IsXyozPb98fVQ
-=ZXZj
------END PGP SIGNATURE-----
-
---===============1699074900270674536==--
