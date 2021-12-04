@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 04 Dec 2021 01:07:07 -0000
-Message-Id: <163858002700.10162.667062784250318817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 04 Dec 2021 01:11:53 -0000
+Message-Id: <163858031360.12940.1211928026985237105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 8e227b198a55859bf790dc7f4b1e30c0859c6756
-    new: 2be6d4d16a0849455a5c22490e3c5983495fed00
-    log: |
-         2be6d4d16a0849455a5c22490e3c5983495fed00 net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
-         
+  - ref: refs/heads/dev.2021.12.02a
+    old: 0000000000000000000000000000000000000000
+    new: d157b802f05bd12cf40bef7a73ca6914b85c865e
