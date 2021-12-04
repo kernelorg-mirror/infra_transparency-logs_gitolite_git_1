@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Sat, 04 Dec 2021 00:00:23 -0000
-Message-Id: <163857602349.2096.13048905866155126623@gitolite.kernel.org>
+Date: Sat, 04 Dec 2021 00:00:31 -0000
+Message-Id: <163857603170.2217.3533994844318566432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/misc
-    old: a12e9509d931667f60fc6faa3264fa63d447bd76
-    new: 1e67058a4cd51db652ba086dccc973eddf6c324e
+  - ref: refs/heads/kcsan/dev
+    old: a4576a6458fb89db52354a91d3e6cd5e14b05024
+    new: 6ae0f472b6334810bcd6402b2f32bab925d2aa4c
     log: |
-         1e67058a4cd51db652ba086dccc973eddf6c324e Revert "ubsan, kcsan: Don't combine sanitizer with kcov on clang"
+         6ae0f472b6334810bcd6402b2f32bab925d2aa4c kcsan: Make barrier tests compatible with lockdep
          
