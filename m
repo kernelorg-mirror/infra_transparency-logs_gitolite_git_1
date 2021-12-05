@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1926957690111917984=="
+Content-Type: multipart/mixed; boundary="===============0586780245213765995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 05 Dec 2021 13:23:12 -0000
-Message-Id: <163871059204.17929.17161950992792622105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 05 Dec 2021 13:25:17 -0000
+Message-Id: <163871071791.20039.10990091755027059692@gitolite.kernel.org>
 
---===============1926957690111917984==
+--===============0586780245213765995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a9bbd54bf330c7d4e02f650e05a47f0394750246
-    new: 404d7b98e3e30fd8ba828692a8a21282987e5c6d
+  - ref: refs/heads/usb-testing
+    old: e1c72d907f4c3f4f859f0c5890d5326d804625dc
+    new: 9899aa5ba525c293ea14f20891f3d98690661aea
     log: |
-         404d7b98e3e30fd8ba828692a8a21282987e5c6d 5.15-stable patches
+         9899aa5ba525c293ea14f20891f3d98690661aea usb: core: Fix file path that does not exist
          
 
---===============1926957690111917984==
+--===============0586780245213765995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638710590 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1638710589-bed93d826031f30f47ceb05ae5ae0edcfe458815
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638710716 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1638710715-c3218a379a68d15a588303112a5915f96cd6bfda
 
-a9bbd54bf330c7d4e02f650e05a47f0394750246 404d7b98e3e30fd8ba828692a8a21282987e5c6d refs/heads/master
+e1c72d907f4c3f4f859f0c5890d5326d804625dc 9899aa5ba525c293ea14f20891f3d98690661aea refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGsvT4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AqgQAI7yb5qI3vvHASE1wfwB
-mC0ZewjTv6iPL+vGFefABHWyXw2Vf5K5wOgdjY9+oPJahWdf35EeoKmIau4RpzsT
-d9X/ly7M/VPa3NOUpmis1KXBryb/YGcygRhO71sbUOBmzQxDhQrDLYpC/sRdDNu8
-moraH0l2PQGKcyjvqZgf9OJ2vqD7vkpGyNltIeUQ7fcl5Y2OmlpbMkAlPGa8/bU4
-geQxRckDwykqElYey9mBns0bSt5lpEVsHHAtnUbE/XF7Wuiq0vWN20bAbrY6E0g7
-skdjT0MOOEwUkjpOWX5Tp7/XHZ3jsnoLyJkPwbbamriLN6vKutbaA0SrL6YvzSS4
-8IqNQ4sk1aHqSyo3WSEEMlyGA2jgq098ojfNSTSTEWXtmzHH2GX7abGcyTulv7cX
-9iGuBJyrfDnO0/ToNYXdtC8YHVO599XEdVah1LmL0k+7hXnupNiaYqpVUBokYe6b
-Vw50/iyJr7Z7o7jlC7M69P6VkjDP5ktmQxpX71fiBmtQtW7wNylYmeYSYTsoO6pB
-6Igu1PcaBmeLqPaLv9PBA0sm0UmEytJHhcQFeet65OFnqv7B54l6RVNtClaWPqSb
-mthv9oKnBtrUGa3+a2jSTVD9AF+KvCiOx/FFdaK1B10HT9MzTTfEewO3Gkmpz67b
-+7DxQmvz1RiIV/FLX/wYrBK/
-=OWjI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGsvbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VgsQAMzzfNrJUGNfLgdb6j+C
+55WMvoky6aX4UEOvuClF+bkhWu+e3M6b6ZIVlZqJce+En4zt7ySRLOVswSUCY+Wg
+tKK0PjDxX5CoGMN+GbCNQ5s28eUzN+fGOqdqN1tyxl6ZhWSyw9YPrzyhcWusHJjt
+Lo8pRpszB5T3yvh7WQ6Bc8v/Tb6OTRpf4FJrhceGdl/eKSHhTzIowRuhu/hXe3TG
+q1KLt1OD29c9/wiSjdczX96I8kUqCfy8Gh8Eiy/algoSXHg8UoN6LIZpQhPZb6ji
++YkbZ5xa8JvRERsUkwcU/nIVk/atwsidm3aNMKjw6vcWikTQ29ysAwOPuXf2TCY9
+eHGzyMI1ZESX0tmM7YSCbbTTBQ32xcoTAMMOY6xjmF/F9YGyv8kLPZlqPm+jCIr9
+dt1D9oC2xMza8aJeSxU6nNd3kpfXqNROadyhfKBUXBfDvcdh3gg/RHPfVZQRo9PD
+8LPiEK4kdLtLY+aE+zjbyzZ97wWBzSgmYNQ2A74nz0CKuS36JzNvMUZZvn9w88b9
+JNRLkZYALUXB+J/hyrx/d1XKbaS8O+HJt+RnW0WwTmxoRjgjC0PITfadiLfXcpHN
+z4mYCBM5f0ciJMruWxpJ0k2TJQID8Opz8fqLzNMIHD18OMxEl9z9iKxktTxL3UKl
+hUPPIxdydZc+spWeKGUtaAAa
+=mw71
 -----END PGP SIGNATURE-----
 
---===============1926957690111917984==--
+--===============0586780245213765995==--
