@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Sun, 05 Dec 2021 15:11:13 -0000
-Message-Id: <163871707359.22038.11633944922370749932@gitolite.kernel.org>
+Date: Sun, 05 Dec 2021 15:16:14 -0000
+Message-Id: <163871737449.24968.5963192251217238230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/mark/linux
 user: mark
 changes:
   - ref: refs/heads/linkage/alias-rework
-    old: bd779ad653870d718d0df57731b1637dae509337
-    new: 5eb80ef019edcce490970e00fc657df9abc39694
+    old: 5eb80ef019edcce490970e00fc657df9abc39694
+    new: 1aa3de5dc7ec81834b039fe62a044b13486f50fe
     log: |
-         07375bcf22cafbe35b78f2824908320df0528bb8 linkage: add SYM_{ENTRY,START,END}_AT()
-         f6b96a7b02b250e2c79829ade35968e78d91e1cc linkage: add SYM_FUNC_{LOCAL_,}ALIAS()
-         afddbf132a3fecd81b675e28bd8cd829a746dadf arm64: remove __dma_*_area() aliases
-         ef8322655730b417f17a5c91281da012b33fa07b arm64: simplify symbol aliasing
-         9a71b527146da43d9b59346048a3f7b8642a2f25 x86: simplify symbol aliasing
-         5eb80ef019edcce490970e00fc657df9abc39694 linkage: remove START/END ALIAS macros
+         c4d252825160c6ed63daa24df5da326fa6b27202 linkage: add SYM_{ENTRY,START,END}_AT()
+         ef8795caf68d0cd93a215c2dad78caa957ea0395 linkage: add SYM_FUNC_{LOCAL_,}ALIAS()
+         4086b6ea55768e6f3ec2058feeee9a4c6bc30c22 arm64: remove __dma_*_area() aliases
+         8d0bb9a8c69354616a67c97c42ad9115a34cb92f arm64: simplify symbol aliasing
+         a5f1fd2f550b454b2ed509223b255a8fbd43718b x86: simplify symbol aliasing
+         1aa3de5dc7ec81834b039fe62a044b13486f50fe linkage: remove START/END ALIAS macros
          
