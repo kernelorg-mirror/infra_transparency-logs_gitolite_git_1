@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-Date: Mon, 06 Dec 2021 14:25:05 -0000
-Message-Id: <163880070578.31851.10175492688579569561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 06 Dec 2021 14:25:51 -0000
+Message-Id: <163880075106.32141.5413770380837409371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: ea6b8e7be5072553b37df4b0b8ee6e0a37134738
-    new: 55247fea9692c8f67428b454c854b1d92df4a898
+    old: 942df4dc5ea159100466f198d8687a49c2359ca3
+    new: db52f57211b4e45f0ebb274e2c877b211dc18591
     log: |
-         55247fea9692c8f67428b454c854b1d92df4a898 crypto: curve25519-x86_64: solve register constraints with reserved registers
+         db52f57211b4e45f0ebb274e2c877b211dc18591 bpf: Remove config check to enable bpf support for branch records
          
