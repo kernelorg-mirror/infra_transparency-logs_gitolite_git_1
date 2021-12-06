@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2235251157817964882=="
+Content-Type: multipart/mixed; boundary="===============2647870499986719043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Dec 2021 08:31:52 -0000
-Message-Id: <163877951262.17737.609938243884951069@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 08:31:57 -0000
+Message-Id: <163877951734.17803.1407938918195751382@gitolite.kernel.org>
 
---===============2235251157817964882==
+--===============2647870499986719043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d58071a8a76d779eedab38033ae4c821c30295a5
+  - ref: refs/heads/usb-linus
+    old: 37307f7020ab38dde0892a578249bf63d00bca64
     new: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
-    log: revlist-d58071a8a76d-0fcfb00b28c0.txt
+    log: revlist-37307f7020ab-0fcfb00b28c0.txt
 
---===============2235251157817964882==
+--===============2647870499986719043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638779511 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638779516 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1638779511-da21f2cbda6de2c42a868a874e457b305c36231a
+nonce 1638779515-afe11257ce52d15f619440eb595977f3d68da291
 
-d58071a8a76d779eedab38033ae4c821c30295a5 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 refs/heads/main
+37307f7020ab38dde0892a578249bf63d00bca64 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGtyncbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x2cP/2jrW6Xmx/f9jVNgVxZ9
-T6flNc31VOesEPYX28a5VD7yRvAK7umNdhECGXFM5itP12EhnZZDahQcDMgKR69K
-GivGhN4n6JaY/F5yYb6Y+uqHl267wCezybNVI0038Oxcq9lNnmkk3gL/WRuDlh0R
-Z4IUGz6+1fdHvvFLqckZIDwnlnxZlmQbt5XsP3q3yhes2dgrY+CL5vdZCZ8w2YiK
-SnkjrHmYMZMJYXoN9tjjKo/3tgi2cAuuYt6Ru8RF+mRFSoNcwa5hXoUUQHU3B7f0
-MKWr8zwAChYXNdaoiHedRj9NC82U0baf/gbw0xOh4nvv2tTauv06kSyQG9SjvNLk
-+cMSTbMo+OZS6VZ13HKrfm+ktPScOAEYkDr4mHYihfZBz2CsXQ/nmoMHiJ8UeMSp
-SC6XXDsEsW1TKdbknSoTGQ1X3jIMUSYYSraoPlIiHLv7st2dWba5vnjSQXXQjVcH
-u5+6qn8TXvCE7b/CPu2gMgmlv8k+128dF6AUXLRbvaiKDGJQA1t+nst8qWBEdadl
-/to2PrL3448dWxcEFfwbTyfBsCCK3wHmRBDmhY11m2LVYYgQvtBIVcwitZFVuzs2
-iwTTyQ4fwZgfr+ZcKQLWsop3cOLPowSXsbnrkcRek/n1clI9LAR3xjq9LJSEZmTg
-PiwTxtVSX3UO0GSn1he2VMNe
-=7x/3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGtynwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+90wQAKJOifGVl6Sm8w0eL5tg
+sAKPmYGRGgSLpgSk5kZG5kayymFGJAr0d8p2AkDiqkQWb9NUUrPB1mSw+iyLnYK2
++sBRe+t8aEjSwrw9v9uj7w7y7qRBIu8bbml66TzA/443JvqBfkLH/1r/FiNiqU/7
+PKp6YareNBi9O9AzwHYeer7lLZzkkkUOblHf5vsy7H0UwqQm18aan/7bL0hIx3jv
+zzllvrizmM8QNf3yt85IfGiZMvXW7YKfUjlcGmLfcHKW77WWvIJvrctzs4Q3SjGz
+TKGRCnBuyfr3MmJbZ9lsCsCJ4zTfnSFPGOANNtTfUDSnapu8hHBtM90dv/lUrq/Q
+tRtf9vbxI7B7WMamq2gNqar5lc/T4ONAG6r2SNygNxt45jaIVdZTjys6HgytS6A4
+lqqYTh47UX9l7uuVwdssh5YB5S+l88dEZM1mlcHCA/iUs1IZKgvezcVT9f0QWBxk
+l/rF5lOi2mIRDmSs/kaPVbj0XE9SAyNItBKGLd3dFdCSNehIO2YTMxlD5BK30qya
+Nr+Rb+mGLjCCZ//GwlOHmvq7ldQ9333pvG5/YSMODavSRIOq00Bp5szGgSw4bxxt
+agI36TV4J83YurOSE6Va2ng/c/AkpCs6WNSWR82dJe+vL1CddowMnkZxmRLe8IqG
+KpztfY76T3bmkAEwcLwXFUzm
+=Xc9y
 -----END PGP SIGNATURE-----
 
---===============2235251157817964882==
+--===============2647870499986719043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-0fcfb00b28c0.txt
+Content-Disposition: attachment; filename=revlist-37307f7020ab-0fcfb00b28c0.txt
 
 1d49eb91e86e8c1c1614c72e3e958b6b7e2472a9 ipmi: Move remove_work to dedicated workqueue
 574c3c55e969096cea770eda3375ff35ccf91702 KVM: x86/mmu: Fix TLB flush range when handling disconnected pt
@@ -343,11 +343,6 @@ a687efed194bdc185fd7cb33920fe8b4e60ecb9e Merge tag 'drm-intel-fixes-2021-12-02' 
 5f58da2befa58edf3a70b91ed87ed9bf77f1e70e Merge tag 'drm-fixes-2021-12-03-1' of git://anongit.freedesktop.org/drm/drm
 988f01683c7f2bf9f8fe2bae1cf4010fcd1baaf5 objtool: Fix pv_ops noinstr validation
 51523ed1c26758de1af7e58730a656875f72f783 x86/64/mm: Map all kernel memory into trampoline_pgd
-09f736aa95476631227d2dc0e6b9aeee1ad7ed58 xhci: Fix commad ring abort, write all 64 bits to CRCR register.
-d2a004037c3c6afd36d40c384d2905f47cd51c57 USB: NO_LPM quirk Lenovo Powered USB-C Travel Hub
-fbcd13df1e78eb2ba83a3c160eefe2d6f574beaf usb: typec: tcpm: Wait in SNK_DEBOUNCED until disconnect
-387c2b6ba197c6df28e75359f7d892f7c8dec204 usb: cdns3: gadget: fix new urb never complete if ep cancel previous requests
-37307f7020ab38dde0892a578249bf63d00bca64 usb: cdnsp: Fix a NULL pointer dereference in cdnsp_endpoint_init()
 9cabe26e65a893afd5846908aa393bd283ab6609 serial: 8250_bcm7271: UART errors after resuming from S2
 a226abcd5d427fe9d42efc442818a4a1821e2664 io-wq: don't retry task_work creation failure on fatal conditions
 1ac5e21d43b2325854cf3b36b1509b28468dc6fd powercap: DTPM: Drop unused local variable from init_dtpm()
@@ -389,4 +384,4 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
 
---===============2235251157817964882==--
+--===============2647870499986719043==--
