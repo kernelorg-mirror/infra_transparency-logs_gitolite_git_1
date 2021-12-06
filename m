@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 06 Dec 2021 22:32:32 -0000
-Message-Id: <163882995256.17504.1510614776201691151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 06 Dec 2021 22:44:18 -0000
+Message-Id: <163883065856.23586.7794343083170146735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 0e0de3669c37deee975002bb9c8d6771305bdeb2
-    new: 0cdc68c3110411d7c3c8a0e3ad064a044fb61ee4
+    old: bc36aca98ec05d68264b327f1cddf827d01c5a29
+    new: 43037a94cf2e38fb09abe8f0af4dddf0ebd42aaf
     log: |
-         135ce1ed0a9944c3704d312fc844b845aa5c8686 libxfs: hide the drainbamaged fallthrough macro from xfslibs
-         0cdc68c3110411d7c3c8a0e3ad064a044fb61ee4 xfsprogs: Release v5.14.2
+         cdf05183b960efc79bd1025994fd6a48b8d15818 dpp-util: Introduce dpp-util, and add crypto operations
+         c511e4be2a3159961ed25cea34dc1d7ce657715d dpp-util: add URI generation API
+         669a92607ca188d0c4ebfcc7ce3ec08c1bef0979 dpp-util: add DPP attribute iteration APIs
+         43037a94cf2e38fb09abe8f0af4dddf0ebd42aaf unit: add unit test for DPP crypto operations
          
-  - ref: refs/tags/v5.14.2
-    old: 0000000000000000000000000000000000000000
-    new: 8321f89386f34713bfb433461c40f729bfc634ad
