@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5208577630817294928=="
+Content-Type: multipart/mixed; boundary="===============1826044094666166817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 06 Dec 2021 17:26:46 -0000
-Message-Id: <163881160697.18615.781197348855554480@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 17:27:09 -0000
+Message-Id: <163881162927.18772.1957145306365015499@gitolite.kernel.org>
 
---===============5208577630817294928==
+--===============1826044094666166817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: d58071a8a76d779eedab38033ae4c821c30295a5
-    new: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
-    log: revlist-d58071a8a76d-0fcfb00b28c0.txt
-  - ref: refs/tags/v5.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 06d124d85ce02d2993feda73742a71b78029ea3e
+  - ref: refs/heads/for-next
+    old: 60a7808a5c0811961edc3aaf4412204cbb5cc0de
+    new: 53b4618c54df7ad777c20ed7d2efa74af3033175
+    log: revlist-60a7808a5c08-53b4618c54df.txt
 
---===============5208577630817294928==
+--===============1826044094666166817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-0fcfb00b28c0.txt
+Content-Disposition: attachment; filename=revlist-60a7808a5c08-53b4618c54df.txt
 
 1d49eb91e86e8c1c1614c72e3e958b6b7e2472a9 ipmi: Move remove_work to dedicated workqueue
 574c3c55e969096cea770eda3375ff35ccf91702 KVM: x86/mmu: Fix TLB flush range when handling disconnected pt
@@ -360,5 +357,29 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 944207047ca4dabe8e288f653e7ec6da05e70230 Merge tag 'usb-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
+d2aa0ed0fc0e4d9ed629074e7aa465dc5658b1ac NFSD: Fix sparse warning
+a300a33f879285a58c8d205d5c2c0eab1c01828d NFSD: Replace nfsd4_decode_bitmap4()
+0a048ac3d3fec06973788a196f60fd108659aacb NFSD: handle errors better in write_ports_addfd()
+1c5bceccc7839544247fc0a30104bfdc6d1c94d8 SUNRPC: change svc_get() to return the svc.
+69b7cb1596a3d9ae2b7fe2765e0fb7a98a407f7c SUNRPC/NFSD: clean up get/put functions.
+ea0cbde22d203a1dd84245f60708851d2fa893e2 SUNRPC: stop using ->sv_nrthreads as a refcount
+e9f8520378e60512b8d1f3bc810535dd9819d549 nfsd: make nfsd_stats.th_cnt atomic_t
+fc94fdc2c48729d7ff5979e088d958e660779a10 SUNRPC: use sv_lock to protect updates to sv_nrthreads.
+cfb05a7336741ca412483406e10b3e54f0e78e6c NFSD: narrow nfsd_mutex protection in nfsd thread
+2031effa4ef676f8d5e0d6aadaa408be63f42c8d NFSD: Make it possible to use svc_set_num_threads_sync
+b0ef64700a2a01e4b36ef282001002181306f2b4 SUNRPC: discard svo_setup and rename svc_set_num_threads_sync()
+1bf7b47240fcea53ab2f84b7a7202c24485f010f NFSD: simplify locking for network notifier.
+c66fb7e1016231dd4bf1229c08d3b09796384178 lockd: introduce nlmsvc_serv
+dcdb4dec3b4efed865056c4a8f71726b8a53fb5b lockd: simplify management of network status notifiers
+c6b944b3819e6322cd0ed5e1ee324af186b7ace6 lockd: move lockd_start_svc() call into lockd_create_svc()
+3a7571547ff81e553883c8c3d533a999cf0f7d1a lockd: move svc_exit_thread() into the thread
+79c48e72ee4727dbe84388895863f4cd37b5d7e9 lockd: introduce lockd_put()
+99febb217d94948e84ca8d1a43b3df92cb2ce277 lockd: rename lockd_create_svc() to lockd_get()
+ad5f503a122399a236158f66ece3fcbd56f3e197 SUNRPC: move the pool_map definitions (back) into svc.c
+575a3a90b192728827ba60e5f429bc1082f98485 SUNRPC: always treat sv_nrpools==1 as "not pooled"
+575b71f87c2562650bc97c61f52c0d107e9f7927 lockd: use svc_set_num_threads() for thread start and stop
+b53b65c8cf6ca27210984e2a291a49b582a25c02 NFS: switch the callback service back to non-pooled.
+375205f73d39d0a604f927329af312794111a69c NFSD: Remove be32_to_cpu() from DRC hash function
+53b4618c54df7ad777c20ed7d2efa74af3033175 NFSD: Fix inconsistent indenting
 
---===============5208577630817294928==--
+--===============1826044094666166817==--
