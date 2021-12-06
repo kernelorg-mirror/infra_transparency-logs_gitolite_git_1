@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2687705218212520281=="
+Content-Type: multipart/mixed; boundary="===============9096244451102073070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 06 Dec 2021 09:57:03 -0000
-Message-Id: <163878462384.24567.18415939062158490248@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 09:57:17 -0000
+Message-Id: <163878463756.24705.11238067553059958404@gitolite.kernel.org>
 
---===============2687705218212520281==
+--===============9096244451102073070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 5c5d57f24748c84716c3ddffcaf24cd2b92bd74f
+  - ref: refs/heads/master
+    old: c33926bb5d95118f97de798dbd3e7a757820053c
     new: c07cfe770d3d4a92779422ad2aef5198cd0a6859
-    log: revlist-5c5d57f24748-c07cfe770d3d.txt
+    log: revlist-c33926bb5d95-c07cfe770d3d.txt
 
---===============2687705218212520281==
+--===============9096244451102073070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c5d57f24748-c07cfe770d3d.txt
+Content-Disposition: attachment; filename=revlist-c33926bb5d95-c07cfe770d3d.txt
 
 1eea06acbdfdc871d603419e2a92ef43dd015bb6 headers/deps: Add header dependencies to .c files: <linux/pm.h>
 a6d41d9c2d4b50c00eb89aec9d04e68bf412c987 headers/deps: Add header dependencies to .c files: <linux/pm_wakeup.h>
@@ -1051,4 +1051,4 @@ c68bc8e5a2ccee75a01ba046ec79484eeaf363f4 headers/uninline: Uninline multi-use fu
 a9554fcbb31a07d70b50e0e6b32c5ce4dab1bf97 headers/deps: irq: Optimize <linux/interrupt.h> dependencies
 c07cfe770d3d4a92779422ad2aef5198cd0a6859 ==================================================================
 
---===============2687705218212520281==--
+--===============9096244451102073070==--
