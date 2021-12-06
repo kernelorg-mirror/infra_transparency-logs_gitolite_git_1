@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3587474885470514253=="
+Content-Type: multipart/mixed; boundary="===============2501446027001335293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Dec 2021 07:34:13 -0000
-Message-Id: <163877605326.16693.10301841997620934990@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 08:01:16 -0000
+Message-Id: <163877767644.4405.16708382099248879084@gitolite.kernel.org>
 
---===============3587474885470514253==
+--===============2501446027001335293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 9d8c5461d363a258101e8a7a12e52b5da2e5bbeb
-    new: 91225a25787fc057dfb5ce1e9db24f498cf71816
-    log: revlist-9d8c5461d363-91225a25787f.txt
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
-  - ref: refs/tags/v5.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 06d124d85ce02d2993feda73742a71b78029ea3e
+    new: 793626f0c210ff87e6a72181292b6b0fc8d6aada
+    log: revlist-9d8c5461d363-793626f0c210.txt
+  - ref: refs/heads/master
+    old: 91225a25787fc057dfb5ce1e9db24f498cf71816
+    new: 793626f0c210ff87e6a72181292b6b0fc8d6aada
+    log: revlist-91225a25787f-793626f0c210.txt
 
---===============3587474885470514253==
+--===============2501446027001335293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d8c5461d363-91225a25787f.txt
+Content-Disposition: attachment; filename=revlist-9d8c5461d363-793626f0c210.txt
 
 0956ba63bd94355bf38cd40f7eb9104577739ab8 scsi: lpfc: Fix non-recovery of remote ports following an unsolicited LOGO
 b3483994b33a18a284aa453e21682a03f3b61206 MAINTAINERS: Add rpmsg tty driver maintainer
@@ -93,6 +91,42 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 944207047ca4dabe8e288f653e7ec6da05e70230 Merge tag 'usb-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
-91225a25787fc057dfb5ce1e9db24f498cf71816 Merge branch 'linus'
+2edb1ac5c439147d9a313a101b953f655e7ef5ba Merge into tip/master: branch 'x86/sgx'
+6896b35689d65de1a33976c8bd163805ac78b52f Merge into tip/master: branch 'x86/sev'
+80d01709076c2cc789c5c624e84fdf7d0319e7aa Merge into tip/master: branch 'x86/platform'
+c8e9c76caa1bfccf10e3e44c288c56184be3cfde Merge into tip/master: branch 'x86/paravirt'
+542e76ba79c29c279ac2417e261c5869e72caf57 Merge into tip/master: branch 'x86/mm'
+4f538bc2a1e8f2ce2d7f77e04e4cea3bc9250bc8 Merge into tip/master: branch 'x86/misc'
+78397e5a05541f88045be3ac56ead8321366f547 Merge into tip/master: branch 'x86/fpu'
+f0ae7663969b6dcbd6a68ec9d01dad67761c48de Merge into tip/master: branch 'x86/cpu'
+cf57d37b380509e2445aee330de646c12414712a Merge into tip/master: branch 'x86/core'
+5cb37f53bfc702ca694271ba759e6c0543cb535c Merge into tip/master: branch 'sched/core'
+e913065fbbd9d03a8b76d23e01b3ec4069f2f624 Merge into tip/master: branch 'ras/core'
+c8e9d4a75ecf6f4621d122f22d3104a72dacc1a1 Merge into tip/master: branch 'perf/core'
+3d7d35d690b24da7e14f98d5bad8f0f622993e64 Merge into tip/master: branch 'locking/core'
+0432bd75e3cf861c8df113b776c519b04e336156 Merge into tip/master: branch 'irq/core'
+793626f0c210ff87e6a72181292b6b0fc8d6aada Merge into tip/master: branch 'core/entry'
 
---===============3587474885470514253==--
+--===============2501446027001335293==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-91225a25787f-793626f0c210.txt
+
+2edb1ac5c439147d9a313a101b953f655e7ef5ba Merge into tip/master: branch 'x86/sgx'
+6896b35689d65de1a33976c8bd163805ac78b52f Merge into tip/master: branch 'x86/sev'
+80d01709076c2cc789c5c624e84fdf7d0319e7aa Merge into tip/master: branch 'x86/platform'
+c8e9c76caa1bfccf10e3e44c288c56184be3cfde Merge into tip/master: branch 'x86/paravirt'
+542e76ba79c29c279ac2417e261c5869e72caf57 Merge into tip/master: branch 'x86/mm'
+4f538bc2a1e8f2ce2d7f77e04e4cea3bc9250bc8 Merge into tip/master: branch 'x86/misc'
+78397e5a05541f88045be3ac56ead8321366f547 Merge into tip/master: branch 'x86/fpu'
+f0ae7663969b6dcbd6a68ec9d01dad67761c48de Merge into tip/master: branch 'x86/cpu'
+cf57d37b380509e2445aee330de646c12414712a Merge into tip/master: branch 'x86/core'
+5cb37f53bfc702ca694271ba759e6c0543cb535c Merge into tip/master: branch 'sched/core'
+e913065fbbd9d03a8b76d23e01b3ec4069f2f624 Merge into tip/master: branch 'ras/core'
+c8e9d4a75ecf6f4621d122f22d3104a72dacc1a1 Merge into tip/master: branch 'perf/core'
+3d7d35d690b24da7e14f98d5bad8f0f622993e64 Merge into tip/master: branch 'locking/core'
+0432bd75e3cf861c8df113b776c519b04e336156 Merge into tip/master: branch 'irq/core'
+793626f0c210ff87e6a72181292b6b0fc8d6aada Merge into tip/master: branch 'core/entry'
+
+--===============2501446027001335293==--
