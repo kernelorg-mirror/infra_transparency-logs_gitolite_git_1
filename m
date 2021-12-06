@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 06 Dec 2021 10:29:05 -0000
-Message-Id: <163878654581.11403.12221718414603498223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Mon, 06 Dec 2021 10:30:13 -0000
+Message-Id: <163878661342.13289.8294870267899525527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm/hackathon/topic/phase-5-WIP
-    old: ecc5a7a5badd4032dc111d036e97f2f1e296172c
-    new: a8215b85ef85083f15dbeeb10cc427826d419d63
+  - ref: refs/heads/pci/qcom
+    old: 4e0e90539bb0e6c0ca3768c642df9eed2118a8bb
+    new: 3f13d611aa6be3a500d696b0699938dcb39a9887
     log: |
-         5ea720df7006a0fbe3aedf6145e931bba2069cfe KVM: arm64: Rework kvm_pgtable initialisation
-         a8215b85ef85083f15dbeeb10cc427826d419d63 KVM: arm64: pkvm: Store vcpus in donated PGD at shadow-creation time
+         3f13d611aa6be3a500d696b0699938dcb39a9887 PCI: qcom: Use __be16 type to store return value from cpu_to_be16()
          
