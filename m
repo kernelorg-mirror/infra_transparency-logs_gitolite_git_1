@@ -1,28 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/ethtool
-Date: Mon, 06 Dec 2021 21:15:48 -0000
-Message-Id: <163882534846.1699.9553057085913191499@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8111082916986560489=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Mon, 06 Dec 2021 21:18:30 -0000
+Message-Id: <163882551011.2695.249813175653573429@gitolite.kernel.org>
+
+--===============8111082916986560489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/ethtool
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: 50fdaec68feb63753137468a28ce992502883f88
-    new: 429f2fc288437a2c54ce7cb47b7f1c47dc3e1c9a
-    log: |
-         c5e7133411601492ec0000dd4301ec9629f390a4 cable-test: Fix premature process termination
-         73091cd94023c8a10de3b2c0a3b89601d29f3b2f sff-8636: Use an SFF-8636 specific define for maximum number of channels
-         837c1662ebd6b0e0f410c5b58188c909970137a4 sff-common: Move OFFSET_TO_U16_PTR() to common header file
-         8658852e0ef7558ca39d2016948207c54d26318c cmis: Initialize Page 02h in memory map
-         27b42a92286b62491a7e023823c27662f463b8e6 cmis: Initialize Banked Page 11h in memory map
-         340d88ee128994cbb3d8fe19351fc4f62fc48f14 cmis: Parse and print diagnostic information
-         eae6a99f3d13e4bffeb8bd145ebff3f41be1eb06 cmis: Print Module State and Fault Cause
-         82012f2dbfeb6b813b8c638948a764704d255476 cmis: Print Module-Level Controls
-         d7b100713f73a4392a9b07bd95352d6065edb4fe sff-8636: Print Power set and Power override bits
-         429f2fc288437a2c54ce7cb47b7f1c47dc3e1c9a Merge branch 'review/cmis-diag' into master
-         
+    old: f5d519563ac9d2d1f382a817aae5ec5473811ac8
+    new: b0e898fbaf377c99a36aac6fdeb7250003648ca4
+    log: revlist-f5d519563ac9-b0e898fbaf37.txt
+
+--===============8111082916986560489==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f5d519563ac9-b0e898fbaf37.txt
+
+73a13f4d8d6059768f1090a95c43b8b5333b58db QCA: Add Bluetooth firmware for WCN685x
+77e72100290150317c3a29baddf97f8fd27b58b4 mrvl: prestera: Update Marvell Prestera Switchdev v4.0
+4d74f4dec175363fa24c95702dd86f477cef232c Update ath10k/QCA6174/hw3.0/board-2.bin
+9a296661651156bd4957259a92affe9e6acd8652 Merge https://github.com/tjiang123/qca-btfw into main
+afa07126a53e6b6bbe95eb200fd16e71b0bdcbfa Merge branch 'prestera-v4.0' of https://github.com/PLVision/linux-firmware into main
+999c3c7eed5910452a2c07288efaa758fddedacd Merge branch 'QCA6174-ms-surface-board-data' of git://git.kernel.org/pub/scm/linux/kernel/git/hansg/linux-firmware into main
+0581ebf1ab139efe9c0323ee0359e537b63860ef amdgpu: update vangogh DMCUB firmware
+581f8a3aae021c844f55dca71bbf848f3e6e7dc1 amdgpu: update yellow carp dmcub firmware
+36c115ff1f064e3f6a0aa7b96b0f245661ff51b9 linux-firmware: Update firmware file for Intel Bluetooth AX201
+3ed33dbb9b2752c0a574036a69e7171c3c236b07 linux-firmware: Update firmware file for Intel Bluetooth AX200
+edf3ed5a4beb8bb21f3796ca8d2bccb95e04ae5b linux-firmware: Update firmware file for Intel Bluetooth 9260
+38f78f6210c5da5a226a22cf2354f57e1cf64dc8 linux-firmware: Update firmware file for Intel Bluetooth 9560
+fbbc3a814e491b1cbf38d31494657347200dcb77 linux-firmware: Update firmware file for Intel Bluetooth AX210
+0e81be32a4c5da15a8b754724158b87a5281c47c linux-firmware: Update firmware file for Intel Bluetooth AX211
+12739a5fdc51cac3d905b4f2e39af14c819e0841 linux-firmware: Update firmware file for Intel Bluetooth AX211
+afafd4bb98649f005da1ac5e8209f4c613b547c9 linux-firmware: Update firmware file for Intel Bluetooth AX201
+0c353e11922827a1056f125b57d7f7394803b533 linux-firmware: Update firmware file for Intel Bluetooth AX201
+625e4549faf9a7c1ac7bf3670470e0b33d2b6bd9 linux-firmware: Update firmware file for Intel Bluetooth 9560
+bfab8df7478eedc078ae8881e6e9856baac106f4 linux-firmware: Update firmware file for Intel Bluetooth 9560
+8eec9ef62eadfe6963bc49482380146e45cbf153 linux-firmware: Update firmware file for Intel Bluetooth 9462
+b0e898fbaf377c99a36aac6fdeb7250003648ca4 linux-firmware: Update firmware file for Intel Bluetooth 9462
+
+--===============8111082916986560489==--
