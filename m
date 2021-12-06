@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 06 Dec 2021 09:09:13 -0000
-Message-Id: <163878175397.24954.14230976640307894397@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2496804498061760187=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 06 Dec 2021 09:18:24 -0000
+Message-Id: <163878230488.30632.1312774514457918393@gitolite.kernel.org>
+
+--===============2496804498061760187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: b6409dd6bdc03aa178bbff0d80db2a30d29b63ac
-    new: fb1af5bea4670c835e42fc0c14c49d3499468774
-    log: |
-         619764cc2ec9ce1283a8bbcd89a1376a7c68293b ALSA: hda/realtek: Fix quirk for TongFang PHxTxX1
-         fb1af5bea4670c835e42fc0c14c49d3499468774 ALSA: usb-audio: Reorder snd_djm_devices[] entries
-         
-  - ref: refs/heads/for-next
-    old: 1e583aef12aa74afd37c1418255cc4b74e023236
-    new: 82cd3ba691a920007503d189989d2495a41a3a10
-    log: |
-         d13a8f6d8e01a17a9fe36029e346a1f029362c9e ALSA: Fix some typo
-         82cd3ba691a920007503d189989d2495a41a3a10 ALSA: oss: remove useless NULL check before kfree
-         
   - ref: refs/heads/master
-    old: 0b24ce945b6b98a85606d774105e93b19dad62ea
-    new: 7ad2a251a0c3b31f5344987fb4158d9ed2defb64
+    old: 6cd95e47e37c765ef20e64c891e7af237b7dd6f8
+    new: 0143d2cfb036ff092373b78ac2354fe06aca3824
     log: |
-         619764cc2ec9ce1283a8bbcd89a1376a7c68293b ALSA: hda/realtek: Fix quirk for TongFang PHxTxX1
-         e1b001b7b6d4c04b3dee03bf4e9eb198589776e6 Merge branch 'for-linus'
-         d13a8f6d8e01a17a9fe36029e346a1f029362c9e ALSA: Fix some typo
-         fb1af5bea4670c835e42fc0c14c49d3499468774 ALSA: usb-audio: Reorder snd_djm_devices[] entries
-         080f479c701d212cae41cff0806abe3bdce13b1d Merge branch 'for-next'
-         71ecc637dc0d0a616e9e1c63113185cb0e2b78cd Merge branch 'for-linus'
-         82cd3ba691a920007503d189989d2495a41a3a10 ALSA: oss: remove useless NULL check before kfree
-         7ad2a251a0c3b31f5344987fb4158d9ed2defb64 Merge branch 'for-next'
+         0143d2cfb036ff092373b78ac2354fe06aca3824 4.4-stable patches
          
+
+--===============2496804498061760187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638782303 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1638782300-42f737bab91d05d99feff29219520c55f86b8418
+
+6cd95e47e37c765ef20e64c891e7af237b7dd6f8 0143d2cfb036ff092373b78ac2354fe06aca3824 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGt1V8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E4sP/A62uwwtsZah4rmUC3Pp
+Nq1B5UXiOrX9saAe45VN5ugxcO14AjOGcKUa2B3eFKazJ3UkwP2zCNtVFpysqvm8
+2Awvec5NL7jjS26d/Hk7GghrSkjHezHxYztTtHSyLklf/LOVGrstoPuRAMhlHHNH
+sjCovQssV0+c0WX/aYRu5m+vJNfJMCkyb7ApxcR0CMHsoNa5d/EFGXNISnibn+q0
+KiTbo60sgErZaj8dJpnDEKtQnDe1QM8EaSrGwqXiooBuprkp5Gkst8r7xV/b85gr
+BP2R/o1xwmnc0GqfyfA3EqQbM+QtSypIx9eYN+5NviWTBkhRBja6jgFxX8Hx2evn
+fd7iC4eCkg4VcczqMA9rDXzZRcD3nrbQQCmbFTTYifwr9kKpPqShSF5alD3fLnyv
+e/gQv/ziC5KEMa4T/bKfrLwDRtHeHt2qKZONphbjcRLKTLr3y2mhckuvLoQT96Uv
+6LR+rqGh1grpDVy82Aqa934P0Jh0hdgJ/k+vL2LbRLHtbZVb/NgMsctbEAqMeNyk
+s6bBa7qg3JtK8xCGyOMzKmAbMZl71h3oIV60n2U4vuR8Sq/ZoTjhzu10xjydYALQ
+w8ymehZB66OEGKOedEtZLYUa0xtsevSPMuuVPB4cpGiP2Es/qwKJF4OYyk1RZ/ws
+34Z5+EdQdLl36OjtcM8Y8i47
+=zpjG
+-----END PGP SIGNATURE-----
+
+--===============2496804498061760187==--
