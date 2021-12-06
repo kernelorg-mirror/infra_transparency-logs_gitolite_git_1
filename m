@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Dec 2021 15:15:14 -0000
-Message-Id: <163880371456.31648.12670372168722665711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Mon, 06 Dec 2021 15:24:02 -0000
+Message-Id: <163880424263.4651.11960444763994251620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/sched/core
-    old: 8c92606ab81086db00cbb73347d124b4eb169b7e
-    new: 014ba44e8184e1acf93e0cbb7089ee847802f8f0
+  - ref: refs/heads/experimental
+    old: 8f59a3d39df36bd1f6c391db3c5b1a5f65410af1
+    new: 62e5bb6efc4094d7d81e6a3dccdde5b39dde7d99
     log: |
-         8b4e74ccb582797f6f0b0a50372ebd9fd2372a27 sched/fair: Fix detection of per-CPU kthreads waking a task
-         014ba44e8184e1acf93e0cbb7089ee847802f8f0 sched/fair: Fix per-CPU kthread and wakee stacking for asym CPU capacity
+         62e5bb6efc4094d7d81e6a3dccdde5b39dde7d99 erofs-utils: add an option to dump an inode by path
          
