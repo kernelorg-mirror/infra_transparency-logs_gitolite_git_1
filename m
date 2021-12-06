@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 06 Dec 2021 19:51:13 -0000
-Message-Id: <163882027324.14024.2671484310482046853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 06 Dec 2021 19:52:39 -0000
+Message-Id: <163882035916.14456.16785224137692986981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 0e0de3669c37deee975002bb9c8d6771305bdeb2
-    new: 6d1ccafe9da430f8fb4b44c24bdf6a1eb3d06d90
+  - ref: refs/heads/dev
+    old: f12b88d197f5dcc68066be4add3fc81f1a5b1a8d
+    new: 2440cc1e22df6658265684d825fda2595abae595
     log: |
-         135ce1ed0a9944c3704d312fc844b845aa5c8686 libxfs: hide the drainbamaged fallthrough macro from xfslibs
-         6d1ccafe9da430f8fb4b44c24bdf6a1eb3d06d90 xfsprogs: Release v5.14.2
+         eea34b997cb2902d47b482deb3b7513935fb9754 torture: Indicate which torture.sh runs' bugs are all KCSAN reports
+         a0d7ba42e363f3445cc610d42c5e2a3dfe583be2 clocksource: Add a Kconfig option for WATCHDOG_MAX_SKEW
+         5ec26f4e216635607e2f6670e4d7919f578c6afc kcsan: Avoid nested contexts reading inconsistent reorder_access
+         2440cc1e22df6658265684d825fda2595abae595 kcsan: Only test clear_bit_unlock_is_negative_byte if arch defines it
          
