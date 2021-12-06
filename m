@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3691351529722943184=="
+Content-Type: multipart/mixed; boundary="===============1139984338524061299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 06 Dec 2021 14:55:53 -0000
-Message-Id: <163880255321.19397.8782992224949343325@gitolite.kernel.org>
+Message-Id: <163880255393.19443.17194446841739381712@gitolite.kernel.org>
 
---===============3691351529722943184==
+--===============1139984338524061299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 7cdf72db6a72b294221f1ae8aa0e2d6b595d0d35
-    new: f5b0b7aefd9d2ea9170ed69c7ab2dfd751fba7d1
-    log: revlist-7cdf72db6a72-f5b0b7aefd9d.txt
+  - ref: refs/heads/linux-4.19.y
+    old: f1a16e9219657551c76f4c62aaaed7cd217876e8
+    new: 36bf297d873717a14e37c015e0e4947bd5a0b6fe
+    log: revlist-f1a16e921965-36bf297d8737.txt
 
---===============3691351529722943184==
+--===============1139984338524061299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,85 +30,81 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638802551 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1638802550-c582a96e131c486c3f570af26351c7b16ec7e2b7
+nonce 1638802551-91ad46a38ee35669f3089008837818e37b435024
 
-7cdf72db6a72b294221f1ae8aa0e2d6b595d0d35 f5b0b7aefd9d2ea9170ed69c7ab2dfd751fba7d1 refs/heads/linux-4.4.y
+f1a16e9219657551c76f4c62aaaed7cd217876e8 36bf297d873717a14e37c015e0e4947bd5a0b6fe refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGuJHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+06UQAKKV6CaOyvn9dp7N3Pal
-wDlKUg20s4ZNRMcuE3gTxnZSKZTkuGb3I5RI1a6Dukc/NPdz7ss4HjqHMeiih4Ut
-58/qENYte+f3cdOvsqUsrklQxavmrF8Kg0OKAy3w5uCHlXO91mb8HBYhKmv91N3B
-JL0Hmr0tueIyM2nRNem0/VLvKyjwClGn70SR43NeZMbqpPSrtR0U95DlT6WW+K/T
-NAwE86rEUZhM20sB4khKpnsuLDZmZyDZ6wheyvizBU/cmokNZHhjmw/v9MXjZEuv
-JAeNmbOb7xGstzgX779kbCsJzWp46Bn3GykGMzwphPQ5BiEtavlGIm11k30l8Wbt
-y+HNYq0MhAkGG47oDNTkshpIW1qnD9B/7lPAz6ntu24jmI3wuGhjPd3dHLhTruM3
-+lj4mfg0RmAZ18UQbEkX5E8BoqYB8kaXXSo20EYgc8PNGExfamSk0iVOa1JUMDun
-577eBqtznQThkSOoYocO5depfSsQgPiWXPh0zC8UD5uisZ/zUZcHiRjWjdrwFx+u
-QvThcMk+j0NqsvruB4NI/99WBTVCiCHxZiQ+xOh8BAshdMZZF6N2kT22vSPtGKTo
-o6kPKpGjErmgwKbXcrwaDgfB5kq0mokvGrQjTiGx89ECUoAbIBOwflsfqtMag3zQ
-Qim6hkPGFnIWfBM8xkDpiEse
-=p51U
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ofcQAJgwwn6ZQuhEZ7Xso0li
+VCmc1FnInguFkg+Y08sSd53c9bprjgEIpemd/sYuW7xytE+4DtwBNrIM/bgfcnYW
++v85K0yt2Qb98ItG1twyikDEDtXssh37/tlUyFwu2e6tbVHI7ObXMrRTrMAstP9D
+jz9PutFMGAtA9hvtsnw5E/Iw3sdL4uUyu9OdRy78bse37SV5TxM9Sy8BOxoiYMZ0
+51/323k/sf4kXGScWVRMc+IWo1fMJ+P/jzDovclmML1MkbrIH8oiy8Op/SVFUay3
+lKRUeCxNfyunFKdFLoN6MJS7tndMBVGn9E3gMQ6E7cUatp4ew4a8aMYT9LEwIzYV
+dvkG4y0v7Hiwwfk7Wd/hJgoMiok3ifk6rrlHYHJgqfasiddfn0zXsZiApHHk2zc6
+L0U5y0/aJBKJKex22AJVFEtNQVaz4drk01Uu7DUeUiaHCS9V2XTq9EFGy5JQM+2q
+NzGFSNp/sUkF0ouGavemS/Ay5xdRw95lA9MTmuUJsW0wAj44XXBfKpCdYTiJ780f
+7FRXGw5KXmSI5qGQ92cqqBy2CcguiZi735I8dPncNTXC89OgN+uscJA8veLLqDqG
+Bq9nyhDhNzMhaGABKEb3vVLKZQcQtw7tRgTgyGH9EmCYTOKV28zN3uyN2FDjfPGh
+GzR74sUDruQPdJxZsoKmf6QV
+=wvGF
 -----END PGP SIGNATURE-----
 
---===============3691351529722943184==
+--===============1139984338524061299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cdf72db6a72-f5b0b7aefd9d.txt
+Content-Disposition: attachment; filename=revlist-f1a16e921965-36bf297d8737.txt
 
-360b2d075dc9e75a3e29784d400444aca238ac66 staging: ion: Prevent incorrect reference counting behavour
-6e3112f7407543315bd27a865c69ef30d144ac9d USB: serial: option: add Telit LE910S1 0x9200 composition
-fd14a693f1bb83d18eb4234238b3200e1913e7ae USB: serial: option: add Fibocom FM101-GL variants
-528a3c9f6dafb686d122bf2b30d45926ba20ad67 usb: hub: Fix usb enumeration issue due to address0 race
-5a397ce728dbde00102f4d484dab614f08bbb319 usb: hub: Fix locking issues with address0_mutex
-ee9c54a9c6e1b1a755d54649eff94d187b7f6f40 binder: fix test regression due to sender_euid change
-b4e8d46ca8e3e89cb94e21f2c68dee28eae35fa9 ALSA: ctxfi: Fix out-of-range access
-34620c9795bc49d45e90f17a837ac75fb7ed1e76 staging: rtl8192e: Fix use after free in _rtl92e_pci_disconnect()
-264475aaf89e59155808ec134188bcd80be260ae xen: don't continue xenstore initialization in case of errors
-035618220976216478c2b620cfdfd62e4ed533c3 xen: detect uninitialized xenbus in xenbus_init
-4977c12aa1705360f4e9fcb0a8a58bb99b1fa478 ARM: dts: BCM5301X: Add interrupt properties to GPIO node
-792aefa87dafcefe97f0588442ec7e0c829bc055 ASoC: topology: Add missing rwsem around snd_ctl_remove() calls
-63c141ff53a9c673bf3e2df8ad853c4ac79868e4 net: ieee802154: handle iftypes as u32
-e7c809120dee310fff6cfece23bf72460e8b8185 NFSv42: Don't fail clone() unless the OP_CLONE operation failed
-e70468ec35f3f60e96009299ce5e7b98a71a5f3f ARM: socfpga: Fix crash with CONFIG_FORTIRY_SOURCE
-0599b131d1775c120a05364f8cc20792f6b0b201 scsi: mpt3sas: Fix kernel panic during drive powercycle test
-d5b15c9f3e3fa35d81599525a12c4b1f8bc2da27 tcp_cubic: fix spurious Hystart ACK train detections for not-cwnd-limited flows
-ebed6a44d6c8b55a0d32c9b205c8039776f90a81 tracing: Check pid filtering when creating events
-71adc2672f8496db0e952a1bb441c6d45dba19ad hugetlbfs: flush TLBs correctly after huge_pmd_unshare
-f2bf455607c18a99ed423254a17765a44788a55b proc/vmcore: fix clearing user buffer by properly using clear_user()
-c6704312644b28fa00b95f8065572ea47eea95f1 NFC: add NCI_UNREG flag to eliminate the race
-e21307c0471961ac00e0afeec641cdeeb34bbdaa fuse: fix page stealing
-c45b6dcc5835ec59640517fae68a6a1d37c253e8 fuse: release pipe buf after last use
-7e808db3275c88a7cf220ead61b4381bbf50d2a9 shm: extend forced shm destroy to support objects from several IPC nses
-bf11feec09dc2510e5175b662379464b2c77397c xen: sync include/xen/interface/io/ring.h with Xen's newest version
-3cb601183e86882c8219fcca9c2d6984d1798b7e xen/blkfront: read response from backend only once
-fb2717a0bb58f181e9503b3bf580187963ef73c1 xen/blkfront: don't take local copy of a request from the ring page
-bab4937ce26213abac2c318dc80368e6274984f9 xen/blkfront: don't trust the backend response data blindly
-9b6eb8acab448badad7e59c2a9ed22949cb6b475 xen/netfront: read response from backend only once
-fb8ce7544c9f410dc6f4287ba6a18476624dd3f2 xen/netfront: don't read data from request on the ring page
-da623ff38cf01be049726b42488e6e2ed91d8ee2 xen/netfront: disentangle tx_skb_freelist
-5c27dac87cf32d3450416e0ce4176ad8e5bcb34e xen/netfront: don't trust the backend response data blindly
-82d08169d41ed922f8ee1680153980cd0ac36c24 tty: hvc: replace BUG_ON() with negative return value
-d92e7e2fd70143b1ac49d59e3f79b2ed70831d7d hugetlb: take PMD sharing into account when flushing tlb/caches
-36c2fca35444d4de047b6a2e54647cd49faaea5b net: return correct error code
-444f1cc8eedf1fb19af6726dbd97327a06b8aaf8 platform/x86: thinkpad_acpi: Fix WWAN device disabled issue after S3 deep
-fc1f11f615032766f4b551c436218b392379eea1 s390/setup: avoid using memblock_enforce_memory_limit
-5a95a5fbe9f9f18c38e0c5e4a55eb10da8f99b2f scsi: iscsi: Unblock session then wake up error handler
-1de428911d5bda9d6a37a4841aaa9e69924c9121 net: tulip: de4x5: fix the problem that the array 'lp->phy[8]' may be out of bound
-0892032d9c227e778f5437ad6fb7a4a563a9f45b net: ethernet: dec: tulip: de4x5: fix possible array overflows in type3_infoblock()
-a13c4338f2225b0cc813ef4266fc02b91215c778 kprobes: Limit max data_size of the kretprobe instances
-643765e13a4fa9e99c7b0d8deafb19e94d740cf2 sata_fsl: fix UAF in sata_fsl_port_stop when rmmod sata_fsl
-0eab702b65274403deec1a1a6a3da6d4591381ea sata_fsl: fix warning in remove_proc_entry when rmmod sata_fsl
-f0031290c3bed86526777d37aca64dfbdf82c451 fs: add fget_many() and fput_many()
-2c712d32a1344abb0dd23f759d964eaf0029d9fd fget: check that the fd still exists after getting a ref to it
-9be68cbf0037802f6aea91eda67c2807d9bf1783 natsemi: xtensa: fix section mismatch warnings
-badbeaf16556a6ee1f22a89e24b197faaa496e4d net: qlogic: qlcnic: Fix a NULL pointer dereference in qlcnic_83xx_add_rings()
-b4185b44b463594ee01be5408b277b8c2146d693 siphash: use _unaligned version by default
-2af0a8b5502164333d87166de24416049561fd38 parisc: Fix "make install" on newer debian releases
-e41092303dabcb19662836ca80edb89f5907eb59 vgacon: Propagate console boot parameters before calling `vc_resize'
-e1251737b7743bb2be809ca768aaac5e6d0d6c76 tty: serial: msm_serial: Deactivate RX DMA for polling support
-cdf8ed08588a523fdb4be34f9561f7bdca4e7f04 serial: pl011: Add ACPI SBSA UART match id
-f5b0b7aefd9d2ea9170ed69c7ab2dfd751fba7d1 Linux 4.4.294-rc1
+c72dcf626c80469db709907f0582f2b82555ba26 shm: extend forced shm destroy to support objects from several IPC nses
+d3099917e4a878e1212c0a892da624c534f89313 NFSv42: Fix pagecache invalidation after COPY/CLONE
+a87a280a1a0eccba97e1be0ae52aaddf6953944a of: clk: Make <linux/of_clk.h> self-contained
+c7853ba64def5ca311d65557599933a15d9783d7 gfs2: Fix length of holes reported at end-of-file
+0c1cf96c66a63b535121104477da06d92b2cc9fa atlantic: Fix OOB read and write in hw_atl_utils_fw_rpc_wait
+4418077bde396108e71fb0d3110286f9a390196c net: return correct error code
+d01ddd0bad407413a632e79794f8db82e41632e2 platform/x86: thinkpad_acpi: Fix WWAN device disabled issue after S3 deep
+907cadafc3ae8b93415061bbeccac72231d8cfba s390/setup: avoid using memblock_enforce_memory_limit
+cad48b3f0b8157590bedb8e42dff01b2ecfd13ca btrfs: check-integrity: fix a warning on write caching disabled disk
+c7255e59d4b687fa3d6e3e9188102e3c9b43163e thermal: core: Reset previous low and high trip during thermal zone init
+53b74705be2b3d3aa4566f35dbdba109269b7693 scsi: iscsi: Unblock session then wake up error handler
+2e772d66f1bf29be94fa9ffa9ae4afef614cd6be ata: ahci: Add Green Sardine vendor ID as board_ahci_mobile
+88b0070d9c54664f55385baaa1a207b13efb1de1 ethernet: hisilicon: hns: hns_dsaf_misc: fix a possible array overflow in hns_dsaf_ge_srst_by_port()
+b22da3dcc92b3110f94d9bdfd966e0c4674b8d4f net: tulip: de4x5: fix the problem that the array 'lp->phy[8]' may be out of bound
+3865fd3e9374b2bb29a05640ac4753e2f00dd423 net: ethernet: dec: tulip: de4x5: fix possible array overflows in type3_infoblock()
+d39be8405cf2e2726ef7283488dd890b93e1f3f1 perf hist: Fix memory leak of a perf_hpp_fmt
+577cee9834860212d699cca1a375891b436f6996 vrf: Reset IPCB/IP6CB when processing outbound pkts in vrf dev xmit
+b3564fdc6b9f045ea543b48c42ad88c9321169c4 kprobes: Limit max data_size of the kretprobe instances
+6b13f4b32bc5279c3ef96e4f85a3018cb42c56b0 ipmi: Move remove_work to dedicated workqueue
+516a8cb4931322decf2515890e19afa6fc6e39ff sata_fsl: fix UAF in sata_fsl_port_stop when rmmod sata_fsl
+86e0a54244ee32ed4496bca3e9d7c05e96cb5e99 sata_fsl: fix warning in remove_proc_entry when rmmod sata_fsl
+0174baa566853acf75a76d406a7d7ec48eb8568a fs: add fget_many() and fput_many()
+7535b8db9974986a1c5c08b437232fddca8bff63 fget: check that the fd still exists after getting a ref to it
+ffdf53d39e70b29ba883fa0b462bfd4d99f66e9b i2c: stm32f7: recover the bus on access timeout
+69b96993ad4ec9364b93d1e4fd449ac49a7194b6 i2c: stm32f7: stop dma transfer in case of NACK
+9209b2c4ca390085bedea46a1eaea881793b31e4 natsemi: xtensa: fix section mismatch warnings
+fbcd7c2a5e3e114c18a3e9c1c5c8e48e5cc49412 net: qlogic: qlcnic: Fix a NULL pointer dereference in qlcnic_83xx_add_rings()
+2c9ee57feb7fab2ea461cf46eaaf51e78f7a624e net: mpls: Fix notifications when deleting a device
+a9472ecb5bb46a68e6ff54b8c6a9996f34ab2a02 siphash: use _unaligned version by default
+2e5e25585452da21c1dae974cecf8b0ac395195e net/mlx4_en: Fix an use-after-free bug in mlx4_en_try_alloc_resources()
+39022edda5c8bf0f8a9dfe9c7287fd64fabd3903 rxrpc: Fix rxrpc_local leak in rxrpc_lookup_peer()
+5e130c0e4bc782070e13ce8e88c89bee18435688 net: usb: lan78xx: lan78xx_phy_init(): use PHY_POLL instead of "0" if no IRQ is available
+4e8ba6b5be722639f1b563525173c3d3fdf92692 net: annotate data-races on txq->xmit_lock_owner
+f565c45c68b8347351c7159b04ad5a845730f993 net/rds: correct socket tunable error in rds_tcp_tune()
+5c17d4d88698908047e1f20e51106cb5539057cf net/smc: Keep smc_close_final rc during active close
+6007b1703f0bee2856dca66662c1a2f8bdbfee5b drm/msm: Do hw_init() before capturing GPU state
+2e70f0b68de093dfa4a59725422695fbd1ee8462 parisc: Fix KBUILD_IMAGE for self-extracting kernel
+e54ef35dc5a241ff949e5a975ab79143df053526 parisc: Fix "make install" on newer debian releases
+848208ba180f0caade9bc36b7512673babbed1e9 vgacon: Propagate console boot parameters before calling `vc_resize'
+ebe64bb66cb2e7a1a692af94d88f6fff1b4a0f03 xhci: Fix commad ring abort, write all 64 bits to CRCR register.
+f30402823c7358194933a8944f04b887d2534f1b USB: NO_LPM quirk Lenovo Powered USB-C Travel Hub
+324b05809313b622d09711471583989ec0d94c82 usb: typec: tcpm: Wait in SNK_DEBOUNCED until disconnect
+64d34c0887ce9685406236cd652e2f0058e5713d x86/64/mm: Map all kernel memory into trampoline_pgd
+15047c502901812c2a2c003ab93038ede7f44a05 tty: serial: msm_serial: Deactivate RX DMA for polling support
+5019d32fba1edf9bacb35c8ab89658e55c8d46ea serial: pl011: Add ACPI SBSA UART match id
+570f2f756a25795aa735040379c093cf1e68b332 serial: core: fix transmit-buffer reset and memleak
+0b6369897d907eda8914430793f1a7b78270494f parisc: Mark cr16 CPU clocksource unstable on all SMP machines
+5bcb08c223e2c601546a0b438dd50ce23fe10d91 ipmi: msghandler: Make symbol 'remove_work_wq' static
+36bf297d873717a14e37c015e0e4947bd5a0b6fe Linux 4.19.220-rc1
 
---===============3691351529722943184==--
+--===============1139984338524061299==--
