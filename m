@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0335992838273852972=="
+Content-Type: multipart/mixed; boundary="===============0626870916628216701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 06 Dec 2021 08:55:28 -0000
-Message-Id: <163878092821.2080.17569950338570673920@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 08:56:01 -0000
+Message-Id: <163878096109.2314.8020107607748380398@gitolite.kernel.org>
 
---===============0335992838273852972==
+--===============0626870916628216701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6312c672bea8b22c3042d7d383c4933a0a144d12
-    new: f00c047f99d9c29630f421820c85dd7c7dd8f012
-    log: revlist-6312c672bea8-f00c047f99d9.txt
+  - ref: refs/heads/m68k-queue
+    old: 677ec87dbd4f0df19c1f5397765288eb6898fae6
+    new: b5b1bae160ab8be04a8645ccb553e697fbdb8229
+    log: revlist-677ec87dbd4f-b5b1bae160ab.txt
 
---===============0335992838273852972==
+--===============0626870916628216701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6312c672bea8-f00c047f99d9.txt
+Content-Disposition: attachment; filename=revlist-677ec87dbd4f-b5b1bae160ab.txt
 
 1d49eb91e86e8c1c1614c72e3e958b6b7e2472a9 ipmi: Move remove_work to dedicated workqueue
 574c3c55e969096cea770eda3375ff35ccf91702 KVM: x86/mmu: Fix TLB flush range when handling disconnected pt
@@ -357,6 +357,9 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 944207047ca4dabe8e288f653e7ec6da05e70230 Merge tag 'usb-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
-f00c047f99d9c29630f421820c85dd7c7dd8f012 Merge tag 'v5.16-rc4'
+b436a926af716bc860f008369011c5a484ba6bdb m68k: Enable memtest functionality
+a8e06b6dcc78a8232e2b2083d2315fb391b5c2dc m68k: atari: usb: Add ISP1160 USB host controller support
+e078019bb8f3a93d9948e9057bfbca7656036a0d m68k: atari: Update Kconfig.bus help text
+b5b1bae160ab8be04a8645ccb553e697fbdb8229 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0335992838273852972==--
+--===============0626870916628216701==--
