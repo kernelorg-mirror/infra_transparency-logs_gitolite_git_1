@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Dec 2021 18:32:37 -0000
-Message-Id: <163881555731.27816.1192764890801632981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+Date: Mon, 06 Dec 2021 18:33:04 -0000
+Message-Id: <163881558437.28013.15641074229835915323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/libs/python/python-linux-procfs/python-linux-procfs
+user: jkacur
 changes:
-  - ref: refs/heads/40GbE
-    old: 27b0f1485fe9a68d52554a85af81440644fc7675
-    new: 23ec111bf3549aae37140330c31a16abfc172421
+  - ref: refs/heads/main
+    old: 1b81ccb79e2e6cfde8bbe5bb7d32d021eedda29d
+    new: ce8cacdd515bf7270daef62648d5f994f111cded
     log: |
-         1a1aa356ddf3f16539f5962c01c5f702686dfc15 iavf: Fix reporting when setting descriptor count
-         61125b8be85dfbc7e9c7fe1cc6c6d631ab603516 i40e: Fix failed opcode appearing if handling messages from VF
-         8aa55ab422d9d0d825ebfb877702ed661e96e682 i40e: Fix pre-set max number of queues for VF
-         23ec111bf3549aae37140330c31a16abfc172421 i40e: Fix NULL pointer dereference in i40e_dbg_dump_desc
+         2285fc015b849e3266826995c38dd8bf72fb22a0 python-linux-procfs: Remove procfs/sysctl.py
+         ce8cacdd515bf7270daef62648d5f994f111cded python-linux-procfs: Various clean-ups
          
