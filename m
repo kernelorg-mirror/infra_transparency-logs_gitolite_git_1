@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5800308525795915440=="
+Content-Type: multipart/mixed; boundary="===============8104480740178391788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 06 Dec 2021 08:33:33 -0000
-Message-Id: <163877961396.18660.16668380965409675996@gitolite.kernel.org>
+Date: Mon, 06 Dec 2021 08:33:39 -0000
+Message-Id: <163877961979.18741.10012798118600282494@gitolite.kernel.org>
 
---===============5800308525795915440==
+--===============8104480740178391788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 9cabe26e65a893afd5846908aa393bd283ab6609
-    new: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
-    log: revlist-9cabe26e65a8-0fcfb00b28c0.txt
+  - ref: refs/heads/tty-next
+    old: 13a5fad39a7b781c21d9528bcf52a5f5babafe99
+    new: f5bced9f34355d2b12779eebdf2634cb27c18cff
+    log: revlist-13a5fad39a7b-f5bced9f3435.txt
 
---===============5800308525795915440==
+--===============8104480740178391788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638779613 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638779617 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1638779612-929b966250d4cf6242e6a7105a0d95ad8d5a70d7
+nonce 1638779617-30ba70f0d3eb7af9d50bca19859f551ab5d99c1f
 
-9cabe26e65a893afd5846908aa393bd283ab6609 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 refs/heads/tty-linus
+13a5fad39a7b781c21d9528bcf52a5f5babafe99 f5bced9f34355d2b12779eebdf2634cb27c18cff refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGtyt0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+reQP+wfree9Dx4v/GuTAUcBS
-ikthM205ziRsEuN37sqHenO1r2Jf1fWU3aOtdfA7zaareABQBZQxc4KqNP7pH26a
-PCKaw/HWoGwiiNyemcvyk338GElm/6uUfY1oapf7aqIvyS9lO4IxeDxaSInKX33Q
-6clT2UCAq/Vwg7POUJDJe9nvgVPRCLluApwBELuFpxFZWU0YeBTIk0pRip0CCFTI
-8DaylQc9meKcDxfADT+KE41iHHBlLzE+mwwx5wWLc33kp+ERllhkcxugw6ZlD/Av
-St9dXrFHNcxbFsQWXE327SeBkkd4z+wIgEzF3BjqKFWw3nly9A4gJUg9QUSNPOnM
-2haikOSvfhoDt4MH07YuHWyS6eT/I/2il1IxeWMmMTUvH2isC34SMQ/oMJ+BzXJc
-GXhisH8bYgFD7ww8NrkHA4+eUhM1A1XDxDK/l+MYqglJFPOO3tPoqnQYKogT9X0X
-i2I/J9wOM7s2SRk+QQxreV24AGkJ7KGPkMiH0p66Y9rEkAbFMW6s/8yrIu50ZCRv
-xB87tOxN+D23eEG/mRSB53QEqcqV/Xb9Lj7NSFfp+b44R6QSiBKnBxj0vkNs9OcS
-FkMvdtL94xbcuQbr7JeFF09grqh5QRqJV28ayVdLJHQK6Idoqtcnz2Vr2B+32wxh
-SCbb2Q787CcH1n1YkTVubbuL
-=0Apo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGtyuEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ivAQALxf/lN9RJRIEQ/wUyEX
+hBp6zDpkLMscNb7WOH9nKPFFRXSM+M59PNBO0uC0MlIoVWIilKNaHvE2GOoPsOSW
+8woMNrfBeK+BRECC6kxFJu2dchCagcQuepa6pBpUZp3HPRzG+J+EkGZyGFa/ocTG
+kf0veZS97oK85qgC4L96YGrrANOhT8fDWFtVNp83Z3iCfdGUVQ1GuDebH9DkITiM
+tVHhvnAxINTvprJRTuKey+D9RnPHkXdr/9rfXUr9XcD2sCuRizbef5GP0F6oF0ob
+kHen31D50HqcLAZKUx9Th171pKCu/uTZC0rz+7UIJ5Z/Vn9vha7QL7g8b9lmSoQt
+Pl8rUoQdmOi0kE1GrpeYaRgBT/EgWz8Zg5m4kZOhBRXCkjph1GRxt558OR1HKbSv
+23HZcwCPp7MmrYLPZCbBZk4+7XtZk44TY6oZ75IcST4IhV//1VrR4VwSdpuWPtDG
+HT/zJEsHsb8knyzZo8CmpEjP0x0O/QeL+X8wxRVEzxoFcmirISRYvdPcoVme3WO6
+sIohPBgVjyXjhcP1eZpOFo0VbzsC2yzkErwVJ/21czhjNT5Hh4TUB7f9y7EB+1WG
+vp2DdiPIiSPniQ2SM2Pd/+kCfF9V0oGSGXgF+2SEe9mGzghoh2W/JISKcFX5Y6VJ
+LOV2lXQ2KURQbJWRygt0/oHW
+=l5Q+
 -----END PGP SIGNATURE-----
 
---===============5800308525795915440==
+--===============8104480740178391788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cabe26e65a8-0fcfb00b28c0.txt
+Content-Disposition: attachment; filename=revlist-13a5fad39a7b-f5bced9f3435.txt
 
 a2697972b9369c41afea8a928c30ac5b7f28d292 ASoC: cs35l41: Change monitor widgets to siggens
 d9835eaa3e9fb4770745294fef3f8416446178c0 ASoC: SOF:control: Fix variable type in snd_sof_refresh_control()
@@ -456,6 +456,20 @@ eaeace60778e524a2820d0c0ad60bf80289e292c igb: fix netpoll exit with traffic
 1f80d15020d7f130194821feb1432b67648c632d KVM: arm64: Avoid setting the upper 32 bits of TCR_EL2 and CPTR_EL2 to 1
 41ce097f714401e6ad8f3f5eb30d7f91b0b5e495 MIPS: use 3-level pgtable for 64KB page size on MIPS_VA_BITS_48
 e30028ace8459ea096b093fc204f0d5e8fc3b6ae block: fix parameter not described warning
+b3483994b33a18a284aa453e21682a03f3b61206 MAINTAINERS: Add rpmsg tty driver maintainer
+00de977f9e0aa9760d9a79d1e41ff780f74e3424 serial: core: fix transmit-buffer reset and memleak
+ac442a077acf9a6bf1db4320ec0c3f303be092b3 serial: pl011: Add ACPI SBSA UART match id
+7492ffc90fa126afb67d4392d56cb4134780194a tty: serial: msm_serial: Deactivate RX DMA for polling support
+3dfac26e2ef29ff2abc2a75aa4cd48fce25a2c4b vgacon: Propagate console boot parameters before calling `vc_resize'
+0f55f89d98c8b3e12b4f55f71c127a173e29557c serial: liteuart: Fix NULL pointer dereference in ->remove()
+05f929b395dec8957b636ff14e66b277ed022ed9 serial: liteuart: fix use-after-free and memleak on unbind
+dd5e90b16cca8a697cbe17b72e2a5f49291cabb2 serial: liteuart: fix minor-number leak on probe errors
+0b993fc1fec7b43a75b875763dc58c5940eea47a serial: liteuart: relax compile-test dependencies
+b40de7469ef135161c80af0e8c462298cc5dac00 serial: tegra: Change lower tolerance baud rate limit for tegra20 and tegra30
+4e9679738a918d8a482ac6a2cb2bb871f094bb84 Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
+f85e04503f369b3f2be28c83fc48b74e19936ebc serial: 8250: Fix RTS modem control while in rs485 mode
+c525c5d2437f93520388920baac6d9340c65d239 serial: 8250_pci: Fix ACCES entries in pci_serial_quirks array
+bb1201d4b38ec67bd9a871cf86b0cc10f28b15b5 serial: 8250_pci: rewrite pericom_do_set_divisor()
 79941493ff3e75219fd1d37a09b46a604e9e55ac Merge tag 'folio-5.16b' of git://git.infradead.org/users/willy/pagecache
 6ef9d23121d0a7ed80488e546cea69ec48299d96 Merge tag 'arm-fixes-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 b501b85957deb17f1fe0a861fee820255519d526 Merge tag 'asm-generic-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
@@ -762,6 +776,7 @@ d2a004037c3c6afd36d40c384d2905f47cd51c57 USB: NO_LPM quirk Lenovo Powered USB-C 
 fbcd13df1e78eb2ba83a3c160eefe2d6f574beaf usb: typec: tcpm: Wait in SNK_DEBOUNCED until disconnect
 387c2b6ba197c6df28e75359f7d892f7c8dec204 usb: cdns3: gadget: fix new urb never complete if ep cancel previous requests
 37307f7020ab38dde0892a578249bf63d00bca64 usb: cdnsp: Fix a NULL pointer dereference in cdnsp_endpoint_init()
+9cabe26e65a893afd5846908aa393bd283ab6609 serial: 8250_bcm7271: UART errors after resuming from S2
 a226abcd5d427fe9d42efc442818a4a1821e2664 io-wq: don't retry task_work creation failure on fatal conditions
 1ac5e21d43b2325854cf3b36b1509b28468dc6fd powercap: DTPM: Drop unused local variable from init_dtpm()
 1d5379d0475419085d3575bd9155f2e558e96390 x86/sev: Fix SEV-ES INS/OUTS instructions for word, dword, and qword
@@ -801,5 +816,6 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 944207047ca4dabe8e288f653e7ec6da05e70230 Merge tag 'usb-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
+f5bced9f34355d2b12779eebdf2634cb27c18cff Merge 5.16-rc4 into tty-next
 
---===============5800308525795915440==--
+--===============8104480740178391788==--
