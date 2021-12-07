@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 07 Dec 2021 14:15:05 -0000
-Message-Id: <163888650557.1413.9623288023109093713@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 14:15:14 -0000
+Message-Id: <163888651467.1583.8667785761832011496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 014ba44e8184e1acf93e0cbb7089ee847802f8f0
-    new: 9b58e976b3b391c0cf02e038d53dd0478ed3013c
+  - ref: refs/heads/locking/core
+    old: 4cf75fd4a2545ca4deea992f929602c9fdbe8058
+    new: 77993b595ada5731e513eb06a0f4bf4b9f1e9532
     log: |
-         2917406c352757642c3c1a13a4c99c96e6d22fde sched/fair: Document the slow path and fast path in select_task_rq_fair
-         9b58e976b3b391c0cf02e038d53dd0478ed3013c sched/rt: Try to restart rt period timer when rt runtime exceeded
+         0cf292b569bc9bc87d29ac87ca5c47fdd5882e10 x86/mm: Include spinlock_t definition in pgtable.
+         77993b595ada5731e513eb06a0f4bf4b9f1e9532 locking: Allow to include asm/spinlock_types.h from linux/spinlock_types_raw.h
          
