@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 07 Dec 2021 07:20:11 -0000
-Message-Id: <163886161198.27483.2548091394709370440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Tue, 07 Dec 2021 07:22:20 -0000
+Message-Id: <163886174051.28189.1611894769646513254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/for-linus
-    old: 1d72d9f960ccf1052a0630a68c3d358791dbdaaa
-    new: a2fd46cd3dbb83b373ba74f4043f8dae869c65f1
+  - ref: refs/heads/cxl-2.0v6
+    old: 1baaa9035ca5402561a94b9d322b2edbcba4f249
+    new: 919e9f4ca87524241e73a377f2bca3e8c09b293e
     log: |
-         44ee250aeeabb28b52a10397ac17ffb8bfe94839 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-         a2fd46cd3dbb83b373ba74f4043f8dae869c65f1 Input: goodix - try not to touch the reset-pin on x86/ACPI devices
+         919e9f4ca87524241e73a377f2bca3e8c09b293e ndctl: install bash-completion symlinks
          
