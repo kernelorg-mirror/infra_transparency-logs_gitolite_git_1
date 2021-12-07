@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 07 Dec 2021 16:52:56 -0000
-Message-Id: <163889597670.6256.7035726216398820542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 07 Dec 2021 16:53:20 -0000
+Message-Id: <163889600082.6477.17750061999615199649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 403c521003a1364fd2d7c01a2a1f66ed025fb94a
-    new: 6fadb494a638d8b8a55864ecc6ac58194f03f327
+  - ref: refs/heads/master-pending
+    old: 7652f9b685e46c64ca51f6fc555f1c94530313b6
+    new: 52d1c1744fb85e93e83d8afd0aee2066ecb13eac
     log: |
-         6fadb494a638d8b8a55864ecc6ac58194f03f327 ALSA: seq: Set upper limit of processed events
+         6c90df4c7aca225c4c486f31ca956ae6c08abe59 ath11k: add spectral/CFR buffer validation support
+         52d1c1744fb85e93e83d8afd0aee2066ecb13eac Merge branch 'pending' into master-pending
          
-  - ref: refs/heads/master
-    old: 5f36dd20e2c25a1dab708464168b436aaa243307
-    new: d8beb690ff20f1ad2a4e7cc6bb80c3b13b2325e1
+  - ref: refs/heads/pending
+    old: 91feeed10e4a263967e80dc300a7da4bbc4cd4ed
+    new: 6c90df4c7aca225c4c486f31ca956ae6c08abe59
     log: |
-         6fadb494a638d8b8a55864ecc6ac58194f03f327 ALSA: seq: Set upper limit of processed events
-         d8beb690ff20f1ad2a4e7cc6bb80c3b13b2325e1 Merge branch 'for-next'
+         6c90df4c7aca225c4c486f31ca956ae6c08abe59 ath11k: add spectral/CFR buffer validation support
          
