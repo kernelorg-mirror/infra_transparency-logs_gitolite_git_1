@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7945863083915397230=="
+Content-Type: multipart/mixed; boundary="===============2342233623882116757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 07 Dec 2021 09:59:26 -0000
-Message-Id: <163887116601.3331.11851637238940055855@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 09:59:34 -0000
+Message-Id: <163887117439.3442.9451666656440674418@gitolite.kernel.org>
 
---===============7945863083915397230==
+--===============2342233623882116757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 70bf363d7adb3a428773bc905011d0ff923ba747
-    new: 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186
-    log: revlist-70bf363d7adb-4dbb0dad8e63.txt
+  - ref: refs/heads/testing
+    old: 69c55f6e7669d46bb40e41f6e2b218428178368a
+    new: ea4c1787685dbf9842046f05b6390b6901ee6ba2
+    log: revlist-69c55f6e7669-ea4c1787685d.txt
 
---===============7945863083915397230==
+--===============2342233623882116757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1638871160 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1638871169 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1638871154-b82a4deef16f7fafade7fc93ac193bfba8d95be3
+nonce 1638871169-4a6f028b88b5a903d2bf1e702b98af61035f10d9
 
-70bf363d7adb3a428773bc905011d0ff923ba747 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 refs/heads/master
+69c55f6e7669d46bb40e41f6e2b218428178368a ea4c1787685dbf9842046f05b6390b6901ee6ba2 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGvMHgTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqcNvB/4nal4NHW3IcvoeR3ccQxGhQL6yJOvF
-oqLiMz99j1yDJl4brJi/qo/xqMvsG6R0szdHge0RNSwp5PGhfEUMHbbPv1r1BFNN
-5dmD2II1lx5yxL6tyrZxnsxrI+CPuW/3d7ezCewGgke+lGqTzAf0K3xeYXlhEhnI
-C2D9ZWjb1hLBdp19Sj2AIOwJjgO8HOJR46OJ66GN+cZ6nSHllMlqlF9gp9ADfJde
-l+e1B+lHbaTIQYLaOMFID4MjQzJnWUBg/Yu7JfybtIMOPoHYRvWPMTC8saBxbYWx
-g1fdaNnZbLkOZkAnVaOJlPdi+GwG4X7oU9kGTx4LsVYB+//gwk//z7ZG
-=Ksrj
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGvMIETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqfkxCAC1gVYF2GzyQeJJQgHCH2GDuwLLh99N
+gsJ4XPk/CRE51onUwHUMERuFYctjJG6401s9LYEoEx5vT2O6MI0yvmINnIoY5PTc
+ikycm7p0TX8SVDxGTLBODDubPN5oONEvI/zuol/Z+/5NuT5etlbSuEQNMC8epl45
+Vi29fJ3jBwPPR3xfwHdHdnlbhkdFJ5nh2ZstDqk1Td+rSRym6Dluue0Qgk3gKHkr
+Tk5ZFvh42cBPEDF+tNAQOd7+rrb+5GwLY/UZ6cTpazbLhHrDITVTvdC1miJWa3H+
+VfUR2ugmoabrFxDFaEVx6Lqy65bTCEcUaZwmf3E3do85Vs2LHmtE2y8f
+=sVPq
 -----END PGP SIGNATURE-----
 
---===============7945863083915397230==
+--===============2342233623882116757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70bf363d7adb-4dbb0dad8e63.txt
+Content-Disposition: attachment; filename=revlist-69c55f6e7669-ea4c1787685d.txt
 
-2a74fe82831e3c8cadd1b2d2c594f1750a9decdc perf test: Convert pmu event tests to test cases.
-4218a96faf917b13ddc6af505bfb9b6a4e60bbc4 Merge tag 'mips_5.16_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-b89f311d7e25eb246376ac10de46d6ecc6b6ed5c Merge tag 'riscv-for-linus-5.16-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-be427a88a3dc2de30688b08d078f4f4c1bb035d6 Merge tag 's390-5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-d4fa09e514cdb51fc7a2289c445c44ba0c87117b Merge branch 'exit-cleanups-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-4d6fe79fdeccb8f3968d71bc633e622d43f1309c Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-7c3737c706073792133deeefae33ab17fd06e0c2 Merge tag 'trace-v5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-0a90729278ae7b31084d2d436b0eee4d83b11506 Merge tag 'selinux-pr-20211112' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-a9b9669d98229c1f6d228697af99a9b01b7b69ac Merge tag 'coccinelle-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 0f7ddea6225b9b001966bc9665924f1f8b9ac535 Merge tag 'netfs-folio-20211111' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
 5664896ba29e6d8c60b6a73564d0a97d380c0f92 Merge tag 'f2fs-for-5.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 a27c085874caf1a2d944bc0acc4b4ee76ffa9296 Merge tag 'erofs-for-5.16-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
@@ -1075,5 +1066,14 @@ badd7857f5c933a3dc34942a2c11d67fdbdc24de net: altera: set a couple error code in
 2be6d4d16a0849455a5c22490e3c5983495fed00 net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
 dde91ccfa25fd58f64c397d91b81a4b393100ffa ethtool: do not perform operations on net devices being unregistered
 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 devlink: fix netns refcount leak in devlink_nl_cmd_reload()
+94cddf1e9227a171b27292509d59691819c458db can: pch_can: pch_can_rx_normal: fix use after free
+3ec6ca6b1a8e64389f0212b5a1b0f6fed1909e45 can: sja1000: fix use after free in ems_pcmcia_add_card()
+f58ac1adc76b5beda43c64ef359056077df4d93a can: m_can: Disable and ignore ELO interrupt
+31cb32a590d62b18f69a9a6d433f4e69c74fdd56 can: m_can: m_can_read_fifo: fix memory leak in error branch
+d737de2d7cc3efdacbf17d4e22efc75697bd76d9 can: m_can: pci: fix iomap_read_fifo() and iomap_write_fifo()
+8c03b8bff765ac4146342ef90931bb50e788c758 can: m_can: pci: fix incorrect reference clock rate
+ea768b2ffec6cc9c3e17c37ef75d0539b8f89ff5 Revert "can: m_can: remove support for custom bit timing"
+ea22ba40debee29ee7257c42002409899e9311c1 can: m_can: make custom bittiming fields const
+ea4c1787685dbf9842046f05b6390b6901ee6ba2 can: m_can: pci: use custom bit timings for Elkhart Lake
 
---===============7945863083915397230==--
+--===============2342233623882116757==--
