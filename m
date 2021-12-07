@@ -1,45 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Tue, 07 Dec 2021 21:20:58 -0000
-Message-Id: <163891205867.11896.11677553593202199818@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0807434554315187604=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 07 Dec 2021 21:21:38 -0000
+Message-Id: <163891209878.12160.13990584603256030822@gitolite.kernel.org>
+
+--===============0807434554315187604==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: zanussi
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/v5.4-rt
-    old: a72653aef7332ed81f0138da49e3c2ef9b1a8665
-    new: 923e4eb72f84d05ad78d7e2fd2f2c779e7ef9655
-    log: |
-         9872abe678cd774808e8be4ca3128c6406c035d4 mm, zsmalloc: Convert zsmalloc_handle.lock to spinlock_t
-         4f40606d9de4096f582e3426c0fb8a2c67a5439c sched: Switch wait_task_inactive to HRTIMER_MODE_REL_HARD
-         9703ee45b6d003a2076659d3f5ba402bea546f72 preempt: Move preempt_enable_no_resched() to the RT block
-         017f2c178994dfa24cdebba1c9c620d294df28e9 mm: Disable NUMA_BALANCING_DEFAULT_ENABLED and TRANSPARENT_HUGEPAGE on PREEMPT_RT
-         5fcbdc34ca637e6c9c1eb2a7fcc932b584a3c6b7 fscache: Use only one fscache_object_cong_wait.
-         a2c3acea780b2ba2d7cf2ec4d9d64360e8366c23 fscache: Use only one fscache_object_cong_wait.
-         851de73319b3e114be60e030e1b59153f08391ba locking: Drop might_resched() from might_sleep_no_state_check()
-         923e4eb72f84d05ad78d7e2fd2f2c779e7ef9655 Linux 5.4.161-rt67
-         
-  - ref: refs/heads/v5.4-rt-rebase
-    old: 01e301ef10eaa48db59c18b260c8ae469bdaedc0
-    new: d37007ecdd9db7503053c1d8eb40670b8cf4b271
-    log: |
-         3056a648861deedf8960704a39de12ca4e3eb504 mm, zsmalloc: Convert zsmalloc_handle.lock to spinlock_t
-         48146217f054e4c369cf72a097b776c32cdcffdb sched: Switch wait_task_inactive to HRTIMER_MODE_REL_HARD
-         9bd17dd91de497596259c1f5fb432429ee12cf1e preempt: Move preempt_enable_no_resched() to the RT block
-         2e661f560e1293b69d17142adf37b0d219c1f04a mm: Disable NUMA_BALANCING_DEFAULT_ENABLED and TRANSPARENT_HUGEPAGE on PREEMPT_RT
-         6c70e245229e151113857bb491ddbfdc22d00eae fscache: Use only one fscache_object_cong_wait.
-         8810e1023c69b1b2aa7b09dabbc42b687dd72df7 fscache: Use only one fscache_object_cong_wait.
-         20d200f0fdf474444a4d67902adc9336e16df182 locking: Drop might_resched() from might_sleep_no_state_check()
-         d37007ecdd9db7503053c1d8eb40670b8cf4b271 Linux 5.4.161-rt67 REBASE
-         
-  - ref: refs/tags/v5.4.161-rt67
-    old: 0000000000000000000000000000000000000000
-    new: d58cd0eee683ba4f562733d9099fbc9acc631705
-  - ref: refs/tags/v5.4.161-rt67-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 2929a6de7eb39bd426d2e83d1eaddee7edad5339
+  - ref: refs/heads/master
+    old: 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186
+    new: d17b9737c2bc09b4ac6caf469826e5a7ce3ffab7
+    log: revlist-4dbb0dad8e63-d17b9737c2bc.txt
+
+--===============0807434554315187604==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4dbb0dad8e63-d17b9737c2bc.txt
+
+94cddf1e9227a171b27292509d59691819c458db can: pch_can: pch_can_rx_normal: fix use after free
+3ec6ca6b1a8e64389f0212b5a1b0f6fed1909e45 can: sja1000: fix use after free in ems_pcmcia_add_card()
+f58ac1adc76b5beda43c64ef359056077df4d93a can: m_can: Disable and ignore ELO interrupt
+31cb32a590d62b18f69a9a6d433f4e69c74fdd56 can: m_can: m_can_read_fifo: fix memory leak in error branch
+d737de2d7cc3efdacbf17d4e22efc75697bd76d9 can: m_can: pci: fix iomap_read_fifo() and iomap_write_fifo()
+8c03b8bff765ac4146342ef90931bb50e788c758 can: m_can: pci: fix incorrect reference clock rate
+ea768b2ffec6cc9c3e17c37ef75d0539b8f89ff5 Revert "can: m_can: remove support for custom bit timing"
+ea22ba40debee29ee7257c42002409899e9311c1 can: m_can: make custom bittiming fields const
+ea4c1787685dbf9842046f05b6390b6901ee6ba2 can: m_can: pci: use custom bit timings for Elkhart Lake
+2a62df3692716b051be4514d60c190559256fb06 Merge tag 'linux-can-fixes-for-5.16-20211207' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+d17b9737c2bc09b4ac6caf469826e5a7ce3ffab7 net/qla3xxx: fix an error code in ql_adapter_up()
+
+--===============0807434554315187604==--
