@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4517777191764946790=="
+Content-Type: multipart/mixed; boundary="===============0022864711938903044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 Dec 2021 03:46:10 -0000
-Message-Id: <163884877081.23916.12621022034041352989@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 03:46:22 -0000
+Message-Id: <163884878298.24060.2935488945738248173@gitolite.kernel.org>
 
---===============4517777191764946790==
+--===============0022864711938903044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,78 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: db33028647a3eca9e3e6fccf170d75f3b56a466c
-    new: bf3f120fd61c42c2f4aed8995e5417776d788c37
-    log: |
-         13202ebf5f331ca83f5ab47eb90ca4ef5489ac80 scsi: sd_zbc: Simplify zone full condition check
-         bf3f120fd61c42c2f4aed8995e5417776d788c37 scsi: sd_zbc: Clean up sd_zbc_parse_report() setting of wp
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: f8715d89f4146a57da6c81cc1ac5f47b2a736218
+    new: 02a34de3854f998ef8a5cef60cee509f11b8143e
+    log: revlist-f8715d89f414-02a34de3854f.txt
 
---===============4517777191764946790==
+--===============0022864711938903044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1638848763 -0500
+pusher 75C5DE3D 1638848775 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1638848763-d3fefe91231470a221bbde3cd78fefbc4f98e74e
+nonce 1638848774-23df5ba31e4d3ed77b8b9badd5c7ed15d7b3627e
 
-db33028647a3eca9e3e6fccf170d75f3b56a466c bf3f120fd61c42c2f4aed8995e5417776d788c37 refs/heads/queue
+f8715d89f4146a57da6c81cc1ac5f47b2a736218 02a34de3854f998ef8a5cef60cee509f11b8143e refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2PsACgkQ7ulgGnXF
-3j0q3Q//X5RhChsW9Mmrib1xyCS1GktSLYmj1vCmv7mxrPulVohvVUc14CQRJpel
-a3yPaYo/TqA17um6PKQ1dNax5HwhWp86KyshvHmd30QHoprPXZ2JPBtzVHeGGxM6
-KIcT7QuwJUK7Z5P6+6z3asWvjkclNgkvXh2of/7x54Yo9GUYv0OvLNyaz05i7uRi
-LxkkyWWHf1HG2p6u2G83tLB9AU49DJpOL6Ucs/g4DeQwv5BesgKMTYKRMhHl5MI2
-2kyCl6+0ThIQ+YIKHhl0B+GuDP6oBmTLTRwDJND1i8EmkG1SpzuD/XA2SISLLSZs
-McsqnDqh7dDWdERu6tHAb4s8gypROulXaV7hfRWhRatxzWJMIXZ+WK6mQZBZu0ws
-aQBqf9pBhNlNlWHVp9PDACby6V6a8fGiqjNXx0yLylL0kcVHKyty2Dtw4R7l91bw
-9yKVZwtfB7EG4DUNmjIOsz8MO+EwO7moSJjzTqIp9orM4zr2WSAK6r1T1VanpFxk
-bdKBYU8UuNaUerEHUV2gb9ggBx6l1PUUV2ZkerNaZ9gWWmHbGK0QFYbxLIiNebfE
-y7PnL1GzNDMHlnHCOztpkUZV/AwGhKzzmEUOyGsN8eAkl4vWxRY9/rNTUBvj0SZS
-scnVkezfWf0r6Bhjn7PF6cpnPefCovphxjfkVaO1TdJoV4K0zhk=
-=BMZA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2QcACgkQ7ulgGnXF
+3j0oYA//Ydh/q9oeiG11ZBGhmFiE3/jyempR2dbL4jYRfzmaTF/NbE0ft8MCUZKt
+qXYkmYQD821ecymdTZoDB23eMax0A9aS97BScWL6RzSleWsSHE42B+ErEa19fBYE
+YL2jAflHGU9rCOWTubxwA4U3W3uisPAB75MLXcJCjpIGtYwwjHYAgzEtTJMX7Jz9
+8qg44mRvduFbTG/I7lgyVnMDd6PVcPmc8AehvM/+oa1qI3ofWSMXE47m1WvlFXhB
+uUCP4Dl4/y3gY3giM5LFM3q58Ze/7xPFRST3S8gQB4y84rbYxjQr4nxPyDKpFd8D
+GB5pz9FI/EW/5fwpSlWOu1HTnjgztralO0zLku4CZDqbLHlTui7dTuarYVnCfddg
+llcqd3kqtL9jmpoUCCxYY32XbYYojkMxCfK/JjdbpF8PHyKrE82jyiZVavEBE13u
+xJKA5xBsMnG8tqD8/KuzrEd0qr+Oy4OROObX1YPt8rTvD2L507nvJjpZbgtDC9wJ
+K8C8Pkhz6g/Ke/UP42b4vKCXAbys5k1+aw0/GJ6eAt8gjypGKxxA58zikVu6K2d/
+5EJ0ScpUNqKZa+ZgMvUcr6d1YxOJAd5YoSo1c5L6eWg/rDMrhLR+P2b7HFB6Z8CW
+/Ra1yhWjTc6uQlvWxbwikzYihr0lt4yh3kl/LOfn+NKFmDPbpuU=
+=gaM1
 -----END PGP SIGNATURE-----
 
---===============4517777191764946790==--
+--===============0022864711938903044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f8715d89f414-02a34de3854f.txt
+
+54585ec62fbdbb45d9005bba3f988a11621ef42c scsi: hisi_sas: Use devm_bitmap_zalloc() when applicable
+d43efddf6271a185d13895c5a38c889791e96bff scsi: hisi_sas: Remove some useless code in hisi_sas_alloc()
+4d6942e2666efb3a415213ed12ba72b7700620f3 scsi: hisi_sas: Use non-atomic bitmap functions when possible
+9f9b7fa946beaa36681a7011a286da7cbb953816 scsi: qedi: Fix SYSFS_FLAG_FW_SEL_BOOT formatting
+74d80152538535e7acf3d56863876a18a218261a scsi: qla4xxx: Format SYSFS_FLAG_FW_SEL_BOOT as byte
+4c3e3f8cfc05116d1adf83d95322090f335d2091 scsi: be2iscsi: Remove maintainers
+c27fd25db39b8f16aeda8563d4be6f33e59d07d1 scsi: mptfusion: Remove redundant variable r
+4bc3bffc1a885eb5cb259e4a25146a4c7b1034e3 scsi: core: Fix scsi_device_max_queue_depth()
+b427609e11ee98b88e745f9fe17aae437b2e2d80 scsi: ufs: Rename a function argument
+d656dc9b0b79e868e46ff78b6ca7a6a70df23566 scsi: ufs: Remove is_rpmb_wlun()
+59830c095cf01978d71a25ba1f8660f23f8312c7 scsi: ufs: Remove the sdev_rpmb member
+d77ea8226b3be23b0b45aa42851243b62a27bda1 scsi: ufs: Remove dead code
+21ad0e49085deb22c094f91f9da57319a97188e4 scsi: ufs: Fix race conditions related to driver data
+bd0b35383193d0d31a0cce3d7c7f7e4be1cc7905 scsi: ufs: Remove ufshcd_any_tag_in_use()
+fc21da8a840a93fd3512e5d779cbb0996cc1b4f1 scsi: ufs: Rework ufshcd_change_queue_depth()
+945c3cca05d78351bba29fa65d93834cb7934c7b scsi: ufs: Fix a deadlock in the error handler
+511a083b8b6bf63f5609a4e4e3db748ab3719451 scsi: ufs: Remove hba->cmd_queue
+3eb9dcc027e2b2bbd8f377d3ef9271b7abfe103d scsi: ufs: Remove the 'update_scaling' local variable
+6f8dafdee6ae836763e753a9df288d10b35e9679 scsi: ufs: Introduce ufshcd_release_scsi_cmd()
+1fbaa02dfd05229312404aaef8bc9317b4ff8750 scsi: ufs: Improve SCSI abort handling further
+3489c34bd02b73a72646037d673a122a53cee174 scsi: ufs: Fix a kernel crash during shutdown
+5675c381ea51360b4968b78f23aefda73e3de90d scsi: ufs: Stop using the clock scaling lock in the error handler
+8d077ede48c1532d791c027467d152ae137c54ab scsi: ufs: Optimize the command queueing code
+eaab9b57305496067e225155ca86bf77c9a982f7 scsi: ufs: Implement polling support
+f0d3919697492950f57a26a1093aee53880d669d scsi: lpfc: Fix leaked lpfc_dmabuf mbox allocations with NPIV
+2e81b1a374da5d6024208c16c4a5224a70cafa64 scsi: lpfc: Change return code on I/Os received during link bounce
+7576d48c64f36f6fea9df2882f710a474fa35f40 scsi: lpfc: Fix lpfc_force_rscn ndlp kref imbalance
+8ed190a91950564775cbaae9e8e8083a69a8da23 scsi: lpfc: Fix NPIV port deletion crash
+7dd2e2a923173d637c272e483966be8e96a72b64 scsi: lpfc: Trigger SLI4 firmware dump before doing driver cleanup
+a6269f837045acb02904f31f05acde847ec8f8a7 scsi: lpfc: Adjust CMF total bytes and rxmonitor
+05116ef9c4b444f7fdbb56f9e13c2ec941726639 scsi: lpfc: Cap CMF read bytes to MBPI
+6014a2468f0e49194f612b1f09f99eacee0a409a scsi: lpfc: Add additional debugfs support for CMF
+4437503bfbec2f02b41b2492520fe627715889a7 scsi: lpfc: Update lpfc version to 14.0.0.4
+
+--===============0022864711938903044==--
