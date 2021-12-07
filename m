@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 07 Dec 2021 22:24:00 -0000
-Message-Id: <163891584058.17681.15378962592763428656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 07 Dec 2021 22:31:27 -0000
+Message-Id: <163891628753.22629.16810113986587215676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/dev-test
-    old: ac8ef40187ab587b720183235a1094ac6bac1ec8
-    new: 38f953da2e3517444394000211c11cc82e67eb13
+  - ref: refs/heads/topic-rpc-with-tls
+    old: 21c40b0003975c1afe4b59126aba2c547103ccae
+    new: 0a17eed0a75672ad449f0b8c8dbe8d67220003f9
     log: |
-         650eab968e763dc4d5a772de4199b3784435ba0b f2fs: fix to do sanity check on inode type during garbage collection
-         650f8b45b6df332329bca6f29b518853497a12f3 f2fs: fix to avoid panic in is_alive() if metadata is inconsistent
-         739dabffdbe84594765b83c6f8ab50032d76c13a f2fs: fix to do sanity check in is_alive()
-         38f953da2e3517444394000211c11cc82e67eb13 f2fs: add gc_urgent_high_remaining sysfs node
+         4fa9b657c95eae49e1685ac2d19fe889713166c3 SUNRPC: Add RPC_AUTH_TLS protocol numbers
+         0a17eed0a75672ad449f0b8c8dbe8d67220003f9 SUNRPC: Teach server to recognize RPC_AUTH_TLS
          
