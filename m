@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 07 Dec 2021 19:05:21 -0000
-Message-Id: <163890392105.24727.18108540374099021784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 07 Dec 2021 19:06:10 -0000
+Message-Id: <163890397033.25028.16181562444726140469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 0a0575a12e31657415d1d5f799d4b65f3c9e8ba4
-    new: b1a4da64bfc189510e08df1ccb1c589e667dc7a3
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: 667fe15e9d8a4b978367248bdf40bcd31620a08d
+    new: 6ee7504120e11619e7fb183c4f4eb3e046070da6
     log: |
-         3fe6d228a0b45a205849daa110b908e8a4dbed80 RDMA/rxe: Remove the unnecessary variable
-         b1a4da64bfc189510e08df1ccb1c589e667dc7a3 RDMA/qedr: Fix reporting max_{send/recv}_wr attrs
+         9bdd9a51056372b70798f2aeb6a175189b3fa52d NFS: Add a "tls=" NFS mount option
+         7372b5374ecc202107cde2caebf531273a7a6b72 lockd: Pass "tls=" mount option setting to NLM
+         a53eafe2f0597cbb3f0121b351ad15716de7d90d NET: Add support for PF_TLSH (a TLS handshake listener)
+         6ee7504120e11619e7fb183c4f4eb3e046070da6 SUNRPC: RPC client support for TLS handshake upcall
          
-  - ref: refs/heads/wip/jgg-for-rc
-    old: 0000000000000000000000000000000000000000
-    new: 10467ce09fefa2e74359f5b2ab1efb8909402f19
