@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 07 Dec 2021 01:00:44 -0000
-Message-Id: <163883884483.16666.15509667436883571378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 07 Dec 2021 01:02:18 -0000
+Message-Id: <163883893810.18107.17106151823396150538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 9da82741b38f17197def0367cfd92608df4a5dee
-    new: e3b0b1b877a951c2684ddeaab5ebd9cfcb016a53
+    old: dde91ccfa25fd58f64c397d91b81a4b393100ffa
+    new: 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186
     log: |
-         e3b0b1b877a951c2684ddeaab5ebd9cfcb016a53 Tue Dec  7 01:00:09 AM UTC 2021
+         4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 devlink: fix netns refcount leak in devlink_nl_cmd_reload()
          
