@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5826191140464518719=="
+Content-Type: multipart/mixed; boundary="===============6005508778626440522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 Dec 2021 03:45:38 -0000
-Message-Id: <163884873866.23550.17426599343782852817@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 03:45:49 -0000
+Message-Id: <163884874997.23693.12032478491556378357@gitolite.kernel.org>
 
---===============5826191140464518719==
+--===============6005508778626440522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 653926205741add87a6cf452e21950eebc6ac10b
-    new: 69002c8ce914ef0ae22a6ea14b43bb30b9a9a6a8
+  - ref: refs/tags/mkp-scsi-queue
+    old: d93808d13031203b3930ac767eb41278b11fe875
+    new: 7e594454834706eed06717265a35c86a6cb00dd0
     log: |
-         3fe5185db46fedea7a6852d6a59d6e7cdb5d818a scsi: qedi: Fix cmd_cleanup_cmpl counter mismatch issue
-         7db0e0c8190a086ef92ce5bb960836cde49540aa scsi: scsi_debug: Fix buffer size of REPORT ZONES command
-         69002c8ce914ef0ae22a6ea14b43bb30b9a9a6a8 scsi: qla2xxx: Format log strings only if needed
+         13202ebf5f331ca83f5ab47eb90ca4ef5489ac80 scsi: sd_zbc: Simplify zone full condition check
+         bf3f120fd61c42c2f4aed8995e5417776d788c37 scsi: sd_zbc: Clean up sd_zbc_parse_report() setting of wp
          
 
---===============5826191140464518719==
+--===============6005508778626440522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1638848731 -0500
+pusher 75C5DE3D 1638848742 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1638848731-d0cbfd327fd4df6a96ab63f6d02a67de8f8b0cbb
+nonce 1638848742-7b89b88f0224c53c587373a86c8929c74f3fc101
 
-653926205741add87a6cf452e21950eebc6ac10b 69002c8ce914ef0ae22a6ea14b43bb30b9a9a6a8 refs/heads/fixes
+d93808d13031203b3930ac767eb41278b11fe875 7e594454834706eed06717265a35c86a6cb00dd0 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2NsACgkQ7ulgGnXF
-3j2cMg/+IuE7GG5d3VIL3jbye7dIdV/VIPp7JCNkEtbcAZA3i0/uZNpfB1yMXktM
-aGHITNfzQT2iRquCAZJyp5nlDaqhS+zM8JVsaKe2VagtX4xb9QpMKVx2nr0j0dsS
-ocsPd+bLrR1kmS0c59fmZJBs5kEsR6gTi6XiWoiiXvwcisCpDZnsi+Kqd3OP5lwY
-Q4CeB1IuSszAosH3SOLI3SCz0uv4rdIHC5/2CUX3/5raHEVpM6vhVzQ1Dhq5QV2U
-ggYdpaqgSTgU8lBMCP4c/eJ4MLSM3hCIC+yoAva30MzIQrlMBfuTNkDsYFGvzDFd
-gEsiusQVqWAq/QTmpwQOOkm3hElvGOchsnR4/qPJEvuxLeVNR44J/6/OjLGw8pJ/
-KgpY8DCU6ssuDYqToMiuJBQlI640Bhs7ikjSRBST/NYKOV1bpsqTNnddN4YsGt3H
-dPIUXdFGeE2lB5pIiLFbPh3G44MN+oaGNxg6lpTzaLjGu8Fm4eSNSGzdxmAlJujc
-OK805alYaEvxdCvjWBN2E+yXvfT2mReh5FeWu49y0s4zN4epbRrtCV2u7KVHHtqU
-MsTYHDEabMUlVdyKYRp1/Z2zcfJKszhknTaU4JgwuuxcTCYoSD9dOc4syJnjuW+W
-qQMzVeKm6ZBAhI9jGzRR8M2Ezvp06tk0TVO55ffX7XyQ32tfqz8=
-=OUfe
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2OYACgkQ7ulgGnXF
+3j342g//U1Jh7+BEgGUAr8J+Q0lBkHfyWq8oJcKsr9wHfBfys/wQ36D8JtccLUkW
+zq77eo6ZRS7q+4mA9weeRhpR0VbU15G6xBxbZYPTY9aHMqZ7QTtRYcfHZPcZiJEo
+c+d00hedWFsBZScXnhSV5gJ37eV7S4/SnqAfbbCDrLlX2LyFwy6mBSlN/7zCxP3D
+JufVK/sNwUryKqlIF43XHTD12yWFogQOg1i+CZgij76GRhdNxEU6U7D+eDgI9EY6
+quOdHJnncTtjNNoSDUAeNA7xQxXCg0UYzW5kOOe0rLwmNf6mSTS8OBuNRG/IlujL
+M2Htm8qDoOssWuX5k9tmAcuTlWNFPqL+0+/IRJ0931QxftvmFTb3OhytwduCKkro
+NHh7bCksuyoVrP2hQe++j0DeYARiyHiayNPus4auM5BvHqqLBG7H+t7wzomOWfVV
+noCuEA3VZrPQ5ML2KOc2aLRtaDPIvkKoONUMYZkbPwtKm0XtzrSEEslRcZfACPuI
+gF497l5y7GygblWT4GscQuyfk3/GAGCA2Fhn0bnd5jEZB/kpUGMaG5xwhD0pB5oE
+oCe8WM9DSKgOlsRZbn71Tg3NQ+6v8L+PPHl6+sHjTNpuKjaa3INHPXzhq0ZjDC75
+F9QvIexwT2UeQcAyrUDYYStt0MAcyO/VREQ5wA5eVszlIne4afM=
+=s52Q
 -----END PGP SIGNATURE-----
 
---===============5826191140464518719==--
+--===============6005508778626440522==--
