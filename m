@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Tue, 07 Dec 2021 17:37:34 -0000
-Message-Id: <163889865492.715.3515161213428681495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 07 Dec 2021 17:41:56 -0000
+Message-Id: <163889891637.3472.14786847794853543809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/pci/mvebu
-    old: 08a95f462eb89b955cba132f2f6fffb1d67f610e
-    new: 600b790309864fcc311b5dc701f8dc5c3b81374c
+  - ref: refs/heads/master
+    old: 3a39404dcf103a1a0842fafcffe8fafa10bcce6d
+    new: 3ab9dfcd923817b3eb588a79cf9600ef36c53df7
     log: |
-         6198461ef509356e7f0fe5b04e88009aa698a065 arm: ioremap: Replace pci_ioremap_io() usage by pci_remap_iospace()
-         600b790309864fcc311b5dc701f8dc5c3b81374c arm: ioremap: Remove unused ARM-specific function pci_ioremap_io()
+         dfef8201b42f0d2a30f02fc0ae18b758cb6a15c3 random: remove unused irq_flags argument from add_interrupt_randomness()
+         3ab9dfcd923817b3eb588a79cf9600ef36c53df7 irq: Remove unsued flags argument from __handle_irq_event_percpu()
          
