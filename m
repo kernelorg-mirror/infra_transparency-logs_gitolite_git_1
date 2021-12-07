@@ -1,29 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Dec 2021 20:32:04 -0000
-Message-Id: <163890912469.12904.10680949660018037506@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7311658551148115745=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 07 Dec 2021 20:44:39 -0000
+Message-Id: <163890987916.19223.14250097406585202845@gitolite.kernel.org>
+
+--===============7311658551148115745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: c0e5e11af12b76d0dbed700c1088c6827cdcf56c
-    new: 59d58d93af94d7b546f12438b4a3d781b7190095
+  - ref: refs/heads/hwmon
+    old: 0e4190d762ef2609111507e1b9553a166436f556
+    new: a2ca752055edd39be38b887e264d3de7ca2bc1bb
     log: |
-         2c9e77659a0c8d7ce96af3e420914ace1e3f7d21 mptcp: add TCP_INQ cmsg support
-         5cbd886ce2a9f4627ff9cdab1bc97a401a24b309 selftests: mptcp: add TCP_INQ support
-         644807e3e4629b3fbb99032401f57a0f7e06f506 mptcp: add SIOCINQ, OUTQ and OUTQNSD ioctls
-         b51880568f20250cc62057f4b747c8212ac3e06c selftests: mptcp: add inq test case
-         602837e8479d20d49559b4b97b79d34c0efe7ecb mptcp: allow changing the "backup" bit by endpoint id
-         3b1e21eb60e8d4aa42474fed606a8ea8767b0120 mptcp: getsockopt: add support for IP_TOS
-         edb596e80cee8f9cab4c37907c8004456e5b3581 selftests: mptcp: check IP_TOS in/out are the same
-         6fadaa565882cd7afc501de5921db6f5e45c784b tcp: expose __tcp_sock_set_cork and __tcp_sock_set_nodelay
-         8b38217a2a98df6240c0cddb6f18d04923e24277 mptcp: expose mptcp_check_and_set_pending
-         4f6e14bd19d6de7831f31cfb3210f2ea93eeb038 mptcp: support TCP_CORK and TCP_NODELAY
-         59d58d93af94d7b546f12438b4a3d781b7190095 Merge branch 'mptcp-new-features-for-mptcp-sockets-and-netlink-pm'
+         a2ca752055edd39be38b887e264d3de7ca2bc1bb hwmon: (pwm-fan) Ensure the fan going on in .probe()
          
+  - ref: refs/heads/hwmon-next
+    old: 253402129b1ab8db04516df490eb25dfae213550
+    new: 4ded7796ed5290014ff3234db8e8ae83b0c88bfb
+    log: revlist-253402129b1a-4ded7796ed52.txt
+
+--===============7311658551148115745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-253402129b1a-4ded7796ed52.txt
+
+a2ca752055edd39be38b887e264d3de7ca2bc1bb hwmon: (pwm-fan) Ensure the fan going on in .probe()
+49e90c39d0be8baa682bdea3d5daf45f7d26ae71 x86/amd_nb: Add AMD Family 19h Models (10h-1Fh) and (A0h-AFh) PCI IDs
+296713bac72e9badf1e421568d6c2e6d8eaa0353 hwmon: (k10temp) Remove unused definitions
+4e1a4cef0d98a3ef93a6cf6d883bea8f4011e0d6 hwmon: (k10temp) Add support for AMD Family 19h Models 10h-1Fh and A0h-AFh
+db615921f87c1ed432ba633f0291c1bdd5ca840c dt-bindings: hwmon: ti,ina2xx: Document ti,ina238 compatible string
+bb146907042b3fccb7c5edf9342117f980304fcc dt-bindings: hwmon: ti,ina2xx: Add ti,shunt-gain property
+21f69362f38f5b3bf36695204181d82bb44c92af hwmon: Driver for Texas Instruments INA238
+048241d79e17f7a003050863d4926402207e1304 hwmon: (tmp401) Simplify temperature register arrays
+0b2b2ac6464acde8aa9a15ac2ee781cfddd0cb80 hwmon: (tmp401) Convert to _info API
+91d5e7fa65e60fe6518cc9fce4b00d62b67715ec hwmon: (tmp401) Use regmap
+1c7725c3bd0ad071a6bc402fceaff90e2252bc73 hwmon: (tmp401) Hide register write address differences in regmap code
+34fcd4dcddf3c452d466ca1256d112d29eb76877 hwmon: (adm1021) Improve detection of LM84, MAX1617, and MAX1617A
+c822a42f45b4188fb6ba2cce8e986086db616ce2 hwmon: (f71882fg) Add F81966 support
+7d1c949c12155f1759c1ad3e5beddbdb3b545c05 hwmon: (asus_wmi_ec_sensors) Support B550 Asus WMI.
+90781e33de7d247b5287297124e11a542be09a2b hwmon: (asus_wmi_sensors) Support X370 Asus WMI.
+1a401e99bbf22854995b56c2192f137a24376f2b hwmon: (k10temp) Support up to 12 CCDs on AMD Family of processors
+b12a69315e810254b0f0cb0a42c17d555d5301b9 hwmon: (jc42) Add support for ONSEMI N34TS04
+0951884b6b2dc12f9c4657a7c2ba9d8cf5b93b5f hwmon: (ntc_thermistor) Merge platform data into driver
+e282bed4fd380f52b9b460c9d27d22806ea952c3 hwmon: (ntc_thermistor) Drop get_ohm()
+33e612379dc1f9ed6407acb151faf1734e3d95e0 hwmon: (ntc_thermistor) Drop read_uv() depend on OF and IIO
+b3a2f885047a7a33cda74ecd035c6857128e23c6 hwmon: (ntc_thermistor) Merge platform data
+825b2ccfc9651c0d73953e2b9f7929e422e0fc75 hwmon: (sht4x) Add device tree match table
+dc51d16e5c61919a402d9a361055b5a228ed490b hwmon: (asus_wmi_ec_sensors) fix array overflow
+2caff2f2a90f681741c67feac153a486a68096a9 hwmon: (asus_wmi_sensors) fix an array overflow
+76b76e0201921da834a343a9255af541d73c1497 hwmon: (adm1031) Remove redundant assignment to variable range
+c9b45a2608284380a66188af36caf885f86b723c hwmon: (ntc_thermistor) Move and refactor DT parsing
+21aaabb26242713d92773c918e3b8a2bd7a31556 hwmon: (ntc_thermistor) Switch to generic firmware props
+4ded7796ed5290014ff3234db8e8ae83b0c88bfb hwmon: (ntc_thermistor) Move DT matches to the driver block
+
+--===============7311658551148115745==--
