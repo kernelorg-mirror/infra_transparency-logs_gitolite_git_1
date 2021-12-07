@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7263597205853948231=="
+Content-Type: multipart/mixed; boundary="===============7703254834740518396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 07 Dec 2021 11:58:53 -0000
-Message-Id: <163887833354.12999.9617119686752134354@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 11:59:09 -0000
+Message-Id: <163887834926.13133.2736993901868946797@gitolite.kernel.org>
 
---===============7263597205853948231==
+--===============7703254834740518396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: d58071a8a76d779eedab38033ae4c821c30295a5
     new: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
     log: revlist-d58071a8a76d-0fcfb00b28c0.txt
 
---===============7263597205853948231==
+--===============7703254834740518396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -358,4 +358,4 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
 
---===============7263597205853948231==--
+--===============7703254834740518396==--
