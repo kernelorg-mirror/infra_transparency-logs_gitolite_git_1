@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0022864711938903044=="
+Content-Type: multipart/mixed; boundary="===============3335318934823356516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 07 Dec 2021 03:46:22 -0000
-Message-Id: <163884878298.24060.2935488945738248173@gitolite.kernel.org>
+Date: Tue, 07 Dec 2021 03:46:33 -0000
+Message-Id: <163884879350.24176.17465147445150267253@gitolite.kernel.org>
 
---===============0022864711938903044==
+--===============3335318934823356516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f8715d89f4146a57da6c81cc1ac5f47b2a736218
-    new: 02a34de3854f998ef8a5cef60cee509f11b8143e
-    log: revlist-f8715d89f414-02a34de3854f.txt
+  - ref: refs/heads/5.17/scsi-staging
+    old: bf3f120fd61c42c2f4aed8995e5417776d788c37
+    new: 4437503bfbec2f02b41b2492520fe627715889a7
+    log: revlist-bf3f120fd61c-4437503bfbec.txt
 
---===============0022864711938903044==
+--===============3335318934823356516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1638848775 -0500
+pusher 75C5DE3D 1638848786 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1638848774-23df5ba31e4d3ed77b8b9badd5c7ed15d7b3627e
+nonce 1638848786-f205685de47f3d603abde99d9d449022fa456ae3
 
-f8715d89f4146a57da6c81cc1ac5f47b2a736218 02a34de3854f998ef8a5cef60cee509f11b8143e refs/tags/mkp-scsi-staging
+bf3f120fd61c42c2f4aed8995e5417776d788c37 4437503bfbec2f02b41b2492520fe627715889a7 refs/heads/5.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2QcACgkQ7ulgGnXF
-3j0oYA//Ydh/q9oeiG11ZBGhmFiE3/jyempR2dbL4jYRfzmaTF/NbE0ft8MCUZKt
-qXYkmYQD821ecymdTZoDB23eMax0A9aS97BScWL6RzSleWsSHE42B+ErEa19fBYE
-YL2jAflHGU9rCOWTubxwA4U3W3uisPAB75MLXcJCjpIGtYwwjHYAgzEtTJMX7Jz9
-8qg44mRvduFbTG/I7lgyVnMDd6PVcPmc8AehvM/+oa1qI3ofWSMXE47m1WvlFXhB
-uUCP4Dl4/y3gY3giM5LFM3q58Ze/7xPFRST3S8gQB4y84rbYxjQr4nxPyDKpFd8D
-GB5pz9FI/EW/5fwpSlWOu1HTnjgztralO0zLku4CZDqbLHlTui7dTuarYVnCfddg
-llcqd3kqtL9jmpoUCCxYY32XbYYojkMxCfK/JjdbpF8PHyKrE82jyiZVavEBE13u
-xJKA5xBsMnG8tqD8/KuzrEd0qr+Oy4OROObX1YPt8rTvD2L507nvJjpZbgtDC9wJ
-K8C8Pkhz6g/Ke/UP42b4vKCXAbys5k1+aw0/GJ6eAt8gjypGKxxA58zikVu6K2d/
-5EJ0ScpUNqKZa+ZgMvUcr6d1YxOJAd5YoSo1c5L6eWg/rDMrhLR+P2b7HFB6Z8CW
-/Ra1yhWjTc6uQlvWxbwikzYihr0lt4yh3kl/LOfn+NKFmDPbpuU=
-=gaM1
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmGu2RIACgkQ7ulgGnXF
+3j1FTw/9HClofQidPr+pvYTxJ2PW5i82YQgy6IwlqqOSQfbqmQHx0OwA1oCFQR5o
++a8rk5YCWzZkzOr1oIcqlgFDS6h0eiL7ooGgKXBRLyZdwZGG19Ya4PCStDz70h2R
+ncevDUyI6mBCwlmx24Pgn3YucD+K8yL7afcBEkiWblUmDlkuDp01LxcI8brA0Hgz
+qHD7MkOuYOV5unHpQ5w1Wrfegfs9IX6nPmR44KNZ4qU7vBw80ZyoYXLLnEu6nVvu
+PE319zWn/2R0jQeSUd2OiO21CMwaKmZp5qzb0kfJ0uOnR4RDENiiLn19xRPWvoPm
+tqJelpqrq8cxpvDfwwM5/ZTjFHx3JuHAuQP2lHkaQHLH83TwNDywZhNCcGtz46jx
+5qpN7ET5Aog/mWA8+rr5cOyDp0kccuwsjvoga27nEsKXu4yLWSc68ByKcuiE2Bb9
+XniZNI9O9O5yG85XaDf5BVtcK85GHzunCDkRPfcHegQi0kbovO9m2mzCgz22P9UQ
+2fW0OGl3WYzC+ekKrP8ceFeYqpaNmLhs5BSvMPjVNY/AkIxiAWXXO97QRTN+R/aH
+hGPdQp2Mf5Z7/E3cz5b+mk2Xc80AsXfXxZbvp7suiTmeOPa9DYy94pYrUH31YONa
+bB2ohEnlG0UK8a7qbIf1RnDhEtYBTkAlhtwlexDHrp3k/ZpYxuQ=
+=4VT6
 -----END PGP SIGNATURE-----
 
---===============0022864711938903044==
+--===============3335318934823356516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8715d89f414-02a34de3854f.txt
+Content-Disposition: attachment; filename=revlist-bf3f120fd61c-4437503bfbec.txt
 
 54585ec62fbdbb45d9005bba3f988a11621ef42c scsi: hisi_sas: Use devm_bitmap_zalloc() when applicable
 d43efddf6271a185d13895c5a38c889791e96bff scsi: hisi_sas: Remove some useless code in hisi_sas_alloc()
@@ -90,4 +90,4 @@ a6269f837045acb02904f31f05acde847ec8f8a7 scsi: lpfc: Adjust CMF total bytes and 
 6014a2468f0e49194f612b1f09f99eacee0a409a scsi: lpfc: Add additional debugfs support for CMF
 4437503bfbec2f02b41b2492520fe627715889a7 scsi: lpfc: Update lpfc version to 14.0.0.4
 
---===============0022864711938903044==--
+--===============3335318934823356516==--
