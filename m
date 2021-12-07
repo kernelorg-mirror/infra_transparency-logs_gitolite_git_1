@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 07 Dec 2021 01:04:29 -0000
-Message-Id: <163883906900.18961.4214120640362369606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 07 Dec 2021 01:04:35 -0000
+Message-Id: <163883907566.19052.16123400710285176619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 43037a94cf2e38fb09abe8f0af4dddf0ebd42aaf
-    new: 0822b942af336ff61f0d5b98f31fc3ea6c923cd0
+    old: 364d470d547097075070c19189a31dda97b3a962
+    new: 1c5526968e270e4efccfa1da21d211a4915cdeda
     log: |
-         0822b942af336ff61f0d5b98f31fc3ea6c923cd0 unit: fix memory leaks in test-dpp
+         1c5526968e270e4efccfa1da21d211a4915cdeda net/smc: Clear memory when release and reuse buffer
          
