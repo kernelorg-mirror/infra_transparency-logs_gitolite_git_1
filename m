@@ -1,34 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 07 Dec 2021 16:50:03 -0000
-Message-Id: <163889580385.4317.6940988051029592900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 07 Dec 2021 16:52:56 -0000
+Message-Id: <163889597670.6256.7035726216398820542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-5.17/io_uring
-    old: a90c8bf6590676035336ae98cc51bce1aeb96c33
-    new: 186cbb99b1e82b857b986ce886bafb255bd2f43c
-    log: |
-         ce220e94513db1231a91847e2d5dd51baec6613c io-wq: add helper to merge two wq_lists
-         e4780d989211b8d41571493d9423cc46a2cbe191 io_uring: add a priority tw list for irq completion work
-         9277479b763b9f210cab256022dd974341b87c69 io_uring: add helper for task work execution code
-         028b57a9cfb34267542484f26f25ae4d2dc31d67 io_uring: split io_req_complete_post() and add a helper
-         186cbb99b1e82b857b986ce886bafb255bd2f43c io_uring: batch completion in prior_task_list
-         
   - ref: refs/heads/for-next
-    old: 1654eea495546291c609c0fc4f0a14e670000f1c
-    new: 8804dd38fa4c0676fe98a839486beac72b58a588
+    old: 403c521003a1364fd2d7c01a2a1f66ed025fb94a
+    new: 6fadb494a638d8b8a55864ecc6ac58194f03f327
     log: |
-         ce220e94513db1231a91847e2d5dd51baec6613c io-wq: add helper to merge two wq_lists
-         e4780d989211b8d41571493d9423cc46a2cbe191 io_uring: add a priority tw list for irq completion work
-         9277479b763b9f210cab256022dd974341b87c69 io_uring: add helper for task work execution code
-         028b57a9cfb34267542484f26f25ae4d2dc31d67 io_uring: split io_req_complete_post() and add a helper
-         186cbb99b1e82b857b986ce886bafb255bd2f43c io_uring: batch completion in prior_task_list
-         8804dd38fa4c0676fe98a839486beac72b58a588 Merge branch 'for-5.17/io_uring' into for-next
+         6fadb494a638d8b8a55864ecc6ac58194f03f327 ALSA: seq: Set upper limit of processed events
+         
+  - ref: refs/heads/master
+    old: 5f36dd20e2c25a1dab708464168b436aaa243307
+    new: d8beb690ff20f1ad2a4e7cc6bb80c3b13b2325e1
+    log: |
+         6fadb494a638d8b8a55864ecc6ac58194f03f327 ALSA: seq: Set upper limit of processed events
+         d8beb690ff20f1ad2a4e7cc6bb80c3b13b2325e1 Merge branch 'for-next'
          
