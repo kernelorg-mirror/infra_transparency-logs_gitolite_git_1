@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 07 Dec 2021 01:02:18 -0000
-Message-Id: <163883893810.18107.17106151823396150538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 07 Dec 2021 01:03:36 -0000
+Message-Id: <163883901656.18592.14810514462976197337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: dde91ccfa25fd58f64c397d91b81a4b393100ffa
-    new: 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186
+    old: ca3aaf02625d9ce2f4cdb820f56a7f66c182fbeb
+    new: d74ef9cd27e056fa10c19401f84914fae23332f7
     log: |
-         4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 devlink: fix netns refcount leak in devlink_nl_cmd_reload()
+         d74ef9cd27e056fa10c19401f84914fae23332f7 unit: add asserts to unitset test
          
