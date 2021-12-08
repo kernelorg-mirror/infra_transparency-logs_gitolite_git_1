@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6022483445757755329=="
+Content-Type: multipart/mixed; boundary="===============4026976765962214152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 08 Dec 2021 16:23:30 -0000
-Message-Id: <163898061031.17628.2107285625576274078@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 16:23:51 -0000
+Message-Id: <163898063114.17793.3538124036553658801@gitolite.kernel.org>
 
---===============6022483445757755329==
+--===============4026976765962214152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1c5526968e270e4efccfa1da21d211a4915cdeda
-    new: 1fe5b01262844be03de98afdd56d1d393df04d7e
-    log: revlist-1c5526968e27-1fe5b0126284.txt
+  - ref: refs/heads/dev-queue
+    old: a919bf22e7b438986baa113c806b1c93f3ad6b17
+    new: d0ec18ab78ae54b0f7620d798936b684862729ab
+    log: revlist-a919bf22e7b4-d0ec18ab78ae.txt
 
---===============6022483445757755329==
+--===============4026976765962214152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c5526968e27-1fe5b0126284.txt
+Content-Disposition: attachment; filename=revlist-a919bf22e7b4-d0ec18ab78ae.txt
 
 82c434c103408842a87404e873992b7698b6df2b ath11k: set correct NL80211_FEATURE_DYNAMIC_SMPS for WCN6855
 27deb0f1570b0dbf465443857ce10ac6443d141d ath10k: fetch (pre-)calibration data via nvmem subsystem
@@ -155,5 +155,122 @@ cdf8df5b42e7d9e2f6e660e672d42edb0514b862 s390/qeth: don't offer .ndo_bridge_* op
 1b9e410f45bf68c068fa3422ca7b65ce4d08e5ed s390/qeth: fine-tune .ndo_select_queue()
 6dc490e80ca33e4e49ed5b81df0ec9bfad6bf1b6 s390/qeth: remove check for packing mode in qeth_check_outbound_queue()
 1fe5b01262844be03de98afdd56d1d393df04d7e Merge branch 's390-net-updates-2021-12-06'
+aaf29022909192e800550ca741353c501ce5c865 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+600e8b4bb6f2088cd13905fafa4fdb3fde99cf82 igc: Add UDP segmentation offload support
+32eb7b1b9acb9ee83c2276c523b74416ebe32890 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+5ae75128c04a429de9e574f67651fc57dd179501 ice: Refactor promiscuous functions
+c8660860ee39b74b3d48750ade0b517a19feef7b ice: fix FDIR init missing when reset VF
+df95cc7805fdd7a181a4584d1074275cd3df7970 i40e: Fix failed opcode appearing if handling messages from VF
+3a999eb09c34d920382231f07ba77743fb9403b3 iavf: restore MSI state on reset
+e254651c39f6a2c53830efb79168c0e980ee31e5 i40e: Add ensurance of MacVlan resources for every trusted VF
+60cd992b8f1382a7a3e467a5d2cebf1b37d5794a igbvf: Refactor trace
+f80b4faa2b5115b35048cf9a0975c64898ce9aef ice: rearm other interrupt cause register after enabling VFs
+fb0552ef44b196a2d758c729c8dcd587d07ea4ac i40e: Fix pre-set max number of queues for VF
+813b4bfea74d11e031e0fa70244ffc4d66aa5f48 ice: Add package PTYPE enable information
+83c94a742b7e5f40a1b9ac2c0ba650f393032eb9 ice: refactor PTYPE validating
+6d6e600ace1740d41b6392abe01458836cf61a94 igb: Fix removal of unicast MAC filters of VFs
+975beabb4d06f83a1018a9bf286a00bdd5a848ec iavf: Fix limit of total number of queues to active queues of VF
+f26b02ae34bd792128642a966cc6e45e83f6ebb9 ice: Simplify tracking status of RDMA support
+fe05247dbd0920a12a7e8fd958169977c93585e1 ice: Refactor status flow for DDP load
+61a0602473145bb9dd6b7c694ead4f1be34db55d ice: Remove string printing for ice_status
+43cb495ed6b3c44af2e5d229b530e8ff7fac4268 ice: Use int for ice_status
+3ea377c250ed33d5d91e76d044d4b7409895ad06 ice: Remove enum ice_status
+b4349e6a582d40447e79e072ee62617002ef24be ice: Cleanup after ice_status removal
+3f60ef6beb5b4732ba1f372ed261a1a7e1df4bed ice: Remove excess error variables
+96392487d227cec9762d3058075133b897e99ca1 ice: Propagate error codes
+bb00bebc4d92a801b1ed7292e8138b1e7d605a52 ice: devlink: add shadow-ram region to snapshot Shadow RAM
+3273093b2775c119b733aa6fab406d88f4c0bd8f ice: move and rename ice_check_for_pending_update
+e06595b05d0a9fe738d4f7286f690f6f8666df00 ice: move ice_devlink_flash_update and merge with ice_flash_pldm_image
+fc7b444cf125e1e08094f7806b98d1736bf206c4 ice: reduce time to read Option ROM CIVD data
+670441462ea82fbc2ca40b338cac937d4eb9bb4d ice: support immediate firmware activation via devlink reload
+98669e3e57a6d3e5dacd2e8d26ebe5b2a84615d2 ice: Fix problems with DSCP QoS implementation
+e45b13b1c59285911082868aa97b3c0748f828f3 ice: introduce ice_base_incval function
+ce17f55d8e19f576f4d4457718060974ad83edda ice: PTP: move setting of tstamp_config
+13d31e884beb4adf2424b4b03953fc83e3c7274a ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
+60a154662024ece777912c9797b4338976a9fe3b ice: introduce ice_ptp_init_phc function
+6d43547a6164681eea9dcad3a2f511886b8d2248 ice: convert clk_freq capability into time_ref
+74e5251978d258c349d4e3779067b7320821d969 ice: implement basic E822 PTP support
+a42dc0f1ab11337399cd59a6cb252458b821ad9a ice: ensure the hardware Clock Generation Unit is configured
+ec04250de63108e84885a3c8b9f092ffa239d4a9 ice: exit bypass mode once hardware finishes timestamp calibration
+328b43cb4a0de00e4b086cfd335d230e18cd505e ice: support crosstimestamping on E822 devices if supported
+b442a0285bb62e982c1d9141ae1b65f1aa613aa9 igc: Remove unused _I_PHY_ID define
+c04d4777a396625c50e5bac84ae2f2d1aa4282ba ice: ignore dropped packets during init
+8341af4e97fc3295b33504d0bd51ddbeabfe88e5 igc: Remove unused phy type
+b4f3d3cd029538de05ee5e3920fd6d596f5eaaac ice: update to newer kernel API
+552bb0535d9fc0642f250b4a5d33eedc92597cab ice: use prefetch methods
+4e26fe9f6a987b4f6f65009fec0e6a879bf47c94 ice: tighter control over VSI_DOWN state
+83e06d58599bc253ac311276abe9e235a6916db0 ice: use modern kernel API for kick
+1e858923794ff500bc908f8601564c00a1597bdf ice: replay advanced rules after reset
+b60efaf4ff7a45398fef4a53c62a49e3043dcc55 ice: improve switchdev's slow-path
+6bee27969ae20a2c100f1e65e6e0d27b7d3b4007 ixgbe: Document how to enable NBASE-T support
+ab3a6fd9e7243760b9c8d9b159862f67892eb06d iavf: Fix reporting when setting descriptor count
+17e8acbd5b81dd99b2981ee192850525bb2c028c igb: move SDP config initialization to separate function
+d64947da4121658d936ea7ff0bc9f93a70ba3887 igb: move PEROUT and EXTTS isr logic to separate functions
+02c56a873b27026c9396864d399a694b9d48ba68 igb: support PEROUT on 82580/i354/i350
+a2b0148abcea73423a56bff2f194c6a50126d8bb igb: support EXTTS on 82580/i354/i350
+e016ee12b3acf93765679c92b82a7f50f1542ca0 i40e: Increase delay to 1 s after global EMP reset
+b2beb48733eb943f1349e82ce666c9a4904981c8 ixgbe: set X550 MDIO speed before talking to PHY
+ca30b87523c78edd8a3e49de890509a4417d7f21 igc: Fix typo in i225 LTR functions
+b26433a9b4c648f492d82950cc52fa28d6cdc600 igc: Remove obsolete NVM type
+73b8daf54b7888867568af2a45eb9fe3246098f9 i40e: Fix issue when maximum queues is exceeded
+cdcfa714fa686c8dc7ad07dc040b569e0ad73cdf ice: Use div64_u64 instead of div_u64 in adjfine
+4f5fd1f94d25dadd1b0f1d902b9919a08da70f04 iavf: missing unlocks in iavf_watchdog_task()
+c7e88a92be8bd6b6d0a4c3842b6b46880114a7a0 ice: safer stats processing
+6d6ed9fad0b1e582674a1c0cb290c81f75f5d1fa i40e: Add placeholder for ndo set VLANs
+9d50ded2596b973da39ec81e86baf1cd228b91d7 i40e: Refactor VF queue requesting
+98c68852ee957034118fe35e4f93d320710ab87b igc: Remove obsolete mask
+341fb44463ac75405e5a85333464ebd4e38b584d ice: Remove unnecessary casts
+97a68dd54cbeef457cf0e5f414ddef1dc8f39039 ice: fix choosing UDP header type
+9784e1fc2bc891f0a5694c01b8810c374de9592e ice: Don't put stale timestamps in the skb
+64006d55bd94896eba3d81abde3750407cbe339e ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+5f0ecddb1834748d158708d7468b6eb5499852e0 igb: remove never changed variable `ret_val'
+80abde1d30f33175e60ae8e095e5eab180b76f28 net: igbvf: fix double free in `igbvf_probe`
+6a77fd7bbeb5ecf66eec1876e5f6d503e7bb7503 i40e: Minimize amount of busy-waiting during AQ send
+62f7f070c24e54572f76279b04080d39985afb0b ice: Slightly simply ice_find_free_recp_res_idx
+c3898b7ca311b747f93bd9b3b8af91a604feb92e ice: Remove unused ICE_FLOW_SEG_HDRS_L2_MASK
+8a1430b1f2ded092920bee771d54fb926d188ab1 ice: add TTY for GNSS module for E810T device
+c745b25d40f01910b395efa81d09331ff8d25e1a i40e: Fix NULL pointer dereference in i40e_dbg_dump_desc
+5c303bc896d551b38f9f54c578419b16ebd94b22 i40e: Fix for displaying message regarding NVM version
+b7168318c8ebd8a09e162537a3a70736e4c3e4d6 ice: fix adding different tunnels
+a9b218d552a5055c6d6f63a5e10deca47172dec9 ice: Fix PTP reset flow
+ec824479dc164fabedaab667a601dabe840c0b7e i40e: Update FW API version
+821dd1523b0fd610f9c7b0d0f9e1e6c0303583f2 e1000: switch to napi_consume_skb()
+9f0de1eb14ed48462b26ef0b55176f85f86148a3 e1000: switch to napi_build_skb()
+763b7e50f6b20568c553b7f2dc39fc7a395456de i40e: switch to napi_build_skb()
+93a6904a060fbcd731b22a27d161c0bff9c954e2 iavf: switch to napi_build_skb()
+dbb744bca3950562554426a345ad28bd0750ce6a ice: switch to napi_build_skb()
+e8b3f66120d6d4d5f6107f634b8fcbff44745436 igb: switch to napi_build_skb()
+ecde1e723cff11a3a5904e7e04bcedae8d1aa165 igc: switch to napi_build_skb()
+8f6f35f00a12793b3a301d6db7561179c481940d ixgbe: switch to napi_build_skb()
+88aac7af1bab1a5022aa4d74534481b96bc8e2af ixgbevf: switch to napi_build_skb()
+9d7dc5da311154d20de3b49ecd89fb7d2838c15f ice: add support for DSCP QoS for IDC
+77886f6daf39373673d3aefa1faeee2dbb64b24a i40e: Fix queues reservation for XDP
+036ab08376469fdca88301ab70cf55a181bb801b virtchnl: Add support for new VLAN capabilities
+7344869917f9146a4a1f8660f1e23de328667d96 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 negotiation
+f15aa4b8fb9c09704c0ac57f95cc0192c1027573 iavf: Add support VIRTCHNL_VF_OFFLOAD_VLAN_V2 during netdev config
+f233ff30436835cfffa2752382664ae9316335ae iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 hotpath
+304cade0c5eef3e71387f0306bb1d1ff5e3e9ede iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 offload enable/disable
+9993c3ee79ab73f82940f2856bc609feab05ca46 iavf: Restrict maximum VLAN filters for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+65423c23ec6f113bd69de441bce496c857705ffa ice: Refactor spoofcheck configuration functions
+ebf5aa7dc4c5e5ecb3b39cb88c2034d726334508 ice: Add helper function for adding VLAN 0
+56ad1038fcb4ed54b74a9b7eddc475fe3458cf3c ice: Add new VSI VLAN ops
+f92d26db1b9e9a60d9a2256ce0324499a3bf710e ice: Introduce ice_vlan struct
+777e2ac35b8f954d039cd5441fe8ed2979f0b407 ice: Refactor vf->port_vlan_info to use ice_vlan
+b9c420a0b37721a7ce63a904eaf5f2d803708957 ice: Use the proto argument for VLAN ops
+27b9e345047cbed6f201c289680939f01bfa11d2 ice: Adjust naming for inner VLAN operations
+44816a23e7cb33d1f1de524154189b2d3075a23d ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+dc6d748d95aef508ed2e54f65d204881c1001d1a ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+38fa71b6f49f4ebeff827d19c8da4b0a6d4a31e4 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+4b8218ab5c87e26b1c79fc747eced0bfdb2058c9 ice: Support configuring the device to Double VLAN Mode
+acf53be508d5c8166bdf4075039176dc2e493324 ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+ef317033a1d44a4d600b59bffa9030224cd79248 ice: Add support for 802.1ad port VLANs VF
+fa8d2e0705311e087085ef7dc7f6559cff9d583d ice: Add ability for PF admin to enable VF VLAN pruning
+b4fb1e2a8dcdef9af05443403d15e71175f8d0e1 iavf: do not override the adapter state in the watchdog task (again)
+f0d25eb6ee5af1bc1cd4d03d79284fac11655282 i40e: Fix for failed to init adminq while VF reset
+2ecc4ae492405bbbae5b79d1b3a96bbf0ed4e0ff i40e: remove dead stores on XSK hotpath
+ccbf4e72a2ea8c70a06f2b96200dc6f5d4f5c189 ice: remove dead store on XSK hotpath
+e0dc92e81b927443ec1681ab4deef0dbfa715414 i40e: fix use-after-free in i40e_sync_filters_subtask()
+5ad26269173111902ea1f4de5a09b31cc5a162f7 igb: fix deadlock caused by taking RTNL in RPM resume path
+d0ec18ab78ae54b0f7620d798936b684862729ab i40e: Remove non-inclusive language
 
---===============6022483445757755329==--
+--===============4026976765962214152==--
