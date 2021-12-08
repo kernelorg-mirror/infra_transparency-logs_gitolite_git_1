@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2201770817829370203=="
+Content-Type: multipart/mixed; boundary="===============0374052909961540716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Dec 2021 18:21:47 -0000
-Message-Id: <163898770712.21045.10544238743209072158@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 18:21:57 -0000
+Message-Id: <163898771711.21143.9568523647658644841@gitolite.kernel.org>
 
---===============2201770817829370203==
+--===============0374052909961540716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ce83278f313ce65a9bbd780a3e07fa3f62d82525
-    new: 1fe5b01262844be03de98afdd56d1d393df04d7e
-    log: revlist-ce83278f313c-1fe5b0126284.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3910ee57f088dcbb42016c7e5726da96d5a82d8c
+    new: 5330f76e799a2cc629191d1535a04ecf41688903
+    log: revlist-3910ee57f088-5330f76e799a.txt
 
---===============2201770817829370203==
+--===============0374052909961540716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce83278f313c-1fe5b0126284.txt
+Content-Disposition: attachment; filename=revlist-3910ee57f088-5330f76e799a.txt
 
 82c434c103408842a87404e873992b7698b6df2b ath11k: set correct NL80211_FEATURE_DYNAMIC_SMPS for WCN6855
 27deb0f1570b0dbf465443857ce10ac6443d141d ath10k: fetch (pre-)calibration data via nvmem subsystem
@@ -184,5 +184,28 @@ cdf8df5b42e7d9e2f6e660e672d42edb0514b862 s390/qeth: don't offer .ndo_bridge_* op
 1b9e410f45bf68c068fa3422ca7b65ce4d08e5ed s390/qeth: fine-tune .ndo_select_queue()
 6dc490e80ca33e4e49ed5b81df0ec9bfad6bf1b6 s390/qeth: remove check for packing mode in qeth_check_outbound_queue()
 1fe5b01262844be03de98afdd56d1d393df04d7e Merge branch 's390-net-updates-2021-12-06'
+ccdae3c72bc1f24d04359219ac75c2932c590598 net/mlx5e: Add tc action infrastructure
+4bc9bb2d9f900fe5b850d75b6c4ac1a3d4999549 net/mlx5e: Add goto to tc action infra
+b7580ad067b5804b041461a17e9c933b57929595 net/mlx5e: Add tunnel encap/decap to tc action infra
+2ad3f315610112dc989a11f0c695a8e9fadc5392 net/mlx5e: Add csum to tc action infra
+9925caded9def247d16c65b7774aca8a6fb33117 net/mlx5e: Add pedit to tc action infra
+0a6f37157974ae223d9254033a875297211fd170 net/mlx5e: Add vlan push/pop to tc action infra
+9f43cf69e340b55ee80ccbdd7c9ad98eb64da5a9 net/mlx5e: Add vlan mangle to tc action infra
+f8f3de91b358b0cc8bab02ab03ea2b7cfe95d1ea net/mlx5e: Add mpls push/pop to tc action infra
+d104737d8ce7d1b8d202ca22a975761865defe42 net/mlx5e: Add mirred/redirect to tc action infra
+e99cec67504ee895307d38946063cc185ebfc055 net/mlx5e: Add ct to tc action infra
+04af3597ffbdc96d7085de8ff9201363dabe2077 net/mlx5e: Add sample to tc_action infra
+f4abc47faa40c1ccf3b4f51a2f72456d998c7652 net/mlx5e: Add ptype to tc action infra
+27c0014f6549c7e38bad7acc0feb448ff4cc7228 net/mlx5e: Add redirect ingress to tc action infra
+bdcce3a2a3d1f2ad8f2c5b263e20114c5f16f2ce net/mlx5e: TC action parsing loop
+289f5280ef1ab8f272d372f8beab06eb52d1da66 net/mlx5e: Move sample attr allocation to tc_action sample parse op
+faba9c49cb6c111d75aeeea87fa7d2461b54b9d3 net/mlx5e: Add post_parse() op to tc action infrastructure
+5bfc2a19fadc6764a9afdcef5325cc3b50795694 net/mlx5e: Move vlan action chunk into tc action vlan post parse op
+742bce6cf3a31d983ebe2d77b5d4b9ee01d4a48a net/mlx5e: Move goto action checks into tc_action goto post parse op
+ad6b98d2b5de41ed3e36338f4700ca3684bda0ca net/mlx5: Separate FDB namespace
+04bc1fe3fd7620d035937c53269f9ee1ff2357c8 net/mlx5: Refactor mlx5_get_flow_namespace
+f2bcebbed2b79f27c40755455b8b88a192bdf00f net/mlx5: Create more priorities for FDB bypass namespace
+ef24b92e7a6667b25164461757e6c2df47c6cd40 RDMA/mlx5: Add support to multiple priorities for FDB rules
+5330f76e799a2cc629191d1535a04ecf41688903 Merge branch 'patchq/449782' into mlx5-queue
 
---===============2201770817829370203==--
+--===============0374052909961540716==--
