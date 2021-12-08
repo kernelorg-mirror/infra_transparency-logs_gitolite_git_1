@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============9065917786700146664=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 08 Dec 2021 18:15:15 -0000
-Message-Id: <163898731550.23851.609091052870551750@gitolite.kernel.org>
-
---===============9065917786700146664==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 08 Dec 2021 18:15:29 -0000
+Message-Id: <163898732907.23990.5043454397660654729@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,69 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/ceph-fscrypt-size
-    old: aeb7645071d86f3eea93749c97ef10d899b21e43
-    new: c5fb23fb32573fd92164ddb9e18acadbb5c46c87
-    log: revlist-aeb7645071d8-c5fb23fb3257.txt
-
---===============9065917786700146664==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeb7645071d8-c5fb23fb3257.txt
-
-973e5245637accc4002843f6b888495a6a7762bc ceph: fix duplicate increment of opened_inodes metric
-e485d028bb1075d6167558b47f63e10713ad2034 ceph: initialize i_size variable in ceph_sync_read
-ee2a095d3b24f300a5e11944d208801e928f108c ceph: initialize pathlen variable in reconnect_caps_cb
-fd84bfdddd169c219c3a637889a8b87f70a072c2 ceph: fix up non-directory creation in SGID directories
-bfceba87e3f1e3f3057039f478c452f86bc8425b [DO NOT MERGE] rbd: bump RBD_MAX_PARENT_CHAIN_LEN to 128
-d0c5111a9a79bc7ef90652fd05097803aa302352 [DO NOT MERGE] ceph: dump info about cap flushes when we're waiting too long for them
-4418f24816928144bdac930b28d02cfe48df825d ceph: generalize addr/ip parsing based on delimiter
-a984667843aa7e70991a326b2e9f041c5e3da441 ceph: rename parse_fsid() to ceph_parse_fsid() and export
-da12148405094d341dfd5251b46d12a3a93f7f9d ceph: new device mount syntax
-5c93efbf19e276d5cd5b274d8b486e13213a9414 ceph: record updated mon_addr on remount
-1417a80c1cb3a5744a69a94aa6d94af5769fe17c doc: document new CephFS mount device syntax
-8257ec5d47d81d8878c8ea7ab8c4e81065493a50 ceph: mount syntax module parameter
-60cb2a6b188864172a4830cb1c7a4740896d0b6f ceph: Fix incorrect statfs report for small quota
-173f7c71fd632d77613eb8f23b8e10d19f4d22c3 rbd: make const pointer speaces a static const array
-fb129453daeee4dbc74eb01d94bb88f296dd56d6 ceph: drop send metrics debug message
-ae818b568c077affbcc56b8cb8284ed29a9d502f ceph: don't check for quotas on MDS stray dirs
-cbb9f5bafa06bf52e324d33ea5ea2b7c353b54d6 vfs: export new_inode_pseudo
-92f51bde505c93c67d8a9518187b76c612980b7f fscrypt: export fscrypt_base64url_encode and fscrypt_base64url_decode
-97ca39abadcb0ff9c2651d088e1fa2bc97c99d18 fscrypt: export fscrypt_fname_encrypt and fscrypt_fname_encrypted_size
-4bcbac49e3702d690ed2489ea9f025c826278764 fscrypt: add fscrypt_context_for_new_inode
-fdac4dfab537c89f0d5ec6589a4df58cc97615b7 fscrypt: uninline and export fscrypt_require_key
-0eda171c505894163dd44779fa4a33c0de7dcee8 ceph: preallocate inode for ops that may create one
-c2e2c8e7a2ca4d9d2dedd1980473ff7119419d81 ceph: crypto context handling for ceph
-b7289479b9e96e8b4abcced567f747e2218f6f47 ceph: parse new fscrypt_auth and fscrypt_file fields in inode traces
-1758f0599467e06c46814bd06757989f3904446b ceph: add fscrypt_* handling to caps.c
-3c0b6891dfd2df203a6e107cf03885614641444a ceph: add ability to set fscrypt_auth via setattr
-65b703eb7d75cf515909afbb87fe123c0b61b166 ceph: implement -o test_dummy_encryption mount option
-44e7d03b5fe0e1b634681276c628a2e8b17afa61 ceph: decode alternate_name in lease info
-fb12662c6e91900f56d4ea22330d4c63f24e6a2b ceph: add fscrypt ioctls
-a2b8fe2befad5b9af04f112a35a02f8f6ec21aa3 ceph: make ceph_msdc_build_path use ref-walk
-b35285e0ad555ebc683e09678ee02e71c6f92279 ceph: add encrypted fname handling to ceph_mdsc_build_path
-fa2545a109789c5fc2524573280437a03a528de8 ceph: send altname in MClientRequest
-1d899459f26b1646e3bc44ebb62690f96cd19441 ceph: encode encrypted name in dentry release
-7ed162458c6c22bb5d83cead4884f1a1df2612c0 ceph: properly set DCACHE_NOKEY_NAME flag in lookup
-ec7cd8372332e2de1d5431d1e43a7f0fd1870459 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
-e81c7b5397a0005f20a361d805a1d3222125fa50 ceph: add helpers for converting names for userland presentation
-8c9086900878eeb59fe878c47465d77156f92233 ceph: add fscrypt support to ceph_fill_trace
-6a4a2fc671b5e718d9c554dc7b4d7d02b03e7d22 ceph: add support to readdir for encrypted filenames
-add267c53925cb984ff9a54054dd27f900dd89c7 ceph: create symlinks with encrypted and base64-encoded targets
-fff1238fd4e1306eb2f95dd61d33d7f434de9b9e ceph: make ceph_get_name decrypt filenames
-a3f5bb3f7f50b13499731cdff97ed5bdaa640e85 ceph: add a new ceph.fscrypt.auth vxattr
-0338e5e6bf94dc3a3c949ef6a68382c48c45ff17 ceph: add some fscrypt guardrails
-3b47348c73f3119de3c0cede264da27d2876fbd0 ceph: don't allow changing layout on encrypted files/directories
-04faf063356d902aad1483528992617771f5763f libceph: add CEPH_OSD_OP_ASSERT_VER support
-8705cb6c859d8b023cd934915fade05f980744b1 ceph: size handling for encrypted inodes in cap updates
-9b7d3ac200e2474351a7786cfce5d5fb26de8815 ceph: fscrypt_file field handling in MClientRequest messages
-261dfc19a3a48aab565ad30c9f9be2c986996908 ceph: get file size from fscrypt_file when present in inode traces
-635e0f847cdc6dd6a485409fbae150043a046fa8 ceph: handle fscrypt fields in cap messages from MDS
-ee1a636dbfa8d3389f462060216aa37e2dfade0b ceph: add __ceph_get_caps helper support
-563161a0508d4112f4f8b76cbbb638f04f5126cf ceph: add __ceph_sync_read helper support
-cd7b05d42789e8a0dd1def55f44912866d636845 ceph: add object version support for sync read
-e4bfa9206a6d808f58d5a714c65dcbe756b8f5d4 ceph: add truncate size handling support for fscrypt
-c5fb23fb32573fd92164ddb9e18acadbb5c46c87 SQUASH: only set last_objver iff we're returning success
-
---===============9065917786700146664==--
+  - ref: refs/heads/ceph-fscrypt-content
+    old: 0000000000000000000000000000000000000000
+    new: 4a9a8d61082c705ce69cf8096b0f7149044c8bd2
