@@ -1,133 +1,136 @@
-Content-Type: multipart/mixed; boundary="===============7955220212255730512=="
+Content-Type: multipart/mixed; boundary="===============4119673243468284789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 08 Dec 2021 05:12:29 -0000
-Message-Id: <163894034981.17147.2227648839170955744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 08 Dec 2021 05:26:44 -0000
+Message-Id: <163894120421.26833.4774165555873413444@gitolite.kernel.org>
 
---===============7955220212255730512==
+--===============4119673243468284789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 59d58d93af94d7b546f12438b4a3d781b7190095
-    new: 150791442e7cef44c4328e04364eb44810157234
-    log: revlist-59d58d93af94-150791442e7c.txt
+  - ref: refs/heads/rcu/next
+    old: 6a3aa1f6d19ed22b517cbb0acc0f88cda4ad42ad
+    new: 07f892dade6a3b08fb833e2e9cf5074afc0d937f
+    log: revlist-6a3aa1f6d19e-07f892dade6a.txt
+  - ref: refs/heads/dev.2021.12.03a
+    old: 0000000000000000000000000000000000000000
+    new: 266f1442f2859caaf9a5140f1787e7efac5a45b9
 
---===============7955220212255730512==
+--===============4119673243468284789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59d58d93af94-150791442e7c.txt
+Content-Disposition: attachment; filename=revlist-6a3aa1f6d19e-07f892dade6a.txt
 
-82c434c103408842a87404e873992b7698b6df2b ath11k: set correct NL80211_FEATURE_DYNAMIC_SMPS for WCN6855
-27deb0f1570b0dbf465443857ce10ac6443d141d ath10k: fetch (pre-)calibration data via nvmem subsystem
-df008741dd62bd3bc8733fe568415fb01b3e65c5 wcn36xx: add debug prints for sw_scan start/complete
-f02e1cc2a84693a649d94a7584291d88f31fd5fa wcn36xx: implement flush op to speed up connected scan
-8f1ba8b0ee2679f0b3d22d2a5c1bc70c436fd872 wcn36xx: ensure pairing of init_scan/finish_scan and start_scan/end_scan
-588b45c88ae130fe373a8c50edaf54735c3f4fe3 wcn36xx: Indicate beacon not connection loss on MISSED_BEACON_IND
-22f9ba7fee107903ec9a4f8f150ced196f6a1615 ath9k: use swap() to make code cleaner
-89dcb1da611d9b3ff0728502d58372fdaae9ebff wcn36xx: Fix DMA channel enable/disable cycle
-3652096e5263ad67604b0323f71d133485f410e5 wcn36xx: Release DMA channel descriptor allocations
-ed04ea76e69e7194f7489cebe23a32a68f39218d wcn36xx: Put DXE block into reset before freeing memory
-c9c5608fafe4dae975c9644c7d14c51ad3b0ed73 wcn36xx: populate band before determining rate on RX
-cfdf6b19e750f7de8ae71a26932f63b52e3bf74c wcn36xx: fix RX BD rate mapping for 5GHz legacy rates
-af3d89649bb69bd5be273cf6c001cd19c2604ca2 ath11k: convert ath11k_wmi_pdev_set_ps_mode() to use enum wmi_sta_ps_mode
-b2beffa7d9a67b59b085616a27f1d10b1e80784f ath11k: enable 802.11 power save mode in station mode
-ae80b6033834342601e99f74f6a62ff5092b1cee ar5523: Fix null-ptr-deref with unexpected WDCMSG_TARGET_START reply
-16a2c3d5406f95ef6139de52669c60a39443f5f7 ath11k: Send PPDU_STATS_CFG with proper pdev mask to firmware
-c802b6d7815d7c3f556efea28d0b79ef57ebcfd4 ath11k: Clear auth flag only for actual association in security mode
-85f36923be47b6990215ad444545a6a85133a0c6 ath11k: fix fw crash due to peer get authorized before key install
-4ea03443ecdac6920eb7aa3a9da2cd0b8cc6dfc8 ath11k: fix error routine when fallback of add interface fails
-4c375743c5fe1ef84d1dd7269dd12585957f403e ath11k: avoid unnecessary BH disable lock in STA kickout event
-31aeaf547d7e3b64ba5d5442dabc530bdb9e216e ath11k: fix DMA memory free in CE pipe cleanup
-624e0a3170309eeb5b729f7a43c1ba3234325f02 ath11k: Fix 'unused-but-set-parameter' error
-f187fe8e3bc65cc4d7b0916947e2d6cd65d9cd3a ath11k: fix firmware crash during channel switch
-2c5545bfa29dd5305fa770959890a23ea39b5e69 ath11k: disable unused CE8 interrupts for ipq8074
-6452f0a3d5651bb7edfd9c709e78973aaa4d3bfc ath11k: allocate dst ring descriptors from cacheable memory
-5e76fe03dbf9f9dbc4fd454283b02594226c0718 ath11k: modify dp_rx desc access wrapper calls inline
-a1775e732eb90486519de3813b83a11b7fcee2d0 ath11k: avoid additional access to ath11k_hal_srng_dst_num_free
-c4d12cb37ea2e6c2b70880350d7bf1bbbd825c6c ath11k: avoid active pdev check for each msdu
-db2ecf9f0567a8f1a96f23a392cc5a30eaec4369 ath11k: remove usage quota while processing rx packets
-400588039a17a460292eb974ebba5811b8cbdb91 ath11k: add branch predictors in process_rx
-d0e2523bfa9cb391fe966b0b6948c7e438981361 ath11k: allocate HAL_WBM2SW_RELEASE ring from cacheable memory
-a8508bf7ced2e43f30b46333f09cbc79a1675616 ath11k: remove mod operator in dst ring processing
-cbfbed495d3289d5a0bc7c614cea639008086cfe ath11k: avoid while loop in ring selection of tx completion interrupt
-bcef57ea400cc20a5389fa0e38d61063331558f8 ath11k: add branch predictors in dp_tx path
-be8867cb47652418e488170785bd9ffbadae3f1f ath11k: avoid unnecessary lock contention in tx_completion path
-78406044bdd0cc8987bc082b76867c63ab1c6af8 ath11k: enable IEEE80211_VHT_EXT_NSS_BW_CAPABLE if NSS ratio enabled
-1d795645e1eef97fe5d409e3dd5747a942f00e08 ath11k: remove return for empty tx bitrate in mac_op_sta_statistics
-c8f2d41bbff6794329d681d108a817366aed0ba7 ath11k: fix the value of msecs_to_jiffies in ath11k_debugfs_fw_stats_request
-b4a0f54156ac7720de1750b6ea06657c91c52163 ath11k: move peer delete after vdev stop of station for QCA6390 and WCN6855
-787264893c69ed091a46335dfd0f50dabb457718 ath11k: fix FCS_ERR flag in radio tap header
-9212c1b9e80a869e732769a4fe7f82d392b219be ath11k: send proper txpower and maxregpower values to firmware
-c0b0d2e87d91ce283c8766b4b3c2ec9ac90ebf96 ath11k: Increment pending_mgmt_tx count before tx send invoke
-086c921a354089f209318501038d43c98d3f409f ath11k: Fix ETSI regd with weather radar overlap
-f951380a6022440335f668f85296096ba13071ba ath11k: Disabling credit flow for WMI path
-bd77f6b1d7104cf6451399a7c67d08afecb9a7c7 ath11k: use cache line aligned buffers for dbring
-1ad6e4b00f29d017b196dda7ab96d1cfcbabd7d2 ath11k: Add missing qmi_txn_cancel()
-fb12305aff12e735e599c79514dde5dac40f5a59 ath11k: add trace log support
-273703ebdb01b6c5f1aaf4b98fb57b177609055c ath11k: Fix crash caused by uninitialized TX ring
-fc95d10ac41d75c14a81afcc8722333d8b2cf80f ath11k: add string type to search board data in board-2.bin for WCN6855
-886433a984254c6d2c2074688dc8f48c40b1c070 ath11k: add support for BSS color change
-436a4e88659842a7cf634d7cc088c8f2cc94ebf5 ath11k: clear the keys properly via DISABLE_KEY
-64bc3aa02ae78b1fcb1b850e0eb1f0622002bfaa ath11k: reset RSN/WPA present state for open BSS
-081e2d6476e30399433b509684d5da4d1844e430 ath11k: add hw_param for wakeup_mhi
-5125b9a9c420ee91e2c258ea96a8261a49e7449d ath9k: fix intr_txqs setting
-728e26c3ac89427de181c1e8400d27d7b6c3a8a5 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
-02356226692646b52160fbb214fe18e0d2a1c3eb rtw89: fill regd field of limit/limit_ru tables by enum
-542577149794b9c8638f6f2cb90b35b137b44156 rtw89: update rtw89 regulation definition to R58-R31
-ebaae2c2c3bd5a6b15ed4a4f7a8a35b1989e24af rtw89: update tx power limit/limit_ru tables to R54
-08e16498e01b289dc9cfd41043c91a4b84fe6ce9 rtw89: update rtw89_regulatory map to R58-R31
-1646ce8f83b953a675cb99e7b6708d8121b5fecf rtw89: remove unnecessary conditional operators
-43863efeada6eda380bd08537d1e4719341dc50d rtw89: remove unneeded variable
-30101812a09b37bc8aa409a83f603d4c072198f2 rtw89: fix potentially access out of range of RF register array
-5da7075c1126f70578a111b8ea64d93f56bc84dd rtw89: add AXIDMA and TX FIFO dump in mac_mem_dump
-2f1367b564c16a1a4d37140db3bf1f4d9851cac7 rtw88: follow the AP basic rates for tx mgmt frame
-272cda71e857a23690a4571cb48f219f7d40af76 rtw88: add debugfs to force lowest basic rate
-c81edb8dddaa36c4defa26240cc19127f147283f rtw88: add quirk to disable pci caps on HP 250 G7 Notebook PC
-04d80663f67ccef893061b49ec8a42ff7045ae84 mwifiex: Fix skb_over_panic in mwifiex_usb_recv()
-2d1d7091ddac4cbeeac9e62ffcf2d29897334e3e mwifiex: Use a define for firmware version string length
-939b571a3b62b64cf407fa5dbc3941bc87e0ba3b mwifiex: Add quirk to disable deep sleep with certain hardware revision
-deb573f1d7ddd182ef1792c71d62883d0f833f17 mwifiex: Ensure the version string from the firmware is 0-terminated
-84d94e16efa268e4f2887d858cd67ee37b870f25 mwifiex: Ignore BTCOEX events from the 88W8897 firmware
-2cca3465147d650be3de04927a99784b30251ade mei: bus: add client dma interface
-2da4366f9e2c44afedec4acad65a99a3c7da1a35 iwlwifi: mei: add the driver to allow cooperation with CSME
-4ea7da5fad43f47eb2adab032f989a9fa6678a9c iwlwifi: mei: add debugfs hooks
-6d19a5eba5cda26310f83f5ea87eef54e68afc34 iwlwifi: integrate with iwlmei
-bfcfdb59b6699053541d3fda60ef021f4708caa5 iwlwifi: mvm: add vendor commands needed for iwlmei
-7ce1f2157e14170413ba5ecb462153131704754c iwlwifi: mvm: read the rfkill state and feed it to iwlmei
-d1e69b5492d1826356e516685977b41d60dbee26 wilc1000: remove '-Wunused-but-set-variable' warning in chip_wakeup()
-7a6cfe28ae3ef6a78774fd1e21e3b76c90937112 brcmfmac: Configure keep-alive packet on suspend
-b07e3c6ebc0c20c772c0f54042e430acec2945c3 rsi: Fix use-after-free in rsi_rx_done_handler()
-f1cb3476e48b60c450ec3a1d7da0805bffc6e43a rsi: Fix out-of-bounds read in rsi_read_pkt()
-fa4408b0799a7d52ec0b28f97ab0a93401e8e83f wlcore: no need to initialise statics to false
-5fd32ae0433a7af37eac27ace3aabae8cb7c2fc4 libertas: Use struct_group() for memcpy() region
-642a57475b30213ebac1f7061eaf4d0415d9c5a1 libertas_tf: Use struct_group() for memcpy() region
-601d2293e27f6fb37b30b836d724333a4ed79fe9 intersil: Use struct_group() for memcpy() region
-f01b3774309fc60f8bf27354014459b63e667b32 mwl8k: Use named struct for memcpy() region
-69831173fcbbfebb7aa2d76523deaf0b87b8eddd rtlwifi: rtl8192de: Style clean-ups
-fe6db7eda9306d665f7b8fc3decdb556ec10fb85 iwlwifi: mei: fix linking when tracing is not enabled
-08f0b22d731fa86957749c649d6ef6ebc07e8ad2 net: eql: add net device refcount tracker
-19c9ebf6ed70856385296a65e78c1699081b152f vlan: add net device refcount tracker
-b2dcdc7f731dfd8957ee2ca8be6c5d83bd0d95e3 net: bridge: add net device refcount tracker
-f12bf6f3f942b37de65eeea8be25903587fec930 net: watchdog: add net device refcount tracker
-4fc003fe0313276f0d4ea996ab9b4acd9a5a5e93 net: switchdev: add net device refcount tracker
-e44b14ebae1025cff3bef2d78a2e2f6869cefca0 inet: add net device refcount tracker to struct fib_nh_common
-66ce07f7802b68616a008d390f2e6783d68fb79f ax25: add net device refcount tracker
-615d069dcf1207462ce30c05a2f47d461be8f6c8 llc: add net device refcount tracker
-035f1f2b96ae81a1490674b8cc5ac2b59fb2c808 pktgen add net device refcount tracker
-b60645248af3b2485c7695f04e5ecfbc129eb1f7 net/smc: add net device tracker to struct smc_pnetentry
-e4b8954074f6d0db01c8c97d338a67f9389c042f netlink: add net device refcount tracker to struct ethnl_req_info
-e7c8ab8419d7a06bad7cb0b0289b5426029ac221 openvswitch: add net device refcount tracker to struct vport
-ada066b2e02cad7934e86e51985078d707c64250 net: sched: act_mirred: add net device refcount tracker
-adc76fc97bd8bd7236c57569650bbe6f9c2be024 Merge branch 'net-second-round-of-netdevice-refcount-tracking'
-150791442e7cef44c4328e04364eb44810157234 Merge tag 'wireless-drivers-next-2021-12-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+a4382659487f84c00b5fbb61df25a9ad59396789 rcu: Ignore rdp.cpu_no_qs.b.exp on preemptible RCU's rcu_qs()
+6e16b0f7bae3817ea67f4bef4f84298e880fbf66 rcu: Move rcu_data.cpu_no_qs.b.exp reset to rcu_export_exp_rdp()
+6120b72e25e195b6fa15b0a674479a38166c392a rcu: Remove rcu_data.exp_deferred_qs and convert to rcu_data.cpu no_qs.b.exp
+5401cc5264fff75aea10cf44b380b265d18d17ba rcu: Mark sync_sched_exp_online_cleanup() ->cpu_no_qs.b.exp load
+147f04b14adde831eb4a0a1e378667429732f9e8 rcu: Prevent expedited GP from enabling tick on offline CPU
+790da248978a0722d92d1471630c881704f7eb0d rcu: Make idle entry report expedited quiescent states
+81f6d49cce2d2fe507e3fddcc4a6db021d9c2e7b rcu/exp: Mark current CPU as exp-QS in IPI loop second pass
+614ddad17f22a22e035e2ea37a04815f50362017 rcu: Tighten rcu_advance_cbs_nowake() checks
+118e0d4a1bc85d4ecea0427e440a72d21ffbfa6a rcu/nocb: Make local rcu_nocb_lock_irqsave() safe against concurrent deoffloading
+213d56bf33bdda835bac04046f09256a75c5ca8e rcu/nocb: Prepare state machine for a new step
+fbb94cbd70d41c7511460896dfc7f9ea5da704b3 rcu/nocb: Invoke rcu_core() at the start of deoffloading
+24ee940d89277602147ce1b8b4fd87b01b9a6660 rcu/nocb: Make rcu_core() callbacks acceleration preempt-safe
+b3bb02fe5a2b538ae53eda1fe591dd6c81a91ad4 rcu/nocb: Make rcu_core() callbacks acceleration (de-)offloading safe
+344e219d7d2b28117daaae5fe8da2e054b53d5a2 rcu/nocb: Check a stable offloaded state to manipulate qlen_last_fqs_check
+7b65dfa32dca1be0400d43a3d5bb80ed6e04958e rcu/nocb: Use appropriate rcu_nocb_lock_irqsave()
+78ad37a2c50dfdb9a60e42bb9ee1da86d1fe770c rcu/nocb: Limit number of softirq callbacks only on softirq
+3e61e95e2d095e308616cba4ffb640f95a480e01 rcu: Fix callbacks processing time limit retaining cond_resched()
+a554ba288845fd3f6f12311fd76a51694233458a rcu: Apply callbacks processing time limit only on softirq
+0598a4d4429c0a952ac0e99e5280354cf4ccc01c rcu/nocb: Don't invoke local rcu core on callback overload from nocb kthread
+d26d0df8a13d67cb51fbe54f102c82d4bb45b436 rcu/nocb: Remove rcu_node structure from nocb list when de-offloaded
+9187942882ba72f2f27b0656ffb83076f09ec717 rcu/nocb: Prepare nocb_cb_wait() to start with a non-offloaded rdp
+7c06359f2449e81ecd39fb05dd0147197ca18b34 rcu/nocb: Optimize kthreads and rdp initialization
+91c25addc981c836a937c889cbfae202239665aa rcu/nocb: Create kthreads on all CPUs if "rcu_nocbs=" or "nohz_full=" are passed
+a60f4150fc3e11966b555a6e1937abcc2c9d152d rcu/nocb: Allow empty "rcu_nocbs" kernel parameter
+fb227a70a241865f072b168d816d3be71eac95ed rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
+cafafd67765b21334086b3fb8963ad9c5866c03d rcu-tasks: Create per-CPU callback lists
+7a30871b6a27de1a1f418c7fd2c5dde9a46bfd16 rcu-tasks: Introduce ->percpu_enqueue_shift for dynamic queue selection
+b14fb4fbbcd8ff62f1a7aa2c6e2603424c117943 rcu-tasks: Convert grace-period counter to grace-period sequence number
+9b073de1c7a354af7cb7100952599dde461aee45 rcu_tasks: Convert bespoke callback list to rcu_segcblist structure
+b5460246e09e31e8c3f41bf6ec89db7a3797dab9 rcu-tasks: Use spin_lock_rcu_node() and friends
+bec27163276a51653089bc8572eb46dbe0046b73 rcu-tasks: Inspect stalled task's trc state in locked state
+a64a07cc7b78138936ff3a6245308325ec0b2519 rcu-tasks: Add a ->percpu_enqueue_lim to the rcu_tasks structure
+ca23fcec4a9816356947e954448050593a6d3593 rcu-tasks: Abstract checking of callback lists
+17c9c4441b7b33c917af2a799af2e9f158e98506 rcu-tasks: Abstract invocations of callbacks
+16c4e5daa661b5bc73fda09af1db5e61350bd61f rcu-tasks: Use workqueues for multiple rcu_tasks_invoke_cbs() invocations
+14a1fb6b4c655927ffddf5cff6863aebb5690439 rcu-tasks: Make rcu_barrier_tasks*() handle multiple callback queues
+63a764d551fef5cc7d9c38073721c17a44be3ce6 rcu-tasks: Add rcupdate.rcu_task_enqueue_lim to set initial queueing
+893762179e62870ded17dae1448cd20948f28b71 rcu-tasks: Count trylocks to estimate call_rcu_tasks() contention
+4b8c9abc26354a1155420dc7130c487071f7ec19 rcu-tasks: Avoid raw-spinlocked wakeups from call_rcu_tasks_generic()
+2c17091c0bf42c845c47d2d3b0e5a090487bc28a rcu-tasks: Use more callback queues if contention encountered
+5e95fe2f9477424aa4c6adf23c911c98dad32807 rcu-tasks: Use separate ->percpu_dequeue_lim for callback dequeueing
+844cf1662d8c9346e8c7de5739607658ab06c15c rcu-tasks: Use fewer callbacks queues if callback flood ends
+4feeb9d5f82229bf39621be755bda81521539476 refscale: Always log the error message
+f71f22b67d37c91a5c4320f6e821f64eb189627d refscale: Add missing '\n' to flush message
+71f6ea2a0be06f9d1833852ee4f501a76563acd3 scftorture: Add missing '\n' to flush message
+04cf8518860167081ee49b5ff2e1616244ab760e scftorture: Remove unused SCFTORTOUT
+86e7ed1bd57d020e35d430542bf5d689c3200568 rcuscale: Always log error message
+809da9bf805094e1cf032fd8000e8b77d5eec642 scftorture: Always log error message
+81faa4f6fba429334ff72bb5ba7696818509b5b5 locktorture,rcutorture,torture: Always log error message
+5ff7c9f9d7e3e0f6db5b81945fa11b69d62f433a rcutorture: Avoid soft lockup during cpu stall
+12e885433dbc2e8098cfb62c68f731b18981f3f6 rcutorture: Test RCU-tasks multiqueue callback queueing
+82e310033d7c21a7a88427f14e0dad78d731a5cd rcutorture: Enable multiple concurrent callback-flood kthreads
+613b00fbe64461f1c73e035e07c22cf3de65740b rcutorture: Add ability to limit callback-flood intensity
+53b541fbdb9c498db112216a0cc9fe4804f54742 rcutorture: Combine n_max_cbs from all kthreads in a callback flood
+a4414115bf0d6f0188ae3b601e19f2b9ecda10a2 Merge branches 'doc.2021.11.30c', 'exp.2021.12.07a', 'fastnohz.2021.11.30c', 'fixes.2021.11.30c', 'nocb.2021.12.07a', 'nolibc.2021.11.30c', 'tasks.2021.12.07a', 'torture.2021.12.07a' and 'torturescript.2021.11.30c' into HEAD
+973bc7882d25b5b39e9f2a4a8de8e925158ea3ad Merge branch 'lkmm.2021.11.30c' into HEAD
+c048c71a85a91cd65511a5165b0ad11fdb105436 Merge branch 'lkmm-dev.2021.11.30c' into HEAD
+93dd1a0fb1ce0a01adeec97c21f3474f98d1d8fb Merge branch 'clocksource.2021.11.30c' into HEAD
+8f110ce2fc5f5aa3e4bab9e5533041244a1f7a31 MAINTAINERS:  Add Frederic and Neeraj to their RCU files
+8f64cdd013539b3f50b9576aad38b8c0edbdb9ef rcu: Fix description of kvfree_rcu()
+85a92740c6b16ede7382b475f408e95abb026b5a torture: Drop trailing ^M from console output
+77597062be7862a4552c2f21261896aae012df70 torture: Allow four-digit repetition numbers for --configs parameter
+e2c5062d7ed1e46dddd33000ca9ae7685799bd6b kcsan: Refactor reading of instrumented memory
+969234220d013b51f33bd0231713f31dcc9669f9 kcsan: Remove redundant zero-initialization of globals
+6e2bcb0fe797066d2adfffe097372d14d0b90e1b kcsan: Avoid checking scoped accesses from nested contexts
+598110bde503eb6395c2becceb59e446f349d752 kcsan: Add core support for a subset of weak memory modeling
+37b11d3c6b6669c16a06913c67807cd68d607a15 kcsan: Add core memory barrier instrumentation functions
+6ae4014d1067ff5a2681951bda74f3a6db6e1da2 kcsan, kbuild: Add option for barrier instrumentation only
+f8297765d771ac8e1054f00c56e16220bd7632b3 kcsan: Call scoped accesses reordered in reports
+b418d963602aafcf3da974a383db4e36602aa464 kcsan: Show location access was reordered to
+721ed2857e5958c3053a0fee1a21059e114daf36 kcsan: Document modeling of weak memory
+672647e4b71bc220aeaf31d6434be3d055922d1c kcsan: test: Match reordered or normal accesses
+6d9ba8cd7298acdf11eebe6936235cdf5fe1bc21 kcsan: test: Add test cases for memory barrier instrumentation
+5b4785db027e4d35fe719b1c6d354ad75fdcb0db kcsan: Ignore GCC 11+ warnings about TSan runtime support
+fa98f5914519d790a3a659a41d5b58db18be87f1 kcsan: selftest: Add test case to check memory barrier instrumentation
+6e0abf515d033d8ffb4e35c3adb916bb1da61962 locking/barriers, kcsan: Add instrumentation for barriers
+a4dc35634652f03d6f2db21805641b2e0029a6b2 locking/barriers, kcsan: Support generic instrumentation
+caff0ba3804193bb1923f04fc8c52af3bb3f00e3 locking/atomics, kcsan: Add instrumentation for barriers
+96f6a5b77695e0bb4540aec7d7dc648b496c3b78 asm-generic/bitops, kcsan: Add instrumentation for barriers
+57abbff6328757e09bdd6a69503527d03b0c9a38 x86/barriers, kcsan: Use generic instrumentation for non-smp barriers
+0d91dda0dfd4a19da9562f5c5885a70be7a36f51 x86/qspinlock, kcsan: Instrument barrier of pv_queued_spin_unlock()
+e7dc74d2678b9254dc3eb77dcfc0218396f36523 mm, kcsan: Enable barrier instrumentation
+8a5e88dc0ca1c6f1296021c5482c32eec8ae407c sched, kcsan: Enable memory barrier instrumentation
+fdb42a4e3adf389a0281161f75aeceb35cd0b11b objtool, kcsan: Add memory barrier instrumentation to whitelist
+08a33b6f61403aba51445d2aee0af6e6f70ba4aa objtool, kcsan: Remove memory barrier instrumentation from noinstr
+d87afaffb2635b36389ba882a355089bd5b92a4e compiler_attributes.h: Add __disable_sanitizer_instrumentation
+6f37a5372f44cca92f56447554ab6e5072aa16d0 kcsan: Support WEAK_MEMORY with Clang where no objtool support exists
+789ce131445010134a9de7dc05170b70a88eead9 kcsan: Make barrier tests compatible with lockdep
+828de54081194d35fc628acc96954135903d1128 kcsan: Turn barrier instrumentation into macros
+1870c5a007e53752c1e9770080314742aeceecdd torture: Output per-failed-run summary lines from torture.sh
+9e4644cd9365dafd5190337b477c64dc58de2063 torture: Make kvm.sh summaries note runs having only KCSAN reports
+2c98c67521a7d76d0cd9919ca2a89616bcb267c0 torture: Indicate which torture.sh runs' bugs are all KCSAN reports
+b1545bb81ee8a7a65de6823e15e1cfc01a3ca51b clocksource: Add a Kconfig option for WATCHDOG_MAX_SKEW
+f46cac2815279f13d94b794ee0e505f25033a362 kcsan: Avoid nested contexts reading inconsistent reorder_access
+fea49405bc7b85cc6e3afb64cab00d6d32df392e kcsan: Only test clear_bit_unlock_is_negative_byte if arch defines it
+a021eef4d62e528a25d7bef2b54ce20db114344a rcutorture: Print message before invoking ->cb_barrier()
+0c79198c653d56d1ffa80920035445ff9d066923 fixup! rcu-tasks: Use spin_lock_rcu_node() and friends
+b627a876b472c6b028d5d2bbeb9e05aa9f0a8438 EXP rcu-tasks: Check for abandoned callbacks
+16d864e4b212560d47ff914f8134db122f06761a EXP timers/nohz: Last resort update jiffies on nohz_full IRQ entry
+0cf1d792421a1bab8cc1079ec86279ae53b31e5b EXP testing/bpf: Update test names for xchg and cmpxchg
+339196953795a429e79e1fa1b88c51aea95a902d EXP workqueue: Upgrade queue_work_on() comment
+0ad007a370b313c849e91fbceb60256b9dbb4212 EXP workqueue: Fix unbind_workers() VS wq_worker_running() race
+07f892dade6a3b08fb833e2e9cf5074afc0d937f EXP workqueue: Fix unbind_workers() VS wq_worker_sleeping() race
 
---===============7955220212255730512==--
+--===============4119673243468284789==--
