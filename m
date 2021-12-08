@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 08 Dec 2021 11:14:05 -0000
-Message-Id: <163896204583.17401.2068204768919758572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 08 Dec 2021 12:19:18 -0000
+Message-Id: <163896595845.25970.3865054689691694975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/irq/irqchip-fixes
-    old: d094b4332232c88d07d9884a9c32fec259984351
-    new: b383a42ca523ce54bcbd63f7c8f3cf974abc9b9a
+  - ref: refs/heads/tmp.master
+    old: 005236c3e40eeb64f352dcb710ca6bffabf7f3b2
+    new: 54ae2f7f5e4f63289ceb71dbbb406ecebb0aab1e
     log: |
-         b383a42ca523ce54bcbd63f7c8f3cf974abc9b9a irqchip/irq-gic-v3-its.c: Force synchronisation when issuing INVALL
+         69fb1861de35120cad51ed665c566acf9d5ba136 Revert "pahole: Add --inner_anon option"
+         54ae2f7f5e4f63289ceb71dbbb406ecebb0aab1e Revert "fprintf: Allow making struct/enum/union anonymous"
          
