@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3020961371325842022=="
+Content-Type: multipart/mixed; boundary="===============2318110710036036151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 08 Dec 2021 10:07:57 -0000
-Message-Id: <163895807751.8687.6874292415965639717@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 10:09:06 -0000
+Message-Id: <163895814655.9109.1048753790035237187@gitolite.kernel.org>
 
---===============3020961371325842022==
+--===============2318110710036036151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-soc
-    old: 3efc443121180c2acc987929b3b7b86ca83e3ee5
-    new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-3efc44312118-fa55b7dcdc43.txt
+  - ref: refs/heads/at91-next
+    old: f3c0366411d6893360be21a7544595bf275bc9b2
+    new: 3e3df268b966da17b51ab57a9e85d14ed07e3130
+    log: revlist-f3c0366411d6-3e3df268b966.txt
 
---===============3020961371325842022==
+--===============2318110710036036151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3efc44312118-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-f3c0366411d6-3e3df268b966.txt
 
-a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
-dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
-a46a5036e7d2c537995ed331b7b8727d0e28390c net: marvell: prestera: fix patchwork build problems
-138c1a38113d989416df57e9f8973c10c9e1fa04 block: use new bdev_nr_bytes() helper for blkdev_{read,write}_iter()
 9ada96900ad7d7b4854d4caea8499296ede2ed49 Merge branches 'ib-mfd-iio-touchscreen-clk-5.16', 'ib-mfd-misc-regulator-5.16' and 'tb-mfd-from-regulator-5.16' into ibs-for-mfd-merged
 3747a64179bff75fca38837516b2e91b7de8a36c dt-bindings: mfd: Add Broadcom's MISC block
 15fd4ca41d44b92966425b628eba12e475a484dc dt-bindings: mfd: brcm,cru: Add clkset syscon
@@ -1050,5 +1046,9 @@ c3b68c27f58a07130382f3fa6320c3652ad76f15 Merge tag 'for-5.16/parisc-3' of git://
 ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
+265d27caf95f8959ddd4a33e52c4b4dc4e31c308 dt-bindings: clock: lan966x: Add binding includes for lan966x SoC clock IDs
+07300ef47a3f6a1c67753c91466dfc30c0cead7c dt-bindings: clock: lan966x: Add LAN966X Clock Controller
+54104ee023333e3bd8062ff1cbc312ea4c5bf733 clk: lan966x: Add lan966x SoC clock driver
+3e3df268b966da17b51ab57a9e85d14ed07e3130 Merge branch 'clk-at91' into at91-next
 
---===============3020961371325842022==--
+--===============2318110710036036151==--
