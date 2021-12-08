@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2766719472407358797=="
+Content-Type: multipart/mixed; boundary="===============2696349622963659702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Dec 2021 19:38:59 -0000
-Message-Id: <163899233976.3226.4379935358972049563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 08 Dec 2021 19:39:12 -0000
+Message-Id: <163899235200.3352.1613692470685526288@gitolite.kernel.org>
 
---===============2766719472407358797==
+--===============2696349622963659702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 08f7116efb1edba668de7b9a8ab8f1d7a8333b16
-    new: bc9451447c58f1781b7d7cf9fed90711956b1d6d
-    log: revlist-08f7116efb1e-bc9451447c58.txt
+  - ref: refs/heads/queue-next
+    old: 8531ec2ae0c0f3da857f144026356725cf8348e1
+    new: 176766552924ef52793fb68bfe4e3272027cf149
+    log: revlist-8531ec2ae0c0-176766552924.txt
 
---===============2766719472407358797==
+--===============2696349622963659702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08f7116efb1e-bc9451447c58.txt
+Content-Disposition: attachment; filename=revlist-8531ec2ae0c0-176766552924.txt
 
 82c434c103408842a87404e873992b7698b6df2b ath11k: set correct NL80211_FEATURE_DYNAMIC_SMPS for WCN6855
 27deb0f1570b0dbf465443857ce10ac6443d141d ath10k: fetch (pre-)calibration data via nvmem subsystem
@@ -119,37 +119,8 @@ fe6db7eda9306d665f7b8fc3decdb556ec10fb85 iwlwifi: mei: fix linking when tracing 
 61125b8be85dfbc7e9c7fe1cc6c6d631ab603516 i40e: Fix failed opcode appearing if handling messages from VF
 8aa55ab422d9d0d825ebfb877702ed661e96e682 i40e: Fix pre-set max number of queues for VF
 23ec111bf3549aae37140330c31a16abfc172421 i40e: Fix NULL pointer dereference in i40e_dbg_dump_desc
-4e66934eaadc83b27ada8d42b60894018f3bfabf lib: add reference counting tracking infrastructure
-914a7b5000d08f1487e0efa52f27c4b7ea75b893 lib: add tests for reference tracker
-4d92b95ff2f95f13df9bad0b5a25a9f60e72758d net: add net device refcount tracker infrastructure
-80e8921b2b72c300ca56a01729004d30bedb82cd net: add net device refcount tracker to struct netdev_rx_queue
-0b688f24b7d611db3a02f3d4ab562d049c78a17d net: add net device refcount tracker to struct netdev_queue
-5ae2195088d06adfd20eab98ecc9db80ef2eb6b2 net: add net device refcount tracker to ethtool_phys_id()
-14ed029b5eb5146794a46d89e114715c9d380ca1 net: add net device refcount tracker to dev_ifsioc()
-4dbd24f65c60259ce5d1563433ecaf5fab693c83 drop_monitor: add net device refcount tracker
-9038c320001dd07f60736018edf608ac5baca0ab net: dst: add net device refcount tracking to dst_entry
-fb67510ba9bd3ed1f8a2db4946e847ca0418f8dc ipv6: add net device refcount tracker to rt6_probe_deferred()
-c0fd407a0666a583a765cfb129c4dc492590ca89 sit: add net device refcount tracking to ip_tunnel
-56c1c77948ba3576df1c387cefcf3bab93600822 ipv6: add net device refcount tracker to struct ip6_tnl
-85662c9f8cbd4c96088ff99f56bc3d1097d0ac07 net: add net device refcount tracker to struct neighbour
-77a23b1f954381d7999ce069d3fc8658eb6a9bbc net: add net device refcount tracker to struct pneigh_entry
-08d622568e5a58adebc8cb801599d3f181a6b687 net: add net device refcount tracker to struct neigh_parms
-f77159a348f2d6078af7fe4933a60229d7c7aae2 net: add net device refcount tracker to struct netdev_adjacent
-8c727003c4d0c776bd286d65c347591734d1d841 ipv6: add net device refcount tracker to struct inet6_dev
-c04438f58d140723e58050fcb9d33d84cb39e9e9 ipv4: add net device refcount tracker to struct in_device
-606509f27f67748b92f783a75a6e39cfaa2fe92d net/sched: add net device refcount tracker to struct Qdisc
-63f13937cbe9b00982dfc8e578b1aec8e5037333 net: linkwatch: add net device refcount tracker
-095e200f175f9843642343a4a48087fcfa4d3751 net: failover: add net device refcount tracker
-42120a86438379eb77424831ae3d696c2d5cb622 ipmr, ip6mr: add net device refcount tracker to struct vif_device
-5fa5ae605821e0e10ee489d9a6e331fd287ccc57 netpoll: add net device refcount tracker to struct netpoll
-4c375272fb0ba19288e323928d1f6937e368851f Merge branch 'net-add-preliminary-netdev-refcount-tracking'
-45cac6754529ae17345d8f5b632d9e602a091a20 net: fix recent csum changes
-5382911f5d67a5a13815fb6958265b4a11ff7cfd net: wwan: iosm: select CONFIG_RELAY
-01081be1ea8cc123c96256ff0c975643cd862609 net: prestera: replace zero-length array with flexible-array member
-364d470d547097075070c19189a31dda97b3a962 Revert "net: hns3: add void before function which don't receive ret"
 dde91ccfa25fd58f64c397d91b81a4b393100ffa ethtool: do not perform operations on net devices being unregistered
 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 devlink: fix netns refcount leak in devlink_nl_cmd_reload()
-1c5526968e270e4efccfa1da21d211a4915cdeda net/smc: Clear memory when release and reuse buffer
 94cddf1e9227a171b27292509d59691819c458db can: pch_can: pch_can_rx_normal: fix use after free
 3ec6ca6b1a8e64389f0212b5a1b0f6fed1909e45 can: sja1000: fix use after free in ems_pcmcia_add_card()
 f58ac1adc76b5beda43c64ef359056077df4d93a can: m_can: Disable and ignore ELO interrupt
@@ -246,5 +217,7 @@ ef24b92e7a6667b25164461757e6c2df47c6cd40 RDMA/mlx5: Add support to multiple prio
 15f732f19655462b3ee2237b4a036700b734b812 Merge branch 'mlx5-queue' into net-next
 68e2e7afd82811bcd11fd27ce805b80ace013f9c Merge branch 'mlx4-for-net' into net-next
 bc9451447c58f1781b7d7cf9fed90711956b1d6d Merge branch 'mlx5-for-net' into net-next
+41cc1f267440792b59fe24f7cd9fab272bf39a73 Merge branch 'net-next' into queue-next
+176766552924ef52793fb68bfe4e3272027cf149 Merge branch 'testing/rdma-next' into queue-next
 
---===============2766719472407358797==--
+--===============2696349622963659702==--
