@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6727911906091479777=="
+Content-Type: multipart/mixed; boundary="===============3020961371325842022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 08 Dec 2021 10:07:52 -0000
-Message-Id: <163895807221.8618.7788205869045514091@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 10:07:57 -0000
+Message-Id: <163895807751.8687.6874292415965639717@gitolite.kernel.org>
 
---===============6727911906091479777==
+--===============3020961371325842022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-dt
-    old: f3c0366411d6893360be21a7544595bf275bc9b2
+  - ref: refs/heads/at91-soc
+    old: 3efc443121180c2acc987929b3b7b86ca83e3ee5
     new: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
-    log: revlist-f3c0366411d6-fa55b7dcdc43.txt
+    log: revlist-3efc44312118-fa55b7dcdc43.txt
 
---===============6727911906091479777==
+--===============3020961371325842022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3c0366411d6-fa55b7dcdc43.txt
+Content-Disposition: attachment; filename=revlist-3efc44312118-fa55b7dcdc43.txt
 
 a6785bd7d83c9e73c6a6aa33d30a071460074728 octeontx2-nicvf: fix ioctl callback
 dce981c42151e1f0176b0788c2e1bdc3f1e2bc1f amt: remove duplicate include in amt.c
@@ -1051,4 +1051,4 @@ ce49bfc8d0372212ccd7d1c1b45c60b077f77684 Merge tag 'xfs-5.16-merge-5' of git://g
 dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fallthrough
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 
---===============6727911906091479777==--
+--===============3020961371325842022==--
