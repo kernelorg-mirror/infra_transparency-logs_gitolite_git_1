@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1745668749129717461=="
+Content-Type: multipart/mixed; boundary="===============0066387702401850689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Dec 2021 21:25:49 -0000
-Message-Id: <163899874955.8273.1697287424636159361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 08 Dec 2021 21:25:54 -0000
+Message-Id: <163899875468.8367.3092986962920119243@gitolite.kernel.org>
 
---===============1745668749129717461==
+--===============0066387702401850689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: c611648816c2a7414e24d10772709a14544163ff
-    new: 6c100441cbcfa83ecb8a9df7a50a5943879bb88a
-    log: revlist-c611648816c2-6c100441cbcf.txt
+  - ref: refs/heads/queue-rc
+    old: 71960ec68d0d6619379a8114d8ea942404f61919
+    new: eeb6a70b6d910273c22f1d51ed983e48538a7c79
+    log: revlist-71960ec68d0d-eeb6a70b6d91.txt
 
---===============1745668749129717461==
+--===============0066387702401850689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c611648816c2-6c100441cbcf.txt
+Content-Disposition: attachment; filename=revlist-71960ec68d0d-eeb6a70b6d91.txt
 
 7e4dcc13965c57869684d57a1dc6dd7be589488c iavf: restore MSI state on reset
 1a1aa356ddf3f16539f5962c01c5f702686dfc15 iavf: Fix reporting when setting descriptor count
@@ -63,5 +63,7 @@ a45f5eba3b7bb04949480c0addaab9e43fd6cbb4 net: openvswitch: Fix matching zone id 
 531abd892ae376aec3a5b38da49605914dd52785 Merge branch 'patchq/448271' into mlx5-for-net
 4f93692facc8e8a64a0b0dcce60e598b90f11bc6 Merge branch 'patchq/447567' into mlx5-for-net
 6c100441cbcfa83ecb8a9df7a50a5943879bb88a Merge branch 'mlx5-for-net' into net-rc
+7418e7b078dabcb3225cefbf3e12cfbbca3e6f71 Merge branch 'net-rc' into queue-rc
+eeb6a70b6d910273c22f1d51ed983e48538a7c79 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============1745668749129717461==--
+--===============0066387702401850689==--
