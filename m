@@ -1,83 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============4872015896323185315=="
+Content-Type: multipart/mixed; boundary="===============6107521857329771618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 08 Dec 2021 08:54:25 -0000
-Message-Id: <163895366538.10923.11791757629064484959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Wed, 08 Dec 2021 09:01:01 -0000
+Message-Id: <163895406101.12594.16382059203261204965@gitolite.kernel.org>
 
---===============4872015896323185315==
+--===============6107521857329771618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/staging-next
-    old: c601ab0eb478f66ca30efd2534a818f3d1b91a25
-    new: b07f55053557946d77d33ff6bc854058bb10621c
-    log: revlist-c601ab0eb478-b07f55053557.txt
+  - ref: refs/heads/master-pending
+    old: ce5d8cbda0b2161b9fa1fec88e89400e542b0a97
+    new: d252dc2ec35280d6bbed08253237b6edd28c3b9d
+    log: revlist-ce5d8cbda0b2-d252dc2ec352.txt
+  - ref: refs/heads/pending
+    old: 368d6861d5841bf594c5b388b37a82d95f50f732
+    new: ee52addb6de05a514041950bcbfadf4eab2aecfa
+    log: revlist-368d6861d584-ee52addb6de0.txt
 
---===============4872015896323185315==
+--===============6107521857329771618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ce5d8cbda0b2-d252dc2ec352.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1638953664 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1638953664-f96dd2fd7bd8bad5e15fdc6ededf9fa81418912e
+ed05c7cf1286d7e31e7623bce55ff135723591bf ath11k: avoid deadlock by change ieee80211_queue_work for regd_update_work
+0b05ddad8e4bd56bda42b9dc491c1b127720f063 ath11k: add configure country code for QCA6390 and WCN6855
+9dcf6808b253a72b2c90eed179863bf5fab7d68c ath11k: add 11d scan offload support
+09cab4308bf9b8076ee4a3c56015daf9ef9cb23e wcn36xx: Fix max channels retrieval
+6273c97296a8e4936571bde5153bc0398fae087c carl9170: Use the bitmap API when applicable
+dddaa64d0af37275314a656bd8f8e941799e2d61 ath11k: add wait operation for tx management packets for flush from mac80211
+dec05cdf78af93d5bf338171aa3bc3e1755f3f4c ath: regdom: extend South Korea regulatory domain support
+e8a91863eba3966a447d2daa1526082d52b5db2a ath10k: Fix tx hanging
+5a10537cbfc5f1a9b7f0619b37c13de7be8c8f53 ath10k: fix scan abort when duration is set for hw scan
+45c2ae3ec05e2cc1d33ff3d5498d1abecace42b3 Merge branch 'ath-next'
+0859b4e8bf8357ec2de5bce2be8a4fa3215dd912 Merge remote-tracking branch 'mhi/mhi-next'
+fa09401f0ad75d935b9a521ba2893aa96cf80f95 Add localversion-wireless-testing-ath
+fbf03c57fde45ead55652314fa75e43f58555948 Revert "bus: mhi: Early MHI resume failure in non M3 state"
+1f852f884006b113161aa3c27daa3f2e64ebba46 ath11k: Fix buffer overflow when scanning with extraie
+d16faebdb25d794703115184ca534452fc63bb8e ath11k: enable IEEE80211_HW_SINGLE_SCAN_ON_ALL_BANDS for WCN6855
+32c20ae861239be18ebebc22010ff527acaecc04 ath6kl: Use struct_group() to avoid size-mismatched casting
+215c28a3eed29e0737e5b7e1bf79700412e8969f dt: bindings: add new DT entry for ath11k PCI device support
+3c3095e268cc700e62ff595cae0c1c5e1b80c57a ath11k: Use reserved host DDR addresses from DT for PCI devices
+31efac0458516d8407f7984b05758e72121f0398 ath11k: Add htt cmd to enable full monitor mode
+b2818c46b924e577fce8d19e86cdd44701958e0a ath11k: add software monitor ring descriptor for full monitor
+ca3f75cab862120bc040bc5f190ed88f19b7f0ed ath11k: Process full monitor mode rx support
+e664da94acc7e55357d885d2b247d6d68eff4b2d ath11k: add spectral/CFR buffer validation support
+7b3d32bd4627b310a0bd200b7f9df887db585339 ath10k: drop beacon and probe response which leak from other channel
+a884f2e00497af55570ef20312c6be4f45bc108e ath11k: support MAC address randomization in scan
+10159bfada5c09124e3daf7d2cc678fca7defaf1 ath11k: add fallback board name without variant while searching board-2.bin
+8a68175cda282abb295c0a93e926d0a5d6077f11 ath11k: add read variant from SMBIOS for download board data
+ee52addb6de05a514041950bcbfadf4eab2aecfa ath11k: set DTIM policy to stick mode for station interface
+d252dc2ec35280d6bbed08253237b6edd28c3b9d Merge branch 'pending' into master-pending
 
-c601ab0eb478f66ca30efd2534a818f3d1b91a25 b07f55053557946d77d33ff6bc854058bb10621c refs/heads/staging-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGwcsAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FnsQAKmizh7RPEyt97WLfAWL
-SrclBwocI3wixH4aLbsV3lkZcJF6lfF9yNtaQIYdS1KRRmRfAqR9ykU/j9Lt7uHW
-fnmq4X4ijBgKY3iqEJT4a4h85bToAx3qDGYpaBgkDS8Nyy2m6EUoicbXSRdmkyxS
-XvAHuBaLbsPMD7vr50w7yS18FaMqyw9mwXKF+M4hkmW92gURr29Y//2+TdCynqFp
-wFMpsv1pk7Zp58t3kQmbaLAOtEAbMKmmPjhfZ4oNe+i5cQKRVCH4wHlNmtGvXbu9
-/jA77kFmKgjmUfj3ph6c6mLP3cXOaYiIJ7KsZigKN4c+aFhnwdhXc295jkGcRXAA
-Cvzn2iQOBO+ztmfAD6dSKdcjYRKkv8vKJez+d5L/xM7F8GaZpvh5NgMleOJWdRlb
-4BZwfxU/hPbwxx5QlI8vES84XFe80YFTjXi9dTKDiBMZqPYhBIF9f2T4hXnpzqvU
-qs5a/AgKO+7v34xN2iEoB77ofAzxyj4wy/T7tQLQdmFrVILJbojNOLx2UGMb8wKo
-Lg5ZNxSaK0vlWpG6NUkqm2JFHnd+5nMtlOl7hgndiCaOGujEj0scXdABcwQ2AVK1
-2R0zwxRx4UQSO36vW+F89maUFcO/NeO93X7DUrophOQ0PxzCMvwWyJevaSvvjErK
-dUsR6vvSIAwMTg8HSZaVdrJe
-=WTdc
------END PGP SIGNATURE-----
-
---===============4872015896323185315==
+--===============6107521857329771618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c601ab0eb478-b07f55053557.txt
+Content-Disposition: attachment; filename=revlist-368d6861d584-ee52addb6de0.txt
 
-5f31e13e2dcb5a8e46d1793b8b8285df59eee404 staging: r8188eu: bLedOpenDrain is always true for r8188eu
-bce47253f5e01be643d291b9511c801bf35e3748 staging: r8188eu: remove a bunch of unused led defines
-bcb898c690a8040963167c6c1d178e513474e43d staging: r8188eu: remove two unused macros
-b20bdcdfd16dd33e4560d007a1aba9e159925585 staging: r8188eu: bHWPowerdown is set but not used
-cc23553e5bd450a50d82aae90f40a80e9f3628cd staging: r8188eu: remove unused macros from drv_types.h
-02d85324158c40784bdaa24c77d35a6a32bb755a staging: r8188eu: hal data's interfaceIndex is never read
-390c811a7b3e99adbe81344625187a224fc2fbbe staging: r8188eu: remove empty HAL_INIT_PROFILE_TAG macro
-93bc0b3d5334c9a5257913f70bc9bdbd0f056dc3 staging: r8188eu: remove two write-only wifi direct variables
-a917a9dd8ada60a7e4219c98300dbefda2b1c53d staging: r8188eu: remove unused define
-1684457358818de7697b09b4688a41b512c60e5c staging: r8188eu: AntCombination is always 2
-ec5967c04e6a871958512f47b875717d29e9f5d5 staging: r8188eu: remove RF_PATH_{C,D}
-2d91168a38a746d89d8394a763b11143faf9d29b staging: r8188eu: struct odm_mac_status_info is not used
-39b0e3d6e29c491ba94c12f3aa64555a9d78198e staging: r8188eu: remove macro PHY_SetRFReg
-0783f44d9004bc9e7d7d7bf66ce3ae8c68744528 staging: r8188eu: remove macro PHY_QueryRFReg
-5f82ac51783bd10da94dfdd80e3be2d8ee59ac79 staging: r8188eu: remove macro PHY_SetBBReg
-f6e018ae9a28bc472bd5add373b6efa3626c7661 staging: r8188eu: remove macro PHY_QueryBBReg
-1602cce406f82e62342e73093856afa4720785c3 staging: r8188eu: remove duplicate defines
-a773bcc4626a2166ed58972de84056c933f95827 staging: r8188eu: bWIFI_Direct is set but never used
-c84a7062d8863e15edd77ae1db5b04e0e245f289 staging: r8188eu: bWIFI_Display is set but never used
-bbe440bcc3f58087de19c7d9e03c9a9f1ab9b0a5 staging: r8188eu: remove unused macro IS_FW_81xxC
-efc7bc10d23f624ef2f9458d9c3b52d8415af3a0 staging: r8188eu: convert DBG_88E calls in core/rtw_security.c
-b07f55053557946d77d33ff6bc854058bb10621c staging: r8188eu: convert/remove DBG_88E calls in core/rtw_cmd.c
+ed05c7cf1286d7e31e7623bce55ff135723591bf ath11k: avoid deadlock by change ieee80211_queue_work for regd_update_work
+0b05ddad8e4bd56bda42b9dc491c1b127720f063 ath11k: add configure country code for QCA6390 and WCN6855
+9dcf6808b253a72b2c90eed179863bf5fab7d68c ath11k: add 11d scan offload support
+09cab4308bf9b8076ee4a3c56015daf9ef9cb23e wcn36xx: Fix max channels retrieval
+6273c97296a8e4936571bde5153bc0398fae087c carl9170: Use the bitmap API when applicable
+dddaa64d0af37275314a656bd8f8e941799e2d61 ath11k: add wait operation for tx management packets for flush from mac80211
+dec05cdf78af93d5bf338171aa3bc3e1755f3f4c ath: regdom: extend South Korea regulatory domain support
+e8a91863eba3966a447d2daa1526082d52b5db2a ath10k: Fix tx hanging
+5a10537cbfc5f1a9b7f0619b37c13de7be8c8f53 ath10k: fix scan abort when duration is set for hw scan
+1f852f884006b113161aa3c27daa3f2e64ebba46 ath11k: Fix buffer overflow when scanning with extraie
+d16faebdb25d794703115184ca534452fc63bb8e ath11k: enable IEEE80211_HW_SINGLE_SCAN_ON_ALL_BANDS for WCN6855
+32c20ae861239be18ebebc22010ff527acaecc04 ath6kl: Use struct_group() to avoid size-mismatched casting
+215c28a3eed29e0737e5b7e1bf79700412e8969f dt: bindings: add new DT entry for ath11k PCI device support
+3c3095e268cc700e62ff595cae0c1c5e1b80c57a ath11k: Use reserved host DDR addresses from DT for PCI devices
+31efac0458516d8407f7984b05758e72121f0398 ath11k: Add htt cmd to enable full monitor mode
+b2818c46b924e577fce8d19e86cdd44701958e0a ath11k: add software monitor ring descriptor for full monitor
+ca3f75cab862120bc040bc5f190ed88f19b7f0ed ath11k: Process full monitor mode rx support
+e664da94acc7e55357d885d2b247d6d68eff4b2d ath11k: add spectral/CFR buffer validation support
+7b3d32bd4627b310a0bd200b7f9df887db585339 ath10k: drop beacon and probe response which leak from other channel
+a884f2e00497af55570ef20312c6be4f45bc108e ath11k: support MAC address randomization in scan
+10159bfada5c09124e3daf7d2cc678fca7defaf1 ath11k: add fallback board name without variant while searching board-2.bin
+8a68175cda282abb295c0a93e926d0a5d6077f11 ath11k: add read variant from SMBIOS for download board data
+ee52addb6de05a514041950bcbfadf4eab2aecfa ath11k: set DTIM policy to stick mode for station interface
 
---===============4872015896323185315==--
+--===============6107521857329771618==--
