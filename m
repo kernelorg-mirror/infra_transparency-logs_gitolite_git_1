@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6231228024040241258=="
+Content-Type: multipart/mixed; boundary="===============0246016265683334988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 08 Dec 2021 09:50:22 -0000
-Message-Id: <163895702250.31021.1216337643680374061@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 09:50:33 -0000
+Message-Id: <163895703385.31143.17253747360697565135@gitolite.kernel.org>
 
---===============6231228024040241258==
+--===============0246016265683334988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8
-    new: 1fe5b01262844be03de98afdd56d1d393df04d7e
-    log: revlist-4d98bb0d7ec2-1fe5b0126284.txt
+  - ref: refs/heads/testing
+    old: f659c5c7de7982018bb961cf1f9960e60f526bdf
+    new: 6a93ea38217706ef8318efba672b960bcd5d0642
+    log: revlist-f659c5c7de79-6a93ea382177.txt
 
---===============6231228024040241258==
+--===============0246016265683334988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1638957016 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1638957029 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1638957011-b231968720a57fabf78f1d05854d6b5f4b03a82a
+nonce 1638957028-3508c3dc77ce7228d156d3528619153b447820ce
 
-4d98bb0d7ec2d0b417df6207b0bafe1868bad9f8 1fe5b01262844be03de98afdd56d1d393df04d7e refs/heads/master
+f659c5c7de7982018bb961cf1f9960e60f526bdf 6a93ea38217706ef8318efba672b960bcd5d0642 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGwf9gTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqXVdB/sEu2gVgm9bT1EdTeA7xO8PNXRAE9kw
-Msc4N7u2mSvQJ8l0nrH1lKoJdXWayWwUPhql1yrwWlvUvYYrgdoLK7ghNHbUf0EQ
-H8POxpjrnRMBUDpyG/Kb2JtKc90d2WfuvQ2LbC9YL8rL+rikSopFd5YVS3N13agv
-SAeMdt4siDrKmkrok2yqVMmTLXHMoUXfDZp/c1w3B5MlTPy8yKKv73KSIeUmnMq4
-sjot7O53YC9qX/2DjhClxIKdt6ndJGI6fduBqmM8LLJxr3397AvywRVhiYeslHDP
-qOYAZYnJVOcUXeEinGhzLbJVnWZ3rAt8z7D+q1Q1LFw+dzRXnOjFjWR1
-=73dl
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGwf+UTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqXVoCACxjZ0zozKTawy6u8Qf4/wfZwuuTSx9
+GtDrlZxnheYQaCALTbGpDVfqU2D4aLFReMKezX/jwEB6Q7Oj78rRSeQHtCw8Kw2L
+qKJlYrnoskXGf7BJ6z1sQgJllcpzZ7/TMKL7Xa/GnoQ21WRJRky0V7FFtlHr5fsR
+usv2p08uybGr1j6sCDQBuY1NWU8HIcINvtiEMrSs8uHNMsY+GY8LybAll1WvgWIW
+4xwTP0R1yH28tL5Ozc2PtScyGhnpp6zqk2szH382zUXKIPOc2sQZFkKYy2eYvjdN
++xDi7g/LRkMzHJVdE3t7XWwZpRMNMchT8gsnj6KhCnWNyel68gT4qyzQ
+=9MxT
 -----END PGP SIGNATURE-----
 
---===============6231228024040241258==
+--===============0246016265683334988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d98bb0d7ec2-1fe5b0126284.txt
+Content-Disposition: attachment; filename=revlist-f659c5c7de79-6a93ea382177.txt
 
-7d5775d49e4a488bc8a07e5abb2b71a4c28aadbb Merge tag 'printk-for-5.16-fixup' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-f86b0aaad741c45aba5a84a27277dd56a96808ba tracing/histogram: Fix UAF in destroy_hist_field()
-4ae275bc6d2fb2b399a8723fc0a0be0929e10e0d Merge tag 'docs-5.16-2' of git://git.lwn.net/linux
-884c6cb3b7030f75c46e55b9e625d2372708c306 ASoC: tegra: Fix wrong value type in ADMAIF
-8a2c2fa0c5331445c801e9241f2bb4e0e2a895a8 ASoC: tegra: Fix wrong value type in I2S
-559d234569a998a4004de1bd1f12da5487fb826e ASoC: tegra: Fix wrong value type in DMIC
-3aa0d5c8bb3f5ef622ec2764823f551a1f630711 ASoC: tegra: Fix wrong value type in DSPK
-42afca1a65661935cdd54d2e0c5d0cc2426db7af ASoC: tegra: Fix wrong value type in SFC
 6762965d0214df474e3a58e1d4d3ab004c5da0ea ASoC: tegra: Fix wrong value type in MVC
 e2b87a18a60c02d0dcd1de801d669587e516cc4d ASoC: tegra: Fix kcontrol put callback in ADMAIF
 f21a9df3f7cb0005947679d7b9237c90574e229a ASoC: tegra: Fix kcontrol put callback in I2S
@@ -1075,5 +1067,13 @@ cdf8df5b42e7d9e2f6e660e672d42edb0514b862 s390/qeth: don't offer .ndo_bridge_* op
 1b9e410f45bf68c068fa3422ca7b65ce4d08e5ed s390/qeth: fine-tune .ndo_select_queue()
 6dc490e80ca33e4e49ed5b81df0ec9bfad6bf1b6 s390/qeth: remove check for packing mode in qeth_check_outbound_queue()
 1fe5b01262844be03de98afdd56d1d393df04d7e Merge branch 's390-net-updates-2021-12-06'
+330c6d3bfa268794bf692165d0f781f1c2d4d83e can: bittiming: replace CAN units with the generic ones from linux/units.h
+d0342ceb78ed86b8ed28afe14d070720667da70f dt-bindings: net: can: add support for Allwinner R40 CAN controller
+2c2fd0e68d9e1832d7661f434ee7ddd77bf1b985 can: sun4i_can: add support for R40 CAN controller
+671f852c1bee9bd7138a5c4ad2c88d379cd0a6cb ARM: dts: sun8i: r40: add node for CAN controller
+369cf4e6ac53f1595ef8602a8a984bce9b895ddb can: hi311x: hi3110_can_probe(): use devm_clk_get_optional() to get the input clock
+3a1ae63a4d218d0d51646380fe406405660b9a5c can: hi311x: hi3110_can_probe(): try to get crystal clock rate from property
+dc64d98aae758b41007f89179f3ec8686ef5136c can: hi311x: hi3110_can_probe(): make use of device property API
+6a93ea38217706ef8318efba672b960bcd5d0642 can: hi311x: hi3110_can_probe(): convert to use dev_err_probe()
 
---===============6231228024040241258==--
+--===============0246016265683334988==--
