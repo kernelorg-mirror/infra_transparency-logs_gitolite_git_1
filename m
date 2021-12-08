@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 08 Dec 2021 16:27:51 -0000
-Message-Id: <163898087176.20462.9903820933740817193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 08 Dec 2021 16:28:21 -0000
+Message-Id: <163898090145.20691.8651213305495063166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/damon/next
-    old: 37f1fac2f96715b651db801949d4df9558fe51b7
-    new: 09daf759a7e52201b970506ce8b1ab0cd083afba
+  - ref: refs/heads/x86/sev
+    old: 75cc9a84c9eb36e436e3fcee5158fe31d1dfd78f
+    new: 20f07a044a76aebaaa0603038857229b5c460d69
     log: |
-         f3e51a7c9d90f467ebbc060a22c687da997c9dff mm/damon/vaddr: Support cache flushing
-         09daf759a7e52201b970506ce8b1ab0cd083afba mm/damon/paddr: Support cache flushing
+         8260b9820f7050461b8969305bbd8cb5654f0c74 x86/sev: Use CC_ATTR attribute to generalize string I/O unroll
+         dbca5e1a04f8b30aea4e2c91e5045ee6e7c3ef43 x86/sev: Rename mem_encrypt.c to mem_encrypt_amd.c
+         20f07a044a76aebaaa0603038857229b5c460d69 x86/sev: Move common memory encryption code to mem_encrypt.c
          
