@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1023762667230954891=="
+Content-Type: multipart/mixed; boundary="===============4758016644007038151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Dec 2021 17:47:47 -0000
-Message-Id: <163898566750.5733.4339340300622277292@gitolite.kernel.org>
+Date: Wed, 08 Dec 2021 17:47:57 -0000
+Message-Id: <163898567724.5823.16894339279413597585@gitolite.kernel.org>
 
---===============1023762667230954891==
+--===============4758016644007038151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 2be6d4d16a0849455a5c22490e3c5983495fed00
     new: b5bd95d17102b6719e3531d627875b9690371383
     log: revlist-2be6d4d16a08-b5bd95d17102.txt
 
---===============1023762667230954891==
+--===============4758016644007038151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ c35e8de704560846dab964a2df2e548818a424d3 net: phy: Add the missing blank line in
 65af674a59490e7a6cd4375658b3dfa18afa7722 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 b5bd95d17102b6719e3531d627875b9690371383 net: fec: only clear interrupt of handling queue in fec_enet_rx_queue()
 
---===============1023762667230954891==--
+--===============4758016644007038151==--
