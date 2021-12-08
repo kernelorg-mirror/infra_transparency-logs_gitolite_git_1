@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Wed, 08 Dec 2021 15:07:26 -0000
-Message-Id: <163897604682.2486.18444122197742509644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+Date: Wed, 08 Dec 2021 15:09:21 -0000
+Message-Id: <163897616113.3120.9056484960703668772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: djbw
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
+user: zx2c4
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: b80892ca022e9eb484771a66eb68e12364695a2a
-    new: de291b5902860d18d6e02000808aeb833ec1feb6
+  - ref: refs/heads/master
+    old: 3c9f3b6997fe8cbb5e7b80ea5d622b5d0e827003
+    new: 743eef2350294de37411d2492d03edf0d913af31
     log: |
-         de291b5902860d18d6e02000808aeb833ec1feb6 iomap: turn the byte variable in iomap_zero_iter into a ssize_t
+         743eef2350294de37411d2492d03edf0d913af31 version: bump
          
