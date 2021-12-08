@@ -1,159 +1,198 @@
-Content-Type: multipart/mixed; boundary="===============8781155623490685300=="
+Content-Type: multipart/mixed; boundary="===============0255747998922685346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 08 Dec 2021 17:10:05 -0000
-Message-Id: <163898340560.15137.17388766385444390114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 08 Dec 2021 17:14:17 -0000
+Message-Id: <163898365738.16416.237319852319911367@gitolite.kernel.org>
 
---===============8781155623490685300==
+--===============0255747998922685346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 1c5526968e270e4efccfa1da21d211a4915cdeda
-    new: 1fe5b01262844be03de98afdd56d1d393df04d7e
-    log: revlist-1c5526968e27-1fe5b0126284.txt
+  - ref: refs/heads/next
+    old: 8cdad7bc9aee8e9403eb7f1ef605b37815892e18
+    new: e37b4e16d002c9987d4a517e9e174d8f67a11b96
+    log: revlist-8cdad7bc9aee-e37b4e16d002.txt
+  - ref: refs/heads/seen
+    old: 355097523a32cd9319f3f1325413e5c9b0e8fe23
+    new: 9ba833325af2cf777726ab59effc28f097ebce10
+    log: revlist-355097523a32-9ba833325af2.txt
 
---===============8781155623490685300==
+--===============0255747998922685346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c5526968e27-1fe5b0126284.txt
+Content-Disposition: attachment; filename=revlist-8cdad7bc9aee-e37b4e16d002.txt
 
-82c434c103408842a87404e873992b7698b6df2b ath11k: set correct NL80211_FEATURE_DYNAMIC_SMPS for WCN6855
-27deb0f1570b0dbf465443857ce10ac6443d141d ath10k: fetch (pre-)calibration data via nvmem subsystem
-df008741dd62bd3bc8733fe568415fb01b3e65c5 wcn36xx: add debug prints for sw_scan start/complete
-f02e1cc2a84693a649d94a7584291d88f31fd5fa wcn36xx: implement flush op to speed up connected scan
-8f1ba8b0ee2679f0b3d22d2a5c1bc70c436fd872 wcn36xx: ensure pairing of init_scan/finish_scan and start_scan/end_scan
-588b45c88ae130fe373a8c50edaf54735c3f4fe3 wcn36xx: Indicate beacon not connection loss on MISSED_BEACON_IND
-22f9ba7fee107903ec9a4f8f150ced196f6a1615 ath9k: use swap() to make code cleaner
-89dcb1da611d9b3ff0728502d58372fdaae9ebff wcn36xx: Fix DMA channel enable/disable cycle
-3652096e5263ad67604b0323f71d133485f410e5 wcn36xx: Release DMA channel descriptor allocations
-ed04ea76e69e7194f7489cebe23a32a68f39218d wcn36xx: Put DXE block into reset before freeing memory
-c9c5608fafe4dae975c9644c7d14c51ad3b0ed73 wcn36xx: populate band before determining rate on RX
-cfdf6b19e750f7de8ae71a26932f63b52e3bf74c wcn36xx: fix RX BD rate mapping for 5GHz legacy rates
-af3d89649bb69bd5be273cf6c001cd19c2604ca2 ath11k: convert ath11k_wmi_pdev_set_ps_mode() to use enum wmi_sta_ps_mode
-b2beffa7d9a67b59b085616a27f1d10b1e80784f ath11k: enable 802.11 power save mode in station mode
-ae80b6033834342601e99f74f6a62ff5092b1cee ar5523: Fix null-ptr-deref with unexpected WDCMSG_TARGET_START reply
-16a2c3d5406f95ef6139de52669c60a39443f5f7 ath11k: Send PPDU_STATS_CFG with proper pdev mask to firmware
-c802b6d7815d7c3f556efea28d0b79ef57ebcfd4 ath11k: Clear auth flag only for actual association in security mode
-85f36923be47b6990215ad444545a6a85133a0c6 ath11k: fix fw crash due to peer get authorized before key install
-4ea03443ecdac6920eb7aa3a9da2cd0b8cc6dfc8 ath11k: fix error routine when fallback of add interface fails
-4c375743c5fe1ef84d1dd7269dd12585957f403e ath11k: avoid unnecessary BH disable lock in STA kickout event
-31aeaf547d7e3b64ba5d5442dabc530bdb9e216e ath11k: fix DMA memory free in CE pipe cleanup
-624e0a3170309eeb5b729f7a43c1ba3234325f02 ath11k: Fix 'unused-but-set-parameter' error
-f187fe8e3bc65cc4d7b0916947e2d6cd65d9cd3a ath11k: fix firmware crash during channel switch
-2c5545bfa29dd5305fa770959890a23ea39b5e69 ath11k: disable unused CE8 interrupts for ipq8074
-6452f0a3d5651bb7edfd9c709e78973aaa4d3bfc ath11k: allocate dst ring descriptors from cacheable memory
-5e76fe03dbf9f9dbc4fd454283b02594226c0718 ath11k: modify dp_rx desc access wrapper calls inline
-a1775e732eb90486519de3813b83a11b7fcee2d0 ath11k: avoid additional access to ath11k_hal_srng_dst_num_free
-c4d12cb37ea2e6c2b70880350d7bf1bbbd825c6c ath11k: avoid active pdev check for each msdu
-db2ecf9f0567a8f1a96f23a392cc5a30eaec4369 ath11k: remove usage quota while processing rx packets
-400588039a17a460292eb974ebba5811b8cbdb91 ath11k: add branch predictors in process_rx
-d0e2523bfa9cb391fe966b0b6948c7e438981361 ath11k: allocate HAL_WBM2SW_RELEASE ring from cacheable memory
-a8508bf7ced2e43f30b46333f09cbc79a1675616 ath11k: remove mod operator in dst ring processing
-cbfbed495d3289d5a0bc7c614cea639008086cfe ath11k: avoid while loop in ring selection of tx completion interrupt
-bcef57ea400cc20a5389fa0e38d61063331558f8 ath11k: add branch predictors in dp_tx path
-be8867cb47652418e488170785bd9ffbadae3f1f ath11k: avoid unnecessary lock contention in tx_completion path
-78406044bdd0cc8987bc082b76867c63ab1c6af8 ath11k: enable IEEE80211_VHT_EXT_NSS_BW_CAPABLE if NSS ratio enabled
-1d795645e1eef97fe5d409e3dd5747a942f00e08 ath11k: remove return for empty tx bitrate in mac_op_sta_statistics
-c8f2d41bbff6794329d681d108a817366aed0ba7 ath11k: fix the value of msecs_to_jiffies in ath11k_debugfs_fw_stats_request
-b4a0f54156ac7720de1750b6ea06657c91c52163 ath11k: move peer delete after vdev stop of station for QCA6390 and WCN6855
-787264893c69ed091a46335dfd0f50dabb457718 ath11k: fix FCS_ERR flag in radio tap header
-9212c1b9e80a869e732769a4fe7f82d392b219be ath11k: send proper txpower and maxregpower values to firmware
-c0b0d2e87d91ce283c8766b4b3c2ec9ac90ebf96 ath11k: Increment pending_mgmt_tx count before tx send invoke
-086c921a354089f209318501038d43c98d3f409f ath11k: Fix ETSI regd with weather radar overlap
-f951380a6022440335f668f85296096ba13071ba ath11k: Disabling credit flow for WMI path
-bd77f6b1d7104cf6451399a7c67d08afecb9a7c7 ath11k: use cache line aligned buffers for dbring
-1ad6e4b00f29d017b196dda7ab96d1cfcbabd7d2 ath11k: Add missing qmi_txn_cancel()
-fb12305aff12e735e599c79514dde5dac40f5a59 ath11k: add trace log support
-273703ebdb01b6c5f1aaf4b98fb57b177609055c ath11k: Fix crash caused by uninitialized TX ring
-fc95d10ac41d75c14a81afcc8722333d8b2cf80f ath11k: add string type to search board data in board-2.bin for WCN6855
-886433a984254c6d2c2074688dc8f48c40b1c070 ath11k: add support for BSS color change
-436a4e88659842a7cf634d7cc088c8f2cc94ebf5 ath11k: clear the keys properly via DISABLE_KEY
-64bc3aa02ae78b1fcb1b850e0eb1f0622002bfaa ath11k: reset RSN/WPA present state for open BSS
-081e2d6476e30399433b509684d5da4d1844e430 ath11k: add hw_param for wakeup_mhi
-5125b9a9c420ee91e2c258ea96a8261a49e7449d ath9k: fix intr_txqs setting
-728e26c3ac89427de181c1e8400d27d7b6c3a8a5 Merge ath-next from git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/ath.git
-02356226692646b52160fbb214fe18e0d2a1c3eb rtw89: fill regd field of limit/limit_ru tables by enum
-542577149794b9c8638f6f2cb90b35b137b44156 rtw89: update rtw89 regulation definition to R58-R31
-ebaae2c2c3bd5a6b15ed4a4f7a8a35b1989e24af rtw89: update tx power limit/limit_ru tables to R54
-08e16498e01b289dc9cfd41043c91a4b84fe6ce9 rtw89: update rtw89_regulatory map to R58-R31
-1646ce8f83b953a675cb99e7b6708d8121b5fecf rtw89: remove unnecessary conditional operators
-43863efeada6eda380bd08537d1e4719341dc50d rtw89: remove unneeded variable
-30101812a09b37bc8aa409a83f603d4c072198f2 rtw89: fix potentially access out of range of RF register array
-5da7075c1126f70578a111b8ea64d93f56bc84dd rtw89: add AXIDMA and TX FIFO dump in mac_mem_dump
-2f1367b564c16a1a4d37140db3bf1f4d9851cac7 rtw88: follow the AP basic rates for tx mgmt frame
-272cda71e857a23690a4571cb48f219f7d40af76 rtw88: add debugfs to force lowest basic rate
-c81edb8dddaa36c4defa26240cc19127f147283f rtw88: add quirk to disable pci caps on HP 250 G7 Notebook PC
-04d80663f67ccef893061b49ec8a42ff7045ae84 mwifiex: Fix skb_over_panic in mwifiex_usb_recv()
-2d1d7091ddac4cbeeac9e62ffcf2d29897334e3e mwifiex: Use a define for firmware version string length
-939b571a3b62b64cf407fa5dbc3941bc87e0ba3b mwifiex: Add quirk to disable deep sleep with certain hardware revision
-deb573f1d7ddd182ef1792c71d62883d0f833f17 mwifiex: Ensure the version string from the firmware is 0-terminated
-84d94e16efa268e4f2887d858cd67ee37b870f25 mwifiex: Ignore BTCOEX events from the 88W8897 firmware
-2cca3465147d650be3de04927a99784b30251ade mei: bus: add client dma interface
-2da4366f9e2c44afedec4acad65a99a3c7da1a35 iwlwifi: mei: add the driver to allow cooperation with CSME
-4ea7da5fad43f47eb2adab032f989a9fa6678a9c iwlwifi: mei: add debugfs hooks
-6d19a5eba5cda26310f83f5ea87eef54e68afc34 iwlwifi: integrate with iwlmei
-bfcfdb59b6699053541d3fda60ef021f4708caa5 iwlwifi: mvm: add vendor commands needed for iwlmei
-7ce1f2157e14170413ba5ecb462153131704754c iwlwifi: mvm: read the rfkill state and feed it to iwlmei
-d1e69b5492d1826356e516685977b41d60dbee26 wilc1000: remove '-Wunused-but-set-variable' warning in chip_wakeup()
-7a6cfe28ae3ef6a78774fd1e21e3b76c90937112 brcmfmac: Configure keep-alive packet on suspend
-b07e3c6ebc0c20c772c0f54042e430acec2945c3 rsi: Fix use-after-free in rsi_rx_done_handler()
-f1cb3476e48b60c450ec3a1d7da0805bffc6e43a rsi: Fix out-of-bounds read in rsi_read_pkt()
-fa4408b0799a7d52ec0b28f97ab0a93401e8e83f wlcore: no need to initialise statics to false
-5fd32ae0433a7af37eac27ace3aabae8cb7c2fc4 libertas: Use struct_group() for memcpy() region
-642a57475b30213ebac1f7061eaf4d0415d9c5a1 libertas_tf: Use struct_group() for memcpy() region
-601d2293e27f6fb37b30b836d724333a4ed79fe9 intersil: Use struct_group() for memcpy() region
-f01b3774309fc60f8bf27354014459b63e667b32 mwl8k: Use named struct for memcpy() region
-69831173fcbbfebb7aa2d76523deaf0b87b8eddd rtlwifi: rtl8192de: Style clean-ups
-fe6db7eda9306d665f7b8fc3decdb556ec10fb85 iwlwifi: mei: fix linking when tracing is not enabled
-c0e5e11af12b76d0dbed700c1088c6827cdcf56c vrf: use dev_replace_track() for better tracking
-2c9e77659a0c8d7ce96af3e420914ace1e3f7d21 mptcp: add TCP_INQ cmsg support
-5cbd886ce2a9f4627ff9cdab1bc97a401a24b309 selftests: mptcp: add TCP_INQ support
-644807e3e4629b3fbb99032401f57a0f7e06f506 mptcp: add SIOCINQ, OUTQ and OUTQNSD ioctls
-b51880568f20250cc62057f4b747c8212ac3e06c selftests: mptcp: add inq test case
-602837e8479d20d49559b4b97b79d34c0efe7ecb mptcp: allow changing the "backup" bit by endpoint id
-3b1e21eb60e8d4aa42474fed606a8ea8767b0120 mptcp: getsockopt: add support for IP_TOS
-edb596e80cee8f9cab4c37907c8004456e5b3581 selftests: mptcp: check IP_TOS in/out are the same
-6fadaa565882cd7afc501de5921db6f5e45c784b tcp: expose __tcp_sock_set_cork and __tcp_sock_set_nodelay
-8b38217a2a98df6240c0cddb6f18d04923e24277 mptcp: expose mptcp_check_and_set_pending
-4f6e14bd19d6de7831f31cfb3210f2ea93eeb038 mptcp: support TCP_CORK and TCP_NODELAY
-59d58d93af94d7b546f12438b4a3d781b7190095 Merge branch 'mptcp-new-features-for-mptcp-sockets-and-netlink-pm'
-08f0b22d731fa86957749c649d6ef6ebc07e8ad2 net: eql: add net device refcount tracker
-19c9ebf6ed70856385296a65e78c1699081b152f vlan: add net device refcount tracker
-b2dcdc7f731dfd8957ee2ca8be6c5d83bd0d95e3 net: bridge: add net device refcount tracker
-f12bf6f3f942b37de65eeea8be25903587fec930 net: watchdog: add net device refcount tracker
-4fc003fe0313276f0d4ea996ab9b4acd9a5a5e93 net: switchdev: add net device refcount tracker
-e44b14ebae1025cff3bef2d78a2e2f6869cefca0 inet: add net device refcount tracker to struct fib_nh_common
-66ce07f7802b68616a008d390f2e6783d68fb79f ax25: add net device refcount tracker
-615d069dcf1207462ce30c05a2f47d461be8f6c8 llc: add net device refcount tracker
-035f1f2b96ae81a1490674b8cc5ac2b59fb2c808 pktgen add net device refcount tracker
-b60645248af3b2485c7695f04e5ecfbc129eb1f7 net/smc: add net device tracker to struct smc_pnetentry
-e4b8954074f6d0db01c8c97d338a67f9389c042f netlink: add net device refcount tracker to struct ethnl_req_info
-e7c8ab8419d7a06bad7cb0b0289b5426029ac221 openvswitch: add net device refcount tracker to struct vport
-ada066b2e02cad7934e86e51985078d707c64250 net: sched: act_mirred: add net device refcount tracker
-adc76fc97bd8bd7236c57569650bbe6f9c2be024 Merge branch 'net-second-round-of-netdevice-refcount-tracking'
-150791442e7cef44c4328e04364eb44810157234 Merge tag 'wireless-drivers-next-2021-12-07' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
-3c5290a2dcdbf078c46681445fd5527c1377875f net: hns3: Fix spelling mistake "faile" -> "failed"
-c99104840a95db04e5d71b0810d3666aaa5b2798 net: dsa: ocelot: remove unnecessary pci_bar variables
-49af6a7620c53b779572abfbfd7778e113154330 net: dsa: ocelot: felix: Remove requirement for PCS in felix devices
-242bd0c10bbdcea4c8bfd1f40973d145dd4ae120 net: dsa: ocelot: felix: add interface for custom regmaps
-32ecd22ba60bbb724c6631d763ce77e5139bd341 net: mscc: ocelot: split register definitions to a separate file
-d418f67e987fe8c8b2d34caf98ac0fb9f08c5dd5 Merge branch 'prepare-ocelot-for-external-interface-control'
-e44aecc709ad3945e152c120693127d468e6487c net: dsa: felix: use kmemdup() to replace kmalloc + memcpy
-c0e084e342a8046d06c4172b6ccb4db5d7633156 hv_sock: Extract hvs_send_data() helper that takes only header
-5e9756a66fb5741f46b9c1d9ad50e4e57c8d6816 s390/qeth: simplify qeth_receive_skb()
-2dbc7a1dde9e853b2a346fd811fec8cc45bce911 s390/qeth: split up L2 netdev_ops
-cdf8df5b42e7d9e2f6e660e672d42edb0514b862 s390/qeth: don't offer .ndo_bridge_* ops for OSA devices
-1b9e410f45bf68c068fa3422ca7b65ce4d08e5ed s390/qeth: fine-tune .ndo_select_queue()
-6dc490e80ca33e4e49ed5b81df0ec9bfad6bf1b6 s390/qeth: remove check for packing mode in qeth_check_outbound_queue()
-1fe5b01262844be03de98afdd56d1d393df04d7e Merge branch 's390-net-updates-2021-12-06'
+3c6eb4ec50d9a4a9017fb8c1f220d12dceb206b1 pretty.c: rework describe options parsing for better extensibility
+1d517ceab98fd5c3c1a8fb6ef575b44c31ea7a9e pretty: add tag option to %(describe)
+eccd97d0b02a87db0b0e828dd4f0b441c5462a9c pretty: add abbrev option to %(describe)
+d34182b9e37fc72e04e40e834775a1c29e80c970 receive-pack: ignore SIGPIPE while reporting status to client
+49da4040701f6d3dd480c6d007109c9a2fc2cb7a test-lib: show missing prereq summary
+5024ade1b1445107091c429e0da97f45e06bb7c9 test-lib: introduce required prereq for test runs
+4a6e4b9602630d50eb9d630c721bb01df97049f9 CI: remove Travis CI support
+df7375d77287f3665867b99ae18fc3cbe3289a67 CI: use shorter names that fit in UX tooltips
+c08bb260105fc7307be65f30e65c0f7305f0e3ce CI: rename the "Linux32" job to lower-case "linux32"
+707d2f2fe8601c1f425be1233a72bac872c0b4b9 CI: use "$runs_on_pool", not "$jobname" to select packages & config
+25715419bf4d105d755e0f6d2228e1ac0bd06b88 CI: don't run "make test" twice in one job
+33c997a411b14b0ac54452d79c6951cbf109475c worktree: stop being overly intimate with run_command() internals
+c8a4cd55d915a51e666863e576bb1cc2adbecabe upload-archive: use regular "struct child_process" pattern
+6def0ff8785eb12ccc24ceebea04355e13ae24b6 run-command API users: use strvec_pushv(), not argv assignment
+87ee87dd6bb633cd5171e244fb69cd4b66d294aa run-command tests: use strvec_pushv(), not argv assignment
+2b7098936c9e91d527aa53b8d4af0b25d7e912b4 run-command API users: use strvec_pushl(), not argv construction
+7f14609e296d5737f34607d4c3e40bb1b063ef04 run-command API users: use strvec_push(), not argv construction
+d3b2159712019a06f1f495d3e42bd6aa6e76e848 run-command API: remove "argv" member, always use "args"
+26a15355d60a0a5be08250512c05e1447036dce3 difftool: use "env_array" to simplify memory management
+c7c4bdeccf3e737e6e674cd9f0828922e629ab06 run-command API: remove "env" member, always use "env_array"
+b8de3d6e0221ca1d6c65bbce3cacc6a2206f89f5 test-lib.sh: set GIT_TRACE2_EVENT_NESTING
+8c4cbad6a3a1dcfd881dce810111888d9cbe08da t/t*: remove custom GIT_TRACE2_EVENT_NESTING
+911e9e88abeceb23fd6780d2cb6cf623957290a4 t1404: mark directory/file conflict tests with REFFILES
+4496526f80b3e4952036550b279eff8d1babd60a xdiff: implement a zealous diff3, or "zdiff3"
+ddfc44a898a58311392a5329687a1813d6b94779 update documentation for new zdiff3 conflictStyle
+a6714088e0c03cf9e5820d54d4f9f3aece8af2e1 test-lib: make BAIL_OUT() work in tests and prereq
+f2463490c4ee3beded70bf69e49fb23552796ddc show-branch: show reflog message
+21f0e8506119dc18c0b2396b5854d850cba7b00d test-ref-store: don't add newline to reflog message
+6887f69faa11141c20be29d2fd51bb33e15e227a t1405: check for_each_reflog_ent_reverse() more thoroughly
+3474b602a5387df459a25c3e35747c11f1b08da7 test-ref-store: tweaks to for-each-reflog-ent format
+65279256f3d3576ff16332d7f0ee124f593cb476 refs/debug: trim trailing LF from reflog message
+e258eb4800e30da2adbdb2df8d8d8c19d9b443e4 CodingGuidelines: document which output goes to stdout vs. stderr
+0bf0de6cc70361b7847264050d03b91f6d423813 packfile: make `close_pack_revindex()` static
+da8fb6be5594b4a06ef2cc2ff7a5363a6fac2b5a worktree: send "chatty" messages to stderr
+b50252484f7e106e19e4feeb714ae88336295e5e git-worktree.txt: add missing `-v` to synopsis for `worktree list`
+434e0636db102cd89292ea28e8e947fa6e790b23 sequencer: do not export GIT_DIR and GIT_WORK_TREE for 'exec'
+9f3547837e7565f37f587a1626e9c4af79aff275 tests: set GIT_TEST_DEFAULT_INITIAL_BRANCH_NAME only when needed
+1b38efc7a03d149b030154116172c25effde8f50 t1092: add deeper changes during a checkout
+8c5de0d2657237412030407abffd033186384b96 unpack-trees: use traverse_path instead of name
+2c68f577fc8a400f4d354f4700e4809c1bfd6470 cbtree: remove broken and unused cb_unlink
+fc8a8e00060f658127b1d1b0bcdb1272231bab18 Merge branch 'fs/test-prereq' into next
+ebf31cbaadcf085adef986d3b6d69067486b6102 Merge branch 'ds/trace2-regions-in-tests' into next
+baa3b245938392e7877514828d69798b5f7fca1c Merge branch 'en/zdiff3' into next
+074438a4baad6597e6f565cb776f9499e291941f Merge branch 'hn/t1404-df-limitation-is-ref-files-only' into next
+5c0bedf853b43de100b98649ba461435c7020e2d Merge branch 'ab/run-command' into next
+e7862a34c83775d87937d0cd524b3242eaca1b21 Merge branch 'es/pretty-describe-more' into next
+91039a781e16b6d0e7d20f8550b0a89ac17419f4 Merge branch 'rj/receive-pack-avoid-sigpipe-during-status-reporting' into next
+84d4e4b211f3b761eaef824926f5b4f8a2aabec9 Merge branch 'hn/reflog-tests' into next
+1d855a6b335cec2e80db71e29861345264729fd0 Merge branch 'ab/ci-updates' into next
+84ba7de37c319ac1bbd5d898b51923eaa8626df0 Merge branch 'es/worktree-chatty-to-stderr' into next
+0ab3e72b4f862c3b4d33c779202f172284a0e01b Merge branch 'js/test-initial-branch-override-cleanup' into next
+d6487c12569bba82a3f4e375176ddc2aaa3c35cc Merge branch 'es/doc-stdout-vs-stderr' into next
+912c270b70b4c40ab1a015cd490e7cb1bd2ec843 Merge branch 'tb/pack-revindex-on-disk-cleanup' into next
+44f2663314987a74a760e4bcc6d05bf54e8810b4 Merge branch 'en/rebase-x-wo-git-dir-env' into next
+7b7f74216aeb289ae3cc3426a99c6b27257cf21b Merge branch 'ds/sparse-deep-pattern-checkout-fix' into next
+e37b4e16d002c9987d4a517e9e174d8f67a11b96 Merge branch 'ew/cbtree-remove-unused-and-broken-cb-unlink' into next
 
---===============8781155623490685300==--
+--===============0255747998922685346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-355097523a32-9ba833325af2.txt
+
+b6f4314f94dafd064d18d6261cbb2a0e68005283 doc: git-format-patch: describe the option --always
+c37f6477fa2b0259080798d41171f88c7902da8d am: support --empty=<option> to handle empty patches
+9f6e67a383f5a841fb9b99180df0a0907283f3a4 am: support --allow-empty to record specific empty patches
+2ea42cabe428f0c3f65d9bb2aa2d7c99e5bff183 Merge branch 'cw/protocol-v2-doc-fix' into jch
+f9aca14ef1ba5ff9f74077fa779149093b4d3c15 Merge branch 'vd/sparse-sparsity-fix-on-read' into jch
+55bae04265718ef0300ebca4ba7361d484a690d1 Merge branch 'gc/remote-with-fewer-static-global-variables' into jch
+647d039b87966ed9b4c97d3774cd7da0553b4d2c Merge branch 'ja/doc-cleanup' into jch
+c62c9bef505dc06a9a63c6215d68666d9b8548f0 Merge branch 'if/redact-packfile-uri' into jch
+8ca859bf830826f0616b86dd1a416800b07c811c Merge branch 'jc/fix-first-object-walk' into jch
+c48658d58b50363a689cf6e0e3a2f39f1f0c55c9 Merge branch 'js/ci-no-directional-formatting' into jch
+98bfe1e7ff75c60862ee1e9b29817ca0711834af Merge branch 'jk/strbuf-addftime-seconds-since-epoch' into jch
+71483226a3d5315417187bc6d0f46e79bda3eb44 Merge branch 'tw/var-default-branch' into jch
+d756aab339870e5b39939d917fcecd898907b67a Merge branch 'ab/generate-command-list' into jch
+82a649ea75b55785da4811c26cf91b8c46d4a453 Merge branch 'jk/test-bitmap-fix' into jch
+a5c1cb1a767936871a07d9686e935724ce2f3abb Merge branch 'jk/jump-merge-with-pathspec' into jch
+01bb15d81487bb5e30967738b91a3b8e995d6512 Merge branch 'jt/pack-header-lshift-overflow' into jch
+a6bc0968a373338208f22623036a0cf797268fd3 Merge branch 'pw/xdiff-classify-record-in-histogram' into jch
+3487910d4fe1aac174a89d6c44d7ce96ad1d8ed5 Merge branch 'js/trace2-avoid-recursive-errors' into jch
+5992c69d30b2518b5faffc5aa614038d7af91a81 Merge branch 'jk/t5319-midx-corruption-test-deflake' into jch
+d5904e3aa1c0f5fe60ef11c83739bcce30372fe1 Merge branch 'ab/checkout-branch-info-leakfix' into jch
+0184b5afa5263f5eb54ecf3b8d3162701a9dc0de Merge branch 'ah/advice-pull-has-no-preference-between-rebase-and-merge' into jch
+1b7d091e69be7a31c967df147cc2c8821f31bd41 Merge branch 'rs/mergesort' into jch
+901cd335b20e7937bb04ced82eafaec0356ec4d1 Merge branch 'po/size-t-for-vs' into jch
+5b8593ce34d5469b82868af56071a16a92ca8fbe Merge branch 'tl/midx-docfix' into jch
+55ef6d479d157643687a6b326d79d6c6f9695435 Merge branch 'vd/sparse-reset' into jch
+07528960afcce4aaf59420d372f3a9814e6ef942 Merge branch 'hk/ci-checkwhitespace-commentfix' into jch
+89cb0f0543eaa00ccb06144fd4e6cf02312e075b Merge branch 'jk/fetch-pack-avoid-sigpipe-to-index-pack' into jch
+4b2d37ed4decea7977a48e2defa2a74a3265d009 Merge branch 'jk/refs-g11-workaround' into jch
+cc62808edc4e8052310f88fcdb34ccf2f79e5544 Merge branch 'jk/t7006-sigpipe-tests-fix' into jch
+d0344e4de14b8cd02d5b10006266b6e740c91061 Merge branch 'jt/midx-doc-fix' into jch
+379999899c36c5cc1cf40111222a4bfb3e2d00f1 Merge branch 'hn/create-reflog-simplify' into jch
+4e5be86dfbbd594a58dbae2028732754058b1a16 Merge branch 'bc/require-c99' into jch
+11e63f8a34a9a77e3187ba86f6d28505163111ba Merge branch 'hn/reftable' into jch
+7826ea1ae8a0f4e9d39890aca3db067331e3fecd Merge branch 'ab/mark-leak-free-tests-even-more' into jch
+89758e755ca24228346420ab0ed7dde66787bcb1 Merge branch 'jc/c99-var-decl-in-for-loop' into jch
+6e8800aa031951c622a11c49f6abd3e2a4b8d234 Merge branch 'mp/absorb-submodule-git-dir-upon-deinit' into jch
+a0bc2259a98d475e34d4d4c29a75c057a78b7c58 Merge branch 'em/missing-pager' into jch
+3560d7fa8042b0d2de3c6cdcc59c66311aa5505b Merge branch 'yn/complete-date-format-options' into jch
+455d53d28c78a29fa42aafdc2364dd837f9a3963 Merge branch 'cb/mingw-gmtime-r' into jch
+0c55811bc9647febb89af574658ce902e9ff99c3 Merge branch 'cb/add-p-single-key-fix' into jch
+8953df506a08d7e6baf5895b9868958e671a5478 Merge branch 'en/rebase-x-fix' into jch
+812602a4075633121d1afc84be73ce2009b5c50c Merge branch 'fs/test-prereq' into jch
+4e775861cef1de090ed925397fc51b93277bcfb8 Merge branch 'ds/trace2-regions-in-tests' into jch
+a2b0939677931affb216af821d89b67f08c0a2d0 Merge branch 'en/zdiff3' into jch
+36da97fba1060d009634850769090b114b1ea780 Merge branch 'hn/t1404-df-limitation-is-ref-files-only' into jch
+284cc23f4502e4bfc376d2cba5c31a9d6f6647a5 Merge branch 'ab/run-command' into jch
+c136e944c57181bbcc57e5966cff6df286cc3e03 Merge branch 'es/pretty-describe-more' into jch
+8cf95b4c1957a7aea30f6b6143064800670f1219 Merge branch 'rj/receive-pack-avoid-sigpipe-during-status-reporting' into jch
+46959ccc65da968cbc094be3892b3e30ed9396f6 Merge branch 'hn/reflog-tests' into jch
+38d98c74cf015d421d4a502f64ba28573bc97e31 Merge branch 'ab/ci-updates' into jch
+358b7ebf3dec1608f45686859d1c39aee47452c8 Merge branch 'es/worktree-chatty-to-stderr' into jch
+6ce395293631aa944db057903b2a041c55b73e4b Merge branch 'js/test-initial-branch-override-cleanup' into jch
+caec167f1871930b5f935798d05c7cff91c275e9 Merge branch 'es/doc-stdout-vs-stderr' into jch
+7895cdeeaf8b9e31eb3576a378027be5790d40c1 Merge branch 'tb/pack-revindex-on-disk-cleanup' into jch
+06fcb2a652502adf5d299d90b254a73178285df3 Merge branch 'en/rebase-x-wo-git-dir-env' into jch
+09d3d9c87319be1870008ef5f72dc5205a5eddee Merge branch 'ds/sparse-deep-pattern-checkout-fix' into jch
+56466129dec0d43d698a08b24b47dc88c997e584 Merge branch 'ew/cbtree-remove-unused-and-broken-cb-unlink' into jch
+b708190153a22944a71e5e0e3b76c7f6debf74ec ### match next
+e00d0a97019fc49f8ceed1552aed55f861628258 Merge branch 'ew/test-wo-fsync' into jch
+e95ae9a2664582a47133e79d41fb5e8b74ff8e6e Merge branch 'jc/reflog-iterator-callback-doc' into jch
+7a2e17b21d32a6222e44a8b2470c60ef23a8d4c3 Merge branch 'jk/log-decorate-opts-with-implicit-decorate' into jch
+a6c2a26a98c392131df5f0a83244b35a3ea0abfc Merge branch 're/color-default-reset' into jch
+8c0febc27ee36b4178bccdc436ed9551db431353 Merge branch 'ab/parse-options-cleanup' into jch
+39d7f640174d34d52d9e58e5287e5fec527fc7ad Merge branch 'hn/allow-bogus-oid-in-ref-tests' into jch
+e3afdd462351fe6a19721130d7ceec1ef4976515 Merge branch 'jc/grep-patterntype-default-doc' into jch
+f46db82e764f792d0a1d300d73ac37a64500269f Merge branch 'fs/ssh-signing-key-lifetime' into jch
+6f7352fb8712a197b7ef285f763e3034e5551c12 Merge branch 'fs/ssh-signing-other-keytypes' into jch
+570800f4092ff9c430425613819a0059f5a77b6f Merge branch 'ak/protect-any-current-branch' into jch
+b2b0d737bc18a5f3c40618d40906d648d3c4f03a Merge branch 'en/name-rev-shorter-output' into jch
+f75710e9fa58511a074328dcc926c3e1ada7044f Merge branch 'ab/die-with-bug' into jch
+78d74f788eaf7a3c0945f78f91f5e420f83967b3 Merge branch 'ab/common-main-cleanup' into jch
+f42d42f132dc968d52fbb531e89eedc9e830b339 Merge branch 'ab/fetch-set-upstream-while-detached' into jch
+83f9bb2c6635ccbdc1246eb0a068c3a59d2c5914 Merge branch 'ld/sparse-diff-blame' into jch
+bab3637adaaa2a179304bb526cbf467b01f2467b Merge branch 'js/scalar' into jch
+ae484d356224cde3574a43e870bf0f5346312333 Merge branch 'js/compat-util-msvc-flex-array' into jch
+f8dc6ad3fdfea0c151dc1bd90e1f231851b67490 Merge branch 'ja/i18n-similar-messages' into seen
+a41fd93aa91ada839726e9e57502e6f40de07f0f Merge branch 'pw/diff-color-moved-fix' into seen
+a9ef42d5b659d81d970fbfd10bf7ed57ea884d76 Merge branch 'ns/tmp-objdir' into seen
+a5fee7ffcfd13587e58078ce40f65e9fdcb1c89c Merge branch 'jc/doc-submitting-patches-choice-of-base' into seen
+2786d9b2617c2899cea0f1c7fc81fa9cb801e4fc Merge branch 'ds/fetch-pull-with-sparse-index' into seen
+05aa2e0c317f80a9c40587e498456c2d98e6ed31 Merge branch 'en/keep-cwd' into seen
+e6fdac1bcdccbe0ab73da271d83337d0241f6e7b Merge branch 'tb/cruft-packs' into seen
+a3605c26b6fbd7d4fbe3944303260c9e393ce868 Merge branch 'jt/conditional-config-on-remote-url' into seen
+f63589429e618d77dae07994ee8e1aec650ed6f0 Merge branch 'ab/cat-file' into seen
+fbd46f8ad6679298dc7715acc8843fac92be402a Merge branch 'js/use-builtin-add-i' into seen
+16a9c12fe0068cef59f15b5ca2ce821fd74e5035 Merge branch 'jl/subtree-check-parents-argument-passing-fix' into seen
+b9dbef889fe0655352df5ca321c993b21b9f6cbf Merge branch 'cb/save-term-across-editor-invocation' into seen
+eed7b46693c2dd4eb48cd0db242d2078d05984b6 Merge branch 'tl/ls-tree-oid-only' into seen
+a3bb8300925f6f1d8323434a77dad7fb864762f7 Merge branch 'ab/only-single-progress-at-once' into seen
+5c055b5addade917c7ceb97f512beb79c2b7d264 Merge branch 'ms/customizable-ident-expansion' into seen
+2722659c2f75177abb6b6f539be1f4e7409875cd Merge branch 'es/superproject-aware-submodules' into seen
+420f33f18eb8048b6bcdb4ff9b5b0f9946b3e4de Merge branch 'pw/fix-some-issues-in-reset-head' into seen
+c6f8f02ce39518bd5dc4f3176861f72a3bc1385a Merge branch 'ab/config-based-hooks-2' into seen
+14d43de4b3093d4707439060bbbd17b072190e76 Merge branch 'jh/builtin-fsmonitor-part2' into seen
+876ad77b7c4f46c89e8d6cee6fa2963661e63498 Merge branch 'ab/make-dependency' into seen
+01c0ab18bd49e61552591fef34f4c0e6aecf449f Merge branch 'ab/ambiguous-object-name' into seen
+e90ed52bf597d5464f1fe0fafa0d8a1949193765 Merge branch 'xw/am-empty' into seen
+f1d041647cbd8c7be5464d5a8cee5259077f75f7 Merge branch 'ab/grep-patterntype' into seen
+e8fbd2852cffb2972985bb61b16cb20834429c8a Merge branch 'ab/usage-die-message' into seen
+cc8b4dfcd48c8cd228021e3f444814281f97bb20 Merge branch 'ns/batched-fsync' into seen
+9ba833325af2cf777726ab59effc28f097ebce10 Merge branch 'ns/remerge-diff' into seen
+
+--===============0255747998922685346==--
