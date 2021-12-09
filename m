@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6243909355186718203=="
+Content-Type: multipart/mixed; boundary="===============0041105600010392027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 09 Dec 2021 13:46:32 -0000
-Message-Id: <163905759296.18185.16443001213647242810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 09 Dec 2021 13:46:39 -0000
+Message-Id: <163905759927.18275.8346840234902153520@gitolite.kernel.org>
 
---===============6243909355186718203==
+--===============0041105600010392027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 62df22396bea321435153cdba37585ad8ff9c567
     new: befe304536eeef71f8529ff877444ae2b72a37db
     log: |
@@ -24,28 +24,28 @@ changes:
          befe304536eeef71f8529ff877444ae2b72a37db ASoC: test-component: fix null pointer dereference.
          
 
---===============6243909355186718203==
+--===============0041105600010392027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1639057591 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1639057590-74b8b36de4bacfd62df01365886c8399b19d6a44
+pusher C3F436CA30F5D8EB 1639057597 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1639057597-4a97d58d4ae90e030c3c178a52fda4f4f27b30b9
 
-62df22396bea321435153cdba37585ad8ff9c567 befe304536eeef71f8529ff877444ae2b72a37db refs/heads/for-5.17
+62df22396bea321435153cdba37585ad8ff9c567 befe304536eeef71f8529ff877444ae2b72a37db refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGyCLcACgkQJNaLcl1U
-h9CjsQf+Ktlf6B/bXVqNEE+tJHE9HG8kB1iPZ1P3nd86/Gea5RRzR0MM4HzHFA/R
-ytPTD1/lAvQDGMFm4VFrGop33VN7Np610xYxSF8SNm0OjiAqJEC0qcySaDo6WtKl
-zM9K4kBA4ORxou2/tVpQXcK8AtjFCZH0WH/FA9y2TSxNHLmzgytvbIgHLC8Ch/Ei
-zBx+DVQMWCkjgEJgP12UDSLbmWXH0loHl3rlkrd+UYPksNlucDwE+DHKf5bie5OR
-aLPUI9Y/F68OxKnbUQPUOxT7wCXGjctOg3C5SiV1P/SsWzeuVJXaOeLzoGXNmuLq
-MAMj4hWdObDbtkO+8jKRGJ3AHvqblA==
-=eF31
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmGyCL0ACgkQJNaLcl1U
+h9DM2Qf9GBhTkt7TrTxNlgdsmmFvLkSUMud5q8nVgvlP6JTISrZSYWnaCGnHdbrC
+8QhZ9YPxUwnOK27FZLxw4KyXTFwXy8VkSR0/0diAwcpHVe/+7y7m5HmKEwVjx3jD
+S9amy8BYSUIkrk0VPmV7jshQelBh87mFB04MYqEqplzxUINGTAS0+GDQKjMWbiE5
+tUinl9ATt2Se9Vt69RsUPfSzadF0E+36ZNfig+N78zH/jn0859dR7gP4K6kAI2kH
++sH8HAvTB3xazvHzhrHYdoqdFJmEqeTw89Gu5iUzQcrY3qI3RwejH9HzxEDkKtwH
+fFkidWkevk65QESdsDc4nEkR3nZ9FA==
+=jPjy
 -----END PGP SIGNATURE-----
 
---===============6243909355186718203==--
+--===============0041105600010392027==--
