@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 09 Dec 2021 01:02:52 -0000
-Message-Id: <163901177253.15235.14609775414267535565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 09 Dec 2021 01:06:21 -0000
+Message-Id: <163901198131.17813.3276157640264174636@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/aio
-    old: 2e9cd5c57265fae45ee7e69f51be6b451b281150
-    new: 8822531f3be93503dbdf7e2b8c1640df2ea23221
+  - ref: refs/heads/master
+    old: b5b6b6baf2bfa738a9a1220f33684c34e87cc77f
+    new: fd31cb0c6a34499364259fc902a48a016e3760cf
     log: |
-         5b13453cfb3512c9559d2760c7956bd3de4b0453 wait: add wake_up_pollfree()
-         971311bb24425c3fa2b79a1f2fa6df6f59f9ad3c binder: use wake_up_pollfree()
-         abea9d7fbc0e7418b722eadb58db928d047a347e signalfd: use wake_up_pollfree()
-         f769fd45fd38c7599aa21fd89c50734653750589 aio: keep poll requests on waitqueue until completed
-         8822531f3be93503dbdf7e2b8c1640df2ea23221 aio: fix use-after-free due to missing POLLFREE handling
+         b43c2793f5e9910862e8fe07846b74e45b104501 netfilter: nfnetlink_queue: silence bogus compiler warning
+         d43b75fbc23f0ac1ef9c14a5a166d3ccb761a451 vrf: don't run conntrack on vrf with !dflt qdisc
+         b7e945e228d7df1b1473ef6fd2cdec67433065fb nft_set_pipapo: Fix bucket load in AVX2 lookup routine for six 8-bit groups
+         0de53b0ffb5b22b52c1e0bd4d9e18cbbce5801d0 selftests: netfilter: Add correctness test for mac,net set type
+         962e5a40358787105f126ab1dc01604da3d169e9 netfilter: nft_exthdr: break evaluation if setting TCP option fails
+         d46cea0e6933da93c5373a46e3dc7e5d0e56bedb selftests: netfilter: switch zone stress to socat
+         802a7dc5cf1bef06f7b290ce76d478138408d6b1 netfilter: conntrack: annotate data-races around ct->timeout
+         fd31cb0c6a34499364259fc902a48a016e3760cf Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
          
