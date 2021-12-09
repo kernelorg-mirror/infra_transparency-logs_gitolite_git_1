@@ -1,49 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============6138704420688114090=="
+Content-Type: multipart/mixed; boundary="===============2695187222758610793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 09 Dec 2021 20:07:48 -0000
-Message-Id: <163908046854.2013.8772076708037667761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 09 Dec 2021 20:07:56 -0000
+Message-Id: <163908047693.2111.366870675302825169@gitolite.kernel.org>
 
---===============6138704420688114090==
+--===============2695187222758610793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 3851deadf6de976fe0d2f72ca1084b47a044c2c7
-    new: d6fd17a192e202c7b7869c325153352a02d3db08
-    log: |
-         dfa9d012a08db3527a3d5474a779be68f4fc27a1 RDMA/core: Modify rdma_query_gid() to return accurate error codes
-         c60008dcd79ebab7d4d886045bc2dd8fa0564f7b RDMA/core: Let ib_find_gid() continue search even after empty entry
-         8507f97261618c415eb504b57098243a974719af RDMA/cma: Let cma_resolve_ib_dev() continue search even after empty entry
-         74b777fa2051a6e4fff2289ac9c1cf6d2a263429 RDMA/mlx5: Release transport domain if loopback enable failed
-         97536b167e014846241015fbebeb9e4bd9691fe6 devlink: Don't throw an error if flash notification sent before devlink visible
-         f6dc316df6e39b98e95e7b17c78b3e031484f9ae Revert "RDMA/mlx5: Release transport domain if loopback enable failed"
-         b98dfeb51e6fa5d818265110d7a7fc1f1d86249e RDMA/mlx5: Don't remove cache MRs when a delay is needed
-         d6fd17a192e202c7b7869c325153352a02d3db08 RDMA/mlx5: Add a missing update of cache->last_add
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 72c5e433e83db4302beabc6db16fbbb5cb2972f0
-    new: af3f7baf05686ca34ed11712dc859d95c7a82b5d
-    log: revlist-72c5e433e83d-af3f7baf0568.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 1790f1f39cd32f5016fcd1f55409a23bc6abf121
-    new: 206ad761462b1a8e1d894128cfc6ed3c19ed1676
+  - ref: refs/heads/queue-next
+    old: e95f87f80da02c09d1f36b39c0d0b0801794197a
+    new: 82024c7f4ac576f3e7e4b4dd4b6120c199766699
+    log: revlist-e95f87f80da0-82024c7f4ac5.txt
+  - ref: refs/heads/queue-rc
+    old: 77976cdd4e13f597ae169432f2676dfd2521e033
+    new: d9a3b5eed72c7aea08ed061bb3988587f22ce97b
     log: |
          206ad761462b1a8e1d894128cfc6ed3c19ed1676 Merge branch 'master' into testing/rdma-rc
+         d9a3b5eed72c7aea08ed061bb3988587f22ce97b Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============6138704420688114090==
+--===============2695187222758610793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72c5e433e83d-af3f7baf0568.txt
+Content-Disposition: attachment; filename=revlist-e95f87f80da0-82024c7f4ac5.txt
 
 330c6d3bfa268794bf692165d0f781f1c2d4d83e can: bittiming: replace CAN units with the generic ones from linux/units.h
 d0342ceb78ed86b8ed28afe14d070720667da70f dt-bindings: net: can: add support for Allwinner R40 CAN controller
@@ -122,5 +110,6 @@ d6fd17a192e202c7b7869c325153352a02d3db08 RDMA/mlx5: Add a missing update of cach
 d4e6521324202b4ea5c7539b4534f44db432b30d Merge remote-tracking branch 'mlxsw/combined_queue' into testing/rdma-next
 eb741d4a51dd358e40c5fe0aaf78e109aa2cb0a6 Merge branch 'rdma-next' into testing/rdma-next
 af3f7baf05686ca34ed11712dc859d95c7a82b5d Merge branch 'devlink' into testing/rdma-next
+82024c7f4ac576f3e7e4b4dd4b6120c199766699 Merge branch 'testing/rdma-next' into queue-next
 
---===============6138704420688114090==--
+--===============2695187222758610793==--
