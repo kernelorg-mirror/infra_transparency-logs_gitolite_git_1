@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Dec 2021 17:17:01 -0000
-Message-Id: <163907022100.22582.399493769068824867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+Date: Thu, 09 Dec 2021 17:17:33 -0000
+Message-Id: <163907025303.22806.5069660970470985519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+user: thierry.reding
 changes:
-  - ref: refs/tags/net-5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 2db5d4b826b95d7f9d293aa26e68de0d62d16f73
+  - ref: refs/heads/for-next
+    old: b6ce2af8766c39a5b09afa466ed4d0ef2d8b5a65
+    new: 3f0565451cc0c5158513af0bc4e91aa8fb0b5e75
+    log: |
+         3f0565451cc0c5158513af0bc4e91aa8fb0b5e75 dt-bindings: pwm: Avoid selecting schema on node name match
+         
