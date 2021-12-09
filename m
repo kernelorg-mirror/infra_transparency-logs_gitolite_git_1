@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3390159326375022807=="
+Content-Type: multipart/mixed; boundary="===============7415107568644065462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 09 Dec 2021 23:46:57 -0000
-Message-Id: <163909361708.11413.10481428448299420720@gitolite.kernel.org>
+Date: Thu, 09 Dec 2021 23:47:05 -0000
+Message-Id: <163909362530.11565.9246806781706037002@gitolite.kernel.org>
 
---===============3390159326375022807==
+--===============7415107568644065462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f55d117f27ed47fec7bcb94f65d790023b49a294
     new: 42f9758f7fa7896b73f64f6055bee9b4d7d0ebcb
     log: revlist-f55d117f27ed-42f9758f7fa7.txt
 
---===============3390159326375022807==
+--===============7415107568644065462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ fa5e5cc04e443820a493761d352bbaccf5f7ad8d libbpf: Deprecate bpf_object__load_xatt
 e296bd28ea204493be141de9737c816d777f0dcb bpftool: Switch bpf_object__load_xattr() to bpf_object__load()
 42f9758f7fa7896b73f64f6055bee9b4d7d0ebcb Merge branch 'Enhance and rework logging controls in libbpf'
 
---===============3390159326375022807==--
+--===============7415107568644065462==--
