@@ -1,33 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 09 Dec 2021 00:30:46 -0000
-Message-Id: <163900984697.24640.7959684092903447717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 09 Dec 2021 00:40:08 -0000
+Message-Id: <163901040829.30064.5424896584935251232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 0a0575a12e31657415d1d5f799d4b65f3c9e8ba4
-    new: b1a4da64bfc189510e08df1ccb1c589e667dc7a3
+  - ref: refs/heads/blk-sysfs
+    old: 2261967bc4e9c7676e9cff0e2267ad28580f4a49
+    new: b4dfcfc772b05954bc7ff75cbd3aaea9ad2b0093
     log: |
-         3fe6d228a0b45a205849daa110b908e8a4dbed80 RDMA/rxe: Remove the unnecessary variable
-         b1a4da64bfc189510e08df1ccb1c589e667dc7a3 RDMA/qedr: Fix reporting max_{send/recv}_wr attrs
-         
-  - ref: refs/heads/for-rc
-    old: db6169b5bac1c75ed37cfdaedc7dfb1618f3f362
-    new: 10467ce09fefa2e74359f5b2ab1efb8909402f19
-    log: |
-         9292f8f9a2ac42eb320bced7153aa2e63d8cc13a IB/hfi1: Correct guard on eager buffer deallocation
-         b6d57e24ce6cc3df8a8845e1b193e88a65d501b1 IB/hfi1: Insure use of smp_processor_id() is preempt disabled
-         f6a3cfec3c01f9983e961c3327cef0db129a3c43 IB/hfi1: Fix early init panic
-         60a8b5a1611b4a26de4839ab9c1fc2a9cf3e17c1 IB/hfi1: Fix leak of rcvhdrtail_dummy_kvaddr
-         1e11a39a82e95ce86f849f40dda0d9c0498cebd9 RDMA/irdma: Fix a user-after-free in add_pble_prm
-         117697cc935b0ab04ec66274d8e64ccfebd7d0d2 RDMA/irdma: Fix a potential memory allocation issue in 'irdma_prm_add_pble_mem()'
-         25b5d6fd6d13b2de3780a0ae247befc43c4576fe RDMA/irdma: Report correct WC errors
-         10467ce09fefa2e74359f5b2ab1efb8909402f19 RDMA/irdma: Don't arm the CQ more than two times if no CE for this CQ
+         f28c240e7152462f0750a8939db28d985ecf7c67 io_uring: batch completion in prior_task_list
+         2a7f2f5e3f0a18344b1a5d4ffa9307ffc9cbeee2 Merge branch 'for-5.17/io_uring' into for-next
+         fc3de13e8e1a775344985d8ee06baddd8264de48 docs: sysfs-block: move to stable directory
+         fce197fe011ac3d52e430237a6bc11ea0682cc3f docs: sysfs-block: sort alphabetically
+         5415f20d64e0e61aa36603512283627c74ac87a8 docs: sysfs-block: add contact for nomerges
+         82056d879f7ae66aa2beaf360490e11d52078384 docs: sysfs-block: fill in missing documentation from queue-sysfs.rst
+         d6c00ab21977f7c65576fa93699ca90e678328cb docs: sysfs-block: document stable_writes
+         db5f238b9c9a32dd590b1efe4f0bd9629ac7d7a0 docs: sysfs-block: document virt_boundary_mask
+         b50d58cef67a52ffc4eca040fe2bab63d29a84a1 docs: block: remove queue-sysfs.rst
+         b4dfcfc772b05954bc7ff75cbd3aaea9ad2b0093 MAINTAINERS: add entries for block layer documentation
          
