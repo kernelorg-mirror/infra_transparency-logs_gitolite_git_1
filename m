@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7721343676307917458=="
+Content-Type: multipart/mixed; boundary="===============0738136450059925335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 09 Dec 2021 18:21:16 -0000
-Message-Id: <163907407616.32451.14928529929838086769@gitolite.kernel.org>
+Date: Thu, 09 Dec 2021 18:21:26 -0000
+Message-Id: <163907408612.32555.17872424240069995493@gitolite.kernel.org>
 
---===============7721343676307917458==
+--===============0738136450059925335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 1fe5b01262844be03de98afdd56d1d393df04d7e
-    new: 9d922f5df53844228b9f7c62f2593f4f06c0b69b
-    log: revlist-1fe5b0126284-9d922f5df538.txt
+  - ref: refs/heads/mlx5-queue
+    old: 5330f76e799a2cc629191d1535a04ecf41688903
+    new: e5e246ce9407d77b9dff92ca2b2ba10066610381
+    log: revlist-5330f76e799a-e5e246ce9407.txt
 
---===============7721343676307917458==
+--===============0738136450059925335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fe5b0126284-9d922f5df538.txt
+Content-Disposition: attachment; filename=revlist-5330f76e799a-e5e246ce9407.txt
 
 330c6d3bfa268794bf692165d0f781f1c2d4d83e can: bittiming: replace CAN units with the generic ones from linux/units.h
 d0342ceb78ed86b8ed28afe14d070720667da70f dt-bindings: net: can: add support for Allwinner R40 CAN controller
@@ -58,5 +58,32 @@ d7dac083414eb5bb99a6d2ed53dc2c1b405224e5 net-sysfs: update the queue counts in t
 28a0a044fbe9e1efb8fde6b74ebc1dcd79b4fdfa Merge branch 'net-track-the-queue-count-at-unregistration'
 d7ca9a34dd333a73a01a61563b1a8f4886b0d340 net: hinic: Use devm_kcalloc() instead of devm_kzalloc()
 9d922f5df53844228b9f7c62f2593f4f06c0b69b net: huawei: hinic: Use devm_kcalloc() instead of devm_kzalloc()
+9914f176269cd92c52b6896ca71826815ce5b6d8 net/sched: act_ct: Fill offloading tuple iifidx
+c72233c270e8dbb4d8aa6562aaaeef189e152602 net: openvswitch: Fill act ct extension
+4645793890e4e0822d95e71b1aaa67712c43d54f net/mlx5: CT: Set flow source hint from provided tuple device
+52a4ee5200c7746f85c0d09243c9c33625a89d1c net/mlx5e: Add tc action infrastructure
+b130be742ac7059d512020c72651b1283713922f net/mlx5e: Add goto to tc action infra
+9c3251db620928a2829fbdde9ec169a69d8cb073 net/mlx5e: Add tunnel encap/decap to tc action infra
+d6e74205179552bfa1afdf055cd02a612fcbe9a0 net/mlx5e: Add csum to tc action infra
+880fd59d299cd7dadc4d1f3609366c871798a7d5 net/mlx5e: Add pedit to tc action infra
+d864e1588770737f5b72dd10e26c3a1fc64ac902 net/mlx5e: Add vlan push/pop to tc action infra
+3f5016e55d1634aed2a914905dad986832ac4c75 net/mlx5e: Add vlan mangle to tc action infra
+9252d48579f34208f8abc6568b7022a32d747522 net/mlx5e: Add mpls push/pop to tc action infra
+61cbd5cd2afb230ae3384480521f8ecce1f082d8 net/mlx5e: Add mirred/redirect to tc action infra
+2b5e96cb8f1a616b90c36c9b1df07f0ca73b175a net/mlx5e: Add ct to tc action infra
+8e6c5cde2e242a4b7b2408c1f84f14261e7abfbb net/mlx5e: Add sample to tc_action infra
+1945f12f667ee324b1647ceca9d9d7e9d5dcb03a net/mlx5e: Add ptype to tc action infra
+3c393ae544062ce9e19a70212a75be55cdb0a54d net/mlx5e: Add redirect ingress to tc action infra
+0a8a01797fbc202e4052e47ca32f0da805239560 net/mlx5e: TC action parsing loop
+8d1287d9f4baebf0c4d737c3647d4cdb6d7b21ae net/mlx5e: Move sample attr allocation to tc_action sample parse op
+ab84bdf0d815a69e2b8ecc515eb5927bac49429d net/mlx5e: Add post_parse() op to tc action infrastructure
+20cb76bbcb71278e180490c76a1fe802afea14c7 net/mlx5e: Move vlan action chunk into tc action vlan post parse op
+d303f9b018125076c9763005b238ef56287a4be8 net/mlx5e: Move goto action checks into tc_action goto post parse op
+88037299b8f863eb3ac72442e02a9b94c7bb7918 net/mlx5: Separate FDB namespace
+6d149f28d186149e62d990568691b9d391f69251 net/mlx5: Refactor mlx5_get_flow_namespace
+da7107c14507386c78d92e3ddc0587e2876a8b74 net/mlx5: Create more priorities for FDB bypass namespace
+4ac80eefacc691b007bd5866d12bb7ba94cf0b61 RDMA/mlx5: Add support to multiple priorities for FDB rules
+d7c8b6a3d666ed2ba9f11de9192e591ab2d39984 Merge branch 'patchq/426503' into mlx5-queue
+e5e246ce9407d77b9dff92ca2b2ba10066610381 Merge branch 'patchq/449782' into mlx5-queue
 
---===============7721343676307917458==--
+--===============0738136450059925335==--
