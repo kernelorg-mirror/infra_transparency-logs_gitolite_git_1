@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 09 Dec 2021 17:38:02 -0000
-Message-Id: <163907148266.3628.1102150988754182114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Thu, 09 Dec 2021 17:39:03 -0000
+Message-Id: <163907154340.3982.14032559636152916812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/dev
-    old: f147dfab2e8ec90e5397d1439b8e6e2ab3a8bd7d
-    new: 89ddc546d3ad541bc89ec553c92036c98aef57a6
+  - ref: refs/heads/devel
+    old: 88002d647349a7c78cf2ee5070627290fe9ccf0d
+    new: b124c8bd50c7550ed966c09f69ffdbaaedc0aa15
     log: |
-         342f2d0f88f3c2d7ab2ae206be5846579319e3bf rcu: Kill rnp->ofl_seq and use only rcu_state.ofl_lock for exclusion
-         89ddc546d3ad541bc89ec553c92036c98aef57a6 rcu: Add mutex for rcu boost kthread spawning and affinity setting
+         b124c8bd50c7550ed966c09f69ffdbaaedc0aa15 pinctrl: Sort Kconfig and Makefile entries alphabetically
+         
+  - ref: refs/heads/for-next
+    old: 4769075969b69fd4468d253cf35161737438a49f
+    new: 6ca94c5aa34cd74d09b6f6f90a6c4e211195e170
+    log: |
+         b124c8bd50c7550ed966c09f69ffdbaaedc0aa15 pinctrl: Sort Kconfig and Makefile entries alphabetically
+         6ca94c5aa34cd74d09b6f6f90a6c4e211195e170 Merge branch 'devel' into for-next
          
