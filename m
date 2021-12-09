@@ -1,131 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============5179022342108381073=="
+Content-Type: multipart/mixed; boundary="===============0451334060142114413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 09 Dec 2021 23:19:35 -0000
-Message-Id: <163909197594.27361.5797679939437021445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 09 Dec 2021 23:33:57 -0000
+Message-Id: <163909283758.3489.14955911736208149522@gitolite.kernel.org>
 
---===============5179022342108381073==
+--===============0451334060142114413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/seen
-    old: 3ab06359ad6749fda6271b7666b069e03644ea0e
-    new: dbad21e1cb54b3273904364fe302f45b43350fe0
-    log: revlist-3ab06359ad67-dbad21e1cb54.txt
+  - ref: refs/heads/rcu/next
+    old: 07f892dade6a3b08fb833e2e9cf5074afc0d937f
+    new: 6f731452e4eefa4e88541faa44ae6e22927ecfef
+    log: revlist-07f892dade6a-6f731452e4ee.txt
 
---===============5179022342108381073==
+--===============0451334060142114413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ab06359ad67-dbad21e1cb54.txt
+Content-Disposition: attachment; filename=revlist-07f892dade6a-6f731452e4ee.txt
 
-f73613ac33aad6f08aa1bc07e596202f19e760d1 diff --color-moved: add perf tests
-bea084ba41ffcaf5896522e48d67682b6a45b04c diff --color-moved: clear all flags on blocks that are too short
-7dfe427107a3765456e9fa33c56da29fea24cf0f diff --color-moved: factor out function
-0990658bf85a0763ffd628b1dd57a33c27b25450 diff --color-moved: rewind when discarding pmb
-eb315457f65e1d6b77cde3933b6a175e649fb34b diff --color-moved=zebra: fix alternate coloring
-eb893525041a53b968a46000ed5cb66ffc725853 diff --color-moved: avoid false short line matches and bad zebra coloring
-76e32d619323c89e44ebfcfdb9d44766937b17dc diff: simplify allow-indentation-change delta calculation
-52d14e166d7360b17f74ae169a83e5e642892bdb diff --color-moved-ws=allow-indentation-change: simplify and optimize
-08fba1076faf0b2c0bfeda628c84ac15efd27cfb diff --color-moved: call comparison function directly
-ff046a0066f55cb730ced3f8eb54d508dcd3a4c7 diff --color-moved: unify moved block growth functions
-0e488f173257e5ab766267ac5a5c4c9f3f1ce343 diff --color-moved: shrink potential moved blocks as we go
-eec7f53b3150dcc54ea0f4441587724be65c105d diff --color-moved: stop clearing potential moved blocks
-25e61909e95ffd376787ce0ecc5dd6cf7d3f0e78 diff --color-moved-ws=allow-indentation-change: improve hash lookups
-b4a5c5c419009c26935536fa7039ad5073acb237 diff: use designated initializers for emitted_diff_symbol
-72962e8b3c3ea3a631166876b4668718103be4fe diff --color-moved: intern strings
-8a0d52dfd870af50b9c28baf66347f5eaaf14e6e t2501: add various tests for removing the current working directory
-e6f8861bd43636b27651150e6a3caa0a937fb418 setup: introduce startup_info->original_cwd
-b817e545338cdb737b3deebf4917afb4a18ede57 unpack-trees: refuse to remove startup_info->original_cwd
-0b0ee3388cf080c4200c235ee699bd95c960c167 unpack-trees: add special cwd handling
-00fcce285db3db48f85730a183421fdb488c14cc symlinks: do not include startup_info->original_cwd in dir removal
-c65744e7d7f512f3666da5964f0ace90325dd94a clean: do not attempt to remove startup_info->original_cwd
-bc3ae46b420f58dfe2bfd87714dca096a043d554 rebase: do not attempt to remove startup_info->original_cwd
-0fce211cccd0dce848d217cd4e2037214d7be1dd stash: do not attempt to remove startup_info->original_cwd
-63bbe8beb78ee8af5a7faeee4be747a82d8e2dc7 dir: avoid incidentally removing the original_cwd in remove_path()
-580a5d7f75fc7b6c4c369ef429742d9d417acddd dir: new flag to remove_dir_recurse() to spare the original_cwd
-324b170b88475811cb0506a30b4710ffc89ae936 t2501: simplify the tests since we can now assume desired behavior
-fca965a3bc173a8fb83f34b156c2aa6028803356 t/lib-pager: use sane_unset() to avoid breaking &&-chain
-abd71c613a777865f180f06592265c6aeacdcacd t1010: fix unnoticed failure on Windows
-bbefd9f510e0ab51d58342d53bca46afef028866 t1020: avoid aborting entire test script when one test fails
-bdc50b6c88f4c0ea5904b3eb6cece63f6437748d t4202: clarify intent by creating expected content less cleverly
-221582d4c76b8655c3ecf6d96bfa1ff619fccf4c t5516: drop unnecessary subshell and command invocation
-69ceafd486a88ec07c51fd38e029d14f68513bb8 t6300: make `%(raw:size) --shell` test more robust
-2000ea69184bcac04b93451612fcdacba322e58d t9107: use shell parameter expansion to avoid breaking &&-chain
-d3d3e6169936cdb0bfab6af2bfaa89b3a6193316 tests: simplify construction of large blocks of text
-4e165183ce15074dbb1a51a74cfa30f49651bd31 tests: use test_write_lines() to generate line-oriented output
-35f544bf5dd5d72c3b1aa9cc41f47b37beb396bc tests: fix broken &&-chains in compound statements
-6cf4b1d841c0e91f5273fca6e236f983e047dce1 tests: fix broken &&-chains in `$(...)` command substitutions
-8a9a92ae14c692304e2bf4eb4f8e045f301f2548 tests: fix broken &&-chains in `{...}` groups
-cf1d42a44d81750fd733c09099b37823afa1009c tests: apply modern idiom for signaling test failure
-cfca934429fecde6ec7f137be2bbe4215a36f38f tests: apply modern idiom for exiting loop upon failure
-67461602c1ce34703245bd6579dd1d98bc657de4 tests: simplify by dropping unnecessary `for` loops
-be82c0e00f4ef2173970f7ad2f91b70c4b71e517 t0000-t3999: detect and signal failure within loop
-fd1a477c65ce0a75c4e6226615e41e9fcba76faf t4000-t4999: detect and signal failure within loop
-508f9a4c571650923a16e1ef406ced887a7bd7d1 t5000-t5999: detect and signal failure within loop
-6c56e9ecc6fc28589be3f2121b5908c27afe2929 t6000-t9999: detect and signal failure within loop
-5a2c1c0deeef3b2980827687b95e4446e1078eb3 t/fmt-merge-msg: do not redirect stderr
-cafd34522f13e66b35bfcf00c04bc82f685a8ce9 t/fmt-merge-msg: make gpgssh tests more specific
-02769437e1421d837f6de27cfb5c14087cfec8dd ssh signing: use sigc struct to pass payload
-30770aa9817a5ea3886377cce66c264ab03c6854 ssh signing: add key lifetime test prereqs
-6393c956f4e7061d6b19981bd8cd28ef037b911e ssh signing: make verify-commit consider key lifetime
-4bbf3780ff2c485b1d0781d58b26e01f75dffcc1 ssh signing: make git log verify key lifetime
-dd3aa418aa109ff3697290ba89b626c3a4b36883 ssh signing: make verify-tag consider key lifetime
-122842fd93eefadac237cfd73a4227b65c8b78ee ssh signing: make fmt-merge-msg consider key lifetime
-50992f96c546ebdc0c149660f6baa948739888d9 ssh signing: verify ssh-keygen in test prereq
-67d6aed128a75cde7b5db3bc7fd9d62192ec3b8b git-p4: Always pass cmd arguments to subprocess as a python lists
-05a11f0d3c46dfb890c3a27511bf2cd37151b332 git-p4: Don't print shell commands as python lists
-4846853eadd61517b897dadea42c69835b2a9372 git-p4: Removed support for Python 2
-b2c7e1c3e6f2ccd64aa3c1c13d0c349c4f8c2072 git-p4: Decode byte strings before printing
-6d5ba1ae5beeb33eff1fa6af400395eabd2568ac git-p4: Eliminate decode_stream and encode_stream
-a4a8d2a179cad1c54b84dc3d25aea526b25f1db4 git-p4: Resolve RCS keywords in binary
-b5b1f976d97f90d054c5030f840b0edabd8bcc9f Merge branch 'fs/ssh-signing-key-lifetime' into jch
-20d953a82423d3ef1af8882c5ce8ac698795fabf Merge branch 'fs/ssh-signing-other-keytypes' into jch
-5ac8678971a26c3a0c6c2f3c28ed41b7b84848bc Merge branch 'ak/protect-any-current-branch' into jch
-f566e8fbee63f727ef26a26d0cced6d564c796a6 Merge branch 'en/name-rev-shorter-output' into jch
-9a6a1d1039d2395dc023b191f8d9b78de923ee78 Merge branch 'ab/common-main-cleanup' into jch
-413027d3e4aea5d1be4ee83f42b7a9dd0c5787bb Merge branch 'ld/sparse-diff-blame' into jch
-8909649799664e01ceac25a854b343b16d94e3e6 Merge branch 'js/scalar' into jch
-9da513822aa5042e316369d13348395cf452d13d Merge branch 'js/compat-util-msvc-flex-array' into jch
-1b5f735926bd00fd5df6b0b49c7d40e27b925c23 Merge branch 'tb/midx-bitmap-corruption-fix' into jch
-189a7bfbe7b115dc8cd3062676035312c32d0f09 Merge branch 'jk/limit-developers-to-gnu99' into jch
-51217a7629d8a69ee893ab103cc87b0fc4824fe1 Merge branch 'jc/make-test-all' into jch
-ae9b311c463226d1cce4ff81997156c06af8899f Merge branch 'en/keep-cwd' into jch
-768eeb713ce3979363905643a632870fcdfe46d8 Merge branch 'jh/make-p4-python3-only' into jch
-1526063bdae0aa9e56c770b18fe233aca32cf854 Merge branch 'es/test-chain-lint' into jch
-336421199bb3c882f5433e03b1baaeb25d4d259e Merge branch 'ja/i18n-similar-messages' into seen
-55ef4ebb30f85916595aff7a721b538392b146e4 Merge branch 'pw/diff-color-moved-fix' into seen
-8751387cbfef2f35fa315416e51b4154f7896569 Merge branch 'ns/tmp-objdir' into seen
-39c4e7a2c5744e0ec8ca07cc377c54300fdd9865 Merge branch 'jc/doc-submitting-patches-choice-of-base' into seen
-8ab1785e9d4de5a166353e1d75edac92a631d98a Merge branch 'tb/cruft-packs' into seen
-9c79df16292a1576fc0f3caa73edbeae9b854d71 Merge branch 'jt/conditional-config-on-remote-url' into seen
-94521de5ed533468297f05738e5704ebf718aed3 Merge branch 'ab/cat-file' into seen
-22394a640d3da5b2190f03b1f8c4787c625c1018 Merge branch 'js/use-builtin-add-i' into seen
-7f25ef0e28c88fb2539c2ef00e97a6e24f146f1d Merge branch 'jl/subtree-check-parents-argument-passing-fix' into seen
-a2d5c014e59a5fd0953e4dccb5fdc5ef479971d0 Merge branch 'cb/save-term-across-editor-invocation' into seen
-383d6e1b5def343540348f5352d57ca59dc2a4d7 Merge branch 'tl/ls-tree-oid-only' into seen
-f10ffe3fbd3ed640c322b5ba2ff3623ff216687f Merge branch 'ab/only-single-progress-at-once' into seen
-d0b462a0fab4ad022965e770e098fa1dff0dc086 Merge branch 'ms/customizable-ident-expansion' into seen
-2937cdde2e40e7afa1c0ec58a5bced9701586c3b Merge branch 'es/superproject-aware-submodules' into seen
-09c76ef9af9c871a45d6718b818e25cec3b9fb4d Merge branch 'pw/fix-some-issues-in-reset-head' into seen
-3d50b4df46faff804ba7f4f78feef097587ca75c Merge branch 'ab/config-based-hooks-2' into seen
-ed66d1cc548c17a0031f985c3f89689eee770174 Merge branch 'jh/builtin-fsmonitor-part2' into seen
-6d7b8c5442202d806a41fbe00ce60c07a83233fd Merge branch 'ab/make-dependency' into seen
-fa14b58528f7d271d6db08f647efaced70134a90 Merge branch 'ab/ambiguous-object-name' into seen
-826b00788f87511df5adeeb4151fcda3d5849520 Merge branch 'xw/am-empty' into seen
-9d3d63853c68c5c88439ca13df027bfc16bfab25 Merge branch 'ab/grep-patterntype' into seen
-6ba62f08434160a0e6d58040656a1e44ba173d70 Merge branch 'ab/usage-die-message' into seen
-64dd30bdb78345063bb11805f2e32ccf3f41d9b9 Merge branch 'ns/batched-fsync' into seen
-fec083b69081679a43d16eb0eae8dea76668fc13 Merge branch 'ns/remerge-diff' into seen
-e32e8c0555f3b79bd44d03ae81c02601382b7644 Merge branch 'hn/reftable-coverity-fixes' into seen
-54e7385112df658e51b8b962a01c6e701fd1be77 Merge branch 'en/sparse-checkout-set' into seen
-dbad21e1cb54b3273904364fe302f45b43350fe0 Merge branch 'jc/flex-array-definition' into seen
+381a4f3b38603aab47e5500609d5ec733b5d0ecb rcu-tasks: Use spin_lock_rcu_node() and friends
+65b629e70489b810a108fe1155da4e41a5010534 rcu-tasks: Inspect stalled task's trc state in locked state
+8dd593fddd630e7dcbe79e98ff5e0d0561e9ff27 rcu-tasks: Add a ->percpu_enqueue_lim to the rcu_tasks structure
+4d1114c05467b5f421d99121bff22a9633390722 rcu-tasks: Abstract checking of callback lists
+57881863ad15fbccbfa637b5e4b67cd3a4520643 rcu-tasks: Abstract invocations of callbacks
+d363f833c6d88331ff013ff0970a96caa8b84653 rcu-tasks: Use workqueues for multiple rcu_tasks_invoke_cbs() invocations
+ce9b1c667f03e0aa30d3eb69d0932e010d131c49 rcu-tasks: Make rcu_barrier_tasks*() handle multiple callback queues
+8610b65680390a103b58f46282a1b05f7eebbba4 rcu-tasks: Add rcupdate.rcu_task_enqueue_lim to set initial queueing
+7d13d30bb6c54b57d196eab89dea2729a565dbd7 rcu-tasks: Count trylocks to estimate call_rcu_tasks() contention
+3063b33a347c088e87516764d487e46fea3dfc94 rcu-tasks: Avoid raw-spinlocked wakeups from call_rcu_tasks_generic()
+ab97152f88a4d580b89f0b7cc3028ffac438216f rcu-tasks: Use more callback queues if contention encountered
+2cee0789b458afa384c422b5969c1a338891fd33 rcu-tasks: Use separate ->percpu_dequeue_lim for callback dequeueing
+fd796e4139b481733a701c4d406056538f4c73cc rcu-tasks: Use fewer callbacks queues if callback flood ends
+2ebc45c44c4f3cc4c757430b2409ece4f976892e rcu/nocb: Remove rcu_node structure from nocb list when de-offloaded
+8d9703964697340e073305574de4f5df31a28ba9 rcu/nocb: Prepare nocb_cb_wait() to start with a non-offloaded rdp
+a81aeaf7a1de51400374a8e3982a3cc3ff130dd1 rcu/nocb: Optimize kthreads and rdp initialization
+2cf4528d6dd6f5a7f34ae07e26176a7932310eeb rcu/nocb: Create kthreads on all CPUs if "rcu_nocbs=" or "nohz_full=" are passed
+d2cf0854d728c42524efc169edb3505de8c1a9dc rcu/nocb: Allow empty "rcu_nocbs" kernel parameter
+10d4703154a72fb4f30fc90a4a7212bf138c17a2 rcu/nocb: Merge rcu_spawn_cpu_nocb_kthread() and rcu_spawn_one_nocb_kthread()
+f80fe66c38d561a006fb4f514b0ee5d11cbe2673 Merge branches 'doc.2021.11.30c', 'exp.2021.12.07a', 'fastnohz.2021.11.30c', 'fixes.2021.11.30c', 'nocb.2021.12.09a', 'nolibc.2021.11.30c', 'tasks.2021.12.09a', 'torture.2021.12.07a' and 'torturescript.2021.11.30c' into HEAD
+ff120d594bacbba87416834d9fdb4919ed89ff89 Merge branch 'lkmm.2021.11.30c' into HEAD
+1b5c83d336f480885f55d2edb3f08c5071d19d1f Merge branch 'lkmm-dev.2021.11.30c' into HEAD
+7d6d0c8b8c3911cad6aa58feb8204538b84ece6d Merge branch 'clocksource.2021.11.30c' into HEAD
+a5c4165b1a70c1102f0202dcec01ef00753165d5 MAINTAINERS:  Add Frederic and Neeraj to their RCU files
+cd6b0441cc05aa90e950bfb057fa3dd0c0db018b rcu: Fix description of kvfree_rcu()
+5abca829cb69d57c49fa151f3e51d94a9c8e49dd torture: Drop trailing ^M from console output
+70bfe230618afb62af577d385cd3635892004bc3 torture: Allow four-digit repetition numbers for --configs parameter
+828c16fbd5a2a77794f74ce275311be17fde6e9c kcsan: Refactor reading of instrumented memory
+681649952ddd3ceb98c6e5da7dc3cec14fada143 kcsan: Remove redundant zero-initialization of globals
+b57443c9f5414746e6ac0aba018877fb27ace7a2 kcsan: Avoid checking scoped accesses from nested contexts
+913bee819326ef05ecb5fe95df9048980ab99754 kcsan: Add core support for a subset of weak memory modeling
+cee809ff25adddb35c5525c2f6bfe3a8b04ab88d kcsan: Add core memory barrier instrumentation functions
+ddf251ed3a1fd91e2a5063d00e9c1b9cf2a9a303 kcsan, kbuild: Add option for barrier instrumentation only
+607bc30f7fa1ccc4d246f12d86828554e05a53fe kcsan: Call scoped accesses reordered in reports
+736d3792109fe592c7460ca8efcfe42c0c22f6ad kcsan: Show location access was reordered to
+e2be0a8d19d3532f5d3526fd28d44f02b6bd8de7 kcsan: Document modeling of weak memory
+fd5e77a9bcaaac6134f17e65ce638c5007e2134d kcsan: test: Match reordered or normal accesses
+838161493877b11f9646cc5528fb4e86342c8929 kcsan: test: Add test cases for memory barrier instrumentation
+ebe3b168c0d854a1b5d76213e85fe4b5ec09de41 kcsan: Ignore GCC 11+ warnings about TSan runtime support
+40f99b61b3cc37d5a6ad0d1d006ad869810813d5 kcsan: selftest: Add test case to check memory barrier instrumentation
+7dbb0d1f2d3884dc6044a802cf28a561de4f66f7 locking/barriers, kcsan: Add instrumentation for barriers
+6acfabada1b8d8b5bf0a793b1ad5b4415d9c1b65 locking/barriers, kcsan: Support generic instrumentation
+40ebaaf1b2cdb953b319d88b01e55acb15af04f9 locking/atomics, kcsan: Add instrumentation for barriers
+5a364e1489416d4edbbfb54ccf66613fbc5b6dd5 asm-generic/bitops, kcsan: Add instrumentation for barriers
+54811f65243b2eaf09a24f73114c10bcd87f7c9f x86/barriers, kcsan: Use generic instrumentation for non-smp barriers
+8743157c86e276faa8e253953d27fde85927a4ab x86/qspinlock, kcsan: Instrument barrier of pv_queued_spin_unlock()
+8d47a4e2b9092d2000961350c1a4ba1740012bec mm, kcsan: Enable barrier instrumentation
+8777dbf05f9ea1e11df9a221dd5270bc3cf8c469 sched, kcsan: Enable memory barrier instrumentation
+8f8ca5cc61ca2cc17718a984f5a7312e7ed6ce32 objtool, kcsan: Add memory barrier instrumentation to whitelist
+0593efea6d4dcd8a410d10e16424be887a0f1b17 objtool, kcsan: Remove memory barrier instrumentation from noinstr
+d96c1739a40f8dc484d6ef2bbb2717b704f08851 compiler_attributes.h: Add __disable_sanitizer_instrumentation
+e66506bab42e33c8ad539b85942586843cef6365 kcsan: Support WEAK_MEMORY with Clang where no objtool support exists
+02a0b813d8ca677009f57cfbf04cf419e1a4d8b0 kcsan: Make barrier tests compatible with lockdep
+0fcab507b73aced6fa01a12062561a4b3690e429 kcsan: Turn barrier instrumentation into macros
+19006f26a7e02741e94bf3a8fef057af2b918404 torture: Output per-failed-run summary lines from torture.sh
+156d69d72af752d2f6e6c4d0085ccc429238dce2 torture: Make kvm.sh summaries note runs having only KCSAN reports
+a5c54cbe2d7576aacba192c6acf9bee0783b7de9 torture: Indicate which torture.sh runs' bugs are all KCSAN reports
+e6a068860abf510d3df89b03a643f4ed0c70c84f clocksource: Add a Kconfig option for WATCHDOG_MAX_SKEW
+cd1f0f6a70f305b76bbd8901e59416fd6133c215 kcsan: Avoid nested contexts reading inconsistent reorder_access
+d6c9436e6565c897556895ae52c48b9e536aafbb kcsan: Only test clear_bit_unlock_is_negative_byte if arch defines it
+0572502bf5e8d8670e725d3abc950d8e4c7ef890 rcutorture: Print message before invoking ->cb_barrier()
+37ea38b7b299ecef32d54f0f3b4942df1e33b5fd EXP rcu-tasks: Check for abandoned callbacks
+7ccefa462093a5c17238a0d03d951142e61f9798 EXP timers/nohz: Last resort update jiffies on nohz_full IRQ entry
+5ad05089c88898c14a30b36a5031f0355805186f EXP testing/bpf: Update test names for xchg and cmpxchg
+dc7c41e3d0fa2cf315e6253962db19fec5f43bdd EXP workqueue: Upgrade queue_work_on() comment
+9ec88eebdb3a38576c5799c3bef242087f0fc188 EXP workqueue: Fix unbind_workers() VS wq_worker_running() race
+5f43dbda02c2655d6634f9512237abbceb7f3410 EXP workqueue: Fix unbind_workers() VS wq_worker_sleeping() race
+2d62f5bdbcb160a260edaed7e231f8b3ec334c3a rcu: Kill rnp->ofl_seq and use only rcu_state.ofl_lock for exclusion
+6f731452e4eefa4e88541faa44ae6e22927ecfef rcu: Add mutex for rcu boost kthread spawning and affinity setting
 
---===============5179022342108381073==--
+--===============0451334060142114413==--
