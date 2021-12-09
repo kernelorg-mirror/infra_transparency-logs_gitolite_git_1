@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Dec 2021 16:16:31 -0000
-Message-Id: <163906659147.16768.11640554940336714316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Thu, 09 Dec 2021 16:24:10 -0000
+Message-Id: <163906705042.21743.4363399911456171968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 37ad4e2a77180841dffb1df64cdbd95541512d3d
-    new: 19961780f115769c8f998fa6b05b48ce499b21fc
+  - ref: refs/heads/libtracefs
+    old: 4a3c17c5cbd13534efd4a085c5faf621e5151f6c
+    new: a7cf6d12c7d06a540b1e7eb8e8e45435cfd47582
     log: |
-         e8b1d7698038e76363859fb47ae0a262080646f5 net: dsa: felix: Fix memory leak in felix_setup_mmio_filtering
-         373f121a3c3a741f90b2a81f120f37c539fa0c86 net: wwan: iosm: fixes unnecessary doorbell send
-         07d3f2743decaeefcf076457719ae01c8b43b6d2 net: wwan: iosm: fixes net interface nonfunctional after fw flash
-         383451ceb07831d37dafdf011c09366d1c034df5 net: wwan: iosm: fixes unable to send AT command during mbim tx
-         19961780f115769c8f998fa6b05b48ce499b21fc Merge branch 'net-wwan-iosm-bug-fixes'
+         404f1e35083d4bd1ef3553b2e8041668d0d61d6d libtracefs: Rename the 'tracefs_get_hist_*()' APIs
+         a7cf6d12c7d06a540b1e7eb8e8e45435cfd47582 libtracefs: Add new API for getting synth event name
          
