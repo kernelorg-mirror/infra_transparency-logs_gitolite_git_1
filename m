@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7786730610537818035=="
+Content-Type: multipart/mixed; boundary="===============0310695841332549119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Thu, 09 Dec 2021 21:06:57 -0000
-Message-Id: <163908401756.7881.6475756538635187619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 09 Dec 2021 21:10:41 -0000
+Message-Id: <163908424129.10414.1011636537960536719@gitolite.kernel.org>
 
---===============7786730610537818035==
+--===============0310695841332549119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/cxl-2.0v6
-    old: 61714b0cda164a6620a47b8ac2c2b910d0c2bb80
-    new: ac46d00d7d4d555a238bb898e2ff4af0c444bebe
-    log: revlist-61714b0cda16-ac46d00d7d4d.txt
+  - ref: refs/heads/master
+    old: d8542349d86372c38b42fe61eb88beecdb1e93a6
+    new: 3fb486785dfda0cc1642c58c4676ee77211624fc
+    log: |
+         3fb486785dfda0cc1642c58c4676ee77211624fc 5.10-stable patches
+         
 
---===============7786730610537818035==
+--===============0310695841332549119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61714b0cda16-ac46d00d7d4d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6cd8155dd5a600f1bb435a49ebddc1fae2f60e73 cxl: add a cxl utility and libcxl library
-894fb9b2b59364f7f5683ea68c8bd765223a4ca8 cxl: add a local copy of the cxl_mem UAPI header
-7aa7c7be6e803de267a165237e23577ab496e792 util: add the struct_size() helper from the kernel
-96afebd1b32ff839129f3bc0ba323ab5f04674ea libcxl: add support for command query and submission
-244862cbbfecda9b6b638eccaca526f4daba2795 libcxl: add support for the 'Identify Device' command
-55ada0eab92d52826c9be0186db664ba9eeba749 libcxl: add GET_HEALTH_INFO mailbox command and accessors
-c7ae078f1050ed54e254377404af2ae0879f2a39 libcxl: add support for the 'GET_LSA' command
-101966ed3e4a73a6e0e1c269306e976040e068a9 libcxl: add label_size to cxl_memdev, and an API to retrieve it
-cd1aed6cefe8f4f2043349e1a614876f67743439 libcxl: add representation for an nvdimm bridge object
-6255d23452809ddc6d48083c35fc935e4fa420d8 libcxl: add interfaces for label operations
-c415cebe4b5ca50e06db78a4719f312e33106936 cxl: add commands to read, write, and zero labels
-62fe17528d362110e258d56d8a2f44f2798f3f45 Documentation/cxl: add library API documentation
-57b1484fa427228afd52cdfa4fa3916a7a5878bf ndctl: Add CXL packages to the RPM spec
-02c40b971bd4d092b3612fcb5e9ddd57548e6dbb cxl-cli: add bash completion
-f5d1e2133c54c1f420a0c3cf45fa633f097823be cxl: add health information to cxl-list
-ac46d00d7d4d555a238bb898e2ff4af0c444bebe ndctl: install bash-completion symlinks
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639084240 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1639084239-cec2ad792ee9689f543c2ce89af154b812c06481
 
---===============7786730610537818035==--
+d8542349d86372c38b42fe61eb88beecdb1e93a6 3fb486785dfda0cc1642c58c4676ee77211624fc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGycNAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c7kP/27ZPU9IzTI0PK5FQ5Ta
+NT74c/Mz2mCcKnm7nHmQRZB4vfe8SGRuL4j/Y0Mmkj/2GvbRZkyku3aGCS8MSTmu
+hFyu3F8CDpyC0wTB5Pn7GuVdiBJmVh9UwBE3oGAYcHdfUKm9m9XGj4mZcEqQUzJv
+NhWg1+Y2OCiJI3uePcxWnzTslzs7n2wUZnHBDCqT1TQMeZLmacKQ97JcuzglcE0m
+L3MnSwNV8ZuEwSPj21dBPXeF48ia4hUmXgcIZtChuxZ2j2HiEv8oGKBaTcCgf/JP
+gg3nkXZqlapza/fR7KhWeY3okiM6zWlmOywLBmdf8Xa1dmh4t6lyX/ono97qB2qr
+j4x1pghzfALB9V7cq+8RzIkATErmrfQ5OOlwzu4UbkzAOuxZdCO6vC8drE56NdIg
+S7FIBvijXk8N4zBo3GUe3O+77zMrU03IOmSyXciwnDsA2bEb2TdoMJ6m0bAT5CNk
+GPR5OoaBZUexs8+ZIcriqiUXvuVjlu4SDdARoCg1+G6G+rmaMTX0BvyHWXqIO8kV
+xQ/k7VLtZpqH3yg62MYPzI8yLFdUhMF6yiM6dMhhBNQY4jH2XJ6SMaXqCjzMn5gm
+zonHGjsyWKZr34ANNusJOWGjQ8SLmFH3/SEo346Fq2Z0WBJvctKFbEAgErTef0PT
+Ypu2PnZSDnenJLfAd5b+73Z3
+=Xmho
+-----END PGP SIGNATURE-----
+
+--===============0310695841332549119==--
