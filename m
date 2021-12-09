@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Thu, 09 Dec 2021 17:33:06 -0000
-Message-Id: <163907118648.674.10525619577167456313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 09 Dec 2021 17:38:02 -0000
+Message-Id: <163907148266.3628.1102150988754182114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 42f65ea5a727a615b3249374c9bca3140c75778a
-    new: 779809c0732426ecaa83a817eb369efe2e26f2ce
+  - ref: refs/heads/dev
+    old: f147dfab2e8ec90e5397d1439b8e6e2ab3a8bd7d
+    new: 89ddc546d3ad541bc89ec553c92036c98aef57a6
     log: |
-         779809c0732426ecaa83a817eb369efe2e26f2ce dt-bindings: nvmem: Add missing 'reg' property
+         342f2d0f88f3c2d7ab2ae206be5846579319e3bf rcu: Kill rnp->ofl_seq and use only rcu_state.ofl_lock for exclusion
+         89ddc546d3ad541bc89ec553c92036c98aef57a6 rcu: Add mutex for rcu boost kthread spawning and affinity setting
          
