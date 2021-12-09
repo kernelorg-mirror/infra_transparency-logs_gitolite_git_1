@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 09 Dec 2021 21:41:00 -0000
-Message-Id: <163908606050.30451.13812825117904120200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Thu, 09 Dec 2021 21:41:35 -0000
+Message-Id: <163908609519.30724.234850097642503653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/review-migration-perms
+  - ref: refs/heads/ucount-rlimit-fixes-for-v5.16
     old: 0000000000000000000000000000000000000000
-    new: f51e850776819cee9553ff93f1d09c4a0cf01265
+    new: 59ec71575ab440cd5ca0aa53b2a2985b3639fad4
