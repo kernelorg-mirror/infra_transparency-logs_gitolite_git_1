@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Dec 2021 01:54:14 -0000
-Message-Id: <163901485421.17045.10502317969826853069@gitolite.kernel.org>
+Date: Thu, 09 Dec 2021 01:59:40 -0000
+Message-Id: <163901518013.19984.18430206391611062124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: fd31cb0c6a34499364259fc902a48a016e3760cf
-    new: e195e9b5dee6459d8c8e6a314cc71a644a0537fd
+    old: e195e9b5dee6459d8c8e6a314cc71a644a0537fd
+    new: f71ef02f1a4a3c49962fa341ad8de19071f0f9bf
     log: |
-         e195e9b5dee6459d8c8e6a314cc71a644a0537fd net, neigh: clear whole pneigh_entry at alloc time
+         f71ef02f1a4a3c49962fa341ad8de19071f0f9bf vmxnet3: fix minimum vectors alloc issue
          
