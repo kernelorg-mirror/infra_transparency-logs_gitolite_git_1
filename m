@@ -1,60 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2350019423163290204=="
+Content-Type: multipart/mixed; boundary="===============0214464666851137110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 09 Dec 2021 07:57:42 -0000
-Message-Id: <163903666292.13380.14417969032314915690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Thu, 09 Dec 2021 08:08:00 -0000
+Message-Id: <163903728046.19319.15405080826548463449@gitolite.kernel.org>
 
---===============2350019423163290204==
+--===============0214464666851137110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/staging-testing
-    old: b07f55053557946d77d33ff6bc854058bb10621c
-    new: d0df53d36cd51154463796bc6abdd11abdbc67c1
-    log: |
-         d904512db6f372759ecd1c8f92e689e63af2f03a staging: r8188eu: convert type of HalData in struct adapter
-         22e6a4846738aebff06ebec0b94d0e19f2a0ab71 staging: r8188eu: remove SwLed1
-         86b7e5fbd62373b16f8a026c46d47c1f668cac46 staging: r8188eu: remove code to set led1 registers
-         673cd3f471dd3b6e9f6ca2806338711c92bb012d staging: r8188eu: remove LedPin from struct struct LED_871x
-         d0df53d36cd51154463796bc6abdd11abdbc67c1 staging: rtl8712: Fix alignment checks with flipped condition
-         
+  - ref: refs/tags/linux-can-fixes-for-5.16-20211209
+    old: 0000000000000000000000000000000000000000
+    new: f9e8af5aedc9be9edc403d181a2a8945ba5480ee
 
---===============2350019423163290204==
+--===============0214464666851137110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639036661 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1639036660-919a3e8a6a8093e10923ca9c6087ede75b17c70c
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1639037276 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1639037276-a18f2ef824cf4620e08b0ac1538d7c8054312a5e
 
-b07f55053557946d77d33ff6bc854058bb10621c d0df53d36cd51154463796bc6abdd11abdbc67c1 refs/heads/staging-testing
+0000000000000000000000000000000000000000 f9e8af5aedc9be9edc403d181a2a8945ba5480ee refs/tags/linux-can-fixes-for-5.16-20211209
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGxtvUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b2wQAMiHRyXsnEb0GKyDPV39
-AR4S8aQBJrUrjtSnPjE9l0DDyxuIrcZH4XaOCsnZZb7JdVk4bwQefCdmot+YqysF
-WhdJwZ3AP95ZBoH9d3YPhUljYHG50N8vb7pzi3RuCgD3hyC5LvdUkSwYRmjoIkz4
-stJZFmKbECKHXT+Bj9MR3n86duRHorKlqu16zGBiAG4yDjBOZQgDJ0c9aAKtswJK
-fZlcQuLICbejqwdJCorWLf8udOppyKOYl0xCluZngzkInjpTRi8BFxJXY1grAmQz
-QKJc/M1nX/VWaIggi/h32TIJ84h2sXMN7xJXsgmlnWp4iQLSVQlkONxXRDrMH1l2
-0Ja0051SvgpoCLF/Pku1UiQkVFkocD7IWz0tmNVlcLwWbQQ1xqU1o4EDK3s7QKn1
-xHexuFMCGXONj1xNnLMlQWszFAHqc3pfQqXNG/rSUmcNxRgWyCF/a84Y0qv392Wc
-LnrPDeDhg1Fon8VjYuWeG+clZ8b3hGZ7OT1OLdWMdep+Qh/IlTWWXVxUGPx3hJK0
-dZJoc1Uqua7SjL2LFg6x/h7nt7YaF7e8HwL/nr80KYOlF3XdB6frfahQiBX3ezDt
-8MV2e6fIzwjIdQ9DPxaSwBXwfmPmk7Tydh80dIDbxDc+zKvPyw+QIVb7ZVTrIRgg
-0S35xDTxNE4+eK8KFU6L8VOP
-=2rKT
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGxuVwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqYocCAC0Qo980UDGF968XDXuX5Q9gHL2jNgI
+Jd9Uk3TPARdUyuKet0njiqcuRSu3LLTa6X8OZ9uIhaP6xYwzZWPivKIbKFnJ26WG
+B+ONYjqysznqz2syRmUE7/oqO5TWe+YZ41ZZJr0zneoT642YGemYN5SNol1URjXz
+cPeb8tmHmABrPcQ9CMfIW2VczOWlLwkOhaYVJTXhhf8CDE56bCN2mquaINQPQrx/
+S/Z4grFyREVdHlN/ATzKPKLGHboNLUk67rb/DecIIQXleapLYfXj2frQTNhilMz9
+D3Hrj+vpp1V1qB2cek+x0sSAhsbmA6j0XyR1ZxWVTsbsNVeVg45kDLLz
+=HXpK
 -----END PGP SIGNATURE-----
 
---===============2350019423163290204==--
+--===============0214464666851137110==--
