@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3298601225099685552=="
+Content-Type: multipart/mixed; boundary="===============7646916746068287418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Thu, 09 Dec 2021 08:08:10 -0000
-Message-Id: <163903729062.19409.4201153605589257176@gitolite.kernel.org>
+Date: Thu, 09 Dec 2021 08:08:17 -0000
+Message-Id: <163903729727.19519.7598516466684355996@gitolite.kernel.org>
 
---===============3298601225099685552==
+--===============7646916746068287418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186
-    new: a50e659b2a1be14784e80f8492aab177e67c53a2
-    log: revlist-4dbb0dad8e63-a50e659b2a1b.txt
+  - ref: refs/heads/testing
+    old: ea4c1787685dbf9842046f05b6390b6901ee6ba2
+    new: fb12797ab1fef480ad8a32a30984844444eeb00d
+    log: revlist-ea4c1787685d-fb12797ab1fe.txt
 
---===============3298601225099685552==
+--===============7646916746068287418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1639037287 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1639037294 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1639037287-8cae43c311e9994611de0c6cdefed49993e6a09d
+nonce 1639037293-37ec5cb7cbf2ca1576f16846881d919cf73a5a06
 
-4dbb0dad8e63fcd0b5a117c2861d2abe7ff5f186 a50e659b2a1be14784e80f8492aab177e67c53a2 refs/heads/master
+ea4c1787685dbf9842046f05b6390b6901ee6ba2 fb12797ab1fef480ad8a32a30984844444eeb00d refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGxuWcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqc03B/9mlzGSU9VjpYDAt6Fdit8ZC58smcEQ
-lc+6rulFiA9bx7lMqvlECoC4DU4RclrjeWg5C9T/pFfIDzMoXaFu5Jpp0UhiOiQu
-h1+ocQN0XF39T9U4zl4wDJXOhJJP9nNmSgtBm+vhUKJLmgfShjgiVbgGuU+yYYWS
-tSgLMsMVnyHmsKk6/zS18qL3dAb5nGB95XdzxaUZ4dqBsZHaHcEAjwYfz1QMGcCj
-ViO7nNe8aRFsOFLDz28fKHboitzlfACm2uGc5gsRnYwAK5dAUCYARDBP0Q2ZPppQ
-YHiYjSFYe5B3JDjQ3FHstiSqrVpOXyTmM4osU9OixXBa+fArdhnE39pq
-=9xCz
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmGxuW4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqc/ZCACyXTDSdkFdxgtmVePZaDIux6wW/GHi
+S8qRvSbvwu1AdiWgOdm9G9EjK33eHGx/Q/MdFxK/Sf8vdtniksRGd+CQ0OgntyV9
+1bKOtmNjEZZHPkoOzwbZtvxqqRR4vKpDfYAh55Y/HtN/y06wzAEerlKGxej28SU/
+MEtaeVg6Tjp4D+Cw0+2ywJNibqgQL6h/coLAOjtwXfZkNqUEjBnGibPRQp+94lOY
+xgnmdKJaD3+/xh7+BRi3P82vBUtfry1rIRhllXY0WU4b/gjwdnm313WaoBb6oVpd
+DRAuXHvAUnzFbAJmqeGjTcNv8xK0PIXQ3DK8IKWq9BFNRH8PPf1N8G9i
+=+JWc
 -----END PGP SIGNATURE-----
 
---===============3298601225099685552==
+--===============7646916746068287418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dbb0dad8e63-a50e659b2a1b.txt
+Content-Disposition: attachment; filename=revlist-ea4c1787685d-fb12797ab1fe.txt
 
 f45b2974cc0ae959a4c503a071e38a56bd64372f bpf, x86: Fix "no previous prototype" warning
 38207a5e81230d6ffbdd51e5fa5681be5116dcae bpf, sockmap: Attach map progs to psock early for feature probes
@@ -69,15 +69,6 @@ b12f031043247b80999bf5e03b8cded3b0b40f8d bpf: Fix bpf_check_mod_kfunc_call for b
 61125b8be85dfbc7e9c7fe1cc6c6d631ab603516 i40e: Fix failed opcode appearing if handling messages from VF
 8aa55ab422d9d0d825ebfb877702ed661e96e682 i40e: Fix pre-set max number of queues for VF
 23ec111bf3549aae37140330c31a16abfc172421 i40e: Fix NULL pointer dereference in i40e_dbg_dump_desc
-94cddf1e9227a171b27292509d59691819c458db can: pch_can: pch_can_rx_normal: fix use after free
-3ec6ca6b1a8e64389f0212b5a1b0f6fed1909e45 can: sja1000: fix use after free in ems_pcmcia_add_card()
-f58ac1adc76b5beda43c64ef359056077df4d93a can: m_can: Disable and ignore ELO interrupt
-31cb32a590d62b18f69a9a6d433f4e69c74fdd56 can: m_can: m_can_read_fifo: fix memory leak in error branch
-d737de2d7cc3efdacbf17d4e22efc75697bd76d9 can: m_can: pci: fix iomap_read_fifo() and iomap_write_fifo()
-8c03b8bff765ac4146342ef90931bb50e788c758 can: m_can: pci: fix incorrect reference clock rate
-ea768b2ffec6cc9c3e17c37ef75d0539b8f89ff5 Revert "can: m_can: remove support for custom bit timing"
-ea22ba40debee29ee7257c42002409899e9311c1 can: m_can: make custom bittiming fields const
-ea4c1787685dbf9842046f05b6390b6901ee6ba2 can: m_can: pci: use custom bit timings for Elkhart Lake
 2a62df3692716b051be4514d60c190559256fb06 Merge tag 'linux-can-fixes-for-5.16-20211207' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 d17b9737c2bc09b4ac6caf469826e5a7ce3ffab7 net/qla3xxx: fix an error code in ql_adapter_up()
 f23ab04dd6f703e282bb2d51fe3ae14f4b88a628 ice: fix FDIR init missing when reset VF
@@ -111,5 +102,7 @@ fd31cb0c6a34499364259fc902a48a016e3760cf Merge git://git.kernel.org/pub/scm/linu
 e195e9b5dee6459d8c8e6a314cc71a644a0537fd net, neigh: clear whole pneigh_entry at alloc time
 f71ef02f1a4a3c49962fa341ad8de19071f0f9bf vmxnet3: fix minimum vectors alloc issue
 a50e659b2a1be14784e80f8492aab177e67c53a2 net: mvpp2: fix XDP rx queues registering
+36aea60fc892ce73f96d45dc7eb239c7c4c1fa69 can: kvaser_pciefd: kvaser_pciefd_rx_error_frame(): increase correct stats->{rx,tx}_errors counter
+fb12797ab1fef480ad8a32a30984844444eeb00d can: kvaser_usb: get CAN clock frequency from device
 
---===============3298601225099685552==--
+--===============7646916746068287418==--
