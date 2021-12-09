@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 09 Dec 2021 18:44:47 -0000
-Message-Id: <163907548744.12566.4389763704113433732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 09 Dec 2021 18:54:20 -0000
+Message-Id: <163907606003.19904.739993186459717362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 433f7cce3bc68a05bc7a977aa8e130065872ef3d
-    new: 9320da5b102893cdac161b27fc7c325ea22119d6
+  - ref: refs/heads/aio
+    old: 8822531f3be93503dbdf7e2b8c1640df2ea23221
+    new: 4b3749865374899e115aa8c48681709b086fe6d3
     log: |
-         df64c87022246022340f0f572b2737cd7ff886f8 emulator: Replace random number generation function
-         a11eea9259212fca4d028746c3107258021a8554 peripheral: Replace random number generation function
-         9968b0b66abf6dec89f68447d7158608c105c17c tools/btgatt-server: Replace random number generation function
-         6efadbcd07955587ff820c1e742c1458c48ae923 plugins: Replace random number generation function
-         9320da5b102893cdac161b27fc7c325ea22119d6 profiles/health: Replace random number generation function
+         42288cb44c4b5fff7653bc392b583a2b8bd6a8c0 wait: add wake_up_pollfree()
+         a880b28a71e39013e357fd3adccd1d8a31bc69a8 binder: use wake_up_pollfree()
+         9537bae0da1f8d1e2361ab6d0479e8af7824e160 signalfd: use wake_up_pollfree()
+         363bee27e25804d8981dd1c025b4ad49dc39c530 aio: keep poll requests on waitqueue until completed
+         50252e4b5e989ce64555c7aef7516bdefc2fea72 aio: fix use-after-free due to missing POLLFREE handling
+         4b3749865374899e115aa8c48681709b086fe6d3 aio: Fix incorrect usage of eventfd_signal_allowed()
          
