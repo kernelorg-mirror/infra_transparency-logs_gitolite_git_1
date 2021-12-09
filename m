@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 09 Dec 2021 18:43:23 -0000
-Message-Id: <163907540346.12091.8618994116500268925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 09 Dec 2021 18:44:47 -0000
+Message-Id: <163907548744.12566.4389763704113433732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/arm64/atomics/improvements
-    old: a8d1b2cbf0bc17fa15bb2d3acc97553d0e043396
-    new: 45f2b7feaba73b963c5dd20c0338dfa6a43189fd
+  - ref: refs/heads/master
+    old: 433f7cce3bc68a05bc7a977aa8e130065872ef3d
+    new: 9320da5b102893cdac161b27fc7c325ea22119d6
     log: |
-         cfd90e470e82a17b96a13142b31e5b4de78312c9 arm64: atomics: lse: improve constraints for simple ops
-         45f2b7feaba73b963c5dd20c0338dfa6a43189fd arm64: atomics: lse: define RETURN ops in terms of FETCH ops
+         df64c87022246022340f0f572b2737cd7ff886f8 emulator: Replace random number generation function
+         a11eea9259212fca4d028746c3107258021a8554 peripheral: Replace random number generation function
+         9968b0b66abf6dec89f68447d7158608c105c17c tools/btgatt-server: Replace random number generation function
+         6efadbcd07955587ff820c1e742c1458c48ae923 plugins: Replace random number generation function
+         9320da5b102893cdac161b27fc7c325ea22119d6 profiles/health: Replace random number generation function
          
