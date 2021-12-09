@@ -1,29 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 09 Dec 2021 13:48:23 -0000
-Message-Id: <163905770370.19107.14446585664575463901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Thu, 09 Dec 2021 13:49:10 -0000
+Message-Id: <163905775018.20506.15740570120147917699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/devel
-    old: 12422af8194df85243d68b11f8783de9d01e58dc
-    new: 88002d647349a7c78cf2ee5070627290fe9ccf0d
-    log: |
-         88002d647349a7c78cf2ee5070627290fe9ccf0d pinctrl: Sort Kconfig and Makefile entries alphabetically
-         
   - ref: refs/heads/for-next
-    old: f90aa8eae2ac13240e17e35b32d33d069940abcd
-    new: 4769075969b69fd4468d253cf35161737438a49f
-    log: |
-         88002d647349a7c78cf2ee5070627290fe9ccf0d pinctrl: Sort Kconfig and Makefile entries alphabetically
-         4769075969b69fd4468d253cf35161737438a49f Merge branch 'devel' into for-next
-         
-  - ref: refs/heads/fix-bcm2835
-    old: 0000000000000000000000000000000000000000
-    new: c2f1326dcff2fe6646e1e8a1a55736bcbec567f7
+    old: e56d1cdf0b2b56f0d6f9e5e998005152e20a3a94
+    new: 42f65ea5a727a615b3249374c9bca3140c75778a
