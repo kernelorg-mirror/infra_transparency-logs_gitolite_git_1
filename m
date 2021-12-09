@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 09 Dec 2021 03:57:45 -0000
-Message-Id: <163902226509.28586.16205868101008431901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Thu, 09 Dec 2021 06:52:39 -0000
+Message-Id: <163903275951.6035.1289554018086261291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/dev
-    old: 07f892dade6a3b08fb833e2e9cf5074afc0d937f
-    new: f147dfab2e8ec90e5397d1439b8e6e2ab3a8bd7d
+  - ref: refs/heads/main
+    old: 45f3d1a095dd3440578d5c6313eba555a791f3fb
+    new: 17739b7ef510917471409d71fb45d8eaf6a1e1fb
     log: |
-         375cbeff4ae499f2e1e03ef0c22f4c1df51b4f02 fixup! rcu-tasks: Use fewer callbacks queues if callback flood ends
-         f147dfab2e8ec90e5397d1439b8e6e2ab3a8bd7d fixup! EXP rcu-tasks: Check for abandoned callbacks
+         17739b7ef510917471409d71fb45d8eaf6a1e1fb Support 'r' format for printing raw bytes with fdtget
+         
+  - ref: refs/heads/master
+    old: 45f3d1a095dd3440578d5c6313eba555a791f3fb
+    new: 17739b7ef510917471409d71fb45d8eaf6a1e1fb
+    log: |
+         17739b7ef510917471409d71fb45d8eaf6a1e1fb Support 'r' format for printing raw bytes with fdtget
          
