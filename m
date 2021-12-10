@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 10 Dec 2021 03:09:47 -0000
-Message-Id: <163910578789.11359.15692371227627992527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 10 Dec 2021 03:11:47 -0000
+Message-Id: <163910590738.13388.1593972095892636316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ded746bfc94398d2ee9de315a187677b207b2004
-    new: 92816e2629808726af015c7f5b14adc8e4f8b147
+    old: 3150a73366b64e3109f0facbc98bcacbc14e81ba
+    new: e5d75fc20b9278d07731f69e327adf16227813a6
     log: |
-         92816e2629808726af015c7f5b14adc8e4f8b147 selftests: net: Correct ping6 expected rc from 2 to 1
+         9745177c948984d61f7853f922d501cc440aae47 net: x25: drop harmless check of !more
+         e5d75fc20b9278d07731f69e327adf16227813a6 sh_eth: Use dev_err_probe() helper
          
