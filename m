@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2245119798718865770=="
+Content-Type: multipart/mixed; boundary="===============6869303799318997855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Fri, 10 Dec 2021 02:52:49 -0000
-Message-Id: <163910476926.2175.12269791685020201672@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 02:52:59 -0000
+Message-Id: <163910477917.2303.12429720886527869731@gitolite.kernel.org>
 
---===============2245119798718865770==
+--===============6869303799318997855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/for-next
-    old: 55b8876f5fc3a3f097bca7f2b518e0dccd112905
-    new: 5f5fe4a8fe087d515f8a3895eafbb8816e6e93c1
-    log: revlist-55b8876f5fc3-5f5fe4a8fe08.txt
+  - ref: refs/heads/master
+    old: cd8c917a56f20f48748dd43d9ae3caff51d5b987
+    new: c741e49150dbb0c0aebe234389f4aa8b47958fa8
+    log: revlist-cd8c917a56f2-c741e49150db.txt
 
---===============2245119798718865770==
+--===============6869303799318997855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55b8876f5fc3-5f5fe4a8fe08.txt
+Content-Disposition: attachment; filename=revlist-cd8c917a56f2-c741e49150db.txt
 
 f45b2974cc0ae959a4c503a071e38a56bd64372f bpf, x86: Fix "no previous prototype" warning
 38207a5e81230d6ffbdd51e5fa5681be5116dcae bpf, sockmap: Attach map progs to psock early for feature probes
@@ -177,17 +177,5 @@ e8b1d7698038e76363859fb47ae0a262080646f5 net: dsa: felix: Fix memory leak in fel
 27698cd2a3c07d124fad6bfc8dd93fd1c5d46879 Merge tag 'mtd/fixes-for-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 ded746bfc94398d2ee9de315a187677b207b2004 Merge tag 'net-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c741e49150dbb0c0aebe234389f4aa8b47958fa8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-6b93a1680968ce3002e530727036359930caf043 bcache: add initial data structures for nvm pages
-c4cbb0f25d34b72415738e92db6428b2854e10a3 bcache: initialize the nvm pages allocator
-0419b218e3eda3de838e1b535ebcf4d3479f57bd bcache: initialization of the buddy
-4ffa4fb07976af90c985b9c40ee084ef4a114e14 bcache: bch_nvmpg_alloc_pages() of the buddy
-cbf9292b1a30551aeff6568dcf3e0dbf6e633900 bcache: bch_nvmpg_free_pages() of the buddy allocator
-24998750886b31ca0f8082fb6598aae64e2893f0 bcache: get recs list head for allocated pages by specific uuid
-c4cb5c38a636b560471d3bbb75c3c2c88c0078d6 bcache: use bucket index to set GC_MARK_METADATA for journal buckets in bch_btree_gc_finish()
-a50c9e8b3a74097bddf9a96e8dd6ae45740178b9 bcache: add BCH_FEATURE_INCOMPAT_NVDIMM_META into incompat feature set
-ef213648b4dda299836af8f73a906f203376fb32 bcache: initialize bcache journal for NVDIMM meta device
-73f3278483f5f4fac1c95df8c0dc9b4bc3aa6ea7 bcache: support storing bcache journal into NVDIMM meta device
-16a4ce9769d84992417a2cc48b181d07337ac41f bcache: read jset from NVDIMM pages for journal replay
-5f5fe4a8fe087d515f8a3895eafbb8816e6e93c1 bcache: add sysfs interface register_nvdimm_meta to register NVDIMM meta device
 
---===============2245119798718865770==--
+--===============6869303799318997855==--
