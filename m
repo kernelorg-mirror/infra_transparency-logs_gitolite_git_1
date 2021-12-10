@@ -1,21 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 10 Dec 2021 13:27:45 -0000
-Message-Id: <163914286583.16699.6453533713593593425@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8694932743479666960=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 10 Dec 2021 13:33:46 -0000
+Message-Id: <163914322670.19903.1768961577803179006@gitolite.kernel.org>
+
+--===============8694932743479666960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/irqchip-fixes-5.16-2
-    old: adb80b32046bc2c886c308d62c2d336b4e148d3f
-    new: f4fdd155c0ee96e27e7a0d6fa0acb96d70f533f0
+  - ref: refs/heads/master
+    old: f0623e5962ce34d470dcfc78ec21dfbe36517fd9
+    new: 80350d1d0bbeaee3007083ac666d42e17cc97a35
     log: |
-         3d9e575f2acef57528ed6950b5f8ba99f5e52f3f irqchip/apple-aic: Mark aic_init_smp() as __init
-         b383a42ca523ce54bcbd63f7c8f3cf974abc9b9a irqchip/irq-gic-v3-its.c: Force synchronisation when issuing INVALL
-         c3fbab7767c53397d7b849799474f5a27cf306e6 irqchip/irq-bcm7120-l2: Add put_device() after of_find_device_by_node()
+         80350d1d0bbeaee3007083ac666d42e17cc97a35 5.10-stable patches
          
+
+--===============8694932743479666960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639143225 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1639143222-b2a5ceefa947a120d171d8a7e10aa9efe51c4773
+
+f0623e5962ce34d470dcfc78ec21dfbe36517fd9 80350d1d0bbeaee3007083ac666d42e17cc97a35 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGzVzkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BDAP/Rxvzn/cYIf3WqmHKMj0
+pt52rbOtCZ17ItaQk86SinDYu4iZDJT/pUMHBq/3MiGQwekE7NKkZrfdHUN7FGVK
+NgHPIjqakB8uJaI6DwqBDfFvWyCt1LfXvklQ+dSdHCfsb+138r5XRSrGUhZa4frO
+nJcXg1KMp1iiJVR0eIRQdzJESmoY8DI2VoBGNLXFnU3QvTJpCdQMzjO5S0HiqPjX
+lU8EAEP5Bt+mu5Wt8XdPItATij5yCjP+sMqTGm0cWw88sda1Ewiwb+lENi9aidY1
+GoFlatDBDkj9lYcflYjArkTJCcJLXBrUw48TGbBBln277vvjJcaXeAQDmg3Cxvpe
+KC60B5q8Kr/NOB4kU6IH3arEMx/xAbSjvYUPNV5hyuXUOYtRzKcptkoGmWWQoizq
+SahS0fazLqUlT9o2d2+oVtiL5a357G7xA5/lMONT0nZHfEdoNpG5rfrGPOqZtSLv
+0kyZHNYrSJATTCPluTvUv6THhlMfDEEO5TzRJK9c6InrsBILZ+Z0Iakbj5gsdXIX
+uP9WXz9CWoPx/zZRvpe5W8CGBKyxn5asi+AhFf6dPODOLOIrADkLC5S92BeHZ7d5
+K3VJKgnCGttrvpKrIc4MaWQmKWLnPU42w0NNKaTtZqN0TCu2T3XNG7pbxJfwram9
+3a6T6MQGDRBZT/ithwCCm0XR
+=s+AM
+-----END PGP SIGNATURE-----
+
+--===============8694932743479666960==--
