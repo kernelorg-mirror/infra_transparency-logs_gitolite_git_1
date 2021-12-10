@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4339060527657619594=="
+Content-Type: multipart/mixed; boundary="===============9071262384285137650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 10 Dec 2021 06:38:59 -0000
-Message-Id: <163911833911.11407.4182901706820465272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 10 Dec 2021 06:39:30 -0000
+Message-Id: <163911837093.11624.7484943486859731809@gitolite.kernel.org>
 
---===============4339060527657619594==
+--===============9071262384285137650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: 0690b1e5d4a5b6f49b524e932aed5585ab8a4b61
-    new: 5857e3d1820d85e10321ec180ed88e780fd0ec3e
-    log: revlist-0690b1e5d4a5-5857e3d1820d.txt
+  - ref: refs/heads/extcon-testing
+    old: 56b1c149f93e0679654eb2206c0568271ccc7088
+    new: 2f258b515a3f040aa93c31a0840303b7b406b29e
+    log: revlist-56b1c149f93e-2f258b515a3f.txt
 
---===============4339060527657619594==
+--===============9071262384285137650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0690b1e5d4a5-5857e3d1820d.txt
+Content-Disposition: attachment; filename=revlist-56b1c149f93e-2f258b515a3f.txt
 
+2153bd1e3d3dbf6a3403572084ef6ed31c53c5f0 net/smc: Transfer remaining wait queue entries during fallback
+92a59d7f381d2caf69385bfa00590028e32eea26 selftests: gpio: fix gpio compiling error
+c472d71be0be0f0ca0fbb794dce83bd76623ee2f selftests: gpio: fix uninitialised variable warning
 4f4d0af7b2d997635b08fabd748673eff1bb12d6 selftests: gpio: restore CFLAGS options
 f8885ac89ce310570e5391fe0bf0ec9c7c9b4fdc net: bnx2x: fix variable dereferenced before check
 b922f622592af76b57cbc566eaeccda0b31a3496 atlantic: Fix OOB read and write in hw_atl_utils_fw_rpc_wait
@@ -1046,9 +1049,6 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 944207047ca4dabe8e288f653e7ec6da05e70230 Merge tag 'usb-5.16-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
-98c1a1ad0b86eedd52c315595c074e5360596358 PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
-d678890dcdf858c25d2789793a35a81c4311e972 PM / devfreq: Add cpu based scaling support to passive governor
-7b58e541c578c64538996b377d6e04bbc0bb8b7f PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
-5857e3d1820d85e10321ec180ed88e780fd0ec3e PM / devfreq: passive: Update frequency when start governor
+2f258b515a3f040aa93c31a0840303b7b406b29e extcon: Add support of multiple external connector on a device
 
---===============4339060527657619594==--
+--===============9071262384285137650==--
