@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0170435546276218372=="
+Content-Type: multipart/mixed; boundary="===============3758215452958560196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 10 Dec 2021 06:36:55 -0000
-Message-Id: <163911821513.10485.16212888682236857246@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 06:37:15 -0000
+Message-Id: <163911823551.10665.1307890873219643582@gitolite.kernel.org>
 
---===============0170435546276218372==
+--===============3758215452958560196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 9e6ef3a25e5e13899381282dbd8d8d157a899262
+  - ref: refs/heads/extcon-fixes
+    old: 6880fa6c56601bb8ed59df6c30fd390cc5f6dd8f
     new: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
-    log: revlist-9e6ef3a25e5e-0fcfb00b28c0.txt
+    log: revlist-6880fa6c5660-0fcfb00b28c0.txt
 
---===============0170435546276218372==
+--===============3758215452958560196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e6ef3a25e5e-0fcfb00b28c0.txt
+Content-Disposition: attachment; filename=revlist-6880fa6c5660-0fcfb00b28c0.txt
 
 ae32bd420b91070a9743c996993559d086a6c80c Merge branch 'net-ipa-fixes'
 2153bd1e3d3dbf6a3403572084ef6ed31c53c5f0 net/smc: Transfer remaining wait queue entries during fallback
@@ -1051,4 +1051,4 @@ f5d54a42d35cbfcdb00d706ae928548bf690676c Merge tag 'x86_urgent_for_v5.16_rc4' of
 268ba095371cb28841bd9bd7f61c73290104a064 Merge tag 'for-5.16/parisc-6' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 Linux 5.16-rc4
 
---===============0170435546276218372==--
+--===============3758215452958560196==--
