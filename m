@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 10 Dec 2021 16:56:56 -0000
-Message-Id: <163915541685.20421.12526970345242509552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 10 Dec 2021 17:00:52 -0000
+Message-Id: <163915565216.23087.8517118907646171391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 0822b942af336ff61f0d5b98f31fc3ea6c923cd0
-    new: 836a73ef591323f0355728b4370009a98962170b
+    old: 3d20408dff9c0885591c8e1d31a67e9183f0cc8a
+    new: e1b539bd73a76dc8a7bf82befe6eac4ae79c76b3
     log: |
-         01569f0582e9cf50ab44d24064d1c3b2bb04a60c shared: add jsmn.h header for JSON parser
-         5dc4b67288d1aecf22ca1b80cf1506a1f5b340f3 json: introduce JSON module
-         836a73ef591323f0355728b4370009a98962170b dpp-util: check return of l_ecc_scalar_get_data
+         e1b539bd73a76dc8a7bf82befe6eac4ae79c76b3 xfrm: add net device refcount tracker to struct xfrm_state_offload
          
