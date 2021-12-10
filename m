@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 10 Dec 2021 12:23:03 -0000
-Message-Id: <163913898379.8905.2840757720859586406@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 12:26:28 -0000
+Message-Id: <163913918853.11372.8509409370061744956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/topic/hackathon/phase-6-WIP
-    old: 4164310750c55489595b2e7a0974867266010489
-    new: aec66085afc686609ff2c971e54d15fc6d9a9d93
+  - ref: refs/heads/irq/irqchip-fixes
+    old: b383a42ca523ce54bcbd63f7c8f3cf974abc9b9a
+    new: 5c19cd0a9ed9f7a067a7d9c444ff0590d1dce73f
     log: |
-         228efd1333a73050e4fe12cf26449d7bb58f3951 KVM: arm64: Drop unused workaround_flags vcpu field
-         9d6a6131356b3a7576a5b62a1761999aa29f1d48 WIP
-         aec66085afc686609ff2c971e54d15fc6d9a9d93 kaboom
+         5c19cd0a9ed9f7a067a7d9c444ff0590d1dce73f irqchip/irq-bcm7120-l2: add put_device() after of_find_device_by_node()
          
