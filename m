@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5538635705408799330=="
+Content-Type: multipart/mixed; boundary="===============2308564139559382664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 10 Dec 2021 17:52:30 -0000
-Message-Id: <163915875003.23026.4765103555679515407@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 17:52:41 -0000
+Message-Id: <163915876197.23115.3766368099713801499@gitolite.kernel.org>
 
---===============5538635705408799330==
+--===============2308564139559382664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 04ec4e6250e5f58b525b08f3dca45c7d7427620e
     new: ab443c53916730862cec202078d36fd4008bea79
     log: revlist-04ec4e6250e5-ab443c539167.txt
 
---===============5538635705408799330==
+--===============2308564139559382664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -235,4 +235,4 @@ ded746bfc94398d2ee9de315a187677b207b2004 Merge tag 'net-5.16-rc5' of git://git.k
 92816e2629808726af015c7f5b14adc8e4f8b147 selftests: net: Correct ping6 expected rc from 2 to 1
 ab443c53916730862cec202078d36fd4008bea79 sch_cake: do not call cake_destroy() from cake_init()
 
---===============5538635705408799330==--
+--===============2308564139559382664==--
