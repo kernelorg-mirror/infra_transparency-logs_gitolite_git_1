@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0009004967597467270=="
+Content-Type: multipart/mixed; boundary="===============3625158658944704109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Dec 2021 23:44:32 -0000
-Message-Id: <163917987212.16775.9809570753124906373@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 23:44:34 -0000
+Message-Id: <163917987439.16833.4678625531433324143@gitolite.kernel.org>
 
---===============0009004967597467270==
+--===============3625158658944704109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 733719ec4e0b7b4e94e053979f0bbfc489b76f0b
     new: 229fae38d0fc0d6ff58d57cbeb1432da55e58d4f
     log: revlist-733719ec4e0b-229fae38d0fc.txt
 
---===============0009004967597467270==
+--===============3625158658944704109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ bd6b3b355af59af1f8c417c269a46be26a1dc87b Merge branch 'Enhance and rework loggin
 b69c5c07a66ee569b8ccdc0cb567fe0622c89ea5 libbpf: Fix typo in btf__dedup@LIBBPF_0.0.2 definition
 229fae38d0fc0d6ff58d57cbeb1432da55e58d4f libbpf: Add "bool skipped" to struct bpf_map
 
---===============0009004967597467270==--
+--===============3625158658944704109==--
