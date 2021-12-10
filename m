@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 10 Dec 2021 15:17:57 -0000
-Message-Id: <163914947737.19849.7958356311070826841@gitolite.kernel.org>
+Date: Fri, 10 Dec 2021 15:19:10 -0000
+Message-Id: <163914955009.21541.11021424053994319895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: ab39d6988dd53f354130438d8afa5596a2440fed
-    new: 19784a059cf47b9797dfd9e3f1e705801c78020a
+  - ref: refs/heads/at24/for-next
+    old: 92e1764787e57417b8890db0f154c0f405548cdd
+    new: 6f89f413340f548179eb33ce3b0758ceee01371f
     log: |
-         19784a059cf47b9797dfd9e3f1e705801c78020a gpio: bcm-kona: add const to of_device_id
+         6f89f413340f548179eb33ce3b0758ceee01371f dt-bindings: at24: Rework special case compatible handling
          
