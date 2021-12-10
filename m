@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 10 Dec 2021 15:19:10 -0000
-Message-Id: <163914955009.21541.11021424053994319895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 10 Dec 2021 15:24:24 -0000
+Message-Id: <163914986466.24622.965066896118964305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/at24/for-next
-    old: 92e1764787e57417b8890db0f154c0f405548cdd
-    new: 6f89f413340f548179eb33ce3b0758ceee01371f
+  - ref: refs/heads/master
+    old: 7b5f2c977764dddf8667597275b44a3c821b1190
+    new: 0aa42a8107d023e2cf4898d7ad205650ca4524f0
     log: |
-         6f89f413340f548179eb33ce3b0758ceee01371f dt-bindings: at24: Rework special case compatible handling
+         0aa42a8107d023e2cf4898d7ad205650ca4524f0 libblkid: check blkid_get_cache() return value [coverity scan]
          
