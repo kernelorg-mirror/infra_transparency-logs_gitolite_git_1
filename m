@@ -1,56 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============8136385784680009872=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 10 Dec 2021 15:53:12 -0000
-Message-Id: <163915159293.11118.8088705756853158281@gitolite.kernel.org>
-
---===============8136385784680009872==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 10 Dec 2021 15:53:20 -0000
+Message-Id: <163915160059.11216.15217491391890908938@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: 82b6e43023c2c6a5a15862dc51ba9163a7af9dce
-    new: b1221e5aff99af6f078c5185393e7eb66023edc6
+  - ref: refs/heads/features
+    old: f139862b92cf85bd25cbe7c8683d63c037e6562c
+    new: 7a334a28a14bf8b8812bb2e626a6280ad0d21f4e
     log: |
-         b1221e5aff99af6f078c5185393e7eb66023edc6 4.19-stable patches
+         d2f2949ab6b60fc53134908d0ffc140ef50e5a1b s390/mm: add missing phys_to_virt translation to page table dumper
+         9d6305c2a116f4ea3160730df8cf83d13d629b87 s390/diag: use pfn_to_phys() instead of open coding
+         69700fb4389839dae84024b39a02cab844651122 s390/cmm: add missing virt_to_phys() conversion
+         2f882800f6ab57b50b7c23a376a452a808025f37 s390/pgalloc: add virt/phys address handling to base asce functions
+         da001fce26bec9b5933162b32b3cc65923ad6c17 s390/pgalloc: use pointers instead of unsigned long values
+         7a334a28a14bf8b8812bb2e626a6280ad0d21f4e s390/ap: add missing virt_to_phys address conversion
          
-
---===============8136385784680009872==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639151591 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1639151590-36c341ae63b69b5438fa60648db67248e3774940
-
-82b6e43023c2c6a5a15862dc51ba9163a7af9dce b1221e5aff99af6f078c5185393e7eb66023edc6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmGzd+cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GSkP/iJrcx8grtI9rIq4qJ0s
-vHBA+0CfF4uYClRWHior9ihG3MYuKmsuHk9auCdZsOaADHeVE0vYMEKCJtrXdxAf
-lxx5384luaJho2j10QddP/5VuNrzH8ogN8hy1l3AOF+8kuF3q6WvNjHkJTk9kWjY
-aTa6KeCeSVCIYuQLKcywlL16zPhO89WLNGKUE9R7EqdnKtVM6ir+dnxo7BMWWPK3
-K61GmThqc91+71BBOQixUD6J2T30VNEdw4L5TsqZqvmq54oWvIOEYFjFvfmxPWf7
-kmSR4tMgrETHJ9AKP29mOqdfqG/Tq43xNq/HK4jg/ostEME+wOeLa78aj6pIq7ts
-9V0Y0jzFO9wfayegfjPPIDMtALhOA9+iwoM+7iGQ1ZwdJmdT0gviqwxMdITiaoqj
-LKaQgQvkqF5lELJev6WY6OlkCj9Wy8blOarrKUxci7ghUBdxt0znR0Vd+7CUqoW3
-aBRKYvtA288Shz94VwQoG8aO2tUo7RspwCAXWgdb8WvQM5zltf9IQIfLa8Gg7zsY
-JTYlcmKgsCre4hcq9lanfPWzjv1XZS4V2ef9nkof1t+nMN6Icj5qKkAyIF3mXVcp
-rggathSyTFEHA1+ziwIg0CxS1vNSbUI4vL2257U9apSwGdUL9YtFVB6qhcd1t2H2
-kN10Vc3IX3zp81MKNxLmdikN
-=PC/Z
------END PGP SIGNATURE-----
-
---===============8136385784680009872==--
+  - ref: refs/heads/fixes
+    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
+    new: 5dcf0c3084eb098bbb702f2f5ee55666047997d4
+    log: |
+         edce10ee21f3916f5da34e55bbc03103c604ba70 s390/kexec_file: print some more error messages
+         41967a37b8eedfee15b81406a9f3015be90d3980 s390/kexec_file: fix error handling when applying relocations
+         ac8fc6af1ab62b2e5d57ddadc8bd4c9433c49a72 s390/ftrace: remove preempt_disable()/preempt_enable() pair
+         abf0e8e4ef25478a4390115e6a953d589d1f9ffd s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
+         5dcf0c3084eb098bbb702f2f5ee55666047997d4 s390: enable switchdev support in defconfig
+         
