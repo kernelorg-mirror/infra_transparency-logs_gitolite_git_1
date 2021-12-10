@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 10 Dec 2021 21:50:04 -0000
-Message-Id: <163917300425.11992.17699272105979984579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 10 Dec 2021 21:54:03 -0000
+Message-Id: <163917324380.13500.10857694177232337679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/io_uring-5.16
-    old: c355dc3c51baea443176b49f20cee7587e23a785
-    new: 71a85387546e50b1a37b0fa45dadcae3bfb35cf6
+  - ref: refs/heads/master
+    old: 836a73ef591323f0355728b4370009a98962170b
+    new: bb14a0d3b79681ea666f7a2da7df1049405c6807
     log: |
-         78a780602075d8b00c98070fa26e389b3b3efa72 io_uring: ensure task_work gets run as part of cancelations
-         71a85387546e50b1a37b0fa45dadcae3bfb35cf6 io-wq: check for wq exit after adding new worker task_work
+         d65aaf8740ce3c948534975aa89fe00676939ba7 dpp-util: check return of l_ecc_scalar_get_data
+         bb14a0d3b79681ea666f7a2da7df1049405c6807 shared: add jsmn.h header for JSON parser
          
