@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Dec 2021 17:58:35 -0000
-Message-Id: <163915911522.26304.14842281322092116693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 10 Dec 2021 18:00:30 -0000
+Message-Id: <163915923040.28406.16814782832299549440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: f529cc537b8e907c25f29eb00f50979e8e532cbc
-    new: 34c4aa156f810db51e9e97792ced52401d66655a
+  - ref: refs/heads/main
+    old: ab6efa49afc2b166ab78bdd66636b3f10d3ef7be
+    new: 338843c1ee157ae5d990c6f544f66b447b24fa8b
     log: |
-         7fde7c0d4b5d125b6e6cbb1b22fabed883c7331e x86/uaccess: Move variable into switch case statement
-         34c4aa156f810db51e9e97792ced52401d66655a x86/fpu: Remove duplicate copy_fpstate_to_sigframe() prototype
+         338843c1ee157ae5d990c6f544f66b447b24fa8b rt-tests: Change to version 2.3
          
