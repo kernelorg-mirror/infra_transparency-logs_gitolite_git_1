@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Sat, 11 Dec 2021 00:25:05 -0000
-Message-Id: <163918230554.12216.5401770445472233995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 11 Dec 2021 00:47:50 -0000
+Message-Id: <163918367084.24276.16066802058903745612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 1c1b63aae786967cef71336d05c247e67b59d9c6
-    new: 385dd2d469b7092da1093891b76240a8c99ccace
+  - ref: refs/heads/dev
+    old: ab0ae3d5a15f609f013d59c20b2436da5190f84b
+    new: ae788da94567b1c590a2c76d0a25ed2ec1ce3be4
     log: |
-         385dd2d469b7092da1093891b76240a8c99ccace unit: add larger object test
+         ee418df93691657d27f6118d1ff8f681c52f4aa3 rcu: Create and use a rcu_rdp_cpu_online()
+         ae788da94567b1c590a2c76d0a25ed2ec1ce3be4 rcu: Refactor rcu_barrier() empty-list handling
          
