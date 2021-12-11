@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4837053347478537366=="
+Content-Type: multipart/mixed; boundary="===============6391887930845241961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 11 Dec 2021 05:02:30 -0000
-Message-Id: <163919895097.26214.14128521367049210807@gitolite.kernel.org>
+Date: Sat, 11 Dec 2021 05:03:00 -0000
+Message-Id: <163919898058.26426.11720601395374053200@gitolite.kernel.org>
 
---===============4837053347478537366==
+--===============6391887930845241961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 492953bc1d8a72fe82fccdd7546f411bcb36d6c3
+  - ref: refs/heads/next
+    old: 7eba41fe8c7bb01ff3d4b757bd622375792bc720
     new: a64f17bdb2a5d131e75940c3ba70dbe5f8cc1428
-    log: revlist-492953bc1d8a-a64f17bdb2a5.txt
+    log: revlist-7eba41fe8c7b-a64f17bdb2a5.txt
 
---===============4837053347478537366==
+--===============6391887930845241961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-492953bc1d8a-a64f17bdb2a5.txt
+Content-Disposition: attachment; filename=revlist-7eba41fe8c7b-a64f17bdb2a5.txt
 
 8e38e96a4e616ed0936faa964ceeb5d390b6425e KVM: SEV: Fix typo in and tweak name of cmd_allowed_from_miror()
 817506df9dbaacf360e518d9ef26ca4075bbbacd Merge branch 'kvm-5.16-fixes' into kvm-master
@@ -1051,4 +1051,4 @@ a49a6bb27ef4934142f0cf1e0ba91cf40d3aaa4c tpm: tpm_tis_spi_cr50: Add default RNG 
 2a75bea5169e3732d87df69049e73dc534dd8601 tpm_tis: Fix an error handling path in 'tpm_tis_core_init()'
 a64f17bdb2a5d131e75940c3ba70dbe5f8cc1428 keys: X.509 public key issuer lookup without AKID
 
---===============4837053347478537366==--
+--===============6391887930845241961==--
