@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sat, 11 Dec 2021 10:41:54 -0000
-Message-Id: <163921931418.24844.398389153222667578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sat, 11 Dec 2021 11:07:47 -0000
+Message-Id: <163922086738.8523.17105547529539884093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
+repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/rc4-boot
-    old: 23c2fcc4f682c6af04c52ac2792f4e10ac9d501a
-    new: b6cba11b4abdfb457cfba6869dd37095543d8ab0
+  - ref: refs/heads/edac-misc
+    old: ad2c302bc6049c56c85cc2b64a0b4bd8e7ffdc56
+    new: b011a57e41ccbd402ecdcb53514ba76b898ec22e
     log: |
-         8abcb48e76c2da5bf39f3cf8f2d7ab72afd84da6 Revert "x86/boot: Pull up cmdline preparation and early param parsing"
-         b6cba11b4abdfb457cfba6869dd37095543d8ab0 x86/boot: Move EFI range reservation after cmdline parsing
+         b011a57e41ccbd402ecdcb53514ba76b898ec22e RAS/CEC: Remove a repeated 'an' in a comment
          
