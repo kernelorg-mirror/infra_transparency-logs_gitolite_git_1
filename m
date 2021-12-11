@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 11 Dec 2021 01:55:08 -0000
-Message-Id: <163918770822.3266.7476530177940464588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 11 Dec 2021 02:16:16 -0000
+Message-Id: <163918897630.14948.4579898484548855814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/imx-fixes-5.16-2
-    old: 0000000000000000000000000000000000000000
-    new: 90bfe1064438a971f9cec5357b0134af49bb7767
+  - ref: refs/heads/master
+    old: f617d8c392199e6d90d4735aa4fa5d9dc01b5a6e
+    new: 8fc1aeedc7141c7446cc901edfa84a09b74e3902
+    log: |
+         8fc1aeedc7141c7446cc901edfa84a09b74e3902 Sat Dec 11 02:15:40 AM UTC 2021
+         
