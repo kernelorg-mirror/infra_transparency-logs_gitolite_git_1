@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5784746350433316080=="
+Content-Type: multipart/mixed; boundary="===============0942568180540622659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 12 Dec 2021 17:08:15 -0000
-Message-Id: <163932889541.23962.4611289830043770639@gitolite.kernel.org>
+Date: Sun, 12 Dec 2021 17:08:55 -0000
+Message-Id: <163932893588.24199.12406075283360572246@gitolite.kernel.org>
 
---===============5784746350433316080==
+--===============0942568180540622659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 15345420d4127111411514e91d1235dbfa967ae4
+  - ref: refs/heads/togreg
+    old: 29adf99733e95621dfbebaf9ae548b4da8316aaf
     new: 1665a92f780ac47c56c47916a9f8c4efbdd794b9
-    log: revlist-15345420d412-1665a92f780a.txt
+    log: revlist-29adf99733e9-1665a92f780a.txt
 
---===============5784746350433316080==
+--===============0942568180540622659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15345420d412-1665a92f780a.txt
+Content-Disposition: attachment; filename=revlist-29adf99733e9-1665a92f780a.txt
 
+2ff1f4d8df665316921bb752d28a5ea68c1a9811 dt-bindings:iio:dac: add ad7293 doc
+d4b572f835a58bb394024fe3250441fabab9eee6 MAINTAINERS: Update i.MX 8QXP ADC info
+b62e2e1763cda3a6c494ed754317f19be1249297 iio: add addac subdirectory
+3cf3cdea6fe3fdb7a1e4ac1372b80408e4f56b73 dt-bindings: iio: add AD74413R
+fea251b6a5dbdf8ba8af64abcd013d66ab6b05ee iio: addac: add AD74413R driver
 9020ef659885f2622cfb386cc229b6d618362895 iio: trigger: Fix a scheduling whilst atomic issue seen on tsc2046
 3ac27afefd5dd6a53e830542b899f092a58b6b51 iio:dac:ad5755: Switch to generic firmware properties and drop pdata
 f191fe4f0d3e8ed033d888b4da9039f8ffe4039f iio:dac:ad5758: Drop unused of specific headers.
@@ -41,4 +46,4 @@ ade2be6d9b07529f35cb98c49b00a1b3bf26973c iio:adc:ti-ads124s08: Drop dependency o
 a81c33f56abea1a63495e9a72073dda8c28083b8 iio:adc/dac:Kconfig: Update to drop OF dependencies.
 1665a92f780ac47c56c47916a9f8c4efbdd794b9 dt-bindings: iio: dac: adi,ad5755: drop unrelated included.
 
---===============5784746350433316080==--
+--===============0942568180540622659==--
