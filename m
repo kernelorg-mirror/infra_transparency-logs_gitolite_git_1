@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6155573610679263050=="
+Content-Type: multipart/mixed; boundary="===============3817511492053606601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Dec 2021 00:59:04 -0000
-Message-Id: <163927074480.30749.11919937156578239239@gitolite.kernel.org>
+Date: Sun, 12 Dec 2021 00:59:11 -0000
+Message-Id: <163927075154.30841.3589061894815796930@gitolite.kernel.org>
 
---===============6155573610679263050==
+--===============3817511492053606601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 229fae38d0fc0d6ff58d57cbeb1432da55e58d4f
     new: 77ab714f00703c91d5a6e15d7445775c80358774
     log: revlist-229fae38d0fc-77ab714f0070.txt
 
---===============6155573610679263050==
+--===============3817511492053606601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ de5841e1c93f2275bb73c471255b718b5ec2f0ec net: ocelot: add support for ndo_change
 753a026cfec1429c9e32e004ae4d4c2727cc0111 net: ocelot: add FDMA support
 77ab714f00703c91d5a6e15d7445775c80358774 Merge branch 'add-fdma-support-on-ocelot-switch-driver'
 
---===============6155573610679263050==--
+--===============3817511492053606601==--
