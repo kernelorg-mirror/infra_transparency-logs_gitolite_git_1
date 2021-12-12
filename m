@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4076332767444014579=="
+Content-Type: multipart/mixed; boundary="===============4663033926704807113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 12 Dec 2021 18:19:01 -0000
-Message-Id: <163933314174.4257.16595953184075565490@gitolite.kernel.org>
+Date: Sun, 12 Dec 2021 18:19:11 -0000
+Message-Id: <163933315175.4393.13019555025257207237@gitolite.kernel.org>
 
---===============4076332767444014579==
+--===============4663033926704807113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: e5d75fc20b9278d07731f69e327adf16227813a6
-    new: 9b5bcb193a3bba4b96ead86df52602e3951655ba
-    log: revlist-e5d75fc20b92-9b5bcb193a3b.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3467419d369ef5d39e0d3164f033f204cb7719f7
+    new: ce0c71a9c5253b969f9a123312f9503413c78915
+    log: revlist-3467419d369e-ce0c71a9c525.txt
 
---===============4076332767444014579==
+--===============4663033926704807113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5d75fc20b92-9b5bcb193a3b.txt
+Content-Disposition: attachment; filename=revlist-3467419d369e-ce0c71a9c525.txt
 
 e47d0bf800e8d7f4de501987b2788c7f2ce22cd1 bpftool: Add current libbpf_strict mode to version output
 69a055d546156adc6f7727ec981f721d5ba9231a libbpf: Fix a couple of missed btf_type_tag handling in btf.c
@@ -185,5 +185,32 @@ fcbf979a5b4b5784bfb5647ae6190cd5c2ae595d Revert "net: dsa: move sja1110_process_
 950a419d9de13668f86828394cb242a1f9dece74 net: dsa: tag_sja1105: split sja1105_tagger_data into private and public sections
 4f3cb34364e2552ce5f3a8ca33a184c13c6152a5 net: dsa: remove dp->priv
 9b5bcb193a3bba4b96ead86df52602e3951655ba Merge branch 'dsa-tagger-storage'
+e00bc59d9e0b7db76e360d55d794d57d02f08c33 net/sched: act_ct: Fill offloading tuple iifidx
+5f961583cbc3a16584b2be82c6756533a0d55159 net: openvswitch: Fill act ct extension
+842872f735678f645c884b57702dd992783a8bee net/mlx5: CT: Set flow source hint from provided tuple device
+250c3ae2b522c33f23ca02252f78fc121cd4e508 net/mlx5e: Add tc action infrastructure
+b94ce13de1a9d7eae7b2442823b624ea63a05e6b net/mlx5e: Add goto to tc action infra
+12c86cafc10cc79af196b5eeb44b776d39c50e4b net/mlx5e: Add tunnel encap/decap to tc action infra
+d1e36904342cfed4cad7fa59251ee35a70e109d5 net/mlx5e: Add csum to tc action infra
+6413ab019c9c6a14d85962ac13a65547fdd52875 net/mlx5e: Add pedit to tc action infra
+f5375d1339f97e9e98649bf2b43589c009591f1d net/mlx5e: Add vlan push/pop to tc action infra
+e70d0a031473bdee3a5f328b21b0df875f93a0c3 net/mlx5e: Add vlan mangle to tc action infra
+fac239638ed17ad46144f5b0bab44bfe6267aac6 net/mlx5e: Add mpls push/pop to tc action infra
+b38085230f5c2e65831a3598803290ee63c9ad06 net/mlx5e: Add mirred/redirect to tc action infra
+3b002b192a5be253b8d26a73724f7d5d07573b5e net/mlx5e: Add ct to tc action infra
+824c41212c1b1bf74548533c1ef4a444a004d3ee net/mlx5e: Add sample to tc_action infra
+141b1641289a8f3e650448f91483dd7ec5ecafd0 net/mlx5e: Add ptype to tc action infra
+7dac9a6fabb89f4ebce97ae298cc8e60b378848f net/mlx5e: Add redirect ingress to tc action infra
+e60130699b04c7bfaa37bf180c555c5934af67c5 net/mlx5e: TC action parsing loop
+f6bbf48072c2560b3826ab6cd22faab889029b4b net/mlx5e: Move sample attr allocation to tc_action sample parse op
+e1d6808ba65629d2ec60b3357444a206d41b9ceb net/mlx5e: Add post_parse() op to tc action infrastructure
+934afa7cf93b507c2e576c24f33768d6a0240722 net/mlx5e: Move vlan action chunk into tc action vlan post parse op
+6a97bc99f5932d584b2cc568487fcb41b5e2b37f net/mlx5e: Move goto action checks into tc_action goto post parse op
+bdd519ae556d1e68936571573481da6449491f26 net/mlx5: Separate FDB namespace
+07ce46ff783897f7b87d5cf9159f4c191cf504ae net/mlx5: Refactor mlx5_get_flow_namespace
+4312d008e7cf8cd626b81aeb17012b558e804575 net/mlx5: Create more priorities for FDB bypass namespace
+2d9e5d6f44d7b6154a71648b80228c284b5ce91e RDMA/mlx5: Add support to multiple priorities for FDB rules
+d2421604f798eae81e7168586af73d2022532c6c Merge branch 'patchq/426503' into mlx5-queue
+ce0c71a9c5253b969f9a123312f9503413c78915 Merge branch 'patchq/449782' into mlx5-queue
 
---===============4076332767444014579==--
+--===============4663033926704807113==--
