@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2941751166541946842=="
+Content-Type: multipart/mixed; boundary="===============5238206297415009961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 12 Dec 2021 13:56:01 -0000
-Message-Id: <163931736157.2477.12356278707441667640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 12 Dec 2021 13:57:22 -0000
+Message-Id: <163931744259.2957.4153085646564915902@gitolite.kernel.org>
 
---===============2941751166541946842==
+--===============5238206297415009961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 11b3cb112fa7d37d7ebcf551e97dd7e1f7f458f4
-    new: 3c02483100f98abf478fd9e9f4e8420a57e78c9d
+  - ref: refs/heads/usb-linus
+    old: 7faac1953ed1f658f719cdf7bb7303fa5eef822c
+    new: ca5737396927afd4d57b133fd2874bbcf3421cdb
     log: |
-         3c02483100f98abf478fd9e9f4e8420a57e78c9d 5.10-stable patches
+         153a2d7e3350cc89d406ba2d35be8793a64c2038 USB: gadget: detect too-big endpoint 0 requests
+         86ebbc11bb3f60908a51f3e41a17e3f477c2eaa3 USB: gadget: zero allocate endpoint 0 buffers
+         1a3910c80966e4a76b25ce812f6bea0ef1b1d530 usb: core: config: fix validation of wMaxPacketValue entries
+         ca5737396927afd4d57b133fd2874bbcf3421cdb usb: core: config: using bit mask instead of individual bits
          
 
---===============2941751166541946842==
+--===============5238206297415009961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639317360 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1639317358-1da22d87994f5df7fadad5176fb386e154acc3f7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639317440 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1639317439-9238106d751bd3e9cd6c8cae99ec34d119923e07
 
-11b3cb112fa7d37d7ebcf551e97dd7e1f7f458f4 3c02483100f98abf478fd9e9f4e8420a57e78c9d refs/heads/master
+7faac1953ed1f658f719cdf7bb7303fa5eef822c ca5737396927afd4d57b133fd2874bbcf3421cdb refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG1/3AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s0AP/2t8kzypkK939RnhLiDT
-CBiujYWlcoNy+ehEyZ4Dq1zeDEyt+kPQpIshGgjcFbG1CaZyxvsP2229/AwsEZju
-KrT3nRNLsVnqNqIlcV8C8d2YFjyOsHS7WHa/k0Orj5GSGHVjgvKQny1HzrWpjgJo
-3vsIbqTBq6/GSR4sDZJgg7qEhrRGyjRfIkYmBGN2lqdNjpV2ldEZloWlFFV6WAvB
-RDfXVhK+NwuHHYOwdnXMl+UbPn3bXNkWqeDFi0XigghKuoZzw5c3ouVJU/A14LSQ
-r+ENKpY1mrtY6V5awP//C27xNerW4ri48k9BTQ6Tm0D0XmzutRhHtP8aMkWUJRIH
-GzQ4XmGHNstsElrdTpQDdm6ibEUgvsJbVf/0K8fWpOql/vjKRYJMGE3kGvnQS3hY
-Ah/+1t1C6PnJpxsUnOX+PnIEKtpjCg7Ye444wx5UpXbqZWAP1Qn79zT8zZWiKV0t
-a6rnTlFTVfSQxyYSe7+2HNVa+4dkiS0Mqm4fkRF5PYjjEpMYq8yVEcdm2LW4i2gj
-ECxtcNoeuKNeDPKSo5XqJntdMXzgojdbcAFk6idIgPaBeZvyKD1Z/9yPxyuNNHD4
-ibAsxZjjnqQXUpkvHxg0CunEec5bdT5e19dBubFj7O3GZEkbd3IFI84qa4obSr+4
-hOr381Q8Hqpq6UWv915OrKHu
-=lZyJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG1/8AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IgMP/iLT+RBSi2xKRy3IsC3O
+bpx1rnepukvuEMtzPf26j/hPKY45GGIkR1vyxWMpNP6hnAU1LpbgBYlcoNIBPrI0
+BaL7/bdKYShUjh8i/W88E84778kJOH+6FyChSl3RhmhZXNAFxPDd6I39gW6S6Kj+
+dyOjqeWrAdyNrDOV5a0S0sQ0Lexd1CKZsrEpaBdghdknMexywwDDtYKoh+e2oM9p
+C1Q/zGUCrpdHstF8lDcs/xoOCYWhx3je7Pujh8OSoPYKRRCVRMjdHDGrBru8cnSk
+NcEK9QVHpoxmpSBAC7DFdmOdK/hQwQRr8/LoxtRYWopETZBWA1FHGqJqZurA/WDB
+A0cxm5PRk8NXvGNur8FyggQIwYD0ADeBQwhwjDGQBNzWfLWPbq5JmRQo2cdRKO+s
+zncJv8ldGYnONS1t/4SEw/6G77+LB76q6v8ZHAH84syPNSNmXO+ewlRfRG8z9O0a
+fdRo2E7/9Z0F3r4g7YMic+ZKxrdQa+mR7Elw0+76y225qB7jABqNKg9rXISSy6Av
+YyVA0u1KepELukeJ134crZV+VvjTrm/4GDlegRQtcjmShaC4OoJX+DB6ZRhh2nXU
+g99W48gvf3Q8r8VnPKSaC+jNAL+8vJAwm/S8+rZT1wufAvXCUDaa5TOsxoS1MSJQ
+5QNz1MZsHpIVgnyYipq3eZII
+=q37a
 -----END PGP SIGNATURE-----
 
---===============2941751166541946842==--
+--===============5238206297415009961==--
