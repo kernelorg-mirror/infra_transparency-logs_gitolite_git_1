@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4663033926704807113=="
+Content-Type: multipart/mixed; boundary="===============7965432681592461917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 12 Dec 2021 18:19:11 -0000
-Message-Id: <163933315175.4393.13019555025257207237@gitolite.kernel.org>
+Date: Sun, 12 Dec 2021 19:16:14 -0000
+Message-Id: <163933657463.6845.3681732489269906634@gitolite.kernel.org>
 
---===============4663033926704807113==
+--===============7965432681592461917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 3467419d369ef5d39e0d3164f033f204cb7719f7
-    new: ce0c71a9c5253b969f9a123312f9503413c78915
-    log: revlist-3467419d369e-ce0c71a9c525.txt
+  - ref: refs/heads/net-next
+    old: 327889354c947b42a7bdbdc4acc4233371684603
+    new: 1bd947cb5eff099bacb4eb3f8a860cb579f3817b
+    log: revlist-327889354c94-1bd947cb5eff.txt
 
---===============4663033926704807113==
+--===============7965432681592461917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3467419d369e-ce0c71a9c525.txt
+Content-Disposition: attachment; filename=revlist-327889354c94-1bd947cb5eff.txt
 
 e47d0bf800e8d7f4de501987b2788c7f2ce22cd1 bpftool: Add current libbpf_strict mode to version output
 69a055d546156adc6f7727ec981f721d5ba9231a libbpf: Fix a couple of missed btf_type_tag handling in btf.c
@@ -133,13 +133,6 @@ fda684fb5ec9ff5afb76441ad5371f89aa3775a4 Merge branch 'samples: bpf: fix build i
 b540358e6c4d86eb450f3539aea198653e656641 selftests/bpf: Fix a compilation warning
 73b6eae583f44e278e19489a411f9c1e22d530fc bpf: Remove redundant assignment to pointer t
 ac55b3f00c323cf09d59a191e14bcf39b691078c samples/bpf: Remove unneeded variable
-9ba74e6c9e9d0c5c1e5792a7111fc7d1a0589cb8 net: add networking namespace refcount tracker
-ffa84b5ffb37a957d6062385112ab1069f760de6 net: add netns refcount tracker to struct sock
-04a931e58d1944ab3d1e11fdfde1947fbe5b6a37 net: add netns refcount tracker to struct seq_net_private
-dbdcda634ce384938805549bd1b3f3eaed50af5e net: sched: add netns refcount tracker to struct tcf_exts
-285ec2fef4b87ba26400658b003ca9c76278d960 l2tp: add netns refcount tracker to l2tp_dfs_seq_data
-11b311a867b6b3208fdc3cee8a780f14659bf5f9 ppp: add netns refcount tracker
-3d20408dff9c0885591c8e1d31a67e9183f0cc8a Merge branch 'net-netns-refcount-tracking-base-series'
 e1b539bd73a76dc8a7bf82befe6eac4ae79c76b3 xfrm: add net device refcount tracker to struct xfrm_state_offload
 db10415448158779127ad529335e2c447c5767c1 selftests: mptcp: remove duplicate include in mptcp_inq.c
 4cf23a3c6359556a1cca489cf2b901e2b904c4b0 libbpf: Fix bpf_prog_load() log_buf logic for log_level 0
@@ -161,6 +154,7 @@ be3158290db8376f49a92d30791dd8899f748aed Merge https://git.kernel.org/pub/scm/li
 33d60fbd21fa6f71a88571209e301ec6de59f81b sock: Use sock_owned_by_user_nocheck() instead of sk_lock.owned.
 7adf905333f4dd7965fe8a7c96a54cff70f7c354 net: bna: Update supported link modes
 840ece19e9f246a1b15308ae76b68aaf7a3a9433 net: ocelot: fix missed include in the vsc7514_regs.h file
+bcd0f93353326954817a4f9fa55ec57fb38acbb0 phonet: refcount leak in pep_sock_accep
 5d710dc3318c981475780158c17a8725bdcc6a5d net: wwan: iosm: set tx queue len
 da633aa3163fe1019c9e85333a17b74a5b99f5ac net: wwan: iosm: release data channel in case no active IP session
 8a7ed600505a4841aaf8bccf8c82936e46847b13 net: wwan: iosm: removed unused function decl
@@ -171,6 +165,9 @@ b471a71e525c73608a6ae5a3fdd2a5d1224da6a9 net: ocelot: add and export ocelot_ptp_
 de5841e1c93f2275bb73c471255b718b5ec2f0ec net: ocelot: add support for ndo_change_mtu
 753a026cfec1429c9e32e004ae4d4c2727cc0111 net: ocelot: add FDMA support
 77ab714f00703c91d5a6e15d7445775c80358774 Merge branch 'add-fdma-support-on-ocelot-switch-driver'
+71ddeac8cd1d217744a0e060ff520e147c9328d1 inet_diag: fix kernel-infoleak for UDP sockets
+94f2a444f28a649926c410eb9a38afb13a83ebe0 net: usb: qmi_wwan: add Telit 0x1070 composition
+ee60e626d536da4c710b3634afe68fe7c6d69b59 netdevsim: don't overwrite read only ethtool parms
 8c8b7aa7fb0cf9e1cc9204e6bc6e1353b8393502 net: Enable neighbor sysctls that is save for userns root
 e0068620e5e1779b3d5bb5649cd196e1cbf277a9 net: dsa: mv88e6xxx: Add tx fwd offload PVT on intermediate devices
 dc452a471dbae8aca8257c565174212620880093 net: dsa: introduce tagger-owned storage for private and shared data
@@ -185,6 +182,23 @@ fcbf979a5b4b5784bfb5647ae6190cd5c2ae595d Revert "net: dsa: move sja1110_process_
 950a419d9de13668f86828394cb242a1f9dece74 net: dsa: tag_sja1105: split sja1105_tagger_data into private and public sections
 4f3cb34364e2552ce5f3a8ca33a184c13c6152a5 net: dsa: remove dp->priv
 9b5bcb193a3bba4b96ead86df52602e3951655ba Merge branch 'dsa-tagger-storage'
+3748939bce3fc7a15ef07161826507fbe410bb7a selftests: icmp_redirect: pass xfail=0 to log_test()
+27cbf64a766e86f068ce6214f04c00ceb4db1af4 net: hns3: fix use-after-free bug in hclgevf_send_mbx_msg
+6dde452bceca3f2ed2b33bc46a16ff5682a03a2e net: hns3: fix race condition in debugfs
+8f2fd39355aecbb95cd758cbc1f5469fa1e546cf Merge branch 'hns3-fixes'
+7e0147592b5c4f9e2eb8c54a7857a56d4863f74e selftests: Add duplicate config only for MD5 VRF tests
+0f108ae4452025fef529671998f6c7f1c4526790 selftests: Fix raw socket bind tests with VRF
+28a2686c185e84b6aa6a4d9c9a972360eb7ca266 selftests: Fix IPv6 address bind tests
+0abde8ebc7abb1740e17124c3c70ba14d2a719b0 net/mlx5: Fix SF health recovery flow
+2f717b1c919a7ce2eb972a5b78006a39941997da net/mlx5: Use first online CPU instead of hard coded CPU
+ba6dbed356fbfeddf6fe47b94086ceb7e082e7af net/mlx5: Fix error print in case of IRQ request failed
+e88a033fc5c8bfd5a447d0ab472be2bdff0a9a64 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
+01dca133dbcb702ee70449de02e4dfbba12019ec net/sched: Extend qdisc control block with tc control block
+7a4c97f5f563268ed81462132bd54bd8f8171d4f net/sched: flow_dissector: Fix matching on zone id for invalid conns
+d8bfb62a265b0d7560f4c2a8d1ec105d43245dd0 net: openvswitch: Fix matching zone id for invalid conns arriving from tc
+013503892640774b6be627c3264580ee02914311 Merge branch 'patchq/452744' into mlx5-for-net
+aac8f58a586ed894aac252b9b54ee232de46ad1b Merge branch 'patchq/448271' into mlx5-for-net
+b999111ee29024e613d081587eadd2d5afab7a49 Merge branch 'patchq/447567' into mlx5-for-net
 e00bc59d9e0b7db76e360d55d794d57d02f08c33 net/sched: act_ct: Fill offloading tuple iifidx
 5f961583cbc3a16584b2be82c6756533a0d55159 net: openvswitch: Fill act ct extension
 842872f735678f645c884b57702dd992783a8bee net/mlx5: CT: Set flow source hint from provided tuple device
@@ -212,5 +226,8 @@ bdd519ae556d1e68936571573481da6449491f26 net/mlx5: Separate FDB namespace
 2d9e5d6f44d7b6154a71648b80228c284b5ce91e RDMA/mlx5: Add support to multiple priorities for FDB rules
 d2421604f798eae81e7168586af73d2022532c6c Merge branch 'patchq/426503' into mlx5-queue
 ce0c71a9c5253b969f9a123312f9503413c78915 Merge branch 'patchq/449782' into mlx5-queue
+8fbf3fbe389e80605f95caf3dc1370190c736a2b Merge branch 'mlx5-queue' into net-next
+ca170c8a3bbf834a0af3041a4ab4381e0b02f401 Merge branch 'mlx4-for-net' into net-next
+1bd947cb5eff099bacb4eb3f8a860cb579f3817b Merge branch 'mlx5-for-net' into net-next
 
---===============4663033926704807113==--
+--===============7965432681592461917==--
