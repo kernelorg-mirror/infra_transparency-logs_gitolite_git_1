@@ -1,28 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 12 Dec 2021 03:51:14 -0000
-Message-Id: <163928107445.7663.13086838190546176669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 12 Dec 2021 09:05:48 -0000
+Message-Id: <163929994816.23138.11486206808323268276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/cap/v1.2.62
-    old: 0000000000000000000000000000000000000000
-    new: e32991ba94daca0a0a608d2e6e6d9d0629e49a4e
-  - ref: refs/tags/libcap-2.62
-    old: 0000000000000000000000000000000000000000
-    new: 3317553ffbfa687d7870bc76cdc2aeac95561611
-  - ref: refs/tags/libcap-korg-2.62
-    old: 0000000000000000000000000000000000000000
-    new: 2c886b683675777803b27109ad128d0ef1aa4a52
-  - ref: refs/tags/psx/v1.2.62
-    old: 0000000000000000000000000000000000000000
-    new: aa65f02eaa133746c1288a5778cced695fe85d49
-  - ref: refs/tags/v1.2.62
-    old: 0000000000000000000000000000000000000000
-    new: 86851ba26533f3c96888b801822a3263acd3e05d
+  - ref: refs/heads/for-next
+    old: 6fadb494a638d8b8a55864ecc6ac58194f03f327
+    new: b73dad806533cad55df41a9c0349969b56d4ff7f
+    log: |
+         808709d7675dc0707a9fd6a08077c2b29dca0d60 ALSA: sparc: no need to initialise statics to 0
+         5aaf9efffc57ea31a13af6f0bf41e96f073ed6d5 kselftest: alsa: Add simplistic test for ALSA mixer controls kselftest
+         7cc994f27e84cc94ce612d201c78763f93eab2c4 kselftest: alsa: optimization for SNDRV_CTL_ELEM_ACCESS_VOLATILE
+         b73dad806533cad55df41a9c0349969b56d4ff7f kselftest: alsa: Use private alsa-lib configuration in mixer test
+         
+  - ref: refs/heads/master
+    old: d8beb690ff20f1ad2a4e7cc6bb80c3b13b2325e1
+    new: ac153f2235e3b14d3605ecf301cc6207493af0ed
+    log: |
+         808709d7675dc0707a9fd6a08077c2b29dca0d60 ALSA: sparc: no need to initialise statics to 0
+         5aaf9efffc57ea31a13af6f0bf41e96f073ed6d5 kselftest: alsa: Add simplistic test for ALSA mixer controls kselftest
+         7cc994f27e84cc94ce612d201c78763f93eab2c4 kselftest: alsa: optimization for SNDRV_CTL_ELEM_ACCESS_VOLATILE
+         b73dad806533cad55df41a9c0349969b56d4ff7f kselftest: alsa: Use private alsa-lib configuration in mixer test
+         ac153f2235e3b14d3605ecf301cc6207493af0ed Merge branch 'for-next'
+         
