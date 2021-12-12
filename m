@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Dec 2021 02:15:02 -0000
-Message-Id: <163927530277.12086.14396235579773071196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 12 Dec 2021 03:51:07 -0000
+Message-Id: <163928106772.7527.5833408477093155016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
-  - ref: refs/heads/for-next
-    old: 4674f21071b935c237217ac02cb310522d6ad95d
-    new: f18a499799dd0f0fdd98cf72d98d3866ce9ac60e
+  - ref: refs/heads/master
+    old: 89b4b8021d23a7043ad832a7f643fcd2e70a6560
+    new: cc91f55960ce81e7cc24ef0bf729bdf02e2f60e1
     log: |
-         f18a499799dd0f0fdd98cf72d98d3866ce9ac60e bpf: Silence coverity false positive warning.
+         cc91f55960ce81e7cc24ef0bf729bdf02e2f60e1 Up the release version to 2.62
          
