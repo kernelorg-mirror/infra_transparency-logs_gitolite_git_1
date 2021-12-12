@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7430877128628058218=="
+Content-Type: multipart/mixed; boundary="===============7888901401087722700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sun, 12 Dec 2021 17:56:20 -0000
-Message-Id: <163933178055.22474.390826128367845829@gitolite.kernel.org>
+Message-Id: <163933178085.22511.9885842368411961302@gitolite.kernel.org>
 
---===============7430877128628058218==
+--===============7888901401087722700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,97 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: c01d4d1b885d96a7c8c27d629abeb918ca897dbe
-    new: 5ece874a0959e33dc635e70d295bb783236d98f0
-    log: revlist-c01d4d1b885d-5ece874a0959.txt
+  - ref: refs/heads/linux-4.19.y
+    old: bcd694e3e7181ddb30e4156df69a2775ce51ed4f
+    new: ab7df26443b3d26a7e56d9a349c0002167fa1e08
+    log: revlist-bcd694e3e718-ab7df26443b3.txt
 
---===============7430877128628058218==
+--===============7888901401087722700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639331779 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639331778 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1639331778-b61e8df7b4227194ce371aa294da90ceb8b53b8d
 
-c01d4d1b885d96a7c8c27d629abeb918ca897dbe 5ece874a0959e33dc635e70d295bb783236d98f0 refs/heads/linux-4.14.y
+bcd694e3e7181ddb30e4156df69a2775ce51ed4f ab7df26443b3d26a7e56d9a349c0002167fa1e08 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG2N8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fVcP/ii7FdNLFuViaoYlK9ww
-7GRutCkst7F8+u+tkKIFVhWQAdsAnJMql7GMr1aQe1fixlfCguzT3ou/RddRwbaG
-uFAmGFWyRlMf6BjdmmW9EhXhLrH+812rifgWuIttw8i+D4yMGfHAQMSiNMLWmBYU
-B6MEi8jLgxiSA8jy+n/xXJrmcLmIRO4pj3BJABaglgFBhUR1RLDsSCG88kKrBiPu
-2+ySFLCay/Gs+KsDJbXDixdx7CIs94vlImG8b0HAL8ARv4M1tnk1ZJjfaWz6qi3l
-q15IIah603fIyIgn9D2KHaUgg7GPgPmiSsSbltCQzKCFPefL8j6HbUWWyC1ZIVI2
-mmOpQYBT8IGEuzUAg40ImkExNQnTtSk/Qzxw0NSBjwyxc/BsqorIdGfn5IMv/1sE
-p5TlHSdlYapYelidK+npLZCU8iZzqbhQjLzwsnToORyIye77ioyh/geKwiEPmDTj
-AkxO29CRlQ5/HOq3SKRq2txpOAj8XDkvLc1MGFRGfVi6COUn2+7Vh+WMCgtoN5pq
-ZLPuTC2e8WC3Xd/CqQAiL/r6bzbWavcKYXdSMafeKXLbLxCT0vJSLUTCWHHVJkVR
-O3xUsyZbVZkVPKu9yBWV8VVnsS5tFwZC9uoLhua+FC9xwh8Sh5VHhl8GX7WxZjWk
-U80M6VKwokiLvvvxTZk3mVbP
-=Pv1g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG2N8IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/noQAK3Oes/jDHP8k0JldVJV
+ZBJiaWQywL0S+wAVqG+wc2zV806fSWtyzeW1kvp4jxidWWtclw/3bxVwFmN3GYmV
+z8Ky1VUNN13SjFt+Ce0OD4AcTzG5MlphkUfxg/F481DXrAm4x4dHmDdkGtqRXR+U
+3HXO5wb0HHpWOWFRclLuWuoeI8i7sCkEi0Aurm4DqhUCEonPcjeNMlsMMdNxE4Ja
+MB5e4qyax5I/2WyFUhuFdfXMzkHrIUy/EjTW4jF9pDbKdF9Ascr/Y7EOwuzL3o98
+nv4bZh18E/hqU8evN01w17BBarnTPtsTi5hvwcdtIltatVbDQVXQFNt8GZ/vFNAf
+xnJ8qAXHV7F67Orur7FLYIWUs04o8fjimmEBg47D4WCK43EMpRNlFZNF/WioDMoK
+Y81CXfmx1xUCJF8H1yoA+kUj3atyjp9FzdGbcu+ID6njGqtCC2T6I3PX20L08dNR
+1uD5l+HTRGuboSP25WbWdKJDGCuxVQSozvpi1YROpXqLylNwGtLzhQkjdjHv/okM
+TL9+Z+RlCU/RuIfDrPNwGA3Pa8mwL6zBFnC4OpuYtiKky2O0cY5gVobZekEiM3ij
+QEh19sj8+h+FbZzZSoV4DuuP8jVmH+voEjz9lCDEXas2PNO7mXoZ0pXQrv9ijRq5
+oy7tJ7WMaibzNvaTjIEjamxE
+=Ry/Q
 -----END PGP SIGNATURE-----
 
---===============7430877128628058218==
+--===============7888901401087722700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c01d4d1b885d-5ece874a0959.txt
+Content-Disposition: attachment; filename=revlist-bcd694e3e718-ab7df26443b3.txt
 
-092448b16dddd4211bbd520eab26285255328260 HID: add hid_is_usb() function to make it simpler for USB detection
-0c3b4182958f3a47020092443eab6f35683f9fe4 HID: add USB_HID dependancy to hid-prodikeys
-d02d77b9030e10c798a0944933a77a7c77757c34 HID: add USB_HID dependancy to hid-chicony
-dbe53077b97dcd7ed20f897d109cd12c3b369367 HID: add USB_HID dependancy on some USB HID drivers
-576698618cf684e5ea4916519d8e0fa88f3831ae HID: wacom: fix problems when device is not a valid USB device
-a453a4021d0567b06137e0ff4070c24988256835 HID: check for valid USB device for many HID drivers
-cbe9f6d594d652928b556eee47e64f39af764815 can: sja1000: fix use after free in ems_pcmcia_add_card()
-a7b1909be26e16f6516ea7163d97a602f9a1613e nfc: fix potential NULL pointer deref in nfc_genl_dump_ses_done
-1e1243ca7bc96facf8560a56f98a47d6c51dc8b1 bpf: Fix the off-by-two error in range markings
-8a71cb9e78512138424e2bf176f6c73d958f05ef nfp: Fix memory leak in nfp_cpp_area_cache_add()
-af01ad9a1231fc86c78ca92be18e13b5240d607e seg6: fix the iif in the IPv6 socket control block
-37143c85481404ba29ca66158d89814358e5ebdd IB/hfi1: Correct guard on eager buffer deallocation
-4b043d2577dd78bf395cec805690c1b3fd5b84a1 mm: bdi: initialize bdi_min_ratio when bdi is unregistered
-805b6344ac3e12a6d6a31949c1af6ee490d9d116 ALSA: ctl: Fix copy of updated id with element read/write
-331dcd182f9f57b1b327cdd31800e9b0f5edb461 ALSA: pcm: oss: Fix negative period/buffer sizes
-5663d259fd40e07c98e8847680d5160a946d1aac ALSA: pcm: oss: Limit the period size to 16MB
-817d19c9b3116e0dd2610706f2919489295c4a91 ALSA: pcm: oss: Handle missing errors in snd_pcm_oss_change_params*()
-39bee52a129f7d853d7301b317896e2df53f8722 tracefs: Have new files inherit the ownership of their parent
-bab602a05619793a77e4ef1eb32911230d596553 can: pch_can: pch_can_rx_normal: fix use after free
-b68e15a926b209ecfcfe4cfaf22f51dc7098fb82 can: m_can: Disable and ignore ELO interrupt
-fc03a9193a1a46adad6c948da73bf27cac54558f x86/sme: Explicitly map new EFI memmap table as encrypted
-1ad7211d974fcc6d24b0c66aadf70322d55a9dbb libata: add horkage for ASMedia 1092
-0b60792e19b476e5e0d46ac90a2e499f8429c20d wait: add wake_up_pollfree()
-90f710d4d4be62e4dd61efb7044c8362773f56c2 binder: use wake_up_pollfree()
-6d318286e9b6c3fdea945220e5a20e6572ed5ae6 signalfd: use wake_up_pollfree()
-9524938b1a57be836a758106b9519b11d7d6fa78 tracefs: Set all files to the same group ownership as the mount option
-d85d7f929118b4495ffb5aa84758e4e1b5395edd block: fix ioprio_get(IOPRIO_WHO_PGRP) vs setuid(2)
-bb4f7d47abe433fe0c652fabeeb412419572e177 qede: validate non LSO skb length
-1212dc968db69e0df9950b53aa849980774dd58e net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
-b2aed99afb031c046a5f99f16070fcd2202eab85 net: altera: set a couple error code in probe()
-bf36b6abe164ace9a6e7d5dd7194c9d67adc01d7 net: fec: only clear interrupt of handling queue in fec_enet_rx_queue()
-368d5e3298c598d9e70ced3e2c414bf99436d150 net, neigh: clear whole pneigh_entry at alloc time
-a606c3551caf1721c083e00fa06b9100bc0edc23 net/qla3xxx: fix an error code in ql_adapter_up()
-5ece874a0959e33dc635e70d295bb783236d98f0 Linux 4.14.258-rc1
+a66562696316f02f97cda7d1594a4b221455bbf1 HID: google: add eel USB id
+fa72e7e97136c83455c5f90b95506bd8d66ad8c7 HID: add hid_is_usb() function to make it simpler for USB detection
+3ba48d8e59a5669d5e6d1dd213e75cc146f92265 HID: add USB_HID dependancy to hid-prodikeys
+4527af521464855082b691472100173d1391318f HID: add USB_HID dependancy to hid-chicony
+7abdce0a5c4e694fc6926d7b91457b31103ce55b HID: add USB_HID dependancy on some USB HID drivers
+ba89ad5e08c9311bfcaa4e8ed4d20b3daece96b0 HID: wacom: fix problems when device is not a valid USB device
+b5081caaffba64d3a6597ca8a1bf65635e74941f HID: check for valid USB device for many HID drivers
+829456905e1f7885fd84196b3e0aa8f78dc36f96 can: kvaser_usb: get CAN clock frequency from device
+652e5fd0822ec1ca347f2d96d4470a99ffbf40f5 can: sja1000: fix use after free in ems_pcmcia_add_card()
+f1487792c2379f5226b6f4420725acd05c6dbb7c net: core: netlink: add helper refcount dec and lock function
+ec30cc949f95b371193903cb0303d22ffc6dcc60 net: sched: rename qdisc_destroy() to qdisc_put()
+db2334961f70823babf93f88a91d82ae43117501 net: sched: extend Qdisc with rcu
+7cf50210a1e4fd66f663ed3bc8711da79a91b11f net: sched: add helper function to take reference to Qdisc
+07cf89df36ff94e10a0af21bc484977b386e1ab8 net: sched: use Qdisc rcu API instead of relying on rtnl lock
+729ba6d612ffc55e3175e3a515bcdc6e9a7e6e96 nfc: fix potential NULL pointer deref in nfc_genl_dump_ses_done
+066ca1629a53831d1c00afab853758b7b840ac98 bpf: Fix the off-by-two error in range markings
+437272b34a4ef534c5c52d07b47f180f6a6993f3 ice: ignore dropped packets during init
+1bc6e5e246df48e5d3f5087ef775454c8d963587 bonding: make tx_rebalance_counter an atomic
+3bab815e425f658ec50cf5cfb45dd7caa3ed2467 nfp: Fix memory leak in nfp_cpp_area_cache_add()
+eb8d76ba9b66b1d50897d5da647ac0abe5ebdb0f seg6: fix the iif in the IPv6 socket control block
+c266741c39531094ea6e195a8eb72a97415274b9 udp: using datalen to cap max gso segments
+8c60708f42bca11b624698f57e7e2ead8aba1731 IB/hfi1: Correct guard on eager buffer deallocation
+a9742828dffe7ce6badf11136cbb40812fbf7775 mm: bdi: initialize bdi_min_ratio when bdi is unregistered
+f772397ce0b079e15a601a5e2edce6d92f0cb40f ALSA: ctl: Fix copy of updated id with element read/write
+12efea02c103f46d1b1b51ca139bcea9db98364e ALSA: pcm: oss: Fix negative period/buffer sizes
+fe26b947c494dbe714d15b8fee8098d707de215d ALSA: pcm: oss: Limit the period size to 16MB
+6795d37436f02557e1afed82160f53e9bea24db5 ALSA: pcm: oss: Handle missing errors in snd_pcm_oss_change_params*()
+33a56cadb8cecd42c30f5a3abe4e2b35603fec80 tracefs: Have new files inherit the ownership of their parent
+22007be2b03a3607b5a15c962f245560f8ebe3ad clk: qcom: regmap-mux: fix parent clock lookup
+9352ed5a60cd6ce850e1ec33f1d88fa5d77a40bd can: pch_can: pch_can_rx_normal: fix use after free
+86c833c189e0f87fa7cc9188c94c7eda9556ac0e can: m_can: Disable and ignore ELO interrupt
+845e717816a6b0a2f6ebb848adf8d7d0c6168711 x86/sme: Explicitly map new EFI memmap table as encrypted
+157221e4fcc8f4b64cce019cbe7c906cc1929d31 libata: add horkage for ASMedia 1092
+30c65a95311d09cc01b148bedff80e01fe871945 wait: add wake_up_pollfree()
+aebd6e34c0209a33823f30edd8ae23c87c631894 binder: use wake_up_pollfree()
+439ae053cf3e9ea880eea209582633c24f79476e signalfd: use wake_up_pollfree()
+1da7482b6c323616b642bb78908a4797f7eba744 aio: keep poll requests on waitqueue until completed
+594d79117c4cf9f9b10ae2c5581015546f8f1f3f aio: fix use-after-free due to missing POLLFREE handling
+463e8bafd5daa0cd8eeb4e7f29722ac363707365 tracefs: Set all files to the same group ownership as the mount option
+ba7f699ed2da9e4e391d3bfe7c0c80b18916e8e1 block: fix ioprio_get(IOPRIO_WHO_PGRP) vs setuid(2)
+4aaf9a12998cdcfe3ae6c95830faf9f910703511 qede: validate non LSO skb length
+14c4055ea286bec83dc8c58ddcbc341430cd9bdb ASoC: qdsp6: q6routing: Fix return value from msm_routing_put_audio_mixer
+e2f792a1e07752cea3947b7f3f8cefe49a05ae22 i40e: Fix pre-set max number of queues for VF
+04a0775bb7327b1c66bb586f27370510a9eafb4f mtd: rawnand: fsmc: Take instruction delay into account
+13d95f50fc07fa1052cc04749c7629ba929ee764 tools build: Remove needless libpython-version feature check that breaks test-all fast path
+324d2af8d37cea08eef0043182a662c53b07707b net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
+3a4578200d463ee0d97f64b93842eeb9fcadb2ad net: altera: set a couple error code in probe()
+c85b13b3933efae32cfedef0f20af927a2d3e3b6 net: fec: only clear interrupt of handling queue in fec_enet_rx_queue()
+b9a8efd99d80dbff09d98fb1a01840f54637f854 net, neigh: clear whole pneigh_entry at alloc time
+364d14bc31169d59895a98b9245675a1f6197048 net/qla3xxx: fix an error code in ql_adapter_up()
+ab7df26443b3d26a7e56d9a349c0002167fa1e08 Linux 4.19.221-rc1
 
---===============7430877128628058218==--
+--===============7888901401087722700==--
