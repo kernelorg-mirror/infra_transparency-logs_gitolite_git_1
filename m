@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 12 Dec 2021 22:23:49 -0000
-Message-Id: <163934782931.25157.4240331718466181462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 12 Dec 2021 23:10:33 -0000
+Message-Id: <163935063301.21702.13552544820020527730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: d7c35b2120f4d3600b03d1feb2167656b1b57543
-    new: f3e71d41b8bf4b126669e409e367f74bfd858244
+  - ref: refs/heads/master
+    old: 90d9fbc16b691403a80a119d7094528721c03279
+    new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
     log: |
-         f471b1b2db0819917c54099ab68349ad6a7e9e19 arm64: dts: rockchip: Fix Bluetooth on ROCK Pi 4 boards
-         f3e71d41b8bf4b126669e409e367f74bfd858244 Merge branch 'v5.17-armsoc/dts64' into for-next
+         2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
          
-  - ref: refs/heads/v5.17-armsoc/dts64
-    old: a39891a6e420daeb55abc99cde4278511ac861d7
-    new: f471b1b2db0819917c54099ab68349ad6a7e9e19
-    log: |
-         f471b1b2db0819917c54099ab68349ad6a7e9e19 arm64: dts: rockchip: Fix Bluetooth on ROCK Pi 4 boards
-         
+  - ref: refs/tags/v5.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
