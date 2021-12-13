@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Mon, 13 Dec 2021 18:30:23 -0000
-Message-Id: <163942022321.22001.13039415043456554594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 13 Dec 2021 18:35:58 -0000
+Message-Id: <163942055891.25060.9133633856657636986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/prep-glibc-2.35
-    old: cfeaf77342e2e815882b60796e0114bb60884624
-    new: 5461c8be7eb3c2f136cd249507ffb435fa51fc5d
+  - ref: refs/heads/net-next-mlx5
+    old: a3c62a042237d1adeb0290dcb768e17edd6dcd25
+    new: 336f455c416edc312bb7541f3c409c306b60a897
     log: |
-         5461c8be7eb3c2f136cd249507ffb435fa51fc5d Update librseq to co-exist with glibc rseq integration
+         336f455c416edc312bb7541f3c409c306b60a897 net/mlx5: Remove the repeated declaration
          
