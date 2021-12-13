@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 13 Dec 2021 15:41:25 -0000
-Message-Id: <163941008539.11576.9344233324084042364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 13 Dec 2021 15:47:17 -0000
+Message-Id: <163941043773.14762.14505262330408758426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/for-next
-    old: 78977fd5b11cc90668c0dec6109d2f6572c9601c
-    new: dec242b6a8380c08e41e02fb54f1282894fb45cc
+  - ref: refs/heads/ti-drivers-soc-next
+    old: 7c1c1d36e83073aab18d3dd596b735bcc6ea7984
+    new: a34ff76a161583d24d29816a6cce85232ea7d9d0
     log: |
-         c2f51415401cb8e9b7991e828ae12ab2972f2ca7 ALSA: gus: Fix erroneous memory allocation
-         dec242b6a8380c08e41e02fb54f1282894fb45cc ALSA: gus: Fix memory leaks at memory allocator error paths
+         a34ff76a161583d24d29816a6cce85232ea7d9d0 soc: ti: k3-socinfo: Add entry for J721S2 SoC family
          
-  - ref: refs/heads/master
-    old: f5462cc2b6a41b850d39211107b222154a398e79
-    new: 72c28defd27e9d943374a3e1cd70e5a967efdfb0
+  - ref: refs/heads/ti-next
+    old: 0ab3ea88b32c03a8eb6b7903ab8a639eb4929f42
+    new: 0b2186b069bbca60a29e405f43e35ee1d614f303
     log: |
-         c2f51415401cb8e9b7991e828ae12ab2972f2ca7 ALSA: gus: Fix erroneous memory allocation
-         dec242b6a8380c08e41e02fb54f1282894fb45cc ALSA: gus: Fix memory leaks at memory allocator error paths
-         72c28defd27e9d943374a3e1cd70e5a967efdfb0 Merge branch 'for-next'
+         a34ff76a161583d24d29816a6cce85232ea7d9d0 soc: ti: k3-socinfo: Add entry for J721S2 SoC family
+         0b2186b069bbca60a29e405f43e35ee1d614f303 Merge branch 'ti-drivers-soc-next' into ti-next
          
