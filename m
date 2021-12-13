@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 13 Dec 2021 12:57:54 -0000
-Message-Id: <163940027474.3055.5708147746022306968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 13 Dec 2021 13:00:35 -0000
+Message-Id: <163940043553.5447.838252708302825005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-linus
-    old: d7f32791a9fcf0dae8b073cdea9b79e29098c5f4
-    new: c01c1db1dc632edafb0dff32d40daf4f9c1a4e19
+  - ref: refs/heads/gpio/for-next
+    old: 19784a059cf47b9797dfd9e3f1e705801c78020a
+    new: 2cfea901d55ec96c9b6216a8e8d800b53abd463a
     log: |
-         2dee54b289fbc810669a1b2b8a0887fa1c9a14d7 ALSA: drivers: opl3: Fix incorrect use of vp->state
-         c01c1db1dc632edafb0dff32d40daf4f9c1a4e19 ALSA: jack: Check the return value of kstrdup()
-         
-  - ref: refs/heads/for-next
-    old: 55b71f6c29f2a78af42dd453dfed895eba516cb4
-    new: 78977fd5b11cc90668c0dec6109d2f6572c9601c
-    log: |
-         78977fd5b11cc90668c0dec6109d2f6572c9601c ALSA: sound/isa/gus: check the return value of kstrdup()
-         
-  - ref: refs/heads/master
-    old: 8e4a323d434332077f09ab413be056e304a896e3
-    new: f5462cc2b6a41b850d39211107b222154a398e79
-    log: |
-         78977fd5b11cc90668c0dec6109d2f6572c9601c ALSA: sound/isa/gus: check the return value of kstrdup()
-         f5462cc2b6a41b850d39211107b222154a398e79 Merge branch 'for-next'
+         ed7d81298ec44e1ae618fe4f3609769c18df91a6 gpiolib: provide gpiod_remove_hogs()
+         b129b50887f50f9502d434f9a6ed54bc71099317 gpiolib: allow to specify the firmware node in struct gpio_chip
+         9126a738edc15e32804a7931a0822820a547e05b gpiolib: of: make fwnode take precedence in struct gpio_chip
+         83960fcf4818607692ee7dd7ec566bab944d71a8 gpio: sim: new testing module
+         c2794e278550edb5825782c720559e01f5f61143 selftests: gpio: provide a helper for reading chip info
+         137630fffe546dfa72e7d79a58f62dec438da33a selftests: gpio: add a helper for reading GPIO line names
+         2cfea901d55ec96c9b6216a8e8d800b53abd463a selftests: gpio: add test cases for gpio-sim
          
