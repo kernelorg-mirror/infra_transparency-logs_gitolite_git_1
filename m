@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6728566977777248098=="
+Content-Type: multipart/mixed; boundary="===============1536869613108561202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Dec 2021 09:13:35 -0000
-Message-Id: <163938681554.18559.3676581946792030107@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 09:18:02 -0000
+Message-Id: <163938708214.21391.10818149507577307552@gitolite.kernel.org>
 
---===============6728566977777248098==
+--===============1536869613108561202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: d58071a8a76d779eedab38033ae4c821c30295a5
-    new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    log: revlist-d58071a8a76d-2585cf9dfaad.txt
+  - ref: refs/heads/char-misc-next
+    old: 9a0a930fe2535a76ad70d3f43caeccf0d86a3009
+    new: af40d16042d674442db8cf5fd654fabcd45fea44
+    log: revlist-9a0a930fe253-af40d16042d6.txt
 
---===============6728566977777248098==
+--===============1536869613108561202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639386814 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639387078 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1639386814-9d11511f2ab2d7df4fd00a3c249ead7c013931b1
+nonce 1639387077-c4aabf388f58fc6a57e7a6609ad248b5a892534b
 
-d58071a8a76d779eedab38033ae4c821c30295a5 2585cf9dfaaddf00b069673f27bb3f8530e2039c refs/heads/main
+9a0a930fe2535a76ad70d3f43caeccf0d86a3009 af40d16042d674442db8cf5fd654fabcd45fea44 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3Dr4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LK4P/iulbfYbeFDAQi3stkVy
-4ju3Nt7/1yXcXwRd5HpFEa1Eo0logEZg2v51FW9YOFvLtZ7Xd1jkUDdQnpL0SF1N
-l81k8RoAsHLapp6YO7hYcjCkhs6+neXP112kl3jNx3kklqzGnWdVJLxr4zj4NS/Y
-qSXL8/dcR0peELgQ3zAEvJ7yIGuUWKs+TAr9wOSp5kDRoszqP9x9wQDzPFDFYpky
-RlCYYx3aJ/QaiZ8gJ36kbr/PQUsVwODvAGCymHpOSt9oIu+AyxqLT1/u1IzXfDIS
-ZpYh1TjSw0cqhBPKbDbmP76fhw+g2cF/6eq1WsZzpG7UEk7D9K/kZAvN8mEtauel
-XuUzp4b5s9Lh8B7/6IVZaNW42pKhN5IUTT/bJVm4w7TSHY5HvIrnLIWowG7MCM9W
-YeZX7oM/asMNogAU8SlM4Ie1edS7ie2QrTAx/RamWmJ50Qr0TqiBmKmyVyjf9Bwv
-ewHCJB4GIdCzAD0sagc7CNIaxtipCLMqRu5UZ10qlq/ujPNMqrmzJbArARiowGLB
-0U/qt6qgvTRo7Ttric/bzDU58q/F767Ky/qQpJEWjQfoNPYZDSlFlvqtERhr6yS4
-8b9MoOrCU0AVvMAncHXLDRxAd+GFlvxKvkO2eca/y6y99Jy94Y2nuX8U4Vk7eIRv
-5An3PWhoJGU/xP50HWfRbNmO
-=HZW+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3D8YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rDgQAJ1ewoOkPJ0dDzILQSoq
+1V0KJ1fSCBqe5OWj4VhtKjvfVIy9Vti3bJNZzizKzP28h/GkFuWoMEX5worGbsfG
+S6kMiBnwWtH5q5PQiYW0NodYx8866MXXJQi4xIxAp5WGBQG3pHCSXuVeexa13mVF
+we45coO2/XG9/J5ePVNAHIIeKsIt3GdxVsGXvu7hGqV+PACV4KUXD/Ap133NjL0C
+H0cJRDAWog1ygzj1qeS00/d2O5HLdUWJfCThNgQHGEXp9dNxEhENRstSBhnCrh+Z
+R+5tg7ZuLhxRWutueTvw0LfLNfy+7Dqto493dR8bGEXgBEBbEsywCCaVg0XEp+TW
+WGzF1hSJIUZwgnnmlZp93cLdO4lYk3ThT5KriPcukw+hfWlgdlYu/bWqNS/shGRp
+pHOo+1qucDpJYFNfOix725U/3TXyT6JZiSBcSWfbmOmusVSisEZckxJdc9R/MSeN
+ll2o66ZnDX0dNGE0jg4vuXEabbiytMNUKX9FSkMROvYhXPTKQ0DXoQNG1b/Umw/h
+bBL7/z5XkxMI8xdFE2/hO4xcMppT88pbkAaEghIsQxQy4e/blR3fBnF/RL3muXrB
+dzmR4axFSDkpYEl3SOTtjQiLGH90nOyHwa0cePii23inTgBMjJ/uKUSQLeVSIefa
+4FOwasPjUhFZ4Fu4rMN1b8Jf
+=N2Is
 -----END PGP SIGNATURE-----
 
---===============6728566977777248098==
+--===============1536869613108561202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-2585cf9dfaad.txt
+Content-Disposition: attachment; filename=revlist-9a0a930fe253-af40d16042d6.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
@@ -789,5 +789,6 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 8d7ed10410d53453305e4f8673c50085d607fa80 Merge tag 'char-misc-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
+af40d16042d674442db8cf5fd654fabcd45fea44 Merge v5.15-rc5 into char-misc-next
 
---===============6728566977777248098==--
+--===============1536869613108561202==--
