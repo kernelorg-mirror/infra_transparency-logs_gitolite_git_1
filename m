@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 13 Dec 2021 10:54:53 -0000
-Message-Id: <163939289363.22146.14166636441275777543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 13 Dec 2021 11:05:47 -0000
+Message-Id: <163939354702.29566.9330454752956083047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/tags/memory-controller-drv-renesas-5.17
+  - ref: refs/heads/arm-entry-literals
     old: 0000000000000000000000000000000000000000
-    new: 84588bb5799f88099fe8220a4bebe039d7d021f3
+    new: bed1490d5af6f3411b5b8ca816c8b6ddb9206528
