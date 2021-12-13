@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6438435404107882372=="
+Content-Type: multipart/mixed; boundary="===============1821772915769082446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Dec 2021 09:12:43 -0000
-Message-Id: <163938676307.17858.151696069880489114@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 09:12:47 -0000
+Message-Id: <163938676755.17928.4561139431348843987@gitolite.kernel.org>
 
---===============6438435404107882372==
+--===============1821772915769082446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
+  - ref: refs/heads/usb-linus
+    old: ca5737396927afd4d57b133fd2874bbcf3421cdb
     new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    log: revlist-0fcfb00b28c0-2585cf9dfaad.txt
+    log: revlist-ca5737396927-2585cf9dfaad.txt
 
---===============6438435404107882372==
+--===============1821772915769082446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639386762 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639386766 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639386761-bf110a32b7cf2089f1ca764d799adffc37d78928
+nonce 1639386765-1c5a5f3623dd861acd601a7ce388794f3f2cff85
 
-0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1 2585cf9dfaaddf00b069673f27bb3f8530e2039c refs/heads/main
+ca5737396927afd4d57b133fd2874bbcf3421cdb 2585cf9dfaaddf00b069673f27bb3f8530e2039c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3DoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p8gP/10VdfbBg7K4HWgybAOX
-HsclgA50Dxl5cdQY18JHFNVc4haBQ0uEQVtiY6N1gNtayiTMoi238YkYhN7utfci
-uqaqwd9p6sBDcYrXz3TaMAO6hE9w/70BxTfOgllo7Brdv3+2Raeh0+pOet16ZGsN
-qkGVsz+t+Ug5gooonm7KuFUDhFSI7jd+E8OsY+GVOLhqWxkFPUkBi/bTolimdXD2
-grhcFMFMv628QnTAIx6RmewbPQk0o9YGZ3J1BwAs1Cev8bxkpR+hgH2WTqoDYP8F
-NXcllydQYWBtbYs/m/GDaadT+lEr/Z3V+oApSu0JVTOOmEHzs/LGmZeEV7MWxfd7
-HJa/Vwa2/f+GGFaznco4js3ps7CyELZhr1piNHFmk5QzZ7o74Ax6n2WMj8KMFiLI
-HTFiGGcgZ9RjnZhVeBHni86eF95PDmPeQV1zisaR1KzOM1z+gIUxxUcFuRoZT8w7
-BeMC0Z2EykI5vc2YwL6pn6+YBGpOG/ZKgHjMS5lfclp6DVMPkr2hwqtm/qT/G/2I
-RdgLBZ78GLdR0z+9DlNW0iIhwZQwazre+WKH3d481OBgy7uH9Gc9oQBIyOnQcU7/
-atv0nW0N/PGP9kD6mDX7eV2xq+AP/uLfo5LWT4WED0Q6XPzWH+c1YpRxt6/s3a7M
-gdAlebkxLrJoH5oatFk7GzWR
-=NYu8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3Do4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UcMQANhHtxLNsOZ0pZnZxdJ2
+Kovc0in5IH0dzxe3GfiG89su06Xz9cWFBuPrEldNwq4LKEaNWc+chB/DiPo5cUs3
+B/zm48nIzMY3b6lrKQX2fyUuwTwXUwkzZ8jFiq3cgpzii4mc2NqPU8BNz6EGEpVP
+JHEh0rUttOQgkSrwr+pZRWIutlWsZk7ftdg5ip8hZkgjSVO/UtwSV+ZX7ePg9L2J
+lwEfPLGjOjEzunI9E+IA2pUH5F5YT3UqRKt3jwTxTCCWLW6i7rA8j2VKeXg0t6jO
+OQW6A7lb+Git+OU9/SXSIVz0lmvjHkvxDCe9cZqT74xuYbE7WoarhGsEkYBJ+iz7
+KTNNNC++eqCuEJGn2djZ+/oaduMFLHNtfZ2f2VgwYLaIOrbBaLGCJmh0VozrtQ0I
+QWXziGog2cHA86S3r/qrv90b3AvoSPfUvSH2+CKDH58LAVranqOJX/65D5qP75L+
+TOrT4D7LU9LTRsVR/rPbOG4vT85ZSUmjE6iIJE2FQ9WT6m7WIRaB7f4q1IsG6ySh
+CKLRVRdwiuPIjflU+/XFUwk6P+Lxhe+tCkbSUBo2HpWCNN3LjnX9KHYdxzNfmDZZ
+yAIjNpWNp18CIorQhjmT1XT326Dm6+M1DLk8PAUu2VpjQXu6SG9BSNmRWShKuIzX
+4TlFLlYOQh0/M5bCMcYMpBVl
+=O3vM
 -----END PGP SIGNATURE-----
 
---===============6438435404107882372==
+--===============1821772915769082446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fcfb00b28c0-2585cf9dfaad.txt
+Content-Disposition: attachment; filename=revlist-ca5737396927-2585cf9dfaad.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
@@ -359,7 +359,6 @@ a880b28a71e39013e357fd3adccd1d8a31bc69a8 binder: use wake_up_pollfree()
 363bee27e25804d8981dd1c025b4ad49dc39c530 aio: keep poll requests on waitqueue until completed
 50252e4b5e989ce64555c7aef7516bdefc2fea72 aio: fix use-after-free due to missing POLLFREE handling
 4b3749865374899e115aa8c48681709b086fe6d3 aio: Fix incorrect usage of eventfd_signal_allowed()
-6a97cee39d8f2ed4d6e35a09a302dae1d566db36 Revert "usb: dwc3: dwc3-qcom: Enable tx-fifo-resize property by default"
 03090cc76ee3298cc70bce26bbe93a0cb50e42a2 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 27698cd2a3c07d124fad6bfc8dd93fd1c5d46879 Merge tag 'mtd/fixes-for-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 ded746bfc94398d2ee9de315a187677b207b2004 Merge tag 'net-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -373,8 +372,6 @@ c741e49150dbb0c0aebe234389f4aa8b47958fa8 Merge tag 'for-linus' of git://git.kern
 c8cc43c1eae2910ac96daa4216e0fb3391ad0504 selftests: KVM: avoid failures due to reserved HyperTransport region
 c3fbab7767c53397d7b849799474f5a27cf306e6 irqchip/irq-bcm7120-l2: Add put_device() after of_find_device_by_node()
 091f06d91cbc8a51b63c26007e29baae49282b16 Merge tag 'nvme-5.16-2021-12-10' of git://git.infradead.org/nvme into block-5.16
-811ae81320da53a5670c36970cefacca8519f90e xhci: Remove CONFIG_USB_DEFAULT_PERSIST to prevent xHCI from runtime suspending
-7faac1953ed1f658f719cdf7bb7303fa5eef822c xhci: avoid race between disable slot command and host runtime suspend
 777ab82d7ce0451fd47bb57e331548deba57394e KVM: X86: Raise #GP when clearing CR0_PG in 64 bit mode
 d07898eaf39909806128caccb6ebd922ee3edd69 KVM: x86: Don't WARN if userspace mucks with RCX during string I/O exit
 10e7a099bfd860a2b77ea8aaac661f52c16dd865 selftests: KVM: Add test to verify KVM doesn't explode on "bad" I/O
@@ -447,10 +444,6 @@ bbdff6d583be718935b613ab2a966cddaadf661f Merge tag 'perf-tools-fixes-for-v5.16-2
 8f97a35a53e2afc0a2485b2d976e12492563a318 Merge branch 'for-5.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/dennis/percpu
 e034d9cbf9f17613c954541f65390be5c35807fc Merge tag 'xfs-5.16-fixes-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 a763d5a5abd65797aec3dd1bf01fe2ccbec32967 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-153a2d7e3350cc89d406ba2d35be8793a64c2038 USB: gadget: detect too-big endpoint 0 requests
-86ebbc11bb3f60908a51f3e41a17e3f477c2eaa3 USB: gadget: zero allocate endpoint 0 buffers
-1a3910c80966e4a76b25ce812f6bea0ef1b1d530 usb: core: config: fix validation of wMaxPacketValue entries
-ca5737396927afd4d57b133fd2874bbcf3421cdb usb: core: config: using bit mask instead of individual bits
 0f3d41e82d78bf521dfee4d6db1d247628dcf399 Merge tag 'csky-for-linus-5.16-rc5' of git://github.com/c-sky/csky-linux
 773602256a2ca73455b0baeae5737c4a9ed6ef49 Merge tag 'sched-urgent-2021-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 82d2ef454052372f36e3642ac09efe48c3d59220 Merge tag 'irq-urgent-2021-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -459,4 +452,4 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
 
---===============6438435404107882372==--
+--===============1821772915769082446==--
