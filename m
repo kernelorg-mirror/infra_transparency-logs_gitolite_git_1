@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 13 Dec 2021 21:36:58 -0000
-Message-Id: <163943141852.9638.2740580232723746804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Mon, 13 Dec 2021 21:40:50 -0000
+Message-Id: <163943165045.12182.13879275019588225939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/for-next
-    old: c8064e5b4adac5e1255cf4f3b374e75b5376e7ca
-    new: acd143eefb8270b8f50e2ce44e2fcdbbcf496a86
+  - ref: refs/heads/prep-glibc-2.35
+    old: 8fb4ed5dd57b8bba591d0f0ffb99cb5e27b77576
+    new: 9e8b5c57e10a41e65dfee47fed6804bdd145c92f
     log: |
-         acd143eefb8270b8f50e2ce44e2fcdbbcf496a86 selftests/bpf: Fix segfault in bpf_tcp_ca
+         9e8b5c57e10a41e65dfee47fed6804bdd145c92f Update librseq to co-exist with glibc rseq integration
          
