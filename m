@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1614681310215937352=="
+Content-Type: multipart/mixed; boundary="===============1951509067814290937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 13 Dec 2021 19:26:03 -0000
-Message-Id: <163942356382.25349.7844851559940909940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 13 Dec 2021 19:26:16 -0000
+Message-Id: <163942357688.25510.16519538706975538371@gitolite.kernel.org>
 
---===============1614681310215937352==
+--===============1951509067814290937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 1bd947cb5eff099bacb4eb3f8a860cb579f3817b
-    new: 3edd3c182ac7c2299b2519afa31268d6a359cb30
-    log: revlist-1bd947cb5eff-3edd3c182ac7.txt
+  - ref: refs/heads/queue-next
+    old: f3f9fb009fae77d73ecb37e336002ba31e3cd3fa
+    new: 19bca86c7d5167bed74e3e4ba7f3c269a100da68
+    log: revlist-f3f9fb009fae-19bca86c7d51.txt
 
---===============1614681310215937352==
+--===============1951509067814290937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bd947cb5eff-3edd3c182ac7.txt
+Content-Disposition: attachment; filename=revlist-f3f9fb009fae-19bca86c7d51.txt
 
+c6b98dec37ee6911314eb2f1e74f9a10bd5a9fad IB/mlx5: Expose NDR speed through MAD
 3a6c12a0c6c3f857f47efe0e40011360063a35bc net: stmmac: bump tc when get underflow error from DMA descriptor
 c062f2a0b04d86c5b8c9d973bea43493eaca3d32 net/sched: sch_ets: don't remove idle classes from the round-robin list
 6180c780e64ceb8dd23345b586dfa70c0a1536ee tipc: discard MSG_CRYPTO msgs when key_exchange_enabled is not set
@@ -97,5 +98,7 @@ ddbf9459c9c72e9273e5a8d6a62c00db13287b9d Merge branch 'patchq/449782' into mlx5-
 c9751ef9705ea7547a995c0e29f0bfec93648d83 Merge branch 'mlx5-queue' into net-next
 60d1262f3237985ba9b124be982f9ef2f88f59c2 Merge branch 'mlx4-for-net' into net-next
 3edd3c182ac7c2299b2519afa31268d6a359cb30 Merge branch 'mlx5-for-net' into net-next
+6023a8e58898116f86907050b9127165f304a719 Merge branch 'net-next' into queue-next
+19bca86c7d5167bed74e3e4ba7f3c269a100da68 Merge branch 'testing/rdma-next' into queue-next
 
---===============1614681310215937352==--
+--===============1951509067814290937==--
