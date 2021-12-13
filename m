@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6353160329204310470=="
+Content-Type: multipart/mixed; boundary="===============2416483447814193099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Dec 2021 19:28:48 -0000
-Message-Id: <163942372819.26324.2790443180039383233@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 19:28:56 -0000
+Message-Id: <163942373696.26414.12920562496498052109@gitolite.kernel.org>
 
---===============6353160329204310470==
+--===============2416483447814193099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: ced42e1c17d4f0532356eccc4c9e82327e3d1416
     new: 362fc3cae72088d21e8c6fd3a2e3800f1db65516
     log: revlist-ced42e1c17d4-362fc3cae720.txt
 
---===============6353160329204310470==
+--===============2416483447814193099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ edb3d07e2403abd13fc664e8b6f23ea7efb52747 x86/mce: Mark mce_timed_out() noinstr
 e3d72e8eee53c55835ab4664920d83400ff5d6c2 x86/mce: Mark mce_start() noinstr
 362fc3cae72088d21e8c6fd3a2e3800f1db65516 Merge ras/core into tip/master
 
---===============6353160329204310470==--
+--===============2416483447814193099==--
