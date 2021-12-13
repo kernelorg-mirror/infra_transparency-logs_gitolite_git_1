@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3870039593796712614=="
+Content-Type: multipart/mixed; boundary="===============4287738350902178177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
-Date: Mon, 13 Dec 2021 07:46:33 -0000
-Message-Id: <163938159396.18602.12548878952743292615@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 07:47:18 -0000
+Message-Id: <163938163813.18882.1239616943839064857@gitolite.kernel.org>
 
---===============3870039593796712614==
+--===============4287738350902178177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwamatsu/linux-visconti
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-5.10.y-rebase
-    old: a68bbdf19c2558f9cad08a4a5e30e42810df9876
-    new: de7343e2ec02e9725e18247dcd30167f03c5cbaa
-    log: revlist-a68bbdf19c25-de7343e2ec02.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 6d59912db820058fd1cdd673c1d4cc35c38c46dc
+    new: c90593cc488f8538c171bf4c86c8d7687feaeba7
+    log: revlist-6d59912db820-c90593cc488f.txt
 
---===============3870039593796712614==
+--===============4287738350902178177==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a68bbdf19c25-de7343e2ec02.txt
+Content-Disposition: attachment; filename=revlist-6d59912db820-c90593cc488f.txt
 
+48843dd23c7bfcb0f0c3a02926d660f939dc2b9f mm, slub: fix mismatch between reconstructed freelist depth and cnt
+568f906340b43120abd6fcc67c37396482f85930 mm, slub: fix potential memoryleak in kmem_cache_open()
+b41fd8f5d2ade45cb8b3e745705a0922e43a019a mm, slub: fix incorrect memcg slab count for bulk free
+8f042315fcc46b7fc048ba7d7a3e136927e384d4 KVM: nVMX: promptly process interrupts delivered while in guest mode
+77c0ef979e32b8bc22f36a013bab77cd37e31530 nfc: nci: fix the UAF of rf_conn_info object
+7f221ccbee4ec662e2292d490a43ce6c314c4594 isdn: cpai: check ctr->cnr to avoid array index out of bound
+f8a6541345c2d384c1343a2990e16e4c696f47a1 netfilter: Kconfig: use 'default y' instead of 'm' for bool config option
+0e033cb40761e50b9ed437397898cccad40def0b selftests: netfilter: remove stray bash debug line
+96835b68d7b39df9b25d5a08a2ffa9cb2562cffa net: bridge: mcast: use multicast_membership_interval for IGMPv3
+f40c2281d2c0674d32ba732fee45222d76495472 drm: mxsfb: Fix NULL pointer dereference crash on unload
+69078a94365a74cfbf113890ca9cc86ba1d1e5c0 net: hns3: fix the max tx size according to user manual
+81d8e70cdce4f4e1414943ed0f78215b1abb0027 gcc-plugins/structleak: add makefile var for disabling structleak
+369db2a91d5cfa55b04c919af7f5680276996e06 ALSA: hda: intel: Allow repeatedly probing on codec configuration errors
+f9d16a4284890bbcfa0888b02a718c1bae8168b3 btrfs: deal with errors when checking if a dir entry exists during log replay
+15d3ad79885b91d9bdcaa102027021d447b89ea5 net: stmmac: add support for dwmac 3.40a
+ab4f542b515b694ecb7d7a73a4e7e908528a7cfe ARM: dts: spear3xx: Fix gmac node
+9f591cbdbed3d7822b2bdba89b34a6d7b434317d isdn: mISDN: Fix sleeping function called from invalid context
+85c8d8c1609df3038801b45989b6ae18ef03c265 platform/x86: intel_scu_ipc: Update timeout value in comment
 e56a3e7ae3533ae1bf2dc742cf3538e459324340 ALSA: hda: avoid write to STATESTS if controller is in reset
 7a5a1f09c8b45685a2336d418b5a49439c190e92 libperf tests: Fix test_stat_cpu
 ea9c1f5d8a3add8d47986460513660ff24ef66bb perf/x86/msr: Add Sapphire Rapids CPU support
@@ -1027,28 +1045,10 @@ a15261d2a1214c9304d17d4b9b819255c7406de5 shm: extend forced shm destroy to suppo
 98b02755d544ce26ac0a41ff52bf56f2bd79e4c0 net: stmmac: platform: fix build warning when with !CONFIG_PM_SLEEP
 45b42cd05391197d5426a9097043d5e77bdbefc9 drm/amdgpu/gfx9: switch to golden tsc registers for renoir+
 a324ad794566ae2ad2d5aa7f7e3c1825fb5cd5b7 Linux 5.10.83
-fbac893f71522e95636bb44aea9e31e39b507980 MAINTAINERS: Add entries for Toshiba Visconti5 watchdog driver
-a6cf7ac3591f3ac06fbc07ee336c7144177ccc00 arm64: dts: visconti: Add watchdog support for TMPV7708 SoC
-ae8bb0eba573b69bd1c5cd659550df149ed0163f dt-bindings: gpio: Add bindings for Toshiba Visconti GPIO Controller
-b5a762aa1be3a415948d84e6e5df1c795ac3e94a gpio: visconti: Add Toshiba Visconti GPIO support
-ed5f4c39282e1835362a52dbe05fc12f0f2426ad MAINTAINERS: Add entries for Toshiba Visconti GPIO controller
-f141c7eb21a540e91f2d02994cb4e71dda437897 arm: dts: visconti: Add DT support for Toshiba Visconti5 GPIO driver
-8dee77cb6f76c6485fc554ea3aad52ecd92999fe dt-bindings: net: Add DT bindings for Toshiba Visconti TMPV7700 SoC
-16a2ce851419a59eb6072f077e1bd9a205c431a4 net: stmmac: Add Toshiba Visconti SoCs glue driver
-a7b4228290bec0cc00848ac1dc4ea90614ad971e MAINTAINERS: Add entries for Toshiba Visconti ethernet controller
-0dff6b0fee835fa34f4a42fbdca0cab344bd6ef5 arm: dts: visconti: Add DT support for Toshiba Visconti5 ethernet controller
-235abdffd64f3adabb050d8e1215e899224d67bb net: stmmac: Fix missing spin_lock_init in visconti_eth_dwmac_probe()
-202491140472fbdcba1ccd01a481dbf5480d07f0 dt-bindings: pwm: Add bindings for Toshiba Visconti PWM Controller
-77a0b459b0940fb6ce26d2f92be1e0e8f4a02ec3 pwm: visconti: Add Toshiba Visconti SoC PWM support
-a92a7d240aebb3a2c2588c527150a1400d437842 pwm: visconti: Fix and simplify period calculation
-38764b584407e13d142ce0579b505f36f5b966ae arm64: dts: visconti: Add PWM support for TMPV7708 SoC
-00c1ceca81eb622bd5b973bf9e08b5a2ac317faf arm64: defconfig: Visconti: Enable PWM
-ebbd9b0a80ddd93d2a108bb62a9a04bc5572ad0d arm64: defconfig: Visconti: Enable GPIO
-72f9f74f477a09a79147d1d69539a9e288938011 PCI: visconti: Add Toshiba Visconti PCIe host controller driver
-3273c5c72ad1c107a51e6a540029731287383e15 MAINTAINERS: Add entries for Toshiba Visconti PCIe controller
-b5d5781d44960da1bd4966960cb1414ddd4d7791 arm64: dts: visconti: Add PCIe host controller support for TMPV7708 SoC
-742895bc94843205b4f08eae36d0aa7b65698cbd arm64: dts: visconti: Add 150MHz fixed clock to TMPV7708 SoC
-67455d040a5321b7989490e986a7a84e1aeb2103 arm64: dts: visconti: Add DTS for the VisROBO board
-de7343e2ec02e9725e18247dcd30167f03c5cbaa arm64: defconfig: Visconti: Enable PCIe host controller
+913303450f44b762322f6e92d9a4a0088223fa72 arm64: dts: visconti: Add PCIe host controller support for TMPV7708 SoC
+275127a770f1cb5e0556dbf7d8dc08f62c27c2cb arm64: dts: visconti: Add 150MHz fixed clock to TMPV7708 SoC
+45d54a0b02401f069868e38e9aa91a1ebcf51245 arm64: dts: visconti: Add DTS for the VisROBO board
+98e78d21a8283d5d71495b723f88679beea69143 arm64: defconfig: Visconti: Enable PCIe host controller
+c90593cc488f8538c171bf4c86c8d7687feaeba7 Merge tag 'v5.10.83' into linux-5.10.y
 
---===============3870039593796712614==--
+--===============4287738350902178177==--
