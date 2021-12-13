@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Mon, 13 Dec 2021 20:26:37 -0000
-Message-Id: <163942719792.31065.10166649739475519613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 13 Dec 2021 20:49:56 -0000
+Message-Id: <163942859669.12334.13741429271143556220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/prep-glibc-2.35
-    old: d69fbf7ad1b14f9d58c45d6b8f06ef124b63a34c
-    new: 8fb4ed5dd57b8bba591d0f0ffb99cb5e27b77576
-    log: |
-         8fb4ed5dd57b8bba591d0f0ffb99cb5e27b77576 Update librseq to co-exist with glibc rseq integration
-         
+  - ref: refs/heads/for-kernelci
+    old: 3901ff76fbe28c90c45387c4d76afa1f19bcdd83
+    new: cafc0eab168917ec9c0cd47d530a40cd40eb2928
