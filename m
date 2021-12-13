@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5389583221075191891=="
+Content-Type: multipart/mixed; boundary="===============6859118069525782748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Dec 2021 09:46:05 -0000
-Message-Id: <163938876521.8684.18411651600169856642@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 09:47:02 -0000
+Message-Id: <163938882266.9031.9507986597503921956@gitolite.kernel.org>
 
---===============5389583221075191891==
+--===============6859118069525782748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,18 +13,18 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+user: mingo
 changes:
-  - ref: refs/heads/x86/core
-    old: e463a09af2f0677b9485a7e8e4e70b396b2ffb6f
-    new: 82a8954acd93ae95d6252fb93a3d210c8f71b093
-    log: revlist-e463a09af2f0-82a8954acd93.txt
+  - ref: refs/heads/master
+    old: bcc4f2c06e38d5539918e2ff8626fb70c0b51327
+    new: fe0f73d791fd7feefa1e34d7565a9c55b0fefce8
+    log: revlist-bcc4f2c06e38-fe0f73d791fd.txt
 
---===============5389583221075191891==
+--===============6859118069525782748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e463a09af2f0-82a8954acd93.txt
+Content-Disposition: attachment; filename=revlist-bcc4f2c06e38-fe0f73d791fd.txt
 
 bff8c3848e071d387d8b0784dc91fa49cd563774 bitfield.h: Fix "type of reg too small for mask" test
 c6dbd3e5e69cf3ca47a3864115d4cbdd44619243 x86/mmx_32: Remove X86_USE_3DNOW
@@ -48,5 +48,6 @@ d5d797dcbd781cb7c526ad32f31c7fd96babfdb2 x86/usercopy: Remove .fixup usage
 b7760780257354bb14de62abed868405b844fa13 x86/word-at-a-time: Remove .fixup usage
 e5eefda5aa51f3178821b58806e1dddd798c0934 x86: Remove .fixup section
 82a8954acd93ae95d6252fb93a3d210c8f71b093 objtool: Remove .fixup handling
+fe0f73d791fd7feefa1e34d7565a9c55b0fefce8 Merge branch into tip/master: 'x86/core'
 
---===============5389583221075191891==--
+--===============6859118069525782748==--
