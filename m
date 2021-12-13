@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 13 Dec 2021 16:48:17 -0000
-Message-Id: <163941409718.20821.6148480990005928526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 13 Dec 2021 16:50:04 -0000
+Message-Id: <163941420421.23785.7272433183468374399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/arm64/atomics/improvements
-    old: 7a403246490c3d60d86475afa1b63382f8e14cdf
-    new: e5727b2b5532a5f81b39a2ae65177b5b5df8e902
+  - ref: refs/heads/io_uring-5.16
+    old: 71a85387546e50b1a37b0fa45dadcae3bfb35cf6
+    new: d800c65c2d4eccebb27ffb7808e842d5b533823c
     log: |
-         e5727b2b5532a5f81b39a2ae65177b5b5df8e902 arm64: atomics: lse: define RETURN ops in terms of FETCH ops
+         d800c65c2d4eccebb27ffb7808e842d5b533823c io-wq: drop wqe lock before creating new worker
          
