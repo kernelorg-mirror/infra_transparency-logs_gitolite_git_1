@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4760502867463749224=="
+Content-Type: multipart/mixed; boundary="===============5464109732320332283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Mon, 13 Dec 2021 19:05:46 -0000
-Message-Id: <163942234642.12338.12090691391583642396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 13 Dec 2021 19:06:16 -0000
+Message-Id: <163942237652.12551.3335726276925984680@gitolite.kernel.org>
 
---===============4760502867463749224==
+--===============5464109732320332283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/master
-    old: 1fc596a56b334f4d593a2b49e5ff55af6aaa0816
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    log: revlist-1fc596a56b33-2585cf9dfaad.txt
+    log: revlist-fa55b7dcdc43-2585cf9dfaad.txt
 
---===============4760502867463749224==
+--===============5464109732320332283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fc596a56b33-2585cf9dfaad.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-2585cf9dfaad.txt
 
 e8d032507cb7912baf1d3e0af54516f823befefd net: marvell: prestera: fix double free issue on err path
 6a405f6c372d14707b87d3097b361b69899a26c8 atlantic: fix double-free in aq_ring_tx_clean
@@ -1051,4 +1051,4 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
 
---===============4760502867463749224==--
+--===============5464109732320332283==--
