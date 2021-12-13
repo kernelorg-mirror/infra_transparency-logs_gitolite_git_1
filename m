@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 13 Dec 2021 22:52:46 -0000
-Message-Id: <163943596650.25651.17835766700012839293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 13 Dec 2021 23:03:54 -0000
+Message-Id: <163943663419.31679.5027392353143686207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/memcpy/step2/next-20211210
+  - ref: refs/heads/apple/dt
     old: 0000000000000000000000000000000000000000
-    new: d40c463609c64a6bb7134aa7bce6339399f501e2
+    new: bf2c05b619ffc0bccf60d2108bfadc880ee7f5c7
