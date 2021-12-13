@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4117268026568809759=="
+Content-Type: multipart/mixed; boundary="===============6728566977777248098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Dec 2021 09:13:31 -0000
-Message-Id: <163938681118.18479.4868741864817709694@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 09:13:35 -0000
+Message-Id: <163938681554.18559.3676581946792030107@gitolite.kernel.org>
 
---===============4117268026568809759==
+--===============6728566977777248098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,66 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: cab2d3fd6866e089b5c50db09dece131f85bfebd
+  - ref: refs/heads/main
+    old: d58071a8a76d779eedab38033ae4c821c30295a5
     new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    log: revlist-cab2d3fd6866-2585cf9dfaad.txt
+    log: revlist-d58071a8a76d-2585cf9dfaad.txt
 
---===============4117268026568809759==
+--===============6728566977777248098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639386810 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639386814 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1639386809-ba1ec2e290660065d36a059c254e48c5b95ac77f
+nonce 1639386814-9d11511f2ab2d7df4fd00a3c249ead7c013931b1
 
-cab2d3fd6866e089b5c50db09dece131f85bfebd 2585cf9dfaaddf00b069673f27bb3f8530e2039c refs/heads/char-misc-linus
+d58071a8a76d779eedab38033ae4c821c30295a5 2585cf9dfaaddf00b069673f27bb3f8530e2039c refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3DrobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UYsQAJb6w8b7ryOT47c6FXKp
-ALrwF9bYLfzT/rLxok6YhXSud2tqibrDSnuBW8mafVotCLjrEcgu0Zkmkv5gm+Wu
-kWJ4pw7MoPSoFLwgGvj1eY6rFpbHqNozc+BDk6SZq1dy9fY+At2LF7WvbTMJu4vH
-Fbon4jvMWCbSAzOvZW66FL7/C/56r4H9OePU4cB42EOyihcgd94tJURrp4YAQiYG
-62EMeGp4Jom/7UYvx6PqGHew6FVTwDiAjoqDn+LI4H35W4zCbB9pbrYUM9vt6JSC
-LDuiAoA6fmGySHVmMSAMRAFZngd5lTN0gxCLPGRd6/b0qcIYL9jUrENm2gHzjQTO
-h7gV93Wi4S9EsCNa12Q4mpS/ICGLud1vdsLQcwzGCf4CpI+J5RCBSCve6fA+D0eD
-4MF9XMhRueyEP462OyNwYrYzVLzPQWhwUDk2t+3MOIG09q01PtzB8Fh5DhGaM+Ir
-9+aJp2K27jTWYVBscFkES1N388A7qe1mo+dlDKdJ/KsS6W3ECV4tOgTidtPLg85H
-5HJhfKOqeYmqVgHF9ncZV4n8CSnyc2rxqT+DprumZvkpTJgP66rrziYen4wyy9b6
-1h0gMXxF2WJMuUKZJOByDE+K+Zue9IuJxmhz0hhlgw195od8HW7v8IVXYi/S/gYO
-o4/C5enHIuPoK636GVjZP4Tz
-=/k9H
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3Dr4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LK4P/iulbfYbeFDAQi3stkVy
+4ju3Nt7/1yXcXwRd5HpFEa1Eo0logEZg2v51FW9YOFvLtZ7Xd1jkUDdQnpL0SF1N
+l81k8RoAsHLapp6YO7hYcjCkhs6+neXP112kl3jNx3kklqzGnWdVJLxr4zj4NS/Y
+qSXL8/dcR0peELgQ3zAEvJ7yIGuUWKs+TAr9wOSp5kDRoszqP9x9wQDzPFDFYpky
+RlCYYx3aJ/QaiZ8gJ36kbr/PQUsVwODvAGCymHpOSt9oIu+AyxqLT1/u1IzXfDIS
+ZpYh1TjSw0cqhBPKbDbmP76fhw+g2cF/6eq1WsZzpG7UEk7D9K/kZAvN8mEtauel
+XuUzp4b5s9Lh8B7/6IVZaNW42pKhN5IUTT/bJVm4w7TSHY5HvIrnLIWowG7MCM9W
+YeZX7oM/asMNogAU8SlM4Ie1edS7ie2QrTAx/RamWmJ50Qr0TqiBmKmyVyjf9Bwv
+ewHCJB4GIdCzAD0sagc7CNIaxtipCLMqRu5UZ10qlq/ujPNMqrmzJbArARiowGLB
+0U/qt6qgvTRo7Ttric/bzDU58q/F767Ky/qQpJEWjQfoNPYZDSlFlvqtERhr6yS4
+8b9MoOrCU0AVvMAncHXLDRxAd+GFlvxKvkO2eca/y6y99Jy94Y2nuX8U4Vk7eIRv
+5An3PWhoJGU/xP50HWfRbNmO
+=HZW+
 -----END PGP SIGNATURE-----
 
---===============4117268026568809759==
+--===============6728566977777248098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cab2d3fd6866-2585cf9dfaad.txt
+Content-Disposition: attachment; filename=revlist-d58071a8a76d-2585cf9dfaad.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
 214f525255069a55b4664842c68bc15b2ee049f0 hwmon: (nct6775) mask out bank number in nct6775_wmi_read_value()
 1d49eb91e86e8c1c1614c72e3e958b6b7e2472a9 ipmi: Move remove_work to dedicated workqueue
+8755e9e6d0e41336879035d2280f7a4a24236543 phy: stm32: fix st,slow-hs-slew-rate with st,decrease-hs-slew-rate
+7adaf921b6438b6ba1c983a4ca5622f8173063f0 phy: ti: report 2 non-kernel-doc comments
 f45b2974cc0ae959a4c503a071e38a56bd64372f bpf, x86: Fix "no previous prototype" warning
+70c9774e180d151abaab358108e3510a8e615215 iio: accel: kxcjk-1013: Fix possible memory leak in probe and remove
+ef9d67fa72c1b149a420587e435a3e888bdbf74f iio: ltr501: Don't return error code in trigger handler
+45febe0d63917ee908198c5be08511c64ee1790a iio: kxsd9: Don't return error code in trigger handler
+8e1eeca5afa7ba84d885987165dbdc5decf15413 iio: stk3310: Don't return error code in interrupt handler
+cd0082235783f814241a1c9483fb89e405f4f892 iio: mma8452: Fix trigger reference couting
+f711f28e71e965c0d1141c830fa7131b41abbe75 iio: adc: stm32: fix a current leak by resetting pcsel before disabling vdda
+59f92868176f191eefde70d284bdfc1ed76a84bc iio: dln2-adc: Fix lockdep complaint
+a827a4984664308f13599a0b26c77018176d0c7c iio: trigger: Fix reference counting
+90751fb9f224e0e1555b49a8aa9e68f6537e4cec iio: dln2: Check return value of devm_iio_trigger_register()
+4a3bf703a9dccc29e48390b8cd1bf30c4e599100 iio: imx8qxp-adc: fix dependency to the intended ARCH_MXC config
+67fe29583e72b2103abb661bb58036e3c1f00277 iio: itg3200: Call iio_trigger_notify_done() on error
+6661146427cbbce6d1fe3dbb11ff1c487f55799a iio: ad7768-1: Call iio_trigger_notify_done() on error
 574c3c55e969096cea770eda3375ff35ccf91702 KVM: x86/mmu: Fix TLB flush range when handling disconnected pt
 bda44d844758c70c8dc1478e6fc9c25efa90c5a7 KVM: Ensure local memslot copies operate on up-to-date arch-specific data
 6b285a5587506bae084cf9a3ed5aa491d623b91b KVM: Disallow user memslot with size that exceeds "unsigned long"
@@ -87,7 +101,14 @@ b31f8febd1850bbe74aba184779ec54552d92752 ASoC: tegra: Fix kcontrol put callback 
 8cf72c4e75a0265135d34a8e29224b4c1e92b51c ASoC: tegra: Fix kcontrol put callback in Mixer
 38207a5e81230d6ffbdd51e5fa5681be5116dcae bpf, sockmap: Attach map progs to psock early for feature probes
 c0d95d3380ee099d735e08618c0d599e72f6c8b0 bpf, sockmap: Re-evaluate proto ops when psock is removed from sockmap
+31c66bfa95c14321e754ade581a65a50fd482841 phy: mvebu-cp110-utmi: Fix kernel-doc warns
+e697ffe39a0df3cc0cd977059a9207cb3084ff11 phy: qualcomm: qmp: Add missing struct documentation
+1de7c6ad9a093100682e8d28e8e066d86a339b48 phy: qualcomm: usb-hsic: Fix the kernel-doc warn
+466b1516e74ffbb268dce83e41ca62bcfc822cb6 phy: ti: tusb1210: Fix the kernel-doc warn
 0e4190d762ef2609111507e1b9553a166436f556 hwmon: (sht4x) Fix EREMOTEIO errors
+fde272e78e004a45c7e4976876277d7e6a5a0ede iio: gyro: adxrs290: fix data signedness
+92beafb76a31bdc02649eb44e93a8e4f4cfcdbe8 iio: adc: axp20x_adc: fix charging current reporting on AXP22x
+652e7df485c6884d552085ae2c73efa6cfea3547 iio: at91-sama5d2: Fix incorrect sign extension
 b4d25abf9720b69a03465b09d0d62d1998ed6708 drm/msm/a6xx: Allocate enough space for GMU registers
 59ba1b2b4825342676300f66d785764be3fcb093 drm/msm/devfreq: Fix OPP refcnt leak
 3466d9e217b337bf473ee629c608e53f9f3ab786 drm/msm: Fix mmap to include VM_IO and VM_DONTDUMP
@@ -113,6 +134,10 @@ a571bc28326d9f3e13f5f2d9cda2883e0631b0ce iwlwifi: Fix memory leaks in error hand
 5737b4515deea0829c138ab5201160345ec67d49 rtw89: update partition size of firmware header on skb->data
 6e53d6d26920d5221d3f4d4f5ffdd629ea69aa5c mt76: mt7915: fix NULL pointer dereference in mt7915_get_phy_mode
 e4840d537c2c6b1189d4de16ee0f4820e069dcea drm/msm: Do hw_init() before capturing GPU state
+0d1c7e5544581646ea22c42012434e92dfb40a58 phy: qualcomm: ipq806x-usb: Fix kernel-doc style
+7947113fd07a372de813edddfce6cb0a38ab66e0 phy: ti: omap-usb2: Fix the kernel-doc style
+a1b6c81ba41fe0458c3678e7fa23a25775978108 dt-bindings: phy: zynqmp-psgtr: fix USB phy name
+f0ae8685b2858fc1dabf5ea743642abb5f242375 phy: HiSilicon: Fix copy and paste bug in error handling
 8a6cc0ded6d942e4a506c421c4d87a634bda6e75 ASoC: Intel: soc-acpi: add entry for ESSX8336 on CML
 5a3ba99b62d8486de0316334e72ac620d4b94fdd ipmi: msghandler: Make symbol 'remove_work_wq' static
 ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
@@ -184,6 +209,7 @@ cf36de4fc5ce5502ce5070a793addd9d49df4113 ASoC: tegra: Use normal system sleep fo
 750dc2f622192c08664a15413bc9746d9cbc4361 ASoC: rt5682s: Fix crash due to out of scope stack vars
 afece15a68dc83b438cc4c3a64634e48a5735573 drm: msm: fix building without CONFIG_COMMON_CLK
 8a724d5f60904084e09de2685ff9e77bc8a40815 Suspend related fixes on Tegra
+784b470728f5ae44f245338e4660144d46dc0876 iio: adc: stm32: fix null pointer on defer_probe error
 65cc4ad62a9ed47c0b4fcd7af667d97d7c29f19d ALSA: hda/cs8409: Set PMSG_ON earlier inside cs8409 driver
 52d04d408185b7aa47628d2339c28ec70074e0ae s390/pci: move pseudo-MMIO to prevent MIO overlap
 b12764695c3fcade145890b67f82f8b139174cc7 i2c: cbus-gpio: set atomic transfer callback
@@ -422,6 +448,8 @@ d080811f27936f712f619f847389f403ac873b8f HID: add USB_HID dependancy to hid-chic
 30cb3c2ad24b66fb7639a6d1f4390c74d6e68f94 HID: add USB_HID dependancy to hid-prodikeys
 caff009098e6cf59fd6ac21c3a3befcc854978b4 HID: google: add eel USB id
 086e81f6b90e41a07a1a885bb11e93daa6915747 HID: intel-ish-hid: ipc: only enable IRQ wakeup when requested
+0ec7f1ae60e9673a276ab367e66cc10292351b25 Merge tag 'phy-fixes-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
+e2022cbec9c2606514c4edc4a760e3acb7419d8a bus: mhi: pci_generic: Fix device recovery failed issue
 96f3896780153214040a6747974bebc1355307c0 selftests/tc-testing: add exit code
 a8c9505c53c5f1f0aba572a4c70e2d91ad08434e selftests/tc-testing: add missing config
 db925bca33a9f0029a9891defd926a4856dd5c87 selftests/tc-testing: Fix cannot create /sys/bus/netdevsim/new_device: Directory nonexistent
@@ -432,7 +460,11 @@ fbcd13df1e78eb2ba83a3c160eefe2d6f574beaf usb: typec: tcpm: Wait in SNK_DEBOUNCED
 37307f7020ab38dde0892a578249bf63d00bca64 usb: cdnsp: Fix a NULL pointer dereference in cdnsp_endpoint_init()
 e485382ea7eb4b81f4b59073cd831084820497de drm/ttm: fix ttm_bo_swapout
 9cabe26e65a893afd5846908aa393bd283ab6609 serial: 8250_bcm7271: UART errors after resuming from S2
+f12972018b3c478a7e17669ee9e46ac525aadbea MAINTAINERS: add maintainer for Qualcomm FastRPC driver
+3a1bf591e9a410f220b7405a142a47407394a1d5 misc: fastrpc: fix improper packet size calculation
+9a626577398c24ecab63c0a684436c8928092367 nvmem: eeprom: at25: fix FRAM byte_len
 a226abcd5d427fe9d42efc442818a4a1821e2664 io-wq: don't retry task_work creation failure on fatal conditions
+0edeb8992db8e7de9b8fe3164ace9a4356b17021 misc: rtsx: Avoid mangling IRQ during runtime PM
 2e69e18aec4c1d308b2da461cb6d21500fa441c7 mtd: rawnand: denali: Add the dependency on HAS_IOMEM
 16d8b628a4152e8e8b01b6a1d82e30208ee2dd30 mtd: rawnand: Fix nand_erase_op delay
 36a65982a98c4bc72fdcfef2c4aaf90193746631 mtd: rawnand: Fix nand_choose_best_timings() on unsupported interface
@@ -471,6 +503,7 @@ a2aeaeabbc9a1fbfb22d23539ae315cf52f09a0a Merge tag 'arm64-fixes' of git://git.ke
 2be6d4d16a0849455a5c22490e3c5983495fed00 net: cdc_ncm: Allow for dwNtbOutMaxSize to be unset or zero
 9ed20bafc85806ca6c97c9128cec46c3ef80ae86 preempt/dynamic: Fix setup_preempt_mode() return value
 315c4f884800c45cb6bd8c90422fad554a8b9588 sched/uclamp: Fix rq->uclamp_max not set on first enqueue
+893621e0606747c5bbefcaf2794d12c7aa6212b7 iio: trigger: stm32-timer: fix MODULE_ALIAS
 5c623c368933f22fcf77e040a0ad83f90c4e39ac Merge tag 'gfs2-v5.16-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 e3b8bb4547d4a6e92f7da45db1e68c170e2d409f Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8b9a02280ebe209ae14fc478b0285745544a257c Merge tag 'io_uring-5.16-2021-12-03' of git://git.kernel.dk/linux-block
@@ -589,6 +622,7 @@ b5bd95d17102b6719e3531d627875b9690371383 net: fec: only clear interrupt of handl
 a0793fdad9a11a32bc6d21317c93c83f4aa82ebc csky: fix typo of fpu config macro
 250552b925ce400c17d166422fde9bb215958481 KVM: nVMX: Don't use Enlightened MSR Bitmap for L3
 b383a42ca523ce54bcbd63f7c8f3cf974abc9b9a irqchip/irq-gic-v3-its.c: Force synchronisation when issuing INVALL
+7c602f5d04f44f590c2ab06efbd2869936960db0 Merge tag 'iio-fixes-for-5.16b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 ee7f3666995d8537dec17b1d35425f28877671a9 tracefs: Have new files inherit the ownership of their parent
 48b27b6b5191e2e1f2798cd80877b6e4ef47c351 tracefs: Set all files to the same group ownership as the mount option
 11f8cb8903ba4e8ba900fa4e4ab29d0fb4c9ef5d ACPI: tools: Fix compilation when output directory is not present
@@ -646,6 +680,7 @@ e8b1d7698038e76363859fb47ae0a262080646f5 net: dsa: felix: Fix memory leak in fel
 04ec4e6250e5f58b525b08f3dca45c7d7427620e net: dsa: mv88e6xxx: allow use of PHYs on CPU and DSA ports
 3a49cc22d31eccceb856f468be0646faa2d4643f tools/lib/lockdep: drop leftover liblockdep headers
 ee3a4f666207b5a9d3d4bc7f45c9d59f2aeb3a0d KVM: x86: selftests: svm_int_ctl_test: fix intercept calculation
+cab2d3fd6866e089b5c50db09dece131f85bfebd bus: mhi: core: Add support for forced PM resume
 e1067a07cfbc5a36abad3752fafe4c79e06db1bb ftrace/samples: Add module to test multi direct modify interface
 c24be24aed405d64ebcf04526614c13b2adfb1d2 tracing: Fix possible memory leak in __create_synth_event() error path
 2990c89d1df457bd623371324998ee849806ddd3 Merge tag 'netfs-fixes-20211207' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs
@@ -755,4 +790,4 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
 
---===============4117268026568809759==--
+--===============6728566977777248098==--
