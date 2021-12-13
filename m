@@ -1,52 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============2319462352156316695=="
+Content-Type: multipart/mixed; boundary="===============7520718879887608443=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Mon, 13 Dec 2021 22:29:06 -0000
-Message-Id: <163943454608.9593.859921936728557879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 13 Dec 2021 22:40:57 -0000
+Message-Id: <163943525765.17201.8260751652652793483@gitolite.kernel.org>
 
---===============2319462352156316695==
+--===============7520718879887608443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fdc9d1a11c091ebf17efb8a80f8b04c23e1ae80c
-    new: ffe2576ac7731b7596e4bdb1c10ab9768f93ee09
+  - ref: refs/heads/for-5.16
+    old: de7dd9092cd38384f774d345cccafe81b4b866b0
+    new: db635ba4fadf3ba676d07537f3b3f58166aa7b0e
     log: |
-         bba5718890cbc3704528c028e104dde197d4c49c patchwork-bot: Note which actions are part of "housekeeping"
-         e2dc648b93b77e45fde736ecbff8d0080fca41ff patchwork-bot: Create CACHEDIR if it is missing
-         36971ee3ad62a56f40c3663a82b7475151df2a77 patchwork-bot: Allow limiting heads to single branch
-         460990bdca13805f7e9b5d6c8037437f655bcfac patchwork-bot: Handle repo being a worktree
-         6fc2e91a876b0a2771eedb0fe6106d7f47eb8aab patchwork-bot: Allow initial database to skip recent commits
-         8998144862b16cfa7a2ec07757d43ca269d59373 patchwork-bot: Ignore empty context lines
-         ffe2576ac7731b7596e4bdb1c10ab9768f93ee09 patchwork-bot: Add --pwhash for debugging
+         d341b427c3c3fd6a58263ce01e01700d16861c28 ASoC: tegra: Add DAPM switches for headphones and mic jack
+         db635ba4fadf3ba676d07537f3b3f58166aa7b0e ASoC: tegra: Restore headphones jack name on Nyan Big
+         
+  - ref: refs/heads/for-5.17
+    old: befe304536eeef71f8529ff877444ae2b72a37db
+    new: 290a7c5509b6f14c28e959392f3cbc4d5b2c9318
+    log: |
+         c697ef868f596aba7a5e90be8eb10bf4d4a98990 ASoC: SOF: Intel: ICL: move ICL-specific ops to icl.c
+         a792bfc1c2bc4b5e2311edc62e0efe5adec5d079 ASoC: SOF: Intel: hda-stream: limit PROCEN workaround
+         12ce213821b77242b2217d08850ff972e1fb50bb ASoC: SOF: Intel: hda-ctrl: apply symmetry for DPIB
+         ae81d8fd57ff7d2b421c80f0f9426d9e775023b5 ASoC: SOF: hda-stream: only enable DPIB if needed
+         288fad2f71fa0b989c075d4984879c26d47cfb06 ASoC: SOF: Intel: hda: add quirks for HDAudio DMA position information
+         924631df4134d62b51a9442d97355eeba7ff613c ASoC: SOF: Intel: hda-dai: remove unused fields
+         290a7c5509b6f14c28e959392f3cbc4d5b2c9318 ASoC: SOF: Intel: add comment on JasperLake support
          
 
---===============2319462352156316695==
+--===============7520718879887608443==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1639434545 -0500
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1639434545-8de624a985703933db25272730d423364cfbf4cc
+pusher C3F436CA30F5D8EB 1639435255 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1639435254-6bd77fe34c9544b176afbbbd7947203a61f6bf3b
 
-fdc9d1a11c091ebf17efb8a80f8b04c23e1ae80c ffe2576ac7731b7596e4bdb1c10ab9768f93ee09 refs/heads/master
+de7dd9092cd38384f774d345cccafe81b4b866b0 db635ba4fadf3ba676d07537f3b3f58166aa7b0e refs/heads/for-5.16
+befe304536eeef71f8529ff877444ae2b72a37db 290a7c5509b6f14c28e959392f3cbc4d5b2c9318 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYbfJMQAKCRC2xBzjVmSZ
-bHbBAP9S4bioizpx6o7WCwBY+q6txlOYYFDFM17GZHOnjkviigD/VKURTRtW3ULj
-vPRQ8+eYPMHSrO3r7xWAbKdyjILi3As=
-=OJAK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG3y/cACgkQJNaLcl1U
+h9BLvgf/WBx8MuRB4kb9xpW3ccarwtcDlSfZJFuvmOeTQ8qO2bgPRkc4btd8zSGn
+JiQOBo7JxXbBAaK6vEf8ZjEC/3G3bk9UsAgWeF0Jg3WCkw4DhDt6CHkwE7S42Gym
+iqHEHL2rsjuh1MZNhNaUKXIfD6vB6QVWe8ZGBS1IG0BaCl68l6/Dlm11sfQuqw1A
+8zMA8gA9a2Q2OI3bujEgaU6yMiqPN8sGdSlqwAnvoje1F+WYAurH9ltv31pa3ADz
+KeFHsnwPmhduAOTdWytvAVkI50V3yT+tS839LDSIsHHQTmA6N6M0ui5DmmQ32BnN
+hiiTIYSVwIermVQaqO6606f0mZ/JPA==
+=crVt
 -----END PGP SIGNATURE-----
 
---===============2319462352156316695==--
+--===============7520718879887608443==--
