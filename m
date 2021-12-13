@@ -1,58 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============4784633141915267519=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Dec 2021 10:07:07 -0000
-Message-Id: <163939002731.24403.15755703225324001664@gitolite.kernel.org>
-
---===============4784633141915267519==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 13 Dec 2021 10:10:05 -0000
+Message-Id: <163939020567.26694.6604079874390431106@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/auto-latest
-    old: 8cb76a94265aa2a5d3f759243c834e08756a8266
-    new: ced42e1c17d4f0532356eccc4c9e82327e3d1416
-    log: revlist-8cb76a94265a-ced42e1c17d4.txt
-
---===============4784633141915267519==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8cb76a94265a-ced42e1c17d4.txt
-
-bff8c3848e071d387d8b0784dc91fa49cd563774 bitfield.h: Fix "type of reg too small for mask" test
-c6dbd3e5e69cf3ca47a3864115d4cbdd44619243 x86/mmx_32: Remove X86_USE_3DNOW
-acba44d2436d463f60a54bf934d378dcf384a965 x86/copy_user_64: Remove .fixup usage
-ab0fedcc714aafaac6ac996b51791aee0d1cd8fd x86/copy_mc_64: Remove .fixup usage
-16e617d05ef0c521d000c989796412ce713f28c9 x86/entry_64: Remove .fixup usage
-aa93e2ad7464ffb90155a5ffdde963816f86d5dc x86/entry_32: Remove .fixup usage
-4b5305decc8436bfe363d1c1773e8fa1c828b14d x86/extable: Extend extable functionality
-d52a7344bdfa9c3442d3f86fb3501d9343726c76 x86/msr: Remove .fixup usage
-4c132d1d844a53fc4e4b5c34e36ef10d6124b783 x86/futex: Remove .fixup usage
-99641e094d6ccf547b3eba833aea9a34fdf5681e x86/uaccess: Remove .fixup usage
-e2b48e43284c0916ebf8e4240199b9d9747e337a x86/xen: Remove .fixup usage
-1c3b9091d084d92c70a4260553853509637276b9 x86/fpu: Remove .fixup usage
-5fc77b916cb82fe476ae2344e0ec37445227a4f8 x86/segment: Remove .fixup usage
-c9a34c3f4ece192f6d804039fe6aac9618f0d236 x86/kvm: Remove .fixup usage
-3e8ea7803a1dedf19120a2fef12c590e90e4b469 x86/vmx: Remove .fixup usage
-fedb24cda1ca5407e1965b261e349ea85d6c03dc x86/checksum_32: Remove .fixup usage
-5ce8e39f55521c762f0e6d1bba9597284b1f2e69 x86/sgx: Remove .fixup usage
-13e4bf1bddcb65dd028aaa492789e8d61efaafa1 x86/usercopy_32: Simplify __copy_user_intel_nocache()
-d5d797dcbd781cb7c526ad32f31c7fd96babfdb2 x86/usercopy: Remove .fixup usage
-b7760780257354bb14de62abed868405b844fa13 x86/word-at-a-time: Remove .fixup usage
-e5eefda5aa51f3178821b58806e1dddd798c0934 x86: Remove .fixup section
-82a8954acd93ae95d6252fb93a3d210c8f71b093 objtool: Remove .fixup handling
-82762d2af31a60081162890983a83499c9c7dd74 sched/fair: Replace CFS internal cpu_util() with cpu_util_cfs()
-bcc4f2c06e38d5539918e2ff8626fb70c0b51327 Merge branch into tip/master: 'sched/core'
-fe0f73d791fd7feefa1e34d7565a9c55b0fefce8 Merge branch into tip/master: 'x86/core'
-6773cc31a9bb5122fd5c288f73ca006ad20a6c17 Merge tag 'v5.16-rc5' into locking/core, to pick up fixes
-5fb6e8cf53b005d287d4c2d137a415ff7d025a81 locking/atomic: atomic64: Remove unusable atomic ops
-ced42e1c17d4f0532356eccc4c9e82327e3d1416 Merge branch into tip/master: 'locking/core'
-
---===============4784633141915267519==--
+  - ref: refs/tags/v5.17-armsoc/dts64-1
+    old: 0000000000000000000000000000000000000000
+    new: bf7673d74a863946fbe7616395276fc2b450d6f6
