@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 Dec 2021 14:51:30 -0000
-Message-Id: <163940709021.13430.196527625631043968@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 14:52:49 -0000
+Message-Id: <163940716976.13857.15918373899717378628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b26980ab2a9776e5427d784fbafb1a01269f4001
-    new: 3cfcda2aee9446b30d1e0fefc11eeffe95fa6430
+    old: 3cfcda2aee9446b30d1e0fefc11eeffe95fa6430
+    new: fee32de284ac277ba434a2d59f8ce46528ff3946
     log: |
-         3cfcda2aee9446b30d1e0fefc11eeffe95fa6430 net: ocelot: use dma_unmap_addr to get tx buffer dma_addr
+         fee32de284ac277ba434a2d59f8ce46528ff3946 net: bonding: debug: avoid printing debug logs when bond is not notifying peers
          
