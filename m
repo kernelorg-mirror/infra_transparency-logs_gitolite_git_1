@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 13 Dec 2021 14:10:32 -0000
-Message-Id: <163940463273.18293.18134520653912179868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 13 Dec 2021 14:13:06 -0000
+Message-Id: <163940478663.19104.12331422281099882046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/sched/headers
-    old: 65e1933ce6028b8c99b8e6714887ac1dfffc2577
-    new: f16e7018bbf47f87949f98253619fab9cb0f53ac
+  - ref: refs/heads/master
+    old: 2cd24a2e8d8c47e5f6544bb3da3199c6b683e01f
+    new: 2106be4fdf3223d9c5bd485e6ef094139e3197ba
     log: |
-         f16e7018bbf47f87949f98253619fab9cb0f53ac 5f590c5f837d headers/deps: Add initial new headers as identity mappings
+         62cc9a7387f11193ab70a5f99aa8b2206817ce00 net: axienet: mark as a legacy_pre_march2020 driver
+         2106be4fdf3223d9c5bd485e6ef094139e3197ba net: mvneta: mark as a legacy_pre_march2020 driver
          
