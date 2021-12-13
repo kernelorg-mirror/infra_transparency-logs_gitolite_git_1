@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8934455877000339483=="
+Content-Type: multipart/mixed; boundary="===============3261148223644921342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 13 Dec 2021 13:49:11 -0000
-Message-Id: <163940335135.3536.16541628099581226260@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 13:49:25 -0000
+Message-Id: <163940336579.3693.17773165673132680398@gitolite.kernel.org>
 
---===============8934455877000339483==
+--===============3261148223644921342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-v5.17
-    old: 376e3fdecb0dcae216c0ac559cff066f460bf47b
-    new: 1a0ae068bf6b6f4233b1f31bf48bcbc47b111ef2
-    log: |
-         1a0ae068bf6b6f4233b1f31bf48bcbc47b111ef2 m68k: defconfig: Update defconfigs for v5.16-rc1
-         
-  - ref: refs/heads/master
-    old: f00c047f99d9c29630f421820c85dd7c7dd8f012
-    new: c97317e6439dd40d0ae1ea0ab38bffacaf79c103
-    log: revlist-f00c047f99d9-c97317e6439d.txt
+  - ref: refs/heads/m68k-queue
+    old: b5b1bae160ab8be04a8645ccb553e697fbdb8229
+    new: 1a234d8e39bbdcb0581dc0fe8e25c6ab2444c9fc
+    log: revlist-b5b1bae160ab-1a234d8e39bb.txt
 
---===============8934455877000339483==
+--===============3261148223644921342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f00c047f99d9-c97317e6439d.txt
+Content-Disposition: attachment; filename=revlist-b5b1bae160ab-1a234d8e39bb.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
@@ -433,6 +427,9 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 8d7ed10410d53453305e4f8673c50085d607fa80 Merge tag 'char-misc-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
-c97317e6439dd40d0ae1ea0ab38bffacaf79c103 Merge tag 'v5.16-rc5'
+ddf1d6654e530012f06c0ab24da317ee847b4cb6 m68k: Enable memtest functionality
+e5443182bea2188042248e13cb6db47622ebba3d m68k: atari: usb: Add ISP1160 USB host controller support
+7cc87c4b58747b9af6fc3aa854355732a1c3c721 m68k: atari: Update Kconfig.bus help text
+1a234d8e39bbdcb0581dc0fe8e25c6ab2444c9fc m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8934455877000339483==--
+--===============3261148223644921342==--
