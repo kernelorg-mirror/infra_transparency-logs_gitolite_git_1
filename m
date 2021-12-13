@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2851496056495029770=="
+Content-Type: multipart/mixed; boundary="===============6054554634743337775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 Dec 2021 20:16:58 -0000
-Message-Id: <163942661800.23811.448980325558056214@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 20:17:16 -0000
+Message-Id: <163942663686.23953.15356209509471576985@gitolite.kernel.org>
 
---===============2851496056495029770==
+--===============6054554634743337775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 3150a73366b64e3109f0facbc98bcacbc14e81ba
-    new: a3c62a042237d1adeb0290dcb768e17edd6dcd25
-    log: revlist-3150a73366b6-a3c62a042237.txt
+  - ref: refs/heads/dev-queue
+    old: ac735b4b67a1f60c143547daf93f47ccf8f7a979
+    new: ca1375bde2e701dec394c57638e587ea3155f70e
+    log: revlist-ac735b4b67a1-ca1375bde2e7.txt
 
---===============2851496056495029770==
+--===============6054554634743337775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3150a73366b6-a3c62a042237.txt
+Content-Disposition: attachment; filename=revlist-ac735b4b67a1-ca1375bde2e7.txt
 
 e47d0bf800e8d7f4de501987b2788c7f2ce22cd1 bpftool: Add current libbpf_strict mode to version output
 69a055d546156adc6f7727ec981f721d5ba9231a libbpf: Fix a couple of missed btf_type_tag handling in btf.c
@@ -210,5 +210,123 @@ fee32de284ac277ba434a2d59f8ce46528ff3946 net: bonding: debug: avoid printing deb
 93d576f54e0f697c7b54f4ddd718e68ccc52c4f2 mt76: remove variable set but not used
 64445dda9d8384975eca54e3f01886fca61e1db6 net: dev: Always serialize on Qdisc::busylock in __dev_xmit_skb() on PREEMPT_RT.
 a3c62a042237d1adeb0290dcb768e17edd6dcd25 net: mtk_eth: add COMPILE_TEST support
+14b9481f1a1b711b08ccb0a5b02ee3107a391d96 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+860b8549ade730c45ffbc4e02dff39107ba35582 igc: Add UDP segmentation offload support
+6c395197b8c7d285b1e33240fe2c9d6f6d0313b1 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+8632f560dc76a1298a2694952c71a6eb3d52a1e9 ice: Refactor promiscuous functions
+f1f93b590892c587fbd28aa4eefe2f436fa09989 i40e: Add ensurance of MacVlan resources for every trusted VF
+0cdda92f4af53e2fe6b82b937e97c36dfc3594ce igbvf: Refactor trace
+5924e9b5bc29af3e693caa9f144cbf007af622b6 ice: Add package PTYPE enable information
+32c0c3ceed90ecc4c52e5e29f5d53e871102f763 ice: refactor PTYPE validating
+cc34d92ffa3035ddbd8338ff5d25f013640fedfa igb: Fix removal of unicast MAC filters of VFs
+711b806f192aa4ffd45915d0b10d99485b39ffc9 iavf: Fix limit of total number of queues to active queues of VF
+308fe033ca0c60f6b8ec50e7b912c0a45ff2419a ice: Simplify tracking status of RDMA support
+5858edcce8fa6daf0e78808f8783603377ad9a41 ice: Refactor status flow for DDP load
+92c25f486d795d96b59b90bee22c2649f74110e8 ice: Remove string printing for ice_status
+0bd03b23042a40d5fa5496d792ba3ed66b14617b ice: Use int for ice_status
+4c2ce2641cdea4781975d89dd14b40fd17a82100 ice: Remove enum ice_status
+e73580b1e4a57d8ed1b7aa16c290c78c9179470b ice: Cleanup after ice_status removal
+c41cda1ba0e194b7f352df627a71048e42a8280c ice: Remove excess error variables
+9d1dfff4d1571b34d20b4038b21481b5d808bb10 ice: Propagate error codes
+c7ddbcb44fdb79e3c8f2e6dc170d7670fa89c664 ice: devlink: add shadow-ram region to snapshot Shadow RAM
+a9ff2b20bdb9cbbaa6a76cbbe3eb6690a6df62ba ice: move and rename ice_check_for_pending_update
+9378a2bed8ec6d9d4b90921247531d7a430a2072 ice: move ice_devlink_flash_update and merge with ice_flash_pldm_image
+eec34a75931ca6faae51668f1d2d035f0930f3f9 ice: reduce time to read Option ROM CIVD data
+9cec3e46861d551d26e37db7b4dc449998fba612 ice: support immediate firmware activation via devlink reload
+f66767176acdc9ede81950b5cbe9dac37a15e626 ice: introduce ice_base_incval function
+2c7bf70f1b40e35ad746b6ea2381051cfa44ec1f ice: PTP: move setting of tstamp_config
+8cdd9dd895e4398a47534a2422ff00d9b481fc90 ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
+73ddb29bdc17568476faf06416081583d772828b ice: introduce ice_ptp_init_phc function
+396315e8ab38b607d5627aa299c80d16de6883e9 ice: convert clk_freq capability into time_ref
+fb13ed0d364a4a20d10a5e69303279b3d9dc4109 ice: implement basic E822 PTP support
+aaef3537fd3ab13d4af38e9f6d3a6531bbb1a40a ice: ensure the hardware Clock Generation Unit is configured
+46fa06c3375400131c641c6e5c7382a04089eea2 ice: exit bypass mode once hardware finishes timestamp calibration
+8f2f27d69e118c068ffc042bb85f632ed0c7993c ice: support crosstimestamping on E822 devices if supported
+27074b54d6fe0311a59e7339293592728e5416fc igc: Remove unused _I_PHY_ID define
+4757d8029282e2d1a8e58a304a17e7be8840b57c igc: Remove unused phy type
+9133d0c277cce37a6692a0faac45d8853ad9de66 ice: update to newer kernel API
+134eb9b51a38e264bf0d0def61f2fea59957aa6d ice: use prefetch methods
+a2ba9f2d78d937ca54f4350e27e9756dec60b867 ice: tighter control over VSI_DOWN state
+4e4efb32fcdda80e4f9efce4cd75bcd86284cee2 ice: use modern kernel API for kick
+19c0b55dc0f55fa4cb68c3ca05f2d02209ab8473 ice: replay advanced rules after reset
+982c7fbd8420f937c1d4aca3e8404a609c1403d0 ice: improve switchdev's slow-path
+cf8a8ca99d1a526572bf5439e577423fe48c9832 ixgbe: Document how to enable NBASE-T support
+382437cf0b8c1ee9b2dacd41ed0239d505f439d5 igb: move SDP config initialization to separate function
+f6ac9642960c4f41f707822d09ac176cf18f27ae igb: move PEROUT and EXTTS isr logic to separate functions
+157d3f3231d63f55faf061446aab6f04e7280856 igb: support PEROUT on 82580/i354/i350
+fbe2841afe837d0f82e37e114570393cd3a52d6f igb: support EXTTS on 82580/i354/i350
+f749663c1768a14d9474f97ecca2538b596d6732 i40e: Increase delay to 1 s after global EMP reset
+a5c388d34a470d7e3f9aa2137fc390b549ccea32 ixgbe: set X550 MDIO speed before talking to PHY
+45c20db1603e4e7c7407df8c804bd29d1f57f93a igc: Fix typo in i225 LTR functions
+a98caf3887c3bb0e6d5737b0bb9cc0ec22b61eac igc: Remove obsolete NVM type
+349aab0538fe2f9b8ab331267e520abb58092b4b i40e: Fix issue when maximum queues is exceeded
+9848ea548815a5cbc435503e2143e5bf5de1c84a ice: Use div64_u64 instead of div_u64 in adjfine
+78ab808203ecbaf80831f4fd7366888886b981ad iavf: missing unlocks in iavf_watchdog_task()
+b1912e7f6d9c495934390962f1247036e5343799 i40e: Add placeholder for ndo set VLANs
+38a177fbb41a5610dba0760421373591cd39dfcc i40e: Refactor VF queue requesting
+e6513f0411bbdda8e5ab6be20cebe5728ec64fee igc: Remove obsolete mask
+6ffaa7f7e37b3d1499c3829de961d6f422aa182c ice: Remove unnecessary casts
+9e01863ce52fd96ab6402f47f8c8da343fb0d883 ice: Don't put stale timestamps in the skb
+c772e09b635cb266e9e464adbce7f451a75a5111 ixgbe: Add locking to prevent panic when setting sriov_numvfs to zero
+e720459a6338f429d844f93dbbb6a764819e1e9d igb: remove never changed variable `ret_val'
+5dc6c921ec17858d73692f885a342c8a27aadc29 net: igbvf: fix double free in `igbvf_probe`
+685532295b09e8ac04da162b6e75744c93c92635 i40e: Minimize amount of busy-waiting during AQ send
+5fcc19bb3bfab5b079f50be3eef5b95e720fa155 ice: Slightly simply ice_find_free_recp_res_idx
+f9bbb5a3ff4b3ab7b47337516373169b781627e7 ice: Remove unused ICE_FLOW_SEG_HDRS_L2_MASK
+5cd52bd57edb50a46e3ffb2fcd43ce3ec5caca67 ice: add TTY for GNSS module for E810T device
+e438a942b43aacde65721479e76a673cca1225b4 i40e: Fix for displaying message regarding NVM version
+1890a12681c9673b7b4efd928967b4b55f86f583 ice: Fix PTP reset flow
+5b68f26ab7607114486974bb1516e2b55e26f57e i40e: Update FW API version
+a00c1c23bdea2d0355afb2e94078cdb9c797e662 e1000: switch to napi_consume_skb()
+dac63a0c727929a60f0d2f48ca54a708510fc4af e1000: switch to napi_build_skb()
+60bd9da50837b20a982369772f2cef08543a0274 i40e: switch to napi_build_skb()
+ad4dfb651f2cda8323530162f3dcd29ddf12625e iavf: switch to napi_build_skb()
+81d4d1cf995a7c8d52a5e282299ff205be7d079c ice: switch to napi_build_skb()
+a453e0fa4984c0cbc8e76602fb0d30f6952aa649 igb: switch to napi_build_skb()
+daf8a70f2af47f1004a964792c75e9358ee99064 igc: switch to napi_build_skb()
+0661ad004d8ed492cf411f2b5d5235c02c1ca84c ixgbe: switch to napi_build_skb()
+4bb712e89498e8361e30b45dbb0b98454ac15b9f ixgbevf: switch to napi_build_skb()
+786fb2996e56c81c121249dd678d4c36f0a3677b ice: add support for DSCP QoS for IDC
+21931c1e0daf96c4ae94ae32c532ea2ee4b4a752 i40e: Fix queues reservation for XDP
+a5c15db5dc0c05fb3c29c120200a4e3e8cb655ac virtchnl: Add support for new VLAN capabilities
+4ae1d150e703039d1927ec1b312c60f4d894872c iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 negotiation
+fcd92b45630d4a527865116a36fc232857834831 iavf: Add support VIRTCHNL_VF_OFFLOAD_VLAN_V2 during netdev config
+e829163fda355710ca0ebf2ef4da5c4a75e26956 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 hotpath
+e1058918b1003882e140826f643c5465605e120c iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 offload enable/disable
+4546457d00c1d61e6a6417dfad77de95b86ec1b6 iavf: Restrict maximum VLAN filters for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+b1de132572d73431816ec6ed679d7cc53118ba60 ice: Refactor spoofcheck configuration functions
+a0a3f75090f76e7e32dcec97bc4e3148c4cb3b5d ice: Add helper function for adding VLAN 0
+66ce2231f0dbb9ab8a9d6518203f3587c8c67526 ice: Add new VSI VLAN ops
+ecc72c07a78678ac9ce451fdf4c5c5352184d234 ice: Introduce ice_vlan struct
+04edd7f9e06a6dbb1fe44f9230c91241ab2718c5 ice: Refactor vf->port_vlan_info to use ice_vlan
+a0dd8dfc105910f4e4e8d607af04cb3fcd47cf0c ice: Use the proto argument for VLAN ops
+5ebb2e65e333d41470974d7cd8d3cd025f720b97 ice: Adjust naming for inner VLAN operations
+93216a041354e686647c816a0c39060b9cb23ed8 ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+1636c9d8e8ffcdbe8b8cde65c16601d96edba93a ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+7ad5a9e8a8b397ee76888a2ad8dce67165b510ed ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+4642271755c5a4d8129e9bd37412ad2bba6ca7a3 ice: Support configuring the device to Double VLAN Mode
+1f0587ef92758e99298651c4363c8f70e8c49dd3 ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+9e22bb3eff19927d132ad1dc93b2d43120b9ab9b ice: Add support for 802.1ad port VLANs VF
+c6da026465df49a6cf8aa1e811ec4a66f1b3277a ice: Add ability for PF admin to enable VF VLAN pruning
+c407f18d924e6635c3b2740bf4b7748da68fd841 iavf: do not override the adapter state in the watchdog task (again)
+8c9de11100a96f572f11caae28141c92bb39b63b i40e: Fix for failed to init adminq while VF reset
+d95cf49db73a353cd638f465e23b853f1425b288 i40e: remove dead stores on XSK hotpath
+ea79ce76c7a45a4c0abef0a2e2dc0c9f66a24420 ice: remove dead store on XSK hotpath
+caa0cc5d56894f5f218a13498bb799f9f4579bc5 i40e: fix use-after-free in i40e_sync_filters_subtask()
+fd4e6452ffdbcf52fc55eeee380f999c5e86590f igb: fix deadlock caused by taking RTNL in RPM resume path
+19afcc0faa724a8641e2b8f59ed8dc7d8c9d2064 i40e: Remove non-inclusive language
+da49090a97291d85a2d41da4e963037da8155767 e1000e: Separate ADP board type from TGP
+5b07de58e027bfe8f1a5b9e467a8a79a36155585 e1000e: Handshake with CSME starts from ADL platforms
+8db85c0a26c275c8cfccde0bcf05a8b519ed0ef2 i40e: Fix for displaying message regarding NVM version
+c5b20a1f1c358fe4acaa470227d3551f5a96a2bc igc: Remove obsolete define
+aebe163efd15e6f2bfa44ad0178ec4712bf18166 i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+be0fab2bcccb95aa917b9a2b690e3ff89bf983dd i40e: respect metadata on XSK Rx to skb
+f587fd0c3742457c8bd75b7395f9e64ae2c95f57 ice: respect metadata in legacy-rx/ice_construct_skb()
+b06fedfed6201230ec51bd89072bdca31f335813 ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+0748e96b9f795cd2e4ea1954f81b5f3a3fd9154c ice: respect metadata on XSK Rx to skb
+6a4492fe49e417579ecf3324e1a336d697763580 igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+bd0a31cdbd8b0a0aa771b8697426e8df88139dfa ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
+dc379362e5f4c949f48e62682661c7729196b4f8 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+ca1375bde2e701dec394c57638e587ea3155f70e ixgbe: respect metadata on XSK Rx to skb
 
---===============2851496056495029770==--
+--===============6054554634743337775==--
