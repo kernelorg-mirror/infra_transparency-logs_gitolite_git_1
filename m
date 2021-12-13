@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4566144388334014687=="
+Content-Type: multipart/mixed; boundary="===============4337055739517608778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 13 Dec 2021 17:55:00 -0000
-Message-Id: <163941810080.31093.13939874054497167284@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 17:55:10 -0000
+Message-Id: <163941811075.32585.8758487621159650199@gitolite.kernel.org>
 
---===============4566144388334014687==
+--===============4337055739517608778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9b5bcb193a3bba4b96ead86df52602e3951655ba
-    new: a3c62a042237d1adeb0290dcb768e17edd6dcd25
-    log: revlist-9b5bcb193a3b-a3c62a042237.txt
+  - ref: refs/heads/mlx5-queue
+    old: ce0c71a9c5253b969f9a123312f9503413c78915
+    new: ddbf9459c9c72e9273e5a8d6a62c00db13287b9d
+    log: revlist-ce0c71a9c525-ddbf9459c9c7.txt
 
---===============4566144388334014687==
+--===============4337055739517608778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b5bcb193a3b-a3c62a042237.txt
+Content-Disposition: attachment; filename=revlist-ce0c71a9c525-ddbf9459c9c7.txt
 
 3a6c12a0c6c3f857f47efe0e40011360063a35bc net: stmmac: bump tc when get underflow error from DMA descriptor
 6180c780e64ceb8dd23345b586dfa70c0a1536ee tipc: discard MSG_CRYPTO msgs when key_exchange_enabled is not set
@@ -49,5 +49,32 @@ fee32de284ac277ba434a2d59f8ce46528ff3946 net: bonding: debug: avoid printing deb
 93d576f54e0f697c7b54f4ddd718e68ccc52c4f2 mt76: remove variable set but not used
 64445dda9d8384975eca54e3f01886fca61e1db6 net: dev: Always serialize on Qdisc::busylock in __dev_xmit_skb() on PREEMPT_RT.
 a3c62a042237d1adeb0290dcb768e17edd6dcd25 net: mtk_eth: add COMPILE_TEST support
+ec412c89e155b37cf517f008eeef26da89fccd26 net/sched: act_ct: Fill offloading tuple iifidx
+26534bb2d17844887e0f07a6821868a6a7bdafe0 net: openvswitch: Fill act ct extension
+6eb7d75bfd9969e2ea0e5ae7648f717ec7d47328 net/mlx5: CT: Set flow source hint from provided tuple device
+e7f41754a56244fd4ba53dde31d95a78f8374564 net/mlx5e: Add tc action infrastructure
+f1dc98b7149bdb1542ebfa07b713e5d2ecd5ea08 net/mlx5e: Add goto to tc action infra
+c8ed8778e687a6de06c39d19d4ecee48b4fa4f34 net/mlx5e: Add tunnel encap/decap to tc action infra
+4d34ea5b2980a05ec2d8aef0cd370622ea1a71fa net/mlx5e: Add csum to tc action infra
+f410713aea4a047a0b0a8155325b610753b12e7d net/mlx5e: Add pedit to tc action infra
+66c6c36724d5f64ad762d5234ea7945d41288e4f net/mlx5e: Add vlan push/pop to tc action infra
+a0e5a2a5c4816c99e6c00c9251969b8162c1eb32 net/mlx5e: Add vlan mangle to tc action infra
+ab3318135d064bf4ab5e7cec5a6331f11e8cb2b6 net/mlx5e: Add mpls push/pop to tc action infra
+37b78866ce247e3f193ebeba42ebe8a34da3dd7c net/mlx5e: Add mirred/redirect to tc action infra
+c78501f1186bf8130a97d8562677aaca28c70b2e net/mlx5e: Add ct to tc action infra
+87d9ec65c5b99c7ddb86ad700d4d68eacff19ab8 net/mlx5e: Add sample to tc_action infra
+01fe5a6f01a42161bd655cb2b5dbfff5b112d4fb net/mlx5e: Add ptype to tc action infra
+0ae9e96bfdc80880ed5b56770764fe50b5cf5c86 net/mlx5e: Add redirect ingress to tc action infra
+03a6901c333f060c6c72a1967bb4ecbcbe1b8be3 net/mlx5e: TC action parsing loop
+b1a9400adca07e30b50060728b35c6436d92fbab net/mlx5e: Move sample attr allocation to tc_action sample parse op
+a92e1701d7245bcefc035404776e45ceef72f354 net/mlx5e: Add post_parse() op to tc action infrastructure
+377eac24a0413c00ffd8207609d8601ea14795ac net/mlx5e: Move vlan action chunk into tc action vlan post parse op
+d52ea6dcc6ec499db5eda404ccd6b945622b1226 net/mlx5e: Move goto action checks into tc_action goto post parse op
+3d534434769572a5463fb6a36c8ea401d6ed7873 net/mlx5: Separate FDB namespace
+db3538e959d7587bd915f8daa970ff3b8034c884 net/mlx5: Refactor mlx5_get_flow_namespace
+8728289d6af6d9d20e31526d73e16fe34ed658d0 net/mlx5: Create more priorities for FDB bypass namespace
+f8ea61820284a5f168a0064c2b9c58e9f36b4779 RDMA/mlx5: Add support to multiple priorities for FDB rules
+3aa0b40ad16c8803c9845dbb0ad474f1f5b31ca2 Merge branch 'patchq/426503' into mlx5-queue
+ddbf9459c9c72e9273e5a8d6a62c00db13287b9d Merge branch 'patchq/449782' into mlx5-queue
 
---===============4566144388334014687==--
+--===============4337055739517608778==--
