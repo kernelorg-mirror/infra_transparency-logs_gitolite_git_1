@@ -1,34 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 13 Dec 2021 19:17:19 -0000
-Message-Id: <163942303903.18532.12205112903493853017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 13 Dec 2021 19:17:25 -0000
+Message-Id: <163942304516.18624.17359971094677546758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-next/core
-    old: 5d6d02be35885b8f29ce36065b31b285227d8434
-    new: 252b39c990892a8db3d97a41c1a2ee7925508fd5
+  - ref: refs/heads/review-migration-perms-1
+    old: 79bc368ecbe4df5657d4e695abc14650111161d7
+    new: d89b771cf079b57ebc7e75b91b10a257a39ff7b2
     log: |
-         ce9ba49a246012f4ed7413c6246b6213c3c00a85 arm64/xor: use EOR3 instructions when available
-         6f6cfa5867995c03959ce8c715e54b51cd5a1528 arm64: mm: use die_kernel_fault() in do_mem_abort()
-         07b742a4d91260bdb61cd4cbe5ec3bba2ae7f6f9 arm64: mm: log potential KASAN shadow alias
-         5c13f042e73200b50573ace63e1a6b94e2917616 arm64: cpufeature: add HWCAP for FEAT_AFP
-         9e45365f1469ef2b934f9d035975dbc9ad352116 arm64: add ID_AA64ISAR2_EL1 sys register
-         1175011a7d0030d49dc9c10bde36f08f26d0a8ee arm64: cpufeature: add HWCAP for FEAT_RPRES
-         252b39c990892a8db3d97a41c1a2ee7925508fd5 Merge branches 'for-next/misc', 'for-next/cache-ops-dzp', 'for-next/stacktrace', 'for-next/xor-neon', 'for-next/kasan' and 'for-next/armv8_7-fp' into for-next/core
+         b2e03247a77f4c27decf786d741522238e7aff30 cgroup: Use open-time credentials for process migraton perm checks
+         e8741e959aa3cc61d3a338ad364dd803955d7a76 cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
+         ed528196ab564ed5b5a5b674c04a3fb5cdae5da3 cgroup: Use open-time cgroup namespace for process migration perm checks
+         95a90c00493ea8a14ebca80c9ef1e8d8126cc0cd selftests: cgroup: Make cg_create() use 0755 for permission instead of 0644
+         f41fe4f941889b344e2775606498a40f2b32e48d selftests: cgroup: Test open-time credential usage for migration checks
+         d89b771cf079b57ebc7e75b91b10a257a39ff7b2 selftests: cgroup: Test open-time cgroup namespace usage for migration checks
          
-  - ref: refs/heads/for-next/xor-neon
-    old: 0000000000000000000000000000000000000000
-    new: ce9ba49a246012f4ed7413c6246b6213c3c00a85
-  - ref: refs/heads/for-next/kasan
-    old: 0000000000000000000000000000000000000000
-    new: 07b742a4d91260bdb61cd4cbe5ec3bba2ae7f6f9
-  - ref: refs/heads/for-next/armv8_7-fp
-    old: 0000000000000000000000000000000000000000
-    new: 1175011a7d0030d49dc9c10bde36f08f26d0a8ee
