@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9136698826410296955=="
+Content-Type: multipart/mixed; boundary="===============7700641787078615594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Dec 2021 07:04:10 -0000
-Message-Id: <163937905028.24806.13095094467700678413@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 07:04:44 -0000
+Message-Id: <163937908472.25091.5858027121009484474@gitolite.kernel.org>
 
---===============9136698826410296955==
+--===============7700641787078615594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 57d8db153f09b827ec0fab264361149ee4157e7a
-    new: 44576113f4e24fa71125e648ef3a856feacb39b1
-    log: revlist-57d8db153f09-44576113f4e2.txt
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
+    new: 8cb76a94265aa2a5d3f759243c834e08756a8266
+    log: revlist-57d8db153f09-8cb76a94265a.txt
+  - ref: refs/heads/master
+    old: 44576113f4e24fa71125e648ef3a856feacb39b1
+    new: 8cb76a94265aa2a5d3f759243c834e08756a8266
+    log: revlist-44576113f4e2-8cb76a94265a.txt
 
---===============9136698826410296955==
+--===============7700641787078615594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57d8db153f09-44576113f4e2.txt
+Content-Disposition: attachment; filename=revlist-57d8db153f09-8cb76a94265a.txt
 
 8755e9e6d0e41336879035d2280f7a4a24236543 phy: stm32: fix st,slow-hs-slew-rate with st,decrease-hs-slew-rate
 7adaf921b6438b6ba1c983a4ca5622f8173063f0 phy: ti: report 2 non-kernel-doc comments
@@ -157,6 +158,48 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 8d7ed10410d53453305e4f8673c50085d607fa80 Merge tag 'char-misc-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
-44576113f4e24fa71125e648ef3a856feacb39b1 Merge branch 'linus'
+1ebc4e97ad6f786480a169e54c00943250773248 Merge branch into tip/master: 'x86/sgx'
+62f2381efb2682a74c9646acd333f50645713039 Merge branch into tip/master: 'x86/sev'
+d7bbd95828de0b1f26d55a42a7143e8cb9aa1e55 Merge branch into tip/master: 'x86/platform'
+cd6238dfcf4f37a3e768d671974f5dbd3a78616c Merge branch into tip/master: 'x86/paravirt'
+a659e4001b5f609b4d05d6f8c88f32738678a416 Merge branch into tip/master: 'x86/mm'
+d780163b248a38f1a66dd3ca5fde58fd2deeb663 Merge branch into tip/master: 'x86/misc'
+d6ee4d596c1a6d657a80c4af1b46f0a823dd1d8a Merge branch into tip/master: 'x86/fpu'
+ca968b089b7015c7998eff8d7dbecfe729216166 Merge branch into tip/master: 'x86/cpu'
+0c7b8a9999d589672c6e91f6b240bb19ddbe8c6b Merge branch into tip/master: 'x86/core'
+3f047f7609ac92040716af58b420c5e97df9a5d8 Merge branch into tip/master: 'x86/cleanups'
+0b5983e59f263f8c009b0654465ce99e5c840e5b Merge branch into tip/master: 'x86/cache'
+60e657ca34928774e11c65646a9213c6facdb114 Merge branch into tip/master: 'sched/core'
+0b260c8fb5fd0480ccc283d438354d1487b03afb Merge branch into tip/master: 'ras/core'
+6f0f0cea3cc7548d0c4c075bb8d922570552606f Merge branch into tip/master: 'perf/core'
+ac86c53f6989369193209320f79400d1ad835ad2 Merge branch into tip/master: 'locking/core'
+369b3feaf90e6d539e87341932a773eec7f84243 Merge branch into tip/master: 'irq/msi'
+9367d9a1b161ff401d49557cb938c8bd755d22da Merge branch into tip/master: 'irq/core'
+8cb76a94265aa2a5d3f759243c834e08756a8266 Merge branch into tip/master: 'core/entry'
 
---===============9136698826410296955==--
+--===============7700641787078615594==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-44576113f4e2-8cb76a94265a.txt
+
+1ebc4e97ad6f786480a169e54c00943250773248 Merge branch into tip/master: 'x86/sgx'
+62f2381efb2682a74c9646acd333f50645713039 Merge branch into tip/master: 'x86/sev'
+d7bbd95828de0b1f26d55a42a7143e8cb9aa1e55 Merge branch into tip/master: 'x86/platform'
+cd6238dfcf4f37a3e768d671974f5dbd3a78616c Merge branch into tip/master: 'x86/paravirt'
+a659e4001b5f609b4d05d6f8c88f32738678a416 Merge branch into tip/master: 'x86/mm'
+d780163b248a38f1a66dd3ca5fde58fd2deeb663 Merge branch into tip/master: 'x86/misc'
+d6ee4d596c1a6d657a80c4af1b46f0a823dd1d8a Merge branch into tip/master: 'x86/fpu'
+ca968b089b7015c7998eff8d7dbecfe729216166 Merge branch into tip/master: 'x86/cpu'
+0c7b8a9999d589672c6e91f6b240bb19ddbe8c6b Merge branch into tip/master: 'x86/core'
+3f047f7609ac92040716af58b420c5e97df9a5d8 Merge branch into tip/master: 'x86/cleanups'
+0b5983e59f263f8c009b0654465ce99e5c840e5b Merge branch into tip/master: 'x86/cache'
+60e657ca34928774e11c65646a9213c6facdb114 Merge branch into tip/master: 'sched/core'
+0b260c8fb5fd0480ccc283d438354d1487b03afb Merge branch into tip/master: 'ras/core'
+6f0f0cea3cc7548d0c4c075bb8d922570552606f Merge branch into tip/master: 'perf/core'
+ac86c53f6989369193209320f79400d1ad835ad2 Merge branch into tip/master: 'locking/core'
+369b3feaf90e6d539e87341932a773eec7f84243 Merge branch into tip/master: 'irq/msi'
+9367d9a1b161ff401d49557cb938c8bd755d22da Merge branch into tip/master: 'irq/core'
+8cb76a94265aa2a5d3f759243c834e08756a8266 Merge branch into tip/master: 'core/entry'
+
+--===============7700641787078615594==--
