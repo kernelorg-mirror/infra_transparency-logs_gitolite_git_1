@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7823153613334451481=="
+Content-Type: multipart/mixed; boundary="===============6315179837510526528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Dec 2021 13:59:48 -0000
-Message-Id: <163940398804.10186.5951345641663341301@gitolite.kernel.org>
+Date: Mon, 13 Dec 2021 14:02:15 -0000
+Message-Id: <163940413544.12563.2906079457835878349@gitolite.kernel.org>
 
---===============7823153613334451481==
+--===============6315179837510526528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: c45479ecd0c21705ab078ceaba097bbb730a0541
-    new: a92548f90fa6280ca57a8aea1f50d18f2f48cbb3
+    old: a92548f90fa6280ca57a8aea1f50d18f2f48cbb3
+    new: aa9c2219f989881dffe2dd6ef9b6540858873a5f
     log: |
-         666f3de741f7ce66119b375145d471e89fac21ff usb: dwc3: gadget: Support Multi-Stream Transfer
-         bae9401dff62d1ac46504a343db8a69e5ac390f6 usb: Add Xen pvUSB protocol description
-         494ed3997d752810b67cb75d4721b59996cfec38 usb: Introduce Xen pvUSB frontend (xen hcd)
-         a92548f90fa6280ca57a8aea1f50d18f2f48cbb3 xen: add Xen pvUSB maintainer
+         347f3f54bd457ff76230e1d516cdd5f8235e2f5b usb: aspeed-vhub: add qualifier descriptor
+         d693bbd4cbc44dac34dbf6c49c844d30f18ad0c1 usb: aspeed-vhub: fix ep0 OUT ack received wrong length issue
+         aa9c2219f989881dffe2dd6ef9b6540858873a5f usb: aspeed-vhub: support test mode feature
          
 
---===============7823153613334451481==
+--===============6315179837510526528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639403986 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639404133 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639403985-f2dee8a7606690492ad5862e1d04233de7aa2e7f
+nonce 1639404133-404affa03254ca25663a57ad5a17f1df7d057df5
 
-c45479ecd0c21705ab078ceaba097bbb730a0541 a92548f90fa6280ca57a8aea1f50d18f2f48cbb3 refs/heads/usb-testing
+a92548f90fa6280ca57a8aea1f50d18f2f48cbb3 aa9c2219f989881dffe2dd6ef9b6540858873a5f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3UdIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ds8QAJ5smTJOxsegfevcH5Nr
-YSRdrCcKCwJxVv+NJ/shhMhlQWGQWbrdLwuTGttKNUwAk4fBi3JUQw+G81gaEHWk
-CLQ2ICL5FOoC+FFdFRksOFIOjvPbAylBq9tpa/3Hj/xjh7TS1K/6R5bW+ATj0xN3
-hB3e49w22suoMobFs+1TyQALc2LqiMZ672dPqZfOPxNPSiT/yEtDl/PMHH4zDoF3
-tF1C8TVTVWAGgU9cV9SQlw0HUO/7rNHykWiwrr1G6xFXVmFRPM19lm+yWG9920i/
-4WWd8QxKb9RxZs7tc5lfbBoE1ILAOjsr2tx68fWk9YKPRknXX/P/aZ3D4cMqXHGX
-Gb898tFpE0DN5iHhzOo1NIqfvMHUkiqJtqlerZhthuhFWcBwqPrKAUqe45xXAIdX
-upYxpv8mCKBxH7ex5na8hfPi68VoXNqwKJjt/7p2ESWGA8xFy7Kc1e+UW1WWFHux
-znUt23QQnHWhq01Q8HbO39eEdh79wjMiNUd/7jwNpwfxpml6Zy6LVUO7YWefU/IS
-GCJ9MP2dCcIX0n+WFRgwhfpqPNXYepnOqPNfcRVPwBXBrlXjjjEwLWJnRTiFB35H
-geswFCMiIraQOy8Q5sR7IvofNsN4McH/St6EV2GPrsF1hh5KEl0d75HEwgXL5j1Q
-GdQVjmX9Iy+Zrueldb9HWM26
-=S0FV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG3UmUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ttAP/i9nREOiMB341rcf8n2a
+ex7ko9Fm8i9b4YABk2JKwSdPM1DyMAWOCyhsoF44Eh5vkzB/HL/txhB2XkjqnPe3
+FdJWZxbjGbRziB/Zecq4nGCQeOR0UGhNZzICZu7a7687w8D0wjzm1jBo+1Y7vK8X
+3++0n4OYojR9I/izILb+bFqsQxAVKLrIjIYftG7kM2S8W5hnsMPi1g3ajo6zVJL/
+MebNnbuOUeEQMFzp9SINU6U5dV+rtAQxoBXe21/WRO5AEqv6wzmPzjo8UF33IynC
+rfNDj76tjnXYq4teDhrSZPSKOIN2jHhXT5ceGGvn1TFp8GCANMuJWRIlKvu/FRd9
+yZMYZpS6MEkjsAhx6UMO3drA8pRxrCC+1H2C0YnZzJ8L37rj7qBrist1BCsAGWcn
+QCST5kENdslwju7vhyg7eOB0lextYbkJToJYN4cGNosywl4XZrC2eYEGtTbon9w+
+fWAEkfl15A21vUFNGqhpggiGFz+Zu/nv9dFR/JAroa0WPRIqaQgBbwXkOUej2sOt
+3Wk9NQOCYGcY3GdWjAEynxbwCHMlWYTLqiC4yCCt3qQ6j0NcyP/fIXmD7H9QTm2q
+rvDK0LppvcbeZimWqNW55FpsX5AiryfoeNcOMabKTHlThRfr3RmHHs2MisgsnMv9
+yAG+OOxmKXSd7FDeY8M2E6RD
+=rkyb
 -----END PGP SIGNATURE-----
 
---===============7823153613334451481==--
+--===============6315179837510526528==--
