@@ -1,51 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1796558933691281481=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 13 Dec 2021 20:55:58 -0000
-Message-Id: <163942895867.17396.3235757305039453737@gitolite.kernel.org>
-
---===============1796558933691281481==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 13 Dec 2021 21:00:45 -0000
+Message-Id: <163942924552.20284.12957635905456081468@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/queue-rc
-    old: 774926a53784df7075b7a51ac467b5a2e66d5003
-    new: cda08fa98f39040bc3cb2f45ad4151bc118e3545
-    log: revlist-774926a53784-cda08fa98f39.txt
-
---===============1796558933691281481==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-774926a53784-cda08fa98f39.txt
-
-c062f2a0b04d86c5b8c9d973bea43493eaca3d32 net/sched: sch_ets: don't remove idle classes from the round-robin list
-ab8eb798ddabddb2944401bf31ead9671cb97d95 net: bcmgenet: Fix NULL vs IS_ERR() checking
-a8d13611b4a7b1b20d17bf2b9a89a3efcabde56c selftests/net: toeplitz: fix udp option
-9d591fc028b6bddb38c6585874f331267cbdadae net: dsa: mv88e6xxx: Unforce speed & duplex in mac_link_down()
-71da1aec215290e249d09c44c768df859f3a3bba selftest/net/forwarding: declare NETIFS p9 p10
-be565ec71d1d59438bed0c7ed0a252a327e0b0ef net: ethernet: ti: add missing of_node_put before return
-d33dae51645c0d837e587000f3131118fcd6bf5e net: phy: add a note about refcounting
-884d2b845477cd0a18302444dc20fe2d9a01743e net: stmmac: Add GFP_DMA32 for rx buffers if no 64 capability
-38d4a7ebe767527343a4d4978e9387f1d7adf43d net/mlx5: Fix SF health recovery flow
-2c5c4b495eb3be9dca9a1e57d3f58770a5d8d507 net/mlx5: Use first online CPU instead of hard coded CPU
-1d5fda8895b571cb05b9cd26fc64a0996168be4d net/mlx5: Fix error print in case of IRQ request failed
-ccb785a403e7d76279c61883fc1597ad1018d534 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-a36c739b892a21e109cfdc4ce3a63c62dfbb6eaf net/sched: Extend qdisc control block with tc control block
-987a303059f7de29a5e94939f628dfe05b16e149 net/sched: flow_dissector: Fix matching on zone id for invalid conns
-9a3c872275fb9afcc651fa95ba514db1870c94d1 net: openvswitch: Fix matching zone id for invalid conns arriving from tc
-a5173c51862aeaced4abedb622f2757f5ae073b2 Merge branch 'patchq/452744' into mlx5-for-net
-6f11e0262dc028e4bfc4e43b8bd9622ac952612d Merge branch 'patchq/448271' into mlx5-for-net
-33f662775c7e6c73089b2e1fdafd78d07d6e64b5 Merge branch 'patchq/447567' into mlx5-for-net
-2549188e4f32bbe20875acbf5e39d183dd57461f Merge branch 'mlx5-for-net' into net-rc
-ac8293894eb876a63b455327c0e1211c04b65ff0 Merge branch 'net-rc' into queue-rc
-cda08fa98f39040bc3cb2f45ad4151bc118e3545 Merge branch 'testing/rdma-rc' into queue-rc
-
---===============1796558933691281481==--
+  - ref: refs/heads/for-5.17
+    old: e14da77113bb890d7bf9e5d17031bdd476a7ce5e
+    new: 1f1562fcd04a485734e94390660e741c3be47867
+    log: |
+         1f1562fcd04a485734e94390660e741c3be47867 cgroup/cpuset: Don't let child cpusets restrict parent in default hierarchy
+         
+  - ref: refs/heads/for-next
+    old: e14da77113bb890d7bf9e5d17031bdd476a7ce5e
+    new: 1f1562fcd04a485734e94390660e741c3be47867
+    log: |
+         1f1562fcd04a485734e94390660e741c3be47867 cgroup/cpuset: Don't let child cpusets restrict parent in default hierarchy
+         
