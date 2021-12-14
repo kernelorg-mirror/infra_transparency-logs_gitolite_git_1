@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 14 Dec 2021 18:19:56 -0000
-Message-Id: <163950599638.10466.3280653907770890492@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 18:22:15 -0000
+Message-Id: <163950613548.12718.8044921466275107418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
   - ref: refs/heads/hack/m1-pmu
-    old: 99ef9bcba08638e8301392bf7ea3cef573c2b8b0
-    new: e26fa8882adfac4b9bb40211187492de80b4179d
+    old: e26fa8882adfac4b9bb40211187492de80b4179d
+    new: 902dfd5ba7c3e44d4b9e96c5d60cfb7061e7d14c
     log: |
-         39beeb2c5f2baee005b9911d170ef3d820598cf3 drivers/perf: Add Apple icestorm/firestorm CPU PMU driver
-         e26fa8882adfac4b9bb40211187492de80b4179d irqchip/apple-aic: Drop unused ipi_hwirq field
+         719eee4feac5b4f5b66659bb35aacbaa550dbb01 drivers/perf: Add Apple icestorm/firestorm CPU PMU driver
+         902dfd5ba7c3e44d4b9e96c5d60cfb7061e7d14c irqchip/apple-aic: Drop unused ipi_hwirq field
          
