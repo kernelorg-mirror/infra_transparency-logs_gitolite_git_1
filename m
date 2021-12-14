@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 14 Dec 2021 11:53:28 -0000
-Message-Id: <163948280896.476.6121937884843913248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Tue, 14 Dec 2021 11:54:12 -0000
+Message-Id: <163948285203.723.12013840788686389265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/stm32-dt-for-v5.17
-    old: 0000000000000000000000000000000000000000
-    new: 3ff0810ffc4793bfde454a452837484d0815aa14
+  - ref: refs/heads/fs.binfmt_misc
+    old: 359b2a0e36a639edde2d752a9f950fb4f66f78ab
+    new: c58cd187b4ce95f545a8a4c780b7068a27e80a49
+    log: |
+         c16a1c4897fc6f130c2635fe3397e843af573191 binfmt_misc: cleanup on filesystem umount
+         c58cd187b4ce95f545a8a4c780b7068a27e80a49 binfmt_misc: enable sandboxed mounts
+         
