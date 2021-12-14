@@ -1,30 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 14 Dec 2021 13:48:35 -0000
-Message-Id: <163948971552.9169.15035281714927021688@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4688847147701462804=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 14 Dec 2021 13:49:26 -0000
+Message-Id: <163948976613.10544.15679854472780186455@gitolite.kernel.org>
+
+--===============4688847147701462804==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d685f07ecb0f2ff64e475fe0ddf86e69b295fbf6
-    new: 9ffe433d729101a34d9709030d7d4dd2444347ef
+    old: 116df34002feddb2346579afa1d3f8e497ffe373
+    new: 18126694face5bd0726e50b674a14bd184484d19
     log: |
-         12324d569861b83fb76e874122ddfcf28ee8d485 fio: Improve documentation of ignore_zone_limits option
-         38334c1347e624237118d08f467aff35a8fcafe6 zbd: define local functions as static
-         410a071c59d7992968af7073bf39546df18542ff zbd: move and cleanup code
-         b5a0f7ce303d5fa5cca51af0652b7f7cf9bc5d61 zbd: remove is_zone_open() helper
-         0bf93a1a7ed700b24177edb6db6c4c42e93ca7b2 zbd: introduce zbd_zone_align_file_sizes() helper
-         139d8dc666e5e4a05eaa9f5e603fc3453c5fe43f zbd: fix code style issues
-         a23411bb2e1c7de1e97c505ca2ec7270a35f7be1 zbd: simplify zbd_close_zone()
-         aad7c276b01304d3fa128c84dc885eb557944b29 zbd: simplify zbd_open_zone()
-         dc8a3d629310d1ac9143d62c9f37ff16331737d5 zbd: rename zbd_zone_idx() and zbd_zone_nr()
-         39e06ee779cae55cb7d02eb11a5f12ca7f21a337 zbd: rename get_zone()
-         53aa61719b906bdf8e058c94ca93e537b90806b1 zbd: introduce zbd_offset_to_zone() helper
-         9ffe433d729101a34d9709030d7d4dd2444347ef t/zbd: Avoid inappropriate blkzone command call in zone_cap_bs
+         18126694face5bd0726e50b674a14bd184484d19 Linux 5.4.165
          
+
+--===============4688847147701462804==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639489765 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1639489764-bbdf3a0bd4612253060a77c9fad6f5818da20bd5
+
+116df34002feddb2346579afa1d3f8e497ffe373 18126694face5bd0726e50b674a14bd184484d19 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG4oOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UhsQANSN3mqs2IRyVLUSjv1c
+H+WPY94EIYLzPmWUUcsZduGM7Ig/1V9L+z5/EgrZoZvjvfVWABmzfEF8VoVmLRRC
+UKymMZ0ZUa+VouwTPYJes9A/93rTMocdAA8UNdszsszK6b14Yk7ZIi27lJsOgnTo
+DNsqNz8AgEL1KxsgglRFrQElvEyCShr6Wzx7Hu6kSiW14g9o9Mw/InHSQ+Df/F5t
+KjAu5y6XvreIrrURTAAaiue0PKgWjG8f1s2+oCM0gk5fwka7IhNqTyX8v1Y4skp4
+Y50mkXjyFOk6GU4dBJdnfGnlO/o0yCnsB0ImgyruqDDCsWQviIqwNyyzPNcXvu1h
+4zVX0Vd/tKpuY+qpCrN4Jqk37i9aA6GOC7No/5hLJe1Bqw8H4ylBKymTlTWDGOCn
+X9GMUqg85OKI49hnj+gkJaqsX0EsgCMhGgerZ8LFpsvICP2NKKhR34joN+MDEyRn
+ppUowK2douXtoxA8RXO1HqJ0+nTpLJ763uDKV8cNhUynjVOR3EU7Ic+yvWRt1qlt
+Fm5wTyBeKo7Cs680RjGbQh6lZVMOaB3ZdJKhAMdXlGX5pgsKq4AkDkBbIFCpLxN6
+0+1xxCnFucQFFcLwhHqolQixX896dOw3J9CSuUe0mC02amxjI0xQrkte4ngbOKtd
+8v7duFKP3vnjDlfjBfkSkMZ3
+=Hjg+
+-----END PGP SIGNATURE-----
+
+--===============4688847147701462804==--
