@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 14 Dec 2021 09:31:44 -0000
-Message-Id: <163947430479.31918.4292163740994690458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 14 Dec 2021 09:45:32 -0000
+Message-Id: <163947513297.32266.8132846237722360035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: e87f13c33e126ab2c72f9acb5ae98fbb93ddfd32
-    new: b156117aed1b9d192efcb27f5b37f78cd21fa545
+  - ref: refs/heads/for-linus
+    old: c01c1db1dc632edafb0dff32d40daf4f9c1a4e19
+    new: aa72394667e5cea3547e4c41ddff7ca8c632d764
     log: |
-         045a31b95509c8f25f5f04ec5e0dec5cd09f2c5f phy: tegra: xusb: Fix return value of tegra_xusb_find_port_node function
-         918aaae300a634c4e0e98ad6820c9dc31eba09af dt-bindings: phy: qcom,qusb2: Add SM6350 compatible
-         16c57fff8390bf494b10c8321293295493e91a0b phy: ti: Use IS_ERR_OR_NULL() to clean code
-         9d031a51b399b368b180886632402273bf53d6a2 phy: lan966x: Remove set_speed function
-         b156117aed1b9d192efcb27f5b37f78cd21fa545 phy: rockchip-inno-usb2: remove redundant assignment to variable delay
+         d296a74b7b59ff9116236c17edb25f26935dbf70 ALSA: hda/realtek: Amp init fixup for HP ZBook 15 G6
+         aa72394667e5cea3547e4c41ddff7ca8c632d764 ALSA: hda/realtek: Add new alc285-hp-amp-init model
+         
+  - ref: refs/heads/master
+    old: 72c28defd27e9d943374a3e1cd70e5a967efdfb0
+    new: 4da0abd7359aba0106111ed130685dfb3d0f9956
+    log: |
+         2dee54b289fbc810669a1b2b8a0887fa1c9a14d7 ALSA: drivers: opl3: Fix incorrect use of vp->state
+         c01c1db1dc632edafb0dff32d40daf4f9c1a4e19 ALSA: jack: Check the return value of kstrdup()
+         d296a74b7b59ff9116236c17edb25f26935dbf70 ALSA: hda/realtek: Amp init fixup for HP ZBook 15 G6
+         aa72394667e5cea3547e4c41ddff7ca8c632d764 ALSA: hda/realtek: Add new alc285-hp-amp-init model
+         4da0abd7359aba0106111ed130685dfb3d0f9956 Merge branch 'for-linus'
          
