@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0118831449118589649=="
+Content-Type: multipart/mixed; boundary="===============4700996665720288536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 14 Dec 2021 08:37:52 -0000
-Message-Id: <163947107231.3050.15094405301527524570@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 08:38:16 -0000
+Message-Id: <163947109683.3238.13777324899710975714@gitolite.kernel.org>
 
---===============0118831449118589649==
+--===============4700996665720288536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: d58071a8a76d779eedab38033ae4c821c30295a5
-    new: 2b503c8598d1b232e7fc7526bce9326d92331541
-    log: revlist-d58071a8a76d-2b503c8598d1.txt
+    new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
+    log: revlist-d58071a8a76d-2585cf9dfaad.txt
 
---===============0118831449118589649==
+--===============4700996665720288536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-2b503c8598d1.txt
+Content-Disposition: attachment; filename=revlist-d58071a8a76d-2585cf9dfaad.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
@@ -758,7 +758,5 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 8d7ed10410d53453305e4f8673c50085d607fa80 Merge tag 'char-misc-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
-83b67041f3eaf33f98a075249aa7f4c7617c2f85 USB: serial: cp210x: fix CP2105 GPIO registration
-2b503c8598d1b232e7fc7526bce9326d92331541 USB: serial: option: add Telit FN990 compositions
 
---===============0118831449118589649==--
+--===============4700996665720288536==--
