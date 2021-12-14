@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6706369083148292559=="
+Content-Type: multipart/mixed; boundary="===============5173698777880211783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Dec 2021 04:39:23 -0000
-Message-Id: <163945676334.19304.10463792776876974272@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 04:39:34 -0000
+Message-Id: <163945677431.19425.13348723328016029530@gitolite.kernel.org>
 
---===============6706369083148292559==
+--===============5173698777880211783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 02a34de3854f998ef8a5cef60cee509f11b8143e
-    new: 9d58f46b9c18f0b1294669f0148d6ec8fab40ba2
+  - ref: refs/heads/5.17/scsi-staging
+    old: 4437503bfbec2f02b41b2492520fe627715889a7
+    new: 8c2d04551545d3722c1e6891ecce46f44c5406ec
     log: |
          532adda9f405d69ef1837f59e60512313fdf0f63 scsi: lpfc: Use struct_group() to initialize struct lpfc_cgn_info
          c167dd0b2a7afcf2c25e44b9b6168cba3a51d27d scsi: lpfc: Use struct_group to isolate cast to larger object
          8c2d04551545d3722c1e6891ecce46f44c5406ec scsi: hpsa: Remove an unused variable in hpsa_update_scsi_devices()
          
 
---===============6706369083148292559==
+--===============5173698777880211783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1639456753 -0500
+pusher 75C5DE3D 1639456767 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1639456753-d78ef678bdbc0f64c98b09ee9344e1e2e0f65fd2
+nonce 1639456766-24b6307a016dbc6e57fb27778a39f9c94db7913d
 
-02a34de3854f998ef8a5cef60cee509f11b8143e 9d58f46b9c18f0b1294669f0148d6ec8fab40ba2 refs/tags/mkp-scsi-staging
+4437503bfbec2f02b41b2492520fe627715889a7 8c2d04551545d3722c1e6891ecce46f44c5406ec refs/heads/5.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG4H/EACgkQ7ulgGnXF
-3j3d9w/+Og6ri/7PE7zhGVhvwwdKAD8NPau77l207QAllYyruYAGWjA9XeDMo8Sa
-AcrNUPTdl5/t+mPYiqgrauWhRiIiU2727N5Bx8cfHv9uwkhBI5s2Wn1urqX0+lwQ
-s67y0i+chUlRrIT/3VV7RrzsiLuKCibgpEyrEa0q/G3Ynu71QVkJDPEo/+zDN+Cu
-QIXYsPv+l5ixv3Jm+ojjOF43JWKrcyB8zzngRbn8ej/Ws2aJ6iU7iURkFcF8Up9A
-He6tKaUF1PQCW+ISZiE+LTUmm9g7n/XGAEEIyQFfan9JhFPAstnpKDp/iRbw5ODi
-xF5X79ZC5EVlwJMFXnpl90M1vyc5atWoVgp9Xuz4MDRU5iDrt7npwAaBKKJrYpRw
-HdFtsCrt3Xwj0c3hou69giDFSZ5gZLX+53ktFB7tNh3xenaj+2UwGxFsMMGiXhv1
-v4T7I7m23s/qwbxR904+8qxYM5NyvV026DZ7zAq0ljGoS5S2g9k3uSWpPuqYBrGr
-uRm90UZieCK59RN6t7kd1qCA1N/wZECHZSI9aKkxv5l1+pRY1ivj+HLB2sR9lT/V
-zP3CKb3c/M3ZIZmVmhPWoxj7Qqf10SAjxUboFCs95JE9sA96xCp0NTp2a6/q7OAX
-3rcvwFBaJOOSvdNkfBW9j2k6XXM+WUS10XHXEIcqQ3KI2AWdzvs=
-=BALG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG4H/8ACgkQ7ulgGnXF
+3j10CRAAmyOHWauVBgEhmQBtSX68hhCUcKPVq1mHgYOWqI/Q7ftlw4FX5FFnG8Wh
+fpZDfWBMJqwIZhV+XCsd8adjJu7HwJLAINE5BDgB+04SpFGmhJw5vISIAq6IYQcx
+zzxzShmPfoP3HzcQIK1NnsV8WmKLf51G86JvfbTENeYPr+em9Gje+vPcEhUQI9bf
+OM9Yaup0daC7RVkbqtmdTyI9iMwSM2DeL9F8OHFCGY7QkjVoalq4tM8Dk854UMaf
+xKYm5pFOhwLquk3DwV7xiHE7n1r6DudcRYQpgqKfopUy5ujJ57j/1Yl7qgmu5ozS
+nYDhuHEA/iAzJ9RXF2CMU43Jj6Z/X60/PEnXM0zY9tCJPNnikWLZ4AnqIMedv4Ek
+EH5WJaOpsEjJRrL29FwA+9u9FGFhWzQZcAs8iNssvy020XXzwIb+mmJ9Wdj4cFhi
+BS9v+b2tFD2RuDwtcdvqEK0MiEfCl0K8AXSjHeoBN63avQjACUfTLmyVX7mJJ/Ps
+8Wiqs8G3RToEkThKIHtKDdCEC4AKdRpkgrQZp6s7mYM+VVG5xCkLGK7SwkLceFOg
+Gyo6ph38IlXTUR9C2ZkOIl5GIpjSxUL0KakaThkxKFkhkE7wL+y3fsfJv4NkBYcm
+/FOZkwE3PErrA9fKKHAc1bGE75xv0ijKeFiXOJsNnWsX6lGhaW8=
+=UCkQ
 -----END PGP SIGNATURE-----
 
---===============6706369083148292559==--
+--===============5173698777880211783==--
