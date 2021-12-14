@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 14 Dec 2021 01:38:39 -0000
-Message-Id: <163944591963.3363.3392204880340784643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 14 Dec 2021 01:44:59 -0000
+Message-Id: <163944629995.6636.3384725911244939727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/experimental
-    old: 80dbfd1e2622c7185b3ec743a33fe8531e340ef1
-    new: 3d5921eba3cec0ec60bf088334bd61ab2b75a80a
-    log: |
-         3d5921eba3cec0ec60bf088334bd61ab2b75a80a erofs-utils: clear compacted_2b if compacted_4b_initial > totalidx
-         
+  - ref: refs/heads/riscv-pmu
+    old: 0000000000000000000000000000000000000000
+    new: 7a94c6fb363cfe62906cb0503d763204b0fe32b8
