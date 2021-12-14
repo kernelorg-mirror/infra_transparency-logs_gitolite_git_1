@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6183150468651794704=="
+Content-Type: multipart/mixed; boundary="===============0571671670440839576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 14 Dec 2021 18:11:49 -0000
-Message-Id: <163950550909.4876.16432580260154732411@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 18:11:59 -0000
+Message-Id: <163950551927.5010.14254378601641296600@gitolite.kernel.org>
 
---===============6183150468651794704==
+--===============0571671670440839576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 884d2b845477cd0a18302444dc20fe2d9a01743e
     new: 3dd7d40b43663f58d11ee7a3d3798813b26a48f1
     log: revlist-884d2b845477-3dd7d40b4366.txt
 
---===============6183150468651794704==
+--===============0571671670440839576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ b442f2ea84624873d538e4c5986d7c0d40883a47 mlxsw: spectrum_router: Consolidate MAC
 20617717cd219d3c1f798cd13dbce1bcd86a6ece selftests: mlxsw: Add a test case for MAC profiles consolidation
 3dd7d40b43663f58d11ee7a3d3798813b26a48f1 Merge branch 'mlxsw-fixes'
 
---===============6183150468651794704==--
+--===============0571671670440839576==--
