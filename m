@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0730518048782163511=="
+Content-Type: multipart/mixed; boundary="===============1804392644039153735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 14 Dec 2021 08:44:40 -0000
-Message-Id: <163947148016.6529.5414876477457436140@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 08:45:44 -0000
+Message-Id: <163947154448.8460.16369478724053205144@gitolite.kernel.org>
 
---===============0730518048782163511==
+--===============1804392644039153735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/bindings
-    old: 9aa637b5673ca100f219b13b16dbc19a0b77ef73
-    new: 8802266a103343da81fc99f7977273713e0e1980
-    log: |
-         ced795c2648aae44314aa8027e8e1d691ea6153f dt-bindings: bus: imx-weim: add words about continuous bclk
-         c4cacb5b80f4f1d83b8bcd6e16672d6732982414 dt-bindings: soc: imx: Add binding doc for spba bus
-         63aca69c224fd2a38e02598a8ce48b984c7e9c76 dt-bindings: Add vendor prefix for BSH Hausgeraete GmbH
-         50cee5eb406b9557f30a2824691b26d2a74f1a8a dt-bindings: arm: fsl: Add iMX8MN BSH SMM S2 boards
-         8802266a103343da81fc99f7977273713e0e1980 dt-bindings: arm: fsl: Add BSH SMM-M2 IMX6ULZ SystemMaster board
-         
-  - ref: refs/heads/imx/defconfig
-    old: 2ecc02a6b3f0e2a4339952c4f8b86a4d87876930
-    new: 97416aab15174741f7feda551ec6bfd7e7ee9323
-    log: |
-         97416aab15174741f7feda551ec6bfd7e7ee9323 arm64: defconfig: enable drivers for booting i.MX8ULP
-         
-  - ref: refs/heads/imx/drivers
-    old: 8361b8b29f9389084b679db854cf733375c64763
-    new: 7b983da38417fa8c36514d6a98997b3cad11b6a9
-    log: |
-         7b983da38417fa8c36514d6a98997b3cad11b6a9 bus: imx-weim: optionally enable continuous burst clock
-         
-  - ref: refs/heads/imx/dt
-    old: 0de4ab81ab26f09d4dbf8142a881b4607070d01f
-    new: 812ecfdae800272e17291a55c8ee995aad3c01af
-    log: revlist-0de4ab81ab26-812ecfdae800.txt
-  - ref: refs/heads/imx/dt64
-    old: 44d0dfee53ffff733de6baabea986e72af08f7bb
-    new: bd4372f056a2cf1a8b47afafc565b1fa7eb54323
-    log: revlist-44d0dfee53ff-bd4372f056a2.txt
+  - ref: refs/heads/for-next
+    old: fb8472309717fd37815ed0c3d7d9e595bd4ee43b
+    new: 8d30c32befe955a537381cc40f842295322255d8
+    log: revlist-fb8472309717-8d30c32befe9.txt
 
---===============0730518048782163511==
+--===============1804392644039153735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0de4ab81ab26-812ecfdae800.txt
+Content-Disposition: attachment; filename=revlist-fb8472309717-8d30c32befe9.txt
 
+ced795c2648aae44314aa8027e8e1d691ea6153f dt-bindings: bus: imx-weim: add words about continuous bclk
+7b983da38417fa8c36514d6a98997b3cad11b6a9 bus: imx-weim: optionally enable continuous burst clock
+c4cacb5b80f4f1d83b8bcd6e16672d6732982414 dt-bindings: soc: imx: Add binding doc for spba bus
 b357ffd8604ae45ec4bb1ebec072cd4ca4ce839c ARM: dts: imx: Change spba to spba-bus
 74092acd6eab63b1f1e0c293400ef3b1bb7af6f8 ARM: dts: imx7s-warp: Drop undefined property in mipi_csi node
 473d06b9093ddc6b9fd2927893819f43e830bde5 ARM: dts: imx7: Drop reset-names property for mipi_csi node
@@ -73,16 +50,9 @@ ac0894359ecfd80f260aa42b283c88bf02387e4e ARM: dts: imx53: drop "fsl,imx-ckil"
 36b85fdaa36ac19ec6bd77ad5d44050747265c28 ARM: dts: imx6qdl: drop "fsl,imx-osc"
 5368f930cc655d0906574e9841960ee380bf4351 ARM: dts: imx6qdl: drop "fsl,imx-ckil"
 bca46d8e5fede9cf4491be27dba9d09721b80f71 ARM: dts: imx6qdl: drop "fsl,imx-ckih1"
+97416aab15174741f7feda551ec6bfd7e7ee9323 arm64: defconfig: enable drivers for booting i.MX8ULP
 e7ed6ba0239df1e2aca3f9b2d77da4de180cdbe0 ARM: dts: imx6qdl-dhcom: Align PHY reset timing with other DHCOM SoMs
 cbcf2b40a7cf40da02e08e4485118a3b4fce54ce ARM: dts: imx6qdl-dhcom: Identify the PHY by ethernet-phy-id0007.c0f0
-812ecfdae800272e17291a55c8ee995aad3c01af ARM: dts: imx6ulz-bsh-smm-m2: Add BSH SMM-M2 IMX6ULZ SystemMaster
-
---===============0730518048782163511==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44d0dfee53ff-bd4372f056a2.txt
-
 6c5d66cb28b0611350007204da1cd079b7b4bf41 arm64: dts: ls1028a-rdb: sort nodes alphabetically by label
 d18c7980d4d7125b0c9fc002de301054c3667a82 arm64: dts: ls1028a-rdb: add an alias for the FlexSPI controller
 96ad273759e0176b5e00c7c7266421c26a7f4811 arm64: dts: ls1028a-rdb: add aliases for the Ethernet ports
@@ -94,6 +64,16 @@ a3d5b4e2af448afd0c8c843178380a8efbbaf8df arm64: dts: ls1088a: add snps incr burs
 a38771d7a49baf682fffd5cb8e1c6aea45ae5d26 arm64: dts: imx8ulp: add scmi firmware node
 03eb813dac25d478151892e959055a80b9eb7dbe arm64: dts: imx8ulp: add power domain entry for usdhc
 aafac22d6b232a2a4f496f7ac3f98a32ff1fb29f arm64: dts: imx8mm/n: Remove the 'pm-ignore-notify' property
+63aca69c224fd2a38e02598a8ce48b984c7e9c76 dt-bindings: Add vendor prefix for BSH Hausgeraete GmbH
+50cee5eb406b9557f30a2824691b26d2a74f1a8a dt-bindings: arm: fsl: Add iMX8MN BSH SMM S2 boards
+8802266a103343da81fc99f7977273713e0e1980 dt-bindings: arm: fsl: Add BSH SMM-M2 IMX6ULZ SystemMaster board
 bd4372f056a2cf1a8b47afafc565b1fa7eb54323 arm64: dts: imx8mn-bsh-smm-s2/pro: Add iMX8MN BSH SMM S2 boards
+812ecfdae800272e17291a55c8ee995aad3c01af ARM: dts: imx6ulz-bsh-smm-m2: Add BSH SMM-M2 IMX6ULZ SystemMaster
+65bd76d0548fda313f3bf2c7c2f4b279baf7dbb5 Merge branch 'imx/drivers' into for-next
+6391718683b8458ae97d4dd2ec5b937d5b98458a Merge branch 'imx/soc' into for-next
+45a79b28b191c3e22d21c64f205ec2b429fc1309 Merge branch 'imx/bindings' into for-next
+81e56fcfd7a9076b7c4873a9fe6586862bf97dd1 Merge branch 'imx/dt' into for-next
+4c075f0949eec420fc14f0b6318ca9b941d6efd5 Merge branch 'imx/dt64' into for-next
+8d30c32befe955a537381cc40f842295322255d8 Merge branch 'imx/defconfig' into for-next
 
---===============0730518048782163511==--
+--===============1804392644039153735==--
