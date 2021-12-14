@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0611302563273673743=="
+Content-Type: multipart/mixed; boundary="===============2296887429334475891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 14 Dec 2021 09:17:23 -0000
-Message-Id: <163947344355.28951.7143990211321719581@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 09:17:26 -0000
+Message-Id: <163947344634.29010.17480111660776883186@gitolite.kernel.org>
 
---===============0611302563273673743==
+--===============2296887429334475891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 927832a1d690c6062cfeef946de7e72710735585
-    new: 0ea1ca8fff1a8d105e279d2011767ce787d446d8
-    log: |
-         1217359dcf7b630bf769e6bb9cd51484aca7f20e drop x86-sme-explicitly-map-new-efi-memmap-table-as-encrypted.patch from 4.14 and 4.19 queues
-         0ea1ca8fff1a8d105e279d2011767ce787d446d8 Linux 4.14.258
-         
+  - ref: refs/tags/v4.14.258
+    old: 0000000000000000000000000000000000000000
+    new: 5b22b5f33d1493b63df9b4fd93b13f211fa7c9cc
 
---===============0611302563273673743==
+--===============2296887429334475891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639473442 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639473445 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1639473441-d144c8a7519c45ebd7f2ce7de38192c25f1ec162
+nonce 1639473445-e81dcb4d8a1e9fba4d12b8f54a4924c7bc442326
 
-927832a1d690c6062cfeef946de7e72710735585 0ea1ca8fff1a8d105e279d2011767ce787d446d8 refs/heads/master
+0000000000000000000000000000000000000000 5b22b5f33d1493b63df9b4fd93b13f211fa7c9cc refs/tags/v4.14.258
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG4YSIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yMsQAMl7Q4GGfrj8PwasnlBH
-IurJaZCwpiw6jjV1dET1ugqsnn9UINSUNG6Tp2GVWZzDsBhwPkO5u3NdvKQ7xKgo
-BfGDH9n57+0sIZpfUfRK28XpuOK5Ts4NfQJxPwCa6zXMGxkp201+MbLEmsBA2S95
-0kNREBAmNUheBEZ6wHdE47ZHegcczgX++W03BYc+rpmBtMqamBMUv7q+N7YPUfUt
-LomllXHsGzp+xTDA7/KUPHLkL73x4EY8R4a32OAXW0igSaVKYmcR6H1/AcUZpE75
-TFfeNX7E/WhLbRC54LjC9WO05h6lJDvi9xFCYWZ8DwhWZmvWfp9a93t62wBdyYe6
-oEzfZhFoJsxuQkpx8Tiy20E6wWYHDrXdFGa9LIEszf1TCfyNu4SjDf3WToi1pwVS
-onCJwaAptFoN467XLa3HkSmnZT0ZKLJEbu8pdAimOc8mci5I6a2j81CjDr5wLAaI
-Hwgnh/Dzk4H+GGGhUTgccHFqsyLXpRwdguYH2ZFLG6HZSaZ4y1+ycHHqz4lOf4GE
-0XW4Mt6+C6JmXLWqm1N+1p6LgCBK8gs5mQ4o3FVkx04Cia6eqNrxOfrCwPEzDE47
-osxx7QzWHcmm/5sIl+boOssebD8GiVr2zckCobNCXnqzTWdk3w7ucI8Yyu0R5gpz
-5KAAQqgrpH/afmlJGM4ZMyu5
-=nyAp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG4YSUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4RcP/2ROTY7RAg6mci1BbUdG
+ed9aTNIL8vwzqOtH1wgFKhehDW2+rFaVsKvgZ4Yq4ReyQSvMqVtmZ2COg/K507+g
+YnKkRAE4QNrJ0Ni8iXZelvrk7bJjpwgCe7DF510yGbNtNd08wu9j+z7cGgX9l6Qn
+Jt+zkgpjqmdATsV989RtTNigbTHvFeDdgiu4ui5nxIAR34m3iPAvMNXU/KlPpdkm
+dfcA8YiKEVwtw6sift4G6ZLbNBY/LF0ETOblBJcvAJyaJf0JlKxBinWsaYFDZbBg
+8UUhVWbRaC+QgaDfIfxiFY+x0JAz7lpyitbW7Qa/X/FS/TGl2zwReOpZ9m/WAygY
+Cllk7ZIUaJ4MOdGm0yq1BdSjF1lh210y0YD8i9cVHjmOijem/6/ltYyH//kXVwrh
+2nIyGDoOLAAHFomRSaSfTft6Lg1UKexmu2uNIL7IZIv+hMrs4wW8Cvoc+zx0f7cx
+qQm6j0uwLttWZiYavFodw9U37+M3CamuvE7c9JgcrxpNmAR0ECBa048zyk1aiVVT
+h9LqkHHRKhAp3pv/JP7vy40nxPcvz5biJECUtkjRoA70EDx8E9oKGtCt4hnwIcLv
+cQ9euYvTy94N+HiXYkFknkjs0DypRaFK8eZWNIJNcyEY6WJgO0JYyxaTTgKTNek2
++snJWpO1hj/k7HsBincm64LG
+=BUH6
 -----END PGP SIGNATURE-----
 
---===============0611302563273673743==--
+--===============2296887429334475891==--
