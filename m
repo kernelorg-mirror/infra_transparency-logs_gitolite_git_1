@@ -1,50 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3439139878363713412=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Dec 2021 13:24:14 -0000
-Message-Id: <163948825463.26634.3295466959150836029@gitolite.kernel.org>
-
---===============3439139878363713412==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 14 Dec 2021 13:24:33 -0000
+Message-Id: <163948827335.26800.13875701493352487530@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.17
-    old: e9d7c323cfbbd07c365a419b4ce3dc2f161442c7
-    new: 95c07247399536f83b89dc60cfe7b279d17e69f6
+  - ref: refs/heads/for-linus
+    old: fb28d9126c036af4cc3d997cb1a2b6504da2ae58
+    new: 7989f7cd1456cf67ddbb74656bf95b265b63b917
     log: |
-         95c07247399536f83b89dc60cfe7b279d17e69f6 spi: Fix incorrect cs_setup delay handling
+         7989f7cd1456cf67ddbb74656bf95b265b63b917 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-
---===============3439139878363713412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1639488252 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1639488252-0b1b0542502c830d8789c4732a1f78219ef8735d
-
-e9d7c323cfbbd07c365a419b4ce3dc2f161442c7 95c07247399536f83b89dc60cfe7b279d17e69f6 refs/heads/spi-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG4mvwACgkQJNaLcl1U
-h9AYNgf/a/hJ/V3PgS/zJ++f/4sqFzR5PKaoFOklDSdKaYR4cacC49AuqqZXNh4o
-32fklBW+7anC9uU0ijmEa4v+6hYa9U6ITV10Gp1/4rKjYa+vkJXB7jkBPPT/NGDF
-8DFenECE1TOvl066Pvf2W3E1MxhLOqbzwwmHF0/MuLdOONIYarBIoOLc1tP1XWCl
-xtLrzfTWMs3IUzPdEZauW/F5EZovmpoWbQdQysLBYqSeIpZSW9aruAgDwJMlnuKF
-lM+HR8kT9OCutB151zXcdjWg1uv+1MKbsOKCV1IYNm9lH5vXN2PmIDct6K2zZB5C
-VxVdxbbFkofxuxcyHnnsGJrRkrgGWA==
-=ixX6
------END PGP SIGNATURE-----
-
---===============3439139878363713412==--
+  - ref: refs/heads/for-next
+    old: 290a7c5509b6f14c28e959392f3cbc4d5b2c9318
+    new: 190357e1e09f271566e91fcd108c161f7e25a253
+    log: |
+         c55676ec292e0ff83261eb61efaf99a91079a3b8 ASoC: dt-bindings: qcom: sm8250: Drop redundant MultiMedia routes
+         1875ae76f82c5c9acd7b7f44bd9226fbcbe858b7 ASoC: dt-bindings: qcom: sm8250: Document "aux-devs"
+         b7875d88bf70100d2fe0dc08072018f994ccd6c4 ASoC: dt-bindings: qcom: apq8016-sbc: Move to qcom,sm8250 DT schema
+         38192dc36f1fe1615b7a12cc78b9354d6b4ba8b7 ASoC: dt-bindings: qcom: Document qcom,msm8916-qdsp6-sndcard compatible
+         a78a42fb48b8f261ab122c929f78c272ffc26d1b ASoC: qcom: apq8016_sbc: Allow routing audio through QDSP6
+         475b17b4a875ef31246c6a038ee60d5ca4982ea5 ASoC: SOF: Remove pm_runtime_put_autosuspend() for SOF OF device
+         ec247fea7380244626d7095dfc1a0bb6c1f84f29 ASoC: SOF: sof-probes: Constify sof_probe_compr_ops
+         03c2192ab636987db72e99f319a942cc4f3cb352 ASoC: mediatek: assign correct type to argument
+         190357e1e09f271566e91fcd108c161f7e25a253 ASoC: qcom: apq8016_sbc: Allow routing audio through QDSP6
+         
