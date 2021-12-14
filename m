@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 14 Dec 2021 14:55:37 -0000
-Message-Id: <163949373786.6572.10923976104438060499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 14 Dec 2021 15:01:35 -0000
+Message-Id: <163949409590.9845.3874341283365568919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/memory/renesas
+  - ref: refs/tags/v5.16-rc5
     old: 0000000000000000000000000000000000000000
-    new: 3542de6a5b159fac0e7ca84d77a57ea99125d6b1
+    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
