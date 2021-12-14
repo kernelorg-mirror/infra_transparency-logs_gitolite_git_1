@@ -1,25 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 14 Dec 2021 10:11:41 -0000
-Message-Id: <163947670110.9077.4294045782329705835@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6439872381481879915=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 14 Dec 2021 10:33:27 -0000
+Message-Id: <163947800773.22267.4797849390026145371@gitolite.kernel.org>
+
+--===============6439872381481879915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: e388164ea385f04666c4633f5dc4f951fca71890
-    new: 073c3ab6ae0123601b5378e8f49c7b8ec4625f32
+  - ref: refs/heads/master
+    old: 8e32e2345c25e9dfde281592322878f0a54b140b
+    new: 5d1bd344759f0ce3802fc450d274f75939532b76
     log: |
-         cecd491641c23f3c63958a62efb74cdaf3c93d7b fuse: add fuse_should_enable_dax() helper
-         780b1b959f9bd959e1aca450e9fee0e2c00b31ad fuse: make DAX mount option a tri-state
-         98046f7486db723ec8bb99a950a4fa5f5be55cd1 fuse: support per inode DAX in fuse protocol
-         93a497b9ad695bb2f38a302c5b29dbc9b555ff3f fuse: enable per inode DAX
-         2ee019fadcca343c3deea6a1767965bdf23fc3d0 fuse: negotiate per inode DAX in FUSE_INIT
-         c3cb6f935e322fa183988032e318b293d9e4fe53 fuse: mark inode DONT_CACHE when per inode DAX hint changes
-         073c3ab6ae0123601b5378e8f49c7b8ec4625f32 Documentation/filesystem/dax: DAX on virtiofs
+         1edf658b9cd7416fedb08681cd56eea2712ac956 fix up queue-5.10/selftests-netfilter-add-a-vrf-conntrack-testcase.patch
+         5d1bd344759f0ce3802fc450d274f75939532b76 Linux 5.10.85
          
+
+--===============6439872381481879915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639478006 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1639478006-ffb556ea17786d8147a04094b96780e61699f470
+
+8e32e2345c25e9dfde281592322878f0a54b140b 5d1bd344759f0ce3802fc450d274f75939532b76 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG4cvYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qWsQALcrcWMkJq8GsHMngDh2
+KfFp73CvYFdd/7PHbwvpxO+YcgAyizEyi/UTRX0vckvJdjFFoQQ8PLLl7qWY7d53
+LGi6uph00t2Rg+P6F+pp89fwJKeaXOR6IGS/IK3YRpA7metoYaaJx6ei1dkEmiYL
+EAMGM7W6B3hBQJ0/5IITUin0h2zIVM0itFzONrPEORyb9TV6b6GaIZRLzizksxHB
+S/p4nAOgTfnChSNbNjA1lazpwdOOdjbp+w5GD+zCcj3NFb0xJrFxSoqjgtpYffB/
+DLW68HWtBI3ljL7zrop2OzOPUAoiVblytsFE4YZPquQiRgUe7pgNILwSahs3DKvJ
+JUNfjWKKpFGb3Gwii+4XRlstsb7N4s8+21/Dji5Nsi1Hs6jEShQ5N7FiibhNpziw
+T/5GG2lwpX7QdP3TRgsXTAEYx0ce0HEIRjTx5C4TfaEm10NLzlzEudAZVxqNuYsP
+lxSUc6gF75TNGoO/6hSYIOCzGkI7mCV+wDRG2bhr7JXS1ycO2vTapDrf1tgPPSyX
+wHsg2QmoaVC8dDMvWQoJ02Nm6nM14JOihun/eYBK/q6lUO6psaKo0VLjYca4q7WY
+YOnc8YbjODXfkQDT5G4pc8/051p0SjTUT1Uj6TMvchq1wT65iH1dGMrhyqaI8iAT
+MXwP5xQUp95k21U8TwXK9uvn
+=708L
+-----END PGP SIGNATURE-----
+
+--===============6439872381481879915==--
