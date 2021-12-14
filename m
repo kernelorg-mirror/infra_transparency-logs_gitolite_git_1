@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Dec 2021 12:56:34 -0000
-Message-Id: <163948659447.9314.954091282567412104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Dec 2021 12:58:13 -0000
+Message-Id: <163948669318.9865.2502330065652784349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 5f9562ebe710c307adc5f666bf1a2162ee7977c0
-    new: 3dd7d40b43663f58d11ee7a3d3798813b26a48f1
+    old: dc91e3be837ced738d04a4dc8aefc338e8f79235
+    new: fe4c82a7e0f06abdf5a6978aa00457b63bd46680
     log: |
-         b442f2ea84624873d538e4c5986d7c0d40883a47 mlxsw: spectrum_router: Consolidate MAC profiles when possible
-         20617717cd219d3c1f798cd13dbce1bcd86a6ece selftests: mlxsw: Add a test case for MAC profiles consolidation
-         3dd7d40b43663f58d11ee7a3d3798813b26a48f1 Merge branch 'mlxsw-fixes'
+         b6ee566cf3940883d67c0d142fae8d410e975f47 ibmvnic: Update driver return codes
+         fe4c82a7e0f06abdf5a6978aa00457b63bd46680 ibmvnic: remove unused defines
          
