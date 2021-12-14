@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3591113189889780648=="
+Content-Type: multipart/mixed; boundary="===============6146771868443910786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 14 Dec 2021 20:29:58 -0000
-Message-Id: <163951379899.27346.16188811728734373997@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 20:30:06 -0000
+Message-Id: <163951380689.28911.17100487275318126096@gitolite.kernel.org>
 
---===============3591113189889780648==
+--===============6146771868443910786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dt/next
     old: 84184107c39ae65d08f6d449a57ec58734ff535a
     new: 570df0a51955b4741ca3a87b065ce4d7927bf325
     log: revlist-84184107c39a-570df0a51955.txt
 
---===============3591113189889780648==
+--===============6146771868443910786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a6564a553878ae05a33f9a79a6ef95bbfd8cd21c dt-bindings: gpio: Convert Broadcom STB
 e4fa9dedc5566cb20381b563026fde0158cc63ec dt-bindings: thermal: Convert Broadcom TMON to YAML
 570df0a51955b4741ca3a87b065ce4d7927bf325 dt-bindings: gpu: mali-bifrost: Document RZ/G2L support
 
---===============3591113189889780648==--
+--===============6146771868443910786==--
