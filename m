@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 14 Dec 2021 15:27:02 -0000
-Message-Id: <163949562220.26922.12401419155529404774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Dec 2021 15:28:08 -0000
+Message-Id: <163949568835.27292.17234726524926740924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/experimental-ztailpacking
-    old: 7189219558e9190cb807b0084233bafbd3fdd9de
-    new: 57811760f57307b6b22f3502d4d114e5c8d0052c
-    log: |
-         57811760f57307b6b22f3502d4d114e5c8d0052c erofs-utils: fuse: support tail-packing inline compressed data
-         
+  - ref: refs/tags/arm64-bti-cleanup-v4
+    old: 0000000000000000000000000000000000000000
+    new: c3331b365591969c9c7fa3f450c86c8ccc38a932
