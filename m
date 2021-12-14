@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4700996665720288536=="
+Content-Type: multipart/mixed; boundary="===============8024705945774333079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 14 Dec 2021 08:38:16 -0000
-Message-Id: <163947109683.3238.13777324899710975714@gitolite.kernel.org>
+Date: Tue, 14 Dec 2021 08:38:24 -0000
+Message-Id: <163947110477.3326.12026106053015545523@gitolite.kernel.org>
 
---===============4700996665720288536==
+--===============8024705945774333079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: d58071a8a76d779eedab38033ae4c821c30295a5
     new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
     log: revlist-d58071a8a76d-2585cf9dfaad.txt
 
---===============4700996665720288536==
+--===============8024705945774333079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -759,4 +759,4 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
 
---===============4700996665720288536==--
+--===============8024705945774333079==--
