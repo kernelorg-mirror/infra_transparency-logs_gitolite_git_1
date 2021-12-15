@@ -1,56 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============0566159108631137836=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Dec 2021 22:42:47 -0000
-Message-Id: <163960816743.22992.13299786616176033576@gitolite.kernel.org>
-
---===============0566159108631137836==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 15 Dec 2021 22:42:49 -0000
+Message-Id: <163960816915.23059.13497334299882492726@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/usb-linus
-    old: f886d4fbb7c97b8f5f447c92d2dab99c841803c0
-    new: 0ad3bd562bb91853b9f42bda145b5db6255aee90
+  - ref: refs/heads/arm64-for-5.17
+    old: 72cb4c48a46a7cfa58eb5842c0d3672ddd5bd9ad
+    new: bf0a257a9418ebcbe6ab2a73728f76969942e52a
     log: |
-         0ad3bd562bb91853b9f42bda145b5db6255aee90 USB: NO_LPM quirk Lenovo USB-C to Ethernet Adapher(RTL8153-04)
+         5188049c9b36d718124e2cce91803a26a34a0ad6 arm64: dts: qcom: Add base SM8450 DTSI
+         ec950d55728459248e78f5c70ab3e3c2f7c22e38 arm64: dts: qcom: sm8450: Add tlmm nodes
+         285f97bc4b017b013d273a69ba3ee12252990812 arm64: dts: qcom: sm8450: Add reserved memory nodes
+         892d5395396d5515c42e502810884225776b3b10 arm64: dts: qcom: sm8450: add smmu nodes
+         24de05c38e6bfe80fccc3b632c142accfaa7232d arm64: dts: qcom: Add base SM8450 QRD DTS
+         128914ad230354ab4af9c3b86fdce2147f467553 arm64: dts: qcom: sm8450-qrd: Add rpmh regulator nodes
+         07fa917a335e139a108e94085c6beac3098e3874 arm64: dts: qcom: sm8450: add ufs nodes
+         8f8f98c881686d21fc937f469d3a198f2f9bb9ba arm64: dts: qcom: sm8450-qrd: enable ufs nodes
+         61eba74e473ed4cd64ec17440092f4a98913cda3 arm64: dts: qcom: sm8450: Add rpmhpd node
+         015a89f0d317dce4d2174059155c2fc39db7cbc8 arm64: dts: qcom: sm8450: add cpufreq support
+         bf0a257a9418ebcbe6ab2a73728f76969942e52a arm64: dts: qcom: sm8450: add i2c13 and i2c14 device nodes
          
-
---===============0566159108631137836==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639608165 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639608165-3fb0f955907a75678b089e0330c92b6072055ec3
-
-f886d4fbb7c97b8f5f447c92d2dab99c841803c0 0ad3bd562bb91853b9f42bda145b5db6255aee90 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6b2UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lt8P+wQ9fsQkNjivGgIzYo3Q
-7T7VdhUFwaeghDA9eY/L4Vfpvv2yFkPFzFuGTMB/taJzv+uQ616VTMPi0TqAUR59
-mAtOJb4JLCvDnwcLF7aDs+srVZbslPxVMsjBZ5dzgEAPN18kWnvXbzU/26i6Q2tj
-MKQKKjftSvfuQ8ZLwyQKg7OC3npg6jq7g2GHKLACFeOIgdM0TNGZVnk2s569RcEc
-x3b1boo8b+HYGuoCoX2rZLfCiguHwPAcOznUtIlKmwzTouhAFZSPh30fY/mpyya9
-wxxZIoEr2a4He2c0x+L9jbLJ1E6Nnu3sOOUjsXjc6SBsL7DYWDnqBGMwvp8OWCEy
-oUA+Zw1dV1tehbLxF+t0x8hEmsdNWzpGb42kF9RXFWQMOJ5vIxLA271RpGHXgz8Y
-EOxTaZv1zaNlCvNZU+jR3+9+BaZ++7ZH+ZOkJOjzQN6srAttz1aqRyM02wuxd5Rw
-epEEG0ZIsAQy9vQ+6OAe1vJbdfYaWarklmsIHFO9ED1STDBFWAHIix3KOs9HvDq3
-+87mLsRfZwbwYazjf8poHDbgRwSuzC7wRxiboeYq0FwBJC+I+1qRhMG0xsBQqlfB
-EGsQb4osYiFPlNB0yv31ICduoRE2NEnF0tbJD/wdZeCSQj0NK7DBkbBYjF55eFO3
-iqKzxXfcWEImDypcZtsL/2bV
-=mJ2J
------END PGP SIGNATURE-----
-
---===============0566159108631137836==--
+  - ref: refs/heads/dts-for-5.17
+    old: ff8b573a6ccf4deba10285abef072c577099e038
+    new: ef5ad2608511596b8bd28f1e2b4fa8fadfd2f536
+    log: |
+         ef5ad2608511596b8bd28f1e2b4fa8fadfd2f536 ARM: dts: qcom: Drop input-name property
+         
