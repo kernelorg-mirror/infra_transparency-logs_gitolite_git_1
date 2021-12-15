@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4459961647934951319=="
+Content-Type: multipart/mixed; boundary="===============2911396414107462361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 15 Dec 2021 18:08:33 -0000
-Message-Id: <163959171332.11833.346020268174335019@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 18:08:43 -0000
+Message-Id: <163959172399.11980.2369378867425278822@gitolite.kernel.org>
 
---===============4459961647934951319==
+--===============2911396414107462361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: fe4c82a7e0f06abdf5a6978aa00457b63bd46680
-    new: 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a
-    log: revlist-fe4c82a7e0f0-3bc14ea0d12a.txt
+  - ref: refs/heads/mlx5-queue
+    old: abccb703b174fb369daf4def42978f5a0cf7c7e2
+    new: 3830658c5891e66e5db9be5b4fb527284246fb6a
+    log: revlist-abccb703b174-3830658c5891.txt
 
---===============4459961647934951319==
+--===============2911396414107462361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe4c82a7e0f0-3bc14ea0d12a.txt
+Content-Disposition: attachment; filename=revlist-abccb703b174-3830658c5891.txt
 
 8818b95409d8e68da3c2ec3e407b617d9294cf37 ice: Add package PTYPE enable information
 60f44fe4cde9c239c40fb5267126229c48f50e22 ice: refactor PTYPE validating
@@ -80,5 +80,28 @@ fb488be8c28de63c6298b74d2cc422cf8ae39716 selftests: mlxsw: vxlan: Remove IPv6 te
 ab8c83cf8734a4fcff3b359b23afd174cd43ec03 Merge branch 'mlxsw-ipv6-underlay'
 f1d9268e061863ead77b07f5a6807d063e28a1c2 net: add net device refcount tracker to struct packet_type
 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a ethtool: always write dev in ethnl_parse_header_dev_get
+7a72ca9302fa727a783ec6cb340724841e245899 net/mlx5: Remove the repeated declaration
+73280d1aa60193b1655d4be12ae15d8cb01e4385 net/mlx5: Introduce log_max_current_uc_list_wr_supported bit
+c090c3986fc1256c15002647602e93df4cca6e02 devlink: Add new "io_eq_size" generic device param
+c9ad02b5f8b9c8cd3aa5eba7dbcfee6f50fcdb68 net/mlx5: Let user configure io_eq_size param
+28f4b668ce955475bf405178ad36dbb4e04a439f devlink: Add new "event_eq_size" generic device param
+4541eb1627ee940b60d6e68c651b635ea37b5172 net/mlx5: Let user configure event_eq_size param
+3508b3043b0e54f31620f6a568ee00abb6a4f96f devlink: Clarifies max_macs generic devlink param
+4cd115f6a49ccd1c4a3a26698a5c11752c88f98b net/mlx5: Let user configure max_macs generic param
+bfa7c300a3e7840fd914d112a35d6a95cfb74e80 net/mlx5e: Use bitmap field for profile features
+7f41a7b5831e3a35051b4b4c21fcc8ef121e32de net/mlx5e: Add profile indications for PTP and QOS HTB features
+0b4d1aeccdb19ac40f8c030c387dde41aa78390c net/mlx5e: Save memory by using dynamic allocation in netdev priv
+592c3424fe64610db8ecfd150dcf46f1bc517d76 net/mlx5e: Allow profile-specific limitation on max num of channels
+79cb32c7f977ea551f128ed0e695cc3f34795703 net/mlx5e: Use dynamic per-channel allocations in stats
+b0579074d01d17931c49f4dae3c464585f63efe1 net/mlx5e: Allocate per-channel stats dynamically at first usage
+29045b2d51159370cc7b22e0e4f1e58635f032af net/sched: act_ct: Fill offloading tuple iifidx
+3b2201cf4fdc5cd87a078db75360c469bdc10fca net: openvswitch: Fill act ct extension
+8fbc56ea87bf846a994dfa27f81d02e8da768adb net/mlx5: CT: Set flow source hint from provided tuple device
+643ee0980a644e35dd4a685e8680e9cd21e0f446 net/mlx5: Separate FDB namespace
+13ae4370e1d29d0cbd7bf02fdfb55f734b806379 net/mlx5: Refactor mlx5_get_flow_namespace
+88cc5db18d495b4358b97cd21dd129acb488d359 net/mlx5: Create more priorities for FDB bypass namespace
+8a88fcecfe3f4867cba6200592e2d9dd94c8ebec RDMA/mlx5: Add support to multiple priorities for FDB rules
+9c6a60fefff6e6ce247078112bbcaee8b7dc86a3 Merge branch 'patchq/374716' into mlx5-queue
+3830658c5891e66e5db9be5b4fb527284246fb6a Merge branch 'patchq/449782' into mlx5-queue
 
---===============4459961647934951319==--
+--===============2911396414107462361==--
