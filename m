@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3899884836643426931=="
+Content-Type: multipart/mixed; boundary="===============4436216353495915020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 15 Dec 2021 13:59:30 -0000
-Message-Id: <163957677058.22863.12161186974016027232@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 14:01:45 -0000
+Message-Id: <163957690528.25171.1542220742796037290@gitolite.kernel.org>
 
---===============3899884836643426931==
+--===============4436216353495915020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,154 +16,162 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 898e55dcd30a9aa7adcc8437576512a238163b78
-    new: d633d64e1860c69f2595a31bf059798f90816d27
+    old: d633d64e1860c69f2595a31bf059798f90816d27
+    new: 49eec725d342c8b8f43f36c0c16929513ab65029
     log: |
-         aa73b6f6abd1d22e6641feadd95c72dac51cea77 nfc: fix segfault in nfc_genl_dump_devices_done
-         4d43b99aabed2b82f43cd9fb6899d5bcf8561580 drm/msm/dsi: set default num_data_lanes
-         9eb47efbbcbe19c5e96e3f0f0b72f25cafc3e295 net/mlx4_en: Update reported link modes for 1/10G
-         6f405b293573492955e18c6fbae8533309c7f318 parisc/agp: Annotate parisc agp init functions with __init
-         af5f46fbafd52c52811b3943b8bdc349902e61f8 i2c: rk3x: Handle a spurious start completion interrupt flag
-         a3bf9f568830b71d22ce761d44aa5080d550d9cb net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         9e8cae103e0d64de0649cdd5dd50e7170f890b63 tracing: Fix a kmemleak false positive in tracing_map
-         d633d64e1860c69f2595a31bf059798f90816d27 bpf: fix panic due to oob in bpf_prog_test_run_skb
+         63ef7712acc5187ebc56ab6899040c44d7fafbe8 nfc: fix segfault in nfc_genl_dump_devices_done
+         d2eb15ead48158ffa5e76a36b4418ddf1337b06e drm/msm/dsi: set default num_data_lanes
+         785bf89e68da917a1d5662c2593a85b70f69c60d net/mlx4_en: Update reported link modes for 1/10G
+         d52737b0671abff0869e785b7df92b9115a464b3 parisc/agp: Annotate parisc agp init functions with __init
+         e925a9477bbfb323f19ebba20b2f7736e1db0813 i2c: rk3x: Handle a spurious start completion interrupt flag
+         5146f6a09bee23b8a81f2ad10181b56866a8843c net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+         e8f60f63be35576239b9d1f2b9a04531234a9a57 tracing: Fix a kmemleak false positive in tracing_map
+         111c898b97067362d283c2b3629959af8645f18e bpf: fix panic due to oob in bpf_prog_test_run_skb
+         49eec725d342c8b8f43f36c0c16929513ab65029 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
          
   - ref: refs/heads/queue/4.19
-    old: 19d8bf01f27af373a3e25c8c7229e0f49259287c
-    new: b68003c0ed101a8bf20a99e802730590d11dabe1
+    old: b68003c0ed101a8bf20a99e802730590d11dabe1
+    new: 14f8af0d29a7a1810ea0e5fbf73199565d0ca13d
     log: |
-         2058ff4ebe65c87bc6170fd4ddc6ee04984b67dc stable: clamp SUBLEVEL in 4.19
-         7ba256ef3cd0a8162afba98b1cb7f7cdf659a783 nfc: fix segfault in nfc_genl_dump_devices_done
-         ba9afbc2dfbcd666585f9623c3856596e6f66567 drm/msm/dsi: set default num_data_lanes
-         8a8df410c34c49fa8ae3009f35a7dadb8d923096 net/mlx4_en: Update reported link modes for 1/10G
-         5afad2058caf4e0e31dcff7d5c19d7f7d11ba142 parisc/agp: Annotate parisc agp init functions with __init
-         95137c1bfdb41ff6df0a0fadf61e2ae916381848 i2c: rk3x: Handle a spurious start completion interrupt flag
-         5005143bd99e986c92f58cb8af1f80bd1e07fefc net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         b68003c0ed101a8bf20a99e802730590d11dabe1 tracing: Fix a kmemleak false positive in tracing_map
+         f84fcf887eb7fc77349d720a04e898550d177079 stable: clamp SUBLEVEL in 4.19
+         abdedaf61c8e709e51f78e902b95f7a631210c4d nfc: fix segfault in nfc_genl_dump_devices_done
+         ce64e7bd86ac2abd503ddba53559b29b048c6bd7 drm/msm/dsi: set default num_data_lanes
+         7dc3f5cf70c29c7cf289befd5ab19d2c9b28ed5f net/mlx4_en: Update reported link modes for 1/10G
+         55667868978b0edee5cddcc0bba26f97f2900fea parisc/agp: Annotate parisc agp init functions with __init
+         50630475cb150f4cad51274b59482ef7cf6f1b96 i2c: rk3x: Handle a spurious start completion interrupt flag
+         cbc955c8250f6a2e5f569a849853bba7de1c1d40 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+         76110dce0005b5d00effc57423e0d53b5b69555d tracing: Fix a kmemleak false positive in tracing_map
+         14f8af0d29a7a1810ea0e5fbf73199565d0ca13d hwmon: (dell-smm) Fix warning on /proc/i8k creation error
          
   - ref: refs/heads/queue/4.4
-    old: 76fd0a24e66a3ccb448303c3ed19005e4e7164ac
-    new: 1c6806b835c25dc32749e13a444756e64e88f614
+    old: 1c6806b835c25dc32749e13a444756e64e88f614
+    new: c0a9d9a22ff59d414064d0350912369fbaae88fd
     log: |
-         dc3ed16365e0f4af5f9743143fc76960c9b2524d nfc: fix segfault in nfc_genl_dump_devices_done
-         1b9c571392a05d6d7b917f97406050680e33536b parisc/agp: Annotate parisc agp init functions with __init
-         4ca6b4f0608d8307901d0e02f938bb28e4b48973 i2c: rk3x: Handle a spurious start completion interrupt flag
-         86a97621f40d7436c65f915df41f3786af470538 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         1c6806b835c25dc32749e13a444756e64e88f614 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+         aaafb2d18851985de01ae6a118bf490c02e17c43 nfc: fix segfault in nfc_genl_dump_devices_done
+         da1b84605c0ce4c5f55276bfc29a0ac22c94b066 parisc/agp: Annotate parisc agp init functions with __init
+         7699a796b2340b6d47e30f2dc3c28ebf078e1b31 i2c: rk3x: Handle a spurious start completion interrupt flag
+         f0d6cf225f3233b646ccf523f34eec2da9e6957e net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+         c0a9d9a22ff59d414064d0350912369fbaae88fd hwmon: (dell-smm) Fix warning on /proc/i8k creation error
          
   - ref: refs/heads/queue/4.9
-    old: fd2c3d6d2321dd1399b6abc5e29e9d24ba8f7b31
-    new: 16a765cc87ab6fd86bf8520e4ad3ea998896d537
+    old: 16a765cc87ab6fd86bf8520e4ad3ea998896d537
+    new: e2e2409a35c278e90c4995e76c3fbcf1db62e03e
     log: |
-         0c44dd0b67f8fc8e615df3fb597e2fe9f6b4969d nfc: fix segfault in nfc_genl_dump_devices_done
-         1cee23d20cf015652b0d7dcd35d483a43a862993 net/mlx4_en: Update reported link modes for 1/10G
-         134a0be5d869fef2e348aef82c7594e1a8953362 parisc/agp: Annotate parisc agp init functions with __init
-         ec8e99290c20885a2884c5e33ede8f8213db63d9 i2c: rk3x: Handle a spurious start completion interrupt flag
-         95e3f71a3d513f213cfd2d2b40f3c48473691f36 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         db00eb2479eee9293710803fec1faf6dcdd7e9f1 tracing: Fix a kmemleak false positive in tracing_map
-         16a765cc87ab6fd86bf8520e4ad3ea998896d537 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+         1b6f66884cff06de603b73529ed0f657de9ba119 nfc: fix segfault in nfc_genl_dump_devices_done
+         6be76e51037e58895cf82b55b292fe5019ac3295 net/mlx4_en: Update reported link modes for 1/10G
+         41f2100aa1469b3c5395bf9ac4518a714b985143 parisc/agp: Annotate parisc agp init functions with __init
+         10ac2691660e00659cddefda88b1d5c8d9676a86 i2c: rk3x: Handle a spurious start completion interrupt flag
+         d0a05e8f39c09987c8f0a5356bf9be13d899f69d net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+         96845c907a88f5a2fe46580124a4c7b8d369ca75 tracing: Fix a kmemleak false positive in tracing_map
+         e2e2409a35c278e90c4995e76c3fbcf1db62e03e hwmon: (dell-smm) Fix warning on /proc/i8k creation error
          
   - ref: refs/heads/queue/5.10
-    old: 465f38f0fc5e6e04bf8a5fe69d25c95e4088c41b
-    new: ebd77718166b6d1b659584bb51dfece1e52c678b
-    log: revlist-465f38f0fc5e-ebd77718166b.txt
+    old: ebd77718166b6d1b659584bb51dfece1e52c678b
+    new: 972793ab83a7a5dd6435bf98a4c32a35cce6de60
+    log: revlist-ebd77718166b-972793ab83a7.txt
   - ref: refs/heads/queue/5.15
-    old: 7578754e6489788974df9cad450746baf10803fe
-    new: d86cad57fcd0d9d2f52d99e8b50bd9685170341a
-    log: revlist-7578754e6489-d86cad57fcd0.txt
+    old: d86cad57fcd0d9d2f52d99e8b50bd9685170341a
+    new: fe350a9bfd59de918cc31fc9af9ba6537d2fb48d
+    log: revlist-d86cad57fcd0-fe350a9bfd59.txt
   - ref: refs/heads/queue/5.4
-    old: 9d10a84f5ac81307c01d4bef66a60c56a9ac27b7
-    new: 09d5020e8a8d3311259daae83263d945925b0fff
-    log: revlist-9d10a84f5ac8-09d5020e8a8d.txt
+    old: 09d5020e8a8d3311259daae83263d945925b0fff
+    new: 1c742be8cf15904a4861ca2f247825bb666823a3
+    log: revlist-09d5020e8a8d-1c742be8cf15.txt
 
---===============3899884836643426931==
+--===============4436216353495915020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-465f38f0fc5e-ebd77718166b.txt
+Content-Disposition: attachment; filename=revlist-ebd77718166b-972793ab83a7.txt
 
-3d67bfe7d2cc47bd19a859b94c3f0a944abb219c nfc: fix segfault in nfc_genl_dump_devices_done
-d0ac73aa21d68518bb0054c2d1bbdc902f9b9b08 drm/msm/dsi: set default num_data_lanes
-75c49f46fff6663e55ee81f33a24b5dcdd8166dd KVM: arm64: Save PSTATE early on exit
-2f615ec1b6956a34e770b562e17a137613e7c294 s390/test_unwind: use raw opcode instead of invalid instruction
-db3d823afc41d530d465cdb05577e3bf24db8078 Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
-f684fe57bc739078d700d86aafaa3116f2cc428f net/mlx4_en: Update reported link modes for 1/10G
-b07ad9799ed8142839321d2a4f08bcca19770721 ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
-11de2b4ef5823d772d57e88e37387fdb91555814 ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
-fc4a706068908f16e6d37f897573b9ddcccc5a64 parisc/agp: Annotate parisc agp init functions with __init
-c4a7ae52ca4bc40eb461eea7a8683337089a1a77 i2c: rk3x: Handle a spurious start completion interrupt flag
-ddceeccf52f11ddf18748a2eb2b0fa5d9f7c62c3 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-8e75f639e6910c61e97c26a0b64369875fafc034 drm/amd/display: Fix for the no Audio bug with Tiled Displays
-8457abbbfe29c2f9a748aa814edca304db9f4a6c drm/amd/display: add connector type check for CRC source set
-0fd1e8923dcc4dc41c088b7d75a63d00ddf87ce9 tracing: Fix a kmemleak false positive in tracing_map
-4d8dcf122a61b4c5a523cb0f9c0a2733c8bb984e KVM: x86: Ignore sparse banks size for an "all CPUs", non-sparse IPI req
-96fadca889ea3d65e23c25cae554b583ee11b37d staging: most: dim2: use device release method
-ebd77718166b6d1b659584bb51dfece1e52c678b bpf: Fix integer overflow in argument calculation for bpf_map_area_alloc
+b693c1d137c416ee8a59b412947ac822bef0c17e nfc: fix segfault in nfc_genl_dump_devices_done
+4ee7763cb12a2329ff8cbc480c5e77e850c7307d drm/msm/dsi: set default num_data_lanes
+df5572e2512a616c011dc3c44a36a0750874d762 KVM: arm64: Save PSTATE early on exit
+d345fd32a9b5735af539c66819b8f26a353979e6 s390/test_unwind: use raw opcode instead of invalid instruction
+9420d4bbc4e178289275a933d7710f39edde991d Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
+3e0e2fab15c141aab4ac79e6afe5a9348863411c net/mlx4_en: Update reported link modes for 1/10G
+7bb4e273cc702b93859a202545adca78922284e3 ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
+9c8c2c0b3d3ce7c242ff0a620ede5fbc22d2478c ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
+bea00f14cd5271a7992c47cbd88ddbf5d829303f parisc/agp: Annotate parisc agp init functions with __init
+18e0e8c9bc8155775935b26e16450e1a5e807223 i2c: rk3x: Handle a spurious start completion interrupt flag
+5ba1312bfae6de84b0a083759a17e4fdce8c5b3f net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+b2017a6a070d515a685ed9431a3faac3721d8d66 drm/amd/display: Fix for the no Audio bug with Tiled Displays
+ad3013d71adae45b30402c9c67826172a6bd6e8d drm/amd/display: add connector type check for CRC source set
+4ea2c4a6b8f4c8330053f9702bde07381f8129d4 tracing: Fix a kmemleak false positive in tracing_map
+c8706ed52a55ad639f355fa9cf9091bc9d5f7c7c KVM: x86: Ignore sparse banks size for an "all CPUs", non-sparse IPI req
+4f4148e3d98f123670621ff299e747a47c16f279 staging: most: dim2: use device release method
+dbd84a60bb33766334150c25f82cf75a6c32591d bpf: Fix integer overflow in argument calculation for bpf_map_area_alloc
+2c11756bad8b6bd963dfd542c1b59716601ec635 fuse: make sure reclaim doesn't write the inode
+f470f6c336eecdd0120923a48fbe98f1896dd6c3 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+972793ab83a7a5dd6435bf98a4c32a35cce6de60 ethtool: do not perform operations on net devices being unregistered
 
---===============3899884836643426931==
+--===============4436216353495915020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7578754e6489-d86cad57fcd0.txt
+Content-Disposition: attachment; filename=revlist-d86cad57fcd0-fe350a9bfd59.txt
 
-46c1f2d46a5ebfc80b4dc3a43aa2bca7ffa1b88c nfc: fix segfault in nfc_genl_dump_devices_done
-d1a51f57ba7e40ef6514944fbc7bc156c83625e1 hwmon: (corsair-psu) fix plain integer used as NULL pointer
-4d64ff01a06c3ee63ec647acd28b8369d18f9e78 RDMA: Fix use-after-free in rxe_queue_cleanup
-69d20bf758066b902f9f6304aaa5898ead5f2881 RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow
-c2131d4ce2620f5ba723343694345c508911a432 mtd: rawnand: Fix nand_erase_op delay
-de3610986fa3a33020754b81c1c83ab805284855 mtd: rawnand: Fix nand_choose_best_timings() on unsupported interface
-51d670bb765366743c4b82e2132d49722558516e inet: use #ifdef CONFIG_SOCK_RX_QUEUE_MAPPING consistently
-94e053682f23cc5b67ee6bb8570fae3d64021aa4 dt-bindings: media: nxp,imx7-mipi-csi2: Drop bad if/then schema
-16d8bab93a1030c988cee31b76f8a93a4fbb92e9 clk: qcom: sm6125-gcc: Swap ops of ice and apps on sdcc1
-2f39f791ed7c1ad87cf94150c648ec679823ce67 perf bpf_skel: Do not use typedef to avoid error on old clang
-7ac4ad15fda78bb398fbaee8992433e2d5f99986 netfs: Fix lockdep warning from taking sb_writers whilst holding mmap_lock
-1d2494e8c89e992c64148b1698b4cea8cdd7f2c4 RDMA/irdma: Fix a user-after-free in add_pble_prm
-561ea2d31f02cdee7bf43c01c6324d22d568a8ce RDMA/irdma: Fix a potential memory allocation issue in 'irdma_prm_add_pble_mem()'
-4d6d0e05960b5ce728b44b52e715da17bf54d45b RDMA/irdma: Report correct WC errors
-ab3008cababda0ed3b62a78dc636ef49c1d6ec09 RDMA/irdma: Don't arm the CQ more than two times if no CE for this CQ
-df571c0957c0e2fc0d4d0250cf764462d47f4fa9 ice: fix FDIR init missing when reset VF
-6efba359e38219a51e0abd41d72e574e51d7c978 vmxnet3: fix minimum vectors alloc issue
-f93608527bb40138866e8958db3a87723726d0f4 i2c: virtio: fix completion handling
-3a7bf3727b79531ad89057790901ab621795544e drm/msm: Fix null ptr access msm_ioctl_gem_submit()
-1f36b1dc7e71ee02ae1223a0c2e441d38e3081ba drm/msm/a6xx: Fix uinitialized use of gpu_scid
-ff8d1144c27ae14dde70d96999f23797bd3411a0 drm/msm/dsi: set default num_data_lanes
-3ba59a63e6d2834cdb0c427ccefd647f8aacf3df drm/msm/dp: Avoid unpowered AUX xfers that caused crashes
-fb1dfbfcfcc8f6f6527dcd5e3e72a31977e3edcd KVM: arm64: Save PSTATE early on exit
-2d83b7d263f2f59a30a3513a65508c7eb99fb901 s390/test_unwind: use raw opcode instead of invalid instruction
-47d08a3b039b89442ff0cde2080177bf0216c35d Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
-2ea985fb1d2362aa6f5bfc1ae04e838d4c4fc6dc net/mlx4_en: Update reported link modes for 1/10G
-8e6b73466e86f4c3508b4760dd08fa271c22b32f loop: Use pr_warn_once() for loop_control_remove() warning
-d1e2c2aac9cb77715379924750e830cf5bcb591a ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
-20dff56d510c967696b0eaa8c9f3bf406793f93c ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
-292e9809c83c755237a38028eb0d3e8ff724d807 parisc/agp: Annotate parisc agp init functions with __init
-1a6c0d57dda0f2dae8f1b37d4a89a39ddbf9c09d i2c: rk3x: Handle a spurious start completion interrupt flag
-1e37419cce99e49fd17298ec455de0ed5c47c16b net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-e2301303b8d5337da9e674ca8d509454b8ae714c drm/amdgpu: cancel the correct hrtimer on exit
-31e5153b37dda7ae36b61e153ab3c2e9ba5e9919 drm/amdgpu: check atomic flag to differeniate with legacy path
-5271ada6eae8486771745afddd9f344527282f67 drm/amd/display: Fix for the no Audio bug with Tiled Displays
-1a393260df6817ac84c33a5af539d1d257243068 drm/amdkfd: fix double free mem structure
-ab6daa36ab966b30109da943fb2831763556f1f2 drm/amd/display: add connector type check for CRC source set
-971623b446a299fa4b787b11ed894dd50fcf9f53 drm/amdkfd: process_info lock not needed for svm
-11e26320c11475051ac36a34aed83c4aded565ea tracing: Fix a kmemleak false positive in tracing_map
-d86cad57fcd0d9d2f52d99e8b50bd9685170341a staging: most: dim2: use device release method
+35d4460c23207eeadefc204a064fe28543e58c01 nfc: fix segfault in nfc_genl_dump_devices_done
+6f4592e23362c17801566175676d43355768b701 hwmon: (corsair-psu) fix plain integer used as NULL pointer
+6562c2c6811129bb5fd826da32eea8ff63682868 RDMA: Fix use-after-free in rxe_queue_cleanup
+d4bb6bfe28bcc18717cae902592f2b55dd4bc676 RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow
+de6efa661b701e3e3bd91f7f82358f9e61738e2e mtd: rawnand: Fix nand_erase_op delay
+2fc9e16301483915d7931b2718485883add110d9 mtd: rawnand: Fix nand_choose_best_timings() on unsupported interface
+01c05a5778ea501e9222ec47c5e4da76aece7c48 inet: use #ifdef CONFIG_SOCK_RX_QUEUE_MAPPING consistently
+cb1ffee0fee3d4292621538b2e9700ce88c3525b dt-bindings: media: nxp,imx7-mipi-csi2: Drop bad if/then schema
+cf9e98c32b92ff6914968000baa2f12e853b0ec4 clk: qcom: sm6125-gcc: Swap ops of ice and apps on sdcc1
+6628f1414bfcf657c7809fc38d707df81955c1b9 perf bpf_skel: Do not use typedef to avoid error on old clang
+b56db08ae76c2a7c08c1d41f0d31dd542911d234 netfs: Fix lockdep warning from taking sb_writers whilst holding mmap_lock
+853ae445a901134084253275d6f196741362e362 RDMA/irdma: Fix a user-after-free in add_pble_prm
+beaca557f7d6ac470d829ae80d6f79c1c4b098e6 RDMA/irdma: Fix a potential memory allocation issue in 'irdma_prm_add_pble_mem()'
+ebdf0e7760b1b95d25703e9348cc105ab313120a RDMA/irdma: Report correct WC errors
+37d577f15d84a001a0aa0fb5c309d8e219792dee RDMA/irdma: Don't arm the CQ more than two times if no CE for this CQ
+a190e5a36f41474ec095de6a4f744ca95d3b617e ice: fix FDIR init missing when reset VF
+374fb017341eb770a47aa93cc1d58374c29404ad vmxnet3: fix minimum vectors alloc issue
+2c1c8cd74c50c2f4bcca0b22ffb608495fa37c36 i2c: virtio: fix completion handling
+2a68597bbea6f9dea9db501c1081f55cd5cfdfeb drm/msm: Fix null ptr access msm_ioctl_gem_submit()
+a3d0a0911a94e45b7f186638b1998b2910197d85 drm/msm/a6xx: Fix uinitialized use of gpu_scid
+457776433180711f026278eb7881eec85294d9cf drm/msm/dsi: set default num_data_lanes
+682710c681e6d339292727e2258b47f8d34429b1 drm/msm/dp: Avoid unpowered AUX xfers that caused crashes
+2b768425fb8a18f51160c8e65cea8ee31d603ed6 KVM: arm64: Save PSTATE early on exit
+cd62962a05f5bd48c7637662917d16f79ec7fb27 s390/test_unwind: use raw opcode instead of invalid instruction
+bc0a7e900e6b8044ea536e2ceac2fe2b781c4469 Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
+bd6d8cb7991d03f313a8f1c5c1df27350b91b8d4 net/mlx4_en: Update reported link modes for 1/10G
+93d9447cf7a5d95d9be6913f4906909000cef541 loop: Use pr_warn_once() for loop_control_remove() warning
+8d174e4ff499c5c40a0c67a01a83072196eec9c3 ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
+f1f98783493dad5f4e3f8d359907b02157322445 ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
+f054579dbbd8e688ab22cde7d9c592c565d5bcdb parisc/agp: Annotate parisc agp init functions with __init
+45d9b32337c08d45c2f0fd3c575c8bcf15e23965 i2c: rk3x: Handle a spurious start completion interrupt flag
+05d62f8908597f78521d67e60d3baa5f12459d62 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+c62bccf6ee52167aa0607b2fca70bae8038a331d drm/amdgpu: cancel the correct hrtimer on exit
+1a3ab86ce7a79a0bfa7f943b740460556a32886e drm/amdgpu: check atomic flag to differeniate with legacy path
+4352de379e2d7aa76092cd6ad75d87236ba4a1dc drm/amd/display: Fix for the no Audio bug with Tiled Displays
+be0593e4f18aeff089b5e69d62ec7356485e9ea7 drm/amdkfd: fix double free mem structure
+a11bd20e347ede4d13ca49f1ea4c067ba45d0ab3 drm/amd/display: add connector type check for CRC source set
+5b67f1665429ecbc7a382ecda669f42edd1ba2cb drm/amdkfd: process_info lock not needed for svm
+425411e068531df0969d3b2b22064dd222901e53 tracing: Fix a kmemleak false positive in tracing_map
+7d5f8b145e88a5004c82d8d5630425b298cc2f68 staging: most: dim2: use device release method
+4887903d88c5bc6f3367c5122ef1a1d0b5924ab2 fuse: make sure reclaim doesn't write the inode
+fe350a9bfd59de918cc31fc9af9ba6537d2fb48d perf inject: Fix itrace space allowed for new attributes
 
---===============3899884836643426931==
+--===============4436216353495915020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d10a84f5ac8-09d5020e8a8d.txt
+Content-Disposition: attachment; filename=revlist-09d5020e8a8d-1c742be8cf15.txt
 
-ea2e2abb55023aa6514f19ad81e887a03db264c6 nfc: fix segfault in nfc_genl_dump_devices_done
-897966e3e74007d2ce1b4a814bc13b9d1801e41d drm/msm/dsi: set default num_data_lanes
-1e421778eaecbd9d628741c69d62dc452068a08a net/mlx4_en: Update reported link modes for 1/10G
-1333c0d7416b5487d2a4bd72f3065cec502419da parisc/agp: Annotate parisc agp init functions with __init
-20735907b6e26457dc3571fa52de26e0bd128efb i2c: rk3x: Handle a spurious start completion interrupt flag
-b3f41acd485a16acf8a076ba8f9e46fb41c8ee24 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-de32e331216f0fd87a8c3ede777e419a88c1c3ac drm/amd/display: Fix for the no Audio bug with Tiled Displays
-ef89ddff4def7f933382d335a7343e453af155a6 drm/amd/display: add connector type check for CRC source set
-4e5e2d56b5c66bd6826542adb8ff88549de20947 tracing: Fix a kmemleak false positive in tracing_map
-5e7988f94c29551c4c9a613266e0cb4aed307c3e KVM: x86: Ignore sparse banks size for an "all CPUs", non-sparse IPI req
-85dc07c9811be666bda1497fcbdd173ac6304e9b selinux: fix race condition when computing ocontext SIDs
-09d5020e8a8d3311259daae83263d945925b0fff bpf: Fix integer overflow in argument calculation for bpf_map_area_alloc
+fcbb6161a049d13c0f5b1bf282a8e433cb6fc3bd nfc: fix segfault in nfc_genl_dump_devices_done
+9c04a39f90da72859f127a48f4c01f9a73a3d53e drm/msm/dsi: set default num_data_lanes
+c3f1e263e17b7a40c9c330be661e9587196e7a03 net/mlx4_en: Update reported link modes for 1/10G
+3e1d25ab10da8042f648f8e41993d462745619a1 parisc/agp: Annotate parisc agp init functions with __init
+19b37488155c8cb0b68f438a00276c4a650797f3 i2c: rk3x: Handle a spurious start completion interrupt flag
+1102a28c526389bb8c8c0e11a45cfc0ebdba0b6b net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+105f70bc815b71370b82e187f91dfff55a03dae6 drm/amd/display: Fix for the no Audio bug with Tiled Displays
+c78e4528d1a02285f9d266a88deb0bf21000da3d drm/amd/display: add connector type check for CRC source set
+1c5449a5930417d39bff0227f7e913ea60eaea56 tracing: Fix a kmemleak false positive in tracing_map
+d9e8021ebe367f8a47eef2cc0239383c69d2613a KVM: x86: Ignore sparse banks size for an "all CPUs", non-sparse IPI req
+f4c6d1d3b5b9417b7dfd24745d81440228e4197c selinux: fix race condition when computing ocontext SIDs
+71d6b06026b9dcc0fd13be3a6de2a7b06e686bc4 bpf: Fix integer overflow in argument calculation for bpf_map_area_alloc
+1c742be8cf15904a4861ca2f247825bb666823a3 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
 
---===============3899884836643426931==--
+--===============4436216353495915020==--
