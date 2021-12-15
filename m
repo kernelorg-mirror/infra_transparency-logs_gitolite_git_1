@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0121149460142048281=="
+Content-Type: multipart/mixed; boundary="===============6040289135907149293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 15 Dec 2021 17:39:23 -0000
-Message-Id: <163958996308.25241.6508222397176773570@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 17:39:36 -0000
+Message-Id: <163958997654.25380.2370315600057762500@gitolite.kernel.org>
 
---===============0121149460142048281==
+--===============6040289135907149293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/for_next
-    old: f05f2429eec60851b98bdde213de31dab697c01b
-    new: 5f0a61886e30e128976e104a1f4d02b4a750b8aa
-    log: revlist-f05f2429eec6-5f0a61886e30.txt
+  - ref: refs/heads/fsnotify
+    old: 15c72660fe9a3fddb301ac90175860b14c63ff03
+    new: 8cc3b1ccd930fe6971e1527f0c4f1bdc8cb56026
+    log: revlist-15c72660fe9a-8cc3b1ccd930.txt
 
---===============0121149460142048281==
+--===============6040289135907149293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f05f2429eec6-5f0a61886e30.txt
+Content-Disposition: attachment; filename=revlist-15c72660fe9a-8cc3b1ccd930.txt
 
+ad44518affc66611644654cec9c165eb4e848030 Merge tag 'drm-fixes-2021-11-19' of git://anongit.freedesktop.org/drm/drm
 447916982455ef18dc648da03d1c012b630122c4 Merge tag 'gpio-fixes-for-v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 a8b5f8f26da878abc6c357f485d446391b43ed36 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 ecd510d2ff86953378c540182f14c8890b1f1225 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
@@ -1049,6 +1050,5 @@ e54183fa7047c15819bc155f4c58501d9a9a3489 fsnotify: generate FS_RENAME event with
 2bfbcccde6e7a787feabad4645f628f963fe0663 fanotify: record either old name new name or both for FAN_RENAME
 7326e382c21e9c23c89c88369afdc90b82a14da8 fanotify: report old and/or new parent+name in FAN_RENAME event
 8cc3b1ccd930fe6971e1527f0c4f1bdc8cb56026 fanotify: wire up FAN_RENAME event
-5f0a61886e30e128976e104a1f4d02b4a750b8aa Pull Amir's FAN_RENAME and FAN_REPORT_TARGET_FID support for fanotify.
 
---===============0121149460142048281==--
+--===============6040289135907149293==--
