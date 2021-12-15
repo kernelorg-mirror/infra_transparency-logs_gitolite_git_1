@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 15 Dec 2021 19:47:34 -0000
-Message-Id: <163959765415.9918.1399067465218804585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 15 Dec 2021 19:49:09 -0000
+Message-Id: <163959774991.11713.6460196327794788612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 0b175dbbddbef64f0c7193d1df288a9b05bef4a4
-    new: faf98e04275662fccafd0effa7d1afc32b8ce9ad
+  - ref: refs/heads/experimental
+    old: 4351adc288494cf757403319f8003afcb81167e9
+    new: 8e5e48f3145f32c80c885b084bffc91819f2acd0
     log: |
-         faf98e04275662fccafd0effa7d1afc32b8ce9ad Wed Dec 15 07:46:55 PM UTC 2021
+         a2b0ecbc53acc5f5e014c682e9a7f9837840861d erofs-utils: lib: add API to iterate dirs in EROFS
+         8e5e48f3145f32c80c885b084bffc91819f2acd0 erofs-utils: fsck: convert to use erofs_iterate_dir()
          
