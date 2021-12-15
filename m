@@ -1,104 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============8303504703837313967=="
+Content-Type: multipart/mixed; boundary="===============8954861765494599181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 15 Dec 2021 17:20:31 -0000
-Message-Id: <163958883110.23257.17661177902990217353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 15 Dec 2021 17:23:01 -0000
+Message-Id: <163958898188.24104.2280875580471763883@gitolite.kernel.org>
 
---===============8303504703837313967==
+--===============8954861765494599181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: b56a0adc937d080cf57bb2993111c0096d8b5ea5
-    new: 1388dadc57b7c1ac72c57901d99babdf578e5e73
-    log: revlist-b56a0adc937d-1388dadc57b7.txt
+  - ref: refs/heads/net-next-mlx5
+    old: dda8edb1e18ccacd332978526f6b12478a0c80d7
+    new: 4cd115f6a49ccd1c4a3a26698a5c11752c88f98b
+    log: revlist-dda8edb1e18c-4cd115f6a49c.txt
 
---===============8303504703837313967==
+--===============8954861765494599181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dda8edb1e18c-4cd115f6a49c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639588829 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1639588828-fee61c9def082657819578296d9e746a836caa75
+8818b95409d8e68da3c2ec3e407b617d9294cf37 ice: Add package PTYPE enable information
+60f44fe4cde9c239c40fb5267126229c48f50e22 ice: refactor PTYPE validating
+fabf480bf95d71c9cfe8a8d6307e0035df963a6a ice: Refactor promiscuous functions
+247dd97d713c73b16e87db238964625ffdbb8d02 ice: Refactor status flow for DDP load
+5f87ec4861aa1b8458da0dfd730abbd0bdb2f5f9 ice: Remove string printing for ice_status
+5e24d5984c805c644de8bf5217a820e22e28318c ice: Use int for ice_status
+d54699e27d506fcf6a27b336c5d8510d9701c86b ice: Remove enum ice_status
+5518ac2a64423f226e922b6719cf0eb62c31e141 ice: Cleanup after ice_status removal
+2ccc1c1ccc671b8bb33ad7845dcf6c75d3c892ae ice: Remove excess error variables
+c14846914ed6b575752417cf04bc145be15236c1 ice: Propagate error codes
+e53a80835f1ba0ef8d8d7c7a0c77e0d51786dcd8 ice: Remove unnecessary casts
+f8a3bcceb4224494ac4fa2b7e9428ac1bbdd6d52 ice: Remove unused ICE_FLOW_SEG_HDRS_L2_MASK
+8b40a9d53d4f1705899be0a1518368d770ea95cc ipv6: use GFP_ATOMIC in rt6_probe()
+1d2f3d3c62684b793339d0ae841ac67b555d8c8d mptcp: adjust to use netns refcount tracker
+123e495ecc25d32cf3e7958f794013236abdf0d4 net: linkwatch: be more careful about dev->linkwatch_dev_tracker
+9280ac2e6f199cddcd746a9ba459136b8666287b net: dev_replace_track() cleanup
+4db4c3ea56978086ca367a355e440de17d534827 net: dsa: hellcreek: Fix insertion of static FDB entries
+b7ade35eb53a2455f737a623c24e4b24455b2271 net: dsa: hellcreek: Add STP forwarding rule
+cad1798d2d0811ded37d1e946c6796102e58013b net: dsa: hellcreek: Allow PTP P2P measurements on blocked ports
+6cf01e451599da630ff1af529d61c5e4db4550ab net: dsa: hellcreek: Add missing PTP via UDP rules
+6cf7a1ac0fedad8a70c050ade8a27a2071638500 Merge branch 'net-dsa-hellcreek-fix-handling-of-mgmt-protocols'
+fad54790698023190f01a1b4d6406395e84464db net/mlx5e: Add tc action infrastructure
+67d62ee7f46bd5a4863e6adfd2b775fa6da02bf3 net/mlx5e: Add goto to tc action infra
+c65686d79c954d2a9f522a288c57d086e5406481 net/mlx5e: Add tunnel encap/decap to tc action infra
+9ca1bb2cf69b63b12d4d84c2ed4f99e99b72bf1a net/mlx5e: Add csum to tc action infra
+e36db1ee7a88f415f5fcd95158fbbbf0cae63532 net/mlx5e: Add pedit to tc action infra
+8ee72638347c81f8029d19ac93a797a6be6f3ae8 net/mlx5e: Add vlan push/pop/mangle to tc action infra
+163b766f566294bf7449bf4fb33ad4ae092dce03 net/mlx5e: Add mpls push/pop to tc action infra
+ab3f3d5efffaa26ae67c8c92524424b50df5cd13 net/mlx5e: Add mirred/redirect to tc action infra
+758bc13422774c4abad60cf28012d53af5dd932c net/mlx5e: Add ct to tc action infra
+3929ff583d8ebd9450c7f94fa5f81b9a1f102506 net/mlx5e: Add sample and ptype to tc_action infra
+922d69ed9666226e62824df118fb9fbd31739683 net/mlx5e: Add redirect ingress to tc action infra
+8333d53e3f74b66bbba2a8d81b00c9cbdf845220 net/mlx5e: TC action parsing loop
+6bcba1bdeda57cd36317f616253e387fb14e70ee net/mlx5e: Move sample attr allocation to tc_action sample parse op
+dd5ab6d115657a7f312893fdd40b3d187022b11d net/mlx5e: Add post_parse() op to tc action infrastructure
+c22080352ecfb1bbc024f36934457a4ac0c2f19c net/mlx5e: Move vlan action chunk into tc action vlan post parse op
+35bb5242148fa16fd5b2f28b508e0c031e90c672 net/mlx5e: Move goto action checks into tc_action goto post parse op
+34ac17ecbf575eb079094d44f1bd30c66897aa21 ethtool: use ethnl_parse_header_dev_put()
+3899c928bccc5068405cd0e9a3a8fea67b097e9e sun4i-emac.c: remove unnecessary branch
+843869951258f38dc3d9702a19df7c4c79911aee net: ocelot: add support to get port mac from device-tree
+0b6f65c707e5ec5e33916820e2a4a628e2b4576c net: fec: fix system hang during suspend/resume
+5a21bf5bb4243d0213758c0e5e6c5c5786842a94 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+f71f1bcbd87ff7274ac6fb5ace454178dc5246f6 Merge tag 'mlx5-updates-2021-12-14' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+e846efe2737b25a5c0a75b0995eb9ac084c87f5c mlxsw: spectrum: Add hash table for IPv6 address mapping
+cf42911523e02026cb56d329e584ae5923e94ba1 mlxsw: spectrum_ipip: Use common hash table for IPv6 address mapping
+720d683cbe8b14bbdb00ea65354a77a8e80a2844 mlxsw: spectrum_nve_vxlan: Make VxLAN flags check per address family
+1fd85416e3b5c9e53bf729c9d2a3922cdf3e3267 mlxsw: Split handling of FDB tunnel entries between address families
+4b08c3e676b1d8f3820287582ce66f96307c4863 mlxsw: reg: Add a function to fill IPv6 unicast FDB entries
+0860c764163448d4c64c1c6869d79f6e175df77a mlxsw: spectrum_nve: Keep track of IPv6 addresses used by FDB entries
+06c08f869c0eda8a466288b8ec32bc217d22a8fb mlxsw: Add support for VxLAN with IPv6 underlay
+fb488be8c28de63c6298b74d2cc422cf8ae39716 selftests: mlxsw: vxlan: Remove IPv6 test case
+ab8c83cf8734a4fcff3b359b23afd174cd43ec03 Merge branch 'mlxsw-ipv6-underlay'
+f1d9268e061863ead77b07f5a6807d063e28a1c2 net: add net device refcount tracker to struct packet_type
+3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a ethtool: always write dev in ethnl_parse_header_dev_get
+7a72ca9302fa727a783ec6cb340724841e245899 net/mlx5: Remove the repeated declaration
+73280d1aa60193b1655d4be12ae15d8cb01e4385 net/mlx5: Introduce log_max_current_uc_list_wr_supported bit
+c090c3986fc1256c15002647602e93df4cca6e02 devlink: Add new "io_eq_size" generic device param
+c9ad02b5f8b9c8cd3aa5eba7dbcfee6f50fcdb68 net/mlx5: Let user configure io_eq_size param
+28f4b668ce955475bf405178ad36dbb4e04a439f devlink: Add new "event_eq_size" generic device param
+4541eb1627ee940b60d6e68c651b635ea37b5172 net/mlx5: Let user configure event_eq_size param
+3508b3043b0e54f31620f6a568ee00abb6a4f96f devlink: Clarifies max_macs generic devlink param
+4cd115f6a49ccd1c4a3a26698a5c11752c88f98b net/mlx5: Let user configure max_macs generic param
 
-b56a0adc937d080cf57bb2993111c0096d8b5ea5 1388dadc57b7c1ac72c57901d99babdf578e5e73 refs/heads/linux-5.15.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6I90bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SYoP/j2Zac7zkGLoAMaRv53N
-6uSveCUlBt76G0LB4ArU+EjlwAbkeVWJKm/emYXMlmMF5WCe3aqmDCtnf5cxqEtA
-GxRPKfDR+nb8gTPhIYgbpsJPjLZaBbCxPpCsBw4xJdQ0s/zDeLIv1PaHDZGeGbEk
-o8g2z1l/1zqR61bXsau2GlTPFbKUxwr48pVWup13s12qEvsBl64Iafwyp2ho0WoB
-bfGOmCBmH1956yczNYTGnhQ87SqHGee/lx3VC9nMJfsqbrzMqvq+PWxBwY/dRXHd
-Js7ZV/NIb/UmF+nqg16kjRgyMbOrlXaak3/OAsaD4vi5tGJtLGVNMeBjDP9PW5c4
-e3ih+pYVWdz2NCxxcZkMhYXlDberS0LCmh7wBRYvSpV+eV567jy25SjhVLEftOVQ
-kf5KQadbzeIUFlB+d5cZS79iWDz8baGWgWTdA2oByp8uhghdt7JhjscYzXQFVn32
-Mmi8lfvoKhwkgmAM7R3M4BxEhMBLV82QVqxv5z0FSCOaCFg4N0GDOpAJzF13wD52
-A69Om8GJi1d++PplSgdIl8dRKieXHQOkfBSTOhdTIxywGzhDn80WSgqtXFG3L8qy
-xu80xQkljRoeg2gFCvuFLoJcxlCvJthp0l1bQXdghUcnY88lK3qLlEZr2WwkFrIh
-7mo/WKlwGmMNBijN9eBJPM5B
-=TIdu
------END PGP SIGNATURE-----
-
---===============8303504703837313967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b56a0adc937d-1388dadc57b7.txt
-
-4b2b2a63b7b8488908ef7b9a6c7f6b7e43d5c86c nfc: fix segfault in nfc_genl_dump_devices_done
-04b8266365a6369c45bcef237a447a5e31df2eeb hwmon: (corsair-psu) fix plain integer used as NULL pointer
-6e17e73c4cc0c287aa3fd09a9ca50f0dec3244de RDMA: Fix use-after-free in rxe_queue_cleanup
-a7a4c412c4569e7e0996aee3f42b9ada87d73cad RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow
-707caaf56f5335c4eb7a9ec3376586e64ff50171 mtd: rawnand: Fix nand_erase_op delay
-d24fd6fae14541f0022be6f1a38e0e4429ed869f mtd: rawnand: Fix nand_choose_best_timings() on unsupported interface
-d1095ac67cc28dd60662e3dfa371724704514e19 inet: use #ifdef CONFIG_SOCK_RX_QUEUE_MAPPING consistently
-17f8fa04c50f27f4400f9e05d5e52581a46f05ce dt-bindings: media: nxp,imx7-mipi-csi2: Drop bad if/then schema
-8c0145b06e10a9b3664b029049ad6e9571dbea44 clk: qcom: sm6125-gcc: Swap ops of ice and apps on sdcc1
-bdd7215c3d32042d0edc3a26dcb802c5a7b8d173 perf bpf_skel: Do not use typedef to avoid error on old clang
-92a478d94c42286df4ecc91e6fba5d705007d4cd netfs: Fix lockdep warning from taking sb_writers whilst holding mmap_lock
-5cb970d8a988dd283e6fc6f062c5a4b5a94b4c0c RDMA/irdma: Fix a user-after-free in add_pble_prm
-5d1e3379b232ce8b9e7328a354b2474f171e29a0 RDMA/irdma: Fix a potential memory allocation issue in 'irdma_prm_add_pble_mem()'
-1d2a493637723fb018bf2015957dbee8f4fb0286 RDMA/irdma: Report correct WC errors
-6e3fd244c60932c7cec02e65cc11f8c92010c7f4 RDMA/irdma: Don't arm the CQ more than two times if no CE for this CQ
-24fe5b344ad0209e6e214cce9bb8046028a37d72 ice: fix FDIR init missing when reset VF
-325a058e0a53086e70a8c535993dd9179a5f1e0b vmxnet3: fix minimum vectors alloc issue
-3eff58ce5b79801c02411f6efb5400982667d22c i2c: virtio: fix completion handling
-b5e69c89bb5fb10b2cd153a21def66451643c75f drm/msm: Fix null ptr access msm_ioctl_gem_submit()
-719932da3116d983995969e06c5c8b597eff631a drm/msm/a6xx: Fix uinitialized use of gpu_scid
-6872ed4369a201ea52ea7af2591cbaed3a57d43c drm/msm/dsi: set default num_data_lanes
-f44011e31237c85cb338eba96b0db12986968f11 drm/msm/dp: Avoid unpowered AUX xfers that caused crashes
-0e9548fa2f16616e8b74a3e6ff54c21f01de8693 KVM: arm64: Save PSTATE early on exit
-927c1d6f60afdf5563eeab18268f25702d13da4b s390/test_unwind: use raw opcode instead of invalid instruction
-578c91624daa5b492005582df09cb2ef170805df Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
-89ae3e29dc44c041e04002318259a52dea91c1b6 net/mlx4_en: Update reported link modes for 1/10G
-ba77acf386050e3f9aac0e308c55f084f83702d3 loop: Use pr_warn_once() for loop_control_remove() warning
-2fcccce837a07fbc878f9f107714e759ca1d7d3e ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
-810efb9f047af1ae44df79fb1f83ae7d20c7d3fd ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
-557124e9c8b8d8ac65f60750519900e212695910 parisc/agp: Annotate parisc agp init functions with __init
-c1dfa6cc4c177d60b6ad98b208cd55f84b183c06 i2c: rk3x: Handle a spurious start completion interrupt flag
-e094994b33a9040f56b2ab1bd3f808dec57e8947 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-6b7dd46308a8114f83769f26410cb6203413b174 drm/amdgpu: cancel the correct hrtimer on exit
-f565a404d6c6f291f81e6c0d46e8fff615321f3b drm/amdgpu: check atomic flag to differeniate with legacy path
-82942b75ea52a4d875cf8b184fbb53db0e428f86 drm/amd/display: Fix for the no Audio bug with Tiled Displays
-b7b1fb7585444129ebf9cd10991a3688d7d3b8ab drm/amdkfd: fix double free mem structure
-fa74eba683abf1658b6dff629f02890389050953 drm/amd/display: add connector type check for CRC source set
-9976b0bc77bd4ba31f65788544d0cf94950b0cfd drm/amdkfd: process_info lock not needed for svm
-c0ee70daa26d83339ed75128149e31b45c2dc9a8 tracing: Fix a kmemleak false positive in tracing_map
-b4821cca57c1fcb257c9980d47de75f55c1154c2 staging: most: dim2: use device release method
-25c8ae77cd5c369c508a53bfa2433240162444cb fuse: make sure reclaim doesn't write the inode
-c43e75587b823d81e01194a9ff6ef3c6e87b795c perf inject: Fix itrace space allowed for new attributes
-1388dadc57b7c1ac72c57901d99babdf578e5e73 Linux 5.15.9-rc1
-
---===============8303504703837313967==--
+--===============8954861765494599181==--
