@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 15 Dec 2021 21:36:32 -0000
-Message-Id: <163960419262.14050.8018096226460928283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 15 Dec 2021 21:37:04 -0000
+Message-Id: <163960422408.14275.8220966386925255024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/platform-drivers-x86-int3472
-    old: 0000000000000000000000000000000000000000
-    new: 97c2259ec7757ec24a90f0ef8fc5ea7fa1c6acca
+  - ref: refs/heads/dev
+    old: b254447fd343d3fed49fe45ce156a6db8c98e497
+    new: 52979a8e8b591cdceb61190f3eeebc2399828510
+    log: |
+         5823b224318d2a2136b87e9200373298a6144d35 rcu: Rework rcu_barrier() and callback-migration logic
+         406b702d9df9ee90121fc088f2a52cf95a892f05 rcu: Make rcu_barrier() no longer block CPU-hotplug operations
+         63529790d87a4879e8e94db3235ace74ea5404d1 rcu: Mark accesses to boost_starttime
+         de80005bff939395aff56b14f234f61277504847 rcu/exp: Fix check for idle context in rcu_exp_handler
+         7512661668d7f18b47a0a7eee6187fabf429ceef rcu/nocb: Handle concurrent nocb kthreads creation
+         a38ecdcbf03231ab9a5ecb56729a5881915a9786 rcu: Remove unused rcu_state.boost
+         52979a8e8b591cdceb61190f3eeebc2399828510 rcu: Mark ->expmask access in synchronize_rcu_expedited_wait()
+         
