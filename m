@@ -1,22 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============9007194796072753663=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 15 Dec 2021 02:02:58 -0000
-Message-Id: <163953377834.15535.16939709716524133587@gitolite.kernel.org>
-
---===============9007194796072753663==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 15 Dec 2021 02:03:18 -0000
+Message-Id: <163953379894.15693.18252172040145516766@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
+  - ref: refs/heads/for-linus
+    old: 7989f7cd1456cf67ddbb74656bf95b265b63b917
+    new: 10dc87a149246621c916f5df971e7f7bc75a8502
+    log: |
+         8deb34a90f06374fd26f722c2a79e15160f66be7 ASoC: rt5682: fix the wrong jack type detected
+         10dc87a149246621c916f5df971e7f7bc75a8502 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         
+  - ref: refs/heads/for-next
     old: 190357e1e09f271566e91fcd108c161f7e25a253
     new: 9e376b14ef3e0a78f3697d586cb6013c76e0f5f5
     log: |
@@ -30,29 +32,3 @@ changes:
          59716aa3f9764144cdd558c64f04cb83001b71ac ASoC: qdsp6: Fix an IS_ERR() vs NULL bug
          9e376b14ef3e0a78f3697d586cb6013c76e0f5f5 ASoC : soc-pcm: fix trigger race conditions with shared BE
          
-
---===============9007194796072753663==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1639533776 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1639533775-0fb958ba741ab87c00c7406dd845c27d4c4941aa
-
-190357e1e09f271566e91fcd108c161f7e25a253 9e376b14ef3e0a78f3697d586cb6013c76e0f5f5 refs/heads/asoc-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG5TNAACgkQJNaLcl1U
-h9AxFgf/cOn0TJGgqXNlIJMikIV8loxn0stTZqsxnOjKm+T/RLT6IZ3R9RqzpVdZ
-uYj6f27Wzyz+Mi0tjBamD4D4iy6LdJx36dFI68u/2Nriv2yCFnMHZY+jvbr02tN2
-rH5MSN5D7uV13HNYWVPmMVWPPiGEhDjbJSmjFkBHBQf86vAYf3jgYyrSCRZVVJU8
-ExdmbF4kXyapkAuO6oxYGZeHakjfNnc/q2s86LddtCx3wm0ir8FejEabRzAXRNER
-pdRPPxhxgvG7cxxf7TrBe1tKPlanhYwQwqdkZhVZzNnckeaKMmwOo5eUHMPWPmW9
-XEz8pQ0dwmdW1wH3XjMwWge1TCezjw==
-=lSXj
------END PGP SIGNATURE-----
-
---===============9007194796072753663==--
