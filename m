@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 15 Dec 2021 18:30:47 -0000
-Message-Id: <163959304734.27425.11171951541262541535@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6708768866830888075=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/procmail
+Date: Wed, 15 Dec 2021 18:31:49 -0000
+Message-Id: <163959310961.27777.17655966506179399983@gitolite.kernel.org>
+
+--===============6708768866830888075==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/infra/patchwork/procmail
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 2188b5ae602a261f9d37b4be5d257b423689448a
-    new: 4351adc288494cf757403319f8003afcb81167e9
+  - ref: refs/heads/master
+    old: 85c6093c80b9ddfdbe7709091b2a39f897c53ee3
+    new: 534b8325aa29eb6e76e7652e749ff73a56903645
     log: |
-         d065279ac9d4aae8b3d75aadb1ec5e2a1d59289f erofs-utils: lib: add API to iterate dirs in EROFS
-         4351adc288494cf757403319f8003afcb81167e9 erofs-utils: fsck: convert to use erofs_iterate_dir()
+         534b8325aa29eb6e76e7652e749ff73a56903645 Add drivers/ptp to netdev user delegation
          
+
+--===============6708768866830888075==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1639593109 -0500
+pushee gitolite.kernel.org:pub/scm/infra/patchwork/procmail
+nonce 1639593109-c9bb30c1b0ac6b9e20d679ae6d6a15b041c38912
+
+85c6093c80b9ddfdbe7709091b2a39f897c53ee3 534b8325aa29eb6e76e7652e749ff73a56903645 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYbo0lQAKCRC2xBzjVmSZ
+bCirAPwO944PMxflMFZrFFwQppRFplL9mrIRN2IUHqlwXN+TCgD/dVCBu+3fXQ1H
+jXsj6cjbSGf1115RvSOm7E7WfohebAk=
+=1CzR
+-----END PGP SIGNATURE-----
+
+--===============6708768866830888075==--
