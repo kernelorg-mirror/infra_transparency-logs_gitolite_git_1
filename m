@@ -1,27 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Dec 2021 02:58:44 -0000
-Message-Id: <163953712465.17905.8114355446485448193@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9183295930341091508=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 15 Dec 2021 03:16:45 -0000
+Message-Id: <163953820536.28772.14013530743548553154@gitolite.kernel.org>
+
+--===============9183295930341091508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fe4c82a7e0f06abdf5a6978aa00457b63bd46680
-    new: 6cf7a1ac0fedad8a70c050ade8a27a2071638500
+  - ref: refs/heads/for-5.16
+    old: 8deb34a90f06374fd26f722c2a79e15160f66be7
+    new: ee907afb0c39a41ee74b862882cfe12820c74b98
     log: |
-         8b40a9d53d4f1705899be0a1518368d770ea95cc ipv6: use GFP_ATOMIC in rt6_probe()
-         1d2f3d3c62684b793339d0ae841ac67b555d8c8d mptcp: adjust to use netns refcount tracker
-         123e495ecc25d32cf3e7958f794013236abdf0d4 net: linkwatch: be more careful about dev->linkwatch_dev_tracker
-         9280ac2e6f199cddcd746a9ba459136b8666287b net: dev_replace_track() cleanup
-         4db4c3ea56978086ca367a355e440de17d534827 net: dsa: hellcreek: Fix insertion of static FDB entries
-         b7ade35eb53a2455f737a623c24e4b24455b2271 net: dsa: hellcreek: Add STP forwarding rule
-         cad1798d2d0811ded37d1e946c6796102e58013b net: dsa: hellcreek: Allow PTP P2P measurements on blocked ports
-         6cf01e451599da630ff1af529d61c5e4db4550ab net: dsa: hellcreek: Add missing PTP via UDP rules
-         6cf7a1ac0fedad8a70c050ade8a27a2071638500 Merge branch 'net-dsa-hellcreek-fix-handling-of-mgmt-protocols'
+         80d5be1a057e05f01d66e986cfd34d71845e5190 ASoC: tas2770: Fix setting of high sample rates
+         1bcd326631dc4faa3322d60b4fc45e8b3747993e ASoC: meson: aiu: fifo: Add missing dma_coerce_mask_and_coherent()
+         ee907afb0c39a41ee74b862882cfe12820c74b98 ASoC: meson: aiu: Move AIU_I2S_MISC hold setting to aiu-fifo-i2s
          
+
+--===============9183295930341091508==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1639538203 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1639538203-da62c859b974269c4b3d5f60670738048f3ee31d
+
+8deb34a90f06374fd26f722c2a79e15160f66be7 ee907afb0c39a41ee74b862882cfe12820c74b98 refs/heads/for-5.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG5XhsACgkQJNaLcl1U
+h9DbjAf/RLeLYdI/wr/BkFD7rW1RruFN2TKHFwK+FQvuuvfbLGQ2OnEXPpvWHdyp
+h8KRJHwqoQDh3bQ/3c0+oXPnmM+/5AbpUE1jM98aJLulJzGpayEhx1MB0p8ztSFV
+oKvdwUX6hyN5qQ/wp/HoWIsohlYEeFGLMCPxhBmLS2ySfNVZSIdrDjWM39cDZ+n/
+gZaiPBDV95z+jcy67lk4KjpLuhQuX0LqFkebSldrtAat/GlV08fNFu1ni160Ahab
+UqkBk0X6SJjyPOY1twyGPxatjPPQrgXB/Sfc8lkUoI0aAzfNh6Xl+dIogmSdJbSY
+e008takR3L0eduBVlZaZgXOP437V+w==
+=mSp5
+-----END PGP SIGNATURE-----
+
+--===============9183295930341091508==--
