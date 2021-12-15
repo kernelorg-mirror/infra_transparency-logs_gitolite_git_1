@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 15 Dec 2021 21:13:58 -0000
-Message-Id: <163960283882.31431.17319285583469156867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 15 Dec 2021 21:35:04 -0000
+Message-Id: <163960410420.13040.14523833054005505538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/kvm-arm64/selftest/ipa
-    old: 48cf416e85aa4cb975ba00ef32e93734cc24f570
-    new: 6f93308c5635406692bed840eb97524acbc53169
+  - ref: refs/heads/pci/misc
+    old: 4121485d271bd730537f613ce041e7ea659606a7
+    new: fb82437fdd8cd8ac41b1265e40a96668e33c3a8d
     log: |
-         930f0a85a6f7ca5daaf6792bfc98203892c5eebf KVM: selftests: Initialise default mode in each test
-         3dd9a2b30fed8b1467d14b03519cffea9d9b9d73 KVM: selftests: Introduce a variable default IPA size for arm64
-         6f93308c5635406692bed840eb97524acbc53169 KVM: selftests: Add support for VM_MODE_P36V48_4K on arm64
+         fb82437fdd8cd8ac41b1265e40a96668e33c3a8d PCI: Change capability register offsets to hex
          
