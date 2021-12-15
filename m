@@ -1,52 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8132666440053644514=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 15 Dec 2021 03:16:51 -0000
-Message-Id: <163953821175.28861.8359461652234712679@gitolite.kernel.org>
-
---===============8132666440053644514==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 15 Dec 2021 03:36:38 -0000
+Message-Id: <163953939897.9544.79453964137500504@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/asoc-5.16
-    old: 8deb34a90f06374fd26f722c2a79e15160f66be7
-    new: ee907afb0c39a41ee74b862882cfe12820c74b98
+  - ref: refs/heads/master
+    old: f7abc4c8df8c7930d0b9c56d9abee9a1fca635e9
+    new: e523102cb719cbad1673b6aa2a4d5c1fa6f13799
     log: |
-         80d5be1a057e05f01d66e986cfd34d71845e5190 ASoC: tas2770: Fix setting of high sample rates
-         1bcd326631dc4faa3322d60b4fc45e8b3747993e ASoC: meson: aiu: fifo: Add missing dma_coerce_mask_and_coherent()
-         ee907afb0c39a41ee74b862882cfe12820c74b98 ASoC: meson: aiu: Move AIU_I2S_MISC hold setting to aiu-fifo-i2s
+         7d3baf0afa3aa9102d6a521a8e4c41888bb79882 bpf: Fix kernel address leakage in atomic fetch
+         180486b430f4e22cc00a478163d942804baae4b5 bpf, selftests: Add test case for atomic fetch on spilled pointer
+         a82fe085f344ef20b452cd5f481010ff96b5c4cd bpf: Fix kernel address leakage in atomic cmpxchg's r0 aux reg
+         e523102cb719cbad1673b6aa2a4d5c1fa6f13799 bpf, selftests: Update test case for atomic cmpxchg on r0 with pointer
          
-
---===============8132666440053644514==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1639538210 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1639538209-80667bce20585ea5b48c6199ca88fcb32f734129
-
-8deb34a90f06374fd26f722c2a79e15160f66be7 ee907afb0c39a41ee74b862882cfe12820c74b98 refs/heads/asoc-5.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG5XiIACgkQJNaLcl1U
-h9DMWQf7BWF5BoCgM19iH5rAeoWXizpJhgGMeeNQEf5RwTwmKKS5zVaszxRnLGu6
-wLN0QIb+8nS/ikWFr/D8NItWX31oyfwsL9349YwG7to88IUGSsDjMHrPiJxlGJgs
-JoAeL4EHeva5PF03WtfWI0Iwm9pWBNyODIQqrxyk4b+ezz+Hs8B40FJNQDQgyhWL
-ffuJUJBWI8o8/PZl7ayUV0baXrk3CvAsLccqgW22/fMwnmf9nsvcBcA8WIkvXgaj
-CDiTipCYcgiddpmE9pULvf4p+pODZlMiHvhR+UZnPJcG8Mjx6Iib70A0vOSioGUL
-5Q7x8v7F/EV6UJe6Ir0B2U1r21lZbA==
-=qbnE
------END PGP SIGNATURE-----
-
---===============8132666440053644514==--
