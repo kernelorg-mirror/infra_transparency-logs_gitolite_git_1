@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Dec 2021 15:09:36 -0000
-Message-Id: <163958097653.2884.17105324214035263262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 15 Dec 2021 15:13:38 -0000
+Message-Id: <163958121855.5465.11582234026952179218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: f1d9268e061863ead77b07f5a6807d063e28a1c2
-    new: 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a
+  - ref: refs/heads/irq/msi
+    old: 09eb3ad55fef8d62edb74d5fe3a6720b6b467463
+    new: 91f7d2dbf952f54442fa81bb62f78ee023179bf9
     log: |
-         3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a ethtool: always write dev in ethnl_parse_header_dev_get
+         91f7d2dbf952f54442fa81bb62f78ee023179bf9 x86/xen: Use correct #ifdef guard for xen_initdom_restore_msi()
          
