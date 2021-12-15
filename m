@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1839354673494441809=="
+Content-Type: multipart/mixed; boundary="===============8303504703837313967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 15 Dec 2021 17:20:28 -0000
-Message-Id: <163958882893.23147.17734156775296634239@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 17:20:31 -0000
+Message-Id: <163958883110.23257.17661177902990217353@gitolite.kernel.org>
 
---===============1839354673494441809==
+--===============8303504703837313967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,89 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 8b1037b4ab98f1e45314e4712246ce717c678be4
-    new: fb04daaadf03a67265eaa54966f45e30b83f1049
-    log: revlist-8b1037b4ab98-fb04daaadf03.txt
+  - ref: refs/heads/linux-5.15.y
+    old: b56a0adc937d080cf57bb2993111c0096d8b5ea5
+    new: 1388dadc57b7c1ac72c57901d99babdf578e5e73
+    log: revlist-b56a0adc937d-1388dadc57b7.txt
 
---===============1839354673494441809==
+--===============8303504703837313967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639588827 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639588829 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1639588826-3fe45ad359b3a3aef61ebe368be9324702950858
+nonce 1639588828-fee61c9def082657819578296d9e746a836caa75
 
-8b1037b4ab98f1e45314e4712246ce717c678be4 fb04daaadf03a67265eaa54966f45e30b83f1049 refs/heads/linux-5.10.y
+b56a0adc937d080cf57bb2993111c0096d8b5ea5 1388dadc57b7c1ac72c57901d99babdf578e5e73 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6I9sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SzkP/0LufBRxuk4TyfqVsDCE
-zV2rZX5O1vE1GLgokgyy6LpSHEpGVd4uwR54LbiP/yfRquKY4d4a1R6Wln70Hs0M
-dTqwAJNyP4M9YbxSa/2fP7rf1Qt0vKaMpyVxjMDio+N0ODrFfCpSc34s7u+zhck2
-n3ROV8Db5qwsEBzhQYO5UDmOquEOxJo+NYB9IEaMPQU6jhjBR3oLQV7uW4/rQS0K
-VD1y+UABbhKOYpaE7p5mSPaSBFIKROjeqY7xZ7zetH4RQTtItZ0Hay2OontZnec5
-2+ShkB6Y5F8UMwvmLuZKGmyjVDv5arXXrZQ33/0U+dS3IZ8mvctGnMRntQmj6P0A
-NurK7xrQi6B8G1l3XXPj4duVoyMAqCF/czz8J7+o4zCUcyvz2LUkNjYiLwX5S+5r
-U8o0obqVJOU2BHnAG6gQJKxuvPrpcReEXydcwws7i6kwJO0TOC4SO3T0h+dDgZIY
-IZ7UPMU6cyIFeRAK+CdT5VoGNhpe2fKxuJOG4p5Ya7ygtcA4ND0143pglDXlx9sT
-Ig/k6KKBe6zQh7QTaRaIcpd2bE/cgL338A2ipfSY4fMGELKlS879XwgfVcoGnC0p
-nPKgaa7FBMjg616By48FXpKrvrUQTHgULnKrEebkktm7R/mtw+PNM3nt3WUfDvII
-r1IbbzWZ3amvmx/W0FA+rFMK
-=dyZI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6I90bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SYoP/j2Zac7zkGLoAMaRv53N
+6uSveCUlBt76G0LB4ArU+EjlwAbkeVWJKm/emYXMlmMF5WCe3aqmDCtnf5cxqEtA
+GxRPKfDR+nb8gTPhIYgbpsJPjLZaBbCxPpCsBw4xJdQ0s/zDeLIv1PaHDZGeGbEk
+o8g2z1l/1zqR61bXsau2GlTPFbKUxwr48pVWup13s12qEvsBl64Iafwyp2ho0WoB
+bfGOmCBmH1956yczNYTGnhQ87SqHGee/lx3VC9nMJfsqbrzMqvq+PWxBwY/dRXHd
+Js7ZV/NIb/UmF+nqg16kjRgyMbOrlXaak3/OAsaD4vi5tGJtLGVNMeBjDP9PW5c4
+e3ih+pYVWdz2NCxxcZkMhYXlDberS0LCmh7wBRYvSpV+eV567jy25SjhVLEftOVQ
+kf5KQadbzeIUFlB+d5cZS79iWDz8baGWgWTdA2oByp8uhghdt7JhjscYzXQFVn32
+Mmi8lfvoKhwkgmAM7R3M4BxEhMBLV82QVqxv5z0FSCOaCFg4N0GDOpAJzF13wD52
+A69Om8GJi1d++PplSgdIl8dRKieXHQOkfBSTOhdTIxywGzhDn80WSgqtXFG3L8qy
+xu80xQkljRoeg2gFCvuFLoJcxlCvJthp0l1bQXdghUcnY88lK3qLlEZr2WwkFrIh
+7mo/WKlwGmMNBijN9eBJPM5B
+=TIdu
 -----END PGP SIGNATURE-----
 
---===============1839354673494441809==
+--===============8303504703837313967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b1037b4ab98-fb04daaadf03.txt
+Content-Disposition: attachment; filename=revlist-b56a0adc937d-1388dadc57b7.txt
 
-7d2938863b8167b56fb657e8eb29f8c3e4016d67 nfc: fix segfault in nfc_genl_dump_devices_done
-f692395e84ed1673bf2d76ab7304c92c71dbd000 drm/msm/dsi: set default num_data_lanes
-a6985333cb344bd48210379f198991fd0b79c1c9 KVM: arm64: Save PSTATE early on exit
-4abc9fa44b1133c29d053fb2ba7a8c33f2a3953f s390/test_unwind: use raw opcode instead of invalid instruction
-c97a97be591cf2db2941390bb22ec29f4b411397 Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
-563bd900a764d12b9260965200cf06740fc56cb2 net/mlx4_en: Update reported link modes for 1/10G
-83f7729152e1c5045db7572ea1c127134460ba3f ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
-ed38f4a57387692d636a24b638b4b7a8f46fdcb3 ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
-b877c212f8afffcb2d553c1c376ab013f92c22ac parisc/agp: Annotate parisc agp init functions with __init
-9e9451d94a1d5d3592da14b244408319f83c86b5 i2c: rk3x: Handle a spurious start completion interrupt flag
-370ca696f4d7785ebf52ddf8ab2375a2d3d45037 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-9c05ab000c372731ef59ecb320d200235e2d880b drm/amd/display: Fix for the no Audio bug with Tiled Displays
-cda1370ac6af1e422322cd1ace6d918a29444877 drm/amd/display: add connector type check for CRC source set
-1caf96d1e7a6f367bfb4dad186b3e2cfcdcc3ab9 tracing: Fix a kmemleak false positive in tracing_map
-8509f6cb4b273b09acfdd19321ded56cbd85ba66 KVM: x86: Ignore sparse banks size for an "all CPUs", non-sparse IPI req
-540da18e3db8b46168198df44f6f365826be85ec staging: most: dim2: use device release method
-a321f8aef1bcc6df4020b9844a62d3dc49d7630f bpf: Fix integer overflow in argument calculation for bpf_map_area_alloc
-7c93c94f4513ec0433a79248e50e8a46ba93cddd fuse: make sure reclaim doesn't write the inode
-1882c92b82dd1b0900e7fac975fe932be7c9f622 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-0e399d427173e5605c542dc9f93cea699d5ad647 ethtool: do not perform operations on net devices being unregistered
-95aa8fbbc78b2f1073fefdb7b50f50025558afe7 perf inject: Fix itrace space allowed for new attributes
-38d04f3be62a717e313c86599d3dd238fc23c393 perf intel-pt: Fix some PGE (packet generation enable/control flow packets) usage
-a5758ae19ff9ea5c71fd7290b65975083cb62e24 perf intel-pt: Fix sync state when a PSB (synchronization) packet is found
-e18b6f782e6905a4dbd353f75577cce374412f2a perf intel-pt: Fix intel_pt_fup_event() assumptions about setting state type
-2a1eb53179d7fd4136d9cfe57f206ca55b354205 perf intel-pt: Fix state setting when receiving overflow (OVF) packet
-4d25cd86a45a027cba9df8efeab4335eff38d760 perf intel-pt: Fix next 'err' value, walking trace
-29dd28db400dff04572336670afc69f3cb3d4132 perf intel-pt: Fix missing 'instruction' events with 'q' option
-b1f90192ad20464d16847b131c92044861d8866a perf intel-pt: Fix error timestamp setting on the decoder error path
-1898cc245b7669655d672db946b24cf5ea63ef2d memblock: free_unused_memmap: use pageblock units instead of MAX_ORDER
-5f6a2737eb1fd6982dace136fd51a113e22961b4 memblock: align freed memory map on pageblock boundaries with SPARSEMEM
-7b47f75bb45e7f59601d4e8a2585ee76b5fda65a memblock: ensure there is no overflow in memblock_overlaps_region()
-6c534f184600146d17635f886a44a073fd6c42f6 arm: extend pfn_valid to take into account freed memory map alignment
-a04a2e0ed27c1ae03df279e8a3e5855133096715 arm: ioremap: don't abuse pfn_valid() to check if pfn is in RAM
-fb04daaadf03a67265eaa54966f45e30b83f1049 Linux 5.10.86-rc1
+4b2b2a63b7b8488908ef7b9a6c7f6b7e43d5c86c nfc: fix segfault in nfc_genl_dump_devices_done
+04b8266365a6369c45bcef237a447a5e31df2eeb hwmon: (corsair-psu) fix plain integer used as NULL pointer
+6e17e73c4cc0c287aa3fd09a9ca50f0dec3244de RDMA: Fix use-after-free in rxe_queue_cleanup
+a7a4c412c4569e7e0996aee3f42b9ada87d73cad RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow
+707caaf56f5335c4eb7a9ec3376586e64ff50171 mtd: rawnand: Fix nand_erase_op delay
+d24fd6fae14541f0022be6f1a38e0e4429ed869f mtd: rawnand: Fix nand_choose_best_timings() on unsupported interface
+d1095ac67cc28dd60662e3dfa371724704514e19 inet: use #ifdef CONFIG_SOCK_RX_QUEUE_MAPPING consistently
+17f8fa04c50f27f4400f9e05d5e52581a46f05ce dt-bindings: media: nxp,imx7-mipi-csi2: Drop bad if/then schema
+8c0145b06e10a9b3664b029049ad6e9571dbea44 clk: qcom: sm6125-gcc: Swap ops of ice and apps on sdcc1
+bdd7215c3d32042d0edc3a26dcb802c5a7b8d173 perf bpf_skel: Do not use typedef to avoid error on old clang
+92a478d94c42286df4ecc91e6fba5d705007d4cd netfs: Fix lockdep warning from taking sb_writers whilst holding mmap_lock
+5cb970d8a988dd283e6fc6f062c5a4b5a94b4c0c RDMA/irdma: Fix a user-after-free in add_pble_prm
+5d1e3379b232ce8b9e7328a354b2474f171e29a0 RDMA/irdma: Fix a potential memory allocation issue in 'irdma_prm_add_pble_mem()'
+1d2a493637723fb018bf2015957dbee8f4fb0286 RDMA/irdma: Report correct WC errors
+6e3fd244c60932c7cec02e65cc11f8c92010c7f4 RDMA/irdma: Don't arm the CQ more than two times if no CE for this CQ
+24fe5b344ad0209e6e214cce9bb8046028a37d72 ice: fix FDIR init missing when reset VF
+325a058e0a53086e70a8c535993dd9179a5f1e0b vmxnet3: fix minimum vectors alloc issue
+3eff58ce5b79801c02411f6efb5400982667d22c i2c: virtio: fix completion handling
+b5e69c89bb5fb10b2cd153a21def66451643c75f drm/msm: Fix null ptr access msm_ioctl_gem_submit()
+719932da3116d983995969e06c5c8b597eff631a drm/msm/a6xx: Fix uinitialized use of gpu_scid
+6872ed4369a201ea52ea7af2591cbaed3a57d43c drm/msm/dsi: set default num_data_lanes
+f44011e31237c85cb338eba96b0db12986968f11 drm/msm/dp: Avoid unpowered AUX xfers that caused crashes
+0e9548fa2f16616e8b74a3e6ff54c21f01de8693 KVM: arm64: Save PSTATE early on exit
+927c1d6f60afdf5563eeab18268f25702d13da4b s390/test_unwind: use raw opcode instead of invalid instruction
+578c91624daa5b492005582df09cb2ef170805df Revert "tty: serial: fsl_lpuart: drop earlycon entry for i.MX8QXP"
+89ae3e29dc44c041e04002318259a52dea91c1b6 net/mlx4_en: Update reported link modes for 1/10G
+ba77acf386050e3f9aac0e308c55f084f83702d3 loop: Use pr_warn_once() for loop_control_remove() warning
+2fcccce837a07fbc878f9f107714e759ca1d7d3e ALSA: hda: Add Intel DG2 PCI ID and HDMI codec vid
+810efb9f047af1ae44df79fb1f83ae7d20c7d3fd ALSA: hda/hdmi: fix HDA codec entry table order for ADL-P
+557124e9c8b8d8ac65f60750519900e212695910 parisc/agp: Annotate parisc agp init functions with __init
+c1dfa6cc4c177d60b6ad98b208cd55f84b183c06 i2c: rk3x: Handle a spurious start completion interrupt flag
+e094994b33a9040f56b2ab1bd3f808dec57e8947 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+6b7dd46308a8114f83769f26410cb6203413b174 drm/amdgpu: cancel the correct hrtimer on exit
+f565a404d6c6f291f81e6c0d46e8fff615321f3b drm/amdgpu: check atomic flag to differeniate with legacy path
+82942b75ea52a4d875cf8b184fbb53db0e428f86 drm/amd/display: Fix for the no Audio bug with Tiled Displays
+b7b1fb7585444129ebf9cd10991a3688d7d3b8ab drm/amdkfd: fix double free mem structure
+fa74eba683abf1658b6dff629f02890389050953 drm/amd/display: add connector type check for CRC source set
+9976b0bc77bd4ba31f65788544d0cf94950b0cfd drm/amdkfd: process_info lock not needed for svm
+c0ee70daa26d83339ed75128149e31b45c2dc9a8 tracing: Fix a kmemleak false positive in tracing_map
+b4821cca57c1fcb257c9980d47de75f55c1154c2 staging: most: dim2: use device release method
+25c8ae77cd5c369c508a53bfa2433240162444cb fuse: make sure reclaim doesn't write the inode
+c43e75587b823d81e01194a9ff6ef3c6e87b795c perf inject: Fix itrace space allowed for new attributes
+1388dadc57b7c1ac72c57901d99babdf578e5e73 Linux 5.15.9-rc1
 
---===============1839354673494441809==--
+--===============8303504703837313967==--
