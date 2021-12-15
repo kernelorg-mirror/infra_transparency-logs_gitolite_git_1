@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 15 Dec 2021 17:52:51 -0000
-Message-Id: <163959077140.2728.3079855149007124020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 15 Dec 2021 17:55:04 -0000
+Message-Id: <163959090475.4676.121037610833318249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/dev
-    old: 461aa9e31a368be5d28ff538fcd26a042cdf927a
-    new: b254447fd343d3fed49fe45ce156a6db8c98e497
+  - ref: refs/heads/master
+    old: 385dd2d469b7092da1093891b76240a8c99ccace
+    new: 5e6f604046860d3e40a408e7261e42b7fc28caf3
     log: |
-         b254447fd343d3fed49fe45ce156a6db8c98e497 squash! rcu: Rework rcu_barrier() and callback-migration logic
+         124b04fff6a0c959c8f423e6675bcfc2eb4d9426 dpp-util: add dpp status and attribute types
+         07274f57c9caaa4b36cf8a64b5abda65f9a6013a crypto: allow NULL 'ad' to aes_siv_decrypt
+         5e6f604046860d3e40a408e7261e42b7fc28caf3 offchannel: always call destroy right away on cancel
          
