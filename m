@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7019537529416422749=="
+Content-Type: multipart/mixed; boundary="===============7452850870598886307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Dec 2021 22:45:52 -0000
-Message-Id: <163960835262.25706.12082076568858129152@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 22:49:03 -0000
+Message-Id: <163960854354.27929.18078909930805607236@gitolite.kernel.org>
 
---===============7019537529416422749==
+--===============7452850870598886307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 0ad3bd562bb91853b9f42bda145b5db6255aee90
-    new: ca4d8344a72b91fb9d4c8bfbc22204b4c09c5d8f
+  - ref: refs/heads/usb-testing
+    old: cdf8e2de16c01b2b44fc544a3b5de74d8092b517
+    new: f59f93cd1d720809466c7fd5aa16a236156c672b
     log: |
-         4c4e162d9cf38528c4f13df09d5755cbc06f6c77 usb: cdnsp: Fix lack of spin_lock_irqsave/spin_lock_restore
-         ca4d8344a72b91fb9d4c8bfbc22204b4c09c5d8f usb: typec: tcpm: fix tcpm unregister port but leave a pending timer
+         856d3624489a4906b8a95de7bb8311ca6e25b3b9 usb: dwc2: platform: adopt dev_err_probe() to silent probe defer
+         a5b5b45fce2bed5560159095b4777afb18590740 dt-bindings: usb: dwc3-xilinx: Convert USB DWC3 bindings
+         a1f79504ceb3ffcd2b777e5ac84c97a0948c2dbd usb: host: xen-hcd: add missing unlock in error path
+         f59f93cd1d720809466c7fd5aa16a236156c672b usb: hub: avoid warm port reset during USB3 disconnect
          
 
---===============7019537529416422749==
+--===============7452850870598886307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639608350 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639608541 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639608349-7a1d879a2b7a3da42dc28de969aab07271d0eeca
+nonce 1639608540-f57a7e46512695080db8aac1c1d096598540ef38
 
-0ad3bd562bb91853b9f42bda145b5db6255aee90 ca4d8344a72b91fb9d4c8bfbc22204b4c09c5d8f refs/heads/usb-linus
+cdf8e2de16c01b2b44fc544a3b5de74d8092b517 f59f93cd1d720809466c7fd5aa16a236156c672b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6cB4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Sv8P/0XYH0Ysl6iIdeZmflnM
-YJeAR35Uo8dBdPC5eD5FY9QBtPfnp5qgXF2+g41dNqKCSxaVInKEtm0zoj/T1y9A
-u1K42QUDIpEMCm5cgL5DrNRwK7k2hxz499SuiVt4orlQyhot5Pt2a9bVl4ARWAg5
-NuBx6vC/OZCt6VMn+Xsd+LVcXtPXkBmtl+MiwfP5zen3olL3wKTQMK0b6tlMrv9t
-SYJLiFipZQFN3JtmXjxVmt2eJDYtil/OsN884o11zrAasayoNFNL5SdW0nU7IRXd
-Lz+P+KlJPETQtcMLyrQB3HRCX0f4Ap0cUPk9EjTJMCN0G7qUkLRJEkHP1x2GV639
-hGKBct/ZWrs1+962pNIBW5M1LowGjcCcMcQOA2PFmNgiCdI3jfEQXqhqD+LrKbbQ
-C5yk5hQO5FA3wCxYsx4vTiKyjf4dROtlG6dJ/nu/dRo+/OUZeioTx0vnIC5L41wj
-hsfjJYy6z7kJ8eI9dvbG2YzsAGZqNSNZKDB3WsUhQDeM7b51Bhswn/EdB8FzFI5P
-mZ2SOKpeaBVD/ZaYwou1mrWapveze7dLn3N8j9T1OK8JbIyoM1q1zOhwZmGSY2VH
-gsuOi38stKMHZf2w39qLB5ZqCx7tOhCUb8PNfFO0WIelaZUA+diOqyOammvbv1Hi
-ELs45fnSdvrrqueVg2BLZxTM
-=OQ7s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG6cN0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p+cQAM+NorCqRORd+Ij+O3Mp
+uK5ANcVsivm4d1IvYA3M1uaySlSZxVAR0DbYgS9weesXzdBe96rcMNn3aC5c/yK2
+0yYxXB1z3TAQgD69+qjkQVDhltJmFPH5d5y5wa7y/4fWAx1kRTK9Pp3+0tmg456o
+5v7btrGNqto6YS17xriDJEHYnnXS0JUCuRNGyZQzBjEkT708kLC07OK6oMUJ2B7L
+6tLhAkZTrZbzVJKlf01uuqfXAaJXDF4fcZ5yGObKZ8G2zYs3JYRkK3AeeBoQRRQF
+fEK+ultGA5roypP3ajvC5e2f6r1ZLhsazpx27MvSAp+TIruNc8Eb0KepuiOJcKi0
+yVlE5vovaoRIWqePhH5Ftok7sk9ZLl9MyKNUNVyGmtUTYxqDDuClVeexgNv0WF2R
+muLihjWgr0zk3JNWYb8EiRGW6Z0MsAbdzEGRLAdKHYN0A8mRFGlexp2ARs6UXrx1
+1Av8a2TX1MDy1PLklcQJOZkbGFimkArbxMaELS7AA6el9jOAZDLznS+L7DrEvcXh
+lo+91RU1jMpdSxxQtMmGdF2Kz1V9Q3isHxRFeQs0ik97z/uNZXmOAj+8pYKJORvG
+rIb95+Bg9w4HmTi+sG7x49Gc5VumqxGQLCNIXyYd4s4ytmU3JeiOKklkn+W+w2aC
+SBKIOqj9/ZvSFlDnR/ClDCtq
+=/Wjf
 -----END PGP SIGNATURE-----
 
---===============7019537529416422749==--
+--===============7452850870598886307==--
