@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 15 Dec 2021 16:50:11 -0000
-Message-Id: <163958701166.3631.14680405229347692007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 15 Dec 2021 17:07:56 -0000
+Message-Id: <163958807617.13245.4688431394908591467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/dev
-    old: 3d5921eba3cec0ec60bf088334bd61ab2b75a80a
-    new: 51cc6632a237f56c93dc7d3dc3d6fc1d26e1a73e
-    log: |
-         51cc6632a237f56c93dc7d3dc3d6fc1d26e1a73e erofs-utils: lib: mark some compressor parameters as const
-         
+  - ref: refs/heads/fs.binfmt_misc.debug
+    old: 0000000000000000000000000000000000000000
+    new: c6325d51f9d51cedf11937217bd89a33cf09c2bd
