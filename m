@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 15 Dec 2021 19:49:09 -0000
-Message-Id: <163959774991.11713.6460196327794788612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 15 Dec 2021 19:56:33 -0000
+Message-Id: <163959819333.16832.2798226684368169739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/experimental
-    old: 4351adc288494cf757403319f8003afcb81167e9
-    new: 8e5e48f3145f32c80c885b084bffc91819f2acd0
+  - ref: refs/heads/kvm-arm64/selftest/ipa
+    old: 960497b7ce762f0b55518fc700397879bfdc6e5d
+    new: a252c1727a734fd2e7136a55bd0b79ec2bfbb242
     log: |
-         a2b0ecbc53acc5f5e014c682e9a7f9837840861d erofs-utils: lib: add API to iterate dirs in EROFS
-         8e5e48f3145f32c80c885b084bffc91819f2acd0 erofs-utils: fsck: convert to use erofs_iterate_dir()
+         5ada2297eb012aac8915f1ae678a57b7aea1f652 KVM: selftests: arm64: Initialise default modes
+         7aa304ad628e20534de76f64309535203de83b71 KVM: selftests: Introduce a variable default IPA size for arm64
+         a252c1727a734fd2e7136a55bd0b79ec2bfbb242 KVM: selftests: Add support for VM_MODE_P36V48_4K on arm64
          
