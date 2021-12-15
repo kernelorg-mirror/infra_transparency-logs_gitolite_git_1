@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 15 Dec 2021 04:56:55 -0000
-Message-Id: <163954421549.28424.1530682980066396589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Wed, 15 Dec 2021 05:19:40 -0000
+Message-Id: <163954558090.9523.1576353609685317512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 4854285e8cc1f7922c1a5913366e2795e2a7bfae
-    new: dda8edb1e18ccacd332978526f6b12478a0c80d7
+  - ref: refs/heads/icc-next
+    old: 4a5cf65d003c0a77228cc301caad12ef1c518a9b
+    new: 01f8938ad036e97802551ea3746fbc5fdc091de6
     log: |
-         6fca0e333d8540116e44d8fd856695d762c3a938 net/mlx5: Introduce log_max_current_uc_list_wr_supported bit
-         4a710d3c943214d0abb3b785a48615ce5ff75b03 devlink: Add new "io_eq_size" generic device param
-         0b1213fb671b64ff72c483d9cf8a604c7a05c277 net/mlx5: Let user configure io_eq_size param
-         185c010fdd5cf1e3c7726b5c2467596e057443e7 devlink: Add new "event_eq_size" generic device param
-         bf7d762781e430cd3862a61211297fdbec91c4a4 net/mlx5: Let user configure event_eq_size param
-         808da4dd4051483511e4aa8c46ca287a6f0000fe devlink: Clarifies max_macs generic devlink param
-         dda8edb1e18ccacd332978526f6b12478a0c80d7 net/mlx5: Let user configure max_macs generic param
+         e9d54c26344f8e5390c643613ec192858104eca2 interconnect: icc-rpm: Define ICC device type
+         08c590409f303d61461b8fcaa9083438e4300448 interconnect: icc-rpm: Add QNOC type QoS support
+         e39bf2972c6e82eb7c51a78ca990d839aafeb124 interconnect: icc-rpm: Support child NoC device probe
+         061dbde2bf3b12d80a4efd4b40db0b272e55b7f5 dt-bindings: interconnect: Add Qualcomm QCM2290 NoC support
+         1a14b1ac3935788de75ea3b0ef68b46375070f77 interconnect: qcom: Add QCM2290 driver support
+         01f8938ad036e97802551ea3746fbc5fdc091de6 Merge branch 'icc-qcm2290' into icc-next
          
