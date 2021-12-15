@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8265308413513721571=="
+Content-Type: multipart/mixed; boundary="===============3737309754270311033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 15 Dec 2021 15:23:06 -0000
-Message-Id: <163958178640.12667.2912614223320323166@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 15:29:41 -0000
+Message-Id: <163958218176.15969.10565551225413122140@gitolite.kernel.org>
 
---===============8265308413513721571==
+--===============3737309754270311033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,93 +16,83 @@ repo: pub/scm/linux/kernel/git/dhowells/linux-fs
 user: dhowells
 changes:
   - ref: refs/heads/fscache-rewrite
-    old: 01559e66bc57e3b50358dbe8f35359198477ba0a
-    new: a41102077cdd65a364e852cab63d455e74b4be0b
-    log: revlist-01559e66bc57-a41102077cdd.txt
-  - ref: refs/remotes/linus/master
-    old: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    new: 5472f14a37421d1bca3dddf33cabd3bd6dbefbbc
-    log: |
-         ff9f9c6e74848170fcb45c8403c80d661484c8c9 vduse: fix memory corruption in vduse_dev_ioctl()
-         3ed21c1451a14d139e1ceb18f2fa70865ce3195a vdpa: check that offsets are within bounds
-         dc1db0060c02d119fd4196924eff2d1129e9a442 vduse: check that offset is within bounds in get_config()
-         27d9839f17940e8edc475df616bbd9cf7ede8d05 virtio: always enter drivers/virtio/
-         817fc978b5a29b039db0418a91072b31c9aab152 virtio_ring: Fix querying of maximum DMA mapping size for virtio device
-         1db8f5fc2e5c66a5c51e1f6488e0ba7d45c29ae4 virtio/vsock: fix the transport to work with VMADDR_CID_ANY
-         bb47620be322c5e9e372536cb6b54e17b3a00258 vdpa: Consider device id larger than 31
-         e386dfc56f837da66d00a078e5314bc8382fab83 fget: clarify and improve __fget_files() implementation
-         aa50faff4416c869b52dff68a937c84d29e12f4b PCI: mt7621: Convert driver into 'bool'
-         5472f14a37421d1bca3dddf33cabd3bd6dbefbbc Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-         
+    old: a41102077cdd65a364e852cab63d455e74b4be0b
+    new: 2b67826bf7fc2b883286359a78cdb5b66745c607
+    log: revlist-a41102077cdd-2b67826bf7fc.txt
 
---===============8265308413513721571==
+--===============3737309754270311033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01559e66bc57-a41102077cdd.txt
+Content-Disposition: attachment; filename=revlist-a41102077cdd-2b67826bf7fc.txt
 
-19077dfb5d1da8eb60b046dc071585bd7b045536 fscache: Introduce new driver
-66e59fce5ad27ec31d174ab5639c00800967201a fscache: Implement a hash function
-699fd384fd8028e705d2f43da70ed1d784abc8eb fscache: Implement cache registration
-f31608d463c335ec14fb19cc04a480884423c431 fscache: Implement volume registration
-ff240bb4ac6da4875b3f0ad059b978a8bbb24a0d fscache: Implement cookie registration
-ae5caf2d4f9137cd0d7d99b81e906f595561c3f7 fscache: Implement cache-level access helpers
-7d9b25a38c26810e3358ab236b22ed75792d9421 fscache: Implement volume-level access helpers
-861fd3117b285a4df93a5ec410fcbe2056a3ef38 fscache: Implement cookie-level access helpers
-8a12a79554464c02f6ff1373499711aa157d7e45 fscache: Implement functions add/remove a cache
-bb4820ab100a783d590dda87a0b52e7efd984356 fscache: Provide and use cache methods to lookup/create/free a volume
-892b3f224b9cac04bdc80f6061341744ca119311 fscache: Add a function for a cache backend to note an I/O error
-4bd20c54457dc769587c33eeb09acae4a3ec60b8 fscache: Implement simple cookie state machine
-9dd0e7fb23679d5466ea6cf8d12ec6ee5e99d1c0 fscache: Implement cookie user counting and resource pinning
-3db66e41c25a1a8b484833c53e0bbb060af5df49 fscache: Implement cookie invalidation
-f25380d0d16a9cf6866aa2f5efe1059ac36c6b16 fscache: Provide a means to begin an operation
-c06958baa0956bdf2e663c05c85246064a716c95 fscache: Count data storage objects in a cache
-65192c8917f0666efd3a79791ba74da55811facd fscache: Provide read/write stat counters for the cache
-6a584d92c5bcc98eb72c461a2ca4639d17589a4b fscache: Provide a function to let the netfs update its coherency data
-cc4a49d8bc499117ca4358b3bb78d29d2ef22b8f netfs: Pass more information on how to deal with a hole in the cache
-57bb6d222050d34d4c15b39289aa632463cb2372 fscache: Implement raw I/O interface
-e64fa96ba16228c7d663f6db9d8f892290ecc066 fscache: Implement higher-level write I/O interface
-77d86ad60695c528d762e8a8131871c30d7915e4 vfs, fscache: Implement pinning of cache usage for writeback
-4e69070120c178eae315ef42ee2bb60c11748211 fscache: Provide a function to note the release of a page
-991af59a29dad92594ace6c36efc987f643f7001 fscache: Provide a function to resize a cookie
-d7aeb6d71da956e39383b39edd47ce9bf216c421 cachefiles: Introduce rewritten driver
-e2a82a9e3a7e897e6b1f3878540dacc6942dea88 cachefiles: Define structs
-88ab04854c49a23355c64fe733a0c9066fb5c19d cachefiles: Add some error injection support
-61a6837a08b8ad9901a0c722dea6a973833a2a36 cachefiles: Add a couple of tracepoints for logging errors
-abff60de7f3af5c38ba29c508487329e8bf52e4e cachefiles: Add cache error reporting macro
-5dda932d8516c1c534d26cab643b902f22501fdb cachefiles: Add security derivation
-48e0c455cb3a7b716c15bba7b20237ea5d32bf0b cachefiles: Register a miscdev and parse commands over it
-c2c11a72dd87c0d86c096d672eed29c61bd48d75 cachefiles: Provide a function to check how much space there is
-cf94775049768a1133bdd9896bea451d94955d88 vfs, cachefiles: Mark a backing file in use with an inode flag
-f9db3ad8a52454f04f9c230232ccc74ee67a3ba9 cachefiles: Implement a function to get/create a directory in the cache
-6e049196e7e69669ac06a518462c754a8e056dd4 cachefiles: Implement cache registration and withdrawal
-137947f678dfcdb049a9500c5b491468397d769f cachefiles: Implement volume support
-f757247f9fb2d23506c9e835cc64cadff8da4b7e cachefiles: Add tracepoints for calls to the VFS
-339a22df8444a57b2208ce0f70a3b987e1a70091 cachefiles: Implement object lifecycle funcs
-94dcac7548b408302aa4f119610ba42bb3a2c867 cachefiles: Implement key to filename encoding
-eba0010047d8e27051fe9cbf48d4a2fb88dcce22 cachefiles: Implement metadata/coherency data storage in xattrs
-fbe2116f8040fdb33b9ba29f428e31f8850c40c4 cachefiles: Mark a backing file in use with an inode flag
-08e03b496404cda952c1feb07af2cac9fe6b6863 cachefiles: Implement culling daemon commands
-ad584b8c832a3caa73354f3edcf48b519168c732 cachefiles: Implement backing file wrangling
-4f6cb893787f67bc4ba27e7c32ff1d6b145b4c14 cachefiles: Implement begin and end I/O operation
-20be40782ad7ce714ecfbbade7d3114f736d6301 cachefiles: Implement cookie resize for truncate
-13ad0fe1337e0e89025609234121e04ca05b0319 cachefiles: Implement the I/O routines
-2413606e390df64f08a0fa1ac2778006d95e8dba fscache, cachefiles: Store the volume coherency data
-5f58557b9952f21ce540c701542ffb3c470bd601 cachefiles: Allow cachefiles to actually function
-6bc0d86ff9e14cfa312b8c89ca0c81561fc85218 fscache, cachefiles: Display stats of no-space events
-aad564c4e0cd4b2870e8f3281cf4d5c63ff45b20 fscache, cachefiles: Display stat of culling events
-5d3d44228df432914818daee4b54981be5903ab3 afs: Handle len being extending over page end in write_begin/write_end
-b1918f31ffad03499104034342570f538ec60eba afs: Fix afs_write_end() to handle len > page size
-03b7da1d8ec186499aad02de18a6d4567d58a0df afs: Convert afs to use the new fscache API
-b40229f3ecfe1ebdd7bdc1e435e0e503fc59264a afs: Copy local writes to the cache when writing to the server
-d3419f92fd4af3e9a0a39ca61c9bf5db359b989e afs: Skip truncation on the server of data we haven't written yet
-6ca2b3dd0cb5570aff63cc8ad4d17b8650c34922 9p: Use fscache indexing rewrite and reenable caching
-97c6335f41286d22ab5fbaef9b8f4c4b078ec5f3 9p: Copy local writes to the cache when writing to the server
-d205edfa8353c48837a6b3100ba327400fe597a4 nfs: Convert to new fscache volume/cookie API
-5a958c6c7f86e69ceb8dce969fb21704f88d31f9 nfs: Implement cache I/O by accessing the cache directly
-04813396bfb006743ca05063f7b6a91b0bd65763 cifs: Support fscache indexing rewrite (untested)
-d155ab9e40aaacb80b55dd32ab326ee34e55bb92 ceph: conversion to new fscache API
-d41bb01b7890d7c12707986fcf240a65f2f91e8b ceph: add fscache writeback support
-a41102077cdd65a364e852cab63d455e74b4be0b fscache: Rewrite documentation
+4487cae0b0ce52cb51ce477ac4983f340a5cab21 fscache, cachefiles: Disable configuration
+ea7123a7957a618e43544fa5697e867864d91aaa cachefiles: Delete the cachefiles driver pending rewrite
+7b328dfc96b4f5753aa5ddf1440985977be82bff fscache: Remove the contents of the fscache driver, pending rewrite
+1d06aa9b1d6ae3d9be683030a4d742ff656655a6 netfs: Display the netfs inode number in the netfs_read tracepoint
+974504265ebb32e6b532267af0856a7de9ae06ad netfs: Pass a flag to ->prepare_write() to say if there's no alloc'd space
+422813a264292389589db9a9e2b5d16121b65cea fscache: Introduce new driver
+803c8ebd6707743816875aaa0ba5ff6a46760ae0 fscache: Implement a hash function
+c65be0b60c510d86ec161b0594be8428344afd2e fscache: Implement cache registration
+9a1e500281574481ec4300c310c9fc3c8bff8532 fscache: Implement volume registration
+b3b6e9dcdc6106ac67387ae0752f0d968d870b8c fscache: Implement cookie registration
+64aea9975d08eefbc4294ee8b5a7350e823b6d79 fscache: Implement cache-level access helpers
+2eaa8fd1d138b6b77bc0b0acbc5c4482e6b8cba9 fscache: Implement volume-level access helpers
+918fcdad97048c9c6ff693d038e22b5ad537bffc fscache: Implement cookie-level access helpers
+16a3198cc22495e4f8740e341c835c6f4e75ab6b fscache: Implement functions add/remove a cache
+8134f4bf8784cda70cf12096629530a6bf22afb8 fscache: Provide and use cache methods to lookup/create/free a volume
+582c8183dfeda7f9fbf437765fc1253d520617f7 fscache: Add a function for a cache backend to note an I/O error
+63f528bd59d45ae26dd413a76c0fa56e3d24181b fscache: Implement simple cookie state machine
+836c14ae7261b5ded60eae89161ec970b0e8c434 fscache: Implement cookie user counting and resource pinning
+6ad228b33b958a7af50e9c68d7c1067c57edee2b fscache: Implement cookie invalidation
+265200a4911d1dd4c7c730ad8ab693bf48a1c993 fscache: Provide a means to begin an operation
+460c2cfb781e62e2deff0ae8ea95af3b58aea322 fscache: Count data storage objects in a cache
+5344639458499bd72ffa46836d4ad8e058380b76 fscache: Provide read/write stat counters for the cache
+07e96d93265964803c851e1d3a73159f71c38772 fscache: Provide a function to let the netfs update its coherency data
+0e601816fa41e00fb2daba123c005196aace49f8 netfs: Pass more information on how to deal with a hole in the cache
+4c1ab43465fec53f9eae2bff53f44a4a3138986c fscache: Implement raw I/O interface
+00b3829fb2789a0748f5c84cda7aa8299b8e6056 fscache: Implement higher-level write I/O interface
+5efd5a9f9c97a992100195b7dcbadc3cd5a62dc3 vfs, fscache: Implement pinning of cache usage for writeback
+9ec96dff2e0fafee59043eb04e2b0a88b5836acc fscache: Provide a function to note the release of a page
+2574627339ecb238143aa223e48a29ba2a7617b1 fscache: Provide a function to resize a cookie
+471ce070dc007811982b78494a1a827936d2cbbc cachefiles: Introduce rewritten driver
+c74e422f69c19dd4c8a6576de9585894c6ce0d97 cachefiles: Define structs
+1d235f5f296fb78d649197024a8c8ecaa192b346 cachefiles: Add some error injection support
+fbbe6f12d07c1b22ff3ccf246189c582d94069a3 cachefiles: Add a couple of tracepoints for logging errors
+4c671ba57092a3c5f49ba86b346b888e684dd433 cachefiles: Add cache error reporting macro
+a7a7a1c06aa4f7f25a1916c551e77f91fbde3452 cachefiles: Add security derivation
+78c5bad489156f31820a7cf2ea5c8c0f339a604d cachefiles: Register a miscdev and parse commands over it
+67c8a8511e9d8b64f80d26a7eb8bd9da02325e55 cachefiles: Provide a function to check how much space there is
+78248d1a78683697e43e538d7b4f43a46aa6a905 vfs, cachefiles: Mark a backing file in use with an inode flag
+bfa17eb8a08c5ddf57f339af9532386ce28adac6 cachefiles: Implement a function to get/create a directory in the cache
+fb3f79f5538584a180feb6c8c6fcef3bf1c190fa cachefiles: Implement cache registration and withdrawal
+3460c81b751ba73bc916427f9b45695b4989d526 cachefiles: Implement volume support
+d14f3eeeab221cc698ca1269238d1e33c8248984 cachefiles: Add tracepoints for calls to the VFS
+77eeb02b9b4af8ced9b9785e944a9f4874d9a39a cachefiles: Implement object lifecycle funcs
+d30008acfc0457cb19278b507c7a52edfbe16663 cachefiles: Implement key to filename encoding
+f7410c89fcb95c95b3545ee5238a65e209d7b875 cachefiles: Implement metadata/coherency data storage in xattrs
+15a670e56193154fb511ce9ac67828fb59eae55b cachefiles: Mark a backing file in use with an inode flag
+de0d0bd1c3cb00f7a7fea71bf4f41d16674eac6b cachefiles: Implement culling daemon commands
+a963c82e5db78fe4a17b70d17302e46d94e7961c cachefiles: Implement backing file wrangling
+2381e50f4512b819c10a8778f81acae8ffffbc28 cachefiles: Implement begin and end I/O operation
+1f3752028e92dff85cb419debcf15680307ddcac cachefiles: Implement cookie resize for truncate
+772321967048a59e9e8d3eca9816ea8cb38d7faa cachefiles: Implement the I/O routines
+4b14e76d2dd7f3a03d9dbdcb7b0d8cc8f320220b fscache, cachefiles: Store the volume coherency data
+c730e2003ad447a92582515ab5aedfc58c1e9c9e cachefiles: Allow cachefiles to actually function
+9fe5d8cc78b02f8c46c6692232f804f4841c59a7 fscache, cachefiles: Display stats of no-space events
+275ed4b45da60ef84a3d23a0baf773a53e42eb29 fscache, cachefiles: Display stat of culling events
+2e244ea8ad5c83e9765f8c2b58510de998dd5605 afs: Handle len being extending over page end in write_begin/write_end
+e210b6a14f5171bd3a2f8bae64e57767ff6fe1ef afs: Fix afs_write_end() to handle len > page size
+9a05c2013bd367eb4e1cdd2e8a016cb9b6b57032 afs: Convert afs to use the new fscache API
+3c04273e194bbee5972653af60dca86641729328 afs: Copy local writes to the cache when writing to the server
+71e6e4a79f9ca34c49328e2ea426ed8a89b90b91 afs: Skip truncation on the server of data we haven't written yet
+300438ee65f61ddf01446deef159d72c09cc392a 9p: Use fscache indexing rewrite and reenable caching
+c6391eef2a827f1115399779ee01bc09d312e1ce 9p: Copy local writes to the cache when writing to the server
+bda3dbe855abf85158a4e4102acbf35330f77e32 nfs: Convert to new fscache volume/cookie API
+3d502019300b29393d3b83cdb9cb114aef605802 nfs: Implement cache I/O by accessing the cache directly
+ba32bc8b033eaf7974d4f8ab5f201651c30d2d32 cifs: Support fscache indexing rewrite (untested)
+05cdd8f1fc391e40050a76848727099bbd9659f9 ceph: conversion to new fscache API
+8909fca3fb05221eb1f627e39b7b6a02f870c5b1 ceph: add fscache writeback support
+2b67826bf7fc2b883286359a78cdb5b66745c607 fscache: Rewrite documentation
 
---===============8265308413513721571==--
+--===============3737309754270311033==--
