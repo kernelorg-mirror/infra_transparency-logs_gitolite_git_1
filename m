@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5140988846170725581=="
+Content-Type: multipart/mixed; boundary="===============4459961647934951319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 15 Dec 2021 18:07:01 -0000
-Message-Id: <163959162117.11351.18304781238385465259@gitolite.kernel.org>
+Date: Wed, 15 Dec 2021 18:08:33 -0000
+Message-Id: <163959171332.11833.346020268174335019@gitolite.kernel.org>
 
---===============5140988846170725581==
+--===============4459961647934951319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: fe4c82a7e0f06abdf5a6978aa00457b63bd46680
     new: 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a
     log: revlist-fe4c82a7e0f0-3bc14ea0d12a.txt
 
---===============5140988846170725581==
+--===============4459961647934951319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ ab8c83cf8734a4fcff3b359b23afd174cd43ec03 Merge branch 'mlxsw-ipv6-underlay'
 f1d9268e061863ead77b07f5a6807d063e28a1c2 net: add net device refcount tracker to struct packet_type
 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a ethtool: always write dev in ethnl_parse_header_dev_get
 
---===============5140988846170725581==--
+--===============4459961647934951319==--
