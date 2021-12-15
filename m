@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6593040664954060921=="
+Content-Type: multipart/mixed; boundary="===============2713800792772957141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Dec 2021 14:10:14 -0000
-Message-Id: <163957741440.30452.17918902793262064690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 15 Dec 2021 14:10:25 -0000
+Message-Id: <163957742591.30575.11982994377245395403@gitolite.kernel.org>
 
---===============6593040664954060921==
+--===============2713800792772957141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 50d0d7880fdb0a7c097e93db3aee71eeb7bcfae8
-    new: ce1021e83e36d0e88a2a28fced5381c2b42fef21
+  - ref: refs/heads/linux-4.4.y
+    old: 87ae08ae6ba1f4d6ca8cb134899d87737700be15
+    new: e478503b16a3dde0861a0a1a298c6618a90f8fc1
     log: |
-         ce1021e83e36d0e88a2a28fced5381c2b42fef21 5.10-stable patches
+         9fd18156f22519cf352acb39da4057c6e0edcb36 nfc: fix segfault in nfc_genl_dump_devices_done
+         09cd26b5c1268b3b62ef5396eae254fe56472efb parisc/agp: Annotate parisc agp init functions with __init
+         791eb0374d9dd76652e09113afd35ea1b917c160 i2c: rk3x: Handle a spurious start completion interrupt flag
+         9fae267da5cef8d20101205e74c892e3b0ce8daf net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+         99ffed1fc40d52e0010e4029a03b3688b4e6b473 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+         e478503b16a3dde0861a0a1a298c6618a90f8fc1 Linux 4.4.296-rc1
          
 
---===============6593040664954060921==
+--===============2713800792772957141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639577413 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1639577412-9e0b534afb8f426b0da2ef77cd4728c73d536008
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639577424 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1639577424-90971a30f6072a68f1e75b5b5b1ed4df1d776184
 
-50d0d7880fdb0a7c097e93db3aee71eeb7bcfae8 ce1021e83e36d0e88a2a28fced5381c2b42fef21 refs/heads/master
+87ae08ae6ba1f4d6ca8cb134899d87737700be15 e478503b16a3dde0861a0a1a298c6618a90f8fc1 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG590UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pd0P/1VwDGajcIA5d2DpvnVo
-IjXtkpQoEHTx/c1pxYmWNk39GlaAxzQUDx8qiqczDwYjDz67dsc98NfYu1bfLnTV
-hCN7FrCEP1LbTS8b3DrwJq9fcz+XsOmimsYci6GaPkjkMk3gFPoZuh1ZMcxmnIKl
-I1Q7k46+ixaGy76l9CX4Z/66dSdsL7+FM+CDpGle6rcFGNCuux8jGaOLrS4h0tgC
-QZ5rMTCDdswgLKKSEIMhUjZvosNdyS1EWyL1K5jjfB2zeb0PFX2K7WQqlv3t3bJ5
-Zw6aQaBUDfJYfLoAvPACXVpjYoev/aXOh5b9lO2TjHrEU2kMGv2L5Fk1dUpzPTcd
-9jcKG4quNfCDesrRutHmqDizf1i+ZhA4zS8Y8ht75CbOpGmXv44ylcTtjP54ZS2W
-YIECFxXisoNoRC7BfdgHyLlsfOEMx4doeRGl8/GTyQK/cl8E8kf43IchdWPLz9y3
-DWPbDxH8ia3RITEwufZiz5/dutCZNG/ZKMvYFdj6vP0xUq2uDaB0Uus2BjeQlMYe
-JhRXZupEIzZTJXpX7bC5eijgKl2YhJEB+DqzOXUYFOd11/Obm+OPb2OBRTEZjdS8
-ypuTTARA0uYK7a4FoY+doZ9fRVHXUphgpE+4HjJZrEi0iA3OP0VjUyFWBstwzx4E
-oQGqKB7JdrPE2dxX7+1Lz/88
-=ibke
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG591AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FHoP/1xYSe2yaRRzo0gmTRFR
+Y3yZcf70mwetU0oDxSgoj3nq8DlNcU7wNcqBaTNSTnxvqujJgT+n1wZzhXcovz9R
+Z9sQRgAna0J1t2jPJCQgFW0j6aC+ubSoKg/MvTm54Ync0dokw9BpP6Wm8k84luNw
++n37qK/SNY2SRPLFWTEONYbKgDMiGQWTSSop3TgPHu/CgFhCcerqVqaimNXPPYMg
+Dho6KDFwjgz0pZIOmxW+ps13RA1SzfXLgrIPLhCtbJLzDHTOxs/cbpCxu399tx3C
+6+zE1R/yHrn2+LPkuhFHvvx8F3nVfh0djtVYSlyb3G864pMjGD0e1aMxOmzf/bgf
+ID0PByZR4aOSJo8+ebt1OLfAqYNysWZO4uOG9J5oDhqIcoh+2R0zhl0k6fdugOO0
+JzW2VhKNwYJ4bfB5tVgDFmOOA9nhzF0LHn/B5A5IzVaEyN066F/uLVmaiW08HXPG
+DhRdvII0PkGKvcekJxNetgRWBq5VBnn7gLseE4y6wjWrCBZFIIvnK9d+Sxb4NtS4
+OC20/1F0xJKB4EA0r6+li+k+Jq7JjAcRGFjRHjp3d3tfgjCr8JZroyrBfxrZ4HVn
+WO0EHX6L22b83Abm+WgLdXRyRYgcd0686WlFr7e9WGoStoKaYksEhdhfP19Bc6F7
++7oqGrvWrnnWyLHypWC2zgme
+=7icg
 -----END PGP SIGNATURE-----
 
---===============6593040664954060921==--
+--===============2713800792772957141==--
