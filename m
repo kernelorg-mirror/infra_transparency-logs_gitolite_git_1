@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 15 Dec 2021 15:14:58 -0000
-Message-Id: <163958129874.5930.11637837390516808807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 15 Dec 2021 15:18:36 -0000
+Message-Id: <163958151623.8721.6696366159973704924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/next-fixes
-    old: b1a9fa62244519b92fc9a0ed71c854d9ff47bed8
-    new: 219ebc5eba521134b61239dcab95bf859f69897a
+  - ref: refs/heads/for-next
+    old: d0373ae097917b88465be6635823fd51881932c3
+    new: 20d115bb570273171f298e1e24b508fd19bba49f
     log: |
-         de3cf30b8f125ca80e3c11d8c52096eae0a8ce63 btrfs: fix missing blkdev_put() call in btrfs_scan_one_device()
-         219ebc5eba521134b61239dcab95bf859f69897a Merge branch 'misc-5.16' into next-fixes
+         69bac8e4260865ab56d565593c44a519291f36ff dt-bindings: soc: samsung: keep SoC driver bindings together
+         20d115bb570273171f298e1e24b508fd19bba49f Merge branch 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: cc4fcd60ac51d99ef75fa80f14ac6202f46c3dfc
+    new: 69bac8e4260865ab56d565593c44a519291f36ff
+    log: |
+         69bac8e4260865ab56d565593c44a519291f36ff dt-bindings: soc: samsung: keep SoC driver bindings together
          
