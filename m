@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 15 Dec 2021 03:50:04 -0000
-Message-Id: <163954020411.18876.18007681568511165764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 15 Dec 2021 04:01:52 -0000
+Message-Id: <163954091292.25724.10821692325694562250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/block-5.16
-    old: 418fb22bb13ce798bad69f4a6d12837bbe6a9e1f
-    new: aa97f6cdb7e92909e17c8ca63e622fcb81d57a57
+  - ref: refs/heads/rcu/next
+    old: a4b57ded94e522e2870ae9504f776caa0f615148
+    new: 461aa9e31a368be5d28ff538fcd26a042cdf927a
     log: |
-         cb2ac2912a9ca7d3d26291c511939a41361d2d83 block: reduce kblockd_mod_delayed_work_on() CPU consumption
-         aa97f6cdb7e92909e17c8ca63e622fcb81d57a57 bcache: fix NULL pointer reference in cached_dev_detach_finish
+         84a17ff0e8eda217e68397125b08177f3fc71ca3 rcu: Create and use a rcu_rdp_cpu_online()
+         e210a5c9c83a9fbc431268cbad2e8658eec148e3 rcu: Refactor rcu_barrier() empty-list handling
+         8850b98104f2dbcf3961a85724975d11ca13226a rcu: Mark accesses to boost_starttime
+         1fbbb59c45b3b63eb7e92a0c93831ec7d0226b56 rcu/exp: Fix check for idle context in rcu_exp_handler
+         dd361537d5f81801dff21f927535f1b890d2c48c rcu/nocb: Handle concurrent nocb kthreads creation
+         6b245ea6846d15a6db851eab6284cbf0d719ed67 rcu: Remove unused rcu_state.boost
+         d2cf09ae4986c25a8b42943be2955d9a53bfcd49 rcu: Mark ->expmask access in synchronize_rcu_expedited_wait()
+         9948911a12c1efcd0ce5ae3311531df672886c2c rcu: Rework rcu_barrier() and callback-migration logic
+         461aa9e31a368be5d28ff538fcd26a042cdf927a rcu: Make rcu_barrier() no longer block CPU-hotplug operations
          
