@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3228296249254284207=="
+Content-Type: multipart/mixed; boundary="===============9146455876692618391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 16 Dec 2021 18:13:50 -0000
-Message-Id: <163967843004.5426.14134102388508448811@gitolite.kernel.org>
+Date: Thu, 16 Dec 2021 18:13:59 -0000
+Message-Id: <163967843964.5559.1377428333130061183@gitolite.kernel.org>
 
---===============3228296249254284207==
+--===============9146455876692618391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 3bc14ea0d12a57a968038f8e86e9bc2c1668ad9a
-    new: 604ba230902d23c6e85c7dba9cfcb6a37661cb12
-    log: revlist-3bc14ea0d12a-604ba230902d.txt
+  - ref: refs/heads/mlx5-queue
+    old: 3830658c5891e66e5db9be5b4fb527284246fb6a
+    new: af3f857a029b4fbac9238a36486c380bf4ea0191
+    log: revlist-3830658c5891-af3f857a029b.txt
 
---===============3228296249254284207==
+--===============9146455876692618391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bc14ea0d12a-604ba230902d.txt
+Content-Disposition: attachment; filename=revlist-3830658c5891-af3f857a029b.txt
 
 fc5e0352ccb58508274de289c66832c7a0b68161 ipvs: remove unused variable for ip_vs_new_dest
 4be1dbb75c3de6af1888fa79778388fd4e529543 netfilter: conntrack: Use memset_startat() to zero struct nf_conn
@@ -69,5 +69,22 @@ d30baacc04948bbfded609cf7fb298e5ae754fcd gve: Move the irq db indexes out of the
 e85fbf535531432f09e0043586c926207533f308 Merge branch 'gve-improvements'
 a5dba0f207e59dfe7a985e52ca4ce2ca9a33750a net: dsa: rtl8365mb: add GMII as user port mode
 604ba230902d23c6e85c7dba9cfcb6a37661cb12 net: prestera: flower template support
+432046737863291712c86ccdaae9564653a90144 net/mlx5: Remove the repeated declaration
+2708dbb90d782506183bc6e1273c4eb16c65e0ea devlink: Add new "io_eq_size" generic device param
+57bf26aa8ded85ee38209a3cd64fcc8fc1c9eec3 net/mlx5: Let user configure io_eq_size param
+5ffcad6e9d1f8e4406a5a83ed77604ab87018945 devlink: Add new "event_eq_size" generic device param
+39cad975277b89692f6ef3926b49bc682b8bc9f1 net/mlx5: Let user configure event_eq_size param
+e87bad7e71accfda4a91aebe8d89be25195f1c6b devlink: Clarifies max_macs generic devlink param
+446935a7d6da3d4c345504066fd3cd9e73c36af5 net/mlx5: Let user configure max_macs generic param
+2aa7e616e29d0c7f39850546a8baae51ce30bdc8 net/mlx5e: Use bitmap field for profile features
+d97a16de0be5d47e19234085ebcfa2680d630edf net/mlx5e: Add profile indications for PTP and QOS HTB features
+bb0ad8de48c1bd841fb42051856a4e6c8757d731 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+412bb4f27c2957884ea55bd9963ad9c981f1dfb5 net/mlx5e: Allow profile-specific limitation on max num of channels
+521d71d3ccca16b43feb27635d5a2e6936920c07 net/mlx5e: Use dynamic per-channel allocations in stats
+8848f124fedb5e2ee0fae0ea8b30f850db34e04e net/mlx5e: Allocate per-channel stats dynamically at first usage
+0fc4f1af448e001aacdc992d7bc6a4df3847ea5c net/sched: act_ct: Fill offloading tuple iifidx
+3614beb2f2cbb01b6a80235ab610436945df411a net: openvswitch: Fill act ct extension
+258b72943a70af02d8dcd08354f45b45824409f9 net/mlx5: CT: Set flow source hint from provided tuple device
+af3f857a029b4fbac9238a36486c380bf4ea0191 Merge branch 'patchq/374716' into mlx5-queue
 
---===============3228296249254284207==--
+--===============9146455876692618391==--
