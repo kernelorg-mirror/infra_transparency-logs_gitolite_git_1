@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Thu, 16 Dec 2021 13:02:35 -0000
-Message-Id: <163965975592.30314.11688209495677666756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Thu, 16 Dec 2021 13:03:04 -0000
+Message-Id: <163965978466.30499.7621968860067295352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/tags/omap-for-v5.17/dt-signed
-    old: 0000000000000000000000000000000000000000
-    new: f7959eec79595580c6afbfd964498b0f48212d82
+  - ref: refs/heads/dev
+    old: 31d07960c7d8774bf57a86a82275f884845e3508
+    new: 7c059dec3e6c79e61aeff3ef7988011ad568adf4
+    log: |
+         7c059dec3e6c79e61aeff3ef7988011ad568adf4 exfat: remove argument 'sector' from exfat_get_dentry()
+         
