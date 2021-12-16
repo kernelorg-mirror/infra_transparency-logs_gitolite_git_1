@@ -1,20 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 16 Dec 2021 14:39:35 -0000
-Message-Id: <163966557564.18483.10928161392556482509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Thu, 16 Dec 2021 14:40:37 -0000
+Message-Id: <163966563796.20625.16152227124261433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: 26c74279f65d04d2bed89a5804115cb920bbebe3
-    new: e5a82066d4410f06fcdad0b85241e86cef67c247
+  - ref: refs/heads/master
+    old: 4061f230d33da18a476809abc03f2fa94eda6c56
+    new: b33e75b3e597788be243c04aba22d39431b9ecfb
     log: |
-         2a2aa410c2eaebe5807d1fd321e42b8f53288d91 i915: Add DMC firmware v2.14 for ADL-P
-         e5a82066d4410f06fcdad0b85241e86cef67c247 Merge branch 'adlp_dmc_v2.14_update' of git://anongit.freedesktop.org/drm/drm-firmware into main
+         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
+         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
+         a155038f641134b0272d26f75d1ab4a805013e48 Merge branch 'renesas-arm-dt-for-v5.17' into renesas-next
+         b33e75b3e597788be243c04aba22d39431b9ecfb Merge branch 'renesas-next' into renesas-devel
+         
+  - ref: refs/heads/next
+    old: 54477c542f92fb4b93370861899dd916f8ced73d
+    new: a155038f641134b0272d26f75d1ab4a805013e48
+    log: |
+         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
+         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
+         a155038f641134b0272d26f75d1ab4a805013e48 Merge branch 'renesas-arm-dt-for-v5.17' into renesas-next
+         
+  - ref: refs/heads/renesas-arm-dt-for-v5.17
+    old: 88404c56fde05eb741552a33fdfe6d7d20c1c986
+    new: d563f4bac9914fca6f34711ad22647125e773dd0
+    log: |
+         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
+         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
          
