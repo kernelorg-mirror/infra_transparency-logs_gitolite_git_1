@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 16 Dec 2021 01:11:13 -0000
-Message-Id: <163961707329.23058.11758827067259142129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 16 Dec 2021 01:11:27 -0000
+Message-Id: <163961708746.23182.3130166594944417983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/seen
-    old: a4c282b2091c46405c066490abf4b18f4d76bba8
-    new: 75ada264f04f2282e336fd1a1cd37decfdc6fd2e
+  - ref: refs/heads/master
+    old: 0aba0be9c8f84d1987c20aa57d81b854abe29dde
+    new: 213c37c8f56de2df1bcfe6238c19c8c4590988cd
     log: |
-         b2226639ee6e0fba94dca562350ae714e4347e13 Merge branch 'ab/grep-patterntype' into seen
-         9e598808e8a36f66aafa5bdd7a3b0b7d13914af7 Merge branch 'ab/usage-die-message' into seen
-         a1eb3ee8288c96c95d18fef027fc276b5cb3b17a Merge branch 'js/branch-track-inherit' into seen
-         e919afa3a1510121553d8e0e21b188a2332b75c9 Merge branch 'gc/branch-recurse-submodules' into seen
-         75ada264f04f2282e336fd1a1cd37decfdc6fd2e Merge branch 'tb/cruft-packs' into seen
+         231beb734a8ff6a3836feb94ceacd1f013e69430 Bibliography update
+         aa7a8cc9c8979a60bd96db0ead2728d3eafbbc4a rcuusage: Mention version-number-based MVCC RCU use case
+         31ae073ce0e89e277aded15ab3b2c8ba066f8c4a defer/rcuusage: Wordsmith transitions and tie to diagram
+         2dea9d7b44c6fcb8dd9ac4a2ac62bbfbe9ce11b8 defer/rcuusage: More wordsmithing and tying to diagram
+         6a4ca12e5503548f313153991786dc3681e5436f glossary: remove duplicated "of"
+         8e072617ce3b1ddf945d3cfc9cd9736aa5683845 defer/rcuusage: Base light-weight GC on TSM
+         213c37c8f56de2df1bcfe6238c19c8c4590988cd defer/rcuusage: Yet more wordsmithing and tying to diagram
          
