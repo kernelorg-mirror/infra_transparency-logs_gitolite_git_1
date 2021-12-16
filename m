@@ -1,37 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Thu, 16 Dec 2021 14:40:37 -0000
-Message-Id: <163966563796.20625.16152227124261433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 16 Dec 2021 14:40:54 -0000
+Message-Id: <163966565477.20790.1560866071499940542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 4061f230d33da18a476809abc03f2fa94eda6c56
-    new: b33e75b3e597788be243c04aba22d39431b9ecfb
+  - ref: refs/heads/main
+    old: e5a82066d4410f06fcdad0b85241e86cef67c247
+    new: 1f922757bdca5ad54967c82d64be03422cd2a8a2
     log: |
-         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
-         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
-         a155038f641134b0272d26f75d1ab4a805013e48 Merge branch 'renesas-arm-dt-for-v5.17' into renesas-next
-         b33e75b3e597788be243c04aba22d39431b9ecfb Merge branch 'renesas-next' into renesas-devel
-         
-  - ref: refs/heads/next
-    old: 54477c542f92fb4b93370861899dd916f8ced73d
-    new: a155038f641134b0272d26f75d1ab4a805013e48
-    log: |
-         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
-         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
-         a155038f641134b0272d26f75d1ab4a805013e48 Merge branch 'renesas-arm-dt-for-v5.17' into renesas-next
-         
-  - ref: refs/heads/renesas-arm-dt-for-v5.17
-    old: 88404c56fde05eb741552a33fdfe6d7d20c1c986
-    new: d563f4bac9914fca6f34711ad22647125e773dd0
-    log: |
-         b6db8f72dddc79752585b115e478b47197ef5761 arm64: dts: renesas: r9a07g044: Add Mali-G31 GPU node
-         d563f4bac9914fca6f34711ad22647125e773dd0 arm64: dts: renesas: rzg2l-smarc-som: Add vdd core regulator
+         28fdbcd7528ab7f9816fdb73ae1a0601e5ab8d37 QCA: Add Bluetooth default nvm file for WCN685x
+         1f922757bdca5ad54967c82d64be03422cd2a8a2 Merge https://github.com/tjiang123/qca-btfw into main
          
