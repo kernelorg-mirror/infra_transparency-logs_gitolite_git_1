@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Thu, 16 Dec 2021 21:21:35 -0000
-Message-Id: <163968969501.29397.4736315076506976204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Dec 2021 21:23:14 -0000
+Message-Id: <163968979404.29922.5600926119552144232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/pending
-    old: bc77ca634966e86ffa6c1c7819c49ab0ed756270
-    new: 8f4e42c0c526e85b045fd0329df7cb904f511c98
-    log: |
-         8f4e42c0c526e85b045fd0329df7cb904f511c98 daxctl: Add "Soft Reservation" theory of operation
-         
+  - ref: refs/tags/net-5.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b126db7e888816e8bcfe4fe0d9e7ea802c115a07
