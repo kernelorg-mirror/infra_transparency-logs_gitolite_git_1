@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8458978643142725671=="
+Content-Type: multipart/mixed; boundary="===============0299889907527292230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 16 Dec 2021 18:05:16 -0000
-Message-Id: <163967791644.1318.11221948086607109070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 16 Dec 2021 18:08:30 -0000
+Message-Id: <163967811013.2369.4255571815449682011@gitolite.kernel.org>
 
---===============8458978643142725671==
+--===============0299889907527292230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/togreg
-    old: 1665a92f780ac47c56c47916a9f8c4efbdd794b9
-    new: e4ae54da0382591fff9c1ac4de714570ef8456ef
-    log: revlist-1665a92f780a-e4ae54da0382.txt
+  - ref: refs/heads/damon/next
+    old: 4af0b30b10f388d44fa95d9cee9f29223f4c9b1c
+    new: 8cc66dfe9c4ee4181c2c3d42debc5d7ba37dd621
+    log: revlist-4af0b30b10f3-8cc66dfe9c4e.txt
 
---===============8458978643142725671==
+--===============0299889907527292230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1665a92f780a-e4ae54da0382.txt
+Content-Disposition: attachment; filename=revlist-4af0b30b10f3-8cc66dfe9c4e.txt
 
-8b7651f2596238ca54225ebbcfbd3f14a4c41887 iio: iio_device_alloc(): Remove unnecessary self drvdata
-c054fe9936065759b21b493ac1e7d9a2be014083 iio: event_monitor: Flush output on event
-0a52c3f347fd0173a6aa718bffedca90816ddac6 iio: adc: ad7606: Fix syntax errors in comments
-5d97d9e9a703be2a602ac24c1ba3dae22155a2c8 iio: addac: ad74413r: fix off by one in ad74413r_parse_channel_config()
-8a457852bc12c16968c025cce6a7005b41fafa87 iio:adc:ti-ads8688:: remove redundant ret variable
-3511989cd22b06599b98e2566ecb571b846ffb86 iio: stmpe-adc: Use correctly sized arguments for bit field
-91b49aadbabf6860a8dae45df7aa982ca058b203 iio: as3935: Remove unnecessary cast
-52c65f5b095782abb1accbacfe6f6962a583fe05 iio: in2xx-adc: Remove unnecessary cast
-79ca243d83415c8f43e1c071b744fd8db8c1ccc1 iio: vz89x: Remove unnecessary cast
-35c35b0c4161273e22d1bfb17e935d5dd7cefa8e iio: add filter subfolder
-f34fe888ad0546dacf678aa604435d442934984f iio:filter:admv8818: add support for ADMV8818
-bf75e044ca6b03256faa99590c264251f052eefb dt-bindings:iio:filter: add admv8818 doc
-bf92d87d7c678b29b18e65ae4a97ced4bbe18c06 iio:filter:admv8818: Add sysfs ABI documentation
-b0a96c5f599ecf263119d092e22a984d3248fd85 dt-bindings: iio: dac: Add adi,ad3552r.yaml
-8f2b54824b28ba8317c60947b5941d686e3df70d drivers:iio:dac: Add AD3552R driver support
-1155ed05756a4e0f8fbc1760d6ca79354fe034c1 iio:accel:bma180: Suppress clang W=1 warning about pointer to enum conversion.
-b059b8105adc6686487178a5842f742daea98490 iio:dc:ina2xx-adc: Suppress clang W=1 warning about pointer to enum conversion.
-8d20c2be901098d919b9bc788b81ec2cc17940c6 iio:adc:rcar: Suppress clang W=1 warning about pointer to enum conversion.
-188a85782a4b9ceb16d8e8fff2836b372a55cdc4 iio:adc:ti-ads1015: Suppress clang W=1 warning about pointer to enum conversion.
-15dcabc85be924398a9f8cba34c5487fd7922db8 iio:amplifiers:hmc425a: Suppress clang W=1 warning about pointer to enum conversion.
-368ad09fd03b98a4d05f997910a727b7a6d92356 iio:dac:mcp4725: Suppress clang W=1 warning about pointer to enum conversion.
-27b150ded0340190c51619f6b98a244af591e5fd iio:imu:inv_icm42600: Suppress clang W=1 warning about pointer to enum conversion.
-293c5f67265c03a0333f114d4f92d48951ba0f31 iio:imu:inv_mpu6050: Suppress clang W=1 warning about pointer to enum conversion.
-7e6cbdba8dc6ff2cdf6b570c1dbaf408b80b351f iio:magn:ak8975: Suppress clang W=1 warning about pointer to enum conversion.
-b96a5f269113520f91e3c5154eca76e5ebee8dce iio:dummy: Drop set but unused variable len.
-a94560a2adc2f1b8cac7516fbe649f6ef6c1093c iio:accel:bmc150: Mark structure __maybe_unused as only needed with for pm ops.
-e4ae54da0382591fff9c1ac4de714570ef8456ef iio:accel:kxcjk-1013: Mark struct __maybe_unused to avoid warning.
+ac9bcd6067d33b42e817a8b686ee377e7bd3c779 for_damon_hack: Add files for DAMON hacks
+a4563a5e6669ee41f1974903657421acec475668 (NOT-FOR-POSTING) Patches in -mm but mmotm
+b59a321755b11c253c012956377decdd7fd7e8a1 (NOT-FOR-POSTING) Patches written or reviewed by SJ but not merged in -mm starts
+439ac3e9a821f937ee1565f16ac6aa4293ae824b (NOT-FOR-POSTING) More not-yet-posted commits
+b5d6e8ed8e308f403ffd5570feacc17331aea5be tools: Introduce a minimal user-space tool for DAMON
+d2afe2301c3c543e82a5cb28dd316dc3b95ad315 tools/perf: Integrate DAMON in perf
+71c30d9bc49912aae302b3a9784e37820426eb8f (drop) mm/damon: Add debug code
+c7f5e007d09ea07447e1dfd9d9a96d2d2e996e8c mm/damon/core: Flush access checks disturbing caches if required
+aa593e958551c44ef57eb7efaa6b48e4630fde26 mm/damon/vaddr: Support cache flushing
+77e6b6c233e6307c92cfdde49627e38094256f86 mm/damon/paddr: Support cache flushing
+23026a997ba45c7e17b8fced5ac7d6b6b726cfdd mm/damon/dbgfs: Support cache flushing
+8cc66dfe9c4ee4181c2c3d42debc5d7ba37dd621 mm/damon: Add access checking for hugetlb pages
 
---===============8458978643142725671==--
+--===============0299889907527292230==--
