@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0171877157663683154=="
+Content-Type: multipart/mixed; boundary="===============1865796605149372318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 16 Dec 2021 02:19:37 -0000
-Message-Id: <163962117795.3334.3318679054327281838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 16 Dec 2021 02:19:44 -0000
+Message-Id: <163962118459.3471.2083884899720364338@gitolite.kernel.org>
 
---===============0171877157663683154==
+--===============1865796605149372318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/regulator-5.17
     old: c57dbcab04449ec869561a9056d0de1a07cbb863
     new: 0fc31d8f1a8ad17224f6423e3ed6234507375d48
     log: revlist-c57dbcab0444-0fc31d8f1a8a.txt
 
---===============0171877157663683154==
+--===============1865796605149372318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1639621176 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1639621175-9cde9ae426a8322570eaa3c049b0bdf0245a374d
+pusher C3F436CA30F5D8EB 1639621182 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1639621182-00646b7c5bca10620aa66023abc428d232cc1fd4
 
-c57dbcab04449ec869561a9056d0de1a07cbb863 0fc31d8f1a8ad17224f6423e3ed6234507375d48 refs/heads/for-5.17
+c57dbcab04449ec869561a9056d0de1a07cbb863 0fc31d8f1a8ad17224f6423e3ed6234507375d48 refs/heads/regulator-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG6ojgACgkQJNaLcl1U
-h9Dm+Qf/UE9bxoKMaBXeU24xsbnhNVDnO/35ZKztN6hq5TcE6elSR4jiaXlbaK/j
-d7g65GPTuUWye9DK5RROFee6yEHoYhuuQrplFgBUAu5OS6zUo3rI84ZNcOns/Dy9
-QKXB9MMInQzJ73hf74ornluLekmYdo4v5U/FixjEovUsNHuiDj6TNliX6qNp+kAQ
-JQi+VLP3l1ryIyZICPbQwJG/RGzQUe4Kv56qXGfbMgU5rp4T1taGQjjgPYfu4XX4
-me6n7mxQvIhVVJP/MtCq/90BFHKXW+D06vM46ugSeCNCggXDoqJ1Dlhu9XW+qo3c
-LglNEui8bAxBLow89tPqQGEmJMxe1w==
-=vqJy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG6oj4ACgkQJNaLcl1U
+h9Cznwf9GB4pPe6u4gSjfG0GIjQYFrJZrrkVcL4deaIoApLE/2fkpi05JK1Rf6GB
+n8C0/sXyuCNffHrMRooftp1hEy1WXALDMM0Pz9vPnK0MjV0FMEn21zJtWrhmd0za
+bqCIEj83iKW+suDeC3ZKKSTAgE0OiVSwXY+01two12kO34FV4FmTxJOJdS/d0Ckl
+wdagqSNg7ObOQnPviO1jHM+T1/icubMtYA/bGb0VFlqF790lS+qpNU3ml6QaBrLJ
+9o/b7c18Nuo/6rS/pcczr57PvqSjwp+bV/YUE+UCWJ/XGo8qFjzgDZue713n0c5V
+Mnk0e5MTm0719cXkobEJVmzm3Z5DCQ==
+=C4JX
 -----END PGP SIGNATURE-----
 
---===============0171877157663683154==
+--===============1865796605149372318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ d3d76ae139a7ba2162ab86f54f722d4da8c3bc95 platform/x86: int3472: Pass tps68470_cl
 13aad3431ed52f84478a63a784cce04ad20be5c1 Merge tag 'platform-drivers-x86-int3472-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into regulator-5.17
 0fc31d8f1a8ad17224f6423e3ed6234507375d48 regulator: Introduce tps68470-regulator driver
 
---===============0171877157663683154==--
+--===============1865796605149372318==--
