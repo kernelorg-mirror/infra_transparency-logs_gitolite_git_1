@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 16 Dec 2021 18:45:39 -0000
-Message-Id: <163968033944.26284.934470339655867235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 16 Dec 2021 18:47:07 -0000
+Message-Id: <163968042703.26784.16703006714191726364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 81eebd540511a5e57ed71a0e6221186513c8841f
-    new: fa36bbe6d43f3bbce1f10a187e153587c7584d83
+    old: e523102cb719cbad1673b6aa2a4d5c1fa6f13799
+    new: b1a7288dedc6caf9023f2676b4f5ed34cf0d4029
     log: |
-         9c5d89bc10551f1aecd768b00fca3339a7b8c8ee arm64: kexec: Fix missing error code 'ret' warning in load_other_segments()
-         fa36bbe6d43f3bbce1f10a187e153587c7584d83 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         3cf2b61eb06765e27fec6799292d9fb46d0b7e60 bpf: Fix signed bounds propagation after mov32
+         e572ff80f05c33cd0cb4860f864f5c9c044280b6 bpf: Make 32->64 bounds propagation slightly more robust
+         b1a7288dedc6caf9023f2676b4f5ed34cf0d4029 bpf, selftests: Add test case trying to taint map value pointer
          
