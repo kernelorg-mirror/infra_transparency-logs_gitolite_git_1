@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1426166405525070918=="
+Content-Type: multipart/mixed; boundary="===============2179921394330809849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Thu, 16 Dec 2021 13:37:35 -0000
-Message-Id: <163966185576.19722.9400657330954939781@gitolite.kernel.org>
+Date: Thu, 16 Dec 2021 13:38:21 -0000
+Message-Id: <163966190143.20020.15966018417410572110@gitolite.kernel.org>
 
---===============1426166405525070918==
+--===============2179921394330809849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: a0eb2da92b715d0c97b96b09979689ea09faefe6
     new: 49501fb98653158cf7ba2473c6ee3fbc8bff047c
     log: revlist-a0eb2da92b71-49501fb98653.txt
 
---===============1426166405525070918==
+--===============2179921394330809849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -851,4 +851,4 @@ fb37171d8c5505e13a734ca6a58ba9c8f0c8835a Documentation, arch: Remove leftovers f
 ac6737408facd46e0168889aae799111c96c4adb arch: Remove leftovers from prism54 wireless driver
 49501fb98653158cf7ba2473c6ee3fbc8bff047c asm-generic/error-injection.h: fix a spelling mistake, and a coding style issue
 
---===============1426166405525070918==--
+--===============2179921394330809849==--
