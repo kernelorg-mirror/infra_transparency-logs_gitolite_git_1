@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Thu, 16 Dec 2021 19:22:06 -0000
-Message-Id: <163968252647.18239.17331466252685816687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Thu, 16 Dec 2021 19:31:04 -0000
+Message-Id: <163968306459.23650.10307283156342505695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/md-next
-    old: ff6a52946c527a330bbaa6b8f320acf4de70747f
-    new: 04f913cd08324d14b55fbbc8a1110696af9f36ca
+  - ref: refs/heads/cxl-2.0v6
+    old: ac46d00d7d4d555a238bb898e2ff4af0c444bebe
+    new: 706a418798633ccb550b114eca7cc11038ab2695
     log: |
-         3427f2b2c533d97bcc57b4237c2af21a8bd2cdbc block: remove the rsxx driver
-         fbcddf788fe221573a9d30acd8018db0cc6c1e89 md/raid5: play nice with PREEMPT_RT
-         04f913cd08324d14b55fbbc8a1110696af9f36ca lib/raid6: Reduce high latency by using migrate instead of preempt
+         706a418798633ccb550b114eca7cc11038ab2695 scripts: Add a man page template generator
          
