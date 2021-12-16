@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0372354946319315695=="
+Content-Type: multipart/mixed; boundary="===============0527951688726025666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 16 Dec 2021 16:00:45 -0000
-Message-Id: <163967044515.1631.4703157861363263577@gitolite.kernel.org>
+Date: Thu, 16 Dec 2021 16:01:26 -0000
+Message-Id: <163967048604.1884.2327067964852360096@gitolite.kernel.org>
 
---===============0372354946319315695==
+--===============0527951688726025666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 98beab5dca06ff74fe3d4059ecd1789261481e49
-    new: 107c221f4624597f64bdb20ea21b579bb21885a2
-    log: revlist-98beab5dca06-107c221f4624.txt
+  - ref: refs/heads/master
+    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
+    new: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
+    log: revlist-0fcfb00b28c0-2585cf9dfaad.txt
 
---===============0372354946319315695==
+--===============0527951688726025666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98beab5dca06-107c221f4624.txt
+Content-Disposition: attachment; filename=revlist-0fcfb00b28c0-2585cf9dfaad.txt
 
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
 dbd3e6eaf3d813939b28e8a66e29d81cdc836445 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
@@ -427,36 +427,5 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 8d7ed10410d53453305e4f8673c50085d607fa80 Merge tag 'char-misc-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 90d9fbc16b691403a80a119d7094528721c03279 Merge tag 'usb-5.16-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
-c2f1c4bd20621175c581f298b4943df0cffbd841 NFSD: Fix sparse warning
-89b24336f03a8ba560e96b0c47a8434a7fa48e3c NFSD: handle errors better in write_ports_addfd()
-df5e49c880ea0776806b8a9f8ab95e035272cf6f SUNRPC: change svc_get() to return the svc.
-8c62d12740a1450d2e8456d5747f440e10db281a SUNRPC/NFSD: clean up get/put functions.
-ec52361df99b490f6af412b046df9799b92c1050 SUNRPC: stop using ->sv_nrthreads as a refcount
-9b6c8c9bebccd5fb785c306b948c08874a88874d nfsd: make nfsd_stats.th_cnt atomic_t
-2a36395fac3b72771f87c3ee4387e3a96d85a7cc SUNRPC: use sv_lock to protect updates to sv_nrthreads.
-9d3792aefdcda71d20c2b1ecc589c17ae71eb523 NFSD: narrow nfsd_mutex protection in nfsd thread
-3409e4f1e8f239f0ed81be0b068ecf4e73e2e826 NFSD: Make it possible to use svc_set_num_threads_sync
-3ebdbe5203a874614819700d3f470724cb803709 SUNRPC: discard svo_setup and rename svc_set_num_threads_sync()
-d057cfec4940ce6eeffa22b4a71dec203b06cd55 NFSD: simplify locking for network notifier.
-2840fe864c91a0fe822169b1fbfddbcac9aeac43 lockd: introduce nlmsvc_serv
-5a8a7ff57421b7de3ae72019938ffb5daaee36e7 lockd: simplify management of network status notifiers
-b73a2972041bee70eb0cbbb25fa77828c63c916b lockd: move lockd_start_svc() call into lockd_create_svc()
-6a4e2527a63620a820c4ebf3596b57176da26fb3 lockd: move svc_exit_thread() into the thread
-865b674069e05e5779fcf8cf7a166d2acb7e930b lockd: introduce lockd_put()
-ecd3ad68d2c6d3ae178a63a2d9a02c392904fd36 lockd: rename lockd_create_svc() to lockd_get()
-cf0e124e0a489944d08fcc3c694d2b234d2cc658 SUNRPC: move the pool_map definitions (back) into svc.c
-93aa619eb0b42eec2f3a9b4d9db41f5095390aec SUNRPC: always treat sv_nrpools==1 as "not pooled"
-6b044fbaab02292fedb17565dbb3f2528083b169 lockd: use svc_set_num_threads() for thread start and stop
-23a1a573c61ccb5e7829c1f5472d3e025293a031 NFS: switch the callback service back to non-pooled.
-7578b2f628db27281d3165af0aa862311883a858 NFSD: Remove be32_to_cpu() from DRC hash function
-1e37d0e5bda45881eea1bec4b812def72c7d4aea NFSD: Fix inconsistent indenting
-1463b38e7cf34d4cc60f41daff459ad807b2e408 NFSD: simplify per-net file cache management
-5089f3d97552b0b07101e02a3fca0146b9b9d3b5 SUNRPC: Remove low signal-to-noise tracepoints
-238aa8bc6cde6ce1cc93259eb60ad5ea7930fbbb SUNRPC: Record endpoint information in trace log
-b6e2433d3e94676a3064721caf2f6114d59d4f90 SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
-2689bf04e62881b01354c17c29fd12e116044b6c NFSD: Combine XDR error tracepoints
-270a6bda80879ebbe476a7538f8393d225b822e3 NFSD: Remove NFSD_PROC_ARGS_* macros
-e99fbddd43c04ad0f01b934ffe81d4f4b085345d nfsd: improve stateid access bitmask documentation
-107c221f4624597f64bdb20ea21b579bb21885a2 NFSD: De-duplicate nfsd4_decode_bitmap4()
 
---===============0372354946319315695==--
+--===============0527951688726025666==--
