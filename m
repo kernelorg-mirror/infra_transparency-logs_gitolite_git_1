@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 Dec 2021 11:09:30 -0000
-Message-Id: <163965297071.23006.4784869924659928052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Thu, 16 Dec 2021 11:11:06 -0000
+Message-Id: <163965306677.24929.8617390724698957132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 053c9e18c6f9cf82242ef35ac21cae1842725714
-    new: 8a03ef676ade55182f9b05115763aeda6dc08159
+  - ref: refs/heads/fs.binfmt_misc
+    old: 65225fccfb81fa2d691dc8745eb4cd18ff9c5ed1
+    new: a8b393abec4553fe09c74724d0079efc27285434
     log: |
-         8a03ef676ade55182f9b05115763aeda6dc08159 net: Fix double 0x prefix print in SKB dump
+         a45ea4702537f8f86dc56411c5f03704ed66aa49 binfmt_misc: cleanup on filesystem umount
+         a8b393abec4553fe09c74724d0079efc27285434 binfmt_misc: enable sandboxed mounts
          
