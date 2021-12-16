@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7598299955925237169=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 16 Dec 2021 02:20:44 -0000
-Message-Id: <163962124479.5621.16744825263872614222@gitolite.kernel.org>
-
---===============7598299955925237169==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 16 Dec 2021 02:21:01 -0000
+Message-Id: <163962126168.5774.15726156229542597726@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
+  - ref: refs/heads/for-linus
+    old: 3916f62445162530b6cc9172df6dbbada5b547d9
+    new: ca0911ee2b35e7ad62ecb629befaf3f78d00923a
+    log: |
+         ca0911ee2b35e7ad62ecb629befaf3f78d00923a Merge remote-tracking branch 'spi/for-5.15' into spi-linus
+         
   - ref: refs/heads/for-next
-    old: c57dbcab04449ec869561a9056d0de1a07cbb863
-    new: 0fc31d8f1a8ad17224f6423e3ed6234507375d48
-    log: revlist-c57dbcab0444-0fc31d8f1a8a.txt
-
---===============7598299955925237169==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c57dbcab0444-0fc31d8f1a8a.txt
-
-9d9bcae47fd5a0b827521f65ab7d10a218eacc37 ACPI: delay enumeration of devices with a _DEP pointing to an INT3472 device
-fb90e58f7c4e406d510f301e156e2056a4357130 i2c: acpi: Use acpi_dev_ready_for_enumeration() helper
-c537be0bfad6337f2afd618fe252c03217191405 i2c: acpi: Add i2c_acpi_new_device_by_fwnode() function
-9dfa374cc6d04d2515adc21c39e356b64ee45a29 platform_data: Add linux/platform_data/tps68470.h file
-a2f9fbc247eea0ad1b0b59bc29bec144c5ead03c platform/x86: int3472: Split into 2 drivers
-71102bc7964342f0aaf1faf7aa384678b1207848 platform/x86: int3472: Add get_sensor_adev_and_name() helper
-d3d76ae139a7ba2162ab86f54f722d4da8c3bc95 platform/x86: int3472: Pass tps68470_clk_platform_data to the tps68470-regulator MFD-cell
-19d8d6e36b4b7aa2a9a9cb64687572a1d9f234bf platform/x86: int3472: Pass tps68470_regulator_platform_data to the tps68470-regulator MFD-cell
-97c2259ec7757ec24a90f0ef8fc5ea7fa1c6acca platform/x86: int3472: Deal with probe ordering issues
-13aad3431ed52f84478a63a784cce04ad20be5c1 Merge tag 'platform-drivers-x86-int3472-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into regulator-5.17
-0fc31d8f1a8ad17224f6423e3ed6234507375d48 regulator: Introduce tps68470-regulator driver
-
---===============7598299955925237169==--
+    old: 95c07247399536f83b89dc60cfe7b279d17e69f6
+    new: 77850bda360dd9b389d5064c64b79467d613c3d6
+    log: |
+         001a41d2a7061694fa31accdbc2013bb5c5d83b5 spi: atmel,quadspi: Convert to json-schema
+         77850bda360dd9b389d5064c64b79467d613c3d6 spi: atmel,quadspi: Define sama7g5 QSPI
+         
