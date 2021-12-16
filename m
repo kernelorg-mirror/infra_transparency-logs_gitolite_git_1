@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 16 Dec 2021 11:28:53 -0000
-Message-Id: <163965413331.3501.7197276696929443052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+Date: Thu, 16 Dec 2021 11:36:22 -0000
+Message-Id: <163965458295.8546.11984400276055440503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/jlayton/xfstests-dev
+user: jlayton
 changes:
-  - ref: refs/heads/fs.binfmt_misc
-    old: a8b393abec4553fe09c74724d0079efc27285434
-    new: 9ba0af289e8c3b1833d8fbbd369652aaddc49006
+  - ref: refs/heads/req-not-enc
+    old: 3012cd3e63238c53cd160003c452ce9f577086ca
+    new: 307a14af5cd0f567635f51a8996fcefc04bf5a7c
     log: |
-         cf5049e2d6fb52b1f4dd8456721eb83971f13d9e binfmt_misc: cleanup on filesystem umount
-         9ba0af289e8c3b1833d8fbbd369652aaddc49006 binfmt_misc: enable sandboxed mounts
+         307a14af5cd0f567635f51a8996fcefc04bf5a7c ceph: skip ceph/001-ceph/003 if test_dummy_encryption is enabled.
          
