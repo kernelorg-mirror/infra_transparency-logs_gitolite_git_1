@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 16 Dec 2021 22:02:43 -0000
-Message-Id: <163969216302.21964.90251025602315202@gitolite.kernel.org>
+Date: Thu, 16 Dec 2021 22:08:20 -0000
+Message-Id: <163969250001.24937.15921201854772728165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
   - ref: refs/heads/for-next
-    old: 9fd4cf5d3571b27d746b8ead494a3f051485b679
-    new: fc3499392342f95c3bcff63af52f4950087c795a
+    old: fc3499392342f95c3bcff63af52f4950087c795a
+    new: 1f012283e9360fb4007308f04cfaeb205e34b684
     log: |
-         74bdb17f7a59c3a37f38d6e993d8bb7ebc603fbe of/fdt: Rework early_init_dt_scan_chosen() to call directly
-         b7142bf8f36bf2d867f8ccf98515b3041fc568d8 of/fdt: Rework early_init_dt_scan_root() to call directly
-         fc3499392342f95c3bcff63af52f4950087c795a of/fdt: Rework early_init_dt_scan_memory() to call directly
+         60f20d84dc813f1342771a3e4f06d89da26dc412 of/fdt: Rework early_init_dt_scan_chosen() to call directly
+         d665881d2171b62ca1ea23be89be6f2a8a330bb2 of/fdt: Rework early_init_dt_scan_root() to call directly
+         1f012283e9360fb4007308f04cfaeb205e34b684 of/fdt: Rework early_init_dt_scan_memory() to call directly
          
