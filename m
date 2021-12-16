@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/geschichte
-Date: Thu, 16 Dec 2021 20:16:07 -0000
-Message-Id: <163968576719.19681.16567001306732791839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 16 Dec 2021 20:17:47 -0000
+Message-Id: <163968586715.20211.5518022619910464001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/geschichte
-user: rw
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 5b3e59ebc29c8db8f0b5f1d8aeb5a1a2206fbc3b
-    new: 661c8fed6de0b849ef5326051f93b18e8ee42ad1
+    old: f97982398cc1c92f2e9bd0ef1ef870a5a729b0ac
+    new: 1a6369ba624929c8bfa412045af79dbf7703b8c8
     log: |
-         dabe878e116372dbedb2b4def282eedb2f765456 Initial commit
-         13bb2bc5317f15f2263041f6d9722230b79f68a0 vlc: Remove stale debug print
-         02e6819da88aa48e8bc48ce369bc3db482fc5c87 Reload source files is mtime has changed.
-         4131aef752ec397403772a86e947f4991d1c16ed vlc: Use mio
-         1cf3421c425cbee41055cdefba2d858542f2d402 vlc: Support DNS lookup and multiple IPs and connect timeout
-         81cae17c9f7c4c235f07a9c83bf83dc5df0bf442 linux_input: Use mio and edge triggered io
-         661c8fed6de0b849ef5326051f93b18e8ee42ad1 Remove poll.rs
+         cebdb7374577ac6e14afb11311af8c2c44a259fa tools: Help cross-building with clang
+         bf1be903461a404a9d1c720b0872501ca35abc89 tools/resolve_btfids: Support cross-building the kernel with clang
+         4980beb4cda2bc413a3a044e1851b0daaf137bf6 tools/libbpf: Enable cross-building with clang
+         bdadbb44c90aedaa74d46f1b113bd845774efa39 bpftool: Enable cross-building with clang
+         bb7b75e860eec31aa67b83935849fdc46418c13e tools/runqslower: Enable cross-building with clang
+         ea79020a2d9eea62b12d90f0c11b7d70fcadc172 selftests/bpf: Enable cross-building with clang
+         1a6369ba624929c8bfa412045af79dbf7703b8c8 Merge branch 'tools/bpf: Enable cross-building with clang'
          
