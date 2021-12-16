@@ -1,66 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1865796605149372318=="
+Content-Type: multipart/mixed; boundary="===============7816159389890843084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 16 Dec 2021 02:19:44 -0000
-Message-Id: <163962118459.3471.2083884899720364338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 16 Dec 2021 02:19:52 -0000
+Message-Id: <163962119230.3567.5005322282183396999@gitolite.kernel.org>
 
---===============1865796605149372318==
+--===============7816159389890843084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: c57dbcab04449ec869561a9056d0de1a07cbb863
-    new: 0fc31d8f1a8ad17224f6423e3ed6234507375d48
-    log: revlist-c57dbcab0444-0fc31d8f1a8a.txt
+  - ref: refs/heads/for-5.17
+    old: 95c07247399536f83b89dc60cfe7b279d17e69f6
+    new: 77850bda360dd9b389d5064c64b79467d613c3d6
+    log: |
+         001a41d2a7061694fa31accdbc2013bb5c5d83b5 spi: atmel,quadspi: Convert to json-schema
+         77850bda360dd9b389d5064c64b79467d613c3d6 spi: atmel,quadspi: Define sama7g5 QSPI
+         
 
---===============1865796605149372318==
+--===============7816159389890843084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1639621182 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1639621182-00646b7c5bca10620aa66023abc428d232cc1fd4
+pusher C3F436CA30F5D8EB 1639621190 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1639621189-bb94ee2508c718625d91dcd61c4563bbf5cb02f6
 
-c57dbcab04449ec869561a9056d0de1a07cbb863 0fc31d8f1a8ad17224f6423e3ed6234507375d48 refs/heads/regulator-5.17
+95c07247399536f83b89dc60cfe7b279d17e69f6 77850bda360dd9b389d5064c64b79467d613c3d6 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG6oj4ACgkQJNaLcl1U
-h9Cznwf9GB4pPe6u4gSjfG0GIjQYFrJZrrkVcL4deaIoApLE/2fkpi05JK1Rf6GB
-n8C0/sXyuCNffHrMRooftp1hEy1WXALDMM0Pz9vPnK0MjV0FMEn21zJtWrhmd0za
-bqCIEj83iKW+suDeC3ZKKSTAgE0OiVSwXY+01two12kO34FV4FmTxJOJdS/d0Ckl
-wdagqSNg7ObOQnPviO1jHM+T1/icubMtYA/bGb0VFlqF790lS+qpNU3ml6QaBrLJ
-9o/b7c18Nuo/6rS/pcczr57PvqSjwp+bV/YUE+UCWJ/XGo8qFjzgDZue713n0c5V
-Mnk0e5MTm0719cXkobEJVmzm3Z5DCQ==
-=C4JX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG6okYACgkQJNaLcl1U
+h9AyeQf+IuFCulSUz6D8Lp+xsLRlges2ko33h9Me4zyt+A04pYUZ++Oz6kIalxml
+EO55lAE/50BSsx/S9xJHjItgPyajI6W+ZJUguzjsPNftLy7dlt7MEhDwRTRRjQUL
+CgXCtqL7X/sQMUhqhY341hXUs3QGgIFwPcIX5e7Vvv5emL3ejWmI6sypHlyhvGrq
+4+u68Mbh7J+tZdDvDiyzvUQDU8p7Fyzce3cZhHFarb7z2QZyfOT0uxcsbMVLe/7M
+zkiWFbNif0LLa/HLOqhT+g8KnVtlOm7LHZHF5t6MtDtxrvrOvp7fgBMFeVm3SwwY
+szpZAdKsombQYaJ9OyW0rHw8GpoGJg==
+=GZ39
 -----END PGP SIGNATURE-----
 
---===============1865796605149372318==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c57dbcab0444-0fc31d8f1a8a.txt
-
-9d9bcae47fd5a0b827521f65ab7d10a218eacc37 ACPI: delay enumeration of devices with a _DEP pointing to an INT3472 device
-fb90e58f7c4e406d510f301e156e2056a4357130 i2c: acpi: Use acpi_dev_ready_for_enumeration() helper
-c537be0bfad6337f2afd618fe252c03217191405 i2c: acpi: Add i2c_acpi_new_device_by_fwnode() function
-9dfa374cc6d04d2515adc21c39e356b64ee45a29 platform_data: Add linux/platform_data/tps68470.h file
-a2f9fbc247eea0ad1b0b59bc29bec144c5ead03c platform/x86: int3472: Split into 2 drivers
-71102bc7964342f0aaf1faf7aa384678b1207848 platform/x86: int3472: Add get_sensor_adev_and_name() helper
-d3d76ae139a7ba2162ab86f54f722d4da8c3bc95 platform/x86: int3472: Pass tps68470_clk_platform_data to the tps68470-regulator MFD-cell
-19d8d6e36b4b7aa2a9a9cb64687572a1d9f234bf platform/x86: int3472: Pass tps68470_regulator_platform_data to the tps68470-regulator MFD-cell
-97c2259ec7757ec24a90f0ef8fc5ea7fa1c6acca platform/x86: int3472: Deal with probe ordering issues
-13aad3431ed52f84478a63a784cce04ad20be5c1 Merge tag 'platform-drivers-x86-int3472-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86 into regulator-5.17
-0fc31d8f1a8ad17224f6423e3ed6234507375d48 regulator: Introduce tps68470-regulator driver
-
---===============1865796605149372318==--
+--===============7816159389890843084==--
