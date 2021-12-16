@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5760354545647679233=="
+Content-Type: multipart/mixed; boundary="===============2987494996210118689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 16 Dec 2021 09:13:43 -0000
-Message-Id: <163964602372.15397.15958766355589955965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 16 Dec 2021 09:23:55 -0000
+Message-Id: <163964663551.22544.3205391477412043017@gitolite.kernel.org>
 
---===============5760354545647679233==
+--===============2987494996210118689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 814ea441dd9a7b9468d3bf729e2e3587589e2ec5
-    new: c492c8dc2ed86825ebf02f0de1da5c9b1d641b80
-    log: revlist-814ea441dd9a-c492c8dc2ed8.txt
+  - ref: refs/heads/dev
+    old: 8482557aa6d1b3a9aed7efd7c301d6e749b3c163
+    new: e76bf9229303282fca859937efb0714a17dde4f4
+    log: revlist-8482557aa6d1-e76bf9229303.txt
 
---===============5760354545647679233==
+--===============2987494996210118689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-814ea441dd9a-c492c8dc2ed8.txt
+Content-Disposition: attachment; filename=revlist-8482557aa6d1-e76bf9229303.txt
 
-507805b83ff108473dba9d4909e41abd50cf07f5 gpiolib: acpi: Remove never used devm_acpi_dev_remove_driver_gpios()
-2ff64a84bbb3ea0281899766d9a944fd18db7013 gpiolib: acpi: shrink devm_acpi_dev_add_driver_gpios()
-bdfd6ab8fdccd8b138837efff66f4a1911496378 gpiolib: acpi: Do not set the IRQ type if the IRQ is already in use
-be3dc15ffe644d1b8bfae4a05eae3dc413a7c5e7 gpiolib: acpi: Unify debug and other messages format
-82b2cd4c8caebf0b61b39daf5e0ed6be170a4ae1 gpio: pch: Use .driver_data instead of checking Device IDs again
-2822b02765ed0609825d3532ea15de3914b59f09 gpio: pch: Cache &pdev->dev to reduce repetition
-06939f22ae5f7abf80d9a6ff5e43b4a916256f44 gpio: ml-ioh: Cache &pdev->dev to reduce repetition
-46155a0c55eb9c64da619e4f3a03537f47fbe583 gpio: ml-ioh: Use BIT() to match gpio-pch.c
-7bc14ff2952da56d445efab50256569fc96aa95b gpio: ml-ioh: Change whitespace to match gpio-pch.c
-e1610431b95ccbada74e1393b0944ef4c2750624 gpio: dwapb: clarify usage of the register file version
-9d5f0f6644b1404f40266a2682add712dc9931f5 gpio: sch: fix typo in a comment
-fa2fc03a6aaa3b5415c614b57221e54aded1443a gpiolib: allow line names from device props to override driver names
-c492c8dc2ed86825ebf02f0de1da5c9b1d641b80 Merge tag 'intel-gpio-v5.17-1' of gitolite.kernel.org:pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
+19bdba5265624ba6b9d9dd936a0c6ccc167cfe80 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
+7377e853967ba45bf409e3b5536624d2cbc99f21 f2fs: compress: fix potential deadlock of compress file
+cbcb33f1504d8be59d361024d7d711ac39648d47 f2fs: avoid down_write on nat_tree_lock during checkpoint
+7e035df5c899abe32210f06ac2dfed73da98e0f3 f2fs: do not bother checkpoint by f2fs_get_node_info
+5598b24efaf4892741c798b425d543e4bed357a1 f2fs: fix to do sanity check on last xattr entry in __f2fs_setxattr()
+d0cc7858ce91e18a90e779261f2bc35e2c90d294 f2fs: clean up __find_inline_xattr() with __find_xattr()
+014353931778794c30a3e70b1d2568b541befbd6 f2fs: support fault injection to f2fs_trylock_op()
+5da21ee8cfb663f273aa7d5964ae47bce2c70c4c f2fs: fix to check available space of CP area correctly in update_ckpt_flags()
+0bc7e49b0e4676d8470effce4dfbf5cf0f00d1d5 f2fs: fix to reserve space for IO align feature
+a4419b29c491f42eb823f281ef242448f85760f3 f2fs: don't drop compressed page cache in .{invalidate,release}page
+32fbb4f20b03bcab9bd8d7e1e425dfbc341a02f3 f2fs: reduce expensive checkpoint trigger frequency
+e76bf9229303282fca859937efb0714a17dde4f4 f2fs: fix to keep isolation of atomic write
 
---===============5760354545647679233==--
+--===============2987494996210118689==--
