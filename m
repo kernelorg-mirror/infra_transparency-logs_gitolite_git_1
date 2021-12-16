@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 16 Dec 2021 09:30:37 -0000
-Message-Id: <163964703797.27343.7354317799206905720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Thu, 16 Dec 2021 09:37:42 -0000
+Message-Id: <163964746257.30756.10849002641234491653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/fs.binfmt_misc
-    old: e4f4fc4cab34839c1eab2f5d951ae6b5e7a4dbba
-    new: d414676ebc579ea1a8099a9cb66d8f143adebe54
+  - ref: refs/heads/habanalabs-next
+    old: 1e20e307af47308bd18cbe48387ebd5c3e56593b
+    new: fe58319774f6332c2d4293405401642ea5523a28
     log: |
-         789b237ee4e5a2211339504eeb24ab7df4a82247 binfmt_misc: cleanup on filesystem umount
-         d414676ebc579ea1a8099a9cb66d8f143adebe54 binfmt_misc: enable sandboxed mounts
+         1a0a78fb3eb496a4b77e6cca0459fea6141f19d7 habanalabs: sysfs support for two infineon versions
+         c4fcb159575672f59beb5fc3f4276fef7b29983b habanalabs: expose soft reset sysfs nodes for inference ASIC
+         f80786ca3e72647ee6f33c420bed83733f819203 habanalabs: clean MMU headers definitions
+         9ccdc4dfa6092add1c94d77d43200181832f61ae habanalabs: modify cpu boot status error print
+         4e2aa49a1f5b0d5701379efe7a79382ce3494833 habanalabs: prevent wait if CS in multi-CS list completed
+         730acaed9bde0e1fed289a8ec047b50b47cc5281 habanalabs: change wait_for_interrupt implementation
+         fe58319774f6332c2d4293405401642ea5523a28 habanalabs: fix endianness when reading cpld version
          
