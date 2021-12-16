@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5001800625674977624=="
+Content-Type: multipart/mixed; boundary="===============7241834922549504369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 16 Dec 2021 17:56:10 -0000
-Message-Id: <163967737076.27683.15118905137156217594@gitolite.kernel.org>
+Date: Thu, 16 Dec 2021 17:56:21 -0000
+Message-Id: <163967738126.27823.24164130067845602@gitolite.kernel.org>
 
---===============5001800625674977624==
+--===============7241834922549504369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 1d1c950faa81e1c287c9e14f307f845b190eb578
     new: e28587cc491ef0f3c51258fdc87fbc386b1d4c59
     log: revlist-1d1c950faa81-e28587cc491e.txt
 
---===============5001800625674977624==
+--===============7241834922549504369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e08cdf63049b711099efff0811273449083bb958 dsa: mv88e6xxx: fix debug print for SPE
 8b8e6e782456f1ce02a7ae914bbd5b1053f0b034 net: systemport: Add global locking for descriptor lifecycle
 e28587cc491ef0f3c51258fdc87fbc386b1d4c59 sit: do not call ipip6_dev_free() from sit_init_net()
 
---===============5001800625674977624==--
+--===============7241834922549504369==--
