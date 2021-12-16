@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Thu, 16 Dec 2021 19:10:34 -0000
-Message-Id: <163968183438.10281.10892172881145631796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 16 Dec 2021 19:15:30 -0000
+Message-Id: <163968213080.13198.3946846021164525067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/clk-x86
-    old: 0000000000000000000000000000000000000000
-    new: ff5f87cb6a75dbf6d30668d2464e46249dd5c47f
+  - ref: refs/heads/master
+    old: faf98e04275662fccafd0effa7d1afc32b8ce9ad
+    new: cab4bef047c76901c153e3353ee130f5a63d62d2
+    log: |
+         cab4bef047c76901c153e3353ee130f5a63d62d2 Thu Dec 16 07:14:55 PM UTC 2021
+         
