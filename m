@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 16 Dec 2021 20:17:49 -0000
-Message-Id: <163968586944.20269.11873590983395478643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 16 Dec 2021 20:32:26 -0000
+Message-Id: <163968674609.30097.15343811327131884568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: f97982398cc1c92f2e9bd0ef1ef870a5a729b0ac
-    new: 1a6369ba624929c8bfa412045af79dbf7703b8c8
+  - ref: refs/heads/master
+    old: 484dea8d7a6bda9678c224437cc931b52f18dd17
+    new: 683d3a3f04a8c282ed4338f31de67abbb90e37a6
     log: |
-         cebdb7374577ac6e14afb11311af8c2c44a259fa tools: Help cross-building with clang
-         bf1be903461a404a9d1c720b0872501ca35abc89 tools/resolve_btfids: Support cross-building the kernel with clang
-         4980beb4cda2bc413a3a044e1851b0daaf137bf6 tools/libbpf: Enable cross-building with clang
-         bdadbb44c90aedaa74d46f1b113bd845774efa39 bpftool: Enable cross-building with clang
-         bb7b75e860eec31aa67b83935849fdc46418c13e tools/runqslower: Enable cross-building with clang
-         ea79020a2d9eea62b12d90f0c11b7d70fcadc172 selftests/bpf: Enable cross-building with clang
-         1a6369ba624929c8bfa412045af79dbf7703b8c8 Merge branch 'tools/bpf: Enable cross-building with clang'
+         5ab6566a3b6359da5a98f4c5b46decd16b265e08 dpp-util: add dpp_point_to_asn1
+         ae52ab2cfbc70c4b5364908e7dad6912df493cba doc: document DPP interface
+         f06d0bd02832714747349881a7a09065e8d00fe4 dbus: add DPP interface
+         acfbc349092cba95cdcd631a66a87c9a209a108b dpp: initial skeleton DPP module
+         76d9a2e7028fe81eca03a58df20b7d9f4780ddf6 dpp: generate URI on StartEnrollee
+         683d3a3f04a8c282ed4338f31de67abbb90e37a6 dpp: send presence announcements on StartEnrollee
          
