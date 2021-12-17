@@ -1,63 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 17 Dec 2021 09:32:47 -0000
-Message-Id: <163973356754.31910.5444187455483837733@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7389802976443714902=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 17 Dec 2021 09:36:40 -0000
+Message-Id: <163973380071.26827.6827343724884349875@gitolite.kernel.org>
+
+--===============7389802976443714902==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 30e29f3180d6ce52bb43250e5fdd2d5be9de8237
-    new: 3a1ed112a57cb0dfc89f41c483e2ac7cadce64a9
+  - ref: refs/heads/char-misc-next
+    old: af40d16042d674442db8cf5fd654fabcd45fea44
+    new: 3953831982eb9c90506c4a2e8d7e6c3d840abf8a
     log: |
-         4da4a81f9c745126a0f580217e406a8f25ec5b58 nfc: fix segfault in nfc_genl_dump_devices_done
-         7cd3b6217730cef8df21ab47231c5b4e8896ad3a drm/msm/dsi: set default num_data_lanes
-         93f0d02e697db739c212ff79b9dac21397c89c2c net/mlx4_en: Update reported link modes for 1/10G
-         6573cdb6f59b789b657466c7e77eeca3b076326f parisc/agp: Annotate parisc agp init functions with __init
-         eaa966430217e5e6feb8072910c7c786e24ed4e6 i2c: rk3x: Handle a spurious start completion interrupt flag
-         420f2db1cc6e34b16fe101228787279727dd2f4c net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         78bad12cc3943f8bde3ed992c9532db777488563 tracing: Fix a kmemleak false positive in tracing_map
-         94ea84da5f310eda81599aa2f4ad6b3fe7d91138 bpf: fix panic due to oob in bpf_prog_test_run_skb
-         3a1ed112a57cb0dfc89f41c483e2ac7cadce64a9 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+         861dc0d7fd972f2064ff48b211955717163a11e0 lkdtm: Note that lkdtm_kernel_info should be removed in the future
+         026c6fa1a525ca3f8a615052e45d766208989597 lkdtm: avoid printk() in recursive_loop()
+         bc93a22a19eb2b68a16ecf04cdf4b2ed65aaf398 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
+         90091c367e74d5b58d9ebe979cc363f7468f58d3 selftest/lkdtm: Skip stack-entropy test if lkdtm is not available
+         3953831982eb9c90506c4a2e8d7e6c3d840abf8a Merge tag 'lkdtm-v5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/kees/linux into char-misc-next
          
-  - ref: refs/heads/queue/4.19
-    old: 1d3887192d51815b61dc8e66ddd1daa87f77da8d
-    new: c684c8486e782130286c917d8418a450668541ed
-    log: |
-         e7dd680532303e500a6aaf7552a085b401263e83 stable: clamp SUBLEVEL in 4.19
-         bcf530ee64dc15ec6be6a4a6d10fdc3ea6db4c25 nfc: fix segfault in nfc_genl_dump_devices_done
-         11a532b624597ea08a3d3f278b7389f68fbe4ea4 drm/msm/dsi: set default num_data_lanes
-         63fcd7359d431346fe0cf01417e515030b208416 net/mlx4_en: Update reported link modes for 1/10G
-         d009ec2701d51bb7087b76f2e4fa4357a9c56826 parisc/agp: Annotate parisc agp init functions with __init
-         c3790ff86027b90fe79c275b9b15bba94a185eca i2c: rk3x: Handle a spurious start completion interrupt flag
-         c8d4837b1f341dfa4ccbc3d5603dca6200bbd6ee net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         01f25e797a614be3885737ff00ea3b5d61dbcf67 tracing: Fix a kmemleak false positive in tracing_map
-         c684c8486e782130286c917d8418a450668541ed hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-         
-  - ref: refs/heads/queue/4.4
-    old: 49c9f3c2a5a793ac7cb3933966adeef791a8ba0d
-    new: f92bc3511348178c60405309eb87a712ee193f83
-    log: |
-         81602f78bb7159c9da60b88f5463a7ad0ba409ab nfc: fix segfault in nfc_genl_dump_devices_done
-         82c31714faf1a5db6cfb0d879ed023967999501f parisc/agp: Annotate parisc agp init functions with __init
-         4c8e5a9170a6300b0c9a850f61e4237f29c191d7 i2c: rk3x: Handle a spurious start completion interrupt flag
-         74b665cfce84f1b1c302f9a4209226dcb0a6ef83 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         f92bc3511348178c60405309eb87a712ee193f83 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-         
-  - ref: refs/heads/queue/4.9
-    old: a5864b0c4bd52889362f77721110744b7df7c22e
-    new: db9f63b225b1fafcdf01640dd94925ff8fa1b139
-    log: |
-         907a281892beb9d933dcc50e4448d90b61939957 nfc: fix segfault in nfc_genl_dump_devices_done
-         ad30b95cfc3ac69fdde09cd4557cc39fb22fdf48 net/mlx4_en: Update reported link modes for 1/10G
-         629ac0cfb07892371e1192c3e28078696b53451e parisc/agp: Annotate parisc agp init functions with __init
-         3196f36d75d1447a4da02d8f1b57137a641541eb i2c: rk3x: Handle a spurious start completion interrupt flag
-         f6ac9eb38816541431b2bc123dba526fc47a75b8 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-         65fa16b369165c561501fb8abf3ba8b7f3cfff74 tracing: Fix a kmemleak false positive in tracing_map
-         db9f63b225b1fafcdf01640dd94925ff8fa1b139 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-         
+
+--===============7389802976443714902==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639733799 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1639733799-5879995fb5b8c745c2173408d942c5b828eb3c08
+
+af40d16042d674442db8cf5fd654fabcd45fea44 3953831982eb9c90506c4a2e8d7e6c3d840abf8a refs/heads/char-misc-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8WicbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0QMP/jyJiv0mPG6VvEEOuIxt
+KkFvCo6GALyeYukzAoVjDZ/V3UhVsdg7vxgi0MIN28AFLR6AKpHy0obb+/Lkg2TJ
+fMo0nFvcwL5dk+gQYv1rbvDC1K3CVyevMZetLnMuvoDu/d11Zzmr60lVrqBZqQiK
+ZQF8dSQrrAN+Mm5jB7xHTFTcG/Z/MtSe4ZJTkIKSoMTl/FgjjfK5/o4O0/gPHcDS
+lxImNW/A6vkoqABOljcvWZWh8xlWD4/a3Us5OpGnEiy3gw3T5K15wEaE6mbFYkxP
+DkQfGKP/G2FcMYm9ILw/pz2AbmlwviafXHz4Bv8a4fMq49xYwUxSdFmYr134FJNx
+gVXOfXj5KIqJxQg8wR2o7hmiZNgPKdtKCBWJmsQaqz0LYhn1DBv3FYTN0PDgWyhj
+jDfdGlfURBvpnTMhqjqfFKnJ6dMCEZ+psAMxuSs8yL8c4bHGqUVnlVnGuHaUk+QR
+KFj3QgmOkf8SV/YlcSRs2dldd77X6D5fg/fHJ9uslZReG54pColHDsnrxDMfP46J
+3svBre+kVZOsq8IXmnNtHK4RnNNXjd42YU1q6GtpgA3Ab8N0jbNwPkvYUGKthzwe
+T3SdunjWoyr3ASYwRB+NypSHRjt8uQGWLPGhS+wRTFrI7veHp7QeHwWrkwq9/ILu
+EYsRcDBZ2d7hhB9xDmyA/7uv
+=jpgA
+-----END PGP SIGNATURE-----
+
+--===============7389802976443714902==--
