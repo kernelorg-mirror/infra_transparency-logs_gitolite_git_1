@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Fri, 17 Dec 2021 16:57:34 -0000
-Message-Id: <163976025421.17491.5312440513680638062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Fri, 17 Dec 2021 16:59:13 -0000
+Message-Id: <163976035373.18175.11873706019751830842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: nferre
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/tags/at91-defconfig-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 94d6852a06abc581e63d4d8ab5f648e5b9480c02
+  - ref: refs/heads/mvebu/defconfig
+    old: 8d41453493c28d489aeec583fcf3f9d9f4ef0b9c
+    new: 0000000000000000000000000000000000000000
