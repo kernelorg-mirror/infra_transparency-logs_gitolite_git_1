@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6564001837953697782=="
+Content-Type: multipart/mixed; boundary="===============8846032996119461362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Fri, 17 Dec 2021 01:58:09 -0000
-Message-Id: <163970628997.12956.12368754415797026309@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 02:06:54 -0000
+Message-Id: <163970681427.18690.9216912858622490256@gitolite.kernel.org>
 
---===============6564001837953697782==
+--===============8846032996119461362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 53363fe7dd5d060645f7fd64a04187413d256b96
-    new: 2f1336124b54750df7ae428da9352e4d8091f31e
-    log: revlist-53363fe7dd5d-2f1336124b54.txt
+  - ref: refs/heads/mapcount_unshare
+    old: aac1caab9e43e0e8eb42fb256b14ecfee181b699
+    new: d45a6e0c38913833df4aa00ad874fe487a1b0880
+    log: revlist-aac1caab9e43-d45a6e0c3891.txt
 
---===============6564001837953697782==
+--===============8846032996119461362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53363fe7dd5d-2f1336124b54.txt
+Content-Disposition: attachment; filename=revlist-aac1caab9e43-d45a6e0c3891.txt
 
+a5053c92b3db71c3f7f9f13934ca620632828d06 nvme-tcp: fix memory leak when freeing a queue
+5a6254d55e2a9f7919ead8580d7aa0c7a382b26a nvme-pci: add NO APST quirk for Kioxia device
+8e8aaf512a91ae44d40647a88b51326c7b0a70a8 nvme-fabrics: ignore invalid fast_io_fail_tmo values
+00b33cf3da726757aef636365bb52e9536434e9a nvme: fix write zeroes pi
+ae26c08e6c8071ba8febb0c7c0829da96c75248c ALSA: intel-dsp-config: add quirk for CML devices based on ES8336 codec
+b735936289d26404895a544ccc36d7874485ba9d Merge tag 'sound-5.16-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+9054fc6d57e80c27c0b0632966416144f2092c2b ACPI: Get acpi_device's parent from the parent field
+985e9ece1e55a94da842f6c1f9ff84d587b26267 ACPI: Make acpi_node_get_parent() local
+e048834c209a02e3776bcc47d43c6d863e3a67ca drm/hyperv: Fix device removal on Gen1 VMs
+37a72b08a3e1eb28053214dd8211eb09c2fd3187 xen: add "not_essential" flag to struct xenbus_driver
+1c669938c31b6e2a0d5149c3c6257ca9df6cb100 xen: flag xen_drm_front to be not essential for system boot
+0239143490a9fa1344955dde93527b09f5576dac xen: flag hvc_xen to be not essential for system boot
+03e143b2acebe23c893f22ebed9abc0fe2a7f27e xen: flag pvcalls-front to be not essential for system boot
+de6da33e6cb79abd4a5721b65b9a7dbed24378f8 xen: flag xen_snd_front to be not essential for system boot
+5d9f4cf36721aba199975a9be7863a3ff5cd4b59 Merge tag 'selinux-pr-20211123' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+1880ed71ce863318c1ce93bf324876fb5f92854f tracing/uprobe: Fix uprobe_perf_open probes iteration
+0956ba63bd94355bf38cd40f7eb9104577739ab8 scsi: lpfc: Fix non-recovery of remote ports following an unsolicited LOGO
+710d5835b7ae17c517f5aeaff853c300959c87ec tools: sync uapi/linux/if_link.h header
+0afefdced47d039bd418f5d67f594a60aea20871 tc-testing: Add link for reviews with TC MAINTAINERS
 619ca0d0108a5866cca7793bd7e19c5d7a30e750 selftests: add arp_ndisc_evict_nocarrier to Makefile
 94902d849e85093aafcdbea2be8e2beff47233e6 arm64: uaccess: avoid blocking within critical sections
 cf0b0e3712f7af90006f8317ff27278094c2c128 KVM: PPC: Book3S HV: Prevent POWER7/8 TLB flush flushing SLB
@@ -1030,25 +1049,6 @@ e1ad9b399c8c7d10f6fc2f1796daec6a71d5eecd mm: gup: document FOLL_MM_SYNC
 aee3db5456e5b1abd54d152f623ef6c520f589db mm: thp: optimize total_mapcount() with head_compound_mapcount
 9fa6c3600c2aefb70b1c79e0bf1a10b571ffda2b mm: thp: cleanup and optimize compound_nr
 bbb329566757030dec3960ffbc8465a8092a17fd mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-5bab640e607563d2e6bae9963490221f6a071767 mm: mm_take_all_locks: add cond_resched()
-98a02fb445cb768ad87051f35a25360aaf09e63c x86: restore the write back cache of reserved RAM in iounmap()
-6fc4c2fb0606f5dbc20101a5913340dfedc450a6 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-95208060a8dea49f923ad9d101c466a36d852ebb x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-d78bdef28cef9d929c674f2875b3db10fdabee23 x86: atomic_set needs WRITE_ONCE
-a4d8fd1c6c6a50742804219027c0b194b40b6fcf sched/fair: skip select_idle_sibling() in presence of sync wakeups
-450a44c410c50d36ed64c852bcfd4aa178791b20 mm/userfaultfd: provide unmasked address on page-fault
-d423f923e141cc697a88ebf8b5796267be09d6ee userfaultfd: UFFDIO_REMAP: rmap preparation
-d3543a9cb763bb27e6630a2b1ecbbf978bf086f7 userfaultfd: UFFDIO_REMAP uABI
-884c0fc1179888324a73ef93d78c0ba7950d4c5e mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-a212eb42d63585e88fe6214b7b70426dbffade51 arm64: select CPUMASK_OFFSTACK if NUMA
-d88c2f6b85e2ac71161bbd1612796a62698d560e arm64: tlb: skip tlbi broadcast
-fe61746908b017d52cabdf9c9d085a82d3e3e23d mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-fdc7e5126e55af27adcd9ef5f1f58f1109c2b9a3 KSM: if the page isn't mapped page_anon_vma(page) can be stale
-75c641e825d331aef3070a5329bd9e137ae709df KSM: add batch random generator helper
-fec43fa50ccf8365ae2a8d9f150970ab6ca42b18 KSM: only attempt to merge with KSM pages if the payload doesn't change
-e72b7d4ded204473a0b6e6301f9e59205e21cfbd KSM: eliminate the KSM COW side channel
-3286e7f492aa65e4d0148d698b88ee681b04ba8e KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
-e3e4945879e42b8498663505ffc9ed9a1f36b736 KSM: break_ksm: use the COR fault
-2f1336124b54750df7ae428da9352e4d8091f31e Merge remote-tracking branch 'gitlab/main' into main
+d45a6e0c38913833df4aa00ad874fe487a1b0880 mm: gup: FOLL_UNSHARE and COR fault
 
---===============6564001837953697782==--
+--===============8846032996119461362==--
