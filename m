@@ -1,48 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0051962582460115809=="
+Content-Type: multipart/mixed; boundary="===============1885856591342910677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 17 Dec 2021 08:36:44 -0000
-Message-Id: <163973020484.27772.8821530301743921481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 17 Dec 2021 09:06:48 -0000
+Message-Id: <163973200894.29979.14563578981574439316@gitolite.kernel.org>
 
---===============0051962582460115809==
+--===============1885856591342910677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3f9dd4c802b96626e869b2d29c8e401dabadd23e
-    new: 696645d25bafd6ba3562611c29bc8ecd47066dfe
-    log: revlist-3f9dd4c802b9-696645d25baf.txt
+  - ref: refs/heads/char-misc-testing
+    old: af40d16042d674442db8cf5fd654fabcd45fea44
+    new: 3953831982eb9c90506c4a2e8d7e6c3d840abf8a
+    log: |
+         861dc0d7fd972f2064ff48b211955717163a11e0 lkdtm: Note that lkdtm_kernel_info should be removed in the future
+         026c6fa1a525ca3f8a615052e45d766208989597 lkdtm: avoid printk() in recursive_loop()
+         bc93a22a19eb2b68a16ecf04cdf4b2ed65aaf398 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
+         90091c367e74d5b58d9ebe979cc363f7468f58d3 selftest/lkdtm: Skip stack-entropy test if lkdtm is not available
+         3953831982eb9c90506c4a2e8d7e6c3d840abf8a Merge tag 'lkdtm-v5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/kees/linux into char-misc-next
+         
 
---===============0051962582460115809==
+--===============1885856591342910677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f9dd4c802b9-696645d25baf.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-015e42c85f1ec33894579626128b385d4780e883 crypto: x86/des3 - remove redundant assignment of variable nbytes
-c8341ac62bed9258746a5c7fb8a76d88809ecd1f crypto: ccp - Add SEV_INIT rc error logging on init
-e423b9d75e779d921e6adf5ac3d0b59400d6ba7e crypto: ccp - Move SEV_INIT retry for corrupted data
-cc17982d58d1e67eab831e7023ede999dda56173 crypto: ccp - Refactor out sev_fw_alloc()
-b64fa5fc9f4495e3ff189d9fb31cd53e6ced1cc3 crypto: ccp - Add psp_init_on_probe module parameter
-3d725965f836a7acbd1674e33644bec18373de53 crypto: ccp - Add SEV_INIT_EX support
-61a13714a9853fb7b342ecae7ecafad1a950309b crypto: cavium - Use kcalloc() instead of kzalloc()
-0b62b664d52c670eb5e0fa7dfd6a85dbc518619c crypto: marvell/octeontx - Use kcalloc() instead of kzalloc()
-244d22ffd656bc8e5c49a2cd2fdfeb0e52a9730f crypto: api - Replace kernel.h with the necessary inclusions
-51fa916b81e5f406a74f14a31a3a228c3cc060ad crypto: hisilicon/hpre - fix memory leak in hpre_curve25519_src_init()
-808957baf3aa42b71453c8accc71cf5e52665982 crypto: hisilicon/zip - enable ssid for sva sgl
-fc6c01f0cd10b89c4b01dd2940e0b0cda1bd82fb crypto: hisilicon/qm - fix deadlock for remove driver
-f123e66df6ca0fce73309dda667d7d1d5b0aa715 crypto: hisilicon/qm - remove unnecessary device memory reset
-9ee401eaceddb3e96fb72ef097175fcaaa1fb37a crypto: hisilicon/qm - code movement
-145dcedd0e17f40bd8066a0234a19e40463367db crypto: hisilicon/qm - modify the handling method after abnormal interruption
-a0a9486bebc43679ec9ded50ac6b93330c4b930f crypto: hisilicon/qm - use request_threaded_irq instead
-95f0b6d536374ea1796bd0d9024faaca9c4f3380 crypto: hisilicon/qm - reset function if event queue overflows
-696645d25bafd6ba3562611c29bc8ecd47066dfe crypto: hisilicon/qm - disable queue when 'CQ' error
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639732007 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1639732007-fc577688b610260c5a01c55cdb3c165c302e13d5
 
---===============0051962582460115809==--
+af40d16042d674442db8cf5fd654fabcd45fea44 3953831982eb9c90506c4a2e8d7e6c3d840abf8a refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8UycbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c/8QAMSmRxm6ScANKbvkFkmG
+SY0X2q4sQ5sqe+HWOHXVQJunhpynB/bPf5W7K8f/QnOyjiQT1QLX0rFackSbSE8l
+CN94hHKUIFGhdgLHUZpg3sYOWiHY2888oi37P8tCc/ay+DDqozv75kWoJhf2ECY8
+UY7MNrcK/B+L+QERAucEoiRX5K5H95dQ6JWdP4VQ2v7vdOKY5GK5zAbzfYPX4n5g
+/Vdut3lSqeHZ4T50s8BYprBmHMhaoNL4pVQ/V+gDXoIzTmlRH7UCHFFqxSQAYjBW
+yqWGis/IHSCaAaHEzp3pAFKIWNbqyhRWVcRrJboj1JKzIMOIM1/yGpecReBYYYQl
+rLcOhINInCcXr7b/vwIyE+vGX9Rrchr5q0iSg8Q6oSeeJvhc6/r4a+Mn6EddN/Dn
+7tNyMRm+cQ+9/7CTuEdcGe6QRNNGBjpxl2QBEP3UjTLG3cnd9w8cVmlzvj5W+Nps
+E4595N2KOC6c54+I58A7vfjrRkR83B1S7Y0APw71ryrtyZAJ+ZQuUQTkST0fP+l3
+9CLeO3y6R05axKWgaesjxHbfqP5jQCi/Hnw4LHhn8fxi78pW9zhZMQu61rsod1lo
+u8JZHyb+RMQq8I6+a0LnvrA+OE17I+HRJGTeEQL9xzI1YM8hl/Gc+ao4qCH73k43
+l28ksHFYAnhnQJiJX07YWqu3
+=G3Me
+-----END PGP SIGNATURE-----
+
+--===============1885856591342910677==--
