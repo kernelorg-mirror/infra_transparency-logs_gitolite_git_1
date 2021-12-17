@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 17 Dec 2021 21:15:51 -0000
-Message-Id: <163977575105.20489.8424133521577196619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 17 Dec 2021 21:16:55 -0000
+Message-Id: <163977581526.20847.7802527357624065637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/tglx-pc.2021.12.17a
-    old: 0000000000000000000000000000000000000000
-    new: 14f5ca533dbc50374343ca61833c316453ae54ba
+  - ref: refs/heads/for-5.16
+    old: d1ed82f3559e151804743df0594f45d7ff6e55fa
+    new: 0000000000000000000000000000000000000000
