@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 17 Dec 2021 15:05:58 -0000
-Message-Id: <163975355827.1100.18388874035602717841@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0888374083064253591=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 17 Dec 2021 15:07:40 -0000
+Message-Id: <163975366043.1789.5040907354248426934@gitolite.kernel.org>
+
+--===============0888374083064253591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: aaa3a53c4b473a78e8cc8682c22030674d48fe5f
-    new: bb881b6150f523c1d24c3c94f838d400fd81a8bd
+  - ref: refs/heads/master
+    old: 086f48be85dd34c93655eb2473a456a2f11511be
+    new: 1fabf7cf0ae194132f26fadea46226997d93adc6
     log: |
-         5ef11c56b2332613cacd5e7ac17cfb1a073b66ab r8169: Avoid misuse of pm_ptr() macro
-         c06ef740d401d0f4ab188882bf6f8d9cf0f75eaf PM: core: Redefine pm_ptr() macro
-         1a3c7bb088266fa2db017be299f91f1c1894c857 PM: core: Add new *_PM_OPS macros, deprecate old ones
-         3f834333669a3024903be7bf770b1b6f8c8d75dd Merge branch 'acpi-tables' into linux-next
-         bb881b6150f523c1d24c3c94f838d400fd81a8bd Merge branch 'pm-core' into bleeding-edge
+         1fabf7cf0ae194132f26fadea46226997d93adc6 4.4-stable patches
          
-  - ref: refs/heads/linux-next
-    old: 8dff5ac97bf3147fe5caf4c0f21592607ca08416
-    new: 3f834333669a3024903be7bf770b1b6f8c8d75dd
-    log: |
-         7e29a225c7508f858ac1c900675390ec4ef01aed ACPI: tables: Add AEST to the list of known table signatures
-         3f834333669a3024903be7bf770b1b6f8c8d75dd Merge branch 'acpi-tables' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 8dff5ac97bf3147fe5caf4c0f21592607ca08416
-    new: 3f834333669a3024903be7bf770b1b6f8c8d75dd
-    log: |
-         7e29a225c7508f858ac1c900675390ec4ef01aed ACPI: tables: Add AEST to the list of known table signatures
-         3f834333669a3024903be7bf770b1b6f8c8d75dd Merge branch 'acpi-tables' into linux-next
-         
+
+--===============0888374083064253591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639753659 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1639753658-75491193f36e50a62c1ae349434d5c05a9307ba2
+
+086f48be85dd34c93655eb2473a456a2f11511be 1fabf7cf0ae194132f26fadea46226997d93adc6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8p7sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nwAQAIgFrEeZTO2tefWqgfxA
+boiefYbmVrA5Qw3UbM3gC6rKc3J/97J32iQjuu9+mmkvI2iLS4OEAr6dFZKdb6Tu
+xfo46jm0CnBf4wBqiPpjolldgm+j7M0J6hQvtfzZDWURm7aTCiwd/xD0Dm4/LSJj
+Rfi/uClHQx0bbWFbtD8vTL+y8SBNRP8OUTnSz0XpEwH1rp2/TBCu35ZQ8lkFW8mt
+34MFTTh5tVmfF23Q7r3OiUJGzJ1L7MQS/+EW7zIgNSHyagAol9pYJv1d8kuDVtks
+jkBsGJXvLxvxATDELdMKyPIz5cRSDBRAzNRTf3kEIScaF1ZcqMgnHmfzKK95Ealf
+P9vh/TaDXxppaa4iU048dXmEH6YLTtwQO9+toqhYe3ZaIWNWWtCUVfAL7nT5NUll
+MLhx5HzyLQxYKN3b3ZdDCGkAiQfu+2RiE6kZw0Hlpq5xpy7EUYillznFKcZ6wgo9
+EaEWNhbzKA5qULRwgCiiJfVANCB5Ng3wdp/IFfraJo5I/5uuBBNhSAS0jy/S+U8k
+/YDMtNU21CHR6bkzqLCdvJ30TD6qwjrnCWy8Lb3pf4HF9Ammz8beUoNAYdxXjvQC
+Cl5D7WGz9PBXDVr7cwmaUl6PJqAJvFXmTgpho7tW+UzrA06vLdgVRu2jgp9RhGO6
+MfEUu/7xCh7LuZoMb/xkk6Fb
+=Jk8q
+-----END PGP SIGNATURE-----
+
+--===============0888374083064253591==--
