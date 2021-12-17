@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8555951350694684565=="
+Content-Type: multipart/mixed; boundary="===============4551151410694125956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 17 Dec 2021 17:36:12 -0000
-Message-Id: <163976257294.11372.822024213298400335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Dec 2021 17:36:19 -0000
+Message-Id: <163976257989.11457.2037430664480029050@gitolite.kernel.org>
 
---===============8555951350694684565==
+--===============4551151410694125956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 0f2ee77d2655bd4bb205fff16822e551159f41c9
     new: c50384d7e331aceeb4072bf363d5235eddda65bf
     log: revlist-0f2ee77d2655-c50384d7e331.txt
 
---===============8555951350694684565==
+--===============4551151410694125956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1639762570 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1639762570-92d164f71f04622d7ad3e8dd4db6c14c8de04656
+pusher C3F436CA30F5D8EB 1639762577 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1639762577-46b1c267842ead2c96f967b14e5c2e9831834084
 
-0f2ee77d2655bd4bb205fff16822e551159f41c9 c50384d7e331aceeb4072bf363d5235eddda65bf refs/heads/for-5.17
+0f2ee77d2655bd4bb205fff16822e551159f41c9 c50384d7e331aceeb4072bf363d5235eddda65bf refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG8yooACgkQJNaLcl1U
-h9CFEAf+IgchwdCi+YyYBgcmseN/qda8aAQDrETuDJ/SXPL35TudVZxOQHKgLU5j
-LlKqoW6dnaXiczvqttjcqaqE26CcSNJSA4fmhX2+QeQv1yoMYfXY7DLmALHfGjsx
-WOtYFVebhw+RHtuoUgbngTFbVJ1Yfe7gnY/bLaWmND1sh14OV5fG6wJ8fMMz5j6K
-44Ivlhl0nayIR8QmlsjdoSozoNcDGQSCL0BY+ymMpl/RwTNWnY+Dg/j8divD9OLq
-b1mFTr+z7615MRn8t+Vw6unltFOighP1A/MlnZdckBtpnIRlJ4+iMNGr8EnJ5VvX
-QmpnqEri1O83rSuar6FojRJQ/h5kqA==
-=fA/L
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmG8ypEACgkQJNaLcl1U
+h9AMXgf9FOz/JFQJHoh6y7FxprdRJh56eEne9UN/YVRCW1zCk02r4mJrYBNRYlPg
+8ZOG7chorSuoycwkHnAdRfI4KQAxBFEcwuXiq8MYtWQQLTZbeZgMTfUjmLaJasiv
+SgvlCOn6pmT/o/Oo++b7vtUCTLD+hsNk52GNDM2up0RYfBSlfulOEE6aAz+/JQ92
+9W81DG6VPsw+/N+A/ZgSncYw3ARGeiJrl6f3/+lnK/6+gJL9+CZvmHHYNXcx/vU9
+XOh3Ot2fPJ88aS/nC/OrccEjwN0sIZ3kVX5gRGex0Jcngu/Ax8/Fu9P8dzS1ocDH
+kqBNlBQuMDk7Wf862OBXnISQhr8Rng==
+=tsGN
 -----END PGP SIGNATURE-----
 
---===============8555951350694684565==
+--===============4551151410694125956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ a92c1cd33520a3e80caa6cea3113eb173a908141 ASoC: SOF: couple of cleanups
 be1d03eecc1cb55bd7ff7a419209fb027892e14d Support HDMI audio on NVIDIA Tegra20
 c50384d7e331aceeb4072bf363d5235eddda65bf ASoC: Intel: catpt: Dma-transfer fix and couple
 
---===============8555951350694684565==--
+--===============4551151410694125956==--
