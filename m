@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4798570184350265619=="
+Content-Type: multipart/mixed; boundary="===============2443927912187149111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Dec 2021 04:03:19 -0000
-Message-Id: <163971379996.27075.17758786646781072191@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 04:03:30 -0000
+Message-Id: <163971381055.27194.16575384045572399554@gitolite.kernel.org>
 
---===============4798570184350265619==
+--===============2443927912187149111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: aea58f153915bd3ad1f7f173cafcfcc09e727ac1
-    new: 778ddaf1f299635cc20e699be07002bd32765ea2
-    log: revlist-aea58f153915-778ddaf1f299.txt
+  - ref: refs/heads/5.17/scsi-queue
+    old: 4437503bfbec2f02b41b2492520fe627715889a7
+    new: 87f77d37d398d92a9963890b14f336dc394f6fa0
+    log: revlist-4437503bfbec-87f77d37d398.txt
 
---===============4798570184350265619==
+--===============2443927912187149111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1639713792 -0500
+pusher 75C5DE3D 1639713803 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1639713791-6e08e129996133ba4adf9c3130a283d7f5bbbad1
+nonce 1639713803-a5183b8d70570f4174490b3920170ecf189821ca
 
-aea58f153915bd3ad1f7f173cafcfcc09e727ac1 778ddaf1f299635cc20e699be07002bd32765ea2 refs/tags/mkp-scsi-queue
+4437503bfbec2f02b41b2492520fe627715889a7 87f77d37d398d92a9963890b14f336dc394f6fa0 refs/heads/5.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG8DAAACgkQ7ulgGnXF
-3j0jERAAj0DZrPrWFkz8m2gt2rmHuCrHFdYiTJ2hfblwKg2JxiJuRnWpTLj9JnNV
-Ar1+IfFihsd94OkdVxfj8c2APxBMajR++gE169FyUV6GR52cJZQtcWBi6O7rWPlz
-SnIcjdXZhkKAQy0x/fc5Qu1J/hXdRgiZrozIRwgyickxJWSBg8sc+Da68rNt8rxB
-OaSSHKt4ovgq9ogcOOP3bRlMBfkp6qouc6brb0eD0jl/y2Bw17bcuU09mgw/34DA
-gxlTcho6Rb2XGhVmRCifv1yTcfPsDfzgoNG1QKZIaCrapnZ2g/K0Cm+FrtzgXS6s
-gV/HKJnY82xuTQVQvMvrqtXpBakUqH2ChsDMijcBwD8XRUemW29mqp9geaKw6YE4
-AzunJrp2myyOHkB1L4DQbrEWJdUy2BHt2Bs1GqhCz4r0Bz3bu7IHAT3FmzHx1MNL
-nL5SARRLcnzze02snyy+/N5pNSr1x+GuaOi6jtOUTQLz4jCs4MqGXmO2pvLNsO33
-bKVXnxHSxBEgzXmjtohB2jFUvFnqu0CYEIwxH+RYQIL81rWtJQ9APEfaeHWf6cBS
-g2Qbo/R7vQfudNhSd5wtorEkAfWmJP0yok7alZRkjC82L2vmCTIZcQtf04qNRjM0
-fCjDP55PZjjwwQ21PvD65QlVB6movhnUL9FYDt780Tr7OxBSm+w=
-=4gFG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG8DAsACgkQ7ulgGnXF
+3j0BlRAApOTxwdqRd9p4fjqtFpsaI0Vvi+kaL+MfX642LHmSAntYGLzNf3t1qCXy
+tgSHmay4+a7QPSTG6D9OTJdlE03xDPQHlJONCSy3Yb2Si8lbIkxafZFb3pB9W49D
+GV0gjvLyrpsIGfX3iL7okRocpbqgfe5+9PJnm1ruAyhZWDqlrn4nnhSw3e29cLoq
+33aaE2l9YnhMwAzQxFFwwTZ28WbaUUiNcFkoL4eGpIyp3uc5L0PtohCLrL6l8prr
+gkD9DSTzYLAPHZ5wpC+UH8KyPe/V5FLWHu0PgjnAuwkd4YK0aR6xwmvKyt+oPpzW
+yaMpwI9xEdwHEcZg+qlrlJGw3pP1yTEQU6TxUQzISmxYtLeciTLic10VwHBRTUD3
+PUPhpbZUXFsq1t7Hs9uvDJRqG7LrgM603OuVJgA7TuGZgt2gIO60PRogfuQSf+o8
+gIwmiKkfJPnk5unrXVHn4XCkSDgAWII7YCC9coI1VTQaAvSatSJFDB5RMd7JiaQg
+HrPN0AE/Zk9bOfyQ8oKJA4X964a6MKaLgIreNPxBpDlFTNkev+ZmPgWlHW5a6mRW
+SBZC+QMDJGmlMQm6yq4sQn/hwUQyG1PT3VWIMDtVH5idpbMLYRE9L5lU/Qt50/VF
+u/DNn72Q6UZZZ5EfgVUFXDiMWwH1nHYSUKs9nysN7WJpZh9qS8Q=
+=MTZP
 -----END PGP SIGNATURE-----
 
---===============4798570184350265619==
+--===============2443927912187149111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aea58f153915-778ddaf1f299.txt
+Content-Disposition: attachment; filename=revlist-4437503bfbec-87f77d37d398.txt
 
 3ff1f6b6ba6f97f50862aa50e79959cc8ddc2566 scsi: ufs: core: Improve SCSI abort handling
 a0c2f8b6709a9a4af175497ca65f93804f57b248 scsi: iscsi: Unblock session then wake up error handler
@@ -85,4 +85,4 @@ c167dd0b2a7afcf2c25e44b9b6168cba3a51d27d scsi: lpfc: Use struct_group to isolate
 8c2d04551545d3722c1e6891ecce46f44c5406ec scsi: hpsa: Remove an unused variable in hpsa_update_scsi_devices()
 87f77d37d398d92a9963890b14f336dc394f6fa0 Merge branch '5.16/scsi-fixes' into 5.17/scsi-staging
 
---===============4798570184350265619==--
+--===============2443927912187149111==--
