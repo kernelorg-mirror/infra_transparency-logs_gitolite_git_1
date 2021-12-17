@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2427211262406787764=="
+Content-Type: multipart/mixed; boundary="===============3938255111860464423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 17 Dec 2021 00:34:28 -0000
-Message-Id: <163970126850.18991.9082089533065979376@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 00:35:06 -0000
+Message-Id: <163970130647.20609.8341320894714943725@gitolite.kernel.org>
 
---===============2427211262406787764==
+--===============3938255111860464423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.16-fixes
+  - ref: refs/heads/for-next
     old: a66307d473077b7aeba74e9b09c841ab3d399c2d
     new: 5da5231bb47864e5dd6c6731151e98b6ee498827
     log: revlist-a66307d47307-5da5231bb478.txt
 
---===============2427211262406787764==
+--===============3938255111860464423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ c7fc51268bc09c5f012f5e35e872f4e319f95f80 Merge tag 'timers-urgent-2021-12-12' of
 2585cf9dfaaddf00b069673f27bb3f8530e2039c Linux 5.16-rc5
 5da5231bb47864e5dd6c6731151e98b6ee498827 libata: if T_LENGTH is zero, dma direction should be DMA_NONE
 
---===============2427211262406787764==--
+--===============3938255111860464423==--
