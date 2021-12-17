@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7753264160391065927=="
+Content-Type: multipart/mixed; boundary="===============3972966084724462736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 17 Dec 2021 17:57:38 -0000
-Message-Id: <163976385833.25290.3507415146517389578@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 17:57:48 -0000
+Message-Id: <163976386812.25428.3190563733756895781@gitolite.kernel.org>
 
---===============7753264160391065927==
+--===============3972966084724462736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 604ba230902d23c6e85c7dba9cfcb6a37661cb12
-    new: f75c1d55ecbadce027fd650d3ca79e357afae0d9
-    log: revlist-604ba230902d-f75c1d55ecba.txt
+  - ref: refs/heads/mlx5-queue
+    old: af3f857a029b4fbac9238a36486c380bf4ea0191
+    new: 2543188c668d471fca1ff3fb468ab7689b4e1938
+    log: revlist-af3f857a029b-2543188c668d.txt
 
---===============7753264160391065927==
+--===============3972966084724462736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-604ba230902d-f75c1d55ecba.txt
+Content-Disposition: attachment; filename=revlist-af3f857a029b-2543188c668d.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
@@ -590,5 +590,22 @@ c2fcbf81c332b42382a0c439bfe2414a241e4f5b bpf, selftests: Fix racing issue in btf
 6cc74443a7732d7e93bee3d0c3704a22cc7274d9 net: mana: Add RX fencing
 86df8be67f6ca85d14fd469f1d1bcc3eee8f713e net: dsa: microchip: remove unneeded variable
 f75c1d55ecbadce027fd650d3ca79e357afae0d9 Merge tag 'wireless-drivers-next-2021-12-17' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+98e469d5806efcbccb6a6fd5afe628c6d6feb9fe net/mlx5: Remove the repeated declaration
+bc12fe3dbe39bb9e8d8669712219ecc59021dcf9 devlink: Add new "io_eq_size" generic device param
+75e113cf08c15457ab12fe2957f8ea96e9722b6e net/mlx5: Let user configure io_eq_size param
+5c1f743dc9486bc693d850cbf633272eb7497c84 devlink: Add new "event_eq_size" generic device param
+7c41c8ea013d6c329c1613d98e1900ac45ce26aa net/mlx5: Let user configure event_eq_size param
+b5ea5ad05fa0dc914bb8abea4178b36b6768dba1 devlink: Clarifies max_macs generic devlink param
+d8c9c136a6dcb85b37b03bd0838d7d9f524ea42e net/mlx5: Let user configure max_macs generic param
+ee639d6483f0f5dd471a93e5544be8941620f22c net/mlx5e: Use bitmap field for profile features
+f481e39bc94baa7c43c9fa7945b4976b4402a51e net/mlx5e: Add profile indications for PTP and QOS HTB features
+0eec1d67f69d39fdf8f5d125ca4ec16a27c0b85a net/mlx5e: Save memory by using dynamic allocation in netdev priv
+8293c8030824db76750ba61427322f06116951bd net/mlx5e: Allow profile-specific limitation on max num of channels
+89d0e8761181a47c5c38c956b72f81cdd19cdfcc net/mlx5e: Use dynamic per-channel allocations in stats
+bee1f5e0af001383442c7db331115adbe9fd8180 net/mlx5e: Allocate per-channel stats dynamically at first usage
+d3cd565ce922b8bef6ee7f571723f9f062e00c7d net/sched: act_ct: Fill offloading tuple iifidx
+854ba37fb4fa8fc8d35b8adf66cd795e808ac27b net: openvswitch: Fill act ct extension
+0ee6679ff944c3a241702dfb31e925adf20307f8 net/mlx5: CT: Set flow source hint from provided tuple device
+2543188c668d471fca1ff3fb468ab7689b4e1938 Merge branch 'patchq/374716' into mlx5-queue
 
---===============7753264160391065927==--
+--===============3972966084724462736==--
