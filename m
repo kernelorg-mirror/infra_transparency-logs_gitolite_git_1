@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 17 Dec 2021 21:18:18 -0000
-Message-Id: <163977589888.21806.5804280124868191225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 17 Dec 2021 21:19:42 -0000
+Message-Id: <163977598219.23365.16739514141828827600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/for-5.16-rc2-tag
-    old: d0a295f521e2ea6e6da8f91b2e58c5d5670db9e5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dev
+    old: 93ed662d0b1b30df2bdee327bfcc9dad1eee2f31
+    new: 52d5948696234d61b43980fefe1e165909ed240c
+    log: |
+         52d5948696234d61b43980fefe1e165909ed240c rcutorture: Make rcu_fwd_cb_nodelay be a counter
+         
