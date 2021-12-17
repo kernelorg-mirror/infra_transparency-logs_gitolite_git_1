@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6521762921909329667=="
+Content-Type: multipart/mixed; boundary="===============8651323172212142976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 17 Dec 2021 04:03:40 -0000
-Message-Id: <163971382093.27293.18320716340327398139@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 04:03:53 -0000
+Message-Id: <163971383345.27429.15695453115831696334@gitolite.kernel.org>
 
---===============6521762921909329667==
+--===============8651323172212142976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 4437503bfbec2f02b41b2492520fe627715889a7
-    new: 87f77d37d398d92a9963890b14f336dc394f6fa0
-    log: revlist-4437503bfbec-87f77d37d398.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 9d58f46b9c18f0b1294669f0148d6ec8fab40ba2
+    new: 478850935f97f4e69c081adfdc0b195853fb9e4c
+    log: revlist-9d58f46b9c18-478850935f97.txt
 
---===============6521762921909329667==
+--===============8651323172212142976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1639713813 -0500
+pusher 75C5DE3D 1639713825 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1639713813-d5fc38542a72a57c0a16a4f17fecddcda117c260
+nonce 1639713825-5378ad79d6644e3ac901ec6fdb28a7ab661c949e
 
-4437503bfbec2f02b41b2492520fe627715889a7 87f77d37d398d92a9963890b14f336dc394f6fa0 refs/heads/queue
+9d58f46b9c18f0b1294669f0148d6ec8fab40ba2 478850935f97f4e69c081adfdc0b195853fb9e4c refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG8DBUACgkQ7ulgGnXF
-3j3T7RAAo5cxwzhzfj+okFvO2hMBKbxGvwdiM6RVZ4TqrgqIPX+1J40EMpco1xWd
-QnCFbeK9q/Qp+owpeOqisJ0INQkEseNYrSEGT3+3ZKwJIxVoEczWgjuXiSMPhUlc
-c185iXDLo/7rN2Gz6KUS07XGcgMzpSAXG7fHDzg4ORVRhyo0RSIJtfnNVC/wrU8M
-9H5qxa5bkcp2X7IyzEyzfZf9j3kyk4PbJJwPoEi2If7PX9atcak87cR4+hddX/oq
-a0nuDU/MH7Huy8/6XZO4axQ5bQxmRnWWhVRme0a5VpV/CrXqj54oecXe0tXxGbkw
-lXR/Ff8LjGTM14pHtaRUnebtH6O3MAocMLV84VSd506HeS4P8gAG6E8l9qZW95Ys
-zfPk40uVkLxtEwDqaKMOk1dRrL+cNs9NRyYEkV4sd+P2WyNGw56jQLHD3jj9TDBj
-qVQO95H3zal8xleEBlfnqYoXFhfGZqxX+N50NDYzftuaGwoGoQ5eJ0rVFfntJiMN
-DlcUaw1zvnp7jgXs1rGpR3VdYPydm1xbOlR+VA29UjoW18hZpL5x/uIyOvj0S9BP
-adNm5ZCUTSmk20JkP18P5lrGrxYUNT2ctcwv0VLsBPTaSnF5BCxU46GJa/OcPG+v
-LWNSJ2mdYhb0Bm2K7cPberB+4Me/mG699jZnaLxmpAUNSTLZN8Q=
-=LWU7
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmG8DCEACgkQ7ulgGnXF
+3j2E7w/8DdV1xpVv4iIMDDLrqNxgYl1I+QqC2GJCupr3Ax2VKbDPIxk9ul0+NbZr
+Q6B7aKKjLblRIbXzaL+8IzvOm+GOtTX4Hz5tgdbKNn6g+eHHmfo2g6twzo/r2trO
+6oArat/T7NbR9YK0PJEaRotb8Jut15dAoEwiuWfXhw5m0ZykRu4EWSk8lhWGVsp0
+sCEtl9UnjA+RBZPdH7p1adQEXS6MijzW2HRfdO8ieMMMUFOZ7Z+gAg+/+yswPOzL
+x1lKd57wKalMoIemLwKn7QxHbVjLg1MRHM8pqA3QhcsiNCBVkOZRmXq+sD630+F8
+ESgNT4NxJlrNro2aoRzra0aVdPo0VTKgIlQyRf8++nsD0ARgUp7fHR9z8J8jBCkX
+oZEgah2LbIeHpzjTU2aj4GX3g/zzpplKRPzSTq7Dzl99eB8zQq/W2cKJiUKhSBtT
+pE61jV2C4k3MkK2TMxJZCB7Vkq9vkwrDoIyywxynUEURZiYg2fQ+fSTRA4O3TMju
+0wUWRoG5S9RTGQSsRXXy3nRKsT0QSzR4UDxebzzXjTZjNoM/FVA5zL6RxFsWbM8w
+y+s9rIe3YNpzarpsNhuEoo9y/MO6Jk6qeTo16rD27Rjo96sMZT/+Q8PHVMcgMkXQ
+d/k0XVW6pI+zfHKf3a4UJP+PKTMPci2v8mSpZa6bYinOdk8XXd8=
+=AJ2i
 -----END PGP SIGNATURE-----
 
---===============6521762921909329667==
+--===============8651323172212142976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4437503bfbec-87f77d37d398.txt
+Content-Disposition: attachment; filename=revlist-9d58f46b9c18-478850935f97.txt
 
 3ff1f6b6ba6f97f50862aa50e79959cc8ddc2566 scsi: ufs: core: Improve SCSI abort handling
 a0c2f8b6709a9a4af175497ca65f93804f57b248 scsi: iscsi: Unblock session then wake up error handler
@@ -80,9 +80,17 @@ eb97545d6264b341b06ba7603f52ff6c0b2af6ea scsi: core: sysfs: Fix setting device s
 3fe5185db46fedea7a6852d6a59d6e7cdb5d818a scsi: qedi: Fix cmd_cleanup_cmpl counter mismatch issue
 7db0e0c8190a086ef92ce5bb960836cde49540aa scsi: scsi_debug: Fix buffer size of REPORT ZONES command
 69002c8ce914ef0ae22a6ea14b43bb30b9a9a6a8 scsi: qla2xxx: Format log strings only if needed
-532adda9f405d69ef1837f59e60512313fdf0f63 scsi: lpfc: Use struct_group() to initialize struct lpfc_cgn_info
-c167dd0b2a7afcf2c25e44b9b6168cba3a51d27d scsi: lpfc: Use struct_group to isolate cast to larger object
-8c2d04551545d3722c1e6891ecce46f44c5406ec scsi: hpsa: Remove an unused variable in hpsa_update_scsi_devices()
 87f77d37d398d92a9963890b14f336dc394f6fa0 Merge branch '5.16/scsi-fixes' into 5.17/scsi-staging
+baea0e833f7612483dcb2351240da19f0d0bc011 scsi: qla2xxx: Synchronize rport dev_loss_tmo setting
+99c66a8868e33522ebc6fd8a99e32f0d544a014f scsi: ufs: core: Fix deadlock issue in ufshcd_wait_for_doorbell_clr()
+efac162a4e4dc4cebcc658e02676821ca834b56c scsi: efct: Don't pass GFP_DMA to dma_alloc_coherent()
+0e4620856b89335426a17904933a92346ee4599d scsi: hisi_sas: Start delivery hisi_sas_task_exec() directly
+934385a4fd5926650b20131bf3a435199a3d0af2 scsi: hisi_sas: Make internal abort have no task proto
+08c61b5d902b70180b517e9f2616ad70b7a98dcf scsi: hisi_sas: Pass abort structure for internal abort
+dc313f6b125b095d3d2683d94d5f69c8dc9bdc36 scsi: hisi_sas: Factor out task prep and delivery code
+20c634932ae8978435645b466c99b3fc1a80545a scsi: hisi_sas: Prevent parallel controller reset and control phy command
+16775db613c2bdea09705dcb876942c0641a1098 scsi: hisi_sas: Prevent parallel FLR and controller reset
+37310bad7fa645b21653fd7f13cb6b376d80c919 scsi: hisi_sas: Fix phyup timeout on FPGA
+4be6181fea1dbfd21a8d73f69d87a6cae2d3023d scsi: libsas: Decode SAM status and host byte codes
 
---===============6521762921909329667==--
+--===============8651323172212142976==--
