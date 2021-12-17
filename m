@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 17 Dec 2021 21:47:57 -0000
-Message-Id: <163977767760.8513.3207134316926711159@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 21:48:05 -0000
+Message-Id: <163977768503.8817.4859415827263445986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/for-next-base
-    old: 7dc9fb47bc9a95f1cc6c5655341860c5e50f91d4
-    new: 2fe24343922e0428fb68674a4fae099171141bc7
+  - ref: refs/heads/for-next
+    old: 014adbc9a838772b265834a55cd7b13eb2665d7e
+    new: 112e1f9af852023cc474c7a5e619f7694d9c5f7c
     log: |
-         653926205741add87a6cf452e21950eebc6ac10b scsi: pm80xx: Do not call scsi_remove_host() in pm8001_alloc()
-         3fe5185db46fedea7a6852d6a59d6e7cdb5d818a scsi: qedi: Fix cmd_cleanup_cmpl counter mismatch issue
-         7db0e0c8190a086ef92ce5bb960836cde49540aa scsi: scsi_debug: Fix buffer size of REPORT ZONES command
-         69002c8ce914ef0ae22a6ea14b43bb30b9a9a6a8 scsi: qla2xxx: Format log strings only if needed
-         2fe24343922e0428fb68674a4fae099171141bc7 scsi: pm8001: Fix phys_to_virt() usage on dma_addr_t
+         532adda9f405d69ef1837f59e60512313fdf0f63 scsi: lpfc: Use struct_group() to initialize struct lpfc_cgn_info
+         c167dd0b2a7afcf2c25e44b9b6168cba3a51d27d scsi: lpfc: Use struct_group to isolate cast to larger object
+         8c2d04551545d3722c1e6891ecce46f44c5406ec scsi: hpsa: Remove an unused variable in hpsa_update_scsi_devices()
+         87f77d37d398d92a9963890b14f336dc394f6fa0 Merge branch '5.16/scsi-fixes' into 5.17/scsi-staging
+         9020be114a47bf7ff33e179b3bb0016b91a098e6 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+         730cac86e0a2c3804aee60a7b0ad3ec8550fa25f Merge branch 'fixes' into for-next
+         112e1f9af852023cc474c7a5e619f7694d9c5f7c Merge branch 'misc' into for-next
          
