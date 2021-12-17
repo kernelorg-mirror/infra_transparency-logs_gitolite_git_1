@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 17 Dec 2021 00:55:49 -0000
-Message-Id: <163970254991.1517.12761383458370124514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 17 Dec 2021 01:00:18 -0000
+Message-Id: <163970281836.5209.12529575117613309242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-5.17
-    old: e91d74aa25bd8f66cffbd38745c1fa25079beecd
-    new: cf3b703d553621ef12c5566bdf32bac8ace5b9af
+  - ref: refs/heads/experimental
+    old: 1840b72f570ed9f1cdf7d4ee90e21ba2943911dc
+    new: 524981486af3bf0a00cb0bbef277a4a6d322c10e
     log: |
-         3c4f2f3a5e76e9682e1379ea8a8e7221b2ec5bb9 ata: sata_dwc_460ex: Use devm_platform_*ioremap_resource() APIs
-         b69400effaeb5269a18b5c059a1a7ccd2c4f958e ata: sata_dwc_460ex: Use temporary variable for struct device
-         adec677fa5db2228910cb1b5e64c8a90dbabcb7e ata: sata_dwc_460ex: Remove unused forward declaration
-         cf3b703d553621ef12c5566bdf32bac8ace5b9af ata: libahci_platform: Remove bogus 32-bit DMA mask attempt
+         097410dbfd1e62122a982dcb3011700c4e9a6e64 erofs-utils: sort shared xattr
+         7c2681b00982c4ac241a41172e831e7426be4452 erofs-utils: lib: add API to iterate dirs in EROFS
+         524981486af3bf0a00cb0bbef277a4a6d322c10e erofs-utils: fsck: convert to use erofs_iterate_dir()
          
