@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 17 Dec 2021 14:59:36 -0000
-Message-Id: <163975317614.3617.10545820642600159114@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 14:59:48 -0000
+Message-Id: <163975318875.3733.15469310111927589409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/mtd/linux
 user: mraynal
 changes:
   - ref: refs/heads/spi-mem-ecc
-    old: aab21c7891ce31a1ffefb11ac8675c9d6ef91f91
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: aab21c7891ce31a1ffefb11ac8675c9d6ef91f91
