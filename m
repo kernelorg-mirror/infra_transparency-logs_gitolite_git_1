@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 17 Dec 2021 04:35:35 -0000
-Message-Id: <163971573507.16624.2615614465057735785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 17 Dec 2021 04:51:58 -0000
+Message-Id: <163971671890.27250.6757077666849757070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 7cd2802d7496c1fc76f42dc045b48cc16d11df39
-    new: 6cc74443a7732d7e93bee3d0c3704a22cc7274d9
+  - ref: refs/heads/fixes
+    old: 298d03c2d7f1b5daacb6d4f4053fd3d677d67087
+    new: 9b6965873e075cda5e943839284e8a5348e6f6d9
     log: |
-         7ffd9041de76756665df060c266891325426836f nfp: flower: refine the use of circular buffer
-         431b9b4d9789df5486be6d8c4d14d50c27033a97 net: vertexcom: remove unneeded semicolon
-         6cc74443a7732d7e93bee3d0c3704a22cc7274d9 net: mana: Add RX fencing
+         848aba1a9d7810886a634a9c626c61c95d56ddbd riscv: dts: sifive unmatched: Expose the PMIC sub-functions.
+         f749c79d9fa85742b6a31698ac0bf669fb127817 riscv: dts: sifive unmatched: Expose the board ID eeprom.
+         d0926b93d756e9953e659bbb2253532eaccae6d4 riscv: dts: sifive unmatched: Fix regulator for board rev3.
+         e917dfd95d5abf6ef6d06c2a4b4665c77fe45020 riscv: dts: sifive unmatched: Link the tmp451 with its power supply.
+         68df30a8f716dd4787b232010f0f8242f5e7cd30 riscv: dts: sifive unmatched: Name gpio lines.
+         9b6965873e075cda5e943839284e8a5348e6f6d9 riscv: dts: sifive unmatched: Expose the FU740 core supply regulator.
          
