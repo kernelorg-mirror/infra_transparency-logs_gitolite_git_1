@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 17 Dec 2021 04:13:28 -0000
-Message-Id: <163971440861.753.357282423079422811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
+Date: Fri, 17 Dec 2021 04:23:58 -0000
+Message-Id: <163971503898.9112.12478975607226417957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/fs/fscrypt/fscrypt
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 20c4918f0e2c5511b4576392384a3fa2a68793f1
-    new: fe67c3593e079f0fee148baabaf43a5d4bc9ab75
+  - ref: refs/heads/wip-wrapped-keys
+    old: 542d99089e0c7a68b7743697390dafa96f4960b1
+    new: e811af85ec3b29558305692b3654b7591ccdbf90
     log: |
-         fe67c3593e079f0fee148baabaf43a5d4bc9ab75 Fri Dec 17 04:12:17 AM UTC 2021
+         3fdbc783d6be167fe7d084e3d1f5944bf06a2738 qcom_scm fixes
+         e811af85ec3b29558305692b3654b7591ccdbf90 add some log messages
          
