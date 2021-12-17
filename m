@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 17 Dec 2021 16:51:19 -0000
-Message-Id: <163975987985.13480.17648968992104911686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 17 Dec 2021 16:53:12 -0000
+Message-Id: <163975999239.14190.1525233159668765220@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: ca7e7822d106a821331afd7388a754f572e7c096
-    new: 6dbe6c07f94f349098b512d88a1e1c5e2312b13d
+  - ref: refs/heads/at91-defconfig
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+    new: e1137bcefa025ec4c583e85d6c86c9ba11133224
     log: |
-         448cf90513d954ba5a61ce392809d6936902a9e6 gpio: Get rid of duplicate of_node assignment in the drivers
-         45a541a610af8156ee623b5906515796405ae9f5 gpio: Setup parent device and get rid of unnecessary of_node assignment
-         6dbe6c07f94f349098b512d88a1e1c5e2312b13d gpio: Propagate firmware node from a parent device
+         3b2e5d74e25fe6aae6e9427cdbdc2d82586ddc16 ARM: configs: at91: sama7: Enable SPI NOR and QSPI controller
+         e1137bcefa025ec4c583e85d6c86c9ba11133224 ARM: configs: at91: Enable crypto software implementations
          
