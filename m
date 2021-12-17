@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4528776692115080493=="
+Content-Type: multipart/mixed; boundary="===============8751071386699307324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Fri, 17 Dec 2021 02:16:57 -0000
-Message-Id: <163970741783.24967.578000627688822934@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 02:17:22 -0000
+Message-Id: <163970744279.25191.14146737730279084263@gitolite.kernel.org>
 
---===============4528776692115080493==
+--===============8751071386699307324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: beaaaa37c664e9afdf2913aee19185d8e3793b50
     new: 27750a315aba7e6675bb1c3dfd4481c4f6888af1
     log: revlist-beaaaa37c664-27750a315aba.txt
 
---===============4528776692115080493==
+--===============8751071386699307324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dee2b702bcf067d7b6b62c18bdd060ff0810a800 kconfig: Add support for -Wimplicit-fal
 fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf Linux 5.16-rc1
 27750a315aba7e6675bb1c3dfd4481c4f6888af1 crypto: qat - do not handle PFVF sources for qat_4xxx
 
---===============4528776692115080493==--
+--===============8751071386699307324==--
