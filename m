@@ -1,60 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============6623360225466757855=="
+Content-Type: multipart/mixed; boundary="===============5440462774111814129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Fri, 17 Dec 2021 16:14:00 -0000
-Message-Id: <163975764092.17426.16261070184152657164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 17 Dec 2021 16:17:43 -0000
+Message-Id: <163975786372.20289.873437821150417258@gitolite.kernel.org>
 
---===============6623360225466757855==
+--===============5440462774111814129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 5b675b7645912159b2285b70c884df4626f6b3e6
-    new: 2577394f4b01906d345d8b223d1a17cc34e46b46
-    log: revlist-5b675b764591-2577394f4b01.txt
+  - ref: refs/heads/char-misc-testing
+    old: 3953831982eb9c90506c4a2e8d7e6c3d840abf8a
+    new: 1dba0075fc3d2c2ae8503c3e213dc72a93e17761
+    log: |
+         c9825e66000508baf07260fb53540da8cffb3471 bus: mhi: pci_generic: Add new device ID support for T99W175
+         f77097ec8c0141a4b5cf3722a246be0cb5677e29 bus: mhi: pci_generic: Graceful shutdown on freeze
+         3e60c9f06803b52629d5c551ddbb5fddd60b8b65 bus: mhi: core: Use macros for execution environment features
+         85ec6094624c413c2f87f49e8fffca60100915ff bus: mhi: core: Minor style and comment fixes
+         f3d13397365d834b3f882627a7962c76593eeef2 bus: mhi: pci_generic: Simplify code and axe the use of a deprecated API
+         42c4668f7efe1485dfc382517b412c0c6ab102b8 bus: mhi: core: Fix reading wake_capable channel configuration
+         d651ce8e917fa1bf6cfab8dca74c512edffc35d3 bus: mhi: core: Fix race while handling SYS_ERR at power up
+         227fee5fc99eeb74d43bf68832f6d59d30ac07d8 bus: mhi: core: Add an API for auto queueing buffers for DL channel
+         5a717e93239fc373a314e03e45c43b62ebea1b26 bus: mhi: core: Use correctly sized arguments for bit field
+         1dba0075fc3d2c2ae8503c3e213dc72a93e17761 bus: mhi: pci_generic: Introduce Sierra EM919X support
+         
 
---===============6623360225466757855==
+--===============5440462774111814129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b675b764591-2577394f4b01.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0725ac9ac4492568514a94971f46dd0546684ff8 ASoC: tegra20-spdif: stop setting slave_id
-d53939dcc4cfbe6de2c42daec90c199825f6a96f dmaengine: tegra20-apb: stop checking config->slave_id
-bdecfceffeeb9000e78b0f613069f5c06974b347 ASoC: dai_dma: remove slave_id field
-feaa4a09acc9a33211dbe3930357922f7ad9750c spi: pic32: stop setting dma_config->slave_id
-f59f6aaead975f0ec4d8ff2d59c4ffb8cf0127b2 mmc: bcm2835: stop setting chan_config->slave_id
-37228af82e5f4d7be64f71c63463112b9dd4fc55 dmaengine: shdma: remove legacy slave_id parsing
-134c37fa250a87a7e77c80a7c59ae16c462e46e0 dmaengine: pxa/mmp: stop referencing config->slave_id
-722d6d2bdcc2dcff5527c704fb8f2bbcb018a232 dmaengine: sprd: stop referencing config->slave_id
-03de6b273805b3c552ff158f8688555937375926 dmaengine: qcom-adm: stop abusing slave_id config
-93cdb5b0dc56cc7a8b87a61146495f3bdc93d7ba dmaengine: xilinx_dpdma: stop using slave_id field
-3c219644075795a99271d345efdfa8b256e55161 dmaengine: remove slave_id config field
-f17e53388e82ebefc78ff53e33a6d8eebc1ad337 dmaengine: xilinx: Handle IRQ mapping errors
-aa8ff35e10030c12df9f1b4a364f540f973c620f dmaengine: at_xdmac: Use struct_size() in devm_kzalloc()
-839c2e2371dba08fc3a8aea5d5e6525dd19cab66 dmaengine: ti: k3-udma: Add SoC dependent data for J721S2 SoC
-78b2f63cd0cc115ea10711b59734c7430deb3fe3 drivers: dma: ti: k3-psil: Add support for J721S2
-a173a2428752b43f50dc2cd500437baff6a62376 dt-bindings: dma: pl08x: Fix unevaluatedProperties warnings
-5f1e024c9d07d09988757761107ba4bb1ae7d408 dt-bindings: dma: ti: Add missing ti,k3-sci-common.yaml reference
-e0699a75955dabac1e2edcf67d74b9998fe9d42c dt-bindings: dma: ingenic: Add compatible strings for MDMA and BDMA
-dafa79a10ed70683811295cb68deca2d30c22ef4 dt-bindings: dma: ingenic: Support #dma-cells = <3>
-b72cbb1ab2aff3ceef8a2703052d06dc216b01f0 dmaengine: jz4780: Work around hardware bug on JZ4760 SoCs
-3d70fccf74feba4125542663ff49b4d42d3dcbe7 dmaengine: jz4780: Add support for the MDMA and BDMA in the JZ4760(B)
-c8c0cda827b90aad250360c657b30b2bcdf82503 dmaengine: jz4780: Replace uint32_t with u32
-76a096637d6381165584c6e9a21e531d1911c549 dmaengine: jz4780: Support bidirectional I/O on one channel
-0f93f2047d56d6ab93ba1ffeb30d318d0c5f52d7 dt-bindings: dma: snps,dw-axi-dmac: Document optional reset
-92452a72ebdf1225aa37690d3648f2af6d0b4fca dmaengine: idxd: set defaults for wq configs
-7930d85535751bc8b05c6731c6b79d874671f13c dmaengine: idxd: add knob for enqcmds retries
-d697e83125950f64210b267d5c9c13fa7e4a43b9 dmaengine: stm32-mdma: Remove redundant initialization of pointer hwdesc
-de8f2c05754a7df12634c73640a162a610795a80 dmaengine: stm32-mdma: Use bitfield helpers
-d5aeba456e666c6f2c01e8b4e5bba2affabcdd09 dmaengine: sh: Use bitmap_zalloc() when applicable
-2577394f4b01906d345d8b223d1a17cc34e46b46 Merge tag 'dmaengine_topic_slave_id_removal_5.17' into next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639757861 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1639757861-992d2a3d82078321629ff94879b99a443954cd60
 
---===============6623360225466757855==--
+3953831982eb9c90506c4a2e8d7e6c3d840abf8a 1dba0075fc3d2c2ae8503c3e213dc72a93e17761 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8uCUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N0AP/j/JiDM9Dyqt+sygXxdt
+cKR65oixhjp+Zt6ywsiVWjbrysPDShO2JOrp/tncTSmkxY9U/FZAqczCZro7QbG/
+oyRbB4UE9W7LwbMT+p8qqz5/Th7a94HQ8w73w1TJdkVacE9EgE9itUVRcEyUQMN4
+aZ/3HO1BQRYBHHQ/HVQOnpGB/Cwm6i9Hr+96wGOjgbZv3mJdHcYXkDa5M+TrUFfb
+eYxYR9acow7L5SF4CRglLqXapBxhLrJpo1FUB8HgzeiKZ+XvQYI7iR/njiUeGZPL
+AtnENIbliRuBHGgttouWQW16pz2oKiokkupTNrZG1ab85zqpSZFV6lsbMyPldhGj
+S85C1GYBQ5gqZvFSutbr3tRv6uPKQeaAoA5Aqfs8CPi8Iil+e70ng5RFldOwfX83
+JjaPAFSH4Ym/H5IMlSIavat5MejRT9+WYGLNB25kwdY8+InYfdUo2ZRuYiLab1QL
+bdP+GqZASNgxFk0OfuzGHyqAbl9bhJdvJBUCcXwpSmsqjs0ATe21hMWXB/OsLcF3
+QnYS9lV42WjdtHbZmkFPC3MPn6+GzIhBnMDbsaY05zqB7dm5YBnePjsNyQl5hsA0
+qG14OSFh58wd71Fd66MmrUqVB5DxSSVBXzT3TqqYNtIaVHDkJ6eG+DE9eG7ynsF6
+xlO9G/rhMWZrkyXlM4yAedr+
+=hP21
+-----END PGP SIGNATURE-----
+
+--===============5440462774111814129==--
