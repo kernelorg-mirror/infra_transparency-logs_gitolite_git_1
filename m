@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 17 Dec 2021 13:35:35 -0000
-Message-Id: <163974813581.16632.16626993121478762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 17 Dec 2021 13:42:34 -0000
+Message-Id: <163974855424.20016.17179182575191484042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 6510546db31b95e2a3f682a4cf5a266537b88931
-    new: 2e34a9d456d9526c8b804b9412392e9a7823fbc4
+  - ref: refs/heads/master-pending
+    old: f35182730bdb1141185c0ae7da651ac791d6b479
+    new: 3e0d61375f8c007d26a587fe853b9708367dd68e
     log: |
-         8a53963bf0fe8fe3e9cf2ba02ad2ce31b03d2b01 headers/deps: Add header dependencies to .c files: <linux/string.h>
-         d9acea876b46a11d3269f9146a5156644e46a622 kallsyms/objtool: Introduce linear table of symbol structures: kallsyms_syms[]
-         a8651a17949970d79df82530fe029756f310bb47 kallsyms/objtool: Split fast vs. generic functions
-         7e58cb68ab5bb3ce5e601cb9123207a5aad83a4f kallsyms/objtool: Sort symbols by address and deduplicate them
-         2e34a9d456d9526c8b804b9412392e9a7823fbc4 headers/deps: Add header dependencies to .c files: <linux/irqflags.h>
+         a9d129abfc81cea55690465e050d6b1ee25d0b60 ath11k: report tx bitrate for iw wlan station dump
+         bad108121712bbbc99801890e29fe08edd9fe177 ath11k: add support for hardware rfkill for QCA6390
+         3e0d61375f8c007d26a587fe853b9708367dd68e Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 08cc38528e65c71ccb8609f25ac9ba2ac3716446
+    new: bad108121712bbbc99801890e29fe08edd9fe177
+    log: |
+         a9d129abfc81cea55690465e050d6b1ee25d0b60 ath11k: report tx bitrate for iw wlan station dump
+         bad108121712bbbc99801890e29fe08edd9fe177 ath11k: add support for hardware rfkill for QCA6390
          
