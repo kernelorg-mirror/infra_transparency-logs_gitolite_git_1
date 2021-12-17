@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 17 Dec 2021 21:19:42 -0000
-Message-Id: <163977598219.23365.16739514141828827600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Fri, 17 Dec 2021 21:23:31 -0000
+Message-Id: <163977621154.26022.4075598927392187364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev
-    old: 93ed662d0b1b30df2bdee327bfcc9dad1eee2f31
-    new: 52d5948696234d61b43980fefe1e165909ed240c
+  - ref: refs/heads/pci/enumeration
+    old: d2c64f98c3878b25e987b6b8f5100732c6426640
+    new: 877fee2a0c65a3b0b6ac0e90d7d7718b5a0341d3
     log: |
-         52d5948696234d61b43980fefe1e165909ed240c rcutorture: Make rcu_fwd_cb_nodelay be a counter
+         877fee2a0c65a3b0b6ac0e90d7d7718b5a0341d3 PCI: Convert pci_dev_present() stub to static inline
          
