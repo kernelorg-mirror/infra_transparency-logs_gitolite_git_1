@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0635468370052136247=="
+Content-Type: multipart/mixed; boundary="===============3946643740799411843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 17 Dec 2021 16:57:03 -0000
-Message-Id: <163976022345.17186.15390133266432968859@gitolite.kernel.org>
+Date: Fri, 17 Dec 2021 16:57:29 -0000
+Message-Id: <163976024991.17427.9609311710791415150@gitolite.kernel.org>
 
---===============0635468370052136247==
+--===============3946643740799411843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 26baf4b66c57596d7827a8e4f60a2d2b0401fe6e
-    new: f087f01ca2c5ea846fb798f09f4106b551c32147
+    old: f087f01ca2c5ea846fb798f09f4106b551c32147
+    new: 8a1dcae95c2ea4cb5d499833ad3c9a28f248ba7c
     log: |
-         f087f01ca2c5ea846fb798f09f4106b551c32147 serial: lantiq: Use platform_get_irq() to get the interrupt
+         09c7bda4ddefb1e326378e2aaf1e7814f850d750 serial: sh-sci: Drop support for "sci_ick" clock
+         0d1bc829a755de826582c1c48ec40601d9b2fc29 serial: sh-sci: Use dev_err_probe()
+         8a1dcae95c2ea4cb5d499833ad3c9a28f248ba7c serial: sh-sci: Use devm_clk_get_optional()
          
 
---===============0635468370052136247==
+--===============3946643740799411843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639760221 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639760248 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1639760221-9916e6b3c82f1c67ddcf7b87231b62348f722936
+nonce 1639760247-08819454d7914b25ae6baa69a40d57f5c4275d0f
 
-26baf4b66c57596d7827a8e4f60a2d2b0401fe6e f087f01ca2c5ea846fb798f09f4106b551c32147 refs/heads/tty-testing
+f087f01ca2c5ea846fb798f09f4106b551c32147 8a1dcae95c2ea4cb5d499833ad3c9a28f248ba7c refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8wV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mYUP9imTj6o/v478uqoBCer4
-T+9TWpxSEVEwyrq8kgs7YDjoYiJip5vwjtlUd3jeZuJf72oRyEwN2l2kmyzRw+WR
-A0NB9hXbJRFK0HIARqWDXPPOB6tSXUFahYcHlUc6tNexiue1aTw3xuKNnYR5Tdh4
-qz0zkspQ8aYVnALFrI9e5KPuC0uWNgVDZNpOsdYEq6snaCpQ9mBaAxWUyDwMNXUa
-AjXovhaiXQB5Yr5FrmZz9V1BIxIh09IzQlhbmBflfjonaWNUmt2RSXSE8yDOYzwQ
-IYItzgP3HJ5T5r2xZDzUdGr60Ohs966A+kUMoqy0lIFD4jGqCaCe0bKuFNnntDrZ
-MB/tBIF3QSRBeRCj6OfAHcybJVfmlDV7bZ01DzlF3Ojz1VzfDman3l+fCn9m6mSd
-LAsBInX4MCS254uBnLZdcaU6C6/C6nO44v1YSLzcHklddYLl7/MMdnnhjLUhFpyS
-6cD8gtFCKTO33qjxSmTBiDpcmOJkVBWrQfInx14zXW5cutbR/csEm6kBhmOMEmjd
-HYkp7vRCb/x7gjiHjxNjOLiYUWj6o1tmRfB1jYTQev0rYuyKE3heH5vsHIshiQeN
-65rRkWSIXuvhHWb5NzzjiQdtKPx3pjIwXOGc142prmZESWx/YOq6WDkyqdk2KZx1
-FTNz99LH0/F1//0HRgfSwEk=
-=5xRP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG8wXgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IiAP/0wN43NBy75S8/AwrzKN
+Mdo9arPMzrvXsv9ygysT6dEFE943tVrg1Z/SZZ1kTYlDmizsPOr/Gnw7d61gxoPN
+xc+QbpZtmkTzlSH4O9HbBxlHgU89kYGgzCzP1hYc26nvkIbvb2qyzGm/fgCRuwxo
+E+ai8MIU1mCYnBiBVRI1A+hzPrcO9+YR7JvPGpIcfn0//IviPQMejd1pIOm34Hyo
+8S+fU/EScS0Dz8kgVgrGtivWxp8mV1aYngenxQ1q/ibf1yHqzCAN1HrP0JAaMiz5
+x7a3Uk52zI6U+jLMQU8OAbKtsrRTK2poosHj0NcC8VwIoTgB4BKbGR/6wk36Mfa6
+hBgGqlrpB2S2z7ywc65UmQKk7Dt2F/Lwha/9PqKUQdA0mSmGAqu6/ibLBPjCRwcD
+EbWiI1MslXFyfHN7dBpDFGgXCtqlnKmAek+F73aphOallIkqXKI4EndXF9FidwtC
+PHDmv5IGQAI2BgKhmx2mnj3HK9mKWlgPn2o87pmszoFAyRDidAjgn5Tl8GLl+MPo
+K3Q/n4/FoL4BL0+NJrzcKaOEXTuT8uubrt9j87qJDXm2wUJh8kcBh3YqUQmtcBGl
+DivlbmMnNSfsLGp+9CTmtwLn2SvLf3TK5EQtf7YMR9x+4TfxzgQDEsruyMPTAcOe
+dfdOVacXULycu+McOS8JHR4g
+=Ju69
 -----END PGP SIGNATURE-----
 
---===============0635468370052136247==--
+--===============3946643740799411843==--
