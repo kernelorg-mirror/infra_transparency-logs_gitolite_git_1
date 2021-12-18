@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 18 Dec 2021 03:31:10 -0000
-Message-Id: <163979827014.28712.1852823604744987468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Sat, 18 Dec 2021 04:06:23 -0000
+Message-Id: <163980038323.21196.2802220110040723417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/experimental-tests
-    old: 2e72388b03724d4209a4ed853043b31f950a86ae
-    new: 14a3538cc2dda5dbdd164ecf74608c4ee347faf1
+  - ref: refs/heads/pending
+    old: c55b18181281b2fffadb9e0e8955d74b8b719349
+    new: 3d90ebfae265341cd398c963722f930d102864e8
     log: |
-         14a3538cc2dda5dbdd164ecf74608c4ee347faf1 erofs-utils: tests: check image integrity after mkfs
+         3d90ebfae265341cd398c963722f930d102864e8 util/parse-configs: Fix a resource leak in search_section_kv()
          
