@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Sat, 18 Dec 2021 05:09:02 -0000
-Message-Id: <163980414231.29303.21727290871629300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Sat, 18 Dec 2021 05:16:29 -0000
+Message-Id: <163980458984.2036.16690442391746340899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/v72
+  - ref: refs/tags/imx-fixes-5.16-3
     old: 0000000000000000000000000000000000000000
-    new: c471257cdffef5543954472c34b1518ef3b7dda0
+    new: 1e89f536bf3166195a5512fd7177da4deea3f0d1
