@@ -1,52 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1558034483036837765=="
+Content-Type: multipart/mixed; boundary="===============3937220092261410055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 18 Dec 2021 17:14:08 -0000
-Message-Id: <163984764826.1479.13701054235467831020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 18 Dec 2021 17:41:57 -0000
+Message-Id: <163984931715.19256.4927611849744157191@gitolite.kernel.org>
 
---===============1558034483036837765==
+--===============3937220092261410055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: d8c9c136a6dcb85b37b03bd0838d7d9f524ea42e
-    new: ec65b5c39c661f4d0083d08c8ef73c9f31a98d50
-    log: revlist-d8c9c136a6dc-ec65b5c39c66.txt
+  - ref: refs/heads/auto-latest
+    old: 4d4207b2910cbc83b887b8f93a3f8ecd8949f53f
+    new: 086fea69d94ae54d4d30f8b8659f4394607106c8
+    log: revlist-4d4207b2910c-086fea69d94a.txt
+  - ref: refs/heads/master
+    old: 4d4207b2910cbc83b887b8f93a3f8ecd8949f53f
+    new: bf4c49aac6d8b2d47c51535b8ae4cc35e7858679
+    log: |
+         572a0a647b9b491729d24c083c8410c55bf16326 selftests/sgx: Fix corrupted cpuid macro invocation
+         4e8c11b6b3f0b6a283e898344f154641eda94266 timekeeping: Really make sure wall_to_monotonic isn't positive
+         8f556a326c93213927e683fc32bbf5be1b62540a locking/rtmutex: Fix incorrect condition in rtmutex_spin_on_owner()
+         f16cc980d649e664b8f41e1bbaba50255d24e5d1 Merge branch 'locking/urgent' into locking/core
+         6f615f338f15c31810fe337bf6a7984a7a927618 Merge branch 'locking/core'
+         bf71500f21d176db1b237deec1126839ca10341d Merge branch into tip/master: 'x86/sgx'
+         bf4c49aac6d8b2d47c51535b8ae4cc35e7858679 Merge branch into tip/master: 'timers/urgent'
+         
 
---===============1558034483036837765==
+--===============3937220092261410055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8c9c136a6dc-ec65b5c39c66.txt
+Content-Disposition: attachment; filename=revlist-4d4207b2910c-086fea69d94a.txt
 
-bd0b536dc2e1e9828a85b1e3470ee7bafc3b36f6 virtchnl: Add support for new VLAN capabilities
-209f2f9c718138ddbd8586e5a1463bd079a17241 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 negotiation
-48ccc43ecf1096e8e2cdf46844125c2dc9fa49f6 iavf: Add support VIRTCHNL_VF_OFFLOAD_VLAN_V2 during netdev config
-ccd219d2ea13a69881012569ea6ea33f46d684de iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 hotpath
-8afadd1cd8ba1df757011eb58c471eca0ac81872 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 offload enable/disable
-92fc50859872e93cdad115cca0a9317b8a3a90ec iavf: Restrict maximum VLAN filters for VIRTCHNL_VF_OFFLOAD_VLAN_V2
-00315e1627583c6ed5381bccf55c725aa4f45290 tsnep: Fix s390 devm_ioremap_resource warning
-ddfbe18da55cbea41aaf57d442228edbd6cbbff1 net: mtk_eth_soc: delete an unneeded variable
-ab9d0e2171be56bb3bcd0fe4bd8ae5d2f24e5a80 net: ethernet: mtk_eth_soc: delete some dead code
-3ce0852c86b926aed7bb8c69b09c5ad4ba0a9dfb mptcp: enforce HoL-blocking estimation
-f730b65c9d85c84d6e5fd5f6fee20e2d62ffe558 selftests: mptcp: try to set mptcp ulp mode in different sk states
-59060a47ca50bbdb1d863b73667a1065873ecc06 mptcp: clean up harmless false expressions
-7e1c5d7b6926f63d3750a273486a143e50d216ad Merge branch 'mptcp-miscellaneous-changes-for-5-17'
-23044d77d6062ad1a5e26466931a7b75deaddbd7 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-f85b244ee395c774a0039c176f46fc0d3747a0ae xdp: move the if dev statements to the first
-7b72fe3066bcea2f51141940fb23018570659a14 net/mlx5: Remove the repeated declaration
-88d98950d13ac717788504102d9a8822bca6953f devlink: Add new "io_eq_size" generic device param
-18db490d11b9c23dd3a593659285e030cfc35968 net/mlx5: Let user configure io_eq_size param
-3e00c5894211b8a2b0f1230ad0093203fd613c60 devlink: Add new "event_eq_size" generic device param
-f1fe469bdb956315ee829ece4837e079fa544b04 net/mlx5: Let user configure event_eq_size param
-42010a8a4071cacb8b4c3d7808a4e1aa280e8b94 devlink: Clarifies max_macs generic devlink param
-ec65b5c39c661f4d0083d08c8ef73c9f31a98d50 net/mlx5: Let user configure max_macs generic param
+d888220d35974d5506308e9e88d008075527a456 Merge branch into tip/master: 'x86/sgx'
+4a207446302c4db5c9cd3c638c4eaaeef1196abb Merge branch into tip/master: 'x86/sev'
+05801175937466cf05e3645333054c793c7c3e78 Merge branch into tip/master: 'x86/platform'
+14698d587fe82c75ee228a7865f3fc86c8064cf7 Merge branch into tip/master: 'x86/paravirt'
+f15c11191e1cbd068aaa6f2cb32973349cf55afe Merge branch into tip/master: 'x86/mm'
+32c6bf6bb4dc6c2b88c063cc8a8f8156df454d94 Merge branch into tip/master: 'x86/misc'
+6c9998a0fba52d2793041b1d0683c78bda744bbe Merge branch into tip/master: 'x86/fpu'
+daf89d920d0237a31766144f38f4c18b002182d9 Merge branch into tip/master: 'x86/cpu'
+57b383c8315e431c015ef7d36686f8b152309c14 Merge branch into tip/master: 'x86/core'
+03f3e5cae2140612306c6cc629f8657667f63c6a Merge branch into tip/master: 'x86/cleanups'
+64642541c19e73a2228091adaa8b29b4bebff739 Merge branch into tip/master: 'x86/cache'
+7e8209314ae1acfbd543ef5de134d16b52a08c11 Merge branch into tip/master: 'sched/core'
+2dd0fcc7dd10c664323bc5a8a6476697ff2663cb Merge branch into tip/master: 'ras/core'
+846bfe764068c9e03020f97c99719de87cfdd03b Merge branch into tip/master: 'perf/core'
+01a19472c525f9a55c781ff4c981ba770736c390 Merge branch into tip/master: 'locking/core'
+fc1c39c109379e71e7175c53a6056dbb51827133 Merge branch into tip/master: 'irq/urgent'
+24dd5730938dc99b929642fac3a74512f2a40bc1 Merge branch into tip/master: 'irq/msi'
+b58ef3e783f831e67dacc403cdfd99173e30c385 Merge branch into tip/master: 'irq/core'
+f084d54f43ebbffb2185756485ec18c1e838c9e2 Merge branch into tip/master: 'core/entry'
+086fea69d94ae54d4d30f8b8659f4394607106c8 Merge branch into tip/master: 'core/urgent'
 
---===============1558034483036837765==--
+--===============3937220092261410055==--
