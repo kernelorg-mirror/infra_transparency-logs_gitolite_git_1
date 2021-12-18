@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 18 Dec 2021 19:33:36 -0000
-Message-Id: <163985601610.23934.17718830100162182695@gitolite.kernel.org>
+Date: Sat, 18 Dec 2021 19:34:56 -0000
+Message-Id: <163985609687.24369.7127861424353331088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/msi
-    old: cd6cf06590b9792340dceaa285138777f3cc4d90
-    new: d558285413ea2f934ab90223ba908c30c5113aee
+  - ref: refs/heads/master
+    old: 05ee0481314469b451981948b95bc6ae9f8bc5b1
+    new: 0f0be91c3f9ea49da23d6c47e9f3634b05b8e77c
     log: |
          d558285413ea2f934ab90223ba908c30c5113aee PCI/MSI: Unbreak pci_irq_get_affinity()
+         0f0be91c3f9ea49da23d6c47e9f3634b05b8e77c Merge branch 'irq/msi'
          
