@@ -1,53 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4741390492362767882=="
+Content-Type: multipart/mixed; boundary="===============1558034483036837765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 18 Dec 2021 16:56:45 -0000
-Message-Id: <163984660578.24724.2432908184788767394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 18 Dec 2021 17:14:08 -0000
+Message-Id: <163984764826.1479.13701054235467831020@gitolite.kernel.org>
 
---===============4741390492362767882==
+--===============1558034483036837765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/tags/usb-5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5743f27b2ea4b9db5d2fba778ef984ba86fb3499
+  - ref: refs/heads/net-next-mlx5
+    old: d8c9c136a6dcb85b37b03bd0838d7d9f524ea42e
+    new: ec65b5c39c661f4d0083d08c8ef73c9f31a98d50
+    log: revlist-d8c9c136a6dc-ec65b5c39c66.txt
 
---===============4741390492362767882==
+--===============1558034483036837765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d8c9c136a6dc-ec65b5c39c66.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639846604 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639846604-24c76a5137ea6a57db71464bc863ebd67be0622c
+bd0b536dc2e1e9828a85b1e3470ee7bafc3b36f6 virtchnl: Add support for new VLAN capabilities
+209f2f9c718138ddbd8586e5a1463bd079a17241 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 negotiation
+48ccc43ecf1096e8e2cdf46844125c2dc9fa49f6 iavf: Add support VIRTCHNL_VF_OFFLOAD_VLAN_V2 during netdev config
+ccd219d2ea13a69881012569ea6ea33f46d684de iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 hotpath
+8afadd1cd8ba1df757011eb58c471eca0ac81872 iavf: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2 offload enable/disable
+92fc50859872e93cdad115cca0a9317b8a3a90ec iavf: Restrict maximum VLAN filters for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+00315e1627583c6ed5381bccf55c725aa4f45290 tsnep: Fix s390 devm_ioremap_resource warning
+ddfbe18da55cbea41aaf57d442228edbd6cbbff1 net: mtk_eth_soc: delete an unneeded variable
+ab9d0e2171be56bb3bcd0fe4bd8ae5d2f24e5a80 net: ethernet: mtk_eth_soc: delete some dead code
+3ce0852c86b926aed7bb8c69b09c5ad4ba0a9dfb mptcp: enforce HoL-blocking estimation
+f730b65c9d85c84d6e5fd5f6fee20e2d62ffe558 selftests: mptcp: try to set mptcp ulp mode in different sk states
+59060a47ca50bbdb1d863b73667a1065873ecc06 mptcp: clean up harmless false expressions
+7e1c5d7b6926f63d3750a273486a143e50d216ad Merge branch 'mptcp-miscellaneous-changes-for-5-17'
+23044d77d6062ad1a5e26466931a7b75deaddbd7 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+f85b244ee395c774a0039c176f46fc0d3747a0ae xdp: move the if dev statements to the first
+7b72fe3066bcea2f51141940fb23018570659a14 net/mlx5: Remove the repeated declaration
+88d98950d13ac717788504102d9a8822bca6953f devlink: Add new "io_eq_size" generic device param
+18db490d11b9c23dd3a593659285e030cfc35968 net/mlx5: Let user configure io_eq_size param
+3e00c5894211b8a2b0f1230ad0093203fd613c60 devlink: Add new "event_eq_size" generic device param
+f1fe469bdb956315ee829ece4837e079fa544b04 net/mlx5: Let user configure event_eq_size param
+42010a8a4071cacb8b4c3d7808a4e1aa280e8b94 devlink: Clarifies max_macs generic devlink param
+ec65b5c39c661f4d0083d08c8ef73c9f31a98d50 net/mlx5: Let user configure max_macs generic param
 
-0000000000000000000000000000000000000000 5743f27b2ea4b9db5d2fba778ef984ba86fb3499 refs/tags/usb-5.16-rc6
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG+EswbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zagP/jCZsyMV67hEt+9wYWiX
-qGNExEWJPE3Ulu2GfpSqYdV6Lqm4DIXKHRC9G0/zpVDp+n1LjxBsCl4/tQ8zgalx
-QIQkhG81X7cuKrEn7xDVkBgfoMN44wxBNWbivoS27YzVMb1Sa8DaTcNFClmWFhbc
-wLY1KbDpsaWf/q2OxMofPQKz8now7MrBj0G1VUj7CT/bBZU+jNIGS5fxPPtPgQqK
-MO9z2Rs7z0q7LPDsLMFmKrw5u83mmxAO5KxR+2xSjkTV81B+unGW03DV0mSR7TWf
-L+hweubFEVsOjQdrv75xuvshlKE0b6gFRR2Lw1JE/t9tndSFKtrJx6K6NfQMcW/e
-X2zyag6/MfWP42B1RgFWEGcutdLx5YpQye4AOCdTt8Is0Psu+QNkFhPnXpxTEAeP
-A7puHff2PwFNq6oacLngwcJ0b5tGvRPA/ITfy6VfyJsbPLyfX9E1tAnVKQSq19FG
-VE2BB9/lMT+aXjZ5q2QQqSYEyMtu/XjaptVGZ2PMnNqjtbHRIRa3OB/vEoHuBMG8
-Rw7AH4bmnuFEciXRRdHVPUaoC9alvJYKy/o7dLbbadqLrVynxrNr572bVALiYZAC
-uFfP8Nks6n5R+Ze1H+QGAQ7FsVPJkmGAUSsvN21xEOY0Xzca8HkpUggQnl1YH0CO
-zQUhh/nyMtnc0GIYofKT0EZk
-=FUJm
------END PGP SIGNATURE-----
-
---===============4741390492362767882==--
+--===============1558034483036837765==--
