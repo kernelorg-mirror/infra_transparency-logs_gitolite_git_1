@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 18 Dec 2021 13:36:15 -0000
-Message-Id: <163983457514.6294.13556994739172934945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sat, 18 Dec 2021 14:07:38 -0000
+Message-Id: <163983645886.24902.7311233046803701982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/dev
-    old: 45f4798c8d8bca419356dfbcb12abf7bf91eed2e
-    new: a9eb5f72cc1dfaa735348fd65d91f27d5fc33810
+  - ref: refs/heads/master
+    old: e86afa536b175a90546e20d7d19f2418ee1bca78
+    new: 6dc75062f450e02a4ed49566d0536c209719a60a
     log: |
-         e6082718f7434628af5687e103090f3981ed6fea erofs-utils: lib: add API to get pathname of EROFS inode
-         a9eb5f72cc1dfaa735348fd65d91f27d5fc33810 erofs-utils: dump: remove unused function
-         
-  - ref: refs/heads/experimental
-    old: 45f4798c8d8bca419356dfbcb12abf7bf91eed2e
-    new: a9eb5f72cc1dfaa735348fd65d91f27d5fc33810
-    log: |
-         e6082718f7434628af5687e103090f3981ed6fea erofs-utils: lib: add API to get pathname of EROFS inode
-         a9eb5f72cc1dfaa735348fd65d91f27d5fc33810 erofs-utils: dump: remove unused function
+         6dc75062f450e02a4ed49566d0536c209719a60a stat: code cleanup and leak free
          
