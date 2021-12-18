@@ -1,77 +1,114 @@
-Content-Type: multipart/mixed; boundary="===============0810500787800452625=="
+Content-Type: multipart/mixed; boundary="===============5540314815192489488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 18 Dec 2021 16:38:04 -0000
-Message-Id: <163984548481.19616.9890693880255821803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 18 Dec 2021 16:39:57 -0000
+Message-Id: <163984559790.20235.1189984123076163637@gitolite.kernel.org>
 
---===============0810500787800452625==
+--===============5540314815192489488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 3953831982eb9c90506c4a2e8d7e6c3d840abf8a
-    new: 1b18af40c1db195619e611faaeae624d6319b1f1
-    log: revlist-3953831982eb-1b18af40c1db.txt
+  - ref: refs/heads/master
+    old: 6441998e2e37131b0a4c310af9156d79d3351c16
+    new: 9eaa88c7036eda3f6c215f87ca693594cf90559b
+    log: revlist-6441998e2e37-9eaa88c7036e.txt
 
---===============0810500787800452625==
+--===============5540314815192489488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639845484 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1639845483-bb7680a8a85c19bec1e72d8dd1275f7b705cc98d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639845596 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1639845596-7d238f144fe7bb45146a652a706fbcd46ba2d4cc
 
-3953831982eb9c90506c4a2e8d7e6c3d840abf8a 1b18af40c1db195619e611faaeae624d6319b1f1 refs/heads/char-misc-next
+6441998e2e37131b0a4c310af9156d79d3351c16 9eaa88c7036eda3f6c215f87ca693594cf90559b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG+DmwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WbEP+wQhcgYkEE5Zf6lPrC21
-OHPiOEwShzogoC1sDcSYekp7JMPTQ334/LH5MQoz6Wm+lbwOB0PCuDDR0kCZ5rBq
-BCSQ4nqaHN9+Pk+8K68LocZjd39aZE6R7CDBn/tQyYaOQIEtogkFp0DmfLMNwFTx
-5oNLGY4HpKDA2sK0sMREVOPq/atR5X5EckNHGnZjQLGKi6MSx59gh1DjMBdGbHTp
-HUTsUG3eXNH7SVzXBr7aWvpQSrlkDU9fRSOPSnONYltXi/WjenWZij/pDK8dhDk3
-Bil4Rw30bvhHYQHexV3kg8NnMmWTgsUZURmOo1alllxY9J/hYLQ1pFxAWTdK3vat
-E/c5PK5ZRlXne8Zt9THUSOgd9XDvj1D2T6I/ndpuiUBfFuxw0z5GSDlq7ClTjhsz
-TmqFoUazgzvT13hir1oclnpZggQBJ6E4xTr5ntyYU+BYDBC2827fgAJlSMxyZKdX
-Bd6fjcNuqQf03sxZq9+pLRpMR9M8NojGeT8yFOIqza1Faua7mHyDDKoZy1hc69wT
-+4wXJJFb/USBZQlXgVF8aqK0a9Nq4vT+rfzW/8Cc2MINf9IZ95JDBIy1VSAJI2y/
-cWMA0tbmBJm1w25R0nuWmjGdYz8m8wo72OqbHNuSfNg5oP4pbwJFGUiisyhKfLXM
-02G6NDfj3MewLuiirF/A7bRp
-=8yTF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG+DtwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgAQALfoDylC++MN/NJOnXJi
+9l6M9bj3jfblGesArQ+hffBeQ69rPPhu6uDR75ew7WfLkGPQhZb6ThoiNfet6VW2
+lXdMb7BZeETUUCfuOJcyjiEKkOwrics7XgpvRma8zfr6+VvAYYok9ByuOwx+ReMu
+ujiHgzdTv8KMXosMlXDX8Rk/ooJNYwpFSqO22BVlTtw5IegCfKX7EKIH+o+VBQYM
+wIBCzHYKItMH/LsikHzfMa1wWI3EWDTiGNKYuUENkehYxWnkND6M5IxO//Ub4V/x
+t4/VHFAMlrxB7oBstKFpc9uWfwjcCjJyIaxPiLq9Dx+l36MLUlzVDAyiS8H4uOC2
+SobULasoVMdJP4RKnI+kuMEIbIIYlHpLZhS8th2hBjZvnXIPTktep9evRn43VMQE
+5zZTACCYLUz/D4znsoxO3k3pkMIV2vFLABbt2NkY4n20AdQCi52xsavLASWc7+Wx
+559vJf+dd3GxIdOtije3BKGN/wWAgwaF3obTBxaYX/hWOiYXC2p18LeJ+NNL9G3g
+SmDlaeH9qNMBTfcdvxhNoGAliaLtqWOLVgHetuP1Xlxl44qE6hbDccAvUhtSsgsh
+WEKOzBg0UoYyc/dtJBi91buf8A75T/yQLR0FI8M3u7dfoeHvTCU9BqOvEVQnnr41
+g5qowL8Na3Q+5wUsGg4IOpRs
+=xW4B
 -----END PGP SIGNATURE-----
 
---===============0810500787800452625==
+--===============5540314815192489488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3953831982eb-1b18af40c1db.txt
+Content-Disposition: attachment; filename=revlist-6441998e2e37-9eaa88c7036e.txt
 
-c9825e66000508baf07260fb53540da8cffb3471 bus: mhi: pci_generic: Add new device ID support for T99W175
-f77097ec8c0141a4b5cf3722a246be0cb5677e29 bus: mhi: pci_generic: Graceful shutdown on freeze
-3e60c9f06803b52629d5c551ddbb5fddd60b8b65 bus: mhi: core: Use macros for execution environment features
-85ec6094624c413c2f87f49e8fffca60100915ff bus: mhi: core: Minor style and comment fixes
-f3d13397365d834b3f882627a7962c76593eeef2 bus: mhi: pci_generic: Simplify code and axe the use of a deprecated API
-42c4668f7efe1485dfc382517b412c0c6ab102b8 bus: mhi: core: Fix reading wake_capable channel configuration
-d651ce8e917fa1bf6cfab8dca74c512edffc35d3 bus: mhi: core: Fix race while handling SYS_ERR at power up
-227fee5fc99eeb74d43bf68832f6d59d30ac07d8 bus: mhi: core: Add an API for auto queueing buffers for DL channel
-5a717e93239fc373a314e03e45c43b62ebea1b26 bus: mhi: core: Use correctly sized arguments for bit field
-1dba0075fc3d2c2ae8503c3e213dc72a93e17761 bus: mhi: pci_generic: Introduce Sierra EM919X support
-b56ca501a4112b568102e6f910ed3d5e32dde52c spmi: pmic-arb: Add sid and address to error messages
-ef8261dce39503cddf1fe1f44578815df8ee4b2e dt-bindings: spmi: remove the constraint of reg property
-312644352f53a22f6f11f16481a4f23694650aba dt-bindings: spmi: document binding for the Mediatek SPMI controller
-b45b3ccef8c063d21eb746d85337eaf71f6b5f07 spmi: mediatek: Add support for MT6873/8192
-504eb71e4717ddfedd877d33fce684f3ab6d657c spmi: mediatek: Add support for MT8195
-1b18af40c1db195619e611faaeae624d6319b1f1 spmi: spmi-pmic-arb: fix irq_set_type race condition
+885633075847f475f26a29249d772cc0da85d8cd dmaengine: dw-axi-dmac: Fix uninitialized variable in axi_chan_block_xfer_start()
+1ffc6f359f7ab114ad0d2bbe6a85cbd848709ab2 dmaengine: dw-edma: Fix return value check for dma_set_mask_and_coherent()
+fa51b16d05583c7aebbc06330afb50276243d198 dmaengine: idxd: fix calling wq quiesce inside spinlock
+6331b8765cd0634a4e4cdcc1a6f1a74196616b94 riscv: dts: unleashed: Add gpio card detect to mmc-spi-slot
+298d03c2d7f1b5daacb6d4f4053fd3d677d67087 riscv: dts: unmatched: Add gpio card detect to mmc-spi-slot
+842470c4e211f284a224842849b1fa81b130c154 Revert "drm/fb-helper: improve DRM fbdev emulation device names"
+80936d68665be88dc3bf60884a71f2694eb6b1f1 dmaengine: ti: k3-udma: Fix smatch warnings
+8affd8a4b5ce356c8900cfb037674f3a4a11fbdb dmaengine: idxd: fix missed completion on abort path
+822c9f2b833c53fc67e8adf6f63ecc3ea24d502c dmaengine: st_fdma: fix MODULE_ALIAS
+5cf06065bd1f7b94fbb80e7eeb033899f77ab5ba drm: simpledrm: fix wrong unit with pixel clock
+d800c65c2d4eccebb27ffb7808e842d5b533823c io-wq: drop wqe lock before creating new worker
+2fe24343922e0428fb68674a4fae099171141bc7 scsi: pm8001: Fix phys_to_virt() usage on dma_addr_t
+fea3fdf975dd9f3e5248afaab8fe023db313f005 drm/ast: potential dereference of null pointer
+53b3495273282aa844c4613d19c3b30558c70c84 drm/i915/display: Fix an unsigned subtraction which can never be negative.
+edaa26334c117a584add6053f48d63a988d25a6e iocost: Fix divide-by-zero on donation from low hweight cgroup
+f35838a6930296fc1988764cfa54cb3f705c0665 btrfs: fix memory leak in __add_inode_ref()
+33fab972497ae66822c0b6846d4f9382938575b6 btrfs: fix double free of anon_dev after failure to create subvolume
+1b2e5e5c7feabb4f3041f637b96494944da6aeff btrfs: fix missing last dir item offset update when logging directory
+f3a8076eb28cae1553958c629aecec479394bbe2 drm/amdgpu: correct register access for RLC_JUMP_TABLE_RESTORE
+841933d5b8aa853abe68e63827f68f50fab37226 drm/amdgpu: don't override default ECO_BITs setting
+dcd10d879a9d1d4e929d374c2f24aba8fac3252b drm/amd/pm: fix reading SMU FW version from amdgpu_firmware_info on YC
+7e4d2f30df3fb48f75ce9e96867d42bdddab83ac drm/amd/display: Set exit_optimized_pwr_state for DCN31
+791255ca9fbe38042cfd55df5deb116dc11fef18 drm/amd/display: Reset DMCUB before HW init
+17c65d6fca844ee72a651944d8ce721e9040bf70 drm/amdgpu: correct the wrong cached state for GMC on PICASSO
+aa464957f7e660abd554f2546a588f6533720e21 drm/amd/pm: fix a potential gpu_metrics_table memory leak
+cb2ac2912a9ca7d3d26291c511939a41361d2d83 block: reduce kblockd_mod_delayed_work_on() CPU consumption
+aa97f6cdb7e92909e17c8ca63e622fcb81d57a57 bcache: fix NULL pointer reference in cached_dev_detach_finish
+651740a502411793327e2f0741104749c4eedcd1 btrfs: check WRITE_ERR when trying to read an extent buffer
+7a1636089acfee7562fe79aff7d1b4c57869896d btrfs: fix invalid delayed ref after subvolume creation failure
+212a58fda9b9077e0efc20200a4feb76afacfd95 btrfs: fix warning when freeing leaf after subvolume creation failure
+4989d4a0aed3fb30f5b48787a689d7090de6f86d btrfs: fix missing blkdev_put() call in btrfs_scan_one_device()
+c9f0322c46920c4c9abac5d7465be264eaabb717 Merge tag 'drm-intel-fixes-2021-12-15' of ssh://git.freedesktop.org/git/drm/drm-intel into drm-fixes
+cc274ae7763d9700a56659f3228641d7069e7a3f selinux: fix sleeping function called from invalid context
+5da5231bb47864e5dd6c6731151e98b6ee498827 libata: if T_LENGTH is zero, dma direction should be DMA_NONE
+78fed39af1af5d702089fe53076c524646e64997 Merge tag 'drm-misc-fixes-2021-12-16-1' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
+a2fbfd517117157e99160ff1b39b171872dcba07 Merge tag 'amd-drm-fixes-5.16-2021-12-15' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+ea81b91e4e256b0bb75d47ad3a5c230b2171a005 riscv: dts: sifive unmatched: Name gpio lines
+8120393b74b31bbaf293f59896de6b0d50febc48 riscv: dts: sifive unmatched: Expose the board ID eeprom
+cd29cc8ad2540a4f9a0a3e174394d39e648ef941 riscv: dts: sifive unmatched: Expose the PMIC sub-functions
+ad931d9b3b2e21586de8e6b34346d0a30c13721d riscv: dts: sifive unmatched: Fix regulator for board rev3
+f6f7fbb89bf8dc9132fde55cfe67483138eea880 riscv: dts: sifive unmatched: Link the tmp451 with its power supply
+8ffea2599f63fdbee968b894eab78170abf3ec2c zonefs: add MODULE_ALIAS_FS
+bce472f90952cc8be03dded25c4aa109d27e5924 MAITAINERS: Change zonefs maintainer email address
+4f549bf33e3824b3f4a719afaf0fd2e01a07acd6 Merge tag 'drm-fixes-2021-12-17-1' of git://anongit.freedesktop.org/drm/drm
+43d1c6a6395070cb02944d78bc919425ffd3e599 Merge tag 'dmaengine-fix-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+cb29eee3b28c79f26aff9e396a55bf2cb831e1d9 Merge tag 'io_uring-5.16-2021-12-17' of git://git.kernel.dk/linux-block
+fa09ca5ebce5b293ddba9b042d8fa9ed690bd91d Merge tag 'block-5.16-2021-12-17' of git://git.kernel.dk/linux-block
+0bb43aec33ea9dabda27bb8863d0e15acd5c6cb7 Merge tag 'riscv-for-linus-5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+f1f05ef38382021c9279cca8e9589f16fdfd1f40 Merge tag 'selinux-pr-20211217' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+9609134186b710fa2104ac153bcc27b11c3e8c21 Merge tag 'for-5.16-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+5d65f6f3df56021ec76761ea6986bc8139f537d2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+1887bf5cc4954d93c06cb0d6a8242fe7f00b4584 Merge tag 'zonefs-5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/zonefs
+9eaa88c7036eda3f6c215f87ca693594cf90559b Merge tag 'libata-5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 
---===============0810500787800452625==--
+--===============5540314815192489488==--
