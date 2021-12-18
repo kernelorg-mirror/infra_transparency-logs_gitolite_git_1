@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 18 Dec 2021 02:00:13 -0000
-Message-Id: <163979281377.4790.2145149915691944667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Sat, 18 Dec 2021 02:04:59 -0000
+Message-Id: <163979309961.6175.10146104546714743093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/experimental
-    old: e0bc012d7e04d02624ff332c9d3850ccdf6d71ae
-    new: 72afd85e175d9dc503714dd18e3e46fbc6f3693c
+  - ref: refs/heads/ceph-fscrypt
+    old: b98453d2d4ebab9b627755c70720afca5b039525
+    new: d4ddd0fcc60cb7d7a7cfa61163d02b898dcc4849
     log: |
-         76c5834d92ea72e4451880d5d3baa4cbd4888086 erofs-utils: lib: add API to get pathname of EROFS inode
-         72afd85e175d9dc503714dd18e3e46fbc6f3693c erofs-utils: dump: remove unused function
+         cde02059f1461347797f7561978ed0dc2dabfa0d ceph: plumb in decryption during sync reads
+         d4ddd0fcc60cb7d7a7cfa61163d02b898dcc4849 ceph: add read/modify/write to ceph_sync_write
          
