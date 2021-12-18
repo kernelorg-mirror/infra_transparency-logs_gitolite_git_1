@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 18 Dec 2021 02:04:59 -0000
-Message-Id: <163979309961.6175.10146104546714743093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Sat, 18 Dec 2021 02:35:24 -0000
+Message-Id: <163979492474.25980.6885302815832286537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/ceph-fscrypt
-    old: b98453d2d4ebab9b627755c70720afca5b039525
-    new: d4ddd0fcc60cb7d7a7cfa61163d02b898dcc4849
+  - ref: refs/heads/pending
+    old: 660b2f112a1037ff52416d9b9a55a3786b9184d1
+    new: c55b18181281b2fffadb9e0e8955d74b8b719349
     log: |
-         cde02059f1461347797f7561978ed0dc2dabfa0d ceph: plumb in decryption during sync reads
-         d4ddd0fcc60cb7d7a7cfa61163d02b898dcc4849 ceph: add read/modify/write to ceph_sync_write
+         c55b18181281b2fffadb9e0e8955d74b8b719349 libcxl: fix potential NULL dereference in cxl_memdev_nvdimm_bridge_active()
          
