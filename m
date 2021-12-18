@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 18 Dec 2021 12:34:05 -0000
-Message-Id: <163983084535.32116.303114514669031424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 18 Dec 2021 12:36:02 -0000
+Message-Id: <163983096219.1814.3382887113694880575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b2f37aead1b82a770c48b5d583f35ec22aabb61e
-    new: 1ade48d0c27d5da1ccf4b583d8c5fc8b534a3ac8
+    old: 23044d77d6062ad1a5e26466931a7b75deaddbd7
+    new: f85b244ee395c774a0039c176f46fc0d3747a0ae
     log: |
-         1ade48d0c27d5da1ccf4b583d8c5fc8b534a3ac8 ax25: NPD bug when detaching AX25 device
+         f85b244ee395c774a0039c176f46fc0d3747a0ae xdp: move the if dev statements to the first
          
