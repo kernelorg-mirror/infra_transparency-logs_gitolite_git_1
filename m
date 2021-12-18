@@ -1,82 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============4590114405472550810=="
+Content-Type: multipart/mixed; boundary="===============0810500787800452625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 18 Dec 2021 16:37:35 -0000
-Message-Id: <163984545536.19428.3561560366244768574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 18 Dec 2021 16:38:04 -0000
+Message-Id: <163984548481.19616.9890693880255821803@gitolite.kernel.org>
 
---===============4590114405472550810==
+--===============0810500787800452625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: f59f93cd1d720809466c7fd5aa16a236156c672b
-    new: f2b42379c57682d4b127283da109fa1a3317966a
-    log: revlist-f59f93cd1d72-f2b42379c576.txt
+  - ref: refs/heads/char-misc-next
+    old: 3953831982eb9c90506c4a2e8d7e6c3d840abf8a
+    new: 1b18af40c1db195619e611faaeae624d6319b1f1
+    log: revlist-3953831982eb-1b18af40c1db.txt
 
---===============4590114405472550810==
+--===============0810500787800452625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639845454 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639845454-bb584831bb3475dc4eabe99ab60ac7760c12542d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639845484 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1639845483-bb7680a8a85c19bec1e72d8dd1275f7b705cc98d
 
-f59f93cd1d720809466c7fd5aa16a236156c672b f2b42379c57682d4b127283da109fa1a3317966a refs/heads/usb-next
+3953831982eb9c90506c4a2e8d7e6c3d840abf8a 1b18af40c1db195619e611faaeae624d6319b1f1 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG+Dk4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+grgP/ih1h6xqBHUj5AvEfF4a
-RFhjzA+AwkBhYOH8AWKRTae06rja0BWEF3Xj1azZXNJA922fuy+7BnL2XTkpH0EQ
-XhSf9aBwt69MPyF5cus1Z4hCU8EOh2rBiv4Iz7hJcHHphsJcBDz1d4j83syiYq+V
-MvmUhXXVNrs05zKEBLGvkyw5D5yKzz7OZXMCci4bX8WepnRUeAuOuHZflbEnFrjM
-50/EBeFdLMB8nlGZIvVoOP5vIU8UqfPgwmeV+lmYdOQBsp25S6WlEDjLS1uCnGUT
-HEFoR5onE30kfGtkds7IbEXnu7jSrpejscoy/wqa3k7N8ttmPm6iOWyM/PVFild0
-rNHhGsfbkIAyejWewE/I+ODppuYRK0+pGB45P2FwiimXTcatJfBET2cQ5xt6P6Dp
-o0rGRxZ2uxoj7PmhtNlKmX6WuZkGWftkfqVp6v5Ugty3Fu4ifQqN22cJ9Z0ngT3+
-lUML6hyA/A5dB34cAFO9JSewTSS2Owwbp8T62nr5uySa9VRSrlQbwO7VX/2OjxLg
-qs05VBMaBqhxDSjULEri4qxZZ8Aq6TCiRS3os42FMN+KfdC4nAoO03VvZcbZ6aUu
-TGAsS9Qh8ZNBOKE1jMNJolbt+Rb1wwRE6tAZ79XkP5oE/fI4sqCj+kSxwxAWYTQ5
-sD+7vkQ/hMpeHS/e4CD7vROU
-=JrT7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmG+DmwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WbEP+wQhcgYkEE5Zf6lPrC21
+OHPiOEwShzogoC1sDcSYekp7JMPTQ334/LH5MQoz6Wm+lbwOB0PCuDDR0kCZ5rBq
+BCSQ4nqaHN9+Pk+8K68LocZjd39aZE6R7CDBn/tQyYaOQIEtogkFp0DmfLMNwFTx
+5oNLGY4HpKDA2sK0sMREVOPq/atR5X5EckNHGnZjQLGKi6MSx59gh1DjMBdGbHTp
+HUTsUG3eXNH7SVzXBr7aWvpQSrlkDU9fRSOPSnONYltXi/WjenWZij/pDK8dhDk3
+Bil4Rw30bvhHYQHexV3kg8NnMmWTgsUZURmOo1alllxY9J/hYLQ1pFxAWTdK3vat
+E/c5PK5ZRlXne8Zt9THUSOgd9XDvj1D2T6I/ndpuiUBfFuxw0z5GSDlq7ClTjhsz
+TmqFoUazgzvT13hir1oclnpZggQBJ6E4xTr5ntyYU+BYDBC2827fgAJlSMxyZKdX
+Bd6fjcNuqQf03sxZq9+pLRpMR9M8NojGeT8yFOIqza1Faua7mHyDDKoZy1hc69wT
++4wXJJFb/USBZQlXgVF8aqK0a9Nq4vT+rfzW/8Cc2MINf9IZ95JDBIy1VSAJI2y/
+cWMA0tbmBJm1w25R0nuWmjGdYz8m8wo72OqbHNuSfNg5oP4pbwJFGUiisyhKfLXM
+02G6NDfj3MewLuiirF/A7bRp
+=8yTF
 -----END PGP SIGNATURE-----
 
---===============4590114405472550810==
+--===============0810500787800452625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f59f93cd1d72-f2b42379c576.txt
+Content-Disposition: attachment; filename=revlist-3953831982eb-1b18af40c1db.txt
 
-b8f1ba99cea540903154d34888d7d310cc54ea4f usb: hub: make wait_for_connected() take an int instead of a pointer to int
-d6bfc848af12b32591e59aff58d5bfbd00d80b0c dt-bindings: usb: qcom,dwc3: add binding for SM8450
-2dec70f18b914a3108ab656417c4a0b77fdea2cf usb: ohci-spear: Remove direct access to platform_device resource list
-b6886c7826a17eaa908d7bae1537812bb78eb9fe usb: ohci-s3c2410: Use platform_get_irq() to get the interrupt
-e1ffd5f0709de8a423925a60d1e4b3593e0c96b4 usb: uhci: Use platform_get_irq() to get the interrupt
-0f153a1b8193ce768be4df0400aeb2c8f2a3b3da usb: chipidea: Set the DT node on the child device
-d538ea945532d0d3bd04192543b285e6979d9e8f MAINTAINERS: remove typo from XEN PVUSB DRIVER section
-942cdbc168d44730c5b3349198b16b4d6da3bb81 dt-bindings: usb: document role-switch-default-mode property in dwc2
-e14acb8769850fedfbfc62a64998e34348442784 usb: dwc2: drd: add role-switch-default-node support
-3ad02e0e524117d019417b88715c69802ec9c5e0 usb: dwc2: drd: restore role and overrides upon resume
-29b4dd308af693857eff0c2d9d5b3ce25c1f9a63 dt-bindings: usb: qcom,dwc3: Add SM6350 compatible
-00558586382891540c59c9febc671062425a6e47 usb: hub: Add delay for SuperSpeed hub resume to let links transit to U0
-1646566b5e0c556f779180a8514e521ac735de1e usb: ftdi-elan: fix memory leak on device disconnect
-4c71960105b4ad74bf0c30d0c9a40cf263e814ea usb: gadget: udc: bcm63xx: propagate errors from platform_get_irq()
-12ba912c30477481cb50158bc5ca0318f41a1762 usb: gadget: udc: pxa25x: propagate errors from platform_get_irq()
-1aebf115afd730d1e0f773b8273b04b8681e1128 usb: host: ehci-sh: propagate errors from platform_get_irq()
-4de5bd9a389d886d2f58ad15512f476ffc7d639d usb: host: ohci-omap: propagate errors from platform_get_irq()
-9879c81b680795b45a11894e48dfa9e4be2f4426 usb: musb: Drop unneeded resource copying
-cf081d009c447647c6b36aced535ca427dbebe72 usb: musb: Set the DT node on the child device
-b1e9e7ebe6c0b1b200d51ef21ad09652bb65c4b4 usb: core: Export usb_device_match_id
-f2b42379c57682d4b127283da109fa1a3317966a usb: misc: ehset: Rework test mode entry
+c9825e66000508baf07260fb53540da8cffb3471 bus: mhi: pci_generic: Add new device ID support for T99W175
+f77097ec8c0141a4b5cf3722a246be0cb5677e29 bus: mhi: pci_generic: Graceful shutdown on freeze
+3e60c9f06803b52629d5c551ddbb5fddd60b8b65 bus: mhi: core: Use macros for execution environment features
+85ec6094624c413c2f87f49e8fffca60100915ff bus: mhi: core: Minor style and comment fixes
+f3d13397365d834b3f882627a7962c76593eeef2 bus: mhi: pci_generic: Simplify code and axe the use of a deprecated API
+42c4668f7efe1485dfc382517b412c0c6ab102b8 bus: mhi: core: Fix reading wake_capable channel configuration
+d651ce8e917fa1bf6cfab8dca74c512edffc35d3 bus: mhi: core: Fix race while handling SYS_ERR at power up
+227fee5fc99eeb74d43bf68832f6d59d30ac07d8 bus: mhi: core: Add an API for auto queueing buffers for DL channel
+5a717e93239fc373a314e03e45c43b62ebea1b26 bus: mhi: core: Use correctly sized arguments for bit field
+1dba0075fc3d2c2ae8503c3e213dc72a93e17761 bus: mhi: pci_generic: Introduce Sierra EM919X support
+b56ca501a4112b568102e6f910ed3d5e32dde52c spmi: pmic-arb: Add sid and address to error messages
+ef8261dce39503cddf1fe1f44578815df8ee4b2e dt-bindings: spmi: remove the constraint of reg property
+312644352f53a22f6f11f16481a4f23694650aba dt-bindings: spmi: document binding for the Mediatek SPMI controller
+b45b3ccef8c063d21eb746d85337eaf71f6b5f07 spmi: mediatek: Add support for MT6873/8192
+504eb71e4717ddfedd877d33fce684f3ab6d657c spmi: mediatek: Add support for MT8195
+1b18af40c1db195619e611faaeae624d6319b1f1 spmi: spmi-pmic-arb: fix irq_set_type race condition
 
---===============4590114405472550810==--
+--===============0810500787800452625==--
