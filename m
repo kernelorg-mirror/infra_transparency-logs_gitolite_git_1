@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 18 Dec 2021 03:23:39 -0000
-Message-Id: <163979781959.23531.11691097451193462135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 18 Dec 2021 03:26:59 -0000
+Message-Id: <163979801910.25955.782492244517986285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 14193d57c81456541256e2545865d0f9536794eb
-    new: 158b515f703e75e7d68289bf4d98c664e1d632df
+    old: f75c1d55ecbadce027fd650d3ca79e357afae0d9
+    new: ab9d0e2171be56bb3bcd0fe4bd8ae5d2f24e5a80
     log: |
-         1488fc204568f707fe2a42a913788c00a95af30e net: lantiq_xrx200: increase buffer reservation
-         f845fe5819efc4111c456c102f15db6d9ed3406e Revert "tipc: use consistent GFP flags"
-         8b681bd7c301c423fbe97a6b23388a2180ff04ca net: marvell: prestera: fix incorrect return of port_find
-         2efc2256febf214e7b2bdaa21fe6c3c3146acdcb net: marvell: prestera: fix incorrect structure access
-         158b515f703e75e7d68289bf4d98c664e1d632df tun: avoid double free in tun_free_netdev
+         00315e1627583c6ed5381bccf55c725aa4f45290 tsnep: Fix s390 devm_ioremap_resource warning
+         ddfbe18da55cbea41aaf57d442228edbd6cbbff1 net: mtk_eth_soc: delete an unneeded variable
+         ab9d0e2171be56bb3bcd0fe4bd8ae5d2f24e5a80 net: ethernet: mtk_eth_soc: delete some dead code
          
