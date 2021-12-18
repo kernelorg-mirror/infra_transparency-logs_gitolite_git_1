@@ -1,35 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Sat, 18 Dec 2021 21:13:27 -0000
-Message-Id: <163986200706.19802.3004867309918389868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Sat, 18 Dec 2021 21:29:09 -0000
+Message-Id: <163986294984.29801.6826894008033022755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 26113360b7635f5dc300fe1f3809421465710c14
-    new: a1616593c626471214d56893c2440bbff1b24284
+  - ref: refs/heads/pending-5.15
+    old: 21bed541c4e63029cc2c8b3cf4c78847507b0ab9
+    new: e6c8a341eb22d375fcd057f5b5cdc98fdf0d2e8f
     log: |
-         5cb7ec0c8d554a7ea32c2f924d7a2fc66af4544a Update kernel headers and import virtio_net
-         9d8882d5d86fe7a7aadf843d17a3e67db7c9d24a vdpa: Update kernel headers
-         a311f0c43a67be939dfafda563453a3f9bf30e42 vdpa: Enable user to query vdpa device config layout
-         384938f9b00f2d203603e0919f23ae6857a14d96 vdpa: Enable user to set mac address of vdpa device
-         167e33f3be88c0fbe206df25145b850ddf3897a2 vdpa: Enable user to set mtu of the vdpa device
-         a1616593c626471214d56893c2440bbff1b24284 Merge branch 'vdpa-query-set-config' into next
-         
-  - ref: refs/heads/master
-    old: 26113360b7635f5dc300fe1f3809421465710c14
-    new: a1616593c626471214d56893c2440bbff1b24284
-    log: |
-         5cb7ec0c8d554a7ea32c2f924d7a2fc66af4544a Update kernel headers and import virtio_net
-         9d8882d5d86fe7a7aadf843d17a3e67db7c9d24a vdpa: Update kernel headers
-         a311f0c43a67be939dfafda563453a3f9bf30e42 vdpa: Enable user to query vdpa device config layout
-         384938f9b00f2d203603e0919f23ae6857a14d96 vdpa: Enable user to set mac address of vdpa device
-         167e33f3be88c0fbe206df25145b850ddf3897a2 vdpa: Enable user to set mtu of the vdpa device
-         a1616593c626471214d56893c2440bbff1b24284 Merge branch 'vdpa-query-set-config' into next
+         e6c8a341eb22d375fcd057f5b5cdc98fdf0d2e8f bpf, selftests: Fix racing issue in btf_skc_cls_ingress test
          
