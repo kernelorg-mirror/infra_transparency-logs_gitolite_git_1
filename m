@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sat, 18 Dec 2021 06:55:26 -0000
-Message-Id: <163981052671.31568.6087291728730474282@gitolite.kernel.org>
+Date: Sat, 18 Dec 2021 07:07:32 -0000
+Message-Id: <163981125270.5531.3207344960020328961@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/tags/imx-dt64-5.17
+  - ref: refs/tags/imx-defconfig-5.17
     old: 0000000000000000000000000000000000000000
-    new: 1932c378a03b7eecd534e1257f53accc1e54cc54
+    new: 569193531980af152e10b75767bda872d78b8064
