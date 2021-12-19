@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Sun, 19 Dec 2021 17:41:53 -0000
-Message-Id: <163993571324.10416.11513521536931466079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 19 Dec 2021 17:45:18 -0000
+Message-Id: <163993591859.13074.17607230812188713574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: wagi
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 0ef47336dc92b101c6d87ed3a9fff4db36096007
-    new: 8122063b3ccc62563f91a2cc04899baecf0d66fd
+    old: 037ad7be6c8914eb7f6d23d8b6846fecdae9c8c0
+    new: f52aad5df39cdd2fdddaa5dc9244789fd638bef8
     log: |
-         8122063b3ccc62563f91a2cc04899baecf0d66fd Add ObjectManager interface to connman
+         602fc68704cfd202234b2862948076160532f7e9 Revert "defer: Update RCUusecases.svg grouping"
+         f52aad5df39cdd2fdddaa5dc9244789fd638bef8 Revert "defer: Simplify SVG files for compatibility with browsers"
          
