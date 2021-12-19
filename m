@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snawrocki/clk
-Date: Sun, 19 Dec 2021 22:52:08 -0000
-Message-Id: <163995432836.11773.16227186633120140150@gitolite.kernel.org>
+Date: Sun, 19 Dec 2021 22:52:24 -0000
+Message-Id: <163995434409.11926.16178180709439069793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snawrocki/clk
 user: snawrocki
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-v5.17/next-2
     old: bc471d1fe210a917266ddcebc7bfafb7ac238edc
     new: 45bd8166a1d821eb8fada3092514a7c8543f537c
     log: |
