@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9017586397916432522=="
+Content-Type: multipart/mixed; boundary="===============6430148132271620261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 19 Dec 2021 19:04:14 -0000
-Message-Id: <163994065403.31214.13273812705385039670@gitolite.kernel.org>
+Date: Sun, 19 Dec 2021 19:04:23 -0000
+Message-Id: <163994066380.31319.6102107068528081414@gitolite.kernel.org>
 
---===============9017586397916432522==
+--===============6430148132271620261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: f85b244ee395c774a0039c176f46fc0d3747a0ae
-    new: 434ed21389948a45c238f63258bd5aae4237e20b
-    log: revlist-f85b244ee395-434ed2138994.txt
+  - ref: refs/heads/mlx5-queue
+    old: eb691a400c0980cf400312fa37f6e87d10fc6bcc
+    new: 3ed7c40c319501e8795576365683884f09d3c07c
+    log: revlist-eb691a400c09-3ed7c40c3195.txt
 
---===============9017586397916432522==
+--===============6430148132271620261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f85b244ee395-434ed2138994.txt
+Content-Disposition: attachment; filename=revlist-eb691a400c09-3ed7c40c3195.txt
 
 40bd094d65fc9f83941b024cde7c24516f036879 flow_offload: fill flags to action structure
 144d4c9e800da1230d817bbd50068a22e4cc688e flow_offload: reject to offload tc actions in offload drivers
@@ -40,5 +40,22 @@ e8cb5bcf6ed6d42227c453a3a3170105462f69df net: sched: save full flags for tc acti
 c86e0209dc7725c91583e3c0c78c3da6a28daeb4 flow_offload: validate flags of filter and actions
 eb473bac4a4b28eafb104e35410de3bc111b2e08 selftests: tc-testing: add action offload selftest for action and filter
 434ed21389948a45c238f63258bd5aae4237e20b Merge branch 'tc-action-offload'
+d843612970da4496b6f1becb5c0d4472a82f92f4 net/mlx5: Remove the repeated declaration
+57467b43a1f9d7001edae3b1749a88164e1b79ba devlink: Add new "io_eq_size" generic device param
+c00bc498ec736e281ac5d12bb7d419988b6395db net/mlx5: Let user configure io_eq_size param
+f0fa067295267ff89a03bec9336cd46c33e1443a devlink: Add new "event_eq_size" generic device param
+6644503f4310479ca39d25d8f2ab9838c9adcacc net/mlx5: Let user configure event_eq_size param
+c125e1db4c576a1f19c42c600eec26d939bf12bb devlink: Clarifies max_macs generic devlink param
+354af3f62688bcd5f80d8a78fad500cc40776708 net/mlx5: Let user configure max_macs generic param
+b6ff1c8296ba75b1d67cfc6902363d988da42d8a net/mlx5e: Use bitmap field for profile features
+dabcd213a27a5855c273cf206594cd7584a67671 net/mlx5e: Add profile indications for PTP and QOS HTB features
+481ef9996a6f1c46f0dc2803a2d9af7e3bf572c2 net/mlx5e: Save memory by using dynamic allocation in netdev priv
+33277a16d6f024250811d2d25f394fe900f8c341 net/mlx5e: Allow profile-specific limitation on max num of channels
+dfe11cb906ddc7073911f594c91803e7602b4dec net/mlx5e: Use dynamic per-channel allocations in stats
+b491552a200b7e60e3f708c121721dd263e36c8a net/mlx5e: Allocate per-channel stats dynamically at first usage
+70754ee9509a197fa8b8a3bafca759a1925e3018 net/sched: act_ct: Fill offloading tuple iifidx
+a14cb586af9a9d3e56e50c95d18a235c218efc82 net: openvswitch: Fill act ct extension
+e8a0c7c6abb4bca4ab11b50f2757f06a74dc127a net/mlx5: CT: Set flow source hint from provided tuple device
+3ed7c40c319501e8795576365683884f09d3c07c Merge branch 'patchq/374716' into mlx5-queue
 
---===============9017586397916432522==--
+--===============6430148132271620261==--
