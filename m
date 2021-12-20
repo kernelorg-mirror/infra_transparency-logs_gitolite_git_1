@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 20 Dec 2021 16:33:42 -0000
-Message-Id: <164001802230.10768.10304987691209011549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 20 Dec 2021 16:48:33 -0000
+Message-Id: <164001891367.19417.7330931658428406102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 4d2a31e69bd3e89705eae23030b2260156e3bcb6
-    new: beb187ef42931d41ad5a6fce6382da2edab1c7d1
+  - ref: refs/heads/testing
+    old: 3e4ec89acfc665ea0c4dea103275acaf391fc019
+    new: d37e6bb10a086d7d7695122e03e6431eb0ea503a
     log: |
-         beb187ef42931d41ad5a6fce6382da2edab1c7d1 Mon Dec 20 04:33:00 PM UTC 2021
+         d37e6bb10a086d7d7695122e03e6431eb0ea503a iio:addac:ad74413r: Fix uninitialized ret in a path that won't be hit.
          
