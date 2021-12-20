@@ -1,82 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============7591596474237939806=="
+Content-Type: multipart/mixed; boundary="===============2366007816339581394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 20 Dec 2021 20:57:09 -0000
-Message-Id: <164003382963.15176.4783125062728366084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Mon, 20 Dec 2021 20:58:15 -0000
+Message-Id: <164003389598.15604.13204013291889982600@gitolite.kernel.org>
 
---===============7591596474237939806==
+--===============2366007816339581394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/queue-next
-    old: baba28d5eb207a707e00cdbbb77e07a3992b541d
-    new: 3df8a9bc8afc9f72f062cde93efe0608c93b629e
-    log: revlist-baba28d5eb20-3df8a9bc8afc.txt
+  - ref: refs/heads/main-5.15.y
+    old: 8c88a5f91075519425a7c4ebeb32d43c610a931f
+    new: d269651b8725e94ef2c007d0877d79250e7c3071
+    log: revlist-8c88a5f91075-d269651b8725.txt
 
---===============7591596474237939806==
+--===============2366007816339581394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-baba28d5eb20-3df8a9bc8afc.txt
+Content-Disposition: attachment; filename=revlist-8c88a5f91075-d269651b8725.txt
 
-b7a49f73059fe6147b6b78e8f674ce0d21237432 bnx2x: Utilize firmware 7.13.21.0
-802d4d207e75d7208ff75adb712b556c1e91cf1c bnx2x: Invalidate fastpath HSI version for VFs
-cbbd5fff86e8fd22152982d077ed06b1210f2779 mlxsw: Fix naming convention of MFDE fields
-4bcbf50291f3b61ad231d31267842fcc73d7e6fd mlxsw: core: Convert a series of if statements to switch case
-e25c060c5f24b19d2596445c6d0cf40da6f13cc1 mlxsw: reg: Extend MFDE register with new events and parameters
-239cdd3f4cb0fe87da95e9a64a41644ee5a744ec mlxsw: core: Extend devlink health reporter with new events and parameters
-5f89b389006ddea6205ac7a96cafebd0b5e98283 Merge branch 'mlxsw-devlink=health-reporter-extensions'
-87a270625a89fc841f1a7e21aae6176543d8385c mac80211: fix locking in ieee80211_start_ap error path
-ef14049f4db9b9661f0f7cdf8c72a902a6c2deeb net: lan966x: Add registers that are used for switch and vlan functionality
-40304e984ab4ac4bf7303c6bf438eeff20af58ac dt-bindings: net: lan966x: Extend with the analyzer interrupt
-5ccd66e01cbef8b10adc9787b6e3ba1889a63742 net: lan966x: add support for interrupts from analyzer
-25ee9561ec6226d68ae4ae3464772b1cff9fb393 net: lan966x: More MAC table functionality
-571bb516a869a67accba9cd907242596f3782605 net: lan966x: Remove .ndo_change_rx_flags
-cf2f60897e921e338f2bcca9f2acbb3fc1686131 net: lan966x: Add support to offload the forwarding.
-6d2c186afa5d5dd416c9e854e428095a117c57b3 net: lan966x: Add vlan support.
-e14f72398df4aaa0063a324a3ba4b37e3c86514a net: lan966x: Extend switchdev bridge flags
-811ba2771182900edebdc1be17fa2cec0568c643 net: lan966x: Extend switchdev with fdb support
-4b430f5c968047c162cdaf236d59d2d95035d090 Merge branch 'lan966x-switchdev-and-vlan'
-662f11d55ffd02933e1bd275d732b97eddccf870 docs: networking: dpaa2: Fix DPNI header
-75a2f31520095600f650597c0ac41f48b5ba0068 phonet/pep: refuse to enable an unbound pipe
-6f774dfd1c14d0a0a079b0b50c8ba9f6dabaad5e net/mlx5: Remove the repeated declaration
-9573a554ccde42478f7bcc2661c58f186b7e16ed devlink: Add new "io_eq_size" generic device param
-6eaa87334dd33a2576ead99ba1dc0b9741fc682a net/mlx5: Let user configure io_eq_size param
-b661a3a022ad273e4e29706736f5cd310ff2f1d6 devlink: Add new "event_eq_size" generic device param
-1643ea2f81f68f8d401fdb0c677d75c617a45cf7 net/mlx5: Let user configure event_eq_size param
-6c6ab73df700c11b47c53962503356005eb98200 devlink: Clarifies max_macs generic devlink param
-1245e53589dac9e69ace539df79bbcd5c3ae5782 net/mlx5: Let user configure max_macs generic param
-3ec9eee6f4f0101bdec1f8f1ddb76de651c084a7 net/mlx5e: Fix skb memory leak when TC classifier action offloads are disabled
-06ded10ed4217c2514f8f86b9dc1431d9580273d net/mlx5: DR, Fix querying eswitch manager vport for ECPF
-96d61a9b55eaac967de479610726d66ce0a7b430 net/mlx5: Fix SF health recovery flow
-8f4d188cb58cf4490b5025267be1ca9d45c518d1 net/mlx5: Use first online CPU instead of hard coded CPU
-766ebd317ea394d773c16028ff30f990660fdb06 net/mlx5: Fix error print in case of IRQ request failed
-356af2d5c6046c48d43bd2d9566145bafd7cbdf0 Merge branch 'patchq/456066' into mlx5-for-net
-588f9ddfdca7110bd412c5871e7e26a3f83b31f8 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-80a0cdd56df03801e1ca36c3cdaf76b1025139c7 Merge branch 'patchq/452215' into mlx5-for-net
-740c690fbb5332ed88dfba5da1ccb1e6d32cc3b5 Merge branch 'patchq/452744' into mlx5-for-net
-7491dc3f86be4e70b43704b3b3d7c31839e6132e Merge branch 'patchq/448271' into mlx5-for-net
-b2c456b1934925b93d403910389cf95a9a1ef398 net/mlx5e: Use bitmap field for profile features
-d60d583819ddf4ff47128ebde53b0afca6467254 net/mlx5e: Add profile indications for PTP and QOS HTB features
-c981dd4cc19b07c92884a206eb3188efc6130e8c net/mlx5e: Save memory by using dynamic allocation in netdev priv
-b277c9fa686ed227506cec342b06b71fe452e5ff net/mlx5e: Allow profile-specific limitation on max num of channels
-fa29759bd5d1cb88c4203bacd6266335e0dea9d1 net/mlx5e: Use dynamic per-channel allocations in stats
-71381d3eb38ece455c5802846659cedeb39388fb net/mlx5e: Allocate per-channel stats dynamically at first usage
-e33050179db2f7942bc557d3327a21f21e57a018 net/sched: act_ct: Fill offloading tuple iifidx
-999dbbec019197e40096cfd83bdcb8bb9bef8345 net: openvswitch: Fill act ct extension
-2b3e2e8ed18a37fc0816bc49456522a5318226bd net/mlx5: CT: Set flow source hint from provided tuple device
-5ddfad88528306e64aa66e9b449471bb907d7f08 Merge branch 'patchq/374716' into mlx5-queue
-1fd3fc9308e13d8ea4d827efafca7bb53fc8a4da Merge branch 'mlx5-queue' into net-next
-249265f5aa00829b36b6650315a092f32a976bcf Merge branch 'mlx4-for-net' into net-next
-92ea6b6229709ac36f64d7f6d8be6f901d69bc22 Merge branch 'mlx5-for-net' into net-next
-0e9c5eaeb9b9dbc834b6810b0064a2e6e94d33b8 Merge branch 'net-next' into queue-next
-3df8a9bc8afc9f72f062cde93efe0608c93b629e Merge branch 'testing/rdma-next' into queue-next
+2e3f23c1d84e4876253faa7b7d6c55c55e68a2de extraversion
+767bfc92e5b3da3a59e0caff501c293095fe1e70 mm: thp: consolidate mapcount logic on THP split
+8c01a51783c9043be0004a39f613bc34d31fafcc mm: thp: make the THP mapcount atomic with a seqlock
+65b3916371f9db1206e4e24fb61596af5a18968d mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+5938f8ab4c767ccb8aa6be4e40dc29178abaa0a7 mm: thp: introduce page_trans_huge_anon_shared
+87274d474fd295f1f1ad7c3d196ec47069db8d95 mm: gup: COR: copy-on-read fault
+aac8bf8cf42012f189b9a477f322a2d7194bbf16 mm: gup: gup_must_unshare()
+5cc97e630e03ba7e99400bb4f3685a6360ffe007 mm: gup: FOLL_UNSHARE
+eeba3198fe21306829d745556347da3f99c2e4c5 mm: gup: FOLL_NOUNSHARE: optimize follow_page
+f86eeb73ca46a9a91922a21d577c5ab792650cb7 mm: hugetlbfs: COR: copy-on-read fault
+697d550db4bf7ce3425c3584f1d4da79c1644816 mm: hugetlbfs: FOLL_FAULT_UNSHARE
+2e23876f5615d87067641bcc5b76bb4087a7dea9 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+ac94977f768b2282963ba0b89f9b11890fbd9c41 mm: COW: skip the page lock in the COW copy path
+e2313bef3032318a1a7adf6b4c8b62e12c5e7358 mm: thp: replace the page lock with the seqlock for the THP mapcount
+f1a54244f7c225827c7a0402e79aeb76276bd4bf mm: COW: restore full accuracy in page reuse
+4f37e68e16955915f8c2d119917400998ea5bcbc mm: COW/COR: de-dup the lock page locking
+bd4e4656eefd53c1b4ce4148d73d92c66cbfc78a mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+9901c79e15ce6819055a23e817bdfa574cfba6d0 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+004108d6713cc4abd083e4e8a754ac7b21011287 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+518a6f6caa3655122daa895c7e785892bacef08c mm: gup: document FOLL_MM_SYNC
+30ee4b9cb453e100890182c255bea1701f87b8f8 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+7bc1de22924386aae4e5e16c6edb349618692091 mm: cacheline alignment for page_table_lock and mmap_lock
+98131b3048300a1abecca693b5d1387a1e2841b2 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+5f942c59b45dc50bff20a681bce95883b6847570 mm: thp: optimize total_mapcount() with head_compound_mapcount
+b5c744cc6801b950fc33b85dd958c09e7cf14610 mm: thp: cleanup and optimize compound_nr
+08b2ddd9d77266c1ab958e816e910a5d967be987 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+4876c0ca82a2952dad03a43a9d40f4d9ea12509c mm: mm_take_all_locks: add cond_resched()
+452e0aa2cfbf9176bf94ffbfa3b30e9334ec9b9b x86: restore the write back cache of reserved RAM in iounmap()
+3788a156612c4e2c8861a2aae394612247616b6f x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
+4293ac8d7384f756056e3c0b98b36f8ae68d2187 x86: deduplicate the spectre_v2_user documentation
+63fc88ebe32216316a1a6cab24c4c0ff5160268b x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
+60e361d75fd3cfdef4a8dfee9fe28183d824667c x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
+2f88cb921b29b20fe47aca4d709c4a76aeb9ab5f x86: atomic_set needs WRITE_ONCE
+2d0a1bb2a50936c20689aa8e07481d34dfed1071 sched/fair: skip select_idle_sibling() in presence of sync wakeups
+a4e2ab10c647335f9ca40bda5adc9fa73200c3a8 mm/userfaultfd: provide unmasked address on page-fault
+04a4fd8d3193abdf55cb6542a57cd519abebffb4 userfaultfd: UFFDIO_REMAP: rmap preparation
+44d56a86413e73a78a177eb8159a3b5b5578c2a1 userfaultfd: UFFDIO_REMAP uABI
+08f280ca988cdc182a2200e0fee24c5667699188 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
+81cb195f15e35f188192fdebf5e79cc5fe605e10 arm64: select CPUMASK_OFFSTACK if NUMA
+3690a2ba0ddee50f0dccfb66be071e4d61eca7d1 arm64: tlb: skip tlbi broadcast
+ff8ec8b79c10928f28873de728f6c6225bc72106 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
+6ad7c816b9138f61b73bb069fc829480142efe69 KSM: if the page isn't mapped page_anon_vma(page) can be stale
+ea0c23102f8cdfa0372702446ddbadb616aeccdc KSM: add batch random generator helper
+02a7f118ee9a2fc25eb9edf0c3190325acc9202d KSM: only attempt to merge with KSM pages if the payload doesn't change
+5cb5f6eda2b312fa57e1ce4b0935ca7a7e7faecc KSM: eliminate the KSM COW side channel
+cf3a7d3f3ff16b646d0010e5bc284f3e87c1f734 KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
+129b654f78e4e2386d823d616201b0775d69b382 KSM: break_ksm: use the COR fault
+d269651b8725e94ef2c007d0877d79250e7c3071 Merge remote-tracking branch 'gitlab/main-5.15.y' into main-5.15.y
 
---===============7591596474237939806==--
+--===============2366007816339581394==--
