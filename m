@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8288601663545071808=="
+Content-Type: multipart/mixed; boundary="===============7253146915137740453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 20 Dec 2021 08:52:00 -0000
-Message-Id: <163999032058.20936.15625357122741128126@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 08:52:17 -0000
+Message-Id: <163999033747.21083.16834689575708868764@gitolite.kernel.org>
 
---===============8288601663545071808==
+--===============7253146915137740453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: c97317e6439dd40d0ae1ea0ab38bffacaf79c103
-    new: e4c085679585b7ab78af0244cc6dcb67724aacdf
-    log: revlist-c97317e6439d-e4c085679585.txt
+  - ref: refs/heads/m68k-queue
+    old: 1a234d8e39bbdcb0581dc0fe8e25c6ab2444c9fc
+    new: ef13a1b6699579c1a6368bb23c7a5d41dc2ebaf5
+    log: revlist-1a234d8e39bb-ef13a1b66995.txt
 
---===============8288601663545071808==
+--===============7253146915137740453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c97317e6439d-e4c085679585.txt
+Content-Disposition: attachment; filename=revlist-1a234d8e39bb-ef13a1b66995.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 69125b4b9440be015783312e1b8753ec96febde0 reset: tegra-bpmp: Revert Handle errors in BPMP response
@@ -297,6 +297,9 @@ a76c3d035872bf390d2fd92d8e5badc5ee28b17d Merge tag 'irq_urgent_for_v5.16_rc6' of
 2da09da4ae5e1714606668bdb145806b0afe9c90 Merge tag 'block-5.16-2021-12-19' of git://git.kernel.dk/linux-block
 f291e2d899d120880bfe8e0fa6fe22a97a54e054 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a7904a538933c525096ca2ccde1e60d0ee62c08e Linux 5.16-rc6
-e4c085679585b7ab78af0244cc6dcb67724aacdf Merge tag 'v5.16-rc6'
+0a283bc9d67451b0631941058a4911e3b4864923 m68k: Enable memtest functionality
+80c9a9ffbd41b2a6ab098b47fe7035d20559dece m68k: atari: usb: Add ISP1160 USB host controller support
+6ee63caba2c7bcb43b2c91bd0cfb6b58a052b175 m68k: atari: Update Kconfig.bus help text
+ef13a1b6699579c1a6368bb23c7a5d41dc2ebaf5 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8288601663545071808==--
+--===============7253146915137740453==--
