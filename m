@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9016133120057571785=="
+Content-Type: multipart/mixed; boundary="===============6000505129655081752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 20 Dec 2021 21:55:21 -0000
-Message-Id: <164003732174.20039.14623033106763086405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 20 Dec 2021 21:55:26 -0000
+Message-Id: <164003732696.20111.15015743903169753684@gitolite.kernel.org>
 
---===============9016133120057571785==
+--===============6000505129655081752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: cf69de461332359f39f6530eb3c9f42673227ea4
-    new: 8dbd90514f89ac5d40700265b16ca6fd13530d31
-    log: revlist-cf69de461332-8dbd90514f89.txt
+  - ref: refs/heads/queue-rc
+    old: 086a0073521ba0a3ce5c5c52b1f75daf1ec447a4
+    new: a0582e729f2d95505971bbbb062918680df8daf9
+    log: revlist-086a0073521b-a0582e729f2d.txt
 
---===============9016133120057571785==
+--===============6000505129655081752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf69de461332-8dbd90514f89.txt
+Content-Disposition: attachment; filename=revlist-086a0073521b-a0582e729f2d.txt
 
 87a270625a89fc841f1a7e21aae6176543d8385c mac80211: fix locking in ieee80211_start_ap error path
 662f11d55ffd02933e1bd275d732b97eddccf870 docs: networking: dpaa2: Fix DPNI header
@@ -40,5 +40,7 @@ Content-Disposition: attachment; filename=revlist-cf69de461332-8dbd90514f89.txt
 740c690fbb5332ed88dfba5da1ccb1e6d32cc3b5 Merge branch 'patchq/452744' into mlx5-for-net
 7491dc3f86be4e70b43704b3b3d7c31839e6132e Merge branch 'patchq/448271' into mlx5-for-net
 8dbd90514f89ac5d40700265b16ca6fd13530d31 Merge branch 'mlx5-for-net' into net-rc
+6fe9739134845ce3851de4c619349b069c270f5e Merge branch 'net-rc' into queue-rc
+a0582e729f2d95505971bbbb062918680df8daf9 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============9016133120057571785==--
+--===============6000505129655081752==--
