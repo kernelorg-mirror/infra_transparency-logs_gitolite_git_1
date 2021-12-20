@@ -1,52 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============3264163788936694118=="
+Content-Type: multipart/mixed; boundary="===============1361198155235422724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 20 Dec 2021 17:06:36 -0000
-Message-Id: <164001999619.32644.13548872509910793350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 20 Dec 2021 17:10:24 -0000
+Message-Id: <164002022411.2814.13346072751481920799@gitolite.kernel.org>
 
---===============3264163788936694118==
+--===============1361198155235422724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 8ca4090fec0217bcb89531c8be80fcfa66a397a1
-    new: 75a2f31520095600f650597c0ac41f48b5ba0068
-    log: revlist-8ca4090fec02-75a2f3152009.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 354af3f62688bcd5f80d8a78fad500cc40776708
+    new: 1245e53589dac9e69ace539df79bbcd5c3ae5782
+    log: revlist-354af3f62688-1245e53589da.txt
 
---===============3264163788936694118==
+--===============1361198155235422724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ca4090fec02-75a2f3152009.txt
+Content-Disposition: attachment; filename=revlist-354af3f62688-1245e53589da.txt
 
-afe8a3ba85ec2a6b6849367e25c06a2f8e0ddd05 ice: xsk: return xsk buffers back to pool when cleaning the ring
-617f3e1b588c802517c236087561c6bcb0b4afd6 ice: xsk: allocate separate memory for XDP SW ring
-0708b6facb4d165ef22bccddf2dc3e1eb9a12d03 ice: remove dead store on XSK hotpath
-8b51a13c37c24c08e488bd58303cb437814f4454 ice: xsk: do not clear status_error0 for ntu + nb_buffs descriptor
-8bea15ab7485863d900982ee6a0ff6f78b339c77 ice: xsk: allow empty Rx descriptors on XSK ZC data path
-dcbaf72aa4232a7aa5db5e483972a6fe4ba2b41c ice: xsk: fix cleaned_count setting
-ec624fe740b416fb68d536b37fb8eef46f90b5c2 net/sched: Extend qdisc control block with tc control block
-3849595866166b23bf6a0cb9ff87e06423167f67 net/sched: flow_dissector: Fix matching on zone id for invalid conns
-635d448a1cce4b4ebee52b351052c70434fa90ea net: openvswitch: Fix matching zone id for invalid conns arriving from tc
-14193d57c81456541256e2545865d0f9536794eb Merge branch 'net-sched-fix-ct-zone-matching-for-invalid-conntrack-state'
-1488fc204568f707fe2a42a913788c00a95af30e net: lantiq_xrx200: increase buffer reservation
-f845fe5819efc4111c456c102f15db6d9ed3406e Revert "tipc: use consistent GFP flags"
-8b681bd7c301c423fbe97a6b23388a2180ff04ca net: marvell: prestera: fix incorrect return of port_find
-2efc2256febf214e7b2bdaa21fe6c3c3146acdcb net: marvell: prestera: fix incorrect structure access
-158b515f703e75e7d68289bf4d98c664e1d632df tun: avoid double free in tun_free_netdev
-aa3cc8a9e4001d50dd3e30b58257a9448b2b958b Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-b2f37aead1b82a770c48b5d583f35ec22aabb61e hamradio: improve the incomplete fix to avoid NPD
-1ade48d0c27d5da1ccf4b583d8c5fc8b534a3ac8 ax25: NPD bug when detaching AX25 device
-60ec7fcfe76892a1479afab51ff17a4281923156 qlcnic: potential dereference null pointer of rx_queue->page_ring
-87a270625a89fc841f1a7e21aae6176543d8385c mac80211: fix locking in ieee80211_start_ap error path
-662f11d55ffd02933e1bd275d732b97eddccf870 docs: networking: dpaa2: Fix DPNI header
-75a2f31520095600f650597c0ac41f48b5ba0068 phonet/pep: refuse to enable an unbound pipe
+b7a49f73059fe6147b6b78e8f674ce0d21237432 bnx2x: Utilize firmware 7.13.21.0
+802d4d207e75d7208ff75adb712b556c1e91cf1c bnx2x: Invalidate fastpath HSI version for VFs
+cbbd5fff86e8fd22152982d077ed06b1210f2779 mlxsw: Fix naming convention of MFDE fields
+4bcbf50291f3b61ad231d31267842fcc73d7e6fd mlxsw: core: Convert a series of if statements to switch case
+e25c060c5f24b19d2596445c6d0cf40da6f13cc1 mlxsw: reg: Extend MFDE register with new events and parameters
+239cdd3f4cb0fe87da95e9a64a41644ee5a744ec mlxsw: core: Extend devlink health reporter with new events and parameters
+5f89b389006ddea6205ac7a96cafebd0b5e98283 Merge branch 'mlxsw-devlink=health-reporter-extensions'
+ef14049f4db9b9661f0f7cdf8c72a902a6c2deeb net: lan966x: Add registers that are used for switch and vlan functionality
+40304e984ab4ac4bf7303c6bf438eeff20af58ac dt-bindings: net: lan966x: Extend with the analyzer interrupt
+5ccd66e01cbef8b10adc9787b6e3ba1889a63742 net: lan966x: add support for interrupts from analyzer
+25ee9561ec6226d68ae4ae3464772b1cff9fb393 net: lan966x: More MAC table functionality
+571bb516a869a67accba9cd907242596f3782605 net: lan966x: Remove .ndo_change_rx_flags
+cf2f60897e921e338f2bcca9f2acbb3fc1686131 net: lan966x: Add support to offload the forwarding.
+6d2c186afa5d5dd416c9e854e428095a117c57b3 net: lan966x: Add vlan support.
+e14f72398df4aaa0063a324a3ba4b37e3c86514a net: lan966x: Extend switchdev bridge flags
+811ba2771182900edebdc1be17fa2cec0568c643 net: lan966x: Extend switchdev with fdb support
+4b430f5c968047c162cdaf236d59d2d95035d090 Merge branch 'lan966x-switchdev-and-vlan'
+6f774dfd1c14d0a0a079b0b50c8ba9f6dabaad5e net/mlx5: Remove the repeated declaration
+9573a554ccde42478f7bcc2661c58f186b7e16ed devlink: Add new "io_eq_size" generic device param
+6eaa87334dd33a2576ead99ba1dc0b9741fc682a net/mlx5: Let user configure io_eq_size param
+b661a3a022ad273e4e29706736f5cd310ff2f1d6 devlink: Add new "event_eq_size" generic device param
+1643ea2f81f68f8d401fdb0c677d75c617a45cf7 net/mlx5: Let user configure event_eq_size param
+6c6ab73df700c11b47c53962503356005eb98200 devlink: Clarifies max_macs generic devlink param
+1245e53589dac9e69ace539df79bbcd5c3ae5782 net/mlx5: Let user configure max_macs generic param
 
---===============3264163788936694118==--
+--===============1361198155235422724==--
