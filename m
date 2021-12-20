@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1693928904395431490=="
+Content-Type: multipart/mixed; boundary="===============5770296641602448520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 20 Dec 2021 08:58:54 -0000
-Message-Id: <163999073436.24442.4577198052106770509@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 08:58:58 -0000
+Message-Id: <163999073853.24554.5389067442146670075@gitolite.kernel.org>
 
---===============1693928904395431490==
+--===============5770296641602448520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
+  - ref: refs/heads/usb-linus
+    old: c4d936efa46d8ea183df16c0f3fa4423327da51d
     new: a7904a538933c525096ca2ccde1e60d0ee62c08e
-    log: revlist-2585cf9dfaad-a7904a538933.txt
+    log: revlist-c4d936efa46d-a7904a538933.txt
 
---===============1693928904395431490==
+--===============5770296641602448520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639990733 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639990737 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1639990733-150a9c1a120ba5f9b3a99a33020d83d3723726fd
+nonce 1639990737-8cff0766b1978efe756c87e8c4750f2ecfa3b820
 
-2585cf9dfaaddf00b069673f27bb3f8530e2039c a7904a538933c525096ca2ccde1e60d0ee62c08e refs/heads/main
+c4d936efa46d8ea183df16c0f3fa4423327da51d a7904a538933c525096ca2ccde1e60d0ee62c08e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHARc0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MwgP/Aoqvh+nOAViW5kqahsT
-pMM0sppBI6gEC2SlnL6Lrwz1qzZA6Lu1Xy50z8fXxmbGa9LYVOd0L/UbfXM3kFsz
-UiVTjFsKVlbrqRt88OKarVIKQgwleAGd/WfiuMTIzCyjNLKclcDZTGENBJ7JGChy
-ANPIghTrTUkzHQmLtQgnVv88gLmp0nxZL5wW4SLIqaXVBKpRwNcBdu/1I6iIe5uG
-vpnM8YMk63LtLwMuz9+IWSisrVCDwZ4dnEyNuFdJ12RB+hqOSPkW/ehbs+qIj813
-PLP7JG6q08lkAFdo7xAkITYzM++GWAOmVL3fbT7Kv4yETY3zkWPQO2YJJU3w99pR
-mNZmzUyDHZfFP9JpGo0DIg+Hfm98e1L5g/eU3XLzbwRITnuyzW+aBaw4C7/8FgLW
-ep4VWCCmscUhtvnHgzfFsKVOT+n9lE8lAcjaQiq4Py8b9kChSqFi8hSdv4SlPdTq
-rdT8K2eY8DzIYQq68bQ0VhW6Clclb/76UOBhh5aw1XPVNq6b2/8YfbHyAqOsVg/4
-oZ46B3cI2q3tys/Z84mS8sX77++BlfHJQwi6f1c9018qsKAcSiIsrAcs8//LlnEt
-cxR7c5x/7HzcAjopw3Bz5kPq7f23zO/LPzZtI02pi4MqGoEwkzLWjIyldxpCD5V0
-oyyBCYg5/bUSyrMkYOzkuSJ2
-=LFnD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHARdEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WAcP/jI+UecfuIA6gXdlzGEC
+i/BMcqsE04rIUtZnUJOdkTi0fjtpuFC89MgEJDb3MQ11GS3COUkrLEvYRhRwWJ+Y
+MGVcyAkZUw+WpOxLFvrQzjv35YhI2cgqkDIkCGZEI1Qo7hMkdh9IH5wg9vSZi6TS
+Cgt5QBkMU1icVDZza2GPaRW/nZnTJIOHWLQbprjgr2DZLkjQWjdhF++LKiBoFsGE
+stOdoFMwsMVKJ2+yviwkhEOIcTpLKFCxiVbUYqafYOcn1FkO2ACa1tpPV8j3rsMN
+h4xtTJUVlU15VGEY/2J0o68ZD5WQW3fJlaMc38pDW/pyRFYL/gNuzKPWtYCJLI8C
+5rkMH/0g5JdYdenqQqFHh1FG0VDb1DijhKTRdTRl2iR5bRcouj3TCjblZJ83TGpY
+HFlcrt7psodLWoqwFO/WiHaN2iT8WnsU+35Q7rQxhxuF0Efu1CnCObMU0FILa1p3
+HcFxX3fAx62/00w8s4mnZ84Hqy58g/0gUyFI8NLkGBWeH1oWU6BpnvR9yX2EN8MT
+A5uFGoavcrZV3j+tGeKE0iAo/Rs7HHix8OGx7EQdzm6iQdrg9b3Av5X4P+XXGdv5
+wzSRj5s23O9OZiPryM/EsSedmng0Yn83VzUEqjV3/DkA2zYHiFk1LxQ44yCrtdSV
+3CGflz96zYjjGHdCFBhjG7r4
+=MjiE
 -----END PGP SIGNATURE-----
 
---===============1693928904395431490==
+--===============5770296641602448520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2585cf9dfaad-a7904a538933.txt
+Content-Disposition: attachment; filename=revlist-c4d936efa46d-a7904a538933.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 69125b4b9440be015783312e1b8753ec96febde0 reset: tegra-bpmp: Revert Handle errors in BPMP response
@@ -153,11 +153,6 @@ e3c68ab17b5ec2e4eabdeafea39193ccfe7b2971 Merge tag 'imx-fixes-5.16-2' of git://g
 d823bf891a171127b179b049d9c3f491c130072d Merge tag 'v5.16-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 38d5b296d39e8c0afe8efd4e351e12960cc3881e Merge tag 'v5.16-rockchip-socfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
 865ed67ab955428b9aa771d8b4f1e4fb7fd08945 firmware: arm_scpi: Fix string overflow in SCPI genpd driver
-890d5b40908bfd1a79be018d2d297cf9df60f4ee usb: gadget: u_ether: fix race in setting MAC address in setup phase
-ccc14c6cfd346e85c3ecb970975afd5132763437 usb: xhci-mtk: fix list_del warning when enable list debug
-16f00d969afe60e233c1a91af7ac840df60d3536 usb: cdnsp: Fix incorrect calling of cdnsp_died function
-50931ba27d1665c8b038cd1d16c5869301f32fd6 usb: cdnsp: Fix issue in cdnsp_log_ep trace event
-99ea221f2e2f2743314e348b25c1e2574b467528 usb: cdnsp: Fix incorrect status for control request
 ab8eb798ddabddb2944401bf31ead9671cb97d95 net: bcmgenet: Fix NULL vs IS_ERR() checking
 a8d13611b4a7b1b20d17bf2b9a89a3efcabde56c selftests/net: toeplitz: fix udp option
 9d591fc028b6bddb38c6585874f331267cbdadae net: dsa: mv88e6xxx: Unforce speed & duplex in mac_link_down()
@@ -174,8 +169,6 @@ aa50faff4416c869b52dff68a937c84d29e12f4b PCI: mt7621: Convert driver into 'bool'
 b0cdc5dbcf2ba0d99785da5aabf1b17943805b8a mptcp: never allow the PM to close a listener subflow
 2fe24343922e0428fb68674a4fae099171141bc7 scsi: pm8001: Fix phys_to_virt() usage on dma_addr_t
 fea3fdf975dd9f3e5248afaab8fe023db313f005 drm/ast: potential dereference of null pointer
-83b67041f3eaf33f98a075249aa7f4c7617c2f85 USB: serial: cp210x: fix CP2105 GPIO registration
-2b503c8598d1b232e7fc7526bce9326d92331541 USB: serial: option: add Telit FN990 compositions
 53b3495273282aa844c4613d19c3b30558c70c84 drm/i915/display: Fix an unsigned subtraction which can never be negative.
 1fe98f5690c4219d419ea9cc190f94b3401cf324 mac80211: send ADDBA requests using the tid/queue of the aggregation session
 37d33114240ede043c42463a6347f68ed72d6904 nl80211: remove reload flag from regulatory_request
@@ -232,8 +225,6 @@ e523102cb719cbad1673b6aa2a4d5c1fa6f13799 bpf, selftests: Update test case for at
 212a58fda9b9077e0efc20200a4feb76afacfd95 btrfs: fix warning when freeing leaf after subvolume creation failure
 4989d4a0aed3fb30f5b48787a689d7090de6f86d btrfs: fix missing blkdev_put() call in btrfs_scan_one_device()
 a7083763619f7485ccdade160deb81737cf2732f soc/tegra: fuse: Fix bitwise vs. logical OR warning
-f08adf5add9a071160c68bb2a61d697f39ab0758 USB: gadget: bRequestType is a bitfield, not a enum
-fac6bf87c55f7f0733efb0375565fb6a50cf2caf usb: dwc2: fix STM ID/VBUS detection startup delay in dwc2_driver_probe
 f4b3ee3c85551d2d343a3ba159304066523f730f audit: improve robustness of the audit queue handling
 213d9d4c25c380d4ce86d6ca3682e185f7924d05 Merge tag 'hyperv-fixes-signed-20211214' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 d9c1e6409cf47585a1f9abdd9b37d62ca7910966 Merge tag 's390-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -246,10 +237,6 @@ b6d335a60dc624c0d279333b22c737faa765b028 igbvf: fix double free in `igbvf_probe`
 bf0a375055bd1afbbf02a0ef45f7655da7b71317 ixgbe: set X550 MDIO speed before talking to PHY
 1ee33b1ca2b8dabfcc17198ffd049a6b55674a86 tty: n_hdlc: make n_hdlc_tty_wakeup() asynchronous
 6c33ff728812aa18792afffaf2c9873b898e7512 serial: 8250_fintek: Fix garbled text for console
-f886d4fbb7c97b8f5f447c92d2dab99c841803c0 usb: xhci: Extend support for runtime power management for AMD's Yellow carp.
-0ad3bd562bb91853b9f42bda145b5db6255aee90 USB: NO_LPM quirk Lenovo USB-C to Ethernet Adapher(RTL8153-04)
-4c4e162d9cf38528c4f13df09d5755cbc06f6c77 usb: cdnsp: Fix lack of spin_lock_irqsave/spin_lock_restore
-ca4d8344a72b91fb9d4c8bfbc22204b4c09c5d8f usb: typec: tcpm: fix tcpm unregister port but leave a pending timer
 c9f0322c46920c4c9abac5d7465be264eaabb717 Merge tag 'drm-intel-fixes-2021-12-15' of ssh://git.freedesktop.org/git/drm/drm-intel into drm-fixes
 972ce7e3801e790bb348bfe98be1ab65af15bacd dpaa2-eth: fix ethtool statistics
 481221775d53d6215a6e5e9ce1cce6d2b4ab9a46 netdevsim: Zero-initialize memory for new map's value in function nsim_bpf_map_alloc
@@ -292,8 +279,6 @@ ad931d9b3b2e21586de8e6b34346d0a30c13721d riscv: dts: sifive unmatched: Fix regul
 f6f7fbb89bf8dc9132fde55cfe67483138eea880 riscv: dts: sifive unmatched: Link the tmp451 with its power supply
 8ffea2599f63fdbee968b894eab78170abf3ec2c zonefs: add MODULE_ALIAS_FS
 bce472f90952cc8be03dded25c4aa109d27e5924 MAITAINERS: Change zonefs maintainer email address
-a0b24a566258acada7a819cc2ddf67c75f9dce08 Merge tag 'usb-serial-5.16-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-c4d936efa46d8ea183df16c0f3fa4423327da51d Revert "usb: early: convert to readl_poll_timeout_atomic()"
 4f549bf33e3824b3f4a719afaf0fd2e01a07acd6 Merge tag 'drm-fixes-2021-12-17-1' of git://anongit.freedesktop.org/drm/drm
 43d1c6a6395070cb02944d78bc919425ffd3e599 Merge tag 'dmaengine-fix-5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 cb29eee3b28c79f26aff9e396a55bf2cb831e1d9 Merge tag 'io_uring-5.16-2021-12-17' of git://git.kernel.dk/linux-block
@@ -329,4 +314,4 @@ a76c3d035872bf390d2fd92d8e5badc5ee28b17d Merge tag 'irq_urgent_for_v5.16_rc6' of
 f291e2d899d120880bfe8e0fa6fe22a97a54e054 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a7904a538933c525096ca2ccde1e60d0ee62c08e Linux 5.16-rc6
 
---===============1693928904395431490==--
+--===============5770296641602448520==--
