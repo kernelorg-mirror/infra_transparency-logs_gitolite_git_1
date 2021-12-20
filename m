@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8432788104382428986=="
+Content-Type: multipart/mixed; boundary="===============2226472154006489822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 20 Dec 2021 15:55:45 -0000
-Message-Id: <164001574590.20334.3510034748178228847@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 15:56:13 -0000
+Message-Id: <164001577375.20544.4325606491273865050@gitolite.kernel.org>
 
---===============8432788104382428986==
+--===============2226472154006489822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 35eaa42c4a1017c08d0572008db375becb621744
-    new: 46dacba8fea90d4b2562d45e8ca132f20a9ff5ce
+    old: 46dacba8fea90d4b2562d45e8ca132f20a9ff5ce
+    new: 712fe4c849829352dd45dc14e027d61500931f85
     log: |
-         59f37b7370ef56e6faf25d0e18bc597a0af40bb8 tty: serial: samsung: Remove USI initialization
-         0882b473b084df31288003b3bee974aabac9dcf9 tty: serial: samsung: Enable console as module
-         8cf8d3c4a634042f37ba34429e6a36412640ede4 tty: serial: samsung: Fix console registration from module
-         fcfd3c09f40786f8a296bfc93909612cc571c087 serial: 8250_pci: Split out Pericom driver
-         b4ccaf5aa2d795ee7f47a6eeb209f3de981e1929 serial: 8250_pericom: Re-enable higher baud rates
-         46dacba8fea90d4b2562d45e8ca132f20a9ff5ce serial: 8250_pericom: Use serial_dl_write() instead of open coded
+         712fe4c849829352dd45dc14e027d61500931f85 serial: sh-sci: Remove BREAK/FRAME/PARITY/OVERRUN printouts
          
 
---===============8432788104382428986==
+--===============2226472154006489822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640015743 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640015772 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1640015742-f0c69394236143e46010a1fcfe778b394cab5406
+nonce 1640015771-c50f91562982817c013859e247f18d6cfd3d8204
 
-35eaa42c4a1017c08d0572008db375becb621744 46dacba8fea90d4b2562d45e8ca132f20a9ff5ce refs/heads/tty-testing
+46dacba8fea90d4b2562d45e8ca132f20a9ff5ce 712fe4c849829352dd45dc14e027d61500931f85 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAp38bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tLsQANAJV/4oqzOHiHFFVq8d
-c6dBvW5Np8n2fbHyv6B41dsQTJcw8WTVB5s6bzhuc5P9y8rMSIxbY5fjbgOYcs6w
-lJBjv123qNCunbEJMKU5mckEstR/AcfBoN8fTUYKfzPQphOIC9KdqeogqwnNuXsV
-QBZidDTdkmizhPG50LgMv1PA1ysuzRDFcTQyj4t6sE9XIhhTJxIsRjK5ZXDC/0bJ
-n7KBormE07vI7mWbYp6O0qEMN4qc+6HzMj7qv4EPYFh7Q86FU9RSDmd8wZ6m6IM8
-2C+vGB+biGLwV0A20EAdtBpWxJjmnHbhTYCynX9SdLs2xrnSmQ1wMUrm+nC8P3O9
-WQjARqcU0KcWFpdvKQ+txG1CHKax2L+ImreWfRkI1eI0kjaWi5l8HM/OlsDNv8F/
-2V35E8wPdsqbVH01smczuNZr4yu859xh5397yOcpnJ984m12N1JtDuUwr7py2SQo
-8w5nAof9uiOTHWAG8shtg+9Pu4e35DmIGVaKW3teHYhkTHvyxvRJJjBaJDftWl7P
-CGlitsHP68CQld4EjyzS+bHzHrORHGTyVIL4b/NAyInJIen2vqJtmG3BKPDBftQt
-ET4MF26O5eClFbIPsptfh+id4M1bNkcsWaL7tB5A7bnHQ4I1G4BoQt21Em8pjJwR
-2RKRxMFRiV/eVa8ojrzesaHc
-=BojH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAp5wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TAwP/0U2G7mrx60SUE9qnAYD
+WzS7oc38QSs5FpdYGg8P5KHuuEPm3cH8yH2pWcgTjDFb9gY3TWPlCHltf+So6N5W
+EqJjMD4Fs7oUd0rGaNE2BmhWOFCRnTf2ot+DX36YDWT5e+Ttn3tk3Fa8n3rrbCWW
+P8YtR5hwlILPQJxoZoXeXkJmbc0BwpjRNPltEoQeD21zRysBwreN6MR1jxXbNlq1
+UHAzeciwE2iT9JYqra/q6IVfNZvWBX+Caqf6nnwWNrzUM6pAaEv2wq+iInAXjoc2
+ftEKNHc+7pLIUSoCKBgdP0Pn8CmMiochcGm46qqKKQO3L35EimI6WuBkAh8bw3e/
+qbTx5/UoSHZkdBTv72PDphBkrxt3BTcv5Es5DKKfFLFvPB3q0AMDDvCUduYy/sAm
+JjyIMn/DUcUEJnPhrJXC7WNTv598TyhlFbDPQ2nGro7rI8JHndiTFBK+gn5Nsgqc
+Kev13LLD6VqPEBbyWo39wlIX6f8J17yPy6DqSWkahMdCrexMomUoaRiom7C2+4R7
+/3gIWaVrOVBxR7smHRnko+9hAHONYNl0foKzExnXd3AuEP8Xn6zH26oT7787YpRT
+cGNTCCMKW/n7Ho4eaYxfhC1INhUtgpLUdi0VEsEO99NbcuCOz6LFXnCkX1xiZh5T
+ltX0NVDuUOn7bBBV+2aAIsW1
+=ywC/
 -----END PGP SIGNATURE-----
 
---===============8432788104382428986==--
+--===============2226472154006489822==--
