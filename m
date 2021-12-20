@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 20 Dec 2021 16:56:51 -0000
-Message-Id: <164001941100.26687.1119398016492277947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Mon, 20 Dec 2021 17:03:47 -0000
+Message-Id: <164001982761.30170.912798839140673581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/for-next
-    old: 1f63f6bf326b32204c551de94261528299793bd9
-    new: 3cfae448f91e3a4c74e229e44a358c6087a4d24d
+  - ref: refs/heads/signal-for-v5.17
+    old: 1fb466dff904e4a72282af336f2c355f011eec61
+    new: ff8288ff475e47544569359772f88f2b39fd2cf9
     log: |
-         b0229605b1436438f24d9a97d8ecf220e0ea5900 remoteproc: rcar_rproc: Fix pm_runtime_get_sync error check
-         ba635863779871a4f873511199f3e0ae84d5e592 remoteproc: rcar_rproc: Remove trailing semicolon
-         3cfae448f91e3a4c74e229e44a358c6087a4d24d Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         6692c98c7df53502adb8b8b73ab9bcbd399f7a06 fork: Stop protecting back_fork_cleanup_cgroup_lock with CONFIG_NUMA
+         ff8288ff475e47544569359772f88f2b39fd2cf9 fork: Rename bad_fork_cleanup_threadgroup_lock to bad_fork_cleanup_delayacct
          
