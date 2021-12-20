@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8241787431471640274=="
+Content-Type: multipart/mixed; boundary="===============4524914974584134367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 20 Dec 2021 09:01:24 -0000
-Message-Id: <163999088493.7436.15126197657610945934@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 09:01:30 -0000
+Message-Id: <163999089027.11704.12949486545506702834@gitolite.kernel.org>
 
---===============8241787431471640274==
+--===============4524914974584134367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 6c33ff728812aa18792afffaf2c9873b898e7512
-    new: a7904a538933c525096ca2ccde1e60d0ee62c08e
-    log: revlist-6c33ff728812-a7904a538933.txt
+  - ref: refs/heads/tty-next
+    old: 4b95391c8ef0f270ed58234597aef58976abe01c
+    new: 35eaa42c4a1017c08d0572008db375becb621744
+    log: revlist-4b95391c8ef0-35eaa42c4a10.txt
 
---===============8241787431471640274==
+--===============4524914974584134367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639990883 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1639990888 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1639990883-96cfc9bf388a0d03500851a1dafd6623312686bb
+nonce 1639990887-f824d7dba9ce80d656c9c7d1b8e04cb2a3b178c3
 
-6c33ff728812aa18792afffaf2c9873b898e7512 a7904a538933c525096ca2ccde1e60d0ee62c08e refs/heads/tty-linus
+4b95391c8ef0f270ed58234597aef58976abe01c 35eaa42c4a1017c08d0572008db375becb621744 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHARmMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XY8P/Ax3ss1SpZg7fpx79TqN
-oc0sKLvTc9Q6HRmRk4eLLWS/N4dPTPuu1nFckxMz+Gi5i3AYw//oS757ilM/y8jn
-8OO8zJgHRKqjdow277yGTYGjJ4mR+ZRTwpVrZh3Z7x7Mqp4ELolnjOQoFkBJULVl
-jK/+ynpuVah+nIClKAuHjdfDtw4DyJnnNtF8okNx5Hx3l1Sto/zkLldiW8svL4hN
-QsLTAJWMfWH0RrJ1YvgDv3rsw+xE0583HlqVPsLpn/RhfP2av8QCJEmvq46I5CjD
-n/ABj6mttOQ5IYu2QtL5GT8fZ4vkmsJ1HHRWhHD/jsN8O0I5TFCafAmHC27iPuS9
-0Z0ZPTnBH/QAOxVlJfPlsUWJxW/5uzfdCz6QAFbKjnSfqV46DW3HSvTIfNEqkF2u
-VM3ntHZEp7Gh3YTx5IBFFM6ySVZWfmfeiDyTOQdiNG3vFLnNM6sGLclPbYGjnD3X
-odhLcjPTwnMUA3RZqGqs+OdEjChqrGrGnitOFUXh4R7VhNNLPsQwb+AeBQ8ri6t5
-et6kZ1AaAg2yxKNmCQ0juFZfZ7gxOHX65BxD1rsCnpHew8r8SMa8GmpyzLQbrj6X
-v5qb35xnKm6p0VeMnAPhtRSivWX4aUa2fW8puh/1rrPSLUljHxhS4q3jqwBiB4G8
-+w9UywYrPBR+FVrgrOrmnda+
-=hV0B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHARmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nr4P/jkopTqPNJuGSBu+9aYh
+tolK0be6l/9Q/hEmc3Fnj/6I2Q8L2bNW6ghNSMMc8p+IKZVqkLlNSiZIlmziRe5h
+TkGSVUz+65OGFIAX83AETPrQLC3frmYh3UnwaW+6uDPUsY38jwE9PrTwtSfL4+mV
+C4Sr5yVspcgsgSJcJfaKpjDCoF1kqTQ2ij8O46TlQNWjECh0NPR8dKb5IRyrnB+N
+f5tLDYATyAKCm3fNfEOY6lkqCb7CxhBAV6AcXehKxfOBI8sV6SJGS/aqV6PjA3sJ
+U/mU/gSbu2tG8VnwrulpeZZ+ufXmtJKfEjoQDD7Gck0pSCXD+Gimt86ceranRRmD
+fsg5hCZImyqSOtqde3vNgajWc48W1p3s2EQHNABvbY+B4sR1v/p+3TVx8RzTCGZa
+YBjcAh/hMntz5TPdiqiCh4RkXN/jlbPJG1RaDkcil50exLrIswXCYXitDnKxQwha
+fHfIZ75gOxlFhk4ZrdVAG7/eXxsRslojJxaITFuHz8z7jTNnpfC0OVYkciGh7bDG
+KHaxyp1fKNNunOLHeBRh2HMBnGQoCqwylNjCs6e7anJHis6Y91b9YZ3JvE4ey4ir
+nsq8C7XbOlVcz12gg+Qu6N+TeyWqPt+J1GaoNqRwAoGgpm2u16qpl5iZmg6Q5Csl
+RspUNZ2ISju7gw3M4Ww4kfaq
+=JG+q
 -----END PGP SIGNATURE-----
 
---===============8241787431471640274==
+--===============4524914974584134367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c33ff728812-a7904a538933.txt
+Content-Disposition: attachment; filename=revlist-4b95391c8ef0-35eaa42c4a10.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 8383226583251858814d5521b542e7bf7dbadc4b hwmon: (corsair-psu) fix plain integer used as NULL pointer
@@ -645,6 +645,8 @@ b6d335a60dc624c0d279333b22c737faa765b028 igbvf: fix double free in `igbvf_probe`
 271225fd57c2f1e0b3f8826df51be6c634affefe ixgbe: Document how to enable NBASE-T support
 1cef171abd39102dcc862c6bfbf7f954f4f1f66f dm integrity: fix data corruption due to improper use of bvec_kmap_local
 bf0a375055bd1afbbf02a0ef45f7655da7b71317 ixgbe: set X550 MDIO speed before talking to PHY
+1ee33b1ca2b8dabfcc17198ffd049a6b55674a86 tty: n_hdlc: make n_hdlc_tty_wakeup() asynchronous
+6c33ff728812aa18792afffaf2c9873b898e7512 serial: 8250_fintek: Fix garbled text for console
 f886d4fbb7c97b8f5f447c92d2dab99c841803c0 usb: xhci: Extend support for runtime power management for AMD's Yellow carp.
 0ad3bd562bb91853b9f42bda145b5db6255aee90 USB: NO_LPM quirk Lenovo USB-C to Ethernet Adapher(RTL8153-04)
 4c4e162d9cf38528c4f13df09d5755cbc06f6c77 usb: cdnsp: Fix lack of spin_lock_irqsave/spin_lock_restore
@@ -727,5 +729,6 @@ a76c3d035872bf390d2fd92d8e5badc5ee28b17d Merge tag 'irq_urgent_for_v5.16_rc6' of
 2da09da4ae5e1714606668bdb145806b0afe9c90 Merge tag 'block-5.16-2021-12-19' of git://git.kernel.dk/linux-block
 f291e2d899d120880bfe8e0fa6fe22a97a54e054 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a7904a538933c525096ca2ccde1e60d0ee62c08e Linux 5.16-rc6
+35eaa42c4a1017c08d0572008db375becb621744 Merge 5.16-rc6 into tty-next
 
---===============8241787431471640274==--
+--===============4524914974584134367==--
