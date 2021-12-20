@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0476406995328431876=="
+Content-Type: multipart/mixed; boundary="===============4753814890753963780=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Dec 2021 13:03:32 -0000
-Message-Id: <164000541262.4426.9707116876103598336@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 13:03:33 -0000
+Message-Id: <164000541397.4497.13486740885335171932@gitolite.kernel.org>
 
---===============0476406995328431876==
+--===============4753814890753963780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 128bacd481cad29392d91ed802c06a9adb654363
-    new: b5e56e0b290646c102610f0d7e1f9b8a4076c1a2
-    log: revlist-128bacd481ca-b5e56e0b2906.txt
+  - ref: refs/heads/linux-4.9.y
+    old: ccdca404b9329faec8e03cc006fdd05de2ecf142
+    new: 68b8cd7fe15e2f794b96c37d55316ec44b99649d
+    log: revlist-ccdca404b932-68b8cd7fe15e.txt
 
---===============0476406995328431876==
+--===============4753814890753963780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640005410 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640005412 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1640005409-b357ca748edbd11c15100d4a2231b10c7cb17ada
+nonce 1640005411-465b3c80cbbd1380553880fc8ddbd0505ac21edc
 
-128bacd481cad29392d91ed802c06a9adb654363 b5e56e0b290646c102610f0d7e1f9b8a4076c1a2 refs/heads/linux-4.4.y
+ccdca404b9329faec8e03cc006fdd05de2ecf142 68b8cd7fe15e2f794b96c37d55316ec44b99649d refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAfyIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+el0QAK1n3aO0CMsEF+urstMb
-bvxwXCsVj8WsyNXlTaVmE2fkWfKc13kRShDbHfhUxZDcA3tcYMchx/JcLnxISsAg
-m1pNo0abq7XIiSEpAieOl3Bu3IlgWsGlPsJ6CR95FyHiMDV6lN1TiF2Zt6t8pnAO
-XebBPi/bH/93EdW6mMQhnDyU7uQko/K/MU+9QqdTSRnaiB1/5qZ0idX8U2ZkqDWK
-AGh4WNBxU2VUJblyBNDGdJBIYqoXV840BrpaK36lE7XPzMvSese5TW3MSXPEtIuc
-M3BB7z1jzdfhM4j/YVrPV7dxngf8oyjtwWib04Ga3erNnWMqv944QvJwNO8RkMRb
-dgILTzm83iJwxwnZC9k1B7fbAfP5u/RZfBdLSnqUxK3apTg1P07QwrFlTRJMw/xe
-KP1g0XmSUrU/r9X2Pwf/PqswHX0WdT1WPh0cCf67HfEi/KtPALlHY0vAIXWNgjfq
-oSEaVyd77p+F1CYirQvPWg7kgK7jM1wNX8UobmbgiE/JnmSePAS3tU0AXMPv+z2o
-JClyTO4NvKv7sattph/qLy5k+VPuPyoiIKoF1BbIyW9cHp6lfaQQ021resYk1YXd
-t2f9YE5Os1VWO/5+wepiiuhp1/7+LG3+KGx4aQjFAq8YTWKDeVIcKygPFSEo9cs5
-0BfqpFhqIEiC2HHoee8toPgY
-=wvVu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAfyQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+j/AP/1fknNhC+58p/MUZCDt9
+zguk5MjoDLWm6qxYmtr96D86q2tKjD878U2tccyH8w1VnORrz4SNMFZiy14c2fPW
+w62t+StIRAb4KRqswof/Z4ODaswB1hm2To9/d71fwFeNxbaAOrpBUN9RR5AiCpvf
+eJD3t1RydbgskI9A4pfy0IsEIrBWnIG+YcFqdc+3L6Tkt+Xuh8ESLhCQ6tORy/Jw
+yUpwFlqDAQnh1CUXwdpH+kjUIghatSNpp4rQV4fvxlA8EsyS8wq4NajDID3BPHAj
+XqGDMglKXtcsc6RRFWAzdHeDYQavC+FN2ElL0fusIkjR07cJVlIWjkic+oTxyiP3
+MWlp+/lxPtgBrJ0vD3agjnl4eurLuEgf3od0L8C/hqh+YDdHCeOOrRQXxybMTfd6
+sk6cUQdO34IJmUlTYvg0/Fp0XsyRmo7FUdEOwucaVy6vp+B+aqUKqIx4QWTuK+6Y
+rVzDfSLLXt6Lx7vel53dRcfEgBVjiRcrOBpMfwvF7Wjf83atqYu/ninBHg5PNrlL
+hiirTgEItJUa7/rqFFNpDYDFDtX1RqHoBwMSOKuSYWKRaX0eZkPyBI/psHgCTDWi
+R+CyDrxhYhPb6wU/ONjVSCQx9TnUM7n+09R+ojGvI/vjUnKIjoToPoarjZ9PMkfO
+J7zto5VCPVHB6yc/dIlFy4Fi
+=H7qd
 -----END PGP SIGNATURE-----
 
---===============0476406995328431876==
+--===============4753814890753963780==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-128bacd481ca-b5e56e0b2906.txt
+Content-Disposition: attachment; filename=revlist-ccdca404b932-68b8cd7fe15e.txt
 
-a9f11c4a1a45679e0f531b6436190654801988c5 nfc: fix segfault in nfc_genl_dump_devices_done
-ba5ec029e81061005cf0abd32e15a2d64ab9fa2a parisc/agp: Annotate parisc agp init functions with __init
-a5881fa500db6d84861c44bcf0b68b8a8e335b81 i2c: rk3x: Handle a spurious start completion interrupt flag
-9b65c19ff858c419374ee69b961057aa814ec263 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-877753dd1b58253ed48cf0db63aff52dd0db548a hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-97337ba03e7950b3cfc5dbfe2546e0aff1b01ceb mac80211: send ADDBA requests using the tid/queue of the aggregation session
-f54941978eb7e8362c29d7a9e05c243d1608e569 recordmcount.pl: look for jgnop instruction as well as bcrl on s390
-edc1405b9f762b73fee7efdac88760e46bcd06e2 dm btree remove: fix use after free in rebalance_children()
-6c6eb198d3cbc603cfa66fd197b622adc806cc9a nfsd: fix use-after-free due to delegation race
-9e14ccf129ae13722bd4d3bccf696feb12370315 soc/tegra: fuse: Fix bitwise vs. logical OR warning
-1a969e5a519db5c866c5133d28f3546c165f604a igbvf: fix double free in `igbvf_probe`
-ef1f671ec948002c95bb0d981db749200b5ac327 USB: gadget: bRequestType is a bitfield, not a enum
-83f82f88d50954194b912f49fe0392023723bcd3 PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
-4439721b53e10660edba22d3e298346d5e46b78e USB: serial: option: add Telit FN990 compositions
-c9364ebae1dc7fac9c25e4707e889f7fb6ffd93f timekeeping: Really make sure wall_to_monotonic isn't positive
-a88a429632e1702012203734c9fbca8e08026093 net: systemport: Add global locking for descriptor lifecycle
-658137edd16fdd71e04d109a07238645c1086525 net: lan78xx: Avoid unnecessary self assignment
-ace20051bbee025db365c4e7d97f50be69aca34d ARM: 8805/2: remove unneeded naked function usage
-9e8921f04173f336c0d7324765389a259a9ce9b8 Input: touchscreen - avoid bitwise vs logical OR warning
-b5e56e0b290646c102610f0d7e1f9b8a4076c1a2 Linux 4.4.296-rc1
+5901501f26b38f050f4fa77c984257ed2ee0f5a0 nfc: fix segfault in nfc_genl_dump_devices_done
+7eda257a5c677630cb1e66fa13d9d1962765998d net/mlx4_en: Update reported link modes for 1/10G
+4752979ba74588d3c2823b57786b4a71a2b7bf20 parisc/agp: Annotate parisc agp init functions with __init
+93699ada23691138905700344a0c847d825d162a i2c: rk3x: Handle a spurious start completion interrupt flag
+54ab676722d657f7937f326d62a7f34f778195fe net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+085fced68c644d50da0c92aea83d0afb99ee12fe tracing: Fix a kmemleak false positive in tracing_map
+f51bd70e770aa30b3b2611b59a1af6f2a596c0a2 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+d6e1c153cff17d9bd2e97b2fb5d1079835d5af04 mac80211: send ADDBA requests using the tid/queue of the aggregation session
+f64eb10e93b365062dc207973b8bcb27d336a82d recordmcount.pl: look for jgnop instruction as well as bcrl on s390
+62eccb249522155c4c67057e57750cb3c924f178 dm btree remove: fix use after free in rebalance_children()
+7a275299e103afae4de7ccb6e09641f347ad6c2d nfsd: fix use-after-free due to delegation race
+9c9b1d143c27ba2c79124c0979f3fa6362af5c91 soc/tegra: fuse: Fix bitwise vs. logical OR warning
+26eb5d33af612ac0196f833f28eac357a9bf39b4 igbvf: fix double free in `igbvf_probe`
+8bed23cd1ff1d37828bffa8d3c6d94b740e9cb16 ixgbe: set X550 MDIO speed before talking to PHY
+675e5897af3e1d27e65fdf60f39e5bef98458913 USB: gadget: bRequestType is a bitfield, not a enum
+fc79ef0157aff9d54bfe327943f0c383e622f75d PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
+33c6b2b352863a8736ac4efb3fa4581f76829cc0 USB: serial: option: add Telit FN990 compositions
+82c46dbb3465d793bcfc38b7395c4eaf93c768df timekeeping: Really make sure wall_to_monotonic isn't positive
+c8bdb1dd894acaefacdf3f216fe72011a755b2b7 net: systemport: Add global locking for descriptor lifecycle
+e4618abb69929ec89b3eec9934d55bc048b8753a firmware: arm_scpi: Fix string overflow in SCPI genpd driver
+e92d4b6a327a5b190c0c8f12c6e9bb693cb7d651 fuse: annotate lock in fuse_reverse_inval_entry()
+22133870c5999d095a00226c746270e5f90bb065 scsi: scsi_debug: Sanity check block descriptor length in resp_mode_select()
+37de5bf628de92d8655a9835538404f7283f75a6 net: lan78xx: Avoid unnecessary self assignment
+b73785a4018f7cfa8bea005db7223fae38aa2354 ARM: 8805/2: remove unneeded naked function usage
+32281ae67586da0c2f6825e474f6892e118cb986 mwifiex: Remove unnecessary braces from HostCmd_SET_SEQ_NO_BSS_INFO
+ea3234c6a02bdbdeb5a222d10a97aab126f252f7 Input: touchscreen - avoid bitwise vs logical OR warning
+68b8cd7fe15e2f794b96c37d55316ec44b99649d Linux 4.9.294-rc1
 
---===============0476406995328431876==--
+--===============4753814890753963780==--
