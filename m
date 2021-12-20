@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8946587597868178793=="
+Content-Type: multipart/mixed; boundary="===============8939425627061895603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Dec 2021 14:30:22 -0000
-Message-Id: <164001062253.30059.2949950962340548786@gitolite.kernel.org>
+Date: Mon, 20 Dec 2021 14:30:24 -0000
+Message-Id: <164001062486.30128.16720917689426748435@gitolite.kernel.org>
 
---===============8946587597868178793==
+--===============8939425627061895603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,78 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 041ecd18cea6b2fdfdc03d176e727151251c0310
-    new: f46f7fed481068d1389efbf0122c45cb9f36480d
-    log: revlist-041ecd18cea6-f46f7fed4810.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 2022ba28162c24f95bf872a1173463a6d152339b
+    new: 4578d170efaaa2f9aa7f8b3de176c7e80a892bed
+    log: revlist-2022ba28162c-4578d170efaa.txt
 
---===============8946587597868178793==
+--===============8939425627061895603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640010620 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640010622 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1640010619-7e24db11d74fc8bdf0510b6119c72a0a11623ab9
+nonce 1640010621-99cab17b2f65eaea6e2f5600fc962d6c25740c9d
 
-041ecd18cea6b2fdfdc03d176e727151251c0310 f46f7fed481068d1389efbf0122c45cb9f36480d refs/heads/linux-4.4.y
+2022ba28162c24f95bf872a1173463a6d152339b 4578d170efaaa2f9aa7f8b3de176c7e80a892bed refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAk3wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aN4QAM/OAATKoSgwmRrwG0qO
-3Mf4FfOxUpQTyIFX1meWzcrw5rsP24Vx1+k2NCxuvH+eSlhZSd21ElEpctNWFfG7
-REu12oPuVpGvm7R/5W/Iz7QESPuNXqnK6uDDloR8e5I3RD9WuaT7PWeff7uQvGGU
-mdqAEyJPTjK6nT6yVSV7AjLkjge8ndLDCeUH7hlnQ9m/EC/UJNED8wdZ0K8QZ4Wo
-GGwE3IjiyIgNXU/ie9HdYj8ZL4UVMvYN0BPsdf2GYc9Trz2i42NF9XIzuDltyxCJ
-rxwF5ZXJ+Gec7vfra9I59za6hmXe77CjSb9ER+isb3VH9lvSmKpppgdSzrMsnarl
-06MU/BwhBxEd6SUAfTgP8/PP4jjOa3rT237FYkoHt3ZN+ckPerJJ3TneJfEiOhyg
-Abn6Qs8pVLaIVow1ZxgYlvBCAmW5trJsg6AW0bdVdawmzz3VExJdnVN5t+BTLB8Z
-PoTfX/zIcVPYDrpak/3e3JvqRcdp3dkhwk7iu7DpFjFSVv7VZR1SaZNgRKQOqiw8
-Cm/XF1b/j1512HD1wf8SmzkG4cWPJs3FQ4Qp107jq/N3LycWbk43yB9AHEPo9ETt
-jxUmlFNrPfs5CjYHh3IbirYMp+MoWpTEUgO28qMdwPNmY6Dk/HKgWph1lfsAZXcs
-0YiPXusxYkRx0UT+fxRqGI/B
-=BGKK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAk34bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TgUQAI0mR/Nh9LVPyLAQWOQB
+cOryeQvEragg0ELOyovluc4UupMP//c7+DCwgvQm0DNSVj3lkcEwjifnGcxmmLhL
+Z9rLlTYeV/sdZNHF7tgodAIbBaGMb+oxmgHjD8dC0wrNKalEG5WgZb+ziHOqVd9n
+hvqWNj+Tjzm1FBbiDcvl9vnGmkblOt5Y3j2uynqBzhF8l0XtDt6FyWrsAq3Cc9cz
+e8gQIrOMeAFOA4YGRaUmJ/QGZSVkLeOcKDcgd8APXmh4Qs/l+Ors3aSQz5jQeoVL
+578r5JJjA8rPRvf8RPQguiiw88W7NbRu7SyrfTvcM9EaxsYoI9/xI0K1A0lmhZuv
+u9AngXqFgBjzSbq6L9FzVzWlYJzj86qI28odPHWwUtDV1MsePT7/wa2ygkrWv60s
+oHUTPdDjvMk5CAW8UMxCcvrI2QgOMfBjZYdWLSw0BI0yPtHO8abSL5qzDZjzeUl0
+1pcfsICLVw106pHDmoVjhtAtaMMSOEUR/7opKN/pDphW0YHxX/LWd2ZMr/vBYNpY
+FQtkqd0AalshWSD47afHCQzYUDX4U9aFZe8TL79zCjCh6O9G1605iloIG3KHxeMe
+LIiviwt54PORwKnkFJWIcAxRFmqCNrH7kWwBwmunfYPe2lh6Gtz3gCi85A5UcSZC
+koJeq5suWNgsOdcXXgCcZBAO
+=KGcw
 -----END PGP SIGNATURE-----
 
---===============8946587597868178793==
+--===============8939425627061895603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-041ecd18cea6-f46f7fed4810.txt
+Content-Disposition: attachment; filename=revlist-2022ba28162c-4578d170efaa.txt
 
-a8cf1aa35e15b07eae41e0b6cbec4e29539ded34 nfc: fix segfault in nfc_genl_dump_devices_done
-abc89725c0a61ce2b0522676575bf484f2e9f5d9 parisc/agp: Annotate parisc agp init functions with __init
-7143801f25bc17d7419d44a550347a27bdd594ae i2c: rk3x: Handle a spurious start completion interrupt flag
-6af0c131c2abff1c057c6b3aa4572ebe457a6cf0 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
-c73da9b006329c5090ffc79a8ba65be3c1a275f2 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
-2b48f686a778b602f178d7f1b8fc6670f4719c02 mac80211: send ADDBA requests using the tid/queue of the aggregation session
-ab9d2775eea8bb3901e927ba6f58bba0e66f989c recordmcount.pl: look for jgnop instruction as well as bcrl on s390
-87a2d8dd4712e4723a212d1fcf27ae45367c5012 dm btree remove: fix use after free in rebalance_children()
-2f6c5bcbb65898211b8106997c2f238a4af2dc61 nfsd: fix use-after-free due to delegation race
-75c0586a8be02d851531172e14cbbbd6bee173e6 soc/tegra: fuse: Fix bitwise vs. logical OR warning
-0b913a34911ffb8ab03476275e7149b8948a2052 igbvf: fix double free in `igbvf_probe`
-f0a5e83e7d737e1bad0ca57a12872fb09a376ca1 USB: gadget: bRequestType is a bitfield, not a enum
-597a6b9e554dcb8dc2843f093a6e670a53e1202a PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
-35a051d98d5cca7c7e18fe91a11043be0eaa9d6c USB: serial: option: add Telit FN990 compositions
-1a68d982f7ed518ebceb3e8009e963dfd0cba52a timekeeping: Really make sure wall_to_monotonic isn't positive
-6f238880b2b3fcc059f13572002f73e087ccfc80 net: systemport: Add global locking for descriptor lifecycle
-d2fde6059857470aaf633e3b5946673c071df133 net: lan78xx: Avoid unnecessary self assignment
-f8b4ba62894cce1e3b4745d85480125de01bc9ef ARM: 8805/2: remove unneeded naked function usage
-a80dc46d5eb3dae459cbd193b97bfa62984c4bc7 Input: touchscreen - avoid bitwise vs logical OR warning
-a7e61b8dcb3770e825acdc040474b14369f61b73 xen/blkfront: harden blkfront against event channel storms
-cc1d2846b45c0a1d204a4228dd4aca6b4e1db3eb xen/netfront: harden netfront against event channel storms
-c60f5284712fb532b826d130c5208799af2463ab xen/console: harden hvc_xen against event channel storms
-82e3dd5df0818f9f4f85e7133e195de86f4e72b7 xen/netback: don't queue unlimited number of packages
-f46f7fed481068d1389efbf0122c45cb9f36480d Linux 4.4.296-rc1
+363a462fabdcb971572ec1b089ec54fb3936e31e nfc: fix segfault in nfc_genl_dump_devices_done
+85331edc81402afd6a2f095e4aea4d4f43793580 net/mlx4_en: Update reported link modes for 1/10G
+787ec397f52032774c682399650d2daef32a6282 parisc/agp: Annotate parisc agp init functions with __init
+cd9228cd2d7347b844af6b037926a99f3bfc1b95 i2c: rk3x: Handle a spurious start completion interrupt flag
+a4970d1b1f7386dbb96e0de5a6b40835a2055370 net: netlink: af_netlink: Prevent empty skb by adding a check on len.
+8086e1c4c43ade07d773780ec1ce953ddd245398 tracing: Fix a kmemleak false positive in tracing_map
+7832b5293589fd98462392a13b74defe0bd96dd3 hwmon: (dell-smm) Fix warning on /proc/i8k creation error
+fb2bb247a3093c8c701499313515d678ca60d089 mac80211: send ADDBA requests using the tid/queue of the aggregation session
+fbbdd703641f381f4881077902134ca2bec95073 recordmcount.pl: look for jgnop instruction as well as bcrl on s390
+b1b1568f1ece5a40331a251c4ebc6212ab8acbb9 dm btree remove: fix use after free in rebalance_children()
+0d1b89e0746460b048fc5e18d659cc547ccf6cf4 nfsd: fix use-after-free due to delegation race
+500daec103b267c4a7df0e2a290032b4dc36a049 soc/tegra: fuse: Fix bitwise vs. logical OR warning
+a365277a1e8dfffb7bb58990e5257337a826e715 igbvf: fix double free in `igbvf_probe`
+d77e2585d190afbbe7964bad22feed9160ad1155 ixgbe: set X550 MDIO speed before talking to PHY
+73a6afbbf7b6e7d1199233c009dadc2a6788bdac USB: gadget: bRequestType is a bitfield, not a enum
+9695cc43e9ed2c86f14904c490f11eec09e5b491 PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
+f0f406e64ecc8562e4bbb19023524f986673b143 USB: serial: option: add Telit FN990 compositions
+62f2b4e1cbe275b4aa59bac7423c7220348d5208 timekeeping: Really make sure wall_to_monotonic isn't positive
+3e702b691d51f42257996426f7dd2f956dde9abc net: systemport: Add global locking for descriptor lifecycle
+dd0f81abb7263a5d1f6da9d645b942094608e5fa firmware: arm_scpi: Fix string overflow in SCPI genpd driver
+a14334d9db8f65938248de6f32ef26f8f29869ad fuse: annotate lock in fuse_reverse_inval_entry()
+7c962a53f7c04409a5a4a73c3767cb2729b401d2 scsi: scsi_debug: Sanity check block descriptor length in resp_mode_select()
+0e12c9a98fd11bb68116cf3b6749e74ab210bd78 net: lan78xx: Avoid unnecessary self assignment
+aaacf8e6d355584c3f8058b79fcdd7b7313a5081 ARM: 8805/2: remove unneeded naked function usage
+c63a9de03a08de06866917b3a78dc2dcd6a4bea8 mwifiex: Remove unnecessary braces from HostCmd_SET_SEQ_NO_BSS_INFO
+bb3eaf4e8e1835f20137ddee702d5fc881be0002 Input: touchscreen - avoid bitwise vs logical OR warning
+c1956ed59dba550e5a3358b13a153807aa80a267 xen/blkfront: harden blkfront against event channel storms
+a8c3e750535887ffe09eac51247c314f0be63ce2 xen/netfront: harden netfront against event channel storms
+4b950b476682c5b82c71f45714eca2596e9b05d9 xen/console: harden hvc_xen against event channel storms
+16e5f606c34701c6b00ca8f8c4d8105b68941cb3 xen/netback: fix rx queue stall detection
+12977a001f359a7b64c90ae3f213c4b9d5438942 xen/netback: don't queue unlimited number of packages
+4578d170efaaa2f9aa7f8b3de176c7e80a892bed Linux 4.9.294-rc1
 
---===============8946587597868178793==--
+--===============8939425627061895603==--
