@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1083564937574139620=="
+Content-Type: multipart/mixed; boundary="===============8178134532855099444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 20 Dec 2021 13:07:33 -0000
-Message-Id: <164000565308.7463.9848679835527060374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Dec 2021 13:16:12 -0000
+Message-Id: <164000617284.12850.13084245365811527865@gitolite.kernel.org>
 
---===============1083564937574139620==
+--===============8178134532855099444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9fb12fe5b93b94b9e607509ba461e17f4cc6a264
-    new: ab1ef34416a65ba11f66ae6435fcf0251cb46fd4
+    old: 0bfb57f39b330d75d199c2736623330671b07350
+    new: 3756e5afbf96279571234780fea2752db6dc9ce4
     log: |
-         3a0f64de479cae75effb630a2e0a237ca0d0623c KVM: x86/mmu: Don't advance iterator after restart due to yielding
-         c5063551bfcae4e48fec890b7bf369598b77526b KVM: x86: Always set kvm_run->if_flag
-         577e022b7b41854911dcfb03678d8d2b930e8a3f selftests: KVM: Fix non-x86 compiling
-         a80dfc025924024d2c61a4c1b8ef62b2fce76a04 KVM: VMX: Always clear vmx->fail on emulation_required
-         cd0e615c49e5e5d69885af9ac3b4fa7bb3387f58 KVM: nVMX: Synthesize TRIPLE_FAULT for L2 if emulation is required
-         0ff29701ffad9a5d5a24344d8b09f3af7b96ffda KVM: VMX: Fix stale docs for kvm-intel.emulate_invalid_guest_state
-         ab1ef34416a65ba11f66ae6435fcf0251cb46fd4 KVM: selftests: Add test to verify TRIPLE_FAULT on invalid L2 guest state
+         3756e5afbf96279571234780fea2752db6dc9ce4 5.4-stable patches
          
 
---===============1083564937574139620==
+--===============8178134532855099444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1640005648 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1640005647-ea0f35e98f426383880a9a5ea11ec8426e16c67b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640006171 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1640006169-ebb5cd2dd648028a8077d81c7d38f941d532e788
 
-9fb12fe5b93b94b9e607509ba461e17f4cc6a264 ab1ef34416a65ba11f66ae6435fcf0251cb46fd4 refs/heads/master
+0bfb57f39b330d75d199c2736623330671b07350 3756e5afbf96279571234780fea2752db6dc9ce4 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmHAgBAUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPgjgf/YvKcw/bnEGy5VY97mpHZlGgDuYgP
-wl4Wdw0/oKrLar+RyYDuXwFzshmPmtLuqO5EU7GtP+q0GwasRwQVcLEW59CBxVdE
-y9WsydhmRF18M1b1gV4F9ObEyfUWwgUsZS4dxGhx9NPg1Oh8NI+/L2E0CgDOfSHo
-o0I2IN3trl9gaKkUz9naDzjBK3gU+/Muq7GOcOwGGrHJkGBfHZo4NpTBcF/d8mv7
-uPJQ3ecAzOUhykjYyv47jsTB62YwXMdP4l7VnfUsNZ/7lDx2w9aKt2azMNqnJ+BV
-og7sFZOX7lxu8Zduz0xbjVFz0lQGRJ8Ygv3KDqYQb9rynnzfSZs6UtW9qQ==
-=jHNE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAghsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XQAP/RhiHl7rpV5dLRwnABEM
+02hcnARZh3AX4ZZzzDoJXnGDI2gBAYKx/CTOHLyPBmVhtLrIJHSTtSy2JgtzlBdC
+7Z+uIcvIyc9/58hDDemE4X6/j6M2jDTbWS3ln5N35MCnCrqsPoaCONq92lPJFkTN
+8Pmno3GQpfhHtXLlTCDNi/FMYIVEKnuiIhI+/LqOFYb2medSOCCKmTpmO7bEqzL9
+d8ALdDk4pEGmnts9HHkTxH/IrO7F7lNz0VM0UoUl7Usgu2U8JeNVIQPRMHvxq96s
+n1FcAxDOHoSPiSNGjkkrpQuM7Q41qKbhYOKuSsBTBLpNN3c8oDcj24pAPxpviFh1
+suyoXh+SiFCPmc5huaZpbsBnVELEyD5OCqFu80bc/K+Vtxtg36fRTirXE5P9h+Ca
+YVPmjtGzLr/i7gU9WkLjX7DWTeI0Yz2WDMBYztszBH9np0fKFTBwZk/1V8yd257S
+IOjWIvtlMNju+ad/d13dLCOe7Y+ERWtEAeyOpSuJf0cMkvvsBNagkMzQ8KZBdIX6
+5uvF3EquzhoPDcDXJZ2GCvkviqqz9tg71MLpX3VveDmL5UPE4M9BALMPmt0lEmFF
+xE62J9WOC5UsxFUQwO23TpM70NGPnteJ+MZgSeGnNBqRnMo0kV7vzhbAJfyhyvFN
+ukGS1s1N1+u3QQ8XrtAz08YD
+=jBP5
 -----END PGP SIGNATURE-----
 
---===============1083564937574139620==--
+--===============8178134532855099444==--
