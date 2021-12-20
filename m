@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 20 Dec 2021 11:53:20 -0000
-Message-Id: <164000120053.23624.11534708058784492828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 20 Dec 2021 11:55:59 -0000
+Message-Id: <164000135903.25847.13052829661244508451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/tegra/soc-driver-2
-    old: 0000000000000000000000000000000000000000
-    new: 81c4c86c66650f61c6d7a712737d43a3e4d072bf
+  - ref: refs/heads/master
+    old: 662f11d55ffd02933e1bd275d732b97eddccf870
+    new: 75a2f31520095600f650597c0ac41f48b5ba0068
+    log: |
+         75a2f31520095600f650597c0ac41f48b5ba0068 phonet/pep: refuse to enable an unbound pipe
+         
