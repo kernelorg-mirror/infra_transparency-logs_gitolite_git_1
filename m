@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0359943950868128988=="
+Content-Type: multipart/mixed; boundary="===============7105975732292648507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 20 Dec 2021 17:46:57 -0000
-Message-Id: <164002241738.25586.16543258511848929721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 20 Dec 2021 17:47:24 -0000
+Message-Id: <164002244422.25794.12514576277334816214@gitolite.kernel.org>
 
---===============0359943950868128988==
+--===============7105975732292648507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8784dbf52e03c4fd8e133dcc22754d382840d0ca
-    new: 9ddf17a8393452679f51c258f4dd400a7a34e174
-    log: revlist-8784dbf52e03-9ddf17a83934.txt
+  - ref: refs/heads/mlx4-queue
+    old: 434ed21389948a45c238f63258bd5aae4237e20b
+    new: 4b430f5c968047c162cdaf236d59d2d95035d090
+    log: revlist-434ed2138994-4b430f5c9680.txt
 
---===============0359943950868128988==
+--===============7105975732292648507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8784dbf52e03-9ddf17a83934.txt
+Content-Disposition: attachment; filename=revlist-434ed2138994-4b430f5c9680.txt
 
-14f3c39266c13053201d613407991f8753015fce From b36bd8cec406cdd3793a71dc8d1945b5df619cbd Mon Sep 17 00:00:00 2001 Subject: [PATCH 1/5] i40e: Fix reset bw limit when DCB enabled with 1 TC
-e11a9c5a04fe6061995082f19a90fc561baedb0d From 6012e6bb30ee2cf50fe5207fd4244e4ff2cc970b Mon Sep 17 00:00:00 2001 Subject: [PATCH 2/5] Fix the timeliness of stats after deleting tc
-b48e94cae6416734f09f9cfae42cf50ce1043aef From 24ffafaa213907f32753773a93a824da567c1644 Mon Sep 17 00:00:00 2001 Subject: [PATCH 3/5] iavf: Remove extra cancel_delayed_work_sync() call
-8b351c0cec6ecf60398c3eb6bac9703792e06119 From fc1f3658693659d3698e12d2a72a33ae4e7badcb Mon Sep 17 00:00:00 2001 Subject: [PATCH 4/5] i40e: Fix incorrect netdev's real number of RX/TX queues
-42b4e5ca57673073f4b07e8357588ca489033996 From 59f29c548e824219f881e4c8954e432b8558a076 Mon Sep 17 00:00:00 2001 Subject: [PATCH 5/5] igc: Fix TX timestamp support for non-MSI-X platforms
-d11d2ceb455715779ee37dcd990ab181db19ab78 i40e: remove variables set but not used
-d272f0f29d298ed7e9577603fec89af9eb5c1303 ice: Match on all profiles in slow-path
-a4f580f2d751505b798bafc9012206e42b9935b9 i40e: Remove rx page reuse double count.
-d8826c17c43804a0b21a3e6a38c43752dd718b89 i40e: Aggregate and export RX page reuse stat.
-9820de26004473b2529d2ab98ffd736d47d23190 i40e: Add a stat tracking new RX page allocations.
-eb8b514069b927d1d90a9de25442a5b69699e4b6 i40e: Add a stat for tracking pages waived
-9ddf17a8393452679f51c258f4dd400a7a34e174 i40e: Add a stat for tracking busy rx pages
+b7a49f73059fe6147b6b78e8f674ce0d21237432 bnx2x: Utilize firmware 7.13.21.0
+802d4d207e75d7208ff75adb712b556c1e91cf1c bnx2x: Invalidate fastpath HSI version for VFs
+cbbd5fff86e8fd22152982d077ed06b1210f2779 mlxsw: Fix naming convention of MFDE fields
+4bcbf50291f3b61ad231d31267842fcc73d7e6fd mlxsw: core: Convert a series of if statements to switch case
+e25c060c5f24b19d2596445c6d0cf40da6f13cc1 mlxsw: reg: Extend MFDE register with new events and parameters
+239cdd3f4cb0fe87da95e9a64a41644ee5a744ec mlxsw: core: Extend devlink health reporter with new events and parameters
+5f89b389006ddea6205ac7a96cafebd0b5e98283 Merge branch 'mlxsw-devlink=health-reporter-extensions'
+ef14049f4db9b9661f0f7cdf8c72a902a6c2deeb net: lan966x: Add registers that are used for switch and vlan functionality
+40304e984ab4ac4bf7303c6bf438eeff20af58ac dt-bindings: net: lan966x: Extend with the analyzer interrupt
+5ccd66e01cbef8b10adc9787b6e3ba1889a63742 net: lan966x: add support for interrupts from analyzer
+25ee9561ec6226d68ae4ae3464772b1cff9fb393 net: lan966x: More MAC table functionality
+571bb516a869a67accba9cd907242596f3782605 net: lan966x: Remove .ndo_change_rx_flags
+cf2f60897e921e338f2bcca9f2acbb3fc1686131 net: lan966x: Add support to offload the forwarding.
+6d2c186afa5d5dd416c9e854e428095a117c57b3 net: lan966x: Add vlan support.
+e14f72398df4aaa0063a324a3ba4b37e3c86514a net: lan966x: Extend switchdev bridge flags
+811ba2771182900edebdc1be17fa2cec0568c643 net: lan966x: Extend switchdev with fdb support
+4b430f5c968047c162cdaf236d59d2d95035d090 Merge branch 'lan966x-switchdev-and-vlan'
 
---===============0359943950868128988==--
+--===============7105975732292648507==--
