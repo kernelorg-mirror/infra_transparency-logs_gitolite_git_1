@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6668494878474602777=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 20 Dec 2021 13:58:01 -0000
-Message-Id: <164000868156.7549.12434826450654173291@gitolite.kernel.org>
-
---===============6668494878474602777==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 20 Dec 2021 13:58:47 -0000
+Message-Id: <164000872746.7850.14900918842860345648@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 05609458e40e55ff76ed5986b251c2669e681bd0
-    new: 20f1268eefd33215abfc1e9f283c81ccab791a0a
+  - ref: refs/heads/kvm-arm64/misc-5.17
+    old: 9d8604b28575ccab3afd8d6f56cab9a6c0d281ef
+    new: dda0190d7ff7f26c221f9ab1659a73d4517920e7
     log: |
-         20f1268eefd33215abfc1e9f283c81ccab791a0a 5.15-stable patches
+         500ca5241bf8054c8a973e54cb28629614f43178 KVM: arm64: Use defined value for SCTLR_ELx_EE
+         a080e323be8d66415944ad862fcf750825f871e7 KVM: arm64: Fix comment for kvm_reset_vcpu()
+         dda0190d7ff7f26c221f9ab1659a73d4517920e7 KVM: arm64: Fix comment on barrier in kvm_psci_vcpu_on()
          
-
---===============6668494878474602777==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640008680 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1640008680-baf16d40ee81cddb39705245c66cf0f0d84a3a07
-
-05609458e40e55ff76ed5986b251c2669e681bd0 20f1268eefd33215abfc1e9f283c81ccab791a0a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHAi+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XXoP/jFJvydXcRr2k+omrvvu
-YiShhX5ZAVBSamNfHBFCjV82yseYfuPHB98aD0dVb8kwcWtq8iJ3lYV7Jq7K5/qL
-qJlBzcUrYLVjUWZkJ9GqpjSt0mw/mvLAeauAM8m/+gTfgmFQ3oErZrhkrCtb53Bd
-8vvFexjFfr/fYoh3OPODBQfAeKLricZC0V9o2iQoap2BxPPOknzQEvJAPv3Eqk03
-XJRtaC7V+SlHoZcrU93lwjUtsKpSoNszD1UDSyiS3kKMzWRRNQPvvFWwunImgO7+
-QcCyGxmSmEF5b6GMaZoKoGTuHwJrTjkApQ8wACy6FvPfvWlCJZPPthzRjaoTZs+p
-sAqd8JU7e/Y7iVJQns18gYTuIb6FZPxU5MmuTK8kRPaOVEUq0+VDejPNeHqqMWG4
-pfdgkVuiTDMT0ew1B1amI1VOVow0gUowAzxxs0oG4vqqUCsiaW8M1q+gHOhzt1Zx
-A25VHwNnwqeqD3aDCltWVPbawIjaWK0iWdYOcBlgXlcsMrIlq3NEp4TmDIQHLE30
-kZ2Rxct/qG6ulB3hdDmAvlen4+J64Ej4hNyXaOJmVGFICyvZquQrN1H/h2GEBDWK
-nbuEwrvD9/ncMlUcUZX9pOY0aJg2gZ5E2gy8ciVlhP3KC5CE5nyc8rbbpaFqv1zX
-qDZiVr5KSrufWL/5C9dE5tka
-=382m
------END PGP SIGNATURE-----
-
---===============6668494878474602777==--
