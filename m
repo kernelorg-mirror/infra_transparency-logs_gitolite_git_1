@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5112965975478560784=="
+Content-Type: multipart/mixed; boundary="===============9055588971382546452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 21 Dec 2021 02:49:11 -0000
-Message-Id: <164005495138.10577.17426819835426773839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 21 Dec 2021 02:49:19 -0000
+Message-Id: <164005495905.10710.18396367641475706990@gitolite.kernel.org>
 
---===============5112965975478560784==
+--===============9055588971382546452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16
+  - ref: refs/heads/asoc-5.16
     old: ee907afb0c39a41ee74b862882cfe12820c74b98
     new: 30e693ee82d20361f2caacca3b68c79e1a7cb16c
     log: |
          30e693ee82d20361f2caacca3b68c79e1a7cb16c ASoC: mediatek: mt8195: correct default value
          
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: c50384d7e331aceeb4072bf363d5235eddda65bf
     new: 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0
     log: revlist-c50384d7e331-38fa8d3cacc0.txt
 
---===============5112965975478560784==
+--===============9055588971382546452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640054948 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1640054948-75e0c2196f4e3560bbf0daa0fc86a2fca6b4b59c
+pusher C3F436CA30F5D8EB 1640054956 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640054955-90f6e630f71203ba549ebe8d24990c856f761c51
 
-ee907afb0c39a41ee74b862882cfe12820c74b98 30e693ee82d20361f2caacca3b68c79e1a7cb16c refs/heads/for-5.16
-c50384d7e331aceeb4072bf363d5235eddda65bf 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0 refs/heads/for-5.17
+ee907afb0c39a41ee74b862882cfe12820c74b98 30e693ee82d20361f2caacca3b68c79e1a7cb16c refs/heads/asoc-5.16
+c50384d7e331aceeb4072bf363d5235eddda65bf 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHBQKQACgkQJNaLcl1U
-h9AZegf+J2D7vRGAhZnlM7G/zVxmWQt+nH/SjCQT3B4sH1EOE2s/YX+HVSN+gpI+
-eF3O539KPOnGIpkgIK0tGmB2gEXVhVhu1OXK2+zFyB5/c5ta06L512ohab74U/qJ
-aGjY/2R7COM271Xa00jokvsOKWjdKXgVtIZeji3aa54j8wYJ8SmzULPO3iikiVkY
-S7WAQXesa24a+PjveP/zVVI6lQWVyBrAO9cdxdzVbiJxl/vgcvwNBM+DH+GnWKYV
-vVjek60UvwDc9e9jZfbo7SGk9xaBuRgoCuVPgOqSOVSoXrX8uIdwNEiX74rIqIlm
-1IzOYu7cYbqmiZxcJrs0UYOFGla8QQ==
-=7zZh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHBQKwACgkQJNaLcl1U
+h9BMIwf9FxOqEImVbX7RGdOJ4tSuVHeF5MCLRh08M6KkUcMZ7dSSCvR2VCIYPLqI
+4ymAUN/F4ZjJ+VW2+c+juyN/jYFzE4Ak3a7udfCDbk7+76XPeJipu2kzmj4Zv6i1
+tHKcBd96M+oDAnH3CIdjtlgf061SuSlaemnbR627VQKT58GTGjLR7UgErGeLyu86
+KUxPoD3s1hkX1YGcHEbgjRT3G6VmnND/Fk6ZiXQWTlrousA1o+GEc/QlgZqZvLnV
++pEvSn8KXE4KOt81LlXTH5m7xQdiD+wkBUwnHg/ypKOUJkB9KH3QlvmKYvwEdjUq
+HEg6OHgwug/oe+hiJB4895T3oXOvMQ==
+=sDD2
 -----END PGP SIGNATURE-----
 
---===============5112965975478560784==
+--===============9055588971382546452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ e9a3b57efd28fe889a98171bdc1e9e0dd7eb9a50 ASoC: codec: tlv320adc3xxx: New codec d
 98bf33ca3f00d76659aa1be1586a433efa74d34e ASoC: mediatek: mt8195-mt6359: reduce log verbosity in probe()
 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0 ASoC: Use dev_err_probe() helper
 
---===============5112965975478560784==--
+--===============9055588971382546452==--
