@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0945930694776131272=="
+Content-Type: multipart/mixed; boundary="===============4983381557354895185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 21 Dec 2021 01:12:39 -0000
-Message-Id: <164004915989.13841.14072623683499992288@gitolite.kernel.org>
+Date: Tue, 21 Dec 2021 01:12:45 -0000
+Message-Id: <164004916531.13964.13428583967483277116@gitolite.kernel.org>
 
---===============0945930694776131272==
+--===============4983381557354895185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/drivers-for-5.17
-    old: 73efacc6bd1d58e9b318f4861072501d97ebf7c4
-    new: e395f021ccebc239e4fec02fec47f5f0eef44ebd
-    log: revlist-73efacc6bd1d-e395f021cceb.txt
+  - ref: refs/heads/for-next
+    old: 133d2c02948a9b49c9d3a8608fdb9a0f6c336986
+    new: 5bf741bf4d10aa131234c13ada0855a02f1f1540
+    log: revlist-133d2c02948a-5bf741bf4d10.txt
 
---===============0945930694776131272==
+--===============4983381557354895185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73efacc6bd1d-e395f021cceb.txt
+Content-Disposition: attachment; filename=revlist-133d2c02948a-5bf741bf4d10.txt
 
 2e8f2d3a691e521fa49f825010759192e86cf102 dt-bindings: soc: qcom: stats: Document compatibles with fixed offset
 708dbf4490c8ddf55d79b9f3855219b92d108760 soc: qcom: stats: Add fixed sleep stats offset for older RPM firmwares
@@ -49,5 +49,7 @@ bd0d04d4144d3db5b461b21d528607fe994d9afa dt-bindings: firmware: scm: Add SM6350 
 1e20b28d2e0e3e2996841df92f3af9050303f864 dt-bindings: arm: msm: Don't mark LLCC interrupt as required
 d39cec003ab0d6b91f9709c59daa6f0480d232e2 soc: qcom: socinfo: Add SM6350 and SM7225
 e395f021ccebc239e4fec02fec47f5f0eef44ebd soc: qcom: rpmh-rsc: Fix typo in a comment
+926656f9e8f6a7b6ebc1ba46da3b9c2be01f6652 Merge branch 'arm64-fixes-for-5.16' into for-next
+5bf741bf4d10aa131234c13ada0855a02f1f1540 Merge branches 'arm64-for-5.17', 'clk-for-5.17', 'defconfig-for-5.17', 'drivers-for-5.17' and 'dts-for-5.17' into for-next
 
---===============0945930694776131272==--
+--===============4983381557354895185==--
