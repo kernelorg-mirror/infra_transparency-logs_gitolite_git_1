@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4538994173285332521=="
+Content-Type: multipart/mixed; boundary="===============1730550262324799814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 21 Dec 2021 18:26:40 -0000
-Message-Id: <164011120050.1979.1302583306241056447@gitolite.kernel.org>
+Date: Tue, 21 Dec 2021 18:31:23 -0000
+Message-Id: <164011148391.4894.546498415105255553@gitolite.kernel.org>
 
---===============4538994173285332521==
+--===============1730550262324799814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,19 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/for-next
-    old: 089558bc7ba785c03815a49c89e28ad9b8de51f9
+  - ref: refs/heads/whatamess
+    old: 9d2fe994bedbb8cfde4fb7df09d5ca6c1532d7ed
     new: 6ed6356b07714e0198be3bc3ecccc8b40a212de4
-    log: revlist-089558bc7ba7-6ed6356b0771.txt
-  - ref: refs/heads/xfs-5.17-merge
-    old: 0000000000000000000000000000000000000000
-    new: 6ed6356b07714e0198be3bc3ecccc8b40a212de4
-  - ref: refs/tags/xfs-5.17-merge-1
-    old: 0000000000000000000000000000000000000000
-    new: 767df68988e41389cfd51d6d2027a924824b7b25
+    log: revlist-9d2fe994bedb-6ed6356b0771.txt
 
---===============4538994173285332521==
+--===============1730550262324799814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-089558bc7ba7-6ed6356b0771.txt
+Content-Disposition: attachment; filename=revlist-9d2fe994bedb-6ed6356b0771.txt
 
+884c6cb3b7030f75c46e55b9e625d2372708c306 ASoC: tegra: Fix wrong value type in ADMAIF
+8a2c2fa0c5331445c801e9241f2bb4e0e2a895a8 ASoC: tegra: Fix wrong value type in I2S
 559d234569a998a4004de1bd1f12da5487fb826e ASoC: tegra: Fix wrong value type in DMIC
 3aa0d5c8bb3f5ef622ec2764823f551a1f630711 ASoC: tegra: Fix wrong value type in DSPK
 42afca1a65661935cdd54d2e0c5d0cc2426db7af ASoC: tegra: Fix wrong value type in SFC
@@ -112,7 +108,6 @@ ea0006d390a28012f8187717aea61498b2b341e5 drm/msm: Fix wait_fence submitqueue lea
 9ba873e66ed317a1ff645d5e52c2e72597ff3d18 drm/msm/a6xx: Fix uinitialized use of gpu_scid
 26b6f1c870b81ce8a48751a21f363958d2c04cf2 drm/msm/gpu: Fix idle_work time
 5dbe2711e41818b5474d2119d075d2facc8533dc drm/msm/gpu: Fix check for devices without devfreq
-d8af404ffce71448f29bbc19a05e3d095baf98eb iomap: Fix inline extent handling in iomap_readpage
 756e1fc16505c31c9f86b602fcb8e2bc55c4b7e5 KVM: RISC-V: Unmap stage2 mapping when deleting/moving a memslot
 74c2e97b01846eb237b7819a3e2944455cfdb26a RISC-V: KVM: Fix incorrect KVM_MAX_VCPUS value
 8d192bec534bd5b778135769a12e5f04580771f7 parisc: Increase FRAME_WARN to 2048 bytes on parisc
@@ -257,7 +252,6 @@ ebb75b1b43d3e2bafc4d33eb4b1ae9c8d2759771 mt76: fix timestamp check in tx_status
 29889216befc1cee635da8a64f48caae47ffbcaf Merge tag 'trace-v5.16-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 5f53fa508db098c9d372423a6dac31c8a5679cdf Merge tag 'for-5.16/parisc-5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 88459e3e42760abb2299bbf6cb1026491170e02a USB: serial: option: add Fibocom FM101-GL variants
-5ad448ce2976f829d95dcae5e6e91f6686b0e4de iomap: iomap_read_inline_data cleanup
 d3a21f7e353dc8d6939383578f3bd45b4ae3a946 drm/amdgpu: Fix MMIO HDP flush on SRIOV
 4eb6bb649fe041472ddd00f94870c0b86ef49d34 drm/amdgpu: Fix double free of dmabuf
 6eff272dbee7ad444c491c9a96d49e78e91e2161 drm/amd/display: Fix DPIA outbox timeout after GPU reset
@@ -1057,4 +1051,4 @@ e5d1802c70f50e0660ee7f598dc2c40312c9e0af xfs: fix a bug in the online fsck direc
 132c460e49649685bf4b02ba43dea59062f797d9 xfs: Fix comments mentioning xfs_ialloc
 6ed6356b07714e0198be3bc3ecccc8b40a212de4 xfs: prevent a WARN_ONCE() in xfs_ioc_attr_list()
 
---===============4538994173285332521==--
+--===============1730550262324799814==--
