@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3117445999178510627=="
+Content-Type: multipart/mixed; boundary="===============0106977806392046851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 21 Dec 2021 09:18:44 -0000
-Message-Id: <164007832467.10922.903618681899251309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 21 Dec 2021 09:22:34 -0000
+Message-Id: <164007855400.14535.13489333293964606516@gitolite.kernel.org>
 
---===============3117445999178510627==
+--===============0106977806392046851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: fb09d0ac07725b442b32dbf53f0ab0bea54804e9
-    new: adbfddc757aec1ed54ccb35c4a7ca9170df827e0
+  - ref: refs/heads/char-misc-testing
+    old: cab00a3e5e5efabecdbfe9d54dc8d779b2e59be3
+    new: 612d4904191ff9aca01b1e087d8687b3a223cb33
     log: |
-         adbfddc757aec1ed54ccb35c4a7ca9170df827e0 docs/driver-api: Replace a comma in the n_gsm.rst with a double colon
+         a57ac7acdcc1665662e369993898194def56e888 firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
+         47a1db8e797da01a1309bf42e0c0d771d4e4d4f3 firmware: qemu_fw_cfg: fix kobject leak in probe error path
+         433b7cd1e702b0918ef90cbf06c3da24313625d2 firmware: qemu_fw_cfg: fix sysfs information leak
+         bb84e64f8fb3b1341eb75075219a1f060afe9895 firmware: qemu_fw_cfg: remove sysfs entries explicitly
+         80a5ca99c5c04be6777df225ab932142a9d60c3f rapidio: remove not used macro definition in rio_ids.h
+         612d4904191ff9aca01b1e087d8687b3a223cb33 rapidio: remove not used code about RIO_VID_TUNDRA
          
 
---===============3117445999178510627==
+--===============0106977806392046851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640078323 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1640078322-057c754e673c5a03b03d70a694e292cdfbca6193
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640078552 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1640078551-ee8a4136b030cf4b08ddfd5a758b027d0dcb3ef0
 
-fb09d0ac07725b442b32dbf53f0ab0bea54804e9 adbfddc757aec1ed54ccb35c4a7ca9170df827e0 refs/heads/tty-testing
+cab00a3e5e5efabecdbfe9d54dc8d779b2e59be3 612d4904191ff9aca01b1e087d8687b3a223cb33 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBm/MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HXYP/18yTMiFIgm/GqMHop8l
-a082Y6ZcisOI4MVgsPLvmi3+EKRTFWe+IHadFklMPXY4yydq5hW6/1kC2bILKGsS
-YXoYE3NGBH3kxcVHqzP7jNlZGqxXpd/rsoj62rs6refZXdVap3iezmUxsQCIL0YL
-a0PSxN1M6FztUw5eX/tEu+E1DrVlSNBObGu+Ng9cBysgZG0Qz+lB0GJ3O/EeUAQn
-j/zlKCeqchpKX5XLYNXyfZFdE2FGqZ9DO0/p402+I2pY0i56RnK4SLvyyDnDoClo
-6GRpNNfLCjP3JEHZco46UVKJN8onJl0zDMTH/LCoCGRegv8JDLH/P2tqP5dy6Gno
-XSYqmKn5FTL/f8xasSmosx5g0aqHMWyNRmJxwRuzuYiJs/urDRfv9n+lzkIDfFJq
-Urbp4ZecT8sGQg5RLkLhrWEr6wtcCSzw7OFQkDwnMip4sw9fkKksPEooVFTFNEqH
-zYbyEtmroUL2J7h16nox6EA/TdJqS3n4iQzYmgb5eOChLC3jOgdzwWAYRClKnISQ
-oQT5SM0jYc0hRqn36258qcGgYzQEyH1aSX8EqZ1wVOyVkCW2cHPuWKdUiW93uICx
-YjqyFfclfsZo/wh+kqmJTMXgmNPjwXUDntYGAKhWQF8VGrU0TAF516yMPOx9kkM1
-KSaaoFUZWok+y+gYphCYvwRv
-=m9yv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBnNgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AzQQAJXblnrzustFy9GY7r77
+NbIyTMRzH9trqm9QDEVwVipClQNlVBCdxxLJk2NBAZh4sNJC4/TmYjcSpIEKXXA3
+gRIOJhMLR2lsQw9/bqW0xuvTJBTX7SGNJ8d1nAMZWdqk5AcDRe5DzIrE2IXyvN8w
+19lUsMqQbn1Xb47HTska1d56+qnf8kazQzwSv7rRttf5nbygYKsNuwlDj8gRrqSi
+hkceB2W5hfCX/2N7653GTegNYIkE+vYHRly4PF/lc/pKZjpf9uZrSSsLnigkZsV4
+z7+ldviBMNoVxrSj1QXwsonb2bmkWBJXfWdkVqapeWIESe2TMEjmW9rk8dvYQLTS
+XwulOmka41zVRRmoQHLaZDK6ODojAMORg3rsdhDo4sTLg/kJB1e1lYpyE691jnQ/
+EIfWYmTjOYw6cyKgOKMNCSeoLgQy2Dej4rXPK8PG7xWtBFCPV3WhuWPIGf7OpfgR
+78eMLuDQb7+KXJLMWKbsxh1jyeWGfZ7qW2fli/c4sg6LGyarFTXb2Ip27yiDdj6d
+mpKoprbYXA0qbhMioGLGvJskqnBVIxkpHAi2NwyBz9kMkb4awLx6hfBkKSPV59vs
+jNr7YBheJSwvzMZ4Ikmg9T+wIotchVAbI3DAmIhuROL/hEB0zDJ4i1va5VIvyrVm
+bRimhtFbmyjzoZUDYYrFqt1o
+=bUWN
 -----END PGP SIGNATURE-----
 
---===============3117445999178510627==--
+--===============0106977806392046851==--
