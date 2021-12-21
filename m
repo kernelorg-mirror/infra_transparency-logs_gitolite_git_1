@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 21 Dec 2021 03:08:57 -0000
-Message-Id: <164005613708.22702.5316366277966913656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 21 Dec 2021 03:50:03 -0000
+Message-Id: <164005860382.17765.10252909616121984577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 75a2f31520095600f650597c0ac41f48b5ba0068
-    new: ac8c58f5b535d6272324e2b8b4a0454781c9147e
+  - ref: refs/heads/for-5.17/block
+    old: 518579a9af10a4b7b952a8366566fdcc7cfce3ca
+    new: a957b61254a7d59a6c14ee2ac2db20a62eb299a1
     log: |
-         8f905c0e7354ef261360fb7535ea079b1082c105 inet: fully convert sk->sk_rx_dst to RCU rules
-         a9725e1d3962ad00288c4ae6d9b518afc51b2adc docs: networking: replace skb_hwtstamp_tx with skb_tstamp_tx
-         7e5cced9ca84df52d874aca6b632f930b3dc5bc6 net: accept UFOv6 packages in virtio_net_hdr_to_skb
-         1ed1d592113959f00cc552c3b9f47ca2d157768f net: skip virtio_net_hdr_set_proto if protocol already set
-         1f06f7d97f741667bab0f459a4f940b21cab1549 gve: Correct order of processing device options
-         ac8c58f5b535d6272324e2b8b4a0454781c9147e igb: fix deadlock caused by taking RTNL in RPM resume path
+         a957b61254a7d59a6c14ee2ac2db20a62eb299a1 block: fix error in handling dead task for ioprio setting
+         
+  - ref: refs/heads/for-next
+    old: ec8e3a591bb31551df72ec212400f6cb29772bef
+    new: fd18945bc5f46f00af2f686847a606bc9eca2d2f
+    log: |
+         a957b61254a7d59a6c14ee2ac2db20a62eb299a1 block: fix error in handling dead task for ioprio setting
+         fd18945bc5f46f00af2f686847a606bc9eca2d2f Merge branch 'for-5.17/block' into for-next
          
