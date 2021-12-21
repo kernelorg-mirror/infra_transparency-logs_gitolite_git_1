@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3110065266122939400=="
+Content-Type: multipart/mixed; boundary="===============2627281481154829013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 21 Dec 2021 14:42:23 -0000
-Message-Id: <164009774371.20945.1844789647142902814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 21 Dec 2021 14:42:29 -0000
+Message-Id: <164009774995.21059.15996222386635888429@gitolite.kernel.org>
 
---===============3110065266122939400==
+--===============2627281481154829013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/regulator-5.17
     old: 0fc31d8f1a8ad17224f6423e3ed6234507375d48
     new: 5d55cbc720cc3650aafed6c1f5dbcf7e3f276312
     log: |
          5d55cbc720cc3650aafed6c1f5dbcf7e3f276312 regulator: dt-bindings: samsung,s5m8767: Move fixed string BUCK9 to 'properties'
          
 
---===============3110065266122939400==
+--===============2627281481154829013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640097742 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1640097741-62eed1a4d9543ecd7d69c43d78a7046e703eb887
+pusher C3F436CA30F5D8EB 1640097748 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640097747-f099bd621c42b478a63c01fce34dd97fd118fbed
 
-0fc31d8f1a8ad17224f6423e3ed6234507375d48 5d55cbc720cc3650aafed6c1f5dbcf7e3f276312 refs/heads/for-5.17
+0fc31d8f1a8ad17224f6423e3ed6234507375d48 5d55cbc720cc3650aafed6c1f5dbcf7e3f276312 refs/heads/regulator-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHB584ACgkQJNaLcl1U
-h9AWawf/ejwCxzx+5aB7jsFsGQ8MAaUrpUwRa9AE2bv9+ck2cwYz56LKvI0g8slv
-P3rYz6LJjDQW23eSpfQGLW2qmiaDjM9u6ZqjwCBFLEhRm2egHKVH/FNafJBuDOQG
-1HnggYGXq83YLOAV1GiUDppkOFE3K/U+Tk59c89h0V0RaAJ2aQomd08UXbekf6BK
-ZZI9HhVbGHB3dCYu5NcJMa92Z1No4r/dKIY06MgJrx4rP7OVzhTnhazJipd1ft6H
-LASTFKCpEEXW+Zt4E7223foowUcSeBrwqEFh1ZEuIIHKFmQMtuL8cnHC3AHleiUV
-VwmvvToX7k2aZhXUKnybvOGr6jxgzw==
-=OkYj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHB59QACgkQJNaLcl1U
+h9BTdAf/U1lpjfIfMlzTKkqcSacFDYQwUgKBPhWSs8rFPIdt0VIPxq/OVMq18ZhR
+JmVqGngsuEJH7bcBX8AgfpfR3vL/oowSp6QQOKTX66BIT9u7gRs4mBdhqfm5r9Zi
+XzsrJ0H7oyjks/toZdmh4jNjerx+9sWm0NVhkjva8BLVwfumGz34/wt5QQ0LtRcU
+mlhF/JsEgNfkOpRd7UhbByGSeofShNk6YbhludkzNaDMiPp1kZiIqVS0Ha+vVQZb
+VRTn+HbYJgpIIzQrWv7fSR07Ax2yO7YwlM/JY/NEHpFaBbM9hDvU4CQAY7+sEL1K
+rr9g6ImVe4gmTr4sWliAQBpyVnIWMQ==
+=6s6Z
 -----END PGP SIGNATURE-----
 
---===============3110065266122939400==--
+--===============2627281481154829013==--
