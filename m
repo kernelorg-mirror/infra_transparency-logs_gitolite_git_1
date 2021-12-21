@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 21 Dec 2021 13:55:10 -0000
-Message-Id: <164009491073.25466.14292212347827089089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 21 Dec 2021 14:15:57 -0000
+Message-Id: <164009615708.4688.10435988445806710404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/mips-next
-    old: 858779df1c0787d3fec827fb705708df9ebdb15b
-    new: 18c7e03400aeb48f9d51df453b7ace5391ef4d29
+  - ref: refs/heads/for-next/scmi
+    old: 6f634cbbae9a55b3bf0abee1a43899fabb7a8998
+    new: 9b7643d581b085b86d439bdcd066aea012ce009e
     log: |
-         95339b70677dc6f9a2d669c4716058e71b8dc1c7 MIPS: Octeon: Fix build errors using clang
-         047ff68b43d4dc912dd89d8e156e74af9f69ca93 MIPS: only register MT SMP ops if MT is supported
-         18c7e03400aeb48f9d51df453b7ace5391ef4d29 MIPS: generic: enable SMP on SMVP systems
+         82668d2154f8cdb4fffee134921de7f07a8735dc firmware: arm_scmi: Add atomic mode support to virtio transport
+         2cf3dd3f7578790aac24f4c4dde13b8db73db6e3 firmware: arm_scmi: Add atomic support to clock protocol
+         9b7643d581b085b86d439bdcd066aea012ce009e clk: scmi: Support atomic clock enable/disable API
          
