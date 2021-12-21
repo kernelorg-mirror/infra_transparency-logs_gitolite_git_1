@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0942371925990242561=="
+Content-Type: multipart/mixed; boundary="===============8776290542931171186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 21 Dec 2021 17:13:02 -0000
-Message-Id: <164010678288.18492.8837301944272067897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 21 Dec 2021 17:22:48 -0000
+Message-Id: <164010736876.25576.18431492815631729250@gitolite.kernel.org>
 
---===============0942371925990242561==
+--===============8776290542931171186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/asoc-5.17
-    old: 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0
-    new: 0082e3299a49286a7761f4d237530b07c00676fb
-    log: |
-         f487201343312faa697ac40124085a834e0e26d8 ASoC: amd: acp-config: Enable SOF audio for Google chrome boards.
-         0082e3299a49286a7761f4d237530b07c00676fb ASoC: amd: acp-config: Update sof_tplg_filename for SOF machines
-         
+  - ref: refs/heads/net-next-mlx5
+    old: 1245e53589dac9e69ace539df79bbcd5c3ae5782
+    new: bcd24d18e43fc2cc60dd6e1c584147c25622f93a
+    log: revlist-1245e53589da-bcd24d18e43f.txt
 
---===============0942371925990242561==
+--===============8776290542931171186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1245e53589da-bcd24d18e43f.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1640106781 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1640106780-049df102b70a2d8a0116182f7125ce76900c1e00
+dbcefdeb2a58039f4c81d0361056fbdd9be906a1 mctp: emit RTM_NEWADDR and RTM_DELADDR
+dbb6c58b5a61d0c26a3da65ebb728727c305c3a1 net: amd-xgbe: Add Support for Yellow Carp Ethernet device
+2d4a0b79dc6194048f7aa49c38d827cd5b7db6f1 net: amd-xgbe: Alter the port speed bit range
+6f60ecf233f9a8c6b75c08f4133865dbe0f1fdab net: amd-xgbe: Disable the CDR workaround path for Yellow Carp Devices
+f7a5319b4477f7ebda28d7170c26394d1f240487 Merge branch 'net-amd-xgbe-add-support-for-yellow-carp-ethernet-device'
+c48c94b0ab75ef3bbfa539e6e212184e315fd5bd net/sched: use min() macro instead of doing it manually
+2921be1df9931469ea8da60888db8a2783b08c88 net/mlx5: Remove the repeated declaration
+4f9a673a7610e5476d0efb2d7bcf6b16c1cd1cb3 devlink: Add new "io_eq_size" generic device param
+2602dc48a197cb0a78824f4d6934e6136946538c net/mlx5: Let user configure io_eq_size param
+2bb138ed5b11a062dfbf85873def0b42a35dc5af devlink: Add new "event_eq_size" generic device param
+25b6ea2b96a56407334003056663869cc053163b net/mlx5: Let user configure event_eq_size param
+81479072db5a6906690a3187f1e5b20de9f65ade devlink: Clarifies max_macs generic devlink param
+bcd24d18e43fc2cc60dd6e1c584147c25622f93a net/mlx5: Let user configure max_macs generic param
 
-38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0 0082e3299a49286a7761f4d237530b07c00676fb refs/heads/asoc-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHCCx0ACgkQJNaLcl1U
-h9Ck0Af/bGbvyLswq815mMBCCSXAAGufxgm02vsZ/BrQHU1KBfdXNui/xteieoUe
-gAtjAr5KZ+rmRMTnq27fvKLJhPanh71iJzcu2CImX1tDAjk70JBoaz2BzZSGYg6W
-7XSyZCFxNe/SPGEbdOTBoqmq16KLcGPUDXu2ciKPor4B/0rv6Qi5PXy05oUh9EuZ
-X7vfHs0rSwGoONnwXklKgr25dudjNsl8Myl/Tsxiu2A9ht9SA2NGXjdE9dCFN2/Y
-Y0M1o3JTMliTiCXQZwDphKv3p4kHoDosg5K1+edtOev1iI5+ihtIkeEf3EhdgaCL
-Gu6TWulH8K29n7ahjyhwA55aUoS9Mw==
-=IhPU
------END PGP SIGNATURE-----
-
---===============0942371925990242561==--
+--===============8776290542931171186==--
