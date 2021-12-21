@@ -1,37 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 21 Dec 2021 19:50:04 -0000
-Message-Id: <164011620432.26022.5470515816265147707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 21 Dec 2021 19:55:20 -0000
+Message-Id: <164011652005.29405.502289227642507158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-5.17/io_uring
-    old: f28c240e7152462f0750a8939db28d985ecf7c67
-    new: 33ce2aff7d340bf48875ccd80628c884cf8017ae
-    log: |
-         33ce2aff7d340bf48875ccd80628c884cf8017ae io_uring: code clean for some ctx usage
-         
-  - ref: refs/heads/for-5.17/io_uring-getdents64
-    old: 6df2c8bf1d6d2f739cc103f66c7ae418e5e6162d
-    new: b4518682080d3a1cdd6ea45a54ff6772b8b2797a
-    log: |
-         1533c1b579e1e866465fd9d04c8a5ebb1e25ba28 fs: add offset parameter to iterate_dir function
-         54d460de2423434e7aa9f7fcb9656230de53b85e fs: split off vfs_getdents function of getdents64 syscall
-         b4518682080d3a1cdd6ea45a54ff6772b8b2797a io_uring: add support for getdents64
-         
   - ref: refs/heads/for-next
-    old: 512a143002789cd9eb157e4d1452672623d8a10e
-    new: c2b5446aa8b4cb10986201ccd75ea547cdc94d2c
+    old: 6d43b2eed1f6d086fe93b4f93a10db8f4cdaa218
+    new: abd599feaf6670e3b5dc84fdbfc4ac822a273f45
     log: |
-         1533c1b579e1e866465fd9d04c8a5ebb1e25ba28 fs: add offset parameter to iterate_dir function
-         54d460de2423434e7aa9f7fcb9656230de53b85e fs: split off vfs_getdents function of getdents64 syscall
-         b4518682080d3a1cdd6ea45a54ff6772b8b2797a io_uring: add support for getdents64
-         d4e4a404a7ca1f0595b829198757dd97bdb2fb93 Merge branch 'for-5.17/block' into for-next
-         c2b5446aa8b4cb10986201ccd75ea547cdc94d2c Merge branch 'for-5.17/io_uring-getdents64' into for-next
+         581e81bc09743093ba0ef4b463e7bc2d85137b95 nfs: block notification on fs with its own ->lock
+         43b511676ba186b3f1f0c47f654cb75f58a2b16b nfsd4: add refcount for nfsd4_blocked_lock
+         80692f761f510586fd4b4ee2902427990606dd07 NFSD: Fix zero-length NFSv3 WRITEs
+         49cc3fd11028108f8242f26eb2572001cf24e81a nfsd: map EBADF
+         814d4a5e1f4e7a17523c07563d3ec498fc7e579d nfsd: Add errno mapping for EREMOTEIO
+         55898060eaee573619e42ce0623b7addd079f028 nfsd: Retry once in nfsd_open on an -EOPENSTALE return
+         d8bc32af5970b8a73f0343374978c230ab1220ef nfsd: Add a tracepoint for errors in nfsd4_clone_file_range()
+         abd599feaf6670e3b5dc84fdbfc4ac822a273f45 nfsd: Replace use of rwsem with errseq_t
          
