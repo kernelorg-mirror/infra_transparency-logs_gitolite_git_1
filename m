@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 21 Dec 2021 17:50:18 -0000
-Message-Id: <164010901895.11578.8132192572771861872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Tue, 21 Dec 2021 17:54:21 -0000
+Message-Id: <164010926182.12816.2667992995045799738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-linus
-    old: 330c9555d5d990dfc953d36263dc273921c1686b
-    new: 95d166fdcb3adccf822da5e3ee271e48508aeb35
+  - ref: refs/heads/master-pending
+    old: 1bb49283f02ac21d86c3469f29c705d4e6b04e0a
+    new: 110cc320fbd91bae9dc185bcca7f92b2484490f1
     log: |
-         95d166fdcb3adccf822da5e3ee271e48508aeb35 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         98437e6c76b188e1dc880f18cb6edc83599d4bea ath11k: add missing of_node_put() to avoid leak
+         110cc320fbd91bae9dc185bcca7f92b2484490f1 Merge branch 'pending' into master-pending
          
-  - ref: refs/heads/for-next
-    old: 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0
-    new: 3bf4fb25d5c2455396a1decd43f5e6b775f0b377
+  - ref: refs/heads/pending
+    old: 8f00dc124006119008cca6483233905f46e6c568
+    new: 98437e6c76b188e1dc880f18cb6edc83599d4bea
     log: |
-         f487201343312faa697ac40124085a834e0e26d8 ASoC: amd: acp-config: Enable SOF audio for Google chrome boards.
-         0082e3299a49286a7761f4d237530b07c00676fb ASoC: amd: acp-config: Update sof_tplg_filename for SOF machines
-         3bf4fb25d5c2455396a1decd43f5e6b775f0b377 ASoC: tegra-audio-rt5677: Correct example
+         98437e6c76b188e1dc880f18cb6edc83599d4bea ath11k: add missing of_node_put() to avoid leak
          
