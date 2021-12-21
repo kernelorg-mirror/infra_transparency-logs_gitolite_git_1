@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1274455266965426230=="
+Content-Type: multipart/mixed; boundary="===============0391616405074304546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 21 Dec 2021 09:32:32 -0000
-Message-Id: <164007915212.20531.853847873535407657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 21 Dec 2021 09:36:19 -0000
+Message-Id: <164007937994.23049.10972774844600760063@gitolite.kernel.org>
 
---===============1274455266965426230==
+--===============0391616405074304546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 15c00b681760b4e0c0127439ab18cdce73ae1f0b
-    new: c95cc0d95702523f8f361b802c9b7d4eeae07f5d
+  - ref: refs/heads/driver-core-testing
+    old: aa483f3ce655ed9ee4f32d050d1822eec2d20ada
+    new: 79f1c7304295bbbc611bc53cfd5425b777b3e840
     log: |
-         0032ca576a79946492194ae4860b462d32815c66 counter: Add the necessary colons and indents to the comments of counter_compi
-         60f07e74f86b47973bc1dc82e2128973932be55f counter: ti-eqep: Use container_of instead of struct counter_device::priv
-         c95cc0d95702523f8f361b802c9b7d4eeae07f5d counter: 104-quad-8: Fix persistent enabled events bug
+         79f1c7304295bbbc611bc53cfd5425b777b3e840 kernfs: Replace kernel.h with the necessary inclusions
          
 
---===============1274455266965426230==
+--===============0391616405074304546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640079150 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1640079149-b78f86403578f8d3f3ea3ec4a33dc73f127be82d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640079378 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1640079377-82a002714b81cbc8f79c035dc82a6f0cbdae3305
 
-15c00b681760b4e0c0127439ab18cdce73ae1f0b c95cc0d95702523f8f361b802c9b7d4eeae07f5d refs/heads/char-misc-testing
+aa483f3ce655ed9ee4f32d050d1822eec2d20ada 79f1c7304295bbbc611bc53cfd5425b777b3e840 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBny4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AYUP/jOZFRvw5vjxpF19Sv4H
-GnIx39/h82EMLCGhnB/akzQRVt0QNNRXEMcNeihaHy2C9dwDTktMKgLAbhLSu7Tv
-CdhlWuBBRnSoViep3Vz2/zdzntWeSaJZe/CMBq7PiyNEOmyR8HgvlCr+zNOugsiI
-sy4YBB5tFb3W8CkssoUgrvZ1bPyhNkTBad721J/+AoA5PKcdsiGrrceKM7DIsfuI
-kjh+ny4LEHDRmn+HwwT7SUW+fMyOJTOqdRxqGA9Iyj3r6fOGoqJ3NxrDgfdgy7ii
-issWf1TF+lt5QOH6YUuEl2fHU1HF9jWFO1HL6mGAQf6Rp2jFV9mYfpAmfm3dzsd/
-w+Zwje7GUMGBQAL1d+G7pTVI4iEgtMW4BQH/zVcRS7N8BeVhZWQA4v7QJEv2FKzd
-Ozm+58kcNbdkjcbwywmjQFExOUjciK2EQOLes7O39SUmvyMsGAtzw+KdQlmbHwgG
-DrVw8hUBEsWJ5rXi9+hcbtcKlO8/V5SL95deM65kBHAfe1ZC2YsWgt6M6n+vowgi
-v9rHHFSr73mIqEpDJp0l2ThZ6zpFDJYtjWMI/hImIZmVeEu+9i2ff0jt5k1XRInh
-WmgGbKCTa2yU4V7PWea3FcDgQTDd/i5tNQtTSFpimnqh29pCLT9Wvl9qcWKY8ZYQ
-MJw0SMFZdnRfhyw3k54Xn+9V
-=xalD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBoBIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4LoP/jQHzwGH2tg7XTrPeNF4
++6R6HuKOTXNjqEtN6l8VnvljiaH/NvLKqmZF1kvlxdGA8iaXQI1JqIal7ukihjrU
+nrUVE8XRdlAl3YzN8F5gnJPUd0aLjnMkxbH+okoGIlA8Rw+CYKQfWnk5OYh1uY2a
+xUkW5S6F7TIJCWHgadzRH3PTohcA9HusMSpfk+MeKTa+icR8dDimCNL+Q1vRf/24
+kV3WZsMDB4X9wBRXJvTg+XQZm9TliRaZ2GvZRIHINuDScxX3nZFBDsmZIInfTasy
+92uGCHF1XQ/8aEG4p05n5Gv4KPNb7gGcUzqZMXDVgJRDthLNjhgV7Wlt3xCBL4D7
+cxJ0ziSSxtfQQ7f+wyu4qSTjc+7j/JJiXShEvw76ad/w+imKCS1DVcX3R1Bwmz/j
+hnI44BSDQHYA+Z/erMYBnwCBhMzuaXQOus/hJE6RQbSOAmqpvAJCWCLgKjHCY4Tn
+NxRcSpSA8+1LFIU4Vzr0xmvVNnuBblZnsRwugiAwNC2zaTgBj9ial4kwTiY63S0v
+e0iicWt9t5LDCuV1Lb/IhnlGXRwSTKRDyL1++q091mCDYJ7d2jhsPztyyv6fso0c
+4viSFzXLzeIDKTOJq32AUyyYDQp7efgBHk5QDI8UDqI5ZrSO/XfGL8B0CQkzmzcB
+gGl9x0ZEVnnsSqw+14HTOwM0
+=Jm+L
 -----END PGP SIGNATURE-----
 
---===============1274455266965426230==--
+--===============0391616405074304546==--
