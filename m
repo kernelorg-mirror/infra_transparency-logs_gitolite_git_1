@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3212650341369944522=="
+Content-Type: multipart/mixed; boundary="===============1811918783695009224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 21 Dec 2021 09:25:35 -0000
-Message-Id: <164007873531.16913.8956642553789696302@gitolite.kernel.org>
+Date: Tue, 21 Dec 2021 09:26:41 -0000
+Message-Id: <164007880133.17276.1254309795603721148@gitolite.kernel.org>
 
---===============3212650341369944522==
+--===============1811918783695009224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 6d1e4927dedf5bf8998759961e3b28b967321cdd
-    new: 6da3f33770e08348691d90455ef6149e15551854
+    old: 6da3f33770e08348691d90455ef6149e15551854
+    new: 81e7b7f5dfbdadab1ac9e0c60b0e30633bab1183
     log: |
-         6da3f33770e08348691d90455ef6149e15551854 misc: vmw_vmci: Switch to kvfree_rcu() API
+         81e7b7f5dfbdadab1ac9e0c60b0e30633bab1183 drivers/misc/ocxl: remove redundant rc variable
          
 
---===============3212650341369944522==
+--===============1811918783695009224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640078733 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640078799 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1640078733-fff0eaecae13767c3bc2f8b1044b043804ead379
+nonce 1640078799-a61e39bf08c0113b1ca8f163d0c7cc241e0593d8
 
-6d1e4927dedf5bf8998759961e3b28b967321cdd 6da3f33770e08348691d90455ef6149e15551854 refs/heads/char-misc-testing
+6da3f33770e08348691d90455ef6149e15551854 81e7b7f5dfbdadab1ac9e0c60b0e30633bab1183 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBnY0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MiMQAJ3FJssJE7zHgSmvWBBN
-PloGbc90B7bfLLDcda32HGpHLQivsi4Gxq7dsPJHXYS3VrJa1DwBOFIbvrjHexfi
-MYXyGCJYNfdga3plblfur09hVotGCQYOJI3QMj0zgG6XPNBcxSbrAZAUjrmzagN0
-gpclh4nCOgvCYdazQhJ21sOCstSBMQzKz3rvMHvrlsvjZqP/YvW8OhIaSW02cKC4
-YEnMYJ/15b3BcvTw/oJHMO0lwJJ4nrgA4S7t1aQvebXdHkxOpAjUvSTYFr0tQvnE
-TRfOe6kQCZnw6S0wO11DFWDAbhV+feEOG6d6lMchkKazDK1c1b8oaZbHNtE4fMoe
-hYu8y3sYLQV7JuUqELhKmKnoHtc7zHBz+DeI8Q9GiPFQO/hegOt2fLubRIBXPKuc
-TmRh80Q9WcePF4Nqsamp/ytasEg4uXvEvLuB2NcD+9qPR51VFkc0mBerf+YhHS0x
-jKqQqqXPMj77KWg8plO71EZdhbwPpZ6dhNdrp7Y4/CkDKs2Jb2bOEpQFIEISv+Qa
-hfx9gcZ0F8Quq94Vq74s1t7ExTQWeU44EY03P9MozFdcHMb6gOoBlwA6813xE4yU
-N9sp8xQdhwtagtAcblKa6Gy+NAsN7Tdv87mLU79+rueoIMICOrrnb0VEJqwnfbD2
-zIyiSRu58NiOcUbrVEfk8r4+
-=bwbP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHBnc8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pHEQAILoZHlonGEIoMBElI3Q
+94meHZojQLYBemAtegWmf4gDG4l6EqB63FblOngKiUEI76F1oTMaarzk9+aUUFlA
+WEUMVa+lCdTFjYNCE292fkEW3vj/QhpolGZcNjWnWqxIc3qygP0daJSWdc5z3FDe
+cAtrFImlryaylZzcG0ilUS+u38un0t06YD4DZUtmTcp2yYKFv6l/v0BOZHafRGwx
+tEoK2JR127gqmVnKsRB7BEfP7azZszFJ8yXDfqgd1KCmrTlQOrnKJ2ibV7KeS5yN
+qGIc9MyevsJ6lUG95hSRHVer/zCksubuc4QwLQvaUCJQ2CWO328j4HsQ1UV9bIUC
+ehxXSlXw4k2CUudQ/gBTxiUwuDurHkFUXparQyjGp9pp7OwkZ4YKf+KSdLdz5pkV
+oI+aHpiKh4r0nS3y8uw7se8JpaaSeqWE2BU0AhWPV/K1sz7m0mYE0yoR+cIzDARJ
+CSwZw+4VummakveohsynxPTh5S6SyvbGX/jg7l9RJswnVwdG/xVKOx0Ceb/GHfh0
+ChglWFDhxk0PjgSg3BUGpzI32vYjgS8pIxkNElahjt8bj/zkU7z1dv2M5DGrmCX2
+0U5UmMNQAzeOVXz3NRqJSeY4JOWJb4jnNpv16A+eXA8s4FujnZrhnb8dl/rBvMhz
+k8d0+XYtjBHxKwdubN0R/7Ou
+=DcXC
 -----END PGP SIGNATURE-----
 
---===============3212650341369944522==--
+--===============1811918783695009224==--
