@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 21 Dec 2021 12:04:43 -0000
-Message-Id: <164008828331.19351.17583106794573725518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 21 Dec 2021 12:15:45 -0000
+Message-Id: <164008894589.26726.3532776952519408551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/fixes
-    old: f89b548ca66be7500dcd92ee8e61590f7d08ac91
-    new: ff31ee0a0f471776f67be5e5275c18d17736fc6b
+  - ref: refs/heads/master
+    old: 860faafe95c5c168dd1526c19a1ca48e82f59987
+    new: 2811dbedd50a346cbfbbedc6dee293bc6c1df897
     log: |
-         ff31ee0a0f471776f67be5e5275c18d17736fc6b mmc: mmci: stm32: clear DLYB_CR after sending tuning command
+         919696c066a640b4ae00d5824aa19fddeab2269a random: fix data race on crng_node_pool
+         2811dbedd50a346cbfbbedc6dee293bc6c1df897 random: fix data race on crng init time
          
