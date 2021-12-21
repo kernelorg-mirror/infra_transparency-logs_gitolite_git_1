@@ -1,92 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1668172594059360500=="
+Content-Type: multipart/mixed; boundary="===============3207026285055931959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 21 Dec 2021 13:22:59 -0000
-Message-Id: <164009297944.4983.176034689367703740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 21 Dec 2021 13:23:07 -0000
+Message-Id: <164009298715.5084.15264126594437696183@gitolite.kernel.org>
 
---===============1668172594059360500==
+--===============3207026285055931959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 06fb2b3e9ffe0153cc20f7093e890b8fb3b07a35
-    new: d71c6e962eaa9958bb3af42f981b02cc9a490857
-    log: revlist-06fb2b3e9ffe-d71c6e962eaa.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 49df3cf8f3d988a294bdc62f253d02984d689063
-    new: 60eb05afbc8efd47f220ccfd035b3d28b4e58dbd
-    log: revlist-49df3cf8f3d9-60eb05afbc8e.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: 406a40b50efd4eecdf6f3d15c0bb75fd1d8ff34f
-    new: b839514e3e86e1998cf6b537467442f7856c5fe3
+  - ref: refs/heads/queue-next
+    old: 3c9347629ec0224d5a64b9a62deaabc2edb68fcb
+    new: c40f449671cf5a5c4c6c03dd09ebaa21c7a92b09
+    log: revlist-3c9347629ec0-c40f449671cf.txt
+  - ref: refs/heads/queue-rc
+    old: 231361b162daf8d9f69845b0ff3a8868cfabbcef
+    new: f0586aceb17ec4bf1c51c1f41a8af258c359012e
     log: |
          b839514e3e86e1998cf6b537467442f7856c5fe3 Merge branch 'master' into testing/rdma-rc
+         f0586aceb17ec4bf1c51c1f41a8af258c359012e Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============1668172594059360500==
+--===============3207026285055931959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06fb2b3e9ffe-d71c6e962eaa.txt
+Content-Disposition: attachment; filename=revlist-3c9347629ec0-c40f449671cf.txt
 
-a19fe7cf4c414e32eafb8a820c67661ee64e3263 RDMA/mlx5: Merge similar flows of allocating MR from the cache
-1ea878324d1459bbd3d63deb4a086cd6d60bba24 RDMA/mlx5: Replace cache list with Xarray
-9478e190d14b695ed3bee031a8d0e622c618ee6f RDMA/mlx5: Store in the cache mkeys instead of mrs
-df3b7c93b58172d584a9b8f40b0b80f23b3e954e RDMA/mlx5: Reorder calls to pcie_relaxed_ordering_enabled()
-f540d4119c9c783c8035fff0b7f320178155123c RDMA/mlx5: Change the cache structure to an RB-tree
-b94f7739869080798bcef474e0ede0a5c8a93fdd RDMA/mlx5: Delay the deregistration of a non-cache mkey
-f5f0dc23c3ccf2db7497f2219a39d157cae070d9 RDMA/mlx5: Rename the mkey cache variables and functions
-cadffd17acb823901fa666c68661a969e80db28e RDMA/core: Introduce peer memory interface
-836269dee3ba99712d60b0be78a636ccc9c60e62 PCI/IOV: Add pci_iov_vf_id() to get VF index
-e30b90f0f8b6fe8513591a0c11f964eadd5442d4 net/mlx5: Reuse exported virtfn index function call
-870a650f7d46087f1b00622a71470c246658bef6 net/mlx5: Disable SRIOV before PF removal
-79ca092105cf3b9c652e1712f268b6c3786b339a PCI/IOV: Add pci_iov_get_pf_drvdata() to allow VF reaching the drvdata of a PF
-a2381ccb0ce1b7fba39ab69a7fcbd972d3c2263f net/mlx5: Expose APIs to get/put the mlx5 core device
-c859f36f2909a92768c136d09a6f8d15e8c85261 vfio: Fix VFIO_DEVICE_STATE_SET_ERROR macro
-fab23e5b9053e881e81dc07008134ddfec3b5c9a vfio: Add a macro for VFIO_DEVICE_STATE_ERROR
-d849a0cc5ea82310775927ca74a870c61458cac8 vfio/pci_core: Make the region->release() function optional
-3dccb0ff4e2b39acf105238954c998b41b76d248 net/mlx5: Introduce migration bits and structures
-fd15e2364f514af7ee995654e11281d267c63d0e vfio/mlx5: Expose migration commands over mlx5 device
-4795b5f98fc6e79e0fade7c47f19d28955ee933c vfio/mlx5: Implement vfio_pci driver for mlx5 devices
-41f300b41d6b525aad7a0aacc66642937b8cac57 vfio/pci: Expose vfio_pci_core_aer_err_detected()
-c5e68b1db580d26fb55a407b6f1ab7fb3f90a947 vfio/mlx5: Use its own PCI reset_done error handler
-0f752991e6c01703f3af31204dbe521cdbc88f47 vfio: Add documentation for migration
-eae9a04c2c69591c37e0a5236498440f44ee1480 RDMA/mlx5: Release transport domain if loopback enable failed
-30366e20ace26198f5051e509387ef298b081506 Revert "RDMA/mlx5: Release transport domain if loopback enable failed"
-d5b10455478d399f1628404ed80d0f4eed4a285e RDMA/mlx5: Don't remove cache MRs when a delay is needed
-14bcca67f7947384efef6066651b193675453a4b RDMA/mlx5: Add a missing update of cache->last_add
-d71c6e962eaa9958bb3af42f981b02cc9a490857 IB/mlx5: Expose NDR speed through MAD
-
---===============1668172594059360500==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49df3cf8f3d9-60eb05afbc8e.txt
-
-b7a49f73059fe6147b6b78e8f674ce0d21237432 bnx2x: Utilize firmware 7.13.21.0
-802d4d207e75d7208ff75adb712b556c1e91cf1c bnx2x: Invalidate fastpath HSI version for VFs
-cbbd5fff86e8fd22152982d077ed06b1210f2779 mlxsw: Fix naming convention of MFDE fields
-4bcbf50291f3b61ad231d31267842fcc73d7e6fd mlxsw: core: Convert a series of if statements to switch case
-e25c060c5f24b19d2596445c6d0cf40da6f13cc1 mlxsw: reg: Extend MFDE register with new events and parameters
-239cdd3f4cb0fe87da95e9a64a41644ee5a744ec mlxsw: core: Extend devlink health reporter with new events and parameters
-5f89b389006ddea6205ac7a96cafebd0b5e98283 Merge branch 'mlxsw-devlink=health-reporter-extensions'
-ef14049f4db9b9661f0f7cdf8c72a902a6c2deeb net: lan966x: Add registers that are used for switch and vlan functionality
-40304e984ab4ac4bf7303c6bf438eeff20af58ac dt-bindings: net: lan966x: Extend with the analyzer interrupt
-5ccd66e01cbef8b10adc9787b6e3ba1889a63742 net: lan966x: add support for interrupts from analyzer
-25ee9561ec6226d68ae4ae3464772b1cff9fb393 net: lan966x: More MAC table functionality
-571bb516a869a67accba9cd907242596f3782605 net: lan966x: Remove .ndo_change_rx_flags
-cf2f60897e921e338f2bcca9f2acbb3fc1686131 net: lan966x: Add support to offload the forwarding.
-6d2c186afa5d5dd416c9e854e428095a117c57b3 net: lan966x: Add vlan support.
-e14f72398df4aaa0063a324a3ba4b37e3c86514a net: lan966x: Extend switchdev bridge flags
-811ba2771182900edebdc1be17fa2cec0568c643 net: lan966x: Extend switchdev with fdb support
-4b430f5c968047c162cdaf236d59d2d95035d090 Merge branch 'lan966x-switchdev-and-vlan'
 dbcefdeb2a58039f4c81d0361056fbdd9be906a1 mctp: emit RTM_NEWADDR and RTM_DELADDR
 dbb6c58b5a61d0c26a3da65ebb728727c305c3a1 net: amd-xgbe: Add Support for Yellow Carp Ethernet device
 2d4a0b79dc6194048f7aa49c38d827cd5b7db6f1 net: amd-xgbe: Alter the port speed bit range
@@ -175,5 +121,6 @@ b839514e3e86e1998cf6b537467442f7856c5fe3 Merge branch 'master' into testing/rdma
 e6a37ef092c60e249c23500d07565f8d736ffb26 Merge remote-tracking branch 'mlxsw/combined_queue' into testing/rdma-next
 c4155ada76a2ebb876205d9e076a90aebd88a6df Merge branch 'rdma-next' into testing/rdma-next
 60eb05afbc8efd47f220ccfd035b3d28b4e58dbd Merge branch 'devlink' into testing/rdma-next
+c40f449671cf5a5c4c6c03dd09ebaa21c7a92b09 Merge branch 'testing/rdma-next' into queue-next
 
---===============1668172594059360500==--
+--===============3207026285055931959==--
