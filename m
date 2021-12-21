@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Tue, 21 Dec 2021 15:20:56 -0000
-Message-Id: <164010005606.14297.5928286219603351165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 21 Dec 2021 15:22:05 -0000
+Message-Id: <164010012543.14724.12998064628497994910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-laurent
-    old: 0000000000000000000000000000000000000000
-    new: 8d9f70663a36e18b3e855d60e66731b8f41c41bb
+  - ref: refs/heads/gpio/for-next
+    old: 572006bce34caee37af84a8946895a495c56624a
+    new: a2d05fb73493ca89b36c7d2c3ffc76effbfcd763
+    log: |
+         a2d05fb73493ca89b36c7d2c3ffc76effbfcd763 gpio: sim: add missing fwnode_handle_put() in gpio_sim_probe()
+         
