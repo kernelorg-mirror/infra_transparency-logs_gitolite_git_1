@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0357494600274360111=="
+Content-Type: multipart/mixed; boundary="===============8116210779723827058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 21 Dec 2021 15:16:46 -0000
-Message-Id: <164009980601.10103.4294811134451508975@gitolite.kernel.org>
+Date: Tue, 21 Dec 2021 15:17:08 -0000
+Message-Id: <164009982858.10261.4418349185356765685@gitolite.kernel.org>
 
---===============0357494600274360111==
+--===============8116210779723827058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
+  - ref: refs/heads/testing
     old: 87cca0583416a8052995cabdade33d0624a7a268
     new: c9791a94384af07592d29504004d2255dbaf8663
     log: revlist-87cca0583416-c9791a94384a.txt
 
---===============0357494600274360111==
+--===============8116210779723827058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ bfcacdd64df8df91311449642da70a8512431fa9 MAINTAINERS: Add maintainer for xilinx-
 f4a73a97accf5635815de148cf077fa6d076812d iio:addac:ad74413r: Fix uninitialized ret in a path that won't be hit.
 c9791a94384af07592d29504004d2255dbaf8663 iio: adc: ti-adc081c: Partial revert of removal of ACPI IDs
 
---===============0357494600274360111==--
+--===============8116210779723827058==--
