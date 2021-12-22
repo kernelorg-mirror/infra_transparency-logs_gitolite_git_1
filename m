@@ -1,74 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 22 Dec 2021 12:39:29 -0000
-Message-Id: <164017676912.4984.3364676551736706028@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5281072382198328267=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 22 Dec 2021 12:50:06 -0000
+Message-Id: <164017740654.13757.6947345070060942198@gitolite.kernel.org>
+
+--===============5281072382198328267==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: d4e2e5741cb39cc740680f26212b3ac74f10e5aa
-    new: 59b04d10f0313874bc198c878897c7190492c077
+  - ref: refs/heads/master
+    old: 7ac44c1145bd5a4aa0f4e44753935202ef26bddb
+    new: d3e902f015f48edb2a25f77ed2240028f3a9ccc0
     log: |
-         4e7ba74f6bdc09372183a6f6d1db54cef1040747 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         59b04d10f0313874bc198c878897c7190492c077 can: kvaser_usb: get CAN clock frequency from device
+         d3e902f015f48edb2a25f77ed2240028f3a9ccc0 4.9-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 787d8fff4d53bb1e158890c1d77e18ea6495fe46
-    new: a3d945d10498b06bbd95a5a23ac7d8d21744d953
-    log: |
-         3f33af1653c802331bc90b64dac2f361786123a1 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         203c24a673564e99a78c80b1cbf2e9a171dac1e9 block, bfq: improve asymmetric scenarios detection
-         1089c5bb901733b9d111e899fba62008abcb2a0a block, bfq: fix asymmetric scenarios detection
-         ab373d48f7e750ab5831e6ce4b97b56815c4ce8a block, bfq: fix decrement of num_active_groups
-         23c06b420f215690be60ba52517d9d4c8a1a3bb6 block, bfq: fix queue removal from weights tree
-         a3d945d10498b06bbd95a5a23ac7d8d21744d953 block, bfq: fix use after free in bfq_bfqq_expire
-         
-  - ref: refs/heads/queue/4.4
-    old: 0c1d82a916f7b2ce3578bae8315396ba1b9446e3
-    new: 480821745e6ba7eabc59c9cb7ba93033d2c35425
-    log: |
-         2ec6b6e56a5e20b82f8d4f30091db27a12b2cb52 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         0779b08ad624f61b874a0e21a3ccf89061f4913b can: kvaser_usb: get CAN clock frequency from device
-         480821745e6ba7eabc59c9cb7ba93033d2c35425 HID: holtek: fix mouse probing
-         
-  - ref: refs/heads/queue/4.9
-    old: 61932773ec9790660143593181f2e01431fec34e
-    new: af2ed68e521e2211440417956c228fa999b9043e
-    log: |
-         2fd556710fa69b03c55b151ff4385cc24e3009a3 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         af2ed68e521e2211440417956c228fa999b9043e can: kvaser_usb: get CAN clock frequency from device
-         
-  - ref: refs/heads/queue/5.10
-    old: 22fb26340b31b7e906761ccff79dd87b8d2fa7df
-    new: 92a45944a832b379c34dd2229251bcd531a29f0f
-    log: |
-         dcda1b16426f750353efe7d3b500b6c8633c386a arm64: vdso32: drop -no-integrated-as flag
-         a9cfb2698d80a9153c73975623c3bb5c53bb5805 arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
-         abd5fdaa05720c60734cc895f630ee07526884f6 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         1e01e556a9d4278c1858931233a3e956ae5defcc ext4: prevent partial update of the extent blocks
-         e23a37043f012e6e90f1cc86f43c4f3d0a2e5f07 ext4: check for out-of-order index extents in ext4_valid_extent_entries()
-         92a45944a832b379c34dd2229251bcd531a29f0f ext4: check for inconsistent extents between index and leaf block
-         
-  - ref: refs/heads/queue/5.15
-    old: 9b5cbd60de95b2ee4fd914f1cc89d982b918b09b
-    new: 7e7638ea1caa27e8ae6241bae22db028ba353d08
-    log: |
-         ee5a47007a0e5003aeb0693d3c33ef451d308531 arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
-         e0d359eb0554dcb4995331511e2ec406f79a3149 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         da970f043d0721e0895a94faaee731530e674386 ext4: prevent partial update of the extent blocks
-         71df01618015e00719e72ec198787d685ae0f4e5 ext4: check for out-of-order index extents in ext4_valid_extent_entries()
-         7e7638ea1caa27e8ae6241bae22db028ba353d08 ext4: check for inconsistent extents between index and leaf block
-         
-  - ref: refs/heads/queue/5.4
-    old: c8f74f54fa07abf831daf8003680cf6d21ed89a4
-    new: ada11f08197f197a71dd5e11415a942b50907568
-    log: |
-         4d577d4d42deb56f1b4d2eeb5eaba7b470b06fd8 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         ada11f08197f197a71dd5e11415a942b50907568 serial: 8250_fintek: Fix garbled text for console
-         
+
+--===============5281072382198328267==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640177405 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1640177404-c03572a8adae068f1973af4628c18b2050f9809e
+
+7ac44c1145bd5a4aa0f4e44753935202ef26bddb d3e902f015f48edb2a25f77ed2240028f3a9ccc0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHDHv0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HXcP/0Tlpx2Ak1H53Ot7yu//
+njWtWb7mraDFHkhg+eUv1st7QZbqOja/lkcgsyflXVNjVe2TuD8bgR5uwHoFeN5C
+Xan3W33Jjh372fbbycqlVKDUQl4eDNs/6hPn3E6GHv57fxvaCPM946ezCyn38B3R
+aZnDd9SaWkE9nCLC3E+kXYk/tdxCjt3ZqeszUBMkwrj3DfMa30VFUnM+M/DuDLPW
+ir/nHitzYwZToOjQyGtcLsnyvtL06BYSf0GugEllMhwCE67MWoXjGcZwMgs8pIMg
+Ld2i8SP6yAJ9aRh6mYxnfCD13yO94I8LHLo2F9aYsIIwQnOpbqF30b6rXZn8MYS5
+FLx8SJojLL8Tur2nVp6139zpg9lTbVu5rAWkrVtOTXz74uZXICRZXhq2g+y2NGQJ
+0SsxY7/L/26lS5rXSThbfhTdmkauJcH/wbLUobCfAkYh07BgB6lI/fo4XSG9dodm
+JjPJ69TKR29SEGUrGOqa6OttBX1gbE/NDcO/5wMebUo8SAGUTpnU7YYiIfkBd6yn
+S14iOIAM8w+qSsIC+EOm9+goXv0DoZaztm/Uh7NyT+cqfV7GtHUDcKvOa36uZDVc
+5w+V/5Fd4qfMI1Iho5nC6jtxgGSOUg8iXyKbWQvHsiEbAAmHZW1MNyGWh0IoXIHj
+wBAWTbAPXVMkJc34lTpACNK2
+=pX7G
+-----END PGP SIGNATURE-----
+
+--===============5281072382198328267==--
