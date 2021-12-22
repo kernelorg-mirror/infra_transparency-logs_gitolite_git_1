@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 22 Dec 2021 12:11:53 -0000
-Message-Id: <164017511356.20071.9882529768325459828@gitolite.kernel.org>
+Date: Wed, 22 Dec 2021 12:13:34 -0000
+Message-Id: <164017521433.20705.18393670751988192111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,61 +12,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: c8928a54e39384af48398b2ddb088e402c2a2332
-    new: 677a65e23c621b741fee73386810565ca29951fc
+    old: 677a65e23c621b741fee73386810565ca29951fc
+    new: d4e2e5741cb39cc740680f26212b3ac74f10e5aa
     log: |
-         0e32290216ab8b51c7b9a190e0c7282df23afc9b net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         677a65e23c621b741fee73386810565ca29951fc can: kvaser_usb: get CAN clock frequency from device
+         e59ff04e004c2378deaf19f7c8c9db802dbd2588 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         d4e2e5741cb39cc740680f26212b3ac74f10e5aa can: kvaser_usb: get CAN clock frequency from device
          
   - ref: refs/heads/queue/4.19
-    old: be1ef9a8155e3ebdf3c4960ad056d0f2dce2c0ec
-    new: b6b960aaabf42f0cf04c93fc5f7e7d058d6e97b0
+    old: b6b960aaabf42f0cf04c93fc5f7e7d058d6e97b0
+    new: 787d8fff4d53bb1e158890c1d77e18ea6495fe46
     log: |
-         6b9179f31eb8de322f25b3ddebc752ee38aa23c4 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         f10a117e22c7fb8f786d89505b643dccfa6dd505 block, bfq: improve asymmetric scenarios detection
-         84c55791e26fa28520be536b83bad6b980b4bcfa block, bfq: fix asymmetric scenarios detection
-         4dca910a3e0d4c45a3582168041dbfee6df20f00 block, bfq: fix decrement of num_active_groups
-         553cceddb8c5595f987988c624fecc6c6d95ea54 block, bfq: fix queue removal from weights tree
-         b6b960aaabf42f0cf04c93fc5f7e7d058d6e97b0 block, bfq: fix use after free in bfq_bfqq_expire
+         0ee6812c70d6dc9031cb680506c0f92a0e976452 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         4b9538d15d72ab12d71b7d1ae834c8b726e8dd2e block, bfq: improve asymmetric scenarios detection
+         40c988104ba08b0c1ee03c1bbf13e55b43057074 block, bfq: fix asymmetric scenarios detection
+         11097da405f2877119c825c7c6ec1ab7a9ef013d block, bfq: fix decrement of num_active_groups
+         5d1ebeb19ec671ec0af2277ee44754d198825b05 block, bfq: fix queue removal from weights tree
+         787d8fff4d53bb1e158890c1d77e18ea6495fe46 block, bfq: fix use after free in bfq_bfqq_expire
          
   - ref: refs/heads/queue/4.4
-    old: c99b554306722bfd7a657457dd59995f7c345307
-    new: 4d07beee1d7ffa5bd6a8ec0709a336aa919e5edf
+    old: 4d07beee1d7ffa5bd6a8ec0709a336aa919e5edf
+    new: 0c1d82a916f7b2ce3578bae8315396ba1b9446e3
     log: |
-         bf91e126e87b62f28e7abc7b51de245b959b9cd5 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         4d07beee1d7ffa5bd6a8ec0709a336aa919e5edf can: kvaser_usb: get CAN clock frequency from device
+         a557a888faf3f72dd35ba24e72f2b18dbe29372b net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         0c1d82a916f7b2ce3578bae8315396ba1b9446e3 can: kvaser_usb: get CAN clock frequency from device
          
   - ref: refs/heads/queue/4.9
-    old: 764543805170c7ce7451967f74d0712771fb3fcd
-    new: 0b9a2c11c01479b2fc9a2b4cc27c368899bee250
+    old: 0b9a2c11c01479b2fc9a2b4cc27c368899bee250
+    new: 61932773ec9790660143593181f2e01431fec34e
     log: |
-         72942b102cbe10e0da6db797e31e880d185db831 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         0b9a2c11c01479b2fc9a2b4cc27c368899bee250 can: kvaser_usb: get CAN clock frequency from device
+         0a3e080ce81164741206cf6c41d4c81ad26df5ca net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         61932773ec9790660143593181f2e01431fec34e can: kvaser_usb: get CAN clock frequency from device
          
   - ref: refs/heads/queue/5.10
-    old: 024a82fe9a7034e153494074afa0f675778e9f65
-    new: 60df1ea04d3b4b9f82aa2fa06ea7bda24d5f462c
+    old: 60df1ea04d3b4b9f82aa2fa06ea7bda24d5f462c
+    new: 22fb26340b31b7e906761ccff79dd87b8d2fa7df
     log: |
-         1b23b1f117f02007d5260481e6c2bbb0901ebfb6 arm64: vdso32: drop -no-integrated-as flag
-         e83f3e61f321f6ee5df18af3348a29392df7d4ec arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
-         9a476c2398b849318cba45ab5d55ca926acfae35 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         2577cee6be15dde42f484300c5fba2660b3baf02 ext4: prevent partial update of the extent blocks
-         fec70c3c893a0c4964d3a2232009407394774cec ext4: check for out-of-order index extents in ext4_valid_extent_entries()
-         60df1ea04d3b4b9f82aa2fa06ea7bda24d5f462c ext4: check for inconsistent extents between index and leaf block
+         abede7d7c5f062ae14b880b4b2d28bc704ae5438 arm64: vdso32: drop -no-integrated-as flag
+         e832c6279d08c965699fa0ea582d70698f546126 arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
+         60d064458362f87fa677fa70e8fbcd529402feed net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         25a16aac8c52695b6d362659dfb0112548c96c25 ext4: prevent partial update of the extent blocks
+         29e9f62c893ddb9b6046fa85d61c72546e28b2c5 ext4: check for out-of-order index extents in ext4_valid_extent_entries()
+         22fb26340b31b7e906761ccff79dd87b8d2fa7df ext4: check for inconsistent extents between index and leaf block
          
   - ref: refs/heads/queue/5.15
-    old: 626c377d94f2833703d7d2615f8114d86b16567e
-    new: b73781cb93421e80ba058c7e5fc878d2cc442d5a
+    old: b73781cb93421e80ba058c7e5fc878d2cc442d5a
+    new: 9b5cbd60de95b2ee4fd914f1cc89d982b918b09b
     log: |
-         18ecd99c19e24c30284577c42b47ceb13ac6a4a1 arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
-         19061dfb13e4e28bd2b2ae2c4868d1b3593a5e9e net: usb: lan78xx: add Allied Telesis AT29M2-AF
-         8020ef9d6824952100baf26bdca9e1f3bbaf15d3 ext4: prevent partial update of the extent blocks
-         4006e3073cecae6a12a16b22641f26c2cf220bff ext4: check for out-of-order index extents in ext4_valid_extent_entries()
-         b73781cb93421e80ba058c7e5fc878d2cc442d5a ext4: check for inconsistent extents between index and leaf block
+         30fbca01c06f726c312e40505068827fab410ef7 arm64: vdso32: require CROSS_COMPILE_COMPAT for gcc+bfd
+         3a587a14fd9f3d6d4965135ce80dafd659c04307 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         4bc2673289dbb1bb0469272447f7bedeae3b869f ext4: prevent partial update of the extent blocks
+         24a0791cdcae59db856d919026679f8bb1a49cce ext4: check for out-of-order index extents in ext4_valid_extent_entries()
+         9b5cbd60de95b2ee4fd914f1cc89d982b918b09b ext4: check for inconsistent extents between index and leaf block
          
   - ref: refs/heads/queue/5.4
-    old: a9cea77ac1521124032db28881a70a48fde71c8b
-    new: d04a8268a4eaf775c4cf9978f4801de9a9c44a00
+    old: d04a8268a4eaf775c4cf9978f4801de9a9c44a00
+    new: c8f74f54fa07abf831daf8003680cf6d21ed89a4
     log: |
-         d04a8268a4eaf775c4cf9978f4801de9a9c44a00 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         c15379fbb59d73d6808a5bda66794a6350522525 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+         c8f74f54fa07abf831daf8003680cf6d21ed89a4 serial: 8250_fintek: Fix garbled text for console
          
