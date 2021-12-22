@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 22 Dec 2021 15:04:31 -0000
-Message-Id: <164018547147.25704.5165664079826908639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 22 Dec 2021 15:11:45 -0000
+Message-Id: <164018590522.30635.3542316500168644989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/parisc-5.16-7
-    old: 0000000000000000000000000000000000000000
-    new: aacb2016063dfa6da9378d76734cd9dc1e977619
+  - ref: refs/heads/arm64-for-5.17
+    old: 27a0d0b846d9add93a65c25149aae14ec3f75524
+    new: c23f1b77358c173a25ef21303d2a8cc893e9ce22
+    log: |
+         c23f1b77358c173a25ef21303d2a8cc893e9ce22 arm64: dts: qcom: sm6125: Avoid using missing SM6125_VDDCX
+         
