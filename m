@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 22 Dec 2021 16:11:09 -0000
-Message-Id: <164018946974.4223.5906208387344936221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 22 Dec 2021 16:11:35 -0000
+Message-Id: <164018949599.4430.15012672136776860355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/rxrpc-fixes
-    old: 53f92300b89fe67af8b40ab2447cb7c845c8f250
-    new: 50cd55d67e5724664bb115296b470f8f8843197f
-    log: |
-         a47391c4a9beafa100a3ded007310d65d7052f9e rxrpc: Return an error to sendmsg if call failed
-         50cd55d67e5724664bb115296b470f8f8843197f afs: Adjust ACK interpretation to try and cope with NAT
-         
+  - ref: refs/heads/broadcom/dt32
+    old: 0000000000000000000000000000000000000000
+    new: d0e68d354f345873e15876a7b35be1baaf5e3ec9
