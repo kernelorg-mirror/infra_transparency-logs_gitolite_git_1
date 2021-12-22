@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/uml
-Date: Wed, 22 Dec 2021 19:41:35 -0000
-Message-Id: <164020209583.8669.11607588737232569822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 22 Dec 2021 19:42:00 -0000
+Message-Id: <164020212003.8871.14290061324744386436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/uml
-user: rw
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/linux-next
-    old: 8bb227ac34c062b466a0d5fd21f060010375880b
-    new: db0dd9cee82270e032123169ceff659eced5115d
+  - ref: refs/heads/for-next
+    old: 7810b8dc09530e4deffe486e10c5e3aa18ae77a3
+    new: 516dfb23398acbd268dee974596b8adfc597f8ab
     log: |
-         361640b4fdc86167b0c25d8e73c08dcaa4ecd28a um: Extract load file helper from initrd.c
-         b31297f04e86e4115ece79ca530d8ae1c454db75 um: Add devicetree support
-         db0dd9cee82270e032123169ceff659eced5115d um: virtio_uml: Allow probing from devicetree
+         516dfb23398acbd268dee974596b8adfc597f8ab parisc: Avoid calling faulthandler_disabled() twice
          
