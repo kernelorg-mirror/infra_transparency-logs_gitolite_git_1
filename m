@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 22 Dec 2021 23:12:12 -0000
-Message-Id: <164021473237.2465.11567553898679309183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 22 Dec 2021 23:14:27 -0000
+Message-Id: <164021486714.3193.9612404577225323161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/tags/dt-5.17
-    old: 0000000000000000000000000000000000000000
-    new: bd51b8ba107ac279844de66ec957cf0117e86f58
-  - ref: refs/tags/soc-5.17
-    old: 0000000000000000000000000000000000000000
-    new: ed93f1035b67ba6c524aed8853b2d0c7a2e58849
-  - ref: refs/tags/defconfig-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 262bcef821317424510cfe76903428dce0580749
-  - ref: refs/tags/drivers-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 64711a9506daddb849c73bc773a3596b40b1883b
+  - ref: refs/heads/master
+    old: ba040219cec5af4a79f5a4baa23bc1c8aad74e64
+    new: eeab42af0339989c60cda325059fa412d1411a2a
+    log: |
+         ce9188ee354fd9e994160b8f704214773567a8e6 dpp: zero nonces/keys on dpp_reset
+         eeab42af0339989c60cda325059fa412d1411a2a dpp: init unwrapped pointer to NULL
+         
