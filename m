@@ -1,31 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 22 Dec 2021 21:57:11 -0000
-Message-Id: <164021023141.23094.6662119851955272439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 22 Dec 2021 22:02:49 -0000
+Message-Id: <164021056966.26333.5043446833359149514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/arm/drivers
-    old: 13ee75c7b57c546f7973984d9a87cfa7d73cbf5c
-    new: 19bc5e6380f062a13d639c24d8f046a2ab295961
+  - ref: refs/heads/master
+    old: 277ade032ce4b523bb4abc80000c301568857994
+    new: cfb4c313be670fd4bd09650216620fa4514cdb93
     log: |
-         bb818f67d3e93fdf315fe4699f65574ee3b59d73 soc: aspeed: lpc-ctrl: Block error printing on probe defer cases
-         79ee56da2e4f49adf174dd7a2e10ce488506c865 ARM: aspeed: Add secure boot controller support
-         19bc5e6380f062a13d639c24d8f046a2ab295961 Merge tag 'aspeed-5.17-soc' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into arm/drivers
-         
-  - ref: refs/heads/for-next
-    old: 134a2de4a6ffd9d05fc9e78c20661287b3f84816
-    new: d57457e399414d17848c94dfd61f683b26cadc17
-    log: |
-         bb818f67d3e93fdf315fe4699f65574ee3b59d73 soc: aspeed: lpc-ctrl: Block error printing on probe defer cases
-         79ee56da2e4f49adf174dd7a2e10ce488506c865 ARM: aspeed: Add secure boot controller support
-         19bc5e6380f062a13d639c24d8f046a2ab295961 Merge tag 'aspeed-5.17-soc' of git://git.kernel.org/pub/scm/linux/kernel/git/joel/bmc into arm/drivers
-         ff7f75fb3cceee32b4c3c04f24c89285b47be90a Merge branch 'arm/drivers' into for-next
-         d57457e399414d17848c94dfd61f683b26cadc17 soc: document merges
+         6932627425d6d3849aecd43c02158a5312895ad4 Bluetooth: btusb: Add support for Foxconn MT7922A
+         df1e5c51492fd93ffc293acdcc6f00698d19fedc Bluetooth: hci_qca: Stop IBS timer during BT OFF
+         744451c162a514044a912cbbd64b7a386035cc5b Bluetooth: hci_sync: Push sync command cancellation to workqueue
+         fee645033e2c57fdbd8bace4d5ddc2b18bc4032a Bluetooth: hci_event: Use skb_pull_data when processing inquiry results
+         8e8b92ee60de5341e9db83c11f75a525e555e2b3 Bluetooth: hci_sync: Add hci_le_create_conn_sync
+         85b56857e194635b772be8af1c7650535d5d112a Bluetooth: hci_sync: Add support for waiting specific LE subevents
+         6cd29ec6ae5e3694b779e02da9f3e50ae4398b59 Bluetooth: hci_sync: Wait for proper events when connecting LE
+         4fc9857ab8c6cfe2152df3288c8cf3300b929f1a Bluetooth: hci_sync: Add check simultaneous roles support
+         76d0685bbac8ae017e5d12eba25fb3c4f0ec77ac Bluetooth: MGMT: Fix LE simultaneous roles UUID if not supported
+         cfb4c313be670fd4bd09650216620fa4514cdb93 Bluetooth: vhci: Set HCI_QUIRK_VALID_LE_STATES
          
