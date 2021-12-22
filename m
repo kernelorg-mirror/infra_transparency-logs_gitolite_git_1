@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Wed, 22 Dec 2021 00:26:22 -0000
-Message-Id: <164013278241.5579.6032341927089615151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 22 Dec 2021 00:57:55 -0000
+Message-Id: <164013467594.24668.7100240808651446011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/aspeed-5.17-soc
-    old: 0000000000000000000000000000000000000000
-    new: 1e8a40d72dbce0b8cc7d4f82853bf45d34a11685
+  - ref: refs/heads/master
+    old: ac8c58f5b535d6272324e2b8b4a0454781c9147e
+    new: 1c15b05baea71a5ff98235783e3e4ad227760876
+    log: |
+         1c15b05baea71a5ff98235783e3e4ad227760876 bonding: fix ad_actor_system option setting to default
+         
