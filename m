@@ -1,98 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============8423340625594138136=="
+Content-Type: multipart/mixed; boundary="===============6247869362389866602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 22 Dec 2021 03:54:30 -0000
-Message-Id: <164014527009.11554.17970704496598648060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 22 Dec 2021 03:55:07 -0000
+Message-Id: <164014530705.13171.15418665527765838022@gitolite.kernel.org>
 
---===============8423340625594138136==
+--===============6247869362389866602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/aa
-user: andrea
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/mapcount_unshare
-    old: 724ab1d19b36a7cffab985818659d3f26853d264
-    new: d5e024703dbabcc29f54611e6c4d1426917b7c9c
-    log: revlist-724ab1d19b36-d5e024703dba.txt
+  - ref: refs/heads/net-next-mlx5
+    old: bcd24d18e43fc2cc60dd6e1c584147c25622f93a
+    new: 9e22bfa404ad6866976871ed494e99d44b04faed
+    log: revlist-bcd24d18e43f-9e22bfa404ad.txt
 
---===============8423340625594138136==
+--===============6247869362389866602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-724ab1d19b36-d5e024703dba.txt
+Content-Disposition: attachment; filename=revlist-bcd24d18e43f-9e22bfa404ad.txt
 
-3dc709e518b47386e6af937eaec37bb36539edfd powerpc/85xx: Fix oops when CONFIG_FSL_PMC=n
-85223d609c99eaa07cc598632b426cb33753526f regulator: dt-bindings: samsung,s5m8767: add missing op_mode to bucks
-db6689b643d8653092f5853751ea2cdbc299f8d3 spi: change clk_disable_unprepare to clk_unprepare
-09d97da660ff77df20984496aa0abcd6b88819f2 MIPS: Only define pci_remap_iospace() for Ralink
-8734b41b3efe0fc6082c1937b0e88556c396dc96 powerpc/module_64: Fix livepatching for RO modules
-83dbf898a2d45289be875deb580e93050ba67529 PCI/MSI: Mask MSI-X vectors only on success
-94185adbfad56815c2c8401e16d81bdb74a79201 PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
-6c3118c32129b4197999a8928ba776bcabd0f5c4 signal: Skip the altstack update when not needed
-4ad8181426df92976feee5fbc55236293d069b37 RDMA/hns: Fix RNR retransmission issue for HIP08
-bee90911e0138c76ee67458ac0d58b38a3190f65 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
-12d3bbdd6bd2780b71cc466f3fbc6eb7d43bbc2a RDMA/hns: Replace kfree() with kvfree()
-0fd08a34e8e3b67ec9bd8287ac0facf8374b844a xen/blkfront: harden blkfront against event channel storms
-b27d47950e481f292c0a5ad57357edb9d95d03ba xen/netfront: harden netfront against event channel storms
-fe415186b43df0db1f17fa3a46275fd92107fe71 xen/console: harden hvc_xen against event channel storms
-6032046ec4b70176d247a71836186d47b25d1684 xen/netback: fix rx queue stall detection
-be81992f9086b230623ae3ebbc85ecee4d00a3d3 xen/netback: don't queue unlimited number of packages
-4e8c11b6b3f0b6a283e898344f154641eda94266 timekeeping: Really make sure wall_to_monotonic isn't positive
-b774302e885697dde027825f8de9beb985d037bd cifs: ignore resource_id while getting fscache super cookie
-a31080899d5fdafcccf7f39dd214a814a2c82626 cifs: sanitize multiple delimiters in prepath
-8f556a326c93213927e683fc32bbf5be1b62540a locking/rtmutex: Fix incorrect condition in rtmutex_spin_on_owner()
-87959fa16cfbcf76245c11559db1940069621274 Revert "block: reduce kblockd_mod_delayed_work_on() CPU consumption"
-1aa2abb33a419090c7c87d4ae842a6347078ee12 KVM: x86: Drop guest CPUID check for host initiated writes to MSR_IA32_PERF_CAPABILITIES
-0b091a43d704997789c6d812b02167c8f5f9f061 KVM: selftests: vmx_pmu_msrs_test: Drop tests mangling guest visible CPUIDs
-18c841e1f4112d3fb742aca3429e84117fcb1e1c KVM: x86: Retry page fault if MMU reload is pending and root has no sp
-9273d6cb9935f536c309186744e5163c9e488a57 Merge tag '5.16-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-713ab911f2cd5ef00b5072aacd84bd93a444ae12 Merge tag 'powerpc-5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-a4cc5ea443e7f0649b322a47abc7ce612c5c0581 Merge tag 'mips-fixes_5.16_3' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-c36d891d787d03b36e18aa4ef254eebe6060b39a Merge tag 'core_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-909e1d166ca807e52ffba57a1a63cef0cf517338 Merge tag 'locking_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e1fe1b10e6aae5fb2df1c065e4fbe655c39e5065 Merge tag 'timers_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a76c3d035872bf390d2fd92d8e5badc5ee28b17d Merge tag 'irq_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2da09da4ae5e1714606668bdb145806b0afe9c90 Merge tag 'block-5.16-2021-12-19' of git://git.kernel.dk/linux-block
-f291e2d899d120880bfe8e0fa6fe22a97a54e054 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-a7904a538933c525096ca2ccde1e60d0ee62c08e Linux 5.16-rc6
-59b3f9448833a447085a22cf573f7c48db93c44d Merge branch 'xsa' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-3856c1b3983530c58f95f508db952ddc46d269b2 Merge tag 'regulator-fix-v5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-86085fe79e3c1a66e32f2acae0ae64f4cceb8d28 Merge tag 'spi-fix-v5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-6e0567b7305209c2d689ce57180a63d8dc657ad8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-98acd0f2ab228081b62ca378639efb7e72a754a5 extraversion
-3fc040a984ac3bf1d1f3f9fbb44f8991004246c3 mm: thp: consolidate mapcount logic on THP split
-c91d5407d6ef9fa453c327f438f7bc5005e8299d mm: thp: make the THP mapcount atomic with a seqlock
-a91f03faf0e3a3ceff5ace570604aae7edbb5de2 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-f81178331a6ff9484dd350cd5927969ad569727a mm: thp: introduce page_trans_huge_anon_shared
-885834c7c61305e8a1a54994176be690f0aa785e mm: gup: COR: copy-on-read fault
-89badc721693d534f8b985b63b06dc72829ccbef mm: gup: gup_must_unshare()
-aeac9b5dece9cf419dbcf418c4a4765255c59561 mm: gup: gup_must_unshare() use can_read_pin_swap_page()
-255f83fb069c62048ff98b9689eb6fed2e7c82d4 mm: gup: FOLL_UNSHARE
-2a9ea86bccaf5a6a9ab34cff6637c7c4e53a189a mm: gup: FOLL_NOUNSHARE: optimize follow_page
-65b8e00d393a3e45328169e54330686d9185e209 mm: hugetlbfs: COR: copy-on-read fault
-98c448c3f2bcd77365165f85378ed63ae79bf2eb mm: hugetlbfs: FOLL_FAULT_UNSHARE
-144f788153d6d3ed96bdcb00ceef8a9097675f15 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
-0155da96befb35e82d1170eabba17aa45cbf1f68 mm: COW: skip the page lock in the COW copy path
-9a6090a8ba6fcb505972f642263bfd081417e2b5 mm: thp: replace the page lock with the seqlock for the THP mapcount
-286a6cca5966af1ec9642acdb9b915a0b27300e1 mm: COW: restore full accuracy in page reuse
-f81a7313a473643fdab1149adaa7cd6ec9dbc040 mm: COW/COR: de-dup the lock page locking
-56e38ae6ec2c6c208adcd4d7b97b2da983bb9e38 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-6b3336a5d6af00723a8aa1e14c92d71143dc8130 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-182ca658f947b6d02d1a45d98fdfe1a37ce1e251 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: adapt can_read_pin_swap_page()
-28c5b4a2b5844c683caeebcf3c73cd47296910cf mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: KSM: adjust the pre-de-duplication GUP pin check
-beb00cc0645aadde7f6847569eb9d06bceacf947 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-ac722ef31c48ed84d3de025989a61f6a04fa3e8a mm: gup: document FOLL_MM_SYNC
-b65d1211d64c2cd36e6a9450ec0257996607a25c mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-82f900cab57e335d64f7b299c6878a6c5b14f527 mm: cacheline alignment for page_table_lock and mmap_lock
-fe4278b3efa42993fc0e3fbf2cdb70c6d53d7cf0 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-ff662c12a0f65ba61f02334f918df4b1abbf1004 mm: thp: optimize total_mapcount() with head_compound_mapcount
-bf5c286d667215d11db007f4b713f0e45d191f17 mm: thp: cleanup and optimize compound_nr
-6865ab35a3b9720b1820c8016f20c589a0293e0e mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-d5e024703dbabcc29f54611e6c4d1426917b7c9c mm: gup: FOLL_UNSHARE and COR fault
+bc2dfc02836b1133d1bf4d22aa13d48ac98eabef cfg80211: implement APIs for dedicated radar detection HW
+237337c230b94e78a5a0f88d1705259ab543fc40 mac80211: introduce set_radar_offchan callback
+f5d32a7b10713427655a14d4777af7f598d3c1fa mac80211_hwsim: Fix spelling mistake "Droping" -> "Dropping"
+1507b153198137dfa9cb4bec7c5dee07089ec3af cfg80211: move offchan_cac_event to a dedicated work
+91e89c77322d2a65ede9f418642942f3c096a63b cfg80211: fix possible NULL pointer dereference in cfg80211_stop_offchan_radar_detection
+71abf71e9e634a55b1156f4aaae6122207f4b8ef mac80211: Remove unused assignment statements
+d787a3e38f01bfc4566df4e85d432a29d192e637 mac80211: add support for .ndo_fill_forward_path
+3536672bbdc2e7093333be85c945a63aef4c6bb8 cfg80211: delete redundant free code
+c47240cb46a10c40686ce4e25c64aaed676f71c9 cfg80211: schedule offchan_cac_abort_wk in cfg80211_radar_event
+8415816493b7589e74ff4e1e7eaf3aadc7b73621 cfg80211: allow continuous radar monitoring on offchannel chain
+dc53078320108936106906c5441122ae34ab1d65 mac80211: minstrel_ht: remove unused SAMPLE_SWITCH_THR define
+eb87d3e08992b2939d91b649630dfa11f4d2cd75 mac80211: notify non-transmitting BSS of color changes
+fb5f6a0e8063b7a84d6d44ef353846ccd7708d2e mac80211: Use memset_after() to clear tx status
+fb8b53acf60bdfcefc5a583ce2946258f8261108 cfg80211: use ieee80211_bss_get_elem() instead of _get_ie()
+75c5bd68b699bbcb6d25879644d62de4da14ab92 ieee80211: change HE nominal packet padding value defines
+6a789ba679d652587532cec2a0e0274fda172f3b mac80211: use coarse boottime for airtime fairness code
+57553c3a6cfe5a30c40c334e4f3b4ece06764b36 mac80211: fix FEC flag in radio tap header
+cee04f3c3a00ffd2a2a6ed1028e0ab58a3a28d25 mac80211: Remove a couple of obsolete TODO
+3bb1ccc4ed8fbc2d26a0cce369313e80e412b4f1 cfg80211: simplify cfg80211_chandef_valid()
+28f350a67d291575492057c92ceb8518ecbace95 cfg80211: Fix order of enum nl80211_band_iftype_attr documentation
+6d501764288cf7869c7f54f1fcabd77bcd91b90e mac80211: introduce channel switch disconnect function
+a083ee8a4e03348fb90a4b24cbe957b3252c7b04 cfg80211: Add support for notifying association comeback
+852a07c10d62b2d041f7cbf284a2723f5bcc483f mac80211: Notify cfg80211 about association comeback
+a95bfb876fa87e2d0fa718ee61a8030ddf162d2b cfg80211: rename offchannel_chain structs to background_chain to avoid confusion with ETSI standard
+7f599aeccbd2bcba800c6c7ecc4586fd8cafc1d8 cfg80211: Use the HE operation IE to determine a 6GHz BSS channel
+636ccdae4e17398fea4d55c7224fbac897e519df mac80211: add more HT/VHT/HE state logging
+47301a74bbfa80cef876e646a8c5fec03c20fc8d nl80211: Add support to set AP settings flags with single attribute
+87c1aec15dee8bdb245aabbd181f9f9e1a4770ae nl80211: Add support to offload SA Query procedures for AP SME device
+d9a8297e873eda9d47aa5895ca47dc12eca0b198 nl82011: clarify interface combinations wrt. channels
+75cca1fac2e11039fefb4f2118a8af50949345dc cfg80211: refactor cfg80211_get_ies_channel_number()
+5bc9a9dd75351023793d8aa4116ead005d659729 rfkill: allow to get the software rfkill state
+701fdfe348f7e5c9fe71caa3558d63dbb4bc4b81 cfg80211: Enable regulatory enforcement checks for drivers supporting mesh iface
+294e70c952b494918f139670cf5a89839a2e03e6 Merge tag 'mac80211-next-for-net-next-2021-12-21' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211-next
+7a34cda1ee8abf2381af12e9e86b2bdf789a9b0b igc: Remove unused _I_PHY_ID define
+8e153faf5827cadb873aed2d28a5fb774ca7ca55 igc: Remove unused phy type
+2a8807a7658903e77a4b21bc820cb321005ed19f igc: Remove obsolete nvm type
+d2a66dd3fdd6ce77b2018d5fcf9cdc91cc9bf0a9 igc: Remove obsolete mask
+b8773a66f651d0e410796562c1e1f6097619caba igc: Remove obsolete define
+890781af31a069555163b23cb513c7ee1927fb24 igb: remove never changed variable `ret_val'
+630f6edc485133363d4cd14766db031c7da47c41 igbvf: Refactor trace
+37cf276df1014aa4647ae364bde878041053b40d fm10k: Fix syntax errors in comments
+b3ec7248f1f4b9d0352793b95d8ad063e89e9f6f net: phy: micrel: Adding interrupt support for Link up/Link down in LAN8814 Quad phy
+f4f2970dfd87e5132c436e6125148914596a9863 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+720311bd3395db2a880e77f06a740fb65b731841 net/mlx5: Remove the repeated declaration
+22b58177d4a6c9bdbbeb37ee12e58d3ef6cd1a9f devlink: Add new "io_eq_size" generic device param
+657140ab4078b34208e13866529faf7d48262e83 net/mlx5: Let user configure io_eq_size param
+53f8a4d67e855edfc9f55b58e92e26962674209d devlink: Add new "event_eq_size" generic device param
+718525a23817337f70c7ed9a82d0bdfc9f9bdfd5 net/mlx5: Let user configure event_eq_size param
+eb5586441ce3d57a28e22469480f4853edbb55dd devlink: Clarifies max_macs generic devlink param
+9e22bfa404ad6866976871ed494e99d44b04faed net/mlx5: Let user configure max_macs generic param
 
---===============8423340625594138136==--
+--===============6247869362389866602==--
