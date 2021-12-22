@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5269322436007085859=="
+Content-Type: multipart/mixed; boundary="===============8423340625594138136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Wed, 22 Dec 2021 03:52:05 -0000
-Message-Id: <164014512558.10786.13489633329222044905@gitolite.kernel.org>
+Date: Wed, 22 Dec 2021 03:54:30 -0000
+Message-Id: <164014527009.11554.17970704496598648060@gitolite.kernel.org>
 
---===============5269322436007085859==
+--===============8423340625594138136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,72 +15,84 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main-5.10.y
-    old: 9f458484056522356faab88094b4c01e576beeae
-    new: 1a89678232f8c32ecc4dffbdbb059f40928cce14
-    log: revlist-9f4584840565-1a89678232f8.txt
+  - ref: refs/heads/mapcount_unshare
+    old: 724ab1d19b36a7cffab985818659d3f26853d264
+    new: d5e024703dbabcc29f54611e6c4d1426917b7c9c
+    log: revlist-724ab1d19b36-d5e024703dba.txt
 
---===============5269322436007085859==
+--===============8423340625594138136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f4584840565-1a89678232f8.txt
+Content-Disposition: attachment; filename=revlist-724ab1d19b36-d5e024703dba.txt
 
-f8ebffe4d54522b909f72fddf3503632c562d868 extraversion
-d1c2434b3bbefba41b2f9387eecc065145d97bb4 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-f8e0eeae525e51740f5c1a5da4031a117559aaec mm: thp: consolidate mapcount logic on THP split
-083ac80858befb3c51a087721070f78a185398cd mm: thp: make the THP mapcount atomic with a seqlock
-6b3d543ac1acb65574d51be9322c77c9c1ce742d mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-22d18d4ce492e970f1af7037cc4034fef3f9ab5b mm: thp: introduce page_trans_huge_anon_shared
-ff4e70f2dcee87caffa54c5b582c05c6ebf6972c mm: gup: COR: copy-on-read fault
-317b2b5013199efde277b288d9b09263f7b3d99d mm: gup: gup_must_unshare()
-942e1814dfbc261950742ef506a29462c9dc131b mm: gup: gup_must_unshare() use can_read_pin_swap_page()
-5e46da2d17377ef095ab2b5d235911a5c5dca3b2 mm: gup: FOLL_UNSHARE
-634692d1b2815a68fe54c135a81b637b649f75dc mm: gup: FOLL_NOUNSHARE: optimize follow_page
-81e819c084eabb66e2a7ac54efb8ee11ae4f1416 mm: hugetlbfs: FOLL_FAULT_UNSHARE
-36a372401e05894976c5ca7458f0cc933c7c352b mm: hugetlbfs: COR: copy-on-read fault
-2027e968bec63432ec9e24d8d3fd9c6f6e759cac mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
-3cee1a82983dec2d3b223c17baa73aab38c59f96 mm: COW: skip the page lock in the COW copy path
-6aa8bb192d151dcd5ea19fc740bd1fa54b789dbe mm: thp: replace the page lock with the seqlock for the THP mapcount
-e2ed120887f9ce374e67d5e124bfc8a57efea11a mm: COW: restore full accuracy in page reuse
-bfb549313b11cf679b6c19a66914fa0bc1b019f6 mm: COW/COR: de-dup the lock page locking
-49cc38855a63b6697aba29217640ff7cb801f1f1 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-df393a470ef78c439cbe4dca934f41adfce189a8 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
-94ac12d6f85feb9ec26b46f97575ddbded374e89 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: adapt can_read_pin_swap_page()
-5110ddf3581b7c00264c790c5c6937b3d4b38e1a mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: KSM: adjust the pre-de-duplication GUP pin check
-0b02d0faa1d1f02a87203097300ebd4c19519999 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-4c5466265ab920c1cf0778c5983f60a96062ce9a mm: gup: document FOLL_MM_SYNC
-edd527f3ddfe5156ef9100e2437b5942dc11795e mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-122f9982ccc8235913f80e2f6f16f481fbee933a mm: cacheline alignment for page_table_lock and mmap_lock
-ac0f6e90b5e26e6926862ec46a2fefbcef96d9d9 mm: gup: allow FOLL_PIN to scale in SMP
-dffbcd8b81cbc1f3c6f5f794e3fd71ac3a1b2f85 mm: gup: pack has_pinned in MMF_HAS_PINNED
-3b05ff485949f89f6d5bccfb1c5d16daf7990368 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-6f5250b39caa401fac4d6a170cb3fb64fac1bee1 mm: thp: optimize total_mapcount() with head_compound_mapcount
-8a6289058c1e959a5423a42f90f7bc150b6c36b2 mm: thp: cleanup and optimize compound_nr
-2360865638707c05d53b5bcda6adc3eaf5676e12 mm: proc: Invalidate TLB after clearing soft-dirty page state
-1b8bc941a28f65b93374abab9872e4929f9c0723 mm: thp: consolidate policy_nodemask call
-8bdf03fd40d1014d175ab78165cbbbcbf0aa4c0c mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-4df5ef34c66f707be50e965166f82e4b6026e097 mm: mm_take_all_locks: add cond_resched()
-fae83af30172ca0fa9f639b86e4a4027aa985fa1 x86: restore the write back cache of reserved RAM in iounmap()
-97b2431bf703556da02ab7e98491a38dde57c58f x86: change default to spec_store_bypass_disable=prctl spectre_v2_user=prctl
-4f2c39d70f2c2da28e2d566e5ed1056181f2c965 x86: deduplicate the spectre_v2_user documentation
-1c1f7a466bd6a6b4208b233bb9cc5444bf9fe4a8 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-cfbd254407bc156e9a09720ff79ee5e5d9dc4a6e x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-8e53c2a7fb7791e19ec4e58689b24ddeb2cde263 x86: atomic_set needs WRITE_ONCE
-d4c7e7c33d22d33ad1c5ccb24f97b2a85547331c mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-2e21fbe785dc13c8fa641fd77696ec5ec1f7d648 mm/userfaultfd: provide unmasked address on page-fault
-cf3fa7dfd70d39e336076f9fbade52cf8790a087 userfaultfd: UFFDIO_REMAP: rmap preparation
-df2c7a29b6f7fd08b04ea5a4d812bfd02bcdaf28 userfaultfd: UFFDIO_REMAP uABI
-ae5b1469ced7e5d79c2fa08e16a623829307f715 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-3647793a0b96dc6539b2e01bdf2f11fbe34999ce arm64: select CPUMASK_OFFSTACK if NUMA
-2718247027d52c41fe4725aaa10d77fe436c0668 arm64: tlb: skip tlbi broadcast
-f559c4ced219ee6b6f9b1a6a16226ca58ff148c6 KSM: if the page isn't mapped page_anon_vma(page) can be stale
-9fd342d552e6f40d7f2301c65fd756a85c61361f KSM: improve reuse_swap_page for CONFIG_SWAP=n
-03b365871d05e492806614da6de1e0cc092d93f5 KSM: add batch random generator helper
-9bc9cd63064a5dc92c53057ea76468c083946777 KSM: only attempt to merge with KSM pages if the payload doesn't change
-3ad11283330587b5c5c6b95a4cc7f4ce2799a6a5 KSM: eliminate the KSM COW side channel
-84e49dcd1bb0fd5f7bd24f3306a1b35a98a38a2c KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
-a1250d3db4940768b22f38b398825d18588e95e1 KSM: break_ksm: use the COR fault
-1a89678232f8c32ecc4dffbdbb059f40928cce14 Merge remote-tracking branch 'gitlab/main-5.10.y' into main-5.10.y
+3dc709e518b47386e6af937eaec37bb36539edfd powerpc/85xx: Fix oops when CONFIG_FSL_PMC=n
+85223d609c99eaa07cc598632b426cb33753526f regulator: dt-bindings: samsung,s5m8767: add missing op_mode to bucks
+db6689b643d8653092f5853751ea2cdbc299f8d3 spi: change clk_disable_unprepare to clk_unprepare
+09d97da660ff77df20984496aa0abcd6b88819f2 MIPS: Only define pci_remap_iospace() for Ralink
+8734b41b3efe0fc6082c1937b0e88556c396dc96 powerpc/module_64: Fix livepatching for RO modules
+83dbf898a2d45289be875deb580e93050ba67529 PCI/MSI: Mask MSI-X vectors only on success
+94185adbfad56815c2c8401e16d81bdb74a79201 PCI/MSI: Clear PCI_MSIX_FLAGS_MASKALL on error
+6c3118c32129b4197999a8928ba776bcabd0f5c4 signal: Skip the altstack update when not needed
+4ad8181426df92976feee5fbc55236293d069b37 RDMA/hns: Fix RNR retransmission issue for HIP08
+bee90911e0138c76ee67458ac0d58b38a3190f65 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
+12d3bbdd6bd2780b71cc466f3fbc6eb7d43bbc2a RDMA/hns: Replace kfree() with kvfree()
+0fd08a34e8e3b67ec9bd8287ac0facf8374b844a xen/blkfront: harden blkfront against event channel storms
+b27d47950e481f292c0a5ad57357edb9d95d03ba xen/netfront: harden netfront against event channel storms
+fe415186b43df0db1f17fa3a46275fd92107fe71 xen/console: harden hvc_xen against event channel storms
+6032046ec4b70176d247a71836186d47b25d1684 xen/netback: fix rx queue stall detection
+be81992f9086b230623ae3ebbc85ecee4d00a3d3 xen/netback: don't queue unlimited number of packages
+4e8c11b6b3f0b6a283e898344f154641eda94266 timekeeping: Really make sure wall_to_monotonic isn't positive
+b774302e885697dde027825f8de9beb985d037bd cifs: ignore resource_id while getting fscache super cookie
+a31080899d5fdafcccf7f39dd214a814a2c82626 cifs: sanitize multiple delimiters in prepath
+8f556a326c93213927e683fc32bbf5be1b62540a locking/rtmutex: Fix incorrect condition in rtmutex_spin_on_owner()
+87959fa16cfbcf76245c11559db1940069621274 Revert "block: reduce kblockd_mod_delayed_work_on() CPU consumption"
+1aa2abb33a419090c7c87d4ae842a6347078ee12 KVM: x86: Drop guest CPUID check for host initiated writes to MSR_IA32_PERF_CAPABILITIES
+0b091a43d704997789c6d812b02167c8f5f9f061 KVM: selftests: vmx_pmu_msrs_test: Drop tests mangling guest visible CPUIDs
+18c841e1f4112d3fb742aca3429e84117fcb1e1c KVM: x86: Retry page fault if MMU reload is pending and root has no sp
+9273d6cb9935f536c309186744e5163c9e488a57 Merge tag '5.16-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+713ab911f2cd5ef00b5072aacd84bd93a444ae12 Merge tag 'powerpc-5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+a4cc5ea443e7f0649b322a47abc7ce612c5c0581 Merge tag 'mips-fixes_5.16_3' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+c36d891d787d03b36e18aa4ef254eebe6060b39a Merge tag 'core_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+909e1d166ca807e52ffba57a1a63cef0cf517338 Merge tag 'locking_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e1fe1b10e6aae5fb2df1c065e4fbe655c39e5065 Merge tag 'timers_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a76c3d035872bf390d2fd92d8e5badc5ee28b17d Merge tag 'irq_urgent_for_v5.16_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2da09da4ae5e1714606668bdb145806b0afe9c90 Merge tag 'block-5.16-2021-12-19' of git://git.kernel.dk/linux-block
+f291e2d899d120880bfe8e0fa6fe22a97a54e054 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+a7904a538933c525096ca2ccde1e60d0ee62c08e Linux 5.16-rc6
+59b3f9448833a447085a22cf573f7c48db93c44d Merge branch 'xsa' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+3856c1b3983530c58f95f508db952ddc46d269b2 Merge tag 'regulator-fix-v5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+86085fe79e3c1a66e32f2acae0ae64f4cceb8d28 Merge tag 'spi-fix-v5.16-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+6e0567b7305209c2d689ce57180a63d8dc657ad8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+98acd0f2ab228081b62ca378639efb7e72a754a5 extraversion
+3fc040a984ac3bf1d1f3f9fbb44f8991004246c3 mm: thp: consolidate mapcount logic on THP split
+c91d5407d6ef9fa453c327f438f7bc5005e8299d mm: thp: make the THP mapcount atomic with a seqlock
+a91f03faf0e3a3ceff5ace570604aae7edbb5de2 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+f81178331a6ff9484dd350cd5927969ad569727a mm: thp: introduce page_trans_huge_anon_shared
+885834c7c61305e8a1a54994176be690f0aa785e mm: gup: COR: copy-on-read fault
+89badc721693d534f8b985b63b06dc72829ccbef mm: gup: gup_must_unshare()
+aeac9b5dece9cf419dbcf418c4a4765255c59561 mm: gup: gup_must_unshare() use can_read_pin_swap_page()
+255f83fb069c62048ff98b9689eb6fed2e7c82d4 mm: gup: FOLL_UNSHARE
+2a9ea86bccaf5a6a9ab34cff6637c7c4e53a189a mm: gup: FOLL_NOUNSHARE: optimize follow_page
+65b8e00d393a3e45328169e54330686d9185e209 mm: hugetlbfs: COR: copy-on-read fault
+98c448c3f2bcd77365165f85378ed63ae79bf2eb mm: hugetlbfs: FOLL_FAULT_UNSHARE
+144f788153d6d3ed96bdcb00ceef8a9097675f15 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+0155da96befb35e82d1170eabba17aa45cbf1f68 mm: COW: skip the page lock in the COW copy path
+9a6090a8ba6fcb505972f642263bfd081417e2b5 mm: thp: replace the page lock with the seqlock for the THP mapcount
+286a6cca5966af1ec9642acdb9b915a0b27300e1 mm: COW: restore full accuracy in page reuse
+f81a7313a473643fdab1149adaa7cd6ec9dbc040 mm: COW/COR: de-dup the lock page locking
+56e38ae6ec2c6c208adcd4d7b97b2da983bb9e38 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+6b3336a5d6af00723a8aa1e14c92d71143dc8130 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+182ca658f947b6d02d1a45d98fdfe1a37ce1e251 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: adapt can_read_pin_swap_page()
+28c5b4a2b5844c683caeebcf3c73cd47296910cf mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: KSM: adjust the pre-de-duplication GUP pin check
+beb00cc0645aadde7f6847569eb9d06bceacf947 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+ac722ef31c48ed84d3de025989a61f6a04fa3e8a mm: gup: document FOLL_MM_SYNC
+b65d1211d64c2cd36e6a9450ec0257996607a25c mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+82f900cab57e335d64f7b299c6878a6c5b14f527 mm: cacheline alignment for page_table_lock and mmap_lock
+fe4278b3efa42993fc0e3fbf2cdb70c6d53d7cf0 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+ff662c12a0f65ba61f02334f918df4b1abbf1004 mm: thp: optimize total_mapcount() with head_compound_mapcount
+bf5c286d667215d11db007f4b713f0e45d191f17 mm: thp: cleanup and optimize compound_nr
+6865ab35a3b9720b1820c8016f20c589a0293e0e mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+d5e024703dbabcc29f54611e6c4d1426917b7c9c mm: gup: FOLL_UNSHARE and COR fault
 
---===============5269322436007085859==--
+--===============8423340625594138136==--
