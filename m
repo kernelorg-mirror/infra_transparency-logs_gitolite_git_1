@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8822665758993683781=="
+Content-Type: multipart/mixed; boundary="===============8670028097441512685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 22 Dec 2021 05:23:56 -0000
-Message-Id: <164015063624.3680.1068172747155861749@gitolite.kernel.org>
+Date: Wed, 22 Dec 2021 05:24:05 -0000
+Message-Id: <164015064596.3830.6293585688804124632@gitolite.kernel.org>
 
---===============8822665758993683781==
+--===============8670028097441512685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 4b430f5c968047c162cdaf236d59d2d95035d090
-    new: f4f2970dfd87e5132c436e6125148914596a9863
-    log: revlist-4b430f5c9680-f4f2970dfd87.txt
+  - ref: refs/heads/mlx5-queue
+    old: 5ddfad88528306e64aa66e9b449471bb907d7f08
+    new: 2b6e66e53787bdf8642662d019ba63cedacb5a98
+    log: revlist-5ddfad885283-2b6e66e53787.txt
 
---===============8822665758993683781==
+--===============8670028097441512685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b430f5c9680-f4f2970dfd87.txt
+Content-Disposition: attachment; filename=revlist-5ddfad885283-2b6e66e53787.txt
 
 bc2dfc02836b1133d1bf4d22aa13d48ac98eabef cfg80211: implement APIs for dedicated radar detection HW
 237337c230b94e78a5a0f88d1705259ab543fc40 mac80211: introduce set_radar_offchan callback
@@ -75,5 +75,24 @@ b8773a66f651d0e410796562c1e1f6097619caba igc: Remove obsolete define
 37cf276df1014aa4647ae364bde878041053b40d fm10k: Fix syntax errors in comments
 b3ec7248f1f4b9d0352793b95d8ad063e89e9f6f net: phy: micrel: Adding interrupt support for Link up/Link down in LAN8814 Quad phy
 f4f2970dfd87e5132c436e6125148914596a9863 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+720311bd3395db2a880e77f06a740fb65b731841 net/mlx5: Remove the repeated declaration
+22b58177d4a6c9bdbbeb37ee12e58d3ef6cd1a9f devlink: Add new "io_eq_size" generic device param
+657140ab4078b34208e13866529faf7d48262e83 net/mlx5: Let user configure io_eq_size param
+53f8a4d67e855edfc9f55b58e92e26962674209d devlink: Add new "event_eq_size" generic device param
+718525a23817337f70c7ed9a82d0bdfc9f9bdfd5 net/mlx5: Let user configure event_eq_size param
+eb5586441ce3d57a28e22469480f4853edbb55dd devlink: Clarifies max_macs generic devlink param
+9e22bfa404ad6866976871ed494e99d44b04faed net/mlx5: Let user configure max_macs generic param
+08b0f43c3dccb486d91f49d67491a2ad90f69014 net/mlx5e: Take packet_merge params directly from the RX res struct
+c6f29df77e17d077d48ff33b555147e0bc5b53a2 net/mlx5e: Use bitmap field for profile features
+7414abdfd07c5402f2214d1db70ea938d2860d5a net/mlx5e: Add profile indications for PTP and QOS HTB features
+31b93b166b0d9be8595c1316c52e559ae597051c net/mlx5e: Save memory by using dynamic allocation in netdev priv
+174d2de097aa09dbca3249cf0075821daef5e76e net/mlx5e: Allow profile-specific limitation on max num of channels
+98c7e921d815cd4ffea1e03475c49ce2ea2c9644 net/mlx5e: Use dynamic per-channel allocations in stats
+b47f8694374a02d7561a244b98969e70f5aab14b net/mlx5e: Allocate per-channel stats dynamically at first usage
+228917086b3a7e2efdf3723a268c6dcf750b194b net/sched: act_ct: Fill offloading tuple iifidx
+38a33d9d8118433532c0815731f2ef0f4bbb31b5 net: openvswitch: Fill act ct extension
+53dcc510e3437b2cd329f2ec471433c5759f2b26 net/mlx5: CT: Set flow source hint from provided tuple device
+e6792791d323cd3feea4404383658d99d2d2b1bb Merge branch 'patchq/432332' into mlx5-queue
+2b6e66e53787bdf8642662d019ba63cedacb5a98 Merge branch 'patchq/374716' into mlx5-queue
 
---===============8822665758993683781==--
+--===============8670028097441512685==--
