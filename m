@@ -1,52 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2254914699869331978=="
+Content-Type: multipart/mixed; boundary="===============6739683441811108290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 22 Dec 2021 14:03:29 -0000
-Message-Id: <164018180914.26878.12287323720872128425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 22 Dec 2021 14:03:36 -0000
+Message-Id: <164018181615.26973.4584832313398253083@gitolite.kernel.org>
 
---===============2254914699869331978==
+--===============6739683441811108290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
-    old: 53778b8292b5492ec3ecf1efb84163eac2a6e422
-    new: 1f6532073e3e9caee1dbc3f9b4be28359a181ea4
+  - ref: refs/heads/for-5.16
+    old: db6689b643d8653092f5853751ea2cdbc299f8d3
+    new: 80bb73a9fbcde4ecc55e12f10c73fabbe68a24d1
     log: |
-         0d422a466ef7fdbbe402194ac06144d1bbcdc227 ASoC: dt-bindings: Use name-prefix schema
-         847cbea6459d5beb3f0f960fde4337f28b663eae ASoC: meson: t9015: add missing sound-name-prefix property
-         1f6532073e3e9caee1dbc3f9b4be28359a181ea4 ASoC: meson: g12a: add missing sound-name-prefix property
+         80bb73a9fbcde4ecc55e12f10c73fabbe68a24d1 spi: uniphier: Fix a bug that doesn't point to private data correctly
+         
+  - ref: refs/heads/for-5.17
+    old: 6008cb4c98d935a844edf2f3c13639104f533e30
+    new: c70282457c380db7deb57c81a6894debc8f88efa
+    log: |
+         c70282457c380db7deb57c81a6894debc8f88efa spi: ar934x: fix transfer and word delays
          
 
---===============2254914699869331978==
+--===============6739683441811108290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640181807 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1640181807-479b3c4a8617a3eaca7036c5405cfce38f941061
+pusher C3F436CA30F5D8EB 1640181814 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1640181813-e44ba64d0f2bca2fa3b819a1a5c04d7cb6b65d0a
 
-53778b8292b5492ec3ecf1efb84163eac2a6e422 1f6532073e3e9caee1dbc3f9b4be28359a181ea4 refs/heads/asoc-5.17
+db6689b643d8653092f5853751ea2cdbc299f8d3 80bb73a9fbcde4ecc55e12f10c73fabbe68a24d1 refs/heads/for-5.16
+6008cb4c98d935a844edf2f3c13639104f533e30 c70282457c380db7deb57c81a6894debc8f88efa refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHDMC8ACgkQJNaLcl1U
-h9C9iAf/Vh4SCKTPJUoU0UKKlE35LwODkwtA5DYJ9ONYAF/FjgLwO8zb/TtHKcOK
-vuweaCffSM4SYCmESlq4N68NJFpk2nMl/DyYjoFYjAqBU4lv5aH03HwUHF3QOe6c
-01PENtv6BO63ioENsW73MGMxglc81rzBITvbuYzi3FChvHEvBIozuBHtzQleASnr
-HQMe2zTIoFBCQibpCg00/LRLgJL1Xh+O06CedDgO3Nw/dA/orrNWYPxGrk1WCrXl
-g6cXX/3FQdbA5WKYBsQYqWbiErfIpAqDt2MTuh93KpAr0CYFJauc5TdWAU+yEQ1d
-MFZUYbU3BeHvGPL9eBEZLjNFKJhUsg==
-=SXNl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHDMDYACgkQJNaLcl1U
+h9B03Qf/fQn6GJQo8R3RvdtOIZLpVLK39xaMFvnggbgxsnX+Jf5dPtqOM3yrNXey
+59Y84c9Hgj4BJB+MLNrANMltY8KLpVNT/lUMZBcdT3KGGiqxwy4uzQDTVawAWHAf
+aEPCrth+OBWYcxaSL2Xo/6fr6N/3ju7MFuKlt48zPqXMztrmrSQMtaCxCw1M+YdM
+xFUQNACxj+9/AY71Ib9w+pYhxu3uDEqGjCWkcK+rXGalltWQIHmFtOw85noBecr8
+4GKddV0zYRUI3i312lcz974xvidE7X9ajFP/YAfiI3MYP3SKMpCPAKyn9xtRsV5t
+iiu0Rs5xmbzrmEo6xh1BIEKmsXpWkA==
+=HVcl
 -----END PGP SIGNATURE-----
 
---===============2254914699869331978==--
+--===============6739683441811108290==--
