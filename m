@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 22 Dec 2021 11:26:03 -0000
-Message-Id: <164017236382.23096.14419707858026685432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 22 Dec 2021 11:31:43 -0000
+Message-Id: <164017270323.26286.17076294183538076886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/for-next/core
-    old: 7f033f555d8c778bede383b985e63d5db6955924
-    new: 5c3b88221b56ab332638223f799ee78f348ff16a
+  - ref: refs/heads/for-next
+    old: 268eee20365d1400fd3e5d95170dbd8e6a89e5e6
+    new: b1cbda0fc3431b464aa78b5f335a5d35428f10c8
     log: |
-         d5624bb29f49b849ac8d1e9783dbf9c65cf33457 asm-generic: introduce io_stop_wc() and add implementation for ARM64
-         31e833b2031232493f2c30e53401e1f5ba293f97 arm64: Unhash early pointer print plus improve comment
-         5c3b88221b56ab332638223f799ee78f348ff16a Merge branches 'for-next/misc', 'for-next/cache-ops-dzp', 'for-next/stacktrace', 'for-next/xor-neon', 'for-next/kasan', 'for-next/armv8_7-fp', 'for-next/atomics', 'for-next/bti', 'for-next/sve', 'for-next/kselftest' and 'for-next/kcsan', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+         e3493220fd3e474abcdcefbe14fb60485097ce06 arm64: dts: exynos: Add initial Exynos850 SoC support
+         a1828d772e0738c30a383a7d335aded2f2baf908 arm64: dts: exynos: Add initial E850-96 board support
+         b1cbda0fc3431b464aa78b5f335a5d35428f10c8 Merge branch 'next/dt64' into for-next
          
-  - ref: refs/heads/for-next/misc
-    old: c2c529b27ceb394ff4d3273ed1f552195fc4d555
-    new: 31e833b2031232493f2c30e53401e1f5ba293f97
+  - ref: refs/heads/next/dt64
+    old: 51b1a5729469cef57a3c97aa014aa6e1d2b8d864
+    new: a1828d772e0738c30a383a7d335aded2f2baf908
     log: |
-         d5624bb29f49b849ac8d1e9783dbf9c65cf33457 asm-generic: introduce io_stop_wc() and add implementation for ARM64
-         31e833b2031232493f2c30e53401e1f5ba293f97 arm64: Unhash early pointer print plus improve comment
+         e3493220fd3e474abcdcefbe14fb60485097ce06 arm64: dts: exynos: Add initial Exynos850 SoC support
+         a1828d772e0738c30a383a7d335aded2f2baf908 arm64: dts: exynos: Add initial E850-96 board support
          
