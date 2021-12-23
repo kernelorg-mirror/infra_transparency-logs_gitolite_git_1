@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 23 Dec 2021 20:55:02 -0000
-Message-Id: <164029290238.9597.16932834148205940138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 23 Dec 2021 21:03:28 -0000
+Message-Id: <164029340860.15001.13646880213584378786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 93c731c8735765d9b2889702825791acd1b661df
-    new: 6094392ab0f3c2cc188a27f521d33cfc7098ae1f
-    log: |
-         6094392ab0f3c2cc188a27f521d33cfc7098ae1f parisc: Switch user access functions to signal errors in r29 instead of r8
-         
+  - ref: refs/tags/newsoc-5.17
+    old: 0000000000000000000000000000000000000000
+    new: 5d0d81b7cd32e45c5e6622c7b8823f698527f0f0
