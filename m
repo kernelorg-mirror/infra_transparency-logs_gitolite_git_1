@@ -1,82 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============3382900653533147657=="
+Content-Type: multipart/mixed; boundary="===============4780067845819726681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 23 Dec 2021 10:34:31 -0000
-Message-Id: <164025567197.32603.17271653518051704560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 23 Dec 2021 10:34:40 -0000
+Message-Id: <164025568060.32702.6308385509452875545@gitolite.kernel.org>
 
---===============3382900653533147657==
+--===============4780067845819726681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: d71c6e962eaa9958bb3af42f981b02cc9a490857
-    new: 5b0a87fb2d4a58f1c302ebe6a030d415f980f4d1
-    log: revlist-d71c6e962eaa-5b0a87fb2d4a.txt
-  - ref: refs/heads/rdma-rc
-    old: f298db4ec5fdf7a2d1d166ca2f66020fd9397e5c
-    new: 9819134cf88abddac55016bf2eab6183bd169ff6
-    log: |
-         9819134cf88abddac55016bf2eab6183bd169ff6 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
-         
-  - ref: refs/heads/testing/rdma-next
-    old: 60eb05afbc8efd47f220ccfd035b3d28b4e58dbd
-    new: 297e23001a0a66513580f4c6c0f4d7e912de7b46
-    log: revlist-60eb05afbc8e-297e23001a0a.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: b839514e3e86e1998cf6b537467442f7856c5fe3
-    new: 07f43081bb95870139dd4d0c067f34b2822cf799
+  - ref: refs/heads/queue-next
+    old: c40f449671cf5a5c4c6c03dd09ebaa21c7a92b09
+    new: bbaeb652bbd477cc15c90d114abbb82bf16137f2
+    log: revlist-c40f449671cf-bbaeb652bbd4.txt
+  - ref: refs/heads/queue-rc
+    old: f0586aceb17ec4bf1c51c1f41a8af258c359012e
+    new: 043dc77a3ee1f714979a1eea1aee8776b59be836
     log: |
          9819134cf88abddac55016bf2eab6183bd169ff6 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
          07f43081bb95870139dd4d0c067f34b2822cf799 Merge branch 'master' into testing/rdma-rc
+         043dc77a3ee1f714979a1eea1aee8776b59be836 Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============3382900653533147657==
+--===============4780067845819726681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d71c6e962eaa-5b0a87fb2d4a.txt
-
-85747aa02941b8ddcd306574a45095ddeb3f8d2c Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
-b35e219a9895101459862bf0e6430d8cdc7622dc RDMA/mlx5: Merge similar flows of allocating MR from the cache
-58c847ceb443d1836fcf6c8602f2ccb5e84728d7 RDMA/mlx5: Replace cache list with Xarray
-0d3379edbf41911646cd7a20020bf5a28dcd603f RDMA/mlx5: Store in the cache mkeys instead of mrs
-f5ba262e35b93de0e128946a6a2773775fd4fae7 RDMA/mlx5: Reorder calls to pcie_relaxed_ordering_enabled()
-46970c6c09eef71128de04f02ed6afd2dc716443 RDMA/mlx5: Change the cache structure to an RB-tree
-c209119299747d97ee39acfc79f2aa7d73b043c4 RDMA/mlx5: Delay the deregistration of a non-cache mkey
-28648c91910327fe712f9f178e80948ecc2224c4 RDMA/mlx5: Rename the mkey cache variables and functions
-1ec815b13f0dc0e764f733d721337d153253376a RDMA/core: Introduce peer memory interface
-62282f6614e05c9a8e19725453da1dd13558a233 PCI/IOV: Add pci_iov_vf_id() to get VF index
-b4e875d10867f875f1c170c9b7d73d1d86b4e663 net/mlx5: Reuse exported virtfn index function call
-f303035937ee07561f266c0c1cf28d345cf6130a net/mlx5: Disable SRIOV before PF removal
-4af2c3c5471a127d8176124f197bb525914b9138 PCI/IOV: Add pci_iov_get_pf_drvdata() to allow VF reaching the drvdata of a PF
-72a43ef8a36ac59139bbdb71677381161f17e20a net/mlx5: Expose APIs to get/put the mlx5 core device
-d275ba6242b562f7d0c29192f2f7e2763b4e6a6b vfio: Fix VFIO_DEVICE_STATE_SET_ERROR macro
-22c61086b690d7c50027f006ada60b3fc48a9218 vfio: Add a macro for VFIO_DEVICE_STATE_ERROR
-12412ca847d56f3d2a6271f564281573cd424e2b vfio/pci_core: Make the region->release() function optional
-30c85a12d3a18f5ebf891c56b86c34fa8e752261 net/mlx5: Introduce migration bits and structures
-4666900f559a814da6a089245398b88eda8e5c56 vfio/mlx5: Expose migration commands over mlx5 device
-7f09ddaaa4b4a78b5f79ea2785afb4daa4f4e4a3 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
-9105e0f2b3264789a5bd72e5141f3856ba28345e vfio/pci: Expose vfio_pci_core_aer_err_detected()
-0ef7c21e3adbe1ac0cabd4a1ccf9e0385eea43f4 vfio/mlx5: Use its own PCI reset_done error handler
-960b3c886efa809fa49a4021abec62960a9ce3d4 vfio: Add documentation for migration
-133cff85085156bc7916034964786ece035d6a88 RDMA/mlx5: Release transport domain if loopback enable failed
-d78339809777a1f0933e1d743b79fcc5190816c5 Revert "RDMA/mlx5: Release transport domain if loopback enable failed"
-929bf2a9ca8afd162c944df02b4eb77b19b181b9 RDMA/mlx5: Don't remove cache MRs when a delay is needed
-982a004e93774e1e5a099719890de0d6fd5ff278 RDMA/mlx5: Add a missing update of cache->last_add
-5b0a87fb2d4a58f1c302ebe6a030d415f980f4d1 IB/mlx5: Expose NDR speed through MAD
-
---===============3382900653533147657==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60eb05afbc8e-297e23001a0a.txt
+Content-Disposition: attachment; filename=revlist-c40f449671cf-bbaeb652bbd4.txt
 
 bc2dfc02836b1133d1bf4d22aa13d48ac98eabef cfg80211: implement APIs for dedicated radar detection HW
 237337c230b94e78a5a0f88d1705259ab543fc40 mac80211: introduce set_radar_offchan callback
@@ -242,5 +198,6 @@ c52d726edb94da242f130ada97dabc303ee79b97 TMP: mvpp2: Add shutdown method in mvpp
 e3787c19ec960562e81be0943251506a23b6fbd2 Merge branch 'rdma-next' into testing/rdma-next
 57a52cfeea34ad856a96a0d45b44427423dc432a Merge remote-tracking branch 'vfio/next' into testing/rdma-next
 297e23001a0a66513580f4c6c0f4d7e912de7b46 Merge branch 'devlink' into testing/rdma-next
+bbaeb652bbd477cc15c90d114abbb82bf16137f2 Merge branch 'testing/rdma-next' into queue-next
 
---===============3382900653533147657==--
+--===============4780067845819726681==--
