@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Dec 2021 12:10:36 -0000
-Message-Id: <164026143600.26043.11424134913861235319@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Thu, 23 Dec 2021 12:19:55 -0000
+Message-Id: <164026199573.30266.258436831238615578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/damon/next
-    old: 0bbc9a0e8467bdbc727d3d89f037c4ed02910c44
-    new: acd149a876b565fb23a0d2291b1c137f9ba75b77
-    log: |
-         acd149a876b565fb23a0d2291b1c137f9ba75b77 mm/damon: move the implementation of damon_insert_region to damon.h
-         
+  - ref: refs/tags/icc-5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: b9b1fe1a1b194adc63ad547d1590657d5a07fc89
