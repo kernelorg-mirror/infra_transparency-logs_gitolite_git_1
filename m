@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0984380971453977790=="
+Content-Type: multipart/mixed; boundary="===============1059879360065820330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 23 Dec 2021 05:08:47 -0000
-Message-Id: <164023612704.22648.7203847330302008956@gitolite.kernel.org>
+Date: Thu, 23 Dec 2021 05:08:57 -0000
+Message-Id: <164023613742.22746.15587075355711882377@gitolite.kernel.org>
 
---===============0984380971453977790==
+--===============1059879360065820330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 778ddaf1f299635cc20e699be07002bd32765ea2
-    new: 0769e9879a196fe66f0c6ab6668ced033196d536
-    log: revlist-778ddaf1f299-0769e9879a19.txt
+  - ref: refs/heads/5.17/scsi-queue
+    old: 87f77d37d398d92a9963890b14f336dc394f6fa0
+    new: 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d
+    log: revlist-87f77d37d398-4be6181fea1d.txt
 
---===============0984380971453977790==
+--===============1059879360065820330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1640236119 -0500
+pusher 75C5DE3D 1640236130 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1640236119-68da40e54c8ce1b37253d6916bdb0a811552cb5a
+nonce 1640236130-18faf092bef37e1a0d80d2483171a87026634536
 
-778ddaf1f299635cc20e699be07002bd32765ea2 0769e9879a196fe66f0c6ab6668ced033196d536 refs/tags/mkp-scsi-queue
+87f77d37d398d92a9963890b14f336dc394f6fa0 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d refs/heads/5.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHEBFcACgkQ7ulgGnXF
-3j02dBAAjyyRNxusF4qpMhz+07+dQna9PwdBWRIbLamFwXaQNQwZZw0W7ovUZ75A
-7pU35oUrhyrJFPiaLew7fSHA2uledfBNTFW7K31DQP4GOFeu1vJXJ5DdaQSfy2+j
-d/39cBs2rMrBL+3QbmEvkb1YZJMZ51hr8C6rY7aFRKUGmz6xWXHUMMNMkKNDEQ5O
-lZhZETtMO6ByvEMaJ1Ie6advUBLwPYSVDXImoVYCQ/Ss2Uuqmyg3B5IKZiLJIyyQ
-g7c8AlAY/xc2+Eb7L2vKMas103PigHdQH4OWGkqm17hVHajnor0nyGAAfMGgpvuj
-8ox6pFvtnl4Ysss9N4cGQnVQv/2GWOO3qE4nc+ehbtOxdp7JoG1ljAvEhVhag6+/
-x2VwFADcmpQLD0Ruv3Gz5qyY3njAh5MQH/8a8y44hDr/T8QViEjdSyy6gtoIZ9JI
-dyWDkyE8P+bhnQPxysNo9Zwp+OPWgvXabQr+1VUV6W9IXyjozh3dRzcyW6mXj3hD
-ePVSqPcdJjjcz2Vy5l38VLsxbzUGldAdXsbNNkS/QCHf65MTaiPoeCGPOh9eRtYf
-bZQS51YWcg0pYZ2bpZ8ulxFF0SqTiSpQ9qQYGYOi1riqnopz0QqqJPgJjpLiIB0v
-kkGgnuB7wytK0mS/+KmPClbnsEgxPpC1fYHRjTOL89XC9BNMSNA=
-=lYQW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHEBGIACgkQ7ulgGnXF
+3j3JvxAAtO9tsorMzTqqyPChW8DdTS8VFMOPAlc4QKkK1ICoSEXZZhmV3areydmF
+cv0O4SOOk3iexnOX0pLzJ37YgFj1XVQam1RF27CoRVWohVnSH0mVk5iMLveAUALk
+1WNG9xVb3ScOYuYqY16fKRMsAenNNpVTBwu2Iuh4FWs+UePii2Xj4M6Q7YbVcOWq
+1cejwTSQm47S+K6ZtjKKhgU9c74XacOFVGt/z91gB96B4yZeM84hgvZWKRTB+4Ld
++9F+qloJkWO9uRqe9J9hdhSGeXqIpvxDzxMMEarynR1YYbJAAGI3is4+I3bSgwmg
+CsSJMR7ncQslcnWURn0ixCVnP2X4ViW8hAMqE+1Xs1y1uEPBY2f3j0gFUsfMzskm
+TYJdDZwqAR1YUWDTD1I8xdNvTmpVT1MJYXeMP327h3jaAFqFXoHlX7f2ND60TAXQ
+lRSgGmW6wAnd6dugbwrSL13q5U1YB8oS6U82KGLu6b7YJj5Nnwcbk/qOVTArJzZa
+5SMNKvbn7iz7DMFlLWN5oHJX0wUcq7Ha3NuPxvC3kxHZbvzFx5qulytbfxQer133
+Gds9cYqLQ+4M5eWl5w1/Sd3u3pzj7vq8Bg9p0xvWTLQeYjwZTfkPn7r+jhzvMXtB
+QUpzXUMzzg23OW7XYv834s4Zcg+BT+i29ZZr9V1k6IEW+fR6F1M=
+=RAwV
 -----END PGP SIGNATURE-----
 
---===============0984380971453977790==
+--===============1059879360065820330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-778ddaf1f299-0769e9879a19.txt
+Content-Disposition: attachment; filename=revlist-87f77d37d398-4be6181fea1d.txt
 
 baea0e833f7612483dcb2351240da19f0d0bc011 scsi: qla2xxx: Synchronize rport dev_loss_tmo setting
 99c66a8868e33522ebc6fd8a99e32f0d544a014f scsi: ufs: core: Fix deadlock issue in ufshcd_wait_for_doorbell_clr()
@@ -68,4 +68,4 @@ dc313f6b125b095d3d2683d94d5f69c8dc9bdc36 scsi: hisi_sas: Factor out task prep an
 37310bad7fa645b21653fd7f13cb6b376d80c919 scsi: hisi_sas: Fix phyup timeout on FPGA
 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d scsi: libsas: Decode SAM status and host byte codes
 
---===============0984380971453977790==--
+--===============1059879360065820330==--
