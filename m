@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2396361654729781460=="
+Content-Type: multipart/mixed; boundary="===============3706059066094638086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Dec 2021 17:16:09 -0000
-Message-Id: <164027976944.10524.15869263331860636002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 23 Dec 2021 17:16:16 -0000
+Message-Id: <164027977629.10650.3773017619809370809@gitolite.kernel.org>
 
---===============2396361654729781460==
+--===============3706059066094638086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 37daf8d9e0bd85a2859721aec28e1eb6e9973262
     new: 8102d8cd8f26117a7d74142878b4efe7fdeda6cf
     log: revlist-37daf8d9e0bd-8102d8cd8f26.txt
 
---===============2396361654729781460==
+--===============3706059066094638086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640279767 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1640279766-1127eb13af6d865b023230038e30aaf189a99092
+pusher C3F436CA30F5D8EB 1640279774 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640279773-418c464ceebdd560a0139808845a42556c798cf6
 
-37daf8d9e0bd85a2859721aec28e1eb6e9973262 8102d8cd8f26117a7d74142878b4efe7fdeda6cf refs/heads/for-5.17
+37daf8d9e0bd85a2859721aec28e1eb6e9973262 8102d8cd8f26117a7d74142878b4efe7fdeda6cf refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHErtcACgkQJNaLcl1U
-h9BnOgf/WuY9BE/POM9bh0d09aJmFtwcbD3CGifYqb9cMWhDC1U6nkQP2Da2pHsd
-fEg3r38nEeu8YsFswEJxD8U7sJ91chTSdmafg4uObecHyNzB9XQz61CdN//wGCCq
-qKWbE0QyVo+++6ipAO+fXDb2bn8stzKTmDRqjpj7Ick42nnm6io0O3SvofB5eNYJ
-OPTaNZ7lmoVqdycxJugysplPRZBi9VUv/wHdxe6ryAcc9GwgwX2c8RiBwt3WbPH6
-8MqAUvpSzFX9unTjinUKHnnIVHwaImnNF3YIyZ7nUATlBZ/mUl0+uK1TQ83DCmzp
-h9R4eklcNLTDkEZ6C5yzJZWKLeF6hQ==
-=K4Q1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHErt4ACgkQJNaLcl1U
+h9B+iAgAhDUEq/u47f5EC9S1VYCOysNcNJWHiTmQfv3UPWI2aDTqrvjDel6DEdJJ
+S/tjvJG2DywUWrNNW4U27RIVAndOVPpo897yTWYAdu4aRt1M6eTc7fh2wVkodVkT
+C2iuZj/0Ffk1L84dOoyEKU7UtZwERfMzTuSVbjKwgXcGK1CTPEDIhMo3anYxbfie
+oBcfhAr7mpdtTHa6Ma5ya0HX3yQr324bI/mYsgKu3MhP+RgVcCHw1kiAaGKLbU7Z
++SPeolcaI22qqDEjWHrYSbt2yHYStWa6LneD6M/lOVazIQYXOju/V/hSgO1bOiy+
+kj2KtqpXdyLdZxKeJAs7BLdb8E+v6Q==
+=PG2r
 -----END PGP SIGNATURE-----
 
---===============2396361654729781460==
+--===============3706059066094638086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ c6cef35bf723ef0152258d15179c725c5f8cbeba ASoC: dt-bindings: spdif-dit: add missi
 1d194b6b3d3afe3c4fe546385cae970d00641911 ASoC: SOF: Re-visit firmware state and panic tracking/handling
 8102d8cd8f26117a7d74142878b4efe7fdeda6cf ASoC: More amlogic sound-name-prefix DT fixes
 
---===============2396361654729781460==--
+--===============3706059066094638086==--
