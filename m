@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 23 Dec 2021 08:14:56 -0000
-Message-Id: <164024729656.1852.16878857734479184862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Thu, 23 Dec 2021 08:19:52 -0000
+Message-Id: <164024759200.4833.16826192519331446507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/tags/damon/next-2021-12-23-09-13-on-v5.16-rc5-mmotm-assembled-by-sj-2021-12-14-10-15
-    old: 0000000000000000000000000000000000000000
-    new: 522d8067ddc037b14ee92b600e7accd502b49c40
+  - ref: refs/heads/spi-nor/next
+    old: e7ad9f59f746f07055c361bc3b32491448310b8f
+    new: 65b54ff67afab2754d61289ec59806d71c7dc0e8
+    log: |
+         65b54ff67afab2754d61289ec59806d71c7dc0e8 mtd: spi-nor: Constify part specific fixup hooks
+         
