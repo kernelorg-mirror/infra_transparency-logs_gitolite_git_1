@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6253969916189987159=="
+Content-Type: multipart/mixed; boundary="===============5778823344011296666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 23 Dec 2021 18:06:38 -0000
-Message-Id: <164028279885.8270.1946285706517358201@gitolite.kernel.org>
+Date: Thu, 23 Dec 2021 18:06:53 -0000
+Message-Id: <164028281385.8411.4209780436545905095@gitolite.kernel.org>
 
---===============6253969916189987159==
+--===============5778823344011296666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: bb53bcb2b104d9b175d0f8362e5fedcca38e6367
-    new: f2b551fad8d8f2ac5e1f810ad595298381e0b0c5
-    log: revlist-bb53bcb2b104-f2b551fad8d8.txt
+  - ref: refs/heads/dev-queue
+    old: f92adae898276e0ece098931f863b977856b6ec8
+    new: b55752036aa057dd75c06eeb2667ca16e4b137cb
+    log: revlist-f92adae89827-b55752036aa0.txt
 
---===============6253969916189987159==
+--===============5778823344011296666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb53bcb2b104-f2b551fad8d8.txt
+Content-Disposition: attachment; filename=revlist-f92adae89827-b55752036aa0.txt
 
 e42603af7eccc3df20b7423faade95799dc213db mt76: mt7915: get rid of mt7915_mcu_set_fixed_rate routine
 2363b6a646b65a207345b9a9024dff0eff3fec44 mt76: mt7921: drop offload_flags overwritten
@@ -163,9 +163,33 @@ f0337cb48f3bf5f0bbccc985d8a0a8c4aa4934b7 iwlwifi: mvm: fix AUX ROC removal
 c3c3e9a7d0b1a3aadad334e54331bb654004880c iwlwifi: yoyo: fix issue with new DBGI_SRAM region read.
 013f9e63553185f351ef5cd695bda2caba7758fc iwlwifi: mei: clear the ownership when the driver goes down
 bcbddc4f9d020a4a0b881cc065729c3aaeb28098 iwlwifi: mei: wait before mapping the shared area
+4809671015a1bd2e7ab811f8a998375cec10f54f ice: Fix E810 PTP reset flow
+78267d0c9cabf09e85559e7ac24e4c712d5eadad ice: introduce ice_base_incval function
+e59d75dd410eadf57fa4a6a374a480f6503355b5 ice: PTP: move setting of tstamp_config
+39b2810642e85f8191cc5494bc4019888ec57cbf ice: use 'int err' instead of 'int status' in ice_ptp_hw.c
+b2ee72565cd0ee24d2067e3de9094a14644493a8 ice: introduce ice_ptp_init_phc function
+405efa49b54bb3f769d00cfe6536820848db0648 ice: convert clk_freq capability into time_ref
+3a7496234d179a7dd6a7bb152f62422c3f38e15a ice: implement basic E822 PTP support
+b111ab5a11eb8f7261940c95ada9fbf5ca784731 ice: ensure the hardware Clock Generation Unit is configured
+a69f1cb62aecedddaec445aff28f095793b1c28c ice: exit bypass mode once hardware finishes timestamp calibration
+13a64f0b9894886b2c08ab84de209735abf5a789 ice: support crosstimestamping on E822 devices if supported
 bc11517bc8219314948780570ec92814d14d6602 Merge tag 'iwlwifi-next-for-kalle-2021-12-21-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 10d162b2ed395e69720926b4f8d87f1f25ca920f rtw88: 8822c: add ieee80211_ops::hw_scan
 8704d0befb59304eed60204e5524d5051de1d171 rtw88: support SAR via kernel common API
+47402385d0b18ba46c6bfc4cff073c9359571fe4 devlink: Add new "io_eq_size" generic device param
+0844fa5f7b8921e730d971adb5267002b6dd66a0 net/mlx5: Let user configure io_eq_size param
+0b5705ebc355e79b71bf946058acec6820e27869 devlink: Add new "event_eq_size" generic device param
+57ca767820ade09ee3e3c53bfeb5543ba7c00ab0 net/mlx5: Let user configure event_eq_size param
+0ad598d0be228aca56086ead4e164f7354cd3b57 devlink: Clarifies max_macs generic devlink param
+8680a60fc1fc19b5bcf50f6cfd9b5d08fc799926 net/mlx5: Let user configure max_macs generic param
+08ab0ff47bf72aa404e35247a48a7070b07fccbf net/mlx5: Remove the repeated declaration
+6c72cb05d4b877300cb23df32f7451bdc55d2940 net/mlx5e: Use bitmap field for profile features
+1958c2bddfa260f210c59f10a8ef41e08551aab1 net/mlx5e: Add profile indications for PTP and QOS HTB features
+0246a57ab5174ea6fe260e946900d5d3d5483dbf net/mlx5e: Save memory by using dynamic allocation in netdev priv
+473baf2e9e8c5b3240f443658e9b59dabba9eb9e net/mlx5e: Allow profile-specific limitation on max num of channels
+be98737a4faa3a0dc1781ced5bbf5c47865e29d7 net/mlx5e: Use dynamic per-channel allocations in stats
+fa691d0c9c0812b9045f3a9420862e47b3b92518 net/mlx5e: Allocate per-channel stats dynamically at first usage
+1f08917ab929a6939cb0c95d47f928db43f6d3c9 net/mlx5e: Take packet_merge params directly from the RX res struct
 9d364b828ae5c51ef732fea2830d278849ca8a3a ath10k: replace strlcpy with strscpy
 d943fdad7589653065be0e20aadc6dff37725ed4 ath11k: Fix napi related hang
 42da1cc7bd537ea63ddebf88aedcdafcccb00131 ath11k: add support of firmware logging for WCN6855
@@ -177,6 +201,118 @@ d943fdad7589653065be0e20aadc6dff37725ed4 ath11k: Fix napi related hang
 ec031ac4792c72d9e925313366df8064e092f685 wilc1000: Add reset/enable GPIO support to SPI driver
 f31ee3c0a5552f80cce12f11594df360adf302e0 wilc1000: Document enable-gpios and reset-gpios properties
 d430dffbe9dd30759f3c64b65bf85b0245c8d8ab mt76: mt7921: fix a possible race enabling/disabling runtime-pm
+2030eddced0ad5ee076bea370cf8714481d1f316 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+0092db5fac2284c1906072141b017eba6afe02c5 ice: trivial: fix odd indenting
+62a3106697f3c6f9af64a2cd0f9ff58552010dc8 net: broadcom: bcm4908enet: remove redundant variable bytes
+15fcb1031178f2a42425c2993b2ec7bb894c04d6 codel: remove unnecessary sock.h include
+e6e5904455815626b711c7d48cacd253f4d72f84 codel: remove unnecessary pkt_sched.h include
+5de24da1b3a5ffc121a36a7dfcebc76ef6b0d351 Merge tag 'mlx5-updates-2021-12-21' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+70ec72d5b6c25822184f7adf9ec3ba207138e7ff mlxsw: spectrum_flower: Make vlan_id limitation more specific
+0cd0b1f7a6e4e9b3b3ce62d6130af60259e103cd selftests: lib.sh: Add PING_COUNT to allow sending configurable amount of packets
+b07e9957f2207aa5965abe55578d6efb0d88460d selftests: forwarding: Add VxLAN tests with a VLAN-unaware bridge for IPv6
+728b35259e28b6e85b6dbae9caf944548cebc9c6 selftests: forwarding: Add VxLAN tests with a VLAN-aware bridge for IPv6
+dc498cdda0ce76527e276e504324de681482d48a selftests: forwarding: vxlan_bridge_1q: Remove unused function
+2902bae465c0aa718d18c72cceab95c7c2686afc selftests: forwarding: Add a test for VxLAN asymmetric routing with IPv6
+6c6ea78a116164f6672e05554ec32bed1b195432 selftests: forwarding: Add a test for VxLAN symmetric routing with IPv6
+bf0a8b9bf2c3e36923982943b26919467c281199 selftests: forwarding: Add Q-in-VNI test for IPv6
+e087cba11677217bf100888bc679d3013abffa5e Merge branch 'add-tests-for-vxlan-with-ipv6-underlay'
+3d3b2f57d4447e6e9f4096ad01d0e4129f7bc7e9 sctp: move hlist_node and hashent out of sctp_ep_common
+963178a06352a059c688eb36f1f8c2f03212b60b flow_offload: fix suspicious RCU usage when offloading tc action
+2e49761e4fd156d0be61810ad6958b5a57f7cc9e net: lan966x: Add support for multiple bridge flags
+e48cb313fde3e6f9434bb41c858d5c791d83f2d0 net: stmmac: add tc flower filter for EtherType matching
+30be4551f9e26292599e666985119a5b559a2e4a wwan: Replace kernel.h with the necessary inclusions
+8e059d64bee4a71064423ed34e04868cff478678 selftests: mlxsw: vxlan: Make the test more flexible for future use
+21d4282dc1b81249184525da1acdb308288a952c selftests: mlxsw: Add VxLAN configuration test for IPv6
+696285305b32f4fc1ddfb2d158ef4bbb6085ab92 selftests: mlxsw: vxlan_fdb_veto: Make the test more flexible for future use
+1c7b183dac8917f6329cc809ac61cdf9d3ce9f3f selftests: mlxsw: Add VxLAN FDB veto test for IPv6
+7ae23eddfa3e5c1d1892c19a50cfe52b4af300cf selftests: mlxsw: spectrum: Add a test for VxLAN flooding with IPv6
+d01724dd2a66087ac6b3c4b45e25d475be7dd2f4 selftests: mlxsw: spectrum-2: Add a test for VxLAN flooding with IPv6
+c777d726267c0a5ca9216a5f17ed12d67bc97c99 selftests: mlxsw: Add test for VxLAN related traps for IPv6
+810ef9552dece4e9bb3ef37d008dc2cf4b317dc6 selftests: mlxsw: devlink_trap_tunnel_vxlan: Fix 'decap_error' case
+bb53bcb2b104d9b175d0f8362e5fedcca38e6367 Merge branch 'mlxsw-tests'
 f2b551fad8d8f2ac5e1f810ad595298381e0b0c5 Merge tag 'wireless-drivers-next-2021-12-23' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/wireless-drivers-next
+bc7ceb2457a9d513a6de147b55226d31e37674e0 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+b9edaceb4fcc69b6653b4afeb57a225e343a8fd6 igc: Add UDP segmentation offload support
+551bfeedea6b66dcff4598669dd400184345c4ff i40e: Add ensurance of MacVlan resources for every trusted VF
+cf57cfa7bcb3b038adef370ad5e437dba3324af0 iavf: Fix limit of total number of queues to active queues of VF
+3351ae95bf224cb84c3aecd72fda30da65bff301 ice: Simplify tracking status of RDMA support
+ed78a6aef1999cdfaf7d46a00ff3a7efa26c552c ice: replay advanced rules after reset
+f3225dd6384410130d3e9fd70521a2365ecd9b8f ice: improve switchdev's slow-path
+12f5df990061e93b94fd912e77a1d8e8d2dcd2fe igb: move SDP config initialization to separate function
+30e2e2dde92a6b443dc592a798938bcf965f93bb igb: move PEROUT and EXTTS isr logic to separate functions
+5bd29813e4644c17f0b0245af70a920c669fb674 igb: support PEROUT on 82580/i354/i350
+fb10038103cb1755af9f5c3c15b1fd0889896bbe igb: support EXTTS on 82580/i354/i350
+dad738a5f2edb6c36691842249e65c0ed0d0777a i40e: Increase delay to 1 s after global EMP reset
+875a0375723590f4ddc06eaddd98169ce59532b6 i40e: Fix issue when maximum queues is exceeded
+5fd33631067022ce30032afa43a7e2e4986b63d8 i40e: Add placeholder for ndo set VLANs
+ae823ebfbbf8e85452c642df541e3733814fba89 i40e: Refactor VF queue requesting
+0067fe888748034dc689c95e46db424b6d33f72a i40e: Minimize amount of busy-waiting during AQ send
+f74995560f509251729849a37646f6bec7dcb144 ice: Slightly simply ice_find_free_recp_res_idx
+6ab1a284784cd12d59aadd83eb2391c49dcc6d6d ice: add TTY for GNSS module for E810T device
+d431956988002d421c6ef12990d6f72c650abb92 i40e: Update FW API version
+761976d3df4c70a50a6684b68fafbec25aad7ae3 ice: xsk: return xsk buffers back to pool when cleaning the ring
+bf2c79ef4a3f9cf410ab42da43b121e5f72ea6f1 ice: xsk: allocate separate memory for XDP SW ring
+824928cb46a1495045e3d2fe7804fa09aeb95d19 ice: remove dead store on XSK hotpath
+14f6ef5fdc09960c747b13c8f630199a440d5e93 ice: xsk: do not clear status_error0 for ntu + nb_buffs descriptor
+9c3d35a03d81db64ef49b254d25b589d928379ee ice: xsk: allow empty Rx descriptors on XSK ZC data path
+730bf0ac7fa6e1711fbc27639406f8bc7b8c8c09 ice: xsk: fix cleaned_count setting
+63e1fb5e6cc8adae2394b19f01c670cb82241ff7 e1000: switch to napi_consume_skb()
+74ca662f0a607ca5a380bc85e384ee15ee5a4868 e1000: switch to napi_build_skb()
+c59eb3225e4555d838e1f7867f00cd17d6e17b09 i40e: switch to napi_build_skb()
+8dbfce1836de249d96b6e2007be05acefd46ae3e iavf: switch to napi_build_skb()
+cd5514cce52cf5d5470898d8fd446bed3e2d5715 ice: switch to napi_build_skb()
+29fe3f549138c6b4123ea65a57a1637993328480 igb: switch to napi_build_skb()
+bcdbcbd12f78cdc862f27ab1080b52a715e226c5 igc: switch to napi_build_skb()
+71caed25f99d9c5dd97ddcd5966384b94d09ec55 ixgbe: switch to napi_build_skb()
+22ea337ea25988974fa04e31481e202cbe9dc5c7 ixgbevf: switch to napi_build_skb()
+3affd251cf05ec0854561cb948eee6a1df3fcbc9 ice: add support for DSCP QoS for IDC
+c6d63f7d939e58cb31e83824ddc39bea6b1caf0e i40e: Fix queues reservation for XDP
+e6b921d0155b0c24cef8294ab3157090f649c1bc ice: Refactor spoofcheck configuration functions
+92101c3ed0440473aeeff08d44e96719c1c61389 ice: Add helper function for adding VLAN 0
+56ac0f192b141db9f5c1f5b0d98c9acb7577b3dc ice: Add new VSI VLAN ops
+eafc4ba93340f3611e5e011101baed6018a8eb4d ice: Introduce ice_vlan struct
+a297a502cf33f4810fa226503883f8c8f7c88443 ice: Refactor vf->port_vlan_info to use ice_vlan
+3a5daa1d2ca9b2eaee1472ccfe6edfceca36f88f ice: Use the proto argument for VLAN ops
+8cbd012e69cc62e850819f10d1729ca535368890 ice: Adjust naming for inner VLAN operations
+f77063f314f11516c40400abb09cb9c5873698f2 ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+742f9083cdef0ee1cfb2d322512cc67ef38d1405 ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+7e22a3382c3685989552b1558fb8dd6273bfb9e0 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+ab2b207b5c6adced69da9c2500e154fad210d772 ice: Support configuring the device to Double VLAN Mode
+5c89a69fb137c535f32283398f84f774c0a3122f ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+5acd7d138cedd5389903cb15b0172d5c8507e1e2 ice: Add support for 802.1ad port VLANs VF
+b7293bdf409fd24900e8548ecbddc766fd13acc1 ice: Add ability for PF admin to enable VF VLAN pruning
+c587b37153bbe8851cdc1fd2f8356c6b03082780 i40e: Fix for failed to init adminq while VF reset
+5b0b674626eb4bc20f7af6cc1b9af18d455e06e0 i40e: remove dead stores on XSK hotpath
+9bb99b47c846d3e0f31318c12554d4eec43c9144 i40e: fix use-after-free in i40e_sync_filters_subtask()
+b8d224d5ce4e8f6211c8654caf87940dea89d656 igb: fix deadlock caused by taking RTNL in RPM resume path
+d53edb0b1f005bb88ee64be61501e2466f136f50 i40e: Remove non-inclusive language
+e9fb32088ef771bc83850da0409ff60c705de45a e1000e: Separate ADP board type from TGP
+6e35ddf8b47e67991046488f4589b0f62f95aa57 e1000e: Handshake with CSME starts from ADL platforms
+ea5e0d809aae81067e18be1d78ee0afbcd279449 i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+402dd672f56f02d40be8f65f7237641c1ebf5faa i40e: respect metadata on XSK Rx to skb
+9d59767318902955429aecfac602470ed57fb23d ice: respect metadata in legacy-rx/ice_construct_skb()
+44e3c64e9a0cc87e31155475aab5c59f232c9b1d ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+70471b615ef6301282169fd063e2437d95b83cd5 ice: respect metadata on XSK Rx to skb
+f54e2991d3127d9cbdd01ca8ae0d975d433aabd4 igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+1d8eb3a8f8e45d4c5d8fc10460f01b9498c10082 ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
+78afcc49f98a7337c1d17a156e72d4d16df6b177 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+48ab5d6b7205b86866647deab7088c126e597db0 ixgbe: respect metadata on XSK Rx to skb
+b4fc46ec0e5e35bf7b418d511ca8f01be4fd9feb i40e: fix unsigned stat widths
+53896b904096f31a63ed97e15a4a99c9b13492bf i40e: Fix for displaying message regarding NVM version
+c1d0e2c64d7a7d62923dc7643d11c6896ecf3fc8 iavf: remove an unneeded variable
+3d5e51074d67651a0174cf37f5b9133195b2670f ice: Add flow director support for channel mode
+28b09235e1875d6c44e9949a093680c9ff09ad49 igc: Do not enable crosstimestamping for i225-V models
+e6d2ec8d39e24adb3a1257eb25fca1febb652c4e i40e: Fix reset bw limit when DCB enabled with 1 TC
+6a053a71e96a4011c0347a4a5eb22d60b4b4c631 Fix the timeliness of stats after deleting tc
+cdfcd5ac18a73b80ed42975bbcd723ae1e2cfd2f iavf: Remove extra cancel_delayed_work_sync() call
+86f578243a74b7a4eb45c0ed5ab9ef68e379471b i40e: Fix incorrect netdev's real number of RX/TX queues
+b39bc0bd3570dc0edc0c254a3d74c6a2bbeac75d igc: Fix TX timestamp support for non-MSI-X platforms
+9e07ce4be0aca8a5e2b7ee14805e305c4981bfa6 i40e: remove variables set but not used
+f343562dc726de133c03449f97d44175b1f96130 ice: Match on all profiles in slow-path
+1096a8007310943d5707ed8a1d81c7794ba8098e i40e: Remove rx page reuse double count.
+01a5a7d32ea1de3cdddd36ee04fef516a1b8e0b4 i40e: Aggregate and export RX page reuse stat.
+159c02eac07e87dc7fc745c91c0884e817fa3b91 i40e: Add a stat tracking new RX page allocations.
+c35b1ff6d4330c3c6644765d5628b172f2cb6a9c i40e: Add a stat for tracking pages waived
+b55752036aa057dd75c06eeb2667ca16e4b137cb i40e: Add a stat for tracking busy rx pages
 
---===============6253969916189987159==--
+--===============5778823344011296666==--
