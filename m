@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 23 Dec 2021 16:32:08 -0000
-Message-Id: <164027712886.16695.14244926820544797208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 23 Dec 2021 16:33:59 -0000
+Message-Id: <164027723942.17325.4293942546749464839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/fixes
-    old: eb66fb03a727cde0ab9b1a3858de55c26f3007da
-    new: 4f6c131c3c31b9f68470ebd01320d5403d8719bb
+  - ref: refs/heads/master
+    old: 1825fd7ab7ece6efa8131296a34336dc775e0728
+    new: 7c30fc2cbf087d42c59bb1c773bcb3c60c52d0dc
     log: |
-         c4499272566d677075c6a84f46baeb826a6a7182 platform/x86: system76_acpi: Guard System76 EC specific functionality
-         4f6c131c3c31b9f68470ebd01320d5403d8719bb platform/x86/intel: Remove X86_PLATFORM_DRIVERS_INTEL
+         60366346fb37dce59007fafe4b359df25e27d1e8 handshake: Do not leak vendor_ies
+         7c30fc2cbf087d42c59bb1c773bcb3c60c52d0dc netdev: do not leak auth_cmd
          
