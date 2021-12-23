@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8219591737169747118=="
+Content-Type: multipart/mixed; boundary="===============0323498190262970046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 23 Dec 2021 04:38:55 -0000
-Message-Id: <164023433579.4897.12420864115293427982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Thu, 23 Dec 2021 05:08:14 -0000
+Message-Id: <164023609472.22299.7988981981822292816@gitolite.kernel.org>
 
---===============8219591737169747118==
+--===============0323498190262970046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/mlx5-fixes-2021-12-22
-    old: e7f702539e89a43363cd39d2800e04fc0a1bd45b
-    new: 1bb3b7dff58665c47d63b08a3f9dceaaa11a8902
-    log: revlist-e7f702539e89-1bb3b7dff586.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: f064a7b04fff00a67af248aaf948bf762ff3ccf9
+    new: 89d36fee2e95d9003ad1d2beec3164c4ad7de833
+    log: |
+         1b8d0300a3e9f216ae4901bab886db7299899ec6 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+         142c779d05d1fef75134c3cb63f52ccbc96d9e1f scsi: vmw_pvscsi: Set residual data length conditionally
+         
 
---===============8219591737169747118==
+--===============0323498190262970046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7f702539e89-1bb3b7dff586.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6b8b42585886c59a008015083282aae434349094 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-624bf42c2e3930acca9fcfc340b2fa38e712da84 net/mlx5: DR, Fix querying eswitch manager vport for ECPF
-26a7993c93a74a3fee83a37b46e00e69e49e57c2 net/mlx5: Use first online CPU instead of hard coded CPU
-aa968f922039706f6d13e8870b49e424d0a8d9ad net/mlx5: Fix error print in case of IRQ request failed
-33de865f7bce3968676e43b0182af0a2dd359dae net/mlx5: Fix SF health recovery flow
-d671e109bd8548d067b27e39e183a484430bf102 net/mlx5: Fix tc max supported prio for nic mode
-918fc3855a6507a200e9cf22c20be852c0982687 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-a0cb909644c36230a3c48904d14b91732de79fc0 net/mlx5e: Fix skb memory leak when TC classifier action offloads are disabled
-17958d7cd731b977ae7d4af38d891c3a1235b5f1 net/mlx5e: Fix interoperability between XSK and ICOSQ recovery flow
-19c4aba2d4e23997061fb11aed8a3e41334bfa14 net/mlx5e: Fix ICOSQ recovery flow for XSK
-2820110d945923ab2f4901753e4ccbb2a506fa8e net/mlx5e: Delete forward rule for ct or sample action
-4390c6edc0fb390e699d0f886f45575dfeafeb4b net/mlx5: Fix some error handling paths in 'mlx5e_tc_add_fdb_flow()'
+certificate version 0.1
+pusher 75C5DE3D 1640236086 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1640236086-786199563382cbaa6335c5c8bfdb9cb74d7d479e
 
---===============8219591737169747118==--
+f064a7b04fff00a67af248aaf948bf762ff3ccf9 89d36fee2e95d9003ad1d2beec3164c4ad7de833 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHEBDYACgkQ7ulgGnXF
+3j1euw/9FBulSqON8YFDjOxVNMZn7wauS6Pj2Oc19sSCKwLr9Cy3vciJ1cRFi79/
+Mn7r31Gl+HoqP4K8XUaWH3NpgDjr6thCadhN/px0GhPI7DH7ulUU4MECh5p5IHBW
+M/AS3b1IwcvU11jX6D5Bu1o5LfgNBd2aUgvsmM8iFFwhaUP79SD30PKJ/ovBJRFT
+QrJ4GlBej0mqWLvO0sp9BbApa5L3agePXSXPQXHUePexS1r0v8LrvbjvRnYnTp4y
+JeaOOcKv9GtVwdtrLsGLKmXLa/wW3H0578eWcH9GQdAfsdtKpg8IWOACKCzYAUXS
+fH4BxPc8xw4vPR0P4xugg/Ah4/WNkBhplKesBgP9UaZRTzV86/LXi8DvS1h+LSPX
+4EJ/nTda6wGeCYinqFtHhpqf2dvu5WMGkrKOlMTJ/pchXSItiyMKdTTdZ6Vkp165
+IeZdXr2W2Wk4rI6SAAJZP1WHTeXb//eYwdvpk3/2Ypy89o/PkS6pHvg3vty55yZQ
+c6/d60SAoJJBODYPIXrTkcycmu6rYnJ4Oc3uzBSWytsYJOuXQ6spgkN71HFVCBJF
+UHvosCi7y3Epfx079Qliyff2S40hj/jXAHlKam1PY7EHp4qhnJo831K8Yh4afqYB
++YEcy8S+Tbw473yAZBEWLmtsnUEmCCmGaY1krh5x8CDISfg1kbM=
+=vN6j
+-----END PGP SIGNATURE-----
+
+--===============0323498190262970046==--
