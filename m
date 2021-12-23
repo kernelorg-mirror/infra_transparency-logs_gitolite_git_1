@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 23 Dec 2021 08:19:52 -0000
-Message-Id: <164024759200.4833.16826192519331446507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Thu, 23 Dec 2021 08:34:42 -0000
+Message-Id: <164024848261.13468.11056226861890473597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: tudor.ambarus
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: e7ad9f59f746f07055c361bc3b32491448310b8f
-    new: 65b54ff67afab2754d61289ec59806d71c7dc0e8
+  - ref: refs/heads/testing
+    old: ac1077e92825bb0ffeee8550a41771df772214ce
+    new: 4e484b3e969b52effd95c17f7a86f39208b2ccf4
     log: |
-         65b54ff67afab2754d61289ec59806d71c7dc0e8 mtd: spi-nor: Constify part specific fixup hooks
+         af734a26a1a95a9fda51f2abb0c22a7efcafd5ca xfrm: update SA curlft.use_time
+         e6911affa416dc4e0c0b3f04cbe6b02ce13277f1 xfrm: Add support for SM3 secure hash
+         23b6a6df94c6ce434e7947cfad14b1640fb9f794 xfrm: Add support for SM4 symmetric cipher algorithm
+         4e484b3e969b52effd95c17f7a86f39208b2ccf4 xfrm: rate limit SA mapping change message to user space
          
