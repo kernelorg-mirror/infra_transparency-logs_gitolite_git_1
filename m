@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 23 Dec 2021 01:43:48 -0000
-Message-Id: <164022382873.31278.15804822184363648773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 23 Dec 2021 02:15:57 -0000
+Message-Id: <164022575735.18530.3715729295984197223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/seen
-    old: aa89cfe53e4c453c39f20d81244c480e4484101d
-    new: b7fc186a03e23bcdc72d4cff765226992da1bc1d
+  - ref: refs/heads/sched/headers
+    old: 188891f2235a2acef9635d9d7e61c763bd9552f5
+    new: 729271099ab38d1c50d8630ab09dc8cde52f9a1d
     log: |
-         3f1818feb16b0b5b1af8d1179832d4aab367c8cd Merge branch 'gc/fetch-negotiate-only-early-return' into seen
-         4651550867d086eea327d32ea1ddf20c728b9676 Merge branch 'bs/forbid-i18n-of-protocol-token-in-fetch-pack' into seen
-         b7fc186a03e23bcdc72d4cff765226992da1bc1d Merge branch 'ab/reflog-prep' into seen
+         afaaa190c39b2d9bfe60c5a8349ac0183dd63242 FIX: 58f1a5f4cc41 headers/deps: mm: Move the minimal KASAN API bits to <linux/mm_api_kasan.h>
+         583c2f04a0e48d67c3ddc64cc91e881a4bdbb49e headers/deps: Add header dependencies to .c files: <linux/bitfield.h>
+         729271099ab38d1c50d8630ab09dc8cde52f9a1d FIX: 473fb48b7c64 headers/deps: net: Optimize <net/snmp.h> dependencies, remove <linux/u64_stats_sync_api.h> inclusion on 64-bit kernels
          
