@@ -1,107 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============2246785035430888864=="
+Content-Type: multipart/mixed; boundary="===============2971600110870230074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 23 Dec 2021 05:09:51 -0000
-Message-Id: <164023619125.23366.4391783586977077277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
+Date: Thu, 23 Dec 2021 05:23:18 -0000
+Message-Id: <164023699850.31591.2664987313436783267@gitolite.kernel.org>
 
---===============2246785035430888864==
+--===============2971600110870230074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andrea/aa
+user: andrea
 changes:
-  - ref: refs/heads/for-next
-    old: 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d
-    new: c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37
-    log: revlist-4be6181fea1d-c77b1f8a8fae.txt
+  - ref: refs/heads/mapcount_unshare
+    old: d5e024703dbabcc29f54611e6c4d1426917b7c9c
+    new: 3806652e46f6561c747771871ab666c81c40d2c8
+    log: revlist-d5e024703dba-3806652e46f6.txt
 
---===============2246785035430888864==
+--===============2971600110870230074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d5e024703dba-3806652e46f6.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1640236184 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1640236183-aecac24a4edf20be7d93d3055061248a863fde43
+34f35f8f14bc406efc06ee4ff73202c6fd245d15 ipmi: ssif: initialize ssif_info->client early
+04e57a2d952bbd34bc45744e72be3eecdc344294 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
+f702e1107601230eec707739038a89018ea3468d tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
+27750a315aba7e6675bb1c3dfd4481c4f6888af1 crypto: qat - do not handle PFVF sources for qat_4xxx
+544e737dea5ad1a457f25dbddf68761ff25e028b PM: sleep: Fix error handling in dpm_prepare()
+2b5160b12091285c5aca45980f100a9294af7b04 ipmi: bail out if init_srcu_struct fails
+75d70d76cb7b927cace2cb34265d68ebb3306b13 ipmi: fix initialization when workqueue allocation fails
+53b1119a6e5028b125f431a0116ba73510d82a72 NFSD: Fix READDIR buffer overflow
+9fb12fe5b93b94b9e607509ba461e17f4cc6a264 KVM: x86: remove PMU FIXED_CTR3 from msrs_to_save_all
+93a2207c254ca102ebbdae47b00f19bbfbfa7ecd HID: holtek: fix mouse probing
+13251ce1dd9bb525da2becb9b26fdfb94ca58659 HID: potential dereference of null pointer
+3a0f64de479cae75effb630a2e0a237ca0d0623c KVM: x86/mmu: Don't advance iterator after restart due to yielding
+c5063551bfcae4e48fec890b7bf369598b77526b KVM: x86: Always set kvm_run->if_flag
+577e022b7b41854911dcfb03678d8d2b930e8a3f selftests: KVM: Fix non-x86 compiling
+a80dfc025924024d2c61a4c1b8ef62b2fce76a04 KVM: VMX: Always clear vmx->fail on emulation_required
+cd0e615c49e5e5d69885af9ac3b4fa7bb3387f58 KVM: nVMX: Synthesize TRIPLE_FAULT for L2 if emulation is required
+0ff29701ffad9a5d5a24344d8b09f3af7b96ffda KVM: VMX: Fix stale docs for kvm-intel.emulate_invalid_guest_state
+ab1ef34416a65ba11f66ae6435fcf0251cb46fd4 KVM: selftests: Add test to verify TRIPLE_FAULT on invalid L2 guest state
+484730e5862f6b872dca13840bed40fd7c60fa26 parisc: Clear stale IIR value on instruction access rights trap
+ffb76a86f8096a8206be03b14adda6092e18e275 ipmi: Fix UAF when uninstall ipmi_si and ipmi_msghandler module
+1c3e979bf3e225e5b4b810b24712b16254d608b6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+fdba608f15e2427419997b0898750a49a735afcb KVM: VMX: Wake vCPU when delivering posted IRQ even if vCPU == this vCPU
+5dbdc4c565e31a3b9899f55bc6dc5f840276a04e Merge tag 'nfsd-5.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+8f66fce0f46560b9e910787ff7ad0974441c4f9c parisc: Correct completer in lws start
+d3a5a68cff47f6eead84504c3c28376b85053242 parisc: Fix mask used to select futex spinlock
+ca0ea8a60b40ecde7362ce295408c5038599f5d0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+2f47a9a4dfa3674fad19a49b40c5103a9a8e1589 Merge tag 'pm-5.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+aacb2016063dfa6da9378d76734cd9dc1e977619 parisc: remove ARCH_DEFCONFIG
+d7f55471db2719629f773c2d6b5742a69595bfd3 memblock: fix memblock_phys_alloc() section mismatch error
+e19e226345196649e83d49c6997e806a8ecdafe6 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+c9ea870c6e33fcc242f7c3b421fb3d4cf04e5788 Merge tag 'tomoyo-pr-20211222' of git://git.osdn.net/gitroot/tomoyo/tomoyo-test1
+074004058094a07f784c8162153fa44c1e05596b Merge tag 'for-linus-5.16-3' of git://github.com/cminyard/linux-ipmi
+3f066e882bf1373db023ada606e0dca1af375d9b Merge tag 'for-5.16/parisc-7' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+bc491fb12513e79702c6f936c838f792b5389129 Merge tag 'fixes-2021-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+2ad62cd0ddf7cc0e07ddb900c7ad9819776bcbce extraversion
+24318fc07f87b0e16ea42699bbdf08863ab58c4b mm: thp: consolidate mapcount logic on THP split
+9ba6ad89c2c52b95973e656ef763941664cbaf85 mm: thp: make the THP mapcount atomic with a seqlock
+58cede02083adc88f1b34abc91fdfb61595f0629 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+6071365628bd1dd31179656a8b78ac6a23cf80f2 mm: thp: introduce page_trans_huge_anon_shared
+2e57464ecaadd3f6d7b2e4872fd199e4e84780f2 mm: gup: COR: copy-on-read fault
+47c33965d5b76b1c0a054d4ae086305b55644690 mm: gup: gup_must_unshare()
+404767056b4b0e2a72e660694ada1af467dc93f1 mm: gup: gup_must_unshare() use can_read_pin_swap_page()
+a687f6e776a9498f0540e4e3bc31afde8893382b mm: gup: FOLL_UNSHARE
+3f86f7ffdf737bc3c3c6d03bae1c0abfd9a22b97 mm: gup: FOLL_NOUNSHARE: optimize follow_page
+f0d9aef2deda576277bdcdcc24f23072ede7adab mm: hugetlbfs: COR: copy-on-read fault
+7369967adeab03bb310bd581fb1b8824a02b0cf0 mm: hugetlbfs: FOLL_FAULT_UNSHARE
+46646f6e2608894226a8baa1fc01794c00ee861e mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+8d53c6d990360d9c82de8ec60d6ed39388b44b9a mm: COW: skip the page lock in the COW copy path
+3f6be53f20fab701bf361cfd5ecd8c505ee5ad26 mm: thp: replace the page lock with the seqlock for the THP mapcount
+d4a1e59286b7d98cd47d316515bc7f6c303d3736 mm: COW: restore full accuracy in page reuse
+dcb0e2e5576ba692e5289c038268bbf796b5ca4b mm: COW/COR: de-dup the lock page locking
+0bac32bb817eeb607781c875bdc9b651de7dac0b mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+1ab7e4af4f2a217ae1b1c787726a2a2b51baaba8 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: enable COR on PageKsm
+9c6bfdc9c10f0c00fc4120645f01c4d3133b3a45 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
+a4828f7238331a694ad5428089495d20e1c8ed30 mm: gup: FOLL_UNSHARE|FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+953e4cd08e8ac795cc9b641737b58141fc83cd48 mm: gup: document FOLL_MM_SYNC
+21c81b9328365d0fcfbf3eca1297c448e4887b74 mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+5432b50adf3dc14da379fa0cfe51005576cddb4f mm: cacheline alignment for page_table_lock and mmap_lock
+dbddbcd292d909bbf4215657d2bd8b32c47a3e1d mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+d80b1e6e1f9b9c876b41090de946879a3c32bde4 mm: thp: optimize total_mapcount() with head_compound_mapcount
+2f634805672017dad61759c7e1100d095272ff72 mm: thp: cleanup and optimize compound_nr
+3346c14187913954a0e50d0069b231b55568a6af mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+3806652e46f6561c747771871ab666c81c40d2c8 mm: gup: FOLL_UNSHARE and COR fault
 
-4be6181fea1dbfd21a8d73f69d87a6cae2d3023d c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHEBJgACgkQ7ulgGnXF
-3j1vqxAAqc54wx3Z9LGaWivetvwMj/kxIJmS5/3kd0d82O4QpfJ9z3onVH5bW0Hj
-6cd245Cy/0cSoHeoqZ72IXzv4+veJHRi4222YY1E2dBDkdEIS89tWBHO61dCi6br
-0F6qTgsKX5PBrJTvWA6N0+M1yhpTeyUPj+iPF7is5w7m24d+sum/62XOWTgtQYHV
-883/mL2uK7fAqvPQjsZkAVfrePwP/BZo6ghYSZ6k2jJIM+r+lb2q6qtexEQFGWjK
-VIVvwUWPbCz9O/OTR6mJF9TlO+5LTzgZ/NHCJMF+/dHQGqeYgRKf2JzTbHdEUMUR
-FGmsdN53j4sOLxNAlWTvsJafSov5Kfg2vkHiVzgHzY2/MpCnDIzRnN/GR5PISA4A
-m9c9fdP+mT8ab7L+6brf7XCHqF+nvZVni9m3zkw0nPupitSuAXDF7jfuVRdu4PdY
-1saD/2kdKm1UbFF3VuZXEfqtPFYdq6BIY8f5QV4r9onyi76B5sTPl6tejBJJG1EY
-CBUudb1T+Kd2yL7oX6w8o7z8yrpptnasm8MBIZC2+Iz6WiLnmEddNfEQno/LKK18
-1SKp+Sk+tpckaHKzOBbUkSOH+22PkUmhhYQ/TnDrNFIYy7kLsMOT39o0gjXPq/Eg
-u/p4Jsl5BV89TpkpkcvVrqZAlmISwIx1jvvrAm6CRt+CEtU4ch0=
-=7CW1
------END PGP SIGNATURE-----
-
---===============2246785035430888864==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4be6181fea1d-c77b1f8a8fae.txt
-
-fbefe22811c3140a686e407e114789ebf328a9a2 scsi: libsas: Don't always drain event workqueue for HA resume
-6cc739087784160eff296c7fbd7a95b209f44ba5 scsi: Revert "scsi: hisi_sas: Filter out new PHY up events during suspend"
-6e1fcab00a23f7fe9f4fe9704905a790efa1eeab scsi: block: pm: Always set request queue runtime active in blk_post_runtime_resume()
-42159d3c8d879e8d5fc225733f0cedc8baf19002 scsi: libsas: Add spin_lock/unlock() to protect asd_sas_port->phy_list
-29e2bac87421c613782ccb510c76c5efbecac0cf scsi: hisi_sas: Fix some issues related to asd_sas_port->phy_list
-133b688b2d03f7ae2a6c9d344f92c1949ec05a51 scsi: mvsas: Add spin_lock/unlock() to protect asd_sas_port->phy_list
-e31e18128eb9dbcda8c169cb33421ae4813afa71 scsi: libsas: Insert PORTE_BROADCAST_RCVD event for resuming host
-97f4100939844a6381ba61b99d6d2b1f2fccb79f scsi: hisi_sas: Add more logs for runtime suspend/resume
-0da7ca4c4fd95d70d473dc07488ad94ba3ee9b82 scsi: libsas: Resume host while sending SMP I/Os
-4ea775abbb5c50c26edbf043d5a2ae7fde407f4a scsi: libsas: Add flag SAS_HA_RESUMING
-1bc35475c6bf6d078b3800e516978f37c1ecda36 scsi: libsas: Refactor sas_queue_deferred_work()
-bf19aea4607cb5f4a652ab70d8d8035a72a6b8da scsi: libsas: Defer works of new phys during suspend
-ae9b69e85eb7ecb32ddce7c04a10a3c69ad60e52 scsi: hisi_sas: Keep controller active between ISR of phyup and the event being processed
-307d9f49cce966c2ba969f58bd6227bc0092afaa scsi: libsas: Keep host active while processing events
-b4cc09492263e07bad4fc4bf34fed3246fa95057 scsi: hisi_sas: Use autosuspend for the host controller
-bc7806b39589f4960d7f583c2381edf2300be48c scsi: ch: Don't use GFP_DMA
-d94d94969a4ba07a43d62429c60372320519c391 scsi: sr: Don't use GFP_DMA
-c981e9e0f823a8300569c04e59f78c5faa52ada5 scsi: initio: Don't use GFP_DMA in initio_probe_one()
-27363ba89f3472c39737e0bc34f75c5728e1cffb scsi: myrb: Don't use GFP_DMA in myrb_pdev_slave_alloc()
-0298b7daf8091f895d20a1b512cba6ab4af5aca9 scsi: myrs: Don't use GFP_DMA
-1964777e107a7125fb0753a27cdede213d05248c scsi: snic: Don't use GFP_DMA in snic_queue_report_tgt_req()
-657b44d651eb284443d62895d9d47897729ef35a scsi: pmcraid: Don't use GFP_DMA in pmcraid_alloc_sglist()
-9cf0666f34b1991d73db8b19dc53387724aaefae scsi: mpi3mr: Add debug APIs based on logging_level bits
-a83ec831b24a8142e0871544b19ee5671607588e scsi: mpi3mr: Replace spin_lock() with spin_lock_irqsave()
-fbaa9aa48bb43a021847195704c10908ded3c2ba scsi: mpi3mr: Don't reset IOC if cmnds flush with reset status
-d00ff7c31195e2f5098b2c034f547a83c30b8adb scsi: mpi3mr: Update MPI3 headers - part1
-ec5ebd2c14a9123c0a8e2ae29202adf0ac242565 scsi: mpi3mr: Update MPI3 headers - part2
-17d6b9cf89cfdb5a52298bb4abe7f1621f92ba93 scsi: mpi3mr: Add support for PCIe Managed Switch SES device
-ba68779a518d9ebe734c1fca9f5e199826723b5b scsi: mpi3mr: Do access status validation before adding devices
-4f08b9637f639fed9c36fde4e238274c47ca5f53 scsi: mpi3mr: Increase internal cmnds timeout to 60s
-13fd7b1555b6c1121c0f823bbfa3ee36e178df44 scsi: mpi3mr: Handle unaligned PLL in unmap cmnds
-2ac794baaec97c70faf17b56fba4adefd6b7ba3a scsi: mpi3mr: Display IOC firmware package version
-a6856cc4507be044497fcde48aa3d33e900cbc45 scsi: mpi3mr: Fault IOC when internal command gets timeout
-e3605f65ef69f399aaade423f19f6db6eb3c11cb scsi: mpi3mr: Code refactor of IOC init - part1
-59bd9cfe3fa07234e34cc2406e97481b3398c2d6 scsi: mpi3mr: Code refactor of IOC init - part2
-fe6db615156573d3f6a37564b8a590cb03bbaf25 scsi: mpi3mr: Handle offline FW activation in graceful manner
-c0b00a931e5e5fc143ed5563389ef72e40de9814 scsi: mpi3mr: Add IOC reinit function
-b64845a7d4039ab9667bafff9d7bb59365f17c0f scsi: mpi3mr: Detect async reset that occurred in firmware
-c5758fc72b9256aae85f5565f5715a3798d337e0 scsi: mpi3mr: Gracefully handle online FW update operation
-c1af985d27da2d530c22604644e9025810f57d7c scsi: mpi3mr: Add Event acknowledgment logic
-78b76a0768ef8a25ab92a28da4ac9a74db762c47 scsi: mpi3mr: Support Prepare for Reset event
-95cca8d5542a4cde0d3dd685f4108295ca28b63d scsi: mpi3mr: Print cable mngnt and temp threshold events
-afd3a5793fe2a217513bc5eb2228a5ca8e8b556a scsi: mpi3mr: Add io_uring interface support in I/O-polled mode
-c86651345ca55be6670faffa4aba104616461243 scsi: mpi3mr: Use TM response codes from MPI3 headers
-a91603a5d504a81b5760aa4e25a46676a41395fc scsi: mpi3mr: Enhanced Task Management Support Reply handling
-243bcc8efdb1f44b1a1d415e6821a246714c68ce scsi: mpi3mr: Fixes around reply request queues
-c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 scsi: mpi3mr: Bump driver version to 8.0.0.61.0
-
---===============2246785035430888864==--
+--===============2971600110870230074==--
