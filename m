@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Thu, 23 Dec 2021 10:35:16 -0000
-Message-Id: <164025571681.2094.6008084053494677474@gitolite.kernel.org>
+Date: Thu, 23 Dec 2021 10:37:40 -0000
+Message-Id: <164025586032.2861.5031520225338342714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,42 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/tags/v5.14-rc6
-    old: 0958b0b45a7419c681d581384a094b94af5469c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.14-rc7
-    old: 53371b959e5823998cd617e74b585e7d328f5840
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2
-    old: 14817899749faa879ecbeda203c73138c4d65e79
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc1
-    old: 311e1ea1b63dc428575270b9d4801e3e6f96457b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc2
-    old: ba4529a907755b8810bec37ba26a43fe8d9ac1b4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc3
-    old: 98af7fc496808efe10b304e6c817ea300f8fb56b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc4
-    old: a09f513e2ab90f4f5636f024dd2222763b98a5b1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc5
-    old: 34781703e15434b965474c4b669b2eb603f3778f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc6
-    old: ef2678862915da4aa7bb2dd8c9608859b358fc9a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.2-rc7
-    old: dde2fa21d081aa5152511f1b70d53dfa0bdc0556
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.3
-    old: 4dba490412e7f6c9f17a0afcf7b08f110817b004
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.3-rc1
-    old: cc8d7c0499f1b15ae71a54981dd1b441888b0e08
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v5.3-rc2
-    old: d450c62c027d1e6c171e3ac86011c226e396d2cf
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 50ddcdb2635c82e195a2557341d759c5b9419bf1
+    new: e368cd72880360ffe9b298349ae96286dd121499
+    log: |
+         e368cd72880360ffe9b298349ae96286dd121499 Documentation: livepatch: Add livepatch API page
+         
