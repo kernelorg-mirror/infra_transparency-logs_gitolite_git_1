@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8918683280240964325=="
+Content-Type: multipart/mixed; boundary="===============5491245989463104643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 24 Dec 2021 18:42:17 -0000
-Message-Id: <164037133708.30752.11045190258188197739@gitolite.kernel.org>
+Date: Fri, 24 Dec 2021 18:59:47 -0000
+Message-Id: <164037238786.8120.4740877801104326013@gitolite.kernel.org>
 
---===============8918683280240964325==
+--===============5491245989463104643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: f4f2970dfd87e5132c436e6125148914596a9863
     new: 7467d716583eec12ae84a33fb1fb27d22333fc64
     log: revlist-f4f2970dfd87-7467d716583e.txt
 
---===============8918683280240964325==
+--===============5491245989463104643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -284,4 +284,4 @@ b24edca309535c2d9af86aab95d64065f6ef1d26 r8152: sync ocp base
 24d8a9001a91716d9399d1606b32ec27e9f6d125 net: wan/lmc: fix spelling of "its"
 7467d716583eec12ae84a33fb1fb27d22333fc64 net: phy: micrel: Add config_init for LAN8814
 
---===============8918683280240964325==--
+--===============5491245989463104643==--
