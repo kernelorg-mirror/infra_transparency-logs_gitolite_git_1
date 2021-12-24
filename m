@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 24 Dec 2021 15:24:22 -0000
-Message-Id: <164035946249.9983.5034552474102193681@gitolite.kernel.org>
+Date: Fri, 24 Dec 2021 15:24:37 -0000
+Message-Id: <164035947799.10106.12634669161285666854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/0
-    old: 0000000000000000000000000000000000000000
-    new: 58655cccf3d68aea2127bfe226cd5f50afb89c55
+    old: 58655cccf3d68aea2127bfe226cd5f50afb89c55
+    new: 0000000000000000000000000000000000000000
