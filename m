@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1348881461216119756=="
+Content-Type: multipart/mixed; boundary="===============6248966754467150404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 24 Dec 2021 16:15:56 -0000
-Message-Id: <164036255695.9216.4825518372227122585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 24 Dec 2021 16:16:03 -0000
+Message-Id: <164036256354.9349.17827040615827981469@gitolite.kernel.org>
 
---===============1348881461216119756==
+--===============6248966754467150404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 2f15d3cebd45f773a2e27cce84ca851164dd5acd
     new: 10674ca9ea02491fd3f8ffe303861b7a6837994b
     log: revlist-2f15d3cebd45-10674ca9ea02.txt
 
---===============1348881461216119756==
+--===============6248966754467150404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640362554 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1640362554-25ebd333bba1b6990ffdb20c5a6542b1224e2137
+pusher C3F436CA30F5D8EB 1640362561 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640362561-28066edbb3e1514b0484b6837247d2eb80c18e61
 
-2f15d3cebd45f773a2e27cce84ca851164dd5acd 10674ca9ea02491fd3f8ffe303861b7a6837994b refs/heads/for-5.17
+2f15d3cebd45f773a2e27cce84ca851164dd5acd 10674ca9ea02491fd3f8ffe303861b7a6837994b refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHF8jsACgkQJNaLcl1U
-h9Bt4QgAg0Namm2II7fHl/wvHk2KD6mvi+5E4P2sUW3Jz+SfaoV7mmeKi4rje/lO
-baott58rkYcVy1mGW7vv8lCy+TMs1tfuCdmKnKumL7J69cmdQvQWIWdceJLjbXx0
-osCUgeQ8jv7sm5TrPYCZz6977txzCvOMwYlvyUd0VpKIQc5q7ALfRZHHU+Yyd/7J
-uoVMbUWwP7UqeJDq+frk4BvxU1yW+wGBYW7jJFB4VJPqEUMrBkeZEaGx4/73bq7g
-yVzjawF+Ut9JkGHzKmK35NkgFIClktT1TZhhP8lIJ8QWiLjOoM6q2yRn6Hm3rmj4
-xj/BOaQVHxBiZWP+X0kOWEs8eXoz6A==
-=Gf72
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHF8kEACgkQJNaLcl1U
+h9BSIgf/TCxHRP+LwpClYxMXX5eJg2X7BuLbLiXYIgfs/HcUBrxhlWgSrtOS0cyX
++jUTog6zTTGd7uJTrecPHmYuOomqRf0oCeOEi2g8JUiPlprztHJco01/zP/O9LIC
+t643YIAIpZY7its0jgvqH+LgwZ4IoBGxZI5nY7duiI5ogqz6075jUakTUw6qsGGv
+g9MD0V0BMtaMBUc/56kktknbptmEjbjsN0jrESp8alT1u3S3jC07cuiD3AMCUng2
+5cf6HQo2uF2IdGvYiEPHUvPgx0fdBsRvwILzN08O+RNVPNY4Qr/8Mm7yncAoDBBn
+kMBtwDlhNlIDRr8JX4ugj2fC93ulNA==
+=uBhn
 -----END PGP SIGNATURE-----
 
---===============1348881461216119756==
+--===============6248966754467150404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ b2fde4deff854ca7d49ec735a8252d944418b64d ASoC: remove unneeded variable
 5c5f08f7fc0bee9a1bc3fbdcb7a21cfd0648ab14 ASoC: amd: acp: Power on/off the speaker enable gpio pin based on DAPM callback.
 10674ca9ea02491fd3f8ffe303861b7a6837994b ASoC/SoundWire: improve suspend flows and use set_stream() instead of set_tdm_slots() for HDAudio
 
---===============1348881461216119756==--
+--===============6248966754467150404==--
