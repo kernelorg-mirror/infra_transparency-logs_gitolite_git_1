@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4750879874572259456=="
+Content-Type: multipart/mixed; boundary="===============8198977800804805000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 24 Dec 2021 16:16:10 -0000
-Message-Id: <164036257015.9435.8011152608958079364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 24 Dec 2021 16:16:16 -0000
+Message-Id: <164036257648.9559.7174166214804181876@gitolite.kernel.org>
 
---===============4750879874572259456==
+--===============8198977800804805000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/regulator-5.17
     old: 5d55cbc720cc3650aafed6c1f5dbcf7e3f276312
     new: d27bb69dc83f00f86a830298c967052cded6e784
     log: |
          d27bb69dc83f00f86a830298c967052cded6e784 regulator: qcom-labibb: OCP interrupts are not a failure while disabled
          
 
---===============4750879874572259456==
+--===============8198977800804805000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640362568 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1640362568-029701e19e3f2acf19ea3faffbc78f6fb7d62dd8
+pusher C3F436CA30F5D8EB 1640362574 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640362574-5e01dfa9983a64b68c8707c2acd550a63f2b3d17
 
-5d55cbc720cc3650aafed6c1f5dbcf7e3f276312 d27bb69dc83f00f86a830298c967052cded6e784 refs/heads/for-5.17
+5d55cbc720cc3650aafed6c1f5dbcf7e3f276312 d27bb69dc83f00f86a830298c967052cded6e784 refs/heads/regulator-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHF8kgACgkQJNaLcl1U
-h9BRIgf/SdxsrgyeWjL11mUOYssjzSxsDkVfgf94A1kKD8Za5hLOFVoc05ILfPue
-DAw3gPjFsnlFlKGsaqAoA5gOoK2b0fVnHrgBZ++y5n2W5gMdzDcmZbZSHyMaR/G/
-Dmra63TexhPK+LmBic7kmt/lAwWamnrQkd8J+ru1zbGWJHU/jdENJByiELIbK9ky
-F0vXOqi/mErOhE+k1fpY1w4RLfhRvhqjMPshTd/KUlgdJxWTP/vfemqVzJ/e71Hj
-R8KF+0TXpMEs+joQNQEBc4w4EiBYWkZHU59isjN5Jx6OmPX4kuyH5o+4bcxNZ175
-Tf1f4azl72XqnINcdetPOuvmrdvyzQ==
-=conq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHF8k4ACgkQJNaLcl1U
+h9CXZgf+ItigOPR89w84PAzddnvxpkouyI9oI8PJ6APru98v5n13j9gYY3bQrG+V
+9D0g25n/ioDIb9aqE9DKBMnUx30PPQyodLCS03m9Csvbnds79QxjrQ3nAAKF1A99
+rftxi7Bh3UGjaHfxb72zIT4EEe45HiAZUk69A3EL5RaT1nSJpeJv27Yqm73Hmll3
+DlPRXJne2xPeo9xrYm0VFmVzKG9xkAIs9Hhux06O7S3ogl+3gMvdUFxqpTOYGlNK
+GSm4mhEjQrMieHVoO7ry6ekSTCNt1afht9rSUJWIld+Gvq2V90WWdQesZTaUVNTW
+SzNYbh5udksYC6cVykChIWytFR5Saw==
+=vLOf
 -----END PGP SIGNATURE-----
 
---===============4750879874572259456==--
+--===============8198977800804805000==--
