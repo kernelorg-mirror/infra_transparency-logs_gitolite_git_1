@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 24 Dec 2021 22:54:35 -0000
-Message-Id: <164038647505.14579.15169327657383933821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 24 Dec 2021 23:00:37 -0000
+Message-Id: <164038683718.19247.3850549072170584608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 5471d5226c3b39b3d2f7011c082d5715795bd65c
-    new: b45396afa4177f2b1ddfeff7185da733fade1dc3
+    old: 7467d716583eec12ae84a33fb1fb27d22333fc64
+    new: 7c63f26cb518f57aa5feaef7e0abe2697155df35
     log: |
-         b45396afa4177f2b1ddfeff7185da733fade1dc3 net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
+         7c63f26cb518f57aa5feaef7e0abe2697155df35 lib: objagg: Use the bitmap API when applicable
          
