@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1845849609440247003=="
+Content-Type: multipart/mixed; boundary="===============6633741168359520476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 24 Dec 2021 18:41:57 -0000
-Message-Id: <164037131752.30490.15792857470401056015@gitolite.kernel.org>
+Date: Fri, 24 Dec 2021 18:42:11 -0000
+Message-Id: <164037133198.30633.13079305504156682007@gitolite.kernel.org>
 
---===============1845849609440247003==
+--===============6633741168359520476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 15e8e3714864b87f61b37fcea80b14bad71f7b5d
+  - ref: refs/heads/net-mlx4
+    old: 99d7fbb5cedf598f67e8be106d6c7b8d91366aef
     new: 5471d5226c3b39b3d2f7011c082d5715795bd65c
-    log: revlist-15e8e3714864-5471d5226c3b.txt
+    log: revlist-99d7fbb5cedf-5471d5226c3b.txt
 
---===============1845849609440247003==
+--===============6633741168359520476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15e8e3714864-5471d5226c3b.txt
+Content-Disposition: attachment; filename=revlist-99d7fbb5cedf-5471d5226c3b.txt
 
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
 885633075847f475f26a29249d772cc0da85d8cd dmaengine: dw-axi-dmac: Fix uninitialized variable in axi_chan_block_xfer_start()
@@ -253,4 +253,4 @@ a026fa5404316787c2104bec3f8ff506acf85b98 Merge tag 'io_uring-5.16-2021-12-23' of
 736ef37fd9a44f5966e25319d08ff7ea99ac79e8 udp: using datalen to cap ipv6 udp max gso segments
 5471d5226c3b39b3d2f7011c082d5715795bd65c selftests: Calculate udpgso segment count without header adjustment
 
---===============1845849609440247003==--
+--===============6633741168359520476==--
