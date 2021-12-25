@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Sat, 25 Dec 2021 17:50:26 -0000
-Message-Id: <164045462656.9326.3097172499044999642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 25 Dec 2021 18:16:54 -0000
+Message-Id: <164045621413.24059.17397120421561962384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/main
-    old: 338843c1ee157ae5d990c6f544f66b447b24fa8b
-    new: d83bc06e1fca7250dbc3c5e7be0f55a4ea6e7ef0
+  - ref: refs/heads/net-mlx5
+    old: 5471d5226c3b39b3d2f7011c082d5715795bd65c
+    new: b45396afa4177f2b1ddfeff7185da733fade1dc3
     log: |
-         d83bc06e1fca7250dbc3c5e7be0f55a4ea6e7ef0 rt-numa: Correct the comment of numa_initialize()
+         b45396afa4177f2b1ddfeff7185da733fade1dc3 net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
          
