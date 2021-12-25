@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 25 Dec 2021 08:57:37 -0000
-Message-Id: <164042265754.9523.16809828602748085455@gitolite.kernel.org>
+Date: Sat, 25 Dec 2021 08:57:45 -0000
+Message-Id: <164042266594.9639.15631741185504974660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/wip.refcount.crazy
+  - ref: refs/heads/x86/wip.vmx
     old: 0000000000000000000000000000000000000000
-    new: 8cbf88b2a9644aa99995fe34ef683d70e7914538
+    new: e64387ef8479c71d6b99855fe6b825b9d04987a2
