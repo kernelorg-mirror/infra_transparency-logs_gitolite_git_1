@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 25 Dec 2021 17:16:03 -0000
-Message-Id: <164045256306.21984.5750340473934077779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Sat, 25 Dec 2021 17:50:26 -0000
+Message-Id: <164045462656.9326.3097172499044999642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/master
-    old: b45396afa4177f2b1ddfeff7185da733fade1dc3
-    new: e6007b85dfa284c4726c249e3c2fc4181ca8e179
+  - ref: refs/heads/main
+    old: 338843c1ee157ae5d990c6f544f66b447b24fa8b
+    new: d83bc06e1fca7250dbc3c5e7be0f55a4ea6e7ef0
     log: |
-         5ec7d18d1813a5bead0b495045606c93873aecbb sctp: use call_rcu to free endpoint
-         e6007b85dfa284c4726c249e3c2fc4181ca8e179 selftests: mptcp: Remove the deprecated config NFT_COUNTER
+         d83bc06e1fca7250dbc3c5e7be0f55a4ea6e7ef0 rt-numa: Correct the comment of numa_initialize()
          
