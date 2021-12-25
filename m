@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sat, 25 Dec 2021 10:20:34 -0000
-Message-Id: <164042763461.9362.2534381759182340215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 25 Dec 2021 10:39:27 -0000
+Message-Id: <164042876793.19040.17598981242894710309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/tags/samsung-pinctrl-5.17
-    old: 0000000000000000000000000000000000000000
-    new: f58f9ab92530fb858ad732d60328b37e47da1bdf
+  - ref: refs/heads/for-next
+    old: 9ac05e740b9390623de0bddcf0f5f4cdf69f758b
+    new: 0000000000000000000000000000000000000000
