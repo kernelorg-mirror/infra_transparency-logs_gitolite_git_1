@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2322415361479175583=="
+Content-Type: multipart/mixed; boundary="===============4343808450870599375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sat, 25 Dec 2021 11:45:49 -0000
-Message-Id: <164043274938.26535.956760098509703249@gitolite.kernel.org>
+Date: Sat, 25 Dec 2021 11:46:19 -0000
+Message-Id: <164043277918.26771.12746582598563987542@gitolite.kernel.org>
 
---===============2322415361479175583==
+--===============4343808450870599375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dm-cryptsetup
     old: cd1245d75ce93b8fd206f4b34eb58bcfe156d5e9
     new: b927dfc67d05a72167ab980c375ed98b2ee9c2c6
     log: revlist-cd1245d75ce9-b927dfc67d05.txt
 
---===============2322415361479175583==
+--===============4343808450870599375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a026fa5404316787c2104bec3f8ff506acf85b98 Merge tag 'io_uring-5.16-2021-12-23' of
 c8831184c56d60669fb4925c1ec721dcda2e2c6a Merge tag 'platform-drivers-x86-v5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 b927dfc67d05a72167ab980c375ed98b2ee9c2c6 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
 
---===============2322415361479175583==--
+--===============4343808450870599375==--
