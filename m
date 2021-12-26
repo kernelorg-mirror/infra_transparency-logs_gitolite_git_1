@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 26 Dec 2021 21:33:02 -0000
-Message-Id: <164055438203.3452.15224378622641541149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 26 Dec 2021 21:37:06 -0000
+Message-Id: <164055462667.6065.11023567373975372508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 02321cd3ad5d2ab157c833bf5f068fb7ac45b1d6
-    new: b8fbb6f00e1f6b495dc826009f1494835e56a2c7
+    old: 83e7f98798ce8ced5296f882dc5b60c0e96cff5c
+    new: 2bfb1795a66c015afb12db38430b1e3beb1a00b3
     log: |
-         8e6f2fcd2580894419c2807f8c1c5a8630a7d644 libpci: i386-io-windows.h: Skip I/O setup on 16/32-bit non-NT systems
-         2b32362a2f8f4e7ebc509d7163f12d1ae24346a5 libpci: i386-io-windows.h: Fix definitions of I/O port functions for UCRT, CRTDLL and for 64-bit mode
-         b8fbb6f00e1f6b495dc826009f1494835e56a2c7 libpci: i386-io-windows.h: Enable I/O access via native NT ProcessUserModeIOPL syscall
+         2bfb1795a66c015afb12db38430b1e3beb1a00b3 Sun Dec 26 09:36:33 PM UTC 2021
          
