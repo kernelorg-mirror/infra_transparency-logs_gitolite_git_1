@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Sun, 26 Dec 2021 16:55:12 -0000
-Message-Id: <164053771221.7099.3482699058926373046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 26 Dec 2021 17:32:44 -0000
+Message-Id: <164053996493.27739.10996112517434874536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/tags/socfpga_dts_update_for_v5.17_part2
-    old: e6ed9a21e50f6a7e729de052b6af00269b8520eb
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/net-mlx5
+    old: b45396afa4177f2b1ddfeff7185da733fade1dc3
+    new: e6007b85dfa284c4726c249e3c2fc4181ca8e179
+    log: |
+         5ec7d18d1813a5bead0b495045606c93873aecbb sctp: use call_rcu to free endpoint
+         e6007b85dfa284c4726c249e3c2fc4181ca8e179 selftests: mptcp: Remove the deprecated config NFT_COUNTER
+         
