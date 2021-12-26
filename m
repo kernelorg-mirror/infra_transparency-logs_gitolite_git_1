@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 26 Dec 2021 20:53:53 -0000
-Message-Id: <164055203394.13077.17474034411555531293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Sun, 26 Dec 2021 21:04:32 -0000
+Message-Id: <164055267226.19021.9435202841140187243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/libs/klibc/klibc
+user: bwh
 changes:
   - ref: refs/heads/master
-    old: b9927f149785380d3bc6975f43da224be6bb2b08
-    new: ae833de28e16a9ec0144befa36affa2f4239a7c1
+    old: e0039c9a0456a274034d9b513f8731090332ea9d
+    new: 12db27ba0db4fabe1230d1d9b8be56453991e6a9
     log: |
-         ae833de28e16a9ec0144befa36affa2f4239a7c1 HWDB: Handle NULL returned by udev_list_entry_get_*
+         eb10cf8c3128612a089ace8489a81bc4ffd5d07a sig{set,long}jmp: do not ignore sigsetjmp's second argument
+         12db27ba0db4fabe1230d1d9b8be56453991e6a9 {set,long}jmp [s390x]: save/restore the correct registers
          
