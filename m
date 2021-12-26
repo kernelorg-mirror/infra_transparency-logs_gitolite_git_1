@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bwh/klibc-maint
-Date: Sun, 26 Dec 2021 21:05:47 -0000
-Message-Id: <164055274797.20861.12273386423530993102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 26 Dec 2021 21:19:42 -0000
+Message-Id: <164055358272.27630.15957807042505237473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bwh/klibc-maint
-user: bwh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e8e56b8d3b3785ff84385a9affa9d366bdcefe84
-    new: 3e5559616a2d07119a52114a92a6f2965f76fd82
+    old: e8ffcd3ab0e5d7332cc75c214fe74e52240b117b
+    new: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
     log: |
-         ba8fa494b1e2435ce581e5ca9176aecb9a83ab5d test-many-klibc: Disable mips as Debian no longer provies a cross-compiler
-         3e5559616a2d07119a52114a92a6f2965f76fd82 test-many-klibs: Update armhf compiler options for gcc 11
+         fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 Linux 5.16-rc7
          
+  - ref: refs/tags/v5.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
