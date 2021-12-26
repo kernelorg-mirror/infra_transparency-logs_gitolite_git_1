@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3569830681026346250=="
+Content-Type: multipart/mixed; boundary="===============0836714268965078368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 26 Dec 2021 23:02:32 -0000
-Message-Id: <164055975213.23312.517471334229980208@gitolite.kernel.org>
+Date: Sun, 26 Dec 2021 23:02:44 -0000
+Message-Id: <164055976414.23451.9698568604507010392@gitolite.kernel.org>
 
---===============3569830681026346250==
+--===============0836714268965078368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: cdc5287acad9ede121924a9c9313544b80d15842
-    new: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
-    log: revlist-cdc5287acad9-fc74e0a40e4f.txt
-  - ref: refs/heads/master
-    old: 76657eaef4a759e695eb1883d4f1d9af1e4ff9a8
-    new: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
-    log: revlist-76657eaef4a7-fc74e0a40e4f.txt
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
+  - ref: refs/heads/hwmon-next
+    old: 01b619f3c6399948f118d5f2886a44e517d1606b
+    new: 565210c7812013aac7969320ac5b86fff7a74cc6
+    log: revlist-01b619f3c639-565210c78120.txt
 
---===============3569830681026346250==
+--===============0836714268965078368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdc5287acad9-fc74e0a40e4f.txt
+Content-Disposition: attachment; filename=revlist-01b619f3c639-565210c78120.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
@@ -500,75 +493,51 @@ e2ae0d4a6b0ba461542f0fd0ba0b828658013e9f Merge tag 'hwmon-for-v5.16-rc7' of git:
 2afa90bd1c7526766b5eadb1856988b61a31501f Merge tag 'objtool_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e8ffcd3ab0e5d7332cc75c214fe74e52240b117b Merge tag 'x86_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 Linux 5.16-rc7
+4fb0abfee424b05f0ec6d2d09e38f04ee2b82a8a x86/amd_nb: Add AMD Family 19h Models (10h-1Fh) and (A0h-AFh) PCI IDs
+f707bcb5d1cb4c47d27c688c859dcdb70e3c7065 hwmon: (k10temp) Remove unused definitions
+3cf90efa13678d2de2f9f7e44e26353996db842a hwmon: (k10temp) Add support for AMD Family 19h Models 10h-1Fh and A0h-AFh
+ed68a0effe51be3c89f7fa03dfc630b2ef1f1ee8 dt-bindings: hwmon: ti,ina2xx: Document ti,ina238 compatible string
+8be23b9b3114952c92c13fac2d37854aba208b9e dt-bindings: hwmon: ti,ina2xx: Add ti,shunt-gain property
+eacb52f010a80752e77a86aee9cb01f4864b0ca4 hwmon: Driver for Texas Instruments INA238
+bcb31e680837b71648158f2fedfc078cf6699207 hwmon: (tmp401) Simplify temperature register arrays
+ca53e7640de7579f7e3ee467c82618e1ad98857a hwmon: (tmp401) Convert to _info API
+50152fb6c1a197271b8916b8225525a6ca71e9ee hwmon: (tmp401) Use regmap
+ff300b71ba3860d282f77774d2b02ec49ad0e9cf hwmon: (tmp401) Hide register write address differences in regmap code
+ff9b8778797940628934205010d12b7084c85447 hwmon: (adm1021) Improve detection of LM84, MAX1617, and MAX1617A
+df293076a903530d7d12966ca19aa9570a6c70b3 hwmon: (f71882fg) Add F81966 support
+b87611d43757c131e5f272b42f0561faed52029e hwmon: (asus_wmi_ec_sensors) Support B550 Asus WMI.
+548820e21ce10582f4b4bd257cb290d4257bcd93 hwmon: (asus_wmi_sensors) Support X370 Asus WMI.
+8bb050cd5cf494f3d0cb45a6b54a476af09edb8d hwmon: (k10temp) Support up to 12 CCDs on AMD Family of processors
+bf4d843050af4fde7e8514b4b5ffe79874ee3936 hwmon: (jc42) Add support for ONSEMI N34TS04
+11a24ca7e34d968991a7d437b950d1924396bd81 hwmon: (ntc_thermistor) Merge platform data into driver
+76f240ff9523673106385120bc9af15ada9ca2f8 hwmon: (ntc_thermistor) Drop get_ohm()
+209218efd6ac8bebfe85fd2bc3ad64e5c3bad0a8 hwmon: (ntc_thermistor) Drop read_uv() depend on OF and IIO
+e380095b8018acd9f962a9020251c5d8f1191e49 hwmon: (ntc_thermistor) Merge platform data
+62cfc0576393e57a4c5622a08b6c4ba20fe5f880 hwmon: (sht4x) Add device tree match table
+34e2bd10ab6005d2967c2f203fea664fd44d0b0f hwmon: (asus_wmi_ec_sensors) fix array overflow
+3315e716999d98d628abebbffaa82bef52962c95 hwmon: (asus_wmi_sensors) fix an array overflow
+d75553790b9f44f9a6023a51ca5283ef4688f339 hwmon: (adm1031) Remove redundant assignment to variable range
+e0149eebe47b9fe50cf85f23bcaeed81d7356c99 hwmon: (ntc_thermistor) Move and refactor DT parsing
+70760e80db06247b0c7b1933a9be81b5c22fc25e hwmon: (ntc_thermistor) Switch to generic firmware props
+9f448e796cf9d525fb9e1aa0d4fee073b80f1cab hwmon: (ntc_thermistor) Move DT matches to the driver block
+c2fe0f63cafe3fc3adbd0aff6f1758b504ee3cdb hwmon: (nct6775) delete some extension lines
+9c6d555187f504b880ca506b0b2d0edbdb5d2d5f hwmon: (raspberrypi) Exit immediately in case of error in init
+02405387746915b93b283c18780b6cef90394ea1 hwmon: (dell-smm) Simplify ioctl handler
+87b93329fdd64bbb87db72d06ca084a06d183d6d hwmon: (dell-smm) Unify i8k_ioctl() and i8k_ioctl_unlocked()
+8569e5558d9fa5be2d57ce7195566861a45984c1 hwmon: (ntc_thermistor) Drop OF dependency
+e13e979b2b3dafc9b5e7a4ec0ff17c875fedcf67 hwmon: (ntc_thermistor) Add Samsung 1404-001221 NTC
+130d168866a11829b844ffdb19b9aefe384f754c hwmon: prefix kernel-doc comments for structs with struct
+d387d88ed045a0a2db0698d079b06822f75d940b hwmon: (pmbus) Add Delta AHE-50DC fan control module driver
+0710e2b9f9b7d48e666a5f4b5de742050be3d66b dt-bindings: add Delta AHE-50DC fan control module
+e1c5cd7e8af0f50a1deb15369b1cdcef4e6a7f85 hwmon: (pmbus) Add support for MPS Multi-phase mp5023
+1e7c94b251d15e01e8dd13940d544c865467e339 hwmon: (nct6775) add ROG STRIX B550-A/X570-I GAMING
+53e68c20aeb1e23419bed811aa3a309ceda200f9 hwmon: add driver for NZXT RGB&Fan Controller/Smart Device v2.
+ca003af3aa1574646b784abee861626a52d345ea hwmon/pmbus: (ir38064) Add support for IR38060, IR38164 IR38263
+e65de225ef2f7eade2888b00970eec37aeca0044 hwmon/pmbus: (ir38064) Add of_match_table
+0ee7f624263e6492b5e541c86b0fc716349da7bf hwmon/pmbus: (ir38064) Expose a regulator
+23c7df14f696dd64c691be34368c835cfac5017e hwmon/pmbus: (ir38064) Fix spelling mistake "comaptible" -> "compatible"
+a8d6d4992ad9d92356619ac372906bd29687bb46 hwmon: (mr75203) fix wrong power-up delay value
+20f2e67cbc7599217d5a764c76e9c2bbe85e3761 hwmon: (nct6775) Additional check for ChipID before ASUS WMI usage
+565210c7812013aac7969320ac5b86fff7a74cc6 hwmon: (dell-smm) Pack the whole smm_regs struct
 
---===============3569830681026346250==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76657eaef4a7-fc74e0a40e4f.txt
-
-2d5446da5acecf9c67db1c9d55ae2c3e5de01f8d pinctrl: mediatek: fix global-out-of-bounds issue
-9222ba68c3f4065f6364b99cc641b6b019ef2d42 Input: i8042 - add deferred probe support
-e1f5e848209a1b51ccae50721b27684c6f9d978f Input: iqs626a - prohibit inlining of channel parsing functions
-1d72d9f960ccf1052a0630a68c3d358791dbdaaa Input: elantech - fix stack out of bound access in elantech_change_report_id()
-44ee250aeeabb28b52a10397ac17ffb8bfe94839 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-a2fd46cd3dbb83b373ba74f4043f8dae869c65f1 Input: goodix - try not to touch the reset-pin on x86/ACPI devices
-81e818869be522bc8fa6f7df1b92d7e76537926c Input: goodix - add id->model mapping for the "9111" model
-59ec71575ab440cd5ca0aa53b2a2985b3639fad4 ucounts: Fix rlimit max values check
-266423e60ea1b953fcc0cd97f3dad85857e434d1 pinctrl: bcm2835: Change init order for gpio hogs
-3fd6e12a401ead0345e4b7e6a73e117f0713e0c1 Input: goodix - fix memory leak in goodix_firmware_upload
-fce15c45d3fbd9fc1feaaf3210d8e3f8b33dfd3a hwmon: (lm90) Fix usage of CONFIG2 register in detect function
-55840b9eae5367b5d5b29619dc2fb7e4596dba46 hwmon: (lm90) Prevent integer overflow/underflow in hysteresis calculations
-16ba51b5dcd3f6dde2e51d5ccc86313119dcf889 hwmon: (lm90) Drop critical attribute support for MAX6654
-da7dc0568491104c7acb632e9d41ddce9aaabbb1 hwmom: (lm90) Fix citical alarm status for MAX6680/MAX6681
-cdc5287acad9ede121924a9c9313544b80d15842 hwmon: (lm90) Do not report 'busy' status bit as alarm
-12f247ab590a08856441efdbd351cf2cc8f60a2d Input: atmel_mxt_ts - fix double free in mxt_read_info_block
-3b8e19a0aa3933a785be9f1541afd8d398c4ec69 drm/mediatek: hdmi: Perform NULL pointer check for mtk_hdmi_conf
-58e138d62476fc5f889252dcf73848beeaa54789 Revert "x86/boot: Mark prepare_command_line() __init"
-fbe6183998546f8896ee0b620ece86deff5a2fd1 Revert "x86/boot: Pull up cmdline preparation and early param parsing"
-2f5b3514c33fecad4003ce0f22ca9691492d310b x86/boot: Move EFI range reservation after cmdline parsing
-b67210cc217f9ca1c576909454d846970c13dfd4 pinctrl: stm32: consider the GPIO offset to expose all the GPIO lines
-ef399469d9ceb9f2171cdd79863f9434b9fa3edc ksmbd: fix error code in ndr_read_int32()
-f2e78affc48dee29b989c1d9b0d89b503dcd1204 ksmbd: fix uninitialized symbol 'pntsd_size'
-7202216a6f34d571a22274e729f841256bf8b1ef ARM: 9160/1: NOMMU: Reload __secondary_data after PROCINFO_INITFUNC
-8536a5ef886005bc443c2da9b842d69fd3d7647f ARM: 9169/1: entry: fix Thumb2 bug in iWMMXt exception handling
-83912d6d55be10d65b5268d1871168b9ebe1ec4b ksmbd: disable SMB2_GLOBAL_CAP_ENCRYPTION for SMB 3.1.1
-57690554abe135fee81d6ac33cc94d75a7e224bb x86/pkey: Fix undefined behaviour with PKRU_WD_BIT
-4ebfee2bbc1a9c343dd50565ba5ae249fac32267 Input: elants_i2c - do not check Remark ID on eKTH3900/eKTH5312
-64d16aca3d4f130f35bbf1120e15f58a62f743d5 drm/i915/guc: Use correct context lock when callig clr_context_registered
-7807bf28fe02a76bf112916c6b9194f282f5e43c drm/i915/guc: Only assign guc_id.id when stealing guc_id
-804034c4ffc502795cea9b3867acb2ec7fad99ba platform/mellanox: mlxbf-pmc: Fix an IS_ERR() vs NULL bug in mlxbf_pmc_map_counters
-09fc14061f3ed28899c23b8714c066946fdbd43e platform/x86: amd-pmc: only use callbacks for suspend
-eb66fb03a727cde0ab9b1a3858de55c26f3007da platform/x86: apple-gmux: use resource_size() with res
-cb8747b7d2a9e3d687a19a007575071d4b71cd05 uapi: Fix undefined __always_inline on non-glibc systems
-dcce50e6cc4d86a63dc0a9a6ee7d4f948ccd53a1 compiler.h: Fix annotation macro misplacement with Clang
-ae95af9755285affce9cdb29e07522d27eedcb7b Merge tag 'mediatek-drm-fixes-5.16' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
-dbfba788c7ef839849e013264fef551e4d119d0b Merge tag 'drm-intel-fixes-2021-12-22' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
-7b9762a5e8837b92a027d58d396a9d27f6440c36 io_uring: zero iocb->ki_pos for stream file types
-c4499272566d677075c6a84f46baeb826a6a7182 platform/x86: system76_acpi: Guard System76 EC specific functionality
-4f6c131c3c31b9f68470ebd01320d5403d8719bb platform/x86/intel: Remove X86_PLATFORM_DRIVERS_INTEL
-26a8b09437804fabfb1db080d676b96c0de68e7c platform/x86: intel_pmc_core: fix memleak on registration failure
-7fe2bc1b64650fa6e3a7088786a983766676fd84 Merge branch 'ucount-rlimit-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
-a026fa5404316787c2104bec3f8ff506acf85b98 Merge tag 'io_uring-5.16-2021-12-23' of git://git.kernel.dk/linux-block
-95b40115a97bda99485267ca2b3b7566f965b5b4 Merge tag 'drm-fixes-2021-12-24' of git://anongit.freedesktop.org/drm/drm
-7a29b11da9651ef6a970e2f6bfd276f053aeb06a Merge tag '5.16-rc5-ksmbd-fixes' of git://git.samba.org/ksmbd
-c8831184c56d60669fb4925c1ec721dcda2e2c6a Merge tag 'platform-drivers-x86-v5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-b927dfc67d05a72167ab980c375ed98b2ee9c2c6 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-0129ab1f268b6cf88825eae819b9b84aa0a85634 kfence: fix memory leak when cat kfence objects
-338635340669d5b317c7e8dcf4fff4a0f3651d87 mm: mempolicy: fix THP allocations escaping mempolicy restrictions
-71d2bcec2d4d69ff109c497e6611d6c53c8926d4 kernel/crash_core: suppress unknown crashkernel parameter warning
-7e5b901e4609441fc6bb94701c4743b39b6c277e MAINTAINERS: mark more list instances as moderated
-e37e7b0b3bd52ec4f8ab71b027bcec08f57f1b3b mm, hwpoison: fix condition in free hugetlb page path
-94ab10dd42a70acc5208a41325617e3d9cf81a70 mm: delete unsafe BUG from page_cache_add_speculative()
-595ec1973c276f6c0c1de8aca5eef8dfd81f9b49 mm/page_alloc: fix __alloc_size attribute for alloc_pages_exact_nid
-34796417964b8d0aef45a99cf6c2d20cebe33733 mm/damon/dbgfs: protect targets destructions with kdamond_lock
-2a57d83c78f889bf3f54eede908d0643c40d5418 mm/hwpoison: clear MF_COUNT_INCREASED before retrying get_any_page()
-d0cc67b2781654ac71c73d303e0347e5e9b10ad3 Merge branch 'akpm' (patches from Andrew)
-5b5e3d03470205b98363f50b8d6a7f5f40440458 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-e2ae0d4a6b0ba461542f0fd0ba0b828658013e9f Merge tag 'hwmon-for-v5.16-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-438645193e59e91761ccb3fa55f6ce70b615ff93 Merge tag 'pinctrl-v5.16-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-2afa90bd1c7526766b5eadb1856988b61a31501f Merge tag 'objtool_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e8ffcd3ab0e5d7332cc75c214fe74e52240b117b Merge tag 'x86_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 Linux 5.16-rc7
-
---===============3569830681026346250==--
+--===============0836714268965078368==--
