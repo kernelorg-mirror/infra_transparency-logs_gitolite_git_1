@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Sun, 26 Dec 2021 21:22:55 -0000
-Message-Id: <164055377595.30020.215878321886530883@gitolite.kernel.org>
+Date: Sun, 26 Dec 2021 21:33:02 -0000
+Message-Id: <164055438203.3452.15224378622641541149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,10 @@ repo: pub/scm/utils/pciutils/pciutils
 user: mj
 changes:
   - ref: refs/heads/master
-    old: ae833de28e16a9ec0144befa36affa2f4239a7c1
-    new: 02321cd3ad5d2ab157c833bf5f068fb7ac45b1d6
+    old: 02321cd3ad5d2ab157c833bf5f068fb7ac45b1d6
+    new: b8fbb6f00e1f6b495dc826009f1494835e56a2c7
     log: |
-         6f5000a71177f981a04cfe4ba47195463703cc08 Makefile: fix for parallel builds (make -j)
-         4dae10b03a3dd8917d3da9858eaaa09331f2c836 add missing symlinks to libraries in install-lib target
-         b6356ba50fe860ff082cdd371b7decb7065d266f Makefile: Update uninstall target to match all install* targets
-         ce3c7c91363abb69d41a8aad2fb70516d4c58783 man pages: update cross-references to pci.ids
-         66a0d9bf9b9c84008f04d63225f205626f748b35 update-pciids man page: add cross-references
-         fe4074e525ec31b7d03a9fa963fb18f346a1fd7e Man pages: clarify pci.ids location
-         5fe984a8de70773ef7b9a617702d0091a968e77f Fix the primitive system dependency discovery for Darwin systems
-         02321cd3ad5d2ab157c833bf5f068fb7ac45b1d6 Cleaned up previous commit
+         8e6f2fcd2580894419c2807f8c1c5a8630a7d644 libpci: i386-io-windows.h: Skip I/O setup on 16/32-bit non-NT systems
+         2b32362a2f8f4e7ebc509d7163f12d1ae24346a5 libpci: i386-io-windows.h: Fix definitions of I/O port functions for UCRT, CRTDLL and for 64-bit mode
+         b8fbb6f00e1f6b495dc826009f1494835e56a2c7 libpci: i386-io-windows.h: Enable I/O access via native NT ProcessUserModeIOPL syscall
          
