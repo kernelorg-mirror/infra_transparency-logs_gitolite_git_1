@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 27 Dec 2021 17:04:38 -0000
-Message-Id: <164062467893.22199.15019695506518948075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 27 Dec 2021 17:14:41 -0000
+Message-Id: <164062528144.27941.298622964531783453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
-    new: a8ad9a2434dc7967ab285437f443cae633b6fc1c
+    old: 2bfb1795a66c015afb12db38430b1e3beb1a00b3
+    new: c29f1c7aa26b8fd25927a600299e33145b955791
     log: |
-         4bc5e64e6cf37007e436970024e5998ee0935651 efi: Move efifb_setup_from_dmi() prototype from arch headers
-         a8ad9a2434dc7967ab285437f443cae633b6fc1c Merge tag 'efi-urgent-for-v5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+         c29f1c7aa26b8fd25927a600299e33145b955791 Mon Dec 27 05:14:00 PM UTC 2021
          
