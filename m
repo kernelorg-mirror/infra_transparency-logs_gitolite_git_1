@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0884145460305922977=="
+Content-Type: multipart/mixed; boundary="===============3840375989891089556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 27 Dec 2021 17:33:08 -0000
-Message-Id: <164062638898.7091.3896025077637350674@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 17:33:17 -0000
+Message-Id: <164062639780.7252.11546699339243623418@gitolite.kernel.org>
 
---===============0884145460305922977==
+--===============3840375989891089556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 7c63f26cb518f57aa5feaef7e0abe2697155df35
-    new: b4aadd207322d243c3ceef107c495117898a36f1
-    log: revlist-7c63f26cb518-b4aadd207322.txt
+  - ref: refs/heads/mlx5-queue
+    old: b25ecdf56a61c59fb83ee6b8e4f98ab6e209613d
+    new: 7ee0aa8c5f275a303bc11ca4187bef897fa07dff
+    log: revlist-b25ecdf56a61-7ee0aa8c5f27.txt
 
---===============0884145460305922977==
+--===============3840375989891089556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c63f26cb518-b4aadd207322.txt
+Content-Disposition: attachment; filename=revlist-b25ecdf56a61-7ee0aa8c5f27.txt
 
 5a717f4a8e00f563962b736961a12b6798c839a0 bnxt_en: Add event handler for PAUSE Storm event
 0fb8582ae5b9bf0dc5a4fededabe7db16a8b430a bnxt_en: Log error report for dropped doorbell
@@ -45,5 +45,10 @@ f83b4348116d2345ec8e3294c19c5c5306917efa net: pxa168_eth: Use platform_get_irq()
 32f52e8e78d3350e3e74985b0314ba15cea3bc8d net: ethernet: ti: davinci_emac: Use platform_get_irq() to get the interrupt
 fd3a459000557ff12c1d4b41f1bd30f439f6c942 net: bridge: Get SIOCGIFBR/SIOCSIFBR ioctl working in compat mode
 b4aadd207322d243c3ceef107c495117898a36f1 net:Remove initialization of static variables to 0
+8cb9f2a386d0492ba615d516aecb8c5e4cca7071 net/mlx5: mlx5e_hv_vhca_stats_create return type to void
+ee571471af25168e936675177d88202ce4749e22 net/sched: act_ct: Fill offloading tuple iifidx
+5cd2dac7c5ca4206d9415c32fe9d5963d0e655c1 net: openvswitch: Fill act ct extension
+afaa084d20cba1dd737e8d90cf2fa972fe3d5bd4 net/mlx5: CT: Set flow source hint from provided tuple device
+7ee0aa8c5f275a303bc11ca4187bef897fa07dff Merge branch 'patchq/374716' into mlx5-queue
 
---===============0884145460305922977==--
+--===============3840375989891089556==--
