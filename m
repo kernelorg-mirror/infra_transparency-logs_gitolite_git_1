@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6789453665696322851=="
+Content-Type: multipart/mixed; boundary="===============8086561784872039299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 27 Dec 2021 10:39:01 -0000
-Message-Id: <164060154160.15888.4061101301797268333@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 10:39:16 -0000
+Message-Id: <164060155619.16046.352590259880462338@gitolite.kernel.org>
 
---===============6789453665696322851==
+--===============8086561784872039299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e4c085679585b7ab78af0244cc6dcb67724aacdf
-    new: 2a033616c3eab5949185457b8a2f709c49178606
-    log: revlist-e4c085679585-2a033616c3ea.txt
+  - ref: refs/heads/m68k-queue
+    old: ef13a1b6699579c1a6368bb23c7a5d41dc2ebaf5
+    new: 629904c54053eda3544e599b9fdf9b16555b1114
+    log: revlist-ef13a1b66995-629904c54053.txt
 
---===============6789453665696322851==
+--===============8086561784872039299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4c085679585-2a033616c3ea.txt
+Content-Disposition: attachment; filename=revlist-ef13a1b66995-629904c54053.txt
 
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
 017a716e7b0e9d4ac06a4d7779bd04fca009bbc9 bus: sunxi-rsb: Fix shutdown
@@ -227,6 +227,9 @@ e2ae0d4a6b0ba461542f0fd0ba0b828658013e9f Merge tag 'hwmon-for-v5.16-rc7' of git:
 2afa90bd1c7526766b5eadb1856988b61a31501f Merge tag 'objtool_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e8ffcd3ab0e5d7332cc75c214fe74e52240b117b Merge tag 'x86_urgent_for_v5.16_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 Linux 5.16-rc7
-2a033616c3eab5949185457b8a2f709c49178606 Merge tag 'v5.16-rc7'
+4be41210bb95207400bcb206bdf60074f77ffc13 m68k: Enable memtest functionality
+047ece8af5f175b8904ab6e8568a70aaeee541d8 m68k: atari: usb: Add ISP1160 USB host controller support
+593a0cf9794446d1a77678cfcdd6a3ad117c1653 m68k: atari: Update Kconfig.bus help text
+629904c54053eda3544e599b9fdf9b16555b1114 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6789453665696322851==--
+--===============8086561784872039299==--
