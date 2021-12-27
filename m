@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 27 Dec 2021 15:52:32 -0000
-Message-Id: <164062035212.10851.12497714996659127256@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 15:56:17 -0000
+Message-Id: <164062057766.13428.2582989875242336465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: 16448069b96c511c9ac06af8b9975b8f2b1f37ca
-    new: dd8cab641ad6b451fbfc920ee0c443a4254d2288
+    old: dd8cab641ad6b451fbfc920ee0c443a4254d2288
+    new: 1210c74c3a8d898149b92b96a005fbd31f9732e2
     log: |
-         66b354064a35b6379963cba27b5d37a278fc9bd9 powercap/drivers/dtpm: Remove unused function definition
-         c1af85e442278fe120974358cf71c41bc48e0580 powercap/drivers/dtpm: Reduce trace verbosity
-         b8470e98e192a19a2ac9e32943557d7be3be4c46 Merge tag 'dtpm-v5.17' of https://git.linaro.org/people/daniel.lezcano/linux
-         36fd3609d0dd768404c205c805893e63e078d201 Merge back earlier power capping changes for v5.17
-         dd8cab641ad6b451fbfc920ee0c443a4254d2288 Merge branch 'powercap' into bleeding-edge
+         8bfd4858b4bba8fec14e4296cbac71aa55260d60 PM / devfreq: Add a driver for the sun8i/sun50i MBUS
+         a4b3c62fd0e8673cb6708ad65551020c8e25d3f2 PM / devfreq: sun8i: addd COMMON_CLK dependency
+         4667431419e93b63b4edfe7abdfc96cefcbcc051 PM / devfreq: Reduce log severity for informative message
+         702f21db4995f2784b4d24d3517ba1c6e938a464 Merge tag 'devfreq-next-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
+         1210c74c3a8d898149b92b96a005fbd31f9732e2 Merge branch 'pm-devfreq' into bleeding-edge
          
