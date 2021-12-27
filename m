@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 27 Dec 2021 17:14:41 -0000
-Message-Id: <164062528144.27941.298622964531783453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/klibc/klibc
+Date: Mon, 27 Dec 2021 17:16:38 -0000
+Message-Id: <164062539852.30075.5748018191034658999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/klibc/klibc
+user: bwh
 changes:
   - ref: refs/heads/master
-    old: 2bfb1795a66c015afb12db38430b1e3beb1a00b3
-    new: c29f1c7aa26b8fd25927a600299e33145b955791
+    old: 1643d07ebc9a776e90d4af62343c3339cfe2b324
+    new: d96dc346ee46d205e01ee363a7f0d9c1b394371a
     log: |
-         c29f1c7aa26b8fd25927a600299e33145b955791 Mon Dec 27 05:14:00 PM UTC 2021
+         fa9e7b7dfa389758b6f32eab3b478110e870f7f1 [klibc] Use bounded array parameter types consistently
+         d96dc346ee46d205e01ee363a7f0d9c1b394371a [klibc] include: Always include <sys/types.h> instead of <linux/types.h>
          
