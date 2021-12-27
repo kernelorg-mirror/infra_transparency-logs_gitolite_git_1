@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0001534960803377003=="
+Content-Type: multipart/mixed; boundary="===============8205938277249340193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 27 Dec 2021 09:29:27 -0000
-Message-Id: <164059736758.15514.7703703175038428625@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 09:30:39 -0000
+Message-Id: <164059743918.17400.7708993486113249828@gitolite.kernel.org>
 
---===============0001534960803377003==
+--===============8205938277249340193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 372c73b469e4d519d5cac7b52defa202668ba8d3
     new: 651425fb24b2152637685886fab9108cda9096a7
     log: revlist-372c73b469e4-651425fb24b2.txt
 
---===============0001534960803377003==
+--===============8205938277249340193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640597363 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640597438 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1640597363-907ca78f42641a67b2e67ae5ab6b1bebb473568b
+nonce 1640597438-4e35cffd45c7301df6b95ad195fc5789c29d9fd7
 
-372c73b469e4d519d5cac7b52defa202668ba8d3 651425fb24b2152637685886fab9108cda9096a7 refs/heads/char-misc-testing
+372c73b469e4d519d5cac7b52defa202668ba8d3 651425fb24b2152637685886fab9108cda9096a7 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJh3MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qPMP/A93ZuguBF2RM2SkQ6Yk
-sDRakPfaYvSQeIFHQHclJJHDSXqI0/YWYzzE97Jrq4bUoifVtBSgag5uSpf6cDMq
-niWmPVSaedltDEMfa/HShLdNaEe8Rs+6PonP4pGmg/RyCkae2GqIMyKvVvGmfxc3
-1vHTO2MoY7kfXND8yZV8zsPQlsssh+iKMsPVhZxTikdqrgiL+KhZsasqV5uL6Tmb
-Q1liFo2UVa9JbpMeWxrtR7DhVIJA+OCE3dMNX2uTf874hECZHGld4o3HAPh44/pV
-xGqmA0AA2jJFmUKVcpr5RPWh1NEPi4wEzcFCi6OP7aLSYmxzSb3VD1WJIbgWXIdk
-LqaOX2Jl2JXbOlhBPb3A3dM1/zkZZiNe6RuSjoNgpLuK6RwdozehqfrW9x8BgiqO
-vmPYGgSHYgRFZJtbBriN5OYF8nrUNOoeAEX96kVBX2c8RqBvC22rjN1LVP/7AAbJ
-3esbAI0lm1r8WHbcxBdcrNrOlDpKRjw9kGM7QAlas64zrseyQv9qln1MJyb+Enb3
-eOX3XNYIYYWlHfh7ZbDKxrtKOM05mN9YQgwzBqLIpuERdWv4N/H77XbunlyUNhDv
-0vGqLfUpkAuxFfhHWmPxkt3zhGHTtxS2PHKYdfxsn+LGUt1peUO/jClaLrmzLOIJ
-OBN8reeie0578sO9AtWUGjih
-=ySfy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJh74bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SA4P/RzkRUTNToWBuS9qItCM
+itKK28F1YUpcfUW4ve+iJIkc9IewdHdJphJyUJemaBL1R6kDmd5geqpJaetzpgkx
+gTrPnCTNWRS+ACf5j01RgE8TmLU48ZSjrfazx7iO5CZ8cfNJm5ALpGzpQDk3wfM4
+Mf5IQtrPrHxQEuq6E83cYLFIaolXKNrIuxSleCcNu8zO+wwrvtxEvfxqsAF++jdh
+P/orwvFmF35wQO+fuasa1QKF2kdLAMKEVgll/ZgoOpSK8CHLdy6+GhkMvm0w1xxV
+dE6KRyfQsbYsRc5OqEVUmvi3PbP0usQ4QguIKYD9j2OJ1L0mNgHfkqXcDBxqpGY8
+nmPv+R34gwaGQxBhDVtKh6G/wc9cSVxkfHvA9AG1exwN3Xrl676AgWyvAJoL/4Dc
+djSxU+lW0Gwp6Li17SJ+9N/H9X7TLg7Q/5axLxykSjbkSmwuEt28KD3hxgjNVl9a
+M/NGKolN0NF7AX9piNhq9KMXtegSvF5h3G9iU84YpOQx6ygkqao/cIci0VaKH25K
+lVBOYCEqdGsaFhjoKrSH0I2xXJSuCC/DYQ2dWi2R/dL02aJCz//GzWkqlWqjNmBA
+EslfBWrKELs5UwoTSYx96/Ag7ZuZgKa9ggaynV3U/MlnqkhT9s6aL48hexf0lDWF
+I9MwRtl/MHGgOOtlIGRWy24v
+=YNMh
 -----END PGP SIGNATURE-----
 
---===============0001534960803377003==
+--===============8205938277249340193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -129,4 +129,4 @@ eb135291912f7554e2a2472befc44818098baa8d habanalabs: refactor reset information 
 ce80098db2439ee44403ec6fccd3a10be21c7aff habanalabs: support hard-reset scheduling during soft-reset
 651425fb24b2152637685886fab9108cda9096a7 Merge tag 'misc-habanalabs-next-2021-12-27' of https://git.kernel.org/pub/scm/linux/kernel/git/ogabbay/linux into char-misc-next
 
---===============0001534960803377003==--
+--===============8205938277249340193==--
