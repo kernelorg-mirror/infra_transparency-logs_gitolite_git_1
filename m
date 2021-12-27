@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0688993395711806683=="
+Content-Type: multipart/mixed; boundary="===============7729919051303421351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 27 Dec 2021 15:12:12 -0000
-Message-Id: <164061793260.18555.12761014338513309943@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 15:12:14 -0000
+Message-Id: <164061793417.18675.7949246735010897409@gitolite.kernel.org>
 
---===============0688993395711806683==
+--===============7729919051303421351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 6973dbe29e04c616036a50804eb94d75d6b71e29
-    new: 64c7de860df54328bce185112473d0a8db13d072
-    log: revlist-6973dbe29e04-64c7de860df5.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 41b0aa70113e1f1442f4e0809fef0121f80fb871
+    new: f4557795e317fa3c845cbf551993d6cf4a90deb0
+    log: revlist-41b0aa70113e-f4557795e317.txt
 
---===============0688993395711806683==
+--===============7729919051303421351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640617928 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640617932 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1640617927-412f923cb405479f19b2073c6f7eb131829b0cef
+nonce 1640617931-0c26da22d0461c134a6fac2fc0a8c094509da509
 
-6973dbe29e04c616036a50804eb94d75d6b71e29 64c7de860df54328bce185112473d0a8db13d072 refs/heads/linux-4.4.y
+41b0aa70113e1f1442f4e0809fef0121f80fb871 f4557795e317fa3c845cbf551993d6cf4a90deb0 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJ18gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/O8P/3wNVeUIj0tR/ZjEDuYp
-rH9U+IYDFFyzzjQ4/fl/QY3c2xozPk4ydedLVsdDTl7G7FFJfKAb5Pe3O0XbOkQC
-nTd3AU5VXTSkd6HJInHrqHA/PR5OcD74ZflojcWhp4RMOb+fh2K7iCciFH+wSlgL
-frOJRygBNoKapd4M0RN5itmoBkDPNi5vT/BbsffoOVEO/2AR8VaNFVrbKCqK5wKk
-2bA6UHc8yBLAmKbw0S/QPWegigFq2rFk5guCtT8y5baRmX+GkmRvYjSsb1vVROGr
-A3ilZC6k3qnOSZxprNBRu3qrWsg4Xuoi3QO6VNmv+8ya3GpV+cNe66k5qU53Is2g
-JgOkfXoujaTvoOMS+fy4I1uIf2yIWvrh1WRD/Ud8zasd0gyWHC5xI7mgv7KLsM1u
-1pgQoqaqk9psTr1vnBPdUNlDtUOl/DeNMyRTLH0vaohoNynOaJ2ytuUmV8SQ0Rua
-m5zWUVxrt1ucdkM2nFpNJ1Om88jlDrYiMFqesrvDsSdkRKR5C7k7/FNdlE8viCr2
-651rb/xNPEQm9Lc8yf7lb1173rO2kz2rWgofgSvN9Utfe48bZM0urpH0Rs9ZoSf8
-hQ8UzR8EQ55joIeNr8bnsZ8ybgsRNWWWq4ZQiobdfvj4gv7dJN9oN9f6bpn6EVKR
-FhCxau+ejwb23XnV5bUhBacm
-=yT+n
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJ18wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hbgQAJFcW1g2UnCizDHDkzLc
+wZaox0aFOmxUAAo0doVDUkvLo1IugX0u5LovnBuCeWODVAY8S3nuIEF5V8S+rScs
+VxG5NmtD2xBUAYuDWHMrLY7HSO7MJXj/QhZBfBIa/24gN6vwkDaOKIj1AjnBj0pL
+tEUCRx5/N48bj3VwjAqUEVInSr0tgBjdQSQn+BfRXp/heI1cY3aCQX68Q2ixJI1H
+A8eh8G3JFBqxX6FU1b41OVpj3swfM6Otejot8hd4ShvQRQkywnNitK6bfoid7ys0
+yqP0FiD7wjvk/u1sOb/5wpmyld2LErU2SNeTytyufO6Xo9MtVNnp17nXwEtxmNva
+3QwBo87bQTNrWwXzqjFhsxpnY1WVr7nT1tCIuPaG/Rwr/+6QlDPeVajJiTXLg39m
+hKpj6vEQF3D/io8d9nHGwkriQVS9kpWcIoXrpn6cxV23XbqyZ40lk0QEKqscjrwe
+Vs0NRTegP64BuoxGztTdYOcT/I9ZaFN6dttY/HeuDiz53twUPhDTbsOGBu/O2aXK
+QC5v8+LQkfG1AzrvbtRAy1XPo5bOBj7ZskSgR8tNKxVhtVhIRfx8bUemfil/Jupe
+6hStYrA9IwqGxFerHZpYAaXlZgWxBMeMlBOo0PiRvwtVE8SujUGM2QdQUwKlY+qL
+lkiYowZQ2pWDRft6yLElZ2TN
+=4kYz
 -----END PGP SIGNATURE-----
 
---===============0688993395711806683==
+--===============7729919051303421351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6973dbe29e04-64c7de860df5.txt
+Content-Disposition: attachment; filename=revlist-41b0aa70113e-f4557795e317.txt
 
-6927dedf34f85c74a95332bdfeb1df2ccc51bb6a net: usb: lan78xx: add Allied Telesis AT29M2-AF
-91cfa400bd71a742da370f45a545f678c3d4b60a can: kvaser_usb: get CAN clock frequency from device
-12be4fd36a96a9782361ab52ef49e15d2189f045 HID: holtek: fix mouse probing
-6de8d125af089547bbf975d351a726d17d1e4776 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
-d0b6385d4165732db593fbb237d95b1f5abbc02e qlcnic: potential dereference null pointer of rx_queue->page_ring
-c81c3c1924030e27791589c205bc6504573138c3 bonding: fix ad_actor_system option setting to default
-4cd00a09451aa827fb912300ef2029c1d1c69884 drivers: net: smc911x: Check for error irq
-5847ecae6ab33afa8da2fb1809aa98e93235b09f hwmon: (lm90) Fix usage of CONFIG2 register in detect function
-a28dc657e232173f9237f14fb58fc516dccb0f54 ALSA: jack: Check the return value of kstrdup()
-0ff3672193c7084bc700049edf2913bd690fcbaa ALSA: drivers: opl3: Fix incorrect use of vp->state
-3fdd70eb7ad5bd64cdec1f6e87247aa98ebb3ed5 ARM: 9169/1: entry: fix Thumb2 bug in iWMMXt exception handling
-200149f7773273b850aee636ecaf1c4b3ed060b6 xen/blkfront: fix bug in backported patch
-9d2806d181947a808da9227a8035282070c5aa9c Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-d6557f44d87c8937e43d9517560f4307b253cbe0 ax25: NPD bug when detaching AX25 device
-a993c6a2900eb8ceb07a5beb3b0b1458502dac94 hamradio: defer ax25 kfree after unregister_netdev
-5f3d031a9763b903cf2e4a35201d898829e216ef hamradio: improve the incomplete fix to avoid NPD
-f4e0d32190afae8495cc4a3954878550b742229a phonet/pep: refuse to enable an unbound pipe
-64c7de860df54328bce185112473d0a8db13d072 Linux 4.4.297-rc1
+b9696f0d5f18e8f19c070db46bc1a0810fb27bb4 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+94e84364a5167b12151da1f11a79621f0316153a can: kvaser_usb: get CAN clock frequency from device
+021ce9be7010a48166fe97a890496fd913754e20 HID: holtek: fix mouse probing
+9b244df9d1a507900f515626e508296bdbab9b06 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
+38eaf6f9a384d9f49ca93b0de1fc601af35b38f7 qlcnic: potential dereference null pointer of rx_queue->page_ring
+5e77b62cbc0dee377fbe41c0523f5bf23749c257 bonding: fix ad_actor_system option setting to default
+8cb7605a8b55375b59f2b1ac29966a11369f98cd fjes: Check for error irq
+0e73ab5aced6039580c4efb426e72e72267813d5 drivers: net: smc911x: Check for error irq
+45b3277c20c4511be5ad83adc3c24da3c24fd7be hwmon: (lm90) Fix usage of CONFIG2 register in detect function
+e18dd42bf900026023454e2027271e82a4a88711 ALSA: jack: Check the return value of kstrdup()
+b6a3ce685ff0ba0495076129f6f30c89669b6995 ALSA: drivers: opl3: Fix incorrect use of vp->state
+7fcabf709fa681d9233ed4fb88a1c21ca0ddb2c7 x86/pkey: Fix undefined behaviour with PKRU_WD_BIT
+1e22f8f97741c16ecfbfa30054592c799842fa61 ARM: 9169/1: entry: fix Thumb2 bug in iWMMXt exception handling
+f042cb95d4f9dfb70ec064cde172e831d7187d00 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+163233fbc4b716cb8194103219d3b0eb0f2b61ae hwmon: (lm90) Do not report 'busy' status bit as alarm
+418bc95744ccc61be5eea8f103c5fa58772dc713 ax25: NPD bug when detaching AX25 device
+0bfe3a01d28707996b41df03d68189622effdff6 hamradio: defer ax25 kfree after unregister_netdev
+0bfa733fdc3d18d1ce49fb4c2ae78d940e1d82a3 hamradio: improve the incomplete fix to avoid NPD
+91e7fd0958da30808e1fe247db01331cab7db66f phonet/pep: refuse to enable an unbound pipe
+f4557795e317fa3c845cbf551993d6cf4a90deb0 Linux 4.9.295-rc1
 
---===============0688993395711806683==--
+--===============7729919051303421351==--
