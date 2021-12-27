@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9135044277477538546=="
+Content-Type: multipart/mixed; boundary="===============0884145460305922977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 27 Dec 2021 17:31:24 -0000
-Message-Id: <164062628497.6499.2414320213825534416@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 17:33:08 -0000
+Message-Id: <164062638898.7091.3896025077637350674@gitolite.kernel.org>
 
---===============9135044277477538546==
+--===============0884145460305922977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 7c63f26cb518f57aa5feaef7e0abe2697155df35
     new: b4aadd207322d243c3ceef107c495117898a36f1
     log: revlist-7c63f26cb518-b4aadd207322.txt
 
---===============9135044277477538546==
+--===============0884145460305922977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f83b4348116d2345ec8e3294c19c5c5306917efa net: pxa168_eth: Use platform_get_irq()
 fd3a459000557ff12c1d4b41f1bd30f439f6c942 net: bridge: Get SIOCGIFBR/SIOCSIFBR ioctl working in compat mode
 b4aadd207322d243c3ceef107c495117898a36f1 net:Remove initialization of static variables to 0
 
---===============9135044277477538546==--
+--===============0884145460305922977==--
