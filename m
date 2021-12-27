@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7251388053895899608=="
+Content-Type: multipart/mixed; boundary="===============0297421496535889086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 27 Dec 2021 14:05:12 -0000
-Message-Id: <164061391235.9005.2459718508754893997@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 14:05:41 -0000
+Message-Id: <164061394174.9244.539538404410816979@gitolite.kernel.org>
 
---===============7251388053895899608==
+--===============0297421496535889086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 87f77d37d398d92a9963890b14f336dc394f6fa0
-    new: 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d
-    log: revlist-87f77d37d398-4be6181fea1d.txt
+  - ref: refs/heads/for-next
+    old: 112e1f9af852023cc474c7a5e619f7694d9c5f7c
+    new: 083f067c8257ab97df72541b9910bd1d692c29dc
+    log: revlist-112e1f9af852-083f067c8257.txt
 
---===============7251388053895899608==
+--===============0297421496535889086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87f77d37d398-4be6181fea1d.txt
+Content-Disposition: attachment; filename=revlist-112e1f9af852-083f067c8257.txt
 
 baea0e833f7612483dcb2351240da19f0d0bc011 scsi: qla2xxx: Synchronize rport dev_loss_tmo setting
 99c66a8868e33522ebc6fd8a99e32f0d544a014f scsi: ufs: core: Fix deadlock issue in ufshcd_wait_for_doorbell_clr()
@@ -37,5 +37,9 @@ dc313f6b125b095d3d2683d94d5f69c8dc9bdc36 scsi: hisi_sas: Factor out task prep an
 16775db613c2bdea09705dcb876942c0641a1098 scsi: hisi_sas: Prevent parallel FLR and controller reset
 37310bad7fa645b21653fd7f13cb6b376d80c919 scsi: hisi_sas: Fix phyup timeout on FPGA
 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d scsi: libsas: Decode SAM status and host byte codes
+1b8d0300a3e9f216ae4901bab886db7299899ec6 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+142c779d05d1fef75134c3cb63f52ccbc96d9e1f scsi: vmw_pvscsi: Set residual data length conditionally
+d2fa5693d171ca2fed47d92bab65e6e4ef2ce50c Merge branch 'fixes' into for-next
+083f067c8257ab97df72541b9910bd1d692c29dc Merge branch 'misc' into for-next
 
---===============7251388053895899608==--
+--===============0297421496535889086==--
