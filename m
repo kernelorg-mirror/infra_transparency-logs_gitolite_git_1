@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3714119648944229052=="
+Content-Type: multipart/mixed; boundary="===============5173461686913243725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 27 Dec 2021 15:13:20 -0000
-Message-Id: <164061800004.19618.2912027211192537856@gitolite.kernel.org>
+Date: Mon, 27 Dec 2021 15:13:22 -0000
+Message-Id: <164061800214.19700.12820553048888126393@gitolite.kernel.org>
 
---===============3714119648944229052==
+--===============5173461686913243725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: f84cbc484575d3e2977e06a4b9d69ab644426786
-    new: 73c20036320022109af2aa90d0f199c06f5cabee
-    log: revlist-f84cbc484575-73c200363200.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 8ee0807eedf3bc60c8a47a7dd95387102bcfd063
+    new: 5ddb49631ce806b40b03cc8691a81579eea08178
+    log: revlist-8ee0807eedf3-5ddb49631ce8.txt
 
---===============3714119648944229052==
+--===============5173461686913243725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640617998 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640618000 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1640617998-2c868250d0b808e5f9e318ca4f065b93dbd7a53b
+nonce 1640618000-ac018fc29aebecccf6ec440a696a78bb5c17588e
 
-f84cbc484575d3e2977e06a4b9d69ab644426786 73c20036320022109af2aa90d0f199c06f5cabee refs/heads/linux-4.9.y
+8ee0807eedf3bc60c8a47a7dd95387102bcfd063 5ddb49631ce806b40b03cc8691a81579eea08178 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJ2A4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PvQP/0FzGilhpxZZlU77zjcM
-dd21GcVYJIPVkRKQn/FsUTpBVuNDKEPy2xsoVIIOfqb8j5RXATI9NghwKbifIH6F
-1MV6KMI/EzE4ymjsNek/3kaHe2dNqvM7lrL6lCg2oJS/3mUESB5Fhorz7daJUdQn
-MKTzxaWhaliAWPItY9W3A3boUUfucDJpYkRfXJGiFzlraF+0nw9e3DDjSWGWb3O9
-bJTgWbfMxzBOzXXxBYlkknt7Tq95GOZVI/5i4DDBZuXNP4ZevmwVwvJ4BTlEAsvr
-Z2xhNP2Woc+4kc67SnUFROreFCN9RHZFg/QmDW1ou7SBTScd5Doml1avclIYqmfo
-YizGaFkwkbIfQ3pZgLS+Cla5vNuUPo/Lsep7Wktbzft0R5pAZ/DMb6Xh5XayiaW7
-YwXer9tIBE47PMj6Dkv/FJyf7ntMnk4Es/19Lvhlic5VUcNTX0Cam4Al46RIugUa
-C40MBSnZH3YaDowQNNcGM1ue2nfB5bc+r5hrJY9oNXlSdebmER59cI5t+goa+shx
-pYJ5nGElzmbo5jeEzS7W9lxfQPXGmCE5mOwnhvz/nWAXiRgc+BWvhnGscniKh7as
-+djD7+2FvCWriGn2amzxNAt+OYqzPHAY2INmLBvosfUWYPZib7aQweY2twEGsIgS
-ELHkbjPg3LqypIZZDj8PMYGJ
-=q19r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJ2BAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oh4P/2nxcnAfMofGEpMuwm1E
+LOFoPDF2ksnYenO1ByHBVtnOn4CwJMFIRx02T5zxCWtvQRx3SGhcQp/mc5szkMlp
+rnupKS/lXohR2i+awsn1DqnQGSKyUCBzu4GOt7j3oBkKt6bdH0jBZ8+yvbiq+A4Q
+GOSDusZWxgIOUld8hmyqW/mYvfe7snlBufx/k4qEfOfoxMC3LuAKJK1w9pfnuAPS
+NoDDeNIN397hPc9itMPmagCh5ePmMPUZAUtO4FWxAvCrgrBlz9ZaFs6/Q1mSXfdB
+awD8EL898+ldhi/EDgrNhrtDYODA8WoQFqHuq7F7hZX/n2EMxFmQpFdUjcPZBtp6
+Ti8OPZwJqw9qwmi4CG8NES5zyqKoexHFbZkldVlPrlGLpKClkdFDeS2woh0Qpiez
+jrDdFEPDQVUWWEYDEABvDKf1083k8OEsidumZkesEvcpC54N87P7xlqRsWVRUVcf
+t7/LSM1lFM9DxhXvg6ocA+h3pq4GbASUaXFrTslPe9SeckzM5YM4zaL1gQpohPrz
+BuZ7UyZJB2RcXkULvJSaDUpnuQCxYj1ahANdwcOkCVT2puupCw5Q9Lu+m2R/o2Mn
+fGH5ta2ZSJpkvm9sP5GY+wz9cH3PWV/voVG1qzFoh8vn0k11uXMv+WhYbIMrn6qC
+DjB9m91sdbVBC0LsXQyE8Tmr
+=kekx
 -----END PGP SIGNATURE-----
 
---===============3714119648944229052==
+--===============5173461686913243725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f84cbc484575-73c200363200.txt
+Content-Disposition: attachment; filename=revlist-8ee0807eedf3-5ddb49631ce8.txt
 
-4b583d20a0a48453dc33b39e3c4b9251e42df2b7 net: usb: lan78xx: add Allied Telesis AT29M2-AF
-6fae71fa9e916b44de5fd9ae0e5a03ff097738eb can: kvaser_usb: get CAN clock frequency from device
-fa8e392e5bd06ba7a6fc1e3568c65835263c6495 HID: holtek: fix mouse probing
-396dd8b6d7b7da55de514a8fa9d60d7a7e557a79 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
-6e59f9fda57e32a508417a5feeafeb4a47281b14 qlcnic: potential dereference null pointer of rx_queue->page_ring
-8a3bd899de7452a11ff489ec328a22bb60cf004d bonding: fix ad_actor_system option setting to default
-dcb13d68160d335188d5d535ec2fd0053c23267a fjes: Check for error irq
-394c2a9029ae198b27a7872f138669578d92616c drivers: net: smc911x: Check for error irq
-1f279bcaa65f10d1d73aa53a4f1c2599bec8a19c hwmon: (lm90) Fix usage of CONFIG2 register in detect function
-160220ce4b3ea859ff3c7790e6c0a6bb32166557 ALSA: jack: Check the return value of kstrdup()
-7e6a8f461dbd1ed47517dde59f75e19dc9f75dd3 ALSA: drivers: opl3: Fix incorrect use of vp->state
-1da7aac5f5b826ee4d7de9105d0b396681d9c2c1 x86/pkey: Fix undefined behaviour with PKRU_WD_BIT
-4a856f77ba148aab87a571dca1e13b920f4c0b15 ARM: 9169/1: entry: fix Thumb2 bug in iWMMXt exception handling
-90f5d08aaf5fb8f61681d21b579ccb58b2072005 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-5c66ce3607a40d4d4292a6ede211b2c5509313ae hwmon: (lm90) Do not report 'busy' status bit as alarm
-9d440f51c69db46a72b9ee576b6868efeabfeb6b ax25: NPD bug when detaching AX25 device
-b38d3bad6b62a4a3e9f8a8d2130b31dd11ebe3ac hamradio: defer ax25 kfree after unregister_netdev
-60d9fe89779a982323dfdca22bbbe9eff5f744bd hamradio: improve the incomplete fix to avoid NPD
-12a848a823676fba25f34136d46034e7ed4818fc phonet/pep: refuse to enable an unbound pipe
-73c20036320022109af2aa90d0f199c06f5cabee Linux 4.9.295-rc1
+b50e27ab975b74d19425cdc6053abd56e9ef8e66 net: usb: lan78xx: add Allied Telesis AT29M2-AF
+b66d6ade7aaf897cf09802073fca8f4f18cbb98d can: kvaser_usb: get CAN clock frequency from device
+b1d47ea7cb6ec6a9a32d43317cff91961354d0c8 HID: holtek: fix mouse probing
+484590ee2846a878b6dce5c4c349d16042287cf0 spi: change clk_disable_unprepare to clk_unprepare
+78865881cb7366c7b28c564ed52e7be39cd9cae4 IB/qib: Fix memory leak in qib_user_sdma_queue_pkts()
+ad03f3c6b6df7a91ec0b1e823e7f85fb8ef9245c netfilter: fix regression in looped (broad|multi)cast's MAC handling
+aeb504219720bbc0342c113e6f1da594bcc2cab2 qlcnic: potential dereference null pointer of rx_queue->page_ring
+717a00f8873c9295d02ee74fe061425b9707116d net: accept UFOv6 packages in virtio_net_hdr_to_skb
+d612674121c0206feff2f80ef1e917aebef3cb82 net: skip virtio_net_hdr_set_proto if protocol already set
+eccb06b6b74339d96e498d52f8cb140354df3b25 bonding: fix ad_actor_system option setting to default
+7eb2508171489478cefd1f788a4aa459da8f4fa0 fjes: Check for error irq
+4b0c728f74bf3192606e04f4c2c75fc00d8b7988 drivers: net: smc911x: Check for error irq
+0c9ccc43de67d069f875012cb3c7e093c510ef0d sfc: falcon: Check null pointer of rx_queue->page_ring
+5e24c9efdc93148d1d00818072ea41a364a86fb3 hwmon: (lm90) Fix usage of CONFIG2 register in detect function
+27d5cd2d7fc4174249fd498eb189dbdaed67cf77 ALSA: jack: Check the return value of kstrdup()
+afcdfbaa033b14c71bb61dd7e69aeeb68d4a451f ALSA: drivers: opl3: Fix incorrect use of vp->state
+5cc54b16928454468aefb648460a3e1638c3b6bf Input: atmel_mxt_ts - fix double free in mxt_read_info_block
+ba68965d8eab52f19cefb9351bf0edd8a24c88c4 x86/pkey: Fix undefined behaviour with PKRU_WD_BIT
+03b7d9f9f6dfdb04d63fb565700adc756e678818 pinctrl: stm32: consider the GPIO offset to expose all the GPIO lines
+904dd8b3e45740e0f99bc65a7afeaed8979c0afd ARM: 9169/1: entry: fix Thumb2 bug in iWMMXt exception handling
+09a3d12ee8735f6879ba3b41f350f841c38c1026 f2fs: fix to do sanity check on last xattr entry in __f2fs_setxattr()
+d86c1c28fca6ec9ee9f0e64f9cc7231e00a27f2c usb: gadget: u_ether: fix race in setting MAC address in setup phase
+f1e21bc848f5b4d8b9dc8cafb122e37cae8e0765 KVM: VMX: Fix stale docs for kvm-intel.emulate_invalid_guest_state
+6a8e27e516567dbbf618154c3bfac206b0a095da Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+476d646825ae34f78626892e2bf06a1c3d4c1d01 hwmon: (lm90) Do not report 'busy' status bit as alarm
+9b4238df030c40f31e125f97cf4c31f036e68e35 ax25: NPD bug when detaching AX25 device
+8f391452f8a19d8cc483ad966917697b082aef22 hamradio: defer ax25 kfree after unregister_netdev
+70344464e0732b02cb856baa86a5c92ca8a348fe hamradio: improve the incomplete fix to avoid NPD
+cc4fe59f68233088236105408bc8991e9a28721e phonet/pep: refuse to enable an unbound pipe
+5ddb49631ce806b40b03cc8691a81579eea08178 Linux 4.14.260-rc1
 
---===============3714119648944229052==--
+--===============5173461686913243725==--
