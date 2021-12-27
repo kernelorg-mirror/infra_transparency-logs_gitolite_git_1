@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1238467341102098833=="
+Content-Type: multipart/mixed; boundary="===============1231844724256595823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 27 Dec 2021 10:50:46 -0000
-Message-Id: <164060224614.23986.13242586503081121293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 27 Dec 2021 11:04:40 -0000
+Message-Id: <164060308035.30828.12201331922805875641@gitolite.kernel.org>
 
---===============1238467341102098833==
+--===============1231844724256595823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: cce985c4f6ef8ac51f83f32efefbfa9fa39aca3a
-    new: 78556b817c9fefe53b1557e47e0613528a0b71fe
+  - ref: refs/heads/master
+    old: e81d384d9ef42fb0a69cf7c8f0e13de9cbca29bb
+    new: c8b9898d67bb4c370a158f966f73d8252eadfd72
     log: |
-         78556b817c9fefe53b1557e47e0613528a0b71fe kobject: remove kset from struct kset_uevent_ops callbacks
+         c8b9898d67bb4c370a158f966f73d8252eadfd72 5.15-stable patches
          
 
---===============1238467341102098833==
+--===============1231844724256595823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640602244 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1640602244-a9c591022d82f03c528ee5214acec551435c7cfc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640603079 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1640603078-bfc2f708951e3057e048382fea343b33d7761960
 
-cce985c4f6ef8ac51f83f32efefbfa9fa39aca3a 78556b817c9fefe53b1557e47e0613528a0b71fe refs/heads/kobject-const
+e81d384d9ef42fb0a69cf7c8f0e13de9cbca29bb c8b9898d67bb4c370a158f966f73d8252eadfd72 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJmoQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dbkQAINpMDyVCk4hSLQhi5xJ
-YbNm+uBgu1iYddMZWOSWcSqMDLrUHqsywaP2DzLrFof0lNoGi6erTSxIIbqdaWPb
-PnrygXZ6lwbUKSdUNZdbiGO+wiKNRO2Nphlmskse7m7HWL+6wUAco3Ye0mJnO8U/
-t5+ShM8Q1o9yw3K2XjmXarnW+sar67IZE4LffHh+VnYfXOONNOga6lpkDYr8LyGo
-W6bp+dhGqvX0ucz47rxlA4c3FlwD18S1IIBSX7Wf6X78QIm3dzNu/PJxHXpBdt+l
-X4h7AQwpM38m3kYhAxBw1mxbmnUsrAA1fMdkE4J2T9BKzHALMuZYfcJsj8GNuN3D
-Xzi+os5WzTtGf5e9qZ12sS0rmJ434IxwyMtiw84ap2P2YJFFCpIa71FSjnXZ+sfI
-VkFIt/cEDwcONUokIUMrCRkDGrYFsfI+S4PfLt3WMcSoiyrQ6V+kq8S0jc453I4w
-RrGXW320By5buhK7ghbZ4A6XXHFZDdszZ2SdTro/EZDBJsCdDeq1O/5NNR5lZbEF
-hQL1elnpohIL/Hh94j8GHJWQVK9+SAUOyB0lUm4d8Url+uufG+IjSgeCbBgx/1d8
-0fvnvEkF6U5aWWU6R5oXduYcv+AWf4rhPb0A/Sya4ROlz18CF/iT6Mgrf3qdksf4
-N1gx0JIzkx45dQjuuBAAX9T/
-=hqOX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJnccbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ioQAKM/WReOgZKvLkDtFAm4
+2Ys9TsFLI3SEj4NHycjELvDhNcKK3XB03LRJieNj+jbESJ3ke6F8SrRIL4K1uQ4i
+VEJSWb2UrShFaAHw5gFb1OTo2G6nIsOA857N4btIWeg1prZzYCqGMX4kVFnlxnGU
+IgfF6C6hNqrVNW1vkHcbYxP4WVqeAeFv0QjcuOJEakxIAzX2YQdDp8uR7B8CrwVL
+NdpnLoT5hxwdIF8QFIoEoFBgi9p3CV3AhZ68+LTHSqL77thkyMOVg75TFmmH0QAa
+jNtylaz93rE9mMRKc3B5NSASYhyFffg02QgnwewaMhhqBly7FRe3rBVLMnrTJNV1
+Ft8aMSNTGlqQ5DNK5dFMcNT+l8NKXd+iDho5LhG4/KXK16Cxa/FWCpD1W+1xHBLm
+zhOFEcQa7d2yzW8bCymHWnO+YYdXM091idH9NOJGoQieWOh2j/ftsY4q6evMhl/3
+cUTiCMGtaoWZAsriYc0uuqy/hUmk3xE/7AC6Lizzsn7x3QGBL5yZ0IvAqnJpiOrs
+0yZKK+2g0e0dQhkoGCOMahO+FP/WQZd/oOx5XrFwrrV5gby+kSA1B935lDsAALOx
+JXnRP+kTBj/COdHF0kcYltnheduPV1g9sw7IsXw0LCvDAJbLV8pevKRkW33gnHjT
+ZVlWH3O1rSQZYYaFLxyKcfxf
+=rxMe
 -----END PGP SIGNATURE-----
 
---===============1238467341102098833==--
+--===============1231844724256595823==--
