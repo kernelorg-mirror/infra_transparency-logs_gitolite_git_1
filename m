@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0297421496535889086=="
+Content-Type: multipart/mixed; boundary="===============4993155646247473577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 27 Dec 2021 14:05:41 -0000
-Message-Id: <164061394174.9244.539538404410816979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 27 Dec 2021 14:08:26 -0000
+Message-Id: <164061410667.10124.782423134032947410@gitolite.kernel.org>
 
---===============0297421496535889086==
+--===============4993155646247473577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 112e1f9af852023cc474c7a5e619f7694d9c5f7c
-    new: 083f067c8257ab97df72541b9910bd1d692c29dc
-    log: revlist-112e1f9af852-083f067c8257.txt
+  - ref: refs/heads/master
+    old: 49a67129799d8c0e594b0ee43f6b8c4d22b10ca1
+    new: 00f7f70a37928612f09e71e4e2a67662bb1d6e36
+    log: |
+         00f7f70a37928612f09e71e4e2a67662bb1d6e36 4.14-stable patches
+         
 
---===============0297421496535889086==
+--===============4993155646247473577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-112e1f9af852-083f067c8257.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-baea0e833f7612483dcb2351240da19f0d0bc011 scsi: qla2xxx: Synchronize rport dev_loss_tmo setting
-99c66a8868e33522ebc6fd8a99e32f0d544a014f scsi: ufs: core: Fix deadlock issue in ufshcd_wait_for_doorbell_clr()
-efac162a4e4dc4cebcc658e02676821ca834b56c scsi: efct: Don't pass GFP_DMA to dma_alloc_coherent()
-0e4620856b89335426a17904933a92346ee4599d scsi: hisi_sas: Start delivery hisi_sas_task_exec() directly
-934385a4fd5926650b20131bf3a435199a3d0af2 scsi: hisi_sas: Make internal abort have no task proto
-08c61b5d902b70180b517e9f2616ad70b7a98dcf scsi: hisi_sas: Pass abort structure for internal abort
-dc313f6b125b095d3d2683d94d5f69c8dc9bdc36 scsi: hisi_sas: Factor out task prep and delivery code
-20c634932ae8978435645b466c99b3fc1a80545a scsi: hisi_sas: Prevent parallel controller reset and control phy command
-16775db613c2bdea09705dcb876942c0641a1098 scsi: hisi_sas: Prevent parallel FLR and controller reset
-37310bad7fa645b21653fd7f13cb6b376d80c919 scsi: hisi_sas: Fix phyup timeout on FPGA
-4be6181fea1dbfd21a8d73f69d87a6cae2d3023d scsi: libsas: Decode SAM status and host byte codes
-1b8d0300a3e9f216ae4901bab886db7299899ec6 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
-142c779d05d1fef75134c3cb63f52ccbc96d9e1f scsi: vmw_pvscsi: Set residual data length conditionally
-d2fa5693d171ca2fed47d92bab65e6e4ef2ce50c Merge branch 'fixes' into for-next
-083f067c8257ab97df72541b9910bd1d692c29dc Merge branch 'misc' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640614102 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1640614101-ffd22af6bb66b517123f86cc9ff7fb1b0214114c
 
---===============0297421496535889086==--
+49a67129799d8c0e594b0ee43f6b8c4d22b10ca1 00f7f70a37928612f09e71e4e2a67662bb1d6e36 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHJyNYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A7EQAM/GbfBYg5Kg7YWt4COR
+nXLlmCbdo6VSxfuFwigRvRAADkXITMx3pBgqqROs/Y9ZI92cAt7iVMcKiM5NbjLo
+cz7tc/AsKT7TFk6kbqxFNtAvksRUZZJKywY5zyApVrejd69qJw4yQYheuWYGIB+H
+uq3iCHZxTIskQyeM5/CIuqKluq0bF2zc130spuLDUQP9HVxAQglRq2qL/AykYS5X
+kNGLN5TYhQm9aNOhYO8fUZmXwqo3mvlc3kZTrg3QaPVt8t70M2rOrUUx6RmoSfLl
+wnBVs2OXROHZkU1/IUYo5j5ZSkueXpjNz9JNNMm9yn3KoNQ83C/plX43U2I6tZJp
+/nLOvoSKNI9OR0UwnENz0WEPg6YkTxcJYGVqHy86rvHADdt26BWRi731k8spSNDS
+I0Gs6KLg7B2uP4WsJbNJ7nfgo4yThNtbBcMGvrQowJSw98szQbH7yEQR3r5GQG6n
+6uIBUgsnWsZ3Jqw9R2mtBhqy8j770lUPEQOllBsBNgpC1IKTH/9vcY95lDPXUMi0
+r4fmP8V/fj5dkY5WGYheby4kNAgrLjdXkycybTVljiUAwhMkCeDsGZBdZPxETlkA
+OyFWk/DolN+JJHgo4+wZSAjXWu1qYwWxK5hz4mf3Z6RLgBEkByFHWAahRKxcCWt0
+C8efbz3GWjckKpWMyXJ87c+i
+=zJL4
+-----END PGP SIGNATURE-----
+
+--===============4993155646247473577==--
