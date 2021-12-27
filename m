@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Mon, 27 Dec 2021 18:46:24 -0000
-Message-Id: <164063078492.18425.9086272948487805983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
+Date: Mon, 27 Dec 2021 18:54:34 -0000
+Message-Id: <164063127437.22560.12905453574934042370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/nathan/linux
+user: nathan
 changes:
-  - ref: refs/heads/master
-    old: d96dc346ee46d205e01ee363a7f0d9c1b394371a
-    new: 9129392a31774e6b63ab7231f1802a094e7eb90b
-    log: |
-         9129392a31774e6b63ab7231f1802a094e7eb90b [klibc] arm: Remove redundant/unsupported linker option --thumb-entry
-         
+  - ref: refs/heads/submitted/make_task_dead-fixups
+    old: 0000000000000000000000000000000000000000
+    new: 2ce386d53c27a0125e070d9f984a8e1075034197
