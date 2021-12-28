@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5230192169583190619=="
+Content-Type: multipart/mixed; boundary="===============6001338681879918533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 28 Dec 2021 10:48:07 -0000
-Message-Id: <164068848744.12990.14351369952793583479@gitolite.kernel.org>
+Date: Tue, 28 Dec 2021 10:58:12 -0000
+Message-Id: <164068909251.19793.18435970055119251995@gitolite.kernel.org>
 
---===============5230192169583190619==
+--===============6001338681879918533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
-    new: a8ad9a2434dc7967ab285437f443cae633b6fc1c
-    log: |
-         4bc5e64e6cf37007e436970024e5998ee0935651 efi: Move efifb_setup_from_dmi() prototype from arch headers
-         a8ad9a2434dc7967ab285437f443cae633b6fc1c Merge tag 'efi-urgent-for-v5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         
+  - ref: refs/tags/powerpc-5.16-5
+    old: 0000000000000000000000000000000000000000
+    new: 1c581a2d68e5aebb016c642bf969bcd1ad839d04
 
---===============5230192169583190619==
+--===============6001338681879918533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1640688478 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1640689084 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1640688475-8e2e70c8011a9b6317d1698311e7fd8478dd96c7
+nonce 1640689082-5038c41116a5569617e3244fd77f3d0f477332a6
 
-fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 a8ad9a2434dc7967ab285437f443cae633b6fc1c refs/heads/master
+0000000000000000000000000000000000000000 1c581a2d68e5aebb016c642bf969bcd1ad839d04 refs/tags/powerpc-5.16-5
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmHK614THG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgNAXD/wPsjZG+5SDtHoysZqcvi7ZIIPkNBhN
-nW8sBimt6qDWr8kgNFSozLMWZddF41TECI0/X7SL4c7nqiMOcEJYEDIf4MiRx22H
-4pMxgJCUeTeZIUXrF8xOBrhPqXSMDZ0v+RH/zfMqngtNcx7uhA0/S+tD99SO0WW2
-ODKxDan6u83b+SIVe7iAIZGGdLJLQ5r47hsyjSbc92r0GvbbRAy5kldQrXk6FRS8
-bzipmpuBDM/SEZw01TNxfvCHJCBX2TFc7t4jJ+8RmrdP0CF9wXHHRkz5rh1nHkIt
-R9XDQ0HbbhDHyLEe0jwfRwuUcxDSw3TtBQicPjMnVOp9Pzroy5GR3YDekMKZS42s
-7SNg3n9PtRRmLd4EJ+f7I+YHUJuKjLaCaLlqlnWmJQKEzuQ0DFfowKS0eQ1BPBtN
-OXnQDxt2+t6kqAQAi1G79Qb4Wrtjcvj85/axi25WJFAQrriY2pDMs9dUWiguFRlg
-EGB6MbHIy154d/5QfeGomwPQqO8ZSEB1sXqxCN821N9kbkZzqg7+Lxbf6Zpt3axu
-xYy0iKQhgeCPPGIfF94OP8WXIh/ezU6G13eXMG5ENTHwgiQoicetRq4bdFwH6Jyw
-IkMvB7XJyipM4aNPQFdeeUEw7TcyJiEZNnBKCll8AWp5QqRQ+cTEsEm4d3cXJ21o
-pdnWWTd0Wlt4BA==
-=9uI9
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmHK7bwTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgNDND/97jn+cCSd9ovQf23FHjcC1ofZa9doq
+Ynqhlvjv5/Vo4c0Y5JFN1esu0vMuWfj7Z8hXfegYznGNk/yhWJD7X4JNcFDMzH0O
+WDekeIEz4eOhPNkqd1Ctx+8Bqh0o8f4pN/nR4vD8X5ztgrkTkwJtsIAynvHEjAm+
+P7Z7Xrr7lr0yY51FLVZmVAfUBUqlozL4nbaq5NspyohZH1sZrQ2iCLB93FO4dQXH
+mCHDU+Gyx70HGQQwsLOzD8KVsVsA4WE4xxi2AzKgqSo/ZNBOchlriIDT5j0iLKmJ
+p1+iL5Ixjk0IggF4YK7EMGYLH7oCiDXSg1Ogn6TrIxlZyFb/2lH7zQJfNj8p9Nm3
+NQ6K1jv0WXOPDeJ/351V8UpttMDANbA6qIxpNphUx9Mgp7rd3LbhomNTzBYsEFBX
+0f9Nd9NxlHe7QTB7NR0NJfMldtaC3YXOM2FfFW/oANYxC33aJCEeUrwpbY3rI5EM
+3trKrsux6V3ZaaVnKelatufe8zMRwXveJEKW6qxAFu3NRKND84sz5HPuRBhn2Akx
+mwSwqikqkouWx2xt9288CH0KOiAX+HDO+IMItdWZ2PvDbGDxKaob4NX1CsdokzWL
+mo96wdhwpOOlW3r7dEabUCYmPXXvonOegesOy27X+dSZAYUwCQcrTIm409VyEg79
+on1MyBclKu7qpA==
+=AhvI
 -----END PGP SIGNATURE-----
 
---===============5230192169583190619==--
+--===============6001338681879918533==--
