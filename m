@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Tue, 28 Dec 2021 09:11:59 -0000
-Message-Id: <164068271970.22380.11221056926126368785@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1285264522008941652=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 28 Dec 2021 10:09:04 -0000
+Message-Id: <164068614404.22356.16556354929593872456@gitolite.kernel.org>
+
+--===============1285264522008941652==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a04f69025003890be265e007238dc91041e5529b
-    new: c0c2e115f82ed3bc5f9d3f9e5380f0f7e81a1c21
+  - ref: refs/heads/driver-core-next
+    old: 67e532a42cf4c6c214ed39e33e617bca29508f4e
+    new: ee6d3dd4ed48ab24b74bab3c3977b8218518247d
     log: |
-         cd5f69cbc0d4bc34a509b5f6f62234e25893b684 tests: setprop_inplace: use xstrdup instead of unchecked strdup
-         c0c2e115f82ed3bc5f9d3f9e5380f0f7e81a1c21 Fix a UB when fdt_get_string return null
+         ee6d3dd4ed48ab24b74bab3c3977b8218518247d driver core: make kobj_type constant.
          
-  - ref: refs/heads/master
-    old: a04f69025003890be265e007238dc91041e5529b
-    new: c0c2e115f82ed3bc5f9d3f9e5380f0f7e81a1c21
-    log: |
-         cd5f69cbc0d4bc34a509b5f6f62234e25893b684 tests: setprop_inplace: use xstrdup instead of unchecked strdup
-         c0c2e115f82ed3bc5f9d3f9e5380f0f7e81a1c21 Fix a UB when fdt_get_string return null
-         
+
+--===============1285264522008941652==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640686143 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1640686142-9b7e9b6afb9b18400fb42c8a1b85a8088aafc9d1
+
+67e532a42cf4c6c214ed39e33e617bca29508f4e ee6d3dd4ed48ab24b74bab3c3977b8218518247d refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHK4j8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rtAQALTZZB+GRgopL9oLSKDM
+mptOhWBkpKY7kOoA+MDjBBQ8UAq8fJAZXaMGAJnPgDlOM5vHgRhQZJHlFWtAbYnC
+U8I4ztYqYwza+HEtjLs3ry6qYNxug19HCQBOmtqAPb1srQ20oPXYSGHEGfkvXzGz
+KFj0+WmP0JU3xgl5BKwGbHbLX/RKvUaYZZ3hIo9cytABhcw+tGbu89gFvCWKpWRS
+FAzvEwZUPchE8lPtlqZKQskPZI7AAfKh8ZvCi7E/io4VOWmsrESt/eNu53+9N+I/
+mzjlSRfRw/bYTX/4P3Vk4WWk+JQ+SmAUqfpLZg2PVqMtaO1gTdPTVuDlz8ktz7MA
+wk2j0lR6b60/6/w+nse9cACOm18jVQ0CM1Oe+96uTxgv8v/KESTJf6phWjRXlMSD
+3KN2E7luhiViZMRT453+TiVp/vlqmi1fC4yni3lHE7HZOSI2zb4xdzLIAmoboppi
+wgfUNpQtKvHwPU7oiuEmqln6EKWf6eQv63Adg6OS2RLTZYNH3BAsxujUipUJR4Ew
+AS57iwFW3m5/z56nBmFQp5ZdGy/s68y5DLI75PMN+GO26nX6wvo4lf4yho/iHeSD
+Ts1vMYx1H3g9C9g7Zi3Mn7795Icomw/PueKAw/r9QFg1xMuFpwdtZVIx3+8dz5kL
++hkTLspy1da1ux8ca9il+oEq
+=GkWK
+-----END PGP SIGNATURE-----
+
+--===============1285264522008941652==--
