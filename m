@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 28 Dec 2021 12:09:32 -0000
-Message-Id: <164069337252.28784.10834551604710232457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Dec 2021 12:12:17 -0000
+Message-Id: <164069353770.31065.1515431589323740703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/kvm-arm64/selftest/pauth
-    old: 0000000000000000000000000000000000000000
-    new: ca84c26b2bcd3db54b744a67ebb6c6f94b85b311
+  - ref: refs/heads/master
+    old: 79b69a83705e621b258ac6d8ae6d3bfdb4b930aa
+    new: 8b5fdfc57cc2471179d1c51081424ded833c16c8
+    log: |
+         8b5fdfc57cc2471179d1c51081424ded833c16c8 mISDN: change function names to avoid conflicts
+         
