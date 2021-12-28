@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 28 Dec 2021 20:40:12 -0000
-Message-Id: <164072401258.12512.4671216666863675932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 28 Dec 2021 20:46:46 -0000
+Message-Id: <164072440604.15870.9308485012822194434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: c29f1c7aa26b8fd25927a600299e33145b955791
-    new: 300d042fbe232326ae4217be6e4df7bd40ca723f
+  - ref: refs/heads/x86/cleanups
+    old: bc7aaf52f963674690510e6c1f3710cd0394b25e
+    new: 0be4838f018c10d7f138a213c006d345db35ef5b
     log: |
-         300d042fbe232326ae4217be6e4df7bd40ca723f Tue Dec 28 08:39:38 PM UTC 2021
+         0be4838f018c10d7f138a213c006d345db35ef5b x86/events/amd/iommu: Remove redundant assignment to variable shift
          
