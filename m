@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1285264522008941652=="
+Content-Type: multipart/mixed; boundary="===============6399459912367419854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Dec 2021 10:09:04 -0000
-Message-Id: <164068614404.22356.16556354929593872456@gitolite.kernel.org>
+Date: Tue, 28 Dec 2021 10:36:18 -0000
+Message-Id: <164068777898.6533.16459083006323852500@gitolite.kernel.org>
 
---===============1285264522008941652==
+--===============6399459912367419854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 67e532a42cf4c6c214ed39e33e617bca29508f4e
-    new: ee6d3dd4ed48ab24b74bab3c3977b8218518247d
+  - ref: refs/heads/driver-core-testing
+    old: ee6d3dd4ed48ab24b74bab3c3977b8218518247d
+    new: cf6299b6101903c31bddb0065804b2121ed510c7
     log: |
-         ee6d3dd4ed48ab24b74bab3c3977b8218518247d driver core: make kobj_type constant.
+         cf6299b6101903c31bddb0065804b2121ed510c7 kobject: remove kset from struct kset_uevent_ops callbacks
          
 
---===============1285264522008941652==
+--===============6399459912367419854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640686143 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640687777 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1640686142-9b7e9b6afb9b18400fb42c8a1b85a8088aafc9d1
+nonce 1640687777-7dcbd22c4daa8c7cf830fea9bd5c9e31d6875ac3
 
-67e532a42cf4c6c214ed39e33e617bca29508f4e ee6d3dd4ed48ab24b74bab3c3977b8218518247d refs/heads/driver-core-next
+ee6d3dd4ed48ab24b74bab3c3977b8218518247d cf6299b6101903c31bddb0065804b2121ed510c7 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHK4j8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rtAQALTZZB+GRgopL9oLSKDM
-mptOhWBkpKY7kOoA+MDjBBQ8UAq8fJAZXaMGAJnPgDlOM5vHgRhQZJHlFWtAbYnC
-U8I4ztYqYwza+HEtjLs3ry6qYNxug19HCQBOmtqAPb1srQ20oPXYSGHEGfkvXzGz
-KFj0+WmP0JU3xgl5BKwGbHbLX/RKvUaYZZ3hIo9cytABhcw+tGbu89gFvCWKpWRS
-FAzvEwZUPchE8lPtlqZKQskPZI7AAfKh8ZvCi7E/io4VOWmsrESt/eNu53+9N+I/
-mzjlSRfRw/bYTX/4P3Vk4WWk+JQ+SmAUqfpLZg2PVqMtaO1gTdPTVuDlz8ktz7MA
-wk2j0lR6b60/6/w+nse9cACOm18jVQ0CM1Oe+96uTxgv8v/KESTJf6phWjRXlMSD
-3KN2E7luhiViZMRT453+TiVp/vlqmi1fC4yni3lHE7HZOSI2zb4xdzLIAmoboppi
-wgfUNpQtKvHwPU7oiuEmqln6EKWf6eQv63Adg6OS2RLTZYNH3BAsxujUipUJR4Ew
-AS57iwFW3m5/z56nBmFQp5ZdGy/s68y5DLI75PMN+GO26nX6wvo4lf4yho/iHeSD
-Ts1vMYx1H3g9C9g7Zi3Mn7795Icomw/PueKAw/r9QFg1xMuFpwdtZVIx3+8dz5kL
-+hkTLspy1da1ux8ca9il+oEq
-=GkWK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHK6KEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zJ4QALch3vYMEgyb/pWIuy7g
+yesijLRBbcBeUoWqhjDdjue6hrJrdsHAjt+/ymh0P+2esjHtGU6Z04tjlpPBLucp
+076D75lv1p8S4mZ6Y848m8z2krhPdr0lOp1Fwm/GyXHy1q4qQhLdXkTU4McH+5yz
+WmE3tD72WSnVRuKYGS16vkrkGUibU24AUwR58Dx9mM7MOVjCDQWRuwsmGlvaDSJ4
+GS5x/6yjr/is3WEp3YafxBQJkB2a8fPev+3s+/Nf8wtpHmaNOif0cg5pojEOVD2K
+ediqH867mh7QTzVLwS5LyLNg7JEYbF7CYj/6fi760nNzqtsfcAMK+VaAWDLoJIvm
+NFHYIzZACGEwVtoTbLCeFzj/8RcJfA1pcnOzD+4MnzM3Oe50XrsSjV0DtSYmMyxG
+ac7FJLSTwi/+eap4rYH58pQgFCtetRnks473CxlPejl7lBqcaVaH1LlEa4wtMOKu
+3Mdu00jHOUlbdzo4FtR+ZTo2DNWZB+uLly5sBCRKPrEoQeWu6Cup690k5ozDCgT/
+/20bPnZd4qv80fimtC9OiE38ErCR7lNAr3t1UvcFW1dqDYC4/PNu+LGgyRMSueP3
+KrjcPvCSFaVH1DYh+lE2XqiQR7Xx+HL62R+HLOVo5zjFmvh8krxoBT9AjvS+vhnS
++OVBSwTQPkeoWj88qhhugITx
+=K38+
 -----END PGP SIGNATURE-----
 
---===============1285264522008941652==--
+--===============6399459912367419854==--
