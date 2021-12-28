@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8284189098985414803=="
+Content-Type: multipart/mixed; boundary="===============5230192169583190619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 28 Dec 2021 10:36:33 -0000
-Message-Id: <164068779370.6669.6610473963203686089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 28 Dec 2021 10:48:07 -0000
+Message-Id: <164068848744.12990.14351369952793583479@gitolite.kernel.org>
 
---===============8284189098985414803==
+--===============5230192169583190619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 78556b817c9fefe53b1557e47e0613528a0b71fe
-    new: cf6299b6101903c31bddb0065804b2121ed510c7
+  - ref: refs/heads/master
+    old: fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2
+    new: a8ad9a2434dc7967ab285437f443cae633b6fc1c
     log: |
-         cf6299b6101903c31bddb0065804b2121ed510c7 kobject: remove kset from struct kset_uevent_ops callbacks
+         4bc5e64e6cf37007e436970024e5998ee0935651 efi: Move efifb_setup_from_dmi() prototype from arch headers
+         a8ad9a2434dc7967ab285437f443cae633b6fc1c Merge tag 'efi-urgent-for-v5.16-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
          
 
---===============8284189098985414803==
+--===============5230192169583190619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640687792 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1640687792-bcdf015898fc5e90745d78ae8ab05f9668ae631e
+pusher Michael Ellerman <mpe@ellerman.id.au> 1640688478 +1100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1640688475-8e2e70c8011a9b6317d1698311e7fd8478dd96c7
 
-78556b817c9fefe53b1557e47e0613528a0b71fe cf6299b6101903c31bddb0065804b2121ed510c7 refs/heads/kobject-const
+fc74e0a40e4f9fd0468e34045b0c45bba11dcbb2 a8ad9a2434dc7967ab285437f443cae633b6fc1c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHK6LEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J2IQANiNAx05EYMxwehJK/Pj
-wqOkYMvanhB3IS3SYGQWxIc8z/dkM7QHGGUNaHaWmhUrsdqGjTP8YjR5lww1dwd5
-53y91h/hRl/yTSJrldfgQ7wqg8Ta9ke2FF06DkCZHSiraN6wDjt4FOMOsE3GLDas
-r2rpvbfW7KBdGrVXeHsu31Cu2BxQbQ56NinZSBQ677VOPjmtRMRXK7ALoVEg/QT+
-eq7SRLdmQVH368Hp1dHY4I+cOonxpBZ8Z4edku7a2qHcUAxNXnwd7IK/ckhcD6b4
-lGgoY/8SCpRVs0Qpucq6IPvJ2BCmPONvpiUARUUC1NsMOSDGrrBXBl04nl1ygRbf
-TpZy13SDY+p0/zUrI+WQHpGyFijamSCB1HPU9dvJY4iknTgLBfAoFtE6SuiN5ST+
-omrJOXUmrix8tayPA6E2ZwWNrfk1sbjHufoz6gYtrPj7IYwnGjbKNzHV/7e7oJm9
-tbLIgclUzRH8TynCwCDSyAHnJCjykUBIB6ZDLQu/G6MxHcGPZiQzVTqGIAbPiP6a
-2TsoBOYWMUkOumRUC2GO49ArXTJ20JYo84aoTINrJDp5ryaRqqnTNqOWew7btCfL
-Luq+VJMyQiGi6sYQ6k0zptS/9wBn3gZQVdJ1jgkVBWOgjvRbv6N5/L/cbXFs6Qeg
-10hTs+LFdb+io1WZ/mn9AKcm
-=I0RL
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmHK614THG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgNAXD/wPsjZG+5SDtHoysZqcvi7ZIIPkNBhN
+nW8sBimt6qDWr8kgNFSozLMWZddF41TECI0/X7SL4c7nqiMOcEJYEDIf4MiRx22H
+4pMxgJCUeTeZIUXrF8xOBrhPqXSMDZ0v+RH/zfMqngtNcx7uhA0/S+tD99SO0WW2
+ODKxDan6u83b+SIVe7iAIZGGdLJLQ5r47hsyjSbc92r0GvbbRAy5kldQrXk6FRS8
+bzipmpuBDM/SEZw01TNxfvCHJCBX2TFc7t4jJ+8RmrdP0CF9wXHHRkz5rh1nHkIt
+R9XDQ0HbbhDHyLEe0jwfRwuUcxDSw3TtBQicPjMnVOp9Pzroy5GR3YDekMKZS42s
+7SNg3n9PtRRmLd4EJ+f7I+YHUJuKjLaCaLlqlnWmJQKEzuQ0DFfowKS0eQ1BPBtN
+OXnQDxt2+t6kqAQAi1G79Qb4Wrtjcvj85/axi25WJFAQrriY2pDMs9dUWiguFRlg
+EGB6MbHIy154d/5QfeGomwPQqO8ZSEB1sXqxCN821N9kbkZzqg7+Lxbf6Zpt3axu
+xYy0iKQhgeCPPGIfF94OP8WXIh/ezU6G13eXMG5ENTHwgiQoicetRq4bdFwH6Jyw
+IkMvB7XJyipM4aNPQFdeeUEw7TcyJiEZNnBKCll8AWp5QqRQ+cTEsEm4d3cXJ21o
+pdnWWTd0Wlt4BA==
+=9uI9
 -----END PGP SIGNATURE-----
 
---===============8284189098985414803==--
+--===============5230192169583190619==--
