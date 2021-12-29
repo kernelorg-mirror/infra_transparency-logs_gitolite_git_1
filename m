@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2409899013992847983=="
+Content-Type: multipart/mixed; boundary="===============8405308370604220286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 29 Dec 2021 14:25:12 -0000
-Message-Id: <164078791219.8443.16488893676288465819@gitolite.kernel.org>
+Date: Wed, 29 Dec 2021 14:53:55 -0000
+Message-Id: <164078963579.24980.8809710572714828259@gitolite.kernel.org>
 
---===============2409899013992847983==
+--===============8405308370604220286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 0b341a62afc9ed36e0bcf683445531a70e6f2e52
+  - ref: refs/heads/master
+    old: 0c222d35beafae177ba04ec436ba16febb5fdfbb
     new: 2400c25ea70f20c3b6b8a41f1b66248ec77bc882
-    log: revlist-0b341a62afc9-2400c25ea70f.txt
+    log: revlist-0c222d35beaf-2400c25ea70f.txt
 
---===============2409899013992847983==
+--===============8405308370604220286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b341a62afc9-2400c25ea70f.txt
+Content-Disposition: attachment; filename=revlist-0c222d35beaf-2400c25ea70f.txt
 
 0a59e4a6eda75e78b988ef34f7a749e902eb946b headers/deps: Add header dependencies to .c files: <linux/tracepoint.h>
 58fd738549170388395c826fb1b632a17b5d9dd7 headers/deps: Add header dependencies to .c files: <linux/u64_stats_sync_api.h>
@@ -1051,4 +1051,4 @@ f7f8121818ab3a2c3e15e876a5a2221af111110f headers/deps: x86/stacktrace: Optimize 
 07ecc82d6c66fa93a31016e91a3cb253b38c4a04 headers/deps: time: Optimize <linux/time64.h> dependencies, remove <linux/time64_api.h> inclusion
 2400c25ea70f20c3b6b8a41f1b66248ec77bc882 headers/deps: sparc64, mm: Define simple constants earlier
 
---===============2409899013992847983==--
+--===============8405308370604220286==--
