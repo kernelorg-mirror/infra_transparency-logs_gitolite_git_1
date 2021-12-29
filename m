@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4083005253644499369=="
+Content-Type: multipart/mixed; boundary="===============4652682189951205815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 29 Dec 2021 18:29:03 -0000
-Message-Id: <164080254391.20513.7272078111242786713@gitolite.kernel.org>
+Date: Wed, 29 Dec 2021 18:29:48 -0000
+Message-Id: <164080258871.20785.5410239129624442769@gitolite.kernel.org>
 
---===============4083005253644499369==
+--===============4652682189951205815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 43aa323e315bec40779fe2899f7b531773d7b733
-    new: 63064451d0b8359999e7e8c4fd92951d96f5a057
+  - ref: refs/heads/char-misc-testing
+    old: 63064451d0b8359999e7e8c4fd92951d96f5a057
+    new: 0fa328796b985930a62aafc4775a1ef8ac8077cc
     log: |
-         0ac467447dde20d3b186b13cb315644483416c52 UIO: use default_groups in kobj_type
-         63064451d0b8359999e7e8c4fd92951d96f5a057 cxl: use default_groups in kobj_type
+         da35a7b526d9b258a2cb8b7816f736a41b32176b iio: frequency: admv1013: add support for ADMV1013
+         ce6d7056cc806099acff8cd89d95bdc6f53593db dt-bindings: iio: frequency: add admv1013 doc
+         f407c2374af64202c7b278580d22f81eec6f33c0 Documentation:ABI:testing:admv1013: add ABI docs
+         bde65965b8ec59637c9b785dfbb9ce82a61af50f MAINTAINERS: add imx7d/imx6sx/imx6ul/imx8qxp and vf610 adc maintainer
+         088879292a0a3672a6acc9215174fbc355ed3daa dt-bindings:iio:adc: update the maintainer of vf610-adc
+         38ac2f038666521f94d4fa37b5a9441cef832ccf iio: chemical: sunrise_co2: set val parameter only on success
+         0fa328796b985930a62aafc4775a1ef8ac8077cc Merge tag 'iio-for-5.17b' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
          
 
---===============4083005253644499369==
+--===============4652682189951205815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640802543 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640802587 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1640802542-cde47dc4ce518be1fb3b54685ed8b39ff341875a
+nonce 1640802586-8dfd4e9a6bea15cebbc4011aecb685733c2edcf1
 
-43aa323e315bec40779fe2899f7b531773d7b733 63064451d0b8359999e7e8c4fd92951d96f5a057 refs/heads/char-misc-next
+63064451d0b8359999e7e8c4fd92951d96f5a057 0fa328796b985930a62aafc4775a1ef8ac8077cc refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHMqO8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dYsP/2jnUQuP7T3F90hNYIfB
-zW9NUILEuc8e3BXxR7X/mR19pPUD9Jgj21NYiDo6GypOIy1gBal47v+rTEO740fl
-+vP5PkGH8DJr3iCVGui70AHoQYhA4jgoouSlcGdGBvGAi8SWJt/f8mPrgHnE91Xw
-MNvhUEdXjqG0lTLLDUjcbtEVh/KUM1SmDB0DrlitK/Xu+7XeD/b+0eYruWhSYRat
-UctzuUJqbJOpMPIH3jzpSVVKiYlEvkc1T18MIESZHE/jcV3q+s2MRNo7TK+GuO7Q
-DGNDVRio1Ov6dEp2NtYCNtRRC0kfFxOvDdUxMw3ye61UsJvLR6gb73uc2WSq5XhI
-9uGlXqsyx2y2aefMGnEbzIcDAXVYDsT+J10ycJJCkfvkl29eEGh0xmCYxLbxiPiy
-yWHVZqAP4uaP+psGUdHikv+Yezac95pXbrn78k89hI8nuU2nkLE6zwNmJWO1lQvM
-2ZdCypTt9tTM0rHmvymXmFWEJWMMX8fFHGztUKX2MFo9igaJcYKpvU2huI69WzTb
-bZB0TQnaQw5iOvL2fWTC4IZ8G33OpAFurUm66DU8sT4p1voQ0mRm0gyYH+KKkCd0
-7QRiu7hIEXVjbiUCGDfPhKEBHPX8nXQWcSDwVTbASHMsI0W70NxLWjSSQvup08Ee
-7mS8wDNpH7r2MmyiuPac5YmL
-=/7U3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHMqRsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TmsP/2fcph3OrnBJSaQxEjCp
+A1GIUJGh5+WupEbHZZmtAZiSf06EY4zpg8jtBl2beNrB1Pm5F3/xjT2SgPXA7peY
+Dm5NLfYkbb/994soodOZjlo4l7Oy/kPeqYlbnNdL8u9B+9/NhD4OV2ojoF4y5ODK
+9OaJS7OElsdAyZTB3pmh+4ho4aJdoDSSEhzM+IzEj3wTjLHkpSPFQ+9VYN2kuEt0
+TWJb1R9QIYgDGmdkqE7YBEj3wYR0jivK6GEF98XCW8NjSOKz+dT6PJtlH6F/qePc
+dooK5edVZzzqNcSvZIouv7oEz2Zdgkw9cVHmDctndfMwo5lUOh0zpUuxfxwwGNvH
+55k/wIXg6yjbx+Y/ozTk9VER6wmgYtwInuAIIA1Z/DzC3f95EomKuHTrlbsyqua4
+I6400gqK6eTpJvpMHjAF2NYJQP8yZ+4DGbiWY5cLpjs7OVqhUKjcXZZAhJ9xTsm0
+9JcDsVKfm6fGWhIGrDs3M8HgH5uXIU5wC36ufesKkH+S/lyu96G+Lf+GwXiW245J
+syzIJMJ7ifuOotInEGSJTZo9DMtIM1SraIL5KqBaTtkABtPbDKT9iko2agrw4uKt
+cXGf4bwzFvqzd/wgI/+czANaZM5aS5pkVwo1oKxkwArU9cE2FehCzQH0KDnDMq9H
+n/vmhpABPfmKCwubEXdrrZga
+=PttV
 -----END PGP SIGNATURE-----
 
---===============4083005253644499369==--
+--===============4652682189951205815==--
