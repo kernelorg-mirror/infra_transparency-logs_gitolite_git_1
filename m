@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4991717283075457953=="
+Content-Type: multipart/mixed; boundary="===============0380955343986440050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 29 Dec 2021 18:43:20 -0000
-Message-Id: <164080340017.29379.12330419192724630437@gitolite.kernel.org>
+Date: Wed, 29 Dec 2021 18:45:06 -0000
+Message-Id: <164080350657.31357.11778528828341818497@gitolite.kernel.org>
 
---===============4991717283075457953==
+--===============0380955343986440050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 0f1eae8e565e632f64670a5730894f22819fcaad
     new: 9ed319e411915e882bb4ed99be3ae78667a70022
     log: revlist-0f1eae8e565e-9ed319e41191.txt
 
---===============4991717283075457953==
+--===============0380955343986440050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c15500198916cb6f553b43f63070990b8d079b49 ixgbevf: switch to napi_build_skb()
 271d3be1c3b6b0be083a99254a0ecac41789929b Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 9ed319e411915e882bb4ed99be3ae78667a70022 of: net: support NVMEM cells with MAC in text format
 
---===============4991717283075457953==--
+--===============0380955343986440050==--
