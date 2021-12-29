@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 29 Dec 2021 11:33:13 -0000
-Message-Id: <164077759343.4668.17345427410622708446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 29 Dec 2021 11:33:17 -0000
+Message-Id: <164077759733.4750.4083335912409094197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/sched/headers
-    old: 81951dbe41810f660168e8436db15d4f77390ebd
-    new: 2c75c721298cd64ebd0aaa1dd5aec9e3ccb07bfd
+  - ref: refs/heads/master
+    old: 271d3be1c3b6b0be083a99254a0ecac41789929b
+    new: 9ed319e411915e882bb4ed99be3ae78667a70022
     log: |
-         d1ec447a0c13fe9d1850c51b76665e7beb7efba8 headers/deps: Add header dependencies to .c files: <linux/export.h>
-         2c75c721298cd64ebd0aaa1dd5aec9e3ccb07bfd headers/prep: kprobes/test: Make it depend on CONFIG_STACKTRACE
+         9ed319e411915e882bb4ed99be3ae78667a70022 of: net: support NVMEM cells with MAC in text format
          
