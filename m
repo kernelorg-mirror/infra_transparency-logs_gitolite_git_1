@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4357587447185685508=="
+Content-Type: multipart/mixed; boundary="===============0878005345414901337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 30 Dec 2021 16:32:12 -0000
-Message-Id: <164088193295.6517.8634174983561705734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 30 Dec 2021 16:33:09 -0000
+Message-Id: <164088198914.6844.12544020199892514669@gitolite.kernel.org>
 
---===============4357587447185685508==
+--===============0878005345414901337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/net-next-mlx5
+  - ref: refs/heads/master
     old: 9ed319e411915e882bb4ed99be3ae78667a70022
     new: 49dc9013e34b205bae9d7a5f365a3da33c508c9d
     log: revlist-9ed319e41191-49dc9013e34b.txt
 
---===============4357587447185685508==
+--===============0878005345414901337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -114,4 +114,4 @@ dda0c2e7ed21d7db1568920366e616c6c037b814 net: lantiq_etop: remove unnecessary sp
 c09f103e89f4554b17c68c3a0a50140fc9133352 ethtool: Remove redundant ret assignments
 49dc9013e34b205bae9d7a5f365a3da33c508c9d net/smc: Use the bitmap API when applicable
 
---===============4357587447185685508==--
+--===============0878005345414901337==--
