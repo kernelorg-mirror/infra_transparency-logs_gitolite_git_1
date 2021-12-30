@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0513172749304092460=="
+Content-Type: multipart/mixed; boundary="===============2348893619224147529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 30 Dec 2021 13:12:36 -0000
-Message-Id: <164086995608.12524.11182839278684777243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 30 Dec 2021 13:20:06 -0000
+Message-Id: <164087040652.17511.16842118221901397453@gitolite.kernel.org>
 
---===============0513172749304092460==
+--===============2348893619224147529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e75a58db41df67e6282104aaae073bc8b43b8dc8
-    new: 6b0b80ac103b2a40c72a47c301745fd1f4ef4697
+  - ref: refs/heads/staging-testing
+    old: 512cdc60e65bb9bf3f65e70b6b161f3a7561a998
+    new: 12b31d07b0ceb723821394b414c02db64468f1f2
     log: |
-         fcee5ce50bdb21116711e38635e3865594af907e misc: lattice-ecp3-config: Fix task hung when firmware load failed
-         6b0b80ac103b2a40c72a47c301745fd1f4ef4697 mei: hbm: fix client dma reply status
+         95b47a04673fa46b2f8a0bb19cacebb714a91ed8 staging: vc04_services: bcm2835-audio: avoid the use of typedef for function pointers
+         072590cc4f701ae35818f87d56c22b0f3dfeaa3d staging: vc04_services: bcm2835-camera: avoid the use of typedef for function pointers
+         12b31d07b0ceb723821394b414c02db64468f1f2 staging: vc04_services: update TODO file
          
 
---===============0513172749304092460==
+--===============2348893619224147529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640869954 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1640869953-d5d10908ec4140c83e881ce1b95a9f78dff12ac7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640870405 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1640870404-5dd5b834338252c3cb3f2a5d63ff1a888c501653
 
-e75a58db41df67e6282104aaae073bc8b43b8dc8 6b0b80ac103b2a40c72a47c301745fd1f4ef4697 refs/heads/char-misc-testing
+512cdc60e65bb9bf3f65e70b6b161f3a7561a998 12b31d07b0ceb723821394b414c02db64468f1f2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNsEIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uUsQALrD5UGYfMsOQNVIGEOf
-nCZG6qcr2wEw+pU+V3a7i0Sc799Wo5RTbeY5fgnloEbZ0140SDZau7Df+bFbXxxt
-fbbB4diZW2sVZ6yTYNL055N9B1Rx8wLbD/e05rxZ7x2AQ9P0z4d1+n96ZVeZtDln
-Z4vJNEgxxpGqfg9D4PfEITpTG5I5gnMS3Mrx2HHbrNje/+T6bHC28r66E3BTDGPF
-IvyyqQfMp8aMZonpy6s7ej3tn0UxWAyRc8Gw4kMEXqqn5X+WvUf/uVDgYoFy8DCN
-B+vKHJRjWDY7fw/at3eCegeLWsVIs4KJXUKnzDQNMGnz2filxEdGM62R9VmAO1nd
-J6xDQE7XV4oLlXaIxAk5jisFQzgNIqlDUm3rgJCIqRc/QcIjTbaC0E7YUBwjHKiG
-1Gv9OGy2btO7Rm8KGaFZK5G5gEs2sqhHioDGzJQMuX2wmhBTc+MfjrO7Edse+Jll
-MW5OEVnafXPQMu9q4xyvDcjLIyeuLQcgRqhhIwjKHYOttCAjwToFDX+6N1P6Tdtb
-GdknXu1SbTExxtunukl4SGhzBbj982hGdheNAwROdSrZENra+CSk6SemlBgrb17x
-ZEfRbaHIJYgCL0iC5yufg8AO/f6yq7hPXaoKufQBSnlyskBmFRrvmyaecrsCNND2
-/gf2E3M2T9PcHOt3x0xSKrVa
-=a/SL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNsgUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GjMP/RpY3a4gWnE/XvXPbRiB
+TTw1w7NTC3Y1plmFvwPOT5ct4Rz6oVLH+a8gwzbummEZ7IlWDKFI9emz7rgbGAZo
+tsGn0OW7Ec3IsIY794xUpqSjWljOHIJ7sU5ziar5/8JLkSdkwbTGuFLIdu+96Qtz
+9472R8q6cEod1Wiwt84UWH3+tPVeO+cd5rUyj2+utJZtefHCJWypdqUgyfO/8g3w
+Y5rzibuXT/yl5v+qCb34a2m9eB87WKqIZh3SxIrqz4W/e/pTkHl/ycpW3O6E85kL
+Hi+azBZEOZzSEr9mkFA7gJkVK3Vxl76hX5pkMrydJQzcsGd2l8w9G7R6Sb7PV/QT
+OGw7uHCFt/KkmxzYoYwR3Jf8aOb1Z81YaiDit9MzL+MX3GNUKuVfLhp0NNeaSx85
+0z4xll5BThLrAK6QAYLDHLN0/ng1fpu3DmNNmszrvicvJlyKT6insrkWHGfKJzDp
+5Ub2vzR/usqxJ8ByppsmlCRIUo/bAaywWnJ3/MRnHbAOv3VN6BF53pZCNj54p8vg
+zM17MzocQRuZVB775kZCLLTaImBHjXVC89bOvHyvTmYzrQCxYbSOy/qhCZRPk1Da
+38wTcz+POcVRlyQXCzZ+CcwSv4OmdKifQtkM9shTx8ogloKA2zrNf+ks/djIqK+e
+kwXt0iy2Bows5NQX6INnpiVJ
+=ZQGx
 -----END PGP SIGNATURE-----
 
---===============0513172749304092460==--
+--===============2348893619224147529==--
