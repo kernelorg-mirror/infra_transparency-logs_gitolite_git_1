@@ -1,35 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 Dec 2021 07:49:48 -0000
-Message-Id: <164085058879.31371.9814173368323216473@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3763425917170181906=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 30 Dec 2021 07:54:33 -0000
+Message-Id: <164085087348.3131.6937649704067268388@gitolite.kernel.org>
+
+--===============3763425917170181906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/auto-latest
-    old: fb1b8c9e763da42cbc98abf4cc318408350cbb07
-    new: 2ad9a070f0d50bbb03200c1554bb2c9749987d97
-    log: |
-         244122b4d2e5221e6abd6e21d6a58170104db781 x86/lib: Add fast-short-rep-movs check to copy_user_enhanced_fast_string()
-         d6f12f83989bb356ac6880a954f62c7667e35066 x86/build: Use the proper name CONFIG_FW_LOADER
-         030858b50c9410123a5cf4ce92c0af236e7e6972 Merge branch into tip/master: 'x86/urgent'
-         76345f42a55080e340928f5bc05b78bc277729d0 Merge branch into tip/master: 'x86/cpu'
-         ff936357b49681cf823ca82a565dbdd0fd439819 x86/defconfig: Enable CONFIG_LOCALVERSION_AUTO=y in the defconfig
-         2ad9a070f0d50bbb03200c1554bb2c9749987d97 Merge branch into tip/master: 'x86/build'
-         
-  - ref: refs/heads/master
-    old: fb1b8c9e763da42cbc98abf4cc318408350cbb07
-    new: 2ad9a070f0d50bbb03200c1554bb2c9749987d97
-    log: |
-         244122b4d2e5221e6abd6e21d6a58170104db781 x86/lib: Add fast-short-rep-movs check to copy_user_enhanced_fast_string()
-         d6f12f83989bb356ac6880a954f62c7667e35066 x86/build: Use the proper name CONFIG_FW_LOADER
-         030858b50c9410123a5cf4ce92c0af236e7e6972 Merge branch into tip/master: 'x86/urgent'
-         76345f42a55080e340928f5bc05b78bc277729d0 Merge branch into tip/master: 'x86/cpu'
-         ff936357b49681cf823ca82a565dbdd0fd439819 x86/defconfig: Enable CONFIG_LOCALVERSION_AUTO=y in the defconfig
-         2ad9a070f0d50bbb03200c1554bb2c9749987d97 Merge branch into tip/master: 'x86/build'
-         
+  - ref: refs/heads/sched/headers
+    old: 87f18064e2e64f581bcece30e0ece27892f92aa7
+    new: cfaa54cec5d253d4a95605625ab3539780cc3fdf
+    log: revlist-87f18064e2e6-cfaa54cec5d2.txt
+
+--===============3763425917170181906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87f18064e2e6-cfaa54cec5d2.txt
+
+4f1854094148db7b86cd0579733fe011e83044c4 ==================================================================
+739c9802dbbc63abd2e3063e900d04296c270277 headers/deps: sched: Optimize <linux/restart_block.h> dependencies, remove <linux/restart_block_api.h> inclusion
+5efc7fa38e865f442914ec8c8c969620cb85f010 headers/deps: net: Optimize <linux/dynamic_queue_limits.h> dependencies, remove <linux/dynamic_queue_limits_api.h> inclusion
+7bc1bbd0bf5d75b931bce1f30c7507fc44ebc1f2 headers/deps: Optimize <linux/siphash.h> dependencies, remove <linux/siphash_api.h> inclusion
+1c0e5f0c83490798c0889ef5076027e8072bc356 headers/deps: time: Optimize <linux/time64.h> dependencies, remove <linux/time64_api.h> inclusion
+afd480addfa65016c0f4afabef3deb85dc4de8e1 headers/deps: sparc64, mm: Define simple constants earlier
+72cda6543ae0e327d6eed1099a1b19814916fb5a ==================================================================
+eb8f570f6c3359a3cb16e349ee90edbc727c7c30 kallsyms/objtool: Introduce linear table of symbol structures: kallsyms_syms[]
+4b82eabfac2aee79ab544dbf3e4733f0b3315dfb kallsyms/objtool: Split fast vs. generic functions
+98f18d8e88cc8d64ad69ad81dd638b3770ee9a35 kallsyms/objtool: Sort symbols by address and deduplicate them
+09f9a3c37f68330291ed1bdbe319b140570af0d4 x86/defconfig: Enable CONFIG_LOCALVERSION_AUTO=y in the defconfig
+626c80a02bf90dbf7b1042e0a11166864733843c kallsyms/objtool: Utilize the kallsyms_syms[] table in kallsyms_expand_symbol() and kallsyms_sym_address()
+cfaa54cec5d253d4a95605625ab3539780cc3fdf kallsyms/objtool: Port kallsyms_relative_base functionality to the kallsyms_syms[] offsets
+
+--===============3763425917170181906==--
