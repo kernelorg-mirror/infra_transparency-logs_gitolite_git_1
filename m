@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/ethtool
-Date: Thu, 30 Dec 2021 20:04:19 -0000
-Message-Id: <164089465942.8647.15360510064075788968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 30 Dec 2021 20:17:36 -0000
+Message-Id: <164089545662.16605.4705021721172146460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/ethtool
-user: jkirsher
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 429f2fc288437a2c54ce7cb47b7f1c47dc3e1c9a
-    new: 32457a912a5793bc75d0e55a83bf7eceb9e2cf8b
+    old: cca1fde7c65195f391eebe0ce576d6245ff68881
+    new: c1d738ecc53464fbd0420f9d82cce6c359670801
     log: |
-         32457a912a5793bc75d0e55a83bf7eceb9e2cf8b monitor: do not show duplicate options in help text
+         c1d738ecc53464fbd0420f9d82cce6c359670801 Thu Dec 30 08:16:52 PM UTC 2021
          
