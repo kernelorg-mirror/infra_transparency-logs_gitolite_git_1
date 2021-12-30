@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8243189287804158879=="
+Content-Type: multipart/mixed; boundary="===============7419386451775679243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Dec 2021 12:26:25 -0000
-Message-Id: <164086718573.16996.8140135982233033106@gitolite.kernel.org>
+Date: Thu, 30 Dec 2021 12:27:21 -0000
+Message-Id: <164086724145.17331.12288987644312061033@gitolite.kernel.org>
 
---===============8243189287804158879==
+--===============7419386451775679243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,55 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: cb559bb974536d75c8385b2caa57ab5a3862c29a
-    new: a359101c7c6404d917a19d52133305ea284a0197
-    log: |
-         b0c86a6083229db0518e2754b2b6298e40e8d637 dt-bindings: serial: renesas,scif: Document RZ/V2L SoC
-         a359101c7c6404d917a19d52133305ea284a0197 dt-bindings: serial: renesas,sci: Document RZ/V2L SoC
-         
+    old: a359101c7c6404d917a19d52133305ea284a0197
+    new: e3b27e2f56a5337d2ecdbe3feddc7c75e2205d59
+    log: revlist-a359101c7c64-e3b27e2f56a5.txt
 
---===============8243189287804158879==
+--===============7419386451775679243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640867184 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640867239 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1640867183-4e0d7a880de3b48dc1d840fc114c65cd4ca1f2e4
+nonce 1640867238-e3832237cfd056d9144f7a1f6ff61d8c0f2a4ba2
 
-cb559bb974536d75c8385b2caa57ab5a3862c29a a359101c7c6404d917a19d52133305ea284a0197 refs/heads/tty-testing
+a359101c7c6404d917a19d52133305ea284a0197 e3b27e2f56a5337d2ecdbe3feddc7c75e2205d59 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNpXAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A0kP+wTR5tQMsvACVY0K+gIt
-EMGRT5+V5Freopjb/o4TlfxaVpVtWcR0aose3tRqcMzkE/KtQQ+vNNSAkgvrYBog
-bOTU8LPWEMTjyNHW8OWmhfW/lBFLaUYzDuIMip04xAzJhtvXgOROCOUH7D4w4PI/
-+c+mwEOO2TPUd9gK1902QWdCGuVnRGVmyuwV8gdpoaiAmDcrqxZ7y5B9Z6439zpp
-Q8hPeATkOIKT/zMV48EYqxsyme811u+rK3wEeFsxkQYPz8V/zMvcuumwLLN0I/4F
-mIonRK+n62QiaPrTg9YnWROO5T9Ny5cAQgdeR7zNVcHjyNfea3Ng/GEdn0SN8EuF
-xqLA3Za9ViDomFbJ+2vjD9MrWmEmIv6/Nx3RdiOU6sk6s/bjC7QALJTst9cZ4aoW
-qbZxgYubvRYDiKydOWIc6DHx9TWbJVikdum8pO7RkayWVwB5f+qPnHJpDStJ9JYc
-ijiDNwQl7cbspuFjhpd3oW3tM1Wsv+3TBETbG7n7guCiVO+GFKhQ3D/33HDjPiSU
-yly+dLM07/rpCjQzLAMn3PFOWFj9yoP6EKXmrGWING6Hjbua5D9EJopE0hoOgIsf
-R7xvlUeTa77rhLnXA6PTMPmLGVtHwAjfASvqn4E5Fzu4//M9rO09iYNInUnNNC7p
-+r/TwTGgl5KvCB+1EPFmkJfQ
-=7jm+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNpacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V5sQAM726la1J/8vXCmSTtvJ
+ojNsdx6AN2JaTU0PvCYCX9P/qKxlSyx+UQU9+ecKYFFTcsGozsSZP4ipt7Yg9bkA
+a8VCRRbNY4ZkH/0BGetM938goFRaUT2NBAZtrOp6DMtitWWaCqBFYVHXuAmVk7UR
+iQ20KI3Au+kQcKGTARBJVZ0s+6l8yvqKC/lLbUbCyTRlo1VGt8gTXarQCbQIylu4
+7dw8UT2OfX5QGeVDYLjME8QaU0wcYGezwEciBFHXGQRZAI8cqUrRmnreQN7CiviM
+ITB2EH96sMTN9FI/+A76EP4U7v1AJX3cDzwOg8O4aigN0CWDPBVnmRuqB5y4RrRK
+NWoHWNcO2C4Sbf7031vDbJCjiQuzhvjK64OF5Q8zEgmo8WWHpPq7fgjxc7OHf+69
+5WQof0gcxdtGKnh/JnqczzmsZwg1twemte4Rp0olq0bbXPsQy1NQOJMSkc72tqcK
+1PHkKVQiTHqpi/xnhYP/tdNXgv86tpveQF+WLWFQ/3DeNzfkYh4cwgBEnKUbvalv
+s2++21Du1BDUY61+tjR0TSAoeOs0KH4/TTzdD2TYsPC4s/kuvoH2x8JLlGgZGotg
+L86qdzB/YZIbkJRz0ywDXhQsxx0BH8Xul0RJHwpa2ReQg+adaeczxxlkRQuGVmHb
+oWjlq6LB6jGMZOtt2bt7LJqD
+=IPkE
 -----END PGP SIGNATURE-----
 
---===============8243189287804158879==--
+--===============7419386451775679243==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a359101c7c64-e3b27e2f56a5.txt
+
+257538544d42987e740491838519ceee5e97d04e serial: altera: Use platform_get_irq_optional() to get the interrupt
+56c8b1c10e95f9a56952a15b0a1656e04b98208d serial: 8250_bcm7271: Use platform_get_irq() to get the interrupt
+c195438f1e84de8fa46b4f5264d12379bee6e9a1 serial: 8250_bcm7271: Propagate error codes from brcmuart_probe()
+5b68061983471470d4109bac776145245f06bc09 serial: meson: Use platform_get_irq() to get the interrupt
+6050efac12c6bd1cdb75cf217c37cf3ee9f408c9 serial: pxa: Use platform_get_irq() to get the interrupt
+60302276caff50f907bc3391a364691ab4a21b43 serial: altera_jtaguart: Use platform_get_irq_optional() to get the interrupt
+f63f1ddb5c2a9713c4cafce71d1eb3c1471d42e5 serial: vt8500: Use platform_get_irq() to get the interrupt
+1129a63e3a4c636f71c8d399313046f7b55f3009 serial: ar933x: Use platform_get_irq() to get the interrupt
+fc67c913298c97bf5c1aac419ff260b7845613f5 serial: bcm63xx: Use platform_get_irq() to get the interrupt
+e3b27e2f56a5337d2ecdbe3feddc7c75e2205d59 serial: pmac_zilog: Use platform_get_irq() to get the interrupt
+
+--===============7419386451775679243==--
