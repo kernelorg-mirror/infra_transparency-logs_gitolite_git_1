@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 30 Dec 2021 02:02:23 -0000
-Message-Id: <164082974356.13096.965945888116983847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Dec 2021 02:21:40 -0000
+Message-Id: <164083090095.24396.4372880098930259233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 3ccdcee28415c4226de05438b4d89eb5514edf73
-    new: 1705c62e300550e8cfac0d9d1c3869fb860f3162
+  - ref: refs/heads/master
+    old: 168fed986b3a7ec7b98cab1fe84e2f282b9e6a8f
+    new: ccc0c9be75cf27f415d50fecf1a57b650defe39d
     log: |
-         0fe4b381a59ebc53522fce579b281a67a9e1bee6 bpf: Allow bpf_local_storage to be used by sleepable programs
-         0ae6eff2978ee118ce2b536090af0682db13bb83 bpf/selftests: Update local storage selftest for sleepable programs
-         1705c62e300550e8cfac0d9d1c3869fb860f3162 Merge branch 'Sleepable local storage'
+         077cdda764c7f147e03e6065ba0cd1dbc1bf00d1 net/mlx5e: TC, Fix memory leak with rules with internal port
+         992d8a4e38f0527f24e273ce3a9cd6dea1a6a436 net/mlx5e: Fix wrong features assignment in case of error
+         92a34ab169f9eefe29cd420ce96b0a0a2a1da853 net/ncsi: check for error return from call to nla_put_u32
+         ccc0c9be75cf27f415d50fecf1a57b650defe39d Merge tag 'mlx5-fixes-2021-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
          
