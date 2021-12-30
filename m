@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3911311817114518130=="
+Content-Type: multipart/mixed; boundary="===============7687028123570976570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 30 Dec 2021 10:50:15 -0000
-Message-Id: <164086141578.21004.7374138304844389248@gitolite.kernel.org>
+Date: Thu, 30 Dec 2021 10:51:25 -0000
+Message-Id: <164086148513.21624.12141134319354427318@gitolite.kernel.org>
 
---===============3911311817114518130==
+--===============7687028123570976570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 52a3a72b1859d415aa7467bdd214a33cc0f36c6e
     new: cb0648720b31727bc15c7f5003defc16ca96d649
     log: revlist-52a3a72b1859-cb0648720b31.txt
 
---===============3911311817114518130==
+--===============7687028123570976570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a7faed87b39fdf3bb2d2a229ee529b8de4f5f74e headers/deps: net: Optimize <linux/dyna
 6b6859086b621f8608b72a93e6339901a33aa717 headers/deps: time: Optimize <linux/time64.h> dependencies, remove <linux/time64_api.h> inclusion
 cb0648720b31727bc15c7f5003defc16ca96d649 headers/deps: sparc64, mm: Define simple constants earlier
 
---===============3911311817114518130==--
+--===============7687028123570976570==--
