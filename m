@@ -1,32 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5092540159442209690=="
+Content-Type: multipart/mixed; boundary="===============4386122067665212715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Dec 2021 20:30:22 -0000
-Message-Id: <164089622256.25989.10556232543644543000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Thu, 30 Dec 2021 20:35:55 -0000
+Message-Id: <164089655598.29087.1891443546211248630@gitolite.kernel.org>
 
---===============5092540159442209690==
+--===============4386122067665212715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
+user: jkirsher
 changes:
   - ref: refs/heads/master
     old: 49dc9013e34b205bae9d7a5f365a3da33c508c9d
     new: aec53e60e0e665b359328b946654bc3ef77aed57
     log: revlist-49dc9013e34b-aec53e60e0e6.txt
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
 
---===============5092540159442209690==
+--===============4386122067665212715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -361,4 +355,4 @@ bf2b09fedc17248b315f80fb249087b7d28a69a6 fsl/fman: Fix missing put_device() call
 74c78b4291b4466b44a57b3b7c3b98ad02628686 Merge tag 'net-5.16-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 aec53e60e0e665b359328b946654bc3ef77aed57 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5092540159442209690==--
+--===============4386122067665212715==--
