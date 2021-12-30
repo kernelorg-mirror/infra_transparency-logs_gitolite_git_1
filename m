@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============3763425917170181906=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 30 Dec 2021 07:54:33 -0000
-Message-Id: <164085087348.3131.6937649704067268388@gitolite.kernel.org>
-
---===============3763425917170181906==
-Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 30 Dec 2021 08:10:38 -0000
+Message-Id: <164085183880.13272.8946364130908618413@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,28 +12,8 @@ repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
   - ref: refs/heads/sched/headers
-    old: 87f18064e2e64f581bcece30e0ece27892f92aa7
-    new: cfaa54cec5d253d4a95605625ab3539780cc3fdf
-    log: revlist-87f18064e2e6-cfaa54cec5d2.txt
-
---===============3763425917170181906==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87f18064e2e6-cfaa54cec5d2.txt
-
-4f1854094148db7b86cd0579733fe011e83044c4 ==================================================================
-739c9802dbbc63abd2e3063e900d04296c270277 headers/deps: sched: Optimize <linux/restart_block.h> dependencies, remove <linux/restart_block_api.h> inclusion
-5efc7fa38e865f442914ec8c8c969620cb85f010 headers/deps: net: Optimize <linux/dynamic_queue_limits.h> dependencies, remove <linux/dynamic_queue_limits_api.h> inclusion
-7bc1bbd0bf5d75b931bce1f30c7507fc44ebc1f2 headers/deps: Optimize <linux/siphash.h> dependencies, remove <linux/siphash_api.h> inclusion
-1c0e5f0c83490798c0889ef5076027e8072bc356 headers/deps: time: Optimize <linux/time64.h> dependencies, remove <linux/time64_api.h> inclusion
-afd480addfa65016c0f4afabef3deb85dc4de8e1 headers/deps: sparc64, mm: Define simple constants earlier
-72cda6543ae0e327d6eed1099a1b19814916fb5a ==================================================================
-eb8f570f6c3359a3cb16e349ee90edbc727c7c30 kallsyms/objtool: Introduce linear table of symbol structures: kallsyms_syms[]
-4b82eabfac2aee79ab544dbf3e4733f0b3315dfb kallsyms/objtool: Split fast vs. generic functions
-98f18d8e88cc8d64ad69ad81dd638b3770ee9a35 kallsyms/objtool: Sort symbols by address and deduplicate them
-09f9a3c37f68330291ed1bdbe319b140570af0d4 x86/defconfig: Enable CONFIG_LOCALVERSION_AUTO=y in the defconfig
-626c80a02bf90dbf7b1042e0a11166864733843c kallsyms/objtool: Utilize the kallsyms_syms[] table in kallsyms_expand_symbol() and kallsyms_sym_address()
-cfaa54cec5d253d4a95605625ab3539780cc3fdf kallsyms/objtool: Port kallsyms_relative_base functionality to the kallsyms_syms[] offsets
-
---===============3763425917170181906==--
+    old: cfaa54cec5d253d4a95605625ab3539780cc3fdf
+    new: 4cb3a2829d3be5fe81d3de62708221ae9a04ea70
+    log: |
+         4cb3a2829d3be5fe81d3de62708221ae9a04ea70 kallsyms/objtool: Port kallsyms_relative_base functionality to the kallsyms_syms[] offsets
+         
