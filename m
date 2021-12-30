@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9106063974911929821=="
+Content-Type: multipart/mixed; boundary="===============3196288183670905788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 30 Dec 2021 12:56:54 -0000
-Message-Id: <164086901470.3441.13893239987409843353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 30 Dec 2021 13:01:24 -0000
+Message-Id: <164086928405.6257.15032472324873448923@gitolite.kernel.org>
 
---===============9106063974911929821==
+--===============3196288183670905788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 67aa58e8d4b07b436971326af6319258e0926f33
-    new: 28f0c335dd4a1a4b44b3e6c6402825a93132e1a4
+  - ref: refs/heads/char-misc-testing
+    old: 0fa328796b985930a62aafc4775a1ef8ac8077cc
+    new: 1563fca2346c31da30324cefe2e59a2afe0f61fa
     log: |
-         28f0c335dd4a1a4b44b3e6c6402825a93132e1a4 devtmpfs: mount with noexec and nosuid
+         bb349fd2d58062c69508414a9080d822b8d096b5 soundwire: qcom: remove redundant version number read
+         1563fca2346c31da30324cefe2e59a2afe0f61fa Merge tag 'soundwire-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire into char-misc-next
          
 
---===============9106063974911929821==
+--===============3196288183670905788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640869013 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1640869012-7e72cd7b5ab521a8d02bbc3e6982ab78e823c59b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640869282 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1640869281-0222ed3e5972cb7ce8f51e59862ae395d803ff16
 
-67aa58e8d4b07b436971326af6319258e0926f33 28f0c335dd4a1a4b44b3e6c6402825a93132e1a4 refs/heads/driver-core-testing
+0fa328796b985930a62aafc4775a1ef8ac8077cc 1563fca2346c31da30324cefe2e59a2afe0f61fa refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNrJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mf0QAIInrqQ1RCBKEHiweWmE
-SsYMtaYt9jwcFffc85920/WCJQdWmRXKoKKvnBdb35YNcCq8DXY82ecJPawEzeMJ
-y9Fs1zBVBd8KtTinQt/Q2G2/NUs+9V/VWJJLBDRgM6O8kipDuNfw5y/Q8vwH8MS0
-qJPyhvaBqw4afV86g1w65g8lG+NU1DtifgqTUauL1sDXbeYGgPs/i3NXgg/OycjK
-uzHZnNvvWtXiLZA0OpViF76Rw5cWm4BsSaZo7KdqYvKaXh4R094CqPK3D2QFCBC7
-Awm8lrwSTo+Tt+TI8xxnuKjOkdBY4F4jLAM2BdptoRedzCCdxLVU1ja/4BJB+U1n
-yEwSd4zK9ttb781oNXe2cIkTo3QevyTeQR8AOF5jb2nTzKB02TuWUO2aWh8CONCd
-/HZW/AOF9WUA4nnNQZ6A0ILNnMzOqHBG3ndwK8Q4vK5ayhJ5Hz+3ZlI2IUt2zOZF
-ToZoNB13H5inkz7OcYI015A8MKsP/syrzyyB4dsfmI8z0D7LAHqQB6BDgdE0Wfdp
-3roAOOY8SQ54+MSDTWkUcpLU10yA5sQl3EY+9PfZu7wtc5nbj7OlrgaH2cJgM3XW
-cKcD5P54r5LlWk+6g2fZOXB297l16tiWfhtm2Lx/PK1NJR/7asHG12D7io3mspa5
-Qb1xM3p9CsKJk4F+1W8ZK4nj
-=1xJW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNraIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cHAP/RMdyExnc27NBfDmanOI
+zoJY2WBWIUposGGq0k4ZX7WE+niPXiCeCsCKLealespRmz8TzmtiWfO/In2RAvwc
+1BHDQEQ+M7D/aVHKzsnKryyvYENgQ2kyyQxFlyZTNoLTQYZH2tkv4MfwHz8XP6wP
+rq17x8TP92poUxbi1vPQ8eY5EpCiUpRYwBhz2JsxfCbx9VzdCDQ/SyUpNdO5jcIR
+3jViJwSwMI4nhQaqlAYyEcUhYsoRAEZ8FLqVpcInVP/jb0D9DYab//rLNLEsk363
+SpZLy8LTOsSoXhsESqa7qj3nJ3GO7J+hRSVj2o0wy5/QQg/ptbkwW+sDfRer8ZtU
+bxMrvqCbg4mbE3KXfDosiue+QrpAVwxmy0TEk3tRDZfyXSH8Bnlil8YI//oo6I4P
+N9NV6KX7SvOTh2Wv9VZqI3PPxxiZDj0JOBbbllEPgry3MHk9HkmG0Y9tgwyGmxHe
+ZhGrDTo8AsPLajjvknCSVynNkTXNufzvq85hwkGpJBPdxOBg7EBEKiy2N/3qxaNB
+Rroyjs6awnmiGwp/iyaLXuA4PAT4ejpf+6mk9YSR8V1BxrHN6jU0lcOKEXAbvOLJ
+jGMBQW4+/fThsTINZANL6Hu32oYA9j4DzL/vEYnNHg9O9AlBnlfu7G3GOFohM7JH
+qG9dEKXxd8VjtCI+rg1lYZgu
+=3uiw
 -----END PGP SIGNATURE-----
 
---===============9106063974911929821==--
+--===============3196288183670905788==--
