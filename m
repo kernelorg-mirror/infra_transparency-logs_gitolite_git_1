@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Dec 2021 02:21:40 -0000
-Message-Id: <164083090095.24396.4372880098930259233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 30 Dec 2021 02:23:03 -0000
+Message-Id: <164083098322.26048.12626745966433239193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 168fed986b3a7ec7b98cab1fe84e2f282b9e6a8f
-    new: ccc0c9be75cf27f415d50fecf1a57b650defe39d
+    old: ac25386a840be448cd3bccb4de886e0d44f6e9a4
+    new: 33f291a81c9131b5b32dd2a495c493fa700eb156
     log: |
-         077cdda764c7f147e03e6065ba0cd1dbc1bf00d1 net/mlx5e: TC, Fix memory leak with rules with internal port
-         992d8a4e38f0527f24e273ce3a9cd6dea1a6a436 net/mlx5e: Fix wrong features assignment in case of error
-         92a34ab169f9eefe29cd420ce96b0a0a2a1da853 net/ncsi: check for error return from call to nla_put_u32
-         ccc0c9be75cf27f415d50fecf1a57b650defe39d Merge tag 'mlx5-fixes-2021-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+         2eca840fecc892bd54672c122cdd5aae159cd106 Fixes for 5.15
+         76c61bfffd0d6eea45d57001fd695b88cde5e0f2 Fixes for 5.10
+         86519c384b7e7d411105e168881601382c1b0962 Fixes for 5.4
+         8263b718b91c768ff72242e6f57075542914bb18 Fixes for 4.19
+         6a5e7bd1d39e1ab4c90003fc70db0c05f136a7b7 Fixes for 4.14
+         8f9ca20a82489a65b449faf429dc440caa736770 Fixes for 4.9
+         33f291a81c9131b5b32dd2a495c493fa700eb156 Fixes for 4.4
          
