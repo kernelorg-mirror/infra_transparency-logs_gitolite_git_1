@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1217342176995914535=="
+Content-Type: multipart/mixed; boundary="===============6149719536036254059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Dec 2021 12:20:14 -0000
-Message-Id: <164086681414.12366.14452110241754036663@gitolite.kernel.org>
+Date: Thu, 30 Dec 2021 12:24:10 -0000
+Message-Id: <164086705013.14896.14404092326330124117@gitolite.kernel.org>
 
---===============1217342176995914535==
+--===============6149719536036254059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: adbfddc757aec1ed54ccb35c4a7ca9170df827e0
-    new: 5021d709b31b8a14317998a33cbc78be0de9ab30
+    old: 5021d709b31b8a14317998a33cbc78be0de9ab30
+    new: cb559bb974536d75c8385b2caa57ab5a3862c29a
     log: |
-         5021d709b31b8a14317998a33cbc78be0de9ab30 tty: serial: Use fifo in 8250 console driver
+         d3b3404df318504ec084213ab1065b73f49b0f1d serial: Fix incorrect rs485 polarity on uart open
+         b4a29b94804c4774f22555651296b838df6ec0e4 serial: 8250: Move Alpha-specific quirk out of the core
+         cb559bb974536d75c8385b2caa57ab5a3862c29a serial: lantiq: store and compare return status correctly
          
 
---===============1217342176995914535==
+--===============6149719536036254059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640866812 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640867047 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1640866811-37b26af3837e6285f30e63d947f5dbfda21718f2
+nonce 1640867046-b847ed4e83edc0409e62de69254ff0cc9e0e7ca9
 
-adbfddc757aec1ed54ccb35c4a7ca9170df827e0 5021d709b31b8a14317998a33cbc78be0de9ab30 refs/heads/tty-testing
+5021d709b31b8a14317998a33cbc78be0de9ab30 cb559bb974536d75c8385b2caa57ab5a3862c29a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNo/wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O5oP/25OHz/I0V6w1Nx9z/sC
-T038M39oFvtBvILuBoOK9fe1e2cNzi19k8z8fVC2KcEZ0L1gvPvpaUULzP6IhTmr
-+zCe7/4ACRD+2OuWf0cUgYUSrYfGsWUSLXhBQW7D/e4+eA3Cf0Ap0EJelNrRLD8W
-j0jJwaOIBKxlLPSzZfQu94g9OtjguGJGugaB+NUrq9V1Yae2+/K1+vOFFVKssuED
-4A67pPNzsdi5k+Tq/rfDWKwFNOdajoCxhA+kUOY7YID7YiQt7h+P7aokYSi+3Njf
-VT7RR3xGMdCSUGRhPXw84OLJN/nTMOEER3adfmiKSVDgMZiTc9W1ji6gmm6IPW6n
-CKA5QSe8oaMRThQM6AUrhWD06ugPVSj+rV6phYW95v3jjhpz4vZyUq9xRKzq8U9K
-7ttvAbdnZ0FJgSaFwfOvAO4+6BOQgpowQ2xXGAXK5b2aZwdCz0HOpAmb7NxU9/pL
-QT42OwVBIUTm6o0Xgv+/12N1ASIVU0tystqtT3P4t/gBOIs5iTYxwNOsQDmSe1Xc
-rmQPxchGNd3O47n0KOwt+7W9hWgKk2vtLazOG7PnxAkX4GALeLsB+yyLfk0zzUxb
-LfARlNE8RnHPIGJw1pat1CXqv0uNWza7g/b6I9kpKAi74gTGqWBRRkz1vJtkpvDS
-i9C1db9BBexRHBKOtEKPP6Nv
-=Yduh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNpOcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J38P/1kREKVHuzr1MZNujCBC
+Nr3EfiLykqFFJHdK0+pzIOuv/m8RqUOdKx39iAo+w90i9Eh0A8g2HhXKE964eX5B
+DhMRIAC5+MaNRRGJTFvVlr5xzc+94dJ10DjcLnz8pwMgxuPVyWJHxN7YV7NlzhxR
+R3rQA5rRkcUvmxohDnH1nUZwYFdmpPMO0vPq1dfqIx8WNp7c1tc/B78YBOK13/xg
+D7bcCC9y7y7RGoAA+7AjaZIrMdzwq45aXRVS3fLsLRVxgYmM8iLdN44o0NDV5k1A
+Sz+XBSFOV3gKMo+xhaTVY+5AMXGNsXf0JgXG/0T79FVcKbNdClh482GHBw26LYIK
+/b1ZwuyqSnBq3sVv6qgqnrRZD+7yL3ZCD+Ka06bAfoisWY/GkXq420My9sN313AI
+kR7GP1rcAgVh7BX5CJvOEzcz3yoq4FgROSaje8Tp8EkrVKKrRxYyVsSsguW3ntCY
+frTLy/jVUssdkeO0Vt1pwmwV/GyDa85t/YFIWNwvQ24+h2Z6VmDvzDRLRcWV7Ihr
+g81VIF82UwGC8JVkOIxM4omNjgYGY5UGgucQPb2PkDUrD9yTlYvydGbn3jW2mpNd
+Sbf5Z3yARapo+BlG1flBT1Fxw31DW0dWYFMJxUCZEJ8Om1KcyRW+omaUtqRNM3OT
+4LIBrR5p2fWrGuWk12+JHYkf
+=yjtv
 -----END PGP SIGNATURE-----
 
---===============1217342176995914535==--
+--===============6149719536036254059==--
