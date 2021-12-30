@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 30 Dec 2021 01:53:49 -0000
-Message-Id: <164082922982.7658.4997567584193988423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 30 Dec 2021 02:02:17 -0000
+Message-Id: <164082973742.12996.6326317125986932832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: e2dfb94f27f778e18e47b0c7ff8679099981073d
-    new: 47869e82c8b86a4b07eb18d92dbfabe5cc1ed587
+    old: 3ccdcee28415c4226de05438b4d89eb5514edf73
+    new: 1705c62e300550e8cfac0d9d1c3869fb860f3162
     log: |
-         47869e82c8b86a4b07eb18d92dbfabe5cc1ed587 sun4i-emac.c: add dma support
+         0fe4b381a59ebc53522fce579b281a67a9e1bee6 bpf: Allow bpf_local_storage to be used by sleepable programs
+         0ae6eff2978ee118ce2b536090af0682db13bb83 bpf/selftests: Update local storage selftest for sleepable programs
+         1705c62e300550e8cfac0d9d1c3869fb860f3162 Merge branch 'Sleepable local storage'
          
