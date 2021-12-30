@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3634100162640870522=="
+Content-Type: multipart/mixed; boundary="===============9106063974911929821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Dec 2021 12:50:20 -0000
-Message-Id: <164086862037.31225.915610489050932193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 30 Dec 2021 12:56:54 -0000
+Message-Id: <164086901470.3441.13893239987409843353@gitolite.kernel.org>
 
---===============3634100162640870522==
+--===============9106063974911929821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: d8e9a406a931f687945703a4bac45042eb81ce92
-    new: 5acb78dc72b48bc44226a86368fb442800981a0c
+  - ref: refs/heads/driver-core-testing
+    old: 67aa58e8d4b07b436971326af6319258e0926f33
+    new: 28f0c335dd4a1a4b44b3e6c6402825a93132e1a4
     log: |
-         5acb78dc72b48bc44226a86368fb442800981a0c tty: goldfish: Use platform_get_irq() to get the interrupt
+         28f0c335dd4a1a4b44b3e6c6402825a93132e1a4 devtmpfs: mount with noexec and nosuid
          
 
---===============3634100162640870522==
+--===============9106063974911929821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640868619 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1640868616-8eb0a6abbb668d9c5df55a3db391a4823c56a37b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640869013 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1640869012-7e72cd7b5ab521a8d02bbc3e6982ab78e823c59b
 
-d8e9a406a931f687945703a4bac45042eb81ce92 5acb78dc72b48bc44226a86368fb442800981a0c refs/heads/tty-testing
+67aa58e8d4b07b436971326af6319258e0926f33 28f0c335dd4a1a4b44b3e6c6402825a93132e1a4 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNqwsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BKQQAMAn4ngLC//JZoHMg/71
-a8ELQmZk0PeDlsia2CiSrCytpoWYpUqrS/s3dFznLRnJI0IEh+2Ex99DMd+5VQjg
-zAATW9d5jNZFNOaMC7pHzE5wm0k9ULwY2wzOrmZ1xQ35JCzHF/IscgM785uDZ+oJ
-gfIOLsCQAdALdShvfkcNNAHnRNm1fykOeUjBDoNYzbNnbFdIefXLGoouC76NKFix
-axQKbBuTMXJR0BwLHdZeBDaQrZtqiMxyXpPiWn/ffD1VcaHn+RQ3VumREKrV+54O
-6PK4QIcxGp3YqqKpQgL+XlEb8Ve6aEnmBaq2FS7MVmBIEzguW8+KInreozWsVw+U
-1Xc9UKufASOxafoXQqxhpmWi0GprFqMjJIrTWvQMVTz9iuIRD7K4Wn9qw60vqLhy
-UtFl27m/9P0M+cfxizTABQxiwlpayr7B+gvae77K0W1rbRr6ks9qSBsWIjFaA+ho
-OYuy1zFto/cxEqzH+1nyu9xkxet7IQexcKQzB8ZzsxFrYQ6tWIMsaoHvltPfGKvH
-JihEf3KfOT5elhQPO2L0Q5fnr77me5q1TBC805e06lTdcY1VMIyZgCzOmRyfVKDE
-ikzvuVweFoged8Ea3yRXQVle7WV+Cd5tb42PKdQYLKRGuCB9CbCvfDRRXBqxWr9X
-UaZZqHUgbMrk86rEY5gl1iv4
-=+Tg9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNrJUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Mf0QAIInrqQ1RCBKEHiweWmE
+SsYMtaYt9jwcFffc85920/WCJQdWmRXKoKKvnBdb35YNcCq8DXY82ecJPawEzeMJ
+y9Fs1zBVBd8KtTinQt/Q2G2/NUs+9V/VWJJLBDRgM6O8kipDuNfw5y/Q8vwH8MS0
+qJPyhvaBqw4afV86g1w65g8lG+NU1DtifgqTUauL1sDXbeYGgPs/i3NXgg/OycjK
+uzHZnNvvWtXiLZA0OpViF76Rw5cWm4BsSaZo7KdqYvKaXh4R094CqPK3D2QFCBC7
+Awm8lrwSTo+Tt+TI8xxnuKjOkdBY4F4jLAM2BdptoRedzCCdxLVU1ja/4BJB+U1n
+yEwSd4zK9ttb781oNXe2cIkTo3QevyTeQR8AOF5jb2nTzKB02TuWUO2aWh8CONCd
+/HZW/AOF9WUA4nnNQZ6A0ILNnMzOqHBG3ndwK8Q4vK5ayhJ5Hz+3ZlI2IUt2zOZF
+ToZoNB13H5inkz7OcYI015A8MKsP/syrzyyB4dsfmI8z0D7LAHqQB6BDgdE0Wfdp
+3roAOOY8SQ54+MSDTWkUcpLU10yA5sQl3EY+9PfZu7wtc5nbj7OlrgaH2cJgM3XW
+cKcD5P54r5LlWk+6g2fZOXB297l16tiWfhtm2Lx/PK1NJR/7asHG12D7io3mspa5
+Qb1xM3p9CsKJk4F+1W8ZK4nj
+=1xJW
 -----END PGP SIGNATURE-----
 
---===============3634100162640870522==--
+--===============9106063974911929821==--
