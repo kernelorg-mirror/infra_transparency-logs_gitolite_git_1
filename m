@@ -1,58 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2348893619224147529=="
+Content-Type: multipart/mixed; boundary="===============4987123391480212288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 30 Dec 2021 13:20:06 -0000
-Message-Id: <164087040652.17511.16842118221901397453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Dec 2021 13:26:06 -0000
+Message-Id: <164087076675.22007.8373848289596180224@gitolite.kernel.org>
 
---===============2348893619224147529==
+--===============4987123391480212288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/staging-testing
-    old: 512cdc60e65bb9bf3f65e70b6b161f3a7561a998
-    new: 12b31d07b0ceb723821394b414c02db64468f1f2
-    log: |
-         95b47a04673fa46b2f8a0bb19cacebb714a91ed8 staging: vc04_services: bcm2835-audio: avoid the use of typedef for function pointers
-         072590cc4f701ae35818f87d56c22b0f3dfeaa3d staging: vc04_services: bcm2835-camera: avoid the use of typedef for function pointers
-         12b31d07b0ceb723821394b414c02db64468f1f2 staging: vc04_services: update TODO file
-         
+  - ref: refs/heads/master
+    old: 47869e82c8b86a4b07eb18d92dbfabe5cc1ed587
+    new: dda0c2e7ed21d7db1568920366e616c6c037b814
+    log: revlist-47869e82c8b8-dda0c2e7ed21.txt
 
---===============2348893619224147529==
+--===============4987123391480212288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-47869e82c8b8-dda0c2e7ed21.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1640870405 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1640870404-5dd5b834338252c3cb3f2a5d63ff1a888c501653
+8ab55aba31eeb0b9b734c0c0526be1915d076305 igb: move SDP config initialization to separate function
+cf99c1dd7b7729091043374b90807c7a5f9fd9b1 igb: move PEROUT and EXTTS isr logic to separate functions
+1819fc753aca18e6dcd283c98040e1ac4b963058 igb: support PEROUT on 82580/i354/i350
+38970eac41db0031dcd337e124fab92a7105ed85 igb: support EXTTS on 82580/i354/i350
+6d1b3eb53fc65fcf3684968eabe71ebd8ccb5744 net: marvell: prestera: add virtual router ABI
+0f07bd6bcb15970738e29fbac687483285583b14 net: marvell: prestera: Add router interface ABI
+69204174cc5cb3905f18a3a123f8b95c6622dba2 net: marvell: prestera: Add prestera router infra
+bca5859bc6c60956585b57220b6ed619e23a6a7b net: marvell: prestera: add hardware router objects accounting
+da3c16398602a0d6d4707c8beff527fa51f70ba2 net: marvell: prestera: Register inetaddr stub notifiers
+15fa9e8c5ffbe0c90a0887c509ab95f150953963 net: marvell: prestera: Implement initial inetaddr notifiers
+c67939eff8023fd4aaff8ad0fb1c61448efda9ca Merge branch 'prestera-router-driver'
+a1f18c5fe554750eb14f6b41d2526a13a697c185 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next- queue
+40319796b7321e25d23671e525e01a1f4d85f6b6 ice: Add flow director support for channel mode
+7b1cd6a644f765e189904ffe2b612ec4183ebfaa net: lantiq_etop: replace strlcpy with strscpy
+b1cb12a27134bc996bea70b5f3e66d7e7edf297c net: lantiq_etop: avoid precedence issues
+370509b267fafa3ca7122cf0b91cafadf52cfacc net: lantiq_etop: remove multiple assignments
+7a6653adde03c18997ff4afa4f61c2e7dc02de00 net: lantiq_etop: make alignment match open parenthesis
+dda0c2e7ed21d7db1568920366e616c6c037b814 net: lantiq_etop: remove unnecessary space in cast
 
-512cdc60e65bb9bf3f65e70b6b161f3a7561a998 12b31d07b0ceb723821394b414c02db64468f1f2 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHNsgUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GjMP/RpY3a4gWnE/XvXPbRiB
-TTw1w7NTC3Y1plmFvwPOT5ct4Rz6oVLH+a8gwzbummEZ7IlWDKFI9emz7rgbGAZo
-tsGn0OW7Ec3IsIY794xUpqSjWljOHIJ7sU5ziar5/8JLkSdkwbTGuFLIdu+96Qtz
-9472R8q6cEod1Wiwt84UWH3+tPVeO+cd5rUyj2+utJZtefHCJWypdqUgyfO/8g3w
-Y5rzibuXT/yl5v+qCb34a2m9eB87WKqIZh3SxIrqz4W/e/pTkHl/ycpW3O6E85kL
-Hi+azBZEOZzSEr9mkFA7gJkVK3Vxl76hX5pkMrydJQzcsGd2l8w9G7R6Sb7PV/QT
-OGw7uHCFt/KkmxzYoYwR3Jf8aOb1Z81YaiDit9MzL+MX3GNUKuVfLhp0NNeaSx85
-0z4xll5BThLrAK6QAYLDHLN0/ng1fpu3DmNNmszrvicvJlyKT6insrkWHGfKJzDp
-5Ub2vzR/usqxJ8ByppsmlCRIUo/bAaywWnJ3/MRnHbAOv3VN6BF53pZCNj54p8vg
-zM17MzocQRuZVB775kZCLLTaImBHjXVC89bOvHyvTmYzrQCxYbSOy/qhCZRPk1Da
-38wTcz+POcVRlyQXCzZ+CcwSv4OmdKifQtkM9shTx8ogloKA2zrNf+ks/djIqK+e
-kwXt0iy2Bows5NQX6INnpiVJ
-=ZQGx
------END PGP SIGNATURE-----
-
---===============2348893619224147529==--
+--===============4987123391480212288==--
