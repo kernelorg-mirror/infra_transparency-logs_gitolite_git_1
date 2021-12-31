@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4452889548315183895=="
+Content-Type: multipart/mixed; boundary="===============3584202673142247936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 31 Dec 2021 18:09:43 -0000
-Message-Id: <164097418318.23257.13182902531919349686@gitolite.kernel.org>
+Date: Fri, 31 Dec 2021 18:09:55 -0000
+Message-Id: <164097419522.23354.6702965679408230015@gitolite.kernel.org>
 
---===============4452889548315183895==
+--===============3584202673142247936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 9665e03a8de5df719904611e03f908cd5b9f52f6
     new: 4760abaac6844ebf87321403fbd36b72f8f1731a
     log: revlist-9665e03a8de5-4760abaac684.txt
 
---===============4452889548315183895==
+--===============3584202673142247936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -125,4 +125,4 @@ bf2b09fedc17248b315f80fb249087b7d28a69a6 fsl/fman: Fix missing put_device() call
 8bda81a4d400cf8a72e554012f0d8c45e07a3904 lwtunnel: Validate RTA_ENCAP_TYPE attribute length
 4760abaac6844ebf87321403fbd36b72f8f1731a Merge branch 'mpr-len-checks' David Ahern says:
 
---===============4452889548315183895==--
+--===============3584202673142247936==--
