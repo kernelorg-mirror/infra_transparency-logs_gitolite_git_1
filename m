@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7750623668323150228=="
+Content-Type: multipart/mixed; boundary="===============3485518984131076531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 31 Dec 2021 14:38:56 -0000
-Message-Id: <164096153690.23252.17884916020309050871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 31 Dec 2021 14:39:03 -0000
+Message-Id: <164096154336.23359.10494298097378030135@gitolite.kernel.org>
 
---===============7750623668323150228==
+--===============3485518984131076531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: cc5c9788106fb1b9e03c8c57d8d7166073a54416
     new: a155b7526e6502c235540440f7eba78333d1ddc8
     log: revlist-cc5c9788106f-a155b7526e65.txt
 
---===============7750623668323150228==
+--===============3485518984131076531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1640961534 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1640961534-2b595f794fee9d443ef5215a66ed97685038c8fb
+pusher C3F436CA30F5D8EB 1640961541 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1640961540-f57b29aad7ddfdb534f7a42e194238740082ab33
 
-cc5c9788106fb1b9e03c8c57d8d7166073a54416 a155b7526e6502c235540440f7eba78333d1ddc8 refs/heads/for-5.17
+cc5c9788106fb1b9e03c8c57d8d7166073a54416 a155b7526e6502c235540440f7eba78333d1ddc8 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHPFf4ACgkQJNaLcl1U
-h9BFUgf+PA7Drpf6YJ6RIkd4h2+sg4RWuQ+vAr/ZrumUtrYuMgXXFEBll+7H3MJC
-Te+itsBbB9V6z1bTS8DacN+0/NuvE2tOFv4V/Y5Ng7mqS51KdkeP+wiKBZQuM3Aq
-l5iYBOQYDOKimOM1nAT8+kiCDEAanDDu5c6VQw60RfHrY7WRQqwqLC5/MemMXLPu
-FUmWnDhw6vaaWv7ehMYyeZGtCF2VwFo3HmGxuR5g5dcTA6Bi5MaMjFfvtbZ8k5fv
-T6BULNWKEblA0HHNw0GVCnJaFxxaiRvusBcIi7zHLgpF0mRPPU5MbQsfh5Uby4v3
-s+ndgJ80Qp61y40FUy0zmowTquvH8A==
-=KwHh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHPFgUACgkQJNaLcl1U
+h9CX8gf9F0gJ/0wdLCPQD1z9FdaGtJMXirPlCMP6+Cy++WOIf/vfxvNZ9dXWgIWK
+ucWfoYdTLp3t+Y75qnKhjKnCAp4uEb6cAUm3ywU3ALUWzSlO0wq1k3QlHwXQbVDZ
+JTBc26ZdRWvWBKsPHn8187T3hZhAzBoCcEh+uyIEyKZdtl3uyGtOFWJ8ELaTD8aD
+xBBTZXD9alP3N1OWuIQJ3m6QQdmqrrT5IVOMV3MKdN2T0mejKUYUbe21X13TUPFS
+cBTsc6tiQ/Joo9CxVl7HAG0BXxHoGZSFc12sO3dNwRFvdbNRa7xUiq+PqN2/mXKI
+qxzCxFOIE3Zs1hlpJJbcKzqVzZzy4A==
+=Tdv9
 -----END PGP SIGNATURE-----
 
---===============7750623668323150228==
+--===============3485518984131076531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ e8e4fcc047c6e0c5411faeb8cc29aed2e5036a00 ASoC: cs35l41: Create shared function f
 85b57de33265a0baf4a5e140d9477f43c73da593 ASoC: Add support for CS35L41 in HDA systems
 a155b7526e6502c235540440f7eba78333d1ddc8 ASoC: mediatek: mt8195: repair pcmif BE dai
 
---===============7750623668323150228==--
+--===============3485518984131076531==--
