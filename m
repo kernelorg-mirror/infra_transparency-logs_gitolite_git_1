@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5836473575559664640=="
+Content-Type: multipart/mixed; boundary="===============8228660734823047442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 31 Dec 2021 18:11:34 -0000
-Message-Id: <164097429481.25399.8843717047069529829@gitolite.kernel.org>
+Date: Fri, 31 Dec 2021 18:11:43 -0000
+Message-Id: <164097430366.25532.1332091337031507884@gitolite.kernel.org>
 
---===============5836473575559664640==
+--===============8228660734823047442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9ed319e411915e882bb4ed99be3ae78667a70022
-    new: e63a02348958cd7cc8c8401c94de57ad97b5d06c
-    log: revlist-9ed319e41191-e63a02348958.txt
+  - ref: refs/heads/mlx5-queue
+    old: 440683fc745d93a7af9358cc290aff6777a7ee24
+    new: cb737fe9aa07b322e9c5e510f8e4d1c54a47ff5d
+    log: revlist-440683fc745d-cb737fe9aa07.txt
 
---===============5836473575559664640==
+--===============8228660734823047442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ed319e41191-e63a02348958.txt
+Content-Disposition: attachment; filename=revlist-440683fc745d-cb737fe9aa07.txt
 
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
 885633075847f475f26a29249d772cc0da85d8cd dmaengine: dw-axi-dmac: Fix uninitialized variable in axi_chan_block_xfer_start()
@@ -556,5 +556,22 @@ aab8d1c6a5e3aaf67c4c18f6b03cf6486c435755 net: hns3: delete the hclge_cmd.c and h
 20a9013ebad7625384ba569db5f13f9106f6cbc0 Merge branch 'hnsd3-next'
 ce2b6eb409ad40607193641c3ec18c3457e1f57c Merge tag 'mlx5-updates-2021-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 e63a02348958cd7cc8c8401c94de57ad97b5d06c Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
+7ae1018258482a04f76d922fab6036865ce0bedd net/mlx5e: Move HW-GRO and CQE compression check to fix features flow
+d9982fe247924655ae09ea1979b8af8b64f2f2d2 net/mlx5e: Fix feature check per profile
+7bb6a199b1c9838ce23916c68bd7ccbe4048d44b net/mlx5e: Unblock setting vid 0 for VF in case PF isn't eswitch manager
+54f0d5214ae56cc7cd267dbd14f5da203091aa57 net/mlx5: Introduce control IRQ request API
+174ca60f80ebd3cb10d0775817027c05e5c04aa8 net/mlx5: Move affinity assignment into irq_request
+b548391a02d50588ae57c827c3ef91427d2fbc75 net/mlx5: Split irq_pool_affinity logic to new file
+54cb964d47c603ae05b033d5f844c46dbb56c80c net/mlx5: Introduce API for bulk request and release of IRQs
+7df4d055dc6038fe1fdadb865921565f4a42c5f8 net/mlx5: SF, Use all available cpu for setting cpu affinity
+e4edde995ce118010aae7a3be459dcc96db9808d net/sched: act_ct: Fill offloading tuple iifidx
+c0b6226389a7ae2a3b33218b114e3fab2bfb9e55 net/mlx5: mlx5e_hv_vhca_stats_create return type to void
+1f3e2319ceae27f5ac2b6952586bf81c8ca18b56 net: openvswitch: Fill act ct extension
+4a1269e6c02e076d2a85eafa79c0645c4ac94084 Merge branch 'patchq/459065' into mlx5-queue
+8a3d3872a2489b807b00f5e151c126cc97cb5808 net/mlx5: CT: Set flow source hint from provided tuple device
+170093ceb7bac246d8c63b9f50ec8a1f5c79bef0 Merge branch 'patchq/455647' into mlx5-queue
+2a85ce574988dfa5876d5e89e0b0fe905844ff1c Merge branch 'patchq/430211' into mlx5-queue
+6ea9d95d17222aa07279b5fccdf56f41c689cf6f Merge branch 'patchq/460147' into mlx5-queue
+cb737fe9aa07b322e9c5e510f8e4d1c54a47ff5d Merge branch 'patchq/374716' into mlx5-queue
 
---===============5836473575559664640==--
+--===============8228660734823047442==--
