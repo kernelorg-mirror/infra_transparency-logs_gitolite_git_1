@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 31 Dec 2021 02:34:00 -0000
-Message-Id: <164091804031.25846.8695112583532930115@gitolite.kernel.org>
+Date: Fri, 31 Dec 2021 02:44:42 -0000
+Message-Id: <164091868229.31711.8993693517684343881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 63d000c3dc0a8ddd2f3778982ce6d19593656eda
-    new: 11f998313c9cf728da1b1fe85d9ce2f2bdf7c494
+  - ref: refs/heads/master
+    old: 11f998313c9cf728da1b1fe85d9ce2f2bdf7c494
+    new: 9e6b19a66d9b6b94395478fe79c5a3ccba181ad3
     log: |
-         11f998313c9cf728da1b1fe85d9ce2f2bdf7c494 bpf: Fix a comment typo of bpf lpm_trie.
+         9e6b19a66d9b6b94395478fe79c5a3ccba181ad3 bpf: Fix typo in a comment in bpf lpm_trie.
          
