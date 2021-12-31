@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 31 Dec 2021 06:03:54 -0000
-Message-Id: <164093063499.25820.18199061000168056490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 31 Dec 2021 08:07:37 -0000
+Message-Id: <164093805734.3928.7251657569987368106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev
-    old: f35bfa4630a75753b4dd4d11b0aab70149d57f05
-    new: 262d811276ae5eb6b3e33f08b7326ba09cc5d13c
+  - ref: refs/heads/auto-latest
+    old: 2ad9a070f0d50bbb03200c1554bb2c9749987d97
+    new: 5f72d76bb7ee3bdf9aa61925c59579733cf834a9
     log: |
-         961b1edbcd6fc40079a3d13259526b5ce6faacf5 rcutorture: Fix rcu_fwd_mutex deadlock
-         262d811276ae5eb6b3e33f08b7326ba09cc5d13c squash! rcu: Use a single ->barrier_lock for all CPUs
+         a41f5b78ac5ba65986b31ddc6325a0b8cc8b8864 x86/vdso: Remove -nostdlib compiler flag
+         9102fa34604159642625f42d7f801f1e04d9ca12 x86/purgatory: Remove -nostdlib compiler flag
+         5f72d76bb7ee3bdf9aa61925c59579733cf834a9 Merge branch into tip/master: 'x86/vdso'
+         
+  - ref: refs/heads/master
+    old: 2ad9a070f0d50bbb03200c1554bb2c9749987d97
+    new: 5f72d76bb7ee3bdf9aa61925c59579733cf834a9
+    log: |
+         a41f5b78ac5ba65986b31ddc6325a0b8cc8b8864 x86/vdso: Remove -nostdlib compiler flag
+         9102fa34604159642625f42d7f801f1e04d9ca12 x86/purgatory: Remove -nostdlib compiler flag
+         5f72d76bb7ee3bdf9aa61925c59579733cf834a9 Merge branch into tip/master: 'x86/vdso'
          
