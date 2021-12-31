@@ -1,51 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3485518984131076531=="
+Content-Type: multipart/mixed; boundary="===============1888682878211614466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 31 Dec 2021 14:39:03 -0000
-Message-Id: <164096154336.23359.10494298097378030135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 31 Dec 2021 14:39:21 -0000
+Message-Id: <164096156150.23517.15680557135301342858@gitolite.kernel.org>
 
---===============3485518984131076531==
+--===============1888682878211614466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
+  - ref: refs/heads/for-linus
+    old: 9b0bb37e6f21e4309e586a175e7c57a513b24951
+    new: 895fa346baaa42aeb61710bba41a0f029f6bc87a
+    log: |
+         895fa346baaa42aeb61710bba41a0f029f6bc87a Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         
+  - ref: refs/heads/for-next
     old: cc5c9788106fb1b9e03c8c57d8d7166073a54416
     new: a155b7526e6502c235540440f7eba78333d1ddc8
     log: revlist-cc5c9788106f-a155b7526e65.txt
 
---===============3485518984131076531==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1640961541 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1640961540-f57b29aad7ddfdb534f7a42e194238740082ab33
-
-cc5c9788106fb1b9e03c8c57d8d7166073a54416 a155b7526e6502c235540440f7eba78333d1ddc8 refs/heads/asoc-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHPFgUACgkQJNaLcl1U
-h9CX8gf9F0gJ/0wdLCPQD1z9FdaGtJMXirPlCMP6+Cy++WOIf/vfxvNZ9dXWgIWK
-ucWfoYdTLp3t+Y75qnKhjKnCAp4uEb6cAUm3ywU3ALUWzSlO0wq1k3QlHwXQbVDZ
-JTBc26ZdRWvWBKsPHn8187T3hZhAzBoCcEh+uyIEyKZdtl3uyGtOFWJ8ELaTD8aD
-xBBTZXD9alP3N1OWuIQJ3m6QQdmqrrT5IVOMV3MKdN2T0mejKUYUbe21X13TUPFS
-cBTsc6tiQ/Joo9CxVl7HAG0BXxHoGZSFc12sO3dNwRFvdbNRa7xUiq+PqN2/mXKI
-qxzCxFOIE3Zs1hlpJJbcKzqVzZzy4A==
-=Tdv9
------END PGP SIGNATURE-----
-
---===============3485518984131076531==
+--===============1888682878211614466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +57,4 @@ e8e4fcc047c6e0c5411faeb8cc29aed2e5036a00 ASoC: cs35l41: Create shared function f
 85b57de33265a0baf4a5e140d9477f43c73da593 ASoC: Add support for CS35L41 in HDA systems
 a155b7526e6502c235540440f7eba78333d1ddc8 ASoC: mediatek: mt8195: repair pcmif BE dai
 
---===============3485518984131076531==--
+--===============1888682878211614466==--
