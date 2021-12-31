@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 31 Dec 2021 18:12:41 -0000
-Message-Id: <164097436151.25942.7327117624328047484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 31 Dec 2021 18:22:56 -0000
+Message-Id: <164097497668.661.7677425639133929842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 2430c2cca82e36ab679c76ec941da25b4a80aeff
-    new: 1e8257272da249f012f2ed9f60a8f2343d8887cc
+  - ref: refs/heads/next-integrity-testing
+    old: 92ad19559ea9a8ec6f158480934ae26ebfe2c14f
+    new: 9be6dc8059bb235ffb0666690a26c0df15cc6d9e
     log: |
-         1e8257272da249f012f2ed9f60a8f2343d8887cc Fri Dec 31 06:12:10 PM UTC 2021
+         cef5cd25a453805237f0c4e789218d987d674290 selftest/kexec: fix "ignored null byte in input" warning
+         9be6dc8059bb235ffb0666690a26c0df15cc6d9e selftests/kexec: update searching for the Kconfig
          
