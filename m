@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 31 Dec 2021 21:17:39 -0000
-Message-Id: <164098545944.10286.10026118699142913366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 31 Dec 2021 21:50:10 -0000
+Message-Id: <164098741004.31105.1924068019466370034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 1b4e3f26f9f7553b260b8aed43967500961448a6
-    new: 8008293888188c3923f5bd8a69370dae25ed14e5
+    old: 5cb97b0a682d611bbb99fd1efbb01886e820417a
+    new: 4bcf1e81254168c01cee744ffda728e817554fdb
     log: |
-         8008293888188c3923f5bd8a69370dae25ed14e5 mm: vmscan: reduce throttling due to a failure to make progress -fix
+         4bcf1e81254168c01cee744ffda728e817554fdb Fri Dec 31 09:49:39 PM UTC 2021
          
