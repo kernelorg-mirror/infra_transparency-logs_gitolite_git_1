@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8436003241833310722=="
+Content-Type: multipart/mixed; boundary="===============5836473575559664640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 31 Dec 2021 18:09:59 -0000
-Message-Id: <164097419947.23461.8711878033921317358@gitolite.kernel.org>
+Date: Fri, 31 Dec 2021 18:11:34 -0000
+Message-Id: <164097429481.25399.8843717047069529829@gitolite.kernel.org>
 
---===============8436003241833310722==
+--===============5836473575559664640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 9ed319e411915e882bb4ed99be3ae78667a70022
     new: e63a02348958cd7cc8c8401c94de57ad97b5d06c
     log: revlist-9ed319e41191-e63a02348958.txt
 
---===============8436003241833310722==
+--===============5836473575559664640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -557,4 +557,4 @@ aab8d1c6a5e3aaf67c4c18f6b03cf6486c435755 net: hns3: delete the hclge_cmd.c and h
 ce2b6eb409ad40607193641c3ec18c3457e1f57c Merge tag 'mlx5-updates-2021-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 e63a02348958cd7cc8c8401c94de57ad97b5d06c Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============8436003241833310722==--
+--===============5836473575559664640==--
