@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8364044289659404934=="
+Content-Type: multipart/mixed; boundary="===============0860656891777593600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 31 Dec 2021 15:39:54 -0000
-Message-Id: <164096519487.28386.7123821523190905864@gitolite.kernel.org>
+Date: Fri, 31 Dec 2021 15:40:19 -0000
+Message-Id: <164096521977.29951.16291263383741919488@gitolite.kernel.org>
 
---===============8364044289659404934==
+--===============0860656891777593600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 9e6b19a66d9b6b94395478fe79c5a3ccba181ad3
     new: e63a02348958cd7cc8c8401c94de57ad97b5d06c
     log: revlist-9e6b19a66d9b-e63a02348958.txt
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
 
---===============8364044289659404934==
+--===============0860656891777593600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1060,4 +1051,4 @@ aab8d1c6a5e3aaf67c4c18f6b03cf6486c435755 net: hns3: delete the hclge_cmd.c and h
 ce2b6eb409ad40607193641c3ec18c3457e1f57c Merge tag 'mlx5-updates-2021-12-28' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 e63a02348958cd7cc8c8401c94de57ad97b5d06c Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============8364044289659404934==--
+--===============0860656891777593600==--
