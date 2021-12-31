@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 30 Dec 2021 23:50:28 -0000
-Message-Id: <164090822855.17950.14401219447720830569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 31 Dec 2021 00:43:11 -0000
+Message-Id: <164091139173.17812.6560933286203983724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: c1d738ecc53464fbd0420f9d82cce6c359670801
-    new: 0ff8f95e25ecdabc7aa894828957831fc83589be
+    old: 35580f90a247db40f983bbbb17c22d272f0e2caa
+    new: 63d000c3dc0a8ddd2f3778982ce6d19593656eda
     log: |
-         0ff8f95e25ecdabc7aa894828957831fc83589be Thu Dec 30 11:49:57 PM UTC 2021
+         fa86aa77d4da211fc814325cdb3a572b1b851058 bpf, docs: Fix verifier references
+         41db511a3a1622aa97064a3447e878eeb1a594b7 bpf, docs: Split the comparism to classic BPF from instruction-set.rst
+         5e4dd19f00491faf10912e1f15a47ab010e0e9ce bpf, docs: Generate nicer tables for instruction encodings
+         63d000c3dc0a8ddd2f3778982ce6d19593656eda bpf, docs: Move the packet access instructions last in instruction-set.rst
          
