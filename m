@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5832269141059655897=="
+Content-Type: multipart/mixed; boundary="===============2643100426536783756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 01 Jan 2022 22:16:22 -0000
-Message-Id: <164107538299.25138.5222010458187841282@gitolite.kernel.org>
+Date: Sat, 01 Jan 2022 22:18:14 -0000
+Message-Id: <164107549408.25876.16362641730727339293@gitolite.kernel.org>
 
---===============5832269141059655897==
+--===============2643100426536783756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,56 @@ repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
   - ref: refs/heads/kvm-arm64/nv-5.16
-    old: c060c7eaa6662dd7d9676f93fa1e40114cae78e6
-    new: 4edc039067e1aecfbfcba7d875f6df068247fbac
-    log: revlist-c060c7eaa666-4edc039067e1.txt
+    old: 4edc039067e1aecfbfcba7d875f6df068247fbac
+    new: f04826f61a379eb5e34a6a445a859598d520f1e9
+    log: revlist-4edc039067e1-f04826f61a37.txt
 
---===============5832269141059655897==
+--===============2643100426536783756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c060c7eaa666-4edc039067e1.txt
+Content-Disposition: attachment; filename=revlist-4edc039067e1-f04826f61a37.txt
 
-2e5b135e07495b24a7a7c491ce51aa4176986003 KVM: arm64: nv: Allow a sysreg to be hidden from userspace only
-df339bc037fca9240186633f8eead1ee760842a2 KVM: arm64: nv: Emulate EL12 register accesses from the virtual EL2
-6de8c237d88eabe36c30591e3bd3cbaa9b0618cb KVM: arm64: nv: Forward debug traps to the nested guest
-15856700f01b09606ca1fdedad802a2cbde1bf6d KVM: arm64: nv: Configure HCR_EL2 for nested virtualization
-dc5bd04976869b2502348917a3986934ffa8b71a KVM: arm64: nv: Only toggle cache for virtual EL2 when SCTLR_EL2 changes
-cd283135c3a5de271fb94751de94aa4d47e3bc91 KVM: arm64: nv: Filter out unsupported features from ID regs
-e2bdc68a338d427c6dcd984cd3ab757ed44064d8 KVM: arm64: nv: Hide RAS from nested guests
-3387be91a58494f3833d1379508f9b7fda1feeae KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
-d030237c9722a4b14d6045f28a88f27d3c0bc9e8 KVM: arm64: nv: Implement nested Stage-2 page table walk logic
-b31cb344644ce4381a5036f30d9a0fe9215be70b KVM: arm64: nv: Handle shadow stage 2 page faults
-ed5a8943e4d00f1869cee394f9b5484a328fd921 KVM: arm64: nv: Restrict S2 RD/WR permissions to match the guest's
-9a23a641d6d9f0232d0047e740c04cb48f283e2d KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
-377c8485190a304f80c7b999ef65e760f73d5501 KVM: arm64: nv: Introduce sys_reg_desc.forward_trap
-9640b0706ee37b138dd0c7376bea5b29e3374267 KVM: arm64: nv: Set a handler for the system instruction traps
-0161f933dd3390b5b082c50ea0619b16babcf041 KVM: arm64: nv: Trap and emulate AT instructions from virtual EL2
-87e946f6a4f4e762d0af2989246286365800dc32 KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
-29940ce14ae9655cecd93cda16b9d8059cee551f KVM: arm64: nv: Fold guest's HCR_EL2 configuration into the host's
-1cbee7ccd712408f98af255d0885a7b98c4f5964 KVM: arm64: nv: arch_timer: Support hyp timer emulation
-0132fda3024e86df38358d5fd6d7b295bfa17d4e KVM: arm64: nv: Add handling of EL2-specific timer registers
-72a4d42be30a6df9fe38f2737a763b53a0c8891a KVM: arm64: nv: Load timer before the GIC
-d4b925f2d2a1ef039bc13e8e822d38537e16170f KVM: arm64: nv: Nested GICv3 Support
-0292dbb1f9a716c044ca8f9b3bc991a1b70fea6f KVM: arm64: nv: Don't load the GICv4 context on entering a nested guest
-43cfb41d25becbaa774c81b7ff526cf76d176f56 KVM: arm64: nv: vgic: Emulate the HW bit in software
-a7dfda4ab9d4e587da100c3e6cae95719d08723d KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
-3f7ffa7ba1cb2ec077062a83790dfb96e0dd327a KVM: arm64: nv: Implement maintenance interrupt forwarding
-bec255fd92f47fe26f1ebd7af031bbec13437593 KVM: arm64: nv: Add nested GICv3 tracepoints
-ff221f066715e39b8173f5be791dd4794cfc12e6 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
-29f29c89b9c2c45dbd87331540929b56be00428e KVM: arm64: nv: Add handling of ARMv8.4-TTL TLB invalidation
-08c46a519a8c5ec0460da24334225a521b93797f KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
-70b547512c25c958a8fd651e474acb20f6eac983 KVM: arm64: nv: Tag shadow S2 entries with nested level
-ef0ad63293b3d543b7be306392ce5550a2f12da6 KVM: arm64: nv: Add include containing the VNCR_EL2 offsets
-7357bb78b0282f22458b33c300bacf60075ef71c KVM: arm64: nv: Map VNCR-capable registers to a separate page
-e927b1c7b2a5003b0041eec4606ebacbda3b035d KVM: arm64: nv: Move nested vgic state into the sysreg file
-e229bb39d26f7709adf366805aa4f160587f0109 KVM: arm64: Add ARMv8.4 Enhanced Nested Virt cpufeature
-d4ba58e3c5e122bda997fe40830ff5372c8d6748 KVM: arm64: nv: Sync nested timer state with ARMv8.4
-d86d83b708acdf079a45ae0b37c7ba25fbf6123d KVM: arm64: nv: Allocate VNCR page when required
-2d61dca7370e134fd8b782d61aad799f60296b52 KVM: arm64: nv: Enable ARMv8.4-NV support
-32d388fafd05262db10a5ed03e7772a11b11cdb8 KVM: arm64: nv: Fast-track 'InHost' exception returns
-09b4f02ecad26c80f7e3d2f9d92e2c37b62cedc1 KVM: arm64: nv: Fast-track EL1 TLBIs for VHE guests
-ce116621ef2dc695e0338c3f933eaf03294e3cab KVM: arm64: Check sys_reg access context
-4edc039067e1aecfbfcba7d875f6df068247fbac debug crap
+167cad8745373230942fbf5ff218b79075eac4ea KVM: arm64: nv: Allow a sysreg to be hidden from userspace only
+918eec333701aa30c7476b180f0e8e0eeb2458fb KVM: arm64: nv: Emulate EL12 register accesses from the virtual EL2
+81831c9ea8f6ace6c2dc5de5a8dd7708b52861f3 KVM: arm64: nv: Forward debug traps to the nested guest
+6753b9bd04eda22fee69b07ba1067af119943816 KVM: arm64: nv: Configure HCR_EL2 for nested virtualization
+0a85ec8851afa55c9cd3d5dbe0ccac5db863fc66 KVM: arm64: nv: Only toggle cache for virtual EL2 when SCTLR_EL2 changes
+29a57a1a07868babaa6bc252f6c81bf8379656a7 KVM: arm64: nv: Filter out unsupported features from ID regs
+aada8dc8ffcbf4617eabc4dc1b747b4752218918 KVM: arm64: nv: Hide RAS from nested guests
+c768a2cd88ad872b9d26fd3d436a8d69e9687771 KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
+1707d8df85668469f771238ea1e559c03d9fd739 KVM: arm64: nv: Implement nested Stage-2 page table walk logic
+d64bf7e7a71795f0ac8ea0a7f7c09a6b5beeccf0 KVM: arm64: nv: Handle shadow stage 2 page faults
+d9bc829ac2727295e412e07adf32447e8cd1c0e0 KVM: arm64: nv: Restrict S2 RD/WR permissions to match the guest's
+db01b0ac624004ccb2c4107cbff8ea0012f756c2 KVM: arm64: nv: Unmap/flush shadow stage 2 page tables
+d10a08c3b955d49fc80bf1a51ef49fc8c0a1add5 KVM: arm64: nv: Introduce sys_reg_desc.forward_trap
+044bac8c8d4a9cb58392529114dee039a77fe225 KVM: arm64: nv: Set a handler for the system instruction traps
+46a35895e6becbc4b01a6ba6bd09092486a6df29 KVM: arm64: nv: Trap and emulate AT instructions from virtual EL2
+f37dc3377bc8d40b7f600012ed3de6db3b49251d KVM: arm64: nv: Trap and emulate TLBI instructions from virtual EL2
+fbbe1a040accf598b9301165f0050f63f41f4319 KVM: arm64: nv: Fold guest's HCR_EL2 configuration into the host's
+4a53f8976ced2f2659e9320acbf234062def2b8a KVM: arm64: nv: arch_timer: Support hyp timer emulation
+78bd8f5f6f663d0b7a617ff74966fc2fee884893 KVM: arm64: nv: Add handling of EL2-specific timer registers
+66dcdc987f4310e3e3c0fb4b569a26e5dc2a7160 KVM: arm64: nv: Load timer before the GIC
+91d34ee3a174ffde4a71405edf2346f7ca859c6e KVM: arm64: nv: Nested GICv3 Support
+29d4568de5ad8bf2b11daa482a7964a2ce5ed104 KVM: arm64: nv: Don't load the GICv4 context on entering a nested guest
+0ba6a67794398cf01d8f3ed96a56a2a74da6ceaa KVM: arm64: nv: vgic: Emulate the HW bit in software
+5d6941e28da947d6161f8e6be4adb4eda0df518b KVM: arm64: nv: vgic: Allow userland to set VGIC maintenance IRQ
+89bf52cb400fc151f1b2701c27653f266d846a91 KVM: arm64: nv: Implement maintenance interrupt forwarding
+4369fe550f31f693bbd099bfad01abad738d65a5 KVM: arm64: nv: Add nested GICv3 tracepoints
+e472d9e3d55837ff1ef74fdbc0552507146c7994 KVM: arm64: nv: Allow userspace to request KVM_ARM_VCPU_NESTED_VIRT
+f34ff8ccdaf237b5365081c1cdb93920796cc4b4 KVM: arm64: nv: Add handling of ARMv8.4-TTL TLB invalidation
+eba80ff5432886607d90bc40ee97a6b24b2b4387 KVM: arm64: nv: Invalidate TLBs based on shadow S2 TTL-like information
+a60b73f5feb0fd78d50c1b720466f0055e709f2d KVM: arm64: nv: Tag shadow S2 entries with nested level
+7d3f59a888de26b640c4c0eef7d612099f047efa KVM: arm64: nv: Add include containing the VNCR_EL2 offsets
+47433a3b7582a31fa61afaf0367a8fbd8063f666 KVM: arm64: nv: Map VNCR-capable registers to a separate page
+dc55538145e2a9439da65f3718bf831aa763edc7 KVM: arm64: nv: Move nested vgic state into the sysreg file
+a030e4a17866b3beaf051589e5717b149b2d10e1 KVM: arm64: Add ARMv8.4 Enhanced Nested Virt cpufeature
+b9d7c159df58e8d3457aea3a043784b0d77d4b3b KVM: arm64: nv: Sync nested timer state with ARMv8.4
+d2cb32c5f702797d3b8b6620a92a5c577d9bf617 KVM: arm64: nv: Allocate VNCR page when required
+6617f014dc6b499eecfd3afedd6a90197afbbbdb KVM: arm64: nv: Enable ARMv8.4-NV support
+4df6bb2d747c18ca9aefea9e603214b5988c4b36 KVM: arm64: nv: Fast-track 'InHost' exception returns
+165f08254f5b29d3e01c2443987cc4fc734493c5 KVM: arm64: nv: Fast-track EL1 TLBIs for VHE guests
+c2e329a19d84b690d564a364d92da6186cc74b78 KVM: arm64: Check sys_reg access context
+f04826f61a379eb5e34a6a445a859598d520f1e9 debug crap
 
---===============5832269141059655897==--
+--===============2643100426536783756==--
