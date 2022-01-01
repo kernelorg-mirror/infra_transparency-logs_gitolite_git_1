@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 01 Jan 2022 05:58:15 -0000
-Message-Id: <164101669599.5595.7577148150840067731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sat, 01 Jan 2022 07:53:27 -0000
+Message-Id: <164102360796.11077.8261571523602169531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: ae8a6c7c7cbccb72d6334e2a14163a14e6135c94
-    new: 3cc2d7eede268930304b35fdce6121e18b2ceef6
+  - ref: refs/heads/sched/headers
+    old: 5a337967bae85ba432dca418b6c883f07d524877
+    new: 6f24e26e270db317b332303934c69186ff307c1f
     log: |
-         25238915b129234b0162eac5ef0451b3b86e7b2e defer: Retouch SVG files for browser compatibility (2nd attempt)
-         3cc2d7eede268930304b35fdce6121e18b2ceef6 Fix svg in chapter7: change incorrect "Lock B" in `qsort` to "Lock C".
+         35a39f437c2da4ef5989bfb6d37c08d524f4a5ae headers/deps: Introduce the CONFIG_FAST_HEADERS=y config option
+         6f24e26e270db317b332303934c69186ff307c1f FIX: 9e0720ae2f71 headers/deps: mm: Implement better CONFIG_SPARSEMEM header hell quirks
          
