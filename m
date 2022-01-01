@@ -1,30 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 01 Jan 2022 15:48:00 -0000
-Message-Id: <164105208082.13824.16756556906353364949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sat, 01 Jan 2022 15:56:36 -0000
+Message-Id: <164105259670.20429.11955200188648320124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: ca1ece24d9bc5bd1d5257494654bb2b73942ddea
-    new: 146b3a77af8091cabbd1decc51d67799e69682d2
-    log: |
-         d278dc9151a034674b31ffeda24cdfb0073570f3 ALSA: hda/tegra: Fix Tegra194 HDA reset failure
-         6088ddfb6d8f004184a55857b6c64d8cf5f9a8d8 dt-bindings: sound: tegra: Add minItems for resets
-         146b3a77af8091cabbd1decc51d67799e69682d2 arm64: tegra: Remove non existent Tegra194 reset
-         
   - ref: refs/heads/master
-    old: 4597246673190e3316a1e743677e7bb81e8784f5
-    new: ce19abcae32b284623f743aab8fc99b82d0ba1ca
+    old: b6c87e8c2f2b9418d2fe694cacfe4b9cc176cce3
+    new: a9d0df26d36b1223f81e9a2e62916f59ffb72145
     log: |
-         d278dc9151a034674b31ffeda24cdfb0073570f3 ALSA: hda/tegra: Fix Tegra194 HDA reset failure
-         6088ddfb6d8f004184a55857b6c64d8cf5f9a8d8 dt-bindings: sound: tegra: Add minItems for resets
-         146b3a77af8091cabbd1decc51d67799e69682d2 arm64: tegra: Remove non existent Tegra194 reset
-         ce19abcae32b284623f743aab8fc99b82d0ba1ca Merge branch 'for-next'
+         0ca049bdd29f1467f1b859e3ca696922b256d81f lib/crypto: blake2s: include as built-in
+         1697a183ef271ffdc568d6ac8cc58a0b8d727bcb random: use BLAKE2s instead of SHA1 in extraction
+         09049e97d5b5fe3614c51cfbae70c8370ec1ee80 random: fix crash on multiple early calls to add_bootloader_randomness()
+         d92a8bf984cfb30fe530f744cf0e5dc1362262a2 random: do not re-init if crng_reseed completes before primary init
+         51a3f02f7a87e64f7fa9e6e750fb1debf6e6b765 random: do not throw away excess input to crng_fast_load
+         d56ed570585a6c0cbc3ad07906cbb970b3905e69 random: mix bootloader randomness into pool
+         58d10d3b9b6e6b8d3b65f5442018247ab88e1f88 random: harmonize "crng init done" messages
+         28861cee0291fa16c85889ec69963aa18a58f4d8 random: use IS_ENABLED(CONFIG_NUMA) instead of ifdefs
+         38c2c8723bf84e8c0598cff9dc900c4c9015be56 random: early initialization of ChaCha constants
+         a9d0df26d36b1223f81e9a2e62916f59ffb72145 random: avoid superfluous call to RDRAND in CRNG extraction
          
