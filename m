@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2972152108076309394=="
+Content-Type: multipart/mixed; boundary="===============5775283809306772806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 01 Jan 2022 21:46:42 -0000
-Message-Id: <164107360275.6487.18295796722430942088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sat, 01 Jan 2022 21:46:48 -0000
+Message-Id: <164107360846.6586.283684189651728820@gitolite.kernel.org>
 
---===============2972152108076309394==
+--===============5775283809306772806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: ea6cf3bfb297adf6ec6159d4f80aa39f4b54b439
-    new: c123f4e2253bf21ec43399fa9e386f16f854ed9f
-    log: revlist-ea6cf3bfb297-c123f4e2253b.txt
+  - ref: refs/heads/queue-next
+    old: 6db8fcb364ff664b676834842549cb83ef08dc51
+    new: 686167cb0646ab2ee0cb04d5e54d819295274c22
+    log: revlist-6db8fcb364ff-686167cb0646.txt
 
---===============2972152108076309394==
+--===============5775283809306772806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea6cf3bfb297-c123f4e2253b.txt
+Content-Disposition: attachment; filename=revlist-6db8fcb364ff-686167cb0646.txt
 
 0706a78f31c4217ca144f630063ec9561a21548d Revert "xsk: Do not sleep in poll() when need_wakeup set"
 819d11507f6637731947836e6308f5966d64cf9d bpf, selftests: Fix spelling mistake "tained" -> "tainted"
@@ -50,5 +50,7 @@ c409a4e9ce89bd3e4f688d9950a39e4c49af2fdb net/mlx5: CT: Set flow source hint from
 2760535efc8381e2e903d4cfadf387a3079ac820 Merge branch 'patchq/374716' into mlx5-queue
 c6dcfb120507222f16baa2d72a302549ca8669a2 Merge branch 'mlx5-queue' into net-next
 c123f4e2253bf21ec43399fa9e386f16f854ed9f Merge branch 'mlx4-for-net' into net-next
+65987371079ece621f899535d1d46d4b87e63576 Merge branch 'net-next' into queue-next
+686167cb0646ab2ee0cb04d5e54d819295274c22 Merge branch 'testing/rdma-next' into queue-next
 
---===============2972152108076309394==--
+--===============5775283809306772806==--
