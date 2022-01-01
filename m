@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 01 Jan 2022 18:40:16 -0000
-Message-Id: <164106241668.22549.1031405296196299626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sat, 01 Jan 2022 18:43:02 -0000
+Message-Id: <164106258242.23447.7280833644859783486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 8008293888188c3923f5bd8a69370dae25ed14e5
-    new: 278218f6778bc7d6f8b67199446c56cec7ebb841
+    old: 4bcf1e81254168c01cee744ffda728e817554fdb
+    new: a1ef600e46ea2acf720aca262eb36f5d73899a8f
     log: |
-         9f3ccdc3f6ef10084ceb3a47df0961bec6196fd0 Input: appletouch - initialize work before device registration
-         bc7ec91718c49d938849697cfad98fcd9877cc26 Input: spaceball - fix parsing of movement data packets
-         278218f6778bc7d6f8b67199446c56cec7ebb841 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+         a1ef600e46ea2acf720aca262eb36f5d73899a8f Sat Jan  1 06:42:31 PM UTC 2022
          
