@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 02 Jan 2022 12:21:42 -0000
-Message-Id: <164112610247.5562.6421376146408251678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 02 Jan 2022 12:46:54 -0000
+Message-Id: <164112761433.20741.12801021083809380868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c5180ad0c2784924b3526ec2bd3ee9e0aa05724b
-    new: c95e078069bf9bfcb66272fac162c79be6c9170b
+    old: ae81de737885820616f9c67c2e7935998b523d58
+    new: f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4
     log: |
-         c95e078069bf9bfcb66272fac162c79be6c9170b tehuti: Use dma_set_mask_and_coherent() and simplify code
+         c255a34e02efb1393d23ffb205ba1a11320aeffb net: ena: Fix undefined state when tx request id is out of bounds
+         cb3d4f98f0b26eafa0b913ac3716e4714254a747 net: ena: Fix wrong rx request id by resetting device
+         5055dc0348b8b7c168e3296044bccd724e1ae6cd net: ena: Fix error handling when calculating max IO queues number
+         5b40d10b604280a5bdf355b9d47ed238c92233dd Merge branch 'ena-fixes'
+         f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4 sctp: hold endpoint before calling cb in sctp_transport_lookup_process
          
