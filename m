@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 02 Jan 2022 20:45:47 -0000
-Message-Id: <164115634761.27877.16734348801034682768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sun, 02 Jan 2022 21:03:46 -0000
+Message-Id: <164115742672.6214.2576770704105092923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/tags/perf-tools-fixes-for-v5.16-2022-01-02
-    old: 0000000000000000000000000000000000000000
-    new: f3ab91bad6293af9c45482283dbd22c71d3167dc
+  - ref: refs/heads/sched/headers
+    old: 1102277a0888ee1ad9f3688af9db947700a1c206
+    new: 67228fa3c2fdd397e533797218a2479f760a015f
+    log: |
+         67228fa3c2fdd397e533797218a2479f760a015f headers/deps: Introduce the CONFIG_FAST_HEADERS=y config option
+         
