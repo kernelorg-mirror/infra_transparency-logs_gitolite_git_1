@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 02 Jan 2022 12:18:46 -0000
-Message-Id: <164112592655.2792.15431067215851984715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 02 Jan 2022 12:19:39 -0000
+Message-Id: <164112597970.3125.997686804917388699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d6d86830705f173fca6087a3e67ceaf68db80523
-    new: ae81de737885820616f9c67c2e7935998b523d58
+    old: b63c5478e9cb1d1504eb02d9dac827ad24612b32
+    new: e44ef1d4de577aca369199b16da382d6e5aafaa3
     log: |
-         ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
+         e44ef1d4de577aca369199b16da382d6e5aafaa3 net: socket.c: style fix
          
