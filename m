@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 02 Jan 2022 15:56:09 -0000
-Message-Id: <164113896943.8430.5911554704309154638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 02 Jan 2022 16:11:49 -0000
+Message-Id: <164113990919.17759.16121367561253505125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/vp
-    old: 5b56e8d2a993000e76eb7bd343ee45ad32768bfd
-    new: 54e06a7ff03ad939578c8c93f646b98dc07817ae
+  - ref: refs/heads/master
+    old: c95e078069bf9bfcb66272fac162c79be6c9170b
+    new: 1f52a9380ff19b6fc00c1614488d5940773ba3ab
     log: |
-         54e06a7ff03ad939578c8c93f646b98dc07817ae tip/tools/vp: Verify commit quotation format
+         1f52a9380ff19b6fc00c1614488d5940773ba3ab net/smc: add comments for smc_link_{usable|sendable}
          
