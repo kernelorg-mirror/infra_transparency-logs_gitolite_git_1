@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5720396292386882115=="
+Content-Type: multipart/mixed; boundary="===============8295798881192129817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Jan 2022 12:03:25 -0000
-Message-Id: <164121140592.24672.6053984290069743401@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 12:03:30 -0000
+Message-Id: <164121141017.24738.15427374581171105927@gitolite.kernel.org>
 
---===============5720396292386882115==
+--===============8295798881192129817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a7904a538933c525096ca2ccde1e60d0ee62c08e
+  - ref: refs/heads/usb-linus
+    old: 3f345e907a8e7c56fdebf7231cd67afc85d02aaa
     new: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
-    log: revlist-a7904a538933-c9e6606c7fe9.txt
+    log: revlist-3f345e907a8e-c9e6606c7fe9.txt
 
---===============5720396292386882115==
+--===============8295798881192129817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641211405 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641211409 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641211404-52ebf8f8728561c379f0a4004a4f000864fcaf49
+nonce 1641211408-46b34ef14929afa5f88b67c1292834d605cd97ae
 
-a7904a538933c525096ca2ccde1e60d0ee62c08e c9e6606c7fe92b50a02ce51dda82586ebdf99b48 refs/heads/main
+3f345e907a8e7c56fdebf7231cd67afc85d02aaa c9e6606c7fe92b50a02ce51dda82586ebdf99b48 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS5g0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k3cP/ix9aHtWss04SXJUjXj6
-SYAm7zuc3meCBXjkJE5N54yAdRiLr+V899vW6yGHp2qE117rxFgMZO12hahbwPqn
-aqXXmGxww0yufQxCXDESwxD+VpwcdmtG2cz4sZjIHkKncDlj7E2Ef0fzsdX0+DxM
-HXWqhQ64zoKg7Cy44xrTRKhYdNwUsoLNxW2Ckc23B4ZMYTScqw6rD8zqiE7Tf7bt
-EKgBUxfKF8NTBrkikVxRVL5ZssdBxByt4vjtPk4iQGItCR9s33Lx1VrVQ3JLeh3I
-HLMg5eBsjzSrDCbP+WT4FzZiLsjW6pNSIDi8PBf/Nr43ZEosnqVoNsXxmh2EG+nm
-qvA9O2RQ/8gnpdmxteHetrR3FLZdVZuw5viHNeO+YvPodfSmVcmM/I3wUDO3Tlwp
-62dvmGcHZXsUyDeWFjzNxKgON/uN7xiCMjY4s4m1ge0GsPA2fKZ7bCElrnYDmwEm
-iF2ccrV7RAttoR15PYjP7hw/s3oFQcCrVulkMt2RZCShDzBGSUSpFBnznOee3G4k
-ViCCS5EjFqYw0WG7K9UK8zW+xzpYeTa/5Yu2k0Cr5ez7qqvoD52DZ/1YECQ7tAuE
-pZW19BZlbp0d1IrFqkTtCbwMV1bKyuyc9oQBz7GSx0TkVNQ8yq+RlIYy/KdIhTZw
-ZWv56r+Xuxi0j3MQpKVDJ2Qq
-=id4B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS5hEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d0EQALk+JKKHYHSX6FHmTa2a
+p3vALwGwVwLsFKcRrFfqER5NKa26ujiNB7g1d11c+jLZ3FZFtmmhwf249kcvNZZ1
+sVzW37suYS4RRTNucaNPV9l+qY5F1sFzTQ8KvuDjZ/0iXARBSkGNmAQUdgZD0ta7
+TCCqkyz3sGo0Y9RdV0kVpJoG7GDNUV+8vsJcN5oLjup/GicmpmKIC1QbKibIMzbw
+6JvRcj2XGfNCB3mplCN76aEN9bYgQwp7tdusqRbdRFko3HVfrFlPOYkBqO2qShqQ
+wLxeNXVj+maX+wd5eFLprTgqHJyCIjTGiVORfk8Ki9IXpiOQV7J0ZkJn0Mi5/MVq
+QEZOUSM4/uL1wAFNHYHBZaPLFBCguxglKhFWzeduvSLT45P543tDnG0NqdIIgDzl
+n00BRFjNJZFN79BQyBZL0nSVbBUYHc9f+2pqxWXzMi460fgaIpH2vO9i1oj2H5Yd
+fFwZLAxGAWnr+N3kh09rA3pGNnHBW3fryyjtMeegYGjAOgH/j59eNZzDcB0OkbT1
+3Sz72EW7RnU8NqYR6pVYr7Iv6NYGdGX0iSrad0omNDtYxG7M++cooZiUWYstdSak
+WAHMks+fBQCZzxBsoUEvVwsUr1FWk8TKWUYIrtdlTmsFAfZnfpVFyamgc0DWBcyT
+E0KiyqQKhpvF5+HMYAE15CB+
+=1Jzd
 -----END PGP SIGNATURE-----
 
---===============5720396292386882115==
+--===============8295798881192129817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7904a538933-c9e6606c7fe9.txt
+Content-Disposition: attachment; filename=revlist-3f345e907a8e-c9e6606c7fe9.txt
 
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
 017a716e7b0e9d4ac06a4d7779bd04fca009bbc9 bus: sunxi-rsb: Fix shutdown
@@ -191,19 +191,12 @@ a9725e1d3962ad00288c4ae6d9b518afc51b2adc docs: networking: replace skb_hwtstamp_
 1ed1d592113959f00cc552c3b9f47ca2d157768f net: skip virtio_net_hdr_set_proto if protocol already set
 1f06f7d97f741667bab0f459a4f940b21cab1549 gve: Correct order of processing device options
 ac8c58f5b535d6272324e2b8b4a0454781c9147e igb: fix deadlock caused by taking RTNL in RPM resume path
-b1e0887379422975f237d43d8839b751a6bcf154 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-e3d4621c22f90c33321ae6a6baab60cdb8e5a77c usb: mtu3: fix interval value for intr and isoc
-a7aae769ca626819a7f9f078ebdc69a8a1b00c81 usb: mtu3: add memory barrier before set GPD's HWO
-8c313e3bfd9adae8d5c4ba1cc696dcbc86fbf9bf usb: mtu3: fix list_head check warning
-43f3b8cbcf93da7c2755af4a543280c31f4adf16 usb: mtu3: set interval of FS intr and isoc endpoint
 67f74302f45d5d862f22ced3297624e50ac352f0 drm/nouveau: wait for the exclusive fence after the shared ones v2
 cfd0d84ba28c18b531648c9d4a35ecca89ad9901 binder: fix async_free_space accounting for empty parcels
 3a0152b219523227c2a62a0a122cf99608287176 nitro_enclaves: Use get_user_pages_unlocked() call to handle mmap assert
-e4844092581ceec22489b66c42edc88bc6079783 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
 ff31ee0a0f471776f67be5e5275c18d17736fc6b mmc: mmci: stm32: clear DLYB_CR after sending tuning command
 ffb76a86f8096a8206be03b14adda6092e18e275 ipmi: Fix UAF when uninstall ipmi_si and ipmi_msghandler module
 3e4d9a485029aa9e172dab5420abe775fd86f8e8 gpio: virtio: remove timeout
-3f345e907a8e7c56fdebf7231cd67afc85d02aaa usb: typec: ucsi: Only check the contract if there is a connection
 1c3e979bf3e225e5b4b810b24712b16254d608b6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 fdba608f15e2427419997b0898750a49a735afcb KVM: VMX: Wake vCPU when delivering posted IRQ even if vCPU == this vCPU
 804034c4ffc502795cea9b3867acb2ec7fad99ba platform/mellanox: mlxbf-pmc: Fix an IS_ERR() vs NULL bug in mlxbf_pmc_map_counters
@@ -383,4 +376,4 @@ e0257a01d6689c273a019756ed5e13911cc1bfed perf pmu: Fix alias events list
 24a0b2206134e17ec99d212c776f08f75a4bec23 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 Linux 5.16-rc8
 
---===============5720396292386882115==--
+--===============8295798881192129817==--
