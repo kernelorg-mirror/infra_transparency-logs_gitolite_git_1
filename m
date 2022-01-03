@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1946830297227202519=="
+Content-Type: multipart/mixed; boundary="===============6745167745901027230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 03 Jan 2022 13:30:55 -0000
-Message-Id: <164121665529.15791.17437918205426446777@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 13:31:42 -0000
+Message-Id: <164121670227.16419.4087269607624502987@gitolite.kernel.org>
 
---===============1946830297227202519==
+--===============6745167745901027230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,61 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 12b31d07b0ceb723821394b414c02db64468f1f2
-    new: 65935347844eba55c2182edac668090ad5b184c9
-    log: |
-         a0c43a469239ab6fedaaa101b15bc6cc9e8baa1d staging: pi433: add docs to packet_format and tx_start_condition enum
-         b376bd63774b7a5cf02f503369b429fa3a1ee6cc staging: r8188eu: bRDGEnable is always false
-         ffcdb1b194ec77a53b4693977dc68e6009d7963d staging: r8188eu: UsbRxHighSpeedMode is set but never used
-         a056e41a0928cd7382ff644575c90eba586ff952 staging: r8188eu: bTXPowerDataReadFromEEPORM is set but never used
-         cfd060fe2edb8b752f99af249097a2c701101102 staging: r8188eu: bAPKThermalMeterIgnore is set but never used
-         f606b319ef4d24c072e74ca7e9eb6dfd63bf4282 staging: r8188eu: remove unused fields from struct hal_data_8188e
-         4483319375f3faba3830ce36426cf81fe6eb8b9b staging: r8188eu: IntArray and C2hArray are set but never used
-         65935347844eba55c2182edac668090ad5b184c9 staging: r8188eu: FwRsvdPageStartOffset is set but never used
-         
+    old: 65935347844eba55c2182edac668090ad5b184c9
+    new: 51edf56ea9df14babeadfc92897e85fdd5143508
+    log: revlist-65935347844e-51edf56ea9df.txt
 
---===============1946830297227202519==
+--===============6745167745901027230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641216653 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641216700 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1641216652-1a02aaa1c8c3d6e07cc0056a7a762bcfb0bd7aac
+nonce 1641216699-810abccd3b9d5b9ec8330a4a512f96039f6af2de
 
-12b31d07b0ceb723821394b414c02db64468f1f2 65935347844eba55c2182edac668090ad5b184c9 refs/heads/staging-testing
+65935347844eba55c2182edac668090ad5b184c9 51edf56ea9df14babeadfc92897e85fdd5143508 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS+o0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n3AQAKnZ7ADPOjBC812aNuYa
-SKwRg0nUqVWC/tGV/RJ4eVPjig7jtCsJ2cGmP/Mu28ev3WddWsLSbwZ6oajRzO51
-nw+hk3fg5qEv5cGV+HEnqCaPrYarQ0R5s0kH4WLhX4BhDQi5PNe3WU3nkjauY7ct
-uF3T1+f4qs1rpnASpD4IWIq+IknqxEqMaCcuPBzadV8P01HE9o/DtnCf+awpCN26
-+9aCqmGEP7QKTMS1xd1pliPVaXkSBhzlRPQU2h97CinlqYGdyMhfPBQtx3cv+4r6
-gnAmgyj6EbrA+vmI9aex5maG2GDeuOYYd4p9jRlcom+CzrjNPs1OsKjUH8LWwg4V
-MDWzrIyqrOfZ7O6sjWXngYnSXYBoseVr5BdZEmkRUiQ6mSCZWgyFQPIfoIu4KyHx
-TvPukPhoBNtFiXQoBik8vDOM4prOQS9SzayxVU9vGoSUvqL35A6KBJXvgXb6d1hp
-P73sKPNeun0pGPoL9QB1G/Q5v7b0hX0yu+/qymR97uN7dAkCrEEy0h4odXcmw3oC
-23xbuSipEFynleOEnBEYNxtYXgDMAxzP+r2LnIbwX1Qhze16KEjh7TQ20vGuzfXb
-4KWzUJwj67SsHa5q/uCeMbKu0bxucOyPCmup5AE45Rsmqn3GVWc9F2ta1qUHMT1R
-Gf03PDA3GXu3Qq7RRAG82jRi
-=PY6D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS+rwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HYEP/05ltes3S0p5O6SiRHxZ
+7OntjiMHKNrMn2M01BIzFRnggoYv6IR70dICWvKJHcM6JGwskP7uT15FZCYDM/rm
+gmzhQ6JPUeW4OS+hWmh/A9IS/DMDO/2pEiEmZxmxdG4gPid8fNxrqZJVxh6Z/OXM
+Yy3uZKPVuvnp8yrsHNGFb9Gb8UwnlUwuRxae+zRTwM5GmMOqL20IKD12dw3oYLkX
+DtvuSU0UflR6bsclteTg2XuiZGwwJCESb29s9jj2JbCHAxazPvOysMCvsX0v6/6s
+bw02IKEnhtQgwAN1ia/jCgtBVH3ab+9hewsXO55OhS70c6YupuyDjYkJXnvLpyw9
+MZl6n4hq33IskyVG0MCq8d6q7b4LriSO9G4vr2T515j4xHKLpTpBEzmVJ19pePRv
+LsGJpWc96UjrO+u0pfgF/1M6z3bEIHy5iEnGOzqFyWDQSk8KannD1akACUTIhT2o
+fx/GI1YhPh4PVSjq1y9MX7L9jCA0aLAVEtlkbN9L/aBzuoD1p1lvWeE4YebBW9n9
+RyijBS7gCSDxiTCItjlEfoe6TPjI36ZMyv3TlH83InJaQ7Yg2XZLZLflr2Re5rkA
+T+J43YKV6c+g0aYRdvYCSCyNMwltXH7FPxx8HVlxEek6MIyDD5XA5rHIriD33aAB
+o8A9xWSNFlXeLE1bBR4Jp/Ab
+=CDPB
 -----END PGP SIGNATURE-----
 
---===============1946830297227202519==--
+--===============6745167745901027230==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65935347844e-51edf56ea9df.txt
+
+7e8785d5e40bcf9fbb17cd8eedb94017882c4891 staging: r8188eu: remove MAX_CHANNEL_NUM_2G
+e174a4349438afb276a817b564296d2dd61c90a7 staging: r8188eu: remove struct rt_channel_plan_2g
+6de349e6800c52e758ad5715de99c22ec7f11f19 staging: r8188eu: remove unused enum and defines
+73157fe89f4e4d683ab8338f72b02cd7e4b144b4 staging: r8188eu: struct rx_hpc is not used
+4b224bcbcafd99edb031712e010800edc5a30110 staging: r8188eu: clean up struct rtw_dig
+d23d390a5c7545dc0233ae48e3a35053cfa8a52b staging: r8188eu: clean up struct sw_ant_switch
+6e5499917bf2bfccdeb1f5d993aab19a77bf61dc staging: r8188eu: struct odm_sta_info is not used
+44742d88819fd49d020be1afb1e75793d1605275 staging: r8188eu: enum hw90_block is not used
+69a3a726adcf8986255b486fcdeb82d44cecd694 staging: r8188eu: remove unneeded comments from Hal8188EPhyCfg.h
+403a5e8554c833bcb31feefec81c7034cfaabde3 staging: r8188eu: remove unused defines from Hal8188EPhyCfg.h
+c8f15f0e9d9cc49812d05e04d431cb9b448a0539 staging: r8188eu: remove unused defines from rtw_eeprom.h
+881bc5e02f401fce141046ab3fb4c884ab79a97c staging: r8188eu: remove unused power management defines
+fdf101f5cefcbe85d2217057a0b16980a2769dbb staging: r8188eu: internal autosuspend is always false
+89e32f6db9840eea19dfe43c1fc35959086557a8 staging: r8188eu: fix_rate is set but not used.
+0d6bd7b2deedf44c0386162285a0ea79cae45c0d staging: r8188eu: cmd_issued_cnt is set but not used
+51edf56ea9df14babeadfc92897e85fdd5143508 staging: r8188eu: turbo scan is always off for r8188eu
+
+--===============6745167745901027230==--
