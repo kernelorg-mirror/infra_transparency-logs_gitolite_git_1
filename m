@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 03 Jan 2022 16:35:39 -0000
-Message-Id: <164122773975.1692.11216224939254415035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
+Date: Mon, 03 Jan 2022 17:20:03 -0000
+Message-Id: <164123040319.28442.11183376431975001011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
+user: narmstrong
 changes:
-  - ref: refs/heads/master
-    old: b1fde14b931d941abfaa91a7ac9d72b2f5c834ab
-    new: dd1cb19590c5bd116880a592c255d00b31bea42e
+  - ref: refs/heads/oxnas/v5.10/dma
+    old: 0000000000000000000000000000000000000000
+    new: 3bd8beb561b1c68fd95c5b6ff855690dc64eb0f1
+  - ref: refs/heads/oxnas/v5.10/sata
+    old: 0000000000000000000000000000000000000000
+    new: acba9b2498a048f1a89fdac6f661ec263e369e76
