@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2067584869306877471=="
+Content-Type: multipart/mixed; boundary="===============4061842708016575788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 03 Jan 2022 10:23:37 -0000
-Message-Id: <164120541717.27142.5934691302163624280@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 10:23:38 -0000
+Message-Id: <164120541838.27205.851568779951591317@gitolite.kernel.org>
 
---===============2067584869306877471==
+--===============4061842708016575788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,66 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 8f660a868284e61dadf747da85bf2bcd9826d9a7
-    new: 584e15b1cb056b405a979fe31376882197337962
-    log: revlist-8f660a868284-584e15b1cb05.txt
+  - ref: refs/heads/linux-4.14.y
+    old: a6ca7c65b1376f7bb14979cb745d3da73c8de948
+    new: fa39c1a8f42483bc9c688efc40d8e49dcec66b73
+    log: revlist-a6ca7c65b137-fa39c1a8f424.txt
 
---===============2067584869306877471==
+--===============4061842708016575788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641205416 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641205417 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1641205415-e34028cc513fa289d4b744f63e22fbc56b7d3b18
+nonce 1641205416-43f69e1af9ceb222a83b3695dc65478852e01535
 
-8f660a868284e61dadf747da85bf2bcd9826d9a7 584e15b1cb056b405a979fe31376882197337962 refs/heads/linux-4.9.y
+a6ca7c65b1376f7bb14979cb745d3da73c8de948 fa39c1a8f42483bc9c688efc40d8e49dcec66b73 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHSzqgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PvUP/27E2UNjoOveuvvctH9X
-OLKsuMvmv6oWNgqPFHawHznC7J/NHHWhhTOrfnF+brBYEBw/j6rPVpo+VUnYcJ26
-9xJl62J3Uq7J3BsE/m64zM7cLpJjcuqUr6XumD9e3YBy0whlAYWOzcfZlwIs8GuF
-0IsB86IWnduqU4UddA36Ihm5k/2pNFZNrwufDXycLRleUa8yE0pP5Ywk99A2DbVj
-G+TkiEsjRYyWd5vjFevXFZRHBWMW6LCoFQm+yRBAtghEvzGJilYgtoAsc3I3OV7p
-GslrnBCAv0W83uWzXOt8SpQ4JCk84ujS+OTpGiCrSpP6jB2VzXJFtuHvJHb03Mly
-YZ6DSrF0R0j6btFYd7nx34Mc36HIpy8Mk6UP3yC5SIu3Y54NK4DlyFGKgGgn4MHO
-OPWHTb7Nno5Vzhi/tdy6aeDKa2SzDTXoVDDzHvAUrTS7h6hLlJhuu120547Hl6XE
-8saAf0Ov7xOtaisgjVs29K29lG9g//YDhW21HLfytUOKtLH2D6UbnjP0LtzwdGvb
-6QHEOTNp65giTo47uYKLxfI9F4T/rYDIFPPLmO8vhOcjsQ8cX85MVvTaqUNE36Ro
-Ol1iLFp1vmfp6ZYNBGH7gWcIFRIHUjBnfvWO/beXhlAAc9RMJvfS6uMVBe6GRQEl
-1Fbt29GNh7n4kRvpKzX9Bbwo
-=9tPN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHSzqkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oGMQAKsQXXx7b5KVsEkDVM9C
+B453ICCxXtCFpmXGPmwGS//sa5uhqVMmNkVGhFaibjwEnGGFO8Grj+vDBGLOVE+N
+rQRjMqnjDPFd5RgPihRzF+sgeK+TeDHQSw4x/nrYjmVAGUYLDxDq8UEiFEbP/jJx
+l84c6VRZgWFdP/B5ZznfpYboJcSZyQMju3mYQhsMR3PWZLIxdN4UuFemoyIwy/nd
+I0ieGuMXRgy6hrbyxG/LIiE7GjXfnpuFB1AvQnfzDBnf589eMSoSNwCrGH5m48TT
+qH5oRpEy7+HIABFu54RYqzSIdYBXznNLjvjVXuGcsmR3p4FsCYxWOx22eVeX+Vkj
+obaW+y22zlvJHj2+uVmEtIYB2f047ey/24p5RwKyu2S4whd5EGgmAlC+1MznBMYd
+FdjdISeJMA317+ui3/mc08Tqgqnn4ylK7KXmloAGdO5DJYgeRhSnwxLTsN0y+ZQt
+q2BFQgEh3iSFdtlwgrw7U0OU1HTxwJssaFIJCRy0m0eJHKs2U96uaj3HxiykRJl2
+zAHG8jEgNaAaeNw1ThqPETF9F90t1suMZ7UyrXVqPDTslOIIP+QdeQ2TvIXAlVQa
+nSY03sPzTHVg8Xdy91uzDIUiOdS87a60nOVdUsw7lXR+MogwL0jlPU+gMN6YtUfz
+7GMN2W1LiBBmGh9fe1bgyJVs
+=36V8
 -----END PGP SIGNATURE-----
 
---===============2067584869306877471==
+--===============4061842708016575788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f660a868284-584e15b1cb05.txt
+Content-Disposition: attachment; filename=revlist-a6ca7c65b137-fa39c1a8f424.txt
 
-e9a0f7c80b6918183b98d5b59c2190ff45eefb5c HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-45f2cf060335b8f997fc4cb8e0dfac418d8536f5 platform/x86: apple-gmux: use resource_size() with res
-a54f5b3f5062b27159ed35d47bef41202e98a369 recordmcount.pl: fix typo in s390 mcount regex
-3110862df76d36298e8c34cb2e76e30bec9b0498 selinux: initialize proto variable in selinux_ip_postroute_compat()
-f48bf5ba0c7704df16263f5c6cb5d6bb1f9ba951 fsl/fman: Fix missing put_device() call in fman_port_probe
-6be38f3c1e13ef57f0c0649f1cd605cde927c10c nfc: uapi: use kernel size_t to fix user-space builds
-101ea0bea88743232f817e24b224a6f87428a256 uapi: fix linux/nfc.h userspace compilation errors
-95046bae2ca2b4d0cf1d5c21f1d5a4e3005abc25 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
-41e32c8b2530f5a076a1f516797f12facae33d69 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-85abd7987fb7cd0cad0bf4796afd980d1ab2b115 scsi: vmw_pvscsi: Set residual data length conditionally
-f0f76b8af3c92b3669ba11d91a0bcdd652ee9d55 Input: appletouch - initialize work before device registration
-0475aae23b8e78ae78e13475789353200d44015b Input: spaceball - fix parsing of movement data packets
-bef3680c4453d62feb84917606c572bd02017adc net: fix use-after-free in tw_timer_handler
-584e15b1cb056b405a979fe31376882197337962 Linux 4.9.296-rc1
+6ad18e4461138e144ad0f872713a8830ef7588b7 HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
+b1be4d647cd4ab66b4dee09d3be587608f2f5bfd tee: handle lookup of shm with reference count 0
+b69df994e9bfaf5e958555f593145faad01d800d platform/x86: apple-gmux: use resource_size() with res
+3972c3ba0223e0673e9cbc3f8605311edc3e6463 recordmcount.pl: fix typo in s390 mcount regex
+2a81fcd3494f4df542aefd748459f1066c42aa4b selinux: initialize proto variable in selinux_ip_postroute_compat()
+91f9f941cd110a02d1ffd51082007834bb4cb568 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+16ef7ba2f5025b117c2b04ed11a03a9a563f8eaa net: usb: pegasus: Do not drop long Ethernet frames
+0caf4a804b1997cae9550d96650445e5a8cce5f3 NFC: st21nfca: Fix memory leak in device probe and remove
+415b3625e9ec0215aa4417e2b62510762f5dfcf9 fsl/fman: Fix missing put_device() call in fman_port_probe
+4e00efb072d7df0f1c033f37304ecb3eb9bbc307 nfc: uapi: use kernel size_t to fix user-space builds
+6f3d4e79b5c5d07458d644326fb008f9e790cd3c uapi: fix linux/nfc.h userspace compilation errors
+2989431af16161f093c6e87aa2030359c98cc497 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+6a8e5d6e4f8aebd144df1236f22a8340ca519b8b usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+ce02c6fd2dddf74e07eb16008b601ffc1104aadc binder: fix async_free_space accounting for empty parcels
+eb0857bb0633124a2b9b36b65761c91c5d0706f3 scsi: vmw_pvscsi: Set residual data length conditionally
+64f77ce7363dbbe1d3686bc09d244cdbda1e70bb Input: appletouch - initialize work before device registration
+e96cc5d68c4e54af25d796b265acf4f1be74e70a Input: spaceball - fix parsing of movement data packets
+62172397b803590a186a6451da89bfa87a01855a net: fix use-after-free in tw_timer_handler
+e05b6b7cb863b9d63e2d0bae962f505cbee4a960 sctp: use call_rcu to free endpoint
+fa39c1a8f42483bc9c688efc40d8e49dcec66b73 Linux 4.14.261-rc1
 
---===============2067584869306877471==--
+--===============4061842708016575788==--
