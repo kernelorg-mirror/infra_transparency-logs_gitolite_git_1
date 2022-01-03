@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Mon, 03 Jan 2022 13:43:59 -0000
-Message-Id: <164121743935.23049.16346210555126644982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 03 Jan 2022 14:20:31 -0000
+Message-Id: <164121963136.13648.17735540077300895537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: df81e6740263d1ba7a4fe1bf237d87c3fdd0e19f
-    new: c96465c7c581348a2f72aa102517fc4184ff2d08
+    old: 146b3a77af8091cabbd1decc51d67799e69682d2
+    new: c1933008679586b20437280463110c967d66f865
     log: |
-         b9c8c4299c8318fc8546db7aca965ad26343c7bc livepatch: Fix missing unlock on error in klp_enable_patch()
-         c96465c7c581348a2f72aa102517fc4184ff2d08 Merge branch 'for-5.17/fixes' into for-next
+         c1933008679586b20437280463110c967d66f865 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
+         
+  - ref: refs/heads/master
+    old: ce19abcae32b284623f743aab8fc99b82d0ba1ca
+    new: 0b19a3686e0f2d9f1c9312b9bdb48a8af678f095
+    log: |
+         c1933008679586b20437280463110c967d66f865 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
+         0b19a3686e0f2d9f1c9312b9bdb48a8af678f095 Merge branch 'for-next'
          
