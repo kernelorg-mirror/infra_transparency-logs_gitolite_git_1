@@ -1,57 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7381493072887636363=="
+Content-Type: multipart/mixed; boundary="===============1946830297227202519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 03 Jan 2022 13:25:25 -0000
-Message-Id: <164121632566.12759.7380808893035947942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 03 Jan 2022 13:30:55 -0000
+Message-Id: <164121665529.15791.17437918205426446777@gitolite.kernel.org>
 
---===============7381493072887636363==
+--===============1946830297227202519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 824adf37ee9ddf3ecba1bc245507bc5953dda268
-    new: 8f2cade5da97713e77ca5be576438f194b8873d7
+  - ref: refs/heads/staging-testing
+    old: 12b31d07b0ceb723821394b414c02db64468f1f2
+    new: 65935347844eba55c2182edac668090ad5b184c9
     log: |
-         04ce4a6b9b7b84eb6be7b544d3d0e748b6837764 dt-bindings: ti-serdes-mux: Add defines for J721S2 SoC
-         8f2cade5da97713e77ca5be576438f194b8873d7 dt-bindings: mux: Document mux-states property
+         a0c43a469239ab6fedaaa101b15bc6cc9e8baa1d staging: pi433: add docs to packet_format and tx_start_condition enum
+         b376bd63774b7a5cf02f503369b429fa3a1ee6cc staging: r8188eu: bRDGEnable is always false
+         ffcdb1b194ec77a53b4693977dc68e6009d7963d staging: r8188eu: UsbRxHighSpeedMode is set but never used
+         a056e41a0928cd7382ff644575c90eba586ff952 staging: r8188eu: bTXPowerDataReadFromEEPORM is set but never used
+         cfd060fe2edb8b752f99af249097a2c701101102 staging: r8188eu: bAPKThermalMeterIgnore is set but never used
+         f606b319ef4d24c072e74ca7e9eb6dfd63bf4282 staging: r8188eu: remove unused fields from struct hal_data_8188e
+         4483319375f3faba3830ce36426cf81fe6eb8b9b staging: r8188eu: IntArray and C2hArray are set but never used
+         65935347844eba55c2182edac668090ad5b184c9 staging: r8188eu: FwRsvdPageStartOffset is set but never used
          
 
---===============7381493072887636363==
+--===============1946830297227202519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641216325 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1641216324-41007439ffaee0ef27718e43c4eb13f36fb21e0b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641216653 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1641216652-1a02aaa1c8c3d6e07cc0056a7a762bcfb0bd7aac
 
-824adf37ee9ddf3ecba1bc245507bc5953dda268 8f2cade5da97713e77ca5be576438f194b8873d7 refs/heads/char-misc-next
+12b31d07b0ceb723821394b414c02db64468f1f2 65935347844eba55c2182edac668090ad5b184c9 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS+UUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+obwP/R63ncnu9WCj9VywCrOz
-6198FOmY9ep4Ta9/ugjoCXJdp/IyAm/6XwkF7DIeqxTAgRO/ZLUlUzpraarbk+RS
-zq7fEjI+29XpXXGWAyiaBlLAsmDpjWVAnkqGg4wuBeYaXMFuDFVWauyFlQvw5um+
-E68Js0K366Jjc1sdlRl7HVB/Ty8wNbWSh6UrLOB8bwXsFBmCf7PSg+uKQ6W246Lp
-2OVUvp9c4Ccs4SjyRlg2Hmer2nqqUyk2cVJn5OJx6mltGCtHKgqggNIaa0fTKoZr
-jaeWfRCSZX8MzjBVGRVmWHehRQMqk6vH5ITL1dAwFXpVPwAAmL8IQnMKAQgfEJ6k
-Q8Dp/WcLGzB7KBQjPkOeuMD3He/xO5i1AQlBlRNoZea0sWhpcoKkB8kTllsHyYrZ
-QRpS5XRMxnrq7qlaIaGHLMX1lZCf+Gs2tTjJsWPslvB27F2s8S63KqgLWC6R8X0F
-cEJB59LM6J0+TiYJIKWgMY80zqkxXNEz3sp0XpaFbpb15Rb5ZmTg65eaiiUl9Hfr
-cHL1ebh/0/3Tj0DzqoQU+Uo1r4kV3ygXyjPhXYA0WGCYqpJcuzi2f6JkzeeR5DRR
-Egb9AFPc8qOT6PkdQmYjRAcneZzVrnn3lsJvz2ySJIB5AsCHnOZLgwlhDWpFRRSc
-LcJAI+fH5mDg+bqCOw8yyRCQ
-=Ou6T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS+o0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n3AQAKnZ7ADPOjBC812aNuYa
+SKwRg0nUqVWC/tGV/RJ4eVPjig7jtCsJ2cGmP/Mu28ev3WddWsLSbwZ6oajRzO51
+nw+hk3fg5qEv5cGV+HEnqCaPrYarQ0R5s0kH4WLhX4BhDQi5PNe3WU3nkjauY7ct
+uF3T1+f4qs1rpnASpD4IWIq+IknqxEqMaCcuPBzadV8P01HE9o/DtnCf+awpCN26
++9aCqmGEP7QKTMS1xd1pliPVaXkSBhzlRPQU2h97CinlqYGdyMhfPBQtx3cv+4r6
+gnAmgyj6EbrA+vmI9aex5maG2GDeuOYYd4p9jRlcom+CzrjNPs1OsKjUH8LWwg4V
+MDWzrIyqrOfZ7O6sjWXngYnSXYBoseVr5BdZEmkRUiQ6mSCZWgyFQPIfoIu4KyHx
+TvPukPhoBNtFiXQoBik8vDOM4prOQS9SzayxVU9vGoSUvqL35A6KBJXvgXb6d1hp
+P73sKPNeun0pGPoL9QB1G/Q5v7b0hX0yu+/qymR97uN7dAkCrEEy0h4odXcmw3oC
+23xbuSipEFynleOEnBEYNxtYXgDMAxzP+r2LnIbwX1Qhze16KEjh7TQ20vGuzfXb
+4KWzUJwj67SsHa5q/uCeMbKu0bxucOyPCmup5AE45Rsmqn3GVWc9F2ta1qUHMT1R
+Gf03PDA3GXu3Qq7RRAG82jRi
+=PY6D
 -----END PGP SIGNATURE-----
 
---===============7381493072887636363==--
+--===============1946830297227202519==--
