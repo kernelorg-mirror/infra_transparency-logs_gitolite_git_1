@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7118236516739551163=="
+Content-Type: multipart/mixed; boundary="===============7242677835525231368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 03 Jan 2022 12:45:58 -0000
-Message-Id: <164121395836.19464.13190305635798966713@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 12:46:04 -0000
+Message-Id: <164121396437.19546.7035329610473485082@gitolite.kernel.org>
 
---===============7118236516739551163==
+--===============7242677835525231368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 3a0152b219523227c2a62a0a122cf99608287176
-    new: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
-    log: revlist-3a0152b21952-c9e6606c7fe9.txt
+  - ref: refs/heads/char-misc-next
+    old: f2ee4759fb700b32a1bd830960fe86bf6bdfd0ab
+    new: 824adf37ee9ddf3ecba1bc245507bc5953dda268
+    log: revlist-f2ee4759fb70-824adf37ee9d.txt
 
---===============7118236516739551163==
+--===============7242677835525231368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641213957 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641213962 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1641213956-2dc0d1f54f9aac78ed51a483d1303d7c243d7a58
+nonce 1641213961-683a2dddbc14e1a628020ad8a7642a786161a470
 
-3a0152b219523227c2a62a0a122cf99608287176 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 refs/heads/char-misc-linus
+f2ee4759fb700b32a1bd830960fe86bf6bdfd0ab 824adf37ee9ddf3ecba1bc245507bc5953dda268 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS8AUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f6AP/2hooElRO5rbTw7wwthM
-SRr3P3SQ239VZnIhx8ASO+vNgYEkUmIxgLxuWsXY78LMZyN0vYxyh6V+P3kkrA5q
-OPbaE1ggqVvOR4dvRy7ydzjfXsEjjs8hcAp84fhd1VnB4WqIbGmEyYqWDfuPMiLa
-MDwZHuSKtZG1GThGKfxsf8OAemZkpyWmnR+hOYY6uii/LzamC3WE5lHBo+ZGDJMH
-6pnIb+sGzoyUJUaTt9DikbBp9GHXd90C8u2+yeDdHPirFPo3TVw3Y2FXRVW6ibNn
-mSifRnaOJyA+wwSIa1ZLLbvnrThdWnFk/ILR0X5T7heO57CobChGV27++/ziqIWf
-4iKtRFWXHIcQzYKvaJwjZ+gvAgOz66yQhDqtJhzET6mzHYGpwDSETiFmsjHwziuY
-wyQ7GW5n+iFsmMz/jyXi6QDoPn1Bpbq/nrxaH40IgsqhcDIRDnAlglFhvm37kvKI
-Lf2sOnbgg3gjy3Sf9JCsvhqkcJuuBjlp07ouJ6zDyRvbOLIWsQTfBnpjEtWVbErW
-NO9FNYoIL1ldOJvh5O7Fx3I8vXclEiFqHBCj2Cp0SFvbnEiBxRsMYcS75YrN2jdM
-UewHQDBPYt3TrAY+DUtRuT/HmVT2GWb88DJ2koxXJlzPMcVP7GwgDDBN+krLU+dl
-Zw+Lxn4YfoirrFQ4uvhqg0w2
-=B6oW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS8AobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kY8QAKqmOh6vLeMWASXPbTJJ
+veGfZCzdC9cYCMxjzuL2MEjfi/D1jq4nDjNXjy27dvKqaK16mWrWFg/zAtkPCnzJ
+Wwr1L5KLzKxA1cNLQQMO2LLFxtJxkLqT+xooJ9YvB2PFYcA/THtIHgp636ykl9cw
+Ph6oVpBxwUlCYrSR9Db+M3RXl+uf441UGSvP6Fsv/pIhYXNv66bFJ2nAhPzZesJ/
+XU4sKMD1BE7OPjx/7JCC7wfkSuNfz/IUlflZzfn9EnYVZI2zjLc/GvCvWcSjSJtr
+TrT9duFMOjIql58DYvTwv/uWYo4fYXuYpSLTcNQ/DvdtRAAAuCIoVLi0DvZ2YWft
+dUqKnWwp3dNlJE32CGZh7x7kdUpQT2L/Nntb6EA2bOMKkxLT26O4qkU/bgrHK9OU
+aWOdZJxR3sKenqw2ks9PuPmfVRSLSPT/JjoUnBt3123qz/z3Y245lEhkzSKgZh1a
+IiZv9lmGsGOJXJkCzWpg47usCUed+Y8AuCgqRUm3c8gYRVK/F81GnoA0vaIsXC1s
+t/gLljpOOdeUgq2pNLoPeKnIOy8Fp9fOBRxrPclAQHH6+dppEfbOsexYFdSUyXm7
+4s4in311pBxGXVBY7N8jTOtAkx6wmJNMRJbSrPKGUmFRhSmrzRF6ll75/LO9285Q
+SrDoN4VPdchJ0TBFCzcB3Bt4
+=gN5l
 -----END PGP SIGNATURE-----
 
---===============7118236516739551163==
+--===============7242677835525231368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a0152b21952-c9e6606c7fe9.txt
+Content-Disposition: attachment; filename=revlist-f2ee4759fb70-824adf37ee9d.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
@@ -468,6 +468,8 @@ a7aae769ca626819a7f9f078ebdc69a8a1b00c81 usb: mtu3: add memory barrier before se
 8c313e3bfd9adae8d5c4ba1cc696dcbc86fbf9bf usb: mtu3: fix list_head check warning
 43f3b8cbcf93da7c2755af4a543280c31f4adf16 usb: mtu3: set interval of FS intr and isoc endpoint
 67f74302f45d5d862f22ced3297624e50ac352f0 drm/nouveau: wait for the exclusive fence after the shared ones v2
+cfd0d84ba28c18b531648c9d4a35ecca89ad9901 binder: fix async_free_space accounting for empty parcels
+3a0152b219523227c2a62a0a122cf99608287176 nitro_enclaves: Use get_user_pages_unlocked() call to handle mmap assert
 e4844092581ceec22489b66c42edc88bc6079783 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
 ff31ee0a0f471776f67be5e5275c18d17736fc6b mmc: mmci: stm32: clear DLYB_CR after sending tuning command
 ffb76a86f8096a8206be03b14adda6092e18e275 ipmi: Fix UAF when uninstall ipmi_si and ipmi_msghandler module
@@ -651,5 +653,6 @@ e0257a01d6689c273a019756ed5e13911cc1bfed perf pmu: Fix alias events list
 859431ac11aef9b4cd7ffa75e94a92a6a41c8623 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 24a0b2206134e17ec99d212c776f08f75a4bec23 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 Linux 5.16-rc8
+824adf37ee9ddf3ecba1bc245507bc5953dda268 Merge 5.16-rc8 into char-misc-next
 
---===============7118236516739551163==--
+--===============7242677835525231368==--
