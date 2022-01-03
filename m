@@ -1,57 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5750421894896930944=="
+Content-Type: multipart/mixed; boundary="===============1367971863280883730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Jan 2022 12:03:43 -0000
-Message-Id: <164121142359.24996.5148088102316034853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 03 Jan 2022 12:14:33 -0000
+Message-Id: <164121207389.30973.17824974214368085164@gitolite.kernel.org>
 
---===============5750421894896930944==
+--===============1367971863280883730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
+  - ref: refs/heads/master
+    old: 312b64d9d1cedeac8d926cc503ffb4fbe023ade0
+    new: 6472cd54ecfce875d5f33af2a1d5fe4f411032f1
+    log: revlist-312b64d9d1ce-6472cd54ecfc.txt
 
---===============5750421894896930944==
+--===============1367971863280883730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-312b64d9d1ce-6472cd54ecfc.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641211422 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641211421-e5905ae9f8a7d7e1b94da66410c2acc03c0f2346
+38401453c522a7bf099c4e5a41056310dcd635b8 fdisk: open device in nonblock mode
+5148c84eb3fabdef66e4b87b0135608ed04c236f lscpu: add additional arm cpu part numbers
+4a3e0a1b1083487afa08b93b6115ae67a7058b25 Fixed minor typo in blkid manpage
+1a48eee7bfc09cdfa4b2627c5bde024a91679f30 Fix difference between short description and longer description by adding prefix
+bae1a1ab6d253251bbe4c60e8240ade39ac67f0e Remove duplicate 'setlocale' call
+74c9dbae073d328f0358628be0dfd2e2f63eaa2b fdisk: when use fdisk -l, open device in nonblock mode
+dbb2fb39064f192b2faae1a515dfe5c55fa02526 Fix wording in comments and documentation
+f02de6de85c5c120e30607fdf15527fc0714f3dd meson: headers: use util-linux version of version defines
+7a7982f94e6a7208d61c3128d25a2b95fa44faa6 meson: headers: Install headers
+12ebed03c3ae3939296cccd7d4b19898e8ccf3fd meson: install examples to correct directory
+38bb89ee84d4cb79c16926611b7ced4f62f6d597 meson: install manpages and bash completions
+3f7734ae6a1da38ee513e3df1b3366fd31a8c079 meson: only install pkgconfig if library is built
+72be01d7ea5dca990160b4a64bbd52b87df3113f Merge branch 'typo_blkid_manpage' of https://github.com/sevenmaster/util-linux
+aaa2218bb71558857a934d29fac1eb76f5de90bc Merge branch 'remove-duplicate' of https://github.com/surdina/util-linux
+d2dff42e5b9423a05bb066063de9b794b613bcef Merge branch 'fix_in_man-page' of https://github.com/losh/util-linux
+f69acd2ece87c6bc94ee5d8befb7a489ae9b3a04 Merge branch 'wording' of https://github.com/stoeckmann/util-linux
+30ec16710745326da1b5b0cce13bf737cff94156 Merge branch 'meson' of https://github.com/t-8ch/util-linux
+8ca793375ec363b47ad065541c3cc1e5cd7f8f3a Merge branch 'master' of https://github.com/HeroesLoveToRoujiamo/util-linux
+6472cd54ecfce875d5f33af2a1d5fe4f411032f1 Merge branch 'master' of https://github.com/lishengyu/util-linux
 
-0000000000000000000000000000000000000000 6e15d3d15ba113412ee05ee99c0476662a000178 refs/tags/v5.16-rc7
-0000000000000000000000000000000000000000 da629478930871e4c9a51c56ad86078f10b83f9f refs/tags/v5.16-rc8
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS5h4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hyIQAL8p/b/gBBDE0qWl//BA
-IQHRb16jIa5coEs/LNBEI6EeBHsL7J8mzI9RQh/tnlZl+iI3+iNtQ8eZ8RBJDyfd
-MPwwJwWYcyHO0zHaCR2bbpiZAduXOeF1nF+NBgCTm7+F7q5zVinqf28KziIfC0X/
-R0HBrX/Wpxx87OVGeUPXR56NOUBvsB9FtnYeLKCAOIRPTrTrGnCC2sjD5ClKc+3X
-G6UlGkFO9cV8scd79qlCpPIbRVFUPNI/jeeyHsqBfMi/LA/oMCSWNqYQksUG7FH2
-x1WE3sJ8e9p+LExOY/ul8zYyNwFLtAozsdm9IdEOTh+dmXOqnvVyaMUNhqFu+PaU
-65W35SKoSECf8inWN0JXGAmLs3qw3jG51jIwBwIjLGYZzC/Jk2RIlcXVoaJjOPzL
-jZ45NnV0temDH1Oh2nQo9Np+a7dkNZpPRlCC4x8oZq7NtwvELCz4g3p3JjVWpJup
-YBvwshX4H39PTSv/7jMgXbLBL/PPxFyOra6gPTcWE92HYgubEgk7M/O0//iJm0rq
-Lw9mXAqpLNJ26C7ZhXHewTlGwrR/as35UrHMkmB6sz02zWSmMcPIT9xcjbu34d+E
-TVLztJE/LZN3Y4V/ARi6Ymz+19F4v0pMBQUrNEgk53/MbroqT8EmS3WTinCdSl+S
-1fp2nAtDkvGTDbi7uSH9x3It
-=sg6N
------END PGP SIGNATURE-----
-
---===============5750421894896930944==--
+--===============1367971863280883730==--
