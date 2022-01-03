@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 03 Jan 2022 18:50:28 -0000
-Message-Id: <164123582885.20016.17539593235527020213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 03 Jan 2022 18:54:25 -0000
+Message-Id: <164123606595.22621.12188955475834590271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 3cfae448f91e3a4c74e229e44a358c6087a4d24d
-    new: feb19d833fa1bf904c356406d419baf0a6b29a09
+  - ref: refs/heads/master
+    old: 49096518a878df0162dd3fe582ba77f1cefa4d97
+    new: 12a5b1184bda9c9cde29aea5cf639b855db25c21
     log: |
-         cfcabbb24d5f4e52ce2e7797cbcfacd8fe932fb6 remoteproc: stm32: Improve crash recovery time
-         feb19d833fa1bf904c356406d419baf0a6b29a09 Merge branches 'rproc-next', 'rpmsg-next' and 'hwspinlock-next' into for-next
+         12a5b1184bda9c9cde29aea5cf639b855db25c21 dhcp6: slightly optimize dhcp6_client_send_initial
          
