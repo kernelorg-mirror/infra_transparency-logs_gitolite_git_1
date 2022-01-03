@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 03 Jan 2022 10:44:05 -0000
-Message-Id: <164120664560.6862.4801366965614943877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Mon, 03 Jan 2022 10:53:49 -0000
+Message-Id: <164120722929.13888.9630790860101297637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 6bf950a8ff72920340dfdec93c18bd3f5f35de6a
-    new: 3d694552fd8fe502e7ffd22ffa0e085bfd73b19a
+  - ref: refs/heads/for-5.17/fixes
+    old: 50ddcdb2635c82e195a2557341d759c5b9419bf1
+    new: bf01c29759259f766b679e0664843df8cad0ec5c
     log: |
-         7120075ec41aed3bf377df7924d213f1c43f7462 ethernet: s2io: Use dma_set_mask_and_coherent() and simplify code
-         3d694552fd8fe502e7ffd22ffa0e085bfd73b19a net: vxge: Use dma_set_mask_and_coherent() and simplify code
+         e368cd72880360ffe9b298349ae96286dd121499 Documentation: livepatch: Add livepatch API page
+         bf01c29759259f766b679e0664843df8cad0ec5c livepatch: Fix kobject refcount bug on klp_init_patch_early failure path
          
