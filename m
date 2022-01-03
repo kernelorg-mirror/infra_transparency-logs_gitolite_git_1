@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5014955234883251902=="
+Content-Type: multipart/mixed; boundary="===============7118236516739551163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 03 Jan 2022 12:45:53 -0000
-Message-Id: <164121395338.19350.5412589788504037662@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 12:45:58 -0000
+Message-Id: <164121395836.19464.13190305635798966713@gitolite.kernel.org>
 
---===============5014955234883251902==
+--===============7118236516739551163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
+  - ref: refs/heads/char-misc-linus
+    old: 3a0152b219523227c2a62a0a122cf99608287176
     new: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
-    log: revlist-2585cf9dfaad-c9e6606c7fe9.txt
+    log: revlist-3a0152b21952-c9e6606c7fe9.txt
 
---===============5014955234883251902==
+--===============7118236516739551163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641213952 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641213957 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1641213951-bbd2d9da7fa59d6009be0e7265263d131a5846b2
+nonce 1641213956-2dc0d1f54f9aac78ed51a483d1303d7c243d7a58
 
-2585cf9dfaaddf00b069673f27bb3f8530e2039c c9e6606c7fe92b50a02ce51dda82586ebdf99b48 refs/heads/main
+3a0152b219523227c2a62a0a122cf99608287176 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS8AAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eNMQAKwGsfGIrVsbCFtJt9VV
-WNEELU18UOCYJ5KSAZLQWXqN4p3EVCHaO0qByjXstoEGjW3qlU29sGnSH7i3/KcL
-/4kQCLriaPhbEjvMTu+FLP3VOFYEg8qWFcFrS3BIe99JmgKzXZI3Bs3qzLxn0nWV
-0VQqZc6v30e0sPP8mnvQ57SVaOSbGnzRz0Nu9dv7C/fyjI3fTfSttwU/wocBwA8b
-XDvxIXBT/mHlfmFKhSQwfv60hpKWocC/+BMw2HiYqMnqoRiteMKt02/MFhdsJWYQ
-cBB0NDl1DEWzIdhkhzX/ZfwEUv4+m3R5dvbm/IGaXHwcAuNrYNHdErrIiaCC2Gfd
-IDCJ4LkpPItIduVdbXxX8T8/Ruu2mEXBz9DO5QJJzxITGCE27qHW+kBMqNoh4VXT
-0rEO/rK37Ew6brQd1ANALf7WhM4CNT4wGgyjdJXa8R8VdvNrZkRg8ZHisELZ0L0x
-uMUooSlGd3RghOY5Xx2tGc02P7NtUJ4g0TupyC9tiqgK4TMQ+gmxfTHUwSLdnjoB
-1KReVMjg9+MAKsdM1xDEHolEFdn4hUS8M9CPJvbGeICovqsbnu9ptv50lka6q7TN
-GG3Ee2cpvpiKXDApq8KoVLnkGC95KMyE1xmiyAapsDxKJ+MwjiAMqEZIMOYSkU3m
-VJotZSzzi/WzUnjrng4pXFRB
-=q6SD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHS8AUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f6AP/2hooElRO5rbTw7wwthM
+SRr3P3SQ239VZnIhx8ASO+vNgYEkUmIxgLxuWsXY78LMZyN0vYxyh6V+P3kkrA5q
+OPbaE1ggqVvOR4dvRy7ydzjfXsEjjs8hcAp84fhd1VnB4WqIbGmEyYqWDfuPMiLa
+MDwZHuSKtZG1GThGKfxsf8OAemZkpyWmnR+hOYY6uii/LzamC3WE5lHBo+ZGDJMH
+6pnIb+sGzoyUJUaTt9DikbBp9GHXd90C8u2+yeDdHPirFPo3TVw3Y2FXRVW6ibNn
+mSifRnaOJyA+wwSIa1ZLLbvnrThdWnFk/ILR0X5T7heO57CobChGV27++/ziqIWf
+4iKtRFWXHIcQzYKvaJwjZ+gvAgOz66yQhDqtJhzET6mzHYGpwDSETiFmsjHwziuY
+wyQ7GW5n+iFsmMz/jyXi6QDoPn1Bpbq/nrxaH40IgsqhcDIRDnAlglFhvm37kvKI
+Lf2sOnbgg3gjy3Sf9JCsvhqkcJuuBjlp07ouJ6zDyRvbOLIWsQTfBnpjEtWVbErW
+NO9FNYoIL1ldOJvh5O7Fx3I8vXclEiFqHBCj2Cp0SFvbnEiBxRsMYcS75YrN2jdM
+UewHQDBPYt3TrAY+DUtRuT/HmVT2GWb88DJ2koxXJlzPMcVP7GwgDDBN+krLU+dl
+Zw+Lxn4YfoirrFQ4uvhqg0w2
+=B6oW
 -----END PGP SIGNATURE-----
 
---===============5014955234883251902==
+--===============7118236516739551163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2585cf9dfaad-c9e6606c7fe9.txt
+Content-Disposition: attachment; filename=revlist-3a0152b21952-c9e6606c7fe9.txt
 
 711e26c00e4c7b7cef0420c76a61e6d818e12687 firmware: tegra: Fix error application of sizeof() to pointer
 08d2061ff9c5319a07bf9ca6bbf11fdec68f704a arm64: dts: allwinner: orangepi-zero-plus: fix PHY mode
@@ -468,8 +468,6 @@ a7aae769ca626819a7f9f078ebdc69a8a1b00c81 usb: mtu3: add memory barrier before se
 8c313e3bfd9adae8d5c4ba1cc696dcbc86fbf9bf usb: mtu3: fix list_head check warning
 43f3b8cbcf93da7c2755af4a543280c31f4adf16 usb: mtu3: set interval of FS intr and isoc endpoint
 67f74302f45d5d862f22ced3297624e50ac352f0 drm/nouveau: wait for the exclusive fence after the shared ones v2
-cfd0d84ba28c18b531648c9d4a35ecca89ad9901 binder: fix async_free_space accounting for empty parcels
-3a0152b219523227c2a62a0a122cf99608287176 nitro_enclaves: Use get_user_pages_unlocked() call to handle mmap assert
 e4844092581ceec22489b66c42edc88bc6079783 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
 ff31ee0a0f471776f67be5e5275c18d17736fc6b mmc: mmci: stm32: clear DLYB_CR after sending tuning command
 ffb76a86f8096a8206be03b14adda6092e18e275 ipmi: Fix UAF when uninstall ipmi_si and ipmi_msghandler module
@@ -654,4 +652,4 @@ e0257a01d6689c273a019756ed5e13911cc1bfed perf pmu: Fix alias events list
 24a0b2206134e17ec99d212c776f08f75a4bec23 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 Linux 5.16-rc8
 
---===============5014955234883251902==--
+--===============7118236516739551163==--
