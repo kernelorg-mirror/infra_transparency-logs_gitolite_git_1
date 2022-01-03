@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8532225108650706182=="
+Content-Type: multipart/mixed; boundary="===============4638926826408167001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 03 Jan 2022 12:57:30 -0000
-Message-Id: <164121465039.27381.12579809253631217523@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 12:58:10 -0000
+Message-Id: <164121469049.27650.14778500663169707929@gitolite.kernel.org>
 
---===============8532225108650706182==
+--===============4638926826408167001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 376e3fdecb0dcae216c0ac559cff066f460bf47b
-    new: 1a0ae068bf6b6f4233b1f31bf48bcbc47b111ef2
-    log: |
-         1a0ae068bf6b6f4233b1f31bf48bcbc47b111ef2 m68k: defconfig: Update defconfigs for v5.16-rc1
-         
-  - ref: refs/heads/master
-    old: 2a033616c3eab5949185457b8a2f709c49178606
-    new: a7d8c163e3093ea440b90b5778174744fdc4d084
-    log: revlist-2a033616c3ea-a7d8c163e309.txt
+  - ref: refs/heads/m68k-queue
+    old: 629904c54053eda3544e599b9fdf9b16555b1114
+    new: 97246392d0fa4edae0cce83600d3025310370925
+    log: revlist-629904c54053-97246392d0fa.txt
 
---===============8532225108650706182==
+--===============4638926826408167001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a033616c3ea-a7d8c163e309.txt
+Content-Disposition: attachment; filename=revlist-629904c54053-97246392d0fa.txt
 
 94047df12fec0e51e860b5317223f67a3ea4eb07 auxdisplay: charlcd: fixing coding style issue
 4daa9ff89ef27be43c15995412d6aee393a78200 auxdisplay: charlcd: checking for pointer reference before dereferencing
@@ -156,6 +150,9 @@ e0257a01d6689c273a019756ed5e13911cc1bfed perf pmu: Fix alias events list
 859431ac11aef9b4cd7ffa75e94a92a6a41c8623 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 24a0b2206134e17ec99d212c776f08f75a4bec23 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 c9e6606c7fe92b50a02ce51dda82586ebdf99b48 Linux 5.16-rc8
-a7d8c163e3093ea440b90b5778174744fdc4d084 Merge tag 'v5.16-rc8'
+3e0d5ee02b3a48151ee4b7f5fe3434858f05ba0f m68k: Enable memtest functionality
+6132d74530cf750f7ec8502fec0af4fc6d0216be m68k: atari: usb: Add ISP1160 USB host controller support
+a77fae670ddf6fd25064754e0953b720951325a6 m68k: atari: Update Kconfig.bus help text
+97246392d0fa4edae0cce83600d3025310370925 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8532225108650706182==--
+--===============4638926826408167001==--
