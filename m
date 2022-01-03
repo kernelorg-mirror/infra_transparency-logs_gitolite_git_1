@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4219524075993256729=="
+Content-Type: multipart/mixed; boundary="===============6894755946315724781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 03 Jan 2022 09:54:09 -0000
-Message-Id: <164120364949.8001.4150766681880506855@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 09:56:47 -0000
+Message-Id: <164120380783.10326.5713561160404216671@gitolite.kernel.org>
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,224 +16,307 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: ed2eb4af28731b0ad2015d583732d0a95ef56abd
-    new: ae6772cc6ebb026042052b1f034fb7d6af45d8fe
-    log: |
-         4472401417dd4936e1528eb9d75977e53fb2a08a HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-         ca921c12e429d8d26b7ba75a3fc3c9fdcb4a9182 tee: handle lookup of shm with reference count 0
-         f6887969728e524686cb64eb5b81f15071d941ce platform/x86: apple-gmux: use resource_size() with res
-         588cd143b4d9a8813a62e983a863f62416c5114f recordmcount.pl: fix typo in s390 mcount regex
-         8f2500f4c7625caed9cd7d3d689560aa83fbd63a selinux: initialize proto variable in selinux_ip_postroute_compat()
-         cfc4c9c819642ebbc398555005b37aa25cdba019 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-         b0351a9f5407acef1224e3bb318d2b54091bc9bc net: usb: pegasus: Do not drop long Ethernet frames
-         c314d041b7e9d438951cfcdf1cc27ebd50f8637f NFC: st21nfca: Fix memory leak in device probe and remove
-         ae6772cc6ebb026042052b1f034fb7d6af45d8fe fsl/fman: Fix missing put_device() call in fman_port_probe
-         
+    old: ae6772cc6ebb026042052b1f034fb7d6af45d8fe
+    new: 2da393b5e4337af661173df437c2f6762bba670a
+    log: revlist-ae6772cc6ebb-2da393b5e433.txt
   - ref: refs/heads/queue/4.19
-    old: d3bdc42c7ec0eed4ba59edcfa27b7c6c94735eee
-    new: 0744985efc4b8d974c6331428b17da76327b717a
-    log: revlist-d3bdc42c7ec0-0744985efc4b.txt
+    old: 0744985efc4b8d974c6331428b17da76327b717a
+    new: c0b7b920ab78eb42239be697724a4e01d6fa29b9
+    log: revlist-0744985efc4b-c0b7b920ab78.txt
   - ref: refs/heads/queue/4.4
-    old: d85b9b7b9aaf8f19f5643c6bebf86bfda6f1136c
-    new: e86558557615ce35ca025abb59e8bd5aaa3ad821
-    log: revlist-d85b9b7b9aaf-e86558557615.txt
+    old: e86558557615ce35ca025abb59e8bd5aaa3ad821
+    new: ae266fa3c3dd0610d05a183728fcaba005de7826
+    log: revlist-e86558557615-ae266fa3c3dd.txt
   - ref: refs/heads/queue/4.9
-    old: ebf86a0843778c3fc87228fea2cec460bcfe1eba
-    new: 3ce585da8c00cb583d477a50611aba523a22f1b5
-    log: |
-         26203b806a9debef9c5baff0859dacc3cb23b1c1 HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-         be88412c178e49a00336cfd009ae2b254e0c2468 platform/x86: apple-gmux: use resource_size() with res
-         da0e023eadc79e9cd8fea499134d354edae13833 recordmcount.pl: fix typo in s390 mcount regex
-         d7090b27c4293e15611d099c2257260c958bf6ef selinux: initialize proto variable in selinux_ip_postroute_compat()
-         3ce585da8c00cb583d477a50611aba523a22f1b5 fsl/fman: Fix missing put_device() call in fman_port_probe
-         
+    old: 3ce585da8c00cb583d477a50611aba523a22f1b5
+    new: 884b062c508c03626bc893d07d2cac29ab078909
+    log: revlist-3ce585da8c00-884b062c508c.txt
   - ref: refs/heads/queue/5.10
-    old: 044867743f1b3d2f096839a656b71cfd096e6b8b
-    new: 7deebed9780189addccf1c6d6eabc28d3373cf77
-    log: revlist-044867743f1b-7deebed97801.txt
+    old: 7deebed9780189addccf1c6d6eabc28d3373cf77
+    new: e458b55b39637b520701eaf99823a69086914b4b
+    log: revlist-7deebed97801-e458b55b3963.txt
   - ref: refs/heads/queue/5.15
-    old: 1cbd27ae8031d7a1245b4b53ffbd54af3d05a38e
-    new: d5ea4d8bfec78f8915d64b3226961e8670ce581e
-    log: revlist-1cbd27ae8031-d5ea4d8bfec7.txt
+    old: d5ea4d8bfec78f8915d64b3226961e8670ce581e
+    new: 5e5e0881b41b1161ebf6060df7121f1abdc3f8af
+    log: revlist-d5ea4d8bfec7-5e5e0881b41b.txt
   - ref: refs/heads/queue/5.4
-    old: 158512330da6685e3ab2ffcf424a4cc9d26145e8
-    new: 1c4cb9e255e59b9d2f2eb16fc2d186ef37feac24
-    log: revlist-158512330da6-1c4cb9e255e5.txt
+    old: 1c4cb9e255e59b9d2f2eb16fc2d186ef37feac24
+    new: bc557929e979230f7d93e067e3012099782a0272
+    log: revlist-1c4cb9e255e5-bc557929e979.txt
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3bdc42c7ec0-0744985efc4b.txt
+Content-Disposition: attachment; filename=revlist-ae6772cc6ebb-2da393b5e433.txt
 
-1cafb06430d2a9ac48820e230f2cc157030f2e0a HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-a625c3385788e1e24c0ffe0b93414d5a8fd5f7cc tee: handle lookup of shm with reference count 0
-053a3a987d1f6586b4dcfd05888595f763daf12e Input: i8042 - add deferred probe support
-2442eb753a33e766c7214d90898deab5cfdcf7aa Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-9ca3c81ff031555f1ea063c204033d542880904a platform/x86: apple-gmux: use resource_size() with res
-29a7628f0db570e509e94203fee9e6b36899ac43 recordmcount.pl: fix typo in s390 mcount regex
-52a68c775e61cf9892350e7bda9cfe35b50b8739 selinux: initialize proto variable in selinux_ip_postroute_compat()
-bdf58fbb144124213d6058c9d48eff387b8033e2 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-99e4d152bd687c4d97e4386633dc52c212e33115 udp: using datalen to cap ipv6 udp max gso segments
-64266438dad2be8be51c41b12b8022b6ffd78070 selftests: Calculate udpgso segment count without header adjustment
-826c15b382ed504c1bccb273b38938aacdc6d615 sctp: use call_rcu to free endpoint
-627d7781a516843abc3feac28c9600041d236c86 net: usb: pegasus: Do not drop long Ethernet frames
-c006379a9922ed4d670cf7223742971152f75f66 NFC: st21nfca: Fix memory leak in device probe and remove
-71a80842632b0360fb44f6ffa672b17d4073cef8 net/mlx5e: Fix wrong features assignment in case of error
-594e0c31bf42c4b267351405514a145b8746c41f selftests/net: udpgso_bench_tx: fix dst ip argument
-16e9beef29309e9d702aff7b2dfb68d5d7578eee fsl/fman: Fix missing put_device() call in fman_port_probe
-0744985efc4b8d974c6331428b17da76327b717a i2c: validate user data in compat ioctl
+bbaffed1cbaddb4b8d74f5b179bf51a8f8425e09 HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
+e1272109a33516196fd82d0bf6baad6250d79dd5 tee: handle lookup of shm with reference count 0
+d4c01c76f21f70b05f1da77dc33baf6f65fa08c3 platform/x86: apple-gmux: use resource_size() with res
+421ff52a30bf1b17e5cb2adbb27a1a584c07b566 recordmcount.pl: fix typo in s390 mcount regex
+8cd50c247514c6f1d644f33d8389499a44bf5705 selinux: initialize proto variable in selinux_ip_postroute_compat()
+9788381b28cef4f9e4c6275fa90bf69899b52c67 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+623c82cd110fd6c12e20f3fed742d1cc9568b4d9 net: usb: pegasus: Do not drop long Ethernet frames
+17df6a850da4b7e3f4822ad9cd60b402c1339f84 NFC: st21nfca: Fix memory leak in device probe and remove
+e6a45edf746df44b2d4ee959e2c7889adbd45ec5 fsl/fman: Fix missing put_device() call in fman_port_probe
+cdd6394d1bc1bb5bde068d44b5660fc59c18191b nfc: uapi: use kernel size_t to fix user-space builds
+07d48da88577c19e49d2fa73dfe78c554e6a68d2 uapi: fix linux/nfc.h userspace compilation errors
+54599d3bc30c032d223047e5e2d1fb3537b876a0 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+674dd38632a4d9252fa505295f94a7e8a87d89fb usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+64e402bdb380c8cf611e85e9f00937df753b4110 binder: fix async_free_space accounting for empty parcels
+7e5cc72e723988cb8efe49e70505921e306ba14c scsi: vmw_pvscsi: Set residual data length conditionally
+03de853fb2f0d666775d0fc5f797f98ed0f42977 Input: appletouch - initialize work before device registration
+1cd8963cdc39224af2adadd55210fd673593babd Input: spaceball - fix parsing of movement data packets
+2da393b5e4337af661173df437c2f6762bba670a net: fix use-after-free in tw_timer_handler
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d85b9b7b9aaf-e86558557615.txt
+Content-Disposition: attachment; filename=revlist-0744985efc4b-c0b7b920ab78.txt
 
-7c33357edaf3aba46d60c8f2b9e97b30c393fa13 platform/x86: apple-gmux: use resource_size() with res
-e2c7d29c5fea693c8ec30164cecba7cb3aea71f6 recordmcount.pl: fix typo in s390 mcount regex
-99259bc725fa2b1dfac6db802208cb30ecc52861 selinux: initialize proto variable in selinux_ip_postroute_compat()
-71a9e7e946fa51e5930303a6a09c697658610c7f nfc: uapi: use kernel size_t to fix user-space builds
-901df492f6c81cf9c156d31a5a078647c3ffcf97 uapi: fix linux/nfc.h userspace compilation errors
-cc35c40884a79898d9b1687ea9547c052272ac39 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
-f77aef932e2424f3dc36354477445a0058752055 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-3515f31b6c29a00a115d2fe573b9b6676388953d scsi: vmw_pvscsi: Set residual data length conditionally
-8409d54a66fb0084f4b2fca1c912db668fa7dc46 Input: appletouch - initialize work before device registration
-cb8f91207041004bd5858c5c9b5e994339a7f579 Input: spaceball - fix parsing of movement data packets
-e86558557615ce35ca025abb59e8bd5aaa3ad821 net: fix use-after-free in tw_timer_handler
+02a9de707525fd801224f54bae5d1af1ee63bb7a HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
+f3c40af955c6e745743f7f20ffe96e1bd292086f tee: handle lookup of shm with reference count 0
+cde3c6df84aaf2a71ba10f16ed6af2b7effaf727 Input: i8042 - add deferred probe support
+dc439c3874f70f9af01b84f3441ac332fda38db1 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+6caaa29c2b10d9ecf189482992458d24a2698a6f platform/x86: apple-gmux: use resource_size() with res
+9c4d59a4a9235b2325498e5f2d7fa87ffd95bf4c recordmcount.pl: fix typo in s390 mcount regex
+30cd30f4dfa8333862936ddac0d2cf20dd750c1c selinux: initialize proto variable in selinux_ip_postroute_compat()
+e4745c34d2e7bb497056c46644630e4e550e46d3 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+783ebbadeac2cf786c752d6a12c593a118ac05f4 udp: using datalen to cap ipv6 udp max gso segments
+23fd22b5f6a1ee5a331140e3e083936f149d041a selftests: Calculate udpgso segment count without header adjustment
+ad28103a2b35651ea8ad5a992f4c86db90f5dbf1 sctp: use call_rcu to free endpoint
+c9d1dc2e7dc80da2f2a6f60cc2ac2960d6c391b8 net: usb: pegasus: Do not drop long Ethernet frames
+3a12e4e7913ba1fa38744b89eeadff6b92025b5c NFC: st21nfca: Fix memory leak in device probe and remove
+d6c7d9bacc80d3653bbdbeb5b900eb0ea7cdb2b3 net/mlx5e: Fix wrong features assignment in case of error
+05db0582c156f46dbf75015678ecab534ab7f94f selftests/net: udpgso_bench_tx: fix dst ip argument
+800c242128a5b54ed7f28bc4bb5fd2185bf7cd43 fsl/fman: Fix missing put_device() call in fman_port_probe
+36214ded9c30ddc582bf7ad076c9b3507db5cb66 i2c: validate user data in compat ioctl
+85c7830feb2e415cc85b78fed8bce9571263e209 nfc: uapi: use kernel size_t to fix user-space builds
+7244b163aeb623ac3e340e02785ec34fca00f70d uapi: fix linux/nfc.h userspace compilation errors
+94472e7ebcc3873565e95ad96cfe9766cd927fdf xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+a4f5112420e0d2a41aa4103c48d262342ea836e8 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+90941afac42811029f084153cb3805f583caa438 usb: mtu3: set interval of FS intr and isoc endpoint
+282472dc570daad0397dce587453eb93897aa87a binder: fix async_free_space accounting for empty parcels
+6f9a0dbf77c98639167b192109222972fb1eb193 scsi: vmw_pvscsi: Set residual data length conditionally
+7973e0018c3a2d249822fa3d3338f07c33ded912 Input: appletouch - initialize work before device registration
+7ea2cd75e78d1460eedcdadc0fdf0029f108aa0c Input: spaceball - fix parsing of movement data packets
+c0b7b920ab78eb42239be697724a4e01d6fa29b9 net: fix use-after-free in tw_timer_handler
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-044867743f1b-7deebed97801.txt
+Content-Disposition: attachment; filename=revlist-e86558557615-ae266fa3c3dd.txt
 
-25d477da882cb9d15e737827528e960d180c70de Input: i8042 - add deferred probe support
-972b38fa0183ffa63940036affe98cea68dd4d77 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-86516a5296ea9dfcce10f35acd1a0675f192dd93 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
-0797112766651c22951cf7d5b69cbd8d7ffdbdb0 tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
-936187a56192e902baa737af996e6dc0fbbb3be1 parisc: Clear stale IIR value on instruction access rights trap
-3f178850467b57155e9236d016c0c342ff86a022 platform/x86: apple-gmux: use resource_size() with res
-16359a25714828e1828aac4a61c237b0204fce67 memblock: fix memblock_phys_alloc() section mismatch error
-a840ebeabe426c762595ee80eed93744d074cd92 recordmcount.pl: fix typo in s390 mcount regex
-09510bbef3cbc627c95903d84ee90ca7607c7907 selinux: initialize proto variable in selinux_ip_postroute_compat()
-1ef80e1fe9cac61500d1ce889387ed111737f8b3 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-9256e8cb218fd2ba38f5c3c57ce6578c7d7c0bb3 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-8668c60f4c6909f4c07d17f591fe6b9fb8dbe4b1 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-d13e53a1243b18448c8786faeb2d478ea6ac8e93 net/mlx5e: Fix ICOSQ recovery flow for XSK
-1562137f897ceb6ae741cff36d8b7fd1f0226135 udp: using datalen to cap ipv6 udp max gso segments
-030fd24f8f573eda2a6ee395b1d41e6c4dc90efa selftests: Calculate udpgso segment count without header adjustment
-d67cbf7f4ef9775b68b7984b31ca23e7db6c5382 net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
-735469df4a82732c05cd66e5bb74af2079fe1255 sctp: use call_rcu to free endpoint
-81b2f04078d10355aa2de7f0d5e517f8fc6beabf net/smc: fix using of uninitialized completions
-69691c85062f09ecca4fa01d2c3504e7e417bd26 net: usb: pegasus: Do not drop long Ethernet frames
-c80b4677ce0785a7377de1c478d53a9038bbb947 net: ag71xx: Fix a potential double free in error handling paths
-4055713daa0a0898c89dcab0dd8b2589ee365433 net: lantiq_xrx200: fix statistics of received bytes
-737e9ee27677758a765516c1e6014ab79d19550d NFC: st21nfca: Fix memory leak in device probe and remove
-3248f463d8cc73ccb6a97945e006dedbbe26b4d3 net/smc: improved fix wait on already cleared link
-92a5959687f76a7a42504cb27e8413d36186d7a4 net/smc: don't send CDC/LLC message if link not ready
-1ae270f9c857182eb21431ba936481a3de524440 net/smc: fix kernel panic caused by race of smc_sock
-4f3344bb9ad3f39d4994f63a2ebbeb3f29349315 igc: Fix TX timestamp support for non-MSI-X platforms
-e7de6428fc6cec1d65e73a3f3eac57a06eb248c1 ionic: Initialize the 'lif->dbid_inuse' bitmap
-362915e158612c1a43db5d52245ff1f7772805a8 net/mlx5e: Fix wrong features assignment in case of error
-73eb4e4c589c3ce1f6fdc0e918fea4caa4b7a3a8 selftests/net: udpgso_bench_tx: fix dst ip argument
-971a73e17558e3a77b412b7135194d039e13804b net/ncsi: check for error return from call to nla_put_u32
-c955757e36608fe580605d89137dd43868eadfa2 fsl/fman: Fix missing put_device() call in fman_port_probe
-7deebed9780189addccf1c6d6eabc28d3373cf77 i2c: validate user data in compat ioctl
+5feece01abe6efcad2c39e65b2ad2bffb4059ac4 platform/x86: apple-gmux: use resource_size() with res
+e3eeab829c321136b12c1028a4df3b1cc9b1b697 recordmcount.pl: fix typo in s390 mcount regex
+14215371a0dd76efc36a39911a0f7f860ae9ee0f selinux: initialize proto variable in selinux_ip_postroute_compat()
+2e21f3de838a0bc90ad51a9cf67c5d0a554574de nfc: uapi: use kernel size_t to fix user-space builds
+a36de660ed86ea9a0dded61a0671bcb4361ac047 uapi: fix linux/nfc.h userspace compilation errors
+2591ec519c9dc2b4626e45b6553e28336ee0b51a xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+cf0e49ef232a9202f39fe54538c2d19951e01bbd usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+327216da205510c676371e82f4487ef63780bffd scsi: vmw_pvscsi: Set residual data length conditionally
+9603d2f62cdf1d83d4d1811d74fd92450d90960c Input: appletouch - initialize work before device registration
+cbde633ddb26b0f85121ef39981d92ba3ef55250 Input: spaceball - fix parsing of movement data packets
+ae266fa3c3dd0610d05a183728fcaba005de7826 net: fix use-after-free in tw_timer_handler
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cbd27ae8031-d5ea4d8bfec7.txt
+Content-Disposition: attachment; filename=revlist-3ce585da8c00-884b062c508c.txt
 
-5a94f9279cd21d6090a2b4f5e7011d3f1845c1ae Input: i8042 - add deferred probe support
-c7d32d7a38db1b72d569a8c323ae2b34bb7b909e Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-de53d959ec8735ab9f3c93590a3915d42d3aa44c tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
-984acb6cc05addbc461cc3f1da053e495a6d2ac8 tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
-0a982bb5e93d2dfc5c46460897b18084becac78a net/sched: Extend qdisc control block with tc control block
-ea673ae08f1a07913db0e220aecbffe381877947 parisc: Clear stale IIR value on instruction access rights trap
-b01ef2db8768fc0140295e72b69cdb2c77cb9782 platform/mellanox: mlxbf-pmc: Fix an IS_ERR() vs NULL bug in mlxbf_pmc_map_counters
-a9c3a7042222a19763e5555e8593b1bbea9e51b2 platform/x86: apple-gmux: use resource_size() with res
-1b05d7f71d1f4d9883cf33d7630189dc94022729 memblock: fix memblock_phys_alloc() section mismatch error
-ef11ac97bd2908bf668c6e2c103796bae54675fd ALSA: hda: intel-sdw-acpi: harden detection of controller
-0fbb7c0b3a425f65bad7d9d9e2fc2a22046c6d3a ALSA: hda: intel-sdw-acpi: go through HDAS ACPI at max depth of 2
-3d8c09938e7fe6365e25e0b31ab186f7571d7a96 recordmcount.pl: fix typo in s390 mcount regex
-ec28985d074d3919709ac30fbbbf75510a450c15 powerpc/ptdump: Fix DEBUG_WX since generic ptdump conversion
-482d73b86d167d0614957ca9bf18d4a1d9698d71 efi: Move efifb_setup_from_dmi() prototype from arch headers
-5293c3c4299cb7187f3bebc238ed8c91a2645051 selinux: initialize proto variable in selinux_ip_postroute_compat()
-789988293d5388f94cb91b60e378367d4f4ba92d scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-6a77f34486b16a75cc5add2f8de9746600d84402 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-08121516b43a5b7dbc3553cbd9ca03cf6c0a1d5a net/mlx5: Fix error print in case of IRQ request failed
-e371b0bb7ae20678d59c39fb1809f230884c5a72 net/mlx5: Fix SF health recovery flow
-9f160ff4e1b5942b6ec91159dfe55cc5c34b1b19 net/mlx5: Fix tc max supported prio for nic mode
-044af1302b0701f553be9c71f461bd7dc85ab018 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-7e85b828c6b2fb3ab038a054bb23d064dd6ade07 net/mlx5e: Fix interoperability between XSK and ICOSQ recovery flow
-ba4ee39cd73e144a15cbcca54dac9f3c4dea77b4 net/mlx5e: Fix ICOSQ recovery flow for XSK
-49d6cb6f5c4b35bd0dbb457fb880426ce2435e11 net/mlx5e: Use tc sample stubs instead of ifdefs in source file
-7df3d0233ebcadcb11f6e85f0c054f6167903e88 net/mlx5e: Delete forward rule for ct or sample action
-82b2a3b4dc0a9708e025217f7c108d8a4b0af32c udp: using datalen to cap ipv6 udp max gso segments
-3f94e8e4cb6bfa5d96b6fa7bb48ad2becaa03b58 selftests: Calculate udpgso segment count without header adjustment
-e3b8a4a65d285fe316017ed22ab84a0ad262251c net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
-0f08ac9d1a8eaa73035f755c5d0d8ec01b8cf963 sctp: use call_rcu to free endpoint
-743ca3417c583f01895393560ff98fe1e6cb5984 net/smc: fix using of uninitialized completions
-dbdd06833e1684b277c4f4d2949c8cb852c05eaa net: usb: pegasus: Do not drop long Ethernet frames
-69c7cccf71193fe871b98e62b0b1a859417b3724 net: ag71xx: Fix a potential double free in error handling paths
-9a27ad73c4dd46a9599bd6b6ced1a94054d807d4 net: lantiq_xrx200: fix statistics of received bytes
-929c533f1bda3190e301e50b4e6665ab70690ce6 NFC: st21nfca: Fix memory leak in device probe and remove
-a4afecf6d712d1591994647ba88aa71aa9587a0d net/smc: don't send CDC/LLC message if link not ready
-836d1a69b8d1cf7a4efa73552a6ef0ca4e0b6651 net/smc: fix kernel panic caused by race of smc_sock
-9a3506a0ed1573d1aea3d8e73fd0ee7328c3d54b igc: Do not enable crosstimestamping for i225-V models
-fcde3b770c67efca0528c76cdc33850067f04761 igc: Fix TX timestamp support for non-MSI-X platforms
-0599de38dad0b3bea4d1c48b3a14f75e30b82abf drm/amd/display: Send s0i2_rdy in stream_count == 0 optimization
-ed417cdcf95159b739e0c87b5f71a71ca5aa8cac drm/amd/display: Set optimize_pwr_state for DCN31
-52bd65e16a6134f7d8ae0d4a55b2fa9f219f3e41 ionic: Initialize the 'lif->dbid_inuse' bitmap
-0bf012f3df489cec571992534214f3b5463551a0 net/mlx5e: Fix wrong features assignment in case of error
-2c3447df7e4969f2b86a526fb255a66c53698737 net: bridge: mcast: add and enforce query interval minimum
-6fa53c77d14fbcee42d6e1d873f63a2e3d494c68 net: bridge: mcast: add and enforce startup query interval minimum
-ff808db6f13f18eca56dde59feb551ec41f6fc53 selftests/net: udpgso_bench_tx: fix dst ip argument
-58caed94aaf8b4a5126655ce19e4eef1d7dca1fb selftests: net: Fix a typo in udpgro_fwd.sh
-0f57bc6905491cc0657e9c5693607c9a67226786 net: bridge: mcast: fix br_multicast_ctx_vlan_global_disabled helper
-798b0b9ce58bea94031d0b36cc96a49df5f96aae net/ncsi: check for error return from call to nla_put_u32
-a5eb12d095458ff6c11745345129a01e579de173 selftests: net: using ping6 for IPv6 in udpgro_fwd.sh
-0d9b3fa85bc5eb0e7776bc4f3f081fa0cb8dacc6 fsl/fman: Fix missing put_device() call in fman_port_probe
-5c5a38c649b945bce312d1f8d4e7b71d6808c1a0 i2c: validate user data in compat ioctl
-e1d5e155953ec7bf1d786b1d250cdbd3a647181d nfc: uapi: use kernel size_t to fix user-space builds
-1db3d1c571f4abd954dc4094331fb861e9db89ec uapi: fix linux/nfc.h userspace compilation errors
-9925e7308f87224e3f86eda8c3390c4a65777a98 drm/nouveau: wait for the exclusive fence after the shared ones v2
-ea3029715b18abf2ba22d2f5bc30d15c5388b79a drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
-2488e3cfd1b0775da915e2c972b01b62c2998836 drm/amdgpu: add support for IP discovery gc_info table v2
-d5ea4d8bfec78f8915d64b3226961e8670ce581e drm/amd/display: Changed pipe split policy to allow for multi-display pipe split
+3849796127760c966765c80a5d34cb6a890ba48e HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
+2deec8f75629762140c562f614d010ae5e8bfcb5 platform/x86: apple-gmux: use resource_size() with res
+1d738853f54b7aec69766d88443609af6e99ff6d recordmcount.pl: fix typo in s390 mcount regex
+4753b4b3e498c9ba8af1703a2c7677e2c6a7bc6c selinux: initialize proto variable in selinux_ip_postroute_compat()
+21dedf301da36572ad1ac15761733d60b911ca1c fsl/fman: Fix missing put_device() call in fman_port_probe
+84475f7a3a3525af716a447c8fe64d310e1ec7e3 nfc: uapi: use kernel size_t to fix user-space builds
+82652cb4aad4dd11adb993c61f3d47ea683aebb5 uapi: fix linux/nfc.h userspace compilation errors
+76fd530257698b87c1a9dc4377898f70a1571409 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+450d06ad4f702c9d97e06e93be950f1434d50a1d usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+511ce0fd71aa43d69875d960d4316331c557eb68 scsi: vmw_pvscsi: Set residual data length conditionally
+6aab4b7c7519c01e1c686b5158e6084c37378e9d Input: appletouch - initialize work before device registration
+f95b573c1d51191d2ded83014a6158ed7f83ad5c Input: spaceball - fix parsing of movement data packets
+884b062c508c03626bc893d07d2cac29ab078909 net: fix use-after-free in tw_timer_handler
 
---===============4219524075993256729==
+--===============6894755946315724781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-158512330da6-1c4cb9e255e5.txt
+Content-Disposition: attachment; filename=revlist-7deebed97801-e458b55b3963.txt
 
-350e668ca3d05ce0c6ad0f309549f42bb377dd5a HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-e9b117cb320f4d854af7c7e5407a974249587bd8 tee: handle lookup of shm with reference count 0
-12052455bf19fa18a7cdfa79bf289f4611ca249c Input: i8042 - add deferred probe support
-a9f179d730ed7666e9d2f07c12b4a800d2f2461e Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-8f0ba98e0ce066162e3d439eab82846bfe245e68 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
-2795283f0260d0dccb9b7b8cfc6885eda063e9dd platform/x86: apple-gmux: use resource_size() with res
-47fa555daf7d05b258ca899246ab5f101c39deb5 memblock: fix memblock_phys_alloc() section mismatch error
-a76bcc347ac91d220e9d34e435174e2c74773872 recordmcount.pl: fix typo in s390 mcount regex
-fa6e4fe23cc02943cf6ed783e2bb4efc71c11b7c selinux: initialize proto variable in selinux_ip_postroute_compat()
-7a4f8dcd9975b492a07b6420e6d759c6ff05bb1d scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-e1c9c13ad6df790de3b22804df627d413d3953bc net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-ef4d8b7a314cadbcfbf38b2d9476cfc7af155bf1 udp: using datalen to cap ipv6 udp max gso segments
-549add389690fb38fa23aee02436465063577992 selftests: Calculate udpgso segment count without header adjustment
-179d174ac8b1eb457c631ac3835605411fb1442e net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
-4bbeb67d00ceb94d99385c2533ecd5063a09beee sctp: use call_rcu to free endpoint
-b1e5e72bb4e342040ec81da171501fbd94989fde net: usb: pegasus: Do not drop long Ethernet frames
-565726ec60100bf892266fcf9c20181a7ceefa7e net: lantiq_xrx200: fix statistics of received bytes
-f5fab77fbfd0bf7db8bcd9a0ac4249bf85df53f8 NFC: st21nfca: Fix memory leak in device probe and remove
-cdb9147befa334dbde006cc022d86c5ef3828822 ionic: Initialize the 'lif->dbid_inuse' bitmap
-1ad14ba8fddda2478880a88c527885b1ecab085d net/mlx5e: Fix wrong features assignment in case of error
-a9cc75ac5884c31b6977d397731d4534afe28474 selftests/net: udpgso_bench_tx: fix dst ip argument
-e9a8bf564cae7b4387f22d278eed5b1c71a8159e net/ncsi: check for error return from call to nla_put_u32
-fe5d055c9d8da64ec4f4a5c84f6d6b5720cc9a74 fsl/fman: Fix missing put_device() call in fman_port_probe
-1c4cb9e255e59b9d2f2eb16fc2d186ef37feac24 i2c: validate user data in compat ioctl
+5f86563ab2406a679a981b7b13573cfeede94bbe Input: i8042 - add deferred probe support
+ed661f40d0f77b2e3f0c9fb546d268c57ead5c9b Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+0f42073dbb50d97e3369f35601c2d43fbe5a0ba8 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
+9d9693b83ccc7bf10ae58b235f9063d21e950e46 tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
+dce77d8ceed6d50d8487aa81712b3084d3f5f6cf parisc: Clear stale IIR value on instruction access rights trap
+da8fa5b40470f547cb30b997c73cf1d04b4561ba platform/x86: apple-gmux: use resource_size() with res
+28d53209baf1b59dd2c50b7c900528f93b5c9d7d memblock: fix memblock_phys_alloc() section mismatch error
+79cc0f78228e5183ae3cf88331d45ab26b5eb3df recordmcount.pl: fix typo in s390 mcount regex
+b71c346c42cc383eb84e7de12b0bb823514a293d selinux: initialize proto variable in selinux_ip_postroute_compat()
+e525b74744579ae288657b5bf031231ec5c28178 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+129c78b0ccf98f06b561c2c92187eb2d9d836024 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
+669fb7fa999911108e6576919e64a89fc0a3101c net/mlx5e: Wrap the tx reporter dump callback to extract the sq
+aca0999cd3c55b443e1a343fb8183eaf75606f92 net/mlx5e: Fix ICOSQ recovery flow for XSK
+87aa17b89cb60581c0d5e7c406a55853c0c22a8b udp: using datalen to cap ipv6 udp max gso segments
+a898db54233129c4739eb58d762c0d2492d2e219 selftests: Calculate udpgso segment count without header adjustment
+39aefd53107bbd22e3e01cf14f56ead7124d8210 net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
+7d38ed7b88d9a2482bad72daf47fc1ad7da8189a sctp: use call_rcu to free endpoint
+0f5bbde7429ac0dc29562898dac2e2674d3a159b net/smc: fix using of uninitialized completions
+c545a22841f5825aacb75fbcbe34604910d11253 net: usb: pegasus: Do not drop long Ethernet frames
+059807bd8da2b1e085274c59efadce9a3070373e net: ag71xx: Fix a potential double free in error handling paths
+7f08a19db0fcb9e0c37f1614d17822840d0d6a65 net: lantiq_xrx200: fix statistics of received bytes
+89f2d89f60add77dca41f638f60b6256e8e7efa5 NFC: st21nfca: Fix memory leak in device probe and remove
+08907e6dc9040ac959dfb367e9d519661998ec39 net/smc: improved fix wait on already cleared link
+d0f8c56a258fafb591f62495937904fd20879c9f net/smc: don't send CDC/LLC message if link not ready
+c7eb550ab0be175bfe5d7262c7750bda6f7af82a net/smc: fix kernel panic caused by race of smc_sock
+a5b2e28869f92cba6e3e5069efbdf7cbc7bf4d99 igc: Fix TX timestamp support for non-MSI-X platforms
+2eb142c3ff211012bf8e794b7db2f75652e91742 ionic: Initialize the 'lif->dbid_inuse' bitmap
+e2f95ee3e353d2030b3792521f3bfe7e489f69a5 net/mlx5e: Fix wrong features assignment in case of error
+876b9aa9cbd5a9cb4bd6e8c3e3f54b386bc549f1 selftests/net: udpgso_bench_tx: fix dst ip argument
+bac8ff67e9125e060e7862cd3dce74f4e7e2043a net/ncsi: check for error return from call to nla_put_u32
+fa8c621f12a0ec3990376e849eba0f00e222f9cf fsl/fman: Fix missing put_device() call in fman_port_probe
+7904beb986a5b994c530a98c43de55714283b572 i2c: validate user data in compat ioctl
+2a72851a331e7e947e8f6bccde9a20616b4df1b9 nfc: uapi: use kernel size_t to fix user-space builds
+6c7f248f5d7adb5ef429ebc249b0910a5afa8e96 uapi: fix linux/nfc.h userspace compilation errors
+a871037ba18759515207e4285b5c93e759bad0d1 drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
+0302a7ac56df31acac228792fe0aa60ba2dabef9 drm/amdgpu: add support for IP discovery gc_info table v2
+1d8320ea52875860179f79eb2947b6fdd264ea45 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+b3a9500b997ed33abcc4d73035daf551dd95ef17 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+a5f9c7bd6b8b26219dcd83bd739702e7f19e7acf usb: mtu3: add memory barrier before set GPD's HWO
+54c49df27cdffa7d2b07fec199061324c67d61e4 usb: mtu3: fix list_head check warning
+fa205460ad28ae87283ce57e53470cf0dc15e4ac usb: mtu3: set interval of FS intr and isoc endpoint
+68b8cf6b31cdd647af56512f28e77769330af842 binder: fix async_free_space accounting for empty parcels
+294036a127a5d628189a0afe1f025339e8b61353 scsi: vmw_pvscsi: Set residual data length conditionally
+947e2b8473aa27220b2d491217b31b997df0c4a7 Input: appletouch - initialize work before device registration
+ccde12d60ff8913b9a01d249f50783c0dadf82f4 Input: spaceball - fix parsing of movement data packets
+59422de387a52cb3da7d800220bab31a3d57986f net: fix use-after-free in tw_timer_handler
+e458b55b39637b520701eaf99823a69086914b4b perf script: Fix CPU filtering of a script's switch events
 
---===============4219524075993256729==--
+--===============6894755946315724781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d5ea4d8bfec7-5e5e0881b41b.txt
+
+4dafdbd27a2be13dd4e9c17c4a98873073ed37fa Input: i8042 - add deferred probe support
+70b9a87b66af5b22d6b843cbae679b71bff15824 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+001bf19228b2a5cdf0902cd17b493ae0077440ea tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
+ad713efcc55bc503e672f565ce313e201efcf1e7 tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
+cbb9d6d74917fd24997b90edd23a02b53669c5ae net/sched: Extend qdisc control block with tc control block
+848b62ac62c586f1f462b421082bfac245a14b50 parisc: Clear stale IIR value on instruction access rights trap
+7487f09f6e97552a782373dddae72c9c84a931c5 platform/mellanox: mlxbf-pmc: Fix an IS_ERR() vs NULL bug in mlxbf_pmc_map_counters
+28400243c125bd1e739620a42f7542ff97080d0c platform/x86: apple-gmux: use resource_size() with res
+e9f3dfe0ddbd0aea3e6f35c89b186a59c6db6628 memblock: fix memblock_phys_alloc() section mismatch error
+44757ed186fb599bc5772da74e2fc077c5926931 ALSA: hda: intel-sdw-acpi: harden detection of controller
+68904dc9cc6bcaf8d2cf49a26511a3a2ed70a745 ALSA: hda: intel-sdw-acpi: go through HDAS ACPI at max depth of 2
+6e6a4b112a609501b03c21eaed024f74198a8f83 recordmcount.pl: fix typo in s390 mcount regex
+64b376e12f5c807e9a7e8f30596cde3da28184de powerpc/ptdump: Fix DEBUG_WX since generic ptdump conversion
+4d619a153d38912b02f01f493b9701889c8af207 efi: Move efifb_setup_from_dmi() prototype from arch headers
+f1c5831b3e7db1ec061d266a1f396504a6e877f3 selinux: initialize proto variable in selinux_ip_postroute_compat()
+063fd0ef84ce912d786d5def170e6079af0e6ee8 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+01735227e51634611a5117a944c3f3693f174147 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
+8b39744057252fb36551e40956b19d468b4ff02b net/mlx5: Fix error print in case of IRQ request failed
+22cec9e46d0fdca14b4bf758483d9204bbfe521b net/mlx5: Fix SF health recovery flow
+69d18dd585fcd267cc094b9fb77bf097469b50f3 net/mlx5: Fix tc max supported prio for nic mode
+f58960fece0e23a66c496f30d5510e7a4f1f99c2 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
+91fefb3a243e9b1f567f82c1b11eb2c5134ef46d net/mlx5e: Fix interoperability between XSK and ICOSQ recovery flow
+edde125ed10b8cd814f3d442f4f61e9e54d62f00 net/mlx5e: Fix ICOSQ recovery flow for XSK
+61bb2c5a86f8454085e85ca45f70ae65b52e8349 net/mlx5e: Use tc sample stubs instead of ifdefs in source file
+2a7cd58b3eaaf8a4c27aea92125ca556e2f450a6 net/mlx5e: Delete forward rule for ct or sample action
+e0438a7f6473f7b2ef925f9ea22a1d6c9fbc24ae udp: using datalen to cap ipv6 udp max gso segments
+404b5de812b7e8002d075a866f32fc115bbbcf39 selftests: Calculate udpgso segment count without header adjustment
+ac41481cfa80464eadce0dcbc55c6ea7842a4798 net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
+cd253175390e722bb3c446b044ff09000156ee5b sctp: use call_rcu to free endpoint
+b51b248a543578adf81a974c47c13af2a8b0cfc7 net/smc: fix using of uninitialized completions
+ff6e19746580f03c5805c434fc25039dcfc5a3d6 net: usb: pegasus: Do not drop long Ethernet frames
+fa055817ef7109779b8b282a31ed31466725a3cd net: ag71xx: Fix a potential double free in error handling paths
+266a5d00b0f1f4715a877617256f8f8e25e85924 net: lantiq_xrx200: fix statistics of received bytes
+885f7f2adef193800784522411c7c1aa4a4c1dd9 NFC: st21nfca: Fix memory leak in device probe and remove
+81b28ce831bb3e8fd9558116455257cc5cfe47f9 net/smc: don't send CDC/LLC message if link not ready
+791e70d512552c502e986a729dcdff84f36f338c net/smc: fix kernel panic caused by race of smc_sock
+640dfaf7669713f63b7f02a468ff3aa299448b99 igc: Do not enable crosstimestamping for i225-V models
+65a9927311d2f4ec0c80612c684a6dce98f7aeae igc: Fix TX timestamp support for non-MSI-X platforms
+f903521c2780f5643f775dca015b6329043ca1c5 drm/amd/display: Send s0i2_rdy in stream_count == 0 optimization
+2da6a64e036ef67f070b310fbadc3c5995e9c761 drm/amd/display: Set optimize_pwr_state for DCN31
+5da888c10ee17bfde9a2b293ea6007f439e42744 ionic: Initialize the 'lif->dbid_inuse' bitmap
+b8d0c79e169c0caec3ef99f2508247c543dd5e81 net/mlx5e: Fix wrong features assignment in case of error
+2a460cb2df6639a8e9073a7136cdd77535b47a69 net: bridge: mcast: add and enforce query interval minimum
+4736e5d414b3fb679dd7cebf2fc0e43f0fe91666 net: bridge: mcast: add and enforce startup query interval minimum
+2f278092b92560cef22c5277cbb582c181751ee5 selftests/net: udpgso_bench_tx: fix dst ip argument
+969d2e3e7598937d933f6db80e8decc8f0a93469 selftests: net: Fix a typo in udpgro_fwd.sh
+5ec0552d65c8d307d3dc77237831b6eb25bc978c net: bridge: mcast: fix br_multicast_ctx_vlan_global_disabled helper
+2d6f11bb118a5dfc25e075a8569308204c1ba982 net/ncsi: check for error return from call to nla_put_u32
+134be954039083310978e1b969117178d5d0a473 selftests: net: using ping6 for IPv6 in udpgro_fwd.sh
+24fd45e0d9a6eebf35c6ef765d83a634816a7b0a fsl/fman: Fix missing put_device() call in fman_port_probe
+928e719fed2dbc33d9dc7a1b36ab617bb637cebb i2c: validate user data in compat ioctl
+12ba71cb9c9593314aa0701bff9aa76d3c15ef52 nfc: uapi: use kernel size_t to fix user-space builds
+d72a614bbdddffb7b20e1e065de23dc0d0a906ec uapi: fix linux/nfc.h userspace compilation errors
+cc9fd43b7e32ef89a239f9b40dcf895fe87cec7d drm/nouveau: wait for the exclusive fence after the shared ones v2
+925c1f5faa3c9af4cdb796344e18c596d52c386e drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
+0bb113d3333965554be9877173dcdd1e8d0a72b4 drm/amdgpu: add support for IP discovery gc_info table v2
+3956837f52f2a4f420fd88377c380e81e15ede64 drm/amd/display: Changed pipe split policy to allow for multi-display pipe split
+4a0970242e11c7bfae896551d8b67194e737ce38 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+8ee5104d74665ebfbfebafdf05b2f264f00c7446 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+5aae168e92f23119f89a3c146f3922993f9553b6 usb: mtu3: add memory barrier before set GPD's HWO
+c5e06df2f49d33ac0d5a4b55588af4c53fcb52e2 usb: mtu3: fix list_head check warning
+bb4921b19ead7ab44ac67ec4ed5602ad1bea1a23 usb: mtu3: set interval of FS intr and isoc endpoint
+36576b24044d34da6c6955de9f6ac2f01fd379b8 nitro_enclaves: Use get_user_pages_unlocked() call to handle mmap assert
+e148eb5df4e74e3d24142a152155b73aaf39c64c binder: fix async_free_space accounting for empty parcels
+fe491ab11457f608718264777749260a1bec49cb scsi: vmw_pvscsi: Set residual data length conditionally
+25b7fcc3acac30dd49d26d61fd1bdcbc9a075fa8 Input: appletouch - initialize work before device registration
+22c25f1bad51a5503cb789af54411f4aeb6922a2 Input: spaceball - fix parsing of movement data packets
+bf76d1c57cea2496ed7b3ab8975ef8ebdba78d1c mm/damon/dbgfs: fix 'struct pid' leaks in 'dbgfs_target_ids_write()'
+47308dec9c87940b4d7959c3228ea75577efc30c net: fix use-after-free in tw_timer_handler
+f74a0d831a235330104d93f1d5bca86405c6bcee fs/mount_setattr: always cleanup mount_kattr
+80028852571ede5dd81a414e2bb22d34ab5dd986 perf intel-pt: Fix parsing of VM time correlation arguments
+ceeb89b88487fdbafa1d7c2d726ef44bb492380d perf script: Fix CPU filtering of a script's switch events
+5e5e0881b41b1161ebf6060df7121f1abdc3f8af perf scripts python: intel-pt-events.py: Fix printing of switch events
+
+--===============6894755946315724781==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1c4cb9e255e5-bc557929e979.txt
+
+ef00f034cfba19f5d25bd7e182e9a1bf1a28bae0 HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
+34f48d04e9efb30e7e855939f114d7376b1f9ce2 tee: handle lookup of shm with reference count 0
+f6199b9941c6bdac9175903a56b44460ade0d308 Input: i8042 - add deferred probe support
+237f8dd6e1468f4a4c522f2186ab4581f137f301 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+36f6f789d25a23983bfe49acdea3ce36b70b1ed4 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
+66216e6a55999f0ca3fcfc53be757a443c506e24 platform/x86: apple-gmux: use resource_size() with res
+d51a57120d98fbe089e8ffb16c4fe3f5a7a82ea4 memblock: fix memblock_phys_alloc() section mismatch error
+e050a5203c33bc561b8e6083cc7725c0344584ab recordmcount.pl: fix typo in s390 mcount regex
+21ad1077e0f3b5a5bc677ea74e28d884450a7905 selinux: initialize proto variable in selinux_ip_postroute_compat()
+2313f8c9520aafa9af1a7a556f32fb712e269210 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+c9f98a1029333b7a5bc44ef14b3b2cf5d2cab0f2 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
+a2a190f5df684ab3a2e510394c5c3bfc648fe2d2 udp: using datalen to cap ipv6 udp max gso segments
+56b62dda289bd426c3b846204abe57bc781122a4 selftests: Calculate udpgso segment count without header adjustment
+1c4892cd9240de05bb1f1750aa70ec5f9e22e70f net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register
+1b764f6b29025452fabd74598ef088fe688de51c sctp: use call_rcu to free endpoint
+e3a8fe9dd1a895c0898d308f52bb23f36e654708 net: usb: pegasus: Do not drop long Ethernet frames
+a9f59ae3c9215109ec1f938335fa3f26f6c08510 net: lantiq_xrx200: fix statistics of received bytes
+97437813663a5b3d6ff83b035d9d52e382131380 NFC: st21nfca: Fix memory leak in device probe and remove
+657a71c8533d62080bd53edf57ad0ac004880d8e ionic: Initialize the 'lif->dbid_inuse' bitmap
+1db4199faf4dd08e3c66e56f4af77e41a170e3bf net/mlx5e: Fix wrong features assignment in case of error
+d4b2524149a70ff0bebe7df43cc366671e757793 selftests/net: udpgso_bench_tx: fix dst ip argument
+d29fad485c67e36dabddd660cc0b37d750d78ab1 net/ncsi: check for error return from call to nla_put_u32
+460cc42b74758e5a6df0d456844fcfcbd079b345 fsl/fman: Fix missing put_device() call in fman_port_probe
+e0d1aedb8330e1e6871d6dbb04e339ca69bbe669 i2c: validate user data in compat ioctl
+da836bb1cbd81a93c6168a4a74a01d46b6987539 nfc: uapi: use kernel size_t to fix user-space builds
+ef6e5af38b6a6e457458722da6463a1262ddf521 uapi: fix linux/nfc.h userspace compilation errors
+6ae2e38c62aba7f9e4c8f61664b6fdab2a61b8ba xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+80e47885addfd12deb25e13403ceaf49d4eb896f usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+49c1b2c527ffffbc40570f6ce6d58c483521f65e usb: mtu3: add memory barrier before set GPD's HWO
+3f2d91417150ca0ce6b279be350bcbdccc316f10 usb: mtu3: fix list_head check warning
+e54bd5661f023fe9132eb398de199cd8691513da usb: mtu3: set interval of FS intr and isoc endpoint
+2a5f99187593adabaa03bbc23b712bc0b3c03398 binder: fix async_free_space accounting for empty parcels
+dcc89d21ebce2e332d34627d79eccafa1b9517ad scsi: vmw_pvscsi: Set residual data length conditionally
+4519cdd807c0772f6d9b61b4fd85ae97ad37e20f Input: appletouch - initialize work before device registration
+7f4fe6b02c3af2d819077452e7d1e4fd13f602c2 Input: spaceball - fix parsing of movement data packets
+e3772c67aae97f9e29d64f324d49a7c3a7fbe114 net: fix use-after-free in tw_timer_handler
+bc557929e979230f7d93e067e3012099782a0272 perf script: Fix CPU filtering of a script's switch events
+
+--===============6894755946315724781==--
