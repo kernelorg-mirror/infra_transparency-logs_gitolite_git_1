@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4002449270785906694=="
+Content-Type: multipart/mixed; boundary="===============4800944971908245772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 03 Jan 2022 11:58:59 -0000
-Message-Id: <164121113980.21610.18367883778762059986@gitolite.kernel.org>
+Date: Mon, 03 Jan 2022 11:59:09 -0000
+Message-Id: <164121114902.21739.6483711910241821842@gitolite.kernel.org>
 
---===============4002449270785906694==
+--===============4800944971908245772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 67228fa3c2fdd397e533797218a2479f760a015f
     new: ea2c423391f448e628608997f9af17e4b93452bd
     log: revlist-67228fa3c2fd-ea2c423391f4.txt
 
---===============4002449270785906694==
+--===============4800944971908245772==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cb42e84c050af90ae712f8d016f96b0b01d0830c headers/deps: sparc64, mm: Define simpl
 d56290fdb9f326bb55189b3270cbc46811d58500 headers/deps: driver/core: Optimize <linux/device/driver.h> dependencies, remove <linux/module.h> inclusion
 ea2c423391f448e628608997f9af17e4b93452bd headers/deps: Introduce the CONFIG_FAST_HEADERS=y config option
 
---===============4002449270785906694==--
+--===============4800944971908245772==--
