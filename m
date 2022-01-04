@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4948834364009050577=="
+Content-Type: multipart/mixed; boundary="===============4586764832120384907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 04 Jan 2022 16:00:53 -0000
-Message-Id: <164131205356.18658.12418648929267246455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 04 Jan 2022 16:00:59 -0000
+Message-Id: <164131205936.18777.14006894013091504492@gitolite.kernel.org>
 
---===============4948834364009050577==
+--===============4586764832120384907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: d27bb69dc83f00f86a830298c967052cded6e784
-    new: 1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a
+  - ref: refs/heads/for-5.17
+    old: 12baee68b2df6847f9a26ee82f30aa5f52c6d0d2
+    new: ebe33e5a98dcf14a9630845f3f10c193584ac054
     log: |
-         1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a regulator: remove redundant ret variable
+         ebe33e5a98dcf14a9630845f3f10c193584ac054 spi: ar934x: fix transfer size
          
 
---===============4948834364009050577==
+--===============4586764832120384907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1641312052 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641312051-593b6891debce9cb5ebe58119e20f48a45631291
+pusher C3F436CA30F5D8EB 1641312058 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1641312057-c905ec2e1b20aca1ab102b6cd2cd4f0c5fcd355c
 
-d27bb69dc83f00f86a830298c967052cded6e784 1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a refs/heads/regulator-5.17
+12baee68b2df6847f9a26ee82f30aa5f52c6d0d2 ebe33e5a98dcf14a9630845f3f10c193584ac054 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHUbzQACgkQJNaLcl1U
-h9DBqwf/fCNfpFv94OyIqTpGDm7WId+9J/Z5ITrnovUIW37Z4jvcp125LRaforQQ
-fMOWOJHr1n5ne8FSUNhG0YmYQQ5mUYaQbEhHR7oSA/4Um3B/tvZ9mXuHuxhy57+3
-43A/pNapNm35sjc/3LJ9bK5/pI8dK+DT+mlH5v4Obz0hYpsXZrZSx43R9H/n8ZhC
-9zMp/zGaP8JK6MY4jeu70F8ZFh/PXxIFjJgaxPmenWDQg9BfklpZsXmLWZZphsgI
-TtGeoLpUdoUVPvMXaSLzpTU+DGCOg694xU/E0+3DMMoS14TeSVXwd7nUzRaZ1nPD
-6AC/xhA+d3t8sIDw/MGqE4iaYSJ0ow==
-=/h1P
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHUbzoACgkQJNaLcl1U
+h9C41wf/bFROpjJXFnUhuEKvgBdVVJkSR7rlYNmCMxiflh+gTA0FWXQFLa7haMCM
+gecPlkRpn+AmoMxxTfuPQ18sISbDbibWOocDtijt676LGo25pJAJuZLKDJ/6vOuZ
+KxAHMcNXePeRG3zkRCZdXJS1C65/zfkDy2pwF6tlT5S6TC2LtmOXVBKhcb8C/ClU
+TjwqyM4O+Qp0FISbPJqypE9euQZ9+hfq+fdB8Ktw/YRCjOeDNMu2Vvh/NrM9S1Ay
+66CcG8be/E8r6reGjdBS6m9IUWiIHQTc55g5mQkJPU9oJaNjxljYimHjCPBd3EBZ
+7+VKNX+v32XGWFMeWTrfo+sAUhytjw==
+=X6ET
 -----END PGP SIGNATURE-----
 
---===============4948834364009050577==--
+--===============4586764832120384907==--
