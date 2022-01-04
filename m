@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3434239143135010429=="
+Content-Type: multipart/mixed; boundary="===============3747237569748175728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 04 Jan 2022 07:35:30 -0000
-Message-Id: <164128173068.11758.4037343346062710437@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 07:35:36 -0000
+Message-Id: <164128173631.11851.14542641021134084054@gitolite.kernel.org>
 
---===============3434239143135010429==
+--===============3747237569748175728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,119 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 38b2ec850bfc4ecc2b202c3b232d5ac92bd4365e
-    new: 859453dadd8855e8d8cc45052c66b48c9c68bc34
-    log: revlist-38b2ec850bfc-859453dadd88.txt
+  - ref: refs/heads/linux-5.15.y
+    old: fbfd9867da50607c6a409bccb822c48823505929
+    new: b09f6c0139dd10a52c31e8c41c54dad5760214b1
+    log: revlist-fbfd9867da50-b09f6c0139dd.txt
 
---===============3434239143135010429==
+--===============3747237569748175728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641281728 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641281734 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1641281728-3bc71018a58c8963533cfed6324310fa2f8eb5af
+nonce 1641281733-a23400c6ba1489ed468b0aa6c09de763f27cdb56
 
-38b2ec850bfc4ecc2b202c3b232d5ac92bd4365e 859453dadd8855e8d8cc45052c66b48c9c68bc34 refs/heads/linux-5.10.y
+fbfd9867da50607c6a409bccb822c48823505929 b09f6c0139dd10a52c31e8c41c54dad5760214b1 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHT+MAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ArYQAJ05fO5JHVpXEmjzjnRb
-jvmOBdeS8Pb/4gKxYvm2SYDMhSjkAPYpnPfUefHqsZjoT21r2us7TLVSuG1kBCM4
-kkhKY3KMeqUa9rStX79g0CG7cqNQTd5NlmJKM+KCQu2YnVN6300/oR44I64op1r5
-r04u839xv+Xu2+x0Tqt6KkdAKXGumLK2XwOMYpiR0MTm0px/Spdt8FbXkJbdCJk7
-OsM0c/wqRuoZjOMGU+w4JJUz943LZgwI/n769EAylaULCULzfwsCHqUWadp+iSr8
-RRnf/hfDogf6ibJSrdVfwJkKekrLriMF6tAWpZCjSvyyNsA7GVvkc6XvMBREOs7i
-mFVqCGvDK9Hr8s9oW+FxH7r6vBQi04JVbUbCwlH8QqvVzkJkALZPW7iSNTr6rC84
-8VAPH4hVip9Ccpm9tYwgFov3u+l64SDsr36fpLPoqNVagR5shfS5fbXTTqSqQwFt
-o5f/sOQBdwjFHLIGOUQ7mEXmCEEFCsqU0ldJT6utAWwb92l1YVhrZt0eix/qyF0i
-IcaEav3lz/JIoL5pQpYnmatIxlsFzOtllVkX3TU3W79EGjadzqxAF1PMAm+PZE5I
-a+ekSpEdnO+2y32vg9XIT1JSSKXugoL6kqtpBXMVff+DUKay4EeNL1y4oQvIvcgG
-KLQogQytP2aaaaromi663xJC
-=+6nD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHT+MYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dyEQALV7Cz24fbxY5LzE41a8
+YbCEzA56QKd59+01jBKVzIp4i9YkKJcJWG/Sz1K84zRXaXeaL+/wpQn9+D4wSHdJ
+fiKumz/hLWWq5VkAdLqHoWOilBorhD0UPITQEmRdwXdAyBItUWMp8BonKhCDoHFF
+JmB52gE248L9nZt7kThhguc+JO6DOUxb6AIbJXl2YJJJw2QSyF6h/FiE0y3/C6qe
+2EYAgrwpK2aB6QHC/nHNUCdpxXavpXo3quX1eeaqGPT9S+WO4i7R0Ue5gzONfWey
+Qa7z3Y2Q/0xGaEcgFgjlMSyv0iHSjG7D2unetjwZ4ZkyH60T2zsSUGDON4LBO95P
+Oc9+kUFJ7metLSLtTu7Kl/leSf9LiaR9rYDLcRyTsDdekfmjgthqTvM9WvwJwHkA
+PFTTJmIx6b51Fa2kfZm8WdrTPDcAa0NtLFRLEdJRMTrJxshNWlVXwqGali0kjt4O
+MXGToGRfw69i5uiXseSXgxVxNC/7aSX2imLvfBzmhmKh5tO26A7BVd33yHgOsyZr
+oJqkSLy7PSUzaqtAjKKxfCYL/uol+HAB0Z4VGs/dHg9YQqaYOM6PMKXe1fnGVm2R
+qZMZm1tHB0AUzFpHNEpQcgfeR835MTzloXp+iB4q6413lCEKzFWsy6WWkArTZL7t
+wrML0m1p70mn5fqI6Orox7pz
+=7MXY
 -----END PGP SIGNATURE-----
 
---===============3434239143135010429==
+--===============3747237569748175728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38b2ec850bfc-859453dadd88.txt
+Content-Disposition: attachment; filename=revlist-fbfd9867da50-b09f6c0139dd.txt
 
-712ef5035d75c61aa3aa8ed2d4c0372df7a43f79 Input: i8042 - add deferred probe support
-c52eda395d7464cb552f032115aad9e2c0722ab8 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-b7ac15e27ee1cc5eba589392fe8dd324f4bd8c07 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
-d9435674be69fd25d2c8db510b6128a58e3973bf tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
-31370dfb0b2dd7e4a083a832ef8852f378b82e41 parisc: Clear stale IIR value on instruction access rights trap
-a7663a044dfb0529edc514b3520b46133aa79602 platform/x86: apple-gmux: use resource_size() with res
-396f6721cb7d750a78daa64ec53cec0693e3fbe9 memblock: fix memblock_phys_alloc() section mismatch error
-59a36302f8bdd2886cb1d61410e77a3f6ab7a980 recordmcount.pl: fix typo in s390 mcount regex
-96eb2baa7ed11e4367ff8deb1d3cc37e4e4f1cb0 selinux: initialize proto variable in selinux_ip_postroute_compat()
-4adf89d662dd15f42a05e7155113eb22471cc4d1 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-71d606be0647aaf2bbe6b8947709c3f2a97ab7b2 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-875f11a8b27e8eff1263d76bbc0b14fe2f69061d net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-874d4f3b2e1f9bf2863d748ab65945caa3236a50 net/mlx5e: Fix ICOSQ recovery flow for XSK
-7934233cd375ef7cd1d7cc6bc33f296112472b7b udp: using datalen to cap ipv6 udp max gso segments
-715eb06d39368da37430dbf68cc7845cb0efae62 selftests: Calculate udpgso segment count without header adjustment
-5bfda01d0b1dc05145912f4b30c63f3ce644b39d sctp: use call_rcu to free endpoint
-55ba557ac5bdfed1a22ae30dd515bf3af5892bc5 net/smc: fix using of uninitialized completions
-feaf13e8a87548ca74bd2884e785bdf9619d326d net: usb: pegasus: Do not drop long Ethernet frames
-bd2c09a2cf97333b41ea209bad06dc819421c0b9 net: ag71xx: Fix a potential double free in error handling paths
-fe015e21418f39fb50b4702254baf1fc1214e3b9 net: lantiq_xrx200: fix statistics of received bytes
-2d8bea7ffd6aaaac3f79ec4f87c696de418b9f66 NFC: st21nfca: Fix memory leak in device probe and remove
-1761e90a32132412a95468992a782c1c0fecb77d net/smc: improved fix wait on already cleared link
-d4cd945a5ddf8dae1e2cffa3caf3ea03b6501ae1 net/smc: don't send CDC/LLC message if link not ready
-27fe7db7ac9d51af368c936885281b333bf4f891 net/smc: fix kernel panic caused by race of smc_sock
-b6dc32361103218105bccafc1eaf43f58976df9c igc: Fix TX timestamp support for non-MSI-X platforms
-2ad562493c6a5e54a9bb6bb00b04e6878a5e190c ionic: Initialize the 'lif->dbid_inuse' bitmap
-fba80aca141dc06122971bee5bd152fe2e3fac24 net/mlx5e: Fix wrong features assignment in case of error
-32a21125ed5b9208c7a65994abad02653dabccea selftests/net: udpgso_bench_tx: fix dst ip argument
-1ed81489b4858cb5f1822ada0084de7bb29f2359 net/ncsi: check for error return from call to nla_put_u32
-cd40169893d1117f9d4f81b8e276fb87ba6f29a8 fsl/fman: Fix missing put_device() call in fman_port_probe
-1d77ad91d3c45a749abf2a39acb64e8b48b02d2f i2c: validate user data in compat ioctl
-6b934808680b483bc6534684ec0edd1b294a2c72 nfc: uapi: use kernel size_t to fix user-space builds
-f055300f283c250b6c8f6c7b1eba59d9358ff1e0 uapi: fix linux/nfc.h userspace compilation errors
-3c9c4bbb863fb0aae88d04b6d2f7b0784ba72c24 drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
-926a937b926f19c409b4d6bf9cb8f9946f2cfed4 drm/amdgpu: add support for IP discovery gc_info table v2
-145530f5da78e469f6f78bee385cc3dcd64444ec xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
-7720842da1d673c7116ed6dd9e30cd366b53e174 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-07cc2d8a9ff2d236adf8160cab04875b506224fe usb: mtu3: add memory barrier before set GPD's HWO
-e09c195ab7a4eb17dfe0a3e70618386d84325952 usb: mtu3: fix list_head check warning
-efb234ab1127611c0927fb9899bd1de87759ec5f usb: mtu3: set interval of FS intr and isoc endpoint
-cced0f4d98b76b3f27691813e20ea1b8944e6575 binder: fix async_free_space accounting for empty parcels
-1520f3af8080b4b65df754f1c8bbe983ca6681c6 scsi: vmw_pvscsi: Set residual data length conditionally
-81a0d07cbd5313c6088e2aeffe57823c7a2114c4 Input: appletouch - initialize work before device registration
-dac09759fdb150e7e4a7e9af4935d402f0fb1417 Input: spaceball - fix parsing of movement data packets
-23bd4fc477d955facfbaf69310e7269618d2e1b7 net: fix use-after-free in tw_timer_handler
-1f7ff74e6d404f2168dcf66f95dfcaf2440d65b2 perf script: Fix CPU filtering of a script's switch events
-aa45e8481d1e6128caf4500520a8cdd59017a5c8 bpf: Add kconfig knob for disabling unpriv bpf by default
-859453dadd8855e8d8cc45052c66b48c9c68bc34 Linux 5.10.90-rc1
+6ccda006f82774b87084737684ca2c44cc5d5fa3 Input: i8042 - add deferred probe support
+72cc4e814ff78d2f8c702fc62e3ce653ac96d548 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
+938992a97c72442d598e3e579eea6d902ff78448 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
+1bc9cde4ebd2c700bb2244574378b717f61f777f tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
+923887c29b24fb16298756d034dd14b5b99367a7 net/sched: Extend qdisc control block with tc control block
+289ead8f91dae325f24744ce52bafe9b2860dcfc parisc: Clear stale IIR value on instruction access rights trap
+0678cdb5a79e3c289f88e19a0acefcdfb3a72ae0 platform/mellanox: mlxbf-pmc: Fix an IS_ERR() vs NULL bug in mlxbf_pmc_map_counters
+c3fe51897cf79bb039655ba68b7bddf2d07e7722 platform/x86: apple-gmux: use resource_size() with res
+fa766cffd54d06a28202e568a42682827d5b45a5 memblock: fix memblock_phys_alloc() section mismatch error
+c1ace9f103c1d13c657838cc5e32bc50df86756c ALSA: hda: intel-sdw-acpi: harden detection of controller
+7e5243c8dfa699347b87a91464b990c649728a2b ALSA: hda: intel-sdw-acpi: go through HDAS ACPI at max depth of 2
+eb4ceaea6ec8e31cdb84c64dab04e971b1c65f64 recordmcount.pl: fix typo in s390 mcount regex
+33714ab35e1f312f4a94aff2ae0782a724f749fa powerpc/ptdump: Fix DEBUG_WX since generic ptdump conversion
+2ce51c03d2ad33b4a675ad446ef2580f58333c46 efi: Move efifb_setup_from_dmi() prototype from arch headers
+6f87c35c70956206996d837245faff4e68f9d7b6 selinux: initialize proto variable in selinux_ip_postroute_compat()
+9aa2a6b65bdc5e2b3a742f79ff077075ab20032e scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+3d18ac151d1ece62d590f6f06bc16725aebf4f65 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
+efb232a8bf0c635635a4ae96d1fd51a93ebb52a7 net/mlx5: Fix error print in case of IRQ request failed
+39982c0695126318b16d87b3caa18035a67c2259 net/mlx5: Fix SF health recovery flow
+28a968292da73458fef44957fa08aed9b5629e53 net/mlx5: Fix tc max supported prio for nic mode
+ba601390351d16644b84e5a05dd71fde546d3d49 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
+8dbe9cfa88c4f4613e9e16bdfabab29ba912335e net/mlx5e: Fix interoperability between XSK and ICOSQ recovery flow
+b6a4cc50016a84ec4305ac646bedf4e840abb52e net/mlx5e: Fix ICOSQ recovery flow for XSK
+2f58f8e76aa3e87615492bdb767795df60cd1179 net/mlx5e: Use tc sample stubs instead of ifdefs in source file
+6b4abefbe5ec2ca0c20ba935f89a30f976453b5b net/mlx5e: Delete forward rule for ct or sample action
+2a2007fe96f9b33ca74628023e0548dc9ca9ee22 udp: using datalen to cap ipv6 udp max gso segments
+18a9b8d20d740311431a842552f2bc0efc62ac45 selftests: Calculate udpgso segment count without header adjustment
+f6fef623cd71786ccfcd7b26019ae8ef0104ef2a sctp: use call_rcu to free endpoint
+9638702860b25795e1fcb2ec1e829aae5e6a19d1 net/smc: fix using of uninitialized completions
+b49d419f11b59494ef71fb4b915ef73e2b45f02c net: usb: pegasus: Do not drop long Ethernet frames
+889b73a960a49fa2797785254f4c2b76e4374ce1 net: ag71xx: Fix a potential double free in error handling paths
+a3002a3da60db171c0671c0c6169c8166d281aa1 net: lantiq_xrx200: fix statistics of received bytes
+4f2ec8ff20cd9bb215caf1dc7fcccf0290825343 NFC: st21nfca: Fix memory leak in device probe and remove
+bddb6845f1f7378661e4156f6840c41fcdf9b340 net/smc: don't send CDC/LLC message if link not ready
+6c7aee5cf6ef1c6c7704fefb10750fdd726d9e93 net/smc: fix kernel panic caused by race of smc_sock
+ba4240637efa964a214347b49d1227d7d2380072 igc: Do not enable crosstimestamping for i225-V models
+361c2fd2ab436589b3ea54f34399f0539f666daf igc: Fix TX timestamp support for non-MSI-X platforms
+b4f5bd8091187acfbdd0969f1f87ee17b51ac87b drm/amd/display: Send s0i2_rdy in stream_count == 0 optimization
+f6100212d9940a9c442fe2a024ebf29c7104b1d1 drm/amd/display: Set optimize_pwr_state for DCN31
+4986b8bd50122b7d311ab38267cdbe72ff456674 ionic: Initialize the 'lif->dbid_inuse' bitmap
+b37e8ca7a1d1a982e4263947911c51d50d425805 net/mlx5e: Fix wrong features assignment in case of error
+6de1874ffd137721dd5493905f72f01d1f82c636 net: bridge: mcast: add and enforce query interval minimum
+bdbfca89a6ea0a344bd990f8202e4bbb6a418075 net: bridge: mcast: add and enforce startup query interval minimum
+6d298181e06dcfd0c6b8a3cb6559289ea4346bb2 selftests/net: udpgso_bench_tx: fix dst ip argument
+66f80e6b3fb461f40ebbedfa3641aaf879165919 selftests: net: Fix a typo in udpgro_fwd.sh
+a8f439d92fcf3086bebaf3d7d09c4279cd4ebb4e net: bridge: mcast: fix br_multicast_ctx_vlan_global_disabled helper
+1b0513ee075a7ee91645bbf32bf823d9aaf94e71 net/ncsi: check for error return from call to nla_put_u32
+0df442d258c9d640bc7d562765805ea287956018 selftests: net: using ping6 for IPv6 in udpgro_fwd.sh
+00e616b8f3f22d9c3907bb912f817049cd92d5f8 fsl/fman: Fix missing put_device() call in fman_port_probe
+2a6822a08f7729ea2ef6d2d5ddea1b8da8adc549 i2c: validate user data in compat ioctl
+520bcf612a2ffc6289bbf65822d87c4a20c9f72f nfc: uapi: use kernel size_t to fix user-space builds
+c3349d90899bac63c6c5aee64a2df69c11f8e06b uapi: fix linux/nfc.h userspace compilation errors
+411ca6b8c12ed9f9403f16195e64d420844bea0e drm/nouveau: wait for the exclusive fence after the shared ones v2
+1bbafa0eafea7f00f6956e1c9ffe149866f82648 drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
+7c4a8c023a27639a397d6729d8930d0f94ae177f drm/amdgpu: add support for IP discovery gc_info table v2
+3a456f8f639b03435c94a4aef58a66c045f35dee drm/amd/display: Changed pipe split policy to allow for multi-display pipe split
+b434842f4882bf50c311a5818941d5fba345a66e xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
+cf73ba8a1c192dad4b89d00073ba64a60f8f9b32 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
+fe24d53aa8ed452203f924c93ce5c1187b8017e3 usb: mtu3: add memory barrier before set GPD's HWO
+07bd8de5aa4dfc577a55f261cf0b49b4c032a58a usb: mtu3: fix list_head check warning
+e83cb1379174f397761440442410fae932bba6dc usb: mtu3: set interval of FS intr and isoc endpoint
+d5ba153fdf8e95e10a39f200511102aff33016a0 nitro_enclaves: Use get_user_pages_unlocked() call to handle mmap assert
+5e4167722cc77df0d6ec9fbea66df03f8b4a742b binder: fix async_free_space accounting for empty parcels
+ab1cd58e08f00f75ad6fbdbf95e9c76a71bdefd6 scsi: vmw_pvscsi: Set residual data length conditionally
+8745fc0ddce9129d8060ac7934c2b89b0ecc5dca Input: appletouch - initialize work before device registration
+e578bcfa574626968bfd2ab4b64ee62557e73a59 Input: spaceball - fix parsing of movement data packets
+1685f71da93ee1ea3576569139c186656e510d8a mm/damon/dbgfs: fix 'struct pid' leaks in 'dbgfs_target_ids_write()'
+ddb7600de3e8a93da79f27aa234921ba4635b9b8 net: fix use-after-free in tw_timer_handler
+3303604d1aa88f6a9bd18d53d5d1e3b90750216d fs/mount_setattr: always cleanup mount_kattr
+10dda53a10780ee7d43e11a13e5caa0d05a49ec2 perf intel-pt: Fix parsing of VM time correlation arguments
+c8bcb3d4673ccb27c2942b291934b58eb82e8f93 perf script: Fix CPU filtering of a script's switch events
+db7432e83429c9c71eb58c5018c439f08c117bd2 perf scripts python: intel-pt-events.py: Fix printing of switch events
+b09f6c0139dd10a52c31e8c41c54dad5760214b1 Linux 5.15.13-rc1
 
---===============3434239143135010429==--
+--===============3747237569748175728==--
