@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 04 Jan 2022 04:50:03 -0000
-Message-Id: <164127180303.6299.14418263168684116148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 04 Jan 2022 06:38:18 -0000
+Message-Id: <164127829807.7800.15737429862723823760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/block-5.16
-    old: 87959fa16cfbcf76245c11559db1940069621274
-    new: 26bc4f019c105234639068703186c01efcabe91e
+  - ref: refs/heads/master
+    old: 652c0441de588dafb68516eccd4a89662830d23b
+    new: 08a6df09063818d55c1f0aa8cf3385d8d217b506
     log: |
-         46669e8616c649c71c4cfcd712fd3d107e771380 md/raid1: fix missing bitmap update w/o WriteMostly devices
-         26bc4f019c105234639068703186c01efcabe91e Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.16
+         08a6df09063818d55c1f0aa8cf3385d8d217b506 Input: gpio-keys - avoid clearing twice some memory
+         
+  - ref: refs/heads/next
+    old: 652c0441de588dafb68516eccd4a89662830d23b
+    new: 08a6df09063818d55c1f0aa8cf3385d8d217b506
+    log: |
+         08a6df09063818d55c1f0aa8cf3385d8d217b506 Input: gpio-keys - avoid clearing twice some memory
          
