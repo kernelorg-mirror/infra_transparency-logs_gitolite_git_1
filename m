@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 04 Jan 2022 18:35:05 -0000
-Message-Id: <164132130507.19402.8929136975855270384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 04 Jan 2022 19:03:38 -0000
+Message-Id: <164132301844.3591.7085730390977788412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 7d9b198df61d997cb653eb3749c3db23a4f41c70
-    new: 994c18c44ed268bca57779396aae630ee2a1a45f
-    log: |
-         994c18c44ed268bca57779396aae630ee2a1a45f auto-t: iwd.py: use spaces instead of tabs
-         
+  - ref: refs/heads/dm-5.17
+    old: 0000000000000000000000000000000000000000
+    new: cba23ac158db7f3cd48a923d6861bee2eb7a2978
+  - ref: refs/tags/v5.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
+  - ref: refs/tags/v5.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
+  - ref: refs/tags/v5.16-rc8
+    old: 0000000000000000000000000000000000000000
+    new: da629478930871e4c9a51c56ad86078f10b83f9f
