@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 04 Jan 2022 15:49:33 -0000
-Message-Id: <164131137300.9465.10929478881580786370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 04 Jan 2022 15:51:09 -0000
+Message-Id: <164131146962.11357.7128726035907556383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/dev
-    old: d54c324cee4a919250a5f72094771b28b2a5dd28
-    new: 09c543798c3cde19aae575a0f76d5fc7c130ff18
+  - ref: refs/heads/for-next
+    old: b442f6a855a943cadb23ba9873aa45dccbcb9c91
+    new: 2a578233463d148a115936ce1198ebbc40a1e837
     log: |
-         fdf80a4793021c2f27953b3075f401a497519ba4 erofs: introduce meta buffer operations
-         c521e3ad6cc980df6f3bdd2616808ecb973af880 erofs: use meta buffers for inode operations
-         2b5379f7860d8e95571a4837ac4c07167b4233bd erofs: use meta buffers for super operations
-         bb88e8da00253bea0e7f0f4cdfd7910572d7799f erofs: use meta buffers for xattr operations
-         09c543798c3cde19aae575a0f76d5fc7c130ff18 erofs: use meta buffers for zmap operations
+         5a2a71122df899d2b6afd5fd8c5f634e0448a7d2 Merge branch 'misc-next' into for-next-next-v5.16-20220104
+         df5dc7679228100e46f95efa785bfeb9160b8147 Merge branch 'ext/filipe/log-speedups' into for-next-next-v5.16-20220104
+         2a578233463d148a115936ce1198ebbc40a1e837 Merge branch 'for-next-next-v5.16-20220104' into for-next-20220104
          
