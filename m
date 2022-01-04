@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 04 Jan 2022 16:02:05 -0000
-Message-Id: <164131212509.19446.2391196265688033702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 04 Jan 2022 16:06:04 -0000
+Message-Id: <164131236431.22037.3464462459808969041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-linus
-    old: 0497943728c7695c474d643ffdf82de0d4183630
-    new: 6210a7a0f2cd3345f809f028eea0105a1777c8a4
-    log: |
-         6210a7a0f2cd3345f809f028eea0105a1777c8a4 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
-         
   - ref: refs/heads/for-next
-    old: 12baee68b2df6847f9a26ee82f30aa5f52c6d0d2
-    new: ebe33e5a98dcf14a9630845f3f10c193584ac054
+    old: cc525d41393abbbf333409128ce49eef8222395b
+    new: 57f234248ff925d88caedf4019ec84e6ecb83909
     log: |
-         ebe33e5a98dcf14a9630845f3f10c193584ac054 spi: ar934x: fix transfer size
+         8cd07657177006b67cc1610e4466cc75ad781c05 ALSA: hda/cs8409: Increase delay during jack detection
+         57f234248ff925d88caedf4019ec84e6ecb83909 ALSA: hda/cs8409: Fix Jack detection after resume
+         
+  - ref: refs/heads/master
+    old: 607a1df245414b3bfdfb51f8e82cdb4e161db273
+    new: 422d96f183b91e5eb7dafa45e4bef1baa2fd4dd4
+    log: |
+         8cd07657177006b67cc1610e4466cc75ad781c05 ALSA: hda/cs8409: Increase delay during jack detection
+         57f234248ff925d88caedf4019ec84e6ecb83909 ALSA: hda/cs8409: Fix Jack detection after resume
+         422d96f183b91e5eb7dafa45e4bef1baa2fd4dd4 Merge branch 'for-next'
          
