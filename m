@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4300831039317976363=="
+Content-Type: multipart/mixed; boundary="===============3267719330644985409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Jan 2022 15:54:59 -0000
-Message-Id: <164131169945.13904.6539167007429314816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 04 Jan 2022 16:00:35 -0000
+Message-Id: <164131203596.18351.9507431429469214412@gitolite.kernel.org>
 
---===============4300831039317976363==
+--===============3267719330644985409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 0893f1fa8c10c31edd729a9e76b115af6c84cc45
-    new: a56b6b0988d1137676d4291f9f68e14cfd5b715f
+  - ref: refs/heads/for-5.17
+    old: a155b7526e6502c235540440f7eba78333d1ddc8
+    new: 9f3d45318dd9e739ed62e4218839a7a824d3cced
     log: |
-         a56b6b0988d1137676d4291f9f68e14cfd5b715f powerpc/cacheinfo: use default_groups in kobj_type
+         9f3d45318dd9e739ed62e4218839a7a824d3cced ASoC: fsl_mqs: fix MODULE_ALIAS
          
 
---===============4300831039317976363==
+--===============3267719330644985409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641311698 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1641311697-0055557323371f01356ffcbf7fd64d9bfafafffd
+pusher C3F436CA30F5D8EB 1641312034 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1641312034-67fbc0305bfbd090742e855595ed0fdc441c6ae8
 
-0893f1fa8c10c31edd729a9e76b115af6c84cc45 a56b6b0988d1137676d4291f9f68e14cfd5b715f refs/heads/kobject-const
+a155b7526e6502c235540440f7eba78333d1ddc8 9f3d45318dd9e739ed62e4218839a7a824d3cced refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHUbdIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ickQAKv7rbsdvploHNGkwvD6
-PvvfaksNlX7RdqwIsnJ2wPjRuUEv1AQD8hTUNyVHGkJkdDxS4XLxqrK+U6nk2Is2
-IzuJhR6Tm4Mxf7Lp0VnhuS7ASgUI7yCpXMBxJzZXoJpCF9HpA19M7ZJ7lHrWMaHF
-g7p7zOHKQYfEoOUXLpSC9nV13znWwfhj5dYa/bGYg0tj4mxiEQQBQo2zIkbIfdv9
-g2KEqAj6lJva+G9ZJ7nn7UMlpqifkK3GKbIb1FFHxtJz5hKBURrkSDJep2DR5Kib
-qTJthIY3jx/gwXVDRH2es3Y+eNvNBqjppPj2F2gXiF1NPCKkBiCU1uSx17whvdUe
-wtvZNxWDwXoUloCO4ZyMk27zjunqEhkU0rIFGlPMg18FTu9GYLCZAySaw/BBn2+A
-+8maZzy/96ZbgNSTnOacFSIrMqGXsNQ2eKhKtHLGOyPbmcfSkgEYQQFEoPMRFAsS
-12L/BXeEcgGur6oYqxoK78RBLROH0iSzQocfjrG2NJri5n6wUmc5svRypky5Gb0A
-YFV4ngJkMVqKVR7GJZgJjvAtsx8JZmTsAX6YdMlqB+pDG09iQZzAW8nlbOaTyfle
-387ImXdVIZeiewTVqPNf2fLFLjtZdKIF5DuT+fxsQwvm3rlKOTvbnbANEkUWnlz2
-ILssTaMc1NzCMuKu786RLfDG
-=cv6g
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHUbyIACgkQJNaLcl1U
+h9A4dwf/WGxs+dp0aUcoMnkn4Xc9utdAB2DGTV1XFgor8YodNwBGAVFKw18IvT8k
+92b5UIX/6makfDzFwHjd3/lNtV2wM9EnpeFzqK7YpeoSbjWlxKkP3rV4N6zqBIeO
+KPIDgOtUvEez7GqCGXSuWuDtZBzFL6EHClV6Ig80jSQ5YGAqIAF49Tu7U6aWtuOv
+OD9fDF66cy4hoAQZr5K24N5rD7FORf1HHvWZMLmApI9O5PonUk0cjrHhg1knufLs
+FLw444GnMvkC/kZyYjAx3jHZHFWxFDThswmbeaa2tHtZ1p/AspUvKlID7qnJc16J
+STgL+EE5h2Mg9qYAR7z6K+eqkycKAg==
+=2tTE
 -----END PGP SIGNATURE-----
 
---===============4300831039317976363==--
+--===============3267719330644985409==--
