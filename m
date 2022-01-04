@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6017785982779702865=="
+Content-Type: multipart/mixed; boundary="===============1531272958541709266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Jan 2022 16:33:37 -0000
-Message-Id: <164131401769.6722.10346447042732895811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 04 Jan 2022 16:34:09 -0000
+Message-Id: <164131404961.6937.17861293752622905740@gitolite.kernel.org>
 
---===============6017785982779702865==
+--===============1531272958541709266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/kobject-const
-    old: 586c64838277d7771793045afe0b5595078e194d
-    new: c9a886572cbd6ef6b10ee1b90ff1e856a8c4d9ce
-    log: |
-         c9a886572cbd6ef6b10ee1b90ff1e856a8c4d9ce dmaengine: ioatdma: use default_groups in kobj_type
-         
+  - ref: refs/heads/net-mlx5
+    old: 1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4
+    new: 7d18a07897d07495ee140dd319b0e9265c0f68ba
+    log: revlist-1ef5e1d0dca5-7d18a07897d0.txt
 
---===============6017785982779702865==
+--===============1531272958541709266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1ef5e1d0dca5-7d18a07897d0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641314016 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1641314015-20db56330187958b4f54349437d2917d53b09210
+938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
+e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
+95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
+065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
+e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
+fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
+e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
+222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
+d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
+3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
+7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
 
-586c64838277d7771793045afe0b5595078e194d c9a886572cbd6ef6b10ee1b90ff1e856a8c4d9ce refs/heads/kobject-const
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHUduAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AJcQAKntCO17IVd4gw4tSOFc
-c2vCTV+xiOHpXXQB6VsLqG1sND6lxho/Xc38O59W7AKb6lwkK9EQMVyqCHvWtJg9
-etYvYPkVwWcdFASK0vhTGGG5S3K30JTBqkIMeZ4UFHInx2qDMFuK+u+tJkRHhffE
-agoFNXPs91mlcNmJOzdEd0A75j1qvzY1+yrezQhukg0N0Ywgy2gmBidOvyOuBbjo
-Kafkca6/zcOiai9JRWZvubtbjmGPuaIE6prnN48Zf3n7S9uvbYKwa9dYug3DsqA5
-bTTRn98chco+4vmaTFdHLzdwfT/XqVj9ZvHFHRiXiNH8Er5IQREHRtrzs0AZwwxg
-BzwkDGIUZPx6+rIGIiM+msS16k4b6YUN0r8FefvmxgLSIFihx+dqNDNHG4kbmmuw
-k2XZUEdpuZBInHxRVOPHCUan9BJkRzmtPD4WFRdzIh9cCzeSLbLtewbM3UXIHXQb
-YgsQ3coehhq9Vrl1W5g0v6qcr6kfSiNv9Z9rTX20KE4J+dSRRntec1j/0M6389cW
-2FjxCU+GsI8Di/3Nia4FaDioJv1nxeXpdS2+utuV0SP3cutZwXeNpUijAzYa+zVB
-eQ9gllpAOD7xDljg1qa+Bc+nS5NCpdlEKSEqOPPaSMc0gTkZfT3I+jXvHVzw/xHu
-/T1b7UpPHKPXATLi5q8vGr9w
-=TPCB
------END PGP SIGNATURE-----
-
---===============6017785982779702865==--
+--===============1531272958541709266==--
