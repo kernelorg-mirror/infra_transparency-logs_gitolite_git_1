@@ -1,58 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8981261446873060776=="
+Content-Type: multipart/mixed; boundary="===============0201521198937578503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 04 Jan 2022 19:08:13 -0000
-Message-Id: <164132329350.6450.11630111354329434574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 04 Jan 2022 19:08:26 -0000
+Message-Id: <164132330691.6625.13109625136479643598@gitolite.kernel.org>
 
---===============8981261446873060776==
+--===============0201521198937578503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: c123f4e2253bf21ec43399fa9e386f16f854ed9f
-    new: 55b2897b95f7820aaf63993fd90752cbb595262a
-    log: revlist-c123f4e2253b-55b2897b95f7.txt
+  - ref: refs/heads/queue-next
+    old: a71b8ba14aac30dace648b5cc72fa0c76c9c36b3
+    new: c6d8aa9b49f9b40c3517459b541ac09b806346b4
+    log: revlist-a71b8ba14aac-c6d8aa9b49f9.txt
 
---===============8981261446873060776==
+--===============0201521198937578503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c123f4e2253b-55b2897b95f7.txt
+Content-Disposition: attachment; filename=revlist-a71b8ba14aac-c6d8aa9b49f9.txt
 
 c2262123cc49063a8ebc75525d0ab1d13a605608 batman-adv: Start new development cycle
 9057d6c23e7388ee9d037fccc9a7bc8557ce277b batman-adv: allow netlink usage in unprivileged containers
 cde3fac565a7df8805a4e0e28d84a0f90177099a batman-adv: remove unneeded variable in batadv_nc_init
 938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
-0237a3a683e4844ddc52782d83d439d6192e11f9 net/smc: Introduce net namespace support for linkgroup
-79d39fc503b43b566feae5bc9a57dfcffdf41bd1 net/smc: Add netlink net namespace support
-de2fea7b39bfa1ee9db8726f7b71d54fec385d80 net/smc: Print net namespace in log
-a838f5084828ac987af0903c523d6a2f7882705c net/smc: Add net namespace for tracepoints
-ab6dd952b2d044d04a9906a997d16f1e6e4db48d Merge branch 'smc-RDMA-net-namespace'
-d7cd421da9da2cc7b4d25b8537f66db5c8331c40 net/smc: Introduce TCP ULP support
-3a856c14c31bb8ba35534e9a2f2273c1b322f372 net/smc: remove redundant re-assignment of pointer link
-b63c5478e9cb1d1504eb02d9dac827ad24612b32 ipv6: ioam: Support for Queue depth data field
 ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
-e44ef1d4de577aca369199b16da382d6e5aafaa3 net: socket.c: style fix
-c5180ad0c2784924b3526ec2bd3ee9e0aa05724b enic: Use dma_set_mask_and_coherent()
-c95e078069bf9bfcb66272fac162c79be6c9170b tehuti: Use dma_set_mask_and_coherent() and simplify code
 c255a34e02efb1393d23ffb205ba1a11320aeffb net: ena: Fix undefined state when tx request id is out of bounds
 cb3d4f98f0b26eafa0b913ac3716e4714254a747 net: ena: Fix wrong rx request id by resetting device
 5055dc0348b8b7c168e3296044bccd724e1ae6cd net: ena: Fix error handling when calculating max IO queues number
 5b40d10b604280a5bdf355b9d47ed238c92233dd Merge branch 'ena-fixes'
 f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4 sctp: hold endpoint before calling cb in sctp_transport_lookup_process
-1f52a9380ff19b6fc00c1614488d5940773ba3ab net/smc: add comments for smc_link_{usable|sendable}
 29262e1f773b4b6a43711120be564c57fca07cfb rndis_host: support Hytera digital radios
-584c61cedb12f983e97a01762457b75dfdef626b sun/cassini: Use dma_set_mask_and_coherent() and simplify code
-1aae5cc0a55c097f16ccce1493415c63d60babc9 chelsio: cxgb: Use dma_set_mask_and_coherent() and simplify code
-4f9f531e1505a126b4d66d8a8a29e8e54fa4075c qed: Use dma_set_mask_and_coherent() and simplify code
-60c332029c8da6f4ef791807fcbfbd98e71a5fbd enic: Remove usage of the deprecated "pci-dma-compat.h" API
 1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4 net/fsl: Remove leftover definition in xgmac_mdio
 e7026f15564fbe0c8b091f218203111f77b84eda net: phy: lynx: refactor Lynx PCS module to use generic phylink_pcs
 61f0d0c304a2394b30c236aec684d570a3f40c19 net: dsa: felix: name change for clarity from pcs to mdio_device
@@ -111,5 +95,7 @@ caee72bad3f4e2ad597891016f9c71531efa332d Merge branch 'patchq/460147' into mlx5-
 d214bc433faa398749c19f5146848efd42cc05e4 Merge branch 'mlx5-queue' into net-next
 11def8e6524946ab62eefd3c6c6514692be2ba9a Merge branch 'mlx4-for-net' into net-next
 55b2897b95f7820aaf63993fd90752cbb595262a Merge branch 'mlx5-for-net' into net-next
+cafb3661ca4afa3de3fbccdb7b1b9b98dbde89b3 Merge branch 'net-next' into queue-next
+c6d8aa9b49f9b40c3517459b541ac09b806346b4 Merge branch 'testing/rdma-next' into queue-next
 
---===============8981261446873060776==--
+--===============0201521198937578503==--
