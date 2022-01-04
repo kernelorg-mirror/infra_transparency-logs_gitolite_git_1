@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Jan 2022 12:34:28 -0000
-Message-Id: <164129966892.15948.7038763529718673530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 04 Jan 2022 12:36:15 -0000
+Message-Id: <164129977528.17878.7877781130830284662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c3e6b2c35b34214c58c1e90d65dab5f5393608e7
-    new: 7d714ff14d6427d6d4898e47d439d9e530616aac
+    old: d2d9a6d0b4c2b4d2cd07378e190469f030c7d126
+    new: 3087a6f36ee028ec095c04a8531d7d33899b7fed
     log: |
-         7d714ff14d6427d6d4898e47d439d9e530616aac net: fixup build after bpf header changes
+         3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
          
