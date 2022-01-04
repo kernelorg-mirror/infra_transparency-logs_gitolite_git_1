@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 04 Jan 2022 12:36:15 -0000
-Message-Id: <164129977528.17878.7877781130830284662@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 12:37:09 -0000
+Message-Id: <164129982966.18193.7688870155618916841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d2d9a6d0b4c2b4d2cd07378e190469f030c7d126
-    new: 3087a6f36ee028ec095c04a8531d7d33899b7fed
+    old: 3087a6f36ee028ec095c04a8531d7d33899b7fed
+    new: 7d18a07897d07495ee140dd319b0e9265c0f68ba
     log: |
-         3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
+         7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
          
