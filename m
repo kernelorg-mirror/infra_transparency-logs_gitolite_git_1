@@ -1,72 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4366731696531359813=="
+Content-Type: multipart/mixed; boundary="===============7273762136018668761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211
-Date: Tue, 04 Jan 2022 17:17:49 -0000
-Message-Id: <164131666938.2046.15086788165913361709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/mac80211-next
+Date: Tue, 04 Jan 2022 17:18:13 -0000
+Message-Id: <164131669314.2243.5530668161367419305@gitolite.kernel.org>
 
---===============4366731696531359813==
+--===============7273762136018668761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/mac80211
+repo: pub/scm/linux/kernel/git/jberg/mac80211-next
 user: jberg
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/master
-    old: 8b5cb7e41d9d77ffca036b0239177de123394a55
-    new: 6f89ecf10af1396ddc34c303ae1168a11f3f04a3
-    log: revlist-8b5cb7e41d9d-6f89ecf10af1.txt
+    old: b3c1906ed02ad2b9f4db2f652cb7ea7b333963e5
+    new: 18343b80691560f41c3339119a2e9314d4672c77
+    log: |
+         18343b80691560f41c3339119a2e9314d4672c77 Merge tag 'mac80211-next-for-net-next-2022-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211-next
+         
 
---===============4366731696531359813==
+--===============7273762136018668761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1641316652 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211
-nonce 1641316652-979096b4a891612a54803fdd863c10c28a67133f
+pusher 7BF9099A 1641316677 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/mac80211-next
+nonce 1641316677-01fdab139a3eddd79c5fb866a51df28f1f1bbd35
 
-8b5cb7e41d9d77ffca036b0239177de123394a55 6f89ecf10af1396ddc34c303ae1168a11f3f04a3 refs/heads/master
+b3c1906ed02ad2b9f4db2f652cb7ea7b333963e5 18343b80691560f41c3339119a2e9314d4672c77 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmHUgSwACgkQB8qZga/f
-l8StKA/+KiCIz4/KGs35sbV+ZAY3yDDJVsFp8ccvDhOnGcXi5BTdcpkmfRmPEIJn
-Du16QsktLasCW8Ma2S4gzmKlAftLuIE8N4ngEFH7rbTbw93pPexRrkga06tsYFg5
-TlZffa+kq9Vv5lc8nTExH57qOQ8k6Gsd37nmwMnfw+YNFM2HOCgwodO0THHi8Ad8
-79lTMRW1Fjr8NRbcoEAUwumHu9MRGb1LCvzIMhMGDZ8Rx5wciKoTKQyEYUz6rTdn
-wDJ9kZSmeNz1xbqnCLN/Zjt6xtBERXXwKKaySgQE6lSXSUZo4ikNCIK7O7ouBwfz
-mV22KZhhfTaUdnjQIp/oBw3I7X735101uZyvXG+L5Oxwklu4MPbfO0f5+QwsH1OY
-LKn8BHaDeVQJU5VrM08LTJmbW+mq8dlZ78PKrF5PQwn9/s8iwVayU+LcpchA+hMc
-0wRgmB1Ksnoqr+Q7bikyrT+OIokz113WpZcxRHPENLG1MNDu2D6Dm1tfvf07WR2z
-V0SgkB3c9ODxOdKsidvQ2xq76+Ni9VCdNmbIIjtOpWyc9OG2Agt882Taa5G/kJNO
-9+VvTYVuCftN8OSqueN+kTCZCAXce2FfGRdgcsU++um84AQmguimMzVqCnoK3Rpg
-SCBZetsuCaM23X3jbQmf5iXscEXzVyfM6B7l30gGkwLCYVTeY8M=
-=SD1D
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmHUgUYACgkQB8qZga/f
+l8Sixg/+Mq9AmBumzbOsCIpe4gQlTKXQwF3sp5x+rWJjU2IG2EYkSnQ6nZHDrIql
+MWkGGsPqfFLaDEtC/JldIhLAKUDxd+tLGbRubC7OAl4aF5o+Gn/J30wNyeYYn0L+
+cdhFeJNWxMvRn6wuVr6HaKrnbzgVo94QZ/FhyTAJQcLPPFhf7C9LjEREQmGmpXUh
+cFJsyrogv6R3ZW8i8CD7vgk8SjmbB3nd3QPFaJyY1U1rwSDv5zsl1ihsSiXECG1K
+P9Ns/zbcILfC/LXKUdGw/w4SUj5mEAmAH6vJXFVJXYikq/zo//rXuZItG/rnsRHG
+FANeSjke4JUvpebB/88H14oxJnIlD/veM3YMVDn/e7DY2khBeqSuPJUfa3uH2Zs8
+voJ4GwpODpTm0foy/HkuG4Wnlb95tnKHmOAQS+iS4EOYadb5N8pXdNMhVTZGi2Qp
+iApcl8VgNaCWimzQMix16NK6cd3pit5Vi7RkpS8rrJQvuhfLIsyCbBAbO/HliYzw
+Qci09PvLACBYQI8ViEkTo2ynkkK4oSgdtplPJWeQRiIejIsELOLKarLHWu4cFOsY
+SYN0pgbo8QRklaPclhDcHOJJiljBiKYMBmETeHkPheBdcezXw0HuST5+RlhK7eOB
+zF/MmrLWplIJpynI1NcJj5KL/DX/+76Ujd57CwZ9x6Mc6Av4284=
+=h1pk
 -----END PGP SIGNATURE-----
 
---===============4366731696531359813==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b5cb7e41d9d-6f89ecf10af1.txt
-
-938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
-e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
-95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
-065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
-e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
-fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
-e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
-222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
-d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
-3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
-7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
-6f89ecf10af1396ddc34c303ae1168a11f3f04a3 Merge tag 'mac80211-for-net-2022-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-
---===============4366731696531359813==--
+--===============7273762136018668761==--
