@@ -1,60 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============3062199478350189724=="
+Content-Type: multipart/mixed; boundary="===============6902547981757257491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 04 Jan 2022 11:59:27 -0000
-Message-Id: <164129756706.26437.5285255045756646951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 04 Jan 2022 11:59:43 -0000
+Message-Id: <164129758396.26583.11480383919127097877@gitolite.kernel.org>
 
---===============3062199478350189724==
+--===============6902547981757257491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/usb-next
-    old: e0d07ba76bd1b074505e4b3b32fe45c3b5d087bd
-    new: 0f663729bb4afc92a9986b66131ebd5b8a9254d1
-    log: |
-         89f3594d0de58e8a57d92d497dea9fee3d4b9cda usb: gadget: don't release an existing dev->buf
-         501e38a5531efbd77d5c73c0ba838a889bfc1d74 usb: gadget: clear related members when goto fail
-         fa0ef93868a6062babe1144df2807a8b1d4924d2 usb: dwc3: dwc3-qcom: Add missing platform_device_put() in dwc3_qcom_acpi_register_core
-         1d7d4c07932e04355d6e6528d44a2f2c9e354346 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         0f663729bb4afc92a9986b66131ebd5b8a9254d1 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         
+  - ref: refs/heads/master
+    old: dd1cb19590c5bd116880a592c255d00b31bea42e
+    new: 65d3efef42b46ead728c295bfaf84b0b355501cc
+    log: revlist-dd1cb19590c5-65d3efef42b4.txt
 
---===============3062199478350189724==
+--===============6902547981757257491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dd1cb19590c5-65d3efef42b4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641297566 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641297566-225315cbe1f83e0cd2b79a407052b0ba6cd0d6e5
+b44eae2cd5bdf0aa9a4efa87845066f95ce889b6 lib/crypto: blake2s: include as built-in
+2ccb60ebd0bbc0e951a2634af2bcf2d0356651ea random: use BLAKE2s instead of SHA1 in extraction
+8175f443f52be87c18e5fa6d45ac565bf3d9131c random: do not sign extend bytes for rotation when mixing
+c0224c434f93e4ba06ed7def8bb665fa7c4a3cff random: fix crash on multiple early calls to add_bootloader_randomness()
+e12787aa86536e3a13408661e29f076a66a0f7a3 random: do not re-init if crng_reseed completes before primary init
+a9c40c84698fe4063438d7a32f997dc7d6a95e97 random: do not throw away excess input to crng_fast_load
+b1b253c7ca72f3c12d568d70667d5c52b2022670 random: mix bootloader randomness into pool
+3c88130c308f29c03a30e3df216b53bd63874332 random: harmonize "crng init done" messages
+95e07421b279b285ec42f56b7e62a8ef525e8ba6 random: use IS_ENABLED(CONFIG_NUMA) instead of ifdefs
+dcb99d679873e17688f7693f75928409b6ce0008 random: early initialization of ChaCha constants
+2c4cf378096a40a5b1fdbe581ebc1a02d3751631 random: avoid superfluous call to RDRAND in CRNG extraction
+65d3efef42b46ead728c295bfaf84b0b355501cc random: don't reset crng_init_cnt on urandom_read()
 
-e0d07ba76bd1b074505e4b3b32fe45c3b5d087bd 0f663729bb4afc92a9986b66131ebd5b8a9254d1 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHUNp4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rzQP/38Xk2B0Z01eCyrNhybZ
-zJ7IVMxgfWbhu0H9fO+lSJbNXrJQ2dpqnSJWKwhe7maw2Z1Y/OgpqCRRkAwdz6nX
-zu0kig570nul8JG1EQmexMbe7Law5yqdrK3xN3OHP4B9mYuZMG1i+S93I/F0c1iO
-n/gbIGlpocx6VpX5iErk9uKy+VPbnJ1Ps0FFPoJPCCxyqMWxczwc/tc/fyT2Bewa
-u/ECAUYBuqWfyTN58KONKDCklXdluf7zGFOixcHL/UkHr5WWSkHmThRPsw22Hb8Z
-W+MSIUG3LX+x65+PVxFJyvDOyMTjfAHsnN9qIIgkfLU+sF7ckao37LGtWzurLK4l
-x4nOqRsMHQ3ZoTmaLxeVSaqQtGCKNSzGRpx2lbHLsV1EOE0lrkxwo0ElxW+ef9iG
-3nyn0KSw7emP3p6Udkq1sgqmU+sP7Zr9/fVzwPWKu4n3HoUpPgqMc17nzYXBLV8H
-JSy0lH0ESIEYuKkUv6zc6lR6r3w2mEpgFM4GYWy3oFm3w4diDm8zjFhH/4XrEQNg
-g7/L0vjZnBAmhr1H8oxYvixfBNuZ2pYtkqRMO0V/1FXpP5Pp2tIgH2L5Cl5LqES3
-4H9WryVmmm93LJYSfoim9fthYZlFko9xpIW1Andn8Abc3Q8kU8M6aHBemOEhnGzk
-pgvd54kgXiszVTYA10mOAmbs
-=G3b4
------END PGP SIGNATURE-----
-
---===============3062199478350189724==--
+--===============6902547981757257491==--
