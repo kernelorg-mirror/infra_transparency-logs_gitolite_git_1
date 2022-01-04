@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8575860438339823162=="
+Content-Type: multipart/mixed; boundary="===============6620558618804105905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 04 Jan 2022 12:33:57 -0000
-Message-Id: <164129963756.15639.3758858556155512134@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 12:34:18 -0000
+Message-Id: <164129965808.15829.12906294354329117403@gitolite.kernel.org>
 
---===============8575860438339823162==
+--===============6620558618804105905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 5b24b64cc377aa5403930eb7a86ad5381cf8efc8
+  - ref: refs/heads/master
+    old: ea2c423391f448e628608997f9af17e4b93452bd
     new: 02b91921c423a2bd75bc211f964ef61dfdc54eaa
-    log: revlist-5b24b64cc377-02b91921c423.txt
+    log: revlist-ea2c423391f4-02b91921c423.txt
 
---===============8575860438339823162==
+--===============6620558618804105905==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5b24b64cc377-02b91921c423.txt
+Content-Disposition: attachment; filename=revlist-ea2c423391f4-02b91921c423.txt
 
 5505cad5ed948b057b20b6bf2300d3710031f538 headers/deps: Add header dependencies to .c files: <linux/string.h>
 37720240446e8bfaa30fb4e18c429248e53ad229 headers/deps: Add header dependencies to .c files: <linux/stringhash.h>
@@ -1051,4 +1051,4 @@ f62d371110ffec30c023c6207b45b2d162457849 headers/deps: x86/stacktrace: Move vari
 58b05d2ba0ad0709a203de26c4f9132dbae20be1 headers/deps: driver/core: Optimize <linux/device/driver.h> dependencies, remove <linux/module.h> inclusion
 02b91921c423a2bd75bc211f964ef61dfdc54eaa headers/deps: Introduce the CONFIG_FAST_HEADERS=y config option
 
---===============8575860438339823162==--
+--===============6620558618804105905==--
