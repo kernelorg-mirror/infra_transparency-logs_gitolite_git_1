@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2133465579386034745=="
+Content-Type: multipart/mixed; boundary="===============7258414810995491052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 04 Jan 2022 16:34:20 -0000
-Message-Id: <164131406016.7073.432576390798503266@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 16:34:24 -0000
+Message-Id: <164131406440.7146.298621343376669880@gitolite.kernel.org>
 
---===============2133465579386034745==
+--===============7258414810995491052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx4
-    old: 1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4
-    new: 7d18a07897d07495ee140dd319b0e9265c0f68ba
-    log: revlist-1ef5e1d0dca5-7d18a07897d0.txt
+  - ref: refs/heads/net-next-mlx4
+    old: 3d694552fd8fe502e7ffd22ffa0e085bfd73b19a
+    new: 416b27439df9ecb36b03da63dc37a8840b6f2efe
+    log: revlist-3d694552fd8f-416b27439df9.txt
 
---===============2133465579386034745==
+--===============7258414810995491052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ef5e1d0dca5-7d18a07897d0.txt
+Content-Disposition: attachment; filename=revlist-3d694552fd8f-416b27439df9.txt
 
-938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
-e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
-95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
-065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
-e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
-fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
-e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
-222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
-d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
-3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
-7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+c2262123cc49063a8ebc75525d0ab1d13a605608 batman-adv: Start new development cycle
+9057d6c23e7388ee9d037fccc9a7bc8557ce277b batman-adv: allow netlink usage in unprivileged containers
+cde3fac565a7df8805a4e0e28d84a0f90177099a batman-adv: remove unneeded variable in batadv_nc_init
+7590fc6f80ac2cbf23e6b42b668bbeded070850b net: mdio: Demote probed message to debug print
+9d2c27aad0ea2c84413d0971be7fa340ba4617bc Merge tag 'batadv-next-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
+9795ded7f924b6486e54976619b1b094fcc1969d net/sched: act_ct: Fill offloading tuple iifidx
+b702436a51dfdf1e2960fb8e228009e09eedb462 net: openvswitch: Fill act ct extension
+c9c079b4deaae3e9e29286829aff1c2b55169fc5 net/mlx5: CT: Set flow source hint from provided tuple device
+dfb55f9984f53eb2fd2b6df64196e6eb0edf0b65 Merge branch 'act_tc-offload-originating-device'
+7a71c8aa0a75c8bb53de50042ff86ba047969c69 phy: nxp-c45-tja11xx: add extts and perout support
+c3e6b2c35b34214c58c1e90d65dab5f5393608e7 net: lantiq_xrx200: add ingress SG DMA support
+7d714ff14d6427d6d4898e47d439d9e530616aac net: fixup build after bpf header changes
+1de6b15a434c0068253fea5d719f71143e7e3a79 Namespaceify min_pmtu sysctl
+1135fad204805518462c1f0caaca6bcd52ba78cf Namespaceify mtu_expires sysctl
+a0619a9e9e3f557a16dd9c60a76ddd4519e225e9 Merge branch 'namespacify-mtu-ipv4'
+416b27439df9ecb36b03da63dc37a8840b6f2efe ethernet/sfc: remove redundant rc variable
 
---===============2133465579386034745==--
+--===============7258414810995491052==--
