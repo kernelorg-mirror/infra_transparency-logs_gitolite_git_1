@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7258414810995491052=="
+Content-Type: multipart/mixed; boundary="===============4144761933883362086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 04 Jan 2022 16:34:24 -0000
-Message-Id: <164131406440.7146.298621343376669880@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 16:35:58 -0000
+Message-Id: <164131415822.9047.2402042894692629818@gitolite.kernel.org>
 
---===============7258414810995491052==
+--===============4144761933883362086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 3d694552fd8fe502e7ffd22ffa0e085bfd73b19a
     new: 416b27439df9ecb36b03da63dc37a8840b6f2efe
     log: revlist-3d694552fd8f-416b27439df9.txt
 
---===============7258414810995491052==
+--===============4144761933883362086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c3e6b2c35b34214c58c1e90d65dab5f5393608e7 net: lantiq_xrx200: add ingress SG DMA 
 a0619a9e9e3f557a16dd9c60a76ddd4519e225e9 Merge branch 'namespacify-mtu-ipv4'
 416b27439df9ecb36b03da63dc37a8840b6f2efe ethernet/sfc: remove redundant rc variable
 
---===============7258414810995491052==--
+--===============4144761933883362086==--
