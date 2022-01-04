@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Tue, 04 Jan 2022 15:26:01 -0000
-Message-Id: <164130996148.28383.11872759302198015699@gitolite.kernel.org>
+Date: Tue, 04 Jan 2022 15:29:52 -0000
+Message-Id: <164131019214.29610.10410476182364445650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lpieralisi/pci
 user: lpieralisi
 changes:
-  - ref: refs/heads/pci/vmd
-    old: 6aab5622296b990024ee67dd7efa7d143e7558d0
-    new: 04b12ef163d10e348db664900ae7f611b83c7a0e
+  - ref: refs/heads/pci/qcom
+    old: 3f13d611aa6be3a500d696b0699938dcb39a9887
+    new: 840a720aaa14dbc6c79782210d759fe9cf181838
     log: |
-         04b12ef163d10e348db664900ae7f611b83c7a0e PCI: vmd: Honor ACPI _OSC on PCIe features
+         840a720aaa14dbc6c79782210d759fe9cf181838 PCI: qcom-ep: Constify static dw_pcie_ep_ops
          
