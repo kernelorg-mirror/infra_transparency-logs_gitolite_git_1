@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6562059916715510175=="
+Content-Type: multipart/mixed; boundary="===============5571929482057587021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 04 Jan 2022 20:46:57 -0000
-Message-Id: <164132921752.2226.17723108122598339570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 04 Jan 2022 20:47:01 -0000
+Message-Id: <164132922190.2292.6781798250704211554@gitolite.kernel.org>
 
---===============6562059916715510175==
+--===============5571929482057587021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: d6d86830705f173fca6087a3e67ceaf68db80523
-    new: 8debb83d132e433be422a275498cebd611e9e755
-    log: revlist-d6d86830705f-8debb83d132e.txt
+  - ref: refs/heads/queue-rc
+    old: 99dc31bf73d5ff1170323cf5ec091bf125e71401
+    new: 4b35eb5d2bdb907acceabb857272f13f03a45f70
+    log: revlist-99dc31bf73d5-4b35eb5d2bdb.txt
 
---===============6562059916715510175==
+--===============5571929482057587021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6d86830705f-8debb83d132e.txt
+Content-Disposition: attachment; filename=revlist-99dc31bf73d5-4b35eb5d2bdb.txt
 
 938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
 ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
@@ -52,5 +52,7 @@ de2b46c27bfccc1735830d70499ee05d8ec73d82 net/mlx5e: Fix page DMA map/unmap attri
 cc9da3279967c6bf62a5c03ee456d145f0ddfee9 Merge branch 'patchq/451011' into mlx5-for-net
 05af77e1c7840526b5dc3d1de5bfcc8b9193c490 Merge branch 'patchq/460015' into mlx5-for-net
 8debb83d132e433be422a275498cebd611e9e755 Merge branch 'mlx5-for-net' into net-rc
+82d3d326df96c96bc21ffb3957195883a1ee9874 Merge branch 'net-rc' into queue-rc
+4b35eb5d2bdb907acceabb857272f13f03a45f70 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============6562059916715510175==--
+--===============5571929482057587021==--
