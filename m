@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Jan 2022 12:15:54 -0000
-Message-Id: <164129855401.4709.8523800436670310126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 04 Jan 2022 12:29:44 -0000
+Message-Id: <164129938407.12833.14940101025463247565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 9d2c27aad0ea2c84413d0971be7fa340ba4617bc
-    new: 7a71c8aa0a75c8bb53de50042ff86ba047969c69
+    old: e8fe9e8308b227002d68d6a32bbd141386727328
+    new: d2d9a6d0b4c2b4d2cd07378e190469f030c7d126
     log: |
-         9795ded7f924b6486e54976619b1b094fcc1969d net/sched: act_ct: Fill offloading tuple iifidx
-         b702436a51dfdf1e2960fb8e228009e09eedb462 net: openvswitch: Fill act ct extension
-         c9c079b4deaae3e9e29286829aff1c2b55169fc5 net/mlx5: CT: Set flow source hint from provided tuple device
-         dfb55f9984f53eb2fd2b6df64196e6eb0edf0b65 Merge branch 'act_tc-offload-originating-device'
-         7a71c8aa0a75c8bb53de50042ff86ba047969c69 phy: nxp-c45-tja11xx: add extts and perout support
+         fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
+         e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
+         222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
+         d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
          
