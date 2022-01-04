@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 04 Jan 2022 13:01:15 -0000
-Message-Id: <164130127519.1602.1265783562439000193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Tue, 04 Jan 2022 13:11:42 -0000
+Message-Id: <164130190249.7489.13284287400763141243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/for-next
-    old: c96465c7c581348a2f72aa102517fc4184ff2d08
-    new: 8cdf3792526ab681e1f4a0c202e779400b2b8177
+  - ref: refs/heads/misc-next
+    old: 049306dd5efc8cbe11501e7efebf56f615ef7360
+    new: 3aae7c6728257c7ce2279d6660ee2797e5e34bbd
     log: |
-         5ef3dd20555e8e878ac390a71e658db5fd02845c livepatch: Fix kobject refcount bug on klp_init_patch_early failure path
-         50a0f3f55e382b313e7cbebdf8ccf1593296e16f livepatch: Fix missing unlock on error in klp_enable_patch()
-         8cdf3792526ab681e1f4a0c202e779400b2b8177 Merge branch 'for-5.17/fixes' into for-next
+         a67495dc1ec5616c5ad09d6a0a761ae1d518ab06 btrfs: remove write and wait of struct walk_control
+         3aae7c6728257c7ce2279d6660ee2797e5e34bbd btrfs: fix log tree cleanup after a transaction abort
          
