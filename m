@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0946223536315088819=="
+Content-Type: multipart/mixed; boundary="===============1875074291808336617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 04 Jan 2022 16:00:41 -0000
-Message-Id: <164131204184.18477.15066431909370040129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 04 Jan 2022 16:00:47 -0000
+Message-Id: <164131204791.18575.6309077117126884871@gitolite.kernel.org>
 
---===============0946223536315088819==
+--===============1875074291808336617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
-    old: a155b7526e6502c235540440f7eba78333d1ddc8
-    new: 9f3d45318dd9e739ed62e4218839a7a824d3cced
+  - ref: refs/heads/for-5.17
+    old: d27bb69dc83f00f86a830298c967052cded6e784
+    new: 1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a
     log: |
-         9f3d45318dd9e739ed62e4218839a7a824d3cced ASoC: fsl_mqs: fix MODULE_ALIAS
+         1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a regulator: remove redundant ret variable
          
 
---===============0946223536315088819==
+--===============1875074291808336617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1641312040 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641312040-e9b78f95eea41c30f53df3391e503ec1238bc17c
+pusher C3F436CA30F5D8EB 1641312046 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1641312046-f47dac97a59ea61c3e5223be47ace49fa1ff8b8d
 
-a155b7526e6502c235540440f7eba78333d1ddc8 9f3d45318dd9e739ed62e4218839a7a824d3cced refs/heads/asoc-5.17
+d27bb69dc83f00f86a830298c967052cded6e784 1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHUbygACgkQJNaLcl1U
-h9Ca6Qf+OPoz7Phu9XtJ2WYFdV4UaPTDx0N5lyvRW4keLeP7VdKxEIS6bqdbI1i4
-wEQCHnTTZzVo9tPuQJ1dtbh2yziRyCv1pn4De6kutmgVtmIJum3L+Z1ya119bqZS
-n+FMAGCkyN4aACLvaVMVCkdb5NqeGaWP16ygXvLhY5RVRm22rk6oTW+GzyoDWW3F
-6M3aOYoKl5tvqZi041r0Rz5yQmK++72cayNDyJk0bZb9W1rENnvYVf7oB1QkvX3g
-csW1SZc+V4mckLe9vOnBs3K9SksBTTozTmzD7dC9PTKGZJa6w2I+yebcNdM+3va4
-bStGKZrtfs8P62H4RSMR+4CLlek3Mg==
-=ORs0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHUby4ACgkQJNaLcl1U
+h9DlEAf/W+KCsXeLlwaOar7I3J1AtwRAfLhzTnw6H5dnWT2pzl8Ty/I4eToCTdMV
+KaQ8rHz1sUklb85CVwTVQwGmqOCDRb7OiT9u1iUED8ZjyLshyrKUeA5MqEvonN8i
+QuZCMXsPgaoPm0Fjcm95/p1qnuDJEfmNvGq0E3D7jtpE+/CeoAdiiwBlUg/gWcGQ
+t72urVEuhRxjjaWwoz5fy38Vln43oji/qIgu33Qgy+6X6bBw00zKi6XydkmR9Sfk
+j2U79kpKLeCbUy43UYif5Xd8Uq/aQPQiNmNlF4ktU2bcb93uwL+xFuorr07dradt
+Mt0Stt7y5YKNQAKn00PTepw/gvSsWg==
+=4mag
 -----END PGP SIGNATURE-----
 
---===============0946223536315088819==--
+--===============1875074291808336617==--
