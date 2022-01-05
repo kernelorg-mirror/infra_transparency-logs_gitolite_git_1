@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0174637198711641563=="
+Content-Type: multipart/mixed; boundary="===============3539463595616581736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 05 Jan 2022 15:21:38 -0000
-Message-Id: <164139609870.9465.11271281630991165022@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 15:22:07 -0000
+Message-Id: <164139612760.10727.7804356487769511138@gitolite.kernel.org>
 
---===============0174637198711641563==
+--===============3539463595616581736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 6184f15d877c6fec0af43ef3e10c10183758263d
-    new: 66b13ce8fe25341a8c4c8ceb00d611461ad86dcc
+    old: 66b13ce8fe25341a8c4c8ceb00d611461ad86dcc
+    new: 01ec4a2e8f01f027a0f06cad237c935da8d643bf
     log: |
-         66b13ce8fe25341a8c4c8ceb00d611461ad86dcc USB: common: debug: add needed kernel.h include
+         01ec4a2e8f01f027a0f06cad237c935da8d643bf headers/deps: USB: Optimize <linux/usb/ch9.h> dependencies, remove <linux/device.h>
          
 
---===============0174637198711641563==
+--===============3539463595616581736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641396097 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641396126 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641396097-66fda78805a67ac9597716d72eb2b628317ae399
+nonce 1641396125-ae8877cc355ffb17bf702b5323b1cd1b94d868d0
 
-6184f15d877c6fec0af43ef3e10c10183758263d 66b13ce8fe25341a8c4c8ceb00d611461ad86dcc refs/heads/usb-testing
+66b13ce8fe25341a8c4c8ceb00d611461ad86dcc 01ec4a2e8f01f027a0f06cad237c935da8d643bf refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHVt4EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6oIP/j/deSyD5uOFz13Kax7U
-y/dcoVlXfZNpYRGEjEmnZ52D6T9jWYT6eZ2E/8VL5pHwdYVgryEH67/UnEYnDigl
-JGxXDAbvvd5Vr/oWTaWBuelB7Xl89ax7aCYkw5tI3CZq/673yQREtop+Uw8QdOUD
-1h5yah969KJQ8hAXal2AH6LMmRfYMy9njTAI8jokDahNY2v0vnkJoRD1aiLqwBXs
-QhwXyEZG40UKjWHx6nkojQPOfFFjjz1/0RkcrFCosg0i8uFrm26kuYOz7NRFk2cQ
-ZtSLzS2i/sAbw0X+z0GjEB9iEKQYGUPTFXr0keXZm8SRxv4p+19OQIicdsCY01Fj
-qMwVdRchzZGuifot7aGKAEaDnQFxxOTrX2ufJtUUT2g97csuDy1Ic2ZpBCJqenRW
-GMAzaklONsZdUqNqsCnn8V+DklRURI0s/XrGJ2/VdsXuEBlY1GuwrNuto2FWIMx8
-wGLiqCqFWrB0+CgxLsw2VjaYl5T0jBRvL0jv/YSYyXtblJy95uWIJL8BJvYyY/er
-NPk63W1P8A+McD98KEhC/bSiDPFX/rCZ//k5TvVKP9vrhKYIkHRimudhUmxWTFyG
-tE9jR41ubDONOs5su37fyzn+UFJMIjS6vE59ACyyf3a4nufhTm6blWV+ZkBF5HjZ
-21qnZNmaRCSfniW9OvPP4/Ti
-=2bSu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHVt54bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gjMP/0IlRp729V4G1wdM0hMJ
+jfRYO6oOy8Pvx/vgonHjrTckSKU/9g8oWI4I6/XtaQOMTg7AQnEe3CfSDVrUvMHa
+nRUchG2od5yENXCpKuVrmqrDAhrItjx3ds60FuJrm7pOK6uFdVwiOS3ZiXqF/lTa
+KJFfQMjJT8yvsGH8Pa/jlA23BmYNj+YD6sdP2AbrnxOfo85gmEL56nXNAoz7sGkK
+yL71B0pQ6vTJllOzUQ0dHKJQfo+cotNxrQUWCrN5osTApcqsNREGZ0j2GY28bkAj
+OecwvPUdl667n45cYPTi/tMyxEso+FnVRjOOFerXjA4NsdpJJOVWLYLr9LNnLXjl
+WWrguwEeIrfgxziYsBTS5sawN6O5FVhzHCW+oADKOyApyQth9yuTVEhcj+rLkg2a
+Es22UafmHcC2KOzALamzO/ChZDwJ+FH2yIfAzepmkLgl5WO8gILVj37MiHenBQFf
+S/2Ix8CTFXaFuvpycOsMdPMTn59+dUhDMYCJookQKUHHA5bMxDx9vikcmiZhI1sK
+pmClQdjcv2bjeWWccPDySZ5SV8YINprASHbnc4BDZOmFUTcgbjZLuGtRIms9AGRJ
+QwsJTt8vD3OBNk/7C4hATBfwuYmtq9Ylqu6aTiIeaK3FbmFStTtXy4vZujA6Dszp
++GK+drYVKwCNTRFQlhKh6Wa2
+=76D3
 -----END PGP SIGNATURE-----
 
---===============0174637198711641563==--
+--===============3539463595616581736==--
