@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Wed, 05 Jan 2022 08:42:14 -0000
-Message-Id: <164137213411.28424.4899726618676961974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Wed, 05 Jan 2022 08:54:31 -0000
+Message-Id: <164137287168.3751.8662599801168799795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/next
-    old: d699bab721eb59d60b0483ff0d8e2d8d37e7ea68
-    new: b90abbb87984e600dad3558ce7b00d92e8ca0074
+  - ref: refs/heads/mips-next
+    old: 79876cc1d7b801b28511440e5aec1b31d8df7a73
+    new: 6bcfdc49f38e274e3016c45284bfb286aa5a35d6
     log: |
-         a081c2a5216ab597127571efae178e787a0ae14a rings: add support to set/get rx buf len
-         51a9312cc2504e16b87945246436fe2ee60fa899 tunables: add support to get/set tx copybreak buf size
-         b90abbb87984e600dad3558ce7b00d92e8ca0074 man: document recently added parameters
+         a029ccc810b65172e02336d9caa0fe2331dc58b7 MIPS: Loongson64: Add missing of_node_put() in ls2k_reset_init()
+         6bcfdc49f38e274e3016c45284bfb286aa5a35d6 mips/pci: remove redundant ret variable
          
