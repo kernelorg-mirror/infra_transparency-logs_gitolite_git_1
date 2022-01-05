@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4100543434488524024=="
+Content-Type: multipart/mixed; boundary="===============1542362113248271383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 05 Jan 2022 06:04:57 -0000
-Message-Id: <164136269717.28582.6491843838693789899@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 06:05:06 -0000
+Message-Id: <164136270661.30020.17604112530106892045@gitolite.kernel.org>
 
---===============4100543434488524024==
+--===============1542362113248271383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0769e9879a196fe66f0c6ab6668ced033196d536
-    new: 077d1f5e7f68bba73bc6668ccc1aacb3dc0a9aa5
-    log: revlist-0769e9879a19-077d1f5e7f68.txt
+  - ref: refs/heads/5.17/scsi-queue
+    old: 4be6181fea1dbfd21a8d73f69d87a6cae2d3023d
+    new: c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37
+    log: revlist-4be6181fea1d-c77b1f8a8fae.txt
 
---===============4100543434488524024==
+--===============1542362113248271383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1641362685 -0500
+pusher 75C5DE3D 1641362700 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1641362685-75396713212d77b12dbe5829680fd447ddc2963e
+nonce 1641362699-2e10e3cf0fe667837dca1b4d5995b36cf59cec85
 
-0769e9879a196fe66f0c6ab6668ced033196d536 077d1f5e7f68bba73bc6668ccc1aacb3dc0a9aa5 refs/tags/mkp-scsi-queue
+4be6181fea1dbfd21a8d73f69d87a6cae2d3023d c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 refs/heads/5.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHVNP0ACgkQ7ulgGnXF
-3j3iGA/+K/K28fO7UHPa/fAFbaySZgOpuAHprICHhYLm4PEVFCeN83Uagdf4bp8j
-r+gkGHW54tqxf++h8tPT19/OpTcgz2ACne3DuFz7XNjQts4HYMyCqbiw3htypCPA
-WMzkrsvfSJ0s7ubf/+SmVIgSU4e5ZTncsJDsbgahJj2/WDYD7Z8C2hIisooE/Vix
-GGtTh6py4HaHp+3gKIkTOPpjJpoQvlBuu0j1ecJDaj/Klguzgt4uNIVcN0jRvtww
-SeSdBwHJOm+h/0ggDkJUyJI+kRV5NoOvR11Mz+yVLQF6MStHjVvt5GVRuQoDZjPK
-Tpb45dGOdZVRsWc18wIcP5zS2H7QF4dCun4mkRY5Iynsw+1N6VuH1RxksXoRqAg8
-Ot0CE54JrjdQ1brYDZqPZ9qITretAf9AC5yl9wn6L4eQZgpH91gf6YbE7FEj0w+U
-6h0GFuoEZ2afJ2sR4bj/dJzUV5lRCE5LiciGTUHwJivZzqJrBZqKYNsKSJzL9Zau
-0oj1XlPRWtJhjayFhlrchebeO5hmOBXFEG3V60Gl02foIwCoSmG12Go268QhTrWu
-SikRk2ACAUl9YiWLFTqD37u3GbFb9IIcxSZnAj1W04eJEGXSdgt2GP1GfF+MCI83
-ePchsZU0PYXZ4Ejt74F8LEL4sulXkMVOTNJHbc64CI2MPk6n8+Q=
-=iXTW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHVNQwACgkQ7ulgGnXF
+3j2SGQ//RiZgbCe+LfnoMT+lVQc9urNU6FvRtb8BYVusanip3IxQqfQ/rTKNC9fu
+DrEVm9pvEGHBdHUS/iFM7NGRfn+U9weowsHEEwBa9Wc7CUxIrjc41XTUigseSBoA
+u8iBG9s5yclWadDVEKimYNVO4117c+rN7rJY4IP/2ue+wo5XsnWye8W2K56ep0s1
+s4UKgYOCSt6gUukE0BHx/SbNjh3Orr+GHBBQFjRg52yzFbkyYC34VEiVhAP0/mv7
+XhlXB++lGsVnktQInvNnWRGfTc1/ny/YReC+cTwoLCTSG7leL+vJqR0KupAmENA5
+rSJ6SEeW8xmm+STCSrfUM9/Tq/z3ucknSQsK/8RMv65r7PHlsecnEeVoaOlJN0DJ
++iH93gMXV/tuJpJvxva4LZY782oydk5hBELeCK/kRw0Lk6VDrKpRxJp6MAXup/Hc
+c8O7TIu5E3dmHyRUDAzA5oanxfMSlaixRXcHBq+vT+oNbtXqKCeuFSbkvtbKgstc
+4JnV5ZfTB4Xoi3WSeecBLu+9eyJXd/icdhUmIb3A6ZuVM1DzvlfHlfogyYZGt8eR
+akmvx/d/8auTHKL1L/pWWfKGiU5Iykhr3vH9dKCZOahvxDunDAUbhM8GHOQi5DJ9
+AdOrqSCQ1BqDIfi8D67LwElUGrp2Ne4ESEQjegM1h2qA9x1cQS4=
+=OgdU
 -----END PGP SIGNATURE-----
 
---===============4100543434488524024==
+--===============1542362113248271383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0769e9879a19-077d1f5e7f68.txt
+Content-Disposition: attachment; filename=revlist-4be6181fea1d-c77b1f8a8fae.txt
 
 fbefe22811c3140a686e407e114789ebf328a9a2 scsi: libsas: Don't always drain event workqueue for HA resume
 6cc739087784160eff296c7fbd7a95b209f44ba5 scsi: Revert "scsi: hisi_sas: Filter out new PHY up events during suspend"
@@ -104,4 +104,4 @@ a91603a5d504a81b5760aa4e25a46676a41395fc scsi: mpi3mr: Enhanced Task Management 
 243bcc8efdb1f44b1a1d415e6821a246714c68ce scsi: mpi3mr: Fixes around reply request queues
 c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 scsi: mpi3mr: Bump driver version to 8.0.0.61.0
 
---===============4100543434488524024==--
+--===============1542362113248271383==--
