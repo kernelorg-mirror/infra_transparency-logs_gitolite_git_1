@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 05 Jan 2022 19:50:09 -0000
-Message-Id: <164141220958.18675.12178804194980798292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 05 Jan 2022 19:50:44 -0000
+Message-Id: <164141224469.18976.5550828373098416737@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: a7ad9ddeb528b91de03cedeef34532dc0ba77bfd
-    new: 36783dec8d7932099d920dd44bc4c457b8272938
+  - ref: refs/heads/master
+    old: 994c18c44ed268bca57779396aae630ee2a1a45f
+    new: 26b9ee78d14b0c7508995823f6e8b1469e773eeb
     log: |
-         01097139e772ac0082175c01eefb989f78e4437a RDMA: Use default_groups in kobj_type
-         d8b0afd29c1d6d61890f259360388bde57f5dc90 RDMA/rxe: Fix indentations and operators sytle
-         d82e2b27ad3a4fdd745332e0c310ae05660a1bf1 RDMA/mad: Delete duplicated init_query_mad functions
-         36783dec8d7932099d920dd44bc4c457b8272938 RDMA/rxe: Delete deprecated module parameters interface
+         909a1cddb5f30cabbd91add7f6c6b7ab1874eb26 json: add support for primitive types
+         26b9ee78d14b0c7508995823f6e8b1469e773eeb dpp: Fix compilation on 32 bit
          
