@@ -1,52 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============1881651889426111729=="
+Content-Type: multipart/mixed; boundary="===============4100543434488524024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 05 Jan 2022 05:18:29 -0000
-Message-Id: <164135990951.32197.14287883780144045931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 05 Jan 2022 06:04:57 -0000
+Message-Id: <164136269717.28582.6491843838693789899@gitolite.kernel.org>
 
---===============1881651889426111729==
+--===============4100543434488524024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17-logging
-    old: c3f005c4e6aa25f03e61a5e8e4d456c9f43c7c95
-    new: 2df2a9c4d680f325a7898cfde0b1fd767847403a
-    log: revlist-c3f005c4e6aa-2df2a9c4d680.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 0769e9879a196fe66f0c6ab6668ced033196d536
+    new: 077d1f5e7f68bba73bc6668ccc1aacb3dc0a9aa5
+    log: revlist-0769e9879a19-077d1f5e7f68.txt
 
---===============1881651889426111729==
+--===============4100543434488524024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f005c4e6aa-2df2a9c4d680.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3c3c19e6eed155343d94e5cb5011d5cc651bb49d ata: sata_fsl: add compile test support
-60124f5b016901ae815f2f9003a48bad25a90ed0 ata: ahci_brcm: add compile test support
-da30a284826cbf89c930dd80310332c3340aefc8 ata: ahci_da850: add compile test support
-a2606cfe9fe9a76c745222992a210a05c845700b ata: ahci_dm816: add compile test support
-c8febfaf1318729a12224eb231731b0d7e0ae961 ata: ahci_st: add compile test support
-e446ff04b0f965bc9606217000e9973998b13ea1 ata: ahci_mtk: add compile test support
-ce59e0ae1bf3ce01ff22691adfbe81ba3ebd70eb ata: ahci_mvebu: add compile test support
-1c1362f4a1889a5667c237d36009d97e41668764 ata: ahci_sunxi: add compile test support
-cc83e33c7b8dae9291a3d961be6c3bbb6f0888ae ata: ahci_tegra: add compile test support
-a9afe15d3afc681890e2e72831998443d59689fc ata: ahci_xgene: add compile test support
-e6d737ba0a451255c2665e0c64de8a87dc51a780 ata: ahci_seattle: add compile test support
-91acdfe3f38b0c5c4b8d29abb6273d0afb039640 ata: pata_bk3710: add compile test support
-13dacdb0c1d12504197e7c3fc511a727ad571d27 ata: pata_cs5535: add compile test support
-039be269e5e01711e63ca8d27048a0ab7eeeca44 ata: pata_ftide010: add compile test support
-0abbe9373cea7f7b62c77c9e7d98166bc5eaf1f0 ata: pata_imx: add compile test support
-41561de33509b77c69600577a9cd44001c7c4346 ata: pata_pxa: add compile test support
-38473c474f5a06f658de66c5f1efc0505ef8a389 ata: pata_legacy: add compile test support
-791f099996786b5ff116ebf5806e8a1b6c7cf885 ata: pata_samsung_cf: add compile test support
-3c140fa3c3f04a64aa163e2a8c9ee2c8ac4e34fa ata: sata_fsl: fix scsi host initialization
-6ca7f2f2faf2031b7933aedebd4e0663edc82593 ata: sata_fsl: fix cmdhdr_tbl_entry and prde struct definitions
-4d1cdc78b3510332493fefc8fcd29cee2db2142d ata: ahci_xgene: use correct type for port mmio address
-2df2a9c4d680f325a7898cfde0b1fd767847403a ata: fix read_id() ata port operation interface
+certificate version 0.1
+pusher 75C5DE3D 1641362685 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1641362685-75396713212d77b12dbe5829680fd447ddc2963e
 
---===============1881651889426111729==--
+0769e9879a196fe66f0c6ab6668ced033196d536 077d1f5e7f68bba73bc6668ccc1aacb3dc0a9aa5 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHVNP0ACgkQ7ulgGnXF
+3j3iGA/+K/K28fO7UHPa/fAFbaySZgOpuAHprICHhYLm4PEVFCeN83Uagdf4bp8j
+r+gkGHW54tqxf++h8tPT19/OpTcgz2ACne3DuFz7XNjQts4HYMyCqbiw3htypCPA
+WMzkrsvfSJ0s7ubf/+SmVIgSU4e5ZTncsJDsbgahJj2/WDYD7Z8C2hIisooE/Vix
+GGtTh6py4HaHp+3gKIkTOPpjJpoQvlBuu0j1ecJDaj/Klguzgt4uNIVcN0jRvtww
+SeSdBwHJOm+h/0ggDkJUyJI+kRV5NoOvR11Mz+yVLQF6MStHjVvt5GVRuQoDZjPK
+Tpb45dGOdZVRsWc18wIcP5zS2H7QF4dCun4mkRY5Iynsw+1N6VuH1RxksXoRqAg8
+Ot0CE54JrjdQ1brYDZqPZ9qITretAf9AC5yl9wn6L4eQZgpH91gf6YbE7FEj0w+U
+6h0GFuoEZ2afJ2sR4bj/dJzUV5lRCE5LiciGTUHwJivZzqJrBZqKYNsKSJzL9Zau
+0oj1XlPRWtJhjayFhlrchebeO5hmOBXFEG3V60Gl02foIwCoSmG12Go268QhTrWu
+SikRk2ACAUl9YiWLFTqD37u3GbFb9IIcxSZnAj1W04eJEGXSdgt2GP1GfF+MCI83
+ePchsZU0PYXZ4Ejt74F8LEL4sulXkMVOTNJHbc64CI2MPk6n8+Q=
+=iXTW
+-----END PGP SIGNATURE-----
+
+--===============4100543434488524024==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0769e9879a19-077d1f5e7f68.txt
+
+fbefe22811c3140a686e407e114789ebf328a9a2 scsi: libsas: Don't always drain event workqueue for HA resume
+6cc739087784160eff296c7fbd7a95b209f44ba5 scsi: Revert "scsi: hisi_sas: Filter out new PHY up events during suspend"
+6e1fcab00a23f7fe9f4fe9704905a790efa1eeab scsi: block: pm: Always set request queue runtime active in blk_post_runtime_resume()
+42159d3c8d879e8d5fc225733f0cedc8baf19002 scsi: libsas: Add spin_lock/unlock() to protect asd_sas_port->phy_list
+29e2bac87421c613782ccb510c76c5efbecac0cf scsi: hisi_sas: Fix some issues related to asd_sas_port->phy_list
+133b688b2d03f7ae2a6c9d344f92c1949ec05a51 scsi: mvsas: Add spin_lock/unlock() to protect asd_sas_port->phy_list
+e31e18128eb9dbcda8c169cb33421ae4813afa71 scsi: libsas: Insert PORTE_BROADCAST_RCVD event for resuming host
+97f4100939844a6381ba61b99d6d2b1f2fccb79f scsi: hisi_sas: Add more logs for runtime suspend/resume
+0da7ca4c4fd95d70d473dc07488ad94ba3ee9b82 scsi: libsas: Resume host while sending SMP I/Os
+4ea775abbb5c50c26edbf043d5a2ae7fde407f4a scsi: libsas: Add flag SAS_HA_RESUMING
+1bc35475c6bf6d078b3800e516978f37c1ecda36 scsi: libsas: Refactor sas_queue_deferred_work()
+bf19aea4607cb5f4a652ab70d8d8035a72a6b8da scsi: libsas: Defer works of new phys during suspend
+ae9b69e85eb7ecb32ddce7c04a10a3c69ad60e52 scsi: hisi_sas: Keep controller active between ISR of phyup and the event being processed
+307d9f49cce966c2ba969f58bd6227bc0092afaa scsi: libsas: Keep host active while processing events
+b4cc09492263e07bad4fc4bf34fed3246fa95057 scsi: hisi_sas: Use autosuspend for the host controller
+bc7806b39589f4960d7f583c2381edf2300be48c scsi: ch: Don't use GFP_DMA
+d94d94969a4ba07a43d62429c60372320519c391 scsi: sr: Don't use GFP_DMA
+c981e9e0f823a8300569c04e59f78c5faa52ada5 scsi: initio: Don't use GFP_DMA in initio_probe_one()
+27363ba89f3472c39737e0bc34f75c5728e1cffb scsi: myrb: Don't use GFP_DMA in myrb_pdev_slave_alloc()
+0298b7daf8091f895d20a1b512cba6ab4af5aca9 scsi: myrs: Don't use GFP_DMA
+1964777e107a7125fb0753a27cdede213d05248c scsi: snic: Don't use GFP_DMA in snic_queue_report_tgt_req()
+657b44d651eb284443d62895d9d47897729ef35a scsi: pmcraid: Don't use GFP_DMA in pmcraid_alloc_sglist()
+9cf0666f34b1991d73db8b19dc53387724aaefae scsi: mpi3mr: Add debug APIs based on logging_level bits
+a83ec831b24a8142e0871544b19ee5671607588e scsi: mpi3mr: Replace spin_lock() with spin_lock_irqsave()
+fbaa9aa48bb43a021847195704c10908ded3c2ba scsi: mpi3mr: Don't reset IOC if cmnds flush with reset status
+d00ff7c31195e2f5098b2c034f547a83c30b8adb scsi: mpi3mr: Update MPI3 headers - part1
+ec5ebd2c14a9123c0a8e2ae29202adf0ac242565 scsi: mpi3mr: Update MPI3 headers - part2
+17d6b9cf89cfdb5a52298bb4abe7f1621f92ba93 scsi: mpi3mr: Add support for PCIe Managed Switch SES device
+ba68779a518d9ebe734c1fca9f5e199826723b5b scsi: mpi3mr: Do access status validation before adding devices
+4f08b9637f639fed9c36fde4e238274c47ca5f53 scsi: mpi3mr: Increase internal cmnds timeout to 60s
+13fd7b1555b6c1121c0f823bbfa3ee36e178df44 scsi: mpi3mr: Handle unaligned PLL in unmap cmnds
+2ac794baaec97c70faf17b56fba4adefd6b7ba3a scsi: mpi3mr: Display IOC firmware package version
+a6856cc4507be044497fcde48aa3d33e900cbc45 scsi: mpi3mr: Fault IOC when internal command gets timeout
+e3605f65ef69f399aaade423f19f6db6eb3c11cb scsi: mpi3mr: Code refactor of IOC init - part1
+59bd9cfe3fa07234e34cc2406e97481b3398c2d6 scsi: mpi3mr: Code refactor of IOC init - part2
+fe6db615156573d3f6a37564b8a590cb03bbaf25 scsi: mpi3mr: Handle offline FW activation in graceful manner
+c0b00a931e5e5fc143ed5563389ef72e40de9814 scsi: mpi3mr: Add IOC reinit function
+b64845a7d4039ab9667bafff9d7bb59365f17c0f scsi: mpi3mr: Detect async reset that occurred in firmware
+c5758fc72b9256aae85f5565f5715a3798d337e0 scsi: mpi3mr: Gracefully handle online FW update operation
+c1af985d27da2d530c22604644e9025810f57d7c scsi: mpi3mr: Add Event acknowledgment logic
+78b76a0768ef8a25ab92a28da4ac9a74db762c47 scsi: mpi3mr: Support Prepare for Reset event
+95cca8d5542a4cde0d3dd685f4108295ca28b63d scsi: mpi3mr: Print cable mngnt and temp threshold events
+afd3a5793fe2a217513bc5eb2228a5ca8e8b556a scsi: mpi3mr: Add io_uring interface support in I/O-polled mode
+c86651345ca55be6670faffa4aba104616461243 scsi: mpi3mr: Use TM response codes from MPI3 headers
+a91603a5d504a81b5760aa4e25a46676a41395fc scsi: mpi3mr: Enhanced Task Management Support Reply handling
+243bcc8efdb1f44b1a1d415e6821a246714c68ce scsi: mpi3mr: Fixes around reply request queues
+c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 scsi: mpi3mr: Bump driver version to 8.0.0.61.0
+
+--===============4100543434488524024==--
