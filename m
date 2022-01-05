@@ -1,32 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 05 Jan 2022 16:11:54 -0000
-Message-Id: <164139911434.9063.16308269173593785128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 05 Jan 2022 16:12:47 -0000
+Message-Id: <164139916767.9430.12624132178209780465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-linus
-    old: c9d633f3257e099f1e2b9b687942de18e2f8c207
-    new: 8f91aed3a2ba7d48c19131135f102e9fe2c61d43
-    log: |
-         8f91aed3a2ba7d48c19131135f102e9fe2c61d43 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
-         
   - ref: refs/heads/for-next
-    old: 9f3d45318dd9e739ed62e4218839a7a824d3cced
-    new: 570010b82e8a04206eb228da23e4ef0264df7d25
+    old: 8f4c90427a8f0ca0fcdd89d8966fcdab35fb2d4c
+    new: ae7abe36e352eddf8e30d3b1ea3fb402514ba13b
     log: |
-         dcf821319474edde7e85b95608a4539703a2b67d ASoC: cs35l41: Add cs35l51/53 IDs
-         4e7c3cd87db8d9350062a25a8476f90fd1cbc4c9 ASoC: cs35l41: Remove incorrect comment
-         56852cf4b2179fb90068a49538501f31c2de18ea ASoC: cs35l41: Correct DSP power down
-         5f2f539901b0d9bda722637521a11b7f7cf753f1 ASoC: cs35l41: Correct handling of some registers in the cache
-         7aa1cc1091e0a424e9e7711ca381ebe98b6865bc firmware: cs_dsp: Clear core reset for cache
-         ba235634b138cd9d012dbe983e7920481211e132 ASoC: wm_adsp: Add support for "toggle" preloaders
-         a319cb32e7cfd2703db3a883ce260a7b06729895 ASoC: cs4265: Add a remove() function
-         570010b82e8a04206eb228da23e4ef0264df7d25 Add low power hibernation support to cs35l41
+         2aac550da3257ab46e8c7944365eb4a79ccbb3a1 ALSA: hda/realtek: Re-order quirk entries for Lenovo
+         7b2f3eb492dac7665c75df067e4d8e4869589f4a ALSA: hda: cs35l41: Add support for CS35L41 in HDA systems
+         d3dca026375f2be550041b75833f2e3238738a70 ALSA: hda/realtek: Add support for Legion 7 16ACHg6 laptop
+         ae7abe36e352eddf8e30d3b1ea3fb402514ba13b ALSA: hda/realtek: Add CS35L41 support for Thinkpad laptops
+         
+  - ref: refs/heads/master
+    old: ad7e2ca9ea14c4fd8a9474b4cbd5a768f7607996
+    new: 411865625f6335a2305b660488900dd4437a355e
+    log: |
+         2aac550da3257ab46e8c7944365eb4a79ccbb3a1 ALSA: hda/realtek: Re-order quirk entries for Lenovo
+         7b2f3eb492dac7665c75df067e4d8e4869589f4a ALSA: hda: cs35l41: Add support for CS35L41 in HDA systems
+         d3dca026375f2be550041b75833f2e3238738a70 ALSA: hda/realtek: Add support for Legion 7 16ACHg6 laptop
+         ae7abe36e352eddf8e30d3b1ea3fb402514ba13b ALSA: hda/realtek: Add CS35L41 support for Thinkpad laptops
+         411865625f6335a2305b660488900dd4437a355e Merge branch 'for-next'
          
