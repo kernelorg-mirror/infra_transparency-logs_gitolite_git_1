@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9206706853432500572=="
+Content-Type: multipart/mixed; boundary="===============3025564267341715148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 05 Jan 2022 12:37:15 -0000
-Message-Id: <164138623544.11476.18067377089786346256@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 12:37:29 -0000
+Message-Id: <164138624985.11630.12366541705332573827@gitolite.kernel.org>
 
---===============9206706853432500572==
+--===============3025564267341715148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e63a02348958cd7cc8c8401c94de57ad97b5d06c
     new: 5e22dd18626726028a93ff1350a8a71a00fd843d
     log: revlist-e63a02348958-5e22dd186267.txt
 
---===============9206706853432500572==
+--===============3025564267341715148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ c04fb2b0bd9275969be3b0a95f9c3ef76b1bfb73 bpftool: Probe for bounded loop support
 0fd800b2456cf90ed738a1260b53acaa8843b5ae bpftool: Probe for instruction set extensions
 5e22dd18626726028a93ff1350a8a71a00fd843d bpf/selftests: Fix namespace mount setup in tc_redirect
 
---===============9206706853432500572==--
+--===============3025564267341715148==--
