@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8562024998469989970=="
+Content-Type: multipart/mixed; boundary="===============5474427295570319353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 05 Jan 2022 17:10:02 -0000
-Message-Id: <164140260296.14045.8662764496805774141@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 17:10:11 -0000
+Message-Id: <164140261184.14182.5575433592838318687@gitolite.kernel.org>
 
---===============8562024998469989970==
+--===============5474427295570319353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 416b27439df9ecb36b03da63dc37a8840b6f2efe
-    new: c5bcdd8228d80432471d646646a1203dce5b449f
-    log: revlist-416b27439df9-c5bcdd8228d8.txt
+  - ref: refs/heads/mlx5-queue
+    old: caee72bad3f4e2ad597891016f9c71531efa332d
+    new: aa2f2604a138934a73bcd6669f93a25e74ecbc47
+    log: revlist-caee72bad3f4-aa2f2604a138.txt
 
---===============8562024998469989970==
+--===============5474427295570319353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-416b27439df9-c5bcdd8228d8.txt
+Content-Disposition: attachment; filename=revlist-caee72bad3f4-aa2f2604a138.txt
 
 04be6d337d37400ad5b3d5f27ca87645ee5a18a3 mac80211: allow non-standard VHT MCS-10/11
 acb99b9b2a08f439a13eafffd2a59b798d983462 mac80211: Add stations iterator where the iterator function may sleep
@@ -40,5 +40,20 @@ fc0c3fe7486f2d3eacef7ef13571f79e92e139cd net: lan966x: Add function lan966x_mac_
 11b0a27772f5ea294816aabe0f47892ef9b8e65b net: lan966x: Add PGID_GP_START and PGID_GP_END
 7aacb894b1adf8b0f46e6370417350a6bac20c55 net: lan966x: Extend switchdev with mdb support
 c5bcdd8228d80432471d646646a1203dce5b449f Merge branch 'lan966x-extend-switchdev-and-mdb-support'
+7245870ffb306bec99de6740a79a6cafd730f812 net/mlx5e: Refactor set_pflag_cqe_based_moder
+0820836d5afd5cde484120fcce41e72682b86c01 net/mlx5e: Move HW-GRO and CQE compression check to fix features flow
+8d3fab357757282c71b31c1f6ba0cfb4873ab1e0 net/mlx5e: Fix feature check per profile
+f6f424a8a123bd11fe0741fbdf2a45d6185ef53c net/mlx5e: Unblock setting vid 0 for VF in case PF isn't eswitch manager
+97779805a51967c16aafe5712cd750438aff3469 net/mlx5: Introduce control IRQ request API
+6c5ef1367db6cded237b76b934950d355f0ff05a net/mlx5: Move affinity assignment into irq_request
+c7ecf09b893c1cb6d69d96a52045bb63976e8854 net/mlx5: Split irq_pool_affinity logic to new file
+c67993fc312168a8a61c25d4ce9e9ac2ea130327 net/mlx5: Introduce API for bulk request and release of IRQs
+5e174e6c6acf1b66517d6a696c7a9f7eca90c798 net/mlx5: SF, Use all available cpu for setting cpu affinity
+7d9397aa4183e2df8199abc12d80495b25986632 net/mlx5: mlx5e_hv_vhca_stats_create return type to void
+5e76c1e68e8026269ca332a9082defbab1f8e982 Merge branch 'patchq/459824' into mlx5-queue
+348ad73e04b91e331464a2b6df93e2db4c906ea0 Merge branch 'patchq/459065' into mlx5-queue
+e87c04d73a3e9818a3e1ea09228a3895e39daac3 Merge branch 'patchq/455647' into mlx5-queue
+4942d95964c434fddfdb0528a1d32abf3686612b Merge branch 'patchq/430211' into mlx5-queue
+aa2f2604a138934a73bcd6669f93a25e74ecbc47 Merge branch 'patchq/460147' into mlx5-queue
 
---===============8562024998469989970==--
+--===============5474427295570319353==--
