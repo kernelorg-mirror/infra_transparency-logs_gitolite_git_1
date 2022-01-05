@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 05 Jan 2022 17:00:30 -0000
-Message-Id: <164140203065.8400.5758163628285085267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Jan 2022 17:04:30 -0000
+Message-Id: <164140227026.9708.17960461391097270635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: ae7abe36e352eddf8e30d3b1ea3fb402514ba13b
-    new: b81e9e5c723de936652653241d3dc4f33ae05e8c
-    log: |
-         b81e9e5c723de936652653241d3dc4f33ae05e8c ALSA: hda: ALC287: Add Lenovo IdeaPad Slim 9i 14ITL5 speaker quirk
-         
   - ref: refs/heads/master
-    old: 411865625f6335a2305b660488900dd4437a355e
-    new: 0584954025707d69323019e5109b0fa685cc807e
+    old: b3c8e0de473e8c316ba32fa63c01e0ef497ed609
+    new: af872b691926240fa5dcc6810acbdf053cd46ff2
     log: |
-         b81e9e5c723de936652653241d3dc4f33ae05e8c ALSA: hda: ALC287: Add Lenovo IdeaPad Slim 9i 14ITL5 speaker quirk
-         0584954025707d69323019e5109b0fa685cc807e Merge branch 'for-next'
+         754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
          
