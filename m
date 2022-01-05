@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5465867475073324677=="
+Content-Type: multipart/mixed; boundary="===============0174637198711641563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 05 Jan 2022 15:18:27 -0000
-Message-Id: <164139590792.14307.5172741126792593300@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 15:21:38 -0000
+Message-Id: <164139609870.9465.11271281630991165022@gitolite.kernel.org>
 
---===============5465867475073324677==
+--===============0174637198711641563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: cd33707d0fd1b65c419f30816dd7f8123472caab
-    new: 6184f15d877c6fec0af43ef3e10c10183758263d
+    old: 6184f15d877c6fec0af43ef3e10c10183758263d
+    new: 66b13ce8fe25341a8c4c8ceb00d611461ad86dcc
     log: |
-         6184f15d877c6fec0af43ef3e10c10183758263d headers/prep: Fix non-standard header section: drivers/usb/host/ohci-tmio.c
+         66b13ce8fe25341a8c4c8ceb00d611461ad86dcc USB: common: debug: add needed kernel.h include
          
 
---===============5465867475073324677==
+--===============0174637198711641563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641395906 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641396097 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641395906-9885b069cad011b1861f0eb952e77555d918e013
+nonce 1641396097-66fda78805a67ac9597716d72eb2b628317ae399
 
-cd33707d0fd1b65c419f30816dd7f8123472caab 6184f15d877c6fec0af43ef3e10c10183758263d refs/heads/usb-testing
+6184f15d877c6fec0af43ef3e10c10183758263d 66b13ce8fe25341a8c4c8ceb00d611461ad86dcc refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHVtsIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uEkP/0Xw2SwJBjotNaNkVmzT
-XGYixObPnzoJFENQTgnnX0tFfx5Lhl0UuWLHB//Jp+AU6eONHo8YBODoFaGSmrKO
-bqzbufWXzDNlJeRJ8stlhi2pxCmg6PfNwra0WO4YYkK4wLSge3oyE6uVzqTs1KVS
-t3nyCf8igttO5QD4b7yHzzvX9Bp1m/jZ+2W1UMoEcUqmi4kHWNmeS4rlA3e2/X7N
-76cS7J5V4gnJwSDXcGAlV31ZgZPomBTVFu375mahxTQchfs/nh99P90/Bz8orncs
-N+9/z4us3qw0Kta9NdyquzxfCP5LAq0l8R8HJ0RFoRshtGbwK1Hta0GL/FkaBhSs
-QppuAd2V0rjs90yrRiBYrCudBTEvqamfqAKmCk/4zbrvqsy1xAzHmrDBzvI47LkX
-tHZ5YKKMBYnsRKHhvlqgt3GqgyMU1vtE2mmDHtMjRMkbed/eiP2HKhZsHonaWeXz
-ia1DdGvL3RrKhmsQVI0aDKv3t3gWlKWPi3XlO/2rOXI0Z2Yvh5tN6eLl5vw+qZ2X
-BWM4D6UEordp9letQWYA2pful+sEKLu42EGRHLebZNvyKRUadKr79JevtoUOuM21
-lCbYAHAHYsSEW5vPTJTcuUKFhwgJ5EhAcgwIbigaqsFzoDGzrjMsuPZXIWWeXB5K
-mp4IcgL0JSyIQyNUJQG6eYNd
-=jq1t
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHVt4EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6oIP/j/deSyD5uOFz13Kax7U
+y/dcoVlXfZNpYRGEjEmnZ52D6T9jWYT6eZ2E/8VL5pHwdYVgryEH67/UnEYnDigl
+JGxXDAbvvd5Vr/oWTaWBuelB7Xl89ax7aCYkw5tI3CZq/673yQREtop+Uw8QdOUD
+1h5yah969KJQ8hAXal2AH6LMmRfYMy9njTAI8jokDahNY2v0vnkJoRD1aiLqwBXs
+QhwXyEZG40UKjWHx6nkojQPOfFFjjz1/0RkcrFCosg0i8uFrm26kuYOz7NRFk2cQ
+ZtSLzS2i/sAbw0X+z0GjEB9iEKQYGUPTFXr0keXZm8SRxv4p+19OQIicdsCY01Fj
+qMwVdRchzZGuifot7aGKAEaDnQFxxOTrX2ufJtUUT2g97csuDy1Ic2ZpBCJqenRW
+GMAzaklONsZdUqNqsCnn8V+DklRURI0s/XrGJ2/VdsXuEBlY1GuwrNuto2FWIMx8
+wGLiqCqFWrB0+CgxLsw2VjaYl5T0jBRvL0jv/YSYyXtblJy95uWIJL8BJvYyY/er
+NPk63W1P8A+McD98KEhC/bSiDPFX/rCZ//k5TvVKP9vrhKYIkHRimudhUmxWTFyG
+tE9jR41ubDONOs5su37fyzn+UFJMIjS6vE59ACyyf3a4nufhTm6blWV+ZkBF5HjZ
+21qnZNmaRCSfniW9OvPP4/Ti
+=2bSu
 -----END PGP SIGNATURE-----
 
---===============5465867475073324677==--
+--===============0174637198711641563==--
