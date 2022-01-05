@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 05 Jan 2022 20:20:01 -0000
-Message-Id: <164141400164.3828.15200130366227847641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Wed, 05 Jan 2022 20:32:12 -0000
+Message-Id: <164141473299.12669.2774587538238455720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
-    new: 49ef78e59b0749814d79eed156dcfc175fbd2f74
-    log: |
-         e5a7431f5a2d6dcff7d516ee9d178a3254b17b87 gpio: gpio-aspeed-sgpio: Fix wrong hwirq base in irq handler
-         32e246b02f53b2fdaa81ea9f2ca6ff068c017fcb MAINTAINERS: update gpio-brcmstb maintainers
-         49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-         
+  - ref: refs/tags/socfpga_dts_update_for_v5.17_part2
+    old: 0000000000000000000000000000000000000000
+    new: fd584b100eb638b7e73c9dbe2f246104cbe73a06
