@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9162058011954652704=="
+Content-Type: multipart/mixed; boundary="===============3036332259302159819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 05 Jan 2022 06:13:05 -0000
-Message-Id: <164136318591.1781.3610853116538882836@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 06:13:36 -0000
+Message-Id: <164136321688.2018.4504918272148183934@gitolite.kernel.org>
 
---===============9162058011954652704==
+--===============3036332259302159819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/for-next
     old: 4b03d96711ba3591234e4e73c3b3de15b153673b
     new: d584a938fe711fcafc92ef8e6a6444e6af78f210
     log: revlist-4b03d96711ba-d584a938fe71.txt
 
---===============9162058011954652704==
+--===============3036332259302159819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -455,4 +455,4 @@ b5b15555990c0e50459fbc0d8d7333b18ee62006 ata: ahci_xgene: use correct type for p
 055ca07729eaa33770a1ff52363a2272ab4106ec ata: fix read_id() ata port operation interface
 d584a938fe711fcafc92ef8e6a6444e6af78f210 ata: pata_octeon_cf: remove redundant val variable
 
---===============9162058011954652704==--
+--===============3036332259302159819==--
