@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 05 Jan 2022 19:52:16 -0000
-Message-Id: <164141233642.20777.10804430539506019506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 05 Jan 2022 20:04:16 -0000
+Message-Id: <164141305626.27201.14805354259860308000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 26b9ee78d14b0c7508995823f6e8b1469e773eeb
-    new: f05e60f338c838be725f165d52925b6dedb725d7
+    old: 218d747a4142f281a256687bb513a135c905867b
+    new: ca796fe66f7fceff17679ee6cc5fe4b4023de44d
     log: |
-         f05e60f338c838be725f165d52925b6dedb725d7 dpp: Fix compilation on 32 bit
+         e60b0d12a95dcf16a63225cead4541567f5cb517 bpf: Don't promote bogus looking registers after null check.
+         ca796fe66f7fceff17679ee6cc5fe4b4023de44d bpf, selftests: Add verifier test for mem_or_null register with offset.
          
