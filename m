@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 05 Jan 2022 23:17:37 -0000
-Message-Id: <164142465769.19724.5930259782874166161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 05 Jan 2022 23:17:46 -0000
+Message-Id: <164142466677.19839.1790209456251822895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 520451e90cbe9da018a045825626afb354b3465c
-    new: 65e38e32a959dbbb0bf5cf1ae699789f81759be6
+  - ref: refs/heads/master
+    old: 7ff7031943f0638893a1daae3feed2abf94789ff
+    new: 8b6e46b22b3fc66e68eae1a1396507114cb7aebc
     log: |
-         65e38e32a959dbbb0bf5cf1ae699789f81759be6 selftests/kexec: Enable secureboot tests for PowerPC
+         8b6e46b22b3fc66e68eae1a1396507114cb7aebc Wed Jan  5 11:17:05 PM UTC 2022
          
