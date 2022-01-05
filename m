@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 05 Jan 2022 19:50:44 -0000
-Message-Id: <164141224469.18976.5550828373098416737@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 19:52:16 -0000
+Message-Id: <164141233642.20777.10804430539506019506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 994c18c44ed268bca57779396aae630ee2a1a45f
-    new: 26b9ee78d14b0c7508995823f6e8b1469e773eeb
+    old: 26b9ee78d14b0c7508995823f6e8b1469e773eeb
+    new: f05e60f338c838be725f165d52925b6dedb725d7
     log: |
-         909a1cddb5f30cabbd91add7f6c6b7ab1874eb26 json: add support for primitive types
-         26b9ee78d14b0c7508995823f6e8b1469e773eeb dpp: Fix compilation on 32 bit
+         f05e60f338c838be725f165d52925b6dedb725d7 dpp: Fix compilation on 32 bit
          
