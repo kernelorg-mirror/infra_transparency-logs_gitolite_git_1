@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1851390934161499787=="
+Content-Type: multipart/mixed; boundary="===============3655595350875876281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 05 Jan 2022 16:54:30 -0000
-Message-Id: <164140167025.3312.18146288941124433672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 05 Jan 2022 16:54:36 -0000
+Message-Id: <164140167601.3412.11449632906426721176@gitolite.kernel.org>
 
---===============1851390934161499787==
+--===============3655595350875876281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 570010b82e8a04206eb228da23e4ef0264df7d25
     new: e4c35e75209bda13e57c9bc8d280366c2b9275a5
     log: |
          e4c35e75209bda13e57c9bc8d280366c2b9275a5 ASoC: ak4375: Fix unused function error
          
 
---===============1851390934161499787==
+--===============3655595350875876281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1641401668 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1641401668-2019d3a10e1c06216048d9a864dd263ec4bb9c27
+pusher C3F436CA30F5D8EB 1641401674 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1641401674-cd7f173299a55420ddbf300a8490a7b38261c641
 
-570010b82e8a04206eb228da23e4ef0264df7d25 e4c35e75209bda13e57c9bc8d280366c2b9275a5 refs/heads/for-5.17
+570010b82e8a04206eb228da23e4ef0264df7d25 e4c35e75209bda13e57c9bc8d280366c2b9275a5 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHVzUQACgkQJNaLcl1U
-h9B4+gf/VZ59FXKvq/CAOtda2E0a43wbTvkTAXUWVca7UlQsqYTcubW6St3D7lD4
-V7KadrFwm2MS6raM8S+/FRSRJPktPEeK3UYEOhdBN/7e6ONJrTc85WBJo6hj7JvE
-JxfMADc3QftYoSQ89lq2fJgVE5Yd5MnrFAQ7PxePWFFjykNryEu3IrWyDqlG9EkI
-QEE8G76RCS9fGl7U+AM6xxBu+l26MRtcIAhuP5jd+TmpjxHIsLsIXcuY9KTW6nYz
-J2661o363TlunBU/8pwOsDkZzppXRlZNYFlVvFdCSUY2XZJWfw/549ayDD3noq+0
-hxHUiutataopcHfdnCJ9cCxA6B31hQ==
-=yXmH
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHVzUoACgkQJNaLcl1U
+h9A9Swf9HLgUgsI8QT1ZMKg1tnmNJ9Z/NGXoB/nt730qD82kFMjmmajOD1Vg8auN
+t8Va4I4JmpMVPfNwxBuCwL4XYjq5tt1XWldxfY42EH93taB4uXQCCK9eUZbidR5p
+/2aH38puL9VW/T9ajcPWquAKYGXoeVW6P7rZqdSCOsii8AxWbLRtAbDYSkc75IKF
+edfDEOU7fomSNUIQXvkhRcIn/am63XsK1UGpIgy2iymII0576L4Zwe2P3vFuTOBg
+Wk4Tm7JQvB4Y9NHr8XIaNhy1LsFy1riCzIqgghnkXMWP6s5sH4V+6+Tuc/GJMYTC
+guEpXfhIl8dSIyLngZh6T8tkMGNFqg==
+=7EPh
 -----END PGP SIGNATURE-----
 
---===============1851390934161499787==--
+--===============3655595350875876281==--
