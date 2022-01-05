@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 05 Jan 2022 13:34:58 -0000
-Message-Id: <164138969876.14095.7123738223000889466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 05 Jan 2022 14:10:17 -0000
+Message-Id: <164139181780.4193.9002727724866781689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 9be6dc8059bb235ffb0666690a26c0df15cc6d9e
-    new: 520451e90cbe9da018a045825626afb354b3465c
-    log: |
-         520451e90cbe9da018a045825626afb354b3465c ima: silence measurement list hexdump during kexec
-         
+  - ref: refs/tags/asoc-v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f9f87d78cf8ac1d3454d5afdb91b10369445fa9c
