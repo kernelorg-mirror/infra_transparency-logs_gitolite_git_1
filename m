@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/martineau/linux
-Date: Wed, 05 Jan 2022 23:36:25 -0000
-Message-Id: <164142578503.32671.10309423665483600345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 05 Jan 2022 23:38:47 -0000
+Message-Id: <164142592755.1075.6419744783485246096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/martineau/linux
-user: martineau
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/syz-test-reclaim
-    old: 0000000000000000000000000000000000000000
-    new: 7b501ffbf57ff0f40dd37672ba1d9b38f4735cd7
+  - ref: refs/heads/master
+    old: 7218c28c87f57c131879a75a226b9033ac90b266
+    new: 51a33c60f1c22c0d2dafad774315ba1537765442
+    log: |
+         71cff670baff5cc6a6eeb0181e2cc55579c5e1e0 libbpf: Use probe_name for legacy kprobe
+         51a33c60f1c22c0d2dafad774315ba1537765442 libbpf: Support repeated legacy kprobes on same function
+         
