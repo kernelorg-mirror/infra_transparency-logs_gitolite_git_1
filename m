@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 05 Jan 2022 21:05:50 -0000
-Message-Id: <164141675011.2067.14410034722699871223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 05 Jan 2022 21:13:57 -0000
+Message-Id: <164141723731.5840.200477729623796251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: holtmann
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: f05e60f338c838be725f165d52925b6dedb725d7
-    new: 90105e822f85f4e87517d9689fb4f6c0e2d933c5
+    old: ca796fe66f7fceff17679ee6cc5fe4b4023de44d
+    new: 58d8a3fc4a40dcfebf333ab2dc2c7c338249be51
     log: |
-         90105e822f85f4e87517d9689fb4f6c0e2d933c5 build: Require at least version 0.47 when building with external ELL
+         62e4683849b6516c71e91f36e4fc0393a5883cfb bpf, docs: Add a setion to explain the basic instruction encoding
+         be3193cded9d5c030be1713bf52d307427e88d19 bpf, docs: Add subsections for ALU and JMP instructions
+         894cda554c3c3dc836f3cc873c47a465ba9433b4 bpf, docs: Document the opcode classes
+         03c517ee9eedd95472c36c6291fc97368b48c9e4 bpf, docs: Fully document the ALU opcodes
+         9e533e22b5700097e84b8a841d9e1c251cc132c6 bpf, docs: Fully document the JMP opcodes
+         58d8a3fc4a40dcfebf333ab2dc2c7c338249be51 bpf, docs: Fully document the JMP mode modifiers
          
