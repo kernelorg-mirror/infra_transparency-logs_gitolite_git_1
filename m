@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7987367652621225755=="
+Content-Type: multipart/mixed; boundary="===============4365466563383197172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 05 Jan 2022 01:04:29 -0000
-Message-Id: <164134466991.4045.9650785412046162116@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 01:05:13 -0000
+Message-Id: <164134471309.5722.652630789962432717@gitolite.kernel.org>
 
---===============7987367652621225755==
+--===============4365466563383197172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
+  - ref: refs/heads/master
     old: 02b91921c423a2bd75bc211f964ef61dfdc54eaa
     new: 1755441e323bd6aba3f594e2167d45696320a794
     log: revlist-02b91921c423-1755441e323b.txt
 
---===============7987367652621225755==
+--===============4365466563383197172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -617,4 +617,4 @@ a35948847a1e0bf875f580f821cb871ce16d4c60 headers/deps: time: Optimize <linux/tim
 c0ed1b75588bac4ee8dd8f8bc6c595ef2832adbc x86/kbuild: Enable CONFIG_KALLSYMS_ALL=y in the defconfigs
 1755441e323bd6aba3f594e2167d45696320a794 per_task: Implement single template to define 'struct task_struct_per_task' fields and offsets
 
---===============7987367652621225755==--
+--===============4365466563383197172==--
