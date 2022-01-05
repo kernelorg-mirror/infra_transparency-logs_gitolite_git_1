@@ -1,69 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3430787306476561270=="
+Content-Type: multipart/mixed; boundary="===============7942210104971511118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 05 Jan 2022 15:06:42 -0000
-Message-Id: <164139520295.7393.7388175023033909034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
+Date: Wed, 05 Jan 2022 15:11:00 -0000
+Message-Id: <164139546052.10081.18105096414927798544@gitolite.kernel.org>
 
---===============3430787306476561270==
+--===============7942210104971511118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/pali/linux
+user: pali
 changes:
-  - ref: refs/heads/queue/4.14
-    old: ae196dc2c9ce32094877e4d1b8ab1742141a8970
-    new: bfdef05c8da46b022172695aa493cff7ac667a4b
-    log: revlist-ae196dc2c9ce-bfdef05c8da4.txt
-  - ref: refs/heads/queue/5.10
-    old: 2e5dfbcccf30c51379fd8a1ccf2cc4399522f5a4
-    new: 92936775e170cd64e64c88ce4221d65c4c75f556
-    log: |
-         92936775e170cd64e64c88ce4221d65c4c75f556 f2fs: quota: fix potential deadlock
-         
-  - ref: refs/heads/queue/5.15
-    old: 3046ece6a3c39722322dfe5dc65ecfedf81fb66b
-    new: 59461093d2fa9d7a08669d1b7cd9fa10a8c87fa5
-    log: |
-         59461093d2fa9d7a08669d1b7cd9fa10a8c87fa5 fscache_cookie_enabled: check cookie is valid before accessing it
-         
-  - ref: refs/heads/queue/5.4
-    old: e138c45ff3292fb3e06a21867b590e6acd821da6
-    new: 8ebc30b5d171593e37581f6356878fbad3800deb
-    log: |
-         9f6e4fa15c1fb94051b21765d93e284ffc0eff16 f2fs: quota: fix potential deadlock
-         8ebc30b5d171593e37581f6356878fbad3800deb Input: touchscreen - Fix backport of a02dcde595f7cbd240ccd64de96034ad91cffc40
-         
+  - ref: refs/heads/pci-mvebu
+    old: 67fc14fc5291bf3930e0477b8a28a056ba90f531
+    new: 6cc87a4b21e3f05c0e4a05e4d8ee4cd1a0a594d7
+    log: revlist-67fc14fc5291-6cc87a4b21e3.txt
 
---===============3430787306476561270==
+--===============7942210104971511118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae196dc2c9ce-bfdef05c8da4.txt
+Content-Disposition: attachment; filename=revlist-67fc14fc5291-6cc87a4b21e3.txt
 
-2e319767f04eddcf3e4bf016296d99da7cccbcdb HID: asus: Add depends on USB_HID to HID_ASUS Kconfig option
-3d556a28bbfe34a80b014db49908b0f1bcb1ae80 tee: handle lookup of shm with reference count 0
-3df97bd339d1908caa1fb7767ca5c8ff77cb148d platform/x86: apple-gmux: use resource_size() with res
-49bcc08492070c114f11744ae7043de53de0cd4b recordmcount.pl: fix typo in s390 mcount regex
-8a2644526ada31d5b6a165649c3220af38a770ee selinux: initialize proto variable in selinux_ip_postroute_compat()
-058a534e0af2c5f52671b3ed6735aaeefafa8b57 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-5920f25884b5db014ae503f9e0d9c34a86d51be1 net: usb: pegasus: Do not drop long Ethernet frames
-38c3e320e7ff46f2dc67bc5045333e63d9f8918d NFC: st21nfca: Fix memory leak in device probe and remove
-e3cccaa5338b785bb8c74ec623964494cf3480b7 fsl/fman: Fix missing put_device() call in fman_port_probe
-709a0cc0acab6aec6c42fa54c955be8537d2f772 nfc: uapi: use kernel size_t to fix user-space builds
-6456e34572939af0355dcf05e654dfcdc57e8b90 uapi: fix linux/nfc.h userspace compilation errors
-70e7f1a95972d279f1500494055e5c218c173c85 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
-52500239e3f2d6fc77b6f58632a9fb98fe74ac09 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-2d2df539d05205fd83c404d5f2dff48d36f9b495 binder: fix async_free_space accounting for empty parcels
-3efece94f28369fb3b2385f9ba7874ea3bf3f71f scsi: vmw_pvscsi: Set residual data length conditionally
-292d2ac61fb0d9276a0f7b7ce4f50426f2a1c99f Input: appletouch - initialize work before device registration
-dd57d1c7e93d860e584306ec85c6737d19ea2edd Input: spaceball - fix parsing of movement data packets
-5c2fe20ad37ff56070ae0acb34152333976929b4 net: fix use-after-free in tw_timer_handler
-8873140f95d4977bf37e4cf0d5c5e3f6e34cdd3e sctp: use call_rcu to free endpoint
-bfdef05c8da46b022172695aa493cff7ac667a4b Linux 4.14.261
+5e7a9f3bae0b06a8b6142772a6ba4711239819b7 PCI: pci-bridge-emul: Re-arrange register tests
+b49f8fe98dfef87b62be01be124d3cc795e29ab6 PCI: pci-bridge-emul: Add support for PCIe extended capabilities
+f0fcf40bc40f53205ff6745a3b9b8d5e92bebdb2 PCI: pci-bridge-emul: Add support for PCI Bridge Subsystem Vendor ID capability
+7bb52e632051e57b10d219ba3dae654f317176c7 dt-bindings: PCI: mvebu: Add num-lanes property
+bccdeef832cc95e92685ed67b81403eb436dda00 PCI: mvebu: Correctly configure x1/x4 mode
+f133b9965b0f59d51047326bcdf2ce6e6b00a200 PCI: mvebu: Add support for PCI Bridge Subsystem Vendor ID on emulated bridge
+b4c7af1eae18886ce3ab8149e054dc043efb7046 PCI: mvebu: Add support for Advanced Error Reporting registers on emulated bridge
+8402fc705cfba71526917bb62f8d89ba6b4d07aa PCI: mvebu: Use child_ops API
+39091929ddfa8158d2f4992bf5e1fca5018a8a68 dt-bindings: PCI: mvebu: Update information about intx interrupts
+a3979ecd3fbbc6744316976c9c543bba50f649f4 PCI: mvebu: Implement support for legacy INTx interrupts
+b4b78b0342e9811eaf640d1bc365844a11d041ae ARM: dts: armada-385.dtsi: Add definitions for PCIe legacy INTx interrupts
+17aa8d51fe8bb5ecf044645dff457dd4cf29bbe3 PCI: pciehp: Do not enable Data Link Layer State Changed interrupt when it is unsupported
+a849728490c1d7b866c0484b52a03fab0dce0269 PCI: pciehp: Do not enable Command Completed Interrupt when it is unsupported
+05654671b642d8adb46c344acffca64fc7b53005 PCI: Add PCI_EXP_SLTCTL_ASPL_DISABLE macro
+d9845495fc13901075973d3039525da245b66c53 PCI: Add PCI_EXP_SLTCAP_*_SHIFT macros
+e7786436dd6ebc524093375011b93b5dc6d913cc PCI: Add function of_pci_get_slot_power_limit for parsing DT "slot-power-limit" node
+098d4a6c5b1b7f29d3cf041e2b993371c71761c4 PCI: mvebu: Add support for sending Set_Slot_Power_Limit message
+32878979f792a085349cee15611a2d8d86dbfe90 ARM: dts: turris-omnia: Set PCIe slot-power-limit properties
+7bc7cc28aff8b2cf8b02744593c3519b4821a9bc PCI: mvebu: use BIT() and GENMASK() macros instead of hardcoded hex values
+fed2df505ff5ad99d800c67040919b33119b89c5 PCI: mvebu: For consistency add _OFF suffix to all registers
+becbd28db109f356a1aa148d447a1537255b8177 EXPERIMENTAL: dt-bindings: PCI: mvebu: Update information about summary interrupt
+c70137441178f035b0c12dbef59f5e5de13902fa EXPERIMENTAL: PCI: mvebu: Implement support for interrupts on emulated bridge
+194784b5c96ec735f245fb9c2b7a34f963baa251 EXPERIMENTAL: PCI: mvebu: Add support for PCI_EXP_SLTSTA_DLLSC via hot plug interrupt
+7a9393d41eb90b067f6ad663e25337bf10c8bbd9 EXPERIMENTAL: PCI: mvebu: Add support for detecting failures in config requests
+37702a52d80ccddb89a25bddb3cc2c6155827e0e dt-bindings: PCI: mvebu: Update information about compatible string
+6cc87a4b21e3f05c0e4a05e4d8ee4cd1a0a594d7 ARM: dts: marvell: Fix compatible string for A375, A38x and A39x
 
---===============3430787306476561270==--
+--===============7942210104971511118==--
