@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4696384954907624645=="
+Content-Type: multipart/mixed; boundary="===============1217160058968896392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 05 Jan 2022 10:33:25 -0000
-Message-Id: <164137880550.13989.18055332274756065461@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 10:33:55 -0000
+Message-Id: <164137883539.14213.7878605680027012772@gitolite.kernel.org>
 
---===============4696384954907624645==
+--===============1217160058968896392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.17
-    old: 0618afc6dee98bffed1875e2ae4577e1523b4141
+  - ref: refs/heads/for-next
+    old: d584a938fe711fcafc92ef8e6a6444e6af78f210
     new: 5e53cac53b30f13b9e415cefc155665d5b982e2f
-    log: revlist-0618afc6dee9-5e53cac53b30.txt
+    log: revlist-d584a938fe71-5e53cac53b30.txt
 
---===============4696384954907624645==
+--===============1217160058968896392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0618afc6dee9-5e53cac53b30.txt
+Content-Disposition: attachment; filename=revlist-d584a938fe71-5e53cac53b30.txt
 
 c206a389c97c9533971cd05eed69b49f535cc193 ata: libata: tracepoints for bus-master DMA
 7fad6ad6a357c73f0bdf55476238ae2884de78a3 ata: libata-sff: tracepoints for HSM state machine
@@ -111,4 +111,4 @@ ce26df37a6d096d752508040a879a869bed558bc ata: pata_pxa: add compile test support
 2bfbcc77619785710cbd78a69c05721cc0dda133 ata: fix read_id() ata port operation interface
 5e53cac53b30f13b9e415cefc155665d5b982e2f ata: pata_octeon_cf: remove redundant val variable
 
---===============4696384954907624645==--
+--===============1217160058968896392==--
