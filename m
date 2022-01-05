@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 05 Jan 2022 02:19:34 -0000
-Message-Id: <164134917455.18980.3210629673924295910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 05 Jan 2022 02:19:40 -0000
+Message-Id: <164134918005.19052.2884819840685064966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 18343b80691560f41c3339119a2e9314d4672c77
-    new: ffd32ea6b13c97904cae59bdb13a843d52756578
+    old: 6f89ecf10af1396ddc34c303ae1168a11f3f04a3
+    new: 1d5a474240407c38ca8c7484a656ee39f585399c
     log: |
-         ffd32ea6b13c97904cae59bdb13a843d52756578 Revert "net: wwan: iosm: Keep device at D0 for s2idle case"
+         1d5a474240407c38ca8c7484a656ee39f585399c sfc: The RX page_ring is optional
          
