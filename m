@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6516043694946943403=="
+Content-Type: multipart/mixed; boundary="===============3916896119477089905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 05 Jan 2022 06:05:28 -0000
-Message-Id: <164136272817.30277.15846172456902978052@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 06:05:37 -0000
+Message-Id: <164136273757.30375.7631637117670922239@gitolite.kernel.org>
 
---===============6516043694946943403==
+--===============3916896119477089905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5b5e5aa4f21bfd4793500c33e074bc719a9cd3c9
-    new: 947331b436318a46c7fee23b4bc459ee374dd244
+  - ref: refs/heads/5.17/scsi-staging
+    old: c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37
+    new: c3b48443ba7c4467d44f7faa16fea204ea6c239c
     log: |
          aa7069d840dab6bef4887657b94e439c82ae985a scsi: qedf: Fix potential dereference of NULL pointer
          4d516e495235a8e95b482a1e9441c4043c7a8235 scsi: aacraid: Fix spelling of "its"
@@ -30,33 +30,33 @@ changes:
          c3b48443ba7c4467d44f7faa16fea204ea6c239c scsi: aic79xx: Remove redundant error variable
          
 
---===============6516043694946943403==
+--===============3916896119477089905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1641362720 -0500
+pusher 75C5DE3D 1641362731 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1641362719-ac3c95a35a4df50a8a89ddb946e48e05c2be6ef0
+nonce 1641362730-3145ddfcb1797bde77ce5bbf5a791096b8f840c7
 
-5b5e5aa4f21bfd4793500c33e074bc719a9cd3c9 947331b436318a46c7fee23b4bc459ee374dd244 refs/tags/mkp-scsi-staging
+c77b1f8a8faeeba43c694d9d09d0b25a4f52cf37 c3b48443ba7c4467d44f7faa16fea204ea6c239c refs/heads/5.17/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHVNSAACgkQ7ulgGnXF
-3j3T8hAApT647NnlfI5j7ri2TX1Q9elQEfEMD74s1YODbHZGhwf0MaLB5nPUa5ka
-BVstuybHqohwTvOZ49oMq8kZf1820nFPu7iL17Z0pEDTD2mVWo3wXTy7sEKJx1XM
-Ty1crZtvSjmf1B8KmgSwGFwPhYoUvfNgIzbnVi2PLlzSooNmr4l+N31iQBuj7xJ2
-7SNsTdGi1Dqej1m0u4FMYxHMZnfDfz41GuCSiJvvbfqErEQDpT4I2FKOwNqyXmaY
-nv5U7S0c1qYkESFx8S0/uE/WLvGSNWTKRMBGzJBeeqjIjCffUZ1l89o1K/qEKh0z
-h73/Wu0lVk0SoZy/cLYqnWDigmr7VaIdslJLZE01iw8hiGhJvtM1QMLik/JYajMJ
-ABAadLC2C3CWczTJwbMfVhKFt7kKOkpGPtEAlGlTbz8/AqonSbH8PMgt2qgGZ1J/
-1NBFtsfPGRAtQrbQ0AfkR+PghE5lUZ5j/+d/DOmDrnBhgjGMC56QHGP/vdTHsllt
-qnrJaSWdvQrp+/GdhPXb4kOmSHR+IimyLcST/6RKy79PmclsP0akBFylOeUpTmAc
-+EPjghTLYDWvsmSzAF9DtuDpn3DtGbJ8y7t+Px4UKkN0MgA5CBP9AJqQPgWpnWSF
-b/GXOqTl7yvbgxgikTqubJfthImjHW7yrFalazrojUkCzyi44h8=
-=7e3c
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHVNSsACgkQ7ulgGnXF
+3j2WJQ//VbXl3yRmoTNBBpXc7aR2JEp3CYsfHoV7Y13jnJ5A2ZJmIlMIuRmW5MtR
+CvokfKhSUXwFzcZvDOMPk1KCzSgAT/A6K35/Kai0iKpgkuCfyDppbja+xtoNXRcB
+45pvfVQn1zqt6Au+9iTCySKHEC9Pcgvm6W6qUYr2dHoq8FDVc4Te83FezH/Xy7Z6
+/z4iPCWtQKRZASy2TY37LYiwDrhaNtVXk7tlj+w13JisJDOvnrgCW9UHbtypHdWh
+iXr/GSNoFiKqHsxCxzKCtYXSiWoMxqKgoym/fMzws3LFQD/6lx3H0EP+eJrnqecn
+X7QpDMzEqhOABqTT2gArTQaSAOFzBFOuMEJW5IG29BIRrThrcTNALOBeJS4INJm/
+bIf3vqPShFzDu3b48jrYTMGPo5AXRfpLGMjeITFOGr2KGTU8Bl1zGa6z9oEHpIzx
+6mzyiOIy1MdAOLVZ9Emp9A2jYfnwSeSKcilU57pOp9LR5OI6mQfJwVB5fszDd77i
+Ha+Clg5Uy8aSRk4JFr3L4i3JW3JnGrnfrpTWhOdMW6Svbx0J5I4q9r3UcDJOGQn4
+/eetm86QgxEmPh5kVxlQncuQiAryfwWPC36b7qVw2DGi/Gurr31IorsbWEAjeaKr
+JFBfOcYnbjPiPnymU2ML7rrVQHmO7Ri1QYzGrGXsrKfQtNDL9yI=
+=HeRc
 -----END PGP SIGNATURE-----
 
---===============6516043694946943403==--
+--===============3916896119477089905==--
