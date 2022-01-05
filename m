@@ -1,90 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8317747112207231373=="
+Content-Type: multipart/mixed; boundary="===============0872636243240026578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 05 Jan 2022 20:47:03 -0000
-Message-Id: <164141562386.21736.5249441824278551681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Wed, 05 Jan 2022 20:50:19 -0000
+Message-Id: <164141581967.24134.1395912543747612486@gitolite.kernel.org>
 
---===============8317747112207231373==
+--===============0872636243240026578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/topic-rpc-with-tls
-    old: 4ce0572ff8c779877755dcc2cb7812109c3c7973
-    new: db14f72e03f2c3e5deb5dac71e2eeed02997f962
-    log: revlist-4ce0572ff8c7-db14f72e03f2.txt
-  - ref: refs/tags/v5.10.90
+  - ref: refs/tags/linux-can-fixes-for-5.16-20220105
     old: 0000000000000000000000000000000000000000
-    new: 84fc93aaae2ce3875cd7f1e8c95e867f57a5534d
+    new: d99b19956f9b54dde2e4d3857148549e89f69b19
 
---===============8317747112207231373==
+--===============0872636243240026578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ce0572ff8c7-db14f72e03f2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bb672eff7447f8a26c8a66ddee613afd279bd760 Input: i8042 - add deferred probe support
-210c7c6908f3dc77d0a09e2084573bee0783d519 Input: i8042 - enable deferred probe quirk for ASUS UM325UA
-e2048a1f91869d0226a0bfc867ecc40fc5897107 tomoyo: Check exceeded quota early in tomoyo_domain_quota_is_ok().
-0643d9175dc68608a7bfd470808e8590e9ef2623 tomoyo: use hwight16() in tomoyo_domain_quota_is_ok()
-d01e9ce1af6116f812491d3d3873d204f10ae0b8 parisc: Clear stale IIR value on instruction access rights trap
-7da855e93964893d48df8ad60fc30a8ac8327506 platform/x86: apple-gmux: use resource_size() with res
-a0e82d5ef992eed30d49f7855eed89773a620ddd memblock: fix memblock_phys_alloc() section mismatch error
-ec941a2277a1db086a55daac96bd1ae77e41b34c recordmcount.pl: fix typo in s390 mcount regex
-4833ad4908a1dff196946b4fd96cb5fe74a8621f selinux: initialize proto variable in selinux_ip_postroute_compat()
-fcb32eb3d04d4a84fbb2c374ab2ffd4d684d674e scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
-4cd1da02f0c39606e3378c9255f17d6f85d106c7 net/mlx5: DR, Fix NULL vs IS_ERR checking in dr_domain_init_resources
-73665165b64a8f3c5b3534009a69be55bb744f05 net/mlx5e: Wrap the tx reporter dump callback to extract the sq
-5e6ad649e9273cb29ee3159f49530ca2e6ff2324 net/mlx5e: Fix ICOSQ recovery flow for XSK
-abe74fb43378ce4f2d41b9fbe58cbabe5d12b204 udp: using datalen to cap ipv6 udp max gso segments
-13c1bf43b6744fcf28387cdec6f5b5c24a32f20a selftests: Calculate udpgso segment count without header adjustment
-769d14abd35e0e153b5149c3e1e989a9d719e3ff sctp: use call_rcu to free endpoint
-a67becdaa8adbd14b7e9ad9ed8b511720efa93ff net/smc: fix using of uninitialized completions
-40d36186913b5bd74d5acb2557df2beb76b84bbf net: usb: pegasus: Do not drop long Ethernet frames
-7ef89bd1e8f1761cfd348d74150845eb57b7aa20 net: ag71xx: Fix a potential double free in error handling paths
-8d70dc0eecf0fb1f1d6980fd525243afb69e3e0e net: lantiq_xrx200: fix statistics of received bytes
-e553265ea56482da5700f56319fda9ff53e7dcb4 NFC: st21nfca: Fix memory leak in device probe and remove
-99f19566b1c4d3dc4d934ee2ef43faadebb56d70 net/smc: improved fix wait on already cleared link
-97c87c1db9ffdcdcc52697996010b9464ac65a44 net/smc: don't send CDC/LLC message if link not ready
-e8a5988a85c719ce7205cb00dcf0716dcf611332 net/smc: fix kernel panic caused by race of smc_sock
-b7c9a1427b32723b583da6d44d833e9b246d4a94 igc: Fix TX timestamp support for non-MSI-X platforms
-61146008087a8b4cf639c8c00ca7574c894c8805 ionic: Initialize the 'lif->dbid_inuse' bitmap
-78503589b1e013e0de5d76ee4fc02981d90d4583 net/mlx5e: Fix wrong features assignment in case of error
-610af55f9fbead4bd3d5636fa048d1e981a4a90f selftests/net: udpgso_bench_tx: fix dst ip argument
-920932b20e0c33cb095e88dec16acd0d14986f50 net/ncsi: check for error return from call to nla_put_u32
-51c94d8fbd09fe314baac7d49d7173e56e0df048 fsl/fman: Fix missing put_device() call in fman_port_probe
-8d31cbab4c295d7010ebb729e9d02d0e9cece18f i2c: validate user data in compat ioctl
-818c9e0a04dff8fdec3ff70afcd25b945d8621d0 nfc: uapi: use kernel size_t to fix user-space builds
-a0f3ac399ef586cbb9660dec10c81477bc586fb8 uapi: fix linux/nfc.h userspace compilation errors
-28863ffe21ff711d5109e3c208676258bdec3a1f drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
-b8553330a07749e488d143b5704adf1042fd7c0a drm/amdgpu: add support for IP discovery gc_info table v2
-1933fe8ce712989df8e94966e21d1752fe19c257 xhci: Fresco FL1100 controller should not have BROKEN_MSI quirk set.
-1c4ace3e6b8575745c50dca9e76e0021e697d645 usb: gadget: f_fs: Clear ffs_eventfd in ffs_data_clear.
-f10b01c48f856d5fc11fbef271e1bd9abcdf0f0d usb: mtu3: add memory barrier before set GPD's HWO
-3b6efe0b7ba03cc2acf0694b46d6ff33c5b4c295 usb: mtu3: fix list_head check warning
-a6e26251dd3ab4690dfd8a7783416a847975d9d5 usb: mtu3: set interval of FS intr and isoc endpoint
-1cb8444f3114f0bb2f6e3bcadcf09aa4a28425d4 binder: fix async_free_space accounting for empty parcels
-2a4f551dec1a897c10ccc1a525232ec41b26de80 scsi: vmw_pvscsi: Set residual data length conditionally
-9f329d0d6c91142cf0ad08d23c72dd195db2633c Input: appletouch - initialize work before device registration
-34087cf96046e79652d6cbf7439c68b4205faedd Input: spaceball - fix parsing of movement data packets
-2386e81a1d277f540e1285565c9d41d531bb69d4 net: fix use-after-free in tw_timer_handler
-d8a5b1377bf6b7f74234c7708b96d6a25507710e perf script: Fix CPU filtering of a script's switch events
-8c15bfb36a442d63aec74a3379cb7a197f3e5f99 bpf: Add kconfig knob for disabling unpriv bpf by default
-d3e491a20d152e5fba6c02a38916d63f982d98a5 Linux 5.10.90
-51a4df7b33a27ad4e8804b2ca12e37de881d7910 Port of Tempesta TLS handshakes to the Linux 5.10.68
-be53395d5b2b87b90306bb2eed02daa808d4e621 Move the main TLS handshake header to /include/net/
-e1d79b7024821a79b8b3a4de08c3022048305f9e Move headers, required for other modules, to include/net/tls/
-5c2fe95069227f3955c08ba9659e05fa0c693181 Initialize the TLS handshakes module together with kTLS.
-80d4f13de26d49f255cfe93edb0e905d707a7393 Introduce CONFIG_TLS_SOFTIRQ to perform all TLS routines in softirq (fixes #1446).
-c0cb461a4609d28ef8b2278251adc5e7442babe1 Assume that the ttls_hs_over_cb hook might be NULL. Move the comment for tcp_write_xmit hook to the better place.
-9994cf5f72d6012258e9efb4a552ef3ac978b419 Add struct sock to TlsCtx to work with the socket from the TLS layer.
-875ce8ab60df7ea8aab2668bc09c774127eb4379 SUNRPC: Add RPC_AUTH_TLS protocol numbers
-db14f72e03f2c3e5deb5dac71e2eeed02997f962 SUNRPC: Teach server to recognize RPC_AUTH_TLS
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1641415816 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1641415815-21909e95ee2bfd6727e398d66252e637dd65f217
 
---===============8317747112207231373==--
+0000000000000000000000000000000000000000 d99b19956f9b54dde2e4d3857148549e89f69b19 refs/tags/linux-can-fixes-for-5.16-20220105
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHWBIgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqSVoB/9lItvFlcqRy7Oa7/n3F0vt9Gd+OXQV
+xwtPQtSYAtbNX23yUHY/XWzzyzQukpMr5/aRPiI4Q+fITtOTZpyOtWD9Z2yhIj5M
+cWdBC+6TSALm733SoO7B/V6KCKqCjVP9svrxg5UEP77+esSa++cz63I6NqItdbnN
+45MNup0lcqCESZ36Py1Gk4PffkhbFaxzr9rMiHJr4MVJ9ZH5S1+36oAqLs72s64m
+Yh8e2u5Biz3YvV+zTw/iiQEytxoapDVzGFmdnkMMmhmsf5W3cyZcYRkVPNQV/A0j
+c4SUBb1p9uIchKW4Jhdl8asyRkewL5PI2w49gc2a+/OvPWDLkidRmyJx
+=r7r0
+-----END PGP SIGNATURE-----
+
+--===============0872636243240026578==--
