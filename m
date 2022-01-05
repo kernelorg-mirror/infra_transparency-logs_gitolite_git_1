@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 05 Jan 2022 11:25:31 -0000
-Message-Id: <164138193188.15195.18431681183597553209@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1508528761541409020=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 05 Jan 2022 11:30:55 -0000
+Message-Id: <164138225565.18269.1378873219490954356@gitolite.kernel.org>
+
+--===============1508528761541409020==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ffd32ea6b13c97904cae59bdb13a843d52756578
-    new: c5bcdd8228d80432471d646646a1203dce5b449f
+    old: dda648ba97a1d89526982e92abdba71b4cf289a9
+    new: 169eca814729b6abb2c7778d03ba83f71a3c56e5
     log: |
-         eda80b249df7bbc7b3dd13907343a3e59bfc57fd net: ethernet: mtk_eth_soc: fix return values and refactor MDIO ops
-         c6af53f038aa32cec12e8a305ba07c7ef168f1b0 net: mdio: add helpers to extract clause 45 regad and devad fields
-         e2e7f6e29c99a1c6afc0e0aa4b9ea80302d28720 net: ethernet: mtk_eth_soc: implement Clause 45 MDIO access
-         2a5ab39beb277528d58cac609c0862f8a6c231d3 Merge branch 'mtk_eth_soc-refactoring-and-clause45'
-         fc0c3fe7486f2d3eacef7ef13571f79e92e139cd net: lan966x: Add function lan966x_mac_ip_learn()
-         11b0a27772f5ea294816aabe0f47892ef9b8e65b net: lan966x: Add PGID_GP_START and PGID_GP_END
-         7aacb894b1adf8b0f46e6370417350a6bac20c55 net: lan966x: Extend switchdev with mdb support
-         c5bcdd8228d80432471d646646a1203dce5b449f Merge branch 'lan966x-extend-switchdev-and-mdb-support'
+         169eca814729b6abb2c7778d03ba83f71a3c56e5 Linux 4.4.298
          
+
+--===============1508528761541409020==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641382252 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1641382250-ad050b3d9e8a9ba2df97b257cb97afcfd41f1344
+
+dda648ba97a1d89526982e92abdba71b4cf289a9 169eca814729b6abb2c7778d03ba83f71a3c56e5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHVgWwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0t0P/2UeiMs3DISUk0XsxU/w
+0WHmHUZIR8qaY5vxIkQsbs5yqJwmV2wFtWTjfKTVIWkxL4ACHTar2CFwmYJhfcW/
+Wc03OnhYqFsvFlBILyzw1L99xPdFG9oxLKcqNw48SfyasRU4Avq1z55BpmZkZ0/K
+tIp1jk9QyPGTokuX9Y2wCSGXVwqof0FieI4eM8LFZNEwKTFI3XFzpOnfQ147WjjX
++rK+R8SeY2rsh7J31RG9sZvn9zMQwTJSmKUQr3p5mWF8OSED2HmMxWczjowfvZZ/
+37TfwqGZQAgE0/VhfMxKnfDx4ncl/HGT6HnZtDB9w3haduAeR4Tr1jPeBdcrCqtD
+n4T3Bpf1aaaCHPRXYupKkqQimeZI9wm3/+FHnwMcb8C/dFrlzZtdMMNZqZelf+0N
+UM+V9Uq8zJwteRnJDbdotFgiFbD7L/ljRMxbOzwEheJfjpRAtxROGG0fNhzIegjk
+qcybp1kr5GraGrXlJvl5t5QHwZHAyx7kKEFKqFsdrml4eAsy+TLoUtto7jAyHc1a
+Mg4DBPz9xiz5uSuSkZS4+mTZSS0K6frh5RgIXDt3Xx11+B/9rOJN1nVpgPtCBoWB
+WXMZpgblZGhKFT4/OdX1znT68Lwe+GqGtR7qszC7/sFk6yUyDiirWH5E8vtfm47T
+l52D+aBphhtP1YugDurB07v7
+=OymP
+-----END PGP SIGNATURE-----
+
+--===============1508528761541409020==--
