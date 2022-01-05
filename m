@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3655595350875876281=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 05 Jan 2022 16:54:36 -0000
-Message-Id: <164140167601.3412.11449632906426721176@gitolite.kernel.org>
-
---===============3655595350875876281==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 05 Jan 2022 16:54:54 -0000
+Message-Id: <164140169424.3563.3247210239161297122@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
+  - ref: refs/heads/for-linus
+    old: 8f91aed3a2ba7d48c19131135f102e9fe2c61d43
+    new: 809ec16794613773c1bb7c862a9853b2a62bc7a3
+    log: |
+         809ec16794613773c1bb7c862a9853b2a62bc7a3 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
+         
+  - ref: refs/heads/for-next
     old: 570010b82e8a04206eb228da23e4ef0264df7d25
     new: e4c35e75209bda13e57c9bc8d280366c2b9275a5
     log: |
          e4c35e75209bda13e57c9bc8d280366c2b9275a5 ASoC: ak4375: Fix unused function error
          
-
---===============3655595350875876281==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1641401674 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641401674-cd7f173299a55420ddbf300a8490a7b38261c641
-
-570010b82e8a04206eb228da23e4ef0264df7d25 e4c35e75209bda13e57c9bc8d280366c2b9275a5 refs/heads/asoc-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHVzUoACgkQJNaLcl1U
-h9A9Swf9HLgUgsI8QT1ZMKg1tnmNJ9Z/NGXoB/nt730qD82kFMjmmajOD1Vg8auN
-t8Va4I4JmpMVPfNwxBuCwL4XYjq5tt1XWldxfY42EH93taB4uXQCCK9eUZbidR5p
-/2aH38puL9VW/T9ajcPWquAKYGXoeVW6P7rZqdSCOsii8AxWbLRtAbDYSkc75IKF
-edfDEOU7fomSNUIQXvkhRcIn/am63XsK1UGpIgy2iymII0576L4Zwe2P3vFuTOBg
-Wk4Tm7JQvB4Y9NHr8XIaNhy1LsFy1riCzIqgghnkXMWP6s5sH4V+6+Tuc/GJMYTC
-guEpXfhIl8dSIyLngZh6T8tkMGNFqg==
-=7EPh
------END PGP SIGNATURE-----
-
---===============3655595350875876281==--
