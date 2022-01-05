@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Wed, 05 Jan 2022 21:53:19 -0000
-Message-Id: <164141959914.32758.1170493975300941217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
+Date: Wed, 05 Jan 2022 21:54:19 -0000
+Message-Id: <164141965975.705.13016063643177028349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/utils/kernel/ndctl/ndctl
+user: vishal
 changes:
-  - ref: refs/heads/vp
-    old: 7067153cb4537fba1feeb8d462548c57a55b6b64
-    new: 20a252b39ade338e9dc7209cda3a8c02757974d8
+  - ref: refs/heads/pending
+    old: 57be068ef6aaf94c4d9ff0c06bd41a004e4ecf2c
+    new: addc5fd8511b8436d89dcef3dd12131147236b09
     log: |
-         20a252b39ade338e9dc7209cda3a8c02757974d8 tip/tools/vp: Extend word lists and move more specific spellchecks up
+         addc5fd8511b8436d89dcef3dd12131147236b09 Fix iniparser.h include
          
