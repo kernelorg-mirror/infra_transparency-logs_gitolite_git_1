@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4468692266734108526=="
+Content-Type: multipart/mixed; boundary="===============0394310355921233297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 05 Jan 2022 16:58:09 -0000
-Message-Id: <164140188985.6021.4027648010602386200@gitolite.kernel.org>
+Date: Wed, 05 Jan 2022 16:58:20 -0000
+Message-Id: <164140190077.6160.6882533244261497113@gitolite.kernel.org>
 
---===============4468692266734108526==
+--===============0394310355921233297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 18343b80691560f41c3339119a2e9314d4672c77
-    new: c487b6530ddf65790e1f7da34a107e9671404d04
-    log: revlist-18343b806915-c487b6530ddf.txt
+  - ref: refs/heads/dev-queue
+    old: 1010c6ef6a2acb5559f9fd0ebb498f4b0c5662b0
+    new: 57015462abdc1b2d8a842bb9db56f743a841628c
+    log: revlist-1010c6ef6a2a-57015462abdc.txt
 
---===============4468692266734108526==
+--===============0394310355921233297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18343b806915-c487b6530ddf.txt
+Content-Disposition: attachment; filename=revlist-1010c6ef6a2a-57015462abdc.txt
 
 ffd32ea6b13c97904cae59bdb13a843d52756578 Revert "net: wwan: iosm: Keep device at D0 for s2idle case"
 617dbee5c7acfa0a884a423e93fc4dede8e6d4de can: usb_8dev: remove unused member echo_skb from struct usb_8dev_priv
@@ -80,5 +80,69 @@ ff91e1b68490b97c18c649b769618815eb945f11 net: dsa: fix incorrect function pointe
 cad69019f2f8c8c36006fa67b4b5ce04ac2e262b net: dsa: remove cross-chip support for MRP
 a68dc7b938fbbf3d4d74b81a9b5d0d6fdd78566c net: dsa: remove cross-chip support for HSR
 c487b6530ddf65790e1f7da34a107e9671404d04 Merge branch 'dsa-notifier-cleanup'
+accf51018ee9fb7e302431663a81a0ee2eef90ab i40e/i40evf: cleanup i40e_update_nvm_checksum()
+8a846839c7798d044894aeb2d5c5175f858a4b33 igc: Add UDP segmentation offload support
+fea20db6c4645008f90f13b3accf4bc96f9ee889 i40e: Add ensurance of MacVlan resources for every trusted VF
+f15134d2a6942ae3675496e2b2f3e7a33f416bd0 iavf: Fix limit of total number of queues to active queues of VF
+9b6666ab0595aca4a7b51782e59be964bd6a22e8 ice: Simplify tracking status of RDMA support
+dad383fd4c1196cb0cec297ce13a3bafffb3678f ice: replay advanced rules after reset
+11edbc8b09b92253f6e82d40ffa81e2df537657e ice: improve switchdev's slow-path
+37a074479403a13a2bffbe2dd5a58592375f0589 i40e: Increase delay to 1 s after global EMP reset
+25af1cbc34e8506c908aa504a00e0dac41c60c2e i40e: Fix issue when maximum queues is exceeded
+3534886abc31198e72624ff7a0af52a551fc8d17 i40e: Add placeholder for ndo set VLANs
+6fc530b765b3a8365feb142a4208be6bba2053a7 i40e: Refactor VF queue requesting
+78c08dfd419971a225b855c7abc114653c270283 i40e: Minimize amount of busy-waiting during AQ send
+feb8decf0de09f36aca54a5aa19d565fc511ed02 ice: Slightly simply ice_find_free_recp_res_idx
+c509888bb3424dc9f57be8c41457820d7d01a6cd ice: add TTY for GNSS module for E810T device
+1c41d57fbf1a2646c69cc585f1f3fac8e29c81b2 i40e: Update FW API version
+85c1d08b482263178b7f8d184b3a7031baa19949 ice: add support for DSCP QoS for IDC
+e86eede3f60c5ad4974f52fbc6d0748bb76fd79b i40e: Fix queues reservation for XDP
+5d74223fae7b5a6cde377ca69cd79d4f0221dc30 ice: Refactor spoofcheck configuration functions
+ba497fb800e80009dc3285d9c9a529bf53b3b58d ice: Add helper function for adding VLAN 0
+a59281f9513a5ae8233e50e8ec2c30197a5056dd ice: Add new VSI VLAN ops
+05e91492eb0e2937153c42917f00cabfbb1af302 ice: Introduce ice_vlan struct
+be601e15b2043090bbecc3f7c1a2b96276cd870e ice: Refactor vf->port_vlan_info to use ice_vlan
+221de7a01abd0a2990b529840b73e342aa83643e ice: Use the proto argument for VLAN ops
+4eb23462e8eb056a81d4b46c8fb0a3e535093f55 ice: Adjust naming for inner VLAN operations
+85d5fe1ab5b09c5a26ff081c95e9dfa799e3bd5d ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+2fe24c48bd004d049ac38efd67e9ae49775ccb36 ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+c93b4b2ee6b738ea07a098a229571ed5237bbeb9 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+dec1a8e7f250f5fc07712e673a7f4dbf8a33379b ice: Support configuring the device to Double VLAN Mode
+4bc67d4d4471d7505a819a29577d384310d3a822 ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+b37375e6919753a058b522b7f3fedf925b0126ac ice: Add support for 802.1ad port VLANs VF
+b6aef5569116414dba11735dda7da60b5aa2db88 ice: Add ability for PF admin to enable VF VLAN pruning
+ddc318a0a98ca82bab5a9371c134096d4d034d7e i40e: Fix for failed to init adminq while VF reset
+a5396f41356834a21e3278aaf8afc599b89f3d01 i40e: remove dead stores on XSK hotpath
+062a62dafc9b830057aadd18aa5fb04e32293287 i40e: fix use-after-free in i40e_sync_filters_subtask()
+5ec25623c83ce11d05d86f9c806ce29fd8e49808 i40e: Remove non-inclusive language
+937ad27916d25695dea759d0f57239df75c99ec5 e1000e: Separate ADP board type from TGP
+273142776939a33881397ee57c9bc79a36a7b337 e1000e: Handshake with CSME starts from ADL platforms
+1b14d4a7e72137f3c4908e2c8f2571ef83c9a246 i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+6d39dcef8dde9aedd4853860a18cdc9138a96405 i40e: respect metadata on XSK Rx to skb
+3db5497633225bf2070cf657669aed54d5f509db ice: respect metadata in legacy-rx/ice_construct_skb()
+6d4496a53e2da6414067b800a6a586a2ed0844b0 ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+b72e5f4b7f30bc4596627893c5f472354ac40f13 ice: respect metadata on XSK Rx to skb
+0c1feb986025a0e01faa086f16dfb660521b87b7 igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+16ffd62a567ae63ad01dd54072a28099481de2ad ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
+61dabef2c3da2d53466d467d33e55f2e13b19ae0 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+102782cd777bf2c6886706090ba1564d3e9486f1 ixgbe: respect metadata on XSK Rx to skb
+831938ade3c5631a28b6b677982675a03f8f029b i40e: fix unsigned stat widths
+80010a7477e6257473112154050ed872535edd8e i40e: Fix for displaying message regarding NVM version
+a508d7fdca6bff9068dd42b0cf3479b8a5902702 iavf: remove an unneeded variable
+319626d433b3d9a75fceb13f109b03f604b2b045 i40e: Fix reset bw limit when DCB enabled with 1 TC
+a97c7a66fa274e82a2be333dba7a019dfe9ee106 Fix the timeliness of stats after deleting tc
+fe106a6ce38e8d37a7c4a8a8da5beceb5604ee50 iavf: Remove extra cancel_delayed_work_sync() call
+ea9829772a517f010f00c83c7cd2c970bf53973c i40e: Fix incorrect netdev's real number of RX/TX queues
+1c90c90052d6cfd501b3bd4be5af47d085d002fc i40e: remove variables set but not used
+1388e00bf96786e72e90f374b7170b081242e14a ice: Match on all profiles in slow-path
+aaacebf3570ba89c8d9eaf862608cf7bde9ecb6c i40e: Remove rx page reuse double count.
+da16f999c68987351ad14abbeeeee0846d66f087 i40e: Aggregate and export RX page reuse stat.
+84249923dbd2aebb8bfe14494e526a959ac76b8d i40e: Add a stat tracking new RX page allocations.
+d89912d773b62da27fcaa8c01bde54e4507f6d94 i40e: Add a stat for tracking pages waived
+68b892920063302a0fb4545c5678c32eba8c1f27 i40e: Add a stat for tracking busy rx pages
+c402d2b55ccaee4f8712e9e3d227be4f8368122c ice: fix setting l4 port flag when adding filter
+5347a072438e4ca2309eeadf9a9711bf13102a16 i40e: Disable hw-tc-offload feature on driver load
+c8fc1a71f3019ba229f5e92b55ac1b83aa784009 ice: Optimize a few bitmap operations
+57015462abdc1b2d8a842bb9db56f743a841628c ice: Use bitmap_free() to free bitmap
 
---===============4468692266734108526==--
+--===============0394310355921233297==--
