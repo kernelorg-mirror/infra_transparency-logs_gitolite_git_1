@@ -1,20 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 05 Jan 2022 15:29:41 -0000
-Message-Id: <164139658104.14563.945855298106390742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan
+Date: Wed, 05 Jan 2022 15:32:59 -0000
+Message-Id: <164139677910.17277.11505300469230551841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sschmidt/wpan
+user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: 65d3efef42b46ead728c295bfaf84b0b355501cc
-    new: 9f7d64006aa4288d51e44a61d6a6eed82c2e46d3
-    log: |
-         6ce909aa8a6ead73a68ee7cfe0779b3cdf189d83 random: avoid superfluous call to RDRAND in CRNG extraction
-         9f7d64006aa4288d51e44a61d6a6eed82c2e46d3 random: don't reset crng_init_cnt on urandom_read()
-         
+  - ref: refs/tags/ieee802154-for-net-2022-01-05
+    old: 0000000000000000000000000000000000000000
+    new: 754e4382354f7908923a1949d8dc8d05f82f09cb
+  - ref: refs/tags/v5.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/tags/v5.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e9966818ad676112345dca60e65d48ef2e686930
+  - ref: refs/tags/v5.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 06d124d85ce02d2993feda73742a71b78029ea3e
+  - ref: refs/tags/v5.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
+  - ref: refs/tags/v5.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
+  - ref: refs/tags/v5.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
