@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1390380623726958194=="
+Content-Type: multipart/mixed; boundary="===============1525066115462116648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 06 Jan 2022 17:25:50 -0000
-Message-Id: <164148995048.7439.10891268244511574265@gitolite.kernel.org>
+Date: Thu, 06 Jan 2022 17:26:01 -0000
+Message-Id: <164148996101.7560.16616891183457884245@gitolite.kernel.org>
 
---===============1390380623726958194==
+--===============1525066115462116648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 1d5a474240407c38ca8c7484a656ee39f585399c
     new: 36595d8ad46d9e4c41cc7c48c4405b7c3322deac
     log: revlist-1d5a47424040-36595d8ad46d.txt
 
---===============1390380623726958194==
+--===============1525066115462116648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ c4251db3b9d2ad4411f95e65ca00ea0f6800319b Merge branch 'master' of git://git.kern
 d5a73ec96cc57cf67e51b12820fc2354e7ca46f8 fsl/fman: Check for null pointer after calling devm_ioremap
 36595d8ad46d9e4c41cc7c48c4405b7c3322deac net/smc: Reset conn->lgr when link group registration fails
 
---===============1390380623726958194==--
+--===============1525066115462116648==--
