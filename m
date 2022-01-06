@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5645373408486654254=="
+Content-Type: multipart/mixed; boundary="===============6530663469765658184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 06 Jan 2022 18:36:00 -0000
-Message-Id: <164149416026.18682.2069456878808820851@gitolite.kernel.org>
+Date: Thu, 06 Jan 2022 18:36:08 -0000
+Message-Id: <164149416899.18791.16341180651149963514@gitolite.kernel.org>
 
---===============5645373408486654254==
+--===============6530663469765658184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: c5bcdd8228d80432471d646646a1203dce5b449f
-    new: 710ad98c363a66a0cd8526465426c5c5f8377ee0
-    log: revlist-c5bcdd8228d8-710ad98c363a.txt
+  - ref: refs/heads/mlx5-queue
+    old: aa2f2604a138934a73bcd6669f93a25e74ecbc47
+    new: c7b258616c7b0a1fd8a13fb3a5c4060ec961e73c
+    log: revlist-aa2f2604a138-c7b258616c7b.txt
 
---===============5645373408486654254==
+--===============6530663469765658184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5bcdd8228d8-710ad98c363a.txt
+Content-Disposition: attachment; filename=revlist-aa2f2604a138-c7b258616c7b.txt
 
 c6e7871894a3b975ae45995d69cf761566904595 ipv6/esp6: Remove structure variables and alignment statements
 2e1809208a4a52e883527c288b4fca61a90100b2 xfrm: Remove duplicate assignment
@@ -204,5 +204,26 @@ ccd21ec5b8dd9b8a528a70315cee95fc1dd79d20 ethtool: use phydev variable
 0cf765fb00ce083c017f2571ac449cf7912cdb06 sfc: Use swap() instead of open coding it
 c288bc0db2d1938691ef283ce61ae6122e562bc3 ethernet: ibmveth: use default_groups in kobj_type
 710ad98c363a66a0cd8526465426c5c5f8377ee0 veth: Do not record rx queue hint in veth_xmit
+70cb69e5deec6bdea0292e0629be58e2301366fe net/mlx5: Update log_max_qp value to FW max capability
+39da840fe7a54a72ca9053bc6f90337e092602eb net/mlx5e: TC, Remove redundant error logging
+35a9b4665e62c8435728262e127f0b218c215c4f net/mlx5e: Add recovery flow in case of error CQE
+cff9924cd386f36ae0b5e35dbf3230a30214e02a net/mlx5e: Refactor set_pflag_cqe_based_moder
+ea51192cfad1b9140f43d24b2320910c5d160b94 net/mlx5e: Move HW-GRO and CQE compression check to fix features flow
+48b318b655492105bd71babc6f79672e02d5298c net/mlx5e: Fix feature check per profile
+1c20a8fc29bcb8efd08490b7719bf62e2ec8096b net/mlx5e: Unblock setting vid 0 for VF in case PF isn't eswitch manager
+4b1f8ef81faff4c69f606e82b421b7b251070013 net/mlx5: Introduce control IRQ request API
+4c6757525b48718f993cea6340af9056cbc27210 net/mlx5: Move affinity assignment into irq_request
+581c5daa9509a4fd734dedefc13043d5df85dd7a net/mlx5: Split irq_pool_affinity logic to new file
+b12445579b61f4e9ae156d7174fe8321d7725e33 net/mlx5: Introduce API for bulk request and release of IRQs
+168a749048ee3573dee4af3ba3ef2b4eecf0833b net/mlx5: SF, Use all available cpu for setting cpu affinity
+4f78141dd7ddd5712eb277b57c14e02f1f01ac41 Merge branch 'patchq/461772' into mlx5-queue
+3b09faca137963015ccd14d824c8b95e1484fa9c Merge branch 'patchq/459518' into mlx5-queue
+1f1aae51594fbd5e567516966a8da54bcea0b80b net/mlx5: mlx5e_hv_vhca_stats_create return type to void
+e78f00935dd12d702846f029d54135676e2dfa33 Merge branch 'patchq/443988' into mlx5-queue
+f037512bcff8549ba183f07853c907f4854056e8 Merge branch 'patchq/459824' into mlx5-queue
+0e11d4db33cd3417a1c9c716e5432476ec4e4816 Merge branch 'patchq/459065' into mlx5-queue
+5148a7778d474b0186f9faed1be4132cd79b8364 Merge branch 'patchq/455647' into mlx5-queue
+5a27a257b1286660f8985423f901033edfc5f932 Merge branch 'patchq/430211' into mlx5-queue
+c7b258616c7b0a1fd8a13fb3a5c4060ec961e73c Merge branch 'patchq/460147' into mlx5-queue
 
---===============5645373408486654254==--
+--===============6530663469765658184==--
