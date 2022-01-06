@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 06 Jan 2022 19:15:55 -0000
-Message-Id: <164149655585.11642.2655703433798530068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Thu, 06 Jan 2022 19:20:52 -0000
+Message-Id: <164149685233.14472.17359552637187326784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 2af0cd9f0e9d19823aa37051a144fb09258e10d5
-    new: 0e8edc181698fce73254681e514ae48bf01a16aa
+  - ref: refs/heads/master
+    old: 300ef8274ffae6bf9a4b53e110ccc1fbc7104ceb
+    new: 572a0a647b9b491729d24c083c8410c55bf16326
     log: |
-         1268950cc1523b176cfc0ac214880b029ba700d6 tools/certs: Add print-cert-tbs-hash.sh
-         0fde37e9c004ea6bd15c8ad62c81aaccf46bb9be certs: Check that builtin blacklist hashes are valid
-         d092c4363ae4fc161041188b41c5b7939960ec7a certs: Make blacklist_vet_description() more strict
-         9838c8e917d5993b02b63ba2de09a6eca532531a certs: Factor out the blacklist hash creation
-         0e8edc181698fce73254681e514ae48bf01a16aa certs: Allow root user to append signed hashes to the blacklist keyring
+         50468e4313355b161cac8a5155a45832995b7f25 x86/sgx: Add an attribute for the amount of SGX memory in a NUMA node
+         572a0a647b9b491729d24c083c8410c55bf16326 selftests/sgx: Fix corrupted cpuid macro invocation
          
