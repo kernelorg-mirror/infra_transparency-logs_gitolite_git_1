@@ -1,56 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============1057343596865502995=="
+Content-Type: multipart/mixed; boundary="===============2080874592355645286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Jan 2022 16:47:35 -0000
-Message-Id: <164148765538.13483.4261996834654715908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+Date: Thu, 06 Jan 2022 16:47:58 -0000
+Message-Id: <164148767891.13697.3212115894166243142@gitolite.kernel.org>
 
---===============1057343596865502995==
+--===============2080874592355645286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+user: ebiggers
 changes:
   - ref: refs/heads/master
-    old: c48e8b35625539ea0d02ed3f697e63ea75867f4c
-    new: 08234503854ff143f7aea2a14cc87185ee8538d0
-    log: |
-         08234503854ff143f7aea2a14cc87185ee8538d0 4.4-stable patches
-         
+    old: 13dd19cee4298ffc323737029ca36f70f52f88e9
+    new: 770f462e17e52c4b2bc026fd707ad01fcce95f32
+    log: revlist-13dd19cee429-770f462e17e5.txt
 
---===============1057343596865502995==
+--===============2080874592355645286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-13dd19cee429-770f462e17e5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641487654 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1641487650-ce29afc93accf3dc11a911278deedef2203575f2
+90d132ee44b76350e4aebd36b7598d425b25c996 common/filter: add _filter_bash()
+0d04edb16471eac30e28f00bffd493e0eaf032eb xfs: test COW writeback failure when overlapping non-shared blocks
+58e358032ac1f50acdb66615c04875d5375a6053 ext4: illegal memory access caused by quota index information error
+f375cedff940302e13940324fc0db304cbcbed64 generic/647: add _require_odirect
+53628c36629b0b9c2905a3599220d3f9dbc5695f generic/228: set vars for early _cleanup
+92b9c0dedace427e5b4d176113f13c83499855cd ext4/033: test EXT4_IOC_RESIZE_FS by calling the ioctl directly
+924922639321433722deb771ca26d1a9962f38a2 generic: add mmap CoW test for ranges of two shared files
+b94d2fa60e1a979399eda96825f7b6d524a9d30a generic: add mmap CoW test for regular&destination extents
+84b9ed88b6d3a34a55b681e7462a37a918f5bc10 generic: add mmap CoW test for unwritten&destination extents
+0405a0a3941ca4c365e3fbba9801d7d2ff7b9bbe generic: add mmap CoW test for holes&destination extents
+ac3fcc16d29886663e11da04533cb49d764b5b24 common/rc: introduce _require_scratch_delalloc()
+ef91f0027bd080444183db35058b29657fab9f2d generic: add mmap CoW test for delalloc&destination extents
+4599d1700f93ad28aa59c8d1dc67e37a87573ca1 generic: add mmap CoW test for mixed&destination extents
+0d9bd77550bd807baa03f454424005be7a7fe3da generic: add mmap CoW test for regular&source extents
+eb4a503060f7d6dfaaf168c14606b4b13f5cf12c generic: add mmap CoW test for unwritten&source extents
+117fe7fe50393a9f725b03b5be6094a18f97c18f generic: add mmap CoW test for holes&source extents
+61de38736b41cdb8410d5f86eea6b3f9cf9c4188 generic: add mmap CoW test for delalloc&source extents
+74b782c61aa4314b2a811b68e1d4052699c618d3 generic: add buffered-io CoW test for mixed&source extents
+644e6bca673420bec97a52b16d1f88ed48ef5d7d generic: add direct-io CoW test for mixed&source extents
+3472f99857df766a4778fb0c8dc06188d4644461 generic: add mmap CoW test for mixed&source extents
+a2ba26e1ac18bd6e3cab04c7c86eb0d5d2bb3993 generic: add race test between reflink and mmap read
+6a809094d23258efc870b900a6ed2a96beaf9855 generic: add race test that mmap write to source of reflink
+2daa91f1b59927ca71c500e749097324c6362908 generic: add race test that mmap write to target of reflink
+770f462e17e52c4b2bc026fd707ad01fcce95f32 btrfs: test cleaning up of the stale device
 
-c48e8b35625539ea0d02ed3f697e63ea75867f4c 08234503854ff143f7aea2a14cc87185ee8538d0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHXHSYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ppQQAI+WOvzfFLlCkOWvpjyf
-6jGzJKVFck+YzYd6ajjvpsNcI+HCVH4aUPFhV69GXFV/F1teAECKv9gjapIyjdz7
-+atxGzqilA/FsWoDFj/64QHvkB1hl/y9N6eAgxepZVQ4aMECru3Dxm88FMYLEv38
-zxKaetHBuVY6D/S8RdR7WAU3BTw3d4LgY00BWvJA8/2swGngR9mWf3MrabwVZj4Z
-mrg1CJHpXybK3XBIdQbRbZT6l3xuBsPqPha+DC9NvdL4w4ywPu98x8gKDfOoM156
-VR27wNSPU5GH50MgBf2KNZx6Bt5EYcIocCtPvrlhYbZx+LmEl/z4TOVbvxiq1sUD
-LMzr2JJsK+A+VOVhTtbe8sKJvTbb4unAIjb5B/splPfIqBByqFebRTfe1PXKkmTJ
-5uEwJFwhVTYrgg0Svb9zQuUwzVqO/OciuQBULI40DnJRKzwk+vzsL7Qwj+DcPUYS
-x/Na0odWbr0E+F48iWDYpPBfcHXwqnS4uCC6Zbd8KG8pyEYOR428cuYcs4gMj/Ik
-SepYxz+h2n6eExvZywgezeeqzaL9hvvTTBOHFpmE8hur7MsNcC+BFaB7nRxCWsZm
-hi1MQ3sYL4RsLz3UdgtkYYjuHwQQsBj1jqB2FCis/iICSL0M2mL0hf3JbHAoNJYS
-HDwoZUBnfuEjPVTXEZ1ZQRxh
-=EBt9
------END PGP SIGNATURE-----
-
---===============1057343596865502995==--
+--===============2080874592355645286==--
