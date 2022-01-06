@@ -1,44 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2681428681456966345=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 06 Jan 2022 16:13:29 -0000
-Message-Id: <164148560994.24618.2940836700662494120@gitolite.kernel.org>
-
---===============2681428681456966345==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Thu, 06 Jan 2022 16:16:36 -0000
+Message-Id: <164148579687.27079.16257665596581822365@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 3cc2d7eede268930304b35fdce6121e18b2ceef6
-    new: ca4f94a6a18893dc5fe412c4a5503984a2546e72
-    log: revlist-3cc2d7eede26-ca4f94a6a188.txt
-
---===============2681428681456966345==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3cc2d7eede26-ca4f94a6a188.txt
-
-f27ae2c400785ded0b8db4d9151d1e91e88f64c6 appendix/questions: Add a reminder for future work
-b4989596fc8d9536ff21336656e3a41540752195 defer/rcuintro: Add section on the core RCU API
-5550e66775742d6be954ff14b963992225d56848 defer/rcuusage: Self-review updates
-4b8e32bbb1175e6dc758221e073370e0112d3a11 defer/rcuusage: Self-review checkpoint
-ac4b1307fac89d78fd343439114448e333d7e2b2 index: Add tags for 'reference count'
-47cfbe216ebdaff17fdb66b9115eb37e3674ebd7 index: Add tags for 'existence guarantee'
-fc37cb3e820c427dced8d1d1fb611e90c2a6400a index: Add tags for 'type-safe memory'
-f55ae4d99e03acba3e702cd4fbef07398dd0f365 defer/rcuapi: Add index tags for RCU APIs
-29c6a6f292d2d87ff645f55cab93ad5bfeddc10d defer/rcuapi: Fix typo 'get_nulls_values()'
-298f8be865e97383b073fa29f6bf946317288ac0 datastruct: Add index tags for userspace-RCU APIs
-18f13d3554aa4057a0c9a33e5d642c379c9c3186 count: Add index tags to APIs
-e5913d092fdca765cb40b95d8947c5c9b0f9357c locking: Add index tags to APIs
-dee11baa44fa430ce8f7dc7e2afc90bc6e19fa8d treewide: Add acronym tags for QSBR and EBR
-ca4f94a6a18893dc5fe412c4a5503984a2546e72 WIP locking: Add acronym tag for RAII
-
---===============2681428681456966345==--
+  - ref: refs/heads/pci/vga
+    old: 64a9489d204dca6eec903171a1619f4d808e07c7
+    new: 0f4caffa12979152d2378edf5e88ea6b7fb6befd
+    log: |
+         f82f20e258d65620f051a5ebd2ddbbf2f1e05cb6 vgaarb: Move vga_arb_integrated_gpu() earlier in file
+         22f030f25dfab4123990b6b737b810d31c17fc76 vgaarb: Factor out vga_select_firmware_default()
+         221bd5ebee6194f974d170651804fddd1ff42d1c vgaarb: Factor out default VGA device selection
+         efd4c5e17b7f3e974b6749f2807ecb30982c54a6 vgaarb: Move firmware default device detection to ADD_DEVICE path
+         cf322fc8df6d31e81b6a0eff7fddca047baf4af5 vgaarb: Move non-legacy VGA detection to ADD_DEVICE path
+         7f6b8bd9489c20628a2638853d385473cfc765d2 vgaarb: Move disabled VGA device detection to ADD_DEVICE path
+         66e5ef70f0d38c64c411ba32d9756be0d0e200a9 vgaarb: Remove empty vga_arb_device_card_gone()
+         b0f75cd17b62c82053d1b0f22c0f8f43f4b0fe30 vgaarb: Log bridge control messages when adding devices
+         d5d105f049bc33a091f29b2de27cccc72d4e6c2c vgaarb: Use unsigned format string to print lock counts
+         0f4caffa12979152d2378edf5e88ea6b7fb6befd vgaarb: Replace full MIT license text with SPDX identifier
+         
