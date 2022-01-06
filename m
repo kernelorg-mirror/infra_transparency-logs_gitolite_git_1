@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 06 Jan 2022 13:14:13 -0000
-Message-Id: <164147485378.7957.2242860494684666457@gitolite.kernel.org>
+Date: Thu, 06 Jan 2022 13:18:47 -0000
+Message-Id: <164147512759.10764.4707955977596830238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,15 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-5.16/upstream-fixes
-    old: 54d0cd1f2e7b095a100e2388190cb97fac940012
-    new: 50450e5b005acec517ce1de347e05ee256711e89
+    old: 50450e5b005acec517ce1de347e05ee256711e89
+    new: 857fe2bb70fd66bf54ddd5c7470581dc4b4f608a
     log: |
-         64f008d9015cbd61c43844a14e5f1fa98d20f486 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
-         cd6cc09437aafeb90ee809fd46262a5f4c57cae7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
-         4ca4ec127f0f24ef8ae6a8b58fdd983fabda06d0 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
-         50450e5b005acec517ce1de347e05ee256711e89 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
+         857fe2bb70fd66bf54ddd5c7470581dc4b4f608a HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
          
   - ref: refs/heads/for-next
-    old: c306e5fe0691b5d48219ba4b100a4f0c300d72ae
-    new: 34f091a6e0591eee4c3b1e1392b5ac214094429d
+    old: 34f091a6e0591eee4c3b1e1392b5ac214094429d
+    new: f599dcbb4d44597dbdea46970bb55ba7c9172bca
     log: |
-         64f008d9015cbd61c43844a14e5f1fa98d20f486 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
-         cd6cc09437aafeb90ee809fd46262a5f4c57cae7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
-         4ca4ec127f0f24ef8ae6a8b58fdd983fabda06d0 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
-         50450e5b005acec517ce1de347e05ee256711e89 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
-         34f091a6e0591eee4c3b1e1392b5ac214094429d Merge branch 'for-5.16/upstream-fixes' into for-next
+         857fe2bb70fd66bf54ddd5c7470581dc4b4f608a HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
+         f599dcbb4d44597dbdea46970bb55ba7c9172bca Merge branch 'for-5.16/upstream-fixes' into for-next
          
