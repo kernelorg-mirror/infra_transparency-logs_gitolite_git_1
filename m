@@ -1,57 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7316195393849662526=="
+Content-Type: multipart/mixed; boundary="===============2492838217135495796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 06 Jan 2022 14:42:20 -0000
-Message-Id: <164148014095.32685.17544839973577591177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 06 Jan 2022 14:48:12 -0000
+Message-Id: <164148049285.3468.432273908703816891@gitolite.kernel.org>
 
---===============7316195393849662526==
+--===============2492838217135495796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.16/upstream-fixes
-    old: d5ed8500853212de669dc0fe40843976557d29ea
-    new: 3809fe479861194e310c23ed48b010c7c0f72d22
+  - ref: refs/heads/driver-core-testing
+    old: 3407d826c18d9aed3c51545cc26ff9a2fda65463
+    new: 0589e8889dce8e0f0ea5bbf757f38865e2a469c1
     log: |
-         f364c571a5c77e96de2d32062ff019d6b8d2e2bc HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
-         0a94131d6920916ccb6a357037c535533af08819 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
-         ff6b548afe4d9d1ff3a0f6ef79e8cbca25d8f905 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
-         aa320fdbbbb482c19100f51461bd0069753ce3d7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
-         bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
-         98b6b62cd5569a158868b62dc7866b5aae5d9a38 HID: intel-ish-hid: ishtp-fw-loader: Fix a kernel-doc formatting issue
-         3809fe479861194e310c23ed48b010c7c0f72d22 HID: address kernel-doc warnings
+         885e50253bfd6750327a265405461496d6af1639 driver core: Move driver_sysfs_remove() after driver_sysfs_add()
+         00eb74ea2c14418042347eaa34c6b73ac6ec1e76 driver core: Make bus notifiers in right order in really_probe()
+         358fcf5ddbec4e6706405847d6a666f5933a6c25 debugfs: lockdown: Allow reading debugfs files that are not world readable
+         0589e8889dce8e0f0ea5bbf757f38865e2a469c1 drivers/firmware: Add missing platform_device_put() in sysfb_create_simplefb
          
-  - ref: refs/heads/for-5.17/magicmouse
-    old: 0b91b4e4dae63cd43871fc2012370b86ee588f91
-    new: 33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c
-    log: |
-         33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c HID: magicmouse: Fix an error handling path in magicmouse_probe()
-         
-  - ref: refs/heads/for-next
-    old: 30c7543c6610973cbb717d7c77714d985806a1a3
-    new: 1bec0754eaa0d6eb77a488b160885e911b30ab7a
-    log: revlist-30c7543c6610-1bec0754eaa0.txt
 
---===============7316195393849662526==
+--===============2492838217135495796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30c7543c6610-1bec0754eaa0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f364c571a5c77e96de2d32062ff019d6b8d2e2bc HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
-0a94131d6920916ccb6a357037c535533af08819 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
-ff6b548afe4d9d1ff3a0f6ef79e8cbca25d8f905 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
-aa320fdbbbb482c19100f51461bd0069753ce3d7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
-bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
-98b6b62cd5569a158868b62dc7866b5aae5d9a38 HID: intel-ish-hid: ishtp-fw-loader: Fix a kernel-doc formatting issue
-3809fe479861194e310c23ed48b010c7c0f72d22 HID: address kernel-doc warnings
-33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c HID: magicmouse: Fix an error handling path in magicmouse_probe()
-1bec0754eaa0d6eb77a488b160885e911b30ab7a Merge branches 'for-5.16/upstream-fixes', 'for-5.17/apple', 'for-5.17/core', 'for-5.17/hidraw', 'for-5.17/i2c-hid', 'for-5.17/letsketch', 'for-5.17/logitech', 'for-5.17/magicmouse' and 'for-5.17/thrustmaster' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641480491 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1641480490-8f6c9df5a65f912231775fdf5ff260525f815652
 
---===============7316195393849662526==--
+3407d826c18d9aed3c51545cc26ff9a2fda65463 0589e8889dce8e0f0ea5bbf757f38865e2a469c1 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHXASsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OlYQAJI541JWcb7HaqiVBXxr
+W4dk1g9TGAFlsY77w9COLNmF0QSMxok+rvxhwqZQQ8iDVeel969RnWfwGlOf5GJT
+8QsDT+7bowOmXoaAMDkqIW4qErD8+Fa9JqOLXMEEU44GNzRCAb7dWzwZnKhbfIdO
+6UZhhBoJUYIdZ0msg03Jq36kHp19z5Gv0H0kw1mdEws7QFBcvTseUuFbTeJD/w3h
+uWnL5XceLitnaqjgglr6C9m3q0+jQsWDKXvXFN81lnR9onvQIAV5poiuABMkShQK
+k3byyQ90TTzdCqWjGM5yf5Jbp2lTetOTpjIeBF9a1ig0TR9yZr6C5D0ce5M7Ovj/
+VX/kBRIIA2OOnnzfzZJ1k2ZA3Bnup27tObrGHM/XCmSu/RW0Bksesz0pWLhBIk0G
+KXTZZ2JsVbb+qD39WrmlOtWdVdOGJUIhj/sNxRo4v10GdkZjRUa9hbNtxdSKG4fx
+gDTTdUeTDHqemz/G9KyqCoFJNSF7Pah5RlV6YJuQirijjq6BFShtDFUAYonP01wI
+fZC9tmZpeaKFP0ojbPCXZyyRKB06ConBXfLypHRlHh1Lm5MWMsEHakhSZRp+myAG
+Bavu28J+PNuDGjrJKKEQ0gZXHfalXwkuGhca90hYAzHoQ3wsERS1NLkCUpMMlzL8
+VYmcgNyeGMByCdWy+39j39VH
+=HB9v
+-----END PGP SIGNATURE-----
+
+--===============2492838217135495796==--
