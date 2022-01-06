@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/fscrypt
-Date: Thu, 06 Jan 2022 19:32:23 -0000
-Message-Id: <164149754388.22349.11165614127966860421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 06 Jan 2022 19:36:43 -0000
+Message-Id: <164149780399.25048.3352023343075868920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/fscrypt
-user: ebiggers
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/wip-wrapped-keys
-    old: e811af85ec3b29558305692b3654b7591ccdbf90
-    new: 8f926aa780a1e1bc6e2b7b62dc29612ad4dfcfcd
+  - ref: refs/heads/for-next
+    old: aa5a4ba56397d2de635224383ab57b1994af6212
+    new: fd649799dae6163b575d2863db98f1e908d79c2c
     log: |
-         a0cee7836065e3c8307e77e348f6c036b159c2db qcom_scm: fix argument directions
-         b68323bbd702dba282b5db8bded633c525ec5c2d qcom_scm: fix return values
-         8f926aa780a1e1bc6e2b7b62dc29612ad4dfcfcd TESTING: add some log messages for debugging
+         fd649799dae6163b575d2863db98f1e908d79c2c nfsd: fix crash on COPY_NOTIFY with special stateid
          
