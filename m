@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8934019269455780263=="
+Content-Type: multipart/mixed; boundary="===============5164041162190975111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Jan 2022 20:26:51 -0000
-Message-Id: <164150081199.24610.6067432764576163023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 06 Jan 2022 20:26:57 -0000
+Message-Id: <164150081779.24733.14449532320007362767@gitolite.kernel.org>
 
---===============8934019269455780263==
+--===============5164041162190975111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: 1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a
-    new: 14e2976fbabdacb01335d7f91eeebbc89c67ddb1
+  - ref: refs/heads/for-5.17
+    old: ebe33e5a98dcf14a9630845f3f10c193584ac054
+    new: 3e718b44756e2829e7189a9504aa7a6d7f394d6c
     log: |
-         14e2976fbabdacb01335d7f91eeebbc89c67ddb1 regulator: qcom_smd: Align probe function with rpmh-regulator
+         709c81b55c6aa74a6cdad27bdc224f50962b6ad9 spi: spi-mux: Add reference to spi-peripheral-props.yaml schema
+         74b86d6af81be73bb74995ebeba74417e84b6b6f spi: qcom: geni: set the error code for gpi transfer
+         f8039ea55d4ccac2238a247a574f0acb3bc1dc4b spi: qcom: geni: handle timeout for gpi mode
+         3e718b44756e2829e7189a9504aa7a6d7f394d6c spi: dt-bindings: mediatek,spi-mtk-nor: Fix example 'interrupts' property
          
 
---===============8934019269455780263==
+--===============5164041162190975111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1641500810 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641500810-10af346ab1e5cc761c17ffffe94af95205217dea
+pusher C3F436CA30F5D8EB 1641500816 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1641500815-88c8f5dee8984b961964d9e62b2fb3e3824c813c
 
-1f156b4285865dc2eb66e7a78c7ba80c17bb2b0a 14e2976fbabdacb01335d7f91eeebbc89c67ddb1 refs/heads/regulator-5.17
+ebe33e5a98dcf14a9630845f3f10c193584ac054 3e718b44756e2829e7189a9504aa7a6d7f394d6c refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHXUIoACgkQJNaLcl1U
-h9DcYgf8DEGah/8OXqsdnsKtX0801g/s6TmBb/hlXYTVig0VI8YZmg6nQ4Op6/6u
-xRnH/a9pJj2s6O0CIxId+/0/O2H8w9H6VIxUjrNuGyBWjTqNiGuDZOOHYB6sBR3v
-2d4g2wgFTsz4Z/wqfezSube/Q5LTqo1Qp9dHzFlNGvmzZHpzfT7yZ4sIMxZ3qT6D
-nJoumn2gPJMLnRq/g18w6UQRhwlORqJ2NUL6R1QLTlveWLeJvHS41MFMbupwkOXf
-CMUKYk8gJK8hQYkOo055VfkJzFlw6l+NlUzpOACcJ5QeLjNiomaNNuA6A0/jyouI
-8QXplERGZYcQMA1s1JbrM8/LCsD5VQ==
-=tN4O
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHXUJAACgkQJNaLcl1U
+h9BYKwf+PQ/mcd4NAEIMPUO40HcIkEpdlUT/Rt4IWZ7V3BSRz+15JvAnwXpy8CoT
+mHSw+Ih/lqj9gd0D/xWfzl/P3gU0p80GRZccjLHcwmSDZl0QYER2ij/LTzfHuEzV
+EAe7oJyFzEnZOEDa2Asg79T2LK72sQraVveDUkIFWZFEYCbZRgIKEzoM52TZgNH9
+TP+P35SshW6gG+cM8oXKsCEVOMfHcuDBwn1AfsBuCv920L/HKSMKPRrm/uwSfjoK
+w/Ho4Xs712wCgwTaR1l6hawtO0B7pWJrKklCIdriZN1Jxptql8/vfYQoZRNg3Q6e
+hEgXmhzcVek9NdymIEuAxQnx2a+7+g==
+=XYhy
 -----END PGP SIGNATURE-----
 
---===============8934019269455780263==--
+--===============5164041162190975111==--
