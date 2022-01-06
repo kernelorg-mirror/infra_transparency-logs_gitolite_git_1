@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 06 Jan 2022 09:28:44 -0000
-Message-Id: <164146132438.15751.11882115476663183754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 06 Jan 2022 09:31:48 -0000
+Message-Id: <164146150809.18393.9739820490967148247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 09b7bafa9876f742446d06b7fb19e7da352aa64a
-    new: 395cc1cdcbd4aa3983faa9404309e1e86083c685
+  - ref: refs/heads/master
+    old: 68ac0f3810e76a853b5f7b90601a05c3048b8b54
+    new: 45a98ef4922def8c679ca7c454403d1957fe70e7
     log: |
-         c5b990c71179763d0dab368ccb85ef46ee055335 MAINTAINERS/vsprintf: Update link to printk git tree
-         73d86812a35965a3eab179abb462b77b4dd8a740 MAINTAIERS/printk: Add link to printk git
-         395cc1cdcbd4aa3983faa9404309e1e86083c685 Merge branch 'for-5.17' into for-next
+         45a98ef4922def8c679ca7c454403d1957fe70e7 net/xfrm: IPsec tunnel mode fix inner_ipproto setting in sec_path
          
