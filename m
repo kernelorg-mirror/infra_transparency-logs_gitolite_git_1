@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/linux
-Date: Thu, 06 Jan 2022 18:26:39 -0000
-Message-Id: <164149359945.13070.12379492523187224487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 06 Jan 2022 18:30:59 -0000
+Message-Id: <164149385972.15813.17298253810968607536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/linux
-user: mkp
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/5.18/discovery
-    old: ad597d4264ab2ea9df5cf20b69ebde7da84fcddc
-    new: 653fbf00d37c00c0b890903224f3160c8d3b6b8a
+  - ref: refs/heads/dev
+    old: 3cda34a0004e965b08daf04fb0f2cee935654e9f
+    new: feba9f855e1f9231392df9e7c2ba94e2fe1bc822
     log: |
-         653fbf00d37c00c0b890903224f3160c8d3b6b8a scsi: sd: Reorganize DIF/DIX code to avoid calling revalidate twice
+         feba9f855e1f9231392df9e7c2ba94e2fe1bc822 EXP timers: Debugging for last-resort jiffies update
          
