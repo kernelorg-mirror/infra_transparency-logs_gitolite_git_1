@@ -1,28 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Thu, 06 Jan 2022 05:18:50 -0000
-Message-Id: <164144633013.23486.10474446696389598678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Thu, 06 Jan 2022 05:22:39 -0000
+Message-Id: <164144655929.27403.10672106152664963043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/dev
-    old: db19c4cdc28a8ec1241d50656991ab1bd96f5c02
-    new: 3c693f7766d6ba682095a6dcf316a511a22211ac
+  - ref: refs/heads/for-5.17
+    old: 5e53cac53b30f13b9e415cefc155665d5b982e2f
+    new: 423fd00f86397b6c307d4def459b3229901eec44
     log: |
-         2e1a1101de1e37c80c750c2657cc35d7f560756c ext4: remove useless resetting io_end_size in mpage_process_page()
-         756e311f7f200754096117caf9ef9d656edb280f ext4: remove redundant statement
-         4bf7773e5a636b80de2b9025a7e107b38fe189b9 ext4: remove unused assignments
-         a1f051415698049680c2bfb79d703e1ff7af36a3 ext4: drop an always true check
-         b687e7ba0849122bf862639b98256a0b984a940a ext4: remove redundant o_start statement
-         e81dca082197eed04b89a7c511b454a3c8dd55fb ext4: remove unnecessary 'offset' assignment
-         304f3f7a2817c03a05efabd6d4ae3f5e85b0da73 ext4: set csum seed in tmp inode while migrating to extents
-         42e2b7ca9b4d4a9bb350910a2a66628699365572 ext4: fix a copy and paste typo
-         65759081cc43ab1890487fa15a6a59ff249a71df fs/ext4: use BUG_ON instead of if condition followed by BUG
-         3c693f7766d6ba682095a6dcf316a511a22211ac ext4: don't use the orphan list when migrating an inode
+         47252bdae0763ad686757e4e0c2eabde3e2ab7f6 ata: sata_fsl: fix scsi host initialization
+         4e0546c4cf8cde612b73ef0f1f7458918d228803 ata: sata_fsl: fix cmdhdr_tbl_entry and prde struct definitions
+         339d044414d7d0ab4c7bb8016d152d7c284fb8b5 ata: ahci_xgene: use correct type for port mmio address
+         5effa28a0979b4ff9f630c90661916151aa89302 ata: fix read_id() ata port operation interface
+         82c29b923796e6c475313bc1edc86deaabcdb127 ata: pata_octeon_cf: remove redundant val variable
+         660ff8c3ead06b361be3f7fdaca25f56e7f361a6 ata: pata_cs5535: add compile test support
+         edeb8ed5d10fd29625dc2a78eaa47a964423e1b5 ata: pata_ftide010: add compile test support
+         15a6c7e42faa7b8c41a46bc1aeb7e926b7030322 ata: pata_imx: add compile test support
+         3972b0c2d21f754a3bc7860ae4676260611afbb5 ata: pata_pxa: add compile test support
+         7c44c1248c36342bf1ccc0fab4a4ed9c62286604 ata: pata_legacy: add compile test support
+         423fd00f86397b6c307d4def459b3229901eec44 ata: pata_samsung_cf: add compile test support
          
