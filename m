@@ -1,25 +1,53 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Jan 2022 12:10:13 -0000
-Message-Id: <164147101378.1502.12855506100450035883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Thu, 06 Jan 2022 12:16:47 -0000
+Message-Id: <164147140788.4889.14424763640748277879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: 502a2ce9cdf4225983a07c8d99ea2afd53f48837
-    new: c4251db3b9d2ad4411f95e65ca00ea0f6800319b
+  - ref: refs/heads/next
+    old: 71f777c6b74c765dd1f74f4b837ef82238b088e7
+    new: 9399c26697e7c9658d082c6390e143319decaef5
     log: |
-         bcf141b2eb551b3477b24997ebc09c65f117a803 xfrm: fix policy lookup for ipv6 gre packets
-         ec3bb890817e4398f2d46e12e2e205495b116be9 xfrm: fix dflt policy check when there is no policy configured
-         7770a39d7c63faec6c4f33666d49a8cb664d0482 xfrm: fix a small bug in xfrm_sa_len()
-         8dce43919566f06e865f7e8949f5c10d8c2493f5 xfrm: interface with if_id 0 should return error
-         68ac0f3810e76a853b5f7b90601a05c3048b8b54 xfrm: state and policy should fail if XFRMA_IF_ID 0
-         45a98ef4922def8c679ca7c454403d1957fe70e7 net/xfrm: IPsec tunnel mode fix inner_ipproto setting in sec_path
-         c4251db3b9d2ad4411f95e65ca00ea0f6800319b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+         d4a348fdf53aea1b2ec6c4e3e5dc3f9177822dc5 hw/scsi/vhost-scsi: don't leak vqs on error
+         8053a255bdf950198ff6c481a4ecbb3e0f2f1a62 hw/scsi/vhost-scsi: don't double close vhostfd on error
+         9399c26697e7c9658d082c6390e143319decaef5 virtio/vhost-vsock: don't double close vhostfd, remove redundant cleanup
+         
+  - ref: refs/heads/pci
+    old: 71f777c6b74c765dd1f74f4b837ef82238b088e7
+    new: 9399c26697e7c9658d082c6390e143319decaef5
+    log: |
+         d4a348fdf53aea1b2ec6c4e3e5dc3f9177822dc5 hw/scsi/vhost-scsi: don't leak vqs on error
+         8053a255bdf950198ff6c481a4ecbb3e0f2f1a62 hw/scsi/vhost-scsi: don't double close vhostfd on error
+         9399c26697e7c9658d082c6390e143319decaef5 virtio/vhost-vsock: don't double close vhostfd, remove redundant cleanup
+         
+  - ref: refs/tags/for_autotest
+    old: e8fb24810abc1ab489f3b03b6f2df6bd76e9c494
+    new: f1fe6276e8cf39140abad796528107bd262a7911
+    log: |
+         d4a348fdf53aea1b2ec6c4e3e5dc3f9177822dc5 hw/scsi/vhost-scsi: don't leak vqs on error
+         8053a255bdf950198ff6c481a4ecbb3e0f2f1a62 hw/scsi/vhost-scsi: don't double close vhostfd on error
+         9399c26697e7c9658d082c6390e143319decaef5 virtio/vhost-vsock: don't double close vhostfd, remove redundant cleanup
+         
+  - ref: refs/tags/for_autotest_next
+    old: e8fb24810abc1ab489f3b03b6f2df6bd76e9c494
+    new: f1fe6276e8cf39140abad796528107bd262a7911
+    log: |
+         d4a348fdf53aea1b2ec6c4e3e5dc3f9177822dc5 hw/scsi/vhost-scsi: don't leak vqs on error
+         8053a255bdf950198ff6c481a4ecbb3e0f2f1a62 hw/scsi/vhost-scsi: don't double close vhostfd on error
+         9399c26697e7c9658d082c6390e143319decaef5 virtio/vhost-vsock: don't double close vhostfd, remove redundant cleanup
+         
+  - ref: refs/tags/for_upstream
+    old: e8fb24810abc1ab489f3b03b6f2df6bd76e9c494
+    new: f1fe6276e8cf39140abad796528107bd262a7911
+    log: |
+         d4a348fdf53aea1b2ec6c4e3e5dc3f9177822dc5 hw/scsi/vhost-scsi: don't leak vqs on error
+         8053a255bdf950198ff6c481a4ecbb3e0f2f1a62 hw/scsi/vhost-scsi: don't double close vhostfd on error
+         9399c26697e7c9658d082c6390e143319decaef5 virtio/vhost-vsock: don't double close vhostfd, remove redundant cleanup
          
