@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 06 Jan 2022 20:19:20 -0000
-Message-Id: <164150036037.18062.16109792513712129895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Thu, 06 Jan 2022 20:25:01 -0000
+Message-Id: <164150070116.22434.6426191920351553127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/next
-    old: 2125d3c3ce9ba1d4b56a0c95eb820971ab35b180
-    new: 42f4046bc4ba56c6e4d2af7a9d7f70eaa563daec
-    log: |
-         f046fff8bc4c4d8f8a478022e76e40b818f692df efi/libstub: measure loaded initrd info into the TPM
-         42f4046bc4ba56c6e4d2af7a9d7f70eaa563daec efi: use default_groups in kobj_type
-         
+  - ref: refs/tags/archive/debian/1.46.5-2
+    old: 0000000000000000000000000000000000000000
+    new: 40eb87a28913ccd73ce08b67e55732d54b5b3b75
+  - ref: refs/tags/debian/1.46.5-2
+    old: 0000000000000000000000000000000000000000
+    new: 75b76a120f198f111e654a41f70eec56ec64a2f4
