@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/markgross/linux
-Date: Thu, 06 Jan 2022 01:09:36 -0000
-Message-Id: <164143137665.29159.4890204337644556578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 06 Jan 2022 01:11:42 -0000
+Message-Id: <164143150291.31417.13585669177441156932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/markgross/linux
-user: markgross
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/v4.9-rt-rebase
-    old: 0000000000000000000000000000000000000000
-    new: f9605f2ec75d68a5a0741e09bf87342668a24311
+  - ref: refs/heads/master
+    old: b9adba350a841e8233d3e4d8d3c8dede3fc88c46
+    new: 87eee9c5589e1e546537a38a72e7ea3f0a7cac60
+    log: |
+         87eee9c5589e1e546537a38a72e7ea3f0a7cac60 testptp: set pin function before other requests
+         
