@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8412049097094813438=="
+Content-Type: multipart/mixed; boundary="===============7852248505234426098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 06 Jan 2022 09:57:19 -0000
-Message-Id: <164146303964.15403.13353560173337757235@gitolite.kernel.org>
+Date: Thu, 06 Jan 2022 09:58:42 -0000
+Message-Id: <164146312259.15907.8743936497517746356@gitolite.kernel.org>
 
---===============8412049097094813438==
+--===============7852248505234426098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/kobject-const
-    old: 36ec5af62f0a87dfcfe928ffeda4ed2b70db368f
-    new: 6efa58e846c92d86d2c6c269929815b444d93e63
+    old: 6efa58e846c92d86d2c6c269929815b444d93e63
+    new: 15fbe3788ce1d3662410e7395a7cdb8d595aa29d
     log: |
-         254df4dcddf316102716939abaaf2dec4939255a drm/amdgpu: use default_groups in kobj_type
-         6efa58e846c92d86d2c6c269929815b444d93e63 drm/amdkfd: use default_groups in kobj_type
+         15fbe3788ce1d3662410e7395a7cdb8d595aa29d drm/vmwgfx: use default_groups in kobj_type
          
 
---===============8412049097094813438==
+--===============7852248505234426098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641463038 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641463121 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1641463037-f6871a0c64fcc6b74c8cdec36492d9fd0d50e8b3
+nonce 1641463120-8ca14f88e7fa1d73d763def7ad2d65ec684c3e29
 
-36ec5af62f0a87dfcfe928ffeda4ed2b70db368f 6efa58e846c92d86d2c6c269929815b444d93e63 refs/heads/kobject-const
+6efa58e846c92d86d2c6c269929815b444d93e63 15fbe3788ce1d3662410e7395a7cdb8d595aa29d refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHWvP4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P3MP/jn1Iw25WKmLVRbSGl7H
-S7709ODcnPgqqjyx0vjexK1X7E//Xkk/FbSIJHPy9jfEVTX513h6/OX7RXZqsn3R
-efJmLoI3RhGr04PGVwa6S14ZH1INlzK8jk0W0fubMvl+YLl0Ei09PHdqDms1Ryy9
-deC+vIi+2N1G1iMl2PSxj0+WVFUMqgUi5+/0Ff2nnbjWfvYrGnbnxwvBLcsk337c
-kEJmDOicl+nvoXeq1n+W2F0WYS1cLSXHz5mtTpDdYosDV6LRRDip5u3RocuZa5wE
-sBUC8q4fum0wQMHHlox/y6S7Tos8N1qYNjHuCIzjW+BiDNT9xhU9hGGJMvXB4ULa
-yDXFpLoh7KKzlw2lJ1cYDDKXwvs6ldfIxGjm6DfnJlLdbk+0C+8N92W6CKduGGI9
-jI/wAoyAD3TXwe+EAoZ0suaIWdveIXK8AOotBG5Imrh/jSW2MrmxmpIOP5nKO1j1
-YXpDH6NSAu8WrTqdE/AHCW0VwutUr1cB/Ip/g01c5Vj94jSkrNE7j2lOEfafgI6v
-tpIFm+h7lAGffrQHPrV2MA0Qw9fp/l99ODzXUQtBNnINc3jHYzcWzaa/OGFvF4BW
-mLZn31re5SToifyQqsQn9xUBBmOmrKNLqndfirjCgUJX/ECObjse+z0eJ+mwI+6P
-n9mKhvWbRqHoCzZEZTUYlL0y
-=/H2k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHWvVEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+weQP/1Zr3Ka0xdRLMWqpB46S
+/+flGsog3W6WP/i6MJAimuDnx6OAcrCJzZ0WjbXPieMbPyi6PqOaZntNpSynjlvC
+zFJIiTDjzX4Tu7sGOm7OybqevHVElM1Vdj2FPNwPJcCfc5ZcRtAQsS6+WsBv5NbC
+eFEXjJSDl+9NtxapUH4dhVJG8i+FmyHSS8qkbXlbnNQ+o20ech+kDWuxokVKi9lb
+DwucpERMa3N/OK71rxnIU8vIWHc3C/WGYKPVEuR1lkg2w0IXVtwSKoHeBAPMpQUg
+ZJv/HmQXbxI0YbVUuKXAoIIZnxSBBjW37D+bhOO173w6ihku4x8bn1DZFl1Ey4NJ
+wDSGGQ5U5Tba4IGyGSDF2bvEWr66TeEFlpDAL1GDOIRHZa70jn8L4dNOKz11ISu2
+SXSCHequmdjhkTx56HMrnYv5EOKZUiXQZIdtrNwL1INOJMkPO2JtyHi3BBSp2ips
+mMbxh5B0OeFHs6PKkS3bcRXaE9/5M72K3typHZA00fVbH7DTa2ZKJyeRfUGLCKtU
+OqsJNMQjRKy1aGJhYfYs89wk3zXfT517+bSI2a4ueXl7Z6eFMKhKM8OC34WNntBG
+/GAweg6QSWK7mf0tMW/1oJNqWwBa7u6xOFJG9xtu/8G6lh5y2iSe5Bn8coudZwRc
+XZgaPoCWwPDkO5xE8FXGxrDc
+=4gnt
 -----END PGP SIGNATURE-----
 
---===============8412049097094813438==--
+--===============7852248505234426098==--
