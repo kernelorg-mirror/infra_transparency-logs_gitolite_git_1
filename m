@@ -1,60 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6723690478719805194=="
+Content-Type: multipart/mixed; boundary="===============7316195393849662526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 06 Jan 2022 14:36:58 -0000
-Message-Id: <164147981851.29721.17608431129566749469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 06 Jan 2022 14:42:20 -0000
+Message-Id: <164148014095.32685.17544839973577591177@gitolite.kernel.org>
 
---===============6723690478719805194==
+--===============7316195393849662526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/usb-testing
-    old: 01ec4a2e8f01f027a0f06cad237c935da8d643bf
-    new: 601a5bc1aeef772ab1f47582fd322957799f5ab5
+  - ref: refs/heads/for-5.16/upstream-fixes
+    old: d5ed8500853212de669dc0fe40843976557d29ea
+    new: 3809fe479861194e310c23ed48b010c7c0f72d22
     log: |
-         b52fe2dbb3e655eb1483000adfab68a219549e13 usb: dwc3: qcom: Fix NULL vs IS_ERR checking in dwc3_qcom_probe
-         34146c68083f1aef6709196b3dc888c1ceffd357 usb: dwc2: do not gate off the hardware if it does not support clock gating
-         92ef98a4caacad6d4a1490dda45d81ae5ccf5bc9 usb: dwc2: gadget: initialize max_speed from params
-         f2f69bf65df12176843ca11eab99949ba69e128b usb: gadget: u_audio: fix calculations for small bInterval
-         601a5bc1aeef772ab1f47582fd322957799f5ab5 usb: gadget: u_audio: Subdevice 0 for capture ctls
+         f364c571a5c77e96de2d32062ff019d6b8d2e2bc HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
+         0a94131d6920916ccb6a357037c535533af08819 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
+         ff6b548afe4d9d1ff3a0f6ef79e8cbca25d8f905 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
+         aa320fdbbbb482c19100f51461bd0069753ce3d7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
+         bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
+         98b6b62cd5569a158868b62dc7866b5aae5d9a38 HID: intel-ish-hid: ishtp-fw-loader: Fix a kernel-doc formatting issue
+         3809fe479861194e310c23ed48b010c7c0f72d22 HID: address kernel-doc warnings
          
+  - ref: refs/heads/for-5.17/magicmouse
+    old: 0b91b4e4dae63cd43871fc2012370b86ee588f91
+    new: 33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c
+    log: |
+         33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c HID: magicmouse: Fix an error handling path in magicmouse_probe()
+         
+  - ref: refs/heads/for-next
+    old: 30c7543c6610973cbb717d7c77714d985806a1a3
+    new: 1bec0754eaa0d6eb77a488b160885e911b30ab7a
+    log: revlist-30c7543c6610-1bec0754eaa0.txt
 
---===============6723690478719805194==
+--===============7316195393849662526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-30c7543c6610-1bec0754eaa0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641479816 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1641479815-6b186a05b777dfc5e2a2b56df607b1ceb42d5241
+f364c571a5c77e96de2d32062ff019d6b8d2e2bc HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
+0a94131d6920916ccb6a357037c535533af08819 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
+ff6b548afe4d9d1ff3a0f6ef79e8cbca25d8f905 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
+aa320fdbbbb482c19100f51461bd0069753ce3d7 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_frame_init_v1_buttonpad
+bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cache snooping on TGL and ADL
+98b6b62cd5569a158868b62dc7866b5aae5d9a38 HID: intel-ish-hid: ishtp-fw-loader: Fix a kernel-doc formatting issue
+3809fe479861194e310c23ed48b010c7c0f72d22 HID: address kernel-doc warnings
+33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c HID: magicmouse: Fix an error handling path in magicmouse_probe()
+1bec0754eaa0d6eb77a488b160885e911b30ab7a Merge branches 'for-5.16/upstream-fixes', 'for-5.17/apple', 'for-5.17/core', 'for-5.17/hidraw', 'for-5.17/i2c-hid', 'for-5.17/letsketch', 'for-5.17/logitech', 'for-5.17/magicmouse' and 'for-5.17/thrustmaster' into for-next
 
-01ec4a2e8f01f027a0f06cad237c935da8d643bf 601a5bc1aeef772ab1f47582fd322957799f5ab5 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHW/ogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ms0QAI7ycq1qN5FoZoSPSUim
-N1fFX227kKubCgZdmfG51nGHiNzcAcNv2M3C8ORAQ7Vhp+Zij1cYZ9nZs0W/4f3M
-sSqdYon1F8IOLd1Kp5B6WRRjU6jYnE4RGVduRtGi2bO9YtABlMi14d0BY7m03L0p
-WqMAIAbI5tJT2T6cI+PNlyS0yvYw5oCMGG/nCaBbVimc9qZiR70iNmCkxqysU/nU
-eiHTi6wVHMA4puQwcWt7kUIzbt7gQ1ysUdlBkaXH7hX03JuIBoYgmGi3pgdP0lsc
-wk8t+klKLhQlgYAKE46VKceGFicrsNGTANJaBeOjN0w79ztnmEQzXa6BHnQvNRuh
-M6m5VsFQ1JXHVE1vjcZjmj/YsfbW80zqV25O64CTenEi9y5XG39QBUoRK7Q1ZbiT
-6Whcb9cokHVV7mk3gSmehQTfMkkyNqtWlCXhzSLUoe6UZPCDGmKAynyg9uNzAH/y
-cYIOorMFt3PwAr8hS8Lczr+MjZ34mAoJvuWOLSO/+b04bU2NKuej4VHBqE0elJaY
-fwy+Zl6GPBRzhWLsmOU7Pwuehg7mAOwkUSZHJ/0uK4aRvI1iFDIM4j0Cj3t9Ittk
-cfIGt9Rdifq6FqOIwaAyD5F+Ojfe18G5Kz02tbgiVqA916QwktIZVCwhb62JMVsx
-QndDCWcpdhm0KaBYgqNtTEzq
-=qBwy
------END PGP SIGNATURE-----
-
---===============6723690478719805194==--
+--===============7316195393849662526==--
