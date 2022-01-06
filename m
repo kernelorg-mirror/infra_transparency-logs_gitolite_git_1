@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 06 Jan 2022 12:30:42 -0000
-Message-Id: <164147224224.14612.5784173396712443577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 06 Jan 2022 12:32:15 -0000
+Message-Id: <164147233511.15146.16897088495128241992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c4251db3b9d2ad4411f95e65ca00ea0f6800319b
-    new: 44073187990d5629804ce0627525f6ea5cfef171
+    old: af8c6db1975160753995932f43e1cd40d508aa6d
+    new: 8876769bf93687d8b17d8143d39ca7a1aaeaecc6
     log: |
-         44073187990d5629804ce0627525f6ea5cfef171 ppp: ensure minimum packet size in ppp_write()
+         63cfc65753d604edc6cfe07e6fba2bf8ececb293 net: dsa: don't enumerate dsa_switch and dsa_port bit fields using commas
+         1b26d364e4e9bd6540a8e7bcaf50e7f35041feb5 net: dsa: warn about dsa_port and dsa_switch bit fields being non atomic
+         007747a984ea5e895b7d8b056b24ebf431e1e71d net: fix SOF_TIMESTAMPING_BIND_PHC to work with multiple sockets
+         eac1b93c14d645ef147b049ace0d5230df755548 gro: add ability to control gro max packet size
+         8876769bf93687d8b17d8143d39ca7a1aaeaecc6 net: macb: use .mac_select_pcs() interface
          
