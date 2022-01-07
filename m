@@ -1,123 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5442078212642501833=="
+Content-Type: multipart/mixed; boundary="===============4387185196480508710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 07 Jan 2022 18:38:20 -0000
-Message-Id: <164158070074.30166.4134134361110646865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 07 Jan 2022 18:42:05 -0000
+Message-Id: <164158092576.32678.18219011294145834378@gitolite.kernel.org>
 
---===============5442078212642501833==
+--===============4387185196480508710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: c7b258616c7b0a1fd8a13fb3a5c4060ec961e73c
-    new: ca1a6705b271d458d54bbeb072af97ec468d3b37
-    log: revlist-c7b258616c7b-ca1a6705b271.txt
+  - ref: refs/heads/arm-vmap-stacks-for-v5.18
+    old: 6b966312ab5f89bfab91fe7d17829b58b1218c7f
+    new: 717f54d7a5ef1bf2af3205b820c9674cf21683fd
+    log: revlist-6b966312ab5f-717f54d7a5ef.txt
 
---===============5442078212642501833==
+--===============4387185196480508710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b258616c7b-ca1a6705b271.txt
+Content-Disposition: attachment; filename=revlist-6b966312ab5f-717f54d7a5ef.txt
 
-b22bf1b9979a608827dea98c61ed9ec297bcc513 bpftool: Refactor misc. feature probe
-c04fb2b0bd9275969be3b0a95f9c3ef76b1bfb73 bpftool: Probe for bounded loop support
-0fd800b2456cf90ed738a1260b53acaa8843b5ae bpftool: Probe for instruction set extensions
-5e22dd18626726028a93ff1350a8a71a00fd843d bpf/selftests: Fix namespace mount setup in tc_redirect
-e4a41c2c1fa916547e63440c73a51a5eb06247af bpf, arm64: Use emit_addr_mov_i64() for BPF_PSEUDO_FUNC
-5b2c5540b8110eea0d67a78fb0ddb9654c58daeb bpf, sockmap: Fix return codes from tcp_bpf_recvmsg_parser()
-218d747a4142f281a256687bb513a135c905867b bpf, sockmap: Fix double bpf_prog_put on error case in map_link
-e60b0d12a95dcf16a63225cead4541567f5cb517 bpf: Don't promote bogus looking registers after null check.
-ca796fe66f7fceff17679ee6cc5fe4b4023de44d bpf, selftests: Add verifier test for mem_or_null register with offset.
-62e4683849b6516c71e91f36e4fc0393a5883cfb bpf, docs: Add a setion to explain the basic instruction encoding
-be3193cded9d5c030be1713bf52d307427e88d19 bpf, docs: Add subsections for ALU and JMP instructions
-894cda554c3c3dc836f3cc873c47a465ba9433b4 bpf, docs: Document the opcode classes
-03c517ee9eedd95472c36c6291fc97368b48c9e4 bpf, docs: Fully document the ALU opcodes
-9e533e22b5700097e84b8a841d9e1c251cc132c6 bpf, docs: Fully document the JMP opcodes
-58d8a3fc4a40dcfebf333ab2dc2c7c338249be51 bpf, docs: Fully document the JMP mode modifiers
-a5bebc4f00dee47113eed48098c68e88b5ba70e8 bpf: Fix verifier support for validation of async callbacks
-04c350b1ae6bdb12b84009a4d0bf5ab4e621c47b bpf: Fix SO_RCVBUF/SO_SNDBUF handling in _bpf_setsockopt().
-28479934f26bcf9ddeb94125e05ddc5c4312b1f3 bpf: Add SO_RCVBUF/SO_SNDBUF in _bpf_getsockopt().
-7218c28c87f57c131879a75a226b9033ac90b266 libbpf: Deprecate bpf_perf_event_read_simple() API
-71cff670baff5cc6a6eeb0181e2cc55579c5e1e0 libbpf: Use probe_name for legacy kprobe
-51a33c60f1c22c0d2dafad774315ba1537765442 libbpf: Support repeated legacy kprobes on same function
-9855c131b9c8b0327ff5182f88bb1991f212415b libbpf 1.0: Deprecate bpf_map__is_offload_neutral()
-5f6082642814050352a3e29f8713796b55ebf788 libbpf 1.0: Deprecate bpf_object__find_map_by_offset() API
-2741a0493c04067d7acb0e44035aa27618b7d204 samples/bpf: xdpsock: Add VLAN support for Tx-only operation
-6440a6c23f6c72c57dbdf7928d92d3fc1aef6edc samples/bpf: xdpsock: Add Dest and Src MAC setting for Tx-only operation
-5a3882542acda1ac5f0a22dddf7f7f8533d3a8cc samples/bpf: xdpsock: Add clockid selection support
-fa0d27a1d5a8c1f07b0229348b0d178233694fbc samples/bpf: xdpsock: Add cyclic TX operation capability
-fa24d0b1d57825d1a5b802339728d4d8ac20b6d6 samples/bpf: xdpsock: Add sched policy and priority support
-8121e78932018df48758985e00651e16ff34ae5f samples/bpf: xdpsock: Add time-out for cleaning Tx
-eb68db45b747756c351ea84e9af55a69468d0549 samples/bpf: xdpsock: Add timestamp for Tx-only operation
-640a171c9347b52da668dbf83473a05572f06055 Merge branch 'samples/bpf: xdpsock app enhancements'
-4a48ef70b93b8c7ed5190adfca18849e76387b80 xdp: Allow registering memory model without rxq reference
-35b2e549894b7ef0b6e7f3a70c2ab75b767cfce9 page_pool: Add callback to init pages when they are allocated
-64693ec7774e471f817a725686d93903e919a2e5 page_pool: Store the XDP mem id
-d53ad5d8b218a885e95080d4d3d556b16b91b1b9 xdp: Move conversion to xdp_frame out of map functions
-1372d34ccf6dd480332b2bcb2fd59a2b9a0df415 xdp: Add xdp_do_redirect_frame() for pre-computed xdp_frames
-c36a2b97162720ff373985f13d819e05f1ba128d ice: replay advanced rules after reset
-c1e5da5dd4659753407534e323c0579aa79c3bd1 ice: improve switchdev's slow-path
-a5c259b162844f3ceaf3d082344bf6938728aca9 ice: Slightly simply ice_find_free_recp_res_idx
-e75ed29db5315b4706953a5462f9c783532cb776 ice: Optimize a few bitmap operations
-0dbc41621875122f68a653997eb3c3010d76e86a ice: Use bitmap_free() to free bitmap
-70bc793382a0e37ba4e35e4d1a317b280b829a44 selftests/bpf: Don't rely on preserving volatile in PT_REGS macros in loop3
-e59618f0f46fa6cf86d5b82380e0f453756b282b libbpf: Add documentation for bpf_map batch operations
-44bab87d8ca6f0544a9f8fc97bdf33aa5b3c899e bpf/selftests: Test bpf_d_path on rdonly_mem.
-20f80ffcedfaaa3d15acccd5b622ebb769ac759b net/mlx5: mlx5e_hv_vhca_stats_create return type to void
-5256a46bf53872d9888c0d9c34382262b3006599 net/mlx5: Introduce control IRQ request API
-30c6afa735db60b4fb6ca81da568d11d19aa2c15 net/mlx5: Move affinity assignment into irq_request
-424544df97b0197b1d87d2fd1c18c6b936aa02b1 net/mlx5: Split irq_pool_affinity logic to new file
-79b60ca83b6fa63ef307d2edcc77ee6581da8971 net/mlx5: Introduce API for bulk request and release of IRQs
-061f5b23588a2b2a499643c8c798dcdb271bc059 net/mlx5: SF, Use all available cpu for setting cpu affinity
-f79a609ea6bf54ad2d2c24e4de4524288b221666 net/mlx5: Update log_max_qp value to FW max capability
-0a1498ebfa55b860e8ec929d73585bcd3fd81a4e net/mlx5e: Expose FEC counters via ethtool
-7846665d3504812acaebf920d1141851379a7f37 net/mlx5e: Unblock setting vid 0 for VF in case PF isn't eswitch manager
-bc2a7b5c6b379d0f6e685b29fe04d2f7310c693d net/mlx5e: Fix feature check per profile
-b5f42903704f868fcb45f78d6f782958b282d382 net/mlx5e: Move HW-GRO and CQE compression check to fix features flow
-be23511eb5c460db42bb29c2c208667a27163b10 net/mlx5e: Refactor set_pflag_cqe_based_moder
-68511b48bfbe8ebce9c1a55f2ea656b0144f046c net/mlx5e: TC, Remove redundant error logging
-5dd29f40b25f91f1b65043f2225b843a8d0cb1df net/mlx5e: Add recovery flow in case of error CQE
-745a13061aa079b36d83ba7f36dc051dbfccd888 Documentation: devlink: mlx5.rst: Fix htmldoc build warning
-91a760b26926265a60c77ddf016529bcf3e17a04 net: bpf: Handle return value of BPF_CGROUP_RUN_PROG_INET{4,6}_POST_BIND()
-6fd92c7f0c3846340fee20f62dacb17d0a15c0d3 bpf: selftests: Use C99 initializers in test_sock.c
-f7342481749365d9ac5f24fb971659a64e045bb5 bpf: selftests: Add bind retry for post_bind{4, 6}
-eff14fcd032bc1b403c1716f6823b3c72c58096a Merge branch 'net: bpf: handle return value of post_bind{4,6} and add selftests for it'
-257367c0c9d800ef3065b440161596896e179038 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-5b1e38c0792cc7a44997328de37d393f81b2501a dpaa2-mac: bail if the dpmacs fwnode is not found
-4e30e98c4b4c8c3bd2ff048e4f4bc74c8948a9fb dpaa2-mac: return -EPROBE_DEFER from dpaa2_mac_open in case the fwnode is not set
-d1a9b84183e818c6c3540a454d6ad278b56718b2 dpaa2-switch: check if the port priv is valid
-42379b9542283bcb86ceedb245ff644d6f59037d Merge branch 'dpaa2-eth-small-cleanup'
-6d5d8ebb881c425df10980c0188f7495caf2232f mlxsw: Rename virtual router flex key element
-07ff135958dd293988f21ca74c51499a8bb90f88 mlxsw: Introduce flex key elements for Spectrum-4
-4711671297ecfe5a5e9976f449c6161133f5ebb1 mlxsw: spectrum_acl_bloom_filter: Reorder functions to make the code more aesthetic
-5d5c3ba9e4121b7738d10be3825f4d9a5a1d80ef mlxsw: spectrum_acl_bloom_filter: Make mlxsw_sp_acl_bf_key_encode() more flexible
-29409f363e2dfdab41bb2f3019116a0a585e8d0b mlxsw: spectrum_acl_bloom_filter: Rename Spectrum-2 specific objects for future use
-58723d2f77717373d44721a2c65f8af5917102b7 mlxsw: Add operations structure for bloom filter calculation
-852ee4191dd2046203c2fece6a9402ce28118f80 mlxsw: spectrum_acl_bloom_filter: Add support for Spectrum-4 calculation
-4735402173e6eed18d7e04cfc4bc358d8b2965db mlxsw: spectrum: Extend to support Spectrum-4 ASIC
-8947c390b22021cfcee3abe83e52acb38cc308be Merge branch 'mlxsw-add-spectrum-4-support'
-e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-26abf15c49e0fbbcb6dbd70c52ecbde221f1b0fa Merge tag 'mlx5-updates-2022-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-58cd405b83b388c75a4c24926e5d4aeae8d1eaf5 mptcp: keep snd_una updated for fallback socket
-f284c0c7732189fa77567dc061c5f4205c4fa05b mptcp: implement fastclose xmit path
-b29fcfb54cd70caca5b11c80d8d238854938884a mptcp: full disconnect implementation
-71ba088ce0aa87370b18a1d35cd742f352d51c24 mptcp: cleanup accept and poll
-3d1d6d66e15612801bec79b190af746622f0d427 mptcp: implement support for user-space disconnect
-05be5e273c84f6329b3cac4f5bb7b1fe6eaefd5d selftests: mptcp: add disconnect tests
-f7d6a237d7422809d458d754016de2844017cb4d mptcp: fix per socket endpoint accounting
-71b077e48377222c5fdae9ddcc58fe03cdff6932 mptcp: clean-up MPJ option writing
-86e39e04482b0aadf3ee3ed5fcf2d63816559d36 mptcp: keep track of local endpoint still available for each msk
-a88c9e49693759f9eb49dcda6c45a0d32b07634c mptcp: do not block subflows creation on errors
-46e967d187ed1693b34379ac4e27fd4e1fb40a45 selftests: mptcp: add tests for subflow creation failure
-3e5014909b5661b3da59990d72a317a45ba3b284 mptcp: cleanup MPJ subflow list handling
-e9d09baca67625cfb41c0f2b547b9dbb4043ae95 mptcp: avoid atomic bit manipulation when possible
-ca1a6705b271d458d54bbeb072af97ec468d3b37 Merge branch 'mptcp-next'
+eaa090538e8d21801c6d5f94590c3799e6a528b5 drm/amd/pm: keep the BACO feature enabled for suspend
+9a45ac2320d0a6ae01880a30d4b86025fce4061b fbdev: fbmem: add a helper to determine if an aperture is used by a fw fb
+b95dc06af3e683d6b7ddbbae178b2b2a21ee8b2b drm/amdgpu: disable runpm if we are the primary adapter
+936a93775b7c4f2293f651f64c4139c82e19a164 Merge tag 'amd-drm-fixes-5.16-2021-12-31' of ssh://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+597cb7968cb6243e915ba9599195656be14773e5 KVM: SEV: Mark nested locking of kvm->lock
+fffb5323780786c81ba005f8b8603d4a558aad28 KVM: x86: Check for rmaps allocation
+7a6043cc2e863ab45016622c30879e555523ee13 Merge tag 'drm-fixes-2022-01-07' of git://anongit.freedesktop.org/drm/drm
+24556728c305886b8bb05bf2ac7e20cf7db3e314 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+49bc7236d17beed97a10f8ec6b8dda277dbc8e5a ARM: decompressor: disable stack protector
+108c07fb1fb1a09393171148aeccf0f9988e63b8 ARM: stackprotector: prefer compiler for TLS based per-task protector
+f2c18e72e9a1c110449e95465f14b68d3d019f5c ARM: remove some dead code
+7a2d8574a84187abda9662c29d0560227bfefe62 ARM: assembler: introduce bl_r macro
+47a04a0612b061f93c29c3d7b1873fe000f34e22 ARM: unwind: support unwinding across multiple stacks
+cd6bbc2f703f8c272683dfb4be274e50e7507738 ARM: export dump_mem() to other objects
+376c662e887a6d2c637dd8a66db9e5c9603f1474 ARM: unwind: dump exception stack from calling frame
+810f9225a4570e5ad6100fc741c6b99258859479 ARM: backtrace-clang: avoid crash on bogus frame pointer
+ff09e3c7d53b3867f6c56b0bbb11165e25aa0a07 ARM: implement IRQ stacks
+62c58114c20357068d7a8d2ed9e39a39dd03ae30 ARM: call_with_stack: add unwind support
+09bc63fa4841bc3f2660ca64403c75b076742b9f ARM: run softirqs on the per-CPU IRQ stack
+b117e897ff617b5af6f6ab28fd2d71cec553020a ARM: memcpy: use frame pointer as unwind anchor
+152370c0668dd3aafe27bacf092a9d7f52221b5c ARM: memmove: use frame pointer as unwind anchor
+5a50d636b07b089b43eebc583456b7f72d3c7a61 ARM: memset: clean up unwind annotations
+bd262b9504ce67c3f2e6a0fe98e9d6dda5d72ad0 ARM: unwind: disregard unwind info before stack frame is set up
+7dd24eee29327d873246075913f7c1c85f7f5e57 ARM: switch_to: clean up Thumb2 code path
+86ad55d8b88528e9853ced83a4c17f97768d0920 ARM: entry: rework stack realignment code in svc_entry
+b6bc7c087e550e0a42de304576755e8f7b5e25d2 ARM: implement support for vmap'ed stacks
+79925f58aaf2e5bfb4157a814c488fdd3f9edf9b ARM: riscpc: drop support for IOMD_IRQREQC/IOMD_IRQREQD IRQ groups
+a2492e9283ae56b83dfac92f0b98d317d8b59709 ARM: riscpc: use GENERIC_IRQ_MULTI_HANDLER
+4d21587c1fe759a0effaabbdd4d794228be3348e ARM: footbridge: use GENERIC_IRQ_MULTI_HANDLER
+ca0eb34b48e78ee5578e6627faa6df583d6e9d7e ARM: iop32x: offset IRQ numbers by 1
+00c476b58e3ddf011f6ddb5bff85a83e3228d249 ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
+e3bbfb580b633100ff6c0b4e2ee87b03dfbe17a5 ARM: remove old-style irq entry
+3dbf9a0c3a727e448690b38912f9e06f995aa895 irqchip: nvic: Use GENERIC_IRQ_MULTI_HANDLER
+bdca265d12423ba316144380623dce0b0f6c357a ARM: entry: preserve thread_info pointer in switch_to
+c38719c8fc4a3f60cd444b36d6d5c8b221c28af0 ARM: module: implement support for PC-relative group relocations
+143a0418f420f6cba767350ad807024dbcd32e4a ARM: assembler: add optimized ldr/str macros to load variables from memory
+99b7b5e6efe068a55cabe66f054cd6815b18aebf ARM: percpu: add SMP_ON_UP support
+d0976b5a2cb0fdf5084f27eec27a0932d34c2b7c ARM: use TLS register for 'current' on !SMP as well
+c4e52f9e1e452363475291488baf15578274b921 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+49e57250a4efdd6bf0cddf75f7d77498aa87ae65 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
+717f54d7a5ef1bf2af3205b820c9674cf21683fd ARM: v7m: enable support for IRQ stacks
 
---===============5442078212642501833==--
+--===============4387185196480508710==--
