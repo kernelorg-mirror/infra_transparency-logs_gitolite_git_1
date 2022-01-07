@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lkundrak/linux
-Date: Fri, 07 Jan 2022 11:16:21 -0000
-Message-Id: <164155418116.6904.704659256564514387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 07 Jan 2022 11:18:34 -0000
+Message-Id: <164155431444.7648.3127572411951882458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lkundrak/linux
-user: lkundrak
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/lr/czc-p10t
+  - ref: refs/heads/arm-vmap-stacks-for-v5.18
     old: 0000000000000000000000000000000000000000
-    new: 710656b444c7b601d5f02fc8c853477a48c63734
+    new: 6b966312ab5f89bfab91fe7d17829b58b1218c7f
