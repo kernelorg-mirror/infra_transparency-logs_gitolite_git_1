@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4165257668276535325=="
+Content-Type: multipart/mixed; boundary="===============7312348161890767684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 07 Jan 2022 21:19:47 -0000
-Message-Id: <164159038704.32189.3853566951573676284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 07 Jan 2022 21:19:51 -0000
+Message-Id: <164159039148.32280.11172101145952762672@gitolite.kernel.org>
 
---===============4165257668276535325==
+--===============7312348161890767684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 5a1331c47527f0c62b907b23bbfc62ea4826257f
-    new: dc35616e6c2907b0c0c391a205802d8880f7fd85
-    log: revlist-5a1331c47527-dc35616e6c29.txt
+  - ref: refs/heads/queue-rc
+    old: fb5f5d8f01359936ea90f49c569e7ce5f8e33a3f
+    new: b940fe8d68e2706ff6a1454e5a1722a6f31fe216
+    log: revlist-fb5f5d8f0135-b940fe8d68e2.txt
 
---===============4165257668276535325==
+--===============7312348161890767684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1331c47527-dc35616e6c29.txt
+Content-Disposition: attachment; filename=revlist-fb5f5d8f0135-b940fe8d68e2.txt
 
 d94a69cb2cfa77294921aae9afcfb866e723a2da netfilter: ipt_CLUSTERIP: fix refcount leak in clusterip_tg_check()
 1585f590a2e5dcae5833b05e030c47229299dd09 selftests: netfilter: switch to socat for tests using -q option
@@ -52,5 +52,7 @@ eabd0f88b0d2d433c5dfe88218d4ce1c11ef04b8 octeontx2-nicvf: Free VF PTP resources.
 b69c5b5886f3986f94ded29896211d520c57aea1 Merge branch 'octeontx2-ptp-bugs'
 9371937092d5fd502032c1bb4475b36b39b1f1b3 ax25: uninitialized variable in ax25_setsockopt()
 dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
+0c770946f1cacacbefbb0e3588b9065c99fc8281 Merge branch 'net-rc' into queue-rc
+b940fe8d68e2706ff6a1454e5a1722a6f31fe216 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============4165257668276535325==--
+--===============7312348161890767684==--
