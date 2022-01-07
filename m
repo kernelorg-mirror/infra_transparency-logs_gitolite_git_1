@@ -1,71 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============2489178173333919836=="
+Content-Type: multipart/mixed; boundary="===============3008632962464801738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 07 Jan 2022 18:42:34 -0000
-Message-Id: <164158095433.443.14371576929726026357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 07 Jan 2022 18:55:58 -0000
+Message-Id: <164158175886.9932.14142256341375389889@gitolite.kernel.org>
 
---===============2489178173333919836==
+--===============3008632962464801738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 6b966312ab5f89bfab91fe7d17829b58b1218c7f
-    new: 717f54d7a5ef1bf2af3205b820c9674cf21683fd
-    log: revlist-6b966312ab5f-717f54d7a5ef.txt
+  - ref: refs/heads/next
+    old: 96c1a6285568d31a8125c36974a140fccbe548af
+    new: 93bd3ba8c58e328359dafc24812aa1575e4b80a8
+    log: revlist-96c1a6285568-93bd3ba8c58e.txt
 
---===============2489178173333919836==
+--===============3008632962464801738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b966312ab5f-717f54d7a5ef.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eaa090538e8d21801c6d5f94590c3799e6a528b5 drm/amd/pm: keep the BACO feature enabled for suspend
-9a45ac2320d0a6ae01880a30d4b86025fce4061b fbdev: fbmem: add a helper to determine if an aperture is used by a fw fb
-b95dc06af3e683d6b7ddbbae178b2b2a21ee8b2b drm/amdgpu: disable runpm if we are the primary adapter
-936a93775b7c4f2293f651f64c4139c82e19a164 Merge tag 'amd-drm-fixes-5.16-2021-12-31' of ssh://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-597cb7968cb6243e915ba9599195656be14773e5 KVM: SEV: Mark nested locking of kvm->lock
-fffb5323780786c81ba005f8b8603d4a558aad28 KVM: x86: Check for rmaps allocation
-7a6043cc2e863ab45016622c30879e555523ee13 Merge tag 'drm-fixes-2022-01-07' of git://anongit.freedesktop.org/drm/drm
-24556728c305886b8bb05bf2ac7e20cf7db3e314 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-49bc7236d17beed97a10f8ec6b8dda277dbc8e5a ARM: decompressor: disable stack protector
-108c07fb1fb1a09393171148aeccf0f9988e63b8 ARM: stackprotector: prefer compiler for TLS based per-task protector
-f2c18e72e9a1c110449e95465f14b68d3d019f5c ARM: remove some dead code
-7a2d8574a84187abda9662c29d0560227bfefe62 ARM: assembler: introduce bl_r macro
-47a04a0612b061f93c29c3d7b1873fe000f34e22 ARM: unwind: support unwinding across multiple stacks
-cd6bbc2f703f8c272683dfb4be274e50e7507738 ARM: export dump_mem() to other objects
-376c662e887a6d2c637dd8a66db9e5c9603f1474 ARM: unwind: dump exception stack from calling frame
-810f9225a4570e5ad6100fc741c6b99258859479 ARM: backtrace-clang: avoid crash on bogus frame pointer
-ff09e3c7d53b3867f6c56b0bbb11165e25aa0a07 ARM: implement IRQ stacks
-62c58114c20357068d7a8d2ed9e39a39dd03ae30 ARM: call_with_stack: add unwind support
-09bc63fa4841bc3f2660ca64403c75b076742b9f ARM: run softirqs on the per-CPU IRQ stack
-b117e897ff617b5af6f6ab28fd2d71cec553020a ARM: memcpy: use frame pointer as unwind anchor
-152370c0668dd3aafe27bacf092a9d7f52221b5c ARM: memmove: use frame pointer as unwind anchor
-5a50d636b07b089b43eebc583456b7f72d3c7a61 ARM: memset: clean up unwind annotations
-bd262b9504ce67c3f2e6a0fe98e9d6dda5d72ad0 ARM: unwind: disregard unwind info before stack frame is set up
-7dd24eee29327d873246075913f7c1c85f7f5e57 ARM: switch_to: clean up Thumb2 code path
-86ad55d8b88528e9853ced83a4c17f97768d0920 ARM: entry: rework stack realignment code in svc_entry
-b6bc7c087e550e0a42de304576755e8f7b5e25d2 ARM: implement support for vmap'ed stacks
-79925f58aaf2e5bfb4157a814c488fdd3f9edf9b ARM: riscpc: drop support for IOMD_IRQREQC/IOMD_IRQREQD IRQ groups
-a2492e9283ae56b83dfac92f0b98d317d8b59709 ARM: riscpc: use GENERIC_IRQ_MULTI_HANDLER
-4d21587c1fe759a0effaabbdd4d794228be3348e ARM: footbridge: use GENERIC_IRQ_MULTI_HANDLER
-ca0eb34b48e78ee5578e6627faa6df583d6e9d7e ARM: iop32x: offset IRQ numbers by 1
-00c476b58e3ddf011f6ddb5bff85a83e3228d249 ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
-e3bbfb580b633100ff6c0b4e2ee87b03dfbe17a5 ARM: remove old-style irq entry
-3dbf9a0c3a727e448690b38912f9e06f995aa895 irqchip: nvic: Use GENERIC_IRQ_MULTI_HANDLER
-bdca265d12423ba316144380623dce0b0f6c357a ARM: entry: preserve thread_info pointer in switch_to
-c38719c8fc4a3f60cd444b36d6d5c8b221c28af0 ARM: module: implement support for PC-relative group relocations
-143a0418f420f6cba767350ad807024dbcd32e4a ARM: assembler: add optimized ldr/str macros to load variables from memory
-99b7b5e6efe068a55cabe66f054cd6815b18aebf ARM: percpu: add SMP_ON_UP support
-d0976b5a2cb0fdf5084f27eec27a0932d34c2b7c ARM: use TLS register for 'current' on !SMP as well
-c4e52f9e1e452363475291488baf15578274b921 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
-49e57250a4efdd6bf0cddf75f7d77498aa87ae65 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
-717f54d7a5ef1bf2af3205b820c9674cf21683fd ARM: v7m: enable support for IRQ stacks
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1641581756 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1641581756-4507a5bb20f6bd9c08db5c4632ff809db2b4827a
 
---===============2489178173333919836==--
+96c1a6285568d31a8125c36974a140fccbe548af 93bd3ba8c58e328359dafc24812aa1575e4b80a8 refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmHYjLwUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMhsgf+MTFRnQRG1A7XbKoKGOF+Foo+sQiG
+PHwtyyzEGH183ppv52ySQe7PJLubtRV5GDLAiQ40Eg5EyZQmq+B4sCNkyxZjuXMy
+odPOP+ulvq2OeJwOP8/zBl1OJZ2xxsMIsGIRoFMixnDFyW3AQeiIDg6DL/nUGIDM
+1OkgUZ8w6J8YN/nBWYqE+//pcdQ4CNCVXHBeGzX94IjqDZEWYIVPVZsPf7x2yLWj
+mDm5R4czeRzW+plqtVRpo/ATsmmrhJHDdBVnpyT7nhl5ZrqhItedXuipTh0OyFoa
+c6oXZgwSdRvdsY9ZZZUastLjcREQaT3u5VlREtB0wCi5s1IxnjZ6x48XHQ==
+=O0HX
+-----END PGP SIGNATURE-----
+
+--===============3008632962464801738==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-96c1a6285568-93bd3ba8c58e.txt
+
+980fe2fddcff21937c93532b4597c8ea450346c1 x86/fpu: Extend fpu_xstate_prctl() with guest permissions
+36487e6228c4cb04257c92266a04078a384bc4ec x86/fpu: Prepare guest FPU for dynamically enabled FPU features
+cc04b6a21d431359eceeec0d812b492088b04af5 kvm: x86: Fix xstate_required_size() to follow XSTATE alignment rule
+445ecdf79be0c71ca248f7611aeefceaea3ec59f kvm: x86: Exclude unpermitted xfeatures at KVM_GET_SUPPORTED_CPUID
+1a07ea2f4d75622cbc1930f311f3bbdb2a8a6750 x86/fpu: Make XFD initialization in __fpstate_reset() a function argument
+9eb75dd49fef47eb3ecc90e7ef3fc34d1a964ac6 x86/fpu: Add guest support to xfd_enable_feature()
+b4874b05766be099ac715a8ab0cae41710a369b8 x86/fpu: Provide fpu_enable_guest_xfd_features() for KVM
+b5d5ee8a2db58c26bd4e77d3591e13af4ebc61f5 kvm: x86: Enable dynamic xfeatures at KVM_SET_CPUID2
+13bc9d611d098c371c5c2dc7dbb95b75badaa535 x86/fpu: Provide fpu_update_guest_xfd() for IA32_XFD emulation
+c68e3054ebef224430bb9e559e22f61dff9ac79a kvm: x86: Add emulation for IA32_XFD
+be26f74e6ddd0389ab96a62771e06375f8164594 x86/fpu: Prepare xfd_err in struct fpu_guest
+700eb073295c019b961a7301de4554a738cde290 kvm: x86: Intercept #NM for saving IA32_XFD_ERR
+08921a76a91102703488fde1a072049201cd8fc3 kvm: x86: Emulate IA32_XFD_ERR for guest
+32c2113b40e243c41747a6b05d22b654ad5c1983 kvm: x86: Disable RDMSR interception of IA32_XFD_ERR
+2cf2592b46dc7974339979102c9724c0ba6eaec1 kvm: x86: Add XCR0 support for Intel AMX
+3438e7ae317d8df21541ddb0014ab64762b17502 kvm: x86: Add CPUID support for Intel AMX
+ef616e8a3954fff22c8e12a42e382b7af7dbd4ef x86/fpu: Add uabi_size to guest_fpu
+16786d406fe844ef657641a0103299cc8624351b kvm: x86: Add support for getting/setting expanded xstate buffer
+ab7150fe7d78ef86b32a71155b4cb53f5438711f kvm: selftests: Add support for KVM_CAP_XSAVE2
+9b7e3bf9796fccd326d82523ce53854abfc4df42 x86/fpu: Provide fpu_sync_guest_vmexit_xfd_state()
+203a24bc4f468db61d994dfec9a7f5f955c339a6 kvm: x86: Disable interception for IA32_XFD on demand
+2a4e5b46a64fe0ae879193573d87e59b9572c5cd selftest: kvm: Reorder vcpu_load_state steps for AMX
+aa967c71aaf68879d80d2cc77f38a3ead40fccf9 selftest: kvm: Move struct kvm_x86_state to header
+93bd3ba8c58e328359dafc24812aa1575e4b80a8 selftest: kvm: Add amx selftest
+
+--===============3008632962464801738==--
