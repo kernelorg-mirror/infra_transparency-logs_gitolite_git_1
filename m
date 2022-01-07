@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7101624955596098196=="
+Content-Type: multipart/mixed; boundary="===============6844375872420802502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 07 Jan 2022 18:08:24 -0000
-Message-Id: <164157890408.10191.16579607975838122546@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 18:08:34 -0000
+Message-Id: <164157891496.10329.14744179183659624163@gitolite.kernel.org>
 
---===============7101624955596098196==
+--===============6844375872420802502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 36595d8ad46d9e4c41cc7c48c4405b7c3322deac
     new: dc35616e6c2907b0c0c391a205802d8880f7fd85
     log: revlist-36595d8ad46d-dc35616e6c29.txt
 
---===============7101624955596098196==
+--===============6844375872420802502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b69c5b5886f3986f94ded29896211d520c57aea1 Merge branch 'octeontx2-ptp-bugs'
 9371937092d5fd502032c1bb4475b36b39b1f1b3 ax25: uninitialized variable in ax25_setsockopt()
 dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
 
---===============7101624955596098196==--
+--===============6844375872420802502==--
