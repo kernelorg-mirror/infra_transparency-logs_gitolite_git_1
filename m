@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0461582777452730127=="
+Content-Type: multipart/mixed; boundary="===============1247619881244390290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Fri, 07 Jan 2022 10:59:57 -0000
-Message-Id: <164155319779.3638.15345630291714141792@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 11:00:22 -0000
+Message-Id: <164155322291.27571.1559992457835612414@gitolite.kernel.org>
 
---===============0461582777452730127==
+--===============1247619881244390290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 4e484b3e969b52effd95c17f7a86f39208b2ccf4
     new: e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0
     log: revlist-4e484b3e969b-e4a3d6a6a19a.txt
 
---===============0461582777452730127==
+--===============1247619881244390290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d1a9b84183e818c6c3540a454d6ad278b56718b2 dpaa2-switch: check if the port priv is
 8947c390b22021cfcee3abe83e52acb38cc308be Merge branch 'mlxsw-add-spectrum-4-support'
 e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============0461582777452730127==--
+--===============1247619881244390290==--
