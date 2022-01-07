@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7594370257367948176=="
+Content-Type: multipart/mixed; boundary="===============6179131234619891839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pablo/nf
-Date: Fri, 07 Jan 2022 13:56:47 -0000
-Message-Id: <164156380722.13913.11864813308283840720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 07 Jan 2022 13:56:52 -0000
+Message-Id: <164156381256.14012.7110373408735889686@gitolite.kernel.org>
 
---===============7594370257367948176==
+--===============6179131234619891839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pablo/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 29507144c99814cd5e1ed9873db21ffc634f6c95
-    new: 14676c04783c6363b71072c01b42bb7838eb56eb
-    log: revlist-29507144c998-14676c04783c.txt
+    old: 231d82ae51ca41a299ccd260ec4bb54ed832ea53
+    new: 4d3792718bf6c2801bdba135221ff4376029b59b
+    log: |
+         4d3792718bf6c2801bdba135221ff4376029b59b 5.4-stable patches
+         
 
---===============7594370257367948176==
+--===============6179131234619891839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29507144c998-14676c04783c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0b7cfa4082fbf550595bc0e40f05614bd83bf0cd net/mlx5e: Fix page DMA map/unmap attributes
-de31854ece175e12ff3c35d07f340988823aed34 net/mlx5e: Fix nullptr on deleting mirroring rule
-885751eb1b01d276e38f57d78c583e4ce006c5ed net/mlx5e: Fix wrong usage of fib_info_nh when routes with nexthop objects are used
-9e72a55a3c9d54b38a704bb7292d984574a81d9d net/mlx5e: Don't block routes with nexthop objects in SW
-64050cdad0983ad8060e33c3f4b5aee2366bcebd Revert "net/mlx5e: Block offload of outer header csum for UDP tunnels"
-01c3fd113ef50490ffd43f78f347ef6bb008510b Revert "net/mlx5e: Block offload of outer header csum for GRE tunnel"
-b6dfff21a170af5c695ebaa153b7f5e297ddca03 net/mlx5e: Fix matching on modified inner ip_ecn bits
-a1c7c49c2091926962f8c1c866d386febffec5d8 net/mlx5: Fix access to sf_dev_table on allocation failure
-07f6dc4024ea1d2314b9c8b81fd4e492864fcca1 net/mlx5e: Sync VXLAN udp ports during uplink representor profile change
-8e715cd613a1e872b9d918e912d90b399785761a net/mlx5: Set command entry semaphore up once got index free
-4f6626b0e140867fd6d5a2e9d4ceaef97f10f46a Revert "net/mlx5: Add retry mechanism to the command entry index allocation"
-14676c04783c6363b71072c01b42bb7838eb56eb Merge tag 'mlx5-fixes-2022-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641563811 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1641563809-de4303ec42a45b72dda8dc919c0e0e99ceb03172
 
---===============7594370257367948176==--
+231d82ae51ca41a299ccd260ec4bb54ed832ea53 4d3792718bf6c2801bdba135221ff4376029b59b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHYRqMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H8cP/3e/LbpLbykA9C7BOTR7
+yC60jY2OlF/V2yNlMeyPxA1X2JFHhMvFsuSt2K+Su2jZ9oEIqzTgf1oI9Of1nHmx
+1v8B2txDCU0pcAQmAE13DZFR3Ktz9X8NxVnZnC17qyFbmRJLu/FlsZcba6RAV502
+C7Wt4dNInxbMSRAGUSt3efN3CMukmVwsqNKo/Z01w0pkoSA58hnwda18l1tfO/Ja
+xhODqsqL8jjQV3k3ilqYAYaw6mXbjwJ5w6oozU/VOU5QgAjiG4Y90a4vxkFgDYlQ
+2bRSlh9RPvFpi4Kay3KakjDRu37Tr8dXuhtzpKzok/SttaxldIB7PZ4TksAPIj0v
+HEFTtGbNITl1SQJUfSXo9SpzpNzXp41UYCQQ6QG0AoKs10mOZ4z0MrffaaUjvE7/
+ckUjg8ZDM4km8oZhVO0iYWk8uU1ZCyO5Dkng5eWDv+lWZ9UlPExHrK37X1E9jrpU
+eYv+bmbPG77K0Jxs3doEyej+tCyUiOWQbCcaPNJw1C8yPlypKb1jGEI2SsMq+pw9
+3d84xN+AVl0yFvU0brNKAokq1sBrZN+cPXVi5lGWQbcT99NXfu8kKiHvFWlaAYcP
+Ldcf7sEyOzqE94XruJsH383Tf9es1HvYDwH2VtfD6C7JH5FnHvKoIEcF6xHDSuKa
+djhQQsSUd2sfOqjP3C3dpsod
+=UqDf
+-----END PGP SIGNATURE-----
+
+--===============6179131234619891839==--
