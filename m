@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 07 Jan 2022 23:33:19 -0000
-Message-Id: <164159839944.18608.2294969439670960039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 07 Jan 2022 23:39:49 -0000
+Message-Id: <164159878965.21917.5486573294902760767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/dt/next
-    old: c2abcf30efb8bdd8dfe8d1796e29fd26aea03702
-    new: 6e2a77ac6579c575c2fe60f7cce1329a3095053d
+  - ref: refs/heads/wip/jgg-for-next
+    old: 4d2a3c169b9ad27dfdf2bf8d9362596477840656
+    new: 104f062fd1b9c8571dba6a3020649da6bbc66259
     log: |
-         86ce070ce00ac82688bfe24f80ab071609aaa5bb of: base: Fix phandle argument length mismatch error message
-         b659ad235ba6d3ff97d5674b4784ba73dd7b468b of: base: Improve argument length mismatch error
-         f107530f0a27a30dbc5e549b3a7fc8a63dfb0911 of: unittest: remove unneeded semicolon
-         6e2a77ac6579c575c2fe60f7cce1329a3095053d of/fdt: Don't worry about non-memory region overlap for no-map
+         18451db82ef7f943c60a7fce685f16172bda5106 RDMA/core: Calculate UDP source port based on flow label or lqpn/rqpn
+         93f8df548187f6aca50d3398a88cf5ebf130525e RDMA/hns: Replace get_udp_sport with rdma_get_udp_sport
+         69e609ba96620aaca3c3bdcbaba5f8dee3b12f5f RDMA/irdma: Make the source udp port vary
+         104f062fd1b9c8571dba6a3020649da6bbc66259 RDMA/rxe: Use the standard method to produce udp source port
          
