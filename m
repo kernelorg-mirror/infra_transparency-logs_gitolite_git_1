@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 07 Jan 2022 03:31:29 -0000
-Message-Id: <164152628993.2340.8549801633998443162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 07 Jan 2022 03:45:58 -0000
+Message-Id: <164152715804.10923.11297704215986409860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 4cab5dfd15b77cde2b965bbf71a86876a42684da
-    new: 5f21d7d283dd82865bdb0123795b3accf0d42b67
+    old: 1e31d8f53b59d033091cd23c533b54966f439409
+    new: 15ca5ce1a230a488ccc193274b071ea14028c09e
     log: |
-         dd827abe296fe4249b2f8c9b95f72f814ea8348c lib/mpi: Add the return value check of kcalloc()
-         5f21d7d283dd82865bdb0123795b3accf0d42b67 crypto: af_alg - rewrite NULL pointer check
+         15ca5ce1a230a488ccc193274b071ea14028c09e Fri Jan  7 03:45:26 AM UTC 2022
          
