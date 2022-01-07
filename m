@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Jan 2022 16:42:56 -0000
-Message-Id: <164157377653.20615.4051361433463579513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/bridge/bridge-utils
+Date: Fri, 07 Jan 2022 16:46:02 -0000
+Message-Id: <164157396237.22962.10874512196485243534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/network/bridge/bridge-utils
+user: shemminger
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 572a0a647b9b491729d24c083c8410c55bf16326
-    new: cebb880030045059e55d21cbe049cdfa18d3990d
+  - ref: refs/heads/main
+    old: 75d949b9fae9718201422f0bd3d1103e67dd597c
+    new: 1763c5b7f8f72d651d62337029c3bdfb269491e4
     log: |
-         cebb880030045059e55d21cbe049cdfa18d3990d x86/sgx: Fix NULL pointer dereference on non-SGX systems
+         1763c5b7f8f72d651d62337029c3bdfb269491e4 cleanup includes
          
