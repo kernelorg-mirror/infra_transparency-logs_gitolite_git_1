@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 07 Jan 2022 00:03:52 -0000
-Message-Id: <164151383274.29889.11855667806622429968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 07 Jan 2022 00:13:53 -0000
+Message-Id: <164151443346.3076.2900463259910106394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 8b6e46b22b3fc66e68eae1a1396507114cb7aebc
-    new: 1e31d8f53b59d033091cd23c533b54966f439409
+    old: b007909c0d108ec95812b0a13e863d032594dcec
+    new: 6a421a1254a96343ba86f561b69c3a3371ff89ee
     log: |
-         1e31d8f53b59d033091cd23c533b54966f439409 Fri Jan  7 12:03:20 AM UTC 2022
+         1ec0fd75e1c8f655280d0947e97986bab0d358ee dpp: parse configuration request values
+         6a421a1254a96343ba86f561b69c3a3371ff89ee dpp: speed up connection after being configured
          
