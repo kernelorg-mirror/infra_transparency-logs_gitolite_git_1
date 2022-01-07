@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8716686394822842255=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 07 Jan 2022 18:23:56 -0000
-Message-Id: <164157983654.20871.18377513300975574749@gitolite.kernel.org>
-
---===============8716686394822842255==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 07 Jan 2022 18:24:14 -0000
+Message-Id: <164157985465.21041.8398541119898544362@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.17
-    old: 69c1b87516e327a60b39f96b778fe683259408bf
-    new: 44ea62813f0ab3d718de480504f4dfd0bdd01858
+  - ref: refs/heads/for-linus
+    old: 347de64ec4fd6f604615b1f159ae0806d7f675a3
+    new: f0fdc3f7671aaac1427ed50c5c79ebe309f114b9
     log: |
-         44ea62813f0ab3d718de480504f4dfd0bdd01858 spi: don't include ptp_clock_kernel.h in spi.h
+         f0fdc3f7671aaac1427ed50c5c79ebe309f114b9 Merge remote-tracking branch 'asoc/for-5.15' into asoc-linus
          
-
---===============8716686394822842255==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1641579835 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641579834-cc96e9ed0acd101a8ecebfcb76130e8803d1f17a
-
-69c1b87516e327a60b39f96b778fe683259408bf 44ea62813f0ab3d718de480504f4dfd0bdd01858 refs/heads/spi-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHYhTsACgkQJNaLcl1U
-h9BMiQf9Grd0CqLM+h3q2j6cyUxbvdK8rdjRXx2somulMUNmHSOXbfUaGi9x2PgV
-xXU/7ZFtX+dD7Gnu+ied1lBqeyK9y+Ks+LLcrwdZUrN8PBDyu7QxqwBSfaAw60jD
-ctRH3gUXTRkh09AOaqmFaHVGXLyVgmLZytbba0wfjilXEoRwBmj7vEvXI3RTEyAS
-mtlLQBzrjeIdCyZ3Lt8d+WbM7t7YZ+6gWZnX91vPyXsxviKAi29wSB0a60QruFsp
-QOJklcrYx/HLuTDMKa4iHhESh5Rx2oPqSur6AHK5ycnYgKTJvVqvQ6oi4VFMxqQs
-25Pq3WYzJEm/YnG8oeigjaLrmEUQcA==
-=jFWz
------END PGP SIGNATURE-----
-
---===============8716686394822842255==--
+  - ref: refs/heads/for-next
+    old: f6fdf773daa399e688de70098ef4feaa5ea8e67c
+    new: f517ba4924ad026f2583553db02f3c8bc69de88b
+    log: |
+         d92321bbe46b0ecae0941461379d39599610d869 ASoC: cs35l41: Update handling of test key registers
+         f517ba4924ad026f2583553db02f3c8bc69de88b ASoC: cs35l41: Add support for hibernate memory retention mode
+         
