@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8383977881855534234=="
+Content-Type: multipart/mixed; boundary="===============2795184997430301071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 07 Jan 2022 10:30:01 -0000
-Message-Id: <164155140122.17064.9668122386590015938@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 10:30:22 -0000
+Message-Id: <164155142228.18621.7866715424569607133@gitolite.kernel.org>
 
---===============8383977881855534234==
+--===============2795184997430301071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eff14fcd032bc1b403c1716f6823b3c72c58096a
     new: e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0
     log: revlist-eff14fcd032b-e4a3d6a6a19a.txt
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
 
---===============8383977881855534234==
+--===============2795184997430301071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -228,4 +225,4 @@ d1a9b84183e818c6c3540a454d6ad278b56718b2 dpaa2-switch: check if the port priv is
 8947c390b22021cfcee3abe83e52acb38cc308be Merge branch 'mlxsw-add-spectrum-4-support'
 e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============8383977881855534234==--
+--===============2795184997430301071==--
