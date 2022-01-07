@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8628124260679628589=="
+Content-Type: multipart/mixed; boundary="===============4507452626513735009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 07 Jan 2022 18:23:44 -0000
-Message-Id: <164157982487.20657.18022990186617863783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 07 Jan 2022 18:23:50 -0000
+Message-Id: <164157983081.20751.11175830820119163849@gitolite.kernel.org>
 
---===============8628124260679628589==
+--===============4507452626513735009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.17
-    old: 02d6fdecb9c38de19065f6bed8d5214556fd061d
-    new: 530792efa6cb86f5612ff093333fec735793b582
+  - ref: refs/heads/for-5.17
+    old: 69c1b87516e327a60b39f96b778fe683259408bf
+    new: 44ea62813f0ab3d718de480504f4dfd0bdd01858
     log: |
-         530792efa6cb86f5612ff093333fec735793b582 regmap: Call regmap_debugfs_exit() prior to _init()
+         44ea62813f0ab3d718de480504f4dfd0bdd01858 spi: don't include ptp_clock_kernel.h in spi.h
          
 
---===============8628124260679628589==
+--===============4507452626513735009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1641579823 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1641579823-54c634455d3c62fda9f494089bd56c1643e0f0f0
+pusher C3F436CA30F5D8EB 1641579829 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1641579828-da7bd1f0c18edcc7bc2c29dbae0ef5b28ad58fc9
 
-02d6fdecb9c38de19065f6bed8d5214556fd061d 530792efa6cb86f5612ff093333fec735793b582 refs/heads/regmap-5.17
+69c1b87516e327a60b39f96b778fe683259408bf 44ea62813f0ab3d718de480504f4dfd0bdd01858 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHYhS8ACgkQJNaLcl1U
-h9Cwpgf9HLqQgH+nKfKzrMU56/w2tKnEPTw2m83uLhK9NKdWRoqLq2rY0t+ybfAb
-yVN+jVq02dF9ZRwUg9XzasBtf1mXNQDwlE5U+WI2Pynb4cVlUThHd2ITgy8Pj91R
-VO8+2kwxnZOdTndZbuQwcayf0f8roKjxQHMxTUXolKIjkJZDooeC70LxGREDBdNx
-Lg+Twx45/icYbyKkb/2d7Sbt1pbe8u0tINXOrbczCnVzkxKVcbAJSqtkrVxbQVaP
-PdCw1NgcHJJngxp6Nkfkkm8ZK7occaz+s0IFM6YnmGCsVv9fJwm5s6OmdnZmp5m7
-aZ4XxAzJQcY9HLMHtHk11ZfegvmECQ==
-=Ke1P
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHYhTUACgkQJNaLcl1U
+h9Cp8Qf/ZFBRPtdbVzdKbaIZxMQX1WTkuM85RVW5iYF0k3ZRsu/xxipT/j5shpo/
+M5kaFHRlLhXh9vrm3BTzYCTMB7zxVbMsTBFK/dpfbaHKomRUFT8NTA2zr+cn+xAp
+TU8M1bdmQJWBP0QWJ6EiTVkUEIqDdRH0uMspFUvVR1CblVwnlV6pYzBJqs1kS/YW
+khVTti+iRF9u2xDrb18oFTUQhK7svpJBY2ycaIxgJy0hx34YemQ0AAdWxFod3JAi
+f00764ji0s1a/1RGEkTdKzW627fbcMPOQm8+BDAWI34jTcyIxo10pXgIXHFRzr0v
+zXUDWbP+B84QShcnv+oop19j2xBl3w==
+=JV09
 -----END PGP SIGNATURE-----
 
---===============8628124260679628589==--
+--===============4507452626513735009==--
