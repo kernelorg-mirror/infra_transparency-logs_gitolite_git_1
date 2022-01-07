@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Fri, 07 Jan 2022 13:01:49 -0000
-Message-Id: <164156050984.10812.16082152319089898707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 07 Jan 2022 13:06:27 -0000
+Message-Id: <164156078748.13571.13487046884049498744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/vp
-    old: 97d86156357f67a4867887847a27184fa5b3dc04
-    new: 93a8c1e42c81f8ed762d040040ae861d9334380a
+  - ref: refs/heads/master
+    old: 789bffdd7070b11749913072ebdacae72154d140
+    new: b9d930d6c357a39c9b06e1c519d3ca872168d9fa
     log: |
-         93a8c1e42c81f8ed762d040040ae861d9334380a tip/tools/vp: Move spellcheck_hunk() up with the spellchecking code
+         b9d930d6c357a39c9b06e1c519d3ca872168d9fa libfdisk: (gpt) provide last LBA where is partitions array
          
