@@ -1,65 +1,123 @@
-Content-Type: multipart/mixed; boundary="===============3873449907635176631=="
+Content-Type: multipart/mixed; boundary="===============2002172829052462215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 07 Jan 2022 13:29:09 -0000
-Message-Id: <164156214994.27903.1585474558052464081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 07 Jan 2022 13:29:49 -0000
+Message-Id: <164156218998.28223.11025062345543530769@gitolite.kernel.org>
 
---===============3873449907635176631==
+--===============2002172829052462215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/tty-next
-    old: 99a507a8ea28542ec196e2dd80096708e2482735
-    new: 93a770b7e16772530196674ffc79bb13fa927dc6
+  - ref: refs/heads/queue/4.14
+    old: 8809232e0d5600bb0efa827e5837ac016fe65ead
+    new: 0a2b042fe0e2bbbcc02417818699165cdcf535f0
     log: |
-         0e479b460e342c5fe138391b29d7bfa0a6204af2 serial: 8250_bcm7271: Fix return error code in case of dma_alloc_coherent() failure
-         556172fabd226ba14b70c1740d0826a4717473dc serial: liteuart: fix MODULE_ALIAS
-         08a0c6dff91c965e39905cf200d22db989203ccb serial: pl010: Drop CR register reset on set_termios
-         e368cc656fd6d0075f1c3ab9676e2001451e3e04 serial: pl011: Drop CR register reset on set_termios
-         49a80424e3ec23ee2748f360348e167d5c748256 serial: pl011: Drop redundant DTR/RTS preservation on close/open
-         56a23f9319e86e1d62a109896e2c7e52c414e67d serial: stm32: move tx dma terminate DMA to shutdown
-         9a135f16d228857c5c1212a58050196883343d1e serial: stm32: rework TX DMA state condition
-         2a3bcfe03725472607110507b6860d823e0deb41 serial: stm32: fix flow control transfer in DMA mode
-         195437d14fb424a2ee50d51441181f16fd549789 serial: stm32: correct loop for dma error handling
-         93a770b7e16772530196674ffc79bb13fa927dc6 serial: core: Keep mctrl register state and cached copy in sync
+         4d9232e2c716da81c9e02842af258ddecb8dbfae Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+         14934809d2b4ba04b0ff2f9f80cb042bcdd0076c tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+         f3c9d33184bd0d12d8b032c318e26074db5e4e08 tracing: Tag trace_percpu_buffer as a percpu pointer
+         519b29e6e757914252c6f7b4013ef40889eb0fb7 virtio_pci: Support surprise removal of virtio pci device
+         531b4b0ca76cf769fdf92b91f5641e67ecfc854b ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         db403086c20c4c7d0d8a4c6d4ec60b2a3ae482f7 RDMA/core: Don't infoleak GRH fields
+         0a2b042fe0e2bbbcc02417818699165cdcf535f0 mac80211: initialize variable have_higher_than_11mbit
+         
+  - ref: refs/heads/queue/4.19
+    old: 1e24c07d0718f236f147d8e8371a72ecedba21f0
+    new: d2b7fee24cf2aec20b0f0b6f70db30cf1d8d4a64
+    log: |
+         5ca24711e979819721397bcc08e4a8ff8a30e1ec tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+         98d70cc5a6816412adb5f4123ca40bf0fda6be7c tracing: Tag trace_percpu_buffer as a percpu pointer
+         966b142539101c3c488b919ae5488f612b8de1d2 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         583dd8e47bbaf58e195fac409bedb862d096b8ea RDMA/core: Don't infoleak GRH fields
+         d2b7fee24cf2aec20b0f0b6f70db30cf1d8d4a64 mac80211: initialize variable have_higher_than_11mbit
+         
+  - ref: refs/heads/queue/4.4
+    old: 654d9f6f5b4cab660599be3b8846c96ab22a8485
+    new: d306d14c76b333110b24ec02616fc344cd998962
+    log: |
+         ef7a5a30ffd7f952a0fd6c4c984123a057d325b1 bpf, test: fix ld_abs + vlan push/pop stress test
+         4ef1ef212d62e2eb0f396de5d63ab87c685e13a9 Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+         886f4bf61a8122afaa61edac70f7ac0c2d128646 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         d306d14c76b333110b24ec02616fc344cd998962 mac80211: initialize variable have_higher_than_11mbit
+         
+  - ref: refs/heads/queue/4.9
+    old: 3d011521e6b5b35ea5e0219d5044c0abce412ede
+    new: 6b2c5b4e02f167afbf1d59cd8871ad1661d222a7
+    log: |
+         fc0afe28de51db32ed8af24243c867c7083d136b Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+         b4fad4a6438fe14a911e663df40dec1390cb35e2 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+         fea32bc833122bc99e71b090b1d47f9ccb824680 tracing: Tag trace_percpu_buffer as a percpu pointer
+         aaa653fbac634a744ba81fa4b1fb71cdf2ba950a virtio_pci: Support surprise removal of virtio pci device
+         688bf310dba5610360197b3f5e25895672897d28 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         6b2c5b4e02f167afbf1d59cd8871ad1661d222a7 mac80211: initialize variable have_higher_than_11mbit
+         
+  - ref: refs/heads/queue/5.10
+    old: 90ac7e02351edea96d8bd75cba54bcd6c259c00e
+    new: c5ec6dafb7ad92283de403fc97a7d64f2ca058ed
+    log: revlist-90ac7e02351e-c5ec6dafb7ad.txt
+  - ref: refs/heads/queue/5.15
+    old: 78f331df9384d1584aa6b62ef7f15151b149aa0e
+    new: cbf231b458c95cead5652c4368addfa0ade0983c
+    log: revlist-78f331df9384-cbf231b458c9.txt
+  - ref: refs/heads/queue/5.4
+    old: 7037c21fa84ac8d2c6403903217a9a2bd9058fb5
+    new: 7cc60b83deaaafe952ead9009eefea6ce2e4b96b
+    log: |
+         65475ba625e3a736548c2b21a4fa9056449d234d f2fs: quota: fix potential deadlock
+         1df8967b655f648298c12e619e90b8c63fb16b43 Input: touchscreen - Fix backport of a02dcde595f7cbd240ccd64de96034ad91cffc40
+         6f84c01d6ccd732692d31335c6330180e8894d2c selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
+         9b28ebe3f97a41bd74b8fa46205fa6f9b8cbced2 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+         a9bc03cd6ef36b6bd9a2e546659bc67ab167a886 tracing: Tag trace_percpu_buffer as a percpu pointer
+         8ddc7862c999683f897e59f4335a070c974b0d1c ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         dfc27aeb5a49579cf699c00bd121ad777bd93c9c iavf: Fix limit of total number of queues to active queues of VF
+         3bb46489da63e495d63e54cfa4aea8ee186c0f08 RDMA/core: Don't infoleak GRH fields
+         03bda843a16d665989f592f9b32ab2138d31f95f RDMA/uverbs: Check for null return of kmalloc_array
+         7cc60b83deaaafe952ead9009eefea6ce2e4b96b mac80211: initialize variable have_higher_than_11mbit
          
 
---===============3873449907635176631==
+--===============2002172829052462215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-90ac7e02351e-c5ec6dafb7ad.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641562149 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1641562148-2646b1438fea4dd9a6e5bdc0ccb02018fa32f0c1
+6edd042d7ebe205967afc71a64274914b23a79b9 f2fs: quota: fix potential deadlock
+f6c6c69c714b539e562e9bbcad1046a55cbf3999 selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
+7961faa862f88f09f64003ee8cd6f725e7077456 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+636615b8432ddb2cf403fc549f73f8c2dc67ea31 tracing: Tag trace_percpu_buffer as a percpu pointer
+0e5a13cc2d9a1a4bf7cfe5f1b642d12d244ccf2d ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+bc7f9f6543fcf6516d3bbb24c588e23268387f0c i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+0e1fd49dc8f00957768248e8a769f8668af8575a iavf: Fix limit of total number of queues to active queues of VF
+849044a61a189b88d66f50d6c5f01ef5ec02b734 RDMA/core: Don't infoleak GRH fields
+e6c426148f4ba3e2490be04fc9cfccd8ef8fb90c netrom: fix copying in user data in nr_setsockopt
+0b1e2cb9976e5352ed30cefd4ad96441ea64c426 RDMA/uverbs: Check for null return of kmalloc_array
+c5ec6dafb7ad92283de403fc97a7d64f2ca058ed mac80211: initialize variable have_higher_than_11mbit
 
-99a507a8ea28542ec196e2dd80096708e2482735 93a770b7e16772530196674ffc79bb13fa927dc6 refs/heads/tty-next
------BEGIN PGP SIGNATURE-----
+--===============2002172829052462215==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-78f331df9384-cbf231b458c9.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHYQCUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6UgP/A5O8YJWxaofGazxvmaZ
-WRPz3mDRIlMgQLpA2WVl5d8FdDfK8eTjXk+k/EqHU3uAxMWiwNBZTn6NiANRN/h3
-4EobkcT+A+Bu2oX67T5NAcACyITcF88HekC+n1DRf/CpAXOKQYlHsLraRhni5O1B
-1KYBXv1KkQqJrwzlFFtHXiYPO/gBbx45sWjufQLEFVZzSWFY2eHQDWNLEc4jfYEb
-3OHCHUu4WLriFIng3iKtQJ3wauqn6GjdbhLr5VJmuh2zw7EoolT3EcvuUXHMTLK6
-k2K7QTY30SkPovlKsxc0AvAO4RfN2YEVI4oqX8GH7TijX3jtFpA4ALnp1VUMJlHh
-L/cDCUbM8gBRy60uN9j/ZlYLkahXV2AjdG3dYwD3l6GW8MMBNjgwF0DSR+f+PG5b
-3Yo7PxTxxvEcPWgHW+9SAvQUnnXDE1boUC9s6LkLAyUsZp4sgPX8/U4/SQRTYRw8
-m2WTNcQBJnDgTvzg90r9hb8b5+jrobWvWlfVZ7n37OdXYsyEn6nsqrnlj6vximcv
-eSr9IOryciBcJVscCidET7XXRZUrJrWzpi5p86bq6DP4rylxL17x4cRcuf4DeOqu
-FN3Oo95OgF2eB+CIigLN6ksVaBEKYfiSgY55MTmVRXpp+6hX4g77Rd24BspOJx3b
-JTYB0mjXdfnaO4mKvFXeVb4J
-=6wvC
------END PGP SIGNATURE-----
+9e628383caf47314d25ba2080fa5c39ad9b4394e fscache_cookie_enabled: check cookie is valid before accessing it
+2e809c8e5de26dc131a2be557fab250375895dd6 selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
+33f28e5fc5fdd209b16386c909a5cbf60d53f1c8 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+36f0b8fe3ba072d536ef133a7a8108adf6a46b93 tracing: Tag trace_percpu_buffer as a percpu pointer
+5c10d76d6b8563c89d2babbf0e30578dec95f12d Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
+4e3e1f7c29b5ae32899b2ad7b767f860c53668f2 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+5d36732a0f3ae9323b634c410e4627f08c5da915 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+8951d48bb3e14187fa59043809b4d66393e1c633 iavf: Fix limit of total number of queues to active queues of VF
+e25ef8f1e96773818b06fc0c275bceee7f0107d6 RDMA/core: Don't infoleak GRH fields
+f4da76e6daf68209cb39a35b6f3f4b23f3808702 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
+09bd0e9c069634a3a73f76263dc7ab95f3a7ff32 netrom: fix copying in user data in nr_setsockopt
+fc3a64729f55f0b7cd0212f87251a17ea77eba5a RDMA/uverbs: Check for null return of kmalloc_array
+f94c5cc4d390de4edc977a373630bea2e6b8090f mac80211: initialize variable have_higher_than_11mbit
+cbf231b458c95cead5652c4368addfa0ade0983c mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
 
---===============3873449907635176631==--
+--===============2002172829052462215==--
