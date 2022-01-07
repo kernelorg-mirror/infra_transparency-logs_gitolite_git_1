@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4387185196480508710=="
+Content-Type: multipart/mixed; boundary="===============2489178173333919836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 07 Jan 2022 18:42:05 -0000
-Message-Id: <164158092576.32678.18219011294145834378@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 18:42:34 -0000
+Message-Id: <164158095433.443.14371576929726026357@gitolite.kernel.org>
 
---===============4387185196480508710==
+--===============2489178173333919836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm-vmap-stacks-for-v5.18
+  - ref: refs/heads/for-kernelci
     old: 6b966312ab5f89bfab91fe7d17829b58b1218c7f
     new: 717f54d7a5ef1bf2af3205b820c9674cf21683fd
     log: revlist-6b966312ab5f-717f54d7a5ef.txt
 
---===============4387185196480508710==
+--===============2489178173333919836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ c4e52f9e1e452363475291488baf15578274b921 ARM: smp: defer TPIDRURO update for SMP
 49e57250a4efdd6bf0cddf75f7d77498aa87ae65 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
 717f54d7a5ef1bf2af3205b820c9674cf21683fd ARM: v7m: enable support for IRQ stacks
 
---===============4387185196480508710==--
+--===============2489178173333919836==--
