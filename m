@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 07 Jan 2022 14:11:17 -0000
-Message-Id: <164156467715.23693.9526935635037498721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Fri, 07 Jan 2022 14:22:51 -0000
+Message-Id: <164156537187.31269.9474389594013956620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
   - ref: refs/heads/master
-    old: 9371937092d5fd502032c1bb4475b36b39b1f1b3
-    new: dc35616e6c2907b0c0c391a205802d8880f7fd85
+    old: 28932c41e14d730b8b9a7310071384178611fb32
+    new: 1044c77062573985f7c994c3b6cef5695f57e955
     log: |
-         dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
+         66cc36c96e9a91e613734cf595e8c3212128e233 Makefile: Avoid .got section creation
+         0212217866e20e6fc9d59dad843b0bca47ff0212 configure: Make PSCI the default boot method
+         4c2d1420230ad0e41b79b6b225450645732f885a configure: Fix default DTB
+         1d2f934679b60b2f4095c3f132d3b0e7ef9d9717 configure: Use earlycon instead of earlyprintk
+         fa754a55b3363266a999ef41dddc7a74a37a34cd pointer auth: Document CPU feature bit mask
+         1044c77062573985f7c994c3b6cef5695f57e955 avoid dtc warnings on re-compiling DTB
          
