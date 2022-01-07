@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5683300885258712907=="
+Content-Type: multipart/mixed; boundary="===============8126826764257105019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 07 Jan 2022 10:58:38 -0000
-Message-Id: <164155311887.3007.12954187278315340603@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 10:59:00 -0000
+Message-Id: <164155314058.3200.9237308387209498428@gitolite.kernel.org>
 
---===============5683300885258712907==
+--===============8126826764257105019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 45a98ef4922def8c679ca7c454403d1957fe70e7
     new: 29507144c99814cd5e1ed9873db21ffc634f6c95
     log: revlist-45a98ef4922d-29507144c998.txt
 
---===============5683300885258712907==
+--===============8126826764257105019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d5a73ec96cc57cf67e51b12820fc2354e7ca46f8 fsl/fman: Check for null pointer after 
 36595d8ad46d9e4c41cc7c48c4405b7c3322deac net/smc: Reset conn->lgr when link group registration fails
 29507144c99814cd5e1ed9873db21ffc634f6c95 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
 
---===============5683300885258712907==--
+--===============8126826764257105019==--
