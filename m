@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 07 Jan 2022 14:33:08 -0000
-Message-Id: <164156598856.5260.11163042434575083350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 07 Jan 2022 14:35:24 -0000
+Message-Id: <164156612465.7322.1696486779121750251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-linus
-    old: f1a7ba0153139ec08e9959eeb6928b46aa9b4c58
-    new: ce0f86b80e919b80acc75fcd3314c7a8f5fac7f4
+  - ref: refs/heads/ceph-fscrypt
+    old: 37490a17338c0208d2e006d38b5d3eeeb5f98bb1
+    new: c0913e0e60316066e05deed733746261a21ebc59
     log: |
-         ce0f86b80e919b80acc75fcd3314c7a8f5fac7f4 Merge remote-tracking branch 'spi/for-5.15' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: 3e718b44756e2829e7189a9504aa7a6d7f394d6c
-    new: 69c1b87516e327a60b39f96b778fe683259408bf
-    log: |
-         c8c9cb6d9fbeace1c5509f4bb2f3c32095cda0d0 spi: atmel: Fix typo
-         69c1b87516e327a60b39f96b778fe683259408bf spi: spi-meson-spifc: Add missing pm_runtime_disable() in meson_spifc_probe
+         c36bbf3bcb4770a43f74b394aa8e6604c539fdae ceph: don't use special DIO path for encrypted inodes
+         4da10f85fd3effa06819b44a54adde749256efaa ceph: add infrastructure for file encryption and decryption
+         665a3f82631c0dbe3db6e87df164d07cf87f59a4 ceph: set encryption context on open
+         d1284ab5bd0f9fc3eb315e0f8b2bb15c206c78e0 ceph: enable partial block updates on truncate
+         ee8c5d087b29827a852e91caea4d2c20ea891fc5 ceph: add read/modify/write to ceph_sync_write
+         b576b53e208dd542c3a8c846e9bca279d8a562cb ceph: plumb in decryption during sync reads
+         c0913e0e60316066e05deed733746261a21ebc59 DEBUG: turn dout into pr_warn
          
