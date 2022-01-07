@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 07 Jan 2022 11:28:20 -0000
-Message-Id: <164155490066.15821.13829970649119766848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 07 Jan 2022 11:28:21 -0000
+Message-Id: <164155490178.15872.12379932659570989797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-linus-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 54bb4a91b281e1b21235a4bc175e1293e787c016
+  - ref: refs/heads/for-next
+    old: a0d003a5c4f4acfa44a0598272afd1c31ba942ee
+    new: 0000000000000000000000000000000000000000
