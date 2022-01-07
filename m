@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 07 Jan 2022 21:53:06 -0000
-Message-Id: <164159238616.22193.3029400531805087976@gitolite.kernel.org>
+Date: Fri, 07 Jan 2022 21:54:21 -0000
+Message-Id: <164159246103.22639.10648577810379102167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: c25af830ab2608ef1dd5e4dada702ce1437ea8e7
-    new: 2318517920d16b364b403c55707156a3677aacbe
+    old: 2318517920d16b364b403c55707156a3677aacbe
+    new: 8134b5063264b3711e477fd73e91fed5249cd196
     log: |
-         d793c2eb5dbc015bfb91b63d417049e065d1b33c libbpf: Use IS_ERR_OR_NULL() in hashmap__free()
-         2318517920d16b364b403c55707156a3677aacbe bpftool: Fix error check when calling hashmap__new()
+         88cbd9222e8887550389b32533425ae1fd97f486 libbpf: Rename bpf_prog_attach_xattr() to bpf_prog_attach_opts()
+         f12363ec5a38913b2d0d143c1ba2bcf2a9228c42 selftests/bpf: Change bpf_prog_attach_xattr() to bpf_prog_attach_opts()
+         8134b5063264b3711e477fd73e91fed5249cd196 Merge branch 'libbpf: rename bpf_prog_attach_xattr to bpf_prog_attach_opts'
          
