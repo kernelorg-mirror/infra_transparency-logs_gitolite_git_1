@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 07 Jan 2022 21:48:01 -0000
-Message-Id: <164159208108.17927.16963412230412293466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 07 Jan 2022 21:53:06 -0000
+Message-Id: <164159238616.22193.3029400531805087976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 86c15ea5e9efae0b41f8d0c499403f1d0d857adc
-    new: 24e059ae371079e52d7de20ba640b8ba496da1c6
+    old: c25af830ab2608ef1dd5e4dada702ce1437ea8e7
+    new: 2318517920d16b364b403c55707156a3677aacbe
     log: |
-         24e059ae371079e52d7de20ba640b8ba496da1c6 Fri Jan  7 09:47:29 PM UTC 2022
+         d793c2eb5dbc015bfb91b63d417049e065d1b33c libbpf: Use IS_ERR_OR_NULL() in hashmap__free()
+         2318517920d16b364b403c55707156a3677aacbe bpftool: Fix error check when calling hashmap__new()
          
