@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3969142665478859397=="
+Content-Type: multipart/mixed; boundary="===============8480494502397534052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 07 Jan 2022 20:02:58 -0000
-Message-Id: <164158577871.18545.10564921651008414101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Fri, 07 Jan 2022 20:03:05 -0000
+Message-Id: <164158578519.18654.4730008636301436858@gitolite.kernel.org>
 
---===============3969142665478859397==
+--===============8480494502397534052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 80a19e0e6bc1128be8ea23e19f305fd74ab5fb78
-    new: 4338e351aed68f2d66a84f15b633218ac34a8a05
-    log: revlist-80a19e0e6bc1-4338e351aed6.txt
+  - ref: refs/heads/queue-next
+    old: a890bd483ecf0c8bbc04c24cdf654e6f477f191b
+    new: 7599dfd3c84569cbdec1fc22f225f96a7372c80c
+    log: revlist-a890bd483ecf-7599dfd3c845.txt
 
---===============3969142665478859397==
+--===============8480494502397534052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80a19e0e6bc1-4338e351aed6.txt
+Content-Disposition: attachment; filename=revlist-a890bd483ecf-7599dfd3c845.txt
 
 b22bf1b9979a608827dea98c61ed9ec297bcc513 bpftool: Refactor misc. feature probe
 c04fb2b0bd9275969be3b0a95f9c3ef76b1bfb73 bpftool: Probe for bounded loop support
@@ -146,5 +146,7 @@ b69c5b5886f3986f94ded29896211d520c57aea1 Merge branch 'octeontx2-ptp-bugs'
 9371937092d5fd502032c1bb4475b36b39b1f1b3 ax25: uninitialized variable in ax25_setsockopt()
 dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
 4338e351aed68f2d66a84f15b633218ac34a8a05 Merge branch 'mlx4-for-net' into net-next
+d655b7d25970f12ceccd8f5070b9d224a9675c93 Merge branch 'net-next' into queue-next
+7599dfd3c84569cbdec1fc22f225f96a7372c80c Merge branch 'testing/rdma-next' into queue-next
 
---===============3969142665478859397==--
+--===============8480494502397534052==--
