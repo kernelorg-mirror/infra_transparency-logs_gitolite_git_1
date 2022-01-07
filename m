@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============5214914482201626931=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 07 Jan 2022 10:24:20 -0000
-Message-Id: <164155106022.13764.15457842335865163215@gitolite.kernel.org>
-
---===============5214914482201626931==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Fri, 07 Jan 2022 10:24:38 -0000
+Message-Id: <164155107890.13915.14937052865147783113@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 0589e8889dce8e0f0ea5bbf757f38865e2a469c1
-    new: c9512fd032acfe6f5198c30b6e7e52e0a7df5d31
+  - ref: refs/heads/next
+    old: 4aba6c2fd3065b3be3acf46411521a2083c38250
+    new: f1aaf12842f344237d0654352e324a5ab7c70196
     log: |
-         c9512fd032acfe6f5198c30b6e7e52e0a7df5d31 kobject documentation: remove default_attrs information
+         dec8d2140c23e30b9be3b3aed9ff2039dd777e27 tests: acpi: prepare for updated TPM related tables
+         e8201bd3949f4775c37537c27eba7068dca66fb8 acpi: tpm: Add missing device identification objects
+         f1aaf12842f344237d0654352e324a5ab7c70196 tests: acpi: Add updated TPM related tables
          
-
---===============5214914482201626931==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641551059 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1641551059-844c39c712e86c97ba9d757364b61fe2664453c6
-
-0589e8889dce8e0f0ea5bbf757f38865e2a469c1 c9512fd032acfe6f5198c30b6e7e52e0a7df5d31 refs/heads/driver-core-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHYFNMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9MgQAKAeu+00JJ4VC3rOg8uj
-yPU5wdrMb925tYhTNxaSx+AsQOYINMnGMBHI9d84tPOxCqwQp9KQTg67GzHWhfgr
-vuabCrj7uG7nA/CNiflGajjomh8LjlN397BkFBOSkQ7ykFrrW8HyPXOgx5vvmj4h
-tNW4ykF32SgoDj8lMvy069Hx9FOgNCx8jam9BcBBe1RNYLPiRgs7kNfGPQWzGCnj
-nE498quwzNoYERfuopuPRaXywBqyZyd7syiCrxLUeyMMONN8tCGTBN6Ph/hGJbyw
-PyIGA20xly7aqzigq47ry5fkkgZXDCIADUk5K5f6th2ywBUJExCrnkav+4pcSO+p
-A5D8JZ/6yRcRPw+RUE5lcR5Bgn0WrJSDtZDm2PY2qFIvIABPhWLtMOXWJkki+g6G
-Trw3eQZNez/o3tYONoR8E+Xfu691DM1X6u3rmXok7BodoT6cZarkaHsSj1UxQ5BH
-dZbLxjvW0u5/GSXeilLApoU55bEQLPNv6NGJHNHTVVyf9NXj2zJu1Gb04DMh3YN+
-V4hiSiqmvK9BDRutEOoQG3hSIctNrPKPhcNWNo0BhmfGRtp7JAjrLz4wjkBCS4oy
-HFixSx9+JCpO1pWnE45P5duRz8LSHUGjTjrAR2sGkuEF/ZoHjWIrQACjqXCcGcXg
-zIioaNqEpuAld2bZt7+IK7/w
-=lwXT
------END PGP SIGNATURE-----
-
---===============5214914482201626931==--
+  - ref: refs/heads/pci
+    old: 4aba6c2fd3065b3be3acf46411521a2083c38250
+    new: f1aaf12842f344237d0654352e324a5ab7c70196
+    log: |
+         dec8d2140c23e30b9be3b3aed9ff2039dd777e27 tests: acpi: prepare for updated TPM related tables
+         e8201bd3949f4775c37537c27eba7068dca66fb8 acpi: tpm: Add missing device identification objects
+         f1aaf12842f344237d0654352e324a5ab7c70196 tests: acpi: Add updated TPM related tables
+         
+  - ref: refs/tags/for_autotest
+    old: 1cb62b30762f5fbc45b29c559eb090655f3a5be5
+    new: 52d200c0b5e205fd988ae74c157b41055a4ce4f7
+    log: |
+         dec8d2140c23e30b9be3b3aed9ff2039dd777e27 tests: acpi: prepare for updated TPM related tables
+         e8201bd3949f4775c37537c27eba7068dca66fb8 acpi: tpm: Add missing device identification objects
+         f1aaf12842f344237d0654352e324a5ab7c70196 tests: acpi: Add updated TPM related tables
+         
+  - ref: refs/tags/for_autotest_next
+    old: 1cb62b30762f5fbc45b29c559eb090655f3a5be5
+    new: 52d200c0b5e205fd988ae74c157b41055a4ce4f7
+    log: |
+         dec8d2140c23e30b9be3b3aed9ff2039dd777e27 tests: acpi: prepare for updated TPM related tables
+         e8201bd3949f4775c37537c27eba7068dca66fb8 acpi: tpm: Add missing device identification objects
+         f1aaf12842f344237d0654352e324a5ab7c70196 tests: acpi: Add updated TPM related tables
+         
+  - ref: refs/tags/for_upstream
+    old: 1cb62b30762f5fbc45b29c559eb090655f3a5be5
+    new: 52d200c0b5e205fd988ae74c157b41055a4ce4f7
+    log: |
+         dec8d2140c23e30b9be3b3aed9ff2039dd777e27 tests: acpi: prepare for updated TPM related tables
+         e8201bd3949f4775c37537c27eba7068dca66fb8 acpi: tpm: Add missing device identification objects
+         f1aaf12842f344237d0654352e324a5ab7c70196 tests: acpi: Add updated TPM related tables
+         
