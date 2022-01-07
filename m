@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3880786775237034910=="
+Content-Type: multipart/mixed; boundary="===============3495718778422770340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
 Date: Fri, 07 Jan 2022 11:28:30 -0000
-Message-Id: <164155491029.16011.14032358654015700600@gitolite.kernel.org>
+Message-Id: <164155491036.16021.11901735094405764135@gitolite.kernel.org>
 
---===============3880786775237034910==
+--===============3495718778422770340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 4fff7c8b60b0688b011efce98c6bb432c5b6fc88
-    new: 60152cda9d9d7669d41ece17baa867d5ce6aa69f
-    log: |
-         60152cda9d9d7669d41ece17baa867d5ce6aa69f 4.14-stable patches
-         
+    old: 26abf15c49e0fbbcb6dbd70c52ecbde221f1b0fa
+    new: ca1a6705b271d458d54bbeb072af97ec468d3b37
+    log: revlist-26abf15c49e0-ca1a6705b271.txt
 
---===============3880786775237034910==
+--===============3495718778422770340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-26abf15c49e0-ca1a6705b271.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641554909 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1641554908-33497d7e2ce4b314abaae12b948ab410265c76d3
+58cd405b83b388c75a4c24926e5d4aeae8d1eaf5 mptcp: keep snd_una updated for fallback socket
+f284c0c7732189fa77567dc061c5f4205c4fa05b mptcp: implement fastclose xmit path
+b29fcfb54cd70caca5b11c80d8d238854938884a mptcp: full disconnect implementation
+71ba088ce0aa87370b18a1d35cd742f352d51c24 mptcp: cleanup accept and poll
+3d1d6d66e15612801bec79b190af746622f0d427 mptcp: implement support for user-space disconnect
+05be5e273c84f6329b3cac4f5bb7b1fe6eaefd5d selftests: mptcp: add disconnect tests
+f7d6a237d7422809d458d754016de2844017cb4d mptcp: fix per socket endpoint accounting
+71b077e48377222c5fdae9ddcc58fe03cdff6932 mptcp: clean-up MPJ option writing
+86e39e04482b0aadf3ee3ed5fcf2d63816559d36 mptcp: keep track of local endpoint still available for each msk
+a88c9e49693759f9eb49dcda6c45a0d32b07634c mptcp: do not block subflows creation on errors
+46e967d187ed1693b34379ac4e27fd4e1fb40a45 selftests: mptcp: add tests for subflow creation failure
+3e5014909b5661b3da59990d72a317a45ba3b284 mptcp: cleanup MPJ subflow list handling
+e9d09baca67625cfb41c0f2b547b9dbb4043ae95 mptcp: avoid atomic bit manipulation when possible
+ca1a6705b271d458d54bbeb072af97ec468d3b37 Merge branch 'mptcp-next'
 
-4fff7c8b60b0688b011efce98c6bb432c5b6fc88 60152cda9d9d7669d41ece17baa867d5ce6aa69f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHYI90bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B4kP/0eHhNgPBFJHQOvCf8+D
-swOR5lWOmcMizdU6wvVRjKGpawYvm8XJcL4Z5pbxLW+EqPxJPyzeS7qH89FqwiK8
-V3vODshXkVbA4yxr6P6qou//VASHNobJ3IIXi8F4NPRJ824ul9B2w8mGbvU5y91f
-34LA7pJg2iX6wMcOEZf4Ck3xez6iS0toXPtXtRNDXuyrJH2uEBTEf32fz0Vab5Bc
-C1STy7jzdCO+wHxzTIN8RxfZkXOwSCpqEM8jmfxtZFQ79YekpL3lAsgizRgK+Y0s
-ICkuxCqJAhFSO+IZO093cXel9iMfM666HI2PERpKP95bvh0hDl1N9tw7bndAuezl
-D73UnN/lIxGqh3vykIC2Cok0rViwrhMP4U1TaYoPAd/e/1baY0rc8iyCgGRHBOr0
-G2n1noNtGn1t0bssO5c6JFikOyN/GRu8x/2yXQrfyF9hpV/m13Y/GKXM+Jj4so2y
-1j2ia6TMcRtPC4PgzSEabZsJnEhGPdYfKb4fkg3sP74WGuL+f+WDm5dTyv+TcWaX
-P2Dikw51xnijjc3tq9cNpUiW/4kdCpSamXTXLpFYeTk2wwlr9MNr1HNnDFlo/WPJ
-3EYAj2BDcjsDJkX0oO2l3XfyI6R8GhHc0VdL36mTYgM0mp/yj0xfzFXGIhqpuYOy
-EmG/fNk2HZnKZXFC3+sQl75D
-=dhu3
------END PGP SIGNATURE-----
-
---===============3880786775237034910==--
+--===============3495718778422770340==--
