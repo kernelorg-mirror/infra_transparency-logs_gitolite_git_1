@@ -1,83 +1,65 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 07 Jan 2022 13:28:01 -0000
-Message-Id: <164156208151.27438.18012327318730746773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3873449907635176631=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 07 Jan 2022 13:29:09 -0000
+Message-Id: <164156214994.27903.1585474558052464081@gitolite.kernel.org>
+
+--===============3873449907635176631==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 5bafae588e9f0cc46b2b225c3bb2c2f9f81861fc
-    new: 8809232e0d5600bb0efa827e5837ac016fe65ead
+  - ref: refs/heads/tty-next
+    old: 99a507a8ea28542ec196e2dd80096708e2482735
+    new: 93a770b7e16772530196674ffc79bb13fa927dc6
     log: |
-         3862b8f59f7b7ebdd1d2ec0e9fc5243a88212561 Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
-         b32da7c633536d8389e7e74f34fadfe4cf850de5 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         9b11a299ae5015dae8a7ae4dde1c7150d451db72 tracing: Tag trace_percpu_buffer as a percpu pointer
-         4764af0176be66ecddef84cc30b662c3d98f35ec virtio_pci: Support surprise removal of virtio pci device
-         8809232e0d5600bb0efa827e5837ac016fe65ead ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+         0e479b460e342c5fe138391b29d7bfa0a6204af2 serial: 8250_bcm7271: Fix return error code in case of dma_alloc_coherent() failure
+         556172fabd226ba14b70c1740d0826a4717473dc serial: liteuart: fix MODULE_ALIAS
+         08a0c6dff91c965e39905cf200d22db989203ccb serial: pl010: Drop CR register reset on set_termios
+         e368cc656fd6d0075f1c3ab9676e2001451e3e04 serial: pl011: Drop CR register reset on set_termios
+         49a80424e3ec23ee2748f360348e167d5c748256 serial: pl011: Drop redundant DTR/RTS preservation on close/open
+         56a23f9319e86e1d62a109896e2c7e52c414e67d serial: stm32: move tx dma terminate DMA to shutdown
+         9a135f16d228857c5c1212a58050196883343d1e serial: stm32: rework TX DMA state condition
+         2a3bcfe03725472607110507b6860d823e0deb41 serial: stm32: fix flow control transfer in DMA mode
+         195437d14fb424a2ee50d51441181f16fd549789 serial: stm32: correct loop for dma error handling
+         93a770b7e16772530196674ffc79bb13fa927dc6 serial: core: Keep mctrl register state and cached copy in sync
          
-  - ref: refs/heads/queue/4.19
-    old: 25d7b05d88d9d9e1ca6755d5817049d28cc686d3
-    new: 1e24c07d0718f236f147d8e8371a72ecedba21f0
-    log: |
-         d4b443444c79ecdfd9f8b681f2b94b70c298e776 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         17b8068c1f447b8e21979df8b8bc90e19441eb2d tracing: Tag trace_percpu_buffer as a percpu pointer
-         1e24c07d0718f236f147d8e8371a72ecedba21f0 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         
-  - ref: refs/heads/queue/4.4
-    old: cb1067fa574f0ec3465b544961c99d4a318a479d
-    new: 654d9f6f5b4cab660599be3b8846c96ab22a8485
-    log: |
-         b88919dfd428a999960c7ab6a74ac9342d1708e1 bpf, test: fix ld_abs + vlan push/pop stress test
-         96739bfa18c55b2c7c8a78fe3c52ea932cb726ff Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
-         998eee4637fefad12c3d410281586faabaa7b8af ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         654d9f6f5b4cab660599be3b8846c96ab22a8485 mac80211: initialize variable have_higher_than_11mbit
-         
-  - ref: refs/heads/queue/4.9
-    old: 7203781ae31dbd7a37a3746b9c410efad7e9d553
-    new: 3d011521e6b5b35ea5e0219d5044c0abce412ede
-    log: |
-         fd988147436a782033785b9cc24bfb25e8e67f6d Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
-         105db2439f7e4f0c1831d43bf793c858e9880d7e tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         b8f9635804879a68bc2ad64f43295856703ad200 tracing: Tag trace_percpu_buffer as a percpu pointer
-         dc6d6516f1a07229865cac358f59fed955e7f585 virtio_pci: Support surprise removal of virtio pci device
-         176056cf5ec49036eb82bf0284f0534fa27efb5f ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         3d011521e6b5b35ea5e0219d5044c0abce412ede mac80211: initialize variable have_higher_than_11mbit
-         
-  - ref: refs/heads/queue/5.10
-    old: 7575d2506fb1eb9a2be895e928d38f4e1230d509
-    new: 90ac7e02351edea96d8bd75cba54bcd6c259c00e
-    log: |
-         ab5ede11939848a2611262a410e07bd7da5fecd5 f2fs: quota: fix potential deadlock
-         3a8d20fd8439022f7afa25cad899a905e1fe0b9d selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
-         c13dc4b6af22d3eec1a2c53cd19fe07e385fc1a8 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         742a83885a6ca9c4425590dd08ec744e5a4b2f0a tracing: Tag trace_percpu_buffer as a percpu pointer
-         90ac7e02351edea96d8bd75cba54bcd6c259c00e ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         
-  - ref: refs/heads/queue/5.15
-    old: c97196108608c0f968ca542abadaf264980e021e
-    new: 78f331df9384d1584aa6b62ef7f15151b149aa0e
-    log: |
-         ae057be365b04f8089cf8ed2d668acd41ccfe6f2 fscache_cookie_enabled: check cookie is valid before accessing it
-         15d8549b551fe4eb51be197f61d77fa29721d577 selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
-         b27c89afaa72c48ddd5caac70f78a16f5722245e tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         375b4e775849208f531530e76c550808995f30f0 tracing: Tag trace_percpu_buffer as a percpu pointer
-         8aa5916a78204acb2c94cea26793b1c71f929353 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
-         78f331df9384d1584aa6b62ef7f15151b149aa0e ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         
-  - ref: refs/heads/queue/5.4
-    old: 44d811f494ca65ee0754990a77e5e751b8473681
-    new: 7037c21fa84ac8d2c6403903217a9a2bd9058fb5
-    log: |
-         09888b5f052232f15c41e878d3d863d1db512c75 f2fs: quota: fix potential deadlock
-         40eb6675db9445765f8231b6ba507abfb70d5793 Input: touchscreen - Fix backport of a02dcde595f7cbd240ccd64de96034ad91cffc40
-         247ff5ea77d38ec58034966e0ac41414d1bc00e8 selftests: x86: fix [-Wstringop-overread] warn in test_process_vm_readv()
-         5f24bd05718e5bd7673717a48ed5bbb93eb7dc70 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-         96832767f3905875bd944f27078c7051af66bb66 tracing: Tag trace_percpu_buffer as a percpu pointer
-         7037c21fa84ac8d2c6403903217a9a2bd9058fb5 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-         
+
+--===============3873449907635176631==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641562149 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1641562148-2646b1438fea4dd9a6e5bdc0ccb02018fa32f0c1
+
+99a507a8ea28542ec196e2dd80096708e2482735 93a770b7e16772530196674ffc79bb13fa927dc6 refs/heads/tty-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHYQCUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6UgP/A5O8YJWxaofGazxvmaZ
+WRPz3mDRIlMgQLpA2WVl5d8FdDfK8eTjXk+k/EqHU3uAxMWiwNBZTn6NiANRN/h3
+4EobkcT+A+Bu2oX67T5NAcACyITcF88HekC+n1DRf/CpAXOKQYlHsLraRhni5O1B
+1KYBXv1KkQqJrwzlFFtHXiYPO/gBbx45sWjufQLEFVZzSWFY2eHQDWNLEc4jfYEb
+3OHCHUu4WLriFIng3iKtQJ3wauqn6GjdbhLr5VJmuh2zw7EoolT3EcvuUXHMTLK6
+k2K7QTY30SkPovlKsxc0AvAO4RfN2YEVI4oqX8GH7TijX3jtFpA4ALnp1VUMJlHh
+L/cDCUbM8gBRy60uN9j/ZlYLkahXV2AjdG3dYwD3l6GW8MMBNjgwF0DSR+f+PG5b
+3Yo7PxTxxvEcPWgHW+9SAvQUnnXDE1boUC9s6LkLAyUsZp4sgPX8/U4/SQRTYRw8
+m2WTNcQBJnDgTvzg90r9hb8b5+jrobWvWlfVZ7n37OdXYsyEn6nsqrnlj6vximcv
+eSr9IOryciBcJVscCidET7XXRZUrJrWzpi5p86bq6DP4rylxL17x4cRcuf4DeOqu
+FN3Oo95OgF2eB+CIigLN6ksVaBEKYfiSgY55MTmVRXpp+6hX4g77Rd24BspOJx3b
+JTYB0mjXdfnaO4mKvFXeVb4J
+=6wvC
+-----END PGP SIGNATURE-----
+
+--===============3873449907635176631==--
