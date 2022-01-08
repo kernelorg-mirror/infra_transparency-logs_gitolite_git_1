@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Sat, 08 Jan 2022 14:37:03 -0000
-Message-Id: <164165262336.30786.12872307426961590287@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7622208768297167258=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 08 Jan 2022 14:43:37 -0000
+Message-Id: <164165301790.1719.15148083559748434001@gitolite.kernel.org>
+
+--===============7622208768297167258==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b9f9dbad0bd1c302d357fdd327c398f51f5fc2b1
-    new: f08164bc86656ec52264913a7257f1de3a9b9c8e
+    old: 4e87fe8689a2d95308f11e8a06f3af8bf169e68b
+    new: a761d61ccea577c22200bb852ebf9a802a919d2a
     log: |
-         83090463984a3abdcbd06555099f24cea284aad7 Bluetooth: hci_qca: Fix NULL vs IS_ERR_OR_NULL check in qca_serdev_probe
-         0b4266bb63b24c2ebf70c8d1870418b359cc7d47 Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
-         92e9b3d7942abad4a67b360d4bd84e0897e280fb Bluetooth: hci_event: Rework hci_inquiry_result_with_rssi_evt
-         4f0cfa6b543611aad153b8cd9978cbdfd47fb814 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
-         bfc04b91a7b78071896cf150dbbd6a3f2f1ed717 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-         7c26eb8f0ef47c6b537050a5f08195515401339c Bluetooth: btqca: sequential validation
-         aa6ffa2054e34694b547a691683629bbe7b5c973 Bluetooth: L2CAP: uninitialized variables in l2cap_sock_setsockopt()
-         f08164bc86656ec52264913a7257f1de3a9b9c8e Bluetooth: hci_sock: fix endian bug in hci_sock_setsockopt()
+         a761d61ccea577c22200bb852ebf9a802a919d2a 5.15-stable patches
          
+
+--===============7622208768297167258==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641653017 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1641653016-935a43fe79f0925c1ac0ea7b2d614d226bf72448
+
+4e87fe8689a2d95308f11e8a06f3af8bf169e68b a761d61ccea577c22200bb852ebf9a802a919d2a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHZoxkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XgUQALDWvmxNLaMbyM1MVOeA
+NX46HwJLoo7ebY6e9DxYf4xn3r4vF53wyVWK4riu8SCullIlrZPSCNAleZv8ApJv
+j4he1KQR188MRJ1Wra3TWXzk3pAfd0O8JGnMrXLQ3GDWlCxGzhp1ZvEwc0EsEoNv
+s0GxNysypWNCNlNVTG5wMgPhzaV+zu3lbAfpFmuk5QXZhdJmdnWx3EKnFk1du9+2
+wlHMoj7SY/1H1sGiLKliyeDy/E6YQvyPm/AHLb+kYHpjQDoO4s8ZJHB9nSCJIJ8u
+uYZ32hJG6oxQ5ILEXsTVr3hhZ7B794J9sVVKCdN8rHA4zSp5c6tY4yvkk3/5yXJm
++nudSuIbce2ygWCaPmxxQAWWhxrkHcawKfJJQ/DBr60YhpSbiDHInkjlifxeP22e
+Z+mYRGFEzeqcwyNYdaOWoc0YdRRaYR2VbS59Rwswt1ybFXhc/Cn1MlN+JTLWX+fT
+UphjWqBXr/umgwLRUsJn2ACJdVISr8eTSxLEA5NoV5Q1a25CaYyrKklvAngeczBW
+hrkzq1G4nY3V09mrs1QPNUqj8rTuDglMOsCWaMZP1z6xN1dL5tA4EzCfLmGAjbNs
+At4wAVNxa1yL24vjnTl4+F8HCW+hZRyoZaW300F+aSL4a1ZJFQcFpPPHhxZQLVOB
+DH9xVLs66kMZ1iJM6orgqZr4
+=3cAO
+-----END PGP SIGNATURE-----
+
+--===============7622208768297167258==--
