@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sat, 08 Jan 2022 16:46:32 -0000
-Message-Id: <164166039253.13546.12814099814432649396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/tuna/tuna
+Date: Sat, 08 Jan 2022 16:50:33 -0000
+Message-Id: <164166063378.16167.5255031959153376114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/utils/tuna/tuna
+user: jkacur
 changes:
-  - ref: refs/heads/dev
-    old: 2b642898e5ea206d04684e55235878ea3425659c
-    new: 16efbac2a93dfb07ac510569564b790060eac30f
+  - ref: refs/heads/main
+    old: 6e43ce523e7b403cc4f5e94c988d8811d2053e0f
+    new: be34709f69eef9bc3f58f9c59dea23a4630a9768
     log: |
-         b31d6f52adf061ee55c43530ef34cab5dcec4c73 f2fs: move f2fs to use reader-unfair rwsems
-         16efbac2a93dfb07ac510569564b790060eac30f f2fs: do not allow partial truncation on pinned file
+         1dedd146f2a896bdae88ad8758fdd897c710ab7b Clean up print statements for readability
+         be34709f69eef9bc3f58f9c59dea23a4630a9768 tuna: Create class Policy and  allow users to specify policy in more formats
          
