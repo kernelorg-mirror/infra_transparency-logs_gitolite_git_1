@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2817137739928901705=="
+Content-Type: multipart/mixed; boundary="===============8986251304380191982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 08 Jan 2022 22:19:20 -0000
-Message-Id: <164168036005.24059.9171155979776986628@gitolite.kernel.org>
+Date: Sat, 08 Jan 2022 22:19:31 -0000
+Message-Id: <164168037166.24183.938020524151070894@gitolite.kernel.org>
 
---===============2817137739928901705==
+--===============8986251304380191982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 0e8edc181698fce73254681e514ae48bf01a16aa
     new: 3ec9c3a0531ac868422be3b12fc17310ed8c07dc
     log: revlist-0e8edc181698-3ec9c3a0531a.txt
 
---===============2817137739928901705==
+--===============8986251304380191982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d99a8af48a3de727173415ccb17f6b6ba60d5573 lib: remove redundant assignment to var
 9d251ad6e5013f16731a70069b7ba3a52fb07f8b certs: Factor out the blacklist hash creation
 3ec9c3a0531ac868422be3b12fc17310ed8c07dc certs: Allow root user to append signed hashes to the blacklist keyring
 
---===============2817137739928901705==--
+--===============8986251304380191982==--
