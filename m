@@ -1,76 +1,126 @@
-Content-Type: multipart/mixed; boundary="===============7228211246467469015=="
+Content-Type: multipart/mixed; boundary="===============4389907894661630386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 08 Jan 2022 17:43:08 -0000
-Message-Id: <164166378881.16132.3283678464571311486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Sat, 08 Jan 2022 17:48:33 -0000
+Message-Id: <164166411331.19222.13695853026924104833@gitolite.kernel.org>
 
---===============7228211246467469015==
+--===============4389907894661630386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 38c28311753917bc373a220137cb4987cdc32605
-    new: cf7f67acd75edf730854e51ecfd41713bbd651f1
-    log: revlist-38c283117539-cf7f67acd75e.txt
+  - ref: refs/heads/master
+    old: af872b691926240fa5dcc6810acbdf053cd46ff2
+    new: 6dc9a23e29061e50c36523270de60039ccf536fa
+    log: revlist-af872b691926-6dc9a23e2906.txt
 
---===============7228211246467469015==
+--===============4389907894661630386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38c283117539-cf7f67acd75e.txt
+Content-Disposition: attachment; filename=revlist-af872b691926-6dc9a23e2906.txt
 
-f09a3adf2b0daf9e63e69a35b5336b4071be8c9a ice: Simplify tracking status of RDMA support
-79fa126a1f51b98434f317ac7f63e791923de901 i40e: Increase delay to 1 s after global EMP reset
-4278ce3579810b2ef0f5a48937deb1bd3ac4350f i40e: Fix issue when maximum queues is exceeded
-c8b45b0f6b5c2a527c8bc419320d5cca14d97bd4 i40e: Refactor VF queue requesting
-4153b3f7c285536807afd934664ccf5629b54e65 ice: add TTY for GNSS module for E810T device
-766787f906ee71655e38343c4c56108905536973 ice: add support for DSCP QoS for IDC
-83de7a1b9fd3032e02d8f24ff4db31a3e69f5706 i40e: Fix queues reservation for XDP
-8c94d4ae38210eee5de0d2e5f19fa28a93e84d1e ice: Refactor spoofcheck configuration functions
-aae8c93be641fbb131dbf1fc589e850ddd766c94 ice: Add helper function for adding VLAN 0
-04a61c32cdcf725e1c489b85ed15a23e173fe5c1 ice: Add new VSI VLAN ops
-3f5829d558b9ab2da41aa9ae04a0cc56afa63e1e ice: Introduce ice_vlan struct
-f85cea59baeda2964f1251a4f9ce9862423ee50f ice: Refactor vf->port_vlan_info to use ice_vlan
-3643655856a4a533f13d281d66ad9eb654616842 ice: Use the proto argument for VLAN ops
-4eade1470ed19b8f87804620bfa4dc8d7232f383 ice: Adjust naming for inner VLAN operations
-697b2847bb8410c989605f6294ad03783f6260a2 ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
-20d1c5421a11f94363a1c3006a458d6f26446312 ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
-a0ade5941dc0bbdf85686da50538c57265d1fc98 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
-1a67f02e0d0c687d3a11e8842912d187a84d636d ice: Support configuring the device to Double VLAN Mode
-74865b254533edaabc404e0d1cf2f988d488d3c8 ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
-b0a6bc56134307a762483466289ce4ba8987c4c0 ice: Add support for 802.1ad port VLANs VF
-cf193dd8f293647eefe60de81bc352ab50c99471 ice: Add ability for PF admin to enable VF VLAN pruning
-271236c738716feb4d8b6a2b5870d72607668eb0 i40e: Fix for failed to init adminq while VF reset
-d2a4bdf16d83918775660415aa3a6bfa1cee8416 i40e: remove dead stores on XSK hotpath
-fd46dd62e66eb7acfc63971319e3ad4a8b779546 e1000e: Separate ADP board type from TGP
-27e215d0fa3728e5a595b8ea8820146fb58e7b92 e1000e: Handshake with CSME starts from ADL platforms
-273f24a60c4b2536a1fd33e3b8c84370aff8e197 i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
-37aecc2395c0fe801d4f6491960b320d2f44dd54 i40e: respect metadata on XSK Rx to skb
-53d0577186e6a4a0ab87f94ed33edad857bf171e ice: respect metadata in legacy-rx/ice_construct_skb()
-90060edb23bc59fdbd4208293d72591549b2a342 ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
-2c66080567837153d14bf992a51a9c8c94690f59 ice: respect metadata on XSK Rx to skb
-7c5868144aa200ca33fbd469dea78d4b763b7e27 igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
-3ba08eacfcaff01209760c0a3701b6dc3eaec51a ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
-9c4632bbdb3c563b9b79461faf8da0ce393519c7 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
-b64d9385410c1393389c9ff2c41859d824a6e602 ixgbe: respect metadata on XSK Rx to skb
-578f9ad72879d2da56defdebcf1f90898d9ba947 i40e: fix unsigned stat widths
-b6d21569f2dd31127a43e909df6ce5e014d1df62 i40e: Fix reset bw limit when DCB enabled with 1 TC
-4e4a0a94dcc029609a11d2bec8cb5a0478a58392 Fix the timeliness of stats after deleting tc
-8fa3f6a389f55df3b122865a93ca73bcfc51f66d ice: Match on all profiles in slow-path
-c8200ed080e1fd4952cb9de5d8ce9e6098091d6e i40e: Remove rx page reuse double count.
-f2c12e150e310f8dc1794ee387ed4767b200bd5b i40e: Aggregate and export RX page reuse stat.
-306d29fc3d2c058762f82ab3be72e55220abe02b i40e: Add a stat tracking new RX page allocations.
-5ddaef1c8d8cf9f048de807f0ba995f92b8190db i40e: Add a stat for tracking pages waived
-2bc1f604f3c9ce5960e9915a32dbeab5d1986640 i40e: Add a stat for tracking busy rx pages
-0ee683a634af24e354a6e278d0c9719e5a10c095 ice: fix setting l4 port flag when adding filter
-9edd6c179f78a939ddf7da4189484c39c32e2536 i40e: Disable hw-tc-offload feature on driver load
-cf7f67acd75edf730854e51ecfd41713bbd651f1 i40e: Remove unused RX realloc stat
+bcf141b2eb551b3477b24997ebc09c65f117a803 xfrm: fix policy lookup for ipv6 gre packets
+ec3bb890817e4398f2d46e12e2e205495b116be9 xfrm: fix dflt policy check when there is no policy configured
+7770a39d7c63faec6c4f33666d49a8cb664d0482 xfrm: fix a small bug in xfrm_sa_len()
+9020be114a47bf7ff33e179b3bb0016b91a098e6 scsi: lpfc: Terminate string in lpfc_debugfs_nvmeio_trc_write()
+8dce43919566f06e865f7e8949f5c10d8c2493f5 xfrm: interface with if_id 0 should return error
+68ac0f3810e76a853b5f7b90601a05c3048b8b54 xfrm: state and policy should fail if XFRMA_IF_ID 0
+fc74881c28d314b10efac016ef49df4ff40b8b97 drm/amdgpu: fix dropped backing store handling in amdgpu_dma_buf_move_notify
+bf67014d6bda16a72deea11dbbff2a97c705ca92 drm/amdgpu: introduce new amdgpu_fence object to indicate the job embedded fence
+19e66d512e4182a0461530fa3159638e0f55d97e drm/amd/pm: Fix xgmi link control on aldebaran
+b7865173cf6ae59942e2c69326a06e1c1df5ecf6 drm/amdgpu: When the VCN(1.0) block is suspended, powergating is explicitly enabled
+5e713c6afa34c0fd6f113bf7bb1c2847172d7b20 drm/amdgpu: add support for IP discovery gc_info table v2
+67f74302f45d5d862f22ced3297624e50ac352f0 drm/nouveau: wait for the exclusive fence after the shared ones v2
+4d625a97a7e96be016382e3bb0a3cead05fec153 drm/amdgpu: fix runpm documentation
+1b8d0300a3e9f216ae4901bab886db7299899ec6 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+142c779d05d1fef75134c3cb63f52ccbc96d9e1f scsi: vmw_pvscsi: Set residual data length conditionally
+0f9d36af8f211d296ffd23bdce61a72cdfbb1a3c drm/i915: Fix possible uninitialized variable in parallel extension
+d46f329a3f6048e04736e86cb13c880645048792 drm/i915: Increment composite fence seqno
+8c45096c60d6ce6341c374636100ed1b2c1c33a1 drm/amd/pm: skip setting gfx cgpg in the s0ix suspend-resume
+daf8de0874ab5b74b38a38726fdd3d07ef98a7ee drm/amdgpu: always reset the asic in suspend (v2)
+7be3be2b027c12e84833b3dc9597d3bb7e4c5464 drm/amdgpu: put SMU into proper state on runpm suspending for BOCO capable platform
+ebae8973884ee9ac703b3bfe34cabbb118b18538 drm/amdgpu: no DC support for headless chips
+9f3c16a430e8ac6b8211da106f4e4841d896ec99 perf expr: Fix return value of ids__new()
+a78abde220243d6f44a265fe36c49957f6fa9851 perf intel-pt: Fix parsing of VM time correlation arguments
+5e0c325cdb714409a5b242c9e73a1b61157abb36 perf script: Fix CPU filtering of a script's switch events
+0f80bfbf4919e32f52fe1312c3900ff4fbb7eeb9 perf scripts python: intel-pt-events.py: Fix printing of switch events
+2eb82577a16d4c8eb31e4ed520649850bb95b223 drm/amd/display: fix B0 TMDS deepcolor no dislay issue
+d97e631af2db84c8c9d63abf68d487d0bb559e4c drm/amd/display: Added power down for DCN10
+a07f8b9983543d465b50870ab4f845d4d710ed3f drm/amd/display: Send s0i2_rdy in stream_count == 0 optimization
+33735c1c8d0223170d79dbe166976d9cd7339c7a drm/amd/display: Set optimize_pwr_state for DCN31
+33bb63915fee190102cae7d6576bc51a0bc342b2 drm/amd/display: Fix USB4 null pointer dereference in update_psp_stream_config
+ee2698cf79cc759a397c61086c758d4cc85938bf drm/amd/display: Changed pipe split policy to allow for multi-display pipe split
+d6f12f83989bb356ac6880a954f62c7667e35066 x86/build: Use the proper name CONFIG_FW_LOADER
+05097b19a900dcdac338b70d30e5bd8eaf1fb0e3 Merge tag 'drm-intel-fixes-2021-12-29' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+aeeb82fd6147b65689f0f1e5aaa389d34212a3c7 Merge tag 'amd-drm-fixes-5.16-2021-12-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+012e332286e2bb9f6ac77d195f17e74b2963d663 fs/mount_setattr: always cleanup mount_kattr
+ce9b333c73a5a8707f2f446a837a6ca743ddcffd Merge branch 'drm-misc-fixes' of ssh://git.freedesktop.org/git/drm/drm-misc into drm-fixes
+4f3d93c6eaff6b84e43b63e0d7a119c5920e1020 Merge tag 'drm-fixes-2021-12-31' of git://anongit.freedesktop.org/drm/drm
+9f3ccdc3f6ef10084ceb3a47df0961bec6196fd0 Input: appletouch - initialize work before device registration
+bc7ec91718c49d938849697cfad98fcd9877cc26 Input: spaceball - fix parsing of movement data packets
+bb436283e25aaf1533ce061605d23a9564447bdf i2c: validate user data in compat ioctl
+c116fe1e1883ad3eda0a1938a9e3275a98aa51a5 Docs: Fixes link to I2C specification
+f5c73297181c6b3ad76537bad98eaad6d29b9333 userfaultfd/selftests: fix hugetlb area allocations
+ebb3f994dd92f8fb4d70c7541091216c1e10cb71 mm/damon/dbgfs: fix 'struct pid' leaks in 'dbgfs_target_ids_write()'
+e46227bf3899eb21d738aa8ef2ec0f598dc70f7a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+f87bcc88f3028af584b0820bdf6e0e4cdc759d26 Merge branch 'akpm' (patches from Andrew)
+1b4e3f26f9f7553b260b8aed43967500961448a6 mm: vmscan: Reduce throttling due to a failure to make progress
+8008293888188c3923f5bd8a69370dae25ed14e5 mm: vmscan: reduce throttling due to a failure to make progress -fix
+278218f6778bc7d6f8b67199446c56cec7ebb841 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+e0257a01d6689c273a019756ed5e13911cc1bfed perf pmu: Fix alias events list
+64f18d2d043015b3f835ce4c9f3beb97cfd19b6e perf top: Fix TUI exit screen refresh race condition
+1286cc4893cf356ad6c3a042116981e827dd3680 Merge tag 'x86_urgent_for_v5.16_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+859431ac11aef9b4cd7ffa75e94a92a6a41c8623 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+24a0b2206134e17ec99d212c776f08f75a4bec23 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+c9e6606c7fe92b50a02ce51dda82586ebdf99b48 Linux 5.16-rc8
+e5a7431f5a2d6dcff7d516ee9d178a3254b17b87 gpio: gpio-aspeed-sgpio: Fix wrong hwirq base in irq handler
+32e246b02f53b2fdaa81ea9f2ca6ff068c017fcb MAINTAINERS: update gpio-brcmstb maintainers
+45a98ef4922def8c679ca7c454403d1957fe70e7 net/xfrm: IPsec tunnel mode fix inner_ipproto setting in sec_path
+d94a69cb2cfa77294921aae9afcfb866e723a2da netfilter: ipt_CLUSTERIP: fix refcount leak in clusterip_tg_check()
+49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
+db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
+4a8737ff068724f509d583fef404d349adba80d6 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+5f33a09e769a9da0482f20a6770a342842443776 can: isotp: convert struct tpcon::{idx,len} to unsigned int
+75acfdb6fd922598a408a0d864486aeb167c1a97 Merge tag 'net-5.16-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+502a2ce9cdf4225983a07c8d99ea2afd53f48837 Merge tag 'linux-can-fixes-for-5.16-20220105' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+1585f590a2e5dcae5833b05e030c47229299dd09 selftests: netfilter: switch to socat for tests using -q option
+4e1860a3863707e8177329c006d10f9e37e097a8 netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
+23c54263efd7cb605e2f7af72717a2a951999217 netfilter: nft_set_pipapo: allocate pcpu scratch maps on clone
+c4251db3b9d2ad4411f95e65ca00ea0f6800319b Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+44073187990d5629804ce0627525f6ea5cfef171 ppp: ensure minimum packet size in ppp_write()
+43d012123122cc69feacab55b71369f386c19566 rocker: fix a sleeping in atomic bug
+d5a73ec96cc57cf67e51b12820fc2354e7ca46f8 fsl/fman: Check for null pointer after calling devm_ioremap
+36595d8ad46d9e4c41cc7c48c4405b7c3322deac net/smc: Reset conn->lgr when link group registration fails
+0b7cfa4082fbf550595bc0e40f05614bd83bf0cd net/mlx5e: Fix page DMA map/unmap attributes
+de31854ece175e12ff3c35d07f340988823aed34 net/mlx5e: Fix nullptr on deleting mirroring rule
+885751eb1b01d276e38f57d78c583e4ce006c5ed net/mlx5e: Fix wrong usage of fib_info_nh when routes with nexthop objects are used
+9e72a55a3c9d54b38a704bb7292d984574a81d9d net/mlx5e: Don't block routes with nexthop objects in SW
+64050cdad0983ad8060e33c3f4b5aee2366bcebd Revert "net/mlx5e: Block offload of outer header csum for UDP tunnels"
+01c3fd113ef50490ffd43f78f347ef6bb008510b Revert "net/mlx5e: Block offload of outer header csum for GRE tunnel"
+b6dfff21a170af5c695ebaa153b7f5e297ddca03 net/mlx5e: Fix matching on modified inner ip_ecn bits
+a1c7c49c2091926962f8c1c866d386febffec5d8 net/mlx5: Fix access to sf_dev_table on allocation failure
+07f6dc4024ea1d2314b9c8b81fd4e492864fcca1 net/mlx5e: Sync VXLAN udp ports during uplink representor profile change
+8e715cd613a1e872b9d918e912d90b399785761a net/mlx5: Set command entry semaphore up once got index free
+4f6626b0e140867fd6d5a2e9d4ceaef97f10f46a Revert "net/mlx5: Add retry mechanism to the command entry index allocation"
+29507144c99814cd5e1ed9873db21ffc634f6c95 Merge git://git.kernel.org/pub/scm/linux/kernel/git/pablo/nf
+14676c04783c6363b71072c01b42bb7838eb56eb Merge tag 'mlx5-fixes-2022-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+04fac2cae9422a3401c172571afbcfdd58fa5c7e mptcp: fix opt size when sending DSS + MP_FAIL
+110b6d1fe98fd7af9893992459b651594d789293 mptcp: fix a DSS option writing error
+269bda9e7da48eafb599d01c96199caa2f7547e5 mptcp: Check reclaim amount before reducing allocation
+fff63521cd6e197738db9297076d83b4081ac80f Merge branch 'mptcp-fixes'
+93440f4888cf049dbd22b41aaf94d2e2153b3eb8 octeontx2-af: Increment ptp refcount before use
+eabd0f88b0d2d433c5dfe88218d4ce1c11ef04b8 octeontx2-nicvf: Free VF PTP resources.
+b69c5b5886f3986f94ded29896211d520c57aea1 Merge branch 'octeontx2-ptp-bugs'
+9371937092d5fd502032c1bb4475b36b39b1f1b3 ax25: uninitialized variable in ax25_setsockopt()
+dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
+6dc9a23e29061e50c36523270de60039ccf536fa octeontx2-af: Fix interrupt name strings
 
---===============7228211246467469015==--
+--===============4389907894661630386==--
