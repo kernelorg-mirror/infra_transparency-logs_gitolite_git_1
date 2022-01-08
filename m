@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1699504579992812239=="
+Content-Type: multipart/mixed; boundary="===============7927736433685744822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Sat, 08 Jan 2022 21:26:13 -0000
-Message-Id: <164167717321.25093.4231373633791314082@gitolite.kernel.org>
+Date: Sat, 08 Jan 2022 21:26:59 -0000
+Message-Id: <164167721975.25447.8397542191606975614@gitolite.kernel.org>
 
---===============1699504579992812239==
+--===============7927736433685744822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: ffd32ea6b13c97904cae59bdb13a843d52756578
-    new: 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9
-    log: revlist-ffd32ea6b13c-82192cb497f9.txt
+  - ref: refs/heads/testing
+    old: 383f0993fc77152b0773c85ed69d6734baf9cb48
+    new: bc3897f79f7901902bb44d62dd1ad1b2b48e9378
+    log: revlist-383f0993fc77-bc3897f79f79.txt
 
---===============1699504579992812239==
+--===============7927736433685744822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1641677168 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1641677214 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1641677167-568aeb402051dc76aa28a55e9ec4f297d41b035c
+nonce 1641677214-da110306c3aa7750b0cc627e7b4760fdd0ce5b7f
 
-ffd32ea6b13c97904cae59bdb13a843d52756578 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9 refs/heads/master
+383f0993fc77152b0773c85ed69d6734baf9cb48 bc3897f79f7901902bb44d62dd1ad1b2b48e9378 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHaAXATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqSnLB/9yFN7kSxjC2xSxF60yMzkxBlHL2zTi
-pt9XhupIKBPJjqaNDDighRcUyY+xrItL+OK8zx48sYZwlakzxYZSxd0TOXPvpcQD
-gkTNtAZfxbqtLn3AGELztNKd22xZzpDOepsyUHDBfxeOVkgJwr4o4M8bpDF/0PgY
-mtp7enOnTFAHRaZHfDjprImpO5eesieilUv8vSOZuXWc/yDOONqX2oqxAO6KEsbW
-AqWh3hONZ90abr2mW+JaeH7pLEM+INd/B3iVB1V1Q69fNwrsnIS6SScOUohldzb+
-BYaaYZKnbKMF/Z0U+cmdvgMJzi0hZ/7+MJddXaC9Fg8JDbXnFEdo2NQ4
-=1ISZ
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHaAZ4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqb1MCACP8eyigBjH2lvhwpTswkdGw+B80NUk
+ojELYWa4XUQmfGAiPpjL+iJzbcVEDEcIk6lmv+lD3iwGn5w/8W6YTeGWiozPvGOi
+lP2LNpnAbSEzHuGhth+kHUCK5haKwjEr2w9wdfVgt5p27JdFuhnATQW5l5JoGoPg
+tVuR2cuTRyn+FaG4t3Hfpga/eEcry+B9weDhaiZkBy/aOVHMFx6W0kSZTsCdxG20
+8IaZBz0QtCYpqI37DS9qBsdK0Miwz9eRWa58Zd5XqMuhMZtKo8T3t8zGHMXAGU5I
+mXCDbEGnP4Xk8bl2UB49WrGQHcY381KsBTXW5nUYA1RD6WRx0nB/cYLs
+=lqcE
 -----END PGP SIGNATURE-----
 
---===============1699504579992812239==
+--===============7927736433685744822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffd32ea6b13c-82192cb497f9.txt
+Content-Disposition: attachment; filename=revlist-383f0993fc77-bc3897f79f79.txt
 
 c6e7871894a3b975ae45995d69cf761566904595 ipv6/esp6: Remove structure variables and alignment statements
 2e1809208a4a52e883527c288b4fca61a90100b2 xfrm: Remove duplicate assignment
@@ -149,21 +149,6 @@ d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
 e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
 b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
 1d5a474240407c38ca8c7484a656ee39f585399c sfc: The RX page_ring is optional
-617dbee5c7acfa0a884a423e93fc4dede8e6d4de can: usb_8dev: remove unused member echo_skb from struct usb_8dev_priv
-68fa39ea9124c9794b31016650e4464ebc40ae1d can: mcp251x: mcp251x_gpio_setup(): Get rid of duplicate of_node assignment
-b8f91799687eeb6ffe73b66420db46d8c0292295 can: kvaser_usb: make use of units.h in assignment of frequency
-eff104cf3cf328ade52469b269c1b9b81f78a3f5 can: ti_hecc: ti_hecc_probe(): use platform_get_irq() to get the interrupt
-decdcaeedce41884d4a5e04b8846271642e09030 can: sja1000: sp_probe(): use platform_get_irq() to get the interrupt
-e233640cd3034ae65924316a0d95ccacb86ae4bd can: etas_es58x: es58x_init_netdev: populate net_device::dev_port
-676068db69b847f06fe054fca15bf6b107bd24da can: do not increase rx statistics when generating a CAN rx error message frame
-0b0ce2c67795672115ac6ca28351a78799cd114b can: kvaser_usb: do not increase tx statistics when sending error message frames
-f68eafeb9759717227cc4cdda9d47c523709c29f can: do not copy the payload of RTR frames
-8e674ca74244eac1cd85c6e9a89b588a03c55ff7 can: do not increase rx_bytes statistics for RTR frames
-cc4b08c31b5c51352f258032cc65e884b3e61e6a can: do not increase tx_bytes statistics for RTR frames
-c9e1d8ed304cc6106c3241add170193995953325 can: dev: replace can_priv::ctrlmode_static by can_get_static_ctrlmode()
-7d4a101c0bd3c6e5c6e45c705a54f7bc8f6c128d can: dev: add sanity check in can_set_static_ctrlmode()
-5fe1be81efd28bf2afcac218f23118dca6b1b648 can: dev: reorder struct can_priv members for better packing
-383f0993fc77152b0773c85ed69d6734baf9cb48 can: netlink: report the CAN controller mode supported flags
 b3c8e0de473e8c316ba32fa63c01e0ef497ed609 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 eda80b249df7bbc7b3dd13907343a3e59bfc57fd net: ethernet: mtk_eth_soc: fix return values and refactor MDIO ops
 c6af53f038aa32cec12e8a305ba07c7ef168f1b0 net: mdio: add helpers to extract clause 45 regad and devad fields
@@ -357,5 +342,27 @@ c215941abacff64b686004731d42e68dcda5b8d8 net: ena: Remove ena_calc_queue_size_ct
 d0e8831d6c93b030bc757b89aec4dc304d6e55b6 net: ena: Change the name of bad_csum variable
 9fe890cc5bb84d6859d9a2422830b7fd6fd20521 net: ena: Extract recurring driver reset code into a function
 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9 Merge branch 'ena-capabilities-field-and-cosmetic-changes'
+c579792562837ec2e64b006cfc9423e4177a4d26 can: janz-ican3: initialize dlc variable
+2d2116691adff8c3e24a5cb9076ea01b217b985d can: mcp251xfd: remove double blank lines
+99e7cc3b3f85d9a583ab83f386315c59443509ae can: mcp251xfd: mcp251xfd_tef_obj_read(): fix typo in error message
+3bd9d8ce6f8c5c43ee2f1106021db0f98882cc75 can: mcp251xfd: add missing newline to printed strings
+e91aae8efc4eebd33bdebe067ab248c242cc0135 can: mcp251xfd: mcp251xfd_open(): open_candev() first
+d84ca2217b0065ec0f27a7c34ed073ed6449e213 can: mcp251xfd: mcp251xfd_open(): make use of pm_runtime_resume_and_get()
+58d0b0a99275c35971d2e27d317013331bd3a8c0 can: mcp251xfd: mcp251xfd_handle_rxovif(): denote RX overflow message to debug + add rate limiting
+cae9071bc5ea3096a5604e48e854740c12f7c1ec can: mcp251xfd: mcp251xfd.h: sort function prototypes
+319fdbc9433c6a74fdb3993c9f5d9a1334068a21 can: mcp251xfd: move RX handling into separate file
+09b0eb92fec7d5d8e6307c369e62e7c3926dd447 can: mcp251xfd: move TX handling into separate file
+1e846c7aeb067fefbd53f03db56e69d160781d9d can: mcp251xfd: move TEF handling into separate file
+335c818c5a7ace740da837a8bb8591d5896938db can: mcp251xfd: move chip FIFO init into separate file
+55bc37c85587d0c53a666a685a49752e28a31396 can: mcp251xfd: move ring init into separate function
+3044a4f271d278858321675d367b37bcafca186c can: mcp251xfd: introduce and make use of mcp251xfd_is_fd_mode()
+bfd00e021cf162049946a9e0047b0997d2b35fec can: flexcan: move driver into separate sub directory
+01bb4dccd92b4dc21f6af3312e5696924e371111 can: flexcan: allow to change quirks at runtime
+34ea4e1c99f1f177f87e4ae7896caef238dd741a can: flexcan: rename RX modes
+c5c88591040ee7d84d037328eed9019d3ffab821 can: flexcan: add more quirks to describe RX path capabilities
+1c45f5778a3be5a67e8b318ab83664014ffa1f3e can: flexcan: add ethtool support to change rx-rtr setting during runtime
+74fc5a452ec3d7c051fed5e97494effb2e747d1d can: flexcan: add ethtool support to get rx/tx ring parameters
+32db1660ee01acebd18fc5759254930c874368af docs: networking: device drivers: add can sub-folder
+bc3897f79f7901902bb44d62dd1ad1b2b48e9378 docs: networking: device drivers: can: add flexcan
 
---===============1699504579992812239==--
+--===============7927736433685744822==--
