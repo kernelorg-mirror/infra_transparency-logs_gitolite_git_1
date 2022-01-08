@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 08 Jan 2022 07:47:24 -0000
-Message-Id: <164162804418.30591.2989800303812048339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 08 Jan 2022 08:40:23 -0000
+Message-Id: <164163122310.31179.14098709301515312197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 1b1f98dd70dcfd25476adabcbe72484312e879f7
-    new: 3e4518035a23e02ef818ea22570868a82956c6b0
+  - ref: refs/heads/for-kernelci
+    old: 717f54d7a5ef1bf2af3205b820c9674cf21683fd
+    new: 55cb2bdee88f0c10cd1690d3c001476946dc3701
     log: |
-         3e4518035a23e02ef818ea22570868a82956c6b0 ALSA: hda: Fix dependency on ASoC cs35l41 codec
-         
-  - ref: refs/heads/master
-    old: d678af1433773cd81ebc1054131c8efc9ff00269
-    new: 1847f902f2a4c9143cb79507713fae0716928a27
-    log: |
-         3e4518035a23e02ef818ea22570868a82956c6b0 ALSA: hda: Fix dependency on ASoC cs35l41 codec
-         1847f902f2a4c9143cb79507713fae0716928a27 Merge branch 'for-next'
+         55cb2bdee88f0c10cd1690d3c001476946dc3701 drop dummy stack read
          
