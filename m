@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8882474202863179065=="
+Content-Type: multipart/mixed; boundary="===============0634320223311330933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 08 Jan 2022 09:29:35 -0000
-Message-Id: <164163417547.27992.11149161231026714377@gitolite.kernel.org>
+Date: Sat, 08 Jan 2022 09:30:21 -0000
+Message-Id: <164163422126.29695.9633769497948264024@gitolite.kernel.org>
 
---===============8882474202863179065==
+--===============0634320223311330933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 42c0b74637162d920430acd4cacda197619b7cdb
     new: c199d5d0a79d4eb11623e0eb645b27d271f8d713
     log: revlist-42c0b7463716-c199d5d0a79d.txt
 
---===============8882474202863179065==
+--===============0634320223311330933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ b8c96a6b466ca3b91530a4ec7f7404f40f8f4d0b certs: simplify $(srctree)/ handling an
 c0ee9bba55e1fda8ca22a2ac714d54737def50d4 microblaze: use built-in function to get CPU_{MAJOR,MINOR,REV}
 c199d5d0a79d4eb11623e0eb645b27d271f8d713 doc: kbuild: fix default in `imply` table
 
---===============8882474202863179065==--
+--===============0634320223311330933==--
