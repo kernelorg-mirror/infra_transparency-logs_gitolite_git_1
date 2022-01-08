@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Sat, 08 Jan 2022 16:50:33 -0000
-Message-Id: <164166063378.16167.5255031959153376114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Sat, 08 Jan 2022 17:04:29 -0000
+Message-Id: <164166146921.24421.11786375983691121606@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/main
-    old: 6e43ce523e7b403cc4f5e94c988d8811d2053e0f
-    new: be34709f69eef9bc3f58f9c59dea23a4630a9768
+  - ref: refs/heads/features
+    old: 7b2932162f66ab33a00a7cdb6d3b2db6dfdbf634
+    new: 0704a8586f75663cf30a283bbeeca09eb4e60a07
     log: |
-         1dedd146f2a896bdae88ad8758fdd897c710ab7b Clean up print statements for readability
-         be34709f69eef9bc3f58f9c59dea23a4630a9768 tuna: Create class Policy and  allow users to specify policy in more formats
+         1350f36d3825e8f9563bbffb047d6ee634949667 s390/sclp_sd: use default_groups in kobj_type
+         0704a8586f75663cf30a283bbeeca09eb4e60a07 s390/dasd: use default_groups in kobj_type
          
