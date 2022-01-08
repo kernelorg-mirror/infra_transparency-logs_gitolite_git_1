@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Sat, 08 Jan 2022 19:36:09 -0000
-Message-Id: <164167056902.22264.3087447392713184465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Sat, 08 Jan 2022 20:16:37 -0000
+Message-Id: <164167299722.13928.6203672591369349287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/soc/soc
+user: olof
 changes:
-  - ref: refs/heads/main
-    old: 4734fdb932a4be6b6d5ecc5c9a9199b85a2273bc
-    new: 1225e307102041fbadfd4e8f073c7e76e74d7561
-    log: |
-         1225e307102041fbadfd4e8f073c7e76e74d7561 testsuite: Fix tc/vlan.t test
-         
+  - ref: refs/tags/soc-fixes-5.16-4
+    old: 0000000000000000000000000000000000000000
+    new: cadd40e012c95c5f0ffd865605778012d88de7ae
