@@ -1,63 +1,132 @@
-Content-Type: multipart/mixed; boundary="===============7297188313926699527=="
+Content-Type: multipart/mixed; boundary="===============5060281818852600521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sun, 09 Jan 2022 17:45:04 -0000
-Message-Id: <164175030459.1547.11172632061787010042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 09 Jan 2022 17:50:03 -0000
+Message-Id: <164175060331.4182.4093615279717283558@gitolite.kernel.org>
 
---===============7297188313926699527==
+--===============5060281818852600521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 00d496237dc9437aaadd3ae40f979498da106c49
-    new: e46f8ab756bcea1826e839ba773112b9bed2aea4
-    log: revlist-00d496237dc9-e46f8ab756bc.txt
+  - ref: refs/heads/for-5.17/block
+    old: 669a064625fa3a06ddf8a4ac1f35b7436b99f133
+    new: 292c33c95defd0b814fec1fc8cd60d16556cf7b8
+    log: |
+         edce22e19bfa86efa2522d041d6367f2f099e8ed block: move rq_list macros to blk-mq.h
+         3764fd05e1f89530e2ee5cbff0b638f2b1141b90 block: introduce rq_list_for_each_safe macro
+         d2528be7a8b09af9796a270debd14101a72bb552 block: introduce rq_list_move
+         6bfec7992ec79b63fb07330ae97f3fb43120aa37 nvme-pci: fix queue_rqs list splitting
+         292c33c95defd0b814fec1fc8cd60d16556cf7b8 block: fix old-style declaration
+         
+  - ref: refs/heads/for-next
+    old: 109ee76861f8fd9be13ac0f02c35b77964bdbeea
+    new: bbccb26f0d6ec8260a2ba892885f45522db913dc
+    log: |
+         292c33c95defd0b814fec1fc8cd60d16556cf7b8 block: fix old-style declaration
+         bbccb26f0d6ec8260a2ba892885f45522db913dc Merge branch 'for-5.17/block' into for-next
+         
+  - ref: refs/heads/master
+    old: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
+    new: 4634129ad9fdc89d10b597fc6f8f4336fb61e105
+    log: revlist-c9e6606c7fe9-4634129ad9fd.txt
 
---===============7297188313926699527==
+--===============5060281818852600521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00d496237dc9-e46f8ab756bc.txt
+Content-Disposition: attachment; filename=revlist-c9e6606c7fe9-4634129ad9fd.txt
 
 51c7b6a0398f54b9120795796a4cff4fc9634f7d power: supply: core: Break capacity loop
 80211be1b9dec04cc2805d3d81e2091ecac289a1 power: bq25890: Enable continuous conversion for ADC at charging
 644106cdb89844be2496b21175b7c0c2e0fab381 power: reset: ltc2952: Fix use of floating point literals
 92c959bae2e54ba1e2540ba5f813f7752bd76be1 reset: renesas: Fix Runtime PM usage
-251cc826be7dec61e574b291b371362c10dd84ea ARM: 9154/1: decompressor: do not copy source files while building
-4a2f57ac7dada84224d71fe895580990b9062d68 ARM: 9158/1: leave it to core code to manage thread_info::cpu
-a92882a4d270fbcc021ee6848de5e48b7f0d27f3 ARM: 9159/1: decompressor: Avoid UNPREDICTABLE NOP encoding
-d0eae8287cf3dff6670e7e9910159942bda45a20 ARM: 9161/1: mm: mark private VM_FAULT_X defines as vm_fault_t
-33c6a549641db662621b4bf6993df1589669aaac ARM: 9162/1: amba: Kill sysfs attribute file of irq
-dcc0a8f6b69a42cdf557e1e554478204c139082d ARM: 9163/1: amba: Move of_amba_device_decode_irq() into amba_probe()
-0ba8695e3dfbbc78ed716805678119121d33a730 ARM: 9164/1: mm: Provide set_memory_valid()
-3c341b217414d1d63718438f2b2fa588cf2b73fc ARM: 9165/1: mm: Provide is_write_fault()
-75969686ec0df23157afe24dc818d7bddb087d78 ARM: 9166/1: Support KFENCE for ARM
-2965d4290f6052a9e7b47bad6ff648b867293488 ARM: 9167/1: Add support for Cortex-M33 processor
-3d14751f341e4778f967f2799eceef23a2dba8a0 ARM: 9168/1: Add support for Cortex-M55 processor
-b0343ab330ae4d6c8d4210de5c16da704c2d4743 ARM: reduce the information printed in call traces
+0706a78f31c4217ca144f630063ec9561a21548d Revert "xsk: Do not sleep in poll() when need_wakeup set"
+819d11507f6637731947836e6308f5966d64cf9d bpf, selftests: Fix spelling mistake "tained" -> "tainted"
 983d8e60f50806f90534cc5373d0ce867e5aaf79 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
 f34e8875ae244462711e31fcc4a82db13a16d36f dt-bindings: spi: cadence-quadspi: document "intel,socfpga-qspi"
 36de991e93908f7ad5c2a0eac9c4ecf8b723fa4a ARM: dts: socfpga: change qspi to "intel,socfpga-qspi"
+eaa090538e8d21801c6d5f94590c3799e6a528b5 drm/amd/pm: keep the BACO feature enabled for suspend
+9a45ac2320d0a6ae01880a30d4b86025fce4061b fbdev: fbmem: add a helper to determine if an aperture is used by a fw fb
+b95dc06af3e683d6b7ddbbae178b2b2a21ee8b2b drm/amdgpu: disable runpm if we are the primary adapter
+7a3429bace0e08d94c39245631ea6bc109dafa49 ipv4: Check attribute length for RTA_GATEWAY in multipath route
+664b9c4b7392ce723b013201843264bf95481ce5 ipv4: Check attribute length for RTA_FLOW in multipath route
+4619bcf91399f00a40885100fb61d594d8454033 ipv6: Check attribute length for RTA_GATEWAY in multipath route
+1ff15a710a862db1101b97810af14aedc835a86a ipv6: Check attribute length for RTA_GATEWAY when deleting multipath route
+8bda81a4d400cf8a72e554012f0d8c45e07a3904 lwtunnel: Validate RTA_ENCAP_TYPE attribute length
+4760abaac6844ebf87321403fbd36b72f8f1731a Merge branch 'mpr-len-checks' David Ahern says:
+0f1fe7b83ba0e47a7c57135420630e9f68e332a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+5e75d0b215b868337e7a193f28a543ec00e858b1 selftests: net: udpgro_fwd.sh: explicitly checking the available ping feature
+d6d86830705f173fca6087a3e67ceaf68db80523 net ticp:fix a kernel-infoleak in __tipc_sendmsg()
+938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
+ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
+c255a34e02efb1393d23ffb205ba1a11320aeffb net: ena: Fix undefined state when tx request id is out of bounds
+cb3d4f98f0b26eafa0b913ac3716e4714254a747 net: ena: Fix wrong rx request id by resetting device
+5055dc0348b8b7c168e3296044bccd724e1ae6cd net: ena: Fix error handling when calculating max IO queues number
+5b40d10b604280a5bdf355b9d47ed238c92233dd Merge branch 'ena-fixes'
+f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4 sctp: hold endpoint before calling cb in sctp_transport_lookup_process
+29262e1f773b4b6a43711120be564c57fca07cfb rndis_host: support Hytera digital radios
+1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4 net/fsl: Remove leftover definition in xgmac_mdio
+e5a7431f5a2d6dcff7d516ee9d178a3254b17b87 gpio: gpio-aspeed-sgpio: Fix wrong hwirq base in irq handler
+32e246b02f53b2fdaa81ea9f2ca6ff068c017fcb MAINTAINERS: update gpio-brcmstb maintainers
+e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
+95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
 46669e8616c649c71c4cfcd712fd3d107e771380 md/raid1: fix missing bitmap update w/o WriteMostly devices
+065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
+e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
 26bc4f019c105234639068703186c01efcabe91e Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.16
+fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
+e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
+222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
+d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
+3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
+7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+68a18ad71378a56858141c4449e02a30c829763e mac80211: initialize variable have_higher_than_11mbit
+8b5cb7e41d9d77ffca036b0239177de123394a55 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
+8ff5f5d9d8cfce6a1e368a6daa7123be133a6c35 RDMA/rxe: Prevent double freeing rxe_map_set()
+6f89ecf10af1396ddc34c303ae1168a11f3f04a3 Merge tag 'mac80211-for-net-2022-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
 c370baa328022cbd46c59c821d1b467a97f047be EDAC/i10nm: Release mdev/mbase when failing to detect HBM
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
+1d5a474240407c38ca8c7484a656ee39f585399c sfc: The RX page_ring is optional
+b3c8e0de473e8c316ba32fa63c01e0ef497ed609 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+4163cb3d1980383220ad7043002b930995dcba33 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
+af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
+49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
+7694a7de22c53a312ea98960fcafc6ec62046531 RDMA/uverbs: Check for null return of kmalloc_array
+db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
+b35a0f4dd544eaa6162b6d2f13a2557a121ae5fd RDMA/core: Don't infoleak GRH fields
+75acfdb6fd922598a408a0d864486aeb167c1a97 Merge tag 'net-5.16-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+0daf5cb217a9ca8ae91b8f966ddae322699fb71d ftrace/samples: Add missing prototypes direct functions
+823e670f7ed616d0ce993075c8afe0217885f79d tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+f28439db470cca8b6b082239314e9fd10bd39034 tracing: Tag trace_percpu_buffer as a percpu pointer
 fde9ec3c1b3dd361bff62fc89d95d03df51a0648 Merge tag 'reset-fixes-for-v5.16-2' of git://git.pengutronix.de/pza/linux into arm/fixes
 8922bb6526ac4b20bd8de7f47d6e77808670f6c4 Merge tag 'socfpga_fix_for_v5.16_part_3' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
 72a4a87da8f7bcf868b338615a814b6542f277f3 i2c: mpc: Avoid out of bounds memory access
+936a93775b7c4f2293f651f64c4139c82e19a164 Merge tag 'amd-drm-fixes-5.16-2021-12-31' of ssh://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 1756d7994ad85c2479af6ae5a9750b92324685af cgroup: Use open-time credentials for process migraton perm checks
 0d2b5955b36250a9428c832664f2079cbf723bec cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
 e57457641613fef0d147ede8bd6a3047df588b95 cgroup: Use open-time cgroup namespace for process migration perm checks
 b09c2baa56347ae65795350dfcc633dedb1c2970 selftests: cgroup: Make cg_create() use 0755 for permission instead of 0644
 613e040e4dc285367bff0f8f75ea59839bc10947 selftests: cgroup: Test open-time credential usage for migration checks
 bf35a7879f1dfb0d050fe779168bcf25c7de66f5 selftests: cgroup: Test open-time cgroup namespace usage for migration checks
-599fbe7e4044beac4d7ceeb4dedbc506cd2cc0bb Merge branches 'misc' and 'fixes' into for-next
+b2b436ec0205abde78ef8fd438758125ffbb0fec Merge tag 'trace-v5.16-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+ddec8ed2d4905d0967ce2ec432e440e582aa52c6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+597cb7968cb6243e915ba9599195656be14773e5 KVM: SEV: Mark nested locking of kvm->lock
+fffb5323780786c81ba005f8b8603d4a558aad28 KVM: x86: Check for rmaps allocation
+7a6043cc2e863ab45016622c30879e555523ee13 Merge tag 'drm-fixes-2022-01-07' of git://anongit.freedesktop.org/drm/drm
+24556728c305886b8bb05bf2ac7e20cf7db3e314 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 a19f75de73c220b4496d2aefb7a605dd032f7c01 Revert "i2c: core: support bus regulator controlling in adapter"
 494603e06b3c8c0b29086b72f0bc41abf102fe0d Merge tag 'edac_urgent_for_v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 35632d92ef2daf36f75ddcd68d322c8ba7ad383c Merge tag 'block-5.16-2022-01-07' of git://git.kernel.dk/linux-block
@@ -66,40 +135,5 @@ d1587f7bfe9a0f97a75d42ac1489aeda551106bc Merge branch 'for-5.16-fixes' of git://
 d445d649c7929ddafff319ad90e3e190722c685a Merge tag 'for-v5.16-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 21f35d2ca83e64603b9f543b537491d333b69c51 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 4634129ad9fdc89d10b597fc6f8f4336fb61e105 Merge tag 'soc-fixes-5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-043434c57c49e80bfc88c51c6dd957ae29d1e30f Merge remote-tracking branch 'rmk/for-next' into HEAD
-0c17a910e8e515c90d865da667a1c0fce8f6751c ARM: decompressor: disable stack protector
-c5b6c8192492aa3c39c0d2592bb1bc8806fc8c79 ARM: stackprotector: prefer compiler for TLS based per-task protector
-a692160ad80f8192f6d584e2a7c3b809728d6360 ARM: remove some dead code
-8a320b4657167d14cae126ffe0fc275d26852864 ARM: assembler: introduce bl_r macro
-4bed4230fc03dfaed81dc1e82b39a1eac612f9ac ARM: unwind: support unwinding across multiple stacks
-cc25043f60689f64eedc5fa58e04c6059cf9a87b ARM: export dump_mem() to other objects
-f0b42b55851c5460454bb7dbbd55bf4724ac5d06 ARM: unwind: dump exception stack from calling frame
-556c2fe61548bb767a839455a31ab6b59f6bfec2 ARM: backtrace-clang: avoid crash on bogus frame pointer
-9a65f3c3f6b188ffae77a93aaea59d5ce9b10896 ARM: implement IRQ stacks
-5b64d9e3fd6af1859844a3a2bab69b2f2ff25812 ARM: call_with_stack: add unwind support
-4732576667b22de32b1c582115a6f256d538dca9 ARM: run softirqs on the per-CPU IRQ stack
-fd1fde04ecf08c4aed31a00b36561a36c0d5c326 ARM: memcpy: use frame pointer as unwind anchor
-6eaf2f9bc8b704e56a5de00f2300bb57c6f60f29 ARM: memmove: use frame pointer as unwind anchor
-52a6c47091d28ed56d7a733390d1e00f3d542c4a ARM: memset: clean up unwind annotations
-80eaecd97399ac6d62c4d87e610bfc5087705bb0 ARM: unwind: disregard unwind info before stack frame is set up
-5bbb7f7bfd2d0eb18ee0c4d72d567a8539a9ad91 ARM: switch_to: clean up Thumb2 code path
-f756619593a39f4a4fc70b76a68a0bc327879840 ARM: entry: rework stack realignment code in svc_entry
-96f11bc574d21f1f9fd3a4bfb99e3289c709b2ca ARM: implement support for vmap'ed stacks
-e64a9c403ed3e0108fd22ddc230d547190a206d0 ARM: riscpc: drop support for IOMD_IRQREQC/IOMD_IRQREQD IRQ groups
-b634e1585d2e5ab4c84e8c074d4d403e157c57fe ARM: riscpc: use GENERIC_IRQ_MULTI_HANDLER
-e97632bc619c5db457a61a491533d1ca44661503 ARM: footbridge: use GENERIC_IRQ_MULTI_HANDLER
-71fe5401bdf5d6c73fe4cf591260448e123fb674 ARM: iop32x: offset IRQ numbers by 1
-0969850eca786b77cdff5e078e4f116d1d9ee45b ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
-8fc65e20d2cb1b4911812459ef9b1fc69173cb47 ARM: remove old-style irq entry
-4696bf2013c39675130410ecc03f8c3f3cb4079a irqchip: nvic: Use GENERIC_IRQ_MULTI_HANDLER
-26c29c74409b54d6179df765590cd484875a2717 ARM: entry: preserve thread_info pointer in switch_to
-55528df847d5ae0eafdf5ea7bc38be172acde79f ARM: module: implement support for PC-relative group relocations
-050395f8b8fe0efa344e6afc4233adf28e686075 ARM: assembler: add optimized ldr/str macros to load variables from memory
-22143621474a8efc6e4d20767bb404b4e4f64522 ARM: percpu: add SMP_ON_UP support
-7dd583db8928d235d55599514ad4a25ccff77e78 ARM: use TLS register for 'current' on !SMP as well
-dcf610e40e23d3729fd8136f5084abeee95b2738 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
-5e07f5d697a523a287d97f8778dd1461b2620a28 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
-f36488e58480a4caa0a77befbf7ecb98897b363a ARM: v7m: enable support for IRQ stacks
-e46f8ab756bcea1826e839ba773112b9bed2aea4 ARM: disable vmalloc_seq hacks for LPAE
 
---===============7297188313926699527==--
+--===============5060281818852600521==--
