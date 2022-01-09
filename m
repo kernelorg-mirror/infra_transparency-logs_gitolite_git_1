@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2625494029626059886=="
+Content-Type: multipart/mixed; boundary="===============4711977338799823705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 09 Jan 2022 20:54:42 -0000
-Message-Id: <164176168269.22017.18371472086904746618@gitolite.kernel.org>
+Date: Sun, 09 Jan 2022 20:54:47 -0000
+Message-Id: <164176168730.22095.6824098507152245382@gitolite.kernel.org>
 
---===============2625494029626059886==
+--===============4711977338799823705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: dc9f2dd5de04d2bbcccbabdf5df9715c2ddcf25f
     new: e900deb2482002a9c10b77c750f63fba928fe142
     log: revlist-dc9f2dd5de04-e900deb24820.txt
 
---===============2625494029626059886==
+--===============4711977338799823705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when
 95350123bb5568a7d95e3789225144bd1a154274 Merge tag 'soc-fixes-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
---===============2625494029626059886==--
+--===============4711977338799823705==--
