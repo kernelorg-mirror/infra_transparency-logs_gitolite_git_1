@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sun, 09 Jan 2022 19:48:03 -0000
-Message-Id: <164175768321.12640.17371900209024366793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 09 Jan 2022 19:58:07 -0000
+Message-Id: <164175828781.19633.16556701586928414551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: decf89f86ecd3c3c3de81c562010d5797bea3de1
-    new: 51f23e5318a0882068254e20d3999e9421cfd66e
+  - ref: refs/heads/master
+    old: ffcc0dc74a36c02c87ec8eff007c3b0003536878
+    new: 22d292d13480367c6357766ec51266384b21ae28
     log: |
-         7f3de1adb377960bc061b1d7ee477527d499d2bd riscv: remove cpu_stop()
-         153c46faf6ae4961451bed2878ff9e93736efe50 riscv: head: make secondary_start_common() static
-         1546541fbc90b0dcadcdadf1c828daf0a8f9d88d riscv: errata: alternative: mark vendor_patch_func __initdata
-         51f23e5318a0882068254e20d3999e9421cfd66e riscv: head: remove useless __PAGE_ALIGNED_BSS and .balign
+         22d292d13480367c6357766ec51266384b21ae28 Sun Jan  9 07:57:36 PM UTC 2022
          
