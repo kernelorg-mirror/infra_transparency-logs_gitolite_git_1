@@ -1,23 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sun, 09 Jan 2022 01:17:45 -0000
-Message-Id: <164169106544.3606.11218258031393512185@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3647334177489489387=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rui/linux
+Date: Sun, 09 Jan 2022 02:11:21 -0000
+Message-Id: <164169428127.4729.12694446912144884421@gitolite.kernel.org>
+
+--===============3647334177489489387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/rui/linux
+user: rui
 changes:
-  - ref: refs/heads/master
-    old: 2b732c65e2a322eef7d27f65826330c9b93db2e0
-    new: c942606855c2f1601b42aced795e82022d4bc156
-    log: |
-         57bd18396037e2b36f34458679a5b63d7f6974bf defer/rcuintro: Add indexing tags to RCU Core APIs
-         ce36ecfb3c6923b14ecff600010d5c4609a09127 defer/rcuintro: Use endash for pair of rcu_read_lock() and rcu_read_unlock()
-         ab1e3668ba52d7da726cfcc23ba3aba911fa620b defer/rcuintro: Fix trivial typos
-         7da095c8aee61cd5767aa53422bceea725ce9ea6 defer/rcuintro: Use nbsp around short numbers
-         c942606855c2f1601b42aced795e82022d4bc156 howto: Add QQ on benefits of passive reading
-         
+  - ref: refs/heads/amd-pstate-initial
+    old: 414967338378025437c9b212256c960e7562d7f6
+    new: 43f6e89101ceb17e880d834cf3f421c2a5ed13cd
+    log: revlist-414967338378-43f6e89101ce.txt
+
+--===============3647334177489489387==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-414967338378-43f6e89101ce.txt
+
+265489e62dac05855dcfebd8a3bdd5fc7b28dc45 cpufreq: amd-pstate: Fix struct amd_cpudata kernel-doc comment
+92d2d07418a3533bbf38cf6e15d5259d839e7368 cpufreq: amd-pstate: Fix Kconfig dependencies for AMD P-State
+b7e97811919c90f564fac96c34ffe883d7efc381 x86, sched: Fix undefined reference to init_freq_invariance_cppc() build error
+e870d896d2a90f11d3540b27a8609f7e0291e31d cpupower: Add AMD P-state capability flag
+e0f5e3c4facba451fd15ebf863a79bc717318e4e cpupower: Add the function to check AMD P-State enabled
+1f886a766ee7e61ea54e5025421c4d73ebc9d075 cpupower: Initial AMD P-state capability
+92f949fb3fb239c8ae534ed99de148718414cae8 cpupower: Add the function to get the sysfs value from specific table
+a5abbbacab0a0df4dc2e0143e5a9f79f44bc6a1c cpupower: Introduce acpi cppc library
+1c6cf742b00dbe8d833f5128c178dfc6a42e7291 cpupower: Add AMD P-State sysfs definition and access helper
+6b8508011e73c497606c65860c6660e6e1130971 cpupower: Enable boost state support for AMD P-State module
+9e2a06698f6f2b7148015640d42ebdc6fe8fe5cc cpupower: Move print_speed function into misc helper
+43f6e89101ceb17e880d834cf3f421c2a5ed13cd cpupower: Print AMD P-State information on cpupower
+
+--===============3647334177489489387==--
