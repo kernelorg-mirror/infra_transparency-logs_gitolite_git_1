@@ -1,45 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8986251304380191982=="
+Content-Type: multipart/mixed; boundary="===============4959884886876505492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 08 Jan 2022 22:19:31 -0000
-Message-Id: <164168037166.24183.938020524151070894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sun, 09 Jan 2022 00:17:49 -0000
+Message-Id: <164168746977.32067.17764808676026026350@gitolite.kernel.org>
 
---===============8986251304380191982==
+--===============4959884886876505492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/next
-    old: 0e8edc181698fce73254681e514ae48bf01a16aa
-    new: 3ec9c3a0531ac868422be3b12fc17310ed8c07dc
-    log: revlist-0e8edc181698-3ec9c3a0531a.txt
+  - ref: refs/heads/ftrace/core
+    old: 85c62c8c3749eec02ba81217bdcac26867dc262e
+    new: 00a2223605e07cff7df94f5eb49ef5e281dada59
+    log: revlist-85c62c8c3749-00a2223605e0.txt
 
---===============8986251304380191982==
+--===============4959884886876505492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e8edc181698-3ec9c3a0531a.txt
+Content-Disposition: attachment; filename=revlist-85c62c8c3749-00a2223605e0.txt
 
-0ef333f5ba7f24f5d8478425c163d3097f1c7afd tpm: add request_locality before write TPM_INT_ENABLE
-f04510f26f82aa7cd0bf932760f01b01a010869f tpm/st33zp24: drop unneeded over-commenting
-d2704808f24fbc869ba54df82d4b1af49ab496e2 tpm: tpm_tis_spi_cr50: Add default RNG quality
-e96d52822f5ac0a25de78f95cd23421bcbc93584 tpm_tis: Fix an error handling path in 'tpm_tis_core_init()'
-7d30198ee24f2ddcc4fefcd38a9b76bd8ab31360 keys: X.509 public key issuer lookup without AKID
-5887d7f4a8c4310a75ca45f576f26b3d21250881 char: tpm: cr50: Set TPM_FIRMWARE_POWER_MANAGED based on device property
-0aa698787aa2a9e8840987e54ba2982559de6404 tpm: Add Upgrade/Reduced mode support for TPM2 modules
-eabad7ba2c752392ae50f24a795093fb115b686d tpm: fix potential NULL pointer access in tpm_del_char_device
-84cc69589700b90a4c8d27b481a51fce8cca6051 tpm: fix NPE on probe for missing device
-d99a8af48a3de727173415ccb17f6b6ba60d5573 lib: remove redundant assignment to variable ret
-6143b2fe941b407921cc84aec3524aa292998225 tools/certs: Add print-cert-tbs-hash.sh
-44c8f0bff76e6968bfbf62ed491bf4751e6adf55 certs: Check that builtin blacklist hashes are valid
-8dab924b01761d27d119f73e77a00e04173d945f certs: Make blacklist_vet_description() more strict
-9d251ad6e5013f16731a70069b7ba3a52fb07f8b certs: Factor out the blacklist hash creation
-3ec9c3a0531ac868422be3b12fc17310ed8c07dc certs: Allow root user to append signed hashes to the blacklist keyring
+4dfe5dff80a4a85a78eca4a973ce77c0008959fb tracing: Change event_command func() to parse()
+7d28e1e7d4fa0a30bba27626220ee33b213f4e45 tracing: Change event_trigger_ops func() to trigger()
+f5bcc5c959c0d43bb5e54296e685690be75fa30b tracing: Add helper functions to simplify event_command.parse() callback handling
+52f2994bd006dcc3ffb94fd3efa4494513b82646 tracing: Have existing event_command.parse() implementations use helpers
+731cdb585952030260e1887cf093bfdf12c5b7e0 tracing: Account bottom half disabled sections.
+0bf45a17496d48f0e2f7f9583ac3f9a14cc3c5ac tracing/uprobes: Check the return value of kstrdup() for tu->filename
+a78ffa361c01d8b13c4f77f18e5ce9a165efc7a3 tracing/probes: check the return value of kstrndup() for pbuf
+33980b86e4a14f5c0c54930c7d31753892a06ebd scripts: ftrace - move the sort-processing in ftrace_init
+57b87c42e3e7d0462e2bcf56f46553b78a877f95 ftrace: Add test to make sure compiled time sorts work
+b7a67415446009d2a47b475f835544e644eac268 tracing: Fix mismatched comment in __string_len
+1a2baad56fefb461fd72f0b865da719e3d681dd9 tracing: Have syscall trace events use trace_event_buffer_lock_reserve()
+00a2223605e07cff7df94f5eb49ef5e281dada59 tracing: Add test for user space strings when filtering on string pointers
 
---===============8986251304380191982==--
+--===============4959884886876505492==--
