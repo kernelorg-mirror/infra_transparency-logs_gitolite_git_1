@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6828750497796344917=="
+Content-Type: multipart/mixed; boundary="===============2321045076983256363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 09 Jan 2022 18:23:30 -0000
-Message-Id: <164175261017.25607.17740216780457336651@gitolite.kernel.org>
+Date: Sun, 09 Jan 2022 18:25:05 -0000
+Message-Id: <164175270569.27509.7399601382893284490@gitolite.kernel.org>
 
---===============6828750497796344917==
+--===============2321045076983256363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: ca1a6705b271d458d54bbeb072af97ec468d3b37
     new: 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9
     log: revlist-ca1a6705b271-82192cb497f9.txt
 
---===============6828750497796344917==
+--===============2321045076983256363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ d0e8831d6c93b030bc757b89aec4dc304d6e55b6 net: ena: Change the name of bad_csum v
 9fe890cc5bb84d6859d9a2422830b7fd6fd20521 net: ena: Extract recurring driver reset code into a function
 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9 Merge branch 'ena-capabilities-field-and-cosmetic-changes'
 
---===============6828750497796344917==--
+--===============2321045076983256363==--
