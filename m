@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3054439490427116301=="
+Content-Type: multipart/mixed; boundary="===============4979169719758096905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sun, 09 Jan 2022 12:35:46 -0000
-Message-Id: <164173174646.12840.5880928347929611751@gitolite.kernel.org>
+Date: Sun, 09 Jan 2022 12:35:53 -0000
+Message-Id: <164173175363.12926.14430473338439357642@gitolite.kernel.org>
 
---===============3054439490427116301==
+--===============4979169719758096905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1d5a474240407c38ca8c7484a656ee39f585399c
-    new: 6dc9a23e29061e50c36523270de60039ccf536fa
-    log: revlist-1d5a47424040-6dc9a23e2906.txt
+  - ref: refs/heads/testing
+    old: 5f33a09e769a9da0482f20a6770a342842443776
+    new: 89d58aebe14a365c25ba6645414afdbf4e41cea4
+    log: revlist-5f33a09e769a-89d58aebe14a.txt
 
---===============3054439490427116301==
+--===============4979169719758096905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1641731743 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1641731749 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1641731742-8544e41457d198494a22d4bdc09f05dc99f6d152
+nonce 1641731749-3c07241a60cf61975939a8a3e497e6c78ca0d04d
 
-1d5a474240407c38ca8c7484a656ee39f585399c 6dc9a23e29061e50c36523270de60039ccf536fa refs/heads/master
+5f33a09e769a9da0482f20a6770a342842443776 89d58aebe14a365c25ba6645414afdbf4e41cea4 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHa1p8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqZofCACg9c6lHsa5vKajmJacfm8EXlPKyX/0
-P/YdplU4Kgr0my3uhb8G2FKocW4NfCRPaLc+B+3e3WX3g+zXaBiXNwKi9r/KehOf
-DEKTZCTffflRQj+ZYoE9/qfaiqyzA9B4RghlKWxFGkzZKcUcx95LMIUac0YBc6fQ
-JzO8QXcn3oYMmoDx3oX+zyiU2CyxHrjeOK0jV34VlAtY4tWIYzrOGJLYReRcIh9O
-dwnFiKtv78IDJg0kMew7JVHDQaE3Z5b00/+a/zT2LAmH8Wo1PLyH3gQCKkXhwbCM
-oCqgnAHC2VlQvX/fboU2BbiHzMFSqGVQoMo4pyvgsns3uINOlIOZHYSY
-=3Ozg
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHa1qUTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqeD7B/419doy/e92u69v9ci+cH2XCY0IpaqS
+AaJu6jg8Rg7OzziZPDRLY0KEM10K6+bahAW0VOD2i7iaqJjFZ/i/Edlke0+Y1Q5s
+0rnPudoMq9suYDzHX5I2QhdtjFlqm3GVDfQfulHTsR9iz3ARInfJ0excjtbQ5yUM
+/WcQU0h2QwFSv8qiVtJ0VIFmMXRIDiThxl5YpFxk4V7/VDZqlRfEO5rkGLgIi0MP
+D+h1htt+ItWEI5BPFj6j+K7AEGEH9lPT2UV0nRHZwGKQDIDofLICMW0jDsz1F8jn
+KO2irh7RsFyjYJDqt8vNR6f6702Zhy3Y5hddAbKbrI9UyOo/5IajGKKc
+=M1+V
 -----END PGP SIGNATURE-----
 
---===============3054439490427116301==
+--===============4979169719758096905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d5a47424040-6dc9a23e2906.txt
+Content-Disposition: attachment; filename=revlist-5f33a09e769a-89d58aebe14a.txt
 
 bcf141b2eb551b3477b24997ebc09c65f117a803 xfrm: fix policy lookup for ipv6 gre packets
 ec3bb890817e4398f2d46e12e2e205495b116be9 xfrm: fix dflt policy check when there is no policy configured
@@ -120,8 +120,6 @@ af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-0
 49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
 db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
-4a8737ff068724f509d583fef404d349adba80d6 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-5f33a09e769a9da0482f20a6770a342842443776 can: isotp: convert struct tpcon::{idx,len} to unsigned int
 75acfdb6fd922598a408a0d864486aeb167c1a97 Merge tag 'net-5.16-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 502a2ce9cdf4225983a07c8d99ea2afd53f48837 Merge tag 'linux-can-fixes-for-5.16-20220105' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 1585f590a2e5dcae5833b05e030c47229299dd09 selftests: netfilter: switch to socat for tests using -q option
@@ -155,5 +153,10 @@ b69c5b5886f3986f94ded29896211d520c57aea1 Merge branch 'octeontx2-ptp-bugs'
 9371937092d5fd502032c1bb4475b36b39b1f1b3 ax25: uninitialized variable in ax25_setsockopt()
 dc35616e6c2907b0c0c391a205802d8880f7fd85 netrom: fix api breakage in nr_setsockopt()
 6dc9a23e29061e50c36523270de60039ccf536fa octeontx2-af: Fix interrupt name strings
+ced4913efb0acc844ed65cc01d091a85d83a2082 can: softing_cs: softingcs_probe(): fix memleak on registration failure
+370d988cc529598ebaec6487d4f84c2115dc696b can: softing: softing_startstop(): fix set but not used variable warning
+c6564c13dae25cd7f8e1de5127b4da4500ee5844 can: xilinx_can: xcan_probe(): check for error irq
+72b1e360572f9fa7d08ee554f1da29abce23f288 can: rcar_canfd: rcar_canfd_channel_probe(): make sure we free CAN network device
+89d58aebe14a365c25ba6645414afdbf4e41cea4 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
 
---===============3054439490427116301==--
+--===============4979169719758096905==--
