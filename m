@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Sun, 09 Jan 2022 15:07:44 -0000
-Message-Id: <164174086438.1498.10421840534580513109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 09 Jan 2022 15:10:06 -0000
+Message-Id: <164174100684.3594.1980069795686586937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: f08164bc86656ec52264913a7257f1de3a9b9c8e
-    new: 219de95995fb6526b96687c5001f61fe41bed41e
+  - ref: refs/heads/testing
+    old: 9f7438bbd32bbdd1b79c823e462248eae81cfc7e
+    new: edcb89e97690b48c02864aa583292373117635c8
     log: |
-         219de95995fb6526b96687c5001f61fe41bed41e Bluetooth: hci_sync: Fix compilation warning
+         edcb89e97690b48c02864aa583292373117635c8 dt-bindings: iio/adc: ti,palmas-gpadc: Split interrupt fields in example
          
