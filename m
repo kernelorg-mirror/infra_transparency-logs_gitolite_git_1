@@ -1,42 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4959884886876505492=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sun, 09 Jan 2022 00:17:49 -0000
-Message-Id: <164168746977.32067.17764808676026026350@gitolite.kernel.org>
-
---===============4959884886876505492==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 09 Jan 2022 01:17:45 -0000
+Message-Id: <164169106544.3606.11218258031393512185@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/ftrace/core
-    old: 85c62c8c3749eec02ba81217bdcac26867dc262e
-    new: 00a2223605e07cff7df94f5eb49ef5e281dada59
-    log: revlist-85c62c8c3749-00a2223605e0.txt
-
---===============4959884886876505492==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85c62c8c3749-00a2223605e0.txt
-
-4dfe5dff80a4a85a78eca4a973ce77c0008959fb tracing: Change event_command func() to parse()
-7d28e1e7d4fa0a30bba27626220ee33b213f4e45 tracing: Change event_trigger_ops func() to trigger()
-f5bcc5c959c0d43bb5e54296e685690be75fa30b tracing: Add helper functions to simplify event_command.parse() callback handling
-52f2994bd006dcc3ffb94fd3efa4494513b82646 tracing: Have existing event_command.parse() implementations use helpers
-731cdb585952030260e1887cf093bfdf12c5b7e0 tracing: Account bottom half disabled sections.
-0bf45a17496d48f0e2f7f9583ac3f9a14cc3c5ac tracing/uprobes: Check the return value of kstrdup() for tu->filename
-a78ffa361c01d8b13c4f77f18e5ce9a165efc7a3 tracing/probes: check the return value of kstrndup() for pbuf
-33980b86e4a14f5c0c54930c7d31753892a06ebd scripts: ftrace - move the sort-processing in ftrace_init
-57b87c42e3e7d0462e2bcf56f46553b78a877f95 ftrace: Add test to make sure compiled time sorts work
-b7a67415446009d2a47b475f835544e644eac268 tracing: Fix mismatched comment in __string_len
-1a2baad56fefb461fd72f0b865da719e3d681dd9 tracing: Have syscall trace events use trace_event_buffer_lock_reserve()
-00a2223605e07cff7df94f5eb49ef5e281dada59 tracing: Add test for user space strings when filtering on string pointers
-
---===============4959884886876505492==--
+  - ref: refs/heads/master
+    old: 2b732c65e2a322eef7d27f65826330c9b93db2e0
+    new: c942606855c2f1601b42aced795e82022d4bc156
+    log: |
+         57bd18396037e2b36f34458679a5b63d7f6974bf defer/rcuintro: Add indexing tags to RCU Core APIs
+         ce36ecfb3c6923b14ecff600010d5c4609a09127 defer/rcuintro: Use endash for pair of rcu_read_lock() and rcu_read_unlock()
+         ab1e3668ba52d7da726cfcc23ba3aba911fa620b defer/rcuintro: Fix trivial typos
+         7da095c8aee61cd5767aa53422bceea725ce9ea6 defer/rcuintro: Use nbsp around short numbers
+         c942606855c2f1601b42aced795e82022d4bc156 howto: Add QQ on benefits of passive reading
+         
