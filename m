@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 09 Jan 2022 16:15:21 -0000
-Message-Id: <164174492186.10923.10008457635516409328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Sun, 09 Jan 2022 16:31:45 -0000
+Message-Id: <164174590526.21124.7987872100075636375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: 02fb09459435add44bb00191ce9b040c6b4f3aae
-    new: 3367d1bd738c01b2737eaab7d922bfe5f1a41f38
+  - ref: refs/heads/next
+    old: e77e561925df2faf77a41896df24a59141a445c9
+    new: bbd0ff07ed12fda9dbd0cc5f239bb678a775833a
     log: |
-         3367d1bd738c01b2737eaab7d922bfe5f1a41f38 power: supply: Provide stubs for charge_behaviour helpers
+         64aa8f4b6df107f46b6ac3e5331819824626b0af dmaengine: pch_dma: Remove usage of the deprecated "pci-dma-compat.h" API
+         bbd0ff07ed12fda9dbd0cc5f239bb678a775833a dt-bindings: dma-controller: Split interrupt fields in example
          
