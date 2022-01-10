@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3718349294915873170=="
+Content-Type: multipart/mixed; boundary="===============5710413826967599023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 10 Jan 2022 01:59:17 -0000
-Message-Id: <164177995722.8012.4561965984764672537@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 02:02:33 -0000
+Message-Id: <164178015345.10517.10698755660934955182@gitolite.kernel.org>
 
---===============3718349294915873170==
+--===============5710413826967599023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 879dbe9ffebc1328717cd66eab7e4918a3f499bd
-    new: df0cc57e057f18e44dac8e6c18aba47ab53202f9
-    log: revlist-879dbe9ffebc-df0cc57e057f.txt
+  - ref: refs/heads/dev
+    old: 4b095fcf2d43a34ecf67bf6282671e37546010ad
+    new: 3d966521a824082952990492442c7b486fefb48c
+    log: revlist-4b095fcf2d43-3d966521a824.txt
 
---===============3718349294915873170==
+--===============5710413826967599023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-879dbe9ffebc-df0cc57e057f.txt
+Content-Disposition: attachment; filename=revlist-4b095fcf2d43-3d966521a824.txt
 
-a05431b22be819d75db72ca3d44381d18a37b092 selftests: net: Correct case name
-1ebb87cc8928360d0eabf987d80512c7786594b1 gro: Fix inconsistent indenting
-88362ebfd7fb569c78d5cb507aa9d3c8fc203839 net: dsa: b53: Add SPI ID table
-53e87e3cdc155f20c3417b689df8d2ac88d79576 timers/nohz: Last resort update jiffies on nohz_full IRQ entry
-e7f2be115f0746b969c0df14c0d182f65f005ca5 sched/cputime: Fix getrusage(RUSAGE_THREAD) with nohz_full
-f83baa0cb6cfc92ebaf7f9d3a99d7e34f2e77a8a HID: add hid_is_usb() function to make it simpler for USB detection
-720ac467204a70308bd687927ed475afb904e11b HID: wacom: fix problems when device is not a valid USB device
-93020953d0fa7035fd036ad87a47ae2b7aa4ae33 HID: check for valid USB device for many HID drivers
 f237d9028f844a86955fc9da59d7ac4a5c55d7d5 HID: add USB_HID dependancy on some USB HID drivers
 7998193bccc1c6e1537c5f3880fd0d5b949ec9d1 HID: sony: fix error path in probe
 918aa1ef104d286d16b9e7ef139a463ac7a296f0 HID: bigbenff: prevent null pointer dereference
@@ -1050,5 +1042,13 @@ df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when
 95350123bb5568a7d95e3789225144bd1a154274 Merge tag 'soc-fixes-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 df0cc57e057f18e44dac8e6c18aba47ab53202f9 Linux 5.16
+e21a28bbcc0c5dc8ab86af77edb530d6fc0c20ff exfat: simplify is_valid_cluster()
+6fa96cd5ad7a0c8f3f3f6b2b5f062721e8f17a54 exfat: fix typos in comments
+8cf058834b11c08b344fc4549b03d723f16c9241 exfat: make exfat_find_location() static
+7dee6f57d7f22a89dd214518c778aec448270d4c exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
+92fba084b79e6bc7b12fc118209f1922c1a2df56 exfat: fix i_blocks for files truncated over 4 GiB
+1ed147e29e505de819aaa5b57919c25348f72e1f exfat: move super block magic number to magic.h
+c71510b3fa27f96840c5737d8a47dd7b370e376c exfat: remove argument 'sector' from exfat_get_dentry()
+3d966521a824082952990492442c7b486fefb48c exfat: fix missing REQ_SYNC in exfat_update_bhs()
 
---===============3718349294915873170==--
+--===============5710413826967599023==--
