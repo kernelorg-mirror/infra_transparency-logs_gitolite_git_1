@@ -1,65 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1863103726868246810=="
+Content-Type: multipart/mixed; boundary="===============8863196650784509628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 10 Jan 2022 18:30:23 -0000
-Message-Id: <164183942352.26975.4156240734504319201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 10 Jan 2022 18:37:47 -0000
+Message-Id: <164183986796.30744.638063883284503939@gitolite.kernel.org>
 
---===============1863103726868246810==
+--===============8863196650784509628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: olof
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/arm/late
-    old: 6b6db66fb373b0f19ca7798500244d256ec0ab44
-    new: 035434f0dd0dc659e3ef215fc504c1faa995fff8
-    log: revlist-6b6db66fb373-035434f0dd0d.txt
-  - ref: refs/heads/for-next
-    old: e333f3fec06a8c04be658706e6bb1c7c40df1357
-    new: 317a42bd9204fe5b76b0d57863f4994a89da3a98
-    log: revlist-e333f3fec06a-317a42bd9204.txt
+  - ref: refs/heads/arm-vmap-stacks-for-v5.18
+    old: 49033034031041091a25eba2b951b468b03a56bd
+    new: cd82faad8426b12e621542f45ad697746d903079
+    log: revlist-490330340310-cd82faad8426.txt
 
---===============1863103726868246810==
+--===============8863196650784509628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b6db66fb373-035434f0dd0d.txt
+Content-Disposition: attachment; filename=revlist-490330340310-cd82faad8426.txt
 
-80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
-34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
-29a5e8496b3ac0d400dfe32288c26c774beb8cc8 ARM: dts: am335x-wega: Fix typo in mcasp property rx-num-evt
-23885389dbbbbc698986e77a45c1fc44a6e3632e ARM: dts: Fix timer regression for beagleboard revision c
-9206a3af4fc0cebbefca2d79876d279bdd8d582b clk: ti: Move dra7 clock devices out of the legacy section
-31aa7056bbec0259e2ec91db7d3571f66b14f93f ARM: dts: Don't use legacy clock defines for dra7 clkctrl
-5225e1b87432dcf0d0fc3440824b91d04c1d6cc1 ARM: dts: meson: Fix the UART compatible strings
-57007bfb5469ba31cacf69d52195e8b75f43e32d ARM: dts: meson8: Fix the UART device-tree schema validation
-3375aa77135f6aeb1107ed839a2050a4118444bc ARM: dts: meson8b: Fix the UART device-tree schema validation
-65def56a5fa797b34d6d914e31e0d8fe1db9a228 Merge tag 'omap-for-v5.17/fixes-for-merge-window-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/late
-035434f0dd0dc659e3ef215fc504c1faa995fff8 Merge tag 'amlogic-fixes-v5.17-rc-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/late
+6eac2ae360a5df047cac5728d0a88e58cfce132d ARM: riscpc: drop support for IOMD_IRQREQC/IOMD_IRQREQD IRQ groups
+446bf1717b389cef454cd26653e7d9758b8c98df ARM: riscpc: use GENERIC_IRQ_MULTI_HANDLER
+913b80051551bfdaa709a73ee5858e451aa11335 ARM: footbridge: use GENERIC_IRQ_MULTI_HANDLER
+21f553952ec35471266ad209a8014c4007fee040 ARM: iop32x: offset IRQ numbers by 1
+b967c8f1af7a52be21850b57be6b867cf60aa0f1 ARM: iop32x: use GENERIC_IRQ_MULTI_HANDLER
+67375b8991dfdaee8738584a1621a47d27b5a9b7 ARM: remove old-style irq entry
+f73c452c36bbb7a35445f7d99a91a75bebf892c7 irqchip: nvic: Use GENERIC_IRQ_MULTI_HANDLER
+46262bb506766d757dafc5e0c5f07e88e82a0784 ARM: decompressor: disable stack protector
+b438c97d0d7d7cdc69408ab42b2928b742331174 ARM: stackprotector: prefer compiler for TLS based per-task protector
+c0cbf18bf65bac9b2d9a6f2fa6944646378c0c4c ARM: entry: preserve thread_info pointer in switch_to
+8c995f2f31f7bd5c4991ce8d348ef821f4e2bd36 ARM: module: implement support for PC-relative group relocations
+fd3d0c4d4d535bfd706c643d6b2a53ec2bd6f4d7 ARM: assembler: add optimized ldr/str macros to load variables from memory
+f4de3d4657b1981d3bb39e6f9478fed9639a13b0 ARM: percpu: add SMP_ON_UP support
+38dcebad97982a7f8ef997e60ad5881f35b6fcde ARM: use TLS register for 'current' on !SMP as well
+5626fe0a5c25d796a6f6f4fccb8890b718e3c518 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+dd594163c913b3beeb33335f0bfdc7c1adf90ceb ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
+cb06de45a7bcc55513efd11e9e238cf8db4252f7 ARM: assembler: introduce bl_r macro
+050b02a0981a32ed445802897b6a70f56008fb8c ARM: unwind: support unwinding across multiple stacks
+40c6acfedac6f3ef65c1dddaaed1ee91bc13595f ARM: export dump_mem() to other objects
+9bde7aac02624d26100a0693e2eefa4c0bb5fd01 ARM: unwind: dump exception stack from calling frame
+634b682ab11b9718d2cd2ff3dd3d12e1407138b5 ARM: backtrace-clang: avoid crash on bogus frame pointer
+fd64cb363abc76693ee11953b2cadf495ef63b69 ARM: implement IRQ stacks
+1fb160163aacde950c37e763edba950cf62863e1 ARM: call_with_stack: add unwind support
+6a1506b4f11dd8440b61119153447405480250a9 ARM: run softirqs on the per-CPU IRQ stack
+87587dabc247cd5b6dac49ae5c74f54bbce1569b ARM: memcpy: use frame pointer as unwind anchor
+444d2487e9260c5b8359281069ac0fc76af60b5a ARM: memmove: use frame pointer as unwind anchor
+dd8f0be8d426fee87112bf2bf7529a82bee98b85 ARM: memset: clean up unwind annotations
+cc2ccae8ef9101c0151dce99dba707ee504adc6d ARM: unwind: disregard unwind info before stack frame is set up
+620ccdc29a8c9b934627a253553695e975b9649d ARM: entry: rework stack realignment code in svc_entry
+a00ae8f668f2d04a0904856c33a6474397ea62d3 ARM: mm: prepare vmalloc_seq handling for use under SMP
+cd82faad8426b12e621542f45ad697746d903079 ARM: implement support for vmap'ed stacks
 
---===============1863103726868246810==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e333f3fec06a-317a42bd9204.txt
-
-80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
-34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
-29a5e8496b3ac0d400dfe32288c26c774beb8cc8 ARM: dts: am335x-wega: Fix typo in mcasp property rx-num-evt
-23885389dbbbbc698986e77a45c1fc44a6e3632e ARM: dts: Fix timer regression for beagleboard revision c
-9206a3af4fc0cebbefca2d79876d279bdd8d582b clk: ti: Move dra7 clock devices out of the legacy section
-31aa7056bbec0259e2ec91db7d3571f66b14f93f ARM: dts: Don't use legacy clock defines for dra7 clkctrl
-5225e1b87432dcf0d0fc3440824b91d04c1d6cc1 ARM: dts: meson: Fix the UART compatible strings
-57007bfb5469ba31cacf69d52195e8b75f43e32d ARM: dts: meson8: Fix the UART device-tree schema validation
-3375aa77135f6aeb1107ed839a2050a4118444bc ARM: dts: meson8b: Fix the UART device-tree schema validation
-65def56a5fa797b34d6d914e31e0d8fe1db9a228 Merge tag 'omap-for-v5.17/fixes-for-merge-window-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/late
-035434f0dd0dc659e3ef215fc504c1faa995fff8 Merge tag 'amlogic-fixes-v5.17-rc-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/late
-e0d6757745e78e24c7b9de167f0718d73a18746c Merge branch 'arm/late' into for-next
-317a42bd9204fe5b76b0d57863f4994a89da3a98 ARM: Document merges
-
---===============1863103726868246810==--
+--===============8863196650784509628==--
