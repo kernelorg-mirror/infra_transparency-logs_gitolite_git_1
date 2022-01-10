@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6712784056731804900=="
+Content-Type: multipart/mixed; boundary="===============2690394023312508141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Jan 2022 09:12:33 -0000
-Message-Id: <164180595387.12153.12192283453088738016@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 09:13:02 -0000
+Message-Id: <164180598232.12364.13561409776265949212@gitolite.kernel.org>
 
---===============6712784056731804900==
+--===============2690394023312508141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: a7d8c163e3093ea440b90b5778174744fdc4d084
-    new: 6f42711e47bb379b5552af8007969eba5c015152
-    log: revlist-a7d8c163e309-6f42711e47bb.txt
+  - ref: refs/heads/m68k-queue
+    old: 97246392d0fa4edae0cce83600d3025310370925
+    new: 61b439794190c9eb1746c08e8271692cad2b33e1
+    log: revlist-97246392d0fa-61b439794190.txt
 
---===============6712784056731804900==
+--===============2690394023312508141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7d8c163e309-6f42711e47bb.txt
+Content-Disposition: attachment; filename=revlist-97246392d0fa-61b439794190.txt
 
 51c7b6a0398f54b9120795796a4cff4fc9634f7d power: supply: core: Break capacity loop
 80211be1b9dec04cc2805d3d81e2091ecac289a1 power: bq25890: Enable continuous conversion for ADC at charging
@@ -127,6 +127,9 @@ df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when
 95350123bb5568a7d95e3789225144bd1a154274 Merge tag 'soc-fixes-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 df0cc57e057f18e44dac8e6c18aba47ab53202f9 Linux 5.16
-6f42711e47bb379b5552af8007969eba5c015152 Merge tag 'v5.16'
+1f6e9081ba112400bcdf18a11b9c956e06dbd18d m68k: Enable memtest functionality
+7f854e613d93e564b554578d0747e5cc9d5a9489 m68k: atari: usb: Add ISP1160 USB host controller support
+ead0dd37b18da127fe7945bb2c297bb9b139f116 m68k: atari: Update Kconfig.bus help text
+61b439794190c9eb1746c08e8271692cad2b33e1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6712784056731804900==--
+--===============2690394023312508141==--
