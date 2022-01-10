@@ -1,46 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
-Date: Mon, 10 Jan 2022 21:04:38 -0000
-Message-Id: <164184867892.29270.7542979597694465458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 10 Jan 2022 21:09:03 -0000
+Message-Id: <164184894367.32057.5359834025879439776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/teigland/linux-dlm
-user: teigland
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/dlm-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 718fbd3aec276fb6a3bb214b52b37ea22f4b7351
-  - ref: refs/tags/v5.14
-    old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
-  - ref: refs/tags/v5.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 53371b959e5823998cd617e74b585e7d328f5840
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
+  - ref: refs/heads/ceph-fscrypt
+    old: 991f8797a5a8a3c44888b5d10ddab950093df3d7
+    new: 5d220a063f5912145be44dd593776c7276a7b99d
+    log: |
+         67e22169f2237938c48c54046d533950c6dda3a9 ceph: set i_blkbits to crypto block size for encrypted inodes
+         b341d3a7e9adbb3246eedd389ef6b547260ed8c9 ceph: add fscrypt decryption support to ceph_netfs_issue_op
+         d7a9f904a593089ddb4906f853e066595f8985df ceph: add encryption support to writepage
+         5d220a063f5912145be44dd593776c7276a7b99d ceph: fscrypt support for writepages
+         
