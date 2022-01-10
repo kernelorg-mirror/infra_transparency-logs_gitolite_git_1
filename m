@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 10 Jan 2022 13:29:35 -0000
-Message-Id: <164182137505.27159.8353190325521841049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zanussi/linux-trace
+Date: Mon, 10 Jan 2022 13:56:21 -0000
+Message-Id: <164182298168.12467.792243953645150070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/zanussi/linux-trace
+user: zanussi
 changes:
-  - ref: refs/tags/spi-v5.17
+  - ref: refs/heads/ftrace/cleanup-hist-func-v7
     old: 0000000000000000000000000000000000000000
-    new: 44fad889ce8e0ed76860592f1f0f38cf35d39ae9
+    new: 84b1273c7c3b28b55daf6a85372bebd2bf36935a
