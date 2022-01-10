@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7602264027252217906=="
+Content-Type: multipart/mixed; boundary="===============4774182524923265604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 10 Jan 2022 16:53:00 -0000
-Message-Id: <164183358042.27034.6517955849376772596@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 16:53:08 -0000
+Message-Id: <164183358820.27145.5783919928876847156@gitolite.kernel.org>
 
---===============7602264027252217906==
+--===============4774182524923265604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
+  - ref: refs/heads/mlx5-queue
     old: 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9
-    new: 8aaaf2f3af2ae212428f4db1af34214225f5cec3
-    log: revlist-82192cb497f9-8aaaf2f3af2a.txt
+    new: d2d3b1c86c465124b8370469783cce9902e44edc
+    log: revlist-82192cb497f9-d2d3b1c86c46.txt
 
---===============7602264027252217906==
+--===============4774182524923265604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82192cb497f9-8aaaf2f3af2a.txt
+Content-Disposition: attachment; filename=revlist-82192cb497f9-d2d3b1c86c46.txt
 
 bcf141b2eb551b3477b24997ebc09c65f117a803 xfrm: fix policy lookup for ipv6 gre packets
 ec3bb890817e4398f2d46e12e2e205495b116be9 xfrm: fix dflt policy check when there is no policy configured
@@ -173,5 +173,6 @@ e20a471256b0adccfa6b61aa12c4888abb542320 lan743x: Remove useless DMA-32 fallback
 0959a82ab3e569509cbab111564bea1c916bb204 net/qla3xxx: Remove useless DMA-32 fallback configuration
 208dd45d8d050360b46ded439a057bcc7cbf3b09 tcp: tcp_send_challenge_ack delete useless param `skb`
 8aaaf2f3af2ae212428f4db1af34214225f5cec3 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d2d3b1c86c465124b8370469783cce9902e44edc net/mlx5: Remove unused TIR modify bitmask enums
 
---===============7602264027252217906==--
+--===============4774182524923265604==--
