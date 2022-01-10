@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 10 Jan 2022 00:52:51 -0000
-Message-Id: <164177597199.25340.11595090722838823635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 10 Jan 2022 00:57:09 -0000
+Message-Id: <164177622906.28034.15782632722157595334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: f4bb93a82f94a1e23e532f0b4b1859f1f4605968
-    new: dd3ca4c5184ea98e40acb8eb293d85b88ea04ee2
+  - ref: refs/heads/for-next
+    old: da17d6905d29ddcdc04b2fdc37ed8cf1e8437cc8
+    new: 0bbeb64cb063d746cdb2fdc8c1e3f4d51e268b23
     log: |
-         6f022c2ddbcefaee79502ce5386dfe351d457070 net: openvswitch: Fix ct_state nat flags for conns arriving from tc
-         d668769eb9c52b150753f1653f7f5a0aeb8239d2 net: mcs7830: handle usb read errors properly
-         dd3ca4c5184ea98e40acb8eb293d85b88ea04ee2 amt: fix wrong return type of amt_send_membership_update()
+         0bbeb64cb063d746cdb2fdc8c1e3f4d51e268b23 dt-bindings: vendor-prefixes: Add Sunplus
          
