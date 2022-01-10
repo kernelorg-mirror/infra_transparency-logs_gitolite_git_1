@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9070644330320832196=="
+Content-Type: multipart/mixed; boundary="===============8170795694005514384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 10 Jan 2022 18:38:40 -0000
-Message-Id: <164183992022.31167.1955333451654898098@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 18:38:50 -0000
+Message-Id: <164183993065.31305.18024857991135705100@gitolite.kernel.org>
 
---===============9070644330320832196==
+--===============8170795694005514384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/urgent
+  - ref: refs/heads/perf/urgent
     old: e900deb2482002a9c10b77c750f63fba928fe142
     new: 133d9c53c9dcbb1b8f317e402e79c44d9eb725c9
     log: revlist-e900deb24820-133d9c53c9dc.txt
 
---===============9070644330320832196==
+--===============8170795694005514384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1018,4 +1018,4 @@ bfed6efb8e136c0e0a4cc854f2aaa2ed6ac1b9e0 Merge tag 'x86_sgx_for_v5.17_rc1' of gi
 3c6d4056663dad0ea0b87b21fe98415b9dbcdd5b Merge tag 'x86_build_for_v5.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 133d9c53c9dcbb1b8f317e402e79c44d9eb725c9 Merge tag 'x86_vdso_for_v5.17_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============9070644330320832196==--
+--===============8170795694005514384==--
