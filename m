@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5083348968224472111=="
+Content-Type: multipart/mixed; boundary="===============3504119951554344729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Jan 2022 07:17:36 -0000
-Message-Id: <164179905679.4229.3472916774771034793@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 07:17:37 -0000
+Message-Id: <164179905745.4313.1897214146864554804@gitolite.kernel.org>
 
---===============5083348968224472111==
+--===============3504119951554344729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,69 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: a94dc7407bf3aab53c9fd65d24065a43353a0dbe
-    new: 8da7da0b26942b5e554b741ad553db5e74449888
-    log: revlist-a94dc7407bf3-8da7da0b2694.txt
+  - ref: refs/heads/linux-4.14.y
+    old: bfdef05c8da46b022172695aa493cff7ac667a4b
+    new: cb274a488c53829d351781c3a2958dc490edbb52
+    log: revlist-bfdef05c8da4-cb274a488c53.txt
 
---===============5083348968224472111==
+--===============3504119951554344729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641799055 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641799056 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1641799053-63d06dfc877ed622230ed695c334343992fce22f
 
-a94dc7407bf3aab53c9fd65d24065a43353a0dbe 8da7da0b26942b5e554b741ad553db5e74449888 refs/heads/linux-4.19.y
+bfdef05c8da46b022172695aa493cff7ac667a4b cb274a488c53829d351781c3a2958dc490edbb52 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb3Y8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P+UP/0zYXi+SpAjdtpraU4Xz
-42KOHT/kC1slwp4TEPJzYpjWPMrb2JSBg5xGeMmlANm+W96ielilJgMIOiPg1K2v
-g65sXcCk4+oc+QSFrvj+TWpMOiMghJL60cvuHf+NIlV+HP3TxshJztjJOV3SA1RT
-vqIK5Z0zrM897+1Ltl4m4TkqYvRiheH+Jr4XB8QASonJzPAhJxsflc5mSrkY9E6T
-38F9L9COC/xHW8dVObMTjUpG+vacRgbLYjUEvD+89eWzE7+V1isZ8NeJXmylRqJY
-/n4vjOxwdBheU7ITfU9mbc9d+1dU4Hj3LY4UKSIR8KYcaCjPuMd6a8Hw4zzZY9mc
-xhsu2nTFsuFK9A43R/H/R+zkKO1uRl3tDYSINknePGD5K/4MkCcFRmYXFKnsam8J
-Qdun6T8Uz6Kbu1u1rkep26ZJNcaO5C0naE2LDABaNsegvilEM4wcXGssqubyoei7
-7D/20IjVSg80OJpqAPoGfhuvzQvsu8gG2hiFPL9AwbXM/1ymbPnG+aDwwhadJ2Ab
-2N2gwz7QfDgZ6okW9vsrTthXu49Fb5qFtdJ6QJSdMLBTotpdGuP9cAkyyNavfP66
-tTdey7Wgzqr6WpJtuGmva53WNZEfHAtE0EktOFLUgJW2dPmKMAFr9761eHhhO+uL
-wG4ZQ7G3sM+P00p7wiaZG+0U
-=q+8W
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb3ZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JCYQAIZhfrd78mIzXfZQvTlY
+F5OkA1kgOAcOzc9eCTxIRgqEvnqfaV1ZEku9Nl4sDTPyTwQAbIageq2p9SUPzSiY
+pmZHj/+FwQY71k65Ted+OCZWLJjRkNqHxxGDALpNALieaOws2aZf2ZmFfeG4sLQU
+3voPMS3XrJJZ2F1NMb247CV5r7aJVENANEICNyPmsnhkeH2TIWpTyrxuzhtOlh1D
+FjdSOtCq730wQs7v3fHwRdBLR1osRVgrulwJ+meYN8eMOKcuFUD0na5WzS/f0ryd
+hQEBz8EpVrAk/IPuKngB/QGy3/1HDssn0/mxU3hkaxahd3ac6ofWe5ju+lrLxq3X
+4Mqx9pGcIoSPVhHQJHnTaTONtOJUv15bOTIJUogx3FeSmxtYpGl+op4tNq9H8KKN
+rsDoPnDa6X1WWFEVKsHWOjBDlXI3jwvMCXDGz1YK2jz5z58lS7cRyXk9RRdNI909
+Gd1U9zo/suNojRQLa1YAKnJYRG5w9skcZKfRdS42+1noRsv2bDl1TkiwSTNGTWQp
+lJT5VL8HNrxOfZh7LwFFrlz0KQwxdLa+YD2XyXz13pQCmhMb9/PweUiDvNxweIOG
+kgNBwxdDornDMSX01UD2Oneny7F+aWJp0Tiimhpk94KtISVEAFNPRnbMgBAEtbuV
++Cp6YcDwo7lVBYPN6V/jzN6g
+=Iutj
 -----END PGP SIGNATURE-----
 
---===============5083348968224472111==
+--===============3504119951554344729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a94dc7407bf3-8da7da0b2694.txt
+Content-Disposition: attachment; filename=revlist-bfdef05c8da4-cb274a488c53.txt
 
-72f7d0ea14d79ccd88a3452afd72d1a7683b1c30 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-47d5e6fc8d06731639dc8b334235352e768e99b9 tracing: Tag trace_percpu_buffer as a percpu pointer
-afe5c3b2d97f509d20277a1cbfdf30afcc36395d ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-0492083240552230fb8aec76480e956a169c69dc RDMA/core: Don't infoleak GRH fields
-4e7489991ffbff8ccf4d4a2bf9d6c70cddf8adcb mac80211: initialize variable have_higher_than_11mbit
-3f2ad7f9a8458ce1323138062ed14b4025098ad6 i40e: fix use-after-free in i40e_sync_filters_subtask()
-5273c8ff8ffb1648cf54f0cf61324e3630d4ac57 i40e: Fix incorrect netdev's real number of RX/TX queues
-495ecfbc5e009d024f994783e4d5911681bc3886 ipv6: Check attribute length for RTA_GATEWAY in multipath route
-88806cf657a519886688f9e6122f457980e1d81f ipv6: Check attribute length for RTA_GATEWAY when deleting multipath route
-58cd1642e6503c701603f0dba0469129c215cd1f sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
-945f5a574bf74bb02123f342677fe5a4f82ea5d4 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
-c601ecdd3ee4aa1fd69ad9a736fe60dfc01dc2b7 power: reset: ltc2952: Fix use of floating point literals
-1cf88329775e2b05beafeeb7addc3099b30862a7 rndis_host: support Hytera digital radios
-1fc895ea2e3cc29509e7fd2170b540ead687028a phonet: refcount leak in pep_sock_accep
-4b3cee19016d3cb3c86327aa08ef239f70020000 ipv6: Continue processing multipath route even if gateway attribute is invalid
-1cedad3071d28bbf0b0c51d525c2bc848ebd09cc ipv6: Do cleanup if attribute validation fails in multipath route
-ae79bac5c72a0a036eaabe0837682c8ec3428916 usb: mtu3: fix interval value for intr and isoc
-70597c1fc2d1ec967566efadbb5e76d09ab4ccb9 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
-4c2cd099ba924b6f2ea229b619ca006de37264f5 ip6_vti: initialize __ip6_tnl_parm struct in vti6_siocdevprivate
-4fc9fae6b5f45fc11a5526c89816091d674c1447 net: udp: fix alignment problem in udp4_seq_show()
-4d75b9cbf514da9c739577911a06ce3fadf4543e mISDN: change function names to avoid conflicts
-8da7da0b26942b5e554b741ad553db5e74449888 Linux 4.19.225-rc1
+a4df93a342c1dfbdd1baa42102c4ef389d194139 Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+145a15c33d523c60ffefc3cee32c931594f06946 tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+aa2ce78fd4d26fba25adbb2eafaa94b674de9d98 tracing: Tag trace_percpu_buffer as a percpu pointer
+4fb5ff66d76a954e9293d9ac9ac0801625410c09 virtio_pci: Support surprise removal of virtio pci device
+1bb2c687026b51c34fba4129d0060135939a691e ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+452331bc22e65f0d3e06852b60449ffa4aa952ae RDMA/core: Don't infoleak GRH fields
+253a7fe6146b8be9f58c05db560baae0c64619b7 mac80211: initialize variable have_higher_than_11mbit
+f3692421da057772d7f426261fd8840cc8a5316d i40e: fix use-after-free in i40e_sync_filters_subtask()
+c8a4322dd4d1c2dde8672f51179c03be7c791556 i40e: Fix incorrect netdev's real number of RX/TX queues
+ba8acff51a35583c760874377611b1158b2d4c1a ipv6: Check attribute length for RTA_GATEWAY in multipath route
+f623f13615e9de60eaf231a6f5b33f57a9760dd2 ipv6: Check attribute length for RTA_GATEWAY when deleting multipath route
+58a4520417e6cc099d77831c17c6a89ab2790c1a sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+797cbe8cbeac0a3c2b26c4708c63f5fdb3686198 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
+1852119c5a01c33fa35c7b01d08cf21b076c293e power: reset: ltc2952: Fix use of floating point literals
+7973156cf1563cc85f65712189f984c561aadc01 rndis_host: support Hytera digital radios
+68c5fc147036ce10a913b354653445050fdc7770 phonet: refcount leak in pep_sock_accep
+a0b70aea699346aa90118c7d1aa42781302819e9 ipv6: Continue processing multipath route even if gateway attribute is invalid
+b657f197d3e058fda47c9ad9a40e151cbc35010e ipv6: Do cleanup if attribute validation fails in multipath route
+4b69635fe1a573ae1a40d378ab731eadf05f41d9 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+c7b682626cab5448fb8d0b9a038de35174c5a9e9 ip6_vti: initialize __ip6_tnl_parm struct in vti6_siocdevprivate
+c3fda9602fc8e81c1839f823a61aff27f902807b net: udp: fix alignment problem in udp4_seq_show()
+99ff64b862c0ad3eee29ebe5964212f206abd9ff mISDN: change function names to avoid conflicts
+cb274a488c53829d351781c3a2958dc490edbb52 Linux 4.14.262-rc1
 
---===============5083348968224472111==--
+--===============3504119951554344729==--
