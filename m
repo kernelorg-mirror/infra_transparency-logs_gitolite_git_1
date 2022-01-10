@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 10 Jan 2022 23:13:32 -0000
-Message-Id: <164185641247.12981.456663881955240214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 10 Jan 2022 23:20:14 -0000
+Message-Id: <164185681410.17783.5105511104070383260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 092c19999ae9a6f584db7b31ad21cfa71087f9c1
-    new: 852d1768db03fbc19f5bd643d2e4c8f34c4343a2
+  - ref: refs/heads/master
+    old: 6ce41f621154eff0145dab41308bc145c0440f16
+    new: 1ebbb1a11e4f2839134c5ea4363d9593f6fee2a2
     log: |
-         0aeb3aca8b24cea5f97e495f731a5862cbd10f25 ARM: mm: prepare vmalloc_seq handling for use under SMP
-         852d1768db03fbc19f5bd643d2e4c8f34c4343a2 ARM: implement support for vmap'ed stacks
+         1ebbb1a11e4f2839134c5ea4363d9593f6fee2a2 unit: add checksum/random check for test-dpp
          
