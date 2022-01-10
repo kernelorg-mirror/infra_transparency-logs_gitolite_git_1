@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
-Date: Mon, 10 Jan 2022 12:30:34 -0000
-Message-Id: <164181783466.23294.13008524972138918322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 10 Jan 2022 12:33:16 -0000
+Message-Id: <164181799669.24174.6876375990240143794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/kernel-shark
-user: y.karadzhov
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/kernelshark
-    old: d10a5c3b394e9d9bdbe07f43162a943254cdbf9a
-    new: bec544e545b311bea169d97783554841c845e8f1
+  - ref: refs/heads/hyperv-next
+    old: 51500b71d500f251037ed339047a4d9e7d7e295b
+    new: 4686c9959845d7944a71296e90c8a688e9dfeb38
     log: |
-         bec544e545b311bea169d97783554841c845e8f1 kernel-shark: fix typo in sched_events.h
+         4686c9959845d7944a71296e90c8a688e9dfeb38 scsi: storvsc: Fix storvsc_queuecommand() memory leak
          
