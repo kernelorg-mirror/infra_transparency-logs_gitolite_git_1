@@ -1,383 +1,277 @@
-Content-Type: multipart/mixed; boundary="===============2346213089525923537=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Mon, 10 Jan 2022 09:29:51 -0000
-Message-Id: <164180699117.23532.6365512417984547133@gitolite.kernel.org>
-
---===============2346213089525923537==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Mon, 10 Jan 2022 09:30:42 -0000
+Message-Id: <164180704260.25515.12207299348582421277@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/heads/master
-    old: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
-    new: df0cc57e057f18e44dac8e6c18aba47ab53202f9
-    log: revlist-c9e6606c7fe9-df0cc57e057f.txt
-  - ref: refs/tags/arm-apple-m1-5.13
+  - ref: refs/tags/5.17-net-next
     old: 0000000000000000000000000000000000000000
-    new: d5ac647c7b2d1b7622b71c5ac5d4742320b997ed
-  - ref: refs/tags/arm-defconfig-5.13
+    new: d666e233d27daffa670e5bbd904993fa39bac573
+  - ref: refs/tags/v5.10
     old: 0000000000000000000000000000000000000000
-    new: 31e889a49ce150eef3821b44e10986dfff31b0a4
-  - ref: refs/tags/arm-defconfig-5.14
+    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
+  - ref: refs/tags/v5.10-rc1
     old: 0000000000000000000000000000000000000000
-    new: a3440fd52002133454cf02770e899d5028ed6830
-  - ref: refs/tags/arm-defconfig-5.7
+    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
+  - ref: refs/tags/v5.10-rc2
     old: 0000000000000000000000000000000000000000
-    new: 3b48d715caf3c582404668f3ece6679f75c6bc50
-  - ref: refs/tags/arm-defconfig-5.8
+    new: 27598e7e73260ed0b2917eb02d4a515ebb578313
+  - ref: refs/tags/v5.10-rc3
     old: 0000000000000000000000000000000000000000
-    new: 125516abebc2aea73fdc8aa1d4b91f982f4f6999
-  - ref: refs/tags/arm-defconfig-5.9
+    new: 4d3d761b5b27bb33a731e8df51b7fb6a6c565804
+  - ref: refs/tags/v5.10-rc4
     old: 0000000000000000000000000000000000000000
-    new: 8166fff79672d9225a7cd7f9dfc01cf4dc2d37b6
-  - ref: refs/tags/arm-defconfig-v5.12
+    new: a93711503472d4c89977ce2c80dcd4b75e36cc45
+  - ref: refs/tags/v5.10-rc5
     old: 0000000000000000000000000000000000000000
-    new: 7d5f8dde12252d62858c8a1e4ce713c9d6559730
-  - ref: refs/tags/arm-drivers-5.13
+    new: af69a948d2ce48f8bfe9935958d12f86fb50326b
+  - ref: refs/tags/v5.10-rc6
     old: 0000000000000000000000000000000000000000
-    new: 02b5d27ec55704b1707e30908ab26dddf890e1c7
-  - ref: refs/tags/arm-drivers-5.14
+    new: 2884f0b6b25db35053dd51e8e1839696746d8321
+  - ref: refs/tags/v5.10-rc7
     old: 0000000000000000000000000000000000000000
-    new: 087251351c2c425af561ecb53920b67eb404542f
-  - ref: refs/tags/arm-drivers-5.7
+    new: dd0039844c8b2b960d0e0175923da0135f87c392
+  - ref: refs/tags/v5.11
     old: 0000000000000000000000000000000000000000
-    new: 65272ad9a267c75364e06acb6d7537228f151cea
-  - ref: refs/tags/arm-drivers-5.8
+    new: 2d073d933799ffaa046c773bfffa01f3aa461701
+  - ref: refs/tags/v5.11-rc1
     old: 0000000000000000000000000000000000000000
-    new: 8542d386c4650da5ab42eb002d76456f81acf88b
-  - ref: refs/tags/arm-drivers-5.9
+    new: 4a191eab42bda9fba2742d8d538609c737b8194e
+  - ref: refs/tags/v5.11-rc2
     old: 0000000000000000000000000000000000000000
-    new: 0841fb60cde20c6d5f4346a1fd9d58d8bfb0817a
-  - ref: refs/tags/arm-drivers-v5.12
+    new: 8abc7aa5d31067372903fb523ed96e8470b92d50
+  - ref: refs/tags/v5.11-rc3
     old: 0000000000000000000000000000000000000000
-    new: b8c11dda069f023c0ed74be14a0d31a376f17a7f
-  - ref: refs/tags/arm-dt-5.13
+    new: 5b7c653871ad14d6b0fb53fabd8152ea70ad545e
+  - ref: refs/tags/v5.11-rc4
     old: 0000000000000000000000000000000000000000
-    new: 59d09d658a8c22960fed179c38c73a67e4bdd0ac
-  - ref: refs/tags/arm-dt-5.14
+    new: 7341df6992e7840498cff6ad21380aa7dd97870b
+  - ref: refs/tags/v5.11-rc5
     old: 0000000000000000000000000000000000000000
-    new: 40c0ffbab88d4cbf4385e209dec324408f05e121
-  - ref: refs/tags/arm-dt-5.7
+    new: ccc5e9edc1b189a5c49dc8ac5751f95dc6d83564
+  - ref: refs/tags/v5.11-rc6
     old: 0000000000000000000000000000000000000000
-    new: 47cdf0937225455f2acdd5e6ecad893cbdd54d88
-  - ref: refs/tags/arm-dt-5.8
+    new: 45e6659327a54b98d7715964f2993e44dfb2c318
+  - ref: refs/tags/v5.11-rc7
     old: 0000000000000000000000000000000000000000
-    new: 14d8ada1f2bf50195c5780fce27a0bb08c5c91e3
-  - ref: refs/tags/arm-dt-5.9
+    new: d61728d5dac3c065b21f39249b406988aaefa193
+  - ref: refs/tags/v5.12
     old: 0000000000000000000000000000000000000000
-    new: 7c5520507580de581d03fe93cd2dba0cacdbf8ea
-  - ref: refs/tags/arm-dt-v5.12
+    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
+  - ref: refs/tags/v5.12-rc1-dontuse
     old: 0000000000000000000000000000000000000000
-    new: 3b2843672cd5e87b12de82d891ff2892446de2c4
-  - ref: refs/tags/arm-fixes-5.11-1
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.12-rc2
     old: 0000000000000000000000000000000000000000
-    new: 244938281f60c4bdb62367b2a499000355bbc043
-  - ref: refs/tags/arm-fixes-5.11-2
+    new: b3c1bf1d9bc8e536db0c8e0572336f534ae7a46b
+  - ref: refs/tags/v5.12-rc3
     old: 0000000000000000000000000000000000000000
-    new: 44e45e792d4ed4a64b090075e165661bf1bea7be
-  - ref: refs/tags/arm-fixes-5.12-3
+    new: a6d574dee98b6bc676391ba747e348b7705732c0
+  - ref: refs/tags/v5.12-rc4
     old: 0000000000000000000000000000000000000000
-    new: 354367c234f025ed43a616d5181721621e51bdea
-  - ref: refs/tags/arm-fixes-5.12-4
+    new: ec10c44a332d761d6f30b5ea5f7111ce10cd98d6
+  - ref: refs/tags/v5.12-rc5
     old: 0000000000000000000000000000000000000000
-    new: 28693e86d9fea338f32a4d19be9c3d89826388a4
-  - ref: refs/tags/arm-fixes-5.16
+    new: 43362f7fcb8de2dc84d8c14583122e53e576ff7b
+  - ref: refs/tags/v5.12-rc6
     old: 0000000000000000000000000000000000000000
-    new: 5ab34ebb72031821f58fe5d3dff51b1c1a610f20
-  - ref: refs/tags/arm-fixes-5.16-2
+    new: 901a4ddd0080090dc7a32752fa877a1570a78a5b
+  - ref: refs/tags/v5.12-rc7
     old: 0000000000000000000000000000000000000000
-    new: dd2ab4e911a96c8bbe62d6794231050ae67e31c1
-  - ref: refs/tags/arm-fixes-5.16-4
+    new: 33bc861b3af62f4d44957319d850f1767d16ab84
+  - ref: refs/tags/v5.12-rc8
     old: 0000000000000000000000000000000000000000
-    new: e3230bc6119551980085bfaeaaa38226b823e625
-  - ref: refs/tags/arm-fixes-5.8-1
+    new: 939326287f7e63045200ed4ee1653029a7aa8065
+  - ref: refs/tags/v5.13
     old: 0000000000000000000000000000000000000000
-    new: 48cea51a756a2d459251de9a7cfb6e54eb012544
-  - ref: refs/tags/arm-fixes-5.8-2
+    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
+  - ref: refs/tags/v5.13-rc1
     old: 0000000000000000000000000000000000000000
-    new: 7856c7267b1e292285223c843b5913964c2f16c8
-  - ref: refs/tags/arm-fixes-5.8-3
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/tags/v5.13-rc2
     old: 0000000000000000000000000000000000000000
-    new: f0b13b880fff83935c895ab38064696162c81b9e
-  - ref: refs/tags/arm-fixes-v5.12
+    new: ce6471a4dff253eab89bd4eb3a84eef6bdba1f44
+  - ref: refs/tags/v5.13-rc3
     old: 0000000000000000000000000000000000000000
-    new: 70162d7cf96c2179f9ad299328eba95bde511c45
-  - ref: refs/tags/arm-newsoc-5.13
+    new: 9e8e06c7a2169db945749f338334cd2042e08799
+  - ref: refs/tags/v5.13-rc4
     old: 0000000000000000000000000000000000000000
-    new: f89fa548cd0b0efe25d43feceb805d46ddd6b160
-  - ref: refs/tags/arm-newsoc-5.9
+    new: 3d34748611aa9c15509eb286463ebace02eaae14
+  - ref: refs/tags/v5.13-rc5
     old: 0000000000000000000000000000000000000000
-    new: 99b1998dc98019f59cbbbfb679dc0f87a3a788d7
-  - ref: refs/tags/arm-omap-fixes-5.8-1
+    new: cbc5ad3cbf7aea0154be271694fe419ad5f0af6d
+  - ref: refs/tags/v5.13-rc6
     old: 0000000000000000000000000000000000000000
-    new: 14c750dfe8e439be720a7d4d3197faa15e2f55f7
-  - ref: refs/tags/arm-platform-removal-v5.12
+    new: 80bf7a58f3867a1ae15651358747f8e6ea3bbe85
+  - ref: refs/tags/v5.13-rc7
     old: 0000000000000000000000000000000000000000
-    new: 7ba68e45fab9411d2ba8eb3b59d2e79440cbd1ba
-  - ref: refs/tags/arm-soc-5.11
+    new: fa7f6c1d959351eb64586d9965c2a043a51f4494
+  - ref: refs/tags/v5.14
     old: 0000000000000000000000000000000000000000
-    new: c90771058eb342c1f03e000a640dbe28ce99099d
-  - ref: refs/tags/arm-soc-5.13
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc1
     old: 0000000000000000000000000000000000000000
-    new: 9de69117a8e530800b77705645d59424ad875e30
-  - ref: refs/tags/arm-soc-5.14
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.14-rc2
     old: 0000000000000000000000000000000000000000
-    new: da0b396486bab173daba3aa426889377f44b5337
-  - ref: refs/tags/arm-soc-5.7
+    new: 18af54feb85d1d69dc93431547bdab05c219d2b1
+  - ref: refs/tags/v5.14-rc3
     old: 0000000000000000000000000000000000000000
-    new: b937b224c1055699db5cac6c4f9bf11d7fd6586c
-  - ref: refs/tags/arm-soc-5.8
+    new: e610ab8323e2278fdf9e9f83eb56183d373257be
+  - ref: refs/tags/v5.14-rc4
     old: 0000000000000000000000000000000000000000
-    new: abe426b7ca03cb4b1deff0cb7f7453f8c17378b0
-  - ref: refs/tags/arm-soc-5.9
+    new: cf99369367280a68b3a9409a0a2fe7ce3c96aa55
+  - ref: refs/tags/v5.14-rc5
     old: 0000000000000000000000000000000000000000
-    new: aaced6125354c9e69213b526ddb4d328c43b3e8a
-  - ref: refs/tags/arm-soc-defconfig-5.11
+    new: f6c803e46645d21750457cceaa97f9fa078f39c2
+  - ref: refs/tags/v5.14-rc6
     old: 0000000000000000000000000000000000000000
-    new: d63b993eb65d8c78eeb9dc6d668b747e35c3c74f
-  - ref: refs/tags/arm-soc-drivers-5.11
+    new: 0958b0b45a7419c681d581384a094b94af5469c1
+  - ref: refs/tags/v5.14-rc7
     old: 0000000000000000000000000000000000000000
-    new: 73773ea7f8f11473974cee727b4f064f9aaa22e6
-  - ref: refs/tags/arm-soc-dt-5.11
+    new: 53371b959e5823998cd617e74b585e7d328f5840
+  - ref: refs/tags/v5.15
     old: 0000000000000000000000000000000000000000
-    new: f25a673b0a9e0e78c3bb19edb6a5a919cb3205a3
-  - ref: refs/tags/arm-soc-fixes-5.13-1
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc1
     old: 0000000000000000000000000000000000000000
-    new: a5b299ded836b718b966718c025a7ffadda09629
-  - ref: refs/tags/arm-soc-fixes-5.15-2
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/tags/v5.15-rc2
     old: 0000000000000000000000000000000000000000
-    new: e805c06a80fb657f568ea36600a8e1e6746c2987
-  - ref: refs/tags/arm-soc-fixes-5.15-3
+    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/tags/v5.15-rc3
     old: 0000000000000000000000000000000000000000
-    new: 4a6aa8a74250ff9cc7e3d55918d9f807fbf9f6ae
-  - ref: refs/tags/arm-soc-fixes-5.6
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
     old: 0000000000000000000000000000000000000000
-    new: e02f22b2b64fd9cedf650844b0722c77a11afbd7
-  - ref: refs/tags/arm-soc-fixes-5.7
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
     old: 0000000000000000000000000000000000000000
-    new: 3fd5aa6607b47c4d5e69643250853bdd4533ef5a
-  - ref: refs/tags/arm-soc-fixes-v5.10-1
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
     old: 0000000000000000000000000000000000000000
-    new: 7a55d04198cd3be0febeabae394fecdf9ebc151a
-  - ref: refs/tags/arm-soc-fixes-v5.10-2
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
     old: 0000000000000000000000000000000000000000
-    new: fb804e271ba9605b48090798b4b7cc39dcb5a2f7
-  - ref: refs/tags/arm-soc-fixes-v5.10-3
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
+  - ref: refs/tags/v5.16-rc1
     old: 0000000000000000000000000000000000000000
-    new: 51eb13e1749c12980b53c8f4900f4d0ae0a7df40
-  - ref: refs/tags/arm-soc-fixes-v5.10-4b
+    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+  - ref: refs/tags/v5.16-rc2
     old: 0000000000000000000000000000000000000000
-    new: eaac915af78fab869a36e6546718586bcfae67ac
-  - ref: refs/tags/arm-soc-fixes-v5.11-2
+    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/tags/v5.16-rc3
     old: 0000000000000000000000000000000000000000
-    new: b0bbb80bae37b3b1094a6478ed48d679561afb16
-  - ref: refs/tags/arm-soc-fixes-v5.11-3
+    new: e9966818ad676112345dca60e65d48ef2e686930
+  - ref: refs/tags/v5.16-rc4
     old: 0000000000000000000000000000000000000000
-    new: fefa7b30b56cadd60616c855b4d006b1a9b92948
-  - ref: refs/tags/arm-soc-fixes-v5.13-2
+    new: 06d124d85ce02d2993feda73742a71b78029ea3e
+  - ref: refs/tags/v5.16-rc5
     old: 0000000000000000000000000000000000000000
-    new: ba0934a87f3257ed37cc16ec38064043ac212932
-  - ref: refs/tags/arm-soc-omap-genpd-5.11
+    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
+  - ref: refs/tags/v5.16-rc6
     old: 0000000000000000000000000000000000000000
-    new: d7223146349f726f78f1167fcb1a493651f8db2b
-  - ref: refs/tags/arm-soc-v5.12
+    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
+  - ref: refs/tags/v5.16-rc7
     old: 0000000000000000000000000000000000000000
-    new: f598af9c4e9c28595f78de25b91f014508b477f2
-  - ref: refs/tags/armsoc-defconfig
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
+  - ref: refs/tags/v5.16-rc8
     old: 0000000000000000000000000000000000000000
-    new: cb75b4a6567a2f88c5151a1064ac67935f9b78cd
-  - ref: refs/tags/armsoc-drivers
+    new: da629478930871e4c9a51c56ad86078f10b83f9f
+  - ref: refs/tags/v5.6
     old: 0000000000000000000000000000000000000000
-    new: fe04f61ca0177dbf7e5abdd188d54617756bb527
-  - ref: refs/tags/armsoc-dt
+    new: 0ad2c0e5fc7bd5c5a60f88be1174271410254e32
+  - ref: refs/tags/v5.6-rc4
     old: 0000000000000000000000000000000000000000
-    new: 6c41310feca05298706d7639d65029dd509378ce
-  - ref: refs/tags/armsoc-fixes
+    new: 2d43e16f5cfa0628825a884f732e18b2e789262c
+  - ref: refs/tags/v5.6-rc5
     old: 0000000000000000000000000000000000000000
-    new: b4064f8133a9097e9469dd505acf8b5d215320f1
-  - ref: refs/tags/armsoc-fixes-5.0
+    new: f63824d61a49150788a0cc3f8376b48d717bed3e
+  - ref: refs/tags/v5.6-rc6
     old: 0000000000000000000000000000000000000000
-    new: d3c7455ee9ec4a60476d668dbd734bc205d3e910
-  - ref: refs/tags/armsoc-fixes-5.15
+    new: 5ec385dc02674cffa933f3f4ede6b060f085e273
+  - ref: refs/tags/v5.6-rc7
     old: 0000000000000000000000000000000000000000
-    new: a42440f6a964b6f5bcc23fde5f0f12d6b6844a99
-  - ref: refs/tags/armsoc-fixes-v5.7
+    new: 94a1322324e41cee460d20c465f712a4fe8f436a
+  - ref: refs/tags/v5.7
     old: 0000000000000000000000000000000000000000
-    new: cd2315232dc2e6c9c1b1a094302f279d64f219b3
-  - ref: refs/tags/armsoc-late
+    new: 6499c53216d11948deb2e39ccc9ca9824b8f38ab
+  - ref: refs/tags/v5.7-rc1
     old: 0000000000000000000000000000000000000000
-    new: c81d6194be8a9d588f3efff01a4de0ccb9060408
-  - ref: refs/tags/armsoc-newsoc
+    new: 424aeb7bac4af3be0964d0b578a385efb0b82930
+  - ref: refs/tags/v5.7-rc2
     old: 0000000000000000000000000000000000000000
-    new: b1b82ee118f756cb0a4c7a433fc596e344ea2c38
-  - ref: refs/tags/armsoc-soc
+    new: a288422dfe80c0cd6612c9057f64242c6e0b7511
+  - ref: refs/tags/v5.7-rc3
     old: 0000000000000000000000000000000000000000
-    new: 0d5a29743d0e509e5049e24d6dff2d537a054322
-  - ref: refs/tags/asm-generic-fixes-5.8
+    new: d0709bb6da2ab6d49b11643e98abdf79b1a2817f
+  - ref: refs/tags/v5.7-rc4
     old: 0000000000000000000000000000000000000000
-    new: 37bfd0000f75e2c8db24f5de477a59312ea14a30
-  - ref: refs/tags/defconfig-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 8153a9c0b39f0073946caca1e2bca94ad0f11b1b
-  - ref: refs/tags/defconfig-5.16
-    old: 0000000000000000000000000000000000000000
-    new: fed19b6f2c8c11d324501ed33aec7dd16f207064
-  - ref: refs/tags/drivers-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 5be7d308b7ffd4a520ae0fe5f7e3533a78a4ce6c
-  - ref: refs/tags/drivers-5.16
-    old: 0000000000000000000000000000000000000000
-    new: c6931550106c4bdcb0fbc16e66eb49e99a0bd06a
-  - ref: refs/tags/dt-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 5e50520eb35ffd1a5547aa7a0bffc90d71a586ef
-  - ref: refs/tags/dt-5.16
-    old: 0000000000000000000000000000000000000000
-    new: ffbd7e062154054de6d7bc3460d2678149f52a21
-  - ref: refs/tags/dt-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 924c8056ecdc58429ae3a3ee58ceab154109affb
-  - ref: refs/tags/soc-5.15
-    old: 0000000000000000000000000000000000000000
-    new: 955eb7ab575dae928c292e28b4afcfae403c9fbf
-  - ref: refs/tags/soc-5.16
-    old: 0000000000000000000000000000000000000000
-    new: f5505af12aad9d6623ec619313befd2288dd0952
-  - ref: refs/tags/soc-fixes-5.12
-    old: 0000000000000000000000000000000000000000
-    new: 5e7d8c44260c09ee33345d318f8364b2a2e8413e
-  - ref: refs/tags/soc-fixes-5.14-1
-    old: 0000000000000000000000000000000000000000
-    new: a0404bf037c72b04696d1fe7ddd65fa3fbf28966
-  - ref: refs/tags/soc-fixes-5.14-2
-    old: 0000000000000000000000000000000000000000
-    new: 082947e5a95d7a61d702389281df0137549bbd99
-  - ref: refs/tags/soc-fixes-5.14-3
-    old: 0000000000000000000000000000000000000000
-    new: ef43be724a78dd78de5a7177e1b066ef9772bd5b
-  - ref: refs/tags/soc-fixes-5.14-4
-    old: 0000000000000000000000000000000000000000
-    new: e67f52e990f74fd371e1f912edc78ec41b8c4b27
-  - ref: refs/tags/soc-fixes-5.16-3
-    old: 0000000000000000000000000000000000000000
-    new: 8d94381702fb32eaf2db726fed397a39336e5515
-  - ref: refs/tags/v5.16
-    old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
-
---===============2346213089525923537==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9e6606c7fe9-df0cc57e057f.txt
-
-51c7b6a0398f54b9120795796a4cff4fc9634f7d power: supply: core: Break capacity loop
-80211be1b9dec04cc2805d3d81e2091ecac289a1 power: bq25890: Enable continuous conversion for ADC at charging
-644106cdb89844be2496b21175b7c0c2e0fab381 power: reset: ltc2952: Fix use of floating point literals
-92c959bae2e54ba1e2540ba5f813f7752bd76be1 reset: renesas: Fix Runtime PM usage
-0706a78f31c4217ca144f630063ec9561a21548d Revert "xsk: Do not sleep in poll() when need_wakeup set"
-819d11507f6637731947836e6308f5966d64cf9d bpf, selftests: Fix spelling mistake "tained" -> "tainted"
-983d8e60f50806f90534cc5373d0ce867e5aaf79 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
-f34e8875ae244462711e31fcc4a82db13a16d36f dt-bindings: spi: cadence-quadspi: document "intel,socfpga-qspi"
-36de991e93908f7ad5c2a0eac9c4ecf8b723fa4a ARM: dts: socfpga: change qspi to "intel,socfpga-qspi"
-eaa090538e8d21801c6d5f94590c3799e6a528b5 drm/amd/pm: keep the BACO feature enabled for suspend
-9a45ac2320d0a6ae01880a30d4b86025fce4061b fbdev: fbmem: add a helper to determine if an aperture is used by a fw fb
-b95dc06af3e683d6b7ddbbae178b2b2a21ee8b2b drm/amdgpu: disable runpm if we are the primary adapter
-7a3429bace0e08d94c39245631ea6bc109dafa49 ipv4: Check attribute length for RTA_GATEWAY in multipath route
-664b9c4b7392ce723b013201843264bf95481ce5 ipv4: Check attribute length for RTA_FLOW in multipath route
-4619bcf91399f00a40885100fb61d594d8454033 ipv6: Check attribute length for RTA_GATEWAY in multipath route
-1ff15a710a862db1101b97810af14aedc835a86a ipv6: Check attribute length for RTA_GATEWAY when deleting multipath route
-8bda81a4d400cf8a72e554012f0d8c45e07a3904 lwtunnel: Validate RTA_ENCAP_TYPE attribute length
-4760abaac6844ebf87321403fbd36b72f8f1731a Merge branch 'mpr-len-checks' David Ahern says:
-0f1fe7b83ba0e47a7c57135420630e9f68e332a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-5e75d0b215b868337e7a193f28a543ec00e858b1 selftests: net: udpgro_fwd.sh: explicitly checking the available ping feature
-d6d86830705f173fca6087a3e67ceaf68db80523 net ticp:fix a kernel-infoleak in __tipc_sendmsg()
-938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
-ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
-c255a34e02efb1393d23ffb205ba1a11320aeffb net: ena: Fix undefined state when tx request id is out of bounds
-cb3d4f98f0b26eafa0b913ac3716e4714254a747 net: ena: Fix wrong rx request id by resetting device
-5055dc0348b8b7c168e3296044bccd724e1ae6cd net: ena: Fix error handling when calculating max IO queues number
-5b40d10b604280a5bdf355b9d47ed238c92233dd Merge branch 'ena-fixes'
-f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4 sctp: hold endpoint before calling cb in sctp_transport_lookup_process
-29262e1f773b4b6a43711120be564c57fca07cfb rndis_host: support Hytera digital radios
-1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4 net/fsl: Remove leftover definition in xgmac_mdio
-e5a7431f5a2d6dcff7d516ee9d178a3254b17b87 gpio: gpio-aspeed-sgpio: Fix wrong hwirq base in irq handler
-32e246b02f53b2fdaa81ea9f2ca6ff068c017fcb MAINTAINERS: update gpio-brcmstb maintainers
-e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
-95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
-46669e8616c649c71c4cfcd712fd3d107e771380 md/raid1: fix missing bitmap update w/o WriteMostly devices
-065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
-e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
-26bc4f019c105234639068703186c01efcabe91e Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.16
-fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
-e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
-222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
-d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
-3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
-7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
-68a18ad71378a56858141c4449e02a30c829763e mac80211: initialize variable have_higher_than_11mbit
-8b5cb7e41d9d77ffca036b0239177de123394a55 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
-8ff5f5d9d8cfce6a1e368a6daa7123be133a6c35 RDMA/rxe: Prevent double freeing rxe_map_set()
-6f89ecf10af1396ddc34c303ae1168a11f3f04a3 Merge tag 'mac80211-for-net-2022-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
-c370baa328022cbd46c59c821d1b467a97f047be EDAC/i10nm: Release mdev/mbase when failing to detect HBM
-754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
-3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
-40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
-e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
-b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
-1d5a474240407c38ca8c7484a656ee39f585399c sfc: The RX page_ring is optional
-b3c8e0de473e8c316ba32fa63c01e0ef497ed609 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-4163cb3d1980383220ad7043002b930995dcba33 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
-af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
-49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
-7694a7de22c53a312ea98960fcafc6ec62046531 RDMA/uverbs: Check for null return of kmalloc_array
-db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
-b35a0f4dd544eaa6162b6d2f13a2557a121ae5fd RDMA/core: Don't infoleak GRH fields
-75acfdb6fd922598a408a0d864486aeb167c1a97 Merge tag 'net-5.16-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0daf5cb217a9ca8ae91b8f966ddae322699fb71d ftrace/samples: Add missing prototypes direct functions
-823e670f7ed616d0ce993075c8afe0217885f79d tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
-f28439db470cca8b6b082239314e9fd10bd39034 tracing: Tag trace_percpu_buffer as a percpu pointer
-fde9ec3c1b3dd361bff62fc89d95d03df51a0648 Merge tag 'reset-fixes-for-v5.16-2' of git://git.pengutronix.de/pza/linux into arm/fixes
-8922bb6526ac4b20bd8de7f47d6e77808670f6c4 Merge tag 'socfpga_fix_for_v5.16_part_3' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-72a4a87da8f7bcf868b338615a814b6542f277f3 i2c: mpc: Avoid out of bounds memory access
-936a93775b7c4f2293f651f64c4139c82e19a164 Merge tag 'amd-drm-fixes-5.16-2021-12-31' of ssh://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-1756d7994ad85c2479af6ae5a9750b92324685af cgroup: Use open-time credentials for process migraton perm checks
-0d2b5955b36250a9428c832664f2079cbf723bec cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
-e57457641613fef0d147ede8bd6a3047df588b95 cgroup: Use open-time cgroup namespace for process migration perm checks
-b09c2baa56347ae65795350dfcc633dedb1c2970 selftests: cgroup: Make cg_create() use 0755 for permission instead of 0644
-613e040e4dc285367bff0f8f75ea59839bc10947 selftests: cgroup: Test open-time credential usage for migration checks
-bf35a7879f1dfb0d050fe779168bcf25c7de66f5 selftests: cgroup: Test open-time cgroup namespace usage for migration checks
-b2b436ec0205abde78ef8fd438758125ffbb0fec Merge tag 'trace-v5.16-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-ddec8ed2d4905d0967ce2ec432e440e582aa52c6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-597cb7968cb6243e915ba9599195656be14773e5 KVM: SEV: Mark nested locking of kvm->lock
-fffb5323780786c81ba005f8b8603d4a558aad28 KVM: x86: Check for rmaps allocation
-7a6043cc2e863ab45016622c30879e555523ee13 Merge tag 'drm-fixes-2022-01-07' of git://anongit.freedesktop.org/drm/drm
-24556728c305886b8bb05bf2ac7e20cf7db3e314 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-f06a82f9d31a87878a9295bac1defdadbc77bbc0 perf trace: Avoid early exit due to running SIGCHLD handler before it makes sense to
-dc9f2dd5de04d2bbcccbabdf5df9715c2ddcf25f Revert "libtraceevent: Increase libtraceevent logging when verbose"
-a19f75de73c220b4496d2aefb7a605dd032f7c01 Revert "i2c: core: support bus regulator controlling in adapter"
-494603e06b3c8c0b29086b72f0bc41abf102fe0d Merge tag 'edac_urgent_for_v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-35632d92ef2daf36f75ddcd68d322c8ba7ad383c Merge tag 'block-5.16-2022-01-07' of git://git.kernel.dk/linux-block
-d1587f7bfe9a0f97a75d42ac1489aeda551106bc Merge branch 'for-5.16-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-622e42a674641214034001767334893e2afaeba8 Merge tag 'xfs-5.16-fixes-4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-d445d649c7929ddafff319ad90e3e190722c685a Merge tag 'for-v5.16-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-21f35d2ca83e64603b9f543b537491d333b69c51 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-4634129ad9fdc89d10b597fc6f8f4336fb61e105 Merge tag 'soc-fixes-5.16-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-c8013355ead68dce152cf426686f8a5f80d88b40 ARM: dts: gpio-ranges property is now required
-cf73ed894ee939d6706d65e0cd186e4a64e3af6d Input: zinitix - make sure the IRQ is allocated before it gets enabled
-df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when calling hw_fini (v2)"
-9a12a5aa17741fe1d4204dc07abd4d6bd07d9b39 Merge tag 'perf-tools-fixes-for-v5.16-2022-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-95350123bb5568a7d95e3789225144bd1a154274 Merge tag 'soc-fixes-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-df0cc57e057f18e44dac8e6c18aba47ab53202f9 Linux 5.16
-
---===============2346213089525923537==--
+    new: 6142b53a0b14856e032da7f14178ae7b63b2a09d
+  - ref: refs/tags/v5.7-rc5
+    old: 0000000000000000000000000000000000000000
+    new: b80e93f86a3e9938c9c46c4456d0d6d83c07974e
+  - ref: refs/tags/v5.7-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 191ae8df7494029b5cc540b17fc4526e64ae7c38
+  - ref: refs/tags/v5.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: effde58ab3a6dc1211e9395066beba7e2c59d762
+  - ref: refs/tags/v5.8
+    old: 0000000000000000000000000000000000000000
+    new: 6ae53c863e5a0dd2621bb9ad6f94102fc1bb3376
+  - ref: refs/tags/v5.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 1eca23c384437f4208ccd940846c2920f69b731f
+  - ref: refs/tags/v5.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 770e1f41c77abae9307e63a70739ba1904b85044
+  - ref: refs/tags/v5.8-rc3
+    old: 0000000000000000000000000000000000000000
+    new: b47cc0b6f2e3c7bb58280670e8fe4b250066c8a1
+  - ref: refs/tags/v5.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 5d6c002b4f4bf2220e1bbf297571062c4deff969
+  - ref: refs/tags/v5.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 11a2b71ea939c343764c1acd733e10e455cb51e9
+  - ref: refs/tags/v5.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: e00a63f888eae9670eb3091a98e62a87caa64e1d
+  - ref: refs/tags/v5.8-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 629727c85a175b5dd28ce5fd9ae40ff3f5c0fcd6
+  - ref: refs/tags/v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 0ed79c602730cb0e73f78dcd503aca452f0d414b
+  - ref: refs/tags/v5.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2ce39e75455d7770efdf27acd4ff3346719cdfcd
+  - ref: refs/tags/v5.9-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a7b66aa9df187c132a48990f82665b9d23ef64d5
+  - ref: refs/tags/v5.9-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 02d49d0a468efe1cd14a85b15501daf9bb4143ea
+  - ref: refs/tags/v5.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 58c26e62f075825dc598345e31f0afbcb1da48ef
+  - ref: refs/tags/v5.9-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 43b10d5a9053d0111bb547ea09abe5e102355d06
+  - ref: refs/tags/v5.9-rc6
+    old: 0000000000000000000000000000000000000000
+    new: df38e3687160a8a22016c8e41b481de779945364
+  - ref: refs/tags/v5.9-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 050e12cdf1da07b944898cf2e27472c3e8d1d185
+  - ref: refs/tags/v5.9-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 11c2a51a0844833eee4356f86cf4555eafaf010b
