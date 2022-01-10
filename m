@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 10 Jan 2022 09:37:57 -0000
-Message-Id: <164180747771.29832.9569675278790528357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 10 Jan 2022 09:39:11 -0000
+Message-Id: <164180755177.8784.10412147635363807351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
-user: sre
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/tags/hsi-for-5.17
+  - ref: refs/heads/v5.17/fixes
     old: 0000000000000000000000000000000000000000
-    new: 21936b12ccdbb92bac143255df420216aca63b85
+    new: 3375aa77135f6aeb1107ed839a2050a4118444bc
