@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 10 Jan 2022 01:32:21 -0000
-Message-Id: <164177834129.24080.1897337012487447899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 10 Jan 2022 01:48:28 -0000
+Message-Id: <164177930886.613.15968820518124692321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 660d187887cf28bcd71e56008a71657811953189
-    new: 00f5117c5f785b95b13663e52dcdcf684a47d4e3
+  - ref: refs/heads/master
+    old: 8134b5063264b3711e477fd73e91fed5249cd196
+    new: 242db6ce976a75072a898db53e1f3b0f3667f0ba
     log: |
-         00f5117c5f785b95b13663e52dcdcf684a47d4e3 hwmon: (nzxt-smart2) make array detect_fans_report static const
+         242db6ce976a75072a898db53e1f3b0f3667f0ba libbpf: Fix possible NULL pointer dereference when destroying skeleton
          
