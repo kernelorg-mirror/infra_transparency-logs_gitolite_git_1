@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4544743275269733071=="
+Content-Type: multipart/mixed; boundary="===============6647856401097733214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Jan 2022 09:10:04 -0000
-Message-Id: <164180580401.10836.5460403947888823810@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 09:10:18 -0000
+Message-Id: <164180581852.10988.12308870228506680452@gitolite.kernel.org>
 
---===============4544743275269733071==
+--===============6647856401097733214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a751bd8de086600da0cc012daffcce7fe474cf5f
-    new: bfdef05c8da46b022172695aa493cff7ac667a4b
-  - ref: refs/heads/linux-4.19.y
-    old: e159be04c4d3e44598f90d60ccdab58c1fc0f82d
-    new: a94dc7407bf3aab53c9fd65d24065a43353a0dbe
   - ref: refs/heads/linux-4.4.y
-    old: 73006be3a625b225757ef55d02b5f5863bb9d794
-    new: 0dc4b955f01eae10c6923c86234ef9768137797f
-  - ref: refs/heads/linux-4.9.y
-    old: 4b4f2250060d9756a0b058c7537b77af86401c48
-    new: 710bf39c7aec32641ea63f6593db1df8c3e4a4d7
-  - ref: refs/heads/linux-5.10.y
-    old: 688a91bd716c1af5b66a5e9a0c32a5dac96a09a4
-    new: d3e491a20d152e5fba6c02a38916d63f982d98a5
-  - ref: refs/heads/linux-5.15.y
-    old: bcd1beea339ef989065276086e9b226806c50178
-    new: 734eb1fd2073f503f5c6b44f1c0d453ca6986b84
-  - ref: refs/heads/linux-5.4.y
-    old: 69f2e49eb2b00bd1b9bd021e2eae243da088c1f5
-    new: 047dedaa38ce703d3c6a6b0fae180c85a5220cdb
-  - ref: refs/heads/linux-5.16.y
-    old: 0000000000000000000000000000000000000000
-    new: df0cc57e057f18e44dac8e6c18aba47ab53202f9
+    old: 0dc4b955f01eae10c6923c86234ef9768137797f
+    new: 039b69cc9b1536ea691fb3f09f95f82e60cf96db
+    log: revlist-0dc4b955f01e-039b69cc9b15.txt
 
---===============4544743275269733071==
+--===============6647856401097733214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641805802 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1641805802-8742679e71a03efa038cbad7ba187a847222c324
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641805817 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1641805816-54d7fb4738047a2d6d480397c9c11909e12150c7
 
-a751bd8de086600da0cc012daffcce7fe474cf5f bfdef05c8da46b022172695aa493cff7ac667a4b refs/heads/linux-4.14.y
-e159be04c4d3e44598f90d60ccdab58c1fc0f82d a94dc7407bf3aab53c9fd65d24065a43353a0dbe refs/heads/linux-4.19.y
-73006be3a625b225757ef55d02b5f5863bb9d794 0dc4b955f01eae10c6923c86234ef9768137797f refs/heads/linux-4.4.y
-4b4f2250060d9756a0b058c7537b77af86401c48 710bf39c7aec32641ea63f6593db1df8c3e4a4d7 refs/heads/linux-4.9.y
-688a91bd716c1af5b66a5e9a0c32a5dac96a09a4 d3e491a20d152e5fba6c02a38916d63f982d98a5 refs/heads/linux-5.10.y
-bcd1beea339ef989065276086e9b226806c50178 734eb1fd2073f503f5c6b44f1c0d453ca6986b84 refs/heads/linux-5.15.y
-69f2e49eb2b00bd1b9bd021e2eae243da088c1f5 047dedaa38ce703d3c6a6b0fae180c85a5220cdb refs/heads/linux-5.4.y
-0000000000000000000000000000000000000000 df0cc57e057f18e44dac8e6c18aba47ab53202f9 refs/heads/linux-5.16.y
+0dc4b955f01eae10c6923c86234ef9768137797f 039b69cc9b1536ea691fb3f09f95f82e60cf96db refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb9+obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3cgP/1cekl5xY9nXNF2ZVDXd
-FYiDVqjRkVH1leb5LABwvYqNNAJE1dXqsIrNsqe/SUjaeHwdO82LMGo4ZHS+1TON
-GWxsMZzrgJSe40V34ZP/qMm85I9tr8rm2Nbj8zlTZfu9NFKdcgTxR7zXuZLDWJNy
-YTbResHZ3LoOnnW91QUCq60aY++nrSVwy1WxOxErKs44QVFhsrZ1JwtFP+1Pi7sy
-gvO/SBxVDovilT2h5eIskL/BNom8YzqE6IVCMagntCWSHM1PQ2d/6Vm8sAT5fck4
-lzmmz2a4TXKFnfE8g16qQjbPgAa6B0XVzU/iwtn4Rv0/nAndyV9NJNJgweqrpSAJ
-m9Fp5h5g7o7DoX/4Uz5o0bOUdRVoxqnYTh7mHYAaWSUsTsHHMBAvl47XLKypW/rn
-a192hNflm9Wj+OkiRHuX5nr8RZNFuJHyXZDWEcOE7Z/myrQslidHPQz+6YH2R6BU
-rHC9Mg978RLLsxiRozzAFrvkRkiNFmuvgZWiqoLdtfLUmVBPyKUNsZ7lm4Vv/ZRd
-dPpEnHiPb4i3BtbGxou/k2MaIiH2jT1r+nkoSuEcR0bODL2qVb96lqCDGp6qnnUf
-03B8Cw1ZhNEFExdaWTChDYXKpzNh9AVG2TiGXNLNboDmPwv1AXmq1qXGZMFz3zBW
-5iJOuvvXMLzMDl8P2cVELAXl
-=sGQ1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb9/kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pLIP/iTmAQ0+fBdxW4aIAYAh
+awC5NKU2TbV5iTn0gUXlHN2dy3rsZw5HuJTG2WoHojxZcIQkyplMMLs3Vq3vvSNl
+XhDyXpbYEezFqCDXIz9KRPdASdtDsJtczgH1deN/XZn94YWPRsdzPUvgXVnMyCz0
+kRuYWWPQ0o8wohZ/1zc+KQ+5TsOJA1YjziIsh/EXTBXUPs9nKBkzEZfcSYbSFt+P
+2dtHTmW8gmgIgxkzsLwMq6mDLkx8YzwS66KbZWuF6SkS47rPeL8Y4ltrnwjmVCv8
+SJiG9rM14x0WowBWIZsWSKR72IF0X9Zui/r5vf5QL/QPLzTtuQWUQ1fk6kiEq5Vd
+L5TGyBPsPka/6WegE4Rzc4JWUkByzQNpLcwd18ibXzawjhHDaMfcYwG9OA/063if
+5drQJWSAIy1lBvh2kpPPj9G8DsTs36ZvHYJpnIL21EwLUAf9PLHFiZB1cpoxyNp6
+BDNmQimQrow0KlepoTj9qqC9r7vkynzpM5Uy5acHfOqcuArdA0t3YOoOAjt147ky
+92aLICbXNlv4tIi5toyhRTFoqNbNf7Gs2Lu0/ExDjacIQFHXDt2hAbdmdPnunxK0
+WwPbhlWnLfI7ITmOywABrbqgKiw80AitkQwg6vOXx7JwL9XYOUtqpeOWNyLgL1JO
+YjqrPsLqaNhRBTLIE1xi02r7
+=ASUj
 -----END PGP SIGNATURE-----
 
---===============4544743275269733071==--
+--===============6647856401097733214==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0dc4b955f01e-039b69cc9b15.txt
+
+aba7c3810bb22c27378ee2e28d9928b9561eaa2d bpf, test: fix ld_abs + vlan push/pop stress test
+17722a6f47b94a3e716f76611315bd69b6e3685c Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+1da0b97c58f60349d1a8e1c1cfeed43dbb6b7c38 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+b7149028204be8f03611c60afa3b4367bf3d16c9 mac80211: initialize variable have_higher_than_11mbit
+84d8f7f569ad8480d165b69ba67f31820c87dc15 i40e: Fix incorrect netdev's real number of RX/TX queues
+929f21360f1965d9c178718785f72184656e1822 sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+378519d62bbc7e59b3258677418674acead8ff06 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
+67493d0f8d33e557d3c34390baf79bdc0e825df0 rndis_host: support Hytera digital radios
+6efc4c8367526410d95eeca90be8ecbebf681e9d phonet: refcount leak in pep_sock_accep
+e372f87edf8e84b27a6a44249613c865203ce659 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+4306fca589b6700820752d75fcf9a5d08fdb54f8 ip6_vti: initialize __ip6_tnl_parm struct in vti6_siocdevprivate
+795af48395505846492c88d2a2a8491eb3d14887 net: udp: fix alignment problem in udp4_seq_show()
+031dc97289e8ba6f7a02265982521b9df528ccc9 mISDN: change function names to avoid conflicts
+3ff6f6c5b212d71e9275695232ab72800e95469f power: reset: ltc2952: Fix use of floating point literals
+039b69cc9b1536ea691fb3f09f95f82e60cf96db Linux 4.4.299-rc1
+
+--===============6647856401097733214==--
