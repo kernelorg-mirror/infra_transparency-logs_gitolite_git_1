@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Mon, 10 Jan 2022 22:15:08 -0000
-Message-Id: <164185290806.10128.10249714729154251909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 10 Jan 2022 22:28:16 -0000
+Message-Id: <164185369674.18054.5431391949026629279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/tags/ext4_for_linus
+  - ref: refs/heads/clk-mediatek
     old: 0000000000000000000000000000000000000000
-    new: 5c7bc647209c2a88b27ec6960ee8c19fb668501b
+    new: ec97d23c8e22c96e8c9cad7d3f93d593abfc8b06
