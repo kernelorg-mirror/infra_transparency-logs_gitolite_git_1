@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4682629253537643660=="
+Content-Type: multipart/mixed; boundary="===============4876966145822968065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 10 Jan 2022 10:17:01 -0000
-Message-Id: <164180982130.2631.2019376149393424240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 10 Jan 2022 10:17:03 -0000
+Message-Id: <164180982364.2713.2210679874390450229@gitolite.kernel.org>
 
---===============4682629253537643660==
+--===============4876966145822968065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: df0cc57e057f18e44dac8e6c18aba47ab53202f9
     log: revlist-fa55b7dcdc43-df0cc57e057f.txt
 
---===============4682629253537643660==
+--===============4876966145822968065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when
 e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 df0cc57e057f18e44dac8e6c18aba47ab53202f9 Linux 5.16
 
---===============4682629253537643660==--
+--===============4876966145822968065==--
