@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7934355573220516856=="
+Content-Type: multipart/mixed; boundary="===============6056446594268505112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 10 Jan 2022 07:17:34 -0000
-Message-Id: <164179905439.4142.14643089635829986960@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 07:17:36 -0000
+Message-Id: <164179905678.4224.7224019811676681480@gitolite.kernel.org>
 
---===============7934355573220516856==
+--===============6056446594268505112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,68 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: 0dc4b955f01eae10c6923c86234ef9768137797f
-    new: 8cc122bc58de6d7b4afb710bf65d44dd45ff5eff
-    log: revlist-0dc4b955f01e-8cc122bc58de.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 710bf39c7aec32641ea63f6593db1df8c3e4a4d7
+    new: 6e217fbf45cc7cc2e773dc3f2e481603c926e565
+    log: revlist-710bf39c7aec-6e217fbf45cc.txt
 
---===============7934355573220516856==
+--===============6056446594268505112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641799053 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641799055 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1641799051-5dbaa747e6219e3b665bbf767caad2b449583542
+nonce 1641799053-63d06dfc877ed622230ed695c334343992fce22f
 
-0dc4b955f01eae10c6923c86234ef9768137797f 8cc122bc58de6d7b4afb710bf65d44dd45ff5eff refs/heads/linux-4.4.y
+710bf39c7aec32641ea63f6593db1df8c3e4a4d7 6e217fbf45cc7cc2e773dc3f2e481603c926e565 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb3Y0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KRkP/iFPEeKzVguWJqUV3EjS
-Yyu9w7/GESz13zld0WWI3dsTOJbP4ckPd/z8G0OslUfph1pjxoFE09GblAdgAKMt
-tf18T3Hu7BfaC4zPgJ1soyWpT4VAwAIKH6syyxej+QNIAhUH2MTjuzMWg0JJEyQd
-OEeqcI7lSMOUTtdI4XRPD1w25crd9eV7D3vhwemsui99E1Jw8ooB1/1sjURGdF7q
-Tg7h7mUjaZW+kchmSTUpkWNWPfeLjworea9DGX745QQJmd9NMz5ywdQG5vkkYyes
-wnpA485r6AjDh0v5yzCuADozTNR4Y2hWUtBXPhMRP7AGWtbV77yQoe17ZXOyYmHp
-UENslzop30C19AwYeGAOQyvl6dMO+9SD70xR8+eBaqgem0vb/R4JKZ8Zwb3xOzFZ
-VArnsib0ph4X+GoIzL9ULZCccjwVS1qssw2dQoQqsrRalhtZNb4oK/VWT8mlViTA
-rpa3GAtAYJurDVXRp+kBl0b4OHef6NW9xxzH07Ici0QdEAfYv8SZdqxXM6LviIuC
-oRY34mVV7/TIW5x0CZodW2iECJzB1mDZLuppO1yRUFEFLMOZMCE2NW5ddoK/Ov5z
-SL9tjePAxWVzhc+o89UPSN2JX4hazeyDcTFkL68Lby8KvLcppvBAC1pQvyFbhjal
-IYjKMdE/pUXjbWaQPlxiJ6KN
-=yadp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHb3Y8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eOAP/jrHkyw0HfyXPAjQ2RDE
+Qh+xMk/TpTQQGjNNbPhzLAQD1ve/jrXQERc2XUoy1hROTvB6Oj84Pl2dAWB1p1oE
+hs2Erx7D+mjp4ZpudnNr7LktHGSp1OPe5MTj5by+464FsVhuYNBYrb3opl8oSpaL
+9Ysz8AYDjcrzc6GkbUlwIEvR5+uM0Q+Rfru4jOSK7L388VKgSG0aaadOLDXeN2aU
+zZJDFtyPFRANeOw7f7FR4acW3l3rLH5MyJch3m/UHdmp0tnj4k8wcZVoVEGNUWZ9
+d29CIJSpPH5R01aFIFrdlyFDM4bF2abZUufDWQlBMf71Et0zgPrBxu43XEUg88iv
+kBOAyZ8tGXtaVz6gsTxmSuqKfOf18T9Mbv6TE/gMKhsoZNE/2VuSuYyMHEbvoC22
+oCf3Bdx1yO1XXndRfNnl6VreDZTFoG5cr9zvV5wqq4fs4+Vit5V733bB9Uuq2Lfq
+pV4ufHCh8/v8iSm+YO+oYNx2JoKXiw2ML6yrt2ScvN3SxCWjKgD0SJpFQAJTdIhR
+iGqUaulWA5pxh5uHMxZZCMIboIcU+7JEQZ1dNjZU+Ds7Y0Bc80oQN0XGnziJVgvu
++sDgCmh1eELyuB+TFkm3ZMhDFVH9z/nL0yqUDZjDnUWb4U0cLvwSnxy009b/pRxp
+4Mf6ERjH4wUpb6QiO8lyF6rw
+=0yR3
 -----END PGP SIGNATURE-----
 
---===============7934355573220516856==
+--===============6056446594268505112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dc4b955f01e-8cc122bc58de.txt
+Content-Disposition: attachment; filename=revlist-710bf39c7aec-6e217fbf45cc.txt
 
-74c5636b4895db3e87061df1854b78cef491bb5b bpf, test: fix ld_abs + vlan push/pop stress test
-b34c14c3c15273253a751e873f516823ee4e0ba1 Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
-d7e3f60c3a7d5fe5dca849ae29938ab50d2f02dd ieee802154: atusb: fix uninit value in atusb_set_extended_addr
-bd6527ece38e9e6f3dc5e01ce40a4c2f71850e6f mac80211: initialize variable have_higher_than_11mbit
-7e4f1da27dde087de2a41ac09d2e13180293fc37 i40e: Fix incorrect netdev's real number of RX/TX queues
-37bee74ae463788a518bcf4fb46670928b0fcaa0 sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
-0be26a3f2adf58370877b2a890cd84f853ed27b2 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
-57d84ed9c89e5ea9b540338879bffb6943c65f46 rndis_host: support Hytera digital radios
-6972f9b1b7e070f63341770d6d7f8653c349e450 phonet: refcount leak in pep_sock_accep
-5034fabb302e5d0d2715d68f675577867c6bf921 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
-69c856072f26b499208315e45488ec9ba5466cc4 ip6_vti: initialize __ip6_tnl_parm struct in vti6_siocdevprivate
-85bc345269563ab3be9e9463bde2c581f4709ee3 net: udp: fix alignment problem in udp4_seq_show()
-85b90d4ce81c3c0a84df8153d5f83db04947ab28 mISDN: change function names to avoid conflicts
-ea1fff12e028e2727d54df1446218acfd9a9c7a8 power: reset: ltc2952: Fix use of floating point literals
-8cc122bc58de6d7b4afb710bf65d44dd45ff5eff Linux 4.4.299-rc1
+0f727dfde3689e1219e01f804943fdcf0cb2d05c Bluetooth: btusb: Apply QCA Rome patches for some ATH3012 models
+00360ef8ec59ef400b518814274ab75171f4246c tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
+e52607cc3afb240ba02047f20999b5f92ed9d995 tracing: Tag trace_percpu_buffer as a percpu pointer
+e5d896c7b2ee8fd375f21f9486b2bc14b921bba0 virtio_pci: Support surprise removal of virtio pci device
+1c1d0401fe1ac8fc23f274b9c4ebc597e454d7e4 ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+90c2599844d742e2cdb8c7fdda231a49562d2068 mac80211: initialize variable have_higher_than_11mbit
+00edd0e5ee0396c0daf4ff55eb9e97733cc62039 i40e: Fix incorrect netdev's real number of RX/TX queues
+78eca961d2ca99118ac39e80d5df2d5ac03be7c0 sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+29e9a31f22faa0ec0ab489e50215fe975494e1b7 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
+c31c08751e6851f2c38b6b8999d526941500816b rndis_host: support Hytera digital radios
+110a723af031c736660622f4bd64e969ac9e6ddf bug: split BUILD_BUG stuff out into <linux/build_bug.h>
+f5c5252282710d12ea9e37b89d11acd7fae37bf9 arm64: Remove a redundancy in sysreg.h
+e853c59d4e4c505ef6a04ffd095593975584b4bc arm64: reduce el2_setup branching
+eae6d403d2977edd8b3f0b2ee4dd01d4667fef55 arm64: move !VHE work to end of el2_setup
+7124d8c511a12deea9be6320d542e09912d065cc arm64: sysreg: Move to use definitions for all the SCTLR bits
+7c091cdeec923cce2536e3e92223e2010976b3e9 phonet: refcount leak in pep_sock_accep
+fb703c776cb922df643067189f4d8dfac6182d05 scsi: libiscsi: Fix UAF in iscsi_conn_get_param()/iscsi_conn_teardown()
+5d2e5b9b7717f807f4edacef40c932babfd86da8 ip6_vti: initialize __ip6_tnl_parm struct in vti6_siocdevprivate
+fc6d6f9e244104df6a307d682e979c2408238424 net: udp: fix alignment problem in udp4_seq_show()
+17e02014a6d99163515723f446f6eb9cbd3cff1e mISDN: change function names to avoid conflicts
+ea7560b3e7ff655bcfd7060e57f04a6676cd075c power: reset: ltc2952: Fix use of floating point literals
+6e217fbf45cc7cc2e773dc3f2e481603c926e565 Linux 4.9.297-rc1
 
---===============7934355573220516856==--
+--===============6056446594268505112==--
