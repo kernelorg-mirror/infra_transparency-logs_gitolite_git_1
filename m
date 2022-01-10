@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8863196650784509628=="
+Content-Type: multipart/mixed; boundary="===============6402237636487154114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 10 Jan 2022 18:37:47 -0000
-Message-Id: <164183986796.30744.638063883284503939@gitolite.kernel.org>
+Date: Mon, 10 Jan 2022 18:37:52 -0000
+Message-Id: <164183987268.30815.14209777509166160766@gitolite.kernel.org>
 
---===============8863196650784509628==
+--===============6402237636487154114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/arm-vmap-stacks-for-v5.18
-    old: 49033034031041091a25eba2b951b468b03a56bd
+  - ref: refs/heads/for-kernelci
+    old: 8d5b3e46fa127ad8505a46f894e0ddfa2a6bf292
     new: cd82faad8426b12e621542f45ad697746d903079
-    log: revlist-490330340310-cd82faad8426.txt
+    log: revlist-8d5b3e46fa12-cd82faad8426.txt
 
---===============8863196650784509628==
+--===============6402237636487154114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-490330340310-cd82faad8426.txt
+Content-Disposition: attachment; filename=revlist-8d5b3e46fa12-cd82faad8426.txt
 
 6eac2ae360a5df047cac5728d0a88e58cfce132d ARM: riscpc: drop support for IOMD_IRQREQC/IOMD_IRQREQD IRQ groups
 446bf1717b389cef454cd26653e7d9758b8c98df ARM: riscpc: use GENERIC_IRQ_MULTI_HANDLER
@@ -58,4 +58,4 @@ cc2ccae8ef9101c0151dce99dba707ee504adc6d ARM: unwind: disregard unwind info befo
 a00ae8f668f2d04a0904856c33a6474397ea62d3 ARM: mm: prepare vmalloc_seq handling for use under SMP
 cd82faad8426b12e621542f45ad697746d903079 ARM: implement support for vmap'ed stacks
 
---===============8863196650784509628==--
+--===============6402237636487154114==--
