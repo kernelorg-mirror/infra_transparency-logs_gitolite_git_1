@@ -1,88 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Mon, 10 Jan 2022 21:04:01 -0000
-Message-Id: <164184864134.28980.1851558637097747853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Mon, 10 Jan 2022 21:04:38 -0000
+Message-Id: <164184867892.29270.7542979597694465458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/next
-    old: ab9f51a29ca84cfcecc2d18574794b650ce4bb28
-    new: a882b5712373171d3bd53cd82ddab4453ddef468
-    log: |
-         847e9bc974b5734f3ae6eb677e2ad65a0f80c7ad Revert "virtio-pci: add support for configure interrupt"
-         99478e5941df06e2de9016e63064d8b8681ceb81 Revert "virtio-mmio: add support for configure interrupt"
-         b3ef6664b7f1222e708f72685270d8663ae1625c Revert "virtio-net: add support for configure interrupt"
-         a86d1a0a938793883477b30af48d4d1939199358 Revert "vhost: add support for configure interrupt"
-         81c3ebc32f6bbf00de916c43b070ccda0c8dbc9a Revert "virtio: add support for configure interrupt"
-         73bd56abe1709352ab123952c96cc3255d0cbeff Revert "vhost-vdpa: add support for config interrupt"
-         98b34e030e39969300952e97d873d8553dcf650f Revert "vhost: introduce new VhostOps vhost_set_config_call"
-         38ce405198827d9b4807af54836238b55cb1c21e Revert "virtio-pci: decouple the single vector from the interrupt process"
-         a20fa00ce1baa69b29276fa9fab1cdf5235c7ec6 Revert "virtio-pci: decouple notifier from interrupt process"
-         a882b5712373171d3bd53cd82ddab4453ddef468 Revert "virtio: introduce macro IRTIO_CONFIG_IRQ_IDX"
-         
-  - ref: refs/heads/pci
-    old: ab9f51a29ca84cfcecc2d18574794b650ce4bb28
-    new: a882b5712373171d3bd53cd82ddab4453ddef468
-    log: |
-         847e9bc974b5734f3ae6eb677e2ad65a0f80c7ad Revert "virtio-pci: add support for configure interrupt"
-         99478e5941df06e2de9016e63064d8b8681ceb81 Revert "virtio-mmio: add support for configure interrupt"
-         b3ef6664b7f1222e708f72685270d8663ae1625c Revert "virtio-net: add support for configure interrupt"
-         a86d1a0a938793883477b30af48d4d1939199358 Revert "vhost: add support for configure interrupt"
-         81c3ebc32f6bbf00de916c43b070ccda0c8dbc9a Revert "virtio: add support for configure interrupt"
-         73bd56abe1709352ab123952c96cc3255d0cbeff Revert "vhost-vdpa: add support for config interrupt"
-         98b34e030e39969300952e97d873d8553dcf650f Revert "vhost: introduce new VhostOps vhost_set_config_call"
-         38ce405198827d9b4807af54836238b55cb1c21e Revert "virtio-pci: decouple the single vector from the interrupt process"
-         a20fa00ce1baa69b29276fa9fab1cdf5235c7ec6 Revert "virtio-pci: decouple notifier from interrupt process"
-         a882b5712373171d3bd53cd82ddab4453ddef468 Revert "virtio: introduce macro IRTIO_CONFIG_IRQ_IDX"
-         
-  - ref: refs/tags/for_autotest
-    old: b2c3179c83b831954ad2d5a9c2ec2a5977f01eef
-    new: 1ec6d2a29a72ff81fffce3c542e4c2127e37ec93
-    log: |
-         847e9bc974b5734f3ae6eb677e2ad65a0f80c7ad Revert "virtio-pci: add support for configure interrupt"
-         99478e5941df06e2de9016e63064d8b8681ceb81 Revert "virtio-mmio: add support for configure interrupt"
-         b3ef6664b7f1222e708f72685270d8663ae1625c Revert "virtio-net: add support for configure interrupt"
-         a86d1a0a938793883477b30af48d4d1939199358 Revert "vhost: add support for configure interrupt"
-         81c3ebc32f6bbf00de916c43b070ccda0c8dbc9a Revert "virtio: add support for configure interrupt"
-         73bd56abe1709352ab123952c96cc3255d0cbeff Revert "vhost-vdpa: add support for config interrupt"
-         98b34e030e39969300952e97d873d8553dcf650f Revert "vhost: introduce new VhostOps vhost_set_config_call"
-         38ce405198827d9b4807af54836238b55cb1c21e Revert "virtio-pci: decouple the single vector from the interrupt process"
-         a20fa00ce1baa69b29276fa9fab1cdf5235c7ec6 Revert "virtio-pci: decouple notifier from interrupt process"
-         a882b5712373171d3bd53cd82ddab4453ddef468 Revert "virtio: introduce macro IRTIO_CONFIG_IRQ_IDX"
-         
-  - ref: refs/tags/for_autotest_next
-    old: b2c3179c83b831954ad2d5a9c2ec2a5977f01eef
-    new: 1ec6d2a29a72ff81fffce3c542e4c2127e37ec93
-    log: |
-         847e9bc974b5734f3ae6eb677e2ad65a0f80c7ad Revert "virtio-pci: add support for configure interrupt"
-         99478e5941df06e2de9016e63064d8b8681ceb81 Revert "virtio-mmio: add support for configure interrupt"
-         b3ef6664b7f1222e708f72685270d8663ae1625c Revert "virtio-net: add support for configure interrupt"
-         a86d1a0a938793883477b30af48d4d1939199358 Revert "vhost: add support for configure interrupt"
-         81c3ebc32f6bbf00de916c43b070ccda0c8dbc9a Revert "virtio: add support for configure interrupt"
-         73bd56abe1709352ab123952c96cc3255d0cbeff Revert "vhost-vdpa: add support for config interrupt"
-         98b34e030e39969300952e97d873d8553dcf650f Revert "vhost: introduce new VhostOps vhost_set_config_call"
-         38ce405198827d9b4807af54836238b55cb1c21e Revert "virtio-pci: decouple the single vector from the interrupt process"
-         a20fa00ce1baa69b29276fa9fab1cdf5235c7ec6 Revert "virtio-pci: decouple notifier from interrupt process"
-         a882b5712373171d3bd53cd82ddab4453ddef468 Revert "virtio: introduce macro IRTIO_CONFIG_IRQ_IDX"
-         
-  - ref: refs/tags/for_upstream
-    old: b2c3179c83b831954ad2d5a9c2ec2a5977f01eef
-    new: 1ec6d2a29a72ff81fffce3c542e4c2127e37ec93
-    log: |
-         847e9bc974b5734f3ae6eb677e2ad65a0f80c7ad Revert "virtio-pci: add support for configure interrupt"
-         99478e5941df06e2de9016e63064d8b8681ceb81 Revert "virtio-mmio: add support for configure interrupt"
-         b3ef6664b7f1222e708f72685270d8663ae1625c Revert "virtio-net: add support for configure interrupt"
-         a86d1a0a938793883477b30af48d4d1939199358 Revert "vhost: add support for configure interrupt"
-         81c3ebc32f6bbf00de916c43b070ccda0c8dbc9a Revert "virtio: add support for configure interrupt"
-         73bd56abe1709352ab123952c96cc3255d0cbeff Revert "vhost-vdpa: add support for config interrupt"
-         98b34e030e39969300952e97d873d8553dcf650f Revert "vhost: introduce new VhostOps vhost_set_config_call"
-         38ce405198827d9b4807af54836238b55cb1c21e Revert "virtio-pci: decouple the single vector from the interrupt process"
-         a20fa00ce1baa69b29276fa9fab1cdf5235c7ec6 Revert "virtio-pci: decouple notifier from interrupt process"
-         a882b5712373171d3bd53cd82ddab4453ddef468 Revert "virtio: introduce macro IRTIO_CONFIG_IRQ_IDX"
-         
+  - ref: refs/tags/dlm-5.17
+    old: 0000000000000000000000000000000000000000
+    new: 718fbd3aec276fb6a3bb214b52b37ea22f4b7351
+  - ref: refs/tags/v5.14
+    old: 0000000000000000000000000000000000000000
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+  - ref: refs/tags/v5.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 53371b959e5823998cd617e74b585e7d328f5840
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/tags/v5.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
