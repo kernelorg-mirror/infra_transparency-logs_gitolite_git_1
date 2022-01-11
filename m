@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 11 Jan 2022 11:52:35 -0000
-Message-Id: <164190195574.19049.2796667582907370115@gitolite.kernel.org>
+Date: Tue, 11 Jan 2022 11:53:21 -0000
+Message-Id: <164190200125.19337.6702643352848593095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 13fc9c285a399932f5a6205b827cf690b4a3c29b
-    new: 80b165d2a69d8fafedea72e95059cd336048a489
+    old: 80b165d2a69d8fafedea72e95059cd336048a489
+    new: 13dca280f76009ba2c5f25408543a1aaaa062c25
     log: |
-         76e8373e07753ebe406f314894f6eae9f8493dfe iwlwifi: add new FWs from core63-136 release
-         80b165d2a69d8fafedea72e95059cd336048a489 Merge tag 'iwlwifi-fw-2022-01-11' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware into main
+         13dca280f76009ba2c5f25408543a1aaaa062c25 linux-firmware: update firmware for MT7915
          
