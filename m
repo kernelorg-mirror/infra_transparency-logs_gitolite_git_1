@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/tuna/tuna
-Date: Tue, 11 Jan 2022 22:05:18 -0000
-Message-Id: <164193871866.8011.13124062576830571637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 11 Jan 2022 22:19:31 -0000
+Message-Id: <164193957141.15064.8242139315106608153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/tuna/tuna
-user: jkacur
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ac5de6bb057b2c4edfa8b1c14bcdb9e3d295a055
-    new: 7684169d22af5379d2f466730c450afc92e80da8
+  - ref: refs/heads/dev-queue
+    old: 655cdc82511b8c54f92c40f64949374b9cdce99e
+    new: 61a0b1ca2485ddfe549cde9eccd93b06b53188e8
     log: |
-         7684169d22af5379d2f466730c450afc92e80da8 tuna: Fix ModuleNotFoundError
+         61a0b1ca2485ddfe549cde9eccd93b06b53188e8 iavf: Add support for 50G/100G in AIM algorithm
          
