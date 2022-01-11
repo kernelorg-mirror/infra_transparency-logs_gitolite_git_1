@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 11 Jan 2022 15:12:49 -0000
-Message-Id: <164191396912.5062.8256396719155819822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Tue, 11 Jan 2022 15:17:56 -0000
+Message-Id: <164191427669.8391.15645619266655657460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 1ebbb1a11e4f2839134c5ea4363d9593f6fee2a2
-    new: 967c95829f483ef885cc10b4f3a25a6a6e013245
+  - ref: refs/heads/mips-next
+    old: c5c7440fe7f74645940d5c9e2c49cd7efb706a4f
+    new: d3115128bdafb62628ab41861a4f06f6d02ac320
     log: |
-         967c95829f483ef885cc10b4f3a25a6a6e013245 scan: fix double space
+         145790e55d82e30182f48b0b94149ba41e3aabcc dt-bindings: PCI: Add compatible string for Brcmstb 74[23]5 MIPs SOCs
+         6fffb01e3b78ba3a38baf49c1dc7eeb5edfd5818 MIPS: bmips: Add support PCIe controller device nodes
+         d552ddeaab4a15a8dc157ac007833aa0b3706862 MIPS: bmips: Remove obsolete DMA mapping support
+         aa8589aac8e335e5e2e9a9de72a53913892e92f9 PCI: brcmstb: Augment driver for MIPs SOCs
+         d3115128bdafb62628ab41861a4f06f6d02ac320 MIPS: ath79: drop _machine_restart again
          
