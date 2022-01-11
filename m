@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 11 Jan 2022 17:28:03 -0000
-Message-Id: <164192208344.27657.15799747067804201230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 11 Jan 2022 17:30:50 -0000
+Message-Id: <164192225057.29951.13146761699623254814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 869c70609248102f3a2e95a39b6233ff6ea2c932
-    new: b0fd4b1bf995172b9efcee23600d4f69571c321c
-    log: |
-         b0fd4b1bf995172b9efcee23600d4f69571c321c riscv: mm: fix wrong phys_ram_base value for RV64
-         
+  - ref: refs/tags/locking_core_for_v5.17_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 48d5dcc6724044cb6c5dcad6d486cd27385fe3e6
