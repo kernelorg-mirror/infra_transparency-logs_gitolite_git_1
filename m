@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2362269486391229070=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 11 Jan 2022 12:38:10 -0000
-Message-Id: <164190469055.14714.17877597878794213733@gitolite.kernel.org>
-
---===============2362269486391229070==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Tue, 11 Jan 2022 12:38:23 -0000
+Message-Id: <164190470335.14861.2934021206111730553@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 4f10998f5cfaeffd8ebc9b967d1084b5228ede45
-    new: 16c7d8f0332fd3b030f7ef9826f33d3db31f2350
+  - ref: refs/heads/cleanup
+    old: 12650af9273c499ffd5dda532780f8f350e96fd8
+    new: 1ec594ccaecefbdc16fb6cfb1f77ec9fb4631d73
     log: |
-         16c7d8f0332fd3b030f7ef9826f33d3db31f2350 Notes added by 'git notes add'
+         46c8793464b2a9e2f6cb3c7c45a0b00a24896942 Announce boot-wrapper mode / exception level
+         3b3820d62248f6576aee0faa7c264da21504c1b8 aarch64: move the bulk of EL3 initialization to C
+         80014fdc6b4fc413eb23afaf98986d8563bffc27 aarch32: move the bulk of Secure PL1 initialization to C
+         db395458e4420887fa38875d6dea4af4ea98308d Announce locations of memory objects
+         43eae627662abab8a09bdaf4df47ac505136f890 Rework bootmethod initialization
+         1ec594ccaecefbdc16fb6cfb1f77ec9fb4631d73 Unify start_el3 & start_no_el3
          
-
---===============2362269486391229070==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641904689 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1641904688-610c948989271abae5a8bec078db25e6afcfc30d
-
-4f10998f5cfaeffd8ebc9b967d1084b5228ede45 16c7d8f0332fd3b030f7ef9826f33d3db31f2350 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHdejEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IckP/jZEzOmrcZlWY8QLBXh6
-5THgljlv5xGnnxqGfDep9bbwY5duTpAoPWzPZyFN2VBtI8MIHhdIpe7e1m+M0BQR
-cxeKHWXShCIYNZYwuX9PwrSKT1G3LOfiOAWBAQjKoyNeBFh6uaptEVr5SuMAto5T
-mjertdV3AFeuJiw8QjNOrFDwSGt5OoFBHZVbBdKuxT8+MnJl/Axf4UClS8EZ0l8H
-x10KukoEnn0pUPMlCh/f2uM67+mQStM1mJcx4C7gT5R5YTriHj10YFRTbyFyLvy5
-yrWxjheRrsyM1htXtUGUtdbTn0yuqecIvfd9m4x0X8qsV+vaJYqu7VxfpeH+3qRH
-RD8pIZj/cgIIAYNZZehvaVIQaDmJuK3ly9ZLVcX3I9qG84NW1uXGvyrMmqHET6we
-B7C4ISR1WQFJT0l+tPqRcIT2mjEelmlVhle3lJ6PSVekr6vQ0NbqNTRU4ytGUDG+
-Ic5RP7+hU/9zAVEc0U/MpUIthY5MyXLrYF0URIl59CAzgwRyONI7iCpERa9d/nuR
-S0XxOFbrnsAp26+Wn6ve27YcFsiCBLLQXHAas0IoU4FmJgM4bRiwfaSfWYOmWQWJ
-kCyWmJz4wh41PtClNGYygxxsy/ag7EffNod806cSG7WxoeZxm/qUwM1bZ1nBgDtF
-W5DFFT4tLn3eHxsmco3a/c10
-=MsaK
------END PGP SIGNATURE-----
-
---===============2362269486391229070==--
