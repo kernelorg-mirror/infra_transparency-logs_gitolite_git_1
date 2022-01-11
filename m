@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2650476758359145182=="
+Content-Type: multipart/mixed; boundary="===============7218752114666682497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 11 Jan 2022 06:56:48 -0000
-Message-Id: <164188420856.15752.10220413859531724814@gitolite.kernel.org>
+Date: Tue, 11 Jan 2022 06:57:24 -0000
+Message-Id: <164188424441.15989.11786649233130629113@gitolite.kernel.org>
 
---===============2650476758359145182==
+--===============7218752114666682497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 29507144c99814cd5e1ed9873db21ffc634f6c95
     new: 7d6019b602de660bfc6a542a68630006ace83b90
     log: revlist-29507144c998-7d6019b602de.txt
 
---===============2650476758359145182==
+--===============7218752114666682497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe8152b38d3a994c4c6fdbc0cd6551d569a5715a Merge tag 'devprop-5.17-rc1' of git://g
 51edb2ff1c6fc27d3fa73f0773a31597ecd8e230 netfilter: nf_tables: typo NULL check in _clone() function
 7d6019b602de660bfc6a542a68630006ace83b90 Revert "net: vertexcom: default to disabled on kbuild"
 
---===============2650476758359145182==--
+--===============7218752114666682497==--
