@@ -1,52 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============4510103818988948778=="
+Content-Type: multipart/mixed; boundary="===============7174708878828552470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 11 Jan 2022 14:55:15 -0000
-Message-Id: <164191291589.1249.5863921940331557682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 11 Jan 2022 15:11:44 -0000
+Message-Id: <164191390473.4651.9191576130161654525@gitolite.kernel.org>
 
---===============4510103818988948778==
+--===============7174708878828552470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/master-pending
-    old: d331e47d0676e5e371a2a4714acc4faa3b876c29
-    new: 5459a2fefd06bd5bedc19fa29ff10fffd612102d
-    log: revlist-d331e47d0676-5459a2fefd06.txt
-  - ref: refs/heads/pending
-    old: 7e536b331e85d034819c546d72a70e91d950d754
-    new: fa7ab475d1dd5c97f8fa32118df0c19d59c2847e
-    log: revlist-7e536b331e85-fa7ab475d1dd.txt
+  - ref: refs/heads/kvm/entry-rework
+    old: 07b684858bbfd6bd6ce2cdf4d5cf76882c978f84
+    new: 7985390661ae63c4ace9ef899184eb3c1ce94852
+    log: revlist-07b684858bbf-7985390661ae.txt
 
---===============4510103818988948778==
+--===============7174708878828552470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d331e47d0676-5459a2fefd06.txt
+Content-Disposition: attachment; filename=revlist-07b684858bbf-7985390661ae.txt
 
 51c7b6a0398f54b9120795796a4cff4fc9634f7d power: supply: core: Break capacity loop
 80211be1b9dec04cc2805d3d81e2091ecac289a1 power: bq25890: Enable continuous conversion for ADC at charging
 644106cdb89844be2496b21175b7c0c2e0fab381 power: reset: ltc2952: Fix use of floating point literals
 92c959bae2e54ba1e2540ba5f813f7752bd76be1 reset: renesas: Fix Runtime PM usage
+0706a78f31c4217ca144f630063ec9561a21548d Revert "xsk: Do not sleep in poll() when need_wakeup set"
+819d11507f6637731947836e6308f5966d64cf9d bpf, selftests: Fix spelling mistake "tained" -> "tainted"
 983d8e60f50806f90534cc5373d0ce867e5aaf79 xfs: map unwritten blocks in XFS_IOC_{ALLOC,FREE}SP just like fallocate
 f34e8875ae244462711e31fcc4a82db13a16d36f dt-bindings: spi: cadence-quadspi: document "intel,socfpga-qspi"
 36de991e93908f7ad5c2a0eac9c4ecf8b723fa4a ARM: dts: socfpga: change qspi to "intel,socfpga-qspi"
 eaa090538e8d21801c6d5f94590c3799e6a528b5 drm/amd/pm: keep the BACO feature enabled for suspend
 9a45ac2320d0a6ae01880a30d4b86025fce4061b fbdev: fbmem: add a helper to determine if an aperture is used by a fw fb
 b95dc06af3e683d6b7ddbbae178b2b2a21ee8b2b drm/amdgpu: disable runpm if we are the primary adapter
+7a3429bace0e08d94c39245631ea6bc109dafa49 ipv4: Check attribute length for RTA_GATEWAY in multipath route
+664b9c4b7392ce723b013201843264bf95481ce5 ipv4: Check attribute length for RTA_FLOW in multipath route
+4619bcf91399f00a40885100fb61d594d8454033 ipv6: Check attribute length for RTA_GATEWAY in multipath route
+1ff15a710a862db1101b97810af14aedc835a86a ipv6: Check attribute length for RTA_GATEWAY when deleting multipath route
+8bda81a4d400cf8a72e554012f0d8c45e07a3904 lwtunnel: Validate RTA_ENCAP_TYPE attribute length
+4760abaac6844ebf87321403fbd36b72f8f1731a Merge branch 'mpr-len-checks' David Ahern says:
+0f1fe7b83ba0e47a7c57135420630e9f68e332a3 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+5e75d0b215b868337e7a193f28a543ec00e858b1 selftests: net: udpgro_fwd.sh: explicitly checking the available ping feature
+d6d86830705f173fca6087a3e67ceaf68db80523 net ticp:fix a kernel-infoleak in __tipc_sendmsg()
+938f2e0b57ffe8a6df71e1e177b2978b1b33fe5e batman-adv: mcast: don't send link-local multicast to mcast routers
+ae81de737885820616f9c67c2e7935998b523d58 mctp: Remove only static neighbour on RTM_DELNEIGH
+c255a34e02efb1393d23ffb205ba1a11320aeffb net: ena: Fix undefined state when tx request id is out of bounds
+cb3d4f98f0b26eafa0b913ac3716e4714254a747 net: ena: Fix wrong rx request id by resetting device
+5055dc0348b8b7c168e3296044bccd724e1ae6cd net: ena: Fix error handling when calculating max IO queues number
+5b40d10b604280a5bdf355b9d47ed238c92233dd Merge branch 'ena-fixes'
+f9d31c4cf4c11ff10317f038b9c6f7c3bda6cdd4 sctp: hold endpoint before calling cb in sctp_transport_lookup_process
+29262e1f773b4b6a43711120be564c57fca07cfb rndis_host: support Hytera digital radios
+1ef5e1d0dca5b4ffd49d7dec4a83660882f1fda4 net/fsl: Remove leftover definition in xgmac_mdio
+e5a7431f5a2d6dcff7d516ee9d178a3254b17b87 gpio: gpio-aspeed-sgpio: Fix wrong hwirq base in irq handler
+32e246b02f53b2fdaa81ea9f2ca6ff068c017fcb MAINTAINERS: update gpio-brcmstb maintainers
+e30a845b0376eb51c9c94f56bbd53b2e08ba822f ipv6: Continue processing multipath route even if gateway attribute is invalid
+95bdba23b5b4aa75fe3e6c84335e638641c707bb ipv6: Do cleanup if attribute validation fails in multipath route
 46669e8616c649c71c4cfcd712fd3d107e771380 md/raid1: fix missing bitmap update w/o WriteMostly devices
+065e1ae02fbe5f56f4aa118414d45fc30647acd4 Revert "net: phy: fixed_phy: Fix NULL vs IS_ERR() checking in __fixed_phy_register"
+e8fe9e8308b227002d68d6a32bbd141386727328 Merge tag 'batadv-net-pullrequest-20220103' of git://git.open-mesh.org/linux-merge
 26bc4f019c105234639068703186c01efcabe91e Merge branch 'md-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/song/md into block-5.16
+fa55a7d745de2d10489295b0674a403e2a5d490d seg6: export get_srh() for ICMP handling
+e41294408c56c68ea0f269d757527bf33b39118a icmp: ICMPV6: Examine invoking packet for Segment Route Headers.
+222a011efc839ca1f51bf89fe7a2b3705fa55ccd udp6: Use Segment Routing Header for dest address if present
+d2d9a6d0b4c2b4d2cd07378e190469f030c7d126 Merge branch 'srv6-traceroute'
+3087a6f36ee028ec095c04a8531d7d33899b7fed netrom: fix copying in user data in nr_setsockopt
+7d18a07897d07495ee140dd319b0e9265c0f68ba sch_qfq: prevent shift-out-of-bounds in qfq_init_qdisc
+68a18ad71378a56858141c4449e02a30c829763e mac80211: initialize variable have_higher_than_11mbit
+8b5cb7e41d9d77ffca036b0239177de123394a55 mac80211: mesh: embedd mesh_paths and mpp_paths into ieee80211_if_mesh
 8ff5f5d9d8cfce6a1e368a6daa7123be133a6c35 RDMA/rxe: Prevent double freeing rxe_map_set()
+6f89ecf10af1396ddc34c303ae1168a11f3f04a3 Merge tag 'mac80211-for-net-2022-01-04' of git://git.kernel.org/pub/scm/linux/kernel/git/jberg/mac80211
 c370baa328022cbd46c59c821d1b467a97f047be EDAC/i10nm: Release mdev/mbase when failing to detect HBM
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
+1d5a474240407c38ca8c7484a656ee39f585399c sfc: The RX page_ring is optional
+b3c8e0de473e8c316ba32fa63c01e0ef497ed609 Merge branch '40GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 4163cb3d1980383220ad7043002b930995dcba33 Revert "RDMA/mlx5: Fix releasing unallocated memory in dereg MR flow"
+af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
+49ef78e59b0749814d79eed156dcfc175fbd2f74 Merge tag 'gpio-fixes-for-v5.16' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
 7694a7de22c53a312ea98960fcafc6ec62046531 RDMA/uverbs: Check for null return of kmalloc_array
+db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
 b35a0f4dd544eaa6162b6d2f13a2557a121ae5fd RDMA/core: Don't infoleak GRH fields
+75acfdb6fd922598a408a0d864486aeb167c1a97 Merge tag 'net-5.16-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 0daf5cb217a9ca8ae91b8f966ddae322699fb71d ftrace/samples: Add missing prototypes direct functions
 823e670f7ed616d0ce993075c8afe0217885f79d tracing: Fix check for trace_percpu_buffer validity in get_trace_buf()
 f28439db470cca8b6b082239314e9fd10bd39034 tracing: Tag trace_percpu_buffer as a percpu pointer
@@ -83,54 +127,10 @@ df5bc0aa7ff6e2e14cb75182b4eda20253c711d4 Revert "drm/amdgpu: stop scheduler when
 95350123bb5568a7d95e3789225144bd1a154274 Merge tag 'soc-fixes-5.16-5' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e900deb2482002a9c10b77c750f63fba928fe142 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 df0cc57e057f18e44dac8e6c18aba47ab53202f9 Linux 5.16
-fae4a49b6635ac4b32a2e64d6b67fe1d721787f9 Merge remote-tracking branch 'net-next/master'
-4f0aec834421021df2132976a788080cf78dec37 Add localversion to identify builds from this tree
-3d38faef0de1756994b3d95e47b2302842f729e2 ath11k: add missing of_node_put() to avoid leak
-e3fb3d4418fce5484dfe7995fcd94c18b10a431a ath10k: fix memory overwrite of the WoWLAN wakeup packet pattern
-9f4ecacf2fa47b8aadd9bca2e88cde01856de028 ath11k: fix workqueue not getting destroyed after rmmod
-fbed57d897f6ea065c45806959337a6f28d2a94d ath11k: Refactor the fallback routine when peer create fails
-bbcc037a3d40868dfca9775b801c0debbfee5cc5 Merge branch 'ath-next'
-bca49dc57be350f57a9ee931b2d06666eb7f6cc6 Merge remote-tracking branch 'mhi/mhi-next'
-69a6130e6ab00306fe1552c73eb0d7a0dd4b4c04 Add localversion-wireless-testing-ath
-3d666f77344c0c9eb6b062ecaea3c3c2720c4146 ath11k: add LDPC FEC type in 802.11 radiotap header
-24afadde04aef5e6368ddcc3c13d944cb9d58be9 ath11k: free peer for station when disconnect from AP for QCA6390/WCN6855
-d46769a544fe12c0f01af6fd45cec0575dcdbc48 ath11k: Add support for dynamic vlan
-9f4dc410137b8c88e62b8bf80904318cdebdb444 ath11k: Add debugfs interface to configure firmware debug log level
-e826bfe980dc9cb5da0ff8f88d2c304a2de70c8a ath11k: enable RX PPDU stats in monitor co-exist mode
-5b724ab1437e1e2ac19550527bc92f882eed9a1d ath11k: move function ath11k_dp_rx_process_mon_status
-5afc37b103ca74e33a765b3415e0d50faebcf226 ath11k: fix error code in ath11k_qmi_assign_target_mem_chunk()
-5f657afd6d911402c67fffa4b48ccc9b83729bf1 ath5k: fix OOB in ath5k_eeprom_read_pcal_info_5111
-66e805a15f5f4fe00e8f4eb969b3600cd4a216c3 ath5k: remove unused ah_txq_isr_qtrig member from struct ath5k_hw
-71e51e9ee866b4632e0c4503ba40162816cc6c54 ath5k: remove unused ah_txq_isr_qcburn member from struct ath5k_hw
-5ca2b9bf3caf0e08aea53da9e7ad11a729b7b4d8 ath5k: remove unused ah_txq_isr_qcborn member from struct ath5k_hw
-d86f844e16ecb71110e091f3c51831e33c6a12c4 ath5k: remove unused ah_txq_isr_txurn member from struct ath5k_hw
-d3241f660bb24fd4a4870e61607948f7e3eecf7b ath5k: fix ah_txq_isr_txok_all setting
-fa7ab475d1dd5c97f8fa32118df0c19d59c2847e ath10k: abstract htt_rx_desc structure
-5459a2fefd06bd5bedc19fa29ff10fffd612102d Merge branch 'pending' into master-pending
+f4e802286d4d0616ca916dd23d13d0d4f35f905d kvm: add exit_to_guest_mode() and enter_from_guest_mode()
+1117af53a362b0941e6a95a6cb44228c94e16ce8 kvm/arm64: rework guest entry logic
+561a81b9e4959e9d983062f1f189cc1feaf18347 kvm/mips: rework guest entry logic
+f868976b0ebd7587657a0399c9f5c28f947871e3 kvm/riscv: rework guest entry logic
+7985390661ae63c4ace9ef899184eb3c1ce94852 kvm/x86: rework guest entry logic
 
---===============4510103818988948778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e536b331e85-fa7ab475d1dd.txt
-
-3d38faef0de1756994b3d95e47b2302842f729e2 ath11k: add missing of_node_put() to avoid leak
-e3fb3d4418fce5484dfe7995fcd94c18b10a431a ath10k: fix memory overwrite of the WoWLAN wakeup packet pattern
-9f4ecacf2fa47b8aadd9bca2e88cde01856de028 ath11k: fix workqueue not getting destroyed after rmmod
-fbed57d897f6ea065c45806959337a6f28d2a94d ath11k: Refactor the fallback routine when peer create fails
-3d666f77344c0c9eb6b062ecaea3c3c2720c4146 ath11k: add LDPC FEC type in 802.11 radiotap header
-24afadde04aef5e6368ddcc3c13d944cb9d58be9 ath11k: free peer for station when disconnect from AP for QCA6390/WCN6855
-d46769a544fe12c0f01af6fd45cec0575dcdbc48 ath11k: Add support for dynamic vlan
-9f4dc410137b8c88e62b8bf80904318cdebdb444 ath11k: Add debugfs interface to configure firmware debug log level
-e826bfe980dc9cb5da0ff8f88d2c304a2de70c8a ath11k: enable RX PPDU stats in monitor co-exist mode
-5b724ab1437e1e2ac19550527bc92f882eed9a1d ath11k: move function ath11k_dp_rx_process_mon_status
-5afc37b103ca74e33a765b3415e0d50faebcf226 ath11k: fix error code in ath11k_qmi_assign_target_mem_chunk()
-5f657afd6d911402c67fffa4b48ccc9b83729bf1 ath5k: fix OOB in ath5k_eeprom_read_pcal_info_5111
-66e805a15f5f4fe00e8f4eb969b3600cd4a216c3 ath5k: remove unused ah_txq_isr_qtrig member from struct ath5k_hw
-71e51e9ee866b4632e0c4503ba40162816cc6c54 ath5k: remove unused ah_txq_isr_qcburn member from struct ath5k_hw
-5ca2b9bf3caf0e08aea53da9e7ad11a729b7b4d8 ath5k: remove unused ah_txq_isr_qcborn member from struct ath5k_hw
-d86f844e16ecb71110e091f3c51831e33c6a12c4 ath5k: remove unused ah_txq_isr_txurn member from struct ath5k_hw
-d3241f660bb24fd4a4870e61607948f7e3eecf7b ath5k: fix ah_txq_isr_txok_all setting
-fa7ab475d1dd5c97f8fa32118df0c19d59c2847e ath10k: abstract htt_rx_desc structure
-
---===============4510103818988948778==--
+--===============7174708878828552470==--
