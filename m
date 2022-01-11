@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3760906742076460809=="
+Content-Type: multipart/mixed; boundary="===============4774860208083482083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 11 Jan 2022 07:01:25 -0000
-Message-Id: <164188448590.18717.14347819221834399642@gitolite.kernel.org>
+Date: Tue, 11 Jan 2022 07:01:48 -0000
+Message-Id: <164188450807.18883.14526216821483123238@gitolite.kernel.org>
 
---===============3760906742076460809==
+--===============4774860208083482083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e4a3d6a6a19a88cd021a3f4332c1c9b68faa8ae0
     new: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
     log: revlist-e4a3d6a6a19a-fe8152b38d3a.txt
 
---===============3760906742076460809==
+--===============4774860208083482083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b35b6d4d71365fbfb6f2cc8edc331b3882ca817e Merge tag 'pm-5.17-rc1' of git://git.ke
 fe2437ccbd278af683d32196fdea59a3b95f144e Merge tag 'thermal-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fe8152b38d3a994c4c6fdbc0cd6551d569a5715a Merge tag 'devprop-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============3760906742076460809==--
+--===============4774860208083482083==--
