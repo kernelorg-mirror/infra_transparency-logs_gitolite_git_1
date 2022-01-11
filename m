@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6804711303538197074=="
+Content-Type: multipart/mixed; boundary="===============0805322891559114295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 11 Jan 2022 01:46:55 -0000
-Message-Id: <164186561515.17441.10452148171291801031@gitolite.kernel.org>
+Date: Tue, 11 Jan 2022 01:47:15 -0000
+Message-Id: <164186563551.17653.16969571376312040391@gitolite.kernel.org>
 
---===============6804711303538197074==
+--===============0805322891559114295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/linus
+  - ref: refs/heads/master
     old: 27750a315aba7e6675bb1c3dfd4481c4f6888af1
     new: 5f21d7d283dd82865bdb0123795b3accf0d42b67
     log: revlist-27750a315aba-5f21d7d283dd.txt
 
---===============6804711303538197074==
+--===============0805322891559114295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -172,4 +172,4 @@ c5d692a2335d64ac390aeb8ab6c4ac9f662e1be4 crypto: hisilicon - cleanup warning in 
 dd827abe296fe4249b2f8c9b95f72f814ea8348c lib/mpi: Add the return value check of kcalloc()
 5f21d7d283dd82865bdb0123795b3accf0d42b67 crypto: af_alg - rewrite NULL pointer check
 
---===============6804711303538197074==--
+--===============0805322891559114295==--
