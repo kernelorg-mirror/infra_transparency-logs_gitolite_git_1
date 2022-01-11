@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5920766662849673101=="
+Content-Type: multipart/mixed; boundary="===============0662560990243174126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 11 Jan 2022 18:20:57 -0000
-Message-Id: <164192525719.28220.712240494256569704@gitolite.kernel.org>
+Date: Tue, 11 Jan 2022 18:21:04 -0000
+Message-Id: <164192526450.28315.425671008831528881@gitolite.kernel.org>
 
---===============5920766662849673101==
+--===============0662560990243174126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 42c4ebc1025a8461e57aee2d4b86cd3d9efc2e9e
     new: 653c3d33893e34e7822b78de6377cbca26231edd
     log: revlist-42c4ebc1025a-653c3d33893e.txt
 
---===============5920766662849673101==
+--===============0662560990243174126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ c47db13bdf66b32bf2da8e561c13cc1253268b16 dt-bindings: clock: samsung: extend Exy
 cc190b1f5ac071b12c31052750f1856bd673b980 dt-bindings: clock: samsung: convert Exynos5410 to dtschema
 653c3d33893e34e7822b78de6377cbca26231edd dt-bindings: clock: samsung: convert S5Pv210 to dtschema
 
---===============5920766662849673101==--
+--===============0662560990243174126==--
