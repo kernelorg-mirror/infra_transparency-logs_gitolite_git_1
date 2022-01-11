@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Jan 2022 04:59:35 -0000
-Message-Id: <164187717551.8087.15657228454485608253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 11 Jan 2022 05:21:21 -0000
+Message-Id: <164187848169.21453.17167401539586807943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
-  - ref: refs/tags/5.17-net-next
-    old: d666e233d27daffa670e5bbd904993fa39bac573
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
+    new: 7d6019b602de660bfc6a542a68630006ace83b90
+    log: |
+         51edb2ff1c6fc27d3fa73f0773a31597ecd8e230 netfilter: nf_tables: typo NULL check in _clone() function
+         7d6019b602de660bfc6a542a68630006ace83b90 Revert "net: vertexcom: default to disabled on kbuild"
+         
