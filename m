@@ -1,59 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0175732752435611719=="
+Content-Type: multipart/mixed; boundary="===============1349701022670397613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 11 Jan 2022 09:25:44 -0000
-Message-Id: <164189314403.10899.5480121094260166717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 11 Jan 2022 09:37:54 -0000
+Message-Id: <164189387462.17446.11644514766978699786@gitolite.kernel.org>
 
---===============0175732752435611719==
+--===============1349701022670397613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 663d8fb0f84c0f3aade8974fbf3a2ddb255f54a5
-    new: d47c7407b4c88cf66098eba8893bc38279f301fc
-    log: |
-         b15c90153fd906af6e70821a301e78d379bd482d gnss: drop stray semicolons
-         ee4736e50ba261944ddae75469b3eb47a9e2847d gnss: add USB support
-         547d2167c5c3cd879ed5e86e88cfa7daaf1228a5 gnss: usb: add support for Sierra Wireless XM1210
-         d47c7407b4c88cf66098eba8893bc38279f301fc Merge tag 'gnss-5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss into char-misc-next
-         
+  - ref: refs/heads/arm-vmap-stacks-for-v5.18
+    old: cd82faad8426b12e621542f45ad697746d903079
+    new: 852d1768db03fbc19f5bd643d2e4c8f34c4343a2
+    log: revlist-cd82faad8426-852d1768db03.txt
 
---===============0175732752435611719==
+--===============1349701022670397613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cd82faad8426-852d1768db03.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641893143 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1641893143-27e092c62fa44a7c6d455a2f47e9c079d9cb451f
+151ea7e0ecb99c6e95e1c9c1086d238eab36676a ARM: percpu: add SMP_ON_UP support
+8ecefccf763afba7902c6e73c2276aeb6b6d04d9 ARM: use TLS register for 'current' on !SMP as well
+6cb8406194e1e7ccfb3f6400a5de90d2c68a87c6 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+e199ea0549a223b429ea50851e49ecfa4afc416a ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
+a2d3574bb18cfb272e17280ebb1b3426ea89d282 ARM: assembler: introduce bl_r macro
+6830ab88e51e6f7d857819126928a33fab463b4c ARM: unwind: support unwinding across multiple stacks
+8aec20b61eac4c6c380a31dbbe95ab6173f4d468 ARM: export dump_mem() to other objects
+6832559c5d7484125c45d4a8da0d24aeafe9e733 ARM: unwind: dump exception stack from calling frame
+8616abbf344fda6e71ae1bcad452709bfc72b7ae ARM: backtrace-clang: avoid crash on bogus frame pointer
+6951b703116ee65c6d63756b64cf15cf92faf3ed ARM: implement IRQ stacks
+997d2b105caed2f385afdaae256f83a7c5cd2bfe ARM: call_with_stack: add unwind support
+84b1e70cd10a850dfb6434622d263f763add9f42 ARM: run softirqs on the per-CPU IRQ stack
+5fb143386e1a30e856a4d2137cc587320696c830 ARM: memcpy: use frame pointer as unwind anchor
+548a5b33c248e63a6d1ad81e6249d95947de2a6a ARM: memmove: use frame pointer as unwind anchor
+1a495e5db8ca833e0d8467c62ccf9281d9270135 ARM: memset: clean up unwind annotations
+f96b5378a61d30fd9bff44d7f518d9b77c2ed984 ARM: unwind: disregard unwind info before stack frame is set up
+c85a1303b09a643307728fbe9d7428398624c30c ARM: entry: rework stack realignment code in svc_entry
+0aeb3aca8b24cea5f97e495f731a5862cbd10f25 ARM: mm: prepare vmalloc_seq handling for use under SMP
+852d1768db03fbc19f5bd643d2e4c8f34c4343a2 ARM: implement support for vmap'ed stacks
 
-663d8fb0f84c0f3aade8974fbf3a2ddb255f54a5 d47c7407b4c88cf66098eba8893bc38279f301fc refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHdTRcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XyAP/3h9B/wDHwUg0Q4BaksP
-Mg+qP8EL2nvcTsa02eAdWOGvF2Prm1izbiNGYX3FDdGnfu4URLJsPODOirhMTSxH
-+dle+dLurgzpFMtifJMUt+uS4u7qwRxyEhTkiFf+FXgLC27+RfVQFez5v3O54DaP
-Le1Twr2cuTSE/paH/xjtb752i8JyBOdRZwNXaRoEi5dYWZxllwg2tAaEHtIAIG2a
-Qp/RFeW2heDtwKNQ0sUzygfac9Uks+JSu08it0zjZwd1/eLOzKYjUPBrfNkDOKjk
-w7dHjYa3uWGZd6HsTt8Ggjgmug9tOswu/CbMs9OUnGZEGcii9B+b/I1+UBELK9Hn
-wL5LtT+iqLM8jO6XzPVxVbmaiR6G5mghJu2dxhkR0HqrPFAzvTjKLIaky9aSnrcy
-KMfRoRx1FuuzkfJSceE4G7XEOyPUT+l5VCAS8O8OkIJlcGdyi20MNUbT71dXsY+J
-vG6OTIjnKphKbbt9WOksn0n1gGc4LPRws+LDiOx4+YuQbrlAFkhx0pE6lFuqw2LU
-a9trCSAMQcF1BiCJtqB6Oz/tzmZpd7k3CHkmHCO/tn6g86A5DLUL83IpenwhkwJ5
-As1C25WiT89ILx4OwdCkfgV0LpEHvVVAW+b0fU2DSubwNIsiSo02HVpKfne4z9XT
-XPR4gKlLt7yw5uQx5rzQom+9
-=Ghsx
------END PGP SIGNATURE-----
-
---===============0175732752435611719==--
+--===============1349701022670397613==--
