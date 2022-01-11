@@ -1,53 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0514592331633136724=="
+Content-Type: multipart/mixed; boundary="===============1049939470711545386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 11 Jan 2022 14:35:55 -0000
-Message-Id: <164191175543.27741.17984466641208454487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/website
+Date: Tue, 11 Jan 2022 14:36:11 -0000
+Message-Id: <164191177184.27935.6993198452311822226@gitolite.kernel.org>
 
---===============0514592331633136724==
+--===============1049939470711545386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
+repo: pub/scm/docs/kernel/website
+user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.14
+  - ref: refs/heads/master
+    old: 027a41d01c77439891b7eafaa7e79b5e739e81eb
+    new: 53d82c3ee05b07cecdad098a2876ec1fd0c0a793
+    log: |
+         53d82c3ee05b07cecdad098a2876ec1fd0c0a793 Capitalize Tux
+         
+  - ref: refs/tags/v2022-01-11-03
     old: 0000000000000000000000000000000000000000
-    new: e20df056c3d16bfe26a6a2e85260c873123b1882
+    new: 53d82c3ee05b07cecdad098a2876ec1fd0c0a793
 
---===============0514592331633136724==
+--===============1049939470711545386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641911754 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1641911753-8b3ca5a2a536b0a9821605e94c0dfb9c4732ffb3
+pusher B6C41CE35664996C! 1641911771 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/website
+nonce 1641911771-d89736d64b2c5d35ce35c006a1cf2611bda2c9c1
 
-0000000000000000000000000000000000000000 e20df056c3d16bfe26a6a2e85260c873123b1882 refs/tags/v5.15.14
+027a41d01c77439891b7eafaa7e79b5e739e81eb 53d82c3ee05b07cecdad098a2876ec1fd0c0a793 refs/heads/master
+0000000000000000000000000000000000000000 53d82c3ee05b07cecdad098a2876ec1fd0c0a793 refs/tags/v2022-01-11-03
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHdlcobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t+kP/ioU8Y3O+k2RVIM2rDrp
-jqhFTT/Mxtc67hL4t9GAOXVVxbFLqfDtfxwylPiT3o7EhDNpFYfu64ShfUsWJ3yq
-mMXMdxg9AxcpGITsIvUWHVVzo7eDiHU+Co2tSssr8NhTQjngaPcmCcI9LS5TU7zK
-pC0UD/EQO5dRyMTm8VvaBLHjnh8/OqaoSL+SS59rTjpg1ewItV7OvC8nZIDEcizW
-iCSSRYP5TghLGsIHg2fVTJgfsCIkZkNfp7LnsPyD7JUOtGSpM8C28JYRVR+RJP6y
-1PFjc0cV8ThHBxm8FeYOzjCuK0j18rjN3y7aAE/KuPsL+3OcCpFGFlbgMDAUd0yp
-WaQCqUYT/pxuAUjIXHleIGKszs7FhtkibsyvooCrh6TuBMRxzdGNTm7i6i48KZGS
-eMdEVFl1mPkDM09UNKrCIeZtKfOe3X4XWn9dHnC9Qk1J/soHL4Oh4zH5W94GjAPM
-D+QsliSgPCYPcjYumfUuxzQlVqAOaOYUsDFi+aQFUYsTIpNg+9njPqTC9wSlAc/D
-HnCIsqoUbrvcGaBK3XK5Ce3tNzsqmt0H5/BavuRafxXBwADXPQZ27vjGO29wzsRO
-wa0Ad2LUWOmnT6lOAZGQon879RnMfp/Q1sTeDMe/jXlNEiGqgwHF34OlB6J4iXNN
-MGzjUZulZVE0lhlfHAsNNqWn
-=DZ4S
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYd2V2wAKCRC2xBzjVmSZ
+bH/qAQCjQl/GicN+7gCZJX8IesrIsOevKM2swYARw3NRFiEizwEAo6GY5kHyme+G
+w8ikZHKh+1Yp60rSWpRI2miRFJmV4ws=
+=o61Q
 -----END PGP SIGNATURE-----
 
---===============0514592331633136724==--
+--===============1049939470711545386==--
