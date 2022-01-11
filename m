@@ -1,21 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 11 Jan 2022 17:48:39 -0000
-Message-Id: <164192331922.7085.4340366285189686871@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1536768630459296187=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/website
+Date: Tue, 11 Jan 2022 17:52:35 -0000
+Message-Id: <164192355598.11091.14209157686800892053@gitolite.kernel.org>
+
+--===============1536768630459296187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/docs/kernel/website
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1e9d74660d4df625b0889e77018f9e94727ceacd
-    new: 036a05f50bd777134b1955f400e8d24c0149fef4
+    old: 53d82c3ee05b07cecdad098a2876ec1fd0c0a793
+    new: 3ec9cab8e55c1f266b3cbeeae441b2eb5ac5398f
     log: |
-         382778edc8262b7535f00523e9eb22edba1b9816 xdp: check prog type before updating BPF link
-         4b27480dcaa71e7ee9f56907e419c6a1511fd2b2 bpf/selftests: convert xdp_link test to ASSERT_* macros
-         036a05f50bd777134b1955f400e8d24c0149fef4 bpf/selftests: Add check for updating XDP bpf_link with wrong program type
+         3ec9cab8e55c1f266b3cbeeae441b2eb5ac5398f Tweak wording for awkwardness and make less categorical
          
+  - ref: refs/tags/v2022-01-11-04
+    old: 0000000000000000000000000000000000000000
+    new: 3ec9cab8e55c1f266b3cbeeae441b2eb5ac5398f
+
+--===============1536768630459296187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1641923555 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/website
+nonce 1641923555-9708cd85e0c333d5e9be61a94df20502f2efcedf
+
+53d82c3ee05b07cecdad098a2876ec1fd0c0a793 3ec9cab8e55c1f266b3cbeeae441b2eb5ac5398f refs/heads/master
+0000000000000000000000000000000000000000 3ec9cab8e55c1f266b3cbeeae441b2eb5ac5398f refs/tags/v2022-01-11-04
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYd3D4wAKCRC2xBzjVmSZ
+bAp4AQDavC/VApGk9sZoBQZjGvNA7kyfUCIUm2r16qLwz68PxQEAhFtW+SLQAlrm
+QBXrAyYTYTJ0o/fSdAotkAPhMTZ+5QY=
+=5e/j
+-----END PGP SIGNATURE-----
+
+--===============1536768630459296187==--
