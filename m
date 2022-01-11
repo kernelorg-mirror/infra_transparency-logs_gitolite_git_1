@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 11 Jan 2022 10:39:40 -0000
-Message-Id: <164189758091.4976.14023609490823172503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Tue, 11 Jan 2022 10:59:13 -0000
+Message-Id: <164189875346.17489.10794293098328463272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/renesas-clk-for-v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 2eaee3f4b8124e746ec1b3f3b5f5e4e7815561b9
-  - ref: refs/heads/renesas-pinctrl-for-v5.18
-    old: 0000000000000000000000000000000000000000
-    new: 6df3b0897746fb1c0dc48298cee8885742ce9bed
+  - ref: refs/heads/for-next
+    old: e53ead9a6bf1c3b62c4baec8c11b4de3f67fe1cf
+    new: 0000000000000000000000000000000000000000
