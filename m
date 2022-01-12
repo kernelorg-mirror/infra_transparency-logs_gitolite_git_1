@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 12 Jan 2022 04:49:29 -0000
-Message-Id: <164196296959.32027.11686318495583908977@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 05:10:59 -0000
+Message-Id: <164196425902.14241.2290282582902985911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 29b3881b7977db792f93ebe440423811d5cfee56
-    new: cb963a19d99fc42d9abf4238968ef85fcc2ef3e3
+    old: cb963a19d99fc42d9abf4238968ef85fcc2ef3e3
+    new: edcb501e543cecaff5e3d079c798911e680fea65
     log: |
-         cb963a19d99fc42d9abf4238968ef85fcc2ef3e3 net: sched: do not allocate a tracker in tcf_exts_init()
+         e110978d6e060a3e633e3e5e427770a66b330d48 nfc: pn544: make array rset_cmd static const
+         edcb501e543cecaff5e3d079c798911e680fea65 net: phy: at803x: make array offsets static
          
