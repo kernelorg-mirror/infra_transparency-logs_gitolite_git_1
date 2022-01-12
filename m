@@ -1,77 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============3230915677447863322=="
+Content-Type: multipart/mixed; boundary="===============4449480248037985074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
-Date: Wed, 12 Jan 2022 17:45:21 -0000
-Message-Id: <164200952129.12712.7824945392427657675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 12 Jan 2022 17:45:40 -0000
+Message-Id: <164200954094.12920.4477008173190409670@gitolite.kernel.org>
 
---===============3230915677447863322==
+--===============4449480248037985074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
-user: kdave
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: c0ad9bde429196db7e8710ea1abfab7a2bca2e43
-    new: 8ad326b2f28c044cb6ed9016d7c3285e23b673c8
-    log: revlist-c0ad9bde4291-8ad326b2f28c.txt
+  - ref: refs/heads/tmp.perf/perf_cpu
+    old: d1f0b61886d77bede9316467eb99719f5389ec66
+    new: 6d18804b963b78dcd53851f11e9080408b3d85c2
+    log: revlist-d1f0b61886d7-6d18804b963b.txt
 
---===============3230915677447863322==
+--===============4449480248037985074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c0ad9bde4291-8ad326b2f28c.txt
+Content-Disposition: attachment; filename=revlist-d1f0b61886d7-6d18804b963b.txt
 
-77db6bd402c93e90f9873beeb21885705cca1648 btrfs-progs: rescue: introduce clear-uuid-tree
-9fdb291b8ee6b7d69f7bfabf79662ae67c66b5b3 btrfs-progs: check: fix set_extent_dirty range
-7119dc3d798d724da180b0eec77ef8ab33777dff btrfs-progs: simplify btrfs_make_block_group
-94729e9c5a435babcd946793265c6a021f47d552 btrfs-progs: check: don't walk down non fs-trees for qgroup check
-44aecdc20c4e27414bb88095063003050e111967 btrfs-progs: fi show: close ctree once we're done
-e968675f0a306cf81fa0d7ea1e60d8d5c03772cc btrfs-progs: add a helper for setting up a root node
-08b63c0fc53bc6e4ce82e495a0b71d9ee94eed14 btrfs-progs: stop passing root to csum related functions
-8742a38d5f92a8efe9307a57e7d6097186ab664c btrfs-progs: check: stop passing csum root around
-639b1fc2e73e8fb82d059c2b0edd22a759172cc9 btrfs-progs: stop accessing ->csum_root directly
-29e56c7e05b0fa017183504eb89fd6ad85dfb5e1 btrfs-progs: image: keep track of seen blocks when walking trees
-550fd4813688a82f4548ce9c7778dd6d6397b3da btrfs-progs: move btrfs_fix_block_accounting to repair.c
-17f6374cfa3a63e0fc32bcfe726822a69bc564a1 btrfs-progs: check: abstract out the used marking helpers
-d67bf1b36579f5db8806cfaa33bd7b77e6976814 btrfs-progs: check: move btrfs_mark_used_tree_blocks to common
-368cd3b3d82d687afa92af3288aedd795ee13b2f btrfs-progs: mark reloc roots as used
-4dac8cd1f2c05d00eea0bdc4ac80f5d7e31ffb8a btrfs-progs: tests: test for btrfs fi usage output
-ee801c07d785760d2ec818d0cb9223211256fc28 btrfs-progs: docs: drop indices from pages
-9756d90ce3ac79fc882fe09ff4592e0f1f065897 btrfs-progs: docs: add more of the new doc structure
-bc2382eff9dd89ba93f38a5421fe2cd7aad625eb btrfs-progs: fi du: skip inaccessible files
-db2ab478230e60c958b8e8eac9b80eaf55ee69c7 btrfs-progs: stop accessing ->extent_root directly
-0b23744de547f85ac9112354a3ddb7f6616b8184 btrfs-progs: stop accessing ->free_space_root directly
-b05760732531a0ed13338be65865e32bfb66da7d btrfs-progs: track csum, extent, and free space trees in a rb tree
-bf0ce5cb8640ccbe6887b4d0355ebcc5d0cd199d btrfs-progs: check: make reinit work per found root item
-d26c0b441457f4054e09ecca173431b5d824539a btrfs-progs: check: check the global roots for uptodate root nodes
-bb575e3818fdb1762d5176e66be451c4aef32b72 btrfs-progs: check: check all of the csum roots
-e68e73318f0f66d2deba346575418247cadfc1e9 btrfs-progs: check: fill csum root from all extent roots
-9dbfb6c162ded8c610a960fcaad01db2cfc8a26f btrfs-progs: search all extent roots for marking used space
-3337b7993b366ce03069f709f964afa819fbe152 btrfs-progs: common: allow users to select extent-tree-v2 option
-ec0eaae6738bfb35d224ef449fa1a69a3e146abd btrfs-progs: add definitions for the block group tree
-5e8a779f5c8b9f79a5483d29aa2927ce26688ddb btrfs-progs: add on disk pointers to global tree ids
-7f94ccb20a1a4c0a0622e94ab08e5338b538db95 btrfs-progs: check: change commit condition in fixup_extent_refs()
-b871bf49f370dda15126a4839a1498d38649f172 btrfs-progs: docs: add more chapters
-c6be84840fa740433bebb5ddebb044c4d9a07c8c btrfs-progs: docs: add more chapters (part 2)
-208aed2ed4f7a07c6222c1a742d891fbe719a4c3 btrfs-progs: docs: add more chapters (part 3)
-07320bd20fd1d4b9b0f51aa0f9413c8824063bad btrfs-progs: receive: properly check ERR return value in process_snapshot
-b28f7bd9bba6f65258da48955154794f466b4104 btrfs-progs: include linux/const.h to fix build with 5.12+ headers
-df91bfd5d5b2c59e9f3a5665262f4b35c463b142 btrfs-progs: docs: update some chapters
-79ef78f0e46fad8017d7230a44c2b55c52d8e400 btrfs-progs: docs: more docs updates
-817483211aff87f740cc339722de1e2f1bd7b2cc btrfs-progs: prop: allow autodetect_object_types() to handle link
-a2511aaa85c8d95d12805dfdcbb5667fa3e30ba5 btrfs-progs: include sys/sysinfo.h conditionally on musl
-5004a7de0a22ab8bb20790c1418ce91e56c93425 btrfs-progs: docs: update template, more about subvolumes
-433321ee8f163cb9555f7aa9ed5001d92ffde5c6 btrfs-progs: send: properly handle an ERR_PTR in find_good_parent
-f59a229d2c6d2cea2ec6d1ae2091ce5d7e37aa06 btrfs-progs: remove redundant fs uuid validation from make_btrfs
-6e78548b355f19f4f17603c83824473929799c59 btrfs-progs: update README
-864d260154b221c624d7edcaabffe6300a031684 btrfs-progs: docs: split swapfile from section 5
-23bdd548d886c6dfea5d6c7e409f38ae029c3861 btrfs-progs: docs: split mount options
-02a7c23c8e386dbfe9bb2f8cfc57853a0b0359bf btrfs-progs: update CHANGES for 5.16
-8ad326b2f28c044cb6ed9016d7c3285e23b673c8 Btrfs progs v5.16
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
+eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
+448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
+1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
+3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
+86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
+49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
+63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
+3ac23d199c2bc3bc2a2b31c803e7c5d841959670 perf cpumap: Simplify equal function name
+51b826fadf4fc42c8614b752b6cb0cb516589ade perf cpumap: Rename empty functions
+194a3a202564153493789997643181737a6ae4b9 perf cpumap: Document cpu__get_node() and remove redundant function
+4e90e5cc74c6b1c1b9abff8b53cec5be1fb5e839 perf cpumap: Remove map from function names that don't use a map
+adff2c634357115a0f94a9a5054061b497df7f72 perf cpumap: Remove cpu_map__cpu(), use libperf function
+5f50e15c1510c77b37e10c6b22912bf4bf11476b perf cpumap: Refactor cpu_map__build_map()
+973aeb3c7ada35b75442126c745bb6074cb3e172 perf cpumap: Rename cpu_map__get_X_aggr_by_cpu functions
+dfc66beff7fa95b9eb507ccb48fb325569bc2f74 perf cpumap: Move 'has' function to libperf
+92aad5c33f531187cc6013c8e51620212cdfefe1 perf cpumap: Add some comments to cpu_aggr_map
+bd26bddfd93688d10984251249b84e1f6d91de27 perf cpumap: Trim the cpu_aggr_map
+f9e891ea172235f902972069b87be3bdc7c48f5a perf stat: Fix memory leak in check_per_pkg()
+34794913e2dc08a464499f795073a021feeb3b47 perf cpumap: Add CPU to aggr_cpu_id
+7365f105e37429d28757f7f68d4850723ce18aa1 perf stat-display: Avoid use of core for CPU
+2ca0a3718da24953689b1771589ac63b60f17358 perf evsel: Derive CPUs and threads in alloc_counts
+7e3d1784c8a4d9c643a6ed0a2c44ee94dee8f7a6 libperf: Switch cpu to more accurate cpu_map_idx
+47ffe806674f67e729627edd689b10827b1790eb libperf: Use cpu not index for evsel mmap
+7316268ff740c29dfb52649ff8074a5aa17ec0ce perf counts: Switch name cpu to cpu_map_idx
+ab90caa7b2d0b708cfee16b33325ca24de4d8f25 perf stat: Rename aggr_data cpu to imply it's an index
+7ea82fbee4598e51e8bf47566b252cd5745d5b17 perf stat: Use perf_cpu_map__for_each_cpu()
+f9551b3f6249cfe8ea5b5f8716675ccf2f6ec737 perf script: Use for each cpu to aid readability
+80b82f3b65e94ba22d3f12a98f7ecc56cc14c903 libperf: Allow NULL in perf_cpu_map__idx()
+472832d2c000b9611feaea66fe521055c3dbf17a perf evlist: Refactor evlist__for_each_cpu()
+7ac0089d138f80dcd7ba8ca368a9b2bdfe780b16 perf evsel: Pass cpu not cpu map index to synthesize
+da8c94c065174099853a207d9716a49d339b265f perf stat: Correct variable name for read counter
+2daa08c4d9cd9d0845094d718920e5d105c11558 perf evsel: Rename CPU around get_group_fd
+1fa497d4c01d497e25131ccdd5def6f24dd1f330 perf evsel: Reduce scope of evsel__ignore_missing_thread
+6f844b1fdd3bc3a25995ff83edea32a73bfa72d9 perf evsel: Rename variable cpu to index
+aa11e55a39950c0151e12abd30c7223dfc6f6a2c perf test: Use perf_cpu_map__for_each_cpu()
+379c224bef724cf52bd3d2364d29fc63f3e743d3 perf stat: Correct check_per_pkg() cpu
+5b1af93dbc7e64ab1b872129cfe1f2318cc29c67 perf stat: Swap variable name cpu to index
+91802e73f77146d69afa0be7eafc983ec84b2bb0 libperf: Sync evsel documentation
+7263f3498ba8b6e65c1d810ccafec64cd61a6dc1 perf bpf: Rename 'cpu' to 'cpu_map_idx'
+84d2f4f0375d4857f9f9e57a9ad75cbf0f34e108 perf c2c: Use more intention revealing iterator
+b57af1b4017abff969425dffd6f59ddfdedce8cb perf script: Fix flipped index and cpu
+ce37ab3eb2490aba60ab1a622a4c6c6ee9a7cc66 perf stat: Correct first_shadow_cpu to return index
+6d18804b963b78dcd53851f11e9080408b3d85c2 perf cpumap: Give CPUs their own type
 
---===============3230915677447863322==--
+--===============4449480248037985074==--
