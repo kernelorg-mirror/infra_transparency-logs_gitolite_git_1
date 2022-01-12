@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4449480248037985074=="
+Content-Type: multipart/mixed; boundary="===============7972316203018523930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 12 Jan 2022 17:45:40 -0000
-Message-Id: <164200954094.12920.4477008173190409670@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 17:45:48 -0000
+Message-Id: <164200954831.13030.5757541911675929242@gitolite.kernel.org>
 
---===============4449480248037985074==
+--===============7972316203018523930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/perf_cpu
-    old: d1f0b61886d77bede9316467eb99719f5389ec66
+  - ref: refs/heads/tmp.perf/core
+    old: befee3775b6dabd7ec1bd8a44584f7f6f8fc8329
     new: 6d18804b963b78dcd53851f11e9080408b3d85c2
-    log: revlist-d1f0b61886d7-6d18804b963b.txt
+    log: revlist-befee3775b6d-6d18804b963b.txt
 
---===============4449480248037985074==
+--===============7972316203018523930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1f0b61886d7-6d18804b963b.txt
+Content-Disposition: attachment; filename=revlist-befee3775b6d-6d18804b963b.txt
 
+d5962fb7d69073bf68fb647531cfd4f0adf84be3 perf annotate: Avoid TUI crash when navigating in the annotation of recursive functions
+0046686da0ef692a6381260c3aa44291187eafc9 perf test: Enable system wide for metricgroups test
 62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
 b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
@@ -79,4 +81,4 @@ b57af1b4017abff969425dffd6f59ddfdedce8cb perf script: Fix flipped index and cpu
 ce37ab3eb2490aba60ab1a622a4c6c6ee9a7cc66 perf stat: Correct first_shadow_cpu to return index
 6d18804b963b78dcd53851f11e9080408b3d85c2 perf cpumap: Give CPUs their own type
 
---===============4449480248037985074==--
+--===============7972316203018523930==--
