@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 12 Jan 2022 14:04:37 -0000
-Message-Id: <164199627721.354.9608117231449524910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 12 Jan 2022 14:06:50 -0000
+Message-Id: <164199641012.2469.11778686418392461108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: c04c380b7adde7403e6b0823319d82277be3b91c
-    new: 01e94325e676f36b364032a6f5a9acacfff4dbfb
-    log: |
-         01e94325e676f36b364032a6f5a9acacfff4dbfb build-sys: improve setns, unshare and prlimit checks
-         
+  - ref: refs/heads/random-5.17-for-linus
+    old: 6c8e11e08a5b74bb8a5cdd5cbc1e5143df0fba72
+    new: 0000000000000000000000000000000000000000
