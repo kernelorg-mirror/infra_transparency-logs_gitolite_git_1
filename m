@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 12 Jan 2022 12:05:54 -0000
-Message-Id: <164198915441.23168.8914943750908776979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 12 Jan 2022 12:45:36 -0000
+Message-Id: <164199153670.14958.9919727933883754063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/damon/next
-    old: e25debba0d274ff66fd0577ca1cb4eec0817d1c0
-    new: 922c5443b9d76e66a58a9cada6669b99a6c5939b
+  - ref: refs/heads/pci/hotplug
+    old: 42a46c70045915bcbdced3e694dc5825d124fb5c
+    new: 085a9f43433f30cbe8a1ade62d9d7827c3217f4d
     log: |
-         922c5443b9d76e66a58a9cada6669b99a6c5939b for_damon_hack/todo,plan: Update
+         085a9f43433f30cbe8a1ade62d9d7827c3217f4d PCI: pciehp: Use down_read/write_nested(reset_lock) to fix lockdep errors
          
