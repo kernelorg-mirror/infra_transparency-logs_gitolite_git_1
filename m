@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 12 Jan 2022 16:00:54 -0000
-Message-Id: <164200325453.10891.16797114240671887803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 12 Jan 2022 16:05:22 -0000
+Message-Id: <164200352215.13664.17672140942476016614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 653c3d33893e34e7822b78de6377cbca26231edd
-    new: 785576c9356fb249e2715fe25f47c773385574ce
+  - ref: refs/heads/master
+    old: 9aae6e2c16ea2260e5ecf534ac436bac2a774074
+    new: 7a3d4dabb174ff362d075f23d46e8d6c76a20737
     log: |
-         785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+         0b36f497c5ed7d77bda3d94baafb6504a5fc1aa8 auto-t: wpas.py: add freq argument to configurator_start
+         692d137a2129b3f32734c6a4590e30269202c94d auto-t: wpas.py: add configurator_remove
+         7a3d4dabb174ff362d075f23d46e8d6c76a20737 auto-t: add a few more DPP tests
          
