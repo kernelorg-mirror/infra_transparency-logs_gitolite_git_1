@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 12 Jan 2022 17:07:46 -0000
-Message-Id: <164200726645.20603.3174248844786130924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
+Date: Wed, 12 Jan 2022 17:09:25 -0000
+Message-Id: <164200736592.21196.1990263997222551126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/zx2c4/linux
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 4e5bd03ae34652cd932ab4c91c71c511793df75c
-    new: 2716a5271d54e401856113ef7bdec1e06260f1dd
+  - ref: refs/heads/remove-sha1
+    old: f16225c4b702611b68017642bcc17b3de7884c11
+    new: 38c6126de59d3c93fe2bc71acf82789d9d8aeb3b
     log: |
-         8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-         72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-         2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+         577c033ff6288a7bb18ca20e139a5473f6fa2aed ipv6: move from sha1 to blake2s in address calculation
+         38c6126de59d3c93fe2bc71acf82789d9d8aeb3b crypto: sha1_generic - import lib/sha1.c locally
          
