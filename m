@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krisman/unicode
-Date: Wed, 12 Jan 2022 01:46:41 -0000
-Message-Id: <164195200181.22668.17843647821240127989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Wed, 12 Jan 2022 02:04:19 -0000
+Message-Id: <164195305951.1175.15462989887995142002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krisman/unicode
-user: krisman
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/unicode-f2fs-mergeconflict
-    old: 0000000000000000000000000000000000000000
-    new: 57d967f295376d61911e904a2d7a87ff326e3b01
+  - ref: refs/heads/master
+    old: 8b681c9462bd8e8993a5268aba58d852f2beabd1
+    new: ed150ef5b5e62574e005d427ea614e50fca362ae
+    log: |
+         ed150ef5b5e62574e005d427ea614e50fca362ae setup-buildchroot: remove test for very old versions of qemu
+         
