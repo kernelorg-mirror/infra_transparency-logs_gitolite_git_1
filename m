@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2598831212404375634=="
+Content-Type: multipart/mixed; boundary="===============1536336494107023167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 12 Jan 2022 18:24:10 -0000
-Message-Id: <164201185031.5629.6238723787985296844@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 18:25:42 -0000
+Message-Id: <164201194248.7527.5832757840861858828@gitolite.kernel.org>
 
---===============2598831212404375634==
+--===============1536336494107023167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 8aaaf2f3af2ae212428f4db1af34214225f5cec3
     new: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
     log: revlist-8aaaf2f3af2a-fe8152b38d3a.txt
 
---===============2598831212404375634==
+--===============1536336494107023167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b35b6d4d71365fbfb6f2cc8edc331b3882ca817e Merge tag 'pm-5.17-rc1' of git://git.ke
 fe2437ccbd278af683d32196fdea59a3b95f144e Merge tag 'thermal-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fe8152b38d3a994c4c6fdbc0cd6551d569a5715a Merge tag 'devprop-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============2598831212404375634==--
+--===============1536336494107023167==--
