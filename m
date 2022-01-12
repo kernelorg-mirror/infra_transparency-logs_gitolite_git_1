@@ -1,28 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/linux
-Date: Wed, 12 Jan 2022 13:53:49 -0000
-Message-Id: <164199562960.26556.7052243477822257779@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6590749152854426115=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 12 Jan 2022 13:54:15 -0000
+Message-Id: <164199565508.26752.301660540060258484@gitolite.kernel.org>
+
+--===============6590749152854426115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/big_key_rewrite
-    old: c9a53c7d141547e777deba977aea69c5ebf49f5c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/for-random-4.12
-    old: 02a197742858b448d674c66465fc4641d5d07b10
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/simd
-    old: f54839ddad64ad23a3076dd8c9084fd34c039057
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/wireguard
-    old: 190a25a81cd44fb0e6131e0945f377690ec0a3ec
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/zinc
-    old: f5afd0e402e6703dc9aa5ff5d8cb1da9acee305d
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/driver-core-5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5061f64cc7791d09e80ecf348349658058be7032
+
+--===============6590749152854426115==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1641995646 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1641995645-766e75228dd5ac6b952532de51079054f30ede34
+
+0000000000000000000000000000000000000000 5061f64cc7791d09e80ecf348349658058be7032 refs/tags/driver-core-5.17-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHe3X4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7VcP/0BYEieTtGYNPVZUkbjj
+8Lgsgsasc75kUX0q0JAPEckOtJ+LEAwQxsah9pb1fnQRY6ImLe1OrnCFBlBEvPqn
+DNk0PGk/b4+DD5Qb/MPPgsOuPHAi7VwyYpQmETLcSUpVw+TduvoFkTqlPt2JIaKK
+Cz+tdBUvNiZ6Cr1jwXvO+KvvdLog1FkBvtTBlbdwp84oH4lEjhdo4uXPGT3WTcHb
+HflH8qNAUWi4L/KnXmLWz3keaZ7FWjuGAV5jFyr2jH+XQPJn9Zy5+ft+9klCe41K
+TrE0fypFf4mzU4kPWm980gpcFWpgLfaR5V/UIqdbyFqlPsn1kjhVB3ggEOACX3NO
+KCWzBomORdhdv/IYbI5He/jsYL4lttDRoVMqM/tsmamIpoYv2WNnSvzIOD+gtzsY
+wlzL8aWnF90GFOc8Dj4jKmgBN9m2An1Z1XeSWRGSYWQ1SI+p+mWOcgLtBadZElwT
+uc71jbMnYQWAmd3ZTb4vv8VY5eqLACsq+mktPJ6sUSGxwgURsGFVoyLukqWPqlZD
+EzrkjZjiq9iWVCjumhV4fJm1POK8nI3QlJrFEgQmcAnic63Q2C9qpWzKtdg6M3Vq
+6tpUEe/NUfrO+prn3p/uJQ5EgF+zjIvX/Bo1IKueEUr6PziRAza7feMTHBdaIpr4
+ETZKBUbZDZNN5z4dtrNvMx6s
+=1Oep
+-----END PGP SIGNATURE-----
+
+--===============6590749152854426115==--
