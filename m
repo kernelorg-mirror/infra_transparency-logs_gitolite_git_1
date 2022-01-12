@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 12 Jan 2022 17:03:44 -0000
-Message-Id: <164200702455.17903.10798599407600447316@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 17:03:46 -0000
+Message-Id: <164200702694.17971.16738803486279276048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 785576c9356fb249e2715fe25f47c773385574ce
     new: e623611b4d3f722b57ceeaf4368ac787837408e7
     log: |
@@ -26,6 +26,3 @@ changes:
          b398123bff3bcbc1facb0f29bf6e7b9f1bc55931 efi: apply memblock cap after memblock_add()
          e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
          
-  - ref: refs/tags/devicetree-for-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 1d2da246c1b9d03a36a9ec02e5f96644811cede6
