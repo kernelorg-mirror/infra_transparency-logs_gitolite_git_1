@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2188413513005823877=="
+Content-Type: multipart/mixed; boundary="===============6840289894867308539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 12 Jan 2022 18:23:51 -0000
-Message-Id: <164201183123.5407.16054250890811181767@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 18:24:05 -0000
+Message-Id: <164201184590.5556.16366225171033053711@gitolite.kernel.org>
 
---===============2188413513005823877==
+--===============6840289894867308539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: dd3ca4c5184ea98e40acb8eb293d85b88ea04ee2
     new: 4e5bd03ae34652cd932ab4c91c71c511793df75c
     log: revlist-dd3ca4c5184e-4e5bd03ae346.txt
 
---===============2188413513005823877==
+--===============6840289894867308539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fcfb894d5952786db3b2b2b9cd3a95cdcedb6ff0 net: bridge: fix net device refcount tr
 7b9b1d449a7cef675d6926c4538edee8e601d823 net/smc: fix possible NULL deref in smc_pnet_add_eth()
 4e5bd03ae34652cd932ab4c91c71c511793df75c net: bonding: fix bond_xmit_broadcast return value error bug
 
---===============2188413513005823877==--
+--===============6840289894867308539==--
