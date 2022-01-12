@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1536336494107023167=="
+Content-Type: multipart/mixed; boundary="===============6912988054953018242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 12 Jan 2022 18:25:42 -0000
-Message-Id: <164201194248.7527.5832757840861858828@gitolite.kernel.org>
+Date: Wed, 12 Jan 2022 18:25:50 -0000
+Message-Id: <164201195069.7645.17329418262193042754@gitolite.kernel.org>
 
---===============1536336494107023167==
+--===============6912988054953018242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 8aaaf2f3af2ae212428f4db1af34214225f5cec3
-    new: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
-    log: revlist-8aaaf2f3af2a-fe8152b38d3a.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8079474f60cb7871bd678ff0a5000480353a81c7
+    new: 3d2f13e85e750ccf1401a56256fbfe77889a97ce
+    log: revlist-8079474f60cb-3d2f13e85e75.txt
 
---===============1536336494107023167==
+--===============6912988054953018242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8aaaf2f3af2a-fe8152b38d3a.txt
+Content-Disposition: attachment; filename=revlist-8079474f60cb-3d2f13e85e75.txt
 
-cbcf2b40a7cf40da02e08e4485118a3b4fce54ce ARM: dts: imx6qdl-dhcom: Identify the PHY by ethernet-phy-id0007.c0f0
-6c5d66cb28b0611350007204da1cd079b7b4bf41 arm64: dts: ls1028a-rdb: sort nodes alphabetically by label
-d18c7980d4d7125b0c9fc002de301054c3667a82 arm64: dts: ls1028a-rdb: add an alias for the FlexSPI controller
-96ad273759e0176b5e00c7c7266421c26a7f4811 arm64: dts: ls1028a-rdb: add aliases for the Ethernet ports
-bd8a9cd624c6189c6ad6e0d08513e089775303a4 arm64: dts: ls1028a-rdb: update copyright
-22e9e261bfe85539d2a3ce8e2f8f5b8187082028 arm64: dts: ls1088a: Add reboot nodes
-a3d5b4e2af448afd0c8c843178380a8efbbaf8df arm64: dts: ls1088a: add snps incr burst type adjustment for usb1
-1a42daaa3c7e0749f212c6bf9a8176d59833da71 arm64: dts: imx8mq-evk: link regulator to VPU domain
-057ccd9db760fc2c336b1138dab345bc2d3cdd35 dt-bindings: power: imx8ulp: add power domain header file
-a38771d7a49baf682fffd5cb8e1c6aea45ae5d26 arm64: dts: imx8ulp: add scmi firmware node
-03eb813dac25d478151892e959055a80b9eb7dbe arm64: dts: imx8ulp: add power domain entry for usdhc
-aafac22d6b232a2a4f496f7ac3f98a32ff1fb29f arm64: dts: imx8mm/n: Remove the 'pm-ignore-notify' property
-96db14432d979532be4cb6d5d52a127317e68b3f drm/i915: Fix implicit use of struct pci_dev
-63aca69c224fd2a38e02598a8ce48b984c7e9c76 dt-bindings: Add vendor prefix for BSH Hausgeraete GmbH
-50cee5eb406b9557f30a2824691b26d2a74f1a8a dt-bindings: arm: fsl: Add iMX8MN BSH SMM S2 boards
-8802266a103343da81fc99f7977273713e0e1980 dt-bindings: arm: fsl: Add BSH SMM-M2 IMX6ULZ SystemMaster board
-bd4372f056a2cf1a8b47afafc565b1fa7eb54323 arm64: dts: imx8mn-bsh-smm-s2/pro: Add iMX8MN BSH SMM S2 boards
-5b532920d74e2647d30a2a63647a99f19b6141bb Merge tag 'asahi-soc-pmgr-5.17' of https://github.com/AsahiLinux/linux into arm/drivers
-99b03ca651f1c409d296d6c6e9440d9b005c722f Merge v5.16-rc5 into drm-next
-0ef42fb749b17f7e49adef047ece5bebac5d6795 drm/i915: Exclude reserved stolen from driver use
 2e21de9028270a72d2b7dfbd0fe46a6beace1f01 drm/i915: Sanitycheck device iomem on probe
 bd56c63ca1d953f035c1a06a0431c106ffada849 drm/i915: Test all device memory on probing
 5213313b9ad81d7f3d467236e714c8f174c2de95 Merge tag 'zynqmp-soc-for-v5.17' of https://github.com/Xilinx/linux-xlnx into arm/drivers
@@ -1050,5 +1030,25 @@ bca21755b9fc00dbe371994b53389eb5d70b8e72 Merge tag 'acpi-5.17-rc1' of git://git.
 b35b6d4d71365fbfb6f2cc8edc331b3882ca817e Merge tag 'pm-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fe2437ccbd278af683d32196fdea59a3b95f144e Merge tag 'thermal-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fe8152b38d3a994c4c6fdbc0cd6551d569a5715a Merge tag 'devprop-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+b1c2b2e209e8de970149d13d77a87fce4968010e net/mlx5e: Move code chunk setting encap dests into its own function
+d60225eb69fdf754e89dbb3745c5e62d2df9d9af net/mlx5e: Pass attr arg for attaching/detaching encaps
+57b8a381f7fe00baa9d68802dadd6da94bc97d22 net/mlx5e: Move counter creation call to alloc_flow_attr_counter()
+2f10bd9f9a7b64f4a71f67df1ad546a60932e740 net/mlx5e: TC, Move pedit_headers_action to parse_attr
+5dfe8f9c2d60d665317e18e102eed17fe55bbb04 net/mlx5e: TC, Split pedit offloads verify from alloc_tc_pedit_action()
+f5882720590f647b00886cd1acf17b81035ba1c5 net/mlx5e: TC, Pass attr to tc_act can_offload()
+83f65e9e34ca405174371e151c37930ac84947f8 net/mlx5e: TC, Refactor mlx5e_tc_add_flow_mod_hdr() to get flow attr
+9ed207cc8d0de0bdd5090caef0859e3e74c359dc net/mlx5e: TC, Reject rules with multiple CT actions
+d81bd179bcd94bf270ed2163b63002f62a04e063 net/mlx5e: TC, Hold sample_attr on stack instead of pointer
+53f4b5cf8490aeab2ad038dd1ccbc47d4f39931e net/mlx5e: CT, Don't set flow flag CT for ct clear flow
+d44b3d12f2023b92a48adc918f12f9e7b79c8ced net/mlx5e: Refactor eswitch attr flags to just attr flags
+5b05b91b470cce21dbc491ca50dafd6335fc22d7 net/mlx5e: Test CT and SAMPLE on flow attr
+5c40afa1c4bacc2305ea6f5a95c8d930639de5fb net/mlx5e: TC, Store mapped tunnel id on flow attr
+a05fdf089bd57468a3ee323e57cd6b30a0ad5de1 net/mlx5e: Remove unused tstamp SQ field
+492731f7b5815169326a7e703a25f5b98c28c3bd net/mlx5e: CT, Remove redundant flow args from tc ct calls
+41bf1a340462f99d67f398660ee5df0f4d1f0a1a net/mlx5e: Read max WQEBBs on the SQ from firmware
+f36391e33275eb39a8f69a04cad363d91c9773fa net/mlx5e: Use FW limitation for max MPW WQEBBs
+3f6445064aa3918e45d411427393f222d615388d net/mlx5: Remove unused TIR modify bitmask enums
+9ffe6ab790c0c29671366c43bdf1b861855c0734 Merge branch 'patchq/396348' into mlx5-queue
+3d2f13e85e750ccf1401a56256fbfe77889a97ce Merge branch 'patchq/463850' into mlx5-queue
 
---===============1536336494107023167==--
+--===============6912988054953018242==--
