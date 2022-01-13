@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7636075588548335280=="
+Content-Type: multipart/mixed; boundary="===============7616806541649546880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Thu, 13 Jan 2022 19:01:45 -0000
-Message-Id: <164210050545.16983.16308151175051372387@gitolite.kernel.org>
+Message-Id: <164210050561.17004.17010948978180479298@gitolite.kernel.org>
 
---===============7636075588548335280==
+--===============7616806541649546880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 4ba8e26127c393c32776dff6d79c5b82de6dc542
-    new: cd595a3cc3219f3c3943ad8fcb09d8e0f8be7813
-    log: |
-         af5cb50817d483df3270d0889998b7242a448542 Bluetooth: bfusb: fix division by zero in send path
-         3e48106555db908a7e3f80e6d4cc37b069f339aa USB: core: Fix bug in resuming hub's handling of wakeup requests
-         afffd27b8b46df95704e92a872863e68b647b08f USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         f41fd15c23c5769e0fcbaa971d09381926c4729d mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-         edadde45bfc743aaf683d36f03475af2ea28b3db can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-         a47693851a0ab1f9d93e75f9b95f6443d3ff9653 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-         001b77fed994a26dba7d3019b7a5cdcd6ebbdae5 random: fix data race on crng_node_pool
-         76769e241575f4eaf484e04b762b3106213bf2ef random: fix data race on crng init time
-         cd595a3cc3219f3c3943ad8fcb09d8e0f8be7813 Linux 4.14.263-rc1
-         
+  - ref: refs/heads/linux-4.19.y
+    old: 5e0cdb245b7c83cfa2939071bf0cb7a2ecd31abe
+    new: 9b4502501eff6da9258c8fa2628e0f467fa690f6
+    log: revlist-5e0cdb245b7c-9b4502501eff.txt
 
---===============7636075588548335280==
+--===============7616806541649546880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,23 +32,41 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642100504 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1642100503-c72858981eb1027486b56f38de935dc63d6907d0
 
-4ba8e26127c393c32776dff6d79c5b82de6dc542 cd595a3cc3219f3c3943ad8fcb09d8e0f8be7813 refs/heads/linux-4.14.y
+5e0cdb245b7c83cfa2939071bf0cb7a2ecd31abe 9b4502501eff6da9258c8fa2628e0f467fa690f6 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHgdxgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/x0P/30lDfq9rZl7ZP6xyisb
-Q1693opBzefUYFfS9DdjptiuMjRQI2Jo8arSeXCltUiDH1rjq/Ihz3Ee5LdS861o
-ynZpBqmR7UT+0L+Fk4a45Jb8bRHm1yVX5uULaNy6j3uGCkBhp1maZFKmRRLIPCHC
-4iIx0/d+88Q3VUvpGSziJjhu1cFuv6UUQdOkT2wCgqairmcWqBikMArM8iO+DdKs
-rZ1QppCe7elnv5JK/mmgybrJNk5CDgONAFzF5IDCMQFbXN20Ehcoj7nE5ZgWsNef
-AaMUtYkVYiJYvbuIlXyanAr9yjCT8p/ngGnQjuuu9rgN9HtucSpXuery1WwFNfgO
-ee8ku3Zyoop0Nh6ZdWiK2S4N7qtBRxVgMvq/2LSwqchVzosiEyxRAsrBbmEdhJqh
-pL+/SyH2TR3h6I3dIFT9DqQXwyml5lm1bLan8mxoLXIbFwZhXQ/CjLIp8ZSo/8A/
-Q55bhUDQ43Z+2uAeX8Loiz8H07wwt2staWdcU0nwCptxopr2SyNf3ytxQq5EiJ+y
-6vgiGvJP0+AbvkNnWRFT/mBGNuFYlKxXI4B3CCAD4RhNRENxZL8AZVBUp7rsV7LG
-+A31dIyUI2KyrMT4wD4gIZHxsM+KgbSundG2pc5FZzI9sEjGZDJKYBRQt4zz+3Sj
-ptzY3N/dilNphc68VawsRSoA
-=fQG1
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6pQP/jln2gEAFWKyKfu4O4uf
+LlLKhNQiZmV279AErH4f/lPtBBrY53+GcM/kqWHCJyk51g9lArOztMdbzbG67t7/
+kErDoq+gLiDXWpBUaflZW/Km0wwfoh15pv4X9+TITie3ZgLkmZ7l4HEzN7pP7Y/R
+OaSw6f6kb5YvOq1nS/WOp60Yomh+YcrEbCz9caix/qg9mJpgEctH0OkKeGEfbAhQ
+QzjQCqG7LHx1YVpEwrHnFEF79nC8y8OYXQcBbbAdN8ktNuSmvAFniq9AfDQy0jw7
+vS4/BudZcrVD30rqkLugxinNB5jL/2kOIT098OY7TsV+9u6iO+XcdycwAdtmFqFa
+sAUgAJD2A5J7Gh9bdvOGTjrQZqTV2FTzrModH+yClMC7ybDQVEJjfB/xU9EAPe4+
+v/2xB4D3yoB7WVsQ147coBYYhMpIhygw+iT2CTuD7YhT05AjAWLtz20AHq7scf7U
+rX6iPQMq7SO59Qnrx8mX+V09ywum163JcJJD6pjrfpowx+UJ3tM0VofAxN+l8M+M
+gdSbM4wYms1BimQqIC57IgwEiUzzWKY7a1/FuFNTA+JXETg0F3btAvC+2dXix7Ic
+ZN5DVEYyF3OpH57cSzosPQS5yPP2R4SnCBIJlg7PmP5BWvedJu6uzPdU8R/eHCAb
+TA1f0AdUnJJVVMEDXamoTlMY
+=HKmX
 -----END PGP SIGNATURE-----
 
---===============7636075588548335280==--
+--===============7616806541649546880==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5e0cdb245b7c-9b4502501eff.txt
+
+9fee1495b4fc1c11d0bac0927d80dbad615bbeeb Bluetooth: bfusb: fix division by zero in send path
+1e27c1707497c8aed46bae686d8b14a051cd2846 USB: core: Fix bug in resuming hub's handling of wakeup requests
+2652651bbfdbbf9deb0a2efecd4f89a39dc9b4ba USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+45c21f6c3826fbc344400681dcf03580e929021a can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+197e192d52326c616cc166575cb1abafc6b92268 veth: Do not record rx queue hint in veth_xmit
+9a478240fce3390dff459bbd261883a2540f0733 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+2abe6e722453b0c5c7f5eb236c6cce0443acf4cd can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+12a695898045f0aa794ef3701f9dd7c5a2fea39e can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+3202b9562467110cccee65e879861637fea21425 random: fix data race on crng_node_pool
+b499392dea5e0878152daefc2bab5c09521debc2 random: fix data race on crng init time
+9b4502501eff6da9258c8fa2628e0f467fa690f6 Linux 4.19.226-rc1
+
+--===============7616806541649546880==--
