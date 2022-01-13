@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8346555251507027655=="
+Content-Type: multipart/mixed; boundary="===============3122118472107814151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 13 Jan 2022 09:02:03 -0000
-Message-Id: <164206452370.12608.757471420796917768@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 09:02:07 -0000
+Message-Id: <164206452747.12688.11972314648765562132@gitolite.kernel.org>
 
---===============8346555251507027655==
+--===============3122118472107814151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,57 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
+  - ref: refs/heads/driver-core-next
+    old: c9512fd032acfe6f5198c30b6e7e52e0a7df5d31
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-136057256686-455e73a07f6e.txt
+    log: revlist-c9512fd032ac-455e73a07f6e.txt
 
---===============8346555251507027655==
+--===============3122118472107814151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064523 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064526 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642064522-5300cb9f02ab5e1f924c4aa60f36c8695addabec
+nonce 1642064526-c6c8680bfe2fbd6167ee50c8b2035b661ed0734d
 
-136057256686de39cc3a07c2e39ef6bc43003ff6 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/driver-core-linus
+c9512fd032acfe6f5198c30b6e7e52e0a7df5d31 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6osbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3ZcQANYd1oB6uYXygdui0MYs
-SSfhMzP3eNREojbGWOsfIMzb8YKYEekGMZuzh+ava6vFf9mEY0M8yoaHVwbFQedv
-O3NSpH8EENH41l3RYj5b9qx5NdQIeytLCrLus++/cLXvi9b0LYjhA8LcOH6QuBy1
-BL6ITM7QQ5HZOVTWswattYQiWIzU23NhJDJEYMLbYrEsfERnhwrRmNSxNAh2ABEi
-WSXw2U+nc4UYrmrKySq0/ohjuq5twCPQ0HfdPyw+5YnAVBGM0h5dQM11FAE19/IT
-pwoLstrbgvTMt7OsXOXXBAus5Sui6RUrBpv2B3F1m7KHskfUrZnLocqbTCX5F+8Y
-reH9kCKrn/jtBD5eZrO1T/labmTCT7frmq5aEu7GHHb9M3Lk4+M6UKdZlQ35AQ71
-egJCOtJyIMio9Etde8M/L8KVZoZIBkZwO6sJw6jFRu7xlKZD21J/wWfN+VperBVT
-Ry6ADVZMjLAi7+cfKDqV5jPqIQNfDFZMdqf8cogO2Q2FpCQ8AWJqFsCUwK2QAcIj
-P9jeDJhSnO1dq1xGGzWmWms6wM1pr7Z0V+B6nfXoAclk19OUN6VDdXmaQJd80sjE
-PUWSM/faBivibe5O1WaouZ0Skt1gM1XWEbxjTw8x8DfbZcUQOQI6K3h7Tnh9400y
-aiX0mySYbW8LLOtQVYVGs+4J
-=mBIZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6o4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wH4QAIXzuTf12VkZ+JN0hyTd
+vHPov8W6XMq2O5Vqt+Y3VQMYe248lcTF/OZ0O8SlrwOTZUR5715aAyhwEdYdXcAG
+OM+dkZtBjtALNmb7FzQX5WWXXGvZ5Mg9f54gglnRH7lTa2pNEKOPetBk43j/kN5i
+jty2pmiOZx+7Vp1Ovko/Qou8dwGNUI/EXWPAYXdB6RRSyVtAzma1a15EYg7nfnxB
+97NQWsVoWyJb+WVHdZqjwvIQAwgfwkw8SbNOQYdascVPGO/o+3lRIP9aziJlZON7
+1I8gaLrZvFycnNJJE1hI3RW/Lz1c7D05uutsU/ZklBz/qtr9lsChcu+ueQ3X37hz
+wPbQ0vuGqx7ZcRSGi/dVymmQTz67RdGxD3DJ4P0CSZhy0izJ0Wt0OcXAF31ognwy
+BoDXZyFrgUyFQvy61xxbpUKWrNk1NI7z0e2teJufU+AU34r7D2yOLazsCOFhB8dH
+/LkAMM9IWj5wfwd4KPG/sIBweP84Z6SA6v2UBJda1SJTKSiXR86PA9SEzoA23oIq
+pv6sb78Ve4vfq+jNAe7T2BdbED39P/5FQZQ/OiBwkZhDFMYrZbdtLKupth3c9NO3
+lZuP/jL8m50YkLaPitCd7drl2x2qnnfv7/1ObRcjhqm90pMFCoBlEq1sZ6lEvqJv
+Gvuk6faGBwSBdliZ/q4l+Til
+=xCbr
 -----END PGP SIGNATURE-----
 
---===============8346555251507027655==
+--===============3122118472107814151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-136057256686-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-c9512fd032ac-455e73a07f6e.txt
 
+85bca3c05b6cca31625437eedf2060e846c4bbad dm btree: add a defensive bounds check to insert_at()
+cba23ac158db7f3cd48a923d6861bee2eb7a2978 dm space map common: add bounds check to sm_ll_lookup_bitmap()
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+77e2a04745ff8e391ad402e2d2d1157a5d3a7ebc ACPI: PCC: Implement OperationRegion handler for the PCC Type 3 subtype
+14350ed95867c48f18dfbe86f91c9b9d1880e5c8 Merge tag 'clk-v5.17-samsung' of https://git.kernel.org/pub/scm/linux/kernel/git/snawrocki/clk into clk-samsung
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
 b29f4889f8860486686adb056030215d413bb928 dt-bindings: display: st,stm32-dsi: Fix panel node name in example
@@ -171,10 +181,8 @@ c2abcf30efb8bdd8dfe8d1796e29fd26aea03702 dt-bindings: display: novatek,nt36672a:
 2d6ec25539b0e7a4b4ad670abbcb3ec27b33e8ce netlink: do not allocate a device refcount tracker in ethnl_default_notify()
 eb52c0fc2331f8ad1f5f9fd79ba9ce90681ed50b mm: Make SLAB_MERGE_DEFAULT depend on SL[AU]B
 00fcf8c7dd564c44448ff6a39728d2ca0c8efbd8 Revert "net: usb: r8152: Add MAC passthrough support for more Lenovo Docks"
-99a6a4b39575b39c34fc024400b25a52343fbe07 sh: sq: use default_groups in kobj_type
 945409a6ef442cfe5f2f14e5626d4306d53100f0 Merge branches 'for-next/misc', 'for-next/cache-ops-dzp', 'for-next/stacktrace', 'for-next/xor-neon', 'for-next/kasan', 'for-next/armv8_7-fp', 'for-next/atomics', 'for-next/bti', 'for-next/sve', 'for-next/kselftest' and 'for-next/kcsan', remote-tracking branch 'arm64/for-next/perf' into for-next/core
 7694a7de22c53a312ea98960fcafc6ec62046531 RDMA/uverbs: Check for null return of kmalloc_array
-f54dfdf7c625aad722a7d1508f99e8272bc4800c firmware: memmap: use default_groups in kobj_type
 db54c12a3d7e3eedd37aa08efc9362e905f07716 selftests: set amt.sh executable
 5b8f970309ddfffd92cb3c12cb7cf4101fe0f8bf net: phy: marvell: use phy_write_paged() to set MSCR
 f22725c95ececb703c3f741e8f946d23705630b7 net: phy: marvell: configure RGMII delays for 88E1118
@@ -320,9 +328,6 @@ b2dcadef207719a9b3520cb9f1c9237c320d3ccd HID: apple: Add 2021 Magic Keyboard wit
 531cb56972f2773c941499fcfb639cd5128dfb27 HID: apple: Add 2021 magic keyboard FN key mapping
 7f84e2439ed2e2c7afdced9564dda1220e932704 HID: apple: Add Magic Keyboard 2021 with fingerprint reader FN key mapping
 33a5c2793451770cb6dcf0cc35c76cfd4b045513 HID: Add new Letsketch tablet driver
-ad8a5d1d2f577843dba14e4727c86e952ffbd5f1 qemu_fw_cfg: use default_groups in kobj_type
-ab6d0f57be58c075bd249a97c81c3557b5e3e7cf firmware: dmi-sysfs: use default_groups in kobj_type
-3407d826c18d9aed3c51545cc26ff9a2fda65463 firmware: edd: remove empty default_attrs array
 72a4a87da8f7bcf868b338615a814b6542f277f3 i2c: mpc: Avoid out of bounds memory access
 43d012123122cc69feacab55b71369f386c19566 rocker: fix a sleeping in atomic bug
 2e81948177d769106754085c3e03534e6cc1f623 staging: greybus: audio: Check null pointer
@@ -365,10 +370,6 @@ bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cac
 98b6b62cd5569a158868b62dc7866b5aae5d9a38 HID: intel-ish-hid: ishtp-fw-loader: Fix a kernel-doc formatting issue
 3809fe479861194e310c23ed48b010c7c0f72d22 HID: address kernel-doc warnings
 33812fc7c8d77a43b7e2bf36a0d5a57c277a4b0c HID: magicmouse: Fix an error handling path in magicmouse_probe()
-885e50253bfd6750327a265405461496d6af1639 driver core: Move driver_sysfs_remove() after driver_sysfs_add()
-00eb74ea2c14418042347eaa34c6b73ac6ec1e76 driver core: Make bus notifiers in right order in really_probe()
-358fcf5ddbec4e6706405847d6a666f5933a6c25 debugfs: lockdown: Allow reading debugfs files that are not world readable
-0589e8889dce8e0f0ea5bbf757f38865e2a469c1 drivers/firmware: Add missing platform_device_put() in sysfb_create_simplefb
 f069c7ab6cfb07edf9e3dc2071928225587794f1 dm integrity: Use struct_group() to zero struct journal_sector
 eaac0b590a47c717ef36cbfd1c528cd154c965a1 dm sysfs: use default_groups in kobj_type
 0e479b460e342c5fe138391b29d7bfa0a6204af2 serial: 8250_bcm7271: Fix return error code in case of dma_alloc_coherent() failure
@@ -549,7 +550,6 @@ ed1235eb78a7421cd0ac2ad09e931f8f07ccdc7c fscache: Provide a function to let the 
 b6e16652d6c0e4f9e9b120f66966ec153f0623fc fscache: Implement higher-level write I/O interface
 08276bdae68b022a7726edf7416b6748e3df5395 vfs, fscache: Implement pinning of cache usage for writeback
 9d6c59c1c0d62a314a2b46839699b200cccd2d08 Merge branch 'for-5.17/struct-slab' into for-linus
-c9512fd032acfe6f5198c30b6e7e52e0a7df5d31 kobject documentation: remove default_attrs information
 7b2932162f66ab33a00a7cdb6d3b2db6dfdbf634 s390/pci: simplify __pciwb_mio() inline asm
 14676c04783c6363b71072c01b42bb7838eb56eb Merge tag 'mlx5-fixes-2022-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 26abf15c49e0fbbcb6dbd70c52ecbde221f1b0fa Merge tag 'mlx5-updates-2022-01-06' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
@@ -1082,4 +1082,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============8346555251507027655==--
+--===============3122118472107814151==--
