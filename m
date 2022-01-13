@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Thu, 13 Jan 2022 10:04:26 -0000
-Message-Id: <164206826685.3862.11993022783637285348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
+Date: Thu, 13 Jan 2022 10:05:01 -0000
+Message-Id: <164206830137.4106.7986327992717228909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/balbi/usb
+user: balbi
 changes:
-  - ref: refs/heads/kprobes/fixes
+  - ref: refs/tags/v5.14
     old: 0000000000000000000000000000000000000000
-    new: dfa160b26549af888185cb9d3001b577ce755dd3
+    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
