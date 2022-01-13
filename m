@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Thu, 13 Jan 2022 11:42:28 -0000
-Message-Id: <164207414857.1993.3023004850397837380@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 11:42:55 -0000
+Message-Id: <164207417560.2184.583006798000033246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
 user: brauner
 changes:
-  - ref: refs/heads/fs.idmapped.setgid.v1
+  - ref: refs/heads/fs.idmapped.setgid
     old: 923d3244b2b57f669e118fc1f57f4f4caf04550b
     new: 0b7a122cf29e06dafea4128eec72c9d75aebdbcd
     log: |
