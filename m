@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552023606562201621=="
+Content-Type: multipart/mixed; boundary="===============3906040270188589813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 13 Jan 2022 09:07:33 -0000
-Message-Id: <164206485391.17421.11505059842969264318@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 09:07:37 -0000
+Message-Id: <164206485759.17492.13160011415196672515@gitolite.kernel.org>
 
---===============5552023606562201621==
+--===============3906040270188589813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,64 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: d58071a8a76d779eedab38033ae4c821c30295a5
+  - ref: refs/heads/staging-next
+    old: fa783154524a71ab74e293cd8251155e5971952b
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-d58071a8a76d-455e73a07f6e.txt
+    log: revlist-fa783154524a-455e73a07f6e.txt
 
---===============5552023606562201621==
+--===============3906040270188589813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064853 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064856 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1642064852-8ae75a99d320acda653b622df1f7bef7b659b91e
+nonce 1642064855-efee3ec323c235360c3b5464b7a580255f0af9c4
 
-d58071a8a76d779eedab38033ae4c821c30295a5 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/staging-linus
+fa783154524a71ab74e293cd8251155e5971952b 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf69UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eBgQAIOmFK/dLuyGEEYERf2e
-NqWQs6i7uosNhwo5ASgOxCM/tUuA8zrktpNdyaDysSP5AdgIWQ9Ix14TxVRT3w3B
-BJ6VTOOvielfYcBO9YyAdGXInCPycAXWS5hu2k4JD3yhT2vBjeHMIbUMthP4b/N/
-KIjy1wWZPK1C5uuNQvlSPBdogdH9HKjrJY2+Dg2y0Srq3bMhQH2HmopMdMjduyUB
-hOdAN4KROgzl5Q03o6fpiB56FIUTBn8ZwiMVx/qBPyqXq1E/RjQ6/ojBcXJwZ8sd
-JO4ReAOQ2PIsHQalu20RT1CAW3+auRj98XPWPcbdqWN1muzS/sSYPdD0H3HWOuR8
-2BRWvBnMZROs7JOm+WXYb00FucwA3lx1RhP5vDgt7LvQJcAE9kmTF2nJ7wg73bxJ
-IoV1HQ+3Gp5nE50jbgrIP7xOLg5hczAIK+C4pPNicP/yH8PVHNnJhJkSGF8p0WnQ
-rCglrO7sVgXf1jvWWmQo9LwgJMm84sK0ltjDwBE4xNNa/r2VmGEYb8u12NmAua74
-AOybHNeLQknqsJ5r8OeOVlytU5OT6Sza4AYusKLgx6cy40Q9OkK1k7H2+wQ1U2bO
-SkNhyKyrqLRhCzElM5Ux2EDSJWZq/GQppTWGYHhrTrx+GXoXqRHeGTSwNPPdtsuA
-xcUPOCNd7LP7xSM92UTRutSk
-=A8u9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf69gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w4MP/3TBQzs2QeM8BYcpPc8a
+CwHn2NSahsIs9yfZzfUWwlrwoPnOdnkq//bPOQFQLRyEKujLOix6p+pents0nA/p
+Ba4Ch7R5PBK4bVhL+nXRGqxrmDvh96BSLer0rNT8jBQf54u2f6AkiwuJ+WBkaBi0
+DH481YIn4AeW3ireRYmY+Y3rY0CDmaI6al+yhoOK01NjjxXYep2iSsIv2drGWHr/
+lRvJ6zirCEG7hI+OP2wOrH8DJHvgESt63sCUWFIkdoQozrMm1q0ih0ve8Gf1USVR
+Ln/FZrOaUYe9oZLvHa43XwrUjqeLuzdXnuwSTExhwqV37zu/E3zmqYXmVew563a+
+ZGdT0bMc//pP0XkebqTOkhKoWH9IvCk4kGQLIUcL57kiFGU62NNvM5LygQChBkRO
+endu6rdrKHj04HJLqI9m/U/dXYxSgVwNF1NT0f7PdjJftQyPLNLC9OkuE86k1aq0
+2y1NEYSeOVjiUKXi4c3zEoEPacZRYjmMGm5xiX9vFGgdibhKp2/kqLbkxQ7KRZhD
+jHtV5P+h4yoNvOnM9ZpjqWsH6+zHuaeoENMZZPYWamESR0cUy9kAWMDR/ivdCOBu
+gXpjpTYWLHSv62BmN8YxqVi87+L5XJQ/rLbTugaj0q8vjOihlqYvTGteAIjptRck
+AdoeTkVRcRoI0nL46tHDyLJG
+=w1xm
 -----END PGP SIGNATURE-----
 
---===============5552023606562201621==
+--===============3906040270188589813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-fa783154524a-455e73a07f6e.txt
 
+1afd7ae51f63f345afd1a22049ac01065c8a5d1b filemap: Convert page_cache_delete_batch to folios
+9184a307768bf66af1f67d903d7b00725b7a6e8c filemap: Use folios in next_uptodate_page
+820b05e92bdf07de94bc52c17d935d9ca0a481b3 filemap: Use a folio in filemap_map_pages
+960ea971fa6cdac8d4825a6aaf99b92882e79fbb filemap: Use a folio in filemap_page_mkwrite
+82c50f8b443359ec99348cd9b1289f55cd47779d filemap: Add filemap_release_folio()
+efe99bba2862aef24f1b05b786f6bf5acb076209 truncate: Add truncate_cleanup_folio()
+c671ffa55d8b0dd3ed0a329e15dfe9c58f7483cd dm btree remove: change a bunch of BUG_ON() calls to proper errors
+85bca3c05b6cca31625437eedf2060e846c4bbad dm btree: add a defensive bounds check to insert_at()
+cba23ac158db7f3cd48a923d6861bee2eb7a2978 dm space map common: add bounds check to sm_ll_lookup_bitmap()
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+77e2a04745ff8e391ad402e2d2d1157a5d3a7ebc ACPI: PCC: Implement OperationRegion handler for the PCC Type 3 subtype
+14350ed95867c48f18dfbe86f91c9b9d1880e5c8 Merge tag 'clk-v5.17-samsung' of https://git.kernel.org/pub/scm/linux/kernel/git/snawrocki/clk into clk-samsung
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
 b29f4889f8860486686adb056030215d413bb928 dt-bindings: display: st,stm32-dsi: Fix panel node name in example
@@ -325,13 +342,7 @@ ab6d0f57be58c075bd249a97c81c3557b5e3e7cf firmware: dmi-sysfs: use default_groups
 3407d826c18d9aed3c51545cc26ff9a2fda65463 firmware: edd: remove empty default_attrs array
 72a4a87da8f7bcf868b338615a814b6542f277f3 i2c: mpc: Avoid out of bounds memory access
 43d012123122cc69feacab55b71369f386c19566 rocker: fix a sleeping in atomic bug
-2e81948177d769106754085c3e03534e6cc1f623 staging: greybus: audio: Check null pointer
 c288bc0db2d1938691ef283ce61ae6122e562bc3 ethernet: ibmveth: use default_groups in kobj_type
-710ec044517e0b9f34203d885a3d18e6dcbe1e66 staging: vc04_services: rename structures bm2835_mmal_dev and bm2835_mmal_v4l2_ctrl
-d6776424667cbbfe15d2482a220b620d3257a9bb staging: vc04_services: rename functions containing bm2835_* to bcm2835_*
-eccbcf75a75b6b0327ae7aa6d2cf96a3b99eda84 staging: vc04_services: rename variables containing bm2835_* to bcm2835_*
-948d91b66b1f48e88774ba95cb392da0d4411b74 staging: vc04_services: rename string literal containing bm2835_* to bcm2835*_
-b33721baccd5d4e6651cd8f619524a316ff22cd3 staging: vc04_services: rename BM2835 to BCM2835 in headers comments
 710ad98c363a66a0cd8526465426c5c5f8377ee0 veth: Do not record rx queue hint in veth_xmit
 d5a73ec96cc57cf67e51b12820fc2354e7ca46f8 fsl/fman: Check for null pointer after calling devm_ioremap
 b38cd3b42fba66cc538edb9cf77e07881f43f8e2 Bluetooth: hci_bcm: Check for error irq
@@ -341,17 +352,6 @@ b38cd3b42fba66cc538edb9cf77e07881f43f8e2 Bluetooth: hci_bcm: Check for error irq
 14e2976fbabdacb01335d7f91eeebbc89c67ddb1 regulator: qcom_smd: Align probe function with rpmh-regulator
 709c81b55c6aa74a6cdad27bdc224f50962b6ad9 spi: spi-mux: Add reference to spi-peripheral-props.yaml schema
 72279d17df54d5e4e7910b39c61a3f3464e36633 Bluetooth: hci_event: Rework hci_inquiry_result_with_rssi_evt
-70d8e20c24a4ef42ee200cc7b7b93a01f0ebaa0e staging: pi433: fix frequency deviation check
-6b2ad1636995895dba74f9c65f4a5cb22fd3f677 staging: pi433: add comment to rx_lock mutex definition
-6a0d9b79bff6ff64bf65b66776af88b21c1ff581 staging: r8188eu: remove unneeded parameter from rtl8188e_SetHalODMVar
-d1dfe7fb11598a9575750a711bd2d0d06a2c1325 staging: r8188eu: rfPath is always 0
-e9a14094c724ab4d519882d6f67ba3e6b9cc38be staging: r8188eu: make Index24G_CCK_Base a 1-D array
-eeb35e4a2742e2a977d3d540873c25bd50dd2fbc staging: r8188eu: make Index24G_BW40_Base a 1-D array
-ef2efa86392a93c1d31a66dd8748eeaf78cb8ae0 staging: r8188eu: CCK_24G_Diff is set but not used
-41b7c4edff83bb2d8f622a0b426fefc6b076c42b staging: r8188eu: BW40_24G_Diff is set but not used
-2c02b728b648bab403fc9316fc984b5eab643395 staging: r8188eu: make OFDM_24G_Diff a 1-D array
-27aad6cef4b54f8fa8ea5cf0ef8acf2aa8058992 staging: r8188eu: make BW20_24G_Diff a 1-D array
-fa783154524a71ab74e293cd8251155e5971952b staging: r8188eu: rename camelcase variable uintPeerChannel
 b52fe2dbb3e655eb1483000adfab68a219549e13 usb: dwc3: qcom: Fix NULL vs IS_ERR checking in dwc3_qcom_probe
 34146c68083f1aef6709196b3dc888c1ceffd357 usb: dwc2: do not gate off the hardware if it does not support clock gating
 92ef98a4caacad6d4a1490dda45d81ae5ccf5bc9 usb: dwc2: gadget: initialize max_speed from params
@@ -1082,4 +1082,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============5552023606562201621==--
+--===============3906040270188589813==--
