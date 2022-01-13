@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 13 Jan 2022 16:02:09 -0000
-Message-Id: <164208972943.5199.11507738070610961632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 13 Jan 2022 16:05:37 -0000
+Message-Id: <164208993786.7645.13914410039869651040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 180d0eb290a5d11e6d3d99fea0841ceae2893901
-    new: c3c66aa221fa73a4ccb13b1cc51c951a2c8f9062
+  - ref: refs/heads/jd/cleanups
+    old: ebe6088c173ac6fddfe6efc109ec12c81b2b3e9b
+    new: 0f1f72008a7514380e92c078eed00384fe411a55
     log: |
-         c3c66aa221fa73a4ccb13b1cc51c951a2c8f9062 video/fbdev/stifb: Implement the stifb_fillrect() function
+         0f1f72008a7514380e92c078eed00384fe411a55 random: de-duplicate INPUT_POOL constants
          
