@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0677384876302464667=="
+Content-Type: multipart/mixed; boundary="===============8843591049128138692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 13 Jan 2022 10:27:57 -0000
-Message-Id: <164206967795.19344.11870159693307640547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Thu, 13 Jan 2022 10:28:14 -0000
+Message-Id: <164206969420.19487.7961073965207761322@gitolite.kernel.org>
 
---===============0677384876302464667==
+--===============8843591049128138692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/for-next
+    old: db1b2a8caf5b4954aa62ead5b0580948656eac43
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-fa55b7dcdc43-455e73a07f6e.txt
+    log: revlist-db1b2a8caf5b-455e73a07f6e.txt
 
---===============0677384876302464667==
+--===============8843591049128138692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-db1b2a8caf5b-455e73a07f6e.txt
 
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
@@ -1051,4 +1051,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============0677384876302464667==--
+--===============8843591049128138692==--
