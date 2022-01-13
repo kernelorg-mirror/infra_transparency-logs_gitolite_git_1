@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7705057400937751026=="
+Content-Type: multipart/mixed; boundary="===============1384804775935593717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 13 Jan 2022 19:01:48 -0000
-Message-Id: <164210050819.17179.5835503022667449314@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 19:01:51 -0000
+Message-Id: <164210051109.17242.7722347553801842811@gitolite.kernel.org>
 
---===============7705057400937751026==
+--===============1384804775935593717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,69 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: df395c763ba08b8b4385481af07d5d1c658dd917
-    new: a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc
-    log: revlist-df395c763ba0-a333c5fa75fd.txt
+  - ref: refs/heads/linux-5.15.y
+    old: d114b082bef784345bfac1e1d5c17257005284f2
+    new: c9df4d832e2087ba1ddcdb5c8ea4857d1a89588f
+    log: revlist-d114b082bef7-c9df4d832e20.txt
 
---===============7705057400937751026==
+--===============1384804775935593717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642100506 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642100508 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642100505-88e4171b582e8e4893cd8437eaff0b0b7a819cb1
+nonce 1642100507-6d85c6acd7768bf6a322432e853e8b0a52ee04bf
 
-df395c763ba08b8b4385481af07d5d1c658dd917 a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc refs/heads/linux-5.10.y
+d114b082bef784345bfac1e1d5c17257005284f2 c9df4d832e2087ba1ddcdb5c8ea4857d1a89588f refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHgdxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B8gP/A4/5zFuOkluyAuz6bE1
-vdarPfI+EhxxO1FeVRMLCTnLu/IhWTj3Rhh4eKSu6jGH7o74gjsK8NcgeLw+/OLC
-Yww5ARUVqxBWXN1RC+8tPJ4/OHQaj5alVJdiVP88ZxulxvaucgIZTlGnHCMB4F3L
-4X+nqgPpLxF6mQVmXV4gfRsAKPzQ4dqCSlaciyb3SqMbgkhIUMrrjYxVjflu4w+l
-C7PJPWlB6ECFRR4cxgC+uMM+pefrz+LLahOvPvEQ2oaIXGawxdAyfIynv4BgmAqA
-5AgDG2gsmcgQJqAPcWEpATPSW4Owut9XK5iyd4AtXGqdyiI92H8hIIzvq/sSldP9
-F/A6CURNXEYcs4MfM6PCAJCxeE+lF5+y2UFXqz37BUVMpFsFepPdntMj8B4+skE2
-5Bqqhyys6cUCsOv7FNWUZ2yu26wkY1V3FhiYaFbruRa1hUVtHU2aP+Z71yCqrHk7
-955pIGasdMJYbu8IA5hJ6CMGYYbbK2DT6VrZ8TF1IW5/1e7Ile/lB/SdFZdoreO9
-eh/r5zhI4xkckHMHBySoZ9l2Xnc2y7Bv04IZNG4sLGZij1Xqf4z4o6SFLM2Omf3X
-jQ7x91naXz+73cY3jfl3G++KW0/yKk2Q/4CKU7NbhFv1WjHqHOvn+rWSMClA+04m
-viAQL1MXLDcPgFXYRCVDRyfd
-=6pp9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHgdxwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+x9YP/A3Th9VqZXjv3RqC/pwU
+dwyyjkgRqYOp8+vfnBRgnPDwyc6KvY/RiHoAo9YxDuuh5V8qFQxNMqH+JKC2bd9x
+G3rNbdcCFPctCTd1tUyWiKO0GC1WHCm9eYqyQ8MmxdNazxTxN1hPqUzmlSNemHoL
+0uO/3SjG/GJYuS3kpl7c46NQtbJSCRRvWI8GfqQsdBlBbw54155GZP7C/ltCpUzZ
+qFdoj8fNH95KOlfQ64aNuKBOD85Dd/bfi+4BI89FcUZ8/gXat18mG72veayZpwpR
+NcM3TvEqrRiTBNgGPdhL6O6vpbg742ADfRlQ6RDbJaaNJFYbJ8hCVUFsJWHJ2LQe
+i1SjzlfTxqcXkVbNWwCxj/uiRHddTKZxD9s9Uzj5JdMkGBOtMSm92yJOoS3r/H95
+OUv83nUxseVQ9xzsWQkaJi6cT4ObNZ2cNaLQb5XHEhsrwAFrG7HCABixXb9X/F8/
+ieZ0yz1ZHjdEm9G47i1JqdjIYgkSKcTDzeBEEuPJqvpXgS5PpbT2LFDL8WnbJikP
+L1imSinqvoi12zAWmWZ+/RRVuJ5Qn8Hn2kJgCUjjvYFfljf6WnmeOpf2qQiPchH+
+i21Fw1cjHyDrxWHK2IeIwkBRzxfOOXrVGTMlZdBRlhvy3UZPvy6j4MzFMnK1NSLq
+gxuPbmFXX1NqCyno97+avVR+
+=Xclf
 -----END PGP SIGNATURE-----
 
---===============7705057400937751026==
+--===============1384804775935593717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df395c763ba0-a333c5fa75fd.txt
+Content-Disposition: attachment; filename=revlist-d114b082bef7-c9df4d832e20.txt
 
-b9cecf5ab85a81ed995cc73915ae668a8d61a6d6 md: revert io stats accounting
-1ca5b228d90b8f793c996d7299112a3bbdfb740c workqueue: Fix unbind_workers() VS wq_worker_running() race
-619aa14b07c30d8bc19e8bc4e25f5345274bad54 bpf: Fix out of bounds access from invalid *_or_null type verification
-4bc8c3e1fb9f54a56a56262ad9fbb2a7982ea43b Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-542f7cb7e62da2cd84cd3deb5fcede3b3e098f6a Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-e1d240d374ed7b57d340ddeba3655b369f5e5fc3 Bluetooth: btusb: Add support for Foxconn MT7922A
-f8dc5f0c4ab3963c36e05994d6fd39c4c5fad8c8 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-5f2e8210675ee23bd922b9d6ed2d0477424e0fc9 Bluetooth: bfusb: fix division by zero in send path
-32a68ff0f678fe260f38d20a0ad4bfcfb3892145 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-2e52820934e8260e3e40b1456d786591c44024a6 USB: core: Fix bug in resuming hub's handling of wakeup requests
-ef79288107787db0682a7ae6e6b57cd689570552 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-7a89bda74934c6c49d9b0a77fc4739ce45f31a08 ath11k: Fix buffer overflow when scanning with extraie
-7c4f73a4c996bdeae335eebb4e79f31926452050 mmc: sdhci-pci: Add PCI ID for Intel ADL
-adb4f9ed5ffe628e82843c4430a262a2bc97f6d6 veth: Do not record rx queue hint in veth_xmit
-8c66a491f0336cb22a757211e3bcf52da1602c79 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-fedcb0cb854aa9de276d339b030247b2656c3f01 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-4ced37d088b891baa32f92ed5724526209c8a1af can: isotp: convert struct tpcon::{idx,len} to unsigned int
-89c31967a256d5003de7d442c6fd2f6a003f16df can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-daf29ec53af4dcf2cb9482d77cfcf36bd83af6f8 random: fix data race on crng_node_pool
-6c7f70f6f7f5b58353d12a016fdb2099631d94b9 random: fix data race on crng init time
-f38792ed788bba19375ea10682c006f2e25edbb2 random: fix crash on multiple early calls to add_bootloader_randomness()
-528656ac7ba1e8cb665c3d91e67b8a0f74515b97 media: Revert "media: uvcvideo: Set unique vdev name based in type"
-a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc Linux 5.10.92-rc1
+86ea94fd699fa53e10847422de175e79446b1560 s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
+c24279b63707b596d91bc25fe26f1638b2855cea workqueue: Fix unbind_workers() VS wq_worker_running() race
+b5a06ae182b4c02fdf3105513e0cd0ad48757893 staging: r8188eu: switch the led off during deinit
+3ec7e850f66814c5442a7d9cfb13d03758a505bd bpf: Fix out of bounds access from invalid *_or_null type verification
+64a3fd30090def7ccfbf841435efba6d7a4f17ff Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
+83adb213fb23558a2e01331d452b5c0d73b547e1 Bluetooth: btusb: Add the new support ID for Realtek RTL8852A
+9ba15c5d28ac35ad79b6f41ccbf9977bb9389da6 Bluetooth: btusb: Add support for IMC Networks Mediatek Chip(MT7921)
+92ecff2a5070629d7614c4c4b9b8dcf4018c06b8 Bbluetooth: btusb: Add another Bluetooth part for Realtek 8852AE
+84f1e0fd66c76e74f73e41c49f344117279e6e4a Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+1007c491df583d93279d4275ded498fb71e09355 Bluetooth: btusb: enable Mediatek to support AOSP extension
+06fae5a73c3dddaff712dd0a6dc0e55e2cf0cdd6 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+e44e55df6fa832a37b75bc7f2390aaeea28b5042 Bluetooth: btusb: Add the new support IDs for WCN6855
+57736b0afaa3218d0c1ee3d3bd7e2f050df66a85 fget: clarify and improve __fget_files() implementation
+a3ad6356f28649895c069e70ee811dab59b69946 Bluetooth: btusb: Add one more Bluetooth part for WCN6855
+d14b41fc967d6b4d722c97b967d3157787ec33a9 Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+971662ff5bdd1181bedafa5cb3254cc63e569f3b Bluetooth: btusb: Add support for Foxconn MT7922A
+77c61636c09c7aa5370a0a98c5018ae570cd0921 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
+339bd21e60dcf776963912e98981edf2f91e916e Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+c8681836e78301b56080daedf676bc930f91e102 Bluetooth: bfusb: fix division by zero in send path
+fa7c95193d39b26c582e8419a2a90fb14fe710b9 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+25fa342dcef339bb664619b4fe78b91f51c27d51 USB: core: Fix bug in resuming hub's handling of wakeup requests
+90402d450f67b0f5ff426cebf2efb0b4529e97c0 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+0652600f0d5be5274aed315b5eb8275630fc95ea ath11k: Fix buffer overflow when scanning with extraie
+019c6ed0d9f2bfe54be55a50fe9d40ba2549c306 mmc: sdhci-pci: Add PCI ID for Intel ADL
+a59441e8bd49b1675fe024b17cadc73017b54991 Bluetooth: add quirk disabling LE Read Transmit Power
+32e1ed6edf1e72f5dcc763896a409393f402fe2c Bluetooth: btbcm: disable read tx power for some Macs with the T2 Security chip
+f41a46f475a96dbfef4d1d47793e1ce3b90a0b1e Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
+d403eed7ed781dac43e34de6588ff03733ef4e9c veth: Do not record rx queue hint in veth_xmit
+b9f05e3ade1d3844710d57e35253c3089d427677 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+b54a94058ff4cc35bc2c14ed0be3bf6bbd2b9b78 x86/mce: Remove noinstr annotation from mce_setup()
+6ab28e4cbbb13741097c8b49e703e6a990ecedb0 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+d404e199bd26a11c8f86bda59caeba369cb4dfee can: isotp: convert struct tpcon::{idx,len} to unsigned int
+3949962a054db27427d4f264fab10d89a0af5e47 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+1dd776c2fe74f6e82a7a4630c30ef4fa73cbf973 random: fix data race on crng_node_pool
+0c8e051b2c3fd4de7fd1b4b26631f435b5a95286 random: fix data race on crng init time
+4fb662b4b891e9a0dcb072d0b0270a3e369f88fe random: fix crash on multiple early calls to add_bootloader_randomness()
+08025de51d28b73c04f325d58a5c28dfe926fb9e platform/x86/intel: hid: add quirk to support Surface Go 3
+7996f3a7ecc22d9f0e0beaf21b94c1ec4a105384 media: Revert "media: uvcvideo: Set unique vdev name based in type"
+c9df4d832e2087ba1ddcdb5c8ea4857d1a89588f Linux 5.15.15-rc1
 
---===============7705057400937751026==--
+--===============1384804775935593717==--
