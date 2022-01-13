@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8860280134730379594=="
+Content-Type: multipart/mixed; boundary="===============2964885721059669284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 13 Jan 2022 09:05:38 -0000
-Message-Id: <164206473800.16382.7926425197403634677@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 09:06:09 -0000
+Message-Id: <164206476997.16637.17348086785026667845@gitolite.kernel.org>
 
---===============8860280134730379594==
+--===============2964885721059669284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: b997dbb3f3e3608fa6e98365c988b059ba9f36a5
-    new: b3e60c5841922c6c70eeccd5adccfd3b39b89f14
-    log: revlist-b997dbb3f3e3-b3e60c584192.txt
+  - ref: refs/heads/hid_is_usb
+    old: af3dbd1886094f390518a8b6a27e7734dde0f301
+    new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
+    log: revlist-af3dbd188609-455e73a07f6e.txt
 
---===============8860280134730379594==
+--===============2964885721059669284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064735 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064769 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642064734-b67a91acbadb1d86e3f47b3ce9197d807f4c1ae8
+nonce 1642064768-d7582e449347327d5bf2afbc591130ef62c3bef5
 
-b997dbb3f3e3608fa6e98365c988b059ba9f36a5 b3e60c5841922c6c70eeccd5adccfd3b39b89f14 refs/heads/debugfs_cleanup
+af3dbd1886094f390518a8b6a27e7734dde0f301 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/hid_is_usb
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf618bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YEcP+wVRUwAqdEKACq6km38h
-j37C6ygIxWce15HuxyeH2A0l6ByeUWWrH8wivSo2PXytcc42h7XghyvbxO+iC3Hw
-yBIUwkykyZjzFEyEG9Ya80hNoXecS8sji0zF3tR/jccIiFV6zGMMiJ14V1vHAYHf
-D9Ydj4Oyn8iaECHPoWcFPCHr9cLyNgYPZ6kiSso0RJglCi493bAkidZX5Un6qdaN
-bZ28rBNdKVRWYhLn1KbGM/QWc863puwEN6K0YtDVCTrD8d1YzBLlOEuGp64E7gRc
-EPodFmryn/I9RNZrAS5eMrbTA3A9Y/wHkWdQcA8IH3C1AX5aJsv3KqNezjwSG8Mf
-P3lKZ0mNNOnIj5y2uyOgm2brMPbiGWAbRybqd6Keevc0j+AV8lg4aT6hvE5l0SLG
-dYNEiKliM/0kBpmEcSGvBs6zHOmmLb6NxXwd+RGGtUyZKnN+kRAzBAkwf/U8+rE7
-wOpza2TzeEE+kgML61xWf97XKPhX2jcnrip3KBRGsLfOtgIA4yXSEp2hrk2C+GKD
-jOEzIoREgFPplqc9SUP2JcVsCrov3qGvm/ejt6FeyiIhSC62Cb70YnFEwHDLzrQi
-fKIKJNyjpHv5UgXJcy5Lra2aObHzvpDkjwj2MSOmtokcuQovoXciWCF/IXUeJh3w
-AyayHSs2guCDm6bdehhA6LJD
-=qId9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf64EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MmIQAJ+Xq9j9VpwiQ6RzMBtQ
+TFFnCL/NaSRX08JvdA8xG1+sSVXsKrqObIbpZ8OBHWcHTRo2I1kjOCSKL+TOLrHQ
+6tD2xx385e+yu6EXLahQ8XUCs0bFyS31h+KGC1rpzBo9Fzy3S3F0bcsv/Lusz+E+
+1ivPWARxh4/kkuuVuakvIOhLMXD4E7KWEt+XZTOPzhUXeogLYg1YdF0ns7ErYYh2
+tZX/CYLBVsrYkC3PZq3jfn2e+CuR1qZhT/bf2uS01vKm6LblPI/ZuQ0ca6wxyB1Q
+kJ2A0BMSNWFIhCmAwG2kTdAewUb8rP0w4V8dp8L7dQ42EL+NXc+F9Vp2AsTqIdfj
+5YxUdGmy1uit6I8W0F0FWe4IuwRAq0fZS+30dG3RJ2PqMF3Hie+DoOuQbIL7pWek
+qT3TrygnFy2isYwbPqX0Ae60Vn7iOGs8aSBchjirhpWjJULWCWN9Ct95FC8iM4Ov
+TjFIRVFuUIgJjZSr2YNyDuMGzaM1VjSOkPF/xAObZN90fJBpzTcC6cwHLA9xwnfA
+m0sfj8ZEeZ0/ukZiyQdgKWFUm79YWUXfLgOkp1OEdz4Rs1RmvvJJr2IGMorYLu78
+WwW0c/U9MeDNlDEVZ32NO8yF+wZeJa9X+LuHx8FTAlIVxrsZMID9H81AHFwZ6ECT
+s3PXBaS+t/562CDxold2o3Yb
+=WRGo
 -----END PGP SIGNATURE-----
 
---===============8860280134730379594==
+--===============2964885721059669284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b997dbb3f3e3-b3e60c584192.txt
+Content-Disposition: attachment; filename=revlist-af3dbd188609-455e73a07f6e.txt
 
+3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
 b29f4889f8860486686adb056030215d413bb928 dt-bindings: display: st,stm32-dsi: Fix panel node name in example
 20f3507fdbf918353fc748aa99756955b8a273fa dt-bindings: vendor-prefixes: add OnePlus
@@ -1080,6 +1081,5 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 4eb766f64d120f0b80ec24282df789b7db2ff838 Merge tag 'devicetree-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-b3e60c5841922c6c70eeccd5adccfd3b39b89f14 firmware: remove old CONFIG_FW_LOADER_MODULE test
 
---===============8860280134730379594==--
+--===============2964885721059669284==--
