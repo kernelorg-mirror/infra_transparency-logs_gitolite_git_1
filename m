@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Jan 2022 12:52:24 -0000
-Message-Id: <164207834497.14787.6490347186947981276@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 12:53:33 -0000
+Message-Id: <164207841399.15250.17016450987365582356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: de2d807b294d3d2ce5e59043ae2634016765d076
-    new: 33cb0ff30cff104e753f7882c99e54cf67ea7903
+    old: 33cb0ff30cff104e753f7882c99e54cf67ea7903
+    new: de0e444706ed98f2a13275a988d8595184be6d5c
     log: |
-         d7b4303411025b675e8c0927307c578a0ce3f75c atm: iphase: remove redundant pointer skb
-         33cb0ff30cff104e753f7882c99e54cf67ea7903 net: mscc: ocelot: don't let phylink re-enable TX PAUSE on the NPI port
+         de0e444706ed98f2a13275a988d8595184be6d5c kselftests/net: adapt the timeout to the largest runtime
          
