@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2002867412222334116=="
+Content-Type: multipart/mixed; boundary="===============0677384876302464667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 13 Jan 2022 10:27:52 -0000
-Message-Id: <164206967274.19238.7310989110459336285@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 10:27:57 -0000
+Message-Id: <164206967795.19344.11870159693307640547@gitolite.kernel.org>
 
---===============2002867412222334116==
+--===============0677384876302464667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 9d5f0f6644b1404f40266a2682add712dc9931f5
+  - ref: refs/heads/fixes
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-9d5f0f6644b1-455e73a07f6e.txt
+    log: revlist-fa55b7dcdc43-455e73a07f6e.txt
 
---===============2002867412222334116==
+--===============0677384876302464667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d5f0f6644b1-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-455e73a07f6e.txt
 
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
@@ -1051,4 +1051,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============2002867412222334116==--
+--===============0677384876302464667==--
