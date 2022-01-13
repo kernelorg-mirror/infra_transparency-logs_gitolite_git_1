@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6923035063887331614=="
+Content-Type: multipart/mixed; boundary="===============2871880534669137821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 13 Jan 2022 13:00:12 -0000
-Message-Id: <164207881224.20937.6920362785021429411@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 13:02:12 -0000
+Message-Id: <164207893284.21775.8213888619867846256@gitolite.kernel.org>
 
---===============6923035063887331614==
+--===============2871880534669137821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,141 +16,159 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 9dfb0f001a6f5c09fc8cc77e2ee9835ac1dfd589
-    new: 23fd07a01c1f93c832cbda2d1eec193a18670d39
+    old: 23fd07a01c1f93c832cbda2d1eec193a18670d39
+    new: 71ea395fa16ff1377fa4c20762cefb87f1a08931
     log: |
-         55ff32297c4e9da730562415bec2364f694fadd6 Bluetooth: bfusb: fix division by zero in send path
-         122c32d4db1da77d251327fae1684d9d78f32f45 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         c3f6b330ecad6d46848fb42272d21c241e65f77b USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         23fd07a01c1f93c832cbda2d1eec193a18670d39 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+         434cb2d4bb17916e5275cad8b4c2e73753975034 Bluetooth: bfusb: fix division by zero in send path
+         63c5b3d95a3fda44663eb345a42977d290a0f357 USB: core: Fix bug in resuming hub's handling of wakeup requests
+         8e9e784c0526f69efeef1ad49e37b00cb51eef7a USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         71ea395fa16ff1377fa4c20762cefb87f1a08931 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
          
   - ref: refs/heads/queue/4.19
-    old: 2cc1ef20aab638195150dfb220254478af6ced9b
-    new: 3398a40fb55d0dc40de9e67d2975f65f32e748e4
+    old: 3398a40fb55d0dc40de9e67d2975f65f32e748e4
+    new: fdcb326e027a06bbeeb095e0f17f21be95635bd0
     log: |
-         976ee6cc5ef8884a78f9b7dc50761fe661cd00d3 Bluetooth: bfusb: fix division by zero in send path
-         b00f23bf2ff4ce66cbb910c0595e2859f9500937 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         5ce36d232d0264a077b1fa84929b6b609ae33d84 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         3398a40fb55d0dc40de9e67d2975f65f32e748e4 can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+         889985a7fb667392231544523191ccc580c1c318 Bluetooth: bfusb: fix division by zero in send path
+         b57f75f80b07af074baa24445a616701586f23e4 USB: core: Fix bug in resuming hub's handling of wakeup requests
+         a2eb037a1b01e7891bbf6cad5927b1e4a2bbf61f USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         b94b3669d48d6b0cc3756c4c00f5ddc4afb483d9 can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+         ea0b8443305751228dac0f880b3fb2874055ddc6 veth: Do not record rx queue hint in veth_xmit
+         fdcb326e027a06bbeeb095e0f17f21be95635bd0 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
          
   - ref: refs/heads/queue/4.4
-    old: c3f2df517d8ff00c045d8cc1efdcc29b75779dc9
-    new: 6aa2bc1c887f6cab1f19e831c274fe6c82e2fb44
+    old: 6aa2bc1c887f6cab1f19e831c274fe6c82e2fb44
+    new: 74db268207589c781349fdfdb4fe4985ba90d36c
     log: |
-         93c23422b33df8d50c8c69c733b299f63642f2a2 Bluetooth: bfusb: fix division by zero in send path
-         0d26069e272691a8363c5592b78af22394aba93e USB: core: Fix bug in resuming hub's handling of wakeup requests
-         082f36579e40d9f48b805a45ad437a46735f157d USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         6aa2bc1c887f6cab1f19e831c274fe6c82e2fb44 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+         05866d4949f333642d4a438eb78d2faa9467dc87 Bluetooth: bfusb: fix division by zero in send path
+         36ed1aa57cdd57967ed966382956b6c91927e9d6 USB: core: Fix bug in resuming hub's handling of wakeup requests
+         6637ed0748f45ddd80a77ebb6f20ad72982193fe USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         74db268207589c781349fdfdb4fe4985ba90d36c mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
          
   - ref: refs/heads/queue/4.9
-    old: c9c02bd1d416727391669192e9cb4a9b5b5b69e0
-    new: 94bffed7f9b1dd7c444f048b03bfd80e63cacbab
+    old: 94bffed7f9b1dd7c444f048b03bfd80e63cacbab
+    new: 61cf88c77874791af70e6cf17671f2ea2619499f
     log: |
-         382da7a2e7ef5d303a5631f83cd4bddbf733bc48 Bluetooth: bfusb: fix division by zero in send path
-         90bc656dd78fd239ea3cded51f526f2c77337ed0 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         dbd987566e844ab3cf1fbc38d5f7f40cd37ff2e2 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         94bffed7f9b1dd7c444f048b03bfd80e63cacbab mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+         f6fe5dd7e0d190411a3e7bdd3c1027b261098153 Bluetooth: bfusb: fix division by zero in send path
+         ae29565c2f57ef763f8dd2dcf65f41727bb9ead1 USB: core: Fix bug in resuming hub's handling of wakeup requests
+         b68675caef0701c8e60d038c27021f35114a0fac USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         61cf88c77874791af70e6cf17671f2ea2619499f mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
          
   - ref: refs/heads/queue/5.10
-    old: a892ba236709a3656990236fb3a0b82656afcb63
-    new: 16d8d31dc949d46ad254f3eaa4fef3c3d4e9aeae
-    log: revlist-a892ba236709-16d8d31dc949.txt
+    old: 16d8d31dc949d46ad254f3eaa4fef3c3d4e9aeae
+    new: 4ef1ec6a29c5376e4ee48786b7514a3610175ecd
+    log: revlist-16d8d31dc949-4ef1ec6a29c5.txt
   - ref: refs/heads/queue/5.15
-    old: a06ea66509031fab5802fce2596ae6ee86574d46
-    new: db0205581ccc2f41dae542442c3c69fa759c4acf
-    log: revlist-a06ea6650903-db0205581ccc.txt
+    old: db0205581ccc2f41dae542442c3c69fa759c4acf
+    new: e6ee5a0c58db79dabdad752bb4b6e6eecd76da8e
+    log: revlist-db0205581ccc-e6ee5a0c58db.txt
   - ref: refs/heads/queue/5.16
-    old: 79a10968a660aa1507c68086fa0fe90989301f19
-    new: 813d12da26aa9a2d146976947daa6a0c04a2851c
-    log: revlist-79a10968a660-813d12da26aa.txt
+    old: 813d12da26aa9a2d146976947daa6a0c04a2851c
+    new: b651ba865e72180b07979b1d845def14cf7b737f
+    log: revlist-813d12da26aa-b651ba865e72.txt
   - ref: refs/heads/queue/5.4
-    old: 24ac0dd64c43485ceb524a9606fb30b9531b4f01
-    new: 32ca8dfc3ddc65f41329b8020b1b6a2dc0e21d27
+    old: 32ca8dfc3ddc65f41329b8020b1b6a2dc0e21d27
+    new: 82a194512134efa9ff88203e387a8c31a695604c
     log: |
-         bd35d63b1d2ef161e8154cd4fa2dc03d90db0902 workqueue: Fix unbind_workers() VS wq_worker_running() race
-         3b287f86f9ebb9289b4d38a9d7c4c925346fe9db Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-         031a00ecc461bb848313224394d5c712cbe0e6a8 Bluetooth: bfusb: fix division by zero in send path
-         01efed869f9e0d7d25b48d4814b89131e80a7729 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         d31a13ae87109df222816e5c4dc393465e5f9d55 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         32ca8dfc3ddc65f41329b8020b1b6a2dc0e21d27 mmc: sdhci-pci: Add PCI ID for Intel ADL
+         57d0051d049bba109e06ea55f59b3eb374dd79c6 workqueue: Fix unbind_workers() VS wq_worker_running() race
+         f4e0a04db44d31d59768f0291604eee66b3c1a20 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+         a1e8dc7e114448b6288caa9198aada4cc198474c Bluetooth: bfusb: fix division by zero in send path
+         853f48d2b87076a2737d386b8934d7217eb5a691 USB: core: Fix bug in resuming hub's handling of wakeup requests
+         b4ac65c2ebcd714709b9f9d7b45692d8b2e8bdf2 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         40c219d3cbc899b27135b6c63a742c06360b3388 mmc: sdhci-pci: Add PCI ID for Intel ADL
+         34c1a32365f1a06b58d18c92402831bbb75cbf88 veth: Do not record rx queue hint in veth_xmit
+         82a194512134efa9ff88203e387a8c31a695604c mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
          
 
---===============6923035063887331614==
+--===============2871880534669137821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a892ba236709-16d8d31dc949.txt
+Content-Disposition: attachment; filename=revlist-16d8d31dc949-4ef1ec6a29c5.txt
 
-1706d2fe5b72513b506ac9c8503b282be9a07fe6 md: revert io stats accounting
-a5d1c1ea4cdc2326db7d90a792d4a3481c090111 workqueue: Fix unbind_workers() VS wq_worker_running() race
-e53ef771cb099f0220ac158c9ce2252efcb937f7 bpf: Fix out of bounds access from invalid *_or_null type verification
-922429d6a7ba04edbde0c783c4a4c5cf43c592a7 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-b756faf8a41df325a6b8aa55ca9107cff30c25cf Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-a36426a260ea5a37421f4a75b0954cdc96d7acd1 Bluetooth: btusb: Add support for Foxconn MT7922A
-89792c717ce5a911b0b5e801d4340463b290906b Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-bdba6e55530382da611eb4337c47bbb89bf6ac05 Bluetooth: bfusb: fix division by zero in send path
-a5058bb0cfce53fdde8fc12979b24b8d32a0fee3 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-6391adcc1cef90d7475e410fd98796979cb12757 USB: core: Fix bug in resuming hub's handling of wakeup requests
-8ed18bb8492d531f890825f8206aa3dd1f60524d USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-5e888fb42bfb83c71690e3248ed41d38e8508920 ath11k: Fix buffer overflow when scanning with extraie
-16d8d31dc949d46ad254f3eaa4fef3c3d4e9aeae mmc: sdhci-pci: Add PCI ID for Intel ADL
+4776f50a1ca7f737f43335024e6c904394a82333 md: revert io stats accounting
+dc70426aa4fc9db839e4f7502f1c3edddd1ff950 workqueue: Fix unbind_workers() VS wq_worker_running() race
+813511bb1a2253699810f58ca464229b83f3ad73 bpf: Fix out of bounds access from invalid *_or_null type verification
+fc1911a5e0642dda32d0171f839d9764526ee8c5 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+ca267622de8e0f7c7ef71535baafbcdfa317055e Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+9aec9c737810bc1819da2727a229b9bc72432473 Bluetooth: btusb: Add support for Foxconn MT7922A
+55b09661a2ead34f4a92f68ef69c1f4b7a3e0087 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+e766e5701ee14f45c9f32e2a4c08f9f91454adb7 Bluetooth: bfusb: fix division by zero in send path
+265e6017bc0be47a2d76247157686a5816cf7d79 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+d98cfd615ff6a8607c0fbb8746fe9653ea446b10 USB: core: Fix bug in resuming hub's handling of wakeup requests
+86e3628925be6890cc1570fc06d76241984ff079 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+41e9c74ad8de32ac59cedc5893c541fa2650bef9 ath11k: Fix buffer overflow when scanning with extraie
+683dddd45c5cc3352efc5dcd6d2a4b9ea940c9cc mmc: sdhci-pci: Add PCI ID for Intel ADL
+97aec0f53130118a8beee6730cc653c971afe9ec veth: Do not record rx queue hint in veth_xmit
+4ef1ec6a29c5376e4ee48786b7514a3610175ecd mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
 
---===============6923035063887331614==
+--===============2871880534669137821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a06ea6650903-db0205581ccc.txt
+Content-Disposition: attachment; filename=revlist-db0205581ccc-e6ee5a0c58db.txt
 
-2c9a65b9a59c5d630c1f03bbf0c18066b3d86ae4 s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
-4267d7c5a9bbd383642bfc377697e22c4e1861fc workqueue: Fix unbind_workers() VS wq_worker_running() race
-7162838fd1378122169a212fa37f50c2139aa8cb staging: r8188eu: switch the led off during deinit
-3ac5510da2880a35125a654ca1bc038d36e349a3 bpf: Fix out of bounds access from invalid *_or_null type verification
-00b0318d870bf4189f5425dfd8b73438c0a36fcf Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
-551c9922885cad12f7a15f306c29e67b0bc9bc5d Bluetooth: btusb: Add the new support ID for Realtek RTL8852A
-933a958480194e1503f5c1d7ae83923d3bdfeab4 Bluetooth: btusb: Add support for IMC Networks Mediatek Chip(MT7921)
-c2d184a36db95e50338c1e4023383d70008eed18 Bbluetooth: btusb: Add another Bluetooth part for Realtek 8852AE
-7d2538ec2ff344178678795f0247488164cb5195 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-20164a3c7ababac897a4d8c983ec512e108b2409 Bluetooth: btusb: enable Mediatek to support AOSP extension
-37cffa618d339345662530f5afce186c862f0439 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-541dd0a6cccf4b2c6df0d43cd9885702ff31fefe Bluetooth: btusb: Add the new support IDs for WCN6855
-65421734c737c877db6770d04f7d8ea800421525 fget: clarify and improve __fget_files() implementation
-ae9ea6e821838d8d6246f809d33cf73573790321 Bluetooth: btusb: Add one more Bluetooth part for WCN6855
-70e7d04b2a950c394cec67a5bed30963787ad507 Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-91f9fdd881e2684b35d35961b0f4fa9125945c57 Bluetooth: btusb: Add support for Foxconn MT7922A
-51a289d089afa291cd0e298b62a9e2138166d5ea Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
-c78dc10d1da935e05506545e54a8d2e1ce15977b Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-99d7e8b636a1d7994b6f8c17739e5c53d2bd85f0 Bluetooth: bfusb: fix division by zero in send path
-732aaf3ea44828d1cccc41f5909b593ac43c817a ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-21ef554fa75d13767af54bb02ce41fa31c418944 USB: core: Fix bug in resuming hub's handling of wakeup requests
-f19b2a34043b53b57541ee54aa10b701ee127a5a USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-5bf5e39c3f853dda3b71e416c874d8b5930ca58f ath11k: Fix buffer overflow when scanning with extraie
-db0205581ccc2f41dae542442c3c69fa759c4acf mmc: sdhci-pci: Add PCI ID for Intel ADL
+e966d59a2b8924b9c69d51b8444dba6bc9edb60b s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
+9fdef0f5174c56e4f5431f648475b7c32ddf4c2d workqueue: Fix unbind_workers() VS wq_worker_running() race
+9b0f9d047316c5c9e55bec286ad43735dca75264 staging: r8188eu: switch the led off during deinit
+e66cfc4919899fd31d33b32064ee8aad9721944c bpf: Fix out of bounds access from invalid *_or_null type verification
+7f648c368948be929920aa887f75e81b79ca2886 Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
+1e376ea41bf8e6f907c49d7e21c26b2843af80d8 Bluetooth: btusb: Add the new support ID for Realtek RTL8852A
+2633865cc9f407ea8f4ed053568dfb87c7f4d3ef Bluetooth: btusb: Add support for IMC Networks Mediatek Chip(MT7921)
+ef2e8ca53422e29b471037703419e4e4189f50eb Bbluetooth: btusb: Add another Bluetooth part for Realtek 8852AE
+60fbc294e25cede4815f0eeb426e1826470de6e6 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+d5f9b6dfe6dc783881597ad099e510b93dff86bc Bluetooth: btusb: enable Mediatek to support AOSP extension
+71b7b3f45b8d654f55daa569a438c74954b2de6e Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+8b923a5bdae9b8a9770888c8dbb08220f07bfaa9 Bluetooth: btusb: Add the new support IDs for WCN6855
+7c2fc484f972c2f6e8e6c1e9d3457944fabc497a fget: clarify and improve __fget_files() implementation
+ff9a63128776857e802d64065a81ec19fa707d06 Bluetooth: btusb: Add one more Bluetooth part for WCN6855
+37427d3108bf1b7932673fccd52fb5e4dfc4a8d9 Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+f19ac12b4487f93c0a0760199e343f7cab31679a Bluetooth: btusb: Add support for Foxconn MT7922A
+85e03f57b8c19174626e80bec99c40c0a71e1317 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
+9869664757fbdf6bb19e5a4ea600a6a6575c6ce1 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+088e7da8c5af3add9e7f06d9636a597bc66fbfab Bluetooth: bfusb: fix division by zero in send path
+5190bc19e2f793d0a1ac16c79f41221bb657dabd ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+803925788eaa24682cb095332c3eed5eb8a3d60c USB: core: Fix bug in resuming hub's handling of wakeup requests
+37f1a113bbc762dd7a7e578811d18872c36f7c49 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+ef7af3d936f5cd8aa58280292d2b965f430737f5 ath11k: Fix buffer overflow when scanning with extraie
+e9bee2c6afc5459b3b3e66f71e034e4d682c0083 mmc: sdhci-pci: Add PCI ID for Intel ADL
+b0766063f8b0e088104a87905b323701c2982fa2 Bluetooth: add quirk disabling LE Read Transmit Power
+5abcd98f3963c750d0486ee6b56381933afd42fd Bluetooth: btbcm: disable read tx power for some Macs with the T2 Security chip
+53b62b7e72355475cd87fa7b104a8f2cd844c23c Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
+4001090420166560fde77085f802e474635ed2ae veth: Do not record rx queue hint in veth_xmit
+bfe0ddbd3e8026a48e672a9edc6e36590f0fbda0 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+e6ee5a0c58db79dabdad752bb4b6e6eecd76da8e x86/mce: Remove noinstr annotation from mce_setup()
 
---===============6923035063887331614==
+--===============2871880534669137821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79a10968a660-813d12da26aa.txt
+Content-Disposition: attachment; filename=revlist-813d12da26aa-b651ba865e72.txt
 
-5061b92649eab7d7f2ecf9b863f1318336369d69 workqueue: Fix unbind_workers() VS wq_worker_running() race
-a93811100f6509e358c2eb89ad15b13bdabb5659 workqueue: Fix unbind_workers() VS wq_worker_sleeping() race
-c688c31096e93b79edc978c1b29fef07e2a9acd9 staging: r8188eu: switch the led off during deinit
-2681a85c8f2aa904a0fdb2d83a5590e9a880fa39 bpf: Fix out of bounds access from invalid *_or_null type verification
-fcc8800a7552908cbc3eb2385842f99b4bb889cb Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-227da6a60ce5f71af4396958de55ae133480bbe8 Bluetooth: btusb: Fix application of sizeof to pointer
-fda7c6f42b7ee521ea36add2c536130c2e6ad012 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-a47df8df1974b9c3dcd17575e90a2acb67580f85 Bluetooth: btusb: enable Mediatek to support AOSP extension
-e3113f39e1ae5633a13a32abda658f91156db775 Bluetooth: btusb: Add the new support IDs for WCN6855
-e043ab4884c99286e77023023721488855da88f2 Bluetooth: btusb: Add one more Bluetooth part for WCN6855
-1deddf57f84029bb7ff7269c2a6e801162510467 Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-621cc33c028ca8db2300a3b2ee0acf505c82b241 Bluetooth: btusb: Add support for Foxconn MT7922A
-4a70d9b8c0cb515746809b17b4c1ac165863eb95 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
-9f671d78b364670008ae083c8606bd947a6aba9d Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-b29103ce0f6e959f6ae3735e63486134ee128bf4 Bluetooth: bfusb: fix division by zero in send path
-c59bcd79b70acf49ff6fa24739a48801e4004b74 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-e3b2974e8505a1074cda0bb4ef5a2cb05e946be0 USB: core: Fix bug in resuming hub's handling of wakeup requests
-716e3d39c113ecb2b8f2857648942fa8705c955e USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-dd7c4a21708739d8af39b2cce6d8aea902f43a77 ath11k: Fix buffer overflow when scanning with extraie
-813d12da26aa9a2d146976947daa6a0c04a2851c mmc: sdhci-pci: Add PCI ID for Intel ADL
+6a5dd65ff57372efe53c2d10ba67fdbfe0df0405 workqueue: Fix unbind_workers() VS wq_worker_running() race
+cfe13438c3eee2453c8a98ac1c5127c836e87b91 workqueue: Fix unbind_workers() VS wq_worker_sleeping() race
+b439ba64e5e20868e85ecfcc263334895ccb4367 staging: r8188eu: switch the led off during deinit
+5becf4dc75904925cd4dc74720707294ffd3daaa bpf: Fix out of bounds access from invalid *_or_null type verification
+af589a04e03eeacdbf7ee127036f6b55571ea62f Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+0339f18b89e4266a603f8e5851d65da21142d817 Bluetooth: btusb: Fix application of sizeof to pointer
+c4f1dc0e21ccb7b5401b56a3e24dc75a4656dd75 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+8f55ddde9110d44a160ebaded0d694769582e4ba Bluetooth: btusb: enable Mediatek to support AOSP extension
+4cf18dd1fa07b37c512d232798bc0c3391266c76 Bluetooth: btusb: Add the new support IDs for WCN6855
+51e5f3ccea923b9d0ebc3a55d77707b7cac43f3a Bluetooth: btusb: Add one more Bluetooth part for WCN6855
+ed2899a12aa7526fd46677a6bb6c28b8d3ed2bca Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+4b4e32df13bcf6f97e0e460e6ad1ca43ca853b42 Bluetooth: btusb: Add support for Foxconn MT7922A
+3f78a832272435a061cbc6c01d4a2fa0014c2075 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
+5faca7569d5ef16864771e2de6d9c48db37742bb Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+43861b18b95203c4014755f8a1b0b2a511023325 Bluetooth: bfusb: fix division by zero in send path
+0fad04ee3090766d88fae1057b004485aa5bc80d ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+562139dfda4bc851c4d4b0219b9606afd8f2fae5 USB: core: Fix bug in resuming hub's handling of wakeup requests
+0c93f8358e20a828d2dfb41918e22e3be0480bdb USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+c4fbca43c65adaa870a763a606f77479597d3faf ath11k: Fix buffer overflow when scanning with extraie
+46e49999e53b44b0f5d3dd2235fb0ac06a5669da mmc: sdhci-pci: Add PCI ID for Intel ADL
+bb2352a274b8865cce9c6b51462624616efbfaa1 Bluetooth: add quirk disabling LE Read Transmit Power
+a5f02a38e264ab1b7bbcec31aa3f1d5edd78f731 Bluetooth: btbcm: disable read tx power for some Macs with the T2 Security chip
+8cba3abf910399ca0e99dc8ae2bb7ac5eb8c2cb4 Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
+63b5bb87159090fe5c143d5b565082c1e0cd0fdd veth: Do not record rx queue hint in veth_xmit
+0e9cca5c5fafc3fb358b6ef2250d778cf5bc3f3e mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+b651ba865e72180b07979b1d845def14cf7b737f x86/mce: Remove noinstr annotation from mce_setup()
 
---===============6923035063887331614==--
+--===============2871880534669137821==--
