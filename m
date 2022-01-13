@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/balbi/usb
-Date: Thu, 13 Jan 2022 10:05:01 -0000
-Message-Id: <164206830137.4106.7986327992717228909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 13 Jan 2022 10:10:10 -0000
+Message-Id: <164206861016.8367.6709886963325224046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/balbi/usb
-user: balbi
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/v5.14
+  - ref: refs/tags/timers-core-2022-01-13
     old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
+    new: 03766d3a5f3c55b68c661db268f1b5da340d9229
