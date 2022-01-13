@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2362681467810352064=="
+Content-Type: multipart/mixed; boundary="===============8833449827294763019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Thu, 13 Jan 2022 08:29:11 -0000
-Message-Id: <164206255167.23075.2530419525468883195@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 08:29:14 -0000
+Message-Id: <164206255494.23137.4057379454041155038@gitolite.kernel.org>
 
---===============2362681467810352064==
+--===============8833449827294763019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/spdx-linus
+    old: bc128349588d571b55bfec471a773e29cfcd2d73
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-fa55b7dcdc43-455e73a07f6e.txt
+    log: revlist-bc128349588d-455e73a07f6e.txt
 
---===============2362681467810352064==
+--===============8833449827294763019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642062551 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642062554 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1642062550-faa9ac0f13008221145ea22967ed33b16d1db68f
+nonce 1642062553-8cf5b5d46f2cb1a6e62ff3829e76c288a68bffd8
 
-fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/main
+bc128349588d571b55bfec471a773e29cfcd2d73 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf4tcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+06QQAIVnTw/ow5bZYKKPYpXK
-S109CCRldqcpCubck0qaIO/Y5woD3xCV6ADWny99AJiMI36AAf9KEqOuYSDnm8FB
-NQ+9O88aSz0c2ocri7htHiGNSiCw+Y3MnB7DMlF4vRM5rg8fBMsgiNupEYMBoL8j
-wRBTADW8VCYJ6cDQ5uMSUiXzefNREp2nSMJzjAG/aHBV5TQDvhEfdEbn9Ci4SPPE
-uknhoPn7fWI9+VV12syX8wWxzVRvbRwSd0VVrLFE62HWVbxF+yefJV+o2dL/5C55
-dRKEzOjNyaj7CI8nwCurVZvpzRW3nqZyaz0adTiZEF9wGH/a9/Op+a405Ugas8xK
-aITGlKP5GHG94yCL/QYzGDBH8hQs2FGUjGUVmZcjbRo3deTIw7VUtVOyBOM1qUHW
-pTHmaRUDQVrArmkP01bVHv7qbyJgJhJBXJRAil8n5W7kZGeb8JIu8ibuUakiZJ18
-rJY/zXUOgUlv4Yu5BX+hRyPcwH3pXXVjqfiSIeMqtBab8YEktGT9Yk9SqrFo59re
-1CvnjOIeTdeE+Huu8yiwDvYy3hP07rOTJveO0mWL44CRtsAz5aRiZgmb043DgpTW
-cY95Fsvcb6V+tKnd8C0tqBAiADPpRJXojRFTa8VOKNobEMIcd3o7hgnPHn/ap5x/
-0xGJJGSQRt/bYli7eJOLxI9C
-=VkgO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf4tobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n7YP/1zwr36T/X6q14aX5LYL
+E9PRRwKw59dWHSqwsetCEFQe//2DZHyPDwB00PZiLR4VCIhKCVjEsb2pRzWNFfxs
+CuFqZBHyJZ4foFEmddKMY8+G9LpSUePjLOfhX5bmls+NaHQHoZACloFq+miqJg1v
+VHp6DxZxNpArI682wUrPXi+RJuL2ejiOLvGsAhFabC9p8zYyO5LT/CPPS8Xqu7JV
+otLpn655KUqbYN6EWt0Wg1xrsr+Uk7gmTmwtJEVIK0G3yaf42YFvReR6XW6z8n8U
+4OhHjWoWT5UxdWJU0Z7n48G5Lw/BtbsOHt/qU8+KFIgSCIyfmtnWTIjTIabKXOVe
+yee6FhlaMP9x6WGQDtLyTdGla5M9tDOgL+1Fo7DBPLVr6nYcl0cXeRtqMjhZLZQp
+g7t+Bz+ZLBAAidI1ZweKzF4mHcwMNW5CPgiOWiSHra3m/5qdcTPkAWTJocmfhirW
+CcaI538CipLxpVEqhExPitLl/ptg9z+YFguXShRX/DGAJW+ea0PPSCamCOlQSh8W
+4QxqiFg9AOGZ9LAqLGxwZi+ikrmtiERfLAi1R0bpXwNfg2tsCre3VvDdxQo/OpR+
++waqQkul9RRoS0g6kOCNreDGWKo3zMdDZ2eBHHViHXsSxcBjcgnyhALRkKa+Ohxt
+7d7Iqzk366ZcMPFwpK0AqhuI
+=509n
 -----END PGP SIGNATURE-----
 
---===============2362681467810352064==
+--===============8833449827294763019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-bc128349588d-455e73a07f6e.txt
 
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
@@ -1082,4 +1082,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============2362681467810352064==--
+--===============8833449827294763019==--
