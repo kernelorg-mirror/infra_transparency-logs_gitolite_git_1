@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 13 Jan 2022 06:55:23 -0000
-Message-Id: <164205692384.30549.10591644568388148286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 13 Jan 2022 08:08:46 -0000
+Message-Id: <164206132630.9710.6010103939556027529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/wip-keys-fixes
-    old: 0000000000000000000000000000000000000000
-    new: becb5bbf5270f0f743e9b8b3d3af02601e3aa4e1
+  - ref: refs/heads/master
+    old: c506a4301f1dad35ad876396cb3e8d2171610aa4
+    new: 143750e2acfd41ddf994880c6e8862f696633814
+    log: |
+         143750e2acfd41ddf994880c6e8862f696633814 Thu Jan 13 08:07:03 AM UTC 2022
+         
