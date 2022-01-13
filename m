@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5084088831259749247=="
+Content-Type: multipart/mixed; boundary="===============2002867412222334116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 13 Jan 2022 10:27:45 -0000
-Message-Id: <164206966548.19143.10300725315526063278@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 10:27:52 -0000
+Message-Id: <164206967274.19238.7310989110459336285@gitolite.kernel.org>
 
---===============5084088831259749247==
+--===============2002867412222334116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 9d5f0f6644b1404f40266a2682add712dc9931f5
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
     log: revlist-9d5f0f6644b1-455e73a07f6e.txt
 
---===============5084088831259749247==
+--===============2002867412222334116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============5084088831259749247==--
+--===============2002867412222334116==--
