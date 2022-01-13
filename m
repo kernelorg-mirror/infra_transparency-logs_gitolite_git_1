@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 13 Jan 2022 13:17:04 -0000
-Message-Id: <164207982435.30593.17556044481955210273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Jan 2022 13:17:48 -0000
+Message-Id: <164207986822.30882.7996733538777259899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 6d18804b963b78dcd53851f11e9080408b3d85c2
-    new: c0dd94558d0e473aa92254e1c48a47900c911e69
+  - ref: refs/heads/master
+    old: 3ba8c6258eb19a6212b066a383788174dd9779ab
+    new: 20c9398d3309d170300d67643b851fd26783af24
     log: |
-         0ce05781f4905fcfbbb489519e36be71c7b0bbcc perf tools: Fix SMT fallback with large core counts
-         6dd8646939a770e4ec0220c1c19d6af25c5877b7 perf tools: Probe non-deprecated sysfs path 1st
-         f56ef30a31d388663e78b9be687d67748c9b7297 perf expr: Add debug logging for literals
-         c0dd94558d0e473aa92254e1c48a47900c911e69 perf pmu-events: Don't lower case MetricExpr
+         91341fa0003befd097e190ec2a4bf63ad957c49a inet: frags: annotate races around fqdir->dead and fqdir->high_thresh
+         ea89c6c0983c39702a4a52ccaa4702e0cb71179b net/smc: Introduce a new conn->lgr validity check helper
+         20c9398d3309d170300d67643b851fd26783af24 net/smc: Resolve the race between SMC-R link access and clear
          
