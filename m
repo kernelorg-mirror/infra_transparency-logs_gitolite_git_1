@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6133094868203098673=="
+Content-Type: multipart/mixed; boundary="===============5507879139000421230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 13 Jan 2022 09:04:08 -0000
-Message-Id: <164206464887.14106.13751357941188744240@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 09:04:12 -0000
+Message-Id: <164206465283.14271.12529321409132983873@gitolite.kernel.org>
 
---===============6133094868203098673==
+--===============5507879139000421230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,57 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: a7904a538933c525096ca2ccde1e60d0ee62c08e
+  - ref: refs/heads/tty-next
+    old: 93a770b7e16772530196674ffc79bb13fa927dc6
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-a7904a538933-455e73a07f6e.txt
+    log: revlist-93a770b7e167-455e73a07f6e.txt
 
---===============6133094868203098673==
+--===============5507879139000421230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064648 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064652 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1642064647-a3e18aa28aef8f2d5dd47af1a6e1adffde54d73b
+nonce 1642064651-ee17d10247e402ba771a3268387e5170555da42d
 
-a7904a538933c525096ca2ccde1e60d0ee62c08e 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/tty-linus
+93a770b7e16772530196674ffc79bb13fa927dc6 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6wgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PGYQAMxt36AKhlqFITbY5WaA
-YKyzCdzT0Psxmlfg+rxwByVXGAGBdWgWLu5hZHBh7uMl/aXnEwdiQWuW5enyj6i6
-WZTn22OfF+YPi44gt0L6Jt0PuPqRUkw3ilnPa2KES1y26KlcLFrexsLBSpZUnXJS
-nKNH1oYvs8K8wMJfj2RYA1LvLkZV48D+mOyUZVGgDPiTqKhPEucQOUdDjdvd6TiO
-0GlsM9D9kxjxN/MR01wejXjY3OAU7E1VHEoIAjQc+I7+K4sMGy328+qYelL8Tgk2
-VdqMRoXCdImzlEvcaleFR4aSnF4CQQq2DfnQF5JY8viROEyoSON0apEf8YLg/K/X
-2YzTROSpkPRtexM6zA4ZpdYiyUykOHxq+FipRr9tYGOwWja0mxQx+puRPEkq+C0h
-YQj6UfjgTV460a9MVGr6Mvfi/XUoNZF+XpcpIkzf+vsVG9sLXadPvrOx787NlQdd
-rCSwR+6mzAyAXjgtsPgZS65Km4vc17HM1XzbyRigniTi+UhQcukHi66WG2rot0vi
-sKy51V9DOQewK8fzYrT6Uo43IHigLpsB9i6V1gCo+lInZRPcbHNivOmCWFOO0hjD
-H7lxMMBbIcUg0C4YWcDCQf9/LpNniSpFQK0G+Vy5ER0m9rHX/koxqPHN2B2q3Wki
-KJTc3aU74uw+uk4iutrNjdmY
-=AOqQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6wwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dUwP/ROi0zXRceU+RzoGhbz/
+18/rFTWgmb8B2EZRzUls1503kw+feIsIImPOrpr9ZsZrWx+zyANDacU1bFFd0nWI
+JmqNbnJqpcv8EPr52yPSlpsFYwFcr5Fm22IzTTTWIgc94Er+PbaQ/6cyfH2c7S85
+BsdznpbCPvAk3bD972XZPv1b+KJB5857m1QopDFj9onBUWLDLEMmISiwMLtCUszx
+y3bJ9dIR69g0sJ5/yErod83b7Kl4a6rwjK0xXz1EZGyO5A33ZFE72FbEwdLQA5z4
+s1j8+lXYn0lkpd6JDHdvTd5gx+2eVEwT4hXxrs3+q3N8qzweeqkFxuAueV4x9J7O
+cmBg+RLgEBtkB8ao9B32UM3nrsgrG+AMM78H/Tw2DbfXR02bT5TTKCJT1Ym5Lh2x
+xVOLblfjh7fdaFGt/BRJkvnqp4StdNTGVXPWl+JkHIWvNJHkz3X6/4Fbb9YurVJM
+ZDnpB2sk0qjFym7fSZFJmEnQFFDeCLbcqAajnv438LVfu0tGlLDgqbUYS2SRq6X9
+DA0eGpzFp9kNZzbRGVM8GfYeEvrraDCEAPUljp6q6pBK9Eue8QrUzKDQTTQ32Yhs
+ZMJ2VoSFyCGCsY9YNZtsueFRHp3PvyZLiGEYMMxfwLcRC4d9BUElHRfvXihgLYru
+kLpzzgX8gIfvwKINEJSLlwGe
+=XIOp
 -----END PGP SIGNATURE-----
 
---===============6133094868203098673==
+--===============5507879139000421230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7904a538933-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-93a770b7e167-455e73a07f6e.txt
 
+85bca3c05b6cca31625437eedf2060e846c4bbad dm btree: add a defensive bounds check to insert_at()
+cba23ac158db7f3cd48a923d6861bee2eb7a2978 dm space map common: add bounds check to sm_ll_lookup_bitmap()
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+77e2a04745ff8e391ad402e2d2d1157a5d3a7ebc ACPI: PCC: Implement OperationRegion handler for the PCC Type 3 subtype
+14350ed95867c48f18dfbe86f91c9b9d1880e5c8 Merge tag 'clk-v5.17-samsung' of https://git.kernel.org/pub/scm/linux/kernel/git/snawrocki/clk into clk-samsung
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
 b29f4889f8860486686adb056030215d413bb928 dt-bindings: display: st,stm32-dsi: Fix panel node name in example
@@ -371,16 +381,6 @@ bcad6d1bd9177740176ea79f6d0fc9f5b07e0c43 HID: intel-ish-hid: ipc: Specify no cac
 0589e8889dce8e0f0ea5bbf757f38865e2a469c1 drivers/firmware: Add missing platform_device_put() in sysfb_create_simplefb
 f069c7ab6cfb07edf9e3dc2071928225587794f1 dm integrity: Use struct_group() to zero struct journal_sector
 eaac0b590a47c717ef36cbfd1c528cd154c965a1 dm sysfs: use default_groups in kobj_type
-0e479b460e342c5fe138391b29d7bfa0a6204af2 serial: 8250_bcm7271: Fix return error code in case of dma_alloc_coherent() failure
-556172fabd226ba14b70c1740d0826a4717473dc serial: liteuart: fix MODULE_ALIAS
-08a0c6dff91c965e39905cf200d22db989203ccb serial: pl010: Drop CR register reset on set_termios
-e368cc656fd6d0075f1c3ab9676e2001451e3e04 serial: pl011: Drop CR register reset on set_termios
-49a80424e3ec23ee2748f360348e167d5c748256 serial: pl011: Drop redundant DTR/RTS preservation on close/open
-56a23f9319e86e1d62a109896e2c7e52c414e67d serial: stm32: move tx dma terminate DMA to shutdown
-9a135f16d228857c5c1212a58050196883343d1e serial: stm32: rework TX DMA state condition
-2a3bcfe03725472607110507b6860d823e0deb41 serial: stm32: fix flow control transfer in DMA mode
-195437d14fb424a2ee50d51441181f16fd549789 serial: stm32: correct loop for dma error handling
-93a770b7e16772530196674ffc79bb13fa927dc6 serial: core: Keep mctrl register state and cached copy in sync
 74b86d6af81be73bb74995ebeba74417e84b6b6f spi: qcom: geni: set the error code for gpi transfer
 f8039ea55d4ccac2238a247a574f0acb3bc1dc4b spi: qcom: geni: handle timeout for gpi mode
 770b1d216d7371c94c88713824da4be4bc39a4e0 md/raid5: play nice with PREEMPT_RT
@@ -1082,4 +1082,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============6133094868203098673==--
+--===============5507879139000421230==--
