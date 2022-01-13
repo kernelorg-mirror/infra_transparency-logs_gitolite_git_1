@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7661467154582626376=="
+Content-Type: multipart/mixed; boundary="===============7705057400937751026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 13 Jan 2022 19:01:47 -0000
-Message-Id: <164210050728.17097.11069840114412235960@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 19:01:48 -0000
+Message-Id: <164210050819.17179.5835503022667449314@gitolite.kernel.org>
 
---===============7661467154582626376==
+--===============7705057400937751026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 0a4ce4977bbeea4560a1f32632650b388c834c8a
-    new: f92eff28192a2ec61af1498113bad4f7586d1905
-    log: revlist-0a4ce4977bbe-f92eff28192a.txt
+  - ref: refs/heads/linux-5.10.y
+    old: df395c763ba08b8b4385481af07d5d1c658dd917
+    new: a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc
+    log: revlist-df395c763ba0-a333c5fa75fd.txt
 
---===============7661467154582626376==
+--===============7705057400937751026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,46 +32,53 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642100506 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1642100505-88e4171b582e8e4893cd8437eaff0b0b7a819cb1
 
-0a4ce4977bbeea4560a1f32632650b388c834c8a f92eff28192a2ec61af1498113bad4f7586d1905 refs/heads/linux-5.4.y
+df395c763ba08b8b4385481af07d5d1c658dd917 a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHgdxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qQsP/1Vb2AXSDRTdJEngFvM5
-69vQAIWLFWZ7d+dSndwjuLtt/UnJw1gje7Zm5A7dXecLN5VC2hAXbHOGXhIFHIUM
-F61Ml8WjtNhULXUcyjBZ+vFanG/TMbzPoNGiQui54/ptkRr54v2mhvJlpoD1b8dg
-EJhUf72Rq9QhpClgHJ8fSoJt0rfEtK56Ys6WOl6Cw2q4S9P8ly7hK4ACDy2sKY71
-v5iPR7GJSakNRyz0Rup78h+tYX//xBJfBFgUrPWzd2sT3Tn1wwpgJsaP0v95KkAj
-HgH70fO0TZAahg0mA4N3pq9lIcFz+tty7Y7Uny9vvXZp0uFAIKCHd1dxbNidrSCK
-7uDkeO7fgbUi7NY5ONUzwdhPdxI6VDEmxax4Pad8/W1/Z35dlav2bG2kx/V30uo1
-7+cVVpMme2UXEfCNEnc2/OzNpTTLUKYUb81MBLT+MpAPjXldOo1/4snoAfPyhYIG
-5dCZI4opNkKPzLiM4YKi2vaOB4ZljHnWeQfMc1F1qWJ87QHzCUkvn0qMQEok4xCO
-ekwDk9Weo1CGyCMXkmi3S3phxCszwU6r2Z+/jL/023Hfs5xYftULH8U6faFYIzUg
-p3PO24uHtRRsiayi52ouLGt+4Pa9rkhcbEsKDXm3ywlQwnWRXZp8EC6kZsCwWtJK
-obVNZw3hYDzRDGjo/2uNtrUG
-=N9OG
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B8gP/A4/5zFuOkluyAuz6bE1
+vdarPfI+EhxxO1FeVRMLCTnLu/IhWTj3Rhh4eKSu6jGH7o74gjsK8NcgeLw+/OLC
+Yww5ARUVqxBWXN1RC+8tPJ4/OHQaj5alVJdiVP88ZxulxvaucgIZTlGnHCMB4F3L
+4X+nqgPpLxF6mQVmXV4gfRsAKPzQ4dqCSlaciyb3SqMbgkhIUMrrjYxVjflu4w+l
+C7PJPWlB6ECFRR4cxgC+uMM+pefrz+LLahOvPvEQ2oaIXGawxdAyfIynv4BgmAqA
+5AgDG2gsmcgQJqAPcWEpATPSW4Owut9XK5iyd4AtXGqdyiI92H8hIIzvq/sSldP9
+F/A6CURNXEYcs4MfM6PCAJCxeE+lF5+y2UFXqz37BUVMpFsFepPdntMj8B4+skE2
+5Bqqhyys6cUCsOv7FNWUZ2yu26wkY1V3FhiYaFbruRa1hUVtHU2aP+Z71yCqrHk7
+955pIGasdMJYbu8IA5hJ6CMGYYbbK2DT6VrZ8TF1IW5/1e7Ile/lB/SdFZdoreO9
+eh/r5zhI4xkckHMHBySoZ9l2Xnc2y7Bv04IZNG4sLGZij1Xqf4z4o6SFLM2Omf3X
+jQ7x91naXz+73cY3jfl3G++KW0/yKk2Q/4CKU7NbhFv1WjHqHOvn+rWSMClA+04m
+viAQL1MXLDcPgFXYRCVDRyfd
+=6pp9
 -----END PGP SIGNATURE-----
 
---===============7661467154582626376==
+--===============7705057400937751026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a4ce4977bbe-f92eff28192a.txt
+Content-Disposition: attachment; filename=revlist-df395c763ba0-a333c5fa75fd.txt
 
-7da544005b6f7cd3fc4319ca9a0266f33895ccc9 workqueue: Fix unbind_workers() VS wq_worker_running() race
-e50311c2eb1c3f719eb608f07daa9037e1d153fd Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-b544c446e9333cf98a4e2ce13a1c68b1d2f6c974 Bluetooth: bfusb: fix division by zero in send path
-0d6ea4917950e044423907878986c9bfb06bfc65 USB: core: Fix bug in resuming hub's handling of wakeup requests
-754ea98faebf335b1fbd5163ce37ac87e3ad9f41 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-c49fc40246ed6b1072cf0bc81bc6c21d37666c29 mmc: sdhci-pci: Add PCI ID for Intel ADL
-0cec29dd0ff29a59dca6bcaf8b8f37654d0fe71a veth: Do not record rx queue hint in veth_xmit
-7b5ea1a9d1f77998dde81876535aef34dd64d1b1 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-f6b95ed9238184986f73cea90c88830a9a8d98fe drivers core: Use sysfs_emit and sysfs_emit_at for show(device *...) functions
-28d253b2a617c26f7320e93af6460a2b6c343c20 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-b7ad95c126bfbc17a1d3645767b52da27ba5f525 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-6ff8b889ec243794e2697b3c8d930a597f5fd78d random: fix data race on crng_node_pool
-e2976457e7ec065eb1d7fd94e7e3810767031735 random: fix data race on crng init time
-c3a854c1503bb6a4fc9e461d613295c6ff0c1972 random: fix crash on multiple early calls to add_bootloader_randomness()
-0577e28df2361a58f3592d4b548d442af80b3f12 media: Revert "media: uvcvideo: Set unique vdev name based in type"
-f92eff28192a2ec61af1498113bad4f7586d1905 Linux 5.4.172-rc1
+b9cecf5ab85a81ed995cc73915ae668a8d61a6d6 md: revert io stats accounting
+1ca5b228d90b8f793c996d7299112a3bbdfb740c workqueue: Fix unbind_workers() VS wq_worker_running() race
+619aa14b07c30d8bc19e8bc4e25f5345274bad54 bpf: Fix out of bounds access from invalid *_or_null type verification
+4bc8c3e1fb9f54a56a56262ad9fbb2a7982ea43b Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+542f7cb7e62da2cd84cd3deb5fcede3b3e098f6a Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+e1d240d374ed7b57d340ddeba3655b369f5e5fc3 Bluetooth: btusb: Add support for Foxconn MT7922A
+f8dc5f0c4ab3963c36e05994d6fd39c4c5fad8c8 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+5f2e8210675ee23bd922b9d6ed2d0477424e0fc9 Bluetooth: bfusb: fix division by zero in send path
+32a68ff0f678fe260f38d20a0ad4bfcfb3892145 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+2e52820934e8260e3e40b1456d786591c44024a6 USB: core: Fix bug in resuming hub's handling of wakeup requests
+ef79288107787db0682a7ae6e6b57cd689570552 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+7a89bda74934c6c49d9b0a77fc4739ce45f31a08 ath11k: Fix buffer overflow when scanning with extraie
+7c4f73a4c996bdeae335eebb4e79f31926452050 mmc: sdhci-pci: Add PCI ID for Intel ADL
+adb4f9ed5ffe628e82843c4430a262a2bc97f6d6 veth: Do not record rx queue hint in veth_xmit
+8c66a491f0336cb22a757211e3bcf52da1602c79 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+fedcb0cb854aa9de276d339b030247b2656c3f01 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+4ced37d088b891baa32f92ed5724526209c8a1af can: isotp: convert struct tpcon::{idx,len} to unsigned int
+89c31967a256d5003de7d442c6fd2f6a003f16df can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+daf29ec53af4dcf2cb9482d77cfcf36bd83af6f8 random: fix data race on crng_node_pool
+6c7f70f6f7f5b58353d12a016fdb2099631d94b9 random: fix data race on crng init time
+f38792ed788bba19375ea10682c006f2e25edbb2 random: fix crash on multiple early calls to add_bootloader_randomness()
+528656ac7ba1e8cb665c3d91e67b8a0f74515b97 media: Revert "media: uvcvideo: Set unique vdev name based in type"
+a333c5fa75fdfdf285eea3e76fbb895aa4ba32cc Linux 5.10.92-rc1
 
---===============7661467154582626376==--
+--===============7705057400937751026==--
