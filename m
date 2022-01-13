@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7657321701279995326=="
+Content-Type: multipart/mixed; boundary="===============6487863249640656413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 13 Jan 2022 00:06:08 -0000
-Message-Id: <164203236883.28298.1093055908294949918@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 00:06:32 -0000
+Message-Id: <164203239205.28489.16690304241951915994@gitolite.kernel.org>
 
---===============7657321701279995326==
+--===============6487863249640656413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/for-next
     old: 7914e9624dd7ce17d3d3b1dcd6c3fe5d366b228c
     new: e928da321f0bd51f9cf211eab0a7b2fc089685a7
     log: revlist-7914e9624dd7-e928da321f0b.txt
 
---===============7657321701279995326==
+--===============6487863249640656413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ a49c0c3fc2537974d75b4fda5059a079c64731d0 ata: libata: Rename link flag ATA_LFLAG
 6977409c421bb114652c4c36ec7f8c9e32959796 ata: ahci: Add support for AMD A85 FCH (Hudson D4)
 e928da321f0bd51f9cf211eab0a7b2fc089685a7 ata: pata_ali: remove redundant return statement
 
---===============7657321701279995326==--
+--===============6487863249640656413==--
