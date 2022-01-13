@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4652209874869752182=="
+Content-Type: multipart/mixed; boundary="===============1332213674365126228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 13 Jan 2022 09:03:40 -0000
-Message-Id: <164206462002.13602.5628293031416634885@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 09:03:43 -0000
+Message-Id: <164206462385.13720.2766036730869543604@gitolite.kernel.org>
 
---===============4652209874869752182==
+--===============1332213674365126228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,58 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
+  - ref: refs/heads/usb-next
+    old: cbb4f5f435995a56ef770e35bfafb4bcff8f0ada
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-c9e6606c7fe9-455e73a07f6e.txt
+    log: revlist-cbb4f5f43599-455e73a07f6e.txt
 
---===============4652209874869752182==
+--===============1332213674365126228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064619 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642064623 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1642064618-75d5f46a292a3118ef8e5ffea1981a2ec2153ae9
+nonce 1642064622-ec45765dea985fe0d402119aa7c6b18682b93da0
 
-c9e6606c7fe92b50a02ce51dda82586ebdf99b48 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/usb-linus
+cbb4f5f435995a56ef770e35bfafb4bcff8f0ada 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6usbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++W0P/jndHCDwcshYSVmGFuvo
-UMYXGBLygflyUS2Tp+V323oCKPK1Ez0H+4smYz06yJTLiPHwBymLGTL6JeG42lH6
-54UwFKgiX8W8h5kLz6iIjhVwpJJAoU5G+IVBaI2ZfCLJjZ7ve/H8irWrE6nGxch2
-84DpstCVQuDMypwh1Y496JL2xM4A0HI0MXhx1/dYQFTR/INv8txe4CElS9uPL9BZ
-5xj3euD6L2G0uzmLxZu13JB8y4DnYaEpBHu1rxFekTsv08p7ojXD912fMCnz4b47
-STc013TSXf/3dDzrBycKaN87zVaolW7nV5pkQkeVdDc0Q1d2KOB9dk6b2ShYXRDB
-FGtMuNhB5yhxGkNOwdrEBzgH/PfApTqTdSFsPQUvqSy+U1BOa2WqbiSeyziqp55y
-6oq7lKObNeTLnvJFOvGEzSUIaXi/Ax1hz4pBQTHNZ8OJeFFtoR6ATc1lovfo0c7H
-qaCT+BYWW2e1Ry2ktWe8wpXoFVp6JdY2z8yHyT0yHr6wGBIAf+CUwsa+J5D35tFg
-KA/ILD9vBg/MYPGs/g6lajcGS6dnW49goYhEuMd5xoe+9AfSnyBgKqWKXtjS0HSi
-xYCAcpbAAIpOofeuMVbE881lD88Iw0OeQXF2nEXtm7o0m2TJM9TkVQCIjA2aozV9
-tubEqCE9nqgytokcCIlabBOi
-=3r3d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHf6u8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3i8QAM7DjySYxjXaUaedM1BV
+b9qiY2cezt0a8rE/IJd5pcageRDtft5cs+Uu6uwJpuDIu8+oJc0NsxDub428MCsA
+FREwDXBsk6p/5Hj7N1qe+Um+ePvJ8hVYM0AMkOtV7pk2sb96lU2o3UAp3OTZSUxf
+J6wJLj4F7yEpZp5K50/7YKJ13HvC6zlyILUZRypH0al8n6nL6Sn0yQzyEyFG6X5b
+X44ixGsxF9xB6oNwjVKoWXNWJ4tuFPPsezFnhSLsnotAHr4ZdH1LYvzXPagBKSD0
+L38M9rOFlrRvQ8hWj9wWGVaG0jwr7NxSGAswQtbcE3nOMv9TzqdUd1Lkec9yKQ+M
+R8pk+41TIdGwy1Hq2KFui3mWsOKugfwzgD6B95OHuoNMEvOcoNGjZVNAr4EDGKv1
+3N32P3EvCwIC80js4hMkKi6TNU5Wz3Jb2ikYSKL1GvmwyjgINyeA1o1YY419MqxS
+C7YhZELguKkEfN3ZpswYADa7NBJk+6HBBvo3n+mRFYYtJnbk6JyyrewFwKEWzZfy
+EVTKUs5a7ezstRO7vXrncduk4DNkN/aRt6XsNlwbrDwhI9c2PTf6+FrVMBjbJF8U
+qseLGADzEBPjtXEkl2JDEwbMscivGT5l7MdwwWtaZcExpBN37gi0MGKNn+tgrJFe
+0sXpRcxOH5lg6z1bve8f5ulQ
+=gvN/
 -----END PGP SIGNATURE-----
 
---===============4652209874869752182==
+--===============1332213674365126228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9e6606c7fe9-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-cbb4f5f43599-455e73a07f6e.txt
 
+c671ffa55d8b0dd3ed0a329e15dfe9c58f7483cd dm btree remove: change a bunch of BUG_ON() calls to proper errors
+85bca3c05b6cca31625437eedf2060e846c4bbad dm btree: add a defensive bounds check to insert_at()
+cba23ac158db7f3cd48a923d6861bee2eb7a2978 dm space map common: add bounds check to sm_ll_lookup_bitmap()
+754e4382354f7908923a1949d8dc8d05f82f09cb ieee802154: atusb: fix uninit value in atusb_set_extended_addr
+77e2a04745ff8e391ad402e2d2d1157a5d3a7ebc ACPI: PCC: Implement OperationRegion handler for the PCC Type 3 subtype
+14350ed95867c48f18dfbe86f91c9b9d1880e5c8 Merge tag 'clk-v5.17-samsung' of https://git.kernel.org/pub/scm/linux/kernel/git/snawrocki/clk into clk-samsung
+01cbf50877e602e2376af89e4a51c30bc574c618 i40e: Fix to not show opcode msg on unsuccessful VF MAC change
+3116f59c12bd24c513194cd3acb3ec1f7d468954 i40e: fix use-after-free in i40e_sync_filters_subtask()
+40feded8a247f95957a0de9abd100085fb320a2f i40e: Fix for displaying message regarding NVM version
+e738451d78b2f8a9635d66c6a87f304b4d965f7a i40e: Fix incorrect netdev's real number of RX/TX queues
+b712941c8085e638bb92456e866ed3de4404e3d5 iavf: Fix limit of total number of queues to active queues of VF
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
 b29f4889f8860486686adb056030215d413bb928 dt-bindings: display: st,stm32-dsi: Fix panel node name in example
@@ -156,11 +167,6 @@ ff91e1b68490b97c18c649b769618815eb945f11 net: dsa: fix incorrect function pointe
 cad69019f2f8c8c36006fa67b4b5ce04ac2e262b net: dsa: remove cross-chip support for MRP
 a68dc7b938fbbf3d4d74b81a9b5d0d6fdd78566c net: dsa: remove cross-chip support for HSR
 c487b6530ddf65790e1f7da34a107e9671404d04 Merge branch 'dsa-notifier-cleanup'
-452785d0400aa467a0ea7534e2bac206af552cfa headers/prep: usb: gadget: Fix namespace collision
-cd33707d0fd1b65c419f30816dd7f8123472caab headers/prep: Fix non-standard header section: drivers/usb/cdns3/core.h
-6184f15d877c6fec0af43ef3e10c10183758263d headers/prep: Fix non-standard header section: drivers/usb/host/ohci-tmio.c
-66b13ce8fe25341a8c4c8ceb00d611461ad86dcc USB: common: debug: add needed kernel.h include
-01ec4a2e8f01f027a0f06cad237c935da8d643bf headers/deps: USB: Optimize <linux/usb/ch9.h> dependencies, remove <linux/device.h>
 d94a69cb2cfa77294921aae9afcfb866e723a2da netfilter: ipt_CLUSTERIP: fix refcount leak in clusterip_tg_check()
 65e38e32a959dbbb0bf5cf1ae699789f81759be6 selftests/kexec: Enable secureboot tests for PowerPC
 af872b691926240fa5dcc6810acbdf053cd46ff2 Merge tag 'ieee802154-for-net-2022-01-05' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
@@ -352,11 +358,6 @@ ef2efa86392a93c1d31a66dd8748eeaf78cb8ae0 staging: r8188eu: CCK_24G_Diff is set b
 2c02b728b648bab403fc9316fc984b5eab643395 staging: r8188eu: make OFDM_24G_Diff a 1-D array
 27aad6cef4b54f8fa8ea5cf0ef8acf2aa8058992 staging: r8188eu: make BW20_24G_Diff a 1-D array
 fa783154524a71ab74e293cd8251155e5971952b staging: r8188eu: rename camelcase variable uintPeerChannel
-b52fe2dbb3e655eb1483000adfab68a219549e13 usb: dwc3: qcom: Fix NULL vs IS_ERR checking in dwc3_qcom_probe
-34146c68083f1aef6709196b3dc888c1ceffd357 usb: dwc2: do not gate off the hardware if it does not support clock gating
-92ef98a4caacad6d4a1490dda45d81ae5ccf5bc9 usb: dwc2: gadget: initialize max_speed from params
-f2f69bf65df12176843ca11eab99949ba69e128b usb: gadget: u_audio: fix calculations for small bInterval
-601a5bc1aeef772ab1f47582fd322957799f5ab5 usb: gadget: u_audio: Subdevice 0 for capture ctls
 f364c571a5c77e96de2d32062ff019d6b8d2e2bc HID: hid-uclogic-params: Invalid parameter check in uclogic_params_init
 0a94131d6920916ccb6a357037c535533af08819 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_get_str_desc
 ff6b548afe4d9d1ff3a0f6ef79e8cbca25d8f905 HID: hid-uclogic-params: Invalid parameter check in uclogic_params_huion_init
@@ -730,7 +731,6 @@ b9a8a4195c7d3a51235a4fc974a46ad4e9689ffd truncate,shmem: Handle truncates that s
 25a8de7f8d970ffa7263bd9d32a08138cd949f17 XArray: Add xas_advance()
 6b24ca4a1a8d4ee3221d6d44ddbb99f542e4bda3 mm: Use multi-index entries in the page cache
 94a4950a4acff39b5847cc1fee4f65e160813493 of: base: Fix phandle argument length mismatch error message
-cbb4f5f435995a56ef770e35bfafb4bcff8f0ada docs: ABI: fixed formatting in configfs-usb-gadget-uac2
 5d05b811b5acb92fc581a7b328b36646c86f5ab9 of: base: Improve argument length mismatch error
 2b35e9684d093569fd4743719bccdd7409eb9f8e of: unittest: remove unneeded semicolon
 da17d6905d29ddcdc04b2fdc37ed8cf1e8437cc8 of/fdt: Don't worry about non-memory region overlap for no-map
@@ -1082,4 +1082,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============4652209874869752182==--
+--===============1332213674365126228==--
