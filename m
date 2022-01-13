@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1098084521826182276=="
+Content-Type: multipart/mixed; boundary="===============1680494834959456110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 13 Jan 2022 10:28:19 -0000
-Message-Id: <164206969949.19576.11705309586118907392@gitolite.kernel.org>
+Date: Thu, 13 Jan 2022 10:28:25 -0000
+Message-Id: <164206970536.19634.9726432874253065919@gitolite.kernel.org>
 
---===============1098084521826182276==
+--===============1680494834959456110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
+  - ref: refs/heads/review-andy
+    old: db1b2a8caf5b4954aa62ead5b0580948656eac43
     new: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
-    log: revlist-fa55b7dcdc43-455e73a07f6e.txt
+    log: revlist-db1b2a8caf5b-455e73a07f6e.txt
 
---===============1098084521826182276==
+--===============1680494834959456110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-455e73a07f6e.txt
+Content-Disposition: attachment; filename=revlist-db1b2a8caf5b-455e73a07f6e.txt
 
 3cbadd20e3db4ca20901d0f05d921be55ad07237 parisc: decompressor: do not copy source files while building
 4d4ea94fa6fc8192f7855cba5acaa5e62a0b5e78 dt-bindings: memory: Document Tegra210 EMC table
@@ -1051,4 +1051,4 @@ ce990f1de0bc6ff3de43d385e0985efa980fba24 Merge tag 'for-linus-5.17-rc1-tag' of g
 d9b5941bb5933932051e315de18a43db7d3c9e13 Merge tag 'leds-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/pavel/linux-leds
 455e73a07f6e288b0061dfcf4fcf54fa9fe06458 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============1098084521826182276==--
+--===============1680494834959456110==--
