@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 14 Jan 2022 08:21:18 -0000
-Message-Id: <164214847824.4659.16273298930433713818@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:21:32 -0000
+Message-Id: <164214849287.4897.4380437456974035373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 37740baabe7af5df418b55a149d651bb8b9da616
-    new: ddf5396ebc9a031564a419957776c4ba743d38d6
+  - ref: refs/heads/wip-keys-fixes
+    old: bad91746aa261e30e2cc789fbbe3432af9c10615
+    new: e5a2f84f6d95aab8d57954bac00f539e9f92fa46
     log: |
-         4c4585e27c6b39c019d7d6c3c45f29c27d05b667 crypto: rsa-pkcs1pad - correctly get hash from source scatterlist
-         4b665addeee01d0eac311a858c71ccdf54479e0a crypto: rsa-pkcs1pad - fix buffer overread in pkcs1pad_verify_complete()
-         ddf5396ebc9a031564a419957776c4ba743d38d6 crypto: rsa-pkcs1pad - use clearer variable names
+         b138fcb6dffbc7fa1617954ad537164eded4d0d8 KEYS: asymmetric: enforce that sig algo matches key algo
+         e5a2f84f6d95aab8d57954bac00f539e9f92fa46 KEYS: asymmetric: properly validate hash_algo and encoding
          
