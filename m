@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5089536267208637169=="
+Content-Type: multipart/mixed; boundary="===============4496190848195888172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 14 Jan 2022 08:13:47 -0000
-Message-Id: <164214802772.30943.7490536777019375716@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:13:50 -0000
+Message-Id: <164214803044.31029.7959338131084588760@gitolite.kernel.org>
 
---===============5089536267208637169==
+--===============4496190848195888172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,88 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: d437a049187a7f0f69778761a43397e141ad9fbf
-    new: 69b4f0e36803c763ed3fc9df64e72acd5768b201
-    log: revlist-d437a049187a-69b4f0e36803.txt
+  - ref: refs/heads/linux-5.15.y
+    old: acb3481423d2dad442b8fa54d0821e8685ae5ed8
+    new: f019faab442d4c8d2842a984f38431ae14a59c58
+    log: revlist-acb3481423d2-f019faab442d.txt
 
---===============5089536267208637169==
+--===============4496190848195888172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148026 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148028 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642148025-0cdd772bb96ae8ee79b6da05197523328c686b94
+nonce 1642148027-b158e7131589db066cee75d3ed0e61ac9be0ccfe
 
-d437a049187a7f0f69778761a43397e141ad9fbf 69b4f0e36803c763ed3fc9df64e72acd5768b201 refs/heads/linux-5.10.y
+acb3481423d2dad442b8fa54d0821e8685ae5ed8 f019faab442d4c8d2842a984f38431ae14a59c58 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMLobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ug8P/j5g/3V720BOfD/QSGd2
-fmZRAY7NUYNU5F/5AnEs2UG31725VkRtlE5DwLRzXB0fyzY9K/H1F3VRj37C2XNk
-mt+QBNPPcmW61dl3BA2/cr5Xa1/olP/t+CcNNPhAhiWHj8ahBmNxoRdWStFTESob
-FaZLUvhwh9AjzYuK+K7XSnzxKHdeAf+nhLPwWcR0IQMphj4/dUCPpOyj7i9luGyb
-G8gzAkbLohxXkpn4KTISMr2h5WHzez+6r8nz98LJbRjFGNzhIax7Ly4eqC8f+PCl
-3dTfeMdjmXD7QOrcNMkSBfUd0O09RFbFAse+MiTgcoZ/9baII1SFs+Yscjq2nhaE
-JU1RW6TbIIx2csaqqSesCbZ1poGyNASjhwq3kZotOLYcRSmjRgPm/4erKc7yllfF
-jGRrt5gSsy+wNfrkM7kcOFHPNSZjyKq11xAg2+0J7Zgy6D5XDT1FTKmLqJxo/RmD
-ZwNcRNVMTXGjUrP2IBHMgQ4v1/psPsj+F3gtxRAUCu/yIiKQXOhkQeUXIuGgbl7d
-X067ijlYXMrgZ/xmxIC/hzRIX86irfx9gLMi01JKpZNwhlAjqOoS2bVjzoy8IrWC
-5ZPVPY/cO+WnsTe9IcF5Ps2gQYXzaEMSvscEX+X9+RmzHUXGwGKw4v4XJmkw4InY
-scPVAi7GCihwoRNYYM8Y47W+
-=MEqg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMLwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bfcP/11WEgj7XZeeNQmWRWpw
+dj2C51/fp93XWfEZ4Z/ZOzhGZvQ7MdcaBq061aOtLQz38cbeQyV0rG2ujWXFTnY8
+vZ4qAtHNxTgnPwglqMhkWElxWpm0mTD4pxg004E/8VQsHHD3SPa5OFCTx2ITWra/
+zLhxt1qWohgIP2J3yD6+57AF0iBC0ASw8NP4bvpQmc9+StmGBlC48NlVMsYnVs4Y
+p3hNhu2QXoNPgG0yW10QpehfAQg4VqXD6t4epatGxOeQaQgi+mNIIn7im/IzgCAo
+KiEn/MIRhjPyoQcEK8I2H3rM0pbM/2LMCsekwb3CbXguiDVyF0eAsjjYMeUivjr5
+x5Or7EQWcfm7d0xNCkkIEDLXVg0B/2H1e/fAr2PhGgttxucY8W+nqhb69HIE7nNw
+Vuf7JoddmlJlutFijo316nRKFk9MIlutyeIgXhuEELH+JtuYo2jt85jSrmLp1blP
+PXQ3dcpWJMsA18WcC1jFukVjJ3aRH5kx2WwgbzeUZliGYAh6ssmvmNzssYlgb+b7
+bg49nT46zcI7kLTGW7O0NotUbGENBJcIe+wY53t0ndisb8Xziz0v4/5IaP1xETdw
+xc/jIol6zVERMefhfQEfalnZPZxnamGJ/LNUTX4QP3ezsXFzjsjDrI0xSX1Vg7Tx
+a2eHdoLMHCTVk/R9hOs7WBF5
+=JP1P
 -----END PGP SIGNATURE-----
 
---===============5089536267208637169==
+--===============4496190848195888172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d437a049187a-69b4f0e36803.txt
+Content-Disposition: attachment; filename=revlist-acb3481423d2-f019faab442d.txt
 
-16dfdd8755139e2a588fdc5b1152d7b0443d55ad md: revert io stats accounting
-0bace54d5869446371d5815cb092ed41e70ff0bb workqueue: Fix unbind_workers() VS wq_worker_running() race
-4a25d25913c779d78ed3d163046669a97e03381a bpf: Fix out of bounds access from invalid *_or_null type verification
-ece396b5c181ac2f7d2823f9b0a1f1a6062892b4 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-da4dce9158dcae0d5c4bf683eeac5a1273d21369 Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-07862edfd23b02e6f0a328431bfed4347abc3fa0 Bluetooth: btusb: Add support for Foxconn MT7922A
-deb151152134a708a690945617813c39efb7f044 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-75979275e740a23d9b9d77c4c0ecaa43e5c4d210 Bluetooth: bfusb: fix division by zero in send path
-0a073c9d0bf4cb73b4378bc023e58d1a33886909 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-0589f4cb625ca02bce3ffcc8f756e838060e143f USB: core: Fix bug in resuming hub's handling of wakeup requests
-849f5399e9fbb78a91b32f3089365dd075e547b6 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-5e925e8a4d8686c787e9495d34bc2e73fcdc429e ath11k: Fix buffer overflow when scanning with extraie
-6a42c580cbeb6cde3101382c2557a9a64d3c6568 mmc: sdhci-pci: Add PCI ID for Intel ADL
-a2e4dce4408b722c874e5e0f8a19f02b6bb8ee85 veth: Do not record rx queue hint in veth_xmit
-bb6dd6c35495f9b4f4cad8917da8c68778440f6e mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-a681951671ba079d5a3c9e898f4116738ce34d0c can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-740f736a0a8320830ec8bc321250fe1c252f2419 can: isotp: convert struct tpcon::{idx,len} to unsigned int
-e01eb96ab874de99d22148c81dea7c9ee85edd16 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-df41e628afcc3d8fdc3479e9760c15801b319059 random: fix data race on crng_node_pool
-682a6bca0fe3abe7c2fd947108419369198bd7c6 random: fix data race on crng init time
-3d230485a47ea02e6bfe66514d3bfec6b7036f7d random: fix crash on multiple early calls to add_bootloader_randomness()
-08a3dda45d96bb2cfc255584dbd7b2d505a6fbaa media: Revert "media: uvcvideo: Set unique vdev name based in type"
-62f455230d54d0408a8e59760290e6a2e3411af2 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-35f6efae32f85e819b6f75569d1b9f16831d505e drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-44150f97871712d00ed8cb85fbc4fbe69743e878 staging: greybus: fix stack size warning with UBSAN
-69b4f0e36803c763ed3fc9df64e72acd5768b201 Linux 5.10.92-rc1
+8b2e93d7e93e5ce2b353da7bca0301ff6ebb7850 s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
+a7f7a498447ca2fcb52d22c6c7685be4bc8647e1 workqueue: Fix unbind_workers() VS wq_worker_running() race
+d4f438b74fba3e77cee5680f420589e130b0f832 staging: r8188eu: switch the led off during deinit
+36b66fbb7b10e385b38668e9bd6097f5c8af08f0 bpf: Fix out of bounds access from invalid *_or_null type verification
+ca9adb1d12d07ca76a9ce4fd571d4f0202d425ee Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
+f52d4e4b8feed8fee27c709029b8a161fa697af4 Bluetooth: btusb: Add the new support ID for Realtek RTL8852A
+791ae903c90773a7dbfdf30aae1617cdd5fce837 Bluetooth: btusb: Add support for IMC Networks Mediatek Chip(MT7921)
+c7f734191ce384b4d3d40d692b97dd5d64d91277 Bbluetooth: btusb: Add another Bluetooth part for Realtek 8852AE
+19caad6db8ca732d64a836f8585a0d234e131d1a Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+f67f6de1c2e1b2baf7ac3371f2892c4e38b1f053 Bluetooth: btusb: enable Mediatek to support AOSP extension
+b190d97875d1cca8ba8f2ee9177a26cdc0c6f4cb Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+452e77ca4061a61c08522fbd3023df1813fc6b89 Bluetooth: btusb: Add the new support IDs for WCN6855
+6c281a77e3d006b777f2c083dbb66f377b6b7db6 fget: clarify and improve __fget_files() implementation
+d6c769ba4ee2e648b7993b408db5edb8d3acdd3e Bluetooth: btusb: Add one more Bluetooth part for WCN6855
+6480ff08b20841ce200ae48860fccda6111e9aaf Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
+399a7be258b9498b6b73ebe54a9ea2d96dc67c9d Bluetooth: btusb: Add support for Foxconn MT7922A
+b11ff9f67f4fb35704a0e10fbaf4f3d686fe50d5 Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
+af1b839fb642f24f973722c9798ebcb24686a18a Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
+b53b05364e4237d8b64eac7033842680afeca514 Bluetooth: bfusb: fix division by zero in send path
+645b6a275b741ddeeb0e22fd50a927a5e024d72e ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
+331f325ccaee8e545ebeb0b7cd5d28b4d827a807 USB: core: Fix bug in resuming hub's handling of wakeup requests
+b5867b5d705a0e4f886f4d1ce16480bea1b8e198 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+333cbe904caa38918a3e8d720c78670ea27a0c20 ath11k: Fix buffer overflow when scanning with extraie
+cf880ffb75e3be41427f1e4b4071dadf3711daae mmc: sdhci-pci: Add PCI ID for Intel ADL
+22492e5e7fb62d21ef897e24e2bd1ec75ce00e3f Bluetooth: add quirk disabling LE Read Transmit Power
+d03db96c9e7c5a58e6d22da6d07c0fa76d1896af Bluetooth: btbcm: disable read tx power for some Macs with the T2 Security chip
+1ce2650a9901bf8517200e7d595790b26364fe11 Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
+e5549bacc3cf316439cf65641c23dc52931bcaab veth: Do not record rx queue hint in veth_xmit
+744bbcf406eb555f3a463d1e982f8f9585884538 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+6672d700db348a99948ce1b910c7fb650456d7fd x86/mce: Remove noinstr annotation from mce_setup()
+7a1f7d7e71ff1df3ea1611e7bd9f78d40edd78af can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+d2a164e491a8bbb98e698f5c89ea0707e5d8d4a3 can: isotp: convert struct tpcon::{idx,len} to unsigned int
+d20190e50e531517ce86c8f5168746b664eaccb5 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+d151df1133e82a39d3d5a7a196bb2bb41d4584a4 random: fix data race on crng_node_pool
+ba71a8019a966c6f37914666c8c74fe1b117cc3c random: fix data race on crng init time
+576d68739e383e7678a45bf9de36149f18d26e0a random: fix crash on multiple early calls to add_bootloader_randomness()
+7e3beabe5719077e70df01e271625bde84a935e9 platform/x86/intel: hid: add quirk to support Surface Go 3
+09aed6e77032c47e805cda37c41fb4c51686904b media: Revert "media: uvcvideo: Set unique vdev name based in type"
+6b07449c3d886882af762bd559de2abb9016690e staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+d679b5ed276c7171dfa211654f526a23dd396c68 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+e9c3596faa0ac060c5ea4df593401eb73bf8be00 staging: greybus: fix stack size warning with UBSAN
+f019faab442d4c8d2842a984f38431ae14a59c58 Linux 5.15.15-rc1
 
---===============5089536267208637169==--
+--===============4496190848195888172==--
