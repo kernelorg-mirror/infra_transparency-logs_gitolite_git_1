@@ -1,49 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0174802914053024750=="
+Content-Type: multipart/mixed; boundary="===============6663096459248801266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
-Date: Fri, 14 Jan 2022 18:11:29 -0000
-Message-Id: <164218388947.14473.2167119014499295851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Fri, 14 Jan 2022 18:11:31 -0000
+Message-Id: <164218389160.14536.12621417890509863992@gitolite.kernel.org>
 
---===============0174802914053024750==
+--===============6663096459248801266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/iproute2
-user: jkirsher
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/main
-    old: ade99e208c1843ed3b6eb9d138aa15a6a5eb5219
-    new: eb4206ecd0342ff92b1a85b7dae3d4fd1b5be1c6
-    log: revlist-ade99e208c18-eb4206ecd034.txt
+  - ref: refs/heads/mlx5-queue
+    old: 618a635637a98bbb2f07099cdbbdf10fd1fa2418
+    new: 5d616f44279bc20d119d8169fec13c990f147644
+    log: revlist-618a635637a9-5d616f44279b.txt
 
---===============0174802914053024750==
+--===============6663096459248801266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ade99e208c18-eb4206ecd034.txt
+Content-Disposition: attachment; filename=revlist-618a635637a9-5d616f44279b.txt
 
-a21458fc35336108acd4b75b4d8e1ef7f7e7d9a1 vdpa: Remove duplicate vdpa UAPI header file
-2d777dfe7b2e52823379a5defd9b33e6db6687c3 Update kernel headers
-432cb06b453a53c68d39e5fa4e9464f319a7e835 mptcp: add support for fullmesh flag
-99d09ee9a637b13f2123ba0154212afb81fafc43 bond: add arp_missed_max option
-4b301b87d774a85b01a965f7c8b73449a8e551be tc: Add support for ce_threshold_value/mask in fq_codel
-26113360b7635f5dc300fe1f3809421465710c14 mptcp: add support for changing the backup flag
-5cb7ec0c8d554a7ea32c2f924d7a2fc66af4544a Update kernel headers and import virtio_net
-9d8882d5d86fe7a7aadf843d17a3e67db7c9d24a vdpa: Update kernel headers
-a311f0c43a67be939dfafda563453a3f9bf30e42 vdpa: Enable user to query vdpa device config layout
-384938f9b00f2d203603e0919f23ae6857a14d96 vdpa: Enable user to set mac address of vdpa device
-167e33f3be88c0fbe206df25145b850ddf3897a2 vdpa: Enable user to set mtu of the vdpa device
-a1616593c626471214d56893c2440bbff1b24284 Merge branch 'vdpa-query-set-config' into next
-44ca91ceeca3dba0ee0620ce5c346bf5dbf8917a Merge branch 'main' into next
-b87671681e8aa9318e30c4e646419d96f1063d23 rdma: Limit copy data by the destination size
-bb4cc9cca40850370c1fe5ba79b3f7f186f379f1 rdma: Don't allocate sparse array
-126a1f7ad9681e857b5939462810bd62ffbc926f Merge branch 'rdma-clang-compile' into next
-ac2e91489506e64b383e2d30f554bf2cb4d77dce Update kernel headers
-db5305290c2fc8f266fbba7806e2bd2efee574e1 iplink_can: add ctrlmode_{supported,_static} to the "--details --json" output
-eb4206ecd0342ff92b1a85b7dae3d4fd1b5be1c6 q_cake: allow changing to diffserv3
+0e7a4d454688f882bb89b489c8e0472137743360 net/mlx5e: Move code chunk setting encap dests into its own function
+bef14ba7961ea7fae24e6191f1070b277cce815e net/mlx5e: Pass attr arg for attaching/detaching encaps
+9f36cb6478dcab2aa1b9e4a6f4e7a50c0dd793d9 net/mlx5e: Move counter creation call to alloc_flow_attr_counter()
+c246fdb71f4b4f2fd42c06be1d42568da57d1d6c net/mlx5e: TC, Move pedit_headers_action to parse_attr
+4bed43e5efb536a0220e31463e2affa709837d66 net/mlx5e: TC, Split pedit offloads verify from alloc_tc_pedit_action()
+0e62504c97f94a9ce471bcc085824a233651b055 net/mlx5e: TC, Pass attr to tc_act can_offload()
+e679f102032fcdf4b149e30e20b908cada3e213c net/mlx5e: TC, Refactor mlx5e_tc_add_flow_mod_hdr() to get flow attr
+607a07b7c41f3e6ac705d0fa543c86fb7d1ecc35 net/mlx5e: TC, Reject rules with multiple CT actions
+899e8bf0580b806a6c8544238fe3e5c5c6d33964 net/mlx5e: TC, Hold sample_attr on stack instead of pointer
+d3c705602904c2066aaceb70a9b8ff3340c2880c net/mlx5e: CT, Don't set flow flag CT for ct clear flow
+c5eff2bf418342f8566fc659eb77a37a7bab737f net/mlx5e: Refactor eswitch attr flags to just attr flags
+9442806fbe93dea812ab528396960aca434eb0a5 net/mlx5e: Test CT and SAMPLE on flow attr
+b837f77643f57f178df1be47a4abf61c80bfff36 net/mlx5e: TC, Store mapped tunnel id on flow attr
+96f66262dadf01a4eebc91a71f45369229cefd35 net/mlx5e: CT, Remove redundant flow args from tc ct calls
+cd994982eda70acbdc3d82735c29251ee9857147 net/mlx5e: Remove unused tstamp SQ field
+203305981537bce20316a1105f7be75bd180c49b net/mlx5e: Read max WQEBBs on the SQ from firmware
+7a366bddee3330346062146cb42d7be72bb4586c net/mlx5e: Use FW limitation for max MPW WQEBBs
+a2f10ddbb90405f75a5db16220c86723740c7565 net/mlx5: Remove unused TIR modify bitmask enums
+8bd68e50ca302e4bef7e63653b70d335e47cf5b0 Merge branch 'patchq/396348' into mlx5-queue
+5d616f44279bc20d119d8169fec13c990f147644 Merge branch 'patchq/463850' into mlx5-queue
 
---===============0174802914053024750==--
+--===============6663096459248801266==--
