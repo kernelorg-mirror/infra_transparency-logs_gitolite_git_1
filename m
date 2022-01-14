@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7351586340030827585=="
+Content-Type: multipart/mixed; boundary="===============5256908227308098698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 14 Jan 2022 06:18:01 -0000
-Message-Id: <164214108143.28307.4093106291139477819@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 06:18:43 -0000
+Message-Id: <164214112397.28603.1883357369319654104@gitolite.kernel.org>
 
---===============7351586340030827585==
+--===============5256908227308098698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.17
-    old: 6eb111e7a74b6c0846ca6ca4354509091ca40efc
+  - ref: refs/heads/for-next
+    old: e928da321f0bd51f9cf211eab0a7b2fc089685a7
     new: 237fe8885a3fdab169bf670790c9f40046af45d3
-    log: revlist-6eb111e7a74b-237fe8885a3f.txt
+    log: revlist-e928da321f0b-237fe8885a3f.txt
 
---===============7351586340030827585==
+--===============5256908227308098698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eb111e7a74b-237fe8885a3f.txt
+Content-Disposition: attachment; filename=revlist-e928da321f0b-237fe8885a3f.txt
 
 28a53d3160acd7e44a39a146da20e3e672fb0d96 ata: ahci_mtk: add compile test support
 368c7edc15e5e505ab56d6caad60fd11ee2bc428 ata: ahci_mvebu: add compile test support
@@ -49,4 +49,4 @@ b9ba367c513dbc165dd6c01266a59db4be2a3564 ata: libata: Rename link flag ATA_LFLAG
 a17ab7aba5df4135ef77d7f6d7105e1ea414936f ata: ahci: Add support for AMD A85 FCH (Hudson D4)
 237fe8885a3fdab169bf670790c9f40046af45d3 ata: pata_ali: remove redundant return statement
 
---===============7351586340030827585==--
+--===============5256908227308098698==--
