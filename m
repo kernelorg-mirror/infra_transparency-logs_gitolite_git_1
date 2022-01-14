@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4084691993284168618=="
+Content-Type: multipart/mixed; boundary="===============0858133877410152899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 14 Jan 2022 08:13:45 -0000
-Message-Id: <164214802500.30746.6647026940303421750@gitolite.kernel.org>
+Message-Id: <164214802527.30768.2620851977226401023@gitolite.kernel.org>
 
---===============4084691993284168618==
+--===============0858133877410152899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a10fb1c217863bd937fdbb393c16dcda44d765ce
-    new: a87f0f4006524143dd2e9c18924978e85e7f4dfe
-    log: revlist-a10fb1c21786-a87f0f400652.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 3985558bd1a2585d662df4f60507078cfc979e11
+    new: bb68d5d576e4e4337644f79834261289f29c6d0a
+    log: revlist-3985558bd1a2-bb68d5d576e4.txt
 
---===============4084691993284168618==
+--===============0858133877410152899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,41 +32,43 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148024 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1642148022-c42a48fef23cece4b0e926c655a309ce0c0a44bd
 
-a10fb1c217863bd937fdbb393c16dcda44d765ce a87f0f4006524143dd2e9c18924978e85e7f4dfe refs/heads/linux-4.14.y
+3985558bd1a2585d662df4f60507078cfc979e11 bb68d5d576e4e4337644f79834261289f29c6d0a refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMLgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wSwP/i1xgUNZTFUcqYFJYQfG
-g5RXKFgMWHDl5SQidXcIZF7we2/OCfdhGMKbGFQb/Q+Nn0Aw4ue6Fqxr8x2eO098
-dm91cTvoK7t/J8Z4dwxQVYZy3yyCNK/kB+oIo7e6zYPImhqattkGrOIikq02ntm7
-OG6Ez+5mlWTxUxGgFzZRKB6IPqUGbVFZM3TkIvjz3kiX+kLduz+mfLnVbYU4Ynn8
-l969JvqX3F0Ddzm/ekFuau7FVud5v9sZQNtUp2XDnemzLAOu7YKz0Mt7Dq0DC/8z
-5unuoaQRGP2KBvYA4MyNufF9vTILVB66vUqP0EOSJiHWg5vSCW1wfq7PcYpVEh6I
-/SxuEQrLBRpgzKotlupBoEs37NVWzAXaw6Q57hPh8W4ZgLEuZo8v+2d5Znd/E/Eh
-yFasCZZyJ2kxs2o8+ATwO1mdJsQt1N17wOuzP4SYHyN0FxU8kH2Sqz6P4KWaRpsr
-3sr0BHbaCYYisPP9UP3nDqmWN5lYkeCqtwosoUwqnGfxUFZwFnLXt3il6q6gul4S
-2JUI89eQ2FiDFQ9kjqK2Nb6rzBVMc7GRQuj/KZJCdsBWjJfKFkF4RQBHSmh4qg32
-FwxCpz4gahDkcvfjGEIy4Zk56Q+SO8B9n/J37u8yC/H9BVcbmPm2MEr0GONTBuFn
-D8CHzIutDAdavSZfrPm5AYgn
-=5pFS
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uvwQAIyo4wuLowvOc1nB4G9D
+o7VafNtbZOQon6WzGoB4eJ4Q4yCqMnpIqQUfSDM8hQEgTwiYUrQqVsmG3VcyEhd8
+dIW9ModEuE5OkiDlqpE0a4mwvH0FJFpZaq26yjIR0twSbwzYkQA4fRYhZ+nXX5oi
+nzt5nlKNVMjNH9L6Usm+l5cVxp02bB5jgl95/5pw0Rk6TBvSJYFlxyROP9ELpQ1a
+FD3pslhQkzZlg9/eOGYMb0CYXL6i2wVG5Miw+e8cdz/m8yhBPUgREHO4LFw5y3kq
+obFP9xwVY0CHPObaiEPlJISLalHq8+yKdypnNg1HhZlSvTJrMMYwAXJmG42EtLB1
+jH1B0wxU0Ih6NTt6nD1/mLf2uXmy5GWQcl0CKkP1Mt4j2KCLzCxlSXe41fjAbHSe
+PcpJIBlBDv50dpu0TSfquUaAXAC8bM+qC/QolasK+xCwzOt/NwsQI071fPatgnt7
+2gnO5v98bf9tLL7Eyiz/UxinGf3Qf82JtEZ6+gberntFCnAZ0bz/reJesFee8KQ+
+dmnpFq4+DqDrmbHWz/y9thFW2cWlEkiXR8LiZhJaitIZB8IYh1YIJVpqm81UHjzb
+6yZ4b4simT7JB4EqLNnAqr9m1iezsXbkiG8uYZxGcBjfBD1X29frGfc+gCWFbdOr
+ovBWS76o0NVE+YrpT3srCSt+
+=yUj4
 -----END PGP SIGNATURE-----
 
---===============4084691993284168618==
+--===============0858133877410152899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a10fb1c21786-a87f0f400652.txt
+Content-Disposition: attachment; filename=revlist-3985558bd1a2-bb68d5d576e4.txt
 
-83b499cdbfd44294ad9838c79c94ccb9aa7183ef Bluetooth: bfusb: fix division by zero in send path
-ada145d9033ca04fa2273b0eb64a4672f2baf62a USB: core: Fix bug in resuming hub's handling of wakeup requests
-bb80e9640271acfe9660a113c3f6f5c0af4986e4 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-2647af81e37d5a10942e821b04d9505ecdca2eeb mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-ad477f4c10aed080a2004028207b5b46ce478d54 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-3b7029a790835089c34e8e74072142f5b756dece can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-76c852ee532c650040bc697ea98869245f8218cb random: fix data race on crng_node_pool
-cc9f433e87783d5a09d689711eac71a47a5a4c4f random: fix data race on crng init time
-6d4024944e13e3cd0d1c691c3120d6f04e46ce55 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-efdf85e0017680afef3aa4a8c67a7e280432d177 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-a87f0f4006524143dd2e9c18924978e85e7f4dfe Linux 4.14.263-rc1
+64ba96699931480a55cc6a421fe5b3ae82e948b1 Bluetooth: bfusb: fix division by zero in send path
+4b9b7d2b9de41051aaa179eaac573685cbea8414 USB: core: Fix bug in resuming hub's handling of wakeup requests
+fa5861b2dff3f24bf8a343ef33888d9ceb15d148 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+f12b03a555084906cac03f0830e40ed372f30bdf can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+86c68e1d9ab0e4041a025df2f91f1ddf37b7e809 veth: Do not record rx queue hint in veth_xmit
+102ecfd9bcb9da26814664af53f07b8beddc530d mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+d7676e55d53836392584a3d5ca03f832ff92d5ba can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+f1407783a078306c0d7dc41e6503235c14fcff4a can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+c16ba319dd74e5453158f2bbe3cb1a381585a1b9 random: fix data race on crng_node_pool
+7584b10c25be094efc891e60662cca981b6623f3 random: fix data race on crng init time
+ee82c0539651021f34ac9431baee06959e509806 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+7d3db3aee15df30a53de07a36b1c495a5341b34c drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+bb68d5d576e4e4337644f79834261289f29c6d0a Linux 4.19.226-rc1
 
---===============4084691993284168618==--
+--===============0858133877410152899==--
