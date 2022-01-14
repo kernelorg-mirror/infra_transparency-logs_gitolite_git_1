@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7820183713345301458=="
+Content-Type: multipart/mixed; boundary="===============6010356328415984505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 14 Jan 2022 08:15:42 -0000
-Message-Id: <164214814270.774.7581891951453102408@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:15:44 -0000
+Message-Id: <164214814407.840.1777645003537908093@gitolite.kernel.org>
 
---===============7820183713345301458==
+--===============6010356328415984505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,57 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 740123daf257459883ec33ec137ba4fbce71d630
-    new: acb6439e1f389dd1301f5f2d53706b10f2f5580e
-    log: revlist-740123daf257-acb6439e1f38.txt
+  - ref: refs/heads/linux-4.14.y
+    old: a87f0f4006524143dd2e9c18924978e85e7f4dfe
+    new: 98bee0a22bc868f17104046073a8e99169f03c1a
+    log: revlist-a87f0f400652-98bee0a22bc8.txt
 
---===============7820183713345301458==
+--===============6010356328415984505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148141 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148143 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642148141-ba604ec672810903abb64cff38e0e18dde76ecbd
+nonce 1642148142-425929eb17d7b033551066cccd1b761ad3884127
 
-740123daf257459883ec33ec137ba4fbce71d630 acb6439e1f389dd1301f5f2d53706b10f2f5580e refs/heads/linux-4.9.y
+a87f0f4006524143dd2e9c18924978e85e7f4dfe 98bee0a22bc868f17104046073a8e99169f03c1a refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMS0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fa0QAJ4KDi6sGQqJ9ynz9Rbk
-3jofnba6RJK9oIPTzfdcBy3UUOy1rH+7MxYdi5D1iRBm/bDd+lXHrSA9QPHmDiu2
-NhmbmZKCvRrQPVFdfDYv+dkR8GGAB1bcxPa2Mt9AJgHkcJQDqzL5ZbTAitRayXql
-Ofb3Jryyu9ColeLiwCEDTjWbXJaTrJXDw4wlNr5X3OpjlRrJb2ry8Xe9VC/xTN19
-nOjTVV1VTqNoWnjKR0PHtHhGyfqZ8sySlUNFOL2mjA6dOCD8Uqlk+khpPJSNh5ds
-WFjwCA69kshmLG6f2goFsCYCf+R78kPGha0Cf2nJvnlSrh8O1dHIfC52vT3SGhRD
-6lA7HBtkprzo51MjLP46hTEOhcu/DdPaMooQzlnUG333+um6BXTKCp9CWpqxw7iz
-PcMV40YcEhQtPRMWckAG454QlGYL9lWG2kuPZHq5P6iv6dsuvq4NxBwhGa+v/Z3R
-KeH87YHki/6g5AGZc/iHDl7T0M7Dup+bdQ31/4IJhTgRiJEA1U6FqH6G2E6IiaW7
-tk6WB26uGFM4hAzSH8zOwZZzaKfgrejsnFDEJIRVd59Tzwaot54MecgZJFnoJ9fj
-O5HgsbbjiARyseDGZRLiV4qyV2kaKWgfz+pSFPyWg9XWUH0Tq46P4BW+Ms/QQw4N
-L125y2I+16EYE8INaMkPG2U6
-=QLSk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMS8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/noP/0MTTkXIJsj2ZddBvQOK
+EPfNXiSZkqF/LIZR0jrCZ0H1ENrR/8CFsZ/99D9nQmrh8Pt9WxEI/7ZQjLPrvrii
+hYptk/WBGW/naIca+RCK0Bl2VSEplhI7sh3xYBYI/fcy4eSxrbwDHL3He9XKt3VD
+6VdsfMSB1s5ReNryuCLkV96nQ2UBNFes+9Mz54eCOWTrHsja/NVkTwqRUD5aTtCT
+AdqKFcJPQGUXwGjiKFOzlIelz14vot24t0E9rfsiCnuOYygBpT8TyNm7Ah/8bbEu
+HxFpoGrITvJ5+upma2EHu15kQrYHV3/yQ4JKlTPN2H96xs11WOnE9KgNYyx4/VC+
+D+G0snmOR6J1XCgQNNnPaPGc8UyiZSg/SgVPHH6Qk/TstVyIDHbYcpyW+R9GbfwO
+4crG+GdXFhbxgY5R1vtVRjnIG2vfsTRwk8OYhnAqHK357U08TNRs8G+v4nF/6mpP
+ctiPHdhIieLjW0R4+OcyAytYpMYoPSvIazAqw0+aPgH0zR8Vc+zyXsv8/AXDt/Fj
+L/FHqBrlVbArUBcCFrqp4X5E0p35U9TriwP+blYMeqkOlf6/ywtrvXNQzVHaw96C
+zWjJLU6LJEekBdIEE+kES0j+Wt8t+kLm9lPFp/kDhalORRX3GNep/mA8NvIrzG2C
+1iMC5MTBbKw6VJtlGYCBC3/M
+=e/ST
 -----END PGP SIGNATURE-----
 
---===============7820183713345301458==
+--===============6010356328415984505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-740123daf257-acb6439e1f38.txt
+Content-Disposition: attachment; filename=revlist-a87f0f400652-98bee0a22bc8.txt
 
-463e66a4da65454d7a74c666142ad1589ce0c000 Bluetooth: bfusb: fix division by zero in send path
-d5caf31afc1a8d3235617f061dd5702e369aca39 USB: core: Fix bug in resuming hub's handling of wakeup requests
-c3d6b64946a4cd89ded603b2721a70cec049421e USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-156deda9a8eedb7989a5d91154c8ff269ca5515e mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-368422af34ce46278129b9aa3b726ba26f876ded can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-4b9d22f13c8bc933b6678f4829b00143fa99d545 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-86d330875930669235664bd81429660912b8398d random: fix data race on crng_node_pool
-64b56640e745ad7340bd73fa9d7729d654007955 random: fix data race on crng init time
-511d1767972f6640494c5b6a234f92f8e77eb50d staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-7538a7228855846f2dee3b56e324d7deece024b1 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-acb6439e1f389dd1301f5f2d53706b10f2f5580e Linux 4.9.298-rc1
+efd7a55ad736635f3016f13111dc445723ce3c51 Bluetooth: bfusb: fix division by zero in send path
+133593b35bb290188523cfc3b037f47cd4a60989 USB: core: Fix bug in resuming hub's handling of wakeup requests
+14b40e72b3a55da99870761362e7f205b9158162 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+1558f38f71ab02e1d57ab90de07749d34091fdc7 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+b299f526dbda526eccc64697c199c59981aa3653 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+ae9ae9fa8a200e05ef3024d2cb7a161b8b0bfe90 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+0642a2b2eb75b9132d0a0a8f42b35d494b1a33fe random: fix data race on crng_node_pool
+b53f67678a477009521ec59ebaef0d532381edde random: fix data race on crng init time
+0d40a36ce4059c155861e26f84829a4d4282bae1 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+4e564fc252db2a2b54c0f62293819175d286e01f drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+98bee0a22bc868f17104046073a8e99169f03c1a Linux 4.14.263-rc1
 
---===============7820183713345301458==--
+--===============6010356328415984505==--
