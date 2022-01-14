@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8285193877849388885=="
+Content-Type: multipart/mixed; boundary="===============0837361142476313880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 14 Jan 2022 07:11:57 -0000
-Message-Id: <164214431786.23386.15425893797330179091@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 07:11:59 -0000
+Message-Id: <164214431901.23466.8459944368129628448@gitolite.kernel.org>
 
---===============8285193877849388885==
+--===============0837361142476313880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,57 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: de85bd6851bcb580db619b575638ebee29765379
-    new: a6caa5b54a47a5902376fdcf24bee15f02af79e1
-    log: revlist-de85bd6851bc-a6caa5b54a47.txt
+  - ref: refs/heads/linux-4.14.y
+    old: cd595a3cc3219f3c3943ad8fcb09d8e0f8be7813
+    new: a10fb1c217863bd937fdbb393c16dcda44d765ce
+    log: revlist-cd595a3cc321-a10fb1c21786.txt
 
---===============8285193877849388885==
+--===============0837361142476313880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642144316 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642144317 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1642144311-fc3a63f9f1881d31851355cffdd1b903e51f21a8
 
-de85bd6851bcb580db619b575638ebee29765379 a6caa5b54a47a5902376fdcf24bee15f02af79e1 refs/heads/linux-4.9.y
+cd595a3cc3219f3c3943ad8fcb09d8e0f8be7813 a10fb1c217863bd937fdbb393c16dcda44d765ce refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhIjwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TSoQALxv+Uyx9OLgQ0KP5rW7
-Y+8ZEie33pdyrdGfq7aQxD2TTM47UGfTa80e8lt67HqUBoX0ftfZq2vCSxaUEGfN
-VZyMuy8UfpywxI98P6REZZw6//zKYhmMCqGuedXpinyluzFGvrVDYId3VfgLLwx+
-DcJUyM089pbpi6QPxQ1pYIe2QpbyttV5KacNcvC06MQGM9lTmvtOy94TIXIVxlif
-t8kSdJ65xHf9X+mBAEUIJvD1R7uBRV/4SUvP2rNDX3eSxYw3Ej8H/NiKieWJo7Aa
-kCvPQLyvZdo0brWU+BEjwr7goHbwFaaAVmuesIWEl/d3co1A0GjG9/EJRc2/stlA
-JKkzim25T/vk9RnbaxGQdMj9/C0EJZleD/dLWgX2T7h1lLQhiabMuqwK5DgJtv3p
-bA6Rvkirp/sO1b+Sei1u1zFM3octBh0HJtvKUYfEdGyZ4dBJJY6qXMMBXZBC8HE9
-QNg2R+8/vdw/j5hnLZopCHBfQpHEJvo3/OKoeZP39jvEQ5KLsrIw4Z+MLOqrWocD
-YjRCXhSt06kJMw+6vu+rYhNtnBwxHcjuJXu9tsuOm2Br1DyQoXnQpYkQ9rY4/4FW
-mQgDRsZq7neAu20ngyQLeRwdMvszDqErldlZ1Jyz3kiNSf0kMujCaS+ao5spJFDP
-fFIjslpvxTQNkav11RCFoT8O
-=kP0b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhIj0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GlAP/2QS6wMUiKwhi04orYJg
+VCXUqY6bDCAdWAb1e1RsY/374bE93SOi5uqK4LBghfkj6hSEhfqRcPJV4bfV0aaz
+yE2h9v3BZ5A3OIJUdhOAlIEi+avJyPTdOsLlPO0O1nTJ/ikgfa4poCqEnBUQ/Tst
+kzxPzT6ZVMsRCQ0Liepn0JqXgbIsEzMxmDma4wSZwmO1V0m63IbSzPspEuj9JcXS
+Pe6gXAaSwJQRCvh+ncvCu22muZwJqgpN8YZ7MtIix0aCQXKpbSVQTO1ZJoDdi1Yc
+edcwij42KgkuexEKuZQrMsyuJ24zS2vLtuKYBctkYVSikHT3/1i75FRaTqaHTtgS
+SxcGPFhjOvkXVDG7n4LRbiliOV9VGdJqNiCpM2fFxiW2Z3s4JjoVYLdeVCoidP+g
+SdAE+5YCUgICU0CVeyYtGG6OLNcOeK+HGfzJEku21nem1Ck9VI4DvMxCGM56GlKS
+cXwaepQnKxKIoG1J176KxQzCvu52pzt1n913XNmJ4KB8fEEGyIx4acjrlY557kQg
+tJZ+eYeyUuLCR1gPUPAUeGIMzhASDC3AewOwyjqHvn8mpVOg+0aewoDXbjbjzgc8
+RuEF2GYFJAOIh5lWyFPMDOyXmSG/tILr0HPWV6Arfm1H7DY9abLFvXZdPuDf90Q1
+HsdHQ0COCuwBUDeRNv3GFbdI
+=hsZH
 -----END PGP SIGNATURE-----
 
---===============8285193877849388885==
+--===============0837361142476313880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de85bd6851bc-a6caa5b54a47.txt
+Content-Disposition: attachment; filename=revlist-cd595a3cc321-a10fb1c21786.txt
 
-fddaeb7a74a7c8d0e0284ab8206c48621774353d Bluetooth: bfusb: fix division by zero in send path
-e67a4356f7c4f06763461d4d7cdc8303b4e36713 USB: core: Fix bug in resuming hub's handling of wakeup requests
-4eff1a5e4ac915d39efd772f5d0c7ccf2da3c387 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-b42cb4d3365f860a175e2bc4005d42fac228e4d4 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-e727756a799d30f57f364b76a2431478b048ff85 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-0cc439cc88a610882bb944a0e39bb2539c060417 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-0021f0c49ecd61a2bb7607e61b93b85ef5a4098f random: fix data race on crng_node_pool
-25241b3ce7023ca6ccbf07b2190274188768d579 random: fix data race on crng init time
-643f3d23cbc4d39641c67b8b8aa9b1c0ff47ee9b staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-c4ffcc19983c9db16524950be2b9e511bcb39bbb drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-a6caa5b54a47a5902376fdcf24bee15f02af79e1 Linux 4.9.298-rc1
+b0f2067d263c99bfac792f94fab984cef85da28b Bluetooth: bfusb: fix division by zero in send path
+becb8e313b703236ac5aa4963ee7e67402ce9bb1 USB: core: Fix bug in resuming hub's handling of wakeup requests
+69d9c6e9bd92e0a7ae318de23583c14e47f16903 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+abc63ec7d204f48d6c202f42f6a35ef28bae2c23 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+70d365005af2ad06e7287adbd2c90c291f6f231c can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+2d0d3157b5dc0a9edd701f2941e4dba2e62bb7c4 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+af79ed728a50f9085bde8bfe48a1e9a9e1a897cb random: fix data race on crng_node_pool
+c7d528018c0d2ed67c2128d44e55ceac34f88d44 random: fix data race on crng init time
+6d86b1ee6c518a53513bdc858bd0cb88003a986f staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+cbd4c939711854927a24c73208ce13eecb3f818a drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+a10fb1c217863bd937fdbb393c16dcda44d765ce Linux 4.14.263-rc1
 
---===============8285193877849388885==--
+--===============0837361142476313880==--
