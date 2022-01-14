@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0858133877410152899=="
+Content-Type: multipart/mixed; boundary="===============8291750706909514449=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 14 Jan 2022 08:13:45 -0000
-Message-Id: <164214802527.30768.2620851977226401023@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:13:46 -0000
+Message-Id: <164214802646.30860.8811253986831824210@gitolite.kernel.org>
 
---===============0858133877410152899==
+--===============8291750706909514449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,65 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 3985558bd1a2585d662df4f60507078cfc979e11
-    new: bb68d5d576e4e4337644f79834261289f29c6d0a
-    log: revlist-3985558bd1a2-bb68d5d576e4.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 14d3e7a29aa6086461c0d6900dc1cda30946bb18
+    new: c0ed336c6eb9f81fbea09f35351c35226e9a40d3
+    log: revlist-14d3e7a29aa6-c0ed336c6eb9.txt
 
---===============0858133877410152899==
+--===============8291750706909514449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148024 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642148025 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642148022-c42a48fef23cece4b0e926c655a309ce0c0a44bd
+nonce 1642148024-1bd750518b2fdc2640ed8d1ee3287e964fe86e8d
 
-3985558bd1a2585d662df4f60507078cfc979e11 bb68d5d576e4e4337644f79834261289f29c6d0a refs/heads/linux-4.19.y
+14d3e7a29aa6086461c0d6900dc1cda30946bb18 c0ed336c6eb9f81fbea09f35351c35226e9a40d3 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMLgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uvwQAIyo4wuLowvOc1nB4G9D
-o7VafNtbZOQon6WzGoB4eJ4Q4yCqMnpIqQUfSDM8hQEgTwiYUrQqVsmG3VcyEhd8
-dIW9ModEuE5OkiDlqpE0a4mwvH0FJFpZaq26yjIR0twSbwzYkQA4fRYhZ+nXX5oi
-nzt5nlKNVMjNH9L6Usm+l5cVxp02bB5jgl95/5pw0Rk6TBvSJYFlxyROP9ELpQ1a
-FD3pslhQkzZlg9/eOGYMb0CYXL6i2wVG5Miw+e8cdz/m8yhBPUgREHO4LFw5y3kq
-obFP9xwVY0CHPObaiEPlJISLalHq8+yKdypnNg1HhZlSvTJrMMYwAXJmG42EtLB1
-jH1B0wxU0Ih6NTt6nD1/mLf2uXmy5GWQcl0CKkP1Mt4j2KCLzCxlSXe41fjAbHSe
-PcpJIBlBDv50dpu0TSfquUaAXAC8bM+qC/QolasK+xCwzOt/NwsQI071fPatgnt7
-2gnO5v98bf9tLL7Eyiz/UxinGf3Qf82JtEZ6+gberntFCnAZ0bz/reJesFee8KQ+
-dmnpFq4+DqDrmbHWz/y9thFW2cWlEkiXR8LiZhJaitIZB8IYh1YIJVpqm81UHjzb
-6yZ4b4simT7JB4EqLNnAqr9m1iezsXbkiG8uYZxGcBjfBD1X29frGfc+gCWFbdOr
-ovBWS76o0NVE+YrpT3srCSt+
-=yUj4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhMLkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d00QALXUHEJhZvGLAbFMdp74
+nmM/CqVPBUdD+D6xW6wWf7oTUco4pMRm+BLh+X9sG/Ar6s31cA29dF7fjGi/Mr8U
+1U09XypoG4p7m5H65W8Gh8hh7DTjap9gXEJtZN1eDwi8wPvyJU8vHHP/c52KUMGS
+7HLv2+SJg0dsgNim7dwyN4rTdwcqu1iPp7uF5Nv1ORwAbc3xF0yBpFo+WSBnsnRZ
+Vj9/QA+MqCi5nhd0qAiG9hnEAPnfR1EK9j4OpJnFZJn6ffAX8Z6EuL1MkqMJgsB/
+Zw8Sd3X/2rDfWTPsGA1ZG25LY5PYCMuJpomduyIF2pAUaZQvP/BZ4B5IqyQiAIpO
+5nEUTfmsIv/kF6Oukg1aX94MzAphzF/tFHXj0+aWKrcVdVRZX7nqQHU7YznsHAUo
+tdxQeqc6R/6XawEvixPiFP7SdB6ahEuMeaJMPjNwGD7A7CDSJGjL1VvxRlcjFbek
+wLqlJDYs4esD+wWpYMksgIXbgfupCuZ2l+QvsBdkFhVdr1FSVf20QSs5DF1d/bQr
+jwbcRYk5q3zsNsjtO/c4oiK3ZbvB0tBK+mPySU1NZ3YScoq6aR5l6fOJgm4KzVdB
+ZWNDbDiSCwdh73NNx/YP4oeasXkaa/fwHbN536k/NpT3thtupgslq4ZyRREH11P0
+omIVw3XrVQerD+FrhymIvLeF
+=3UmV
 -----END PGP SIGNATURE-----
 
---===============0858133877410152899==
+--===============8291750706909514449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3985558bd1a2-bb68d5d576e4.txt
+Content-Disposition: attachment; filename=revlist-14d3e7a29aa6-c0ed336c6eb9.txt
 
-64ba96699931480a55cc6a421fe5b3ae82e948b1 Bluetooth: bfusb: fix division by zero in send path
-4b9b7d2b9de41051aaa179eaac573685cbea8414 USB: core: Fix bug in resuming hub's handling of wakeup requests
-fa5861b2dff3f24bf8a343ef33888d9ceb15d148 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-f12b03a555084906cac03f0830e40ed372f30bdf can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
-86c68e1d9ab0e4041a025df2f91f1ddf37b7e809 veth: Do not record rx queue hint in veth_xmit
-102ecfd9bcb9da26814664af53f07b8beddc530d mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-d7676e55d53836392584a3d5ca03f832ff92d5ba can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-f1407783a078306c0d7dc41e6503235c14fcff4a can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-c16ba319dd74e5453158f2bbe3cb1a381585a1b9 random: fix data race on crng_node_pool
-7584b10c25be094efc891e60662cca981b6623f3 random: fix data race on crng init time
-ee82c0539651021f34ac9431baee06959e509806 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-7d3db3aee15df30a53de07a36b1c495a5341b34c drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-bb68d5d576e4e4337644f79834261289f29c6d0a Linux 4.19.226-rc1
+a2713820900d37bfc97cf54339a4d901dc49f500 workqueue: Fix unbind_workers() VS wq_worker_running() race
+009b07eab43e82bca37f1ecbffbf1ae1d6777397 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
+f7bebfabd9a5156b48a43f17353c20da1720fd7d Bluetooth: bfusb: fix division by zero in send path
+65be9e6ece9f4552fa5f209d9c6f7c8e22a64719 USB: core: Fix bug in resuming hub's handling of wakeup requests
+1b87343d50a0dcfa9410ef334bd30fb23162647c USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+fa1cfd9f41000ca281f31954fcd90c78162d77fe mmc: sdhci-pci: Add PCI ID for Intel ADL
+a98dee1b196c9b0139f4749b9790820209fda835 veth: Do not record rx queue hint in veth_xmit
+db5b66d893b1e4ebf826509b29de64075e463a0a mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+840b2e17c68cb3fc5de7f96780254d9dc39cb5a5 drivers core: Use sysfs_emit and sysfs_emit_at for show(device *...) functions
+64352e780505281ef3cd1aae2496d318ddd55d58 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+f67caca5b9a7743f2c84f92eaf8b9e3d45c03cff can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+4c666af4a1dd386dab71bffdc9e947c77793af98 random: fix data race on crng_node_pool
+0a5c1744cd8d3096031077dc188c4f2d2cc09d5c random: fix data race on crng init time
+02f8270d60ff8ce818b63778a8e330d232a7eda1 random: fix crash on multiple early calls to add_bootloader_randomness()
+7bb9cc80b5fd5744a6c47c1233230961e4cfa7b1 media: Revert "media: uvcvideo: Set unique vdev name based in type"
+84b471ea564a8c75d4578485f70fe706df444d74 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+4b8cdb0553073f759464e1393a6f105e2315675c drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+b1ba4fd67ba60f69058ae426dd8ed8cc61ff985e staging: greybus: fix stack size warning with UBSAN
+c0ed336c6eb9f81fbea09f35351c35226e9a40d3 Linux 5.4.172-rc1
 
---===============0858133877410152899==--
+--===============8291750706909514449==--
