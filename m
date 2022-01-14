@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 14 Jan 2022 00:27:16 -0000
-Message-Id: <164212003681.29714.6770223395236877559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 14 Jan 2022 01:26:57 -0000
+Message-Id: <164212361716.6866.3493017282944450741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/x509-pending
-    old: 01429854646d4160e025729dccc19262b479f9d9
-    new: 74f950a1bebe7cedeebf88a7cf1e8587451b9b91
+  - ref: refs/heads/dev-queue
+    old: f1f62d37baf6f3ca96f3edb6f888bf90fe57cef2
+    new: d6721d794bfc1101a63a567e2d6d6f0de4c83fbe
     log: |
-         e1ec31620de2ce1abe089011caef99bb251a5da0 KEYS: x509: clearly distinguish between key and signature algorithms
-         67f9e83fe14a3309234cc74a919451c513071bed KEYS: x509: remove unused fields
-         e0d4d118d125e9140850cd1b530b2092739c95e2 KEYS: x509: remove never-set ->unsupported_key flag
-         74f950a1bebe7cedeebf88a7cf1e8587451b9b91 KEYS: x509: remove dead code that set ->unsupported_sig
+         3c68680ae529457adf266e9fd3a8dede765fee3d i40e: Fix the timeliness of stats after deleting tc
+         958328797677d234712ef00c7e6e1c783de00527 ice: fix setting l4 port flag when adding filter
+         d6721d794bfc1101a63a567e2d6d6f0de4c83fbe ice: fix an error code in ice_cfg_phy_fec()
          
