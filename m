@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3877765357053210090=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Fri, 14 Jan 2022 16:52:10 -0000
-Message-Id: <164217913099.27349.3036215033522158723@gitolite.kernel.org>
-
---===============3877765357053210090==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 14 Jan 2022 16:54:37 -0000
+Message-Id: <164217927754.28234.1307457904068144501@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: fa7e5a516e8ca0740ad1563b33d24b430dc31f77
-    new: f37c3bbc635994eda203a6da4ba0f9d05165a8d6
-    log: revlist-fa7e5a516e8c-f37c3bbc6359.txt
-
---===============3877765357053210090==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa7e5a516e8c-f37c3bbc6359.txt
-
-289e7b0f7eb47b87a0441e6c81336316f301eb39 tracing: Account bottom half disabled sections.
-8c7224245557707c613f130431cafbaaa4889615 tracing/uprobes: Check the return value of kstrdup() for tu->filename
-1c1857d400355e96f0fe8b32adc6fa7594d03b52 tracing/probes: check the return value of kstrndup() for pbuf
-72b3942a173c387b27860ba1069636726e208777 scripts: ftrace - move the sort-processing in ftrace_init
-8147dc78e6e4b645f8277bdf377f2193ddfcdee1 ftrace: Add test to make sure compiled time sorts work
-ecbe794e777aab99de3b753110801a9cda747d2d tracing: Fix mismatched comment in __string_len
-3e2a56e6f639492311e0a8533f0a7aed60816308 tracing: Have syscall trace events use trace_event_buffer_lock_reserve()
-77360f9bbc7e5e2ab7a2c8b4c0244fbbfcfc6f62 tracing: Add test for user space strings when filtering on string pointers
-dfea08a2116fe327f79d8f4d4b2cf6e0c88be11f tracing/kprobes: 'nmissed' not showed correctly for kretprobe
-6e1b4bd1911d814077d77e2ac6529d74ee68c0f6 tracing: Remove duplicate warnings when calling trace_create_file()
-0878355b51f5f26632e652c848a8e174bb02d22d tracing/osnoise: Properly unhook events if start_per_cpu_kthreads() fails
-79ce8f43ac5ac16d6d63729e858da42b0460d87b rtla: Real-Time Linux Analysis tool
-b1696371d865fa28bd20adb13d1820ef031f2ee2 rtla: Helper functions for rtla
-0605bf009f18d558758df9edef59698bf1389b28 rtla: Add osnoise tool
-1eceb2fc2ca549a170d7ee7cd1fde2daeda646ac rtla/osnoise: Add osnoise top mode
-829a6c0b5698c7d51aa2bcd16963fcd9de295476 rtla/osnoise: Add the hist mode
-a828cd18bc4ad72ff6d64c0dd23dc814a6741fed rtla: Add timerlat tool and timelart top mode
-1eeb6328e8b3a917ba0be4965f272147dbd4cf55 rtla/timerlat: Add timerlat hist mode
-d40d48e1f1f25abe755521e33a67f5d2b8b9443c rtla: Add Documentation
-496082df01bb08a40f9207d918734cf908c5f107 rtla: Add rtla osnoise man page
-b1be48307de4ccb315036c58bb1363a93c27d188 rtla: Add rtla osnoise top documentation
-e7041c6b3c123ef2160ff7a948e458f8241e4e03 rtla: Add rtla osnoise hist documentation
-29380d4055e524de918c76a861df17d14a4b7224 rtla: Add rtla timerlat documentation
-df337d014b573fe567cd190753a4f5fa69281870 rtla: Add rtla timerlat top documentation
-5dce5904e3b9bc11d9635dd3458c7ff32caebb59 rtla: Add rtla timerlat hist documentation
-f37c3bbc635994eda203a6da4ba0f9d05165a8d6 tracing: Add ustring operation to filtering string pointers
-
---===============3877765357053210090==--
+  - ref: refs/heads/for-linus
+    old: 081c73701ef0c2a4f6a127da824a641ae6505fbe
+    new: 91502a9a0b0d5252cf3f32ebd898823c2f5aadab
+    log: |
+         91502a9a0b0d5252cf3f32ebd898823c2f5aadab ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
+         
+  - ref: refs/heads/master
+    old: 67ae9e9dc4ab460b6158a64799fe1a017a9cb615
+    new: 39f93a5ea4398668b037e2018adb79158c030efa
+    log: |
+         91502a9a0b0d5252cf3f32ebd898823c2f5aadab ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
+         39f93a5ea4398668b037e2018adb79158c030efa Merge branch 'for-linus'
+         
