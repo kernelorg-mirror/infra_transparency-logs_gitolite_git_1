@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2105077526713246080=="
+Content-Type: multipart/mixed; boundary="===============4471433886382873693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 14 Jan 2022 09:11:26 -0000
-Message-Id: <164215148633.4510.9352639199798790503@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 09:11:35 -0000
+Message-Id: <164215149517.4608.5163848969815323531@gitolite.kernel.org>
 
---===============2105077526713246080==
+--===============4471433886382873693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 73743c3b092277febbf69b250ce8ebbca0525aa2
-    new: daf101822cfef1bc47f3834343cc68ca8b5dd60a
-    log: revlist-73743c3b0922-daf101822cfe.txt
+  - ref: refs/heads/sched/urgent
+    old: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
+    new: d7f6b79d7c441ea51129fff755fad3fc08c81d12
+    log: revlist-2585cf9dfaad-d7f6b79d7c44.txt
 
---===============2105077526713246080==
+--===============4471433886382873693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73743c3b0922-daf101822cfe.txt
+Content-Disposition: attachment; filename=revlist-2585cf9dfaad-d7f6b79d7c44.txt
 
-8000f55a3c6bc13d211547fd38ba092e47427117 dt-bindings: rng: ti,omap-rom-rng: convert OMAP ROM RNG to dtschema
 fb13b5babb97f182b6d61bf4efc9ccf8ed4b1270 dt-bindings: rng: st,rng: convert ST RNG to dtschema
 8ba694e5b7fb5c9b516e59ef9cc6978a7de81b21 dt-bindings: rng: timeriomem_rng: convert TimerIO RNG to dtschema
 9667b814387c1d7436b0c171d64d7a02d2a21a76 net: hns3: create new rss common structure hclge_comm_rss_cfg
@@ -1042,13 +1041,14 @@ feb7a43de5ef625ad74097d8fd3481d5dbc06a59 Merge tag 'irq-msi-2022-01-13' of git:/
 c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-cdc9637974f0dc6ed031f095eb35c13f427a34af perf: Fix perf_event_read_local() time
-91b07fef64fc0b741e6f738f0acbd4a474959934 perf/x86/intel: Add a quirk for the calculation of the number of counters on Alder Lake
-e8b5425344f0d69ecd35242b3fa3b8f0773bb2d1 perf/x86/intel/uncore: Fix CAS_COUNT_WRITE issue for ICX
-67dec4a6078a981be745a9f16c2b43da80e40b51 perf/x86/rapl: fix AMD event handling
-359fb1951958ceb4b416b8b4e58d0c9fee5b061d perf/x86/intel/lbr: Support LBR format V7
-8e3f9cce156d75311435d98a9843783f504874e2 perf/x86/intel/lbr: Add static_branch for LBR INFO flags
-3ddf9a26b5847842c476272b22f51a6db42d7bce perf/x86/intel/uncore: Add IMC uncore support for ADL
-daf101822cfef1bc47f3834343cc68ca8b5dd60a x86/perf: Avoid warning for Arch LBR without XSAVE
+cf78b4cf7c3ae82900fe6b645a57b182d200c921 psi: Fix uaf issue when psi trigger is destroyed while being polled
+7868d5f45f19d58289bab8633747d266e2e7c940 sched/pelt: Relax the sync of util_sum with util_avg
+8aa5b3bf1063f072527ebc582a71d32fdc08e160 sched/pelt: Continue to relax the sync of util_sum with util_avg
+a4bdfeb5f47b242bb2a48c938d68990269f7670c sched/pelt: Relax the sync of runnable_sum with runnable_avg
+c1b91b4d779d27ead1936e51d548c63c87aa9419 sched/pelt: Relax the sync of load_sum with load_avg
+383152cefe8b766920b154324bedd648b85b9e9d sched/core: Accounting forceidle time for all tasks except idle task
+fae614c4aa8f7a0f1fd670463db5f410b73cab01 sched/fair: Fix all kernel-doc warnings
+d7c3f5ed39976995fca433b2917b1d7bc2eef599 sched: Avoid double preemption in __cond_resched_*lock*()
+d7f6b79d7c441ea51129fff755fad3fc08c81d12 kernel/sched: Remove dl_boosted flag comment
 
---===============2105077526713246080==--
+--===============4471433886382873693==--
