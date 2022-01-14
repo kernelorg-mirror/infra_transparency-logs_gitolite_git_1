@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5413116412417828728=="
+Content-Type: multipart/mixed; boundary="===============8581452617041914082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 14 Jan 2022 08:04:03 -0000
-Message-Id: <164214744342.24201.5106899375664891294@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:04:13 -0000
+Message-Id: <164214745358.24352.12722492131505592224@gitolite.kernel.org>
 
---===============5413116412417828728==
+--===============8581452617041914082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 8efb8846ad4d12b25ab595a41588fb0c0d8d1afb
-    new: 6af9d9297f8e3746936d7e7475129a99f19617cf
-    log: revlist-8efb8846ad4d-6af9d9297f8e.txt
+  - ref: refs/heads/main
+    old: feb7a43de5ef625ad74097d8fd3481d5dbc06a59
+    new: fb3b0673b7d5b477ed104949450cd511337ba3c6
+    log: revlist-feb7a43de5ef-fb3b0673b7d5.txt
 
---===============5413116412417828728==
+--===============8581452617041914082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642147441 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642147453 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642147440-0553395869c7eb6437b324af560265492f54ff10
+nonce 1642147452-108378ba144fca23b3f0e61e89589ce479b3fd40
 
-8efb8846ad4d12b25ab595a41588fb0c0d8d1afb 6af9d9297f8e3746936d7e7475129a99f19617cf refs/heads/kobject-const
+feb7a43de5ef625ad74097d8fd3481d5dbc06a59 fb3b0673b7d5b477ed104949450cd511337ba3c6 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhLnEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WBoQALD0/1aC3V2GEWnnLOQv
-+jULrd62b1Ev4zSvbIxp8y+b0jQ9p8CYIeku+nOi3+Cwdzz7AginbZVCNNPLmVRk
-aspkzW3Ma+Zsq/FjhfJlqlR+1TEg2y6CNxvHCAyfEhgzBp4AXkv3GcLyaPC7ZMJW
-8gwFrTHNqDAfzKQ1m3YpUz7bPoGAu0TptrlekJqGJcjP4GjTdE5kDLx27myApEI0
-AG+A/BFaPwNJbKW0PO2xvZBcZf4c4u03Ufa6D0NnRID9bABclweyW20oKoo7DeAB
-BV05TGZVEUcrN28cjepQuEsA+YKktRetfBwisrjVs9jJLiXIzUoKLc/zMS9WXU6J
-f3SOX57XVSjH6da27M8A/gpRrvZpmzc0Ra+YQ6GY6BEXlutcnCbszTv+V8BfE2yY
-5lztbtWosNqbYAt4athOt2Us7Qd5X6SfckwFk/KGTBfP0ZKmuyzKEHGZSXT/8x6Z
-G2fP8kOaavdobWe8oCkBx8oLvNFGoyk2gGONOoDd1YUr9IHieuNp1D6GKK4jsCt9
-r2divBANBPcF+vx7+LzMRxBBGGfE0c0shjg/ichEsecMm4TQ4wd8UyED5RLnXvaw
-9sePYjHa2VA1YPLi42SqP3RaIgHKHFLaGnii235R0RONEGuZHA7d2yx1HJMdB6Rg
-841+Jem5PFyzck5bEOw6YwBZ
-=9wC/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhLn0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xQsP/1qCpt2JTpnpB8O1jzXi
+K9lC6RCYt5sa6xwaSi2yqlwLj8fi9xs4nKKYWWWOn43Mjm0F0kIvTPSUh8PQexkE
+SiCfciFkyfr/Uhfm9HEW9Y9jkueX7cR8FJnvVcJ5McFYJbyrCkqAJV2LZ6D7Jwzu
+WeFlMXcI7aPM6fpbCIqjA45hT64MHPjOGwGfF2Mz/joRQYYzflDldWbp9GSCGJX+
+8NZemLt8zfOXnpjurzXW05tDqoTsHf4t1I0SaSCzQ4n73pfvTs3cn+a1JfItJFE9
+cy0eBt+84d5mSoyUbNcDwmsr6JNSpdC0pCsHM/EAMUxWvUM1ZSCVjQrpDLnKmnv9
+XVW4otQ7XglRKIxPWtkEeWfSQxN+MYLZT8B4CZ6wBFsg2gYKm8piQ/u0OkrSZOWZ
+jmC++qNkBLGP6V7A9ujM7+7NeHKrkCbAwUpC+mAortouymf4jmZzikhOgVe0/KKT
+IWU0EwmgnK2w2Lva3nsJwZoLnxFGSEl2kb2Y1LICkADPe/CUqgaz83A80XFnkZtj
+cIjv6XHi5gNhmr3TWOAp9DivCvaXn8iCkJUG1VLLqAGEaJSVPg11ltCnQF7bCmdx
+Ysy/9yv4VijhS2SQEUkDvCGnLUR7sY9gbOgWknLlgWmOxYkhrA/3SfO7kQXykn1S
+mRllwSCY8Q2BOkz4VEkLuTlc
+=rari
 -----END PGP SIGNATURE-----
 
---===============5413116412417828728==
+--===============8581452617041914082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8efb8846ad4d-6af9d9297f8e.txt
+Content-Disposition: attachment; filename=revlist-feb7a43de5ef-fb3b0673b7d5.txt
 
 fc9d19e18aaac489e6ea86fd5bb59d50d151515b RDMA/irdma: Use helper function to set GUIDs
 dd566d586fbadc36431c730d71856eb45443e40b RDMA/bnxt_re: Remove unneeded variable
@@ -161,28 +161,5 @@ afaf2ba5b430c538297cb59012ea17d28a1f8a26 mailbox: qcom-ipcc: Support interrupt w
 c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-edd63947e9c7baf2cb0f7e179690b458cba831fc UIO: use default_groups in kobj_type
-412df6596e826fa1b82bcd8407916fe52e449282 cxl: use default_groups in kobj_type
-2e4e5afb235f23cb15afce55d5cc0a2dd0d9f6a9 PCI: slot: use default_groups in kobj_type
-bade5ee2378e75812514bc9a4d9e0c2770237fcd NFS: use default_groups in kobj_type
-e33563fe224f39836e876be160c465ecfb0651d9 orangefs: use default_groups in kobj_type
-417a099e6f067492de8cff4b51beda41151d93d5 ocfs2: use default_groups in kobj_type
-d812529d62a26e3cb8355695408e7489507b9ff3 SUNRPC: use default_groups in kobj_type
-b044e333e28e206fb07cdb74fb90e8dabfe62cbd power_supply: ab8500: use default_groups in kobj_type
-be6bccb4c8518822f236c2114890b14d67bb9d40 EDAC: use proper list of struct attribute for attributes
-29598a88124e8ad0e95d1c3840965f937cc59a0d EDAC: use default_groups in kobj_type
-6ebc2ece111f1c293d759dab4337ca1ce1d176ee ia64: topology: use default_groups in kobj_type
-d7d5362938a7aade6f8f85b4cb178ee449551ba7 powerpc/cacheinfo: use default_groups in kobj_type
-bccc8228b1916fd41f6de223b543f0c8d1ec0628 powerpc/opal: use default_groups in kobj_type
-6c7b246f6afc0782d9201e2b8ab17ce226286446 dmaengine: ioatdma: use default_groups in kobj_type
-cb3aac4f404eefb2ae8c352a61f7104b4253e58e omapfb: use default_groups in kobj_type
-8ea8dc0d8d0af303d28a66af94d4e3a53688444f drm/amdgpu: use default_groups in kobj_type
-3ca31f426a2f869ffe4089d1494aef19df0f3c98 drm/amdkfd: use default_groups in kobj_type
-f3f56857e5ac94df398cd6eb632479ddb0a6cbd8 bcache: use default_groups in kobj_type
-96fa9f299539b994bda0453225a179dfe4b4f86c ocfs2: cluster: use default_groups in kobj_type
-0460e7e58018a9b1eaacbc016a8ef102a5cf9420 x86/CPU/AMD: use default_groups in kobj_type
-1d426e4f595dade9a49852e8a57c00ebf5b85b1f ubifs: use default_groups in kobj_type
-b18abecf11110549e14b46b75c7bbac7f25ef732 kobject: kobj_type: remove default_attrs
-6af9d9297f8e3746936d7e7475129a99f19617cf moxart: fix potential use-after-free on remove path
 
---===============5413116412417828728==--
+--===============8581452617041914082==--
