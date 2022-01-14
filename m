@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 14 Jan 2022 10:52:46 -0000
-Message-Id: <164215756611.20073.2616865047598278353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 14 Jan 2022 11:20:18 -0000
+Message-Id: <164215921898.4388.10519983152363133688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/for-5.17/upstream-fixes
-    old: 3fe6acd4dc922237b30e55473c9349c6ce0690f3
-    new: e24aeff6db738be7ce24999a41e91299b5fe14be
+  - ref: refs/heads/master
+    old: fb80445c438c78b40b547d12b8d56596ce4ccfeb
+    new: 9deb48b53e7f4056c2eaa2dc2ee3338df619e4f6
     log: |
-         e24aeff6db738be7ce24999a41e91299b5fe14be HID: vivaldi: Minor cleanups
+         9deb48b53e7f4056c2eaa2dc2ee3338df619e4f6 bcmgenet: add WOL IRQ check
          
