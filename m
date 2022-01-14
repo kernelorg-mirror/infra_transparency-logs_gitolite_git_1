@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8805894678830921597=="
+Content-Type: multipart/mixed; boundary="===============8858343480707350518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 14 Jan 2022 08:05:30 -0000
-Message-Id: <164214753055.26452.12616124734070477483@gitolite.kernel.org>
+Date: Fri, 14 Jan 2022 08:05:33 -0000
+Message-Id: <164214753359.26538.13028588895951367060@gitolite.kernel.org>
 
---===============8805894678830921597==
+--===============8858343480707350518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
     new: fb3b0673b7d5b477ed104949450cd511337ba3c6
     log: revlist-455e73a07f6e-fb3b0673b7d5.txt
 
---===============8805894678830921597==
+--===============8858343480707350518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642147529 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642147533 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1642147529-97cb3042b3ed375d78833dac0255b548a2f73c5e
+nonce 1642147532-a9c4b8f2645818f81d98824fc673a0a01d04d311
 
-455e73a07f6e288b0061dfcf4fcf54fa9fe06458 fb3b0673b7d5b477ed104949450cd511337ba3c6 refs/heads/staging-linus
+455e73a07f6e288b0061dfcf4fcf54fa9fe06458 fb3b0673b7d5b477ed104949450cd511337ba3c6 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhLsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ju8QANccYJMASnmUeSdXaJCM
-7iNFGN10vembCT6kJQyxEE22XlnEEWRIxq5Qdk9oKyJ5gsf7mr2bQ5pQmchci805
-vKJ4a7eLSd4Yck/4VIEwHlCRFY6POXju9xvEVrKkSOLTRJK59E84Ovzw1jnoSzXg
-sm9YZ0KZbQ8bVnib0xTgjAFWveLqYNz82q7NOA7d7cltPerIaeQEUP7gMsda7iT5
-dosOGgi1PWmzaNyj+z/koNr5JFo1XxxtUB2jVrILi6RMQVCdcKd7CrHe9+7sFaTH
-DOfQqnEb0CX7IVzE6WwGAayOnsvIgkWSxq7UuZwL8FqqEqqLMG9XRMYFSK5VMO7n
-j6Sgb38IFdX0AFVR0J043WRuhsJWAwPN02JEcCTPK87SDFlczsol7c3FJcISup1U
-0LEl5qYHx1eRbNcZ2MPztvT4SfMpYiCCI807ImV3O6PEizKCWE5uSbBXVOJmA5KN
-AuFdH/A0dA1KK6o1weg08u9d9g9Vf/KdZ+NI2MTGH2pPrXZIFbDWWOYBou7SeXPR
-e+ii1+jGEZG2tHFZ8NSt0Wt5Tfhm0ZItvz4DAUOiQM2BusmCHZgAoYsiH9QdJ61X
-W4iOcqICM91miI7cgUAHhdq9jV2lABj0H6n5OPZgQHHT/3TvCG5ucJiVzdIw68yD
-+GqYR0c4yF1UXd020tfLXXwN
-=bgtd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHhLs0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b8YP/1dPT4bLCe/6vrhgFj/K
+FrYJQj61lKZjvCCIR7gROir28XjRKIUnmiQVQ6csXP8Kc3wumWqO3FDZElOqrTj3
+h9+ZHRiIVvXtctybtgda71uL/Q3owS7B6hb9ZzZaSJTJhG0IbRLkvh8L+Id5dRAN
+Q80sOwqqDy0L7QS0whZcPE3jMQHC6NaijSlZaguc2or/SJHoCK5I5e3wey70UWxK
+OvWC7dNJQ4nHFWuoJNIxos6MDUJSl93x8HTMOGrRjwoIJS9r7YT0x/LwH0cUx9BV
+drxd/qV09cHo53Y6cSZO94fy6g5GbMwG78p6BJZI+NyHngIY3Iigvjo6oDyUvBOA
+ojmx+6/AtAq6j8CJ+2ADUCK2sjCAgEoV+8FctgTwMW9oGlfzwvcnZOXu6GzVKH2I
+U+xF7DfKFOe/A4uxO5OuijnrM9aipeDvnArtRz9isKsQ16Bz0ABd7SmSt57hHmTh
+tsS/fBm/zaKJQ/GXCjO1VtSR54TRCczAXGnECTzq4op9FWdQW11A4nPLIYsDi1UM
+V6Ybojc281lnfMAF9zjwJtf/qJjgY37PmAF1zYhC08rJrq+mq+40fdxjSoQlH3Fx
+w4nfllSk2UI5ucut88Mj9OS0ujSw4E+B4MvFbt5feT7gHejDGJPqt/C+5seIFBWZ
+MVkuSpDbggPgnpz0lcofVMvN
+=vIJD
 -----END PGP SIGNATURE-----
 
---===============8805894678830921597==
+--===============8858343480707350518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -309,4 +309,4 @@ c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-nex
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 
---===============8805894678830921597==--
+--===============8858343480707350518==--
