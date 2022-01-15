@@ -1,33 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sat, 15 Jan 2022 09:10:32 -0000
-Message-Id: <164223783205.8167.137339391440475960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlawall/linux
+Date: Sat, 15 Jan 2022 11:15:51 -0000
+Message-Id: <164224535124.7083.1509070773960733284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jlawall/linux
+user: jlawall
 changes:
-  - ref: refs/heads/for-linus
-    old: 91502a9a0b0d5252cf3f32ebd898823c2f5aadab
-    new: 5a1bc10cebfa4cf55366ff3f9216c36fa3904312
+  - ref: refs/heads/for-5.17
+    old: f7e745986f68e7161f9f218a141f0d9493b0eb81
+    new: 3cdb8e995ee2e393b66d2abe156b90475009ec41
     log: |
-         5a1bc10cebfa4cf55366ff3f9216c36fa3904312 ALSA: core: Fix SSID quirk lookup for subvendor=0
-         
-  - ref: refs/heads/for-next
-    old: 081c73701ef0c2a4f6a127da824a641ae6505fbe
-    new: 5a1bc10cebfa4cf55366ff3f9216c36fa3904312
-    log: |
-         91502a9a0b0d5252cf3f32ebd898823c2f5aadab ALSA: hda/realtek: fix speakers and micmute on HP 855 G8
-         5a1bc10cebfa4cf55366ff3f9216c36fa3904312 ALSA: core: Fix SSID quirk lookup for subvendor=0
-         
-  - ref: refs/heads/master
-    old: 39f93a5ea4398668b037e2018adb79158c030efa
-    new: 1e930955f5981cfcddd6f5cfae027465c4a71693
-    log: |
-         5a1bc10cebfa4cf55366ff3f9216c36fa3904312 ALSA: core: Fix SSID quirk lookup for subvendor=0
-         1e930955f5981cfcddd6f5cfae027465c4a71693 Merge branch 'for-linus'
+         6fed105a5640e148032ad37208be280ce8cb6915 MAINTAINERS: remove Gilles Muller
+         92b2dadaa624d69465dd94ce3d0f30fc2f70170e scripts/coccinelle: drop bugon.cocci
+         3cdb8e995ee2e393b66d2abe156b90475009ec41 drop fen.cocci
          
