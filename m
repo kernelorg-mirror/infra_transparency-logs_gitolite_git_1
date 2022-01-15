@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 15 Jan 2022 14:09:45 -0000
-Message-Id: <164225578599.19306.952637934750378137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 15 Jan 2022 14:49:43 -0000
+Message-Id: <164225818300.11606.15088217133838942928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/jd/cleanups
-    old: e469ff9ce2a64a417bfcd88d023131e0feb75bef
-    new: 41859b0cfdd1c8897c751652c393ef679b21f266
+  - ref: refs/heads/testing
+    old: 1d7d1a1f6fe0285972ae20be38c6e737a77643e9
+    new: 7540f8d7b4ed2a63ed0a7e347d2fdba38f0c4944
     log: |
-         41859b0cfdd1c8897c751652c393ef679b21f266 random: selectively clang-format where it makes sense
+         7540f8d7b4ed2a63ed0a7e347d2fdba38f0c4944 iio: st_sensors: don't always auto-enable I2C and SPI interface drivers
          
