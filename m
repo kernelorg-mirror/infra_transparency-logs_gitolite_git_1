@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 15 Jan 2022 01:26:36 -0000
-Message-Id: <164220999607.3713.4793056051355751347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Sat, 15 Jan 2022 02:10:15 -0000
+Message-Id: <164221261542.31494.14004520485831629326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 0e3a1c902ffb56e9fe4416f0cd382c97b09ecbf6
-    new: e80f2a0d194605553315de68284fc41969f81f62
+    old: 9d0c5222aa8e5a46088034ea60b9bfe2f0e130e2
+    new: b20774a55f2b9bf6d74d2bde98b13485fe3230f3
     log: |
-         e80f2a0d194605553315de68284fc41969f81f62 test: selftests: Remove unused various in sockmap_verdict_prog.c
+         b20774a55f2b9bf6d74d2bde98b13485fe3230f3 station: Add some additional debugs
          
