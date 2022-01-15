@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 15 Jan 2022 00:42:58 -0000
-Message-Id: <164220737862.7136.10921231297677904656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 15 Jan 2022 00:47:44 -0000
+Message-Id: <164220766463.10120.11190468164577874934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: d730d54e543e5cf7376ff61e3ad407490f08c85e
-    new: 718924de5aa878a65d450691f7a8225fc5ee7532
+  - ref: refs/heads/master
+    old: 000daa0e075e737262c82d4afa09f1270af232aa
+    new: 71a3cdf80c0d12aadca6f9b0f5a43883649bdbea
     log: |
-         8e40d4fa9585f71d6a11477f226b52cfbd9eeec6 rcu: Uninline multi-use function: finish_rcuwait()
-         718924de5aa878a65d450691f7a8225fc5ee7532 rcu: Remove __read_mostly annotations from rcu_scheduler_active externs
+         71a3cdf80c0d12aadca6f9b0f5a43883649bdbea bpf/scripts: Raise an exception if the correct number of helpers are not generated
          
