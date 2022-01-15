@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2994843074302042176=="
+Content-Type: multipart/mixed; boundary="===============6479399138388615445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 15 Jan 2022 21:35:19 -0000
-Message-Id: <164228251988.12516.2566282397236504848@gitolite.kernel.org>
+Date: Sat, 15 Jan 2022 21:36:23 -0000
+Message-Id: <164228258371.12927.12896634044765581932@gitolite.kernel.org>
 
---===============2994843074302042176==
+--===============6479399138388615445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 347d16eefb13434883db3203140d8de952727a5e
-    new: 6a33851f11add0f1b8cc495e75d7f05ec3b8394e
-    log: revlist-347d16eefb13-6a33851f11ad.txt
+  - ref: refs/heads/next
+    old: d99a8af48a3de727173415ccb17f6b6ba60d5573
+    new: a33f5c380c4bd3fa5278d690421b72052456d9fe
+    log: revlist-d99a8af48a3d-a33f5c380c4b.txt
 
---===============2994843074302042176==
+--===============6479399138388615445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-347d16eefb13-6a33851f11ad.txt
+Content-Disposition: attachment; filename=revlist-d99a8af48a3d-a33f5c380c4b.txt
 
+d3dca026375f2be550041b75833f2e3238738a70 ALSA: hda/realtek: Add support for Legion 7 16ACHg6 laptop
 ae7abe36e352eddf8e30d3b1ea3fb402514ba13b ALSA: hda/realtek: Add CS35L41 support for Thinkpad laptops
 d94a69cb2cfa77294921aae9afcfb866e723a2da netfilter: ipt_CLUSTERIP: fix refcount leak in clusterip_tg_check()
 e4c35e75209bda13e57c9bc8d280366c2b9275a5 ASoC: ak4375: Fix unused function error
@@ -1049,6 +1050,5 @@ e1a7aa25ff45636a6c1930bf2430c8b802e93d9c Merge tag 'scsi-misc' of git://git.kern
 3bad80dab94a16c9b7991105e3bffd5fe5957e9a Merge tag 'char-misc-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 112450df61b7373529b0fe4c122ad13b89d80a8a Merge branch 'i2c/for-mergewindow' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 a33f5c380c4bd3fa5278d690421b72052456d9fe Merge tag 'xfs-5.17-merge-3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-6a33851f11add0f1b8cc495e75d7f05ec3b8394e selftests: tpm2: Determine available PCR bank
 
---===============2994843074302042176==--
+--===============6479399138388615445==--
