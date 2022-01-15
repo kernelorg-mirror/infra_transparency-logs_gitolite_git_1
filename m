@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 15 Jan 2022 07:07:06 -0000
-Message-Id: <164223042651.27341.17399706086608560258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/hda-emu
+Date: Sat, 15 Jan 2022 08:58:50 -0000
+Message-Id: <164223713089.324.1069283476433313320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tiwai/hda-emu
+user: tiwai
 changes:
   - ref: refs/heads/master
-    old: 0776a1b298d102d183c58c398e632756654f5d6a
-    new: 9845b0a1ed9e4e326cd6662f0a3eeb27e6cfb1e6
+    old: c8e3cf77dc1a05c2799d03847144c7e58fe7c1ce
+    new: 9dc3b624bfcc4a915218d3f32a90857f44a74f87
     log: |
-         9845b0a1ed9e4e326cd6662f0a3eeb27e6cfb1e6 Sat Jan 15 07:06:33 AM UTC 2022
+         9dc3b624bfcc4a915218d3f32a90857f44a74f87 Fix SSID lookup (bko#215495)
          
