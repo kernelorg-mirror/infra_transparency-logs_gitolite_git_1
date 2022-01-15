@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 15 Jan 2022 16:58:10 -0000
-Message-Id: <164226589036.29164.8127335746942907251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 15 Jan 2022 17:02:18 -0000
+Message-Id: <164226613884.32039.9727072096584909062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 1df6e064cf9e15ed39703b2fd087f4a7aaa30180
-    new: 7395d7a5fec55b99263d476e733c167dbcaf0525
+  - ref: refs/heads/master
+    old: 902ce8856ae2a14e95ce04b45524c255bb4e6e2c
+    new: 347d16eefb13434883db3203140d8de952727a5e
     log: |
-         7395d7a5fec55b99263d476e733c167dbcaf0525 Revert "usb: musb: Set the DT node on the child device"
+         347d16eefb13434883db3203140d8de952727a5e selftests: tpm2: Determine available PCR bank
          
