@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 16 Jan 2022 12:45:37 -0000
-Message-Id: <164233713761.19571.16317133531714020507@gitolite.kernel.org>
+Date: Sun, 16 Jan 2022 13:19:24 -0000
+Message-Id: <164233916415.6932.10579581218786352380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bp/bp
 user: bp
 changes:
   - ref: refs/heads/vp
-    old: 7df39f129b1eb276f51a742c1b956da0440cd427
-    new: fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6
+    old: fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6
+    new: 8c8d3b458acf916cb23089666554f6b4c0c2ab52
     log: |
-         fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6 tip/tools/vp: Fail gracefully when encountering unknown tags
+         8c8d3b458acf916cb23089666554f6b4c0c2ab52 tip/tools/vp: Improve commit reference verification
          
