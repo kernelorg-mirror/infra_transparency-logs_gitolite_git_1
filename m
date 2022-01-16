@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2198366266228375991=="
+Content-Type: multipart/mixed; boundary="===============5451881811860870031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 16 Jan 2022 08:59:24 -0000
-Message-Id: <164232356484.32477.226122531306098403@gitolite.kernel.org>
+Date: Sun, 16 Jan 2022 08:59:39 -0000
+Message-Id: <164232357989.32633.4836102516360752034@gitolite.kernel.org>
 
---===============2198366266228375991==
+--===============5451881811860870031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,63 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 228eaa8a2539662a06aa15126709350698e040b0
-    new: 36852405eea7ba200e07852f62fe0c1b02073b65
-    log: revlist-228eaa8a2539-36852405eea7.txt
+  - ref: refs/heads/module_ns
+    old: deb840fd0e26842a054ac319ead15c6ba3eb3d76
+    new: 382c6c331abea0a9b1eff5176543fdf2ff97fcb9
+    log: revlist-deb840fd0e26-382c6c331abe.txt
 
---===============2198366266228375991==
+--===============5451881811860870031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642323563 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642323577 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642323562-28353ccdbfe45284d6da7b06b60e5eba2ec72c5b
+nonce 1642323576-e21f4d5ae0492ff7ae82b8b9301a169ebaee0906
 
-228eaa8a2539662a06aa15126709350698e040b0 36852405eea7ba200e07852f62fe0c1b02073b65 refs/heads/debugfs_cleanup
+deb840fd0e26842a054ac319ead15c6ba3eb3d76 382c6c331abea0a9b1eff5176543fdf2ff97fcb9 refs/heads/module_ns
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj3msbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9NcP/284Y7O52pO5Sq+ODxSk
-dQH7B0TAAdaJph9vl+UQzk1988n8C+ZztTS4B1pdMhIs9CGXpUdFIZUsG/UE3zMF
-llnh1ENhuxwhf/zQEy5ycDFAfdw+Xem30kgtJ5WyJYl7QbvIMKXr/it+Wx0j9eXx
-YAHD5vFWf7dE/7fz6WCFmpfRfn4MOi0wnomCCPKy72usUclOIennKPRZWb6gQ/pz
-HM5LE+5cR/1ewZT4rU4JdQXGNVRXwZCVyAa1SF++yDXhHfK0y0WqZH/9sCxtQ1Lk
-pL7BooorBRKs4WTEGrItZZ5WXehMCpV/qokIScsxLryh5NX8oGC1UBNUap8AB21i
-Z80iXGTJ7SLe3fD6MIKz2Nf8fZRyNKHXVhR88nuLcfhEm89TaNwC0Gv+dQ/AHFRW
-L2fwqYsNVYrr8bw8AjB2xIfq/I8OcRODgisOeJhUwtiir/HVtDIAAg0YdFTxnpkK
-G+q5Yoa/TvndXhhuUsTihN6YtT/YRswDeJUwiUxV4ewmBSbGDTKBPr71cyseUVb5
-vaR+nlOsC8nRUuF50uvpSXliJ14Qlnip9SATyMPqxBiWiYqpui9k4q4q0osUKTFp
-khEGLyBhIOTMTHu6zNfY+MwX97v94+kLG+bFylyHt8LSSrCJXtdGOO1KQp3KHM1B
-3MhwNdEgAYynngPO4Bnlp0oU
-=rLjL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj3nkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KDkP+gPteG9CoHAnVhT1nSKI
+w+DOshAU3+VJb1CLDjsa7L1k4aGmlS8fYRB8QZ4i5yZFsCgFyK1KX/NeMRbqGvFL
+gZjck5IAkyQQ0lxxG7Yl8Wm3F5p9ovB5QIByhH2FNOvdlLSN9QVGg/tBsSqv0Z4Q
+0fEMCxcO/R+sM1lwbJOs8uXQUnquQH17FbtX5o8NgdqA5X7H6rYbrLFQK0uhTiy6
+f+8fvDKMMIpXQWvHbKUD8A8JqwJUYKDLFNfnkZ7o0+AP4ftYRlRUINTR0HGMBxbD
+kBk1LrbHmKlp8GVKK7u6RQ+rr+xRafFKZPjHl9OpStcZ1658FAwioh55txgzIZJ/
+BUCOTnJWdzMah+mwW0c3df66qjscMRdjApBJi17Z2KMkJeBlZJpe1XZBcyUuRjDO
+viZUUri5ajKcoQrRP6w7mgEvn0W4kMXCxSVzCUaCfXRETMOc0qNNzq3LE85tqQhG
+AxiyffNl4pdTVg9dr2kgRz8fjwY+ICbbJt2UpYQF7M+6p03+5rTO5Fs2boMmh4qW
+SVV7mAWHl4p1v8Hrh8zA0iIaH9/kxEUyjnKpkSzTCKW9nmG9+/RRgv6ffpqjDD0a
+kT9dwi/6AFSHSxzA1m+JcB6vgKs2ftrkVNSJtXfvN0EighxwisoB6qvoTQ1F0KjS
+Vr80q3zF16PkUDNzkn+IWzJ7
+=M8/c
 -----END PGP SIGNATURE-----
 
---===============2198366266228375991==
+--===============5451881811860870031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-228eaa8a2539-36852405eea7.txt
+Content-Disposition: attachment; filename=revlist-deb840fd0e26-382c6c331abe.txt
 
-c3c9bab1e398073df117fc0b5bb1b81beada9fd6 i2c: designware-pci: Group MODULE_*() macros
-0897f1735910a547d5e3aa2a5cf177ff96efb0ea i2c: designware-pci: use __maybe_unused for PM functions
-2759181d9a131a2334211637eb56db3de2e7d84c i2c: designware-pci: Convert to use dev_err_probe()
-ac18935d2e5130744b9675f6fb72acb783f86d77 i2c: exynos5: Fix getting the optional clock
-a5f7cf953f2b47e5025a7acd1698eea997b2fd94 i2c: rcar: update to new DMAENGINE API when terminating
-44df8a79283d94f4aed2e3a14ed67e49a3c210ca i2c: sh_mobile: update to new DMAENGINE API when terminating
-b18794ebc79a003f5027e93a677643185948d0ec dt-bindings: i2c: aspeed: Drop stray '#interrupt-cells'
-653becec6d568a28666f726ed4c84b10f3c09f5e i2c: aspeed: Remove unused includes
-861dc0d7fd972f2064ff48b211955717163a11e0 lkdtm: Note that lkdtm_kernel_info should be removed in the future
-026c6fa1a525ca3f8a615052e45d766208989597 lkdtm: avoid printk() in recursive_loop()
-bc93a22a19eb2b68a16ecf04cdf4b2ed65aaf398 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
-90091c367e74d5b58d9ebe979cc363f7468f58d3 selftest/lkdtm: Skip stack-entropy test if lkdtm is not available
-87f77d37d398d92a9963890b14f336dc394f6fa0 Merge branch '5.16/scsi-fixes' into 5.17/scsi-staging
-baea0e833f7612483dcb2351240da19f0d0bc011 scsi: qla2xxx: Synchronize rport dev_loss_tmo setting
-99c66a8868e33522ebc6fd8a99e32f0d544a014f scsi: ufs: core: Fix deadlock issue in ufshcd_wait_for_doorbell_clr()
-efac162a4e4dc4cebcc658e02676821ca834b56c scsi: efct: Don't pass GFP_DMA to dma_alloc_coherent()
 0e4620856b89335426a17904933a92346ee4599d scsi: hisi_sas: Start delivery hisi_sas_task_exec() directly
 934385a4fd5926650b20131bf3a435199a3d0af2 scsi: hisi_sas: Make internal abort have no task proto
 08c61b5d902b70180b517e9f2616ad70b7a98dcf scsi: hisi_sas: Pass abort structure for internal abort
@@ -142,10 +126,16 @@ c50384d7e331aceeb4072bf363d5235eddda65bf ASoC: Intel: catpt: Dma-transfer fix an
 107ba9bf49c211bebfab24b8e3525c320069f53a phy: qcom-qmp: Add SM8450 PCIe0 PHY support
 f27456693b960ce4022d40b943808b3362ce80f9 9p/trans_virtio: Fix typo in the comment for p9_virtio_create()
 90d6cf349c5604bd79f1191d09ff1be0165a0513 fs: 9p: remove unneeded variable
+d558285413ea2f934ab90223ba908c30c5113aee PCI/MSI: Unbreak pci_irq_get_affinity()
 2fe4ca6ad7f6a0b98f97c498320051e5066e4b95 powerpc/mpic: Use bitmap_zalloc() when applicable
 a605b39e8ef703828b9e26750ea1925a6a5ef848 powerpc: use swap() to make code cleaner
 467ba14e1660b52a2f9338b484704c461bd23019 powerpc/64s/radix: Fix huge vmap false positive
 30e120e6a9d247cec7effd55fd6783d5c619ed4c ocxl: remove redundant rc variable
+befbfe6f8f744acb65c4334cc224b855d31aff1b irqchip/renesas-irqc: Use platform_get_irq_optional() to get the interrupt
+31bd548f40cd0b754ed80a372bc2019e7c4fa31d irqchip/renesas-intc-irqpin: Use platform_get_irq_optional() to get the interrupt
+5fc1f93f69989e72be7a84ded6ee867d6415f690 clocksource/drivers: Add MStar MSC313e timer support
+e64da64f410cf4f9697e25ab76cdfc679f4fb6db clocksource/drivers/msc313e: Add support for ssd20xd-based platforms
+7647204c2e81b28b4a7c4eec7d539f998d48eaf0 dt-bindings: timer: Add Mstar MSC313e timer devicetree bindings documentation
 30e693ee82d20361f2caacca3b68c79e1a7cb16c ASoC: mediatek: mt8195: correct default value
 5ea4e76b73cd6f2cf29b02a57040c1a11fa8c3f0 ASoC: codecs: ak4118: Use dev_err_probe() helper
 900b4b911aca2270ae3f966df5f31081a086c3cf ASoC: codecs: es7241: Use dev_err_probe() helper
@@ -171,6 +161,7 @@ efc162cbd480f1fb47d439c193ec9731bcc6c749 ASoC: stm: Use dev_err_probe() helper
 11a95c583c1de215d2c338bf5cb9f929312616f8 ASoC: sunxi: Use dev_err_probe() helper
 e047d0372689f5d4231eefb731b60ac64720bbf0 ASoC: tlv320adc3xxx: New codec bindings
 e9a3b57efd28fe889a98171bdc1e9e0dd7eb9a50 ASoC: codec: tlv320adc3xxx: New codec driver
+cd448b24c621b2b676b4fa50a4ab4e9e9da114e2 Merge branch irq/misc-5.17 into irq/irqchip-next
 98bf33ca3f00d76659aa1be1586a433efa74d34e ASoC: mediatek: mt8195-mt6359: reduce log verbosity in probe()
 38fa8d3cacc0ee5a92068e1049c85aaff6bec6e0 ASoC: Use dev_err_probe() helper
 a4c1aaf97bf1d7102ac538beaf7846b7c5d8c97d Merge tag 'fpga-for-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mdf/linux-fpga into char-misc-next
@@ -711,6 +702,7 @@ eac4c54bf7f17fb4681b85e5fe383b74d6261a2b drm/amdgpu: don't set s3 and s0ix at th
 104f062fd1b9c8571dba6a3020649da6bbc66259 RDMA/rxe: Use the standard method to produce udp source port
 ccd36795be48956248dc308f4525c06c7f419d76 PCI: Correct misspelled words
 3e4518035a23e02ef818ea22570868a82956c6b0 ALSA: hda: Fix dependency on ASoC cs35l41 codec
+0422fe2666aea4c0986f4c89dc107731aa6a7a81 Merge branch 'linus' into irq/core, to fix conflict
 70e94d757b3e1f46486d573729d84c8955c81dce NFSD: Combine XDR error tracepoints
 3dcd1d8aab00c5d3a0a3725253c86440b1a0f5a7 nfsd: improve stateid access bitmask documentation
 cd2e999c7c394ae916d8be741418b3c6c1dddea8 NFSD: De-duplicate nfsd4_decode_bitmap4()
@@ -758,6 +750,9 @@ e21a28bbcc0c5dc8ab86af77edb530d6fc0c20ff exfat: simplify is_valid_cluster()
 1ed147e29e505de819aaa5b57919c25348f72e1f exfat: move super block magic number to magic.h
 c71510b3fa27f96840c5737d8a47dd7b370e376c exfat: remove argument 'sector' from exfat_get_dentry()
 3d966521a824082952990492442c7b486fefb48c exfat: fix missing REQ_SYNC in exfat_update_bhs()
+6629c0769926306454b113effe1aad243bd49bde Merge tag 'timers-v5.17-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
+67d50b5f9114ae55d45e08e1fd1d6ae152622bf3 Merge tag 'irqchip-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/core
+35e13e9da9afbce13c1d36465504ece4e65f24fe Merge branch 'clocksource' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu into timers/core
 f66229aa355f7e0dc0dc20cbc1f4d45c3176eed2 Merge tag 'asoc-v5.17-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 f9535d28ac93c3cc326f7215fccd0abe1d3a6083 drm/i915/pxp: Hold RPM wakelock during PXP unbind
 4c2602ba8d74c35d550ed3d518809c697de08d88 drm/i915: don't call free_mmap_offset when purging
@@ -771,6 +766,7 @@ fb339e531bfccbd12d49b165f37636e62778b69f tracing: Change event_trigger_ops func(
 2378a2d6b6cf863bdd566aae495336c72bdaec99 tracing: Remove ops param from event_command reg()/unreg() callbacks
 86599dbe2c5272588f859858239d1f52321eb0f9 tracing: Add helper functions to simplify event_command.parse() callback handling
 c40238e3b8c98993e3c70057f6099e24cc2380f7 RDMA/irdma: Remove the redundant return
+74a5257a0c175810d620b5e631c4e7554955ac25 genirq/msi: Populate sysfs entry only once
 19d1c32652bbbf406063025354845fdddbcecd3a 9p: fix enodata when reading growing file
 d47c7407b4c88cf66098eba8893bc38279f301fc Merge tag 'gnss-5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss into char-misc-next
 c71af3dae3e34d2fde0c19623cf7f8483321f0e3 drm/sun4i: dw-hdmi: Fix missing put_device() call in sun8i_hdmi_phy_get
@@ -879,6 +875,9 @@ a99f501f3e4d203b1306303f27a5d43b2f5d184e Merge branch 'remotes/lorenzo/pci/xilin
 da43f08db236987f9421ccb14a675ce8bfd51707 Merge branch 'pci/misc'
 f5d3ca6fffeb71f304a7accae229c279e70b2216 Merge branch 'pci/errors'
 87c71931633bd15e9cfd51d4a4d9cd685e8cdb55 Merge branch 'pci/driver-cleanup'
+147cc5838c0f5c76e908b816e924ca378e0d4735 Merge tag 'irq-core-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fd04899208d2057b2de808e8447cfd806fd0a607 Merge tag 'timers-core-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+feb7a43de5ef625ad74097d8fd3481d5dbc06a59 Merge tag 'irq-msi-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
@@ -1080,6 +1079,7 @@ f56caedaf94f9ced5dbfcdb0060a3e788d2078af Merge branch 'akpm' (patches from Andre
 d0a231f01e5b25bacd23e6edc7c979a18a517b2b Merge tag 'pci-v5.17-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 77dbd72b982ca648b42b4feac5f8b2ea55e4ed09 Merge tag 'livepatching-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 4d66020dcef83314092f2c8c89152a8d122627e2 Merge tag 'trace-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
-36852405eea7ba200e07852f62fe0c1b02073b65 pm / wakeup: simplify the output logic of pm_show_wakelocks()
+1a10c6b85fd2fe7da4e450694d6953e031c18d46 export: fix string handling of namespace in EXPORT_SYMBOL_NS
+382c6c331abea0a9b1eff5176543fdf2ff97fcb9 module.h: allow #define strings to work with MODULE_IMPORT_NS
 
---===============2198366266228375991==--
+--===============5451881811860870031==--
