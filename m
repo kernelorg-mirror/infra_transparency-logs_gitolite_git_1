@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4887476809613369627=="
+Content-Type: multipart/mixed; boundary="===============3033285941504442772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 16 Jan 2022 09:45:44 -0000
-Message-Id: <164232634428.11548.17246257339351856394@gitolite.kernel.org>
+Date: Sun, 16 Jan 2022 09:45:53 -0000
+Message-Id: <164232635308.11648.182103069296049560@gitolite.kernel.org>
 
---===============4887476809613369627==
+--===============3033285941504442772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-stable
-    old: cafb21ac5f126c9635e84cee1d437712174db0e4
-    new: bd628d7f399d47512bb8357bec4639af7d11cc6a
-    log: revlist-cafb21ac5f12-bd628d7f399d.txt
+  - ref: refs/heads/linux-rolling-lts
+    old: d14456b045e63069333a1cd1db0334992cc7eb0a
+    new: 72a6ff64aaba8ae0d3046b4189c12547b0ebe77e
+    log: revlist-d14456b045e6-72a6ff64aaba.txt
 
---===============4887476809613369627==
+--===============3033285941504442772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642326340 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642326352 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1642326338-319a780f8c08dd59c0d74d15c85869be31984b9d
+nonce 1642326350-3035f8ee5a42afefe6756142b53cc3bda1961330
 
-cafb21ac5f126c9635e84cee1d437712174db0e4 bd628d7f399d47512bb8357bec4639af7d11cc6a refs/heads/linux-rolling-stable
+d14456b045e63069333a1cd1db0334992cc7eb0a 72a6ff64aaba8ae0d3046b4189c12547b0ebe77e refs/heads/linux-rolling-lts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj6UQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SgUP/jBXtP8jhKBjHTzN94KO
-InGEGOlSLMQNVM+7BfIM9q4IrmLXhmyGeGlz32zL5b8BPKHxnBtraKwtQnZVbD6a
-f0sKT4YdTcUu+tEnyPghroV2U/NNEqqjn4THnymH7E9LF318tAV3sM93c0irmOvs
-ouRrKbsWglc37x8bHjOzVdZeuq+sq+QKvMObs9UcdW1d4GcNvt6mjQdAvBWndx2b
-eyr71KYc8dggPD6qW414OuSTkv3vjc5zKEB7pBs7+6zwgNqHrrKN+ARlxds8/ZJe
-sRNhI050nXe+wPS6mHfxxHCWrre/zih0pNrYIsJs7B6E37K7sH9i812poaj7YQkC
-+OtjPRruG1BwTrngEB3CnPvgiLqBfjfFF4dC9JuaR/GvaO6XPyB0NxvHmNrJmSfv
-Qs8mCbnj8j94ompkemzX32RNuSZWOpYp6tNLOIx+XrRcEqvkikd5IeK2PrgEN00y
-xB/S4Pc4W2CTfZGxcVi/cIcPvoetRkyN0Y8z4IWOk1XHDz3rbbahO+f9KArDRhTI
-xwRQQTT+mINhdMwglwS5UEmWYDHtG6UQBWiNM2NNObzwrMJdFSgk4/vhy/wV9cKB
-WJ24jQJ09K8m1zDn6Xx7M7XMQhar/zRiJed2JZ6NbC3mp3KMMFRFjzSiWt3EFxWn
-XCEIj+v5mP4pN2UxJn4+6b81
-=O8Iv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj6VAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aZgP/0uvlq363PgFljwvQYvx
+SxseavApHwclJI/tk8zvD5CNL14kP2rZj7iPBXqgfxZvwLLMdA84vRW4SgJnjDNs
+Gkyl/aUX5BlqJQIVaJ2R7k6AnKX9uyCr2V+jM75DcXcW5I4LT2R2hXi3QkV6mVEF
+xg5tCwM0QCO0GcSIwhTPM8hGUwthtDlz5+qp+/fdAGtSTRiTsG0zGDRUox20oOfH
+Cd8Cgbdm8/heStPoVJ6j14IN7dVtemIIWPQxF9CBw2hWRyIcUBGjdNkIVGxkhlsd
+Fej7WkJ5LYPUnM8HXhV4t8TXqLMZT/SkmJ250mdZoTRGZffz76XJnwZ5oouZ3CZ7
+nFq/OScPzwjGllCLCc39Q1XsfMQ5jhqlBcmPpNj0YxPIDHIF0zJk/I4Jw5GdXE+b
+gnNaI0A0490A969xEAyzBxVBk/JpV9tp0O3P09v0Rd+7ImY06eFwoIsFKU/WnA19
+xKvWJ/7s0SMK44u/YytMOLucdGTx8La18qa7tcYXXzviXvsAaF9KX7rz+qCEzcsO
+i/BL/jKFQyfAmYwc48hFowps0LmYkdIjPZxl14QtvVBgLtgJlc8or5UTYywQ4ygF
+j5eoInohEx6CKYqWbCBsUcWuLVIj/AgNGBVgdeWRaOhyfqeRceCG398l+Q7EUCE2
+l3YYzbuEmBADGyQER+qLjXdk
+=/vf0
 -----END PGP SIGNATURE-----
 
---===============4887476809613369627==
+--===============3033285941504442772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cafb21ac5f12-bd628d7f399d.txt
+Content-Disposition: attachment; filename=revlist-d14456b045e6-72a6ff64aaba.txt
 
 0ed0be7552769022550e04dcbd8c955b6c4b651a s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
 cf5b6bd2c79269c7774105f81fcae460063a6199 workqueue: Fix unbind_workers() VS wq_worker_running() race
@@ -98,6 +98,6 @@ e29bd72f5c7604a420247fb8a98212277f0f0a4b staging: wlan-ng: Avoid bitwise vs logi
 48d56b00c35266b00ec92aaf0db5b71ce1f27702 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
 54a457ad2c97a2dca1f5533b10e6718fd74603b7 staging: greybus: fix stack size warning with UBSAN
 760a85303c5a2aeb811f92c76b8dca4c13bf3416 Linux 5.15.15
-bd628d7f399d47512bb8357bec4639af7d11cc6a Merge v5.15.15
+72a6ff64aaba8ae0d3046b4189c12547b0ebe77e Merge v5.15.15
 
---===============4887476809613369627==--
+--===============3033285941504442772==--
