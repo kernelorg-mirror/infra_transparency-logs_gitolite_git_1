@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 16 Jan 2022 11:17:01 -0000
-Message-Id: <164233182164.28679.2249161663052324571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 16 Jan 2022 12:26:06 -0000
+Message-Id: <164233596698.8040.7613305879846099857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: c5079cd7c52abfd9bf8aa2b5d3b5b7a1bf5eda7a
-    new: d4b825bad3206d4110ce7ca861dece6f0a085e58
+  - ref: refs/heads/master
+    old: 9404bc1e58e4bed41f629da9e3b890b2ca1f8b9c
+    new: 0a6e6b3c7db6c34e3d149f09cd714972f8753e3f
     log: |
-         d4b825bad3206d4110ce7ca861dece6f0a085e58 iio:imu:adis16480: fix buffering for devices with no burst mode
+         0a6e6b3c7db6c34e3d149f09cd714972f8753e3f ipv4: update fib_info_cnt under spinlock protection
          
