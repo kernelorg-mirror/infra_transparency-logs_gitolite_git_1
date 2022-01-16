@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1202667826453832041=="
+Content-Type: multipart/mixed; boundary="===============6780990498248775190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 16 Jan 2022 08:45:07 -0000
-Message-Id: <164232270728.22960.9312191440093690786@gitolite.kernel.org>
+Date: Sun, 16 Jan 2022 08:45:12 -0000
+Message-Id: <164232271221.23076.6017669993030950514@gitolite.kernel.org>
 
---===============1202667826453832041==
+--===============6780990498248775190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: c9e6606c7fe92b50a02ce51dda82586ebdf99b48
+  - ref: refs/heads/char-misc-next
+    old: d47c7407b4c88cf66098eba8893bc38279f301fc
     new: 4d66020dcef83314092f2c8c89152a8d122627e2
-    log: revlist-c9e6606c7fe9-4d66020dcef8.txt
+    log: revlist-d47c7407b4c8-4d66020dcef8.txt
 
---===============1202667826453832041==
+--===============6780990498248775190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642322706 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642322711 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1642322705-a10d837bb7d8a1735403ec3a529ac116b8533137
+nonce 1642322709-2c37e66dc31a30b7d13c83fe6d179947c9637ed7
 
-c9e6606c7fe92b50a02ce51dda82586ebdf99b48 4d66020dcef83314092f2c8c89152a8d122627e2 refs/heads/char-misc-linus
+d47c7407b4c88cf66098eba8893bc38279f301fc 4d66020dcef83314092f2c8c89152a8d122627e2 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj2xIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sgUP/jKrcIWyxLnXgOIXELQt
-j2DLtvw6EqZBIKyd0fivhEEO3je1Dv5AJ4utNYNDqmW82kHvTAqgvop4EOA1BIfo
-LUKhxtWdZlRWF5h9V5GFHdCDQBd2K/HH4a15oKEW7VH1J4+mKGFJQvPGAYl7nsKO
-pNafirW2fTOR4Eu7IvmPdIvoRxxnkdt+I/IV1cp/R4xD4w9mUroQ71oOlB8fszju
-xgSB2i/w816Ycp2D0fnQHwStgDFd1fnZ+tA0ZzQZE8REbcSzfY2iAPrJyzkci35c
-Y31VJG0kIIhf4Af+Sl5PdadJA5PlpsYw/sCJf3kxEFVj+hQuWss/BzH8VYRl4K9y
-MSXu2xYxq2kRmhh+JemkxytAg7bvy3le3mgf8nYQXFX9Vn/e3DsOIhgo9oG/nJcE
-SD137ROO/mIIj+7SQfzkMw1ZCiDXWFhX5lSHrP9RfHOnqG0jnbHbI/pGDJKiCoGc
-30r4xcWJAroGN6TedNPAmrPPjd289AZT7KniDzDYl7iVyBOpAzI5bn0kQEjRbKRw
-bBGXMMdZFJV9/Drp7sC7ha08DqHzxTiQIseWa+S9WBWk+SOnqqjrfqKsOVBtGtdr
-y6Yc0MSeYFL4Lh/eCIeVAdhu//aLBTDDBdo8z9btc0OIpV7hQ9uSKPAlnhJky1GL
-5H/qHLW8BobZTIqz2HvAc6tM
-=HJiL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj2xcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D/oP/RiE7Ac2kBe0FDBZ5hls
+fraPQYHK3zCBLkAwj/+9uQDAg05SrtdawQYomu6xSXDKc0N6+1PtQMs4K6jujOb0
+4X2EG0lwBTC5gnymNhFxL6TFyz/MDLlY8vbpaG/k5KsaZkOdegx+ZfgzPDMRqWev
+KXx2TBNJJm64Gjvd5H/9kXoklHuNZSaGq2vxckRWiRpVEi68t1SCNvycn5ItdNHi
+m/9WKuqyqyjKpksNM2tQx76iK3IgG3mTVCP7Br/loM9VAxA+5wfEms54HPWWk7zB
+mR8t8SdfjAdLRHxiUyyRPrrexVABzJZPV1nZEWGbz843lAJX4ee+o6kXqITVbb2w
+B8eomLkmbM7vWCXuWwJlbRXPRt+znOeOz24dBbRNnPz1tzsfkDn28Z+tU8PjpN25
+Y88K0ncAhK+yX1VzAXi5SkLjEuF4d223lm5Btp7WIbApJn/BECVphoNGZLThXV7i
+yFHZrR9tGbnUc2f52lJR+pLeGwGWiP5gC8HXYVo5AyL2EBvv1I8FSqyT6ICLebxc
+OA+swNddc7ZKcyviwg2PLtzGssvXABymMet0fyRbaeKt6cGhzUzefPeHGI4EkQ2s
+Psp+9qNYPZponV6Pq7rPUISkMjx//iayGR+lfopK2RyldIyj0DszVr/RKOv6TF9W
+f3nUz2XdZ+MaR/cspwQ9/uXr
+=M8VZ
 -----END PGP SIGNATURE-----
 
---===============1202667826453832041==
+--===============6780990498248775190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9e6606c7fe9-4d66020dcef8.txt
+Content-Disposition: attachment; filename=revlist-d47c7407b4c8-4d66020dcef8.txt
 
+712a270d2db967b387338c26c3dc04ccac3fcec3 parisc: Fix pdc_toc_pim_11 and pdc_toc_pim_20 definitions
 c1c72d9bbf2bf91670ac589adf037f433642fff5 parisc: Add kgdb io_module to read chars via PDC
 75c09aad79e4686367cbadb7dfe69c59d1537902 parisc: pdc_stable: use default_groups in kobj_type
 6968e707d371ef80511448c6771daf445b4a5cf5 parisc: io: Improve the outb(), outw() and outl() macros
@@ -650,7 +651,6 @@ b35b6d4d71365fbfb6f2cc8edc331b3882ca817e Merge tag 'pm-5.17-rc1' of git://git.ke
 fe2437ccbd278af683d32196fdea59a3b95f144e Merge tag 'thermal-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 fe8152b38d3a994c4c6fdbc0cd6551d569a5715a Merge tag 'devprop-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 19d1c32652bbbf406063025354845fdddbcecd3a 9p: fix enodata when reading growing file
-d47c7407b4c88cf66098eba8893bc38279f301fc Merge tag 'gnss-5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss into char-misc-next
 c71af3dae3e34d2fde0c19623cf7f8483321f0e3 drm/sun4i: dw-hdmi: Fix missing put_device() call in sun8i_hdmi_phy_get
 a59466ee91aaa9d43889a4c51e01de087d188448 memblock: Remove #ifdef __KERNEL__ from memblock.h
 145790e55d82e30182f48b0b94149ba41e3aabcc dt-bindings: PCI: Add compatible string for Brcmstb 74[23]5 MIPs SOCs
@@ -1082,4 +1082,4 @@ d0a231f01e5b25bacd23e6edc7c979a18a517b2b Merge tag 'pci-v5.17-changes' of git://
 77dbd72b982ca648b42b4feac5f8b2ea55e4ed09 Merge tag 'livepatching-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 4d66020dcef83314092f2c8c89152a8d122627e2 Merge tag 'trace-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============1202667826453832041==--
+--===============6780990498248775190==--
