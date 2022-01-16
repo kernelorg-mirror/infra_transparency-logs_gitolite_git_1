@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 16 Jan 2022 13:19:24 -0000
-Message-Id: <164233916415.6932.10579581218786352380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sun, 16 Jan 2022 13:57:13 -0000
+Message-Id: <164234143327.32246.10039458610041125152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/vp
-    old: fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6
-    new: 8c8d3b458acf916cb23089666554f6b4c0c2ab52
-    log: |
-         8c8d3b458acf916cb23089666554f6b4c0c2ab52 tip/tools/vp: Improve commit reference verification
-         
+  - ref: refs/tags/perf-tools-for-v5.17-2022-01-16
+    old: 0000000000000000000000000000000000000000
+    new: 80b509d59dcd90014999331ac33dee4ab0d47b60
