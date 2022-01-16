@@ -1,213 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============7419131351220081955=="
+Content-Type: multipart/mixed; boundary="===============2923349107992392913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 16 Jan 2022 08:20:38 -0000
-Message-Id: <164232123802.14657.15829764842165059162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 16 Jan 2022 08:21:39 -0000
+Message-Id: <164232129963.15632.18018685863521027704@gitolite.kernel.org>
 
---===============7419131351220081955==
+--===============2923349107992392913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 2c80b66182ea2f5db89b3db12808225a84b99979
-    new: 56aade67dc4cdc6b7f9e6d9068760fa72652e141
-    log: revlist-2c80b66182ea-56aade67dc4c.txt
-  - ref: refs/heads/queue/4.19
-    old: c761af51b2b54b268f9a7756d6393e67e2b1d9a6
-    new: f6219a2d362d4248aa42be0416a68aa32c49a77f
-    log: revlist-c761af51b2b5-f6219a2d362d.txt
-  - ref: refs/heads/queue/4.4
-    old: b73cbd6cb2121629cc6c77b1f673ff0651bf8c40
-    new: d67421754da6c63db76b678df77f6edc61f0cb6b
-    log: |
-         db1b6c510a84faaf0405d678723a07dd31361cd6 Bluetooth: bfusb: fix division by zero in send path
-         dbf6f5194c3359406f9bc41c919fc14ca0eac7e6 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         a8c11919b0bab67d056ad106565337159a4543b0 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         f66bd7aae153ead7e1df191e941caa8a9fabde9b mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-         55d1b8bc389189fe5f951a06815aa4c9d03637a8 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-         fba86855caa6c18b45f8f62b9e0ae2e87113ca99 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-         d67421754da6c63db76b678df77f6edc61f0cb6b drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-         
-  - ref: refs/heads/queue/4.9
-    old: e7d7a9ec7c46cc274cae2ac741113681aaa77f3f
-    new: 4bcb553c01b4817ce588f1c62f28dfe51e6e9be4
-    log: revlist-e7d7a9ec7c46-4bcb553c01b4.txt
-  - ref: refs/heads/queue/5.10
-    old: 3eccd3159d8f80879941c0ecf50fa20cabec9ef8
-    new: 63acf2745a812e7f0dd53e1faad523e65d87b1db
-    log: revlist-3eccd3159d8f-63acf2745a81.txt
-  - ref: refs/heads/queue/5.15
-    old: 47599c37ae19d11bbc4ac077233383fcd1d5f373
-    new: ade5287c90b89e17748a0d77919e003e408d3521
-    log: revlist-47599c37ae19-ade5287c90b8.txt
-  - ref: refs/heads/queue/5.4
-    old: e46ad2a98f9fe5085df1de33aaf820858fdab71d
-    new: 48d762b3341e9f10e17e36818e4c314a670a9870
-    log: revlist-e46ad2a98f9f-48d762b3341e.txt
+  - ref: refs/heads/master
+    old: d0a231f01e5b25bacd23e6edc7c979a18a517b2b
+    new: 4d66020dcef83314092f2c8c89152a8d122627e2
+    log: revlist-d0a231f01e5b-4d66020dcef8.txt
 
---===============7419131351220081955==
+--===============2923349107992392913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c80b66182ea-56aade67dc4c.txt
+Content-Disposition: attachment; filename=revlist-d0a231f01e5b-4d66020dcef8.txt
 
-7010c897a7042b246b91f0f69a974f1e67ee9745 Bluetooth: bfusb: fix division by zero in send path
-a35a86a1b036dcecbdbc6d59199f13807dc56f14 USB: core: Fix bug in resuming hub's handling of wakeup requests
-1914f2dfb92921eba01b7c3de67c3da0b432d78f USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-fe6d97c19f35adee2a6b2c4c3d32cda0e4110698 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-6d2e5a835ac00d388c70ee6ed91a184182b46c56 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-f495402b5a89288c3a8abc1e7ff7b10fc654bf1d can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-5484280a6f249f44d8acd690fc128cb4ed4bfbb0 random: fix data race on crng_node_pool
-4965f524697c7897af3160394ef9440db6857c03 random: fix data race on crng init time
-eb5e00eec2654b9720941356496b4fd644f80487 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-56aade67dc4cdc6b7f9e6d9068760fa72652e141 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+f2b20c66274dafd57f1a9221aae84640319685a4 tracing: Fix spelling mistake "aritmethic" -> "arithmetic"
+05770dd0ad110854c7157d95700d7c89979cdb3e tracing: Support __rel_loc relative dynamic data location attribute
+55de2c0b5610cba5a5a93c0788031133c457e689 tracing: Add '__rel_loc' using trace event macros
+b466b13321648d3bd7bfceb9afcba5302b585cf8 samples/trace_event: Add '__rel_loc' using sample event
+cd7729043b31b32b34daaa6775e255b76de7f976 libtraceevent: Add __rel_loc relative location attribute support
+7c689c839734a23eda855e69a56ed4795533bf71 tools/perf: Add '__rel_loc' event field parsing support
+e07a1d576239cf836070e740d4bd7c5e8a64868f tracing: Use __this_cpu_read() in trace_event_buffer_lock_reserver()
+6c536d76cfe63b79e9e468ef0876315420a19074 tracing: Disable preemption when using the filter buffer
+3e8b1a29a0e8d300466cf2a23d2f6d41971c5a0c tracing: Have eprobes use filtering logic of trace events
+5e6cd84e2f8bd3619b5d8f3dd4b44c0086a6ce1d tracing/kprobes: Do not open code event reserve logic
+b7d5eb267f8c234d6eda40e21c0105a1f6231d14 tracing/uprobes: Use trace_event_buffer_reserve() helper
+1d83c3a20b0c5708b51c16a021ab76305dbb9943 tracing: Fix synth_event_add_val() kernel-doc comment
+a6ed2aee54644cfa2d04ca86308767f5c3a087e8 tracing: Switch to kvfree_rcu() API
+2972e3050e3517a85ca1813b227d4c302e804343 tracing: Make trace_marker{,_raw} stream-like
+c8a7ff13f5fc6e6b313de2a8e02304c2a90a3906 script/sorttable: Code style improvements
+ee34c52c7115b60a7c96b2034dd1737765dd5493 tracefs: Use d_inode() helper function to get the dentry inode
+e161c6bf3955d737f755f8eaa3b92de4bc6bd0e7 tracing: Iterate trace_[ku]probe objects directly
+4f67cca70c0f615e9cfe6ac42244f3416ec60877 tracing: Do not let synth_events block other dyn_event systems during create
+dba879672258699223b0ce61f9e5c079b0476d92 tracing: Use memset_startat helper in trace_iterator_reset()
+2768c1e7f9d7b82f9e129efe3677c783bc77b8f9 tracing: Use trace_iterator_reset() in tracing_read_pipe()
+e368cd72880360ffe9b298349ae96286dd121499 Documentation: livepatch: Add livepatch API page
+5ef3dd20555e8e878ac390a71e658db5fd02845c livepatch: Fix kobject refcount bug on klp_init_patch_early failure path
+50a0f3f55e382b313e7cbebdf8ccf1593296e16f livepatch: Fix missing unlock on error in klp_enable_patch()
+f5bdb34bf0c9314548f2d8e2360b703ff3610303 livepatch: Avoid CPU hogging with cond_resched
+9ec5a7d16899ed9062cc4c3dd3a13e1771411ab3 tracing: Change event_command func() to parse()
+fb339e531bfccbd12d49b165f37636e62778b69f tracing: Change event_trigger_ops func() to trigger()
+2378a2d6b6cf863bdd566aae495336c72bdaec99 tracing: Remove ops param from event_command reg()/unreg() callbacks
+86599dbe2c5272588f859858239d1f52321eb0f9 tracing: Add helper functions to simplify event_command.parse() callback handling
+289e7b0f7eb47b87a0441e6c81336316f301eb39 tracing: Account bottom half disabled sections.
+8c7224245557707c613f130431cafbaaa4889615 tracing/uprobes: Check the return value of kstrdup() for tu->filename
+1c1857d400355e96f0fe8b32adc6fa7594d03b52 tracing/probes: check the return value of kstrndup() for pbuf
+72b3942a173c387b27860ba1069636726e208777 scripts: ftrace - move the sort-processing in ftrace_init
+8147dc78e6e4b645f8277bdf377f2193ddfcdee1 ftrace: Add test to make sure compiled time sorts work
+ecbe794e777aab99de3b753110801a9cda747d2d tracing: Fix mismatched comment in __string_len
+3e2a56e6f639492311e0a8533f0a7aed60816308 tracing: Have syscall trace events use trace_event_buffer_lock_reserve()
+77360f9bbc7e5e2ab7a2c8b4c0244fbbfcfc6f62 tracing: Add test for user space strings when filtering on string pointers
+dfea08a2116fe327f79d8f4d4b2cf6e0c88be11f tracing/kprobes: 'nmissed' not showed correctly for kretprobe
+6e1b4bd1911d814077d77e2ac6529d74ee68c0f6 tracing: Remove duplicate warnings when calling trace_create_file()
+0878355b51f5f26632e652c848a8e174bb02d22d tracing/osnoise: Properly unhook events if start_per_cpu_kthreads() fails
+79ce8f43ac5ac16d6d63729e858da42b0460d87b rtla: Real-Time Linux Analysis tool
+b1696371d865fa28bd20adb13d1820ef031f2ee2 rtla: Helper functions for rtla
+0605bf009f18d558758df9edef59698bf1389b28 rtla: Add osnoise tool
+1eceb2fc2ca549a170d7ee7cd1fde2daeda646ac rtla/osnoise: Add osnoise top mode
+829a6c0b5698c7d51aa2bcd16963fcd9de295476 rtla/osnoise: Add the hist mode
+a828cd18bc4ad72ff6d64c0dd23dc814a6741fed rtla: Add timerlat tool and timelart top mode
+1eeb6328e8b3a917ba0be4965f272147dbd4cf55 rtla/timerlat: Add timerlat hist mode
+d40d48e1f1f25abe755521e33a67f5d2b8b9443c rtla: Add Documentation
+496082df01bb08a40f9207d918734cf908c5f107 rtla: Add rtla osnoise man page
+b1be48307de4ccb315036c58bb1363a93c27d188 rtla: Add rtla osnoise top documentation
+e7041c6b3c123ef2160ff7a948e458f8241e4e03 rtla: Add rtla osnoise hist documentation
+29380d4055e524de918c76a861df17d14a4b7224 rtla: Add rtla timerlat documentation
+df337d014b573fe567cd190753a4f5fa69281870 rtla: Add rtla timerlat top documentation
+5dce5904e3b9bc11d9635dd3458c7ff32caebb59 rtla: Add rtla timerlat hist documentation
+f37c3bbc635994eda203a6da4ba0f9d05165a8d6 tracing: Add ustring operation to filtering string pointers
+b2dfc3fe73b5b305b13467e39386f77133590ea8 Merge branch 'for-5.17/kallsyms' into for-linus
+77dbd72b982ca648b42b4feac5f8b2ea55e4ed09 Merge tag 'livepatching-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+4d66020dcef83314092f2c8c89152a8d122627e2 Merge tag 'trace-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============7419131351220081955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c761af51b2b5-f6219a2d362d.txt
-
-49fbfb1f5eec8fb6349e782d64ad213ce13e4f8a Bluetooth: bfusb: fix division by zero in send path
-bbd12f3ee07ccc219a390e878a89f65fd3d865ef USB: core: Fix bug in resuming hub's handling of wakeup requests
-a381fc48e931f1f7363b4b004f5e195ffe1e74db USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-57dece656e258db43b444489c8af7f9001dd4806 can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
-3314e0709fe87b91cd33fe152e3470d97496ef26 veth: Do not record rx queue hint in veth_xmit
-11ed2ca1c7b5d86a14bba8515515d9fdc2506104 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-4b3400fa96c4c1bd4782518a9cc73a8356e5a22d can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-e1286b1d9b75bd55cbf11db7c6a910912503ad9b can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-40f8d0dd9301c36b34067d18ab06ccbbaa2bc722 random: fix data race on crng_node_pool
-a219303d8ed2d1b4c6f1e576bcae2db13b632a73 random: fix data race on crng init time
-aa71b5d64927a1cd44276ee8081390be2a624fe1 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-14718649b1d4c55d4bf8658d962e6528749c9ba0 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-f6219a2d362d4248aa42be0416a68aa32c49a77f kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-
---===============7419131351220081955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7d7a9ec7c46-4bcb553c01b4.txt
-
-6b47fd1c7af4f2e4a5d3b39be97dee7c68eecb7d Bluetooth: bfusb: fix division by zero in send path
-67a423ca7e93d37313456ad4bb0a435cc7b5dccb USB: core: Fix bug in resuming hub's handling of wakeup requests
-4d37ba5dc2eed5daf921b1f87fad8784d018edee USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-62979c66b157895fcdad249f277dcdd88d8bb8d7 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-685e25c8d22f18e85ad2416d83361ea8d969987e can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-29224314dbff73a23858e4078fdab881690c72a7 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-482ab12320257884da4eb24e5cea82c607515089 random: fix data race on crng_node_pool
-4b7b7e4d3627a2ad3510a3e5ca88c088a454b628 random: fix data race on crng init time
-a2f1312df790c95c185f883ed9260f959b86ddf4 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-4bcb553c01b4817ce588f1c62f28dfe51e6e9be4 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-
---===============7419131351220081955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3eccd3159d8f-63acf2745a81.txt
-
-71c5b3667876d43044a6ea464918ca1d3c0a818a md: revert io stats accounting
-5dcc7572d78ed311fac2963a803b2c4bf8b3efc1 workqueue: Fix unbind_workers() VS wq_worker_running() race
-6722aac7705237904b4569aa22c28b5951b7ce22 bpf: Fix out of bounds access from invalid *_or_null type verification
-6f82aab6ac6ae29097102b9a2e3e8a83e664e69d Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-9c10f467975df29bcbce26036722cfa99fe58d6e Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-a958d9c4a22b2c8b2759b90c8790cb64a70628f4 Bluetooth: btusb: Add support for Foxconn MT7922A
-d389a8c291aeb8d365dbc756bb0fa8edfd98a200 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-2cd9ed95df1c3495c14047f0f990b5f324de10be Bluetooth: bfusb: fix division by zero in send path
-21339d616bd678c67ccdb60948139bc72f2e7d8c ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-a574cc70946ca1aaaf4461013eabca38a49c06ca USB: core: Fix bug in resuming hub's handling of wakeup requests
-741734e89cc23817f2a20e14ab7a72fc8394752d USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-cf54243c639ed58cab69ab77faee0c48f8b5c497 ath11k: Fix buffer overflow when scanning with extraie
-cbb41bef06d3331c3e525a837647bdb88db42468 mmc: sdhci-pci: Add PCI ID for Intel ADL
-9969772ebb81c02c3a2faf4cc9a6a4cbbe501a90 veth: Do not record rx queue hint in veth_xmit
-c33bf59764acf013ab5a62de4f2e7a95161217b9 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-00edd5a116f82d87f2123515380e3f08fae779e6 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-ec8877f7a11a472bfb4c19b8b7babdd596fc67f8 can: isotp: convert struct tpcon::{idx,len} to unsigned int
-abf5c4f0b94dbea1874872ba418d26de4e597ddb can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-90f976382df9dac1b3fc35c4eb8589ba7132aa53 random: fix data race on crng_node_pool
-bd9443093b3374cae2e08ae4865e9a5e4e973585 random: fix data race on crng init time
-71365b77de78cb720756098f961c1fbdf4f93ec2 random: fix crash on multiple early calls to add_bootloader_randomness()
-8bd29fbb9db688eb6c28cf5c83c39c3b2441fd6a media: Revert "media: uvcvideo: Set unique vdev name based in type"
-388d25aaf02511f4ab009f37684a63e1ba093e31 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-c765f5345d533746a99e85dd5d3d59507f2009e3 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-63acf2745a812e7f0dd53e1faad523e65d87b1db staging: greybus: fix stack size warning with UBSAN
-
---===============7419131351220081955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47599c37ae19-ade5287c90b8.txt
-
-f30acd163222f8042ca00b75acdb8c83a4266f9f s390/kexec: handle R_390_PLT32DBL rela in arch_kexec_apply_relocations_add()
-aac6180540a1107993182a4d4686edd6f62ff88c workqueue: Fix unbind_workers() VS wq_worker_running() race
-1baf29b3d3d86eb3705bc85b964ca75010eabe11 staging: r8188eu: switch the led off during deinit
-c395063549a9c72689e05f7fd784e362a3b43f59 bpf: Fix out of bounds access from invalid *_or_null type verification
-0a05be1ba904cb78313e0f5d7403a130ac76afcc Bluetooth: btusb: Add protocol for MediaTek bluetooth devices(MT7922)
-7b2343e7774a64639e15c8ef5b413f102c508e04 Bluetooth: btusb: Add the new support ID for Realtek RTL8852A
-feb1bb38e815d8095dc9d50c171e292bdb576456 Bluetooth: btusb: Add support for IMC Networks Mediatek Chip(MT7921)
-2a80422320ee5c0334d150fee36e87107566db1e Bbluetooth: btusb: Add another Bluetooth part for Realtek 8852AE
-c45d0c04e54eeb76e7e149c22ee85efc4dbef635 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-a5cf6486d29d83e91943f0bc8ce9f22092b8dff2 Bluetooth: btusb: enable Mediatek to support AOSP extension
-d2f8d0b9a18f876d5c737d4f161793db5132bb84 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-057382f0bf3b060e49c8ffdbcc1613eb587a96cb Bluetooth: btusb: Add the new support IDs for WCN6855
-508c2e359378e1c9c62ab4f0310d4b1872b4f067 fget: clarify and improve __fget_files() implementation
-caba4cfadc5e5e0805869fc3d5c3c928a89aa9f5 Bluetooth: btusb: Add one more Bluetooth part for WCN6855
-67bb21d9cb4c4a12fb07bf7339cb1db0bc4e5a2b Bluetooth: btusb: Add two more Bluetooth parts for WCN6855
-ce67c705488f242d83fec01239c28fb6b572658e Bluetooth: btusb: Add support for Foxconn MT7922A
-42264b296f0718c24d08c0076477557aa56cacdb Bluetooth: btintel: Fix broken LED quirk for legacy ROM devices
-0925fbaee17b5d2450668a0c45ffbe6bd10e5953 Bluetooth: btusb: Add support for Foxconn QCA 0xe0d0
-eda7c93f8a2c1f006b61d32eb62543ed4c9003a9 Bluetooth: bfusb: fix division by zero in send path
-f1775e4acfb753bbe391664abcf7554751e81623 ARM: dts: exynos: Fix BCM4330 Bluetooth reset polarity in I9100
-18507fd687614e0c44c34d5c6f846a873161cb86 USB: core: Fix bug in resuming hub's handling of wakeup requests
-9ddbb6b7973f9c2ae508ab5184d45ebbad455c0b USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-10a6b5e2a371300f00fa43cf75e7d74a3ebd5f1b ath11k: Fix buffer overflow when scanning with extraie
-9e769e0e38bfd7c4f7cbcefd97cc8c3e28e1cd74 mmc: sdhci-pci: Add PCI ID for Intel ADL
-86f2c7a1609e3d19c50f0b5eadf59391d4a5a1fe Bluetooth: add quirk disabling LE Read Transmit Power
-aaa51118f7cf48dd9c9ba4527932b07c3f21402c Bluetooth: btbcm: disable read tx power for some Macs with the T2 Security chip
-c861c870b311afefcafa0810d2642887d8b4a801 Bluetooth: btbcm: disable read tx power for MacBook Air 8,1 and 8,2
-a06242fe877d3c87376bf099f721a1a5a8cdf204 veth: Do not record rx queue hint in veth_xmit
-31bd6b024e23980caf4c93a10df490569d756b40 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-29fb306f955259f089eecdefce55605580e1da1f can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-e0a9da7f39ef82ba7ceec517b50982587e741b65 can: isotp: convert struct tpcon::{idx,len} to unsigned int
-262d7fe5fa578666ea1b1d4d9d03cc7442e0a04c can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-ac33fe733a9dca5f4ee6e90bef35ca2179512cb1 random: fix data race on crng_node_pool
-5bc02489a8bb124d39964c8fc4fa6c075743941e random: fix data race on crng init time
-124e9bf50ceb5fb15c5dad9d1d7eca324226081c random: fix crash on multiple early calls to add_bootloader_randomness()
-59a4a49622dcf86d8c6c4dfb61ccfd1d02a32454 platform/x86/intel: hid: add quirk to support Surface Go 3
-aeddc41b93760ca2529ad2450a4d8f8701fa26e2 media: Revert "media: uvcvideo: Set unique vdev name based in type"
-1269d76b8722db5609dfd8bf220be3dda6f34242 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-724cdde4b3ac59d11e5a7fb05bd2c3c56387ef88 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-ade5287c90b89e17748a0d77919e003e408d3521 staging: greybus: fix stack size warning with UBSAN
-
---===============7419131351220081955==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e46ad2a98f9f-48d762b3341e.txt
-
-8283c5ac83224982dbef7d7930f749ff6be26dbb workqueue: Fix unbind_workers() VS wq_worker_running() race
-99b75b5ec81e2c783c308d3e57e1067abc8fd838 Bluetooth: btusb: fix memory leak in btusb_mtk_submit_wmt_recv_urb()
-7caac5b2d48d59bbcd11f417e9dae115d75acae4 Bluetooth: bfusb: fix division by zero in send path
-5bffd3362e5f5c8c76b94fa48561b3721798cbee USB: core: Fix bug in resuming hub's handling of wakeup requests
-33ad5c8cfeca5b186340a94182665b3bb998974b USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-1e82a8da2f0f9d5a42497d173366c057ec0a8d87 mmc: sdhci-pci: Add PCI ID for Intel ADL
-5b394af24edce3237c8d104ad9c36d167f55ad8b veth: Do not record rx queue hint in veth_xmit
-ce8f39c215da425fcc3dd023656e24611621ec32 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-27f6a4a9741e1c6f688247a6adc8568503a31159 drivers core: Use sysfs_emit and sysfs_emit_at for show(device *...) functions
-eab99abb9a2add3417bc06587ab1568e1c0fafd9 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-4f80a5274d7b205ff803c282a1786ec5720d381b can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-347519bb0792df94304eedbab4f0185c0a23df97 random: fix data race on crng_node_pool
-d1e1152eb0416ea9631af8deb2bd701f59787960 random: fix data race on crng init time
-be32fe37b0e37d7f0be4cb91a075bc44cd79f40c random: fix crash on multiple early calls to add_bootloader_randomness()
-69442ad363e75f66f47b856603b8ebde41c8d3ce media: Revert "media: uvcvideo: Set unique vdev name based in type"
-04fa8177098e540b396f26c7508138a9be055a8b staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-c363402356ce389d42fd3904725111116b4a119d drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-48d762b3341e9f10e17e36818e4c314a670a9870 staging: greybus: fix stack size warning with UBSAN
-
---===============7419131351220081955==--
+--===============2923349107992392913==--
