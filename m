@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7010580883256985477=="
+Content-Type: multipart/mixed; boundary="===============0934437924059331591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sun, 16 Jan 2022 09:00:13 -0000
-Message-Id: <164232361365.2024.8677585058430935028@gitolite.kernel.org>
+Date: Sun, 16 Jan 2022 09:00:17 -0000
+Message-Id: <164232361717.2100.630447703111384990@gitolite.kernel.org>
 
---===============7010580883256985477==
+--===============0934437924059331591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
     new: 4d66020dcef83314092f2c8c89152a8d122627e2
     log: revlist-455e73a07f6e-4d66020dcef8.txt
 
---===============7010580883256985477==
+--===============0934437924059331591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642323604 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642323616 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1642323603-0b0e6bb7f62cab61ef818e29d6c5a277f0059c78
+nonce 1642323615-bfb665de23f8346cd83548ed041800c725c50da4
 
-455e73a07f6e288b0061dfcf4fcf54fa9fe06458 4d66020dcef83314092f2c8c89152a8d122627e2 refs/heads/main
+455e73a07f6e288b0061dfcf4fcf54fa9fe06458 4d66020dcef83314092f2c8c89152a8d122627e2 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj3pQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YKMQAJJNstqOYrUTdZFCAEMC
-/0EUc9K/xWbtG2VFYTHF0lB4EErmFi3a+8CoulpOWTgxzyp+hqWMH02qlzeti++7
-bO8Q5Z63dssYr/1JtpW0ZqJkWsbjpFd/1dy9Vj783RNEft4GsoOkn2QvJHUG8aSw
-OVuV2Uj0xUFw1l/wBIFgYMUNhBeqWIFEvjVMYl5nFL/DY5obErzp7bioYAot1TtV
-JZjFhO+DWEXBAp2wRxbEi0y4rERKZ+C3YdsaxStrixMtTen1ALef3kcidtfP1TN2
-e2fWibdJJgoQbgdSRFISpHXGkdhrxTsTDeY4muuk25ypPO2iYTR3q86jWCRKjc2T
-ZtoIlX3aa2xq8OvVyn9wNv6qX+T32pYrUFRxkWvGevec4wwSmWKie/NEG2K670LN
-UxM4zUyIfa7+C0lQ1Y/kBtu3jRjmHhZvEuOIHOEz2a0Rl113fPTjlI7Mn4hD696E
-PJV5TeK1mjicro84549iipkFGioUT1r3a2O6LUCNBuohTAaC/5AjlM+2gqWg5PJB
-c4LT7k4eL+o78oBLSiB6oBkI7BS8OkNGyMU7mq2xRse4QCegE6Prl3rGz2SXiA/j
-fMqptmz/rCHdQmT52s2dBQBVO5D3i47Wky1YJht/Y0QVqCGx0Ar2UjRZJtk8HQ77
-xiNxV6XUIwYxyAxK7LrJ/zLQ
-=1G2e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHj3qAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KLIQAIMfG7psG7AuFFNDz8sb
+oCtznFZcVkI/jq7rlJTGgREX9FRYICEN3SrzIdk/CLWTAFoBfpxAU+m1pkSkbHFT
+yiDto2aAVAgbKzEwHmUjsnA+8DNUmTSou/Snvvt9IiyNcUHCFKuhIY9mzJCiA3Mu
+4CG63AD8zw1Gfv56m/EusN34KnDiY6lu+kitTdUnfoGZw/IAqHh6iwjt08AOJOug
+6bo/PXjO+TVrB1CSD/oQuOda+DYqs3GWJePEUkbLE7IYMTwbsDz/ftHMhVEh7Dde
+HsRLzQhCtmgGJH86Wtsg29c3R4if+DWgFyCvJsAWn2NSBUmGgbq8SttvJQkUEcpr
+6ZTPM3C8ZuLJ3+pgweyY5DoPNaRhBckkVTQErLYMQiQZEH1d8Jc0UX5k6yQlcWHO
+rDpTqieCL3NJsLGBKUp8y/8C/go/oAz4D3P3CmkRLYJcUc+bnWbOHF6gkVzmvf5A
+NeFm1rqSzu54MBiYZsfudJPuhFWXG0JCuczsswUIgxDaqxYOiieyyLtrQrv8co9z
+Nc9/DONtUXlstJlYqVJhGYUeN8tW0PsuoRWUaN87kJo0NxvTZKiz1ZshrLsWMfbM
+Q/z1/CHRUCeiwbs8hQqsTTgQ/3168vgmk3joXegT6fDvty4NZmv94oomWLXuAgNF
+Xoimjgbyj3wpDd36b4fFfLBr
+=pw6w
 -----END PGP SIGNATURE-----
 
---===============7010580883256985477==
+--===============0934437924059331591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ d0a231f01e5b25bacd23e6edc7c979a18a517b2b Merge tag 'pci-v5.17-changes' of git://
 77dbd72b982ca648b42b4feac5f8b2ea55e4ed09 Merge tag 'livepatching-for-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 4d66020dcef83314092f2c8c89152a8d122627e2 Merge tag 'trace-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============7010580883256985477==--
+--===============0934437924059331591==--
