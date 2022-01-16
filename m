@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 16 Jan 2022 12:30:42 -0000
-Message-Id: <164233624209.10949.11378592406897975194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Sun, 16 Jan 2022 12:45:37 -0000
+Message-Id: <164233713761.19571.16317133531714020507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/bp/bp
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 0a6e6b3c7db6c34e3d149f09cd714972f8753e3f
-    new: 56d99e81ecbc997a5f984684d0eeb583992b2072
+  - ref: refs/heads/vp
+    old: 7df39f129b1eb276f51a742c1b956da0440cd427
+    new: fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6
     log: |
-         56d99e81ecbc997a5f984684d0eeb583992b2072 net/smc: Fix hung_task when removing SMC-R devices
+         fae3a9f717ff7cb473a8b1240326e0cda2aa4aa6 tip/tools/vp: Fail gracefully when encountering unknown tags
          
