@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6865324206550011991=="
+Content-Type: multipart/mixed; boundary="===============7119634605528788120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Jan 2022 09:47:43 -0000
-Message-Id: <164241286361.23187.763803381845527256@gitolite.kernel.org>
+Date: Mon, 17 Jan 2022 09:47:47 -0000
+Message-Id: <164241286711.23252.7663678125872647464@gitolite.kernel.org>
 
---===============6865324206550011991==
+--===============7119634605528788120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 4d66020dcef83314092f2c8c89152a8d122627e2
     new: 0c947b893d69231a9add855939da7c66237ab44f
     log: revlist-4d66020dcef8-0c947b893d69.txt
 
---===============6865324206550011991==
+--===============7119634605528788120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642412862 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642412866 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642412861-62d9d3c0d6ed0226a7efbaabfeb41486a42f6b7d
+nonce 1642412865-4c320b35b7d921938a15e1947f923918c5c403c7
 
-4d66020dcef83314092f2c8c89152a8d122627e2 0c947b893d69231a9add855939da7c66237ab44f refs/heads/driver-core-next
+4d66020dcef83314092f2c8c89152a8d122627e2 0c947b893d69231a9add855939da7c66237ab44f refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHlOz8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7IgP/iayK794ZwBMOBVD1FiV
-I08Gxe+huwjPBMI/SU610PI3lMBWfMNYLchAr0JG/xTjMnfpG+VWbOUu2pT+x3yQ
-BVxbST9CMZ6bM28QqyvFBO0YKtSV74Y93iYq1QWokZWDfs1lP4uSwzoJcEAaSbj+
-/AXSpEYpyCGF3U07lq0qAs6Kp3a5fiFXeADiKJMZNid1klEfnGDdIqf7zlXbDsNz
-b7JI39W9AAu/9Yi3MD5tvl9KfcAOCrVJsnhhOj4puZEprQKYJjDdbToUr7NkBuFQ
-FT5IppRTUvTcAuAqTNvxPjnwwDtEwTY/mPcQwmZoWej6TFmeh8nj61wZiBZHDHf7
-msFQjEfQQ/wZxLGGojgCmW5gpr8SzGurPqc2Ze3cDtGqW9g3Vlwj+YCOP+5EcDRL
-5NDJrr1UWChIJNPul9DvDNQBKwYwsB1ZJ/SLzYOgFrFdbAlCiauQcV6MiV7xDLBK
-BpfLhvEQ43+EJSy3LgReoFg9elt3c1vzhyCZ7xNONl4/0wt1SEZY332HyK2tYoTn
-5PY9uNmrJnhVWzPMM4TCZPMVBI3K8UIw6KQNxUH6PPKsJBtFB3W/t75/AEb2MEz0
-rpUF2Muc77WEnLeG7mSkV+hAY53Xmh3Tdpj3f+gJLC6Me/7AzIqnaEeLTsthC2Td
-l+PpnHgSkJVewuIjiY+Y4p3s
-=+pQ7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHlO0IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ALgQANKD62rC3q//GZTS30gg
+HPpu/qWsfZhOKnLonWiVnVDaSANQAD+k2NICgPFYwQpLiAfL3ZJ0zPwG0FpEbhHa
+FMW8iafwDS+2Nw9iI5R04GpJSTPyTy1ZN01yOl5OLwrLYWKVylAHhT8KXCWjuF5G
+2LKaGFuvojXCYShbCad2Qcn6h8VZKx6XtcN4ZeTyGgqNQ8lMQB97NlSTZy0Hyqtu
+pVxNDuuusCfVrWsAGth6+MYCtba8CBPoxMGKj005HAoXshKst48iJjSlgTK6Wrnj
+v0AR0bKNSDnui6zc57GdVUG0nOfDhXqqz9pSrljgDVxETqjyFhuQ2wk6DrhEwEyh
+5JZRM2ZvvUV29gZNySwbQf0h11h9igi6HbepuKiaK6zGgIe+e63o/F+/0DDkyIOR
+mbW0hiulPfQuwYZ17mvHAEPw/otPF+snF/HdnQDY1Uo2pH9BZLQY0llX0AGNk9K5
+zZE1y8OFMO77oFC1VANu0EDIxDLUF/pVEirV++RO6/Heg4q+s+OTZSDTJ2UE4AHW
+1WhCSL98oarDHU/YxVmsgJzYca0H9d3ExZYVY7JKEte+JBs7GkuElUjkb44awVL7
+9sMsL4Q2vUnQPOWtoVvr6F6a99DygMpJZVAhRKJlJMmptRjDBdP8MYEo6jPxOXcc
+yAYWPyDf3QnQscao+ujkdAU7
+=bt+4
 -----END PGP SIGNATURE-----
 
---===============6865324206550011991==
+--===============7119634605528788120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -532,4 +532,4 @@ b520085ca57982c4beeb9bb64b8f6018425cb61f Merge branch 'for-linus' of git://git.k
 a6097180d884ddab769fb25588ea8598589c218c devtmpfs regression fix: reconfigure on each mount
 0c947b893d69231a9add855939da7c66237ab44f Merge tag '5.17-rc-part1-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============6865324206550011991==--
+--===============7119634605528788120==--
