@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7184046417441310850=="
+Content-Type: multipart/mixed; boundary="===============3217783764466202240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 17 Jan 2022 17:23:55 -0000
-Message-Id: <164244023554.22571.18141386818436059221@gitolite.kernel.org>
+Date: Mon, 17 Jan 2022 17:24:41 -0000
+Message-Id: <164244028151.22927.8102280970064095072@gitolite.kernel.org>
 
---===============7184046417441310850==
+--===============3217783764466202240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 11cd56affcd8c7fca8689feb944b3914b11ac8e5
-    new: 387b7c42ca53ed001ad656206726f62e08c56042
-    log: revlist-11cd56affcd8-387b7c42ca53.txt
+  - ref: refs/heads/arm-vmap-stacks-for-v5.18
+    old: ae0c8e857f5692753791a31e38b6ed3a063e5ddf
+    new: fd161eec8a6c4a15b4d64fb24da68d9b4a9854ab
+    log: revlist-ae0c8e857f56-fd161eec8a6c.txt
 
---===============7184046417441310850==
+--===============3217783764466202240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11cd56affcd8-387b7c42ca53.txt
+Content-Disposition: attachment; filename=revlist-ae0c8e857f56-fd161eec8a6c.txt
 
 4b367a30108539aa19eaff5caf0ab01b2843e816 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
 f3169e25eaa4b1724ece32ac6748e92ca2037961 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
@@ -44,6 +44,5 @@ cd57d861b5c00f53173ffd05ee1e45f2ef80a4c9 ARM: entry: rework stack realignment co
 1f931729ff69dce14a4970c96ba49785f04e5542 ARM: mm: prepare vmalloc_seq handling for use under SMP
 a390d2445e21fb30db71466cb33bb7fd29f2a6fd ARM: switch_to: clean up Thumb2 code path
 fd161eec8a6c4a15b4d64fb24da68d9b4a9854ab ARM: implement support for vmap'ed stacks
-387b7c42ca53ed001ad656206726f62e08c56042 mm: make 'highmem' symbol ro_after_init
 
---===============7184046417441310850==--
+--===============3217783764466202240==--
