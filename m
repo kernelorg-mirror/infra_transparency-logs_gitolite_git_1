@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0583891379144908624=="
+Content-Type: multipart/mixed; boundary="===============6849387021305295535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 17 Jan 2022 19:56:11 -0000
-Message-Id: <164244937117.25993.6522308088833159417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 17 Jan 2022 19:56:19 -0000
+Message-Id: <164244937916.26091.13273940257242454828@gitolite.kernel.org>
 
---===============0583891379144908624==
+--===============6849387021305295535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0c947b893d69231a9add855939da7c66237ab44f
     log: revlist-f079ab01b560-0c947b893d69.txt
 
---===============0583891379144908624==
+--===============6849387021305295535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b520085ca57982c4beeb9bb64b8f6018425cb61f Merge branch 'for-linus' of git://git.k
 a6097180d884ddab769fb25588ea8598589c218c devtmpfs regression fix: reconfigure on each mount
 0c947b893d69231a9add855939da7c66237ab44f Merge tag '5.17-rc-part1-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============0583891379144908624==--
+--===============6849387021305295535==--
