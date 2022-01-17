@@ -1,47 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3896817697037355055=="
+Content-Type: multipart/mixed; boundary="===============7184046417441310850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 17 Jan 2022 17:22:10 -0000
-Message-Id: <164244013096.21890.6828697567191718033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 17 Jan 2022 17:23:55 -0000
+Message-Id: <164244023554.22571.18141386818436059221@gitolite.kernel.org>
 
---===============3896817697037355055==
+--===============7184046417441310850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/netfs-lib
-    old: 12617e48874cc7e301b04f65b22b762cca3aea01
-    new: e450b62f32df4384c141a6a382811b3fe5723bad
-    log: revlist-12617e48874c-e450b62f32df.txt
+  - ref: refs/heads/for-kernelci
+    old: 11cd56affcd8c7fca8689feb944b3914b11ac8e5
+    new: 387b7c42ca53ed001ad656206726f62e08c56042
+    log: revlist-11cd56affcd8-387b7c42ca53.txt
 
---===============3896817697037355055==
+--===============7184046417441310850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12617e48874c-e450b62f32df.txt
+Content-Disposition: attachment; filename=revlist-11cd56affcd8-387b7c42ca53.txt
 
-81397a29847574573193b08550f1f27036386b98 iov_iter: Add a function to extract an iter's buffers to a bvec iter
-169db20aecc9af1c1b0d7edef7e434f5da332e1c iov_iter: Add a general purpose iteration function
-52c583068e230c3a6925dd1c682e6e04dd47c2ce ceph: Make ceph_netfs_issue_op() handle inlined data (untested)
-11d90ed519237baca31d841a9a64fecdbc932f5a ceph: Uninline the data on a file opened for writing
-07e6fa3090407e72458d5b07663bb53aa1614d6c ceph: Remove some other inline-setting bits
-2da5be9630f20945a95a1e50ae462d4d51285301 netfs: Add an iov_iter to the read subreq for the network fs/cache to use
-e6b340ed3634bb80396afb564c499eebdeff601f netfs: Use a buffer in netfs_read_request and add pages to it
-42db2a7a1b0cab798081421de0a4dc05f265585c netfs: Add a netfs inode context
-2c2eb50f5f3126ce4c259669ed3aa9bf32b36de3 netfs: Keep track of the actual remote file size
-be3f08836de17177b3e6f4da390db42f698ba530 netfs: Track the fpos above which the server has no data
-99790ceb18c135000c9d7d6f4422d9ffb3148498 netfs: Export some read-request ref functions
-01ee7ba8c89c40f9e9955fb07283382709f25c41 netfs: Provide invalidatepage and releasepage calls
-f349841b256e7a782897a06a616effb9cf5130c3 netfs, fscache: Make netfslib depend on fscache
-814cca7df840c441b1ac007bcb3eb8bfaeacb13f cifs: Support fscache rewrite
-31a7a8a160e676f0e1d1108274947cc015e67fd6 netfs: Refactor arguments for netfs_alloc_read_request
-c6a2a2e44940a722628bd667028e8a1e3ab9f815 netfs: Add a sanity-check function for the netfs inode context
-e450b62f32df4384c141a6a382811b3fe5723bad netfs: Implement support for DIO read
+4b367a30108539aa19eaff5caf0ab01b2843e816 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
+f3169e25eaa4b1724ece32ac6748e92ca2037961 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
+0e676372b2d769fffcbbf8b2a6cba879b22bab18 ARM: assembler: introduce bl_r macro
+ccd11b656e3a754eb091f02cbc2d07de3328f236 ARM: unwind: support unwinding across multiple stacks
+b773eeba5f539d9b528ea115ac9bcc3816b7378b ARM: export dump_mem() to other objects
+d10e348922491389ca4487ae73a9e0ca8745c83c ARM: unwind: dump exception stack from calling frame
+e4031b4360280432b4b7b3993b6f5715ad700f91 ARM: backtrace-clang: avoid crash on bogus frame pointer
+800d831bbf216033ad1339fb438114a138065f28 ARM: implement IRQ stacks
+ad522df4b82cddfe736600db580dee11f19a6fcb ARM: call_with_stack: add unwind support
+08414a966808c8e223d4252c9e299d4b1cdb8294 ARM: run softirqs on the per-CPU IRQ stack
+cfea9377b80268cfc45e0e31143fc9e1221221d0 ARM: memcpy: use frame pointer as unwind anchor
+2f4637c07c86c6c1ba21a38ed9f6bd54a7bd095c ARM: memmove: use frame pointer as unwind anchor
+9e05f7cdf4c9a5bfdf2ddb7cc37ac898cccef9e6 ARM: memset: clean up unwind annotations
+12efd731b27e7d8f399bf31765183d010a9ff095 ARM: unwind: disregard unwind info before stack frame is set up
+cd57d861b5c00f53173ffd05ee1e45f2ef80a4c9 ARM: entry: rework stack realignment code in svc_entry
+1f931729ff69dce14a4970c96ba49785f04e5542 ARM: mm: prepare vmalloc_seq handling for use under SMP
+a390d2445e21fb30db71466cb33bb7fd29f2a6fd ARM: switch_to: clean up Thumb2 code path
+fd161eec8a6c4a15b4d64fb24da68d9b4a9854ab ARM: implement support for vmap'ed stacks
+387b7c42ca53ed001ad656206726f62e08c56042 mm: make 'highmem' symbol ro_after_init
 
---===============3896817697037355055==--
+--===============7184046417441310850==--
