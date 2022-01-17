@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 17 Jan 2022 09:22:43 -0000
-Message-Id: <164241136305.26668.13769547176064630618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 17 Jan 2022 09:46:35 -0000
+Message-Id: <164241279508.22271.13290504410148395884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/arm-vmap-stacks-for-v5.18
-    old: 1df6e064cf9e15ed39703b2fd087f4a7aaa30180
-    new: ae0c8e857f5692753791a31e38b6ed3a063e5ddf
+  - ref: refs/heads/for-next
+    old: ac4dfd0d1d350412c7e4958821a5d7e47edc5a73
+    new: 2c420d79dae47f9fa3bb8ccb76eaba864c579721
     log: |
-         aa34c58176b2d880509e640172428a84c5a82b8c ARM: mm: prepare vmalloc_seq handling for use under SMP
-         ae0c8e857f5692753791a31e38b6ed3a063e5ddf ARM: implement support for vmap'ed stacks
+         073983233302641d080b524640cc99be696e802a arm64: dts: meson-g12-common: add more pwm_f options
+         2c420d79dae47f9fa3bb8ccb76eaba864c579721 arm64: dts: meson-g12-common: add uart_ao_b pins muxing
+         
+  - ref: refs/heads/v5.18/dt64
+    old: ac4dfd0d1d350412c7e4958821a5d7e47edc5a73
+    new: 2c420d79dae47f9fa3bb8ccb76eaba864c579721
+    log: |
+         073983233302641d080b524640cc99be696e802a arm64: dts: meson-g12-common: add more pwm_f options
+         2c420d79dae47f9fa3bb8ccb76eaba864c579721 arm64: dts: meson-g12-common: add uart_ao_b pins muxing
          
