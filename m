@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4583917272866689860=="
+Content-Type: multipart/mixed; boundary="===============6865324206550011991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Jan 2022 09:47:39 -0000
-Message-Id: <164241285999.23079.7249112475399198347@gitolite.kernel.org>
+Date: Mon, 17 Jan 2022 09:47:43 -0000
+Message-Id: <164241286361.23187.763803381845527256@gitolite.kernel.org>
 
---===============4583917272866689860==
+--===============6865324206550011991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 4d66020dcef83314092f2c8c89152a8d122627e2
     new: 0c947b893d69231a9add855939da7c66237ab44f
     log: revlist-4d66020dcef8-0c947b893d69.txt
 
---===============4583917272866689860==
+--===============6865324206550011991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642412859 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642412862 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642412858-131dc0b71ce05ee4dce828f2f93751fe1a102cdb
+nonce 1642412861-62d9d3c0d6ed0226a7efbaabfeb41486a42f6b7d
 
-4d66020dcef83314092f2c8c89152a8d122627e2 0c947b893d69231a9add855939da7c66237ab44f refs/heads/driver-core-linus
+4d66020dcef83314092f2c8c89152a8d122627e2 0c947b893d69231a9add855939da7c66237ab44f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHlOzsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mu8QAKhX4G8N4R4xRK92SYNu
-K7UFFkqIuW/z8bmIhoFnwgCkyTbQDr/8jaBswOYR06QD4rdh0XJuceTvY6KhyPXs
-gxB7ABSXH1S4a+GqzwP2iQ8EwFz6gDtmjr+aKkl9dunA1nZ7zeY7pZc5kRL3YH24
-ahpy335jD33RdPbX8LlxRXWpq+BW/4siYu7NV+yWXmOLOyU2xP7VcTO4wZYcZWKl
-oNtgldxs5AdzUShKYdU8jPIIFYqQC80bqyvX484bs1hC2B163GyCvD/2uwLxplCf
-Nhex/wONfCXf3NUHHb7xSxJBoO8AAGodBscorv3qCPUIseWpaCJNhPpSJxVl8mZM
-9y3Qz9afDgDiF9hz8SYbRg1z4Abr2LVzQKlKzEwth3380Z+bUO23/g5qQHSGzEHh
-wjRbyz9dMuDPfaYexjrRvAGis6NYo+2+896jbMTmP681q41N2xz7UI4mXkHAIEBO
-tKinE0jLS9/pI4q4xrOKmZjyI/PGmDC3XalTbE2UrnknlkvjGcAdPcdWQNEi6+Rx
-viWKgKD6TsX3QuMxeYuAYbW1T5ATgEdzlkpWRdIL/D5piH7GumSFuAbTrwWksdvc
-2f+bNx9RwauVhpcIzMqKEMqNiCAVGzkj2SwDlAWlAvu+3uOX4nRoVxWeWeVYd6xu
-gL8u4b4prTXyjyWkDFIE/1mP
-=wqHn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHlOz8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7IgP/iayK794ZwBMOBVD1FiV
+I08Gxe+huwjPBMI/SU610PI3lMBWfMNYLchAr0JG/xTjMnfpG+VWbOUu2pT+x3yQ
+BVxbST9CMZ6bM28QqyvFBO0YKtSV74Y93iYq1QWokZWDfs1lP4uSwzoJcEAaSbj+
+/AXSpEYpyCGF3U07lq0qAs6Kp3a5fiFXeADiKJMZNid1klEfnGDdIqf7zlXbDsNz
+b7JI39W9AAu/9Yi3MD5tvl9KfcAOCrVJsnhhOj4puZEprQKYJjDdbToUr7NkBuFQ
+FT5IppRTUvTcAuAqTNvxPjnwwDtEwTY/mPcQwmZoWej6TFmeh8nj61wZiBZHDHf7
+msFQjEfQQ/wZxLGGojgCmW5gpr8SzGurPqc2Ze3cDtGqW9g3Vlwj+YCOP+5EcDRL
+5NDJrr1UWChIJNPul9DvDNQBKwYwsB1ZJ/SLzYOgFrFdbAlCiauQcV6MiV7xDLBK
+BpfLhvEQ43+EJSy3LgReoFg9elt3c1vzhyCZ7xNONl4/0wt1SEZY332HyK2tYoTn
+5PY9uNmrJnhVWzPMM4TCZPMVBI3K8UIw6KQNxUH6PPKsJBtFB3W/t75/AEb2MEz0
+rpUF2Muc77WEnLeG7mSkV+hAY53Xmh3Tdpj3f+gJLC6Me/7AzIqnaEeLTsthC2Td
+l+PpnHgSkJVewuIjiY+Y4p3s
+=+pQ7
 -----END PGP SIGNATURE-----
 
---===============4583917272866689860==
+--===============6865324206550011991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -532,4 +532,4 @@ b520085ca57982c4beeb9bb64b8f6018425cb61f Merge branch 'for-linus' of git://git.k
 a6097180d884ddab769fb25588ea8598589c218c devtmpfs regression fix: reconfigure on each mount
 0c947b893d69231a9add855939da7c66237ab44f Merge tag '5.17-rc-part1-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============4583917272866689860==--
+--===============6865324206550011991==--
