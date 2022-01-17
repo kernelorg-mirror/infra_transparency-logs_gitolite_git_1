@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 17 Jan 2022 17:31:54 -0000
-Message-Id: <164244071485.28533.1574429470555588205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 17 Jan 2022 17:36:52 -0000
+Message-Id: <164244101296.31612.11563129753171224197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: djwong
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/whatamess
-    old: 4a9bca86806fa6fc4fbccf050c1bd36a4778948a
-    new: b3bb9413e717b44e4aea833d07f14e90fb91cf97
+  - ref: refs/heads/next-fixes
+    old: 97c6acc9b6dc462ae3878d986b04e6318d20fc24
+    new: a75363ff2cf75f15d4bf3de2471f1ee4bbe4d835
     log: |
-         9dec0368b9640c09ef5af48214e097245e57a204 xfs: remove the XFS_IOC_FSSETDM definitions
-         4d1b97f9ce7c0d2af2bb85b12d48e6902172a28e xfs: kill the XFS_IOC_{ALLOC,FREE}SP* ioctls
-         b3bb9413e717b44e4aea833d07f14e90fb91cf97 xfs: remove the XFS_IOC_{ALLOC,FREE}SP* definitions
+         8aea8e41ff199268ba0481c030b4d5cbd6055bbb btrfs: don't start transaction for scrub if the fs is mounted read-only
+         c4cb38ac2f05793e2488a21256642118228dd17d btrfs: fix too long loop when defragging a 1 byte file
+         ef37151280aa0017f41d470d86882de7ebdc8025 btrfs: allow defrag to be interruptible
+         a75363ff2cf75f15d4bf3de2471f1ee4bbe4d835 Merge branch 'misc-5.17' into next-fixes
          
