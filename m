@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 17 Jan 2022 17:53:19 -0000
-Message-Id: <164244199971.10257.2420117505456741909@gitolite.kernel.org>
+Date: Mon, 17 Jan 2022 17:55:12 -0000
+Message-Id: <164244211279.12288.10272722061952179315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: b48e412a0b738f8fb970d64ce596eaa4415c6af7
-    new: 502a6a7866224fc8b140e2f882cb8f2e4fa57acc
+    old: 502a6a7866224fc8b140e2f882cb8f2e4fa57acc
+    new: 99e057c016b6b6d3adbbc76552d2f8a8ec885aca
     log: |
-         502a6a7866224fc8b140e2f882cb8f2e4fa57acc random: simplify arithmetic function flow in account()
+         99e057c016b6b6d3adbbc76552d2f8a8ec885aca random: simplify arithmetic function flow in account()
          
