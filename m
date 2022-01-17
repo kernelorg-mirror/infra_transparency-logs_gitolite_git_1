@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 17 Jan 2022 10:16:55 -0000
-Message-Id: <164241461593.9882.5357429716431016271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Mon, 17 Jan 2022 10:17:13 -0000
+Message-Id: <164241463313.10034.2005903218813720552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/review-hans
-    old: f52bd6d88c52f554727c951f631821089e06255a
-    new: a31cd161c9794072877407df7bee38c1042079cd
+  - ref: refs/heads/master
+    old: 6795a6cc7c12d821955548abcfd27d613f426074
+    new: e5b213b4f11544c61db468499a367ff507801628
     log: |
-         c11f62b47666393545339baefc44bd789100acdd platform/surface: Reinstate platform dependency
-         f3eeae618405444c08fdad9b69435f99922ceaa3 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
-         c68ca8386e3e43f50dc1a13c840150cf8baa923e platform/x86: thinkpad_acpi: Add quirk for ThinkPads without a fan
-         a31cd161c9794072877407df7bee38c1042079cd platform/x86: intel_crystal_cove_charger: Fix IRQ masking / unmasking
+         e5b213b4f11544c61db468499a367ff507801628 Mon Jan 17 10:16:35 AM UTC 2022
          
