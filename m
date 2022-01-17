@@ -1,48 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============3217783764466202240=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 17 Jan 2022 17:24:41 -0000
-Message-Id: <164244028151.22927.8102280970064095072@gitolite.kernel.org>
-
---===============3217783764466202240==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 17 Jan 2022 17:30:01 -0000
+Message-Id: <164244060132.26121.1080892581213962748@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/fs/xfs/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/arm-vmap-stacks-for-v5.18
-    old: ae0c8e857f5692753791a31e38b6ed3a063e5ddf
-    new: fd161eec8a6c4a15b4d64fb24da68d9b4a9854ab
-    log: revlist-ae0c8e857f56-fd161eec8a6c.txt
-
---===============3217783764466202240==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae0c8e857f56-fd161eec8a6c.txt
-
-4b367a30108539aa19eaff5caf0ab01b2843e816 ARM: smp: defer TPIDRURO update for SMP v6 configurations too
-f3169e25eaa4b1724ece32ac6748e92ca2037961 ARM: implement THREAD_INFO_IN_TASK for uniprocessor systems
-0e676372b2d769fffcbbf8b2a6cba879b22bab18 ARM: assembler: introduce bl_r macro
-ccd11b656e3a754eb091f02cbc2d07de3328f236 ARM: unwind: support unwinding across multiple stacks
-b773eeba5f539d9b528ea115ac9bcc3816b7378b ARM: export dump_mem() to other objects
-d10e348922491389ca4487ae73a9e0ca8745c83c ARM: unwind: dump exception stack from calling frame
-e4031b4360280432b4b7b3993b6f5715ad700f91 ARM: backtrace-clang: avoid crash on bogus frame pointer
-800d831bbf216033ad1339fb438114a138065f28 ARM: implement IRQ stacks
-ad522df4b82cddfe736600db580dee11f19a6fcb ARM: call_with_stack: add unwind support
-08414a966808c8e223d4252c9e299d4b1cdb8294 ARM: run softirqs on the per-CPU IRQ stack
-cfea9377b80268cfc45e0e31143fc9e1221221d0 ARM: memcpy: use frame pointer as unwind anchor
-2f4637c07c86c6c1ba21a38ed9f6bd54a7bd095c ARM: memmove: use frame pointer as unwind anchor
-9e05f7cdf4c9a5bfdf2ddb7cc37ac898cccef9e6 ARM: memset: clean up unwind annotations
-12efd731b27e7d8f399bf31765183d010a9ff095 ARM: unwind: disregard unwind info before stack frame is set up
-cd57d861b5c00f53173ffd05ee1e45f2ef80a4c9 ARM: entry: rework stack realignment code in svc_entry
-1f931729ff69dce14a4970c96ba49785f04e5542 ARM: mm: prepare vmalloc_seq handling for use under SMP
-a390d2445e21fb30db71466cb33bb7fd29f2a6fd ARM: switch_to: clean up Thumb2 code path
-fd161eec8a6c4a15b4d64fb24da68d9b4a9854ab ARM: implement support for vmap'ed stacks
-
---===============3217783764466202240==--
+  - ref: refs/heads/for-next
+    old: 4a9bca86806fa6fc4fbccf050c1bd36a4778948a
+    new: b3bb9413e717b44e4aea833d07f14e90fb91cf97
+    log: |
+         9dec0368b9640c09ef5af48214e097245e57a204 xfs: remove the XFS_IOC_FSSETDM definitions
+         4d1b97f9ce7c0d2af2bb85b12d48e6902172a28e xfs: kill the XFS_IOC_{ALLOC,FREE}SP* ioctls
+         b3bb9413e717b44e4aea833d07f14e90fb91cf97 xfs: remove the XFS_IOC_{ALLOC,FREE}SP* definitions
+         
+  - ref: refs/heads/xfs-5.17-merge
+    old: 4a9bca86806fa6fc4fbccf050c1bd36a4778948a
+    new: b3bb9413e717b44e4aea833d07f14e90fb91cf97
+    log: |
+         9dec0368b9640c09ef5af48214e097245e57a204 xfs: remove the XFS_IOC_FSSETDM definitions
+         4d1b97f9ce7c0d2af2bb85b12d48e6902172a28e xfs: kill the XFS_IOC_{ALLOC,FREE}SP* ioctls
+         b3bb9413e717b44e4aea833d07f14e90fb91cf97 xfs: remove the XFS_IOC_{ALLOC,FREE}SP* definitions
+         
+  - ref: refs/tags/xfs-5.17-merge-4
+    old: 0000000000000000000000000000000000000000
+    new: 622c6ba99b6a83dc0c27cf36e7abd22b713f8735
+  - ref: refs/tags/xfs-5.17-merge-5
+    old: 0000000000000000000000000000000000000000
+    new: 2785f02ff4d4579a067084de4864256047fe3e9c
+  - ref: refs/tags/xfs-5.17-merge-6
+    old: 0000000000000000000000000000000000000000
+    new: 7aafa698d46dd9ecccea12ca8365b873759a340c
