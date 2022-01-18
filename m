@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3840929343337549365=="
+Content-Type: multipart/mixed; boundary="===============2167267598751590038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 18 Jan 2022 16:04:25 -0000
-Message-Id: <164252186526.4788.17642268066187208134@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 16:04:28 -0000
+Message-Id: <164252186802.4908.9641183597087186495@gitolite.kernel.org>
 
---===============3840929343337549365==
+--===============2167267598751590038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,60 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: b0ee52316847cf279a1028334117985a5d633c0c
-    new: db4652d79997ed4283496999def1cc9ea8faa81c
-    log: revlist-b0ee52316847-db4652d79997.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 4ba8e26127c393c32776dff6d79c5b82de6dc542
+    new: 9145fdc8bcacefbad0e1543cd760a838d60354f2
+    log: revlist-4ba8e26127c3-9145fdc8bcac.txt
 
---===============3840929343337549365==
+--===============2167267598751590038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642521864 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642521867 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642521859-798e4c9ec5aeef8d04435169498154b9a80ceaa7
+nonce 1642521864-fb0fd9b706b6be6a8a12e5c16e3613a7d75893bd
 
-b0ee52316847cf279a1028334117985a5d633c0c db4652d79997ed4283496999def1cc9ea8faa81c refs/heads/linux-4.4.y
+4ba8e26127c393c32776dff6d79c5b82de6dc542 9145fdc8bcacefbad0e1543cd760a838d60354f2 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHm5QgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0RwP+wUCR9Tdao2Gb/digaRD
-CIBqHguc98nwuxsuctLFxgvHvMtsjIns3vsO6uWUGFMMW7Mln8FtgFJBjAyzC/v2
-3YZcWE387mxE3PvgTXfDZukJP6W13iwM2fbVqJJlrZmxcS2RZQZozhgBGEqcKNcU
-akm8o9MjJgAJ5PukuaoCe/zXpOo0WezvhgRcyXgZQEm4Jqf/HN6Nl8bIgVm1hU1Q
-LdEetlgsaW1Bos5C74oQgf9GVA6At9TkiYlfhXqV38R0iyZXK4v6vfsZJ9m56+94
-K3vc7EzL/aKYyR6oaGCFrwS4zC6Y5CWw4k7BPs+pNSNs39FAyKZoisG4Lw4yMkdk
-1FISQiXRcvhDaDFL4QM4CdeAuw4a/2U5w5Sm6PFwquNFpYHDUsB6EGnxH6NdN70U
-2GfKBV6WIPzSZlqR3xg++ixacxwsIy/Vvr6/xE/nYfMcSRM5oM9T0HWlCpbY3Xc3
-L5DjZ4cEkzZF2CPZ1TH36Xl2ackbV25kMnp2qdUukwhCd42rOKeNW2pYn7EOi2P4
-q/mxr2RB/XuDEKhB2dxoe/KMJM8xtoBPpmMO7VDqRtiXR+D8Oq/8t47lTznfkl+3
-yGil28fSniPcZRsWC5J9fFtCxhV2gtc/KFnJIPj//AbGaqXaPKxtH05wrtmoLTw8
-yaeve5+Tt+ojuGsXDaqeBSEW
-=U4uV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHm5QsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++QsP/jpeYiWbK4N6d6QpbKwW
+SbnweoN279WcckA0h5nkERxdOECChSW00/2m3AcjyirnNGt3YpdIw7y0c/LB8/7s
+gqwg//1ENc4D0ZLDCFJB3n1ev3EvnECBnMZKINO4Gkl4HVoiyNaj02L+11tzgidR
+Wm8d4PWlz3tt8SgKjb+ODePpyMbtQzaouUUWDPKMCVoMTRdEtWRvS94gmoQA+17+
+JY4p8/7BNf5uvw++hCKbO1+/J6N86W9+NjoaaMXtzYUkCYyvGm0zpGjv6Ootv9EH
+bIAfP9HA5+FQTdQfWU8MSC6diJNJf+Dv2/XhrAc3lN/l515ZYiHNynEHBfk4cBw8
+UhAdcTm5UwUMaLgg/43qCcmTNVQJUSYEXvA86Y7rOvQmHdZDV7XoDnv70DWVvyrP
+ly9wYUwlaMQ8QuCs1dst2tqr0C20Qbze+Bae8lsBhbfFsqiZm0hhJYobm+x4ezWj
+uS6cBD7NyWpPGlkC8zHi8SQs3nsZ2nMYi8KGnLlg6OGGU5I5304HnRT5oFLoGQmQ
+rIkyLkJJ/Vwi7JTq9kXAH3GmJIYAbyxOXlIo3KyJO//y4AoZsRhfgXZ1/MKAKS4l
+e7vmQP/bqr2vkyxLmDjjk3d7MnyHWgYLLxdtMaTFT5iAhphmvb5edWu0atNBtZf2
+I5qBSbRNN2KwXaNoT4H8Xakq
+=BpBJ
 -----END PGP SIGNATURE-----
 
---===============3840929343337549365==
+--===============2167267598751590038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0ee52316847-db4652d79997.txt
+Content-Disposition: attachment; filename=revlist-4ba8e26127c3-9145fdc8bcac.txt
 
-750c43cc856c292c4efa3c4c3584a1269fc568fa Bluetooth: bfusb: fix division by zero in send path
-6f038c31e284039bdb6d3f742eb4afa3b4edcb5c USB: core: Fix bug in resuming hub's handling of wakeup requests
-092b0f2ebe5fed77fef1021cdeef547443da6c50 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-340bc48ea7abf42a6eb82c6d64034fb7a5e1353b mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-c14539e9abc4e42d605a54f1f68285c98436d631 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-778a536e4e0eff08678c01c8888e3c1311879689 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-2d10e69d5975e9b746b87debbe122bd5b09d7b8a drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-1c3c07810c49d37e4a92cab08d0e1bb92a968180 media: uvcvideo: fix division by zero at stream start
-abf57f629370f91bb0066b42ada208c96893e944 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-db4652d79997ed4283496999def1cc9ea8faa81c Linux 4.4.300-rc1
+5294ce38fe9a973868392606694d638599a84c44 Bluetooth: bfusb: fix division by zero in send path
+d9ca06cf2f5a8bac86c18dbef6dd8d9c8667cde3 USB: core: Fix bug in resuming hub's handling of wakeup requests
+6a7b7d521ef3f8b5f7126bac33537e9411e822b1 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+f3454c64e688b2c262e201a67bfb21ce8670a64c mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+2ebc598ba24a1d639852822e81d5f3f7702991eb can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+d0e9b17137014ff24749a8e83cc32cf4405a9497 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+6e7a6e3c0bb26bced677f21d0f0b9aa6b431239f random: fix data race on crng_node_pool
+89b6ffc380455fa63949fdec309d8fa40b51ae1b random: fix data race on crng init time
+da059f93affb42bcd7981d82fcd069c1f3f552f1 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+5bad3feca5f69afd62b220b7be3dcd7c33ad6f57 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+935f4b4e51db6dbcc7675229a80bc6318cddb79b orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+4630c2152761b566358bd8b2b3db70034cc358a1 media: uvcvideo: fix division by zero at stream start
+9c1c1dd0573519ef70e5ffb07fcfa74750c07d3c rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+9145fdc8bcacefbad0e1543cd760a838d60354f2 Linux 4.14.263-rc1
 
---===============3840929343337549365==--
+--===============2167267598751590038==--
