@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0033623551244477407=="
+Content-Type: multipart/mixed; boundary="===============2138307475122838445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 18 Jan 2022 11:32:51 -0000
-Message-Id: <164250557148.22663.8175644485830427956@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 11:33:06 -0000
+Message-Id: <164250558690.22824.18032722854911388049@gitolite.kernel.org>
 
---===============0033623551244477407==
+--===============2138307475122838445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: b0b2ffd4144c98894af1792dbc94e1c47239ec5c
-    new: a7eea8a2625456bfd5e22b9d7ee175b92ce68d91
-    log: revlist-b0b2ffd4144c-a7eea8a26254.txt
+  - ref: refs/heads/main
+    old: 0c947b893d69231a9add855939da7c66237ab44f
+    new: fe81ba137ebcc7f236780996a0b375732c07e85c
+    log: revlist-0c947b893d69-fe81ba137ebc.txt
 
---===============0033623551244477407==
+--===============2138307475122838445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642505564 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642505585 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642505564-d986687c2398e5a0a95381f4780423abdd854d33
+nonce 1642505584-a496f38f358c33b81e924e1cc8cb3599f41adfea
 
-b0b2ffd4144c98894af1792dbc94e1c47239ec5c a7eea8a2625456bfd5e22b9d7ee175b92ce68d91 refs/heads/kobject-const
+0c947b893d69231a9add855939da7c66237ab44f fe81ba137ebcc7f236780996a0b375732c07e85c refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHmpVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6/gQAKoOPHMMxiV/eiK/wTQH
-6eretrmXkwKvo98CHszl0THIonJi3b1TAMz8IITl6axUTKLM65EDyqcaoaukTAPI
-tG+xJdBtBgp5Sy6mjaUoLEA6Af0FiqiDlbiHeqZ2QaVCsVNC7VyIOHqui5lvND5w
-A9KBjDppn8t4FqWU4VtoZl1+KkRpSoA3eEf/PwbbJw3kG3y3T+Hbve0RxuWeSDUn
-fW3f5k3Y4DX3cpONy+YG0LI4tug8nHFls9664eYcxNIyGaY5hD5nbDWFOJy5d4pK
-u0mrGs8f83OnBF98SEy2FSlIL4yOaOPUKgD4YakNdtvJcZcXEEVcmVWhJhcisQV9
-i2nRfgHfpT2neC7dqtdy0j05W0hoCnmxzWmBgJTDon4BaPXVh8jsMP9oc3a11BAW
-JG3wEX7hjqTcPgvaG/YOSdtByElft0ziTpmO/2SjkcF3l6V/ZquibJBFBArhykaD
-ijxlXC7K4h+IODH7uCoOvOzjPXyWZAg+yYL8jcXf4DMx1QDJMZWk2WN/qDa9onqj
-C/X15PYoTZTx8o5tCnowoDlCY6jFbxN4g41tKBFYSTqQvp175xUeapgprV7QosvH
-stvEV6Yv8Tf4seNk02yeaSrPD113o+Y4JVVxR3eEzAxExgJpav41vmiG1eMraNJ6
-QFfJ13j7Y9FODU067IapG8Yz
-=kvXy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHmpXEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lh8QAIeH7imtWDGpbXCXfhq5
+isfJAIeCZgHjQRLZ9PUZDnCYgIg0EGL4aYb5kWrIvVvaZPAIUMfc1yLEYPabU2i+
+FkEl/9vOwfJyeckzL2EGBqeQNSjOQ/qWvEp8zWxcI4Xk8O8Cr/vpS9/jGQVB2Bn6
+dQ2ERhkcgoqwPItm7B1Hyq4EbHZwKA3BUziuTXnrAbgndjlS3NL74NoDY/RjjDRp
+vxxqgDXpWTZdzmvdqlkBhgNfc0xtA8G7pKr0IWtpFKHQb36glyvmsJjVYhG4UbF1
+pRV1t266cdVSbj7uLelYhM+VBqEb+AIDMY3BnsQAqnqibw5mzGnKPnaCzLLNgDCA
+YxVwXXSpyDk0MlDDgyrj6hdX0pfzxEgW14qOt2jVyIlRX8FMn0GDjgEe/yuFa/9e
+enCAXAeG+mC2Ppi9fmPtKvkRQkyPyca64aDIwSdHrA5KnUj3ajO473eP5FzvsHOm
+OL693Dxpg7OBvPIzuclOgE3lZ7thZuZ+QYiVyrs2S2XYfVawjy1faFaSAmoocXzs
+Jf8X1Q4lnVFH2m3DI1vpQgrh51IClLX/md6/ZB0DZbafnfsgyptALE+v7NjBJqtX
+dT+2dB1ntk/sEgZcOLVg0bvZ31KViKJvTGnQ/xnzhTJ6Gj/aTSEpHnE2SRctCVZP
+vVab3jrHAqKmvvujcMGxDhUL
+=gmr1
 -----END PGP SIGNATURE-----
 
---===============0033623551244477407==
+--===============2138307475122838445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0b2ffd4144c-a7eea8a26254.txt
+Content-Disposition: attachment; filename=revlist-0c947b893d69-fe81ba137ebc.txt
 
 7efb14256dd306407cf8388a46a4a6c5c5c85774 remoteproc: Use %pe format string to print return error code
 4da96175014be67c846fd274eace08066e525d75 remoteproc: imx_rproc: Fix a resource leak in the remove function
@@ -393,17 +393,5 @@ fc9d6952a4bbb9908062726fbfb009fa6ea5c7af Merge tag 'rpmsg-v5.17' of git://git.ke
 46a10fc3a2beddd79dafc3cd800f14bde0844387 Merge tag 'rproc-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 3bf6a9e36e441714928d73a5adbc59562eb7ef19 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 fe81ba137ebcc7f236780996a0b375732c07e85c Merge tag 'ata-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-f73673b97182bc5603f1b531697eed7a35db38c1 NFS: use default_groups in kobj_type
-57f16eee5935b4674a7280c3dfb2f84c3d20cd1e SUNRPC: use default_groups in kobj_type
-d6306f2dee6c975800cb81ba8847e55169c3ae45 power_supply: ab8500: use default_groups in kobj_type
-5360d48ecbd0288fa8c5846ae751d18c4e66dccc EDAC: use proper list of struct attribute for attributes
-88007f5cd8a89de382f63fabf91e73b78e05f954 EDAC: use default_groups in kobj_type
-1b408cc58080df6445a08e86e7458818d83a3e52 dmaengine: ioatdma: use default_groups in kobj_type
-f288a5d97951db1ac4f8e40108e240b886e91527 omapfb: use default_groups in kobj_type
-640c5568645c02587af6de772b242c83c30d79b0 bcache: use default_groups in kobj_type
-6900e99d1bb837548d1364a477abfed46baf169f x86/CPU/AMD: use default_groups in kobj_type
-ea8a741584b894240fe69b9ee0916cd842d01617 ubifs: use default_groups in kobj_type
-1de73cd2a595727beb7436b948563ad8978d6cd8 kobject: kobj_type: remove default_attrs
-a7eea8a2625456bfd5e22b9d7ee175b92ce68d91 moxart: fix potential use-after-free on remove path
 
---===============0033623551244477407==--
+--===============2138307475122838445==--
