@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 18 Jan 2022 19:52:05 -0000
-Message-Id: <164253552520.22008.16091057265786136882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Tue, 18 Jan 2022 19:53:17 -0000
+Message-Id: <164253559728.22535.6129618362589939378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
+repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b20774a55f2b9bf6d74d2bde98b13485fe3230f3
-    new: 44a7bc640b87d56863ca1ea8dc7a5c1787e51051
+    old: 2886779beff5108f2c2872332078bd17eee3518e
+    new: 9ef5a883faae0955dbcb3842345c2c0e11024081
     log: |
-         44a7bc640b87d56863ca1ea8dc7a5c1787e51051 scan: Remove work_started variable
+         9ef5a883faae0955dbcb3842345c2c0e11024081 ecc: add l_ecc_point_y_isodd
          
