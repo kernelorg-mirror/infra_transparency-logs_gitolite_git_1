@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8687093928774114316=="
+Content-Type: multipart/mixed; boundary="===============4607642050160517232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 18 Jan 2022 16:04:29 -0000
-Message-Id: <164252186958.4969.12363024840214728412@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 16:04:32 -0000
+Message-Id: <164252187214.5042.11857685470811340177@gitolite.kernel.org>
 
---===============8687093928774114316==
+--===============4607642050160517232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,62 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 8d58193689d0deecd834a254892b4df49a723d54
-    new: e81e86f5330b3aa281c4b7ed76b0890b06689ea3
-    log: revlist-8d58193689d0-e81e86f5330b.txt
+  - ref: refs/heads/linux-5.4.y
+    old: b7f70762d1584a2b66e056412fd39ad6f6344c89
+    new: 659bb494c5b816f292a122ae1d26e95b44670484
+    log: revlist-b7f70762d158-659bb494c5b8.txt
 
---===============8687093928774114316==
+--===============4607642050160517232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642521868 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642521871 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1642521866-27170a46239b6680cb2bfcb3b6406fab597d051b
+nonce 1642521867-6492d864be3c2bef2e55172188dc085f1f1cfa29
 
-8d58193689d0deecd834a254892b4df49a723d54 e81e86f5330b3aa281c4b7ed76b0890b06689ea3 refs/heads/linux-4.9.y
+b7f70762d1584a2b66e056412fd39ad6f6344c89 659bb494c5b816f292a122ae1d26e95b44670484 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHm5QwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iKQP/2hP9ar04W9Sau1+YGFD
-2nUKjvZxvCu3ODMLQmHyQmBe5iARoTesG0Vtd/Vz+IUUK7jymqwLPTcK9O0hSFLA
-giNWBgm2qO/vaE6ZGckCxWonrG6A5oKiU3sW3VPVE8UOWbGuCoQfv7Hkpb4qN2ZR
-EdiNhqNGwWR7UIp62q5U97oqoLUSix7yRNZZnXHfTEeHHaww92TXqgrcJRNiLfiZ
-9TWKUo+x1euctBK+tomxuJfAlKCMVvBoo20ofbUK2mIn/BOFMrWUWUcrlmGGguEc
-piNam5NdU94ticOGnd+vRjIrYdQRfkj1vvK2gQ4EgFfm2riKq84MUyBGvyJDSTwv
-3HtvbLWiDoyb/PF0NaN7aDlwsyafeUQDHh0MsGX3nS2gIo1Es/z6RwTJnfk0Xezt
-jrdUzKFfDp8+ZFQAnIz4ZnA8KhkpC4DCL2WWl15AfedcBDBnZ9HNawuUd+Et8WkD
-BV75jOr/8RegpnuP21tm8VhU5zcf9TE6ULOxL3YdlsBqtsmhhTEeziQNpx/Z4dMj
-ITt7l2kt0YxGrb0tyrArYLEW0qaKIylbANfppnk3sbeQo5TG+9CoVRKEGhqPqkj3
-iagh52Qsu/SdjFUAe35w8JOA4H4ROxjsgqzQ501Wi1T3AwKlBAdHV/1HCyBqvzZ2
-TVnOpFAU6Y2biaQyPFSaCP2W
-=6IjU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHm5Q8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q2IQAKBi5WxfCmhsme5S0Y6V
+Kl9/jClA5JRq7HjiSpPyeiNI+X7Xz26aaljw+VElj0CWlK85K90Rb0zmfOsjxTsR
+g+dZYKrUsMQs/TugWaHVd790h0gEY/VBIyLIpZdR2oDjvyMiBS/xA813zz54d/Sw
+zvhHpjFhcmEiaWUI9Qk/Xt2lxjrIrcSISEUZyNDi00rjs28NOj69dk+DagbYp8aF
+Mpxr0dKtblkWMMngvW/C/gJYKjfOr+wnxsZjaxK1nWRceG4JeYXfWhFvmW3o8zCu
+Smc4LokjNzkVsMiWX9hItP1i4VZhKqpdLQ9gXj48LvL8IeYfyl2bar94m2mMx69Q
+8vcFwedzJVtX7Zy9DjXmxdVeKQo0OInWcundJKOLEanm3x44ssv0c/BRc/jsNGSQ
+japK2B29be0pwtjpoWvz8HCU0c3LMVf4RF0yrCbfhTu6nE/tigtsStNjF2yc8vnX
+FeoDDhrWQY5GhwNpxaDbf90ilefpGeDhQl5iBe1vR96swloRGgjOcb1p6snM5nsB
+IQ5PDyUjUeD21TtY8BhXnYMUEED/iVYzPTe8nso9jmR/LNEqt9doNOtpyrNX9z76
+aHLN1/2AIHYuHpclypz4UuzgZcrXvAv+24Nlr2NcChjlMlLS29PeJMfqMyWx5P1h
+EAMIsFKPwqO0QqvcwaS+yyTe
+=Ue5R
 -----END PGP SIGNATURE-----
 
---===============8687093928774114316==
+--===============4607642050160517232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d58193689d0-e81e86f5330b.txt
+Content-Disposition: attachment; filename=revlist-b7f70762d158-659bb494c5b8.txt
 
-a0a9cf52a0c4a19232cc980834d7ff6db9f21b89 Bluetooth: bfusb: fix division by zero in send path
-0170ac5951f4402a77c9ae4fb83af6a8319ba8a0 USB: core: Fix bug in resuming hub's handling of wakeup requests
-9a04923e603ce0fabb00bc6dc32c2a09d7f342ce USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-83ab43eaf5e8fad031308bc65df977abf3cb6e37 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-b13d7d4c2069d20e57d746adcc4ea967b24c3837 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-9ec7dd7b4a57c2b4f145a8a1003671d380e3636f can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-4a621be5e90b5db842d497011ef52d163364ad22 random: fix data race on crng_node_pool
-95dc79c9d045cb1e47be8850abf62a1347b4ac99 random: fix data race on crng init time
-7f336ca3ac14681e8aa54df867e41bb9e0aa53c7 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-c9364b1c5fced85785775fcf5efc01c695c7889d drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-cf135494e130318e90fbaa61991133c8fe44fed6 media: uvcvideo: fix division by zero at stream start
-2bf2683396e1638dd0346c9ff8a4988d286e4789 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-e81e86f5330b3aa281c4b7ed76b0890b06689ea3 Linux 4.9.298-rc1
+66d79928ca5b866fc4120cc6ed7f1ed6630d651a kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
+7bfe90378e9475644bb80791fe1bc39fc22b7e3d devtmpfs regression fix: reconfigure on each mount
+2fa4f6a33109571d30e890760f4fd91b535a42ed orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+1b5366af3e04851850f85b464aef0fe37491dae0 vfs: fs_context: fix up param length parsing in legacy_parse_param
+18dbedbf8cbdc2399e8fa05e41bf0034b39e55b0 perf: Protect perf_guest_cbs with RCU
+f722663ec0ad2f9958c2e7cb1843273d49c88496 KVM: s390: Clarify SIGP orders versus STOP/RESTART
+14fed97e910bf36a2d8a36f255409c1a77fbea6e media: uvcvideo: fix division by zero at stream start
+78ca50d75125c54e7382993f0be62188c63c8a62 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+0a2bae0cafc4682a2050fce4f2498ff8fe5e0346 firmware: qemu_fw_cfg: fix sysfs information leak
+7d9e5f087e323838557f85bba7df56bfa9627a27 firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
+f1b7c4d5aeb19e31956017b91de575072238f42e firmware: qemu_fw_cfg: fix kobject leak in probe error path
+d09d7510dcbbb0da227f64fafebf6d753f2ac017 KVM: x86: remove PMU FIXED_CTR3 from msrs_to_save_all
+c53593f95689afe13d4eb67d3f12df72201b44ec ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
+fa085161527e4ec076cf2f936ebe68aecbe829f5 mtd: fixup CFI on ixp4xx
+89a4dca67ef9039cd8b08d8853ec13d7f46ccb74 ARM: 9025/1: Kconfig: CPU_BIG_ENDIAN depends on !LD_IS_LLD
+659bb494c5b816f292a122ae1d26e95b44670484 Linux 5.4.173-rc1
 
---===============8687093928774114316==--
+--===============4607642050160517232==--
