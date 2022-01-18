@@ -1,198 +1,180 @@
-Content-Type: multipart/mixed; boundary="===============3741177159341772636=="
+Content-Type: multipart/mixed; boundary="===============5059453723907140438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 18 Jan 2022 08:25:52 -0000
-Message-Id: <164249435250.19686.257210902190154856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 18 Jan 2022 08:27:31 -0000
+Message-Id: <164249445172.20315.8664108344568402553@gitolite.kernel.org>
 
---===============3741177159341772636==
+--===============5059453723907140438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue/4.14
-    old: ebc73ee99b008bdecde9805e23570a7b83b2591d
-    new: fb22a9e40943f22776580926fa1767f373ab46a5
-    log: revlist-ebc73ee99b00-fb22a9e40943.txt
-  - ref: refs/heads/queue/4.19
-    old: f9b14038565b68b06d4c0040da8afb4b6aa51ca4
-    new: 7cb6236a0584b6f3a20d77e24c264168a3b4a750
-    log: revlist-f9b14038565b-7cb6236a0584.txt
-  - ref: refs/heads/queue/4.4
-    old: efdd34e3a05086a61f962caf52a503b5f5f0b749
-    new: 6c84c0da3cbb536ad23bfb45798529b10c6bb52a
-    log: |
-         54d7dbe9160cb7909cf59e367847e930e954ec0d Bluetooth: bfusb: fix division by zero in send path
-         21c4bbd5d9a5424c965c2d248c9321698c95d131 USB: core: Fix bug in resuming hub's handling of wakeup requests
-         cda889b6a452c7b378d2678349d58d92d2e1cb63 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         6e41682a35e6fde8d44b3829f7a75785ee85e979 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-         49f4f753dc5050a8b1d0ef1c029a436bd33c0192 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-         c41debe46a5c9da07951dd77e38df03d85dd6dd0 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-         4c93e6b529a04a467eff8b7041963b1ed5f33131 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-         e1d0c8e0ec0897176053dbf056e98b32a3d5069d media: uvcvideo: fix division by zero at stream start
-         6c84c0da3cbb536ad23bfb45798529b10c6bb52a rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-         
-  - ref: refs/heads/queue/4.9
-    old: 23a82659e5cd146f9bb65ca7f149bc7ec73cbb91
-    new: ecabad54913181e7960dec61bcde99fd3ba09f71
-    log: revlist-23a82659e5cd-ecabad549131.txt
-  - ref: refs/heads/queue/5.10
-    old: f2caaced2ebb29bbc97c8499331781b7ced319fb
-    new: 875e024d6fa5cd61190cb6ecb60ecc50157455cb
-    log: revlist-f2caaced2ebb-875e024d6fa5.txt
-  - ref: refs/heads/queue/5.15
-    old: 03c8197b8e9001189ff812a1480767af71fad7f9
-    new: f6404f051850d9962d5638160c4b981f7debcec4
-    log: revlist-03c8197b8e90-f6404f051850.txt
-  - ref: refs/heads/queue/5.16
-    old: d480d83f381cad88fa90625e19919626d60e72ea
-    new: 53de9222a55801c6ff64cd939159dde923c6de58
-    log: revlist-d480d83f381c-53de9222a558.txt
-  - ref: refs/heads/queue/5.4
-    old: b811e1403c34ffb9978b687038f2851dfc7e3ae3
-    new: cbbfdd06a5e3dd92b7c77517c5357abd0f171891
-    log: |
-         b058058f1f5038b578f17c14a409b598477e8f90 kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-         2ced0a813a6f4c69c54448db18be2889dc2e78ba devtmpfs regression fix: reconfigure on each mount
-         bb7a3981def1ad27a0c2e7a909c1a887f36d5018 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-         799ca2d36f89614646e6f31db80b44fe10d46f0d vfs: fs_context: fix up param length parsing in legacy_parse_param
-         ffb2809e181e84fe350239262911c4d7001314b2 perf: Protect perf_guest_cbs with RCU
-         47ff79e3f63dd428298576fd871a5e54cc872e82 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-         f1126342a71b76b0290c3fe49e21431d6e161785 media: uvcvideo: fix division by zero at stream start
-         cbbfdd06a5e3dd92b7c77517c5357abd0f171891 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-         
+  - ref: refs/heads/master
+    old: 46a10fc3a2beddd79dafc3cd800f14bde0844387
+    new: fe81ba137ebcc7f236780996a0b375732c07e85c
+    log: revlist-46a10fc3a2be-fe81ba137ebc.txt
 
---===============3741177159341772636==
+--===============5059453723907140438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebc73ee99b00-fb22a9e40943.txt
+Content-Disposition: attachment; filename=revlist-46a10fc3a2be-fe81ba137ebc.txt
 
-fcc1fbe6d7653cd3529da5111631844e7364906d Bluetooth: bfusb: fix division by zero in send path
-ea156ea816d1bfd19f6706cce1b038e460120a19 USB: core: Fix bug in resuming hub's handling of wakeup requests
-2395cf1a5743ac4f343643cfe9f6b0b24c46d16c USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-84fc5ec0033db36d0d089024fe34959d047b2342 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-8aa1995fd518128ac7d366f9caf4091d36d84ba1 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-b2f514485b466ad9ab37347c06f2bf710c739a3a can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-07b34180653b24ddd3be86ad1058950a3f1a0f3f random: fix data race on crng_node_pool
-e8a2f8b78bcb808c4750a4a5fb317e374837c249 random: fix data race on crng init time
-624818b07dd16fd8a59b86a38f962ae933ae5617 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-3c7f9f34ecdb471408018408ea2c9c259ecc2008 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-d5a5ea178cd72fccdbe5c213aee73a762b62a3c4 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-b68ed6a813ecf68f186d903ca08668d8efddf788 media: uvcvideo: fix division by zero at stream start
-fb22a9e40943f22776580926fa1767f373ab46a5 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+49737f261c412ea7c4ca583317a9b094c0aaed49 ata: pata_ali: no need to initialise statics to 0
+23c72ffedeed6d513144fa09834b1eb0cb2b7373 ata: sata_fsl: Use struct_group() for memcpy() region
+58c541146b6601ad0b12f2a1f8fc925a3a3e0006 ata: libata-sata: use sysfs_emit()
+0667391e191c00fb80d5a227bef977ecb12b5b70 ata: libata-scsi: use sysfs_emit()
+179a028225c145171a2e95abbc69b579f72cdf5a ata: ahci: use sysfs_emit()
+ab0efc068ebf73dcec6198c05b8a8111f0d48aea ata: sata_fsl: use sysfs_emit()
+f713961de5057765bc663db72b7e540f27827750 ata: sata_dwc_460ex: Use devm_platform_*ioremap_resource() APIs
+f1550f27f8a92a4d29329aeeb28b743365abceae ata: sata_dwc_460ex: Use temporary variable for struct device
+0805e945651d6cf3a08349fd041c2049dadc76d9 ata: sata_dwc_460ex: Remove unused forward declaration
+ea63a8990151948b87dfc0502028bcc7d6724dbc ata: libahci_platform: Remove bogus 32-bit DMA mask attempt
+7b6acb4e7faa8590ac9b56874a2129a977da8890 ata: libahci_platform: Get rid of dup message when IRQ can't be retrieved
+da29947057950232f4ad8e0e118d2d5002daaf2b ata: libata: use min() to make code cleaner
+f3b9db5f4fd1f65b44935d22b6fe0016aa62d5c0 ata: libata: remove pointless debugging messages
+bb6a42d7104644bb8d59fac9a93b69d7790ff15e ata: libata: whitespace cleanup
+6c952a0dc9c3ced98c4c8aa7cd11c25c59157f1f ata: libata: Add ata_port_classify() helper
+6044f3c456dc5f4a013e629da8632fab1d50d08e ata: libata: move ata_dump_id() to dynamic debugging
+4baa5745ec21efdce3470945a3ff6831b3e6c071 ata: libata: sanitize ATA_HORKAGE_DUMP_ID
+f8ec26d0f5bcdb864f771fb6d250d9ed3165eb61 ata: libata: add reset tracepoints
+fc914faad67f237528739ec717222a560c97e723 ata: libata: add qc_prep tracepoint
+c206a389c97c9533971cd05eed69b49f535cc193 ata: libata: tracepoints for bus-master DMA
+7fad6ad6a357c73f0bdf55476238ae2884de78a3 ata: libata-sff: tracepoints for HSM state machine
+1fe9fb71b2ffcedd794daacf4db2056a6cb5199e ata: libata-scsi: drop DPRINTK calls for cdb translation
+c318458c9359ce3d10943b0c15a9b9f43dda7b2e ata: libata: add tracepoints for ATA error handling
+742bef476ca5352b16063161fb73a56629a6d995 ata: libata: move ata_{port,link,dev}_dbg to standard pr_XXX() macros
+d452090301fa19e99a1a1422f70cd7b1092a0f9b ata: libata: revamp ata_get_cmd_descript()
+4633778b254d6183eb1dd6b538b8e04583167f51 ata: libata: move DPRINTK to ata debugging
+37fcfade40f77679f9a3942cbe630f4f4be11452 ata: sata_mv: kill 'port' argument in mv_dump_all_regs()
+a2715a42380bed98be4797287f97c07a388d5695 ata: sata_mv: replace DPRINTK with dynamic debugging
+e392e3944f8b1c2075f8e361a2255ca9037e3fc8 ata: pata_octeon_cf: remove DPRINTK() macro in interrupt context
+774f6bac2ed39ab1d1a7c41cc986279866486c07 ata: pdc_adma: Remove DPRINTK call
+65945144fa849d87b23cac4fbc8565807eefee02 ata: sata_fsl: move DPRINTK to ata debugging
+fa538d4020e61ff3f71eb29516b4fc02ba129c33 ata: sata_rcar: replace DPRINTK() with ata_port_dbg()
+1891b92a4cffaacd6c54684621440e6805a15e3b ata: sata_qstor: replace DPRINTK() with dev_dbg()
+b5a5fc8b0f8175e4b3aaf182c1b23de4ccdd3347 ata: pata_pdc2027x: Replace PDPRINTK() with standard ata logging
+e1553351d747cbcd62db01d579dff916edcc782c ata: libata: remove pointless VPRINTK() calls
+93c7711494f47f9c829321e2a8711671b02f6e4c ata: ahci: Drop pointless VPRINTK() calls and convert the remaining ones
+51d628f10d55fc3c18685f63000efbd5c848320d ata: pdc_adma: Drop pointless VPRINTK() calls and remove disabled NCQ debugging
+d3e140f2b008e06072af9bfadf2294961bade897 ata: pata_octeon_cf: Drop pointless VPRINTK() calls and convert the remaining one
+9913d3902f8f5e30984ae8a716e34935f553cc48 ata: pata_via: Drop pointless VPRINTK() calls
+156e67cc0dba1463fbc9bf3b327b642079b5a9fb ata: sata_promise: Drop pointless VPRINTK() calls and convert the remaining ones
+05d8501fbf063914c19c633e0e6078e9948c129b ata: sata_qstor: Drop pointless VPRINTK() calls
+559ba1830e4bd7ad71b44ab5d0f75d7a206f75ed ata: sata_rcar: Drop pointless VPRINTK() calls
+a0a8005d8642ce29596827a100c6cdc84bbbfb5c ata: sata_inic162x: Drop pointless VPRINTK() calls
+23b87b9f6ffe89806f8707e5963e509881e2e0fd ata: sata_mv: Drop pointless VPRINTK() call and convert the remaining one
+47013c580c73c3870796ca5193a24e3334da4105 ata: sata_nv: drop pointless VPRINTK() calls and convert remaining ones
+14d3630608db7928b26a6e2272ff0e4d298ff910 ata: sata_fsl: convert VPRINTK() calls to ata_port_dbg()
+0b8e9cc71c237105340a40afc2a387e9ceffb595 ata: sata_sil: Drop pointless VPRINTK() calls
+bc21c1056d08525d9c5a5d74db4b8f14e6691991 ata: sata_sx4: Drop pointless VPRINTK() calls and convert the remaining ones
+f11c5403a1f0c5dc4cf8c38f14b26dc9abe8cf75 ata: sata_sx4: add module parameter 'dimm_test'
+d97c75edd806669c9f4b56c0ddae37725c0b708c ata: libata: drop ata_msg_error() and ata_msg_intr()
+5cef96b4207e01c9cdb7752acaa178056fe94632 ata: libata: drop ata_msg_ctl()
+2f784b923d50cdef1f6bd24d7c18614321b0833a ata: libata: drop ata_msg_malloc()
+16d424672716dc886fb58ec4a47a408db4781cc0 ata: libata: drop ata_msg_warn()
+17a1e1be2fc7dc99945b41df0485037dcb6044d0 ata: libata: drop ata_msg_probe()
+96c810f216cb6da15bfa8fe8ef3bf73ca91c5dd8 ata: libata: drop ata_msg_info()
+1c95a27c1e544f723f6e0e5a4384098f92996ec0 ata: libata: drop ata_msg_drv()
+db45905e74e6ae035305719bc683eca40f526669 ata: libata: remove 'new' ata message handling
+870bb833c0acb29d8471eac5c2d2e6274826dbb6 ata: libata: remove debug compilation switches
+f2f01a52f28121770c5cd48352a60b87e1fa204b ata: pata_atp867x: convert printk() calls
+0f1c1294c78d1510490e466e167a668dfc0ac5ae ata: pata_cmd640: convert printk() calls
+8705cb7f1b49e03b721ff1891331263dad83f875 ata: pata_cmd64x: convert printk() calls
+56f7979e770b21b1b420b82ddd83a1b4a301fdb5 ata: pata_cs5520: convert printk() calls
+0d43bff5196d2d2c00055470281a11ccfafa740f ata: pata_cs5536: convert printk() calls
+3dede7f9b37fbf7e0471e1d14f8eff540fcc87ea ata: pata_cypress: convert printk() calls
+3697aaafc368b66e5d76b749d2b0275a03ce6af1 ata: pata_it821x: convert printk() calls
+21f0e60a925ba76ad2ff0c2cd9fbead1fd2cbca0 ata: pata_marvell: convert printk() calls
+71306ae27c8716f92852dd18978fc5171c26849f ata: pata_rz1000: convert printk() calls
+f9bcf5ba2d5f83a694312814fe2e1573891cd054 ata: pata_serverworks: convert printk() calls
+3156234b61036a6db5f229c47f2ad8052962949a ata: pata_sil680: convert printk() calls
+16d6623fe958b7fffb35ef4e0120385497295685 ata: sata_sx4: convert printk() calls
+f76ba003d1b6ac81a8532e49878659c66a361664 ata: sata_mv: convert remaining printk() to structured logging
+f06c13aa01a9855e816fda296e3eda2e656b4c53 ata: pata_hpt37x: convert pr_XXX() calls
+cb3f48fc57508aea8698e0bee99068fddde30ad9 ata: pata_octeon_cf: Replace pr_XXX() calls with structured logging
+cb8d5daae9adcc5dac44c068d5d795056aa6d30c ata: pata_hpt3x2n: convert pr_XXX() calls
+97b7925a5cb44dae4b9f0c8f1b22427521b1de8d ata: sata_gemini: convert pr_err() calls
+cbc59b8c20863cca43b8b9552cf409a2c8d1be7a ata: pata_hpt366: convert pr_warn() calls
+41d4c60f8623d8a42f649376f678e27d802b8163 ata: libata-scsi: rework ata_dump_status to avoid using pr_cont()
+898a276d4304263e83edffa0bc1792aa8116cc90 ata: sata_dwc_460ex: drop DEBUG_NCQ
+d4caa9054e4f9405e8d3d93a5891fe20256257f2 ata: sata_dwc_460ex: remove 'check_status' argument
+1d009eb6fefb64fb8db1cf9ee179133fc7270f2f ata: sata_dwc_460ex: Remove debug compile options
+87924c5b4094f195507bebcab96e141e48c947d7 ata: sata_fsl: add compile test support
+641ba1a5e2f88039b0d62524b2eb668680c94ea9 ata: ahci_brcm: add compile test support
+e73d737894dc4a59f232e1a1b16d968569fa0ffd ata: ahci_da850: add compile test support
+56e18702b0c240dc3c4fde0619e8a78f5f13be97 ata: ahci_dm816: add compile test support
+28a53d3160acd7e44a39a146da20e3e672fb0d96 ata: ahci_mtk: add compile test support
+368c7edc15e5e505ab56d6caad60fd11ee2bc428 ata: ahci_mvebu: add compile test support
+c05b911afffa6a1842dd3bb9d54a8db178722e40 ata: ahci_sunxi: add compile test support
+3d98cbf7096ea50bbb4256c7781555bb69a07e52 ata: ahci_tegra: add compile test support
+b7c9b00fb050c6b3fea6e32f1adbe0194296eb1f ata: ahci_xgene: add compile test support
+a33a348d0aca38107c435eef20c449cf13dd9447 ata: ahci_seattle: add compile test support
+a3d11c275b647b5b56b907011b432e00f7ddb683 ata: pata_bk3710: add compile test support
+e5b48ee30aec1fe6dff05e36b22e886c665b4736 ata: sata_fsl: fix scsi host initialization
+f8bc938ee6c60ec862fb5311789b6e277555f0b0 ata: sata_fsl: fix cmdhdr_tbl_entry and prde struct definitions
+2bce69072a0db6c3444650023c6f35bfd7a23d29 ata: ahci_xgene: use correct type for port mmio address
+0561e514c944da874ccdfbe2922f71b4c333c7e1 ata: fix read_id() ata port operation interface
+9c2fd3fb43bdf2641093fe287d1944ec3c88eeda ata: pata_octeon_cf: remove redundant val variable
+dc5d7b3cfd7833d41c2e2fad5fd5af5c95d05d04 ata: pata_cs5535: add compile test support
+2aa566716f43776aee1cb46b3bb40af67b080d06 ata: pata_ftide010: add compile test support
+7dc3c053bddf735b305bacfc620aa5cf6874ffe6 ata: pata_imx: add compile test support
+7767c73a3565ae975e7f1de7900815be4267cc3c ata: pata_pxa: add compile test support
+b6a64a860e1319dfbabc55b351c8b6583bd67413 ata: pata_samsung_cf: add compile test support
+db6a3f47cecc3da00d13fc68738aaa96e31f7c04 ata: pata_of_platform: Use platform_get_irq_optional() to get the interrupt
+84eac327af543f03172085d5ef9f98ea25a51191 ata: libata-scsi: simplify __ata_scsi_queuecmd()
+b9ba367c513dbc165dd6c01266a59db4be2a3564 ata: libata: Rename link flag ATA_LFLAG_NO_DB_DELAY
+a17ab7aba5df4135ef77d7f6d7105e1ea414936f ata: ahci: Add support for AMD A85 FCH (Hudson D4)
+237fe8885a3fdab169bf670790c9f40046af45d3 ata: pata_ali: remove redundant return statement
+d9679d0013a66849f23057978f92e76b255c50aa virtio: wrap config->reset calls
+2076207128948b766ef1fe344e0444fc9271a847 hwrng: virtio - unregister device before reset
+b4d80c8dda229c830f0ba38c103e5263c2a7bc64 vduse: moving kvfree into caller
+0f420c383a2bb414ebccedf9289b5b815f1295fe ifcvf/vDPA: fix misuse virtio-net device config size for blk dev
+9c25cdeb5f3ca9ef0d683ee8c29b7cb61a174165 docs: document sysfs ABI for vDPA bus
+539fec78edb4e084e7c532affc56cc42d4ceea4b vdpa: add driver_override support
+6639032acc085775452a2c92fdb8a6f601c9c075 virtio-mem: prepare page onlining code for granularity smaller than MAX_ORDER - 1
+57c5a5b304b0d3798b2d3dc75bd6c960d78ee8ff virtio-mem: prepare fake page onlining code for granularity smaller than MAX_ORDER - 1
+60af39c1f4cc92cc2785ef745c0c97558134d539 net/mlx5_vdpa: Offer VIRTIO_NET_F_MTU when setting MTU
+10aa250b2f7d87d0921c5e991fd49e607050d486 eni_vdpa: Simplify 'eni_vdpa_probe()'
+23118b09e6e11a03cb40a86875d5d342257ae1ec vdpa: Avoid duplicate call to vp_vdpa get_status
+28cc408be72cebb0f3fcc37bc74ab3196d4de726 vdpa: Mark vdpa_config_ops.get_vq_notification as optional
+d3e305592d69e21e36b76d24ca3c01971a2d09be firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
+6004e351da50565fb561be85d45151dc9c370023 firmware: qemu_fw_cfg: fix kobject leak in probe error path
+1b656e9aad7f4886ed466094d1dc5ee4dd900d20 firmware: qemu_fw_cfg: fix sysfs information leak
+9f8b4ae2ac7dc5ff6e5dfa723c1ef2bad80a8c68 firmware: qemu_fw_cfg: remove sysfs entries explicitly
+6017599bb25c20b7a68cbb8e7d534bdc1c36b5e4 virtio-pci: fix the confusing error message
+2b68224ec61bb66aa2a24ad099b6af65138fa888 virtio: fix a typo in function "vp_modern_remove" comments.
+cf4a4493ff70874f8af26d75d4346c591c298e89 virtio/virtio_mem: handle a possible NULL as a memcpy parameter
+49814ce9e21a8b6d6158b2e502fe6bacef4d99b6 virtio/virtio_pci_legacy_dev: ensure the correct return value
+97143b70aa847f2b0a1f959dde126b76ff7b5376 vdpa/mlx5: Fix wrong configuration of virtio_version_1_0
+080063920777af65105e5953e2851e036376e3ea vhost/test: fix memory leak of vhost virtqueues
+1861ba626ae9b98136f3e504208cdef6b29cd3ec virtio_ring: mark ring unused on error
+870aaff92e959e29d40f9cfdb5ed06ba2fc2dae0 vdpa: clean up get_config_size ret value handling
+a64917bc2e9b1e0aa716b783c4ec879fdd280300 vdpa: Provide interface to read driver features
+a7f46ba42485394edf9836969e220878f4908465 vdpa/mlx5: Distribute RX virtqueues in RQT object
+73bc0dbb591baea322a7319c735e5f6c7dba9cfb vdpa: Sync calls set/get config/status with cf_mutex
+30ef7a8ac8a07046b9ac9206d3a732a9f76b2e60 vdpa: Read device configuration only if FEATURES_OK
+aba21aff772b8622e08f07219069be793429a48f vdpa: Allow to configure max data virtqueues
+e3137056e6dedee205fccd06da031a285c6e34f5 vdpa/mlx5: Fix config_attr_mask assignment
+75560522eaef2f7c7b2fec3c22e1254244f52372 vdpa/mlx5: Support configuring max data virtqueue
+612f330ec56f12c0d099286c45f82d835845f136 vdpa: Add support for returning device configuration information
+37e07e705888e4c3502f204e9c6785c9c2d6d86a vdpa/mlx5: Restore cur_num_vqs in case of failure in change_num_qps()
+cd2629f6df1cab5b3df34705ae7f3bde6147fce3 vdpa: Support reporting max device capabilities
+79de65edf8891725616f4992cee5d5963900f07a vdpa/mlx5: Report max device capabilities
+cbe777e98b3a420a6d66b7ce7780334c48eccc88 vdpa/vdpa_sim: Configure max supported virtqueues
+47a1401ac95f95936148b813843ee51d516921ea vdpa: Use BIT_ULL for bit operations
+b2ce6197c9c9be0ecc2a636f3b2f35886ce09a98 vdpa/vdpa_sim_net: Report max device capabilities
+f6d955d80830b6e6f6a170be68cc3628f36365dd vdpa: Avoid taking cf_mutex lock on get status
+680ab9d69a04cfd9f3f5fedaacbc1974b2959121 vdpa: Protect vdpa reset with cf_mutex
+f8ae3a489b21b05c39a0a1a7734f2a0188852177 vdpa/mlx5: Fix is_index_valid() to refer to features
+b03fc43e73877e180c1803a33aea3e7396642367 vdpa/mlx5: Fix tracking of current number of VQs
+3bf6a9e36e441714928d73a5adbc59562eb7ef19 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+fe81ba137ebcc7f236780996a0b375732c07e85c Merge tag 'ata-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 
---===============3741177159341772636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9b14038565b-7cb6236a0584.txt
-
-6a9f623c83360c953f861f1f0613e120afe80cf1 Bluetooth: bfusb: fix division by zero in send path
-1948462ab950f0a338de2eeb1600b16c89d8383f USB: core: Fix bug in resuming hub's handling of wakeup requests
-e71b356468640167b74cb5e8639cdf69380cfd4c USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-cb1a0da01ed0a5fd2b2c599dd5756c176d2bcb3c can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
-a703359ab1eb209649df19c8fb9f252c2a97017f veth: Do not record rx queue hint in veth_xmit
-36d1f04e596c64a4bfe228ccadf984f42d3aea31 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-79653f61dd7cc6cf7190f72eb700673f63e48049 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-c74b7017d3585135ad1d2f591d8ca593d29747e7 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-65fd171f8f979f1a18455b6569c528e369a464a0 random: fix data race on crng_node_pool
-4ca6daa19ae9ca23c037d32694ab7b21272d40c6 random: fix data race on crng init time
-26bfca50bd9c90dbe0b52c8628718acc21ed5e77 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-bf4c729ec736ae6aadce237860a07d6ffdc055f9 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-af7d93742a2a5503989ea3a5fc41a0fcf09312bc kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-c0f1c4654b4f2d118b1c6da5eba53fec3dedd3e0 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-66925e8b0e4a800da0dec4d2ceab11f25969afd5 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-a3153dafe751b32602bce8e42ba050abac0e0085 media: uvcvideo: fix division by zero at stream start
-7cb6236a0584b6f3a20d77e24c264168a3b4a750 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-
---===============3741177159341772636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23a82659e5cd-ecabad549131.txt
-
-5bfdb024bb4a45e59ad13fca1b4f56f48e7d12a8 Bluetooth: bfusb: fix division by zero in send path
-00fc09e2f4f845ae2d2820f94f555124f788aac9 USB: core: Fix bug in resuming hub's handling of wakeup requests
-5a641a459c0a90ef599f8e3335141e3a8a0ba8a3 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-4409cb67cb719d6febec1c493d547024153090c0 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-acec6038e0602797af1243f0c3e43cfd734be43d can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-884cfa3aec6f162adc2778d652400045b7656754 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-8146d85622f39308b48b73f0191a403c3459ca03 random: fix data race on crng_node_pool
-ef8366efea843438de6130befb5e67873c691c7c random: fix data race on crng init time
-c7c0cc8eb7d4297d173ca26be3a5b6fc822edc12 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-6c7b2442f5519cf20966c879b2a545f323df1448 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-b3a22a42c8532a099235aba65769b15b7d76a748 media: uvcvideo: fix division by zero at stream start
-ecabad54913181e7960dec61bcde99fd3ba09f71 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-
---===============3741177159341772636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2caaced2ebb-875e024d6fa5.txt
-
-aac0cc18db831eba6e1ac97ca1e74fe01c4b829e kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-3ed7ca9e2f88a259e633a1d8eda902a2ab285316 devtmpfs regression fix: reconfigure on each mount
-aeb9aca1789e242455049d19080aed7a3e9ae082 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-8490ac3bd83aa8ac2f934b71c82adf50315f146a remoteproc: qcom: pil_info: Don't memcpy_toio more than is provided
-283214e4153ed599137d8c574f5a47fb069f59f2 vfs: fs_context: fix up param length parsing in legacy_parse_param
-8bf2f143f80ed12891a3a03173bbfa09d79dac44 perf: Protect perf_guest_cbs with RCU
-40074b2f77cf35880fbdc2339cefc2f4a1aa2ace KVM: x86: Register Processor Trace interrupt hook iff PT enabled in guest
-033e1676f71e36b755ad5cf847ee9538f52fb947 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-3e7c9ef4e561383e0ebf40fbcfd801c99d5642a0 9p: only copy valid iattrs in 9P2000.L setattr implementation
-845a934616df7cbad4d44418ef199b2854c948be video: vga16fb: Only probe for EGA and VGA 16 color graphic cards
-da86b45dc776fe451722ff0ca4d05490e62577a3 media: uvcvideo: fix division by zero at stream start
-875e024d6fa5cd61190cb6ecb60ecc50157455cb rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-
---===============3741177159341772636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03c8197b8e90-f6404f051850.txt
-
-ee3f75957631457ae9febb1e3f234b29c4b051dd devtmpfs regression fix: reconfigure on each mount
-a2c7f9c2356faf8fcc14503c025eaecb7606a5e0 drm/amd/display: explicitly set is_dsc_supported to false before use
-fc2ac8ad3399dfa2fde03b07cda084ba5b2fb613 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-228569d2ddd3e61dde1d8cfb231448b94b5da2d8 remoteproc: qcom: pil_info: Don't memcpy_toio more than is provided
-83ec636b17a0e09498c9b2f1659c98d98a661cc1 vfs: fs_context: fix up param length parsing in legacy_parse_param
-5a9e4afa31caf87874063f1a1254909360f75877 perf: Protect perf_guest_cbs with RCU
-f7975469476e0a20882cc377f251697fd10554b8 KVM: x86: Register perf callbacks after calling vendor's hardware_setup()
-2b0b36aa10f678fd07213d84d8ab0b38ab7a17c8 KVM: x86: Register Processor Trace interrupt hook iff PT enabled in guest
-207e9ea2bc7dca63e313f476de74b67b65209335 KVM: x86: don't print when fail to read/write pv eoi memory
-71a7bada553909d7dfb1b05b2fd99e34a970d462 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-3a80499bfeb34a5b6b51b59bb91d2be3deec1e1c remoteproc: qcom: pas: Add missing power-domain "mxc" for CDSP
-f28df83ae8244e48159f9e7468413a663004c291 9p: only copy valid iattrs in 9P2000.L setattr implementation
-cec59ad7df3c7a6dbe9d447cd683ce98bfe8b888 video: vga16fb: Only probe for EGA and VGA 16 color graphic cards
-4616a910cfe58a30211ce4de84516251630b1db3 media: uvcvideo: fix division by zero at stream start
-f6404f051850d9962d5638160c4b981f7debcec4 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-
---===============3741177159341772636==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d480d83f381c-53de9222a558.txt
-
-0a3197a6dbecfb1a928ec0de050d34a5f479d120 devtmpfs regression fix: reconfigure on each mount
-a86341e73c0961f321acf36555b86257d3a1459b drm/amd/display: explicitly set is_dsc_supported to false before use
-2872026a20be6fcc32e78c6fce12878d7fcc5998 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-d11bae9eb517bdfa96f6c83a3e66a0aade32f1e3 remoteproc: qcom: pil_info: Don't memcpy_toio more than is provided
-bbeba470ab8ad356ca0066a5c34a38cab05df7bf vfs: fs_context: fix up param length parsing in legacy_parse_param
-f9af0978684d48b3696407d1c3aa5973a7725443 perf: Protect perf_guest_cbs with RCU
-02343a641748e9548f6aa23ae75aab34bbdd21f5 KVM: x86: Register perf callbacks after calling vendor's hardware_setup()
-c6a51d924af4dd07ecf9f0b6c5f2875c9f50e4b3 KVM: x86: Register Processor Trace interrupt hook iff PT enabled in guest
-5292a0410960645f0b39b815462562c7da3b39bd KVM: x86: don't print when fail to read/write pv eoi memory
-0fa21dc51407599a1326e98dca52ea2c8e8efa61 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-88ac96070302c78bc5d8c99b92fcc30851c09bdf remoteproc: qcom: pas: Add missing power-domain "mxc" for CDSP
-46e5c3e6341d27a9c67855e51b41697982d0c30b NFSD: Fix zero-length NFSv3 WRITEs
-38b4cf1f41ac390bff65a9a00d53f8ef2c7b4efd 9p: only copy valid iattrs in 9P2000.L setattr implementation
-2dec64c0e0a251fca7def79a0a078bb9afaac7f8 9p: fix enodata when reading growing file
-b795ea5d826b8aafa0290b47f3897dd5e9b370f0 video: vga16fb: Only probe for EGA and VGA 16 color graphic cards
-59180fcdbea2a06e6036415357d68e09ac7bb8ae media: uvcvideo: fix division by zero at stream start
-53de9222a55801c6ff64cd939159dde923c6de58 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-
---===============3741177159341772636==--
+--===============5059453723907140438==--
