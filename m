@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3393746813438722182=="
+Content-Type: multipart/mixed; boundary="===============5364903849013422457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 18 Jan 2022 11:34:44 -0000
-Message-Id: <164250568497.23616.18207825963102477031@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 11:35:01 -0000
+Message-Id: <164250570146.23764.11898631447804537881@gitolite.kernel.org>
 
---===============3393746813438722182==
+--===============5364903849013422457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 36852405eea7ba200e07852f62fe0c1b02073b65
-    new: 8483703a09c3cdebced3a116158b57307c5c725c
-    log: revlist-36852405eea7-8483703a09c3.txt
+  - ref: refs/heads/module_ns
+    old: 382c6c331abea0a9b1eff5176543fdf2ff97fcb9
+    new: bb0c845b25ed7e3653c81cd00bb8fe8ede74d871
+    log: revlist-382c6c331abe-bb0c845b25ed.txt
 
---===============3393746813438722182==
+--===============5364903849013422457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642505683 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642505699 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642505682-e96e7c3cf19989d785c1f8b0c029bf5110c5eb83
+nonce 1642505698-4ca56c098219c89220f47464598bca58d14a7130
 
-36852405eea7ba200e07852f62fe0c1b02073b65 8483703a09c3cdebced3a116158b57307c5c725c refs/heads/debugfs_cleanup
+382c6c331abea0a9b1eff5176543fdf2ff97fcb9 bb0c845b25ed7e3653c81cd00bb8fe8ede74d871 refs/heads/module_ns
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHmpdMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+924QAKHD591wCY4rrewTN6yL
-vEikwAi+WWfNLfIxp8iW6oCeq30JjDy/TQtnPRVekC/sGDXeVhqAptJ5iAWsgNOR
-KVEIG/rZS52XGXwYNguXf7nbc3Z6ObZwxwn9eS493MARs0icLwarbpAKi6PcEJWl
-hxJwz0hEG6l1lm0B8Ye2EeWQljDTw+NKTV6lgTAPxiLe5nbmnBouGQGD/9CHD5pL
-IMSoJt9d/FAPcEVD+gk97Om3szx3DtL2YgTsitaTvz38mbtcZmTbx6d2kbtuIo9l
-vnKmNtlhuOCIu/5vB5U/Jo/cnuObv2zsoMB78YzmxVH82/Jr8oXIv6pmfBnwsT9m
-CG09cspMPJr0YPaaYUafbOjSvoMbBLZfShEjyWmkRQOmUZLfDUaDaW3qHvfguuFA
-gL4iq2jIZht0Gk2jZY3bwTy5mjxC7Ev9PrvcDAwMT/hakDBsyuxpjXdsXzFAsj7s
-n9RYDmsu9RjlZIf/IzUxtlbqDmp/6Rihe5kHpvUKBzMRScjIRUYLuwaTz3ZcOD8n
-JlM9zj8Wp65/5VP1eb7JtsMi9EIfPWItT72VFEQpMTn2pVWOHviG3qiwljiuDEUC
-fLgx40h4bddk5JJTNCfHp08CB8Fninh9wvDlkBxTZI4SZugLgq4gSaYy3OWtjy45
-eDB/Ew9l4cgcA7NVqLA6JlT5
-=hV2B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHmpeMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9ZkP/RD1v6vBVDs3DP0bU3it
+mprUFqirjwOydcB4jeZ3I53VNulM3r4dxP41pAU/lHEpyBSgurqujgjr1crlyDUS
+o4F26mGWwLx+h30hTRXuil+crfTbdZxSBCpL/zpic5bUc16TxSFx9Chyj0D6Mh47
+ZXGPTnBaSYuTRcP+yMDd1UZUBWnTldHrbBWFB0jYgrfcDM1pWkQ1u8gBkFbn/GVB
+oktETEe9kDnjMdIkS9vy1T0yVqNeJpAHH9MS77/1pRFhF05ljV4dK6+6ZDzpR96x
+wdLGEBBHGvL0YXP9gw8o5h6KPbXOHHOuUJ84ZStSGFAeiDRuEgfbafXyDYU/VSU3
+rd+a9paabJBg/6mr11yOz8knBXWWfg+nZ4x759lH+9tC6JI4dt0K6ZKoB9r9Lxdj
+7g+59CI6Rwwem2aYFu00SNxQlE2bGY8WZe+FHXX2LMRwxi1OW8NXJhpPTwIGaM2P
+aoB3wHtA2IaVzGtFVjvWHLC3Yml011y7YMaof0yScr+YyZeRdULomHt48IJ2C1g5
+7le6+axSKS98uURn1MrSDBu4fM/rsw4aVlSiYYx1lMMKFWneZz0rHlKLidxH8Ojb
+qxl+1U52CGMMO6X2fvHhIcimXS4XNon9BUTCz393dx7/KxHF38Zb+hGYE1ta81gq
+U+ygBW82UpStznZSXseujJ+9
+=5Ic7
 -----END PGP SIGNATURE-----
 
---===============3393746813438722182==
+--===============5364903849013422457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36852405eea7-8483703a09c3.txt
+Content-Disposition: attachment; filename=revlist-382c6c331abe-bb0c845b25ed.txt
 
 aa8bf298a96acaaaa3af07d09cf7ffeb9798e48a ext4: simplify ext4_sb_read_encoding
 86e8057579780b4ec0fa04774dce2855344bf62d f2fs: simplify f2fs_sb_read_encoding
@@ -867,6 +867,6 @@ fc9d6952a4bbb9908062726fbfb009fa6ea5c7af Merge tag 'rpmsg-v5.17' of git://git.ke
 46a10fc3a2beddd79dafc3cd800f14bde0844387 Merge tag 'rproc-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 3bf6a9e36e441714928d73a5adbc59562eb7ef19 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 fe81ba137ebcc7f236780996a0b375732c07e85c Merge tag 'ata-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-8483703a09c3cdebced3a116158b57307c5c725c pm / wakeup: simplify the output logic of pm_show_wakelocks()
+bb0c845b25ed7e3653c81cd00bb8fe8ede74d871 export: fix string handling of namespace in EXPORT_SYMBOL_NS
 
---===============3393746813438722182==--
+--===============5364903849013422457==--
