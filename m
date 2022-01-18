@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4374486631369532261=="
+Content-Type: multipart/mixed; boundary="===============1626726884772198390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Jan 2022 11:13:53 -0000
-Message-Id: <164250443350.9510.11012056217880834786@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 11:15:01 -0000
+Message-Id: <164250450199.9962.16706677271982055824@gitolite.kernel.org>
 
---===============4374486631369532261==
+--===============1626726884772198390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 2585cf9dfaaddf00b069673f27bb3f8530e2039c
-    new: 0e3872499de1a1230cef5221607d71aa09264bd5
-    log: revlist-2585cf9dfaad-0e3872499de1.txt
+  - ref: refs/heads/perf/urgent
+    old: 73743c3b092277febbf69b250ce8ebbca0525aa2
+    new: 8c16dc047b5dd8f7b3bf4584fa75733ea0dde7dc
+    log: revlist-73743c3b0922-8c16dc047b5d.txt
 
---===============4374486631369532261==
+--===============1626726884772198390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2585cf9dfaad-0e3872499de1.txt
+Content-Disposition: attachment; filename=revlist-73743c3b0922-8c16dc047b5d.txt
 
+8000f55a3c6bc13d211547fd38ba092e47427117 dt-bindings: rng: ti,omap-rom-rng: convert OMAP ROM RNG to dtschema
 fb13b5babb97f182b6d61bf4efc9ccf8ed4b1270 dt-bindings: rng: st,rng: convert ST RNG to dtschema
 8ba694e5b7fb5c9b516e59ef9cc6978a7de81b21 dt-bindings: rng: timeriomem_rng: convert TimerIO RNG to dtschema
 9667b814387c1d7436b0c171d64d7a02d2a21a76 net: hns3: create new rss common structure hclge_comm_rss_cfg
@@ -1041,14 +1042,13 @@ feb7a43de5ef625ad74097d8fd3481d5dbc06a59 Merge tag 'irq-msi-2022-01-13' of git:/
 c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
-a06247c6804f1a7c86a2e5398a4c1f1db1471848 psi: Fix uaf issue when psi trigger is destroyed while being polled
-98b0d890220d45418cfbc5157b3382e6da5a12ab sched/pelt: Relax the sync of util_sum with util_avg
-7ceb77103001544a43e11d7f3a8a69a2c1f422cf sched/pelt: Continue to relax the sync of util_sum with util_avg
-95246d1ec80b8d19d882cd8eb7ad094e63b41bb8 sched/pelt: Relax the sync of runnable_sum with runnable_avg
-2d02fa8cc21a93da35cfba462bf8ab87bf2db651 sched/pelt: Relax the sync of load_sum with load_avg
-b171501f258063f5c56dd2c5fdf310802d8d7dc1 sched/core: Accounting forceidle time for all tasks except idle task
-a315da5e686b02b20c1713dda818e8fb691526bb sched/fair: Fix all kernel-doc warnings
-7e406d1ff39b8ee574036418a5043c86723170cf sched: Avoid double preemption in __cond_resched_*lock*()
-0e3872499de1a1230cef5221607d71aa09264bd5 kernel/sched: Remove dl_boosted flag comment
+09f5e7dc7ad705289e1b1ec065439aa3c42951c4 perf: Fix perf_event_read_local() time
+7fa981cad216e9f64f49e22112f610c0bfed91bc perf/x86/intel: Add a quirk for the calculation of the number of counters on Alder Lake
+96fd2e89fba1aaada6f4b1e5d25a9d9ecbe1943d perf/x86/intel/uncore: Fix CAS_COUNT_WRITE issue for ICX
+0036fb00a756a2f6e360d44e2e3d2200a8afbc9b perf/x86/rapl: fix AMD event handling
+1ac7fd8159a842b3aa51f0b46a351fa3eeb8fbf3 perf/x86/intel/lbr: Support LBR format V7
+6b19788ddc5937831ffd27525a1b793953fd2d2b perf/x86/intel/lbr: Add static_branch for LBR INFO flags
+5a4487f9ef5ef2fdb3215cadf0a9c3e5e8678634 perf/x86/intel/uncore: Add IMC uncore support for ADL
+8c16dc047b5dd8f7b3bf4584fa75733ea0dde7dc x86/perf: Avoid warning for Arch LBR without XSAVE
 
---===============4374486631369532261==--
+--===============1626726884772198390==--
