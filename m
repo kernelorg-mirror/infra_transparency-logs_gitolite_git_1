@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 18 Jan 2022 14:44:15 -0000
-Message-Id: <164251705596.15429.1279282110252411016@gitolite.kernel.org>
+Date: Tue, 18 Jan 2022 14:46:17 -0000
+Message-Id: <164251717772.17937.18387194082117065441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 13dca280f76009ba2c5f25408543a1aaaa062c25
-    new: 614d5039a6b263752d2468fe37bafe8a5bacb2e4
+    old: 614d5039a6b263752d2468fe37bafe8a5bacb2e4
+    new: dad4ae0136b7024647282f21d8dfb6004549280f
     log: |
-         7411d2bf5afa895c6440ca2f935a50a74245eee7 QCA: Update Bluetooth WCN685x 2.0 firmware to 2.0.0-00609
-         72af07ecad7646f84e49222596ad09bcebe223d9 QCA: Update Bluetooth WCN685x 2.1 firmware to 2.1.0-00324
-         17fe7809058ad5949c12d80bf446e726f9e9f782 QCA: Add Bluetooth nvm file for WCN685x
-         614d5039a6b263752d2468fe37bafe8a5bacb2e4 Merge branch 'main' of https://github.com/zijun-hu/qca-btfw into main
+         548b304a35b77cd43c1242e0eae68f775bd0df2a i915: Add GuC v69.0.3 for all platforms
+         dad4ae0136b7024647282f21d8dfb6004549280f Merge branch 'guc_v69.0.3' of git://anongit.freedesktop.org/drm/drm-firmware into main
          
