@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 18 Jan 2022 12:29:07 -0000
-Message-Id: <164250894717.26943.17158003439820802895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Tue, 18 Jan 2022 12:46:08 -0000
+Message-Id: <164250996824.5293.5135022137489075535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 99613159ad749543621da8238acf1a122880144e
-    new: 48ffaedf017ad3a8ad292550f6d096024bd8f06c
+  - ref: refs/heads/for-next
+    old: 9dd81021084ff22cf88a180d720f4f4b47392059
+    new: 8dc355d4ddc19c022416a54e621b84c03cfc6c89
     log: |
-         4624f199327a704dd1069aca1c3cadb8f2a28c6f perf probe: Fix ppc64 'perf probe add events failed' case
-         1855b796f2f672cbb25400be2d3171c26fc869a3 perf affinity: Allow passing a NULL arg to affinity__cleanup()
-         49de179577e7b05b57f625bf05cdc60a72de38d0 perf stat: No need to setup affinities when starting a workload
-         f350ee95498a3fa65c37ed597d9c051c6b2b6974 perf evlist: No need to setup affinities when enabling events for pid targets
-         0d3d237651fd7a01fe5dc501b0d170a43d8156ba perf evlist: No need to setup affinities when disabling events for pid targets
-         48ffaedf017ad3a8ad292550f6d096024bd8f06c perf machine: Use path__join() to compose a path instead of snprintf(dir, '/', filename)
+         e52c60794ef781c8a55317f9b28634c3e345b2ba dt-bindings: imx: Add clock binding for i.MXRT1050
+         8f37d9af577f6b0bf3aa089625489635d82f61af dt-bindings: clock: imx: Add documentation for i.MXRT1050 clock
+         61a7fc5503ca9194c7843b21dcd2b4f80d57d2ce clk: imx: Add initial support for i.MXRT1050 clock driver
+         8dc355d4ddc19c022416a54e621b84c03cfc6c89 clk: imx: Add imx8dxl clk driver
          
