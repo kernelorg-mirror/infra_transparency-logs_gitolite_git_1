@@ -1,39 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7641924497323892187=="
+Content-Type: multipart/mixed; boundary="===============4752124164100747346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 18 Jan 2022 13:50:04 -0000
-Message-Id: <164251380499.14588.14952488619044674591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 18 Jan 2022 14:17:07 -0000
+Message-Id: <164251542784.31151.1466466500814375649@gitolite.kernel.org>
 
---===============7641924497323892187==
+--===============4752124164100747346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/block-5.17
-    old: 850fd2abbe02eb2b52cbb1550adbcc89b36d65de
-    new: fd9f4e62a39f09a7c014d7415c2b9d1390aa0504
-    log: |
-         fd9f4e62a39f09a7c014d7415c2b9d1390aa0504 block: assign bi_bdev for cloned bios in blk_rq_prep_clone
-         
-  - ref: refs/heads/for-next
-    old: a1c0aad3a9e31deacad51dc250720f095c428e94
-    new: 6a5843653d690fdc7a49da052c1bf5f9a28d4ecc
-    log: |
-         fd9f4e62a39f09a7c014d7415c2b9d1390aa0504 block: assign bi_bdev for cloned bios in blk_rq_prep_clone
-         6a5843653d690fdc7a49da052c1bf5f9a28d4ecc Merge branch 'block-5.17' into for-next
-         
   - ref: refs/heads/master
     old: 0c947b893d69231a9add855939da7c66237ab44f
     new: 99613159ad749543621da8238acf1a122880144e
     log: revlist-0c947b893d69-99613159ad74.txt
 
---===============7641924497323892187==
+--===============4752124164100747346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -439,4 +426,4 @@ fc9d6952a4bbb9908062726fbfb009fa6ea5c7af Merge tag 'rpmsg-v5.17' of git://git.ke
 fe81ba137ebcc7f236780996a0b375732c07e85c Merge tag 'ata-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 99613159ad749543621da8238acf1a122880144e Merge tag 'dmaengine-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 
---===============7641924497323892187==--
+--===============4752124164100747346==--
