@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Tue, 18 Jan 2022 16:08:35 -0000
-Message-Id: <164252211559.8486.10109304422070850303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Tue, 18 Jan 2022 16:14:28 -0000
+Message-Id: <164252246844.11742.6295741767139237347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/misc-next
-    old: a7b1b2094bb0697dda72bdd9bf1ed789cb0b9b08
-    new: b3a31d0da47505140a309bcc03718fe70493db71
+  - ref: refs/heads/libtracefs
+    old: e98fde73495ed31eff6b2527850140346f14ec65
+    new: 25931213baaab7bee08000f2904e6d7d4c0b03e5
     log: |
-         7b2026bebae79f53ac1ef5967da2f0a0a1a58611 Revert "btrfs: fix log tree cleanup after a transaction abort"
-         c74ee03076c04479868423151681f8fbbf9acacc btrfs: skip reserved bytes warning on unmount after log cleanup failure
-         15014df86b27be9cf83a09933d86a10ddc074dd1 btrfs: fix too long loop when defragging a 1 byte file
-         b3a31d0da47505140a309bcc03718fe70493db71 btrfs: allow defrag to be interruptible
+         a319975bb18c5fba1790e8b6d328bf463b692039 libtracefs: Split up libtracefs-hist.txt man page
+         3cf9e2f9aebdc32302dd4c9b95ed27ac41966ca7 libtracefs: Split up libtracefs-synth2.txt man page
+         1ee0283abc95e44f42c9007bf3a0f20f26224a75 libtracefs/Documentation: Referencing commands should be bold not underlined
+         71689cababf54c6bd2341809e793caf8aa7dedd5 libtracefs: Add tracefs_instance_get_affinity() APIs
+         25931213baaab7bee08000f2904e6d7d4c0b03e5 libtracefs: Fix libtracefs-instance-affinity example
          
