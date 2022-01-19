@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7870334514248030515=="
+Content-Type: multipart/mixed; boundary="===============2828922535558655313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 19 Jan 2022 17:53:41 -0000
-Message-Id: <164261482126.31995.11004295471811751101@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 17:53:59 -0000
+Message-Id: <164261483994.32177.12409927294377388591@gitolite.kernel.org>
 
---===============7870334514248030515==
+--===============2828922535558655313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: c4d7f40b250c1a4d74ed259e84807f58032507b6
     new: 1d1df41c5a33359a00e919d54eaebfb789711fdc
     log: revlist-c4d7f40b250c-1d1df41c5a33.txt
 
---===============7870334514248030515==
+--===============2828922535558655313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f1b744f65e2f9682347c5faf6377e61e2ab19a67 Merge tag 'riscv-for-linus-5.17-mw0' of
 e9f5cbc0c851c1cf98e4ecc5d72b5563d3fc5605 Merge tag 'trace-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 1d1df41c5a33359a00e919d54eaebfb789711fdc Merge tag 'f2fs-for-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============7870334514248030515==--
+--===============2828922535558655313==--
