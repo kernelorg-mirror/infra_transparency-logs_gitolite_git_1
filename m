@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2781594212598669099=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 19 Jan 2022 16:18:59 -0000
-Message-Id: <164260913986.32269.10224220863606277696@gitolite.kernel.org>
-
---===============2781594212598669099==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 19 Jan 2022 16:19:45 -0000
+Message-Id: <164260918522.32598.5372189493305389767@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/main
-    old: 1e744b85cd4ce4f9b2f2e6afabd6cb4058438541
-    new: 0c6a7b3bf728b95c8b7b95328f94335e2bb2c967
-    log: revlist-1e744b85cd4c-0c6a7b3bf728.txt
-
---===============2781594212598669099==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e744b85cd4c-0c6a7b3bf728.txt
-
-6a946ccef775d9db0238fe32c730f505dcaecedf linux-firmware: Update firmware file for Intel Bluetooth AX201
-6d5f45aa4766a4fb195a4483a54f7a574bdbf55b linux-firmware: Update firmware file for Intel Bluetooth AX200
-fbc804203b1eb9a157d846e7a327b34ab5493681 linux-firmware: Update firmware file for Intel Bluetooth 9560
-a63a79f834625e33f5a3a525c92a61f9f860f19c linux-firmware: Update firmware file for Intel Bluetooth AX210
-10c74cb693e33ad85cc353eda051ae8f4c852c97 linux-firmware: Update firmware file for Intel Bluetooth AX211
-d74904bc239fdf3ed4e1a3dc9c38cffd4af2d85b linux-firmware: Update firmware file for Intel Bluetooth AX211
-0902431a043756ee9784cebcb040a22b371a5cfb linux-firmware: Update firmware file for Intel Bluetooth AX201
-9dc88354dd305cfdc7f76114abe8e7f1f03fcaa2 linux-firmware: Update firmware file for Intel Bluetooth AX201
-3f3d9aed606ec01af02e7989edd5c66c9704dec6 linux-firmware: Update firmware file for Intel Bluetooth 9560
-1818eb81533399ba4050ca7fb31fc9f6790c4096 linux-firmware: Update firmware file for Intel Bluetooth 9560
-d1c41de91687d8f872cd2d645dea3850f62cc900 linux-firmware: Update firmware file for Intel Bluetooth 9462
-518e54afa9e6c51fdc37827212e5990a5f581ac9 linux-firmware: Update firmware file for Intel Bluetooth 9462
-0c6a7b3bf728b95c8b7b95328f94335e2bb2c967 linux-firmware: Update firmware file for Intel Bluetooth 9260
-
---===============2781594212598669099==--
+  - ref: refs/heads/master
+    old: baa59504c1cd0cca7d41954a45ee0b3dc78e41a0
+    new: ff9fc0a31d85fcf0011eb4bc4ecaf47d3cc9e21c
+    log: |
+         6198c722019774d38018457a8bfb9ba3ed8c931e net/fsl: xgmac_mdio: Add workaround for erratum A-009885
+         ea11fc509ff26039046744d1bdfdf2747dda558c dt-bindings: net: Document fsl,erratum-a009885
+         0d375d610fa96524e2ee2b46830a46a7bfa92a9f powerpc/fsl/dts: Enable WA for erratum A-009885 on fman3l MDIO buses
+         3f7c239c7844d2044ed399399d97a5f1c6008e1b net/fsl: xgmac_mdio: Fix incorrect iounmap when removing module
+         8eb896a77701bef7c80a99833ca776c9ddc317c8 Merge branch 'net-fsl-xgmac_mdio-add-workaround-for-erratum-a-009885'
+         d07418afea8f1d9896aaf9dc5ae47ac4f45b220c ipv4: avoid quadratic behavior in netns dismantle
+         79eb15da3cd68f04b06edf73f9bbafa70a06871f ipv4: add net_hash_mix() dispersion to fib_info_laddrhash keys
+         ff9fc0a31d85fcf0011eb4bc4ecaf47d3cc9e21c Merge branch 'ipv4-avoid-pathological-hash-tables'
+         
