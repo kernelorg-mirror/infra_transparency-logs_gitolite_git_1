@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7874653018502793513=="
+Content-Type: multipart/mixed; boundary="===============2635655298116665277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
-Date: Wed, 19 Jan 2022 19:23:08 -0000
-Message-Id: <164262018815.27734.8097326763733946693@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 19:23:25 -0000
+Message-Id: <164262020538.27878.10519000469371583843@gitolite.kernel.org>
 
---===============7874653018502793513==
+--===============2635655298116665277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,42 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-stable
 user: jaegeuk
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 08aec89c676d384939f2c868961fb5607796f846
-    new: 4e3406d26d2125b6cfd47000d5455d1d7c14d4cd
-    log: revlist-08aec89c676d-4e3406d26d21.txt
+  - ref: refs/heads/linux-5.4.y
+    old: d0d54eba2632d617f4c131ae55dd5379464194ac
+    new: b85eb593dc0ffde2c8ae4e91485fc022841aa97f
+    log: revlist-d0d54eba2632-b85eb593dc0f.txt
 
---===============7874653018502793513==
+--===============2635655298116665277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08aec89c676d-4e3406d26d21.txt
+Content-Disposition: attachment; filename=revlist-d0d54eba2632-b85eb593dc0f.txt
 
-066577ef6362367d659c06f4bfdce44e74c9cc18 f2fs: show number of pending discard commands
-1e07ac1019c0c3879ea9a4b9fcbd134f4ba16623 f2fs: compress: reduce one page array alloc and free when write compressed page
-19a8616c60a30fbf31d1d634c30f74a8f6f201ed f2fs: rework write preallocations
-661b9edf22bc9bc3220126022724dd812e37c28a f2fs: reduce indentation in f2fs_file_write_iter()
-f392024c40fdcb9f71046a5985995526757136aa f2fs: do not expose unwritten blocks to user by DIO
-8540047b793b756bbeba13eb6e48a7cd0bf4ab9f f2fs: fix the f2fs_file_write_iter tracepoint
-16b786ba62c3d72cdfe97866bfa194c110a5ef13 f2fs: implement iomap operations
-ee16e480d22b7dd8307e4ed4bc3e94d5955e28a1 f2fs: use iomap for direct I/O
-07d31fbb1da47cd458bd456ab765e0c3b1550cba f2fs: show more DIO information in tracepoint
-485eaa5339c16bd4d07c7dd727153c393ac30e01 f2fs: fix remove page failed in invalidate compress pages
-26f2048b7e9b363b4574c16e59cd1f29ed9eed6f f2fs: support POSIX_FADV_DONTNEED drop compressed page cache
-0a3990ed943c228df4788ff46afc6669ddc7f642 5.10 only
-77a5322217763d440f8b14ceb2e16c4d7d7a90da f2fs: avoid duplicate call of mark_inode_dirty
-bccc5dde2b94443f8fddf6c7e26cf9eeb1adf9eb f2fs: fix to do sanity check on inode type during garbage collection
-6ffb4b00d495b59785f9da7b6d2448956205fe9c f2fs: fix to avoid panic in is_alive() if metadata is inconsistent
-c144e4d28f5e9b966faf50b5fc9e3b4fd83f463a f2fs: fix to do sanity check in is_alive()
-705c4f5d5372fb32408ceb5dd6cfdac7c3439cd5 f2fs: add gc_urgent_high_remaining sysfs node
-ca2c32a7effa7b110a261a4b501e9554825d2b35 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
-b69c8779f4fc2d97632b3f395f9c65de88ab4398 f2fs: compress: fix potential deadlock of compress file
-c4499b9275b57ad763ff9fcd52340ae01182c9a8 f2fs: avoid down_write on nat_tree_lock during checkpoint
-e5faa0d5a5df35ccc0bdc8ef1b6144f9edf8de45 f2fs: do not bother checkpoint by f2fs_get_node_info
-b8de70911b13cff0aa95e6e1e3b4e3752e5469ab f2fs: fix to do sanity check on last xattr entry in __f2fs_setxattr()
-960c2330cac0415e71e07ac61ffda0e316f166d5 f2fs: clean up __find_inline_xattr() with __find_xattr()
-1c6836b331aea584db9df2bb61512c098f52e9e1 f2fs: support fault injection to f2fs_trylock_op()
-2ed0588ab8f6777bf0991c8fa06b66fc006d0fef f2fs: fix to check available space of CP area correctly in update_ckpt_flags()
-1aced28c6068c2a64d43ee463559de37f88fb852 f2fs: fix to reserve space for IO align feature
-5bb042e2702699da9540dfbfc753b4a3c725ba95 f2fs: don't drop compressed page cache in .{invalidate,release}page
-1ac9fa723de477329e740bf4449ae1749da367f5 f2fs: Simplify bool conversion
-348a15eed61b75782ecb3d904908b0d2ab30af35 f2fs: remove redunant invalidate compress pages
-4e3406d26d2125b6cfd47000d5455d1d7c14d4cd f2fs: do not allow partial truncation on pinned file
+a50b434121ff1db1c9fc79ea96e3047522e792da f2fs: show number of pending discard commands
+88f4b58577f24f11bdc657bb5f93ca3a9cc75bd7 f2fs: compress: reduce one page array alloc and free when write compressed page
+65fba5b5d9c8949c76ab85dba5d6e9c8abd0472e f2fs: rework write preallocations
+0e789badcb89e6a60de99155a70e5f2b515de948 f2fs: reduce indentation in f2fs_file_write_iter()
+1a3356b4b701eeb8894c26f97cc30f4896ae54c9 f2fs: do not expose unwritten blocks to user by DIO
+be7e89293479f9f8cf611526647d69d9c97e3bf3 f2fs: fix the f2fs_file_write_iter tracepoint
+f70463c69302d54256fc806a5a07bf2a22dd8636 f2fs: fix remove page failed in invalidate compress pages
+409be974883fabdb68c45edaaf1c1d6eb298dfe9 f2fs: support POSIX_FADV_DONTNEED drop compressed page cache
+0a83fc7976028cdbf77ae4966d70700412fca201 f2fs: avoid duplicate call of mark_inode_dirty
+c213286706a4823921b47db1f165b33a0c01d1a5 f2fs: fix to do sanity check on inode type during garbage collection
+75c2fd84abbc63f3253a149776079a7c5cc6338e f2fs: fix to avoid panic in is_alive() if metadata is inconsistent
+3732bbec271cba549bb0f2ad8021908ac7a3a333 f2fs: fix to do sanity check in is_alive()
+88a3129652b79285465a53fb7d5a6d5cdb37251f f2fs: add gc_urgent_high_remaining sysfs node
+4efed8605aed26948dde2da5fa5b9d50060cd854 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
+36f48676fd759e8c6cd37452bc45826a2ab5d77f f2fs: compress: fix potential deadlock of compress file
+ea2fb18bb3d2838d91d860eaddf53ae5fd6f878c f2fs: avoid down_write on nat_tree_lock during checkpoint
+26270ce869bbf8c1710584773384737421063f9e f2fs: do not bother checkpoint by f2fs_get_node_info
+1c72d3552c416ccb3057bba043ed52bd7f8fc43b f2fs: fix to do sanity check on last xattr entry in __f2fs_setxattr()
+fe7247baa4120f0546953c744c40c2d0adb8891b f2fs: clean up __find_inline_xattr() with __find_xattr()
+5ff048b45a1c0131cfc3c286319981bfe8325147 f2fs: support fault injection to f2fs_trylock_op()
+d37ab9ef81f2f5a1b2aad71d59b65c45c98b6dfc f2fs: fix to check available space of CP area correctly in update_ckpt_flags()
+360429e63983d20e2492c0cfc82af0a0bc66e260 f2fs: fix to reserve space for IO align feature
+1ebd15b06347ff0c997833c5e4f3b6bf4d9735bb f2fs: don't drop compressed page cache in .{invalidate,release}page
+d0a6325909971ca2d59f56cd53a2ecf6c832c078 f2fs: Simplify bool conversion
+4617e748081d9ce0c27a73152a40a8c044ffd708 f2fs: remove redunant invalidate compress pages
+b85eb593dc0ffde2c8ae4e91485fc022841aa97f f2fs: do not allow partial truncation on pinned file
 
---===============7874653018502793513==--
+--===============2635655298116665277==--
