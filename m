@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 19 Jan 2022 14:34:55 -0000
-Message-Id: <164260289592.31147.16156395695287465703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Wed, 19 Jan 2022 14:48:21 -0000
+Message-Id: <164260370108.6858.9117797898642419358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: f1131b9c23fb4a3540a774828ff49f421619f902
-    new: baa59504c1cd0cca7d41954a45ee0b3dc78e41a0
+    old: cbdd2b14e0b6e48ac5139c9d4327020cd6996d40
+    new: f25a1b7e69f7b33e6afb58b3e38f3450b7d2d9a0
     log: |
-         baa59504c1cd0cca7d41954a45ee0b3dc78e41a0 net: mscc: ocelot: fix using match before it is set
+         f25a1b7e69f7b33e6afb58b3e38f3450b7d2d9a0 Reset the value of errno for main()
          
