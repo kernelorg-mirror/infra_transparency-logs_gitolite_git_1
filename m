@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1418005953694857164=="
+Content-Type: multipart/mixed; boundary="===============6539053032294965363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 19 Jan 2022 13:36:11 -0000
-Message-Id: <164259937167.26597.2102156301046874257@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 13:36:40 -0000
+Message-Id: <164259940094.26845.2563585388872999049@gitolite.kernel.org>
 
---===============1418005953694857164==
+--===============6539053032294965363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 315d049ad1951cef02d9337a2469cac51cca6932
-    new: 2576e153cd982d540b212e989458edc42ad1b390
-    log: revlist-315d049ad195-2576e153cd98.txt
+  - ref: refs/heads/for-next
+    old: 556e72236781ad7c2c8ca96593865e24d0045fa1
+    new: 9583aa8cb59e8b571af1a3ad93f4562e0f8078ab
+    log: revlist-556e72236781-9583aa8cb59e.txt
 
---===============1418005953694857164==
+--===============6539053032294965363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-315d049ad195-2576e153cd98.txt
+Content-Disposition: attachment; filename=revlist-556e72236781-9583aa8cb59e.txt
 
 b114dda6f2f10cc8b2ddcde3285a576fe3f12c5d scsi: message: fusion: Remove usage of the deprecated "pci-dma-compat.h" API
 2d50607260a6c142f49222346814fee30eeaba9e scsi: message: fusion: Use dma_alloc_coherent() in mpt_alloc_fw_memory()
@@ -36,5 +36,6 @@ b114dda6f2f10cc8b2ddcde3285a576fe3f12c5d scsi: message: fusion: Remove usage of 
 9008661e19606bdf6dddd33073b70872da400590 scsi: ufs: Modify Tactive time setting conditions
 3ba880a12df5aa4488c18281701b5b1bc3d4531a scsi: ufs: ufs-mediatek: Fix error checking in ufs_mtk_init_va09_pwr_ctrl()
 2576e153cd982d540b212e989458edc42ad1b390 scsi: nsp_cs: Check of ioremap return value
+9583aa8cb59e8b571af1a3ad93f4562e0f8078ab Merge branch 'misc' into for-next
 
---===============1418005953694857164==--
+--===============6539053032294965363==--
