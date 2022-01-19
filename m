@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7811189944890644733=="
+Content-Type: multipart/mixed; boundary="===============7530316483456640294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 19 Jan 2022 04:04:34 -0000
-Message-Id: <164256507401.14601.9158248315265946651@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 04:04:45 -0000
+Message-Id: <164256508532.14736.17312894937449617016@gitolite.kernel.org>
 
---===============7811189944890644733==
+--===============7530316483456640294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 315d049ad1951cef02d9337a2469cac51cca6932
-    new: 2576e153cd982d540b212e989458edc42ad1b390
-    log: revlist-315d049ad195-2576e153cd98.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: a6b6a54b95087ca815a6afe06f5c3e3c7065c48d
+    new: f9b6935c340f3e77b7328b9be0987a129591f930
+    log: revlist-a6b6a54b9508-f9b6935c340f.txt
 
---===============7811189944890644733==
+--===============7530316483456640294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1642565067 -0500
+pusher 75C5DE3D 1642565077 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1642565067-13694737a6190428b3fefb0a50a06c558b54e9d9
+nonce 1642565077-63f8c19a9db0087d8f0a36cc20803d599cf102e3
 
-315d049ad1951cef02d9337a2469cac51cca6932 2576e153cd982d540b212e989458edc42ad1b390 refs/heads/queue
+a6b6a54b95087ca815a6afe06f5c3e3c7065c48d f9b6935c340f3e77b7328b9be0987a129591f930 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHnjcsACgkQ7ulgGnXF
-3j1LKg/+LrCz0U1W6hqwmT9ylyXdEU14opzNn+UeGKYuDU+zdxFPjLn0IfuSYJYC
-eUqEoSXFWZN59F9Zv61xn3DPnbJTDxmhdm0mHqpJ8oDuzydy/XEhJAPLTJv0BXHa
-DRTcTO3qmRrFZ90/7ewvTC8bVmIAcDW/kqKW5PXw3qjJfHbIv/8QYsJSU4GPhb1K
-gdBLOksjLgxjip0C1D4YvT3geB6kY7xLOoej1SMdnH4z5bJCxklRP2jyGgS2oei6
-eZhe0sgLbAuCaB/J6g/ODUI0ghj9QBWcYtqQM8M7Gvonl54g4b6acTkcVInfLu4c
-xoLtih/o9hu/4XNntC2hAJp6YKgfSUWusoYuaYRaYn392mjaNV4gNt3ItAD4r+RZ
-4UUrfZQ+KdH+DMbuyMcLf/nIdQj+ejV/mH5F+gPKl2MIJRq8DdnYLRccXbj5IOrD
-RxsxYnfXaQUjViqeTqhiFcZ9z45xdzQ+IBXLvyiAcvoSzUt2KWsC+KwblJkn+zVw
-ryfTjGmEETH2TabarURGE/77uECZg5FLGk4c0OJOlgB3jLzZfPlklh60FmYkxADb
-MTv0e4njXBilL17Cxut1VALee9Jqxb4BIs/XgwBNyy3L0inSvBEGp8M1fzj8vGTG
-KTrZhdwVUw6LcW8MFXop+JPAH+YU2GeEef72X398aFEaFyooOo0=
-=GQUZ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHnjdUACgkQ7ulgGnXF
+3j0BaQ//UYdIYllR4bN/5HSugUnWmpP6PLNQtzp0dZmfj0ghQzGIG+r6T7Bp9fYr
+FzIoL7zK330w+YoS/SE5qghcj0Pj3YYNZFkLlNiM3M9iqgeQG30paDVww4mQcgQA
+seFY8jeD1Nl/RfMbrVUJCzUAWHV51Q1NRRhTk9jJXxcRyUf1FTb2OAz0hitgyaLy
+Wlo30xqgJW2lIxD0aj3jdcIvT7Hr4fRAZjnWmJBALaq/Si3BLV384eoLBtzTd6uQ
+g7PqG4tm2/06FN1a7JKjB2jFx553zEbmux4Fh3ACCZ0NKSxSFuKPKIav5mXQ4T/j
+jeDgrerWVr5XxF5Kht+wL3tG34i7GJJkCkaI1b4BH/Gw973GZYhI4PPtPT23cXuD
+QoXnWkdj9XYWtmlz8bbrSMu8JB9o+r2cKc2BehVUYG4OESCYCKDTwZbB+9qv06MC
+TAesMkvKxS6MwkxpplQM4kMEYICBpU/w/DW9E8f3qk/AYusc7De7aCBntNiJ526L
+oxCg5Eommjpt++mq/IGWULNs+kPOM9xXqGFCZzYbSrcK3ln5RPF4vdc/kqetFXlc
+oAPKhjskq5g9OjGxOm9ZRSwURlXx6t2ETLnA03qyZhOC9VldoSSu6kbJ7HmzX/mK
+4oBTEIjExTzp2Ujw77ionEHUpzE22LigAG1OHsb2D4hfbb8CKfU=
+=tNYB
 -----END PGP SIGNATURE-----
 
---===============7811189944890644733==
+--===============7530316483456640294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-315d049ad195-2576e153cd98.txt
+Content-Disposition: attachment; filename=revlist-a6b6a54b9508-f9b6935c340f.txt
 
-b114dda6f2f10cc8b2ddcde3285a576fe3f12c5d scsi: message: fusion: Remove usage of the deprecated "pci-dma-compat.h" API
-2d50607260a6c142f49222346814fee30eeaba9e scsi: message: fusion: Use dma_alloc_coherent() in mpt_alloc_fw_memory()
-5c5e6b6f61e0196141db38b84b30ef9b3bcca0f2 scsi: message: fusion: mptbase: Use dma_alloc_coherent()
-7a960b3a5e37f05d7d319bf257a8cf6ee9d18e7c scsi: message: fusion: Use dma_alloc_coherent() in mptsas_exp_repmanufacture_info()
-76a334d756c596f2f283e1d0054477ba0f0eacf6 scsi: message: fusion: mptsas: Use dma_alloc_coherent()
-706dc3b91989a1286b0eb75a1cd816596c590e5c scsi: message: fusion: mptctl: Use dma_alloc_coherent()
-1aa7d9799e85addc29c06ece99bf1eae1ef9198f scsi: efct: Remove useless DMA-32 fallback configuration
-9008661e19606bdf6dddd33073b70872da400590 scsi: ufs: Modify Tactive time setting conditions
-3ba880a12df5aa4488c18281701b5b1bc3d4531a scsi: ufs: ufs-mediatek: Fix error checking in ufs_mtk_init_va09_pwr_ctrl()
-2576e153cd982d540b212e989458edc42ad1b390 scsi: nsp_cs: Check of ioremap return value
+e077106a9f70ff2e8f18147e2e4f85245537d915 scsi: elx: efct: Don't use GFP_KERNEL under spin lock
+6fc932c0dd8063793b10bf2ef7eb7742bf06a2be scsi: target: iscsi: Make sure the np under each tpg is unique
+58ac604907f0bc09e47c06c8fcea2b1c6fdefbe5 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+4e3262536023a5b5528619f5197546ee1c41eb17 scsi: qedf: Add stag_work to all the vports
+37e7b75c503e97f84055043337362c4860aa3be9 scsi: qedf: Fix refcount issue when LOGO is received during TMF
+7ab3180d7ed650ba4f4873f5a48a7317082029c7 scsi: qedf: Change context reset messages to ratelimited
+da36ac1d238a490a65426d037cc423b1d39ab9b3 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+719ad408e1aed1335714e7327a0ca2c007aba8ef scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+88422dd97988a1ef40ccda14c6e1f0ffe5f1d892 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+3a61ad987601c6c2bad1f189e25debba937fded5 scsi: 3w-sas: Remove useless DMA-32 fallback configuration
+d8ca7c8cf681ee8562c6fddba9d633af151a726e scsi: hisi_sas: Remove useless DMA-32 fallback configuration
+5322359fec13c445ee17bbaacab0f10ea9f16d5a scsi: bfa: Remove useless DMA-32 fallback configuration
 
---===============7811189944890644733==--
+--===============7530316483456640294==--
