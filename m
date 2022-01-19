@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 19 Jan 2022 21:07:41 -0000
-Message-Id: <164262646152.30931.15376285784796298657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 19 Jan 2022 21:27:40 -0000
+Message-Id: <164262766092.11538.6122165647947248717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 083b6117feaedf42ed5fa70b5009337bd6e7eff7
-    new: 6abfa973f401e7b1fb696ba078376bce77126a4b
+    old: d81283d272661094ecc564709f25c7b7543308e0
+    new: 4e950747ba126eb4accacf8f8b10459f374e6e9e
     log: |
-         4e91046e35c9d06fd250dd2b81d4f3c2c3ee5721 glossary: Additions from index, A-E
-         c9d02bf0b01a0241b215829dc94a2ec7ac9f1ddb cartoons: Add non-linearizable solar system
-         6abfa973f401e7b1fb696ba078376bce77126a4b glossary: Additions from index, F-K
+         f10d059661968b01ef61a8b516775f95a18ab8ae bpf: Make BPF_PROG_RUN_ARRAY return -err instead of allow boolean
+         c4dcfdd406aa2167396ac215e351e5e4dfd7efe3 bpf: Move getsockopt retval to struct bpf_cg_run_ctx
+         b44123b4a3dcad4664d3a0f72c011ffd4c9c4d93 bpf: Add cgroup helpers bpf_{get,set}_retval to get/set syscall return value
+         b8bff6f890513e0ae0f711e481b368c1d133c558 selftests/bpf: Test bpf_{get,set}_retval behavior with cgroup/sockopt
+         1080ef5cc0c2c3419dbdd61e441d1e014410824a selftests/bpf: Update sockopt_sk test to the use bpf_set_retval
+         4e950747ba126eb4accacf8f8b10459f374e6e9e Merge branch 'bpf: allow cgroup progs to export custom retval to userspace'
          
