@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0827283337498224797=="
+Content-Type: multipart/mixed; boundary="===============7870334514248030515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 19 Jan 2022 17:53:13 -0000
-Message-Id: <164261479346.31762.7633750065460822133@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 17:53:41 -0000
+Message-Id: <164261482126.31995.11004295471811751101@gitolite.kernel.org>
 
---===============0827283337498224797==
+--===============7870334514248030515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: d58071a8a76d779eedab38033ae4c821c30295a5
+  - ref: refs/heads/kbuild
+    old: c4d7f40b250c1a4d74ed259e84807f58032507b6
     new: 1d1df41c5a33359a00e919d54eaebfb789711fdc
-    log: revlist-d58071a8a76d-1d1df41c5a33.txt
+    log: revlist-c4d7f40b250c-1d1df41c5a33.txt
 
---===============0827283337498224797==
+--===============7870334514248030515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d58071a8a76d-1d1df41c5a33.txt
+Content-Disposition: attachment; filename=revlist-c4d7f40b250c-1d1df41c5a33.txt
 
+62ac88a7b4619627ad2fc87f9910d63664805e85 platform/x86: int3472: Add board data for Surface Go 3
+02fb09459435add44bb00191ce9b040c6b4f3aae platform/x86: x86-android-tablets: Fix GPIO lookup leak on error-exit
+3367d1bd738c01b2737eaab7d922bfe5f1a41f38 power: supply: Provide stubs for charge_behaviour helpers
+1350f36d3825e8f9563bbffb047d6ee634949667 s390/sclp_sd: use default_groups in kobj_type
+0704a8586f75663cf30a283bbeeca09eb4e60a07 s390/dasd: use default_groups in kobj_type
 85be9ae7b63092895b6e7ac87a3ef383c679866c exit/xtensa: In arch/xtensa/entry.S:Linvalid_mask call make_task_dead
 64aa8f4b6df107f46b6ac3e5331819824626b0af dmaengine: pch_dma: Remove usage of the deprecated "pci-dma-compat.h" API
 912616f142bfeb1dc41f40dbe7ce38331886a94a exit: Guarantee make_task_dead leaks the tsk when calling do_task_exit
@@ -691,11 +696,6 @@ f5d3ca6fffeb71f304a7accae229c279e70b2216 Merge branch 'pci/errors'
 fd04899208d2057b2de808e8447cfd806fd0a607 Merge tag 'timers-core-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 feb7a43de5ef625ad74097d8fd3481d5dbc06a59 Merge tag 'irq-msi-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
-82977af93a0dc4e70f60ca2137b67f65ebe47fc7 sh: rename suffix-y to suffix_y
-64d8aaa4ef388b22372de4dc9ce3b9b3e5f45b6c kbuild: drop $(size_append) from cmd_zstd
-7ce7e984ab2b218d6e92d5165629022fe2daf9ee kbuild: rename cmd_{bzip2,lzma,lzo,lz4,xzkern,zstd22}
-53e7b5dfb752399cd903ecb6e921dcaef57c8ea5 arch: decompressor: remove useless vmlinux.bin.all-y
-c4d7f40b250c1a4d74ed259e84807f58032507b6 kbuild: add cmd_file_size
 747c19eb7539b5e6bb15ed57a0a14ebf9f3adb8e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fb3b0673b7d5b477ed104949450cd511337ba3c6 Merge tag 'mailbox-v5.17' of git://git.linaro.org/landing-teams/working/fujitsu/integration
 289e7b0f7eb47b87a0441e6c81336316f301eb39 tracing: Account bottom half disabled sections.
@@ -1051,4 +1051,4 @@ f1b744f65e2f9682347c5faf6377e61e2ab19a67 Merge tag 'riscv-for-linus-5.17-mw0' of
 e9f5cbc0c851c1cf98e4ecc5d72b5563d3fc5605 Merge tag 'trace-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 1d1df41c5a33359a00e919d54eaebfb789711fdc Merge tag 'f2fs-for-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============0827283337498224797==--
+--===============7870334514248030515==--
