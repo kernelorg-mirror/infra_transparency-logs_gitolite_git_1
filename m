@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3185719888936697906=="
+Content-Type: multipart/mixed; boundary="===============3644689696373438885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 19 Jan 2022 18:18:19 -0000
-Message-Id: <164261629913.15959.5460164477956203170@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 18:18:40 -0000
+Message-Id: <164261632017.16116.11394950526889263746@gitolite.kernel.org>
 
---===============3185719888936697906==
+--===============3644689696373438885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 5fed0be8583f08c1548b4dcd9e5ee0d1133d0730
-    new: 1d1df41c5a33359a00e919d54eaebfb789711fdc
-    log: revlist-5fed0be8583f-1d1df41c5a33.txt
+  - ref: refs/heads/dev-test
+    old: ae7d29380b52b71ae325f191f5a23e3c55d8d97a
+    new: 5940451f341a5447713f0aef841c8b299d7a148f
+    log: revlist-ae7d29380b52-5940451f341a.txt
 
---===============3185719888936697906==
+--===============3644689696373438885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fed0be8583f-1d1df41c5a33.txt
+Content-Disposition: attachment; filename=revlist-ae7d29380b52-5940451f341a.txt
 
-0704a8586f75663cf30a283bbeeca09eb4e60a07 s390/dasd: use default_groups in kobj_type
 85be9ae7b63092895b6e7ac87a3ef383c679866c exit/xtensa: In arch/xtensa/entry.S:Linvalid_mask call make_task_dead
 64aa8f4b6df107f46b6ac3e5331819824626b0af dmaengine: pch_dma: Remove usage of the deprecated "pci-dma-compat.h" API
 912616f142bfeb1dc41f40dbe7ce38331886a94a exit: Guarantee make_task_dead leaks the tsk when calling do_task_exit
@@ -1050,5 +1049,6 @@ fd6f57bfda7c36f2d465cee39d5d8c623db5d7aa Merge tag 'kbuild-v5.17' of git://git.k
 f1b744f65e2f9682347c5faf6377e61e2ab19a67 Merge tag 'riscv-for-linus-5.17-mw0' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 e9f5cbc0c851c1cf98e4ecc5d72b5563d3fc5605 Merge tag 'trace-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 1d1df41c5a33359a00e919d54eaebfb789711fdc Merge tag 'f2fs-for-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+5940451f341a5447713f0aef841c8b299d7a148f f2fs: move f2fs to use reader-unfair rwsems
 
---===============3185719888936697906==--
+--===============3644689696373438885==--
