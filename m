@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3092702566637004606=="
+Content-Type: multipart/mixed; boundary="===============2578236877253431119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 19 Jan 2022 04:04:14 -0000
-Message-Id: <164256505486.14370.16525387722250878566@gitolite.kernel.org>
+Date: Wed, 19 Jan 2022 04:04:24 -0000
+Message-Id: <164256506444.14468.4545766466864894892@gitolite.kernel.org>
 
---===============3092702566637004606==
+--===============2578236877253431119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 51205a835ecd665bb32baed99d010ad9517cbe82
-    new: 12b628b6e0916c14c13f0d80a3197ee215deacec
-    log: revlist-51205a835ecd-12b628b6e091.txt
+  - ref: refs/heads/5.17/scsi-queue
+    old: 315d049ad1951cef02d9337a2469cac51cca6932
+    new: 2576e153cd982d540b212e989458edc42ad1b390
+    log: revlist-315d049ad195-2576e153cd98.txt
 
---===============3092702566637004606==
+--===============2578236877253431119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1642565042 -0500
+pusher 75C5DE3D 1642565057 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1642565042-9426bb2db26c7fbe5a7fff1df14bce9214b712cb
+nonce 1642565057-cadd014fed88c675d7cf08e94629b8cf840d46e6
 
-51205a835ecd665bb32baed99d010ad9517cbe82 12b628b6e0916c14c13f0d80a3197ee215deacec refs/tags/mkp-scsi-queue
+315d049ad1951cef02d9337a2469cac51cca6932 2576e153cd982d540b212e989458edc42ad1b390 refs/heads/5.17/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHnjbIACgkQ7ulgGnXF
-3j2gHhAAlIhZGYHbnpw2sVp2qIeAEG0X5dqgdnsass1KXX5yib5JtBcm2vdqs+wM
-akMiVAFtFuK/fppMC672uimeewdVSmcJAm56fW3fElUbQ57AN9B8WlvyDO9EPNNU
-kFsDrzAaviUboHmWkDiQBs3ghELZOHsq5pjQ+Ikh9Yhd+irLXGLtMaAhJRqN8E/E
-QNkO+0Pfd81k27UaxVgHLapcrX/IVAoP3S4Y4weUM5VBtUEuD2AUF8a6zw8OzC5/
-4LiOk+SYLrtrvJlLmE4MyDkV2gWGyPytYoW9/z8l0WEWbVmS92vXtSflQFy77m4g
-Nw/iJ2WNL2t8weg7D/WlJhF2nPtRmzDLezNXtRJx4ecyUHl1tlh1LTGQqrO7+niz
-h1qmv+tQeDzE5GCmfOE8xW77+1PAACFUZHJhNTs0n015nEvrRkCeiPLZRW6aIS6l
-F1KUZNT+uSqxKCD2yn6jsp7DmEjiTeEc/gjj34dt5gj+6u/3GVSPUkBA/g85+rWY
-lApMy6tEnbs63155gTHbOtJT60USzBWqhR7lwaLrlNYds7fu0JLdxtnSo7zBQWn3
-4tz4idAronCs30l0VaIp34M7lNKJhI/JO09GAt6W0xGOsRLIMC4Rjr2um6PNTA+L
-PNu9k6qVJhpeSX3ODX9k9DM3k5nv0fbo7lqTO4HGB/l41iiHAnE=
-=1a7Y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHnjcEACgkQ7ulgGnXF
+3j0Pkg//eav32e5eiHRL/xRf0yzvIhSKgu+67NdHwhCtWO4jid+WxGOG4myxlE9u
+Ma7VGMd1aqH8XtAlILkJO/e1Z+chQ48p7RxaDlk4+5d34Q5BgcjCVxrLHyRLS7I1
+fEWx1HurlDOksGgjfmw3P/E1FM/tL9hXKvVpUaWMGbWl8hBwfvMmbM89wm97erM6
+v0myX8ou58gAslur3DdUDBi+GTUiN92AdpyNzqNqIeb0hjn0jC0jIH+MUCesYZ+R
+W24+y1+b2EtuSaK0XeZ1vsVmZAWPLoLcezQdwE+iAuQa+SD/aqu5d4IOQXgCXUDo
+KX6642VIZ5Cy9I5Rkh9yK5oqBQDbNIgY2aA0yU1IO7htz8bpfcbecohq2TSCpYrK
+on+x/TWRABRq1YeZ/5wSKxv+P5E+P8TAFhyQUtmnrUpGVZGphfYd2Jucbm6Szs3E
+gETCLim2eIkxmVcS0Ls+n0pg14d69h+3/2TEJmAhVc38ARGWeVknH+1idDXL4Ufb
+VJZrnmCLIoZydOcvnJxKrTJho6Tnzti+Ibm4k1ZwVNgv6C7u4625ww+hJw1rUdqT
+LlYduQuyomYfidK7cSHEKSodBKJpVhXGICvYAQzibwp058XIZS4c2is+fuNdBZp2
+4D3MALHpkr6qxy5MpF4zOg3apgaTBVJjl9UdPKzVtFrL4nuFfqo=
+=IfnQ
 -----END PGP SIGNATURE-----
 
---===============3092702566637004606==
+--===============2578236877253431119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51205a835ecd-12b628b6e091.txt
+Content-Disposition: attachment; filename=revlist-315d049ad195-2576e153cd98.txt
 
 b114dda6f2f10cc8b2ddcde3285a576fe3f12c5d scsi: message: fusion: Remove usage of the deprecated "pci-dma-compat.h" API
 2d50607260a6c142f49222346814fee30eeaba9e scsi: message: fusion: Use dma_alloc_coherent() in mpt_alloc_fw_memory()
@@ -67,4 +67,4 @@ b114dda6f2f10cc8b2ddcde3285a576fe3f12c5d scsi: message: fusion: Remove usage of 
 3ba880a12df5aa4488c18281701b5b1bc3d4531a scsi: ufs: ufs-mediatek: Fix error checking in ufs_mtk_init_va09_pwr_ctrl()
 2576e153cd982d540b212e989458edc42ad1b390 scsi: nsp_cs: Check of ioremap return value
 
---===============3092702566637004606==--
+--===============2578236877253431119==--
