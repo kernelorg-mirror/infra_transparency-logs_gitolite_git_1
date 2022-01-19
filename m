@@ -1,50 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5062347235297240351=="
+Content-Type: multipart/mixed; boundary="===============5554646890621111316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 19 Jan 2022 18:01:43 -0000
-Message-Id: <164261530353.5584.5230954126838297309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 19 Jan 2022 18:01:49 -0000
+Message-Id: <164261530951.5680.9107909673141227522@gitolite.kernel.org>
 
---===============5062347235297240351==
+--===============5554646890621111316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
   - ref: refs/heads/for-5.17
-    old: 879cf8006475642b747aaaa4d06f7044ab2de794
-    new: b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51
+    old: 44ea62813f0ab3d718de480504f4dfd0bdd01858
+    new: 9df15d842a0f77f2b8ee29386f6d714e4220df57
     log: |
-         b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51 regulator: MAX20086: add gpio/consumer.h
+         e4d63473d3110afd170e6e0e48494d3789d26136 spi: stm32-qspi: Update spi registering
+         3cefddb72f80dc8d49ce605628ceb6525cfd64da spi: stm32: remove inexistant variables in struct stm32_spi_cfg comment
+         9df15d842a0f77f2b8ee29386f6d714e4220df57 spi: stm32: make SPI_MASTER_MUST_TX flags only specific to STM32F4
          
 
---===============5062347235297240351==
+--===============5554646890621111316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1642615302 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1642615301-3c331a6ea7c4be0aecd5ac9626a72b8251b66807
+pusher C3F436CA30F5D8EB 1642615308 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1642615307-5e58dac6215a23240c529f4730378f33dd22def0
 
-879cf8006475642b747aaaa4d06f7044ab2de794 b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51 refs/heads/for-5.17
+44ea62813f0ab3d718de480504f4dfd0bdd01858 9df15d842a0f77f2b8ee29386f6d714e4220df57 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHoUgYACgkQJNaLcl1U
-h9A8XAf/eCga8txg84xGYejIKEBSyJuZdVq1lH68TzyPyPn7zlExlQvUeUkOo2qN
-ZNmICHw3r0JHV/YAfoRvW7cZLjHYAB3n4bMByK1AuVnKxDsKdSEugZht6YqmFkuF
-b88AFA7rP/t8LydWflQZZ0bwosCWScxytHuNFpwI7ksllIrUPOrQokWJfBFfsAOr
-cNx7SuPtLjU2A1YRiyzfauvdrF9qqfpLsQgGDvYZvBsjPjxdzGvADYrKvhnhIAR0
-59FbSD+sZo5Icq6wESY+HZNU7/uTnAhQlGxSscAMcGOHm0HTt9OGj+qwD6k+IL1m
-gjnu0SM4bG3cm7xfS37pWzjaoPoN7Q==
-=bgRy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHoUgwACgkQJNaLcl1U
+h9BbZQf9EGm5jkIJNAwuucB+TUnyMRQb9jfUgwNKBE0f61v62Yk95M0yWPplcOs5
+93y3WynVlevxDEyTjk65sswFx2+uqYwjbMHhDsgWBT6wguK3xF9VIv7J+OPKER6I
+dkkxKdB38AdR4l8jMwKHUgM8uHKjAy/b5DKbLIwkrymhWBTGS8m7Y8m/gcJL5Ekx
+OsxZGgQdGk9zP43QHienKpfL8DzeQTXaPmFrZHuX04iySLRNyviemKEjELFaL0lD
+zbmyF6URDYb/O/H9M+a0P8mNJnuakDZCEyOx0oU1ZnS4mdU1iB4TX4scz3xNnxh4
+T1Ip7FsG4Bn74K22kyT6n5vewo5btA==
+=0Q8r
 -----END PGP SIGNATURE-----
 
---===============5062347235297240351==--
+--===============5554646890621111316==--
