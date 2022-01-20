@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Thu, 20 Jan 2022 20:12:07 -0000
-Message-Id: <164270952760.17748.15165213858060910801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 20 Jan 2022 20:12:17 -0000
+Message-Id: <164270953767.17879.4828558016159961329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: d4bff8eda32f9da4ed417b9b329713da5bd2edd4
-    new: 3664098ed0bc2c3a9c5c24faa509105f7df77d19
+    old: 52fafd8f5b287cf7bda081cddc662435aabeb0b5
+    new: 8ce491fbb2cefcd3055737098d12c0dbd15d400d
     log: |
-         3664098ed0bc2c3a9c5c24faa509105f7df77d19 Fix: provide membarrier_private_expedited_rseq_available on all architectures
+         8ce491fbb2cefcd3055737098d12c0dbd15d400d dpp: use own/peer naming rather than i/r
          
