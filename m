@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Jan 2022 11:36:58 -0000
-Message-Id: <164267861835.25187.13356438603865551073@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 11:39:06 -0000
+Message-Id: <164267874680.26066.6508398742505321412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: d15c7e875d44367005370e6a82e8f3a382a04f9b
-    new: e2f08207c558bc0bc8abaa557cdb29bad776ac7b
+    old: e2f08207c558bc0bc8abaa557cdb29bad776ac7b
+    new: 6cee105e7f2ced596373951d9ea08dacc3883c68
     log: |
-         e2f08207c558bc0bc8abaa557cdb29bad776ac7b ethtool: Fix link extended state for big endian
+         6cee105e7f2ced596373951d9ea08dacc3883c68 ipv6_tunnel: Rate limit warning messages
          
