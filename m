@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 20 Jan 2022 01:01:59 -0000
-Message-Id: <164264051972.24637.9134734997423127398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-documentation
+Date: Thu, 20 Jan 2022 01:24:23 -0000
+Message-Id: <164264186308.7649.13250743188846574124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/fs/xfs/xfs-documentation
+user: djwong
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 2056e2989bf47ad7274ecc5e9dda2add53c112f9
-    new: dae1f605dcdd0c0d37dee0a9cfb73833735fb77b
+  - ref: refs/heads/for-next
+    old: 11ab62f4b81ce003ed0962405033eb32be7d8f88
+    new: f1de07284aba6ddb2b4165576298a4db0cd45f4c
     log: |
-         dae1f605dcdd0c0d37dee0a9cfb73833735fb77b x86/sgx: Add poison handling to reclaimer
+         f1de07284aba6ddb2b4165576298a4db0cd45f4c design: fix computation of buffer log item bitmap size
          
+  - ref: refs/heads/master
+    old: 11ab62f4b81ce003ed0962405033eb32be7d8f88
+    new: f1de07284aba6ddb2b4165576298a4db0cd45f4c
+    log: |
+         f1de07284aba6ddb2b4165576298a4db0cd45f4c design: fix computation of buffer log item bitmap size
+         
+  - ref: refs/tags/2022-01-19
+    old: 0000000000000000000000000000000000000000
+    new: 68e59b24a50149439fbcbcef84773413cbd5c6a5
