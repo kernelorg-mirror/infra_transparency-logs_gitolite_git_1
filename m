@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0936678913788146605=="
+Content-Type: multipart/mixed; boundary="===============9104014200716807426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 20 Jan 2022 16:34:33 -0000
-Message-Id: <164269647311.7902.16510150217613943384@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 16:34:46 -0000
+Message-Id: <164269648652.8028.11066262113401970362@gitolite.kernel.org>
 
---===============0936678913788146605==
+--===============9104014200716807426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: ff9fc0a31d85fcf0011eb4bc4ecaf47d3cc9e21c
     new: 57afdc0aab094b4c811b3fe030b2567812a495f3
     log: revlist-ff9fc0a31d85-57afdc0aab09.txt
 
---===============0936678913788146605==
+--===============9104014200716807426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e2f08207c558bc0bc8abaa557cdb29bad776ac7b ethtool: Fix link extended state for bi
 0959bc4bd4206433ed101a1332a23e93ad16ec77 net: stmmac: dwmac-visconti: Fix clock configuration for RMII mode
 57afdc0aab094b4c811b3fe030b2567812a495f3 Merge branch 'stmmac-fixes'
 
---===============0936678913788146605==--
+--===============9104014200716807426==--
