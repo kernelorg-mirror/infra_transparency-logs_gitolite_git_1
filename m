@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 20 Jan 2022 20:12:17 -0000
-Message-Id: <164270953767.17879.4828558016159961329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 20 Jan 2022 20:18:48 -0000
+Message-Id: <164270992842.21321.14420771318057088312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 52fafd8f5b287cf7bda081cddc662435aabeb0b5
-    new: 8ce491fbb2cefcd3055737098d12c0dbd15d400d
+  - ref: refs/heads/dt/next
+    old: 9b22c17a3cc5f61b195da624cbb48634b4e42055
+    new: 18a86e5907f7160fb548d0d717e0f842b310708a
     log: |
-         8ce491fbb2cefcd3055737098d12c0dbd15d400d dpp: use own/peer naming rather than i/r
+         5e547d60dae7c66fe0c33654474eedcc1ddace67 dt-bindings: display: bridge: drop Enric Balletbo i Serra from maintainers
+         18a86e5907f7160fb548d0d717e0f842b310708a dt-bindings: google,cros-ec: drop Enric Balletbo i Serra from maintainers
          
