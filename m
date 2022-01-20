@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 20 Jan 2022 20:23:03 -0000
-Message-Id: <164271018330.25773.5171651352928251299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Thu, 20 Jan 2022 20:25:05 -0000
+Message-Id: <164271030504.27791.11943526593098370776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 76b6aa66b39ef1c5fb64cce505b85fae219bdf29
-    new: 4a3792da7edd608479b0ff1d71a6e7d429e95a31
+  - ref: refs/heads/ch/git-2-35
+    old: 7c089292d37446f607bf2c8dc7b8b0436601821c
+    new: fce4ca4169549e4e1fa815f84cb04adaa7505114
     log: |
-         4a3792da7edd608479b0ff1d71a6e7d429e95a31 doc: Rename device-provisioning.txt
+         fce4ca4169549e4e1fa815f84cb04adaa7505114 RFC: git: update to v2.35.0-rc2
          
