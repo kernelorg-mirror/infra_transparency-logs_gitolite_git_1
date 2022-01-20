@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8738421170425246226=="
+Content-Type: multipart/mixed; boundary="===============8177915617151087072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 20 Jan 2022 08:20:51 -0000
-Message-Id: <164266685121.365.16900650924765857406@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 08:21:54 -0000
+Message-Id: <164266691426.1715.12798694295053728158@gitolite.kernel.org>
 
---===============8738421170425246226==
+--===============8177915617151087072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,125 +16,99 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 7f23900d303c4311c8b4212fa411753aab9e2530
-    new: d381f128d85cb10020e57e315d2490c3226c6db9
-    log: revlist-7f23900d303c-d381f128d85c.txt
+    old: d381f128d85cb10020e57e315d2490c3226c6db9
+    new: 95d2af570ac0d46b15efca61e24e6fcd8a0b6bda
+    log: revlist-d381f128d85c-95d2af570ac0.txt
   - ref: refs/heads/queue/4.19
-    old: e455d94da91072e764fb9979d60940a407d63c3a
-    new: f00f3895dd21701404bcbfac78246405ca4902b9
-    log: revlist-e455d94da910-f00f3895dd21.txt
+    old: f00f3895dd21701404bcbfac78246405ca4902b9
+    new: f2a5382f8a38bdba79d2a15bc33a8fdedb291fd1
+    log: revlist-f00f3895dd21-f2a5382f8a38.txt
   - ref: refs/heads/queue/4.4
-    old: c87bd074d14d2d971a0e93c41d20eb4fdaa306cb
-    new: 3bc85dbff364d0a9657a18c4476ac179edf57c4d
+    old: 3bc85dbff364d0a9657a18c4476ac179edf57c4d
+    new: 7958be08b7c2f5e180fd9a35077dd90b1342cd31
     log: |
-         15e87f5e1f953d13435132b3c0fbcfecac52ed8e Bluetooth: bfusb: fix division by zero in send path
-         04d3c77caef69e6289b38ef3a7fcdc32951def4a USB: core: Fix bug in resuming hub's handling of wakeup requests
-         0f0a3e56e337819815add050dd2f3602a015aac6 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-         40a8ccd9af1f9c103404ea25e46e376896f94d3d mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-         1d9b3a91192e9a05e6705ae6de0a0d57891a7ee9 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-         4cac38e87b7d3baab849cac8bcce768dc664adb7 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-         68ae0d7cad4c895252edca154d8933f9791b84fb drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-         bd8a9245985dc58643004202fc6d7051c3de245a media: uvcvideo: fix division by zero at stream start
-         3bc85dbff364d0a9657a18c4476ac179edf57c4d rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+         7dbad5644cdb4758326214e1539374e850e11463 Bluetooth: bfusb: fix division by zero in send path
+         02c6f819ce408bc3c33219557a75bf5775d634ad USB: core: Fix bug in resuming hub's handling of wakeup requests
+         986824135287909fd00dd1ae273484b196ab1699 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+         57663f2e1fe2a4bccd379b2ed3a9028fa8eba8c3 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+         6fdc0bacbca21d8738ae955bfecabd6aa347c814 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+         60d2d68ac506085e5a35a172358fe1485d1a7039 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+         446dbae1bcb0911869b4d2bbbcb3b324289d1804 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+         86c2306ee78880122368b385e75862d8a5cc8e5c media: uvcvideo: fix division by zero at stream start
+         7958be08b7c2f5e180fd9a35077dd90b1342cd31 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
          
   - ref: refs/heads/queue/4.9
-    old: 3ea1552e3b26a8c37f3a62747406d346f2d832e2
-    new: 3b7ecec7029d91ce5afa8eb5dd1e6fa1ea676ce5
-    log: revlist-3ea1552e3b26-3b7ecec7029d.txt
-  - ref: refs/heads/queue/5.4
-    old: 8bc0d979c1b986efc7ee7a34aa28fc8bb26a7ba0
-    new: 62a953fabccddeaec66875ef1a45a552f06c5f55
-    log: revlist-8bc0d979c1b9-62a953fabccd.txt
+    old: 3b7ecec7029d91ce5afa8eb5dd1e6fa1ea676ce5
+    new: 4a79c59748cee64639595c973a7484268f482b93
+    log: revlist-3b7ecec7029d-4a79c59748ce.txt
 
---===============8738421170425246226==
+--===============8177915617151087072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f23900d303c-d381f128d85c.txt
+Content-Disposition: attachment; filename=revlist-d381f128d85c-95d2af570ac0.txt
 
-2a2a327eb1a1e5693cb44d71185cbfc8556180f9 Bluetooth: bfusb: fix division by zero in send path
-191b3ba69a8949bf2c1d669c3ed58432091ae5f6 USB: core: Fix bug in resuming hub's handling of wakeup requests
-741e9b4c5514092212c5b2991bd16a2cd66825cf USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-f041a5c781b9bda13df4c103817842f064f10417 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-277854232b76fa55c9d94df465d46cab77f3d4e2 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-a401b16b07ab93399989a4be7eac4a0b6c2ef26c can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-2bd94cbe4507b16f0550d84f4adc5010f58ebd96 random: fix data race on crng_node_pool
-e7012732da975305e3d04bf1e380432ba4931736 random: fix data race on crng init time
-afa0afcdaff9700ef2df41f65aee74812b40e02a staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-f5f47a26941049ea08e5e80ba3a2ea8736f04033 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-c54d808a877aaef1131d64db57d892ffc5bb8c97 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-8a309ab6f59502a2bb119afbe2a9ac41eed1a14a media: uvcvideo: fix division by zero at stream start
-546b9b12679735e46c37867c809cb2f24189c307 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-66f451033682bede91bc3b4b627fd8dc2b99cab4 Bluetooth: schedule SCO timeouts with delayed_work
-d381f128d85cb10020e57e315d2490c3226c6db9 Bluetooth: fix init and cleanup of sco_conn.timeout_work
+2d04f73f6e19e80ee26ff9a902453deed5dd764e Bluetooth: bfusb: fix division by zero in send path
+0dc8c21b63a929e110d19a532941eba74d7a1fe3 USB: core: Fix bug in resuming hub's handling of wakeup requests
+5e2b26b5abdc1feb64e96353c1c9d3f6f9da18a2 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+806ceb9548bd43581ba8767ba6df0a1d2ec432d2 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+fb5a5cc00b3eb16f7d329548e9ab4311b9d702b9 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+5943791fcea58b9d561b39feae0902901b570f07 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+ff14654ab67281530e58e84b490e6e774ba0ca90 random: fix data race on crng_node_pool
+915280ca7ff2b7d641bed70a412c98900e6f5fa9 random: fix data race on crng init time
+8e9c91f4e388baf012c80c503dbfd0bf721be3b3 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+a3464cecbcf7e1a11635871417367f63e4c5b772 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+661c474761249335944212f8e43a835f62b8b96a orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+ed8a789f942174038a32299675a4daa5fbf29715 media: uvcvideo: fix division by zero at stream start
+ca3bf4e9af28b758f5319c8fdb7536913f5c1a8c rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+86832d8396db340b616a7624b0a4a7f15531b1f4 Bluetooth: schedule SCO timeouts with delayed_work
+95d2af570ac0d46b15efca61e24e6fcd8a0b6bda Bluetooth: fix init and cleanup of sco_conn.timeout_work
 
---===============8738421170425246226==
+--===============8177915617151087072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e455d94da910-f00f3895dd21.txt
+Content-Disposition: attachment; filename=revlist-f00f3895dd21-f2a5382f8a38.txt
 
-709409421651e14f336e4b0b7b817beba0a981dc Bluetooth: bfusb: fix division by zero in send path
-aeba14243c9c2b379e6cae0b0f8ed2c4bb32b82a USB: core: Fix bug in resuming hub's handling of wakeup requests
-d32a9dc84737a9c3b6481379432fa0e04d21e6e0 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-1a1eaa95adfdcdedea4198bb5de62e749d102471 can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
-0689160e95c6aea9a8078edca8940a1f92b4bb94 veth: Do not record rx queue hint in veth_xmit
-2ef8fc1bd4e2e43a1b78aa3f1dc644589e98517a mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-abd950bd1739e420352741bd7c988ef84e60a686 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-da5b62a5b10af34d6fc5299ac5c6814a4820f2b3 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-c2d2fe4841b1623716925642922b266ad46ff512 random: fix data race on crng_node_pool
-ab5fe15a50e84a7e69ddcf94e6c4ac0f57fed558 random: fix data race on crng init time
-0db45b8251fd7ba774e3887c7778c9837b5f851a staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-3fbabe63403a7078cdf699b88ff3b981603340bb drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-64ed45267f6c76b2e1f85079a9f44c1625b3fad6 kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-170bb25b87c8d75181bbb02076feb06939fc22b8 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-fe3878faea85ed52c039ac2e9e8913f4f78ddb0c KVM: s390: Clarify SIGP orders versus STOP/RESTART
-d5dc0d6afe59e921607678331040ebec0828c106 media: uvcvideo: fix division by zero at stream start
-4398d56e63feda1e512fc13768695fff512335d4 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-ce0500f123e375333f47d5c8129bd41683ea6ccc firmware: qemu_fw_cfg: fix sysfs information leak
-70ab907e33ef1390e3351efa7e7919d3f61b3cf8 firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
-171c9811eec8fe72a559b747622f989770741936 firmware: qemu_fw_cfg: fix kobject leak in probe error path
-f00f3895dd21701404bcbfac78246405ca4902b9 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
+8153f32d8c9b7fe676a922a39460dd81d034df21 Bluetooth: bfusb: fix division by zero in send path
+62069fa739da754ee176e9a1c2ae7cccac71be7a USB: core: Fix bug in resuming hub's handling of wakeup requests
+594e686d010c239342be7698667cdb35f0e25f0e USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+8e101068a78108100db333cde97ac043e3f30d86 can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+34a2b9de38d01b4a61bea2ec310f5d1d8d33ecf7 veth: Do not record rx queue hint in veth_xmit
+17117bc0739194ca3ff544b78166c83f62a25394 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+ce43dee0332dae7f055ec50c8b6f25526d5d346c can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+5f70fbe96d200ad7c617079e275bb0b9f73993e1 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+0ae866c4cbfe52e25fe3889ac0527035293d4df3 random: fix data race on crng_node_pool
+8effdb9ff4de16542b8f29d75daf3eefd4473e2c random: fix data race on crng init time
+ba9c22853cb160c29d3e19228ebe90a3d632559a staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+5b2c773af87dc8a1f3d8c5a5a68d1da890220f77 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+768dbab5d57384bf338533ca88db0eacc490e6b9 kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
+9b30b411925801a1b51e4a966c3554fd8b6763ea orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+744f3fc7ba2f812ed00e146a1374c04c7d35d3d1 KVM: s390: Clarify SIGP orders versus STOP/RESTART
+6a2eeed3b362221fc7eb75bfe8474c6dc443709e media: uvcvideo: fix division by zero at stream start
+271a4740ea7b7c651b74749303a392d484e8986e rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+18ed6131e4c5ab47e7c18ef5c61d8d02d3a85d11 firmware: qemu_fw_cfg: fix sysfs information leak
+50f98b886687ff58e56b8b74d154b78672d57ead firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
+263964542b5920b2d66f17316cb1c9ee6147803d firmware: qemu_fw_cfg: fix kobject leak in probe error path
+f2a5382f8a38bdba79d2a15bc33a8fdedb291fd1 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
 
---===============8738421170425246226==
+--===============8177915617151087072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ea1552e3b26-3b7ecec7029d.txt
+Content-Disposition: attachment; filename=revlist-3b7ecec7029d-4a79c59748ce.txt
 
-ff0b76b6d305ce919eb205826914ee25132cb0c0 Bluetooth: bfusb: fix division by zero in send path
-ba577cdca7c53843734ce9d2018ffbc158c4956c USB: core: Fix bug in resuming hub's handling of wakeup requests
-bad4ff7f563df38b2e0786f068c0d349457f1295 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-94204758508e779262325b2cef48038026ec23c6 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-ad645dab8e4de20fb01d0fc4a01e48f032b31f7d can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-ff6d7efb43fadf5ea18095aa8e25274a47071fdd can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-eb844b1da9f37d08059b2473cf80e57832ebc034 random: fix data race on crng_node_pool
-001c406c1b1945399bba963542005a43a6e148a8 random: fix data race on crng init time
-9f1b457e0bd5589010620aa069228fcc250b78fc staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-73bf6009cbf79a93e754589e50978864885f5718 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-be3a828e98930027e9ac688c9af220f123a391be media: uvcvideo: fix division by zero at stream start
-3b7ecec7029d91ce5afa8eb5dd1e6fa1ea676ce5 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+6a979da32ca0bd7452cc595040a51eb430aec8f4 Bluetooth: bfusb: fix division by zero in send path
+90972a921e18752092e58c835e2489c02e9cac35 USB: core: Fix bug in resuming hub's handling of wakeup requests
+bd5355efa9e2672f0b855e090ce9434e28ec24d8 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+bb593bc96fab63c860eef0c12d5227a7eb509541 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+4bcac44ce5ee9d3e3ece6723bfd81ec14e287723 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+6c020586b193390ddaf7ad5b63edf0f8883833e8 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+f0290ee3036936f068e02b6b78a8750fab484f82 random: fix data race on crng_node_pool
+14f553b930a686f52153a8c08cde60a632248fd5 random: fix data race on crng init time
+825f268cd5a95c81a3e44bdf2f7ca2449dae34e1 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+42e46c44b2f0e22b6f94a18a0412901a92f852d8 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+a5588bda0fdc6309d2fbfa9e8e3bfdde504cd7f3 media: uvcvideo: fix division by zero at stream start
+4a79c59748cee64639595c973a7484268f482b93 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
 
---===============8738421170425246226==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8bc0d979c1b9-62a953fabccd.txt
-
-23424b89814d9537a86f9b5896292429a6328fc1 kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-12a9d6b0c42bfde047fd268b92eac86f9c5e619b devtmpfs regression fix: reconfigure on each mount
-9a2ee1903a75743a8ad34142fa391fc433743c40 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-97b69b2cb857a45b0906beafb4ad0ff104c6633c vfs: fs_context: fix up param length parsing in legacy_parse_param
-65942fbbdc825eaf548bf05c5283e98d89551de1 perf: Protect perf_guest_cbs with RCU
-089e1de0756222894c0d1573a28302fe0b406f87 KVM: s390: Clarify SIGP orders versus STOP/RESTART
-c654e995821d24b5063182b973aa36bbc3b0e2ef media: uvcvideo: fix division by zero at stream start
-7dd1ec1e01a69ac9d65a0ab7586958bfaf4f66cc rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-d920003f6741b7bb0bcc30d894a5c5dd1f3a792c firmware: qemu_fw_cfg: fix sysfs information leak
-c46aaaeba16bad535225b623743a486907c6108d firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
-53794c06b398a0c4f1294c803ed9fe65d98f6db5 firmware: qemu_fw_cfg: fix kobject leak in probe error path
-0d0c69898c3ef170a4bdb30899011dc636174603 KVM: x86: remove PMU FIXED_CTR3 from msrs_to_save_all
-3aa2eca122949082f24464fe50e26ab74c3edb00 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
-19bb2091743758db328488bad410728091ac75c8 mtd: fixup CFI on ixp4xx
-62a953fabccddeaec66875ef1a45a552f06c5f55 ARM: 9025/1: Kconfig: CPU_BIG_ENDIAN depends on !LD_IS_LLD
-
---===============8738421170425246226==--
+--===============8177915617151087072==--
