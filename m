@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Thu, 20 Jan 2022 05:59:40 -0000
-Message-Id: <164265838040.21654.10066729693432916935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Thu, 20 Jan 2022 06:57:38 -0000
+Message-Id: <164266185871.26456.15713085224376530306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/v0.5.11.5
-    old: 0000000000000000000000000000000000000000
-    new: 663e4c875840363356b2ed05e5539b1422c25e6b
+  - ref: refs/heads/kbuild
+    old: 1d1df41c5a33359a00e919d54eaebfb789711fdc
+    new: c6553cd5dec6f8bd261349d59ce3f8270865b57b
+    log: |
+         c6553cd5dec6f8bd261349d59ce3f8270865b57b usr/include/Makefile: add linux/nfc.h to the compile-test coverage
+         
