@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1705763718982581378=="
+Content-Type: multipart/mixed; boundary="===============3903703976538431325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 20 Jan 2022 17:16:50 -0000
-Message-Id: <164269901071.2786.13522607760522047993@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 17:16:55 -0000
+Message-Id: <164269901578.2903.3723789821543010857@gitolite.kernel.org>
 
---===============1705763718982581378==
+--===============3903703976538431325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/fixes
     old: 455e73a07f6e288b0061dfcf4fcf54fa9fe06458
     new: 2c271fe77d52a0555161926c232cd5bc07178b39
     log: revlist-455e73a07f6e-2c271fe77d52.txt
 
---===============1705763718982581378==
+--===============3903703976538431325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c5a0b6e40d0b8c040dbfc37f7403e99867768d92 Merge tag 'vfio-v5.17-rc1' of git://git
 64f29d8856a9e0d1fcdc5344f76e70c364b941cb Merge tag 'ceph-for-5.17-rc1' of git://github.com/ceph/ceph-client
 2c271fe77d52a0555161926c232cd5bc07178b39 Merge tag 'gpio-fixes-for-v5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 
---===============1705763718982581378==--
+--===============3903703976538431325==--
