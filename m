@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 20 Jan 2022 13:58:54 -0000
-Message-Id: <164268713495.4834.11422944551545550634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 20 Jan 2022 14:25:41 -0000
+Message-Id: <164268874103.22683.6173078711809257477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 524e9de890fbc5bee238a17aab4bb2f7ea945036
-    new: e6ea9268951f2e00f64ac3c21146b1e5cdff58e6
+  - ref: refs/heads/experimental
+    old: ec7567a780fb85ebe9a80df6c011236fc63a1adb
+    new: d6ed55822d6bea00ff5fc7c2f3f91e748604019d
     log: |
-         e6ea9268951f2e00f64ac3c21146b1e5cdff58e6 Thu Jan 20 01:58:07 PM UTC 2022
+         d6ed55822d6bea00ff5fc7c2f3f91e748604019d erofs-utils: fsck: add --extract=X support to extract to path X
          
