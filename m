@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7911487373211507597=="
+Content-Type: multipart/mixed; boundary="===============3640007055779196304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Jan 2022 17:28:47 -0000
-Message-Id: <164269972749.11205.12501194377910872078@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 17:28:55 -0000
+Message-Id: <164269973586.11362.11857429045344310436@gitolite.kernel.org>
 
---===============7911487373211507597==
+--===============3640007055779196304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ff9fc0a31d85fcf0011eb4bc4ecaf47d3cc9e21c
-    new: 57afdc0aab094b4c811b3fe030b2567812a495f3
-    log: revlist-ff9fc0a31d85-57afdc0aab09.txt
+  - ref: refs/heads/dev-queue
+    old: 91191ec316c30812ab1d0adc51fe28091c9470d6
+    new: 99b0fd11dd7651865c581688bf13861038e04ea7
+    log: revlist-91191ec316c3-99b0fd11dd76.txt
 
---===============7911487373211507597==
+--===============3640007055779196304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff9fc0a31d85-57afdc0aab09.txt
+Content-Disposition: attachment; filename=revlist-91191ec316c3-99b0fd11dd76.txt
 
-87d6576ddf8ac25f36597bc93ca17f6628289c16 scripts: sphinx-pre-install: Fix ctex support on Debian
-d92321bbe46b0ecae0941461379d39599610d869 ASoC: cs35l41: Update handling of test key registers
-f517ba4924ad026f2583553db02f3c8bc69de88b ASoC: cs35l41: Add support for hibernate memory retention mode
-530792efa6cb86f5612ff093333fec735793b582 regmap: Call regmap_debugfs_exit() prior to _init()
-44ea62813f0ab3d718de480504f4dfd0bdd01858 spi: don't include ptp_clock_kernel.h in spi.h
-8ee304396e2f3db9c2856fb8f63548f906e6f2e1 riscv/head: fix misspelling of guaranteed
-7d9a662ed9f0403e7b94940dceb81552b8edb931 kvm: selftests: move base kvm_util.h declarations to kvm_util_base.h
-96c1a6285568d31a8125c36974a140fccbe548af kvm: selftests: move ucall declarations into ucall_common.h
-980fe2fddcff21937c93532b4597c8ea450346c1 x86/fpu: Extend fpu_xstate_prctl() with guest permissions
-36487e6228c4cb04257c92266a04078a384bc4ec x86/fpu: Prepare guest FPU for dynamically enabled FPU features
-cc04b6a21d431359eceeec0d812b492088b04af5 kvm: x86: Fix xstate_required_size() to follow XSTATE alignment rule
-445ecdf79be0c71ca248f7611aeefceaea3ec59f kvm: x86: Exclude unpermitted xfeatures at KVM_GET_SUPPORTED_CPUID
-b56a7cbf40c895cbe8b67ce5649a26b7a7bc48be regmap: debugfs: Fix indentation
-d4296faebd337e5f76c0fddb815de33d2b0ad118 cpuset: convert 'allowed' in __cpuset_node_allowed() to be boolean
-5b0ce2d41b70bba49b91b10c55984714490354ed drm/amdkfd: enable sdma ecc interrupt event can be handled by event_interrupt_wq_v9
-216a9873198bdc5c670a9f71d58fafd30227c9c8 drm/amdgpu: add dummy event6 for vega10
-f38b0d48cae88395a05e49cb885fa6ce657e1cc9 drm/amd/pm: keep the BACO feature enabled for suspend
-e53d9665ab003df0ece8f869fcd3c2bbbecf7190 drm/amdgpu: explicitly check for s0ix when evicting resources
-eac4c54bf7f17fb4681b85e5fe383b74d6261a2b drm/amdgpu: don't set s3 and s0ix at the same time
 771ced73fccd0ac19bb956eaacce3669cfccc805 drm/amd/display: Fix underflow for fused display pipes case
 580013b2cef8babc204b7b78ff093140e112b194 drm/amd/display: unhard code link to phy idx mapping in dc link and clean up
 79d6b9351f086e0f914a26915d96ab52286ec46c drm/amd/display: Don't reinitialize DMCUB on s0ix resume
@@ -1050,5 +1031,24 @@ e2f08207c558bc0bc8abaa557cdb29bad776ac7b ethtool: Fix link extended state for bi
 1ba1a4a90fa416a6f389206416c5f488cf8b1543 net: stmmac: dwmac-visconti: Fix bit definitions for ETHER_CLK_SEL
 0959bc4bd4206433ed101a1332a23e93ad16ec77 net: stmmac: dwmac-visconti: Fix clock configuration for RMII mode
 57afdc0aab094b4c811b3fe030b2567812a495f3 Merge branch 'stmmac-fixes'
+2782ec84e91edcb94b679b194efb9fc85bc3e89c checkpatch: Fix warnings when --no-tree is used
+e7702b2dbab4aa74be0618ea37c7b93aea2fc35f checkpatch.pl: seed camelcase from the provided kernel tree root
+7537fe51b5ce5257e7cc18f8fedae91090163c61 ice: Fix a couple off by one bugs
+a6d7e0c79d2146b0353145996ee975adbdec416b i40e: Increase delay to 1 s after global EMP reset
+4deaf50327fce5dfa667fb29b8744b2349d03f97 i40e: Fix issue when maximum queues is exceeded
+7305ea676c7de40fb62cb0e03d14b659a9ae79d0 i40e: Fix queues reservation for XDP
+917639a55f07a44798a5d0178adc5f17a53a70ea i40e: Fix for failed to init adminq while VF reset
+ed23cbec89550fb16e57ac5c7afd2770ac73aec4 e1000e: Separate ADP board type from TGP
+d76d80021ec8c4621b1d3db836aebf0a20b3e625 e1000e: Handshake with CSME starts from ADL platforms
+fb840f5409105a2a38cf0960be76b12af689d12e iavf: Fix promiscuous mode configuration flow messages
+5d3435cb54b1cc3b0f60d99536aa34efce02e164 i40e: fix unsigned stat widths
+2f1162da3166b67fdefa0a130abbb1c81e1457a9 i40e: Fix reset bw limit when DCB enabled with 1 TC
+982683f91698259dcd0c616b26bcff37e35f9ee3 i40e: Fix the timeliness of stats after deleting tc
+1ec8ed492a0341d5c020c774908c27fb0029cd67 ice: fix setting l4 port flag when adding filter
+edc4311348a25b05b719c3b4998596f7fc074efd ice: fix an error code in ice_cfg_phy_fec()
+f931bfc7c69114b24a7e888ffe60b443e4a88c6b i40e: Fix reset path while removing the driver
+f84f8c2d2f4e228b869d70519b92a55ac09bd703 ixgbevf: Require large buffers for build_skb on 82599VF
+588991cdba0c5783ad60a5fe1048402e0ae5a246 ice: fix IPIP and SIT TSO offload
+99b0fd11dd7651865c581688bf13861038e04ea7 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
 
---===============7911487373211507597==--
+--===============3640007055779196304==--
