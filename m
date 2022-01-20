@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7794720277134989887=="
+Content-Type: multipart/mixed; boundary="===============3825108517192497006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 20 Jan 2022 08:49:21 -0000
-Message-Id: <164266856136.8360.18001297416393619053@gitolite.kernel.org>
+Date: Thu, 20 Jan 2022 08:49:32 -0000
+Message-Id: <164266857244.8489.14728305221841330719@gitolite.kernel.org>
 
---===============7794720277134989887==
+--===============3825108517192497006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-rolling-stable
-    old: bd628d7f399d47512bb8357bec4639af7d11cc6a
-    new: fbfc8b57f3d3060b732cd2d048cb885e8bf3e54d
-    log: revlist-bd628d7f399d-fbfc8b57f3d3.txt
+  - ref: refs/heads/linux-rolling-lts
+    old: 72a6ff64aaba8ae0d3046b4189c12547b0ebe77e
+    new: 29eb087c7a2d9d28d8577b51f43f4dea843258c2
+    log: revlist-72a6ff64aaba-29eb087c7a2d.txt
 
---===============7794720277134989887==
+--===============3825108517192497006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642668558 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642668571 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1642668553-df3c65fea05ed9ada3b188e897ee5be93db5dd70
+nonce 1642668569-bf027b5d6f2ac5e2daf0cf0203fc6e646df7051d
 
-bd628d7f399d47512bb8357bec4639af7d11cc6a fbfc8b57f3d3060b732cd2d048cb885e8bf3e54d refs/heads/linux-rolling-stable
+72a6ff64aaba8ae0d3046b4189c12547b0ebe77e 29eb087c7a2d9d28d8577b51f43f4dea843258c2 refs/heads/linux-rolling-lts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHpIg4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jH8P/1dK+aGJltW8hqCUO5kV
-6EBejPXTDDgYtCowvuMM7inzT2ftlizjM0/paQ9ATV/SsxBBoKAa5z88gGzU444V
-3V1fVmszFaxmzDD4JiLHym8aQ9tk3Dn+YneDkJl/0CGeoTDl8LzRsX0VuqrjuBM9
-Mv2dphfblq43GZMofgaXfcKaRdEA6vp2zxRqBig83LnVklq3vzFA2uhkj4Lu36Q0
-xpp/7vsZFl9O6CG6tEV4SKteRIaI+fQ2EGHJ2eSjjkS1OlqTz9oTh1IeH8qDpcVP
-BlgbNpUvP1hpFYIkJ7IZUjZnrVIfKdY0HELX/Ltw5pYhsRK9Y3upFo8pDbboL+X2
-xFzvJ1tz9xXe082LhAdk9P5VdJefaZGt61N+tpEaUeSkRYRJTJE2pMJVQd8zVkZ8
-7fZXI8brbOtoVA6oQvSL2M+xnZydNs7mk5dYeEh9AGas4UdgiEMp0LfcUOyOWqop
-UDI0dd90nz1z0n5LLhS2kS6MMbz7br9VkoUqd4KMma564y+LeCI2azT1cKHm2p2G
-6sqczP2ERXsQBnR95Vt/1uoFiobVuR/dHig9dPKL0uC8ogOg/a7TZsinG+T9yO1s
-cj+NpPUBQOqoWTX7R2jTp7+CGRfrFYIicwc1oy9jUcOyEj1wiYBwm+1fQ17yC3PN
-v4NDHcECgqIKKJL5ajKdgv16
-=6/42
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHpIhsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DfYP/jxLazqswezJR/a6pLL2
+ygOl+XCmw+k4Fxfa2xKNEMW1nV+qYgEvHtvDUx3o1bJL1kwX8XztePzFucBEY6sA
+Leo+BVXIqrM73oFMy9kWf8Q1pyCZI+gdoCC1HSVGvPliYmOXpDZng/qh79nKAOaS
+5VllXkt2XUcsGOEotrEXgu+dpmeHo89vw9vAIawyRocH5bPlfRANvzc0qw9lLVEr
++RPBXB3j5jSIF4SunbNZ/bYD7WMzKIg2kxDnf6LZKUnecDhjwkLEGFcO/6AuFU76
+SC8Q+uV4rZ8/NnPYUcYemq7s0r4vEBysAZAZrA084P2DbTNfJET8g1YcyDLVm23d
+QbkDKYu9NFfPg3HGuOSDCr3GCTtYbyDIr7lEwtmHa9ciCqJjtBnxcdKUQjpoRYj4
+pe8+EipghCIgpve55TtQ/Z5hIcoaHYpkCJU67OC7qdAT8AZM0UQhbK1BNANTHmvR
+tx7LIi0ad2LYRXLrXPg8LEGN/v5OvOqg/BpOjVluO7TryU3wj1fnxqpx0ZLkRC2G
+TS1wqv6eplSI63wuvrJJQAr7PqstvmEzMhzNVm9xNTnZU86U4VB9xxNWwLFgFySi
+rud/fG8HlAPWbilir2BMUc6U2JJeZ/SR2EZ7fkXjZd7FoIz58/nTmRJcURH0WHyR
+hCrDo32jDh6AZcfqjnAGXWf+
+=Z7iC
 -----END PGP SIGNATURE-----
 
---===============7794720277134989887==
+--===============3825108517192497006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd628d7f399d-fbfc8b57f3d3.txt
+Content-Disposition: attachment; filename=revlist-72a6ff64aaba-29eb087c7a2d.txt
 
 d5df26479c825c4891aea4ce1a518453a49ad217 devtmpfs regression fix: reconfigure on each mount
 ce258c74f8d95e81ce65f53775fcdcbc8ca090da drm/amd/display: explicitly set is_dsc_supported to false before use
@@ -86,6 +86,6 @@ f76d5f9391a55a149db14e5b5ef4185a798ef923 ALSA: hda/tegra: Fix Tegra194 HDA reset
 9dada19e109635d569f156b258b54ed3ea03d2bf ALSA: hda/realtek: Re-order quirk entries for Lenovo
 ce2e7b97e588fd740e88cf239218a5f94d4e0545 mtd: fixup CFI on ixp4xx
 63dcc388662c3562de94d69bfa771ae4cd29b79f Linux 5.15.16
-fbfc8b57f3d3060b732cd2d048cb885e8bf3e54d Merge v5.15.16
+29eb087c7a2d9d28d8577b51f43f4dea843258c2 Merge v5.15.16
 
---===============7794720277134989887==--
+--===============3825108517192497006==--
