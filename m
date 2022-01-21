@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 21 Jan 2022 21:51:49 -0000
-Message-Id: <164280190978.25117.5367513746077603361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 21 Jan 2022 22:12:00 -0000
+Message-Id: <164280312004.5359.10117768906512335684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/parisc-5.17-2
-    old: 0000000000000000000000000000000000000000
-    new: d24846a4246b6e61ecbd036880a4adf61681d241
+  - ref: refs/heads/master
+    old: d35eae6b611618c5d05c4dc4ce0327e98b252c99
+    new: 2b04cd67aa77ab7cec65632a0006159ee53a41d8
+    log: |
+         2b04cd67aa77ab7cec65632a0006159ee53a41d8 Fix: work-around Linux kernel rseq.h uapi endianness issue
+         
