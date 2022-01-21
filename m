@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2510281056670517656=="
+Content-Type: multipart/mixed; boundary="===============3699378441673099223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 21 Jan 2022 12:48:42 -0000
-Message-Id: <164276932259.23442.14738383716284415242@gitolite.kernel.org>
+Date: Fri, 21 Jan 2022 12:58:59 -0000
+Message-Id: <164276993901.30929.16313376074395615993@gitolite.kernel.org>
 
---===============2510281056670517656==
+--===============3699378441673099223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: a0708ab076337ff4419b5d7a7bd8c49d0a9c98e8
+  - ref: refs/heads/master
+    old: 86085fe79e3c1a66e32f2acae0ae64f4cceb8d28
     new: 1f40caa080474d0420e0b0e6c896e455acb6e236
-    log: revlist-a0708ab07633-1f40caa08047.txt
+    log: revlist-86085fe79e3c-1f40caa08047.txt
 
---===============2510281056670517656==
+--===============3699378441673099223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0708ab07633-1f40caa08047.txt
+Content-Disposition: attachment; filename=revlist-86085fe79e3c-1f40caa08047.txt
 
 4c2602ba8d74c35d550ed3d518809c697de08d88 drm/i915: don't call free_mmap_offset when purging
 03ee5956781b2245b1c77334ecdea6386fd3bfba drm/i915/ttm: only fault WILLNEED objects
@@ -1051,4 +1051,4 @@ c2c94b3b187dc92b2002809f489e0f24a41e91bc Merge tag 'drm-next-2022-01-21' of git:
 75242f31db6cabf602a5eb84c13b579099d72a65 Merge tag 'rtc-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 1f40caa080474d0420e0b0e6c896e455acb6e236 Merge tag 'sound-fix-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============2510281056670517656==--
+--===============3699378441673099223==--
