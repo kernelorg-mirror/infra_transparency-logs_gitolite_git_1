@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/librseq/librseq
-Date: Fri, 21 Jan 2022 22:12:00 -0000
-Message-Id: <164280312004.5359.10117768906512335684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 21 Jan 2022 22:12:32 -0000
+Message-Id: <164280315241.5581.10633027460916249802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/librseq/librseq
-user: mdesnoyers
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: d35eae6b611618c5d05c4dc4ce0327e98b252c99
-    new: 2b04cd67aa77ab7cec65632a0006159ee53a41d8
+    old: eb5c7518d0d3d1b204139b35245f4dd43474ba78
+    new: 0516d2527ea83c8fa209d52c564ce99408a00fbe
     log: |
-         2b04cd67aa77ab7cec65632a0006159ee53a41d8 Fix: work-around Linux kernel rseq.h uapi endianness issue
+         0516d2527ea83c8fa209d52c564ce99408a00fbe hog-lib: Make use of UHID_CREATE2
          
