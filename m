@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 21 Jan 2022 19:56:58 -0000
-Message-Id: <164279501805.17060.8279890653227848955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/librseq/librseq
+Date: Fri, 21 Jan 2022 20:06:56 -0000
+Message-Id: <164279561642.22944.11956971948185828952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/libs/librseq/librseq
+user: mdesnoyers
 changes:
-  - ref: refs/heads/x86/sgx
-    old: ea11e00dbe06eb54670dc6b6a854f1cfdc0125da
-    new: 1559419f9d4ff1090d76f70d7f69e21e6cd5f91e
+  - ref: refs/heads/master
+    old: 9b1975bf812639e6dfffb03fca58374e8da2f3f1
+    new: 352fd83771bfb649cc578a454c1d45711334e755
     log: |
-         1559419f9d4ff1090d76f70d7f69e21e6cd5f91e x86/sgx: Free backing memory after faulting the enclave page
+         352fd83771bfb649cc578a454c1d45711334e755 arm: refer to 32-bit pointer field for rseq_cs ptr
          
