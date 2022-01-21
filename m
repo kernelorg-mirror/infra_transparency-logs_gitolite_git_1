@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 21 Jan 2022 19:46:31 -0000
-Message-Id: <164279439161.9645.15055017189095401805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 21 Jan 2022 19:48:54 -0000
+Message-Id: <164279453486.10422.7117913621592915205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: dfaf6e045f49decefad8ad1d5ce16da01a8b4760
-    new: 26b74461781e761f34d6154049b364801f800aa7
+  - ref: refs/heads/x86/sgx
+    old: a15973f0e630530a63410f092615879a3c88cf9e
+    new: ea11e00dbe06eb54670dc6b6a854f1cfdc0125da
     log: |
-         d8116e8828b405c24f4dc1d28a87c77bfe2a1d9c dpp-util: add dpp_point_from_asn1()
-         26b74461781e761f34d6154049b364801f800aa7 sae: pass exact length to l_ecc_point_from_data
+         ea11e00dbe06eb54670dc6b6a854f1cfdc0125da x86/sgx: Free backing memory after faulting the enclave page
          
