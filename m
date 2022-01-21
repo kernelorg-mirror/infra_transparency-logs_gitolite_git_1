@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2823682207401421840=="
+Content-Type: multipart/mixed; boundary="===============4292760738723056889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 21 Jan 2022 08:14:39 -0000
-Message-Id: <164275287999.28571.4975706687048655258@gitolite.kernel.org>
+Date: Fri, 21 Jan 2022 08:16:14 -0000
+Message-Id: <164275297448.30598.16592161955194627689@gitolite.kernel.org>
 
---===============2823682207401421840==
+--===============4292760738723056889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: fe81ba137ebcc7f236780996a0b375732c07e85c
-    new: c2c94b3b187dc92b2002809f489e0f24a41e91bc
-    log: revlist-fe81ba137ebc-c2c94b3b187d.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 8483703a09c3cdebced3a116158b57307c5c725c
+    new: 241f402cccf3ab633f9f9c7caee39ec3f480939d
+    log: revlist-8483703a09c3-241f402cccf3.txt
 
---===============2823682207401421840==
+--===============4292760738723056889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642752879 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642752972 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642752878-f99a618f39cd065918b32113880933a1fffa5b95
+nonce 1642752971-049a2049c86191ffa4595786e97af078d4b05693
 
-fe81ba137ebcc7f236780996a0b375732c07e85c c2c94b3b187dc92b2002809f489e0f24a41e91bc refs/heads/driver-core-testing
+8483703a09c3cdebced3a116158b57307c5c725c 241f402cccf3ab633f9f9c7caee39ec3f480939d refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHqa28bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O+0P/0DWR6gaRrg4gg25xaRl
-kdpJvcAa2ZeNd2+UzpLdIW8Wxmh5YTgO79afbNyEd3r7HcsIIjV7gSof2YGAZzlN
-/stARGHnA8it2w/uk42xMMJqthvdK05CbLPM5HMgJckHiU6JwPu+47dK4eOsgjdW
-uS3IziD3A5O1wilKq4CrG81xH3p+ihJe+PLA2qwgj2toQ3uEWH3HwXGRVQ3ltXDi
-DK69miiE35bpg8712WTKmEcY+6dpf1D1kHJqJcryxNft3+mdlyjAE1UUjq08WpQl
-uxFdYlAjeynJ5FhOHFApoNMpaZjSlMrch2Ug1bjNennDY4Zwk2ZRICdxpS1a6qNf
-F5ge+6qLEcZ4PCnfpJ3nKaTmF6JF2fe0A3XUXFJUaWWU0jkuYVKUc77UjK2PMrBi
-ivm83QvdHtIfOLiFph8ez9TcUD8dzrff2F+5RKUo3DdBcJD9tvzK2TNKRxyPzGey
-n55g+ZP84OAj2SUQ6r8oA2503Xq41ODbeGeKJIKrAGFKGZvMloDhqzOk7BAu5Ke2
-DFgRuU+OAbnw/6N3BLZNS3R/IitZWAP6Wjxgett5RaCljokivOLvU+4ibpPgKQHp
-BFrfMBns6GPKUP8u8wVTUp0vbA9ziVlR3mjWPwqqmDCNP5OEv1gjV0VgUvwcsgAp
-eu8N5wSltisnEorf7fjxujPw
-=SbMv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHqa8wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NvEQAL6DKOirhyQILjGidplp
+1HjJ1oBjcK33EvEfAK5XNHXdkb08acyipKDzcCHD79ij/Tq60c3S4PR0aAuCvUcv
+7apjE9L2J1LK+xspEUoEXN25/SgfeFVi+5qO8+9Kr6T5e78gggud2fW/lvouJlfC
+j3Jjn4GFvZv4OCQgxPJyCIRegTGOGQLeLyA01Htntr4Mt6+VasE3my2X5CQGzOFJ
+mTFUsi7XPilRU9SXo/Z9xuq2yciFP6oqgpVdBYBa6sZ1UZR0/EooK/WGpq5fg/B6
+z27rggcmfEUZ55opl6e5MYYlKxs6ee6CWYSNzNANGCSz0HTeEQyop79nABY7ekvB
+kkn9EFCZOEP/J5/wAakXRC6q12JgMvjZ+W1lLbgQUNfztjgKm1pzbnqegd53KihS
+YWYlDiThZEALKJTYnv4Yz28HZkdN06uUJRb1TrmnvSSB/mVQuv7zQ9AXFRMHrhzR
+a9VFdZUyLPgNtv+PyzKj/+tbnZ/fhXy54rmpqgACYAclVI5SIfwRq3i7VJ/2QzX8
+hUHYKFMUa6mkS49vcmwIj5qmzxfvwX0VdXys+S54YL/1AlspC1Gyxhsf+eFoTVmz
+UzcHDwM4q2nioToZORQrv2EsYg8keE4KpKcQAgbjTsApjBZqAJKFrZRTN/1gMwSV
+JALspqT6xB8JlqHP2gXDu00U
+=+zdg
 -----END PGP SIGNATURE-----
 
---===============2823682207401421840==
+--===============4292760738723056889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe81ba137ebc-c2c94b3b187d.txt
+Content-Disposition: attachment; filename=revlist-8483703a09c3-241f402cccf3.txt
 
 77965c98cffe41994dce3389c4aae80e2072f098 pwm: Move legacy driver handling into a dedicated function
 92f69e582e15bf281ff1ab3ccc7abdd8392550a3 pwm: Prevent a glitch for legacy drivers
@@ -505,5 +505,6 @@ d701a8ccac7a1c0912425a01919a3cbe05f22914 Merge tag 'xfs-5.17-merge-5' of git://g
 4141a5e694588897cbec955bc4a646075dc0afd7 Merge tag 'pci-v5.17-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
 39e77c484bcd1865ff6abdbde6b36eb91ee1ff33 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 c2c94b3b187dc92b2002809f489e0f24a41e91bc Merge tag 'drm-next-2022-01-21' of git://anongit.freedesktop.org/drm/drm
+241f402cccf3ab633f9f9c7caee39ec3f480939d pm / wakeup: simplify the output logic of pm_show_wakelocks()
 
---===============2823682207401421840==--
+--===============4292760738723056889==--
