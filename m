@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 21 Jan 2022 20:41:35 -0000
-Message-Id: <164279769511.12516.11775598785199031856@gitolite.kernel.org>
+Date: Fri, 21 Jan 2022 20:42:23 -0000
+Message-Id: <164279774354.12820.2798496818799586744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 2e7b4a328ed6ea57d22853939e69bc86c560996d
-    new: aa17e8ce1c20619af46fc2b472aa2d1c5e50c3cc
+    old: aa17e8ce1c20619af46fc2b472aa2d1c5e50c3cc
+    new: a86974f75e8806bc357a9be02f9bde083f40b4ae
     log: |
-         aa17e8ce1c20619af46fc2b472aa2d1c5e50c3cc Bluetooth: btusb: Whitespace fixes for btusb_setup_csr()
+         a86974f75e8806bc357a9be02f9bde083f40b4ae Bluetooth: Remove kernel-doc style comment block
          
