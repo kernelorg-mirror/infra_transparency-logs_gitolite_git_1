@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 21 Jan 2022 22:37:59 -0000
-Message-Id: <164280467948.21916.3470024124059705660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 21 Jan 2022 22:47:28 -0000
+Message-Id: <164280524867.27643.4730781066948782748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/fixes
-    old: 6fb67ab22c083fc8859bbcd055e3391a3e34a12c
-    new: 8246e788b783ffc55a3d9a4cc54d11ecc114fbb4
+  - ref: refs/heads/master
+    old: a86974f75e8806bc357a9be02f9bde083f40b4ae
+    new: 9d7cbe2b9cf5f650067df4f402fdd799d4bbb4e1
     log: |
-         8246e788b783ffc55a3d9a4cc54d11ecc114fbb4 KVM: arm64: vgic-v3: Restrict SEIS workaround to known broken systems
+         9d7cbe2b9cf5f650067df4f402fdd799d4bbb4e1 Bluetooth: hci_serdev: call init_rwsem() before p->open()
          
