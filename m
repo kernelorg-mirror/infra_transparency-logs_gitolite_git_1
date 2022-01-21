@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0020577680737942131=="
+Content-Type: multipart/mixed; boundary="===============2840184329823692383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 21 Jan 2022 07:54:02 -0000
-Message-Id: <164275164279.16194.5671311152043182005@gitolite.kernel.org>
+Date: Fri, 21 Jan 2022 07:54:10 -0000
+Message-Id: <164275165071.16269.17099723606765307061@gitolite.kernel.org>
 
---===============0020577680737942131==
+--===============2840184329823692383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 0c947b893d69231a9add855939da7c66237ab44f
     new: c2c94b3b187dc92b2002809f489e0f24a41e91bc
     log: revlist-0c947b893d69-c2c94b3b187d.txt
 
---===============0020577680737942131==
+--===============2840184329823692383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642751642 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642751650 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1642751641-e78d0ec03d880d00f07eaeb329d18e6ebef0926e
+nonce 1642751649-17128a2a9fa7fbcb1fccae41261398c89f048a9c
 
-0c947b893d69231a9add855939da7c66237ab44f c2c94b3b187dc92b2002809f489e0f24a41e91bc refs/heads/char-misc-next
+0c947b893d69231a9add855939da7c66237ab44f c2c94b3b187dc92b2002809f489e0f24a41e91bc refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHqZpobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wucP/AwaadTO/jB/iXGAdFp/
-Ic/6Hrc5a4rMO9eVMV0kucDKd/2sYWCk9flAQqXjpz0HIj4LQ8fhXI7+CkrsTz4c
-fuLY2sOuWgNSY3DYVpHuYGcWSZO2MoUGAObtJYtg5Xyodns/WqYS4mr/jT3RiuA0
-Rhpgf5bn/cP9jAbx/ayPfxDjiM4Z/KBnGNF2LYvGzAzt/tZYkroGl0unUIUr55A/
-yvEgjxBJG0sNNnwpsflJu0LKuWn6pa6GEv5jEZ0goGHpVAZQFltITFvcFIh7Tpm1
-kdda8XGvbNP+B+Ne8vOTKGtKo8AwchajdrZ6XNE2rupeylwHPrZXssUF77pdM7KH
-dEALF1o3qrS52h5jcTkYaPw+1O4VSOybV7xeBWHCKyQuL0pnvz/mr25Qa0NGRjxK
-EsG13W+dsIgCpHOJyWKH7C+yPCVbEqEaULMk6/lWTePJhP0kEfikM4cukd4LdmlE
-h5oxspThO7ccUpJLJyW19ACYv66xIpIeFHyqwYZbRFuA3uAxHTeOgJm7FjOImxA2
-UXEXFztcv8fW23tb7f5emlyoP+Y+utquVDZBrEn7QomFyoZzE4MrJ7dY2DY1FJKn
-kPrz8/IUTPbCNJAUlwtwwuJMwr4qMO+BdkDdozq5ZpWOU6gVS86qSPEICRZpBZ3Y
-wZPGcFhFKzlrBiWReIOb+kS5
-=RseD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHqZqIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+URkP/jZivy0uj8Bqn8Xs1ie7
+4Bc6bw14RTbOUIOBBIUD8wb/W14HaOXcTwWRhJycotczwyuDxbCTGfzDFg5iQ1Fv
+nHI/UvtO5xEDi4jE1tPNGAsbhfzVQoKLQ/LPiD9QuDibiROJewr8yUzUiVFd3AMI
+wYU86z6BfVw6h3/N+rutebHYXfe7JE5pixMkW2DAbhhob8CGMnKnjuwamQqt9QFS
+bNHUUb4LVrAoW6Et37qTjAjA2s14OmP0p7HEytmew9OdUVt+gm1mVlFBCUl2Ny1O
+8LYKT0SoYyfXRFIJ+GuGfhtYMHzfIJS3fSImLYek2XWyCvlO+oNdnX5J5SRXJdVO
+Dx1mfupp/0QzVMyd6tPNRnoKR5zC2MX7SXnjQeGIH+X3zWxkbQ0Ai8CaS++qSzyR
+l//D0wVY9sVbhnQ1zV0BP+fXK7GafzOq/S2kpKQddtBplsmHHCFxVs9FqKUbxUV6
+o9H28b/5zn0XV99B0HmIGyexMuq8U/DjTNFp/zShMb55cbLVoDzR7VyHhHQqIzzX
+NZzhzx4k6Q/FyiVFVqSF8YBKst+60B65hvoZSFAkHU6bWp8roCZCy3lXlrVSbZlA
+wSznYhqsVXGKC29mlWgEIw3jRMknVk99ufg2xsq+b4ti852+oqJilhDHZqSZ2hWl
+gyVIwAnEBletvM9j4EnBw4ct
+=dxcj
 -----END PGP SIGNATURE-----
 
---===============0020577680737942131==
+--===============2840184329823692383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -842,4 +842,4 @@ d701a8ccac7a1c0912425a01919a3cbe05f22914 Merge tag 'xfs-5.17-merge-5' of git://g
 39e77c484bcd1865ff6abdbde6b36eb91ee1ff33 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 c2c94b3b187dc92b2002809f489e0f24a41e91bc Merge tag 'drm-next-2022-01-21' of git://anongit.freedesktop.org/drm/drm
 
---===============0020577680737942131==--
+--===============2840184329823692383==--
