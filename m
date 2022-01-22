@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 22 Jan 2022 03:34:20 -0000
-Message-Id: <164282246006.13023.6527701793464979341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 22 Jan 2022 05:09:42 -0000
+Message-Id: <164282818207.7785.11838298493162918744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
   - ref: refs/heads/master
-    old: 2c13c05c5ff4b9fc907b07f7311821910ebaaf8a
-    new: afa114d987c40e72ebbbc36bedf7d66b7cdc5883
+    old: cd891db680ae978f5efa362cbdc074483f07042a
+    new: a8152ff934df7cfaccb8bdc1fa376c5d11737995
     log: |
-         63ec72bd58487935a2e40d2cdffe5c9498f1275e mptcp: Use struct_group() to avoid cross-field memset()
-         afa114d987c40e72ebbbc36bedf7d66b7cdc5883 selftests: net: ioam: expect support for Queue depth data
+         82c89c859c9a7dd7bf2649877bf0d8c50873e3ed defer/whichtochoose: Rework deferred-reclamation memory overhead
+         a8152ff934df7cfaccb8bdc1fa376c5d11737995 glossary: Update non-blocking and add NBS
          
