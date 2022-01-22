@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 22 Jan 2022 00:17:47 -0000
-Message-Id: <164281066700.20055.9106382092425186208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 22 Jan 2022 00:52:37 -0000
+Message-Id: <164281275730.10378.13243583810875193690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/dev
-    old: 7f86361f71df363ee8d68be976c9303cd2d27408
-    new: 1385139340b7a1c8f35cb7a52af221096cdef86e
-    log: |
-         1385139340b7a1c8f35cb7a52af221096cdef86e srcu: Dynamically allocate srcu_node array
-         
+  - ref: refs/tags/scsi-fixes
+    old: 2d567b8d32091e002fe30657f41935f9d1db3f49
+    new: f04f4f4f61fe30b186ad157d7df8b3b3967038c9
