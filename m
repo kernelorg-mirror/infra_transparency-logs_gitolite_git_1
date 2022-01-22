@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6821106709815041441=="
+Content-Type: multipart/mixed; boundary="===============3052589029856260975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 22 Jan 2022 12:39:39 -0000
-Message-Id: <164285517907.12239.8844765214531906518@gitolite.kernel.org>
+Date: Sat, 22 Jan 2022 12:39:42 -0000
+Message-Id: <164285518226.12346.11526979196218650914@gitolite.kernel.org>
 
---===============6821106709815041441==
+--===============3052589029856260975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/usb-linus
     old: c2c94b3b187dc92b2002809f489e0f24a41e91bc
     new: 1c52283265a462a100ae63ddf58b4e5884acde86
     log: revlist-c2c94b3b187d-1c52283265a4.txt
 
---===============6821106709815041441==
+--===============3052589029856260975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855174 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855181 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1642855174-ece64e2e97bb6c63e128c48d8c28f26346d1786c
+nonce 1642855181-0f50f5ebe68b94d5a4f24aa07e575d15e479e095
 
-c2c94b3b187dc92b2002809f489e0f24a41e91bc 1c52283265a462a100ae63ddf58b4e5884acde86 refs/heads/main
+c2c94b3b187dc92b2002809f489e0f24a41e91bc 1c52283265a462a100ae63ddf58b4e5884acde86 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+wYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++PQQAMnmfkA9U614ZiF+DqjX
-MR/ghwQsBd3s53MFOqH927TAC4I2LGqf5NP6FhjagqSodP6nmNy65nW85H6A0l1W
-iAL0OTItGDeDVzSuKRvzqIz4GGheIGf15d6jXP/q/bE+ckoPglNfCwuCjbzXaU3Z
-MVAoc126NbB1N0EwSQ4plLpYv2Ix4E1VYzH29UwY/v0qjFTP+Hl7prrZo7rQiEDQ
-G3yBNYbcJzeLDwpXLsqfJpNBNZ0cLFuxdYCNB9kEBhfxsunXGCCJJgeMU9zAneoy
-pyFuPxbI2PjgQ9YuVUmgYCy8V3Q622ynkF+83rFzSenaE2x8TmqlWvtjdJeQ+2k2
-iOTclKn0a6LyN7SIjrP+rE4p8u+RGmdVydMgKl2izK4VCwWmRnIJ/IjpDZsg2d4n
-9TTbo3dfIvRcF2ifKir0xbCpaBg5ZudezjpzP86b+1I4S6cd9iqQkmIdqJH+kAB4
-4AcXLJxb90U3v4AEYCTzF8/WLF8PLsNfkyLSloZqALiOqC2/4sRHCUT2ixFfOYnM
-Et7f4adwlSxYJiZVjRrPxyspdTPNy62aJmdjWhluYvQIKxVNvp0TIC50FFpZC51Y
-qQoj/5ps1H84kZpRnlhvnq7fAendkUcBq+gEEekxvVgUmziNnUoEP7jIJUCmP+mQ
-xkdohgcrFeOsOsdf8GL1d3kC
-=vFFm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+w0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1S8QAMVHltoUzd9k7TDbBBU9
+nqZmEDCXrOJlt4QT4t0Lf/nOcYHtu75UfQC/8te+d0V+hqmlC5JiDtLOT5JPdyC7
+NcYgLtQiSf26avyirizaoi0YI6pvWJjz8d0I2V7cMbs0iqkqTNkYgQJ/4AN25Gq7
+NOmwePgVI/t6RP4d8go+Zd8+tG+M5b26NoiyU6c0TMhKUN9OZyaXvMhumUNl9Rie
+pbze6mXRqmri//n0f3c6ul+nqEQaqMWxHf9Yruz3OTnCP+yAWP8pmw3HkQ2wzA0B
+WBNNHT32hrA6siGVPaOQSfmZippUoI31Qq1QiFshktnQmZcfqEEyEM/d/nuhSF48
+mIRbqAHe2KJNprYWQgzlTFVickrRBhJ256C6cOStjmPT2sORPlHclKUITzhsLbjg
+pOA17+3SYU1PSYFK2tVXZCWY1gVq0dUgTqFXXj1GFeflhbq/YMOSqwCzSjibFj8p
+SOe5zTqceiL2/dfeZ2pXvnJNZWapwAP4Rhwkz1bfGadodhHjpgihSDtHyfdiX8Qw
+h/hpKROUMHNPMvTLiD9yRCHqIB336Npog30BUfGQkNzXjVtdxHDo7Y0kBylxT8y1
+vPS2sfMMxnta+62V0FGDXbAk4+zvuXJZuIQXonvXhnqQGFMoVqpzv7oQDVxkVeNe
+xJmsNJAcevFbohkIW6lFgjIP
+=uisz
 -----END PGP SIGNATURE-----
 
---===============6821106709815041441==
+--===============3052589029856260975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -383,4 +383,4 @@ b68b10b6266009bc8770adf952d637250ee93135 Merge tag 'folio-5.17a' of git://git.in
 8205ae327e396820fb7a176a94768146ac0b87ea Merge tag '5.17-rc-part2-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 1c52283265a462a100ae63ddf58b4e5884acde86 Merge branch 'akpm' (patches from Andrew)
 
---===============6821106709815041441==--
+--===============3052589029856260975==--
