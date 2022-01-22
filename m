@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8936213236375705135=="
+Content-Type: multipart/mixed; boundary="===============6435996461470936853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 22 Jan 2022 12:40:36 -0000
-Message-Id: <164285523610.7396.523015853240910337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 22 Jan 2022 12:41:28 -0000
+Message-Id: <164285528823.7781.3057114192799628275@gitolite.kernel.org>
 
---===============8936213236375705135==
+--===============6435996461470936853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: c2c94b3b187dc92b2002809f489e0f24a41e91bc
-    new: 1c52283265a462a100ae63ddf58b4e5884acde86
-    log: revlist-c2c94b3b187d-1c52283265a4.txt
+  - ref: refs/heads/debugfs_cleanup
+    old: 241f402cccf3ab633f9f9c7caee39ec3f480939d
+    new: 05256ee56172720b76b8c278e5eef30debc8730c
+    log: revlist-241f402cccf3-05256ee56172.txt
 
---===============8936213236375705135==
+--===============6435996461470936853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855235 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1642855234-feeb16864dfcb083963d78cd03c89b429a49e57b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855286 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1642855285-93302127afbc5912327ddc3e8664bb3447731958
 
-c2c94b3b187dc92b2002809f489e0f24a41e91bc 1c52283265a462a100ae63ddf58b4e5884acde86 refs/heads/staging-testing
+241f402cccf3ab633f9f9c7caee39ec3f480939d 05256ee56172720b76b8c278e5eef30debc8730c refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+0MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FVQQAMPbr5IgaKU+ES4etuW5
-+Jo80h6FK1DoIBJCKuz7jDStpJ/g5gXJgg5x1/zT2EilNGh1wQhVuozBNadOS++c
-1W1nBofxpXHj9DXAbcgie+XDIueXfMLQi7eduWwIW168abklJZNaDohhxw/AZQZw
-M0Si/iDrdbsnsn7oxYmg2aLc4lG14FCl2sSuzcI8PV/g/LyTDAiVY2Ui8qJCLce/
-5ZN0bc1sU1uMM46UABAbwrNc+CP427BugP5ihuHxJj/jE+DKVxFffEinRCvUDqjx
-e0Pkvn9AnpZEju+1uHyVuxPo8cb+hN90yHvzI5P9SeB30Yud54hDfrzVcvlNQ0jp
-YrWOCx1AWFxVKDb/k2VmxLHdHdwKNYgQnXw7j4xk6W7Dldnthpmwn/RjhWf/cUuG
-tYK1U/kg4He1gVgrDAZlvKME5wprxI4jugXRKrH1bVMdFcAHNnWPpM83yfX5Irq4
-RzIa+wDtEAua24z70NIV/WkjnrbFlnYQRMVMAiNjyOp7ENNE5ckrOxky9cprUVke
-DH7jEHK00krlP9U/QrMS66h8djfxGbU8/R9XSROhv/H/2NtEBoz7d7xmrvORu4UF
-GXwpoftV9zjj/nSUepuQ6C06PMf4Z7lO87E+irPe/QhGOZOdlZLF05DrFZJI6M1G
-0GYOqCMXe9MQjBOIa1AF4qLJ
-=uvVI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+3YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0jsP/j6xy8ONEcDZl8zSu8Dh
+EYcTwBGg6PfjY+WSuTq0nyNfpmYQZDoY5psOuDa2/rtUavpfloshIneN7/P+GYO1
+Y4ISF7/hP9DKHzjY3sutjqhLbqWGDPJndUa3PTfGbN1I1Ri+7dIgfrZveFdcPToa
+LXNFQ/139aa1YN7EkA2mSJDGRxnIjHtIpoo+eG/oFtLMDGpeTmHj4x8KqPOTm3iS
+R2CM1F0tlpC2EUXUqw3RYyvVRTdBeFQvbW91f0prq7Q1AUq79QKD0KgI/sIUAMbb
+JEyuClM+g+weJZRoE+Ue2qlVAWt53Lj6/o2r+YTFcWKAf1ENYYP5iZ7kXo7Hf7mA
+0YlJPmB4/0zzTfqwS4MKRVBiMOXWJYWaxiWuuFdpA/8tYwz+TgtT9PnxWMRqkAyd
+3fMDKU2UMC+WZ2288bHx9CQDmeCe6XAzzxbCn9wopqSZctbvNP2isxm2VuyXvWra
+oFXPbrGI8YJtWdr8ocoaXtPw0l+mtwD4Q93qc6MFOOFNhy9DWQjVjNJFw7+GpZ5b
+b6IqESVL2u6lVC62AZMxD23d3TUkJ3v+4gLiW23VjG//ZrfVXRPir2LCEzh7p5r8
+ARXSYm9Y6HDa73CFj75uc1Sv7OZ+uw5tPlWvvASETbSNL0Yd79zHuoIMLWL1B+R9
+GsVr8RFRI0yN/RC8AcP/cllY
+=Tu4h
 -----END PGP SIGNATURE-----
 
---===============8936213236375705135==
+--===============6435996461470936853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2c94b3b187d-1c52283265a4.txt
+Content-Disposition: attachment; filename=revlist-241f402cccf3-05256ee56172.txt
 
 f601aa7930669439623dd266fc9e90b0218b42c1 rtc: rs5c372: Add RTC_VL_READ, RTC_VL_CLR ioctls
 1c1b3098ae1e0d9725d0d4d49986e0edebba443a rtc: pcf85063: add i2c_device_id name matching support
@@ -382,5 +382,6 @@ b68b10b6266009bc8770adf952d637250ee93135 Merge tag 'folio-5.17a' of git://git.in
 1cb69c8044fd534a0e19154831234d75f7b8d447 Merge tag 'xfs-5.17-merge-7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 8205ae327e396820fb7a176a94768146ac0b87ea Merge tag '5.17-rc-part2-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 1c52283265a462a100ae63ddf58b4e5884acde86 Merge branch 'akpm' (patches from Andrew)
+05256ee56172720b76b8c278e5eef30debc8730c pm / wakeup: simplify the output logic of pm_show_wakelocks()
 
---===============8936213236375705135==--
+--===============6435996461470936853==--
