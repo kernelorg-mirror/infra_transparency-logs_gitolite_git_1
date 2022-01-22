@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 22 Jan 2022 15:42:01 -0000
-Message-Id: <164286612193.24984.12443570546818727453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 22 Jan 2022 15:43:29 -0000
+Message-Id: <164286620968.25579.16652276631828609556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
 user: maz
 changes:
-  - ref: refs/heads/fixes
-    old: 43663c975081cdb05067f9c7566f2062f60da056
-    new: efa5e93555cdfd56a54512e8bead736cf9200d3f
+  - ref: refs/heads/irq/irqchip-fixes
+    old: c831d92890e037aafee662e66172d406804e4818
+    new: 16436f70abeebb29cd99444e27b310755806c1fa
     log: |
-         d11a327ed95dbec756b99cbfef2a7fd85c9eeb09 KVM: arm64: vgic-v3: Restrict SEIS workaround to known broken systems
-         efa5e93555cdfd56a54512e8bead736cf9200d3f KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
+         16436f70abeebb29cd99444e27b310755806c1fa irqchip/gic-v3-its: Fix build for !SMP
          
