@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1274119488583479207=="
+Content-Type: multipart/mixed; boundary="===============0111514360991760401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 22 Jan 2022 12:39:45 -0000
-Message-Id: <164285518533.12418.3935605282267982810@gitolite.kernel.org>
+Date: Sat, 22 Jan 2022 12:39:48 -0000
+Message-Id: <164285518849.12496.11353480662180383995@gitolite.kernel.org>
 
---===============1274119488583479207==
+--===============0111514360991760401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: c2c94b3b187dc92b2002809f489e0f24a41e91bc
     new: 1c52283265a462a100ae63ddf58b4e5884acde86
     log: revlist-c2c94b3b187d-1c52283265a4.txt
 
---===============1274119488583479207==
+--===============0111514360991760401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855184 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642855187 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1642855184-97bcedf7e52be254bed586f6cd06a113dcce9a5a
+nonce 1642855187-6c0da12a55b82aaee51b98cc7108103955d511c7
 
-c2c94b3b187dc92b2002809f489e0f24a41e91bc 1c52283265a462a100ae63ddf58b4e5884acde86 refs/heads/usb-next
+c2c94b3b187dc92b2002809f489e0f24a41e91bc 1c52283265a462a100ae63ddf58b4e5884acde86 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+xAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NWMQAMTpon7bLT1braQ8PO/f
-jp8ugt03JV17iNL3/h1drxU9IbtWSYeunw7IT6l9FtoJSz/RPPXk8brHhIhFVjwl
-wv9Vt5BwS9xLE7v6GW9hFuEOWu2NCooK3inG77VaLDn8uL+CaltyZMQNQ5icwot+
-+naoKYa+X3/Jq59RThduIFsIoSDg0B8kI5wIN/SapbfdgXQheg36U0wktYRAlyFa
-eUcyECFjuPINMeL1N6cwA8I+/NvokIz6NQZXk8I+zi3i/2O3lE8Kf61cbFZ7qhM0
-ZJyB3ILPuzv43d0nEAL6RPpHE55QdvNSZUjXrmP7/xZ9gafGNa2jtTtc7dtMqZ6d
-gmZTQFAa1maBDuN4Gu8mgOj1fL7UqqZvMk7gcAnF1r3/c58RyzW+VLwK4rt8T5NI
-U+oShtJPnNQ2UqgeMKRrLC87jZ5mUeS8oULMdVYgfuctYU7WyPCFefWux/PimDqR
-VqNNlUuK8kunqXqwPDaO/x+g6HWLroF6suXeZBvOruBalbQER8ayri3de3sQlnhG
-NZFSCVTjeKPomvNPRVvEgElDVwFCzf4LQXlttrv8XqIfoBrKElkh1Gi0HkHSJge8
-5fSpOPj8bAoHWG2GxhYPQNJ3bK1+Iv/GOA3latteI+yOBsaEODHRotDGnXW3MhEo
-HhzLkVSbWEtnki2Xf/7bXojB
-=uCzb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHr+xMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2HUQANUA/5I8YOG6SWcQO9a5
+2l5bHni618GZpQBOmeMd5aTSAO0J2AfekF++17OTx8C7I2LrDLUkZcpITNyNaOEk
+RhCxEKxSuzlesacOeq6ufzeu9gli/ogG+05xCKz44Y/g1wn0wjW0OsukNQvIcDBD
+u7Z4wodDUcTBP/y1O8DO/jUXy7BC4TQiCAzxBYAHL8R8tIZ2TeNLwNrotF/BH4Ik
+MNLQ+oGmnovR+LzYodmN+rR7VZup2VNK7nqW/71+s1+5FvnXAqYtZT9KRItDQvj1
+JWkraxER6gWOyQJ6mKeje1Zi3VQyY62l3nJZExa/5dPZg7K/bNZB4QHsJLCRA+mQ
+OD9kQyHMtAcveSxXiD1AfQnbdIzeJpmkHw1s36ohuEIvcDf7/DfHkiRBNNlxqtqN
+I74jKopcYl4nBQA/8W/k550LCU51tkYS8JixdVjnJAOil1jebZ++WmjhoAOzBUNf
+JaIRe9syvz9sow8KI8V0btordC3UDE+oSJxKz2BJnldx9mkSHrf6MHQwSdljofn6
+d2Sz+VtbkGkmJNqUGySbWzQCSmvg1DXAsO6eb4MqK5+RakGmZGz99RQpC8HaVdRY
+GF/oBR4IGIWmtOnOQMplDLmKy+9bce4yb0m6ytVqLJUjcV/tuZAaPlbEYLVoLzjD
+S83mGcxGt3PU7Bpgb8F+gkvY
+=itqZ
 -----END PGP SIGNATURE-----
 
---===============1274119488583479207==
+--===============0111514360991760401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -383,4 +383,4 @@ b68b10b6266009bc8770adf952d637250ee93135 Merge tag 'folio-5.17a' of git://git.in
 8205ae327e396820fb7a176a94768146ac0b87ea Merge tag '5.17-rc-part2-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 1c52283265a462a100ae63ddf58b4e5884acde86 Merge branch 'akpm' (patches from Andrew)
 
---===============1274119488583479207==--
+--===============0111514360991760401==--
