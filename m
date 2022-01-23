@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8180240293106162856=="
+Content-Type: multipart/mixed; boundary="===============3470864353151120663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 23 Jan 2022 10:44:33 -0000
-Message-Id: <164293467313.16765.9713364788197147282@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 10:44:36 -0000
+Message-Id: <164293467600.16832.8532805916488746128@gitolite.kernel.org>
 
---===============8180240293106162856==
+--===============3470864353151120663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 1c52283265a462a100ae63ddf58b4e5884acde86
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-1c52283265a4-e783362eb54c.txt
 
---===============8180240293106162856==
+--===============3470864353151120663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934672 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934675 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1642934672-10510cae0cd623b78dc8ef503bca861ffb0d23de
+nonce 1642934675-8bea487e420fc018d2db0496d4043405892a7632
 
-1c52283265a462a100ae63ddf58b4e5884acde86 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/staging-linus
+1c52283265a462a100ae63ddf58b4e5884acde86 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMZAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ry0QALKFzT07GHhOEH0CBw8E
-FrXDUNwx2Ntr/UAIL+00Q3sYMdP4ZRm2Rj4I8CIQCoiuCJ4DGei8+H3E5JFzoa+2
-XZEzfqbvmHnvE1SmOCeNXMIXb1/rExBPSwljWR+2KNPvy53zHlS40kVs1srlQV5S
-2OwMjbNAbmuzgLwo4svH60jzwa165Q5JaA2+OQbaE7+EwgyOunXk5LFRgBp721BC
-BoNnGpKNwziS5l6m0fUFROE4CsfyV2zA3jWGztVw1ycdJfyQiQFcaR97IE256Y2R
-tp+P9Q4jAzISwV8O3Kmqv+GdayKXFTf9FSE3HOM7UVYzkTwc4d3Jf3dHCMst96b8
-0xYEvzka8TOmDLtPzFWzcji9/ozaYjx2sQCqTUeiMn3bYVjauStcjACPANsvDqfy
-Y/VU5J7LZgDB49LseehwrNgh9sdKbsNm3kVJwUPmv4WfNrFdgnkh6ah7rT52S0Iw
-Ty1kAI97JWr4zo+3SursGslx2qOk0cUUYUkzdFTiCosnxJ/P5K5Q73k5gxU4SYlc
-M+fondD4malQpM8MttKjRcpesn0CE0TxGGzhdkh11jGLOGyIExEggJdMVH+wjjuN
-5+oDFIbgbagajP1XLhI5S5K9M8CbQCVHZWS89n1R5xc1n8ZFcALDZcPnPNcsmVYH
-kMPkVgZIQkIqqG8v/HYtFL0O
-=Xc59
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMZMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZyAP/ioZR4aMyrVlsFZMHhvC
+ssmX2xaYkVUyYQjjM4pG5BWARICyCM86+8Glal3036Db7brKcUWsThtTBzT35iJC
+1kQKg1BsYNLLYP/2HXJD9287tlQguSYsbgPxjD1/hSJe9aTn7R3LvjeD60TslS23
+tFKZKUH2UW+DbkBaxDYPU8CNCKQRp6iL8MdvT1QNcE/5L9O42Jc+v/hogtTQZelm
+zTdcmnxAY0I/BnU+hMfuLVjWyeq0LfT/7r2++95/YU0JPE9PJoNCxOJvsFNJhKct
+GzQ5NhHpn03yAQ9EdNZieypQtdmPQvuwynWfMeTGkN0Yu/HRZt07Zb19Cddp6uLR
+E+jioZB0q+drasbmLZJJgkflbyroEBGMrMOj6sabnmTE1rw1T8aVALYYUmtZaIEV
+Ei9FkDjfOCx5yqd/43EF5+MkjWDlWtKny07e2vPb8eR+mDV5DvB+8Fa5SvIp+9LT
+7EItNJH7kQjrRh7Xuo5oGfGLdhaC3Awhftk21z3kYqRZSU8WL9+Sm+qb4MbmKGUE
+RMT0OG4WrGDrm8uSkWyHuaVlHy2C7ivVDG5dxy4GW3W4pT6mFpog4ouCPOVtoaSL
+oZ+TLK9eSPG34I+QB5rrKUd2jCSrIQ0/aNmQlO+gMqMrCRxjBlziVCY4ImncWQFL
+TPBGjzIR0K7DF3+Hk0XzcudO
+=KH5x
 -----END PGP SIGNATURE-----
 
---===============8180240293106162856==
+--===============3470864353151120663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============8180240293106162856==--
+--===============3470864353151120663==--
