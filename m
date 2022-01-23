@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6052867321003958493=="
+Content-Type: multipart/mixed; boundary="===============7481344392468666576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 23 Jan 2022 10:45:21 -0000
-Message-Id: <164293472188.5646.18140805819520819583@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 10:45:53 -0000
+Message-Id: <164293475312.11990.14827701295117439693@gitolite.kernel.org>
 
---===============6052867321003958493==
+--===============7481344392468666576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/debugfs_cleanup
-    old: 05256ee56172720b76b8c278e5eef30debc8730c
-    new: ce28de892efe4bab8c2415dfc73a8ddfa3e15988
-    log: revlist-05256ee56172-ce28de892efe.txt
+  - ref: refs/heads/module_ns
+    old: b39a8bd86fa65ef5523601f82ca5731e0f64504c
+    new: 2b5be8852f5ca17fbf69a0a4e5150c8ea131345b
+    log: revlist-b39a8bd86fa6-2b5be8852f5c.txt
 
---===============6052867321003958493==
+--===============7481344392468666576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934720 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934751 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642934718-6d4bf89172fad6cebea14da8a946b7ca020e1f13
+nonce 1642934750-4609998af7a073bcf024bcaf034b4b38ae4f2b9a
 
-05256ee56172720b76b8c278e5eef30debc8730c ce28de892efe4bab8c2415dfc73a8ddfa3e15988 refs/heads/debugfs_cleanup
+b39a8bd86fa65ef5523601f82ca5731e0f64504c 2b5be8852f5ca17fbf69a0a4e5150c8ea131345b refs/heads/module_ns
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMcAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QwP/2SLiekHyETwtqchvL6S
-LjT0CiJan+uuv6fgxBM+ae8UYfWfu5cg1mYr9gC8IQ2jbtAEpZVLdRlnk2HBzD7c
-K8oVtbH0FJc0a2PdK83/9cGc+PTcopgqedNUxPbPC2dSsErtyy+8GC653Hi0CJc5
-8PZR+vo7OFqJaz94H4Ss3jk2TZ7RlDTfzzwDHv98TAaROTJgLYju/xhxxQQ6ai7c
-rxSwXafsXZ7MOJsgstblTF7NCnGKs0tNsYHq6NDbrnmx53GXUAIWh3+NPh5IBwIi
-PsgNp5bAXAPZv0IA7MSAXw5itIwv/oFRpkc5E9/zw/O6RYxVfqIyVBvvRBdyf4Nj
-e15vi5Y91zt1STDCnxsyjtTHXmjwWGprYjdLvt5Scb/tZd+7s9tcR/vZnEWviBn1
-60EMH4yZq5s1leaOkqPUl1/JrgmsA2Y+BRc9eBcS2oTp0tvAiy/VmefpcLsTCCr0
-9xUS6bfdx1LPUIs+BeKud12uXcoG0Yy6fyOK7WhO+f/XS3UNMoh/N4XWP3Y4+obv
-p3s+KuPVZ7cU4BChbrCb9VB5D9S0M+1D3xy5LjhQ3gLj4TZfOObuuEMnn456r1qu
-7dPSxQLCm7t2ROwXGIMZXOW64NqTVMbrVPYbTnbnCilWmYDHLnv9y6Zr0ArG690h
-wQGIwf+wNRs5iggNSMEkXOxZ
-=ZOGh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMd8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+doAP/0LarMndGEEK0O+Cv06N
+9dUDXE/BxqkWntw/gJfgEiqrEODGb7BSsW+H0Mpu+vHXah1+5luBUHsiMKD6zf0R
+XkN1TamRShShHfJw8wTlfeXcwVpOvaVjf3At9vCmYc+ZgydP+1rxEm7WEcqChAOJ
+89VzupM30D/P6gE3qg3o6Kstph5njwmcQJ5n0PXRkbocL87dcgeL3wjVzznXCZ30
+LDXe+QoKAbMJnqoWAI3kHGXlbXkFoXVOedJyUMWhLBuJBA9XZjsjOAIwnePR5/AB
+Rv4wu/8+pxZv7Pp1+GnOK1xWVErcdJcStk1JFw7KfpvUIJfcwrofxpS/uYaKfE8j
+bh98okYVLaCm7e770fQ8gSj38kwESmrQigvkxyadHWeIIRnH7HcV+movh7LbfNOk
+L2Ud00NOsdfgxi2kJarypCZmaMOp3ZnIy5rDBngaFx34VV0G1/EWFe9ITOQvncGF
+JRJwQz0dDq7RyPCVCLKtesCXbELliHMxSU0noEAYLtOWvOy0gGwoML2qyHyR238b
+u0KsIckDZCvtdticp9JC6VWyEVu0t7/XPdsTvptBz5wVuaOI3aPq8tk0CrRJa13v
+840Owns1BIiEYaGLBbCgCyuI7BxxY7Gaa+GLHu1ahqkyBjv/gOUe0Dfl0eTmdGFN
+7jiqbjRD65jWbXV7RcVulx2A
+=/hdz
 -----END PGP SIGNATURE-----
 
---===============6052867321003958493==
+--===============7481344392468666576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05256ee56172-ce28de892efe.txt
+Content-Disposition: attachment; filename=revlist-b39a8bd86fa6-2b5be8852f5c.txt
 
 b7ec62d7ee0f0b8af6ba190501dff7f9ee6545ca bitops: protect find_first_{,zero}_bit properly
 6b8ecb84f8f64017ae6e56cd745ad88e48f68779 bitops: move find_bit_*_le functions from le.h to find.h
@@ -100,6 +100,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-ce28de892efe4bab8c2415dfc73a8ddfa3e15988 pm / wakeup: simplify the output logic of pm_show_wakelocks()
+2b5be8852f5ca17fbf69a0a4e5150c8ea131345b export: fix string handling of namespace in EXPORT_SYMBOL_NS
 
---===============6052867321003958493==--
+--===============7481344392468666576==--
