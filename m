@@ -1,34 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============4461078746481001900=="
+Content-Type: multipart/mixed; boundary="===============8287768008494563024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 23 Jan 2022 19:18:49 -0000
-Message-Id: <164296552942.22921.3463445672536846847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 23 Jan 2022 19:34:32 -0000
+Message-Id: <164296647285.1180.11397605565388004260@gitolite.kernel.org>
 
---===============4461078746481001900==
+--===============8287768008494563024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/dev
-    old: 1385139340b7a1c8f35cb7a52af221096cdef86e
-    new: cf2fbcfc6b38b48b1fc1c18189442a576149b4fe
-    log: revlist-1385139340b7-cf2fbcfc6b38.txt
-  - ref: refs/heads/dev.2022.01.18a
-    old: 0000000000000000000000000000000000000000
-    new: 1385139340b7a1c8f35cb7a52af221096cdef86e
+  - ref: refs/heads/x86/cpu
+    old: 244122b4d2e5221e6abd6e21d6a58170104db781
+    new: 7237727f8c4415fa925c723fc03be373834c21b9
+    log: revlist-244122b4d2e5-7237727f8c44.txt
 
---===============4461078746481001900==
+--===============8287768008494563024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1385139340b7-cf2fbcfc6b38.txt
+Content-Disposition: attachment; filename=revlist-244122b4d2e5-7237727f8c44.txt
 
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
+eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
+448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
+1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
+3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
+86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
+49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
+63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
+3ac23d199c2bc3bc2a2b31c803e7c5d841959670 perf cpumap: Simplify equal function name
+51b826fadf4fc42c8614b752b6cb0cb516589ade perf cpumap: Rename empty functions
+194a3a202564153493789997643181737a6ae4b9 perf cpumap: Document cpu__get_node() and remove redundant function
+4e90e5cc74c6b1c1b9abff8b53cec5be1fb5e839 perf cpumap: Remove map from function names that don't use a map
+adff2c634357115a0f94a9a5054061b497df7f72 perf cpumap: Remove cpu_map__cpu(), use libperf function
+5f50e15c1510c77b37e10c6b22912bf4bf11476b perf cpumap: Refactor cpu_map__build_map()
+973aeb3c7ada35b75442126c745bb6074cb3e172 perf cpumap: Rename cpu_map__get_X_aggr_by_cpu functions
+dfc66beff7fa95b9eb507ccb48fb325569bc2f74 perf cpumap: Move 'has' function to libperf
+92aad5c33f531187cc6013c8e51620212cdfefe1 perf cpumap: Add some comments to cpu_aggr_map
+bd26bddfd93688d10984251249b84e1f6d91de27 perf cpumap: Trim the cpu_aggr_map
+f9e891ea172235f902972069b87be3bdc7c48f5a perf stat: Fix memory leak in check_per_pkg()
+34794913e2dc08a464499f795073a021feeb3b47 perf cpumap: Add CPU to aggr_cpu_id
+7365f105e37429d28757f7f68d4850723ce18aa1 perf stat-display: Avoid use of core for CPU
+2ca0a3718da24953689b1771589ac63b60f17358 perf evsel: Derive CPUs and threads in alloc_counts
+7e3d1784c8a4d9c643a6ed0a2c44ee94dee8f7a6 libperf: Switch cpu to more accurate cpu_map_idx
+47ffe806674f67e729627edd689b10827b1790eb libperf: Use cpu not index for evsel mmap
+7316268ff740c29dfb52649ff8074a5aa17ec0ce perf counts: Switch name cpu to cpu_map_idx
+ab90caa7b2d0b708cfee16b33325ca24de4d8f25 perf stat: Rename aggr_data cpu to imply it's an index
+7ea82fbee4598e51e8bf47566b252cd5745d5b17 perf stat: Use perf_cpu_map__for_each_cpu()
+f9551b3f6249cfe8ea5b5f8716675ccf2f6ec737 perf script: Use for each cpu to aid readability
+80b82f3b65e94ba22d3f12a98f7ecc56cc14c903 libperf: Allow NULL in perf_cpu_map__idx()
+472832d2c000b9611feaea66fe521055c3dbf17a perf evlist: Refactor evlist__for_each_cpu()
+7ac0089d138f80dcd7ba8ca368a9b2bdfe780b16 perf evsel: Pass cpu not cpu map index to synthesize
+da8c94c065174099853a207d9716a49d339b265f perf stat: Correct variable name for read counter
+2daa08c4d9cd9d0845094d718920e5d105c11558 perf evsel: Rename CPU around get_group_fd
+1fa497d4c01d497e25131ccdd5def6f24dd1f330 perf evsel: Reduce scope of evsel__ignore_missing_thread
+6f844b1fdd3bc3a25995ff83edea32a73bfa72d9 perf evsel: Rename variable cpu to index
+aa11e55a39950c0151e12abd30c7223dfc6f6a2c perf test: Use perf_cpu_map__for_each_cpu()
+379c224bef724cf52bd3d2364d29fc63f3e743d3 perf stat: Correct check_per_pkg() cpu
+5b1af93dbc7e64ab1b872129cfe1f2318cc29c67 perf stat: Swap variable name cpu to index
+91802e73f77146d69afa0be7eafc983ec84b2bb0 libperf: Sync evsel documentation
+7263f3498ba8b6e65c1d810ccafec64cd61a6dc1 perf bpf: Rename 'cpu' to 'cpu_map_idx'
+84d2f4f0375d4857f9f9e57a9ad75cbf0f34e108 perf c2c: Use more intention revealing iterator
+b57af1b4017abff969425dffd6f59ddfdedce8cb perf script: Fix flipped index and cpu
+ce37ab3eb2490aba60ab1a622a4c6c6ee9a7cc66 perf stat: Correct first_shadow_cpu to return index
+6d18804b963b78dcd53851f11e9080408b3d85c2 perf cpumap: Give CPUs their own type
+0ce05781f4905fcfbbb489519e36be71c7b0bbcc perf tools: Fix SMT fallback with large core counts
+6dd8646939a770e4ec0220c1c19d6af25c5877b7 perf tools: Probe non-deprecated sysfs path 1st
+4a9bca86806fa6fc4fbccf050c1bd36a4778948a xfs: fix online fsck handling of v5 feature bits on secondary supers
+f56ef30a31d388663e78b9be687d67748c9b7297 perf expr: Add debug logging for literals
+c0dd94558d0e473aa92254e1c48a47900c911e69 perf pmu-events: Don't lower case MetricExpr
+7e7b69654724c72bd3219b71f58937845dca0b2b Merge tag 'dma-mapping-5.17' of git://git.infradead.org/users/hch/dma-mapping
+9c0c2c7aa23cbf78277557cfe8ec8bb7689225fe net: marvell: prestera: Cleanup router struct
+6a1ba8758f67e37a48fd2f940032a2b186bcf021 net: marvell: prestera: Refactor get/put VR functions
+32d098bb2e494cf282968ae654dadf7299bb73b0 net: marvell: prestera: Refactor router functions
+e179f045f90d8947d3c2addebd620341b7daa4a1 net: marvell: prestera: Fix deinit sequence for router
+42a7b4ed45e7667836fae4fb0e1ac6340588b1b0 Merge tag 'for-5.17/io_uring-2022-01-11' of git://git.kernel.dk/linux-block
+d3c810803576d867265277df8e94eee386351c9d Merge tag 'for-5.17/block-2022-01-11' of git://git.kernel.dk/linux-block
+c9193f48e94deaeff0c9abbc67b9584e8ddc42ed Merge tag 'for-5.17/drivers-2022-01-11' of git://git.kernel.dk/linux-block
+49008f0cc1ef0b86ccfa0d1d99e67741d46bd35b Merge tag 'for-5.17/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+415b4b6c447ae03cb1d9cfc91df39616c92f15e2 ACPI: PCC: pcc_ctx can be static
+679f8652064bfa2f622c7b2bab86b1bf3207d6bc leds: Add mt6360 driver
+2ab9c9675fe892e7fe9fa8c0a6125e2b40d2889d Merge tag 'media/v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+fa019ba4f202bce2aa1c6fcaead828d9625b9084 leds: tca6507: use swap() to make code cleaner
 495b8966f7ad92cac9ff84b52ce6365b1bf9c68c leds: led-core: Update fwnode with device_set_node
 8018708d2d39a08144f39f0a61e49cdb943c2b2e dt-bindings: leds: Replace moonlight with indicator in mt6360 example
 6212264be7df1d6b5b9eec4f1f1539abb071ff85 leds: lp50xx: remove unused variable
@@ -976,82 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-f0b6d583778f87d6709353cb69c0231f8dc94507 tools/memory-model:  Document locking corner cases
-745ccc27c6ed1fa1b1889cd2287f556b4a798aff tools/memory-model: Make judgelitmus.sh note timeouts
-566e465472458f0a17513754ce397eaae707ee33 tools/memory-model: Make cmplitmushist.sh note timeouts
-c1ac03cad5261c3c383372f339d1a75e8b62ec33 tools/memory-model: Make judgelitmus.sh identify bad macros
-645af6387f93c5f85eef118409ffc31e2ab035fb tools/memory-model: Make judgelitmus.sh detect hard deadlocks
-1b629be172cc059ded988e8c3fa7bc2de889c239 tools/memory-model: Fix paulmck email address on pre-existing scripts
-4a8f7516f8a4f9a1c382e8e40beb7a8f86f8fe21 tools/memory-model: Update parseargs.sh for hardware verification
-70b4134acb7abc1006a21760b78128cf0e08b812 tools/memory-model: Make judgelitmus.sh handle hardware verifications
-bedc6b471a023f45e2f399d3851159e09242c4f4 tools/memory-model: Add simpletest.sh to check locking, RCU, and SRCU
-07bf87795cea6a408e4eeccc339a5947975a8f38 tools/memory-model: Fix checkalllitmus.sh comment
-2274b2ccaff30281b774cb3797bc02e603f19a48 tools/memory-model: Hardware checking for check{,all}litmus.sh
-5c6c48538c287876c52ac93fd370fe70ac3f2dd2 tools/memory-model: Make judgelitmus.sh ransack .litmus.out files
-fb44f4ed3424c44494c26be95fbe9e52d6886bdc tools/memory-model: Split runlitmus.sh out of checklitmus.sh
-7af5a81966a938ee30b015f8fbc53d4edf833290 tools/memory-model: Make runlitmus.sh generate .litmus.out for --hw
-02b5fe964c4c0333f8f9034abc8ebe42a1a2fbe9 tools/memory-model: Move from .AArch64.litmus.out to .litmus.AArch.out
-1ff6e62017bd6f62f56bdf0b686aede28ebab6ca tools/memory-model: Keep assembly-language litmus tests
-d932da33ba6cae9341a3832e29f89e1fea19d025 tools/memory-model: Allow herd to deduce CPU type
-68c2f21d740ac0101ecf150db398853513137b52 tools/memory-model: Make runlitmus.sh check for jingle errors
-b9c053cb9386659297c41697c4d5efc7087ecbf2 tools/memory-model: Add -v flag to jingle7 runs
-2544fe8eaddd48fecb395d215767b45d3e4479c4 tools/memory-model: Implement --hw support for checkghlitmus.sh
-dd48b525a7912b30a5a3c585cbb91bf0f8c1d6dd tools/memory-model: Fix scripting --jobs argument
-2db2f450560287550869f3c091bc3e6e79405e11 tools/memory-model: Make checkghlitmus.sh use mselect7
-1d6e9ee531e213ab5cfdd43f9897ef73e1f3e3c8 tools/memory-model: Make history-check scripts use mselect7
-7cfae94e33191edd690d041c1643057a36a18822 tools/memory-model:  Add "--" to parseargs.sh for additional arguments
-d96e2654b19a4c4c6bb03f130c1fc353b18f301f tools/memory-model: Repair parseargs.sh header comment
-ca2f91442ec4038edfecacbfa4373d3bdc738d86 tools/memory-model: Add checktheselitmus.sh to run specified litmus tests
-08d96e9c8f7166342a2c9b7b1baab5669c26d5a0 tools/memory-model: Add data-race capabilities to judgelitmus.sh
-24a8c7305cb096c0fe642bebad3f404003e67dae tools/memory-model: Make judgelitmus.sh handle scripted Result: tag
-379f02db068f3d3d03ad78fc5f505019fda9de41 tools/memory-model: Use "-unroll 0" to keep --hw runs finite
-4fb5bd514d6e30668bae7ad95f85c86f8937384d MAINTAINERS:  Add Frederic and Neeraj to their RCU files
-75018b1b234234d3d65a6cd8acb0333f571ebb38 rcu: Fix description of kvfree_rcu()
-2ab0d6b79d898a6801c6c5636c76b8d3922f81a5 torture: Drop trailing ^M from console output
-03c6866d3e475125a89aaefa19d30d91c00dea3b torture: Allow four-digit repetition numbers for --configs parameter
-3ba9d91ee624e22bb46163d9b46de19557ff6489 torture: Output per-failed-run summary lines from torture.sh
-03ad4bf803152e4eca1ff8bed200f76a7eb47b86 torture: Make kvm.sh summaries note runs having only KCSAN reports
-14d4da0d79e59edc92f9049cefe94471110da093 torture: Indicate which torture.sh runs' bugs are all KCSAN reports
-f4dd947204472f7531fbfb45889e5a13243dff6a clocksource: Add a Kconfig option for WATCHDOG_MAX_SKEW
-3dd466fde527d2a977f70a0a9eaeb7ff0ca9abf4 rcutorture: Print message before invoking ->cb_barrier()
-335f1afc0523be0e6dedb1942c506631b7acf668 EXP rcu-tasks: Check for abandoned callbacks
-99c8e39944c6c056f8b152e14ef4c74ab8061cbe rcu: Kill rnp->ofl_seq and use only rcu_state.ofl_lock for exclusion
-ed58e5dd4e5fc52a1994b4c5542def945f2691b7 rcu: Add mutex for rcu boost kthread spawning and affinity setting
-ea10f9c84cab8e9ffab789ee4a0c9a278ce075bd rcu: Create and use a rcu_rdp_cpu_online()
-90e938f7b656bc83862199d29f5004b347bcf457 rcu: Refactor rcu_barrier() empty-list handling
-0ca381cbf492506cc46c5486f35879523de28a05 rcu: Rework rcu_barrier() and callback-migration logic
-b806ff40d689f6bb61441aecc4121d3314e3345c rcu: Make rcu_barrier() no longer block CPU-hotplug operations
-7b4594bc7f5e7eb19d601c100a0345362008bdc0 rcu: Mark accesses to boost_starttime
-f3e8d59a13dd93bf21f5480fa08fbea1a6435d80 rcu/exp: Fix check for idle context in rcu_exp_handler
-8aff64910d1d696d68b0edd2bef575b783852977 rcu/nocb: Handle concurrent nocb kthreads creation
-82f48f816fd0c1c1211ba00c536d71a0d4e94792 rcu: Remove unused rcu_state.boost
-756dbb4a3798efb0ba36fc8bf980f876d444dc64 rcu: Mark ->expmask access in synchronize_rcu_expedited_wait()
-155ea796ff958b785396a4370c2091647c3f51bb torture: Distinguish kthread stopping and being asked to stop
-cf4f1bfca58478c7bb0fc111ef8a4682cab5b5eb rcutorture: Increase visibility of forward-progress hangs
-58d0afb931ad4b8bc1ab6074b7552c956ff36ab9 rcutorture: Make rcu_fwd_cb_nodelay be a counter
-32866bf3082334cf663c602488b622125b1fb992 rcutorture: Add end-of-test check to rcu_torture_fwd_prog() loop
-d8dcd25163d7ef39c77418301647d8e914b4ae12 torture: Compress KCSAN as well as KASAN vmlinux files
-b3c21778c95dfa1058fd7b74a11b0a2364f9a79e rcu: Inline __call_rcu() into call_rcu()
-f25ef1da16798cea66e044d665f495b04f2306c8 torture: Make kvm-remote.sh try multiple times to download tarball
-b69321ad7b8a0f69afa037b9242ae4f340ca7c75 torture: Print only one summary line per run
-e6a0216f73b2194041c5db1829ebfea3fa97a928 kasan: Record work creation stack trace with interrupts enabled
-bf3f5521dad9739468cba200bea8ff2b83fba5e5 rcutorture: Fix rcu_fwd_mutex deadlock
-dea5ba9ee6d7f9c06e45ba8160ff4b2840788517 torture: Wake up kthreads after storing task_struct pointer
-d466bdf33eecdd4387473e1f78936f41369b5419 rcu: Create per-cpu rcuc kthreads only when rcutree.use_softirq=0
-2eee153318726577b41858f3d7a67eccab7317ee rcu: Mark writes to the rcu_segcblist structure's ->flags field
-92e24a7dd2383a84131edb2b843259cb80e9e014 RCU: move kthread_prio bounds-check to a separate function
-ebed272c769aabf38e0035cb7b5c5a41e4ed5439 RCU: make priority of grace-period thread consistent
-38661c1db7d07025f36ba289f99d5763f2c3f827 RCU: elevate priority of offloaded callback threads
-a6d5a3042f19a2b507690440bc52d4784fa30ece RCU: update documentation regarding kthread_prio cmdline parameter
-e8eb6bde59969c9a077e626589a9d19eff15774c srcu: Tighten cleanup_srcu_struct() GP checks
-aa55e0da8120d0f9d1764af97d639904a4f4883f rcu: Uninline multi-use function: finish_rcuwait()
-ff96e7b8a675df8b4c79ab97db308d3e22236c2c rcu: Remove __read_mostly annotations from rcu_scheduler_active externs
-985aa596d43e57ae4f734e34a7104bcc3ee2ab8a rcu: Allow expedited RCU grace periods on incoming CPUs
-b6d1a869def219632953ce0a6eabbfc1a29b5548 torture: Make kvm-find-errors.sh notice missing vmlinux file
-7d8417df5fcea68454013cea5ee9b7942e94dacd squash! torture: Make kvm-find-errors.sh notice missing vmlinux file
-8ab502eb6176c842302e91842a6639db8133ceb2 srcu: Fix s/is/if/ typo in srcu_node comment
-0fb5b6c55ce0e89fd5a781371d76c9434e336181 srcu: Make srcu_funnel_gp_start() cache ->mynode in snp_leaf
-776e8a78f36ea3dd970bc209db8865709bb931e0 rcu: Don't deboost before reporting expedited quiescent state
-cf2fbcfc6b38b48b1fc1c18189442a576149b4fe srcu: Dynamically allocate srcu_node array
+7237727f8c4415fa925c723fc03be373834c21b9 x86/CPU/AMD: Use default_groups in kobj_type
 
---===============4461078746481001900==--
+--===============8287768008494563024==--
