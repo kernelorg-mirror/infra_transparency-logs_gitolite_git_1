@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3461238646350615198=="
+Content-Type: multipart/mixed; boundary="===============3813170253573517368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 23 Jan 2022 14:09:57 -0000
-Message-Id: <164294699719.14385.17366742613326414874@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 14:12:24 -0000
+Message-Id: <164294714429.16628.18393919238098818606@gitolite.kernel.org>
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,173 +16,188 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 0cdbe9ddf411d0ba9ef8c82c47e730c18df8fc99
-    new: ad6a64b7bd464c563a7c971f664e94c91a1c815f
-    log: revlist-0cdbe9ddf411-ad6a64b7bd46.txt
+    old: ad6a64b7bd464c563a7c971f664e94c91a1c815f
+    new: 8eb69573176656f2aa7b47b92733b90aceb0418f
+    log: revlist-ad6a64b7bd46-8eb695731766.txt
   - ref: refs/heads/queue/4.19
-    old: 5348efc14220233da0c49e0246df3b9ecc946271
-    new: ba439ac027ecc79a2d493708f72f09956b77ea21
-    log: revlist-5348efc14220-ba439ac027ec.txt
+    old: ba439ac027ecc79a2d493708f72f09956b77ea21
+    new: 5ec1530dfada2ecd1c2fac3e6ad0a303477773f2
+    log: revlist-ba439ac027ec-5ec1530dfada.txt
   - ref: refs/heads/queue/4.4
-    old: 7b09f48907e1813adc38b138ace727528454cab4
-    new: 04a004f42038e8d09104765de1b40b121c8a7f67
-    log: revlist-7b09f48907e1-04a004f42038.txt
+    old: 04a004f42038e8d09104765de1b40b121c8a7f67
+    new: 4ee32fd0354aa01f180a21f86915a914cf465737
+    log: revlist-04a004f42038-4ee32fd0354a.txt
   - ref: refs/heads/queue/4.9
-    old: e6d2da8ed875ab6b77b74a15a2303ef73d4207f0
-    new: 31c793922779d4d437f54c81f8352657ef5bf079
-    log: revlist-e6d2da8ed875-31c793922779.txt
+    old: 31c793922779d4d437f54c81f8352657ef5bf079
+    new: 472e075529ab17f4c413b35d52694a76dcd27799
+    log: revlist-31c793922779-472e075529ab.txt
   - ref: refs/heads/queue/5.10
-    old: 023a929820c655937c00a421db8aba104152e33a
-    new: a28c6d61afa8cfae06e635c774bd4ddd9820cbce
+    old: a28c6d61afa8cfae06e635c774bd4ddd9820cbce
+    new: 7867b6d2f649b2dd7d4890bcf37e89760734728c
     log: |
-         4bd8bcd9d2ec675bd493177abf8347a35c9c6176 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
-         dae1cfe93fc994ec539303595d024963f12d5aaa HID: uhid: Fix worker destroying device without any protection
-         c65f89d72afba0f1b5f7182d3ffc5d4e1efd4dfc HID: wacom: Reset expected and received contact counts at the same time
-         859b057b23542b7a557bba01b1c2c324ab1735e0 HID: wacom: Ignore the confidence flag when a touch is removed
-         a28c6d61afa8cfae06e635c774bd4ddd9820cbce HID: wacom: Avoid using stale array indicies to read contact count
+         4df48b05e9a3d67250dd70e3422ae8f11156fc46 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
+         d1645745126fd26e1cced73a1461c022409729a4 HID: uhid: Fix worker destroying device without any protection
+         48e27aebff3f75a0eb5cd0f84b073b83a93bd155 HID: wacom: Reset expected and received contact counts at the same time
+         72d9017f83e2bb3cdbaf342b256a6b90628119f5 HID: wacom: Ignore the confidence flag when a touch is removed
+         7867b6d2f649b2dd7d4890bcf37e89760734728c HID: wacom: Avoid using stale array indicies to read contact count
          
   - ref: refs/heads/queue/5.15
-    old: 55dc9db79a811af9f24a620d39d9756f47209dbd
-    new: ec27f5ab1ac2b6a76745048bb4b9a4b30f82b0eb
-    log: revlist-55dc9db79a81-ec27f5ab1ac2.txt
+    old: ec27f5ab1ac2b6a76745048bb4b9a4b30f82b0eb
+    new: 160afa1afc2d592013852d2545cecea3e940f055
+    log: revlist-ec27f5ab1ac2-160afa1afc2d.txt
   - ref: refs/heads/queue/5.16
-    old: dbd0ccb8a562a50c7bcd786fa63c26c572b337dc
-    new: 8604fc185a99ef0c93ca4515398b18148476d187
-    log: |
-         5968d665514d6b14c9d271d77f58c267cde923fc KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
-         a975bb18ac0e4faaaeccce5ef7377cb4e7f815ef KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
-         cdcf40bae59dcb258d04d0f3aaa15acb19fbcf62 HID: Ignore battery for Elan touchscreen on HP Envy X360 15t-dr100
-         586ccb2d4585df5feb810efde8118fdcb3f4b09c HID: uhid: Fix worker destroying device without any protection
-         90a1fc11240aa0f8b98a52fd134e32829595811e HID: wacom: Reset expected and received contact counts at the same time
-         d7a11e16060d64a975b8eb5de1df3697e49f8d7e HID: wacom: Ignore the confidence flag when a touch is removed
-         3b5447080d2f90864a0f767107c6719ffa2ddb1d HID: wacom: Avoid using stale array indicies to read contact count
-         8604fc185a99ef0c93ca4515398b18148476d187 ALSA: core: Fix SSID quirk lookup for subvendor=0
-         
+    old: 8604fc185a99ef0c93ca4515398b18148476d187
+    new: c623f7f5e740f0f2e218c7e4e229716cd456ef94
+    log: revlist-8604fc185a99-c623f7f5e740.txt
   - ref: refs/heads/queue/5.4
-    old: b3591abd0bd6ca675a8de937078f475c3b1af47c
-    new: c97c95e7be8c4ac6cd5481a22ed3b5140e0a0ae8
+    old: c97c95e7be8c4ac6cd5481a22ed3b5140e0a0ae8
+    new: 2803540ce738061e1ccbf5b672052c66d75089b5
     log: |
-         fc631bd81e5731859e725f60fc5f950d476d92ef HID: uhid: Fix worker destroying device without any protection
-         4b68fbd2071ea316e059450c29dd1a19d003ef62 HID: wacom: Reset expected and received contact counts at the same time
-         dc916f7c120893f7c6da624d86e4a7a7eddafbc0 HID: wacom: Ignore the confidence flag when a touch is removed
-         c97c95e7be8c4ac6cd5481a22ed3b5140e0a0ae8 HID: wacom: Avoid using stale array indicies to read contact count
+         d633423511278aba3a7be8b8e74becafe7d600ab HID: uhid: Fix worker destroying device without any protection
+         4b5e514562c49544482f60c7213b6da2fb2d0bed HID: wacom: Reset expected and received contact counts at the same time
+         27126472d3134a6ed033fd6c4648ccfa3faa98dc HID: wacom: Ignore the confidence flag when a touch is removed
+         2803540ce738061e1ccbf5b672052c66d75089b5 HID: wacom: Avoid using stale array indicies to read contact count
          
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cdbe9ddf411-ad6a64b7bd46.txt
+Content-Disposition: attachment; filename=revlist-ad6a64b7bd46-8eb695731766.txt
 
-072ff4a59348f91376596190a581abb1cf0939b0 Bluetooth: bfusb: fix division by zero in send path
-55f7592798d70dbca84497ce889bf622720520cf USB: core: Fix bug in resuming hub's handling of wakeup requests
-7f284226771a1ab6d6cd048226a1d4bc73138886 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-a7d47799425b3494b5eae7f1401b64001898cf51 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-8a71e32ae9300089d401bdbb25493da5abbd5a6c can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-18bfaf5bbf04ac88cfc21140a681d13501c4b9f8 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-440d8c4cbb57e0a86e5c17438ec13016a75b83f6 random: fix data race on crng_node_pool
-fac39afaa5b7dcec9dc2ef7a94f84f040607faa0 random: fix data race on crng init time
-7b143464de99d5099ac9f88a8c5990014382979b staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-747874a507005b41c09f6199cfce7dc834da3e4e drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-c06c8ab3aca385c4d2a630e35192a46371b0b757 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-7322aefe992ebeb06913f6f2330835e19f5c5c65 media: uvcvideo: fix division by zero at stream start
-307278ece7fa2d6b52b882ea9088529fecaf2a7a rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-8c6bcdc7d1b3c8afd814dd6a530b89b7db79f085 Bluetooth: schedule SCO timeouts with delayed_work
-ea1ed1667fa3d44439a44285ad5619c82255d69e Bluetooth: fix init and cleanup of sco_conn.timeout_work
-7842282547bbb0b61cc8bece93bbce238b5963e6 HID: uhid: Fix worker destroying device without any protection
-9e0ff1a8b6ea61e397cfe48674e20e2f4115af48 HID: wacom: Ignore the confidence flag when a touch is removed
-ad6a64b7bd464c563a7c971f664e94c91a1c815f HID: wacom: Avoid using stale array indicies to read contact count
+45a21548ea2024d3f855d2717b47dd86a97472ec Bluetooth: bfusb: fix division by zero in send path
+338f9319b524b057d740e9255ab0de56ce9039ae USB: core: Fix bug in resuming hub's handling of wakeup requests
+74043fed156bbd50005ce8b6e5255e82be8b6a14 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+ea0d61e546a55ec6adcb12bad03800889ef1070e mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+e668cd0999842f4a9c714417790411d52d4277b9 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+6fae0fa3a500eaa0ee037afca7b2180971c22a64 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+4628206c7e8b4133bbecb65722253d34a11b4afd random: fix data race on crng_node_pool
+5c924987ef568c0d430b266a9f5146c962868779 random: fix data race on crng init time
+af8b68ff91bb74771bd6124bae37cf2542b866bd staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+6cb56088b304904d8d45940e9af77c6e8db924a0 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+32ceb8f28d78bf5bdc1468634d57b23953d7543a orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+7b43434e4de5bb5f1e7999fd1047eb90c0ec4922 media: uvcvideo: fix division by zero at stream start
+3e12f596969c56a75b0dc4e0885c84cb390b14e9 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+455f09199e2e550517e24c400dc5adbc1d30c730 Bluetooth: schedule SCO timeouts with delayed_work
+2d3e48ada09437a306d3df2d4db6c21d54efd312 Bluetooth: fix init and cleanup of sco_conn.timeout_work
+9996ea4c2b5ea7871d991e67720a1d44b0c8f7f3 HID: uhid: Fix worker destroying device without any protection
+9d904df37ca651621ad09d31a45fc5a6557446f0 HID: wacom: Ignore the confidence flag when a touch is removed
+8eb69573176656f2aa7b47b92733b90aceb0418f HID: wacom: Avoid using stale array indicies to read contact count
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5348efc14220-ba439ac027ec.txt
+Content-Disposition: attachment; filename=revlist-ba439ac027ec-5ec1530dfada.txt
 
-15ab47cdab29ccb7bc742a741e730c3367cbf3a9 Bluetooth: bfusb: fix division by zero in send path
-a026bc8af4ed7c5633e782bb6ea72f000a926703 USB: core: Fix bug in resuming hub's handling of wakeup requests
-3204b519cc195dd28c830aa9511dc0e696045c00 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-58fd7b175923d4eec23345a0197ee8d1fbb5dedb can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
-eec0d771953acf08913aa4108de3ca1981a3aff1 veth: Do not record rx queue hint in veth_xmit
-1e388d60c584ee970bb36c2bee5c58a37c49ba85 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-9aa427ec311b29eaf222b166390d950730c84700 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-2835bc73bdeb3135b12000b2be6719eed49fced5 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-770a9277e5e320db03e70ff65b32a2e156bbfcef random: fix data race on crng_node_pool
-ccf7e1c9816902a5de583edba794aef24e07091b random: fix data race on crng init time
-591a7b3997bec35b118f2157e32176e25ac489ee staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-851b857e4545261042bda4d783d740dce35cd3eb drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-b1c74a79dc6ec3aca8c426b708640c879465f32a kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
-9f12ef28aef47931bceac1ad6ac0eed777858677 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
-7b961ac0890b8a9ad442466dfe1a912e4343fbfa KVM: s390: Clarify SIGP orders versus STOP/RESTART
-2b3c35d94899cab1c2da84400b99e409a4943a3d media: uvcvideo: fix division by zero at stream start
-dacf671d4ee61388a655d8789c623b584316fc45 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-9bc840a827b98bc59b96733c1afe84fd738a5b08 firmware: qemu_fw_cfg: fix sysfs information leak
-6c58f5f71437df7819e6d4189901bd77500f6d37 firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
-52a7c99f3fe72399c081cc211f8fa83d6457930a firmware: qemu_fw_cfg: fix kobject leak in probe error path
-071c793b442badb00142aa11504536c86aee349d ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
-2bbb0d6445c7fd6b51909eaefaa565597f2bc194 HID: uhid: Fix worker destroying device without any protection
-bd7e52181858c3405957e11561602fa3d05666c9 HID: wacom: Reset expected and received contact counts at the same time
-41dbe8cc3151688632c9890df1f6fa81dd9d12c6 HID: wacom: Ignore the confidence flag when a touch is removed
-ba439ac027ecc79a2d493708f72f09956b77ea21 HID: wacom: Avoid using stale array indicies to read contact count
+24df3db9b671be8c9e0fc2b7bc13a09921881b62 Bluetooth: bfusb: fix division by zero in send path
+d724a7cebe3b36d1df972d7ff29825cfb4fd8f0d USB: core: Fix bug in resuming hub's handling of wakeup requests
+99a389a604a87b7f35d4e230526653184b5edfb2 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+1ccd96acad87b1795b9cfc3971b980cf4ba89ebc can: bcm: switch timer to HRTIMER_MODE_SOFT and remove hrtimer_tasklet
+5d587943fbf074f418e0e8b3455ff72fa89b5f3b veth: Do not record rx queue hint in veth_xmit
+7a387498203901927e07af065e05b057c8e792ef mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+b5f176c97747b585524537864698766e7b7408e6 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+aef547900e7a0889417b27ee62296a3a00fa77ce can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+339d13044e077fbd3e260e626d6ccb5eeac5d81a random: fix data race on crng_node_pool
+a9e983596184aa6b2178d6fafadbc1523e5e6a56 random: fix data race on crng init time
+68b441685a73ee02c2e905876d5e6be6d932e832 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+fce657c163a3be20fcbfe1f64b4d07329f28d66a drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+5bb08fabcab3ee89cda4ff25feb226d03544eaa7 kbuild: Add $(KBUILD_HOSTLDFLAGS) to 'has_libelf' test
+08844f54556fb116896647028234f9caef0c1c45 orangefs: Fix the size of a memory allocation in orangefs_bufmap_alloc()
+53cd63541a84f3d33efa5c3f30d5bb25213b7d6d KVM: s390: Clarify SIGP orders versus STOP/RESTART
+ee96a7866eff0c684962a89b71cae8ff19f4336c media: uvcvideo: fix division by zero at stream start
+499096d01c240688195525875919a6935a1be8aa rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+cf25f7adcfbe503f0dc7bee3553929ee08a3cefa firmware: qemu_fw_cfg: fix sysfs information leak
+ee1ade9ca05591decfefa7e787219909f29e33c5 firmware: qemu_fw_cfg: fix NULL-pointer deref on duplicate entries
+5c7ba522bd69f896a03392a548c8e6ec2942bbed firmware: qemu_fw_cfg: fix kobject leak in probe error path
+79dc8eec6f8bbc61411daee28594171050d12d17 ALSA: hda/realtek - Fix silent output on Gigabyte X570 Aorus Master after reboot from Windows
+0b533a03dc6abcfafa88850e9dd803429930b5da HID: uhid: Fix worker destroying device without any protection
+9b96ef8ee293a6fffbc2409081eac8aaad65709f HID: wacom: Reset expected and received contact counts at the same time
+cd0ccd554a9d5d2b66ebb410d8831da523c708fc HID: wacom: Ignore the confidence flag when a touch is removed
+5ec1530dfada2ecd1c2fac3e6ad0a303477773f2 HID: wacom: Avoid using stale array indicies to read contact count
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b09f48907e1-04a004f42038.txt
+Content-Disposition: attachment; filename=revlist-04a004f42038-4ee32fd0354a.txt
 
-004864d8cb023f3be767e982f67c72e7bee4db2f Bluetooth: bfusb: fix division by zero in send path
-14e0b0bb4c28f3626a178e9bede5c90d3f234560 USB: core: Fix bug in resuming hub's handling of wakeup requests
-b59573b22407e98b3c78509676eb6bee8cbdb2d0 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-e24b8bce1d44ac1e59d095f43adcdf715f7bfb0c mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-217836aed98c9d3a522951f885350ad91c2edaac can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-d7205f94043c96acb9adc175df7adaf105a8cb99 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-97501f6fbdad15b3e33a1cde11c3b17bd4779009 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-83239f17e520eb1a758fd1b90a84a40e6e97913f media: uvcvideo: fix division by zero at stream start
-f8717bb0d29073b10fc77f82361f7999ee3d6d50 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-04a004f42038e8d09104765de1b40b121c8a7f67 HID: uhid: Fix worker destroying device without any protection
+3e2025a7aff38f978030a46c0a6d494f9d00f9b0 Bluetooth: bfusb: fix division by zero in send path
+1ff7f15e9a9f299e704cb9b9590d20f172ca95dd USB: core: Fix bug in resuming hub's handling of wakeup requests
+bbcc213aa86c906c59231434efe64e18004b792a USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+b77bcd3add53361801fc42a903d5b1417950e827 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+835d77815e511f96489e3b0c81f9940e231b8ed1 can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+fcc2e2bec2a5a5f08d215ecb53e1bc508e104375 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+04ef075a284691fa9912a32f19bc1acf1f994d63 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+ad56907045912ca9656854fb93c41d9a5307853e media: uvcvideo: fix division by zero at stream start
+f28d3fc5b17239f562ec155bbe0c0265c089bd57 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+4ee32fd0354aa01f180a21f86915a914cf465737 HID: uhid: Fix worker destroying device without any protection
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6d2da8ed875-31c793922779.txt
+Content-Disposition: attachment; filename=revlist-31c793922779-472e075529ab.txt
 
-9bb166a6822dc69289003d1e365edc3d971fb4b5 Bluetooth: bfusb: fix division by zero in send path
-74d4eb69e1bf47bf32bd5d97837b553607f5ac2a USB: core: Fix bug in resuming hub's handling of wakeup requests
-6f4193e8d8e95be907430806196e5996baa3570f USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
-cfddf6393c617e6870d0ca55488d128878646cdc mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
-7e6b2f626f1ad23d281ffd1006c4482e45f2d67a can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
-5b0b1ffc84ecb620abdc6c4a5bbc5611535c81d4 can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
-5c92762369be9f926c3155ecbdffa6c58bd21ecb random: fix data race on crng_node_pool
-ab9151314c36954e3680ec18f1d43aca632a9e1a random: fix data race on crng init time
-bc72227d6ebd77c134e51f4537b28a347cbbe0d6 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
-c9436c60949d48ace5ac652c178d91016c8cf37a drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
-96213da1bf86ba95b2ae834050d1ede2564f08cc media: uvcvideo: fix division by zero at stream start
-60894b1b1b1c10a9b0b27f8f8ccd1eadf7572ae3 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
-6248514082a27500a9cd672bdb5968b7710917f5 HID: uhid: Fix worker destroying device without any protection
-31c793922779d4d437f54c81f8352657ef5bf079 HID: wacom: Avoid using stale array indicies to read contact count
+1cfa1b056c87fe8a49a03aaad24ab08284c88b7a Bluetooth: bfusb: fix division by zero in send path
+5073447900368327c3af1e384fa8cd44d1fe5230 USB: core: Fix bug in resuming hub's handling of wakeup requests
+124da5489fd14e65c607c1352d7403e2238dcca3 USB: Fix "slab-out-of-bounds Write" bug in usb_hcd_poll_rh_status
+d11c998a65af59a739e120f85a59b861369d8566 mfd: intel-lpss: Fix too early PM enablement in the ACPI ->probe()
+9f1fbf88b5e4485127e913b0a65646217570166b can: gs_usb: fix use of uninitialized variable, detach device on reception of invalid USB data
+6159eaa194837f10fbf921082e2ba1ce495e1a7b can: gs_usb: gs_can_start_xmit(): zero-initialize hf->{flags,reserved}
+1bd8d872bf1acd2e80b3a78fd4b28a0236150817 random: fix data race on crng_node_pool
+32042297b27185cc48b81be2f21bee1c6d32dafe random: fix data race on crng init time
+bfa3eeaea433babd44939d2463c8b1e2393db6f1 staging: wlan-ng: Avoid bitwise vs logical OR warning in hfa384x_usb_throttlefn()
+e5f2325f145d0dacdd4eb205e6dff21d070f9021 drm/i915: Avoid bitwise vs logical OR warning in snb_wm_latency_quirk()
+095aae845c1457920f4fcc0db347352f71661267 media: uvcvideo: fix division by zero at stream start
+10d95f5fa0e8e63b69fde84edb59e83ff54dfc21 rtlwifi: rtl8192cu: Fix WARNING when calling local_irq_restore() with interrupts enabled
+e01c2d8712eec4be4ef1198a697d83c8c104a354 HID: uhid: Fix worker destroying device without any protection
+472e075529ab17f4c413b35d52694a76dcd27799 HID: wacom: Avoid using stale array indicies to read contact count
 
---===============3461238646350615198==
+--===============3813170253573517368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55dc9db79a81-ec27f5ab1ac2.txt
+Content-Disposition: attachment; filename=revlist-ec27f5ab1ac2-160afa1afc2d.txt
 
-e215d9455a1f13c453423712253897675a1d8025 KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
-5b3fe1238c7e2517215aee2091925b76fdb47fc8 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
-1bc30a64e30f6523b2d283d100dc465a5ba31ca4 HID: Ignore battery for Elan touchscreen on HP Envy X360 15t-dr100
-ba19e93e75a6e7607a81273758a6aeeeb20455b7 HID: uhid: Fix worker destroying device without any protection
-eefc710528c50d6771fe3787b799bfe23eac7de8 HID: wacom: Reset expected and received contact counts at the same time
-c036edd2ebea02bd6ae1f4fc0600d2e59e02aa1d HID: wacom: Ignore the confidence flag when a touch is removed
-0347631ecd26344e3624fe9f93dda4163bd6e3dc HID: wacom: Avoid using stale array indicies to read contact count
-19a36bea5520395d8f5a5a46d5e3a56ce3f5ed4b ALSA: core: Fix SSID quirk lookup for subvendor=0
-57aa28ab06968d0f4aa8e4f47b10c5e830801d70 f2fs: fix to do sanity check on inode type during garbage collection
-3ff58850c09d36f69f4a9be8cc7adc79d5b00e53 f2fs: fix to do sanity check in is_alive()
-ea8660e8c51109af7f64e346b0ebdcf9f89cb9e8 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
-5b561eaf832f47c4e364382d1a3ab9bd09a88606 nfc: llcp: fix NULL error pointer dereference on sendmsg() after failed bind()
-36d3c41365b9cbeaeb8191d2fc5ce35272347209 mtd: rawnand: gpmi: Add ERR007117 protection for nfc_apply_timings
-4a2f732d086b618f744b2ea88b50c9eced005ca4 mtd: rawnand: gpmi: Remove explicit default gpmi clock setting for i.MX6
-ec27f5ab1ac2b6a76745048bb4b9a4b30f82b0eb mtd: Fixed breaking list in __mtd_del_partition.
+d55f88df1a3a8cfd1a7159c6e7614ba550749377 KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
+3692d1fb776a9558486bca9ae30b407748a58105 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
+07205bf97660e7c3ab80e52740e35d19c9988bdf HID: Ignore battery for Elan touchscreen on HP Envy X360 15t-dr100
+7236096dd0f88ed140df6d9d2ce41765b3dd51dd HID: uhid: Fix worker destroying device without any protection
+e11d2adeb5b7f8f496a09b45500d4cb8a55ee0d7 HID: wacom: Reset expected and received contact counts at the same time
+0afe1f8ea1cc76c1b74c0cb5a6ffbaac5239fab1 HID: wacom: Ignore the confidence flag when a touch is removed
+65b294d5dc71586a84cfccf15bf1fc6b804ad6e5 HID: wacom: Avoid using stale array indicies to read contact count
+e66600d98f4ceaa21f23af9eff6ee2f4b552f9bd ALSA: core: Fix SSID quirk lookup for subvendor=0
+7ee078cf4cbd1b67e67503f0c7e4cb1fd5f8bb9a f2fs: fix to do sanity check on inode type during garbage collection
+3338a2156d8a831aab03025fad99eb88c2562f28 f2fs: fix to do sanity check in is_alive()
+e7ea7e264e164ae4014fe4bffa9140bb08764534 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
+ff40cef320cfa2fef6f0e1afd148333fb14821cd nfc: llcp: fix NULL error pointer dereference on sendmsg() after failed bind()
+ae905ebce2f40813cc6da47f0a8fe8f5b4d07316 mtd: rawnand: gpmi: Add ERR007117 protection for nfc_apply_timings
+f1b1a22eb50d932b3e55555a3ade002b182f047d mtd: rawnand: gpmi: Remove explicit default gpmi clock setting for i.MX6
+160afa1afc2d592013852d2545cecea3e940f055 mtd: Fixed breaking list in __mtd_del_partition.
 
---===============3461238646350615198==--
+--===============3813170253573517368==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8604fc185a99-c623f7f5e740.txt
+
+1b7fdc68ddc8e9c1e3d26c9ae0ca47fee852379a KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
+dae932c960dec9f646d126b61cdb2e597fea86e0 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
+4101e536a5ab9b4634542adaaa39d37b0218c663 HID: Ignore battery for Elan touchscreen on HP Envy X360 15t-dr100
+fc6c663b1b5e3d81c62911b4434e331f141648cc HID: uhid: Fix worker destroying device without any protection
+859d4c88a04d6b7bb58785337603d69c7e981d6e HID: wacom: Reset expected and received contact counts at the same time
+d193460c34aa7ad8b9787281acaa76c6bfbd8208 HID: wacom: Ignore the confidence flag when a touch is removed
+8a35c50e8f07152163eeafc70e23c71932530393 HID: wacom: Avoid using stale array indicies to read contact count
+daa21bcc9d5384d75bfad86b4c8866a2a136fed1 ALSA: core: Fix SSID quirk lookup for subvendor=0
+55b8086e6b6dde59148996908710f6c32e79e17e cifs: free ntlmsspblob allocated in negotiate
+565b40e4eb56ec192f249390888b58fafc679330 f2fs: fix to do sanity check on inode type during garbage collection
+bcc134081fbeecdd0a83585f1a1cdcc1afb0756a f2fs: fix to do sanity check in is_alive()
+381e50186293f9ac7e6f2f2a32ba99a559237d5d f2fs: fix to do sanity check on last xattr entry in __f2fs_setxattr()
+6809355225111133f0bc01ea7119bfacf192cfd4 f2fs: avoid EINVAL by SBI_NEED_FSCK when pinning a file
+ed07cfea5918c92be851210582b051a53926bdf3 nfc: llcp: fix NULL error pointer dereference on sendmsg() after failed bind()
+1de24216615bedd6236bbe8f22989f3aa38dd475 mtd: rawnand: gpmi: Add ERR007117 protection for nfc_apply_timings
+569360a4ab4700b5ab47d998c087dfabac9bccf5 mtd: rawnand: gpmi: Remove explicit default gpmi clock setting for i.MX6
+c623f7f5e740f0f2e218c7e4e229716cd456ef94 mtd: Fixed breaking list in __mtd_del_partition.
+
+--===============3813170253573517368==--
