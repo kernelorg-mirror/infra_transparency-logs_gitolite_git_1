@@ -1,85 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============8336041754157610315=="
+Content-Type: multipart/mixed; boundary="===============6052867321003958493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
 Date: Sun, 23 Jan 2022 10:45:21 -0000
-Message-Id: <164293472109.4655.14099960508007666409@gitolite.kernel.org>
+Message-Id: <164293472188.5646.18140805819520819583@gitolite.kernel.org>
 
---===============8336041754157610315==
+--===============6052867321003958493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.16
-    old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
-  - ref: refs/tags/v5.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 06d124d85ce02d2993feda73742a71b78029ea3e
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/heads/debugfs_cleanup
+    old: 05256ee56172720b76b8c278e5eef30debc8730c
+    new: ce28de892efe4bab8c2415dfc73a8ddfa3e15988
+    log: revlist-05256ee56172-ce28de892efe.txt
 
---===============8336041754157610315==
+--===============6052867321003958493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934718 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1642934717-a8f5a4b52211169508b6b71718f064045d9d92bd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934720 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1642934718-6d4bf89172fad6cebea14da8a946b7ca020e1f13
 
-0000000000000000000000000000000000000000 d067e3e91a795a2b936c5c5b18f2591187a74f6e refs/tags/v5.16
-0000000000000000000000000000000000000000 afb057419d0194961ca1e0001ec27f7c6f23699c refs/tags/v5.16-rc2
-0000000000000000000000000000000000000000 e9966818ad676112345dca60e65d48ef2e686930 refs/tags/v5.16-rc3
-0000000000000000000000000000000000000000 06d124d85ce02d2993feda73742a71b78029ea3e refs/tags/v5.16-rc4
-0000000000000000000000000000000000000000 841f4df0a0f8f4c450a7057f37080dc2a7db81ef refs/tags/v5.16-rc5
-0000000000000000000000000000000000000000 54bc2946f536d8be48c71571cd6614ea482bfe61 refs/tags/v5.16-rc6
-0000000000000000000000000000000000000000 6e15d3d15ba113412ee05ee99c0476662a000178 refs/tags/v5.16-rc7
-0000000000000000000000000000000000000000 da629478930871e4c9a51c56ad86078f10b83f9f refs/tags/v5.16-rc8
-0000000000000000000000000000000000000000 d0022914e86aa85ea6c806ae4bc442f9821e830a refs/tags/v5.17-rc1
+05256ee56172720b76b8c278e5eef30debc8730c ce28de892efe4bab8c2415dfc73a8ddfa3e15988 refs/heads/debugfs_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMb4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8vwQAKluEuZ+3ID3+JRjuDa8
-ffpSm6fnUf9HG840pU6WenPKE5G9m7Vcjg4iQTWw+8PBV0boLaBJFCIbqWzyEIo7
-pzcq6/Uocn74GwQRk+KDPw8RCdkmB3axUaclj55ZV8xHKGMloEjN3b2OUDRzwpeq
-fFlQmOsCptbFRQBWNbSJFjfwZBqPt3ixwIs12P5nZ3lpEe6WX6K/CVORdVvAcDYm
-8Nv0cN0RGRhdYmwrswRHqng0SypVRa33qqbb2AbRVjTgpaUA3nIsBmOOJ8OicHVF
-bpOGtpE8rraFmevMhUWapHPW8/b/HknvbCrhlidTixYmsvFbZVfc+8Sw8pi7OEEx
-I+0+u4qYo6GMq7zkiZl16eG3khsxa+fif7qmdQjulpeADNIf+M7PYeahxCvg8NSL
-xjKMa7fQxjYxFdTw2SBu8hhUUYyclc0q8+JVEK4mzla3dxMWi5gShkKswJZxXPGh
-yZRlcuPRdJ/cakaPclNBjqml0ezuHSsn5KG8X0k40GFKL+mpbPIeoOmdbxdBvvRR
-v+ESuqcIgZ11Qq27VGa5IfTdLI8xcjnP5fbSTQYl+Ky5Zjy4PsCg55Pet6J8sZIX
-aE4oY/D1nC3XpO7QFweolQUPTo1ILQw7SMLLr3GzH+LXWLNcdT5npc2uzlJ4Eh2R
-GVxM8ec4KG8in+swmzN106bi
-=LHGd
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QwP/2SLiekHyETwtqchvL6S
+LjT0CiJan+uuv6fgxBM+ae8UYfWfu5cg1mYr9gC8IQ2jbtAEpZVLdRlnk2HBzD7c
+K8oVtbH0FJc0a2PdK83/9cGc+PTcopgqedNUxPbPC2dSsErtyy+8GC653Hi0CJc5
+8PZR+vo7OFqJaz94H4Ss3jk2TZ7RlDTfzzwDHv98TAaROTJgLYju/xhxxQQ6ai7c
+rxSwXafsXZ7MOJsgstblTF7NCnGKs0tNsYHq6NDbrnmx53GXUAIWh3+NPh5IBwIi
+PsgNp5bAXAPZv0IA7MSAXw5itIwv/oFRpkc5E9/zw/O6RYxVfqIyVBvvRBdyf4Nj
+e15vi5Y91zt1STDCnxsyjtTHXmjwWGprYjdLvt5Scb/tZd+7s9tcR/vZnEWviBn1
+60EMH4yZq5s1leaOkqPUl1/JrgmsA2Y+BRc9eBcS2oTp0tvAiy/VmefpcLsTCCr0
+9xUS6bfdx1LPUIs+BeKud12uXcoG0Yy6fyOK7WhO+f/XS3UNMoh/N4XWP3Y4+obv
+p3s+KuPVZ7cU4BChbrCb9VB5D9S0M+1D3xy5LjhQ3gLj4TZfOObuuEMnn456r1qu
+7dPSxQLCm7t2ROwXGIMZXOW64NqTVMbrVPYbTnbnCilWmYDHLnv9y6Zr0ArG690h
+wQGIwf+wNRs5iggNSMEkXOxZ
+=ZOGh
 -----END PGP SIGNATURE-----
 
---===============8336041754157610315==--
+--===============6052867321003958493==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-05256ee56172-ce28de892efe.txt
+
+b7ec62d7ee0f0b8af6ba190501dff7f9ee6545ca bitops: protect find_first_{,zero}_bit properly
+6b8ecb84f8f64017ae6e56cd745ad88e48f68779 bitops: move find_bit_*_le functions from le.h to find.h
+47d8c15615c0a2046d2d90b04cb80b81ddf31fb1 include: move find.h from asm_generic to linux
+c126a53c276048125b4a950072bab37ad0fea120 arch: remove GENERIC_FIND_FIRST_BIT entirely
+f68edc9297bf3f7c94abb54b9b0b053607f7587b lib: add find_first_and_bit()
+93ba139ba8190c33009c5353ca43c8519443f467 cpumask: use find_first_and_bit()
+b5c7e7ec7d3418af2544452b45cc67297c857a86 all: replace find_next{,_zero}_bit with find_first{,_zero}_bit where appropriate
+4ade0818cf048bb166e875ed4f8b456e6c2c7b3c tools: sync tools/bitmap with mother linux
+9b51d9d866482a703646fd4c07e433c3d9d88efd cpumask: replace cpumask_next_* with cpumask_first_* where appropriate
+bc9d6635c293a2ac30c6319f7cfd08860ab7948a include/linux: move for_each_bit() macros from bitops.h to find.h
+7516be9931b8bc8bcaac8531f490b42ab11ded1e find: micro-optimize for_each_{set,clear}_bit()
+749443de8dde3b8b420ee8b4daac4d929a6adeb9 Replace for_each_*_bit_from() with for_each_*_bit() where appropriate
+801a57365fc836d7ec866e2069d0b21d79925c1e mm/percpu: micro-optimize pcpu_is_populated()
+ec288a2cf7ca40a939316b6df206ab845bb112d1 bitmap: unify find_bit operations
+db7313005e9c2d4e80888dd18d4a83926b920e8c lib: bitmap: add performance test for bitmap_print_to_pagebuf
+15325b4f768f2b27b5765489eeab6ec0d6b5e902 vsprintf: rework bitmap_list_string
+4624f199327a704dd1069aca1c3cadb8f2a28c6f perf probe: Fix ppc64 'perf probe add events failed' case
+1855b796f2f672cbb25400be2d3171c26fc869a3 perf affinity: Allow passing a NULL arg to affinity__cleanup()
+49de179577e7b05b57f625bf05cdc60a72de38d0 perf stat: No need to setup affinities when starting a workload
+f350ee95498a3fa65c37ed597d9c051c6b2b6974 perf evlist: No need to setup affinities when enabling events for pid targets
+0d3d237651fd7a01fe5dc501b0d170a43d8156ba perf evlist: No need to setup affinities when disabling events for pid targets
+9d5f0c36438eeae7566ca383b2b673179e3cc613 perf machine: Use path__join() to compose a path instead of snprintf(dir, '/', filename)
+8326c79d10be2ddbfd3d3804206949a71cb15675 tools headers UAPI: Sync x86 arch prctl headers with the kernel sources
+6e10e21915c1ab6eaa145f7b5ebaf4500af1b011 tools headers UAPI: Sync files changed by new set_mempolicy_home_node syscall
+10756dc5b02bff370ddd351d7744bc99ada659c2 usr/include/Makefile: add linux/nfc.h to the compile-test coverage
+e92e2634ef3a95376ad917452a476fccaff83fde Revert "Makefile: Do not quote value for CONFIG_CC_IMPLICIT_FALLTHROUGH"
+ad29a2fb3c201ef066b0a9fe10a6e14dd0d59c48 certs: Fix build error when CONFIG_MODULE_SIG_KEY is PKCS#11 URI
+e6340b6526eeec5a00fe26a6ff515afe7d0affa4 certs: Fix build error when CONFIG_MODULE_SIG_KEY is empty
+9edcde68d653e1f8f895fbb69a0043c6a56ae35e perf script: Fix printing 'phys_addr' failure issue
+1d1d9af254ffc3bc38c59484c50c600d1d0c96da perf python: Fix cpu_map__item() building
+440286993960bea4aa09d912a5497d92d09ae54c perf cpumap: Migrate to libperf cpumap api
+24ead7c254b42c4ea252e57bf9928154dc7744e0 perf cpumap: Remove duplicate include in cpumap.h
+3606c0e1a1050d397ad759a62607e419fd8b0ccb perf evsel: Override attr->sample_period for non-libpfm4 events
+864bc8c905261f264c3ea357027cf555fe51c5a3 perf parse-events: Support event alias in form foo-bar-baz
+34fa67e72085201ea94b5332eae316951331958f perf test: Add pmu-events test for aliases with hyphens
+b4a7276c5e9a79c238a2fad4fb9498dd3558ad2e perf test: Add parse-events test for aliases with hyphens
+f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variable
+3689f9f8b0c52dfd8f5995e4b58917f8f3ac3ee3 Merge tag 'bitmap-5.17-rc1' of git://github.com/norov/linux
+473aec0e1f84be97c7ea52c4266b7ef13ce36af3 Merge tag 'kbuild-fixes-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+6b9b6413700e104934734b72a3be622a76923b98 ftrace: Fix assuming build time sort works for s390
+67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
+e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
+ce28de892efe4bab8c2415dfc73a8ddfa3e15988 pm / wakeup: simplify the output logic of pm_show_wakelocks()
+
+--===============6052867321003958493==--
