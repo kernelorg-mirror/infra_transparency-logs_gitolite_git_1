@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4317196201892353614=="
+Content-Type: multipart/mixed; boundary="===============4133022789444056761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 23 Jan 2022 19:42:58 -0000
-Message-Id: <164296697896.6502.10698679178110100911@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 19:51:14 -0000
+Message-Id: <164296747417.11915.2513807571383077149@gitolite.kernel.org>
 
---===============4317196201892353614==
+--===============4133022789444056761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/misc
-    old: 4d5cff69fbddbbefef2903faa48263cc5d3ca382
-    new: 16273fa4f3a2dc2c64dd8a28fe30f255a4de0e4c
-    log: revlist-4d5cff69fbdd-16273fa4f3a2.txt
+  - ref: refs/heads/x86/urgent
+    old: d6f12f83989bb356ac6880a954f62c7667e35066
+    new: 1f52b0aba6fd37653416375cb8a1ca673acf8d5f
+    log: revlist-d6f12f83989b-1f52b0aba6fd.txt
 
---===============4317196201892353614==
+--===============4133022789444056761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d5cff69fbdd-16273fa4f3a2.txt
+Content-Disposition: attachment; filename=revlist-d6f12f83989b-1f52b0aba6fd.txt
 
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
 2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
 62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
@@ -1044,11 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-4810dd2c943edd98cd41a12b96745b16b1d6b4f5 perf/tests: Add AMX instructions to x86 instruction decoder test
-9dd94df75b30eca03ed2151dd5bbc152a6f19abf x86/insn: Add AMX instructions to the x86 instruction decoder
-a6ea1142dee66f054a7ce51ebd053ef5ad976227 perf/tests: Add misc instructions to the x86 instruction decoder test
-0153d98f2dd6d5161fc4d496d785c10686d0d7b6 x86/insn: Add misc instructions to x86 instruction decoder
-cdb63ba98c5d03774bca9789e689fe62be4347b4 perf/tests: Add AVX512-FP16 instructions to x86 instruction decoder test
-16273fa4f3a2dc2c64dd8a28fe30f255a4de0e4c x86/insn: Add AVX512-FP16 instructions to the x86 instruction decoder
+1f52b0aba6fd37653416375cb8a1ca673acf8d5f x86/MCE/AMD: Allow thresholding interface updates after init
 
---===============4317196201892353614==--
+--===============4133022789444056761==--
