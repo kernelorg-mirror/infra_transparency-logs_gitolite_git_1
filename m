@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4081210359069076401=="
+Content-Type: multipart/mixed; boundary="===============2486573788255889531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 23 Jan 2022 15:48:17 -0000
-Message-Id: <164295289721.14168.17794042300149471399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 23 Jan 2022 15:53:58 -0000
+Message-Id: <164295323874.18749.9641826186317987426@gitolite.kernel.org>
 
---===============4081210359069076401==
+--===============2486573788255889531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: dfb58acd4a7a1b418a06c742cc29899862aeb978
-    new: 8a7a5865206ec6707722f9df9e4f45658c75cacf
-    log: |
-         8a7a5865206ec6707722f9df9e4f45658c75cacf drop mfd-intel_soc_pmic-use-cpu-id-check-instead-of-_hrv-.patch from 5.10 and 5.15
-         
+    old: ac5a9bb6b4fa22135b3e371ac9787de120e18c8d
+    new: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
+    log: revlist-ac5a9bb6b4fa-dd81e1c7d5fb.txt
 
---===============4081210359069076401==
+--===============2486573788255889531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ac5a9bb6b4fa-dd81e1c7d5fb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642952893 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1642952891-1ccc5ceb64d27c276685e4ef5c8a645a812ddd74
+b992f01e66150fc5e90be4a96f5eb8e634c8249e bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
+fab07611fb2e6a15fac05c4583045ca5582fd826 powerpc32/bpf: Fix codegen for bpf-to-bpf calls
+f9320c49993ca3c0ec0f9a7026b313735306bb8b powerpc/bpf: Update ldimm64 instructions during extra pass
+88a71086c48ae98e93c0208044827621e9717f7e tools/bpf: Rename 'struct event' to avoid naming conflict
+3f5f766d5f7f95a69a630da3544a1a0cee1cdddf powerpc64/bpf: Limit 'ldbrx' to processors compliant with ISA v2.06
+252745240ba0ae774d2f80c5e185ed59fbc4fb41 powerpc/audit: Fix syscall_get_arch()
+87b9d74fb0be80054c729e8d6a119ca0955cedf3 powerpc/time: Fix build failure due to do_hard_irq_enable() on PPC32
+d37823c3528e5e0705fc7746bcbc2afffb619259 powerpc/32s: Fix kasan_init_region() for KASAN
+429a64f6e91fbfe4912d17247c27d0d66767b1c2 powerpc/perf: Only define power_pmu_wants_prompt_pmi() for CONFIG_PPC64
+aee101d7b95a03078945681dd7f7ea5e4a1e7686 powerpc/64s: Mask SRR0 before checking against the masked NIP
+dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
-dfb58acd4a7a1b418a06c742cc29899862aeb978 8a7a5865206ec6707722f9df9e4f45658c75cacf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHteL0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EdgQAM/2SvMcldjeZ3Fk1mGT
-RfgGM8taLXS7RGMjxJBdH8rrbJycccHDJtrZV3bBLC8qPShZZwPyutlrw804neHc
-eJqe+DMysoWR+5BiXucoEXonMtYQ4O6BHLSl/DH6RqILg9jShDov/L4+ug7SMEp9
-1wHSy59QkwntKvaRKGFg/49CqjTxt9ToIe7OzwY2VQHQUEdRjCj0tK1D7E5BFH09
-Kt+h8uwf4B8B+Fapa0UUaPmzTlAKu80RLLL9Qr06H+ZeXaG5dBp3RFWU4/LpKWGe
-mjNnObLqrdEiPV5W/yDFzOAhV0n9z0vEGfR6bOQTZ9hc/FqRL76bsivZmCZvXk1s
-OFj6SyD3bACdMOHUQW2i0JDC2Hr8o9nbbbHYJJ9uCUYOOCrr0ahUftTKYxZjW7CE
-3qaLcIpEaPZO9kR1d3E492qS1ib78zip+T3+2TinyuupKR4rh1JzpN79j5bKC7m9
-GYkMmlMgMl/tr/6cuVFnbQbFB+FQor475Meogg8CWq/QZaGMpyOD8Ujt3pEfcQ6w
-4J0bbDYz9JdC6JnKeMinuu4K/+mAFFKcJJISlDyrnmSIqc2B/wMjmmxwU4CiR70Y
-O25rAScNTnVi+SXrYB9ngfGVqCqbzRWpm0CKbjJbNTStDcY2CHhWsqZz83BQ5WKB
-MG0rLurF0KcFJUWjfJ2XxZv4
-=BXAS
------END PGP SIGNATURE-----
-
---===============4081210359069076401==--
+--===============2486573788255889531==--
