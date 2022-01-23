@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2486573788255889531=="
+Content-Type: multipart/mixed; boundary="===============1004376947556712014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 23 Jan 2022 15:53:58 -0000
-Message-Id: <164295323874.18749.9641826186317987426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 23 Jan 2022 16:01:49 -0000
+Message-Id: <164295370977.23982.1212046450834007937@gitolite.kernel.org>
 
---===============2486573788255889531==
+--===============1004376947556712014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ac5a9bb6b4fa22135b3e371ac9787de120e18c8d
-    new: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
-    log: revlist-ac5a9bb6b4fa-dd81e1c7d5fb.txt
+    old: 8a7a5865206ec6707722f9df9e4f45658c75cacf
+    new: 3b22d4a7009ebfa8a47be3202abb0243542f3a95
+    log: |
+         3b22d4a7009ebfa8a47be3202abb0243542f3a95 drop queue-5.10/alsa-usb-audio-fix-db-level-of-bose-revolve-soundlin.patch
+         
 
---===============2486573788255889531==
+--===============1004376947556712014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac5a9bb6b4fa-dd81e1c7d5fb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b992f01e66150fc5e90be4a96f5eb8e634c8249e bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
-fab07611fb2e6a15fac05c4583045ca5582fd826 powerpc32/bpf: Fix codegen for bpf-to-bpf calls
-f9320c49993ca3c0ec0f9a7026b313735306bb8b powerpc/bpf: Update ldimm64 instructions during extra pass
-88a71086c48ae98e93c0208044827621e9717f7e tools/bpf: Rename 'struct event' to avoid naming conflict
-3f5f766d5f7f95a69a630da3544a1a0cee1cdddf powerpc64/bpf: Limit 'ldbrx' to processors compliant with ISA v2.06
-252745240ba0ae774d2f80c5e185ed59fbc4fb41 powerpc/audit: Fix syscall_get_arch()
-87b9d74fb0be80054c729e8d6a119ca0955cedf3 powerpc/time: Fix build failure due to do_hard_irq_enable() on PPC32
-d37823c3528e5e0705fc7746bcbc2afffb619259 powerpc/32s: Fix kasan_init_region() for KASAN
-429a64f6e91fbfe4912d17247c27d0d66767b1c2 powerpc/perf: Only define power_pmu_wants_prompt_pmi() for CONFIG_PPC64
-aee101d7b95a03078945681dd7f7ea5e4a1e7686 powerpc/64s: Mask SRR0 before checking against the masked NIP
-dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642953704 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1642953701-db7ede404652dccb73b6485ba57e0de2848c379e
 
---===============2486573788255889531==--
+8a7a5865206ec6707722f9df9e4f45658c75cacf 3b22d4a7009ebfa8a47be3202abb0243542f3a95 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHte+gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6ZoP/Av9eQKKBrTqBblnqDLF
++6ZEJ7UIskSwTuZkML3PveMpotqoIRpjO4q7ErtqnVIgxrSCGiBdi1ToN7pCWIm0
+IK6vd3R9w/ov6U0pIVArpnKSqN654QZuOT/rsbnuPcv895615lFkpb9bHFtQpN6Y
+6TgVDMLaEAYs2lp0Ux2OzJrkRkLJt/ooZRi+85A07o8qwe48Pkdi7TRn34ud7ZyE
+u4IIQmCZ+jpIGHjzsIa7wRFk1I2fVO5f9iRlrjbWrANV8DALZNkVmbQp+MA8BIg5
+irO4H5M1BxSXneVwYzlMBvxVDk/+LUF+ROSV1S/hFyuzBRpF7+VKVUcqQcbdu3yU
+RLRJ7Ov4jONARM/rkV1zU3ZqmE0Wabf+KIWKGRRVTEF0lVnx609h6DMgW/M4sia8
+UJbAZbFYXlzQn7L2RQvRNogZj3oITZ6E+xIq8nbOXKiLEdAsAqczdpQOYyphjajV
++zE0vaWchp7rRJ3HlxLim23MWUODYBxJpbafsGR0v2DnlJhlr1U+9UStlkM8xtKe
+hKFtSZ7z+mijnpnQ82z7cVKLqX/2LCZfxSlngIb9wFIQwBBBGFaRZ9n2gVnYLIos
+kxtL2T793dKnpkG7cyKofV/FRaccHBE4mFwuIn8zuhxGTDqyVCporJYqT3kcTXN2
+wPFhH4QOy7HSYEwl755oP2/h
+=PEgE
+-----END PGP SIGNATURE-----
+
+--===============1004376947556712014==--
