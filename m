@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0761892065051779792=="
+Content-Type: multipart/mixed; boundary="===============0438819487117957368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 23 Jan 2022 18:16:27 -0000
-Message-Id: <164296178720.16483.9717381011950941988@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 18:18:26 -0000
+Message-Id: <164296190601.17189.13113836527014884308@gitolite.kernel.org>
 
---===============0761892065051779792==
+--===============0438819487117957368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,68 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: b15b727628f7a66a6e5ff3988accd6995b9528f6
-    new: 576434fd93b91d36cb62d531888e88dac5e52540
-    log: revlist-b15b727628f7-576434fd93b9.txt
+  - ref: refs/heads/fixes-togreg
+    old: 064b40edcf919367803c38261e219b619463be70
+    new: ccbed9d8d2a5351d8238f2d3f0741c9a3176f752
+    log: revlist-064b40edcf91-ccbed9d8d2a5.txt
 
---===============0761892065051779792==
+--===============0438819487117957368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b15b727628f7-576434fd93b9.txt
+Content-Disposition: attachment; filename=revlist-064b40edcf91-ccbed9d8d2a5.txt
 
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
+eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
+448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
+1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
+3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
+86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
+49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
+63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
+3ac23d199c2bc3bc2a2b31c803e7c5d841959670 perf cpumap: Simplify equal function name
+51b826fadf4fc42c8614b752b6cb0cb516589ade perf cpumap: Rename empty functions
+194a3a202564153493789997643181737a6ae4b9 perf cpumap: Document cpu__get_node() and remove redundant function
+4e90e5cc74c6b1c1b9abff8b53cec5be1fb5e839 perf cpumap: Remove map from function names that don't use a map
+adff2c634357115a0f94a9a5054061b497df7f72 perf cpumap: Remove cpu_map__cpu(), use libperf function
+5f50e15c1510c77b37e10c6b22912bf4bf11476b perf cpumap: Refactor cpu_map__build_map()
+973aeb3c7ada35b75442126c745bb6074cb3e172 perf cpumap: Rename cpu_map__get_X_aggr_by_cpu functions
+dfc66beff7fa95b9eb507ccb48fb325569bc2f74 perf cpumap: Move 'has' function to libperf
+92aad5c33f531187cc6013c8e51620212cdfefe1 perf cpumap: Add some comments to cpu_aggr_map
+bd26bddfd93688d10984251249b84e1f6d91de27 perf cpumap: Trim the cpu_aggr_map
+f9e891ea172235f902972069b87be3bdc7c48f5a perf stat: Fix memory leak in check_per_pkg()
+34794913e2dc08a464499f795073a021feeb3b47 perf cpumap: Add CPU to aggr_cpu_id
+7365f105e37429d28757f7f68d4850723ce18aa1 perf stat-display: Avoid use of core for CPU
+2ca0a3718da24953689b1771589ac63b60f17358 perf evsel: Derive CPUs and threads in alloc_counts
+7e3d1784c8a4d9c643a6ed0a2c44ee94dee8f7a6 libperf: Switch cpu to more accurate cpu_map_idx
+47ffe806674f67e729627edd689b10827b1790eb libperf: Use cpu not index for evsel mmap
+7316268ff740c29dfb52649ff8074a5aa17ec0ce perf counts: Switch name cpu to cpu_map_idx
+ab90caa7b2d0b708cfee16b33325ca24de4d8f25 perf stat: Rename aggr_data cpu to imply it's an index
+7ea82fbee4598e51e8bf47566b252cd5745d5b17 perf stat: Use perf_cpu_map__for_each_cpu()
+f9551b3f6249cfe8ea5b5f8716675ccf2f6ec737 perf script: Use for each cpu to aid readability
+80b82f3b65e94ba22d3f12a98f7ecc56cc14c903 libperf: Allow NULL in perf_cpu_map__idx()
+472832d2c000b9611feaea66fe521055c3dbf17a perf evlist: Refactor evlist__for_each_cpu()
+7ac0089d138f80dcd7ba8ca368a9b2bdfe780b16 perf evsel: Pass cpu not cpu map index to synthesize
+da8c94c065174099853a207d9716a49d339b265f perf stat: Correct variable name for read counter
+2daa08c4d9cd9d0845094d718920e5d105c11558 perf evsel: Rename CPU around get_group_fd
+1fa497d4c01d497e25131ccdd5def6f24dd1f330 perf evsel: Reduce scope of evsel__ignore_missing_thread
+6f844b1fdd3bc3a25995ff83edea32a73bfa72d9 perf evsel: Rename variable cpu to index
+aa11e55a39950c0151e12abd30c7223dfc6f6a2c perf test: Use perf_cpu_map__for_each_cpu()
+379c224bef724cf52bd3d2364d29fc63f3e743d3 perf stat: Correct check_per_pkg() cpu
+5b1af93dbc7e64ab1b872129cfe1f2318cc29c67 perf stat: Swap variable name cpu to index
+91802e73f77146d69afa0be7eafc983ec84b2bb0 libperf: Sync evsel documentation
+7263f3498ba8b6e65c1d810ccafec64cd61a6dc1 perf bpf: Rename 'cpu' to 'cpu_map_idx'
 84d2f4f0375d4857f9f9e57a9ad75cbf0f34e108 perf c2c: Use more intention revealing iterator
 b57af1b4017abff969425dffd6f59ddfdedce8cb perf script: Fix flipped index and cpu
 ce37ab3eb2490aba60ab1a622a4c6c6ee9a7cc66 perf stat: Correct first_shadow_cpu to return index
@@ -995,60 +1046,9 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-fc5d805e12230021de34a072c1d52efbe33cc794 iio:proximity:sx9310: Add frequency in read_avail
-caa8ce7f6149576efc3a1af06d2c03e41cb6c46e iio:proximity:sx9310: Extract common Semtech sensor logic
-4c18a890dff8d95ca234d184773910383a978d45 iio:proximity:sx9324: Add SX9324 support
-656f807086deef48aeb0e2884a434e7a573675fc dt-bindings:iio:proximity: Add sx9324 binding
-a8ee3b32f5da6c77a5ccc0e42c2250d61ba54fe0 iio:proximity:sx9324: Add dt_binding support
-1cdb4c47f7f501e51006fdb4d36c528ed30de9a8 iio:proximity:sx9360: Add sx9360 support
-1412b8cfc7e73b22047a7762529578bbfae9d202 dt-bindings:iio:proximity: Add sx9360 binding
-02d83fa6393a83151db0793e15e4e21208c3a432 iio:proximity:sx9360: Add dt-binding support
-09bdf14fb59dc7147378e3ccc2419e14097e0565 iio:chemical:atlas: Trivial white space cleanup to add space before }
-6e757756122cd70123330bd77dd9aa8846a2e98a iio:light:pa12203001: Tidy up white space change to add spaces after { and before }
-2ba83c80527eeb85291a8bd2e629e13dc89c27cf iio:light:vcnl4035: Trivial whitespace cleanup to add space before }
-77f8767627c0c6b3ccfd0bee96cbec097426244a iio:light:us5182: White space cleanup of spacing around {} in id tables
-8877af25a2605e8b51a8f6948684c427a6a871b7 iio:light:ltr501: White space cleanup of spacing around {} in id tables
-07d6484f4998f826dae3d79f315731fa1573f139 iio:proximity:ping: White space cleanup of spacing around {} in id tables
-40b9a914676dea3a1f7044fd6bc67d0cdafbd51c iio:proximity:rfd77402: White space cleanup of spacing around {} in id tables
-d9d46abc61a672c01275f8d1a143ceebb88042cd iio:proximity:srf04: White space cleanup of spacing around {} in id tables
-086fe53fd1a593c15525e611624ab6e03c9d9a2a iio:proximity:srf08: White space cleanup of spacing around {} in id tables
-9ccac0d047ea4d9be48c742e23e82ce18783afea iio:frequency:admv1013: White space cleanup of spacing around {} in id tables
-be82553d02540e4140f4d96d29675062b47a976b iio:adc:mt6577_auxadc: Tidy up white space around {} in id tables
-988078cfdb3e56ba11203ccfcfb2f8b350a1844f iio:adc:hi8435: Tidy up white space around {} in id tables
-04e543086c1339afd07ca6ce8fea0ea3816b1b53 iio:adc:ti-adc084s021: Tidy up white space around {}
-2d77524b07267318faa5d06a51665872ad9aa5a1 iio:light:tsl2722: Fix inconsistent spacing before } in id table
-86eae303c0d67be23a06cb51dbeca5edef0d575c iio:proximity:vl53l0x: Tidy up white space around {} in id tables
-8c7b323a5573fae03b1902f09503f7fb559bfd77 iio:accel:dmard09: Tidy up white space around {} in id table
-1f69d222242c190f54ebf86eb7b9ba7b3f2d7630 dt-bindings: iio/adc: ti,palmas-gpadc: Split interrupt fields in example
-2553340bd208cc2e54a9e6a27d948a2b51dbf3a1 iio: adc: rzg2l_adc: Fix typo
-26b2ec2e9a27f881998b830fd5158f8a30de82a1 iio: st_sensors: don't always auto-enable I2C and SPI interface drivers
-f247d58efbce7eb017b32ed713f4770ef635eb30 dt-bindings: iio: adc: Add compatible for Mediatek MT8186
-ff04eb478658743c43d8ca0d3fa949b6d3fe03b4 iio: adc: mt8186: Add compatible node for mt8186
-1e73d7f689c7a8fa13f78fe8d6be908fdceef17a iio: core: Fix the kernel doc regarding the currentmode iio_dev entry
-008cc058a4ff54d0e88d4dcabeb94ae4c83ed299 MAINTAINERS: fix Analog Devices links
-0f66edfb0722bc424c5d8300e5a938b1b7c5c78f MAINTAINERS: add maintainer for ADRF6780 driver
-84e5d88953d765e5da14f96dd30b0b1cc215c157 iio: adc: tsc2046: rework the trigger state machine
-c3154def82fc6b6fb59fd4520cbc2f92211c109d iio: core: Use sysfs_emit()
-0ce1a30cd7efa1d8f13fd5dd2a1e460ad49bfa41 iio: dmaengine-buffer: Use sysfs_emit()
-9d5fcb8ffa69428d57761b43675407ce7f652fd0 iio: ad7192: Use sysfs_emit()
-48788715ac8ed610a3d30ef1fb8d7fd38bdc1f81 iio: ad9523: Use sysfs_emit()
-2fd52124b5979bdddcc6bdf5dbe49198c735cbaa iio: as3935: Use sysfs_emit()
-e9d4397a1627ea4e30c1f1fe9f2889bb31d658f2 iio: ina2xx-adc: sysfs_emit()
-0ad4c227fb6000a4e53c393e19c16a49940992c0 iio: lm3533: Use sysfs_emit()
-9df24867d8e8fd83a4727e17c89c988e0e4be7ff iio: max31856: Use sysfs_emit()
-3c1d2fdd8096a08927ef3c5180208a136ac1a82b iio: max31865: Use sysfs_emit()
-d42b626d54ae05b754c14be18edd090540c2666e iio: max9611: Use sysfs_emit()
-6ab56c467593b422079cf119beb4e7c44f5417a9 iio: ms_sensors: Use sysfs_emit()
-1acdaa34ad17e304d39d83fc9affc2d71c550a13 iio: scd4x: Use sysfs_emit()
-f22ab91ae3029a68d45b1892effb0a1115d6926b iio: sps30: Use sysfs_emit()
-1bdd962bbdff60e6194acb497caddb9c8b4c61b4 MAINTAINERS: add maintainer for AD7293 driver
-712173762fcf8ee1168c5584f18e3f581e0651bb MAINTAINERS: add maintainer for ADMV1013 driver
-f3c7b621e9bf049194340bfc6f3ba0f8f360461c MAINTAINERS: add maintainer for ADMV8818 driver
-90e33e1b3d96e537938c16ed802a5c4b4e147a65 MAINTAINERS: add missing files to the adis lib
-da5936770517aef8b28888f1123fa654c78cc2f9 adis: simplify 'adis_update_bits' macros
-c39010ea6ba13bdf0003bd353e1d4c663aaac0a8 iio: adis: stylistic changes
-2d255ec5100570559550ed61dd4c9c57d593e9a9 iio: hw_consumer: Use struct_size() helper in kzalloc()
-b617693a5d139dec0a3a19a909d687d2d95d78bc iio: adc: tsc2046: add .read_raw support
-576434fd93b91d36cb62d531888e88dac5e52540 iio: adc: tsc2046: add sanity check to avoid to big allocations
+b7a78a8adaa8849c02f174d707aead0f85dca0da iio: adc: tsc2046: fix memory corruption by preventing array overflow
+0e33d15f1dce9e3a80a970ea7f0b27837168aeca iio: adc: ad7124: fix mask used for setting AIN_BUFP & AIN_BUFM bits
+b0e85f95e30d4d2dc22ea123a30dba36406879a1 iio:imu:adis16480: fix buffering for devices with no burst mode
+ccbed9d8d2a5351d8238f2d3f0741c9a3176f752 iio: accel: fxls8962af: add padding to regmap for SPI
 
---===============0761892065051779792==--
+--===============0438819487117957368==--
