@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8381455829181802132=="
+Content-Type: multipart/mixed; boundary="===============2269043206776973401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 23 Jan 2022 10:43:20 -0000
-Message-Id: <164293460055.15596.10378902025692067922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 23 Jan 2022 10:43:47 -0000
+Message-Id: <164293462704.15819.619048479664848956@gitolite.kernel.org>
 
---===============8381455829181802132==
+--===============2269043206776973401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/kobject-const
-    old: 2c53d2e11a6d7bcfc84914afa1a1a1772a5b12a2
-    new: 95facebf63c7c6e9654aa1fb34d797554e433268
-    log: revlist-2c53d2e11a6d-95facebf63c7.txt
+  - ref: refs/heads/main
+    old: 1c52283265a462a100ae63ddf58b4e5884acde86
+    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    log: revlist-1c52283265a4-e783362eb54c.txt
 
---===============8381455829181802132==
+--===============2269043206776973401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934596 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1642934596-657da07767a40a6d19f7949d8b6d056c05abff46
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934623 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1642934623-08596bf611654bf48d3fec852e6453e2d7316f13
 
-2c53d2e11a6d7bcfc84914afa1a1a1772a5b12a2 95facebf63c7c6e9654aa1fb34d797554e433268 refs/heads/kobject-const
+1c52283265a462a100ae63ddf58b4e5884acde86 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMUUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+br4P/jUg/3Z85D5W7ycLCvYn
-Fa7y3uNmch7YWtKG/4NLNKWnt+RIdp9NestzC9puNjPk35KTDzamcF0hZK+36CpO
-rRvNUqw6QYXpZaPJNnUhglAh5qjacv8fNUkPHupsaTSiH1HzTbglnxkVCB7gmV6G
-gYmHa/dZAmskBpdw9NoY0Vyh+xT+80UXEqzmfnk0yMfPZRxg/mUjFcdHqo0RUpvD
-9/PmmnRCy3vziw/Rbb6T/kAjxiZtnug+hkoPgq14RdJJd/g/2CjtvDsRJxmDU3w+
-ICvdanhkP/ZXfx5Nf7gFZ7hWp1ueiBQug3xPWfW9xUUi4BFFX+M1YvIQ18Q7046/
-JbIwxT5OV/hLzu97sAMf9Bzr4bZUxymAxXSO+Qy8A9ky5WpkXrKeaLfez+iQSmC+
-vxIl51jJnIj2+Nr78s8KDbyBEXBPThmLPuOAVg/ZTvx/goeOaBBEql/AAc5MlgJC
-BlUinGkDTfIZCWgSK8NcD/5DbUVBopaYmHE6Q5KygZWXzDFjJT14mqAqhR0ILcEZ
-YqpzH6/rNf/ZULKccuFW8jH3Xwt9TTpYB3CutgvfvZueDTfL2kmyTxJAKepFMaUE
-9VEMqqiDsHhNAb7IuPWFXFKpRfzICBF+TF6wDjxw59yfFgWkAQc4KOjsbWMWS2qA
-RvVw6xyafC1EEcGVOGSx52yY
-=e2mf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMV8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7G8QAL70mOthHGNDQ6AxNNbz
+Byix2CcnLGi5ncewLH6TS08uScl3E4Pdw+tPopVb5zUQvzroO8zSsJRIvPQ71+oq
+hsrDAQeawN/bYDtmTWRP43VsTG0U+k8Wo1qzQ0Um3NP4ckZC0IXAhbiP1/jgeKGx
+UwXdodNf65jpiy7NpKQthfTkRpkudVAE/Qc7hGVdup6gjKyBKRjH3y+LhcQVIQrc
+wComswhnBgxleLtQpxPTiI/HZq4Bu5An2Pm8TLcB6SxuMazsXfYlN9HnlLyPkF9U
+OjvAu7eWGDr/gqJHsDVvEhLziUO4q37bIM+6D73BTFO1UqtcvGkwai0yFnsR1J4K
+B5Heqnf/W296ryYaCq3hjvyAtEfOFR5Ef0hd7bMzr6RoVelulISjrL+4ozswtMrY
+A7pPG/SECzDzdT5F66dhxqrplfJ7YBwvQ8lk+Kfoo24bbOu4rDmjejoKlOOtphFI
+lIe97+zAnmFC0j+k5brIf/1FX0yz2Xqvsqjiwani2mrrTELewNOgbih8DiMR3gYV
+5aRu1cpEv4ldAZIRGRQ+Q9vC4anrp5qLFQI4KJ3Ogny/J1LC60734YZbUMfo+ate
+nufGaEaOQ5p/LOUGBWlmDS6AsNNOimd35SrJWTZr50FN44CzwW+civ64m3Wuvts7
+j/sMcF6+W6LBXMOhpcToRiT6
+=1bZo
 -----END PGP SIGNATURE-----
 
---===============8381455829181802132==
+--===============2269043206776973401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c53d2e11a6d-95facebf63c7.txt
+Content-Disposition: attachment; filename=revlist-1c52283265a4-e783362eb54c.txt
 
 b7ec62d7ee0f0b8af6ba190501dff7f9ee6545ca bitops: protect find_first_{,zero}_bit properly
 6b8ecb84f8f64017ae6e56cd745ad88e48f68779 bitops: move find_bit_*_le functions from le.h to find.h
@@ -100,16 +100,5 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-a445ba6563ec42336ca63c99beb6a5435676ae71 NFS: use default_groups in kobj_type
-02ad10c3f68892b06f944865e02eb7072eb91ba0 SUNRPC: use default_groups in kobj_type
-15ca28dfa858dfcc6c554effd58e72052bf04d2e power_supply: ab8500: use default_groups in kobj_type
-8b34142cc3a353ecdcb6501611a3d149b7438561 EDAC: use proper list of struct attribute for attributes
-b6df6743eb8e1e7d7d7d4f4fef5a02993e8fa379 EDAC: use default_groups in kobj_type
-a2f5516d421b0b8860be45f5ed9b577d01bd5832 omapfb: use default_groups in kobj_type
-38b7338082f0b8ce66423abbedf628d5ec45df75 bcache: use default_groups in kobj_type
-00215acf907b1630c95fec985be7108b66d8b034 x86/CPU/AMD: use default_groups in kobj_type
-22b0073e1e21427621b9765211959ac2da7c43b8 ubifs: use default_groups in kobj_type
-fd49a74ac85482c021e23408cb567508f7342802 kobject: kobj_type: remove default_attrs
-95facebf63c7c6e9654aa1fb34d797554e433268 moxart: fix potential use-after-free on remove path
 
---===============8381455829181802132==--
+--===============2269043206776973401==--
