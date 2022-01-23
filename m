@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============2693683040847701522=="
+Content-Type: multipart/mixed; boundary="===============1192135984625490569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Sun, 23 Jan 2022 17:43:15 -0000
-Message-Id: <164295979554.25800.11013914515185864803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Sun, 23 Jan 2022 17:43:33 -0000
+Message-Id: <164295981355.25971.17665352231670922478@gitolite.kernel.org>
 
---===============2693683040847701522==
+--===============1192135984625490569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
-    old: 90a091ae496ac809d3b0bef98a205a6662cfdbaa
+    old: 2743531bb771a514fd5cd70a018749b34526d9d4
     new: e84c3ae3a4b58479c7bb80dfc74a11423fd4f8e1
-    log: revlist-90a091ae496a-e84c3ae3a4b5.txt
+    log: revlist-2743531bb771-e84c3ae3a4b5.txt
 
---===============2693683040847701522==
+--===============1192135984625490569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90a091ae496a-e84c3ae3a4b5.txt
+Content-Disposition: attachment; filename=revlist-2743531bb771-e84c3ae3a4b5.txt
 
+65381ee1d76a7b8ef62347792063c9015884d421 README: Remove stale mention to libparsevent
+90a091ae496ac809d3b0bef98a205a6662cfdbaa libtracecmd: Use major version as SONAME
 6482f99a47accb0b7c79c795d173ac0fc67e6c12 trace-cmd library: Define trace file version 7
 bea1bfd0b19f9b7f4f235e33bb3402469f7a79f7 trace-cmd library: Add cache functionality to network message handler
 5c0d4803dbee0962289ed39b46416c23353e74fa trace-cmd library: New APIs to get and set version of output handler
@@ -52,4 +54,4 @@ f0525aa4769e8967d5ae4d62751bdcb01915caca trace-cmd report: Use the new latency A
 a659a901509082ed672d27d56973ede59b5876e8 trace-cmd: Write buffers metadata in trace files version 6
 e84c3ae3a4b58479c7bb80dfc74a11423fd4f8e1 trace-cmd record: Add new parameter for trace file version
 
---===============2693683040847701522==--
+--===============1192135984625490569==--
