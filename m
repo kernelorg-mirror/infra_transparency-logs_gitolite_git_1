@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Sun, 23 Jan 2022 02:06:54 -0000
-Message-Id: <164290361452.1823.15608796890558606889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sun, 23 Jan 2022 05:17:09 -0000
+Message-Id: <164291502972.23578.13704164912422572363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 2743531bb771a514fd5cd70a018749b34526d9d4
-    new: 90a091ae496ac809d3b0bef98a205a6662cfdbaa
+  - ref: refs/heads/ftrace/core
+    old: 16a44923d609d3283f6cee615e53389762bae498
+    new: 6b9b6413700e104934734b72a3be622a76923b98
     log: |
-         65381ee1d76a7b8ef62347792063c9015884d421 README: Remove stale mention to libparsevent
-         90a091ae496ac809d3b0bef98a205a6662cfdbaa libtracecmd: Use major version as SONAME
+         6b9b6413700e104934734b72a3be622a76923b98 ftrace: Fix assuming build time sort works for s390
          
