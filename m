@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0753943350527965621=="
+Content-Type: multipart/mixed; boundary="===============5327338947979217613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Sun, 23 Jan 2022 15:12:14 -0000
-Message-Id: <164295073471.23287.6507496272655043847@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 15:12:17 -0000
+Message-Id: <164295073724.23351.13231363963049735152@gitolite.kernel.org>
 
---===============0753943350527965621==
+--===============5327338947979217613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 18a86e5907f7160fb548d0d717e0f842b310708a
     new: f262b90530fc56855d3eed3fda899a90e4389c4e
     log: revlist-18a86e5907f7-f262b90530fc.txt
 
---===============0753943350527965621==
+--===============5327338947979217613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 5a04982df8dad24681dc5848150f507338d3e372 dt-bindings: dmaengine: zynqmp_dma: convert to yaml
 f262b90530fc56855d3eed3fda899a90e4389c4e dt-bindings: Improve phandle-array schemas
 
---===============0753943350527965621==--
+--===============5327338947979217613==--
