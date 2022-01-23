@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4174377099648683904=="
+Content-Type: multipart/mixed; boundary="===============5503306096333810485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Sun, 23 Jan 2022 11:20:42 -0000
-Message-Id: <164293684269.2304.10046689154107689385@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 11:20:47 -0000
+Message-Id: <164293684750.2385.16481177127103136560@gitolite.kernel.org>
 
---===============4174377099648683904==
+--===============5503306096333810485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/pinctrl-next
     old: a382d568f144b9e533ad210117c6c50d8dbdcaf1
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-a382d568f144-e783362eb54c.txt
 
---===============4174377099648683904==
+--===============5503306096333810485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============4174377099648683904==--
+--===============5503306096333810485==--
