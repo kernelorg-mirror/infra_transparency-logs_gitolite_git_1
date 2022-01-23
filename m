@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Sat, 22 Jan 2022 23:49:38 -0000
-Message-Id: <164289537824.11421.17576763382826616828@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 00:03:42 -0000
+Message-Id: <164289622224.21353.3029837119515815900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/fs/ext2/xfstests-bld
 user: tytso
 changes:
   - ref: refs/heads/master
-    old: 43dd23bb38b460de72e21ba05550fba05270e884
-    new: c24b11797adcd361c2435970d2e21e40d422e320
+    old: c24b11797adcd361c2435970d2e21e40d422e320
+    new: 901f410d77309fcc48d99fbeeae9ecfff8b37365
     log: |
-         fc3543dd75ed1c61675c9742b35ac83f05c92386 acl: Update generated files to be in sync with Debian Bullseye
-         c24b11797adcd361c2435970d2e21e40d422e320 Update config.{guess,sub} files
+         575ce480fc1fdc53a796499685e783fc26188293 Update config.{guess,sub} files
+         901f410d77309fcc48d99fbeeae9ecfff8b37365 build-all: run autoreconf and autoheader in the acl directory
          
