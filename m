@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7409519913380367826=="
+Content-Type: multipart/mixed; boundary="===============6011203541639400505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Sun, 23 Jan 2022 15:24:35 -0000
-Message-Id: <164295147546.31414.4045077510981515637@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 15:29:23 -0000
+Message-Id: <164295176358.1839.9665862677201617787@gitolite.kernel.org>
 
---===============7409519913380367826==
+--===============6011203541639400505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mtd/linux
 user: mraynal
 changes:
-  - ref: refs/heads/mtd/next
-    old: 9ce47e43a0f088653aa25ca465836a84114e0940
-    new: 4f82eb6b4aec9d584c9dd370087db7a87c88bcb6
-    log: revlist-9ce47e43a0f0-4f82eb6b4aec.txt
+  - ref: refs/heads/mtd/fixes
+    old: 27a030e8729255b2068f35c1cd609b532b263311
+    new: b78108a0a87d704ee3ddbc4c9ce09e107b4d5473
+    log: revlist-27a030e87292-b78108a0a87d.txt
 
---===============7409519913380367826==
+--===============6011203541639400505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ce47e43a0f0-4f82eb6b4aec.txt
+Content-Disposition: attachment; filename=revlist-27a030e87292-b78108a0a87d.txt
 
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
 b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
@@ -1042,13 +1042,13 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-ece94312ff9b6bd0681d474606736410eccdbb8d mtd: rawnand: ingenic: Fix missing put_device in ingenic_ecc_get
-58f030410f1c8ee5a04ac39720050b7a9ded4820 mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
-5d671dcf4f851c314f0d6a6d2e54167b7ae9f379 mtd: parsers: qcom: Don't print error message on -EPROBE_DEFER
-3c4539442c775a11d681784ade12c77adba34893 mtd: parsers: qcom: Fix kernel panic on skipped partition
-dfec63756043caadbbb092af19a06631b600819d mtd: parsers: qcom: Fix missing free for pparts in cleanup
-136101c26073ff34b27b0b8fadd0abc5c7ad51f0 mtd: rawnand: gpmi: fix controller timings setting
-5a42a62fa94f6796440010495b0206c9688450e1 mtd: rawnand: omap2: Prevent invalid configuration and build error
-4f82eb6b4aec9d584c9dd370087db7a87c88bcb6 mtd: phram: Prevent divide by zero bug in phram_setup()
+7815173a7ccb67267b74577a71144de544b9a1b9 mtd: rawnand: ingenic: Fix missing put_device in ingenic_ecc_get
+67ba4f7222dda9427d3af0a6eec85987c121579c mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
+8388525e5a5d12464934efc7faec6f29dad65ac6 mtd: parsers: qcom: Don't print error message on -EPROBE_DEFER
+2b3d77cb5ce302e704562e05362c177fea8aaf80 mtd: parsers: qcom: Fix kernel panic on skipped partition
+24790d87b6c7fa64aa943f2d9ecf5a10112e68e0 mtd: parsers: qcom: Fix missing free for pparts in cleanup
+88e225b9df7ba33e17df494aee0338219f42fb07 mtd: rawnand: gpmi: fix controller timings setting
+64eb814fc880f2b9e97f78c8df1a00be29668557 mtd: rawnand: omap2: Prevent invalid configuration and build error
+b78108a0a87d704ee3ddbc4c9ce09e107b4d5473 mtd: phram: Prevent divide by zero bug in phram_setup()
 
---===============7409519913380367826==--
+--===============6011203541639400505==--
