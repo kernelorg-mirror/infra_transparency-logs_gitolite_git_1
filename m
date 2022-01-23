@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8528582554107502676=="
+Content-Type: multipart/mixed; boundary="===============7820624139709056113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 23 Jan 2022 11:20:53 -0000
-Message-Id: <164293685388.2464.5892080986534384846@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 11:21:06 -0000
+Message-Id: <164293686636.2650.16063701929335053953@gitolite.kernel.org>
 
---===============8528582554107502676==
+--===============7820624139709056113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/fixes
-    old: df0cc57e057f18e44dac8e6c18aba47ab53202f9
+  - ref: refs/heads/next/drivers
+    old: 96c8bddb6cdefb029cc7e411a5ee2183477368ea
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-df0cc57e057f-e783362eb54c.txt
+    log: revlist-96c8bddb6cde-e783362eb54c.txt
 
---===============8528582554107502676==
+--===============7820624139709056113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df0cc57e057f-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-96c8bddb6cde-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============8528582554107502676==--
+--===============7820624139709056113==--
