@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0276973109349709707=="
+Content-Type: multipart/mixed; boundary="===============2956576633153391158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sun, 23 Jan 2022 10:45:10 -0000
-Message-Id: <164293471035.23534.14215800047540581334@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 10:45:14 -0000
+Message-Id: <164293471425.28500.4031398819798296839@gitolite.kernel.org>
 
---===============0276973109349709707==
+--===============2956576633153391158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: 4d66020dcef83314092f2c8c89152a8d122627e2
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-4d66020dcef8-e783362eb54c.txt
 
---===============0276973109349709707==
+--===============2956576633153391158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934704 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1642934713 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1642934704-dbb3c163a651b6bd95f54ef37f8b869f32216526
+nonce 1642934712-570be96511519f0d79d07aa50feed6a4f608b70b
 
-4d66020dcef83314092f2c8c89152a8d122627e2 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/main
+4d66020dcef83314092f2c8c89152a8d122627e2 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMbEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kwEP/1D7SlJbAxK913OKZpjW
-67asrP0BVHDDoK9C25jN82siN23jShWr3wYOSiaMp14QEYALzAAUFFXnkGeuzOuY
-9NZ+TGdnBU3i2A9nL0Ux+qSh1Dk1c7O8npepiLnwdY3+iux7xCQlrwO04O/eLP8l
-ncK1MVQta862xpT3ckxO4vL5aSutbJeLITW+i7SI7iKy1jaGHHnGKDANMkuWgvmM
-OHfPM5fDRANQba55PecTBrdMHs52DDqE3y1fsw3bfzMQ2yW2rpu9LgBY5boq85eh
-Trd1kD7NC2cyXo9k7xzhiG2SmjfkJNV1XIKsKwZeOVSdzBkQnWIzX2IOajmi5GpX
-7pHbXxH64g6LLPIHoG7ZexaBkSUG1JHwuFFDL/A3fovRlQBpI+3xsvzJV2k5suon
-UZ0niEm6tk3eb+C0TnTM3fXPz4YV2ipI5cMcSZqfXLMb1m/uOTsod/YqKvIK9cgV
-kx5uqtp7NahODCJtK1naXu5aaJ2m2s//yxhbQX4dpuwOiv/aJ7MCtGOzwMafjsXx
-HF/Q+JQLHlJ2ew6iGLkLRnChCbljV5PzX/GYx+gutY13oodCYewJhpV2OzSrlJP3
-NrsL9IABBDk82vI5zV8t015pkq5Gx5ivg+UBY8e53nC6aKFQ0NfdQVb2tI71WiUN
-X7izrEZepRPHKqvhsi8qiZ3k
-=BSug
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHtMbkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q0gQAM9zQezaGfWRe8oskc7u
+wipgJscpzeMgusvDrTGuDsm+RNjv1ZLSee59N8hzuJPJXNrdt0hPCSxWYqJHR1WN
+ziTJRMRS3cdGZexRQGKWMCSH5Ot8GLUUgba6Lof84on7tPNF0g2WvRpjYS8B+fPY
+qBXybhj8d3rq6LqrBfESZRORWMV4GhaSNA2wylAlN2T++o2YsMLHqPyOTf2jCrW8
+aLGNA8IZWhpoOlLKZNA6cmsikkveFiQ+Upb0AafjyzpIzPk4uRQbQFK3fMpGiCkK
+M3NeWRcCH2v386ezDLo/jPg4OciHhqqrpemiZHT5vwhB/CLVY+bW62Rn7J7rJut5
+f+7/66cmAzIpNhqQqVbdyFnTz86Y/XBWQFiEwxBDpP8TVIdBONEWJlBm4oFdb/U2
+O+d4sldNp2GLQOzCCbNy61L2KQr+EKZwdq2dZmLEMu+/jdBHL51giUi9JSSWyqrx
+I4Hqr2pKZEM8OlL/zCJCBTUdXwWo57bphRBRIlrkRpjcO25OZS9lIK2TkU4rOorg
+sieIqm2sQz1XyObZ1COCtW1ZMEwT8Bf9GQJe0/3qYAZRQPiggT+2eNvVAyand1xs
+Zlv/GBopC0iPZuW9x1UItVFObqRz+/DzS7RAqu8O3nCZGwSMAnVt1n6phpO4GmMi
+AISbDyAwoOydQHTHb1XkpyRG
+=bGUF
 -----END PGP SIGNATURE-----
 
---===============0276973109349709707==
+--===============2956576633153391158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============0276973109349709707==--
+--===============2956576633153391158==--
