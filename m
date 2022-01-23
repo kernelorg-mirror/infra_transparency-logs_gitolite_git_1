@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 23 Jan 2022 12:52:10 -0000
-Message-Id: <164294233027.29968.2798287888001920902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Sun, 23 Jan 2022 13:23:01 -0000
+Message-Id: <164294418191.16700.9187566278054498053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/network/connman/connman
+user: wagi
 changes:
-  - ref: refs/heads/for-v5.18
-    old: 0000000000000000000000000000000000000000
-    new: a9940f83a6e279f7c059123d68d1e0395ec4bbe5
+  - ref: refs/heads/master
+    old: cd1a578600e664e7960c779c62f45ee0c479054d
+    new: ed3e8b59e90f5a388fcb339d46e2e5dc7e29d099
+    log: |
+         ed3e8b59e90f5a388fcb339d46e2e5dc7e29d099 service: Fix native connection with wrong passphrase
+         
