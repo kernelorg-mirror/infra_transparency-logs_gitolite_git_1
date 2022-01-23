@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3020687381595190713=="
+Content-Type: multipart/mixed; boundary="===============7290204314599181979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 23 Jan 2022 11:19:55 -0000
-Message-Id: <164293679595.568.7883182975828422328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Sun, 23 Jan 2022 11:20:37 -0000
+Message-Id: <164293683789.2184.11045979785750536864@gitolite.kernel.org>
 
---===============3020687381595190713==
+--===============7290204314599181979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 changes:
-  - ref: refs/heads/master
-    old: df0cc57e057f18e44dac8e6c18aba47ab53202f9
+  - ref: refs/heads/fixes
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-df0cc57e057f-e783362eb54c.txt
+    log: revlist-fa55b7dcdc43-e783362eb54c.txt
 
---===============3020687381595190713==
+--===============7290204314599181979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df0cc57e057f-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============3020687381595190713==--
+--===============7290204314599181979==--
