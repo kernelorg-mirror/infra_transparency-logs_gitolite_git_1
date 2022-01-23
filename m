@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4133022789444056761=="
+Content-Type: multipart/mixed; boundary="===============6859407049739265270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 23 Jan 2022 19:51:14 -0000
-Message-Id: <164296747417.11915.2513807571383077149@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 19:53:28 -0000
+Message-Id: <164296760848.14040.8475974604703646831@gitolite.kernel.org>
 
---===============4133022789444056761==
+--===============6859407049739265270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/x86/urgent
-    old: d6f12f83989bb356ac6880a954f62c7667e35066
-    new: 1f52b0aba6fd37653416375cb8a1ca673acf8d5f
-    log: revlist-d6f12f83989b-1f52b0aba6fd.txt
+  - ref: refs/heads/x86/build
+    old: b6aa86cff44cf099299d3a5e66348cb709cd7964
+    new: 4eda2bc3431ebe5c8361580877a4666d10ea28a7
+    log: revlist-b6aa86cff44c-4eda2bc3431e.txt
 
---===============4133022789444056761==
+--===============6859407049739265270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6f12f83989b-1f52b0aba6fd.txt
+Content-Disposition: attachment; filename=revlist-b6aa86cff44c-4eda2bc3431e.txt
 
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
@@ -1049,6 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-1f52b0aba6fd37653416375cb8a1ca673acf8d5f x86/MCE/AMD: Allow thresholding interface updates after init
+4eda2bc3431ebe5c8361580877a4666d10ea28a7 x86/Kconfig: Select ARCH_SELECT_MEMORY_MODEL only if FLATMEM and SPARSEMEM are possible
 
---===============4133022789444056761==--
+--===============6859407049739265270==--
