@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5795862591357541613=="
+Content-Type: multipart/mixed; boundary="===============4700744266070374950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sun, 23 Jan 2022 19:17:15 -0000
-Message-Id: <164296543559.22275.13716027253901578863@gitolite.kernel.org>
+Date: Sun, 23 Jan 2022 19:18:26 -0000
+Message-Id: <164296550607.22747.2222710358805420738@gitolite.kernel.org>
 
---===============5795862591357541613==
+--===============4700744266070374950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-misc
-    old: 567617baac2a55a63119f1516fe5395baa1f3205
+  - ref: refs/heads/edac-for-next
+    old: 3a8cccd0b51929914512b033cd0257ff84d238d9
     new: 625c6b55699777ece6b87235f579e2cfbde049ce
-    log: revlist-567617baac2a-625c6b556997.txt
+    log: revlist-3a8cccd0b519-625c6b556997.txt
 
---===============5795862591357541613==
+--===============4700744266070374950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-567617baac2a-625c6b556997.txt
+Content-Disposition: attachment; filename=revlist-3a8cccd0b519-625c6b556997.txt
 
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
@@ -1051,4 +1051,4 @@ e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 11413893a0d0b19df976eb9a2b600ba56802db2f EDAC: Use proper list of struct attribute for attributes
 625c6b55699777ece6b87235f579e2cfbde049ce EDAC: Use default_groups in kobj_type
 
---===============5795862591357541613==--
+--===============4700744266070374950==--
