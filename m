@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0555292878033278391=="
+Content-Type: multipart/mixed; boundary="===============8247830473004759083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 24 Jan 2022 08:05:29 -0000
-Message-Id: <164301152940.29165.9577588876357636416@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 08:05:40 -0000
+Message-Id: <164301154004.29270.12856602024738312716@gitolite.kernel.org>
 
---===============0555292878033278391==
+--===============8247830473004759083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: 547d2167c5c3cd879ed5e86e88cfa7daaf1228a5
+  - ref: refs/heads/gnss-linus
+    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-547d2167c5c3-e783362eb54c.txt
+    log: revlist-136057256686-e783362eb54c.txt
 
---===============0555292878033278391==
+--===============8247830473004759083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-547d2167c5c3-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-136057256686-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============0555292878033278391==--
+--===============8247830473004759083==--
