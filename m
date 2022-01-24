@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6060971598161056239=="
+Content-Type: multipart/mixed; boundary="===============5633066630866566390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 24 Jan 2022 22:16:13 -0000
-Message-Id: <164306257346.32220.15751342967012281686@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 22:16:31 -0000
+Message-Id: <164306259104.32362.3671824109304514082@gitolite.kernel.org>
 
---===============6060971598161056239==
+--===============5633066630866566390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/blk-crypto-sysfs-testing
-    old: 59eaf05f0496aed45c6825a931254a94381d36ac
-    new: 4a241d560278ece4acb6976c02fdeb48bb398d36
-    log: revlist-59eaf05f0496-4a241d560278.txt
+  - ref: refs/heads/master
+    old: feb7a43de5ef625ad74097d8fd3481d5dbc06a59
+    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    log: revlist-feb7a43de5ef-e783362eb54c.txt
 
---===============6060971598161056239==
+--===============5633066630866566390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59eaf05f0496-4a241d560278.txt
+Content-Disposition: attachment; filename=revlist-feb7a43de5ef-e783362eb54c.txt
 
+284a4d94e8e74fbd731ee67e29196656ca823423 mctp: test: zero out sockaddr
+274c224062ff9545d8df2a6e4764a5fd660d792e net: ethernet: sun4i-emac: replace magic number with macro
+23e7b1bfed61e301853b5e35472820d919498278 xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
+f7716b318568b22fbf0e3be99279a979e217cf71 gre: Don't accidentally set RTO_ONLINK in gre_fill_metadata_dst()
 a915deaa9abe4fb3a440312c954253a6a733608e libcxgb: Don't accidentally set RTO_ONLINK in cxgb_find_route()
 48d67543e01d73292e0bb66d3f10fc422e79e031 mlx5: Don't accidentally set RTO_ONLINK before mlx5e_route_lookup_ipv4_get()
 29b3881b7977db792f93ebe440423811d5cfee56 Merge branch 'ipv4-fix-accidental-rto_onlink-flags-passed-to-ip_route_output_key_hash'
@@ -1046,9 +1050,5 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-73edec06ef64176d5e9a996da0cad371f01a1abc block: simplify calling convention of elv_unregister_queue()
-b88f881eee7dc7b6e7230288981c1fa89c22dace block: don't delete queue kobject before its children
-acd90970f3c4c1ce41f1108d6f74a00c6eacb872 blk-crypto: show crypto capabilities in sysfs
-4a241d560278ece4acb6976c02fdeb48bb398d36 virtio-blk: add fake crypto profile for testing
 
---===============6060971598161056239==--
+--===============5633066630866566390==--
