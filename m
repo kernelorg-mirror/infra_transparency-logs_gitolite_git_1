@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1899198333356870902=="
+Content-Type: multipart/mixed; boundary="===============2431185486061930271=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 24 Jan 2022 16:15:11 -0000
-Message-Id: <164304091132.19754.9979760051073393284@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 16:15:46 -0000
+Message-Id: <164304094679.20016.7412331601764061437@gitolite.kernel.org>
 
---===============1899198333356870902==
+--===============2431185486061930271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
+  - ref: refs/heads/test
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-fa55b7dcdc43-e783362eb54c.txt
 
---===============1899198333356870902==
+--===============2431185486061930271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============1899198333356870902==--
+--===============2431185486061930271==--
