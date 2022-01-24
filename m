@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1846080819010939472=="
+Content-Type: multipart/mixed; boundary="===============5377906363284458371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 24 Jan 2022 17:29:47 -0000
-Message-Id: <164304538763.4720.17389400831144487520@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 17:29:58 -0000
+Message-Id: <164304539891.4855.6968604479317321557@gitolite.kernel.org>
 
---===============1846080819010939472==
+--===============5377906363284458371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 6dc9a23e29061e50c36523270de60039ccf536fa
-    new: c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760
-    log: revlist-6dc9a23e2906-c0bf3d8a943b.txt
+  - ref: refs/heads/testing
+    old: 89d58aebe14a365c25ba6645414afdbf4e41cea4
+    new: f04aefd4659b7959e50e6d0d649936c6940f9d34
+    log: revlist-89d58aebe14a-f04aefd4659b.txt
 
---===============1846080819010939472==
+--===============5377906363284458371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1643045383 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1643045394 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1643045380-341e0de2ceaea1d60db1a171b49ba2ac6030822b
+nonce 1643045394-0233dbe675569501ba2597ad014c8527c8c73de8
 
-6dc9a23e29061e50c36523270de60039ccf536fa c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760 refs/heads/master
+89d58aebe14a365c25ba6645414afdbf4e41cea4 f04aefd4659b7959e50e6d0d649936c6940f9d34 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHu4gcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCpyVqK+u3vqfytB/9Idkm1/XvqZzQYL2q1VYQzIWHQJZFw
-9WLMa+KvziiUqi9Y6+f8bHd7D8P4gdJuC3Q3Kp69pB/gbMYYa3IJKLiF0xdqnU6k
-Jiyh9MzrHOQ1VerPmSl1iafltw8bVEeitnlsW36BK1TJjRXfOYCopgWzJUcH8zr1
-RnvaG+Cyw6z1h5mVE9+pWotfYt2iVMuEXjIPoUiKRQCZ0ZhTv4LL3ak6JzmKJQN+
-cvofFCErTym5W/87OVJUAbxA9YEQzJKl/kY8yUH9fxjm3QQKjxN2X0w71HDDoSW3
-qXL8fmmbdPLXqRGp1+8jL+ZlWU62/T1MbRhgQoKqEqn3cZAUiR/v/2lJ
-=Ks2R
+iQFHBAABCgAxFiEEK3kIWJt9yTYMP3ehqclaivrt76kFAmHu4hITHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCpyVqK+u3vqYgwCACsWCyLWHUwvM6BIa48KmPipQFtbpNF
+/rCLJzzTSnBDJDxLDnY+YlSdSLvCa+7ldq7S2zj+HzOpIBZH1qz3uqpOL2RXt80F
+evzcglwI8A0rOZk6ViBnZbQO4r7Zq/YLawvkU/Dgdr0lTqw+sR4hPTwux4e4zkX8
+D7b18/LfP3m/DxOTIGYQt+zL58j5py68yDHZppIhummMtw9xMQu7/nU66miM0/BJ
+BwcUzRju8Z8xYz/k8i9y7GmoM+/tF3g6wmhk6ZI7YEBcP+vqHjClVzJgs+KMgzhO
+h/BHGJRR8MMynsCgRiMVPqmJyofPzatmSA5ZfFs6rEkpptAoh7wsneUl
+=kYkz
 -----END PGP SIGNATURE-----
 
---===============1846080819010939472==
+--===============5377906363284458371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dc9a23e2906-c0bf3d8a943b.txt
+Content-Disposition: attachment; filename=revlist-89d58aebe14a-f04aefd4659b.txt
 
-e21a28bbcc0c5dc8ab86af77edb530d6fc0c20ff exfat: simplify is_valid_cluster()
-6fa96cd5ad7a0c8f3f3f6b2b5f062721e8f17a54 exfat: fix typos in comments
-8cf058834b11c08b344fc4549b03d723f16c9241 exfat: make exfat_find_location() static
-7dee6f57d7f22a89dd214518c778aec448270d4c exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
-92fba084b79e6bc7b12fc118209f1922c1a2df56 exfat: fix i_blocks for files truncated over 4 GiB
 1ed147e29e505de819aaa5b57919c25348f72e1f exfat: move super block magic number to magic.h
 c71510b3fa27f96840c5737d8a47dd7b370e376c exfat: remove argument 'sector' from exfat_get_dentry()
 3d966521a824082952990492442c7b486fefb48c exfat: fix missing REQ_SYNC in exfat_update_bhs()
@@ -1075,5 +1070,10 @@ db9f0e8bf79e6da7068b5818fea0ffd9d0d4b4da ibmvnic: Allow extra failures before di
 48079e7fdd0269d66b1d7d66ae88bd03162464ad ibmvnic: don't spin in tasklet
 3a5d9db7fbdfc8207ddf70d92668ced0ab330701 ibmvnic: remove unused ->wait_capability
 c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760 net/smc: Transitional solution for clcsock race issue
+984d1efff2304833e20fce89046ef8a89fb51d15 mailmap: update email address of Brian Silverman
+17a30422621c0e04cb6060d20d7edcefd7463347 dt-bindings: can: tcan4x5x: fix mram-cfg RX FIFO config
+db72589c49fd260bfc99c7160c079675bc7417af can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
+e59986de5ff701494e14c722b78b6e6d513e0ab5 can: tcan4x5x: regmap: fix max register value
+f04aefd4659b7959e50e6d0d649936c6940f9d34 can: flexcan: mark RX via mailboxes as supported on MCF5441X
 
---===============1846080819010939472==--
+--===============5377906363284458371==--
