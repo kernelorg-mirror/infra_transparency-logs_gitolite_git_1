@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3941665811187143227=="
+Content-Type: multipart/mixed; boundary="===============1192246277514451706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 24 Jan 2022 08:15:49 -0000
-Message-Id: <164301214951.3832.1472741857483343009@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 08:16:34 -0000
+Message-Id: <164301219487.4156.2740606120468478543@gitolite.kernel.org>
 
---===============3941665811187143227==
+--===============1192246277514451706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: ffe31c9ed35d70069ee76d6b6d41ac86a17d7a07
+  - ref: refs/heads/at24/for-current
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-ffe31c9ed35d-e783362eb54c.txt
+    log: revlist-fa55b7dcdc43-e783362eb54c.txt
 
---===============3941665811187143227==
+--===============1192246277514451706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffe31c9ed35d-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============3941665811187143227==--
+--===============1192246277514451706==--
