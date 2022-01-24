@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 24 Jan 2022 22:03:41 -0000
-Message-Id: <164306182103.23533.5121978990129817338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 24 Jan 2022 22:05:04 -0000
+Message-Id: <164306190415.25448.1041587850709973876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
   - ref: refs/heads/master
-    old: 2869c524fe6ee616f8637774bcf265a95cab6b4b
-    new: 9ae672cb08e420372da0fcd0a4a1b94f3fac3bf0
+    old: b4ec6a19231224f6b08dc54ea07da4c4090e8ee3
+    new: 0bfb95f59a6613e30c0672b8ef2c9502302bf6bb
     log: |
-         9ae672cb08e420372da0fcd0a4a1b94f3fac3bf0 lib/crypto: blake2s: avoid indirect calls to compression function for Clang CFI
+         0bfb95f59a6613e30c0672b8ef2c9502302bf6bb selftests, bpf: Do not yet switch to new libbpf XDP APIs
          
