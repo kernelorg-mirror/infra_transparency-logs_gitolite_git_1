@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6987726219891400241=="
+Content-Type: multipart/mixed; boundary="===============5294678097649916344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 24 Jan 2022 13:48:53 -0000
-Message-Id: <164303213365.12437.15878802753538227519@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 13:49:08 -0000
+Message-Id: <164303214873.12589.13232532331687071933@gitolite.kernel.org>
 
---===============6987726219891400241==
+--===============5294678097649916344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/next
-    old: fa487b2a900d7b22fe7db678d2134fbf56ae9da0
+  - ref: refs/heads/fixes
+    old: df0cc57e057f18e44dac8e6c18aba47ab53202f9
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-fa487b2a900d-e783362eb54c.txt
+    log: revlist-df0cc57e057f-e783362eb54c.txt
 
---===============6987726219891400241==
+--===============5294678097649916344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa487b2a900d-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-df0cc57e057f-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============6987726219891400241==--
+--===============5294678097649916344==--
