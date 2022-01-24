@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0071390316180838024=="
+Content-Type: multipart/mixed; boundary="===============3152536851620702565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 24 Jan 2022 19:12:49 -0000
-Message-Id: <164305156907.9134.17490687533715580462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 24 Jan 2022 19:23:54 -0000
+Message-Id: <164305223410.16801.16213805143871002395@gitolite.kernel.org>
 
---===============0071390316180838024==
+--===============3152536851620702565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: 1bb0b8b195d821d009bae61248da14f2b17bd44a
-    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-1bb0b8b195d8-e783362eb54c.txt
+  - ref: refs/heads/x86/paravirt
+    old: 6da5175dbe1c2f02f1301b6d987e3ce24742bfd4
+    new: 2e1f8e55f9e054b4a49ffc06c7e33b5d4725f05e
+    log: revlist-6da5175dbe1c-2e1f8e55f9e0.txt
 
---===============0071390316180838024==
+--===============3152536851620702565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bb0b8b195d8-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-6da5175dbe1c-2e1f8e55f9e0.txt
 
-c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
@@ -1050,5 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
+2e1f8e55f9e054b4a49ffc06c7e33b5d4725f05e x86/paravirt: Use %rip-relative addressing in hook calls
 
---===============0071390316180838024==--
+--===============3152536851620702565==--
