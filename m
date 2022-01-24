@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2269745720608714368=="
+Content-Type: multipart/mixed; boundary="===============3169164578894699122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 24 Jan 2022 14:40:50 -0000
-Message-Id: <164303525016.17462.15673830853054132666@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 14:40:58 -0000
+Message-Id: <164303525839.17578.14726241466792541769@gitolite.kernel.org>
 
---===============2269745720608714368==
+--===============3169164578894699122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: 1f40caa080474d0420e0b0e6c896e455acb6e236
     new: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
     log: revlist-1f40caa08047-dd81e1c7d5fb.txt
 
---===============2269745720608714368==
+--===============3169164578894699122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -380,4 +380,4 @@ e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 ac5a9bb6b4fa22135b3e371ac9787de120e18c8d Merge tag 'irq_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============2269745720608714368==--
+--===============3169164578894699122==--
