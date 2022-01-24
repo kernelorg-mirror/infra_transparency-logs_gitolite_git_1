@@ -1,40 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============0147810071003734480=="
+Content-Type: multipart/mixed; boundary="===============1332756255967881311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 24 Jan 2022 18:09:17 -0000
-Message-Id: <164304775719.30485.16398477137157774544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 24 Jan 2022 18:12:48 -0000
+Message-Id: <164304796831.557.2768944708938747050@gitolite.kernel.org>
 
---===============0147810071003734480==
+--===============1332756255967881311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: 0ff356ae1fc45dad6834bc4ce9ce206b1c6c671e
-    new: 82880283d7fcd0a1d20964a56d6d1a5cc0df0713
-    log: revlist-0ff356ae1fc4-82880283d7fc.txt
+  - ref: refs/heads/for-next
+    old: 0fc3812f4554482da907ec33ed1856c8196d46ee
+    new: e2d3613db12a577a89329ca9997fc58bef01bb70
+    log: revlist-0fc3812f4554-e2d3613db12a.txt
+  - ref: refs/tags/v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
 
---===============0147810071003734480==
+--===============1332756255967881311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ff356ae1fc4-82880283d7fc.txt
+Content-Disposition: attachment; filename=revlist-0fc3812f4554-e2d3613db12a.txt
 
-9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
-8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
-b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
 dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
 818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
 ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
@@ -1049,6 +1043,15 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-82880283d7fcd0a1d20964a56d6d1a5cc0df0713 objtool: Fix truncated string warning
+0b564b31f297b29823ff75031e4ac42d75562958 nfsd: Add support for the birth time attribute
+7a68a2ac6b10537e99cc429b90b28f99a3a49c15 NFSD: De-duplicate hash bucket indexing
+403670f52f32e05325b049b84ba6025304dc847f NFSD: Skip extra computation for RC_NOCACHE case
+3a2e6c33e234dd6c768d90516859129adef0067a NFSD: Streamline the rare "found" case
+9580b78ebd8784a47ed70d3e42c1ba903b31d858 tracing: Introduce helpers to safely handle dynamic-sized sockaddrs
+3f369b0c48028b9901376549cf0d7ae8f5c7cfea NFSD: Use __sockaddr field to store socket addresses
+bf000666094dca1021d8ec78e9426883af2b90ec NFSD: Remove NFSD_PROC_ARGS_* macros
+6ff851d98af840b59e6efaebfe34776008bf9e12 SUNRPC: Improve sockaddr handling in the svc_xprt_create_error trace point
+5544d5318802c7d955d42be47f36e8bc42a6235d SUNRPC: Same as SVC_RQST_ENDPOINT, but without the xid
+e2d3613db12a577a89329ca9997fc58bef01bb70 SUNRPC: Record endpoint information in trace log
 
---===============0147810071003734480==--
+--===============1332756255967881311==--
