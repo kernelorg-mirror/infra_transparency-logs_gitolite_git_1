@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0148824771612982534=="
+Content-Type: multipart/mixed; boundary="===============8774799749702495897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 24 Jan 2022 10:17:02 -0000
-Message-Id: <164301942274.31243.2509440439954001243@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 10:17:18 -0000
+Message-Id: <164301943879.31427.14670943937325802048@gitolite.kernel.org>
 
---===============0148824771612982534==
+--===============8774799749702495897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: f0b62b0bbedcdfde18116080605cebd9beec4ee9
+  - ref: refs/heads/renesas-clk-for-v5.18
+    old: 2eaee3f4b8124e746ec1b3f3b5f5e4e7815561b9
     new: 9b621b6adff533468798404acca062c46da141af
-    log: revlist-f0b62b0bbedc-9b621b6adff5.txt
-  - ref: refs/heads/renesas-pinctrl
-    old: ea7e26ebe6a90fe7962823a70ac91f010df71239
+    log: revlist-2eaee3f4b812-9b621b6adff5.txt
+  - ref: refs/heads/renesas-pinctrl-for-v5.18
+    old: 6df3b0897746fb1c0dc48298cee8885742ce9bed
     new: 9d6ae5b72f78a94f52a8e3140768df0efaba15d6
-    log: revlist-ea7e26ebe6a9-9d6ae5b72f78.txt
+    log: revlist-6df3b0897746-9d6ae5b72f78.txt
 
---===============0148824771612982534==
+--===============8774799749702495897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0b62b0bbedc-9b621b6adff5.txt
+Content-Disposition: attachment; filename=revlist-2eaee3f4b812-9b621b6adff5.txt
 
 8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
 72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
@@ -1055,11 +1055,11 @@ d843e61e0ea50ecf2fc9276c828ea3867867fd89 clk: renesas: r8a7799[05]: Add MLP cloc
 b289cdecc7c3e25e001cde260c882e4d9a8b0772 clk: renesas: r9a07g044: Update multiplier and divider values for PLL2/3
 9b621b6adff533468798404acca062c46da141af clk: renesas: r8a779a0: Add CANFD module clock
 
---===============0148824771612982534==
+--===============8774799749702495897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea7e26ebe6a9-9d6ae5b72f78.txt
+Content-Disposition: attachment; filename=revlist-6df3b0897746-9d6ae5b72f78.txt
 
 62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
@@ -2086,4 +2086,4 @@ c038a988a842c9d99d7934ed4f643b52e2377146 pinctrl: renesas: r8a7790: Remove INTC_
 c07b19de2f7ac91662aa99767815a258da6ef16f dt-bindings: pinctrl: renesas: Document RZ/V2L pinctrl
 9d6ae5b72f78a94f52a8e3140768df0efaba15d6 pinctrl: renesas: Kconfig: Select PINCTRL_RZG2L if RZ/V2L SoC is enabled
 
---===============0148824771612982534==--
+--===============8774799749702495897==--
