@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8780585812871428839=="
+Content-Type: multipart/mixed; boundary="===============3190792227629142554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 24 Jan 2022 19:45:21 -0000
-Message-Id: <164305352128.31373.532770238340508029@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 19:46:10 -0000
+Message-Id: <164305357088.31765.3872779619397766221@gitolite.kernel.org>
 
---===============8780585812871428839==
+--===============3190792227629142554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: nmenon
 changes:
-  - ref: refs/heads/ti-keystone-dts-next
+  - ref: refs/heads/ti-keystone-next
     old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-fa55b7dcdc43-e783362eb54c.txt
 
---===============8780585812871428839==
+--===============3190792227629142554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============8780585812871428839==--
+--===============3190792227629142554==--
