@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5194395565506657678=="
+Content-Type: multipart/mixed; boundary="===============8986903558926953222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 24 Jan 2022 17:22:11 -0000
-Message-Id: <164304493182.547.16771879181093555285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 24 Jan 2022 17:22:20 -0000
+Message-Id: <164304494063.742.8413317005943549023@gitolite.kernel.org>
 
---===============5194395565506657678==
+--===============8986903558926953222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/next
-    old: 6cd9d4b97891560b61681cad9cc4307ce0719abc
+    old: ed98ea2128b6fd83bce13716edf8f5fe6c47f574
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-6cd9d4b97891-e783362eb54c.txt
+    log: revlist-ed98ea2128b6-e783362eb54c.txt
 
---===============5194395565506657678==
+--===============8986903558926953222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cd9d4b97891-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-ed98ea2128b6-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============5194395565506657678==--
+--===============8986903558926953222==--
