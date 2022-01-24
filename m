@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0517200300220672024=="
+Content-Type: multipart/mixed; boundary="===============1917375199851915057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Jan 2022 22:46:13 -0000
-Message-Id: <164306437382.19494.3436507467640633744@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 22:46:22 -0000
+Message-Id: <164306438219.19612.3378730836727990069@gitolite.kernel.org>
 
---===============0517200300220672024==
+--===============1917375199851915057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 94985da003a421dc9c808d12e00d52b274ab92c4
     new: bd298817dd07c91088a0db2c10e0e08c8df0f097
     log: revlist-94985da003a4-bd298817dd07.txt
 
---===============0517200300220672024==
+--===============1917375199851915057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -236,4 +236,4 @@ a68ea2b90703eeb8ab4f511936d6b3d271872b37 Merge x86/urgent into tip/master
 7876b33a33ea2d3a0598e2af3d82401c9d3021af Merge x86/build into tip/master
 bd298817dd07c91088a0db2c10e0e08c8df0f097 Merge x86/paravirt into tip/master
 
---===============0517200300220672024==--
+--===============1917375199851915057==--
