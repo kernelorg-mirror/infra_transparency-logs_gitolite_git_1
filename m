@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8131890932259354434=="
+Content-Type: multipart/mixed; boundary="===============5622607780171889827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 24 Jan 2022 11:03:24 -0000
-Message-Id: <164302220427.31379.8641730783979782558@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 11:03:32 -0000
+Message-Id: <164302221210.31488.4839915849149979136@gitolite.kernel.org>
 
---===============8131890932259354434==
+--===============5622607780171889827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-andy
     old: 2c271fe77d52a0555161926c232cd5bc07178b39
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     log: revlist-2c271fe77d52-e783362eb54c.txt
 
---===============8131890932259354434==
+--===============5622607780171889827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -426,4 +426,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============8131890932259354434==--
+--===============5622607780171889827==--
