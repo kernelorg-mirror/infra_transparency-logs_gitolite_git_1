@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3694111691438478978=="
+Content-Type: multipart/mixed; boundary="===============7010831611240937182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 24 Jan 2022 23:07:45 -0000
-Message-Id: <164306566524.2002.16799479931229189973@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 23:27:16 -0000
+Message-Id: <164306683685.15017.4552249392019804335@gitolite.kernel.org>
 
---===============3694111691438478978==
+--===============7010831611240937182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 136057256686de39cc3a07c2e39ef6bc43003ff6
-    new: 1e0d8731bd6c104b4801872c4cdf8b901eeb5f4e
-    log: revlist-136057256686-1e0d8731bd6c.txt
+  - ref: refs/heads/for-next/overflow
+    old: 95cadae320be46583078690ac89ffe63c95cc9d2
+    new: 24e378c66089f19fcdad09105242e4cab3846a22
+    log: revlist-95cadae320be-24e378c66089.txt
 
---===============3694111691438478978==
+--===============7010831611240937182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-136057256686-1e0d8731bd6c.txt
+Content-Disposition: attachment; filename=revlist-95cadae320be-24e378c66089.txt
 
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
+eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
+448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
+1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
+3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
+86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
+49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
 63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
 3ac23d199c2bc3bc2a2b31c803e7c5d841959670 perf cpumap: Simplify equal function name
 51b826fadf4fc42c8614b752b6cb0cb516589ade perf cpumap: Rename empty functions
@@ -1028,27 +1048,7 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-151bbc8be85e14e7be7ee206cbdb76bd049ce090 ARM: stackprotector: prefer compiler for TLS based per-task protector
-84f43e805843468a48f153ab2162870abde41d46 drm/dp: Fix off-by-one in register cache size
-613bcc81d43c2346d411c7f7a3cde00f205a36ea drm/dp: Remove common Post Cursor2 register handling
-4dd279155387c2b6c680be0024003926d2558d7c crypto: octeontx2 - Avoid stack variable overflow
-ef66d7049a80275becf5f222bc1ffe0849211cc8 iio: addac: ad74413r: Do not reference negative array offsets
-9d210ed97e491400750e9b3c8c93f98d75845904 tpm: vtpm_proxy: Check length to avoid compiler warning
-d43d60cf4314cfcb7f4ac0fe26871eaada080450 staging: r8188eu: Drop get_recvframe_data()
-bfad6c56b44a381d028b223b152d246267f9a8d1 staging: rtl8723bs: Drop get_recvframe_data()
-2cb06c87c9ddbe0801fd1d94def2e24703772224 staging: rtl8712: Drop get_recvframe_data()
-4ba545781e20f49cf1175e11d9f606e621040acf Makefile: Enable -Warray-bounds
-3ccac0d2ba34a8e6f722975136f06c30fb586ca0 Makefile: Enable -Wzero-length-bounds
-6f6ab1ab5294bc597a5fbcc838ef407a39360fe9 Merge branch 'for-next/array-bounds' into for-next/kspp
-8ce8b2948d2d113492a9435e80901db0dafd7d1c KVM: x86: Replace memset() "optimization" with normal per-field writes
-f2e0f541c607aedfc4c1f67eb1183349174da16e intel_th: msu: Use memset_startat() for clearing hw header
-bab6b6ac48b629b1129a196ee8b98c7ec1c020ee net/mlx5e: Avoid field-overflowing memcpy()
-6f417e1bb4b1d65e76f250228a29a3160382eaf6 net/mlx5e: Use struct_group() for memcpy() region
-ee0e863c5ffd82baaac295f5e63d66ce08e4dd76 media: omap3isp: Use struct_group() for memcpy() region
-602670289b69b2fded3a0b2240c4877e3a015ac6 fortify: Detect struct member overflows in memcpy() at compile-time
-af24dec4bf98ef6e51580250fd04befbb69cdadf fortify: Detect struct member overflows in memmove() at compile-time
-6f6f253efa1346fb0b7206c0361428aadbb22e08 fortify: Detect struct member overflows in memset() at compile-time
-6303361147fc8984dd259b54c189592cd0551ab6 fortify: Work around Clang inlining bugs
-1e0d8731bd6c104b4801872c4cdf8b901eeb5f4e Merge branch 'for-next/memcpy' into for-next/kspp
+88f3306dbb39f2a27f2e99e6a3716eb35b51fe75 test_overflow: Regularize test reporting output
+24e378c66089f19fcdad09105242e4cab3846a22 overflow: Implement size_t saturating arithmetic helpers
 
---===============3694111691438478978==--
+--===============7010831611240937182==--
