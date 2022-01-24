@@ -1,30 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 24 Jan 2022 08:11:34 -0000
-Message-Id: <164301189416.583.8614355028873881156@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1355175870430906734=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 24 Jan 2022 08:12:31 -0000
+Message-Id: <164301195125.985.8347456234968020612@gitolite.kernel.org>
+
+--===============1355175870430906734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: d3678e45fe9b523319129b32841f7032cba94127
-    new: c9bb19368b3ab111aedf3297e65bf84c9d3aa005
-    log: |
-         f3b7e73b2c6619884351a3a0a7468642f852b8a2 s390/module: fix loading modules with a lot of relocations
-         90c5318795eefa09a9f9aef8d18a904e24962b5c s390/module: test loading modules with a lot of relocations
-         c9bb19368b3ab111aedf3297e65bf84c9d3aa005 s390: update defconfigs
-         
-  - ref: refs/heads/for-next
-    old: 58f8084ed5775ef2f07963136615b63f7c9099a0
-    new: c249c4a058358f95dbf6e5ace0faaa12a4af733f
-    log: |
-         f3b7e73b2c6619884351a3a0a7468642f852b8a2 s390/module: fix loading modules with a lot of relocations
-         90c5318795eefa09a9f9aef8d18a904e24962b5c s390/module: test loading modules with a lot of relocations
-         c9bb19368b3ab111aedf3297e65bf84c9d3aa005 s390: update defconfigs
-         c249c4a058358f95dbf6e5ace0faaa12a4af733f Merge branch 'fixes' into for-next
-         
+  - ref: refs/heads/sunxi/dt-for-5.18
+    old: 0000000000000000000000000000000000000000
+    new: 210b3ef939c846f4af0602bdc660852e837bf4a8
+
+--===============1355175870430906734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1643011950 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
+nonce 1643011949-9cd597c069c06f6a2de0d4d553d29104cf0751d5
+
+0000000000000000000000000000000000000000 210b3ef939c846f4af0602bdc660852e837bf4a8 refs/heads/sunxi/dt-for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYe5fbgAKCRDj7w1vZxhR
+xV6eAP9bQ5bmNhbBB6hxkyWKGgv4E7iOX6sSAgMHCCViH4S0bAEAoCSkekBriNRi
+KVblW+BqCpZHbqsujvCdyh0mM/pGxAI=
+=twn0
+-----END PGP SIGNATURE-----
+
+--===============1355175870430906734==--
