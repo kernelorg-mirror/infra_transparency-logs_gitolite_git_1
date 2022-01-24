@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1373391600006120630=="
+Content-Type: multipart/mixed; boundary="===============3970787464171761695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 24 Jan 2022 15:50:43 -0000
-Message-Id: <164303944379.1705.1783930963890205363@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 15:51:17 -0000
+Message-Id: <164303947755.1985.5856185596947793387@gitolite.kernel.org>
 
---===============1373391600006120630==
+--===============3970787464171761695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 7d6019b602de660bfc6a542a68630006ace83b90
     new: de8a820df2acd02eac1d98a99dd447634226d653
     log: revlist-7d6019b602de-de8a820df2ac.txt
 
---===============1373391600006120630==
+--===============3970787464171761695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760 net/smc: Transitional solution for clcs
 ebe0582bee78e221b7d9f09ff22a530e0ddd6c96 net: atlantic: Use the bitmap API instead of hand-writing it
 de8a820df2acd02eac1d98a99dd447634226d653 net: stmmac: remove unused members in struct stmmac_priv
 
---===============1373391600006120630==--
+--===============3970787464171761695==--
