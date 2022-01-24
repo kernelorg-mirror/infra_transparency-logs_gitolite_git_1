@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4797040897495028389=="
+Content-Type: multipart/mixed; boundary="===============2793327745236591625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 24 Jan 2022 11:01:21 -0000
-Message-Id: <164302208149.30175.16609172857669377592@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 11:02:11 -0000
+Message-Id: <164302213120.30676.3601683157909498558@gitolite.kernel.org>
 
---===============4797040897495028389==
+--===============2793327745236591625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/fixes
     old: 2c271fe77d52a0555161926c232cd5bc07178b39
-    new: e7086e0cdaded16c4a8db193f5971ee24cb22f3d
-    log: revlist-2c271fe77d52-e7086e0cdade.txt
+    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    log: revlist-2c271fe77d52-e783362eb54c.txt
 
---===============4797040897495028389==
+--===============2793327745236591625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c271fe77d52-e7086e0cdade.txt
+Content-Disposition: attachment; filename=revlist-2c271fe77d52-e783362eb54c.txt
 
 f601aa7930669439623dd266fc9e90b0218b42c1 rtc: rs5c372: Add RTC_VL_READ, RTC_VL_CLR ioctls
 1c1b3098ae1e0d9725d0d4d49986e0edebba443a rtc: pcf85063: add i2c_device_id name matching support
@@ -425,9 +425,5 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-7dff57c8e33ceec82035621688367543dea953af gpio: tps68470: Allow building as module
-773f06cefafe200bb8fccbc7309d284e36bd3b7f gpio: crystalcove: Set IRQ domain bus token to DOMAIN_BUS_WIRED
-ce041f48acbe3b7a5aa2841de478d9f787a61a2a Revert "gpio: tps68470: Allow building as module"
-e7086e0cdaded16c4a8db193f5971ee24cb22f3d gpio: tps68470: Allow building as module
 
---===============4797040897495028389==--
+--===============2793327745236591625==--
