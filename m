@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7550100560884583112=="
+Content-Type: multipart/mixed; boundary="===============1899198333356870902=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 24 Jan 2022 16:13:48 -0000
-Message-Id: <164304082881.17830.16133102132452699874@gitolite.kernel.org>
+Date: Mon, 24 Jan 2022 16:15:11 -0000
+Message-Id: <164304091132.19754.9979760051073393284@gitolite.kernel.org>
 
---===============7550100560884583112==
+--===============1899198333356870902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: ad659ccb5412874c6a89d3588cb18857c00e9d0f
+  - ref: refs/heads/kunit-fixes
+    old: fa55b7dcdc43c1aa1ba12bca9d2dd4318c2a0dbf
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-ad659ccb5412-e783362eb54c.txt
+    log: revlist-fa55b7dcdc43-e783362eb54c.txt
 
---===============7550100560884583112==
+--===============1899198333356870902==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad659ccb5412-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-fa55b7dcdc43-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============7550100560884583112==--
+--===============1899198333356870902==--
