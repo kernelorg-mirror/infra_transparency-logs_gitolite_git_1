@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1307916388744363593=="
+Content-Type: multipart/mixed; boundary="===============2762147035983296608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 25 Jan 2022 12:41:21 -0000
-Message-Id: <164311448164.1624.17792842382199356457@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 12:43:30 -0000
+Message-Id: <164311461095.2677.10871560471807262127@gitolite.kernel.org>
 
---===============1307916388744363593==
+--===============2762147035983296608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9e2b00bb471293dca4861e97aa69485ce25dd3ec
-    new: 46d17edb62e347c4004d7dd449b77cb14cd4141e
+    old: 46d17edb62e347c4004d7dd449b77cb14cd4141e
+    new: 65571a5a6a9a3f922b9c9678ad75e5f68d9bbc98
     log: |
-         46d17edb62e347c4004d7dd449b77cb14cd4141e drop drm-etnaviv-limit-submit-sizes.patch from 4.14 and 4.9
+         65571a5a6a9a3f922b9c9678ad75e5f68d9bbc98 drop pci-pciehp-fix-infinite-loop-in-irq-handler-upon-power-fault.patch from everywhere
          
 
---===============1307916388744363593==
+--===============2762147035983296608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643114478 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643114610 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1643114474-721c7332e3999182531a562a8fce22175881ca41
+nonce 1643114607-6bd5d3aee342ae0857714409c976487820d98d3b
 
-9e2b00bb471293dca4861e97aa69485ce25dd3ec 46d17edb62e347c4004d7dd449b77cb14cd4141e refs/heads/master
+46d17edb62e347c4004d7dd449b77cb14cd4141e 65571a5a6a9a3f922b9c9678ad75e5f68d9bbc98 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHv7+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V28P/ikIe7kOw38umPAmL/Gp
-518Enka9Gqa6P2jBTAqHXSVkNxINcrY/I6jzPCYpNwHRpiT746C0G42xHTCzXaRa
-7iLDk1cgpMf9jsQ01kP/AeD5m+0RkL+2OjJVBZvJJ2dHXTrhmoYdzI3yjc3nHAlw
-2t5091yN77Un8QigY5OMvBFN1FIYnxG/PoCGg9VREnFkofRsNcaCACzB2FD865QG
-h9N/d42HUCMihj/rmB4Y/SE0p2bm4OUvKHbAi8sXzWg1Q5JnRa0v7F2FsbwYqGTf
-7LNyR9JAYwmkEBwWbJUTYZ2oHwemnJxfxIxWYWyOTiMC34a/OFn+MbIfPjjKhSbq
-htupYJVymREDSELilXjmO5DsBcMBlh68M5p2Q00eMVGkedjd2e1FS2UOiO4MWHr6
-bImY+uGuxM47yikQiC2DPdpug0GPF9/yLnK4430rTYxVfX1HqbNZHAEakwIzDjF9
-uNVqCABmfyKB2Fu+QgdPvnZjYF+xzSD1AhNrY74QcCINFPiSgt6knAWEo/91HCfI
-O3Ij6w4w6758vfAqFOe7Cl5ein6GkMMHqIDUtcRqyAQv0JBF+IH+M0YjSBqmnm+D
-XE6MI2V+6exDX05pblsXmnEw7ahE+zwwdVvEKbXUDyeoZsZUspRV17TwcGeoizYG
-Et7ezVj9hPNZBoDmC9/I5GfG
-=XFYb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHv8HIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qZ8P/3jT4+KZX/rqqIaF/lSy
+CbG10oHhhEUmAI7SN1ZAthlbTFV1rCA+yJsoSJ+candhDkvqkCw3HMrZJN4LAA91
+JYYR/GQMmumKnPmt9hzU9dJSyfLrk423adHjYjQBqzBPk4s9XBmVNvoq9Jqvye3A
+MPHokRG1kEcB3yMP4xsvBQzyieJYwC7DRjchHnQ4tk2259g8mhntrLsWIqlazhF/
+NU2OO5kBeBU8Kt/+T7wY7jAdBWrOFIQ+JNjWEjnn4QFOKAEQWmjrR2uH3Eou4lpa
+j8S3zrii+5Id70wvgPuWOESm61YyjGEERf/cOkjcwXnrmpYE1gRwQMPjgWmCpdoQ
+qVuOYsd3cS+WrLc5R4Cl/rKBHcUiknELRLH9RtlEEg+VK/nX6lURIA0w5S0Hi46M
+jgMckPjmrMli4nQhz3Z48aGLVU+vxbISisIKlLr2edPZ/z480hSUSLwPkWV2Ef07
+5NzZ0FDZrSdW/u0/fAVmxMGS8LfxXGSvr9lCTrbe4Ggm4bSNQkdo7zwBQ8SBTNqF
+qXmijXu/AAiz4tzbrFC1R+sCMXJZLo6ZVOdxN6aXtueBExUc/+yJIcCozkrnA+BC
+qoG8442lCVmvEs04G1DzXE6ajNd3+ttW9/N/ptJQiTVFJFRYFRM2F+fWhqN4OU3O
+MaOkuQC5JK18V16/K7qx7rEc
+=PZj3
 -----END PGP SIGNATURE-----
 
---===============1307916388744363593==--
+--===============2762147035983296608==--
