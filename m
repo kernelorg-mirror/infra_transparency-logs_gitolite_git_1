@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8389013063887354263=="
+Content-Type: multipart/mixed; boundary="===============1624364892790254758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 25 Jan 2022 17:37:28 -0000
-Message-Id: <164313224827.5096.15262445871135697234@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 17:38:03 -0000
+Message-Id: <164313228322.5344.17447057271812973902@gitolite.kernel.org>
 
---===============8389013063887354263==
+--===============1624364892790254758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 945c37ed564770c78dfe6b9f08bed57a1b4e60ef
-    new: 5638b0dfb6921f69943c705383ff40fb64b987f2
+    old: 5638b0dfb6921f69943c705383ff40fb64b987f2
+    new: 147ab5376f18045da9f22a8262185707745bbf77
     log: |
-         5638b0dfb6921f69943c705383ff40fb64b987f2 usb: typec: tcpci: don't touch CC line if it's Vconn source
+         7817adb03cfb52ebb5bdb25fd9fc8f683a1a09d9 usb: typec: Only attempt to link USB ports if there is fwnode
+         147ab5376f18045da9f22a8262185707745bbf77 usb: typec: Don't try to register component master without components
          
 
---===============8389013063887354263==
+--===============1624364892790254758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643132246 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643132281 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643132245-0a26ce91bd46448131e5d2f06d98520ed2faa2bc
+nonce 1643132280-07818c53451b24da738cc98e8a4d27899ff4af2d
 
-945c37ed564770c78dfe6b9f08bed57a1b4e60ef 5638b0dfb6921f69943c705383ff40fb64b987f2 refs/heads/usb-linus
+5638b0dfb6921f69943c705383ff40fb64b987f2 147ab5376f18045da9f22a8262185707745bbf77 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwNVYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+42wP/0Q3IO6PyDxbkr6L3E1R
-vDLcSlJ/++4Hn1z1AnMFtI896RG2IXnmRT1WA0fmnZJbxB7mPvsg5s/QwLIU81te
-E+FE7qU2P65jyj15Y49yIZMPU6DSwhksBV8/paQdWPGuqs4ze3MfYANTsYiCLdcY
-yPCau9VQof5WW/f/FT9YQc/g9SnPOGBwmtApPWwZY3UrzAQC5HhIerMNnJCkFIKR
-VGzIm+7Aj5TVD3jIYGzBrwrmAQY+Jppb/gM1g6W7pbdxP4v3yq1C5UU2ScyiI8Kg
-hlyEJhCBEu8+B12iuAQmO1Gc5LzI2edqedlzfUuPB1Ugdd0MOnpSdvnud/DN93LP
-VGmQYdp8lXVgSu7t6LLZOdu1NnwRDi3aP6XFTTuybkNyBWTwuOMo4wGmdPmyMgda
-FKlff8W8cI8zTcplO3orz7BRuLOeHMmC1Mf82pjHwNVWA7T7k5vpmyi3gYZ/Sf1l
-k4/kAEQbthDqvV6Ta2IRmo/tvmlKDQBqiRM79yjiESKeZtJRdK3T5Wcp8smQhbzE
-smRLAIHatYkiyWjnVUzr6dGWz6HS7UvcffVnKcO5PGo0LAkzA3LlwhlxxMVPCeNr
-90RCcFAGYyA8psH7qx5c27m0iQDsVrNxbd34DV7xrfkTi38F2IJWEoiZ7lOAWZuf
-6dACb+XT2naG4vQDt5AN6GPi
-=llTw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwNXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m3MP/ArLKABGdpHP2VYQFmWX
+V0vqaZclh+wkiZNYaYpjIDTTd/l+ivUGyeiAq1rbcO/xapDkvA6l1Z6no+XkXKYg
+tDICe5A/LRVWL1GLLr/pHPfmgW1VREl5sIi1acj7Mqxq7gRX+QQu7GZd9nZoSzQm
+so1Mep+1K4FzVK9t89hPqpvgW/xpBNBymVKntwtikGiZ/4/FV2hAFU5VkGMQM6FP
+5QaJ/kTdEFrd2UUufq9Xd1y1XdxWjREQq4V/YS4CUwz914rtPB9vdfrggUj3o2go
+D5fLfADgcvUwtaIbsmKkYDqdTcnVpvqdSm2xVzaSn/l05WrWfRo0Vc1MiE/MT/Vn
+v2td9sErGdlgdvdl/lsaHLxOY5/AuxLZtKG/S6h+sIKgU2Ns2ASVag0R/nPBTXUa
+migc/VPjy2dR21P4VfURvQ8r+EE7yRa0ho5jTvYdMVL0rs1uVJk5NPByYCMD0IfX
+camf3zbQ7k5fxAZSxPwQ+gi0l8RKOwve5Bmwapd2SnuIzjWP2tsaiWMZ1Qw2P2WE
+f8cM308gIy/OYI3zSyNkFVakISvjc0GrbRfZ7+AImO92Sa+dkYrxy7KhJzJ+esfU
+nKKa02T7s+4K6gE6QtPvXto6XNdbILEjfMdetbngyw3BCC+db3+PlZPne3ingkSm
+h5wcpAZmX2cKmqH/88bH6C5m
+=g23q
 -----END PGP SIGNATURE-----
 
---===============8389013063887354263==--
+--===============1624364892790254758==--
