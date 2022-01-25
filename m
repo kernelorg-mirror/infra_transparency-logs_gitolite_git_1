@@ -1,52 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4565886946304727083=="
+Content-Type: multipart/mixed; boundary="===============4124991338592526416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 25 Jan 2022 14:33:53 -0000
-Message-Id: <164312123309.10272.10994409226934252681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jan 2022 14:33:59 -0000
+Message-Id: <164312123919.10402.118801509190330577@gitolite.kernel.org>
 
---===============4565886946304727083==
+--===============4124991338592526416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 9ebb50df2bff0470d0f9801ff7c7eee5842e058a
-    new: acfa1e2c2ff5cd7fb7948b0c5c2057acd9dceb14
+  - ref: refs/heads/for-5.18
+    old: f9a8f627c98b130db390b214b4fffc695824f87a
+    new: a708078eeb992799161e794d9c569cf4f725a5b0
     log: |
-         7276d3f329c633340f3c539ce35ed254d2fe467b ASoC: sh: rz-ssi: Use a do-while loop in rz_ssi_pio_recv()
-         962ff7ecb60b684fe15b135ccbe07628b8bb522a ASoC: sh: rz-ssi: Add rz_ssi_set_substream() helper function
-         acfa1e2c2ff5cd7fb7948b0c5c2057acd9dceb14 ASoC: sh: rz-ssi: Remove duplicate macros
+         f62ca4e2a863033d9b3b5a00a0d897557c9da6c5 spi: Add spi driver for Sunplus SP7021
+         a708078eeb992799161e794d9c569cf4f725a5b0 spi: Add Sunplus SP7021 schema
          
 
---===============4565886946304727083==
+--===============4124991338592526416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643121231 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643121231-d3e74b3499aefcd43fb6fbe86059767946ddf16c
+pusher C3F436CA30F5D8EB 1643121237 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1643121237-d92fd2ce8763f55c26f4df55277ad7e04c7be5ca
 
-9ebb50df2bff0470d0f9801ff7c7eee5842e058a acfa1e2c2ff5cd7fb7948b0c5c2057acd9dceb14 refs/heads/asoc-5.18
+f9a8f627c98b130db390b214b4fffc695824f87a a708078eeb992799161e794d9c569cf4f725a5b0 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHwCk8ACgkQJNaLcl1U
-h9BIQAf/Wvqjb9RoYrroCNmRXLkb5GHfecpdKqxaU7ikAp+Qk9vVkI1P427j/YfQ
-xOeM9tmOEDm3jGHMi6vMMjvLjya3xThnI5c2nn1ezAAQITObVwiYCPNYOXdXjzoN
-SO0Btw7CJQ5RQIoFw5BXfLQGD1N5J7K5ohGi48UiBWYyp2Jp/RLM0Ke7Q4vl7+yS
-L70NGfI8bCsxjguzURpFz8ZbULOvl8+2fyU+AMvJXL8MQeIwJoAKwTlbqnd0e2Kc
-KK9W7H+SNGPw2kfmds8PfTYyBO7OVwlEO+ujR1OypnzMKCnqIeVW9kY2GlQIWasn
-Q0Sj09ZLiCXWzWNipXE8OP3jUyXTXA==
-=MgN+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHwClUACgkQJNaLcl1U
+h9B/ZAf/bsxCYuv1NesBcwoo9MF21kPyFmMPPzypyJGIX3q5z4gnuR0oykl1nyWy
+53ps2dZMsXx5J2fWX+Cz+ND3g4SabX+3Od7S/aGo6tZuzKMnh73E4CC4EvzR0SXK
+eeizLrIwSz2HtcAw027YLRp98f+/N4e1TjMFOGFoYI996wCpOozjy1Ok0XHcyEZV
+VJ6pwnhy6V8VFJBKgCDta15c2ngWqUjzp01k5+HTQM0hI8gWUEOm/dW4L+yKp6bU
+IH0mytwW6N12/spoU/oidcQHE8UhckEl0Y1xMubyjaz+IWf9yjZ5SGdrUwKxFSA1
+b9shOnFYtXH52oNTO0ketJ5SIDBM0Q==
+=UiWn
 -----END PGP SIGNATURE-----
 
---===============4565886946304727083==--
+--===============4124991338592526416==--
