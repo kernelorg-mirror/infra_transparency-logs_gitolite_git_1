@@ -1,55 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============3381046328762365091=="
+Content-Type: multipart/mixed; boundary="===============5723082297029230013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 25 Jan 2022 10:18:41 -0000
-Message-Id: <164310592134.3570.11075560155773593913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jan 2022 10:18:47 -0000
+Message-Id: <164310592766.3666.11148775740948259735@gitolite.kernel.org>
 
---===============3381046328762365091==
+--===============5723082297029230013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: bfff546aae50ae68ed395bf0e0848188d27b0ba3
-    new: b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51
+  - ref: refs/heads/for-5.17
+    old: 9df15d842a0f77f2b8ee29386f6d714e4220df57
+    new: bdac3bbd0dc63873a9c606b8e4f814e6d61d288d
     log: |
-         879cf8006475642b747aaaa4d06f7044ab2de794 regulator: max20086: fix error code in max20086_parse_regulators_dt()
-         b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51 regulator: MAX20086: add gpio/consumer.h
+         bdac3bbd0dc63873a9c606b8e4f814e6d61d288d spi: spi-rockchip: Add rk3568-spi compatible
          
-  - ref: refs/heads/regulator-5.18
-    old: 0000000000000000000000000000000000000000
-    new: 8e9977e48c7c2a49e09859456dcba12a8d804a51
+  - ref: refs/heads/for-5.18
+    old: 66fda8bdc323860a3b5c8fe86f64d25c5c19b450
+    new: f9a8f627c98b130db390b214b4fffc695824f87a
+    log: |
+         2da187304e556ac59cf2dacb323cc78ded988169 spi: add bindings for microchip mpfs spi
+         5b177234e9fde7d4208e8163debc109b86e3f68d spi: spi-mtk-nor: improve device table for adding more capabilities
+         4e8bfe5cdf77621cb4e7b196448ceeff20d9d6a6 spi: spi-mtk-nor: add new soc mt8186 support
+         58b0a653b8dac40bbeb01a2c8a230aa8f84a7530 spi: spi-mtk-nor: add axi_s clock for mt8186
+         ceab11a3c0d620d9ec2c032fd8014615cf7934ec spi: add mt8186-nor compatible string
+         f1ba938e4f98941dc2b77795062e49444ec1fee1 spi: s3c64xx: Delete unused boardfile helpers
+         3b5529ae7f3578da633e8ae2ec0715a55a248f9f spi: s3c64xx: Drop custom gpio setup argument
+         a45cf3cc72dd9cfde9db8af32cdf9c431f53f9bc spi: s3c64xx: Convert to use GPIO descriptors
+         7f2a3cf4e6077a1525092f114be7819e505773a1 spi: s3c24xx: Convert to GPIO descriptors
+         5566ccc533ab296d5270bf00c56890de3edb3bd2 spi: add new SoC mt8186 support for spi-mtk-nor
+         f9a8f627c98b130db390b214b4fffc695824f87a Update the Icicle Kit device tree
+         
 
---===============3381046328762365091==
+--===============5723082297029230013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643105919 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643105919-777352bb4aa7b6ea449266ffb4bae7dd31e4b261
+pusher C3F436CA30F5D8EB 1643105925 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1643105925-0a9b752f7df12ae00890029442bc97411e1c115f
 
-bfff546aae50ae68ed395bf0e0848188d27b0ba3 b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51 refs/heads/regulator-5.17
-0000000000000000000000000000000000000000 8e9977e48c7c2a49e09859456dcba12a8d804a51 refs/heads/regulator-5.18
+9df15d842a0f77f2b8ee29386f6d714e4220df57 bdac3bbd0dc63873a9c606b8e4f814e6d61d288d refs/heads/for-5.17
+66fda8bdc323860a3b5c8fe86f64d25c5c19b450 f9a8f627c98b130db390b214b4fffc695824f87a refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHvzn8ACgkQJNaLcl1U
-h9AkLAf/asnhQjvOffowdWLM94C3Num8R88y7rlrOnyfRTTbq/aoSJRu7+xO00iL
-AQoz6nmO6jU+owDWdn/OY7Y8sF9LPWknjl5bQMlFZNv8jOK7TJ6T/MIVgqQyT78P
-dWxQm6jsPuvm4BfhlPyDhkSZkAcP5Fg+USXyYbAAub28EVQJMX+euNLwJMRvQ9E3
-yVzULJ9sNqRTRUk4LrLRNyN49YQ9JoMz+9/5Da1D6Ux+mPp6jJozZPeJSvYPFeCF
-m5p6c3tal+vWXeAosmqB+ZHBxz1Uw5ovOFZMx+w8PJ+XhKj/PO2rmJtei8RRR4gY
-xgr7XOoCUWTCnpcoBCcS6UDnMjshZw==
-=xkmy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHvzoUACgkQJNaLcl1U
+h9DbvQf+IiqoLLcw8/QdwMpJUEKLdcFoEIoWFTcFeyP3u5tracNdZkhnzidmppB1
+ZKCmdUF6+PvaSiZSYnOqAySPHI/jXq2o5c59uAAUME+3JFdwcisMoHQlyWBElcFr
+AIb4UnWKAA96gA/91eScU4yKdyIgwcvQFmOF68tbuM61s0xgjRRPXKPwuGEA9iy/
+1tCd5EyGFr6Txd48w6oMTw3cNHtTrlVBD60jRdWiKDx+B8wTzZn+gZiy/MABtF+W
+S2lY/3hOZqVRovRC1vppkWrBWh0oT9sX32CnhY8+sNL3dEzcOFlQUPcpFlIgK/cN
+bWvT0uGejdEelkDgxU6OzvYyqaKZjQ==
+=1UjA
 -----END PGP SIGNATURE-----
 
---===============3381046328762365091==--
+--===============5723082297029230013==--
