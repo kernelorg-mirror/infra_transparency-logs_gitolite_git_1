@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2497578942843100801=="
+Content-Type: multipart/mixed; boundary="===============5567910551662339587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 25 Jan 2022 15:15:01 -0000
-Message-Id: <164312370187.5260.10114785100714532313@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 15:15:33 -0000
+Message-Id: <164312373325.6545.6966381958530233077@gitolite.kernel.org>
 
---===============2497578942843100801==
+--===============5567910551662339587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f19fe1537c38d8a4a0ac15dc07fb058df67cd486
-    new: 53493c253510d129aa159c0302a490a11dcdbb59
+    old: 53493c253510d129aa159c0302a490a11dcdbb59
+    new: d601ad5686de0fd1c2cae3a72063aa008bf50b3a
     log: |
-         dba29039b6d0a7aebb72525ebf028a5f2cf1aa89 staging: r8188eu: remove HW_VAR_BASIC_RATE from GetHwReg8188EU()
-         08dc8feb14fd427ae8bb7df15f0987181809e3d0 staging: r8188eu: remove HW_VAR_TXPAUSE
-         f3806385a46936957dd328c404772c783b095eea staging: r8188eu: remove HW_VAR_CURRENT_ANTENNA from GetHwReg8188EU()
-         762e47b34b87635f48864ecfe46dc6a1f2351256 staging: r8188eu: remove HW_VAR_EFUSE_BYTES from GetHwReg8188EU()
-         dce7cbb4e1e512522df3da4b83fb46b9c72b4841 staging: r8188eu: EfuseUsedBytes is set but never used
-         53493c253510d129aa159c0302a490a11dcdbb59 staging: r8188eu: remove HW_VAR_APFM_ON_MAC
+         ea9ac80e2eceac6388eea2164e68a53c54d70ca0 staging: r8188eu: convert/remove DBG_88E calls in core/rtw_ap.c
+         0bfcc8b5c1ed9999a8717a3482faea2ebae17a3a staging: r8188eu: convert DBG_88E calls in os_dep/xmit_linux.c
+         6397fb278bd92cc60a19f9779061dc3f677dfdc2 staging: r8188eu: remove DBG_88E call from os_dep/osdep_service.c
+         198fae4213e219797d5e2c7832593b8b8cfb0049 staging: r8188eu: convert DBG_88E call in core/rtw_cmd.c
+         d601ad5686de0fd1c2cae3a72063aa008bf50b3a staging: r8188eu: convert/remove DBG_88E calls in os_dep/usb_ops_linux.c
          
 
---===============2497578942843100801==
+--===============5567910551662339587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643123699 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643123731 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643123699-7fff6bb069ac210d676574edc89ef690af60c12e
+nonce 1643123730-cc046343d83f92a1e1a6ea5913826f23e136fd56
 
-f19fe1537c38d8a4a0ac15dc07fb058df67cd486 53493c253510d129aa159c0302a490a11dcdbb59 refs/heads/staging-testing
+53493c253510d129aa159c0302a490a11dcdbb59 d601ad5686de0fd1c2cae3a72063aa008bf50b3a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwE/MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7a0P/2yz61ah2nSM+iW9ninn
-wa14qgoAU9AhyAEtgKhT5mAux7z3JGxcL5Lus6cvwNE+AjfJczQFLt2BtbzoOC9a
-GSttQOxoe7WFKUQPOan1FpcTQP9eJXOGxWfYsxfxyy+7jGuVieW2xD7qP1a8nj92
-foKteItqbqTsikSJhK9tZaCoY4q0OP/iRe8ROroeGcO8/s/DIcUQcNXrvVW876xA
-0HSZrnxPX4950Pw55+A+YPIxmBkLASXDg7z9U731DaWKjKLzMO7HhLg/Iee7wG6A
-Qbbx8nRQzmnmIKAn5S3I/S/aypHWdQHxpVrVpbQ+fpgwueF3R+IyC6KOQ6+V468T
-OTj6r3eju6I4+Z6GOhnYh7GSH2QRDEDtk2WZmQRB6csFY1x/BiMsBbWahVcGuPrv
-qcAIEOogqo2yXU5LgSwYW/TUp2uudnQdyE6/s4aWPZCHrrTzILVx5Qk956g2cf4H
-RIrefU0vr6+4H18pcNKR012z3vNivsKQrWXpRmJ2Oi9i76GzNjGurLbdhyII4pBd
-gO/zwJ2vCzV/w1IXgS8PedIjMbXA6RMgMv3AOdsDNNbX6YNihubMOqneDXN+c8Xj
-H8MMPHVpNjpPI7QKPiasdsWo1Fu6Fp2RlfAjMMRuGG9AFye/TTB6hrwBeH90nTl4
-SwnzQngoqs2YP3KAqWWepX5G
-=b9ti
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwFBMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sD8P/28rm4hKV0JQ1mfNwtnX
+d4LQ97rVaXXHM8UV85YNQ8CDfPjPuGw/yDAgTxopiHLuWhH4WBtCZa4Kb1z96p6C
+b7JqqJeJ3snfNPSNhRdiaKLRMvmwbZmRsAXiL+WrfLYzng1sPKmTyyjIxYF+isVY
+rwGHJ54vaMkioaT06GUZotHlTLtuTuE25q4Wqakew7XhLW5pn5/QQ5AivdS2ldT0
+ZhGeGU1KkD+9B6UtEwI8gSBtAZMXeHFw+5EKRtRO1LoSu4WFklAjQzoV873VvoMJ
+1kzCkzPejmnKYn1YweWEEOtNO4tORI8M9YnzlUhN6TwkWwzd+DriSWpAZbMqgbfq
+bvknW2laybPGCTvM/RHylywRIFTXmVz2e6JXtfX4CZPR5ITwPyRNAZVgnioh4a8R
+h9Dqw68SM6SOe34FjpUrgfhXLp5RmEI63KvnmoJxy75wB3QsG5HP7njLY0UgE2xW
+JHULIPYv5zqzhPShiU/YW023T2dG54wXuqxPQ1WBP/Gw4i5/+FejZ+IjtvY6+lnw
+pQHp2RBgVfKTZJBKoIkUHGFJghEFvBjW+aCNwRfBWmFx8odyhdQmY/y4Bit/XoZY
+aHzYbvlJiHcaAO75OwSwH8Bgbo62+80PNUX2oKE2tnmh+BRz4X2FbaY8VoTSXPW2
+IKY1L/fEoTy53qtfIISt7viB
+=edvH
 -----END PGP SIGNATURE-----
 
---===============2497578942843100801==--
+--===============5567910551662339587==--
