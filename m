@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3567049707556331951=="
+Content-Type: multipart/mixed; boundary="===============3877662443652650872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 25 Jan 2022 01:39:47 -0000
-Message-Id: <164307478703.7998.7269587404679385865@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 01:40:11 -0000
+Message-Id: <164307481176.9634.5255476810074393891@gitolite.kernel.org>
 
---===============3567049707556331951==
+--===============3877662443652650872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 1d1df41c5a33359a00e919d54eaebfb789711fdc
-    new: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
-    log: revlist-1d1df41c5a33-dd81e1c7d5fb.txt
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+    new: 7d19e3dab0002e527052b0aaf986e8c32e5537bf
+    log: revlist-1d1df41c5a33-7d19e3dab000.txt
 
---===============3567049707556331951==
+--===============3877662443652650872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d1df41c5a33-dd81e1c7d5fb.txt
+Content-Disposition: attachment; filename=revlist-1d1df41c5a33-7d19e3dab000.txt
 
 77965c98cffe41994dce3389c4aae80e2072f098 pwm: Move legacy driver handling into a dedicated function
 92f69e582e15bf281ff1ab3ccc7abdd8392550a3 pwm: Prevent a glitch for legacy drivers
@@ -673,5 +670,7 @@ e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 10c64a0f280636652ec63bb1ddd34b6c8e2f5584 Merge tag 'sched_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ac5a9bb6b4fa22135b3e371ac9787de120e18c8d Merge tag 'irq_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+e4544b63a7ee49e7fbebf35ece0a6acd3b9617ae f2fs: move f2fs to use reader-unfair rwsems
+7d19e3dab0002e527052b0aaf986e8c32e5537bf f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
 
---===============3567049707556331951==--
+--===============3877662443652650872==--
