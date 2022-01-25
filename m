@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 25 Jan 2022 13:05:26 -0000
-Message-Id: <164311592643.18544.12932624223219379284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 25 Jan 2022 13:09:07 -0000
+Message-Id: <164311614722.19745.548654563617889320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 10cdc794dae890fb3149e90854e8440cf5bf615e
-    new: 6fc2f3832d36d74289680a1bf4484def8321f6e0
+    old: 74afa30630976861a1308c5ec93391f8b037a2ae
+    new: 2f61353cd2f789a4229b6f5c1c24a40a613357bb
     log: |
-         6fc2f3832d36d74289680a1bf4484def8321f6e0 ipv6: gro: flush instead of assuming different flows on hop_limit mismatch
+         2f61353cd2f789a4229b6f5c1c24a40a613357bb net: hns3: handle empty unknown interrupt for VF
          
