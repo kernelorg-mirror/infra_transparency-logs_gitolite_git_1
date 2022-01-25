@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6291623975533553497=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Tue, 25 Jan 2022 16:54:14 -0000
-Message-Id: <164312965447.7569.15016890247136756563@gitolite.kernel.org>
-
---===============6291623975533553497==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 25 Jan 2022 16:55:37 -0000
+Message-Id: <164312973734.9463.7268003304287636511@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 3da44d217d546e8b7fe5b00f905ca38913255db2
-    new: 10b7024b67ae4985a88d29abba46953497601ac3
+  - ref: refs/heads/for-next
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 86a010bfc73983aa8cd914f1e5f73962b0406678
     log: |
-         10b7024b67ae4985a88d29abba46953497601ac3 Fix hash generation after switching to "git show"
+         5bf7fa48374eafe29dbb30448a0b0c083853583f dt-bindings: memory: mtk-smi: Rename clock to clocks
+         ddc3a324889686ec9b358de20fdeec0d2668c7a8 dt-bindings: memory: mtk-smi: No need mediatek,larb-id for mt8167
+         996ebc0e332bfb3091395f9bd286d8349a57be62 dt-bindings: memory: mtk-smi: Correct minItems to 2 for the gals clocks
+         6d86f23c35fe7b479ceef4d3f1eef925996945fd dt-bindings: memory: mediatek: Add mt8186 support
+         a6945f4566d4f77a4054720f6649ff921fe1ae64 memory: mtk-smi: handle positive return value for clk_bulk_prepare_enable
+         8956500e5d5bf541a945299999b0bf4866dc0daf memory: mtk-smi: Add sleep ctrl function
+         86a010bfc73983aa8cd914f1e5f73962b0406678 memory: mtk-smi: mt8186: Add smi support
          
-
---===============6291623975533553497==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1643129654 -0500
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/korg-helpers
-nonce 1643129654-7aa188b5270587cbb554b25bfaab1735a9762b44
-
-3da44d217d546e8b7fe5b00f905ca38913255db2 10b7024b67ae4985a88d29abba46953497601ac3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYfArNgAKCRC2xBzjVmSZ
-bNrCAP4pGIr6EDAzDxWUFq+8fPdensJkYLhQBRwTjjj5dh/Z7gD+IdsG4ggOEa7r
-UDAmPbid2dhHQQR2iC9fa7fOhyQjaQA=
-=XAq8
------END PGP SIGNATURE-----
-
---===============6291623975533553497==--
+  - ref: refs/heads/for-v5.18/mediatek
+    old: 0000000000000000000000000000000000000000
+    new: 86a010bfc73983aa8cd914f1e5f73962b0406678
