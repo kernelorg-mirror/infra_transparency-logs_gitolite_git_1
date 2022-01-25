@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3877662443652650872=="
+Content-Type: multipart/mixed; boundary="===============0898568472265645095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 25 Jan 2022 01:40:11 -0000
-Message-Id: <164307481176.9634.5255476810074393891@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 01:40:26 -0000
+Message-Id: <164307482687.9785.16046087096689208208@gitolite.kernel.org>
 
---===============3877662443652650872==
+--===============0898568472265645095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 1d1df41c5a33359a00e919d54eaebfb789711fdc
+  - ref: refs/heads/dev-test
+    old: 6f80bd80a84c8fe2bf00e06d46fc27b8b181cc6a
     new: 7d19e3dab0002e527052b0aaf986e8c32e5537bf
-    log: revlist-1d1df41c5a33-7d19e3dab000.txt
+    log: revlist-6f80bd80a84c-7d19e3dab000.txt
 
---===============3877662443652650872==
+--===============0898568472265645095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d1df41c5a33-7d19e3dab000.txt
+Content-Disposition: attachment; filename=revlist-6f80bd80a84c-7d19e3dab000.txt
 
 77965c98cffe41994dce3389c4aae80e2072f098 pwm: Move legacy driver handling into a dedicated function
 92f69e582e15bf281ff1ab3ccc7abdd8392550a3 pwm: Prevent a glitch for legacy drivers
@@ -673,4 +673,4 @@ dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git
 e4544b63a7ee49e7fbebf35ece0a6acd3b9617ae f2fs: move f2fs to use reader-unfair rwsems
 7d19e3dab0002e527052b0aaf986e8c32e5537bf f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
 
---===============3877662443652650872==--
+--===============0898568472265645095==--
