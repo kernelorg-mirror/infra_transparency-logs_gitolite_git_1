@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3472332454093907789=="
+Content-Type: multipart/mixed; boundary="===============2075968260039268887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Jan 2022 01:15:29 -0000
-Message-Id: <164307332998.25175.11581966617046075403@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 01:15:40 -0000
+Message-Id: <164307334047.25334.14953916448388060278@gitolite.kernel.org>
 
---===============3472332454093907789==
+--===============2075968260039268887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0bfb95f59a6613e30c0672b8ef2c9502302bf6bb
     new: caaba96131b3a132590316c49887af85e07930b6
     log: revlist-0bfb95f59a66-caaba96131b3.txt
 
---===============3472332454093907789==
+--===============2075968260039268887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f04aefd4659b7959e50e6d0d649936c6940f9d34 can: flexcan: mark RX via mailboxes as 
 e52984be9a522fb55c8f3e3df860d464d6658585 Merge tag 'linux-can-fixes-for-5.17-20220124' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 caaba96131b3a132590316c49887af85e07930b6 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============3472332454093907789==--
+--===============2075968260039268887==--
