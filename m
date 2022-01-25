@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4473056947752865092=="
+Content-Type: multipart/mixed; boundary="===============4836691699115734389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 25 Jan 2022 05:55:24 -0000
-Message-Id: <164309012444.15126.5415873411961709273@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 05:57:06 -0000
+Message-Id: <164309022677.15768.12299602234386662230@gitolite.kernel.org>
 
---===============4473056947752865092==
+--===============4836691699115734389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: d50f2ee092657737f70efe8a28e07f7c593ee6c4
-    new: 0b4124f66daa2bd31e4bd53d3d3f23aca29e5441
-    log: revlist-d50f2ee09265-0b4124f66daa.txt
+  - ref: refs/heads/net-mlx4
+    old: 57afdc0aab094b4c811b3fe030b2567812a495f3
+    new: e52984be9a522fb55c8f3e3df860d464d6658585
+    log: revlist-57afdc0aab09-e52984be9a52.txt
 
---===============4473056947752865092==
+--===============4836691699115734389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d50f2ee09265-0b4124f66daa.txt
+Content-Disposition: attachment; filename=revlist-57afdc0aab09-e52984be9a52.txt
 
 0e906607b9c5ee22312c9af4d8adb45c617ea38a netfilter: nf_conntrack_netbios_ns: fix helper module alias
 cf46eacbc156a82d6643eb10afe8969abad5a35f netfilter: nf_tables: remove unused variable
@@ -80,6 +80,5 @@ db72589c49fd260bfc99c7160c079675bc7417af can: m_can: m_can_fifo_{read,write}: do
 e59986de5ff701494e14c722b78b6e6d513e0ab5 can: tcan4x5x: regmap: fix max register value
 f04aefd4659b7959e50e6d0d649936c6940f9d34 can: flexcan: mark RX via mailboxes as supported on MCF5441X
 e52984be9a522fb55c8f3e3df860d464d6658585 Merge tag 'linux-can-fixes-for-5.17-20220124' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-0b4124f66daa2bd31e4bd53d3d3f23aca29e5441 mm: fix missed initialization for folio_batch::percpu_pvec_drained
 
---===============4473056947752865092==--
+--===============4836691699115734389==--
