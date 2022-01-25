@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9070883471474198500=="
+Content-Type: multipart/mixed; boundary="===============2232600735638868623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 25 Jan 2022 17:41:39 -0000
-Message-Id: <164313249907.7927.1001850125277390772@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 17:43:09 -0000
+Message-Id: <164313258986.8467.7044085829345471417@gitolite.kernel.org>
 
---===============9070883471474198500==
+--===============2232600735638868623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 147ab5376f18045da9f22a8262185707745bbf77
-    new: 746f96e7d6f7a276726860f696671766bfb24cf0
+    old: 746f96e7d6f7a276726860f696671766bfb24cf0
+    new: 5b67b315037250a61861119683e7fcb509deea25
     log: |
-         90b8aa9f5b09edae6928c0561f933fec9f7a9987 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-         746f96e7d6f7a276726860f696671766bfb24cf0 usb: typec: tcpm: Do not disconnect when receiving VSAFE0V
+         5b67b315037250a61861119683e7fcb509deea25 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
          
 
---===============9070883471474198500==
+--===============2232600735638868623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643132496 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643132587 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643132496-10470d53ebf4f6c6bab0191e78c909783d665c1d
+nonce 1643132587-e9b1cabc85712dc5f5eca676065ac22edf8bda5e
 
-147ab5376f18045da9f22a8262185707745bbf77 746f96e7d6f7a276726860f696671766bfb24cf0 refs/heads/usb-linus
+746f96e7d6f7a276726860f696671766bfb24cf0 5b67b315037250a61861119683e7fcb509deea25 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwNlEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bIEP/1DUZKXah1Iz5Z+bLEJ0
-bE7DBCPChMAdBFE8pKslge11KlUUjTnq1/pitR+Bj6i/nR8R+b9YaPqucvDgdHdo
-WOvNxrKJyc6132hGKO7CcIyr3yyD5ZXBh+Zj6TKFxY3CdZ+DAEIPNgDQErrDo7ZS
-jaPneaAdFjGAOmGwNCMep/q6wEBgrGCRc/1AsvUnA1XgjvRdI4ILFjYEjRcI+sss
-cejZZneqndR3wf/MRs7wcIyPdFCtT+Ku/IqixYEGp/Z80NRnpkR9TSCPsKDb/FU4
-LbKRaORXM2cdZ4piPQ+ZHlRhBXwX+b1whQm3jSvkkT6+Ion/DUTgNUt8q9U/ej3W
-mmVAU+/7DYEwfocLfl94J+fmMZ7gSZNeeOvcjGw5KE/ljuPr3XFD8O1ke6zARPJH
-FhZbcOK715JgnKvWIKoCevk+rqvi1C395gHpIdjzDY26IKbT3aatFmD3zFUDvBjD
-Mnd8f7kjJDvRkRkQuu/wQoLciqltC9Pt1tSls2+71uab0V2GLaTyJoHdb/p+4ZQf
-bt0j8WvSiWkG7pxmYaBhc9iVtQqACgIon7JrNynNl4TEIuKQ2c8+0Z8keAuEASCg
-de251LbmF7jp77I9WtxsjO2UE1ZJQqUR3E+r3V4VlIQTF8YurEfO4zJvq1nx0aDi
-o2goGaO0/NXlqANZ76lAKv56
-=IJXa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwNqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FIAP/RtlIFRiNMq9U3mneuOk
+9eTX0uhcYQW7YWaQRFUwaERACm/522CmtB8pvF/uLkMFgurJRk6ejpZTSNL/quQB
+ms5LnPGhgdpnPtwDvdPUG+ulntDIYP9GDTEmLMX11UqX8TNoVQYSUPmeD8qmVLfe
+/GzHMnARg25dOEjmNxpk0SLYATWKfsJ/HD/oyc8YTlNKGRbdQrZEfPPBNpmVXT5l
+Wz2r7uDFkxH6MWUF7/B87C5pa4UOrAtsbDO6m3KD7+D5YJSB/A3wpBaYeAFmaRVe
+TSGGLUefNLONJvS3OAiyCLW+y4tfLTKkYExOG9CshAplS4aFGBiL/rO6CpuAINeE
++ESJeUMTQtQc3KiBOaxDyFEhHVI9Yx24aEBvte3fx7qMx7AZYp+UXQyf7AKxIB55
+MF0GjS/cNL2VmJECFJkh5L7H/hmQSDQMrKru2LPXSy5/Z+91OXguJ7KnuqE3Nn/+
+3QF9GUL5Z18EXtIHZIXGZy4qWJK/w1LqgGXNw8FT6Ypt0zSa4EpTQFEhiVCAYEvv
+ncwEOI/QZbPKKvTcgmMqOA9wELeqA/ccvPZpxutRlZ5aou9gkImgiuXqQm2Q4dCJ
+VK0suWYWtnGIw9DaDf8r3U6ygxQObOcdDeWGQMlG9PL3cPCv0RUtzhWamWdABIkL
+XTmvGxnVT1B6pz/p1Xwx0n7L
+=GVde
 -----END PGP SIGNATURE-----
 
---===============9070883471474198500==--
+--===============2232600735638868623==--
