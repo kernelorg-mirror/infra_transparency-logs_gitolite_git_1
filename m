@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8546278490431650287=="
+Content-Type: multipart/mixed; boundary="===============2590896239500455656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 25 Jan 2022 15:28:54 -0000
-Message-Id: <164312453464.15560.17974895075110059648@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 15:29:19 -0000
+Message-Id: <164312455909.15794.18386489680045725860@gitolite.kernel.org>
 
---===============8546278490431650287==
+--===============2590896239500455656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f9e97a150078aff563c4221658afebb3a3e584e7
-    new: f0fbfdf6b0ef42f989f7dcbe912d2ce3798c494b
+    old: f0fbfdf6b0ef42f989f7dcbe912d2ce3798c494b
+    new: 6cc2d1a6536788f6334217440a2956c7e73f87f6
     log: |
-         f2d8871d00c07c6df3bbbb304e966fb8834819e8 staging: r8188eu: EntryMaxUndecoratedSmoothedPWDB is set but not used
-         706125892924718f43ac90fcaa2118cce86e1318 staging: r8188eu: ODM_RF_TX_PWR_TRACK is always set
-         4f37285e0a93dc2f9b7181158c9884ea41a09ace staging: r8188eu: ODM_RF_CALIBRATION is always set
-         f0fbfdf6b0ef42f989f7dcbe912d2ce3798c494b staging: r8188eu: merge Init_ODM_ComInfo_88E and rtl8188e_init_dm_priv
+         6cc2d1a6536788f6334217440a2956c7e73f87f6 staging: pi433: move get version func to where all other functions are
          
 
---===============8546278490431650287==
+--===============2590896239500455656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643124532 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643124557 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643124531-0619249fec7dfd4381c3e0bed8ca19ae872371c6
+nonce 1643124556-84161019740356825f053dc1e7ffa6f6aec03039
 
-f9e97a150078aff563c4221658afebb3a3e584e7 f0fbfdf6b0ef42f989f7dcbe912d2ce3798c494b refs/heads/staging-testing
+f0fbfdf6b0ef42f989f7dcbe912d2ce3798c494b 6cc2d1a6536788f6334217440a2956c7e73f87f6 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwFzQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v+EP/0J8u/FlIB64JpBNdKWQ
-EnBBjLe4PHybmBnejQtdqxAHrTLo+IbDejrjZL99Znh/j1e6R9NIBJFX3OHMngeB
-4lYVrOfLcmIUGWO5U1YkLhv+/z8cRG0MCkNlquDtuZqmPmyY5qn9m2l7CESFuXDp
-bMHyZfAdxDIzhVI/MXnw4qEMqN/EC1h7oKVPv2T6mKXeKvG8FRfEDTax2oi1Bl9P
-DBWGSMYHB1+1OIJCNsvmBYVp2M527pGS4PSqoURqr1FeDi/hqUxGB6RPPjCZXsJy
-debZyzR3nPRP/8LFAoL9GKVIKYz6P5jBpEt9gM3YRif5mVitiep0t83FyHkGxc1M
-g8+D4EP1Q55k+f3+LaGZuADHYyOVqUJr8iO22yWCkRi39hNCtWAa65zU8JtdvYLi
-+1aGbqQtSpBGx97y5s6sZUFAntmgmrF5olrj8ZUHlsfkN7pJ6T8jPmEZ2lw2035G
-4PhG6m+Bs7oFDGKsat2kZqmVn9oFa2wbNg8GZ34GN81AmDuwoFhny0pMr2H1jeGC
-XmmxNSFlHqvhIN8iaSWeTHOqmJof7VSgr8K3tJ2sAwLqeGHMJoZKQRTjOH5DkvCh
-LJZtXW/OTY/iMDoHc+CJ7xYN5zbwpb9iGJOWywyEWEHKyl7FmDehLoLS+KjffQUP
-8AI2c7f/YKZVl/T8MinFAnvv
-=xzQw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwF00bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xHwQAKzCig64qZNQA5IdjSuR
+hCNKTo4H7l6o5FZWtL5/nP5o98Gvc2WxPKmIODobAlZvoEAgD9jvUX78ItT+7cgr
+erAq9c5u00W1gctoZujfrxIkpLx689OJiwgPV/B5p8fJcSuOzoCfZcuLtN4WjyPs
+526TFXVDFC8qqcg8sAVJTpJvBjbT0er3lW63M4szObW/OGwfzCqSh7L9Bel6Qgvk
+2+iJxrDrldbRDvovNQasO/aj4WDazKi5AdKMLi8uMYYmtTkcGt5uE+yDpfYhIHzI
+Hyoxr/NamJEYJDTCqRFPslL5vQ1lu4C6Zsb6ST4MuwyaGl7jGAf6IU1IXH/Talu0
+Ek2Hn66KX5SGGtLSV2gFfUcwOVBaGE1kv/lChAzuIPIGiZzHe5fY4AXMKXHPobA0
+LnYwjBY184sCp+BpUbQeuZrVQ2F2/KNgIOOIpmCSYtvWEfKWqCPF4zBR7/WYUiHN
+BY0X6QXGnFHnldPdbQ+r6Os9LENdtELO7690lU1VpwLYKVu/JdnaQAJ6MFcRigC+
+JTX42fH09cBsEpAXiBhpzsjx6CUyHAEmVYTgHkt3TIbq+oeRFvXfCSj1rrLbFoX2
+EpWgXQQDzwd9wC+BHWpRwrJbdGc2/kuTc6CzRe0a07RyMilDWLKYwzMbdz1JtKAK
+mrmBxMIRTL4zvkJb43IHdhOd
+=o4Lk
 -----END PGP SIGNATURE-----
 
---===============8546278490431650287==--
+--===============2590896239500455656==--
