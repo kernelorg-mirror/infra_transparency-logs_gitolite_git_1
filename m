@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Tue, 25 Jan 2022 19:52:42 -0000
-Message-Id: <164314036282.31439.1794202893331283369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 25 Jan 2022 19:53:04 -0000
+Message-Id: <164314038451.31610.8426716242744196439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 5a364550040d7f6138b88d0e09403d32954a8796
-    new: cef44e972665ec5de675afbda12c997206edfb6c
+  - ref: refs/heads/for-next
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 689e008877402564ce8a7884f21c9d2ed3ecb2dc
     log: |
-         cef44e972665ec5de675afbda12c997206edfb6c x86/sgx: Silence softlockup detection when releasing large enclaves
+         77311237eaffa240af6eae1d511b61e77a20a2ef pinctrl: Place correctly CONFIG_PINCTRL_ST in the Makefile
+         e986f0e602f19ecb7880b04dd1db415ed9bca3f6 pinctrl: intel: fix unexpected interrupt
+         e12963c453263d5321a2c610e98cbc731233b685 pinctrl: intel: Fix a glitch when updating IRQ flags on a preconfigured line
+         689e008877402564ce8a7884f21c9d2ed3ecb2dc pinctrl: baytrail: Clear direct_irq_en flag on broken configs
          
