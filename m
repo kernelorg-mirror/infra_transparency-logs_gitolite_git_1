@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6775997808012981756=="
+Content-Type: multipart/mixed; boundary="===============8184336108270868307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 25 Jan 2022 13:04:06 -0000
-Message-Id: <164311584671.16534.15575805505410616066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 25 Jan 2022 13:04:11 -0000
+Message-Id: <164311585121.16646.2282680701926450408@gitolite.kernel.org>
 
---===============6775997808012981756==
+--===============8184336108270868307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 308b1da707e801450714f0cdfcd746ca71b761a4
-    new: 07d0d6cac31835bf062bd2b0ee93bef145e7ec2e
-    log: revlist-308b1da707e8-07d0d6cac318.txt
+  - ref: refs/heads/queue-rc
+    old: 7de7b60e9d835e1d84f5d2984328731264b6b2e3
+    new: 83c7d2b14294c48a7ad1f97602484d31b0e93ea8
+    log: revlist-7de7b60e9d83-83c7d2b14294.txt
 
---===============6775997808012981756==
+--===============8184336108270868307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-308b1da707e8-07d0d6cac318.txt
+Content-Disposition: attachment; filename=revlist-7de7b60e9d83-83c7d2b14294.txt
 
 2148927e6ed43a1667baf7c2ae3e0e05a44b51a0 net: sfp: ignore disabled SFP node
 aa6034678e873db8bd5c5a4b73f8b88c469374d6 bonding: use rcu_dereference_rtnl when get bonding active slave
@@ -54,5 +54,6 @@ d977f62420ea62fc74a7599143c54c7751101e29 Merge branch 'patchq/465456' into mlx5-
 d6a533738b2cc2687a419846b9497ae515af4370 Merge branch 'patchq/463565' into mlx5-for-net
 2eacc93c7c72794dc58bbe8bf2024e2db1f18cec Merge branch 'patchq/463483' into mlx5-for-net
 07d0d6cac31835bf062bd2b0ee93bef145e7ec2e Merge branch 'mlx5-for-net' into net-rc
+83c7d2b14294c48a7ad1f97602484d31b0e93ea8 Merge branch 'net-rc' into queue-rc
 
---===============6775997808012981756==--
+--===============8184336108270868307==--
