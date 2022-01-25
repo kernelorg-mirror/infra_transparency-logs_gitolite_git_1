@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8437746318732299042=="
+Content-Type: multipart/mixed; boundary="===============7156426909215995546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 25 Jan 2022 05:36:44 -0000
-Message-Id: <164308900474.2068.2470733181590768848@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 05:36:56 -0000
+Message-Id: <164308901672.2214.16337868345095927191@gitolite.kernel.org>
 
---===============8437746318732299042==
+--===============7156426909215995546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 2576e153cd982d540b212e989458edc42ad1b390
-    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-2576e153cd98-e783362eb54c.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: f9b6935c340f3e77b7328b9be0987a129591f930
+    new: 2be22328ff0ce9442dc6c8cb7f5733c7e1f7aa25
+    log: revlist-f9b6935c340f-2be22328ff0c.txt
 
---===============8437746318732299042==
+--===============7156426909215995546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1643088997 -0500
+pusher 75C5DE3D 1643089008 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1643088996-fdc07b7aa3d3ad451f59d8fe748f1809252cff43
+nonce 1643089008-1a9905169b1755ae5b25fd7b09ec0badb177f53c
 
-2576e153cd982d540b212e989458edc42ad1b390 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 refs/heads/queue
+f9b6935c340f3e77b7328b9be0987a129591f930 2be22328ff0ce9442dc6c8cb7f5733c7e1f7aa25 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHvjGUACgkQ7ulgGnXF
-3j0/1hAAndsxEbxQWElLGNNuqJxuAN6uquG8x2K1icjFa4sDzln2UsiH2aJ4z/iC
-sHqZrhQwElWioihiGmFfdo2wFqxW+DxVaEirsM468NqEf4G9fW2eRwQxrZyqBCoP
-r9l3UQTj/RzwK7xagHi8gtJrdzdwx6+0pcytLzMQe1oMD+TvpHioC6zWfolObH04
-d2CVmnsQe2ZzB3W/Y75bGW6gSvx1KqW0skgjTbeIWKKaoKqB5+SjEJELcNKt0mA8
-TsOWXVwgWSoSJw4dpyR0DDUL0HUG+hcWpoz85yHuFb3w1cdAP4yMFtTlMCVsJ3s9
-2swDm/4UO1MwkBRb3aID/iy7RINhCQb/Ewf8MKL04mAkIJSuFa34v4FH7qHbcBBB
-jaUO9Gi19bKcDIEYI4KltV0qspa445RTuS1eEJAT9vXVBkpUi0SZQ58FOOyqoaDZ
-nVrNqh1G7ChHvbwfWkLOdnpjox6Mp11QPFf71DbanDhwLDyVVeL+ZRBN4Rmbdzo2
-TJAFTiEZSxQTeBh7bsDxhEIVafdKw829Vhy0bYbhgPAkEsRhUYXz2ZT57DnoW8Fc
-fBUxKEy7Sgt+F2caPcMLgZE9kqGfAdV2InIdu1A1YGLlGGB8FyTQQ8yyVDzOrtqn
-P/mnQNgMkLXhEnmc5FAabULbJbS0ZEEfpMUimMWwPa89LAtTLFY=
-=3WdF
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHvjHAACgkQ7ulgGnXF
+3j1mzRAAtAtbWkP9vOt+AB9OZXcRFYWZBUgTpbYf0FboWM4XqA412xCa9vM/l1pP
+FvJFpNgZZ14Cmh2XrAoaIOHvQg3s29j4AIKOV/jchiynnQEHIqABsF2u2Ffd/UL8
+g+OMEMAUnLjtSy06p0+ha8orixew13WUBD0+PzwsvxmOE4wXdav/quKPxuFjJZLa
+eqOGElgeHo0yg8OmzBn9kofTnnDCqLaxa+fnIVoYf62vWKqBqki1afvevdqf1Ohv
+XSRr/fVLLs2U2ME+/epKj6ZcRWJ2yHOcKbyHBILS18/Vm4LgF2zBC2O7m3kIYrmj
+19dPt2DGtPRExFO1z83C4eNSA9nC964bHH0OlOyFxZHlOKk2FYkIJ1/Y6Et2pO2w
+O1FOE1pkmzMjLb8Dwxn0zjWZwOjaj23Gg7PTxvcAPZRVOTaMNPwL3Sl7LWfbgUbV
+KO0dBe1WZjjSSSqITWQE+IEUavnmIx8ygY5uLeKh0LzGSOhEVhYhdCDXOaMaedTK
+CHlMPE4cYoinHV60vDjq3IAb9Qixb2md+xu7/mapAX42aqds13+vDU4cBaKneiuA
+Bgceug0XJogAhSsPU/KeMPpy7UPY4+QqLGCszmYuLDWkxjBFCyCyync3qH+gVlgj
+MF4ZDOVPo7flbjPX7YvtyJmgyvLpZ2nsCB0wt2ka/IokDFBCpJY=
+=kxXX
 -----END PGP SIGNATURE-----
 
---===============8437746318732299042==
+--===============7156426909215995546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2576e153cd98-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-f9b6935c340f-2be22328ff0c.txt
 
-c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
-9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
-8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
-b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
-dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
-818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
-ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
-01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
-a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
-88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
-eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
-448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
-1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
-3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
-86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
-49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
-63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
-3ac23d199c2bc3bc2a2b31c803e7c5d841959670 perf cpumap: Simplify equal function name
 51b826fadf4fc42c8614b752b6cb0cb516589ade perf cpumap: Rename empty functions
 194a3a202564153493789997643181737a6ae4b9 perf cpumap: Document cpu__get_node() and remove redundant function
 4e90e5cc74c6b1c1b9abff8b53cec5be1fb5e839 perf cpumap: Remove map from function names that don't use a map
@@ -1080,5 +1056,29 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
+d4523bd6fd5d3afa9f08a86038a8a92176089f5b scsi: qla2xxx: Refactor asynchronous command initialization
+31e6cdbe0eae37badceb5e0d4f06cf051432fd77 scsi: qla2xxx: Implement ref count for SRB
+725d3a0d31a51c0debf970011e05f585e805165b scsi: qla2xxx: Fix stuck session in gpdb
+64f24af75b79cba3b86b0760e27e0fa904db570f scsi: qla2xxx: Fix warning message due to adisc being flushed
+e35920ab7874d5e2faeb4f958a74bfa793f1ce5a scsi: qla2xxx: Fix premature hw access after PCI error
+afd438ff874ca40b74321b3fa19bd61adfd7ca0c scsi: qla2xxx: Fix scheduling while atomic
+355f5ffe840a1d22f8d6ff4c838190b8e89f8912 scsi: qla2xxx: Add retry for exec firmware
+1cfbbacbee2d6ea3816386a483e3c7a96e5bd657 scsi: qla2xxx: Fix wrong FDMI data for 64G adapter
+65120de26a547298d2718e7c4e8bdb7b3adc0cb7 scsi: qla2xxx: Add ql2xnvme_queues module param to configure number of NVMe queues
+8ad4be3d15cf144b5834bdb00d5bbe4050938dc7 scsi: qla2xxx: Fix device reconnect in loop topology
+14cb838d245ae0d523b2f7804af5a02c22e79f5a scsi: qla2xxx: Fix warning for missing error code
+73825fd7a37c1a685e9e9e27c9dc91ef1f3e2971 scsi: qla2xxx: edif: Fix clang warning
+4c103a802c69fca63976af6b372ccba39ed74370 scsi: qla2xxx: Fix T10 PI tag escape and IP guard options for 28XX adapters
+a60447e7d451df42c7bde43af53b34f10f34f469 scsi: qla2xxx: Suppress a kernel complaint in qla_create_qpair()
+0d6a536cb1fcabb6c3e9c94871c8d0b29bb5813b scsi: qla2xxx: Add devids and conditionals for 28xx
+cfbafad7c6032d449a5a07f2d273acd2437bbc6a scsi: qla2xxx: Check for firmware dump already collected
+0dd392d16db42059638cb6afa8746cb1fe79b2a0 scsi: qla2xxx: Update version to 10.02.07.300-k
+2aad3cd8537033cd34f70294a23f54623ffe9c1b scsi: scsi_debug: Address races following module load
+d9d23a5a34bdd2ac6ba477e58794c577a1e93dd5 scsi: scsi_debug: Strengthen defer_t accesses
+7d5a129b86b3ba42fb0482bc349beb4024e1b24a scsi: scsi_debug: Use TASK SET FULL more
+b05d4e481eff1b4cdd38d9bb7914d3273b11885b scsi: scsi_debug: Refine sdebug_blk_mq_poll()
+500d0d24808138cf95a785c7f4e51b2841974193 scsi: scsi_debug: Divide power on reset UNIT ATTENTION
+7109f3701a4a6e4eef556c1707a361bed25813b3 scsi: scsi_debug: Add no_rwlock parameter
+0790797aca037d002448ea7ec28d0f286f7b615e scsi: scsi_debug: Add environmental reporting log subpage
 
---===============8437746318732299042==--
+--===============7156426909215995546==--
