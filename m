@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2851023209704810672=="
+Content-Type: multipart/mixed; boundary="===============2115687288045687075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Tue, 25 Jan 2022 19:50:48 -0000
-Message-Id: <164314024804.29254.10117781957424574742@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 19:50:57 -0000
+Message-Id: <164314025713.29380.13887744580476311273@gitolite.kernel.org>
 
---===============2851023209704810672==
+--===============2115687288045687075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: df0cc57e057f18e44dac8e6c18aba47ab53202f9
+  - ref: refs/heads/for-next
+    old: c0fe82baaeb2719f910359684c0817057f79a84a
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-df0cc57e057f-e783362eb54c.txt
+    log: revlist-c0fe82baaeb2-e783362eb54c.txt
 
---===============2851023209704810672==
+--===============2115687288045687075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df0cc57e057f-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-c0fe82baaeb2-e783362eb54c.txt
 
+681e7187aef46f8d4e0fd0ddd2f888e3e5533cb2 ACPI: scan: Simplify initialization of power and sleep buttons
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
@@ -218,7 +219,6 @@ f5d3ca6fffeb71f304a7accae229c279e70b2216 Merge branch 'pci/errors'
 147cc5838c0f5c76e908b816e924ca378e0d4735 Merge tag 'irq-core-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fd04899208d2057b2de808e8447cfd806fd0a607 Merge tag 'timers-core-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 feb7a43de5ef625ad74097d8fd3481d5dbc06a59 Merge tag 'irq-msi-2022-01-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c0fe82baaeb2719f910359684c0817057f79a84a Merge tag 'v5.16' into rdma.git for-next
 a6fadfd757ceb2f206948b1b54b9c13e77292644 net: qmi_wwan: Add Hucom Wireless HM-211S/K
 82977af93a0dc4e70f60ca2137b67f65ebe47fc7 sh: rename suffix-y to suffix_y
 64d8aaa4ef388b22372de4dc9ce3b9b3e5f45b6c kbuild: drop $(size_append) from cmd_zstd
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============2851023209704810672==--
+--===============2115687288045687075==--
