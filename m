@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3688750985538219896=="
+Content-Type: multipart/mixed; boundary="===============5167486250211512393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 25 Jan 2022 11:02:16 -0000
-Message-Id: <164310853663.1039.15568080160529498338@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 11:02:25 -0000
+Message-Id: <164310854586.1199.7093537621590305189@gitolite.kernel.org>
 
---===============3688750985538219896==
+--===============5167486250211512393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,66 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
-    new: 6e667749271e58d34238cf700e543beabdbe6184
-    log: revlist-fe8152b38d3a-6e667749271e.txt
+  - ref: refs/heads/mlx5-queue
+    old: 2bfba3d7ffcdd0c57cf52f5166e6abc899f1bf9d
+    new: 13eeb2ad648fe2728e0e3317e087f89672860af9
+    log: revlist-2bfba3d7ffcd-13eeb2ad648f.txt
 
---===============3688750985538219896==
+--===============5167486250211512393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe8152b38d3a-6e667749271e.txt
+Content-Disposition: attachment; filename=revlist-2bfba3d7ffcd-13eeb2ad648f.txt
 
-ab047d516dea72f011c15c04a929851e4d053109 ext4: destroy ext4_fc_dentry_cachep kmemcache on module removal
-380a0091cab482489e9b19e07f2a166ad2b76d5c ext4: Fix BUG_ON in ext4_bread when write quota data
-15fc69bbbbbc8c72e5f6cc4e1be0f51283c5448e ext4: make sure quota gets properly shutdown on error
-4013d47a5307fdb5c13370b5392498b00fedd274 ext4: make sure to reset inode lockdep class when quota enabling fails
-dfac1a167068d60b36cc8f2081394a28b6fc424b ext4: replace snprintf in show functions with sysfs_emit
-8c80fb312d7abf8bcd66cca1d843a80318a2c522 ext4: fix a possible ABBA deadlock due to busy PA
-c27c29c6af4f3f4ce925a2111c256733c5a5b430 ext4: initialize err_blk before calling __ext4_get_inode_loc
-298b5c521746d69c07beb2757292fb5ccc1b0f85 ext4: fix null-ptr-deref in '__ext4_journal_ensure_credits'
-5c48a7df91499e371ef725895b2e2d21a126e227 ext4: fix an use-after-free issue about data=journal writeback mode
-173b6e383d2a204c9921ffc1eca3b87aa2106c33 ext4: avoid trim error on fs with small groups
-13b215a9e657808414a2159b0dec90f1c31ebe05 ext4: don't use kfree() on rcu protected pointer sbi->s_qf_names
-4c1bd5a90c4e716e5bde33f01a40bb66dc4a9903 ext4: only set EXT4_MOUNT_QUOTA when journalled quota file is specified
-bbc605cdb1e15aafaec899fedc385dc75dddac0e ext4: implement support for get/set fs label
-2327fb2e23416cfb2795ccca2f77d4d65925be99 ext4: change s_last_trim_minblks type to unsigned long
-4a69aecbfb30a3fc85bf8028386c047d5607a97a ext4: allow to change s_last_trim_minblks via sysfs
-effc5b3b0d20ffcb692f107cd347289bfcd6890b ext4: remove useless resetting io_end_size in mpage_process_page()
-a660be97eb00c4d87bf881e1226fbd9d812690b7 ext4: remove redundant statement
-fac888b2be9993d0c740013d26d69c8784acc293 ext4: remove unused assignments
-037e7c525d988867811b3613549971a3253b2f7b ext4: drop an always true check
-a6dbc76c4d9cc961bfb31a495fb27ee06e037e35 ext4: remove redundant o_start statement
-ae6ec194b55273e52351ee70d694594dcabe405d ext4: remove unnecessary 'offset' assignment
-e81c9302a6c3c008f5c30beb73b38adb0170ff2d ext4: set csum seed in tmp inode while migrating to extents
-da9e480212582b336b97848c69fdd4ac8860065b ext4: fix a copy and paste typo
-a2e3965df40af2f48ee6c97ed573adb91ced5dac ext4: use BUG_ON instead of if condition followed by BUG
-6eeaf88fd586f05aaf1d48cb3a139d2a5c6eb055 ext4: don't use the orphan list when migrating an inode
-debe70e488968e82282db48fbbcf84b5080f742c Merge remote-tracking branch 'torvalds/master' into perf/core
-e3304c21357268ecbe156ed6247a03dc78d3fce4 perf sort: Include global and local variants for p_stage_cyc sort key
-befee3775b6dabd7ec1bd8a44584f7f6f8fc8329 perf powerpc: Update global/local variants for p_stage_cyc
-d5962fb7d69073bf68fb647531cfd4f0adf84be3 perf annotate: Avoid TUI crash when navigating in the annotation of recursive functions
-b6e43dddaea3dbfa93327f986beb3ec5e8157c4c Input: ti_am335x_tsc - fix a typo in a comment
-51edb2ff1c6fc27d3fa73f0773a31597ecd8e230 netfilter: nf_tables: typo NULL check in _clone() function
-7d6019b602de660bfc6a542a68630006ace83b90 Revert "net: vertexcom: default to disabled on kbuild"
-19d1c32652bbbf406063025354845fdddbcecd3a 9p: fix enodata when reading growing file
-d47c7407b4c88cf66098eba8893bc38279f301fc Merge tag 'gnss-5.17-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss into char-misc-next
-0e906607b9c5ee22312c9af4d8adb45c617ea38a netfilter: nf_conntrack_netbios_ns: fix helper module alias
-cf46eacbc156a82d6643eb10afe8969abad5a35f netfilter: nf_tables: remove unused variable
-1e9d74660d4df625b0889e77018f9e94727ceacd bpf: Fix mount source show for bpffs
-c71af3dae3e34d2fde0c19623cf7f8483321f0e3 drm/sun4i: dw-hdmi: Fix missing put_device() call in sun8i_hdmi_phy_get
-a59466ee91aaa9d43889a4c51e01de087d188448 memblock: Remove #ifdef __KERNEL__ from memblock.h
-145790e55d82e30182f48b0b94149ba41e3aabcc dt-bindings: PCI: Add compatible string for Brcmstb 74[23]5 MIPs SOCs
-6fffb01e3b78ba3a38baf49c1dc7eeb5edfd5818 MIPS: bmips: Add support PCIe controller device nodes
-d552ddeaab4a15a8dc157ac007833aa0b3706862 MIPS: bmips: Remove obsolete DMA mapping support
-aa8589aac8e335e5e2e9a9de72a53913892e92f9 PCI: brcmstb: Augment driver for MIPs SOCs
-d6ab9fc74513ae6501afcdae2547334a03b9a5c9 parisc: Enable TOC (transfer of contents) feature unconditionally
-e486288d116ab4885e42757de1e0e1ee5541c86e parisc: Re-use toc_stack as hpmc_stack
-16f035d9e264d95d61d5f4056bb00d8169a7a3d1 sections: Fix __is_kernel() to include init ranges
-68d247ad38b1ef46bd945a5220fa6d28c901c2f2 parisc: Default to 16 CPUs on 32-bit kernel
-d3115128bdafb62628ab41861a4f06f6d02ac320 MIPS: ath79: drop _machine_restart again
-7f7b4236f2040d19df1ddaf30047128b41e78de7 x86/PCI: Ignore E820 reservations for bridge windows on newer systems
 500b55b05d0a21c4adddf4c3b29ee6f32b502046 PCI: Work around Intel I210 ROM BAR overlap defect
 2cea3ec5b0099d0e9dd6752aa86e08bce38d6b32 ACPI: APD: Check for NULL pointer after calling devm_ioremap()
 69e630016ef4e4a1745310c446f204dc6243e907 drm/atomic: Check new_crtc_state->active to determine if CRTC needs disable in self refresh mode
@@ -1050,5 +1001,54 @@ e52984be9a522fb55c8f3e3df860d464d6658585 Merge tag 'linux-can-fixes-for-5.17-202
 caaba96131b3a132590316c49887af85e07930b6 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 9f16e0fa1079022632880da3e8346537ba4eeecc net: usb: asix: remove redundant assignment to variable reg
 6e667749271e58d34238cf700e543beabdbe6184 net: fec_ptp: remove redundant initialization of variable val
+d85e44a24fdff15d406b6e63a849539e7095bd23 mm: fix missed initialization for folio_batch::percpu_pvec_drained
+ecc58f6dd23ec1604bf646a0163476c5f6b12d50 net/mlx5: Node-aware allocation for the IRQ table
+71b0ecb6e41651d00291f36bf83a98986595acf0 net/mlx5: Node-aware allocation for the EQ table
+4ab1ebc84b3eef6e5a45790832bb81999e63b207 net/mlx5: Node-aware allocation for the EQs
+9a2bcc48cff4c50aec6fbfcabe96ce4cdb646dbc net/mlx5: Node-aware allocation for UAR
+bf6c0757daff720650baa7201a4b6fdace45076f net/mlx5: Node-aware allocation for the doorbell pgdir
+5dc3ad85ba3575e8ed22ba54c61f806bb24be1df net/mlx4: Delete useless moduleparam include
+dc2fea55727d1a5c09a26173cc08f9082e451a2d net/mlx5: Delete useless module.h include
+ec334feee385812f46d84e7a2b2a472c920d2f18 net/mlx5e: E-Switch, Add PTP counters for uplink representor
+94f991db941bacaef88138de21d24a22c908d9f0 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+0503445b145b46bc2d06928966222c1df853bcce net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+3a84aaf573d246ea1914c1c4791776982c1fecb1 net/mlx5e: Move code chunk setting encap dests into its own function
+8eca7220ab7a44e2fa2bbd70677743fb808cd747 net/mlx5e: Pass attr arg for attaching/detaching encaps
+77bebc57308f8ba79b5517697487c4aa8c14b30d net/mlx5e: Move counter creation call to alloc_flow_attr_counter()
+3c403dfcfa8731de8160284489cac62dd845912e net/mlx5e: TC, Move pedit_headers_action to parse_attr
+a234f599e6f167502013fe62fca56c9a64952df6 net/mlx5e: TC, Split pedit offloads verify from alloc_tc_pedit_action()
+8eb1efdc3372c917b2029c8403ba603b1b5af17b net/mlx5e: TC, Pass attr to tc_act can_offload()
+4db4751c22a867823502b86710a223378b9e90f8 net/mlx5e: TC, Refactor mlx5e_tc_add_flow_mod_hdr() to get flow attr
+4583e34015cf918d105143878446028dce03f4b8 net/mlx5e: TC, Reject rules with multiple CT actions
+cfc076b59e4674850f8306eceba23ebf87279904 net/mlx5e: TC, Hold sample_attr on stack instead of pointer
+614632ae6cc058278389b7a05d4e87c7cf5078a7 net/mlx5e: CT, Don't set flow flag CT for ct clear flow
+bb917b5e5ad8392acf744cbb7809947246e273bf net/mlx5e: Refactor eswitch attr flags to just attr flags
+88d13813c95c60ca30e56fcd5e0183edad4ff3b1 net/mlx5e: Test CT and SAMPLE on flow attr
+946a16fecb0888a6798f65fdb7829033f12ae436 net/mlx5e: TC, Store mapped tunnel id on flow attr
+ab10298c0dc4d00042861dec87affea6c3a5eb87 net/mlx5e: CT, Remove redundant flow args from tc ct calls
+ac23af1093f03321ec7d1d4d63b13b9aaa946725 net/mlx5: Add ability to insert to specific flow group
+c6393eb02590335a9b58cab62c131546f9e52f6a net/mlx5: E-Switch, reserve and use same uplink metadata across ports
+2d6d83877de708a41b1c155c787ffb144d08d8cf net/mlx5: E-switch, remove special uplink ingress ACL handling
+959473d137c93507b01c2decbe7186d5986f2804 net/mlx5: E-switch, add drop rule support to ingress ACL
+37a94f67d49bbf966abaa1a2914342bfea2aaeaf net/mlx5: Lag, use local variable already defined to access E-Switch
+8ec090f7780c4a05dc3d67dd07961d8d97ca6a97 net/mlx5: Lag, don't use magic numbers for ports
+dd8cc587b55d01794642b15d14f6a83e30a9d95d net/mlx5: Lag, record inactive state of bond device
+4f95d9e39d921d552ca1e2dcdb3bf50b5f764513 net/mlx5: Lag, offload active-backup drops to hardware
+bb7a9d98f162802ad43d8939bfec0895083fb0b7 net/mlx5: Remove unused contiguous coherent buffer allocation API
+453d94dde103f0f268a8e3a7abf91cb7830e4ae7 net/mlx5: Remove unused fill page array API function
+5cc86867bfebe8d35e4f828e70b9ebaf247dde02 net/mlx5e: Generalize packet merge error message
+a549388313eaf4a724ec9d32c30eedb939dffe75 net/mlx5e: Remove unused tstamp SQ field
+dbf52698ebe51f252d3c4f3b6cea2d5a0df96414 net/mlx5e: Read max WQEBBs on the SQ from firmware
+528b2d3fffcda11439dd90b9540b1e39b93890ff net/mlx5e: Use FW limitation for max MPW WQEBBs
+a0f92deff56ce105b4544da41d63c9d30abab1bb Merge branch 'patchq/467855' into mlx5-queue
+af3d19af4734c0d83d2436254ab9a799934d6839 Merge branch 'patchq/467755' into mlx5-queue
+a362994ff840c32bb6adf8077259f043762ef83c net/mlx5: Remove unused TIR modify bitmask enums
+cca970a318b4ce9065780a99196ebe55cf56f231 Merge branch 'patchq/464678' into mlx5-queue
+08af6cd2be151ebea7360c3aef487dd9574e4ca3 Merge branch 'patchq/458373' into mlx5-queue
+ec82723401d48ef2acefd34e27dd19e86129f5a1 Merge branch 'patchq/452610' into mlx5-queue
+7772065c53825d49986fb5b58cf1bf23276b7834 Merge branch 'patchq/398787' into mlx5-queue
+b34d1aca1bb18743ea841e5134c835d8024f00e0 Merge branch 'patchq/462991' into mlx5-queue
+457a3e377fd88ec9b079c2269c05dd612bbc8d74 Merge branch 'patchq/396348' into mlx5-queue
+13eeb2ad648fe2728e0e3317e087f89672860af9 Merge branch 'patchq/463850' into mlx5-queue
 
---===============3688750985538219896==--
+--===============5167486250211512393==--
