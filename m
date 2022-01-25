@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1170279235633001288=="
+Content-Type: multipart/mixed; boundary="===============2506309162919092665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/aa
-Date: Tue, 25 Jan 2022 22:46:06 -0000
-Message-Id: <164315076650.14528.15248864753839201311@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 22:47:43 -0000
+Message-Id: <164315086335.16115.9663399466212349062@gitolite.kernel.org>
 
---===============1170279235633001288==
+--===============2506309162919092665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andrea/aa
 user: andrea
 changes:
-  - ref: refs/heads/main
-    old: 68475c55fddf2ee652dadf1e4d88afb32349865d
-    new: fc33abf8eb0cb00edee270559f4b5b5f2d184e49
-    log: revlist-68475c55fddf-fc33abf8eb0c.txt
+  - ref: refs/heads/mapcount_unshare
+    old: a00368f7cd3a157f5a31bf7e7275512d7429537b
+    new: b1bb5dc426bc69823e0764078fc079f789d7890c
+    log: revlist-a00368f7cd3a-b1bb5dc426bc.txt
 
---===============1170279235633001288==
+--===============2506309162919092665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68475c55fddf-fc33abf8eb0c.txt
+Content-Disposition: attachment; filename=revlist-a00368f7cd3a-b1bb5dc426bc.txt
 
+2ca0a3718da24953689b1771589ac63b60f17358 perf evsel: Derive CPUs and threads in alloc_counts
+7e3d1784c8a4d9c643a6ed0a2c44ee94dee8f7a6 libperf: Switch cpu to more accurate cpu_map_idx
+47ffe806674f67e729627edd689b10827b1790eb libperf: Use cpu not index for evsel mmap
+7316268ff740c29dfb52649ff8074a5aa17ec0ce perf counts: Switch name cpu to cpu_map_idx
+ab90caa7b2d0b708cfee16b33325ca24de4d8f25 perf stat: Rename aggr_data cpu to imply it's an index
+7ea82fbee4598e51e8bf47566b252cd5745d5b17 perf stat: Use perf_cpu_map__for_each_cpu()
+f9551b3f6249cfe8ea5b5f8716675ccf2f6ec737 perf script: Use for each cpu to aid readability
+80b82f3b65e94ba22d3f12a98f7ecc56cc14c903 libperf: Allow NULL in perf_cpu_map__idx()
+472832d2c000b9611feaea66fe521055c3dbf17a perf evlist: Refactor evlist__for_each_cpu()
+7ac0089d138f80dcd7ba8ca368a9b2bdfe780b16 perf evsel: Pass cpu not cpu map index to synthesize
+da8c94c065174099853a207d9716a49d339b265f perf stat: Correct variable name for read counter
+2daa08c4d9cd9d0845094d718920e5d105c11558 perf evsel: Rename CPU around get_group_fd
+1fa497d4c01d497e25131ccdd5def6f24dd1f330 perf evsel: Reduce scope of evsel__ignore_missing_thread
 6f844b1fdd3bc3a25995ff83edea32a73bfa72d9 perf evsel: Rename variable cpu to index
 aa11e55a39950c0151e12abd30c7223dfc6f6a2c perf test: Use perf_cpu_map__for_each_cpu()
 379c224bef724cf52bd3d2364d29fc63f3e743d3 perf stat: Correct check_per_pkg() cpu
@@ -738,7 +751,11 @@ ccf8d687542f6a7288b79727bec1cc084b3771b3 KVM: VMX: Fold fallback path into trigg
 54744e17f031cbc5c5b995b1e275df1520c8a739 KVM: SVM: Move svm_hardware_setup() and its helpers below svm_x86_ops
 a3c19d5beaad25fcaa703b251c72c3a22fc09100 KVM: SVM: Nullify vcpu_(un)blocking() hooks if AVIC is disabled
 d5ad5b1c04c85f01850e88231cad7dfbc9e1d30c selftests: kvm: add amx_test to .gitignore
+6b34cd8e175bfbf4f3f01b6d19eae18245e1a8cc btrfs: fix too long loop when defragging a 1 byte file
+b767c2fc787e992daeadfff40d61c05f66c82da0 btrfs: allow defrag to be interruptible
 70431bfd825d9cd5d93412c0456f253ecad6c415 cifs: Support fscache indexing rewrite
+484167da77739a8d0e225008c48e697fd3f781ae btrfs: defrag: fix wrong number of defragged sectors
+c080b4144b9dd3b7af838a194ffad3204ca15166 btrfs: defrag: properly update range->start for autodefrag
 8326c79d10be2ddbfd3d3804206949a71cb15675 tools headers UAPI: Sync x86 arch prctl headers with the kernel sources
 902d6364aad5fc8731ac5b19ed9a1d9c9ee0bd91 riscv: mm: init: remove unnecessary "#ifdef CONFIG_CRASH_DUMP"
 07aabe8fb6d1ac3163cc74c856521f2ee746270b riscv: mm: init: try best to use IS_ENABLED(CONFIG_64BIT) instead of #ifdef
@@ -998,57 +1015,40 @@ e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 10c64a0f280636652ec63bb1ddd34b6c8e2f5584 Merge tag 'sched_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ac5a9bb6b4fa22135b3e371ac9787de120e18c8d Merge tag 'irq_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0 Merge tag 'powerpc-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+0cb5950f3f3b51a4e8657d106f897f2b913e0586 btrfs: fix deadlock when reserving space during defrag
+3c9d31c715948aaff0ee6d322a91a2dec07770bf btrfs: add back missing dirty page rate limiting to defrag
+27cdfde181bcacd226c230b2fd831f6f5b8c215f btrfs: update writeback index when starting defrag
 a08b41ab9e2e468647f78eb17c28e29b93006394 Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
-1834e9b4f2fbf995444934ba0bf3074220436418 extraversion
-1d6d4edc53dc7c0f7845d4717f102e5ac8615854 mm: thp: consolidate mapcount logic on THP split
-52d3efef432fb2a5cebff36edba55345dc08b2aa mm: COW: restore the exclusive pages rmap scalability optimization for the anon_vma_chain
-3c368f759d57a94383e587fba70fbd85f33e3f34 mm: thp: make the THP mapcount atomic with a seqlock
-e67669b54729919cfe048d50d98b7b6674df4c97 mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
-128fdddfb3e5a96e8490e0cd64b1793a5d83b31a mm: thp: introduce page_trans_huge_anon_shared
-a6ad429a89ca6f790da64cc2ab63cec32921867b mm: gup: COR: copy-on-read fault
-5b68adbddab04d201023b792605d9671e634858c mm: gup: gup_must_unshare()
-1b074fbca34e541d12d65c982675200fb15d70d8 mm: gup: gup_must_unshare() use can_read_pin_swap_page()
-1f4b73417150ef1a99be6ec82943f96f4f24f101 mm: gup: activate GUP unsharing with COR
-352bf46db62ecf3cf889d6b6bfb2fcd85f58fa77 mm: gup: FOLL_NOUNSHARE: optimize follow_page
-44c10aea7f66382b656bc4ba18a9bc4395cc2061 mm: hugetlbfs: COR: copy-on-read fault
-5ef751f34f7c62cbfa8c3cb4e31c2dde7f44d2e1 mm: hugetlbfs: FOLL_FAULT_UNSHARE
-b57e061976a970b32f77e1f36bbba2be7b8b52cb mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
-d1d7ea2fa86f0063d788b9465e70da1c7bc828a5 mm: COW: skip the page lock in the COW copy path
-0c2cb4c4f52b222b99faef762689f7d1b2a8bf8c mm: thp: replace the page lock with the seqlock for the THP mapcount
-6d064b02ba7c56b73a006499b121520700f3b4da mm: COW: restore full accuracy in page reuse
-054da5c58ff31e83799c8442c8b756456a1cba1a mm: COW/COR: de-dup the lock page locking
-048c9ffd6a8bcf63c9c6635da980812a53c0d6bb mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
-0a87adf288208aa3761de2be8613c1a67f491af5 mm: gup: FOLL_MM_SYNC: enable COR on PageKsm
-529d573e09c02cba0123e99c0d60c0701b7766bd mm: gup: FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
-ebe287f294bd0f899a4058a9075b3f2085daa56c mm: gup: FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
-68dc848f863f63d5f29c26e3b1d8486eefcbece9 mm: gup: document FOLL_MM_SYNC
-7428d4401dcd83966affdc915ff031123a23eaba mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
-7d39a95582113bbc425283d68a942605bdef2bd0 mm: cacheline alignment for page_table_lock and mmap_lock
-ba1c5ae67d756868b68c14a0a003406b03774095 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
-ca1bf1c38a472a64460c9810e24a4b7943c86b13 mm: thp: optimize total_mapcount() with head_compound_mapcount
-f8b7cbefac316f6a4713bdf4ea2b227fb376f46d mm: thp: cleanup and optimize compound_nr
-fadb5e04d94472614c76819acd979b2f60e4eff6 mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
-64d09d31aeea9846455128716918460e8b2d5f96 mm: mm_take_all_locks: add cond_resched()
-a2234d14788dcaa2ff3dd8c38d381906ec3889c2 x86: restore the write back cache of reserved RAM in iounmap()
-300b9701b425e62a2b45dbc885a559d2c1b40550 x86: spec_ctrl: fix SPEC_CTRL initialization after kexec
-a5e6bcf6afa75b13e584a16ad731b89095b71b61 x86/spectre/meltdown: avoid the vulnerability directory to weaken kernel security
-9bf64a49d37f8362891c40d5ee89c06bca64c2c9 x86: atomic_set needs WRITE_ONCE
-6ef2172f58a730d07abc9892cf43b16b6d617271 sched/fair: skip select_idle_sibling() in presence of sync wakeups
-94cc733d2d64e95540215ae20561b9b439fb52bc mm/userfaultfd: provide unmasked address on page-fault
-288ce1ed9ef5d1a384e80c6c149a15c4fde8695c userfaultfd: UFFDIO_REMAP: rmap preparation
-a4e6bcf51917d21d98415ccedc280b04c37c2a4a userfaultfd: UFFDIO_REMAP uABI
-25c02aeb5035792266d49b9a728337b22bd5c514 mm: use_mm: fix for arches checking mm_users to optimize TLB flushes
-da36e19949193e1a76157e30a5f443b4692b7f53 arm64: select CPUMASK_OFFSTACK if NUMA
-fff9f7843bacc086d5309b66b0860a6df81d26bd arm64: tlb: skip tlbi broadcast
-20772da412d8dc6bad67da8f36a3dc26a6ddb5c8 mm: soft_dirty: fail CLEAR_REFS_SOFT_DIRTY if not built into the kernel
-2751f7b2113bc7ca8b3dd9e2f4a7cf4d54c6c1c1 KSM: improve reuse_swap_page for CONFIG_SWAP=n
-b6cfc21322b6545db5710355881b96de13b81a3b KSM: add batch random generator helper
-bc91f57155cced747927358255e643e99bb47158 KSM: only attempt to merge with KSM pages if the payload doesn't change
-32428e24698558422985870e2e539a043f972833 KSM: eliminate the KSM COW side channel
-4b366044031753c5a67690905cb5e6be72995f04 KSM: mimic the timing of the COW break for VM_MERGEABLE vmas
-df423d70d77369ae4301bb1e8928e89af62b82e3 KSM: break_ksm: use the COR fault
-4b3641b75ca58731f0dce357cc856b8ab4a3380f mm: Fix invalid page pointer returned with FOLL_PIN gups
-baab409af940dd23224ef9466781528d809a93bb mm: ksm: fix use-after-free kasan report in ksm_might_need_to_copy v4
-fc33abf8eb0cb00edee270559f4b5b5f2d184e49 Merge remote-tracking branch 'gitlab/main' into main
+49d766f3a0e49624c4cf83909d56c68164e7c545 Merge tag 'for-5.17-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+c8c46710cfda8c3c4158276745849f8b16d49008 extraversion
+e7400ef8c10438a21d1d4a7fb7c018f4dc05c05f mm: thp: consolidate mapcount logic on THP split
+440286d42c9acc8561d24c46a737151df80e70fa mm: COW: restore the exclusive pages rmap scalability optimization for the anon_vma_chain
+3035b3f9c1aad7d687eb74619c0a2fb8b0df1213 mm: thp: make the THP mapcount atomic with a seqlock
+b0e421732be51df7006e4b947ebbcd4fccc8d85f mm: thp: stabilize the THP mapcount in page_remove_anon_compound_rmap
+26795408ca6a13ca8a38cad9227e70f03493b8fb mm: thp: introduce page_trans_huge_anon_shared
+4bee26cfaf5a35bcfa8a534ad3cc061900ba1a79 mm: gup: COR: copy-on-read fault
+fbd073d26910ac56f003237f8e5851fd8c2ba083 mm: gup: gup_must_unshare()
+870caf1e4d646c7829d13b6446b4d3e215501adf mm: gup: gup_must_unshare() use can_read_pin_swap_page()
+4c5e88e73c70b480e4a0cde15ec76253d3f0d478 mm: gup: activate GUP unsharing with COR
+ffb334eb946503a675401a737c9d557f9398932c mm: gup: FOLL_NOUNSHARE: optimize follow_page
+5c9f6615f7b9918707d06a33001cf45f4632bfca mm: hugetlbfs: COR: copy-on-read fault
+587d1184cdd071f560bfd198673b980f399ea03a mm: hugetlbfs: FOLL_FAULT_UNSHARE
+57a58407a9357fe7685f626508a0a3e4d908e828 mm: hugetlbfs: gup: gup_must_unshare(): enable hugetlbfs
+cfea458eeb59fb7cd4f7ec5656817d754a360913 mm: COW: skip the page lock in the COW copy path
+8d5d6ef836f032b9c10cccbc310a039f44929fd7 mm: thp: replace the page lock with the seqlock for the THP mapcount
+34a6d37652795098c53cb2ec8374c7262875381a mm: COW: restore full accuracy in page reuse
+ba812ac3a4923dd2d8642b8b75cd9b64ac36e01d mm: COW/COR: de-dup the lock page locking
+2a8bfac4d12de842e0647c7f87d3f7957deedee2 mm: gup: introduce FOLL_MM_SYNC and FAULT_FLAG_MM_SYNC
+eb5d8ca9f2043efcb7fd7feca3871a7132d398e0 mm: gup: FOLL_MM_SYNC: enable COR on PageKsm
+e58cc61e2421b12803bd1932b8b9091055822b34 mm: gup: FOLL_MM_SYNC: handle FOLL_MM_SYNC in can_read_pin_swap_page()
+3edfe0702138b00e8ba3b41ef3df250f7a9674fb mm: gup: FOLL_MM_SYNC: zeropage and MAP_PRIVATE pagecache
+65e54fab7ed9ed0dabb1bbf6a2770177ed30cec7 mm: gup: document FOLL_MM_SYNC
+fdb08848372ef651c892c7d43b59ded8d7a5aebd mm: gup: enable FOLL_MM_SYNC by default for FOLL_LONGTERM
+449a69229182053b9002ecd31ed1dbfcb5143441 mm: cacheline alignment for page_table_lock and mmap_lock
+587dd02593ee4ea4af75847695c07688fdf37a96 mm: thp: page_trans_huge_mapcount_lock: optimize the lock_page_memcg
+7fd6cd5566a8e3af3510a028f9d14e6a0a8c9639 mm: thp: optimize total_mapcount() with head_compound_mapcount
+434e273055ea9b186bccc431452f64e61cca72a4 mm: thp: cleanup and optimize compound_nr
+34cd0d78db407af06d35a06b24be8e92593964be mm: mprotect: avoid spurious COW faults for exclusive anon pages in cow mapping
+b1bb5dc426bc69823e0764078fc079f789d7890c mm: gup: FOLL_UNSHARE and COR fault
 
---===============1170279235633001288==--
+--===============2506309162919092665==--
