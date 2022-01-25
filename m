@@ -1,46 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1209269839712152126=="
+Content-Type: multipart/mixed; boundary="===============8703973817720610218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 25 Jan 2022 10:19:41 -0000
-Message-Id: <164310598166.4297.12194845665190773447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 25 Jan 2022 10:19:57 -0000
+Message-Id: <164310599748.4447.13528321605723843870@gitolite.kernel.org>
 
---===============1209269839712152126==
+--===============8703973817720610218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 8dde4e76a01adc9a31bc7f89fe20c0b9c80b5967
-    new: 90a242e430456504a0b9d221545864ee35634a26
+    old: 353bbc52de1c123c0bdc92ea270a6835d34d3f5f
+    new: ff5702e637e0bc59e77508988a83fb5abf678bd2
     log: |
-         90a242e430456504a0b9d221545864ee35634a26 Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         bdac3bbd0dc63873a9c606b8e4f814e6d61d288d spi: spi-rockchip: Add rk3568-spi compatible
+         ff5702e637e0bc59e77508988a83fb5abf678bd2 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 8dde4e76a01adc9a31bc7f89fe20c0b9c80b5967
-    new: 8e9977e48c7c2a49e09859456dcba12a8d804a51
-    log: revlist-8dde4e76a01a-8e9977e48c7c.txt
+    old: 353bbc52de1c123c0bdc92ea270a6835d34d3f5f
+    new: f9a8f627c98b130db390b214b4fffc695824f87a
+    log: revlist-353bbc52de1c-f9a8f627c98b.txt
 
---===============1209269839712152126==
+--===============8703973817720610218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dde4e76a01a-8e9977e48c7c.txt
+Content-Disposition: attachment; filename=revlist-353bbc52de1c-f9a8f627c98b.txt
 
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
-8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
-b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
-dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
-818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
 ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
 01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
 a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
@@ -1053,8 +1045,17 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-799f9cf8fd45f59369ffca28369a4ac5e02f1904 Merge existing fixes from regulator/for-5.17 into new branch
-6390d42c21efff0b4c10956a38e341f4e84ecd3d regulator: qcom_smd: fix for_each_child.cocci warnings
-8e9977e48c7c2a49e09859456dcba12a8d804a51 regulator: pfuze100: Add missing regulator names
+66fda8bdc323860a3b5c8fe86f64d25c5c19b450 Merge existing fixes from spi/for-5.17 into new branch
+2da187304e556ac59cf2dacb323cc78ded988169 spi: add bindings for microchip mpfs spi
+5b177234e9fde7d4208e8163debc109b86e3f68d spi: spi-mtk-nor: improve device table for adding more capabilities
+4e8bfe5cdf77621cb4e7b196448ceeff20d9d6a6 spi: spi-mtk-nor: add new soc mt8186 support
+58b0a653b8dac40bbeb01a2c8a230aa8f84a7530 spi: spi-mtk-nor: add axi_s clock for mt8186
+ceab11a3c0d620d9ec2c032fd8014615cf7934ec spi: add mt8186-nor compatible string
+f1ba938e4f98941dc2b77795062e49444ec1fee1 spi: s3c64xx: Delete unused boardfile helpers
+3b5529ae7f3578da633e8ae2ec0715a55a248f9f spi: s3c64xx: Drop custom gpio setup argument
+a45cf3cc72dd9cfde9db8af32cdf9c431f53f9bc spi: s3c64xx: Convert to use GPIO descriptors
+7f2a3cf4e6077a1525092f114be7819e505773a1 spi: s3c24xx: Convert to GPIO descriptors
+5566ccc533ab296d5270bf00c56890de3edb3bd2 spi: add new SoC mt8186 support for spi-mtk-nor
+f9a8f627c98b130db390b214b4fffc695824f87a Update the Icicle Kit device tree
 
---===============1209269839712152126==--
+--===============8703973817720610218==--
