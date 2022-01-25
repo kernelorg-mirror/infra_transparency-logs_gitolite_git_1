@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4124991338592526416=="
+Content-Type: multipart/mixed; boundary="===============4569453868078933130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 25 Jan 2022 14:33:59 -0000
-Message-Id: <164312123919.10402.118801509190330577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Jan 2022 14:34:04 -0000
+Message-Id: <164312124491.10504.15063398055609311679@gitolite.kernel.org>
 
---===============4124991338592526416==
+--===============4569453868078933130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: f9a8f627c98b130db390b214b4fffc695824f87a
     new: a708078eeb992799161e794d9c569cf4f725a5b0
     log: |
@@ -24,28 +24,28 @@ changes:
          a708078eeb992799161e794d9c569cf4f725a5b0 spi: Add Sunplus SP7021 schema
          
 
---===============4124991338592526416==
+--===============4569453868078933130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643121237 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1643121237-d92fd2ce8763f55c26f4df55277ad7e04c7be5ca
+pusher C3F436CA30F5D8EB 1643121243 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1643121243-c39f89425fe86065f917aff42fd723b334a81c02
 
-f9a8f627c98b130db390b214b4fffc695824f87a a708078eeb992799161e794d9c569cf4f725a5b0 refs/heads/for-5.18
+f9a8f627c98b130db390b214b4fffc695824f87a a708078eeb992799161e794d9c569cf4f725a5b0 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHwClUACgkQJNaLcl1U
-h9B/ZAf/bsxCYuv1NesBcwoo9MF21kPyFmMPPzypyJGIX3q5z4gnuR0oykl1nyWy
-53ps2dZMsXx5J2fWX+Cz+ND3g4SabX+3Od7S/aGo6tZuzKMnh73E4CC4EvzR0SXK
-eeizLrIwSz2HtcAw027YLRp98f+/N4e1TjMFOGFoYI996wCpOozjy1Ok0XHcyEZV
-VJ6pwnhy6V8VFJBKgCDta15c2ngWqUjzp01k5+HTQM0hI8gWUEOm/dW4L+yKp6bU
-IH0mytwW6N12/spoU/oidcQHE8UhckEl0Y1xMubyjaz+IWf9yjZ5SGdrUwKxFSA1
-b9shOnFYtXH52oNTO0ketJ5SIDBM0Q==
-=UiWn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmHwClsACgkQJNaLcl1U
+h9BcRwf+IUdV8TVlc0TUMY0tK1jImIrrqc3ZFOu9UFSyeF3paRKHlZkwFCBGy3Vv
+uQBhkOqcyqbf+gxAjg6BvHfcvVIazs7F3C5XnatEDWL3XiPm60AoMofpF50qi4yQ
+qvLk5MD7nGpebII1MclWDIzBW/QkzvhJ7OzRCOmuNuMAas7KrSbURW27Rj14tVL6
+CEVM/3qzFXGWYbqrwG2LE7/3GZmNPG4U3Y9a30ow0bMeJ++ghbSNmwkepueXGSyl
+SNFrByMWdBHjm6DMSO/3IOWw/S1UyolkaNCczXKu/MQ2WGA6mAOy0ECSxCjy7lBA
+s9qi3N0db5Qdl9AvQM3fVRRVaogOig==
+=l/pa
 -----END PGP SIGNATURE-----
 
---===============4124991338592526416==--
+--===============4569453868078933130==--
