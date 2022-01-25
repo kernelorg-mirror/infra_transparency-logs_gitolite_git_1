@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 25 Jan 2022 19:37:25 -0000
-Message-Id: <164313944589.19772.2658024015566114795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Tue, 25 Jan 2022 19:38:41 -0000
+Message-Id: <164313952123.20237.13399282049765518999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: 390bb322937db0e76eff65e414c142ec1b69f31f
+    old: e7086e0cdaded16c4a8db193f5971ee24cb22f3d
+    new: a1ce76e89907a69713f729ff21db1efa00f3bb47
     log: |
-         bc933d9c20151854dc4f5d744afdc303696671f7 fbtft: Unorphan the driver
-         965e642c205308abf82c2fa34defe3e171c9355c fbtft: Move driver out from staging
-         390bb322937db0e76eff65e414c142ec1b69f31f fbtft: Kill outdated documentation
+         06608bc2d9e6f5a24baf51951e9e2fff3ec78e54 gpio: crystalcove: Set IRQ domain bus token to DOMAIN_BUS_WIRED
+         c84eab5850d11bea546491bb1798039448971141 gpio: merrifield: check the return value of devm_kstrdup()
+         f473bdccb8775e8935cc08ca9800cae5f700a9b5 gpio: altera-a10sr: Switch to use fwnode instead of of_node
+         b3376ed7d82f5937cecb17ff92d5d8dc0762e1c1 gpio: tegra: Get rid of duplicate of_node assignment
+         a1ce76e89907a69713f729ff21db1efa00f3bb47 gpio: tps68470: Allow building as module
          
