@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5861144772254148364=="
+Content-Type: multipart/mixed; boundary="===============2665342194035448100=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 25 Jan 2022 15:21:56 -0000
-Message-Id: <164312411622.11667.17031444187953012676@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 15:26:02 -0000
+Message-Id: <164312436201.14480.1920592309571271515@gitolite.kernel.org>
 
---===============5861144772254148364==
+--===============2665342194035448100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 71b8331380dd26465e57ab6f95e0da78914941fc
-    new: a0c1fe18702f0980c9c9cb242daa8cf1eb8463d5
+    old: a0c1fe18702f0980c9c9cb242daa8cf1eb8463d5
+    new: 56a9847a1bdb388062aa612f97403c61373c851c
     log: |
-         6fb5d25a72c757a3081ba2637ce3a017171e89c7 staging: r8188eu: Drop get_recvframe_data()
-         c146ae45df287b73ada0f7b62375f98f64d6beb2 staging: rtl8723bs: Drop get_recvframe_data()
-         a0c1fe18702f0980c9c9cb242daa8cf1eb8463d5 staging: rtl8712: Drop get_recvframe_data()
+         c03de260d6101070d61aca78ceb59020cf510216 staging: vc04_services: remove unneeded MODULE_VERSION() usage
+         dc6903f9986f1c1f133f11cff38a6a2d42b2f6d8 staging: vc04_services: use KBUILD_MODNAME instead of own module name definition
+         1d7280898f683ca824fc5eab5c486a583a81473b Staging: rtl8723bs: Placing opening { braces in previous line
+         424449eff8b964153cd7d32b464f2ef9ecedc71c Staging: rtl8723bs: Removed extra spaces between datatype and variable
+         56a9847a1bdb388062aa612f97403c61373c851c Staging: rtl8723bs: Inserting blank line after declaration
          
 
---===============5861144772254148364==
+--===============2665342194035448100==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643124114 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643124359 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643124113-49de07a1f3b47f5913d18718096a711bd98f118d
+nonce 1643124358-bf83814903008a1e2960e5dd5a3357623baec5cf
 
-71b8331380dd26465e57ab6f95e0da78914941fc a0c1fe18702f0980c9c9cb242daa8cf1eb8463d5 refs/heads/staging-testing
+a0c1fe18702f0980c9c9cb242daa8cf1eb8463d5 56a9847a1bdb388062aa612f97403c61373c851c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwFZIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LcYP/37da10+o0dN8Q+fkHUX
-kzgVECQOcbgIgZTRzCCpt9b26mqgTK2gn9B/k9hBIJ4W+nkIl6mejcn2r0TUsdGf
-aGtN1RFctXZuIIquAuOeNVDL8UQ1OgKzQbH8/L6FiRdknxrEhkqZxFDuaMw0T8DS
-lJQVkP2MzmZ1VOfYoocEC93xgr6LLsQo3AyZQBM7RqL2gZXnC8ZG1YljsP7BvzJl
-txGap2ExVuUXgkRZ8i71ROnza0mQPC7afd3Vtrg/AZth310jkPZMmTS8bQOEgeUq
-9RCyucBzmIytbPJlSdjxoK+wUY1zhemuRxYoAVZE76sWkeC0yjYyMhWoLWWbiIM7
-rZe5CYMi6XLkla7Epeyjj+e3ElJl+hJndh4tFpcZ75mK75TtHiZysTzvd7wz+ENS
-l5qGrhktfPcnFjGRhXxIWuP+cvWiXKstjDF9K9zuWrrgRAUlBKXPs9+9540kuz85
-rfnEmd22VzSnc8Fc6Yxulv+LD565AmbHWON0xoVVWwUJhwEnldM/0BhmLCoJXWFB
-Pxn2LADBhn2nl2+nRxOHnTPqMXDRF0+zelmnetfUL26Da2yam5xPc1FzxtW/6XNb
-TmHe97yOR43OtYFOx0HAnjULm1MH49sWv9jSD7qa7YcChkoOlV8JISIn1G4iAvTi
-IwWMwcGmD9ocjhliamcC+nRY
-=69KZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHwFocbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2ZcP/0I5rJ2Ns7wKJ+4LMNtK
+NEiyJZ6zRuziXmu0lWZbBMsZdgq2/Q+2gIbuGjW1a1Ehk0mTT+IreBK+w1TFdYXp
+zJtV0BUSdsy+YokGZuGrkQaE11uQKpwgc4q/3rMwSo8u9LxexuqtXu8VNDBLh5Yu
+H7V+lDDAgcakToIpE93TkgHC7NydnF7d22q+udJ1Wmbl37sOULfsjLqW19XHcN9e
+QDdsjpQGpbgPq8CbGX6MjSXxtTBbj5k4zDQaNYkTADUM9d/RulS3Fqe2nGQC2kQH
+Bh/WSvAR+NI3vZ8IJy6dquMZWvbB2vyHVc/oF4HsEUGoCIXbVE54Z7kpapQPOI6z
+Uv1M3RgeWUfQ/uleTBpO5lTyBNKh43CK91frTm2DeIqzRvz/dSniPrFD2SBAxRo/
+Czci8iUtGujl3AHOcDDTlWK5IjG3uLF1vkIosAwR6RzN++HO7nxR/zPJZhu9peql
+O4hGBa0X0mrVhn39T1tLnOk9Eu9zf02sGgPoyIs1QLcxBro7lRjq3WXsDHExkl6c
+sWaP3NK0v5nTcrK4+GKObD4nOdFYoaTVaTYiS2+lhhANLkesN//VhnHuPfmsRX7S
+LpgmSCBbHIIM1ddB/q8v5HqB9EXDgtnBXKl+oMVGHX5cGyEItinjzdF+7HniHvkA
+uXT7v3IFO85aoLmi2nsYTnf7
+=le52
 -----END PGP SIGNATURE-----
 
---===============5861144772254148364==--
+--===============2665342194035448100==--
