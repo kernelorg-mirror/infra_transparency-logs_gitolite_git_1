@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2647264320622203763=="
+Content-Type: multipart/mixed; boundary="===============5690944530798787225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/martineau/linux
-Date: Tue, 25 Jan 2022 20:40:22 -0000
-Message-Id: <164314322207.29575.11750119833150255140@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 20:40:36 -0000
+Message-Id: <164314323679.29734.8128760305549775328@gitolite.kernel.org>
 
---===============2647264320622203763==
+--===============5690944530798787225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/martineau/linux
 user: martineau
 changes:
-  - ref: refs/heads/kbuild-mptcp-enabled
-    old: 85f520f9400d057ab68c4a2b9d1dff6fb3916141
-    new: a1b15df35cede96ac2f26932c6808c852f4cf5b7
-    log: revlist-85f520f9400d-a1b15df35ced.txt
+  - ref: refs/heads/kbuild-mptcp
+    old: adce5a6feef5e0811b10aa73d4c5abf64c513975
+    new: b4540f5d88efc6b41afaeef12c4f3bd61e2b530a
+    log: revlist-adce5a6feef5-b4540f5d88ef.txt
 
---===============2647264320622203763==
+--===============5690944530798787225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85f520f9400d-a1b15df35ced.txt
+Content-Disposition: attachment; filename=revlist-adce5a6feef5-b4540f5d88ef.txt
 
-4b27480dcaa71e7ee9f56907e419c6a1511fd2b2 bpf/selftests: convert xdp_link test to ASSERT_* macros
 036a05f50bd777134b1955f400e8d24c0149fef4 bpf/selftests: Add check for updating XDP bpf_link with wrong program type
 1be5bdf8cd5a194d981e65687367b0828c839c37 Merge tag 'kcsan.2022.01.09a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 343e53754b21ae45530623222aa079fecd3cf942 bpf: Fix incorrect integer literal used for marking scratched stack.
@@ -1050,5 +1049,6 @@ f94902a2ed2da591ee3b71c1d3dbf258605d36b9 mptcp: selftests: support MPTCP_PM_CMD_
 91031f0d4272a72922e787d3b13b95cffe3b216c mptcp: selftests: support MPTCP_PM_CMD_SUBFLOW_DESTROY
 ee3d8200727a2f8a0860d75b6da4b6824b4fbad3 mptcp: selftests: capture netlink events
 a1b15df35cede96ac2f26932c6808c852f4cf5b7 selftests: mptcp: functional tests for the userspace PM type
+b4540f5d88efc6b41afaeef12c4f3bd61e2b530a Revert "DO-NOT-MERGE: mptcp: enabled by default"
 
---===============2647264320622203763==--
+--===============5690944530798787225==--
