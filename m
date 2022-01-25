@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0956406317325719712=="
+Content-Type: multipart/mixed; boundary="===============8092243274123707267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 25 Jan 2022 21:31:44 -0000
-Message-Id: <164314630471.30851.5865056770642681858@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 21:31:54 -0000
+Message-Id: <164314631456.30940.1317896601617474358@gitolite.kernel.org>
 
---===============0956406317325719712==
+--===============8092243274123707267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 82762d2af31a60081162890983a83499c9c7dd74
-    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-82762d2af31a-e783362eb54c.txt
+  - ref: refs/heads/objtool/core
+    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
+    new: 8dc7a2e0e6488d4b78809d7f5fba629f83e878c4
+    log: revlist-87c87ecd00c5-8dc7a2e0e648.txt
 
---===============0956406317325719712==
+--===============8092243274123707267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82762d2af31a-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-87c87ecd00c5-8dc7a2e0e648.txt
 
-c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
@@ -1050,5 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
+8dc7a2e0e6488d4b78809d7f5fba629f83e878c4 objtool: check: give big enough buffer for pv_ops
 
---===============0956406317325719712==--
+--===============8092243274123707267==--
