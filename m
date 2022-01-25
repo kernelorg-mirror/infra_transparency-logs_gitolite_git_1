@@ -1,68 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8634837185430317064=="
+Content-Type: multipart/mixed; boundary="===============7402450908681806502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 25 Jan 2022 14:46:48 -0000
-Message-Id: <164312200802.19424.2645415318199078097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Tue, 25 Jan 2022 14:49:00 -0000
+Message-Id: <164312214058.20202.15624222442074100793@gitolite.kernel.org>
 
---===============8634837185430317064==
+--===============7402450908681806502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/topic/r8a779f0-gpio-v1
-    old: a8962f902a7f70a326f547ef0b14db39c7faf4fa
-    new: 91eccf1fd497bff7ed85ce8824e89197638f811e
-    log: revlist-a8962f902a7f-91eccf1fd497.txt
-  - ref: refs/heads/topic/r8a779f0-pfc-v1
-    old: 544ff9e801e1775cf21b4c768652aa401e59ca3c
-    new: 189a03276a00473535b88a6b46e5bf27333ce24f
-    log: revlist-544ff9e801e1-189a03276a00.txt
+  - ref: refs/heads/cleanup
+    old: fb40926835a54f0fe55cabe4fdb475e24324a80c
+    new: 3e1da317d949690e29feb19ea6e34885d0d5b8e8
+    log: revlist-fb40926835a5-3e1da317d949.txt
 
---===============8634837185430317064==
+--===============7402450908681806502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8962f902a7f-91eccf1fd497.txt
+Content-Disposition: attachment; filename=revlist-fb40926835a5-3e1da317d949.txt
 
-1cc2dcbdfb2d90c43a75115e3f1c24c6962633dd pinctrl: renesas: Initial R8A779F0 PFC support
-fe45682d8e04995bb8b2927ee95cdc27c9b3b97e pinctrl: renesas: r8a779f0: Add SCIF pins, groups, and functions
-299935082beddab498e5b82a9bcd577e34db890e pinctrl: renesas: r8a779f0: Add I2C pins, groups, and functions
-d6f9244449d906b63af277a8ebf20c24d75a040e pinctrl: renesas: r8a779f0: Add HSCIF pins, groups, and functions
-95e7ad74938ace3e1ef9d838ae17d9c24a88c1a2 pinctrl: renesas: r8a779f0: Add INTC-EX pins, groups, and function
-4b8d337ef275bee981a418241dca82c97273b398 pinctrl: renesas: r8a779f0: Add MMC pins, groups, and function
-3d369c013276e83b89aa5473bfa07d4387033938 pinctrl: renesas: r8a779f0: Add MSIOF pins, groups, and functions
-785b832fdaff3f56316024c22e6a76e20d85c784 pinctrl: renesas: r8a779f0: Add PCIe pins, groups, and function
-dda41ea2e7ef7edc2e4c36d17ec8f024a6ac4fe1 pinctrl: renesas: r8a779f0: Add QSPI pins, groups, and functions
-05dc268786aa2397330b17a342aaa15e6eb6a9de pinctrl: renesas: r8a779f0: Add Ethernet pins, groups, and functions
-ca4969235d9d004412854ec41f6e6d59a5106353 arm64: dts: renesas: r8a779f0: Add pinctrl device node
-189a03276a00473535b88a6b46e5bf27333ce24f arm64: dts: renesas: spider: Complete SCIF3 description
-decb82d38c2762d7a6af94910baff71dd166a590 dt-bindings: gpio: renesas,rcar-gpio: Add r8a779f0 support
-f744de8e1806ac41a81c9f527bece743a62de5f1 gpio: rcar: Add R-Car Gen4 support
-91eccf1fd497bff7ed85ce8824e89197638f811e arm64: dts: renesas: r8a779f0: Add GPIO nodes
+9aa732349371056da2ca90b03468bc1c8e0016e2 aarch64: Enable BRBE for the non-secure world
+0607f1669cd66442cc956ff174db679971e14613 Revert "avoid dtc warnings on re-compiling DTB"
+ace8342eee653e2315b096bd840bd1ddaf4190c5 aarch64: correct ZCR_EL3.LEN initialization
+779a27a7a68fb78b7f5ef17034b85eaf66645339 aarch64: correct SCTLR_EL1_EKRNEL for AA32 kernels
+2e3ba4299f4201d56f6d0d51ba1dfaf461c90fe2 Document entry requirements
+8467f4a738aefb9a785835edb6418adb4608a1e4 Add bit-field macros
+6e6405bcf8f59ff77f4ccd50812641db76642f83 aarch64: add system register accessors
+c4d9bdde40d96b684195dc2cd037c2f46bf9cbe4 aarch32: add coprocessor accessors
+c90e64c70f38a9c33adc9898fa31537278065a74 aarch64: add mov_64 macro
+ed24dec569bdcba0694155ec0ce59883eacd5434 aarch64: initialize SCTLR_ELx for the boot-wrapper
+b7dc2677c50d3bb9d93711286f436154fe2bd0f9 Rework common init C code
+6cffdaae416b75abd58a219edace946cf5c688eb Announce boot-wrapper mode / exception level
+51d2ac7770baffb21bedced244fda270e14b3f2e aarch64: move the bulk of EL3 initialization to C
+82955a1557f2ac1d54e9be7b5515abe720bc8d4f aarch32: move the bulk of Secure PL1 initialization to C
+f2d5c4c49231454e1720b960bbbfaa8499ba3483 Announce locations of memory objects
+791dbdeceefa486a716e5cf001043e192e11ede7 Rework bootmethod initialization
+3e1da317d949690e29feb19ea6e34885d0d5b8e8 Unify start_el3 & start_no_el3
 
---===============8634837185430317064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-544ff9e801e1-189a03276a00.txt
-
-1cc2dcbdfb2d90c43a75115e3f1c24c6962633dd pinctrl: renesas: Initial R8A779F0 PFC support
-fe45682d8e04995bb8b2927ee95cdc27c9b3b97e pinctrl: renesas: r8a779f0: Add SCIF pins, groups, and functions
-299935082beddab498e5b82a9bcd577e34db890e pinctrl: renesas: r8a779f0: Add I2C pins, groups, and functions
-d6f9244449d906b63af277a8ebf20c24d75a040e pinctrl: renesas: r8a779f0: Add HSCIF pins, groups, and functions
-95e7ad74938ace3e1ef9d838ae17d9c24a88c1a2 pinctrl: renesas: r8a779f0: Add INTC-EX pins, groups, and function
-4b8d337ef275bee981a418241dca82c97273b398 pinctrl: renesas: r8a779f0: Add MMC pins, groups, and function
-3d369c013276e83b89aa5473bfa07d4387033938 pinctrl: renesas: r8a779f0: Add MSIOF pins, groups, and functions
-785b832fdaff3f56316024c22e6a76e20d85c784 pinctrl: renesas: r8a779f0: Add PCIe pins, groups, and function
-dda41ea2e7ef7edc2e4c36d17ec8f024a6ac4fe1 pinctrl: renesas: r8a779f0: Add QSPI pins, groups, and functions
-05dc268786aa2397330b17a342aaa15e6eb6a9de pinctrl: renesas: r8a779f0: Add Ethernet pins, groups, and functions
-ca4969235d9d004412854ec41f6e6d59a5106353 arm64: dts: renesas: r8a779f0: Add pinctrl device node
-189a03276a00473535b88a6b46e5bf27333ce24f arm64: dts: renesas: spider: Complete SCIF3 description
-
---===============8634837185430317064==--
+--===============7402450908681806502==--
