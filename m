@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6378928371245964592=="
+Content-Type: multipart/mixed; boundary="===============0616826722001394946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 25 Jan 2022 05:36:12 -0000
-Message-Id: <164308897234.1711.5785757229553722330@gitolite.kernel.org>
+Date: Tue, 25 Jan 2022 05:36:23 -0000
+Message-Id: <164308898373.1807.9033231085121086709@gitolite.kernel.org>
 
---===============6378928371245964592==
+--===============0616826722001394946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,62 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 142c779d05d1fef75134c3cb63f52ccbc96d9e1f
-    new: 4db09593af0b0b4d7d4805ebb3273df51d7cc30d
-    log: revlist-142c779d05d1-4db09593af0b.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 12b628b6e0916c14c13f0d80a3197ee215deacec
+    new: 6aecc1f3eae6b3f9d2e623f27d129a52161f377f
+    log: revlist-12b628b6e091-6aecc1f3eae6.txt
 
---===============6378928371245964592==
+--===============0616826722001394946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1643088965 -0500
+pusher 75C5DE3D 1643088976 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1643088964-fe660d228c3ffd7a87016ecf642aed842e705e7a
+nonce 1643088976-1d1063e147f4a0dfa2b405282f963571fd504274
 
-142c779d05d1fef75134c3cb63f52ccbc96d9e1f 4db09593af0b0b4d7d4805ebb3273df51d7cc30d refs/heads/fixes
+12b628b6e0916c14c13f0d80a3197ee215deacec 6aecc1f3eae6b3f9d2e623f27d129a52161f377f refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHvjEUACgkQ7ulgGnXF
-3j2EzhAAruplgx/yQ8mFrAbD/CK6P9aom1SC2gDjjZ7deHj/r5L3G/q2wNzNIWDI
-XEIECGkZBB/yo8IpAuZ1NUdcfITWoIzdKsEaOJOMf3HweYYQrentXdZDibdyFKh3
-VI0+PKwijgYMMHyYFfRYLlSTZR+HHIdS7pCUBbDOU+Suzg8uZMJ/0hTijjWmFzfe
-tYDhKnLSJ+GQfqOtkjmoZz1Vc8f44X9zVpCnxe6bsPhEl8SJHZhuoHe3Fml3JgFT
-GyqONg6/CfFtMnsWci5irvq3a3h0YefaRfaz4VoZ/vTGqyssAalxeG+6/MiETxDO
-U9J4k1x8wo3k1trAf/nPItdAbWhEpc5F36Z3Gj0KyAfowEsea62kmj94MVPslPkb
-EJMMyWrYroZMMG4gc4KbB3/WmDjdLO9T9DaNWTvdOsnHw9PlDHhzqf4Tq2rveM9L
-KcvqvWyX3H5d1GowWeBbSMFx0siOO2zy21NkmAB7MSX7pfKgI2bQnZnMCKJAHKZ2
-T0qg64F7gMpDMejbb3jSQgeZVI3cYqrUOkWKkqiuh2sHWE9IwaUecMX6MZpUGbkM
-yTA3zLaXmY2ewFD8wnq/Cv1XBgSPKYGlJWmg0vxE2rQtYuwncxsvUMzNKC6Lgt9l
-jI7xmVNKLjk/5qQV/CMqOlAVDG+zwLI1rYBTflkHmzQUIMHLG8I=
-=D1N5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmHvjFAACgkQ7ulgGnXF
+3j1uTxAAiSExAHdBtASt4BNFR4psLWDIRBHxozr98eLCZdDB6nSgeo7lUZEOzcAO
+YuJITnfaWOSAJ0tAkjIvLnRyX8l9N4z7R75abVHIwaslax+fC0xhdFe2w53AL5j7
+l9Ag+gkKJo+sHd8mA/ymhuZcvMt7X4xM9daB442oOmBABdKR4VT7Kq4wQp3TmKaL
+Q6jfSaYb4tlFyX6cXoolyUeuD93fw87uP0LwgRuGk1cJCitVZSxQfrk6f/MF748s
+TEQ4HEJaKKvK5aSyrtxlh9i7O4kYiQEegzufqsEU8C7H4yyUelojnaFMMEYS5zHZ
+DwUeKUnLWs8NXw0CRhHvJIBepppOlaU0oaqXG30XNjT6ZZY5ZHqbue3R71JBoCzT
+6zC3a9UbPl5+vSMLce9/NmQqIT8c3PRpWTuJZfa5rw6rynBlCOQL1CUpZztGbVW6
+wiCtkUqvJYcpJigHZEVvsHH2I45Tveqkg6islJ9DW2PQK0WlYeF/Du4g57K461nP
+kS3SFhcF2Mj7t5T4lnwqtKjKn1tkIuoN0fuOPRTh1f/EytoGm+QU7Cbk3aOGdk1l
+27r7Op82RbeZT/7YnHkYL/26sXXwlyJP1hLUDzwvYYlJH2PUMplEPmY7qSzsWJlF
+HwFUQS82ZBuBEH33L26VxMMG8cs1cSbPq7xFn9/LfvwRIpmutSY=
+=6HCp
 -----END PGP SIGNATURE-----
 
---===============6378928371245964592==
+--===============0616826722001394946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-142c779d05d1-4db09593af0b.txt
+Content-Disposition: attachment; filename=revlist-12b628b6e091-6aecc1f3eae6.txt
 
+c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
 eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
 448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
 1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
@@ -1064,21 +1080,5 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-61263b3a11a2594b4e898f166c31162236182b5c scsi: elx: efct: Don't use GFP_KERNEL under spin lock
-a861790afaa8b6369eee8a88c5d5d73f5799c0c6 scsi: target: iscsi: Make sure the np under each tpg is unique
-a65b32748f4566f986ba2495a8236c141fa42a26 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
-b70a99fd13282d7885f69bf1372e28b7506a1613 scsi: qedf: Add stag_work to all the vports
-5239ab63f17cee643bd4bf6addfedebaa7d4f41e scsi: qedf: Fix refcount issue when LOGO is received during TMF
-64fd4af6274eb0f49d29772c228fffcf6bde1635 scsi: qedf: Change context reset messages to ratelimited
-62afb379a0fee7e9c2f9f68e1abeb85ceddf51b9 scsi: pm8001: Fix bogus FW crash for maxcpus=1
-8c9db6679be4348b8aae108e11d4be2f83976e30 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-847f9ea4c5186fdb7b84297e3eeed9e340e83fce scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-fb8d5ea8fd907faa3751a9e5df5d01b5f3803e35 scsi: 3w-sas: Remove useless DMA-32 fallback configuration
-8001fa240fc0af1c3538a9fbaccd2c345ff9ab62 scsi: hisi_sas: Remove useless DMA-32 fallback configuration
-012d98dae453821ac31da25595ffa26d4ad49c8c scsi: bfa: Remove useless DMA-32 fallback configuration
-ad6c8a426446873febc98140d81d5353f8c0825b scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
-c99b9b2301492b665b6e51ba6c06ec362eddcd10 scsi: ufs: Treat link loss as fatal error
-efd7bb1d75cf6808d67c869a29245c88a990bdea scsi: 53c700: Remove redundant assignment to pointer SCp
-4db09593af0b0b4d7d4805ebb3273df51d7cc30d scsi: myrs: Fix crash in error case
 
---===============6378928371245964592==--
+--===============0616826722001394946==--
