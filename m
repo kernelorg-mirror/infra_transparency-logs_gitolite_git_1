@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 25 Jan 2022 19:52:11 -0000
-Message-Id: <164314033120.31124.13919816593230606740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Tue, 25 Jan 2022 19:52:42 -0000
+Message-Id: <164314036282.31439.1794202893331283369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: a1ce76e89907a69713f729ff21db1efa00f3bb47
+  - ref: refs/heads/x86/sgx
+    old: 5a364550040d7f6138b88d0e09403d32954a8796
+    new: cef44e972665ec5de675afbda12c997206edfb6c
     log: |
-         06608bc2d9e6f5a24baf51951e9e2fff3ec78e54 gpio: crystalcove: Set IRQ domain bus token to DOMAIN_BUS_WIRED
-         c84eab5850d11bea546491bb1798039448971141 gpio: merrifield: check the return value of devm_kstrdup()
-         f473bdccb8775e8935cc08ca9800cae5f700a9b5 gpio: altera-a10sr: Switch to use fwnode instead of of_node
-         b3376ed7d82f5937cecb17ff92d5d8dc0762e1c1 gpio: tegra: Get rid of duplicate of_node assignment
-         a1ce76e89907a69713f729ff21db1efa00f3bb47 gpio: tps68470: Allow building as module
+         cef44e972665ec5de675afbda12c997206edfb6c x86/sgx: Silence softlockup detection when releasing large enclaves
          
