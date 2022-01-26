@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2837915505036998238=="
+Content-Type: multipart/mixed; boundary="===============6368744328849646711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jan 2022 13:00:11 -0000
-Message-Id: <164320201117.4390.16757372533943961594@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 13:00:32 -0000
+Message-Id: <164320203294.4568.8344809020574500131@gitolite.kernel.org>
 
---===============2837915505036998238==
+--===============6368744328849646711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a102f07e4edf0f1cf06bf9825ab10e26a29dd945
-    new: 0bf6f14585c8ffbe9eb9a32d5133486bfdc38796
+    old: 0bf6f14585c8ffbe9eb9a32d5133486bfdc38796
+    new: 7efa98076b720c1f5b48c9295f79e4a9cabf7440
     log: |
-         03db9289b5ab59437e42a111a34545a7cedb5190 usb: cdnsp: fix cdnsp_decode_trb function to properly handle ret value
-         0bf6f14585c8ffbe9eb9a32d5133486bfdc38796 usb: cdnsp: remove not used temp_64 variables
+         7efa98076b720c1f5b48c9295f79e4a9cabf7440 dt-bindings: usb: add bindings for microchip mpfs musb
          
 
---===============2837915505036998238==
+--===============6368744328849646711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202008 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202031 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643202007-6615b83f9e12b534b4e9d2b02f0f0b1bea4c379c
+nonce 1643202030-574093bf23c806d5e48471bf983eebfe9265cc3b
 
-a102f07e4edf0f1cf06bf9825ab10e26a29dd945 0bf6f14585c8ffbe9eb9a32d5133486bfdc38796 refs/heads/usb-testing
+0bf6f14585c8ffbe9eb9a32d5133486bfdc38796 7efa98076b720c1f5b48c9295f79e4a9cabf7440 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRdgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mzoQALtqAhGl4oKhpXsqnvt1
-4EpYES5kmbPdNJ2BVGrHN7DyhlG3nlvJsQs5y4V0uXr4SX0+DzOSBKKpbi6rT9+I
-a0o2gSszXlZNxXDzr8oh7aZgNOO1q1VWyir6MtNlYox0NsS+8x5/Dce68LXzVSzV
-nex55Q7DVRxq2mQNvmfZHVaHuJnKhlkIzMSN1T5mEN/Q2My4SScTAm1PmpBpfTdG
-Vd9vcXmGuSRA3D72J+d7Yr+F8J/sJ06NKNR/8jXbnGjiZiNj68BLnx/4iQdhWz1C
-SgucYBgsbpzQGMVgdEZJbM9/SZyJmmYBdPKPI/o33nJMUr3pMw4dgl3UJi3QsOqx
-T/6P7rRAsWJrgw/WLds8RB8wwMHQM6V3MkXFSa/zZQcJB+f7LPznjnA91JKfMkRo
-STJjiEUgLjvEauQzFBqnsuuMMn/zFd+NYsgAeuyN2gpsFaRNRPtrh8s282bkcBBk
-Keglk7PCyt/oJtzroPW9zZYTpyfxoT+ITB1Y95oJjEg0r05HM1vba7VhPLw8Zoei
-73uq370BCdrIp/q2tua/Hzw426WUT110MVRizxLUuXXZpzliDHa3NMmHpDLOSH4H
-Ig2t6uWcvhF0n5Sk1Fz3PtkHnQKu09ukLpJFM6w8CZb967oaHG+Fq8i2QXQeSepc
-E0vT0R5b2cMWxqVLtZFGmZ3v
-=zppn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRe8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHoQAL0V/B8zDyhGbeZEdxJ1
+YzJ0mgYN/lC4hiDBMYOqD9zzVQgMBDzF/o3a6X3U3K9iKLZlByKgMaKj9lFG0VjW
+b23u1P5Rxtzv0G4/m/RHnc4OBSsWiCH8K5GfDg2osINvC5z1XMdfJndJyG5G19Br
+nNtL+1Jx98uBg0fr3eCoh07W/8rs8SY5KNTe/yu82tVWAloIlY18ObY7ckbi+7Qi
+7n8Ihsrdw3w56p4oKm+ZdDO6yBopxvHtymybVmJvSjWbm70eeSm/ucb9lVPAjDyy
+dRvTUPUyuWFxQ+DUkI6ha+WFh0WW9j31krCIPH3/grHQ3Kn0iUWxfTrH6kmrTrE1
+CtXqOE3YJ6QtGbyPF3XeGgYJPko/x92JF5hOmQPVafnuhgJRyWsY8QS1v2pI0Qhz
+mEUqnkTZF6F0Fom4GLwIyMDkizj3FmpSegkY9FunRBmw9nzbcj3fQsy+rIofbjCW
+OO7m2ltmJ+6s8tO50C3WBnKV/T8xaX71YtkEypmpCleKEZA6Iszn49iVJRdbdWXZ
+zpBcL33zWDpYGqkJmUyAC4Jc/p4FgE91VMuNVs+dLnqnPpylWrGsEmpxrkLzq+M2
+weeyODwsEIxDvMrDL/9xsXVcdFjjmEvb/zd19kB6h2HvBbZKAscrM4G9hDVuT1F8
+Lp2HCvZWmXy67L3RTQ5hqaXP
+=sdIo
 -----END PGP SIGNATURE-----
 
---===============2837915505036998238==--
+--===============6368744328849646711==--
