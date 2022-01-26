@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7057969790142202862=="
+Content-Type: multipart/mixed; boundary="===============5949173496005608138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jan 2022 12:49:52 -0000
-Message-Id: <164320139272.27601.6930482355601709197@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 12:50:32 -0000
+Message-Id: <164320143242.29316.12487647804352627235@gitolite.kernel.org>
 
---===============7057969790142202862==
+--===============5949173496005608138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 9df478463d9feb90dae24f183383961cf123a0ec
-    new: ac55d163855924aa5af9f1560977da8f346963c8
+  - ref: refs/heads/usb-testing
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 75c19f487fcd59b28e83e64a6563fc4c69ad377d
     log: |
-         9678f3361afc27a3124cd2824aec0227739986fb usb: dwc3: xilinx: Skip resets and USB3 register settings for USB2.0 mode
-         2cc9b1c93b1c4caa2d971856c0780fb5f7d04692 usb: dwc3: xilinx: Fix error handling when getting USB3 PHY
-         26d81b29249273d39e753cc0c7b0ca62c6a6283f usb: gadget: at91_udc: fix incorrect print type
-         ac55d163855924aa5af9f1560977da8f346963c8 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+         75c19f487fcd59b28e83e64a6563fc4c69ad377d usb: host: ehci-sched: Use struct_size() in kzalloc()
          
 
---===============7057969790142202862==
+--===============5949173496005608138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643201388 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643201429 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643201387-5761625f0994f27dd42e32cb88ac9334ba2a9d8e
+nonce 1643201428-cd059b915c1ceb9e391cf456cd0a9011c9a13b86
 
-9df478463d9feb90dae24f183383961cf123a0ec ac55d163855924aa5af9f1560977da8f346963c8 refs/heads/usb-linus
+e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 75c19f487fcd59b28e83e64a6563fc4c69ad377d refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxQ2wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d5sP+wcNchxWH61vgIEJHPo7
-x15hGw9qnFPwNqInJYJcZoaoTI/OX3B2NeZhgNaNAtBF+36DmYarXu39V8LaYeuJ
-c+mLAXVWGo7Rf5Lzvxj3L6yjDiIWNxma9axIXfcEXgv+NG4TZtINcQnviaI1rRKu
-vTm9wJ1AZZy3oeaX0/MRWauZ2l8HcGNo7XcIXMw46T40mRhLtZD+tgsZ3fvv4Ljh
-/XZ2CCuPRbNkuSZoTFCLEayqCe5iaMEeuuCKJrlnP+5W5r2ZYgL9u6WRMw275+EZ
-MXCKPSu24f60bnsHsv3X1EQv1Hfl5j8wCbaGbYj1nnF94ZQ9OnyDI8DGwkJhdMGy
-/44gIEpwwZlDH5jQbq4C5FS9s0XVzb3IPSviXw0j+Ur/o1X4QVWxN0RRUi6mChVg
-rXu0GCn9A7gl02itkV1PQLzGuLnSFPQy/LvY1JulXdks3KzMbTKZgwnW4uC76qJJ
-O4dM43WyBWSxAPjrlrG+kFAIyfOblknsgTl4aOxbfcqzPUl2qQIZxRn47gtnT8Az
-kiGxELHixa6xsyfIFrXCkbZKhz3E3v2RIgNU5f2DaQ4KNHBSfyAPxhuHoQYGuuaL
-wx/NiXpAilHgUV3QjmeCrvtmdRqYePkWncfC1DCs+mfeQNiWln3GSMMoazpbh6rY
-0T4eU/xMfZ9g2D83SUP3Cl+/
-=RqWY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxQ5UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i3IP/0x4f5gugm0XqPaG+ZUw
+sO2r1bhT/3D9MOjpwDziHHh0sqYyDPaOqcLnYXsw2AXl7obiAhqXQve03go+F5AI
+jBikzXz97altVIxiZl+YCOxkOM8UMFVAxUhhNfmmeU9Va5z+mja01ZpF9fLhlcTS
+WCwQepqdqCozz8sKn5/pat1EvpyqshnW2BWOq+j0ZwACxx8YvuZb5wYnwghK03FL
+eYC7CAyMcCDTjJ23hgG7J7+jRSqB3MlMM/m3Gnrqr+gg2DuqKexChVs2OTxCVpd7
+URFiWfFezXvr+DAFHFn0jMEETvNT4xgYWL1raA7ay9DcfPolaq1Q9jkkn6dOLEtU
+M+/oYNBmi2zruBBjN3lOy9uGUqlqvB+zNm2h0ZSp1PuLQofwc3hGOBDIEx260Sbh
+8szVUZ3mgsxM7ARJj6s0oCrsoea9F3cwU7GIOWZuc9wcgWDs5ZlpKUJZtjJ0bI2h
+DkiwO1NQeVH4GNTSQPtKH/iv5VtvB5PvaUSJvqCb0CoS2XUDWRNFi6XNxjctrBlm
+hVFYEBAY51pmiSoNCjYubEyOt7qeBa3Pt1RjJH0jLpvg6snjHaEsN3hOTzRdCy79
+938UR4hTfdATYq6+O/JrJa9ort01YIygTrbRFrpSwziUhn6Z1yRqGqY/lsRVT+Cw
+dUV4yEVv3D+IO2v4ElPeStGj
+=vj9F
 -----END PGP SIGNATURE-----
 
---===============7057969790142202862==--
+--===============5949173496005608138==--
