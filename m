@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4674636085223844774=="
+Content-Type: multipart/mixed; boundary="===============1973042104711594055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 26 Jan 2022 14:07:17 -0000
-Message-Id: <164320603712.17401.3078337614549680656@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 14:07:27 -0000
+Message-Id: <164320604754.17557.15024136348794671020@gitolite.kernel.org>
 
---===============4674636085223844774==
+--===============1973042104711594055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 82762d2af31a60081162890983a83499c9c7dd74
-    new: dbaafd0f1651b35e07c20e33f8c3f133fc65705e
-    log: revlist-82762d2af31a-dbaafd0f1651.txt
+  - ref: refs/heads/objtool/core
+    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
+    new: fdb3522475518254171622dd93aedb9d4977b01b
+    log: revlist-87c87ecd00c5-fdb352247551.txt
 
---===============4674636085223844774==
+--===============1973042104711594055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82762d2af31a-dbaafd0f1651.txt
+Content-Disposition: attachment; filename=revlist-87c87ecd00c5-fdb352247551.txt
 
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
+e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
+8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
 b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
 dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
@@ -1042,13 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-d6e9aaf72304be2cac0a6c4c436feea5aebfa832 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
-abe8d3ce53c80147fd571018bf25b4a9226e72b0 sched/numa: initialize numa statistics when forking new task
-2a8c13f94d7d172482cbc0d1ce7680ea3b0e563d MAINTAINERS: add Suren as psi co-maintainer
-c20e40181c0dc7847e4ad65c030aa84b456a4d79 sched/core: Export pelt_thermal_tp
-6dd3d475cf576edd705885c66b6f1d638a6818f4 sched/sugov: Ignore 'busy' filter when rq is capped by uclamp_max
-a3ba254223c7d1726323dc5e27bf3a98f154017c sched/uclamp: Fix iowait boost escaping uclamp restriction
-de87f1a431bedb367fca11c444c49b776232a6a7 psi: Fix "defined but not used" warnings when CONFIG_PROC_FS=n
-dbaafd0f1651b35e07c20e33f8c3f133fc65705e psi: Fix "no previous prototype" warnings when CONFIG_CGROUPS=n
+fdb3522475518254171622dd93aedb9d4977b01b objtool: Ensure the pvname[] buffer is large enough
 
---===============4674636085223844774==--
+--===============1973042104711594055==--
