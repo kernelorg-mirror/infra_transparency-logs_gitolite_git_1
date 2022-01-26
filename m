@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 26 Jan 2022 03:31:20 -0000
-Message-Id: <164316788048.10650.17012224474902009533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Wed, 26 Jan 2022 04:06:10 -0000
+Message-Id: <164316997001.425.11157453048920675934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: fc1ca95585aa4f51e9776f01dffedc1591458c31
-    new: c446fdacb10dcb3b9a9ed3b91d91e72d71d94b03
+  - ref: refs/heads/ftrace/core
+    old: 35a5c4c37940dfae94b2ca78024b139e43ac7851
+    new: 7f11ba11db56694805bb06796c8d31e9c06c503f
     log: |
-         c446fdacb10dcb3b9a9ed3b91d91e72d71d94b03 bpf: fix register_btf_kfunc_id_set for !CONFIG_DEBUG_INFO_BTF
+         c784f20fee9df8abb6e25a26c1773b81489cb1cd tracing: Avoid -Warray-bounds warning for __rel_loc macro
+         7f11ba11db56694805bb06796c8d31e9c06c503f tracing/perf: Avoid -Warray-bounds warning for __rel_loc macro
          
