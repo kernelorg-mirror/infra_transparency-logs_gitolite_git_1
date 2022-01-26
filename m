@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6499344267849379132=="
+Content-Type: multipart/mixed; boundary="===============8996556897717908451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 26 Jan 2022 12:04:29 -0000
-Message-Id: <164319866945.31659.9143356176957964992@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 12:05:00 -0000
+Message-Id: <164319870056.31879.8733041209573847608@gitolite.kernel.org>
 
---===============6499344267849379132==
+--===============8996556897717908451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 6c73edb5d46abd65b8cd83ddf3b96d89a997cee3
-    new: 94106f6c21e58900badfeeef5acadf0d6cae7f68
+    old: 94106f6c21e58900badfeeef5acadf0d6cae7f68
+    new: f383b0770612838e78986231710c0a3afee4db42
     log: |
-         7eeec44d33f6be7caca4fe9ca4e653cf315a36c1 staging: mt7621-dts: fix formatting
-         cb3677bb17a8912953b813fb61fc7109e2972e7e staging: mt7621-dts: fix switch0@0 warnings
-         f4c1760f88a0b960288cc044ed6a21fef16500ef staging: mt7621-dts: use trgmii on gmac0 and enable flow control on port@6
-         0a93c0d75809582893e82039143591b9265b520e staging: mt7621-dts: fix pinctrl properties for ethernet
-         94106f6c21e58900badfeeef5acadf0d6cae7f68 staging: unisys: visorinput: Use struct_size() helper in kzalloc()
+         f383b0770612838e78986231710c0a3afee4db42 dt-bindings: reset: add dt binding header for Mediatek MT7621 resets
          
 
---===============6499344267849379132==
+--===============8996556897717908451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643198666 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643198698 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643198665-4a547427f0d74658060c25752851f6251e9a493a
+nonce 1643198697-faa032be0f46e6e5b240f4dafc93ba57c4e271f7
 
-6c73edb5d46abd65b8cd83ddf3b96d89a997cee3 94106f6c21e58900badfeeef5acadf0d6cae7f68 refs/heads/staging-testing
+94106f6c21e58900badfeeef5acadf0d6cae7f68 f383b0770612838e78986231710c0a3afee4db42 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxOMobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NnIQAJ3/TzeTIh1U/jcZEy7C
-af99yRZQoa2V6+dc+JLWgZooM6EXJp6iepRBfeTjaXWPO3YPC3TdQCCT90L5K0wY
-zoaj7RTg64ZF8EXldfbkE0b11zNoCWbiJje/7OvhFZw9X32mP/qgIIYu8F59alOq
-Yqaw9kLbYFdtxUC+woD9HCSDd2JVkvrpu8jc578Mg5scsGVesETrmkJVG+9uAMfy
-rHHyI8yn+1SUIf18OhfrkBzQhE/X7eDrDLqenmUuN7lsG73lHSOnlLMKrZlHRMID
-yuGssTbLNlWLtELtij/BpBoWONfwy4+lRckBPTnspXqMh7VjLqVD2ycjhC4PwsGE
-lFF47jG3CMnBbrxkyOv+Nxijld+jf70WFQX1A1AWK+ORgHp9v4Gps3RmPxbKU2yi
-UnPwLLSE9EVvMbM98Nz1MXql8nAJYj9vMrNxRwEfiBSVCf+GBWHZhNm8s3hs0uF+
-s70jztwPNsWfNjUm9aHk8IBSY1s+iyYJCwdPyg8os0tgmvyYxVTQuSui2dh3ZOaY
-mwh+wAeX0ls0QJ1sPmg+m9cb5LMM2gdiahBP7EYYN/UT4r1h+B1Ww3BhZVEBw8qo
-1/JTTTjxQCODezWOIZfgYOyTZiWFTLeCWhd+YNJzIRbwkROKjdv1wyHU0znY1Zjo
-b/xK8Iz1DAtWqZwklK3lfhGC
-=4HaR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxOOobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HEIQAMLLSHyvXHT0qZt2B1Ab
+EabaVGmVOiEM+eaKov5+WkkhkvUyRkmu5LN2BgnIxrkjNn2EoKMiJqpf4ubjRYbr
+FN5B4rmVBVJVxJof+SFqYMMrQqUexOSN/tGYXA3YWAyudbYaqBEnZEwNMW3mFqz2
+sK5ZQ+SNy5gAmLy5+q1hiIGZYH8x1y0nBOUBVlIXKL3PzRSkNPrqgqptagL8Unaw
+x8WblPoxHB7ddFUaBes/MQoIgGOqgHcgk/Wy7/v4ptujhI+z9o6vZKfrB7iZphje
+9Zzypgup12O+3+jUMBqrXrfp6MezsTwDQHblmBg0ko6rPuH5EPgQOonJcSGiFz4k
+dXd92pnW4OlxLw7LySKrShV3WWRPVjtqJxyAHqraQWlZree1MZ3azHT4QAPFS42B
+WJuQSfPudhwgnGez1kLUH/p7fihIiYbJowl3oRZ1WEPEUNmPA17JESWX4/4xHKxW
+tzyeQ8huxbCOGIy9KSzuDLT6B5IRYOrS1nz9VGx1VqEPxTsa8Xdvg8Ryy/8Y9Tp5
+Rt52IrsGOcz4cZKWY/yyQ1Y8mYy41lAY0vxpO+4lRcdgIr4kLx24IakqlkW3XHYy
+Q/NKHS1eC6N+ade1AEGiZRbVik1hkD2Ic3OG/LrgvO9iXNdLHccaZGYMOF6aY3on
+Z9TJd7f8pnliRJNT93umLdaM
+=A03w
 -----END PGP SIGNATURE-----
 
---===============6499344267849379132==--
+--===============8996556897717908451==--
