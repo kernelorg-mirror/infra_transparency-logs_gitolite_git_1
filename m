@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 26 Jan 2022 19:34:06 -0000
-Message-Id: <164322564666.6850.7666556513003418297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 26 Jan 2022 20:03:36 -0000
+Message-Id: <164322741652.25972.17518326543979202497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 08df49054f311ca04954cf24d1216d3b5ddfd0a6
-    new: d3b1161f29cf479b86d4c3c6f200a8eb27254877
+  - ref: refs/heads/dev
+    old: 5235d8dd28ee81ef1c3613027ff0b3ad8fa750b0
+    new: fa92d727f94486195e12dc782fec17d103072101
     log: |
-         d3b1161f29cf479b86d4c3c6f200a8eb27254877 selinux: declare name parameter of hash_eval const
+         fa92d727f94486195e12dc782fec17d103072101 srcutree: Use export for srcu_struct defined by DEFINE_STATIC_SRCU()
          
