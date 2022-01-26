@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7560913361389725201=="
+Content-Type: multipart/mixed; boundary="===============6499344267849379132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 26 Jan 2022 12:03:30 -0000
-Message-Id: <164319861021.31274.17932537629959636092@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 12:04:29 -0000
+Message-Id: <164319866945.31659.9143356176957964992@gitolite.kernel.org>
 
---===============7560913361389725201==
+--===============6499344267849379132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: ce514dadc61a53ea7a2f5bbd67d31c52654e19b8
-    new: 6c73edb5d46abd65b8cd83ddf3b96d89a997cee3
+    old: 6c73edb5d46abd65b8cd83ddf3b96d89a997cee3
+    new: 94106f6c21e58900badfeeef5acadf0d6cae7f68
     log: |
-         6c73edb5d46abd65b8cd83ddf3b96d89a997cee3 staging: pi433: add missing register contants
+         7eeec44d33f6be7caca4fe9ca4e653cf315a36c1 staging: mt7621-dts: fix formatting
+         cb3677bb17a8912953b813fb61fc7109e2972e7e staging: mt7621-dts: fix switch0@0 warnings
+         f4c1760f88a0b960288cc044ed6a21fef16500ef staging: mt7621-dts: use trgmii on gmac0 and enable flow control on port@6
+         0a93c0d75809582893e82039143591b9265b520e staging: mt7621-dts: fix pinctrl properties for ethernet
+         94106f6c21e58900badfeeef5acadf0d6cae7f68 staging: unisys: visorinput: Use struct_size() helper in kzalloc()
          
 
---===============7560913361389725201==
+--===============6499344267849379132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643198608 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643198666 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643198607-fd11b9eef8c92bc218c3b6754cba989c5cad4f90
+nonce 1643198665-4a547427f0d74658060c25752851f6251e9a493a
 
-ce514dadc61a53ea7a2f5bbd67d31c52654e19b8 6c73edb5d46abd65b8cd83ddf3b96d89a997cee3 refs/heads/staging-testing
+6c73edb5d46abd65b8cd83ddf3b96d89a997cee3 94106f6c21e58900badfeeef5acadf0d6cae7f68 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxOJAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+31kQAKjc9OWBXzJ7tfdt0k3c
-qYPi3E3LpNlkP0oBeW/AmMeBBuaJ1CpNG55LLHEQ1kIUnuvQcR8C4sO1xeX8Dsfq
-Hzdz+wjkX089Tky1pajOYkyb/taeI7T4wOrRywFlLVIuiD4Gg/RKfBy31mjwy8Vy
-QasvxvpwAdEBGcmbkju3rhTRuVPBEHseWUfjJ7XY0iP2CrCSjO+nagl/aed6HQ7P
-I4zVSZZqlphSaXoUAiGBwiiCAtl3U6ecAAgc2/UszT3BM5arH/e4tNmcVxkPS8HA
-XIqcJgJaDm8WAlFRWaozBLRcQ+64I82Sgnker0wHLsNg3ihHoxsmu2N6JriXyo+3
-GJUlZigMlnI1oBFBnlSZjG8Btdy2XSZfSP8y9ex5O9XbS9wsDGpgF9qrOpj77jts
-m0u1OCDSwy+ciQr1Ex4Q1uhX7CVJOxUwO8nfXHJ7A44bHdYpj01ZEG4966890M1Q
-bzFJP1wKwrxKM6DIYhvLJc9Uv3zkb1e6xfU3Be2Q2L+PMWpvjXPTMr/M8M43dvH1
-HZAhUjKN1jJ6KDQYXyQb57tb4KKKf3jSrp4HoHBtD1epTi4IrQPrj+FUsave41l7
-plHHhUk0w+BYVB+roqluz9gsEH/lE8cP6JvaCTPMjp8j1ZdCfzykMh9O7Ar5a0iZ
-gZvJxRfXzGHaa+yE2MHdnJ8X
-=Phth
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxOMobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NnIQAJ3/TzeTIh1U/jcZEy7C
+af99yRZQoa2V6+dc+JLWgZooM6EXJp6iepRBfeTjaXWPO3YPC3TdQCCT90L5K0wY
+zoaj7RTg64ZF8EXldfbkE0b11zNoCWbiJje/7OvhFZw9X32mP/qgIIYu8F59alOq
+Yqaw9kLbYFdtxUC+woD9HCSDd2JVkvrpu8jc578Mg5scsGVesETrmkJVG+9uAMfy
+rHHyI8yn+1SUIf18OhfrkBzQhE/X7eDrDLqenmUuN7lsG73lHSOnlLMKrZlHRMID
+yuGssTbLNlWLtELtij/BpBoWONfwy4+lRckBPTnspXqMh7VjLqVD2ycjhC4PwsGE
+lFF47jG3CMnBbrxkyOv+Nxijld+jf70WFQX1A1AWK+ORgHp9v4Gps3RmPxbKU2yi
+UnPwLLSE9EVvMbM98Nz1MXql8nAJYj9vMrNxRwEfiBSVCf+GBWHZhNm8s3hs0uF+
+s70jztwPNsWfNjUm9aHk8IBSY1s+iyYJCwdPyg8os0tgmvyYxVTQuSui2dh3ZOaY
+mwh+wAeX0ls0QJ1sPmg+m9cb5LMM2gdiahBP7EYYN/UT4r1h+B1Ww3BhZVEBw8qo
+1/JTTTjxQCODezWOIZfgYOyTZiWFTLeCWhd+YNJzIRbwkROKjdv1wyHU0znY1Zjo
+b/xK8Iz1DAtWqZwklK3lfhGC
+=4HaR
 -----END PGP SIGNATURE-----
 
---===============7560913361389725201==--
+--===============6499344267849379132==--
