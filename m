@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6368744328849646711=="
+Content-Type: multipart/mixed; boundary="===============4715592388294027513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jan 2022 13:00:32 -0000
-Message-Id: <164320203294.4568.8344809020574500131@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 13:03:21 -0000
+Message-Id: <164320220127.5508.17902902406764252681@gitolite.kernel.org>
 
---===============6368744328849646711==
+--===============4715592388294027513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 0bf6f14585c8ffbe9eb9a32d5133486bfdc38796
-    new: 7efa98076b720c1f5b48c9295f79e4a9cabf7440
+    old: 7efa98076b720c1f5b48c9295f79e4a9cabf7440
+    new: 5d0c4393b207660fb9d6b08caed03ac85435fcd9
     log: |
-         7efa98076b720c1f5b48c9295f79e4a9cabf7440 dt-bindings: usb: add bindings for microchip mpfs musb
+         8729a2a2b1d6f112d5b286ec7b255d229a0f6eec usb: host: xhci-plat: Remove useless DMA-32 fallback configuration
+         88476b26656e2dc359ae15d4a9f41ceddd0c7cb4 usb: gadget: f_phonet: Use struct_size() helper in kzalloc()
+         c89686118c786a523eee3ef68ed38330319626d8 usb: core: Bail out when port is stuck in reset loop
+         7643fd78e1467642757224bd9c39b4bce4422e50 usb: host: fotg210: Use struct_size() helper in kzalloc()
+         4213e92ef7ec24b52e34f8a869e4213abca3dc6e usb: gadget: f_fs: Use struct_size() and flex_array_size() helpers
+         5d0c4393b207660fb9d6b08caed03ac85435fcd9 USB: hcd-pci: Use PCI_STD_NUM_BARS when checking standard BARs
          
 
---===============6368744328849646711==
+--===============4715592388294027513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202031 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202196 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643202030-574093bf23c806d5e48471bf983eebfe9265cc3b
+nonce 1643202195-711ccb6cfdd7f691e1b1ce1040e9ce2f63d935c6
 
-0bf6f14585c8ffbe9eb9a32d5133486bfdc38796 7efa98076b720c1f5b48c9295f79e4a9cabf7440 refs/heads/usb-testing
+7efa98076b720c1f5b48c9295f79e4a9cabf7440 5d0c4393b207660fb9d6b08caed03ac85435fcd9 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRe8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHoQAL0V/B8zDyhGbeZEdxJ1
-YzJ0mgYN/lC4hiDBMYOqD9zzVQgMBDzF/o3a6X3U3K9iKLZlByKgMaKj9lFG0VjW
-b23u1P5Rxtzv0G4/m/RHnc4OBSsWiCH8K5GfDg2osINvC5z1XMdfJndJyG5G19Br
-nNtL+1Jx98uBg0fr3eCoh07W/8rs8SY5KNTe/yu82tVWAloIlY18ObY7ckbi+7Qi
-7n8Ihsrdw3w56p4oKm+ZdDO6yBopxvHtymybVmJvSjWbm70eeSm/ucb9lVPAjDyy
-dRvTUPUyuWFxQ+DUkI6ha+WFh0WW9j31krCIPH3/grHQ3Kn0iUWxfTrH6kmrTrE1
-CtXqOE3YJ6QtGbyPF3XeGgYJPko/x92JF5hOmQPVafnuhgJRyWsY8QS1v2pI0Qhz
-mEUqnkTZF6F0Fom4GLwIyMDkizj3FmpSegkY9FunRBmw9nzbcj3fQsy+rIofbjCW
-OO7m2ltmJ+6s8tO50C3WBnKV/T8xaX71YtkEypmpCleKEZA6Iszn49iVJRdbdWXZ
-zpBcL33zWDpYGqkJmUyAC4Jc/p4FgE91VMuNVs+dLnqnPpylWrGsEmpxrkLzq+M2
-weeyODwsEIxDvMrDL/9xsXVcdFjjmEvb/zd19kB6h2HvBbZKAscrM4G9hDVuT1F8
-Lp2HCvZWmXy67L3RTQ5hqaXP
-=sdIo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MCYQAKRSaIURXfGHIdxKJF4R
+2PFKNq0y32itP+Bdj5fLlMF2WSg2JFtrALkQozf0UFR3cqEBtuEZxI6zV4n8S7rq
+sAmic0Ryk/R8y5kgrgDahkg2i3UVR/38On2Az+I6Z8rgPjs4RTNbbRLmcp8ZE2e2
+oGJFch6573bdlrGWiDin/F1TfFFBsOynemBRLhsHwYegwYs5PA1ROr8HKulwbdgg
+70FUX7MFF5JDGgdhL6j/8uWLEjs0x7QR25PretAdmQUXjBspoYeUa8DKzyuBJTl1
+1sgJcVto8uZYM7Mp6U2feFAQHR+q2DTXvvUsLFXpnMrFz89P6jwNqSHvFiiZ38y3
+4m1TilPByJIe3oIIcbTUoftqUz9Fnhv9QZFDW2eJGPsmTXdE9uE1M/vbXZR/rkr1
+3u0Mvd5SA52ZMu4Js7V05YfDS/OqaX3CJF0DqK8KIJC4t7GWdsLrr3o3Fgle0/z2
+rQy+g2fpC0twttOfOzBlpSwFl9ScXJvRdQ5kZrd55PsuHwi8YKEbiPMEvPIpjuH6
+aUUU41rkyQRNSUcYk+W9wBbEk/E1aUWU6xVGWbWqsc8C1ivGLyhQkGeGaHbwiFdN
+qe9f7qk/dzwmgSjSn9fgTw2Z8YqyTRByUA0R2SuM+MpxLubkISecUaahra+LCWc/
+KUPBRywIZ3eNnLCNM93YHkou
+=Pf6c
 -----END PGP SIGNATURE-----
 
---===============6368744328849646711==--
+--===============4715592388294027513==--
