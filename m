@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 26 Jan 2022 20:06:20 -0000
-Message-Id: <164322758029.28288.684166578025496157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 Jan 2022 20:07:18 -0000
+Message-Id: <164322763856.28685.12811829204380314747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: d4b93220c5a7f7c745ba5b3705638763bf909f8f
-    new: 010b0e27f98442ad9366ecdcb09601f92334c293
+    old: c446fdacb10dcb3b9a9ed3b91d91e72d71d94b03
+    new: e5465a9027e9703d8f5ec9c0387e32fb3a02b58f
     log: |
-         010b0e27f98442ad9366ecdcb09601f92334c293 dbus: Remove 'at_console', add 'netdev' settings
+         e5465a9027e9703d8f5ec9c0387e32fb3a02b58f selftests/bpf: Fix a clang compilation error
          
