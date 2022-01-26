@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4569324830922674968=="
+Content-Type: multipart/mixed; boundary="===============6929254189253776324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 26 Jan 2022 17:24:16 -0000
-Message-Id: <164321785604.19480.15232518495120151164@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 17:27:35 -0000
+Message-Id: <164321805500.21961.12170701872170982434@gitolite.kernel.org>
 
---===============4569324830922674968==
+--===============6929254189253776324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,23 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: djwong
 changes:
-  - ref: refs/heads/iomap-for-next
-    old: 5ad448ce2976f829d95dcae5e6e91f6686b0e4de
+  - ref: refs/heads/whatamess
+    old: 6191cf3ad59fda5901160633fef8e41b064a5246
     new: ebb7fb1557b1d03b906b668aa2164b51e6b7d19a
-    log: revlist-5ad448ce2976-ebb7fb1557b1.txt
-  - ref: refs/heads/iomap-5.17-fixes
-    old: 0000000000000000000000000000000000000000
-    new: ebb7fb1557b1d03b906b668aa2164b51e6b7d19a
-  - ref: refs/tags/iomap-5.17-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: c3ad0ceb2c83217973845c33d258e21c5d26bc5e
+    log: revlist-6191cf3ad59f-ebb7fb1557b1.txt
 
---===============4569324830922674968==
+--===============6929254189253776324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ad448ce2976-ebb7fb1557b1.txt
+Content-Disposition: attachment; filename=revlist-6191cf3ad59f-ebb7fb1557b1.txt
 
+fcfb894d5952786db3b2b2b9cd3a95cdcedb6ff0 net: bridge: fix net device refcount tracking issue in error path
+7b9b1d449a7cef675d6926c4538edee8e601d823 net/smc: fix possible NULL deref in smc_pnet_add_eth()
+4e5bd03ae34652cd932ab4c91c71c511793df75c net: bonding: fix bond_xmit_broadcast return value error bug
+b6c55b162bcee62c43c18e59f38a4590be543032 ACPI: scan: Change acpi_scan_init() return value type to void
+681e7187aef46f8d4e0fd0ddd2f888e3e5533cb2 ACPI: scan: Simplify initialization of power and sleep buttons
+c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
@@ -92,7 +92,6 @@ ce37ab3eb2490aba60ab1a622a4c6c6ee9a7cc66 perf stat: Correct first_shadow_cpu to 
 6d18804b963b78dcd53851f11e9080408b3d85c2 perf cpumap: Give CPUs their own type
 0ce05781f4905fcfbbb489519e36be71c7b0bbcc perf tools: Fix SMT fallback with large core counts
 6dd8646939a770e4ec0220c1c19d6af25c5877b7 perf tools: Probe non-deprecated sysfs path 1st
-4a9bca86806fa6fc4fbccf050c1bd36a4778948a xfs: fix online fsck handling of v5 feature bits on secondary supers
 f56ef30a31d388663e78b9be687d67748c9b7297 perf expr: Add debug logging for literals
 c0dd94558d0e473aa92254e1c48a47900c911e69 perf pmu-events: Don't lower case MetricExpr
 7e7b69654724c72bd3219b71f58937845dca0b2b Merge tag 'dma-mapping-5.17' of git://git.infradead.org/users/hch/dma-mapping
@@ -623,9 +622,6 @@ e6a2e5116e07ce5acc8698785c29e9e47f010fd5 block: Remove unnecessary variable assi
 850fd2abbe02eb2b52cbb1550adbcc89b36d65de block: cleanup q->srcu
 5765cee119bf5a36c94d20eceb37c445508934be net: sfp: fix high power modules without diagnostic monitoring
 ebf8b135c04ae5481fc053ecb9fad66b26fd1112 Merge branches 'acpi-x86', 'acpi-tables', 'acpi-soc' and 'acpi-pcc'
-9dec0368b9640c09ef5af48214e097245e57a204 xfs: remove the XFS_IOC_FSSETDM definitions
-4d1b97f9ce7c0d2af2bb85b12d48e6902172a28e xfs: kill the XFS_IOC_{ALLOC,FREE}SP* ioctls
-b3bb9413e717b44e4aea833d07f14e90fb91cf97 xfs: remove the XFS_IOC_{ALLOC,FREE}SP* definitions
 a21864486f7e220bd5938c6fb637613d9635739a KVM: x86/pmu: Fix available_event_types check for REF_CPU_CYCLES event
 ee3a5f9e3d9bf94159f3cc80da542fbe83502dd8 KVM: x86: Do runtime CPUID update before updating vcpu->arch.cpuid_entries
 e3daa2607b1f4bb1d09a5a8ad89ad9f7327a2e63 Merge branch 'acpi-pfrut'
@@ -698,7 +694,6 @@ a025df02ce424fa77f6bc6aa195db21677e11274 ALSA: hda: cs35l41: Make use of the hel
 fd9f4e62a39f09a7c014d7415c2b9d1390aa0504 block: assign bi_bdev for cloned bios in blk_rq_prep_clone
 2836615aa22de55b8fca5e32fe1b27a67cda625e netns: add schedule point in ops_exit_list()
 35140d399db2b67153fc53b51a97ddb8ba3b5956 script/sorttable: Fix some initialization problems
-a8e422af696133003903e440b87f10a8248051b8 xfs: remove unused xfs_ioctl32.h declarations
 9c494ca4d3a535f9ca11ad6af1813983c1c6cbdd x86/gpu: Reserve stolen memory for first integrated Intel GPU
 e4e2787bef7e643511cf0f352deb6bd16e7fa9b4 smb3: add new defines from protocol specification
 2fd5dcb1c8ef96c9f0fa8bda53ca480524b80ae7 ksmbd: smbd: fix missing client's memory region invalidation
@@ -812,7 +807,6 @@ fa68118144c63e292628945c5b8feb16b84fea7d kvm: selftests: sync uapi/linux/kvm.h w
 fc839c6d33c8828514f595822f457e51328507e5 riscv: bpf: Fix eBPF's exception tables
 b4966a7dc0725b2baa12b0aeb1489d52568a2aad clk: mediatek: relicense mt7986 clock driver to GPL-2.0
 73031f761cb7c2397d73957d14d041c31fe58c34 io-wq: delete dead lock shuffling code
-6191cf3ad59fda5901160633fef8e41b064a5246 xfs: flush inodegc workqueue tasks before cancel
 db1503d355a79d1d4255a9996f20e72848b74a56 riscv: Get rid of MAXPHYSMEM configs
 f7ae02333d13f598da6ff6b94cf643255707f752 riscv: Move KASAN mapping next to the kernel mapping
 2efad17e5794f4223bbeff1b2c568e3afd9a8c22 riscv: Split early kasan mapping to prepare sv48 introduction
@@ -1057,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 ebb7fb1557b1d03b906b668aa2164b51e6b7d19a xfs, iomap: limit individual ioend chain lengths in writeback
 
---===============4569324830922674968==--
+--===============6929254189253776324==--
