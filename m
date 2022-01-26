@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 26 Jan 2022 14:40:24 -0000
-Message-Id: <164320802466.7180.9584140908839965121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 26 Jan 2022 14:46:20 -0000
+Message-Id: <164320838016.10559.13311356461292655998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: bec81e0e6285c9eae1cc4fb05fba481969cd1d2c
-    new: 59868668c0c92ae0b1e1d48a3df4f16a28a2ef04
+  - ref: refs/heads/experimental
+    old: 412c8f908132a45e7e096f6e8bac57bf58772d78
+    new: 14f10c2681dd9b2d6080ce9a088aed8725953984
     log: |
-         59868668c0c92ae0b1e1d48a3df4f16a28a2ef04 tpm: xen-tpmfront: Use struct_size() helper
+         096417ed4cae6b0895ab2eb38664b29969347741 erofs-utils: fsck: never follow exist symlinks when overwriting
+         14f10c2681dd9b2d6080ce9a088aed8725953984 erofs-utils: fsck: don't set attributes when fscking only
          
