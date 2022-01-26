@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6454285153733483894=="
+Content-Type: multipart/mixed; boundary="===============3460983841699556291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jan 2022 13:03:42 -0000
-Message-Id: <164320222228.5705.16751055141283845014@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 13:05:56 -0000
+Message-Id: <164320235612.7860.14967312554799912651@gitolite.kernel.org>
 
---===============6454285153733483894==
+--===============3460983841699556291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5d0c4393b207660fb9d6b08caed03ac85435fcd9
-    new: e62667f82aa6b14faa6abfe395b7351f63b8db8f
+    old: e62667f82aa6b14faa6abfe395b7351f63b8db8f
+    new: 89ada0fe669a7abf8777b793b874202a0767a24f
     log: |
-         e62667f82aa6b14faa6abfe395b7351f63b8db8f usb: xhci-mtk: Use struct_size() helper in create_sch_ep()
+         89ada0fe669a7abf8777b793b874202a0767a24f usb: gadget: f_mass_storage: Make CD-ROM emulation work with Mac OS-X
          
 
---===============6454285153733483894==
+--===============3460983841699556291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202220 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202353 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643202219-480be805ee230099ceb31bf7ed4c85d892c002f5
+nonce 1643202353-0b68409baac3252d2f5ece460c693a95fd2416d5
 
-5d0c4393b207660fb9d6b08caed03ac85435fcd9 e62667f82aa6b14faa6abfe395b7351f63b8db8f refs/heads/usb-testing
+e62667f82aa6b14faa6abfe395b7351f63b8db8f 89ada0fe669a7abf8777b793b874202a0767a24f refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2xAP/0W4SWh70ddyOjNjlywp
-l6DDjIGp1Bri6YKWEFHbzRAHE1PSp9rwFsYH3QjUfqaK3HpETvV1KHidQ/YZjh0T
-ZMnjb8UuH71nhRESx9+ZkeXWJBHpD/WPl5Fhfx0iYhvU282k12lmVsB3VpOkeVzf
-1xwWoPygDxToyEYS1+GzTrshK4rC3Eow0YA7RhOYr99Tm/9th0id4YcXhBVbb37K
-0p6Nyk5jNT2M1CLXA+dRUcXBibrZYx91SNLXwcgE8mhz6iHTkaferWCmBGR5Km9o
-wL/N+YOAjRCyoRIIxqiDOkLcM/4jjigDvpLNyFDpn5M6WmvftW5YgYWaR2tcrTTN
-Ei2F1LD31iZ4Nlc5Ee8YxV9HZuXV6KkhtCBck0FyAnYuuXWcZ100rYP8AKkAqxhE
-KO0KNO3xLocszKzxQnkViP5nkZPC7IgKxqPsfb17Bl8o2wmd6iHCE4pHSYEmPj2g
-T/lgCXm9glIFGUYSI7L6ccxO3uYHLAcUG0uSOmKAtbvK9Cj6VZvg1k+Epe5OlNs2
-TC1R8ARBtFyRQhlqWyucxN5s29CkbusAhs03p8MP4ZNl/QW0wK2lrY5qcHgiVn68
-iIb36TsGQHvlVRfFEk9dRoancixozo7mVEXeboYzZdzyUPsxhxU4aPWNJBawa2gt
-etDn6MDgLx5FybBo7JQ5NNkx
-=/K7K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxRzEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tyUP/3zvJV5BTQ1/FKqpeTpr
+CQfZmWZm2h8gagwnMyy7J7XWJvcEB2Zz1Naa1F/bwg0PKuttEydOAFTQAtBb9mDQ
+iKBp+R62P4bxqKhJ8quvRbu08DNkNnNGpKAO1Sd0lELAxQ4P2edUYHnZoI7bxFuQ
+m+AozHTrjDa6AOfCWxnih5R93+fgnQD7B6Sj13kEJeKqScoHHMPDhsNcPSI+DmDg
+l2K9ZZ3oDrUuTe9wJDPDKpJVEj68ePvJdgLSBMqS58MDTZLvaogZrwrsAY5rh+V5
+ULCOT1S+a9NSqb58Z8v76PtYCvYxauY5TVt2xzCXLHVg207oN8nT9hJ7uqI7zkJX
+B7b/Eg7IZ+m64DKEwiNDgWwCRrLXefXlB0B+bIOObNN1sf5mCk4ZIhtKmcoFtHAn
+K6JQ7T7GPaS3W7SvdvycmihEgcBrCdtkaZlV4zcFM+78PWKARQwbnhWx1KzThua0
+bAKR/43rk56pJeOlEV+mxmQmbCT27sa5FBNuFNUqr+JfTyM/YgHzil13BQ3IGcVx
+sLclqechegPcXQgEvwJU9KCx0ETOSaFowAQCeKIEQgcgl2Bt+wKfdx7vA8PhRnGQ
+USP7RF1pvjg/+xy9byXTRiIwKqpEVykxOncwHQ3U0LZTA/it0sNTSL02g725ThkO
+cNQk0qdTL3MlaTmXkDsxUfR5
+=BpoY
 -----END PGP SIGNATURE-----
 
---===============6454285153733483894==--
+--===============3460983841699556291==--
