@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4875539605367156065=="
+Content-Type: multipart/mixed; boundary="===============8206506671286606674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 26 Jan 2022 13:53:38 -0000
-Message-Id: <164320521850.8326.2869774904563241625@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 13:54:31 -0000
+Message-Id: <164320527140.8690.14521557495886117385@gitolite.kernel.org>
 
---===============4875539605367156065==
+--===============8206506671286606674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 037b91ec7729524107982e36ec4b40f9b174f7a2
-    new: 2dd8a74fddd21b95dcc60a2d3c9eaec993419d69
+  - ref: refs/heads/tty-testing
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 93cf538e23d024ef19cb6de531c5490576c23ccb
     log: |
-         62f676ff7898f6c1bd26ce014564773a3dc00601 serial: pl011: Fix incorrect rs485 RTS polarity on set_mctrl
-         2dd8a74fddd21b95dcc60a2d3c9eaec993419d69 serial: core: Initialize rs485 RTS polarity already on probe
+         021d517296f30f5ca077eef9b976dff04841bc9b tty: serial: max3100: Remove redundant 'flush_workqueue()' calls
+         7a637784d517863e20d0556037aa4758a706a79f serial: imx: reduce RX interrupt frequency
+         93cf538e23d024ef19cb6de531c5490576c23ccb tty: serial: fsl_lpuart: count tty buffer overruns
          
 
---===============4875539605367156065==
+--===============8206506671286606674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643205215 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643205268 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643205214-60951243bc6ed1d8d26d3514e735ce129f09f562
+nonce 1643205267-caa97c8d25ae116c7f8056ca99fc12c9e2173992
 
-037b91ec7729524107982e36ec4b40f9b174f7a2 2dd8a74fddd21b95dcc60a2d3c9eaec993419d69 refs/heads/tty-linus
+e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 93cf538e23d024ef19cb6de531c5490576c23ccb refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxUl8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YQAQAJwGE3eiMUlYJD3/losa
-MJIalL/KdaC7zie5yDnmubX/x25VKytFFCNgz3FEdDRkMga6F5MpY8Pkdme4MyRL
-EUyr3wmbJfqcNp5Dp8Y89yEPIFnyOnJPqAJ28arALPuz5MUNM4C4FPu59rKXE2rf
-CQrbrba9Id+7yrBFdsk8nUCW55E1UHCo9W4A/6kOAnORNkg00+ojcXE4AWwcViGU
-014Ev0knEv6WsDTQ/ey9LrhD+jfC+lHYwBW/MWy51fvm1XkW6Rsbdgzg2BZLyzyb
-/iipZy67bY8ox9CapC5TyRUFX0gLdEOspkKrxuusHWpANRX+PfDtUYe6Avdh3Mwe
-4zh+1CKqxekI7tVlU2DA+olZNoxCk6Vq15h7+fKANFl47tYyBXFXDoaWTm95Zuzx
-ZlXcbHrr+t3xUhBxMe/OraFWbQMOp27FDpfz6Om/xoT9F7mFpRjoGG9RYvE+dk5G
-xEZ6ZS+3wZA/qAX1Trt0hE8zI345xey6JvgeORdX9+38E7zgVyOsBeVR/k5pwjrL
-otdppEAhBnLniImWyVe8dzKxhfRophlT9PYMkoX0ZxTWb8MI8+nYz4w6FpzR0V3o
-t6eKXtLqokxD0UzmPdVUUo3+c9fl/t4Kka4y4FX3vM/DqKrnjVqy+4eb0h4UdYG0
-PmOLkVK128k3B5ytzpqlj31c
-=iqB7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxUpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B34P/1AKx1T/4x5VT2BkkauT
+XWG5yFULrUDQig9CtiKPh39/S6eCn3ncUK8UNRAZZcREM2qI/E+9pSJfoqWRcKNq
+9/JOTtYkuC/3HefCMVz4rzEln9Akrjdk+RBF8katxNldy5sngXsasrIzuC/glF88
+cYZ9CbbYBVuuF5cxuVDchvRSmjh0UcMq2dFxTidk0Ii9r5Pf5p96214g2LA98SEZ
+QJTRneg562KLaLiIdENx7E2GaRS8IaIMtiWY2Hgn+OLUeQ9NRS6Dx+Wfs8Cn+1AV
+SdelecBx/garQvwLkLwr3TuQ3Q3kHNV//PRYs0/7Wx8aTPi9TbgCQ6WHVRhibcjR
+bdbc9iIhNJ9nbkfgrPLjoOT5bu82OY2G9KrtR9dmVqqA/6DkDgmP+LA61VHs1tyu
+4W2u8kL/+vQp4hN9XS2sb+vXf9ym+E3Y0EvlrsspdGvL+9UZaUn7l5e+LE3pTKlN
+QDhTa07Ar56AYsZjDAALGEogDDe2PcQOkEbmF89wL2K7PR3Ws+eHBIIrybSx9B3f
+awUP4AnaRnuw0BRFSnHIzVGVtD6hhGEFIom7ywzJ41BHJy94LB0iKuWBKFLPrdgb
+Ch+ybk22vg7TerHy5da20wffaSpYBoWiplkj1LoYOrtX6mxKw74bTMBfvKtiwV5P
+GjqxSjhImZO9+VlsYZonqLLs
+=AAHU
 -----END PGP SIGNATURE-----
 
---===============4875539605367156065==--
+--===============8206506671286606674==--
