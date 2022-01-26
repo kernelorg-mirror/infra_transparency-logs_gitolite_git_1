@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1810911593437103065=="
+Content-Type: multipart/mixed; boundary="===============1893918946765779054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 26 Jan 2022 13:11:38 -0000
-Message-Id: <164320269822.11269.8460931882141616851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 26 Jan 2022 13:15:58 -0000
+Message-Id: <164320295876.14121.14265457516221734914@gitolite.kernel.org>
 
---===============1810911593437103065==
+--===============1893918946765779054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: ac55d163855924aa5af9f1560977da8f346963c8
-    new: 79aa3e19fe8f5be30e846df8a436bfe306e8b1a6
+  - ref: refs/heads/char-misc-next
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 515a2f507491e7c3818e74ef4f4e088c1fecb190
     log: |
-         79aa3e19fe8f5be30e846df8a436bfe306e8b1a6 usb: cdnsp: Fix segmentation fault in cdns_lost_power function
+         515a2f507491e7c3818e74ef4f4e088c1fecb190 mei: me: Use dma_set_mask_and_coherent() and simplify code
          
 
---===============1810911593437103065==
+--===============1893918946765779054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202696 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643202695-04c8dd79777bd15c15eca4d41b8d4ee6d15b3ab7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643202958 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1643202956-ad7151bb23525f85e3f8dfcf7d37b6ce00398009
 
-ac55d163855924aa5af9f1560977da8f346963c8 79aa3e19fe8f5be30e846df8a436bfe306e8b1a6 refs/heads/usb-linus
+e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 515a2f507491e7c3818e74ef4f4e088c1fecb190 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxSIgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L6cQAJY1v9PsSowt00PbDVeD
-zITqSdbb0ktfnLjYXb5W+wh+rPClQMX2tWY9vPK7ft3x33/Mb1W7yRIO5veNJgZ+
-jhs3vA01IxDETA0bqoJi6Tt37YlqQA1aKBZdH4UJCuSDGFHDKhYbLKQX/pRfRBUU
-/IowATb3Fu/Wk6XawC84c+955zkjrGL56YfoDZx74Q95B0Wp+HmPEbIqf4EVYg4V
-QPe+izpIsZXxsMxrwyjHYohBCXOG6zmRf8FmlLDfEVCYb/6ItIYP4tnMsV8KB4vR
-eT9+6Zi96MjFObhUjKsOnzQ20RCt/5RCTQ4K6io0BQ4qHjEEQefkufGp4IzsMB/J
-vOLbp8fxoESYJ895n33s7UgxHi5rDX0P0bBzXpEw1jOildTPLlBhWBzneFZbasJe
-Lhhfuq5Gq8DMMBRQlNfYEdC0oFfKLkB+QjXwOfQSdqZoZsS4NlIi49b0DqdaEd6s
-M1c4mDSOInX4o1US0g0IqzsGpZ/yZJxhHcUbdYgO3sCF77aJWsxQ7m4brsIPKimc
-0mmDDyRPW9DK6p6xhDLhzwzHlOYH1wIIiPERCcxby1ggesDioNMmQTH1hU0V5pXE
-Z5IPzepaL1r2GcQANyIjDHuYiadAtXEysVDDlg598gIDjrknuFEZk8SAthkqPcOf
-0wG6fAuaqAoAbyf8x6oj0LK9
-=ksja
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxSY4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZvgQAMWkxBsfgNnKoA3jIPGw
+1EpRTmNwlD7Xpz/sPKnwEEYNDpuMIMXv7fdplIrWhxQXGD+tGoXgU2kfJjRK5+pm
+il2ksbcGudgujf8EW7fBcXZE1rrFYtaC64dNjcMcSkD7ru8nHP6AjP2q3lV1kkI5
+jKNf0DWXlm0YmVyjH+KVGId8veu3Vhwof8p7Emsu4kbDt50rvuVDvgKPVS0kzQlN
+hDpieGKWTzkcGKC3OpceMe2jketz65/Kys3IB8Fxe9usPVV86S5nkJiNmwcQ77xZ
+vXqNngkJclIcBzK+TyBnKTyGhMVsFVVM0BZ8i35Vk5w5h/aQ/RW0A86kSQ+KvW/w
+YeKHXHUy6B2d18yCgYa2VNNaH6K0O0CbC+ms4cviLMPi9UVnQxIuB3BJcvIN0S5v
+pJVVqtR83dSVfE4B/D1KSv5BXPLOfpw8+H8OOK6w0/LPFAtr694h6XJit7/GvuRX
+TvFjMnuMXxkP2z7xHU5UkrwywgDY+fVu82jPIUb3GtLQCUVevQfezm+YJAoi5oXN
+89w7l5UE/YA+UrLsfjXcq5HuF8he9BK/vixqbGqftDM7DPEpbbe/gpPOuDGq/6SA
+jom8NKBHcQX8aHjdtJi3LYfcO2kKyE389aAnLFo2LaMgmh0q7fJP/M3M5Umv0ts4
+9WZx0e+MXKGN3r2ov07gAQDY
+=SqTj
 -----END PGP SIGNATURE-----
 
---===============1810911593437103065==--
+--===============1893918946765779054==--
