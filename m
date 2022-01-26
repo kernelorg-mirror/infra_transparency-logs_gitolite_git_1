@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 26 Jan 2022 20:12:53 -0000
-Message-Id: <164322797396.31993.6195151124051046094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 26 Jan 2022 20:15:49 -0000
+Message-Id: <164322814986.2036.17768217844852240712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: 5ae85fa636569a3bc011859729f79024ddd2a692
-    new: 2b3d4a6a924e0aa82654d3b96fb134085af7a98a
+  - ref: refs/heads/next
+    old: d3b1161f29cf479b86d4c3c6f200a8eb27254877
+    new: 9e2fe574c02bde46307255467a5e4291f65227fe
     log: |
-         04525c29025b075f4c1d1220a9705cd4925f4189 t/io_uring: link with libaio when necessary
-         2b3d4a6a924e0aa82654d3b96fb134085af7a98a fio: use LDFLAGS when linking dynamic engines
+         9e2fe574c02bde46307255467a5e4291f65227fe selinux: enclose macro arguments in parenthesis
          
