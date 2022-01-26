@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5932551184927685838=="
+Content-Type: multipart/mixed; boundary="===============0249857931361582913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 26 Jan 2022 13:51:09 -0000
-Message-Id: <164320506910.5985.2434715715955464843@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 13:52:28 -0000
+Message-Id: <164320514836.7855.7994328755672702966@gitolite.kernel.org>
 
---===============5932551184927685838==
+--===============0249857931361582913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: f23653fe64479d96910bfda2b700b1af17c991ac
-    new: d06b1cf28297e27127d3da54753a3a01a2fa2f28
+    old: d06b1cf28297e27127d3da54753a3a01a2fa2f28
+    new: 8838b2af23caf1ff0610caef2795d6668a013b2d
     log: |
-         db7f19c0aa0abcb751ff0ed694a071363f702b1d tty: rpmsg: Fix race condition releasing tty port
-         d06b1cf28297e27127d3da54753a3a01a2fa2f28 serial: 8250: of: Fix mapped region size when using reg-offset property
+         8838b2af23caf1ff0610caef2795d6668a013b2d tty: n_gsm: fix SW flow control encoding/handling
          
 
---===============5932551184927685838==
+--===============0249857931361582913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643205066 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643205145 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643205066-69418057d47d8ac180b598c175c2bbe48854151d
+nonce 1643205144-addbffcf123cde3643f2fc26eae01855ab8e8a78
 
-f23653fe64479d96910bfda2b700b1af17c991ac d06b1cf28297e27127d3da54753a3a01a2fa2f28 refs/heads/tty-linus
+d06b1cf28297e27127d3da54753a3a01a2fa2f28 8838b2af23caf1ff0610caef2795d6668a013b2d refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxUcsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XGoQAKYmXvIPWetQTl6+uoO7
-t79Y4vJL7TPiC8c7jkuD2zxlGdNHqASC3VX849BmVLSZ4JD1dL2gDNcPh1jWrUKX
-c8RatGKAqG1ovlaYtUaybOuqqyJiZurF2d95OuMLnAWat2r/+1fPuf4jO33G8pyJ
-AyBODfbKRssVgVsahpfg1knfpQ/QeXr9c+DncnPI8+OKq0F34PH7XfdE+aWR9XyP
-eLcT2DEkscpwYnczE17OhWm8Pisue1Hp0iPKeDXOoVsAXhuI6HrLNhUdgtnl6OA0
-bc0xq+vH0JlkkhQmMJZdVnU6hmBR99FY9nk6+niGnT1ZiAEPe5qXnT8gwoXmOggu
-b2TD7yjRlFe+1SjFs0smP9Vg7xvnnQh1VPwR1jzf8TUJppGHFBnyoKWbXWzjtYh2
-UDnixAUG1l5AAIjKimoDrl+pkeXkE579CbF5lW/c0K9dv7AQPx6Bp+JtGiwKbVeA
-RsBvkUTQojkR83UaBaD4VMr8CMMqabGjToKb5TAKibNGhyn7pr+QRQqXJlXEhmGb
-k+d6khqVzOMEAYJ+mMmjC33F1O8qS1ZwThLYkPSrcr2jmEpI2Vy0CzwyNWBvyoor
-2yTgky71gHhxsXnd32tj6KHqvE9AXYJghjAVts+tVSvT7Qnt06IgsYAdJXOPWhdI
-mOt4T1aIsrRIwZhA4SDHULQ7
-=BvNZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHxUhkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jbEP/1HSywrKqk7SF0L5uo1J
+W0E30RrvUA9g1rJHjGGUx9dHxKdKLfqS9mwB8C+K/WJiMbQJuAM9asbhfWUFhLfG
+RFuWRNcg6a34S9V7XvkivtIX1NzCPnSPqD0eRKMiBkpTLtXba1P+NbJfhhEFBWEs
+8Gb0AaFMvGxor2XpkdHzlBOFXkNQs7qTVaHhe01rLt9q9CWmCbMtMdQr3hqgXchV
+DBiZiAsyboBs78kE441ZdnCm50JkEz84nF4E9Qy6SDHh0LM/ir+1ss9zuktRHvle
+3UNKaDQZU1cJW8TD895SvTPSsxvPBmBMmgqETUNZ8Kfi9Jd8gm8oouJCf+PnuKzO
+tYlb5xE+rsi+28vOPi1dfIANCUk9mhKZkpn1Fj0/rZjSoq8GG/CCVWorEwnZCtmM
+TekV7jaMdQ1THVN5i1RvWLVtMiwHNgc2ORdZuKnQKfMrRm3877zNLiHoCZ4ze6eT
+r7k9G2gtbAuIb8WHEKzeB7vXAyIc2fI0wvfyiO1DdQS8JrQA5ggaB6WpaOOQQQIs
+4+2jDFfe6xDqrelHgxxQpnAxNeB7LalEyC6Pjz1GegVNZ6LP68DcbLMLMhRECasa
+Pm+wZmRQa3LFzIjKQVI+vV9cj5WS3T+K4H7yiTxLDOkWgCxVYuOvK5/UQOdNU8Q1
+TSkY9710ax3EhJKXnj263Lp2
+=tP0M
 -----END PGP SIGNATURE-----
 
---===============5932551184927685838==--
+--===============0249857931361582913==--
