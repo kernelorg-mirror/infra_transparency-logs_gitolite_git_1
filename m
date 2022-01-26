@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4112339476937114398=="
+Content-Type: multipart/mixed; boundary="===============3103411375209951436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 26 Jan 2022 13:19:41 -0000
-Message-Id: <164320318119.15536.7166547991697503995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 26 Jan 2022 13:28:30 -0000
+Message-Id: <164320371058.22490.8631058460977000236@gitolite.kernel.org>
 
---===============4112339476937114398==
+--===============3103411375209951436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: b95a3922f285b2e46114792966f83b376c7100ae
-    new: df8c9444a992d34d9ac0b3bbfbdc85c29e46e602
-    log: revlist-b95a3922f285-df8c9444a992.txt
+  - ref: refs/heads/locking/core
+    old: f16cc980d649e664b8f41e1bbaba50255d24e5d1
+    new: 1dc01abad6544cb9d884071b626b706e37aa9601
+    log: revlist-f16cc980d649-1dc01abad654.txt
 
---===============4112339476937114398==
+--===============3103411375209951436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b95a3922f285-df8c9444a992.txt
+Content-Disposition: attachment; filename=revlist-f16cc980d649-1dc01abad654.txt
 
+72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
+2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
+62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
+8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
+b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
+dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
+818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
+ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
+01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
+a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
+88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
+eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
+448a69d9f34d02920cffba741ca0a2e34a5bb316 perf cpumap: Remove map+index get_socket()
+1cdae3d6734779a637bc4e6ec24e7f615b4e71be perf cpumap: Remove map+index get_die()
+3f6233dc7798044637426ae1099d88aa375c467f perf cpumap: Remove map+index get_core()
 86d94048e234c94af88a528ab4d5ef16e8a89f8a perf cpumap: Remove map+index get_node()
 49679da388f4c45b0ca444dcf8bb5f59a02f8f4e perf cpumap: Add comments to aggr_cpu_id()
 63e0fa873d8820b996a01a83d832bf1b3969e9b6 perf cpumap: Remove unused cpu_map__socket()
@@ -1030,25 +1045,10 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-b9ec888f636ffefd176d61ccaf401c4085affd60 arm64: dts: imx8mm: Add the pcie phy support
-854a4766ac12f6e0ddca744c885da1925531bf01 arm64: dts: imx8mm: Add the pcie support
-422adab3cebbfcfbd4732488f7f6ed18238059b4 arm64: dts: imx8mm-evk: Add the pcie support on imx8mm evk board
-48e8cc5b38ed3d3f4a1f2ffcde128b2a9035eb21 soc: imx: Remove Layerscape check
-f3bfe2b6917b8768dac2edf86196f4bc05438aa6 arm64: dts: imx8mn: add GPC node
-7f557cb31b90993afe9bc2f2d5a408343d6758c1 arm64: dts: imx8mn: put USB controller into power-domains
-20ba6905f2838eadf3ccc4296e90491251141cfd arm64: dts: imx8mn: add DISP blk-ctrl
-92ffd78e565000b856465f1365bd2dcb9abe49e1 arm64: dts: imx8mn: Enable GPU
-5f97b8a6b41cccf11e38f7309ea26de18c3a170c arm64: dts: imx8mm-venice*: add PCIe support
-0c566618e27f17b5807086dba8c222ca8ca3dc1e arm64: dts: imx8mn-venice-gw7902: disable gpu
-339cc9b208bdd6ad781faeb7bb79f6e7282ba048 arm64: dts: imx8qm: Drop CPU 'arm,armv8' compatible
-273b94cc81d6700246c9da388747eef84da4c80b dt-bindings: arm: imx: add Protonic PRT8MM board compatible
-02b59c73792aa971604846169966f078cf37675e arm64: dts: imx: add Protonic PRT8MM board
-23dadaac5ba30aa292bba79f38fb9219c66a7034 arm64: dts: imx8mq: disable DDRC node by default
-5a03240e3e6ca46655f0bde56804dd126cec38c4 arm64: dts: mnt-reform2: add internal display support
-7fac376e7df4aefffdeae3c491d02c9c678f5e35 arm64: dts: mnt-reform2: correct i2c3 pad-ctrl
-993d66140f8d1c1853a3b58b77b43b681eb64dee ARM: dts: imx6qdl-udoo: Properly describe the SD card detect
-7e5898fea9a49ea7cad976b248559bac6a49da7b Merge branch 'imx/soc' into for-next
-30aeda1892ac8023e3ed445124b968095b5337e7 Merge branch 'imx/bindings' into for-next
-df8c9444a992d34d9ac0b3bbfbdc85c29e46e602 Merge branch 'imx/dt64' into for-next
+54dff232142e255ff644d73de1c8d80122f5ad7b MAINTAINERS: add myself as reviewer for atomics
+e204193b138af347fbbbe026e68cb3385112f387 lockdep: Use memset_startat() helper in reinit_class()
+61cc4534b6550997c97a03759ab46b29d44c0017 locking/lockdep: Avoid potential access of invalid memory in lock_class
+acb13ea0baf8db8d05a3910c06e997c90825faad asm-generic/bitops: Always inline all bit manipulation helpers
+1dc01abad6544cb9d884071b626b706e37aa9601 cpumask: Always inline helpers which use bit manipulation functions
 
---===============4112339476937114398==--
+--===============3103411375209951436==--
