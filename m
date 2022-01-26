@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0870299020837263588=="
+Content-Type: multipart/mixed; boundary="===============3013370637166230826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Wed, 26 Jan 2022 17:45:12 -0000
-Message-Id: <164321911204.1226.14541382803642918397@gitolite.kernel.org>
+Date: Wed, 26 Jan 2022 17:47:56 -0000
+Message-Id: <164321927651.2168.12531823407082941692@gitolite.kernel.org>
 
---===============0870299020837263588==
+--===============3013370637166230826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,122 +16,65 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e2e83a73d7ce66f62c7830a85619542ef59c90e4
-    new: 05a9e065059e566f218f8778c4d17ee75db56c55
-    log: revlist-e2e83a73d7ce-05a9e065059e.txt
-  - ref: refs/heads/next
-    old: e2e83a73d7ce66f62c7830a85619542ef59c90e4
-    new: 05a9e065059e566f218f8778c4d17ee75db56c55
-    log: revlist-e2e83a73d7ce-05a9e065059e.txt
   - ref: refs/heads/queue
-    old: e2e83a73d7ce66f62c7830a85619542ef59c90e4
-    new: 05a9e065059e566f218f8778c4d17ee75db56c55
-    log: revlist-e2e83a73d7ce-05a9e065059e.txt
-  - ref: refs/tags/for-linus
-    old: b2660bbb6e675373be20cd8998b3e1c3d285ab0e
-    new: 60958432e789d572afcf54e995955018dcf7f8f7
-    log: revlist-b2660bbb6e67-60958432e789.txt
+    old: 05a9e065059e566f218f8778c4d17ee75db56c55
+    new: b029c138e8f090f5cb9ba77ef20509f903ef0004
+    log: revlist-05a9e065059e-b029c138e8f0.txt
 
---===============0870299020837263588==
+--===============3013370637166230826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1643219109 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1643219274 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1643219109-e6748040906ae811b160fc45e4255e33ba0d6edc
+nonce 1643219274-52d8fa72d3b260acfe55d2452ae67511594e0fbe
 
-e2e83a73d7ce66f62c7830a85619542ef59c90e4 05a9e065059e566f218f8778c4d17ee75db56c55 refs/heads/master
-e2e83a73d7ce66f62c7830a85619542ef59c90e4 05a9e065059e566f218f8778c4d17ee75db56c55 refs/heads/next
-e2e83a73d7ce66f62c7830a85619542ef59c90e4 05a9e065059e566f218f8778c4d17ee75db56c55 refs/heads/queue
-b2660bbb6e675373be20cd8998b3e1c3d285ab0e 60958432e789d572afcf54e995955018dcf7f8f7 refs/tags/for-linus
+05a9e065059e566f218f8778c4d17ee75db56c55 b029c138e8f090f5cb9ba77ef20509f903ef0004 refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmHxiKUUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOgQAf8DbeFJLpPaWrYRBw7UfnwWLaXNKKv
-HnUjEF2tlt+hYQBfuJiUmj9lyapNldZbTODaBfidgtsk+T3QKt37eDC2i+RpXl/K
-ho7u8JR1ZnwUUMENOyiFAI1Gnd8lTBp8KQ+8na5m4KM0/nT9QezAU3Zikv0zJ4Zd
-rljpwQO6dVM/OQw0+TR5LYnh9iq8S12+d2mfesSfO6O3e1A2gSY+OrhjEzu+7/Vk
-z/UTHsvB9ya6axWA13p/KI5H8P9Xfrci4i54KWogT8NNOFgz4pbgPvziie8vRC6b
-WbJmjgoyDKlkQ+YD6bqkVVIJ+TsWFiW7Exr+1pGgd5DDxpCr/IR1JNesdg==
-=ZHhF
+iQFHBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmHxiUoUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroMpLgf4vZbARqyHO6PE9VB8z7//qqZWiiEw
+Aq1a6G+3caeKVfH+lTILeEtMMvwzJFDmJJlvge8ssBd3HXY2Ly3AQfehtVfSmx86
+YMuWKY3Pqs11yRkAoYcD16xSGHaBjVvXwYUUcS5URB6NLY0rEv2C2WrngawAEUNg
+dbrzXgv5LQxSKwTf4bmJhtDQAVQ8dTh4d+p9KLE1RwcbwgObVxUbE/QUY6zttiOh
+JFrO8/Df5BNfaa4eplERtM7HsP/Wd1kFuRsVzkIMM74KEItwCd4cgIP3XxXDkc3Q
+kUfAF+5Fl2blta2RcgrAf1vzLXWtYaYjRtIzUykYc2xGL5MBHRrB+Wrw
+=Zl+y
 -----END PGP SIGNATURE-----
 
---===============0870299020837263588==
+--===============3013370637166230826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2e83a73d7ce-05a9e065059e.txt
+Content-Disposition: attachment; filename=revlist-05a9e065059e-b029c138e8f0.txt
 
-94fea1d8a30eadc3ef07afc0f53dc06799bb300b KVM: VMX: Zero host's SYSENTER_ESP iff SYSENTER is NOT used
-adb759e599990416e42e659c024a654b76c84617 x86,kvm/xen: Remove superfluous .fixup usage
-1625566ec8fd3a42e305c5118df81fb113eb60a7 KVM: remove async parameter of hva_to_pfn_remapped()
-5c89be1dd5cfb697614bc13626ba3bd0781aa160 KVM: x86: Move CPUID.(EAX=0x12,ECX=1) mangling to __kvm_update_cpuid_runtime()
-b9bed78e2fa9571b7c983b20666efa0009030c71 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
-de1956f48543e90f94b1194395f33140898b39b2 KVM: selftests: Re-enable access_tracking_perf_test
-d081a343dd18f6733f2f4d9a2521db92de9f7b75 KVM/X86: Make kvm_vcpu_reload_apic_access_page() static
-519669cc58368385db93fd1560c09bf3334a6ecc KVM: VMX: Remove vmcs_config.order
-35fe7cfbab2e81f1afb23fc4212210b1de6d9633 KVM: LAPIC: Also cancel preemption timer during SET_LAPIC
-1ffce0924a8c86cf0590c039cd5f5c9375d32e9b KVM: x86/cpuid: Exclude unpermitted xfeatures sizes at KVM_GET_SUPPORTED_CPUID
-47c28d436f409f5b009dc82bd82d4971088aa391 KVM: x86: nSVM: skip eax alignment check for non-SVM instructions
-55467fcd55b89c622e62b4afe60ac0eb2fae91f2 KVM: SVM: Never reject emulation due to SMAP errata for !SEV guests
-31c25585695abdf03d6160aa6d829e855b256329 Revert "KVM: SVM: avoid infinite loop on NPF from bad address"
-0b0be065b7563ac708aaa9f69dd4941c80b3446d KVM: SVM: Don't intercept #GP for SEV guests
-c532f2903b69b775d27016511fbe29a14a098f95 KVM: SVM: Explicitly require DECODEASSISTS to enable SEV support
-4d31d9eff244e2631f028d658979ccbbdbcb423b KVM: x86: Pass emulation type to can_emulate_instruction()
-132627c64d94b1561ba5a444824e46c9f84c3d5b KVM: SVM: WARN if KVM attempts emulation on #UD or #GP for SEV guests
-04c40f344defdbd842d8a64fcfb47ef74b39ef4e KVM: SVM: Inject #UD on attempted emulation for SEV guest w/o insn buffer
-3280cc22aea74d78ebbea277ff8bc8d593582de3 KVM: SVM: Don't apply SEV+SMAP workaround on code fetch or PT access
-cdf85e0c5dc766fc7fc779466280e454a6d04f87 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
-38dfa8308cfc43f671a74c753302fec26808edc0 KVM: SVM: hyper-v: Enable Enlightened MSR-Bitmap support for real
-aa3b39f38c7a5dfdd10b3f61a0d055b85aa85451 KVM: SVM: drop unnecessary code in svm_hv_vmcb_dirty_nested_enlightenments()
-f7e570780efc5cec9b2ed1e0472a7da14e864fdb KVM: x86: Forcibly leave nested virt when SMM state is toggled
-033a3ea59a19df63edb4db6bfdbb357cd028258a KVM: x86: Check .flags in kvm_cpuid_check_equal() too
-4cf3d3ebe8794c449af3e0e8c1d790c97e461d20 KVM: selftests: Don't skip L2's VMCALL in SMM test for SVM guest
-d6e656cd266cdcc95abd372c7faef05bee271d1a KVM: nVMX: WARN on any attempt to allocate shadow VMCS for vmcs02
-811f95ff95270e6048197821434d9301e3d7f07c KVM: x86: Free kvm_cpuid_entry2 array on post-KVM_RUN KVM_SET_CPUID{,2}
-be4f3b3f82271c3193ce200a996dc70682c8e622 KVM: x86: Keep MSR_IA32_XSS unchanged for INIT
-4c282e51e4450b94680d6ca3b10f830483b1f243 KVM: x86: Update vCPU's runtime CPUID on write to MSR_IA32_XSS
-05a9e065059e566f218f8778c4d17ee75db56c55 KVM: x86: Sync the states size with the XCR0/IA32_XSS at, any time
+6e135aa68f39ff461cd7a4dfc4353a7fea66382e selftests: kvm: move vm_xsave_req_perm call to amx_test
+db9556a4eb6b43313cee57abcbbbad01f2708baa KVM: x86: add system attribute to retrieve full set of supported xsave states
+101f4ca3624e8ce7fa926561a43f5d1b6b539671 selftests: kvm: check dynamic bits against KVM_X86_XCOMP_GUEST_SUPP
+559263388dd800e1d39b014c01c665792172f290 KVM: x86/mmu: Use common TDP MMU zap helper for MMU notifier unmap hook
+61f9ffd19fd8597676bd2cb6708a98af7cc77751 KVM: x86/mmu: Move "invalid" check out of kvm_tdp_mmu_get_root()
+5570cfa32fb7d2e4e80d683bcc5a3598e26a3239 KVM: x86/mmu: Zap _all_ roots when unmapping gfn range in TDP MMU
+b4192f02aa077e85c4e6ee0e9669ef2a6a6a6cbd KVM: x86: Unexport __kvm_request_apicv_update()
+a8bd4b85577adab724b5d951d77bb42aaa1a2925 KVM: x86: Drop NULL check on kvm_x86_ops.check_apicv_inhibit_reasons
+1403fef5b5605c0a034787450e8d18fade50221c KVM: x86: Skip APICv update if APICv is disable at the module level
+900b06c40b7680986fa3d8a05118b39d94215830 KVM: x86/mmu: Remove unused "kvm" of kvm_mmu_unlink_parents()
+96ef6253bf5a1dcbdc3442fd3e4da22a4dd78188 KVM: x86/mmu: Remove unused "kvm" of __rmap_write_protect()
+6e70e89aaa23ac747a34f397e27a8d67cd9d3a07 KVM: x86/mmu: Remove unused "vcpu" of reset_{tdp,ept}_shadow_zero_bits_mask()
+91bc0d51a0b22236c66c58bacbca7a7065bbc958 KVM: x86/tdp_mmu: Remove unused "kvm" of kvm_tdp_mmu_get_root()
+4e982ad3e25f3538b60601c12b66e75bbea7729e KVM: x86/mmu_audit: Remove unused "level" of audit_spte_after_sync()
+92753101f79d1a99f7310ce835e4d9fa9fb30083 KVM: x86/svm: Remove unused "vcpu" of svm_check_exit_valid()
+cdad33e31f291f838e0f7b01abefe858ff358dd5 KVM: x86: Remove unused "vcpu" of kvm_after_interrupt()
+749b58ec8dca172f5fd8a9388f27d644a10c30b2 KVM: SVM: improve split between svm_prepare_guest_switch and sev_es_prepare_guest_switch
+7a475bed94b9c5eec10978b37978a0d43715deec KVM: x86/i8259: Remove unused "addr" of elcr_ioport_{read,write}()
+ca2dafee14c895d85234520b6fc68a7f3c491d7e KVM: x86/ioapic: Remove unused "addr" and "length" of ioapic_read_indirect()
+e9e3809d1e5837756f7c26947f962897796096a8 KVM: x86/emulate: Remove unused "ctxt" of setup_syscalls_segments()
+5b04dbe085c2c51290c3b2a61e4cfa5601c2c308 KVM: x86/emulate: Remove unused "tss_selector" of task_switch_{16, 32}()
+394a9e1cbacc527fc96d71fb2dd9a2baae745f7b KVM: x86: Remove unused "vcpu" of kvm_scale_tsc()
+b795a318407d07ff3c77d067c48fe143b11f4203 KVM: Remove unused "kvm" of kvm_make_vcpu_request()
+4b238327483230e5e7e7d0e1aaca4f3a7cb0f838 KVM: x86: Remove unused "flags" of kvm_pv_kick_cpu_op()
+b029c138e8f090f5cb9ba77ef20509f903ef0004 KVM: x86: skip host CPUID call for hypervisor leaves
 
---===============0870299020837263588==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2660bbb6e67-60958432e789.txt
-
-94fea1d8a30eadc3ef07afc0f53dc06799bb300b KVM: VMX: Zero host's SYSENTER_ESP iff SYSENTER is NOT used
-adb759e599990416e42e659c024a654b76c84617 x86,kvm/xen: Remove superfluous .fixup usage
-1625566ec8fd3a42e305c5118df81fb113eb60a7 KVM: remove async parameter of hva_to_pfn_remapped()
-5c89be1dd5cfb697614bc13626ba3bd0781aa160 KVM: x86: Move CPUID.(EAX=0x12,ECX=1) mangling to __kvm_update_cpuid_runtime()
-b9bed78e2fa9571b7c983b20666efa0009030c71 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
-de1956f48543e90f94b1194395f33140898b39b2 KVM: selftests: Re-enable access_tracking_perf_test
-d081a343dd18f6733f2f4d9a2521db92de9f7b75 KVM/X86: Make kvm_vcpu_reload_apic_access_page() static
-519669cc58368385db93fd1560c09bf3334a6ecc KVM: VMX: Remove vmcs_config.order
-35fe7cfbab2e81f1afb23fc4212210b1de6d9633 KVM: LAPIC: Also cancel preemption timer during SET_LAPIC
-1ffce0924a8c86cf0590c039cd5f5c9375d32e9b KVM: x86/cpuid: Exclude unpermitted xfeatures sizes at KVM_GET_SUPPORTED_CPUID
-47c28d436f409f5b009dc82bd82d4971088aa391 KVM: x86: nSVM: skip eax alignment check for non-SVM instructions
-55467fcd55b89c622e62b4afe60ac0eb2fae91f2 KVM: SVM: Never reject emulation due to SMAP errata for !SEV guests
-31c25585695abdf03d6160aa6d829e855b256329 Revert "KVM: SVM: avoid infinite loop on NPF from bad address"
-0b0be065b7563ac708aaa9f69dd4941c80b3446d KVM: SVM: Don't intercept #GP for SEV guests
-c532f2903b69b775d27016511fbe29a14a098f95 KVM: SVM: Explicitly require DECODEASSISTS to enable SEV support
-4d31d9eff244e2631f028d658979ccbbdbcb423b KVM: x86: Pass emulation type to can_emulate_instruction()
-132627c64d94b1561ba5a444824e46c9f84c3d5b KVM: SVM: WARN if KVM attempts emulation on #UD or #GP for SEV guests
-04c40f344defdbd842d8a64fcfb47ef74b39ef4e KVM: SVM: Inject #UD on attempted emulation for SEV guest w/o insn buffer
-3280cc22aea74d78ebbea277ff8bc8d593582de3 KVM: SVM: Don't apply SEV+SMAP workaround on code fetch or PT access
-cdf85e0c5dc766fc7fc779466280e454a6d04f87 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
-38dfa8308cfc43f671a74c753302fec26808edc0 KVM: SVM: hyper-v: Enable Enlightened MSR-Bitmap support for real
-aa3b39f38c7a5dfdd10b3f61a0d055b85aa85451 KVM: SVM: drop unnecessary code in svm_hv_vmcb_dirty_nested_enlightenments()
-f7e570780efc5cec9b2ed1e0472a7da14e864fdb KVM: x86: Forcibly leave nested virt when SMM state is toggled
-033a3ea59a19df63edb4db6bfdbb357cd028258a KVM: x86: Check .flags in kvm_cpuid_check_equal() too
-4cf3d3ebe8794c449af3e0e8c1d790c97e461d20 KVM: selftests: Don't skip L2's VMCALL in SMM test for SVM guest
-d6e656cd266cdcc95abd372c7faef05bee271d1a KVM: nVMX: WARN on any attempt to allocate shadow VMCS for vmcs02
-811f95ff95270e6048197821434d9301e3d7f07c KVM: x86: Free kvm_cpuid_entry2 array on post-KVM_RUN KVM_SET_CPUID{,2}
-be4f3b3f82271c3193ce200a996dc70682c8e622 KVM: x86: Keep MSR_IA32_XSS unchanged for INIT
-4c282e51e4450b94680d6ca3b10f830483b1f243 KVM: x86: Update vCPU's runtime CPUID on write to MSR_IA32_XSS
-05a9e065059e566f218f8778c4d17ee75db56c55 KVM: x86: Sync the states size with the XCR0/IA32_XSS at, any time
-
---===============0870299020837263588==--
+--===============3013370637166230826==--
