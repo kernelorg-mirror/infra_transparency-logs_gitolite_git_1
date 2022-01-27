@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 27 Jan 2022 09:42:50 -0000
-Message-Id: <164327657026.477.6940838017732091281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Thu, 27 Jan 2022 09:43:11 -0000
+Message-Id: <164327659138.698.13103570757159266409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: e29ed0d1051d9fc619f9268224ab436d34d1f8db
+  - ref: refs/heads/master
+    old: 5fa88349e313fd4d118fa1a6f56acac6458f7375
+    new: 84d0fe607009bc63103c7d51a1c5acd3c8420a86
     log: |
-         205e17766c78c4dd8dbd1e88ac723401ec3ce5ee memory: mtk-smi: Use ARRAY_SIZE to define MTK_SMI_CLK_NR_MAX
-         985ede63a045eabf3f9dbd7b52a10ae6f2272cb2 dt-bindings: memory: fsl: convert ifc binding to yaml schema
-         3e25f800afb82bd9e5f82458c0c71f1623b31ee5 memory: fsl_ifc: populate child devices without relying on simple-bus
-         e29ed0d1051d9fc619f9268224ab436d34d1f8db memory: brcmstb_dpfe: fix typo in a comment
+         e72e3c3d381228e8d18c114ef580a4ec2b7a0fa9 x86/sgx: Free backing memory after faulting the enclave page
+         c7ee53c37d2b18798341513030a39dabcca610ef x86/sgx: Add the missing "sgx:" prefix to ENCLS_WARN()
+         84d0fe607009bc63103c7d51a1c5acd3c8420a86 x86/sgx: Refine ksgxd section with more detail about the page reclaimer
          
-  - ref: refs/heads/for-v5.18/tegra
-    old: 0000000000000000000000000000000000000000
-    new: 0123af535b9c090cf05dcf500f9303bae5849691
