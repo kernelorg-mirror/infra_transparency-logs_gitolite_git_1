@@ -1,46 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============2578081617369125043=="
+Content-Type: multipart/mixed; boundary="===============8132966960859299808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 27 Jan 2022 14:11:20 -0000
-Message-Id: <164329268006.25574.9085775435024101830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 27 Jan 2022 14:15:46 -0000
+Message-Id: <164329294692.28485.15354584183889931914@gitolite.kernel.org>
 
---===============2578081617369125043==
+--===============8132966960859299808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 8f98ebf01cdab652e587d82c071c55c8c148b464
-    new: 468630091675964e6178462407108dafdda06d54
-    log: revlist-8f98ebf01cda-468630091675.txt
+  - ref: refs/heads/master
+    old: d9f393f468aa939b53cc81b43169953ce37d7cdb
+    new: e2cf07654efb0fd7bbcb475c6f74be7b5755a8fd
+    log: revlist-d9f393f468aa-e2cf07654efb.txt
 
---===============2578081617369125043==
+--===============8132966960859299808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f98ebf01cda-468630091675.txt
+Content-Disposition: attachment; filename=revlist-d9f393f468aa-e2cf07654efb.txt
 
-09b43c0d6763fd8fccdd6abc7c991b310776119e hwmon: (lm83) Convert to use with_info API
-37385bdc625a8d3851922294dad4fab42a6f7cca hwmon: (nct6775) add support for TSI temperature registers
-abecd7b16e680ad09a8ccf153e3329f864672616 ABI: hwmon: Document "label" sysfs attribute
-338d7dc18c32b0832cd6484d12caa478679e3bad hwmon: Add "label" attribute
-30db2c53f75ae9c017eccd9e764290c546b5e125 hwmon: (nct6775) add ASUS Pro B550M-C/PRIME B550M-A
-0d8969500f716f19543af108021798170fa55f90 hwmon: (nct6775) add PRIME B550-PLUS motherboard to whitelist
-55aca279df894f2799f71132b4943edca96f76e7 Documentation: admin-guide: Update i8k driver name
-29d22ebdd0492322302db7022242bb93d41b8e6a Documentation: admin-guide: Add Documentation for undocumented dell_smm_hwmon parameters
-55715f7c59d0fdda186982d81a40c090d08df614 Documentation: ABI: Add ABI file for legacy /proc/i8k interface
-13d6d4b4915f157842dc317863b993fe4829da0f hwmon: (asus_wmi_ec_sensors) Support T_Sensor on Prime X570-Pro
-f0af9895e769f9a7753ba5f9d1b9d379e55d385e hwmon: (asus_wmi_sensors) add ASUS ROG STRIX B450-F GAMING II
-69cab135e9c6d81e98cead13833883d90192992a hwmon: (pmbus) Remove trailing whitespaces from Kconfig file
-863941bdce1ab60a3b96f1c730a0c67e77d8b2d9 dt-bindings: hwmon: lm90: Drop Tegra specifics from example
-a52c230d543daed72629a1004ce01785ea22e148 hwmon: (powr1220) Cosmetic changes
-0cd6f502aabf5d07df4085e703f3a9db867dff2a hwmon: (powr1220) Upgrade driver to support hwmon info infrastructure
-468630091675964e6178462407108dafdda06d54 hwmon: (powr1220) Add support for Lattice's POWR1014 power manager IC
+bd5daba2d02479729526d35de85807aadf6fba20 mii: remove mii_lpa_to_linkmode_lpa_sgmii()
+f7bfd110f168bcd782e1c1125fa44ee251a170f9 nfc: use *_set_vendor_cmds() helpers
+b1755400b4be33dbd286272b153579631be2e2ca net: remove net_invalid_timestamp()
+08dfa5a19e1f4344ce5d3a5eed4c5529adafe0dc net: remove linkmode_change_bit()
+8b0fdcdc3a7d44aff907f0103f5ffb86b12bfe71 net: remove bond_slave_has_mac_rcu()
+560e08eda7969c3ef0639ab05f718be03a49d387 net: ax25: remove route refcount
+0ab1e6d9a453459ce5104a3412e9c193608971bd hsr: remove get_prp_lan_id()
+8b2d546e23bb3588f897089368b5f09e49f7762d ipv6: remove inet6_rsk() and tcp_twsk_ipv6only()
+1303f8f0df242ce8869375d82341f4302fe859be dccp: remove max48()
+cc81df835c25b108248bad24021a21e77cbb84ac udp: remove inner_udp_hdr()
+937fca918aacf54f1c9cb00d16d4e999a0569be0 udplite: remove udplite_csum_outgoing()
+d59a67f2f3f39012271ed3d11c338706a011c5c2 netlink: remove nl_set_extack_cookie_u32()
+98b608629746946ecc6cda70bf0fd047785a1197 net: sched: remove psched_tdiff_bounded()
+a459bc9a3a68f2975ee6661fb9c86126a5636b25 net: sched: remove qdisc_qlen_cpu()
+5e4eca5d929a168085140fe93b1e8cef841008d5 net: tipc: remove unused static inlines
+2fbafb828ec716ef35e877b17a927f3af70c91c6 Merge branch 'static-inlines'
+c217ab7a3961df568233faf485ac67aea1f8c5cb r8169: enable ASPM L1.2 if system vendor flags it as safe
+e2cf07654efb0fd7bbcb475c6f74be7b5755a8fd ptp: replace snprintf with sysfs_emit
 
---===============2578081617369125043==--
+--===============8132966960859299808==--
