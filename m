@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 27 Jan 2022 12:10:37 -0000
-Message-Id: <164328543793.12702.6059402394953737902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 27 Jan 2022 12:44:31 -0000
+Message-Id: <164328747144.690.5100395311971986819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 0280e3c58f92b2fe0e8fbbdf8d386449168de4a8
-    new: 626b2dda7651a7c766108db4cdc0825db05b980d
+  - ref: refs/heads/kvm-arm64/nv-5.17-WIP
+    old: 0383b62b0e596a12c757b1696337de796af3ac74
+    new: bb84ecbbb41cdd900d843271ffe26a6805dcc6db
     log: |
-         b7fb2dad571d1e21173c06cef0bced77b323990a rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
-         7a534ae89e34e9b51acb5a63dd0f88308178b46a rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
-         eee412e968f7b950564880bc6a7a9f00f49034da remoteproc: qcom: q6v5: fix service routines build errors
-         96b5590a486106206f2dab7b28555b5b1a8751c5 Merge tag 'rproc-v5.17-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-         626b2dda7651a7c766108db4cdc0825db05b980d Merge tag 'rpmsg-v5.17-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+         d76270126e7ec2ebd431f9171c070635d5888c5a fixup! KVM: arm64: nv: Support virtual EL2 exceptions
+         fce88f42a7f90c91afbf894d6007834adb8b5db0 fixup! KVM: arm64: nv: Handle trapped ERET from virtual EL2
+         9e67f1b82fa2f78e96dfa20cde4cc06082e2a6e3 fixup! KVM: arm64: nv: Support multiple nested Stage-2 mmu structures
+         bb84ecbbb41cdd900d843271ffe26a6805dcc6db fixup! KVM: arm64: nv: Reset VCPU to EL2 registers if VCPU nested virt is set
          
