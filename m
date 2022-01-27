@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zanussi/linux-trace
-Date: Thu, 27 Jan 2022 21:39:33 -0000
-Message-Id: <164331957329.26531.16647677661218422772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 27 Jan 2022 21:48:40 -0000
+Message-Id: <164332012040.32213.17541162929691095630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zanussi/linux-trace
-user: zanussi
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/ftrace/misc-bugfixes-v1
-    old: 0000000000000000000000000000000000000000
-    new: a291c672d6e1d7f557d9e15a5ac3f0b446e29dcd
+  - ref: refs/heads/master
+    old: 50fc9786b25cf0a39f22a599b05b29a32b76034d
+    new: b6ec79518ef0c84d1ed0f76b8af9592a75eb29b6
+    log: |
+         b6ec79518ef0c84d1ed0f76b8af9592a75eb29b6 bpf, x86: Remove unnecessary handling of BPF_SUB atomic op
+         
