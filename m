@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3490027516267760224=="
+Content-Type: multipart/mixed; boundary="===============2828132234783393979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 27 Jan 2022 18:30:15 -0000
-Message-Id: <164330821534.1711.223526089119631334@gitolite.kernel.org>
+Date: Thu, 27 Jan 2022 18:31:45 -0000
+Message-Id: <164330830524.2346.293628324893862205@gitolite.kernel.org>
 
---===============3490027516267760224==
+--===============2828132234783393979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: 38ff6817541925c0fab6df89c4231bca50a493b1
-    new: a0d4b7fcf6013e0bd319efa66b659c47a19737a7
-    log: revlist-38ff68175419-a0d4b7fcf601.txt
+  - ref: refs/heads/net-mlx4
+    old: 2f61353cd2f789a4229b6f5c1c24a40a613357bb
+    new: 36268983e90316b37000a005642af42234dabb36
+    log: revlist-2f61353cd2f7-36268983e903.txt
 
---===============3490027516267760224==
+--===============2828132234783393979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38ff68175419-a0d4b7fcf601.txt
+Content-Disposition: attachment; filename=revlist-2f61353cd2f7-36268983e903.txt
 
 8bdd24940b69c0018b64b496aa3b03a25f7295ca amd: declance: use eth_hw_addr_set()
 429c3be8a5e2695b5b92a6a12361eb89eb185495 sch_htb: Fail on unsupported parameters when offload is requested
@@ -43,6 +43,5 @@ d7e4f8545b497b3f5687e592f1c355cbaee64c8c pid: Introduce helper task_is_in_init_p
 42c66d16756402c4749d94f005a998a43e8fa338 connector/cn_proc: Use task_is_in_init_pid_ns()
 c7ec845f0eafc7c89efcd04a75a20d548e86beea Merge branch 'pid-introduce-helper-task_is_in_root_ns'
 36268983e90316b37000a005642af42234dabb36 Revert "ipv6: Honor all IPv6 PIO Valid Lifetime values"
-a0d4b7fcf6013e0bd319efa66b659c47a19737a7 mm: fix missed initialization for folio_batch::percpu_pvec_drained
 
---===============3490027516267760224==--
+--===============2828132234783393979==--
