@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3604324316781413993=="
+Content-Type: multipart/mixed; boundary="===============3920994539371681338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 27 Jan 2022 16:14:44 -0000
-Message-Id: <164330008438.6150.11251682346079165512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Thu, 27 Jan 2022 16:15:22 -0000
+Message-Id: <164330012292.7886.14488916559272740106@gitolite.kernel.org>
 
---===============3604324316781413993==
+--===============3920994539371681338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/master
-    old: da6b0d87475ec1070e683dec9544c9f3e9d5294d
-    new: afa5cb53b5ecbb299bfe42c0cb65c3d5cb291881
-    log: |
-         afa5cb53b5ecbb299bfe42c0cb65c3d5cb291881 5.16-stable patches
-         
+  - ref: refs/heads/cleanup
+    old: 728bb560cd273d06a13713b2a14b61f638a6bc66
+    new: 3bce381552a8185dfd2fe9212fea7e2a9ee94d0e
+    log: revlist-728bb560cd27-3bce381552a8.txt
 
---===============3604324316781413993==
+--===============3920994539371681338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-728bb560cd27-3bce381552a8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643300083 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1643300081-d33ab1777cc78c3d0f0b3a7a5de54e60d39918a2
+2dd9f3117d00b4d78e7a2e5309140b11f5f5ac07 aarch64: correct ZCR_EL3.LEN initialization
+2dc972a278766c44167f664eeca50e50dff8c511 aarch64: correct SCTLR_EL1_KERNEL for AA32 kernels
+286b8ecc86393c2619fc8e5792a4684c46fa461c Document entry requirements
+d3b1a15d18542b2086e72bfdc3fc43f454772a3b Add bit-field macros
+9e2e06be7c8685171ee5ad285eda15d764e688e9 aarch64: add system register accessors
+65113684081560a958726e392f400fdb23e2ccd6 aarch32: add coprocessor accessors
+df06a1f49df9f10542f308a2dba939ec16c0ec13 aarch64: add mov_64 macro
+10940859382ea345421d2d5c29a9475c8d7dc4b7 aarch64: initialize SCTLR_ELx for the boot-wrapper
+41498863d12f5eeff4b0ef16572fe7664ef8b713 Rework common init C code
+f11490d5d8d5a75d49d2b2f833bb6415f852bbfd Announce boot-wrapper mode / exception level
+352eeb8751ee3de8f76013f2e29a881917eec4cb aarch64: move the bulk of EL3 initialization to C
+56b11458240b1ca9195d003ade17c725f7929050 aarch32: move the bulk of Secure PL1 initialization to C
+1c6ac5e25eda9c2743c042c8eb7a576b686f25b2 Announce locations of memory objects
+368a5c273e5cabaacf5d7319e0e52c43ced8a282 Rework bootmethod initialization
+3bce381552a8185dfd2fe9212fea7e2a9ee94d0e Unify start_el3 & start_no_el3
 
-da6b0d87475ec1070e683dec9544c9f3e9d5294d afa5cb53b5ecbb299bfe42c0cb65c3d5cb291881 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHyxPMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MrAQAIm+Z/HuL6M1y/Yf1Nn/
-h2Empsp2FwcEMCVATLNUJPOgE5dBTXAgTZuqAKBggSqWMg3SeBD409sKgE6Wvb98
-AksefQ3CNAkQrOWMD3f4k8j/SF2GG0rE+yEBSOIs6kEJdwivNTaIEnr3w5mht7LZ
-u5R5BdSWipazkPkBK/mysXetT/I/HWlMkdGkDOW1F3TYC8lXxytJyDsZPQILevCd
-w8uk/wzOkUlhfHIHF5nd/mCLRj/uTNWKYUdt5TPEKY5XVNPJh1wmky5OMLAGJZPD
-KUyYjOg30fqjs3xMn5Q1XBvnZEDcy6PnaZE6Nu3YBrnKDe74q3ZEBLAm3ZGJo/ne
-zpP0w5h4L66X9KCbYGhP3o0Qp0X4REXP5WtVR06wdw1slSw67ObL0Xbnx0zT/0xF
-/soPHxhsS7zPPNWQzXnOqdgLRP73a86iyr59GSONnle9c0DVCXHy5h1IA/3sxAou
-QvUD7nJXGuFgNOktgW6zzEqnOf87hPaz9yH7AtzxDyv+wf16/Sd8IjtdUZvyhKfK
-sYtw6NjvhFYNe0HFADGfgQCb2FohMDuKw8FnkgyBpVOAzwHrNSQXOaqUbngBvJWT
-WC44QltqHcYfjssXo+soKhZhSmxzsliW7C0jCyCVeqnWfHYkhiM3F2cl2cxCS1sy
-ThBLaLplmUdohmr84h43iuRK
-=v7e+
------END PGP SIGNATURE-----
-
---===============3604324316781413993==--
+--===============3920994539371681338==--
