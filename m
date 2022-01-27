@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Jan 2022 18:20:27 -0000
-Message-Id: <164330762786.26220.6780194947107371949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 27 Jan 2022 18:20:52 -0000
+Message-Id: <164330765284.26399.8754439607578226393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: cdb5ed9796e70ca666863eff65cf4907da5fe13c
-    new: 46531a30364bd483bfa1b041c15d42a196e77e93
-    log: |
-         46531a30364bd483bfa1b041c15d42a196e77e93 cgroup/bpf: fast path skb BPF filtering
-         
+  - ref: refs/tags/net-5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c65fc461582186d1d3b7c72d68c1aaeb41a850c8
