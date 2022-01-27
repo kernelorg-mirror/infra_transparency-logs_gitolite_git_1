@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Thu, 27 Jan 2022 19:08:35 -0000
-Message-Id: <164331051544.26208.13315318071934271612@gitolite.kernel.org>
+Date: Thu, 27 Jan 2022 19:08:52 -0000
+Message-Id: <164331053276.26346.3510821000789117067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/coresight/linux
 user: mjp
 changes:
   - ref: refs/tags/trbe-cortex-a510-errata
-    old: fc4cdebaa350e4e926a1c9fc1d3c422864b7fcc8
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: ed78e63d042cd5a2a6d51257a0f3b410f4ee7443
