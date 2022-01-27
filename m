@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3454730748996046134=="
+Content-Type: multipart/mixed; boundary="===============0132227349971563244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 27 Jan 2022 16:09:45 -0000
-Message-Id: <164329978528.2870.5054093119589117000@gitolite.kernel.org>
+Date: Thu, 27 Jan 2022 16:09:56 -0000
+Message-Id: <164329979689.3006.16536082656187990412@gitolite.kernel.org>
 
---===============3454730748996046134==
+--===============0132227349971563244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: 25fd330370ac40653671f323acc7fb6db27ef6fe
+  - ref: refs/heads/fixes
+    old: 644106cdb89844be2496b21175b7c0c2e0fab381
     new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-25fd330370ac-e783362eb54c.txt
+    log: revlist-644106cdb898-e783362eb54c.txt
 
---===============3454730748996046134==
+--===============0132227349971563244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25fd330370ac-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-644106cdb898-e783362eb54c.txt
 
 c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
 9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 
---===============3454730748996046134==--
+--===============0132227349971563244==--
