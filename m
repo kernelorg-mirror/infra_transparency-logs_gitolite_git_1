@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 27 Jan 2022 20:00:00 -0000
-Message-Id: <164331360071.27006.9122470914439231297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 27 Jan 2022 20:05:28 -0000
+Message-Id: <164331392806.31691.13952791453367315533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: adce573b927adf827f2f8627f05c2ba90031ebc9
-    new: 0b94f2651f56b9e4aa5f012b0d7eb57308c773cf
-    log: |
-         0b94f2651f56b9e4aa5f012b0d7eb57308c773cf Bluetooth: hci_sync: Fix queuing commands when HCI_UNREGISTER is set
-         
+  - ref: refs/tags/arm64-mte-asymm-user-v1
+    old: 0000000000000000000000000000000000000000
+    new: 245ed6ec4946fec990c89ac27a68406a9a30dcef
