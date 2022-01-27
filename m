@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Jan 2022 02:48:37 -0000
-Message-Id: <164325171766.405.17181657921477225283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 27 Jan 2022 02:48:43 -0000
+Message-Id: <164325172321.526.11400804553735420160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 40cd4f1550d046ced42a27119ba28c8e966c55ef
-    new: 15f75fd31932b8340fffb68b45657a04dec003a0
+    old: 2f6513284347432d137ce54e30baae2aa5d5f55c
+    new: a92f7a6feeb3884c69c1c7c1f13bccecb2228ad0
     log: |
-         15f75fd31932b8340fffb68b45657a04dec003a0 net: ethernet: cortina: permit to set mac address in DT
+         a92f7a6feeb3884c69c1c7c1f13bccecb2228ad0 gve: Fix GFP flags when allocing pages
          
