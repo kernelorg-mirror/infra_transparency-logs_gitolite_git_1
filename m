@@ -1,65 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3111637166778314705=="
+Content-Type: multipart/mixed; boundary="===============0162037256449071894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 27 Jan 2022 17:36:27 -0000
-Message-Id: <164330498789.28727.10033411606861574132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 27 Jan 2022 17:36:41 -0000
+Message-Id: <164330500129.28876.6104708890956521679@gitolite.kernel.org>
 
---===============3111637166778314705==
+--===============0162037256449071894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: b53085937fad956d42cd60ea46cd0fd748aca8a8
-    new: 5bac1b9415425b27bcb65bdf07c7540a8808aa3b
-    log: |
-         1839c2195fa5073355f61d945843ceb77b5e4f83 drm/i915: Flush TLBs before releasing backing store
-         8f946503b24f9758cdc328204b5725ee2316cc42 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         9ea34d4a8e765929984de5d8de6df26344c53a42 NFSv4: Initialise connection to the server in nfs4_alloc_client()
-         45b22f2944ce82c9be8027104e477d8d1f16fcd1 KVM: nVMX: fix EPT permissions as reported in exit qualification
-         643db0c3b8085f093350c553fb349b9cb464f1b2 KVM: X86: MMU: Use the correct inherited permissions to get shadow page
-         ad99a0a9ef067d17f1dfc4fb576f0dc7b8171baa ARM: 8800/1: use choice for kernel unwinders
-         0f96b0cc2117799e0e04ed264dc665c7a57d6edc ion: Fix use after free during ION_IOC_ALLOC
-         5e41850242e79ab026f5e874e50ef62cee702d3f ion: Protect kref from userspace manipulation
-         ed3043d2d8cc2b5aec0ebc7509e00e7dba02e1b3 ion: Do not 'put' ION handle until after its final use
-         5bac1b9415425b27bcb65bdf07c7540a8808aa3b Linux 4.9.299-rc1
-         
+  - ref: refs/heads/master
+    old: 2f6513284347432d137ce54e30baae2aa5d5f55c
+    new: fd20d9738395cf8e27d0a17eba34169699fccdff
+    log: revlist-2f6513284347-fd20d9738395.txt
 
---===============3111637166778314705==
+--===============0162037256449071894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2f6513284347-fd20d9738395.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643304986 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643304982-659c4a810af4786a03a91c0b8d27705ddc4de8c9
+a92f7a6feeb3884c69c1c7c1f13bccecb2228ad0 gve: Fix GFP flags when allocing pages
+d7e4f8545b497b3f5687e592f1c355cbaee64c8c pid: Introduce helper task_is_in_init_pid_ns()
+42c66d16756402c4749d94f005a998a43e8fa338 connector/cn_proc: Use task_is_in_init_pid_ns()
+c7ec845f0eafc7c89efcd04a75a20d548e86beea Merge branch 'pid-introduce-helper-task_is_in_root_ns'
+36268983e90316b37000a005642af42234dabb36 Revert "ipv6: Honor all IPv6 PIO Valid Lifetime values"
+94c82de43e01ef5747a95e4a590880de863fe423 net: stmmac: configure PTP clock source prior to PTP initialization
+0735e639f129dff455aeb91da291f5c578cc33db net: stmmac: skip only stmmac_ptp_register when resume from suspend
+aa44323e1c4d2e896f5f271c202a13f4c45e5b40 Merge branch 'stmmac-ptp-fix'
+dcb2c5c6ca9b9177f04abaf76e5a983d177c9414 net: bridge: vlan: fix single net device option dumping
+9e0db41e7a0b6f1271cbcfb16dbf5b8641b4e440 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+492fefbaafb9d9f49d8d14614d57c956a81f2ea1 MAINTAINERS: add more files to eth PHY
+966f435add4821f53bf1c507dadc3ba9aaeb5f01 MAINTAINERS: add missing IPv4/IPv6 header paths
+153a0d187e767c68733b8e9f46218eb1f41ab902 ipv4: raw: lock the socket in raw_bind()
+970a5a3ea86da637471d3cd04d513a0755aba4bf ipv4: tcp: send zero IPID in SYNACK messages
+23f57406b82de51809d5812afd96f210f8b627f3 ipv4: avoid using shared IP generator for connected sockets
+3ede6465e756651ff5bd9b495d6cacd5ec8216e5 Merge branch 'ipv4-less-uses-of-shared-ip-generator'
+3c42b2019863b327caa233072c50739d4144dd16 ipv4: remove sparse error in ip_neigh_gw4()
+364df53c081d93fcfd6b91085ff2650c7f17b3c7 net: socket: rename SKB_DROP_REASON_SOCKET_FILTER
+fd20d9738395cf8e27d0a17eba34169699fccdff net: bridge: vlan: fix memory leak in __allowed_ingress
 
-b53085937fad956d42cd60ea46cd0fd748aca8a8 5bac1b9415425b27bcb65bdf07c7540a8808aa3b refs/heads/linux-4.9.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmHy2BobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C7IP/iqh1oxzKrFIvbaQHkvq
-YnM4V6XRWthGDiEuHDZ7qUo79JZpregAj2t28Y1TS7hze3VAj5erJNZpWLq6V+Fz
-QpAuTGaDZ2V1dT6VAra1WcrhS4Vl0wnw6yp12zAJ6zDeGq3PizOFxkDFUpYEGCsq
-xcN3Z6JyJ3EIwWGyejbZmmJFWbGKJn3q9x3TpEBx1qPZ+ExF1DICPm1hWFCyabL4
-tVrsHzshKucjfcdYVRxrQZOkNVCr/TyA3rCMXifFufw+VB0+WAgH5SB8CpmHuTOJ
-Zyrea1FVM9RDLjlg7WOSmd2cvTtmzJ7IHmOvtryuKNn8bx12h45NRJp/b3nGvHlR
-/SXMdqTHrUP17/vFq20VWGFGH27FUqrgc6kRsD/Ltxz/msyTgvb1ugkXVy1vSpgf
-2tmRtek7v7xIHkR3jNtBf4jM6vxA98rglW0grikqzWFRNpZJuLSF8OVwkui9HosO
-VqVOay/Evg2zQlo62rYSKmra/AcgdUV6ROpAMb2FNatbBbOlemVqMFMh1icDUS6/
-PSj3KEt97m6ak90FwFHu2r01xKBL4NeBrKvwIp7lc/LKEe+JJo5JJiA1G9+g3c4j
-iSTK9QT3lmm9OcQRTJi4ckQ55tXRow7h5Rei5wvA5ZkBAab7OXOT4xU2UtdUKs7x
-+ODl90xN3IByCQIC+quk4JkL
-=ARJF
------END PGP SIGNATURE-----
-
---===============3111637166778314705==--
+--===============0162037256449071894==--
