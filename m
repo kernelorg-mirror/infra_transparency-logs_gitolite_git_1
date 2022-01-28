@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 28 Jan 2022 22:37:02 -0000
-Message-Id: <164340942251.21261.2259000322223250724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 28 Jan 2022 22:50:04 -0000
+Message-Id: <164341020430.29677.2649285584418345496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 625c6b55699777ece6b87235f579e2cfbde049ce
-    new: c55c56cd652c1118d73ed76ea6ff6678dfbbf036
-    log: |
-         279eb8575fdaa92c314a54c0d583c65e26229107 EDAC/altera: Fix deferred probing
-         34f6e9ab86ec3fc02f2ce5ea0e9062ac5c351bd7 EDAC/xgene: Fix deferred probing
-         c55c56cd652c1118d73ed76ea6ff6678dfbbf036 Merge branch 'edac-urgent' into edac-for-next
-         
+  - ref: refs/tags/block-5.17-2022-01-28
+    old: 0000000000000000000000000000000000000000
+    new: 42015d564c05bfdeb45ebb3240450ddc455aabed
+  - ref: refs/tags/io_uring-5.17-2022-01-28
+    old: 0000000000000000000000000000000000000000
+    new: 3cdc552886962b607ed2a2b1ee07251a5abd9b31
