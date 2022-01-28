@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 28 Jan 2022 19:50:03 -0000
-Message-Id: <164339940372.8378.13354115516596154741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Fri, 28 Jan 2022 20:12:30 -0000
+Message-Id: <164340075007.22254.7233282769194640449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
+repo: pub/scm/linux/kernel/git/axboe/fio
 user: axboe
 changes:
-  - ref: refs/heads/block-5.17
-    old: 3c4ae3478082388ae9680a932d6bfd54c10fca0d
-    new: b879f915bc48a18d4f4462729192435bb0f17052
+  - ref: refs/heads/master
+    old: 2b3d4a6a924e0aa82654d3b96fb134085af7a98a
+    new: f83584dd8ebfa1ddaa13aeb45d8510887a5e2497
     log: |
-         e45c47d1f94e0cc7b6b079fdb4bcce2995e2adc4 block: add bio_start_io_acct_time() to control start_time
-         f524d9c95fab54783d0038f7a3e8c014d5b56857 dm: revert partial fix for redundant bio-based IO accounting
-         b879f915bc48a18d4f4462729192435bb0f17052 dm: properly fix redundant bio-based IO accounting
+         3e6c7afba1098a057c275e0a415085b5d17f88db Revert "Update README to markdown format"
+         79e1e2802e1c457bde36d75225d01e1d9113ee52 docs: rename README to README.rst
+         421d8291795dc8715222460afac732cf6328c7e2 docs: update fio docs to pull from README.rst
+         f83584dd8ebfa1ddaa13aeb45d8510887a5e2497 Merge branch 'docs' of https://github.com/vincentkfu/fio
          
