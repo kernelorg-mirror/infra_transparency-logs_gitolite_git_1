@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Fri, 28 Jan 2022 14:07:19 -0000
-Message-Id: <164337883908.7191.1374304206619401289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 28 Jan 2022 14:19:08 -0000
+Message-Id: <164337954899.13837.15449563902478946042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: 7674b7b559b683478c3832527c59bceb169e701d
-    new: 665408f4c3a5c83e712871daa062721624b2b79e
-    log: |
-         665408f4c3a5c83e712871daa062721624b2b79e brcmfmac: firmware: Fix crash in brcm_alt_fw_path
-         
+  - ref: refs/tags/rcu-urgent.2022.01.26a
+    old: 0000000000000000000000000000000000000000
+    new: 005ee3d3e09bb92468802d4e0764b1ac4dc75c92
