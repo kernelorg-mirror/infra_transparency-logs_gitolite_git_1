@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rteval/rteval
-Date: Fri, 28 Jan 2022 14:06:08 -0000
-Message-Id: <164337876805.6726.4184958636581130845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Fri, 28 Jan 2022 14:07:19 -0000
+Message-Id: <164337883908.7191.1374304206619401289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rteval/rteval
-user: jkacur
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: kvalo
 changes:
   - ref: refs/heads/main
-    old: 3218c5f39603c4cb6ad8e5caf9fe675f2ea344d1
-    new: 9dff629f186313beebb96594d236dd9268bef1b1
+    old: 7674b7b559b683478c3832527c59bceb169e701d
+    new: 665408f4c3a5c83e712871daa062721624b2b79e
     log: |
-         9dff629f186313beebb96594d236dd9268bef1b1 rteval: Increase default buckets from 2000 to 3500
+         665408f4c3a5c83e712871daa062721624b2b79e brcmfmac: firmware: Fix crash in brcm_alt_fw_path
          
