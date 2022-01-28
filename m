@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Fri, 28 Jan 2022 15:50:15 -0000
-Message-Id: <164338501595.10625.3423687172237950436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 28 Jan 2022 15:56:28 -0000
+Message-Id: <164338538839.15437.14717455959825296367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/hyperv-fixes-signed-20220128
+  - ref: refs/heads/jd/no-batch-lock
     old: 0000000000000000000000000000000000000000
-    new: f86cf8dc136ddcda1322888f9268f7437713fa44
+    new: 3a49e3bbc3571861541b689ab76748a42618c8bd
