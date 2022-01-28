@@ -1,58 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5325215177795615845=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 28 Jan 2022 15:57:45 -0000
-Message-Id: <164338546531.16307.188886884923972137@gitolite.kernel.org>
-
---===============5325215177795615845==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 28 Jan 2022 15:57:59 -0000
+Message-Id: <164338547949.16470.95158262406065053@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.17
-    old: 37c2c83ca4f1ef4b6908181ac98e18360af89b42
-    new: 60b1e97140a487608b7cbde774b3cff1b5a99c00
+  - ref: refs/heads/for-linus
+    old: 4cf28e9ae6e2e11a044be1bcbcfa1b0d8675fe4d
+    new: fb25621da5702c104ce0a48de5b174ced09e5b4e
     log: |
-         2cbd27267ffe020af1442b95ec57f59a157ba85c spi: bcm-qspi: check for valid cs before applying chip select
-         60b1e97140a487608b7cbde774b3cff1b5a99c00 spi: dt-bindings: Fix 'reg' child node schema
+         c5c1546a654f613e291a7c5d6f3660fc1eb6d0c7 ASoC: codecs: wcd938x: fix incorrect used of portid
+         fca041a3ab70a099a6d5519ecb689b6279bd04f3 ASoC: codecs: lpass-rx-macro: fix sidetone register offsets
+         bd2347fd67d8da0fa76296507cc556da0a233bcb ASoC: codecs: wcd938x: fix return value of mixer put function
+         8f2e5c65ec7534cce6d315fccf2c3aef023f68f0 ASoC: qdsp6: q6apm-dai: only stop graphs that are started
+         fb25621da5702c104ce0a48de5b174ced09e5b4e ASoC: fsl: Add missing error handling in pcm030_fabric_probe
          
-  - ref: refs/heads/spi-5.18
-    old: 474fc2e6395d62758e80b9ea65f61339296355fc
-    new: 20dc69ca1023b7e4c4af3c3495aa5a91e1a9be39
+  - ref: refs/heads/for-next
+    old: acfa1e2c2ff5cd7fb7948b0c5c2057acd9dceb14
+    new: 74cc53cf59b6a36ef50f164693625629614cb732
     log: |
-         20dc69ca1023b7e4c4af3c3495aa5a91e1a9be39 spi: Fix missing unlock on error in sp7021_spi_master_transfer_one()
+         4fcc8710fdd91b37760ccd99bbfbe10352df7600 ASoC: tegra: Update AHUB driver for Tegra234
+         fed44d6c3bcdb11ed77bc681f1cf80cbe8cfd9a5 ASoC: Document Tegra234 APE support
+         2ce0d008dcc59f9c01f43277b9f9743af7b01dad ASoC: SOF: Intel: hda: Remove link assignment limitation
+         0cfe76156cc1c7f8a707969c03ed2242db8f0292 ASoC: dt-bindings: realtek,rt5682s: Drop Tegra specifics from example
+         7bd04b8d46b9362fb1ade63b99cd6ddee0740af4 ASoC: SOF: trace: Simplify count adjustment in trace_read
+         74cc53cf59b6a36ef50f164693625629614cb732 Tegra234 APE support
          
-
---===============5325215177795615845==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1643385463 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643385463-189d94e4bd5c8835fcda01ee68322cfba14f5795
-
-37c2c83ca4f1ef4b6908181ac98e18360af89b42 60b1e97140a487608b7cbde774b3cff1b5a99c00 refs/heads/spi-5.17
-474fc2e6395d62758e80b9ea65f61339296355fc 20dc69ca1023b7e4c4af3c3495aa5a91e1a9be39 refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH0EncACgkQJNaLcl1U
-h9BXXwf+PiV2iRSadw2jXgSZzfebLe/tPM0vc2dBP34tKjqq8ZijhrY2AgyCmEhv
-1BoTlR+M/FPXsf2ZW3sjz26F2QwdcgsqCl0S2LHn9lz+ObvOxVasFU/vnL9m3Lfz
-P5PyIF/BL3EcrQ3ZZRIXqK2RXbqdH6oV362mG07guLq9qCbnV8D7xo0805RQ3Tmx
-GLDkbe6I6SmVjhCRZPdGuwyv4APchNqx5hSLqwk5RKS77PplST9heB/O7i3zcmNk
-kCuo4RvQ88JOvLtp8+yKNYVPNYcuHAss15SOlkPQtPBpGgWU63V4aWJNSL9A0pfM
-lwsPp9XyoZalQSRmepcBiUIQO1P8RQ==
-=E8jL
------END PGP SIGNATURE-----
-
---===============5325215177795615845==--
