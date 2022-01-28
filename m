@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8929281516604751391=="
+Content-Type: multipart/mixed; boundary="===============0413564888476655763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Fri, 28 Jan 2022 06:08:52 -0000
-Message-Id: <164335013216.3688.3255805927835231648@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 06:09:45 -0000
+Message-Id: <164335018586.4047.11434615367333013367@gitolite.kernel.org>
 
---===============8929281516604751391==
+--===============0413564888476655763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: cb6846fbb83b574c85c2a80211b402a6347b60b1
-    new: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    log: revlist-cb6846fbb83b-e783362eb54c.txt
+  - ref: refs/heads/exynos-drm-next-fixes
+    old: 9f44ffc6f670b3557a806d3a8cbd82ca8c66a8d7
+    new: 84deb8a66d57881cdd7c05e99d4582d05a8f4910
+    log: revlist-9f44ffc6f670-84deb8a66d57.txt
 
---===============8929281516604751391==
+--===============0413564888476655763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb6846fbb83b-e783362eb54c.txt
+Content-Disposition: attachment; filename=revlist-9f44ffc6f670-84deb8a66d57.txt
 
-c96f195deeefecd8ef95c5aa508671dd246bf119 ACPI: scan: Rename label in acpi_scan_init()
-9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
 72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
 2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
 62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
@@ -1050,5 +1045,10 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
+7b1346f356ebd12b556f39c8a066360808c834f3 drm/exynos/exynos7_drm_decon: Use platform_get_irq_byname() to get the interrupt
+1214b414817cf0e005dde2df09601320cc4f8050 drm/exynos: mixer: Use platform_get_irq() to get the interrupt
+c72639c1cdb0a1e61687ac7bcba5b3291483d08d drm/exynos/exynos_drm_fimd: Use platform_get_irq_byname() to get the interrupt
+0a9745854e135395af8475f16ba42b1e134e503c drm/exynos/fimc: Use platform_get_irq() to get the interrupt
+84deb8a66d57881cdd7c05e99d4582d05a8f4910 drm/exynos: gsc: Use platform_get_irq() to get the interrupt
 
---===============8929281516604751391==--
+--===============0413564888476655763==--
