@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3212283652355241179=="
+Content-Type: multipart/mixed; boundary="===============8735682719621238114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 28 Jan 2022 18:04:52 -0000
-Message-Id: <164339309252.2441.14671256525574774128@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 18:06:00 -0000
+Message-Id: <164339316027.4275.1146379753561243900@gitolite.kernel.org>
 
---===============3212283652355241179==
+--===============8735682719621238114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
-    old: a0d4b7fcf6013e0bd319efa66b659c47a19737a7
+  - ref: refs/heads/net-mlx4
+    old: 36268983e90316b37000a005642af42234dabb36
     new: 6449520391dfc3d2cef134f11a91251a054ff7d0
-    log: revlist-a0d4b7fcf601-6449520391df.txt
+    log: revlist-36268983e903-6449520391df.txt
 
---===============3212283652355241179==
+--===============8735682719621238114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0d4b7fcf601-6449520391df.txt
+Content-Disposition: attachment; filename=revlist-36268983e903-6449520391df.txt
 
 77965c98cffe41994dce3389c4aae80e2072f098 pwm: Move legacy driver handling into a dedicated function
 92f69e582e15bf281ff1ab3ccc7abdd8392550a3 pwm: Prevent a glitch for legacy drivers
@@ -607,4 +607,4 @@ d01ffb9eee4af165d83b08dd73ebdf9fe94a519b ax25: add refcount in ax25_dev to avoid
 010a2a6623317bbf13facaff8bf50ac08468c1df Merge tag 'ieee802154-for-net-2022-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 6449520391dfc3d2cef134f11a91251a054ff7d0 net: stmmac: properly handle with runtime pm in stmmac_dvr_remove()
 
---===============3212283652355241179==--
+--===============8735682719621238114==--
