@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5301689866413727933=="
+Content-Type: multipart/mixed; boundary="===============0710108072966740478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 28 Jan 2022 10:59:37 -0000
-Message-Id: <164336757763.13220.17274863799985783128@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 10:59:59 -0000
+Message-Id: <164336759910.13410.8079018726818879071@gitolite.kernel.org>
 
---===============5301689866413727933==
+--===============0710108072966740478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kfence/dev
-    old: 5dda7f19393c860c0804a8a3a3dee8a879b5ec1d
-    new: 93b4856cc13e4b0e26e2cad8df95139517a48f99
-    log: revlist-5dda7f19393c-93b4856cc13e.txt
+  - ref: refs/heads/kasan/dev
+    old: 4bb7888c5931894ce86bdb8016cc5dba448d2cb0
+    new: 92c2e270187716d6188851eba9c5ea8e21369118
+    log: revlist-4bb7888c5931-92c2e2701877.txt
 
---===============5301689866413727933==
+--===============0710108072966740478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dda7f19393c-93b4856cc13e.txt
+Content-Disposition: attachment; filename=revlist-4bb7888c5931-92c2e2701877.txt
 
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
 785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
 8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
@@ -1048,7 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-8d071935bc8673d4bca2301201ebdc8f85d4d937 docs: kernel-parameters: add info about kfence.sample_interval
-93b4856cc13e4b0e26e2cad8df95139517a48f99 kfence: Make test case compatible with run time set sample interval
+92c2e270187716d6188851eba9c5ea8e21369118 kasan: test: fix compatibility with FORTIFY_SOURCE
 
---===============5301689866413727933==--
+--===============0710108072966740478==--
