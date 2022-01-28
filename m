@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3178792546238500705=="
+Content-Type: multipart/mixed; boundary="===============8031355994665305839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 28 Jan 2022 23:45:37 -0000
-Message-Id: <164341353712.982.12069462375283803687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 28 Jan 2022 23:45:43 -0000
+Message-Id: <164341354338.1131.10154972771242166908@gitolite.kernel.org>
 
---===============3178792546238500705==
+--===============8031355994665305839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: fb25621da5702c104ce0a48de5b174ced09e5b4e
     new: 1601033da2dd2052e0489137f7788a46a8fcd82f
     log: |
@@ -27,37 +27,37 @@ changes:
          4c38f8747c5769a272bc6557c2504d218f01914e ASoC DPCM lockdep fixes
          1601033da2dd2052e0489137f7788a46a8fcd82f ASoC: ops: Check for negative values before reading them
          
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 74cc53cf59b6a36ef50f164693625629614cb732
     new: 9a19aba24eccab961d5b6660baead766e96f9cc2
     log: revlist-74cc53cf59b6-9a19aba24ecc.txt
 
---===============3178792546238500705==
+--===============8031355994665305839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643413535 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1643413534-253ede0424b379825754d96de4b95a2422b83f41
+pusher C3F436CA30F5D8EB 1643413541 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1643413541-7224441d9370b361b20abd5553d91c0176b3e0f6
 
-fb25621da5702c104ce0a48de5b174ced09e5b4e 1601033da2dd2052e0489137f7788a46a8fcd82f refs/heads/for-5.17
-74cc53cf59b6a36ef50f164693625629614cb732 9a19aba24eccab961d5b6660baead766e96f9cc2 refs/heads/for-5.18
+fb25621da5702c104ce0a48de5b174ced09e5b4e 1601033da2dd2052e0489137f7788a46a8fcd82f refs/heads/asoc-5.17
+74cc53cf59b6a36ef50f164693625629614cb732 9a19aba24eccab961d5b6660baead766e96f9cc2 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH0gB8ACgkQJNaLcl1U
-h9Bdewf+NY0LqdRkHJrFkFufVpjv1i0Y1HVXpXUQ071P+Zc9jBoL642mPYcxt+YW
-pkNF+O6ZKM1cdgol5CRuKryF0CB8jC3LvIf2Kvr8G9TuEDXoNAfoP3fvHwMnt4Rw
-8jcYyPJMt5+GjcGQ63C8YbLu4RZEdepScK7FXeskD9+MoxkZJITyvcaF8zCtfNVc
-ZBb4k7Mc4znwlK3Rq44n+fzI7s4awRR/e9pbSVkL06kHf3ZWfMu17oG0xSM0fL0c
-Xt6HUc71ougaiHDjK8YiUsNLg18xfQ1se2VmH/X8LGZdYnzPrdrusUkMPUYbw74d
-DDocCw3wYB9YKk/uxrufz+moEQdzxA==
-=c3Td
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH0gCUACgkQJNaLcl1U
+h9D8igf7BOB7Kl0IlGff1BRQ3vDE4F/rZ16hnTiwTacyHddIFiM5vGCJnkYC228K
+cPOQTKieEDxAogtScw4fiFRQMagknm+zU8Obb4SZaND8icLo96qdXXNuTuZtq1Ct
+OVH2qNXQopsS8YE0Oicjipm10TRs7CqLmlPY81aS+JQTkbeN6B++B2S6LryvO+aY
+8AlWei6zlwF7lUC7jZ04CbgUMKj+6nm7ABufle9xHGm9DMbo1aNEq+9AhjuMPQfx
+qhUETzMNHVwhSJeL3EKuE7nuPyu4sdWrINzrTOYK4EZBA65U+9ZhD9gEhKcWrByP
+uN1gjaQlb0VFYtqB4c4FT3tvd1sCYQ==
+=NJMl
 -----END PGP SIGNATURE-----
 
---===============3178792546238500705==
+--===============8031355994665305839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ a3a2a21acfdbfdcac6a24d14481a2c77f78f6fb8 (Re)enable DP/HDMI audio for RK3399 Gru
 e0c8a67f53a2bd96759ec621dcc61bb5c3c4a4be SoC: SOF: ipc: Optimizations for tx message
 9a19aba24eccab961d5b6660baead766e96f9cc2 ASOC: amd: acp: Add generic PDM and PCI driver support for ACP
 
---===============3178792546238500705==--
+--===============8031355994665305839==--
