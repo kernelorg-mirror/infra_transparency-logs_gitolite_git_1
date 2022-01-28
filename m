@@ -1,30 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 28 Jan 2022 15:40:50 -0000
-Message-Id: <164338445029.4578.6038673636701235228@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4965116301008603596=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+Date: Fri, 28 Jan 2022 15:47:19 -0000
+Message-Id: <164338483976.8099.17205942731477919359@gitolite.kernel.org>
+
+--===============4965116301008603596==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/mark/boot-wrapper-aarch64
+user: mark
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: c1289d5d8502d62e5bc50ff066c9d6daabfc3264
-    new: 32a88d16615c2be295571c29273c4ac94cb75309
-    log: |
-         32a88d16615c2be295571c29273c4ac94cb75309 RDMA/core: Set MR type in ib_reg_user_mr
-         
-  - ref: refs/heads/wip/jgg-for-rc
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: 36e8169ec973359f671f9ec7213547059cae972e
-    log: |
-         8c83d39cc730378bbac64d67a551897b203a606e IB/hfi1: Fix panic with larger ipoib send_queue_size
-         b1151b74ff68cc83c2a8e1a618efe7d056e4f237 IB/hfi1: Fix alloc failure with larger txqueuelen
-         5f8f55b92edd621f056bdf09e572092849fabd83 IB/hfi1: Fix AIP early init panic
-         e5cce44aff3be9ad2cd52f63f35edbd706181d50 IB/hfi1: Fix tstats alloc and dealloc
-         d9e410ebbed9d091b97bdf45b8a3792e2878dc48 RDMA/cma: Use correct address when leaving multicast group
-         36e8169ec973359f671f9ec7213547059cae972e RDMA/ucma: Protect mc during concurrent multicast leaves
-         
+  - ref: refs/heads/master
+    old: 0607f1669cd66442cc956ff174db679971e14613
+    new: 3bce381552a8185dfd2fe9212fea7e2a9ee94d0e
+    log: revlist-0607f1669cd6-3bce381552a8.txt
+
+--===============4965116301008603596==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0607f1669cd6-3bce381552a8.txt
+
+2dd9f3117d00b4d78e7a2e5309140b11f5f5ac07 aarch64: correct ZCR_EL3.LEN initialization
+2dc972a278766c44167f664eeca50e50dff8c511 aarch64: correct SCTLR_EL1_KERNEL for AA32 kernels
+286b8ecc86393c2619fc8e5792a4684c46fa461c Document entry requirements
+d3b1a15d18542b2086e72bfdc3fc43f454772a3b Add bit-field macros
+9e2e06be7c8685171ee5ad285eda15d764e688e9 aarch64: add system register accessors
+65113684081560a958726e392f400fdb23e2ccd6 aarch32: add coprocessor accessors
+df06a1f49df9f10542f308a2dba939ec16c0ec13 aarch64: add mov_64 macro
+10940859382ea345421d2d5c29a9475c8d7dc4b7 aarch64: initialize SCTLR_ELx for the boot-wrapper
+41498863d12f5eeff4b0ef16572fe7664ef8b713 Rework common init C code
+f11490d5d8d5a75d49d2b2f833bb6415f852bbfd Announce boot-wrapper mode / exception level
+352eeb8751ee3de8f76013f2e29a881917eec4cb aarch64: move the bulk of EL3 initialization to C
+56b11458240b1ca9195d003ade17c725f7929050 aarch32: move the bulk of Secure PL1 initialization to C
+1c6ac5e25eda9c2743c042c8eb7a576b686f25b2 Announce locations of memory objects
+368a5c273e5cabaacf5d7319e0e52c43ced8a282 Rework bootmethod initialization
+3bce381552a8185dfd2fe9212fea7e2a9ee94d0e Unify start_el3 & start_no_el3
+
+--===============4965116301008603596==--
