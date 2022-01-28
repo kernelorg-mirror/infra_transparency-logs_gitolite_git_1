@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
-Date: Fri, 28 Jan 2022 10:26:33 -0000
-Message-Id: <164336559303.24904.17849729782147826581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 28 Jan 2022 10:28:53 -0000
+Message-Id: <164336573305.25703.6302680894459886125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
-user: sschmidt
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 416abf4f1891de423cfcc437d4089a1a59c0adf0
-    new: c265a3a6690b093e542aceb4a7bf8bf6c577e42b
+    old: da8177316f87a56925d0ac5ca8d07b4d8e38586a
+    new: 177c9ec7c7aa0f49413f4cb5f347edf721d5a5ba
     log: |
-         9d70c7e10a8953477956570cd4eba14ad404d8a7 net: ieee802154: hwsim: Ensure frame checksum are valid
-         898db3b8f9456608410089c52082ab42a9319217 net: ieee802154: Use the IEEE802154_MAX_PAGE define when relevant
-         c265a3a6690b093e542aceb4a7bf8bf6c577e42b net: mac802154: Explain the use of ieee802154_wake/stop_queue()
+         177c9ec7c7aa0f49413f4cb5f347edf721d5a5ba findmnt: add to the man page note about SOURCES
          
