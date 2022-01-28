@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5923893828551914464=="
+Content-Type: multipart/mixed; boundary="===============1736191462368244347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 28 Jan 2022 07:26:27 -0000
-Message-Id: <164335478741.22569.327500477237649779@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 07:28:25 -0000
+Message-Id: <164335490598.23336.1800605044843694081@gitolite.kernel.org>
 
---===============5923893828551914464==
+--===============1736191462368244347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,104 +16,115 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5fe9ec5222e876eb56d52a87f9d7b40233cbee26
-    new: 1a1fc4a9417925738eeee123a08c64179ab889a0
+    old: 1a1fc4a9417925738eeee123a08c64179ab889a0
+    new: a2d9e2bae197ed692ffe411bcc08d9e3b22b95c0
     log: |
-         589b7475ae0cb2b0eaf99b1e0299e96a2551c883 drm/i915: Flush TLBs before releasing backing store
-         55d2029f5eba9c962314f55ab0d118be4fd8155d can: bcm: fix UAF of bcm op
-         1a1fc4a9417925738eeee123a08c64179ab889a0 drm/vmwgfx: Fix stale file descriptors on failed usercopy
+         23047f612232a3d5e790dc1ac7008745a7635965 drm/i915: Flush TLBs before releasing backing store
+         b9cc336c8c1b0bd6325c2b64fe3bcc92204e3682 can: bcm: fix UAF of bcm op
+         a2d9e2bae197ed692ffe411bcc08d9e3b22b95c0 drm/vmwgfx: Fix stale file descriptors on failed usercopy
          
   - ref: refs/heads/queue/4.19
-    old: 65e30e68e649a7e3cbb397a94ff73c94919c3318
-    new: 0d9b2c090541e9e9d1d35c653360ddd47f35a875
+    old: 0d9b2c090541e9e9d1d35c653360ddd47f35a875
+    new: 38be3b9e94a4f3eb9ca620d5f6ebfdfc6a674326
     log: |
-         d7eb0af7b9e1f58a0fe2c357085d2d442751e4d2 drm/i915: Flush TLBs before releasing backing store
-         b4f4c4f2dbcec9e9dd89246d677ad91e1249fa96 net: bridge: clear bridge's private skb space on xmit
-         0d9b2c090541e9e9d1d35c653360ddd47f35a875 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         91689142aaa9b194ec577cae0aa75bffeea0c5fb drm/i915: Flush TLBs before releasing backing store
+         ae19cc819151fef0331a42bd557ad5bf05256f5f net: bridge: clear bridge's private skb space on xmit
+         6969262f4bbdccd26c7eb91d16abf69a691a4043 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         38be3b9e94a4f3eb9ca620d5f6ebfdfc6a674326 drm/vmwgfx: Fix stale file descriptors on failed usercopy
          
   - ref: refs/heads/queue/4.4
-    old: 5b4f04e1d417332f01274718da75df3937e02903
-    new: 2a4a7e8c9ee955626cdba71eb0ffb83d9c5c9494
+    old: 2a4a7e8c9ee955626cdba71eb0ffb83d9c5c9494
+    new: f72eb9d3ea7de2add4527dcc2bc51fc9715f15fd
     log: |
-         2a4a7e8c9ee955626cdba71eb0ffb83d9c5c9494 drm/i915: Flush TLBs before releasing backing store
+         f72eb9d3ea7de2add4527dcc2bc51fc9715f15fd drm/i915: Flush TLBs before releasing backing store
          
   - ref: refs/heads/queue/4.9
-    old: 2d90ef34d56543433805d9ec3e8bb34ebbf9da6a
-    new: 828364db4bb544c429cec2380743f4906c5258d2
+    old: 828364db4bb544c429cec2380743f4906c5258d2
+    new: 33338373a46eb5da3c665993f17330582341c9e4
     log: |
-         8f31dec2fb062a6b416685e5589fa1d2d54d5ba8 drm/i915: Flush TLBs before releasing backing store
-         b4c7e460a81b65108d9be59a8d8d8bc2e6f4b4fa media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
-         cdad86a57ea032c74ccb599704fba0b173caa3ea NFSv4: Initialise connection to the server in nfs4_alloc_client()
-         cadff749128c0d9e3081a072a02172618517ccb5 KVM: nVMX: fix EPT permissions as reported in exit qualification
-         669141cde4f126c3e7e33828f6e461424690ffab KVM: X86: MMU: Use the correct inherited permissions to get shadow page
-         3ff22934df2f5c8268878703f3431d054d276cf5 ARM: 8800/1: use choice for kernel unwinders
-         34ddb48e4047e915ca110ea332b7933476ef6e9e ion: Fix use after free during ION_IOC_ALLOC
-         c10e9a8809daa0383e8f8b62a7df81dcb6c4dd92 ion: Protect kref from userspace manipulation
-         828364db4bb544c429cec2380743f4906c5258d2 ion: Do not 'put' ION handle until after its final use
+         67b9b62ca7c18008a05ef68791aa15d7d00f03e4 drm/i915: Flush TLBs before releasing backing store
+         7e5f63939749f69d031086353c45d289ce2df633 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         9fd78f65f157a794ac503d7ff137e8c84a8232d1 NFSv4: Initialise connection to the server in nfs4_alloc_client()
+         3cc730e55ba898867c29627883092e08e08e7436 KVM: nVMX: fix EPT permissions as reported in exit qualification
+         b58d9c9896be2f42a3656fa8606270f01cc1157b KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+         c5d5aecb8afbd7b3ccbb75e7ff03be0547c07c63 ARM: 8800/1: use choice for kernel unwinders
+         a94c08985e05737e366534ac33a72c0fa9d88cfa ion: Fix use after free during ION_IOC_ALLOC
+         cb45c3f506ad781976835698d21b36ba968731b6 ion: Protect kref from userspace manipulation
+         33338373a46eb5da3c665993f17330582341c9e4 ion: Do not 'put' ION handle until after its final use
          
   - ref: refs/heads/queue/5.10
-    old: b3f73a1a2d7d65e96543e6f59f65941452c04565
-    new: 4d2ad6222a53e89cbb471c732fe28b1f3459f059
+    old: 4d2ad6222a53e89cbb471c732fe28b1f3459f059
+    new: 7469d967147952710da02149a48d8a57ecfaab60
     log: |
-         e7300d18e5979d1ca4a63b372e46cbb7003826f6 drm/i915: Flush TLBs before releasing backing store
-         6896c20190dcd3e7f9197c07c6f3623ba42952f1 bnx2x: Utilize firmware 7.13.21.0
-         3b53edfca83f2d4fec0d8b6f4a44ff18d204b1c2 bnx2x: Invalidate fastpath HSI version for VFs
-         1252518e7b5f63daca88944da98c1e68046a8d7a rcu: Tighten rcu_advance_cbs_nowake() checks
-         a88a559c4ec2c322f99051c3dcb7fbc67f36e161 KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
-         4d2ad6222a53e89cbb471c732fe28b1f3459f059 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         094acb223e5f97b674b2f26fe936924c2f0d9b17 drm/i915: Flush TLBs before releasing backing store
+         463427426f91477e3ea89d2f7b321acf9b2bc360 bnx2x: Utilize firmware 7.13.21.0
+         0bb990fd082fd229996a039dabdb085da9f3adcb bnx2x: Invalidate fastpath HSI version for VFs
+         4e94617132a964ce3e62bc765abb309fb3c77410 rcu: Tighten rcu_advance_cbs_nowake() checks
+         a93ff77de20439e6c13a0fac7682fe0d137c198c KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
+         ed60f919199cf607ef98cc893827b8865cc72ae3 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         7469d967147952710da02149a48d8a57ecfaab60 drm/vmwgfx: Fix stale file descriptors on failed usercopy
          
   - ref: refs/heads/queue/5.15
-    old: 8f79da6010502107e4879aaf1bdf83c8fb9bfc54
-    new: cb13ddfb45ba9d51dfdd7a5b7dbbfa300bc53efb
-    log: revlist-8f79da601050-cb13ddfb45ba.txt
+    old: cb13ddfb45ba9d51dfdd7a5b7dbbfa300bc53efb
+    new: af585d26f24b498cdf3a5949ba033495f14f2e7b
+    log: revlist-cb13ddfb45ba-af585d26f24b.txt
   - ref: refs/heads/queue/5.16
-    old: 8b2afa993375950588b16e95f3a35c4fff88fc14
-    new: d47e85617dd5ffb8109d69f68944df835927df02
+    old: d47e85617dd5ffb8109d69f68944df835927df02
+    new: bed8a5551279cd1396874c6dbafd5b4b5e4ed08f
     log: |
-         c61377082d952b921e136c4e1333b6fd5eb95332 drm/i915: Flush TLBs before releasing backing store
-         c167a59f51aad60eed991f9842d9a5f2ed698191 drm/amd/display: reset dcn31 SMU mailbox on failures
-         e2dab03d54b8e82db7c1c1d6c26394ac456c961b io_uring: fix not released cached task refs
-         5f645cbfb2e44fbe5f8f75d4ef4d2f9aa22f555e bnx2x: Utilize firmware 7.13.21.0
-         6760cfa3e699724c28137d91fe3abe990131df68 bnx2x: Invalidate fastpath HSI version for VFs
-         2a6da236834ce6d5481fa479a52956d5e919872b memcg: better bounds on the memcg stats updates
-         d3a1435fe94a4ec2bbaccbf56f046c9a46ce923b rcu: Tighten rcu_advance_cbs_nowake() checks
-         fd35f8d1371f0f31716da9b7bd93f84a5f0ef0ce select: Fix indefinitely sleeping task in poll_schedule_timeout()
-         d47e85617dd5ffb8109d69f68944df835927df02 arm64/bpf: Remove 128MB limit for BPF JIT programs
+         6a0d005a5c704cbbc99f19370f51056a5cb3959b drm/i915: Flush TLBs before releasing backing store
+         1c4f97c0ef1a421ac2362c1431deb245f693fe0d drm/amd/display: reset dcn31 SMU mailbox on failures
+         3c85a07a71043fc8cb1d452df51b4339bcf8e13f io_uring: fix not released cached task refs
+         ab9cba893017a60927ef4f28a0afc2c7c48d3ed4 bnx2x: Utilize firmware 7.13.21.0
+         cdd89ca1b31f07b3556ee5d27caabb6b92212ef3 bnx2x: Invalidate fastpath HSI version for VFs
+         576af130aac1cdfa777b39e491eec092caa80e1a memcg: better bounds on the memcg stats updates
+         4b2617676a42689487c31dac63e792b87b53aa2d rcu: Tighten rcu_advance_cbs_nowake() checks
+         13da1e3e4aa9e007ec8d2ae7a03e1bad5e9c0117 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         76030acce0444905a8bc95ce96917f83f999292a arm64/bpf: Remove 128MB limit for BPF JIT programs
+         bed8a5551279cd1396874c6dbafd5b4b5e4ed08f drm/vmwgfx: Fix stale file descriptors on failed usercopy
          
   - ref: refs/heads/queue/5.4
-    old: 7efd6d30182bdda3f31066197aa85f17eb181755
-    new: 0dd927cb6fe7743569604a05cc4b0bcf6a66a83e
-    log: |
-         b55befe2bdb531565fef0f0ccf24b8d60c33fcad drm/i915: Flush TLBs before releasing backing store
-         446ced39e23f26e952bcebdd04e8d277fd6e9e63 rcu: Tighten rcu_advance_cbs_nowake() checks
-         b0374af1d5166a852c9edc8124cee0328227d32d pinctrl: bcm2835: Drop unused define
-         96e1e69bd36aed09e71fd78fafb0eb757baa2c51 pinctrl: bcm2835: Refactor platform data
-         cde6670b6b69a9cacf8d88f9aa3a7e26dc04ddb3 pinctrl: bcm2835: Add support for all GPIOs on BCM2711
-         03ea33d4f2104b73cd56d429a56623ff44d54450 pinctrl: bcm2835: Match BCM7211 compatible string
-         2390c3d3297566c74e873664b82fe348398abe41 pinctrl: bcm2835: Add support for wake-up interrupts
-         627dce47adb947bd4b620d3a5e6b87c6be2c35f3 pinctrl: bcm2835: Change init order for gpio hogs
-         96d71c1e60d7b71a3a705cbced0646145a775ff9 ARM: dts: gpio-ranges property is now required
-         92e14368d4b14ed3c42e92b58ccdd9c1806cd9a0 mmc: sdhci-esdhc-imx: disable CMDQ support
-         0dd927cb6fe7743569604a05cc4b0bcf6a66a83e select: Fix indefinitely sleeping task in poll_schedule_timeout()
-         
+    old: 0dd927cb6fe7743569604a05cc4b0bcf6a66a83e
+    new: f9e7ae34555ff62e17a8d510cd1142529ccd56f5
+    log: revlist-0dd927cb6fe7-f9e7ae34555f.txt
 
---===============5923893828551914464==
+--===============1736191462368244347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f79da601050-cb13ddfb45ba.txt
+Content-Disposition: attachment; filename=revlist-cb13ddfb45ba-af585d26f24b.txt
 
-69cc26e929b8335a8f709ec45ae17d75ca0bd0e2 drm/i915: Flush TLBs before releasing backing store
-2a0523d556a74d1ec119b572e938020fcbec79b7 drm/amd/display: reset dcn31 SMU mailbox on failures
-c976df9259cdbc7e02407fddba89e5824e4fea1c io_uring: fix not released cached task refs
-efc0e465de3ae0f546eec27f5c79ed84fc47df69 bnx2x: Utilize firmware 7.13.21.0
-4ef96794fd57853309a13421a1505543191aae84 bnx2x: Invalidate fastpath HSI version for VFs
-5405b86195e12277556bb30d7a248a402e01f954 memcg: flush stats only if updated
-dea5bd51bfaa014c8d9bed9c8fd4b9e9e1e16c03 memcg: unify memcg stat flushing
-07c4a2babbe073d7cf71f53edceb06e2d6600cc1 memcg: better bounds on the memcg stats updates
-9479e7a3d4030cb82121b44d46134704959e686a rcu: Tighten rcu_advance_cbs_nowake() checks
-3fc20ee933ccd740caea645ab73fe249f7cabd76 select: Fix indefinitely sleeping task in poll_schedule_timeout()
-d86b294e5b1258941d601b79b70c7f5ef919cd0c drm/amdgpu: Use correct VIEWPORT_DIMENSION for DCN2
-cb13ddfb45ba9d51dfdd7a5b7dbbfa300bc53efb arm64/bpf: Remove 128MB limit for BPF JIT programs
+1fc69ed9502a1e618d25cdfa332c6d414f451389 drm/i915: Flush TLBs before releasing backing store
+8bfbe61a14f43757ccbc5b8595b240d6a13d3803 drm/amd/display: reset dcn31 SMU mailbox on failures
+fd7c99aabfb53d44820e88d03769779db88ae827 io_uring: fix not released cached task refs
+709eaa55674d0f374121bb9441ebb72617ab3a71 bnx2x: Utilize firmware 7.13.21.0
+d89708f293bb0033758c502a5b289163710269ad bnx2x: Invalidate fastpath HSI version for VFs
+b7bedc9adfaabb385c743fcdeb014b3117db7d36 memcg: flush stats only if updated
+d9fc414c796371dbe1c1818d77557894b42b0476 memcg: unify memcg stat flushing
+1cfa9a69df6df48db6717b44acedaa1d15283204 memcg: better bounds on the memcg stats updates
+47a09fbc17043ade2a42f3a020ad4ef0160ebf88 rcu: Tighten rcu_advance_cbs_nowake() checks
+80cd233a8170ac1169403485f2c156f7c2980103 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+212417e5fc1521213a83ffc044336125cfc7fa04 drm/amdgpu: Use correct VIEWPORT_DIMENSION for DCN2
+68a61c23b9286d16b026ac93de348c9bc41f5159 arm64/bpf: Remove 128MB limit for BPF JIT programs
+af585d26f24b498cdf3a5949ba033495f14f2e7b drm/vmwgfx: Fix stale file descriptors on failed usercopy
 
---===============5923893828551914464==--
+--===============1736191462368244347==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0dd927cb6fe7-f9e7ae34555f.txt
+
+41bb419cb94623346004321d3ef22285d419c72c drm/i915: Flush TLBs before releasing backing store
+b1059acfa35b7f9963bda394565c5773a6d4d0da rcu: Tighten rcu_advance_cbs_nowake() checks
+cdaf24b07823c7613b8d275b0b7e3465a98a35d3 pinctrl: bcm2835: Drop unused define
+4500783b11fa2aa6c1be9c0b03e27c8dba208477 pinctrl: bcm2835: Refactor platform data
+e04f3f1b035a728effb820a46a42f6259cb193b6 pinctrl: bcm2835: Add support for all GPIOs on BCM2711
+067705370cbccfba24cd51ddeff3150203398844 pinctrl: bcm2835: Match BCM7211 compatible string
+85eef4ae32e5c740e7599ab0ed1a613ca2a6f7a8 pinctrl: bcm2835: Add support for wake-up interrupts
+b871a878d43c524a6b170253ec2b59abb5c95d88 pinctrl: bcm2835: Change init order for gpio hogs
+5287ca5ad608215f3dad83b958ae7b534e366924 ARM: dts: gpio-ranges property is now required
+c4fc1a1dcd6ee4b9dc9e2870f3f76cb113c47fa9 mmc: sdhci-esdhc-imx: disable CMDQ support
+497d54977fe246634f9008f3511326baf34c0b68 select: Fix indefinitely sleeping task in poll_schedule_timeout()
+f9e7ae34555ff62e17a8d510cd1142529ccd56f5 drm/vmwgfx: Fix stale file descriptors on failed usercopy
+
+--===============1736191462368244347==--
