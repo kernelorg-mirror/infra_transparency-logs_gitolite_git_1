@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 28 Jan 2022 08:23:05 -0000
-Message-Id: <164335818550.27706.16504966299807842410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Fri, 28 Jan 2022 08:34:29 -0000
+Message-Id: <164335886948.1690.6516251238651928573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-linus
-    old: 3da4b7403db87d39bc2613cfd790de1de99a70ab
-    new: 0444f82766f0b5b9c8302ad802dafa5dd0e722d0
-    log: |
-         0444f82766f0b5b9c8302ad802dafa5dd0e722d0 ALSA: hda: Fix signedness of sscanf() arguments
-         
   - ref: refs/heads/master
-    old: b463b8b92a37eae7a6367ee5d6c661bee80fb505
-    new: 962cdb94ad982bc5be987f6616e264d7ca205c02
+    old: a64e99118d3378efec9b77bc44e07436bd8fd600
+    new: 0ef41cb69eb510c278c7d60d950d83aa5270e20f
     log: |
-         0444f82766f0b5b9c8302ad802dafa5dd0e722d0 ALSA: hda: Fix signedness of sscanf() arguments
-         962cdb94ad982bc5be987f6616e264d7ca205c02 Merge branch 'for-linus'
+         36a3923c8ab5ec1b939caee39f97268b4794456c mount: Allow bind-mounting with "nosymfollow"
+         68191a41174a691ac290a04171e9932f2028435a findmnt: properly exclude poll columns from --output-all
+         4a7c84956fe7afba9769607b10a61e7e6a22efef Merge branch 'mount-nosymfollow' of https://github.com/jwilk-forks/util-linux
+         5c89558e56c7e3ed74ffecfadb2e6bc037e72b4e Merge branch 'output-all' of https://github.com/t-8ch/util-linux
+         0ef41cb69eb510c278c7d60d950d83aa5270e20f findmnt: fix compiler warning [-Werror=sign-compare]
          
