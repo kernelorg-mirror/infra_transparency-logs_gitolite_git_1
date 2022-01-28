@@ -1,46 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============0711595562032490201=="
+Content-Type: multipart/mixed; boundary="===============3178792546238500705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 28 Jan 2022 23:44:56 -0000
-Message-Id: <164341349646.31678.9547699870940032793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 28 Jan 2022 23:45:37 -0000
+Message-Id: <164341353712.982.12069462375283803687@gitolite.kernel.org>
 
---===============0711595562032490201==
+--===============3178792546238500705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/keys-pending
-    old: 28ea76e836cb02d0da281c523db7275b3a35e091
-    new: 5528a5832085133f8d2523440ecc4b46b9b508aa
-    log: revlist-28ea76e836cb-5528a5832085.txt
+  - ref: refs/heads/for-5.17
+    old: fb25621da5702c104ce0a48de5b174ced09e5b4e
+    new: 1601033da2dd2052e0489137f7788a46a8fcd82f
+    log: |
+         3c75c0ea5da749bd1efebd1387f2e5011b8c7d78 ASoC: soc-pcm: Fix DPCM lockdep warning due to nested stream locks
+         9f620684c1ef5a002b6622ecc7b5818e81252f48 ASoC: soc-pcm: Move debugfs removal out of spinlock
+         06feec6005c9d9500cd286ec440aabf8b2ddd94d ASoC: hdmi-codec: Fix OOB memory accesses
+         4045daf0fa87846a27f56329fddad2deeb5ca354 ASoC: rt5682: Fix deadlock on resume
+         4c38f8747c5769a272bc6557c2504d218f01914e ASoC DPCM lockdep fixes
+         1601033da2dd2052e0489137f7788a46a8fcd82f ASoC: ops: Check for negative values before reading them
+         
+  - ref: refs/heads/for-5.18
+    old: 74cc53cf59b6a36ef50f164693625629614cb732
+    new: 9a19aba24eccab961d5b6660baead766e96f9cc2
+    log: revlist-74cc53cf59b6-9a19aba24ecc.txt
 
---===============0711595562032490201==
+--===============3178792546238500705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28ea76e836cb-5528a5832085.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7ef572ef29919e4595e497e8220c39eb8fe9727a selftests: tpm2: Determine available PCR bank
-a602d636487385c9df4b32e2a589f7bee5e0081f tpm: Fix error handling in async work
-2390b2e4d87b22de919bbaef0b6ffcae0ba2cb8d selftests: tpm: add async space test with noneexisting handle
-677c2b6e25528f3b0d61a064779a74be571805ad KEYS: fix length validation in keyctl_pkey_params_get_2()
-4fe5f1a384a04429b5ffea2da7b602fb17ab96e0 KEYS: x509: clearly distinguish between key and signature algorithms
-9212e792bb89bdd843a7cf1002b4e1fe39e15e9c KEYS: x509: remove unused fields
-a65839e39ad99e14e56dcb1cf5af10678fcfa6a2 KEYS: x509: remove never-set ->unsupported_key flag
-bec81e0e6285c9eae1cc4fb05fba481969cd1d2c KEYS: x509: remove dead code that set ->unsupported_sig
-59868668c0c92ae0b1e1d48a3df4f16a28a2ef04 tpm: xen-tpmfront: Use struct_size() helper
-0cc0cb5383b1a79e317bee6923360dae2a5b0587 KEYS: asym_tpm: fix buffer overreads in extract_key_parameters()
-f9015043b9ef86939d6a7759dbc5ac516834a93b KEYS: asym_tpm: fix incorrect comment
-26a95a55089e8835e0f2f84874404e6f9adf11cd KEYS: asym_tpm: rename derive_pub_key()
-ffdcdbafd2d0d0bab99decd68277a5be6b3db18b Revert "KEYS: asym_tpm: rename derive_pub_key()"
-23ba1274010a901687e7b35d714912fc9db8fff1 Revert "KEYS: asym_tpm: fix incorrect comment"
-ef1c7cf056521fdae200f892d219b1db9d82e4a9 Revert "KEYS: asym_tpm: fix buffer overreads in extract_key_parameters()"
-5528a5832085133f8d2523440ecc4b46b9b508aa KEYS: remove support for asym_tpm keys
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1643413535 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1643413534-253ede0424b379825754d96de4b95a2422b83f41
 
---===============0711595562032490201==--
+fb25621da5702c104ce0a48de5b174ced09e5b4e 1601033da2dd2052e0489137f7788a46a8fcd82f refs/heads/for-5.17
+74cc53cf59b6a36ef50f164693625629614cb732 9a19aba24eccab961d5b6660baead766e96f9cc2 refs/heads/for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH0gB8ACgkQJNaLcl1U
+h9Bdewf+NY0LqdRkHJrFkFufVpjv1i0Y1HVXpXUQ071P+Zc9jBoL642mPYcxt+YW
+pkNF+O6ZKM1cdgol5CRuKryF0CB8jC3LvIf2Kvr8G9TuEDXoNAfoP3fvHwMnt4Rw
+8jcYyPJMt5+GjcGQ63C8YbLu4RZEdepScK7FXeskD9+MoxkZJITyvcaF8zCtfNVc
+ZBb4k7Mc4znwlK3Rq44n+fzI7s4awRR/e9pbSVkL06kHf3ZWfMu17oG0xSM0fL0c
+Xt6HUc71ougaiHDjK8YiUsNLg18xfQ1se2VmH/X8LGZdYnzPrdrusUkMPUYbw74d
+DDocCw3wYB9YKk/uxrufz+moEQdzxA==
+=c3Td
+-----END PGP SIGNATURE-----
+
+--===============3178792546238500705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74cc53cf59b6-9a19aba24ecc.txt
+
+9da1467b49ad6c02840e8f331c5da69f6a5bdb2e drm/rockchip: cdn-dp: Support HDMI codec plug-change callback
+6a8bc4b68ca0c6ef73518b692c00b7e1e010d056 ASoC: rk3399_gru_sound: Wire up DP jack detection
+c32bd332ce5c9eda087dedae2cf5f98bb008e841 ASoC: amd: acp: Add generic support for PDM controller on ACP
+def6dc25070342be2eb220cb1650a286ee29734d ASoC: amd: acp: Add PDM controller based dmic dai for Renoir
+5a9f07a41522e1d16f2a43b1843e266434df0866 ASoC: amd: acp: Add generic PCI driver module for ACP device
+6a75585a3d4bc86e7f5f95b131c4e34125c871ba ASoC: amd: acp: Add ACP init()/deinit() callback for Renoir.
+611ba05e8bc55b35690e90bcc6710f422dd72587 ASoC: amd: acp: acp-legacy: Add DMIC dai link support for Renoir
+2d7d9f36b567ec44c9a758e1ee6e599b4db3cad8 ASoC: amd: renoir: Add check for acp configuration flags
+5b6988fe844a298263821beef5fcc41286a048dc ASoC: SOF: Intel: cnl: Use pm_gate->hdr.cmd in cnl_compact_ipc_compress()
+73a548bd1fa3cbe5d18026230a34c1f058257536 ASoC: SOF: ipc: Drop header parameter from sof_ipc_tx_message_unlocked()
+2acfab7101140e93928a61ca48d7e442aa538dd7 ASoC: SOF: ipc: Do not allocate buffer for msg_data
+73d4c3135b2aa2308fe058f58ddbf658436aa385 ASoC: cs42l51: Improve error handling in cs42l51_remove()
+a3a2a21acfdbfdcac6a24d14481a2c77f78f6fb8 (Re)enable DP/HDMI audio for RK3399 Gru
+e0c8a67f53a2bd96759ec621dcc61bb5c3c4a4be SoC: SOF: ipc: Optimizations for tx message
+9a19aba24eccab961d5b6660baead766e96f9cc2 ASOC: amd: acp: Add generic PDM and PCI driver support for ACP
+
+--===============3178792546238500705==--
