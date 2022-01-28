@@ -1,37 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Fri, 28 Jan 2022 20:28:32 -0000
-Message-Id: <164340171297.916.16157083337228747437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 28 Jan 2022 20:42:26 -0000
+Message-Id: <164340254621.9494.14506686888906851895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/tags/v5.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
-  - ref: refs/tags/v5.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 4a191eab42bda9fba2742d8d538609c737b8194e
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v5.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 182c7355be0383c202572eb06d8d2110d6cda003
-  - ref: refs/tags/v5.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/heads/next
+    old: 29c27ba0124abc26f84ac5f9d3d30861496666de
+    new: 46cec35ff0411e0f7da69ba661ed5d76820b0123
+    log: |
+         724c8fddd71be1fe98cdd3c0f98799f466baefea dwarf_loader: Receive per-thread data on worker threads
+         96d2c5c3232551348b50d736064d3bca2a6134cd dwarf_loader: Prepare and pass per-thread data to worker threads
+         21352753186ec5827a6635c0d0bc5240a6b34165 pahole: Use per-thread btf instances to avoid mutex locking
+         73383b3a39afe86b22e098773e47b8546c48a649 libbpf: Update libbpf to the latest git HEAD
+         46cec35ff0411e0f7da69ba661ed5d76820b0123 fprintf: Fix division by zero for uninitialized conf_fprintf->cacheline_size field
+         
