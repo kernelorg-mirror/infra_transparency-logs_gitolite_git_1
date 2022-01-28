@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2001582045831657940=="
+Content-Type: multipart/mixed; boundary="===============6394285060514478654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Fri, 28 Jan 2022 10:59:21 -0000
-Message-Id: <164336756130.12995.502568665498053062@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 10:59:28 -0000
+Message-Id: <164336756824.13119.4380816576257029387@gitolite.kernel.org>
 
---===============2001582045831657940==
+--===============6394285060514478654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/misc
-    old: 4c63a97dd9523bca404c0a40b8f46acd1e6cfeec
-    new: 4f06a2240771f6867ae5cd8acd29da0c993e2b28
-    log: revlist-4c63a97dd952-4f06a2240771.txt
+  - ref: refs/heads/kcsan/dev
+    old: 923ec3409b936745c49d99c06f12f2b19cc9034f
+    new: 43c7be43b0192ed282f8e1264f55114b31ea1248
+    log: revlist-923ec3409b93-43c7be43b019.txt
 
---===============2001582045831657940==
+--===============6394285060514478654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c63a97dd952-4f06a2240771.txt
+Content-Disposition: attachment; filename=revlist-923ec3409b93-43c7be43b019.txt
 
+9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
+785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
 e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
 8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
 72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
@@ -1047,8 +1049,6 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-0382cd4c0748768aee714cde3c483fe9441fbd91 Revert "ubsan, kcsan: Don't combine sanitizer with kcov on clang"
-7c4d0a82b3c188d0e851f265572f2f392a98c693 stack: Introduce CONFIG_RANDOMIZE_KSTACK_OFFSET
-4f06a2240771f6867ae5cd8acd29da0c993e2b28 stack: Constrain stack offset randomization with Clang builds
+43c7be43b0192ed282f8e1264f55114b31ea1248 WIP: kcsan, seqlock: Support seqcount_latch_t
 
---===============2001582045831657940==--
+--===============6394285060514478654==--
