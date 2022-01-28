@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Fri, 28 Jan 2022 12:40:53 -0000
-Message-Id: <164337365310.15306.12242928166364860106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
+Date: Fri, 28 Jan 2022 12:49:40 -0000
+Message-Id: <164337418023.19521.4412935391023347429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-fixes
+user: luca
 changes:
-  - ref: refs/heads/ath-next
-    old: 51395cf204f27a466fd74c1d328fce1d3283166c
-    new: 0d6e997b76216ca104167a2a0fb79823a7fa9e97
+  - ref: refs/heads/pending
+    old: a136f9f4633699e10245d9cc60edc9dbdf430540
+    new: 96f683a89b4210a649cac679a32ca19a3b1d898a
     log: |
-         d1e0df1c57bd30871dd1c855742a7c346dbca853 ath9k_htc: fix uninit value bugs
-         1cb747192de2edb7e55920af8c458e4792908486 ath11k: set WMI_PEER_40MHZ while peer assoc for 6 GHz
-         0d6e997b76216ca104167a2a0fb79823a7fa9e97 ath11k: avoid firmware crash when reg set for QCA6390/WCN6855
+         9241e049f13ed765f860d099d3f1c159c94164dd iwlwifi: remove deprecated broadcast filtering feature
+         96f683a89b4210a649cac679a32ca19a3b1d898a iwlwifi: mvm: don't send SAR GEO command for 3160 devices
          
-  - ref: refs/heads/ath-qca
-    old: ded62029cd38fe1ab13c2e367f06dec55d206f76
-    new: 0b96d6e2e9ec73dab802ddc0b5d7f4fe011a901b
-    log: |
-         d1e0df1c57bd30871dd1c855742a7c346dbca853 ath9k_htc: fix uninit value bugs
-         1cb747192de2edb7e55920af8c458e4792908486 ath11k: set WMI_PEER_40MHZ while peer assoc for 6 GHz
-         0d6e997b76216ca104167a2a0fb79823a7fa9e97 ath11k: avoid firmware crash when reg set for QCA6390/WCN6855
-         0b96d6e2e9ec73dab802ddc0b5d7f4fe011a901b Merge branch 'ath-next' into ath-qca
-         
+  - ref: refs/tags/iwlwifi-sent-for-review-2022-01-28-part2
+    old: 0000000000000000000000000000000000000000
+    new: 96f683a89b4210a649cac679a32ca19a3b1d898a
