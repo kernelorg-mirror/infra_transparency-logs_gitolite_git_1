@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 28 Jan 2022 19:49:29 -0000
-Message-Id: <164339936956.6687.12347111903160475877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 28 Jan 2022 19:50:03 -0000
+Message-Id: <164339940372.8378.13354115516596154741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 1cf16091126116bdac307a9b7bb66982fb599aa9
-    new: 32aad3bb7aad8d38625746e589e68f623f0296e3
+  - ref: refs/heads/block-5.17
+    old: 3c4ae3478082388ae9680a932d6bfd54c10fca0d
+    new: b879f915bc48a18d4f4462729192435bb0f17052
     log: |
-         32aad3bb7aad8d38625746e589e68f623f0296e3 Fri Jan 28 07:48:56 PM UTC 2022
+         e45c47d1f94e0cc7b6b079fdb4bcce2995e2adc4 block: add bio_start_io_acct_time() to control start_time
+         f524d9c95fab54783d0038f7a3e8c014d5b56857 dm: revert partial fix for redundant bio-based IO accounting
+         b879f915bc48a18d4f4462729192435bb0f17052 dm: properly fix redundant bio-based IO accounting
          
