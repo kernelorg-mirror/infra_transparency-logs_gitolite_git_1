@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 28 Jan 2022 14:27:53 -0000
-Message-Id: <164338007392.21102.6764868610126184126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 28 Jan 2022 14:28:42 -0000
+Message-Id: <164338012235.21485.9847342823174108030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e7d786331c62f260fa5174ff6dde788181f3bf6b
-    new: 9c8c44022b0da6ded7c481368a95f788c69bbcb1
+    old: 7674b7b559b683478c3832527c59bceb169e701d
+    new: 928d6fe996f69330ded6b887baf4534c5fac7988
     log: |
-         9c8c44022b0da6ded7c481368a95f788c69bbcb1 net: sparx5: use .mac_select_pcs() interface
+         928d6fe996f69330ded6b887baf4534c5fac7988 net: stmmac: dwmac-visconti: No change to ETHER_CLOCK_SEL for unexpected speed request.
          
