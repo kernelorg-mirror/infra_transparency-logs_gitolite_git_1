@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8375889071048492315=="
+Content-Type: multipart/mixed; boundary="===============3805938556708255951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 28 Jan 2022 18:09:48 -0000
-Message-Id: <164339338885.5661.18209349872500151699@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 18:09:58 -0000
+Message-Id: <164339339852.5796.759174358148088632@gitolite.kernel.org>
 
---===============8375889071048492315==
+--===============3805938556708255951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: d9f393f468aa939b53cc81b43169953ce37d7cdb
-    new: b76bbb34dc80258f5079b4067f0dae07b394b8fe
-    log: revlist-d9f393f468aa-b76bbb34dc80.txt
+  - ref: refs/heads/mlx5-queue
+    old: e14d8a19c14afb2e97472df86873a04792c99bd3
+    new: d1a24c01dd30e29d1d849895a9264e9f6ba79187
+    log: revlist-e14d8a19c14a-d1a24c01dd30.txt
 
---===============8375889071048492315==
+--===============3805938556708255951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9f393f468aa-b76bbb34dc80.txt
+Content-Disposition: attachment; filename=revlist-e14d8a19c14a-d1a24c01dd30.txt
 
 77965c98cffe41994dce3389c4aae80e2072f098 pwm: Move legacy driver handling into a dedicated function
 92f69e582e15bf281ff1ab3ccc7abdd8392550a3 pwm: Prevent a glitch for legacy drivers
@@ -701,5 +701,35 @@ d40f607c181f5f6282fe6c10eb2c0544f551cf7d net: dsa: realtek: rtl8365mb: add RTL83
 7c263e9db33d124c9886fc5a92a96c12e875da4a Merge branch 'dsa-realtek-MDIO'
 34a79c5dca4aeabc26073ef36233ea1f409b4d4b net/fsl: xgmac_mdio: Fix spelling mistake "frequecy" -> "frequency"
 b76bbb34dc80258f5079b4067f0dae07b394b8fe net: stmmac: dwmac-sun8i: make clk really gated during rpm suspended
+0bed14c84e0b8229db870607dbc5620be1ef81a1 net: Disable LRO feature if no RXCSUM
+67ce8cfda0c89483856831b9c19ddf4b6e1154cc net/mlx4: Delete useless moduleparam include
+a51b69fca936307f75f8e28a44eda0ec8a1a21af net/mlx5: Delete useless module.h include
+4659ef10033ba9ecfb8999a9c3701a60df09ff65 net/mlx5: Node-aware allocation for the IRQ table
+6d5cb733da8ea1f9dcdbed515619e2ef5f2e6354 net/mlx5: Node-aware allocation for the EQ table
+b82202d29062c3db212a25ee735086bbec2e3058 net/mlx5: Node-aware allocation for the EQs
+8a38e80ccaa0ab29dbc1b9ea06a6e5a29677b507 net/mlx5: Node-aware allocation for UAR
+ecf339961ba8756a31f5dca5db3713205cdbf436 net/mlx5: Node-aware allocation for the doorbell pgdir
+3a1a8a8e838c9e57cd44e67da9945278ed0d448f net/mlx5e: E-Switch, Add PTP counters for uplink representor
+50eeb766f9613a713b34f4d13868861900f38595 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+c615adae3860bccf74c6b252f08c1f41b823c320 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+b5e9d6d3fe666bc8086c6f67e395d4a44e5e0f80 net/mlx5: Add ability to insert to specific flow group
+11aec2a324327364a49b2129180805f33be701be net/mlx5: E-Switch, reserve and use same uplink metadata across ports
+f30b11daff85a3a9fda38dd32620181c352305f3 net/mlx5: E-switch, remove special uplink ingress ACL handling
+0417379a979c5146e53d8c93fb14506ab6763cc1 net/mlx5: E-switch, add drop rule support to ingress ACL
+a01979ed8dd490e54c6cc376ea9aa68773d1a1de net/mlx5: Lag, use local variable already defined to access E-Switch
+327146868bfc4e715d339e5d74c47e54b3b878fd net/mlx5: Lag, don't use magic numbers for ports
+0f3217ae4788d1fee643b34eff0878523615894f net/mlx5: Lag, record inactive state of bond device
+e5c8b026c0c5d9f757128725d27ed02034722539 net/mlx5: Lag, offload active-backup drops to hardware
+0aa381b232f9beccab4ffbc950181b5e9cdca402 net/mlx5e: Generalize packet merge error message
+615692bd218cbd1981231c89084b1c9fa5072dc1 net/mlx5e: Remove unused tstamp SQ field
+8519b224826a4737a59de231c1d5a9e09d3f8a1f net/mlx5e: Read max WQEBBs on the SQ from firmware
+782cc88e8b83d5e7672da8095613bf0067766b7b net/mlx5e: Use FW limitation for max MPW WQEBBs
+f4ad8fd4c6eef4c7d75ffd6ca50e485d5a7147d8 Merge branch 'patchq/467855' into mlx5-queue
+f427810a8f6c9ddfe9eb93e144edbfcda86028c6 Merge branch 'patchq/362916' into mlx5-queue
+dbfac9763faaf806169edf34010b1d14801a25db Merge branch 'patchq/467755' into mlx5-queue
+390aec8c0e00e188761605d7bc47c640cf346559 Merge branch 'patchq/464678' into mlx5-queue
+5d16aaf8d21dafd4b24701e3d1d895d2270c0b4f Merge branch 'patchq/452610' into mlx5-queue
+ddbdb7811a7434aa1be9f39672b900645ce65164 Merge branch 'patchq/462991' into mlx5-queue
+d1a24c01dd30e29d1d849895a9264e9f6ba79187 Merge branch 'patchq/396348' into mlx5-queue
 
---===============8375889071048492315==--
+--===============3805938556708255951==--
