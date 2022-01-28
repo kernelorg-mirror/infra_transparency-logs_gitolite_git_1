@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 28 Jan 2022 09:48:16 -0000
-Message-Id: <164336329601.30975.5217378896196945494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Fri, 28 Jan 2022 09:48:24 -0000
+Message-Id: <164336330491.31070.10335545045549718481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: 374630e3f94efc8184a727694276088f52bcc3d1
-    new: 145d9b498fc827b79c1260b4caa29a8e59d4c2b9
+  - ref: refs/heads/imx/soc
+    old: 48e8cc5b38ed3d3f4a1f2ffcde128b2a9035eb21
+    new: ed2e8e0ad593dc5235aa41fe61bfe0e8c3548ae4
     log: |
-         9b6d90e2085ca2ce72ef9ea78658bf270855e62e ata: pata_platform: Fix a NULL pointer dereference in __pata_platform_probe()
-         145d9b498fc827b79c1260b4caa29a8e59d4c2b9 Merge tag 'ata-5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
+         ed2e8e0ad593dc5235aa41fe61bfe0e8c3548ae4 ARM: imx: Add initial support for i.MXRT10xx family
          
