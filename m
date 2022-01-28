@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Fri, 28 Jan 2022 20:28:04 -0000
-Message-Id: <164340168440.684.12261021183755378869@gitolite.kernel.org>
+Date: Fri, 28 Jan 2022 20:28:32 -0000
+Message-Id: <164340171297.916.16157083337228747437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,24 +11,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/namhyung/linux-perf
 user: namhyung
 changes:
-  - ref: refs/tags/v5.10
+  - ref: refs/tags/v5.10-rc1
     old: 0000000000000000000000000000000000000000
-    new: 3f995f8e0b540342612d3f6b1fc299f5bf486987
-  - ref: refs/tags/v5.11
+    new: 8ccd3b86485397172cf41d07ede9c26fc8bf9d88
+  - ref: refs/tags/v5.11-rc1
     old: 0000000000000000000000000000000000000000
-    new: 2d073d933799ffaa046c773bfffa01f3aa461701
-  - ref: refs/tags/v5.12
+    new: 4a191eab42bda9fba2742d8d538609c737b8194e
+  - ref: refs/tags/v5.12-rc1
     old: 0000000000000000000000000000000000000000
-    new: 7bfec074490204bec4a5e3bdfa18bc304c0e3020
-  - ref: refs/tags/v5.13
+    new: d1da37c58e65c4800cce768533c563fa3c89c62f
+  - ref: refs/tags/v5.13-rc1
     old: 0000000000000000000000000000000000000000
-    new: 7cf3dead1ad70c72edb03e2d98e1f3dcd332cdb2
-  - ref: refs/tags/v5.14
+    new: 182c7355be0383c202572eb06d8d2110d6cda003
+  - ref: refs/tags/v5.14-rc1
     old: 0000000000000000000000000000000000000000
-    new: f15c9d899f82eaca5fa38243165a7b1bbee30995
-  - ref: refs/tags/v5.15
+    new: 55aeeea5cfc466c6e46be6410d79f42751906b06
+  - ref: refs/tags/v5.15-rc1
     old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.16
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/tags/v5.16-rc1
     old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
+    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+  - ref: refs/tags/v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
