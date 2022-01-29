@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 29 Jan 2022 17:34:26 -0000
-Message-Id: <164347766600.18355.14492004946502117417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 29 Jan 2022 17:50:37 -0000
+Message-Id: <164347863759.29039.6162902777699337053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-rc
-    old: 3cb875519f0af9457a18aa17dfddbd6144f9a714
-    new: ab451ea952fe9d7afefae55ddb28943a148247fe
+  - ref: refs/heads/master
+    old: 0a78117213c4bb85dfebf89b924226883597bc60
+    new: ff58831fa02deb42fd731f830d8d9ec545573c7c
     log: |
-         ab451ea952fe9d7afefae55ddb28943a148247fe nfsd: nfsd4_setclientid_confirm mistakenly expires confirmed client.
+         f4ea385a16c549753435601c8fb74e0ca12ad2d7 dt-bindings: net: cdns,macb: added generic PHY and reset mappings for ZynqMP
+         8b73fa3ae02b2401960de41b0454c0321377b203 net: macb: Added ZynqMP-specific initialization
+         e461bd6f43f4e568f7436a8b6bc21c4ce6914c36 arm64: dts: zynqmp: Added GEM reset definitions
+         ff58831fa02deb42fd731f830d8d9ec545573c7c Merge branch 'Cadence-ZyncMP-SGMII'
          
-  - ref: refs/tags/nfsd-5.17-1
-    old: 0000000000000000000000000000000000000000
-    new: dd2f37a922333add566e8c72d5a51885904595aa
