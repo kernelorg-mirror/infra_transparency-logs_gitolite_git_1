@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 29 Jan 2022 14:08:24 -0000
-Message-Id: <164346530406.13322.3956959211456550575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Sat, 29 Jan 2022 14:27:11 -0000
+Message-Id: <164346643194.26225.3820397459843899261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 7b60ae1a4266bac2571da36ae093104246ad6ec7
-    new: eb8f4c65ddbeb04da7ee3b46026c00c02c5f6679
+  - ref: refs/heads/ixp4xx-cleanup-v5.17-rc1
+    old: c9bbd09b3066286f881709c58d82c55724840bbb
+    new: f631d4816f6cd4a83d522c69b18091c93cf4f064
     log: |
-         eb8f4c65ddbeb04da7ee3b46026c00c02c5f6679 Sat Jan 29 02:07:48 PM UTC 2022
+         9b8752c84dfaa49187d8a7802860b0346dd1ed59 irq/gpio: ixp4xx: Drop boardfile probe path
+         f631d4816f6cd4a83d522c69b18091c93cf4f064 clocksource/drivers/ixp4xx: Drop boardfile probe path
          
