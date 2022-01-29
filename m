@@ -1,53 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6449950627720455473=="
+Content-Type: multipart/mixed; boundary="===============4433005288802002061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 29 Jan 2022 13:11:06 -0000
-Message-Id: <164346186680.8392.17725390289972123081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 29 Jan 2022 13:14:12 -0000
+Message-Id: <164346205203.9446.17333287397949240688@gitolite.kernel.org>
 
---===============6449950627720455473==
+--===============4433005288802002061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/usb-5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cf0ff2f5cdcf071af5743abf1a5da55eaa250165
+  - ref: refs/heads/master
+    old: d66c1e79b9fcbfc6559ea3c5b1243d590fa04179
+    new: cb323ee75d24e7acc2f188d123ba6df46159cf09
+    log: revlist-d66c1e79b9fc-cb323ee75d24.txt
 
---===============6449950627720455473==
+--===============4433005288802002061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d66c1e79b9fc-cb323ee75d24.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643461865 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643461864-9dace664f23335b78dcc8a83fb2ab7bd6d9e5539
+b36a2050040b2d839bdc044007cdd57101d7f881 io_uring: fix bug in slow unregistering of nodes
+83114df32ae779df57e0af99a8ba6c3968b2ba3d block: fix memory leak in disk_register_independent_access_ranges
+592ee1197f78b30bd60c87db9b6c8c045c8d8314 blk-mq: fix missing blk_account_io_done() in error path
+25e58af4be412d59e056da65cc1cefbd89185bd2 nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
+a5f3851b7f7951e8d4ba0a9ba3b5308a5f250a2d nvme-fabrics: remove the unneeded ret variable in nvmf_dev_show
+3c8cef9f3d86d9bf3402f5b397f92fc7026f78b6 Merge tag 'nvme-5.17-2022-01-27' of git://git.infradead.org/nvme into block-5.17
+10825410b956dc1ed8c5fbc8bbedaffdadde7f20 blk-mq: Fix wrong wakeup batch configuration which will cause hang
+f6133fbd373811066c8441737e65f384c8f31974 io_uring: remove unused argument from io_rsrc_node_alloc
+e45c47d1f94e0cc7b6b079fdb4bcce2995e2adc4 block: add bio_start_io_acct_time() to control start_time
+f524d9c95fab54783d0038f7a3e8c014d5b56857 dm: revert partial fix for redundant bio-based IO accounting
+b879f915bc48a18d4f4462729192435bb0f17052 dm: properly fix redundant bio-based IO accounting
+3b58e9f3a301e175d2de6f7fa1e834c4605e1c73 Merge tag 'io_uring-5.17-2022-01-28' of git://git.kernel.dk/linux-block
+cb323ee75d24e7acc2f188d123ba6df46159cf09 Merge tag 'block-5.17-2022-01-28' of git://git.kernel.dk/linux-block
 
-0000000000000000000000000000000000000000 cf0ff2f5cdcf071af5743abf1a5da55eaa250165 refs/tags/usb-5.17-rc2
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH1POkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1TkQAJthFMO7Rf92BEa2XugL
-oabbaHGBzgaxE98GXhrMoOEBgbUIUqw7K8JcIOsfu0ClCX+6nGYsrBA2cRa1zKY6
-vINA1zDMT2EmL+ZW93YnNXJRVVdbtEA6xOcqUX51v/uQ2hh5NTkftLJU/lUUglhA
-UjED8r1QpGilrRYhm10ODqZyo0tqAU9HU90r2h2kk769vGJFptxJuKc39iztTSy9
-FP/0Mfud36VwHSuSWVtzKYDEyazzeUT9xC4OdUe85lLQpXHO7dUNPtVbq+jVy2Qy
-toRDRwUSCY77K2w5/fUVhWjvapArrANVRVngc99lx4TmuQlcPs+NzGVgFqyE6ADS
-IhqcszC9dhIlCDXWX4AgbdqKUFv69Axbtbvc+5u8lr1/cSmhv8PAeoNf64yzujoA
-JLhh19pk3qoaQkiDEnMIcWj0z+vPa4Ct047Ggbx0XoUBSaUTRhu0cD00iw1xdPnr
-49mbhdwzAVtQIjz0s3pt0QKWEjqx4Ysbg9ss0I03kr9KCq5ZERrxtyoAh4la3cuV
-CsffoS1XZVVCMNBkLuX+cRY/AZRMebfs/1D1K0DYAPwPCsQyfJq8rDqD72ABhzQ2
-IrPbR5mImbmfXLIlST4HkDNFxVw4ldqvZpUkdjVwc9piA2fAggiI4TfyEoXJxLzS
-B1qd840UI/pWZwfjz/yOeZsu
-=97uV
------END PGP SIGNATURE-----
-
---===============6449950627720455473==--
+--===============4433005288802002061==--
