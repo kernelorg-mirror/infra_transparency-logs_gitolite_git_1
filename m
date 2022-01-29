@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 29 Jan 2022 20:50:03 -0000
-Message-Id: <164348940337.13953.13143267355514121360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 29 Jan 2022 21:15:25 -0000
+Message-Id: <164349092526.30606.11752106152425673779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 4cd90083d32574e52ac839c6c7e4ff445ac4472c
-    new: f8c7e4ede46fe63ff10000669652648aab09d112
+  - ref: refs/heads/for-next
+    old: f7d4ead792c83c9082465fd1d89f9773bacc9895
+    new: 9329a65bb590dbfa5f8db7fd4dac106379564343
     log: |
-         4b77e4abb32cddb9e666e2ac411b0b0d6b8331dd PCI: mt7621: Drop of_match_ptr() to avoid unused variable
-         c035366d9c9fe48d947ee6c43465ab43d42e20f2 PCI: mt7621: Remove unused function pcie_rmw()
-         66d28b21fe6b3da8d1e9f0a7ba38bc61b6c547e1 PCI/sysfs: Find shadow ROM before static attribute initialization
-         f8c7e4ede46fe63ff10000669652648aab09d112 Merge tag 'pci-v5.17-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+         437bdba0824df1de82ce56c0bb49e487601a793a video: smscufx: Fix null-ptr-deref in ufx_usb_probe()
+         e93c0ffcdbcc28262702e148bad18bc1dc3441ab video: fbdev: s3c-fb: drop unneeded MODULE_ALIAS
+         99876596741cde3e3006f0e850415606df0d958f video: fbdev: via: Fix spelling mistake "bellow" -> "below"
+         5be98b155a79676cae9ff127e8b1a8b6fe5b5f1e nvidiafb: Use strscpy() to prevent buffer overflow.
+         412e58c2a9288403c29b30c231292314325d3dcb agp: define proper stubs for empty helpers
+         760868740cdd3f704bbce6b9282cfcafb2cb7f50 video: fbdev: au1200fb: Make use of dma_mmap_coherent()
+         1b4c3139784209b1a6cdb2d3a6369edbe1997131 video: fbdev: w100fb: Reset global state
+         9329a65bb590dbfa5f8db7fd4dac106379564343 video: fbdev: atyfb: Remove assigned but never used variable statements
          
