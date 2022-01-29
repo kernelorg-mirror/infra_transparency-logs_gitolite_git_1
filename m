@@ -1,54 +1,81 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sat, 29 Jan 2022 10:12:43 -0000
-Message-Id: <164345116335.1308.8815276142316543080@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8024193560017233477=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 29 Jan 2022 10:57:58 -0000
+Message-Id: <164345387878.30709.16683078909842023185@gitolite.kernel.org>
+
+--===============8024193560017233477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 46efbc0a36ed9b67f033b56b92cc8f90f8d8664d
-    new: ab975bc1c4082c4592a075fba26cce0b3f22ad62
-    log: |
-         230b80404d61559abb766ee0a7bf49018b985588 Remove parameters annotated by __attribute__((unused)).
-         0cb4f590069e065488c43c3f98139330d6d00a54 Rename encrypt helper function to avoid clash with unistd prototype.
-         ab975bc1c4082c4592a075fba26cce0b3f22ad62 Update copyright year.
-         
-  - ref: refs/merge-requests/264/merge
-    old: f14974b27d469d38368b5a02452855f5a21cf3f0
-    new: 1f8d9f1509e15b5757a981a47149aa0d88b24f14
-    log: |
-         46efbc0a36ed9b67f033b56b92cc8f90f8d8664d argon2: Don't call _endthreadex/pthread_exit
-         230b80404d61559abb766ee0a7bf49018b985588 Remove parameters annotated by __attribute__((unused)).
-         0cb4f590069e065488c43c3f98139330d6d00a54 Rename encrypt helper function to avoid clash with unistd prototype.
-         1f8d9f1509e15b5757a981a47149aa0d88b24f14 Merge branch 'minor-documentation-improvements' into 'master'
-         
-  - ref: refs/merge-requests/267/merge
-    old: 307ae339fb450749d6f0a060796911d89d39107e
-    new: 08db912cc26c1adeb270b87c998435c45717f62a
-    log: |
-         46efbc0a36ed9b67f033b56b92cc8f90f8d8664d argon2: Don't call _endthreadex/pthread_exit
-         230b80404d61559abb766ee0a7bf49018b985588 Remove parameters annotated by __attribute__((unused)).
-         0cb4f590069e065488c43c3f98139330d6d00a54 Rename encrypt helper function to avoid clash with unistd prototype.
-         08db912cc26c1adeb270b87c998435c45717f62a Merge branch 'tests' into 'master'
-         
-  - ref: refs/merge-requests/271/merge
-    old: 97704cd3586c2ce766b16358c99e47e75095cdd4
-    new: d873b4cf5a795965dd77834e5c27594f542c29ff
-    log: |
-         46efbc0a36ed9b67f033b56b92cc8f90f8d8664d argon2: Don't call _endthreadex/pthread_exit
-         230b80404d61559abb766ee0a7bf49018b985588 Remove parameters annotated by __attribute__((unused)).
-         0cb4f590069e065488c43c3f98139330d6d00a54 Rename encrypt helper function to avoid clash with unistd prototype.
-         d873b4cf5a795965dd77834e5c27594f542c29ff Merge branch 'detect-core-dumps' into 'master'
-         
-  - ref: refs/pipelines/458771770
-    old: 46efbc0a36ed9b67f033b56b92cc8f90f8d8664d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/pipelines/458772725
-    old: 085cabbe8b46e8f8befdb5aebd5596e940b3f9bf
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v4.14.264
+    old: 0000000000000000000000000000000000000000
+    new: 83495115f947187692c09941b081918c61d4caf5
+  - ref: refs/tags/v4.19.227
+    old: 0000000000000000000000000000000000000000
+    new: cb2b406db423251f158f7d92edcfd44b55ff27b7
+  - ref: refs/tags/v4.4.301
+    old: 0000000000000000000000000000000000000000
+    new: 224090d7a8fca0e34249914699ae647d79efd666
+  - ref: refs/tags/v4.9.299
+    old: 0000000000000000000000000000000000000000
+    new: 70a1142fc5ec9ad0b60738008905dca7e7ffa4d0
+  - ref: refs/tags/v5.10.95
+    old: 0000000000000000000000000000000000000000
+    new: cf899be6f7cf619e283548eb92422e012fe1b317
+  - ref: refs/tags/v5.15.18
+    old: 0000000000000000000000000000000000000000
+    new: 78231ea783bda0b30cd2a5ef8a2e23729983eae8
+  - ref: refs/tags/v5.16.4
+    old: 0000000000000000000000000000000000000000
+    new: dd80cd783076d692127e0076427775d37662fb98
+  - ref: refs/tags/v5.4.175
+    old: 0000000000000000000000000000000000000000
+    new: a58e306b85a9662c5b450370b9c784ed2d1b76eb
+
+--===============8024193560017233477==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643453870 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1643453866-8a1a9947e559f5104ffd5101c25aad8d7a1a478c
+
+0000000000000000000000000000000000000000 83495115f947187692c09941b081918c61d4caf5 refs/tags/v4.14.264
+0000000000000000000000000000000000000000 cb2b406db423251f158f7d92edcfd44b55ff27b7 refs/tags/v4.19.227
+0000000000000000000000000000000000000000 224090d7a8fca0e34249914699ae647d79efd666 refs/tags/v4.4.301
+0000000000000000000000000000000000000000 70a1142fc5ec9ad0b60738008905dca7e7ffa4d0 refs/tags/v4.9.299
+0000000000000000000000000000000000000000 cf899be6f7cf619e283548eb92422e012fe1b317 refs/tags/v5.10.95
+0000000000000000000000000000000000000000 78231ea783bda0b30cd2a5ef8a2e23729983eae8 refs/tags/v5.15.18
+0000000000000000000000000000000000000000 dd80cd783076d692127e0076427775d37662fb98 refs/tags/v5.16.4
+0000000000000000000000000000000000000000 a58e306b85a9662c5b450370b9c784ed2d1b76eb refs/tags/v5.4.175
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH1Ha4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+034QAKWatDSKa4b+K4i+AAUB
+jbuc4EY7ytW+QrhldDqMQio9LQLeztSDjid+KLdsx5VM8BC9JmKPIwVhWLtXAwD7
+2+pmsJOuzUzunsOE30F0RRBW5oSp92mlbg+NdFdq1z4GDGoejyDC4ErPFK0xl6bz
+7PnrA28CZ93SVKDKbQ3foIJDpErPUaxBxlAVRwqoMZjx9QbCDGRK/df+PpZJ4fdC
+05y2IHW+88oD9jJd8N2YjNIzwCLz+yU6jbwWmUoBONBTS1STxBh0V5L/Q3gLEWf4
+ayCEkL+bW6NRobaRYFEkCf0IHQHTXx6FRJtV4mAGp7tl6NF6fuO0bVsmqhth3L4k
+86Yztlg2JJRif/qY6VXu8oxptDuLMd/6UtvBeVkVl018WtDGM8WCDNY3DUNWEE2c
+NRVi3nf8JBKz4s6r0c82obCMvnY4qrMnbDjWJR+RgIgmFfcs1PTep8drCH/qugsF
+D8FL/Tx4CruFkBv2xVSwAQACLc6UNgTJ4mhXfD3GVUacp4SmJZjpJB3pFPpElg3p
+aOs7C4NN+/k+/O1v/PEcEQ4zbPRfNd74oX7Jytvrt7zN1EAEaY7nANTnntuGE0Od
+ID9A5QWpjYTsR+mtOcT4beVRKPxXGopCSs5AxgCdLWYErb8rC/dLNTikHpBP49IV
+y23abHKqTDtHSAjLa0ecXj+c
+=0lAY
+-----END PGP SIGNATURE-----
+
+--===============8024193560017233477==--
