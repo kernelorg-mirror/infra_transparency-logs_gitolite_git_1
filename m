@@ -1,44 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 29 Jan 2022 17:56:09 -0000
-Message-Id: <164347896980.1277.8492724510668455940@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1856471514752136688=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sat, 29 Jan 2022 17:58:44 -0000
+Message-Id: <164347912428.2212.1694621732030285138@gitolite.kernel.org>
+
+--===============1856471514752136688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: e022219292b58ee26efbb2bfb00c2291f3e7980f
-    new: fe2005dd0ba60eb01e3a42ebcb95ca6912d06912
-    log: |
-         9ade1ab4d85f5fc31a5d6cf5147702ed5c1b5b10 arm64: dts: rockchip: fix vcc3v3_lcd{0,1}_n regulators in rk3568-evb1-10
-         922237a6c211d9fe46b5dfb56307872cdced386d arm64: dts: rockchip: add the touchscreen controller to rk3568-evb1-v10
-         8c318aaa20000bcfb9dc115c2a8e08c2e77ad439 arm64: dts: rockchip: fix Quartz64-A ddr regulator voltage
-         827dfba89ae150cd0fd88bc13117540cb4882943 arm64: dts: rockchip: add Quartz64-A pmu_io_domains
-         2ed1e35457a1917a9c567c186a5adc7ce6341b6e arm64: dts: rockchip: add Quartz64-A sdmmc1 node
-         2943660fe301aa650cdf60226a2a350d09145823 arm64: dts: rockchip: add Quartz64-A con40 hardware
-         7623e16af6bac131305292eb99cea988adbf0484 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-         722f10f9d34e2f84fee2ca19bcb7d2cc589d2748 Merge branch 'v5.17-armsoc/dtsfixes' into for-next
-         fe2005dd0ba60eb01e3a42ebcb95ca6912d06912 Merge branch 'v5.18-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v5.17-armsoc/dtsfixes
-    old: b5fbaf7d779f5f02b7f75b080e7707222573be2a
-    new: 7623e16af6bac131305292eb99cea988adbf0484
-    log: |
-         8c318aaa20000bcfb9dc115c2a8e08c2e77ad439 arm64: dts: rockchip: fix Quartz64-A ddr regulator voltage
-         7623e16af6bac131305292eb99cea988adbf0484 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-         
-  - ref: refs/heads/v5.18-armsoc/dts64
-    old: 1ff37c22b16188f03400914ee20c597dd56ce25c
-    new: 2943660fe301aa650cdf60226a2a350d09145823
-    log: |
-         9ade1ab4d85f5fc31a5d6cf5147702ed5c1b5b10 arm64: dts: rockchip: fix vcc3v3_lcd{0,1}_n regulators in rk3568-evb1-10
-         922237a6c211d9fe46b5dfb56307872cdced386d arm64: dts: rockchip: add the touchscreen controller to rk3568-evb1-v10
-         827dfba89ae150cd0fd88bc13117540cb4882943 arm64: dts: rockchip: add Quartz64-A pmu_io_domains
-         2ed1e35457a1917a9c567c186a5adc7ce6341b6e arm64: dts: rockchip: add Quartz64-A sdmmc1 node
-         2943660fe301aa650cdf60226a2a350d09145823 arm64: dts: rockchip: add Quartz64-A con40 hardware
-         
+  - ref: refs/heads/net-next-mlx4
+    old: b76bbb34dc80258f5079b4067f0dae07b394b8fe
+    new: 0a78117213c4bb85dfebf89b924226883597bc60
+    log: revlist-b76bbb34dc80-0a78117213c4.txt
+
+--===============1856471514752136688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b76bbb34dc80-0a78117213c4.txt
+
+89a0b8b98f49ae34886e67624208c2898e1e4d7f Bluetooth: hci_sync: Fix compilation warning
+4b6858797229fc787d1b737cace469ad146aaaf0 Bluetooth: btmtksdio: rename btsdio_mtk_reg_read
+ce64b3e949195768361b0e4111e0837e5e46930d Bluetooth: mt7921s: Support wake on bluetooth
+191c872308f6a175324bc33807852b10363066cb Bluetooth: mt7921s: Enable SCO over I2S
+5677bcf6d8ff645d90c422ab035030c6aeec9296 Bluetooth: btmtksdio: move struct reg_read_cmd to common file
+386f626adda81d224f7229e31ebdefcd616b2ff2 Bluetooth: btmtksdio: clean up inconsistent error message in btmtksdio_mtk_reg_read
+c07ba878ca199a6089cdb323bf526adbeeb4201f Bluetooth: hci_sync: unlock on error in hci_inquiry_result_with_rssi_evt()
+3afee2118132e93e5f6fa636dfde86201a860ab3 Bluetooth: fix null ptr deref on hci_sync_conn_complete_evt
+3368aa357f3ba133ae65fc26c04d24a1447a3903 Bluetooth: msft: Handle MSFT Monitor Device Event
+8d7f167752c3e4c45a39e76ffa6f7209413d3fa6 Bluetooth: mgmt: Add MGMT Adv Monitor Device Found/Lost events
+55235304c2560d4a94ccfff2a47ea927b4114064 Bluetooth: btintel: Fix WBS setting for Intel legacy ROM products
+2e7b4a328ed6ea57d22853939e69bc86c560996d Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+aa17e8ce1c20619af46fc2b472aa2d1c5e50c3cc Bluetooth: btusb: Whitespace fixes for btusb_setup_csr()
+a86974f75e8806bc357a9be02f9bde083f40b4ae Bluetooth: Remove kernel-doc style comment block
+9d7cbe2b9cf5f650067df4f402fdd799d4bbb4e1 Bluetooth: hci_serdev: call init_rwsem() before p->open()
+2fc967cc0dadad6735448cfbcbc77fe0ea30203d Bluetooth: mt7921s: fix firmware coredump retrieve
+c7e301d7c85544607ccc52ca5f26d20c59485342 Bluetooth: btmtksdio: refactor btmtksdio_runtime_[suspend|resume]()
+752aea58489fd42f5c54dc50cb098d19e486ae61 Bluetooth: mt7921s: fix bus hang with wrong privilege
+01ecc177b7d7ba055b79645e60e89385736ef2fc Bluetooth: mt7921s: fix btmtksdio_[drv|fw]_pmctrl()
+095519de2debef7666d519208ac2e7bc96cfa6bf Bluetooth: btmtksdio: lower log level in btmtksdio_runtime_[resume|suspend]()
+e98aa38cafec489ec025572c529dfb3d64559718 Bluetooth: btmtksdio: run sleep mode by default
+db3f1f9b5d88d8d7f9eaa486f71784dd319285ff Bluetooth: btmtksdio: mask out interrupt status
+5201d23cc8e57531e0b17e41c0ae10405ba6abd3 Bluetooth: msft: fix null pointer deref on msft_monitor_device_evt
+d5ebaa7c5f6f688959e8d40840b2249ede63b8ed Bluetooth: hci_event: Ignore multiple conn complete events
+2d4b37b67cacbbad6fdb8621333f5ce48ae0e5fd Bluetooth: hci_core: Rate limit the logging of invalid SCO handle
+314d8cd2787418c5ac6b02035c344644f47b292b Bluetooth: hci_event: Fix HCI_EV_VENDOR max_len
+b050c5bbbccfb9e6cbf29c8ee7a41c1bba972bdf Bluetooth: btrtl: Add support for RTL8822C hci_ver 0x08
+adce573b927adf827f2f8627f05c2ba90031ebc9 Bluetooth: hci_h5: Add power reset via gpio in h5_btrtl_open
+0b94f2651f56b9e4aa5f012b0d7eb57308c773cf Bluetooth: hci_sync: Fix queuing commands when HCI_UNREGISTER is set
+91cb4c19118a19470a9d7d6dbdf64763bbbadcde Bluetooth: Increment management interface revision
+0a78117213c4bb85dfebf89b924226883597bc60 Merge tag 'for-net-next-2022-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+
+--===============1856471514752136688==--
