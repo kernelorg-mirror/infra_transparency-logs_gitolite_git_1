@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4470255410090624552=="
+Content-Type: multipart/mixed; boundary="===============1426454758523151495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 29 Jan 2022 09:18:49 -0000
-Message-Id: <164344792903.13515.12839817687766213359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 29 Jan 2022 09:18:59 -0000
+Message-Id: <164344793995.13652.6979438672272979262@gitolite.kernel.org>
 
---===============4470255410090624552==
+--===============1426454758523151495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v4.14.264
-    old: 0000000000000000000000000000000000000000
-    new: a0b2a1221ea1482306052af286e2a2cc68db0f28
+  - ref: refs/heads/linux-4.14.y
+    old: bbb957e1bd4a337c0d10d599d284a7475bca47cb
+    new: b86ee2b7ae42b6b37a918b66236608e2cc325f59
+    log: |
+         eed39c1918f1803948d736c444bfacba2a482ad0 drm/i915: Flush TLBs before releasing backing store
+         632881680ba0fab07a47157e9db3a029710abbac can: bcm: fix UAF of bcm op
+         e8d092a62449dcfc73517ca43963d2b8f44d0516 drm/vmwgfx: Fix stale file descriptors on failed usercopy
+         b86ee2b7ae42b6b37a918b66236608e2cc325f59 Linux 4.14.264
+         
 
---===============4470255410090624552==
+--===============1426454758523151495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643447928 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1643447927-4e2acb635c68e45dcb851b9dcd3c84426d18a72a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643447939 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1643447937-f5e643c71285c3d7cbcea81b01ae9a8386a4aabb
 
-0000000000000000000000000000000000000000 a0b2a1221ea1482306052af286e2a2cc68db0f28 refs/tags/v4.14.264
+bbb957e1bd4a337c0d10d599d284a7475bca47cb b86ee2b7ae42b6b37a918b66236608e2cc325f59 refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH1BngbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+95gP/izbLND6zOTh6zYNjXMn
-oYbJcPALWYgeWW0kyVXPWABQo34rcl2ZPrnjc7BXiut2iJQPxM5WfULhM5XGju0p
-80Dqo1PZUB63fPHP2NE0Oc1t+KJsLESp5/YrcUuV9fiav11L/hUPfdacLrq4bnGw
-xU/vTZgZSiCGG71LjNNDUfjqmjDaHqp/eoWb9532009DHIeKAGlOVkz+KFVfi/A8
-x9TK5v9uORdHYyKPgTYwAmT2rBkxn8tT31/c/ykz5Y72gWJuCBWmlQvKXHbwOAsx
-lok5QUHx9tn/TE4omHZwYGe9c3SeCOUoq6SpBsz5jdxnqhbybmV+7mFQWXUwQpii
-G9b2CETqYU+P+1jBogK1O2m2GbSQQHZybGrHNwq3aKCHzj+LqSQyhgw71kOsk56n
-RoLuzxeGuKvOyaqUVUsu/PDLqbkSBvgbRISJ9kGWmOQN4gBxSL2EfccCrjbyeIhg
-EOkWbOjLy2cEejtpSrTfNfy9Z+WAK8KObi6otfphK7RDd7YNtwnGDZ5hoOKV6Bny
-OXT7UDdF+fhmBIuuL9sqOEY22iP2+kuW+6K+f9eoISHXJJONJ/hdLtN2ELyXoey8
-v5z0OX43ly/VwcWToLs6wrnz5QDtNDd2F+7jkDJ2NKN2Eh6kW9wTVn5/DMmc49zv
-Ey0J++UwK7VrjaAdLBgVJtiP
-=8ocQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH1BoMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kc0QAIeFTZctdySfoVvtOHAH
+tWxvuiNrvsM4fAdDX9cL2zmf2E7XseqFDRupVzrkUY01+OzdL49lfg/cqD06V8QN
+mRyLYRZiVkP5BZr4yjtqueSyFwDpfxQrGJ7jiERltBNz6CDe4ncCbTX1+nxqL2yW
+FEQo4lvUtcNV7+7ggUgbLTHr92L2+PYPBQy/m9EOhptnh9o4u3VLK6lsVESlbDEc
+dfUaRXgF5hDzBXgOeh779ivu5UEDQZhwfLzL53UnbrIVQGqNJxHeP2ammmPPQEyy
+f/WevCnwOV7ilzIiM8IW9bKMjf2BGx93cXZCCnV8LjbvOWeNfgviXHESoNXqnBtw
+941WlWu90CCzFqorgZrlrYlrdrt6hnhDso4uAY9nsVAM3KCy6oDzM1TaGR0UH1CL
+4inAM53B22ztUbZGrH/ep2X9Y8yJX+UCuOmnhVRfrBKueZoR7OVzx9wqIFeMIB4p
+Byfauroida5Ya+8QssHX9Gcm7OhxFirHqtOwpAP1KKN32Y3gmdBvlQxWCyb1CvuU
+mtESj2XRVYHtxVRpjIMyeXiV25BBh4bfGx/7irQgjNe6ghX2ZwacMjNIUzw/mW7z
+9TPfCmw6C3bB6728TicCIh+3mSGN8/ajNiQa7hGeKXzQkY1Oqq92+K0c2MjBQwcN
+NdeYC+YQ6xagWGkPm9PqOOS8
+=a5Xn
 -----END PGP SIGNATURE-----
 
---===============4470255410090624552==--
+--===============1426454758523151495==--
