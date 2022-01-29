@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1861354032241543579=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 29 Jan 2022 11:33:14 -0000
-Message-Id: <164345599467.14590.9868176311389413173@gitolite.kernel.org>
-
---===============1861354032241543579==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sat, 29 Jan 2022 11:34:26 -0000
+Message-Id: <164345606660.15073.9203690681569260681@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 078a3ad2bf6f4b0ca33de62833853530c4dd966b
-    new: 31f154af3b00dc2d0419cff457104b287b6bd18e
+  - ref: refs/heads/queue/4.14
+    old: 815d04e959cc0f998bf9e97c1e4381fa04053329
+    new: b86ee2b7ae42b6b37a918b66236608e2cc325f59
     log: |
-         31f154af3b00dc2d0419cff457104b287b6bd18e 4.4-stable patches
+         eed39c1918f1803948d736c444bfacba2a482ad0 drm/i915: Flush TLBs before releasing backing store
+         632881680ba0fab07a47157e9db3a029710abbac can: bcm: fix UAF of bcm op
+         e8d092a62449dcfc73517ca43963d2b8f44d0516 drm/vmwgfx: Fix stale file descriptors on failed usercopy
+         b86ee2b7ae42b6b37a918b66236608e2cc325f59 Linux 4.14.264
          
-
---===============1861354032241543579==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643455993 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1643455992-74e23e1e468b6e6ddd5f2c38cba00cd031f9a6bb
-
-078a3ad2bf6f4b0ca33de62833853530c4dd966b 31f154af3b00dc2d0419cff457104b287b6bd18e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH1JfobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qP0P/1JIK8kbwa/B/jmnKO1w
-PTencZ2smykRZ2+aPMSOfsYhoORT5tn95PgoO3vOWpE0+WR5uTxVpRpQKq6c8pTq
-kovwHzXbXUMUL76/DNwzUyV/u2htKzE6xmUVzBeHAsjBHTOE+sw4WV8rXcNDz9K3
-gWJgpsavaHUTrjjkzsWhSOzg8Lmx4/r2BMZrsJw9l+DIe7WrBScQwB7MIV09x7nY
-CCC2L4Vy1J98CY9OMqSJiCPlJGYlGz+8eQ6LxkcPrasH0iju/tokrX2ePlDxVDOo
-Xw8wn1JDMtfd93ErweUnzShU+vJkB4AOJuG1CIVoVbXb23MmSkUisJstY6Bguj7O
-EZN3aXSlI9xq847yR5d0PHnjmD9x8ggotyEkyaCkIPLrHgxUAe28iVlBe/ZxZGdl
-nZV183Xvo2k1twbcb6g4tAWcDXS9lBBnTLBva70lzARlcY1rFHpLtv9T6/BbIbl+
-XtVImgyVL8C21FMdDz9qZ9S7cHXxiPBXeCh4RnGirzcdxQnsL4ItVGBSF/B4GDtq
-Ul5Ot7lmGmzOQnW8aWmWd31X3Cyxgy3/fGW0h+4VSFqM5696uvG8h7MTZUro6C4l
-cRoJGD2+/fwUIIrt8o2YAbw+ejSsX+kBU3fgduXsSIM6NP5pzh/+kDqqpYFPK1Iz
-BTUuW9QZuNe0+qAFwvmnsGfp
-=woyG
------END PGP SIGNATURE-----
-
---===============1861354032241543579==--
+  - ref: refs/heads/queue/4.4
+    old: f72eb9d3ea7de2add4527dcc2bc51fc9715f15fd
+    new: 912987648aa0eff729dec6bf5793c3f250865c92
+    log: |
+         db6a2082d5a2ebc5ffa41f7213a544d55f73793a drm/i915: Flush TLBs before releasing backing store
+         26acbf7bad62c8236607a00747da2302e7e1bf29 Linux 4.4.301
+         912987648aa0eff729dec6bf5793c3f250865c92 can: bcm: fix UAF of bcm op
+         
+  - ref: refs/heads/queue/4.9
+    old: 56a939b7bbe68cee0692664338bd0c5f5254dc96
+    new: 067027edea759c758ef006590ff8dde4ae38d60d
+    log: |
+         84f4ab5b47d955ad2bb30115d7841d3e8f0994f4 drm/i915: Flush TLBs before releasing backing store
+         1795af6435fa5f17ced2d34854fd4871e0780092 media: firewire: firedtv-avc: fix a buffer overflow in avc_ca_pmt()
+         993892ed82350d0b4eb7d321d2bb225219bd1cfc NFSv4: Initialise connection to the server in nfs4_alloc_client()
+         9c9b899bfc53fdffa97efeffea5a0c870b4493b5 KVM: nVMX: fix EPT permissions as reported in exit qualification
+         e262acbda232b6a2a9adb53f5d2b2065f7626625 KVM: X86: MMU: Use the correct inherited permissions to get shadow page
+         d47e16bb32239e4aecb3bb04bd9117016e4884fb ARM: 8800/1: use choice for kernel unwinders
+         504e1d6ee65d5b5a053253ae62f46035d774353c ion: Fix use after free during ION_IOC_ALLOC
+         a8200613c8c9fbaf7b55d4d438376ebaf0c4ce7e ion: Protect kref from userspace manipulation
+         c47385c73fced27375559d1a2eb10f165a0869b0 ion: Do not 'put' ION handle until after its final use
+         224d99f50f25ec3234b99556c0076a7130e230c6 Linux 4.9.299
+         067027edea759c758ef006590ff8dde4ae38d60d can: bcm: fix UAF of bcm op
+         
