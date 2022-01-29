@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4343921302400113054=="
+Content-Type: multipart/mixed; boundary="===============0750907173194332764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 29 Jan 2022 12:20:40 -0000
-Message-Id: <164345884064.13525.1073592941901104380@gitolite.kernel.org>
+Date: Sat, 29 Jan 2022 12:22:37 -0000
+Message-Id: <164345895743.15664.7313320269408838642@gitolite.kernel.org>
 
---===============4343921302400113054==
+--===============0750907173194332764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,105 +15,135 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue/4.4
-    old: bab4bd9d792d61b5151d5eac8b810ef59719ddd6
-    new: 4e5c2f23acfe652eae4a61809c978f52b54b909d
+  - ref: refs/heads/queue/4.19
+    old: 23c81f83e59b37480961582e774edf4bd4773733
+    new: 5c9e52e314a3f19c733dcd64d90bee432da9ff38
     log: |
-         4e5c2f23acfe652eae4a61809c978f52b54b909d can: bcm: fix UAF of bcm op
+         b188780649081782e341e52223db47c49f172712 drm/i915: Flush TLBs before releasing backing store
+         ac06e167c4ae08e481c7944677856c638724643a net: bridge: clear bridge's private skb space on xmit
+         6717900f775a6129a7b4d03ba4922218d8bf1caa select: Fix indefinitely sleeping task in poll_schedule_timeout()
+         0008a0c78fc33a84e2212a7c04e6b21a36ca6f4d drm/vmwgfx: Fix stale file descriptors on failed usercopy
+         f4b1bd6d9c2e2818ad1ef2483471c8b9a5c0a01c Linux 4.19.227
+         7b10b922506b8181b600bf4447d1436b0434d2db Bluetooth: refactor malicious adv data check
+         2bd50b493138b540af4a30d2f2ab236198a654d3 s390/hypfs: include z/VM guests with access control group set
+         c06903aa8160742feaa3f54d42d48fbbeb31d9b0 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+         078433beab0e5e4f7f8f55dc4e655e2aa15049be udf: Restore i_lenAlloc when inode expansion fails
+         5c9e52e314a3f19c733dcd64d90bee432da9ff38 udf: Fix NULL ptr deref when converting from inline format
+         
+  - ref: refs/heads/queue/4.4
+    old: 4e5c2f23acfe652eae4a61809c978f52b54b909d
+    new: 481a212255c234a1fe440d6aba97d150e72f23a9
+    log: |
+         481a212255c234a1fe440d6aba97d150e72f23a9 can: bcm: fix UAF of bcm op
          
   - ref: refs/heads/queue/4.9
-    old: 646af4f02e5cc3c1121208d30b186a9409545814
-    new: bb10d559271b4533d3c8520097008f625d99e370
+    old: bb10d559271b4533d3c8520097008f625d99e370
+    new: f758124b4480a9453cee344f7ffb170536f18ef5
     log: |
-         bb10d559271b4533d3c8520097008f625d99e370 can: bcm: fix UAF of bcm op
+         f758124b4480a9453cee344f7ffb170536f18ef5 can: bcm: fix UAF of bcm op
          
+  - ref: refs/heads/queue/5.10
+    old: 5a8d22da189cf1ac36e06a5d88bdde0e9c2897e0
+    new: 8044a3636dddfce6175e2e3688f5525c70429d5c
+    log: revlist-5a8d22da189c-8044a3636ddd.txt
   - ref: refs/heads/queue/5.15
-    old: c73eb712610c21fd04823315739b324965c525c7
-    new: d174ea24b2c1712371b94780c300f2a8e7213632
-    log: revlist-c73eb712610c-d174ea24b2c1.txt
+    old: d174ea24b2c1712371b94780c300f2a8e7213632
+    new: f8754791fec88349d7df917516f2ce9e2e4d2efa
+    log: revlist-d174ea24b2c1-f8754791fec8.txt
   - ref: refs/heads/queue/5.16
-    old: c6c6b2dfcf72f647ad309c4a835e0306da5b2cb5
-    new: cf1a7daebca6fae7d31559bf526d8b02a0a8993d
-    log: revlist-c6c6b2dfcf72-cf1a7daebca6.txt
+    old: cf1a7daebca6fae7d31559bf526d8b02a0a8993d
+    new: d3c06100c7b000925e1339298597d9e503697aeb
+    log: revlist-cf1a7daebca6-d3c06100c7b0.txt
   - ref: refs/heads/queue/5.4
-    old: 3a682cf97a93c48afeb93f8c29acdd0f54126e9d
-    new: 1c02208e15be5e5547984cf45959fd4162ebf278
+    old: 1c02208e15be5e5547984cf45959fd4162ebf278
+    new: 5c2d3390d101d27747d9ff649034aff9efa8155d
     log: |
-         1c02208e15be5e5547984cf45959fd4162ebf278 Bluetooth: refactor malicious adv data check
+         5c2d3390d101d27747d9ff649034aff9efa8155d Bluetooth: refactor malicious adv data check
          
 
---===============4343921302400113054==
+--===============0750907173194332764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c73eb712610c-d174ea24b2c1.txt
+Content-Disposition: attachment; filename=revlist-5a8d22da189c-8044a3636ddd.txt
 
-8a17a077e7e9ecce25c95dbdb27843d2d6c2f0f7 drm/i915: Flush TLBs before releasing backing store
-f71c91ed1d4b4bfbbb55327b04dcc32b2d970f62 drm/amd/display: reset dcn31 SMU mailbox on failures
-b168b1a0397ea64afc852e8f639be5bd920a79d9 io_uring: fix not released cached task refs
-66e1791cbeedce631dbad32bfb974c7f910fc8df bnx2x: Utilize firmware 7.13.21.0
-2691be41fede058092c84455e3d52232e08a5990 bnx2x: Invalidate fastpath HSI version for VFs
-7182935bd5ae2b7f747d6feb2b56b918ab26647c memcg: flush stats only if updated
-6c8076660d9cc281dbb0445c3967f1e1641f5115 memcg: unify memcg stat flushing
-6ebe994b54a63f78e7bba65ac5ebaca7dfa88526 memcg: better bounds on the memcg stats updates
-c3156dbd5082c65b84936c8de47149799dee3ef8 rcu: Tighten rcu_advance_cbs_nowake() checks
-145407e54fd15fd2a87ee7d6c66077e614036a9b select: Fix indefinitely sleeping task in poll_schedule_timeout()
-7b6577cf9fe48d24d82df9362a077396a9d5cb27 drm/amdgpu: Use correct VIEWPORT_DIMENSION for DCN2
-9c82ce59362672e0e5b38cff1e9dbdb52ec62b4f arm64/bpf: Remove 128MB limit for BPF JIT programs
-6066977961fc6f437bc064f628cf9b0e4571c56c drm/vmwgfx: Fix stale file descriptors on failed usercopy
-9c43548a7fb8220b13b0ff980989b44f37d54138 Linux 5.15.18
-baae7d39342729500d45c251a0a714696675b16b Bluetooth: refactor malicious adv data check
-0384bad5e0e5d24a71f6bc1f4a06627ffe76150a can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
-7f4cbe31183bbe6425bfca7bfafc2aca08848014 net: sfp: ignore disabled SFP node
-5c3b544b7e5063e9fdcc0fce539e9f94d9b97d56 net: stmmac: configure PTP clock source prior to PTP initialization
-21476bbceb8a537ac30076fec878372943a1be33 net: stmmac: skip only stmmac_ptp_register when resume from suspend
-5610ff6cd2318de70f97f27fc1dca680f8aa0ab9 ARM: 9179/1: uaccess: avoid alignment faults in copy_[from|to]_kernel_nofault
-76d6ee1312776ba3e3b4670c3da2f1139a3e540d ARM: 9180/1: Thumb2: align ALT_UP() sections in modules sufficiently
-3ebb86acabe522bcbe495c4f3daa270867cd367d KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
-065007d4ab2c4ca8f2f614ab02bbe74b9839b727 s390/module: fix loading modules with a lot of relocations
-f301d7d90d41bbb1872c10a0032ec78391511a4d s390/hypfs: include z/VM guests with access control group set
-5745b8f2c54da8803d83b15cde410232676eb140 s390/nmi: handle guarded storage validity failures for KVM guests
-199166009ef441fcab65ee15f11cd55ba230c861 s390/nmi: handle vector validity failures for KVM guests
-76805b6c3a384cfeed443a5e2f0dd47357ff7169 bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
-ba9af7d4b468dbc04450164b4108a0d4aabf220d powerpc32/bpf: Fix codegen for bpf-to-bpf calls
-907fc33bd6b42fc12937b500b61b7da24660c09f powerpc/bpf: Update ldimm64 instructions during extra pass
-124a8f93dbe538a8b05fb59efcf384d514416dec ucount: Make get_ucount a safe get_user replacement
-e7543b28f902d4d0689bd2b68664d30a6ba7103c scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-f12bcccdd265dcd5cc1bb8898f5afef54b7f2fe7 udf: Restore i_lenAlloc when inode expansion fails
-d174ea24b2c1712371b94780c300f2a8e7213632 udf: Fix NULL ptr deref when converting from inline format
+6a6acf927895c38bdd9f3cd76b8dbfc25ac03e88 drm/i915: Flush TLBs before releasing backing store
+fdcfabd0952d0b66aee4128739e07ec4d212484a bnx2x: Utilize firmware 7.13.21.0
+4d63363c88e32ff5384122a0232c638c64499799 bnx2x: Invalidate fastpath HSI version for VFs
+12d3389b7af68d89e45b214640699fb603e243e3 rcu: Tighten rcu_advance_cbs_nowake() checks
+a447d7f786ec925d1c23f6509255f43ffc2ddffe KVM: x86/mmu: Fix write-protection of PTs mapped by the TDP MMU
+11ba2c6dfb902de05b73000a98534e376173b6ca select: Fix indefinitely sleeping task in poll_schedule_timeout()
+ae2b20f27732fe92055d9e7b350abc5cdf3e2414 drm/vmwgfx: Fix stale file descriptors on failed usercopy
+77656fde3c0125d6ef6f7fb46af6d2739d7b7141 Linux 5.10.95
+8c466fc0983824a62bd6429d26a44a1b40cdf7c2 Bluetooth: refactor malicious adv data check
+741d65e6490f4d80f3c3af6df6d79630cf704585 media: venus: core: Drop second v4l2 device unregister
+4ebe18516e33f885dbecbb01019bac5b6d1082c6 net: sfp: ignore disabled SFP node
+13a4b918f2d42b42476f496d9b2a760def7d050c net: stmmac: skip only stmmac_ptp_register when resume from suspend
+a17c639513ab5ff412eda75fb0784d891d0b0a32 s390/module: fix loading modules with a lot of relocations
+93b5b682e03d0b783c6f7377c455d9d6466b7361 s390/hypfs: include z/VM guests with access control group set
+ce9e34eca33ade2387dfb48caa7745fcaae228f0 bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
+423d83de8f52b3604f4f02a0f86eab04458468ca scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+ec623229996e91cff3fdcdfe854631ee956fff41 udf: Restore i_lenAlloc when inode expansion fails
+8044a3636dddfce6175e2e3688f5525c70429d5c udf: Fix NULL ptr deref when converting from inline format
 
---===============4343921302400113054==
+--===============0750907173194332764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6c6b2dfcf72-cf1a7daebca6.txt
+Content-Disposition: attachment; filename=revlist-d174ea24b2c1-f8754791fec8.txt
 
-531764468634ed051fe8d4bee7536c4af601e2a8 Bluetooth: refactor malicious adv data check
-09d0fdd9944bf0a06ada3c03b9e446fd6e2e3d17 btrfs: fix too long loop when defragging a 1 byte file
-e9b6e8f8097c08ffa4db15a0e81b76f78797a1b6 btrfs: allow defrag to be interruptible
-29c06d41a7fda2198ac7b26ec0958c790be7565d btrfs: defrag: fix wrong number of defragged sectors
-c8e2e1e4428424fd734ae7fb1f7e062ed0fecb76 btrfs: defrag: properly update range->start for autodefrag
-e3f5d69f02f775f9656001d2993f1a2970f85689 btrfs: fix deadlock when reserving space during defrag
-c2f8898482e47521341bfe834bc666834d2d0257 btrfs: add back missing dirty page rate limiting to defrag
-8507d308246bcbc7746e18e15e679a1a6601a6a8 btrfs: update writeback index when starting defrag
-6fd878f535aa8261f6f712c71cff9936036627a8 can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
-c550b1035a0c06e178162e5e651b48c0c53b0a82 net: sfp: ignore disabled SFP node
-07ae4c247a65c9f015b69f3c2e53bc1b24efc311 net: stmmac: configure PTP clock source prior to PTP initialization
-453213b93449142a6da4ea15de6989f0d001e883 net: stmmac: skip only stmmac_ptp_register when resume from suspend
-5a0cc41272faac72ea66c1104d0608eb10a2c8c8 ARM: 9179/1: uaccess: avoid alignment faults in copy_[from|to]_kernel_nofault
-e25d249f9f20ff967e83ebe62dc6ac2cc9d97b9e ARM: 9180/1: Thumb2: align ALT_UP() sections in modules sufficiently
-1bfde8520c709a1db04b94e41a5c5d7f930952a7 KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
-8233491962a8686d010c30766b4ff286f9759e77 KVM: arm64: vgic-v3: Restrict SEIS workaround to known broken systems
-5b87c42c706a24bfc28cc4a76ea095d51b99298e s390/module: fix loading modules with a lot of relocations
-ed28f52ffd73b690dd532fdc903108e5606c882d s390/hypfs: include z/VM guests with access control group set
-6347e4e23929772b927252154750fa2b3d8dc4ce s390/nmi: handle guarded storage validity failures for KVM guests
-a0bcefe0f1ec01a5cbbd8dbe973e482c3daeff62 s390/nmi: handle vector validity failures for KVM guests
-14e0ac17e267ba4a955206115a3b88056c6801b7 bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
-61c49483a3d04ab7d8a28537eba601c7eca14e3d powerpc32/bpf: Fix codegen for bpf-to-bpf calls
-2dc287e12722823d04906d6ad5e68d9cc8ecd90a powerpc/bpf: Update ldimm64 instructions during extra pass
-737fdbabaf8425de6d0cc6a5378c645c8b076804 ucount: Make get_ucount a safe get_user replacement
-a10bbeeb4a703fdaacb33be082f01e068abf5956 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-f116ddc993d018ce2e53d755a60743e1ddfec149 udf: Restore i_lenAlloc when inode expansion fails
-cf1a7daebca6fae7d31559bf526d8b02a0a8993d udf: Fix NULL ptr deref when converting from inline format
+204c8cd7f8ff01ee2f418978317d210f42080145 Bluetooth: refactor malicious adv data check
+e262a63a4dda4deae011f8c1357ccc282c2bc5ec can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
+6a34743191621230f9b7da66124afe42409932c1 net: sfp: ignore disabled SFP node
+b8d3150c44aa8c576680dde6cbf975f2ba25e669 net: stmmac: configure PTP clock source prior to PTP initialization
+165cebe9f8a4fda6854ae46b95fb4394a4dfde38 net: stmmac: skip only stmmac_ptp_register when resume from suspend
+f411987fa149654a98cf515945edeb9cdc2136dd ARM: 9179/1: uaccess: avoid alignment faults in copy_[from|to]_kernel_nofault
+db7ebc5c3e333693043214797082f41002e32ce4 ARM: 9180/1: Thumb2: align ALT_UP() sections in modules sufficiently
+49b4f605b6eec231011f41b449a9eccca4aa88ae KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
+b5f9fa62065d1d332d0a933c1d027f0362bc1113 s390/module: fix loading modules with a lot of relocations
+de66a0819e09a83a2cf6db721cd06523ec65433e s390/hypfs: include z/VM guests with access control group set
+19bfc6e343a126c4f8289e56c40ee13572085e81 s390/nmi: handle guarded storage validity failures for KVM guests
+9a7e3f4d97a57e930082442efa338fc834896a72 s390/nmi: handle vector validity failures for KVM guests
+3b5b8be2376c9b1dfe64855abd3b9604bc05048d bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
+d2b1971d720f15b4268604a69c977469f1965d9e powerpc32/bpf: Fix codegen for bpf-to-bpf calls
+97b560cda604e142571baf91bda6b2945afaa4d9 powerpc/bpf: Update ldimm64 instructions during extra pass
+7ecbf283abfa94f25fc947bab84edbd63c3bb458 ucount: Make get_ucount a safe get_user replacement
+1074fc58708c939587edefd4ea48dfe108bdc450 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+62580c19a9fe3932b406e94f4847443c0ba4c17f udf: Restore i_lenAlloc when inode expansion fails
+f8754791fec88349d7df917516f2ce9e2e4d2efa udf: Fix NULL ptr deref when converting from inline format
 
---===============4343921302400113054==--
+--===============0750907173194332764==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cf1a7daebca6-d3c06100c7b0.txt
+
+975c7e8e89208931e47ba4396489e6075f2f4d1f Bluetooth: refactor malicious adv data check
+b574d9e5d872f8734b4267cfb0c13e5804a390a6 btrfs: fix too long loop when defragging a 1 byte file
+8c7b8769d714c06bd8a68fdbddf22b8aba69626d btrfs: allow defrag to be interruptible
+d518aa30c3d63109fae23d44790ed2523d28663d btrfs: defrag: fix wrong number of defragged sectors
+cf930f95bd83cc1a7590ffd4b2dc11df4cf4bcc5 btrfs: defrag: properly update range->start for autodefrag
+6a39730eb8428dd5fb7d3282eca022cc6f870cb0 btrfs: fix deadlock when reserving space during defrag
+d36a61fa8fac6c546e96e1a5f6a15b9fc2edc30c btrfs: add back missing dirty page rate limiting to defrag
+cbf81e18e4c537b0a8a2d0c21d776bf75db08bc6 btrfs: update writeback index when starting defrag
+72a5de06e44ef762398ac8fde2e44c39041a3388 can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
+80fe745ca1a38a70b660628176e16bbab17561f1 net: sfp: ignore disabled SFP node
+3229a6dbf7dc175909512eca9d8caf5a86009be2 net: stmmac: configure PTP clock source prior to PTP initialization
+5012c481526c329f961c13b673d2017322aaee7d net: stmmac: skip only stmmac_ptp_register when resume from suspend
+6a9f64cc7cc65a4acd7e6b1354b9d908798ad3e3 ARM: 9179/1: uaccess: avoid alignment faults in copy_[from|to]_kernel_nofault
+4bcf626b9747058f66a5495f3e267579dc44aa0c ARM: 9180/1: Thumb2: align ALT_UP() sections in modules sufficiently
+18ff86de25abf8822ce87b1d2a572fac831f091f KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
+f53693ca918e1cd5681894d77af7c247109ba37e KVM: arm64: vgic-v3: Restrict SEIS workaround to known broken systems
+5a7674c89190e33bb34daead0dc6a58c40a742e0 s390/module: fix loading modules with a lot of relocations
+80dc9f1381fc5c2f88c92a989a11a2f635bcec9a s390/hypfs: include z/VM guests with access control group set
+d9eafff67adf1d3a2baa2daef1bb6540ff132285 s390/nmi: handle guarded storage validity failures for KVM guests
+6a57c01e120128dfa228ea92eff43f6403cb79c8 s390/nmi: handle vector validity failures for KVM guests
+95a7e0753b92db7f61be53fa315818222f2f74cf bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
+fc84f369d8743f3304bc4b23384725e557222e07 powerpc32/bpf: Fix codegen for bpf-to-bpf calls
+e92521338bcbc513d5df9cc49c8f2b4111cebdeb powerpc/bpf: Update ldimm64 instructions during extra pass
+cb1bb56eea27aa2bca48920aeb08ca6c8cb0cfa4 ucount: Make get_ucount a safe get_user replacement
+59342a7ad017086cebfc999af1b5d913135de3dc scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+c9ff40a2f256ef46e1eb6a9f6854b1ee19dc1bff udf: Restore i_lenAlloc when inode expansion fails
+d3c06100c7b000925e1339298597d9e503697aeb udf: Fix NULL ptr deref when converting from inline format
+
+--===============0750907173194332764==--
