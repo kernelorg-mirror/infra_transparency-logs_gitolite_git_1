@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8563402979370146313=="
+Content-Type: multipart/mixed; boundary="===============0027921672399410118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 29 Jan 2022 00:46:56 -0000
-Message-Id: <164341721637.7951.268620135326966488@gitolite.kernel.org>
+Date: Sat, 29 Jan 2022 00:47:11 -0000
+Message-Id: <164341723154.8110.9013116576353573006@gitolite.kernel.org>
 
---===============8563402979370146313==
+--===============0027921672399410118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 72d044e4bfa6bd9096536e2e1c62aecfe1a525e4
-    new: 0a78117213c4bb85dfebf89b924226883597bc60
-    log: revlist-72d044e4bfa6-0a78117213c4.txt
+  - ref: refs/heads/dev-queue
+    old: 1e416acf693e4c6555c4d487858137e71ff41a38
+    new: c0cac043a1d7d7b8935a529a0fc450f01eb0f220
+    log: revlist-1e416acf693e-c0cac043a1d7.txt
 
---===============8563402979370146313==
+--===============0027921672399410118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d044e4bfa6-0a78117213c4.txt
+Content-Disposition: attachment; filename=revlist-1e416acf693e-c0cac043a1d7.txt
 
 89a0b8b98f49ae34886e67624208c2898e1e4d7f Bluetooth: hci_sync: Fix compilation warning
 4b6858797229fc787d1b737cace469ad146aaaf0 Bluetooth: btmtksdio: rename btsdio_mtk_reg_read
@@ -135,5 +135,76 @@ d40f607c181f5f6282fe6c10eb2c0544f551cf7d net: dsa: realtek: rtl8365mb: add RTL83
 34a79c5dca4aeabc26073ef36233ea1f409b4d4b net/fsl: xgmac_mdio: Fix spelling mistake "frequecy" -> "frequency"
 b76bbb34dc80258f5079b4067f0dae07b394b8fe net: stmmac: dwmac-sun8i: make clk really gated during rpm suspended
 0a78117213c4bb85dfebf89b924226883597bc60 Merge tag 'for-net-next-2022-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+67acc7b7ff4b97942185c2369ef6b5bdfd890297 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+39cec88a74499efd346cf97a69d2aef174d98b5c igc: Add UDP segmentation offload support
+ccf29ddd7416a233156e0b664714a3b064efa69e ice: Simplify tracking status of RDMA support
+f47ac2adb7c8822181ee1bd8bf6c6b9455009522 i40e: Refactor VF queue requesting
+36a0efebadbff0f45f62edceadce1304dd1fd6bf ice: add TTY for GNSS module for E810T device
+582de8ddd6b942705ae1e93bcf732cbb6df0cdb5 ice: add support for DSCP QoS for IDC
+ba5fe70ee2ce64d178c55b09ebc956520172aeac ice: Refactor spoofcheck configuration functions
+d048bfa1d0d128dd2eaaabf3c64a988981edccb2 ice: Add helper function for adding VLAN 0
+efe2e93e83e1eaeb21227d27318a4e4f740ade75 ice: Add new VSI VLAN ops
+150eea9f506b87f673ac9c26b3ad33f4f6f8f86f ice: Introduce ice_vlan struct
+63a379215179e77180d2433f7676bd457f8010cd ice: Refactor vf->port_vlan_info to use ice_vlan
+cd2bbb7c078c9adaa87d5128eb42055249642add ice: Use the proto argument for VLAN ops
+9534a8b3ddfae6f8b007339c9c950533b25f3e3b ice: Adjust naming for inner VLAN operations
+8ac9b8a8ce4aa279fe47275285ef0e6c0464b2f2 ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+d5f2eceefaee0efb4573e2ef5ab09b4119601be8 ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+ad8c1b3fb4ebb41c47439606a6042a6e39d90f2d ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+f03c7d2ea60e405af9422eab5932d306125d84b4 ice: Support configuring the device to Double VLAN Mode
+4ccd0be3ef9993ecf9227658d3b3dd93efb35aa9 ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+e24e3867d92a3cae4ced940c7d17bf66a8b2ebb1 ice: Add support for 802.1ad port VLANs VF
+90f8bca947760f190fc7a7b659650ec1b4dab450 ice: Add ability for PF admin to enable VF VLAN pruning
+39e1ad2df9224e58ed0662c432cb2c4e69b0761a i40e: remove dead stores on XSK hotpath
+430a47bc44e9827f91465ad2d7c7873e5a908831 e1000e: Separate ADP board type from TGP
+3a00bf50013879f2b8ca6ac19ce668f0667553b9 e1000e: Handshake with CSME starts from ADL platforms
+e8e0b9a0bcc3924f5a2bfc866e45bbe1fbc2211e i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+4def6a59212cae7155c604dba086946b19236dcf i40e: respect metadata on XSK Rx to skb
+e29b1ce4905c7c76b6b706eee8ad326369187551 ice: respect metadata in legacy-rx/ice_construct_skb()
+997a189a8302931ef98f3a53afd3bda363218d94 ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+f6e9d5377a7431f1fe3e2869811ff5fddf28960e ice: respect metadata on XSK Rx to skb
+d331a6eb7f5bc5d5caf16f6540e5a32cfda1972b igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+ffb082b41acde3b84dcbd4767532ef49c126d35a ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
+971ece3b44b69156e014cbf2a864348ed68b78e1 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+dfc9f44c15f95f791c9ffbbd6ba5bb71e9ef4ddf ixgbe: respect metadata on XSK Rx to skb
+c08a6ee9c1d520242c8fd316960b94787d8b721a i40e: Fix reset bw limit when DCB enabled with 1 TC
+0d339cc4a7ca59e55b53ba80553b14f7e22d809e i40e: Fix the timeliness of stats after deleting tc
+1a8e2269ad8e7e43b7383b4adf627b7080bc6a2c ice: Match on all profiles in slow-path
+092fd9477d40dfa459fb3356b47c5a78df4bc716 i40e: Remove rx page reuse double count.
+85f896075d032f97eeb4862a5f82cf199a5862be i40e: Aggregate and export RX page reuse stat.
+f27dc5d38e72fdfa135b2790d48756d771110afe i40e: Add a stat tracking new RX page allocations.
+09b5325e176ee3cc3a731b6e2ae8236243fb1db9 i40e: Add a stat for tracking pages waived
+14e23e47ca2c34568c7366f72fc7277f54b9fd75 i40e: Add a stat for tracking busy rx pages
+caf8b4acd6e07df244bdc3c4c641e1af1ceef82d ice: fix setting l4 port flag when adding filter
+5ba8f4418b427d498c9611ee61623d831a6274d4 i40e: Disable hw-tc-offload feature on driver load
+cb02181997705c015040c43bf21e7adbbe4b9375 i40e: Remove unused RX realloc stat
+ff4255f10930f6e6228a3558038dce7426e32e63 ice: fix an error code in ice_cfg_phy_fec()
+09b199969f50ae627156078f36dc7a93b4f8ace0 iavf: remove redundant ret variable
+da1e9a9a6775e2d359569f165f4b44c4afbec6ea iavf: Add support for 50G/100G in AIM algorithm
+2d8846a34f31bb2521ab2915dfdd5d20d1e0b644 i40e: Fix reset path while removing the driver
+cb5f90f41311c2be297fdf5b4e83e7539eb436ce ixgbe: Remove non-inclusive language from Intel code
+d672ad1e9bc2b523e6d756add80b8aa8e10bb9bb iavf: refactor processing of VLAN V2 capability message
+cdc0cb9807a13415b68750f4a6802fe959a53280 i40e: Add sending commands in atomic context
+27bd207175a2be43a5b9d1fb4ccaabac5303fd2e i40e: Add new versions of send ASQ command functions
+2baf4d2ec5ce1d2b8055668da6f500a00c56f512 i40e: Add new version of i40e_aq_add_macvlan function
+f9d6dadc88b6ea9fbb9837dbc9f24d4584fe9d43 i40e: Fix race condition while adding/deleting MAC/VLAN filters
+ffd8587f00b10c468a3cba92ff5b2aa6714d768d ixgbevf: Require large buffers for build_skb on 82599VF
+922358b702e1af6672745856e0b00233703be199 ice: fix IPIP and SIT TSO offload
+5828ce792ce2cdfdc219dd5da1da1cca9a59ccbb ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+391b22e21ae221866ff1e4d2cac04c7efb75bc82 ice: enable parsing IPSEC SPI headers for RSS
+a040920031fb87765d052475bbf87d87df27244e ice: Add support for inner etype in switchdev
+56aa26eb4da9bf17095bcaae889aebf71b937632 iavf: Add usage of new virtchnl format to set default MAC
+47a6fa3104a9d964792320ae062bb1c1f47192c9 igc: avoid kernel warning when changing RX ring parameters
+961cb8867db83cda72b65b26c6f08752e84bd571 igb: refactor XDP registration
+994086e66aed604daad95417f12475619021ab61 ice: Avoid RTNL lock when re-creating auxiliary device
+5ad034bb62e3600a94f7942049d94a21cbce6bb1 iavf: Fix handling of vlan strip virtual channel messages
+5bea6b3b6c772e8bb78d69cec670a318fcb75f4d iavf: Add waiting for response from PF in set mac
+85736cf5b4202a0d1e25d5c4a6d5db0cef8b81bc i40e: remove enum i40e_client_state
+04eae00ddcd2de9b1b1c5ae713880e656cec02fd ice: Don't use GFP_KERNEL in atomic context
+75a81aba4c308913163b4396dfc1dedf5f05beee e1000e: Fix possible HW unit hang after an s0ix exit
+292ca178405833afde97bb5b75f234fcad80667d ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+c6efe37be9294d36b9ff1443422e1a5e3ff6e92d ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+bdb860848cbd89e7666fd263f2081caf5fade96a ice: switch: use a struct to pass packet template params
+c0cac043a1d7d7b8935a529a0fc450f01eb0f220 ice: switch: use convenience macros to declare dummy pkt templates
 
---===============8563402979370146313==--
+--===============0027921672399410118==--
