@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5355798249932981699=="
+Content-Type: multipart/mixed; boundary="===============8732201360188154535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 30 Jan 2022 14:25:18 -0000
-Message-Id: <164355271833.14770.2140459685002572774@gitolite.kernel.org>
+Date: Sun, 30 Jan 2022 14:25:22 -0000
+Message-Id: <164355272273.14836.1996377238355676431@gitolite.kernel.org>
 
---===============5355798249932981699==
+--===============8732201360188154535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: d1ad2721b1eb05d54e81393a7ebc332d4a35c68f
-    new: 26291c54e111ff6ba87a164d85d4a4e134b7315c
-    log: revlist-d1ad2721b1eb-26291c54e111.txt
+  - ref: refs/heads/tty-next
+    old: e41752c0e79b033fe0ea186bba0f6bb558c49729
+    new: 4c6123873a42dc5144e4c53bb8376c14fc92336d
+    log: revlist-e41752c0e79b-4c6123873a42.txt
 
---===============5355798249932981699==
+--===============8732201360188154535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643552717 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643552721 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643552716-42e2bbd16f06e819802bb6ac218e28b49af2d785
+nonce 1643552720-7b342e8ef1933a8e7883716b12d2f8a30c979e7b
 
-d1ad2721b1eb05d54e81393a7ebc332d4a35c68f 26291c54e111ff6ba87a164d85d4a4e134b7315c refs/heads/tty-linus
+e41752c0e79b033fe0ea186bba0f6bb558c49729 4c6123873a42dc5144e4c53bb8376c14fc92336d refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2n80bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3PIP/i2zIE1laolbzc1m6mTv
-IVHPeVENgkS6t3mDffVN/BvWCcMGpD7jyQeRtOcPReNzlmK2KuuqeLHzMDWw9kRi
-WzIQDgYfQLAWOQ8yFSeqpUXV4TBaoHiK4bLG71GWl2IHMmyxzVLRjwpTJ2f8drDf
-oGsTIb7PSCSqLXpAR5OWePtoRigMiZOzVTnAh0ZMJCRODQS5slzdkhUpwN8PyVv/
-RT1/Rcsi4WDUYk+ULkQK07pCuzVv/AnOv07yoy/JaV+Eo7CHzrHWGOpYjWNaR9r3
-CBF86/NNStHfvUvJcPMcY25bna4piKtntN0A5sWSLqk16n6FUX9Ecr2P4s5Wu0yq
-8QAvrRwnWssrgUT9yWZ7VWF2qQkRVYO5qSxYDlOYoOBn3/jqx2Xix5ZiIJiWwQuZ
-M5ykm4DpFJeM+ylsUtSgPA1V565sNuQCNFco92yXDXXSG9JHOuI6s3cD3gsYzI1p
-yXWw8d7PB1/q8/3iWVPL19uQN73vk1SDhmFV/UywZ3S3u0B8zZUtiuo/2XiGZYB5
-sdWGBsioMrSA3+KpzFi2e2tq3bXHpHTJWhYti16U8emRfA3ULKtcr2HisonxPhPE
-K/aDvmlgJc8GIerCSNY3MKxxQ+DL0gkOOLK3SyniQA5XRA2biChtwfmiZkDKJWa1
-mMmcFjUROp/l4j4tsCp0V4Kt
-=7sD8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2n9EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NAcP/33bCUbyjluKektSAcw4
+y3PZUZXC4HE305wmN1XcIwLIh+B+7YBlaig5UZ9dRmkhPlGE+e6jtVVBiLwhdlfh
+IkEoGcjfTtAdOWkc/+ipSKL91j4aesx0o1JtWKvkgXOOk8jXUULtEUmCcyTlq4af
+MMCkWTb8eeUfX69e/r0rDuKat0ZgdqzvU4EkcQgB+pMIfvYOXW55h3HIaabWHmqD
+nmO4hzN35SC+x4BLtg2CL9g9h5hZSjOdivonPMRUduHviAUXX5LHJ8zubbonCwxW
+T79NkNxFB4ONWVyvyYnEt0OsSX7mumNiiCv8gHY2syw1mRxoO5lRWL1cCXMYJP0L
+DOjQ1mRuNEaUneaudLHRShu7fIeAko7PnFRJC0nrOYyYVSkNKi9lF/iUQLhD/+Qb
+CZ7yAkPVkQ741YiQ3dkS6IfdKpIsOgnXiPKaJaUSIZShbfdGbokNqWX+vTk/Asnd
+xdyw3vb+eGBxhJlQMc9zxE1UcjKahl1MnCOELbFlTJy4GzbtbbMB4azvfj5cnquO
+bPIgnyplyegc8ZaPH7KOguCsCRrtSLxc1eAYcK7FxJc3UUh0wnXr/duuLbm3o+rC
+isA8Ta85yMX4bghfNANrC1sJAGnlt4pGe5ELVNHHzLtK1j5BabCDtkPa+1XFsADR
+ViOA7lyZlcBrM31HTV/QzC8o
+=AV23
 -----END PGP SIGNATURE-----
 
---===============5355798249932981699==
+--===============8732201360188154535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1ad2721b1eb-26291c54e111.txt
+Content-Disposition: attachment; filename=revlist-e41752c0e79b-4c6123873a42.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -330,7 +330,17 @@ c733ebb7cb67dfb146a07c0ae329a0de9ec52f36 irqchip/gic-v3-its: Reset each ITS's BA
 26d81b29249273d39e753cc0c7b0ca62c6a6283f usb: gadget: at91_udc: fix incorrect print type
 ac55d163855924aa5af9f1560977da8f346963c8 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
 79aa3e19fe8f5be30e846df8a436bfe306e8b1a6 usb: cdnsp: Fix segmentation fault in cdns_lost_power function
+6a7b9f002eca6788d346c16a6ff0c218b41f8d1d Revert "tty: serial: Use fifo in 8250 console driver"
 592ee1197f78b30bd60c87db9b6c8c045c8d8314 blk-mq: fix missing blk_account_io_done() in error path
+152d1afa834c84530828ee031cf07a00e0fc0b8c tty: Add support for Brainboxes UC cards.
+f23653fe64479d96910bfda2b700b1af17c991ac tty: Partially revert the removal of the Cyclades public API
+db7f19c0aa0abcb751ff0ed694a071363f702b1d tty: rpmsg: Fix race condition releasing tty port
+d06b1cf28297e27127d3da54753a3a01a2fa2f28 serial: 8250: of: Fix mapped region size when using reg-offset property
+8838b2af23caf1ff0610caef2795d6668a013b2d tty: n_gsm: fix SW flow control encoding/handling
+d3d079bde07e1b7deaeb57506dc0b86010121d17 serial: stm32: prevent TDR register overwrite when sending x_char
+037b91ec7729524107982e36ec4b40f9b174f7a2 serial: stm32: fix software flow control transfer
+62f676ff7898f6c1bd26ce014564773a3dc00601 serial: pl011: Fix incorrect rs485 RTS polarity on set_mctrl
+2dd8a74fddd21b95dcc60a2d3c9eaec993419d69 serial: core: Initialize rs485 RTS polarity already on probe
 961c39121759ad09a89598ec4ccdd34ae0468a19 perf: Always wake the parent event
 c5de60cd622a2607c043ba65e25a6e9998a369f9 perf/core: Fix cgroup event list management
 7fde14d705985dd933a3d916d39daa72b1668098 drm/privacy-screen: honor acpi=off in detect_thinkpad_privacy_screen
@@ -384,6 +394,7 @@ d7e4f8545b497b3f5687e592f1c355cbaee64c8c pid: Introduce helper task_is_in_init_p
 c7ec845f0eafc7c89efcd04a75a20d548e86beea Merge branch 'pid-introduce-helper-task_is_in_root_ns'
 25e58af4be412d59e056da65cc1cefbd89185bd2 nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
 a5f3851b7f7951e8d4ba0a9ba3b5308a5f250a2d nvme-fabrics: remove the unneeded ret variable in nvmf_dev_show
+d1ad2721b1eb05d54e81393a7ebc332d4a35c68f kbuild: remove include/linux/cyclades.h from header file check
 fa62f39dc7e25fc16371b958ac59b9a6fd260bea MIPS: Fix build error due to PTR used in more places
 96b5590a486106206f2dab7b28555b5b1a8751c5 Merge tag 'rproc-v5.17-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 626b2dda7651a7c766108db4cdc0825db05b980d Merge tag 'rpmsg-v5.17-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
@@ -498,5 +509,6 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 27a96c4feb837093f6075bbd97c942260d26ef33 Merge tag 'perf_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
+4c6123873a42dc5144e4c53bb8376c14fc92336d Merge tag 'v5.17-rc2' into tty-next
 
---===============5355798249932981699==--
+--===============8732201360188154535==--
