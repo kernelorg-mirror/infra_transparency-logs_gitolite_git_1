@@ -1,63 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============0874092834882187882=="
+Content-Type: multipart/mixed; boundary="===============0766547350867212588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 30 Jan 2022 11:34:23 -0000
-Message-Id: <164354246387.12748.2731512792048783632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 30 Jan 2022 11:35:05 -0000
+Message-Id: <164354250545.14455.3467210252036891641@gitolite.kernel.org>
 
---===============0874092834882187882==
+--===============0766547350867212588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0951289d3b318ee75766de6a8bb5634402ace107
-    new: 5fbfe3528b71ede7ebb18dd8de75a9bb8cb67be7
-    log: |
-         03f646c18caccec21fe892acd10859b69c4cb137 Revert "Fixes for 4.4"
-         4b5865ba8182c6a117b337cb393f60bf8a3eddd7 Revert "Fixes for 4.9"
-         b2ccd5db16f41d4762b1b01d339f4d0bdcd388b1 Revert "Fixes for 4.14"
-         f0e9d200d8733bdcffcf3658b1a74728f397f990 Revert "Fixes for 4.19"
-         46068aaec119993aac6c1c52b09382230f3de004 Revert "Fixes for 5.4"
-         388346da278a4b9f1cd50e85c3387ba651e5cff3 Revert "Fixes for 5.10"
-         c53a79860ad1f033dc124cd364e06c22d4f82476 Revert "Fixes for 5.15"
-         5fbfe3528b71ede7ebb18dd8de75a9bb8cb67be7 Revert "Fixes for 5.16"
-         
+  - ref: refs/heads/linux-4.4.y
+    old: 26acbf7bad62c8236607a00747da2302e7e1bf29
+    new: 80bedcb3a54b2e60cb94694d8c5c30b59180bc92
+    log: revlist-26acbf7bad62-80bedcb3a54b.txt
 
---===============0874092834882187882==
+--===============0766547350867212588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643542463 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1643542461-1757522e988b42b06454c5eea382982969c0501c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643542504 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1643542503-2071f52dabe8627c203cea762c1c2faa7c040547
 
-0951289d3b318ee75766de6a8bb5634402ace107 5fbfe3528b71ede7ebb18dd8de75a9bb8cb67be7 refs/heads/master
+26acbf7bad62c8236607a00747da2302e7e1bf29 80bedcb3a54b2e60cb94694d8c5c30b59180bc92 refs/heads/linux-4.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2d78bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+klYP/iLjxSBqwrrltWGYwUr2
-Htkg6Qi2095HEE8OLqN6SVZP16LFPZxZJzOCOqtHYAOgRTO8iGebqY9Qp1z9gQe0
-csDMHGhIMME+PW5nyQIrCB5vNHIZzPVIVOioxKr3cGwAG4scv1diem9PcbMT+iiC
-1aP42Pau7K12ITd/vAn/Eu0ZOZNtVQYofp6AZz6/7EApEVBb5i+tmzdNfPe1aiPC
-o8cojpvny70cfs5Zb4SIKdLv16Uu2XucHW4Jw1dZ6Q2vSJv3NOP6+zi9mLiC8p+E
-yektzY1UxyEVZjkfPMSqBVtzlTVNLE1sKjm+IHwXsvVjjOOS/iKe7fD6853CQjj4
-Yd8xc/54pXbrruV+LQVrTfWuEkVoPtrKObqioBfCsiZgw6nAk44JW6OFlnTExxPg
-q+azLOLe43MHGrKHqBauqnb+Zpck25CsJHC0zw3WPNncQyXStILQRAk5oOwVYCpF
-wYon8qI6tyq9nuA2dhNhqbEXi6rLp8RxhLl8enfUcSRw/IZBqLlQU+qhJRTXVrDb
-XlGz88wVPTiU7KSTIlSvbsJGvUp8yP98GKoIVbAoJpt6Ap+uKKQIPgZ88SvEmEvm
-P9m3gU++IVgTfEiSv1ENto9ZYKgB/uKi9xtViNmb1Q5U4kqR7WMTz+Oey2gLkICP
-q5PIUE6Vi8bWIJCVI4vgZxya
-=gdAb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2d+gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yAQP/1M/QyfKbLG0P10RZ88F
+s72uB++SqpjezaTkNgMCU8SM8IcS20ntFk0cxYNaBzqvtEwsuKAJCKe5VevN0CDG
+7fgbCxDgB/jiSQj+PXqdZobc96pgNTl31rYbmmdzNfGam6HaMZSoLiEzpvScXOvA
+Rw6cismNC6etD+4WKkDe2mXQZWxspxpDD69uC/pCdSvmnuxmvAo1FLKb5u7w+wtA
+/aEO9B8pGoJJZaebhI8h3y1sbq8TdXcCP0FEXkJg64ZqNAiIyBzis2dHE5C/v4q/
+8RQhLC60NBxhVhmBmtnf92uCj9A5HiYwiGUCgMPWDYyC8Eqf530DgUGMY0RoaAWM
+KspUOQzj9cR7//sd9wHHmz176QCyXSDjLHDutWaUJ7VxTequGwyZ+mSAIdprtm+C
+iy6RTzNBipugnyMdIEWeNNpt6lzgOSJj68z0OUkfv/i9cx05TZ1u09Ied+gOW0M+
+yxZBNFb6StSylEnttBBArG+JaPW+GFqShCz0FqkmDL2yXJuEdTbjURt38G+3dJdw
+az83A9ZUChSLA0cWTDf6iZ4RtQcJkJM9KVQUmrYBXkq4nhY05hg2fDQmvA8rtCWs
+394LM+pdD/R9Tvy4491TFzZMKpC51HRjERhaqIX6spdrNDXxLB8SoOjxiNWyL7bz
+UPSPREuW30RHb1j/6CpsPF4T
+=arlO
 -----END PGP SIGNATURE-----
 
---===============0874092834882187882==--
+--===============0766547350867212588==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-26acbf7bad62-80bedcb3a54b.txt
+
+f258baeec686ab16bd7a1246e71dc57fd4d5d6fb can: bcm: fix UAF of bcm op
+da9363a6744a4c87613933b2d2fb642010d49c21 Bluetooth: refactor malicious adv data check
+55afe12b4e84148d15778baed4a00b6e2701f719 s390/hypfs: include z/VM guests with access control group set
+950a6d6e523b659a669b555041bb57e02f928f34 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+9e68f8c9de43d753abedc2dee46563011144f79b udf: Restore i_lenAlloc when inode expansion fails
+4fa3be4d6b13d5e85f5d332e52c9a52f6c9b0d64 udf: Fix NULL ptr deref when converting from inline format
+42ad52d52b2fd9b9513ab5dad875c2fb5216422b PM: wakeup: simplify the output logic of pm_show_wakelocks()
+d86ada6fd06bb5d756a1efd47b807ff169029019 serial: stm32: fix software flow control transfer
+7cab7d443365d0a38150d9aa54dcb083847ade14 tty: n_gsm: fix SW flow control encoding/handling
+4f874c53f7ca5be408189ddc74106b84d5076b84 tty: Add support for Brainboxes UC cards.
+e9f3d8811cd6f50557d02d898bc23b856981506c usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
+c101009ac7323ec7ba329747d2e57929c5ebee14 USB: core: Fix hang in usb_kill_urb by adding memory barriers
+80bedcb3a54b2e60cb94694d8c5c30b59180bc92 Linux 4.4.302-rc1
+
+--===============0766547350867212588==--
