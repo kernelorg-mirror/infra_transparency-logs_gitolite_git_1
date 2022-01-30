@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 30 Jan 2022 09:25:51 -0000
-Message-Id: <164353475185.14113.15959518679825129241@gitolite.kernel.org>
+Date: Sun, 30 Jan 2022 09:30:54 -0000
+Message-Id: <164353505480.17195.1066414359144056144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: luca
 changes:
   - ref: refs/heads/pending
-    old: b79be7a134e92fb37e113d0970066e0b8c942989
-    new: 064c67565c2e5988587a9aec79bf2a7c7855cff6
+    old: 064c67565c2e5988587a9aec79bf2a7c7855cff6
+    new: 26c0044110cc547dc55b79059aeb5a88822cd687
     log: |
-         96844e5c9a3e4a36dfc2ba70e707a87e90e92bc2 iwlwifi: mvm: use values instead of bits in macros
-         a813166c85f5e80c9f488f34c72f80be0aa648b0 iwlwifi: read and print OTP minor version
-         271be94f0ef4e30d04560d26307fcc7c4686bef2 iwlwifi: mvm: use debug print instead of WARN_ON()
-         68d3a94a373f03da5c1d503ada63969617250845 iwlwifi: pcie: make sure iwl_rx_packet_payload_len() will not underflow
-         3eaabaa96398a9380af4ae858f95daa77b656486 iwlwifi: fw: make dump_start callback void
-         da9f4b90db5d363913980b3acd995330963d2846 iwlwifi: move symbols into a separate namespace
-         21d5fbc2241938a02a23c252ce0acf81692292ab iwlwifi: dbg-tlv: clean up iwl_dbg_tlv_update_drams()
-         064c67565c2e5988587a9aec79bf2a7c7855cff6 iwlwifi: remove unused DC2DC_CONFIG_CMD definitions
+         da218b81e88da8034042c3137c85663a1cc61b94 iwlwifi: add support for BZ-U and BZ-L HW
+         a90a1363558e23436ab46e38c21bb989c1df284d iwlwifi: read and print OTP minor version
+         3cb9828df2808b1e4aaa38f178914ecde4070ba8 iwlwifi: mvm: use debug print instead of WARN_ON()
+         ea00b52c6f25428b1a6166535b385b4a2dcc13fe iwlwifi: pcie: make sure iwl_rx_packet_payload_len() will not underflow
+         375b3a28d89e096e400ac26ef47921e6d4d9dd3d iwlwifi: fw: make dump_start callback void
+         67eba0b9867d5c83589b6e6f2b15e412c8c41820 iwlwifi: move symbols into a separate namespace
+         9f2c282a310482396cee7081d0372bb65260eaac iwlwifi: dbg-tlv: clean up iwl_dbg_tlv_update_drams()
+         26c0044110cc547dc55b79059aeb5a88822cd687 iwlwifi: remove unused DC2DC_CONFIG_CMD definitions
          
