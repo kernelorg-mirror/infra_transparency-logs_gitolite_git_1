@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 30 Jan 2022 13:39:50 -0000
-Message-Id: <164354999052.22170.12986731746109325638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 30 Jan 2022 13:39:52 -0000
+Message-Id: <164354999262.22232.4479250667763407608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 19d32860dc7826ef48ea3fb80d9f1b082c4a2cf8
-    new: 711b6a3f4af137c4a7f759136ccd50d455095b95
+  - ref: refs/heads/master
+    old: c5fe9de7903330df7641fd342733fec6fb91afa2
+    new: 26291c54e111ff6ba87a164d85d4a4e134b7315c
     log: |
-         72ff282819d0526d3e4417c2a61414557981b5af iio: pressure: dps310: Add ACPI HID table
-         711b6a3f4af137c4a7f759136ccd50d455095b95 iio: humidity: hdc100x: Add ACPI HID table
+         26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
          
+  - ref: refs/tags/v5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
