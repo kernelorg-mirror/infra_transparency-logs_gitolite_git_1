@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4095016382547901628=="
+Content-Type: multipart/mixed; boundary="===============0092340226990943688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 30 Jan 2022 20:43:00 -0000
-Message-Id: <164357538019.2393.13435995261217222258@gitolite.kernel.org>
+Date: Sun, 30 Jan 2022 20:43:10 -0000
+Message-Id: <164357539067.2573.797198901065989041@gitolite.kernel.org>
 
---===============4095016382547901628==
+--===============0092340226990943688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: d112703ad3dbe618ed7ac9317b55bf288aa33dcd
-    new: 7389e9222d1b78ce6fb58c62f754168b037f69a9
-    log: revlist-d112703ad3db-7389e9222d1b.txt
+  - ref: refs/heads/linux-4.14.y
+    old: c93a5bcc6d80a709dac45c5e1a76f1727f4c2821
+    new: ec500841d1836bafc0758f552619a69723e04a4f
+    log: revlist-c93a5bcc6d80-ec500841d183.txt
 
---===============4095016382547901628==
+--===============0092340226990943688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643575378 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643575388 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643575376-5e093626734d1a026b5fcac684ae7b6d72abe75c
+nonce 1643575386-5996a0cf15c589fa41a93bca7e7098c6513ccfdf
 
-d112703ad3dbe618ed7ac9317b55bf288aa33dcd 7389e9222d1b78ce6fb58c62f754168b037f69a9 refs/heads/linux-4.9.y
+c93a5bcc6d80a709dac45c5e1a76f1727f4c2821 ec500841d1836bafc0758f552619a69723e04a4f refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2+FIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dCkP/2Q+opRt7KOeXwK/3+xE
-+s6+olfqgcrGhEcjYk8CaSP76JdY6ppWpOhoZ75SlUHsZclmGs4X0P7YySFMs5io
-l/zB8ld1kimXhAXFG9sYKVSaK7MeKqDRQAwaeH2nmRIGDa2X/uW3EeGpukb2aQ19
-Ovoac2GEDTFooqRfIWBJc7FjsDBkXcF00KjBkyZC3KMio1n/PK7+bjOrF6NNbekh
-btT28270fmqJcB7wZf+IeT6pQOJ6iKjuTkHMM+aVQg7sJD5341us8wJgkTUAqwTZ
-qO2jBZQx7w56EJJKInMk7O3yw7ncyy05Gi/qIN5YpF4Wi2hElrwkcFXexM0PmHvC
-bwYATeOebhyUW5xysAbS5QtkEcCGIIpUphLbG+d1Bf5f8bgnEzkYGiirZwPRhrnk
-wtCTo/qoOlCJcXTPmUJVrFvyVm2HZ+7nIuba+wANdixSHa7R3AE8AlESjKe5uJaM
-zgwDiun/TNISXo9w5wb4sk0OJGiu8iJ19ByqpZUInLIHB0lVz2Q6fUyiPumvBZNo
-vbnznU8HmovYzUCRCDwdOMUT6Yk8tgEzxfo4AnHln+zp+1qnWGaOiQ0cci9cRTUf
-Znc6bhKPG4qXV/UrAn4Df+wAkYl5Si4hN3+bZHv40wmFtBN3LhGbsgHpsColDqCn
-FE4Rru9oTRcYD1k8rRkup3ck
-=uxk8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2+FwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WmQP/iz65tVdRdOlGhd5XEQ8
+pGG317DTRBKbC3LhlJnQdgJnbcQ0lJJVblIlFvoGLPDG8/Xe94dbqza717wtJGV6
+llSnm1nnApUvfKy/o3DL08U2Ayoxasm6idoZy9pf5ioq/eZKJ5NMtM7sVq0SBzp8
+q2PqTXOKGNzaAiw7mvL2WXinQov9vW2+hGG8km3fqwER+6kGP2z01uJOfwyD2C3n
+0hQgvTxiZbcFBZsxQTXEOF+xjI4i4b1YS+lTixC42ou+eiiE/M9JRyvV0tNI3oaq
+IUWLg3nTLL+0AcuXQjPF73rplsVswv+z6EcJmqWqQs9drMSlxrHgPSqbj+0qS0Zx
+y3Fq/1fWnT3XelI7QmCGUF1HHSHf62K7X9r5boblFfDv8XJgDCfHWH3SjZDlA55B
+NcxRyMGAm796ZadvdSWM//pgXqkuVtAUVMQREvBx6SJkvCU0gKwMwl9MGK/6EkB/
+sudaKN2vu2k2Mvvkn6c6LROheDAB0Ev5c76xttUA4tS9dXiOlMdCU9AruBFfZRtp
+I+BpbppMJrCou9/PpFFZ19dkU1h0g+i7RNCVDuklvzlkYrsSBw0Sew4C+viydfwp
+2ZEvHUQYinQF1d9uIhB80ehxOWiGdWKCGZT8NU0vMG/q88VPcfCoxoJ+o/hfDkyZ
+GMeTZKAOw6/ZEhA7WihQnOb3
+=cdsd
 -----END PGP SIGNATURE-----
 
---===============4095016382547901628==
+--===============0092340226990943688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d112703ad3db-7389e9222d1b.txt
+Content-Disposition: attachment; filename=revlist-c93a5bcc6d80-ec500841d183.txt
 
-4c59b87c4ac4960d0f232868aa167992a63b7a26 can: bcm: fix UAF of bcm op
-80730284db37f0a5857769fb1931807a3c252e32 Bluetooth: refactor malicious adv data check
-eb3674a020dac58ab76407bb1af965e8399c7c76 s390/hypfs: include z/VM guests with access control group set
-e043cd354e850f8f02b8d34bf8c96c75b07481cc scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-7a961bdf03435d5c9f96c1373a21740f4cd5c4d3 udf: Restore i_lenAlloc when inode expansion fails
-a029fcb891aded2cb196903982e8190af9c022cd udf: Fix NULL ptr deref when converting from inline format
-6be5698c3e29f3861d61f0eda09300625fef23e6 PM: wakeup: simplify the output logic of pm_show_wakelocks()
-4f887a7d37a21b7a0c210539d90c2d08b8cd500a serial: stm32: fix software flow control transfer
-2fe30e4ac35ceddb37daf739fe0064b08e90afe7 tty: n_gsm: fix SW flow control encoding/handling
-428a93a821214e8e7616ee1bc27d989d8d1ea3c8 tty: Add support for Brainboxes UC cards.
-6eabb25a3e2275ed6fd4de3144cf126088f6f8aa usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-69ced85e6faf891f52ee36091c6dd87278491cb8 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-8a9c23f41f3984e94bdc3251f98edf06b3de78dd USB: core: Fix hang in usb_kill_urb by adding memory barriers
-c377e71f9ee015fc6730609f53107c627239c0bc powerpc/32: Fix boot failure with GCC latent entropy plugin
-4940008a986efbcdb1e0dddc222b0a0f57411cc4 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-5d50c861500c3a8cb5231556d3e0a15f70ce0faa ipv6_tunnel: Rate limit warning messages
-a61e063a57d26e03fa5bc1a939ab2254a7829b1f ARM: 9170/1: fix panic when kasan and kprobe are enabled
-1dcc867de5680178da1d4fecaaced0717e9b2495 net: fix information leakage in /proc/net/ptype
-370e0a4e0fcee37033ca0544b5f02dc73f4ca505 ipv4: avoid using shared IP generator for connected sockets
-b465b60b7ee95ff5c145277b622286dffbeb173e NFSv4: Handle case where the lookup of a directory fails
-2d7852c601a1d79bba21538a7c33168d4413636c NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-ffb722101c40413e5b0b5173f3292bf571cee150 net-procfs: show net devices bound packet types
-79333e9feea1c1bf4c765307c2ce02adc9b5ad34 drm/msm: Fix wrong size calculation
-5ed561c331c84c1b9eead9fca26af0923882f40f hwmon: (lm90) Reduce maximum conversion rate for G781
-3668b398aa4cafbd16d8ccbcb1b0d5fad15b76de ipv4: raw: lock the socket in raw_bind()
-b01a379ea8446df68843f084ce7e9fbfa79df62b ipv4: tcp: send zero IPID in SYNACK messages
-7389e9222d1b78ce6fb58c62f754168b037f69a9 Linux 4.9.300-rc1
+c56e6baac95e0f0d8a23d421bc3e95af1318c8b9 Bluetooth: refactor malicious adv data check
+07006d4828abe08571f70b5277556ea4a7567429 s390/hypfs: include z/VM guests with access control group set
+eb7eb73af71b0a8f387669d38098a01524849b1b scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+9d8a653a53521f9618f2fb039248cda5b1335a08 udf: Restore i_lenAlloc when inode expansion fails
+3af7ae115589b23f6c4eb7eb19c16369fa515cbb udf: Fix NULL ptr deref when converting from inline format
+779da5d219898f6752d6984c43c2459084bb6146 PM: wakeup: simplify the output logic of pm_show_wakelocks()
+2184d417e3a48c7f25b8aae1a62a4bca81668342 netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
+152148ac550cb5a5d9c951566dce231aeaad17e3 serial: stm32: fix software flow control transfer
+cecf50650606682758d74365fe5b7a9113952c6f tty: n_gsm: fix SW flow control encoding/handling
+3aa56c40a94cac6809f2eb1013885db927ba09d4 tty: Add support for Brainboxes UC cards.
+e1dd423a38a38c35624fee766c0a954a5f63d027 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
+c20f25255a8b98f1f59405a4dfd89267af2c98e6 usb: common: ulpi: Fix crash in ulpi_match()
+61505b36c3d93f62a014ad89598c7fed9097512e usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
+a48a62bcc1673221994e5ffd6afee8845f7b462d USB: core: Fix hang in usb_kill_urb by adding memory barriers
+776938ffcee3666445b3e501141a91a5fbbbb75f usb: typec: tcpm: Do not disconnect while receiving VBUS off
+34b344dd5ec19c6b9898cba679c156630f49f689 net: sfp: ignore disabled SFP node
+35c051af289e236e7ee8c8c908477e9f1d13c33a powerpc/32: Fix boot failure with GCC latent entropy plugin
+c0702f2e7c25cabf7cc77ee0ac95c508a53eb357 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
+dab15f632facc90bcdbf455169c2318a9bad44cb i40e: Increase delay to 1 s after global EMP reset
+f9d43fa2fe31d8f95c384b5c7339c3e6f215a656 i40e: fix unsigned stat widths
+cd5ca9606e84f5af8900ba7b670ffa97b3547d4b rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
+6b82244e32ea64b66bb5e096c13357a00259a042 rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
+4bffa5dea7d430065d046571fb16a48f38dcfbe9 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+09e5dbc119272434dfa4709373b8362179186b91 ipv6_tunnel: Rate limit warning messages
+9dbaf626d1bb1d1b313ca9467ecbd608941989e0 ARM: 9170/1: fix panic when kasan and kprobe are enabled
+c90fabc324b37ba266946de6454fa40277020d43 net: fix information leakage in /proc/net/ptype
+33c03b47147867d588d5657fd63f00e56835e66e ping: fix the sk_bound_dev_if match in ping_lookup
+b5e4c25552c2b60d6ef59f0e02abc13c3c5618a5 ipv4: avoid using shared IP generator for connected sockets
+d5cf14ac463da70614edcc9c92b1730f7d96d08f hwmon: (lm90) Reduce maximum conversion rate for G781
+0d8e753256c8bbb28af74af369553864e95b9a6e NFSv4: Handle case where the lookup of a directory fails
+c9105660cbd49ce8a32d91a0a8314e2562d287be NFSv4: nfs_atomic_open() can race when looking up a non-regular file
+4103c947bc284d8ec7fa719ad85d24c8216c1f2f net-procfs: show net devices bound packet types
+8fc3d591e907303d5baf5c8adb1ff8cc5d98f9cb drm/msm: Fix wrong size calculation
+c4e7174edb5b453e586da77821f6a67d51637eef drm/msm/dsi: invalid parameter check in msm_dsi_phy_enable
+6ba08c2d97117d13ec20eb002bc800935e87bfbc ibmvnic: don't spin in tasklet
+94199a5aedb6e20169397772ed3e66206b1aff6e yam: fix a memory leak in yam_siocdevprivate()
+6e5799afa84203ef41ed4c895fb9b88d29acd9bc ipv4: raw: lock the socket in raw_bind()
+e369a100c58d0d694c87d8ed6961f9bd0169c58c ipv4: tcp: send zero IPID in SYNACK messages
+ec500841d1836bafc0758f552619a69723e04a4f Linux 4.14.265-rc1
 
---===============4095016382547901628==--
+--===============0092340226990943688==--
