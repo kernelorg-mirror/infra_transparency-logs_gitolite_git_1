@@ -1,32 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sun, 30 Jan 2022 09:03:59 -0000
-Message-Id: <164353343981.31460.422360298913680918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Sun, 30 Jan 2022 09:25:51 -0000
+Message-Id: <164353475185.14113.15959518679825129241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: luca
 changes:
-  - ref: refs/heads/for-next
-    old: d9b8e6f600ad3e191cef5e7469ef96b35d33836c
-    new: a2f1c490956321a73ac3bb1a693d546908aba8f3
+  - ref: refs/heads/pending
+    old: b79be7a134e92fb37e113d0970066e0b8c942989
+    new: 064c67565c2e5988587a9aec79bf2a7c7855cff6
     log: |
-         ad02776cf8d083e28b1ca4d93d8b1949668c27cc arm64: dts: rockchip: fix Quartz64-A ddr regulator voltage
-         62966cbdda8a92f82d966a45aa671e788b2006f7 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-         8fd9415042826c7609c588e5ef45f3e84237785f arm64: dts: rockchip: align pl330 node name with dtschema
-         f8a656f6795a2c6d22eb6de5f93373584961da44 Merge branch 'v5.17-armsoc/dtsfixes' into for-next
-         a0a1a80cfed9b327d61719fa45276076e887a4a4 Merge branch 'v5.18-armsoc/drivers' into for-next
-         a2f1c490956321a73ac3bb1a693d546908aba8f3 Merge branch 'v5.18-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v5.17-armsoc/dtsfixes
-    old: 3d7eaaa2fda44a5d11efdb1069664dba6ee49ee0
-    new: 8fd9415042826c7609c588e5ef45f3e84237785f
-    log: |
-         ad02776cf8d083e28b1ca4d93d8b1949668c27cc arm64: dts: rockchip: fix Quartz64-A ddr regulator voltage
-         62966cbdda8a92f82d966a45aa671e788b2006f7 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-         8fd9415042826c7609c588e5ef45f3e84237785f arm64: dts: rockchip: align pl330 node name with dtschema
+         96844e5c9a3e4a36dfc2ba70e707a87e90e92bc2 iwlwifi: mvm: use values instead of bits in macros
+         a813166c85f5e80c9f488f34c72f80be0aa648b0 iwlwifi: read and print OTP minor version
+         271be94f0ef4e30d04560d26307fcc7c4686bef2 iwlwifi: mvm: use debug print instead of WARN_ON()
+         68d3a94a373f03da5c1d503ada63969617250845 iwlwifi: pcie: make sure iwl_rx_packet_payload_len() will not underflow
+         3eaabaa96398a9380af4ae858f95daa77b656486 iwlwifi: fw: make dump_start callback void
+         da9f4b90db5d363913980b3acd995330963d2846 iwlwifi: move symbols into a separate namespace
+         21d5fbc2241938a02a23c252ce0acf81692292ab iwlwifi: dbg-tlv: clean up iwl_dbg_tlv_update_drams()
+         064c67565c2e5988587a9aec79bf2a7c7855cff6 iwlwifi: remove unused DC2DC_CONFIG_CMD definitions
          
