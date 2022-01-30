@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 30 Jan 2022 10:34:22 -0000
-Message-Id: <164353886256.5724.13758173224737271844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 30 Jan 2022 10:42:12 -0000
+Message-Id: <164353933252.11008.3581914651427652506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
+repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/vp
-    old: 591825438a7018181ab273648a3eac9660109105
-    new: 7ecf649ec1ca5e3c8abb23f2e1b2ff7ec9a24015
-    log: |
-         7ecf649ec1ca5e3c8abb23f2e1b2ff7ec9a24015 tip/tools/vp: Check Fixes sha1 is at least 12 chars long
-         
+  - ref: refs/tags/x86_urgent_for_v5.17_rc2
+    old: 0000000000000000000000000000000000000000
+    new: 47c7a127aa6dd0d9e962d5fb6b9e3139c3c6bf3a
