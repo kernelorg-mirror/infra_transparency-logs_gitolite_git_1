@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4738172997884419756=="
+Content-Type: multipart/mixed; boundary="===============6442285944090936911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 30 Jan 2022 15:04:12 -0000
-Message-Id: <164355505296.7972.1689704389296259064@gitolite.kernel.org>
+Date: Sun, 30 Jan 2022 15:04:15 -0000
+Message-Id: <164355505596.8044.15190391493465057021@gitolite.kernel.org>
 
---===============4738172997884419756==
+--===============6442285944090936911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: b86ee2b7ae42b6b37a918b66236608e2cc325f59
-    new: c93a5bcc6d80a709dac45c5e1a76f1727f4c2821
-    log: revlist-b86ee2b7ae42-c93a5bcc6d80.txt
+  - ref: refs/heads/linux-4.19.y
+    old: f4b1bd6d9c2e2818ad1ef2483471c8b9a5c0a01c
+    new: f26d323cac1ce590111fc4e4137b273969d2ee41
+    log: revlist-f4b1bd6d9c2e-f26d323cac1c.txt
 
---===============4738172997884419756==
+--===============6442285944090936911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643555051 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643555054 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643555050-7b2cff98cb292c0134650c1be29a76225dc6625a
+nonce 1643555052-2e6b7017870535e64bc08b7ad6990df26ced7d12
 
-b86ee2b7ae42b6b37a918b66236608e2cc325f59 c93a5bcc6d80a709dac45c5e1a76f1727f4c2821 refs/heads/linux-4.14.y
+f4b1bd6d9c2e2818ad1ef2483471c8b9a5c0a01c f26d323cac1ce590111fc4e4137b273969d2ee41 refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2qOsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+deEP/3y4gJMmWE09T4x4I/wt
-+Ilhis2iMe+F6l3vJ/V/lKJ0DfvRm4InUcrogDmn3JE4mMldj1p5WhXH3h0gkwb0
-VMjkve2QQJg/kBeGUx/KQDZQli70xOHlBkU0f9w73K8qd7HofnzCVB5T6pMAodHH
-HFd9ngF9D+VRjJvEj6Ip5Ri/VFi+IzxyIBGgobRaJpPae5s606IwPe/2wjh8/Mb8
-GoJl/Rr1T/0GOtbmKC6xwI20D1N/jv3nSUlVzKCk9FWOTY1u2PwXSuOgJgf7DIAK
-UrnI6IfTFuNMnDeNLcbA8pq4Bag99sQ+0sWwv+gssqK3KOoQM95ZMoOAJ5rgd9Zv
-FXvZIS8vJGQEbP0WJ6jXu66kYU3bCUJc/C8M8LsaG48ltrr2PYcSz8HwmW9lNl3I
-o/g6y+9WmPa5mXo9ISIEIO+095HE1kwFC8Q3SOporTDlt7ZmRsmprRiAHb7gtYHE
-AhvPUYOLXKS7dFsm0T2yICHvsb9/U32p+Ll+m5vAKuJD12i8kazLHjCWyfCMLavS
-YuS1/KO8jUbBn30wvAIYzRDAYcp8y6OmuEefMTqKy6s5scRFUnS4EfohVZlpLyGC
-wyfC+Qu7sVOPZx3A4jlpR2VlM8SZAJTIvSi5AvD4/hWPU8Pen74Q52Fcxigjh/zk
-7B7M9hrltW0LDzu3kTE5/jCx
-=KbVV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH2qO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LJYP/2aOakswQW0PQBVoFJEM
+kuntk0+xfcuBDPdu9i/HMb2qakbZMy9n8DyJjKorqFGSRijj+Ux51NHgKo0a3gcc
+DBozA6JKNt3NKra9TuFHbSMQmb4fg5ofQSrH0FZ52ojrApabxippJznW3ZTZsBOc
+vpVD0Ua/SP9LOwZ4w3J8tssi+H4fNcFvhdHkFKbm2V1QUfchiXzW8nT6cPBVEnUp
+6bmvHb1Ci+CPSWo6SfDahoMXkrU+daqdkbuvCPgCk85CZEfFyKmbogQS8LIUTlVL
+45MxVUyDu9JyGRYlXP6AlV/Rf7t5+atYd0gLF/kdZ++1YvTxhbwGLDghyr5zpUSS
+nUdRigO5+tl0wHYXAJcOr13Ygy4cnyrNHeUpT+Yhs184ocufRJycCqwkpXBbt7ZL
+ypWz10tJCXaAdAIcR41Jdk6JDfWmar07Hy5j+cdgVNjr6CIqT+/oVhU6MJRU3E0Z
+30ntMj/QsFvHKH7F5+oBz5r1BS8CUa6meROfDRpsv4VJRf9FXelxngCMhgj1A30X
+HbvwGg1hxXSNwfaNeYyXQU5qjWS4BTWxSC2XWdRJwqj2P9FY3QvN93iva4O6ztdy
+O4vuCbBl+8c7gqsMQReqprqP+nGHAUpvBB5CJIn8Ojk/pDLqa8Bu9Xe/LwO59yVa
+RMAj2/P6ejFBa2K9AirXg9eH
+=XmhQ
 -----END PGP SIGNATURE-----
 
---===============4738172997884419756==
+--===============6442285944090936911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b86ee2b7ae42-c93a5bcc6d80.txt
+Content-Disposition: attachment; filename=revlist-f4b1bd6d9c2e-f26d323cac1c.txt
 
-651af5416624ee7b73478688274b91b95acefad0 Bluetooth: refactor malicious adv data check
-ebba1cd51d0296aa847d2d356f0730692529577e s390/hypfs: include z/VM guests with access control group set
-64b1a1762b5fd3efc9791267d7d1b5a34d148d93 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-e7c98bfa8465139a6322fae32433e1ed2713fcb5 udf: Restore i_lenAlloc when inode expansion fails
-99fa239600c39200d2b41ed8dd5334a12bdad997 udf: Fix NULL ptr deref when converting from inline format
-3a935e8f04c9feb3a89d2ec5e1bab32a6c0dcc7a PM: wakeup: simplify the output logic of pm_show_wakelocks()
-9c0a992c004f4922f4233d3c73312c99611668cc netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
-883368b03477f65f2a40170f9ad4f40d65971cc8 serial: stm32: fix software flow control transfer
-7b64e5d0377a468c822cbd421e05e6eaefa4e46a tty: n_gsm: fix SW flow control encoding/handling
-4860004fc6d6e88c44d3e2b3625f9757a10780db tty: Add support for Brainboxes UC cards.
-58ab209ab64d20868fae3ba8c8a54a599f8a1cf4 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-7d1262148ea0eef7a364d283700d8c4b9ef41117 usb: common: ulpi: Fix crash in ulpi_match()
-8d4367262d0f8d7b59830c3e061eefd97ec6236a usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-b15f379999b6c84f128f0b575f8afcb70effc3a6 USB: core: Fix hang in usb_kill_urb by adding memory barriers
-4abd1e7fbcc0605c5ceb04ccb9dbebd73a72bd64 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-58bd9a099fa70f1f716745831edc65b5a61d29b6 net: sfp: ignore disabled SFP node
-64d612fc92f0e4c109dcc0b9c8a9cf8c273fe8ed powerpc/32: Fix boot failure with GCC latent entropy plugin
-f7f297227ef772140c10a5f104470eba6b7650f8 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
-288a9c3dd4332285d7d283182e70a24f950ce07b i40e: Increase delay to 1 s after global EMP reset
-37baa2feb30b458ffbdf347cf6d8f3070081d02b i40e: fix unsigned stat widths
-7e23450f8f11bcba3b4f115b5195487f9b4b4f10 rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
-d87db6e838148f76527debdf31dfb184cd2e729c rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
-9d02a4d126e25f8420f82e2de2840858eb8763b8 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-c93a5bcc6d80a709dac45c5e1a76f1727f4c2821 Linux 4.14.265-rc1
+a7452cedf418f4d54dbc2664ba08e235dbedc589 Bluetooth: refactor malicious adv data check
+97594df59a300ba422c398569ec0949d36eaf8e2 s390/hypfs: include z/VM guests with access control group set
+8e40fd9a266856c1a55608688fa0ee66f5384e28 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+e44eb556c755b32967966a9264f0c5a227770a82 udf: Restore i_lenAlloc when inode expansion fails
+9a7fba649ae667f06d4e742fa55c87ed8fd2251b udf: Fix NULL ptr deref when converting from inline format
+62182493cf664c52511dcf17bd25077d199b6737 PM: wakeup: simplify the output logic of pm_show_wakelocks()
+00b32d7225c78ce165426441a119c8a7ed968221 drm/etnaviv: relax submit size limits
+9e495018a8df742f1c2244d38bcb375c2effddcc netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
+76c6c1caa45a77d24b0c92b3c419943adbcd6048 serial: 8250: of: Fix mapped region size when using reg-offset property
+4920e00497eaa5b0bf5f222047bdc94c91eb043a serial: stm32: fix software flow control transfer
+081ad9ea966f4025055a384019bf1a8b51f29b8c tty: n_gsm: fix SW flow control encoding/handling
+1fe4d52da006c1022266c7ac838322fa31a7caf5 tty: Add support for Brainboxes UC cards.
+fdbb497de8ce97cebb5710923a972253855a8e15 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
+32e4a2e8102574cbf82e70e836abd162c83164ec usb: common: ulpi: Fix crash in ulpi_match()
+01626a59ea82560e0677bd890912ea58ed9588b7 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
+f55be3234d45c1c17645dfc3dd6f4ca3e13f1edc USB: core: Fix hang in usb_kill_urb by adding memory barriers
+494bb11ad0b6b9bead814d2b99477e9e54fca9f1 usb: typec: tcpm: Do not disconnect while receiving VBUS off
+c529186eb063f19860129cac19578823db948996 net: sfp: ignore disabled SFP node
+faa60fa8a7640e8ffdd726c108a939c2c8aab49c powerpc/32: Fix boot failure with GCC latent entropy plugin
+3ec4f949b452ee687fbba6682276eeec427c067e i40e: Increase delay to 1 s after global EMP reset
+531121eec583308a3e4b8ff79c42d3e54d98da05 i40e: Fix issue when maximum queues is exceeded
+a656a53f20b079d6ba17ac392425c1554e0b233c i40e: Fix queues reservation for XDP
+e21d274f69783202b86ffe51f7ba1fdae5a18f2e i40e: fix unsigned stat widths
+3b57e56d8c19e2173cf21cb68fdfdafd4d9d608b rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
+a91f5e3ae80950c0d6db06cc4fda7d87b709d86d rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
+fb3838533eac68a7ae455192e2ba95adb289743f scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+f26d323cac1ce590111fc4e4137b273969d2ee41 Linux 4.19.228-rc1
 
---===============4738172997884419756==--
+--===============6442285944090936911==--
