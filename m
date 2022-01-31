@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3097389131327445684=="
+Content-Type: multipart/mixed; boundary="===============3794588500235701758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 31 Jan 2022 18:24:01 -0000
-Message-Id: <164365344159.30876.6313817693760322540@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 18:24:03 -0000
+Message-Id: <164365344330.30953.2721058244292714612@gitolite.kernel.org>
 
---===============3097389131327445684==
+--===============3794588500235701758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.18
-    old: 073a39a2a63abd46339a50eb07bd23958d99efbe
-    new: 40ab97eb383dfd9de37d049883a8707397a478b1
-    log: revlist-073a39a2a63a-40ab97eb383d.txt
+  - ref: refs/heads/for-next
+    old: 2e4bf68168fa18a17cc901ba6dfde1b9e8cc8af4
+    new: 11eb8e54f733fda4a8239e2a2b167ac378f3fc13
+    log: revlist-2e4bf68168fa-11eb8e54f733.txt
 
---===============3097389131327445684==
+--===============3794588500235701758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-073a39a2a63a-40ab97eb383d.txt
+Content-Disposition: attachment; filename=revlist-2e4bf68168fa-11eb8e54f733.txt
 
 1b968998a3cbd346e7b01a5b41f4c88b979ae7d5 arm64: dts: qcom: sc7280: Move USB2 controller nodes from common dtsi to SKU1
 bb59462e414f8c0c55800064e9be4c596ae6898d arm64: dts: qcom: sc7180: Add board regulators for MIPI camera trogdor boards
@@ -37,5 +37,6 @@ fc6b1225d20de0298a7b0e52eb3843d71e1992e8 arm64: dts: qcom: sc7280: Add Display P
 61a6262f95e0c400baee59ced0721f49ffca604c arm64: dts: qcom: sc7280: Move herobrine-r0 to its own dts
 56eead37681511d3bd5c5869cf2878865942ba75 arm64: dts: qcom: sc7280: Factor out Chrome common fragment
 40ab97eb383dfd9de37d049883a8707397a478b1 arm64: dts: qcom: sc7280: Factor gpio.h include to sc7280.dtsi
+11eb8e54f733fda4a8239e2a2b167ac378f3fc13 Merge branches 'arm64-for-5.18', 'dts-for-5.18' and 'dts-fixes-for-5.17' into for-next
 
---===============3097389131327445684==--
+--===============3794588500235701758==--
