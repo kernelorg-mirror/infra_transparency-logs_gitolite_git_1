@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 31 Jan 2022 10:55:23 -0000
-Message-Id: <164362652310.26965.1467876616803842034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 31 Jan 2022 11:02:35 -0000
+Message-Id: <164362695521.30820.10197767711424140357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/usb-linus
-    old: fa77ce201f7f2d823b07753575122d1ae5597fbe
-    new: d48384c7ed6c8fe4727eaa0f3048f62afd1cd715
-    log: |
-         d48384c7ed6c8fe4727eaa0f3048f62afd1cd715 USB: serial: option: add ZTE MF286D modem
-         
+  - ref: refs/heads/jd/no-secret-lookup-table
+    old: df2e3bd85c5c1313741a1a6a3b62bb109876257c
+    new: 0000000000000000000000000000000000000000
