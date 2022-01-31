@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 31 Jan 2022 19:37:36 -0000
-Message-Id: <164365785623.14372.8972543409929836635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 31 Jan 2022 19:48:35 -0000
+Message-Id: <164365851517.20656.521144829605414988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/ceph-fscrypt
-    old: ac40b3b770fced4d2719c83e509be35e4f2ef3b7
-    new: 14cb86455b249f05d1b11dbab353e33f4fad6a5a
+  - ref: refs/heads/master
+    old: 1284a6ca9f0d7840d77c29eae8ed96e80cdd89e6
+    new: 6ff99f1766bb80e96d1664143fc6ebd304271f1f
     log: |
-         7e935aa6d4c23a6bcbd27a28c4f5457885c9ae98 libceph: allow ceph_msg_data_advance to advance more than a page
-         14cb86455b249f05d1b11dbab353e33f4fad6a5a libceph: define a structure to track SPARSE_READ reply processing
+         6ff99f1766bb80e96d1664143fc6ebd304271f1f scan: parse BSS_SIGNAL_UNSPEC, fix potential zero signal
          
