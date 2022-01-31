@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8520594346206875814=="
+Content-Type: multipart/mixed; boundary="===============7087554920958756512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Jan 2022 09:13:57 -0000
-Message-Id: <164362043722.8500.14856499625969957517@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 09:14:02 -0000
+Message-Id: <164362044254.8570.981942264534033854@gitolite.kernel.org>
 
---===============8520594346206875814==
+--===============7087554920958756512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+  - ref: refs/heads/usb-linus
+    old: 79aa3e19fe8f5be30e846df8a436bfe306e8b1a6
     new: 26291c54e111ff6ba87a164d85d4a4e134b7315c
-    log: revlist-e783362eb54c-26291c54e111.txt
+    log: revlist-79aa3e19fe8f-26291c54e111.txt
 
---===============8520594346206875814==
+--===============7087554920958756512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643620436 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643620441 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643620435-7ab0415481b3d6602540e7c001d6406117671b00
+nonce 1643620440-e3bdf54956af75d64b2925c1a9e6a87eacffc5de
 
-e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 26291c54e111ff6ba87a164d85d4a4e134b7315c refs/heads/main
+79aa3e19fe8f5be30e846df8a436bfe306e8b1a6 26291c54e111ff6ba87a164d85d4a4e134b7315c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH3qFQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cNAP/iMS1/YZxjYWjq2hGZQY
-y8DhGzmurlE7bE2IPREAuIFJRA/l7BR7PlotCbFMwOyEJVP9GhMiJBgD4TTeCQmG
-afZ5qeAR36O+HsPeaw0tvNiw7by8J8r1jQaCdnteicaDHNWvxfLDu+rmSlLtgvWD
-aonQLIvB41VmxhWPsHmChGLkr4Ba8BZEY7uE3jdr2RgrZy8TZhAvmeGgNg0IGVIn
-AmLPrqbrK29I/ga6xTDpu22bxSXgTtXiFHk9olrRdQlACh76k65ggRTml7BfbaDj
-L9yCOcQkJ9CR9JQ4CYHzd/JUF/s7EckRNjzKvM5PQHD8Yq7QBxsdnIli3DY4Ke2V
-RVzzeAdxa9rZ+oXNvmg25zQhZBZMDueIPsNStUvVqGMyXF+Coiq5FfafZtHB+Ffh
-y2/M6BkuWQzny5MN+RvAuLcnPrKDi2KqueKP2h23B0uUtax9IuMNgcc1h/6OPaP2
-FJhCXlRw/bL/EIOyViAmplMQeo6Sxsnz2i8pozunYpZE2GaFYJ83UMNHGXwRCl6M
-1fDgLbWqaocNWIdMa5DH9dRVJHWCm1i4FOjvjAx+9tuLGwLtgkzYdmmHEyeaY3s6
-pndXDdMFoSZqylasF9lZGh+TtEVJwQv4WKpspFkreLjrrr6WBznOPePEuJZ9HYsW
-xbAwg5Gky24UV5phkhKXVGVW
-=fQaQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH3qFkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Hh8QAKIdzCBvYy7xrNXM1bz7
+UK55r+6LjzFlPX3uzdKjS1U1mMhzLU+Ge3AL6xb9tOpQahaEh35aTX3Ixw1NVT6o
+sFchn742g3KnFlszKnEDP+4cP+VeNg5nBh/5slunXFfOTsBQ9MXAPhVwwd47aPYe
+FsGyIp7lJHf9bVQ/fd77ULw/5d8JxOhRRC2e5AAdElQEjEcMgz+qy+o+7EWsBkrl
+Om2DrQ2TdO1jbWwTo+FYeWXGip4tzeajoTtMlJTvlsmA99obp4+5tVpz2H1e3uPq
+qGirkWtOB4bIAemd3hxhnONBGOHxDuhMPa/h8U7CLaAf+Kz2rn9gQ/bQBVoA17XB
+WM5t3+aF32BaZIQjkICo76YODVwka1jmLpxdIQcr6qPjrJZziAcpiAN1h6E3GaqU
+2/DjB++wcAK1ZmiGbeaB8ys6n8NL918H9x/GyfeRZGJp9Sincgk+p6ocuCOYZ89S
+Ute5bXEbDbO0vE6l0kYHy3d0Hdtplho3wK5thtxdGgiiCvHsyqKw+6e1OFRMr5ar
+LgyxSjX8ZVFXSZDVq7yRx/w/eYCEwuze4/7PccYogkkthSfjux0ezVJ5pxRabNcH
+WXr5ixoLFMpzOfev5dQPncBI68nfLJ2MZNng2iBWv8oCd0s5SslqbCWSGfLboGEt
+6N2YbjyklBNUBWKxlrVWMwy3
+=o0Ds
 -----END PGP SIGNATURE-----
 
---===============8520594346206875814==
+--===============7087554920958756512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e783362eb54c-26291c54e111.txt
+Content-Disposition: attachment; filename=revlist-79aa3e19fe8f-26291c54e111.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -291,16 +291,8 @@ d081a343dd18f6733f2f4d9a2521db92de9f7b75 KVM/X86: Make kvm_vcpu_reload_apic_acce
 6aa89ae1fb049614b7e03e24485bbfb96754a02b drm/msm/gpu: Cancel idle/boost work on suspend
 8bdd24940b69c0018b64b496aa3b03a25f7295ca amd: declance: use eth_hw_addr_set()
 c9d967b2ce40d71e968eb839f36c936b8a9cf1ea PM: wakeup: simplify the output logic of pm_show_wakelocks()
-945c37ed564770c78dfe6b9f08bed57a1b4e60ef usb: roles: fix include/linux/usb/role.h compile issue
 33569ef3c754a82010f266b7b938a66a3ccf90a4 PM: hibernate: Remove register_nosave_region_late()
-5638b0dfb6921f69943c705383ff40fb64b987f2 usb: typec: tcpci: don't touch CC line if it's Vconn source
-7817adb03cfb52ebb5bdb25fd9fc8f683a1a09d9 usb: typec: Only attempt to link USB ports if there is fwnode
-147ab5376f18045da9f22a8262185707745bbf77 usb: typec: Don't try to register component master without components
 e464121f2d40eabc7d11823fb26db807ce945df4 x86/cpu: Add Xeon Icelake-D to list of CPUs that support PPIN
-90b8aa9f5b09edae6928c0561f933fec9f7a9987 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-746f96e7d6f7a276726860f696671766bfb24cf0 usb: typec: tcpm: Do not disconnect when receiving VSAFE0V
-5b67b315037250a61861119683e7fcb509deea25 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-26fbe9772b8c459687930511444ce443011f86bf USB: core: Fix hang in usb_kill_urb by adding memory barriers
 e3d26528e083e612314d4dcd713f3d5a26143ddc drm/etnaviv: relax submit size limits
 7938d61591d33394a21bdd7797a245b65428f44c drm/i915: Flush TLBs before releasing backing store
 0280e3c58f92b2fe0e8fbbdf8d386449168de4a8 Merge tag 'nfs-for-5.17-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
@@ -321,15 +313,6 @@ c035366d9c9fe48d947ee6c43465ab43d42e20f2 PCI: mt7621: Remove unused function pci
 48ee4835b73c48590d05a54730dc8037ebd39d3b Merge drm/drm-fixes into drm-misc-fixes
 76cea3d95513fe40000d06a3719c4bb6b53275e2 Revert "drm/ast: Support 1600x900 with 108MHz PCLK"
 c733ebb7cb67dfb146a07c0ae329a0de9ec52f36 irqchip/gic-v3-its: Reset each ITS's BASERn register before probe
-825911492eb15bf8bb7fb94bc0c0421fe7a6327d ucsi_ccg: Check DEV_INT bit only when starting CCG4
-904edf8aeb459697129be5fde847e2a502f41fd9 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-2e3dd4a6246945bf84ea6f478365d116e661554c usb: common: ulpi: Fix crash in ulpi_match()
-9df478463d9feb90dae24f183383961cf123a0ec usb: xhci-plat: fix crash when suspend if remote wake enable
-9678f3361afc27a3124cd2824aec0227739986fb usb: dwc3: xilinx: Skip resets and USB3 register settings for USB2.0 mode
-2cc9b1c93b1c4caa2d971856c0780fb5f7d04692 usb: dwc3: xilinx: Fix error handling when getting USB3 PHY
-26d81b29249273d39e753cc0c7b0ca62c6a6283f usb: gadget: at91_udc: fix incorrect print type
-ac55d163855924aa5af9f1560977da8f346963c8 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-79aa3e19fe8f5be30e846df8a436bfe306e8b1a6 usb: cdnsp: Fix segmentation fault in cdns_lost_power function
 6a7b9f002eca6788d346c16a6ff0c218b41f8d1d Revert "tty: serial: Use fifo in 8250 console driver"
 592ee1197f78b30bd60c87db9b6c8c045c8d8314 blk-mq: fix missing blk_account_io_done() in error path
 152d1afa834c84530828ee031cf07a00e0fc0b8c tty: Add support for Brainboxes UC cards.
@@ -510,4 +493,4 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
 
---===============8520594346206875814==--
+--===============7087554920958756512==--
