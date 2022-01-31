@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0929488963596607000=="
+Content-Type: multipart/mixed; boundary="===============1974910035502875844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 31 Jan 2022 13:03:48 -0000
-Message-Id: <164363422820.12891.6229287395576626593@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 13:05:19 -0000
+Message-Id: <164363431971.14815.15131287165451159965@gitolite.kernel.org>
 
---===============0929488963596607000==
+--===============1974910035502875844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,57 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 1f6361d771d4ebb5ed17bf9964bc5e05f28b695b
-    new: d0d82cb741d0ad42bb776e17011c98fcdab9fee6
-    log: revlist-1f6361d771d4-d0d82cb741d0.txt
+    old: d0d82cb741d0ad42bb776e17011c98fcdab9fee6
+    new: 29bcfa1e3225feb0f079ba691dfd331bb92155c4
+    log: |
+         29bcfa1e3225feb0f079ba691dfd331bb92155c4 staging: pi433: add debugfs interface
+         
 
---===============0929488963596607000==
+--===============1974910035502875844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643634226 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643634318 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643634225-4489fe22dbe4344a393c1f1ffb033b56a722abca
+nonce 1643634317-331fde86f54f18ef1fec8a7d094030101cc37481
 
-1f6361d771d4ebb5ed17bf9964bc5e05f28b695b d0d82cb741d0ad42bb776e17011c98fcdab9fee6 refs/heads/staging-testing
+d0d82cb741d0ad42bb776e17011c98fcdab9fee6 29bcfa1e3225feb0f079ba691dfd331bb92155c4 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH33jIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tEYP/i42oElZwDoWOaCRldZa
-XL5FFco9XLdMRrsbHUDzkp2Je+U1o/jVyOsO66qTBDk0w7Q1BGcggQr9RvbHBt0G
-Jz1Vffy0kOsDOZME2jy+okNb4KObDDyDWNHLZauGw/G/T9UDtxE5IE533Ax6/7xk
-Nj7VFVouDYVOSr+D/btAa/d+tJbsWURmF/pREPHIdj5zVhQKl+6k8RYp0l3mAQnC
-qla5CxFSlfZ3A0h4wQmCikkfKNT8nCehcsXVVqFstGP0zeo8+2v5LHE76W9FyUY1
-be8exrMwoGxRH39x/UY+CIrj+p3uEgfEq0urnR3uh1w+0cmQ/txVajDuo7YPs78K
-cERv9cAKNOVplGA7uV7sGwYE0uVsXpbK97gxzBfdb8qhkDSe6HNRcoc2BhudqzGI
-MN/GpvG0GCbVOnj1qb9p1uE1Uh+315OwzwUt4osEgpNPmKfBjtGvxtdHw2kvxmkN
-C7yiBN7kcVWBlcQ5XAnyaAgetSf+JiYYMM4eShCSG8HKoUKkYIPZAax8SOzO5Obs
-RcXuuzOMfUpUbIO2vqTdvD0YiJv/a4HaqIE/rqZHKnsXwyFJKFcD44K0XoV5WVTh
-uAnID9nlNBWLY9mfIFxUS2eMCV6MgMN3O5rqMZUgKJSinFHhnxYHHRa9td7WlAWr
-BtIyi5CtU2434KidT8qMau/7
-=+ml1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH33o4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ihIQALVhDvgtJV0EpNRE01GR
+rY5JrDam1lTK75DCh6znWNWZ1qoQAwRk9cIuL7CCtMylwZMDPrs/oHOvWrAgy6Bk
+FCojXBYwNUokhpLcO8JZINnNrNmqrbWdmkZF7ZwU3Ko14aTtWLGsPCzBdry1jzVK
+GVmmCfgmqMHyzxsa6eQgq2fK2e01T607u4xlb2epjCs/1hZuaNkeuZ1dNbioFwHV
+N3qcYe8pbfOrB/Ma6Vzf80osuLBlOuWd2iOHTERmIpHBjGgoEprrUpTeecu6U+O9
+kXz9ninbtEmg9awrIIt8QpYoizm2cHoUmDb+hQgkzH6oY+1jaotZHisEpFmMRyjx
+HP8yzZjjHwNhXp6C87T3w0DUZxvOOl2UUhq3h8yeDTOoqpzkBNeIiXxoekv+TldF
+wxqOTMKk1JBYpSE0oYXouXx5VBpEZJw5iwQexx1zT8yG7wwao30mHcpisjm77uCA
+LGBQFtrDXpVU9myvpFPm0J/cps3cBJpqD2nzQU3k/kkTbt37JsWyj2L+zSXQ4UC6
+E+UsycnWdOeu3ZE3UOf8lIaa9kU9dr3gXm2MRg8v6IeLEUviUgzUTDgp+puEIfdq
+WkL5Cwd7sDF/EJCHWzX2mO/zCwOpWW0aTvK16RYcy7N2WNowkP86XwUZLbAchRYQ
+TBlnIRpqRcq8LaTwFFH02e5V
+=a7k0
 -----END PGP SIGNATURE-----
 
---===============0929488963596607000==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f6361d771d4-d0d82cb741d0.txt
-
-9957b0e9fc5d4cad70c0f6afe993d7d16add34f3 staging: r8188eu: remove HW_VAR_BEACON_INTERVAL
-89ba56a6fae247757888ea405a586a5c160626cd staging: r8188eu: remove HW_VAR_SEC_CFG
-73e2daa8cafc219d2e5886355ab35ce2d7dab3d2 staging: r8188eu: remove HW_VAR_CAM_INVALID_ALL
-111da5e574d99d2f14b434eddbc61cc7f9b5ab6f staging: r8188eu: remove HW_VAR_AC_PARAM_VO
-24873b8859d2f3beb4581b28d8979a71bc323c40 staging: r8188eu: remove HW_VAR_AC_PARAM_VI
-39c2b864780ecf3dbb485e8256a2ac7e1565ae1d staging: r8188eu: remove HW_VAR_AC_PARAM_BK
-0599a490f3a95cb5ac6d98de63de95aaf6c70a1c staging: r8188eu: remove HW_VAR_MEDIA_STATUS
-9838ee1cc2eae4ee194824836a9ab8636e498652 staging: r8188eu: merge Set_NETYPE0_MSR() and Set_MSR()
-b82f0b575aff08f3db99681f8bd23cb11339f003 staging: r8188eu: remove HW_VAR_CAM_WRITE
-6e28b38bad7dd62b8bad888728de5e375ed85b98 staging: r8188eu: remove HW_VAR_BCN_FUNC
-9b80fa7e1fb2865ac2a5448ce6782a66be4eaa3b staging: r8188eu: remove HW_VAR_CHECK_BSSID
-d0d82cb741d0ad42bb776e17011c98fcdab9fee6 staging: r8188eu: remove HW_VAR_CAM_EMPTY_ENTRY
-
---===============0929488963596607000==--
+--===============1974910035502875844==--
