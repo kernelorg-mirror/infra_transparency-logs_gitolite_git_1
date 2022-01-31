@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8807435460995919152=="
+Content-Type: multipart/mixed; boundary="===============2052460971070493156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 31 Jan 2022 18:47:13 -0000
-Message-Id: <164365483341.13437.17820990034991848648@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 18:47:18 -0000
+Message-Id: <164365483898.13549.7034235474149247841@gitolite.kernel.org>
 
---===============8807435460995919152==
+--===============2052460971070493156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 23a46422c56144939c091c76cf389aa863ce9c18
-    new: 341adeec9adad0874f29a0a1af35638207352a39
-    log: revlist-23a46422c561-341adeec9ada.txt
+  - ref: refs/heads/dev-queue
+    old: 810f994a4a860aaef21ca3e905f2ce2abdfe6d45
+    new: 4cf8910555ffbd01cf2194fa4b2754523b02e7af
+    log: revlist-810f994a4a86-4cf8910555ff.txt
 
---===============8807435460995919152==
+--===============2052460971070493156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23a46422c561-341adeec9ada.txt
+Content-Disposition: attachment; filename=revlist-810f994a4a86-4cf8910555ff.txt
 
 7355bfe0e0cc27597d530f78e259a985cb85af40 netfilter: Remove flowtable relics
 34243b9ec856309339172b1507379074156947e8 netfilter: nft_ct: fix use after free when attaching zone template
@@ -51,5 +51,23 @@ d01ffb9eee4af165d83b08dd73ebdf9fe94a519b ax25: add refcount in ax25_dev to avoid
 010a2a6623317bbf13facaff8bf50ac08468c1df Merge tag 'ieee802154-for-net-2022-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 6449520391dfc3d2cef134f11a91251a054ff7d0 net: stmmac: properly handle with runtime pm in stmmac_dvr_remove()
 341adeec9adad0874f29a0a1af35638207352a39 net/smc: Forward wakeup to smc socket waitqueue after fallback
+02598bb381e62841f8fb1ab875dd2761b7a9af34 checkpatch: Fix warnings when --no-tree is used
+ab9e9ed39c0233113557142d0afb029a95cadafd checkpatch.pl: seed camelcase from the provided kernel tree root
+4041f20ae215a43a39e9e683b8bf903be2482b69 ice: Fix a couple off by one bugs
+c973ab480028a4f989b20d0354d5139fc35ccbca e1000e: Separate ADP board type from TGP
+fbeb82c9f4343caf988e054584dfbbec84358e94 e1000e: Handshake with CSME starts from ADL platforms
+f8410ca1ce5277dde0dbdeef9b9c54fa11b1d81d iavf: Fix promiscuous mode configuration flow messages
+7ddc89a47d27109b60311a270bfe6e7fc61ed455 i40e: Fix reset bw limit when DCB enabled with 1 TC
+053f1b9c64631c252a355d75212c636071a9f921 i40e: Fix the timeliness of stats after deleting tc
+39d6786f0eec9faf1abaa70e32154dec6cfb7a3f ice: fix setting l4 port flag when adding filter
+20672f87ad2abea520055e252ad6c271d4cb2d66 ice: fix an error code in ice_cfg_phy_fec()
+302fe5bd2d1ff2e5936aa6e5df4033e74d3a8d7e i40e: Fix reset path while removing the driver
+46cbf71eb37dc89e847bbcc31ade484b0f0e3b3c ixgbevf: Require large buffers for build_skb on 82599VF
+b0087b5f4c819971e62b9615337e6b80b87b1b32 ice: fix IPIP and SIT TSO offload
+8ec8e23258224c8e0b5a7249f2a2b77b226d6c04 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+0fb568a6bec66c0c5cb074e399b72d6a6cdfed30 ice: Avoid RTNL lock when re-creating auxiliary device
+c9fff2c28574c93a97ce2190d034db12695c7e0b iavf: Fix handling of vlan strip virtual channel messages
+fb65497b193d50ce63ef30b655620dbdfe575f9b ice: Don't use GFP_KERNEL in atomic context
+4cf8910555ffbd01cf2194fa4b2754523b02e7af e1000e: Fix possible HW unit hang after an s0ix exit
 
---===============8807435460995919152==--
+--===============2052460971070493156==--
