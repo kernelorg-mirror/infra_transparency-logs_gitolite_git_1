@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8278254430027048637=="
+Content-Type: multipart/mixed; boundary="===============1429470399476699851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 31 Jan 2022 10:32:25 -0000
-Message-Id: <164362514539.9772.17084727901146709239@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 10:32:31 -0000
+Message-Id: <164362515116.9885.2175422302628918099@gitolite.kernel.org>
 
---===============8278254430027048637==
+--===============1429470399476699851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-linux-next
     old: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
     new: 26291c54e111ff6ba87a164d85d4a4e134b7315c
     log: revlist-dd81e1c7d5fb-26291c54e111.txt
 
---===============8278254430027048637==
+--===============1429470399476699851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -447,4 +447,4 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
 
---===============8278254430027048637==--
+--===============1429470399476699851==--
