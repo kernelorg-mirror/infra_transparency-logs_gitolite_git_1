@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8283721478630463477=="
+Content-Type: multipart/mixed; boundary="===============5429431263869016938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 31 Jan 2022 16:39:53 -0000
-Message-Id: <164364719323.26568.3692746550130181197@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 16:40:01 -0000
+Message-Id: <164364720194.27111.6729341420556899675@gitolite.kernel.org>
 
---===============8283721478630463477==
+--===============5429431263869016938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: ff58831fa02deb42fd731f830d8d9ec545573c7c
-    new: b43471cc10327f098d5a72918cd59fcb91546ca3
-    log: revlist-ff58831fa02d-b43471cc1032.txt
+  - ref: refs/heads/mlx5-queue
+    old: ea1dcbdd6a2dfb5df3fc8687d31ba960d0367271
+    new: 728905ebb501b62461f556154670a30c1b9f7314
+    log: revlist-ea1dcbdd6a2d-728905ebb501.txt
 
---===============8283721478630463477==
+--===============5429431263869016938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff58831fa02d-b43471cc1032.txt
+Content-Disposition: attachment; filename=revlist-ea1dcbdd6a2d-728905ebb501.txt
 
 4f0e30407ef6f2075b8e86d54be42e787087cd61 ipv4: drop fragmentation code from ip_options_build()
 0da8aa00bfcfeb3f4e6537dd8e2001e0727ba549 net: bonding: Add support for IPV6 ns/na to balance-alb/balance-tlb mode
@@ -53,5 +53,35 @@ f90f84201edde2bca25a73226ff0ebe765273890 net: mana: Add counter for packet dropp
 d356abb95b9883198b1ba0db678659369701e17d net: mana: Add counter for XDP_TX
 a6bf5703f17bdbd775c0e6837dd2d5b1c344e28c net: mana: Reuse XDP dropped page
 b43471cc10327f098d5a72918cd59fcb91546ca3 Merge branch 'mana-XDP-counters'
+118fdfb04028cba2d6672aa02fedd7a4d50814f5 net: Disable LRO feature if no RXCSUM
+856bc06ea8fa1ce8f7145e49d8be4b40631ad6e8 net/mlx4: Delete useless moduleparam include
+df14b752134ff9bc7a9bcd9f51472bddb4fec268 net/mlx5: Delete useless module.h include
+59c46f2d3672b8c1185696e1ca86db8c72469a6f net/mlx5: Node-aware allocation for the IRQ table
+80077c15f610feef7a8a1bcc0f2055c937e4f9c4 net/mlx5: Node-aware allocation for the EQ table
+f3fe903db79e0d34906b3f45eecf7c5dddbfc6c5 net/mlx5: Node-aware allocation for the EQs
+b4505006dedc454f85ffdedd95ad41f142887e70 net/mlx5: Node-aware allocation for UAR
+e15ddb4152b2642c39b2e456464031425089e4ba net/mlx5: Node-aware allocation for the doorbell pgdir
+9a7aedda3241d383c18c27548dde24b16ebef976 net/mlx5e: E-Switch, Add PTP counters for uplink representor
+70cfd54c6bc6be727580610196f91baeaf92c2c3 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+1fd8e46f843c9192bcec487feddcb60e01846648 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+c837bfc6467e9dde78c519b82bf9b8b97569f9ab net/mlx5: Add ability to insert to specific flow group
+867d2ecbc46853288f53682e91b4f53ef0921897 net/mlx5: E-Switch, reserve and use same uplink metadata across ports
+4a1c5a6253106f1d607039381071bf437827ae9f net/mlx5: E-switch, remove special uplink ingress ACL handling
+115e933f117bd6d79cae327d13c11bb63e708962 net/mlx5: E-switch, add drop rule support to ingress ACL
+125e57e40960408475668764ac8b29cd45b99d8e net/mlx5: Lag, use local variable already defined to access E-Switch
+7834b305745990a541d5a206e79afb3338f6581e net/mlx5: Lag, don't use magic numbers for ports
+cd9f751dedc03199e880132907948562264ee3de net/mlx5: Lag, record inactive state of bond device
+e2f0209e8354e3342bed4b5cc5caf2c98d29c1ee net/mlx5: Lag, offload active-backup drops to hardware
+2aabedde46683051fc908917054159c46784f708 net/mlx5e: Generalize packet merge error message
+5f6dcd01af850358daa5a54f46152131717c791b net/mlx5e: Remove unused tstamp SQ field
+c29c756408916159b83a107b8efd86e4cc149c77 net/mlx5e: Read max WQEBBs on the SQ from firmware
+1eb07b69bd340f87d6712c69842e91972f654873 Merge branch 'patchq/467855' into mlx5-queue
+b0c36aaf75cd8b0c8f56dbe411405bc765841631 net/mlx5e: Use FW limitation for max MPW WQEBBs
+f4d5686ce58ba5cbbb3bd55528fb90391a749e03 Merge branch 'patchq/362916' into mlx5-queue
+c3cd1a1f0639434c34d5a4268dd4e3ea77b980a7 Merge branch 'patchq/467755' into mlx5-queue
+6fb2ecd57fdf573dd22565a0b87addb1f8317d1b Merge branch 'patchq/464678' into mlx5-queue
+3ad1e505303a9f1a8b1d24066f6532cfa6da59ae Merge branch 'patchq/452610' into mlx5-queue
+c7b4c1c0d6f653c04ff94952f2fd0ec76dbf203e Merge branch 'patchq/462991' into mlx5-queue
+728905ebb501b62461f556154670a30c1b9f7314 Merge branch 'patchq/396348' into mlx5-queue
 
---===============8283721478630463477==--
+--===============5429431263869016938==--
