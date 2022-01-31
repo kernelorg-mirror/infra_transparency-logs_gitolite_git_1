@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 31 Jan 2022 19:16:59 -0000
-Message-Id: <164365661928.675.4972238393903172096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 31 Jan 2022 19:22:01 -0000
+Message-Id: <164365692168.4965.16989408656710305799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 601753a2ad1e94e6d9498c8faefbae61275d045f
-    new: 0c1f0e2fe5907398408d24636c5e778275870df1
+  - ref: refs/heads/master
+    old: 4318438600dd7c0420f5fcb51743248b55c18025
+    new: ce46d8f3c800f08da4a6bc05bde49d9680005d9e
     log: |
-         04662bac0067e2fd7f243d6abaa4d779bce14114 ACPI: require CRC32 to build
-         0c1f0e2fe5907398408d24636c5e778275870df1 Merge branch 'acpi-scan' into bleeding-edge
+         ce46d8f3c800f08da4a6bc05bde49d9680005d9e acd: remove 'No target or source conflict' print
          
