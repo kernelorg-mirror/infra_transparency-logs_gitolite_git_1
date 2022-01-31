@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7455229307455954980=="
+Content-Type: multipart/mixed; boundary="===============0197305445465149549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 31 Jan 2022 13:20:23 -0000
-Message-Id: <164363522310.23949.717562248467461567@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 13:20:47 -0000
+Message-Id: <164363524767.24160.13685980869005126630@gitolite.kernel.org>
 
---===============7455229307455954980==
+--===============0197305445465149549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 8b6f849a1cf4d3e56da8165267856e3990832b9a
-    new: d2d1bfa1e422242c3a794007857b463c081f3d5f
+    old: d2d1bfa1e422242c3a794007857b463c081f3d5f
+    new: efdfd34d5749724be0eba4168ef0fa5143ea0639
     log: |
-         d2d1bfa1e422242c3a794007857b463c081f3d5f usb: raw-gadget: fix handling of dual-direction-capable endpoints
+         efdfd34d5749724be0eba4168ef0fa5143ea0639 usb: gadget: udc: renesas_usb3: Fix host to USB_ROLE_NONE transition
          
 
---===============7455229307455954980==
+--===============0197305445465149549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643635221 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643635246 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643635221-67161dedc835145c09e7b754c8ebf998b3824aaf
+nonce 1643635245-5c97a2b8321c3f92b066f9f8fe83519f73f70f09
 
-8b6f849a1cf4d3e56da8165267856e3990832b9a d2d1bfa1e422242c3a794007857b463c081f3d5f refs/heads/usb-testing
+d2d1bfa1e422242c3a794007857b463c081f3d5f efdfd34d5749724be0eba4168ef0fa5143ea0639 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH34hYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/pcQAIF000n6ZGRuAO2dJ6Yf
-Km5/bzAwWuC0JJLpl7wk8b1R6Uwb7GgvFmOnh7EgG2XCcXMSIRuyLL6AdcfKbSyO
-PY9/F26OHiCe84aiiIZGELL1kYN+vyu9JWDEFBbCdafxntmEMJi88XP265BCxzMz
-LPsVJGmkviY5odofE4SYU+qg0KA5WsFDUJ5YwbCKdjstZipE7pq9n7KvgC5+OKX2
-vep7IxK9KT5ZkKwrtkbqCTFHOndsr00baU/pmLNHPL01n1YMQ3p2voMCLwhIR/XE
-5gLiJ68tLIWoqxbSVYpS3qZfIwkzEQ9ssjoqwiHcHKRCQ+NhjHKXj3WEliuHkhns
-lHptMQ16lOCX1bp8IXGkRq00f7glKu05AMkv56kZNuONy+mIA8nZGFSTIKlFF+Vj
-BGGzYY3UvmmCdws6NamU/HK7EiKrgbLlD6ZWAU5zzJMV2SHMlOqyJyn5llbQ4bPL
-S0mOETmoJNJW0RLV3J+9eKdrO05pZoU7x2IfnktmrVBE32l+HnzBlyzZsTODLdDG
-x59jnS5y6/Nw8tJPhJtvL3afKKdsyfiVYLi3yIx3kpkLEVQbEDJUi8jkEObz/Qtl
-ZHXy6eA7OEmgcsNQSFARw1mYYH+ef0+5dNR355P3BQs3EifMM093BoW3/sSRj02x
-y2Vv04gmh3L6VAYYEiRZ8C90
-=1T8z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH34i4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3ewQAJrvklnHnoeFEigywRxr
+KVQC4/k8BcbKESNv6FJKABAYgKDafH363QAYL3/YSpd3gTT1O+p9LQAoHoFhIwNq
+2lFYstls3M+kjyROCHyFCSQWNMTYoFnUTLwX371C+7WGKg4tCArXPb0MgWpvqMg7
+z2J2P2127scbeFtk0bAyR+1C9bJPrMrcd3KZ8IXkLqQjxW6dXLKddPZyHUMWFgXS
+haFg7DoTe+LOPpr+oIxczqrb0g3SZ3NIlNB+UzbMWcm/+JnBk+MJ70aU2pfjZkqg
+8rhOKNVZDZuifhtzpixFydN7t4yWSSao7t7KWBAu3VytawCHisWX7b4s+U9y+sMX
+vIbVSHmZs0YwH/r7FeOtt1Khc5dnwB/GBTtT/Hd4IXT47cplu6jKP3IbsFQRCHRd
+/Za52Tflj1aMv4vKi8oZRdGwB5RcPRN0PeISAlyWlUXskbbdFS7IO6FfoqnPnUSd
+Y9feqBrSdTdsp+pnCZGWervpleaOLNZVK7mAEaN3zuqN2V7s/SYkmThImyr3CbiX
+F/ZfmoEl/MGK+srhlH5PDFyy11/kx9QDXT6USDUTu4iBIQazJyRdP8VLikLK019M
+muBWeHJ32665tBT3IOOUV4AB+xnKfBsuWzB/iKm0Kqm1XDYHGYA53RZ016X1UodR
+MtYXINDn/W6Kb+l/s5bHG3G0
+=iK/z
 -----END PGP SIGNATURE-----
 
---===============7455229307455954980==--
+--===============0197305445465149549==--
