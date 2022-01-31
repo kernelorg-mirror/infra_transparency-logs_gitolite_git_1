@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6329833017547282885=="
+Content-Type: multipart/mixed; boundary="===============4563298501744372009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 31 Jan 2022 07:57:21 -0000
-Message-Id: <164361584195.24658.3099510528825771531@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 07:57:36 -0000
+Message-Id: <164361585600.24821.12928298466471039362@gitolite.kernel.org>
 
---===============6329833017547282885==
+--===============4563298501744372009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/master
     old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     new: 26291c54e111ff6ba87a164d85d4a4e134b7315c
     log: revlist-e783362eb54c-26291c54e111.txt
 
---===============6329833017547282885==
+--===============4563298501744372009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -479,4 +479,4 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
 
---===============6329833017547282885==--
+--===============4563298501744372009==--
