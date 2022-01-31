@@ -1,136 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============8573173709615905422=="
+Content-Type: multipart/mixed; boundary="===============5603751580596664034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 31 Jan 2022 22:25:50 -0000
-Message-Id: <164366795004.27822.12395143568370494222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
+Date: Mon, 31 Jan 2022 22:30:35 -0000
+Message-Id: <164366823577.30854.381925940553416657@gitolite.kernel.org>
 
---===============8573173709615905422==
+--===============5603751580596664034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/next/linux-next
+user: sfr
 changes:
-  - ref: refs/heads/hwmon
-    old: 1d2d8baaf05367edb281168e36083912630aa57b
-    new: 3c5412cdec9f6e417e7757974040e461df4a7238
-    log: revlist-1d2d8baaf053-3c5412cdec9f.txt
-  - ref: refs/heads/hwmon-next
-    old: 8f8b63b0f29ddc89955c03faba202b7e0459716b
-    new: 073e472552442bf2351eb597e6d14b7dd509e6b1
-    log: revlist-8f8b63b0f29d-073e47255244.txt
+  - ref: refs/heads/pending-fixes
+    old: 8bc354fa93b22ec6ec2817ab59dab189870bf356
+    new: a7fc3604a297400b1140adf29cc29de7bf17e4f3
+    log: revlist-8bc354fa93b2-a7fc3604a297.txt
 
---===============8573173709615905422==
+--===============5603751580596664034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d2d8baaf053-3c5412cdec9f.txt
+Content-Disposition: attachment; filename=revlist-8bc354fa93b2-a7fc3604a297.txt
 
-45378cd33905966baf16d12ab0adbd56794ee075 irqchip/apple-aic: Drop unused ipi_hwirq field
-291e79c7e2eb6fdc016453597b78482e06199d0f irqchip/realtek-rtl: Map control data to virq
-91351b5dd0fd494eb2d85e1bb6aca77b067447e0 irqchip/realtek-rtl: Fix off-by-one in routing
-960dd884ddf5621ae6284cd3a42724500a97ae4c irqchip/realtek-rtl: Service all pending interrupts
-c831d92890e037aafee662e66172d406804e4818 irqchip/loongson-pch-ms: Use bitmap_free() to free bitmap
-16436f70abeebb29cd99444e27b310755806c1fa irqchip/gic-v3-its: Fix build for !SMP
-1f52b0aba6fd37653416375cb8a1ca673acf8d5f x86/MCE/AMD: Allow thresholding interface updates after init
-e464121f2d40eabc7d11823fb26db807ce945df4 x86/cpu: Add Xeon Icelake-D to list of CPUs that support PPIN
-809232619f5b15e31fb3563985e705454f32621f sched/membarrier: Fix membarrier-rseq fence command missing from query bitmask
-c733ebb7cb67dfb146a07c0ae329a0de9ec52f36 irqchip/gic-v3-its: Reset each ITS's BASERn register before probe
-961c39121759ad09a89598ec4ccdd34ae0468a19 perf: Always wake the parent event
-c5de60cd622a2607c043ba65e25a6e9998a369f9 perf/core: Fix cgroup event list management
-e8cc7a5d1ad2d44e7f43664ef6a61e31c0545a5b dt-bindings: irqchip: renesas-irqc: Add R-Car V3U support
-8fbc16d26d3a1ed3d80553b773be29408750987b dt-bindings: interrupt-controller: sifive,plic: Fix number of interrupts
-c89e5eb7dcf1519e5e084ee82e0d29d4e751ddb7 dt-bindings: interrupt-controller: sifive,plic: Group interrupt tuples
-243d30803744155a54bfb8a844cc964945cfd9a1 Merge tag 'irqchip-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-6cb917411e028dcb66ce8f5db1b47361b78d7d3f include/linux/sysctl.h: fix register_sysctl_mount_point() return type
-e7f1e8834b2b2144dfbe0b2235d05e4f6f95882e binfmt_misc: fix crash when load/unload module
-dbecf9b8b8ce580f4e11afed9d61e8aa294cddd2 ia64: make IA64_MCA_RECOVERY bool instead of tristate
-61e28cf0543c7d8e6ef88c3c305f727c5a21ba5b memory-failure: fetch compound_head after pgmap_pfn_valid()
-536f4217ced62b671bd759f6b549621a5654a70f mm: page->mapping folio->mapping should have the same offset
-0226bd64da52aa23120d1450c37a424387827a21 tools/testing/scatterlist: add missing defines
-09c6304e38e440b93a9ebf3f3cf75cd6cb529f91 kasan: test: fix compatibility with FORTIFY_SOURCE
-27fe73394a1c6d0b07fa4d95f1bca116d1cc66e9 mm, kasan: use compare-exchange operation to set KASAN page tag
-51e50fbd3efc6064c30ed73a5e009018b36e290a psi: fix "no previous prototype" warnings when CONFIG_CGROUPS=n
-44585f7bc0cb01095bc2ad4258049c02bbad21ef psi: fix "defined but not used" warnings when CONFIG_PROC_FS=n
-4cd1103d8c66b2cdb7e64385c274edb0ac5e8887 jbd2: export jbd2_journal_[grab|put]_journal_head
-ddf4b773aa40790dfa936bd845c18e735a49c61c ocfs2: fix a deadlock when commit trans
-8dd71685dcb7839f6d91417e0a9237daca363908 Merge branch 'akpm' (patches from Andrew)
-a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24f4db1f3a2725a6308105081d822b26889e1018 Merge tag 'sched_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-27a96c4feb837093f6075bbd97c942260d26ef33 Merge tag 'perf_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
-3c5412cdec9f6e417e7757974040e461df4a7238 pinctrl-sunxi: sunxi_pinctrl_gpio_direction_in/output: use correct offset
+8c83d39cc730378bbac64d67a551897b203a606e IB/hfi1: Fix panic with larger ipoib send_queue_size
+b1151b74ff68cc83c2a8e1a618efe7d056e4f237 IB/hfi1: Fix alloc failure with larger txqueuelen
+5f8f55b92edd621f056bdf09e572092849fabd83 IB/hfi1: Fix AIP early init panic
+e5cce44aff3be9ad2cd52f63f35edbd706181d50 IB/hfi1: Fix tstats alloc and dealloc
+d9e410ebbed9d091b97bdf45b8a3792e2878dc48 RDMA/cma: Use correct address when leaving multicast group
+36e8169ec973359f671f9ec7213547059cae972e RDMA/ucma: Protect mc during concurrent multicast leaves
+a75badebfdc0b3823054bedf112edb54d6357c75 RDMA/siw: Fix refcounting leak in siw_create_qp()
+b856101a1774b5f1c8c99e8dfdef802856520732 IB/cm: Release previously acquired reference counter in the cm_id_priv
+4028bccb003cf67e46632dee7f97ddc5d7b6e685 IB/rdmavt: Validate remote_addr during loopback atomic tests
+47307c31d90ae7d52cebbbc7c1d4ff213213d4e9 crypto: octeontx2 - Avoid stack variable overflow
+b837a9f5ab3bdfab9233c9f98a6bef717673a3e5 ALSA: hda: realtek: Fix race at concurrent COEF updates
+63394a16086fc2152869d7902621e2525e14bc40 ALSA: hda/realtek: Add missing fixup-model entry for Gigabyte X570 ALC1220 quirks
+41a8601302ecbe704ac970552c33dc942300fc37 ALSA: hda/realtek: Fix silent output on Gigabyte X570S Aorus Master (newer chipset)
+ea3541961376f733373839cc90493aafa8a7f733 ALSA: hda/realtek: Fix silent output on Gigabyte X570 Aorus Xtreme after reboot from Windows
+94db9cc8f8fa2d5426ce79ec4ca16028f7084224 ALSA: hda/realtek: Add quirk for ASUS GU603
+b470947c3672f7eb7c4c271d510383d896831cc2 usb: dwc3: xilinx: fix uninitialized return value
+8172f41859cf7516e73eb957297e6752b3073119 drm/i915: Allocate intel_engine_coredump_alloc with ALLOW_FAIL
+5ae13c305ef8cb54efc4f0ba4565709b9f320fed drm/i915: Lock timeline mutex directly in error path of eb_pin_timeline
+90a3d22ff02b196d5884e111f39271a1d4ee8e3e drm/i915/overlay: Prevent divide by zero bugs in scaling
+b3f74938d65665f892d1b7807c51140f68dc911c drm/i915/pmu: Use PM timestamp instead of RING TIMESTAMP for reference
+3c6f13ad723e7206f03bb2752b01d18202b7fc9d drm/i915/adlp: Fix TypeC PHY-ready status readout
+2e872d87cbf2cd02dca570ee187cf35567576a70 drm/i915: delete shadow "ret" variable
+ea33c6d63f87e34b14dba6f2804990a5fc5a60d7 drm/i915/pmu: Fix KMD and GuC race on accessing busyness
+ebe2b1add1055b903e2acd86b290a85297edc0b3 usb: f_fs: Fix use-after-free for epfile
+fa77ce201f7f2d823b07753575122d1ae5597fbe USB: serial: ch341: add support for GW Instek USB2.0-Serial devices
+d48384c7ed6c8fe4727eaa0f3048f62afd1cd715 USB: serial: option: add ZTE MF286D modem
+341adeec9adad0874f29a0a1af35638207352a39 net/smc: Forward wakeup to smc socket waitqueue after fallback
+092f45b13e51666fe8ecbf2d6cd247aa7e6c1f74 usb: ulpi: Move of_node_put to ulpi_dev_release
+0a907ee9d95e3ac35eb023d71f29eae0aaa52d1b usb: ulpi: Call of_node_put correctly
+a4f399a1416f645ac701064a55b0cb5203707ac9 Input: wm97xx: Simplify resource management
+5c2b9c61ae5d8ad0a196d33b66ce44543be22281 usb: usb251xb: add boost-up property support
+292d2c82b105d92082c2120a44a58de9767e44f1 usb: raw-gadget: fix handling of dual-direction-capable endpoints
+459702eea6132888b5c5b64c0e9c626da4ec2493 usb: gadget: udc: renesas_usb3: Fix host to USB_ROLE_NONE transition
+5432184107cd0013761bdfa6cb6079527ef87b95 usb: gadget: f_uac2: Define specific wTerminalType
+c816b2e65b0e86b95011418cad334f0524fc33b8 n_tty: wake up poll(POLLRDNORM) on receiving data
+a72c01a94f1d285a274219d36e2a17b4846c0615 mac80211: mlme: check for null after calling kmemdup
+42a79960ffa50bfe9e0bf5d6280be89bf563a5dd mac80211_hwsim: report NOACK frames in tx_status
+cacfddf82baf1470e5741edeecb187260868f195 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
+fa4300f060e5c4ca670b705f1e9b93685ad30c5b of: unittest: update text of expected warnings
+bd2db32e7c3e35bd4d9b8bbff689434a50893546 moxart: fix potential use-after-free on remove path
+f83a96e5f033fbbd21764705cb9c04234b96218e spi: mediatek: Avoid NULL pointer crash in interrupt
+533da5077b63485ba88f5bb03fd6a93048a9a72d MAINTAINERS: mark ath6kl as orphan
+3451613c338bfecb3e037f79db4bbfa51f7a0236 MAINTAINERS: change Loic as wcn36xx maintainer
+e2ac75e0619b8db32447bb592f4a5b9e9d990c57 MAINTAINERS: hand over ath9k maintainership to Toke
+fcda1cb81663b5fb846803607e1d0a3180d1a5d4 MAINTAINERS: add DT bindings files for ath10k and ath11k
+36415a7964711822e63695ea67fede63979054d9 mtd: rawnand: brcmnand: Fixed incorrect sub-page ECC status
+12d30d7f10e67903973694cc9e13100e90d0aaf4 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+ec049891b2dc16591813eacaddc476b3d27c8c14 kselftest: Fix vdso_test_abi return status
+88a309465b3f05a100c3b81966982c0f9f5d23a6 lib: zstd: clean up double word in comment.
+1b777d4d9e383d2744fc9b3a09af6ec1893c8b1a drm/nouveau: fix off by one in BIOS boundary checking
+100366542cbe78c84e0f0ed1e5269f4df97d23f4 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+420e90de7cc2950871132e6f9196947a3c6496d7 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
+c34aff17c0b67bfca085664b64f3d7a446f23952 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+7ab20a4bd1d39a271cb46898d2ede4f2b7457dd5 Merge branch 'main' of git git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+6e3003bf1b4d8e809b7820beb22bec97d4704a5c Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
+3f2f34901f07309d91cba4ba80806eacaa22667d Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+cb47ac1e94afe8f3b771de6af9cdb398a3babca0 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+d9fa1d3e73c0efcf57e4c8c03be45bd7e8e38ad8 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+35ddf0c9ee6614f716867715d52e0488b43a18af Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+e427ddfad894c222fab930a5e2191b91b6817d8a Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci.git
+8988ea77d2487b74f2e1eac93e8dc68b9e565465 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+c06c7725c5edc2e18e4d147ea97c740685dfa66b Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+4beda3aeb8bde60658e28d8172b6876fbd0bf3c4 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
+3c3c74a29dadf71558d4aa1987f1d548ae3eedb7 Merge branch 'for-usb-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb.git
+7a5fe69af7599567b2a21d9905be6cd66d74c2cb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
+4dcc50421be2454c6a5d5c9221c5b54f5f278189 Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+e07d6d43e2fa925b8d3f95355642e63126281eee Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+4b0a3c9877ed24230452d040b2060eebd7f1a686 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git
+973a1254d5640443b044b58bf0c0bcd53a8cbf1a Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+cd63ea0aa7f157afd4be024baf7bcd26822d3afc Merge branch 'mtd/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git
+4ca3de56ce442fa9b814b41922bad7c71381b4a2 Merge branch 'fixes' of git://linuxtv.org/mchehab/media-next.git
+c00e01aa1b58d1e4a50109d5cf8f40edbaa1c00d Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+562c913328928800eb803a3329845751b02b2163 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+3ded7d82a7fd659b6fc20a8d53c22fdd0d71175b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git
+6bfc108d269f11b033f6013aa0006ae4e06cc85d Merge branch 'dt/linus' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git
+aeabbf4f887bd0915605bab14d768f0a222e9cef Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm-intel
+d495b9c76a9bb23a5262233df185cc61474d5def Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
+c42cd49404875c022519b452eb705418d9a3d9d8 Merge branch 'rtc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git
+206ebafb3a3be320c7577b30caf02a76c960919b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel.git
+0b466fde544253778e92415408b081df8d4592ef Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+77129b4b4d9d847279cb5d2f5999790e03bfdd45 Merge branch 'kunit-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git
+2d19656dddb407570f2b1de1177aad7c124a613b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
+be763073dd1bf01f8654f0914f6968ff7c0f166a Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+57762a83898c196b0ef2828f9a3f96307a86cfb4 Merge branch 'zstd-linus' of https://github.com/terrelln/linux.git
+28f8d9e513a82c36ac6561539d1980360c9d3494 Merge branch 'for-linux-next-fixes' of git://anongit.freedesktop.org/drm/drm-misc
+a7fc3604a297400b1140adf29cc29de7bf17e4f3 Revert "drm/i915: delete shadow "ret" variable"
 
---===============8573173709615905422==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f8b63b0f29d-073e47255244.txt
-
-45378cd33905966baf16d12ab0adbd56794ee075 irqchip/apple-aic: Drop unused ipi_hwirq field
-291e79c7e2eb6fdc016453597b78482e06199d0f irqchip/realtek-rtl: Map control data to virq
-91351b5dd0fd494eb2d85e1bb6aca77b067447e0 irqchip/realtek-rtl: Fix off-by-one in routing
-960dd884ddf5621ae6284cd3a42724500a97ae4c irqchip/realtek-rtl: Service all pending interrupts
-c831d92890e037aafee662e66172d406804e4818 irqchip/loongson-pch-ms: Use bitmap_free() to free bitmap
-16436f70abeebb29cd99444e27b310755806c1fa irqchip/gic-v3-its: Fix build for !SMP
-1f52b0aba6fd37653416375cb8a1ca673acf8d5f x86/MCE/AMD: Allow thresholding interface updates after init
-e464121f2d40eabc7d11823fb26db807ce945df4 x86/cpu: Add Xeon Icelake-D to list of CPUs that support PPIN
-809232619f5b15e31fb3563985e705454f32621f sched/membarrier: Fix membarrier-rseq fence command missing from query bitmask
-c733ebb7cb67dfb146a07c0ae329a0de9ec52f36 irqchip/gic-v3-its: Reset each ITS's BASERn register before probe
-961c39121759ad09a89598ec4ccdd34ae0468a19 perf: Always wake the parent event
-c5de60cd622a2607c043ba65e25a6e9998a369f9 perf/core: Fix cgroup event list management
-e8cc7a5d1ad2d44e7f43664ef6a61e31c0545a5b dt-bindings: irqchip: renesas-irqc: Add R-Car V3U support
-8fbc16d26d3a1ed3d80553b773be29408750987b dt-bindings: interrupt-controller: sifive,plic: Fix number of interrupts
-c89e5eb7dcf1519e5e084ee82e0d29d4e751ddb7 dt-bindings: interrupt-controller: sifive,plic: Group interrupt tuples
-243d30803744155a54bfb8a844cc964945cfd9a1 Merge tag 'irqchip-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
-6cb917411e028dcb66ce8f5db1b47361b78d7d3f include/linux/sysctl.h: fix register_sysctl_mount_point() return type
-e7f1e8834b2b2144dfbe0b2235d05e4f6f95882e binfmt_misc: fix crash when load/unload module
-dbecf9b8b8ce580f4e11afed9d61e8aa294cddd2 ia64: make IA64_MCA_RECOVERY bool instead of tristate
-61e28cf0543c7d8e6ef88c3c305f727c5a21ba5b memory-failure: fetch compound_head after pgmap_pfn_valid()
-536f4217ced62b671bd759f6b549621a5654a70f mm: page->mapping folio->mapping should have the same offset
-0226bd64da52aa23120d1450c37a424387827a21 tools/testing/scatterlist: add missing defines
-09c6304e38e440b93a9ebf3f3cf75cd6cb529f91 kasan: test: fix compatibility with FORTIFY_SOURCE
-27fe73394a1c6d0b07fa4d95f1bca116d1cc66e9 mm, kasan: use compare-exchange operation to set KASAN page tag
-51e50fbd3efc6064c30ed73a5e009018b36e290a psi: fix "no previous prototype" warnings when CONFIG_CGROUPS=n
-44585f7bc0cb01095bc2ad4258049c02bbad21ef psi: fix "defined but not used" warnings when CONFIG_PROC_FS=n
-4cd1103d8c66b2cdb7e64385c274edb0ac5e8887 jbd2: export jbd2_journal_[grab|put]_journal_head
-ddf4b773aa40790dfa936bd845c18e735a49c61c ocfs2: fix a deadlock when commit trans
-8dd71685dcb7839f6d91417e0a9237daca363908 Merge branch 'akpm' (patches from Andrew)
-a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-24f4db1f3a2725a6308105081d822b26889e1018 Merge tag 'sched_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-27a96c4feb837093f6075bbd97c942260d26ef33 Merge tag 'perf_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
-3c5412cdec9f6e417e7757974040e461df4a7238 pinctrl-sunxi: sunxi_pinctrl_gpio_direction_in/output: use correct offset
-59ba33a4f941aaacef5b27de51f1c520ea5c51b0 hwmon: Report attribute name with udev events
-a61d9f03c2eb89309c9992641601d2bcc66bffbf hwmon: (lm83) Reorder include files to be in alphabetic order
-8753aca922b4ed569885e40c6e73a6fe02cb179d hwmon: (lm83) Move lm83_id to avoid forward declaration
-71dadc3b765575e547b445c0ae71a54e9a87fc91 hwmon: (lm83) Replace new_client with client
-e310e2b4615310e6fd943f2b0af4c3c85f959222 hwmon: (lm83) Use regmap
-9489c2c4c09672bfb0bac0b976eccdb988ca64e4 hwmon: (lm83) Replace temperature conversion macros with standard functions
-13203eb58fd3191ff64a97471d3adcb22752e41f hwmon: (lm83) Demote log message if chip identification fails
-df9a2f2234df8a88fdfcf20ae514ef758d02ab40 hwmon: (lm83) Explain why LM82 may be misdetected as LM83
-94fe5491672e370ec5cf4f8f27c76614cd18aed6 hwmon: (lm83) Convert to use with_info API
-40c0301b64dd5b9ee27565b655143bd21596b773 hwmon: (nct6775) add support for TSI temperature registers
-2e20a3f057bb342ed0d680d15e6dedc4e16d6307 ABI: hwmon: Document "label" sysfs attribute
-13ea4861c75c88d32537e9b62c1a3c3e4a5bc152 hwmon: Add "label" attribute
-00e69e015afcfed266df2eba06029fc4eb672196 hwmon: (nct6775) add ASUS Pro B550M-C/PRIME B550M-A
-1a27d7ebe331d2e21d96f929a52bfe164600bfe8 hwmon: (nct6775) add PRIME B550-PLUS motherboard to whitelist
-12437a6ef1f2381180d01eebe349b12edbc96037 Documentation: admin-guide: Update i8k driver name
-537d857ca375940b97a1ae22107b048da7665a2d Documentation: admin-guide: Add Documentation for undocumented dell_smm_hwmon parameters
-cee58ba29e95f9801a9b0b8980ae2224dbad3744 Documentation: ABI: Add ABI file for legacy /proc/i8k interface
-670e0714fb477ba52120bc4dbfcd9a69b934d071 hwmon: (asus_wmi_ec_sensors) Support T_Sensor on Prime X570-Pro
-8f6730a633d8e03a7f96b1bc8a52a3d0b3f9dbd5 hwmon: (asus_wmi_sensors) add ASUS ROG STRIX B450-F GAMING II
-0b24da98d0782614b643053157e5126b7514a6cb hwmon: (pmbus) Remove trailing whitespaces from Kconfig file
-b9867a8ac41936dede1d9ea10ee4dbcf5f275692 dt-bindings: hwmon: lm90: Drop Tegra specifics from example
-311d8d156bf6923040ee6351c90cdd5ddba74a4e hwmon: (powr1220) Cosmetic changes
-ae6d3e8f82592ab9290123cbc224da80f5488b04 hwmon: (powr1220) Upgrade driver to support hwmon info infrastructure
-291a65d5a9090b24bf072930e2cee926456321d2 hwmon: (powr1220) Add support for Lattice's POWR1014 power manager IC
-073e472552442bf2351eb597e6d14b7dd509e6b1 hwmon: Fix possible NULL pointer
-
---===============8573173709615905422==--
+--===============5603751580596664034==--
