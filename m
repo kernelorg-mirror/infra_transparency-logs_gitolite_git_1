@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7615169226362864077=="
+Content-Type: multipart/mixed; boundary="===============2108208633200879163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 31 Jan 2022 13:30:59 -0000
-Message-Id: <164363585998.32336.9278390493417663682@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 13:31:50 -0000
+Message-Id: <164363591032.503.1174015800189478437@gitolite.kernel.org>
 
---===============7615169226362864077==
+--===============2108208633200879163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 8e4413aaf6a2e3a46e99a0718ca54c0cf8609cb2
-    new: 1d22c270752ea2b29b9a484e150641f852a10a6d
+  - ref: refs/heads/tty-linus
+    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
+    new: c816b2e65b0e86b95011418cad334f0524fc33b8
     log: |
-         1d22c270752ea2b29b9a484e150641f852a10a6d dt-bindings: serial: Add compatible for Mediatek MT8186
+         c816b2e65b0e86b95011418cad334f0524fc33b8 n_tty: wake up poll(POLLRDNORM) on receiving data
          
 
---===============7615169226362864077==
+--===============2108208633200879163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643635858 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643635909 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643635857-dc8fa7e30ad53d73d5377d83e09fbb16c2f6cf55
+nonce 1643635908-3dc2e05f42d2ebac67ef1dc6ce116680cd29c9b7
 
-8e4413aaf6a2e3a46e99a0718ca54c0cf8609cb2 1d22c270752ea2b29b9a484e150641f852a10a6d refs/heads/tty-testing
+26291c54e111ff6ba87a164d85d4a4e134b7315c c816b2e65b0e86b95011418cad334f0524fc33b8 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH35JIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OD0QANYjSl7raz19JQWnVixf
-HnRcyPy8v4mhQdk983qPeLLvEqTvW709f9hFEHNRb7aYp4Uq0AH7YsgWN4aaGgZy
-QkefcSVvG5J+fo2e61wm8jOlnw0yV0eNwKAXtAhF7iNZMJb/jrYU2wxMTnKz6md0
-nZPI6AgO90gzF0zgiRTrYd1+g2RjGDo5j04j0HGbfnRjEl0X3JaHv2y9OU2rxq3d
-Z2bO83umRaLoNwFCfVCrsVkcjCVhQfriaPWU2n2kDmN0GAl/dnoZqUniNKYAATu6
-Tv/rdnHb13kdZRcWt815AjP/0hWi38ukBMUelmEvDFUzsppubekAvN38NR1w2ARo
-sGS2Ncb24d82lTJiJh1lF6mIvy9wBWroBQDaWljmHbDoCH+/utBe7lxvmJupISv6
-a4UrRpkEC1zLe7/XhR5i1Y/GmVWDEjG8mqr46l4MNtkf79RkjrK7CqCItHHkfpay
-Ip+OdyEvyaPiFCVYoSnf7XepeMWDjcWQkQftFo1MjWdlunQX7SmmLMC2DQbqEExV
-ufQUEoBdqfDZAlc91c0+38tZTXmgjawrMx1kyxQ++SNY/v6B+INAnc75eD1v9c15
-KyIjgWFb7C8ZJQpw39dQIBzNSDBfevG/b+BaTjHkA6GVe9ES51oNkd/le0WV4n7Z
-Y80YmkQYhEMtBWLLNW0PnjDD
-=PoKL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH35MUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zfYP/0WW0tvhjqeEgQcnbkbO
++IBXm8MXZQ1dPo3T07mZ6KVLVSsG2YFmSX3yMgK/7kNiZghtxBChmb1sNlL/JQ8l
+fu3qgK1gN7WQZgBF18spMoc60zhquhJvMRjJ9gRXHiMOiYl1P9HUaPm+Im/50D5+
+qrV0tAf5IPPh6+zvGZUWCfv/WQKBU6HLWszezmh24LtGuWI2+1i4C4WsUV2/9a/t
+Y+JkL0PLKv5Gp396Cfzwigas6c/x8zRSY9bsY6DA5J8tHNMVcdOjxQgA/zZUtZI8
+14QNnAjsLeGiDc6mFPleB8brbdO2s24Une7eoCBvq8AkRWlsS+9i5K4pe5HIwCzJ
+qVRZR8dT1weENHHtWsnqIxxAUz5wCxM+IZtGIXB+K2S+qL3mToR4EqG8WHdbh30z
+rOvCihidXPL44nhFK6C4B0TLKiz5nWwJ+yMDSkH5+2CuteihDXP8/oFHPFi64ftl
+Md6WjHcRb852SRvj1xYLPus6b2N81VzjKAr6x1eaI0LLo0TvQZbE6a2GnfiwSxv0
+91jFC8riDGP0hLjKdqWFDtHyHGF2+LJBsCI6NOuYK7bsjf9xYTRHrTNAodCOR5aj
+AVPMEyTkKi19/7YMKcC5LxGpVKI2N8VsYjrYPlB2hCtPdOl71TnlxzuhA0bS7ViJ
+wOQT3j57/xhdcIp1NBpSf0hs
+=iYkl
 -----END PGP SIGNATURE-----
 
---===============7615169226362864077==--
+--===============2108208633200879163==--
