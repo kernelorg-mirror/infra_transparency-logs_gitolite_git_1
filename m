@@ -1,54 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6641457269733053233=="
+Content-Type: multipart/mixed; boundary="===============8994241551435905389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 31 Jan 2022 09:22:25 -0000
-Message-Id: <164362094531.15946.1359372550495039156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 31 Jan 2022 09:24:41 -0000
+Message-Id: <164362108134.16740.6238294472658330493@gitolite.kernel.org>
 
---===============6641457269733053233==
+--===============8994241551435905389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: mripard
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sunxi/dt-for-5.18
-    old: 210b3ef939c846f4af0602bdc660852e837bf4a8
-    new: e4bae63fe5e00b0f5a7389ca0144b2434fea97e4
+  - ref: refs/heads/usb-linus
+    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
+    new: b470947c3672f7eb7c4c271d510383d896831cc2
     log: |
-         e4bae63fe5e00b0f5a7389ca0144b2434fea97e4 ARM: dts: sun8i: Add ethernet0 alias in Nanopi NEO's device tree
-         
-  - ref: refs/heads/sunxi/for-next
-    old: d1c4c136bab758f0333d4c804ed922359cc87cfd
-    new: 14eadca892ddf853b87caf312ad083c1c8c918c9
-    log: |
-         e4bae63fe5e00b0f5a7389ca0144b2434fea97e4 ARM: dts: sun8i: Add ethernet0 alias in Nanopi NEO's device tree
-         14eadca892ddf853b87caf312ad083c1c8c918c9 Merge branch 'sunxi/dt-for-5.18' into sunxi/for-next
+         b470947c3672f7eb7c4c271d510383d896831cc2 usb: dwc3: xilinx: fix uninitialized return value
          
 
---===============6641457269733053233==
+--===============8994241551435905389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1643620944 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
-nonce 1643620944-d52ead700dcd8be90cbc4f86f78904e71e435515
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643621079 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1643621079-765c8e70553be99f2985372c333d6b57260f2707
 
-210b3ef939c846f4af0602bdc660852e837bf4a8 e4bae63fe5e00b0f5a7389ca0144b2434fea97e4 refs/heads/sunxi/dt-for-5.18
-d1c4c136bab758f0333d4c804ed922359cc87cfd 14eadca892ddf853b87caf312ad083c1c8c918c9 refs/heads/sunxi/for-next
+26291c54e111ff6ba87a164d85d4a4e134b7315c b470947c3672f7eb7c4c271d510383d896831cc2 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYfeqUAAKCRDj7w1vZxhR
-xc3kAP4l7F8yzqxeLmdor1af6Vww7NvuP65fj+qlGJoy00RC6AD/Q5WR5FCHWN1U
-F8Wj+kxCfZ3L0HwibxSVoBlj29afHg8=
-=NxnB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH3qtgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+20wQAIWUmIPLfJAJx7k2NN5h
+KDre5qHqN++Hz8KdRzoxWrGo1gGmzkzD8X8wFJxZH4HpIyVtu7LYHDHjT/ASf/9c
+7PfDchja0ITxnAXmKt/nqam2rpHg/JComAnQMPrbg4JbIt8D/ZCdEYoXPBoixV3t
+H25qnnnU2gH+tiOklik9YCiUEBpWK9xlW51qtK6AJ14X8qJxFY1KdFn2gWXtdPpG
+3J7YZUo8KGQueqKU2vzX0dtR1+N0cX9ynKsNnhKsd5sRhZKODlq/whtowcFlZrnX
+j8E0/RRwBdtoWEDfkyKstDtzmC6xoDAvDbTF5cReVep/92qvLir1IdA6vk/G+ToY
+zkAnIcxvrjo8vvxluKEWnjZh6YNeWBpA2KZhjBsgDzt7viIPkABTIcjFetC48dXN
+G7tpi29mUpyOAFuJ70oVtNh+87cILxfEerLLsaud/KM8yyyBhoF7tuB8dJPyRqEd
+jlwf67fP/3HS5Y3Dlwk22arf3w01q6MiPlZX0QG2bn0W7FJan4vk3BpUvVdhZosd
+L3+nh4D6ktfSo8q5HNpBMJIUYcp1zCgHBVSen/UU11dyyxBfnGtV30EPRyA75Prz
+/t9EajFapWR5t6p17NA81Cm8WMttK7BK5ZT4BCq0NixAtaiv0oHyDVZKWkD/l2OD
+NjCkvwEHNwjEfHaedGJBMl8E
+=QXgU
 -----END PGP SIGNATURE-----
 
---===============6641457269733053233==--
+--===============8994241551435905389==--
