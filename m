@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 31 Jan 2022 09:09:05 -0000
-Message-Id: <164362014500.5377.8632170000597565076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 31 Jan 2022 09:11:21 -0000
+Message-Id: <164362028186.7548.5259946425442877720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 177c9ec7c7aa0f49413f4cb5f347edf721d5a5ba
-    new: 511a512611bfc0bc740b2e698ef0c7ae5e56891a
+  - ref: refs/heads/for-next
+    old: af5a1ff7458793d379f456b9748270d32fe986ab
+    new: 73d2708484f7d9007c3586f5fa0b6ae8d799342c
     log: |
-         ee1e12448e1978230de2f7fb11e0a9216b27d788 hwclock: increase indent in help text
-         6097b12df708a91651972f73cac2984692196073 hwclock: add --param-get option
-         b22b78b1be6df917d5c449d2f5e45d0a67f14502 hwclock: add --param-set option
-         e0e98b1534261e135dfe0e6ce8c0b7bb72b0b66a docs: document --param-get, --param-set
-         63d8183479e0ccfe5ed46033413ec52880aa2b39 hwclock: cleanup hwclock_params[] use
-         511a512611bfc0bc740b2e698ef0c7ae5e56891a hwclock: get/set param cleanup
+         7308af026bb5176438826fc52982dcaf757276f2 arm64: dts: exynos: align pl330 node name with dtschema
+         01e5fa9c4a830a4776ea50f61815bc25207fc171 arm64: dts: exynos: drop unneeded syscon phandle in Exynos5433 LPASS
+         73d2708484f7d9007c3586f5fa0b6ae8d799342c Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: 27bbc87f653827cc9b6a80191972c3804279d6b8
+    new: 01e5fa9c4a830a4776ea50f61815bc25207fc171
+    log: |
+         7308af026bb5176438826fc52982dcaf757276f2 arm64: dts: exynos: align pl330 node name with dtschema
+         01e5fa9c4a830a4776ea50f61815bc25207fc171 arm64: dts: exynos: drop unneeded syscon phandle in Exynos5433 LPASS
          
