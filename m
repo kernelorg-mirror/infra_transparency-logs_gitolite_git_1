@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3329694434577803114=="
+Content-Type: multipart/mixed; boundary="===============0891706818381181726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 31 Jan 2022 11:08:37 -0000
-Message-Id: <164362731749.1848.9498408808304003256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 31 Jan 2022 11:11:07 -0000
+Message-Id: <164362746745.4094.10425394549924573173@gitolite.kernel.org>
 
---===============3329694434577803114==
+--===============0891706818381181726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 2af7620be8e96c0d09a044ac39229bcc67863edb
-    new: cdd3ce832c2547c5e0b2a8c506bd4e9b183b02e4
-    log: revlist-2af7620be8e9-cdd3ce832c25.txt
+  - ref: refs/heads/master
+    old: ba94d205dc71120401744a925da52c4098644e40
+    new: 3aa8ba88974022cbe2386cf2cd1b93d7244301b5
+    log: revlist-ba94d205dc71-3aa8ba889740.txt
 
---===============3329694434577803114==
+--===============0891706818381181726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2af7620be8e9-cdd3ce832c25.txt
+Content-Disposition: attachment; filename=revlist-ba94d205dc71-3aa8ba889740.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -478,9 +478,6 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 27a96c4feb837093f6075bbd97c942260d26ef33 Merge tag 'perf_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
-8a24347ffd3739b53fb2b22aa62ea412cbfd7b5e m68k: Add asm/config.h
-3cca9796d184a81be302d9e2d5e221ae1a717c3a m68k: atari: usb: Add ISP1160 USB host controller support
-3a7a54478a7d3243c2593518c444daf33a8f82eb m68k: atari: Update Kconfig.bus help text
-cdd3ce832c2547c5e0b2a8c506bd4e9b183b02e4 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+3aa8ba88974022cbe2386cf2cd1b93d7244301b5 Merge tag 'v5.17-rc2' into renesas-devel
 
---===============3329694434577803114==--
+--===============0891706818381181726==--
