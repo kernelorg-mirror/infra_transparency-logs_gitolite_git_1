@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8273643912795850884=="
+Content-Type: multipart/mixed; boundary="===============1077466303908077010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 31 Jan 2022 12:02:51 -0000
-Message-Id: <164363057105.5841.1901888921033539483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Mon, 31 Jan 2022 12:04:24 -0000
+Message-Id: <164363066453.6368.8414646890391349911@gitolite.kernel.org>
 
---===============8273643912795850884==
+--===============1077466303908077010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/bp/bp
+user: bp
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: dcce50e6cc4d86a63dc0a9a6ee7d4f948ccd53a1
-    new: 82880283d7fcd0a1d20964a56d6d1a5cc0df0713
-    log: revlist-dcce50e6cc4d-82880283d7fc.txt
+  - ref: refs/heads/rc1+mce-noinstr
+    old: 69d36c12c5048571ad8a4b9676561253b7887fb6
+    new: da192d8cd1c8ab7f5dfb0aa931512fad790c804a
+    log: revlist-69d36c12c504-da192d8cd1c8.txt
 
---===============8273643912795850884==
+--===============1077466303908077010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcce50e6cc4d-82880283d7fc.txt
+Content-Disposition: attachment; filename=revlist-69d36c12c504-da192d8cd1c8.txt
 
-9cdbeec4096804083944d05da96bbaf59a1eb4f9 x86/entry_32: Fix segment exceptions
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
 8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
 b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
 dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
@@ -1049,6 +1042,13 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-82880283d7fcd0a1d20964a56d6d1a5cc0df0713 objtool: Fix truncated string warning
+54dff232142e255ff644d73de1c8d80122f5ad7b MAINTAINERS: add myself as reviewer for atomics
+e204193b138af347fbbbe026e68cb3385112f387 lockdep: Use memset_startat() helper in reinit_class()
+61cc4534b6550997c97a03759ab46b29d44c0017 locking/lockdep: Avoid potential access of invalid memory in lock_class
+acb13ea0baf8db8d05a3910c06e997c90825faad asm-generic/bitops: Always inline all bit manipulation helpers
+1dc01abad6544cb9d884071b626b706e37aa9601 cpumask: Always inline helpers which use bit manipulation functions
+9f121dbc2a37b7cc0b8fe5016c4b1f40d626bb23 cpumask: Add a x86-specific cpumask_clear_cpu() helper
+7fd83132afa3e6b07b6112be88137abbb64b8cf8 x86/ptrace: Always inline v8086_mode() for instrumentation
+da192d8cd1c8ab7f5dfb0aa931512fad790c804a x86/mce: Use arch atomic and bit helpers
 
---===============8273643912795850884==--
+--===============1077466303908077010==--
