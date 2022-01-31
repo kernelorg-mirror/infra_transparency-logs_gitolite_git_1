@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8431998037194276004=="
+Content-Type: multipart/mixed; boundary="===============0986640229830400557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Mon, 31 Jan 2022 00:24:11 -0000
-Message-Id: <164358865170.17407.1215064697787211680@gitolite.kernel.org>
+Date: Mon, 31 Jan 2022 00:24:17 -0000
+Message-Id: <164358865790.17499.646527967222411735@gitolite.kernel.org>
 
---===============8431998037194276004==
+--===============0986640229830400557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: 5f21d7d283dd82865bdb0123795b3accf0d42b67
     new: 47307c31d90ae7d52cebbbc7c1d4ff213213d4e9
     log: revlist-5f21d7d283dd-47307c31d90a.txt
 
---===============8431998037194276004==
+--===============0986640229830400557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
 47307c31d90ae7d52cebbbc7c1d4ff213213d4e9 crypto: octeontx2 - Avoid stack variable overflow
 
---===============8431998037194276004==--
+--===============0986640229830400557==--
