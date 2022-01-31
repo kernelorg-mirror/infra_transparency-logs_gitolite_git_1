@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7665293116867360007=="
+Content-Type: multipart/mixed; boundary="===============0599488703689805311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 31 Jan 2022 10:52:18 -0000
-Message-Id: <164362633811.23971.8526505056805418919@gitolite.kernel.org>
+Message-Id: <164362633892.24034.11259344545627580415@gitolite.kernel.org>
 
---===============7665293116867360007==
+--===============0599488703689805311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,85 +16,73 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: ec500841d1836bafc0758f552619a69723e04a4f
-    new: efdf4d7719c55fd6967cab8548e8865a5932a0d8
-    log: revlist-ec500841d183-efdf4d7719c5.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 7389e9222d1b78ce6fb58c62f754168b037f69a9
+    new: 83c2cbe7b9564fe37c9314ef59e643716c83ffc9
+    log: revlist-7389e9222d1b-83c2cbe7b956.txt
 
---===============7665293116867360007==
+--===============0599488703689805311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643626336 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643626337 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1643626334-aced9b4ff9053b96e0a32dc78b356b7942c7883a
 
-ec500841d1836bafc0758f552619a69723e04a4f efdf4d7719c55fd6967cab8548e8865a5932a0d8 refs/heads/linux-4.14.y
+7389e9222d1b78ce6fb58c62f754168b037f69a9 83c2cbe7b9564fe37c9314ef59e643716c83ffc9 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH3v2AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zp4P/3E48GxzUbDRwlS89EvE
-dH3jy0YwMxV2W7SsGxbWE526b8Q6NcpFxea/wLfnXKQv5OPc8ee8A6PvWJNiAW4b
-pZB6RMj8qiNrBDtdzNQzl78ldTatS8V8nkoNC84AIezZnQE4gsfQVE6XeBUdF1EQ
-M/76yhZi0BYd9uzy3kAB+vQF0ms/KwPAKjcOkK7XCywPFniSbl857CaDvb5sdGFp
-ffPrN0j56yjVpwmRbyP6Vut6LRVAdUXX4nDpURE135oRcz7KcDTUpUZSxXkW18HB
-zWxdqPZzFaLOvOCqifLHDq3E8Awn3WcIzxAKglDVKZsMJaP0TkFkkholrk++F2WW
-5VhBomEVO/x8Bx36iyeUXqjiHkQKf6sOjF7tpYFWC90kkuObv1Ch7V6HiMWgXz8f
-MqSrYhx4q8OCLyiS6SaKyL5SuueLlZQUKyWxzhgo++L7ryvi14dXmQZY78CcKUN+
-2aJxfJbctPgYdJ8JE2/LqiXl5PRZVANJExuUZ7jhWJoWiXBN7EBlAj78yGFSivfQ
-VSHvLsL987RR5b3TAzZkTs03u/SwFX61quSzRKAe1/swG7qHW8m75JNWnnLSmeXS
-/7SsIVyguLcrv2tpFhJFRqaCnhubQ5S1aiN2pr0r0F0tweV50Ird/pfKJx6RDSNt
-n50SVc7nOMYjDfOT9qL7uelk
-=/Idk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH3v2EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3ZYQAKxEfH1q4LUkyE8QAD4l
+uaJVbrctsV2ffPwd/FCVN42uAJi7n1nF/CMmFMyJnJnQokA2RZhwD0sKIQhswJWM
+kE9ob6zPp+ddGNzAbxVo+DinWdGGvoibSQvZTEleMoAlkpPtMr45VoyOU6pipFbU
+vs/yCewaoLjE3i9RWM+60Xdiy3sgI981zNnRktBH5Nm87NQr47A6tB7T4TNnPkJk
+vqDUsp2V41PQv1EqIdoSNm6beETvQ+WgajScdW7u/CswOdOOVVfZPzBYMUEihkKH
+Kxw5UUFlOKaCrX0pQsZT5W6fNMyGUG2kdtsu/oExxzo12D+duz2dXG8aUsPeJ8LK
+F8/XCMXP8aa1bQFI79kFgwfN0i9E96W3xDm8YKbXilJeagvr6Gr6mRyXHpk8ORpi
+1HegM/fwauazrIPVk+/KLdcSsSfmDZfBdsvvzd2GcJa8ac1SIpy60hOyZFr3to1B
+v/YgHDe7GdNCHi6iKsE2+TMEZDM18Rb9eMTM65Y5TYKnKY+18lalwQ2jYEgYSGRv
+oKmtRxRDkNvNlj/6t53cc7f8ZJgBiBOAO8ODvgjNBaCinLkjF3v+9Nye6hXksWpO
+Pl+cIqm/aKTp9xGdiz/g3mTfFbDzt2YleX+qNM2J8WCDhGqr4i+FvXTy4OIlBjWy
+VMMUsYOSVG7KfQSxm09wU/6R
+=QAxr
 -----END PGP SIGNATURE-----
 
---===============7665293116867360007==
+--===============0599488703689805311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec500841d183-efdf4d7719c5.txt
+Content-Disposition: attachment; filename=revlist-7389e9222d1b-83c2cbe7b956.txt
 
-8e281df0e234efc66d2f5c77ff68fd6aac381ef6 Bluetooth: refactor malicious adv data check
-36d8735f952ef272a9b02d57d0066130de1e05e3 s390/hypfs: include z/VM guests with access control group set
-c6eabf6810be20d0a4c1e8a2bcadf6c5e4fe0640 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-6227f20368abf69ee24ddf1185627c78a4ad8cbb udf: Restore i_lenAlloc when inode expansion fails
-c0ce78d5a3f651320a52c946b5990c7a6aa41474 udf: Fix NULL ptr deref when converting from inline format
-4b3b83859d5b8898b1334b6267178b1b644abb91 PM: wakeup: simplify the output logic of pm_show_wakelocks()
-edba1d17577d1759f55e64ad81d972c732961c61 netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
-9d7cb00733d9ed3254d83278a06d332fbb81cbe8 serial: stm32: fix software flow control transfer
-62dc856f9266720143def732c9d75b08d8d6ca6e tty: n_gsm: fix SW flow control encoding/handling
-edb9e62764ce314fa1fdef1a3ffa20ea8e1a6243 tty: Add support for Brainboxes UC cards.
-98d5d7dcb7e992870afbb243476fd6e1baebe710 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-81ffdf6bbd983e559ee8193e573e04fc31b7f54d usb: common: ulpi: Fix crash in ulpi_match()
-9064fe7fe0aa65a47885fe286e2900c450101dc1 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-32f6d97f96e047511b7058ff19dccded5dfd195d USB: core: Fix hang in usb_kill_urb by adding memory barriers
-4a62ae0fdcc1a61d0eeb8bfa8c2bef52b2001e00 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-b2c2809addb0f9542d294982a38fb23755fa0e4a net: sfp: ignore disabled SFP node
-27bded5dbaa21b0558da726dfb2a0885478e3d25 powerpc/32: Fix boot failure with GCC latent entropy plugin
-36065c4bba5f7e7b14d456040b70df1c9b876f3a lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
-b62f5a2b92cd17ad1995d42f36ac824b245a13e9 i40e: Increase delay to 1 s after global EMP reset
-8611105242ded83986c5716608e510aceea1e6cf i40e: fix unsigned stat widths
-46bfdfa89e053c399e64713eed8753bcaa69976b rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
-37200ded495d0cb30e598ac198919f6cbef372cc rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
-fac28261d62712b5dfce08825b0f8c5896e7fef9 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-b8c411c016182a776b6ba00504480b0295a62ca9 ipv6_tunnel: Rate limit warning messages
-1e57e02bdaa9472639ea47c41750687780279b3d ARM: 9170/1: fix panic when kasan and kprobe are enabled
-011fcbf5de6e64530764520c072ecfe0a1edc90f net: fix information leakage in /proc/net/ptype
-3886faf34411276fb149a51f08664344d2b08802 ping: fix the sk_bound_dev_if match in ping_lookup
-256ea9e272dab4a24bf216caa2b93862634ea1f8 ipv4: avoid using shared IP generator for connected sockets
-79eef324edd7cea9aa6906cdef918053f42189ae hwmon: (lm90) Reduce maximum conversion rate for G781
-350c321b385c70469cde329fe9dfd17bed8df241 NFSv4: Handle case where the lookup of a directory fails
-97e3156f439a700ad32b3ab73e2cb3cc01b95c6f NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-28976caba0dacd6a8d3b1202f1a029f853f5c75f net-procfs: show net devices bound packet types
-ab459a5ac8fea51d069dc8d757c41c11b111d616 drm/msm: Fix wrong size calculation
-2433891ff63d5aa55e1dbfd03232059c218bb5a1 drm/msm/dsi: invalid parameter check in msm_dsi_phy_enable
-2b379a245aa7e64ef58023af32d46710030b5723 ibmvnic: don't spin in tasklet
-46b68fb45172d04d4aed3a41672592387ac39be4 yam: fix a memory leak in yam_siocdevprivate()
-696ed8d137880716e085fa7a555d128573cd770a ipv4: raw: lock the socket in raw_bind()
-f871c73fdfea26c83beadd17b9ea61a11bc8b573 ipv4: tcp: send zero IPID in SYNACK messages
-efdf4d7719c55fd6967cab8548e8865a5932a0d8 Linux 4.14.265-rc1
+c4123cbad20936ddc873853ace121f02d7d6c38f can: bcm: fix UAF of bcm op
+4978f1b4f22e52b0efd4a93230f8067e61a458cc Bluetooth: refactor malicious adv data check
+796f7a24c5793623412a1e363f2c3670c109bdce s390/hypfs: include z/VM guests with access control group set
+3043db0ad93cbb9bc089dc060cef678cbbc99437 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+9c554626fee5338b8392745adbc8ee383e133aa3 udf: Restore i_lenAlloc when inode expansion fails
+f7480cf35989c0c68fceae707ca29998d1d4e3f7 udf: Fix NULL ptr deref when converting from inline format
+c7a4435c8d008063d61ddc67d56356cf0ca4b6a2 PM: wakeup: simplify the output logic of pm_show_wakelocks()
+0380b6121a49e17d0b7c62b9357b384ba9e81c71 serial: stm32: fix software flow control transfer
+4ad8558fe6acb84b4b5e52bfdc443153a75326b4 tty: n_gsm: fix SW flow control encoding/handling
+62a6d2f90ec2f60b69a1659999ef1eb28117a769 tty: Add support for Brainboxes UC cards.
+5e2d299eb19eb32947ada303e7a8555fa510758c usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
+e2c42ac965fafc73dcac677dc0113e35ec11340e usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
+eecebf28c9942d038296601253dbb50da1f41fad USB: core: Fix hang in usb_kill_urb by adding memory barriers
+c97f2fa30bef9c4d2f87d06fa7535802aef65dbf powerpc/32: Fix boot failure with GCC latent entropy plugin
+21e46ae8d41ff17fbb1a82bbfdadef4b1dc70ea6 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+08c0a1e5335264af090cc9d45ce395965e1f5f1e ipv6_tunnel: Rate limit warning messages
+0a2cc238fb98332bf7b3ba2b0bf22e93e7df9135 ARM: 9170/1: fix panic when kasan and kprobe are enabled
+93f500d74a3ba5d0f89e2fcff02f8fa41b1f1ce4 net: fix information leakage in /proc/net/ptype
+e9782c01e898d0c1d71dd1ac30bd885b1c9dc92d ipv4: avoid using shared IP generator for connected sockets
+ba4ae5ef91e22d0a822628a310828649fcde013c NFSv4: Handle case where the lookup of a directory fails
+d07a6462c4b591835d960deb902858106610373c NFSv4: nfs_atomic_open() can race when looking up a non-regular file
+591d6c0c27467f680fe06b9778a31897c1d21abb net-procfs: show net devices bound packet types
+c41d95f86f3832f1699effe2775602b095ba066e drm/msm: Fix wrong size calculation
+0f60cc9a3e2dbdb000453b41c2a4fc47545fc052 hwmon: (lm90) Reduce maximum conversion rate for G781
+c12d776ad5d380ba6bf6e5d51db382f3f2524dca ipv4: raw: lock the socket in raw_bind()
+bdfc4af89572df9a545566c38f3b3f3bdbec5085 ipv4: tcp: send zero IPID in SYNACK messages
+83c2cbe7b9564fe37c9314ef59e643716c83ffc9 Linux 4.9.300-rc1
 
---===============7665293116867360007==--
+--===============0599488703689805311==--
