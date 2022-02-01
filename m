@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2174218174443270930=="
+Content-Type: multipart/mixed; boundary="===============3502317302378806544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 01 Feb 2022 09:22:22 -0000
-Message-Id: <164370734236.2994.12890238614662716722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 01 Feb 2022 09:22:34 -0000
+Message-Id: <164370735404.3130.693957417079852206@gitolite.kernel.org>
 
---===============2174218174443270930==
+--===============3502317302378806544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 60c250a98d4ca12a34a89a498cb05d4d221f2f19
-    new: 554237f2bb62c4fcf01372e4c63d3e0062f27bac
+  - ref: refs/heads/driver-core-next
+    old: c6479f19e2573b2bac15ab9265b2ec975f40296f
+    new: 13e906e50a8cf6033f22c03c4d772e36a9e02c6b
     log: |
-         c067688ae204ae4f0ad5044fe7345350fc6cd1b4 USB: ACPI: Replace acpi_bus_get_device()
-         e1f09f409f6c80f6044b369b2dcac000d3778d5f usb: udc: Fix typo in comment
-         4ed941a99996ffeec4b4239df2db82d8b7b183dc usb: gadget: f_uac2: Add HS/SS bInterval to configfs
-         a857c42fca8cf931844bd97ff7520ddcbd549e71 usb: gadget: audio: Add HS/SS bInterval params for UAC2
-         355a05dc8367d7533e5925e08dadfc8604961bbc usb: gadget: f_uac2: Optionally determine bInterval for HS and SS
-         554237f2bb62c4fcf01372e4c63d3e0062f27bac usb: gadget: f_uac2: Add speed names to bInterval dbg/warn
+         13e906e50a8cf6033f22c03c4d772e36a9e02c6b component: Replace most references to 'master' with 'aggregate device'
          
 
---===============2174218174443270930==
+--===============3502317302378806544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643707341 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1643707341-cf622c9d945fdb9bcb87701b5d3e02cda65033af
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643707353 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1643707353-c4a23908833750d7681871a6cb8396ee5828af2c
 
-60c250a98d4ca12a34a89a498cb05d4d221f2f19 554237f2bb62c4fcf01372e4c63d3e0062f27bac refs/heads/usb-next
+c6479f19e2573b2bac15ab9265b2ec975f40296f 13e906e50a8cf6033f22c03c4d772e36a9e02c6b refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH4+80bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8goP/jOTzZElBz21cKFBK47X
-Q/wAYF9iaeRpsry3gOl5fZLQiqNtyJtF07CJ5iBZ9l8RxE+xtmbID/hInC7OiF5Z
-7g0I8mHwlOOGAzT83omryJSZ5S/aQ6VHDGXPF7zHQxeTAFx+nTqX6Hru48Dx7pK7
-f/mHn4bMwKVEtYZrp8MsqOJzpA5oRX1zBZLlVU2dzCjesCDMFL4U8/EwQGNEHQY7
-plQRloryv0U1dH6llE8tZC9LrKgPDGD98md4+nf5aYkSQMzFEwhNn0PNtMoaE9jb
-e/gRNF9lPaucFdgVRjoGm5faQ/aV79Sy0RfUDKi/5JQHvX1jUcCg5/T0BaTW5BIV
-/ATYyAKfC0e4nb8w+IDs50FlK7bcF1j/v5LySfeIWrdNTBMNglQzCVlK21AGRFLm
-Wjkw47qmUjo0C8p4v8Wl1qnKe2BtRoi6B7adcFfTlVRoFFORf4daJK+njTI3roBw
-OW9MCdF3kF9gGSTBsufbDYg88cA1EGTNfBsKegsQTJ7a8wO2F0W7k0NxKi+hi6in
-a/kTArBauXD3hsV58WrgNyTZ8v00aTcskQL9gzbZ4yV4UJjp3dvVL1zusb4e6nnq
-PPYkgZt6Bon5EkIffRowHhDmUV69Ck+hqn51k9TE3DnU8sNKgYY3gWJm0v/P3nHa
-gIk3Ly/m/GkD/ua0tYsYq+E1
-=agR9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH4+9kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ca8P/37uH3jgAKtP/yqDjdNB
+s5rg/0ckTmVXuA1kSUU0unnnlx5x0lZSaWb+Pl+NO7sQaO0jGKSKjiYPvbYpaYLp
+e7dXZZ2KDwm5ZGMqoi5ST+JRwefYWaHlu3MNwNacWCx4YRwfXTVXxfIqk84cKfwp
+IEfJbwztzXR4F8Ya+zz+0A0luN/oTN1Oueo/Bj4FzSrhgXXRIDYcDoKlKS+wp6SR
+Uueeho1LGVJb8BA7nPaI1aieyaBcSPchCnukIk0jRId2yTjzQomyfQn+/VJDa5vU
+xMNp8DpDtVmqGot2ZRyD+x0If3xNqUzJmI2Q4ERzxRCOiS+n28PtsrUUPsm1j1vl
+HdBy0E9Fd/fHzk4HppwSKXntnHm2bISU7MgrAlnD9iIxJntQWhBd4FYOnkjNevMD
+zMc1/NUXARkhmihGIDAFVHzlHumshXbbV6QiVKlcGwTZfgQbBzN28/25mSLDgSP1
+sps/oSLZIciWFxuK7dV8HOwbouX+PO1oJ1XzvRO/U9TR3qpYv94RjXwDJ7GaGE/1
+rEEVuvu/Q1Dc2QQng9ClNRnZyExOvzFKE62Ij+ryzIqFjUo/qwMGm6wYk+ozZY0/
+GRzxUoa6nvYagch7rR5uzH4+lrxxQhNfJpENlzLRqitXXnk3UgvtMBjzJ2yt13Ye
+rn9fY7Szjpy+SMTOhKP6p9sv
+=Ejsh
 -----END PGP SIGNATURE-----
 
---===============2174218174443270930==--
+--===============3502317302378806544==--
