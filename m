@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 01 Feb 2022 15:03:05 -0000
-Message-Id: <164372778530.13083.16843219717585144035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 01 Feb 2022 15:03:30 -0000
+Message-Id: <164372781054.13304.6955409075055318518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/dev
-    old: 42a3d5cc6367cd2e9f697fd0b09fd24ba3e79f01
-    new: 3ae69c0de6180b97f853a96722e720dbbbaa5b0f
+  - ref: refs/heads/wip/jgg-for-next
+    old: d3f6899b0b5617e8900d6b1ae60414e611b1a0f1
+    new: 0d9c00117b8a57a361b27f7bd94284c94155f039
     log: |
-         d082e5fec583d774f96860614e8df6ff1409e339 EXP rcu: Add polled expedited grace-period primitives
-         3ae69c0de6180b97f853a96722e720dbbbaa5b0f EXP rcutorture: Test polled expedited grace-period primitives
+         0d9c00117b8a57a361b27f7bd94284c94155f039 RDMA/mlx4: remove redundant assignment to variable nreq
          
