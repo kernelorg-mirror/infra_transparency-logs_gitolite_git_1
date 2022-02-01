@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1094948575429705179=="
+Content-Type: multipart/mixed; boundary="===============4918622196276986059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 01 Feb 2022 05:19:18 -0000
-Message-Id: <164369275879.6757.8272270810373361586@gitolite.kernel.org>
+Date: Tue, 01 Feb 2022 05:19:20 -0000
+Message-Id: <164369276055.6818.4624476558110893475@gitolite.kernel.org>
 
---===============1094948575429705179==
+--===============4918622196276986059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.18
-    old: cd4bd4704ec8cff3d045493e2130c7095bbabf78
-    new: 45882459159deb792718786514bc677c8a6b1f53
-    log: revlist-cd4bd4704ec8-45882459159d.txt
-  - ref: refs/heads/dts-for-5.18
-    old: d63642596ed1feb832f8cdfb8f166a18fdb03831
-    new: 206006cf20b3ccec65b11d2a83876cc6006b6a16
-    log: revlist-d63642596ed1-206006cf20b3.txt
-  - ref: refs/heads/arm64-defconfig-for-5.18
-    old: 0000000000000000000000000000000000000000
-    new: cd7ce3e18afa7bef1ce371706416918de1aa3bc5
-  - ref: refs/heads/arm64-fixes-for-5.17
-    old: 0000000000000000000000000000000000000000
-    new: 7baa00bef336254e2cea5d4b064afe6430a05309
+  - ref: refs/heads/for-next
+    old: ef5619a5c2df6a4f110ddcfa61319d6a87cf9bf8
+    new: a5ee6b7720cbb79b536e304513e756ea2256fc49
+    log: revlist-ef5619a5c2df-a5ee6b7720cb.txt
 
---===============1094948575429705179==
+--===============4918622196276986059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd4bd4704ec8-45882459159d.txt
+Content-Disposition: attachment; filename=revlist-ef5619a5c2df-a5ee6b7720cb.txt
 
+1677e64d480d190959c971a69c17e8da27bd3e17 arm64: defconfig: Enable some Qualcomm drivers
+af2d38db2674139182e0cea4552cc83cbb8db0d0 arm64: defconfig: enable ath11k driver
+17ef0b4b441f755ad81800167a672ecbeeafb6c5 arm64: defconfig: enable mcp251xfd driver
 015bbdd314110ad20d440bec4d8483f73f4a8b58 arm64: dts: qcom: apq8016-sbc: Remove clock-lanes property from &camss node
 6bf3c1895f5848977ab3912eb76fd996bc4d2768 arm64: dts: qcom: sdm845-db845c: Remove clock-lanes property from &camss node
+d88198fcb540268e2165d2d1eecca005ca5fc394 ARM: dts: qcom: pm8226: Add vibration motor node
+02964a7244bae61a60e0ab15526a51f9e974bb4e ARM: dts: qcom: pm8226: Support SPMI regulators on PMIC sid 1
+3d7e7980993d2c1ae42d3d314040fc2de6a9c45f ARM: dts: qcom: ipq4019: fix sleep clock
+0fd4dcb607ce29110d6c0b481a98c4ff3d300551 arm64: dts: qcom: sm8350: Correct UFS symbol clocks
+197769fede5824d218f1f13f7620243015801d81 arm64: dts: qcom: sm8450: enable GCC_USB3_0_CLKREF_EN for usb
+7baa00bef336254e2cea5d4b064afe6430a05309 arm64: dts: qcom: sm8450: fix apps_smmu interrupts
+6d3cb248e498989af7483b216325a90d0cecd419 ARM: dts: qcom: apq8064: correct ranges values
+019b7f93bf0dd6de82810f3cb0897ebdd5fd9285 ARM: dts: qcom: apq8064: make pci regs property dt-schema compliant
+af7a84eb9f923f8380a00b2e3a6adf2361e3ee19 ARM: dts: qcom: apq8064: adjust dsi node name to match dt-schema
+3be5acc8586bde3884f61b78e915a468b01b3a9d ARM: dts: qcom: nexus7: remove vcss supply which never existed
+251632433637acd76bbcba954b07fc1c0522a7f0 ARM: dts: qcom: apq8060: correct mvs switch name
+c9a186338f3f7dff48df3da0e900f4be0a7c11e6 ARM: dts: qcom: rename eth node to ethernet
+6f7e221e7a5cfc3299616543fce42b36e631497b ARM: dts: qcom: fix gic_irq_domain_translate warnings for msm8960
+9f4a052795cd8b4adbe3c5eb0fb92b6122dbdc95 ARM: dts: qcom: add KPSS GCC compatible to clock nodes
+96b2f11780d550e68dc1a5276861eb6eb3378b0c ARM: dts: qcom: msm8960: move vsdcc regulator out of simple-bus
+a23b9143286bf4ddd8cfe4126e8580ad85e98ca0 ARM: dts: qcom: fill missing power-domain-cells for gcc controllers
+5fbd593756be9a0ee710b15e14d2797bfbca108f ARM: dts: qcom: pm8226: Add node for the MPP
+206006cf20b3ccec65b11d2a83876cc6006b6a16 ARM: dts: qcom: apq8060-dragonboard: fix typo in eMMC
 625c24460dbbc3b6c9a148c0a30f0830893fc909 arm64: dts: qcom: sdm845: fix microphone bias properties and values
 2f1145117946756da4cafe3821d8f0a5d441f5e3 arm64: dts: qcom: update qcom,domain property
 7be1c395ee40e35493eb4b2ef2d643de1c626a98 arm64: dts: qcom: fix thermal zones naming
@@ -72,27 +83,8 @@ a131255e4ad1ef8d4873ecba21561ba272b2547a arm64: dts: qcom: sm8350: Correct TCS c
 d1c10ab1494f09eb12fa6e58fc78bb28d44922ae arm64: dts: qcom: ipq6018: fix usb reference period
 12dfb002ca01feceac9eaa2cc8a55fdc9be4a9ae arm64: dts: qcom: sdm845-oneplus-*: add fuel gauge
 45882459159deb792718786514bc677c8a6b1f53 arm64: dts: qcom: sdm845: add device tree for SHIFT6mq
+d3173e421b7267754aaf9b410d79d4b30c547596 arm64: defconfig: Enable PM8916 watchdog driver
+cd7ce3e18afa7bef1ce371706416918de1aa3bc5 arm64: defconfig: Enable SM8250 video clock controller
+a5ee6b7720cbb79b536e304513e756ea2256fc49 Merge branches 'arm64-defconfig-for-5.18', 'arm64-for-5.18', 'dts-for-5.18', 'arm64-fixes-for-5.17' and 'dts-fixes-for-5.17' into for-next
 
---===============1094948575429705179==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d63642596ed1-206006cf20b3.txt
-
-d88198fcb540268e2165d2d1eecca005ca5fc394 ARM: dts: qcom: pm8226: Add vibration motor node
-02964a7244bae61a60e0ab15526a51f9e974bb4e ARM: dts: qcom: pm8226: Support SPMI regulators on PMIC sid 1
-3d7e7980993d2c1ae42d3d314040fc2de6a9c45f ARM: dts: qcom: ipq4019: fix sleep clock
-6d3cb248e498989af7483b216325a90d0cecd419 ARM: dts: qcom: apq8064: correct ranges values
-019b7f93bf0dd6de82810f3cb0897ebdd5fd9285 ARM: dts: qcom: apq8064: make pci regs property dt-schema compliant
-af7a84eb9f923f8380a00b2e3a6adf2361e3ee19 ARM: dts: qcom: apq8064: adjust dsi node name to match dt-schema
-3be5acc8586bde3884f61b78e915a468b01b3a9d ARM: dts: qcom: nexus7: remove vcss supply which never existed
-251632433637acd76bbcba954b07fc1c0522a7f0 ARM: dts: qcom: apq8060: correct mvs switch name
-c9a186338f3f7dff48df3da0e900f4be0a7c11e6 ARM: dts: qcom: rename eth node to ethernet
-6f7e221e7a5cfc3299616543fce42b36e631497b ARM: dts: qcom: fix gic_irq_domain_translate warnings for msm8960
-9f4a052795cd8b4adbe3c5eb0fb92b6122dbdc95 ARM: dts: qcom: add KPSS GCC compatible to clock nodes
-96b2f11780d550e68dc1a5276861eb6eb3378b0c ARM: dts: qcom: msm8960: move vsdcc regulator out of simple-bus
-a23b9143286bf4ddd8cfe4126e8580ad85e98ca0 ARM: dts: qcom: fill missing power-domain-cells for gcc controllers
-5fbd593756be9a0ee710b15e14d2797bfbca108f ARM: dts: qcom: pm8226: Add node for the MPP
-206006cf20b3ccec65b11d2a83876cc6006b6a16 ARM: dts: qcom: apq8060-dragonboard: fix typo in eMMC
-
---===============1094948575429705179==--
+--===============4918622196276986059==--
