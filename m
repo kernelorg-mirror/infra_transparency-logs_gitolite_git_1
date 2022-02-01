@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 01 Feb 2022 20:23:55 -0000
-Message-Id: <164374703527.19900.10884104946999556416@gitolite.kernel.org>
+Date: Tue, 01 Feb 2022 20:35:44 -0000
+Message-Id: <164374774410.27921.5770154893259911202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: e4d2763f9aafd4a4780a85d4295bd4b1f5303217
-    new: ad555648a10bbb90a7762c6e4779d597b5d09e08
+    old: ad555648a10bbb90a7762c6e4779d597b5d09e08
+    new: 25c7e34ec8d2d1edd8b86c91c56e2d1d8178870b
     log: |
-         ab2d8c1ac0a353528de4f6096fadc77845b3b44c Bluetooth: mgmt: Replace zero-length array with flexible-array member
-         ad555648a10bbb90a7762c6e4779d597b5d09e08 Bluetooth: hci_sync: fix undefined return of hci_disconnect_all_sync()
+         25c7e34ec8d2d1edd8b86c91c56e2d1d8178870b Bluetooth: mgmt: Remove unneeded variable
          
