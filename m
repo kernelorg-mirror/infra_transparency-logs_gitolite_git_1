@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 01 Feb 2022 07:39:39 -0000
-Message-Id: <164370117923.32379.6775266838305872029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 01 Feb 2022 08:02:04 -0000
+Message-Id: <164370252414.15419.17510748630973785423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/mips-fixes
-    old: fa62f39dc7e25fc16371b958ac59b9a6fd260bea
-    new: 2161ba070999a709f975910b6b9ad6b51cd6f120
+  - ref: refs/heads/net-next-mlx5
+    old: b43471cc10327f098d5a72918cd59fcb91546ca3
+    new: 9a90986efcffc7e996f63837b0e84d5e773f2763
     log: |
-         50317b636e7184d15126e2dfc83db0963a38d31e MIPS: octeon: Fix missed PTR->PTR_WD conversion
-         2161ba070999a709f975910b6b9ad6b51cd6f120 MIPS: KVM: fix vz.c kernel-doc notation
+         ef10bd49df234aadd4e0ab693e151c10e5338c65 qed: use msleep() in qed_mcp_cmd() and add qed_mcp_cmd_nosleep() for udelay.
+         7354a426e063e108c0a3590f13abc77573172576 net: ena: Do not waste napi skb cache
+         9a90986efcffc7e996f63837b0e84d5e773f2763 sh_eth: kill useless initializers in sh_eth_{suspend|resume}()
          
