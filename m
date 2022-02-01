@@ -1,87 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============7169434905046777881=="
+Content-Type: multipart/mixed; boundary="===============6869547718356423096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 01 Feb 2022 18:08:27 -0000
-Message-Id: <164373890747.26730.17178511474240196115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 01 Feb 2022 18:25:57 -0000
+Message-Id: <164373995781.8315.5743397192231897660@gitolite.kernel.org>
 
---===============7169434905046777881==
+--===============6869547718356423096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/linux-4.4.y
-    old: bbcda064239a5c2af69b5b1f5c18658875c64128
-    new: 806b2893e0101bdff3ead10f038759a025f73557
-    log: revlist-bbcda064239a-806b2893e010.txt
+  - ref: refs/heads/crypto-pending
+    old: 373760dabfa960a8dc456f52c6d9ba559303e706
+    new: 33ee40d3677bee91888ba1a6ee5a37bd6d2292fe
+    log: revlist-373760dabfa9-33ee40d3677b.txt
 
---===============7169434905046777881==
+--===============6869547718356423096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-373760dabfa9-33ee40d3677b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643738906 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643738903-9eb313929103dc292ad286915eaac93bd43d389c
+735efea69d36347c6c7a6bf6e13f032d09c63c6f crypto: ccp - remove redundant ret variable
+ab7d88549e2f7ae116afd303f32e1950cb790a1d hwrng: cavium - HW_RANDOM_CAVIUM should depend on ARCH_THUNDER
+8fc5f2ad896b6cc8b7631d546efcf8e358872f76 crypto: testmgr - Move crypto_simd_disabled_for_test out
+90be188b65f728f82bacdddb43c7899f26da7b1c crypto: x86 - Convert to SPDX identifier
+881fc7fba6c3e7d77d608b9a50b01a89d5e0c61b crypto: sun8i-ss - really disable hash on A80
+a88592cc27efd4ed0ceba79016eb4a3ddb90e05e crypto: kdf - Select hmac in addition to sha256
+163a4e7fa73c3a617217e559eb5a9b58f1878bc7 lib/crc32: remove unneeded casts
+5cb29be47d44d6090f1cdc21f439439dc43b471f lib/crc32: Make crc32_be weak for arch override
+1b3dce8b8ab30bb9f1401acefa08a47dc46f0813 lib/crc32test: correct printed bytes count
+5f2f5eaa3e373c3a07a4f3552fe13d9cde5e23e5 arm64: lib: accelerate crc32_be
+642a7d49c249f04007e68c124a148847471dd476 crypto: qat - fix access to PFVF interrupt registers for GEN4
+9b30430ea356f237945e52f8a3a42158877bd5a9 crypto: rsa-pkcs1pad - only allow with rsa
+e316f7179be22912281ce6331d96d7c121fb2b17 crypto: rsa-pkcs1pad - correctly get hash from source scatterlist
+d3481accd974541e6a5d6a1fb588924a3519c36e crypto: rsa-pkcs1pad - restore signature length check
+a24611ea356c7f3f0ec926da11b9482ac1f414fd crypto: rsa-pkcs1pad - fix buffer overread in pkcs1pad_verify_complete()
+c2a28fdb2f4e0b1676709426d80a986dd601200e crypto: rsa-pkcs1pad - use clearer variable names
+66eae850333d639fc278d6f915c6fc01499ea893 crypto: authenc - Fix sleep in atomic context in decrypt_tail
+1c16dfbe6cd6b6ce04e2c3d0c1fa33d80b2547f9 crypto: memneq - avoid implicit unaligned accesses
+85872d1a6f38d133133784c8027d25d1c5328f4f crypto: octeontx2 - select CONFIG_NET_DEVLINK
+60ef3dde0d6c644769e860d10443a95f1ca9a115 crypto: hisilicon/sec - fixup icv checking enabled on Kunpeng 930
+e764d81d58070e66e61fb1b972c81eb9d2ea971e crypto: hisilicon/sec - add some comments for soft fallback
+5e340558c5c7f64504ef1f4d31af152f26705261 crypto: hisilicon/sec - fix the max length of AAD for the CCM mode
+566f060f5453e906dd4195c7e94f1fd25d2c99bb crypto: hisilicon/sec - fix the CTR mode BD configuration
+498382593c7c90eb81111d315eeecba9508ddf58 crypto: hisilicon/sec - use the correct print format
+05b3bade290d6c940701f97f3233c07cfe27205d crypto: hisilicon/qm - cleanup warning in qm_vf_read_qos
+28e9b6d8199a3f124682b143800c2dacdc3d70dd crypto: mxs-dcp - Fix scatterlist processing
+1c4cafd11599abdbc53a520f0b6e6799d037eae1 padata: replace cpumask_weight with cpumask_empty in padata.c
+7c1257b27efbae34f4e607bea65209d9f28a3798 crypto: xctr - Add XCTR support
+03bb7288c9e5eac273e9634e527149fa3b35a367 crypto: polyval - Add POLYVAL support
+18000b8f774ca212295cda439a2a88fba4e83608 crypto: hctr2 - Add HCTR2 support
+c7c2f723c0cfb9ae54db8e987698892d22c691ba crypto: x86/aesni-xctr: Add accelerated implementation of XCTR
+9d5a9509b912217aa41fd8ca8c5d3c125ecc3ca2 crypto: arm64/aes-xctr: Add accelerated implementation of XCTR
+c6eb6330fb9607076e103d72dea6ff0f6261acad crypto: x86/polyval: Add PCLMULQDQ accelerated implementation of POLYVAL
+5aeb9fcef9c1e4ce42508d76484bfac13e6ca634 crypto: arm64/polyval: Add PMULL accelerated implementation of POLYVAL
+691e25f19767cec5c34d9dccf9277befcfb78075 crypto: arm/aes-neonbs-ctr - deal with non-multiples of AES block size
+10aac04476d231368aad14c3b8b641847b16c427 crypto: arm64/aes-neonbs-ctr - fallback to plain NEON for final chunk
+879094e0c0c5b0aa90bdbad331859de7cc4a9cc4 crypto: arm64/aes-neonbs-xts - use plain NEON for non-power-of-2 input sizes
+33ee40d3677bee91888ba1a6ee5a37bd6d2292fe crypto: arm64/aes-neon-ctr - improve handling of single tail block
 
-bbcda064239a5c2af69b5b1f5c18658875c64128 806b2893e0101bdff3ead10f038759a025f73557 refs/heads/linux-4.4.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH5dxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOgP/2dFkseok1B77TqA1s0H
-mQHqsL602N1ErXy8CJNqb+1qFS8okkcar0dj7VGhN8MRWlNfW3bctxn4nhPjA/SV
-OLRKD/U0NLVIYEo4UQhRl/d/0BBhJkwKABiNnydmqlukhbS2nYNQzmLFTGzJUkBW
-M5MjDeLwgMWp3j021k1K7Z7DUKD6DEKudBGkGNPZmMCA8pj57kQBdYJa+lTJmwEN
-RyXIK3+RT9XYE831+r+6yXVK8qNcBf/crXywRSW2ADB0N76Tf6/77n+Z9umViVQx
-lskNyu+kH7D3umOEGMLpxECf8WlPFuRgNSEpT/LOvRn8v/2ERDDYyCSgC/obDAma
-tBKjTeG4k8JTy+1R40R86QAUAqkXCigiDPuiMn+qaG1NMmIJ4gHF1p7aSfOq2IWx
-5N6qb+w/hN/V0qMcVeqCcjJudwH22O3Q6BON3k/nEYGZwKBKPocFR4Anu/3ibch9
-fy1NYxDml7Dhd/hOREbWnXV+nxjZ/3VnR9lGSjD0xyLfMxFi49BIH1qllO052KVg
-j/02AG71ZxlAlWgqukMOlMxDngjPvQwOCv/xtdMNoJjvH+J83vmuDwrHa0MBx6sD
-+TUHD2Bwj0NSCF5n3uut/KC743W3zGTDJ4c+t/r//PP64uBpmkFsNRqTL8FxZ/fP
-UGQG8F5MSLC/tygNbIw/AvbE
-=oV+c
------END PGP SIGNATURE-----
-
---===============7169434905046777881==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbcda064239a-806b2893e010.txt
-
-b4dbe4b95606a17d6c488f4a9f16f6c8355d93f4 can: bcm: fix UAF of bcm op
-b55bb5554915c0a94fdb4b2a763b35d41d1fd9b7 Bluetooth: refactor malicious adv data check
-58495dae6344f106fd1feefc82f45290529e69f2 s390/hypfs: include z/VM guests with access control group set
-4735bc9f505adf4d2fbb48794da073afb786a958 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-2f5f7d646b351de640d630422d9e295f55f41e5a udf: Restore i_lenAlloc when inode expansion fails
-e174fb48eee0bd5ae782e54a22efeb6ceb4acfb5 udf: Fix NULL ptr deref when converting from inline format
-3662748749866db470fdc169bee7a1157136d054 PM: wakeup: simplify the output logic of pm_show_wakelocks()
-7e6bfe5fc2b3c8e908139d664baf07eb3537e2fc serial: stm32: fix software flow control transfer
-40693d7ee67b3910713a1c0573e41ed8bf414d88 tty: n_gsm: fix SW flow control encoding/handling
-56a26d93896fa67b73e155b85e479a6f659998ef tty: Add support for Brainboxes UC cards.
-04b072c2c724bd45b94b6904dac61a1ad147ac49 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-2ea2f9a84ab3e2123d7a4041e7f30ffd4aeceae1 USB: core: Fix hang in usb_kill_urb by adding memory barriers
-30d1e5e874ff19ceaf8a299d7bb57f2b1184c8c4 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-5f95544e69cbc9558d1e9958602cd31529b7bc47 ipv6_tunnel: Rate limit warning messages
-9520924f784c4e3c2f8d9e541cb88b835e055bac net: fix information leakage in /proc/net/ptype
-b5c7e4a3a7e0bf7507266bc69585695f16af077f ipv4: avoid using shared IP generator for connected sockets
-ef246ad885d8b61b850daa867be00bf50a3a5c56 net-procfs: show net devices bound packet types
-d7b861b39fca3056d95f6f89433e3d2e3fa8b4c8 drm/msm: Fix wrong size calculation
-5ea9117ece2f255f2eaa7dd8b36ee9c79e83c499 hwmon: (lm90) Reduce maximum conversion rate for G781
-9e4129815aa0e16e21bb9229ca03a88fd558b1ba ipv4: raw: lock the socket in raw_bind()
-2854e4c0dc9e8866bcd61f045b842ba17849fba7 ipv4: tcp: send zero IPID in SYNACK messages
-c270628a1cdb3fd0631853ae2f33a6e16d99d182 Bluetooth: MGMT: Fix misplaced BT_HS check
-b64a0650c427776939808d4ffd33ce8b9c009f99 Revert "drm/radeon/ci: disable mclk switching for high refresh rates (v2)"
-53447c3d387b042ec32ff7ae5d4e14a9cfe774c9 Revert "tc358743: fix register i2c_rd/wr function fix"
-accb4721b09b5caa27b8fb7d4655b499f1a36092 KVM: x86: Fix misplaced backport of "work around leak of uninitialized stack contents"
-806b2893e0101bdff3ead10f038759a025f73557 Linux 4.4.302-rc1
-
---===============7169434905046777881==--
+--===============6869547718356423096==--
