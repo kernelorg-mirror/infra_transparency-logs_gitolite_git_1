@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 01 Feb 2022 18:58:12 -0000
-Message-Id: <164374189253.28889.9591984184486353770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 01 Feb 2022 19:00:15 -0000
+Message-Id: <164374201574.31063.17738247266359169749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/next-integrity
-    old: eb69f517ab0bc72e82c8d41c9252b9668b51c310
-    new: 8a7153c2dd77363eee69bdc1ed44b8728142c8c9
-    log: |
-         8a7153c2dd77363eee69bdc1ed44b8728142c8c9 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-         
+  - ref: refs/heads/fbcon-accel-all
+    old: be3551cabb716c75429f3307b79f5c5bf8710e77
+    new: 0000000000000000000000000000000000000000
