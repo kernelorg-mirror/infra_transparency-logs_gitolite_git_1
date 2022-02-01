@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Feb 2022 08:38:34 -0000
-Message-Id: <164370471426.6003.4134985295271706742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 01 Feb 2022 08:51:07 -0000
+Message-Id: <164370546752.14122.6974326109776476593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/net-next-mlx4
-    old: b43471cc10327f098d5a72918cd59fcb91546ca3
-    new: 9a90986efcffc7e996f63837b0e84d5e773f2763
+  - ref: refs/heads/master
+    old: 47577bb554af4fd58bcae27fc2d4c59001add1e9
+    new: ad68c172b5b9d23c882018d23aba3a6c968b382c
     log: |
-         ef10bd49df234aadd4e0ab693e151c10e5338c65 qed: use msleep() in qed_mcp_cmd() and add qed_mcp_cmd_nosleep() for udelay.
-         7354a426e063e108c0a3590f13abc77573172576 net: ena: Do not waste napi skb cache
-         9a90986efcffc7e996f63837b0e84d5e773f2763 sh_eth: kill useless initializers in sh_eth_{suspend|resume}()
+         ad68c172b5b9d23c882018d23aba3a6c968b382c fstrim: (man) add missing note
          
