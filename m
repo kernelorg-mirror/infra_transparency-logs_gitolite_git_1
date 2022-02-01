@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5432862267972196243=="
+Content-Type: multipart/mixed; boundary="===============6787472966443067278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 01 Feb 2022 02:01:15 -0000
-Message-Id: <164368087518.10301.4945606925767803010@gitolite.kernel.org>
+Date: Tue, 01 Feb 2022 02:01:25 -0000
+Message-Id: <164368088583.10447.3901153610691947725@gitolite.kernel.org>
 
---===============5432862267972196243==
+--===============6787472966443067278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 2be22328ff0ce9442dc6c8cb7f5733c7e1f7aa25
-    new: 51c65ec089e3226a751c97ae77344fb263e65d53
+  - ref: refs/heads/5.18/scsi-staging
+    old: 0790797aca037d002448ea7ec28d0f286f7b615e
+    new: d1d87c33f47dc69f948d51dcfed344e34c75c406
     log: |
          f681d1078d456ef4aea8da1bf5ccbd4081b0fbed scsi: ufs: Add checking lifetime attribute for WriteBooster
          dd84a4b0fe173c4db2e95cf6a2b74cdce7bbab13 scsi: bnx2fc: Fix typo in comments
@@ -29,33 +29,33 @@ changes:
          d1d87c33f47dc69f948d51dcfed344e34c75c406 scsi: lpfc: Remove redundant flush_workqueue() call
          
 
---===============5432862267972196243==
+--===============6787472966443067278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1643680866 -0500
+pusher 75C5DE3D 1643680878 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1643680866-42ac9d7cfafc4f071d0f53dee5815cf7905cb89b
+nonce 1643680877-6b07402e689e3c2670bd35ddb267956c21332bd5
 
-2be22328ff0ce9442dc6c8cb7f5733c7e1f7aa25 51c65ec089e3226a751c97ae77344fb263e65d53 refs/tags/mkp-scsi-staging
+0790797aca037d002448ea7ec28d0f286f7b615e d1d87c33f47dc69f948d51dcfed344e34c75c406 refs/heads/5.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmH4lGIACgkQ7ulgGnXF
-3j152A//fbNquuHWH2+lIq7qIE7BUhljLoK7ZoJmuAkj9OHeGa9evld9tTrI51Gi
-xCZsxtGwxVeuq6fKLEBUMQ26t3C5+n0taI47Qv/tIt+aXEk2fY8w8xfy9Bk/mcxY
-sM4haWhuknfePDCddzjrKSykjRqoFoyMqjkklCGbP2av5wxFKfHEXDObHH79qjSb
-CI0S2+IqD6xzYO3VzWKmKGfFfO5FyMSQBAehhiDPzUs5J6tfQcwC+u9Bubsy9Edj
-G4KdnBpVLw4qV8kuUIeQm+mTdTBrREsyHCUVkwayqMXTqJc/vcXY8U+ksdYm1jGy
-lbX9qrcprjjAkxS6vLpnOnJcSe5TmhcCL9Bi9Kw0f2xJrtuAJPUfR2he61JRE/ZX
-AnB2XZE5qPvuq4tVOOOvrJSZ62+B38p7n1I8m6xHaaIn+YoBtI9sRzCuZ/lgB8PW
-n7eDyMqLJjrB1wtUfuBx1NTRYDZr19pQuQqp9fTMESmPxF98KV+KCxXEC9Ptm2x5
-U/zY91X4vxlyqgTj+aMnavkpHJhRN1X7Wcv1fdt73lZM9CPiiP98FVGmfQ/+nV/w
-uyNakeMj/IUA3OSJYq6+yqeNS+qHU5YsgCbURTYYWtWFuT4DBTkZI5uVH/fXTR2e
-UNaC8Kt0Ma7rKbq17SKwcs4lEnL5YPbKqZNS9RKQObcnF1Ondkg=
-=T95H
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmH4lG4ACgkQ7ulgGnXF
+3j0jaw//eZesgVnmdJcaKD4mmIk8poe3s0DiChJFgFDeJLGe3JbBAqYbRjiQ4euZ
+niIDzHUn6Ohq/1wA4g6Ppgo4xdQuBXsd6Wwo5TE0WX9m0/Hg0y7bS0jFss60ksNa
+nB504gOWlCSHhcfWwa0v4N9Ynwv2rm6W8l+bfjAvbo3KFNTLYFVxWA6XGzbRsV1N
+gr3YZ7lfSOuS4R+3K5br6OfjBSi6ZpGEwu6OTA8fy8e/mB/Ws5jObVneDwyCr8ur
+Y7EaoXYc3vkER8Ep3fSAgjPzS0AYoYzLCIyby/QjMj+mZZqFgZwrgeH2+m/d9vGo
+RuxfqkEh55exy8lMd9TPz4RTJzZR1WzHIp6Ml0kKd7QqdA9qBy2fls0rtn07LAub
+w3olLgaI3+8MoBKjK8mKiSpKF356vxi2C6SV5Q+dzaaYfkXCjjWph4N8zfYPOzyc
+wTbBLG7BQACtC4cxxnAK36dvjOn9NhMIO1UEzrB0pWjwYrkh4sUpc7FM3jaV1/i8
+1EMrgZkKe1z3uc/tKQGgqONRB+qnCoKaibrDecXRErDyMN+fhjnuI4+/eRANCXKb
+yr/cZedb3m2xqBOdqPFsAl/eqTbyBFykL65aHzaa8FXd8SilxhH2eTykHasAFwI+
+otha1MF0IgLacpE+KTGlDOrM9u/nyBuUhhg5idh+X8OSMTTE3vo=
+=3RSv
 -----END PGP SIGNATURE-----
 
---===============5432862267972196243==--
+--===============6787472966443067278==--
