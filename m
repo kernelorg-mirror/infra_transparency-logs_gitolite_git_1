@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0358629397874753206=="
+Content-Type: multipart/mixed; boundary="===============4179764889411364710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 01 Feb 2022 15:36:06 -0000
-Message-Id: <164372976694.3012.2908431951560441498@gitolite.kernel.org>
+Date: Tue, 01 Feb 2022 15:37:32 -0000
+Message-Id: <164372985266.3509.17709144643363911815@gitolite.kernel.org>
 
---===============0358629397874753206==
+--===============4179764889411364710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/fixes
-    old: 26a8b09437804fabfb1db080d676b96c0de68e7c
+  - ref: refs/heads/for-next
+    old: 3367d1bd738c01b2737eaab7d922bfe5f1a41f38
     new: 836f35f79153ce09d813c83f341dba4481996966
-    log: revlist-26a8b0943780-836f35f79153.txt
+    log: revlist-3367d1bd738c-836f35f79153.txt
 
---===============0358629397874753206==
+--===============4179764889411364710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26a8b0943780-836f35f79153.txt
+Content-Disposition: attachment; filename=revlist-3367d1bd738c-836f35f79153.txt
 
 88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
 eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
@@ -1051,4 +1051,4 @@ f8c28b93d2628610cf793b3528f6f40fd1c7cd5b platform/x86: asus-tf103c-dock: Make 2 
 b8fb0d9b47660ddb8a8256412784aad7cee9f21a platform/x86: amd-pmc: Correct usage of SMU version
 836f35f79153ce09d813c83f341dba4481996966 platform/x86: thinkpad_acpi: Fix incorrect use of platform profile on AMD platforms
 
---===============0358629397874753206==--
+--===============4179764889411364710==--
