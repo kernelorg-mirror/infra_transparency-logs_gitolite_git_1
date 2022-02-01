@@ -1,22 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4538658390004484989=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 01 Feb 2022 17:17:32 -0000
-Message-Id: <164373585237.24363.10237813182116374035@gitolite.kernel.org>
-
---===============4538658390004484989==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 01 Feb 2022 17:18:14 -0000
+Message-Id: <164373589448.24681.17028364465136653019@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.18
+  - ref: refs/heads/for-linus
+    old: 12d30d7f10e67903973694cc9e13100e90d0aaf4
+    new: 19b2c9002d6bd55ad7b9c5ca1a5a3ef4df4a1722
+    log: |
+         19b2c9002d6bd55ad7b9c5ca1a5a3ef4df4a1722 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         
+  - ref: refs/heads/for-next
     old: 6938e02f8658734209fc1f68dc3a6cd355f4f737
     new: 7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175
     log: |
@@ -28,29 +29,3 @@ changes:
          113962301d2d9a5c11381d9c25ddea7af71be2ff spi: Add API to count spi acpi resources
          7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175 spi: Enhance and export helpers for ACPI resources
          
-
---===============4538658390004484989==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1643735850 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643735850-24fca7ef1d771a1d0013e676481c0ab8b9c457df
-
-6938e02f8658734209fc1f68dc3a6cd355f4f737 7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175 refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH5ayoACgkQJNaLcl1U
-h9BwXwf9FNk4Ewjy9FSVpzkdR7JDNoKEod3FYTqAvFb7ldymqWnSBmusNU4ALL9p
-4LWI+Q3OWE1O4dLfjQ/ihybVRjbbO/nfudn5vH34OabmGYKxoX91nGUZBbNDveXr
-epaBuk645nYOgSCZWRaKySHyevMA/S94BI8gjyTRJ5A0ALeaeYO6afrrKArRrr7Q
-ZdcasJW4rYUBhFQZdHlXI1EH8PmJ12cfxcz1ExKSQ+gGOeOfCdTUDdM6j1DARvCq
-+LwWDewGuNWVqcz4cdHc58aYAS1ETKAAnemqRbiIDoVxg2c97WsurBr72Qe2TW3Q
-nkgoLoeKuVtuwIRHU1BXEfwDrn0ymg==
-=7B8L
------END PGP SIGNATURE-----
-
---===============4538658390004484989==--
