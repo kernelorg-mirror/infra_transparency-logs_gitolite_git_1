@@ -1,51 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5696908934193735159=="
+Content-Type: multipart/mixed; boundary="===============0425490625529291042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 01 Feb 2022 14:33:41 -0000
-Message-Id: <164372602147.25463.7985097228202862572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 01 Feb 2022 14:34:19 -0000
+Message-Id: <164372605942.25720.9236004091005891668@gitolite.kernel.org>
 
---===============5696908934193735159==
+--===============0425490625529291042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 210bc22c5d3d894cd032e0957035933945266d71
-    new: 28e54414a8901ec936e52f9293f52ff4ba90c2e0
-    log: revlist-210bc22c5d3d-28e54414a890.txt
+  - ref: refs/heads/master
+    old: d518f758a6a84e01a1d082116ff7501841f62b8c
+    new: 56b91b0b50863fc437aaf40b840ef847a0349b50
+    log: |
+         4da0171379e191f628bd7bc0145a605d489d2c01 remove some mptcp patches from 5.15
+         56b91b0b50863fc437aaf40b840ef847a0349b50 5.15-stable patches
+         
 
---===============5696908934193735159==
+--===============0425490625529291042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-210bc22c5d3d-28e54414a890.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2220af8ca61ae67de4ec3deec1c6395a2f65b9fd power: supply: core: Refactor power_supply_set_input_current_limit_from_supplier()
-766873c139a9185f2ee33c434df85140d67356d1 power: supply: bq25890: Rename IILIM field to IINLIM
-c562a43a460fbd582fba0e7e4d3f09cef48d65b1 power: supply: bq25890: Reduce reported CONSTANT_CHARGE_CURRENT_MAX for low temperatures
-7b22a97464b4fd49b27a5eda72229854d0f454fa power: supply: bq25890: Add a bq25890_rw_init_data() helper
-7e3b8e357f230f96473a84581cfa18899f860338 power: supply: bq25890: Add support to skip reset at probe() / remove()
-40428bd4675762f2da5e81b5b31c0425f9bd0de2 power: supply: bq25890: Add support to read back the settings from the chip
-06c75095e8147770626f7ca0b6352a718e62ba38 power: supply: bq25890: Enable charging on boards where we skip reset
-f481d5b80bd86ad39229c430d26513c096474578 power: supply: bq25890: Drop dev->platform_data == NULL check
-5575802d78b8c6130aaecb33f700b379f1fe5ecd power: supply: bq25890: Add bq25890_set_otg_cfg() helper
-79d35365a5858466ff7b37aaf1fcf11b683b9442 power: supply: bq25890: Add support for registering the Vbus boost converter as a regulator
-eab25b4f93aa771728127705eb4b235a3b5aad94 power: supply: bq25890: On the bq25892 set the IINLIM based on external charger detection
-48f45b094dbbf23620929b68afd32e865f712272 power: supply: bq25890: Support higher charging voltages through Pump Express+ protocol
-c1ae3a4efbf53335a6422646759f43d682ebdaf8 power: supply: bq25890: Use the devm_regmap_field_bulk_alloc() helper
-3afcbe09470091ca8a8048ef7c96701839a70961 mfd: intel_soc_pmic_chtwc: Add cht_wc_model data to struct intel_soc_pmic
-4b32649140a175fbda3cb8683faff16c3f390533 i2c: cht-wc: Make charger i2c-client instantiation board/device-model specific
-b910a9cea8aa54d39275ebee8d0f04ff9656ab80 extcon: intel-cht-wc: Use new cht_wc_model intel_soc_pmic field
-b7fa2cd357eded72159a6112e23839c47f4b50c1 extcon: intel-cht-wc: Support devs with Micro-B / USB-2 only Type-C connectors
-73b5ae341588ddb6480dff5471e66e4016be26a0 extcon: intel-cht-wc: Refactor cht_wc_extcon_get_charger()
-66e31186cd2aa7ee325b64555321e2ba06f141ab extcon: intel-cht-wc: Add support for registering a power_supply class-device
-21356ac14e054ee86a34008e2c59bd3f1b42d7bf extcon: intel-cht-wc: Report RID_A for ACA adapters
-28e54414a8901ec936e52f9293f52ff4ba90c2e0 Merge tag 'psy-extcon-i2c-mfd-for-v5.18-signed' into psy-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643726058 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1643726058-b2a5370f99f31ec147d0a8bcda64353e979fb4f3
 
---===============5696908934193735159==--
+d518f758a6a84e01a1d082116ff7501841f62b8c 56b91b0b50863fc437aaf40b840ef847a0349b50 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH5ROobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NHgP/16ZrjHMBGWPc12JJ/jo
+qlUx76gBQQw3CmYvfuUodvf4r+6EE+jB0SGPAlAOg47pDY5C0hqe8lbziZlLlCn0
+6xFbqVfDfcn9SxbPg/M0drXdjC3Sk8SkFEptCxSb+Su9/FHPkMzYol+CEbry9+BV
+UFawO0CNZbkOsyOZCfVyw2HicDk5cCnRcZ/ljAiADI2BLaPshz675ki4CK8ormQ3
+CDf6N+XHOohk26Lw8EwbZGHI7JsWZSCws643ZuDfOApdQ99HPU6Y4SXrY/bIpxQQ
+1S2eX+d1M/yWP++rJXfQ3ogFzFabbyYP2VOAQ7MpXQnRcZR4y77CTluGsrEKxFDV
+I8W/h/pnNHFB6N4uwKEdxjYnetchmuR0I0+vOzmYZ6FPRHtCCyaRA/fvRIpqIMm3
+60CyGHouAjtQ0QBLbC5stguS3Y003w2SBhBu0npKeNfSKfL8ZwFrfycrytoAHZ0j
+0Inho3B0e1KAx2rXpHzAfS0KqwhqbTj3ujxHv/kEImI3iJVI9O8tUs9cHHTXHjO7
+LcrQUpIzclS2FZGeuCs/Z+HAXZGDO7EBdJQF7uZ51/IdT+mdeAKD6jtbvFClI7D2
+JovKz+V8c34ozlEoIOZ+byCa+Crpktm/nJqB+Zcc5cUzIDfd7C5u+cqff1warBB8
+9absFSHRclVdfq/CVYeC1EAX
+=B43B
+-----END PGP SIGNATURE-----
+
+--===============0425490625529291042==--
