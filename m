@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 01 Feb 2022 14:14:01 -0000
-Message-Id: <164372484139.11473.15917085656096289765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 01 Feb 2022 14:15:51 -0000
+Message-Id: <164372495119.13573.4524828330021293792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: ad68c172b5b9d23c882018d23aba3a6c968b382c
-    new: 0b7aacda9d50e0ea44fa541b7ed4f6896de8a882
+    old: 1d02c0398611b0b74e47b63e9c522894095bc0ea
+    new: 9f397dd5f15522f8066816ee832974f7f4252366
     log: |
-         0b7aacda9d50e0ea44fa541b7ed4f6896de8a882 misc: non-Linux portability fixes
+         8af2ba9a78115cb1189504f9690483969a35c07c selftests: fib rule: Make 'getmatch' and 'match' local variables
+         2e252113632704a04676a963bd1bc10e8d52bed7 selftests: fib rule: Drop erroneous TABLE variable
+         21f25cd43672c8eb8d80adcb498bbdf855a6405a selftests: fib rule: Log test description
+         9f397dd5f15522f8066816ee832974f7f4252366 selftests: fib rule: Don't echo modified sysctls
          
