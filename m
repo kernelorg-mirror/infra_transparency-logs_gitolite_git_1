@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 01 Feb 2022 14:15:51 -0000
-Message-Id: <164372495119.13573.4524828330021293792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 01 Feb 2022 14:19:26 -0000
+Message-Id: <164372516642.14771.6129135277530378109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 1d02c0398611b0b74e47b63e9c522894095bc0ea
-    new: 9f397dd5f15522f8066816ee832974f7f4252366
+  - ref: refs/heads/for-linus
+    old: 4ee02e20893d2f9e951c7888f2284fa608ddaa35
+    new: 1c7f0e349aa5f8f80b1cac3d4917405332e14cdf
     log: |
-         8af2ba9a78115cb1189504f9690483969a35c07c selftests: fib rule: Make 'getmatch' and 'match' local variables
-         2e252113632704a04676a963bd1bc10e8d52bed7 selftests: fib rule: Drop erroneous TABLE variable
-         21f25cd43672c8eb8d80adcb498bbdf855a6405a selftests: fib rule: Log test description
-         9f397dd5f15522f8066816ee832974f7f4252366 selftests: fib rule: Don't echo modified sysctls
+         1c7f0e349aa5f8f80b1cac3d4917405332e14cdf ALSA: hda: Skip codec shutdown in case the codec is not registered
+         
+  - ref: refs/heads/master
+    old: 8271b2bfd1bade90cb36c3cbc4daac2e4c4d1554
+    new: 27c644695ca5805b7a9a3ecbf798f9b4870a9c77
+    log: |
+         1c7f0e349aa5f8f80b1cac3d4917405332e14cdf ALSA: hda: Skip codec shutdown in case the codec is not registered
+         27c644695ca5805b7a9a3ecbf798f9b4870a9c77 Merge branch 'for-linus'
          
