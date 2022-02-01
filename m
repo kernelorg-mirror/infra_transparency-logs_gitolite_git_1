@@ -1,191 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============7026671443850006917=="
+Content-Type: multipart/mixed; boundary="===============4160041770686802949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 01 Feb 2022 16:32:45 -0000
-Message-Id: <164373316572.2785.4890357308586796816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 01 Feb 2022 16:34:28 -0000
+Message-Id: <164373326827.3483.16905088386683498577@gitolite.kernel.org>
 
---===============7026671443850006917==
+--===============4160041770686802949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 3469117621497a94e5ff28e2de265d3303c2dd3b
-    new: 1ea6e175f0f3aee0d2352a78317459e0d78b1909
-    log: revlist-346911762149-1ea6e175f0f3.txt
-  - ref: refs/heads/queue/4.19
-    old: 6dfa5947a0c47ad868babb8d7a5911a04c0167ec
-    new: 9e81cdb0b4c83f9e5dcc8e0007141f8b9c09c2e5
-    log: revlist-6dfa5947a0c4-9e81cdb0b4c8.txt
-  - ref: refs/heads/queue/4.4
-    old: 50d10b64d558d0f365c0e42b69a7103d47a77ab5
-    new: 5a3bd2c921966dc1d68403b85fecc65048639c99
-    log: revlist-50d10b64d558-5a3bd2c92196.txt
-  - ref: refs/heads/queue/4.9
-    old: 92d69ee05dcfe1d4b945715f2746a666244fd201
-    new: 83019576d1b2ba2e1456f15e74309271772cb194
-    log: revlist-92d69ee05dcf-83019576d1b2.txt
+  - ref: refs/heads/dev-queue
+    old: a73c98862532124daa4847bbb609a8d61ed794c5
+    new: f282fe1914eda89d5b9dd471e91eb7aa2fd3d9d8
+    log: revlist-a73c98862532-f282fe1914ed.txt
 
---===============7026671443850006917==
+--===============4160041770686802949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-346911762149-1ea6e175f0f3.txt
+Content-Disposition: attachment; filename=revlist-a73c98862532-f282fe1914ed.txt
 
-e697ef9d2e209a2a52977add4cfa513e8f9aaa88 Bluetooth: refactor malicious adv data check
-55c09003780c65b9de784dbedd8f8616faab5a64 s390/hypfs: include z/VM guests with access control group set
-2998c280629c6f948134a379ca74b471837482c9 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-c01a0a0ef6cc48903f6f80fe957dc79ea9314610 udf: Restore i_lenAlloc when inode expansion fails
-a7479f0f52af5d2c7f363f9797919f9971ef2d40 udf: Fix NULL ptr deref when converting from inline format
-ec363d23c02116f761b5209671e8694966b7fbdd PM: wakeup: simplify the output logic of pm_show_wakelocks()
-d679850b40d40ba0b6750dfab41b7d0ea7fe3738 netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
-b85143932f6a56f215b9b302538dda0eb231236a serial: stm32: fix software flow control transfer
-ae8d2bb4ca7027f82f45c76257939519c3a25b06 tty: n_gsm: fix SW flow control encoding/handling
-0925d58c4fda7fef0cc1dd207cd625498481afff tty: Add support for Brainboxes UC cards.
-6f523e37187eae149afbc8a8a8b96f6ab3b578ac usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-88925a4c0ba679a0caf25c3196b05a419c0a0988 usb: common: ulpi: Fix crash in ulpi_match()
-6124f218b42bf0c57d066b53a572495ab2321558 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-13ab7c0f3b7576538085c3cea82e47b583b7666e USB: core: Fix hang in usb_kill_urb by adding memory barriers
-635339f245b499a6cdf88351716ac0b21e78e6d5 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-d49c1185ee2a15ef01112df82a6b4cff21715f78 net: sfp: ignore disabled SFP node
-2b1653a9cfd218e094146efde32db9f4d3fb18b7 powerpc/32: Fix boot failure with GCC latent entropy plugin
-8cb717852848e96bc837d7f5f75ae31407dd4da2 lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
-fa46e42274ff52efd28fdf178e6d870f3d7a3ef8 i40e: Increase delay to 1 s after global EMP reset
-0644744a3621ea256074a7fd539445fdcde6a0ee i40e: fix unsigned stat widths
-fba293b4687a9b40d92633c2351468727ca13771 rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
-c5899d08cd82061f29b3b50acadd967ac2c241c4 rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
-93c5e5e42091f95c7813a66d6ca967874a4fe874 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-7e29140283b63d88361182e86f04384ba6ab5192 ipv6_tunnel: Rate limit warning messages
-48611dee2a6af79b20a037aaf2b406746c61b09a net: fix information leakage in /proc/net/ptype
-2b888dc09dd9a35f839d9afc632b1e51fcf81ae1 ping: fix the sk_bound_dev_if match in ping_lookup
-80c0c3dc4566b0bfd50fd70e3dce5aec4fc63667 ipv4: avoid using shared IP generator for connected sockets
-6cd2a08ebcad543f86bae3e2c66195882afae482 hwmon: (lm90) Reduce maximum conversion rate for G781
-9a7baeb05cb1837d4ceb636421e055763440a78d NFSv4: Handle case where the lookup of a directory fails
-f05d5dc02d7b8ba0b26de90edbacdd7a38495e09 NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-ca507cf10fedee2e713d6754e0cea318c40dc860 net-procfs: show net devices bound packet types
-7cc1863680ab04b0b97e7879b6b943ac9e828697 drm/msm: Fix wrong size calculation
-1f4835b96a7addd455388c62f4d8d2bfb58f6855 drm/msm/dsi: invalid parameter check in msm_dsi_phy_enable
-74c07cc1543a6f32d7f8f94f1c845644a4fbee67 ibmvnic: don't spin in tasklet
-66c528be31314754bd3d843e29e162bf6f627217 yam: fix a memory leak in yam_siocdevprivate()
-9232d18c21be21aee9a0b43b3480a3089fafe92f ipv4: raw: lock the socket in raw_bind()
-1ea6e175f0f3aee0d2352a78317459e0d78b1909 ipv4: tcp: send zero IPID in SYNACK messages
+bc97f9c6f988b31b728eb47a94ca825401dbeffe i40e: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+6dba29537c0f639b482bd8f8bbd50ab4ae74b48d i40e: respect metadata on XSK Rx to skb
+ee803dca967ae5bd360e0e090a3bfb3ad09e8ecf ice: respect metadata in legacy-rx/ice_construct_skb()
+dc44572d195e10ec41a03e09b3b5addab4af5cea ice: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+45a34ca68070e34e09d5bf4309f7f1f286a27fc7 ice: respect metadata on XSK Rx to skb
+f9e61d365bafdee40fe2586fc6be490c3e824dad igc: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+1fbdaa13386804a31eefd3db3c5fe00e80ce9bc3 ixgbe: pass bi->xdp to ixgbe_construct_skb_zc() directly
+8f405221a73a53234486c185d8ef647377a53cc6 ixgbe: don't reserve excessive XDP_PACKET_HEADROOM on XSK Rx to skb
+f322a620be69e95594eda89502b478aa7dbf6ec2 ixgbe: respect metadata on XSK Rx to skb
+ef10bd49df234aadd4e0ab693e151c10e5338c65 qed: use msleep() in qed_mcp_cmd() and add qed_mcp_cmd_nosleep() for udelay.
+7354a426e063e108c0a3590f13abc77573172576 net: ena: Do not waste napi skb cache
+9a90986efcffc7e996f63837b0e84d5e773f2763 sh_eth: kill useless initializers in sh_eth_{suspend|resume}()
+1d02c0398611b0b74e47b63e9c522894095bc0ea Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next -queue
+8af2ba9a78115cb1189504f9690483969a35c07c selftests: fib rule: Make 'getmatch' and 'match' local variables
+2e252113632704a04676a963bd1bc10e8d52bed7 selftests: fib rule: Drop erroneous TABLE variable
+21f25cd43672c8eb8d80adcb498bbdf855a6405a selftests: fib rule: Log test description
+9f397dd5f15522f8066816ee832974f7f4252366 selftests: fib rule: Don't echo modified sysctls
+2f92512e1c52b2670b77f5bf8f16674a48073fc3 dt-bindings: net: lan966x: Extend with the ptp interrupt
+d700dff41d921ba438fc2a079de1f47c2e9846bf net: lan966x: Add registers that are use for ptp functionality
+d096459494a88791312c6f4da4641eb887188e70 net: lan966x: Add support for ptp clocks
+735fec995b215ccafec1a34cb229548978bb7b66 net: lan966x: Implement SIOCSHWTSTAMP and SIOCGHWTSTAMP
+77eecf25bd9d2f07673b3a62b86ba1b224b65d9e net: lan966x: Update extraction/injection for timestamping
+e85a96e48e3309c3009541b9b8dd7a27e23fd474 net: lan966x: Add support for ptp interrupts
+966f2e1a4a340ef17fef4e35ddbff3f2043ce8d7 net: lan966x: Implement get_ts_info
+e4d2763f9aafd4a4780a85d4295bd4b1f5303217 Merge branch 'lan966x-ptp'
+7816ad5494671abfc41f04e5da3d4d6f31f92f08 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+94065da2d12a5a45d3e73e76f862610a01a42de0 igc: Add UDP segmentation offload support
+a51a1e3417206e8b917e82ff6b7bc45986835c61 ice: Simplify tracking status of RDMA support
+4a6c401763f8cc00745f3b54ce07fe932f237942 i40e: Refactor VF queue requesting
+af241850a1459427d1fbe6e50c468f49a0a78c2b ice: add TTY for GNSS module for E810T device
+473c2eb189e8ae7406ba7f26494cf7bca96b283f ice: add support for DSCP QoS for IDC
+6fd81d8aa79846fe8aa5f12baf4616845db45d2b ice: Refactor spoofcheck configuration functions
+2350e14833ac8e855233c2bb111506a43e9025bf ice: Add helper function for adding VLAN 0
+afb48b6fde54f4a9417af1729e5cbeafc57ac069 ice: Add new VSI VLAN ops
+f07c57ac9930d9110537d7272576d8df1e81a19b ice: Introduce ice_vlan struct
+238c126a5f2303116ab1d3a42cbe6fae66f9fc85 ice: Refactor vf->port_vlan_info to use ice_vlan
+35f7adedabd7f3529784e391f6d9a5873b1ad373 ice: Use the proto argument for VLAN ops
+0a1f420ba8d234303d6b3d9d6a2815c6b5da1ea1 ice: Adjust naming for inner VLAN operations
+22b69ea7af77d199c35a25784a64b9a249b249ed ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+f69765e419b0298a757b5707eef10b913dc5dfbb ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+b85f6406e956a7def20ca3fa2096d81eacb3c4f6 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+87d1834862a5f43d300e001ed9dc8b0e98371fb8 ice: Support configuring the device to Double VLAN Mode
+8394311d049de348ff061f11f19309cc7c8a0a5f ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+52670638641cbd00e13194bc8d5e44b5158afcc1 ice: Add support for 802.1ad port VLANs VF
+33f3276b72aa4fc520b04bfaa770bccba8976b5e ice: Add ability for PF admin to enable VF VLAN pruning
+43c21f4eecd74fee23b45200b87fb9984a708353 i40e: remove dead stores on XSK hotpath
+7afd601966d522b3cc48a04e71e7a6ea9bb2ebab e1000e: Separate ADP board type from TGP
+03514a3c78431f5d5c4fcbf3b850f1c158542ecd e1000e: Handshake with CSME starts from ADL platforms
+d2c5db683aca0e99d46142e8a463056fb7d5c6ef i40e: Fix reset bw limit when DCB enabled with 1 TC
+b5fedce1f82ac4bc1ef33fcc36a109604c00fa36 i40e: Fix the timeliness of stats after deleting tc
+0a03cd94f9efd5f7bb9ba880c3b7015dd564cc53 ice: Match on all profiles in slow-path
+1419be24d88d8be7e0b43b68eb515a00509575d7 i40e: Remove rx page reuse double count.
+4916e2b27d145c1c78b6f3acb8cca308dc24772d i40e: Aggregate and export RX page reuse stat.
+0aeb79bb7fa1f871bac29dbf0d8e777a996cb989 i40e: Add a stat tracking new RX page allocations.
+37116f32baefd86114075475f04f6b702b6d9860 i40e: Add a stat for tracking pages waived
+cdda5ae55226df756c4b1d65ce1828ec6ef0614f i40e: Add a stat for tracking busy rx pages
+6d61ad5a6bde73940a999596fc68104879f77ae5 ice: fix setting l4 port flag when adding filter
+409e4b9e0689c3e41ad19275a592160073a8fcbb i40e: Disable hw-tc-offload feature on driver load
+943a71a8751d19d83cdbedf1e3898fedf750f3b7 i40e: Remove unused RX realloc stat
+688d42a202cc2f452167980a6c0307298584cf48 ice: fix an error code in ice_cfg_phy_fec()
+8cd0d6aac299ed59ccb492ce68213f1b2d1c9589 iavf: remove redundant ret variable
+febe1d51515e201fe29e2ca98dcb768e4fef006c iavf: Add support for 50G/100G in AIM algorithm
+7c06f8788ee5feb7352b5a75a8443d1ca0551f1e i40e: Fix reset path while removing the driver
+8b95794df79e723cb31826e9f6733e651170c098 ixgbe: Remove non-inclusive language from Intel code
+75283669401bb9cf0459679316818d147984a864 iavf: refactor processing of VLAN V2 capability message
+4bfa1ad57c4d3bb19097354bfa1f0678a4af0ffb i40e: Add sending commands in atomic context
+695f4cf7310dbc025bf1938f419e178fba8ba6ca i40e: Add new versions of send ASQ command functions
+84ed4d0d063dd0a9f7e6eb00b57867311b612c24 i40e: Add new version of i40e_aq_add_macvlan function
+b89fddb247f1478c29f9ce77bb3b16a92dedae01 i40e: Fix race condition while adding/deleting MAC/VLAN filters
+3635a2e89062caa407bf0e95673adb3823e22a29 ixgbevf: Require large buffers for build_skb on 82599VF
+8e994cc71c15aeac9c29d8867c4db81064fd1a28 ice: fix IPIP and SIT TSO offload
+4eb6ce62dcf94e5910c71d0ad3a816c2d83f0e4d ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+fc36f9e4adf067d068118e1623ca09982bc276b7 ice: enable parsing IPSEC SPI headers for RSS
+eac99e6cc98a951c9a072cd51dc23e4dc2ef6ea8 ice: Add support for inner etype in switchdev
+05a43d9a9c139eb5e5c93e57241af358799e15aa iavf: Add usage of new virtchnl format to set default MAC
+1a8b44b97977178cbe8a0bcb15f092e4dc1bcde7 igc: avoid kernel warning when changing RX ring parameters
+20d67a0c449a6ea1a07a02defb91dd2b37074697 igb: refactor XDP registration
+fb246c41ffe6789d07178b10ee20a2739482904c ice: Avoid RTNL lock when re-creating auxiliary device
+94d924692b9f3b38928bc2f73a20fc8507e9ac9f iavf: Fix handling of vlan strip virtual channel messages
+80ad024a921e165f72757a469e289f0cbe0c1141 iavf: Add waiting for response from PF in set mac
+4904d39c8f0288fbe491f229bd1c7243b16c46ed i40e: remove enum i40e_client_state
+108d5212f2c9a356819a353c100c6cebe363227e ice: Don't use GFP_KERNEL in atomic context
+ff242ef431760be94899e4bbf23597e1b9367e10 e1000e: Fix possible HW unit hang after an s0ix exit
+1b7fd94de2b063b6f6e1ffcddede2260444e0a64 ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+082d44fb73ecd1c61c9b9e98d361f635615b50fe ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+0923efb16917639cabb31561e4ea501571b1e691 ice: switch: use a struct to pass packet template params
+deb25600108be4f069f06e2436c73f419c8dd603 ice: switch: use convenience macros to declare dummy pkt templates
+002566c73dc38840d724ddeccd4f2524cea123c8 iavf: stop leaking iavf_status as "errno" values
+46b624efa823122e8949a412ae288971bef8a44d iavf: Fix incorrect use of assigning iavf_status to int
+f282fe1914eda89d5b9dd471e91eb7aa2fd3d9d8 ice: Add slow path offload stats on port representor in switchdev
 
---===============7026671443850006917==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dfa5947a0c4-9e81cdb0b4c8.txt
-
-b892e6e4e149759399e15a1d6f07f063c66015d9 Bluetooth: refactor malicious adv data check
-ece8c13ed870b365409177b4406b6ab7302c27ef s390/hypfs: include z/VM guests with access control group set
-311e4d535c7f1bdc74cd142bcbe40a5a9f89d6e9 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-6b9b6cc9acedc8224ea3181d76b4e2151fc94b3d udf: Restore i_lenAlloc when inode expansion fails
-d1582428afc76143195468b94d90d8283d81c728 udf: Fix NULL ptr deref when converting from inline format
-f39c225c8e42ba6771dba8b3135bb473549e33b9 PM: wakeup: simplify the output logic of pm_show_wakelocks()
-b03b53801a967de8f54968162c7f402d15846a33 drm/etnaviv: relax submit size limits
-2ea2de8e3ced5c668bd5f40710ede7aa84276b45 netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
-10029fdb9e9f3ccb192c92e198498866376c5fdf serial: 8250: of: Fix mapped region size when using reg-offset property
-8a70db6bcf794bf236e96b0045b2588c3df5d733 serial: stm32: fix software flow control transfer
-f618d4bfc8c3c809b09b01f69e2a25149affdbfc tty: n_gsm: fix SW flow control encoding/handling
-076181986e8f85973c487bf5c5f1632ce2a13481 tty: Add support for Brainboxes UC cards.
-7b3c3a289d574992a54e02cd48fa43cbab53cd90 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-a5c184a138d35f303af2a1a55cc0c81c48737b4f usb: common: ulpi: Fix crash in ulpi_match()
-fee5046cc7674e1afb749f97e5dce49126df9fcc usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-ea0dd4fb0eb47ab7c437a072ad1f50eb4bbedb0b USB: core: Fix hang in usb_kill_urb by adding memory barriers
-a12dbca7c9de3b30a3feb0305973b0e48d5716f2 usb: typec: tcpm: Do not disconnect while receiving VBUS off
-c8de82304c204eb272c5ebef0425ac4b9aa435c2 net: sfp: ignore disabled SFP node
-aaaa08573057117e3455b4d8bb57010f8805d0b8 powerpc/32: Fix boot failure with GCC latent entropy plugin
-d77e2de017684e4cb0d9c0bc4ff1487128b56e6e i40e: Increase delay to 1 s after global EMP reset
-4bd98f133dd6b7a16c3f630133c45f3f0ecb9e11 i40e: Fix issue when maximum queues is exceeded
-aa91f6ed0d0488068170783d65fb39db5fdb10c6 i40e: Fix queues reservation for XDP
-12e580afe057e5b91d131e33f7369fa132d16418 i40e: fix unsigned stat widths
-b78175b04b29dc373fc20e2e99864d3ca533b4dd rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
-ae0ac96107bb880e1a90c74a096523c06746ab7a rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
-3361c06346c7a9b29e3cbfc0ddf6a2fe45a018e0 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-a68e93b3a178b82c5f05e40fe1acd91b4c357150 ipv6_tunnel: Rate limit warning messages
-5268ea8c7c2d376cbcea6e6b627cb4ae6c9b6456 net: fix information leakage in /proc/net/ptype
-a116e48e3e22fdf35b8ca8a0876f0cb177cbbf50 ping: fix the sk_bound_dev_if match in ping_lookup
-9d8661fb2f43d8043b35ed83d743fc5d27865984 ipv4: avoid using shared IP generator for connected sockets
-72670a8301fb59a049b46b45917ea0d87c9f49fb hwmon: (lm90) Reduce maximum conversion rate for G781
-6566806f9b1ac291c23c7946de6bdee9aaf7275c NFSv4: Handle case where the lookup of a directory fails
-59adf246f116f9e3a2f5c5a035877cf16b31e4b6 NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-1aaa6edc3615b9b7a089091e84ed2cc3b7edd2a0 net-procfs: show net devices bound packet types
-436add3741169482d83fa7eedd910e4894ad66ef drm/msm: Fix wrong size calculation
-00e0e9b8ada75e8cb5fb5ce89f7342883d76acba drm/msm/dsi: invalid parameter check in msm_dsi_phy_enable
-9ba03af11ae828c1bdc8004eaea7c2ab9c673fca ipv6: annotate accesses to fn->fn_sernum
-3bb7584cba72d86cfae8f19edcab5452076fc6ed NFS: Ensure the server has an up to date ctime before hardlinking
-8c623f0c766942555465b407957fa2d2c67522e4 NFS: Ensure the server has an up to date ctime before renaming
-5c8f271d773dba3235cc813c937edc3a7467063e phylib: fix potential use-after-free
-876611f45ae1eff09185b79c5d312edd13f20ff5 ibmvnic: init ->running_cap_crqs early
-d4f41b107d9614fd9f6ef4cf3712d547ad8155f0 ibmvnic: don't spin in tasklet
-12a0e7b2ff5ba9d1cb184436a4922cb7e6f11bbb yam: fix a memory leak in yam_siocdevprivate()
-af2fca9565e2e598310b51c1a476422e9bf14084 ipv4: raw: lock the socket in raw_bind()
-9e81cdb0b4c83f9e5dcc8e0007141f8b9c09c2e5 ipv4: tcp: send zero IPID in SYNACK messages
-
---===============7026671443850006917==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50d10b64d558-5a3bd2c92196.txt
-
-19fbb08c95f0a9069f64f88f097d6ba097dadcb1 can: bcm: fix UAF of bcm op
-baa0aa08ff46e295499f875b2e64772162cfc7e8 Bluetooth: refactor malicious adv data check
-9782fb83cdabb6114e40d43f8d5bdd70845bdffd s390/hypfs: include z/VM guests with access control group set
-ac022198285a25c41e77af819c2d9a0c3eed7308 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-f59484af8bf7e135fdf8031b85be90d1dac48ef4 udf: Restore i_lenAlloc when inode expansion fails
-1501cb9d00c7abd332381788588cdbeeca45011a udf: Fix NULL ptr deref when converting from inline format
-1e203893f95db19e11f6195cfa99e61011d9aa8f PM: wakeup: simplify the output logic of pm_show_wakelocks()
-f77498de7f06606a45594f3b5fc40c11242ee4dd serial: stm32: fix software flow control transfer
-a2eafea3295bb236e1181bb9faca86b43070d7da tty: n_gsm: fix SW flow control encoding/handling
-757d4b7b64f923313b4a4113c6780f882556f01b tty: Add support for Brainboxes UC cards.
-a49b16d19f4586100c3c6e765d3489f857cd4b4d usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-6665fe7c3f74925843a49d8ae6298cc6f66386da USB: core: Fix hang in usb_kill_urb by adding memory barriers
-ad5d4bc37ca2f1f9a88e1d6cc30cca147e0441f4 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-95739872f436bee529f07e30cdf65fc20650f244 ipv6_tunnel: Rate limit warning messages
-8ba5829a745b9df39b0607ac97f3ef9d631fdb7f net: fix information leakage in /proc/net/ptype
-09721cc089ef82cc427bbad7fc7ce177a9183e02 ipv4: avoid using shared IP generator for connected sockets
-780d10f4945e8435d9cf899fe2aa4290dc928658 net-procfs: show net devices bound packet types
-cdc479a4e22101295b1009c0de0e4be447240e6b drm/msm: Fix wrong size calculation
-adcc80d401a61f32a5b2fb6482602e87bb7fa435 hwmon: (lm90) Reduce maximum conversion rate for G781
-e8b44eeae98f5f2619311936ad96f0bebfc9acb9 ipv4: raw: lock the socket in raw_bind()
-5a3bd2c921966dc1d68403b85fecc65048639c99 ipv4: tcp: send zero IPID in SYNACK messages
-
---===============7026671443850006917==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92d69ee05dcf-83019576d1b2.txt
-
-3bc46166770fa4de7ee2deb93da3e1c1e2a1cc66 can: bcm: fix UAF of bcm op
-1bd1eb25b80ed30525cff330bb152cfc093b19e3 Bluetooth: refactor malicious adv data check
-bd34e012ec356d0bfcc9d9834e8dd63977d21ce6 s390/hypfs: include z/VM guests with access control group set
-71380afe7598460f1ab303a223fcb8adb2b9f62c scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-d201aae0bf8dc88dfaee7b4e0d17ff2d6fa3b59e udf: Restore i_lenAlloc when inode expansion fails
-081e87201c465453e58f787f37414a0c6571f72c udf: Fix NULL ptr deref when converting from inline format
-e570b79fc80de94aa9d6725431d2373104066fbe PM: wakeup: simplify the output logic of pm_show_wakelocks()
-81562eab3a54121854ed0d1c330e4cdd87b343d1 serial: stm32: fix software flow control transfer
-1b07e8ee9a175b2d587fc3f5cededb01d4246ef1 tty: n_gsm: fix SW flow control encoding/handling
-974d8f0af20cc97477dd9a817cee73c489e874bb tty: Add support for Brainboxes UC cards.
-9ae1ec0ab6c5644800795e86fa528705b45cc8ec usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-260ded38fa0ea702ba306190a447bf9ee02282de usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-ac868ae629c7459b506198ad1449b50ed7c2c554 USB: core: Fix hang in usb_kill_urb by adding memory barriers
-9283d85e3d56270ecd86d275e2ea34372d660faa powerpc/32: Fix boot failure with GCC latent entropy plugin
-5f1b38c45c2ebd93f8f175c481ea4fd48e8c926b scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-f6ba67f1cbfd0f768311aa1e14c46d2bd0ae6b72 ipv6_tunnel: Rate limit warning messages
-e9d926686f7c2017c0ad0910d6dd4b4659c85433 net: fix information leakage in /proc/net/ptype
-76f53005d6e8497dd190879d1772c5cbd72c7140 ipv4: avoid using shared IP generator for connected sockets
-611bcba3b047dc11dfa19ba9580f58b8749a6240 NFSv4: Handle case where the lookup of a directory fails
-650611b0305b3d316f51709f181420163691194e NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-884fcab38ba595e841618235cbca74ae81f0014a net-procfs: show net devices bound packet types
-d9eb8253b71d0423f4833dcf8402159eb85186c1 drm/msm: Fix wrong size calculation
-7dfa7d784175960ebed8206ab41882ed62c66582 hwmon: (lm90) Reduce maximum conversion rate for G781
-20fa56d666ef754595de11737cda95c255c9680e ipv4: raw: lock the socket in raw_bind()
-83019576d1b2ba2e1456f15e74309271772cb194 ipv4: tcp: send zero IPID in SYNACK messages
-
---===============7026671443850006917==--
+--===============4160041770686802949==--
