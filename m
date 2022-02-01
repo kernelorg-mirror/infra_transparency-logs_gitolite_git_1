@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2091372633328296332=="
+Content-Type: multipart/mixed; boundary="===============6554979050780547698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 01 Feb 2022 02:00:41 -0000
-Message-Id: <164368084146.9903.6749492372789420689@gitolite.kernel.org>
+Date: Tue, 01 Feb 2022 02:00:52 -0000
+Message-Id: <164368085208.10008.1065495502726178933@gitolite.kernel.org>
 
---===============2091372633328296332==
+--===============6554979050780547698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6aecc1f3eae6b3f9d2e623f27d129a52161f377f
-    new: 667da757001727fa8024c49d33d90aa474ccece4
-    log: revlist-6aecc1f3eae6-667da7570017.txt
+  - ref: refs/heads/5.18/scsi-queue
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 0790797aca037d002448ea7ec28d0f286f7b615e
+    log: revlist-e783362eb54c-0790797aca03.txt
 
---===============2091372633328296332==
+--===============6554979050780547698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1643680834 -0500
+pusher 75C5DE3D 1643680844 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1643680833-37fa7b79f09abfc4fa7e38e48992ba5303ee4b25
+nonce 1643680844-85dee54bd4cf871d58e32a2109a16528536ef7a7
 
-6aecc1f3eae6b3f9d2e623f27d129a52161f377f 667da757001727fa8024c49d33d90aa474ccece4 refs/tags/mkp-scsi-queue
+e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 0790797aca037d002448ea7ec28d0f286f7b615e refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmH4lEIACgkQ7ulgGnXF
-3j00yw//eTBkoHbLfdIUlxdIs3lY/NnvoGi+nEtEEUaTF1WQTALCowpB3KyZGlEt
-N69Sq7lv5G9gMTWpp2zBDH7dxKOu9gfYJaq2ZHK1ABEOV3CI1S8ufeJ5yw0Jiru9
-n1H/+avcDYuimAVeXXCAazzlLqsoOdyEvcZtAY27UFrnPg6sqfMGGl4suxup76aO
-isGIkyyRUZi9KjZ0InAyaZj7LqHSwbLk2fn2DB1/syBMgGr/M/qoXgkyZXziY6jm
-MDysGWVmb5hyrPFZpYr1sz1FNKMxOFnHTC4sCDsEdG5KenI6LSR0PXHHct7iTgLs
-2gEPGn+5p0FHAb6VrvhFZ4kQt79oP45ap0L3tKhH1SJU1DKVWn+eDp5V1jm1wayd
-z3i850n6F6rMQitlOj1sFNIpGzon+M1fX5MZKch+Ee4AbfRDNQzAu0d+2cykx55s
-uPG9Lo0NjWTai67QreY+5GsDPJlZRveH70W8VlFfyv+LTIyb0gI+RNglpCCyasnG
-iPeOgpnvjTa6dFPs+jbjPsIRWsDDuCiuTTjTNpEq9HqjmOndWlwo4VZQ/s1qKAYp
-vMkW79UaiC1xyXoOzN49fOVAeqVc0KWSHiJkAZdUvE8AFX/VI6E353UfbwOlI33L
-3uNZ6zvWiDTnxlPgiL12dPU54Ng1/JzDjabjZE4ZKguCp2vNi3U=
-=xsYV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmH4lEwACgkQ7ulgGnXF
+3j0krQ/9GAnaojBkVACjN1KPLyC0/qa0mbrAbxSv1ySmIwl+eWNlSOqk5+9U9glZ
+70/vFlmXDUHtoy3fHUJH2RmzCpRGuOjJaLYffJbQn93huWW8mqlgJxVxayFtrMer
+ci2vQ/m2gygdBmRzkUeKNIeYQKuB3gc3sHNGva3sBrCXZxhNlHeoDLoC85cnQiJE
+KCVwLSbidrO5h1YhXeXJ2y8VyA9kPJduv9WyQThIXjqt/7o4uEUW9IgApR2JzLK5
+GjEto1UxM7M/X5J6T51cVm9q9Pn4O++OecY+q4t+m5vqu9gSvVbqzxb/U5qDH5R0
+w5rzzodRzLiyJv6Hk4plyDN4L27AgvkreKjc0I2Jw4gSDgRTROOcZMNhgU5Ybl4a
+x/6EwWA/klzdl1qHXAE3bn24y5CLgwE2dYh+USaPCYlvNZJen6qhIz8Z60kXF+pv
+wMUlZHlZiQxFWpHnkZoGH6BVM0nSLMfYDmbKqbqE978Ch8MVu5MiDa784Sozsseh
+XBztcUCW4n553x6gRj8Lti4jbKxB4DqFqa58yFYh3bTpt8vyWAkCD7LHMw8g+TLJ
+TXXMBIav1t65qoCZqbDkYVLFEWlJHuhW3H/mvmQ149lL/BQ1A1qDG0v89afMXpu8
+mbxaoKR4OAsxHQP+VMlDo8+FItfPUa2ZKVaBienr86v5YRpt2rg=
+=L1O6
 -----END PGP SIGNATURE-----
 
---===============2091372633328296332==
+--===============6554979050780547698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6aecc1f3eae6-667da7570017.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-0790797aca03.txt
 
 d4523bd6fd5d3afa9f08a86038a8a92176089f5b scsi: qla2xxx: Refactor asynchronous command initialization
 31e6cdbe0eae37badceb5e0d4f06cf051432fd77 scsi: qla2xxx: Implement ref count for SRB
@@ -81,4 +81,4 @@ b05d4e481eff1b4cdd38d9bb7914d3273b11885b scsi: scsi_debug: Refine sdebug_blk_mq_
 7109f3701a4a6e4eef556c1707a361bed25813b3 scsi: scsi_debug: Add no_rwlock parameter
 0790797aca037d002448ea7ec28d0f286f7b615e scsi: scsi_debug: Add environmental reporting log subpage
 
---===============2091372633328296332==--
+--===============6554979050780547698==--
