@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 02 Feb 2022 19:06:03 -0000
-Message-Id: <164382876303.15635.4146317644770668161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Feb 2022 19:22:25 -0000
+Message-Id: <164382974507.26289.9069013278880992235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 28e54414a8901ec936e52f9293f52ff4ba90c2e0
-    new: 784056d36f2779bce7e345285cfa1e097a9136bb
+  - ref: refs/heads/master
+    old: 5903123f662ed18483f05cac3f9e800a074c29ff
+    new: 52dae93f3bad842c6d585700460a0dea4d70e096
     log: |
-         784056d36f2779bce7e345285cfa1e097a9136bb power: supply: axp288_fuel_gauge: Fix spelling mistake "resisitor" -> "resistor"
+         52dae93f3bad842c6d585700460a0dea4d70e096 drivers: net: Replace acpi_bus_get_device()
          
