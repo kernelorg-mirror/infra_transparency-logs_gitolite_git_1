@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 02 Feb 2022 14:47:51 -0000
-Message-Id: <164381327185.6695.16960185395560126183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 02 Feb 2022 14:50:03 -0000
+Message-Id: <164381340360.8858.14018508719358836264@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/jd/simplify-account
-    old: 6cc30eefe5e7aacfbc4c5e7ddb25c500690dfe02
-    new: 8982c28832cc20d264c8ed28a1fcd0b3de7be662
+  - ref: refs/heads/block-5.17
+    old: b879f915bc48a18d4f4462729192435bb0f17052
+    new: 3e1f941dd9f33776b3df4e30f741fe445ff773f3
     log: |
-         8982c28832cc20d264c8ed28a1fcd0b3de7be662 random: simplify entropy debiting
+         3e1f941dd9f33776b3df4e30f741fe445ff773f3 block: fix DIO handling regressions in blkdev_read_iter()
          
