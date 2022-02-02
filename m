@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8163641221671955921=="
+Content-Type: multipart/mixed; boundary="===============2541122907055138464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 02 Feb 2022 16:56:40 -0000
-Message-Id: <164382100026.27181.1351612997857283486@gitolite.kernel.org>
+Date: Wed, 02 Feb 2022 16:57:32 -0000
+Message-Id: <164382105218.27540.16786916653393397297@gitolite.kernel.org>
 
---===============8163641221671955921==
+--===============2541122907055138464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 9cef24c8b76c1f6effe499d2f131807c90f7ce9a
     new: c8ff576e4e553a059e0790afd15385f418b1a854
     log: revlist-9cef24c8b76c-c8ff576e4e55.txt
 
---===============8163641221671955921==
+--===============2541122907055138464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ ad5185735f7dab342fdd0dd41044da4c9ccfef67 net/mlx5e: Avoid field-overflowing memc
 3aa430d33b8dd4d3f996af9966833c7a51834fb8 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 c8ff576e4e553a059e0790afd15385f418b1a854 Merge tag 'mlx5-fixes-2022-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 
---===============8163641221671955921==--
+--===============2541122907055138464==--
