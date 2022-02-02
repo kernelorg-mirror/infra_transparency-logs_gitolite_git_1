@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8895655341996674100=="
+Content-Type: multipart/mixed; boundary="===============8359613288343190047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 02 Feb 2022 17:19:27 -0000
-Message-Id: <164382236776.8620.16230763941656702807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 02 Feb 2022 17:19:32 -0000
+Message-Id: <164382237221.8690.10197642735934930457@gitolite.kernel.org>
 
---===============8895655341996674100==
+--===============8359613288343190047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 47ae47fea41215ea776300a3f033ecb3fb968b54
-    new: 0bd0439798e026eb5c31fda9deb7cb223aa972a5
-    log: revlist-47ae47fea412-0bd0439798e0.txt
+  - ref: refs/heads/queue-rc
+    old: 8172aeff4202062f34c2c7630c12c45e3365d45c
+    new: c16dfb9e0587827011b7285bf911546b92d02ced
+    log: revlist-8172aeff4202-c16dfb9e0587.txt
 
---===============8895655341996674100==
+--===============8359613288343190047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47ae47fea412-0bd0439798e0.txt
+Content-Disposition: attachment; filename=revlist-8172aeff4202-c16dfb9e0587.txt
 
 3d2504663c41104b4359a15f35670cfa82de1bbf i40e: Fix reset bw limit when DCB enabled with 1 TC
 6533e558c6505e94c3e0ed4281ed5e31ec985f4d i40e: Fix reset path while removing the driver
@@ -68,5 +68,7 @@ c34f839327b15763723b9b6b606dd61e55ce7e90 net/mlx5e: TC, Reject rules with drop a
 75a0aeb69f7696235b8081b46afffe1ab6d5eff8 Merge branch 'patchq/382345' into mlx5-for-net
 4e5ce6b97aff356b808c3eea88dd0a3d1c361d85 Merge branch 'patchq/463565' into mlx5-for-net
 0bd0439798e026eb5c31fda9deb7cb223aa972a5 Merge branch 'mlx5-for-net' into net-rc
+9692bf9d55681ea865622f6ddcebb06fd23f0cc4 Merge branch 'net-rc' into queue-rc
+c16dfb9e0587827011b7285bf911546b92d02ced Merge branch 'testing/rdma-rc' into queue-rc
 
---===============8895655341996674100==--
+--===============8359613288343190047==--
