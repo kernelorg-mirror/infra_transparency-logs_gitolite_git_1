@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4503784159499638137=="
+Content-Type: multipart/mixed; boundary="===============4019764273059722873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 02 Feb 2022 18:15:46 -0000
-Message-Id: <164382574625.14801.14248123182038173065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 02 Feb 2022 18:15:52 -0000
+Message-Id: <164382575244.14906.4870427386423320752@gitolite.kernel.org>
 
---===============4503784159499638137==
+--===============4019764273059722873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175
     new: 8d37f2710f022837635d9f97db3ac8c853e86979
     log: |
@@ -30,28 +30,28 @@ changes:
          8d37f2710f022837635d9f97db3ac8c853e86979 spi: mpc512x-psc: Fix compile errors
          
 
---===============4503784159499638137==
+--===============4019764273059722873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643825744 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1643825744-7beb74c7026176429da87a91abf614995de605d2
+pusher C3F436CA30F5D8EB 1643825750 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1643825750-f5361d229a6eaa998966d193775c6055bced26f5
 
-7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175 8d37f2710f022837635d9f97db3ac8c853e86979 refs/heads/for-5.18
+7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175 8d37f2710f022837635d9f97db3ac8c853e86979 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH6ylAACgkQJNaLcl1U
-h9AdFgf/VzurX85KAVnJ6XB0guYfBGnwDRBCMZUvLylq0iHk2medVb30+xealaPe
-NlIFsXC5oiOA2YBY16iJnWuzju3lhZb5SkgjiDqZK/jEABXps4BLGAqjlFtTha9P
-VSqyZSCIjzBpqi2detRVc8swcH7W3XqtAArIKdJpRombA0xluV3aaD19fWDJ127d
-u2ukAuuqpsNfQgIgStrqFMtFT9IzJ+cY26CmPl5jzwLniAuHwweJm44jVrHUItiV
-3GTABG2/++sbtlhQT5LsYivCZ1Efap6aKvQCb+18qjh97siCmwpFjDyyFP6UFbx2
-EVLlBH3Em4THENGCJF/aQEkNOQwSdg==
-=naPn
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH6ylYACgkQJNaLcl1U
+h9DyYAf+NiFa0+4nwJtO4ZaLn1XZUOQVDKL1NmEMV+yq53RNWlEBijPFmHY2vCWs
+FudoS45WLw+xmBGGLJfF3g0aapeyEn1HNA0VqSBbB/HP9g9Jp7fdZa498PF2y3Zu
+UmqIiq7LcuFMDkBulAwkujXVKec4yE3LKgq3HfWYcFCMz83mwqG4v71fUypct6KY
+reZU/wBk68OsVGoLr132yLDBzWaCqjczOL4d3DDBz5JSL8xlz1uel9q22goAQZsH
+GfA8aX++yQhRXYlNJeBa57F+wAs74Blrx/45vsVpNSUYK6HsHEozVX6e4Us4gQPw
+INQkhpe1gtXHBOc2hCE/gWslHkj+SA==
+=g50j
 -----END PGP SIGNATURE-----
 
---===============4503784159499638137==--
+--===============4019764273059722873==--
