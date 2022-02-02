@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Wed, 02 Feb 2022 18:57:52 -0000
-Message-Id: <164382827222.10076.3726802153854835578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Wed, 02 Feb 2022 19:06:03 -0000
+Message-Id: <164382876303.15635.4146317644770668161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: e7d504fb231e628b34b120184b864c4deef66d1f
-    new: e7b979bfe1c69a72244e049b18fd86624272a328
+  - ref: refs/heads/for-next
+    old: 28e54414a8901ec936e52f9293f52ff4ba90c2e0
+    new: 784056d36f2779bce7e345285cfa1e097a9136bb
     log: |
-         e7b979bfe1c69a72244e049b18fd86624272a328 Wed Feb  2 06:57:17 PM UTC 2022
+         784056d36f2779bce7e345285cfa1e097a9136bb power: supply: axp288_fuel_gauge: Fix spelling mistake "resisitor" -> "resistor"
          
