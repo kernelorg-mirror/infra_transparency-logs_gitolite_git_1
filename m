@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
-Date: Wed, 02 Feb 2022 08:40:58 -0000
-Message-Id: <164379125862.14352.13101694298366818128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Wed, 02 Feb 2022 08:41:46 -0000
+Message-Id: <164379130698.14685.2739181916923304861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ogabbay/linux
-user: ogabbay
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/habanalabs-next
-    old: 106b251f4193d233192c72819f22a8d36ef3248b
-    new: 06b2420a54455e91db45c2947c8eee23ba413feb
-    log: |
-         06b2420a54455e91db45c2947c8eee23ba413feb habanalabs: add missing include of vmalloc.h
-         
+  - ref: refs/tags/renesas-devel-2022-02-02-v5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e06719c794efccf2d811ab93b518df03f0ed0400
+  - ref: refs/tags/renesas-next-2022-02-02-v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5d4d286d317a0d1c177cad4a60b9c5fda13ea2f1
