@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Wed, 02 Feb 2022 14:06:55 -0000
-Message-Id: <164381081531.13008.10745847329037667755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 02 Feb 2022 14:09:57 -0000
+Message-Id: <164381099719.14024.18099054208293498066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/next
-    old: 30a4eca69b76c0ed5a2f34dd2a3e195c9bf6bed1
-    new: 7f7b571becf3731dfa9aa50bed420e0c988e511d
+  - ref: refs/heads/for-next
+    old: fbe201d16bb1583b046b94418c2bbfc824dccfe0
+    new: bdb5fcc74d34ef7021acdea4d51565baa9450287
     log: |
-         7f7b571becf3731dfa9aa50bed420e0c988e511d thunderbolt: Replace acpi_bus_get_device()
+         01f1269fbb0ead7e37f85213f77fb8e7efc4e099 HID: google: Use struct_size() helper in kzalloc()
+         bdb5fcc74d34ef7021acdea4d51565baa9450287 Merge branch 'for-5.18/google' into for-next
          
+  - ref: refs/heads/for-5.18/google
+    old: 0000000000000000000000000000000000000000
+    new: 01f1269fbb0ead7e37f85213f77fb8e7efc4e099
