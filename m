@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/namhyung/linux-perf
-Date: Wed, 02 Feb 2022 07:02:23 -0000
-Message-Id: <164378534369.15841.16964131574133297841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 02 Feb 2022 08:03:05 -0000
+Message-Id: <164378898501.22084.12815636615477267659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/namhyung/linux-perf
-user: namhyung
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/perf/dso-chroot-v2
-    old: 0000000000000000000000000000000000000000
-    new: 745671417fec1f16b00bc6fc2380bad1c0b6a1e6
+  - ref: refs/heads/for-5.18
+    old: 6e163f9b866a96ed6070f0653da477b3501d902a
+    new: 90d06c8e5a623e3e9c5bfbce1f898552e90f5db8
+    log: |
+         2a7b02ea7f8f79e9f048e68f535bb6158034ac96 ata: libata-acpi: kill ata_acpi_on_suspend()
+         90d06c8e5a623e3e9c5bfbce1f898552e90f5db8 ata: ahci: Add support for Marvell 88SE9235 adapter
+         
