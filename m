@@ -1,55 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4088954893773602199=="
+Content-Type: multipart/mixed; boundary="===============4503784159499638137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Feb 2022 18:15:39 -0000
-Message-Id: <164382573994.14683.8542463202157666806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 02 Feb 2022 18:15:46 -0000
+Message-Id: <164382574625.14801.14248123182038173065@gitolite.kernel.org>
 
---===============4088954893773602199==
+--===============4503784159499638137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.17
-    old: a4f399a1416f645ac701064a55b0cb5203707ac9
-    new: 618c2dc667c87995cdc7de339224bd96bb049a1f
+  - ref: refs/heads/for-5.18
+    old: 7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175
+    new: 8d37f2710f022837635d9f97db3ac8c853e86979
     log: |
-         564778d7b1ea465f9487eedeece7527a033549c5 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw()
-         7f3d90a3519680dfa23e750f80bfdefc0f5eda4a ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_sx()
-         650204ded3703b5817bd4b6a77fa47d333c4f902 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_range()
-         2b7c46369f09c358164d31d17e5695185403185e ASoC: ops: Fix stereo change notifications in snd_soc_put_xr_sx()
-         7fa5c33d043160eba3be9fb8e21588dff2a467c7 ASoC: amd: acp: Set gpio_spkr_en to None for max speaker amplifer in machine driver
-         618c2dc667c87995cdc7de339224bd96bb049a1f ASoC: ops: Fix stereo change notifications
+         e3dc1399506f894110667ee5c66a6a70f06f3348 spi: Make spi_alloc_device and spi_add_device public again
+         000bee0ed70af79e610444096fb453430220960f spi: Create helper API to lookup ACPI info for spi device
+         87e59b36e5e26122efd55d77adb9fac827987db0 spi: Support selection of the index of the ACPI Spi Resource before alloc
+         e612af7acef2459f1afd885f4107748995a05963 spi: Add API to count spi acpi resources
+         70ee8d48f465b0e8dbbfe38f4c854ffa2aeb06ba spi: Enhance and export helpers for ACPI resources
+         3e9cea48296e8150906fd40180ccec2e5de8275c Merge remote-tracking branch 'spi/for-5.18' into spi-5.18
+         7030c428fae100c339436f5cb6f9e7c0574097ad spi: Replace acpi_bus_get_device()
+         8d37f2710f022837635d9f97db3ac8c853e86979 spi: mpc512x-psc: Fix compile errors
          
 
---===============4088954893773602199==
+--===============4503784159499638137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1643825738 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643825738-bb7686842132bb38d46b6dde232b5d142a55e33e
+pusher C3F436CA30F5D8EB 1643825744 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1643825744-7beb74c7026176429da87a91abf614995de605d2
 
-a4f399a1416f645ac701064a55b0cb5203707ac9 618c2dc667c87995cdc7de339224bd96bb049a1f refs/heads/asoc-5.17
+7f7ed3707b882b5620d9ee2d59d7b1a93c4c1175 8d37f2710f022837635d9f97db3ac8c853e86979 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH6ykoACgkQJNaLcl1U
-h9AXoQf+JVIVdhzZvxc6K5U0DRGRFKaoTF+o9+7Gr6fVd8d0QTp21xtU9pLIqoIw
-sirylGTerVrR7elHC4E0SPNd+cdDK/Pd5FmjsHSNvDZW2GiS43tWPEP2Yf4Vr/B2
-BxRIiw63BcFOWT94/EksXTtCj+mHzB2yjRo3fE251ZzLaQ827gM56rQs71h0ZUh5
-c/6QY8alkRvIOG1N0DyJoCBqqBv5mh/epv/d/qN+gd1SeaCwIPfF6NbwW/ocT58b
-Fqp4kdRTn8Y5oFz7sPQNfeyUYQaBqSV7ER5hZMRTvpInadcmiTp+mtAGOy8jveRf
-3QWA+edYD6orogapAijqyN3Zq5OhQQ==
-=YTEt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH6ylAACgkQJNaLcl1U
+h9AdFgf/VzurX85KAVnJ6XB0guYfBGnwDRBCMZUvLylq0iHk2medVb30+xealaPe
+NlIFsXC5oiOA2YBY16iJnWuzju3lhZb5SkgjiDqZK/jEABXps4BLGAqjlFtTha9P
+VSqyZSCIjzBpqi2detRVc8swcH7W3XqtAArIKdJpRombA0xluV3aaD19fWDJ127d
+u2ukAuuqpsNfQgIgStrqFMtFT9IzJ+cY26CmPl5jzwLniAuHwweJm44jVrHUItiV
+3GTABG2/++sbtlhQT5LsYivCZ1Efap6aKvQCb+18qjh97siCmwpFjDyyFP6UFbx2
+EVLlBH3Em4THENGCJF/aQEkNOQwSdg==
+=naPn
 -----END PGP SIGNATURE-----
 
---===============4088954893773602199==--
+--===============4503784159499638137==--
