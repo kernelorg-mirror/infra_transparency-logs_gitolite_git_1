@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6870354052375661750=="
+Content-Type: multipart/mixed; boundary="===============4080489378511067538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 02 Feb 2022 17:00:26 -0000
-Message-Id: <164382122684.30042.659416661831617602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+Date: Wed, 02 Feb 2022 17:04:06 -0000
+Message-Id: <164382144606.31243.5042169193709293620@gitolite.kernel.org>
 
---===============6870354052375661750==
+--===============4080489378511067538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+user: thierry.reding
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 7b7da64d0c3f974baf5ae73624f5a489fec7c2ba
-    new: aee744a37aaf277e74557e683cc524fbe6daeef7
-    log: revlist-7b7da64d0c3f-aee744a37aaf.txt
+  - ref: refs/heads/for-next
+    old: 3f0565451cc0c5158513af0bc4e91aa8fb0b5e75
+    new: 657e54e54ba5b3859848e0ea78d6384ebb7479d6
+    log: revlist-3f0565451cc0-657e54e54ba5.txt
 
---===============6870354052375661750==
+--===============4080489378511067538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b7da64d0c3f-aee744a37aaf.txt
+Content-Disposition: attachment; filename=revlist-3f0565451cc0-657e54e54ba5.txt
 
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
-8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
-b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
-dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
-818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
-ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
-01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
 a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
 88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
 eff54c24bb147afc0a1423b49bfa1b8eaa85a88f perf cpumap: Switch cpu_map__build_map() to cpu function
@@ -1048,7 +1036,19 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-165216533dda560f2620ce8f61381a9ee0ca57ba arm64: dts: ti: k3-j721s2: Move aliases to board dts
-aee744a37aaf277e74557e683cc524fbe6daeef7 arm64: dts: ti: k3-j721s2-common-proc-board: Alias console uart to serial2
+37349609f3a342a9eaff30532bd5560eec1c13b6 pwm: meson: Drop always false check from .request()
+cb971fdb45921bda5b253b6916d8380faec8a8d8 pwm: meson: Drop useless check for channel data being NULL
+5f97f18feac9bd5a8163b108aee52d783114b36f pwm: meson: Simplify duplicated per-channel tracking
+914195ec7ecb55e0be5404e3e0edc561888dd9f0 pwm: meson: Drop always false check from .apply()
+0401f24cd238ae200a23a13925f98de3d2c883b8 pwm: lpc18xx-sct: Initialize driver data and hardware before pwmchip_add()
+20d9de9c4d6642bb40c935233697723b56573cbc pwm: lpc18xx-sct: Reduce number of devm memory allocations
+9136a39e6cf69e49803ac6123a4ac4431bc915a2 pwm: lpc18xx-sct: Simplify driver by not using pwm_[gs]et_chip_data()
+b23fd25ec8f1c691e5190b122079b9f498a1593a pwm: imx1: Implement .apply callback
+22e8e19a46f7875bf7badb14f9c6c2a14372bb05 pwm: img: Rename variable pointing to driver private data
+f19460c1d5cc7df74fcfa539132abe53fb31b42e pwm: tegra: Rename variable pointing to driver private data
+c4fab45290620d9fc87d38fed9862c63ae55a2f7 pwm: sun4i: Rename variable pointing to driver private data
+74746ac0f03fdff07e4ad9344aaa4fab4028f9c9 pwm: stmpe: Drop unused setting of driver data
+431c322298de001914ffe64b8792401c26bfb332 pwm: stmpe: Rename variable pointing to driver private data
+657e54e54ba5b3859848e0ea78d6384ebb7479d6 pwm: pxa: Implement .apply() callback
 
---===============6870354052375661750==--
+--===============4080489378511067538==--
