@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 02 Feb 2022 09:21:25 -0000
-Message-Id: <164379368525.7948.1383158876565371828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 02 Feb 2022 09:32:27 -0000
+Message-Id: <164379434722.15783.2020018154372781003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8bdc849f76963c217b9e15467b2124fd011431f3
-    new: 0868ad385affa28cf15aebca3c38c5c51f79b286
-    log: |
-         4737499ca3dfefb86d70a5a3a9d4cef2bb3bdabc dt-bindings: arm: airoha: Add binding for Airoha GPIO controller
-         0868ad385affa28cf15aebca3c38c5c51f79b286 gpio: Add support for Airoha EN7523 GPIO controller
-         
+  - ref: refs/tags/damon/next-2022-02-02-10-30-on-v5.17-rc1-mmotm-assembled-by-sj-2022-01-27-09-58
+    old: 0000000000000000000000000000000000000000
+    new: 3ae933a5314e5f7ae9db81b06b4be98f6f17d243
