@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 02 Feb 2022 04:26:36 -0000
-Message-Id: <164377599683.13424.14770240624933172498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 02 Feb 2022 04:32:43 -0000
+Message-Id: <164377636375.16847.11869668565320650284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 479f5547239d970d3833f15f54a6481fffdb91ec
-    new: 63e4b45c82ed1bde979da7052229a4229ce9cabf
+    old: 91f0d8a4813a9a50404b7c48a43fdc46fc77d235
+    new: 68650b4e6c13bb3c33c3e552b1fd25bc1af9b0bb
     log: |
-         63e4b45c82ed1bde979da7052229a4229ce9cabf ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
+         68650b4e6c13bb3c33c3e552b1fd25bc1af9b0bb r8169: support L1.2 control on RTL8168h
          
