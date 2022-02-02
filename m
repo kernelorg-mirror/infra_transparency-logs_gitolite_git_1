@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7425973501322328403=="
+Content-Type: multipart/mixed; boundary="===============1437084703292041545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 02 Feb 2022 06:48:34 -0000
-Message-Id: <164378451424.5713.11250054623676522561@gitolite.kernel.org>
+Date: Wed, 02 Feb 2022 06:49:10 -0000
+Message-Id: <164378455077.5987.8509262058430223481@gitolite.kernel.org>
 
---===============7425973501322328403==
+--===============1437084703292041545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: fe8152b38d3a994c4c6fdbc0cd6551d569a5715a
     new: 000fe940e51f03210bd5fb1061d4d82ed9a7b1b6
     log: revlist-fe8152b38d3a-000fe940e51f.txt
 
---===============7425973501322328403==
+--===============1437084703292041545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e4d2763f9aafd4a4780a85d4295bd4b1f5303217 Merge branch 'lan966x-ptp'
 68650b4e6c13bb3c33c3e552b1fd25bc1af9b0bb r8169: support L1.2 control on RTL8168h
 000fe940e51f03210bd5fb1061d4d82ed9a7b1b6 sfc: The size of the RX recycle ring should be more flexible
 
---===============7425973501322328403==--
+--===============1437084703292041545==--
