@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 02 Feb 2022 08:04:42 -0000
-Message-Id: <164378908213.22667.748340484823174464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+Date: Wed, 02 Feb 2022 08:18:18 -0000
+Message-Id: <164378989824.31255.12842057848404052292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/ebiggers/xfstests-dev
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 6e163f9b866a96ed6070f0653da477b3501d902a
-    new: 90d06c8e5a623e3e9c5bfbce1f898552e90f5db8
-    log: |
-         2a7b02ea7f8f79e9f048e68f535bb6158034ac96 ata: libata-acpi: kill ata_acpi_on_suspend()
-         90d06c8e5a623e3e9c5bfbce1f898552e90f5db8 ata: ahci: Add support for Marvell 88SE9235 adapter
-         
+  - ref: refs/heads/wip-wrapped-keys
+    old: 0000000000000000000000000000000000000000
+    new: 2dbebee49c85a4027917dc797b1477fff1c2a72f
