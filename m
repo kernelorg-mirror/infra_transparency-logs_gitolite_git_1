@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 03 Feb 2022 20:38:25 -0000
-Message-Id: <164392070560.13996.4554687325895544112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 03 Feb 2022 20:38:42 -0000
+Message-Id: <164392072205.14256.11418182685588373943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 6e2e143ed398f82c00256c9d63a1c75c347092f5
-    new: b9b3aaaac0b4031bc86b24d581927467895e95f3
+    old: a6763080856f444868620ae065ac25cbac0c4922
+    new: ca33aa4ec5cbae7ddb995e565bc3b67ee4532b7a
     log: |
-         b9b3aaaac0b4031bc86b24d581927467895e95f3 Thu Feb  3 08:37:50 PM UTC 2022
+         ca33aa4ec5cbae7ddb995e565bc3b67ee4532b7a libbpf: Deprecate priv/set_priv storage
          
