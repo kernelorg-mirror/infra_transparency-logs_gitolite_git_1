@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4922580539975340433=="
+Content-Type: multipart/mixed; boundary="===============3746646613788285383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Feb 2022 09:53:05 -0000
-Message-Id: <164388198563.16717.14169436837814085547@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 09:53:14 -0000
+Message-Id: <164388199400.16849.14902646163139344860@gitolite.kernel.org>
 
---===============4922580539975340433==
+--===============3746646613788285383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 74144382b3d293e9eefc370f132925fe7e02497d
     new: 6275d291a763090ed1ff8aed7376aebd9f9dd6f5
     log: revlist-74144382b3d2-6275d291a763.txt
 
---===============4922580539975340433==
+--===============3746646613788285383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -115,4 +115,4 @@ dc67008346ab88609b623aa3c5320d412fff040c Merge locking/core into tip/master
 427ecc1fe6b381cae0a9ee7e73d56f9f1f995b39 Merge x86/irq into tip/master
 6275d291a763090ed1ff8aed7376aebd9f9dd6f5 Merge irq/core into tip/master
 
---===============4922580539975340433==--
+--===============3746646613788285383==--
