@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Feb 2022 07:11:31 -0000
-Message-Id: <164387229196.1655.5077557332397897917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 03 Feb 2022 07:24:24 -0000
+Message-Id: <164387306438.9840.17147650795803356139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: dd5152ab338c8705093a64d706a35074b3b365aa
-    new: 707ee8ac3a5b29fecb69c9a4c4f5e51b0cbf2ca9
+  - ref: refs/heads/master
+    old: b7892f7d5cb2b8187c603dd8ea3a7c44059ccfc2
+    new: b293dcc473d22a62dc6d78de2b15e4f49515db56
     log: |
-         04fcb5f9a104f24278ad849c642cbdf0c8f48453 selftests/bpf: Migrate from bpf_prog_test_run
-         3931618378451f7ae884b14e4120e07560875cab selftests/bpf: Migrate from bpf_prog_test_run_xattr
-         9cce53138dd9ee8bd7354196297df24130f3529d bpftool: Migrate from bpf_prog_test_run_xattr
-         3e1ab843d2d4d2d4e67f9488c1497aedc014328a libbpf: Deprecate bpf_prog_test_run_xattr and bpf_prog_test_run
-         707ee8ac3a5b29fecb69c9a4c4f5e51b0cbf2ca9 Merge branch 'migrate from bpf_prog_test_run{,_xattr}'
+         b293dcc473d22a62dc6d78de2b15e4f49515db56 bpf: Use VM_MAP instead of VM_ALLOC for ringbuf
          
