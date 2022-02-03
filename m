@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2045012315970263536=="
+Content-Type: multipart/mixed; boundary="===============1073762310835189163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 03 Feb 2022 15:30:53 -0000
-Message-Id: <164390225349.29904.7755207145586086718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 03 Feb 2022 15:30:58 -0000
+Message-Id: <164390225846.30027.17465166647058089306@gitolite.kernel.org>
 
---===============2045012315970263536==
+--===============1073762310835189163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c36c04c2e132fc39f6b658bf607aed4425427fd7
     log: revlist-26291c54e111-c36c04c2e132.txt
 
---===============2045012315970263536==
+--===============1073762310835189163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ d5084ffbc50c76e4a237d87e022e88f6b15b3cb9 Merge tag 'fsnotify_for_v5.17-rc3' of g
 d394bb77dd0bd20b125459da25fdac00a853be28 Merge tag 'mips-fixes-5.17_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 c36c04c2e132fc39f6b658bf607aed4425427fd7 Revert "mm/gup: small refactoring: simplify try_grab_page()"
 
---===============2045012315970263536==--
+--===============1073762310835189163==--
