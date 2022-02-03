@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 03 Feb 2022 00:36:44 -0000
-Message-Id: <164384860483.1645.2958633299531673207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 03 Feb 2022 00:50:54 -0000
+Message-Id: <164384945426.10275.10202925525571038177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 81eb8b0b18789e647e65579303529fd52d861cc2
-    new: b67985be400969578d4d4b17299714c0e5d2c07b
+  - ref: refs/heads/dev
+    old: 21049fdfcac4089fa1b06acfddac614452514206
+    new: 373341403614d32407dd0ae52bc7c92c9b251c80
     log: |
-         b67985be400969578d4d4b17299714c0e5d2c07b tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
+         7e3661d99ed31c18c0d23125d9421c1560b5fd6e rcu-tasks: Use order_base_2() instead of ilog2()
+         373341403614d32407dd0ae52bc7c92c9b251c80 rcu-tasks: Set ->percpu_enqueue_shift to zero upon contention
          
