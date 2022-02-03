@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2501109074896504956=="
+Content-Type: multipart/mixed; boundary="===============5353573870277105408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Thu, 03 Feb 2022 08:27:20 -0000
-Message-Id: <164387684040.18531.4142726396497973655@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 08:27:22 -0000
+Message-Id: <164387684287.18594.9293592861675048531@gitolite.kernel.org>
 
---===============2501109074896504956==
+--===============5353573870277105408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gclement/mvebu
 user: gclement
 changes:
-  - ref: refs/heads/mvebu/arm
-    old: 6871c7fbdfd3712f1ac0deeece26a15adff0cebf
-    new: bba14b329157d914b81ec764b87d60ee97c05e57
-    log: revlist-6871c7fbdfd3-bba14b329157.txt
+  - ref: refs/heads/mvebu/fixes
+    old: eb5a68b92a73fcd96f884c1bff6d671007c8082a
+    new: 0f89e3d718bc0eea2ac52c3ab3321133fd838d12
+    log: revlist-eb5a68b92a73-0f89e3d718bc.txt
 
---===============2501109074896504956==
+--===============5353573870277105408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6871c7fbdfd3-bba14b329157.txt
+Content-Disposition: attachment; filename=revlist-eb5a68b92a73-0f89e3d718bc.txt
 
 f601aa7930669439623dd266fc9e90b0218b42c1 rtc: rs5c372: Add RTC_VL_READ, RTC_VL_CLR ioctls
 1c1b3098ae1e0d9725d0d4d49986e0edebba443a rtc: pcf85063: add i2c_device_id name matching support
@@ -394,6 +394,7 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-bba14b329157d914b81ec764b87d60ee97c05e57 ARM: orion/gpio: Get rid of unused first parameter in orion_gpio_init()
+224d725d0458ac1d3335aef5b8a28cf136a2c889 arm64: dts: marvell: armada-37xx: Increase PCIe IO size from 64 KiB to 1 MiB
+0f89e3d718bc0eea2ac52c3ab3321133fd838d12 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
 
---===============2501109074896504956==--
+--===============5353573870277105408==--
