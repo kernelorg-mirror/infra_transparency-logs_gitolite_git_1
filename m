@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 03 Feb 2022 20:16:01 -0000
-Message-Id: <164391936165.31915.419728109097119890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Thu, 03 Feb 2022 20:16:09 -0000
+Message-Id: <164391936959.32074.6466304096009454070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: djwong
 changes:
-  - ref: refs/heads/x86/mm
-    old: e1cd82a339024beda8439fb2e20718363ee989a8
-    new: 35fa745286ac44ee26ed100c2bd2553368ad193b
+  - ref: refs/tags/v4.14.0-rc1
+    old: d2bf3c92daca5dc3628e67ec41ae6d503b0b5be0
+    new: c4f6e55463b59943a00b7d64631c176bd94c743a
     log: |
-         9de4999050b5f2e847c84372c6a1aa1fe32bb269 x86/realmode: Add comment for Global bit usage in trampoline_pgd
-         f154f290855b070cc94dd44ad253c0ef8a9337bb x86/mm/64: Flush global TLB on boot and AP bringup
-         71d5049b053876afbde6c3273250b76935494ab2 x86/mm: Flush global TLB when switching to trampoline page-table
-         35fa745286ac44ee26ed100c2bd2553368ad193b x86/mm: Include spinlock_t definition in pgtable.
+         68c269ca872a5ab88671273106e4d6b7c3589e0a xfs_io: Disable -V if pwritev is not available
+         c5deeac912b0bffac079bf48034a77436bccb848 xfs_io: Add support for pwritev2()
+         0799d5cf54dcfe9579268b644c6f5706fc341e93 xfs_io: Add RWF_NOWAIT to pwritev2()
+         43ba1d61e0e5f493e529fd9db20dc8a6ee6d5899 xfs_io: Allow partial writes
+         6003d3ce60a4e32b6c06809e1fa7bf7af7212518 xfsprogs: Release v4.14.0-rc1
          
