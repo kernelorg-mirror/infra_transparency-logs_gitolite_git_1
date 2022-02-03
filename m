@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 02 Feb 2022 23:58:21 -0000
-Message-Id: <164384630179.8974.4374230157113707908@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 00:01:33 -0000
+Message-Id: <164384649351.11567.17116301578136986059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.17-fixes
-    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
-    new: c4f9c8bbcc24f00002827f73957053a59aba5646
+  - ref: refs/heads/for-5.18
+    old: f4a8d4f2b65dd5e3b92b7207f7995a24d13d197e
+    new: 62979a1438df1e94d9b828b19025bba2466a93ce
     log: |
-         c4f9c8bbcc24f00002827f73957053a59aba5646 MAINTAINERS: add myself as PATA drivers reviewer
+         62979a1438df1e94d9b828b19025bba2466a93ce libata: ata_{sff|std}_prereset() always return 0
          
