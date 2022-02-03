@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3112504108494215072=="
+Content-Type: multipart/mixed; boundary="===============8599303156288567336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Feb 2022 14:27:09 -0000
-Message-Id: <164389842932.32239.10543704365902251746@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 14:27:52 -0000
+Message-Id: <164389847279.32546.11209853123408671929@gitolite.kernel.org>
 
---===============3112504108494215072==
+--===============8599303156288567336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: c5de60cd622a2607c043ba65e25a6e9998a369f9
-    new: 1d9093457b243061a9bba23543c38726e864a643
-    log: revlist-c5de60cd622a-1d9093457b24.txt
+  - ref: refs/heads/perf/core
+    old: a9f4a6e92b3b319296fb078da2615f618f6cd80c
+    new: ee28855a54493ce83bc2a3fbe30210be61b57bc7
+    log: revlist-a9f4a6e92b3b-ee28855a5449.txt
 
---===============3112504108494215072==
+--===============8599303156288567336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5de60cd622a-1d9093457b24.txt
+Content-Disposition: attachment; filename=revlist-a9f4a6e92b3b-ee28855a5449.txt
 
-bed0a9b591492bb285ea88cd221e0412031396ca kasan: add ability to detect double-kmem_cache_destroy()
-f98f966cd75002a71caec1b6d209da5762c0efac kasan: test: add test case for double-kmem_cache_destroy()
-26dca996ea7b1ac7008b6b6063fc88b849e3ac3e kasan: fix quarantine conflicting with init_on_free
-3e9d80a891df3b1a5d77db47fa7fdf33ba71e5cb mm,fs: split dump_mapping() out from dump_page()
-236476180c0f5d308fb313d5570d0b067307884c mm/debug_vm_pgtable: update comments regarding migration swap entries
-43b93121056c524e2af77d561900ea856d32029c mm/truncate.c: remove unneeded variable
-677b2a8c1f25db5b09c1ef5bf72faa39ea81d9cf gup: avoid multiple user access locking/unlocking in fault_in_{read/write}able
-28b0ee3fb35047bd2bac57cc5a051b26bbd9b194 mm/gup.c: stricter check on THP migration entry during follow_pmd_mask
-a7605426666196c5a460dd3de6f8dac1d3c21f00 mm: shmem: don't truncate page if memory failure happens
-62c9827cbb996c2c04f615ecd783ce28bcea894b shmem: fix a race between shmem_unused_huge_shrink and shmem_evict_inode
-3795f46b83c66a2e4545460dec74c80b839faafe mm/frontswap.c: use non-atomic '__set_bit()' when possible
-17c17367758059930246dde937cc7da9b8f3549e mm: memcontrol: make cgroup_memory_nokmem static
-46a53371f3fd9bf873fdd9c4df75b1cd86df1098 mm/page_counter: remove an incorrect call to propagate_protected_usage()
 b6bf9abb0aa44e53ffe9c1e6e1d32568f5b25e4a mm/memcg: add oom_group_kill memory event
 5b3be698a872c490dbed524f3e2463701ab21339 memcg: better bounds on the memcg stats updates
 06b2c3b08ce134c9555d91a1cf15cd03646cc287 mm/memcg: use struct_size() helper in kzalloc()
@@ -273,6 +260,14 @@ fc9d6952a4bbb9908062726fbfb009fa6ea5c7af Merge tag 'rpmsg-v5.17' of git://git.ke
 3bf6a9e36e441714928d73a5adbc59562eb7ef19 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 fe81ba137ebcc7f236780996a0b375732c07e85c Merge tag 'ata-5.17-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
 5f02ef741a785678930f3ff0a8b6b2b0ef1bb402 KVM: VMX: switch blocked_vcpu_on_cpu_lock to raw spinlock
+09f5e7dc7ad705289e1b1ec065439aa3c42951c4 perf: Fix perf_event_read_local() time
+7fa981cad216e9f64f49e22112f610c0bfed91bc perf/x86/intel: Add a quirk for the calculation of the number of counters on Alder Lake
+96fd2e89fba1aaada6f4b1e5d25a9d9ecbe1943d perf/x86/intel/uncore: Fix CAS_COUNT_WRITE issue for ICX
+0036fb00a756a2f6e360d44e2e3d2200a8afbc9b perf/x86/rapl: fix AMD event handling
+1ac7fd8159a842b3aa51f0b46a351fa3eeb8fbf3 perf/x86/intel/lbr: Support LBR format V7
+6b19788ddc5937831ffd27525a1b793953fd2d2b perf/x86/intel/lbr: Add static_branch for LBR INFO flags
+5a4487f9ef5ef2fdb3215cadf0a9c3e5e8678634 perf/x86/intel/uncore: Add IMC uncore support for ADL
+8c16dc047b5dd8f7b3bf4584fa75733ea0dde7dc x86/perf: Avoid warning for Arch LBR without XSAVE
 a06247c6804f1a7c86a2e5398a4c1f1db1471848 psi: Fix uaf issue when psi trigger is destroyed while being polled
 98b0d890220d45418cfbc5157b3382e6da5a12ab sched/pelt: Relax the sync of util_sum with util_avg
 7ceb77103001544a43e11d7f3a8a69a2c1f422cf sched/pelt: Continue to relax the sync of util_sum with util_avg
@@ -879,6 +874,8 @@ d3d079bde07e1b7deaeb57506dc0b86010121d17 serial: stm32: prevent TDR register ove
 037b91ec7729524107982e36ec4b40f9b174f7a2 serial: stm32: fix software flow control transfer
 62f676ff7898f6c1bd26ce014564773a3dc00601 serial: pl011: Fix incorrect rs485 RTS polarity on set_mctrl
 2dd8a74fddd21b95dcc60a2d3c9eaec993419d69 serial: core: Initialize rs485 RTS polarity already on probe
+961c39121759ad09a89598ec4ccdd34ae0468a19 perf: Always wake the parent event
+c5de60cd622a2607c043ba65e25a6e9998a369f9 perf/core: Fix cgroup event list management
 7fde14d705985dd933a3d916d39daa72b1668098 drm/privacy-screen: honor acpi=off in detect_thinkpad_privacy_screen
 007c95120d1b054fb637dff24636a307a4889016 ethernet: 3com/typhoon: don't write directly to netdev->dev_addr
 14ba66a60fbfbe69bb7faf6b45e9803c2efd7a23 ethernet: tundra: don't write directly to netdev->dev_addr
@@ -1045,10 +1042,13 @@ a96d3a5b15192f401aa8fa68965ff2a5303367a9 Merge tag 'x86_urgent_for_v5.17_rc2' of
 27a96c4feb837093f6075bbd97c942260d26ef33 Merge tag 'perf_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c5fe9de7903330df7641fd342733fec6fb91afa2 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 26291c54e111ff6ba87a164d85d4a4e134b7315c Linux 5.17-rc2
-a01994f5e5c79d3a35e5e8cf4252c7f2147323c3 x86/perf: Default set FREEZE_ON_SMI for all
-3c25fc97f5590060464cabfa25710970ecddbc96 perf: Copy perf_event_attr::sig_data on modification
-95d29fa104523b1756323f7003294b1711c27808 selftests/perf_events: Test modification of perf_event_attr::sig_data
-ddecd22878601a606d160680fa85802b75d92eb6 perf: uapi: Document perf_event_attr::sig_data truncation on 32 bit architectures
-1d9093457b243061a9bba23543c38726e864a643 perf/x86/intel/pt: Fix crash with stop filters in single-range mode
+c243cecb58e3905baeace8827201c14df8481e2a perf/x86/intel/pt: Relax address filter validation
+1fb85d06ad6754796cd1b920639ca9d8840abefd x86: Share definition of __is_canonical_address()
+d680ff24e9e14444c63945b43a37ede7cd6958f9 perf/core: Fix address filter parser for multiple filters
+e5524bf1047eb3b3f3f33b5f59897ba67b3ade87 perf/x86/intel/pt: Fix address filter config for 32-bit kernel
+58b2ff2c18b1e1d7232b8007a5698ec4ee7a7a0d perf/core: Allow kernel address filter when not filtering the kernel
+2145e77fecfb3965b1dc299bac203b167238bd0b perf/x86/intel: Enable PEBS format 5
+0144ba0c5bd3176647bb4d49a697d231610c78b7 KVM: x86: use the KVM side max supported fixed counter
+ee28855a54493ce83bc2a3fbe30210be61b57bc7 perf/x86/intel: Increase max number of the fixed counters
 
---===============3112504108494215072==--
+--===============8599303156288567336==--
