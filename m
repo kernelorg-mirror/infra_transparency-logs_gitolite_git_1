@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6212211987352363719=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Feb 2022 15:18:54 -0000
-Message-Id: <164390153476.19989.6323484255872164956@gitolite.kernel.org>
-
---===============6212211987352363719==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 03 Feb 2022 15:19:10 -0000
+Message-Id: <164390155095.20206.1202464160572785638@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.18
-    old: 8d37f2710f022837635d9f97db3ac8c853e86979
-    new: 4e28b22225e3a8b7f1bd3e093301802a2238071a
+  - ref: refs/heads/for-next
+    old: bb45f689fa62110c263c86070bfcb9ecbb6e1e23
+    new: d466706b9d0dae4754a47c34fd5f4654ee54f609
     log: |
-         4e28b22225e3a8b7f1bd3e093301802a2238071a spi: dt-bindings: add mising description type to reg property
+         7f97b2ad948343c3be543d12c2965f74bddc34c7 ASoC: dt-bindings: sun4i-i2s: Add compatibles for R329 and D1
+         c8bbc1de9088fedb5d71db7d185c37db18feb2e1 ASoC: sun4i-i2s: Update registers for more channels
+         e2ce580f1fffc009807da73adf7dc86912ab6a19 ASoC: sun4i-i2s: Add support for the R329/D1 variant
+         b5083c0c948ac7f52ca700af219cb491735ecd4b ASoC: wm8962: Allow switching between analog and digital inputs
+         ed482dc8c76db7613c08f39b09c6b98718c92940 ASoC: samsung: Explicitly include gpiolib header
+         ec29170c724ca30305fc3a19ba2ee73ecac65509 ASoC: madera: Add dependencies on MFD
+         d466706b9d0dae4754a47c34fd5f4654ee54f609 ASoC: sun4i-i2s: Support for Allwinner R329 and D1 SoCs
          
-
---===============6212211987352363719==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1643901533 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1643901532-f2983dcaa791c55c3c4f51d844f2c6ff8e455c53
-
-8d37f2710f022837635d9f97db3ac8c853e86979 4e28b22225e3a8b7f1bd3e093301802a2238071a refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmH78l0ACgkQJNaLcl1U
-h9DgGQf/cSHKFfcQUZb+ZLN0dkS7hc7DODlJNKxUjBJyQDcAggBuDqKcVrn2ADMA
-HncvkBMylwk3UOvzwkqtbW7d2tEOxlVz0KuoO3s+oDaIy7Q413cMXHqQVe2Y2bUL
-ceuJxF4kBnLQZIwhorGg8p6nGtMgXBOWKvwTHxZr7HYtnB+2UdF5MgcQewF9cFge
-srcy3KY+ZEKrKoL+zRqZ/5LNokPtYL16pQsEgOHvtDpGhCYjIe/KiNQHWXWl+MWl
-S60AxsugodebKPeIFvlJNrMvWvplX5YFuN64LCenEeNQWN9M7OEFkoixXoSZBVW2
-CgYCagMOAAo+iZ+e6mHIOsJnHLLR/A==
-=D3Kj
------END PGP SIGNATURE-----
-
---===============6212211987352363719==--
