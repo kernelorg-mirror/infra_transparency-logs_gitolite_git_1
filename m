@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Feb 2022 14:11:01 -0000
-Message-Id: <164389746170.21432.11078487705372298761@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0036191516839453833=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 03 Feb 2022 14:18:35 -0000
+Message-Id: <164389791508.25353.15900690271019276553@gitolite.kernel.org>
+
+--===============0036191516839453833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0947644332cd64a8d04925576d31c68a92620d22
-    new: 9c30918925d7992a6d812b3aa7e026839723c78a
+    old: 1f06976629f56dbb6e11d880aa7d163d136b5f2f
+    new: e0fba0c070e316e3499458b319c3ed18e9001902
     log: |
-         62001548a6da1353064e2e889ec3eaa584893f6c net: dsa: mv88e6xxx: add mv88e6352_g2_scratch_port_has_serdes()
-         d4ebf12bcec45378f6b3badb63806761e10a4596 net: dsa: mv88e6xxx: populate supported_interfaces and mac_capabilities
-         2ee84cfefb1e72541d3981e0255fba1dee907ff7 net: dsa: mv88e6xxx: convert to phylink_generic_validate()
-         7f7d32bc2608075bba1055b0c8dcd8499643a814 net: dsa: mv88e6xxx: improve 88e6352 serdes statistics detection
-         9c30918925d7992a6d812b3aa7e026839723c78a Merge branch 'dsa-mv88e6xxx-phylink_generic_validate'
+         e0fba0c070e316e3499458b319c3ed18e9001902 Update 4BC0896FB5693595 (Harald Hoyer)
          
+
+--===============0036191516839453833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1643897914 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1643897914-3834e5fa52c121f19a146fbb15a60c232319d51c
+
+1f06976629f56dbb6e11d880aa7d163d136b5f2f e0fba0c070e316e3499458b319c3ed18e9001902 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYfvkOgAKCRC2xBzjVmSZ
+bEadAQDn/rP5a5mlRnroTIio9gVOXOVJivYnqa26tIwKjEkuwgD+KHrdE2eVdHOB
+1jUz8MvAe4Ba7OQrAHOpynlbLqz1AQc=
+=kGIA
+-----END PGP SIGNATURE-----
+
+--===============0036191516839453833==--
