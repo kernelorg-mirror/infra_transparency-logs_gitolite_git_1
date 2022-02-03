@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 03 Feb 2022 18:57:20 -0000
-Message-Id: <164391464047.12223.13289715916840781941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 03 Feb 2022 18:58:17 -0000
+Message-Id: <164391469707.12646.16701059243513318763@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 073e472552442bf2351eb597e6d14b7dd509e6b1
-    new: 8963de90b0885bf9688b54cceb8ec546fd922138
+  - ref: refs/heads/bleeding-edge
+    old: 0c1f0e2fe5907398408d24636c5e778275870df1
+    new: 119d56b735c4f42a805657c0b9b5982e58f41929
     log: |
-         9b118b50c9f02c2f7d4d67b2f0cfe00c28999985 hwmon: (sch56xx) Autoload modules on platform device creation
-         a4a21fa08bfee0e2db4ea282fc7cece61c1c6e69 hwmon: (sch56xx-common) Add automatic module loading on supported devices
-         c4f8bd592c593c869aea59ecad934242e894c3ca hwmon: (sch56xx-common) Replace msleep() with usleep_range()
-         25a0e1555844443dc4c417ec2d5c9b1176e7c1af hwmon: (sch56xx-common) Replace WDOG_ACTIVE with WDOG_HW_RUNNING
-         c4b1687d68975a2d84c63b2b4e072f3080f4a3d6 hwmon: (asus-ec-sensors) add driver for ASUS EC
-         d4b4bb104d128d729e67e5fe7e1fb1a632582d60 hwmon: (asus-ec-sensors) update documentation
-         8963de90b0885bf9688b54cceb8ec546fd922138 hwmon: deprecate asis_wmi_ec_sensors driver
+         4a960e8941bd59fe20f8f774de371f40f222a0c7 x86/Documentation: Describe the Intel Hardware Feedback Interface
+         7b8f40b3de75c971a4e5f9308b06deb59118dbac x86/cpu: Add definitions for the Intel Hardware Feedback Interface
+         1cb19cabeb0e187b6c244d0da73d27f7432c40dc thermal: intel: hfi: Minimally initialize the Hardware Feedback Interface
+         2d74e6319abe278981e79166b6c2d0c3ed39b1ae thermal: intel: hfi: Handle CPU hotplug events
+         ab09b0744a9944cbdc0ac9a5cb00bef72adf79d5 thermal: intel: hfi: Enable notification interrupt
+         e4b1eb24ce5a696ef7229f9926ff34d7502f0582 thermal: netlink: Add a new event to notify CPU capabilities change
+         bd30cdfd9bd73b68e4977ce7c5540aa7b14c25cd thermal: intel: hfi: Notify user space for HFI events
+         119d56b735c4f42a805657c0b9b5982e58f41929 Merge branch 'thermal-hfi' into bleeding-edge
          
