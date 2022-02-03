@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-Date: Thu, 03 Feb 2022 17:40:06 -0000
-Message-Id: <164391000607.24754.2164435781702177266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 03 Feb 2022 17:40:48 -0000
+Message-Id: <164391004879.25106.6071690688076456761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
-user: jaegeuk
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/dev
-    old: 85cd72a2445a7c590852c829f3be23872c2cbe43
-    new: 1de1db84d2a4a0ddfe90362d07dbec1dbc423323
+  - ref: refs/heads/master
+    old: 8a5b3f688077cce20c3997c49fcd6bbb7756ae13
+    new: 672098118d16eaf668e4fda0e6b426735a2f006f
     log: |
-         1de1db84d2a4a0ddfe90362d07dbec1dbc423323 f2fs-tools: add atomic write related options to f2fs_io write command
+         672098118d16eaf668e4fda0e6b426735a2f006f netdev: fix bug setting OWE IE length
          
