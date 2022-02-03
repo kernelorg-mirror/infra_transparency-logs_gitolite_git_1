@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6457487678402275407=="
+Content-Type: multipart/mixed; boundary="===============7154637834076906098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Feb 2022 17:08:56 -0000
-Message-Id: <164390813691.2308.12793471755582499969@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 17:09:06 -0000
+Message-Id: <164390814688.2463.2706086039342362668@gitolite.kernel.org>
 
---===============6457487678402275407==
+--===============7154637834076906098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 881cc731df6af99a21622e9be25a23b81adcd10b
-    new: 4a81f6da9cb2d1ef911131a6fd8bd15cb61fc772
-    log: revlist-881cc731df6a-4a81f6da9cb2.txt
+  - ref: refs/heads/dev-queue
+    old: 96637f67086dd272c39cbc28d6e7a0cebf37ceaf
+    new: ff83d3d5dc74535b4852b22e55b44742b1abba28
+    log: revlist-96637f67086d-ff83d3d5dc74.txt
 
---===============6457487678402275407==
+--===============7154637834076906098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-881cc731df6a-4a81f6da9cb2.txt
+Content-Disposition: attachment; filename=revlist-96637f67086d-ff83d3d5dc74.txt
 
 3d2504663c41104b4359a15f35670cfa82de1bbf i40e: Fix reset bw limit when DCB enabled with 1 TC
 6533e558c6505e94c3e0ed4281ed5e31ec985f4d i40e: Fix reset path while removing the driver
@@ -62,5 +62,19 @@ c86d86131ab75696fc52d98571148842e067d620 Partially revert "net/smc: Add netlink 
 81eb8b0b18789e647e65579303529fd52d861cc2 net: sparx5: do not refer to skb after passing it on
 b67985be400969578d4d4b17299714c0e5d2c07b tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
 4a81f6da9cb2d1ef911131a6fd8bd15cb61fc772 net, neigh: Do not trigger immediate probes on NUD_FAILED from neigh_managed_work
+07611c2e4be82d316bb27f7a97f55c5148a371ae checkpatch: Fix warnings when --no-tree is used
+515ad57a3474d71a0e8062f2c32b06d9d42c27f7 checkpatch.pl: seed camelcase from the provided kernel tree root
+c3b32802b6647a7151eb08ff9552492c19e334d7 ice: Fix a couple off by one bugs
+33dd1ad7d18ca10d27febc57905812d3613bee2f iavf: Fix promiscuous mode configuration flow messages
+86f4831ddff43f174b0c1fc865ad40b96fb8e614 i40e: Fix the timeliness of stats after deleting tc
+cd0da4b793a651441422d96641bd86e613db824c ice: fix setting l4 port flag when adding filter
+3cacfcdaecab28bd1da78b8cf6159be808a87f9c ice: fix an error code in ice_cfg_phy_fec()
+c26738535a7f430965a6ea419b630a43d7550b1a ixgbevf: Require large buffers for build_skb on 82599VF
+cea2f04c052bf4c04ab8c7d7b88207dd4b626a27 ice: fix IPIP and SIT TSO offload
+2b2f96f84d2407be77aaf3d7f187d115fb5460a6 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+e9b10bed8e220bb8014e00c5746f8226edad736a ice: Avoid RTNL lock when re-creating auxiliary device
+6ae65100876f873c3e8f07cced160e4a5e56f1d5 iavf: Fix handling of vlan strip virtual channel messages
+0979cfd29bcbcc03d1c8c484340536ff6f0df91c ice: Don't use GFP_KERNEL in atomic context
+ff83d3d5dc74535b4852b22e55b44742b1abba28 e1000e: Fix possible HW unit hang after an s0ix exit
 
---===============6457487678402275407==--
+--===============7154637834076906098==--
