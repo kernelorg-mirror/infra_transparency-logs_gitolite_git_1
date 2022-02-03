@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Feb 2022 14:06:16 -0000
-Message-Id: <164389717665.18508.331821173068012235@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 14:11:01 -0000
+Message-Id: <164389746170.21432.11078487705372298761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: b566967c3c5728ad67677285e2875e543dc908ae
-    new: 0947644332cd64a8d04925576d31c68a92620d22
+    old: 0947644332cd64a8d04925576d31c68a92620d22
+    new: 9c30918925d7992a6d812b3aa7e026839723c78a
     log: |
-         7af4a361a62f59b44ec301f21090823365dd0244 net: dsa: mv88e6xxx: Improve isolation of standalone ports
-         bb03b280e0c307c1da48ff9c6751d121bd566cd3 net: dsa: mv88e6xxx: Support policy entries in the VTU
-         585d42bb57bb358d48906660a8de273b078810b1 net: dsa: mv88e6xxx: Enable port policy support on 6097
-         d352b20f4174a6bd998992329b773ab513232880 net: dsa: mv88e6xxx: Improve multichip isolation of standalone ports
-         081197591769a7389ef6696bc10f32cd43c0cb6e selftests: net: bridge: Parameterize ageing timeout
-         0947644332cd64a8d04925576d31c68a92620d22 Merge branch 'dsa-mv88e6xxx-port-isolation'
+         62001548a6da1353064e2e889ec3eaa584893f6c net: dsa: mv88e6xxx: add mv88e6352_g2_scratch_port_has_serdes()
+         d4ebf12bcec45378f6b3badb63806761e10a4596 net: dsa: mv88e6xxx: populate supported_interfaces and mac_capabilities
+         2ee84cfefb1e72541d3981e0255fba1dee907ff7 net: dsa: mv88e6xxx: convert to phylink_generic_validate()
+         7f7d32bc2608075bba1055b0c8dcd8499643a814 net: dsa: mv88e6xxx: improve 88e6352 serdes statistics detection
+         9c30918925d7992a6d812b3aa7e026839723c78a Merge branch 'dsa-mv88e6xxx-phylink_generic_validate'
          
