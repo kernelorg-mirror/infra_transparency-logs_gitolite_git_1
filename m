@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5466805976574710294=="
+Content-Type: multipart/mixed; boundary="===============7508740761743836209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 03 Feb 2022 16:35:56 -0000
-Message-Id: <164390615698.13387.15238264657312523256@gitolite.kernel.org>
+Date: Thu, 03 Feb 2022 17:00:40 -0000
+Message-Id: <164390764079.29803.14042933222088951644@gitolite.kernel.org>
 
---===============5466805976574710294==
+--===============7508740761743836209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: 52dae93f3bad842c6d585700460a0dea4d70e096
     new: 9c30918925d7992a6d812b3aa7e026839723c78a
     log: revlist-52dae93f3bad-9c30918925d7.txt
 
---===============5466805976574710294==
+--===============7508740761743836209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ d4ebf12bcec45378f6b3badb63806761e10a4596 net: dsa: mv88e6xxx: populate supported
 7f7d32bc2608075bba1055b0c8dcd8499643a814 net: dsa: mv88e6xxx: improve 88e6352 serdes statistics detection
 9c30918925d7992a6d812b3aa7e026839723c78a Merge branch 'dsa-mv88e6xxx-phylink_generic_validate'
 
---===============5466805976574710294==--
+--===============7508740761743836209==--
