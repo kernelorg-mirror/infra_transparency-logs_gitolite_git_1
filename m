@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Feb 2022 19:29:21 -0000
-Message-Id: <164400296194.32062.8111553747308575145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 04 Feb 2022 19:32:45 -0000
+Message-Id: <164400316524.2566.17120558889881012669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: b5e975d256dbfebd62413eb04fbff6803f02a43c
-    new: 976a38e05a49f401cf9ae3ae20273db6d69783cf
+  - ref: refs/heads/master
+    old: f9a2d639ee349ef91a4ce34b41e4b6ac10997851
+    new: 7e735e6056859ecad555f6080244b2b83bb731e6
     log: |
-         e70e13e7d4ab8f932f49db1c9500b30a34a6d420 bpf: Implement bpf_core_types_are_compat().
-         976a38e05a49f401cf9ae3ae20273db6d69783cf selftests/bpf: Test bpf_core_types_are_compat() functionality.
+         60db27d48fd2072536c3f8c9111e5ea56a34bd0b settings: add l_settings_clone
+         70f91a95361e1ff6c1aa4a612a5adaddb447ab08 unit: add settings test for clone APIs
+         7e735e6056859ecad555f6080244b2b83bb731e6 settings: add l_settings_remove_embedded_groups
          
