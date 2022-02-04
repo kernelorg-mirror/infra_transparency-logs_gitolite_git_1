@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8012187787379235904=="
+Content-Type: multipart/mixed; boundary="===============2369569672510661956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 04 Feb 2022 21:54:28 -0000
-Message-Id: <164401166884.31390.1619165457107710327@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 21:54:31 -0000
+Message-Id: <164401167110.31495.11485206056444836694@gitolite.kernel.org>
 
---===============8012187787379235904==
+--===============2369569672510661956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.18
-    old: 72c370dfbd58b1fe3a7faecabafd6d91213d9ecc
-    new: 96b34a6ea7d03876fb9b82ac8db5648a24fc7b2e
-    log: revlist-72c370dfbd58-96b34a6ea7d0.txt
+  - ref: refs/heads/for-next
+    old: 6cd71eb2c65ecc7cb0e950bff0a23dfc8cc70cb7
+    new: e1f4015c2db366b9905c3d82f478e014a34e7360
+    log: revlist-6cd71eb2c65e-e1f4015c2db3.txt
 
---===============8012187787379235904==
+--===============2369569672510661956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72c370dfbd58-96b34a6ea7d0.txt
+Content-Disposition: attachment; filename=revlist-6cd71eb2c65e-e1f4015c2db3.txt
 
 171bac46700fcdb2310209dffb382533fe54522a arm64: dts: qcom: sc7180-trogdor: Add "-regulator" suffix to pp3300_hub
 7a86ac04056569bf5ec663fbb02d79c5e304545a arm64: dts: qcom: sc7280-herobrine: Consistently add "-regulator" suffix
@@ -36,5 +36,6 @@ bbef2a9ca08749c89925d2bb49f4ce1c945acc90 arm64: dts: qcom: sc7280: Fix sort orde
 376e9183c1d1dde6972257a823cf484cc5124b7b arm64: dts: qcom: sc7280: Move pcie1_clkreq pull / drive str to boards
 ad4152d6e2599c62ef012e528acc5e77ca6765c1 arm64: dts: qcom: sc7280: Move dp_hot_plug_det pull from SoC dtsi file
 96b34a6ea7d03876fb9b82ac8db5648a24fc7b2e arm64: dts: qcom: sc7280: Add a blank line in the dp node
+e1f4015c2db366b9905c3d82f478e014a34e7360 Merge branches 'arm64-defconfig-for-5.18', 'arm64-for-5.18', 'drivers-for-5.18', 'dts-for-5.18', 'arm64-fixes-for-5.17' and 'dts-fixes-for-5.17' into for-next
 
---===============8012187787379235904==--
+--===============2369569672510661956==--
