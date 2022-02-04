@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 04 Feb 2022 16:04:01 -0000
-Message-Id: <164399064162.22832.16289882834250425509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
+Date: Fri, 04 Feb 2022 16:06:25 -0000
+Message-Id: <164399078564.25069.7169761476062690523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/ribalda/linux
+user: ribalda
 changes:
-  - ref: refs/heads/jd/defer-irq-mix
-    old: f4a015297fe3fc87aa9aee7fe54a107b0cb0abeb
-    new: e79a90e25c84fd90741e9a6f0350148b27ed617a
+  - ref: refs/heads/uvc-power-v4
+    old: 6bc7d386620575ce2eb3713cfddaa693b522c866
+    new: a848f91e5412b9245cbc32d5c88aa772c4eb9cc5
     log: |
-         e79a90e25c84fd90741e9a6f0350148b27ed617a random: do not take spinlocks in irq handler
+         a848f91e5412b9245cbc32d5c88aa772c4eb9cc5 media: uvcvideo: Do power management granularly
          
