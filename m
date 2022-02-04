@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ribalda/linux
-Date: Fri, 04 Feb 2022 16:06:25 -0000
-Message-Id: <164399078564.25069.7169761476062690523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 04 Feb 2022 16:11:52 -0000
+Message-Id: <164399111217.28348.1741494911178431239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ribalda/linux
-user: ribalda
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/uvc-power-v4
-    old: 6bc7d386620575ce2eb3713cfddaa693b522c866
-    new: a848f91e5412b9245cbc32d5c88aa772c4eb9cc5
+  - ref: refs/heads/jd/no-batch-lock
+    old: b43db859a36cb553102c9c80431fc44618703bda
+    new: c34c28b3d2f7701fed51733cc5254f32d335430b
     log: |
-         a848f91e5412b9245cbc32d5c88aa772c4eb9cc5 media: uvcvideo: Do power management granularly
+         baec3226ad9cc2b906e0ce0d666041cbc40b66aa random: continually use hwgenerator randomness
+         32a609dbc32254e8873f4537002681a0336cb843 random: wake up /dev/random writers after zap
+         4ec7fec65414a887f34c518f4d02fda180a3e1ce random: access primary_pool directly rather than through pointer
+         d0ce7cdf36d13fb08efe79ca5c2f55153c85dc56 random: only call crng_finalize_init() for primary_crng
+         107307cbac3871a1b26088d4865de57ae9b50032 random: use computational hash for entropy extraction
+         33ebfd98652cc5ab321a3ef00c89227523f5ef24 random: simplify entropy debiting
+         d526f4aada841486a0318208aa3d02a45f6390f2 random: use linear min-entropy accumulation crediting
+         3d8fad541d394c2b19a9953a895f0e2aba5f2d6a random: make credit_entropy_bits() always safe
+         c34c28b3d2f7701fed51733cc5254f32d335430b random: remove batched entropy locking
          
