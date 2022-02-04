@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2998099958657178772=="
+Content-Type: multipart/mixed; boundary="===============1946987089377908746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 04 Feb 2022 15:44:40 -0000
-Message-Id: <164398948064.8337.12097368206596051060@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 15:44:48 -0000
+Message-Id: <164398948879.8526.8608360576720144008@gitolite.kernel.org>
 
---===============2998099958657178772==
+--===============1946987089377908746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: f96fedcdb838f46c8c523698425a32e9ee233a5f
     new: a8b309ce9760943486e0585285e0125588a31650
     log: revlist-f96fedcdb838-a8b309ce9760.txt
 
---===============2998099958657178772==
+--===============1946987089377908746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ d7f17b661fe947719500f8b3296f7f02113e8951 dt-bindings: arm,cci-400: Add interrupt
 97709d365bbd68056ace43ef47ad8aaf40f44855 ASoC: dt-bindings: Centralize the 'sound-dai' definition
 a8b309ce9760943486e0585285e0125588a31650 scripts/dtc: Call pkg-config POSIXly correct
 
---===============2998099958657178772==--
+--===============1946987089377908746==--
