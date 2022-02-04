@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-Date: Fri, 04 Feb 2022 16:20:46 -0000
-Message-Id: <164399164627.1798.3195243482080620768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 04 Feb 2022 16:32:50 -0000
+Message-Id: <164399237063.9800.14151354831244686105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
-user: nsaenz
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/pcplists-rcu-drain-v2
-    old: e9cf0cf7350d896467c359e71e0b2c03ba338778
-    new: 8c951405c90914745c7cd024ad821c6582cce30b
+  - ref: refs/heads/atomics/fixes/fallback-acqrel-32bit
+    old: 4afb057703a28cc6f2781d433f46c1298eb607fb
+    new: 4f33d664b6d2a161ce04f171537e828f10da7c11
     log: |
-         8c951405c90914745c7cd024ad821c6582cce30b mm/page_alloc: Add remote draining support to per-cpu lists
+         4f33d664b6d2a161ce04f171537e828f10da7c11 atomics: fix atomic64_{read_acquire,set_release} fallbacks
          
