@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7101834844291307759=="
+Content-Type: multipart/mixed; boundary="===============2967042931506449062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 04 Feb 2022 09:19:18 -0000
-Message-Id: <164396635878.27096.15960855567427089516@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 09:19:20 -0000
+Message-Id: <164396636032.27227.16144418407345093423@gitolite.kernel.org>
 
---===============7101834844291307759==
+--===============2967042931506449062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 09130ca01051e28b30667bc388bc91158391473e
-    new: 847fbfddce327344933153bb39a4379b080bede7
-    log: revlist-09130ca01051-847fbfddce32.txt
+  - ref: refs/heads/linux-5.15.y
+    old: da132a56339ef34a965cb7c8b552c8c8c450d7f4
+    new: f9f964a41af31368d0ba1a26afd712cffde46197
+    log: revlist-da132a56339e-f9f964a41af3.txt
 
---===============7101834844291307759==
+--===============2967042931506449062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643966357 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643966358 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643966356-0909ee4424c54af9905cdd5b8e7b979daf9d65a8
+nonce 1643966357-c2fda3e6adf25509fcc1938049fe0884de5c9d66
 
-09130ca01051e28b30667bc388bc91158391473e 847fbfddce327344933153bb39a4379b080bede7 refs/heads/linux-5.10.y
+da132a56339ef34a965cb7c8b552c8c8c450d7f4 f9f964a41af31368d0ba1a26afd712cffde46197 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH875UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mAwP/27mU9f0/WaR0+WLIcYh
-FuA2wRVH2LcUrhfgQDWxo7K5dC88gk+7N3XgKb2/MkoGfHehUf0kbMhfdkOoi93d
-KHkXlsWNRuxbfhPQbnM4W9CF9CnVufks0T+tR/iRQ3KbMCN1sdbB/8Hx3NyE9W7O
-xdezCjAGsRbn7PkalvS/7iYq1gsSEa9NknY4l8rgeZ/ruuib0Zj04BIonVnG7OnF
-bnoRPnMzTBmedWWlTeb4z8vKIZv6jnPkh9/kKC+Vbr5fZL3IV4tbi0zdDCRjoWB3
-b51SzGbIqBy35IgdxuP1JssJNuP+8CcjEoua2+39Fj8vivGMWBBSMIb5YOVloPF5
-Vaq8Lg7CDdn2K8k6TE+tXGGtKZ6AZ3m8QrwHlNDr3ZnAIcb+nKXvZ6TbqrIhVLAM
-JnMon04MLEXCFognok4DSfAt1OdQ0kgAK1axNiE3n0YmrIrEHJg/cWDjicIh8dPj
-WBrL3nEyU3dpvPmmGpU7NkVsR2kZZzkR69RV7/reofTQ2hxZo3qfwit3/edwLvd6
-tZyhZxiNjxDUux3O+MvsntTMw9PQLWthXmWX51+U8vFGMuT+Qd/stVUjzoS9zBPR
-TPrws6n0dqp8fx2pAHps56e1V//9YHb/C/ed9FotpVbj7hkPw9WPfsr0lp3D9EQC
-3BscuhJ2YaNQ+ivTIDfOCvy/
-=spA3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH875YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UAYQAIy1+C/kurl73qPUuu5h
+pvfE6oec7Xsxr3sFiWE20vOA9hY5cYrNGCkVj5bAFfr5tcIVl+QDrOaB4rU7UR/d
+EHLDS5RmjsY2ZK/BNMdKbsSDiirx4vaC9hAhzbg1PY4Z+mh6syw38Px2SVrH+2sj
+j6BCobB14BdFbEqcYy6k/+ZJ86Xnt9eay+qeZ2N/Yy9i0kJldkMwDLJPIju8VIG9
+814bh8H10BKN6TIUaJ9PEuOZZCoZPbW+eTBsOxNJXwLm7tpeYp8IopF9gqzY1lVd
+Vebp81VNXfsjZ0QbNcYYlvQqjKbSUwvIu01NGomXGVNlu08DwCymKJz9JRyZvEwM
+SB+YL9bw6TvHBZkdB5sio5N2RbTG6C/vdWQ4rasFA0qVvXOYQMXUZS5eY5kK6A4x
+nqyPEkmJGL+iJJH6w5A1PJNhi0q9Lvx05MA4TnTecG3fCKPnXdy0y/QS/zqdOeLR
+AiyCv6/Nd0hGESO6PfuiNTLiDSvjN5pnqhqKccEew+APLGsIA6u4Wn8rSQWS/9nS
+77R4cfUu2AuNCJnCALoa3wBvHb9noGyqzk2G3DNX8LUTGJXqZRPDp4FSvHM+tJXA
+Ynes89Z+haBbhuOEIflSkz6RvzWShIOQwPHiryPYEK1soAU0D5Msxg2ZFSwQyn8T
+bnoStVr4Q2QHxg5Z+15Aqhwo
+=TXLD
 -----END PGP SIGNATURE-----
 
---===============7101834844291307759==
+--===============2967042931506449062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09130ca01051-847fbfddce32.txt
+Content-Disposition: attachment; filename=revlist-da132a56339e-f9f964a41af3.txt
 
-5644439bb582c3ec906d9b22732e8ed15cb3c314 PCI: pciehp: Fix infinite loop in IRQ handler upon power fault
-a992027c97f7b22d9bd4e01175a5c4d794014ef0 net: ipa: fix atomic update in ipa_endpoint_replenish()
-b2f48b819fb9c2fd315123da154aa008e0bd5fd3 net: ipa: use a bitmap for endpoint replenish_enabled
-9e1b4e8d985e98ffb0e6fc6bf5b9c2d350b73f49 net: ipa: prevent concurrent replenish
-b3f54a2e129fc38b3e83d959943387fdd8d4ea19 Revert "drivers: bus: simple-pm-bus: Add support for probing simple bus only devices"
-ea280184d104d8618c9b4a06920161229c2a0bbc KVM: x86: Forcibly leave nested virt when SMM state is toggled
-d589098323a9e771c15b2322f9db5bf3a6068047 psi: Fix uaf issue when psi trigger is destroyed while being polled
-b5b03ae48e8a6c35b7429f7c8ffc0af5937f592c perf: Rework perf_event_exit_event()
-56f8bf9b3e3c2b10131664bb2d02874484b80312 perf/core: Fix cgroup event list management
-a179e6f0c7a7e46d5a68e9274f49ba20dca3d812 x86/mce: Add Xeon Sapphire Rapids to list of CPUs that support PPIN
-f0166480598458c414436a42a757f40d50286381 x86/cpu: Add Xeon Icelake-D to list of CPUs that support PPIN
-c5099bdb440fb9041346db16d8e7d59f29428aae drm/vc4: hdmi: Make sure the device is powered with CEC
-a145ab8745fc135662963b8c1f21c9ba72dc6fa6 cgroup-v1: Require capabilities to set release_agent
-319248e9df01e855ea416ebfe56bff276d926b5d net/mlx5e: Fix handling of wrong devices during bond netevent
-943830ea6bf85574cfd480ca85e57b96a9a143a1 net/mlx5: Use del_timer_sync in fw reset flow of halting poll
-5757f6f76d4bcf93822895fc1afa6e6570b314ef net/mlx5: E-Switch, Fix uninitialized variable modact
-664701e983d26880243206e0acbdb47683cac2a8 ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
-bfa3fd497d3939e439ffcd967e01c5ee4969574c net: amd-xgbe: ensure to reset the tx_timer_active flag
-b013d07ed8db36d89b04350b3fdaf5850ab8b930 net: amd-xgbe: Fix skb data length underflow
-0fc96dd34bf4eb06e97ccabd9e2fabd2f2b1ceef fanotify: Fix stale file descriptor in copy_event_to_user()
-6e7c4da625069a6b24a1ff9a9a1793c170619b4d net: sched: fix use-after-free in tc_new_tfilter()
-885278d7a286e7f395e3b458c8457f6807e3476c rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
-0a68b73712fface20c93fb2cb0b0f2110cf0ffff cpuset: Fix the bug that subpart_cpus updated wrongly in update_cpumask()
-3a17e53642562164fe7d04ae5bd81d4656b7363f af_packet: fix data-race in packet_setsockopt / packet_setsockopt
-11294273314a7590a72eaacdddf9e7a41e738cb9 tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
-847fbfddce327344933153bb39a4379b080bede7 Linux 5.10.97-rc1
+42635a223305a5ecce9f263f658f2904e73ea7d5 PCI: pciehp: Fix infinite loop in IRQ handler upon power fault
+165c6b13e2799f81863faf1d4b9c1b4f68777179 selftests: mptcp: fix ipv6 routing setup
+1801459cf6e5b2ee27d440908a826146ae76cf81 net: ipa: use a bitmap for endpoint replenish_enabled
+becd1f73a6567eb874ca9b0149e8dc4327d34829 net: ipa: prevent concurrent replenish
+3206cdca4c39a2337538dcb12fae46c3ff97c11c drm/vc4: hdmi: Make sure the device is powered with CEC
+035dc889753de7947a18d0bec69504a2e4decf0d cgroup-v1: Require capabilities to set release_agent
+c0dfa71383a100dd67c45b385a5486c38f7bda01 Revert "mm/gup: small refactoring: simplify try_grab_page()"
+33f5f92d2bea742a1a7a4a72a0ef78a2d605d5ca ovl: don't fail copy up if no fileattr support on upper
+e21b1d54b4f1adfeb5f99b18d7ab0822baae2839 lockd: fix server crash on reboot of client holding lock
+ea1119102ab9ff5dcf54db8a36556e63dbdd29b3 lockd: fix failure to cleanup client locks
+944142b4639550a8a3001b61bf679d9259dbd4ec net/mlx5e: IPsec: Fix tunnel mode crypto offload for non TCP/UDP traffic
+0d9209e5255238f2c81a677bf0b93de5ad6895dd net/mlx5: Bridge, take rtnl lock in init error handler
+4370b5fdfe2a47a8fc3a5e23c1d1742bdc360a2b net/mlx5: Bridge, ensure dev_name is null-terminated
+4f589559829134142576e8af761f5bad4b4e4908 net/mlx5e: Fix handling of wrong devices during bond netevent
+a80246417a3e76ca3adae2608c41ab11ada0a3d4 net/mlx5: Use del_timer_sync in fw reset flow of halting poll
+f8317a0a330e52c628a9c07bd06f770ef2c94862 net/mlx5e: Fix module EEPROM query
+abfee162300a50871a72e9df643d0a2d0aa74346 net/mlx5: Fix offloading with ESWITCH_IPV4_TTL_MODIFY_ENABLE
+7f038cdb57fc4aa3aaf43529ab7681381803b5c9 net/mlx5e: Don't treat small ceil values as unlimited in HTB offload
+e367f41a9edc92e6a99e09849353f6dbc56a60ac net/mlx5: Bridge, Fix devlink deadlock on net namespace deletion
+aef28bd984e3dbedf9bc2d056cdeb28184f46bcd net/mlx5: E-Switch, Fix uninitialized variable modact
+09270d8e0f9bc4a6193e27ebe0135dd07ec95fd4 ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
+d2998a872b20fbbe10e0defb81aadcd0313787eb i40e: Fix reset bw limit when DCB enabled with 1 TC
+87b38ffad22ae234bca7fa517dbd0fe750a8967e i40e: Fix reset path while removing the driver
+e840852a437f81fd5a7fb5201f0bf3414a2044c3 net: amd-xgbe: ensure to reset the tx_timer_active flag
+0c651ddf099911bea79039a5cff6419207f51db7 net: amd-xgbe: Fix skb data length underflow
+58a758ea8d929bbd85dcccd85812b4d29333e3fb fanotify: Fix stale file descriptor in copy_event_to_user()
+6a919539d4f893a3e4da111f85f84939649a9ce3 net: sched: fix use-after-free in tc_new_tfilter()
+9c1b177867abd4c8fc4af968c606fc8e6146bdaf rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
+91f19ff8921fc57c868ca17b8a40f4bd530e33df cpuset: Fix the bug that subpart_cpus updated wrongly in update_cpumask()
+f1900d8354af9792dab1bc37437cf69cd65781ed e1000e: Handshake with CSME starts from ADL platforms
+347303993d012d14574f1f5efd09084b971254d2 af_packet: fix data-race in packet_setsockopt / packet_setsockopt
+f2ef3b8cb2e195ae03be85643ecd9239be50755e tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
+f9f964a41af31368d0ba1a26afd712cffde46197 Linux 5.15.20-rc1
 
---===============7101834844291307759==--
+--===============2967042931506449062==--
