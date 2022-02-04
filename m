@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Fri, 04 Feb 2022 16:03:11 -0000
-Message-Id: <164399059184.22466.16893048545569530178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 04 Feb 2022 16:04:01 -0000
+Message-Id: <164399064162.22832.16289882834250425509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: e23aa8174d6a1242d81491ce30f10a8d5f9acb10
-    new: b65c1fc07d4794920224312c56c785de2f3f1692
+  - ref: refs/heads/jd/defer-irq-mix
+    old: f4a015297fe3fc87aa9aee7fe54a107b0cb0abeb
+    new: e79a90e25c84fd90741e9a6f0350148b27ed617a
     log: |
-         b65c1fc07d4794920224312c56c785de2f3f1692 t/io_uring: fix warnings for !ARCH_HAVE_CPU_CLOCK
+         e79a90e25c84fd90741e9a6f0350148b27ed617a random: do not take spinlocks in irq handler
          
