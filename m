@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 04 Feb 2022 20:33:30 -0000
-Message-Id: <164400681093.9358.17506882458412349080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 04 Feb 2022 20:40:54 -0000
+Message-Id: <164400725498.14492.6988126962335430821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: c2c0bff891927d9a7ed3820671822ffab5f0f556
-    new: 3f72b45150a50c99f344bbcfb4e19e360b85555f
+  - ref: refs/heads/jd/defer-irq-mix
+    old: e79a90e25c84fd90741e9a6f0350148b27ed617a
+    new: 342bd7b05d9681ef93ab83d2fd052cbbb21efbf7
     log: |
-         7083cad2fb42fbd9640ee55df4225d921a83e2d0 mesh: Make key_aid and net_key_id naming consistent
-         3f72b45150a50c99f344bbcfb4e19e360b85555f mesh: Skip unneeded logs
+         342bd7b05d9681ef93ab83d2fd052cbbb21efbf7 random: do not take spinlocks in irq handler
          
