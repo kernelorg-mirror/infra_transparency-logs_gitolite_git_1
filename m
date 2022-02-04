@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8412323716328543478=="
+Content-Type: multipart/mixed; boundary="===============7267774661991006584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 04 Feb 2022 14:36:21 -0000
-Message-Id: <164398538102.25783.18394156348162410851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 04 Feb 2022 14:38:15 -0000
+Message-Id: <164398549589.26606.17403851155271704189@gitolite.kernel.org>
 
---===============8412323716328543478==
+--===============7267774661991006584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd
-    new: 28cb138f559f8c1a1395f5564f86b8bbee83631b
+  - ref: refs/heads/driver-core-testing
+    old: 13e906e50a8cf6033f22c03c4d772e36a9e02c6b
+    new: 8f2d116045431f66de85760e7c83918d741f5533
     log: |
-         61cc70d9e8ef5b042d4ed87994d20100ec8896d9 vt_ioctl: fix array_index_nospec in vt_setactivate
-         28cb138f559f8c1a1395f5564f86b8bbee83631b vt_ioctl: add array_index_nospec to VT_ACTIVATE
+         8f2d116045431f66de85760e7c83918d741f5533 devtmpfs: drop redundant fs parameters from internal fs
          
 
---===============8412323716328543478==
+--===============7267774661991006584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643985379 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643985378-7c72351f2bd314c25f34eedf5f07eea7b604a2d3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643985494 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1643985493-d11d32ecf067f81e0eafc31b4450f2412ad703e9
 
-5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd 28cb138f559f8c1a1395f5564f86b8bbee83631b refs/heads/tty-linus
+13e906e50a8cf6033f22c03c4d772e36a9e02c6b 8f2d116045431f66de85760e7c83918d741f5533 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9OeMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B3oP+wdnw6IY4kQh3CCxykx+
-LZMDHu0CHH4R4CCayDweMy9dR6vh7vF30B8lwfpyTdMf2CFfxpt+OnSlf8O4edyH
-C3T/MiPKlA2mOum5TBAnxI973BRUXussDXXhHUZQL1bWtJibg2/yRt54nYxVndgE
-T7cobAj1l+VFZDktUt0ouQYn2Fd8xQBxDr3giyFIgatjVJVcg+0QBMaCyQVwyWMX
-OAAMWPbgMKoUd7gk2Sbv3E7g2jVrfMmyRB5LOpqdvvdwWJ0s64riMAH8lQ6kG+4v
-uxGg/N5d/qaBf018MTUwJ+x4abAoI62KiIobTIJ1JQxsRHDX3a5iZ9pevjpyPWMl
-G2OMvtzGQ0is/bJCGzhw5UT5ZBhsQhfMlrG6PWbMHXLtm5hUw587LhE42BkhlWhX
-/HL6LwjiRVaJjJcSm/WFaBLW/bDH5RUIM0CQmf3315H93PF1oynmMAKFyY7qZjj5
-SVSdNl89SBuDSgWaQCo3oAHjjiIkYfyy58NILGifdOD0/cSHpIcO73nj/vywZU2l
-jAeWA382ZFL3TtF6NvFnOPYJgRTaa09C4mfpCKhf5+kYbN9jyzxboArZw5/+GZ3P
-aFsERbukhnA6nqLp134whpoXri0pVf/BDYQQwDEWzcm6r6qmEsDC0s16Hwg5xv0j
-xwUaoRLgHyM/5VYSUV9tfuJc
-=sDQp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9OlYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iSQQAJWezbpjiv93pqhvN35Q
+03nrUvK5JwSCTKokVElEynr4jV9GScS8qUMKKTZBWDuc7pAAnVvPHSQ8smEg9QwG
+XufFnGAKjx9/uSII71mjepitQaRA8lmVSEGoPSlLTGcosRHMfl/jIpHwk4AyZAho
+tj6PkJgYWb2zFTCbVD61E0Ll7376zEoemkczOLPF4cupZBp376HE/qhrW8baB6vu
+OVbcZHlXAQyIYsp5CUkJDXIzGqsog44+iAqJPeAUXd2w8u2QYZHym/O3tevzE6aK
+8PZNAskCsS9/MlAl2MX4NjKWLQAl/UB1850SB9845vhdloULFrrUakyM8dYRUz53
+cPK7hrsM9f/MfHNMCP/sVgqHn8GYS1P7lQLHEwWRa5zCAclvqf2lKTNltpIPXzfb
+6S8TItYEBHsBO28UoZ+jBHdwAsoP37ldcBjoSdcDz/ohsrShG47YEpHeURJd0SXn
+alm8nrxaMxwLzdFnsfeKck8WUZQ6n6sS9dpROw+HhTUzoMzbFKQGA4FONg7b6VuO
+q0ZxXhNLz69Mm2RFPntcK5Jd8IPPlQztCrvwXFmL+7iETci0FUykG/UF0Txca8CD
+/F4LSs69AXMpzUjVn9yTud98Fgz+xYCGsuveoBmkHJrkQGNvhvjbJzx7GTbeEnj0
+QV+DgMQEYXncZcWK5R8OSuQX
+=6xVH
 -----END PGP SIGNATURE-----
 
---===============8412323716328543478==--
+--===============7267774661991006584==--
