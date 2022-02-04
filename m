@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 04 Feb 2022 17:54:59 -0000
-Message-Id: <164399729988.815.17168229653881678412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 04 Feb 2022 17:57:03 -0000
+Message-Id: <164399742336.2993.5880041740456371748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: a8b309ce9760943486e0585285e0125588a31650
-    new: d029175f1420931e8d855868d264c4685687f3fd
+  - ref: refs/heads/bleeding-edge
+    old: b7d5c3e94e08efa80853533573f61cd8afae3e60
+    new: 8036d9ea130ffd7b10e97d085623244f39715014
     log: |
-         d029175f1420931e8d855868d264c4685687f3fd MAINTAINERS: dt-bindings: Add Krzysztof Kozlowski
+         38b16d6cfe54c820848bcfc999bc5e8a7da1cefb thermal: int340x: Check for NULL after calling kmemdup()
+         8036d9ea130ffd7b10e97d085623244f39715014 Merge branch 'thermal-int340x' into bleeding-edge
          
