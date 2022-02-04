@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 04 Feb 2022 05:04:05 -0000
-Message-Id: <164395104576.28573.14139766659502489980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Fri, 04 Feb 2022 05:05:29 -0000
+Message-Id: <164395112988.30551.5729938584504338095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/master
-    old: b9b3aaaac0b4031bc86b24d581927467895e95f3
-    new: ffc623f399047226a47e06a5bf9485f87a546987
+  - ref: refs/heads/devel
+    old: 4c13e2f9afce43aef0685eb559a8fc64dc40aa03
+    new: 4ab10f786a6d05b93cffeaa8ad2497a49d494ee5
     log: |
-         ffc623f399047226a47e06a5bf9485f87a546987 Fri Feb  4 05:03:03 AM UTC 2022
+         43501c3650a948b2761fd01bb27ac1a35d0b2f8c tty: serial, add uart_port_tx helper
+         c76d9e8f011098bd5e9eafd750fe589c04ef06e1 tty: serial, use uart_port_tx
+         4ab10f786a6d05b93cffeaa8ad2497a49d494ee5 tty: serial, use uart_port_tx_limit
          
