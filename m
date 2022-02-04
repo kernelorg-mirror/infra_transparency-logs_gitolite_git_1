@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2967042931506449062=="
+Content-Type: multipart/mixed; boundary="===============0635072216965253197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 04 Feb 2022 09:19:20 -0000
-Message-Id: <164396636032.27227.16144418407345093423@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 09:19:21 -0000
+Message-Id: <164396636125.27331.8615371317070810686@gitolite.kernel.org>
 
---===============2967042931506449062==
+--===============0635072216965253197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,92 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: da132a56339ef34a965cb7c8b552c8c8c450d7f4
-    new: f9f964a41af31368d0ba1a26afd712cffde46197
-    log: revlist-da132a56339e-f9f964a41af3.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 57a5835850f231af0efa57863366019bd8075366
+    new: 55a655b756efddf87c3b46ae7cafcba421ac87bc
+    log: revlist-57a5835850f2-55a655b756ef.txt
 
---===============2967042931506449062==
+--===============0635072216965253197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643966358 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643966359 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1643966357-c2fda3e6adf25509fcc1938049fe0884de5c9d66
+nonce 1643966358-586208bb3779d825d9690c7e5d492d350ecf2605
 
-da132a56339ef34a965cb7c8b552c8c8c450d7f4 f9f964a41af31368d0ba1a26afd712cffde46197 refs/heads/linux-5.15.y
+57a5835850f231af0efa57863366019bd8075366 55a655b756efddf87c3b46ae7cafcba421ac87bc refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH875YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UAYQAIy1+C/kurl73qPUuu5h
-pvfE6oec7Xsxr3sFiWE20vOA9hY5cYrNGCkVj5bAFfr5tcIVl+QDrOaB4rU7UR/d
-EHLDS5RmjsY2ZK/BNMdKbsSDiirx4vaC9hAhzbg1PY4Z+mh6syw38Px2SVrH+2sj
-j6BCobB14BdFbEqcYy6k/+ZJ86Xnt9eay+qeZ2N/Yy9i0kJldkMwDLJPIju8VIG9
-814bh8H10BKN6TIUaJ9PEuOZZCoZPbW+eTBsOxNJXwLm7tpeYp8IopF9gqzY1lVd
-Vebp81VNXfsjZ0QbNcYYlvQqjKbSUwvIu01NGomXGVNlu08DwCymKJz9JRyZvEwM
-SB+YL9bw6TvHBZkdB5sio5N2RbTG6C/vdWQ4rasFA0qVvXOYQMXUZS5eY5kK6A4x
-nqyPEkmJGL+iJJH6w5A1PJNhi0q9Lvx05MA4TnTecG3fCKPnXdy0y/QS/zqdOeLR
-AiyCv6/Nd0hGESO6PfuiNTLiDSvjN5pnqhqKccEew+APLGsIA6u4Wn8rSQWS/9nS
-77R4cfUu2AuNCJnCALoa3wBvHb9noGyqzk2G3DNX8LUTGJXqZRPDp4FSvHM+tJXA
-Ynes89Z+haBbhuOEIflSkz6RvzWShIOQwPHiryPYEK1soAU0D5Msxg2ZFSwQyn8T
-bnoStVr4Q2QHxg5Z+15Aqhwo
-=TXLD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH875cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y8gP/1cawT6kCXpSjlPPSQYB
+v9P6Uydi+CLoOxOGRpngH+KcaVYOUEq5JpyJ8pQYPOQ32u8LJ9yp2Kr6R6c4my6I
+cl6oDBgKI7vdhvqoSjHE2oOnWHfZhZ2CYWDtHuumvpYgpQswpEfuP5WKN6QPmNZ2
+f3gnf2Tk9nie9je7XycDxC7NLdEx/2aD6R8OrBqi9sWZkjai+lIT07oUD020syfe
+WBTWviWctDXXD93+VN2YrY9gB6yB4khMi73zOiX7X6HxL0OWLX+oxXjD3J518TEq
+8NXWMRcryg93cr0ts3vQATAP70/k9AdoVTJIEv9QgsjCzroeNfBerbMzPf3isicB
+AzieZHYwB0xulf6eAdjyH+8oxBPt/IdbmyfCHYrx81DvKsQWfEHc/OyIPvqhsbMH
+E+EYLADmx9rtCCgvzOgd7owStCS6EAou7GbWoP508y81UKFY2cw7R29ZOEs8cEEf
+1kDwR2EpLXDDFUclcQoPLoUkxTmAojWeBscL3IItUUhbFU3wc2uvfU5KSdFLN3sU
+he7L/EfM+ldmD+A25/L6ATj8Zc2zF7xkrD7Bm7QDxqgP+jX12Bifjk2sKWRyHFy4
+HhXN1C1y8fgYNL9MupcCABqrbLe047oMbCOo+HlOC88ACdatxaB9SywU6nR36se4
+d3+GknonbyHlrnfSo3IUZ2U3
+=0X3i
 -----END PGP SIGNATURE-----
 
---===============2967042931506449062==
+--===============0635072216965253197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da132a56339e-f9f964a41af3.txt
+Content-Disposition: attachment; filename=revlist-57a5835850f2-55a655b756ef.txt
 
-42635a223305a5ecce9f263f658f2904e73ea7d5 PCI: pciehp: Fix infinite loop in IRQ handler upon power fault
-165c6b13e2799f81863faf1d4b9c1b4f68777179 selftests: mptcp: fix ipv6 routing setup
-1801459cf6e5b2ee27d440908a826146ae76cf81 net: ipa: use a bitmap for endpoint replenish_enabled
-becd1f73a6567eb874ca9b0149e8dc4327d34829 net: ipa: prevent concurrent replenish
-3206cdca4c39a2337538dcb12fae46c3ff97c11c drm/vc4: hdmi: Make sure the device is powered with CEC
-035dc889753de7947a18d0bec69504a2e4decf0d cgroup-v1: Require capabilities to set release_agent
-c0dfa71383a100dd67c45b385a5486c38f7bda01 Revert "mm/gup: small refactoring: simplify try_grab_page()"
-33f5f92d2bea742a1a7a4a72a0ef78a2d605d5ca ovl: don't fail copy up if no fileattr support on upper
-e21b1d54b4f1adfeb5f99b18d7ab0822baae2839 lockd: fix server crash on reboot of client holding lock
-ea1119102ab9ff5dcf54db8a36556e63dbdd29b3 lockd: fix failure to cleanup client locks
-944142b4639550a8a3001b61bf679d9259dbd4ec net/mlx5e: IPsec: Fix tunnel mode crypto offload for non TCP/UDP traffic
-0d9209e5255238f2c81a677bf0b93de5ad6895dd net/mlx5: Bridge, take rtnl lock in init error handler
-4370b5fdfe2a47a8fc3a5e23c1d1742bdc360a2b net/mlx5: Bridge, ensure dev_name is null-terminated
-4f589559829134142576e8af761f5bad4b4e4908 net/mlx5e: Fix handling of wrong devices during bond netevent
-a80246417a3e76ca3adae2608c41ab11ada0a3d4 net/mlx5: Use del_timer_sync in fw reset flow of halting poll
-f8317a0a330e52c628a9c07bd06f770ef2c94862 net/mlx5e: Fix module EEPROM query
-abfee162300a50871a72e9df643d0a2d0aa74346 net/mlx5: Fix offloading with ESWITCH_IPV4_TTL_MODIFY_ENABLE
-7f038cdb57fc4aa3aaf43529ab7681381803b5c9 net/mlx5e: Don't treat small ceil values as unlimited in HTB offload
-e367f41a9edc92e6a99e09849353f6dbc56a60ac net/mlx5: Bridge, Fix devlink deadlock on net namespace deletion
-aef28bd984e3dbedf9bc2d056cdeb28184f46bcd net/mlx5: E-Switch, Fix uninitialized variable modact
-09270d8e0f9bc4a6193e27ebe0135dd07ec95fd4 ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
-d2998a872b20fbbe10e0defb81aadcd0313787eb i40e: Fix reset bw limit when DCB enabled with 1 TC
-87b38ffad22ae234bca7fa517dbd0fe750a8967e i40e: Fix reset path while removing the driver
-e840852a437f81fd5a7fb5201f0bf3414a2044c3 net: amd-xgbe: ensure to reset the tx_timer_active flag
-0c651ddf099911bea79039a5cff6419207f51db7 net: amd-xgbe: Fix skb data length underflow
-58a758ea8d929bbd85dcccd85812b4d29333e3fb fanotify: Fix stale file descriptor in copy_event_to_user()
-6a919539d4f893a3e4da111f85f84939649a9ce3 net: sched: fix use-after-free in tc_new_tfilter()
-9c1b177867abd4c8fc4af968c606fc8e6146bdaf rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
-91f19ff8921fc57c868ca17b8a40f4bd530e33df cpuset: Fix the bug that subpart_cpus updated wrongly in update_cpumask()
-f1900d8354af9792dab1bc37437cf69cd65781ed e1000e: Handshake with CSME starts from ADL platforms
-347303993d012d14574f1f5efd09084b971254d2 af_packet: fix data-race in packet_setsockopt / packet_setsockopt
-f2ef3b8cb2e195ae03be85643ecd9239be50755e tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
-f9f964a41af31368d0ba1a26afd712cffde46197 Linux 5.15.20-rc1
+a7c831c7a5246982ddcfb266938d801ce074db48 Bluetooth: refactor malicious adv data check
+b3e1fde9769a75ee02694682929c1bb128bf6e96 s390/hypfs: include z/VM guests with access control group set
+c7f936ef848719bfacdb77811c4acfb7fb7719ee scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+ac30745f7c40bcb9a5ff1aa93c441f3e1d82eaf6 udf: Restore i_lenAlloc when inode expansion fails
+2547db84674fb68dece8f1eaf857d4686e2a8aa1 udf: Fix NULL ptr deref when converting from inline format
+a5a38b1649fc6ad50c9fe334cf4f08a97f7f0329 PM: wakeup: simplify the output logic of pm_show_wakelocks()
+d36f3ed56c9b4bcf3004d9a61364032a7d6aae1d netfilter: nft_payload: do not update layer 4 checksum when mangling fragments
+1851e086189dba56a48b4e30e684127140d2a1fe serial: stm32: fix software flow control transfer
+e7452035023514e913d45d9c2ecff3527323fdd6 tty: n_gsm: fix SW flow control encoding/handling
+359d518f5b94c0364cac5347b0215065f7550412 tty: Add support for Brainboxes UC cards.
+29bd8f6d19e36c66af182c2ab0c71f2ae3c77f3c usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
+d30af79be10ca27735b5a2c6fba5c8e4a25e7f8e usb: common: ulpi: Fix crash in ulpi_match()
+b8c7e15d4bce15a5d3a035f8c533a8102b0b7724 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
+d557fbe7c5a1db056ac51c770b2fcd663613c8fb USB: core: Fix hang in usb_kill_urb by adding memory barriers
+756610d9e83a471296de782e35eb4ce7b83226ff usb: typec: tcpm: Do not disconnect while receiving VBUS off
+31f76fab546e8fea028e36caec59a5fd0c81c1fd net: sfp: ignore disabled SFP node
+31d0aacd501e6993b8621b2a730de4ee64c8c88f powerpc/32: Fix boot failure with GCC latent entropy plugin
+07b501473fd1fe04634cdbee17844e29181bfe3b lkdtm: Fix content of section containing lkdtm_rodata_do_nothing()
+b6dd376193989082e4310c65d113f7c0c42703a0 i40e: Increase delay to 1 s after global EMP reset
+491a1dea614e13b803fddc53430e6573830dc972 i40e: fix unsigned stat widths
+91ca7f94c70bbbcb9cb814158933fe2f27009079 rpmsg: char: Fix race between the release of rpmsg_ctrldev and cdev
+e1a2274e765ff8af160b486b7c01d72a7899ae66 rpmsg: char: Fix race between the release of rpmsg_eptdev and cdev
+e038c79d20bbe480c0eec09c79df68c31198ee94 scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+1af5597358ce4959eb3f11c5faa84574fcc901f9 ipv6_tunnel: Rate limit warning messages
+ed0b70becc815e4c35f4b432e78fa59d967e3e45 net: fix information leakage in /proc/net/ptype
+9a38af4c15f55f9e01be8b7f8492e4191453ed39 ping: fix the sk_bound_dev_if match in ping_lookup
+802fe4efa3e2230eee3657c634e8e829dcd60cf1 ipv4: avoid using shared IP generator for connected sockets
+44d8b6f46c384d14af7ec8e57ffe458aabd48b27 hwmon: (lm90) Reduce maximum conversion rate for G781
+6ae326a218b2dc2ebab8754b1dd65515691ede4d NFSv4: Handle case where the lookup of a directory fails
+f3bb9904a07dd2d4c994ff0c0931ea3febce6a4e NFSv4: nfs_atomic_open() can race when looking up a non-regular file
+01aed3add0834dd7cee2252e13311c49d825f2ca net-procfs: show net devices bound packet types
+643b27ea7200ee19158d6b0dc320952784c039df drm/msm: Fix wrong size calculation
+ccdcbe1d3ea72a5d006a75555436c1b94fce5fbd drm/msm/dsi: invalid parameter check in msm_dsi_phy_enable
+ff006b0426e189d2141dbd7766aa6acf9db4405b ibmvnic: don't spin in tasklet
+eee927b33fb4b60b64adc4b8edc5aabb97f70e40 yam: fix a memory leak in yam_siocdevprivate()
+bb6d5e5b14b689bfa9d4136cd13ac3dde3300869 ipv4: raw: lock the socket in raw_bind()
+c032377299a84cdae607dc8eca035d8f1b2f2dea ipv4: tcp: send zero IPID in SYNACK messages
+19244924b884fef643c50f3dbfe717351a1bc1bc bpf: fix truncated jump targets on heavy expansions
+3182bc9930fdf6558e7a45a1393e1809a1be522f netfilter: nat: remove l4 protocol port rovers
+43bbc8d0ffcb5b8a467f37896ee6a0f753e16d69 netfilter: nat: limit port clash resolution attempts
+654614730ee751ff719cb535764a5a5792200d1c ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
+c8d7c9b11932cab454bd6d60337548fe40be3218 net: amd-xgbe: ensure to reset the tx_timer_active flag
+6b1ecdc9a6373c4c5bb3bd96b6f2db15d6b59805 net: amd-xgbe: Fix skb data length underflow
+1ea98e933052243e6f21a9d8bdcd1f9ef3221cdb rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
+79b7eea63fabe1dce6771ba1952933b106b2f4f2 af_packet: fix data-race in packet_setsockopt / packet_setsockopt
+55a655b756efddf87c3b46ae7cafcba421ac87bc Linux 4.14.265-rc1
 
---===============2967042931506449062==--
+--===============0635072216965253197==--
