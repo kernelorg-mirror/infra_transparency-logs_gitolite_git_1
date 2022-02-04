@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8022294068070170865=="
+Content-Type: multipart/mixed; boundary="===============4505025070155057903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 04 Feb 2022 18:34:23 -0000
-Message-Id: <164399966303.27303.4065900686326724129@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 18:34:32 -0000
+Message-Id: <164399967217.27482.9860994085313054643@gitolite.kernel.org>
 
---===============8022294068070170865==
+--===============4505025070155057903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9c30918925d7992a6d812b3aa7e026839723c78a
-    new: c531adaf884d313df2729ca94228317a52e46b83
-    log: revlist-9c30918925d7-c531adaf884d.txt
+  - ref: refs/heads/mlx5-queue
+    old: 8dfe5625f5a2949e2f6aea396d3adbe44befd251
+    new: 68208dafa8220a61673d05c08b0eb05398c421e3
+    log: revlist-8dfe5625f5a2-68208dafa822.txt
 
---===============8022294068070170865==
+--===============4505025070155057903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c30918925d7-c531adaf884d.txt
+Content-Disposition: attachment; filename=revlist-8dfe5625f5a2-68208dafa822.txt
 
 879cf8006475642b747aaaa4d06f7044ab2de794 regulator: max20086: fix error code in max20086_parse_regulators_dt()
 d068eebbd4822b6c14a7ea375dfe53ca5c69c776 cgroup/cpuset: Make child cpusets restrict parents on v1 hierarchy
@@ -485,5 +485,39 @@ d0ac30e74ea096d2e2fd4e6ebce1113b8b8e8ada net: ipa: don't use replenish_backlog
 5d6ac24fb10f04681ff584cd1bb5c2ac22ebe417 net: ipa: replenish after delivering payload
 9654d8c462ce24fc39bbecccc4c9b972f5c1b5f5 net: ipa: determine replenish doorbell differently
 c531adaf884d313df2729ca94228317a52e46b83 Merge branch 'ipa-RX-replenish'
+b295c7f3d6631cc5877105d7fd27ab47e9c660dd net/mlx5e: Fix spelling mistake "supoported" -> "supported"
+c94e1f892583938bf3edb1ffb8ff7e3db3c55771 net/mlx5e: RX, Set MPWQE post bulk size per RQ size
+4c5f9ce156ec9cbeddf305b331d4017a27ab349c net/mlx5e: RX, Test the XDP program existence out of the handler
+0b390b4c8ac82a9b7837ece6a095468f288c98bf net: Disable LRO feature if no RXCSUM
+50c540e1be25ecb8c2714751d9cc8f84d878f42c net/mlx4: Delete useless moduleparam include
+44b1260ede90308c2bd9f0c36fa3df81483fa14c net/mlx5: Delete useless module.h include
+5fdb35af6d21c269eb8999057d279112d2e04a8c net/mlx5: Node-aware allocation for the IRQ table
+ecd92714e4d38a4315e5a9a7ac1f93aa571589e3 net/mlx5: Node-aware allocation for the EQ table
+395df366d6e93f57dccbd0cf32cb96ae83152748 net/mlx5: Node-aware allocation for the EQs
+efb2cbe7b6f0953b9e41ef9967668ad6c2e24fa7 net/mlx5: Node-aware allocation for UAR
+5a125e52cb28923e228b62ae383c8f40ca691389 net/mlx5: Node-aware allocation for the doorbell pgdir
+3637010c74b3a2401812aa2a314e60283d1ca3bc net/mlx5e: E-Switch, Add PTP counters for uplink representor
+0ceb878924fbbd945445ca0909fbcdf54af3cee5 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+6603ed67a442d05ecd0c8b467b360852a29359f7 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+b65b125705dcad8e0143a6a0f3de5e5a3be79670 net/mlx5: Add ability to insert to specific flow group
+dd061f4b754fd342b3bb13e154913baca9b5a551 net/mlx5: E-Switch, reserve and use same uplink metadata across ports
+2372dc93e739c00387bc37984e07e5ff00eda5d0 net/mlx5: E-switch, remove special uplink ingress ACL handling
+0f94e4c974bd77e65bc5a4855e839beec9b380b7 net/mlx5: E-switch, add drop rule support to ingress ACL
+e57803d5f2d0611fa10db7f1202db2ae652561af net/mlx5: Lag, use local variable already defined to access E-Switch
+2b6ff38612de84bf71859e83445b95a3317772db net/mlx5: Lag, don't use magic numbers for ports
+cfb0cd5160f16a3ca76e5d7a224f617b8d156c11 net/mlx5: Lag, record inactive state of bond device
+9d4304a3bb030a74212e598ca2114cc758abd731 net/mlx5: Lag, offload active-backup drops to hardware
+07a49ce6cc6b878d81fda28f225135bb7908e5d0 net/mlx5e: Generalize packet merge error message
+31c47aff8814728aa52561f54075947e67de9a4f net/mlx5e: Remove unused tstamp SQ field
+9ce8b547365941a08623e2c6a48d86f291db0b1e net/mlx5e: Read max WQEBBs on the SQ from firmware
+06196f5da33202d7c3f78d552b07e59250c5a1c7 net/mlx5e: Use FW limitation for max MPW WQEBBs
+7ed350d0083fa6fa451b26a5d92536d8b3e89580 Merge branch 'patchq/393730' into mlx5-queue
+e133ab21283eada79f8809654e854b65a4761558 Merge branch 'patchq/467855' into mlx5-queue
+4ac5b841b1ab765826024e1647172fb94a8331bc Merge branch 'patchq/362916' into mlx5-queue
+476374e1b80ed45ec79d314a222879d58726058b Merge branch 'patchq/467755' into mlx5-queue
+138fd56b6d165d8879a1ebdbe5c52a324ae6db4e Merge branch 'patchq/464678' into mlx5-queue
+411ecf0651eaaa0e711101add7df7b957565a7cb Merge branch 'patchq/452610' into mlx5-queue
+0b4f648280bf2c61fa0487c33bda9e03777ed663 Merge branch 'patchq/462991' into mlx5-queue
+68208dafa8220a61673d05c08b0eb05398c421e3 Merge branch 'patchq/396348' into mlx5-queue
 
---===============8022294068070170865==--
+--===============4505025070155057903==--
