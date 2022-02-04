@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 04 Feb 2022 23:16:20 -0000
-Message-Id: <164401658064.20322.8522466619487614819@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 23:17:51 -0000
+Message-Id: <164401667174.20905.11961063460321319212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/jd/defer-irq-mix
-    old: 08c4730a639a9c26a8fe131a5d0ce2ac15307451
-    new: ab65e2aacd91a1e844db159f52861c2ed777f67f
+    old: ab65e2aacd91a1e844db159f52861c2ed777f67f
+    new: 1270eb1c55bdae4b98baa4cec1b63535f7da2145
     log: |
-         ab65e2aacd91a1e844db159f52861c2ed777f67f random: defer fast pool mixing to worker
+         1270eb1c55bdae4b98baa4cec1b63535f7da2145 random: defer fast pool mixing to worker
          
