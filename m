@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Fri, 04 Feb 2022 21:14:47 -0000
-Message-Id: <164400928793.3364.14082936963360993715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 04 Feb 2022 21:16:13 -0000
+Message-Id: <164400937370.5404.9047178153300298624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-linus
-    old: 71c96af28da5b7f549333ba469cc032fb677fa0e
-    new: 7dd3876205df92e07d824fe2264b38e0b8a9eec1
+  - ref: refs/heads/for-next
+    old: 35842f6d1d654f32656b027d2576c2da4b00cca4
+    new: 6cd71eb2c65ecc7cb0e950bff0a23dfc8cc70cb7
     log: |
-         7dd3876205df92e07d824fe2264b38e0b8a9eec1 PCI: kirin: Add dev struct for of_device_get_match_data()
+         6cd71eb2c65ecc7cb0e950bff0a23dfc8cc70cb7 Merge branches 'arm64-defconfig-for-5.18', 'arm64-for-5.18', 'drivers-for-5.18', 'dts-for-5.18', 'arm64-fixes-for-5.17' and 'dts-fixes-for-5.17' into for-next
          
