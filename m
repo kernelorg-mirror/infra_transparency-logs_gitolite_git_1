@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zanussi/linux-trace
-Date: Fri, 04 Feb 2022 21:35:33 -0000
-Message-Id: <164401053303.19397.725168881163494074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 04 Feb 2022 21:44:41 -0000
+Message-Id: <164401108145.23680.15755016282072847776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zanussi/linux-trace
-user: zanussi
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/ftrace/cleanup-hist-func-v8
-    old: 0000000000000000000000000000000000000000
-    new: 211b2cd3e3d7e00f4f8ad45ef8b33063da6a7e05
+  - ref: refs/heads/master
+    old: b6a8d41c08752465edf727eef9d6a3949b7e9008
+    new: 73ef6919ba870166bee6e12b7d03427ddf078416
+    log: |
+         73ef6919ba870166bee6e12b7d03427ddf078416 Fri Feb  4 09:43:41 PM UTC 2022
+         
