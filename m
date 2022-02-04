@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/ksmap
-Date: Fri, 04 Feb 2022 17:02:53 -0000
-Message-Id: <164399417343.30229.11889211027307598704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Fri, 04 Feb 2022 17:03:36 -0000
+Message-Id: <164399421683.30594.9654448139642110990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/ksmap
-user: anna
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/master
-    old: 93966dc3d5ca85bf5df08e4dbdd567a3d7584987
-    new: 192497a12df3d8f4f70ff79376e440d60c830715
+  - ref: refs/heads/nettree
+    old: 388a46ee3695a7bd606ea5342fe77e68786460e6
+    new: 5be59eb9de8284e8ddfb8d34f5d61396a480d37c
     log: |
-         192497a12df3d8f4f70ff79376e440d60c830715 users: Add Anna Schumaker
+         5be59eb9de8284e8ddfb8d34f5d61396a480d37c net: Remove netif_rx_any_context() and netif_rx_ni().
          
