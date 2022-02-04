@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2694232541630934304=="
+Content-Type: multipart/mixed; boundary="===============1180126419826639052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 04 Feb 2022 15:19:44 -0000
-Message-Id: <164398798453.22892.7122408123936534218@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 15:28:00 -0000
+Message-Id: <164398848013.29746.18339250428803862512@gitolite.kernel.org>
 
---===============2694232541630934304==
+--===============1180126419826639052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: f43e42908bcfd50707d5b7a5989812de8173ea18
-    new: ac520a89d07e8c54d2e7488c30b6b15e0cf751b0
+  - ref: refs/heads/char-misc-linus
+    old: 46963e2e0629cb31c96b1d47ddd89dc3d8990b34
+    new: c0689e46be23160d925dca95dfc411f1a0462708
     log: |
-         c32a7ebe1d1dc6f76f237c7bd3c2e34375850a16 dt-bindings: reserved-memory: Open Profile for DICE
-         ac520a89d07e8c54d2e7488c30b6b15e0cf751b0 misc: open-dice: Add driver to expose DICE data to userspace
+         c0689e46be23160d925dca95dfc411f1a0462708 eeprom: ee1004: limit i2c reads to I2C_SMBUS_BLOCK_MAX
          
 
---===============2694232541630934304==
+--===============1180126419826639052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643987983 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643988479 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1643987981-18bbab3b5c2342f07ab2a4dd9e1575cf282b53d9
+nonce 1643988478-af7e547d9115e67e5f0c4514225aa88fc7147e98
 
-f43e42908bcfd50707d5b7a5989812de8173ea18 ac520a89d07e8c54d2e7488c30b6b15e0cf751b0 refs/heads/char-misc-testing
+46963e2e0629cb31c96b1d47ddd89dc3d8990b34 c0689e46be23160d925dca95dfc411f1a0462708 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9RA8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h9QP/R1/VGlHSr/NR+Q+j48D
-Y/VksJT2W3a/7QBoWM+KxebxFfJdUv6KqO76r/RjrF9fVe78W1w7L2KfYoKPPgRU
-rEeSGVkBPFq370qIGiTyhK4n4dPJNs+0Fs2b74x/usy6XS4PI6IMpp/Oo92djd+h
-rhfuRVSKOJwXLeIysLzfiO2YZ0aDhBQm014RtjcWtms1RPkjpc4+o80RE4uoM6ja
-ZYF64jErrBe4u9+nAf8NBebjhPDxj3TXsktIUlR5AF3ZnptVO8EiYCycgSppBlVe
-h4KLrnkKglJ/hPEv26O1HJ73/b1tCdOzrJDX5zqxRYRXnHGyA3VjnpsdoZi9IyMn
-69neyiU1EkdK6XbeLNuDNX1Lpwft/YVvITyOdNp0QNZ0S6GaImyFxCFwK4uwf/0x
-Jq0VXA4O7Gl5ia7iZB3c9f4pHHCHUvWbSGyAIG2ix3b2VgRq8YX6lVOBQjwwclm5
-Vm57icjHTCB+lqSKAY3yw3tPF79nIgycyTqGWJkTRlgc3Plf97FY/pdsktSPEQ/X
-y8bMqI6zuId/UOgI/riou/U1UasAnWzZkktuoemc0anfXtecguZWgOA2CKEFQO0W
-QjOl7CTYF866gwI9ClZinX1YLOthIjLTKM84640K6T4FzM49pbWVbSpxXfvZy5DU
-pr5CFHDQU8fkA5AOgC9wjtFJ
-=4rBk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9Rf8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8HsP/0Q2HBQng24OHVvanCi/
+IcYG+s2D0sMaayvb3kg6As94kz5FIE4xSqXNOUt6W81///3aHHTXc4movJUuBXid
+zJiYccb4HRwbIOhr/5lL9U/Gdgcme40hNVic8Aa8ItVlnYqLiBmlABm0nTeK7zZY
+tsYURxzC/Xv0aoML7UfF2c8ktN7m3AFoTxjvQ+5ZP2iyo26pvYXkopn5kPrMztZr
+uMvFfXJytS4RvikD2mj4gKRg43o7iVOwe9xDbAy0d972BGheSbcnG3EHEzsNTu2q
+F55XxL8H+87hD5wb927Bi2yaZ1TAbdvX7boC9OXo81/Eybqvq5nuauCK7RNJk9XJ
+sn4MG7A9sLlwXubhciDAYkMdoGnQMPcP4I12DIyWV4py6if/fprWCKZW1gXN+7XK
+XinYEtTD5YQ6PY7emSOXL0fHRbEEvrwJTvj8HYAXUj5c2AFHIGaz5dQfCltqOeYB
+Q2Wa1c0y19VRacF3jfCJy9vwEXA8U8EJTh/HfQEjhSuLJwvnqHYLdVdgrv5OAg8G
+kwRVoLayRvEIYPlRQBYL7vuoPksNmyq/DT1G+81E+cNH9E/vqGJAscDWN/vBXnGI
+mqfr6JZLzzIA+uvw8/QvnqYFCCSaSHhalAlCLjXAwYgeRWlARQyajITTqZGyyvUe
+OEFon24xtUMJHwwi0qx5Apv2
+=Egtb
 -----END PGP SIGNATURE-----
 
---===============2694232541630934304==--
+--===============1180126419826639052==--
