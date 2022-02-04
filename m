@@ -1,83 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Fri, 04 Feb 2022 14:24:28 -0000
-Message-Id: <164398466839.16307.17609221993510014773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6687305210106986680=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 04 Feb 2022 14:25:02 -0000
+Message-Id: <164398470293.17637.1716159461246505267@gitolite.kernel.org>
+
+--===============6687305210106986680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 89555951de17359b048417a0418bf83435bd53a7
-    new: 9769530f7810353c8f5edf546bd58272db00d60e
+  - ref: refs/heads/staging-testing
+    old: 7ef976e0dc598189232d2d791645a9c4e7e4f7ef
+    new: 3a797f364fe98a004515deaa6880c9cf75422b59
     log: |
-         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
-         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
-         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
-         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
-         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
-         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
-         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
-         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
-         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         c531c785bc49a7e0253041ad9c8a32e3d83e482d staging: r8188eu: move struct rt_firmware_hdr to rtw_fw.h
+         3a797f364fe98a004515deaa6880c9cf75422b59 staging: vt6656: Fix crash when WLAN is turned off
          
-  - ref: refs/heads/pci
-    old: 89555951de17359b048417a0418bf83435bd53a7
-    new: 9769530f7810353c8f5edf546bd58272db00d60e
-    log: |
-         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
-         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
-         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
-         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
-         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
-         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
-         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
-         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
-         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
-         
-  - ref: refs/tags/for_autotest
-    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
-    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
-    log: |
-         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
-         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
-         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
-         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
-         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
-         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
-         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
-         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
-         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
-         
-  - ref: refs/tags/for_autotest_next
-    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
-    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
-    log: |
-         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
-         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
-         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
-         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
-         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
-         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
-         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
-         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
-         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
-         
-  - ref: refs/tags/for_upstream
-    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
-    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
-    log: |
-         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
-         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
-         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
-         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
-         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
-         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
-         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
-         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
-         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
-         
+
+--===============6687305210106986680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643984701 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1643984700-28498835e30d7d38808826ae8d8b7979fab0839b
+
+7ef976e0dc598189232d2d791645a9c4e7e4f7ef 3a797f364fe98a004515deaa6880c9cf75422b59 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9Nz0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JIAP/RDuh1JnZ22HF9uElI/h
+OCVtSQLLzaaOdCabCqMwTN4vjOtoul1tot2XzP716JFeZJjGJnFIiEnaaLPnpkfO
+xUwAS87Fe693F24Mzvn+xLqIwPVtJ8cgxKEXFnk0g37sb4yTdcKKGf9MmmH8NZ8P
+ixaaUC/FtvDitmCflZMnJdGQGbuvkqG+Q9qO35bD3rmDj4NXKzXCRuOnQ6FIGWT2
+ZIUYOCe+DDpEyj7BxqFNZZ50J1k1Cs1PEPmdhtZ4srOxDgLnP3blb65vy2vpcD2q
+DXKJ3DDQxCtaBcL9W/hL2ZtLUOGC6l1HxCkXJEC70BQEMYgu7+E1odVZs3JL1okf
+U5/vsB40WtNy7BM18hyKX8Hu9uRaZrDJ0xJHqim8Cp/uzRQC7xdG/yB9jvCalQEj
+geVPNK4ZCIfcqi0ZW8GJLATbrPWMvC9BvN9K+Ta0VReZNjtt5PrqlS6vuDWZv0Sx
+UsFgu1B2oJcDT1eF3eigAaZBxyh+mp37klGOifX8B+bNNLO18+eL3WA9TD8Q6Y+H
+Apz3wYMHNaraiK38KU3ulQWWfmxkLLQbF+RHHJUs5kwVxV2q2arcQuh0AG09otDv
+kCH/pgz5fyVtsrB4RhDlX4bhUkTaTnGSKnKWtQ5ujNp03Aq7bZGxHOq0bjaFTgUn
+DsLOUdHB9/Uwy7hcjvLSTXok
+=c//7
+-----END PGP SIGNATURE-----
+
+--===============6687305210106986680==--
