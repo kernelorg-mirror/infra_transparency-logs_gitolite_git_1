@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 04 Feb 2022 18:32:47 -0000
-Message-Id: <164399956759.26423.7463949556817414310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 04 Feb 2022 18:33:13 -0000
+Message-Id: <164399959357.26689.685874799955828074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/random-5.17-rc3-for-linus
-    old: 0000000000000000000000000000000000000000
-    new: 9d5505f1eebeca778074a0260ed077fd85f8792c
+  - ref: refs/heads/master
+    old: ffc623f399047226a47e06a5bf9485f87a546987
+    new: 2f369976385f01b9047bb90aa8dd461ab4b96eed
+    log: |
+         2f369976385f01b9047bb90aa8dd461ab4b96eed Fri Feb  4 06:32:38 PM UTC 2022
+         
