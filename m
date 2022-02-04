@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7369809658417616486=="
+Content-Type: multipart/mixed; boundary="===============0192934286302481844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Fri, 04 Feb 2022 10:05:41 -0000
-Message-Id: <164396914153.9318.8542966032136076239@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 10:06:30 -0000
+Message-Id: <164396919061.9686.3226874187666682411@gitolite.kernel.org>
 
---===============7369809658417616486==
+--===============0192934286302481844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: dcb85f85fa6f142aae1fe86f399d4503d49f2b60
-    log: revlist-e783362eb54c-dcb85f85fa6f.txt
+  - ref: refs/heads/next
+    old: e8a1a72b5883a6aa1480e0a46f1df1960e18fa3a
+    new: eea13742554eb4fd41c49c9da4d15907fcc04b48
+    log: revlist-e8a1a72b5883-eea13742554e.txt
 
---===============7369809658417616486==
+--===============0192934286302481844==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1643969156 +0100
+pusher Mickaël Salaün <mic@digikod.net> 1643969205 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1643969137-2e27773628c007b02d3a357026af1952a4cf4ce4
+nonce 1643969187-eea68009b6a4ba452953b6615bd93bfa40f23fdd
 
-e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 dcb85f85fa6f142aae1fe86f399d4503d49f2b60 refs/heads/master
+e8a1a72b5883a6aa1480e0a46f1df1960e18fa3a eea13742554eb4fd41c49c9da4d15907fcc04b48 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYfz6hBAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbSr9oBAMNrzndFYTtetTgMBgH3bgx4jR/TWBLTQ0NA
-/DmZxNnhAP9m/URVhA8yi94RHK4pAUXojw6hZsYtAtoXFLK/1EyqAw==
-=/RX3
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYfz6tRAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSsfIA/3tIlCbRXkhR87Opp6NGpkVCs2JLXRLX+EPe
+/UvwmU+UAQCtVzyQb5H+uw6oIOXWBK8GRZ8omWLxGsP502d1sFD9DA==
+=xIGp
 -----END PGP SIGNATURE-----
 
---===============7369809658417616486==
+--===============0192934286302481844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e783362eb54c-dcb85f85fa6f.txt
+Content-Disposition: attachment; filename=revlist-e8a1a72b5883-eea13742554e.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -666,5 +666,9 @@ ac62a0174d62ae0f4447c0c8cf35a8e5d793df56 dt-bindings: net: qcom,ipa: add optiona
 551007a8f10afdc45959ad637d6bee816716769f Merge tag 'selinux-pr-20220203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 eb2eb5161cdbd4f0acc574ef1c3ce799b980544b Merge tag 'net-5.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 dcb85f85fa6f142aae1fe86f399d4503d49f2b60 gcc-plugins/stackleak: Use noinstr in favor of notrace
+dae71698b6c5da5a7f7c5b65fad53825d5356e08 printk: Move back proc_dointvec_minmax_sysadmin() to sysctl.c
+f68ff06cdc99858242b3fef15504dcb3561ae4e4 fs: Add trusted_for(2) syscall implementation and related sysctl
+b635cc3ce5f7e81be8bc1988b853b0866df3cac5 arch: Wire up trusted_for(2)
+eea13742554eb4fd41c49c9da4d15907fcc04b48 selftest/interpreter: Add tests for trusted_for(2) policies
 
---===============7369809658417616486==--
+--===============0192934286302481844==--
