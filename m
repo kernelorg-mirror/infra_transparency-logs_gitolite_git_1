@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3022624458307161059=="
+Content-Type: multipart/mixed; boundary="===============6538864162804866026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 04 Feb 2022 14:32:27 -0000
-Message-Id: <164398514746.22629.5401628214789093987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 04 Feb 2022 14:34:36 -0000
+Message-Id: <164398527628.23520.14544296301311931242@gitolite.kernel.org>
 
---===============3022624458307161059==
+--===============6538864162804866026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: c816b2e65b0e86b95011418cad334f0524fc33b8
-    new: 5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd
+  - ref: refs/heads/char-misc-testing
+    old: a74e7263b53424a7f5b999a11d610231338f5b99
+    new: abaca3179b41d4b3b115f27814ee36f6fb45e897
     log: |
-         5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd serial: 8250_pericom: Revert "Re-enable higher baud rates"
+         abaca3179b41d4b3b115f27814ee36f6fb45e897 pps: clients: gpio: Propagate return value from pps_gpio_probe
          
 
---===============3022624458307161059==
+--===============6538864162804866026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643985146 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1643985145-c9e773b2227c36cce6d94f0ca7eb3454541e3340
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643985275 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1643985274-f7e6ff996bfa2f0b05d8e96f062e7e34e3bc650b
 
-c816b2e65b0e86b95011418cad334f0524fc33b8 5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd refs/heads/tty-linus
+a74e7263b53424a7f5b999a11d610231338f5b99 abaca3179b41d4b3b115f27814ee36f6fb45e897 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9OPobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fu0QAIr+OTJU+AWMPzTcwBkq
-JQnEwRuUC8/Juk5cBNzEufEFxbsx4+JHzABODVwAN1k0mIRrm+qAY88Y76sEM6DQ
-Xqg8g8SjQa847LeZl8kRBb9yiqtLYi0I4RYD+KKUMJKJxmq2CFv2zTMABvBDwFrL
-WK9h18eB+y/v9ltSmAi75EdVEJ4YXp/FCc6PRi1nyJ03mRqm6rmRWdpK902yh8rk
-1qUVMuwkFkC0ht2vhMWqDt7zSC5d/OUI4skkDyc3FydP6xmz8HDTG9Q+9FTH0/5K
-VBush0MIAUfTj4OfYDMRVwimMQCO3IQUk7ed6oFY1dv4VASqWQRDgeTk2i9JE0AU
-RmSkxFTii1hC7l0ZV8o+WpiXQDMC4uK6VSPV1+N/YdiVm780AGs+AVT82qHfC2kv
-gJ5iihVq5PNaiHvTsDY4a57jZF04p/omf4UtxGzuFXrh8afw5UVxaom17fS25jMz
-vJBqxm+JTP4z2QB+MhMJIuGG6VGPYiMOAtpwE83Wfsl9FMu8I+zeWZBnjYp80LQN
-8GEwKm9kfP5epgz+s5EHfGn+d1/ikdM5GyjmOEN7WrHNzeaCYxBsf4xnkZfYhLvg
-BFPtEnLiPnjxTzzHfVNs+rrgipcr8aY1buj1bKok4UOhxVVHMOXzcKBpQIsAMoMD
-fu0I2eNjlQBsEsA0Q+v16qKL
-=iZ7X
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9OXsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Db0P/jelSO1H/ESTTArQRweW
+d1k7WcffBY2DtoqT3jTJoxmdHUNbHcRrU1LsHfb1uX49d1AkJJO6abRCGBlBgV2G
+OJlgV6u2Ojna5UwABIrbLooRoV3uNRIuV/t+kaz8hiPXRYaoZYTvz5KmJYhwfZLV
+5nULLMOyz28xYC+zfW9DaQCD6tJ3L7NP2C1bW3YVhBQyQC4h1ld7ddPcKeR4+s1f
+E/lQtymMkayARLP5PgvBchkob+n1RAz9p7YwmOT7QC/J3p5UPSRPDYdt6nsD5B8T
+zQ4NQAzbjDSbOp/FQm7tJq2m7frWmNQwZ1Sqz+5oozr3gxRwp+HaGyqC+SX0u5Bp
+cHnIfAUubb0ROYMMB0VdN3ZrM4v6HQimjkwBl3D00fIs7CwX1nQjYfW0uwrj5vMO
+MguPqsqtOtbNHOvhLreYCmCuXGS9rrBiV998LOMLGrPPQR1jZ1nxxlp5Zm1aCr+u
+qVMuZBJgPf9qXIy3iHgslvaah3ku/v5btGQ1llXd8MnYny7J2Q5uDplCR7tFlR3X
+xLd27LHr+sWb0WClKewl1ysozeCA+PTUjhpwqMTmwbG+M8MGY/SkdEXJ59T8g/Se
+V2yqyqXL14aEqkjrPhEo3zZYSifN0NI5Mvctigae6IkXJK7sQ43Zqfdd7ZxK9X5q
+6iEolYrJL7zPEKgUdEsbIw+m
+=y6wh
 -----END PGP SIGNATURE-----
 
---===============3022624458307161059==--
+--===============6538864162804866026==--
