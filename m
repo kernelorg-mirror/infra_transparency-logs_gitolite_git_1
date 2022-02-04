@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Fri, 04 Feb 2022 17:01:16 -0000
-Message-Id: <164399407690.29600.303850708617979285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Fri, 04 Feb 2022 17:02:53 -0000
+Message-Id: <164399417343.30229.11889211027307598704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/docs/kernel/ksmap
+user: anna
 changes:
-  - ref: refs/heads/nettree
-    old: 0000000000000000000000000000000000000000
-    new: 388a46ee3695a7bd606ea5342fe77e68786460e6
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
+  - ref: refs/heads/master
+    old: 93966dc3d5ca85bf5df08e4dbdd567a3d7584987
+    new: 192497a12df3d8f4f70ff79376e440d60c830715
+    log: |
+         192497a12df3d8f4f70ff79376e440d60c830715 users: Add Anna Schumaker
+         
