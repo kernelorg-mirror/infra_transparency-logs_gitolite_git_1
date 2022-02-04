@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 04 Feb 2022 08:07:14 -0000
-Message-Id: <164396203452.18599.11194373943122381955@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 08:08:45 -0000
+Message-Id: <164396212524.19184.369261021286665876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,63 +11,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
-  - ref: refs/tags/armsoc-defconfig
-    old: cb75b4a6567a2f88c5151a1064ac67935f9b78cd
+  - ref: refs/tags/asm-generic-fixes-5.8
+    old: 37bfd0000f75e2c8db24f5de477a59312ea14a30
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-drivers
-    old: fe04f61ca0177dbf7e5abdd188d54617756bb527
+  - ref: refs/tags/defconfig-5.15
+    old: 8153a9c0b39f0073946caca1e2bca94ad0f11b1b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-dt
-    old: 6c41310feca05298706d7639d65029dd509378ce
+  - ref: refs/tags/defconfig-5.16
+    old: fed19b6f2c8c11d324501ed33aec7dd16f207064
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-fixes
-    old: b4064f8133a9097e9469dd505acf8b5d215320f1
+  - ref: refs/tags/drivers-5.15
+    old: 5be7d308b7ffd4a520ae0fe5f7e3533a78a4ce6c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-fixes-5.0
-    old: d3c7455ee9ec4a60476d668dbd734bc205d3e910
+  - ref: refs/tags/drivers-5.16
+    old: c6931550106c4bdcb0fbc16e66eb49e99a0bd06a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-fixes-5.15
-    old: a42440f6a964b6f5bcc23fde5f0f12d6b6844a99
+  - ref: refs/tags/dt-5.15
+    old: 5e50520eb35ffd1a5547aa7a0bffc90d71a586ef
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-fixes-v5.7
-    old: cd2315232dc2e6c9c1b1a094302f279d64f219b3
+  - ref: refs/tags/dt-5.16
+    old: ffbd7e062154054de6d7bc3460d2678149f52a21
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-late
-    old: c81d6194be8a9d588f3efff01a4de0ccb9060408
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-newsoc
-    old: b1b82ee118f756cb0a4c7a433fc596e344ea2c38
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/armsoc-soc
-    old: 0d5a29743d0e509e5049e24d6dff2d537a054322
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-5.15
-    old: 955eb7ab575dae928c292e28b4afcfae403c9fbf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-5.16
-    old: f5505af12aad9d6623ec619313befd2288dd0952
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.12
-    old: 5e7d8c44260c09ee33345d318f8364b2a2e8413e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.14-1
-    old: a0404bf037c72b04696d1fe7ddd65fa3fbf28966
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.14-2
-    old: 082947e5a95d7a61d702389281df0137549bbd99
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.14-3
-    old: ef43be724a78dd78de5a7177e1b066ef9772bd5b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.14-4
-    old: e67f52e990f74fd371e1f912edc78ec41b8c4b27
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.16-3
-    old: 8d94381702fb32eaf2db726fed397a39336e5515
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.16-4
-    old: cadd40e012c95c5f0ffd865605778012d88de7ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-fixes-5.16-5
-    old: f66de4ae2830eab0835f71e59f75550eaee8b84f
+  - ref: refs/tags/dt-5.17
+    old: 924c8056ecdc58429ae3a3ee58ceab154109affb
     new: 0000000000000000000000000000000000000000
