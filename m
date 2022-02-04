@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7089502919165165071=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Fri, 04 Feb 2022 06:08:02 -0000
-Message-Id: <164395488299.5512.10604354034034476245@gitolite.kernel.org>
-
---===============7089502919165165071==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 04 Feb 2022 07:21:02 -0000
+Message-Id: <164395926255.19370.15675137699705986748@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/skel
-    old: 90109bb4d0dabc315c7fa82d193d9e7a54ee18c7
-    new: 75354abba9edc04536f3a13862c69eca26e74aa0
-    log: revlist-90109bb4d0da-75354abba9ed.txt
-
---===============7089502919165165071==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90109bb4d0da-75354abba9ed.txt
-
-04fcb5f9a104f24278ad849c642cbdf0c8f48453 selftests/bpf: Migrate from bpf_prog_test_run
-3931618378451f7ae884b14e4120e07560875cab selftests/bpf: Migrate from bpf_prog_test_run_xattr
-9cce53138dd9ee8bd7354196297df24130f3529d bpftool: Migrate from bpf_prog_test_run_xattr
-3e1ab843d2d4d2d4e67f9488c1497aedc014328a libbpf: Deprecate bpf_prog_test_run_xattr and bpf_prog_test_run
-707ee8ac3a5b29fecb69c9a4c4f5e51b0cbf2ca9 Merge branch 'migrate from bpf_prog_test_run{,_xattr}'
-a5dd9589f0ababa9ca645d96cfaa8161d45dcb74 libbpf: Stop using deprecated bpf_map__is_offload_neutral()
-1a56c18e6c2e4e7482ac9e1a4ffe1770841dd6bd bpftool: Stop supporting BPF offload-enabled feature probing
-a9a8ac592e47ff35363308ad4c66740724132aa3 bpftool: Fix uninit variable compilation warning
-32e608f82946e1e600f8c92b765c18b7189e596d selftests/bpf: Remove usage of deprecated feature probing APIs
-e4e284a8c0d9823c07ee674445de05928be67231 selftests/bpf: Redo the switch to new libbpf XDP APIs
-1e4edb6d8c4f045823291862e7e28591cb6f2067 samples/bpf: Get rid of bpf_prog_load_xattr() use
-c3be3676dea1cc0223a29ae06a13404acf7bda13 Merge branch 'bpf-libbpf-deprecated-cleanup'
-dd33fb571f5cd25c0d0f9d017dba783c85b70b82 bpf, docs: Document the byte swapping instructions
-63d8c242b9a502f1517b3e8c45d2125649dd5d7b bpf, docs: Better document the regular load and store instructions
-15175336270a76695412aedf68f3eab746d84b4b bpf, docs: Better document the legacy packet access instruction
-5ca15b8a939ff59f3e9f957ad4af5658c016cf7e bpf, docs: Better document the extended instruction format
-594d323485567d36674a8ff4f344d81a830de5ac bpf, docs: Better document the atomic instructions
-a6763080856f444868620ae065ac25cbac0c4922 bpf: test_run: Fix OOB access in bpf_prog_test_run_xdp
-ca33aa4ec5cbae7ddb995e565bc3b67ee4532b7a libbpf: Deprecate priv/set_priv storage
-d7e7b42f4f956f2c68ad8cda87d750093dbba737 bpf: Fix a btf decl_tag bug when tagging a function
-cf1a4cbce63b766d3b7aa5eb57a56d9a2c45ca6c selftests/bpf: Add a selftest for invalid func btf with btf decl_tag
-227a0713b319e7a8605312dee1c97c97a719a9fc libbpf: Deprecate forgotten btf__get_map_kv_tids()
-800c52a090269ec7916b9827fb064c5de7094b6c bpf: Extend sys_bpf commands for bpf_syscall programs.
-916943bf8ba1a619fd0daad0872e4b3a9c423891 libbpf: Prepare light skeleton for kernel.
-bad562f2eebdf6d7ddff6b33f6c64d8dbda78cbb bpftool: Generalize light skeleton generation.
-cdd6657219a8450af2199d5e8a26127a81de44c5 bpf: Update iterators.lskel.h.
-75354abba9edc04536f3a13862c69eca26e74aa0 preload_kern hack
-
---===============7089502919165165071==--
+  - ref: refs/heads/dev-test
+    old: 6c9714acda48806ac1d05660961eae20264e7b3b
+    new: 10fed2df31a180629180087fec7e0ba1f07c3846
+    log: |
+         5dfe67715bb545c2524d8ebae18984881540e164 f2fs: introduce F2FS_IPU_HONOR_OPU_WRITE ipu policy
+         f4948d572f3bbaadfbbe63ea8d67379f77cc9b41 f2fs: adjust readahead block number during recovery
+         f5220f7800effa4c4524ccb0bc1e9e77bd40a75e f2fs: support idmapped mounts
+         8896c27eb8e6bbe6a69351218ff8c03c13a442ac f2fs: reduce expensive checkpoint trigger frequency
+         fc7eeb8c140bc696ac8e4d673201cd589e316aec f2fs: introduce get_available_block_count() for cleanup
+         8c647c7bd7c41bbacfb930911e539c99c8634963 f2fs: introduce sb.required_features to store incompatible features
+         10fed2df31a180629180087fec7e0ba1f07c3846 f2fs: separate NOCoW and pinfile semantics
+         
