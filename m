@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 04 Feb 2022 21:13:35 -0000
-Message-Id: <164400921540.2625.11012756671481064821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 04 Feb 2022 21:14:18 -0000
+Message-Id: <164400925847.2985.9393034395045632298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 3f72b45150a50c99f344bbcfb4e19e360b85555f
-    new: 19448b9cb852b8c38f15362e185e6b18d634859d
+  - ref: refs/heads/arm64-for-5.18
+    old: b48007d6d098dfeb57888c7bc50fbfb99e4e3695
+    new: 72c370dfbd58b1fe3a7faecabafd6d91213d9ecc
     log: |
-         19448b9cb852b8c38f15362e185e6b18d634859d gdbus: Emit InterfacesAdded of parents objects first
+         1172729576fbbe2936f3f9cd03ad9317c6a04eab arm64: dts: qcom: sm8450: Add remoteproc enablers and instances
+         72c370dfbd58b1fe3a7faecabafd6d91213d9ecc arm64: dts: qcom: sm8450-qrd: Enable remoteproc instances
          
