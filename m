@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 04 Feb 2022 07:47:36 -0000
-Message-Id: <164396085683.4166.6735296989819027150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Fri, 04 Feb 2022 07:53:27 -0000
+Message-Id: <164396120718.8861.7146068428972183611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/for-next
-    old: ac1eb6655be440b6c0199f6bc9d20d610fc29d0d
-    new: 0c72a87889d6996a831642b8b77032e8efe07654
+  - ref: refs/heads/main
+    old: 26c54f840d2340271f305c04f0d66bafac93274f
+    new: c001fc01a43e7a06447c06ea3d50bd60641322b8
     log: |
-         0c72a87889d6996a831642b8b77032e8efe07654 libata: make ata_host_suspend() *void*
+         c001fc01a43e7a06447c06ea3d50bd60641322b8 pylibfdt: fix swig build in install
+         
+  - ref: refs/heads/master
+    old: 26c54f840d2340271f305c04f0d66bafac93274f
+    new: c001fc01a43e7a06447c06ea3d50bd60641322b8
+    log: |
+         c001fc01a43e7a06447c06ea3d50bd60641322b8 pylibfdt: fix swig build in install
          
