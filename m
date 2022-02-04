@@ -1,54 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4192579475693485967=="
+Content-Type: multipart/mixed; boundary="===============7089502919165165071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 04 Feb 2022 05:42:47 -0000
-Message-Id: <164395336786.21534.1369442764025223357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Fri, 04 Feb 2022 06:08:02 -0000
+Message-Id: <164395488299.5512.10604354034034476245@gitolite.kernel.org>
 
---===============4192579475693485967==
+--===============7089502919165165071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/dev-test
-    old: 7ff66525188d6cfff1ad46859f00bd71eec30964
-    new: 6c9714acda48806ac1d05660961eae20264e7b3b
-    log: revlist-7ff66525188d-6c9714acda48.txt
+  - ref: refs/heads/skel
+    old: 90109bb4d0dabc315c7fa82d193d9e7a54ee18c7
+    new: 75354abba9edc04536f3a13862c69eca26e74aa0
+    log: revlist-90109bb4d0da-75354abba9ed.txt
 
---===============4192579475693485967==
+--===============7089502919165165071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ff66525188d-6c9714acda48.txt
+Content-Disposition: attachment; filename=revlist-90109bb4d0da-75354abba9ed.txt
 
-dca48e4d2f26bdeac10b7f92135e61e4a9ca3b9a bpf: Guard against accessing NULL pt_regs in bpf_get_task_stack()
-69812411305a046432280bea09c6e808df526a5d powerpc32/bpf: Fix codegen for bpf-to-bpf calls
-d7d2d39f27e6b605483790e4f9315ab8e746ff95 powerpc/bpf: Update ldimm64 instructions during extra pass
-71a334fb091dbb8a9b80abc3b5ee78cee2973516 tools/bpf: Rename 'struct event' to avoid naming conflict
-24ee8ecf3f74eb3482126a76603599386d961f81 powerpc64/bpf: Limit 'ldbrx' to processors compliant with ISA v2.06
-dda5881b2f571628fc9e1282e3f2f25fd7c73234 powerpc/audit: Fix syscall_get_arch()
-11201ca4ac2c7a07c916f90b558ab92a34e19666 powerpc/time: Fix build failure due to do_hard_irq_enable() on PPC32
-f6e34cd5404d42c55b026abc942500652b1cf580 powerpc/32s: Fix kasan_init_region() for KASAN
-84452863814b676226da867af035e7bf4931e767 powerpc/perf: Only define power_pmu_wants_prompt_pmi() for CONFIG_PPC64
-aedbd4fe87bd52fbff9c5891d90ab6ff27614c73 powerpc/64s: Mask SRR0 before checking against the masked NIP
-b95243d354a2f545008fb36100570a8408077e8e f2fs: move f2fs to use reader-unfair rwsems
-4346c681b7b029688e2162159cb89a4aa27e9e20 f2fs: fix to enable ATGC correctly via gc_idle sysfs interface
-e0e839ba825e29fd017c5ff86d4b8aab98c388b3 f2fs: move discard parameters into discard_cmd_control
-a6ed392ea55015fea535b9444b6b6ba206f70631 f2fs: expose discard related parameters in sysfs
-7303e76827cc10ffea4abad1a9e491fba2a6d5d2 f2fs: add a way to limit roll forward recovery time
-c6f7c8faf62233f7223e4651c30f995c9eadcac9 f2fs: fix to avoid potential deadlock
-6353321a6d01586fe494954bdc215522d532981e f2fs: fix to unlock page correctly in error path of is_alive()
-bce3a3442d1a2f900d15bd1971922e1081d606d9 f2fs: introduce F2FS_IPU_DEFRAG to allow file defragment in IPU mode
-6c476c85806a002bdb1a9bd56cfb343db11fc0e9 f2fs: adjust readahead block number during recovery
-25246de3531146ffb79aaea1c7a2b564480a491a f2fs: support idmapped mounts
-c9563a84af587da301390f9b5341b4d4e8aa1daa f2fs: reduce expensive checkpoint trigger frequency
-0811568aed354bc4e6f3daf02ccf410c0893ba0e f2fs: introduce get_available_block_count() for cleanup
-bb6c3b6fe445689f17ded8a1e14b0cc185307d33 f2fs: introduce sb.required_features to store incompatible features
-6c9714acda48806ac1d05660961eae20264e7b3b f2fs: separate NOCoW and pinfile semantics
+04fcb5f9a104f24278ad849c642cbdf0c8f48453 selftests/bpf: Migrate from bpf_prog_test_run
+3931618378451f7ae884b14e4120e07560875cab selftests/bpf: Migrate from bpf_prog_test_run_xattr
+9cce53138dd9ee8bd7354196297df24130f3529d bpftool: Migrate from bpf_prog_test_run_xattr
+3e1ab843d2d4d2d4e67f9488c1497aedc014328a libbpf: Deprecate bpf_prog_test_run_xattr and bpf_prog_test_run
+707ee8ac3a5b29fecb69c9a4c4f5e51b0cbf2ca9 Merge branch 'migrate from bpf_prog_test_run{,_xattr}'
+a5dd9589f0ababa9ca645d96cfaa8161d45dcb74 libbpf: Stop using deprecated bpf_map__is_offload_neutral()
+1a56c18e6c2e4e7482ac9e1a4ffe1770841dd6bd bpftool: Stop supporting BPF offload-enabled feature probing
+a9a8ac592e47ff35363308ad4c66740724132aa3 bpftool: Fix uninit variable compilation warning
+32e608f82946e1e600f8c92b765c18b7189e596d selftests/bpf: Remove usage of deprecated feature probing APIs
+e4e284a8c0d9823c07ee674445de05928be67231 selftests/bpf: Redo the switch to new libbpf XDP APIs
+1e4edb6d8c4f045823291862e7e28591cb6f2067 samples/bpf: Get rid of bpf_prog_load_xattr() use
+c3be3676dea1cc0223a29ae06a13404acf7bda13 Merge branch 'bpf-libbpf-deprecated-cleanup'
+dd33fb571f5cd25c0d0f9d017dba783c85b70b82 bpf, docs: Document the byte swapping instructions
+63d8c242b9a502f1517b3e8c45d2125649dd5d7b bpf, docs: Better document the regular load and store instructions
+15175336270a76695412aedf68f3eab746d84b4b bpf, docs: Better document the legacy packet access instruction
+5ca15b8a939ff59f3e9f957ad4af5658c016cf7e bpf, docs: Better document the extended instruction format
+594d323485567d36674a8ff4f344d81a830de5ac bpf, docs: Better document the atomic instructions
+a6763080856f444868620ae065ac25cbac0c4922 bpf: test_run: Fix OOB access in bpf_prog_test_run_xdp
+ca33aa4ec5cbae7ddb995e565bc3b67ee4532b7a libbpf: Deprecate priv/set_priv storage
+d7e7b42f4f956f2c68ad8cda87d750093dbba737 bpf: Fix a btf decl_tag bug when tagging a function
+cf1a4cbce63b766d3b7aa5eb57a56d9a2c45ca6c selftests/bpf: Add a selftest for invalid func btf with btf decl_tag
+227a0713b319e7a8605312dee1c97c97a719a9fc libbpf: Deprecate forgotten btf__get_map_kv_tids()
+800c52a090269ec7916b9827fb064c5de7094b6c bpf: Extend sys_bpf commands for bpf_syscall programs.
+916943bf8ba1a619fd0daad0872e4b3a9c423891 libbpf: Prepare light skeleton for kernel.
+bad562f2eebdf6d7ddff6b33f6c64d8dbda78cbb bpftool: Generalize light skeleton generation.
+cdd6657219a8450af2199d5e8a26127a81de44c5 bpf: Update iterators.lskel.h.
+75354abba9edc04536f3a13862c69eca26e74aa0 preload_kern hack
 
---===============4192579475693485967==--
+--===============7089502919165165071==--
