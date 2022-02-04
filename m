@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0919396121658723580=="
+Content-Type: multipart/mixed; boundary="===============1124851956914147836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 04 Feb 2022 00:43:30 -0000
-Message-Id: <164393541033.13030.17125143120214728558@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 00:46:14 -0000
+Message-Id: <164393557486.15489.5358356838817185417@gitolite.kernel.org>
 
---===============0919396121658723580==
+--===============1124851956914147836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/array-bounds
-    old: 8ad7c204f8f46855b68ad1f0acdf914503a2ffef
-    new: 93653fa75a84326dde27e4692b169262aeda5855
-    log: revlist-8ad7c204f8f4-93653fa75a84.txt
+  - ref: refs/heads/for-next/kspp
+    old: 62fa3442e64b0e5d8d3b26774563f438ef11f466
+    new: 9327f2939dc4692432a8b0c115edd9c1bf459f92
+    log: revlist-62fa3442e64b-9327f2939dc4.txt
 
---===============0919396121658723580==
+--===============1124851956914147836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ad7c204f8f4-93653fa75a84.txt
+Content-Disposition: attachment; filename=revlist-62fa3442e64b-9327f2939dc4.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -486,5 +486,26 @@ a3d9ef8229286703d992f7d71c02bbf5a5251dad tpm: vtpm_proxy: Check length to avoid 
 102a4c406d003b649f6e521f37054dab2c0f1c9c m68k: cmpxchg: Dereference matching size
 c58345173d387cc7337a38fab442314a52c2a4a5 Makefile: Enable -Warray-bounds
 93653fa75a84326dde27e4692b169262aeda5855 Makefile: Enable -Wzero-length-bounds
+eedbb6f193153ea42043081c82d302677c1655fd KVM: x86: Replace memset() "optimization" with normal per-field writes
+95ae8df365bb3eaef82e68dd09706c522315839a intel_th: msu: Use memset_startat() for clearing hw header
+f90dc1ce2500bf13bcf5fcfff064fea66110be6e media: omap3isp: Use struct_group() for memcpy() region
+66afa553fc86265f775aa774cec495ab8a475105 net/mlx5e: Avoid field-overflowing memcpy()
+b1372d3526d1de3076096df43112544ee97a993b net/mlx5e: Use struct_group() for memcpy() region
+94aab3b79777e4de6239f8aae4c2dc5c5445687f scsi: mpt3sas: Convert to flexible arrays
+3dc114fdb1146e3f8035ce3e7862bb15761f8577 fortify: Detect struct member overflows in memcpy() at compile-time
+8be735e83d113baee6e35d66854e55e54af645f0 fortify: Detect struct member overflows in memmove() at compile-time
+d49c1bd1c14d2c2aa33a9f3914edc46b559e216d fortify: Detect struct member overflows in memset() at compile-time
+274d8f425a843612f1ce06282c973a78cd69bbec fortify: Update compile-time tests for Clang 14
+ddc6bc08dcb9a5090360ead634348aa7c70447e5 gcc-plugins/stackleak: Use noinstr in favor of notrace
+1099ce55b0530ff429312dc37362ad43aee8c5c0 x86: don't build CONFIG_X86_32 as -ffreestanding
+4bb8b32d1fd92259184e736110584e5b4e7a05e4 Compiler Attributes: Add __pass_object_size for Clang
+a382dbba4f1e3e7ba1433bc2f33f661491572a26 Compiler Attributes: Add __overloadable for Clang
+d3b2dc20b4f53ac75144c316a749cbc3c6f7372a Compiler Attributes: Add __diagnose_as for Clang
+4cfbda15d6578759c0157b18698e0c10ba598856 fortify: Add Clang support
+f1d61881a32ae8b4bdd3470fd23822b18718d0eb test_overflow: Regularize test reporting output
+a66866cff71cee3a9ebadb869ddf2bd465db4832 overflow: Implement size_t saturating arithmetic helpers
+9b2930f3d155f535382fa63decbfc9e822b8222a Merge branch 'for-next/memcpy' into for-next/kspp
+3b1d45c294acb14a69c3e859e17d4d0bca19557d Merge branch 'for-next/overflow' into for-next/kspp
+9327f2939dc4692432a8b0c115edd9c1bf459f92 Merge branch 'for-next/hardening' into for-next/kspp
 
---===============0919396121658723580==--
+--===============1124851956914147836==--
