@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 04 Feb 2022 08:04:12 -0000
-Message-Id: <164396185253.16089.12875545049871689052@gitolite.kernel.org>
+Date: Fri, 04 Feb 2022 08:07:14 -0000
+Message-Id: <164396203452.18599.11194373943122381955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,162 +11,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
-  - ref: refs/tags/arm-defconfig-5.8
-    old: 125516abebc2aea73fdc8aa1d4b91f982f4f6999
+  - ref: refs/tags/armsoc-defconfig
+    old: cb75b4a6567a2f88c5151a1064ac67935f9b78cd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-defconfig-5.9
-    old: 8166fff79672d9225a7cd7f9dfc01cf4dc2d37b6
+  - ref: refs/tags/armsoc-drivers
+    old: fe04f61ca0177dbf7e5abdd188d54617756bb527
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-defconfig-v5.12
-    old: 7d5f8dde12252d62858c8a1e4ce713c9d6559730
+  - ref: refs/tags/armsoc-dt
+    old: 6c41310feca05298706d7639d65029dd509378ce
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-5.13
-    old: 02b5d27ec55704b1707e30908ab26dddf890e1c7
+  - ref: refs/tags/armsoc-fixes
+    old: b4064f8133a9097e9469dd505acf8b5d215320f1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-5.14
-    old: 087251351c2c425af561ecb53920b67eb404542f
+  - ref: refs/tags/armsoc-fixes-5.0
+    old: d3c7455ee9ec4a60476d668dbd734bc205d3e910
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-5.7
-    old: 65272ad9a267c75364e06acb6d7537228f151cea
+  - ref: refs/tags/armsoc-fixes-5.15
+    old: a42440f6a964b6f5bcc23fde5f0f12d6b6844a99
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-5.8
-    old: 8542d386c4650da5ab42eb002d76456f81acf88b
+  - ref: refs/tags/armsoc-fixes-v5.7
+    old: cd2315232dc2e6c9c1b1a094302f279d64f219b3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-5.9
-    old: 0841fb60cde20c6d5f4346a1fd9d58d8bfb0817a
+  - ref: refs/tags/armsoc-late
+    old: c81d6194be8a9d588f3efff01a4de0ccb9060408
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-drivers-v5.12
-    old: b8c11dda069f023c0ed74be14a0d31a376f17a7f
+  - ref: refs/tags/armsoc-newsoc
+    old: b1b82ee118f756cb0a4c7a433fc596e344ea2c38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-5.13
-    old: 59d09d658a8c22960fed179c38c73a67e4bdd0ac
+  - ref: refs/tags/armsoc-soc
+    old: 0d5a29743d0e509e5049e24d6dff2d537a054322
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-5.14
-    old: 40c0ffbab88d4cbf4385e209dec324408f05e121
+  - ref: refs/tags/soc-5.15
+    old: 955eb7ab575dae928c292e28b4afcfae403c9fbf
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-5.7
-    old: 47cdf0937225455f2acdd5e6ecad893cbdd54d88
+  - ref: refs/tags/soc-5.16
+    old: f5505af12aad9d6623ec619313befd2288dd0952
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-5.8
-    old: 14d8ada1f2bf50195c5780fce27a0bb08c5c91e3
+  - ref: refs/tags/soc-fixes-5.12
+    old: 5e7d8c44260c09ee33345d318f8364b2a2e8413e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-5.9
-    old: 7c5520507580de581d03fe93cd2dba0cacdbf8ea
+  - ref: refs/tags/soc-fixes-5.14-1
+    old: a0404bf037c72b04696d1fe7ddd65fa3fbf28966
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-dt-v5.12
-    old: 3b2843672cd5e87b12de82d891ff2892446de2c4
+  - ref: refs/tags/soc-fixes-5.14-2
+    old: 082947e5a95d7a61d702389281df0137549bbd99
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.11-1
-    old: 244938281f60c4bdb62367b2a499000355bbc043
+  - ref: refs/tags/soc-fixes-5.14-3
+    old: ef43be724a78dd78de5a7177e1b066ef9772bd5b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.11-2
-    old: 44e45e792d4ed4a64b090075e165661bf1bea7be
+  - ref: refs/tags/soc-fixes-5.14-4
+    old: e67f52e990f74fd371e1f912edc78ec41b8c4b27
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.12-3
-    old: 354367c234f025ed43a616d5181721621e51bdea
+  - ref: refs/tags/soc-fixes-5.16-3
+    old: 8d94381702fb32eaf2db726fed397a39336e5515
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.12-4
-    old: 28693e86d9fea338f32a4d19be9c3d89826388a4
+  - ref: refs/tags/soc-fixes-5.16-4
+    old: cadd40e012c95c5f0ffd865605778012d88de7ae
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.16
-    old: 5ab34ebb72031821f58fe5d3dff51b1c1a610f20
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.16-2
-    old: dd2ab4e911a96c8bbe62d6794231050ae67e31c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.16-4
-    old: e3230bc6119551980085bfaeaaa38226b823e625
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.8-1
-    old: 48cea51a756a2d459251de9a7cfb6e54eb012544
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.8-2
-    old: 7856c7267b1e292285223c843b5913964c2f16c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-5.8-3
-    old: f0b13b880fff83935c895ab38064696162c81b9e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-fixes-v5.12
-    old: 70162d7cf96c2179f9ad299328eba95bde511c45
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-newsoc-5.13
-    old: f89fa548cd0b0efe25d43feceb805d46ddd6b160
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-newsoc-5.9
-    old: 99b1998dc98019f59cbbbfb679dc0f87a3a788d7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-omap-fixes-5.8-1
-    old: 14c750dfe8e439be720a7d4d3197faa15e2f55f7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-platform-removal-v5.12
-    old: 7ba68e45fab9411d2ba8eb3b59d2e79440cbd1ba
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.11
-    old: c90771058eb342c1f03e000a640dbe28ce99099d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.13
-    old: 9de69117a8e530800b77705645d59424ad875e30
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.14
-    old: da0b396486bab173daba3aa426889377f44b5337
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.7
-    old: b937b224c1055699db5cac6c4f9bf11d7fd6586c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.8
-    old: abe426b7ca03cb4b1deff0cb7f7453f8c17378b0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-5.9
-    old: aaced6125354c9e69213b526ddb4d328c43b3e8a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-defconfig-5.11
-    old: d63b993eb65d8c78eeb9dc6d668b747e35c3c74f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-drivers-5.11
-    old: 73773ea7f8f11473974cee727b4f064f9aaa22e6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-dt-5.11
-    old: f25a673b0a9e0e78c3bb19edb6a5a919cb3205a3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-5.13-1
-    old: a5b299ded836b718b966718c025a7ffadda09629
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-5.15-2
-    old: e805c06a80fb657f568ea36600a8e1e6746c2987
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-5.15-3
-    old: 4a6aa8a74250ff9cc7e3d55918d9f807fbf9f6ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-5.6
-    old: e02f22b2b64fd9cedf650844b0722c77a11afbd7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-5.7
-    old: 3fd5aa6607b47c4d5e69643250853bdd4533ef5a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.10-1
-    old: 7a55d04198cd3be0febeabae394fecdf9ebc151a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.10-2
-    old: fb804e271ba9605b48090798b4b7cc39dcb5a2f7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.10-3
-    old: 51eb13e1749c12980b53c8f4900f4d0ae0a7df40
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.10-4b
-    old: eaac915af78fab869a36e6546718586bcfae67ac
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.11-2
-    old: b0bbb80bae37b3b1094a6478ed48d679561afb16
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.11-3
-    old: fefa7b30b56cadd60616c855b4d006b1a9b92948
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-v5.13-2
-    old: ba0934a87f3257ed37cc16ec38064043ac212932
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-omap-genpd-5.11
-    old: d7223146349f726f78f1167fcb1a493651f8db2b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-v5.12
-    old: f598af9c4e9c28595f78de25b91f014508b477f2
+  - ref: refs/tags/soc-fixes-5.16-5
+    old: f66de4ae2830eab0835f71e59f75550eaee8b84f
     new: 0000000000000000000000000000000000000000
