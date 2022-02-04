@@ -1,60 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5929971121391324827=="
+Content-Type: multipart/mixed; boundary="===============5395152003875514231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 04 Feb 2022 14:47:26 -0000
-Message-Id: <164398604608.1082.7685418028402663320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 04 Feb 2022 14:50:04 -0000
+Message-Id: <164398620417.3551.11447391000955329944@gitolite.kernel.org>
 
---===============5929971121391324827==
+--===============5395152003875514231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: abaca3179b41d4b3b115f27814ee36f6fb45e897
-    new: ad10ab11348c7379f9e66552b2c6a15cac393940
-    log: |
-         b2fb28dedd39408268db38da98ef9c7d444623ab drivers/android: remove redundant ret variable
-         84564481bc4520c47e7fe9c594c0523d81e6a97a mux: Add support for reading mux state from consumer DT node
-         6632866df852bd0907f67ff7db5cbdb448f6ae16 mux: add missing mux_state_get
-         f22d1117b9c3e2e3c176b8814dbbbc8cfffad4fa mux: fix grammar, missing "is".
-         ad10ab11348c7379f9e66552b2c6a15cac393940 mux: Fix struct mux_state kernel-doc comment
-         
+  - ref: refs/heads/for-5.18/block
+    old: 78e3437450be5236c4949e377c9b848bbcd4fcb0
+    new: abfc426d1b2fb2176df59851a64223b58ddae7e7
+    log: revlist-78e3437450be-abfc426d1b2f.txt
+  - ref: refs/heads/for-next
+    old: f9f95d675c36e06dcc39fde0dafa6a50f26d4af3
+    new: e1e5798b61be876610b08248fbb6c2142aad815b
+    log: revlist-f9f95d675c36-e1e5798b61be.txt
 
---===============5929971121391324827==
+--===============5395152003875514231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-78e3437450be-abfc426d1b2f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643986043 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1643986042-a2e3707bb0739d5dd658fef758a73d6e68f0600c
+c347a787e34cba0e5a80a04082dacaf259105605 drbd: set ->bi_bdev in drbd_req_new
+6c23f0bd7f16d88c774db37b30c5da82811c41be dm: add a clone_to_tio helper
+b1bee79237ce0ab43ef7fe66aa6e5c4783165012 dm: fold clone_bio into __clone_and_map_data_bio
+8eabf5d0a7bd9226d6cc25402dde67f372aae838 dm: fold __send_duplicate_bios into __clone_and_map_simple_bio
+dc8e2021da71f6b2d5971f98ee3e528cf30c409c dm: move cloning the bio into alloc_tio
+1561b396106d759fdf5f9a71b412e068f74d2cc9 dm: pass the bio instead of tio to __map_bio
+1d1068cecff70cb8e48c7cb0ba27cc3fd906eb31 dm: retun the clone bio from alloc_tio
+891fced644a7529bfd4b1436b2341527ce8f68ad dm: simplify the single bio fast path in __send_duplicate_bios
+3c4b455ef8acdacd0e5ecd33428d4f32f861637a dm-cache: remove __remap_to_origin_clear_discard
+56b4b5abcdab6daf71c5536fca2772f178590e06 block: clone crypto and integrity data in __bio_clone_fast
+92986f6b4c8a2c24d3a36b80140624f80fd93de4 dm: use bio_clone_fast in alloc_io/alloc_tio
+a0e8de798dd6710a69d69ec57b246a0e34c4a695 block: initialize the target bio in __bio_clone_fast
+abfc426d1b2fb2176df59851a64223b58ddae7e7 block: pass a block_device to bio_clone_fast
 
-abaca3179b41d4b3b115f27814ee36f6fb45e897 ad10ab11348c7379f9e66552b2c6a15cac393940 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
+--===============5395152003875514231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f9f95d675c36-e1e5798b61be.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9PHsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HjMQALckEBM3oJo85dXidaZb
-lLlFoj1dR4l0zHtQ+tniWIwEix9Cm0fO2887RfT1oHJkCDxGOkimW4ft/Aufz8i7
-TTXkh+AD2TSxHu58bAKNN1rHofkYEI5BoPVhCQhB9r00T6dduWh4CXE1NB/jb3n4
-wjd0Fv2sMgzfdlt6xmzGUpP4+eZ6+iIbT362bp+wBdAc5lgIE5yWinihXlP3tKix
-xqqUJnh6BnqzR9JSbg/4AMkQIk/dB9knruqk9t0eYMKIOlpuLhuzzPKh9/J1cauq
-h9RzhZrIQ+JKEXl++Z9w7U/2l+xkdQOfuO2vQ5Jd/zWPLejEFHhflZOuxlYFz67R
-YTdTWbP9ILi7WhaW7NTJl6TiFGny0RAevhm1G39eKo4C0MkHAy/Q0xuVg1WYVjmb
-poGM2gc3GV/1NOULtweBU5pcUqtLWWWDDU9K5r5odYdg4EI8FNIKqaW6hyHl61lC
-p+GpXtac9icw5Alc5TAcHx+itRn7QcyJ+inBpNFpYNumn4vzzbKDWN+s5kT3JQ8c
-NgvEtvAHTUE27Hdia7V0GbfRFK6TfHQgEkh3iqXCyku1iaW7+bs6uVG1r1negqB8
-tiH+5rlhR6lXE4MES5GUd8EtfTh0KrzhzQ/9DEUk3uYHCmZw84TIJ3ii4ZUKla1R
-10NVqD9D5UCJZ381wPUH9yA0
-=gYeY
------END PGP SIGNATURE-----
+c347a787e34cba0e5a80a04082dacaf259105605 drbd: set ->bi_bdev in drbd_req_new
+6c23f0bd7f16d88c774db37b30c5da82811c41be dm: add a clone_to_tio helper
+b1bee79237ce0ab43ef7fe66aa6e5c4783165012 dm: fold clone_bio into __clone_and_map_data_bio
+8eabf5d0a7bd9226d6cc25402dde67f372aae838 dm: fold __send_duplicate_bios into __clone_and_map_simple_bio
+dc8e2021da71f6b2d5971f98ee3e528cf30c409c dm: move cloning the bio into alloc_tio
+1561b396106d759fdf5f9a71b412e068f74d2cc9 dm: pass the bio instead of tio to __map_bio
+1d1068cecff70cb8e48c7cb0ba27cc3fd906eb31 dm: retun the clone bio from alloc_tio
+891fced644a7529bfd4b1436b2341527ce8f68ad dm: simplify the single bio fast path in __send_duplicate_bios
+3c4b455ef8acdacd0e5ecd33428d4f32f861637a dm-cache: remove __remap_to_origin_clear_discard
+56b4b5abcdab6daf71c5536fca2772f178590e06 block: clone crypto and integrity data in __bio_clone_fast
+92986f6b4c8a2c24d3a36b80140624f80fd93de4 dm: use bio_clone_fast in alloc_io/alloc_tio
+a0e8de798dd6710a69d69ec57b246a0e34c4a695 block: initialize the target bio in __bio_clone_fast
+abfc426d1b2fb2176df59851a64223b58ddae7e7 block: pass a block_device to bio_clone_fast
+e1e5798b61be876610b08248fbb6c2142aad815b Merge branch 'for-5.18/block' into for-next
 
---===============5929971121391324827==--
+--===============5395152003875514231==--
