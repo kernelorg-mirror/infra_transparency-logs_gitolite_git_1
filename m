@@ -1,71 +1,83 @@
-Content-Type: multipart/mixed; boundary="===============2701378861035449026=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 04 Feb 2022 14:21:08 -0000
-Message-Id: <164398446890.13741.17746749384089714538@gitolite.kernel.org>
-
---===============2701378861035449026==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Fri, 04 Feb 2022 14:24:28 -0000
+Message-Id: <164398466839.16307.17609221993510014773@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/staging-testing
-    old: d0d82cb741d0ad42bb776e17011c98fcdab9fee6
-    new: 7ef976e0dc598189232d2d791645a9c4e7e4f7ef
-    log: revlist-d0d82cb741d0-7ef976e0dc59.txt
-
---===============2701378861035449026==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1643984467 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1643984465-d73491fc83b6ba4aef18d615043f4c344fcf8a17
-
-d0d82cb741d0ad42bb776e17011c98fcdab9fee6 7ef976e0dc598189232d2d791645a9c4e7e4f7ef refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH9NlMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gTUQAI8cehrz7Bqj8euzxA0c
-nJxmXkhOCA91Tsvt+ruHmULY4z6aSv+3i90lkRx7ehqiPvaYYPzutmPGyEcIPPIW
-TtDC7yAxaNSTI+3y1LIEvtICRL3X7C6dvtiodg7oBZrMNTIlGLcJsCwebsgiyTgN
-Y4et6BR30YtVRlZ0bARHuC2ulUazgiQppXH1NEXL/Gc+bJbQaQoroRktO67UVEL1
-w85OXVLv7ogbgZRzD+7HIhEB3/7YBrbE7qyPMYaAY2o35ipUWK65TvJBmbUr0FZp
-caGGwPqSgiLShpire05Y7ejNcr6CtJ6hQqOcAjTqBtlbj4f89s+O8Tb8+tc6gr4d
-dpSFKLMuwxm+xQ7VRWQH9IYzAkfkS3L+5a3af65oyw2VhrTnbY3WNNnENrFyp/qX
-Yy+p1CKu1A4xSFwXwAEcNM8kSJ9771pw/Ek5YXZrGLBqhjtmSyrVIyaVnpMZc7JC
-tUx5LWVgMYqwYONudujYw/fTBdsJSYfmKc1iXMoGy7EkWesTHa8nGM6h+hmQ60Cc
-xqypem6n3oRpNFYxl1noiZaC1srTJ0LFw3RruRi+jvSQjVnvjnsp+NxUufAPDNi5
-9SybBqyaWZxxdnsBSBNDvwTOypnfAAdAxrRLXoGlp5gV3bqTXcaIz9jXRfJ+kILQ
-IrkZ5+NACaITQsrHiJs2F13K
-=r/46
------END PGP SIGNATURE-----
-
---===============2701378861035449026==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0d82cb741d0-7ef976e0dc59.txt
-
-b47f6db34c296343a22c9db4ebdcc51d92301dbe staging: r8188eu: Silence out-of-bounds warning in HT_caps_handler()
-999bae66ba9d15f25f74826b847d04679c725821 staging: r8188eu: ExternalPA is read-only
-75ba99b4022ead5dc03197d91450d19768967a2f staging: r8188eu: remove PGMaxGroup from struct hal_data_8188e
-513750ab921f18778daecd1b471ff94c18856586 staging: r8188eu: remove ReceiveConfig from struct hal_data_8188e
-2687230c07ed15539825457e211454bd71f2b0ab staging: r8188eu: BasicRateSet is set but never used
-b57774ccf573ae878fdcc80d8cf138a30995c2e8 staging: r8188eu: remove UsbTxAggDescNum from struct hal_data_8188e
-0da70274551457f25ac2380ff21e066928e4a59e staging: r8188eu: remove UsbTxAggMode from struct hal_data_8188e
-0646c218554f30103d603dc33b8f667161da24ee staging: r8188eu: remove UsbRxAggMode from struct hal_data_8188e
-eb5e767e568ffecc1a38dbca76fe1b98277553d8 staging: r8188eu: remove UsbRxAggBlock* from struct hal_data_8188e
-7ef976e0dc598189232d2d791645a9c4e7e4f7ef staging: r8188eu: remove UsbRxAggPage* from struct hal_data_8188e
-
---===============2701378861035449026==--
+  - ref: refs/heads/next
+    old: 89555951de17359b048417a0418bf83435bd53a7
+    new: 9769530f7810353c8f5edf546bd58272db00d60e
+    log: |
+         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
+         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
+         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
+         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
+         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
+         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
+         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
+         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
+         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         
+  - ref: refs/heads/pci
+    old: 89555951de17359b048417a0418bf83435bd53a7
+    new: 9769530f7810353c8f5edf546bd58272db00d60e
+    log: |
+         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
+         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
+         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
+         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
+         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
+         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
+         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
+         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
+         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         
+  - ref: refs/tags/for_autotest
+    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
+    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
+    log: |
+         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
+         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
+         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
+         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
+         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
+         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
+         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
+         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
+         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         
+  - ref: refs/tags/for_autotest_next
+    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
+    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
+    log: |
+         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
+         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
+         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
+         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
+         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
+         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
+         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
+         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
+         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         
+  - ref: refs/tags/for_upstream
+    old: 4ab0f4b75549224f3ddfee7b5c57b45a7df6d506
+    new: fb5c8cb2df22a02bd80ae33a6fb20f8a0fae690a
+    log: |
+         99401ea063e5bd5a49caff21dcec1188337991c9 ACPI ERST: PCI device_id for ERST
+         40f25642ceedd16399aace2ee44cfdbc27168b81 ACPI ERST: header file for ERST
+         63b7f71473fd285b0ce548923f9ba0dc6d27e6b8 ACPI ERST: support for ACPI ERST feature
+         4186ff4d02cdbef8ffd72a0a17ce75ff29f720f9 ACPI ERST: build the ACPI ERST table
+         41f5e561c5e2a43087cb7d5c60935b95c1ca206f ACPI ERST: create ACPI ERST table for pc/x86 machines
+         eab5cc9e227911da4d74e5d0702f97ae1c21c23d ACPI ERST: qtest for ERST
+         c3f90da0132ad889ce394e6e75f7bbaf7ff739fa ACPI ERST: bios-tables-test testcase
+         c5a9307475945ffef2530fabdd05e1d3f7f55cca ACPI ERST: step 6 of bios-tables-test.c
+         9769530f7810353c8f5edf546bd58272db00d60e util/oslib-posix: Fix missing unlock in the error path of os_mem_prealloc()
+         
