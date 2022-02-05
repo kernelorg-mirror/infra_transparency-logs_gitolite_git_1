@@ -1,53 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============8736666664878387307=="
+Content-Type: multipart/mixed; boundary="===============2680508489383797351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 05 Feb 2022 11:38:22 -0000
-Message-Id: <164406110292.20121.8898077501779579146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 05 Feb 2022 11:38:34 -0000
+Message-Id: <164406111471.20328.12257718399577348219@gitolite.kernel.org>
 
---===============8736666664878387307==
+--===============2680508489383797351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.10.97
-    old: 0000000000000000000000000000000000000000
-    new: 8b0d0b5f99479600932b9734abe1bca794ea589d
+  - ref: refs/heads/linux-5.10.y
+    old: f255ac9e8776ffe10c6b31a27bb438debca85a81
+    new: c8ed22bd97d47b7803173c4e2bd3cfd52693cf7f
+    log: revlist-f255ac9e8776-c8ed22bd97d4.txt
 
---===============8736666664878387307==
+--===============2680508489383797351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644061102 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1644061100-e517c3d443cdf239d4710ce98ed208a56723281c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644061113 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1644061111-601668bf2c933171324006138c90d328f0c18196
 
-0000000000000000000000000000000000000000 8b0d0b5f99479600932b9734abe1bca794ea589d refs/tags/v5.10.97
+f255ac9e8776ffe10c6b31a27bb438debca85a81 c8ed22bd97d47b7803173c4e2bd3cfd52693cf7f refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH+Ya4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DKEP/14e7L4Wk8lRshfRobyM
-sWORIepBZsHS1Bi/UYaWmM9/me0YQOHEnzNrrYauftX8A5eBYRAFOhHY4qHtHy1d
-Zh7afwai4LyOlQl1dpIbhl5wKuaonaCh+WXOlH8whYLZwjPQS5PL9PoRPRLhTGdY
-FTtF9e8PgvRtjIRyBuXWWiQqhCMmnUUY2T2F+heZOcl3SGtz6D84Lix7FS3vDymb
-vzQ1UyYI9/lfcFft9jilgKfrmnZpjCQdPulLZpZMkfunsXYQmU9ocyGy/63mzLbv
-xriRaTjOs61fky+754z142BjCBLsllNSUMGk4LSmJb7Q5cmN9hg+gib5GHoQuY0/
-qLqqCdVWzhHFVMMVKIJ87gWKoJ8B8TMeK09qV1bnCdZtfa9vYBZ9zQF4WfEWrt4z
-zCiz4OQFxoOa1yo4Ocx8Q5BlcErRkTeoTGjk2pAJ12YPaCIEcDn+/0G1KyfK1vsB
-STvtq3swSF4QiOyj/UQNO7kv1xELUUl3Jlf4n75d4Dq6GfXS9wOoQNkPvg7VXoas
-yGGC5VyP8Xl0qIceNaXAYi6B1H9jSA+nxIHIk8BUvX1Ek2sHKb+tqLnZ3YT+xhcX
-zHYW/N9M1BH6eUMCDh6fbfYWSuvw3mYrmjmo5nSEYxMKkhQs51G9w/NjYdfOS20M
-VTrrVHc3KhJRBqXZvYqrxtsO
-=hyhP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH+YbkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TKsP+gPK7XS41MleyJ4ewMNX
+1mxWGayOP+WGqeDHTZllYokVCh5I/538qeQeZBDO3yM+F6DVNoGeh/RVHjFI7Tuy
+Dbzfx0uiwtRPWaajpI003RGcoJxzDDZ6riQsgt99wgwXpYoMC9K73Ov66FeIcvtY
+QIPT1Zx395rq49zgq62BOM5Fpgk1nem7W2vd6qQdiHgOKV608lNPZ8oyKm8mML5m
+4Ao+UEsgxtj0jmac0P0Pk75LGJaL8eD0nDUpoyIbWlPkbn/ZmjPLAgm0xK3P4+CP
+4Zz0czhBVgfhocRcz+q9xMR9jDv2i7RIbwe8J4Kc34ze7jZ8JyY+ubAuixellEQV
+Zew0ePW10sVewWIXUspIJv6nF03zLeL5WJQil+LLAH9CPORqYbryuW1HexQPzvpo
+IftKz2OPLPqMBGqpL1OL5fZdWSRSJhfPLTwTsvJMIsUoobcUQhWgoUirlK31uQMZ
+syfymKhL33cgLZQm+CVifcNOCk9I1B2wzRLelEhSUQG3xCT+u9B3+HeS8E+SUZGB
+tg5qbYuunNgaARVqWg4K3Gx8dS6Bx/8e2P7Q+crmUhwpcWoCEsoWKfn/iSEo4Yz9
+WJ8dgl2DOGnYRexKHp1Ygcwx7y8nRgx2Bb1/c1J0ECJDmXsvunAnmDXYSLmJZP63
+I75dn8IkN+WiOicApZb8QWQA
+=dc6G
 -----END PGP SIGNATURE-----
 
---===============8736666664878387307==--
+--===============2680508489383797351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f255ac9e8776-c8ed22bd97d4.txt
+
+3b4c966fb156ff3e70b2526d964952ff7c1574d9 PCI: pciehp: Fix infinite loop in IRQ handler upon power fault
+2ed912e3e057b2e883cade4dcf9be74fcc5a7e82 net: ipa: fix atomic update in ipa_endpoint_replenish()
+ad81380d3a48f0d2f39ce5188d383897276c9c37 net: ipa: use a bitmap for endpoint replenish_enabled
+42fdbf8b7dab0328554899455a5b0a58526f8a63 net: ipa: prevent concurrent replenish
+063029a8820e63198ffdaec25f32bd7ed79fd2f0 Revert "drivers: bus: simple-pm-bus: Add support for probing simple bus only devices"
+080dbe7e9b86a0392d8dffc00d9971792afc121f KVM: x86: Forcibly leave nested virt when SMM state is toggled
+d4e4e61d4a5b87bfc9953c306a11d35d869417fd psi: Fix uaf issue when psi trigger is destroyed while being polled
+fbdbf6743f777729aadd00c4444234770f8dd042 x86/mce: Add Xeon Sapphire Rapids to list of CPUs that support PPIN
+46f919c6bdc564528a96971060576b4024f68a49 x86/cpu: Add Xeon Icelake-D to list of CPUs that support PPIN
+ac4ba79bb02881ed714adaa89faee601a18bff6d drm/vc4: hdmi: Make sure the device is powered with CEC
+1fc3444cda9a78c65b769e3fa93455e09ff7a0d3 cgroup-v1: Require capabilities to set release_agent
+a01ee1b8165f4161459b5ec4e728bc7130fe8cd4 net/mlx5e: Fix handling of wrong devices during bond netevent
+502c37b033fab7cde3e95a570af4f073306be45e net/mlx5: Use del_timer_sync in fw reset flow of halting poll
+b4ced7a46d9f51d3b48ad7c024da288723afacaf net/mlx5: E-Switch, Fix uninitialized variable modact
+77534b114f240d8a3296cfc576f0608880d2e5ed ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
+cadfa7dce526334d7ae1425cdc66c626f8adfbf5 net: amd-xgbe: ensure to reset the tx_timer_active flag
+4d3fcfe8464838b3920bc2b939d888e0b792934e net: amd-xgbe: Fix skb data length underflow
+7b4741644cf718c422187e74fb07661ef1d68e85 fanotify: Fix stale file descriptor in copy_event_to_user()
+e7be56926397cf9d992be8913f74a76152f8f08d net: sched: fix use-after-free in tc_new_tfilter()
+3bbe2019dd12b8d13671ee6cda055d49637b4c39 rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
+aa9e96db3121c65f6459912108fe3d3f35eafd62 cpuset: Fix the bug that subpart_cpus updated wrongly in update_cpumask()
+32e179971085832f5335e308774a04dd1147a316 af_packet: fix data-race in packet_setsockopt / packet_setsockopt
+176356550cedc166f23a9ec43e4b95bc224a6313 tcp: add missing tcp_skb_can_collapse() test in tcp_shift_skb_data()
+c8ed22bd97d47b7803173c4e2bd3cfd52693cf7f Linux 5.10.97
+
+--===============2680508489383797351==--
