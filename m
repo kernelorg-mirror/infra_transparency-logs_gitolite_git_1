@@ -1,85 +1,64 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sat, 05 Feb 2022 10:36:54 -0000
-Message-Id: <164405741424.18703.754461262007579822@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4761451524094129042=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 05 Feb 2022 10:53:23 -0000
+Message-Id: <164405840389.29597.17134443264242570533@gitolite.kernel.org>
+
+--===============4761451524094129042==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 388ba9f00dd56bfcea99cdd5ba25f118632393a2
-    new: ab295b1159cd8f2df860d54f82c793312af4d7f2
+  - ref: refs/heads/char-misc-linus
+    old: c0689e46be23160d925dca95dfc411f1a0462708
+    new: 9ccdcc73d37cf0f1d4f97712f6b38af8806ac064
     log: |
-         416f1343fe795a083ad65c4dc2907c6fd3fa420e Split LUKS2_activate_by_token.
-         ce6f6a48e8b114a32c6e0b6cb416a3c2bbea56b9 Add crypt_resume_by_token_pin API.
-         fea648cb1ddb8ad582da705a99d27be23a7cc2c6 Add support for crypt_resume_by_token_pin in cryptsetup.
-         ab295b1159cd8f2df860d54f82c793312af4d7f2 Do not resume device when not suspended.
+         42fed57046fc74586d7058bd51a1c10ac9c690cb phy: usb: Leave some clocks running during suspend
+         5070ce86246a8a4ebacd0c15b121e6b6325bc167 phy: broadcom: Kconfig: Fix PHY_BRCM_USB config option
+         6d1e6bcb31663ee83aaea1f171f3dbfe95dd4a69 phy: ti: Fix missing sentinel for clk_div_table
+         29afbd769ca338fa14cbfbbc824f7dc457ed7f2e phy: cadence: Sierra: fix error handling bugs in probe()
+         37291f60d0822f191748c2a54ce63b0bc669020f phy: xilinx: zynqmp: Fix bus width setting for SGMII
+         cfc826c88a79e22ba5d8001556eb2c7efd8a01b6 phy: stm32: fix a refcount leak in stm32_usbphyc_pll_enable()
+         46e994717807f4b935c44d81dde9dd8bcd9a4f5d phy: phy-mtk-tphy: Fix duplicated argument in phy-mtk-tphy
+         9a8406ba1a9a2965c27e0db1d7753471d12ee9ff phy: dphy: Correct clk_pre parameter
+         9ccdcc73d37cf0f1d4f97712f6b38af8806ac064 Merge tag 'phy-fixes-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
          
-  - ref: refs/merge-requests/210/head
-    old: a66534c4901322b50747da95aacdc7de4acb3e80
-    new: ab295b1159cd8f2df860d54f82c793312af4d7f2
-    log: |
-         95d35ecf4b992ee5c5916e2c263017c821b68966 Allow CI rawhide runner to fail.
-         2938c1f0775fbe7abdb3d458d86aeb65b286a5c6 Add crypt_get_label/subsystem
-         f2dbab70436a5bcb1d7c748dfd55f67786ae765c Add more label/susbystem API tests.
-         e38a1849079abce7e0c3f50fcf343b51cecae7a7 Avoid partial read in luks1 reencryption loop.
-         388ba9f00dd56bfcea99cdd5ba25f118632393a2 Add explicit tests for command failure in LUKS1 reencryption test.
-         416f1343fe795a083ad65c4dc2907c6fd3fa420e Split LUKS2_activate_by_token.
-         ce6f6a48e8b114a32c6e0b6cb416a3c2bbea56b9 Add crypt_resume_by_token_pin API.
-         fea648cb1ddb8ad582da705a99d27be23a7cc2c6 Add support for crypt_resume_by_token_pin in cryptsetup.
-         ab295b1159cd8f2df860d54f82c793312af4d7f2 Do not resume device when not suspended.
-         
-  - ref: refs/merge-requests/210/merge
-    old: 4639e7d3b4b6979f5cc6bcbf25fd9cda55ec0819
-    new: 0ac770b067f65793e378cfce072363fb483b1fd3
-    log: |
-         2938c1f0775fbe7abdb3d458d86aeb65b286a5c6 Add crypt_get_label/subsystem
-         f2dbab70436a5bcb1d7c748dfd55f67786ae765c Add more label/susbystem API tests.
-         e38a1849079abce7e0c3f50fcf343b51cecae7a7 Avoid partial read in luks1 reencryption loop.
-         388ba9f00dd56bfcea99cdd5ba25f118632393a2 Add explicit tests for command failure in LUKS1 reencryption test.
-         416f1343fe795a083ad65c4dc2907c6fd3fa420e Split LUKS2_activate_by_token.
-         ce6f6a48e8b114a32c6e0b6cb416a3c2bbea56b9 Add crypt_resume_by_token_pin API.
-         fea648cb1ddb8ad582da705a99d27be23a7cc2c6 Add support for crypt_resume_by_token_pin in cryptsetup.
-         ab295b1159cd8f2df860d54f82c793312af4d7f2 Do not resume device when not suspended.
-         0ac770b067f65793e378cfce072363fb483b1fd3 Merge branch 'resume-by-token' into 'master'
-         
-  - ref: refs/merge-requests/264/merge
-    old: 3bed1df0a6a854819e23f88591b51239de116c59
-    new: e2be9705e5c36d905d75dc3a1f0f54bf99195e75
-    log: |
-         e38a1849079abce7e0c3f50fcf343b51cecae7a7 Avoid partial read in luks1 reencryption loop.
-         388ba9f00dd56bfcea99cdd5ba25f118632393a2 Add explicit tests for command failure in LUKS1 reencryption test.
-         e2be9705e5c36d905d75dc3a1f0f54bf99195e75 Merge branch 'minor-documentation-improvements' into 'master'
-         
-  - ref: refs/merge-requests/273/head
-    old: d3690560ca3df4e7cd560f55407a9cd429866346
-    new: 8798aa0a751ac8655d1cdab714be966b4a4d74b7
-    log: |
-         e38a1849079abce7e0c3f50fcf343b51cecae7a7 Avoid partial read in luks1 reencryption loop.
-         388ba9f00dd56bfcea99cdd5ba25f118632393a2 Add explicit tests for command failure in LUKS1 reencryption test.
-         416f1343fe795a083ad65c4dc2907c6fd3fa420e Split LUKS2_activate_by_token.
-         ce6f6a48e8b114a32c6e0b6cb416a3c2bbea56b9 Add crypt_resume_by_token_pin API.
-         fea648cb1ddb8ad582da705a99d27be23a7cc2c6 Add support for crypt_resume_by_token_pin in cryptsetup.
-         ab295b1159cd8f2df860d54f82c793312af4d7f2 Do not resume device when not suspended.
-         7ca1a233f115a0b370ccd9b6bcebba0fd85f3245 Split reencrypt_verify_and_upload_keys function.
-         8798aa0a751ac8655d1cdab714be966b4a4d74b7 Do not upload keys in keyring during offline reencryption.
-         
-  - ref: refs/merge-requests/273/merge
-    old: e33b4adb5151974023f2dc059fa1e00a1f0f08f2
-    new: 8b35a3f889ca55eaa04a1081a4293bf7e1457b7e
-    log: |
-         e38a1849079abce7e0c3f50fcf343b51cecae7a7 Avoid partial read in luks1 reencryption loop.
-         388ba9f00dd56bfcea99cdd5ba25f118632393a2 Add explicit tests for command failure in LUKS1 reencryption test.
-         416f1343fe795a083ad65c4dc2907c6fd3fa420e Split LUKS2_activate_by_token.
-         ce6f6a48e8b114a32c6e0b6cb416a3c2bbea56b9 Add crypt_resume_by_token_pin API.
-         fea648cb1ddb8ad582da705a99d27be23a7cc2c6 Add support for crypt_resume_by_token_pin in cryptsetup.
-         ab295b1159cd8f2df860d54f82c793312af4d7f2 Do not resume device when not suspended.
-         7ca1a233f115a0b370ccd9b6bcebba0fd85f3245 Split reencrypt_verify_and_upload_keys function.
-         8798aa0a751ac8655d1cdab714be966b4a4d74b7 Do not upload keys in keyring during offline reencryption.
-         8b35a3f889ca55eaa04a1081a4293bf7e1457b7e Merge branch 'reencrypt-offline-no-kr' into 'master'
-         
+
+--===============4761451524094129042==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644058401 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1644058401-26db28049a0ecf1e5af07831b698365cbaa281f4
+
+c0689e46be23160d925dca95dfc411f1a0462708 9ccdcc73d37cf0f1d4f97712f6b38af8806ac064 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH+VyEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tNQP/R8rgazhCp1fWAumh0yN
+ZK8BemA5r/MCXfXHwq/kRq1aCJ0IUlmkFsMl2lTUDlUCG2+XVOjOBT1RGePYXCjv
+h4KFAzK8JP6J9W5K1IpFySwQbMnuk6xUdLq8fzGa8RH8FhCU6myATp2mkt447Qvx
+lXZ+QkBgTOI5XlCsx3eiQ0I4w6fvHoFkOqMX5XVjtZR2lewQvl+PABkvMuHHTvBg
+E8kHZNs65J17T5m9n1ZBscMWogjex04XTKEo9zMggfPdfKYtV3iRBJXtYT7zZVRE
+GI0kxUt7OHhnvaQ/a9j2p+/eDC/RPZPlJPMRvLjn+RfbZCWvPVdBYTiX/4CJjKcF
+kBCfr3G/j2uV46Xx1IbAaxid0otvtvFNaBf4TwENJTrZiGJgIi+bGAplp4YM0ldp
+VXSvDX6Ku99h8CD/cQPS/rc00hoSwoGOBKw8QWTI/2ODniohWAZ/LoA/BfkkmO7N
+wspgrnlPjQLfK6LpyyY79Dppd4KNjVj1BGTuBXDTmGNgfPOzanrWDg8VP+M/pUJb
+kTFHBR2v0BWULOLT42yZH7ZCtQbn72/B4A9HAfpcpIxuVira2WzSM8ffglW7FHsu
+h9aTjHl5+iXBJ9i1xjlxId/NG7h5zclXXKtQkxO3pnnkrP44HfxYkHl0yYi8sfqs
+YmfosK6XEDqcwqJXB0A9r4mF
+=yope
+-----END PGP SIGNATURE-----
+
+--===============4761451524094129042==--
