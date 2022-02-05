@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0545414289783607536=="
+Content-Type: multipart/mixed; boundary="===============6827543074558386842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Sat, 05 Feb 2022 21:15:04 -0000
-Message-Id: <164409570413.19690.13096245208064562549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Sat, 05 Feb 2022 21:15:13 -0000
+Message-Id: <164409571367.19872.17036779032564858742@gitolite.kernel.org>
 
---===============0545414289783607536==
+--===============6827543074558386842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9518471f18041730292153d33c017f35210c8d6e
     log: revlist-e84c3ae3a4b5-9518471f1804.txt
 
---===============0545414289783607536==
+--===============6827543074558386842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ b5e9aa924d69807ef7c80546231383bfa57a3388 trace-cmd library: Add zlib compression
 ddb78f8f9f5fa1fae9e2c9da4bb72e29cb55fd99 trace-cmd record: Add compression to the trace context
 9518471f18041730292153d33c017f35210c8d6e trace-cmd report: Add new parameter for trace file compression
 
---===============0545414289783607536==--
+--===============6827543074558386842==--
