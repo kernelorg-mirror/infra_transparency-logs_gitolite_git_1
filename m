@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5202485787789196871=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 05 Feb 2022 13:41:34 -0000
-Message-Id: <164406849481.24031.9571787498562896320@gitolite.kernel.org>
-
---===============5202485787789196871==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Sat, 05 Feb 2022 13:42:34 -0000
+Message-Id: <164406855415.24479.14898352411655282292@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 2c456f019af6864bd2cd404615c4c7bfc1d561b5
-    new: 301cdafefe55ea69094d756bb6595a2ac85f1d2a
+  - ref: refs/heads/for-next
+    old: e6ac77ab78cb15b46280eb3940e940583a96d509
+    new: 34fc68348554d5b0f98def6cae9f252c3eb0c172
     log: |
-         301cdafefe55ea69094d756bb6595a2ac85f1d2a 4.9-stable patches
+         e9b0e120d02abb45fe03e10d8a54828ceb92514e platform/x86: thinkpad_acpi: Add dual-fan quirk for T15g (2nd gen)
+         f7e62c5890f08543e7b4d305c4b4501f89aafe61 platform/x86: Replace acpi_bus_get_device()
+         6768bddb70f028a03cb297f18402988599959f7e platform/surface: Replace acpi_bus_get_device()
+         34fc68348554d5b0f98def6cae9f252c3eb0c172 platform/surface: surface3-wmi: Simplify resource management
          
-
---===============5202485787789196871==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644068494 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1644068492-04479c28d71ccd5e7a075b097fe28ae1e4a8c009
-
-2c456f019af6864bd2cd404615c4c7bfc1d561b5 301cdafefe55ea69094d756bb6595a2ac85f1d2a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmH+fo4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ywcP/15OGfOJ5bqoJ+n9OnCr
-D6Wsm1nsbiORFSCVoT8gQVQ7LO1dkMvwM8dwm01raGJFW7MFq0uWLVJ0Fx9PsGnE
-krx6p2+/qSd3ugYzsJX3bY5SbwiaelKpJyb1P4HI+Npgo3pWyqE4pCbkDxv2cyPn
-CSONJj8+/0+Qw65iRdFOI5fD4rA/oVcI1ocpw+hozOaCLii52GbH3zTGAvLVT4CT
-+TXOxt4/LXG4Dcq7uM846BXUkOiER3juLMcN91QuGmSgnFY6cnxgqaZz8lC9EMhS
-tnfkcuGW+OHTbCYotZ2h1XgHXWYUhYUOr6ko2Td50/9AJ1z/QeopHJs3m/nHUG9Q
-NrMi5p7O7BGOYKeKIXE+iNO6wS4H4t6mamYbeWCzg27qGliXdOuWHYQWh2Bl3/6w
-PgYqTRZu4xjqmKUnE2WsPqxGHMmEBH9kVeD9/aoAkZGrt7QeLcm6Dxj/AalbPvo8
-zoNi3EQJrnFIZ3eJ6yCGxu0FePQAw8elKr09Lw6CghnDsOzzilaVfb0lkp5MQlS0
-Zd5aB3srgYhwkQFaQ0UErgdStd+rh4zXTwjCQf7YlnPtCYxoNm8JIhqIEsIrbU3f
-5o22hPB5BTMRnDzoQ0UgS6kg8xSb/phLW3rd8QdI8QHjrNZ9FbAiTbD6VlEssxFG
-EPv+B7m9UfwSqTcO4ZBw3ZJu
-=8elK
------END PGP SIGNATURE-----
-
---===============5202485787789196871==--
