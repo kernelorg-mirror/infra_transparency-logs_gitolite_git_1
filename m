@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 05 Feb 2022 13:45:37 -0000
-Message-Id: <164406873703.27379.10099589984810381489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Sat, 05 Feb 2022 13:45:49 -0000
+Message-Id: <164406874921.27569.13270561550370056878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/jd/preempt-rt
-    old: 661be7f9c215540f50e92fe7616b50f8b71d49a0
-    new: 773f81f28d8e8bf5557db09a9c38f520df90364c
+  - ref: refs/heads/mhi-fixes
+    old: 5880eb8b0ff58496956639093f3f1a6b90d9521f
+    new: 68af8cf9851a57af937836edf55c6bad89d292a3
     log: |
-         773f81f28d8e8bf5557db09a9c38f520df90364c random: fix locking in crng_fast_load()
+         68af8cf9851a57af937836edf55c6bad89d292a3 bus: mhi: core: Add support for forced PM resume
          
