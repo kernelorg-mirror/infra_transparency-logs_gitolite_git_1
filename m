@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0171754539386667035=="
+Content-Type: multipart/mixed; boundary="===============2268972988088153224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 05 Feb 2022 20:29:13 -0000
-Message-Id: <164409295360.21300.8763116543782283069@gitolite.kernel.org>
+Date: Sat, 05 Feb 2022 20:29:15 -0000
+Message-Id: <164409295555.21411.2423153623720169990@gitolite.kernel.org>
 
---===============0171754539386667035==
+--===============2268972988088153224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0908a66ad1124c1634c33847ac662106f7f2c198
     new: 9a3d1eb80c7a087039c9c7a8b532c09e4dc9c67d
     log: revlist-0908a66ad112-9a3d1eb80c7a.txt
 
---===============0171754539386667035==
+--===============2268972988088153224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ f5af16d0ae28fb21c2cf4e4d93bc9e08784d7f85 libbpf: Fix accessing syscall arguments
 088d6aafd5bb0dc2911a865c86269d1c97f4602f libbpf: Fix accessing the first syscall argument on s390
 9a3d1eb80c7a087039c9c7a8b532c09e4dc9c67d Merge branch 'libbpf: Fix accessing syscall arguments'
 
---===============0171754539386667035==--
+--===============2268972988088153224==--
