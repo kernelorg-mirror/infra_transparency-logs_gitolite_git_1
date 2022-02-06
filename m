@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 05 Feb 2022 22:34:31 -0000
-Message-Id: <164410047170.5177.4297177049519503136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libcap/libcap
+Date: Sun, 06 Feb 2022 01:36:27 -0000
+Message-Id: <164411138729.24921.7684431073298874055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/libs/libcap/libcap
+user: morgan
 changes:
   - ref: refs/heads/master
-    old: 8d3a3f82f91704312c4ea2f038021d3f609b80ef
-    new: 7c866ef11e30e58ed507cd5b46533ab489aa581f
+    old: 1d88048c314c2bc239459ed10e0685c4b1950747
+    new: 66a8a1421e4520e9dda0a46704e25bafb989b1ae
     log: |
-         7037ae6184f22f1bdf2d0df0ac263b5924111a79 random: always wake up entropy writers after extraction
-         7c866ef11e30e58ed507cd5b46533ab489aa581f random: make credit_entropy_bits() always safe
+         66a8a1421e4520e9dda0a46704e25bafb989b1ae psx: free allocated memory at exit.
          
