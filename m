@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5921920456390499008=="
+Content-Type: multipart/mixed; boundary="===============2030690911099187025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 06 Feb 2022 22:44:57 -0000
-Message-Id: <164418749755.14955.12459755456143075334@gitolite.kernel.org>
+Date: Sun, 06 Feb 2022 22:45:07 -0000
+Message-Id: <164418750795.16576.7425783345939640980@gitolite.kernel.org>
 
---===============5921920456390499008==
+--===============2030690911099187025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: ba2d394c60ad4b5d70cd449b9e6f6380c2e36a50
-    log: revlist-e783362eb54c-ba2d394c60ad.txt
+  - ref: refs/heads/for-next
+    old: ce7eefa1c265bc0ab90884dbb8383b3795710c3a
+    new: a086db89b45cf03f14672ab7db943c2d237f0bd7
+    log: revlist-ce7eefa1c265-a086db89b45c.txt
 
---===============5921920456390499008==
+--===============2030690911099187025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e783362eb54c-ba2d394c60ad.txt
+Content-Disposition: attachment; filename=revlist-ce7eefa1c265-a086db89b45c.txt
 
 b5e7b59c3480f355910f9d2c6ece5857922a5e54 NFS: change nfs_access_get_cached to only report the mask
 73fbb3fa647bdb5b60469af8101c741ece03a825 NFS: pass cred explicitly for access tests
@@ -171,9 +171,6 @@ afa114d987c40e72ebbbc36bedf7d66b7cdc5883 selftests: net: ioam: expect support fo
 d11a327ed95dbec756b99cbfef2a7fd85c9eeb09 KVM: arm64: vgic-v3: Restrict SEIS workaround to known broken systems
 a6501e4b380faee6bbf41bb2f833977c7ac6491a eeprom: at25: Restore missing allocation
 16436f70abeebb29cd99444e27b310755806c1fa irqchip/gic-v3-its: Fix build for !SMP
-1ea1d6a847d2b1d17fefd9196664b95f052a0775 s390/nmi: handle guarded storage validity failures for KVM guests
-f094a39c6ba168f2df1edfd1731cca377af5f442 s390/nmi: handle vector validity failures for KVM guests
-3d787b392d169d4a2e3aee6ac6dfd6ec39722cf2 s390/uaccess: fix compile error
 e9b7c3a4263bdcfd31bc3d03d48ce0ded7a94635 efi/libstub: arm64: Fix image check alignment at entry
 f5390cd0b43c2e54c7cf5506c7da4a37c5cef746 efi: runtime: avoid EFIv2 runtime services on Apple x86 machines
 0f9e04221227302d665bf64c69e5308360f4f88a Merge tag 'perf_urgent_for_v5.17_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -198,9 +195,6 @@ f1e75e0d6a1ae02fa4189d7aeebab623bade2a21 hwmon: (pmbus/ir38064) Mark ir38064_of_
 c1ec0cabc36718efc7fe8b4157d41b82d08ec1d2 hwmon: (adt7470) Prevent divide by zero in adt7470_fan_write()
 aec982603aa8cc0a21143681feb5f60ecc69d718 powerpc/fixmap: Fix VM debug warning on unmap
 fb6433b48a178d4672cb26632454ee0b21056eaa powerpc/perf: Fix power_pmu_disable to call clear_pmi_irq_pending only if PMI is pending
-f3b7e73b2c6619884351a3a0a7468642f852b8a2 s390/module: fix loading modules with a lot of relocations
-90c5318795eefa09a9f9aef8d18a904e24962b5c s390/module: test loading modules with a lot of relocations
-c9bb19368b3ab111aedf3297e65bf84c9d3aa005 s390: update defconfigs
 dda8e14363f4f2bac0a1122322a35f47b5565d46 gpio: sim: check the label length when setting up device properties
 8aa0f94b0a8d5304ea1bd63bf1ed06f9e395e328 gpio: sim: add doc file to index file
 278583055a237270fac70518275ba877bf9e4013 KVM: arm64: Use shadow SPSR_EL1 when injecting exceptions on !VHE
@@ -407,7 +401,6 @@ f7e570780efc5cec9b2ed1e0472a7da14e864fdb KVM: x86: Forcibly leave nested virt wh
 d6e656cd266cdcc95abd372c7faef05bee271d1a KVM: nVMX: WARN on any attempt to allocate shadow VMCS for vmcs02
 ebb7fb1557b1d03b906b668aa2164b51e6b7d19a xfs, iomap: limit individual ioend chain lengths in writeback
 811f95ff95270e6048197821434d9301e3d7f07c KVM: x86: Free kvm_cpuid_entry2 array on post-KVM_RUN KVM_SET_CPUID{,2}
-663d34c8df98740f1e90241e78e456d00b3c6cad s390/hypfs: include z/VM guests with access control group set
 be4f3b3f82271c3193ce200a996dc70682c8e622 KVM: x86: Keep MSR_IA32_XSS unchanged for INIT
 4c282e51e4450b94680d6ca3b10f830483b1f243 KVM: x86: Update vCPU's runtime CPUID on write to MSR_IA32_XSS
 05a9e065059e566f218f8778c4d17ee75db56c55 KVM: x86: Sync the states size with the XCR0/IA32_XSS at, any time
@@ -877,6 +870,9 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
+4f9e67f5e03ab92ecbe51399a8cc55968106e8f9 MAINTAINERS: add Alexander Gordeev as maintainer for s390
+72fc40931d7a488e1646d04f988f4d5a97b02100 MAINTAINERS: downgrade myself to Reviewer for s390
+e286f231eab410793f3e91c924e6dbd23edee05a s390/module: fix building test_modules_helpers.o with clang
 a084c44eaa6a618415e1bcb076c7e1c088bcd54c s390-vfio-ap: introduces s390 kernel debug feature for vfio_ap device driver
 d5c49db21b743658db03d75cbf410596c2c90371 MAINTAINERS: update file path for S390 VFIO AP DRIVER
 68f554b7d250b632d5fa17063f84c618c48b32a8 s390/vfio-ap: add s390dbf logging to the handle_pqap function
@@ -887,5 +883,7 @@ f36e7c9845d998d1e4100b46cec9c678bff69a24 s390: remove invalid email address of H
 628c66942e233d73def54fa458641cfc96be6660 s390/sclp_sdias: fix sclp_sdias_copy() virtual vs physical address confusion
 9de209c7d584d6e06ad92f120d83d4f27c200497 s390/dump: fix os_info virtual vs physical address confusion
 ba2d394c60ad4b5d70cd449b9e6f6380c2e36a50 s390/lgr: use simple assignment instead of memcpy
+66c0ff0ae996637adde513106735910d1872f14b Merge branch 'fixes' into for-next
+a086db89b45cf03f14672ab7db943c2d237f0bd7 Merge branch 'features' into for-next
 
---===============5921920456390499008==--
+--===============2030690911099187025==--
