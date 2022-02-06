@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Sun, 06 Feb 2022 17:18:09 -0000
-Message-Id: <164416788902.970.3561517661956553856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 06 Feb 2022 18:31:47 -0000
+Message-Id: <164417230768.16848.5153568742040992000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 180b54d4c3dafc6c318a9379ca599aa37d0629bf
-    new: 2b3566c337c3140267364e446ee5f4e4e8b6ad7a
+  - ref: refs/heads/dev
+    old: b969d0fa42e247e9ec06e63c617b7a44d2565d63
+    new: e6e0d15aa1c5117dda15eb266e8b862627af7608
     log: |
-         fd5dd6acd8f823ea804f76d3af64fa1be9d5fb78 HID:Add support for UGTABLET WP5540
-         2b3566c337c3140267364e446ee5f4e4e8b6ad7a Merge branch 'for-5.17/upstream-fixes' into for-next
+         e6e0d15aa1c5117dda15eb266e8b862627af7608 mm: Check for SLAB_TYPESAFE_BY_RCU and __GFP_ZERO slab creation
          
