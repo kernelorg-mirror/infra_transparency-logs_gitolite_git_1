@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1558783522109996611=="
+Content-Type: multipart/mixed; boundary="===============8453857018870887775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Feb 2022 13:04:23 -0000
-Message-Id: <164423906378.9122.5282254420052345020@gitolite.kernel.org>
+Date: Mon, 07 Feb 2022 13:05:41 -0000
+Message-Id: <164423914122.11072.12062858775052763590@gitolite.kernel.org>
 
---===============1558783522109996611==
+--===============8453857018870887775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: a9940f83a6e279f7c059123d68d1e0395ec4bbe5
-    new: 469d56485c1bc9c2ccb4e150c42d18be58f0747c
-    log: |
-         469d56485c1bc9c2ccb4e150c42d18be58f0747c m68k: mm: Remove check for VM_IO to fix deferred I/O
-         
-  - ref: refs/heads/for-v5.18
-    old: a9940f83a6e279f7c059123d68d1e0395ec4bbe5
-    new: 469d56485c1bc9c2ccb4e150c42d18be58f0747c
-    log: |
-         469d56485c1bc9c2ccb4e150c42d18be58f0747c m68k: mm: Remove check for VM_IO to fix deferred I/O
-         
-  - ref: refs/heads/master
-    old: 69170eb5efdbb948ed90c0cc1438e6de21fe5cbe
-    new: 0966f2d6178459e692717274055ac9847e593f83
-    log: revlist-69170eb5efdb-0966f2d61784.txt
+  - ref: refs/heads/m68k-queue
+    old: cdd3ce832c2547c5e0b2a8c506bd4e9b183b02e4
+    new: a9abf61a0a45f6895d6f10cadfc436cb4ae01920
+    log: revlist-cdd3ce832c25-a9abf61a0a45.txt
 
---===============1558783522109996611==
+--===============8453857018870887775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69170eb5efdb-0966f2d61784.txt
+Content-Disposition: attachment; filename=revlist-cdd3ce832c25-a9abf61a0a45.txt
 
 e958b5884725dac86d36c1e7afe5a55f31feb0b2 ASoC: xilinx: xlnx_formatter_pcm: Make buffer bytes multiple of period bytes
 a64067f4cecaaa4deed8e33d3266bc0bcc189142 ASoC: simple-card: fix probe failure on platform component
@@ -437,7 +425,10 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
-4cfc78674fd58339a0b07f8fa349910a7af15e2f Merge tag 'v5.17-rc3'
-0966f2d6178459e692717274055ac9847e593f83 m68k: mm: Remove check for VM_IO to fix deferred I/O
+0094192471f555d011d91de55b62f1cb4c104c71 m68k: Add asm/config.h
+836c17188fef38909650826a31150408c084ccb9 m68k: mm: Remove check for VM_IO to fix deferred I/O
+4e2c0020be08ccc9000833992dd5c653d3638e4c m68k: atari: usb: Add ISP1160 USB host controller support
+489f4b000167a87b8f9808cbd01428d9d138060a m68k: atari: Update Kconfig.bus help text
+a9abf61a0a45f6895d6f10cadfc436cb4ae01920 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1558783522109996611==--
+--===============8453857018870887775==--
