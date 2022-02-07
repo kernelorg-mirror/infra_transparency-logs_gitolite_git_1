@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 07 Feb 2022 12:03:04 -0000
-Message-Id: <164423538460.946.11963891788855362861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 07 Feb 2022 12:07:07 -0000
+Message-Id: <164423562712.3968.17896904665029059246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 28f9222138868899c53e00bc1f910faa55f88546
-    new: 94fdd7c02a56d0316d20e417a1141b71a8dcee82
+    old: f485da3c111f8dabc1036a569cfb51a00d9b5416
+    new: 0812beb705ec84876029415d4e52bdc3e60d2bab
     log: |
-         94fdd7c02a56d0316d20e417a1141b71a8dcee82 net/smc: use GFP_ATOMIC allocation in smc_pnet_add_eth()
+         0812beb705ec84876029415d4e52bdc3e60d2bab caif: cleanup double word in comment
          
