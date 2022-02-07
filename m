@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Mon, 07 Feb 2022 18:52:39 -0000
-Message-Id: <164425995914.16400.8553338808276262977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 07 Feb 2022 18:54:05 -0000
+Message-Id: <164426004554.17009.5145128742600901199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 721435dcfd9274277af2fb6a4cec81d4a9bcc6b4
-    new: e4ba36f752010f741222f24c7d879940ba920197
+  - ref: refs/heads/damon/next
+    old: b5ebcbbb6f8d9c7db5c8299ecf81cb2628789a73
+    new: d8edd06bfc3d5852218f429b69c0ccc74ce14454
     log: |
-         5d57e130362aa5b1c8df980f2f31ce24d42ad1a3 iplink: add gro_max_size attribute handling
-         e4ba36f752010f741222f24c7d879940ba920197 iplink: add ip-link documentation
-         
-  - ref: refs/heads/master
-    old: 721435dcfd9274277af2fb6a4cec81d4a9bcc6b4
-    new: e4ba36f752010f741222f24c7d879940ba920197
-    log: |
-         5d57e130362aa5b1c8df980f2f31ce24d42ad1a3 iplink: add gro_max_size attribute handling
-         e4ba36f752010f741222f24c7d879940ba920197 iplink: add ip-link documentation
+         d8edd06bfc3d5852218f429b69c0ccc74ce14454 mm/damon/sysfs: Further cleanup
          
