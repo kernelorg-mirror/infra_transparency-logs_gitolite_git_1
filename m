@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8054863350524040103=="
+Content-Type: multipart/mixed; boundary="===============0588828787211647894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Mon, 07 Feb 2022 10:31:54 -0000
-Message-Id: <164422991405.3684.13686907042150106872@gitolite.kernel.org>
+Date: Mon, 07 Feb 2022 10:32:02 -0000
+Message-Id: <164422992234.3854.3746889255391134812@gitolite.kernel.org>
 
---===============8054863350524040103==
+--===============0588828787211647894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 82192cb497f9eca6c0d44dbc173e68d59ea2f3c9
-    new: 9c1be1935fb68b2413796cdc03d019b8cf35ab51
-    log: revlist-82192cb497f9-9c1be1935fb6.txt
+  - ref: refs/heads/testing
+    old: bc3897f79f7901902bb44d62dd1ad1b2b48e9378
+    new: eaef7c8cb01c03cb7c7b1bd1c77a1e2489dad7da
+    log: revlist-bc3897f79f79-eaef7c8cb01c.txt
 
---===============8054863350524040103==
+--===============0588828787211647894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644229909 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644229917 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1644229906-cb6ba7f95b873e564dcedda8df82af48118f03a3
+nonce 1644229917-18bd1c1b0cb5a63f586bd2e16d81e1aeb94b0522
 
-82192cb497f9eca6c0d44dbc173e68d59ea2f3c9 9c1be1935fb68b2413796cdc03d019b8cf35ab51 refs/heads/master
+bc3897f79f7901902bb44d62dd1ad1b2b48e9378 eaef7c8cb01c03cb7c7b1bd1c77a1e2489dad7da refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmIA9RUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXQIQB/4jxrm7ysqfc2CtD3eM9G5KLrY0enWN
-A6yLOLOryzwZoFoHEnBXeqOHJV01WZG/D8fa8a9Y5MKUjR2/Bi+r82md/QQT6Jk9
-Kkp/IvI7EwNE+VCDns2u7MyGl1+oWkcr8xJM0xLiKmKsqYvSGaWstVN/Y+WNcens
-hFMqO4z7oGGiUA/Zr8pBIYu60lrMPthACGDR3X/SX5TPpflsBS//vyl5r0ySX5Sq
-dWljIqGWOb3C+3cdh4YqT0UIQr4xvQUNeC4kF0L7kNdXvJlgJIYVcjdVN9dJajmL
-xHT5D9arZvwXdSOXxvKCX3LNOafEB1HrGMImUzMT6JlxYZtutfyquG3G
-=tS0z
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmIA9R0THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXT94CACnxm6BGqc7oFQNZjlSghDPgFWNck/w
+18wCVMtuHQIbGHP8ITkmzscNULx1dgtRE+D7PtdyIpk1Q68XnS+JfOkDlJkLOurt
+6KvLaUn8T/KNbFVdISLKp1wZJ71yYo8gdVE19ME4Y55D51EtPYA8UgIn9deCVY4N
+1WaI6rNsPSH5+BpRl+uGGlx6Y8+g+O3XnOluE+x25rR/cABV3ZpNzcO82SHpnxj9
+VtTC4+K7+/oqp3NTT3nep7S0FWepfltvsUmPpD2/nbQjefyXAAhv73nD+eEekmav
+ByFLAqJL6lbclfQQS06A5QCkKoQkZWZrP9a7YQUAQQxuRpgS5MP6WF63
+=ciGG
 -----END PGP SIGNATURE-----
 
---===============8054863350524040103==
+--===============0588828787211647894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82192cb497f9-9c1be1935fb6.txt
+Content-Disposition: attachment; filename=revlist-bc3897f79f79-eaef7c8cb01c.txt
 
-9b57f458985742bd1c585f4c7f36d04634ce1143 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-d225c449ab2be25273a3674f476c6c0b57c50254 octeontx2-af: Do not fixup all VF action entries
-00bfe94e388fe12bfd0d4f6361b1b1343374ff5b octeontx2-af: Fix LBK backpressure id count
-03ffbc9914bd1130fba464f0a41c01372e5fc359 octeontx2-af: Retry until RVU block reset complete
-fae80edeafbbba5ef9a0423aa5e5515518626433 octeontx2-af: cn10k: Use appropriate register for LMAC enable
-c5d731c54a17677939bd59ee8be4ed74d7485ba4 octeontx2-pf: cn10k: Ensure valid pointers are freed to aura
-1581d61b42d985cefe7b71eea67ab3bfcbf34d0f octeontx2-af: Increase link credit restore polling timeout
-df66b6ebc5dcf7253e35a640b9ec4add54195c25 octeontx2-af: cn10k: Do not enable RPM loopback for LPC interfaces
-a8db854be28622a2477cb21cdf7f829adbb2c42d octeontx2-pf: Forward error codes to VF
-745166fcf01cecc4f5ff3defc6586868349a43f9 octeontx2-af: Add KPU changes to parse NGIO as separate layer
-03c82e80ec283b115c56026ecdb95c901a57c51e Merge branch 'octeontx2-af-fixes'
-f6f02040e0ca7cb2e82d8aeb8f7daf5d89acc04c Merge branches 'acpi-cppc' and 'acpi-dptf'
-55235304c2560d4a94ccfff2a47ea927b4114064 Bluetooth: btintel: Fix WBS setting for Intel legacy ROM products
-2e7b4a328ed6ea57d22853939e69bc86c560996d Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-aa17e8ce1c20619af46fc2b472aa2d1c5e50c3cc Bluetooth: btusb: Whitespace fixes for btusb_setup_csr()
-a86974f75e8806bc357a9be02f9bde083f40b4ae Bluetooth: Remove kernel-doc style comment block
-80a00ab8344f0fe4d555a1f97960215b659436e9 fscache: Fix the volume collision wait condition
-5638b067d370583c6c455f019129ce33340b4142 cachefiles: Calculate the blockshift in terms of bytes, not pages
-c7ca73155762684a896ba57edf48519b645ea528 cachefiles: set default tag name if it's unspecified
-8c39b8bc82aafcc8dd378bd79c76fac8e8a89c8d cachefiles: Make some tracepoint adjustments
-b64a3314989df8e44c114f377808407f36dbf4f4 cachefiles: Trace active-mark failure
-14b9d0902dfa25dac9c41bf346aa655fdeafe5b2 cachefiles: Explain checks in a comment
-6633213139d827fb9abf9a9a280f3d9e89fc7091 cachefiles: Check that the backing filesystem supports tmpfiles
-c522e3ad296b7b692ed3960dfde467f2a34b434f fscache: Add a comment explaining how page-release optimisation works
-cef0223191452b3c493a1070baad9ffe806babac netfs: Make ops->init_rreq() optional
-d24846a4246b6e61ecbd036880a4adf61681d241 parisc: pdc_stable: Fix memory leak in pdcs_register_pathentries
-d16697cb6261d4cc23422e6b1cb2759df8aa76d0 net: skbuff: add size metadata to skb_shared_info for xdp
-2e88d4ff03013937028f5397268b21e10cf68713 xdp: introduce flags field in xdp_buff/xdp_frame
-76a676947b56710097b755d37fd7d5cea09d6e7d net: mvneta: update frags bit before passing the xdp buffer to eBPF layer
 d094c9851ae970d4c95a269f9410464ec064b8cd net: mvneta: simplify mvneta_swbm_add_rx_fragment management
 d65a1906b31246492449eafe9cace188cb59e26c net: xdp: add xdp_update_skb_shared_info utility routine
 ed7a58cb40bd1dda5bf3a7f4d18d2652423fd14b net: marvell: rely on xdp_update_skb_shared_info utility routine
@@ -1075,5 +1046,34 @@ d2692eee05b8502dbe4c480405feec79f4efbb55 net: typhoon: implement ndo_features_ch
 5a8fb33e530512ee67a11b30f3451a4f030f4b01 skmsg: convert struct sk_msg_sg::copy to a bitmap
 4acc45db711586dadb98e681ccb93f29372907a2 net: hsr: use hlist_head instead of list_head for mac addresses
 9c1be1935fb68b2413796cdc03d019b8cf35ab51 net: initialize init_net earlier
+eb4889f8faca8be4f44f64fbaf1488b26cb1c20a dt-binding: can: mcp251xfd: include common CAN controller bindings
+f3a20c96bfb9d7af456a0f0ff65cfa02a6957421 dt-binding: can: sun4i_can: include common CAN controller bindings
+f51723d2e1bafa0aef1f0346a8f1d11194820e77 dt-binding: can: m_can: include common CAN controller bindings
+f2be2686af7f7e696ecf51512ad8da23a3e18580 can: bittiming: can_validate_bitrate(): simplify bit rate checking
+63d10c9033c5994ee7d295dd10d2348d951b716e can: bittiming: mark function arguments and local variables as const
+f452f1bd9ac00a8772ffc4d0b0e9851f5efdcb86 can: kvaser_usb: kvaser_usb_send_cmd(): remove redundant variable actual_len
+55fd0d2bf6d6543f2ab7e89cce2f457c63a5918e can: c_can: ethtool: use default drvinfo
+a8af4fca15607b4f1269d31d944d050d1cb994fd can: softing: softing_netdev_open(): remove redundant ret variable
+2c8dd9ea363343f6db09eca452002ecc61c3f420 can: peak_usb: rename a callback to a more explicit name
+e65e76d1210e18802d9e8c383a411bf4d339afe7 can: peak_usb: add callback to read user value of CANFD devices
+e6458d9347a19aaafb960c0e9986310b44ed7f33 can: peak_usb: correction of a wrong field name
+b7d6e93a7e40e06f2a9a4232bf884a01507b2ff1 can: peak_usb: allow flashing of user defined value
+22ca092bbada68935f9c118753aca3415eee1fd0 can: peak_usb: replace unregister_netdev() with unregister_candev()
+62ccfe652ef0a9f98988e3a24d8059203cddca9e can: peak_usb: add ethtool interface to user defined flashed device number
+80c0da14c7a35ed66dc169e39b679aca3149a357 can: mcp251xfd: mcp251xfd_regmap_crc_read(): ignore CRC error only if solely OSC register is read
+4195b495e17156fe086ddd7d2d0f1e6a1331dae5 can: mcp251xfd: mcp251xfd_unregister(): simpler handling for !CONFIG_PM
+ebaf3b05a59cc8d8a8966ff4b207741b20f0b6d0 can: mcp251xfd: mcp251xfd_reg_invalid(): rename from mcp251xfd_osc_invalid()
+e71198d7e0e6884c072401abbd5cceb3197755b3 can: mcp251xfd: mcp251xfd_chip_sleep(): add
+f1c38aa1174609eecdebcd3763e5e51575a0eb3c can: mcp251xfd: mcp251xfd_chip_stop(): make it a void function
+99585502374a22aa69defacda62d597fa449dcf9 can: mcp251xfd: mcp251xfd_chip_wait_for_osc_ready(): factor out into separate function
+75f85688c829a3db772ca8819c058801f54f2b8b can: mcp251xfd: mcp251xfd_chip_wait_for_osc_ready(): improve chip detection and error handling
+712821ab035570c0cf561ee42b9fc973c74e73bb can: mcp251xfd: mcp251xfd_chip_wait_for_osc_ready(): prepare for PLL support
+0dd519392aa53aaffd6e365f44e9e5d4aa198c32 can: mcp251xfd: mcp251xfd_chip_softreset_check(): wait for OSC ready before accessing chip
+e41f73e91b75db0333d453d18501ab2e00b3e50f can: mcp251xfd: mcp251xfd_chip_timestamp_init(): factor out into separate function
+8f184f73ebb109d2723ad29578f74bb85f3ef2fe can: mcp251xfd: mcp251xfd_chip_wake(): renamed from mcp251xfd_chip_clock_enable()
+e19f7a3afe43a33476acba840fdba811e641c65d can: mcp251xfd: __mcp251xfd_chip_set_mode(): prepare for PLL support: improve error handling and diagnostics
+8ada532fa2d543a466ef4e3acb2e4186ba172f70 can: mcp251xfd: mcp251xfd_chip_clock_init(): prepare for PLL support, wait for OSC ready
+2705c06bbc97492dc80de9fdf6f86e08cd071a90 can: mcp251xfd: mcp251xfd_register(): prepare to activate PLL after softreset
+eaef7c8cb01c03cb7c7b1bd1c77a1e2489dad7da can: mcp251xfd: add support for internal PLL
 
---===============8054863350524040103==--
+--===============0588828787211647894==--
