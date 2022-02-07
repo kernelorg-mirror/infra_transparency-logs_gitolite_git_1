@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 07 Feb 2022 13:56:18 -0000
-Message-Id: <164424217840.13609.7225377002119722314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 07 Feb 2022 13:57:52 -0000
+Message-Id: <164424227299.14207.6534562444442452267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/for-5.17-fixes
-    old: ebd2caa912b8e442ad558c2aa47f2a927ad5124b
-    new: fda17afc6166e975bec1197bd94cd2a3317bce3f
+  - ref: refs/heads/stm32-next
+    old: a65e7c0e40574e260b17f51cfd45ae1215aa4f16
+    new: 59bb54bca1f57554157c6ba99fbc6c5fba42456e
     log: |
-         fda17afc6166e975bec1197bd94cd2a3317bce3f ata: libata-core: Fix ata_dev_config_cpr()
+         59bb54bca1f57554157c6ba99fbc6c5fba42456e ARM: dts: stm32: use exti 19 as main interrupt to support RTC wakeup on stm32mp157
          
