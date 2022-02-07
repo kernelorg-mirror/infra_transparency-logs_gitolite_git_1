@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 07 Feb 2022 16:07:21 -0000
-Message-Id: <164425004162.4641.1312696972276216963@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 07 Feb 2022 16:10:04 -0000
+Message-Id: <164425020406.7016.7952952924079880534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/jd/fast-key-erasure
-    old: a1307fda23bce7bfa9e1837c2f68726e5eeec9be
-    new: 6de65ce7af3977399d05ffb7047d08e6e6fa884a
+  - ref: refs/heads/master
+    old: 422ee58dc0ef62da33d38e8f561c70cb62bd80dd
+    new: e91d280c840f133560072f246321f9a4d1f4eb14
     log: |
-         6de65ce7af3977399d05ffb7047d08e6e6fa884a random: use cpu number as nonce in fast key erasure rng
+         046b841ea7c528931e7d2e74d5e668aa6c94c1fc selftests/bpf: Use "__se_" prefix on architectures without syscall wrapper
+         e91d280c840f133560072f246321f9a4d1f4eb14 selftests/bpf: Fix tests to use arch-dependent syscall entry points
          
