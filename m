@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Mon, 07 Feb 2022 01:51:36 -0000
-Message-Id: <164419869622.11556.14199392017437672587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 07 Feb 2022 02:13:33 -0000
+Message-Id: <164420001390.25241.3200182125507058718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-curr
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: f982d9b7c628388dae73b723cc2302cbd091cab5
+  - ref: refs/heads/master
+    old: 0d5095e50f037a52baaf6e42bc837bdf61f3f4b3
+    new: bf5159504691f404babe1abc18dd335fc400b84e
     log: |
-         1e74c46f431878ae351a713cb3c4cdd57b3ebf19 arc: use BUILD_BUG for invalid sizes in get_user/put_user
-         47669db01adbbe45a5bb07e7114dd1557ed66165 arc: provide __{get,put}_kernel_nofault
-         f982d9b7c628388dae73b723cc2302cbd091cab5 arc: remove set_fs()
+         c74ed1738069a37663d3b75b47f8dda4c4d615ce Fixes for 5.16
+         647a19432310bc72d28465600e2f22ec4d5b7ba7 Fixes for 5.15
+         bf5159504691f404babe1abc18dd335fc400b84e Fixes for 5.10
          
