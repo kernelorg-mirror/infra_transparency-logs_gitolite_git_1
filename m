@@ -1,40 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Mon, 07 Feb 2022 17:35:55 -0000
-Message-Id: <164425535568.30531.5421712516621290003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 07 Feb 2022 17:38:56 -0000
+Message-Id: <164425553656.31598.223968222970613970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-greg/4.14-200
-    old: 0000000000000000000000000000000000000000
-    new: 7881113ffe5f4a9fa65789ec07cf37de70186686
-  - ref: refs/heads/for-greg/4.19-200
-    old: 0000000000000000000000000000000000000000
-    new: 588c6916effed477186db42bf8c2f2bf0f502f01
-  - ref: refs/heads/for-greg/4.4-200
-    old: 0000000000000000000000000000000000000000
-    new: 18dc3b942ce31a243fb8ca212b42cccb2711f980
-  - ref: refs/heads/for-greg/4.9-200
-    old: 0000000000000000000000000000000000000000
-    new: 53f82505de1eb5fe977a0dc724bd11becc602119
-  - ref: refs/heads/for-greg/5.10-200
-    old: 0000000000000000000000000000000000000000
-    new: 2cd3d390e0185a26e75da8b55a8164430597336c
-  - ref: refs/heads/for-greg/5.14-200
-    old: 0000000000000000000000000000000000000000
-    new: 88684f12c2bb9077b08b6df93ed2b2408ae0e01a
-  - ref: refs/heads/for-greg/5.15-200
-    old: 0000000000000000000000000000000000000000
-    new: 4081e20253549c2b6f744792ce64f1f0de717952
-  - ref: refs/heads/for-greg/5.16-200
-    old: 0000000000000000000000000000000000000000
-    new: 73eda03dbaead47516a4461778ea900f0e76d05d
-  - ref: refs/heads/for-greg/5.4-200
-    old: 0000000000000000000000000000000000000000
-    new: ebcfc305f4b879fccb2cdf1753dcd01059d3a87e
+  - ref: refs/heads/mips-next
+    old: dfd42facf1e4ada021b939b4e19c935dcdd55566
+    new: e0a8b93efa2382d370be44bf289157de7e5dacb4
+    log: |
+         a0b8cd5c223042efe764864b8dd9396ee127c763 MIPS: ath79: add support for QCN550x
+         0e96ea5c3eb5904e5dc2f3d414e2aba361933b87 MIPS: Loongson64: Clean up use of cc-ifversion
+         d49fc69293f2022785f6ee1c3c7d565271abe393 MIPS: Loongson{2ef,64}: Wrap -mno-branch-likely with cc-option
+         e0a8b93efa2382d370be44bf289157de7e5dacb4 mips: Enable KCSAN
+         
