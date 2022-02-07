@@ -1,52 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9048538995068078051=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 07 Feb 2022 17:05:03 -0000
-Message-Id: <164425350345.10563.3769883172874829328@gitolite.kernel.org>
-
---===============9048538995068078051==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 07 Feb 2022 17:14:16 -0000
+Message-Id: <164425405654.14871.4092468964010580450@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 374c621aa17f662f8bec2fe48dd82c75b99db2a5
-    new: 19961aed1eaca30b132d9095d22faddc3967006a
-    log: revlist-374c621aa17f-19961aed1eac.txt
-
---===============9048538995068078051==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-374c621aa17f-19961aed1eac.txt
-
-c2d1e3df4af59261777b39c2e47476acd4d1cbeb ref_tracker: remove filter_irq_stacks() call
-88590b369354092183bcba04e2368010c462557f net: skb_drop_reason: add document for drop reasons
-2df3041ba3be950376e8c25a8f6da22f7fcc765c net: netfilter: use kfree_drop_reason() for NF_DROP
-33cba42985c8144eef78d618fc1e51aaa074b169 net: ipv4: use kfree_skb_reason() in ip_rcv_core()
-c1f166d1f7eef212096a98b22f5acf92f9af353d net: ipv4: use kfree_skb_reason() in ip_rcv_finish_core()
-10580c4791902571777603cb980414892dd5f149 net: ipv4: use kfree_skb_reason() in ip_protocol_deliver_rcu()
-1379a92d38e31132e87d9b653e9343c7841a7348 net: udp: use kfree_skb_reason() in udp_queue_rcv_one_skb()
-08d4c0370c400fa6ef2194f9ee2e8dccc4a7ab39 net: udp: use kfree_skb_reason() in __udp_queue_rcv_skb()
-47c1a9a4ea784db91de0000d8827472e2d4e4f84 Merge branch 'ipv6-kfree_skb_reason'
-e3541022e48ba9ae5cf0d5e9be2cd5bb8c97a4b7 mlxsw: core_acl_flex_actions: Add SIP_DIP_ACTION
-d7809b620ff3cabccb8bf16d1a9cc7311bc3eef6 mlxsw: Support FLOW_ACTION_MANGLE for SIP and DIP IPv4 addresses
-463e1ab82a41c8dd1154d81d3359cd3ae2411d92 mlxsw: Support FLOW_ACTION_MANGLE for SIP and DIP IPv6 addresses
-92ad3828944e0c420990a41038920494272c255e selftests: forwarding: Add a test for pedit munge SIP and DIP
-f485da3c111f8dabc1036a569cfb51a00d9b5416 Merge branch 'mlxsw-dip-sip-mangling'
-0812beb705ec84876029415d4e52bdc3e60d2bab caif: cleanup double word in comment
-7d9b1b578d67a14ae7a7a526ee115b233fa264c4 ip6mr: fix use-after-free in ip6mr_sk_done()
-b845bac8edb10365efd4d37ed644f3f1edc23964 r8169: factor out redundant RTL8168d PHY config functionality to rtl8168d_1_common()
-920a9fa27e7805499cfe78491b36fed2322c02ec net: asix: add proper error handling of usb read errors
-87a9b2fd9288c56c0cbfb09f31a5e864d4bdde61 net: hns3: add support for TX push mode
-dde41a697331fdcf1fd0eae85dc061d289626f1e net: dsa: mv88e6xxx: Fix off by in one in mv88e6185_phylink_get_caps()
-ff62433883b3ab753a78954ecf46e2c514f5c407 net: dsa: mv88e6xxx: Unlock on error in mv88e6xxx_port_bridge_join()
-19961aed1eaca30b132d9095d22faddc3967006a net/mlx5e: Fix spelling mistake "supoported" -> "supported"
-
---===============9048538995068078051==--
+  - ref: refs/heads/damon/next
+    old: 92c3d82726c5cd642b722b1d97f7b824f8c1773a
+    new: b5ebcbbb6f8d9c7db5c8299ecf81cb2628789a73
+    log: |
+         18ff8659707db4be63fe0e3c331fafeb9a3dc517 mm/damon/sysfs: Use a separate directory for intervals
+         b5ebcbbb6f8d9c7db5c8299ecf81cb2628789a73 mm/damon/sysfs: Further code cleanup
+         
