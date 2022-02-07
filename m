@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Mon, 07 Feb 2022 11:50:43 -0000
-Message-Id: <164423464331.24744.2755503671785845158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 07 Feb 2022 11:56:47 -0000
+Message-Id: <164423500708.29545.5241510481301623087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/atomics/fixes/fallback-acqrel-32bit
-    old: 4f33d664b6d2a161ce04f171537e828f10da7c11
-    new: 434c706c233b2563695a274d267c9fd0b2269c7f
+  - ref: refs/heads/stm32-next
+    old: be64626c59c4d4fb4f00515fec2df99d101b790d
+    new: e6a7c1a1e70946f5dbc6a65cd7608ca86b6575ec
     log: |
-         434c706c233b2563695a274d267c9fd0b2269c7f atomics: fix atomic64_{read_acquire,set_release} fallbacks
+         9daee05beee6edac9f86a80d838d58166bfdd40b ARM: dts: stm32: add DMA1, DMA2 and DMAMUX1 on STM32MP13x SoC family
+         e6a7c1a1e70946f5dbc6a65cd7608ca86b6575ec ARM: dts: stm32: add MDMA on STM32MP13x SoC family
          
