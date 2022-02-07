@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0483002610218711081=="
+Content-Type: multipart/mixed; boundary="===============1492873955623685376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 07 Feb 2022 15:56:27 -0000
-Message-Id: <164424938713.30087.15391813375097676613@gitolite.kernel.org>
+Date: Mon, 07 Feb 2022 15:57:11 -0000
+Message-Id: <164424943197.30444.9743727299156075458@gitolite.kernel.org>
 
---===============0483002610218711081==
+--===============1492873955623685376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/linus/master
-    old: 0457e5153e0e8420134f60921349099e907264ca
-    new: dfd42facf1e4ada021b939b4e19c935dcdd55566
-    log: revlist-0457e5153e0e-dfd42facf1e4.txt
-  - ref: refs/heads/master
-    old: a1c91b71e152897ae6b6df6de8fb2a38ea6902e7
-    new: fdd12bd318430c690dcbb2006315095c537116c5
-    log: revlist-a1c91b71e152-fdd12bd31843.txt
+  - ref: refs/heads/for-stable
+    old: e94d59860120362d08bfdd291ba2f09b0e652ff5
+    new: 9521584493b2c8efe229e01984a6ec792530b602
+    log: revlist-e94d59860120-9521584493b2.txt
+  - ref: refs/heads/jd/fast-key-erasure
+    old: e5f09ba42a6f5cff9fadce921409bdf6a7495650
+    new: a1307fda23bce7bfa9e1837c2f68726e5eeec9be
+    log: revlist-e5f09ba42a6f-a1307fda23bc.txt
 
---===============0483002610218711081==
+--===============1492873955623685376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0457e5153e0e-dfd42facf1e4.txt
+Content-Disposition: attachment; filename=revlist-e94d59860120-9521584493b2.txt
 
 82880283d7fcd0a1d20964a56d6d1a5cc0df0713 objtool: Fix truncated string warning
 ebb7fb1557b1d03b906b668aa2164b51e6b7d19a xfs, iomap: limit individual ioend chain lengths in writeback
@@ -113,12 +113,17 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
+bc0cb963923949e3fff0cbada041e1ebb94896e6 random: use computational hash for entropy extraction
+55e328c8fb8a81305d2a9961d42f4fc88af5a773 random: simplify entropy debiting
+f9c2f323cd5731e8520fc630a7201e30f7969dfc random: use linear min-entropy accumulation crediting
+a2ae9f83b1b3b4a61f57e8b7f2ff8b104ef46d78 random: always wake up entropy writers after extraction
+9521584493b2c8efe229e01984a6ec792530b602 random: make credit_entropy_bits() always safe
 
---===============0483002610218711081==
+--===============1492873955623685376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1c91b71e152-fdd12bd31843.txt
+Content-Disposition: attachment; filename=revlist-e5f09ba42a6f-a1307fda23bc.txt
 
 82880283d7fcd0a1d20964a56d6d1a5cc0df0713 objtool: Fix truncated string warning
 ebb7fb1557b1d03b906b668aa2164b51e6b7d19a xfs, iomap: limit individual ioend chain lengths in writeback
@@ -212,5 +217,7 @@ a2ae9f83b1b3b4a61f57e8b7f2ff8b104ef46d78 random: always wake up entropy writers 
 cc231a2d1c58d892ae90b9ec946bb567bce486e6 random: remove batched entropy locking
 21f0da07cf36a0e4aca3253fad57bc5cfed98e2c random: defer fast pool mixing to worker
 fdd12bd318430c690dcbb2006315095c537116c5 random: fix locking in crng_fast_load()
+8882865d30ee9d993723f1ca6cffd99760f8c81c random: get rid of secondary crngs
+a1307fda23bce7bfa9e1837c2f68726e5eeec9be random: use cpu number as nonce in fast key erasure rng
 
---===============0483002610218711081==--
+--===============1492873955623685376==--
