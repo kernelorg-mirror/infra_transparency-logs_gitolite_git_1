@@ -1,46 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============5787708599410030518=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 07 Feb 2022 17:35:16 -0000
-Message-Id: <164425531655.30186.11867105521915811070@gitolite.kernel.org>
-
---===============5787708599410030518==
-Content-Type: text/plain; charset="utf-8"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
+Date: Mon, 07 Feb 2022 17:35:55 -0000
+Message-Id: <164425535568.30531.5421712516621290003@gitolite.kernel.org>
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linux-stable
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: cb235ef0865ff997647deea07ab71052a30d2d70
-    new: b03d2979068632593518bac879550efdadff00a3
-    log: |
-         b03d2979068632593518bac879550efdadff00a3 Update D247E5D99FE76629 (Björn Töpel)
-         
-
---===============5787708599410030518==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1644255316 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1644255316-e82da18449d226d34c163105f758af523ef951bb
-
-cb235ef0865ff997647deea07ab71052a30d2d70 b03d2979068632593518bac879550efdadff00a3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYgFYVAAKCRC2xBzjVmSZ
-bGXPAP9tYWmJMih9vPxlOiVsNNUAzSBNSWX+ccHQ80CC4Lx/UQD+K/ut03bgBhKg
-1XXwW25j24NSMnfL5WoS6vttCiq99g0=
-=CR/Y
------END PGP SIGNATURE-----
-
---===============5787708599410030518==--
+  - ref: refs/heads/for-greg/4.14-200
+    old: 0000000000000000000000000000000000000000
+    new: 7881113ffe5f4a9fa65789ec07cf37de70186686
+  - ref: refs/heads/for-greg/4.19-200
+    old: 0000000000000000000000000000000000000000
+    new: 588c6916effed477186db42bf8c2f2bf0f502f01
+  - ref: refs/heads/for-greg/4.4-200
+    old: 0000000000000000000000000000000000000000
+    new: 18dc3b942ce31a243fb8ca212b42cccb2711f980
+  - ref: refs/heads/for-greg/4.9-200
+    old: 0000000000000000000000000000000000000000
+    new: 53f82505de1eb5fe977a0dc724bd11becc602119
+  - ref: refs/heads/for-greg/5.10-200
+    old: 0000000000000000000000000000000000000000
+    new: 2cd3d390e0185a26e75da8b55a8164430597336c
+  - ref: refs/heads/for-greg/5.14-200
+    old: 0000000000000000000000000000000000000000
+    new: 88684f12c2bb9077b08b6df93ed2b2408ae0e01a
+  - ref: refs/heads/for-greg/5.15-200
+    old: 0000000000000000000000000000000000000000
+    new: 4081e20253549c2b6f744792ce64f1f0de717952
+  - ref: refs/heads/for-greg/5.16-200
+    old: 0000000000000000000000000000000000000000
+    new: 73eda03dbaead47516a4461778ea900f0e76d05d
+  - ref: refs/heads/for-greg/5.4-200
+    old: 0000000000000000000000000000000000000000
+    new: ebcfc305f4b879fccb2cdf1753dcd01059d3a87e
