@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 07 Feb 2022 09:14:14 -0000
-Message-Id: <164422525490.1815.12829256994836668524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Mon, 07 Feb 2022 09:19:40 -0000
+Message-Id: <164422558080.5074.14542931184426969647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/bp/bp
+user: bp
 changes:
-  - ref: refs/heads/stm32-next
-    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
-    new: b380a2d1890ad26574590e80789a58886a3a7f6b
+  - ref: refs/heads/vp
+    old: 7ecf649ec1ca5e3c8abb23f2e1b2ff7ec9a24015
+    new: f112e7a86f7f248146d0e6ba85865cd1b1f40a45
     log: |
-         85045dd45300430d258c3cc48ced9169cbbea3a6 ARM: dts: stm32: remove some timer duplicate unit-address on stm32f4 series
-         b380a2d1890ad26574590e80789a58886a3a7f6b ARM: dts: stm32: remove timer5 duplicate unit-address on stm32f4 series
+         f112e7a86f7f248146d0e6ba85865cd1b1f40a45 tip/tools/vp: Add a bunch of spellchecking improvements
          
