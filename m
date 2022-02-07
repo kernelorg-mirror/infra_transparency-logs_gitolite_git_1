@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 07 Feb 2022 15:51:33 -0000
-Message-Id: <164424909316.25720.12794359033055357001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 07 Feb 2022 15:54:42 -0000
+Message-Id: <164424928284.28023.8424268751403413900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/jd/crng-state
-    old: 254eaa928788a4ad072ba0e946e861ae4850538c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: a5dc88794406e8e900d4aedddf9818d5d59d3aac
+    new: 4840aa67576b598093d2c6fea8987d065f717bca
+    log: |
+         4840aa67576b598093d2c6fea8987d065f717bca Bluetooth: hci_core: Fix leaking sent_cmd skb
+         
