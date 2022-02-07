@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8068988988509408715=="
+Content-Type: multipart/mixed; boundary="===============7488691360137791728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 07 Feb 2022 22:22:42 -0000
-Message-Id: <164427256253.24383.12397406848783308091@gitolite.kernel.org>
+Date: Mon, 07 Feb 2022 22:22:54 -0000
+Message-Id: <164427257454.24549.16078019590902926560@gitolite.kernel.org>
 
---===============8068988988509408715==
+--===============7488691360137791728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c531adaf884d313df2729ca94228317a52e46b83
-    new: ff62433883b3ab753a78954ecf46e2c514f5c407
-    log: revlist-c531adaf884d-ff62433883b3.txt
+  - ref: refs/heads/dev-queue
+    old: 05dd97705a52bc00d8f4b911fd5b705754743ade
+    new: e78671f1ab99b5ce408763eac90ba4953a103221
+    log: revlist-05dd97705a52-e78671f1ab99.txt
 
---===============8068988988509408715==
+--===============7488691360137791728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c531adaf884d-ff62433883b3.txt
+Content-Disposition: attachment; filename=revlist-05dd97705a52-e78671f1ab99.txt
 
 c78b8b20e34920231eda02fb40c7aca7d88be837 net: don't include ndisc.h from ipv6.h
 be847673cfffce8bb6e9ed6ae186081280c58831 uapi: ioam: Insertion frequency
@@ -89,5 +89,66 @@ b845bac8edb10365efd4d37ed644f3f1edc23964 r8169: factor out redundant RTL8168d PH
 87a9b2fd9288c56c0cbfb09f31a5e864d4bdde61 net: hns3: add support for TX push mode
 dde41a697331fdcf1fd0eae85dc061d289626f1e net: dsa: mv88e6xxx: Fix off by in one in mv88e6185_phylink_get_caps()
 ff62433883b3ab753a78954ecf46e2c514f5c407 net: dsa: mv88e6xxx: Unlock on error in mv88e6xxx_port_bridge_join()
+251557ed39819df0b79f249ca5c98aa876fc57e8 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+e51176d33d835c90d3074ae913068db9313ee492 igc: Add UDP segmentation offload support
+6f5a8df750674dcd9687f0002ccf8e761f7e4c5a ice: Simplify tracking status of RDMA support
+ad4962d11e3c152e0db5684a85cd15d7a0e03bf5 i40e: Refactor VF queue requesting
+2926958f8a597968e615418a690f3d36dbe2516b ice: add TTY for GNSS module for E810T device
+31fa33b6b469b31fd82fa1b52de7af9058e7adec ice: add support for DSCP QoS for IDC
+409282234a616148d0df50ac8d2f363a06b98ef4 ice: Refactor spoofcheck configuration functions
+2f849f65d1751216bf12a1c117b3cfff704d394a ice: Add helper function for adding VLAN 0
+fda0fcde50cfe986c660fd45b5f65e7a160020a1 ice: Add new VSI VLAN ops
+701d6bdb47af80e844d32adf66ff59fe50cc242a ice: Introduce ice_vlan struct
+a909d1e1b24716ca6c6fd6d3d598923889ca6d1b ice: Refactor vf->port_vlan_info to use ice_vlan
+18efde755af73da5ba989fda0bf3ff8de960f982 ice: Use the proto argument for VLAN ops
+2ad3a9a9a158bf68fb6319ed1858e3a5e9ad0094 ice: Adjust naming for inner VLAN operations
+f1adb5e91d2230c035721ada389fa89e890cd922 ice: Add outer_vlan_ops and VSI specific VLAN ops implementations
+f04801a5d7023c2a2cd83326262c484ba338fd68 ice: Add hot path support for 802.1Q and 802.1ad VLAN offloads
+f91778e49249aeb5be473a3826b9524d10843472 ice: Add support for VIRTCHNL_VF_OFFLOAD_VLAN_V2
+5b02b47cc5e36a6dea8427e9a4ec4c9a432c0023 ice: Support configuring the device to Double VLAN Mode
+2f90c14a544301376ac6893750519d43d14ed4db ice: Advertise 802.1ad VLAN filtering and offloads for PF netdev
+71dda3b5b8d004e66a3dfc6c9a23ce65e901978d ice: Add support for 802.1ad port VLANs VF
+11b18b396cf4879fd5e85172723825cdf51181f2 ice: Add ability for PF admin to enable VF VLAN pruning
+030edfe7222041b96d3c19594094fae6a7de7129 i40e: remove dead stores on XSK hotpath
+c9a372602ddb98a4a6ac55507ccb5dc58487d4d7 i40e: Fix the timeliness of stats after deleting tc
+e227cca49e456ae7f87d34dcfd933a5b64dfb8e3 ice: Match on all profiles in slow-path
+ce68a8ef70cd41e2b9dff9d6092878555980b0d8 i40e: Remove rx page reuse double count.
+bbc226a12afdc6b08772f97771bf7dc75a753701 i40e: Aggregate and export RX page reuse stat.
+a9acc9c2070e58edbdcdecb3b28c9ac9271f9079 i40e: Add a stat tracking new RX page allocations.
+6c239ffd8d2aba2bd6a7cdc01adabb90b120ce36 i40e: Add a stat for tracking pages waived
+59fd6b853c086329f5c497f16d59f07401b7aa5b i40e: Add a stat for tracking busy rx pages
+8c6dac725afdfb2f414a91f5b83812ed735a3dc3 ice: fix setting l4 port flag when adding filter
+b1797e1d4b0d4ee3b166e30f0967b936adcc5d78 ice: fix an error code in ice_cfg_phy_fec()
+3cdc6f310059e90e89d3a30310f2a136561c3050 iavf: remove redundant ret variable
+29425d23ac701b1875b8fc50fcd4d6f01094edc5 iavf: Add support for 50G/100G in AIM algorithm
+73c3c5b2c12a1ab8bcb527b5b286f18e9fc77de4 ixgbe: Remove non-inclusive language from Intel code
+03f0246867b13cbced2e28b8d2813986ddb69712 iavf: refactor processing of VLAN V2 capability message
+fe36e94d3b0620c73a1858dda73dce62e84d501a ixgbevf: Require large buffers for build_skb on 82599VF
+6fe3d0f7eb4bd4231eb514fb555f5234fca35dc4 ice: fix IPIP and SIT TSO offload
+e1b233982bdb6d4f1745f0ca05bf909f4433cf47 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+409b7b456df14bc4dfbe1cc1cbd8d9dd0d76c0a5 ice: enable parsing IPSEC SPI headers for RSS
+5ad1a13c50cd31baa02bfc079c7bdd1bc019bcbf ice: Add support for inner etype in switchdev
+195334fff53503bcfcb0b85db400bb2b590ec00e iavf: Add usage of new virtchnl format to set default MAC
+25e7ef672ca734082e68d8a5b110ddcfba2801c9 igc: avoid kernel warning when changing RX ring parameters
+bcc88fbb75a3c3bbd81afe80fc874c8703cdbf19 igb: refactor XDP registration
+b18a008e4ae2f3679151353e398a8415822ec935 ice: Avoid RTNL lock when re-creating auxiliary device
+d1f49864cf73243d2c3d53734d7d1109e4cabaf5 iavf: Fix handling of vlan strip virtual channel messages
+205d7f3885119df55a423bd616a808ef0fc19142 iavf: Add waiting for response from PF in set mac
+6113f044fa11fd3d1ab684572d987edf761f1782 ice: Don't use GFP_KERNEL in atomic context
+1d36b658cf37ae5778c201789108c61d186aeded e1000e: Fix possible HW unit hang after an s0ix exit
+eb9a17ababe89e4cf3552ac2a05fb78ba80b2583 ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+5387e633d21934d2c12798b1cb8d58d1cc189538 ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+45e54dde8b1bf3f2db13344c2a97a18eff578572 ice: switch: use a struct to pass packet template params
+ce512703e4d834d85495f8dbf62ddfcc42a2a059 ice: switch: use convenience macros to declare dummy pkt templates
+6f1863b8aa2cc1604462e51d0bef89b2e8a0b005 iavf: stop leaking iavf_status as "errno" values
+32bcbc9e6df3a1109a7e987a3b3ce61d973dbf0a iavf: Fix incorrect use of assigning iavf_status to int
+d7bf9ae6c2e32219f85846c1d326f66775062673 ice: Add slow path offload stats on port representor in switchdev
+f88aebbed13132cccbec15f1108d6059cd1e41f1 ice: avoid XDP checks in ice_clean_tx_irq()
+1b1826eaea3e42568e092c68e12f413c406123f2 iavf: Fix adopting new combined setting
+4f756bce34351a210319f906b3327bd459034d8d e1000e: Correct NVM checksum verification flow
+7f5d531322a753bf83dea4ba64ca992bc04612a3 ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+b14756ba348e4a62b0f5137ee9056aff3698e16f ice: Add support for classid based queue selection
+fdab7da07df09eae13d7f6bf75ba1d0c10bc0fc9 iavf: Remove non-inclusive language
+e78671f1ab99b5ce408763eac90ba4953a103221 ice: change "can't set link" message to dbg level
 
---===============8068988988509408715==--
+--===============7488691360137791728==--
