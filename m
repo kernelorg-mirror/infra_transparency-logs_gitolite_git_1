@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 07 Feb 2022 20:17:53 -0000
-Message-Id: <164426507328.6580.4791526570905417419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 07 Feb 2022 20:47:04 -0000
+Message-Id: <164426682433.25451.12567877671883906900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: e91d280c840f133560072f246321f9a4d1f4eb14
-    new: 128dac5f21e950746aae3c1ef6df87e231d288a3
+  - ref: refs/heads/fixes-togreg
+    old: 21472ddd425831f6cf39b3034e825df2825ec850
+    new: ea85bf906466191b58532bb19f4fbb4591f0a77e
     log: |
-         e4e835c87bb5ef7e7923e72da57c923bfcade418 libbpf: Remove mode check in libbpf_set_strict_mode()
-         da7af0aa20f8ad89f09d50d262e44cd5eafab816 bpftool: Fix strict mode calculation
-         2b9e2eadc9c899af3b508503677afecc85e44766 selftests/bpf: Fix strict mode calculation
-         128dac5f21e950746aae3c1ef6df87e231d288a3 Merge branch 'bpf: Fix strict mode calculation'
+         ea85bf906466191b58532bb19f4fbb4591f0a77e iio: imu: st_lsm6dsx: wait for settling time in st_lsm6dsx_read_oneshot
          
