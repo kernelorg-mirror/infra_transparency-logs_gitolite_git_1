@@ -1,23 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 07 Feb 2022 19:29:01 -0000
-Message-Id: <164426214137.6712.5453248955510084214@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4894072517700808681=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 07 Feb 2022 19:47:02 -0000
+Message-Id: <164426322225.18289.636730396151764793@gitolite.kernel.org>
+
+--===============4894072517700808681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: mripard
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev-test
-    old: a7b55e08008a167c69b38f26ba08190dcb55f56c
-    new: 728b9b5874f8adf3ea7163dd19ecc85109922e6a
+  - ref: refs/heads/sunxi/clk-for-5.18
+    old: 4f88abd86756e574c733d2ca14676be335cc0058
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sunxi/for-next
+    old: 414cf87e042d6e6910b60d22a110690db2674a49
+    new: d7ab185b353fa351e87c85b61e74c52b704a0253
     log: |
-         6d18762ed5cd549fde74fd0e05d4d87bac5a3beb f2fs: fix to unlock page correctly in error path of is_alive()
-         430f163b01888dc26696365d9c1053ba9d6c7d92 f2fs: adjust readahead block number during recovery
-         1018a5463a063715365784704c4e8cdf2eec4b04 f2fs: introduce F2FS_IPU_HONOR_OPU_WRITE ipu policy
-         87c1ead75ee8a21ddfeb6e6025de9fabc2263189 f2fs: support idmapped mounts
-         728b9b5874f8adf3ea7163dd19ecc85109922e6a f2fs: add a way to limit roll forward recovery time
+         d7ab185b353fa351e87c85b61e74c52b704a0253 Merge branch 'sunxi/dt-for-5.18' into sunxi/for-next
          
+
+--===============4894072517700808681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher BE5675C37E818C8B5764241C254BCFC56BF6CE8D 1644263221 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/sunxi/linux
+nonce 1644263221-12553f76be0ed11b8c8ca0c4b1d58ba376f4792c
+
+4f88abd86756e574c733d2ca14676be335cc0058 0000000000000000000000000000000000000000 refs/heads/sunxi/clk-for-5.18
+414cf87e042d6e6910b60d22a110690db2674a49 d7ab185b353fa351e87c85b61e74c52b704a0253 refs/heads/sunxi/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRcEzekXsqa64kGDp7j7w1vZxhRxQUCYgF3NQAKCRDj7w1vZxhR
+xc+gAQCApMsLjxz9LLFfIrq3h1VWXiLJbiVhrSsz4vR19dfFKgD+Ng2CC/911zBI
+tJMUSFud0yGyTqP+SkMJqohUTCwk4wU=
+=VwO8
+-----END PGP SIGNATURE-----
+
+--===============4894072517700808681==--
