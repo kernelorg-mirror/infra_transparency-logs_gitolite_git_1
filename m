@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Mon, 07 Feb 2022 16:28:10 -0000
-Message-Id: <164425129072.18371.15339815106515606220@gitolite.kernel.org>
+Date: Mon, 07 Feb 2022 16:39:05 -0000
+Message-Id: <164425194561.24625.7254607133640342221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nathan/linux
 user: nathan
 changes:
-  - ref: refs/heads/submitted/io_eventfd_register-warning-fix
+  - ref: refs/heads/submitted/thermal_genl_cpu_capability_event-param-fix
     old: 0000000000000000000000000000000000000000
-    new: 4344d6c4d9e67896130e41610cf4d23a7d7a33e3
+    new: 9974ade881ada79df19e3da1dda9c6351640e627
