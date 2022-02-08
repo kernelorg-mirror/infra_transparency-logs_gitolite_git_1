@@ -1,29 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 08 Feb 2022 15:04:51 -0000
-Message-Id: <164433269163.20455.1771537624682173156@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4918303167165048450=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Feb 2022 15:06:20 -0000
+Message-Id: <164433278039.22463.274057914310999623@gitolite.kernel.org>
+
+--===============4918303167165048450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7bc8faaf4d5008bd57993633e716c4868d48e882
-    new: c8312098022ba821aafb0e54820dba3a511cb908
+  - ref: refs/heads/for-5.17
+    old: 618c2dc667c87995cdc7de339224bd96bb049a1f
+    new: 4c33de0673ced9c7c37b3bbd9bfe0fda72340b2a
     log: |
-         f681d1078d456ef4aea8da1bf5ccbd4081b0fbed scsi: ufs: Add checking lifetime attribute for WriteBooster
-         dd84a4b0fe173c4db2e95cf6a2b74cdce7bbab13 scsi: bnx2fc: Fix typo in comments
-         687ba48e16e487c9910b20662a29baff98539ec8 scsi: bnx2fc: Make use of the helper macro kthread_run()
-         0ad3867b0f13e45cfee5a1298bfd40eef096116c scsi: mvsas: Replace snprintf() with sysfs_emit()
-         2245ea91fd3a04cafbe2f54911432a8657528c3b scsi: bfa: Replace snprintf() with sysfs_emit()
-         0603be7192372741b7d76fe7885247a7386a860a scsi: qedi: Remove redundant flush_workqueue() calls
-         d1d87c33f47dc69f948d51dcfed344e34c75c406 scsi: lpfc: Remove redundant flush_workqueue() call
-         c80b27cfd93ba9f5161383f798414609e84729f3 scsi: lpfc: Remove NVMe support if kernel has NVME_FC disabled
-         5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 scsi: lpfc: Reduce log messages seen after firmware download
-         1dcb74853276cd026b6269d297ce08e61244d20c Merge branch 'fixes' into for-next
-         c8312098022ba821aafb0e54820dba3a511cb908 Merge branch 'misc' into for-next
+         946eb87114af37c9c13c618a7c1cdaca936905fa ASoC: Revert "ASoC: mediatek: Check for error clk pointer"
+         307f31452078792aab94a729fce33200c6e42dc4 ASoC: tas2770: Insert post reset delay
+         d7b530fdc45e75a54914a194c4becd9672a4e24f ASoC: rt5682s: do not block workqueue if card is unbound
+         a6d78661dc903d90a327892bbc34268f3a5f4b9c ASoC: rt5668: do not block workqueue if card is unbound
+         4c33de0673ced9c7c37b3bbd9bfe0fda72340b2a ASoC: rt5682: do not block workqueue if card is unbound
          
+
+--===============4918303167165048450==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1644332778 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1644332778-c6ae8cfb568f627a22418b5958df9f4cafaf8bfd
+
+618c2dc667c87995cdc7de339224bd96bb049a1f 4c33de0673ced9c7c37b3bbd9bfe0fda72340b2a refs/heads/for-5.17
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIChuoACgkQJNaLcl1U
+h9DD8gf/cSYdBz4J382Xcyh/jMSgpXJGV9Minjn19rp/b81csV8dbgCqYROYhnwP
+Oybr1QUf6hJbKe4RJFtx48KncGMxBDZPhHATvWkPtC1To1Yyn3jlrL2BgFN3zS4A
+kQhFXx5arIB+FvDJVVMSnTFQSCYnRvth4of05KUvr3pr8E7LjIq8NlS2nlJ7izxv
+moJ5zzTVIoGqo1m7ZqKcGNGcUmVd/QU+uL0xVo9gABYoiUh9rzGI4D0C3HMKk5r6
+GfjOtB5GZY2Dk6A2MQrWlR/0tOEZdxieZHQ6xIqoq3H4vpVcLJw1Pp96s3FW23BF
+LUiKmMFOIQ+GWgMyGEA1kcZ3y8GHdg==
+=i0AM
+-----END PGP SIGNATURE-----
+
+--===============4918303167165048450==--
