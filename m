@@ -1,82 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============6202936499232359549=="
+Content-Type: multipart/mixed; boundary="===============6903812310724745914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Feb 2022 04:50:35 -0000
-Message-Id: <164429583514.26809.14752029566266246597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 08 Feb 2022 05:01:20 -0000
+Message-Id: <164429648072.2069.5588657944960086673@gitolite.kernel.org>
 
---===============6202936499232359549==
+--===============6903812310724745914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: d1d87c33f47dc69f948d51dcfed344e34c75c406
-    new: 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1
-    log: revlist-d1d87c33f47d-62ed6622aaf0.txt
+  - ref: refs/heads/dev
+    old: e6e0d15aa1c5117dda15eb266e8b862627af7608
+    new: bb642455a39a2f9a89b921e7782937023bb92fcd
+    log: revlist-e6e0d15aa1c5-bb642455a39a.txt
 
---===============6202936499232359549==
+--===============6903812310724745914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e6e0d15aa1c5-bb642455a39a.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1644295827 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644295827-dec7cf7cc726c7f99aba5e4f0da7f1e690016d05
+657cbdb7481ea8246e2ff6fb826a1833501e4039 tools/nolibc: use pselect6 on RISCV
+868aa90b20138fba7ba1f83225a240b65e058096 tools/nolibc: guard the main file against multiple inclusion
+3b3c189b9e2c35d77a0d3335f1139ba166c06a93 tools/nolibc/std: move the standard type definitions to std.h
+32a6eece79528654281b94ee2bec9a0f3633f4a7 tools/nolibc/types: split syscall-specific definitions into their own files
+a3cbf29cab2659cf11838c070db2a8ed60cfc6cf tools/nolibc/arch: split arch-specific code into individual files
+ab007fc71526c4240138ad5f4e7ea3c8caa8e50a tools/nolibc/sys: split the syscall definitions into their own file
+95e23d32a3b602960f4eadda7ab76d5c26dff3b9 tools/nolibc/stdlib: extract the stdlib-specific functions to their own file
+35b34cb47cacf92feb4e9972b30b96fbaafb8f8b tools/nolibc/string: split the string functions into string.h
+f04b8d33667c42c6bcfddd60f4cc49185391ab28 tools/nolibc/ctype: split the is* functions to ctype.h
+d9e0c876dbac73bf472e376b3d112571fb1c007f tools/nolibc/ctype: add the missing is* functions
+a415e06caa524a80904e4a37da53897285deda0b tools/nolibc/types: move the FD_* functions to macros in types.h
+996393d062e7df7643e641f6f882220db9b6571c tools/nolibc/types: make FD_SETSIZE configurable
+108f7550019f11bd17b7afc2ecdbfecb93b454be tools/nolibc/types: move makedev to types.h and make it a macro
+9227531b9e64244bec58b8ed6869ddd18393d693 tools/nolibc/stdlib: move ltoa() to stdlib.h
+a6ef7d177cace18d174a46311468fe35595ae985 tools/nolibc/stdlib: replace the ltoa() function with more efficient ones
+08669ddb3f2029de49250ac171917879784e0527 tools/nolibc/stdlib: add i64toa() and u64toa()
+a0ba2d7c263484f2d628628852cb5e993c406d5e tools/nolibc/stdlib: add utoh() and u64toh()
+50561b68a2582b5197433dea67a828b70ec53a9d tools/nolibc/stdio: add a minimal set of stdio functions
+a318a1f51f6ae411336c114fdbbb072782094539 tools/nolibc/stdio: add stdin/stdout/stderr and fget*/fput* functions
+8251b98cfd38046904c97be09ded8e2777508ee5 tools/nolibc/stdio: add fwrite() to stdio
+a796a3e619abb5f3975e049ed9d7d51794efd5e6 tools/nolibc/stdio: add a minimal [vf]printf() implementation
+76e38a698639233048a04bf0297127a69bd07ee8 tools/nolibc/types: define EXIT_SUCCESS and EXIT_FAILURE
+eb4b66b7af390f2c4d0eeba52c5877cd87c741e4 tools/nolibc/stdio: add perror() to report the errno value
+c2017346c0a5efc0e1fd25c5f83ed58e67c34d38 tools/nolibc/sys: make open() take a vararg on the 3rd argument
+a809569e1b44d4966aadee4abe940be58bc7984a tools/nolibc/stdlib: avoid a 64-bit shift in u64toh_r()
+b6daaec2e11fdd0882a2174ad3d896d11a254792 tools/nolibc/stdlib: make raise() use the lower level syscalls only
+6663330a6abd3652c1402d1337f4e82dd8b7b7c9 tools/nolibc/sys: make getpgrp(), getpid(), gettid() not set errno
+5f7b54325e7b7412adbc2ed343971e8199e80cbf tools/nolibc/string: use unidirectional variants for memcpy()
+d6512b14101db95811164d69e3d91e886bd68cbd tools/nolibc/string: slightly simplify memmove()
+8007873de1370a5f9881dbcef1d2bffb8b0c37e5 tools/nolibc/string: add strncpy() and strlcpy()
+a261edbba027a4aa8f7bd1f0a22d9827d8bed0e4 tools/nolibc/string: add tiny versions of strncat() and strlcat()
+5e1bd9a8852c932cd793b319c77f6450d217eb71 tools/nolibc: move exported functions to their own section
+7aa275e436a5a14d59f8d377347f61c9b0a79ccc tools/nolibc/arch: mark the _start symbol as weak
+be953631bd8de4933d3e44a26e85ce59addad0b3 tools/nolibc/types: define PATH_MAX and MAXPATHLEN
+204116f9e05f2f782ab7d86637f7eb8850f8cb8e tools/nolibc/string: export memset() and memmove()
+b5e13daa39049e9e72dc8096e1283b77ff04119b tools/nolibc/errno: extract errno.h from sys.h
+dada2c3bb8157f65136caf39f1b74129f7a1efef tools/nolibc/unistd: extract msleep(), sleep(), tcsetpgrp() to unistd.h
+fa59cfa31d0ffcd3a9dd1e32abe423d92df61a2f tools/nolibc/unistd: add usleep()
+d7555a4dd2b02d0c49de74981dd178a019947efe tools/nolibc/signal: move raise() to signal.h
+83227d057e8b92e9e739b4b1c6aa5043e61d4aa5 tools/nolibc/time: create time.h with time()
+a4138a4ffdc0e3853050d4f63c987f7939d92587 tools/nolibc: also mention how to build by just setting the include path
+e783835f0b1056f0c4183dd6103e456a28c815ce tools/nolibc/stdlib: implement abort()
+bb642455a39a2f9a89b921e7782937023bb92fcd squash! mm: Check for SLAB_TYPESAFE_BY_RCU and __GFP_ZERO slab creation
 
-d1d87c33f47dc69f948d51dcfed344e34c75c406 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIB9pMACgkQ7ulgGnXF
-3j32OA//R8DRyr+cX3KMfnbs53Ihpw0q6bArjd3NoVTfwyHKS5iDT6AlKSiCwiXZ
-t9H7UfihsjvSGV1VvZRpW9TlUq+99olE9Q+jd2vyV+dcRt8mhUG4lH8z4jQcuvnr
-BVa/Vqm8Drv3EaQDFf0+jUXip4vaWoXIkH6Hkkb7OjwAOQ1iFS4t2jBtTXQSKkQW
-cBtEHM1p03C3+fzszgz3lnwJcB2rRkRzb9ZGO59ozMWpxDz4qTVmDQesxptqg88w
-BinTvMwWsOJNZ4tsddh2HdwAXgAI5mxQTIBLgpC2jp46aCU9yraVc3xpMyZzyhpS
-VbFwaWs6u8IJsXtzDwqFmiae9++YuPPfgGKLyRI1OtbXIo+8/LvhGjK+M6r+PN7W
-65hH/iDOvYe8gzVBMl9RUSmJk6pqszyTDgdcO/uTRQidsCfi6RS8fVyHM6d+UsXn
-3VtUAZ/NwzA9NpbHnxkib6+cv4W3srmnNRi2RmdWUpK68SD7FDSmYLtDDAr8F9l3
-dLyKeNzrF8GSM2y/XVfwjq3ZGxwxbHOjJyWdQub7CsYe7nYVQgs7kTQ4ofy88Ynu
-gVvO0npnrLKnk8W9EzvZdH3WbKZ9it5eGbwGwDYbTxZYcJaq1d908YJUQgxfR4gH
-0Dp5clgytMDXLE+x8hLN/0dXuOn0SRQFkQVIjjQhXx/jMMYT0Y0=
-=1JbZ
------END PGP SIGNATURE-----
-
---===============6202936499232359549==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1d87c33f47d-62ed6622aaf0.txt
-
-7cddf7e8d1e88603d0e86997259fdec98da6f70a scsi: core: Make "access_state" sysfs attribute always visible
-b84b6ec0f9767c82d0cfe5b2ac2c41de6b3d37e8 scsi: core: Add scsi_done_direct() for immediate completion
-23fe075519c6884d28d8c8fe096c1a6729eb16ae scsi: usb: storage: Complete the SCSI request directly
-d20b3dae630f6718a72f7ab68c3b8c8e897bf09f scsi: mpt3sas: Convert to flexible arrays
-c4ff687d25c05919382a759503bd3821689f4e2f scsi: smartpqi: Fix rmmod stack trace
-c57ee4ccb3584fea91e62cc4a7e60600130e75a8 scsi: smartpqi: Add PCI IDs
-2a47834d9452812f68c8894994e95adad56e4b60 scsi: smartpqi: Enable SATA NCQ priority in sysfs
-70ba20be4bb1f560bba7288bd12fbb918823e576 scsi: smartpqi: Eliminate drive spin down on warm boot
-94a68c814328836d022d1e7ced1b762834917bd2 scsi: smartpqi: Quickly propagate path failures to SCSI midlayer
-b4dc06a9070e3ca9d18a33fe649df594832dde1a scsi: smartpqi: Fix a name typo and cleanup code
-9e98e60bfca341f5f1bf425dbf68cb1a96b323c9 scsi: smartpqi: Fix a typo in func pqi_aio_submit_io()
-42dc0426fbbbe380c83976e7601f23de0034249d scsi: smartpqi: Resolve delay issue with PQI_HZ value
-b73357a1fd39cec82b654421110e35e8167930d5 scsi: smartpqi: Avoid drive spin-down during suspend
-27655e9db47965f640b3ef5a6796587d58b523eb scsi: smartpqi: Update volume size after expansion
-3ada501d602abf02353445c03bb3258146445d90 scsi: smartpqi: Fix kdump issue when controller is locked up
-5d8fbce04d36dfd837d655e3d1b66e44b8fafbe5 scsi: smartpqi: Speed up RAID 10 sequential reads
-00598b056aa6d46c7a6819efa850ec9d0d690d76 scsi: smartpqi: Expose SAS address for SATA drives
-c52efc9238569038242e28f247546bb5b04dc8a1 scsi: smartpqi: Fix NUMA node not updated during init
-5e6935864d814c3a62dd0945fd155634481f11c2 scsi: smartpqi: Fix BUILD_BUG_ON() statements
-c66e078ad89e9f171a2474b255284d95c54c4c36 scsi: smartpqi: Fix hibernate and suspend
-291c2e0071efbda9d5c360a793abee4055e81fea scsi: smartpqi: Fix lsscsi -t SAS addresses
-62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 scsi: smartpqi: Update version to 2.1.14-035
-
---===============6202936499232359549==--
+--===============6903812310724745914==--
