@@ -1,59 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7248471918919455105=="
+Content-Type: multipart/mixed; boundary="===============4357535227857139232=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Feb 2022 18:58:58 -0000
-Message-Id: <164434673850.21223.1721669572094237029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Feb 2022 18:59:13 -0000
+Message-Id: <164434675392.21469.13994377893361122278@gitolite.kernel.org>
 
---===============7248471918919455105==
+--===============4357535227857139232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.18
-    old: 4e28b22225e3a8b7f1bd3e093301802a2238071a
-    new: c17756beacf4d0b21c0e877bcfe09af645129b4e
-    log: |
-         60edd652005fe2931565f658f23f86d094f4c1f0 spi: Convert spi-slave-mt27xx to json-schema
-         08727dd751234bc878be64e60ea6f0d8ea0d54c0 spi: Convert spi-mt65xx to json-schema
-         ccbc5d0a92c5f1d42d1a1635b53f1987821e9cdd spi: Add compatible for Mediatek MT8186
-         833026ad56f76d1a1035d6511fd5aeed308465fd spi: spidev: prevent spidev->speed_hz from being zero
-         47e8fe57a66f72c5734b981b21557c732b9a5eb6 spi: Modify irq request position and modify parameters
-         d08de0259dfe172caf073b921c6b27ff089605a9 spi: ath79: add mem_ops for fast-read
-         4f92724d4b92c024e721063f520d66e11ca4b54b spi: tegra114: Add missing IRQ check in tegra_spi_probe
-         3b8ab4da3405d07ddfe434f17f9014740b30a19c spi: Fix test error for sp7021.
-         47c3e06ed95aa9b74932dbc6b23b544f644faf84 spi: tegra210-quad: Fix missin IRQ check in tegra_qspi_probe
-         c17756beacf4d0b21c0e877bcfe09af645129b4e spi: Add compatible for Mediatek MT8186
-         
+  - ref: refs/heads/for-next
+    old: d466706b9d0dae4754a47c34fd5f4654ee54f609
+    new: 960a89045e146025f019647d3305b7eeddde68c6
+    log: revlist-d466706b9d0d-960a89045e14.txt
 
---===============7248471918919455105==
+--===============4357535227857139232==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d466706b9d0d-960a89045e14.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1644346736 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1644346736-b200244fd5ef0c9fd3759a62f45d8f43d9f18cbf
+823868f59ff4f1a8889120bc71a216542b79d909 ASoC: dmic: Remove spurious gpiolib select
+2cc12ef489a39d22230d4029c9890d27902a855b ASoC: rt9120: Remove spurious gpiolib select
+44bd27c42a1c9a00f1fbcb58301a7f3e6f5cdd0f ASoC: simple-amplifier: Remove spurious gpiolib select
+c29744876071c3186871515b3f849a884dc47241 ASoC: max9759: Remove spurious gpiolib select
+8e70aaae32b72d3088d18a3447b67112b3f5979a ASoC: zl38060: Remove spurious gpiolib select
+805fff750107bce59f769a54f77205a8c4c37705 ASoC: simple-mux: Depend on gpiolib rather than selecting it
+91e716b2a4f997cafb017c04351c2751fc820637 ASoC: SOF: intel: hda-trace: Pass the dma buffer pointer to hda_dsp_trace_prepare
+bab05b508ebfde32a14880696a13820d54510fcb ASoC: SOF: dma-trace: Pass pointer to params_ext struct in trace_init()
+6324cf901e14c6662be508f30485e0f09c54694d ASoC: SOF: compr: Add compress ops implementation
+eba0f007751986ee401f2a1bcbdd3bdc845cb606 ASoC: fsl_sai: Enable combine mode soft
+dcc2c012c76913a7e95025f9b000a3eeddc9dc50 ASoC: Fix gpiolib dependencies
+960a89045e146025f019647d3305b7eeddde68c6 ASoC: SOF: dma-trace: Change trace_init() ops parameter list
 
-4e28b22225e3a8b7f1bd3e093301802a2238071a c17756beacf4d0b21c0e877bcfe09af645129b4e refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmICvXAACgkQJNaLcl1U
-h9BCiQf/c8dnyaX8JXBgEUXiAbmJGdGVPm4eDVIkatnJzzR/5f0i/Zpq7rg7dRxY
-fmzHhJZQ7S1ZvF7ZSowLVOpo8PyB5zJCtzH9B+Gy5pQyxutm2zpanzmn/BJmxvqQ
-sSbdzagbCl70noNtykyMOPToqgqys72DygiRSANJLT+T5nqNDcd/QMAU7ShrVHy6
-xtrEbo6omv7jsPHIXNwAZbeG5S8XgswuAdjWZYLSYpeanzi1n00WE81jpmzuzEXI
-n2lRF6pO2Nw3g8SbxDoi0i0rTGfNgy4idgWtS+ONkAE/v8liQei0UMZuPUlZU6sk
-ILv+V1NN1dJePh465K6iqE94+2HcdA==
-=Mxni
------END PGP SIGNATURE-----
-
---===============7248471918919455105==--
+--===============4357535227857139232==--
