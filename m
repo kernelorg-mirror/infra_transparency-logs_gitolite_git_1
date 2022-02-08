@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 08 Feb 2022 05:08:11 -0000
-Message-Id: <164429689177.5699.7184155651367367125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 08 Feb 2022 05:27:51 -0000
+Message-Id: <164429807143.18755.16820462476394710179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 642436a1ad34a28c45bbc2bdc131640a73782356
-    new: c3e676b98326a419f30dd5d956c68fc33323f4fd
+  - ref: refs/heads/keys-pending
+    old: 056927547f9b47a6f1d6937aeb0c5343f4985819
+    new: 726843804442dd4ab4d8c09e1f18b64165b0a719
     log: |
-         a410a0cf98854a698a519bfbeb604145da384c0e ipv6: Define dscp_t and stop taking ECN bits into account in fib6-rules
-         563f8e97e054451d167327336a53b7381517a998 ipv4: Stop taking ECN bits into account in fib4-rules
-         f55fbb6afb8d701e3185e31e73f5ea9503a66744 ipv4: Reject routes specifying ECN bits in rtm_tos
-         32ccf1107980e8ed5c62cf6666da7a47a4fc7ecf ipv4: Use dscp_t in struct fib_alias
-         c3e676b98326a419f30dd5d956c68fc33323f4fd Merge branch 'inet-separate-dscp-from-ecn-bits-using-new-dscp_t-type'
+         b93b8d3a74353c86519dc8b6ebfe888bae3d3d94 KEYS: asymmetric: enforce that sig algo matches key algo
+         726843804442dd4ab4d8c09e1f18b64165b0a719 KEYS: asymmetric: properly validate hash_algo and encoding
          
