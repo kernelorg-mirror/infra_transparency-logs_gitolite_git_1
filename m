@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8663276380331770381=="
+Content-Type: multipart/mixed; boundary="===============5883645872116402128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 08 Feb 2022 04:49:17 -0000
-Message-Id: <164429575755.24048.5765380767418044141@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 04:49:29 -0000
+Message-Id: <164429576924.24237.3502197903233559453@gitolite.kernel.org>
 
---===============8663276380331770381==
+--===============5883645872116402128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: c763ec4c10f78678d6d4415646237f07109a5a5f
-    new: 5852ed2a6a39c862c8a3fdf646e1f4e01b91d710
+  - ref: refs/tags/mkp-scsi-queue
+    old: 667da757001727fa8024c49d33d90aa474ccece4
+    new: 8842387f816a493231882750a53e43c1321be5ac
     log: |
-         c80b27cfd93ba9f5161383f798414609e84729f3 scsi: lpfc: Remove NVMe support if kernel has NVME_FC disabled
-         5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 scsi: lpfc: Reduce log messages seen after firmware download
+         f681d1078d456ef4aea8da1bf5ccbd4081b0fbed scsi: ufs: Add checking lifetime attribute for WriteBooster
+         dd84a4b0fe173c4db2e95cf6a2b74cdce7bbab13 scsi: bnx2fc: Fix typo in comments
+         687ba48e16e487c9910b20662a29baff98539ec8 scsi: bnx2fc: Make use of the helper macro kthread_run()
+         0ad3867b0f13e45cfee5a1298bfd40eef096116c scsi: mvsas: Replace snprintf() with sysfs_emit()
+         2245ea91fd3a04cafbe2f54911432a8657528c3b scsi: bfa: Replace snprintf() with sysfs_emit()
+         0603be7192372741b7d76fe7885247a7386a860a scsi: qedi: Remove redundant flush_workqueue() calls
+         d1d87c33f47dc69f948d51dcfed344e34c75c406 scsi: lpfc: Remove redundant flush_workqueue() call
          
 
---===============8663276380331770381==
+--===============5883645872116402128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1644295750 -0500
+pusher 75C5DE3D 1644295761 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644295749-b217ea113be7335b459b72345fba0e3c2a7c2765
+nonce 1644295761-08d9a4aa12502397bab3a1228b1b8fa6edae1d16
 
-c763ec4c10f78678d6d4415646237f07109a5a5f 5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 refs/heads/fixes
+667da757001727fa8024c49d33d90aa474ccece4 8842387f816a493231882750a53e43c1321be5ac refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIB9kYACgkQ7ulgGnXF
-3j3jyRAAgiCXeUwHrAQTDuRLUnZIoRQIiZD8NXDr4jiuhB9s76bvLvO4AxP3YnBH
-mIzL75plFJP4Oa8dX9ioJcxcbZWE3ev5hVbY0GOIVceC+m7Fd/g7lQQvBmmF0ikX
-HJaZ/tsidBsCieb349sF98rtE6NRD/3w8TZly/nrx/x2hGDEdZCrTsXnBOgH5kMR
-0ZyxgKxY7dqMmozpU6KaP1Q+zdMIOFLHKht9ypk4l0aHlKEK+sa8+WOK6U1j2Sc2
-TpnlvRZMm0fWf1ncQFEinuwjM12NbVwNZj0t5ysFABmT4W/ovWQzOMXMRze9LyUD
-CW0VjAgzu9RTMvB6f/E21dUrzXCPm0/+5eMmZ0qIfiucVJdXLwL4bo2+9PHQeYol
-mvWK+RuYmSHd8trgDohKj0W3YRIjx29Iy7V9L1pbdgoRPlZ6gveSGLAbkU8UEE36
-7Xxugw74bYE2xNTQsxJzvYh4BJHfIWjewJ8fR876AEIUSYdp5+oTbU7gJw/X4PU3
-3L3uWLfHXRnqo3yZJJ/7SuIWoQaK6bMLD/LE205lSDnZ10mVYPgYMjcN6B4WBfu5
-Yap1MoANUhYsHAE20eSgBk331riSlfgKpReFixdQX1jcJgPxqDA3ugbv/209+oOB
-X9SqyDw3T3sHmweaBOs2EOcrYP2HpabnXUkaAxYeckQ+mW6gSSM=
-=eEJ8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIB9lEACgkQ7ulgGnXF
+3j24tQ//ZZstThJ/SbcNAeZxgJ10pWJkwHmfL6c4ngVYOgHw8g3/bW/JOupcTjY/
+7dAKSC7wKMgQlrEKVOgCtNQJ5cenOgEPKdHErTvXf7s23Ye66VZVDHj1XMi3smT4
+deWgPSK0+6ShQjy5sdfIGwcJ52W0pKZC9LWoQ+SuEEkH4oY4JXW7+RB6PgdH2eoZ
+ERxZwRu2XD4Dwa2/23hGqTB+FQgvSwO52oMrOAjsLNYZGLDWo+Fr7rSXi/FHE75q
+2TxPFt5wquq9lEemTAwYYj8fURqi7WGLhLNVUirxOuiKBAtS8P4SkVpMiI3LyPjD
+CBifcbLCR0UhDZpPTLzXK/YKNLfFMmeVaw/w4ArgcdaaQgP8nBX9f3uKheHNcx8V
+h1NUClwO61UT0/Dnl8MipbI2o5twVVzV5iUsZzmSpGFsQPeJ2Lx9609yfYlDrZXG
+ItQMU6E+4Z/veiUzt7E2LYFekNJOVz8jff86X/GsDx/OBhzLhRuM3LpTB845mOTL
+ha0eoduHxQviCib4q3WGL0AxG+ih8SySysTPGYUC4zuipVIWLdcWp0dnecWMnuuy
+fZ/tH6cQ9dGP/bsZOEl/HSquG41C9sKDONG9h10SBtz5cAEB5IQPH28bOn66KFNG
+BwtXtwNAhlahvhXWKiR8W4yC0v06XXVf0mfcwCMdZRqKuuwHOEM=
+=f3qI
 -----END PGP SIGNATURE-----
 
---===============8663276380331770381==--
+--===============5883645872116402128==--
