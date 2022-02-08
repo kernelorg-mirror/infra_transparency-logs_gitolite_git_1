@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5968349431368233040=="
+Content-Type: multipart/mixed; boundary="===============4172431780858456869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 08 Feb 2022 17:16:03 -0000
-Message-Id: <164434056349.13797.15955466155583007985@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 17:16:05 -0000
+Message-Id: <164434056581.13910.17101199745930812406@gitolite.kernel.org>
 
---===============5968349431368233040==
+--===============4172431780858456869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,95 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 224d99f50f25ec3234b99556c0076a7130e230c6
-    new: 7a66c048082c95969f767ee6a9b31c85f5b35edf
-    log: revlist-224d99f50f25-7a66c048082c.txt
+  - ref: refs/tags/v4.9.300
+    old: 0000000000000000000000000000000000000000
+    new: 4110d9e4c5861f028f7d89856e6eac77abc3c05f
 
---===============5968349431368233040==
+--===============4172431780858456869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644340561 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644340565 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1644340561-0bb43fb075c5a17d1264a5904e0095c77c7f7101
+nonce 1644340564-b01f4ea8e08b726a422150ae4a27fefa353ddcde
 
-224d99f50f25ec3234b99556c0076a7130e230c6 7a66c048082c95969f767ee6a9b31c85f5b35edf refs/heads/linux-4.9.y
+0000000000000000000000000000000000000000 4110d9e4c5861f028f7d89856e6eac77abc3c05f refs/tags/v4.9.300
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICpVEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BU8P+wd0dROUbHOhmkmPqqIf
-bN+m9hNHZuhptvl9s4Nw6oHgpPZM0+n7qMHg9TBADbSC591/nPlATOjT8MV7BEPt
-4yQfeFSKyrG5rwl68tgDVPd+wdnZy+FaMgLGP9vGiEHrqEWWQikg5pDLIoZPNAM6
-UDZnnGZYzdaiXarpYxY95oGmeQMxTVuU3JMFPOGI2DUcH5U3ktTuUMDKhb9HBieP
-LmvTFJ5vr4KNmWb5svbfCjr10Dspw/UosTiqUlAXbl6Mkqm5XgJNdaVq4b24xZvl
-bdVWDbdvFmjyYk4QAIaTdWFh1rOiT1bPFHvbhRVl67re+3/vdgt4k3DNdclHXqia
-DQhQBKmHN+EE0cPzebs31MeDHv20cjMvFId0lioRnbajKT0Z+eYdgCb4C728Sava
-Bl34hUTS+Vd84SdA7HKVfQ1kN6IIeUGRWHDmsbIQp6UV22o3ry0Og09kHgIpZTKN
-q6/rfMlxULfD1u8G0W8qNXF+f4jCQfddLKRcG4qtYo6fiEnLLRJPqgARPtN4rB9B
-WTbQ1c9MQWslHrmThvjBnM2zTudpw584GAivd5JmZex6JynNO7Sfi9Ya3Ex1FQ93
-uZr7jK/oj4u5T3Nd+LZzQE9jhRlR2Y+bhzy8y8IN92qAUp0jxLApG3SvlL5igtpF
-MsfFMBZZvXnuovjnEwQTXqwq
-=6elk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICpVUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oEcP/i9E0BDfHUBshsw7kDCD
+P4J2Hn235GnY82OsLhlZkNEGPPs0S81DQTOTM4ufpLZkbdm7+JKNfWeVj6dbMaN1
+ktLa94tOCHFyxXFKB29TMh0UrxP5pEwvrmjNv3qgtpVMEDbk9UEHM5+9NdlQN22F
+Y9vwUbwvKF+vkJVz/ag9hXribDNxG4DXdi4KifVE6knsEOS0cMwUXDlzhaqYZ5md
+QaBSYcFB8tqbLXoLxfAoO1TAfRhUiXt54tlBt6PExKdTWR/9VV3eNSfzXhWQ4h1/
+yuF4+7Wpre6qKkXRWzf0E+/S5dhUrbe6iaT2das1wfHCTl+7Z6HOkg8Nwu6FrDZR
+bYjiB2k52PkV430M8erSbAc66SI5jX5NYtIHWDCFjRAnBRIzBnGpdWN9lu8tZeRe
+mzavNsoSGAelmjoq1QBVomE8KyAxRZtb9vQvxFxDqIvYZgrfvC2ymQbXIxInOrgt
+Y9+nXisqNZiX5I9Zl9/wFPpRYMk+klYN3XOQmlgprn8PJ97lGFXezxLjdhu4It/L
+6zIFX157PsxbNMAfh1eZ00V1mLboG9ShpOCQZRSVinqIExG1Xl6hsnNTU9AUAAoP
+un8zLWGiRlwjD28a9nrx2+/M4be05hriDLPTd9jeJvd8rE8m0E14dXCQGvtJT3Np
+oT4/NNj7x34xtClAZimP7F7L
+=bRM+
 -----END PGP SIGNATURE-----
 
---===============5968349431368233040==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-224d99f50f25-7a66c048082c.txt
-
-3fb20d1a4ebee3e71a12c62f3bf07ced1de3f024 can: bcm: fix UAF of bcm op
-7889b38a7f21ed19314f83194622b195d328465c Bluetooth: refactor malicious adv data check
-3637eac174a0fbb74695c0d75e4d92d00e915484 s390/hypfs: include z/VM guests with access control group set
-58f48bfcfda282d88531880212dfaec01ceac8fb scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-de10d14ce3aacba73c835cb979a85ef9683c193f udf: Restore i_lenAlloc when inode expansion fails
-f24454e42b5a58267928b0de53b0dd9b43e4dd46 udf: Fix NULL ptr deref when converting from inline format
-661d011a7cef6582de5d5d5909229b923d88b31a PM: wakeup: simplify the output logic of pm_show_wakelocks()
-63e5f6103766e36e3f51d9e38410f331fb016395 serial: stm32: fix software flow control transfer
-dea3412daf8492c370fae7eb3c297ddbcd14fe38 tty: n_gsm: fix SW flow control encoding/handling
-be8c04962b437de1e78b7b886d84678ef61e7fce tty: Add support for Brainboxes UC cards.
-291038f7e8da64a6ca64f253f66dcf9ca6e870e1 usb-storage: Add unusual-devs entry for VL817 USB-SATA bridge
-41579b9e73773dc9157df13494c9916c30fe5e09 usb: gadget: f_sourcesink: Fix isoc transfer for USB_SPEED_SUPER_PLUS
-b50f5ca60475710bbc9a3af32fbfc17b1e69c2f0 USB: core: Fix hang in usb_kill_urb by adding memory barriers
-e148635ef9f5a0b301812b4dedfdeb157c59817d powerpc/32: Fix boot failure with GCC latent entropy plugin
-262550f29c750f7876b6ed1244281e72b64ebffb scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-d32a15cbc0104a6882cfec5d0c4bcec720bdd9d1 ipv6_tunnel: Rate limit warning messages
-be1ca30331c7923c6f376610c1bd6059be9b1908 net: fix information leakage in /proc/net/ptype
-2b77927a8cb7f540ca2bccff4017745104fe371b ipv4: avoid using shared IP generator for connected sockets
-8788981e120694a82a3672e062fe4ea99446634a NFSv4: Handle case where the lookup of a directory fails
-e3fef0d7eeb2339e0b1c324da6cea4dd0128ac1d NFSv4: nfs_atomic_open() can race when looking up a non-regular file
-e7b6b9ea12cf1f51604cfbda4b0a66759e18c6ef net-procfs: show net devices bound packet types
-33dee0ad3f969dcec66a4cf23371656c3dc96148 drm/msm: Fix wrong size calculation
-43678c0228f1429a74515f4544783226237c571b hwmon: (lm90) Reduce maximum conversion rate for G781
-daac3482a5b526f93dafe61da2ae061afe3e1f89 ipv4: raw: lock the socket in raw_bind()
-ff3617bc0622f2914a8334cb35227290239325d1 ipv4: tcp: send zero IPID in SYNACK messages
-587ad3aa4787c00541f39f0343da44caae3dcac8 netfilter: nat: remove l4 protocol port rovers
-a2acd9e43b55d4477babb6e2a20896e6c3506cb9 netfilter: nat: limit port clash resolution attempts
-45b96488ec4cf10818c2457ada05fa8d660161cc ipheth: fix EOVERFLOW in ipheth_rcvbulk_callback
-cadd542ebec04549e112720a803df22f03b2b05c net: amd-xgbe: ensure to reset the tx_timer_active flag
-9924c80bd484340191e586110ca22bff23a49f2e net: amd-xgbe: Fix skb data length underflow
-2cf180360d66bd657e606c1217e0e668e6faa303 rtnetlink: make sure to refresh master_dev/m_ops in __rtnl_newlink()
-bfce19548a2ba1e007c84fe725d70a9c3caf46a1 af_packet: fix data-race in packet_setsockopt / packet_setsockopt
-40f598698129b5ceaf31012f9501b775c7b6e57d ASoC: ops: Reject out of bounds values in snd_soc_put_volsw()
-9e5c40b5706d8aae2cf70bd7e01f0b4575a642d0 ASoC: ops: Reject out of bounds values in snd_soc_put_volsw_sx()
-17e16a66b4f9a310713d8599e6e1ca4a0c9fd28c ASoC: ops: Reject out of bounds values in snd_soc_put_xr_sx()
-d4b746e60fd8eaa8016e144223abe91158edcdad drm/nouveau: fix off by one in BIOS boundary checking
-90e970cfd682d40cbc5a5c39ee5889048541c1a6 iommu/amd: Fix loop timeout issue in iommu_ga_log_enable()
-f4c10af668f25552a8329b8132f16aad56d607fd spi: bcm-qspi: check for valid cs before applying chip select
-814735fbf12de8ec46737c4428a8aec0e473f343 spi: mediatek: Avoid NULL pointer crash in interrupt
-6c81b9e39cb7db5f1f72430726db87813b67d138 net: ieee802154: Return meaningful error codes from the netlink helpers
-14b2834992454a93b1cafebe712f2d95b3717e34 net: macsec: Verify that send_sci is on when setting Tx sci explicitly
-695cb16c665be266fdf404300c94f4f616f9d1da ASoC: fsl: Add missing error handling in pcm030_fabric_probe
-3a345198a7c2d1db2526dc60b77052f75de019d3 scsi: bnx2fc: Make bnx2fc_recv_frame() mp safe
-72a16cde6954dcb4cb5efeb9b48ec38831772a9a nfsd: nfsd4_setclientid_confirm mistakenly expires confirmed client.
-617bb6fc12f7d9854d351a0ff06d43e6f58029e4 rtc: cmos: Evaluate century appropriate
-7d16424235c4f87f65dc600cdf39e0f2d6aacd76 EDAC/altera: Fix deferred probing
-4b5fc3acd85278f8ba8329299b7cf437c3c9b296 EDAC/xgene: Fix deferred probing
-48d64974be2fedf2b7beae0a39a05ca654af04a7 ext4: fix error handling in ext4_restore_inline_data()
-7a66c048082c95969f767ee6a9b31c85f5b35edf Linux 4.9.300
-
---===============5968349431368233040==--
+--===============4172431780858456869==--
