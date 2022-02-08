@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 08 Feb 2022 12:39:56 -0000
-Message-Id: <164432399634.23503.6206605022754465335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 08 Feb 2022 13:21:22 -0000
+Message-Id: <164432648277.18114.9863884305154594926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fixes
-    old: 1dd498e5e26ad71e3e9130daf72cfb6a693fee03
-    new: 5b7d14071bca2113ff2da0f74fce7d407100ddb4
+  - ref: refs/heads/v5.17-armsoc/dtsfixes
+    old: 8fd9415042826c7609c588e5ef45f3e84237785f
+    new: 2e8a8b5955a000cc655f7e368670518cbb77fe58
     log: |
-         5b7d14071bca2113ff2da0f74fce7d407100ddb4 KVM: arm64: vgic: Read HW interrupt pending state from the HW
+         2e8a8b5955a000cc655f7e368670518cbb77fe58 arm64: dts: rockchip: reorder rk3399 hdmi clocks
          
