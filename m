@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 08 Feb 2022 15:07:27 -0000
-Message-Id: <164433284739.23698.5205133097004182037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 08 Feb 2022 15:07:43 -0000
+Message-Id: <164433286361.23916.11204009476352217659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 1301ba2d6596a8567c22855b1e0554a45326f3aa
-    new: a8b165905b2f0886219d844e9ba432764ce6a2ab
+    old: 9104f6b467836bcde8182361e9a7976d677858a1
+    new: f40092d71a6e44a54e744685f29f74095c0068a5
     log: |
-         4e2a354e3775870ca823f1fb29bbbffbe11059a6 regulator: core: fix false positive in regulator_late_cleanup()
-         a8b165905b2f0886219d844e9ba432764ce6a2ab Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         ab3824427b848da10e9fe2727f035bbeecae6ff4 spi: spi-zynq-qspi: Fix a NULL pointer dereference in zynq_qspi_exec_mem_op()
+         f40092d71a6e44a54e744685f29f74095c0068a5 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
          
