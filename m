@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1946795399170618814=="
+Content-Type: multipart/mixed; boundary="===============9096722307970703661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 08 Feb 2022 09:30:43 -0000
-Message-Id: <164431264322.14501.3493948686437152348@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 09:34:15 -0000
+Message-Id: <164431285547.15965.8414522522337983999@gitolite.kernel.org>
 
---===============1946795399170618814==
+--===============9096722307970703661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: c781d8db2c577aef116db0449597c717a83b1515
-    new: 1091a8737b9ea32960d73bedb4d30c34aace5f9a
+    old: 1091a8737b9ea32960d73bedb4d30c34aace5f9a
+    new: 20198dd98cb5eb32e87f9370d20717b460c75d4a
     log: |
-         a548aea7ff6bdbdc00bb238707113b71b4c74f3a staging: r8188eu: usb_vendor_req_mutex is not used
-         ac510bbe168dfe2d52b1e18f4c4668328899b928 staging: r8188eu: dvobj_priv's signal_strength is not used
-         0266c945a8ffd86ca9c5dcb24688dcfd338269ed staging: r8188eu: RegUsbSS is not used
-         1091a8737b9ea32960d73bedb4d30c34aace5f9a staging: r8188eu: usb_suspend_sema is initialised but not used
+         20198dd98cb5eb32e87f9370d20717b460c75d4a staging: gdm724x: Replace one-element array with flexible-array member
          
 
---===============1946795399170618814==
+--===============9096722307970703661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644312641 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644312854 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1644312641-538ed4109bb6ed987b7a97c347fdb6adcc79374e
+nonce 1644312853-fe135c01e0d803bbd5ddc7b7c4074a16db6da3c7
 
-c781d8db2c577aef116db0449597c717a83b1515 1091a8737b9ea32960d73bedb4d30c34aace5f9a refs/heads/staging-testing
+1091a8737b9ea32960d73bedb4d30c34aace5f9a 20198dd98cb5eb32e87f9370d20717b460c75d4a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICOEIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Av4P/3BaRo8e3waDj2JKQtYp
-B506t/SHmiJ4PYDp4hHsTQg0oR4R1u7O3PD0bCzSE/If5RFlHpidLbeUDh0Lzu1j
-bImdi4pzfXvsXYR0wRilhlCSuEt6luEeKeAG1PLfR8e8GkZ0h46KRQ6EsB9zx3XD
-GDI0RqHNZiBr7Zdc+WeANVIFDXrKABDRyIbJHI03sfq3VCZFoWkxefed8Fsiy3Vg
-x1DJPFg5V4K243NahzjGMwHW2V3aSKsb4exVtkK96Iifg0iFI1jbu1YbLk21C9iy
-hMxr8Web7RxAOBsvjJdmHax9Rjq/BZl0kKWCS6EWmRvqZ4ldyNXIByGXVO3hc5R7
-hIPin2Oq1TotZROkZeTZ6QSZXZyswzk2fTmxUUEbAorzFkuri+r3CnfMV4Zwbpyr
-F/chvsybJH/bgQjKm6Q8n9WJ49com3fQnD6tvQLg9e1dGo6+7+xG/MUl3ZNhgexx
-7AiVkOe7FSCsccEA77kmt6R9RTmpJ91MZkqwpnVDwEz/zwz2BFcLLu6rmZ+3TlIO
-8AX2JNnB5yXshqWuIWzKEvhNmU2KZMvxK5qhPjagbMRF4POhDMcQ5X8hdCWKA/hq
-q/+wrAlfZeZwFX4CUkOETTeFuEpX2FbIgxbuxC9A5G4frhZx1V0hnzuEU7L6xsYo
-qIyaj8h4KhSDaSqpfVRBDGou
-=20XP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICORYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m6YP/iLasZpmhhW6dY02pCio
+IxURC3ecgbPiNfHNAe6nDfUa9qr5X5vtAOQ1OeuIhDeBa2DQ/oD+w0lh5PaNn4My
+7lLVO89OsZcWJnL0A501s9wdbfjtDIekAY14FGRkkvWPP0DtzqNOD3DZdlm0GZEJ
+pOmCf+Nhn4gtzqKze7/FHBMR/k18vurCToTbouI8ACi4QwJbKusZrCfH8PYL5vuw
+S5Bwm1bys7ZRvFjxj4DwonuQ+XtlD69wpGPUxiue0mJTya3voLMUQyiJoYrvJgLg
+X7Upy98uwDSu3v+ykFN+RfSdQzQwspX+/cwqVGg1QeGXm6lfmR2y/ykqoENaROxr
+k3OcYtwfoWwfB131RveStR6D8xZjeNFz7g2krDisa5TwuiEGB5CeFCAdd83Dpqaa
+TnkMQOFd0u798E382uy9Odzs7qBZugshEe4HO6VFeoB4VuhDOWk67n2SjZRBYk9m
+JX2Z+WKZaV91kLW3rfogrzAlziXtLqBl9sUhviUleaUAcER4+gvsu9EtY3pChVuE
+Lz539SWZboFqLHMV4M4Glx1zzKelby6aRd1twrvmOR+ceKGrBWzyrma4m9AQ9JH6
+HijoVViUtEMrgDyR1HSYKyQIld3o6/q/u/idGkEqO3DUHGne2lDPTcJrUizlBhKr
+g5EzCFKxh5x39mSbSV/qUiQL
+=vR4h
 -----END PGP SIGNATURE-----
 
---===============1946795399170618814==--
+--===============9096722307970703661==--
