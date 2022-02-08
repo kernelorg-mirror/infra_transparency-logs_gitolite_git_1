@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4365556587764466246=="
+Content-Type: multipart/mixed; boundary="===============2192839006081815951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 08 Feb 2022 10:07:43 -0000
-Message-Id: <164431486315.20889.15628974208601029522@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 10:09:13 -0000
+Message-Id: <164431495347.21471.8466070785727369699@gitolite.kernel.org>
 
---===============4365556587764466246==
+--===============2192839006081815951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 186ab09930aac24fad59a56d22ea507c8505b84f
-    new: 7547d9ab03720e9ef3e300b12c57f380310a6e30
+    old: 7547d9ab03720e9ef3e300b12c57f380310a6e30
+    new: fcc446c8aa6303b247b0d88f460167b731265282
     log: |
-         9978c2f14f20a1aaea3840c16220ef64e4ad1872 serial: mctrl_gpio: add a new API to enable / disable wake_irq
-         7547d9ab03720e9ef3e300b12c57f380310a6e30 serial: stm32: enable / disable wake irqs for mcrtl_gpio wakeup sources
+         330582535eb293fc6d72db95342196f98ac11c99 dt-bindings: serial: fsl-lpuart: Add i.MX8DXL compatible
+         93fc5f2fba94ca227f5073150f8d74421eadb395 dt-bindings: serial: renesas,scif: Remove redundant renesas,scif-r9a07g054
+         ed265bc955cfa46490d07db0bf5de985b31367da dt-bindings: serial: renesas,scif: Document RZ/G2UL SoC
+         5cfb02ced7e0928b5ae39b0320c2de408bb210ac dt-bindings: serial: renesas,sci: Document RZ/G2UL SoC
+         fcc446c8aa6303b247b0d88f460167b731265282 serial: 8250_bcm2835aux: Add ACPI support
          
 
---===============4365556587764466246==
+--===============2192839006081815951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644314861 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644314952 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1644314860-7d0a8b44fa58ec859a334fd1951a67be61cf28aa
+nonce 1644314951-aee6ca1f922b81f83dbfa3585ae28d2bbf4db24b
 
-186ab09930aac24fad59a56d22ea507c8505b84f 7547d9ab03720e9ef3e300b12c57f380310a6e30 refs/heads/tty-testing
+7547d9ab03720e9ef3e300b12c57f380310a6e30 fcc446c8aa6303b247b0d88f460167b731265282 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICQO0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NT0P/A4az3caGS9U8bGD18iI
-5WTNWNf35n7OxkdLyeE8bgwspL4wgMJYn5TJC1Dll0qD8nopiZFKNlNeug+8nnfL
-wZ5S3jSNsYM69nFA3TUPNT5hA2qiwLU3AgLpj1XSRIuMl0rtzE3LsYaWyj3LMLER
-jG/8Zd/fbLCZPiLPKqhpO0HC6LknOs44KB2oKJKgwdzW7gbwvTEnEYRp/QDzT5vD
-wolERaNlxefoWoNl59gshpiclzuGjVC/f030q0VxcJbPs5ImcZmOCa1F8YP0/6h9
-Y0DQkzU4fkOdByKRzA4B0nm6CTesSzybj1/KWyiwncyXz75dbnQet7/nyrc5Cul0
-s3GCvJ7l7WW9M4+43CbTn+DhanlNB0TBFE/IZJnpaG/idLOIh81cqQGTXZAZJTaZ
-9A+cjG0ndi92z1xi/Cd3D7xshfdXL3N2oXpg6jk3MwYXHmtFx13Ad06EIktMvG7N
-Cht39IacAyN9mM40MO9pdnKFFz7Kb1VJ5Jp3N0eNciSFBOiliK0bC7vTkC0MjALO
-ezVUuBSTrrYNyl3m7v3lovDpXzMN/cmqR6UBKkSF5SUc6PGZI7EgcCC8oKml+8gw
-nRMOozwrTvRNNGeRE56Uyatfo1G7qiFVKT7P5K2WDP7ox60jxEQD2zo7I1UM0RGb
-iyV/Yak1VBTanAPlZf1uiAxF
-=XSEU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICQUgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AgMQAMDnI7+aLld/FgOs51Y1
+hAcZlcAZkJFPswc3SbZtVUsvYFlW/nXiwJRsl2KJdXZhDPIC7uRbmlU8xLZonCEw
+4RCoY2Douz1l6Hlut4Prjs+omQBVhS4OjAwm5oynU1Ann7clIvQQ6uAWnQPDMgqW
+InpWMBnxXtT0yQGm478bBPdSLI+bxo90CP00cZpIpPjR3wH7U01aV54zlQSlNXrf
+3HycHLtlGnVza0Imz76rJ+frI+WzBeLZ1NMVLYNq7dEKBxTI4LGVuDd6gOq1vvG2
+1w0rXbQyYf3qNeyQfZP4qnNUl1QG++syxfHfpbVqz+YwZirF/7P6VnGRkKhBOKGI
+OsmKEATI3GZDtZWg+auivVDDGsJe0Yst9MDmsR9L6Gj7Z661JTCTuJeAXB4pe4VI
+cK7bGNGOatTI0fwmyrqGhQQBo1wgpzFpDPcYGnv1NXSULkOVuJwdP3vYVpWEYrZr
+J0TOkcOw5/pFQiwTcG/LFAhtD5724yrKNNuLXvEgFPOgkSDO4ySTvBPSQwv058S1
+WM1PPH2PWqQbwV3ZTho292sG9li8QGgw9IesJFt5he2JuSLbNkt6WK6Rhz43EN7s
+lPhWFOb4QyVAiMGbKHbNPk/t2F41Rvdd+2JnhJuWCc6Ma3/+YrwTwTFflXW+oREd
+hwjdeN5Sz26lmlU/hHXO/3ng
+=vcjx
 -----END PGP SIGNATURE-----
 
---===============4365556587764466246==--
+--===============2192839006081815951==--
