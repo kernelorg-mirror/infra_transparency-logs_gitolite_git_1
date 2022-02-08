@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Tue, 08 Feb 2022 03:57:40 -0000
-Message-Id: <164429266085.23316.53497435559503772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 08 Feb 2022 03:59:47 -0000
+Message-Id: <164429278751.24055.8199383165343968665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: 822516d862c39be4e6b9cec4bffe8abef364f286
-    new: 97c49508efa254aebe736f9ab07b16416ec195cc
+    old: 94fdd7c02a56d0316d20e417a1141b71a8dcee82
+    new: fe4f57bf7b585dca58f1496c4e2481ecbae18126
     log: |
-         97c49508efa254aebe736f9ab07b16416ec195cc build-all: fix cross-compilation in the blktests directory
+         fe4f57bf7b585dca58f1496c4e2481ecbae18126 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
          
