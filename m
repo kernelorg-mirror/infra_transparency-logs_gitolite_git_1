@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 08 Feb 2022 17:55:54 -0000
-Message-Id: <164434295406.11928.11654813365831242759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 08 Feb 2022 17:57:18 -0000
+Message-Id: <164434303825.12556.8402102884128266051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/next
-    old: c30185412daf353e6bcc61cd50ee7b7eadf42d1e
-    new: 00e6dae00e3dcb4dd54e1d62e295fd997a0cec28
+  - ref: refs/heads/damon/next
+    old: b29e4f71ba095090c2cd061e7e8fc6db10074cab
+    new: e523c1b0c871c60952cbf78204dc4689349c3ecd
     log: |
-         5177fe91e4cf78a659aada2c9cf712db4d788481 KVM: arm64: Do not change the PMU event filter after a VCPU has run
-         2093057ab879da1070c851b9e07126eaa86d0dfc perf: Fix wrong name in comment for struct perf_cpu_context
-         46b18782147248b62f00e98a7f87abaf934951e8 KVM: arm64: Keep a per-VM pointer to the default PMU
-         db858060b1a788fba03711793dcaff19ea43286c KVM: arm64: Keep a list of probed PMUs
-         6ee7fca2a4a023b14aa1f1f3c4f6c833116116ef KVM: arm64: Add KVM_ARM_VCPU_PMU_V3_SET_PMU attribute
-         583cda1b0e7d5d49db5fc15db623166310e36bf6 KVM: arm64: Refuse to run VCPU if the PMU doesn't match the physical CPU
-         00e6dae00e3dcb4dd54e1d62e295fd997a0cec28 Merge branch kvm-arm64/pmu-bl into kvmarm-master/next
+         c4a3d3a7be718e618cca9447864ffa30be5e6f52 mm/damon/sysfs/watermarks: Support strings for metric
+         6df332ccfe57b9333a5f65e36424c68aeb798060 mm/damon/sysfs: Implement prioritization weights directory
+         ae9758db8b17346aa841b3a4730757211525a73d mm/damon/sysfs: Implement quotas directory
+         0b24d1774d55c11a0dafe5922d5b55455a78dfba mm/damon/sysfs: Rename target_access_pattern to access_pattern
+         167dcedcdad1893d88bb98f13c4efdd0e7e430f9 mm/damon/sysfs: Implement access_pattern directory
+         46cf72461ba244abf75b56e9c93cde7612fcdf61 mm/damon/sysfs: Implement scheme dierectory
+         4c41f0e0b21d1b518431e01f227b8a173c37211b mm/damon/sysfs: Implement schemes directory
+         e523c1b0c871c60952cbf78204dc4689349c3ecd mm/damon/sysfs: Link schemes dir in context dir
          
