@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5262937138690248087=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 08 Feb 2022 16:29:26 -0000
-Message-Id: <164433776639.15257.4815298438072253544@gitolite.kernel.org>
-
---===============5262937138690248087==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 08 Feb 2022 16:31:58 -0000
+Message-Id: <164433791842.17644.10601323228107124277@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/usb-testing
-    old: e9cdf07241e52c36e7b31693859c861f9235fed2
-    new: 5726079cd4860c190722445e01e1007e40a9ccb4
+  - ref: refs/heads/net-next-mlx5
+    old: 19961aed1eaca30b132d9095d22faddc3967006a
+    new: 58ea68994f55d6a76ebb6234bd9c9ace9c87eb14
     log: |
-         d8b1c3d0d700f7995607fde333a992de28636178 arm64: dts: zynqmp: Move USB clocks to dwc3 node
-         5726079cd4860c190722445e01e1007e40a9ccb4 arm64: dts: ipq6018: Use reference clock to set dwc3 period
+         d1d5bd647c49c8d4f8f4c5b79ddc819a6f3f7c57 net: typhoon: include <net/vxlan.h>
+         642436a1ad34a28c45bbc2bdc131640a73782356 net: stmmac: optimize locking around PTP clock reads
+         a410a0cf98854a698a519bfbeb604145da384c0e ipv6: Define dscp_t and stop taking ECN bits into account in fib6-rules
+         563f8e97e054451d167327336a53b7381517a998 ipv4: Stop taking ECN bits into account in fib4-rules
+         f55fbb6afb8d701e3185e31e73f5ea9503a66744 ipv4: Reject routes specifying ECN bits in rtm_tos
+         32ccf1107980e8ed5c62cf6666da7a47a4fc7ecf ipv4: Use dscp_t in struct fib_alias
+         c3e676b98326a419f30dd5d956c68fc33323f4fd Merge branch 'inet-separate-dscp-from-ecn-bits-using-new-dscp_t-type'
+         58ea68994f55d6a76ebb6234bd9c9ace9c87eb14 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
          
-
---===============5262937138690248087==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644337762 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1644337762-31674403d02897cbaf8a4b8e9331e2fddd4b2d40
-
-e9cdf07241e52c36e7b31693859c861f9235fed2 5726079cd4860c190722445e01e1007e40a9ccb4 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICmmIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FHIP/3X0FpXmZNEC4XChJ66c
-MpNzKKHuZIAa2PxnbtrJ1RUaiW2dMwnxfZeBNLY71I21MAa7dyTuvgknLpVeGPgs
-CPqGsrnvhpYP1g/nDcz2PrYSokDKxCmqxytDpF9eGGuLJ11Y0sYn4zrNuah0F7SW
-+Fap4AmdhEPCd8eRjYwyv43SGsZk+34rTt+MHpvBGQuyKvdFCBHkLJLWnZBZtiwT
-HrtOZdscvFTVpP2BowIANWZfJCS0hxBPm0PRzMndEZWBqpsavzAzKO3Rw+ozGO2E
-aKAj57HAPnrKWR+s8lsD4eVagD0Q4LDiC/QQcyhu981LCniKLggsjZA4/t/9jVyF
-PDJScQcnNB73QxgirYuS31oqDwWQQ52SxTAmxWKwzPv6WNrIR4ghMfh6FRhrmuGK
-ABFZ32vMhg0QAHc+4pJxcY03SxvekxocFZuvmsPBWj1EVATPRnVTilShGwdBev7E
-M2I7VRqLLR2LYsWTHAhZ0+8Mu1tlPQgvoe/WvkbqKwxqPESqTguJIkMRvkw8Dojw
-vUG8YqGx4atxqUC6j12YAAzVz1oXNjkPXb8agvebY4ecEZYhf50/yefMsJC2u7Ha
-6RhhZQJuuPEIg/44ALwAZNULHd3FM0U8NfXR3FJtwTG8ATuLHD0RNyA979Z61Dlp
-DBnqiPX+dw3IgokG9536vOSH
-=22/e
------END PGP SIGNATURE-----
-
---===============5262937138690248087==--
