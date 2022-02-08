@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 08 Feb 2022 18:31:45 -0000
-Message-Id: <164434510596.2662.9814161422754840104@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 18:35:59 -0000
+Message-Id: <164434535976.5508.7326443738446851155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: ff62433883b3ab753a78954ecf46e2c514f5c407
     new: c3e676b98326a419f30dd5d956c68fc33323f4fd
     log: |
