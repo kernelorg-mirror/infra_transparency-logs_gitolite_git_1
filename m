@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 08 Feb 2022 23:31:08 -0000
-Message-Id: <164436306870.5969.16480092580450798768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 08 Feb 2022 23:34:21 -0000
+Message-Id: <164436326104.7333.6181708786635017445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/jd/fast-key-erasure
-    old: b8c895fdd4821cfe49df30ecfa2ecb759507424c
-    new: 29c25ad02990c3b27ad563a79565425041d35a4e
+  - ref: refs/heads/hwmon-next
+    old: d7334d0558117653c72394782c0d6b7f71d02482
+    new: b460ae6643ad52157cec964302dfcb61e7ed34d2
     log: |
-         c1a4eb80654104ca4013914d37d2c0e184630314 random: use RDSEED instead of RDRAND in entropy extraction
-         f02cc1239ea8842f46e9bab6bc9241735eab4a1b random: get rid of secondary crngs
-         1d3ce00b70c15713bc630ea0f1b605c48b983271 random: inline leaves of rand_initialize()
-         c4be588d1c5bc9a92dd1e71d9862e5735d6495e3 random: ensure early RDSEED goes through mixer on init
-         22ead58c6c52c9f7e7a942c049bfca4469dcf731 random: do not xor RDRAND when writing into /dev/random
-         635233ab8f353b2dadae909b8c7af04736a88a01 random: use simpler fast key erasure flow on per-cpu keys
-         29c25ad02990c3b27ad563a79565425041d35a4e random: remove outdated INT_MAX >> 6 check in urandom_read()
+         90c3e3b8140d833a737085abd1ac133d14a32390 dt-bindings: mfd: Initial commit of silergy,sy7636a.yaml
+         bae5a4acef67db8870e33d9258223c9dcd64b5d1 mfd: simple-mfd-i2c: Add a Kconfig name
+         5913eb45d036288babb67e97b210233537ef7b90 mfd: simple-mfd-i2c: Enable support for the silergy,sy7636a
+         947d0cce70ae37b89295040165404b1da3994c10 regulator: sy7636a: Remove requirement on sy7636a mfd
+         de34a4053250781404779b567b58dd97af689ce0 hwmon: sy7636a: Add temperature driver for sy7636a
+         cf7ff6f041303d3f6f0e19120e6e133b1fb5b1c3 hwmon: (asus-ec-sensors) add CPU core voltage
+         b460ae6643ad52157cec964302dfcb61e7ed34d2 Merge tag 'ib-mfd-hwmon-regulator-v5.18' into hwmon-next
          
