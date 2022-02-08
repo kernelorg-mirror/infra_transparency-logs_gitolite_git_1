@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1332174072337111998=="
+Content-Type: multipart/mixed; boundary="===============8752920467994220619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 08 Feb 2022 09:46:13 -0000
-Message-Id: <164431357378.6265.2175303279376297330@gitolite.kernel.org>
+Date: Tue, 08 Feb 2022 09:46:39 -0000
+Message-Id: <164431359908.6494.3145620699755459770@gitolite.kernel.org>
 
---===============1332174072337111998==
+--===============8752920467994220619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: a2882e5ea3497b7cb6318ddeaf539b6a2da8d61e
-    new: 1b9a8d755f2be2ef96d46b2724311a255ceccedf
+    old: 1b9a8d755f2be2ef96d46b2724311a255ceccedf
+    new: f2c461536226eb0852a241e72b9125685d6741b4
     log: |
-         1b9a8d755f2be2ef96d46b2724311a255ceccedf Staging: nvec: Fix ending in '(' error
+         f2c461536226eb0852a241e72b9125685d6741b4 staging: drop fpgaboot driver
          
 
---===============1332174072337111998==
+--===============8752920467994220619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644313572 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644313598 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1644313571-9841c70878fa7f401a50825a794e42ff1ea286f3
+nonce 1644313597-9dfda30fdf3f28d9a41eae765571c4dca442f892
 
-a2882e5ea3497b7cb6318ddeaf539b6a2da8d61e 1b9a8d755f2be2ef96d46b2724311a255ceccedf refs/heads/staging-testing
+1b9a8d755f2be2ef96d46b2724311a255ceccedf f2c461536226eb0852a241e72b9125685d6741b4 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICO+QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qm8P/ia8H2qy67N5Yl7ZUz0W
-9GLA8NFaWIuts0Tl0SI9zKvyRUQU0z01MljT99WVNOZjPly9Q9HxknJfkYqHdGcs
-pj9+93rojQty+2R84pmWABq4WPn7JFsaawH6KrOmmJLxNsHDEGAfXq+X89Rwa1sM
-wP1MHwr/o5Aft/EhgULppRvbvj7rgcuHudZ0Cpp94PIuVgQ6lXTMwYH8bkNHjWIz
-4NotiIms4Tx0A8hskul1JMIQMjBSicRPs/vhvqVbxGdT3+4ByCBKlczK5mnh/2Io
-EaHd475l1C1Hf87tOM1Hw3YmD2/UrNo3z3PoOeNRuoKznVTywkm60tumKP494UsU
-7YgqJ8bX88oX2K6lQVeywjihIw5yW5uOa3HwNUpkrqNcw5dikLH0/ghAVxpd+ju1
-TM1CW3NkWHtkMo4H261Qd5Y3PD5u42vOkvR5cm7fI3JsJPblCv6Le8H5ZG60pdEo
-dF35Kh2Cd7L/fk53hKmvnC7HVugDhTi84qflh1knfKgBQ6HHTQIcz77WFNEMbvJX
-4BD3mmI+6ZP0cA9DVN8knobducvBI40hW0g9sz45s6us1QpYRCF6/rH/rDNHbmCA
-UJPALc0xhQTLe/vvXd8wX03t1V8yxYnvKNSh7SZkBsHUpJe5Cp+dyD7qerX7QROa
-C9ol/dXi1WOv57EkZxSQb/iH
-=RpgH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmICO/4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+620P/00OIFylMGJuMyI3lKcU
+K0pEFObypB1YsQyOtBaF0ZBMJSLgBLEuziI3UCxFyLJ1jUi3IzUqWRrCXiUDmfe0
+IeqVmZRcSbPjKeGAbdjGdCFRFcRYH4AFOiF1oO9vrXnkqGj8vow86uQ+qnk+I+ig
+IQ9XMkEmyHZN23Dt+Q9Aha4oW6NxwK2Eyv+7jMzv2N9+z2uOUmHQXyb1lrD39VRi
+DnjX5ccznw3A97CT+MZiDPQlqcQuKvNgd1zv1yhKr+Knt4ZcRdWOnm1t8QfYEOEd
+PoxCBPo99iYyh7FGVzTlIjQV7PdFneCXOyKcbyuaKu1yzAIY+AoACfqZPhKVnots
+Lb8pWBlCc0saIck5+hKlKLBYrXFFPTXyaMfyAxl5DHowigfek8sdSnE3nJXzW+D7
+IfSVKWU4EQwDO0T2q3z9/eFVUwFHqbSFyZ6m/UDfi+yMiVcRaMuCkL8iBwFZRUmK
+9gp+qKeZdlWUtTb7OAQeUcSXlQEIbF4xdJ3BhvrGJrINZC9vHxLuuwl22vKDqHFq
+g48xtoOVvVwDdXREFWGWwBnPubIzXZipvW2WyMvwuUMfZV/43BxV6Nw2bAwQxhM7
+Nbd+b8aqAQpdEDspK4xstId2TRwiGe/DC3HxySChoC9EIzj9XpyfRWwOzlti5iwk
+39/xaVhxddbFRIo2oJkJuvo6
+=ToNT
 -----END PGP SIGNATURE-----
 
---===============1332174072337111998==--
+--===============8752920467994220619==--
