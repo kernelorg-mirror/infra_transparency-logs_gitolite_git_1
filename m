@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2053575849370900374=="
+Content-Type: multipart/mixed; boundary="===============0027590122168837531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Feb 2022 15:06:38 -0000
-Message-Id: <164433279899.22912.3935587672281303331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 08 Feb 2022 15:06:45 -0000
+Message-Id: <164433280535.23094.16102590514660443847@gitolite.kernel.org>
 
---===============2053575849370900374==
+--===============0027590122168837531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.17
-    old: b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51
-    new: 4e2a354e3775870ca823f1fb29bbbffbe11059a6
+  - ref: refs/heads/for-5.17
+    old: f83a96e5f033fbbd21764705cb9c04234b96218e
+    new: ab3824427b848da10e9fe2727f035bbeecae6ff4
     log: |
-         4e2a354e3775870ca823f1fb29bbbffbe11059a6 regulator: core: fix false positive in regulator_late_cleanup()
+         ab3824427b848da10e9fe2727f035bbeecae6ff4 spi: spi-zynq-qspi: Fix a NULL pointer dereference in zynq_qspi_exec_mem_op()
          
 
---===============2053575849370900374==
+--===============0027590122168837531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644332797 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1644332797-a307a6568808ba936be845c8a0f7e6b6341e0f05
+pusher C3F436CA30F5D8EB 1644332804 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1644332803-45da3155f7ed23ebf04df9536c2ac4658dfb8f90
 
-b4c18c18ebf7cf1e602af88c12ef9cb0d6e5ce51 4e2a354e3775870ca823f1fb29bbbffbe11059a6 refs/heads/regulator-5.17
+f83a96e5f033fbbd21764705cb9c04234b96218e ab3824427b848da10e9fe2727f035bbeecae6ff4 refs/heads/for-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIChv0ACgkQJNaLcl1U
-h9CUEgf8Dv7rt/pJt+TtA1bxRftsUIulp4kR4rqruVeQqqtIhlmScKHlhm1Ka4jn
-PdgNhujNGI8FUyuE5kJvbSonz6o1BXtfDhwsK9OeVx21k32mZcwDIJde3TlF0tOf
-fM6XvKwThiWR9EeimZoFvLR6Z9aSgWJn/b5tYbYZCkQxkTsWCrX4og0X5bbXVcv7
-uZQWyyPVxj2kMcHYpAWM/IDdz0S7v4ZdlsBpvwTkU4ep/d6CsNv7FW2vfDgz5AIV
-r8B5VzWDJVu7hXaCPzlpvggTpq/4VZGsL0ks+dspRhSbFvetgV11GpgWAbh3SNlc
-pz1VW/G7P5s6CyLWrOA0TxmC2okDaQ==
-=9XmX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIChwQACgkQJNaLcl1U
+h9A6jwf+LJ/Z3dG2GNZUuMovmpDQipN1V/2t4Eh81aMNa7zM3CijAUbQkdeO4bJG
+lbOneVZNDFlPQIL/9BdFXaFAHwHmDTGxn2rMX8i0K63fLaV5FmsQZnfd8xi48/Jb
+FYqF+xVZ1YA7EEX2xg8oXP+c+LN/m9McKK5Ti4+IeurCZnp1+i0DWVwSCGtFlZU7
+jrmEh3Ieuvk5RLkGuCRcwrfRVEqbOVRM0OeHfaYctqptuKStgjxkWSW9+UMhVnD4
+A7QpUWe8qzoUyspQ0PEpJcriH2FHK99WSHTQHilN+373CWFJzsUr58FSA8tKeNmy
+omGBQSMVLh/nFLXmp99Wlb5RFXGviQ==
+=wXM5
 -----END PGP SIGNATURE-----
 
---===============2053575849370900374==--
+--===============0027590122168837531==--
