@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4854542481801264162=="
+Content-Type: multipart/mixed; boundary="===============7248471918919455105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 08 Feb 2022 18:58:52 -0000
-Message-Id: <164434673239.21051.4752112814687754599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Feb 2022 18:58:58 -0000
+Message-Id: <164434673850.21223.1721669572094237029@gitolite.kernel.org>
 
---===============4854542481801264162==
+--===============7248471918919455105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 4e28b22225e3a8b7f1bd3e093301802a2238071a
     new: c17756beacf4d0b21c0e877bcfe09af645129b4e
     log: |
@@ -32,28 +32,28 @@ changes:
          c17756beacf4d0b21c0e877bcfe09af645129b4e spi: Add compatible for Mediatek MT8186
          
 
---===============4854542481801264162==
+--===============7248471918919455105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644346730 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1644346730-50ef10e70596c244a7b58a86be117902dfdd151f
+pusher C3F436CA30F5D8EB 1644346736 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1644346736-b200244fd5ef0c9fd3759a62f45d8f43d9f18cbf
 
-4e28b22225e3a8b7f1bd3e093301802a2238071a c17756beacf4d0b21c0e877bcfe09af645129b4e refs/heads/for-5.18
+4e28b22225e3a8b7f1bd3e093301802a2238071a c17756beacf4d0b21c0e877bcfe09af645129b4e refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmICvWoACgkQJNaLcl1U
-h9BA0wf+Myf2qx9aGFekunwrICJZuz9QpQu2ul49qUX5CWOWbFjCw9SboVknFfj9
-LhzrI5idW47JazTwK7KiGvp6vRJLj/5WoJP4EU2PaEV3pry0//ctG6zT00Oka8tQ
-Z2ouMtKX0VxSeRIWGyP+op9LmHCFONTyFx4yAfVPGelZ1lh2QsqtNoucHzYiTnGc
-hatqv22/7M5fPM5YNzkTTQS17CcaUmNxCjoW8qrnwW2tWBlA93vAOg0rnKqt8AUp
-Wlx3Da4frZWJeAXQ9yvgIN0e6vzNJHHVBsFrVHQBlonu2oapk5kzRY4+Iz6js8og
-oVFr99vZikPuMVyWV00gWPJ4MFkBiw==
-=Dj/K
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmICvXAACgkQJNaLcl1U
+h9BCiQf/c8dnyaX8JXBgEUXiAbmJGdGVPm4eDVIkatnJzzR/5f0i/Zpq7rg7dRxY
+fmzHhJZQ7S1ZvF7ZSowLVOpo8PyB5zJCtzH9B+Gy5pQyxutm2zpanzmn/BJmxvqQ
+sSbdzagbCl70noNtykyMOPToqgqys72DygiRSANJLT+T5nqNDcd/QMAU7ShrVHy6
+xtrEbo6omv7jsPHIXNwAZbeG5S8XgswuAdjWZYLSYpeanzi1n00WE81jpmzuzEXI
+n2lRF6pO2Nw3g8SbxDoi0i0rTGfNgy4idgWtS+ONkAE/v8liQei0UMZuPUlZU6sk
+ILv+V1NN1dJePh465K6iqE94+2HcdA==
+=Mxni
 -----END PGP SIGNATURE-----
 
---===============4854542481801264162==--
+--===============7248471918919455105==--
