@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 09 Feb 2022 11:28:39 -0000
-Message-Id: <164440611934.7073.11991640795562483121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Wed, 09 Feb 2022 11:28:50 -0000
+Message-Id: <164440613066.7268.15002630040405988213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/jd/no-time-to-hash
-    old: 184c72e52152a49473411c3a03859eccc31bdc21
-    new: dff3a71855b5b00fc13cb4b56071f3cb9ad5a46b
-    log: |
-         dff3a71855b5b00fc13cb4b56071f3cb9ad5a46b random: use rotate-xor instead of custom ARX in for irq accumulation
-         
+  - ref: refs/tags/v5.17-rc3-mmots-2022-02-08-15-32
+    old: 0000000000000000000000000000000000000000
+    new: f3077ea7c68baf736944f1ebf7d8bae1668a9e51
