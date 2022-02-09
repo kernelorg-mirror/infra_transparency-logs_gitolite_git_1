@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6749035113315741537=="
+Content-Type: multipart/mixed; boundary="===============1052249406728837516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
 Date: Wed, 09 Feb 2022 16:12:25 -0000
-Message-Id: <164442314505.4762.16752637539949439099@gitolite.kernel.org>
+Message-Id: <164442314581.4897.4298978832259239583@gitolite.kernel.org>
 
---===============6749035113315741537==
+--===============1052249406728837516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: cd448b24c621b2b676b4fa50a4ab4e9e9da114e2
-    new: 829aa937144ec27826741021a8be498715e72dd2
-    log: revlist-cd448b24c621-829aa937144e.txt
+  - ref: refs/heads/x86/mm
+    old: b64dfcde1ca9cb82e38e573753f0c0db8fb841c2
+    new: c86905b618d4463fc9369e9b8059e0caba47d8c4
+    log: revlist-b64dfcde1ca9-c86905b618d4.txt
 
---===============6749035113315741537==
+--===============1052249406728837516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd448b24c621-829aa937144e.txt
+Content-Disposition: attachment; filename=revlist-b64dfcde1ca9-c86905b618d4.txt
 
+ccf8d687542f6a7288b79727bec1cc084b3771b3 KVM: VMX: Fold fallback path into triggering posted IRQ helper
+635e6357f948d57bc98af8d37eb81896333822e9 KVM: VMX: Don't do full kick when handling posted interrupt wakeup
+935a7333958e91b5d0c1b0ebc75a5cefdbb34dd5 KVM: SVM: Drop AVIC's intermediate avic_set_running() helper
+54744e17f031cbc5c5b995b1e275df1520c8a739 KVM: SVM: Move svm_hardware_setup() and its helpers below svm_x86_ops
+a3c19d5beaad25fcaa703b251c72c3a22fc09100 KVM: SVM: Nullify vcpu_(un)blocking() hooks if AVIC is disabled
+d5ad5b1c04c85f01850e88231cad7dfbc9e1d30c selftests: kvm: add amx_test to .gitignore
+6b34cd8e175bfbf4f3f01b6d19eae18245e1a8cc btrfs: fix too long loop when defragging a 1 byte file
+b767c2fc787e992daeadfff40d61c05f66c82da0 btrfs: allow defrag to be interruptible
 70431bfd825d9cd5d93412c0456f253ecad6c415 cifs: Support fscache indexing rewrite
 484167da77739a8d0e225008c48e697fd3f781ae btrfs: defrag: fix wrong number of defragged sectors
 c080b4144b9dd3b7af838a194ffad3204ca15166 btrfs: defrag: properly update range->start for autodefrag
@@ -1033,22 +1041,14 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
-1f8863bfb5ca500ea1c7669b16b1931ba27fce20 genirq: Allow the PM device to originate from irq domain
-e95f3efdeb499accf2b05333a1eac7862f5a10f6 irqchip/gic: Move PM device over to irq domain
-c2ea6b9b03c1acde89c6100aff894e64386e72cc irqchip/renesas-intc-irqpin: Move PM device over to irq domain
-c3ec838e3a390e62cb71a11041db43d0b3b42c99 irqchip/renesas-irqc: Move PM device over to irq domain
-fb140b9c0fe1109ac2269443216d114751a030c0 irqchip/imx-intmux: Move PM device over to irq domain
-4b9558f92036c968119e1de383f604c19b3ca99b gpio: mt7621: Kill parent_device usage
-989c78f25ade0af66426b935f1113d4b0fe390c5 gpio: omap: Move PM device over to irq domain
-373d664b7d3babe1743f64746bc3c553ac23a1bd gpio: rcar: Move PM device over to irq domain
-924610607f191bee4379bc3775b0fd025ad7e922 gpio: tpmx86: Move PM device over to irq domain
-03182a20db448774a4cf5f2e5b1c4bd660746ebe pinctrl: npcm: Fix broken references to chip->parent_device
-de72f9429628e9c5b1124087c36bd7457b2ab241 pinctrl: starfive: Move PM device over to irq domain
-d3a33cefbb37d963bab883aca5b96109d61071a8 genirq: Kill irq_chip::parent_device
-fa5a1cb3c87fc4ba3f8656966ecdc6cda9630612 Merge branch irq/parent_device into irq/irqchip-next
-d335092933079e0a48c61ea5791906d040105a4d dt-bindings: interrupt-controller: stm32-exti: document st,stm32mp13-exti
-04133bb1e710bc3d5532694999fbb3d0f1421724 irqchip/stm32-exti: Add STM32MP13 support
-56a85388115b8513917ea269e116d7962dd6fab4 ARM: dts: stm32: Enable EXTI on stm32mp13
-829aa937144ec27826741021a8be498715e72dd2 Merge branch irq/stm32mp13 into irq/irqchip-next
+73c527f277cfa4192a18d7e47e5ad365e07a7db5 mm: Update ptep_get_lockless()'s comment
+9d0a846f8d261e1b759a9a80e9e1df1915fb08d6 x86/mm/pae: Make pmd_t similar to pte_t
+131c8ef5d540d795d5de63a97fc3db9b637a9bbe sh/mm: Make pmd_t similar to pte_t
+b089e6f49b21ce3ad205259c70f1acadcea49b9b mm: Fix pmd_read_atomic()
+38e961dacf04bdbfe31dcdf2031ed31563c03f98 mm: Rename pmd_read_atomic()
+aacc25a90e5e4b5e78045b409d12548f3ede3c01 mm/gup: Fix the lockless PMD access
+78c8d577770f817b5821dec0bf0fe8377216cee5 x86/mm/pae: Don't (ab)use atomic64
+941dcb1bb761686338b11a62a7f15a12f39e1783 x86/mm/pae: Use WRITE_ONCE()
+c86905b618d4463fc9369e9b8059e0caba47d8c4 x86/mm/pae: Be consistent with pXXp_get_and_clear()
 
---===============6749035113315741537==--
+--===============1052249406728837516==--
