@@ -1,51 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6928636791295300046=="
+Content-Type: multipart/mixed; boundary="===============1275636894453672062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 09 Feb 2022 14:33:16 -0000
-Message-Id: <164441719691.3389.10095961379060865370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 09 Feb 2022 14:33:59 -0000
+Message-Id: <164441723976.3745.15063562833536781389@gitolite.kernel.org>
 
---===============6928636791295300046==
+--===============1275636894453672062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.18
+  - ref: refs/heads/for-linus
+    old: ba8681733dbc9afb9a9e739f0af44065c38467bf
+    new: 46c22c5279f77b31e108057adc369742d9bba8f4
+    log: |
+         46c22c5279f77b31e108057adc369742d9bba8f4 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         
+  - ref: refs/heads/for-next
     old: c17756beacf4d0b21c0e877bcfe09af645129b4e
     new: 2cbfa2128662c6b841f68cd2fe54df199457e38a
     log: revlist-c17756beacf4-2cbfa2128662.txt
 
---===============6928636791295300046==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1644417194 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1644417194-d32b17b7b0dfc1b0556aeb7d30e55df6d1c42230
-
-c17756beacf4d0b21c0e877bcfe09af645129b4e 2cbfa2128662c6b841f68cd2fe54df199457e38a refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmID0KoACgkQJNaLcl1U
-h9Cb6Qf+JcQ3bpGXLnHlKIAXrlTvfrizqKx4Xn96F6mwMYmvSdfR17ZxvpJATOzJ
-wdtzOPtmVJJeL8hfjutThu5UxJSWCb/CjvDzY/qOfzrFput8pl81Oi2i4rraXQiR
-vu3S2b4QOTQLmNLgSAYtElN75oylRpogC8zPt2TUMxYh/pSdlJg1pATWy4nLTC72
-wquJN9L4Al00mSlPosJBFWkHKoLACjmdaKEJgiJM4JG54wSXtXFy7/JpNkACYQ/b
-JfwGHdhyTvUxmXpJ2X+TRHfYQ4WYw3H0w+ead5evjGNbjjoDWDM1AHmcgW0nDo6B
-U5v9KkXK3Rd3gol2dezOEI2wEbMUBw==
-=pGpZ
------END PGP SIGNATURE-----
-
---===============6928636791295300046==
+--===============1275636894453672062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -510,4 +491,4 @@ afb0a80e63d67e957b5d0eb4ade301aff6e13c8c platform/chrome: cros_ec: Make cros_ec_
 a0386bba70934d42f586eaf68b21d5eeaffa7bd0 spi: make remove callback a void function
 2cbfa2128662c6b841f68cd2fe54df199457e38a spi: make remove callback a void function
 
---===============6928636791295300046==--
+--===============1275636894453672062==--
