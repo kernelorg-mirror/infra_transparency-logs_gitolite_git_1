@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0336912633600334035=="
+Content-Type: multipart/mixed; boundary="===============7926888545924547362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Feb 2022 17:00:07 -0000
-Message-Id: <164442600797.5999.6739485769799773845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 09 Feb 2022 17:04:36 -0000
+Message-Id: <164442627691.7477.14884078917470265510@gitolite.kernel.org>
 
---===============0336912633600334035==
+--===============7926888545924547362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: c3e676b98326a419f30dd5d956c68fc33323f4fd
-    new: 1710b52d7c135e83ee00ed38afacc1079cbe71f5
-    log: revlist-c3e676b98326-1710b52d7c13.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 58ea68994f55d6a76ebb6234bd9c9ace9c87eb14
+    new: 645c8116a15fb54da78658990992296831729f62
+    log: revlist-58ea68994f55-645c8116a15f.txt
 
---===============0336912633600334035==
+--===============7926888545924547362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3e676b98326-1710b52d7c13.txt
+Content-Disposition: attachment; filename=revlist-58ea68994f55-645c8116a15f.txt
 
 b794eecb2af77145d36b9c28f056e242add9c4b2 ice: add support for DSCP QoS for IDC
 453307b569a0d41bddd07f26bf41b784cd82a4c9 igc: avoid kernel warning when changing RX ring parameters
@@ -86,5 +86,6 @@ b3a723dbc94a6e38f67669d03b521edd766ad895 net:enetc: allocate CBD ring data memor
 237d20c208dbf0c2853c0f118530772a449eb430 net:enetc: enetc qos using the CBDR dma alloc function
 038fcdaf0470de89619bc4cc199e329391e6566c net: ethernet: cavium: use div64_u64() instead of do_div()
 1710b52d7c135e83ee00ed38afacc1079cbe71f5 net: usb: smsc95xx: add generic selftest support
+645c8116a15fb54da78658990992296831729f62 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
 
---===============0336912633600334035==--
+--===============7926888545924547362==--
