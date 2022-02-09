@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9070398040643416169=="
+Content-Type: multipart/mixed; boundary="===============6889994046028107133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 09 Feb 2022 07:59:52 -0000
-Message-Id: <164439359242.18220.816490733945502932@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 07:59:59 -0000
+Message-Id: <164439359980.18392.12286018909567677114@gitolite.kernel.org>
 
---===============9070398040643416169==
+--===============6889994046028107133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: f04aefd4659b7959e50e6d0d649936c6940f9d34
-    new: 8375dfac4f683e1b2c5956d919d36aeedad46699
-    log: revlist-f04aefd4659b-8375dfac4f68.txt
+  - ref: refs/heads/master
+    old: c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760
+    new: 7db788ad627aabff2b74d4f1a3b68516d0fee0d7
+    log: revlist-c0bf3d8a943b-7db788ad627a.txt
 
---===============9070398040643416169==
+--===============6889994046028107133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644393588 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644393596 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1644393588-fd8bdbfb55f423f790a77786155849caf7a167e7
+nonce 1644393596-37fffad99823f3111037927f2760abd50b1a72c6
 
-f04aefd4659b7959e50e6d0d649936c6940f9d34 8375dfac4f683e1b2c5956d919d36aeedad46699 refs/heads/testing
+c0bf3d8a943b6f2e912b7c1de03e2ef28e76f760 7db788ad627aabff2b74d4f1a3b68516d0fee0d7 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmIDdHUTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXV0DB/4wQ2bGv7RVHpvo8vwqlPVizQPnLJDE
-fVi5LHDhkPRVPWUXZ7isyfeRhY6uYb/Gd8A1vPO5CeV6yTbUWcilGMdwnmiIfYW1
-5+EbRB7ko6EbA/9YOpDdzfSu1kr2sd4W4Itc26EaL7+rA8gIXGXlRzm4uMCVp62K
-q1DBEbOlC4Qc+1qEJqr7Z/3GmjfTMbJg0r0yNIgQAlqzU/9xTRd5DjpiO3lhwoa+
-86SWQhDKuAb3cKwE9qcNqVQmOfedVgAGMYmiLaFV2iE7rFZtBA/aAKjL6fSoCVhI
-dQVo/UyZXHFy8AoYl4uFBuV373MiLtHTzYB2YNkpRaRGFUEv1GjI4QzG
-=a9YG
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmIDdHwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXTsDB/98D+gxiN/osXRMPQooRcmRNoo8XsZ7
+z7GKjGcw+bzl83u008zlRoi0RuILwNkG9Wp41dJiTaGc+kf+EYAE4eP1yyaX1Ymp
+rujc2/3UPPG2Yrwy4eSW8fGyqk/InOjM+gJgMO0boSUaduHdeMuwi8cuR7xhRaKP
+N4Jsv0XWUOA/fWQJIOA4r/eCZ2KsiPWgjkyEwaOJuJBk0iFtzdxanrgJ8Mu89HUW
+YeDPFBlyzusm6a060HSXKbRZeCxcsce5tVx7lmea5yCtoYBLDuLOcp4VcD+Iu3C/
+hzHj3AP8COD1EcXWsoG9GSHp4RHb6IzwossS4j6GBi1Hu97YAUQlafDI
+=JqAw
 -----END PGP SIGNATURE-----
 
---===============9070398040643416169==
+--===============6889994046028107133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f04aefd4659b-8375dfac4f68.txt
+Content-Disposition: attachment; filename=revlist-c0bf3d8a943b-7db788ad627a.txt
 
-ea6fa4961aab8f90a8aa03575a98b4bda368d4b6 rtc: mc146818-lib: fix RTC presence check
-ec5895c0f2d87b9bf4185db1915e40fa6fcfc0ac rtc: mc146818-lib: extract mc146818_avoid_UIP
-2a61b0ac5493363149f68a2fb80287f314626987 rtc: mc146818-lib: refactor mc146818_get_time
 2c7d47a45b06be3d0a7aa21c3dea2215685a928f rtc: mc146818-lib: refactor mc146818_does_rtc_work
 cdedc45c579faf8cc6608d3ef81576ee0d512aa4 rtc: cmos: avoid UIP when reading alarm time
 cd17420ebea580c22dd3a93f7237de3d2cfafc37 rtc: cmos: avoid UIP when writing alarm time
@@ -648,6 +645,11 @@ e12963c453263d5321a2c610e98cbc731233b685 pinctrl: intel: Fix a glitch when updat
 0cb5950f3f3b51a4e8657d106f897f2b913e0586 btrfs: fix deadlock when reserving space during defrag
 3c9d31c715948aaff0ee6d322a91a2dec07770bf btrfs: add back missing dirty page rate limiting to defrag
 27cdfde181bcacd226c230b2fd831f6f5b8c215f btrfs: update writeback index when starting defrag
+984d1efff2304833e20fce89046ef8a89fb51d15 mailmap: update email address of Brian Silverman
+17a30422621c0e04cb6060d20d7edcefd7463347 dt-bindings: can: tcan4x5x: fix mram-cfg RX FIFO config
+db72589c49fd260bfc99c7160c079675bc7417af can: m_can: m_can_fifo_{read,write}: don't read or write from/to FIFO if length is 0
+e59986de5ff701494e14c722b78b6e6d513e0ab5 can: tcan4x5x: regmap: fix max register value
+f04aefd4659b7959e50e6d0d649936c6940f9d34 can: flexcan: mark RX via mailboxes as supported on MCF5441X
 e52984be9a522fb55c8f3e3df860d464d6658585 Merge tag 'linux-can-fixes-for-5.17-20220124' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 79da533d3cc717ccc05ddbd3190da8a72bc2408b hwmon: (nct6775) Fix crash in clear_caseopen
 84d46e1fc33cc56b622b2e7a91703157161ce2e9 drm/msm: remove variable set but not used
@@ -1073,7 +1075,5 @@ bd488afc3b39e045ba71aab472233f2a78726e7b net: dsa: seville: register the mdiobus
 2427f03fb42f9dc14c53108f2c9b5563eb37e770 net: ethernet: litex: Add the dependency on HAS_IOMEM
 5611a00697c8ecc5aad04392bea629e9d6a20463 ipmr,ip6mr: acquire RTNL before calling ip[6]mr_free_table() on failure path
 7db788ad627aabff2b74d4f1a3b68516d0fee0d7 nfp: flower: fix ida_idx not being released
-7c759040c1dd03954f650f147ae7175476d51314 can: isotp: fix potential CAN frame reception race in isotp_rcv()
-8375dfac4f683e1b2c5956d919d36aeedad46699 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
 
---===============9070398040643416169==--
+--===============6889994046028107133==--
