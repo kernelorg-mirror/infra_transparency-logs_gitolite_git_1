@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5290279621451690266=="
+Content-Type: multipart/mixed; boundary="===============8875251450728089064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Feb 2022 19:45:28 -0000
-Message-Id: <164443592803.18843.844576646706281970@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 19:45:34 -0000
+Message-Id: <164443593442.18987.11981292515294895623@gitolite.kernel.org>
 
---===============5290279621451690266==
+--===============8875251450728089064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 94fdd7c02a56d0316d20e417a1141b71a8dcee82
-    new: 3bed06e36994661a75bae6a289926e566b9b3c1a
-    log: revlist-94fdd7c02a56-3bed06e36994.txt
+  - ref: refs/heads/dev-queue
+    old: c89ef08a3fb6598289e97903c590fb089022789f
+    new: c686b8f1ad8b452e9551575f2cc6b04b547a7373
+    log: revlist-c89ef08a3fb6-c686b8f1ad8b.txt
 
---===============5290279621451690266==
+--===============8875251450728089064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94fdd7c02a56-3bed06e36994.txt
+Content-Disposition: attachment; filename=revlist-c89ef08a3fb6-c686b8f1ad8b.txt
 
 fe4f57bf7b585dca58f1496c4e2481ecbae18126 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
 084cbb2ec3af2d23be9de65fcc9493e21e265859 gve: Recording rx queue before sending to napi
@@ -57,5 +57,23 @@ feef318c855a361a1eccd880f33e88c460eb63b4 ax25: fix UAF bugs of net_device caused
 37aa50c539bcbcc01767e515bd170787fcfc0f33 vlan: introduce vlan_dev_free_egress_priority
 d6ff94afd90b0ce8d1715f8ef77d4347d7a7f2c0 vlan: move dev_put into vlan_dev_uninit
 3bed06e36994661a75bae6a289926e566b9b3c1a Merge branch 'vlan-QinQ-leak-fix'
+e76626861a0594ae084c3b28dee973b3c4991911 checkpatch: Fix warnings when --no-tree is used
+aa5727cea7c1253fee0926b78b8b9d58085b9fea checkpatch.pl: seed camelcase from the provided kernel tree root
+e8aba98d741301633566fd303b954de7b2cbd7f5 ice: Fix a couple off by one bugs
+59b2d9e96b2d2e268d5241dc98dfee73927bc8ef iavf: Fix promiscuous mode configuration flow messages
+296ecbd8669b9121044d617ecdc68df90a004a26 i40e: Fix the timeliness of stats after deleting tc
+d664b28069562713ee9546038e0a7de7a8417489 ice: fix setting l4 port flag when adding filter
+c90f53d15167f4837d1b22913f85b884bd44c0f3 ice: fix an error code in ice_cfg_phy_fec()
+72e53af2c674bb391e7a0a43d4d272301e5aa45a ice: fix IPIP and SIT TSO offload
+d3c25874aff81207d602ef806967c6e52ca53167 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+f828b5c7ae7f595670d5b80f06b996d41a6059ca ice: Avoid RTNL lock when re-creating auxiliary device
+fe3862a42792594115953cbf806dcb9099028fd8 iavf: Fix handling of vlan strip virtual channel messages
+e204e7d1ed6559c16364edc05c1f451e2f0654b9 ice: Don't use GFP_KERNEL in atomic context
+abfc1c5f465297a819b4a197a5e00684cccbf826 e1000e: Fix possible HW unit hang after an s0ix exit
+c09b2e91a5c8b538ebf874895fc27fb50bc7f24d ice: avoid XDP checks in ice_clean_tx_irq()
+68c89d89bfa7c5bccf6794355700ecc65238faab iavf: Fix adopting new combined setting
+9b7ee6c356e7692f65d4a5e2e77ee3999260f5f9 e1000e: Correct NVM checksum verification flow
+c828fb0346a8cec0abdedfc60e71065971fae7ca ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+c686b8f1ad8b452e9551575f2cc6b04b547a7373 ice: fix concurrent reset and removal of VFs
 
---===============5290279621451690266==--
+--===============8875251450728089064==--
