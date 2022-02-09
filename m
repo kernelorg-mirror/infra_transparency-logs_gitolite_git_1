@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8838216621964137832=="
+Content-Type: multipart/mixed; boundary="===============2143697149045659796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Feb 2022 17:15:44 -0000
-Message-Id: <164442694445.15736.4627635683724694553@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 17:15:53 -0000
+Message-Id: <164442695338.15899.14184633184185563128@gitolite.kernel.org>
 
---===============8838216621964137832==
+--===============2143697149045659796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: c3e676b98326a419f30dd5d956c68fc33323f4fd
-    new: 1710b52d7c135e83ee00ed38afacc1079cbe71f5
-    log: revlist-c3e676b98326-1710b52d7c13.txt
+  - ref: refs/heads/mlx5-queue
+    old: 4acff5c0578ed694c9fe943fd38344e940e7c25e
+    new: dcf51fcba051202c58ed6ae8fb84b4f72ac125f3
+    log: revlist-4acff5c0578e-dcf51fcba051.txt
 
---===============8838216621964137832==
+--===============2143697149045659796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3e676b98326-1710b52d7c13.txt
+Content-Disposition: attachment; filename=revlist-4acff5c0578e-dcf51fcba051.txt
 
 b794eecb2af77145d36b9c28f056e242add9c4b2 ice: add support for DSCP QoS for IDC
 453307b569a0d41bddd07f26bf41b784cd82a4c9 igc: avoid kernel warning when changing RX ring parameters
@@ -86,5 +86,30 @@ b3a723dbc94a6e38f67669d03b521edd766ad895 net:enetc: allocate CBD ring data memor
 237d20c208dbf0c2853c0f118530772a449eb430 net:enetc: enetc qos using the CBDR dma alloc function
 038fcdaf0470de89619bc4cc199e329391e6566c net: ethernet: cavium: use div64_u64() instead of do_div()
 1710b52d7c135e83ee00ed38afacc1079cbe71f5 net: usb: smsc95xx: add generic selftest support
+645c8116a15fb54da78658990992296831729f62 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
+ad59f0eab34eb6c140a31433f8eaeb28ae651f09 net/mlx5e: RX, Set MPWQE post bulk size per RQ size
+a04611bbf721762ee9d504f6f0651c1a16b5df64 net/mlx5e: RX, Test the XDP program existence out of the handler
+0bc819e78a4a823e841d2cfdf56b4f53f5bb3c2c net: Disable LRO feature if no RXCSUM
+9937cdcd9223abf627f7f193670d03924913bf97 net/mlx4: Delete useless moduleparam include
+be01e06f8a5dd533d130204fac63b94442ab61a3 net/mlx5: Delete useless module.h include
+902fad31bc89b12234add0e28accaaac1caca306 net/mlx5: Node-aware allocation for the IRQ table
+0b362bb1b08eb0d512a008b367b9b783a9c3f051 net/mlx5: Node-aware allocation for the EQ table
+32591cfe54a37770d9b80e1b33b775138aa51140 net/mlx5: Node-aware allocation for the EQs
+42137fbf7ef5153ead772fa27690a0a51cfce108 net/mlx5: Node-aware allocation for UAR
+1a9ddd9d7b46c4e0f7a9b236783d6ad9a554ae20 net/mlx5: Node-aware allocation for the doorbell pgdir
+d59990ec0980e1c8f24d49eeb96c65bbcf4b4bb0 net/mlx5e: E-Switch, Add PTP counters for uplink representor
+1ce318b566da7ae16c792305608167e050a68ad0 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+a5abd7bf237650d22510fbc59d07d9647beadf89 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+2c81b69ee45b45c413221e44be74642573987fbd net/mlx5e: Generalize packet merge error message
+f65760df245c64ba11a9b7b261dc7423373cf6b0 net/mlx5e: Remove unused tstamp SQ field
+60874b7f3c3a78c4983d143efc4e658eb8b332c7 net/mlx5e: Read max WQEBBs on the SQ from firmware
+56ea23610f37361730540ae46a84216b4866726a net/mlx5e: Use FW limitation for max MPW WQEBBs
+29042e162086a762fa9c572da84793cbec9fbe3d Merge branch 'patchq/393730' into mlx5-queue
+ffed26d194f0341f9f305a70cdf0bbbc3dab0f4f Merge branch 'patchq/467855' into mlx5-queue
+d7a94465e335a065d9c7ce62c73e069f0bc43ae3 Merge branch 'patchq/362916' into mlx5-queue
+19d940cd7a04f0dd91690c87a4bad94e64704c98 Merge branch 'patchq/467755' into mlx5-queue
+639b125fea1c9769d44ff0fe646a44e1f14382b5 Merge branch 'patchq/464678' into mlx5-queue
+2aa98952000109d2b69a48fd030e34171e397a40 Merge branch 'patchq/462991' into mlx5-queue
+dcf51fcba051202c58ed6ae8fb84b4f72ac125f3 Merge branch 'patchq/396348' into mlx5-queue
 
---===============8838216621964137832==--
+--===============2143697149045659796==--
