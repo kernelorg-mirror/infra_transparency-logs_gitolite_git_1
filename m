@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3005247611429323974=="
+Content-Type: multipart/mixed; boundary="===============1258515154362320831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 09 Feb 2022 22:40:10 -0000
-Message-Id: <164444641009.3530.10839090050314146677@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 22:40:48 -0000
+Message-Id: <164444644896.3926.15785475544011884398@gitolite.kernel.org>
 
---===============3005247611429323974==
+--===============1258515154362320831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 9327f2939dc4692432a8b0c115edd9c1bf459f92
-    new: 3803ad40e73cbdcf95d71fbecc9ea2942edcbffa
-    log: revlist-9327f2939dc4-3803ad40e73c.txt
+  - ref: refs/heads/for-next/array-bounds
+    old: d4fb3a865da1fa0d2811b9311c0061fa1f3daad7
+    new: a092a8e705ca22d7ffd19a4814561d9027a5a66c
+    log: revlist-d4fb3a865da1-a092a8e705ca.txt
 
---===============3005247611429323974==
+--===============1258515154362320831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9327f2939dc4-3803ad40e73c.txt
+Content-Disposition: attachment; filename=revlist-d4fb3a865da1-a092a8e705ca.txt
 
 e958b5884725dac86d36c1e7afe5a55f31feb0b2 ASoC: xilinx: xlnx_formatter_pcm: Make buffer bytes multiple of period bytes
 a64067f4cecaaa4deed8e33d3266bc0bcc189142 ASoC: simple-card: fix probe failure on platform component
@@ -424,26 +424,7 @@ aeabe1e0744d1794246a909d2c042e9129fe22bd Merge tag 'objtool_urgent_for_v5.17_rc3
 c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-f154066b61dfde618d98fdafc8cadde076c7f222 gcc-plugins/stackleak: Provide verbose mode
-27e9faf415dbf94af19b9c827842435edbc1fbbc gcc-plugins/stackleak: Exactly match strings instead of prefixes
-ae978009fc013e3166c9f523f8b17e41a3c0286e gcc-plugins/stackleak: Ignore .noinstr.text and .entry.text
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
-483b347a93943b9fc626b659d1eee4245bc492e3 KVM: x86: Replace memset() "optimization" with normal per-field writes
-ee3dbe5d2c84788fe23c316fee3b43cc56ec95c3 intel_th: msu: Use memset_startat() for clearing hw header
-8a9c87e35d75c9604f9c15d4a002d41221fec3b7 media: omap3isp: Use struct_group() for memcpy() region
-05720d5322e7e1f2581c9d57d79232a7b5627970 scsi: mpt3sas: Convert to flexible arrays
-9b106a9037d705d0c5cbc747b6fed7cbb33b0e00 fortify: Detect struct member overflows in memcpy() at compile-time
-4a47e3d1c71c9d44c534c9ed1f823f3bbac7a005 fortify: Detect struct member overflows in memmove() at compile-time
-45e31710b1ca2b1c83fe036413324c7452e5a4e0 fortify: Detect struct member overflows in memset() at compile-time
-f99444784bf914ef9694551fa785f12b7d0c3f29 fortify: Update compile-time tests for Clang 14
-e425afe3f96e6926bd29df31ef618a70da50e532 fortify: Replace open-coded __gnu_inline attribute
-f962e01a944b04f7503cd3ee33dd36405bbbe2d3 Compiler Attributes: Add __pass_object_size for Clang
-ff9d91e11c69ee20347cade8ce7527fa5128d363 Compiler Attributes: Add __overloadable for Clang
-82266a67f83339d97dec421796be0e0627ddd4a7 Compiler Attributes: Add __diagnose_as for Clang
-08c6c1240b9822aa5642d1fbafc1a03291cf9c5c fortify: Make pointer arguments const
-154aa14cf7052a5b28dee6149181d2a6ac38068b fortify: Use __diagnose_as() for better diagnostic coverage
-9f51c7bfb5df2ebcd7b3e6d247596136af9cea1a fortify: Make sure strlen() may still be used as a constant expression
-e9ebe9d15a978c03dbf5a1d091399d77b893a0bd fortify: Add Clang support
 26645f94e83b31d04d898aa696fcbe4184bd0aa4 drm/dp: Fix off-by-one in register cache size
 9737cb2ba01d5f3099ef271bc6c4029a0d244705 drm/dp: Fix OOB read when handling Post Cursor2 register
 e8d07dab476a1aa55ede5940c6d8e0e4ced95d91 iio: addac: ad74413r: Do not reference negative array offsets
@@ -453,10 +434,5 @@ d05425523c40d83ebc0778df84ba3b340da84b43 tpm: vtpm_proxy: Check length to avoid 
 44dc8eeec2cc8e1e693ee9b6a283ce1c518325ea scsi: ibmvscsis: Silence -Warray-bounds warning
 19cc51c4a01be1b5da26ef6c14558f8eda82dfef Makefile: Enable -Warray-bounds
 a092a8e705ca22d7ffd19a4814561d9027a5a66c Makefile: Enable -Wzero-length-bounds
-8e7c8ca6b988904d4c32c4053b325739738c8f36 test_overflow: Regularize test reporting output
-6312fc63aee9d2fef2f9c4d42e57e5b46828f0dc overflow: Implement size_t saturating arithmetic helpers
-6d7027b5514d9954b2d2afe1b06d2bd2fb760a89 Merge branch 'for-next/array-bounds' into for-next/kspp
-1607085dd837b3df080b653fec65e8766da427d3 Merge branch 'for-next/overflow' into for-next/kspp
-3803ad40e73cbdcf95d71fbecc9ea2942edcbffa Merge branch 'for-next/hardening' into for-next/kspp
 
---===============3005247611429323974==--
+--===============1258515154362320831==--
