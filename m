@@ -1,41 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7566296552000736933=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 09 Feb 2022 23:01:25 -0000
-Message-Id: <164444768582.18605.1441989603772941848@gitolite.kernel.org>
-
---===============7566296552000736933==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 09 Feb 2022 23:05:32 -0000
+Message-Id: <164444793296.21573.5166971643080532364@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: d71ea591223e0ffc39ebca4a0f98244fc208a267
-    new: e4fc20d74a1809067304556bc2ba860683bbf4a6
-    log: revlist-d71ea591223e-e4fc20d74a18.txt
-
---===============7566296552000736933==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d71ea591223e-e4fc20d74a18.txt
-
-f4e82f190e793ed882b028044e90769acc4e55d7 dt-bindings: timer: nuvoton,npcm7xx-timer: Convert to YAML
-208b65f7b5cccb7185ec7c1b11e788eddf9e075a dt-bindings: net: convert net/cortina,gemini-ethernet to yaml
-31fc1c63c2ae4a542e3c7ac572a10a59ece45c24 dt-bindings: clock: Add binding for TI clksel
-e87d05d85a149fce4ea7564525efbd2e66438036 dt-bindings: phy: samsung,exynos-hdmi-phy: convert to dtschema
-f16fe2d3b41fe284a06fe568beaab6a6a5bf7894 dt-bindings: display: samsung,exynos5433-decon: convert to dtschema
-5c45a11b618eb58993930e69da9153e7ce5cd630 dt-bindings: display: samsung,exynos7-decon: convert to dtschema
-6b15415e0303ad9647c9b882d2ebd18142504cbd dt-bindings: display: samsung,exynos-hdmi-ddc: convert to dtschema
-68e89bb36d583ab06f2e21341dd99e57a88c7e81 dt-bindings: display: samsung,exynos-mixer: convert to dtschema
-a5032991e108f88ac8a69452b24fa9c8b4621352 dt-bindings: display: samsung,exynos-hdmi: convert to dtschema
-4c5e180b83edbd1199e948050fe8f5fc17fc26d5 dt-bindings: display: samsung,exynos5433-mic: convert to dtschema
-e4fc20d74a1809067304556bc2ba860683bbf4a6 dt-bindings: display: samsung,exynos-fimd: convert to dtschema
-
---===============7566296552000736933==--
+  - ref: refs/heads/main
+    old: eb8ea1b46893c42edbd516f971a93b4d097730ab
+    new: e5256f3520a48ea39ece6503c96e29c902922560
+    log: |
+         847c6de09299b59bb6f8e641cfd500aa8d1c0a9a i915: Add DMC firmware v2.16 for ADL-P
+         e5256f3520a48ea39ece6503c96e29c902922560 Merge branch 'adlp_dmc_v2.16' of git://anongit.freedesktop.org/drm/drm-firmware into main
+         
