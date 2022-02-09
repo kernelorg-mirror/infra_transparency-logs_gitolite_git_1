@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 09 Feb 2022 08:10:01 -0000
-Message-Id: <164439420158.24825.5968942489752910216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 09 Feb 2022 08:17:47 -0000
+Message-Id: <164439466785.30294.13147348344270237973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/tags/damon/next-2022-02-09-09-08-on-v5.17-rc2-mmotm-assembled-by-sj-2022-02-02-10-33
-    old: 0000000000000000000000000000000000000000
-    new: d9ac9d13a20bb32150738713527e96681ac6a4ef
+  - ref: refs/heads/imx/bindings
+    old: 273b94cc81d6700246c9da388747eef84da4c80b
+    new: a1fe6c8b6894936ed1c635ea19d58e301c4a382d
+    log: |
+         93ff32aa71fb117c11bfb42d3bfc7e01094d257e dt-bindings: power: imx8mq: add defines for VPU blk-ctrl domains
+         a1fe6c8b6894936ed1c635ea19d58e301c4a382d dt-bindings: soc: add binding for i.MX8MQ VPU blk-ctrl
+         
