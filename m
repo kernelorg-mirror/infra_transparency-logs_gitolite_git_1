@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2928664305507795898=="
+Content-Type: multipart/mixed; boundary="===============2086972649176952833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 09 Feb 2022 19:12:55 -0000
-Message-Id: <164443397557.28793.15359004019899672534@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 19:12:56 -0000
+Message-Id: <164443397640.29075.5718412360165984532@gitolite.kernel.org>
 
---===============2928664305507795898==
+--===============2086972649176952833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,125 +16,46 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 9f5cb871ceb99f4667e351fd556d9de87b0de526
-    new: f1b074cc52b4cb5f2f78985508ae344e6f066252
-    log: revlist-9f5cb871ceb9-f1b074cc52b4.txt
+  - ref: refs/heads/linux-5.16.y
+    old: 9b18569a982e641dd7282fc3212621c8c8a354d1
+    new: ddf6ceb4eefb5985395eb6f289c2e63a46347273
+    log: |
+         a920e67c77fe777c8962605c020ad5c8e4b3c23b ata: libata-core: Fix ata_dev_config_cpr()
+         fa3344602b09824141e2839db770f40566b73f3b moxart: fix potential use-after-free on remove path
+         94414e57d518d3b10ea6b6138f1158ba1799db6d KVM: s390: Return error on SIDA memop on normal guest
+         1a3d8d05e9d9b6ebd6292ca8f482dfc799aaa713 ksmbd: fix SMB 3.11 posix extension mount failure
+         8872313c27cea7194f905067511d5bd8a6f8e4c2 crypto: api - Move cryptomgr soft dependency into algapi
+         ddf6ceb4eefb5985395eb6f289c2e63a46347273 Linux 5.16.9-rc1
+         
 
---===============2928664305507795898==
+--===============2086972649176952833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644433974 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644433975 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1644433970-1a9171f8dedb21cf9e68b948c88cb6da203dc2e9
+nonce 1644433971-8eaca12221db2bfd18d0638625a2cc217fdf1ae9
 
-9f5cb871ceb99f4667e351fd556d9de87b0de526 f1b074cc52b4cb5f2f78985508ae344e6f066252 refs/heads/linux-5.10.y
+9b18569a982e641dd7282fc3212621c8c8a354d1 ddf6ceb4eefb5985395eb6f289c2e63a46347273 refs/heads/linux-5.16.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIEEjYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GQwQALp3lDLC9XVweZY+bvPn
-1RyLdjnkLu3/SV7ZXUcOiO4c2o3txr/3RW2xzP3MaTAeuNYEEy8F30B7UejuCLf1
-5CY+vkJL9ZPLhlmv5CdGAuqSflUuv9gllPmP4txgbZN2H9IQERvlLNMKr5HDRY08
-bewarwkkuke07egmSXQm3v5niKSMJ7y7GDr8zOPhkwkNtC2McRBWe4pUf8AuAcsZ
-gEGFhs/lAC61DFqaQglFBFTfcIv0KDRiydJ2RsU7QCYvvIyIihqiTIvjTUpYTDRq
-rOgaJ6tIupncegwMuigr4W3MG+LlRMEOclFPcnghnBXD3OcWBEkEhzt5d2h8HGio
-B+LK438xz9I3JC1fTPuO34JRop/WNNKFCL3pnBZzeo8vn8vPaoFKD3EYyzPUDDt+
-wiXv+whG/q78JEWHYDOSTMf6my5BMokq+C+mnZHtHAo6p+o2S0iA64OLoUpB8zV1
-OZVRVZeO3wuKMcCVHa/Z1Nm8IQ5MAgFlM97YEw6qc3x4BvDO46fh8Jcmb68QJVGI
-H06FI6xBaSwtgOCAH6T5mqKNubCjK5/g8JVCz7Zrb5+bw4E7KSM8ymp856wbtDd+
-b0efiOjJjpwzZmTncJmi6Ju2OGdNMKDxOPreGagLZg2RP0saVC++aMIGYDYOip+F
-V4RwRKut7B2x7cX2kaCtB501
-=hGkZ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIEEjcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FFgQALmI39zi9X9vK0PelF1z
+CqqcG+Z9TVaDPGIkMsVrRzpUeuJL1Xgha8ebv120raRXsUEaUEaN/33nBHUgun2j
+PEknrHvuxY4/BvICZqubR6xYTuCKEF33fDYU20nEBTh/WY5Nx5+kyv/Zf069jlwJ
+M3gxmFuN9Ynw5Zpp9hQQPhcBK1LDFZap576Sdi5/1jWrNQMLxRJUZMHlWIPr2HLX
+k6sbTuQYf+qJ3DjwTSKsqgeXUp1VbaMbirC7t9k0IidZwFwjuTlExCbJrx2e4bQs
+9ZlXy5KOfmhMfMk2zWdJ4BNTudzI6p4IoRms4+J5R0AVKynS6YLloN8BWEMZSN5b
+Sj3m3wCIOZEPxTIy97VzjjFikc74rCtUR95BN+BT3j/WCxbWAXe9/zDfWdCUkrDq
+7BrNsLipKR6GUP6rnKSSvWjMwY0yaWkwgfJUhuXmuU1v8eQq3dDr9kXtsLxgMdjv
+MgkP0UAuTz4xekaiSIZYw/4Vm4mk8nHeqZ/TzCL3M5v+6LZXeDHBX2lhVurK7v6F
+735/nQZDi4TB58x5w87emeV3XnULumcngUuXPHn92UfmGl8zQwtgituYDD8oR45I
+Zw2BygRSw2D4rG+jluiCYuraFiDyP9fIg84RNVPgJPGX8zPQeie9WAsUeqsRe7Qm
+urRH6qjNGCRH6aQBSmfETKd/
+=oPOe
 -----END PGP SIGNATURE-----
 
---===============2928664305507795898==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f5cb871ceb9-f1b074cc52b4.txt
-
-f446089a268c8fc6908488e991d28a9b936293db selinux: fix double free of cond_list on error paths
-0ff6b805069506318fb7385304b864d6694d9363 audit: improve audit queue handling when "audit=1" on cmdline
-a9394f21fba027147bf275b083c77955864c366a ASoC: ops: Reject out of bounds values in snd_soc_put_volsw()
-038f8b7caa74d29e020949a43ca368c93f6b29b9 ASoC: ops: Reject out of bounds values in snd_soc_put_volsw_sx()
-6877f87579ed830f9ff6d478539074f035d04bfb ASoC: ops: Reject out of bounds values in snd_soc_put_xr_sx()
-470bbb9cbd8fe115d844222317666f672d32c1fc ALSA: usb-audio: Correct quirk for VF0770
-a7de1002135cf94367748ffc695a29812d7633b5 ALSA: hda: Fix UAF of leds class devs at unbinding
-410f231fd70c891469ff7c7c76fcd59a86b29a65 ALSA: hda: realtek: Fix race at concurrent COEF updates
-532cde962f5f1a3963729ed748f858ca5baddd05 ALSA: hda/realtek: Add quirk for ASUS GU603
-3a8a8072e32be002804cf1d029a2eef8c61b2fe0 ALSA: hda/realtek: Add missing fixup-model entry for Gigabyte X570 ALC1220 quirks
-d4aa3a98596f6d6968881942b9b70cbd1fffae6d ALSA: hda/realtek: Fix silent output on Gigabyte X570S Aorus Master (newer chipset)
-aa5d406153c53d12e1c4a09f657a3b1e55220ef2 ALSA: hda/realtek: Fix silent output on Gigabyte X570 Aorus Xtreme after reboot from Windows
-32747e01436aac8ef93fe85b5b523b4f3b52f040 btrfs: fix deadlock between quota disable and qgroup rescan worker
-f071d9fa857582d7bd77f4906691f73d3edeab73 drm/nouveau: fix off by one in BIOS boundary checking
-a0c73dbdd197cc78289cd56a9df8d00f53dcfada drm/amd/display: Force link_rate as LINK_RATE_RBR2 for 2018 15" Apple Retina panels
-2d83a7463d75661715616277f9664b2f0d6a513e nvme-fabrics: fix state check in nvmf_ctlr_matches_baseopts()
-bce7f5d74d74d6f97c8ce0a0dcb741f667ce68a5 mm/debug_vm_pgtable: remove pte entry from the page table
-7053188ddba3f6e7402000c94496066fa700891e mm/pgtable: define pte_index so that preprocessor could recognize it
-352715593e81b917ce1b321e794549815b850134 mm/kmemleak: avoid scanning potential huge holes
-30de3bc099780232129c3737844ac37a809514a9 block: bio-integrity: Advance seed correctly for larger interval sizes
-5d40f1bdad3dd1a177f21a90ad4353c1ed40ba3a dma-buf: heaps: Fix potential spectre v1 gadget
-4a9bd1e6780fc59f81466ec3489d5ad535a37190 IB/hfi1: Fix AIP early init panic
-080f371d984e8039c66db87f3c54804b0d172329 Revert "ASoC: mediatek: Check for error clk pointer"
-aa4ecd995f591013bca21d3ce599691772c193b5 memcg: charge fs_context and legacy_fs_context
-371979069a577ee5bc1bcaaa39fb53d9e4dc7e3f RDMA/cma: Use correct address when leaving multicast group
-75c610212b9f1756b9384911d3a2c347eee8031c RDMA/ucma: Protect mc during concurrent multicast leaves
-c7db20f5be73b6b3768d15b075a09e4b0d5c13f7 IB/rdmavt: Validate remote_addr during loopback atomic tests
-d3f8b927df2fcfc19f43137094d7defe704f3403 RDMA/siw: Fix broken RDMA Read Fence/Resume logic.
-b3958d315163d1f5e0c6c2bff2c02d06f03e853b RDMA/mlx4: Don't continue event handler after memory allocation failure
-9d9995b0371e4e8c18d4f955479e5d47efe7b2d4 iommu/vt-d: Fix potential memory leak in intel_setup_irq_remapping()
-6d226e8afe88534e74df18e4f06fe425abb8e0dc iommu/amd: Fix loop timeout issue in iommu_ga_log_enable()
-30e05c98b99d138306e948afd0c7eaa7ce07f6dc spi: bcm-qspi: check for valid cs before applying chip select
-c2cf65e1008ba50d1688b94a887dc1d10743f877 spi: mediatek: Avoid NULL pointer crash in interrupt
-ec942d08e0706c882ff8d7c5b724c6744cd3fea8 spi: meson-spicc: add IRQ check in meson_spicc_probe
-e895e067d73e154b1ebc84a124e00831e311d9b0 spi: uniphier: fix reference count leak in uniphier_spi_probe()
-75bbda318987975905ad159c0bf30a350f847f49 net: ieee802154: hwsim: Ensure proper channel selection at probe time
-0bfe50dc5d91f6ab445088ef25f2f0fb163fb631 net: ieee802154: mcr20a: Fix lifs/sifs periods
-78b3f20c17cbcb7645bfa63f2ca0e11b53c09d56 net: ieee802154: ca8210: Stop leaking skb's
-87b1c9fab6fe570182abcf7908e13a86478bc996 net: ieee802154: Return meaningful error codes from the netlink helpers
-2e7f5b6ee1a7a2c628253a95b0a95b582901ef1b net: macsec: Fix offload support for NETDEV_UNREGISTER event
-114bf9350413f00fe5ae1edb566593135c7c99c3 net: macsec: Verify that send_sci is on when setting Tx sci explicitly
-41df2da2c1f396c6f049a205073845a48364e15a net: stmmac: dump gmac4 DMA registers correctly
-9ea01853611114567a0207b774eb76bfeed74878 net: stmmac: ensure PTP time register reads are consistent
-3e698375517d0684224b7d4fa5df682efb84613b drm/i915/overlay: Prevent divide by zero bugs in scaling
-56e0747d59accbd4785680b140bdc4130bec1217 ASoC: fsl: Add missing error handling in pcm030_fabric_probe
-cb5f1fbd1f2233fc3f7c27fbb04e3f283f46f7b9 ASoC: xilinx: xlnx_formatter_pcm: Make buffer bytes multiple of period bytes
-02f4597198329076f4f02f27906447a90357ae66 ASoC: cpcap: Check for NULL pointer after calling of_get_child_by_name
-5a45448ac95b715173edb1cd090ff24b6586d921 ASoC: max9759: fix underflow in speaker_gain_control_put()
-14bc9978b486d0780f1d1d834202c899da68c47d pinctrl: intel: Fix a glitch when updating IRQ flags on a preconfigured line
-752d9eafc64e7a1f8a62f6b3fad2086ba8c73058 pinctrl: intel: fix unexpected interrupt
-fd482f2d63dbc9f2fe179de2de9202021ed7e6fe pinctrl: bcm2835: Fix a few error paths
-ec4334152dae175dbd8fd5bde1d2139bbe7b42d0 scsi: bnx2fc: Make bnx2fc_recv_frame() mp safe
-51e88e8922734ea137dbeeeab87d27fe8dccfcc5 nfsd: nfsd4_setclientid_confirm mistakenly expires confirmed client.
-f744a064041cc1d84e1ad9d6a8e571f371850648 gve: fix the wrong AdminQ buffer queue index check
-6304a613a97d6dcd49b93fbad31e9f39d1e138d6 bpf: Use VM_MAP instead of VM_ALLOC for ringbuf
-8f0fff8b5968a840379f66ef9453ae87636b41fe selftests/exec: Remove pipe from TEST_GEN_FILES
-1536fafa23ac072ab1a8293ed8efca808b20cfa7 selftests: futex: Use variable MAKE instead of make
-2324f5fcdf9dd104b996d12cd0c173ddcc3c950f tools/resolve_btfids: Do not print any commands when building silently
-460aa9d8734084628abae7b11b03d8daeff0955d rtc: cmos: Evaluate century appropriate
-460f6b1a238d2ee1d69a4911f81ee1728242f0dd Revert "fbcon: Disable accelerated scrolling"
-57e8859acc6024ca9041f7fa58a0afed2ed6ea87 fbcon: Add option to enable legacy hardware acceleration
-8c0e6a8a630e7abd4bcba1c50facce84587fadaf perf stat: Fix display of grouped aliased events
-456f041e035913fcedb275aff6f8a71dfebcd394 perf/x86/intel/pt: Fix crash with stop filters in single-range mode
-dd274cf85269a24a60282ae21268cf3bf83514e3 x86/perf: Default set FREEZE_ON_SMI for all
-2a12faf55baed67c343e8bc5f1e54d2a5b4336a4 EDAC/altera: Fix deferred probing
-ef2053afd71e5b1f3a94e81293f8f67bb3c7807b EDAC/xgene: Fix deferred probing
-8d71fc23fcb895739803bbddd16542ff566788b3 ext4: prevent used blocks from being allocated during fast commit replay
-6c5bd55e36d3bdcbd723902b29bcf083e5592c6f ext4: modify the logic of ext4_mb_new_blocks_simple
-764793b4a5d0b4040c5ceeeeb859c42933f8532b ext4: fix error handling in ext4_restore_inline_data()
-62e46e0ffc02daa8fcfc02f7a932cc8a19601b19 ext4: fix error handling in ext4_fc_record_modified_inode()
-84b76a509cc3ee713d79da28a5cdfb3841effe45 ext4: fix incorrect type issue during replay_del_range
-f1f7d1a22fd73034af73d51086b2fe2981d02028 net: dsa: mt7530: make NET_DSA_MT7530 select MEDIATEK_GE_PHY
-557727313534d9f92e782179372833fd3499f231 cgroup/cpuset: Fix "suspicious RCU usage" lockdep warning
-4889d6ee9e483c7221bc94692541632f15ffbd50 selftests: nft_concat_range: add test for reload with no element add/del
-fb063a6465f9d17a1bd46a678bc1ffaa84e2f486 Linux 5.10.99
-799fca96216b8a1df12243362bd3c4f8989a90f7 moxart: fix potential use-after-free on remove path
-666b7e3740cec2cbde91b002d3a52bfe76578c23 KVM: s390: Return error on SIDA memop on normal guest
-d4036fe8882df5934143bb1baebbc07b57c06b3f crypto: api - Move cryptomgr soft dependency into algapi
-f1b074cc52b4cb5f2f78985508ae344e6f066252 Linux 5.10.100-rc1
-
---===============2928664305507795898==--
+--===============2086972649176952833==--
