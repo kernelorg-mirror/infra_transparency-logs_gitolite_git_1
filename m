@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 09 Feb 2022 09:14:22 -0000
-Message-Id: <164439806286.2001.15635678040894154528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 09 Feb 2022 09:41:07 -0000
+Message-Id: <164439966764.1466.8724653807437645831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/arm-ftrace-for-rmk
-    old: 1874d0134e5bd6cb0f938dd9d27eb85f41976824
-    new: 854de4672fe70f0f033ea31d2d937db501e8efe4
+  - ref: refs/heads/android13-5.15/ffa
+    old: ae3473674697e4595eae9f461e7da231dc816b7b
+    new: de91d95fbbf25a4995ebcb5eb71493469e01b066
     log: |
-         1f640552d9878f2dbcbd46c78078e4ea2eb2b262 ARM: cacheflush: avoid clobbering the frame pointer
-         a68b7c0475948fb35e35ad928cadcafae06bee6d ARM: mach-bcm: disable ftrace in SMC invocation routines
-         82d17a2a31bb971d38646f2d159123e6e61cc29c Revert "ARM: 9144/1: forbid ftrace with clang and thumb2_kernel"
+         2cd20be4da8094a89ce6f8008b93d07e766b3ebf UPSTREAM: firmware: arm_ffa: Handle compatibility with different firmware versions
+         0ccc5388dbff7edec2e8996fd62c4070607f1f8c UPSTREAM: firmware: arm_ffa: Add support for MEM_LEND
+         de91d95fbbf25a4995ebcb5eb71493469e01b066 UPSTREAM: firmware: arm_ffa: Remove unused 'compat_version' variable
          
