@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 09 Feb 2022 01:13:21 -0000
-Message-Id: <164436920147.10863.15978508276354896983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 09 Feb 2022 01:13:32 -0000
+Message-Id: <164436921257.11048.6534360369346382517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/fixes
-    old: ca0cb9a60f6d86d4b2139c6f393a78f39edcd7cb
-    new: c3c94752087e789419be7024116c0a7b22883541
+  - ref: refs/heads/jd/fast-key-erasure
+    old: a23ba70df88c032f8aee452142041bd5b59b0caf
+    new: 00e483eeda1077a8800f949f8f2bb79735bdc6ef
     log: |
-         f81393a5b252df772b934cde81b7e16273afbd43 riscv: extable: fix err reg writing in dedicated uaccess handler
-         c3c94752087e789419be7024116c0a7b22883541 riscv: cpu-hotplug: clear cpu from numa map when teardown
+         4bba0b60fcdca19847e140c092b465ffd84f1bac random: absorb fast pool into input pool after fast load
+         3fea7db1c27d412ae5dcbc001810ec5924e96393 random: use simpler fast key erasure flow on per-cpu keys
+         8733d84c218954bd1ae847461d8def89865493b5 random: use hash function for crng_slow_load()
+         00e483eeda1077a8800f949f8f2bb79735bdc6ef random: remove outdated INT_MAX >> 6 check in urandom_read()
          
