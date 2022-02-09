@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 09 Feb 2022 01:21:22 -0000
-Message-Id: <164436968274.17711.14881064428760273843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 09 Feb 2022 01:21:33 -0000
+Message-Id: <164436969354.17902.18280006218787037625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/experimental
-    old: e15696480970b39868db62c64f08b8bd54e18a1a
-    new: 789ac9b03c2c0d27c5be81cb8d026e2300ae822e
+  - ref: refs/heads/jd/no-time-to-hash
+    old: 76b3184d1c51032acf91ca732d4ac6ba40afe73e
+    new: 04de1f13cf94a24ce8e9d126928779207ea2d140
     log: |
-         789ac9b03c2c0d27c5be81cb8d026e2300ae822e erofs-utils: lib: Fix 8MB bug on uncompressed extent size
+         04de1f13cf94a24ce8e9d126928779207ea2d140 WIP: rotate-xor
          
