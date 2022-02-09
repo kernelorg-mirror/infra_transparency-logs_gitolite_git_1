@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 09 Feb 2022 13:27:29 -0000
-Message-Id: <164441324946.25027.5502045631599824545@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 13:28:35 -0000
+Message-Id: <164441331580.25533.12662593518420514121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 237d20c208dbf0c2853c0f118530772a449eb430
-    new: 038fcdaf0470de89619bc4cc199e329391e6566c
+    old: 038fcdaf0470de89619bc4cc199e329391e6566c
+    new: 1710b52d7c135e83ee00ed38afacc1079cbe71f5
     log: |
-         038fcdaf0470de89619bc4cc199e329391e6566c net: ethernet: cavium: use div64_u64() instead of do_div()
+         1710b52d7c135e83ee00ed38afacc1079cbe71f5 net: usb: smsc95xx: add generic selftest support
          
