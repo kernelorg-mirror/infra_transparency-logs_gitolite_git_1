@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0684819376592294328=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 09 Feb 2022 13:13:54 -0000
-Message-Id: <164441243469.13937.1568390254887328737@gitolite.kernel.org>
-
---===============0684819376592294328==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 09 Feb 2022 13:13:59 -0000
+Message-Id: <164441243958.14111.7273354061341649702@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 74d78b441959eab5b407b15f0ac3a0340f21fd7a
-    new: 1264217d195b1a33218bcd6d72191fdb99c690db
+  - ref: refs/heads/queue/4.14
+    old: af44cde85935153de7e2e4fdbd6e24ffd73b050b
+    new: 51c7304aea4802460a75c446412fd5a0ee0e0e83
     log: |
-         1264217d195b1a33218bcd6d72191fdb99c690db 5.15-stable patches
+         ae80292199ac6b39e33dbc89c6092372e0c30d4c cgroup-v1: Require capabilities to set release_agent
+         51c7304aea4802460a75c446412fd5a0ee0e0e83 moxart: fix potential use-after-free on remove path
          
-
---===============0684819376592294328==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644412433 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1644412431-62e23d0d7af35c2da651006e9ed59e05bd2673d0
-
-74d78b441959eab5b407b15f0ac3a0340f21fd7a 1264217d195b1a33218bcd6d72191fdb99c690db refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIDvhIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k1MQAKgaLzAiR9T6ZQ63loWE
-Ra97V5XhV6bY9LHEMempZH9NhDFguX/+XEqmvNd3BdxOks7t9MgTBgboiWA053qB
-bNzu6LmOdnYz1Idv88YWqhNotsmGjibvNJ4L0xz787xDlyxq+XmSoaMwtamYHFDP
-8ewUpP4GocQ/CTjz+qZw5ZlhH/K4Il91gEg+QONUaoJMwfHztzrDyTlUuJSbDjCq
-ZXcU9LRFUsykqI5Sycm2aYrRH5drxf3xnCwXD1PytmfdS+18P3e8VoCnnZPAgLMk
-cX9xEUbyWRfGtz90cfS5sNA0K0i+MzGe6xgLxaJMT23/7II4nFd5x/1b7WbYeBHK
-3YWAICNB6wY27nfx86BzIb8DwlmNOKdMWdfd87yP47Xy5Fwzz7h9GKd8tC6hcaYe
-Hu3VySsMC6xj7tCTY8hTkAswe1a0Pa2pEAGVXy9k4L+6krakIA+14GVtJ4LgAlwY
-mriDsC3yVLDbk64TCugfT7c+nPsoGPEpolzDxaGaWQO38KsS7rdZO/TFb1clcL6u
-UXqcbT1NFJRZwCRgUOZP+dtDhDPT4UBmTih9rOaawesepVfXEBSn8n2XLiUVy6wX
-VJNnWeHlXZl2WCrIzo/0WA2xjeGYXw2jaQkO3tOldBZxflAfAKbNkg3df+6Ao/C5
-RtSjc/iRZa4LRav220aDDQxc
-=w1PS
------END PGP SIGNATURE-----
-
---===============0684819376592294328==--
+  - ref: refs/heads/queue/4.19
+    old: 95d5d33f718762cc084c8b5e381398d916727e78
+    new: ddb9adca67b52f7cf2699d14f43f1488192b52fc
+    log: |
+         d55fefc31e508fec59d181733f81008d26aa9764 cgroup-v1: Require capabilities to set release_agent
+         ddb9adca67b52f7cf2699d14f43f1488192b52fc moxart: fix potential use-after-free on remove path
+         
+  - ref: refs/heads/queue/4.9
+    old: c5afa0a22b8017d125fc1e533b23d2a4c69b3e35
+    new: 36fac5d53500ed2420d364cd7140b19cc409a7e6
+    log: |
+         085fec0dbad61a1fdd8e63657d37a672e8b170fc cgroup-v1: Require capabilities to set release_agent
+         36fac5d53500ed2420d364cd7140b19cc409a7e6 moxart: fix potential use-after-free on remove path
+         
+  - ref: refs/heads/queue/5.16
+    old: 9821b44054048b2566454e2d653e3f5c41463e78
+    new: 58aed86d5893cc004185de74154cdb18788a1750
+    log: |
+         5183daf63d26f11728b486ee0bce865de2dbc465 ata: libata-core: Fix ata_dev_config_cpr()
+         58aed86d5893cc004185de74154cdb18788a1750 moxart: fix potential use-after-free on remove path
+         
