@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 09 Feb 2022 16:11:37 -0000
-Message-Id: <164442309797.3800.6126863642961218586@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 16:11:45 -0000
+Message-Id: <164442310563.3977.17784014156531138585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 1dc01abad6544cb9d884071b626b706e37aa9601
-    new: f596cfc03f8ba010b1fc323fd1345da2a5797696
+  - ref: refs/heads/sched/core
+    old: c8eaf6ac76f40f6c59fc7d056e2e08c4a57ea9c7
+    new: d95db7fbf521ca4274fd7b7bc4e7d8e2d78b35e6
     log: |
-         55220ee8be781737140293de68d4ea0434671b4d locking: Add missing __sched attributes
-         ccc6514cd71bc7a08db9efa49069b1b127a7880b atomics: fix atomic64_{read_acquire,set_release} fallbacks
-         b0b433a36eddc1486b75c6cac1f140729d7089c8 locking/local_lock: Make the empty local_lock_*() function a macro.
-         f596cfc03f8ba010b1fc323fd1345da2a5797696 locking: Enable RT_MUTEXES by default on PREEMPT_RT.
+         1a32c1c6a2319504753c6e2ce00b27df3306d815 selftests/rseq: Change type of rseq_offset to ptrdiff_t
+         513023bfdc8c809862cb77d59106aa1bc759fa7b sched/fair: Improve consistency of allowed NUMA balance calculations
+         898291b2f6bb434a20586005eec1822f522f5e67 sched/fair: Adjust the allowed NUMA imbalance when SD_NUMA spans multiple LLCs
+         9362df7ed7eba107051326412f10a05b8e92b890 sched: Move energy_aware sysctls to topology.c
+         17880af2ea65d254c1c225e6a25caa5352c3dbee sched: Move cfs_bandwidth_slice sysctls to fair.c
+         d95db7fbf521ca4274fd7b7bc4e7d8e2d78b35e6 sched: Move uclamp_util sysctls to core.c
          
