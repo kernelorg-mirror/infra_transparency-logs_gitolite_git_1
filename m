@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 09 Feb 2022 18:22:30 -0000
-Message-Id: <164443095024.28366.8140003782444760566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 09 Feb 2022 18:23:25 -0000
+Message-Id: <164443100552.28749.6019285491635465174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 2ddf8016fadb9e6f6ff7c0e258e793271e93ca27
-    new: 3c75a6117bd596b5a894642603888c006e2d8d43
+  - ref: refs/heads/for-next/fixes
+    old: a4b92cebc31d49b7e6ef0ce584c7f2a2e112877d
+    new: da5fb9e1ad3fbf632dce735f1bdad257ca528499
     log: |
-         3c75a6117bd596b5a894642603888c006e2d8d43 random: zero buffer after reading entropy from userspace
+         da5fb9e1ad3fbf632dce735f1bdad257ca528499 ACPI/IORT: Check node revision for PMCG resources
          
