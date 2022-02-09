@@ -1,42 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============3048002395958069026=="
+Content-Type: multipart/mixed; boundary="===============2931215395091783849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Feb 2022 20:11:38 -0000
-Message-Id: <164443749848.3099.17535533060913403878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 09 Feb 2022 20:11:47 -0000
+Message-Id: <164443750746.3293.5763446514121043129@gitolite.kernel.org>
 
---===============3048002395958069026==
+--===============2931215395091783849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 31bf4b74ce49756e786651206f9fc9ba22d69070
-    new: 57b32d6ca0c588ec5c1237fa61806eb7a3147ad5
-    log: revlist-31bf4b74ce49-57b32d6ca0c5.txt
+  - ref: refs/heads/queue-next
+    old: 98277e94934f695f0b82e2ca5d05deeef246f926
+    new: 69d46dde8294056f8509e446a6f82f2cceb1fd9b
+    log: revlist-98277e94934f-69d46dde8294.txt
 
---===============3048002395958069026==
+--===============2931215395091783849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31bf4b74ce49-57b32d6ca0c5.txt
+Content-Disposition: attachment; filename=revlist-98277e94934f-69d46dde8294.txt
 
 b794eecb2af77145d36b9c28f056e242add9c4b2 ice: add support for DSCP QoS for IDC
 453307b569a0d41bddd07f26bf41b784cd82a4c9 igc: avoid kernel warning when changing RX ring parameters
 e62ad74aa534404b3ee7e250b114a3536ac56987 igb: refactor XDP registration
-d1d5bd647c49c8d4f8f4c5b79ddc819a6f3f7c57 net: typhoon: include <net/vxlan.h>
 fe4f57bf7b585dca58f1496c4e2481ecbae18126 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
-642436a1ad34a28c45bbc2bdc131640a73782356 net: stmmac: optimize locking around PTP clock reads
-a410a0cf98854a698a519bfbeb604145da384c0e ipv6: Define dscp_t and stop taking ECN bits into account in fib6-rules
-563f8e97e054451d167327336a53b7381517a998 ipv4: Stop taking ECN bits into account in fib4-rules
-f55fbb6afb8d701e3185e31e73f5ea9503a66744 ipv4: Reject routes specifying ECN bits in rtm_tos
-32ccf1107980e8ed5c62cf6666da7a47a4fc7ecf ipv4: Use dscp_t in struct fib_alias
-c3e676b98326a419f30dd5d956c68fc33323f4fd Merge branch 'inet-separate-dscp-from-ecn-bits-using-new-dscp_t-type'
 89bb09837b9719d54670420aa2edc9cf442194a8 i40e: Remove rx page reuse double count
 b3936d27673c7cf071b458074acb803e910d5502 i40e: Aggregate and export RX page reuse stat
 453f8305483851c20a41b66719d5acdc945541ca i40e: Add a stat tracking new RX page allocations
@@ -160,5 +153,7 @@ dcf51fcba051202c58ed6ae8fb84b4f72ac125f3 Merge branch 'patchq/396348' into mlx5-
 10b7a77ad3f121c882e37a8decc2573a04212401 Merge branch 'mlx5-queue' into net-next
 ad4615f88378ceee81da8f9c78f93831ecd3c16d Merge branch 'mlx4-for-net' into net-next
 57b32d6ca0c588ec5c1237fa61806eb7a3147ad5 Merge branch 'mlx5-for-net' into net-next
+17ab05c258d8779a3840264983cd7ef3f86ed367 Merge branch 'net-next' into queue-next
+69d46dde8294056f8509e446a6f82f2cceb1fd9b Merge branch 'testing/rdma-next' into queue-next
 
---===============3048002395958069026==--
+--===============2931215395091783849==--
