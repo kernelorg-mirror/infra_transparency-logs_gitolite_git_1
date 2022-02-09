@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1258515154362320831=="
+Content-Type: multipart/mixed; boundary="===============0178850793990129466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 09 Feb 2022 22:40:48 -0000
-Message-Id: <164444644896.3926.15785475544011884398@gitolite.kernel.org>
+Date: Wed, 09 Feb 2022 22:41:15 -0000
+Message-Id: <164444647531.4193.6858493780873006985@gitolite.kernel.org>
 
---===============1258515154362320831==
+--===============0178850793990129466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 changes:
-  - ref: refs/heads/for-next/array-bounds
-    old: d4fb3a865da1fa0d2811b9311c0061fa1f3daad7
-    new: a092a8e705ca22d7ffd19a4814561d9027a5a66c
-    log: revlist-d4fb3a865da1-a092a8e705ca.txt
+  - ref: refs/heads/for-next/overflow
+    old: a66866cff71cee3a9ebadb869ddf2bd465db4832
+    new: 6312fc63aee9d2fef2f9c4d42e57e5b46828f0dc
+    log: revlist-a66866cff71c-6312fc63aee9.txt
 
---===============1258515154362320831==
+--===============0178850793990129466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4fb3a865da1-a092a8e705ca.txt
+Content-Disposition: attachment; filename=revlist-a66866cff71c-6312fc63aee9.txt
 
 e958b5884725dac86d36c1e7afe5a55f31feb0b2 ASoC: xilinx: xlnx_formatter_pcm: Make buffer bytes multiple of period bytes
 a64067f4cecaaa4deed8e33d3266bc0bcc189142 ASoC: simple-card: fix probe failure on platform component
@@ -425,14 +425,7 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
-26645f94e83b31d04d898aa696fcbe4184bd0aa4 drm/dp: Fix off-by-one in register cache size
-9737cb2ba01d5f3099ef271bc6c4029a0d244705 drm/dp: Fix OOB read when handling Post Cursor2 register
-e8d07dab476a1aa55ede5940c6d8e0e4ced95d91 iio: addac: ad74413r: Do not reference negative array offsets
-d05425523c40d83ebc0778df84ba3b340da84b43 tpm: vtpm_proxy: Check length to avoid compiler warning
-6263c633794ff39b37a18065d8d6b86e35590e02 alpha: Silence -Warray-bounds warnings
-456a8a02cdfcbdf9537e08ea723f3d3a82f4ca4e m68k: cmpxchg: Dereference matching size
-44dc8eeec2cc8e1e693ee9b6a283ce1c518325ea scsi: ibmvscsis: Silence -Warray-bounds warning
-19cc51c4a01be1b5da26ef6c14558f8eda82dfef Makefile: Enable -Warray-bounds
-a092a8e705ca22d7ffd19a4814561d9027a5a66c Makefile: Enable -Wzero-length-bounds
+8e7c8ca6b988904d4c32c4053b325739738c8f36 test_overflow: Regularize test reporting output
+6312fc63aee9d2fef2f9c4d42e57e5b46828f0dc overflow: Implement size_t saturating arithmetic helpers
 
---===============1258515154362320831==--
+--===============0178850793990129466==--
