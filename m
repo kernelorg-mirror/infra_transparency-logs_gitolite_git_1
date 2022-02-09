@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4896273325243389647=="
+Content-Type: multipart/mixed; boundary="===============1349568291655463402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Feb 2022 21:38:28 -0000
-Message-Id: <164444270873.26123.1992316006628769871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 09 Feb 2022 21:38:33 -0000
+Message-Id: <164444271343.26257.13235122736428166206@gitolite.kernel.org>
 
---===============4896273325243389647==
+--===============1349568291655463402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 56bd7125c8873c7ab359d2a81f7ce595750f81ba
-    new: 63f175ddc5a891efdbb0954dcde06cadb30da932
-    log: revlist-56bd7125c887-63f175ddc5a8.txt
+  - ref: refs/heads/queue-rc
+    old: dbec045afa9351604eaa6a29627daa843ef50037
+    new: ee98bab743e18e6dada21da332c265c84782aba0
+    log: revlist-dbec045afa93-ee98bab743e1.txt
 
---===============4896273325243389647==
+--===============1349568291655463402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56bd7125c887-63f175ddc5a8.txt
+Content-Disposition: attachment; filename=revlist-dbec045afa93-ee98bab743e1.txt
 
 fe4f57bf7b585dca58f1496c4e2481ecbae18126 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
 084cbb2ec3af2d23be9de65fcc9493e21e265859 gve: Recording rx queue before sending to napi
@@ -66,5 +66,6 @@ e21d5f12c308bf0590da23eee3c842b63f702ff2 net: Fix features skip in for_each_netd
 7b50037a64433e0aaf6cdb6e8b0982211c800301 Merge branch 'patchq/456578' into mlx5-for-net
 c6e35f84bd7744cb073aa90481fda77e4a836c0e Merge branch 'patchq/382345' into mlx5-for-net
 63f175ddc5a891efdbb0954dcde06cadb30da932 Merge branch 'mlx5-for-net' into net-rc
+ee98bab743e18e6dada21da332c265c84782aba0 Merge branch 'net-rc' into queue-rc
 
---===============4896273325243389647==--
+--===============1349568291655463402==--
