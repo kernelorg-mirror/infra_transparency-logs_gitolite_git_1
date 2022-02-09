@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 09 Feb 2022 05:47:11 -0000
-Message-Id: <164438563104.27764.14856294942418905448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 09 Feb 2022 05:47:23 -0000
+Message-Id: <164438564306.27909.16144765767687881872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/next
-    old: ebbce265bba164c4f0d5271c277a540bd3b2fd3c
-    new: a4dabc3d30ea502fbd34319576f708174e328b72
+  - ref: refs/heads/master
+    old: 8dd039a6fcf3ff559a49533bbc6433c63b53c41c
+    new: 3caa7d2e2e9b69bf294b55c4a5a0b6673fdf5b00
     log: |
-         a4dabc3d30ea502fbd34319576f708174e328b72 coresight: etm4x: Add lock for reading virtual context ID comparator
+         816ae109554756ce5e22e3aabde10161c4d0a4f7 libbpf: Add BPF_KPROBE_SYSCALL macro
+         c28748233b4736bd31b3d3c3011d42054cc738f5 selftests/bpf: Test BPF_KPROBE_SYSCALL macro
+         3caa7d2e2e9b69bf294b55c4a5a0b6673fdf5b00 Merge branch 'libbpf: Add syscall-specific variant of BPF_KPROBE'
          
