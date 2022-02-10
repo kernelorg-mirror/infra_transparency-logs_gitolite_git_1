@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 10 Feb 2022 22:42:18 -0000
-Message-Id: <164453293881.30866.8478273238699168051@gitolite.kernel.org>
+Date: Thu, 10 Feb 2022 22:43:24 -0000
+Message-Id: <164453300457.31308.2060333390646704141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 91caecedec7dd05bb405760a7b0f839044d248d4
-    new: 32465396ebcd10d8b7072dcde26423e501c4b92f
+    old: 32465396ebcd10d8b7072dcde26423e501c4b92f
+    new: c69766fd1aba36fbcf89757a82ee8be47dac1e6c
     log: |
-         32465396ebcd10d8b7072dcde26423e501c4b92f station: fix >80 character lines
+         c69766fd1aba36fbcf89757a82ee8be47dac1e6c test-runner: allow IWD to start with no radios
          
