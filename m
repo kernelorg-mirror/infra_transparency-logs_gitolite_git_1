@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 10 Feb 2022 10:36:34 -0000
-Message-Id: <164448939491.2802.3860041213468643517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 10 Feb 2022 10:42:22 -0000
+Message-Id: <164448974218.6073.5226812279093520427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/arm64/preempt-dynamic-static-key
-    old: 2fc3365f5c31460fdceb3412232405bf34d5a1ba
-    new: 9b266889762ca79b6beaa3b100edeff30219cca0
+  - ref: refs/heads/irq/print_chip
+    old: 8eced2a1f7b02cca6e50e58427e4d55a90ef64ff
+    new: 801307a04a930d4c9afdbfd145ec102515036b8d
     log: |
-         14162ac47d705ff528a92d435c4c0b1c79eee05f sched/preempt: move PREEMPT_DYNAMIC logic later
-         2d352f9332cb3000522a216a00c63db52d1e8bf6 sched/preempt: refactor sched_dynamic_update()
-         cb1d613d62e7f4fd63c2755708938085f8e71dfd sched/preempt: simplify irqentry_exit_cond_resched() callers
-         90b7bb94009b7f5c30899a07610f199639b77f32 sched/preempt: decouple HAVE_PREEMPT_DYNAMIC from GENERIC_ENTRY
-         9f951c1335a13d077e7613a93aff63b3cb4a4706 sched/preempt: add PREEMPT_DYNAMIC using static keys
-         23e5d5db45645902966da0a21c7c44d3c07c797b arm64: entry: centralize preemption decision
-         9b266889762ca79b6beaa3b100edeff30219cca0 arm64: support PREEMPT_DYNAMIC
+         3b1e55bd9a2eceaf3ffdd7d259cf490a59de5a46 irqchip/ts4800: Switch to dynamic chip name output
+         1e6d80458da00d5733dc795539ccfbc60a1033a6 irqchip/versatile-fpga: Switch to dynamic chip name output
+         db55382cd8dbbb38a9b2efe15917138bb74595ff gpio: mt7621: Switch to dynamic chip name output
+         f210b51195661b190a770a93342e8bfc7f97b42b gpio: omap: Switch to dynamic chip name output
+         801307a04a930d4c9afdbfd145ec102515036b8d pinctrl: starfive: Switch to dynamic chip name output
          
