@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3659634962361484160=="
+Content-Type: multipart/mixed; boundary="===============7976989479677758096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 10 Feb 2022 17:52:42 -0000
-Message-Id: <164451556228.31063.12568027142718950283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 10 Feb 2022 17:52:49 -0000
+Message-Id: <164451556960.31209.8054931098325575697@gitolite.kernel.org>
 
---===============3659634962361484160==
+--===============7976989479677758096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 57b32d6ca0c588ec5c1237fa61806eb7a3147ad5
-    new: 01d6a140274c7c1241d1fa31e581122b70b09e59
-    log: revlist-57b32d6ca0c5-01d6a140274c.txt
+  - ref: refs/heads/queue-next
+    old: 69d46dde8294056f8509e446a6f82f2cceb1fd9b
+    new: 062d5aa7821baff4ba4baca275a955e5a2860815
+    log: revlist-69d46dde8294-062d5aa7821b.txt
 
---===============3659634962361484160==
+--===============7976989479677758096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57b32d6ca0c5-01d6a140274c.txt
+Content-Disposition: attachment; filename=revlist-69d46dde8294-062d5aa7821b.txt
 
 416abf4f1891de423cfcc437d4089a1a59c0adf0 ieee802154: atusb: move to new USB API
 b77fb25dcb342788d72ad7533163c34b8b823a1d bpf: Add support for bpf iterator programs to use sleepable helpers
@@ -247,5 +247,7 @@ ba1d8957db07a62bab6b26351fb051ab7d9fd601 Merge branch 'patchq/467855' into mlx5-
 fa621aeaf816cf4d91a18b9a0ad41dd498ebeb3d Merge branch 'mlx5-queue' into net-next
 915f0ac26fbe3122003c30c958d130229eaaeead Merge branch 'mlx4-for-net' into net-next
 01d6a140274c7c1241d1fa31e581122b70b09e59 Merge branch 'mlx5-for-net' into net-next
+055f6767ffca5b08c623a7828f50377d39fb48d9 Merge branch 'net-next' into queue-next
+062d5aa7821baff4ba4baca275a955e5a2860815 Merge branch 'testing/rdma-next' into queue-next
 
---===============3659634962361484160==--
+--===============7976989479677758096==--
