@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4549954593037865705=="
+Content-Type: multipart/mixed; boundary="===============5838717700122390250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Feb 2022 16:52:16 -0000
-Message-Id: <164451193631.28674.1312049430639498184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Feb 2022 16:52:22 -0000
+Message-Id: <164451194256.28881.15174073376548402850@gitolite.kernel.org>
 
---===============4549954593037865705==
+--===============5838717700122390250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 8be90641a0bbd9a3606547aa6a0f70b020e74c8f
     new: a61faea1a02f735237d0889e731b592f006de50c
     log: revlist-8be90641a0bb-a61faea1a02f.txt
 
---===============4549954593037865705==
+--===============5838717700122390250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644511934 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1644511934-9cb030c770290f0740e1fb92a0dba0210226e78e
+pusher C3F436CA30F5D8EB 1644511940 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1644511940-6646f93cdb5c3d9cee6b6939e79554d812c92cf7
 
-8be90641a0bbd9a3606547aa6a0f70b020e74c8f a61faea1a02f735237d0889e731b592f006de50c refs/heads/for-5.18
+8be90641a0bbd9a3606547aa6a0f70b020e74c8f a61faea1a02f735237d0889e731b592f006de50c refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIFQr4ACgkQJNaLcl1U
-h9AS/Qf/f5ddksQPMq9TJ4wKo97NevZIZX5TxD3Lzjg9tliIY5QlKAZtaWYsTmqS
-6KWulePWddWA0JdmCBCZIakUdd6P55PCewBJnYALrgYkL9NhlGaZf0cM+8b00UIv
-3Yvc9wlTFaqMW2pkZgVmAYl34gqJeHnkyhcn8jC7r8rQjcRTv/EzwHd6G6Xx/8ND
-X+oa1/r/bix8+DPRXSGnnXjCoPt6j2MMTc2lDO+QFS+0uwoSB1hDJ8p18LINb10q
-RofHyICTeVBCIly7O+mAaDHpjaT6/igJoQ0RcaGm2PSYDjrzAH4l+ML8mqvZexrF
-kkWF8hxyoB2qdyHOMqyMVBFAa1kjKQ==
-=BN74
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIFQsQACgkQJNaLcl1U
+h9BLzgf/UyHtDAp2Ce6tt7VwlF8XATRdUX3d1ELrOsDimyE4baJfF37790mE1e1S
+iallsXasI7TXNw1VdJkL8JyMWoLtr6dxAMy2VpsSOSgy2yS40ahkjAsvaHH/LS07
+0kWjG01uQb7smUYBLQeB3T+RvU2RgoHus0Y3kQS+0BHP29JWc4UCyf876kB0BYDN
+0KDVFVmG7/IuMZ0bGZsempP2ZlnHHay3aWmv6VtTIQfhGjaBvBvMYRtb9g3PmCrp
+P3Q2VjQfMzdyC/15k0mXmUAUr9U/ZNIXnhm4tklTWWGlN2YVBk7S5UZraCXPD9km
+uhrHFd8h/DHt6HO2G17cmRJ5OIaIHg==
+=gEAN
 -----END PGP SIGNATURE-----
 
---===============4549954593037865705==
+--===============5838717700122390250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ c1fc51ebb098cd43a68ebc82fde51364c207de32 ASoC: dt-bindings: samsung,tm2: convert
 b0d0e85f14414ed83bf134ff4117203d6c00421e Machine driver to support LPASS SC7280 sound card registration
 a61faea1a02f735237d0889e731b592f006de50c ASoC: dt-bindings: samsung: convert to dtschema
 
---===============4549954593037865705==--
+--===============5838717700122390250==--
