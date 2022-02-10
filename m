@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 10 Feb 2022 23:39:17 -0000
-Message-Id: <164453635727.3001.9308322862051680664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Thu, 10 Feb 2022 23:49:59 -0000
+Message-Id: <164453699981.9249.1924904995173257104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/pci/hotplug
-    old: 92912b175178c7e895f5e5e9f1e30ac30319162b
-    new: 9f72d4757cbe4d1ed669192f6d23817c9e437c4b
+  - ref: refs/heads/x86/cpu
+    old: ab28e944197fa78e6af7c4a0ffd6bba9a5bbacf0
+    new: ae75fa54228162ecd65341f9780886f21f557cc4
     log: |
-         9f72d4757cbe4d1ed669192f6d23817c9e437c4b PCI: pciehp: Add Qualcomm quirk for Command Completed erratum
+         ae75fa54228162ecd65341f9780886f21f557cc4 x86/cpufeatures: Put the AMX macros in the word 18 block
          
