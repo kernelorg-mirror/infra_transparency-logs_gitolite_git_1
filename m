@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
-Date: Thu, 10 Feb 2022 14:47:56 -0000
-Message-Id: <164450447655.6259.17619486520676609853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 10 Feb 2022 14:50:04 -0000
+Message-Id: <164450460426.8437.5535434377109576051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
-user: sschmidt
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 9557167bc63e3910c656a1628f2f52ab1cf6d541
-    new: b8e508f42138b42b44f65679d02aad3c200aff68
+  - ref: refs/heads/block-5.17
+    old: b13e0c71856817fca67159b11abac350e41289f5
+    new: 93e2c52d71a6067d08ee927e2682e9781cb911ef
     log: |
-         cfa1e01ecf516511bfc0fa87f96aa19bc6ee401f net: ieee802154: ca8210: Fix lifs/sifs periods
-         731cddce6dd110fb2cdee34eddb48599e7251517 net: mac802154: Convert the symbol duration into nanoseconds
-         781830c800ddd19566846c634de09fadf37eafde net: mac802154: Set durations automatically
-         b8e508f42138b42b44f65679d02aad3c200aff68 net: ieee802154: Drop duration settings when the core does it already
+         00e757b648c0935d703a9b8042312f4a76ee793b nvme: add nvme_complete_req tracepoint for batched completion
+         63573807b27e0faf8065a28b1bbe1cbfb23c0130 nvme-tcp: fix bogus request completion when failing to send AER
+         93e2c52d71a6067d08ee927e2682e9781cb911ef Merge tag 'nvme-5.17-2022-02-10' of git://git.infradead.org/nvme into block-5.17
          
