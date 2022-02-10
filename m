@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 10 Feb 2022 08:04:40 -0000
-Message-Id: <164448028022.19065.14944797176227542922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Thu, 10 Feb 2022 08:17:02 -0000
+Message-Id: <164448102233.27229.5303567669434658695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 6d0d95a1c2b07270870e7be16575c513c29af3f1
-    new: 7c76ecd9c99b6e9a771d813ab1aa7fa428b3ade1
+  - ref: refs/heads/main
+    old: f0a6fd1527067da537e9c48390237488719948ed
+    new: bea2662e7818e15d7607d17d57912ac984275d94
     log: |
-         7c76ecd9c99b6e9a771d813ab1aa7fa428b3ade1 xfrm: enforce validity of offload input flags
+         bea2662e7818e15d7607d17d57912ac984275d94 iwlwifi: fix use-after-free
          
