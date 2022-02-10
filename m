@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============1042792892219689827=="
+Content-Type: multipart/mixed; boundary="===============8506470123804256386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 10 Feb 2022 08:32:57 -0000
-Message-Id: <164448197778.5359.10195125608921592796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 10 Feb 2022 08:47:57 -0000
+Message-Id: <164448287771.14339.15323873418929028535@gitolite.kernel.org>
 
---===============1042792892219689827==
+--===============8506470123804256386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/heads/spi-mem-ecc
-    old: b556a86810e25b9d5a56da553bc65e5f4dcbedb6
-    new: 00360ebae483e603d55ec9a7231b787cb80ffe13
-    log: revlist-b556a86810e2-00360ebae483.txt
+  - ref: refs/heads/main
+    old: c761161851d31a6dc5274699cdf4e01de558cba9
+    new: 2fd6d2ef68607b9da952796c7aab352791daec66
+    log: revlist-c761161851d3-2fd6d2ef6860.txt
 
---===============1042792892219689827==
+--===============8506470123804256386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b556a86810e2-00360ebae483.txt
+Content-Disposition: attachment; filename=revlist-c761161851d3-2fd6d2ef6860.txt
 
-70e038f89b467995708207fb57bbf46aec32dc2c mtd: nand: mxic-ecc: Support SPI pipelined mode
-4a3cc7fb6e63bcfdedec25364738f1493345bd20 spi: spi-mem: Introduce a capability structure
-cb7e96ee81edaa48c67d84c14df2cbe464391c37 spi: spi-mem: Check the controller extra capabilities
-a9be454927de3b6df8ca4cbd88e019e52b73d4b4 spi: cadence-quadspi: Provide a capability structure
-0e450c7ce7d170a78adaeaa9a430e4184f191c15 spi: mxic: Provide a capability structure
-9a15efc5d5e6b5beaed0883e5bdcd0b1384c1b20 spi: spi-mem: Kill the spi_mem_dtr_supports_op() helper
-a433c2cbd75ab76f277364f44e76f32c7df306e7 spi: spi-mem: Add an ecc parameter to the spi_mem_op structure
-dc4c2cbf0be2d4a8e2a65013ea2815bb2c8ba949 mtd: spinand: Delay a little bit the dirmap creation
-f9d7c7265bcff7d9a17425a8cddf702e8fe159c2 mtd: spinand: Create direct mapping descriptors for ECC operations
-5fd6739e0df7e320bcac103dfb95fe75941fea17 spi: mxic: Fix the transmit path
-b7b64db74ea53f51d316077c1267bb4d0792ef4b spi: mxic: Create a helper to configure the controller before an operation
-d1b64bb28907b0ae4eff6befd6a1a476fbb68424 spi: mxic: Create a helper to ease the start of an operation
-33fce1d8bfa8220eb3edf5b3691a411a9191d0b1 spi: mxic: Add support for direct mapping
-00360ebae483e603d55ec9a7231b787cb80ffe13 spi: mxic: Add support for pipelined ECC operations
+a954f29aea5d2cf58feedf83235edf3367229a37 rtw88: fix use after free in rtw_hw_scan_update_probe_req()
+ff66964a9467f9f75776decb97b172d8a052498e rtw89: extend role_maintain to support AP mode
+2ab856cc3a6c337fdbeedfc457194e73147af749 rtw89: add addr_cam field to sta to support AP mode
+fd7ee4c8ac14b6f07919fa11c7898f9af490e75a rtw89: only STA mode change vif_type mapping dynamically
+1b73e77db1d087fb01b1fd0da6398bcbc93c3baf rtw89: maintain assoc/disassoc STA states of firmware and hardware
+a52e4f2ce0f5f24e4e557b5a254789f642705843 rtw89: implement ieee80211_ops::start_ap and stop_ap
+d95d8d6bba72190e2286375f96ba1798af64fe3a rtw89: debug: add stations entry to show ID assignment
+b478ff6bcb2d052cddb94d8044727ac932e9f05b rtw89: declare AP mode support
+9eb071f844964bf1bab26b9147979f97c2f39725 rtw88: recover rates of rate adaptive mechanism
+3c2c2e2ec1d64116c43ff3660579f99e8654cfe2 rtw89: recover rates of rate adaptive mechanism
+28e7ea8a3128a5626dee12a63ca8e8f8e6786608 rtw89: coex: set EN bit to PLT register
+f3c04fffe2717878d032a275f16d1e397402da10 brcmfmac: p2p: Replace one-element arrays with flexible-array members
+2fd6d2ef68607b9da952796c7aab352791daec66 brcmfmac: of: remove redundant variable len
 
---===============1042792892219689827==--
+--===============8506470123804256386==--
