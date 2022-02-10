@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4996472382094165542=="
+Content-Type: multipart/mixed; boundary="===============3736207540999058242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Feb 2022 13:37:21 -0000
-Message-Id: <164450024176.24302.11949940629391296657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Feb 2022 13:37:27 -0000
+Message-Id: <164450024749.24474.6274032977029359272@gitolite.kernel.org>
 
---===============4996472382094165542==
+--===============3736207540999058242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: e4e3a93c6e267572ca2345d8d86053e166843a8c
     new: c8d251f51ee61df06ee0e419348d8c9160bbfb86
     log: |
          c8d251f51ee61df06ee0e419348d8c9160bbfb86 ASoC: qcom: Actually clear DMA interrupt register for HDMI
          
 
---===============4996472382094165542==
+--===============3736207540999058242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644500240 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1644500239-25e75fefaa8d6a90d9249dfec2bddda132a67ca0
+pusher C3F436CA30F5D8EB 1644500246 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1644500245-c6b8c9692fce6e0b3d693a2601c5c4161419da08
 
-e4e3a93c6e267572ca2345d8d86053e166843a8c c8d251f51ee61df06ee0e419348d8c9160bbfb86 refs/heads/for-5.17
+e4e3a93c6e267572ca2345d8d86053e166843a8c c8d251f51ee61df06ee0e419348d8c9160bbfb86 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIFFRAACgkQJNaLcl1U
-h9D6hQf+MgEDqMRhHMUHxAmnHn4MIXy4rKHTBfa/TYPJ3OrxwR2mm9Y+PI4D9cTt
-ibQHRdLeL6Oe7n3uxlIOOgPMCeHDrxIA9giinn/dnYvY385L9qhRdRBJ+p7xuHPx
-wiUjYE2L9rNCp4tgXHtCGnMgnenPi7EpdSnwR+HJt9kO2dkGL6mxW1QcfIhqgCcO
-f6SL1bQG41y75IduuT7pdn0EOSwz2ThW2wDUF2wtYdWwHv4eBfB+dWi94MMDWJXQ
-Flmfv04+oWfXOF6bB/w/8DgGIL9M7tDNXjppQ6JOSEiLfuJZaKcLuqgdBC7LrtAI
-5WRfsJ7RSj7nBaH4BSykT7SbZ/vGWw==
-=0xBX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIFFRYACgkQJNaLcl1U
+h9C1OAf+Mn91FY9sVed6zcYhtnizzP7gP20hJ9w5qw8JZRgpUaoclkJ5m9PWkw5z
+x8v9gLrnzfya2CK8/UNppQ9Z4LxwB81+l2YOjA+/HP5Q8bxMDVeKqQ5nqVgkVw9r
+7MwomY7r40sgeqd/zS/H+OdcPNniffsb69xA46WL0DVvo5HPXrOfEqiO9OVY1oQk
+uou5e6awKu99Gzc/8s26dps0o3ucEAOzxus9fsQIJP9R5tMoAfsRjyhYD3+Nis53
+sGf/QaPJV45iTwtwHq7ZAv7ubou8gWREPX/F1tAEHtQVvI2BQuo8fVV4GD+vyYK4
+/7wHBz1IoIAyHD4bqu96Wefiqkndqw==
+=YG8E
 -----END PGP SIGNATURE-----
 
---===============4996472382094165542==--
+--===============3736207540999058242==--
