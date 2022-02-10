@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5822207541668876511=="
+Content-Type: multipart/mixed; boundary="===============2173795800258741978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 10 Feb 2022 22:21:25 -0000
-Message-Id: <164453168573.15716.3334003794373095555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 10 Feb 2022 22:21:30 -0000
+Message-Id: <164453169030.15833.3930460266942406@gitolite.kernel.org>
 
---===============5822207541668876511==
+--===============2173795800258741978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 63f175ddc5a891efdbb0954dcde06cadb30da932
-    new: 00b9ced8046bf8a53b2e8e622c6ae8c4ea357990
-    log: revlist-63f175ddc5a8-00b9ced8046b.txt
+  - ref: refs/heads/queue-rc
+    old: ee98bab743e18e6dada21da332c265c84782aba0
+    new: 02cdbedb5aa3adb6428a15bf255d38c75050a398
+    log: revlist-ee98bab743e1-02cdbedb5aa3.txt
 
---===============5822207541668876511==
+--===============2173795800258741978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63f175ddc5a8-00b9ced8046b.txt
+Content-Disposition: attachment; filename=revlist-ee98bab743e1-02cdbedb5aa3.txt
 
 8ecbb179286cbc91810c16caeb3396e06305cd0c net: usb: qmi_wwan: Add support for Dell DW5829e
 857898eb4b28daf3faca3ae334c78b2bb141475e selftests: mptcp: add missing join check
@@ -45,5 +45,6 @@ e895856a47f2ce0b8117039b996f102f21868fdf Merge branch 'patchq/466355' into mlx5-
 1a2cbabecc2d9616bfd8bb31f68772bc759a4f11 Merge branch 'patchq/456578' into mlx5-for-net
 509d41757edf3f22906287c53ee58abf971a4f13 Merge branch 'patchq/382345' into mlx5-for-net
 00b9ced8046bf8a53b2e8e622c6ae8c4ea357990 Merge branch 'mlx5-for-net' into net-rc
+02cdbedb5aa3adb6428a15bf255d38c75050a398 Merge branch 'net-rc' into queue-rc
 
---===============5822207541668876511==--
+--===============2173795800258741978==--
