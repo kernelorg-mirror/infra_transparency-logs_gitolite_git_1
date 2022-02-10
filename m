@@ -1,56 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5217744672919656967=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 10 Feb 2022 18:21:57 -0000
-Message-Id: <164451731711.19605.7760919481401161620@gitolite.kernel.org>
-
---===============5217744672919656967==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 10 Feb 2022 18:22:50 -0000
+Message-Id: <164451737025.20121.5598407612539786961@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 5997717488ab4cdaa9d0817319841244b28d92a6
-    new: 271d25dc5ed68cdcb9232e55c1d4791357521cf6
+  - ref: refs/heads/queue/4.14
+    old: 38a972f9e304aa9da2872bc38a2a6bde162eaa28
+    new: 43b7500148604c335052857757b0004209299964
     log: |
-         271d25dc5ed68cdcb9232e55c1d4791357521cf6 5.16-stable patches
+         eebe3d2730e36049c998ccef11cc525ef438e576 cgroup-v1: Require capabilities to set release_agent
+         2a04b113794f8359c0a4af76e0cd344289e0f772 moxart: fix potential use-after-free on remove path
+         639b7daa1d7794aff0571d6c62839b45299d76dd x86/mm, mm/hwpoison: Fix the unmap kernel 1:1 pages check condition
+         43b7500148604c335052857757b0004209299964 tipc: improve size validations for received domain records
          
-
---===============5217744672919656967==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644517316 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1644517314-cd253fa5d35a45abe6a04e90683e642b77e127ee
-
-5997717488ab4cdaa9d0817319841244b28d92a6 271d25dc5ed68cdcb9232e55c1d4791357521cf6 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIFV8QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bSYP/A0TVE07nci9uMTXufqQ
-LsKX86NXziuM4F9cLvGtvOMcnCan5CEMvjuFguQRpR6YhuOnR1l91xiGlWHLE4Bz
-Ypt8s/Jap+r0Z3daeWz3bYJ3WxjPs3x5TMtN4hMiuv/qghSn9JjzVGvW0416H0/r
-ERCqG0AzLYRoqzgjKSA44SV14CCiuHEbEVwfYXCY56P7oeY+dgKmbOssB8clXYMk
-Paqo3QT52ESCItOdNcUifG7tyemjwjV8+IlReyri+wEuODyLrvgOvgOeT1SJL+Pb
-hwy0T1DcJn4E7CxlNOJqfwyDqZAH0Wq+XzF/5pGcO4l/1urYwXQKNsXW4eHYGS3r
-w3g4lopTWwE/pP6qFKWtcxSZ+rCwPbwjc28BHJwMtDyL2oJgmRqRLi3a418krHGl
-ixyjM0Ha5XkGWdfa6ykBlu4V+RO4EMdlb+JUOYDBmZp1922J6JEJn8R7ulsJJyy+
-6iCdq3D+muNfw+/eF97GjEK0o9ylQ0HeJrMGOXOIXFhEB48SBHfOx2ESA6ce0Jv2
-qDCOL9m8eGlARVvQDrn5Fa8h990ZKRu3J2u5Hq1GlBvtBe/VAGJMp2PaVrnJEEzx
-u6IvRNgfkTSZoAUGBPvMVHAkZr1nH7M8HPR3qgpO0qyLB5TaTZqIBBZM6qVPPrdZ
-Uh9Wi6gdgDzku0ae4o/v3tUI
-=v74a
------END PGP SIGNATURE-----
-
---===============5217744672919656967==--
+  - ref: refs/heads/queue/4.19
+    old: 6d8ef8f5332524bb8b63392637c4ce2c40fc126c
+    new: 855176539bd73eb3d9327ce8b7d13947c0902b0d
+    log: |
+         10bdee1f27ed75c19ecdf8ddc0569d789f633aea cgroup-v1: Require capabilities to set release_agent
+         855176539bd73eb3d9327ce8b7d13947c0902b0d moxart: fix potential use-after-free on remove path
+         
+  - ref: refs/heads/queue/4.9
+    old: fffffa7f0cb4ca10df6d7c929c34dc51080e1a0d
+    new: 356d7fd0288477bc1fb8d2042e9eb1d549fef811
+    log: |
+         278f8f2c1bc8543a480c7dd2a823b3226f6b73fc cgroup-v1: Require capabilities to set release_agent
+         30c611a82fe1e2b4747033bbecc55b32b7264e9e moxart: fix potential use-after-free on remove path
+         356d7fd0288477bc1fb8d2042e9eb1d549fef811 tipc: improve size validations for received domain records
+         
+  - ref: refs/heads/queue/5.10
+    old: 06ef1e6fb8fd2492a9d403a7c3c96532cccf8484
+    new: 5cf2661586a5770481f993d48ac0d83c16738ac3
+    log: |
+         35414b0d0d6918807e86a0ae1e49039ffd6e322c moxart: fix potential use-after-free on remove path
+         d84bd412ef9abd5403f4510d8c6f1501367296b6 KVM: s390: Return error on SIDA memop on normal guest
+         5cf2661586a5770481f993d48ac0d83c16738ac3 crypto: api - Move cryptomgr soft dependency into algapi
+         
+  - ref: refs/heads/queue/5.15
+    old: 293b7ead287b91842fe0ca826aeeb95498dff6a9
+    new: f19c659b9d6f31c1cacab9bb91903224c86d00ca
+    log: |
+         457fb80d434c8dcf0d1c392c9076a0ac46ec4ee1 moxart: fix potential use-after-free on remove path
+         b2ad9c46057f07e50c0dc1e49f98d2ff59184b18 arm64: Add Cortex-A510 CPU part definition
+         72220afa682ddfd201995dc881354c66e9e55a0e KVM: s390: Return error on SIDA memop on normal guest
+         748d91c6c932cd154cc00ac9d0577090d1743006 ksmbd: fix SMB 3.11 posix extension mount failure
+         f19c659b9d6f31c1cacab9bb91903224c86d00ca crypto: api - Move cryptomgr soft dependency into algapi
+         
+  - ref: refs/heads/queue/5.16
+    old: 53cc9a0d0ee7718e85bbfcb878f1213e5c419efd
+    new: 7c825eaf3e20b7a7da0efaff73222c5d15b869ec
+    log: |
+         146d4ffcab11a806d74081352e1d59066fd2d298 ata: libata-core: Fix ata_dev_config_cpr()
+         b6058edb792a22aad4e40f2fc6f84df18ebe22ab moxart: fix potential use-after-free on remove path
+         bd4ce2c6745da4d93624772065f4675cad846aba KVM: s390: Return error on SIDA memop on normal guest
+         e7cef7dda869bf1e852b4284e8a3574bfb168b8a ksmbd: fix SMB 3.11 posix extension mount failure
+         7c825eaf3e20b7a7da0efaff73222c5d15b869ec crypto: api - Move cryptomgr soft dependency into algapi
+         
+  - ref: refs/heads/queue/5.4
+    old: 5f71cf7c3b4b60dc91a7ef8baa1ed54ee14de5cb
+    new: d4d2a0a7fa5ab40490c8c7552121ca9c9903b8ee
+    log: |
+         d4d2a0a7fa5ab40490c8c7552121ca9c9903b8ee moxart: fix potential use-after-free on remove path
+         
