@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8874766246238546781=="
+Content-Type: multipart/mixed; boundary="===============3619074429780500327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 10 Feb 2022 05:15:31 -0000
-Message-Id: <164447013130.8006.18150606660312714655@gitolite.kernel.org>
+Date: Thu, 10 Feb 2022 05:15:38 -0000
+Message-Id: <164447013831.8148.17255334229255233585@gitolite.kernel.org>
 
---===============8874766246238546781==
+--===============3619074429780500327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e5313968c41ba890a91344773a0474d0246d20a3
     new: 1127170d457eb9bcc839ef7f2064634f92fe83e2
     log: revlist-e5313968c41b-1127170d457e.txt
 
---===============8874766246238546781==
+--===============3619074429780500327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b3a723dbc94a6e38f67669d03b521edd766ad895 net:enetc: allocate CBD ring data memor
 5cad527d5ffa9a1c4731bb9c97d2ee93f8960d50 net: drop_monitor: support drop reason
 1127170d457eb9bcc839ef7f2064634f92fe83e2 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============8874766246238546781==--
+--===============3619074429780500327==--
