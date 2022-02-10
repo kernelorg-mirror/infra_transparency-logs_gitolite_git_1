@@ -1,79 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 10 Feb 2022 10:47:21 -0000
-Message-Id: <164449004123.9188.7685068615453338116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sschmidt/wpan-next
+Date: Thu, 10 Feb 2022 10:55:01 -0000
+Message-Id: <164449050131.14461.2404218658246724668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/sschmidt/wpan-next
+user: sschmidt
 changes:
-  - ref: refs/tags/drm-fixes-2021-10-01
+  - ref: refs/tags/ieee802154-for-davem-2022-02-10
     old: 0000000000000000000000000000000000000000
-    new: 8a3cb4511b6fa2bdc2534198deed39812312d5e1
-  - ref: refs/tags/drm-fixes-2021-10-08
+    new: 02b2a91c6f0d57df687e666b475849a54f295a12
+  - ref: refs/tags/v5.16
     old: 0000000000000000000000000000000000000000
-    new: e95bae941e8e1921a89e590a0968ef44271809e2
-  - ref: refs/tags/drm-fixes-2021-10-15-1
+    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
+  - ref: refs/tags/v5.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: 227edea50e6aedef39c1b995b97f9c9bac91cc6d
-  - ref: refs/tags/drm-fixes-2021-10-22
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/tags/v5.17-rc2
     old: 0000000000000000000000000000000000000000
-    new: d53abdb702872faf08a48158a516df88f6810e82
-  - ref: refs/tags/drm-fixes-2021-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 3c34beaa40908d3dc59cc0542d9fc861267c314b
-  - ref: refs/tags/drm-fixes-2021-11-19
-    old: 0000000000000000000000000000000000000000
-    new: e6bf23ece85418d9ff8b023195be742f0e7f5c02
-  - ref: refs/tags/drm-fixes-2021-11-26
-    old: 0000000000000000000000000000000000000000
-    new: 75b677f111085bb907c1448e28c5561e8971148a
-  - ref: refs/tags/drm-fixes-2021-12-03
-    old: 0000000000000000000000000000000000000000
-    new: a0d43594c01c207b9b06bb140dc8c943ea67a8b9
-  - ref: refs/tags/drm-fixes-2021-12-03-1
-    old: 0000000000000000000000000000000000000000
-    new: de97e10640ecc3af4f4b4d0f559f0090030e3443
-  - ref: refs/tags/drm-fixes-2021-12-10
-    old: 0000000000000000000000000000000000000000
-    new: 69b7e092f3dd2b81dd5d46201e5ff337aa897c99
-  - ref: refs/tags/drm-fixes-2021-12-17-1
-    old: 0000000000000000000000000000000000000000
-    new: 109f920a28ede70eadf2014ee4748ce6c2c1928f
-  - ref: refs/tags/drm-fixes-2021-12-24
-    old: 0000000000000000000000000000000000000000
-    new: e9b212cf874e979c6149286eadc616ab24ab3172
-  - ref: refs/tags/drm-fixes-2021-12-31
-    old: 0000000000000000000000000000000000000000
-    new: 451206841338f1b8a11da532191992d295bb2277
-  - ref: refs/tags/drm-fixes-2022-01-07
-    old: 0000000000000000000000000000000000000000
-    new: 5e76efa30da1e8be810aaffb5e38f0c2227c1cc9
-  - ref: refs/tags/drm-fixes-2022-01-28
-    old: 0000000000000000000000000000000000000000
-    new: 5e04044ecceec3af96598f020229336135d962c5
-  - ref: refs/tags/drm-fixes-2022-02-04
-    old: 0000000000000000000000000000000000000000
-    new: 28b8ac00cdba0e5d825c320c7374b6896095be71
-  - ref: refs/tags/drm-next-2021-11-03
-    old: 0000000000000000000000000000000000000000
-    new: ad90384f42f398fff07e80a5eb8c13ed50a9bd32
-  - ref: refs/tags/drm-next-2021-11-12
-    old: 0000000000000000000000000000000000000000
-    new: da388181b7b587c200eafbf81f1e87ad6e937b05
-  - ref: refs/tags/drm-next-2022-01-07
-    old: 0000000000000000000000000000000000000000
-    new: b8b4e594954eda17df2f78ba187fa84a9797ae78
-  - ref: refs/tags/drm-next-2022-01-14
-    old: 0000000000000000000000000000000000000000
-    new: 785f6c32d07acc2781a2f5b3e59e9e5d93338cf8
-  - ref: refs/tags/drm-next-2022-01-21
-    old: 0000000000000000000000000000000000000000
-    new: 01f3222d800c41bb259b00a3093054d89d56f7b5
-  - ref: refs/tags/exynos-drm-fixes-for-v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 850ab6e5721de43ba317213593dd3686ce339ee7
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
