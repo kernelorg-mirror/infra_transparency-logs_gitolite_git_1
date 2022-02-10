@@ -1,23 +1,79 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 10 Feb 2022 10:42:22 -0000
-Message-Id: <164448974218.6073.5226812279093520427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Thu, 10 Feb 2022 10:47:21 -0000
+Message-Id: <164449004123.9188.7685068615453338116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/irq/print_chip
-    old: 8eced2a1f7b02cca6e50e58427e4d55a90ef64ff
-    new: 801307a04a930d4c9afdbfd145ec102515036b8d
-    log: |
-         3b1e55bd9a2eceaf3ffdd7d259cf490a59de5a46 irqchip/ts4800: Switch to dynamic chip name output
-         1e6d80458da00d5733dc795539ccfbc60a1033a6 irqchip/versatile-fpga: Switch to dynamic chip name output
-         db55382cd8dbbb38a9b2efe15917138bb74595ff gpio: mt7621: Switch to dynamic chip name output
-         f210b51195661b190a770a93342e8bfc7f97b42b gpio: omap: Switch to dynamic chip name output
-         801307a04a930d4c9afdbfd145ec102515036b8d pinctrl: starfive: Switch to dynamic chip name output
-         
+  - ref: refs/tags/drm-fixes-2021-10-01
+    old: 0000000000000000000000000000000000000000
+    new: 8a3cb4511b6fa2bdc2534198deed39812312d5e1
+  - ref: refs/tags/drm-fixes-2021-10-08
+    old: 0000000000000000000000000000000000000000
+    new: e95bae941e8e1921a89e590a0968ef44271809e2
+  - ref: refs/tags/drm-fixes-2021-10-15-1
+    old: 0000000000000000000000000000000000000000
+    new: 227edea50e6aedef39c1b995b97f9c9bac91cc6d
+  - ref: refs/tags/drm-fixes-2021-10-22
+    old: 0000000000000000000000000000000000000000
+    new: d53abdb702872faf08a48158a516df88f6810e82
+  - ref: refs/tags/drm-fixes-2021-10-29
+    old: 0000000000000000000000000000000000000000
+    new: 3c34beaa40908d3dc59cc0542d9fc861267c314b
+  - ref: refs/tags/drm-fixes-2021-11-19
+    old: 0000000000000000000000000000000000000000
+    new: e6bf23ece85418d9ff8b023195be742f0e7f5c02
+  - ref: refs/tags/drm-fixes-2021-11-26
+    old: 0000000000000000000000000000000000000000
+    new: 75b677f111085bb907c1448e28c5561e8971148a
+  - ref: refs/tags/drm-fixes-2021-12-03
+    old: 0000000000000000000000000000000000000000
+    new: a0d43594c01c207b9b06bb140dc8c943ea67a8b9
+  - ref: refs/tags/drm-fixes-2021-12-03-1
+    old: 0000000000000000000000000000000000000000
+    new: de97e10640ecc3af4f4b4d0f559f0090030e3443
+  - ref: refs/tags/drm-fixes-2021-12-10
+    old: 0000000000000000000000000000000000000000
+    new: 69b7e092f3dd2b81dd5d46201e5ff337aa897c99
+  - ref: refs/tags/drm-fixes-2021-12-17-1
+    old: 0000000000000000000000000000000000000000
+    new: 109f920a28ede70eadf2014ee4748ce6c2c1928f
+  - ref: refs/tags/drm-fixes-2021-12-24
+    old: 0000000000000000000000000000000000000000
+    new: e9b212cf874e979c6149286eadc616ab24ab3172
+  - ref: refs/tags/drm-fixes-2021-12-31
+    old: 0000000000000000000000000000000000000000
+    new: 451206841338f1b8a11da532191992d295bb2277
+  - ref: refs/tags/drm-fixes-2022-01-07
+    old: 0000000000000000000000000000000000000000
+    new: 5e76efa30da1e8be810aaffb5e38f0c2227c1cc9
+  - ref: refs/tags/drm-fixes-2022-01-28
+    old: 0000000000000000000000000000000000000000
+    new: 5e04044ecceec3af96598f020229336135d962c5
+  - ref: refs/tags/drm-fixes-2022-02-04
+    old: 0000000000000000000000000000000000000000
+    new: 28b8ac00cdba0e5d825c320c7374b6896095be71
+  - ref: refs/tags/drm-next-2021-11-03
+    old: 0000000000000000000000000000000000000000
+    new: ad90384f42f398fff07e80a5eb8c13ed50a9bd32
+  - ref: refs/tags/drm-next-2021-11-12
+    old: 0000000000000000000000000000000000000000
+    new: da388181b7b587c200eafbf81f1e87ad6e937b05
+  - ref: refs/tags/drm-next-2022-01-07
+    old: 0000000000000000000000000000000000000000
+    new: b8b4e594954eda17df2f78ba187fa84a9797ae78
+  - ref: refs/tags/drm-next-2022-01-14
+    old: 0000000000000000000000000000000000000000
+    new: 785f6c32d07acc2781a2f5b3e59e9e5d93338cf8
+  - ref: refs/tags/drm-next-2022-01-21
+    old: 0000000000000000000000000000000000000000
+    new: 01f3222d800c41bb259b00a3093054d89d56f7b5
+  - ref: refs/tags/exynos-drm-fixes-for-v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 850ab6e5721de43ba317213593dd3686ce339ee7
