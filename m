@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Feb 2022 01:28:53 -0000
-Message-Id: <164445653393.23037.11876767183665587464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 10 Feb 2022 02:38:04 -0000
+Message-Id: <164446068496.2356.4019214876172773769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: 1710b52d7c135e83ee00ed38afacc1079cbe71f5
-    new: 5cad527d5ffa9a1c4731bb9c97d2ee93f8960d50
-    log: |
-         5cad527d5ffa9a1c4731bb9c97d2ee93f8960d50 net: drop_monitor: support drop reason
-         
+  - ref: refs/tags/socfpga_dts_update_for_v5.18_part2
+    old: 0000000000000000000000000000000000000000
+    new: 2bdbb233e13d96bc305a9af931bf1d7012abf69f
