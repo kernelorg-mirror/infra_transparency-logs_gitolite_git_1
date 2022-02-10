@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 10 Feb 2022 22:41:43 -0000
-Message-Id: <164453290358.30568.17859965066524386911@gitolite.kernel.org>
+Date: Thu, 10 Feb 2022 22:42:18 -0000
+Message-Id: <164453293881.30866.8478273238699168051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/network/wireless/iwd
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 2c355db7fa4ce4ba28211f5231ae4286b8a9f022
-    new: 91caecedec7dd05bb405760a7b0f839044d248d4
+    old: 91caecedec7dd05bb405760a7b0f839044d248d4
+    new: 32465396ebcd10d8b7072dcde26423e501c4b92f
     log: |
-         91caecedec7dd05bb405760a7b0f839044d248d4 station: only log station_autoconnect_start if autoconnecting
+         32465396ebcd10d8b7072dcde26423e501c4b92f station: fix >80 character lines
          
