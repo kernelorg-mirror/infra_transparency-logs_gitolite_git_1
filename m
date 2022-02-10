@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7586706286112526563=="
+Content-Type: multipart/mixed; boundary="===============7213058319331176247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 10 Feb 2022 18:50:58 -0000
-Message-Id: <164451905832.5578.5960254437782340247@gitolite.kernel.org>
+Date: Thu, 10 Feb 2022 18:52:04 -0000
+Message-Id: <164451912449.7282.2204881710789930689@gitolite.kernel.org>
 
---===============7586706286112526563==
+--===============7213058319331176247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,47 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 17179d0068b20413de2355f84c75a93740257e20
-    new: 48ebd0cf23f8dc9de2ac56fae97c5e7206cc9679
-    log: revlist-17179d0068b2-48ebd0cf23f8.txt
+  - ref: refs/heads/queue
+    old: f02ccc0f669341de1a831dfa7ca843ebbdbc8bd7
+    new: f6ae04ddb347f526b4620d1053690ecf1f87d77f
+    log: revlist-f02ccc0f6693-f6ae04ddb347.txt
 
---===============7586706286112526563==
+--===============7213058319331176247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1644519054 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1644519122 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1644519052-9de041d0c9d903f60e38d49b0852bfa344bb4715
+nonce 1644519120-3c03796e41582f6a902e1ec43fe6dfb3a7db505f
 
-17179d0068b20413de2355f84c75a93740257e20 48ebd0cf23f8dc9de2ac56fae97c5e7206cc9679 refs/heads/next
+f02ccc0f669341de1a831dfa7ca843ebbdbc8bd7 f6ae04ddb347f526b4620d1053690ecf1f87d77f refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmIFXo8UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOjWwf/W9r0UMDYpqBkOXd64ZURnr2lSiBq
-UA8vK9as4BGXZV6Zh2Oznic07dRtTPMRfhxqXmjYwyrahJQwq10lIYN6dTboAQ4N
-85Bsr7XsYXa6uEqkF35QCPWVfKKfChK1ahl+ef/TRddyNFWFqvPRRdb7zlBzaKbI
-S75K5YNTb0qrkLxSfwA5jkg/dhVYltfCYFVFIo6IE2KdxtmYtQVBIVzyQFuGWRN5
-NizuTirmbfXizSvRmG8Z3ngha88TPCOeuIdtTQs/dE0ecY+dX43bV/V88NC92omr
-RPXmsCYcbvThdFXBmAeOBzTvl2byuNXdO4wSGs8Vs1yFokYUXnRkH4qmDw==
-=hyDP
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmIFXtIUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPFOgf/UA5zoiqjZvwlZ1/BYTFdcx1W451L
+UJLZ/vXbH+hsxrB/6wpm+Jw5bY35qFd4pktx+p6qewgSnqVE72J/XCQncJYlxotq
+3Wrlb54ctB+AaCVsdehdjLE+YFDRQ7PkFrvJ2rNrpYT91BOYjABWkmsP9em1AB3J
+IHQOuLF8sCYk74VmZ+fdqV8TMNc4BVCH3hNbXvOUhjSJ1cD1PzW0w4I4YNvaVcfh
+mGQ4/F2HM1zrIyjD7a80lggpaPXIJLpiH3c/XIX4yAQFgudADo579I3YE+DaegPt
+tUWPfG2BlIsqonMzOebizp/HjsQLHweTUAQmcCyTwcPBW1SZU89OO38JXA==
+=RwJR
 -----END PGP SIGNATURE-----
 
---===============7586706286112526563==
+--===============7213058319331176247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17179d0068b2-48ebd0cf23f8.txt
+Content-Disposition: attachment; filename=revlist-f02ccc0f6693-f6ae04ddb347.txt
 
+e8a62cc26ddf53a3c6ba2a8d33036cf7b84f3923 riscv: Implement sv48 support
+73c7c8f68e7266bd558227bd9c598cb90b1673cc riscv: Use pgtable_l4_enabled to output mmu_type in cpuinfo
+c774de22c430733487f70d755067d9ea55dbe6de riscv: Explicit comment about user virtual address space size
+0c34e79e52bb13881c08f1a2c2390b7b88ff10c7 RISC-V: Introduce sv48 support without relocatable kernel
+20aa49541a2ea2cb767ada04cbcaf12fe3ca1275 riscv: fix boolconv.cocci warnings
+52d005337b2c94ab37273d9ad8382d4fb051defd smb3: send NTLMSSP version information
 51620150ca2df62f8ea472ab8962be590c957288 cifs: update internal module number
 7ecd19cfdfcbb625cc059dfa5b267d2436732c1c mm: percpu: generalize percpu related config
 1ca3fb3abd2b615c4b61728de545760a6e2c2d8b mm: percpu: add pcpu_fc_cpu_to_node_fn_t typedef
@@ -733,7 +739,6 @@ b3f74938d65665f892d1b7807c51140f68dc911c drm/i915/pmu: Use PM timestamp instead 
 341adeec9adad0874f29a0a1af35638207352a39 net/smc: Forward wakeup to smc socket waitqueue after fallback
 baf927a833ca2c6717795ac131079f485cb7a5dc pinctrl: microchip-sgpio: Fix support for regmap
 a4f399a1416f645ac701064a55b0cb5203707ac9 Input: wm97xx: Simplify resource management
-f6c6804c43fa18d3cee64b55490dfbd3bef1363a kvm: Move KVM_GET_XSAVE2 IOCTL definition at the end of kvm.h
 2d192fc4c1abeb0d04d1c8cd54405ff4a0b0255b btrfs: don't start transaction for scrub if the fs is mounted read-only
 e804861bd4e69cc5fe1053eedcb024982dde8e48 btrfs: fix deadlock between quota disable and qgroup rescan worker
 0c982944af27d131d3b74242f3528169f66950ad btrfs: tree-checker: check item_size for inode_item
@@ -769,12 +774,8 @@ ff4865b3c8cd746ef72f59bdd485848b4cebd43d ALSA: Replace acpi_bus_get_device()
 2161ba070999a709f975910b6b9ad6b51cd6f120 MIPS: KVM: fix vz.c kernel-doc notation
 92c4cfaee6872038563c5b6f2e8e613f9d84d47d dma-buf: heaps: Fix potential spectre v1 gadget
 7d73c602154df56802a9e75ac212505fc1e9a2b6 drm/i915/pmu: Fix KMD and GuC race on accessing busyness
-57dfd7b53dec740afe402135fdd1c5708ec337f0 KVM: x86: Move delivery of non-APICv interrupt into vendor code
 ee12595147ac1fbfb5bcb23837e26dd58d94b15d fanotify: Fix stale file descriptor in copy_event_to_user()
 881cc731df6af99a21622e9be25a23b81adcd10b net: phy: Fix qca8081 with speeds lower than 2.5Gb/s
-ef9989afda73332df566852d6e9ca695c05f10ce kvm: add guest_state_{enter,exit}_irqoff()
-72e3244512b34756a7e8aa67eff45cdcb040ac4e kvm/mips: rework guest entry logic
-b2d2af7e5df37ee3a9ba6b405bdbb7691a5c2dfc kvm/x86: rework guest entry logic
 b43a76f423aa304037603fd6165c4a534d2c09a7 RDMA/siw: Fix broken RDMA Read Fence/Resume logic.
 f3136c4ce7acf64bee43135971ca52a880572e32 RDMA/mlx4: Don't continue event handler after memory allocation failure
 1c7f0e349aa5f8f80b1cac3d4917405332e14cdf ALSA: hda: Skip codec shutdown in case the codec is not registered
@@ -793,7 +794,6 @@ bee9f65523218e3baeeecde9295c8fbe9bc08e0a netfs, cachefiles: Add a method to quer
 cad014b7b5a6897d8c4fad13e2888978bfb7a53f e1000e: Handshake with CSME starts from ADL platforms
 053ca37c87af65f41f5842070c68aa53c3d035f5 PCI: j721e: Initialize pcie->cdns_pcie before using it
 24f6008564183aa120d07c03d9289519c2fe02af cgroup-v1: Require capabilities to set release_agent
-8cfe148a7136bc60452a5c6b7ac2d9d15c36909b kvm/arm64: rework guest entry logic
 61fda95541cd0287540da45bb6dcbff2aeab1af9 Merge tag 'audit-pr-20220131' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 630c12862c21a312c15a494922cdbf9c1beb1733 Merge tag 'unicode-for-next-5.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/krisman/unicode
 1a2beb3d5a0b4051067ecf49ea799bee340e0e7c mailmap: update Christian Brauner's email address
@@ -842,15 +842,11 @@ a01994f5e5c79d3a35e5e8cf4252c7f2147323c3 x86/perf: Default set FREEZE_ON_SMI for
 95d29fa104523b1756323f7003294b1711c27808 selftests/perf_events: Test modification of perf_event_attr::sig_data
 ddecd22878601a606d160680fa85802b75d92eb6 perf: uapi: Document perf_event_attr::sig_data truncation on 32 bit architectures
 1d9093457b243061a9bba23543c38726e864a643 perf/x86/intel/pt: Fix crash with stop filters in single-range mode
-6455317e4d0d8395e8e4a2fd1ec8d6502267dd02 kvm/riscv: rework guest entry logic
-de1d7b6a51dab546160d252e47baa54adf104d4a RISC-V: KVM: make CY, TM, and IR counters accessible in VU mode
-403271548a840dd4f884088d6333e09f899be5ff RISC-V: KVM: Fix SBI implementation version
 1148836fd3226c20de841084aba24184d4fbbe77 Revert "fbdev: Garbage collect fbdev scrolling acceleration, part 1 (from TODO list)"
 87ab9f6b7417349aa197a6c7098d4fdd4beebb74 Revert "fbcon: Disable accelerated scrolling"
 a3f781a9d6114c1d1e01defb7aa234dec45d2a5f fbcon: Add option to enable legacy hardware acceleration
 c8ff576e4e553a059e0790afd15385f418b1a854 Merge tag 'mlx5-fixes-2022-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 3e1f941dd9f33776b3df4e30f741fe445ff773f3 block: fix DIO handling regressions in blkdev_read_iter()
-cb4f0843429e38431023c26ca7cdaee447953cbd Merge tag 'kvm-riscv-fixes-5.17-1' of https://github.com/kvm-riscv/linux into HEAD
 c86d86131ab75696fc52d98571148842e067d620 Partially revert "net/smc: Add netlink net namespace support"
 186edf7e368c40d06cf727a1ad14698ea67b74ad selinux: fix double free of cond_list on error paths
 81eb8b0b18789e647e65579303529fd52d861cc2 net: sparx5: do not refer to skb after passing it on
@@ -1075,5 +1071,9 @@ ce3859172ce09e6ff495290d8ba1d6c7f1a7b207 KVM: x86: Make kvm_hv_hypercall_enabled
 29f557d553494136a46096addbe1c14e9805b73e KVM: selftests: nSVM: Update 'struct vmcb_control_area' definition
 e67bd7df28a0f2193512184e24a2de4bfd77c69e KVM: selftests: nSVM: Add enlightened MSR-Bitmap selftest
 48ebd0cf23f8dc9de2ac56fae97c5e7206cc9679 KVM: VMX: Use local pointer to vcpu_vmx in vmx_vcpu_after_set_cpuid()
+512b3476ae8f858118224bb8ee60b6dca50d89f9 KVM: SVM: extract avic_ring_doorbell
+fdce555a0e157d28e9f2c43ac0834e6e9391338f KVM: SVM: set IRR in svm_deliver_interrupt
+c6f93dbd2936e8194930b5cb59e654e20caddbee KVM: x86: SVM: fix race between interrupt delivery and AVIC inhibition
+f6ae04ddb347f526b4620d1053690ecf1f87d77f KVM: SVM: Rename AVIC helpers to use "avic" prefix instead of "svm"
 
---===============7586706286112526563==--
+--===============7213058319331176247==--
