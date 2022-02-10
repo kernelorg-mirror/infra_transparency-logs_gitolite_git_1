@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 10 Feb 2022 21:26:06 -0000
-Message-Id: <164452836642.12787.1023726912046767628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 10 Feb 2022 21:27:23 -0000
+Message-Id: <164452844336.13291.10014719716959257651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 357930f12627142ac4d97206af37c546173f989b
-    new: 6a14351b7231711c8e50bc2e86c97b78091a76ff
+  - ref: refs/heads/dm-5.18
+    old: 7aa99af70f47aada9226cff5556b741c20edfe21
+    new: c398aad3889965e7eebaa17ad2789d8ac2d527f2
     log: |
-         6a14351b7231711c8e50bc2e86c97b78091a76ff random: rearrange and redocument
+         d4875907ac4990f3888f17821be3c7a33f19c510 dm: improve correctness and efficiency of bio-based IO accounting
+         c398aad3889965e7eebaa17ad2789d8ac2d527f2 block: add bio_start_io_acct_remapped for the benefit of DM
          
