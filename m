@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7713030938288199031=="
+Content-Type: multipart/mixed; boundary="===============6102685767672781983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 11 Feb 2022 09:57:47 -0000
-Message-Id: <164457346786.1883.6168218880315660172@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 10:00:19 -0000
+Message-Id: <164457361964.4257.7903506758757954899@gitolite.kernel.org>
 
---===============7713030938288199031==
+--===============6102685767672781983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 117b4e96c7f362eb6459543883fc07f77662472c
-    new: c853685d11c09da35cb49bbf8f0c001abdc0d0a9
+    old: c853685d11c09da35cb49bbf8f0c001abdc0d0a9
+    new: 269cbcf7b72de6f0016806d4a0cec1d689b55a87
     log: |
-         57bc3d3ae8c14df3ceb4e17d26ddf9eeab304581 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-         c853685d11c09da35cb49bbf8f0c001abdc0d0a9 usb: core: Unregister device on component_add() failure
+         75e5b4849b81e19e9efe1654b30d7f3151c33c2c USB: gadget: validate interface OS descriptor requests
+         38ea1eac7d88072bbffb630e2b3db83ca649b826 usb: gadget: rndis: check size of RNDIS_MSG_SET command
+         269cbcf7b72de6f0016806d4a0cec1d689b55a87 usb: dwc2: drd: fix soft connect when gadget is unconfigured
          
 
---===============7713030938288199031==
+--===============6102685767672781983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644573466 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644573618 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1644573466-226bb65aaec5be31f06edbd5093ffeda1573250f
+nonce 1644573617-59a244c19b21bd7113755f0d13890f80c4f8db1c
 
-117b4e96c7f362eb6459543883fc07f77662472c c853685d11c09da35cb49bbf8f0c001abdc0d0a9 refs/heads/usb-linus
+c853685d11c09da35cb49bbf8f0c001abdc0d0a9 269cbcf7b72de6f0016806d4a0cec1d689b55a87 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGMxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S/QP/1uERRBS5F0ff4roWX+I
-nDkkv4W/DsC9MYjs2jmzxogDz/emb2Ntv2dt9gf4+WgeQkqnB5Cm9l3vMaUPmSpA
-Z5Fkw89k5R3xuHsF1/PpY/V97uoYkFvqweM8XZfzCvARrf/Ktgwh2kEy3oVem475
-bsxVNTxibJZf1DvUbzJLHbGSG1a2o28WfrvaMfDLLL18fXzZl6LuZAVNPZG5qHB1
-nkNyIYS3ipdBjJb8KG7o77leQFGg3ZxQIvRaa9ml7n+fO6241QNqAtD3Ykd8hxdr
-j02WvQxskQCRL+oKzxcNTDF5KTBUYXJUCO/0nh7JlSaIiqsQRPcnIeF4Ee3ncB78
-pFwTXSpksF0RgrD4g6ZMQTT5mTdktubS/VQFFPlPOPipL5Xe2YQubXGgyGj4KdXB
-fsVhFz01qLkAwcutIeRZRf6Ml/BioMJpWSfe8byXB/V8yUeHLF+lXWw+nQZ1QMXG
-Z4fFPOmarbFVYjsVBiEhahjXTThNPm0Z7jcPLOGvLWrXIbVRYDEdnsV3z0FGBLbT
-fuv3zkogNDvIHGSh3UxONXGF+UbG4In33Wfc89nBrLhFFgVGiCyMBtTfgLHhgYku
-4InlqL9UBsqAKM/yjL0inE49Ec0MKaacKt2YRi4Rae3C0cfuv/F/vSkT3N6rB3rK
-V4NIU4zVBQSKAAlLgJu9oob7
-=/wrI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGM7IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d1EQAM/BGENCf7MBPfhzwCJW
+HJ4oYpjS8zGuMcS+nBgtseb2XJXXGHNdTmIf5c7IA/4DqtQY59BrT+rdhEaQ5+Vk
+3hKCmpFJ1X3l+u9xO5Bgy53KL92hOAT0yzxmxs2EjJKNRJiNkQe6NS7me/wqK899
+pqR6ml56YVOgbv8Mc9Ccq3mW+YgCmkxpckjBifdT6pkDFszmCUgwUs7GcLRSLBmQ
+xv5Opo6JCOvMtlBD+8nK2idCzWJbdCoig8+VdDp0TKtNjr58WplCvTfhp489oLdW
+Q6eS/5RgQk6/AppVl+3rIVGy9uz3kdzipT8nFsZ9eN9vELGHarX/6IeeJ2ke8Px/
+5o4ZyWAU/Ymj6qiNY9e3OKrKFml99cwbozeN9j8LwZtnTsVOVBeEcHO2lTpkjmRI
+RymApo9dSMEaVpabE2ws15boBkQbgLRPNm+xY2RiQZym/1aEPBHxwHCHHexuNSjp
+QPnHqPEoFeeKlVhnnr03U1Ey64bGfEoMqVucIWuopjjwotIHXPdGZz3LFPv7n/7q
+Waj/XG9qyEeDn1OOrMr/TeehQxHoW2pGkkaOASe8WHhjneKYDkTjimXx1UtMj0Df
+EkNUz0f/mhz3o2qihiqqxhFQzHQjvBfKCCZGtwjZOv0RAxkT5WmnCyuH4Fc6r5NZ
+oOqBXM9joz3VrjOllxqgojr0
+=p14t
 -----END PGP SIGNATURE-----
 
---===============7713030938288199031==--
+--===============6102685767672781983==--
