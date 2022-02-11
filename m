@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Fri, 11 Feb 2022 21:25:45 -0000
-Message-Id: <164461474501.11507.10078066787623270493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 11 Feb 2022 21:31:10 -0000
+Message-Id: <164461507041.14755.5120387241664085600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: f57a3a31c8d074b309f797a4336101e4c1e5ed39
-    new: fbf3290fd13183d670fcf31f87782b5439e58ab8
+  - ref: refs/heads/testme
+    old: dfd42facf1e4ada021b939b4e19c935dcdd55566
+    new: 8795359e35bc33bf86b6d0765aa7f37431db3b9c
     log: |
-         5b28b75b8cca843d616d2d54a77fdb5797c00f54 Fix issues (assert or uninit var, hang) with check_min_rate and offloading
-         fbf3290fd13183d670fcf31f87782b5439e58ab8 Merge branch 'fio_offload_fixes' of https://github.com/PCPartPicker/fio
+         8795359e35bc33bf86b6d0765aa7f37431db3b9c x86/sgx: Silence softlockup detection when releasing large enclaves
          
