@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5210056945191980834=="
+Content-Type: multipart/mixed; boundary="===============6843722318221696492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 11 Feb 2022 23:03:53 -0000
-Message-Id: <164462063393.15300.4672339777975733704@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 23:04:08 -0000
+Message-Id: <164462064857.15516.8330805110905284603@gitolite.kernel.org>
 
---===============5210056945191980834==
+--===============6843722318221696492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,66 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: d1d87c33f47dc69f948d51dcfed344e34c75c406
-    new: 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1
-    log: revlist-d1d87c33f47d-62ed6622aaf0.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: f803e4cf7bcc2b3809c9c7fd203c7bf9e605b757
+    new: f7a110618087d0520be71773942875874d929c69
+    log: revlist-f803e4cf7bcc-f7a110618087.txt
 
---===============5210056945191980834==
+--===============6843722318221696492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1644620626 -0500
+pusher 75C5DE3D 1644620638 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644620626-e6b42e74fe9d19b8192752b694b40a680b0b95f6
+nonce 1644620637-ea6d4c554ef0a28189c82eb58d3c1dc899a8d513
 
-d1d87c33f47dc69f948d51dcfed344e34c75c406 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 refs/heads/queue
+f803e4cf7bcc2b3809c9c7fd203c7bf9e605b757 f7a110618087d0520be71773942875874d929c69 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG61IACgkQ7ulgGnXF
-3j2w4A//XmJIB1bj50R+8MFf3yZqhUWJnbwSR4USvqPGFyqhSkG36qqhEAu7ohJZ
-nyL8PGFAki/G2c06Z+Xbf52uaaXIKvL3sKTzAI/Ct7q/UfyqsW4FYMQNAYOsyeZU
-nvTRfzLfemps7ZaTgbyvhXDY/ooQ6UVwMvUbnBAD0llkI4GCPJO682ITmb6MJ1KC
-nJDgcWGYCyL08H22rLC2WhU30igKkElHDorleI7R7p3ZChbj3JYN6zrDVTpsGHcy
-RSfKXchIIn0nHvVSh1c3LE/EQr0SnF64uE5ixqrU9X+16SsKGgIwoFZ6+Utgr57Y
-+/NR2+ZTlHeJrqtmkFyMYtek6l+4SmAGbQzbWIrxa5MJfNp0XDx+L2edTN0dh0Sv
-6jQHOmmF593n0V8Q97veczy7r34y4tLay///ejlY8Cvt6REClWqIJ7YFMC1e+SAk
-ybMMBycGKUnf84lwP8NyLtLNCK0fmDiMvoHQ3KYssDOEfkS7zzsf1/avsEkwlkGx
-qELHwkJul8oC/W3Sodf75Apxiou+xzGA/iDEknnvOklfmVcGmLCRUD7t2qL6Xx1m
-JY/wU+YQXD5XupRn1dXPh8TzIazLtVRRRPO9m3r8W8vxLYs/RFP3nZSG5iLEelZW
-pjcxIFDXzz74ws0xI+4eh96uixGeGajAdGK69yT/F5+OLIvXawI=
-=cc/y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG614ACgkQ7ulgGnXF
+3j2jdRAAiJqqmdObef4KPUosFsGjfgjABmh5lQUA5pZGTCIazXMHN+WYQiIGTtP2
+JT6iHubsaA9G10RMbqwDf1GFYSvYQaHviE0q2ZV9FcWMgthO88nf4HrlPcO9LJ5C
+r5mnL2PHuPU51Zl0mAghcoJicmxncwvcfXIYK2hJKF+N0tbZMMBSdJNzYpi+FShB
+7IDGqgihlObw+CFkf/qT/juG/Jtrzf1gF5ChqY6gWRJD7XH8iOanye+IQfoBX1hz
+x+tEHbQRvktlogq+ydU828jE3yCQrnWjtNytrKW5uQQGxTMKl1y6Fq35dc0snW6h
+lrlXueVFFxbd+G4Rnn2m1yAB/YIGxMtr73TyLcP53cHA8CiasK/YdpWtvd5nQh+O
+dD0mOwCsrvJWnuhSjPwkfawF6v5++hBccvcdthjnVk7dfEl5iWt8uM6TYAXcY6I7
+HEBq1ZwV059AQkl0Ny/Y/xHYYGZs1BxpJH0WTKT+f/ntXrsbabflRCRJYfkCvbX0
+zf54mWnukNJBOwF+u2JnR9v8j8wN9zvavUZUW5EjzgePZU0ypeUh4VX/X/HVkPrp
+oD7Lvuty/jgQ/CGMaCHTD7SRNovMwvsN6CO7nVMPTJLk1KhQT+hG5EZGv19K5WV4
+ayqZdVCSisLhSM261T1PP+45UryLU7ibjUT9SHgGBg+RyykEHvk=
+=d6Io
 -----END PGP SIGNATURE-----
 
---===============5210056945191980834==
+--===============6843722318221696492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1d87c33f47d-62ed6622aaf0.txt
+Content-Disposition: attachment; filename=revlist-f803e4cf7bcc-f7a110618087.txt
 
-7cddf7e8d1e88603d0e86997259fdec98da6f70a scsi: core: Make "access_state" sysfs attribute always visible
-b84b6ec0f9767c82d0cfe5b2ac2c41de6b3d37e8 scsi: core: Add scsi_done_direct() for immediate completion
-23fe075519c6884d28d8c8fe096c1a6729eb16ae scsi: usb: storage: Complete the SCSI request directly
-d20b3dae630f6718a72f7ab68c3b8c8e897bf09f scsi: mpt3sas: Convert to flexible arrays
-c4ff687d25c05919382a759503bd3821689f4e2f scsi: smartpqi: Fix rmmod stack trace
-c57ee4ccb3584fea91e62cc4a7e60600130e75a8 scsi: smartpqi: Add PCI IDs
-2a47834d9452812f68c8894994e95adad56e4b60 scsi: smartpqi: Enable SATA NCQ priority in sysfs
-70ba20be4bb1f560bba7288bd12fbb918823e576 scsi: smartpqi: Eliminate drive spin down on warm boot
-94a68c814328836d022d1e7ced1b762834917bd2 scsi: smartpqi: Quickly propagate path failures to SCSI midlayer
-b4dc06a9070e3ca9d18a33fe649df594832dde1a scsi: smartpqi: Fix a name typo and cleanup code
-9e98e60bfca341f5f1bf425dbf68cb1a96b323c9 scsi: smartpqi: Fix a typo in func pqi_aio_submit_io()
-42dc0426fbbbe380c83976e7601f23de0034249d scsi: smartpqi: Resolve delay issue with PQI_HZ value
-b73357a1fd39cec82b654421110e35e8167930d5 scsi: smartpqi: Avoid drive spin-down during suspend
-27655e9db47965f640b3ef5a6796587d58b523eb scsi: smartpqi: Update volume size after expansion
-3ada501d602abf02353445c03bb3258146445d90 scsi: smartpqi: Fix kdump issue when controller is locked up
-5d8fbce04d36dfd837d655e3d1b66e44b8fafbe5 scsi: smartpqi: Speed up RAID 10 sequential reads
-00598b056aa6d46c7a6819efa850ec9d0d690d76 scsi: smartpqi: Expose SAS address for SATA drives
-c52efc9238569038242e28f247546bb5b04dc8a1 scsi: smartpqi: Fix NUMA node not updated during init
-5e6935864d814c3a62dd0945fd155634481f11c2 scsi: smartpqi: Fix BUILD_BUG_ON() statements
-c66e078ad89e9f171a2474b255284d95c54c4c36 scsi: smartpqi: Fix hibernate and suspend
-291c2e0071efbda9d5c360a793abee4055e81fea scsi: smartpqi: Fix lsscsi -t SAS addresses
-62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 scsi: smartpqi: Update version to 2.1.14-035
+49b729f58e7a98a006a8a0c1dcca8a1a4f58d2a8 scsi: qla2xxx: Add qla2x00_async_done() for async routines
+03e4383c7ce36ac400489c8fe84724470a8251e9 scsi: ibmvscsis: Silence -Warray-bounds warning
+106b7a2549b4b9ae54214c9c5df10ff183ed0f23 scsi: pm8001: Clean up inconsistent indenting
+fa1d43f396f78d9427ffd678019613369d5c8481 scsi: qla2xxx: Remove unused qla_sess_op_cmd_list from scsi_qla_host_t
+c39d5aa457f2472c710e9e4cadb207338c0d34af scsi: isci: Drop SAS_TASK_AT_INITIATOR check in isci_task_abort_task()
+26fc0ea74fcb9b76b41f5e9b89728cd1c01559cd scsi: libsas: Drop SAS_TASK_AT_INITIATOR
+31b17c3aeb5e9413ed627626f6213b3e53b20c8e scsi: smartpqi: Fix unused variable pqi_pm_ops for clang
+f69b0791df1d1db931ee42a20de41446a955f84e scsi: message: fusion: Use GFP_KERNEL
+26d4a969dd0516da2d25e1e4dc5632853c774c17 scsi: libsas: Use void for sas_discover_event() return code
+59803ccb657d5ae09d695db11b797de883412b08 scsi: libsas: Remove duplicated setting for task->task_state_flags
+3a20e64281fd481f59c5c188d60632ef1d3264ea scsi: libsas: Remove unused parameter for function sas_ata_eh()
+23406e4d1f1e4653ec16b546d9480268ef284634 scsi: Remove unused member cmd_pool for structure scsi_host_template
+580e6742205efe6b0bfa5a6a6079f509d99168e0 scsi: mpi3mr: Fix deadlock while canceling the fw event
+6d211f1d2635d3c6285b9b69523380d03ad876ce scsi: mpi3mr: Fix printing of pending I/O count
+04b27e538d509f4b8947343bdf6b1421dc721f14 scsi: mpi3mr: Update MPI3 headers
+191a3ef586344acc35ba5619d6225858250aaee5 scsi: mpi3mr: Fix hibernation issue
+b3911ab3a76e216cd97c6fdc05132e57c3e6941c scsi: mpi3mr: Fix cmnd getting marked as in use forever
+9992246127246a27cc7184f05cce6f62ac48f84e scsi: mpi3mr: Fix reporting of actual data transfer size
+21401408ddebf4abdb556d3760603f3516f6fff0 scsi: mpi3mr: Update the copyright year
+d44b5fefb22e139408ae12b864da1ecb9ad9d1d2 scsi: mpi3mr: Fix memory leaks
+22754f7fbb4030eb2d5e73c2a2db63637ed1d105 scsi: mpi3mr: Bump driver version to 8.0.0.68.0
 
---===============5210056945191980834==--
+--===============6843722318221696492==--
