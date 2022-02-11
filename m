@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6843722318221696492=="
+Content-Type: multipart/mixed; boundary="===============3832601276837886294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 11 Feb 2022 23:04:08 -0000
-Message-Id: <164462064857.15516.8330805110905284603@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 23:04:19 -0000
+Message-Id: <164462065935.15736.83045942178617334@gitolite.kernel.org>
 
---===============6843722318221696492==
+--===============3832601276837886294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f803e4cf7bcc2b3809c9c7fd203c7bf9e605b757
-    new: f7a110618087d0520be71773942875874d929c69
-    log: revlist-f803e4cf7bcc-f7a110618087.txt
+  - ref: refs/heads/5.18/scsi-staging
+    old: 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1
+    new: 22754f7fbb4030eb2d5e73c2a2db63637ed1d105
+    log: revlist-62ed6622aaf0-22754f7fbb40.txt
 
---===============6843722318221696492==
+--===============3832601276837886294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1644620638 -0500
+pusher 75C5DE3D 1644620651 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644620637-ea6d4c554ef0a28189c82eb58d3c1dc899a8d513
+nonce 1644620651-687f0d830d8b31cca05de9584f09ed0f66b036eb
 
-f803e4cf7bcc2b3809c9c7fd203c7bf9e605b757 f7a110618087d0520be71773942875874d929c69 refs/tags/mkp-scsi-staging
+62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 22754f7fbb4030eb2d5e73c2a2db63637ed1d105 refs/heads/5.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG614ACgkQ7ulgGnXF
-3j2jdRAAiJqqmdObef4KPUosFsGjfgjABmh5lQUA5pZGTCIazXMHN+WYQiIGTtP2
-JT6iHubsaA9G10RMbqwDf1GFYSvYQaHviE0q2ZV9FcWMgthO88nf4HrlPcO9LJ5C
-r5mnL2PHuPU51Zl0mAghcoJicmxncwvcfXIYK2hJKF+N0tbZMMBSdJNzYpi+FShB
-7IDGqgihlObw+CFkf/qT/juG/Jtrzf1gF5ChqY6gWRJD7XH8iOanye+IQfoBX1hz
-x+tEHbQRvktlogq+ydU828jE3yCQrnWjtNytrKW5uQQGxTMKl1y6Fq35dc0snW6h
-lrlXueVFFxbd+G4Rnn2m1yAB/YIGxMtr73TyLcP53cHA8CiasK/YdpWtvd5nQh+O
-dD0mOwCsrvJWnuhSjPwkfawF6v5++hBccvcdthjnVk7dfEl5iWt8uM6TYAXcY6I7
-HEBq1ZwV059AQkl0Ny/Y/xHYYGZs1BxpJH0WTKT+f/ntXrsbabflRCRJYfkCvbX0
-zf54mWnukNJBOwF+u2JnR9v8j8wN9zvavUZUW5EjzgePZU0ypeUh4VX/X/HVkPrp
-oD7Lvuty/jgQ/CGMaCHTD7SRNovMwvsN6CO7nVMPTJLk1KhQT+hG5EZGv19K5WV4
-ayqZdVCSisLhSM261T1PP+45UryLU7ibjUT9SHgGBg+RyykEHvk=
-=d6Io
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG62sACgkQ7ulgGnXF
+3j39gQ//bqlDiB47TzY9Lr57YwKoBe49EvS3gXWAKStCc61Iq5vEQ8H5lNrEMcBd
+c1Pw1GmBci1OjDBIdrRP6xPcfINs2f7KEuhIK8Gcta8sOzRucLqqmnppQcWxfXuh
+MkL+W+BWCHnGVGON/BjdOyhFjVgsGCI8V0E9OrcR71ll9F15pNIksTsKm429/+XP
+6baeiMK5RDXW9ED4pDRVn3Zu4dT7eDPV6jVUT4MBfrEc5ptFU3rXHAPBjgXdyRWu
+kvEwM2YZFC5exjiblE/x35afm0t2/mXYTULxF+VLfBu7/X3EWIvu2T13Zx8Cae4e
+1qfzRKdKS1DwP3433FcitKlGfVckKHSdlAQNnx1EPxlu9OaGINidlxV5rHD3fRC9
+DsM1P8FYNz9miKch3Ju9dkl0BJuCEC/HY13UfVFvoPjhxQZefOS0pbYRHNwwqMXe
+hkqjbUcR9HTzhR/ujOo1nlLnGtAP0MEDx5PZBTCIBCvQm5oWJ+pGlk3g2mCOkwoF
+b4VpDW1WtR+zBz1BT51TCmQR/R+vLSxdXoKiUfn9DMPNrgkyruNXIWFcRWCk0lnU
+/KEtoA6+uCs5j7f4/df70pulQ7s+9G9v/k7GuqvI/OW18ACxUzx5T87Jxpl52e6p
+u/6kcyMr9Sf9hiy9C7DvQXSslQvKCtbjOPcQXX/8HGnTint6fJE=
+=I394
 -----END PGP SIGNATURE-----
 
---===============6843722318221696492==
+--===============3832601276837886294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f803e4cf7bcc-f7a110618087.txt
+Content-Disposition: attachment; filename=revlist-62ed6622aaf0-22754f7fbb40.txt
 
 49b729f58e7a98a006a8a0c1dcca8a1a4f58d2a8 scsi: qla2xxx: Add qla2x00_async_done() for async routines
 03e4383c7ce36ac400489c8fe84724470a8251e9 scsi: ibmvscsis: Silence -Warray-bounds warning
@@ -78,4 +78,4 @@ b3911ab3a76e216cd97c6fdc05132e57c3e6941c scsi: mpi3mr: Fix cmnd getting marked a
 d44b5fefb22e139408ae12b864da1ecb9ad9d1d2 scsi: mpi3mr: Fix memory leaks
 22754f7fbb4030eb2d5e73c2a2db63637ed1d105 scsi: mpi3mr: Bump driver version to 8.0.0.68.0
 
---===============6843722318221696492==--
+--===============3832601276837886294==--
