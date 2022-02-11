@@ -1,42 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 11 Feb 2022 14:19:51 -0000
-Message-Id: <164458919194.13643.13314762952210470000@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2029092498156189936=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 11 Feb 2022 14:29:52 -0000
+Message-Id: <164458979229.20958.502597317913646445@gitolite.kernel.org>
+
+--===============2029092498156189936==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 52517d9c0c011272950e1d88f1ced297daa001e9
-    new: 3e16dc50d77dc3494275a241fac250c94bf45206
-    log: |
-         8e1741c658996a16bd096e077dae0da2460a997f ALSA: memalloc: Fix dma_need_sync() checks
-         3e16dc50d77dc3494275a241fac250c94bf45206 ALSA: memalloc: invalidate SG pages before sync
-         
-  - ref: refs/heads/for-next
-    old: 69458e2c27800da7697c87ed908b65323ef3f3bd
-    new: bad03efd11dfa6f039fe494207996c482e9364d0
-    log: |
-         fdb1e56932a3b5ccba48b34a6f8ba843a2903445 ALSA: ca0106: Rename register macro names
-         a531caa5989e0913ffe8c1a224a130ccd8d2c02c ALSA: hda: Add PCI and HDMI IDs for Intel Raptor Lake
-         bad03efd11dfa6f039fe494207996c482e9364d0 ALSA: cleanup double word in comment
-         
   - ref: refs/heads/master
-    old: 44cb545b0c2afe21b38044b3595a2579f3a8d7b2
-    new: 4a8e2ebbe7fa69691a14ada8499bd1747ce18a1a
+    old: 21879906fe29f6890c88a0e07ba32afef6bca842
+    new: 403a3fdd7f76f3605329b2b86655f5595a8ad5f5
     log: |
-         8e1741c658996a16bd096e077dae0da2460a997f ALSA: memalloc: Fix dma_need_sync() checks
-         3e16dc50d77dc3494275a241fac250c94bf45206 ALSA: memalloc: invalidate SG pages before sync
-         ae38a1073a7d4071fc7454575ff9ec7e98fba052 Merge branch 'for-linus'
-         fdb1e56932a3b5ccba48b34a6f8ba843a2903445 ALSA: ca0106: Rename register macro names
-         69742f6d17c3702ce634622e956e5463a9ce5877 Merge branch 'for-next'
-         a531caa5989e0913ffe8c1a224a130ccd8d2c02c ALSA: hda: Add PCI and HDMI IDs for Intel Raptor Lake
-         86196307822748fe79e55260f3502847b852f9c0 Merge branch 'for-next'
-         bad03efd11dfa6f039fe494207996c482e9364d0 ALSA: cleanup double word in comment
-         4a8e2ebbe7fa69691a14ada8499bd1747ce18a1a Merge branch 'for-next'
+         403a3fdd7f76f3605329b2b86655f5595a8ad5f5 4.9-stable patches
          
+
+--===============2029092498156189936==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644589791 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1644589790-da8fca0431b2ccd295f8e3f9d07efa37c227fd69
+
+21879906fe29f6890c88a0e07ba32afef6bca842 403a3fdd7f76f3605329b2b86655f5595a8ad5f5 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGct8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DeYP/2Utiqr1T8gHRwHlWGUN
+kiDTf+8fyjGvfIlfrfgHDQWfh13AjHHXDd7VEI8U4oZhU3oIf5nRoOkq7/xiVwtd
+BJ/h4wT6DKlO6uGwpfa1Pt62yvfwKUsDFgSfKMEF/v49tBaKk6BnnWeEQwAEafP7
+F8wQAqGRkbsMN8ZFomHdUsSgNuNv2yjOm24SLWedzizUGtIw6Vg6ny9wK2S+2izm
+pf0gFEs05pTseGsR1UkhvXcYrtK69XfzFOdqK3wus/nDGzt2aBeIvjek8N7EzFNJ
+6se+RbyzR3F/8B0VC+e37W54cos3eKzvkDwSFP9aDl9gZUdpJ8CefRbh7tZL019I
+sogjlS/ZlYpaAYokWJvKOIJE7XrBvKflkyRCsYAPGCRj66cXEwBADoTBeVz/E8ZP
+m3oXcBrBmqCUWv8IZsW8TyMEv5pudtKfxge5kQw3JfmI45xRD5DwXm/6h/iWK2Ov
+ySJZ06y8UmjZ1PJcW+YwYBDqeaxsezj8CJ6Zkcgbv7QmQKCoF8RSYydUlOZkECHQ
+OKeudhjnkA1njpNoFWJgo5rndaK8W0yb2x/uiqYPIovh7Fkw7FJq9z3L34PBbZD1
+GA3S2VkOm4hZniEMIonJv571lLk24R4VUh0l2Ir6g8pIKzgTcQrRxOe0CSc+N8WH
+ZtqKOQ4BbYdDvZ/cm+ATeTNb
+=zrtj
+-----END PGP SIGNATURE-----
+
+--===============2029092498156189936==--
