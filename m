@@ -1,46 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2939496065223562649=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 11 Feb 2022 21:21:02 -0000
-Message-Id: <164461446252.6916.16392649557019352458@gitolite.kernel.org>
-
---===============2939496065223562649==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 11 Feb 2022 21:24:28 -0000
+Message-Id: <164461466830.9457.12914368641868606952@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
   - ref: refs/heads/for-next
-    old: 17b8e0e55db556d22e01ae394d09777c4e99397b
-    new: c3052c6c0b88e7b9883d74c845086b91d3d5c577
-    log: revlist-17b8e0e55db5-c3052c6c0b88.txt
-
---===============2939496065223562649==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17b8e0e55db5-c3052c6c0b88.txt
-
-c207a3363c8e6137bc804a32b0f4b0bd2f6cb446 dm: rename split functions
-f88660e5b4924ccd51b69bdbb3359f360bb14660 dm: fold __clone_and_map_data_bio into __split_and_process_bio
-1a59c7b8caedf9e2ef0b0229e04310f7b045b1f4 dm: refactor dm_split_and_process_bio a bit
-2f6d34fca5e0c43f0ea15b85bdb1c3361fa94ab0 dm: reduce code duplication in __map_bio
-650116fb2c0fcedf38c36237efb5b0047a34913b dm: remove impossible BUG_ON in __send_empty_flush
-41a533dc534473e8b8a2cc88bbcdf72a00e40c46 dm: remove unused mapped_device argument from free_tio
-02ac5ee1018bda41fe150cc17bd70218f2745d43 dm: remove code only needed before submit_bio recursion
-03973660cbe55fda4335e50d76be8c41ab158791 dm: record old_sector in dm_target_io before calling map function
-b547d95895669eb10eb450dc18b375f16da0949a dm: move kicking of suspend queue to dm_io_dec_pending
-6fea5b45f6ae74f0ce40ae29ec7631a53896b137 block: add bio_start_io_acct_remapped for the benefit of DM
-99b5428d31f0121284edf85d6e6cf8bbcfda7ae9 dm: add dm_submit_bio_remap interface
-b3074b05dfe86cfb53187549f9b6b5edc3941082 dm crypt: use dm_submit_bio_remap
-d47ec5088e20f5691e1cdf365954ed63e988c82c dm delay: use dm_submit_bio_remap
-8df4b5237f45b54e93c83615e0f925da4b774545 dm: move duplicate code in callers of alloc_tio into alloc_tio
-f5b9b187b4a75161357d2cf5560b1c2e04f9c311 dm: restrict capabilities of bios handled with __send_duplicate_bios
-c3052c6c0b88e7b9883d74c845086b91d3d5c577 dm: avoid costly xchg in start_io_acct unless needed
-
---===============2939496065223562649==--
+    old: 984781a02997b7c358b1d3dfd9cc6e3e5bebb7f4
+    new: d5304063b9846edcc77a8abc567ca9d0c251a335
+    log: |
+         d5304063b9846edcc77a8abc567ca9d0c251a335 power: supply: axp288-charger: Set Vhold to 4.4V
+         
