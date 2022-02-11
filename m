@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3020513000368179854=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 11 Feb 2022 08:09:55 -0000
-Message-Id: <164456699588.5022.9054970209878136882@gitolite.kernel.org>
-
---===============3020513000368179854==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 11 Feb 2022 08:10:06 -0000
+Message-Id: <164456700632.8498.15642684606639277909@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 17040afe9b49bbee64f3c9a1a23a4b1d1d846c9d
-    new: 3c48efaa1336ebdb9d817adf2aaedc36338430e7
+  - ref: refs/heads/queue/5.10
+    old: 4cf2863acceca25039947ca9cff3bf5db4b4b411
+    new: 9b64f28e5b37b742eecbd493798333c1bc9f4c3b
     log: |
-         3c48efaa1336ebdb9d817adf2aaedc36338430e7 Notes added by 'git notes add'
+         f742b689426050924765c0aec012171e8fc4bad3 moxart: fix potential use-after-free on remove path
+         7ae249712d4dca619f5b6e1fa36db92f43bcf368 KVM: s390: Return error on SIDA memop on normal guest
+         a2fde047865f1497d9fcd6226a115c80bb9d03da crypto: api - Move cryptomgr soft dependency into algapi
+         9b64f28e5b37b742eecbd493798333c1bc9f4c3b tipc: improve size validations for received domain records
          
-
---===============3020513000368179854==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644566995 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1644566994-9407c72a1e19d9f360498de44ffbbb60ee65d9a2
-
-17040afe9b49bbee64f3c9a1a23a4b1d1d846c9d 3c48efaa1336ebdb9d817adf2aaedc36338430e7 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGGdMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YrQP/ju+iDl9lfZWzqgcUs2h
-P2qQ3gkf0yAY6sbQN9kds2kmpp8V657MUGk8BpbdYQMB2/unvx2+VidraWnSSRqh
-2u2Mr1SfYqf8qVK56loUYvcrJ5wOMhw2xUXcP6ZXcnB8DlzPgzb1mq8xxN2z3cRr
-vZVd1Ak44mAvU/giJcmT1k4oUj8Eb5E2siWLO2qdpib29BKXtJ+KI+IFkURkNooZ
-smb6bcb5e3/2ZVvkJe27X3ER0FQKFC23Q8NoUX4IfbQVrqfr7Sjrj0zHR584qNJ/
-e0Jz7dS1+eoo+aIKFQvaObG948irqbWDUMgvfSH05cRb75t6i08jw/jRCJxgNNVa
-/b5sgRETqmwyJK4szJTw8+a1VPN7uA4A6K0G2tDe7kz0ayeKlFn2jZS+xydiyMH3
-/jRphx7Yt3ggOH9IVtt550Zlkmd7B0B9jelspa/IijjoKxjAThc39slrDVO9VTkF
-R+/EtYdf2OJWwdG/AD+E8Ni6dRSRY5qDayZzo0u0G7qNnUeCcbTkCnZ7UytjlIxG
-QJF3aJpWiQ1poKbzkmjw5X11276mkWVB+nU9ZVndwsZpdD118/6q2N5Ywek1Ujv9
-bi28XEjhs7OEYXzxr3N6XsLK4SUCOclK4EyQHbkk5n4i2k4FwoDjcuCbFPGQiosT
-cnAoLab2JkevaLgxLQSceNgc
-=7OEN
------END PGP SIGNATURE-----
-
---===============3020513000368179854==--
+  - ref: refs/heads/queue/5.15
+    old: 95681a4ce0523dda467464b8cad425332b40a201
+    new: 0913fdb5210daf2c1895b60bf870fdf62c1c8630
+    log: |
+         d053af222e328d93937ec3c623664505cc43ab83 moxart: fix potential use-after-free on remove path
+         c9b87080bf11e1dcdd5d9fff5943e7d0f96f02f0 arm64: Add Cortex-A510 CPU part definition
+         e3f6b792b5452f9f22e7496cfa10287305131566 KVM: s390: Return error on SIDA memop on normal guest
+         a65f560cad5f5942a3e4506131f342bfd5c9d2d2 ksmbd: fix SMB 3.11 posix extension mount failure
+         8441dd07618c73f040d255ef14aefd2bca5178c3 crypto: api - Move cryptomgr soft dependency into algapi
+         0913fdb5210daf2c1895b60bf870fdf62c1c8630 tipc: improve size validations for received domain records
+         
+  - ref: refs/heads/queue/5.16
+    old: 1b796ee89f5d50cb94ca52eb501325741ef0e351
+    new: 56dd7888083721adbc9fed012a0ecb26d0104250
+    log: |
+         71183f7585e0d1b070b5baa18262a3c86774291f ata: libata-core: Fix ata_dev_config_cpr()
+         9eed79bc7c327fadccfddbafcdcf7a1ec5d523b8 moxart: fix potential use-after-free on remove path
+         c3cd883118f71790a653f6b744e32725c67a876a KVM: s390: Return error on SIDA memop on normal guest
+         c84ca9f792b946e8d140b4241bc2044852994c15 ksmbd: fix SMB 3.11 posix extension mount failure
+         ab6329284102d67701383e199649d0f86b548162 crypto: api - Move cryptomgr soft dependency into algapi
+         56dd7888083721adbc9fed012a0ecb26d0104250 tipc: improve size validations for received domain records
+         
