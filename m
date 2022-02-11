@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Fri, 11 Feb 2022 20:48:23 -0000
-Message-Id: <164461250380.16866.4773183976886162390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 11 Feb 2022 20:50:07 -0000
+Message-Id: <164461260796.18976.7758298117418982560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
-user: arnd
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/set_fs
-    old: 756d59fad15b3cdee72557f63836a4c3d38e4f48
-    new: 0a081326831928b0d739bce68b8c0f9138b9c8ba
+  - ref: refs/heads/for-next
+    old: aadc926a366fd79a7f5e9ff7233b03097160b7dd
+    new: c7512d0e6a17287e6517db0dfae82deaad50a269
     log: |
-         10d8728390c4a60196bbefd33e1258714186ae2f ia64: remove CONFIG_SET_FS support
-         0a081326831928b0d739bce68b8c0f9138b9c8ba uaccess: drop set_fs leftovers
+         e147e0beefcb37de53d6330ef024c7fb7a6e58e6 power: supply: ab8500: Remove unneeded variable
+         c7512d0e6a17287e6517db0dfae82deaad50a269 power: supply: da9150: Use div64_u64() instead of do_div()
          
