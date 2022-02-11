@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 11 Feb 2022 21:32:58 -0000
-Message-Id: <164461517839.16124.18316837791249123014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Fri, 11 Feb 2022 21:33:05 -0000
+Message-Id: <164461518527.16275.1557609007539465035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/dev-test
-    old: 728b9b5874f8adf3ea7163dd19ecc85109922e6a
-    new: 444c2ac4d4bd317df4357392424a8efcd1db8682
+  - ref: refs/heads/testme
+    old: 8795359e35bc33bf86b6d0765aa7f37431db3b9c
+    new: 15492acd6c8268b871473488c5eb540bfc461e4e
     log: |
-         444c2ac4d4bd317df4357392424a8efcd1db8682 f2fs: add a way to limit roll forward recovery time
+         aa9d62022e4209bdc3c7ada7d5eee9a936fcef5e selftests/sgx: Fix NULL-pointer-dereference upon early test failure
+         6f074cedebdc61e3a3912a9f56ee56643434b9d3 selftests/sgx: Do not attempt enclave build without valid enclave
+         4df7677fab1f4114aeaedb148d0fc82fa7afa4a1 selftests/sgx: Ensure enclave data available during debug print
+         15492acd6c8268b871473488c5eb540bfc461e4e selftests/sgx: Remove extra newlines in test output
          
