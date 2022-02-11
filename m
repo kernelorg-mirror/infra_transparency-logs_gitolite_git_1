@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 11 Feb 2022 20:47:11 -0000
-Message-Id: <164461243195.16407.14817585105224761022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
+Date: Fri, 11 Feb 2022 20:48:23 -0000
+Message-Id: <164461250380.16866.4773183976886162390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/arnd/playground
+user: arnd
 changes:
-  - ref: refs/heads/jd/fast-mix-lfsr
-    old: e729ed5f861a13f0cd2611326e246c4cd0de1990
-    new: 303d2e145b16d4e7a82089c20361b403ed8e05a2
+  - ref: refs/heads/set_fs
+    old: 756d59fad15b3cdee72557f63836a4c3d38e4f48
+    new: 0a081326831928b0d739bce68b8c0f9138b9c8ba
     log: |
-         303d2e145b16d4e7a82089c20361b403ed8e05a2 random: use max-period LFSR for irq accumulation
+         10d8728390c4a60196bbefd33e1258714186ae2f ia64: remove CONFIG_SET_FS support
+         0a081326831928b0d739bce68b8c0f9138b9c8ba uaccess: drop set_fs leftovers
          
