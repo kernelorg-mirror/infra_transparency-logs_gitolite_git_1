@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 11 Feb 2022 12:40:48 -0000
-Message-Id: <164458324864.14335.10882229772810753245@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 12:46:02 -0000
+Message-Id: <164458356211.17476.4157352176252082120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,16 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 35eafd27cbc5422e699086d3762f93d021741a09
-    new: 9cfe25fa5974cddf7984c81e794f61b8d5fcb517
+    old: 9cfe25fa5974cddf7984c81e794f61b8d5fcb517
+    new: 2a4021e4ce3be0bd1af45dbe2f20aefe760f7142
     log: |
-         7f912217eed4058e0ac81b34b6cf9c8df73ea8fa random: group initialization wait functions
-         3a0108edb4fb5f5504f713ec5d9883e46a27f862 random: group crng functions
-         29d4d5938f933138c375acf6a34b1d573fa750b6 random: group entropy extraction functions
-         959e1fdd8b657dbae7b17c912e8f702e56f8f8d7 random: group entropy collection functions
-         cbdf3caef82a0b68a6b4318e6c68489596bb8150 random: group userspace read/write functions
-         9db35d12b12e2cee4c96d3f8782ce7e738470b91 random: group sysctl functions
-         9cfe25fa5974cddf7984c81e794f61b8d5fcb517 random: defer fast pool mixing to worker
+         aec8a6ca754020ead46a876979735202c0912d0d random: remove whitespace and reorder includes
+         8d61c9a857810c64c94c0e1046e724364482f109 random: group initialization wait functions
+         edc7d4b568bb4a4f1ad992cdc72e6f8fc3ed4cc7 random: group crng functions
+         6164d8fd7946909e1097d5cece6fe62d38b66914 random: group entropy extraction functions
+         af3e015e1f4ac4cc40a0205b2d0c80cad2deeccb random: group entropy collection functions
+         b7859b2ab97e28098a701ea4b034d80b4fc2d167 random: group userspace read/write functions
+         6b0953b017040ad57ac7f236fffec5250f52e56b random: group sysctl functions
+         50336bd0ca7a92b6578ecfe1a820eab8fa7e629d random: rewrite header introductory comment
+         2a4021e4ce3be0bd1af45dbe2f20aefe760f7142 random: defer fast pool mixing to worker
          
