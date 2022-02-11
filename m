@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 11 Feb 2022 09:42:33 -0000
-Message-Id: <164457255314.23722.10155292494765403262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 11 Feb 2022 09:44:39 -0000
+Message-Id: <164457267906.24471.6022854612280331923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: b8ff47f1c7ea43bedb86fe4c9f3333d6f8848069
-    new: a69cb445f7d129abf7c50d48c8a8eca7c8d5df15
+  - ref: refs/heads/for-next
+    old: 34fc68348554d5b0f98def6cae9f252c3eb0c172
+    new: d717e4509af0380a94dbc28b61839df39f17e1eb
     log: |
-         e8bf24bd439da1ee7f37c2b03f44c6ad37c0c8c0 crypto: atmel-tdes - Add support for the TDES IP available on sama7g5 SoC
-         297565aa22cfa80ab0f88c3569693aea0b6afb6d lib/xor: make xor prototypes more friendly to compiler vectorization
-         a69cb445f7d129abf7c50d48c8a8eca7c8d5df15 crypto: arm/xor - make vectorized C code Clang-friendly
+         d717e4509af0380a94dbc28b61839df39f17e1eb platform/x86: asus-wmi: Fix regression when probing for fan curve control
          
