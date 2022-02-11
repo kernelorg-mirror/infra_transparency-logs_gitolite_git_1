@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 11 Feb 2022 17:03:25 -0000
-Message-Id: <164459900501.26110.10785342815455428217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 11 Feb 2022 17:05:06 -0000
+Message-Id: <164459910654.28184.14822164595524214539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/gfs2-v5.16-rc3-fixes2
-    old: 88996a51c9fffef2ef70fd0a2e5cbdbc59e5c841
-    new: 977ac754a572a44e7c366474aa02b72ffd70202c
+  - ref: refs/heads/master
+    old: 5ec03fbd826d3e136c86d2ef08401861da0e3e63
+    new: 7eb0f3b2c668ad85435bc040a9a57532c30a33b5
+    log: |
+         7eb0f3b2c668ad85435bc040a9a57532c30a33b5 random: defer fast pool mixing to worker
+         
