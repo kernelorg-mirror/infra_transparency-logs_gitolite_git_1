@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8895097350920426327=="
+Content-Type: multipart/mixed; boundary="===============7611193290122914167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 11 Feb 2022 07:44:10 -0000
-Message-Id: <164456545044.30878.6245328878437017078@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 07:44:14 -0000
+Message-Id: <164456545407.31043.12269408427905963775@gitolite.kernel.org>
 
---===============8895097350920426327==
+--===============7611193290122914167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: 21ad423fe5210f5aa50bd43f9ae99b655090a227
-    new: 8034e99d1a010a795b979582c0b2370584d8abf4
-    log: |
-         b391bb3554dd6e04b7a8ede975dbd3342526a045 cgroup-v1: Require capabilities to set release_agent
-         e6f580d0b3349646d4ee1ce0057eb273e8fb7e2e moxart: fix potential use-after-free on remove path
-         92f72aed87c029beed9e4093c4a13d1fc746ac90 x86/mm, mm/hwpoison: Fix the unmap kernel 1:1 pages check condition
-         fde4ddeadd099bf9fbb9ccbee8e1b5c20d530a2d tipc: improve size validations for received domain records
-         8034e99d1a010a795b979582c0b2370584d8abf4 Linux 4.14.266
-         
+  - ref: refs/tags/v4.14.266
+    old: 0000000000000000000000000000000000000000
+    new: 78cfac2e2064a3fbbaf7e9c88e5568f69861f753
 
---===============8895097350920426327==
+--===============7611193290122914167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644565449 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644565453 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1644565448-7a75785c8df0870d5304d0838c66617ce788219f
+nonce 1644565451-149346f5b87c287de7f081d523fc7f24cf838247
 
-21ad423fe5210f5aa50bd43f9ae99b655090a227 8034e99d1a010a795b979582c0b2370584d8abf4 refs/heads/linux-4.14.y
+0000000000000000000000000000000000000000 78cfac2e2064a3fbbaf7e9c88e5568f69861f753 refs/tags/v4.14.266
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGE8kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UqcQALCtC7YtUFOZq9Ll+qdM
-fZCgWuh2dL57NfSUKC5d1QwNYqGmRIvV7eDFNaqJD7j3Vg+LKhrvljwsxbyRJDlM
-a7OnlheJcT7ejHGpUS82OxAXIeemlzZd+PTuCmtnu1+7/gE5pXPqmHjTzwKcoLpz
-TfxZ7AGIeIrq9U0d1BePc9SLW7yu/BB1twP5MJW1TP50DYZ3nNBMGi//NpxtvgE1
-OvwcM9unLTxB2wbOrqD37lnhIMzq9md5aD42Z/Qlm77yfd0Lmxz4S1yOZSehGdbZ
-WvKYmL5aw8x0MwPuY2RcibCKM2ooMjulSOQ3E74VoJBfqFAHppemxrANEuYSMeCV
-By+cDreumfXyc7ILGyMQng+iK99dv9/pTwa3H4+zU8pugeDrTykZcphFAgjwcRmq
-y8En/f5aBPcsQVr6EA/k/wRNDoH0pNYWzjl7aTWjTlFlS0zDGegYGZxGXdtc/WpK
-pUQEJfeme6kLW84hZbx5yGez5hLVwq4rx8ZNyOKF5ysJ8tdGRyrJ/qsdhCfAzK4W
-vJonsk901okZavxQrJlUr/I+eorGdYhg8aUAXDItP0YU8Ez0DRl3Dpyp1bDuwmoH
-w8vIPMA0jnx3uFI7ZYk2TE1c8ugWFnBrxMkWXfL1/4+FL9BRs/slAr8UYPg0jlq3
-5RfYwXozNP9wSWxhr42pKVMq
-=+amw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGE80bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jHAQAI9YkUQlUn0/Xi4mKYzV
+BSsPzPYr/NmHf+oUoHKIz/49x7TwHz1hRwpvD0BbyCHpqK0HZNWjH7FZijsVR0Ae
+mW++VsOM2Rnn8kjaPo0u0T6FYAJC4NFkbUy4mHt3iiUnQONbs4ezZkE3h5mCyZoZ
+4BNNoCCsCZB979drcYaIrvLGm8TgkOxIpd16CQQ74dpIv1EgPds3nogPe8dTnNjT
+eNz7D6JfvlkRhYDpMhUjkVEDNwyTod7fjUIs/MjvQqdrjoK86pNFEADtLZWpPw50
+fvica/7y6eamwj6D6V4mIFrTQW0qr3BU4ugT8EsYasjFNBz6Kdu47gHK7zlWeneu
+HZC/LwI8FxFsCVSdL1XKJdrycK3V0hh1EUb8+ycsjBU5YhpPGyqlv6tuAyfVFY8i
+LV62lMfbf8OC+iA55qYZMHccOaq+zOqtDZ7EWMnonSOjBhFh+cCifApqMuGo2mJK
+9lA+anGcQD7jKcgZMoPo3E2k0PbD/HcXY/3aD+nXj5tn8mnmyHVbp1Dkri2ikzww
+UAYWWc6akJZ1I4UShrVux7Y1ZblVgDGIrTbrXq6cMObAmQKa33ebhVcAfGlD+JQk
+MSpHlSkhbhHUGnhX2Vk/u8nsfNbSNYq+dDCc90ismzQv97i9P0ueqjXf/keug+1L
+QAmTre/wjZYLwunasEwiji9B
+=ViAc
 -----END PGP SIGNATURE-----
 
---===============8895097350920426327==--
+--===============7611193290122914167==--
