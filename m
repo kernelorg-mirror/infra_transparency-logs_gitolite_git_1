@@ -1,129 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============7075035441097323321=="
+Content-Type: multipart/mixed; boundary="===============9015127984797342896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Fri, 11 Feb 2022 07:11:25 -0000
-Message-Id: <164456348539.9702.14112686016572399788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 11 Feb 2022 07:41:09 -0000
+Message-Id: <164456526949.28967.4641196950702352386@gitolite.kernel.org>
 
---===============7075035441097323321==
+--===============9015127984797342896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-laurent
-    old: 74de22680ad8dea3f6c0babf7f6df6da783047fe
-    new: 25314086a4e28b0f8976369afe6319ee4a095699
-    log: revlist-74de22680ad8-25314086a4e2.txt
+  - ref: refs/heads/master
+    old: f4bc5bbb5fef3cf421ba3485d6d383c27ec473ed
+    new: f1baf68e1383f6ed93eb9cff2866d46562607a43
+    log: revlist-f4bc5bbb5fef-f1baf68e1383.txt
 
---===============7075035441097323321==
+--===============9015127984797342896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74de22680ad8-25314086a4e2.txt
+Content-Disposition: attachment; filename=revlist-f4bc5bbb5fef-f1baf68e1383.txt
 
-0e8c51c0d1c65b9e7819b848810d1f45c11abbf6 media: subdev: add subdev state locking
-8d334af9c860f66097b97258cfe83cce5687dff6 media: subdev: Add v4l2_subdev_lock_and_return_state()
-6be8b6ee79d81707db263e0aa8537981c44011d5 media: subdev: add v4l2_subdev_call_state_active()
-09f35825ac4ea852b2d5e73162c2afda7cdd311b media: Documentation: add documentation about subdev state
-053029582da38a6b53246e21dfa79e9854282a4c ===================== V4L2 Subdev State ======================
-f0c12ab644f68de21640720307619460d121fe60 media: entity: Use pad as a starting point for graph walk
-757f4ee456878f7d6e4530d31f224999c3821a62 media: entity: Use pads instead of entities in the media graph walk stack
-a4814c3f969265ac39b54f95700ec9f5aad13040 media: entity: Walk the graph based on pads
-a984984ff7c96f6d2cacac24dff2efbdbfe4cee2 media: mc: Start walk from a specific pad in use count calculation
-3bd4208c6d1b3e4a5a9cd531c58296268de7a4ee media: entity: Add iterator helper for entity pads
-3e1d9952c068e13097b5074b9b62552235e51521 media: entity: Move the pipeline from entity to pads
-f3ead9361f226f850516522647c80e647c2352f7 media: entity: Use pad as the starting point for a pipeline
-9f068a2c5550bc353b8cea2ae6102a40388dab17 media: entity: Add has_route entity operation
-fde8e9916c0ce7ad0f21216b20f2b81ba1949854 media: entity: Add media_entity_has_route() function
-91e109093e63ef879dc2cceda3e24ec705293097 media: entity: Use routing information during graph traversal
-fe13b142fcbedd9fa8662155dbcee07ae7910280 media: entity: Skip link validation for pads to which there is no route
-018cfa5a45a2f0026817ab3f74ed0f60894df864 media: entity: Add an iterator helper for connected pads
-a1406bd9df323a0cf40a939481257a21e03e927d media: entity: Add only connected pads to the pipeline
-2b0be4d29f002a0b2345e08fd15ff5fea16fa3d8 media: entity: Add debug information in graph walk route check
-c8b83b7ea5814711250d300580a9bb8e20e9515b media: Add bus type to frame descriptors
-9b362eeca79a3612b062ced6db5eb737cf73f134 media: Add CSI-2 bus configuration to frame descriptors
-96803d7cc424952e650eaacbbbb7a8da225ab87e media: Add stream to frame descriptor
-3aa953d8105242b0333b01f70febdec0983ef375 media: subdev: increase V4L2_FRAME_DESC_ENTRY_MAX to 8
-bd5569839e31086e89acd4395ea0ec5c5a691679 ===================== V4L2 Base Routing ======================
-d701cdae6693087a170ed68401363ce1a4659249 media: add V4L2_SUBDEV_FL_MULTIPLEXED
-0a6d8c40f846eacfb587574dc8ef8b518070d708 media: add V4L2_SUBDEV_CAP_MPLEXED
-b6694374c8fc9683371089eee8091b3c528b5c21 media: Documentation: Add GS_ROUTING documentation
-802df9de4a012a185e92ea3d6f19de7b82fbd1d7 media: subdev: Add [GS]_ROUTING subdev ioctls and operations
-d3550f8fced2ae6b173903fbe93562bf3145e3a6 media: subdev: add v4l2_subdev_has_route()
-d7501c22ba8385321aee2ba9156f598f6df66621 media: subdev: add v4l2_subdev_set_routing helper()
-a8fefd62d3146ed2a2dbd6b05300940695da7037 ======================== V4L2 Routing ========================
-daeb2280e2f7176fbbe6db41265ea6cd4b9288c9 media: Documentation: add multiplexed streams documentation
-671a18bf6f18b2265544769132d46249f4d462b8 media: subdev: add stream based configuration
-dc5e04f513a386d62646949dbb1ecebf2ea42baa media: subdev: use streams in v4l2_subdev_link_validate()
-614f2b761d7b95357227df05d506be66fde3686d media: subdev: add "opposite" stream helper funcs
-035c0086b7fa79b4ddadb2bb26f49ff8c4e0d29d media: subdev: add v4l2_subdev_get_fmt() helper function
-1d6f90b2465db4b3c55f75370bd933f43ef962bf media: subdev: add v4l2_subdev_set_routing_with_fmt() helper
-47689c5ddef7d480aa26158ed5edf00c093a5e51 media: subdev: add v4l2_subdev_routing_validate_1_to_1 helper
-7d4aff382bc8d92c144228d5c4d70837d52de8dd media: subdev: Add for_each_active_route() macro
-65f322ee9b790b3430165063ddcd10b170ed0ca3 media: v4l2-subdev: Add v4l2_subdev_state_xlate_streams() helper
-cae93d5687793c2cfb721879379a5df2096faf5f media: v4l2-subdev: Add subdev .(enable|disable)_streams() operations
-e4954ea6d8af42d6cf2527c69397b71a75430661 media: v4l2-subdev: Add v4l2_subdev_s_stream_helper() function
-e4565f173779facf257b868a5d18caaa09f8562a ======================== V4L2 Streams ========================
-54add04187bd3aaef9370b0842de0a187fc82f99 media: ti-vpe: cal: fix error paths in cal_camerarx_create()
-4a5352377f42b9e1a852ec583f6d0e197e00e92b media: ti-vpe: cal: fix useless variable init
-b76892c91ec6cd9105a00e1f6301f6a84655c87f media: ti-vpe: cal: rename sd_state to state
-54cfcb9d19cbf038b895c6e3a15054121a1b972c media: ti-vpe: cal: use frame desc to get vc and dt
-c04b83981afb187cbfa8f45b8d78b0dc026e58d8 media: ti-vpe: cal: use CSI-2 frame number for seq number
-0a6bb52904bf050195e306d8f3457fcddbca4561 media: ti-vpe: cal: fix seq number
-91de9de6a95b3226bf6d6fd7f40cafaf0bac66b4 media: ti-vpe: cal: combine wdma irq handling
-e5cf3d303bacabb8cbb9bad66c21c3d3855fb65d media: ti-vpe: cal: fix wdma irq for metadata
-40188bc5d2f4c0bd78010c45c349c52c4ec7c4df media: ti-vpe: cal: add multiplexed streams support
-de19b95bef50770300ed78fc539a116695664593 TODO: media: ti-vpe: cal: add enable/disable_streams support
-a3087369ac3b4755be7cbcac3a57aebb89ca37fb TODO: cal: locking cleanup
-678d58d83b376c5763abf801c25924f0eb1ebbd0 cal: update to Laurent's enable_streams
-f12bb48876f1a9a64055311f54823528a3134361 drivers/media/platform/ti-vpe/cal-camerarx.c adapt to new state locking scheme
-174805183a195ee7167bd493c9ff3b4e95a2e64e cal: use v4l2_subdev_call_state_active
-c87651fbd162ac540232a1550549d1d21ff46a02 ============================ CAL =============================
-88d52e688c6f96a3b1fcb6a49e9a9cc1cf0a5678 i2c: core: let adapters be notified of client attach/detach
-5706126710309938cce1e832afbd56483e5b8229 i2c: add I2C Address Translator (ATR) support
-1faedd3bf247ce660325ac18b4b34efb5b7af908 dt-bindings: media: Add bindings for OmniVision OV1063x sensors
-bfae13036fafa1a96adc5662b056530af1ee9a70 media: i2c: Add OV1063x sensor driver
-691925afa07a5602515ffe07dff78ddb686cf278 HACK: media: i2c: ov1063x: hardcode pclk to 96MHz
-0f8f60bdc28b41e0826a037ee21ecf9604f5d492 HACK: media: i2c: ov1063x: fix 96 MHz pclk by commenting out writes to unknown regs
-9275589369b9fa2dd7dfbf7ae1d088f654995f50 media: i2c: ov1063x: move to streams API
-78031ff3f3ed3a65ad8853c2c3b416b97c842257 dt-bindings: media: Add bindings for Sony IMX390
-c5c6ac0c8e093c6e55a1e79d4b9bc4833eea7246 media: i2c: add Sony IMX390 driver
-ce4ccae025444ec2cf5cf58fe1a43bf1856202e2 dt-bindings: media: add bindings for TI DS90UB913
-a63633bf4ac58ca39c72bdf741c951c713f610d6 dt-bindings: media: add bindings for TI DS90UB960
-c4089584018df7cc17188afa9f059729f0cc3811 dt-bindings: media: add bindings for TI DS90UB953
-efa1223ac15490c44cb6f4ae0230082c1d94d28c media: i2c: add DS90UB913 driver
-82d00d294b4a01f589b42f416bce539f235334f6 media: i2c: add DS90UB960 driver
-5b79f5655adc5e445aeb481630e3379af017640d media: i2c: add DS90UB953 driver
-964597b66bed8d8a5f7d42970fea035fef671bd7 ======================== Test Drivers ========================
-f9d00411ba97fe6a8c22678cb78a77178922c1bb HACK: v4l: add fake META format
-919527cba0a61f78ce532df421f670993241f95d HACK: cal: add fake metadata formats
-d21f3263a9e8d0a2f9f32fa76932e4e2e3e3cd92 HACK: ov1063x: support for metadata
-816ecb1b1c8917e5acf7b05e9dac45ad4e55d9cf HACK: ub960: add metadata support
-a1c8e95eb24863b5b344be0a51eba07e5aa778b7 HACK: imx390: add metadata support
-0de5095576f4628141be45665e679b246dd84248 ========================== Metadata ==========================
-c8337b4331803e8d2f551074d5cc80a896f3a8a6 ub960: add EQ related registers
-f0ca5b1935b9ef460a247b271a4b38ee3bd42418 ub960: add EQ/Strobe helper funcs
-a3c2d973d2b3add367ae4cd1ecdfff313af1d91b ub960: drop reset after ub960_configure_ports
-dee5f0a778c70eb2dab2817285d3ccfcfca534f9 ub960: clean up serializer probing
-e5d526c8de4563966059b7f8c9fc113a1faa30ce ub960: add ub960_rxport_wait_locks helper
-907ef2b1372724ab25b0865ab0e48f8a0cf9497d ub960: update ub960_rxport_probe_serializers to use the new helpers
-93f0dc5c58d85d462d7ec84ad7a92ab95bc36845 ub960: add EQ configuration
-f5739a2c8a881f31a973793b5077231f9a4098ee HACK: ub960: switch ser from async to sync
-fc9333a56066f2f99725e718c256dd49cb54997b HACK: ub960: debugfs
-ad6cc8e1dcf91591aa107a61c7a349d0f8e36100 HACK: ub953: debugfs
-cc6af1f6603b700f04fa3920481e441ec2d8770d HACK: ub913: debugfs
-202fd0ad665cd3965ae493d3ced1b7b8133b73ca HACK: ub960: add BIST
-fbd17be276053b0eacd52a2b093d1aaa1aee2013 HACK: ub960: MAP support
-e8b419b73d23d227641ab9b715cea0eaeb7c2865 ub960: update to Laurent's enable_streams
-6f989a73cc86e2cee847c11babe1c33a44a1cfde drivers/media/i2c/ds90ub913.c adapt to new state locking scheme
-136a7929e2868d77e30bc7a9373a9062e7625df3 drivers/media/i2c/ds90ub953.c adapt to new state locking scheme
-ff94bce7fa9100adee552dfc10c2e769de69e364 drivers/media/i2c/ds90ub960.c adapt to new state locking scheme
-866d2f5392ddf0f70c9c111cd34ba3524dc12310 drivers/media/i2c/imx390.c adapt to new state locking scheme
-25314086a4e28b0f8976369afe6319ee4a095699 drivers/media/i2c/ov1063x.c adapt to new state locking scheme
+de4d73b16d5d9c3e5d03a66046e5410e1e74f903 kunit: fix missing f in f-string in run_checks.py
+ed14fc7a79ab43e9f2cb1fa9c1733fdc133bba30 net: sparx5: Fix get_stat64 crash in tcpdump
+77b337196a9d87f3d6bb9b07c0436ecafbffda1e netfilter: conntrack: don't refresh sctp entries in closed state
+a9e8503def0fd4ed89ade1f61c315f904581d439 netfilter: nft_payload: don't allow th access for fragments
+cc4f9d62037ebcb811f4908bba2986c01df1bd50 netfilter: conntrack: move synack init code to helper
+82b72cb94666b3dbd7152bb9f441b068af7a921b netfilter: conntrack: re-init state for retransmitted syn-ack
+1f6339e034d5780ad7097c8d8c11b26e0762afba MAINTAINERS: netfilter: update git links
+d1ca60efc53d665cf89ed847a14a510a81770b81 netfilter: ctnetlink: disable helper autoassign
+fe68195daf34d5dddacd3f93dd3eafc4beca3a0e ixgbevf: Require large buffers for build_skb on 82599VF
+40106e005bd9764f84ef9e6c0979fe1126d7ff02 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+4cbd93c3c110447adc66cb67c08af21f939ae2d7 pidfd: fix test failure due to stack overflow on some arches
+e2aa5e650b07693477dff554053605976789fd68 selftests: fixup build warnings in pidfd / clone3 tests
+183f80fd72db42c9cc483aa7a5e8e881355d0b03 selftests/ir: fix build with ancient kernel headers
+f8d9d938514f46c4892aff6bfe32f425e84d81cc tcp: take care of mixed splice()/sendmsg(MSG_ZEROCOPY) case
+59085208e4a2183998964844f8684fea0378128d net: mscc: ocelot: fix all IP traffic getting trapped to CPU with PTP over IP
+aec12836e7196e4d360b2cbf20cf7aa5139ad2ec net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+28f9222138868899c53e00bc1f910faa55f88546 net/smc: fix ref_tracker issue in smc_pnet_add()
+94fdd7c02a56d0316d20e417a1141b71a8dcee82 net/smc: use GFP_ATOMIC allocation in smc_pnet_add_eth()
+fe4f57bf7b585dca58f1496c4e2481ecbae18126 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
+92a68053c3468705e2c7c752c9a3f256304a35a6 Documentation: KUnit: Fix usage bug
+084cbb2ec3af2d23be9de65fcc9493e21e265859 gve: Recording rx queue before sending to napi
+23de0d7b6f0e3f9a6283a882594c479949da1120 bonding: pair enable_port with slave_arr_updates
+f53a2ce893b2c7884ef94471f170839170a4eba0 net: dsa: mv88e6xxx: don't use devres for mdiobus
+50facd86e9fbc4b93fe02e5fe05776047f45dbfb net: dsa: ar9331: register the mdiobus under devres
+08f1a20822349004bb9cc1b153ecb516e9f2889d net: dsa: bcm_sf2: don't use devres for mdiobus
+209bdb7ec6a28c7cdf580a0a98afbc9fc3b98932 net: dsa: felix: don't use devres for mdiobus
+bd488afc3b39e045ba71aab472233f2a78726e7b net: dsa: seville: register the mdiobus under devres
+9ffe3d09e32da45bb5a29cf2e80ec8d7534010c5 net: dsa: mt7530: fix kernel bug in mdiobus_free() when unbinding
+0d120dfb5d67edc5bcd1804e167dba2b30809afd net: dsa: lantiq_gswip: don't use devres for mdiobus
+1335648f0b6f9e2f643ae0c1501e995752b5c79e Merge branch 'more-dsa-fixes-for-devres-mdiobus_-alloc-register'
+61772b0908c640d0309c40f7d41d062ca4e979fa ibmvnic: don't release napi in __ibmvnic_open()
+2427f03fb42f9dc14c53108f2c9b5563eb37e770 net: ethernet: litex: Add the dependency on HAS_IOMEM
+5611a00697c8ecc5aad04392bea629e9d6a20463 ipmr,ip6mr: acquire RTNL before calling ip[6]mr_free_table() on failure path
+7db788ad627aabff2b74d4f1a3b68516d0fee0d7 nfp: flower: fix ida_idx not being released
+7c759040c1dd03954f650f147ae7175476d51314 can: isotp: fix potential CAN frame reception race in isotp_rcv()
+8375dfac4f683e1b2c5956d919d36aeedad46699 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
+cfc56f85e72f5b9c5c5be26dc2b16518d36a7868 net: do not keep the dst cache when uncloning an skb dst and its metadata
+9eeabdf17fa0ab75381045c867c370f4cc75a613 net: fix a memleak when uncloning an skb dst and its metadata
+676b49366a70ea91997585ba8e4577290f5172a5 Merge branch 'net-fix-skb-unclone-issues'
+7ec02f5ac8a5be5a3f20611731243dc5e1d9ba10 ax25: fix NPD bug in ax25_disconnect
+6d072066aba72243253a29acb2a58244355ece40 Merge tag 'linux-can-fixes-for-5.17-20220209' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+68468d8c4cd4222a4ca1f185ab5a1c14480d078c veth: fix races around rq->rx_notify_masked
+bc1c3c3b10db4f37c41e6107751a8d450d9c431c net: mdio: aspeed: Add missing MODULE_DEVICE_TABLE
+c7223d687758462826a20e9735305d55bb874c70 tipc: rate limit warning for received illegal binding update
+68c2d6af1f1e469544d6cbe9a601d96fb9c00e7f net: amd-xgbe: disable interrupts during pci removal
+d9565bf40da22426d2f660cb31700b6858d1911d MIPS: DTS: CI20: fix how ddc power is enabled
+ee534378f00561207656663d93907583958339ae net: dsa: fix panic when DSA master device unbinds on shutdown
+feef318c855a361a1eccd880f33e88c460eb63b4 ax25: fix UAF bugs of net_device caused by rebinding operation
+37aa50c539bcbcc01767e515bd170787fcfc0f33 vlan: introduce vlan_dev_free_egress_priority
+d6ff94afd90b0ce8d1715f8ef77d4347d7a7f2c0 vlan: move dev_put into vlan_dev_uninit
+3bed06e36994661a75bae6a289926e566b9b3c1a Merge branch 'vlan-QinQ-leak-fix'
+7a82f89de92aac5a244d3735b2bd162c1147620c audit: don't deref the syscall args when checking the openat2 open_how::flags
+8ecbb179286cbc91810c16caeb3396e06305cd0c net: usb: qmi_wwan: Add support for Dell DW5829e
+857898eb4b28daf3faca3ae334c78b2bb141475e selftests: mptcp: add missing join check
+029744cd4bc6e9eb3bd833b4a033348296d34645 mptcp: netlink: process IPv6 addrs in creating listening sockets
+4e9120cbaca118f35a31a5e9986063e722614378 Merge branch 'mptcp-fixes-for-5-17'
+9aa422ad326634b76309e8ff342c246800621216 tipc: improve size validations for received domain records
+252787201edfdf563ddf6b6006aa534ddc504031 Merge tag 'audit-pr-20220209' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+e3c85076d7a6f986445b9008be7e7f83d1b0780a Merge tag 'mips-fixes-5.17_3' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+37f7860602b5b2d99fc7465f6407f403f5941988 net: macb: Align the dma and coherent dma masks
+58e61e416b5abedcacd32032144b333bca30cf1e skbuff: cleanup double word in comment
+9ccc6e0c8959a019bb40f6b18704b142c04b19a8 dpaa2-eth: unregister the netdev before disconnecting from the PHY
+c4416f5c2eb3ed48dfba265e628a6e52da962f03 net: mpls: Fix GCC 12 warning
+21338d58736ef70eaae5fd75d567a358ff7902f9 ice: fix an error code in ice_cfg_phy_fec()
+46b699c50c0304cdbd725d7740073a7f9d5edb10 ice: fix IPIP and SIT TSO offload
+bea1898f65b9b7096cb4e73e97c83b94718f1fa1 ice: Fix KASAN error in LAG NETDEV_UNREGISTER handler
+5dbbbd01cbba831233c6ea9a3e6bfa133606d3c0 ice: Avoid RTNL lock when re-creating auxiliary device
+7fbf6795d127a3b1bb39b0e42579904cf6db1624 net: mscc: ocelot: fix mutex lock error during ethtool stats read
+a19f7d7da9b3ffe8fcc43203a2d49c096d0754f6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+51a04ebf21122d5c76a716ecd9bfc33ea44b2b39 net: dsa: mv88e6xxx: fix use-after-free in mv88e6xxx_mdios_unregister
+ff00854812b216e06e92191f036eb0bd1596b2d4 Merge tag 'linux-kselftest-kunit-fixes-5.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+16f7432c884bb7882f0534cb8b9c38cdbccc37bc Merge tag 'linux-kselftest-fixes-5.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+f1baf68e1383f6ed93eb9cff2866d46562607a43 Merge tag 'net-5.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============7075035441097323321==--
+--===============9015127984797342896==--
