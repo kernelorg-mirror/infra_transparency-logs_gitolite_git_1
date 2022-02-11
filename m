@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3559183491598000866=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 11 Feb 2022 08:11:29 -0000
-Message-Id: <164456708936.923.13062360265956426746@gitolite.kernel.org>
-
---===============3559183491598000866==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 11 Feb 2022 08:11:46 -0000
+Message-Id: <164456710608.1125.8342185268864451970@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 3c48efaa1336ebdb9d817adf2aaedc36338430e7
-    new: 3a99f50b9b34bafecb519f7b68455014f441049d
+  - ref: refs/heads/queue/5.16
+    old: 59d5cd016fafa09a8201b02b538fa0486bbf182f
+    new: 98da5ae34a99a748a678b8762d22f4134ee39c78
     log: |
-         3a99f50b9b34bafecb519f7b68455014f441049d Notes added by 'git notes add'
+         d4e0d1d76c6b42d6f2cb0c399e656459d34cff63 ata: libata-core: Fix ata_dev_config_cpr()
+         d1d47fe0f340d05bade6bf475305f577b3b5d3cb moxart: fix potential use-after-free on remove path
+         eadee65d1c6a15eb1d82a93ef4e58fef7e96803f KVM: s390: Return error on SIDA memop on normal guest
+         434b1ed4d895859531b6637344cb640ac6bff659 ksmbd: fix SMB 3.11 posix extension mount failure
+         2bd74c933a1345a578c21149a62adcab8de103f0 crypto: api - Move cryptomgr soft dependency into algapi
+         98da5ae34a99a748a678b8762d22f4134ee39c78 tipc: improve size validations for received domain records
          
-
---===============3559183491598000866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644567088 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1644567086-0dd7d514a408d4351f3685108ef18f3d0db9554b
-
-3c48efaa1336ebdb9d817adf2aaedc36338430e7 3a99f50b9b34bafecb519f7b68455014f441049d refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGGjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CIEQAKFk3yueFYyezdfl1slr
-aUjg1Xd7MKrLK5dl1pkOc+itDUA7KZ9DpQtUInN0fuW6qp3fTCb1H1GyKvdgVoVk
-oxX9GDs6lMlGhk7klD9fYtFC5K8PIkPpxys2cnDMvvaxSG1pCqSy062xz6pobupO
-rD9pOBoyL6lAo0idx9JgQvux8pxBAfKuEH2QPxMfNiNT+CuOC8OeaTcjvaSnOVkO
-aoVt50kWB/slLP8YakJ6L4VmLu2lUMXw67cvuTtLhuy9wUJwk1AlHGMAKlvdo8mH
-qWYwOy4c7Jad6hCG5P5+FgrY3np1QDNlD392sQY8Qvuyo2NKDhYbukBQ7lH+uNH+
-KWGROtGTjg1HHqq2J8NNslSdqygoxuXbai5uDGJ4cVcb0cCVHBO+fawxkO9fM+Go
-VMu1LHXs737puUfinwsvSY1e5VBbYfH71djPSJFPYDQeE5xrt1krrDvEnPB9Iv1S
-n9jcedb3xDNhkXb3RKPcDFW3ms4SenCy01Zkgvq8PLSfWesghjupa40nAvnSwyPN
-/FpIWsmxmtogpd23vrWgjciRgSCBZo7CE2IrlGafRPkzL3ziUIX+u1OPHLQnkK+Q
-SU5sy+VC0F8HPJ6o6PBBnxcwc2L89B86fZt2uTVt1S9JOAOtZk1fVrdjy5mpNeeu
-UmL0aK2ikH/Sb5pzG+fr5rOh
-=7o7c
------END PGP SIGNATURE-----
-
---===============3559183491598000866==--
