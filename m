@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 11 Feb 2022 21:35:41 -0000
-Message-Id: <164461534185.18620.17975662636285221649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 11 Feb 2022 21:36:12 -0000
+Message-Id: <164461537228.18907.9059470637411859839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: 1d41d2e82623b40ee27811fe9ea38bafe2e722e9
-    new: adccc16ea3c5fb205bdec0133d08e799aa6cc9ea
+  - ref: refs/heads/pending
+    old: 74b0fe80409733055971bbfaf33c80a33fddeeb3
+    new: e6e17cc6ed751072513fe16cb595ac09f6821a43
     log: |
-         075b7d363c675ef7fa03918881caeca3458e2a96 Revert "PCI/portdrv: Do not setup up IRQs if there are no users"
-         adccc16ea3c5fb205bdec0133d08e799aa6cc9ea Merge tag 'pci-v5.17-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
+         5c3c067b601bcbcd381214e3a40e666fda5f3d6f cxl/core/port: Fix unregister_port() lock assertion
+         e6e17cc6ed751072513fe16cb595ac09f6821a43 cxl/core: Fix cxl_device_lock() class detection
          
