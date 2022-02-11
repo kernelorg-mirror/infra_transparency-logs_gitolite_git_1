@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 11 Feb 2022 16:24:07 -0000
-Message-Id: <164459664782.31827.6457415760210185703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 11 Feb 2022 16:26:08 -0000
+Message-Id: <164459676820.1547.15337212033640762944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 4840aa67576b598093d2c6fea8987d065f717bca
-    new: 9b9f89c60d64d1dd184e904e2757875644f29b6e
+    old: 885fa1b337d586b89f833d53f1680e278e7fd82d
+    new: 6810ce93333188f518415159c851ba7518866fb8
     log: |
-         9b9f89c60d64d1dd184e904e2757875644f29b6e Bluetooth: btusb: add support for LG LGSBWAC02 (MT7663BUN)
+         6810ce93333188f518415159c851ba7518866fb8 random: defer fast pool mixing to worker
          
