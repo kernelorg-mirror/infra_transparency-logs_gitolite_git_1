@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 11 Feb 2022 21:33:05 -0000
-Message-Id: <164461518527.16275.1557609007539465035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 11 Feb 2022 21:35:41 -0000
+Message-Id: <164461534185.18620.17975662636285221649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testme
-    old: 8795359e35bc33bf86b6d0765aa7f37431db3b9c
-    new: 15492acd6c8268b871473488c5eb540bfc461e4e
+  - ref: refs/heads/master
+    old: 1d41d2e82623b40ee27811fe9ea38bafe2e722e9
+    new: adccc16ea3c5fb205bdec0133d08e799aa6cc9ea
     log: |
-         aa9d62022e4209bdc3c7ada7d5eee9a936fcef5e selftests/sgx: Fix NULL-pointer-dereference upon early test failure
-         6f074cedebdc61e3a3912a9f56ee56643434b9d3 selftests/sgx: Do not attempt enclave build without valid enclave
-         4df7677fab1f4114aeaedb148d0fc82fa7afa4a1 selftests/sgx: Ensure enclave data available during debug print
-         15492acd6c8268b871473488c5eb540bfc461e4e selftests/sgx: Remove extra newlines in test output
+         075b7d363c675ef7fa03918881caeca3458e2a96 Revert "PCI/portdrv: Do not setup up IRQs if there are no users"
+         adccc16ea3c5fb205bdec0133d08e799aa6cc9ea Merge tag 'pci-v5.17-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
          
