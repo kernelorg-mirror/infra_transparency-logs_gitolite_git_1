@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Feb 2022 08:10:06 -0000
-Message-Id: <164456700632.8498.15642684606639277909@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 08:10:30 -0000
+Message-Id: <164456703085.32447.1508315712028309670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,34 +11,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue/5.10
-    old: 4cf2863acceca25039947ca9cff3bf5db4b4b411
-    new: 9b64f28e5b37b742eecbd493798333c1bc9f4c3b
-    log: |
-         f742b689426050924765c0aec012171e8fc4bad3 moxart: fix potential use-after-free on remove path
-         7ae249712d4dca619f5b6e1fa36db92f43bcf368 KVM: s390: Return error on SIDA memop on normal guest
-         a2fde047865f1497d9fcd6226a115c80bb9d03da crypto: api - Move cryptomgr soft dependency into algapi
-         9b64f28e5b37b742eecbd493798333c1bc9f4c3b tipc: improve size validations for received domain records
-         
   - ref: refs/heads/queue/5.15
-    old: 95681a4ce0523dda467464b8cad425332b40a201
-    new: 0913fdb5210daf2c1895b60bf870fdf62c1c8630
+    old: 0913fdb5210daf2c1895b60bf870fdf62c1c8630
+    new: c46ef9da05da753d44f2f10fc51d526547399790
     log: |
-         d053af222e328d93937ec3c623664505cc43ab83 moxart: fix potential use-after-free on remove path
-         c9b87080bf11e1dcdd5d9fff5943e7d0f96f02f0 arm64: Add Cortex-A510 CPU part definition
-         e3f6b792b5452f9f22e7496cfa10287305131566 KVM: s390: Return error on SIDA memop on normal guest
-         a65f560cad5f5942a3e4506131f342bfd5c9d2d2 ksmbd: fix SMB 3.11 posix extension mount failure
-         8441dd07618c73f040d255ef14aefd2bca5178c3 crypto: api - Move cryptomgr soft dependency into algapi
-         0913fdb5210daf2c1895b60bf870fdf62c1c8630 tipc: improve size validations for received domain records
+         4edb96ae4f4963b12fc37e6281b5ec25baafcaa7 moxart: fix potential use-after-free on remove path
+         4d2118dbe9a01b4a1e04a615eacc3220c38c0219 arm64: Add Cortex-A510 CPU part definition
+         b601dea67b791b0f27305732152d8efe4739c708 KVM: s390: Return error on SIDA memop on normal guest
+         8843f86b2d337c5786a1ee12ea9f1681d0d0f817 ksmbd: fix SMB 3.11 posix extension mount failure
+         5bbee46faab5ca3456a1dbb4130c873f186e3e8c crypto: api - Move cryptomgr soft dependency into algapi
+         c46ef9da05da753d44f2f10fc51d526547399790 tipc: improve size validations for received domain records
          
   - ref: refs/heads/queue/5.16
-    old: 1b796ee89f5d50cb94ca52eb501325741ef0e351
-    new: 56dd7888083721adbc9fed012a0ecb26d0104250
+    old: 56dd7888083721adbc9fed012a0ecb26d0104250
+    new: 59d5cd016fafa09a8201b02b538fa0486bbf182f
     log: |
-         71183f7585e0d1b070b5baa18262a3c86774291f ata: libata-core: Fix ata_dev_config_cpr()
-         9eed79bc7c327fadccfddbafcdcf7a1ec5d523b8 moxart: fix potential use-after-free on remove path
-         c3cd883118f71790a653f6b744e32725c67a876a KVM: s390: Return error on SIDA memop on normal guest
-         c84ca9f792b946e8d140b4241bc2044852994c15 ksmbd: fix SMB 3.11 posix extension mount failure
-         ab6329284102d67701383e199649d0f86b548162 crypto: api - Move cryptomgr soft dependency into algapi
-         56dd7888083721adbc9fed012a0ecb26d0104250 tipc: improve size validations for received domain records
+         9c0d6fb4bf512df7ea1743fd82fba05a4abbecad ata: libata-core: Fix ata_dev_config_cpr()
+         d782cc083490a86692d6c22ee76f7e62fb673bf9 moxart: fix potential use-after-free on remove path
+         a0fe903a56b6fc3b40f1305652db0aa233688f51 KVM: s390: Return error on SIDA memop on normal guest
+         257376ba74c51c6176e59835b6ee542040cf4986 ksmbd: fix SMB 3.11 posix extension mount failure
+         d0e9f79fbcec69e41ac7064a1d13dc7962b5c917 crypto: api - Move cryptomgr soft dependency into algapi
+         59d5cd016fafa09a8201b02b538fa0486bbf182f tipc: improve size validations for received domain records
          
