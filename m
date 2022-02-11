@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9071116243622902674=="
+Content-Type: multipart/mixed; boundary="===============6623865391302035553=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 11 Feb 2022 11:12:03 -0000
-Message-Id: <164457792316.18785.11550199448389165768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 11 Feb 2022 11:13:54 -0000
+Message-Id: <164457803406.19482.15674128747332392459@gitolite.kernel.org>
 
---===============9071116243622902674==
+--===============6623865391302035553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6d66882e05cf59a573cf48d16db945ea32c4c6ba
-    new: 61022f1d41261c2cde13bc94660eb850ea0366bd
-    log: revlist-6d66882e05cf-61022f1d4126.txt
+  - ref: refs/heads/char-misc-linus
+    old: bca828ccdd6548d24613d0cede04ada4dfb2f89c
+    new: c72ea20503610a4a7ba26c769357d31602769c01
+    log: |
+         c72ea20503610a4a7ba26c769357d31602769c01 iio: buffer: Fix file related error handling in IIO_BUFFER_GET_FD_IOCTL
+         
 
---===============9071116243622902674==
+--===============6623865391302035553==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d66882e05cf-61022f1d4126.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-072ac03f3854666bb05dd3c984e4144945b40b90 random: fix locking in crng_fast_load()
-4c59789eb4065c29fde2569e94b7812a95f85e8b random: use RDSEED instead of RDRAND in entropy extraction
-512c1d3f27022b65d65b8950bd4300cc89160f45 random: get rid of secondary crngs
-0449db629e423ea8913fc133b784c5a233f5dbdb random: inline leaves of rand_initialize()
-b70820bf858f6451ddd9f6a764afd47902bfb37a random: ensure early RDSEED goes through mixer on init
-1a0fd7ebf9a5e37b1464075722ba4382896d245b random: do not xor RDRAND when writing into /dev/random
-47869e1feee7c162d3c7da8eacfb04c21fcdf6b3 random: absorb fast pool into input pool after fast load
-ab21f3a6e98327e6af57a5ecea14515e05a170c6 random: use simpler fast key erasure flow on per-cpu keys
-1c4fb61d2bfd4b56ef230d529e81b36d20da3477 random: use hash function for crng_slow_load()
-fc2551cdc07cfb4ea1247ecaec28e78f6d942c1f random: make more consistent use of integer types
-6a4f356a70352bd7d09ceb0a10405d50aea6f2c0 random: remove outdated INT_MAX >> 6 check in urandom_read()
-c89815327c2e212e46c24df5c0622e1fefbafd0d random: zero buffer after reading entropy from userspace
-0479c0f4a061b8ff4dd916d188209a8144f04dd1 random: fix locking for crng_init in crng_reseed()
-4e401af34b556489d049c4cb7de19ae1232e6753 random: tie batched entropy generation to base_crng generation
-2cdf74e6760a0e6a58379dd7a7edf3ec70c252e7 random: remove ifdef'd out interrupt bench
-b36574df30e49b0925e68e218216f4307df03526 random: remove unused tracepoints
-7fad821c2ae313335efac6b76ecfe65e86691b56 random: move fast_pool/fast_mix definitions to site of use
-2b7554d66ea9c251cec7b473d9aeb1cb54896057 random: add proper SPDX header
-5fc0d888230bba3d99131fc69cc43bf50166e568 random: rearrange and redocument
-ec21f7653cde34e4185f963a2212fffeee9a47e5 random: deobfuscate irq u32/u64 contributions
-61022f1d41261c2cde13bc94660eb850ea0366bd random: defer fast pool mixing to worker
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644578032 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1644578032-6b2a01d4e54e3c938d3995ec1032aa4d940c7b04
 
---===============9071116243622902674==--
+bca828ccdd6548d24613d0cede04ada4dfb2f89c c72ea20503610a4a7ba26c769357d31602769c01 refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGRPAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JEYQAK4MduLaX9S4H/HRIec3
+lAnAAVefefIrenYq+U1idPjV3n8rqId+Z9R/5lY+ArdbfrihBbVqeYBcKdK+COxX
+0W/vDTqo0tE5Jh4WFoPJyTsQuMaqFpAD0B/UaoQAU7mG4oLK4zGmhWTFoN2W5OXT
+i+zkGm3vi34J4JsuiKbox68eAQoFbalYeLgjDi2s6FQxt8YRjwVyKH4S+n98yNgf
+8XV/0TidInrjoczBDwNs+S/bD1tZQnvgeK57ajrrUWSrdY/hRqMJja2v+WidLKiJ
+4d289fedfdwDy4jF5wus+NydvN+bGspgwxdu0m71n645e/3PDpF6CS1LwvK5J7OL
+90Te2RIY/45cV7ZLVRLSVI8cmMK01y5LrdQbzP8ZkV6NbVjedIZ9yYbIiIS4dZUt
+HtvBP/HZJN8NGrv9xTy4Bv/k7L8+zci1ieCmY4bsZ+cIaro87Kp7z4ZydqpFUqI/
+6rGJCTYqgo5/tGooSwN6QQQPmT0Vt1seSuCX8F/anZ79bMbHQa5bATwm8msg51Cg
+bm7S2E3wu8gwXGlUlPZ3cJUDtCTqladBHI9yVswkPxYZg8l2+A0ZlCLAGWJ35Vac
+XyHQorOHE368ot0irEtYoMC7loXn30CEXtvMAbJDFk4ErjIFxm0tV9vTH1+dZ8f8
+8PRWxNtR2Cco6K1jR6oeY7Q5
+=8YXq
+-----END PGP SIGNATURE-----
+
+--===============6623865391302035553==--
