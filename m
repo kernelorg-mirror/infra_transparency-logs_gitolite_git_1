@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Fri, 11 Feb 2022 05:07:00 -0000
-Message-Id: <164455602059.27293.11240318253875101670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 11 Feb 2022 05:17:05 -0000
+Message-Id: <164455662562.947.4327262172434009730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 76ae14da4eaa76472b0012138ebfa42173c3a2e2
-    new: d71c02b0caeff2f7702ecca02854d3011dc29135
+  - ref: refs/heads/master
+    old: 4cc0991abd3954609a6929234bbb8c0fe7a0298d
+    new: 4407fa06aea1ae2aeaf87837f8ada50003afd685
     log: |
-         d71c02b0caeff2f7702ecca02854d3011dc29135 pata_mpc52xx: use GFP_KERNEL
+         61fce9693f0311949c59cc62a8fdee6e36243553 bpftool: Add libbpf's version number to "bpftool version" output
+         9910a74d6ebf6e35d7adfae665022674fb90ea78 bpftool: Update versioning scheme, align on libbpf's version number
+         4407fa06aea1ae2aeaf87837f8ada50003afd685 Merge branch 'bpftool: Switch to new versioning scheme (align on libbpf's)'
          
