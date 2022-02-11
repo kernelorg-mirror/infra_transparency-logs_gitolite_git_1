@@ -1,35 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 11 Feb 2022 08:10:30 -0000
-Message-Id: <164456703085.32447.1508315712028309670@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3097698279411321525=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 11 Feb 2022 08:10:48 -0000
+Message-Id: <164456704863.32664.14468593537075553043@gitolite.kernel.org>
+
+--===============3097698279411321525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.15
-    old: 0913fdb5210daf2c1895b60bf870fdf62c1c8630
-    new: c46ef9da05da753d44f2f10fc51d526547399790
+  - ref: refs/heads/master
+    old: e762daf4cfe88a9750d5e79d50866bf5a0f66310
+    new: d0b23b5070d6d9fbe89e47b77f37911190da546e
     log: |
-         4edb96ae4f4963b12fc37e6281b5ec25baafcaa7 moxart: fix potential use-after-free on remove path
-         4d2118dbe9a01b4a1e04a615eacc3220c38c0219 arm64: Add Cortex-A510 CPU part definition
-         b601dea67b791b0f27305732152d8efe4739c708 KVM: s390: Return error on SIDA memop on normal guest
-         8843f86b2d337c5786a1ee12ea9f1681d0d0f817 ksmbd: fix SMB 3.11 posix extension mount failure
-         5bbee46faab5ca3456a1dbb4130c873f186e3e8c crypto: api - Move cryptomgr soft dependency into algapi
-         c46ef9da05da753d44f2f10fc51d526547399790 tipc: improve size validations for received domain records
+         d0b23b5070d6d9fbe89e47b77f37911190da546e Linux 5.15.23
          
-  - ref: refs/heads/queue/5.16
-    old: 56dd7888083721adbc9fed012a0ecb26d0104250
-    new: 59d5cd016fafa09a8201b02b538fa0486bbf182f
-    log: |
-         9c0d6fb4bf512df7ea1743fd82fba05a4abbecad ata: libata-core: Fix ata_dev_config_cpr()
-         d782cc083490a86692d6c22ee76f7e62fb673bf9 moxart: fix potential use-after-free on remove path
-         a0fe903a56b6fc3b40f1305652db0aa233688f51 KVM: s390: Return error on SIDA memop on normal guest
-         257376ba74c51c6176e59835b6ee542040cf4986 ksmbd: fix SMB 3.11 posix extension mount failure
-         d0e9f79fbcec69e41ac7064a1d13dc7962b5c917 crypto: api - Move cryptomgr soft dependency into algapi
-         59d5cd016fafa09a8201b02b538fa0486bbf182f tipc: improve size validations for received domain records
-         
+
+--===============3097698279411321525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644567047 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1644567046-89b9ab37916e56ee9b46924b4e04a8f47ef9f959
+
+e762daf4cfe88a9750d5e79d50866bf5a0f66310 d0b23b5070d6d9fbe89e47b77f37911190da546e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGGgcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5UQP/itMrg1N2T2uw7YmctCF
+0ZokMMbFw5PwgJvEEuOR0k8HwygZNRLppftJ2PBM+Uo58b9fyeBLMXQYXf3ePvIy
+cu3eabSL85+Q2IyzyyHeOQEuQQGd5qfOS7SaZm35EhpNbJFcCK35hTFWpZzhqyFa
+sR0ULZpi+x+r5bQ+zJFI3Lqc8fV9IAYf+0cEwNAV0TCHGQXQUtEvrMHjlHRuTBdh
+U0BSWt+Kw/e5h99ZOmcsUTsfjdCKsFkExTg9gZ7oS7CTFzPQ7B019DX5Gkex8RYx
+RDFpiyeC2Zg5033rcEeyY0mFf7maPkW5VZuV5Y3nzfb7VViw/8aCpIgeFTd64Pb8
+dRSmMdKfCsfEC6PvQw7D3TOlsD4rh/jPGklxNlQNvAcdeeN9rtTZnCMmBcCD97s+
+oHemdhiDWwsUVtPCsvZq9pzb8a7ZBeoxYe38Id117EeL/CDafLcLHz1lzV/R8x4W
+Fr4gGcGqa8retEdIYpepZH2EYF1MuTYyv189+j0i4nt/+sB1zThWgs6z01FpxIxW
+WN1BvQbFuyUSjZ/2fJuYgBC7bj8WPSOiaRhJ1JplQcvcESfatMlWM4LwYeKk8Mti
+T3CdINp8O70QwEDInH0VnAm6qfltWk/DTefkf7AQZFGpcF3eF5V3w2qaE/s90uEL
+Vl+iycs5BSYny4jKt2874uyv
+=+1Q+
+-----END PGP SIGNATURE-----
+
+--===============3097698279411321525==--
