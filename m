@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 11 Feb 2022 18:59:55 -0000
-Message-Id: <164460599518.7700.5517671655109220498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 11 Feb 2022 19:10:40 -0000
+Message-Id: <164460664077.15409.5708299484623328065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/jd/fast-mix-lfsr
-    old: 95abd77bb8de83c6630adc099cdb632d4075a3c4
-    new: db63ca9193d9dffc589f54ade81bbf0a1d81a7ff
+  - ref: refs/heads/seen
+    old: 4bd72e7d0a149e9d8177192349da0b21d4887373
+    new: 5d6dc196f65734a8e75fe5f0d71471a295925a07
     log: |
-         db63ca9193d9dffc589f54ade81bbf0a1d81a7ff random: use max-period LFSR for irq accumulation
+         dccf6c16f1cee485f05ef42ba67a9309c358a78d log: fix memory leak if --graph is passed multiple times
+         087c745833be1edd3b3e4d8ea5d8b1a09fc6c245 log: add a --no-graph option
+         5d6dc196f65734a8e75fe5f0d71471a295925a07 Merge branch 'ah/log-no-graph' into seen
          
