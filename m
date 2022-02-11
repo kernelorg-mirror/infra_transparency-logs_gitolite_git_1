@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5163994903064015290=="
+Content-Type: multipart/mixed; boundary="===============0750184297011852693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Fri, 11 Feb 2022 03:25:20 -0000
-Message-Id: <164454992017.27142.1429477427948438641@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 03:28:02 -0000
+Message-Id: <164455008291.28111.5568598785399369045@gitolite.kernel.org>
 
---===============5163994903064015290==
+--===============0750184297011852693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: 1fafc95671258496307ce998032fb34887d19c60
-    new: 1d84283101fcbe3e60c64b05ef05918648d262cf
-    log: revlist-1fafc9567125-1d84283101fc.txt
+  - ref: refs/heads/for-next
+    old: afb77a29073eff31c93975a01c16bf7445686d7e
+    new: 17300c1228f3a74fea93517773820ff44e229523
+    log: revlist-afb77a29073e-17300c1228f3.txt
 
---===============5163994903064015290==
+--===============0750184297011852693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fafc9567125-1d84283101fc.txt
+Content-Disposition: attachment; filename=revlist-afb77a29073e-17300c1228f3.txt
 
+182c4e1f92c1f1c1c6d14e2409aa85a11d8136ba dt-bindings: soc: add binding for i.MX8MQ VPU blk-ctrl
 7a7b1414ea9a3641672be768afe16f583f0b76e7 dt-bindings: power: imx8mq: add defines for VPU blk-ctrl domains
+5f558b6dbf21c782a4c8f2f5f01d5bfb6792f818 dt-bindings: arm: imx: add Protonic PRT8MM board compatible
+a1415fbcdd8aee60e4620e366dde68303203f022 Merge commit '7a7b1414ea9a3641672be768afe16f583f0b76e7' into imx/drivers
+608d7c325e855cb4a853afef3cd9f0df594bd12d soc: imx: imx8m-blk-ctrl: add i.MX8MQ VPU blk-ctrl
 cfc5078432ca66dec56dadcaf8fb22d09f0c78dc arm64: dts: imx8mm: Add the pcie phy support
 aaeba6a8e226bf7fa1e3547f33c1577665c4d874 arm64: dts: imx8mm: Add the pcie support
 b4d36c10bf173ab430df89ed28a22237d3df1b5e arm64: dts: imx8mm-evk: Add the pcie support on imx8mm evk board
@@ -53,5 +57,10 @@ b10e940f8a814d187fada5849b5db091a66889d5 arm64: dts: imx8mm: Add missing MX8MM_I
 4ac7e4a81272ca4ccc6bcc387b372ddc7b588f9f arm64: dts: imx8mq: Enable both G1 and G2 VPU's with vpu-blk-ctrl
 9cbe605b8e3fc99d58c491865170443b12d180b4 arm64: dts: imx8mm: Enable Hantro G1 and G2 video decoders
 1d84283101fcbe3e60c64b05ef05918648d262cf arm64: dts: tqma8mqml: add PCIe support
+8d5a72230b79e0013222c498983636753ff70551 Merge branch 'imx/soc' into for-next
+c1c1ad8747aa0f7ab2050d3f42ba99912e7d689d Merge branch 'imx/bindings' into for-next
+24bb8e7584fe5631a8d53b1211959f980fc2dd03 Merge branch 'imx/dt' into for-next
+dba59872f93ca3e46b3204442725f17b2e2ee192 Merge branch 'imx/dt64' into for-next
+17300c1228f3a74fea93517773820ff44e229523 Merge branch 'imx/defconfig' into for-next
 
---===============5163994903064015290==--
+--===============0750184297011852693==--
