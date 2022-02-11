@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 11 Feb 2022 13:05:16 -0000
-Message-Id: <164458471659.31126.512928983106629854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 11 Feb 2022 13:05:59 -0000
+Message-Id: <164458475945.31460.4581263557087119242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/tags/gpio-fixes-for-v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 88da9ed84cb4d9e1fb8eb88f2c08bb29b09bf3b8
+  - ref: refs/heads/master
+    old: 510cbba6eb255af6df2cd68bc125f886b658533f
+    new: 926668c7b028b58dee9e0c9d0bdc6668c0556cdd
+    log: |
+         926668c7b028b58dee9e0c9d0bdc6668c0556cdd random: defer fast pool mixing to worker
+         
