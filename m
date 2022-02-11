@@ -1,51 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 11 Feb 2022 17:50:03 -0000
-Message-Id: <164460180374.25186.10000991626506292400@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0931597336989020669=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 11 Feb 2022 17:53:51 -0000
+Message-Id: <164460203156.27903.10578456485255628118@gitolite.kernel.org>
+
+--===============0931597336989020669==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/block-5.17
-    old: bf23747ee05320903177809648002601cd140cdd
-    new: a12821d5e012a42673f6fe521971f193441d8aa4
+  - ref: refs/heads/master
+    old: ed343aa85718f039f5c3121aff099085902c97f0
+    new: 66fa226c131fb89287f8f7d004a46e39a859fbf6
     log: |
-         a12821d5e012a42673f6fe521971f193441d8aa4 block: Add handling for zone append command in blk_complete_request
+         0316dbb9a017d3231f86e0188376f067ec26a59c selftests: kvm: Remove absent target file
+         0a5f784273aad41a22963fc8b818ead3c892c97a KVM: SVM: extract avic_ring_doorbell
+         30811174f0dbe17fd58eba5c22c50292c083c75b KVM: SVM: set IRR in svm_deliver_interrupt
+         66fa226c131fb89287f8f7d004a46e39a859fbf6 KVM: SVM: fix race between interrupt delivery and AVIC inhibition
          
-  - ref: refs/heads/for-5.18/block
-    old: 3f607293b74d6acb06571a774a500143c1f0ed2c
-    new: 672fdcf0e7de3b1e39416ac85abf178f023271f1
-    log: |
-         d5869fdc189f0f12a954a48d58a48104a2f5d044 block: introduce block_rq_error tracepoint
-         0e51e2ab49a99bc5077760aa083dfa1c3bf9899b block: remove THROTL_IOPS_MAX
-         472e4314c039d6cf36e28783b1c63f87b5b394c2 block: move initialization of q->blkg_list into blkcg_init_queue
-         672fdcf0e7de3b1e39416ac85abf178f023271f1 block: partition include/linux/blk-cgroup.h
-         
-  - ref: refs/heads/for-5.18/io_uring
-    old: 4c65723081332607ca331072b0f8a90189e2e447
-    new: 662edc8a1a3bc170bb16f0c0302dbdf2076f0105
-    log: |
-         785d7c2aaac454a6c36028e424f18405c999acac io-wq: decouple work_list protection from the big wqe->lock
-         46fa4e4066ec3445edab7332367b6ceb34a717e1 io-wq: reduce acct->lock crossing functions lock/unlock
-         662edc8a1a3bc170bb16f0c0302dbdf2076f0105 io-wq: use IO_WQ_ACCT_NR rather than hardcoded number
-         
-  - ref: refs/heads/for-next
-    old: 23a3fe5e6bb58304e662c604b86bc1264453e888
-    new: 697ed8a83bca0a00cadeeeca9386bcb1635720b5
-    log: |
-         785d7c2aaac454a6c36028e424f18405c999acac io-wq: decouple work_list protection from the big wqe->lock
-         46fa4e4066ec3445edab7332367b6ceb34a717e1 io-wq: reduce acct->lock crossing functions lock/unlock
-         662edc8a1a3bc170bb16f0c0302dbdf2076f0105 io-wq: use IO_WQ_ACCT_NR rather than hardcoded number
-         30992d861ffd4c02113e1bd1169eda2eee520db7 Merge branch 'for-5.18/io_uring' into for-next
-         d5869fdc189f0f12a954a48d58a48104a2f5d044 block: introduce block_rq_error tracepoint
-         9edc6ddf51b6712a779a77c9f3d2a248eece25c0 Merge branch 'for-5.18/block' into for-next
-         0e51e2ab49a99bc5077760aa083dfa1c3bf9899b block: remove THROTL_IOPS_MAX
-         472e4314c039d6cf36e28783b1c63f87b5b394c2 block: move initialization of q->blkg_list into blkcg_init_queue
-         672fdcf0e7de3b1e39416ac85abf178f023271f1 block: partition include/linux/blk-cgroup.h
-         697ed8a83bca0a00cadeeeca9386bcb1635720b5 Merge branch 'for-5.18/block' into for-next
-         
+
+--===============0931597336989020669==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1644602029 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1644602028-d37625f9c45922cb497419632a337eaf832511cd
+
+ed343aa85718f039f5c3121aff099085902c97f0 66fa226c131fb89287f8f7d004a46e39a859fbf6 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmIGoq0UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroNQ3AgAm3l5dsDXJUkFh7SGbruahO/UU/Jq
+9u5Q7oGTvM+eQqwTuSQlLV1VY57lBE6Uj6xIygGjeMIQlorTiCS/9012c2H4wFfI
+AHSY3rc6mWaFN9ktCm9s3g2AfvDlnPWAqyRQVzQ3PpdTsF+eGmOGZyFPjVgGQocG
+48CFpVaz59PT8Aj/z76+ezOoXtnUZm/Uu4Z/PB+vY0JTgpnzVbFdZ/JC8vmfqA7S
+/FexIEUU4lVcc7u7UXq/xQTSR1HtbFjcN1QbB/i7YJBk4/bV5TZkNkQSREyvGm5Q
+FKe3gqjsklqN+q3I6lUg018eCZaB6RDqqbeovSAbAChHTraiCEHCnRljRQ==
+=DJqq
+-----END PGP SIGNATURE-----
+
+--===============0931597336989020669==--
