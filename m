@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4808623136311279746=="
+Content-Type: multipart/mixed; boundary="===============6245032051861113489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 11 Feb 2022 23:03:32 -0000
-Message-Id: <164462061244.14944.14634169135774084984@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 23:03:43 -0000
+Message-Id: <164462062319.15153.9815837069143265857@gitolite.kernel.org>
 
---===============4808623136311279746==
+--===============6245032051861113489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8842387f816a493231882750a53e43c1321be5ac
-    new: 9507a8d35b248726dce42de6c6cc9a28541c4f74
-    log: revlist-8842387f816a-9507a8d35b24.txt
+  - ref: refs/heads/5.18/scsi-queue
+    old: d1d87c33f47dc69f948d51dcfed344e34c75c406
+    new: 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1
+    log: revlist-d1d87c33f47d-62ed6622aaf0.txt
 
---===============4808623136311279746==
+--===============6245032051861113489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1644620604 -0500
+pusher 75C5DE3D 1644620615 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644620604-2280c5ac310cbb295c4a5cb8e846232a5860e14b
+nonce 1644620615-50ad392b2b71dd4770875584d88c0b9ffdd91b06
 
-8842387f816a493231882750a53e43c1321be5ac 9507a8d35b248726dce42de6c6cc9a28541c4f74 refs/tags/mkp-scsi-queue
+d1d87c33f47dc69f948d51dcfed344e34c75c406 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG6zwACgkQ7ulgGnXF
-3j3++g/7BrytnxP9PUiS4GQSPi/ojMUhXGtV5clvyJPMdS2j5nq1qdI5tRsaa9j6
-V7b3Q2Xo/pkUW5y97Lw4pdxsJ+DPNra4cLv6P/nh7fngpaXR8JGDi0TVJ95uzS68
-sRYQp12EZkRQGjna72R50Ewkidxx7cA5r+rogX/5xM3Y0DbPRZKBOUabQl1y9M7u
-1AXcGLbyuKigBYdfZfvmnaMpqslCAnfQPeUrZ+lAc52m7GlUCaky9Zy7iiSFFnV4
-IBWqP7zm8s5J52OL6Ux5vN9CBNCZepNFPSBnRjqohBnYbBZND/jCjIZ5jRCKlPN5
-VUFl1M/EO5ucH884J84SwP7VZwez1Fniuvo8uIWWEac7dqK5v9LF2OlEE/Fk10j8
-yOFa82cyo8HnlhgeO9yU0W9Ix6YfcpZUbjCEBO1ElEjJlycp3EmjjOrJIemcfSMD
-wXsy8YGXXQHx+4c0x7UmvpFFaeLgm3a3s+yLbmH52PCPrNzXyppslUK7yE1QAMRj
-sOktAdHwbicHtiiTC4DxUCuRKF/Q3P1Srw5GNrJNwKRNtzdlF6TfN+aAVXk/7tl2
-6M+bMQCAqnfa3Q2fE63qjOS2u+gJ8gCaGynv9hH9HQTkLgvtNkY995XrEDsYLEla
-+ds45aCOJlMhSJnotAW++eFkd/zmokmq+T6AkAtqzRndRu7vWl4=
-=apXa
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG60cACgkQ7ulgGnXF
+3j1JdRAAjJKoDYT/56o3RApGZQ+rTNkeWyu959pyGaxFKnREKVfe79d9TCA9Q5HK
+ilqNG7BnfeJUM8gFcFzqfrMVTvFHyrA99Ti73jKIr1+51KkM0xQvqtKNcMvhCVnM
+Lt1MbR1OUJ3l+WWHfYqj3KqpF8NCONEok15s9WyGKHj7sLHEf2Z1qZLFpOAo+u4c
+g4ss8fgIouV5w/DBgKoByzPDvsfBF2MFfoHTK3Uz0eA8I4UA92gh8mO/PCZFSNV+
++uNm7sRRUJt23PQhoG8U0xNwGZ94U2ZLR97N4gGNAZP2LKOy1PXIu9d4mKZJH5t8
+WdbFKtkGewP/vY8XECqj/JIzfYeRgR+K2CGrMI38Iw+joy69dFGZP210LoasKmY9
+0Lt3emqPVTOpSc8x5e+4gt97Wwc3BOsoMwNjweQO1+aEV0yNj0jXCvLkuyTeZjAQ
+IG7NcIHm/nqkM+M7pDIAMXC5ksjGkEM8gWuA3it0kewo7neypLhZqae4PQ/CDhuK
+4GhLxsWQuRo7LBWdOUI1C81ufXGuguaqdkMwx93aPuCKg/wknQI+M5fMCqK4Py08
+ZRCb/kffYfWDHsz7vw/X+vTjFmHOrjXX2U/J+Ree8z1EqYvJWmMtiKAnliRXM27T
+cqLjgMDfb10cms/mgcDTKoPBH3dukqOKMQGfBru61DeeK7u+taU=
+=YNAL
 -----END PGP SIGNATURE-----
 
---===============4808623136311279746==
+--===============6245032051861113489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8842387f816a-9507a8d35b24.txt
+Content-Disposition: attachment; filename=revlist-d1d87c33f47d-62ed6622aaf0.txt
 
 7cddf7e8d1e88603d0e86997259fdec98da6f70a scsi: core: Make "access_state" sysfs attribute always visible
 b84b6ec0f9767c82d0cfe5b2ac2c41de6b3d37e8 scsi: core: Add scsi_done_direct() for immediate completion
@@ -79,4 +79,4 @@ c66e078ad89e9f171a2474b255284d95c54c4c36 scsi: smartpqi: Fix hibernate and suspe
 291c2e0071efbda9d5c360a793abee4055e81fea scsi: smartpqi: Fix lsscsi -t SAS addresses
 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1 scsi: smartpqi: Update version to 2.1.14-035
 
---===============4808623136311279746==--
+--===============6245032051861113489==--
