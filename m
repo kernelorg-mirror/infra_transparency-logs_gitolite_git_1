@@ -1,58 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8755321976228944184=="
+Content-Type: multipart/mixed; boundary="===============5656820663024744023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Feb 2022 11:06:46 -0000
-Message-Id: <164457760621.15361.2210667625080241190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 11 Feb 2022 11:10:37 -0000
+Message-Id: <164457783774.18074.3142853634712265764@gitolite.kernel.org>
 
---===============8755321976228944184==
+--===============5656820663024744023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: fcc446c8aa6303b247b0d88f460167b731265282
-    new: ad30d108a5135af584ff47f5ff81be971b6c26f1
+  - ref: refs/heads/for-5.18
+    old: 9193bc0558d1812343039b510797b669f054efc5
+    new: e7c799e76f070b4ac13498e532574466064ad6a5
     log: |
-         582e9a24fc139adabb1dc951620870806bfc1583 tty: serial: imx: Add fast path when rs485 delays are 0
-         e67b9bc4d926de9d2e09e10325e64de69501531d dt-bindings: serial: fsl-lpuart: Drop i.MX8QXP backwards compatibility
-         ad30d108a5135af584ff47f5ff81be971b6c26f1 dt-bindings: serial: fsl-lpuart: Remove i.MX8QM from enum
+         0f1d41a85bda6f3502634fe15fa21bfee4c668a4 ASoC: wm_adsp: Make compressed buffers optional
+         c55b3e46cb99a8342cad9c1a35485bfe15187832 ASoC: wm_adsp: Add trace caps to speaker protection FW
+         695c105933cfa04ccf84088342193ae43e37e0f5 ASoC: Intel: bytcr_wm5102: use GFP_KERNEL
+         e7c799e76f070b4ac13498e532574466064ad6a5 ASoC: SOF: compr: Mark snd_compress_ops static
          
 
---===============8755321976228944184==
+--===============5656820663024744023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644577605 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1644577604-5916261c2a990fe591e28e3f8bc2c12095587dc1
+pusher C3F436CA30F5D8EB 1644577836 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1644577835-01f2ce3092a1bdf52778bcd17c8636dbad73cce1
 
-fcc446c8aa6303b247b0d88f460167b731265282 ad30d108a5135af584ff47f5ff81be971b6c26f1 refs/heads/tty-testing
+9193bc0558d1812343039b510797b669f054efc5 e7c799e76f070b4ac13498e532574466064ad6a5 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIGQ0UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YNkP/iMC5uwvSx3tAH6/mAVY
-gg+nHWhMgfeMCGPzVKaD+EVlEcExuVoN7NQXpA2/RuFBt+VnOrp/nPxDSgBxAcSv
-nnbzkTN+vZ1cYadOXFox3nV49mHYQ7sNyQbyXfUAzoxlcvFe72WKPQfW54iQZsau
-G6P+jo/OEKLhj0+wiMs9IrT1quTGGoFxrr6T0TXqT7b7PPaDJTKcGstOcaoDuk0e
-lrj48Dz/T/kgGw6AHRFJDslgyaCZhr34dTQNXvJdYfBzX/M3Y4T5RECWMEZ5FF73
-SkngO7BlNY9/HjSXphRkhAw5CtduoROv/XpI4IZar2AyHrduTVy+A8rifZ4akE0j
-dfeWCR6o3MpjBngb5w4YWllqME/0MzuaRCxp1vc0OSU9jL38VMquUPMaKDyzhryN
-CRVXMDk5iNeLNY0cZsrIyqCOD4VHv12Sa5Rwwgz+0GKIrnfz6lXImTAKJSNuIsLp
-WGMqDtwjizxGJ/BFshr0T/7nLlGxqhvT+v+kb7qappKiHvjG/XhuOxSteU22ZQQ8
-lIB5JZ7OtFiUjBkbHV8KmEdmy5YVVSL0+ON0aQqTi1VtxRkj9wrMjP/dfl31UIhD
-IzGkby1UvtWLKfytqDIjnODt06gdSxDH0s0kOWpJel6iDl+i7HKJw5ICvoykuHo+
-EtBq92s3vdePVBmLdh1xOHyl
-=i77l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIGRCwACgkQJNaLcl1U
+h9AnzQf/QsVK0JFyADannR4PfM+Of/JEp600t+ue3j17G8JHclvWIQj8gqLqzbGG
+vb+nqastyjQLpm0PeZJuRESkuH2tcyx2cN7Qvv9Md1TbBIfnYxPX8JqPGY7ZouF6
+Lc102sW//OG56fkDMApC0exUtf+tFbB1dxk11OI/C84q63afN8heT1ZnkLY1iUt1
+7B0u0OiZN6ObpqtoStpY8qowh/TlHArVW+nvsfFyk2ohRaUOGr6H8jt2fmkb2ngr
+s6i3e/4kOxdXDx/APfgcaiTapGGHFReLEBdbLcWH3BR/5Ll2q/rg6CexE8Cmm3Wi
+SVhVsDOdfCuY6HwUoRuprva/AXRiZQ==
+=84Ni
 -----END PGP SIGNATURE-----
 
---===============8755321976228944184==--
+--===============5656820663024744023==--
