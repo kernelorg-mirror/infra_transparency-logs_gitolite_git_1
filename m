@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2578878848267451357=="
+Content-Type: multipart/mixed; boundary="===============0427633627584179537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 11 Feb 2022 23:02:58 -0000
-Message-Id: <164462057862.14436.16847574063794463176@gitolite.kernel.org>
+Date: Fri, 11 Feb 2022 23:03:09 -0000
+Message-Id: <164462058950.14594.11641152144275581537@gitolite.kernel.org>
 
---===============2578878848267451357==
+--===============0427633627584179537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 364588cad3610826eaa210fba60ad0dbb15bb855
-    new: ab59d16e150c2fa82abf9640063fd4a330537e85
+  - ref: refs/heads/5.17/scsi-fixes
+    old: 5852ed2a6a39c862c8a3fdf646e1f4e01b91d710
+    new: f10f582d28220f50099d3f561116256267821429
     log: |
          f10f582d28220f50099d3f561116256267821429 scsi: qedi: Fix ABBA deadlock in qedi_process_tmf_resp() and qedi_process_cmd_cleanup_resp()
          
 
---===============2578878848267451357==
+--===============0427633627584179537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1644620569 -0500
+pusher 75C5DE3D 1644620582 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1644620568-d58309a40421e8045ac120a2e148d6781c8412b5
+nonce 1644620581-210332bf9ead6eb3b192984c5d8fc6f5ff103249
 
-364588cad3610826eaa210fba60ad0dbb15bb855 ab59d16e150c2fa82abf9640063fd4a330537e85 refs/tags/mkp-scsi-fixes
+5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 f10f582d28220f50099d3f561116256267821429 refs/heads/5.17/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG6xkACgkQ7ulgGnXF
-3j0vFhAAqJGFMLVoSSsMXLGG3aOVZ9QaSLwhtiP38D7N87bDAIjlV8yjK8giqoOY
-Oy/mtybryNCEWLhwsKBSpJU8S3/aImJW6+55SEzZoIpf0m8q1ERj10Y9ccbyJF0R
-umYBWCqQC1BJrLnSecneNQpA853AVDdNf9L7hrUYPnekCRZ6Q9ObIYOpc2r20B9g
-oQdfLG2fcVnWIlL5BcG9mBQdWwiX7VAFUFnfT7IRb/gLBNZsQG6RkqmPHchYnte9
-TA+iSru62Q5KJ9bhf3UXWPNcHL3RHdgtODnqR3O33DGpK8i+0t/qJK5+0V8goSwh
-5FOVWulOCu+El/BlgCIGMKr5EkES1DRUAZ4R5OAOTuyeJaVa4gCCTJZfHQhFClI6
-2E/MNLB0cYdEBfKq+LJhME5BlMBPhTg30FEyum6LHhDksLyhLzbDXDByDdUX4htd
-OPaZG2ICYbQuuAW+ft1N/bTa771SzhCxCfsCN7nPCJXqxmWYhAP9eOH5NcAZ8n1I
-NXXBDUx7ICEvsBfyviFkOIJahNlJLDmDhjh+0zi+eCipLzvs4pBDTVvfUCE6N9Wn
-kdTB6lZibeqy4mGkpBDlZfAfttxELM7qsM4u2eEzWbq+bD77GngYX/3hPq8R9817
-CVnmhISQmlxyHY12WRZrPeYaY6fPMzr9sSO21C0Mw+iVc3VEBxI=
-=+hr9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIG6yYACgkQ7ulgGnXF
+3j1S7A//cUx1uEUyugU8Bs3YM5QPDu4Tx3F5zUbrMJt8bjeDRWxRu4KZYCUfeCQb
+zh0sA/LFlB27pkFGZRq0Xl4kHo4OUmDVddZ6nEqX1EdbsTD4ytTTMrwvRG8XY+p5
+B1HCRNn0sR53tr6eUQA1lDXYw7dl68xKx9+oJk8ErVrn+ZMq180HG8LVoJRbcjHB
+7cWDLpY1lowdmBUo9VVP2vzVVQIu8N4+2GYd4kolOtzRPVtIs9qFplpA2N6k5D1P
+Rbm2hSbH8ilq9tjSXg9Z+jzV9vF8C39KEaHN1wVFazIAlqbk3ZymngoKWBZr9YRu
+AAIEtOspWzxeD5diKt1IqmIQX9Rpq4X7GZhal0D1o7feXBSIwmmpuU4lXclNKg+b
+/t+rKXCSTNk6EOU8zIC3xA3Twqc6DFYElX7mF5f2DW+O1IQAgJEgda4cM3emq8nP
+d/FP8dcBP+jZKQrm3//rFqPE+/Aj7GeQpJCalYBwwHo6TGHwpauMfiqazKGZdGOj
+Sg/0JBa/G/FaH59yo+4fTUk9IOdtXxzttH1Y31yrzbKKJ0tELtgkRZM04KLnUEzb
+AecPj6WoDIK4h0uO+/xSCuRckWZaY1dcOrSZ5OpO/0gXMTjm870NMzIsIIQyBoUC
++GJiVkx8Q3mEaSArwDJtjOMOmzzHhKmPEleISF2N7jF0cii36Hk=
+=uteq
 -----END PGP SIGNATURE-----
 
---===============2578878848267451357==--
+--===============0427633627584179537==--
