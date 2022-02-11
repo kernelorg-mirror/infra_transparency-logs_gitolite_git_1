@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9125317166518834337=="
+Content-Type: multipart/mixed; boundary="===============8023548378127330726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Fri, 11 Feb 2022 21:53:49 -0000
-Message-Id: <164461642933.32323.8591684308702067145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 11 Feb 2022 21:55:14 -0000
+Message-Id: <164461651402.1855.4824166516086760572@gitolite.kernel.org>
 
---===============9125317166518834337==
+--===============8023548378127330726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
   - ref: refs/heads/x86/sgx
-    old: a15973f0e630530a63410f092615879a3c88cf9e
+    old: 2056e2989bf47ad7274ecc5e9dda2add53c112f9
     new: 5626de65f97ae152e6dafdc528a36c1cbb7146ee
-    log: revlist-a15973f0e630-5626de65f97a.txt
+    log: revlist-2056e2989bf4-5626de65f97a.txt
 
---===============9125317166518834337==
+--===============8023548378127330726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a15973f0e630-5626de65f97a.txt
+Content-Disposition: attachment; filename=revlist-2056e2989bf4-5626de65f97a.txt
 
 e422b88969489e67fd1a87a6ef4ef5c30bb53edb KVM: SVM: Remove unnecessary APICv/AVIC update in vCPU unblocking path
 af52f5aa5c1b46809834b728a13a1af5aab451e9 KVM: SVM: Use kvm_vcpu_is_blocking() in AVIC load to handle preemption
@@ -1051,4 +1051,4 @@ fff36bcbfde1126f6b81cb8ee12a58aada17ca29 selftests/sgx: Do not attempt enclave b
 2db703fc3b15e7ef68c82eca613a3c00d43d70af selftests/sgx: Ensure enclave data available during debug print
 5626de65f97ae152e6dafdc528a36c1cbb7146ee selftests/sgx: Remove extra newlines in test output
 
---===============9125317166518834337==--
+--===============8023548378127330726==--
