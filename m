@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 11 Feb 2022 19:39:33 -0000
-Message-Id: <164460837389.1224.14382080103893545856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 11 Feb 2022 19:42:40 -0000
+Message-Id: <164460856084.3703.4105443884777089122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/main
-    old: 7f70eb2a8b2c451683c801b23b25f34071a8882f
-    new: f8beda6e00e57b8f875442351f91e5c01530ad8e
+  - ref: refs/heads/for-next
+    old: 21ad180d0fdfb2ab6df0f19c7dedce829a9ed1ed
+    new: e748590daf72acdec058c8ff71cb54c8c05e37ae
     log: |
-         f8beda6e00e57b8f875442351f91e5c01530ad8e libnetlink: fix socket leak in rtnl_open_byproto()
+         e748590daf72acdec058c8ff71cb54c8c05e37ae power: supply: PCHG: Use MKBP for device event handling
          
