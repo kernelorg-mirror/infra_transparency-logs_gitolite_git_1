@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 12 Feb 2022 16:04:50 -0000
-Message-Id: <164468189049.10017.11934756518087629759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+Date: Sat, 12 Feb 2022 16:10:49 -0000
+Message-Id: <164468224986.14763.2996631382742952023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+user: sforshee
 changes:
-  - ref: refs/heads/for-next
-    old: d130e954a002b901391037c33b9ae11bae5aaa91
-    new: 9c3de619e13ee6693ec5ac74f50b7aa89056a70e
+  - ref: refs/heads/master
+    old: 4408149c9ecaf5a4c508889831ca495f88ce785b
+    new: 5f3cadcddcf5c80b3a866b6df31c15f215d77824
     log: |
-         9c3de619e13ee6693ec5ac74f50b7aa89056a70e libbpf: Use dynamically allocated buffer when receiving netlink messages
+         5f3cadcddcf5c80b3a866b6df31c15f215d77824 wireless-regdb: Update regulatory rules for Spain (ES) on 6GHz
          
