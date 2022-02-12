@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2324632268463774693=="
+Content-Type: multipart/mixed; boundary="===============1553119333987906583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 12 Feb 2022 09:50:34 -0000
-Message-Id: <164465943427.28665.3635615927153801839@gitolite.kernel.org>
+Date: Sat, 12 Feb 2022 09:53:31 -0000
+Message-Id: <164465961136.31117.5936432856936627488@gitolite.kernel.org>
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,350 +16,384 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: a6cd1e126f7e7fda425f9adfe5ecdbb407784473
-    new: 47ad8175237e27a0b05ee550e3e3f7fd3fe48eb7
-    log: revlist-a6cd1e126f7e-47ad8175237e.txt
+    old: 47ad8175237e27a0b05ee550e3e3f7fd3fe48eb7
+    new: 8b4abc9daa008eae28b1e93d15d2b07fdd60e569
+    log: revlist-47ad8175237e-8b4abc9daa00.txt
   - ref: refs/heads/queue/4.19
-    old: 3491d12892bd91a795065df7e4a2f1a14fe6052a
-    new: 1cde610a52e2026db26cf62fe6789f1ca93a9626
-    log: revlist-3491d12892bd-1cde610a52e2.txt
+    old: 1cde610a52e2026db26cf62fe6789f1ca93a9626
+    new: 2d5d54d994e4a553d537cf2eab4e76c483848b86
+    log: revlist-1cde610a52e2-2d5d54d994e4.txt
   - ref: refs/heads/queue/4.9
-    old: 949f048178a2c5578784f3736734aa7e92a3ac12
-    new: 21a3054a484063bc4c1bfa9328c0ee4132ad55db
-    log: revlist-949f048178a2-21a3054a4840.txt
+    old: 21a3054a484063bc4c1bfa9328c0ee4132ad55db
+    new: 79dc70499d8c2db838301471bacfd103811a14fb
+    log: revlist-21a3054a4840-79dc70499d8c.txt
   - ref: refs/heads/queue/5.10
-    old: 4890ee4ca815ec4df490437497e39c356d90509a
-    new: 73da87ad35821151aa255f76ba9a4ad45ae09a42
-    log: revlist-4890ee4ca815-73da87ad3582.txt
+    old: 73da87ad35821151aa255f76ba9a4ad45ae09a42
+    new: 80340ec8c9bb8b9e5d765ac3e13e6e9cb917489a
+    log: revlist-73da87ad3582-80340ec8c9bb.txt
   - ref: refs/heads/queue/5.15
-    old: f48d6e82e6b4eced930e171973379f18ff0cd8a5
-    new: 8b7fa26d954e4bc60992e172fdb546f026550317
-    log: revlist-f48d6e82e6b4-8b7fa26d954e.txt
+    old: 8b7fa26d954e4bc60992e172fdb546f026550317
+    new: a05bcd9b669bbdf5341b8957bada5e3f50482d89
+    log: revlist-8b7fa26d954e-a05bcd9b669b.txt
   - ref: refs/heads/queue/5.16
-    old: b69162b74d9713e72d0e96719ceea6c04529ee0b
-    new: 15a11a002fd296068a668f1b31aec78f357696e1
-    log: revlist-b69162b74d97-15a11a002fd2.txt
+    old: 15a11a002fd296068a668f1b31aec78f357696e1
+    new: 599d1d1b6ee53eeb132a0d0d6c5e43b3669b07a8
+    log: revlist-15a11a002fd2-599d1d1b6ee5.txt
   - ref: refs/heads/queue/5.4
-    old: 70f5872b239ea6b038d5585f5a260d9abe3c51aa
-    new: 095bafe8b4e87fdd010731d3d1338aa227faed66
-    log: revlist-70f5872b239e-095bafe8b4e8.txt
+    old: 095bafe8b4e87fdd010731d3d1338aa227faed66
+    new: 1cb97392625343e7c9634707c477ad415827b153
+    log: revlist-095bafe8b4e8-1cb973926253.txt
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6cd1e126f7e-47ad8175237e.txt
+Content-Disposition: attachment; filename=revlist-47ad8175237e-8b4abc9daa00.txt
 
-6878d6c09c85ce82436a9282bc89f0fed22af60b integrity: check the return value of audit_log_start()
-e78d81556e607250a19a08a1b722d334d21356fb ima: Remove ima_policy file before directory
-02c2b96bdebee557e57b3c09fce3d5c655415468 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-6f0523af5d41cfdf01b776e72e2073e2d173d949 mmc: sdhci-of-esdhc: Check for error num after setting mask
-f8082e2b832d18d5caf7b60f109eac3f58cfbc2f net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-248ce876084221435cdb250bccd5a4622cc4acaf NFS: Fix initialisation of nfs_client cl_flags field
-0ba8d1e3e7b40c221062af4924a98064d9635d60 NFSD: Clamp WRITE offsets
-221ba945d93c48fe33994f905d3818df02021bf7 NFSv4 only print the label when its queried
-2a4823e871b774576dc7d390ec9788c2d2e7e152 nfs: nfs4clinet: check the return value of kstrdup()
-42147a9a61276d31a93befc847fe5916129ca5b7 NFSv4.1: Fix uninitialised variable in devicenotify
-b474dd342c88783dfe122f6bb3da6c054b077689 NFSv4 remove zero number of fs_locations entries error check
-880c1ffcfafb4cc4ed50692c8a75a8e255061b8c NFSv4 expose nfs_parse_server_name function
-e39dd3aa7092ae9e6aadcb96d7a68e3e9a438e8e scsi: target: iscsi: Make sure the np under each tpg is unique
-8c7412821ec1e7101eb091a8f8c5626715e071d3 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-69e75c3b971a69fc6bb38aef16fb1172ffe212bf net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-483f386f6f3c58c4e85bf35c69372d5f11876232 Revert "net: axienet: Wait for PhyRstCmplt after core reset"
-7add3d518ba2574c29ee5ea3401bc0ae3d2734b9 bpf: Add kconfig knob for disabling unpriv bpf by default
-47ad8175237e27a0b05ee550e3e3f7fd3fe48eb7 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+c42e8d68c4aefa8c9c1b378008676ded37b8e19b integrity: check the return value of audit_log_start()
+87160b1778999db7be197d1bf684e15bbf62dd12 ima: Remove ima_policy file before directory
+60547fe8ad8aa38dddbc2b910af8772ddda0425b ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+5ac6f8ec04c981b0948bbb66ca7259164fd1c780 mmc: sdhci-of-esdhc: Check for error num after setting mask
+a80226a0e0559128c1a8e687073d58b85e54a396 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+5324d2f9903a8b813853b8ad8fd76ea8e96c0ef5 NFS: Fix initialisation of nfs_client cl_flags field
+7b3ac47b822f9ae4229c4dc1b62c78d03777e991 NFSD: Clamp WRITE offsets
+3deb43b67a140065933f1428ea6e93c76464ae19 NFSv4 only print the label when its queried
+ecc0e7777bcd21e2f5a5d15c574bc2d10475ba8a nfs: nfs4clinet: check the return value of kstrdup()
+0203f750668fa33ff4b4dbddb600f16baf525f9f NFSv4.1: Fix uninitialised variable in devicenotify
+a6a3a9337a9721b444b5efb55158eb25be099e52 NFSv4 remove zero number of fs_locations entries error check
+58d9d98c188c98dfe2cb3dd11436de5f00fa1897 NFSv4 expose nfs_parse_server_name function
+5accafb6df8acea558716e6495c300b0155285f6 scsi: target: iscsi: Make sure the np under each tpg is unique
+76ea9a5794e1705ce4699b06daaf53ca0f760036 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+e4b24f085d3026c0a91b3ce4dea68851196e4039 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+98178d91e363e17c84ccca471dbf287053fec3f6 Revert "net: axienet: Wait for PhyRstCmplt after core reset"
+190731a4d31221644fa56eb3c2f70d294d1992cf bpf: Add kconfig knob for disabling unpriv bpf by default
+8b4abc9daa008eae28b1e93d15d2b07fdd60e569 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3491d12892bd-1cde610a52e2.txt
+Content-Disposition: attachment; filename=revlist-1cde610a52e2-2d5d54d994e4.txt
 
-d3d8052da383ee468124c71a476ef2f32b53f091 integrity: check the return value of audit_log_start()
-20b9ed0f0303f6892249a3580890a057070bbc4b ima: Remove ima_policy file before directory
-270cade16c5f3be32dff5749bdec073067468369 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-5af469eb56d5526291de2776cb9ae58d080b4cc2 mmc: sdhci-of-esdhc: Check for error num after setting mask
-e97db61298226ca3437f310103f7112ecf4cb26a net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-2153bfaefed768732bd9bb00ad192ad629ee2eea NFS: Fix initialisation of nfs_client cl_flags field
-2f3afa24e4dc2b4f98b2f37ca3274edaf1e730a0 NFSD: Clamp WRITE offsets
-00ca7f1501177a07505419a271c4781b0294c95e NFSD: Fix offset type in I/O trace points
-4fdfffa27df0a335436aa1f5bc9e69acea7ca487 NFSv4 only print the label when its queried
-12d1c16350a661ea14d1f5a4c42076e7d604ecce nfs: nfs4clinet: check the return value of kstrdup()
-1e274dfc27c178f8e68b72a8d8264c5bf39fde98 NFSv4.1: Fix uninitialised variable in devicenotify
-91035225746f9e23d5b81414e58494643b8b0d1a NFSv4 remove zero number of fs_locations entries error check
-5a1432c14959c3adb4973aa007a5d31599d13ea7 NFSv4 expose nfs_parse_server_name function
-859830dd18076905940543814a10e64fadf9c45d net: sched: Clarify error message when qdisc kind is unknown
-1eae22cc4d87d1a20ed3cc0aa09095510aa27686 scsi: target: iscsi: Make sure the np under each tpg is unique
-d35d4c3ad97811eb3bc96aeafb17a8b0767b6c1b usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-a96e54c448596acf7f3d6ef8ffd19b835446c584 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-c5ff52aee100afd3fca08d53232634e0b14ccd6f bpf: Add kconfig knob for disabling unpriv bpf by default
-1cde610a52e2026db26cf62fe6789f1ca93a9626 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+0341b324e4a26419aa9896342d7d13b1a9d0089e integrity: check the return value of audit_log_start()
+24c61e7fd58b589194968b11e28eb2fe4c921d0e ima: Remove ima_policy file before directory
+18742aeea6dbf176bdece3fdcf97f55528f97187 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+3d9aebc18941e2abfee24bece7854300fc7c160b mmc: sdhci-of-esdhc: Check for error num after setting mask
+3afdf2e0972f83737c89da4868a581f8ce063663 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+b5897e19c71dfb76e0a58a558161b22197fc9f74 NFS: Fix initialisation of nfs_client cl_flags field
+62154dd750017c0ff518a8c6555adad516d1d647 NFSD: Clamp WRITE offsets
+0772f9fb9b3c3c6daacee60308d3ff282d8396c0 NFSD: Fix offset type in I/O trace points
+cca9d7330af1aa8c633bb754477128b82d9918ce NFSv4 only print the label when its queried
+1e27d924d4c2713d67844dc3906981138b30ce0d nfs: nfs4clinet: check the return value of kstrdup()
+0047d9e1dddac28f7b3e61afe8eb23004f080c4f NFSv4.1: Fix uninitialised variable in devicenotify
+5dd3050c497d1e02ba112f5ea7ae5938ebad22df NFSv4 remove zero number of fs_locations entries error check
+cd08a01b71134d5f91c33c0831c90a175e12b400 NFSv4 expose nfs_parse_server_name function
+83be4a2331243ff9c416cfb60fe114b39ac64323 net: sched: Clarify error message when qdisc kind is unknown
+4fbf39887d03305f0dece4418e0510effaab19e4 scsi: target: iscsi: Make sure the np under each tpg is unique
+47b47485d1439db48a73c567073949cb6dc30dcd usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+8cfb7aa27ba2e5845d666478ef29a7fb31540e25 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+4973db86f91cf5041c2516dce59511409573f3ab bpf: Add kconfig knob for disabling unpriv bpf by default
+2d5d54d994e4a553d537cf2eab4e76c483848b86 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-949f048178a2-21a3054a4840.txt
+Content-Disposition: attachment; filename=revlist-21a3054a4840-79dc70499d8c.txt
 
-ce9b671221e8fdec6f21f584146125e412a941e2 integrity: check the return value of audit_log_start()
-e767102b332eb4a7a5a39215b555d30a459b7f5f ima: Remove ima_policy file before directory
-12abc696edc91e613626167bc83df8f2eb72bcc8 NFS: Fix initialisation of nfs_client cl_flags field
-43956c4f9257d31781d383fe7cb6d1f69acec888 NFSD: Clamp WRITE offsets
-d4eca3096741a2c0716992882d6621955fddb71e Input: i8042 - Fix misplaced backport of "add ASUS Zenbook Flip to noselftest list"
-d71b4b44c3d3d85ee9d159ad34fffaf2551b698f serial: sh-sci: Fix misplaced backport of "Fix late enablement of AUTORTS"
-0ff731c3f35354c2b87b026ca917e5a756ae1fd5 ALSA: line6: Fix misplaced backport of "Fix wrong altsetting for LINE6_PODHD500_1"
-39318c88e182cd5ed61893682c66c798721e52a6 Revert "net: axienet: Wait for PhyRstCmplt after core reset"
-7bd32bcee56e506d38ca21453057062fec4dce3d NFSv4 only print the label when its queried
-a15b2f287853262d3beffabbcfa94c2a99e7baea nfs: nfs4clinet: check the return value of kstrdup()
-2375c8b9fbeb94c236c95e00898c46d5909dd964 NFSv4 remove zero number of fs_locations entries error check
-7fbacd8cbb742f99beebd5ae2aeddbee28355dee scsi: target: iscsi: Make sure the np under each tpg is unique
-1e7f358f6fc95db3fdaec91c90acf3a645eed093 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-21a3054a484063bc4c1bfa9328c0ee4132ad55db ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+6d446eb4cbfe10b1e1d773980f18635c217c899d integrity: check the return value of audit_log_start()
+74fe30546236d1cf477f90fda42082edc8dc0e57 ima: Remove ima_policy file before directory
+0cb832c58ed492ae3595550275666966f69f0155 NFS: Fix initialisation of nfs_client cl_flags field
+d7e62d7eb2fae36091c3bdf9994cfe90c3e3b06c NFSD: Clamp WRITE offsets
+c4af78958b3fd05b90367901ab0e6c325d98151d Input: i8042 - Fix misplaced backport of "add ASUS Zenbook Flip to noselftest list"
+9903bc05ac601babee4751acec330bee6e64d9b5 serial: sh-sci: Fix misplaced backport of "Fix late enablement of AUTORTS"
+35af025fe460dd94bcc1018753207b521604af90 ALSA: line6: Fix misplaced backport of "Fix wrong altsetting for LINE6_PODHD500_1"
+0262cc6389370d5a98432020318cf1fdc511d5a0 Revert "net: axienet: Wait for PhyRstCmplt after core reset"
+85b968b3d3650939096937c576f5194d891b5574 NFSv4 only print the label when its queried
+4136d97878988f7b5f8d2e44b656abd276525e42 nfs: nfs4clinet: check the return value of kstrdup()
+8b517396d500b7c038a1aa6e53846aaedc13abc7 NFSv4 remove zero number of fs_locations entries error check
+941cb6a7bfd01af63542277f360108dfa709cb79 scsi: target: iscsi: Make sure the np under each tpg is unique
+faab1dcd14756ac80939e4c7076e3dae5996e2c2 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+79dc70499d8c2db838301471bacfd103811a14fb ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4890ee4ca815-73da87ad3582.txt
+Content-Disposition: attachment; filename=revlist-73da87ad3582-80340ec8c9bb.txt
 
-5b1befd6f2641a5c77bae2077d71b4d05d733872 integrity: check the return value of audit_log_start()
-1857ca8f10b978ebe3d6656ef916abbf993a264d ima: Remove ima_policy file before directory
-e50195f227e211ce97397d6a348184419c8cbcf9 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-8a238153d283655bfc5c39fac80f5404ee8d7e50 ima: Do not print policy rule with inactive LSM labels
-1ad36ef1b47c320b04a3fd950741824f9c0d337f mmc: sdhci-of-esdhc: Check for error num after setting mask
-75beec1234b48ae524e421ed04a2dd117996a2db can: isotp: fix potential CAN frame reception race in isotp_rcv()
-a0a6ea05db6d3fbc6cea3cbbd3cc0e75e43f66c8 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
-c25157a191226ef8d69e31d88fb17daebeb73d00 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-42f880e5651fa12ebe2f797d1d405d6a16782e55 NFS: Fix initialisation of nfs_client cl_flags field
-0e755dc437e26ef3b1273a0969b821ae0c75801d NFSD: Clamp WRITE offsets
-4a5d18ddcb1c20dc93702d576ef3e00817778d6d NFSD: Fix offset type in I/O trace points
-28e896304f4647a5cc3140772544351dc76ba5b5 drm/amdgpu: Set a suitable dev_info.gart_page_size
-ad7f20e5a45cdf5efaadce4888ea87403f5c438b tracing: Propagate is_signed to expression
-7fa722160171693338678b2e1511f129ba9dd2f6 NFS: change nfs_access_get_cached to only report the mask
-4d387e21bede4439a996f3ea71d65cca80bb17aa NFSv4 only print the label when its queried
-95e915d82efa6a9e0f7b6457d96b5817c789ec50 nfs: nfs4clinet: check the return value of kstrdup()
-9ba678b3e7becc5cca99a9b6af585422e25271bc NFSv4.1: Fix uninitialised variable in devicenotify
-bd97d8270a73a4f4fd7cd3ed62711399678714e5 NFSv4 remove zero number of fs_locations entries error check
-03a308ba968516d039e80664ae126e08298b4f72 NFSv4 expose nfs_parse_server_name function
-35aefe316426e81e7088832b33d4e3649a15f0a2 NFSv4 handle port presence in fs_location server string
-0a69741c43b3841d217962ac2ffda92906023759 x86/perf: Avoid warning for Arch LBR without XSAVE
-cabf7a0dc0587d03394784c2ac31a6df361794da drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
-de82dbdd1f8d4950a70f605d5b5e70241a269969 net: sched: Clarify error message when qdisc kind is unknown
-ae25d3660ed36a4765915e93b9e4f869fb79f7f9 powerpc/fixmap: Fix VM debug warning on unmap
-6ad85fd0d745be21df85dc7021f495575e41f37b scsi: target: iscsi: Make sure the np under each tpg is unique
-dd78adb54996d4c9e97016a28eb97f38c8cc357f scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
-5568016833828e4cc9ad38e737b63c8949052638 scsi: qedf: Add stag_work to all the vports
-50303486877f04a7bd86de46e40d5aea4a1fb7a5 scsi: qedf: Fix refcount issue when LOGO is received during TMF
-814b19a0a1fdee6537a2364a546c7798305df425 scsi: pm8001: Fix bogus FW crash for maxcpus=1
-ff9f5d4843b077076123241e4e7c92ce3054856b scsi: ufs: Treat link loss as fatal error
-04f5a274ea83be0e74583b4b6411cba35002249c scsi: myrs: Fix crash in error case
-b305550a400c53888eef5bea65e727ea654b811f PM: hibernate: Remove register_nosave_region_late()
-45e4e1a668a83fb3e52b22785363ebaefc427cc0 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-23ee2f777e0c7fdc299042a2c353098474fc38b0 perf: Always wake the parent event
-30a87cf95a5e91f40776721bd8be84708774cf91 nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
-e05ee58410e61343ad30ae1783f180f655ff1551 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-7a8fdccc51cdc885179789330f5ce78071d02b22 KVM: eventfd: Fix false positive RCU usage warning
-22783a71ec27f6becf6a95e4899184bb3001806b KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
-62ab555000a7ad1a2ac80af34df40c97be17dcc2 KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
-3878a426601d301c48be494494ede8fc0955397b KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
-124dee2a3876d947fe7292bebfa7a0e1cde8743c KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
-6f3348b86e01f1b7b49ce797f4830777f2c3dd9c riscv: fix build with binutils 2.38
-e77dbecff8f0855f370ff76f99664985bc0e2a8e ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
-be96f415bf69912b9bbd7601e0e50e6fd84cf418 ARM: dts: Fix boot regression on Skomer
-46cd3e6976876aeeb55316f97d1599ea12094cb1 ARM: socfpga: fix missing RESET_CONTROLLER
-7b47c061c66ec7c4410785ba7c7c913dd7fc623b nvme-tcp: fix bogus request completion when failing to send AER
-937e30bd068932b11b4734894c1e55cb59148888 ACPI/IORT: Check node revision for PMCG resources
-b53810bc54498cde069ba33163caec37b5e00f3c PM: s2idle: ACPI: Fix wakeup interrupts handling
-73da87ad35821151aa255f76ba9a4ad45ae09a42 drm/rockchip: vop: Correct RK3399 VOP register fields
+0005ee7247a245568ae5c0247592f8d0936a1958 integrity: check the return value of audit_log_start()
+63dd0fb89488ce32f6834513840a502b9c1fecc5 ima: Remove ima_policy file before directory
+432ec6a8116fbacaa13986ca4b8ee77515e8c510 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+0028d255c09050bf6d3f2404360879c05cfe1aa5 ima: Do not print policy rule with inactive LSM labels
+57ec8ed23fc976b40b3c7a92ec5fcb1635219087 mmc: sdhci-of-esdhc: Check for error num after setting mask
+41c7c28765a7384b1ea5096244b6546317562fce can: isotp: fix potential CAN frame reception race in isotp_rcv()
+6164b610cfb824af2173e81f4408817162382fcd net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
+75db4ad14dc64652aa0d6e97a0fa2b56ccda21f5 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+279de2f625eb5afca79dd38ef044727ab49ad75d NFS: Fix initialisation of nfs_client cl_flags field
+5694ec7a31423c02f85dd09761ba75352cb8953d NFSD: Clamp WRITE offsets
+c04a398b667b8f7a25717bf2acf2af6d33d8102d NFSD: Fix offset type in I/O trace points
+0d98e3caa23d2d5d2b59112fbee01daded3e2de3 drm/amdgpu: Set a suitable dev_info.gart_page_size
+11ef081fd2dd944179c4be20ebe3388522885c0a tracing: Propagate is_signed to expression
+75082463cc4e1320ef040e387850c617f72d7abe NFS: change nfs_access_get_cached to only report the mask
+fadd158d9a5465241dc55ea7e86d77347fda5f0c NFSv4 only print the label when its queried
+b990f4980b01e3a0d0ef9c141976623070761f2c nfs: nfs4clinet: check the return value of kstrdup()
+3a63baa8e61354fb086507218ae5a93be410926e NFSv4.1: Fix uninitialised variable in devicenotify
+eb15efaadbf45a496e83916b6a13c2c0c0ac4da7 NFSv4 remove zero number of fs_locations entries error check
+37e72a0fb991ecc55933dc560ed05c9cbbcba54b NFSv4 expose nfs_parse_server_name function
+2029e73a185c263d9142e98aa415ac15f436e01d NFSv4 handle port presence in fs_location server string
+031dfe09c75e1761efa81943ef1febb2bca06592 x86/perf: Avoid warning for Arch LBR without XSAVE
+7c89aed1fcf0eba124dfa3af93c92f98b0e99b09 drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
+d672d14c9982a2c2fd7165a452147905d59c0267 net: sched: Clarify error message when qdisc kind is unknown
+cff9cb1c76b4590fed257d9c91584fd341a5e83e powerpc/fixmap: Fix VM debug warning on unmap
+ba5486994552dc271f65029cad87b5596aad12cd scsi: target: iscsi: Make sure the np under each tpg is unique
+851f2b029083873bdc1bf3322ce5d2e09b04fd1f scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+120160a4b6bf1ac5d5a2281a338eda8e943f07d7 scsi: qedf: Add stag_work to all the vports
+c766f263bcb615b441a8c38a62764e59ba537d4a scsi: qedf: Fix refcount issue when LOGO is received during TMF
+3b01556b4cd52e1adcad2b9ef4ee0abfc82b6c73 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+81f043eaf1202a58c155c50d76b221fc8b32c74b scsi: ufs: Treat link loss as fatal error
+25d5ab155cf1db6f10a5b9e921f0be0b2f004d29 scsi: myrs: Fix crash in error case
+9219007e70f1af8089c94966b6bfecb682c0863f PM: hibernate: Remove register_nosave_region_late()
+c220d147dc0cd81cd94ab39bb706e1922e49a3ab usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+5101afb4498346b64cf4a0ab115ce2cdd3686792 perf: Always wake the parent event
+a4c86b656af8f46b3fd267bc11a3428d16de6b6a nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
+54fbe2f41cfcabe58d38c0fce31dfe4e54e1e6f6 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+ef2114898226ee44a2d05629a7e6653e0991a53d KVM: eventfd: Fix false positive RCU usage warning
+69118a9fa25f94175ff85c4931744a93cafb5919 KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
+a6fd35ee3cad515af5873d27b8e9fef5dcd9d848 KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
+a8753af46a0e5bf5d1e1f4b35b07e39a0f49ad85 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
+5ce966a1a16b9ebb70c8cd04a50204a08dadd68f KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
+b6519c588c89e0fe87c8683d0295d116d531aed6 riscv: fix build with binutils 2.38
+07fe079ebad4b4a9cc078309da14fcda0e2ce779 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+23327cf14b32a2720090e2eefaa405bf6e0c7ca5 ARM: dts: Fix boot regression on Skomer
+7fb5e28583809f9f4b3e2e477606ba0a0c024d9b ARM: socfpga: fix missing RESET_CONTROLLER
+5016260b9be54338f69e3266053675cb8c503ce9 nvme-tcp: fix bogus request completion when failing to send AER
+9eb28872d258a2aa46a6597ce7e2f6220084850e ACPI/IORT: Check node revision for PMCG resources
+02d7c0932390d2fa519f29f4a35fa02117e7bd56 PM: s2idle: ACPI: Fix wakeup interrupts handling
+80340ec8c9bb8b9e5d765ac3e13e6e9cb917489a drm/rockchip: vop: Correct RK3399 VOP register fields
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f48d6e82e6b4-8b7fa26d954e.txt
+Content-Disposition: attachment; filename=revlist-8b7fa26d954e-a05bcd9b669b.txt
 
-e86fee25ebe1441d6a2b93f4b22b6ff41fb8637f integrity: check the return value of audit_log_start()
-a63261543796d9e75ddaedae092235730afbb590 ima: fix reference leak in asymmetric_verify()
-b8d6ca0ba05144815cac7b60c3b01ce53727da79 ima: Remove ima_policy file before directory
-9f4f235aaf4d2359c61cec17001197fb5438c9e7 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-e50689ac374ad79726c31d9e389d4da1d064c6e5 ima: Do not print policy rule with inactive LSM labels
-07e7208f11ba276f0e0affc73a8dc6f0177853b6 mmc: sdhci-of-esdhc: Check for error num after setting mask
-33ad1b090f22b436d0a8d05705b275ec04b04c81 mmc: core: Wait for command setting 'Power Off Notification' bit to complete
-7b81c63dd11492cbeb1f4c63033e7cb30c19ca11 can: isotp: fix potential CAN frame reception race in isotp_rcv()
-b83f03150677c362cea88409a77bdfaeadfb300e can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
-e7ae29d67b5eaddb870f2b2c8141ff30a5065ae4 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
-be9e4101db364fd7049ed398c502678cffc55b3d net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-5efc84a2fa1bb99455792d3af14b9da985a84c9e NFS: Fix initialisation of nfs_client cl_flags field
-71654d36689deae07b3bc7c62cf2ae8ca3ec6a08 NFSD: Fix NFSv3 SETATTR/CREATE's handling of large file sizes
-f8b9d7419ee620865734ee64d2c5a5fc412a0dc4 NFSD: Fix ia_size underflow
-46340d637935279bbb4106a805f38df9c53ce70d NFSD: Clamp WRITE offsets
-69707924e7c87c2939dadc7a7fa14c4506c66bcc NFSD: Fix offset type in I/O trace points
-46138f5df2a897f31a011bf11691dc0154bfe33e NFSD: Fix the behavior of READ near OFFSET_MAX
-dbcb8bac7e827e678e49dcac07bbd2782dbc3b2b thermal/drivers/int340x: Improve the tcc offset saving for suspend/resume
-893c3d07c1495444c77e31abc743f63a9798432c thermal/drivers/int340x: processor_thermal: Suppot 64 bit RFIM responses
-1a6db3057ff80194bf03b0f788518d68942bdceb thermal: int340x: Limit Kconfig to 64-bit
-12ec26b8e02e20f1e16787fd3c82c057db2c740c thermal/drivers/int340x: Fix RFIM mailbox write commands
-529c3236d307549225cfcdee69f217a597fd7c48 tracing: Propagate is_signed to expression
-65dde2f490f5b41afc956dec46ae224f163cd54e NFS: change nfs_access_get_cached to only report the mask
-4c59bfde0fc8cf1bf54de94519bf17fcb40b32c3 NFSv4 only print the label when its queried
-88e94a44326d693446c325de6f38956aa02a3412 nfs: nfs4clinet: check the return value of kstrdup()
-fe08d835a37a1fb16a6a0c9550491bbb4f2b28a0 NFSv4.1: Fix uninitialised variable in devicenotify
-4775791325a2a3bccd4d73fc5f8af8953409bf9d NFSv4 remove zero number of fs_locations entries error check
-ace7a68e74e0d9ce6e35c7ceca7f04d9708a3325 NFSv4 store server support for fs_location attribute
-b0ae89a62b14b10063a32c59c28a416990b9c831 NFSv4.1 query for fs_location attr on a new file system
-128113395afc4c004b395d2048d974c4afac64a4 NFSv4 expose nfs_parse_server_name function
-04390dcf442b9248ea22869057057aedcdb0aaaf NFSv4 handle port presence in fs_location server string
-f4ce2dd095aad013d6482b7ed02940bd52780ae6 SUNRPC allow for unspecified transport time in rpc_clnt_add_xprt
-974b658db784ef871ff1181ef6252ba48e4a4ab2 net/sunrpc: fix reference count leaks in rpc_sysfs_xprt_state_change
-27c9e5dae57219edb846f8c54d40a75be3c12931 sunrpc: Fix potential race conditions in rpc_sysfs_xprt_state_change()
-79317e6433f3f2aeaeac13f640eaafe2c13d8825 irqchip/realtek-rtl: Service all pending interrupts
-5141f45f5d544daa74f9fa746c6624f7aeb2aae0 perf/x86/rapl: fix AMD event handling
-2cdaf9d32e63632514edce7ff1a0ed17f12e69cb x86/perf: Avoid warning for Arch LBR without XSAVE
-27fa273ec9db1430c14e53b6f7fb93ce674786a2 sched: Avoid double preemption in __cond_resched_*lock*()
-cbb98962444f263588c15f38e8328b7e495d45dd drm/vc4: Fix deadlock on DSI device attach error
-b51200c9bfee598dd5c6e302e8c8d522cb7008be drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
-7074eb095f984a7e92a42368955636c90eae682a net: sched: Clarify error message when qdisc kind is unknown
-c90fccf296ad1f9ae1f56dd282a14187a00408eb powerpc/fixmap: Fix VM debug warning on unmap
-7b91cabba666a1157781a876622f86ee562a2700 scsi: target: iscsi: Make sure the np under each tpg is unique
-ea72596d2fcd76211f3aced81cff5ff605d0a400 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
-7a4f52fe5960dd06f39a45b78bbc140ca624bb82 scsi: qedf: Add stag_work to all the vports
-3727d571e67b82d401c6a77ec008352533939c22 scsi: qedf: Fix refcount issue when LOGO is received during TMF
-945722e4428d5c6d9490519ef79491c132b3459f scsi: qedf: Change context reset messages to ratelimited
-817015f3c858ca50fd75a7ad6b63a1e6747e405a scsi: pm8001: Fix bogus FW crash for maxcpus=1
-7b29beadd945a5b9e02be8520ea5885fa2a71ef5 scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
-2930b02ce705fbbcbd4c0ecb6779463e0b2eea0f scsi: ufs: Treat link loss as fatal error
-6a6ac48a0da8c15dce1b0e0d09ba58669639ab0f scsi: myrs: Fix crash in error case
-1b27babab3f2ec8fb58cc67369bf5ab0a6ec9bba net: stmmac: reduce unnecessary wakeups from eee sw timer
-8251e327e1f0f824c79359bfc88495840dc7a1f7 PM: hibernate: Remove register_nosave_region_late()
-1c6c586c5db827f63b8e10c781d9a57980b68ebb drm/amd/display: Correct MPC split policy for DCN301
-3fb6e843d11f9d11ff75a1582e3e796565aa1459 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-e7c62ffc4bc23f039e5bb8453633cfb604e7ac99 perf: Always wake the parent event
-4640c47669433bf0df52a0c4f7e3ae966589425b nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
-fabff1547444c827c07f8481eb26ed837f4b5bb3 MIPS: Fix build error due to PTR used in more places
-d7db779426c0b2f7a8f86cf5d42ec6864fc226c7 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-00e2f7a5de89442544b214d8ba4f4ca97016f514 KVM: eventfd: Fix false positive RCU usage warning
-52e2618b0521cab5a948333fcfae67343df0860b KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
-6613b40a714c1a84e40f5fca2267efdaf67e9b01 KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
-9e947d1d615351dc4efc8caca3db7988e0115140 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
-e3da56d442055ef44229d8b232856bd6ca63a015 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
-8b7fa26d954e4bc60992e172fdb546f026550317 KVM: x86: Report deprecated x87 features in supported CPUID
+01a17819fe81a8a38e873eae6dd3c1717fc10f66 integrity: check the return value of audit_log_start()
+6093da211af67bb965cc6ee4aab067f8e5da8e2c ima: fix reference leak in asymmetric_verify()
+729175f8b2bfd80fc3c34ba6f3c8d3000171f526 ima: Remove ima_policy file before directory
+ff77b3fab6bf5aec21dfdb2a3434f0c2b976f252 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+b429a7c01b31669f52a32c7c1bf7d255f5a159e7 ima: Do not print policy rule with inactive LSM labels
+dd37f5ecc253e9078150015c9ae9825b15e75f0c mmc: sdhci-of-esdhc: Check for error num after setting mask
+099ba843c8da05c814e13ec868bccb449949fbd2 mmc: core: Wait for command setting 'Power Off Notification' bit to complete
+6ad25a9142ec3fff40f9b62bad5fb7ce23977394 can: isotp: fix potential CAN frame reception race in isotp_rcv()
+b3656187b3ce6e56ece24f9c79356123590e2309 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
+2a578c1c83dbd08bb4df87342c4cb6eae47f7b5c net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
+84524afa5608c658a11015c1c06df6c246c7f432 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+821309bb48ee36ab6991382b1722e1e87343cb26 NFS: Fix initialisation of nfs_client cl_flags field
+5d1d448286dbf6b2a4f9f61db1943d9521eaf52b NFSD: Fix NFSv3 SETATTR/CREATE's handling of large file sizes
+acc32968582789c206329596062faccd20733d16 NFSD: Fix ia_size underflow
+70afd2ebd6cf9ba6840652992b0098bfe705f9b9 NFSD: Clamp WRITE offsets
+afd86dc762c0a8a9bd890949eaff37f14a22958c NFSD: Fix offset type in I/O trace points
+3ba2d7688cc634e16c0d326edce25a01ac2cba9a NFSD: Fix the behavior of READ near OFFSET_MAX
+a97d538d6a1c251fe724f709c8b49182bda3f690 thermal/drivers/int340x: Improve the tcc offset saving for suspend/resume
+24a25d458cfb3eae994c35c2603cdd33f69dedde thermal/drivers/int340x: processor_thermal: Suppot 64 bit RFIM responses
+2017073bf06296249246920b9ac6ffc82f13a515 thermal: int340x: Limit Kconfig to 64-bit
+f00fabaf780c0a00ff0d18b8829673f2a01da411 thermal/drivers/int340x: Fix RFIM mailbox write commands
+e1f362c855d4c6c2777cececcc70d253aa84e60a tracing: Propagate is_signed to expression
+59b0c9a5962627aca9c71565bb2cd20acea78b75 NFS: change nfs_access_get_cached to only report the mask
+a909e7929354324f7f7a2fcf2fd8faf7be6b3b37 NFSv4 only print the label when its queried
+7511a529850b68536e68f49016050f9c557bfd97 nfs: nfs4clinet: check the return value of kstrdup()
+fcb0188ff68a16f8cd2af14634217226482be732 NFSv4.1: Fix uninitialised variable in devicenotify
+26bc07cd5fa0ed9b51079dcc1b8f6f6ac64eb4fd NFSv4 remove zero number of fs_locations entries error check
+30fec1dcc0e30c9213432f14c9bf141080c7f22c NFSv4 store server support for fs_location attribute
+55df13fff350d936fff42107998a23a7bda53618 NFSv4.1 query for fs_location attr on a new file system
+2e8d0d3bcf4e4d584dd37d8acc683c1ffa55b769 NFSv4 expose nfs_parse_server_name function
+fbda91e059536a0d93c7e645e6ebe2c216f9200e NFSv4 handle port presence in fs_location server string
+274c7f4aa392699c23d24b858e02b9554b10059a SUNRPC allow for unspecified transport time in rpc_clnt_add_xprt
+49015668c3359ca86d6337d6f56991ebeffff6b2 net/sunrpc: fix reference count leaks in rpc_sysfs_xprt_state_change
+069d145c9d8618562311d700fa056c6c333824cd sunrpc: Fix potential race conditions in rpc_sysfs_xprt_state_change()
+4dc3607bcb4be37a5123ec53e568078c1fec72ff irqchip/realtek-rtl: Service all pending interrupts
+ad71c2bb32f67d44964bd542e7030db589b9773e perf/x86/rapl: fix AMD event handling
+a251e3e332d79ee0f6399566de8e5b838511a42c x86/perf: Avoid warning for Arch LBR without XSAVE
+d5a89623e6bca5e931fefc1c38d4c4df5d7e147a sched: Avoid double preemption in __cond_resched_*lock*()
+f7d45d8086a00b27a5c7b6ad44d0afbeead7a4a1 drm/vc4: Fix deadlock on DSI device attach error
+8d37cf5956c6b629ed1dbafcc04743cb0edd5408 drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
+2c4369719b2f2412de547eb457ee97c759f3118e net: sched: Clarify error message when qdisc kind is unknown
+9f040f769f7cabfd24bcb80435d2f32dd69225e3 powerpc/fixmap: Fix VM debug warning on unmap
+efc4e0971152a5540f5c1f343f1ceca95a94833c scsi: target: iscsi: Make sure the np under each tpg is unique
+a3cca2934f1302793a76f1f781d1d5c47ff9dfc6 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+6fa81845a132bffa0466c70a88e000920038703a scsi: qedf: Add stag_work to all the vports
+11fb4f5cf3417132af7554d3730805fa9c7dfd8b scsi: qedf: Fix refcount issue when LOGO is received during TMF
+2f178e3b40bb5d50fdb9636e5462677935af2eb8 scsi: qedf: Change context reset messages to ratelimited
+1e42d07681763a5f204d6019ce37fe90418c5d38 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+883bf5ea30259458b673c31a6191c8a7d184ddcd scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
+99684512a68cc46ae84bfeec353c480a5701de21 scsi: ufs: Treat link loss as fatal error
+8c003509acb4dea4f054c492fa34b05a4bc9100b scsi: myrs: Fix crash in error case
+715e8d44446431f90cf10c342be6265d18473b4d net: stmmac: reduce unnecessary wakeups from eee sw timer
+48370c4e19e841d3f79f256426a2fde8aec51fe7 PM: hibernate: Remove register_nosave_region_late()
+a874c7a4fa66a4da708e745506098cc7750ee7d1 drm/amd/display: Correct MPC split policy for DCN301
+436c51a46812ae7b910a0a5f1fdf6bc373f5d564 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+f9f453b4569cb1958112304f81d2b604b936be32 perf: Always wake the parent event
+c0b0098aece751207e818ea5837d309582e28dd6 nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
+b94b6bfe5a9276319362469f34bc37f6aaeff2ef MIPS: Fix build error due to PTR used in more places
+f77da212e155fb6774aeec929f6018eb3f2bfc0a net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+7f0fc99a66177815a36890bd8732f7d816c72b0b KVM: eventfd: Fix false positive RCU usage warning
+47d2a24df076cc995514bcf042da8f2c5956f10e KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
+3fcff19ca5b3e9caad18644072d2f908bc144d50 KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
+64221c0f47d83e7c8f635383d061c45541b3739a KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
+0f699cb6427be42d2208894a8cb3fd260c43d4b2 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
+540f694e467563d76381236b78ba8351c4ee575b KVM: x86: Report deprecated x87 features in supported CPUID
+428b69bd9edcb56fa72c8e10981bcd3cea627690 riscv: fix build with binutils 2.38
+5f9d99d385e2bf08e873c4344bf9cc405f92be28 riscv: cpu-hotplug: clear cpu from numa map when teardown
+bf8241269ffab1288fa932a0cd8d525f7859a1db riscv: eliminate unreliable __builtin_frame_address(1)
+6baad5bd278f7e8c639b37c1e181364db4d3c74b gfs2: Fix gfs2_release for non-writers regression
+7a775f9ba5d3e1e3d157f1306b25deb20c91e5dd ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+22df9a433abacdcc5d64b62a14ab592ca14c24b3 ARM: dts: Fix boot regression on Skomer
+ea3d424361bd3b2f63034322d451166e3484c215 ARM: socfpga: fix missing RESET_CONTROLLER
+6f006009282b97603e4d39649d9bf8e5bc69d722 nvme-tcp: fix bogus request completion when failing to send AER
+9136934c416848d8813492c3e09d1b59e728119a ACPI/IORT: Check node revision for PMCG resources
+bd5d5b9923f5f522b7d84299d4b463a482476a05 PM: s2idle: ACPI: Fix wakeup interrupts handling
+29edc8ca50584763a89644bcb561701539a8cf1a drm/amdgpu/display: change pipe policy for DCN 2.0
+b66d105a931780122f8263f5833629ccbcb923ab drm/rockchip: vop: Correct RK3399 VOP register fields
+708ff8a654ea271ebc382d9c47e656e68644a6bb drm/i915: Allow !join_mbus cases for adlp+ dbuf configuration
+a05bcd9b669bbdf5341b8957bada5e3f50482d89 drm/i915: Populate pipe dbuf slices more accurately during readout
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b69162b74d97-15a11a002fd2.txt
+Content-Disposition: attachment; filename=revlist-15a11a002fd2-599d1d1b6ee5.txt
 
-b3dfe0eb8e0c5918387a625c584455e551a4a9c2 integrity: check the return value of audit_log_start()
-c2d3f6c2a8d03fae6c3bd2759e6578a25a8c3fe9 audit: don't deref the syscall args when checking the openat2 open_how::flags
-7584ab880126af4659d2cc60859b54770ea6929f ima: fix reference leak in asymmetric_verify()
-38a7b1647e256e010e94e504b1ebddeadc7a4cce ima: Remove ima_policy file before directory
-073ab6797c3bdfd94763c5d16d14fe511dfb9885 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-0f59b5935d7e5b3b37171b610635ef590c649fb8 ima: Do not print policy rule with inactive LSM labels
-e1d859b24a0c902bd7fed76193179bc24316ec77 mmc: sdhci-of-esdhc: Check for error num after setting mask
-43035e2149b7d13b2f27b8cab76199b02a32c23d mmc: core: Wait for command setting 'Power Off Notification' bit to complete
-f8071dbde8818df783dde146bbf0b41282c20ae0 mmc: sh_mmcif: Check for null res pointer
-d246a34b7f3e247e89c5234739c8095b7fe71eb2 can: isotp: fix potential CAN frame reception race in isotp_rcv()
-de80210c3a05f4a61474c3057fdf6fe8bf334653 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
-818091f3581d2fae0038e541d0e2f1660bf1ba88 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
-73817ae4992d5e93bff8b1b83b2878ad9e4b6718 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-b2ec00fec69d5afe960a9a6185499e07694327bc NFS: Fix initialisation of nfs_client cl_flags field
-64f0f1377f251e804fd3dc1138a66d212b9da934 NFSD: Fix NFSv3 SETATTR/CREATE's handling of large file sizes
-5ef3e440a6ac648102c1f056ff52134e2c06601a NFSD: Fix ia_size underflow
-4b5396ba1d463eed677034d6eb15d1a8e1fd820b NFSD: Clamp WRITE offsets
-e4fa05162641fb66c8815ce334f9f0bb8f2da3a2 NFSD: Fix offset type in I/O trace points
-359ea638fd31238437096c2f8be89b6b390683b4 NFSD: Fix the behavior of READ near OFFSET_MAX
-80f71fac546702e5742408d820f46c29571a7858 NFS: change nfs_access_get_cached to only report the mask
-ecc7a4bfda35cfe43a0b769d1cef36d60ceda6da NFSv4 only print the label when its queried
-ae4f211d9de066ba4f25495540bf4ac74fbf3739 nfs: nfs4clinet: check the return value of kstrdup()
-81a0cf04d04f5b5e9cce50ffc76fa76fb8244469 NFSv4.1: Fix uninitialised variable in devicenotify
-03318eae0aff58097c13dcac9f2aa9272d00e871 NFSv4 remove zero number of fs_locations entries error check
-e93d7df4e71e461b1e503db9e27b9e11df033f13 NFSv4 store server support for fs_location attribute
-67e3668b1307dbd886975fab25708e3dccc23080 NFSv4.1 query for fs_location attr on a new file system
-1c6c546e7855039a657ae528f556863fac29c731 NFSv4 expose nfs_parse_server_name function
-6b4afe56332c84779b80ac19c3ab146fc130aba0 NFSv4 handle port presence in fs_location server string
-0d652af350e9f2ecd2cb2629d65b074b1604aad5 SUNRPC allow for unspecified transport time in rpc_clnt_add_xprt
-a446d064591115816327ec0e64526c497f78c4ab net/sunrpc: fix reference count leaks in rpc_sysfs_xprt_state_change
-91e7ff5660f42c436ff78c82481ae40c5180298a sunrpc: Fix potential race conditions in rpc_sysfs_xprt_state_change()
-bf89d0ce0ad7b4f55e9e9382decc372c63c2fc61 irqchip/realtek-rtl: Service all pending interrupts
-9e81132081ed70b4cf1d0127dab2117b11da183d perf/x86/rapl: fix AMD event handling
-edb68b8a0d2795ef5acd8e45a000ae53f66d2762 x86/perf: Avoid warning for Arch LBR without XSAVE
-e65f1ffe52586d07fd0c79a76a14f61fdc06363c sched: Avoid double preemption in __cond_resched_*lock*()
-41444b981759aca72f79729f8d0eb564757a9f57 drm/vc4: Fix deadlock on DSI device attach error
-89f40152a27aa672523da8c57d9ad51f70ff8b3e drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
-1da4753de224e8f560ddc4b582b1d90b3af1f420 net: sched: Clarify error message when qdisc kind is unknown
-5ef80195fbbf9b3becb732cb6b424925c4864bee powerpc/fixmap: Fix VM debug warning on unmap
-b89bf217c2a83f99f1549101499418f917a0cc56 s390/module: test loading modules with a lot of relocations
-fc6cda8d9af7f198089212b8f892223b09b346bf arm64: Add Cortex-X2 CPU part definition
-5106861070d50ab984fc2e85b60ec92e5d7018cd arm64: errata: Update ARM64_ERRATUM_[2119858|2224489] with Cortex-X2 ranges
-3f65a6d3a781940292c69870346f8771ecd5fe64 scsi: target: iscsi: Make sure the np under each tpg is unique
-c1eb72c7deb7210b611a5cda070f35a3b46bf8c4 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
-b5c4f5e774c6c3f8e585feaebded0a54a5ebe589 scsi: qedf: Add stag_work to all the vports
-320e85370f1a03a50f4a7edf4262abdb4f2e01bd scsi: qedf: Fix refcount issue when LOGO is received during TMF
-a17a6cea912639dab3ea5a71367105e6bb388cb9 scsi: qedf: Change context reset messages to ratelimited
-0be26431d55f011121a165acd49d5d66d62c1237 scsi: pm8001: Fix bogus FW crash for maxcpus=1
-54b35d728bbe8f9645410bc84556509b6c0b5ef1 scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
-59bf51d225e3bfbcc53ebf24258174c261654ff2 scsi: ufs: Treat link loss as fatal error
-7e87ada5449c73a9171d7c8f285e4ec8a2be4e72 scsi: myrs: Fix crash in error case
-618f07ebea5e1aa9b94078fe584ce04b2f183669 net: stmmac: reduce unnecessary wakeups from eee sw timer
-5ca20cce0b027eb961d02671d21ef03c2dd1014c PM: hibernate: Remove register_nosave_region_late()
-ee6bf2699858eb5e6180ae8e68c0ab4ea6833c8e drm/amd/display: Correct MPC split policy for DCN301
-942b0c420c98a4507e186caab828f0776ceae0f6 drm/amdgpu/display: adjust msleep limit in dp_wait_for_training_aux_rd_interval
-1cabbc28994485772978d1c3f5941deaf443516f drm/amdgpu/display: use msleep rather than udelay for long delays
-f3cab548dda85fc8e5b5d9e5220e4313cb2e9a37 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-379d4b3373652d02ae226b933c764e37734524e2 perf: Always wake the parent event
-70a6974c5c62ee9d76e654a9a02f1cc5025a8f1a nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
-47b970b4f923a0b475c27ce2cb268b6e52bfadaa MIPS: Fix build error due to PTR used in more places
-cb82e0dd08ff192293f5d9b9e6fd7730aba3fe08 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-d0469bce27faff07049667d53e5a89de9f509a25 arm64: errata: Add detection for TRBE ignored system register writes
-65a9f551a61a3ce69e7ef1b3f30f8f0401fc2fd8 arm64: errata: Add detection for TRBE invalid prohibited states
-7266d2614e762a2b804ddeeb879cfd1bdef0ab7a arm64: errata: Add detection for TRBE trace data corruption
-05f55cd24fbdc9019dc34699da95143926151ee5 arm64: cpufeature: List early Cortex-A510 parts as having broken dbm
-940fd3f012b83fda3b42c480e3bf34f7d8656664 kasan: test: fix compatibility with FORTIFY_SOURCE
-675d715e326fdbdf62bc10ac72b32c29c911c2a7 KVM: eventfd: Fix false positive RCU usage warning
-35d8c55493710ac033eeb7acf9f92a2eb2e6e41e KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
-f570f414c941b923d66c66200a563baa34a944ba KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
-6c6c6e1a1003b29b7658bbc8eb65cd9dc3943293 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
-3f6362ad8c9a22f084d27966ee6223be44eae924 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
-15a11a002fd296068a668f1b31aec78f357696e1 KVM: x86: Report deprecated x87 features in supported CPUID
+4ee468281cdb86942e522997326b1a8474222c9d integrity: check the return value of audit_log_start()
+09211108b044277717f76a9a7606f5e71c603cb0 audit: don't deref the syscall args when checking the openat2 open_how::flags
+a64f5abc69fe2d0f107c1b0aa99065cf6a93bbcc ima: fix reference leak in asymmetric_verify()
+7a0b6d8495fe5f7e13398b2cf3248f342e0d034a ima: Remove ima_policy file before directory
+6874ddf4ebaf83194ff3fc90d1f02231f5b25d9d ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+309ae62208d06a5e0013fea69e62281e9a9dbd26 ima: Do not print policy rule with inactive LSM labels
+1da701a7307b561d78318b1d507f100e0abea1bb mmc: sdhci-of-esdhc: Check for error num after setting mask
+40eb139471490467756eee255e7f557afaababda mmc: core: Wait for command setting 'Power Off Notification' bit to complete
+dd9b57c6510c1e7e4dc33da72495335a6755c8f7 mmc: sh_mmcif: Check for null res pointer
+f6919eed53dbaf972ced3ded21e11d29c3ab99a6 can: isotp: fix potential CAN frame reception race in isotp_rcv()
+3129d1a9d4b9ec48c6d8a61711077279f1d2d441 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
+ce3a647618918718032cc534955d2dac5f027a86 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
+8a87965d93788f9a794c131908ecdc4e6e41054a net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+a308a0c9703b0a37dfe141e3e64e2cfd40665e38 NFS: Fix initialisation of nfs_client cl_flags field
+0a7fefe443701a053fe9c836fd92d0469fea5ea2 NFSD: Fix NFSv3 SETATTR/CREATE's handling of large file sizes
+00f17fc145b08b8281b529f52c8d3ec4d3423943 NFSD: Fix ia_size underflow
+5c437618071fef0b2ad57cace7b9b60a54ee6cba NFSD: Clamp WRITE offsets
+e640d78a59b6788d4dfd89d8798897618db0e7e7 NFSD: Fix offset type in I/O trace points
+3035a017c9f6134545a2bfb22e647e975612aacd NFSD: Fix the behavior of READ near OFFSET_MAX
+894ed358ee33d2fd21c34401e0174c040e18297c NFS: change nfs_access_get_cached to only report the mask
+59d377c04911cd1e8dbefe5d908d3f41626b4f84 NFSv4 only print the label when its queried
+e59287ee3c3d93f9f9faf60f8b60e64148314168 nfs: nfs4clinet: check the return value of kstrdup()
+bc63f7cf14fa591bddec652c0725cda2b8824962 NFSv4.1: Fix uninitialised variable in devicenotify
+7c77cf0e5690b32a678f5c93fb2ae5565e6af812 NFSv4 remove zero number of fs_locations entries error check
+f6c782424bfb6ec12393a8f6676b7a0b5248eb1d NFSv4 store server support for fs_location attribute
+8014d8818d9237a28bfc96d508f68f84c9b6782a NFSv4.1 query for fs_location attr on a new file system
+4690b7c9a527ad59354311a0714f98855ef9637f NFSv4 expose nfs_parse_server_name function
+4d3a242e919769667fe544015653c6aedb6c01cb NFSv4 handle port presence in fs_location server string
+44a36d43c9e7adcf214523969210efd62151936a SUNRPC allow for unspecified transport time in rpc_clnt_add_xprt
+287a609f943256e3b57689ac222ecfee351a3a87 net/sunrpc: fix reference count leaks in rpc_sysfs_xprt_state_change
+26c613845a0e446ef6a18f4677ff9044337757ff sunrpc: Fix potential race conditions in rpc_sysfs_xprt_state_change()
+377405fdaf2a874f512a936fe491166945296ac2 irqchip/realtek-rtl: Service all pending interrupts
+6a63f858fbbe263d43ca2fb93cf6190b91efc465 perf/x86/rapl: fix AMD event handling
+2fe3e539a37add70e491eeaab1d9ea9a66ade9ea x86/perf: Avoid warning for Arch LBR without XSAVE
+bfc6d306f097fca23c3f2255d1c5196d2a15cc5e sched: Avoid double preemption in __cond_resched_*lock*()
+62a679c0d0bbf86af3df38b14b06cc40472363ba drm/vc4: Fix deadlock on DSI device attach error
+e33bbbf4dd003ba45b43e9f6b4fe0928609ec176 drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
+a94e02c7d969f23bc36b53307c93ef7c2f9bc94f net: sched: Clarify error message when qdisc kind is unknown
+8910bded4c94a774bb2961b5927ae49d6bca23a3 powerpc/fixmap: Fix VM debug warning on unmap
+55a5ec0660414ed10815e2191d75d87f6678e529 s390/module: test loading modules with a lot of relocations
+870c35b7611618cde037a13acd598a5954747109 arm64: Add Cortex-X2 CPU part definition
+5da7b9ccf35cd9bd7ceebfec90cbb9f3bf4dd68b arm64: errata: Update ARM64_ERRATUM_[2119858|2224489] with Cortex-X2 ranges
+cdda6861ab29142c92e9df84c5e42e29e301e2d8 scsi: target: iscsi: Make sure the np under each tpg is unique
+c1396b8ea26848e205c7e15301e1fdabbf456219 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+928572aafc8c478b0b6aeccdfb1b49df67b301fb scsi: qedf: Add stag_work to all the vports
+e660797f5fb6907e6eaf998b69c1e4372c9f0c20 scsi: qedf: Fix refcount issue when LOGO is received during TMF
+7fe2d05c6bb78ac03ff88261d17c2a6959eecc99 scsi: qedf: Change context reset messages to ratelimited
+41261508f9a7e90b2445dc445d7f0d8509b20a21 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+bdeaf494b839976dd1e971b36a9938604f512b49 scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
+b147614a20a0eeaa193b104f91bf91357692028d scsi: ufs: Treat link loss as fatal error
+8345db2a1b256ebb6cf524888479ffbba574b05a scsi: myrs: Fix crash in error case
+e675b29898fb93b7cb1314224404b208c5df83d8 net: stmmac: reduce unnecessary wakeups from eee sw timer
+8882ff794143dcc81c30a414f1ea6bb0c38ea6cd PM: hibernate: Remove register_nosave_region_late()
+6d3f0c4965388c6b406006ebc20559bad3a9c8fe drm/amd/display: Correct MPC split policy for DCN301
+c063c0815ea6227c70ba64aec92efb32ef6d8f59 drm/amdgpu/display: adjust msleep limit in dp_wait_for_training_aux_rd_interval
+d42ead6d7f2d80357143ff1a79c0c68930018c06 drm/amdgpu/display: use msleep rather than udelay for long delays
+d78b2133e2c07547a552e2282b0d7bb6ee451f05 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+574ee6b086de63e8798b82041566c1e5b295590e perf: Always wake the parent event
+aa3da079dc064c6487b9f40a8fc94b036a101f9c nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
+3749b0f0c5d3d043f8bc62cbb528f9095d2d97da MIPS: Fix build error due to PTR used in more places
+63ac2ce49c514c095ffc1dd6d16160a51896807c net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+dca3e8318e2a82fcc3c6e22b117efaf600f7f838 arm64: errata: Add detection for TRBE ignored system register writes
+727c61abdc62c407e1fd0f109844bbea0debea6a arm64: errata: Add detection for TRBE invalid prohibited states
+6eb9ea5408bbc3a3793926066220cd1311cd0108 arm64: errata: Add detection for TRBE trace data corruption
+95412b469a38da1fb5dbdeb7a4d27f01482a02cc arm64: cpufeature: List early Cortex-A510 parts as having broken dbm
+83b0e96806a9c4ac311b3d892e4960d9242094c1 kasan: test: fix compatibility with FORTIFY_SOURCE
+2848463cacc10261f857fdb13ae5f78166ec500d KVM: eventfd: Fix false positive RCU usage warning
+970f535c51cb7c8bb1964986e0798b7a1fd6b9b4 KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
+91cf7c2dbcbfc24d94bf15fb7ba11e0454f2146d KVM: nVMX: Also filter MSR_IA32_VMX_TRUE_PINBASED_CTLS when eVMCS
+2d472c33ff08876d4e1343492e930ade046ec377 KVM: SVM: Don't kill SEV guest if SMAP erratum triggers in usermode
+9b5d9327d62080b5509e26356679cccc1a18f594 KVM: VMX: Set vmcs.PENDING_DBG.BS on #DB in STI/MOVSS blocking shadow
+5688054a6f0b691b95cd821565ca96e0f5c8a49e KVM: x86: Report deprecated x87 features in supported CPUID
+20cc712b0da26eac1390e51ef48cbf53dc36f7b1 riscv: fix build with binutils 2.38
+7b7f3581e5c71421e87f53b3d0222455ab5b4cb8 riscv: Fix XIP_FIXUP_FLASH_OFFSET
+20755cec11df8060471d535c72be2b0c44837e84 riscv: cpu-hotplug: clear cpu from numa map when teardown
+756609b780c961050d4ce04bfcdd106099db9b4c riscv/mm: Add XIP_FIXUP for phys_ram_base
+ab23852e9479309e8c7a92ea91045badea5cc521 riscv: eliminate unreliable __builtin_frame_address(1)
+a4af41be2f1b9ef779cbfd1f236af43f860e02a4 gfs2: Fix gfs2_release for non-writers regression
+bc368af87324df219df83511a03e4728c3e3660f Revert "gfs2: check context in gfs2_glock_put"
+25e1dd7d743ec27e6e2267c732999f1c7f3b28d8 Revert "PCI/portdrv: Do not setup up IRQs if there are no users"
+0cd662f6b91ef2308c5db8350b32a5d67a181234 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+70e45ce54c7423b6af366734218dcb222ef9585e ARM: dts: Fix boot regression on Skomer
+2d6d61cd55fd88c6a834d28b0992b9428df2bb6d ARM: socfpga: fix missing RESET_CONTROLLER
+48cebb63ac803af044ef78c266df03fc6527295c nvme-tcp: fix bogus request completion when failing to send AER
+37c0f3c149ff3277d7b88a435a4fced539352f8e ACPI/IORT: Check node revision for PMCG resources
+9ca5ebfde14d6ec127f4937a71e8f86677fde66c PM: s2idle: ACPI: Fix wakeup interrupts handling
+b5f3d392f5f1a2758f638e47fbec079cf9067423 drm/amdgpu/display: change pipe policy for DCN 2.0
+ae0cfe84524fac6986ebe56cd16fd6c1d09ea64b drm/rockchip: vop: Correct RK3399 VOP register fields
+fb1bc4b9ebbeff64ed78f846c4e6463ebb5c27dd drm/i915: Disable DRRS on IVB/HSW port != A
+3b8acede8c60efb40a49455ca29ce9473ded7ff6 drm/i915: Allow !join_mbus cases for adlp+ dbuf configuration
+42d4683a53d7f3151e0cca702d882f310f3a4308 drm/i915: Populate pipe dbuf slices more accurately during readout
+599d1d1b6ee53eeb132a0d0d6c5e43b3669b07a8 drm/i915: Workaround broken BIOS DBUF configuration on TGL/RKL
 
---===============2324632268463774693==
+--===============1553119333987906583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70f5872b239e-095bafe8b4e8.txt
+Content-Disposition: attachment; filename=revlist-095bafe8b4e8-1cb973926253.txt
 
-d91dfb9f71c6abfc197dbeecd0f754d2d0fa84d8 integrity: check the return value of audit_log_start()
-d397dd15e3df3a586aea4d37941e3f379a2cf5cb ima: Remove ima_policy file before directory
-90d1ceabd8a82486c6ea8d739a193dddee9a081c ima: Allow template selection with ima_template[_fmt]= after ima_hash=
-3483f692d296d8e4fa92d929ec5c9712a7d8f084 ima: Do not print policy rule with inactive LSM labels
-a7eeb712bc0bdcc3907733474549679e99786c58 mmc: sdhci-of-esdhc: Check for error num after setting mask
-5ec0d8cff363b172fca51f642077917686918207 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
-460df8980641bd75f941c65194606c27e12177d1 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
-90fef338d06a152f089e5462cd8094170f841248 NFS: Fix initialisation of nfs_client cl_flags field
-707d05b7d0488ef25985aacb073cdb29ca87449f NFSD: Clamp WRITE offsets
-8c893e8e1f6a7d5a9f2d9477058d58100ec35671 NFSD: Fix offset type in I/O trace points
-4dfd4ae69951cfc0e92db88b15eb7cb83425bbaf nvme: Fix parsing of ANA log page
-2a6e8c47197cee952e800bfa19294eb355c812f2 NFSv4 only print the label when its queried
-57570a3dda8285b7b3ec82be3527f5f08123b42b nfs: nfs4clinet: check the return value of kstrdup()
-8669a27a5cbf49f4f61a335b7fce3749ab41b1fb NFSv4.1: Fix uninitialised variable in devicenotify
-410347a63f7a6ce57775d13129abe0270b599fd4 NFSv4 remove zero number of fs_locations entries error check
-113e32f714ba0c154d1d374bb14ce3fde7535dec NFSv4 expose nfs_parse_server_name function
-3adbd9c6d045718feeb67fdac2ad0e9a98647867 drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
-b1a71ecb7ad5f9ec9abe03c83621e58f4dd1446e net: sched: Clarify error message when qdisc kind is unknown
-1b2e1dc93202bfb29de039f4d427c1319e217ee7 scsi: target: iscsi: Make sure the np under each tpg is unique
-c9a69746002f8a9ca91ac8cfdadbe94c0169c331 scsi: qedf: Fix refcount issue when LOGO is received during TMF
-db259984f6570180026fc0e19dced8740fb358af scsi: myrs: Fix crash in error case
-e9e6be3e614b120b4af0490b52a85c4a05735913 PM: hibernate: Remove register_nosave_region_late()
-5e8245e342803f0969a827fae6e2077b35ab8dbc usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-45744e765f18bd9f8d1f63788c882325aaaaa097 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
-23fe32930d305797ec4b52f26df36fd7bffd4f43 KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
-d4b4868f5e98a3e81140527fca31d51cedce148e bpf: Add kconfig knob for disabling unpriv bpf by default
-09b130f86a3b5f715c6b65ba8f3853a7c2a82db6 riscv: fix build with binutils 2.38
-b0b147246a5ac81691526495574df0a5e4209cc8 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
-04031ed8199fdfa807d35f7fe8a763a4a2d5f471 ARM: socfpga: fix missing RESET_CONTROLLER
-8fe6bccb0bf44f2a0fd74642a1aec060b02b23b3 nvme-tcp: fix bogus request completion when failing to send AER
-69cd3b1d71737ef77726b10d83b86d641208d7ee ACPI/IORT: Check node revision for PMCG resources
-095bafe8b4e87fdd010731d3d1338aa227faed66 PM: s2idle: ACPI: Fix wakeup interrupts handling
+466b90cd5b3f233b5e3f83ddad7aa32bb8fb88d4 integrity: check the return value of audit_log_start()
+2761a7d873f6c6e66f292b28a868403defe34fdb ima: Remove ima_policy file before directory
+3b87708bedd4649daed4e478ebaaf8deba6f6241 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+7a0e3edd17d25475ebda092d0ab4a86e575ab0c9 ima: Do not print policy rule with inactive LSM labels
+2670b3077db5f6ce949f88877268c17f721d3d37 mmc: sdhci-of-esdhc: Check for error num after setting mask
+432f2ae0f14055d41f72ddbb5a317f6320587111 net: phy: marvell: Fix RGMII Tx/Rx delays setting in 88e1121-compatible PHYs
+d162f7958b9c63296abb8486ab9cb771719c6fc2 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+03e8d9289daf891be8d48018759837114ce0a139 NFS: Fix initialisation of nfs_client cl_flags field
+0ab3c33da10981a54bb5fe9b4278d23515e4dc27 NFSD: Clamp WRITE offsets
+814330ee3ccbef9f33c4a7e8b10af76ad448f9dd NFSD: Fix offset type in I/O trace points
+519fe9acf28b6479f48372781b1cf527a48260c0 nvme: Fix parsing of ANA log page
+fea79e2358f2684ba23b03bdffac37b8c11ffb04 NFSv4 only print the label when its queried
+971b625066b89ac07adbeee1d52f2ad8ed4bad43 nfs: nfs4clinet: check the return value of kstrdup()
+f783c7756aba1773c759786788d02b26e4fa3d91 NFSv4.1: Fix uninitialised variable in devicenotify
+ebc0a20d619e8e8c4b4b4e32de4b7491335ea11f NFSv4 remove zero number of fs_locations entries error check
+ae5b854f760ef659da1afe852498f569f13e17d3 NFSv4 expose nfs_parse_server_name function
+359cd3dcfd956137cb5887841a288bd9147cb4c4 drm: panel-orientation-quirks: Add quirk for the 1Netbook OneXPlayer
+a830fe42e6b12b55c4dcb419af5d41edc29bd11f net: sched: Clarify error message when qdisc kind is unknown
+4d34e20e1148a2a683a975e59f16267dbf49f058 scsi: target: iscsi: Make sure the np under each tpg is unique
+667d3210b67be86572d9ab016e057e4685af84e3 scsi: qedf: Fix refcount issue when LOGO is received during TMF
+d8604b996bcccc913de87877638f34681d34eb98 scsi: myrs: Fix crash in error case
+732e2411518f56815b36c3c3605fea5324993b32 PM: hibernate: Remove register_nosave_region_late()
+a9dee3f888889b25df50b2da8674132dc51061cc usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+405cdba1358fd0fa855da2de0cd6df04cdc0d9e7 net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+6494c3e6aec43f556e1918b6f67e1390c8a6c193 KVM: nVMX: eVMCS: Filter out VM_EXIT_SAVE_VMX_PREEMPTION_TIMER
+9122532183542077d46d4c83b7ffcb17ca201b65 bpf: Add kconfig knob for disabling unpriv bpf by default
+4947336f414db7f7de0c4943138173e7743bfdca riscv: fix build with binutils 2.38
+66cdbe7ae1b4ebe784133e679259ccc77d2633ff ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+11c02ea079505d34e667e16faf8f8444e9da0a95 ARM: socfpga: fix missing RESET_CONTROLLER
+0e64bb397ff5377b155bd938605b1675f944e907 nvme-tcp: fix bogus request completion when failing to send AER
+89912b4826bb2293f891736684e3948cdebaa9d8 ACPI/IORT: Check node revision for PMCG resources
+1cb97392625343e7c9634707c477ad415827b153 PM: s2idle: ACPI: Fix wakeup interrupts handling
 
---===============2324632268463774693==--
+--===============1553119333987906583==--
