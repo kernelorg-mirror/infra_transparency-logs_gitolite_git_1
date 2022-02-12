@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============7690338782293772326=="
+Content-Type: multipart/mixed; boundary="===============3301094176876371921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Feb 2022 11:16:10 -0000
-Message-Id: <164466457048.20679.14999889375492535940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pavel/linux-leds
+Date: Sat, 12 Feb 2022 11:20:45 -0000
+Message-Id: <164466484529.23622.3388103485226907582@gitolite.kernel.org>
 
---===============7690338782293772326==
+--===============3301094176876371921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/pavel/linux-leds
+user: pavel
 changes:
-  - ref: refs/heads/x86/sev
-    old: 20f07a044a76aebaaa0603038857229b5c460d69
-    new: 5f117033243488a0080f837540c27999aa31870e
-    log: revlist-20f07a044a76-5f1170332434.txt
+  - ref: refs/heads/for-next
+    old: d949edb503b13a0f05e5931d2340d9e4cfdef264
+    new: dfd42facf1e4ada021b939b4e19c935dcdd55566
+    log: revlist-d949edb503b1-dfd42facf1e4.txt
 
---===============7690338782293772326==
+--===============3301094176876371921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20f07a044a76-5f1170332434.txt
+Content-Disposition: attachment; filename=revlist-d949edb503b1-dfd42facf1e4.txt
 
+b6d42baddf85310eb2c455cf78af2580773c4ff0 KVM: x86: Unexport LAPIC's switch_to_{hv,sw}_timer() helpers
 c3e8abf0f3536a46a235b0533149c2b2c2bbac27 KVM: x86: Remove defunct pre_block/post_block kvm_x86_ops hooks
 31f251d4ddfa464c6dd92ee873b9b223e992a085 KVM: SVM: Signal AVIC doorbell iff vCPU is in guest mode
 202470d536b2cad22fa859f3e01202571c49ded9 KVM: SVM: Don't bother checking for "running" AVIC when kicking for IPIs
@@ -1049,6 +1050,5 @@ c3bf8a14408ad2b84fe48246fa66d1459480ee6b Merge tag 'perf_urgent_for_v5.17_rc3' o
 18118a4298fd7b0d686ef61be6f2622a77f51b96 Merge tag 'perf-tools-fixes-for-v5.17-2022-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 d8ad2ce873abab1cfd38779c626b79cef6307aac Merge tag 'ext4_for_linus_stable' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 dfd42facf1e4ada021b939b4e19c935dcdd55566 Linux 5.17-rc3
-5f117033243488a0080f837540c27999aa31870e x86/head64: Add missing __head annotation to sme_postprocess_startup()
 
---===============7690338782293772326==--
+--===============3301094176876371921==--
