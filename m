@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 12 Feb 2022 00:21:16 -0000
-Message-Id: <164462527622.2162.9444102941895212436@gitolite.kernel.org>
+Date: Sat, 12 Feb 2022 00:28:17 -0000
+Message-Id: <164462569786.7138.7559209680989641147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,17 @@ repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: 3fa9a567369f58cc14590bfbeac511c637eb18af
-    new: 1d82f9be3486bfb30965dcb21227c3054eabc9e4
+    old: 1d82f9be3486bfb30965dcb21227c3054eabc9e4
+    new: 390ab8960817f701ac6ddae95c6c67e1e78cce85
     log: |
-         a7c9013216f399791ca354cc2e0f4a444837fe39 dt-bindings: arm: rockchip: Add Pine64 PineNote board
-         79c5f0e52d29a688a951fc818394b529e7e77e3e arm64: dts: rockchip: Add pdm node to rk356x
-         d449121e5e8addcee654250cec298c887ecafb32 arm64: dts: rockchip: Add Pine64 PineNote board
-         1d82f9be3486bfb30965dcb21227c3054eabc9e4 Merge branch 'v5.18-armsoc/dts64' into for-next
+         be4e65bdffab5f588044325117df77dad7e9c45a ARM: dts: rockchip: reorder rk322x hmdi clocks
+         3916c3619599a3970d3e6f98fb430b7c46266ada ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+         390ab8960817f701ac6ddae95c6c67e1e78cce85 Merge branch 'v5.17-armsoc/dtsfixes' into for-next
+         
+  - ref: refs/heads/v5.17-armsoc/dtsfixes
+    old: 2e8a8b5955a000cc655f7e368670518cbb77fe58
+    new: 3916c3619599a3970d3e6f98fb430b7c46266ada
+    log: |
+         be4e65bdffab5f588044325117df77dad7e9c45a ARM: dts: rockchip: reorder rk322x hmdi clocks
+         3916c3619599a3970d3e6f98fb430b7c46266ada ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
          
