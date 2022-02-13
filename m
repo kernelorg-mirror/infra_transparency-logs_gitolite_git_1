@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 13 Feb 2022 17:55:19 -0000
-Message-Id: <164477491920.12738.8275786944083993108@gitolite.kernel.org>
+Date: Sun, 13 Feb 2022 17:56:26 -0000
+Message-Id: <164477498607.13217.15784991148050159808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 342c6c5e2260875e0716a9f798dd89da431e679f
-    new: b946e9491a048755aa9261e7d9f0d012ba52c740
+  - ref: refs/heads/fixes-togreg
+    old: ea85bf906466191b58532bb19f4fbb4591f0a77e
+    new: ce2541b29ba9000b41eb32192cb28b639ab11293
     log: |
-         261ecd47b4d17c186aa17202f8ee325f380610e0 iio: as3935: Use devm_delayed_work_autocancel()
-         b946e9491a048755aa9261e7d9f0d012ba52c740 iio: ssp_sensors: Make use of device properties
+         ce2541b29ba9000b41eb32192cb28b639ab11293 iio: mma8452: Fix probe failing when an i2c_device_id is used
          
