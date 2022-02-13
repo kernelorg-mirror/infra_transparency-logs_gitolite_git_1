@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5587709639469726334=="
+Content-Type: multipart/mixed; boundary="===============2599585992710193388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 13 Feb 2022 01:05:04 -0000
-Message-Id: <164471430416.3374.17978472236511838550@gitolite.kernel.org>
+Date: Sun, 13 Feb 2022 01:09:19 -0000
+Message-Id: <164471455991.4788.6461883916583159324@gitolite.kernel.org>
 
---===============5587709639469726334==
+--===============2599585992710193388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 456af6c64b9af742acf79328b75be27fb03afeb4
-    new: 1250498b1d25ab9ceca834c3fe653cc142d15cc5
-    log: revlist-456af6c64b9a-1250498b1d25.txt
+  - ref: refs/heads/jd/fast-mix-lfsr
+    old: 2cdf0f5c31f7568d709533d93b746ae8932dfa99
+    new: 7fbcf700feb7daa3b4afaff1eabf9582ea4d3a0e
+    log: revlist-2cdf0f5c31f7-7fbcf700feb7.txt
 
---===============5587709639469726334==
+--===============2599585992710193388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-456af6c64b9a-1250498b1d25.txt
+Content-Disposition: attachment; filename=revlist-2cdf0f5c31f7-7fbcf700feb7.txt
 
 7097307d63f3f0d78e7fd345cf4d6b4b17c2e1f6 random: use simpler fast key erasure flow on per-cpu keys
 8c1862e4b5ce25b84cbb0f1371c862c7d232c814 random: use hash function for crng_slow_load()
@@ -52,5 +52,6 @@ cce0a650fecf03e868e48f110380c762cd52569e random: group entropy extraction functi
 be05d87f9b42e54d0db561b26e534922e6004280 random: unify early init crng load accounting
 4a52600075c2667e301242731910f4e055fc2191 random: check for crng_init == 0, not crng_ready() in add_device_randomness()
 1250498b1d25ab9ceca834c3fe653cc142d15cc5 random: use trylock in irq handler rather than spinning
+7fbcf700feb7daa3b4afaff1eabf9582ea4d3a0e random: use max-period LFSR for irq accumulation
 
---===============5587709639469726334==--
+--===============2599585992710193388==--
