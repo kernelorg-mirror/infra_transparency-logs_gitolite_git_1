@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 13 Feb 2022 20:54:01 -0000
-Message-Id: <164478564191.31412.10254485927500835884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sun, 13 Feb 2022 21:22:09 -0000
+Message-Id: <164478732920.17370.9309616913692196884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/jd/fast-mix-lfsr
-    old: 861f0442bab8a935f499e4a96991349817124e8d
-    new: 3c1e929219c5ce5202f7f688a0b0b74510bf07a2
+  - ref: refs/heads/for-next
+    old: d5304063b9846edcc77a8abc567ca9d0c251a335
+    new: 5ac121b81b4051e7fc83d5b3456a5e499d5bd147
     log: |
-         fe8458154f6817bd668b874c97730c1953b52469 random: pull add_hwgenerator_randomness() declaration into random.h
-         3c1e929219c5ce5202f7f688a0b0b74510bf07a2 random: use linear max-period irq entropy accumulator
+         845301001308aab8fb7902548f6c3256d28b8c48 power: supply: PCHG: Use MKBP for device event handling
+         6a4760463dbc6b603690938c468839985189ce0a power: supply: ab8500: Fix memory leak in ab8500_fg_sysfs_init
+         8f5b373960f976cf80e54636a60637cbe9718f66 power: supply: ab8500_charger: Fix spelling typo
+         cf215c37f581c4afd6a4880eeb9f4ac70d000c32 power: supply: ltc2941: simplify Qlsb calculation
+         513e3b53c1d535631ad206105ecb278ca56a5ce9 power: supply: ltc2941: clean up error messages
+         cd4c7b2725ccb776e931ceaeaa6333580c10f263 power: supply: ab8500: Remove unneeded variable
+         5ac121b81b4051e7fc83d5b3456a5e499d5bd147 power: supply: axp288-charger: Set Vhold to 4.4V
          
