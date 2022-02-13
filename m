@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 13 Feb 2022 18:16:01 -0000
-Message-Id: <164477616100.27320.8020977648286473401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Sun, 13 Feb 2022 18:42:27 -0000
+Message-Id: <164477774792.11447.10484250894662921375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/testing
-    old: b7061825f39f5748d4859558fc73b64e4124c0ef
-    new: 8abc543ebcf84c211f6cb059127490d4387ee028
+  - ref: refs/heads/master
+    old: 81b16a56c996d13347cadb51ddd4bfaf72a84cee
+    new: 2ab869c86f18ddb187975a7cbac4613ee8b963d4
     log: |
-         8abc543ebcf84c211f6cb059127490d4387ee028 iio: trigger: stm32-timer: Make use of device properties
+         2ab869c86f18ddb187975a7cbac4613ee8b963d4 Sun Feb 13 06:41:52 PM UTC 2022
          
