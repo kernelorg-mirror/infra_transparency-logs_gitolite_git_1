@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 13 Feb 2022 18:06:35 -0000
-Message-Id: <164477559558.19728.14912602011300379787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 13 Feb 2022 18:12:17 -0000
+Message-Id: <164477593733.24471.9417846021814789546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: b946e9491a048755aa9261e7d9f0d012ba52c740
-    new: b7061825f39f5748d4859558fc73b64e4124c0ef
+  - ref: refs/heads/master
+    old: 42964a18f81c9e514dce2d11277b7cc546146723
+    new: c5d714aa6dce262482992cccc0ab01383294f7ac
     log: |
-         15ea6bc03bd9e6256053d12a5ee88755ac3e21d5 iio: chemical: atlas-ezo-sensor: Make use of device properties
-         90adc57bd55a64d5b24ac3afc1b7dd98508ead7b iio: mma8452: Fix probe failing when an i2c_device_id is used
-         b7061825f39f5748d4859558fc73b64e4124c0ef iio: mma8452: Add support for the "mount-matrix" device property
+         eba1e44beef88aa722f07755f79f604cd5d92290 irqchip/gic-v3-its: Skip HP notifier when no ITS is registered
+         321a8be37e1a93cefeae990107533142c8515933 dt-bindings: update riscv plic compatible string
+         1d4df649cbb4b26d19bea38ecff4b65b10a1bbca irqchip/sifive-plic: Add missing thead,c900-plic match string
+         1e34064b60552616b2767d22f2e6f440ced09acb Merge tag 'irqchip-fixes-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
+         c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
          
