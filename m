@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8878778709430091907=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 14 Feb 2022 14:54:41 -0000
-Message-Id: <164485048172.16351.2817342819796879275@gitolite.kernel.org>
-
---===============8878778709430091907==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 14 Feb 2022 14:54:59 -0000
+Message-Id: <164485049904.16558.16093823091086790672@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.18
-    old: e2a01b4e8806087743e5ee42f9dcedfc741d4112
-    new: a94e5cd8457fb46866459562ef6c53f9dcc375f7
+  - ref: refs/heads/for-next
+    old: e7c799e76f070b4ac13498e532574466064ad6a5
+    new: 9fe0c0128d7c38f6b5e985421e538e7582fd3520
     log: |
-         a94e5cd8457fb46866459562ef6c53f9dcc375f7 regulator: tps62864: Fix bindings for SW property
+         0c483a07e92638aca1f7d42a4986e32c58d29ad2 ASoC: pcm3168a: cleanup unintuitive mask usage
+         c7270209fc6fc377ba5813e8d5b2ce2b26352ee7 ASoC: pcm3168a: refactor hw_params routine
+         6bfc1242ee995f23f8c167bf1308a43b86560fce ASoC: pcm3168a: refactor format handling
+         3e63d3c1a2e52fb60d66bb23cb62c92c92ad0a3f ASoC: pcm3168a: remove numeric PCM3168A_NUM_SUPPLIES
+         0b88a659002151e354272a13ae29d8b795ef1b46 ASoC: wm8731: Delete empty remove() function
+         3c7a4c24bd0ac2dfeb4f3f9053a2207cad90c7dd ASoC: codec: wm8960: complete discharge on BIAS OFF->STANDBY
+         9fe0c0128d7c38f6b5e985421e538e7582fd3520 ASoC: pcm3168a: code cleanup
          
-
---===============8878778709430091907==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1644850480 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1644850480-fe791db0044b324764c61cc184f15f32dc5edd44
-
-e2a01b4e8806087743e5ee42f9dcedfc741d4112 a94e5cd8457fb46866459562ef6c53f9dcc375f7 refs/heads/regulator-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIKbTAACgkQJNaLcl1U
-h9C3xwf9Hc3B/jjqD5v0ZcQnAA+kSO88JTazw+Kb2sMeZej9Zo8tKItVhDj4WhC2
-ZzJlRSGCMJUjN2CSL9a1ki+H7RN0VDKcDtW/wV4wCZ2Uw3T/w6d2r3lxY23zwyqi
-NVzI3X4brYoqZJinyXlTPj/wpbmqWUn9MgpDadIB/eoYEOw/HoNE4hM7orx7pVFZ
-Z5F0i7eEgd2VvjSnlELyrnYkM2F03PZy8a5bhnxkpwToYDJFib6zamqRUwLuPi2j
-IpobuU+XGU+IOne9AFf+FqXvgoHkw6aQKdR8J63bpQNj/OmuBb8UXL3TNOb+Qh3j
-meEHC1MJHjM+PhMAzJ+6QkyHpD75ew==
-=LiPO
------END PGP SIGNATURE-----
-
---===============8878778709430091907==--
