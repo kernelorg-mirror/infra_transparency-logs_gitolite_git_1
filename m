@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 14 Feb 2022 13:04:01 -0000
-Message-Id: <164484384147.6192.330655778488341615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 14 Feb 2022 13:05:22 -0000
+Message-Id: <164484392201.8166.8548413813005036781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: 14f71764c2609eb2c91422af1ab9eb58c8050e48
-    new: 8e3ed297995c159b929572d8e68f1a9a8a9e5ade
+  - ref: refs/heads/for-linus
+    old: dd8e5b161d7fb9cefa1f1d6e35a39b9e1563c8d3
+    new: 2a845837e3d0ddaed493b4c5c4643d7f0542804d
     log: |
-         77498617857f68496b360081dde1a492d40c28b2 printk: Add panic_in_progress helper
-         d51507098ff91e863b6e0a8047507741d59b8175 printk: disable optimistic spin during panic
-         13fb0f74d7029df3b8137f11ef955e578a4a4a60 printk: Avoid livelock with heavy printk during panic
-         8ebc476fd51e6c0fd3174ec1959a20ba99d4c5e5 printk: Drop console_sem during panic
-         8e3ed297995c159b929572d8e68f1a9a8a9e5ade Merge branch 'for-5.18-panic-deadlocks' into for-next
+         9a5adeb28b77416446658e75bdef3bbe5fb92a83 ALSA: usb-audio: Don't abort resume upon errors
+         2a845837e3d0ddaed493b4c5c4643d7f0542804d ALSA: hda/realtek: Fix deadlock by COEF mutex
+         
+  - ref: refs/heads/master
+    old: 3e2f98eb47055e6b970c8ce5cefb3fb1708be908
+    new: e4b0b5cecf4e827dd43db185b6f719d36d17659d
+    log: |
+         9a5adeb28b77416446658e75bdef3bbe5fb92a83 ALSA: usb-audio: Don't abort resume upon errors
+         2a845837e3d0ddaed493b4c5c4643d7f0542804d ALSA: hda/realtek: Fix deadlock by COEF mutex
+         e4b0b5cecf4e827dd43db185b6f719d36d17659d Merge branch 'for-linus'
          
