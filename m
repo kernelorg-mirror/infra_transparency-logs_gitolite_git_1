@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Feb 2022 12:54:15 -0000
-Message-Id: <164484325591.32433.4398627914038848570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 14 Feb 2022 12:59:19 -0000
+Message-Id: <164484355928.3049.8716851793649080971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/for-next
-    old: 9193bc0558d1812343039b510797b669f054efc5
-    new: e7c799e76f070b4ac13498e532574466064ad6a5
+  - ref: refs/heads/for-5.18-panic-deadlocks
+    old: a229327733b86aa585effdb0d27a87b12aa51597
+    new: 8ebc476fd51e6c0fd3174ec1959a20ba99d4c5e5
     log: |
-         0f1d41a85bda6f3502634fe15fa21bfee4c668a4 ASoC: wm_adsp: Make compressed buffers optional
-         c55b3e46cb99a8342cad9c1a35485bfe15187832 ASoC: wm_adsp: Add trace caps to speaker protection FW
-         695c105933cfa04ccf84088342193ae43e37e0f5 ASoC: Intel: bytcr_wm5102: use GFP_KERNEL
-         e7c799e76f070b4ac13498e532574466064ad6a5 ASoC: SOF: compr: Mark snd_compress_ops static
+         77498617857f68496b360081dde1a492d40c28b2 printk: Add panic_in_progress helper
+         d51507098ff91e863b6e0a8047507741d59b8175 printk: disable optimistic spin during panic
+         13fb0f74d7029df3b8137f11ef955e578a4a4a60 printk: Avoid livelock with heavy printk during panic
+         8ebc476fd51e6c0fd3174ec1959a20ba99d4c5e5 printk: Drop console_sem during panic
          
