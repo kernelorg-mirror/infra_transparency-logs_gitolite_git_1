@@ -1,52 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 14 Feb 2022 11:22:48 -0000
-Message-Id: <164483776895.4304.8892127785531729912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 14 Feb 2022 11:23:03 -0000
+Message-Id: <164483778348.4515.9857445914412184396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/tags/v4.19.226
-    old: 0000000000000000000000000000000000000000
-    new: 6612065476a13ff635915bf99a0c2ecedbe7a46d
-  - ref: refs/tags/v4.19.227
-    old: 0000000000000000000000000000000000000000
-    new: cb2b406db423251f158f7d92edcfd44b55ff27b7
-  - ref: refs/tags/v4.19.228
-    old: 0000000000000000000000000000000000000000
-    new: 1a4ccfa9322e7b07ee8f731505f54bc9890c7353
-  - ref: refs/tags/v4.19.229
-    old: 0000000000000000000000000000000000000000
-    new: 5f014e82ac6ab6611cb50cc88bdec2880165a426
-  - ref: refs/tags/v4.4.297
-    old: 0000000000000000000000000000000000000000
-    new: 2b2f7d12025ac3d86798adf06929d03bfb5d6b8a
-  - ref: refs/tags/v4.4.298
-    old: 0000000000000000000000000000000000000000
-    new: b03f37a32221a75025b2e8deb64c3c5c3161ce2a
-  - ref: refs/tags/v4.4.299
-    old: 0000000000000000000000000000000000000000
-    new: 46c1c32cffc7f8a6365c5351bffb43df5c1d693a
-  - ref: refs/tags/v4.4.300
-    old: 0000000000000000000000000000000000000000
-    new: ef2619bb79df1cab14b64a92e0c6ea1651998aa0
-  - ref: refs/tags/v4.4.301
-    old: 0000000000000000000000000000000000000000
-    new: 224090d7a8fca0e34249914699ae647d79efd666
-  - ref: refs/tags/v4.4.301-rt231
-    old: 0000000000000000000000000000000000000000
-    new: dc84a2904546e4d9a278329fbfadc7352acbb633
-  - ref: refs/tags/v4.4.302
-    old: 0000000000000000000000000000000000000000
-    new: d95d95c39b5d6629ff57efa48301464b73c018dd
-  - ref: refs/tags/v4.4.302-cip68-rt38-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 3a6f3daba4e8c2a54814e08513696dcbc36a7f5e
-  - ref: refs/tags/v4.4.302-rt232
-    old: 0000000000000000000000000000000000000000
-    new: b5d15e5911fdebb7e6a342c8d4545897a4f240c5
+  - ref: refs/heads/master
+    old: 143de8d97d79316590475dc2a84513c63c863ddf
+    new: 86006f996346e8a5a1ea80637ec949ceeea4ecbc
+    log: |
+         86006f996346e8a5a1ea80637ec949ceeea4ecbc ice: enable parsing IPSEC SPI headers for RSS
+         
