@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8508075162190684262=="
+Content-Type: multipart/mixed; boundary="===============8820205993883558500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Feb 2022 09:24:50 -0000
-Message-Id: <164483069024.6978.4091306610819196200@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 09:24:52 -0000
+Message-Id: <164483069223.7089.13292145284567769501@gitolite.kernel.org>
 
---===============8508075162190684262==
+--===============8820205993883558500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,91 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 70605f75c471d277b636b7720bfe8b3ed3d77adb
-    new: 133617288e03af9de3f241a342aa8d75164a2b46
-    log: revlist-70605f75c471-133617288e03.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 2f1a081526408e329b708c3843838eea9a449329
+    new: ce409501ca5fc4f5e9e69e85655f25f01fe1ae3f
+    log: revlist-2f1a08152640-ce409501ca5f.txt
 
---===============8508075162190684262==
+--===============8820205993883558500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644830689 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644830691 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1644830687-66c63a20d615ab6270542ff326dbf1de5e8aa667
+nonce 1644830690-a4ceddc3fdb525ca4314d0591aab52e6498bbcb4
 
-70605f75c471d277b636b7720bfe8b3ed3d77adb 133617288e03af9de3f241a342aa8d75164a2b46 refs/heads/linux-4.9.y
+2f1a081526408e329b708c3843838eea9a449329 ce409501ca5fc4f5e9e69e85655f25f01fe1ae3f refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKH+EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8HwQAIK0ahe74OFGj4wU4zWV
-BraJsluUhRTsn1n0bec/KdVpyr3ANR1GASXcys5DPC2N9cb9RR47EvknX5oBm7m8
-6JvMTGtVAZzHcMhpPUq5luRjaIrRUxjzqd7dNsRlbNypalxQ91fJtFHNLD+CJg+U
-BlYp1IP7522VA38ZiTU6g+VW3k8hJB3DB9aG+vRrpg1FgOUf7N4wiQ7cb1g8ofxq
-oXmZKRQQfc519o5k6jLmvMQWxwiBQyrcyYgmIdwZOWfxng4C/Xrr/qlHh9mpdUJy
-SFxZnxyE1Pv5dHn2/yBfQr3B1fBKBuL3kGG+Zvydo/2SGjZEntJAt2ksFqRRCpfx
-qvV5h53qVGf+YhtFmQ3+WWkeGXHcSjY7VjfwMXbDIC2n68Go8TkV8lVUQrFLNMI+
-LEZged8DFqC+qIIThw3FDQjg0V05TP3/kJQy/wKN7PJSvW8Sh6WtmaZYjsIu8BZF
-mTpwZ4kP/HAb5JYArxwSdFjWzcBtJnpIh7LaVPWxM19I8oRH4NGstiVvwThGMMO5
-QbyeRnJn/8xkGmseM/D7itbycMMvcEes/0aLvYj/9qwbxmqjl7owr9gnJ6lt60MK
-fvRp/rEnRx9HyL0c6YMPlw5OEzRI/wD/jvgLh0H1KTV+gUFQykp4xMngPsU/fJ/j
-IZ6gQ6XaHQHR2LeE5qzw+gC0
-=SPma
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKH+MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5Z4QAL0a8DRXXIHQj2O2+xFe
+1NYpqXFGP/KSmim7RGrctyTpceEjrbL1Xi9KSle5LTIkph5e77HLqB+ZaT6qFeef
+O2DKrx/rOutFYIUJoRQ/HC6nnMFxg5oJAJNb2vWn2wWy/R8d9YjKDrCKc0WAnnZz
+IxUvh9i3M2+YZgQXjdXA2HpDl5U0/01KRIpBHYCPQW65kvEqNgtNC/q7eGTfPBRg
+QmvSCzUt4LBdie2UkShRxbsoG42S1IV8Slh6YKNhATIVBa3CmLOeJkGt2Rzi73CS
+NQLPEwVn4VhhhEyDTpUBGoYO0VT3sTnO21sGIiBBQHCh2kKcyxUQonEPPpeic1L4
+2fl8gWCP7cQbBc+LDHgCObQ4ujVXk61QlZ6G1lylF9hgmhfe8gll5IVJ+3R58zu8
+srkN0Vrrr7QFOMe/Kal+tmmjIMto1hOC5VpRmts7dId9IHSmONdmSXGJzwbTOgvd
+dcnlE9hb89TzTajTXbyoe/GLMu5kCUrR0FsBsCk40srLH7FeIQnCSda2//grmge/
+2i3Dd7E6IV4ozpwV5Fl8qD1L8DshlAy4l0TnwRtbg8eZiU8+AcCdheUe85zcHXip
+wlR0dL8TJlEVzjFnbl4r8cjhKn/zXXdvHfxUbUGp7hOe2FOM8HSihEh2r5bLjEH6
+wuD1mZ5KzWR4Z5t0W3NDFvcF
+=2LSH
 -----END PGP SIGNATURE-----
 
---===============8508075162190684262==
+--===============8820205993883558500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70605f75c471-133617288e03.txt
+Content-Disposition: attachment; filename=revlist-2f1a08152640-ce409501ca5f.txt
 
-f04eaa3936fc1b3e28b73d62648615861e4c51a6 integrity: check the return value of audit_log_start()
-91d141a6322ddb27ea815f9bdcae589c58168515 ima: Remove ima_policy file before directory
-9df875f7b5a33dbbc1658b0c967de8b30eabf2b1 NFS: Fix initialisation of nfs_client cl_flags field
-c0de63fbbf2c6401ce6a9e6e0ca27724a4ec504f NFSD: Clamp WRITE offsets
-70739dda4614a09e5dc50c1a853165c48d97840e Input: i8042 - Fix misplaced backport of "add ASUS Zenbook Flip to noselftest list"
-e76cd6b8883f424ef89e594d31eff036655a2125 serial: sh-sci: Fix misplaced backport of "Fix late enablement of AUTORTS"
-d823cd5f167bd14df6d82dd6e4b00d18c060beeb ALSA: line6: Fix misplaced backport of "Fix wrong altsetting for LINE6_PODHD500_1"
-4ec5ab1c756374365fcba6ed99fbab258837ad00 Revert "net: axienet: Wait for PhyRstCmplt after core reset"
-c3b44ccde275d7a32bacd144ce32ad32382b58ed NFSv4 only print the label when its queried
-6ae8514d8105cdd3dd18a82772f61b94406eac6f nfs: nfs4clinet: check the return value of kstrdup()
-2722948f6371e7f2009a2618f822ad27a016f135 NFSv4 remove zero number of fs_locations entries error check
-79a3cd93205291fe149c1e966c96cd9b85775734 scsi: target: iscsi: Make sure the np under each tpg is unique
-c074ab34dae58d57526614c8f8f4ed4bdfc6ec95 usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
-00619c3a7cac1e9eb830d55e03161b0fff35e008 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
-8045cbc842d5e4eb8e895d73f187ad8ed79926e8 staging: fbtft: Fix error path in fbtft_driver_module_init()
-8a0f85f4253e820a516294e92359f9817bbdf597 ARM: dts: imx6qdl-udoo: Properly describe the SD card detect
-9e1b55af4927a90497c4433a2cb7488f5c0037bf bonding: pair enable_port with slave_arr_updates
-505507859183aad19f49409a83d4b4f03e1d240e ipmr,ip6mr: acquire RTNL before calling ip[6]mr_free_table() on failure path
-d393042211a0485ffe8be66e226f7fb573641ce3 net: do not keep the dst cache when uncloning an skb dst and its metadata
-83e5759ebded6be548902e133f07353d3924b12f net: fix a memleak when uncloning an skb dst and its metadata
-9dad041361d9e589daa312600793bca2319b898d tipc: rate limit warning for received illegal binding update
-2a3a9d68dd484b1c1e822b80d44c954ba9517f0b vt_ioctl: fix array_index_nospec in vt_setactivate
-a6567071f87661cc8c8b2415cdd1f3cc2573e57c vt_ioctl: add array_index_nospec to VT_ACTIVATE
-8a8bb24d1696fa200478e250fcd8ca5a78823aae bpf: Add kconfig knob for disabling unpriv bpf by default
-150c18a3ca7e5936caec595a5887a2f3fd354e9e n_tty: wake up poll(POLLRDNORM) on receiving data
-ee452d354dfcb091c9d2c0c7fbb958b74be14e9c usb: dwc3: gadget: Prevent core from processing stale TRBs
-77408064647c8a9861606adf6584b755e92730c0 USB: gadget: validate interface OS descriptor requests
-aaca44fedf133e3451c288849c79fdc18a5ce3e9 usb: gadget: rndis: check size of RNDIS_MSG_SET command
-036e58175ca56988102d8bd47db57f9478c8c5e9 USB: serial: ftdi_sio: add support for Brainboxes US-159/235/320
-1c3a64d5207adf8cf9f937efa8f5d317367bb027 USB: serial: option: add ZTE MF286D modem
-f283944aac9c86cf3da46b245b2ce31f4ad9ac60 USB: serial: ch341: add support for GW Instek USB2.0-Serial devices
-7c90a2317f2a4bdf3cd0d74c0461f3314c1bad31 USB: serial: cp210x: add NCR Retail IO box id
-6f3a723d841b1d4a7c6754ef88087ca835eb30b0 USB: serial: cp210x: add CPI Bulk Coin Recycler id
-98e57c333efe7e5d95143169d94e18581aed1927 hwmon: (dell-smm) Speed up setting of fan speed
-133617288e03af9de3f241a342aa8d75164a2b46 Linux 4.9.302-rc1
+aef72f07325070829e0c59a3d814a7b63291bd08 integrity: check the return value of audit_log_start()
+a80dd55239b8eb93fb073d08d90e7a2eec828e0b ima: Remove ima_policy file before directory
+c1ff4694a40a0644fc916add1579e213f013ca49 ima: Allow template selection with ima_template[_fmt]= after ima_hash=
+983ad5992fbab5e65f9a7c4aac7cffe1873c21c4 mmc: sdhci-of-esdhc: Check for error num after setting mask
+a05c8a61e81bf0733c073f6b86bcbd6f488b8be5 net: phy: marvell: Fix MDI-x polarity setting in 88e1118-compatible PHYs
+093ce4622563d9a21b21d92dec7a7c5daa9b359e NFS: Fix initialisation of nfs_client cl_flags field
+4a9a72a63097695ca5d3a9800c6d869b1c5f8acf NFSD: Clamp WRITE offsets
+bac6a5b621d6908277c088a3434f8f051add873f NFSv4 only print the label when its queried
+f5e585d91d8fe6cc8717cca75dff2b51a6e3d34f nfs: nfs4clinet: check the return value of kstrdup()
+f56a9c66f8bb4a60db074609fa8225b4d2b7f217 NFSv4.1: Fix uninitialised variable in devicenotify
+c1ec56391c17ff7d4de06aeb9b11da852905ff3b NFSv4 remove zero number of fs_locations entries error check
+39aa133bf47da452a920add9ddf2f2f0d2efa3d1 NFSv4 expose nfs_parse_server_name function
+8e40d9a71e986037c55e7f41139ff7a15df16554 scsi: target: iscsi: Make sure the np under each tpg is unique
+6d5c210c18c157380f35f33db98f15d5c474326a usb: dwc2: gadget: don't try to disable ep0 in dwc2_hsotg_suspend
+8175a7412b52a1d51726489db411d5fba7f760dd net: stmmac: dwmac-sun8i: use return val of readl_poll_timeout()
+3615650f0031f962c70acc82884af6a47424abeb Revert "net: axienet: Wait for PhyRstCmplt after core reset"
+794e30902d0a7d4e2c6ecb7496544cd335bd63b6 bpf: Add kconfig knob for disabling unpriv bpf by default
+7d8e67627b3247a88c5da3c285f379502763f01c ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
+67d9350f7f8e722e13546660b7316f980bbb794c ARM: dts: meson: Fix the UART compatible strings
+8e8656c80276878d62e7e9004b6c3749900f7f4e staging: fbtft: Fix error path in fbtft_driver_module_init()
+7ec938a155b58fea30352d20909601baf73be932 ARM: dts: imx6qdl-udoo: Properly describe the SD card detect
+324165ead3c2d674ae3af4132d8788b4fad6c530 usb: f_fs: Fix use-after-free for epfile
+3af74ffef02f15dee37f012f5567b64478a86d07 bonding: pair enable_port with slave_arr_updates
+7bfbccf5616bf71b74a58b348e4b9612401da63c ipmr,ip6mr: acquire RTNL before calling ip[6]mr_free_table() on failure path
+5e5d8bd14cc0d894fac372bf1b86dbf7c193d7b7 net: do not keep the dst cache when uncloning an skb dst and its metadata
+9a640fe92fa11946828e4116bfd783a565aaae7e net: fix a memleak when uncloning an skb dst and its metadata
+661f699f29a3c1a3bfd9471f279852b92c35536d tipc: rate limit warning for received illegal binding update
+b7870616e7f4669492567080e851ff663a1d7639 net: amd-xgbe: disable interrupts during pci removal
+ea021004ba9ded78458cdbe42555afd4eb0e5bdb vt_ioctl: fix array_index_nospec in vt_setactivate
+7558d794797e6541a365e968db434be36ec7dd94 vt_ioctl: add array_index_nospec to VT_ACTIVATE
+5729cb9aacaa019ee745181b1a7e8f56b4c62915 n_tty: wake up poll(POLLRDNORM) on receiving data
+8778b801a0b94e84d4eb981aee5e38ddb71a2e8f usb: ulpi: Move of_node_put to ulpi_dev_release
+5d4ac887344e7ccd05ee1e1e20a7f0d1b5662015 usb: ulpi: Call of_node_put correctly
+1756936a16110e4c3b0b0af4cb0b3941102824fa usb: dwc3: gadget: Prevent core from processing stale TRBs
+88033483043a4ad5705a5c37ddc9eadbfc357116 USB: gadget: validate interface OS descriptor requests
+4383d1c622f70b1890425a2d76bd4346517760ad usb: gadget: rndis: check size of RNDIS_MSG_SET command
+6e190be4fe7f656bc771f298a7022c0baed60fab USB: serial: ftdi_sio: add support for Brainboxes US-159/235/320
+e41b5cba67ba23ec2562870af3b28df6e23af30f USB: serial: option: add ZTE MF286D modem
+b6ae83a964527022089b4d3a257e207876fdfcde USB: serial: ch341: add support for GW Instek USB2.0-Serial devices
+5a2a9c2f31a908215336a0e2ff622347c36b4c3d USB: serial: cp210x: add NCR Retail IO box id
+f6177e305c840a4cbee4bed93dc39b30b45d1cc3 USB: serial: cp210x: add CPI Bulk Coin Recycler id
+56c5469f9529adf8d5f1b2874a1a33353b47d4f5 seccomp: Invalidate seccomp mode to catch death failures
+a1463a56bf044eb31c256298652cdb460e40ca8b hwmon: (dell-smm) Speed up setting of fan speed
+79390520e64a4e3fed4256baa35aa311f2f505eb perf: Fix list corruption in perf_cgroup_switch()
+ce409501ca5fc4f5e9e69e85655f25f01fe1ae3f Linux 4.14.267-rc1
 
---===============8508075162190684262==--
+--===============8820205993883558500==--
