@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3249398460575156039=="
+Content-Type: multipart/mixed; boundary="===============6352999039637401262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 14 Feb 2022 14:54:28 -0000
-Message-Id: <164485046867.16038.14303403439322828087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 14 Feb 2022 14:54:35 -0000
+Message-Id: <164485047590.16184.18059324991209629673@gitolite.kernel.org>
 
---===============3249398460575156039==
+--===============6352999039637401262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.18
-    old: 1056c41634d400cf88d30580dc53270030cb0ace
-    new: 2d2329787ba2e70eae330f1cecd61a9576fe65de
+  - ref: refs/heads/for-5.18
+    old: e2a01b4e8806087743e5ee42f9dcedfc741d4112
+    new: a94e5cd8457fb46866459562ef6c53f9dcc375f7
     log: |
-         2d2329787ba2e70eae330f1cecd61a9576fe65de regmap: irq: cleanup comments
+         a94e5cd8457fb46866459562ef6c53f9dcc375f7 regulator: tps62864: Fix bindings for SW property
          
 
---===============3249398460575156039==
+--===============6352999039637401262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644850467 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1644850466-0fb5fcc875465dcb573ee34219a734db27b3b60f
+pusher C3F436CA30F5D8EB 1644850474 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1644850474-7e037a69f5afcb2f3e6ba9f1318606a3e3042b85
 
-1056c41634d400cf88d30580dc53270030cb0ace 2d2329787ba2e70eae330f1cecd61a9576fe65de refs/heads/regmap-5.18
+e2a01b4e8806087743e5ee42f9dcedfc741d4112 a94e5cd8457fb46866459562ef6c53f9dcc375f7 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIKbSMACgkQJNaLcl1U
-h9AwwAf/T47QBGlRhPWGzh4Z/l+8VrrVTL5jsHP0h3vZzBYlyD0+Jn3nR1ow3ONg
-bdB2tF31u5CSSUFmSkZQJVl54Okx5L0SBlcpPvWnIWh5DMvJMUa95kRzr3PIHFsQ
-EExG3jn1M6pDKYDsKTzivH2GkvnXFw5H5qqxHpKvH3Rmn8Ie3cRDAcDqXVuDZTEW
-N8il++x2hbW2BIYXGaNoBQ/2mRWnz3wdGcxLcwhBJVBpSJ1NuOPOCndjIWq25fEp
-/O+9ZdbWckIB/eYeZVu6wJLg2KHOewpeVWRYhQZ9iJu+YgrCYyMhco1TP8qeVKaB
-pO7J/zqVNm52JXuf9j8Z1Tg+wIPXEQ==
-=VM+k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIKbSoACgkQJNaLcl1U
+h9DUjgf/VtiFTvs8BhPNGXh1L2RGTzlPr7T5MXtR+VXUsjxilkzZ+hDMRnsmHR7d
+RJlSvKz8WJgi1Fwrrc5ejPl5p/uR7xzORK6hYo5v2pYRYnBkKfNEZGrtWMA487Nk
+SZPLasdhTFchQjuB9qIKFDFi3cIhUhkI1xY0A8+0pWN7KAynuKTTkSOXDWOZzzjN
+53gkvfxCnxJq9tptxG+8PJl3HG/DTJZFC5ojC3j0D0l8QeV+KBRNfw+aQHk8Llx9
+hKdJk6z0oWKO5B/gFawpCNtQKySK2MlAHgRSOxO5rVemtW28REyAL14NRfDOJVrw
+L/VkpPbAO8G2XCzyfq7aJo98QCQfFA==
+=VYh2
 -----END PGP SIGNATURE-----
 
---===============3249398460575156039==--
+--===============6352999039637401262==--
