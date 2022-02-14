@@ -1,65 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5720719860863340243=="
+Content-Type: multipart/mixed; boundary="===============2369235465587234731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 14 Feb 2022 19:13:33 -0000
-Message-Id: <164486601391.30421.3163568857841269839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 14 Feb 2022 19:17:08 -0000
+Message-Id: <164486622850.675.4213233483871452380@gitolite.kernel.org>
 
---===============5720719860863340243==
+--===============2369235465587234731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 3803ad40e73cbdcf95d71fbecc9ea2942edcbffa
-    new: e1558b5e29c6ba534df8553461152b02b9b17af6
-    log: revlist-3803ad40e73c-e1558b5e29c6.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 0bc6fd24f1ff86dacad30eb2fca74a05fe44f154
+    new: e11656943a54fd69609e7edd1bf5f0cf4ef5acc3
+    log: revlist-0bc6fd24f1ff-e11656943a54.txt
 
---===============5720719860863340243==
+--===============2369235465587234731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3803ad40e73c-e1558b5e29c6.txt
+Content-Disposition: attachment; filename=revlist-0bc6fd24f1ff-e11656943a54.txt
 
-1c1d836b96ba1bd773881c7f4784c77b94d58e25 overflow: Provide constant expression struct_size
-73ab4a3509e6b8f93b87398db2aaabd3c9cbe487 KVM: x86: Replace memset() "optimization" with normal per-field writes
-9ed0a59c0cbb663ea09588322498499a937d08fa intel_th: msu: Use memset_startat() for clearing hw header
-2a55550fbba643f41318bb12ab20e6510c7df231 m68k: cmpxchg: Dereference matching size
-545c272232caded141abb273745091d6a0d8b14b alpha: Silence -Warray-bounds warnings
-729af1cb7a4ae47d3e217727b2147480360ee6f9 drm/dp: Fix off-by-one in register cache size
-10de29725e90aec17d5df5bc5ebe2dae1436098f drm/dp: Fix OOB read when handling Post Cursor2 register
-b6e6dab100416a94a4944834a496b6e731699deb tpm: vtpm_proxy: Check length to avoid compiler warning
-b0b2b5434478277a71c3b0cc5e5f200b4a4715a0 media: omap3isp: Use struct_group() for memcpy() region
-10bec4fcf4ad64f9651d900cc821684c1fc17f30 iio: addac: ad74413r: Do not reference negative array offsets
-87f02d058380a193e1565e653ec295eb5d53c1c3 scsi: ibmvscsis: Silence -Warray-bounds warning
-4efa1a67d4dad57d9a54763bdcb60eedb120bc36 scsi: mpt3sas: Convert to flexible arrays
-a88ff09ac457262a822785974966171a9508c005 etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
-48f4900c115a99dd83e1c17347ff040ca2fdf165 tools: Fix use-after-free for realloc(..., 0)
-9622c0be0973f236c8413f936d0d14af5ea2a71e kasan: test: Silence allocation warnings from GCC 12
-e6148767825ce345338328a29030a182e3b22d10 Makefile: Enable -Warray-bounds
-00a4f836eb369723b148e3f250c850a028778832 Makefile: Enable -Wzero-length-bounds
-f68f2ff91512c199ec24883001245912afc17873 fortify: Detect struct member overflows in memcpy() at compile-time
-938a000e3f9bead24ea753286b3e4d2423275c9e fortify: Detect struct member overflows in memmove() at compile-time
-28e77cc1c0686621a4d416f599cee5ab369daa0a fortify: Detect struct member overflows in memset() at compile-time
-818ab43fc56ad978cbb7c0ffdc9a332fd2f23a23 fortify: Update compile-time tests for Clang 14
-f361143141362485b39eb40bb4910e3f4219180f fortify: Replace open-coded __gnu_inline attribute
-f0202b8ca48cef152d4cdf775f39be6d3b372e1e Compiler Attributes: Add __pass_object_size for Clang
-d694dbaefd6fa6bdde84b704779eab53942753a5 Compiler Attributes: Add __overloadable for Clang
-1c7f4e5c1b6c9d9b508007c141dca77cab9434b4 Compiler Attributes: Add __diagnose_as for Clang
-0a2b782a00f33e7d06dc43d099fa071ae97bee77 fortify: Make pointer arguments const
-92df138a8d663cefebc3124041253677a53c92cf fortify: Use __diagnose_as() for better diagnostic coverage
-67ebc3ab446230c77fe3b545a9d8a11cac1cfb6e fortify: Make sure strlen() may still be used as a constant expression
-281d0c962752fb40866dd8d4cade68656f34bd1f fortify: Add Clang support
-8cb37a5974a48569aab8a1736d21399fddbdbdb2 stack: Introduce CONFIG_RANDOMIZE_KSTACK_OFFSET
-efa90c11f62e6b7252fb75efe2787056872a627c stack: Constrain and fix stack offset randomization with Clang builds
-a8797d469d5090bcc686783064cd250496aa80f2 Merge branch 'for-next/memcpy' into for-next/kspp
-c967ca50570624115cdcb81e3839cb0f25b90ff6 Merge branch 'for-next/overflow' into for-next/kspp
-af8edea7c9f5570437fa7d6486407c82a0384331 Merge branch 'for-next/hardening' into for-next/kspp
-e1558b5e29c6ba534df8553461152b02b9b17af6 Merge branch 'for-next/pending-fixes' into for-next/kspp
+1f52d7b622854b8bd7a1be3de095ca2e1f77098e net: wwan: iosm: Enable M.2 7360 WWAN card support
+bb4f6bffe33c8791549cb634d7b053aa5c3d1131 net: lan743x: Add PCI11010 / PCI11414 device IDs
+cf9aaea8e55b3f80488975a76fa4ca2ffaedcedd net: lan743x: Add support for 4 Tx queues
+ac16b6eb39d6023585bcbd220feca04f10cab9dd net: lan743x: Increase MSI(x) vectors to 16 and Int de-assertion timers to 10
+a46d9d37c4f4fa16c3f1915a1b0a19c31fed5099 net: lan743x: Add support for SGMII interface
+a2ab95a31352915bf0a1c49a583216801464f8f6 net: lan743x: Add support for Clause-45 MDIO PHY management
+48927142bcba5e149d2d3931d04b200ef4b9e96b Merge branch 'lan743x-enhancements'
+1da52b0e4724792cff7ff0a5ab4ee547bcaee11b net: lan966x: Fix when CONFIG_PTP_1588_CLOCK is compiled as module
+867b1db874c93ceb86f9e10ef021e70c38cc4b4d net: lan966x: Fix when CONFIG_IPV6 is not set
+2618a0dae09ef37728dab89ff60418cbe25ae6bd etherdevice: Adjust ether_addr* prototypes to silence -Wstringop-overead
+4ddc844eb81da59bfb816d8d52089aba4e59e269 net/sched: act_police: more accurate MTU policing
+806c37ddcf286665adce5c3a99b5fe4424cbf9fe Generate netlink notification when default IPv6 route preference changes
+2e13bde1315373cf7e9fb7dc4330d0d2a6bd5417 net/smc: Add comment for smc_tx_pending
+759856e961e4ba7ecf6d40bff109a733e1a92a07 dt-bindings: net: Add Davicom dm9051 SPI ethernet controller
+2dc95a4d30eddac9679f295ba4304a7ab0e4ae02 net: Add dm9051 driver
+a1b86c5de725b18ec71656ad14f20955e75875a8 Merge branch 'dm9051'
+4cf91f825b2777f81799f98ce32172b829acd1b2 ipv6: Add reasons for skb drops to __udp6_lib_rcv
+e27d785e60b6b1d4a53ec632db2e8c5b16bd6cd6 net: mscc: ocelot: remove unnecessary stat reading from ethtool
+65c53595bc2a14e77b455c8a12fc2631cbe43868 net: ocelot: align macros for consistency
+40f3a5c81555880a437dfd3301826074dff18138 net: mscc: ocelot: add ability to perform bulk reads
+d87b1c08f38a2ce40cf559df36c107a2e6c16a8f net: mscc: ocelot: use bulk reads for stats
+d4e7592b6404c87c33be5159e5d06e21d9e5e7b8 Merge branch 'ocelot-stats'
+88f62aea1cff0c2ff84901dc11ceddf1eaf7021d ice: Simplify tracking status of RDMA support
+f234ae2947612825686b25cae3e9579188a6ba95 net: dev: Remove preempt_disable() and get_cpu() in netif_rx_internal().
+baebdf48c360080710f80699eea3affbb13d6c65 net: dev: Makes sure netif_rx() can be invoked in any context.
+e722db8de6e6932267457ace2657a19015f3db4a net: dev: Make rps_lock() disable interrupts.
+da54d75bebf4d837ad9f747086433d0a5ef7c497 Merge branch 'netdev-RT'
+7db45f8d955dac24e3dc58c0829f6c0760190986 net: dsa: realtek: rename macro to match filename
+dd263a8cb1941d2d34a55633bd5366d9bebf4be8 ipv6: blackhole_netdev needs snmp6 counters
+9a236b543f6b1e85bb18b00ce5c92bfff84a47ab net: dsa: realtek: realtek-smi: clean-up reset
+05f7b042c5a6d37f67e328388f31018e48711194 net: dsa: realtek: realtek-mdio: reset before setup
+1e997d040ab4f6802a2f88443caf2d84d3465397 Merge branch 'dsa-realtek-next'
+76f05d88623e559eb9fc41db9fb911e67fab0e7a net: wwan: debugfs obtained dev reference not dropped
+163f69ae22e5244ba69af7ed7b024f59f96d5437 net: wwan: iosm: drop debugfs dev reference
+e81f1e0de816bf16756ffa269fb7bce8383c13c2 Merge branch 'wwan-debugfs'
+fa5d824ce5dd8306c66f45c34fd78536e6ce2488 net: prestera: acl: add multi-chain support offload
+12d8c11198af191d06d02b01624d84c669ef7231 selftests: net: cmsg_sender: Fix spelling mistake "MONOTINIC" -> "MONOTONIC"
+e11656943a54fd69609e7edd1bf5f0cf4ef5acc3 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
 
---===============5720719860863340243==--
+--===============2369235465587234731==--
