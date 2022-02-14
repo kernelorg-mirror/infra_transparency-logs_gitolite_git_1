@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8180846191213093495=="
+Content-Type: multipart/mixed; boundary="===============6771001906386104192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 14 Feb 2022 21:00:20 -0000
-Message-Id: <164487242027.4804.10742285019891878960@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 21:00:34 -0000
+Message-Id: <164487243412.5009.15913003105663306074@gitolite.kernel.org>
 
---===============8180846191213093495==
+--===============6771001906386104192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: f126ec9d6e57729b3f7fad5d0e38bacfb81c8254
-    new: 12d8c11198af191d06d02b01624d84c669ef7231
-    log: revlist-f126ec9d6e57-12d8c11198af.txt
+  - ref: refs/heads/mlx5-queue
+    old: 80b56796b25714b04e63845bf179b358bbb62c38
+    new: 83ee62950ce1907288b9b6a085e279ba5bb9782f
+    log: revlist-80b56796b257-83ee62950ce1.txt
 
---===============8180846191213093495==
+--===============6771001906386104192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f126ec9d6e57-12d8c11198af.txt
+Content-Disposition: attachment; filename=revlist-80b56796b257-83ee62950ce1.txt
 
 1f52d7b622854b8bd7a1be3de095ca2e1f77098e net: wwan: iosm: Enable M.2 7360 WWAN card support
 bb4f6bffe33c8791549cb634d7b053aa5c3d1131 net: lan743x: Add PCI11010 / PCI11414 device IDs
@@ -63,5 +63,27 @@ dd263a8cb1941d2d34a55633bd5366d9bebf4be8 ipv6: blackhole_netdev needs snmp6 coun
 e81f1e0de816bf16756ffa269fb7bce8383c13c2 Merge branch 'wwan-debugfs'
 fa5d824ce5dd8306c66f45c34fd78536e6ce2488 net: prestera: acl: add multi-chain support offload
 12d8c11198af191d06d02b01624d84c669ef7231 selftests: net: cmsg_sender: Fix spelling mistake "MONOTINIC" -> "MONOTONIC"
+e11656943a54fd69609e7edd1bf5f0cf4ef5acc3 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
+71472e28cf76ad83b10b144e61c57f7581266a34 net: Disable LRO feature if no RXCSUM
+b79c1e4348ab8175d43487491c36e91f24df7020 net/mlx4: Delete useless moduleparam include
+f8bcbf6e03ecc2c4b5a35c644e1a8847b0df0a55 net/mlx5: Delete useless module.h include
+d80ab31a74072485bd44d9ceed63ac4dc31cde63 net/mlx5: Node-aware allocation for the IRQ table
+f47a586a4aaf700b404761ae6ea88ebc84fee034 net/mlx5: Node-aware allocation for the EQ table
+dcc48a487106b49381a7729cf470919bdcb627ee net/mlx5: Node-aware allocation for the EQs
+d798c5dfc6aebfebaab3ba196d5c4fd0c1ba00e3 net/mlx5: Node-aware allocation for UAR
+664a9a87b5cc0efc4f799fea10cbce5ace74c85c net/mlx5: Node-aware allocation for the doorbell pgdir
+22fdaeb2107491b91caa67d98c617fcadfeb6c28 net/mlx5e: E-Switch, Add PTP counters for uplink representor
+36313bf49a64729486468f2c54f508e2365a8ddc net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+2363db413dc4dd3bba20fffc14cc35132bebe664 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+12c4cad4a60f5808cb4082b54f3331fd1a0145f1 net/mlx5e: Generalize packet merge error message
+55060fd3f3d37f79c2e7b79f2ddfb31a798c281f net/mlx5e: Remove unused tstamp SQ field
+9ffb5b9d47ee468dade8074bb9b8e2b264093767 net/mlx5e: Read max WQEBBs on the SQ from firmware
+b7ad283da7d455d2aa171ca2610e8b9e5803b96d Merge branch 'patchq/467855' into mlx5-queue
+81ca05a4ff26ce08b47928f5c7b67c68485863fc net/mlx5e: Use FW limitation for max MPW WQEBBs
+d0cf436f76190fde097d96c9d1578951ff656557 Merge branch 'patchq/362916' into mlx5-queue
+57d09974e6203e1c8f55514a58f475540f8aa97b Merge branch 'patchq/467755' into mlx5-queue
+3cd3ecc66864c399ee56cdf2c07a3655cc3c67b8 Merge branch 'patchq/464678' into mlx5-queue
+fe33020c2778418305780a5ad5aba3a44df727bd Merge branch 'patchq/462991' into mlx5-queue
+83ee62950ce1907288b9b6a085e279ba5bb9782f Merge branch 'patchq/396348' into mlx5-queue
 
---===============8180846191213093495==--
+--===============6771001906386104192==--
