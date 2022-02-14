@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0813386801220466988=="
+Content-Type: multipart/mixed; boundary="===============7995120887648908094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 14 Feb 2022 08:05:56 -0000
-Message-Id: <164482595668.17269.11519216983505297483@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 08:06:01 -0000
+Message-Id: <164482596151.17384.5643545563157412576@gitolite.kernel.org>
 
---===============0813386801220466988==
+--===============7995120887648908094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
+  - ref: refs/heads/usb-linus
+    old: 736e8d89044c1c330967fb938fa766cd9e0d8af0
     new: 754e0b0e35608ed5206d6a67a791563c631cec07
-    log: revlist-26291c54e111-754e0b0e3560.txt
+    log: revlist-736e8d89044c-754e0b0e3560.txt
 
---===============0813386801220466988==
+--===============7995120887648908094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825955 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825960 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1644825955-b0e4c7e9a7407c1c2bfc57063d3e65ec38051102
+nonce 1644825959-25f08120cba36ba0be5fcc7df410b2eb5217a044
 
-26291c54e111ff6ba87a164d85d4a4e134b7315c 754e0b0e35608ed5206d6a67a791563c631cec07 refs/heads/main
+736e8d89044c1c330967fb938fa766cd9e0d8af0 754e0b0e35608ed5206d6a67a791563c631cec07 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDWQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mMkQAKTiOVcyVtXFQ6xccMHn
-if8z4YBiSKpmdrBmUz/JBDrXQWSauYuCyRXsFnf82M4TL/cdrfF+YOrX1aR0h2ak
-OeUGj8fNsXyogzte8v38mapwUMgPthaD4jcpsGi8IvPfLk012M3mLE5t4urCDbXJ
-r0/sVPtHmmu5rw8cVyupJ+12hE5zrI/MTaJsltFThIzmLmwgRk+yiZdIT8f+hUms
-ZeI+TatEJQusJ4Ar5l7GowDrDZJv9Zzd6FUBx2D2/PgUX/uwVmCDZq8eXre9Rvex
-88PWkw6p5AQh3craKjuqUIHZlwkOn3n0gDQ7w0xQEjtNadVhZLjPJcLDcu79eXg+
-bmp5uq7KiGFgIPUZXeb2y3Tcaf0wSfCsOKisJVINTtQU4SHF3d8JbuDdPWok7gqu
-SCr7Nef7QURx7u+/g3P06VoXSSkjRkXibnW0cK+aRECzN9KecCvVMZieqSrTqyrp
-drXM5AhaIpO/CtnerPyxTh8UktyuEkNRpU1gHQ48M9aRUbOInHit0a9EWVLDZvK4
-D76E4tb7vj7kl/B9tbv4/EAfiLkRj5Cd+X2vTebrssD4ccpogdGJUr8BhqFrU4o1
-nfIUQXm1Y04Wy4ZmwRxoyD5rJ5xZkXRb4PhMxA7AW5X2Ye8ZwJrUdRE5Ziyye96m
-gWoKM8FQ17F3OONfhNiqA7t5
-=YowQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2YEP/R5MlGCZFuKgDJ5q4XZ0
+t6SzAMpZTNWwSHMXtF001hLw/eZKp03BOPu1lDAOQtBzrc0//QpauNBDJ5FfQx/G
+msT+/q/HsmftkXVKE1lUGY4Uj7d/l9pAn00Kxlopam8G/gThCvN/5MgelBkrxgOd
+d5l/dtPZqFcmAPKx/0pEcCf9yLoRERZQRLh742wp9aZaMaLwj2KrvY3K+UULyyCl
+ipXKDkkjypKrZVo5XWvfCT3a+TuVLPbzSDLEMzKrjbqlmFtKEKE1oYTryxJgoSRD
+29VlxiiqMXIgKpYKEjWH8YGKVf2zk40gz/wGrBK5P98yBVw6PRtTZXKG7Nlphfem
+9A8Rb+bGxCHsbZVu2HzYW11IkW5JULo6uFfBwXD0DWU3DUe9FV883yuvd3W3vij0
+P/rxxVPoa0QH5CAtP3nKXBx41sd/fuILDh4OuAnx6N3lDTXVI6NV6fMFNgOc6mJB
+Nf9Pj7HtLU3XKQ13sDHsdKNjGR9eCgbSNKCjRXu8SaP+tHjiE8cEeLrKuihdpH0P
+RsiTsR0lmBx/TkX7tov+b+bcoQrVpOFMhX2AqG8NGRrwMdtYSU1oQBYozCK+jK4W
+7jkgN7MnYUP/udqN3+Vpl1YXrTzSn2PmGu6JnoVBBlKj/wQWr/ZFnmpwABgJPYtV
+LqiYmksux+Ef1Arr8KGm5FOC
+=ehXA
 -----END PGP SIGNATURE-----
 
---===============0813386801220466988==
+--===============7995120887648908094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26291c54e111-754e0b0e3560.txt
+Content-Disposition: attachment; filename=revlist-736e8d89044c-754e0b0e3560.txt
 
 80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
 34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
@@ -237,24 +237,14 @@ b837a9f5ab3bdfab9233c9f98a6bef717673a3e5 ALSA: hda: realtek: Fix race at concurr
 41a8601302ecbe704ac970552c33dc942300fc37 ALSA: hda/realtek: Fix silent output on Gigabyte X570S Aorus Master (newer chipset)
 ea3541961376f733373839cc90493aafa8a7f733 ALSA: hda/realtek: Fix silent output on Gigabyte X570 Aorus Xtreme after reboot from Windows
 94db9cc8f8fa2d5426ce79ec4ca16028f7084224 ALSA: hda/realtek: Add quirk for ASUS GU603
-b470947c3672f7eb7c4c271d510383d896831cc2 usb: dwc3: xilinx: fix uninitialized return value
 8172f41859cf7516e73eb957297e6752b3073119 drm/i915: Allocate intel_engine_coredump_alloc with ALLOW_FAIL
 5ae13c305ef8cb54efc4f0ba4565709b9f320fed drm/i915: Lock timeline mutex directly in error path of eb_pin_timeline
 90a3d22ff02b196d5884e111f39271a1d4ee8e3e drm/i915/overlay: Prevent divide by zero bugs in scaling
 b3f74938d65665f892d1b7807c51140f68dc911c drm/i915/pmu: Use PM timestamp instead of RING TIMESTAMP for reference
 3c6f13ad723e7206f03bb2752b01d18202b7fc9d drm/i915/adlp: Fix TypeC PHY-ready status readout
-ebe2b1add1055b903e2acd86b290a85297edc0b3 usb: f_fs: Fix use-after-free for epfile
-fa77ce201f7f2d823b07753575122d1ae5597fbe USB: serial: ch341: add support for GW Instek USB2.0-Serial devices
-d48384c7ed6c8fe4727eaa0f3048f62afd1cd715 USB: serial: option: add ZTE MF286D modem
 341adeec9adad0874f29a0a1af35638207352a39 net/smc: Forward wakeup to smc socket waitqueue after fallback
 baf927a833ca2c6717795ac131079f485cb7a5dc pinctrl: microchip-sgpio: Fix support for regmap
-092f45b13e51666fe8ecbf2d6cd247aa7e6c1f74 usb: ulpi: Move of_node_put to ulpi_dev_release
-0a907ee9d95e3ac35eb023d71f29eae0aaa52d1b usb: ulpi: Call of_node_put correctly
 a4f399a1416f645ac701064a55b0cb5203707ac9 Input: wm97xx: Simplify resource management
-5c2b9c61ae5d8ad0a196d33b66ce44543be22281 usb: usb251xb: add boost-up property support
-292d2c82b105d92082c2120a44a58de9767e44f1 usb: raw-gadget: fix handling of dual-direction-capable endpoints
-459702eea6132888b5c5b64c0e9c626da4ec2493 usb: gadget: udc: renesas_usb3: Fix host to USB_ROLE_NONE transition
-5432184107cd0013761bdfa6cb6079527ef87b95 usb: gadget: f_uac2: Define specific wTerminalType
 c816b2e65b0e86b95011418cad334f0524fc33b8 n_tty: wake up poll(POLLRDNORM) on receiving data
 f6c6804c43fa18d3cee64b55490dfbd3bef1363a kvm: Move KVM_GET_XSAVE2 IOCTL definition at the end of kvm.h
 bd2db32e7c3e35bd4d9b8bbff689434a50893546 moxart: fix potential use-after-free on remove path
@@ -293,9 +283,6 @@ ff4865b3c8cd746ef72f59bdd485848b4cebd43d ALSA: Replace acpi_bus_get_device()
 2161ba070999a709f975910b6b9ad6b51cd6f120 MIPS: KVM: fix vz.c kernel-doc notation
 92c4cfaee6872038563c5b6f2e8e613f9d84d47d dma-buf: heaps: Fix potential spectre v1 gadget
 7d73c602154df56802a9e75ac212505fc1e9a2b6 drm/i915/pmu: Fix KMD and GuC race on accessing busyness
-fbb9b194e15a63c56c5664e76ccd0e85c6100cea USB: serial: ftdi_sio: add support for Brainboxes US-159/235/320
-b50f8f09c622297d3cf46e332e17ba8adedec9af USB: serial: cp210x: add NCR Retail IO box id
-6ca0c6283340d819bf9c7d8e76be33c9fbd903ab USB: serial: cp210x: add CPI Bulk Coin Recycler id
 57dfd7b53dec740afe402135fdd1c5708ec337f0 KVM: x86: Move delivery of non-APICv interrupt into vendor code
 ee12595147ac1fbfb5bcb23837e26dd58d94b15d fanotify: Fix stale file descriptor in copy_event_to_user()
 881cc731df6af99a21622e9be25a23b81adcd10b net: phy: Fix qca8081 with speeds lower than 2.5Gb/s
@@ -634,7 +621,6 @@ d9bc0de02aa0afa7ff96682428b2bb792bf00d9c MAINTAINERS: arm: samsung: add Git tree
 cc38ef936840ac29204d806deb4d1836ec509594 gpio: sifive: use the correct register to read output values
 7896020612039fcbff11b8a903b28b0f157d2e5f Merge tag 'amlogic-fixes-v5.17-rc-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
 bca828ccdd6548d24613d0cede04ada4dfb2f89c speakup-dectlk: Restore pitch setting
-117b4e96c7f362eb6459543883fc07f77662472c usb: dwc3: gadget: Prevent core from processing stale TRBs
 50b10528aad568c95f772039d4b3093b4aea7439 fbcon: Avoid 'cap' set but not used warning
 db405774f6a80c5607dcf43ec810f078bb5c660d MAINTAINERS: Add entry for fbdev core
 468d126dab45718feeb728319be20bd869a5eaa7 NFS: Fix initialisation of nfs_client cl_flags field
@@ -747,14 +733,8 @@ df2bb4dc285e60665930889e6f8c5bb38b90249a Merge tag 'drm-misc-fixes-2022-02-10' o
 5c72263ef2fbe99596848f03758ae2dc593adf2c signal: HANDLER_EXIT should clear SIGNAL_UNKILLABLE
 495ac3069a6235bfdf516812a2a9b256671bbdf9 seccomp: Invalidate seccomp mode to catch death failures
 eed09ad261822a7bdc441ed192c6f444375e5527 samples/seccomp: Adjust sample to also provide kill option
-57bc3d3ae8c14df3ceb4e17d26ddf9eeab304581 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-c853685d11c09da35cb49bbf8f0c001abdc0d0a9 usb: core: Unregister device on component_add() failure
-75e5b4849b81e19e9efe1654b30d7f3151c33c2c USB: gadget: validate interface OS descriptor requests
-38ea1eac7d88072bbffb630e2b3db83ca649b826 usb: gadget: rndis: check size of RNDIS_MSG_SET command
-269cbcf7b72de6f0016806d4a0cec1d689b55a87 usb: dwc2: drd: fix soft connect when gadget is unconfigured
 c72ea20503610a4a7ba26c769357d31602769c01 iio: buffer: Fix file related error handling in IIO_BUFFER_GET_FD_IOCTL
 bf23747ee05320903177809648002601cd140cdd loop: revert "make autoclear operation asynchronous"
-c1dd10c681cd661aae7926630b3f3b0f26fc1cd5 Merge tag 'usb-serial-5.17-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 27a98fe60b033dfce95361abe368750994b8a78e Merge branch 'acpi-x86'
 356b8103d4c495d5440e3e687db9026ec2b76043 Revert "gfs2: check context in gfs2_glock_put"
 d3add1a9519dcacd6e644ecac741c56cf18b67f5 gfs2: Fix gfs2_release for non-writers regression
@@ -776,7 +756,6 @@ adccc16ea3c5fb205bdec0133d08e799aa6cc9ea Merge tag 'pci-v5.17-fixes-4' of git://
 b485c6f1f9f54b81443efda5f3d8a5036ba2cd91 mm: vmscan: remove deadlock due to throttling failing to make progress
 0764db9b49c932b89ee4d9e3236dff4bb07b4a66 mm: memcg: synchronize objcg lists with a dedicated spinlock
 8913c61001482378d4ed8cc577b17c1ba3e847e4 kfence: make test case compatible with run time set sample interval
-736e8d89044c1c330967fb938fa766cd9e0d8af0 Revert "usb: dwc2: drd: fix soft connect when gadget is unconfigured"
 1b9e740a81f91ae338b29ed70455719804957b80 kconfig: fix failing to generate auto.conf
 9917ff5f319788a195c691fa19cf3e90cee59f40 Merge branch 'akpm' (patches from Andrew)
 eef8cffcaba8f1498ec32f55c859b883315232ad Merge tag 'seccomp-v5.17-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -797,4 +776,4 @@ c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of gi
 e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 754e0b0e35608ed5206d6a67a791563c631cec07 Linux 5.17-rc4
 
---===============0813386801220466988==--
+--===============7995120887648908094==--
