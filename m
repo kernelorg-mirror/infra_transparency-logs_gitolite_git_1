@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5536375644425664260=="
+Content-Type: multipart/mixed; boundary="===============9175325154572568998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 14 Feb 2022 15:57:48 -0000
-Message-Id: <164485426863.30084.8333354458486713169@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 15:59:27 -0000
+Message-Id: <164485436738.30760.3626376401669910123@gitolite.kernel.org>
 
---===============5536375644425664260==
+--===============9175325154572568998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/fast-mix-lfsr
-    old: ea2e12d97ae7eedb30c4ce4df8437cf6644d8f7c
-    new: e206f519162f8ffa0c325a1b5326b7301c88f046
-    log: revlist-ea2e12d97ae7-e206f519162f.txt
+  - ref: refs/heads/jd/no-irq-trylocks
+    old: 84af7f006fd20635a3d86a4c9ac1e7cab80fa1cc
+    new: bf70e763e8cf9cb29e1003a7d39ec41f31fbe56e
+    log: revlist-84af7f006fd2-bf70e763e8cf.txt
 
---===============5536375644425664260==
+--===============9175325154572568998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea2e12d97ae7-e206f519162f.txt
+Content-Disposition: attachment; filename=revlist-84af7f006fd2-bf70e763e8cf.txt
 
 4ce3ea935e918b31326e8974b4af1b39271309a8 random: deobfuscate irq u32/u64 contributions
 5d4fd94b8f191524550eedab0e337e155a2ab468 random: introduce drain_entropy() helper to declutter crng_reseed()
@@ -42,6 +42,6 @@ a727282b8518128ecc32fdd582031e656c373fa9 random: defer fast pool mixing to worke
 77f41b97d529db53cebcbd4cd94a190926c0a219 random: unify early init crng load accounting
 5e0c8c5c30c2f12ae32f98f8050eb8efe852a050 random: check for crng_init == 0 in add_device_randomness()
 eb1f9cb7627fb06780435c5c933fce96eff5ed25 random: pull add_hwgenerator_randomness() declaration into random.h
-e206f519162f8ffa0c325a1b5326b7301c88f046 random: use linear max-period irq entropy accumulator
+bf70e763e8cf9cb29e1003a7d39ec41f31fbe56e random: do crng pre-init loading in worker rather than irq
 
---===============5536375644425664260==--
+--===============9175325154572568998==--
