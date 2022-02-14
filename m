@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 14 Feb 2022 01:47:53 -0000
-Message-Id: <164480327313.1343.9497321069663317471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Mon, 14 Feb 2022 02:14:50 -0000
+Message-Id: <164480489044.18220.10859683390581374510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: f67695c9962e5f444549b3437fb8d840ec6222c8
-    new: a9bed2a9f9672e3cb0b320e127e46c74acd65a28
-    log: |
-         a9bed2a9f9672e3cb0b320e127e46c74acd65a28 kbuild: replace $(if A,A,B) with $(or A,B)
-         
+  - ref: refs/heads/xfs/end_cow
+    old: 0000000000000000000000000000000000000000
+    new: 20a175b5d3ff8ecb5be2451ce9dcdf82c4aa2afd
