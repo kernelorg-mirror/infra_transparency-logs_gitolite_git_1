@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1830701246495397516=="
+Content-Type: multipart/mixed; boundary="===============6876880771166885293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 14 Feb 2022 01:40:15 -0000
-Message-Id: <164480281521.29624.17947425670240536470@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 01:40:26 -0000
+Message-Id: <164480282667.29821.11175200845682368330@gitolite.kernel.org>
 
---===============1830701246495397516==
+--===============6876880771166885293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: c6553cd5dec6f8bd261349d59ce3f8270865b57b
     new: f67695c9962e5f444549b3437fb8d840ec6222c8
     log: revlist-c6553cd5dec6-f67695c9962e.txt
 
---===============1830701246495397516==
+--===============6876880771166885293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git
 a5575df58004e8444e5a2a307407c3f1a6ecf175 kbuild: unify cmd_copy and cmd_shipped
 f67695c9962e5f444549b3437fb8d840ec6222c8 kbuild: Add environment variables for userprogs flags
 
---===============1830701246495397516==--
+--===============6876880771166885293==--
