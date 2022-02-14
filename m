@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 14 Feb 2022 14:01:39 -0000
-Message-Id: <164484729993.13435.5878053292026129576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 14 Feb 2022 14:08:16 -0000
+Message-Id: <164484769633.16955.11005829856800626260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a2614140dc0f467a83aa3bb4b6ee2d6480a76202
-    new: 0fc95dec096c2133942c382396172ae4487b4d57
+    old: 7db45f8d955dac24e3dc58c0829f6c0760190986
+    new: 1e997d040ab4f6802a2f88443caf2d84d3465397
     log: |
-         5891cd5ec46c2c2eb6427cb54d214b149635dd0e net_sched: add __rcu annotation to netdev->qdisc
-         0fc95dec096c2133942c382396172ae4487b4d57 net: fix documentation for kernel_getsockname
+         dd263a8cb1941d2d34a55633bd5366d9bebf4be8 ipv6: blackhole_netdev needs snmp6 counters
+         9a236b543f6b1e85bb18b00ce5c92bfff84a47ab net: dsa: realtek: realtek-smi: clean-up reset
+         05f7b042c5a6d37f67e328388f31018e48711194 net: dsa: realtek: realtek-mdio: reset before setup
+         1e997d040ab4f6802a2f88443caf2d84d3465397 Merge branch 'dsa-realtek-next'
          
