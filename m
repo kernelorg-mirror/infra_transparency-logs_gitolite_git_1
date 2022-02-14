@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Mon, 14 Feb 2022 11:58:40 -0000
-Message-Id: <164483992057.28353.13625891104073396375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 14 Feb 2022 12:01:44 -0000
+Message-Id: <164484010488.31039.12669978035678947392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 26b081a017c0a8a4e9a53fab0c173027d5bb7007
-    new: a498017d0571dd7dbf36ebfea552892730344c0d
+  - ref: refs/heads/master
+    old: faa5a3a83ad0cb5e2c303edbfd8cd823c9d94c17
+    new: 6e908327cb220f998afdba6cbb64a29be0ff5c62
     log: |
-         fc036516aae4c33619be0de8b2a897ed439a5c61 dt-bindings: nvmem: add fsl,layerscape-sfp binding
-         a498017d0571dd7dbf36ebfea552892730344c0d nvmem: add driver for Layerscape SFP (Security Fuse Processor)
+         de9dcbdf8a662f207ab0e7c7b628a4bdd7adf552 unshare: call getline() in more robust way
+         6e908327cb220f998afdba6cbb64a29be0ff5c62 hexdump: call getline() in more robust way
          
