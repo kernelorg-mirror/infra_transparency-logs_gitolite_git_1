@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 14 Feb 2022 13:36:24 -0000
-Message-Id: <164484578477.28690.10516968325833318283@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 13:46:15 -0000
+Message-Id: <164484637571.2245.15255019485208770319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4cf91f825b2777f81799f98ce32172b829acd1b2
-    new: 88f62aea1cff0c2ff84901dc11ceddf1eaf7021d
+    old: 88f62aea1cff0c2ff84901dc11ceddf1eaf7021d
+    new: 7db45f8d955dac24e3dc58c0829f6c0760190986
     log: |
-         e27d785e60b6b1d4a53ec632db2e8c5b16bd6cd6 net: mscc: ocelot: remove unnecessary stat reading from ethtool
-         65c53595bc2a14e77b455c8a12fc2631cbe43868 net: ocelot: align macros for consistency
-         40f3a5c81555880a437dfd3301826074dff18138 net: mscc: ocelot: add ability to perform bulk reads
-         d87b1c08f38a2ce40cf559df36c107a2e6c16a8f net: mscc: ocelot: use bulk reads for stats
-         d4e7592b6404c87c33be5159e5d06e21d9e5e7b8 Merge branch 'ocelot-stats'
-         88f62aea1cff0c2ff84901dc11ceddf1eaf7021d ice: Simplify tracking status of RDMA support
+         f234ae2947612825686b25cae3e9579188a6ba95 net: dev: Remove preempt_disable() and get_cpu() in netif_rx_internal().
+         baebdf48c360080710f80699eea3affbb13d6c65 net: dev: Makes sure netif_rx() can be invoked in any context.
+         e722db8de6e6932267457ace2657a19015f3db4a net: dev: Make rps_lock() disable interrupts.
+         da54d75bebf4d837ad9f747086433d0a5ef7c497 Merge branch 'netdev-RT'
+         7db45f8d955dac24e3dc58c0829f6c0760190986 net: dsa: realtek: rename macro to match filename
          
