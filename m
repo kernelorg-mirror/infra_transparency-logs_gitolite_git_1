@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 14 Feb 2022 14:08:16 -0000
-Message-Id: <164484769633.16955.11005829856800626260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 14 Feb 2022 14:08:19 -0000
+Message-Id: <164484769927.17080.10464655893148313451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 7db45f8d955dac24e3dc58c0829f6c0760190986
-    new: 1e997d040ab4f6802a2f88443caf2d84d3465397
+    old: 0164b4fd8b0add2148eaffc750ee2b8d4b0eee96
+    new: d4cf5c53be3b4fd77abc4f5aca266b7f7f19331a
     log: |
-         dd263a8cb1941d2d34a55633bd5366d9bebf4be8 ipv6: blackhole_netdev needs snmp6 counters
-         9a236b543f6b1e85bb18b00ce5c92bfff84a47ab net: dsa: realtek: realtek-smi: clean-up reset
-         05f7b042c5a6d37f67e328388f31018e48711194 net: dsa: realtek: realtek-mdio: reset before setup
-         1e997d040ab4f6802a2f88443caf2d84d3465397 Merge branch 'dsa-realtek-next'
+         53e199d44986fdee12464efd3a52010bb7cccd90 random: pull add_hwgenerator_randomness() declaration into random.h
+         57fd19b8987a93ad730804e0f7f03654fc6f3c59 random: set fast pool count to zero in cpuhp teardown
+         d4cf5c53be3b4fd77abc4f5aca266b7f7f19331a random: invalidate crngs and batches on cpuhp teardown
          
