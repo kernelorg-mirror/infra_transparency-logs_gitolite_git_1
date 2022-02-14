@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8652186803626551819=="
+Content-Type: multipart/mixed; boundary="===============5527931533873607325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Feb 2022 16:01:52 -0000
-Message-Id: <164485451260.1053.10195609656593422780@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 16:02:02 -0000
+Message-Id: <164485452262.1236.163508487257701818@gitolite.kernel.org>
 
---===============8652186803626551819==
+--===============5527931533873607325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b96a79253fff1cd2c928b379eadd8c7a6f8055e1
-    new: 12d8c11198af191d06d02b01624d84c669ef7231
-    log: revlist-b96a79253fff-12d8c11198af.txt
+  - ref: refs/heads/dev-queue
+    old: 4b73ec44fccba8b3c65197c835e38a83e3c4f3a8
+    new: 0393ce6bd4967f5b6443109289fc171f28be7f1e
+    log: revlist-4b73ec44fccb-0393ce6bd496.txt
 
---===============8652186803626551819==
+--===============5527931533873607325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b96a79253fff-12d8c11198af.txt
+Content-Disposition: attachment; filename=revlist-4b73ec44fccb-0393ce6bd496.txt
 
 5f7dc7d48c9402dacc009e163ae7e342556ffbc4 octeontx2-af: fix array bound error
 c9ac080b25d98dbbea6caa165bfc0b88a88458cc net: moxa: use GFP_KERNEL
@@ -66,5 +66,42 @@ dd263a8cb1941d2d34a55633bd5366d9bebf4be8 ipv6: blackhole_netdev needs snmp6 coun
 e81f1e0de816bf16756ffa269fb7bce8383c13c2 Merge branch 'wwan-debugfs'
 fa5d824ce5dd8306c66f45c34fd78536e6ce2488 net: prestera: acl: add multi-chain support offload
 12d8c11198af191d06d02b01624d84c669ef7231 selftests: net: cmsg_sender: Fix spelling mistake "MONOTINIC" -> "MONOTONIC"
+e2c7c99536ecfedaa16413111556cc4626af3de6 i40e/i40evf: cleanup i40e_update_nvm_checksum()
+2744e3e2f5e1a6a6062b465a32b6ca1089988b75 igc: Add UDP segmentation offload support
+d7727b963071a69364c44a15ca2a1b4112a91a0f i40e: Refactor VF queue requesting
+86b6e6e6c1d37dd8e5e71426035e3efc58fea1e7 ice: add TTY for GNSS module for E810T device
+71a905e6ac7ce63419502ecbea0d6877fb69da26 i40e: remove dead stores on XSK hotpath
+6250e70a644d9a5b0e1d58e3fda206089e831d9c i40e: Fix the timeliness of stats after deleting tc
+bd4bc9f9a02213249c9d955001ae8ecf68898ce4 ice: Match on all profiles in slow-path
+2fe127a073e35ae026870021ed51ddbb811f8a83 ice: fix setting l4 port flag when adding filter
+bc69ccd6fc51ad06776395c5d53dcf4a256fb526 iavf: remove redundant ret variable
+f3ed051b153f606481a270daadbc655397a385b1 iavf: Add support for 50G/100G in AIM algorithm
+a6f7da858e52c95ace5f70c24e1b8c6ac09b75bf ixgbe: Remove non-inclusive language from Intel code
+134d88a0c52667a1954d9a89cf4c52ee4c008b45 iavf: refactor processing of VLAN V2 capability message
+6d6b0d1990c41e2b65411b1ce976f563c08dc961 ice: enable parsing IPSEC SPI headers for RSS
+d02447b03fe7e88b2624d9808501011c3ed591e8 ice: Add support for inner etype in switchdev
+fe1948fd44b9dff3a45cdb81dba87c9bd1791819 iavf: Add usage of new virtchnl format to set default MAC
+e6a9e0ce0af7e9d0591b2246ee177dc5fd36202d iavf: Fix handling of vlan strip virtual channel messages
+2db17219939c1b91b1f449ee12853a5aac2ce007 iavf: Add waiting for response from PF in set mac
+17fe5cf9a26fd9f3d2e44cfafeb84081b2abfc8f ice: Don't use GFP_KERNEL in atomic context
+83d59fccbb8a6567e42fc8e2c282e6e9f631a1e7 e1000e: Fix possible HW unit hang after an s0ix exit
+e82952b2a222bd033d06a67d779304a2969ef1c4 ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+643d8cb54e44239673c55abb5aee50b2cc6148e4 ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+edcfb652a9edbcbb737b19f5ab7be9b60c9932d9 ice: switch: use a struct to pass packet template params
+c688251a086594bcf03f34e654b94ec58d5e6950 ice: switch: use convenience macros to declare dummy pkt templates
+4414ce8382a74b088ea2ad8fe3a5a0f7ea654e5b iavf: stop leaking iavf_status as "errno" values
+190b970e9693cd4f1d3c8d1db6fb652720fe23b7 iavf: Fix incorrect use of assigning iavf_status to int
+8c910f997a1c839e1c86d515737d07da5a232d8b ice: Add slow path offload stats on port representor in switchdev
+cad75d819d64f4cdaa2dc7f77d7bf6461e36eba4 ice: avoid XDP checks in ice_clean_tx_irq()
+2512a9e1bfaf33bc7bc81172b6c00f162581f58d iavf: Fix adopting new combined setting
+0f62f233a3b45c7296e8d73949c5fc71da5a7c41 e1000e: Correct NVM checksum verification flow
+349b013a2189c11e3d0e2d30de4fa871d106f370 ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+cd04e492c7291178fe4b7d6f329f9629ab201dea ice: Add support for classid based queue selection
+0903c6c7d240708808868cbdcd8471148e9c890f iavf: Remove non-inclusive language
+28b5a5840be4a8914be1cfed5182e6467fa0e5d4 ice: change "can't set link" message to dbg level
+62bdd115f577776ee5180dd14eaea43a03b92e88 ice: fix concurrent reset and removal of VFs
+69208c2f24cc1bc259cdfbaada4f04b82ad48398 ixgbevf: clean up some inconsistent indenting
+26abfa0b25c335ba68fbe20576ddde75ffbba145 ice: Add support for outer dest MAC for ADQ tunnels
+0393ce6bd4967f5b6443109289fc171f28be7f1e e1000e: Print PHY register address when MDI read/write fails
 
---===============8652186803626551819==--
+--===============5527931533873607325==--
