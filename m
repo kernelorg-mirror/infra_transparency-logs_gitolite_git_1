@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3993588205588975193=="
+Content-Type: multipart/mixed; boundary="===============2181571646535314948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Feb 2022 11:19:47 -0000
-Message-Id: <164483758707.348.399697127170751681@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 11:19:59 -0000
+Message-Id: <164483759951.553.5966399172744264611@gitolite.kernel.org>
 
---===============3993588205588975193==
+--===============2181571646535314948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0966f2d6178459e692717274055ac9847e593f83
-    new: b71f1c5991da14ccfa9cbf5d08f009737d3afcb0
-    log: revlist-0966f2d61784-b71f1c5991da.txt
+  - ref: refs/heads/m68k-queue
+    old: a9abf61a0a45f6895d6f10cadfc436cb4ae01920
+    new: 8983a9e770a00a81bad43ea097823cb71d42642a
+    log: revlist-a9abf61a0a45-8983a9e770a0.txt
 
---===============3993588205588975193==
+--===============2181571646535314948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0966f2d61784-b71f1c5991da.txt
+Content-Disposition: attachment; filename=revlist-a9abf61a0a45-8983a9e770a0.txt
 
 80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
 34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
@@ -366,6 +366,10 @@ f5e02656b19fa4e38180a08faadd631858a02877 Merge tag 'perf_urgent_for_v5.17_rc4' o
 c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 754e0b0e35608ed5206d6a67a791563c631cec07 Linux 5.17-rc4
-b71f1c5991da14ccfa9cbf5d08f009737d3afcb0 Merge tag 'v5.17-rc4'
+86a2f27adebe04f04d61b66e6a5913f9e3f3427e m68k: Add asm/config.h
+e7e44a891e458bf5a588e51c27e8e2e59a920e24 m68k: mm: Remove check for VM_IO to fix deferred I/O
+7053c3ad51ca0c36f12521cd7a6c3d23736a752e m68k: atari: usb: Add ISP1160 USB host controller support
+9e5c34054e24a87f1c168a698b64d6538b3a90f7 m68k: atari: Update Kconfig.bus help text
+8983a9e770a00a81bad43ea097823cb71d42642a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3993588205588975193==--
+--===============2181571646535314948==--
