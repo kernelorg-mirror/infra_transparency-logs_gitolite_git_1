@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8311961828512886771=="
+Content-Type: multipart/mixed; boundary="===============8839789154615667401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Feb 2022 16:26:38 -0000
-Message-Id: <164485599836.17552.12222329817805996378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Feb 2022 16:26:44 -0000
+Message-Id: <164485600445.17728.15341686794436009075@gitolite.kernel.org>
 
---===============8311961828512886771==
+--===============8839789154615667401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 9fe0c0128d7c38f6b5e985421e538e7582fd3520
     new: 0191899db468ec442bdaa7ad944085ca9ac614e8
     log: |
@@ -25,28 +25,28 @@ changes:
          0191899db468ec442bdaa7ad944085ca9ac614e8 ASoC: Add Euro Headset support for wcd938x codec
          
 
---===============8311961828512886771==
+--===============8839789154615667401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1644855997 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1644855996-1105961b6b40eef80e860a8e60fd8b02cc613ee3
+pusher C3F436CA30F5D8EB 1644856003 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1644856002-ae2ac362b11337dfd8aad42c0d2622e352ffddae
 
-9fe0c0128d7c38f6b5e985421e538e7582fd3520 0191899db468ec442bdaa7ad944085ca9ac614e8 refs/heads/for-5.18
+9fe0c0128d7c38f6b5e985421e538e7582fd3520 0191899db468ec442bdaa7ad944085ca9ac614e8 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIKgr0ACgkQJNaLcl1U
-h9CJ1Qf/S2ZBAWVoosDGCU1IsOtBUYFs3ZXJ00z5ZSdaEPd6SRwgkYBA3FiQdMNN
-n93LKdAMjX+xHuiFDnO3RRCLxrPLuxEuHIl8nHmxEYhk7b7UBz7ZdkBSO+Iq9meE
-ibUSYAJwl3qMz8vqK/bXn+cCbf8N3j7VCFlabngGocy7NeoQEtC/zOh4txXSjZ+o
-LDIKQRgdB2oONgUVjKQE/Ot3xXlKUdT+NyB85viNXiGweQ08eFcaHhj92PqIOW74
-5pfyfs9G1nGQ+fdkbsFFHDsaz69WSdhoYpEMGPkxynBoo/eoAcW7OQ4eA98j3aUQ
-v3SVd6ivInE3VteQlsKn66Ld56T0wg==
-=2rpz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIKgsMACgkQJNaLcl1U
+h9AD/Af+MwNqsXBHAySKtahbVr2evOV+MbL8QZlPatYzbQi7BPwHfj0XJS/watXB
+B9sYjEPqTSXafHrWXA/w+Mo+qLiWsaUYxUPMRYNIDr1Oz1gALqwxLGciW9ca8G+s
+Jyx+suVGUOeJSRiMqW24MZSeemPoVYd4EXnqNPXDafKNvDFMZ1Qa318Krep9p8eJ
+JkfiGXyfPvwfrqevxMmhytgJnwHKYHf3D6lNiP7IXlqYDLqvi6gN6yOnczrdpuTk
+hWsr0Lckctf5CHKNfbryr7Pr1xpgzckLGfac3LDZTsQg3ZoMW06pxjGjhDFUEINI
+stVsRqpYw025XnFTpUTlH/7i15A4/Q==
+=MMTQ
 -----END PGP SIGNATURE-----
 
---===============8311961828512886771==--
+--===============8839789154615667401==--
