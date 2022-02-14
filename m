@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Mon, 14 Feb 2022 13:54:55 -0000
-Message-Id: <164484689565.7955.13937670866544977104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 14 Feb 2022 13:55:59 -0000
+Message-Id: <164484695937.9859.17642919787056279781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/xfs/end_cow
-    old: 20a175b5d3ff8ecb5be2451ce9dcdf82c4aa2afd
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 338ad4a93ccfa99f2564fb268e947746b2345f66
+    new: 2a28d961f7045bb46effb1afe5cc8d65c9f7a289
+    log: |
+         2a28d961f7045bb46effb1afe5cc8d65c9f7a289 hardlink: ignore files specified more than once
+         
