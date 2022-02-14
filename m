@@ -1,44 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4577451839579155150=="
+Content-Type: multipart/mixed; boundary="===============2822459070878868889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Mon, 14 Feb 2022 15:47:26 -0000
-Message-Id: <164485364633.22334.7553665008957021936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 14 Feb 2022 15:50:56 -0000
+Message-Id: <164485385642.24972.14802711145817344193@gitolite.kernel.org>
 
---===============4577451839579155150==
+--===============2822459070878868889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
-user: arnd
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/set_fs
-    old: 2a0bc55bf1de54742196464620860bbc46592f11
-    new: 3110044e0698225d89dea709e3af6f71a18d7518
-    log: revlist-2a0bc55bf1de-3110044e0698.txt
+  - ref: refs/heads/master
+    old: 53e199d44986fdee12464efd3a52010bb7cccd90
+    new: eb1f9cb7627fb06780435c5c933fce96eff5ed25
+    log: revlist-53e199d44986-eb1f9cb7627f.txt
 
---===============4577451839579155150==
+--===============2822459070878868889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a0bc55bf1de-3110044e0698.txt
+Content-Disposition: attachment; filename=revlist-53e199d44986-eb1f9cb7627f.txt
 
-84b0391764bec256ef59244084b03de6552473d6 uaccess: fix integer overflow on access_ok()
-9a6e21f5042a3ab86b0542b54687140f754494f2 sparc64: add __{get,put}_kernel_nocheck()
-249b740a577ea2e4e43f271ee9c9976f82f05949 nds32: fix access_ok() checks in get/put_user
-b73c5f063ca03c1fbdbe4c498914369b9d90a223 x86: use more conventional access_ok() definition
-16c3e7c01b8907b185857f11cc7be402531f0538 uaccess: add generic __{get,put}_kernel_nofault
-4c79fefb08bc5916d787dbd3df2158ec3b90cb43 mips: use simpler access_ok()
-4cecc4de39f4590f86594a171c1a6cbc5f906c00 uaccess: generalize access_ok()
-6ade3a960b43480a26eac72f8078b69b6955cbd1 arm64: simplify access_ok()
-77560e9ec45f62d0180d0437be12b8ee563b2f22 m68k: drop custom __access_ok()
-49c0a4030257f2c79b47c830f3bf3f5ac141e7ab uaccess: remove most CONFIG_SET_FS users
-10b263f07ccaf4b202b355fc5ac31338dbf050bf sparc64: remove CONFIG_SET_FS support
-38508b098f00439e0b128ddc00836ee33a66d04f sh: remove CONFIG_SET_FS support
-487a35d9939bdbec29d93321152f60d539c5a3fd ia64: remove CONFIG_SET_FS support
-3110044e0698225d89dea709e3af6f71a18d7518 uaccess: drop set_fs leftovers
+4ce3ea935e918b31326e8974b4af1b39271309a8 random: deobfuscate irq u32/u64 contributions
+5d4fd94b8f191524550eedab0e337e155a2ab468 random: introduce drain_entropy() helper to declutter crng_reseed()
+a67ac08a2c669297b87271e6d5f1dc2e2e413e1d random: remove useless header comment
+2eb0bc04d8b01f752210fe0da23476715a6803e5 random: remove whitespace and reorder includes
+ff30036847dbcb4e8c3145685b543cf0ecbc6f64 random: group initialization wait functions
+7e883733ddb89e8b1ee934062e79fd53a294afe2 random: group crng functions
+5c54c3a0725ace29c330763e18fcd5d9b284a64b random: group entropy extraction functions
+d350a9e5f8319c2797e99276ef1e9d1d47914328 random: group entropy collection functions
+413762a946c92f19c33f444ccecc6fda375cdeba random: group userspace read/write functions
+079f87ee3392689c900950e8355d760449dc3dd0 random: group sysctl functions
+23698e0a679cf71b29df34a7e5720d30d59ceb97 random: rewrite header introductory comment
+a727282b8518128ecc32fdd582031e656c373fa9 random: defer fast pool mixing to worker
+7e2862edd5b35f8fa4bbe5c6fcfb887b299edda7 random: do not take pool spinlock at boot
+77f41b97d529db53cebcbd4cd94a190926c0a219 random: unify early init crng load accounting
+5e0c8c5c30c2f12ae32f98f8050eb8efe852a050 random: check for crng_init == 0 in add_device_randomness()
+eb1f9cb7627fb06780435c5c933fce96eff5ed25 random: pull add_hwgenerator_randomness() declaration into random.h
 
---===============4577451839579155150==--
+--===============2822459070878868889==--
