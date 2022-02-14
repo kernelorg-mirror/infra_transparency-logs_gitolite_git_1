@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7580128741155558747=="
+Content-Type: multipart/mixed; boundary="===============0928961009296564219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 14 Feb 2022 00:04:39 -0000
-Message-Id: <164479707900.25344.13181218312244932829@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 00:07:01 -0000
+Message-Id: <164479722144.27617.3748093233416840509@gitolite.kernel.org>
 
---===============7580128741155558747==
+--===============0928961009296564219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/no-irq-trylocks
-    old: 4b98078747f99caeb818e8ebecfd3933dd737c50
-    new: a091fd1e30d7232a4640f29b6f6d4ca77da4e9aa
-    log: revlist-4b98078747f9-a091fd1e30d7.txt
+  - ref: refs/heads/jd/fast-mix-lfsr
+    old: 3c1e929219c5ce5202f7f688a0b0b74510bf07a2
+    new: 2c4f0ff70676beb187e7ce16676fc9e8f9d75e69
+    log: revlist-3c1e929219c5-2c4f0ff70676.txt
 
---===============7580128741155558747==
+--===============0928961009296564219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b98078747f9-a091fd1e30d7.txt
+Content-Disposition: attachment; filename=revlist-3c1e929219c5-2c4f0ff70676.txt
 
 80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
 34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
@@ -407,6 +407,6 @@ af856dadcc211a73bdd7ac554daa86506ebed1b9 random: defer fast pool mixing to worke
 4f9e021516f1083ee7b1133a614b44c085d2762e random: check for crng_init == 0 in add_device_randomness()
 1f76ba5adfa960c75902e6eb5e114cbb0a00f2f4 random: pull add_hwgenerator_randomness() declaration into random.h
 d5732df7c286bc09afece88674864e91e2e19532 random: set fast pool count to zero in cpuhp teardown
-a091fd1e30d7232a4640f29b6f6d4ca77da4e9aa random: do crng pre-init loading in worker rather than irq
+2c4f0ff70676beb187e7ce16676fc9e8f9d75e69 random: use linear max-period irq entropy accumulator
 
---===============7580128741155558747==--
+--===============0928961009296564219==--
