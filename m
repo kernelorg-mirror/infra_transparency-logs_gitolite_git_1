@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 14 Feb 2022 14:13:01 -0000
-Message-Id: <164484798125.20278.16326090246777417906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 14 Feb 2022 14:16:29 -0000
+Message-Id: <164484818917.22947.6316702447205542013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 0fc95dec096c2133942c382396172ae4487b4d57
-    new: 603c692d574185a1fffc9549e8e30f27bd7dba6c
+    old: 9b9f89c60d64d1dd184e904e2757875644f29b6e
+    new: 42a401988bc4a517691a6195c4e7525c8e1ea520
     log: |
-         603c692d574185a1fffc9549e8e30f27bd7dba6c MAINTAINERS: bridge: update my email
+         42a401988bc4a517691a6195c4e7525c8e1ea520 Bluetooth: btusb: Improve stability for QCA devices
          
