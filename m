@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 14 Feb 2022 13:53:40 -0000
-Message-Id: <164484682005.7454.8251388989944885137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Mon, 14 Feb 2022 13:54:55 -0000
+Message-Id: <164484689565.7955.13937670866544977104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/tags/ib-mfd-led-power-regulator-v5.18
-    old: 0000000000000000000000000000000000000000
-    new: c7f1f9457256e58ed73592e313ac4eb177c96ebf
+  - ref: refs/heads/xfs/end_cow
+    old: 20a175b5d3ff8ecb5be2451ce9dcdf82c4aa2afd
+    new: 0000000000000000000000000000000000000000
