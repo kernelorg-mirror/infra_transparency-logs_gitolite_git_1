@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 14 Feb 2022 14:20:01 -0000
-Message-Id: <164484840133.24122.9550320542129708499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 14 Feb 2022 14:22:56 -0000
+Message-Id: <164484857678.27965.15166154151329876111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 42a401988bc4a517691a6195c4e7525c8e1ea520
-    new: 952b6d5f18594418963b70467a8cd115cfa37a5d
-    log: |
-         952b6d5f18594418963b70467a8cd115cfa37a5d Bluetooth: 6lowpan: No need to clear memory twice
-         
+  - ref: refs/tags/juno-fix-5.17
+    old: 0000000000000000000000000000000000000000
+    new: d776e796ef6d8c16a86adb27a48b03d45fa8a3d9
