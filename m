@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0308804186642147426=="
+Content-Type: multipart/mixed; boundary="===============5044421466862216220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 14 Feb 2022 21:05:01 -0000
-Message-Id: <164487270156.6803.13919989195176192092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 14 Feb 2022 21:05:06 -0000
+Message-Id: <164487270628.8349.3634519893860979467@gitolite.kernel.org>
 
---===============0308804186642147426==
+--===============5044421466862216220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: c462740053d7575660137f6458ff80dda5e32e55
-    new: fa3b58e21584e7403879af8a2f48a65658299cae
-    log: revlist-c462740053d7-fa3b58e21584.txt
+  - ref: refs/heads/queue-rc
+    old: 7aaccda7880239f82f428f06eb8d12584c92a693
+    new: 8a6bd50fab2fd230ea09aa6e3f6683866015920c
+    log: revlist-7aaccda78802-8a6bd50fab2f.txt
 
---===============0308804186642147426==
+--===============5044421466862216220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c462740053d7-fa3b58e21584.txt
+Content-Disposition: attachment; filename=revlist-7aaccda78802-8a6bd50fab2f.txt
 
 143de8d97d79316590475dc2a84513c63c863ddf tipc: fix a bit overflow in tipc_crypto_key_rcv()
 86006f996346e8a5a1ea80637ec949ceeea4ecbc ice: enable parsing IPSEC SPI headers for RSS
@@ -49,5 +49,6 @@ cb58925171069bca121dd846dc6ae928b8d060ac Merge branch 'patchq/471659' into mlx5-
 d0bcc78f37e0c3f2965147060650ca8a87add735 Merge branch 'patchq/382345' into mlx5-for-net
 37e075e67c929d805e4e1f57b1a83196b410b4fe Merge branch 'mlx4-for-net' into net-rc
 fa3b58e21584e7403879af8a2f48a65658299cae Merge branch 'mlx5-for-net' into net-rc
+8a6bd50fab2fd230ea09aa6e3f6683866015920c Merge branch 'net-rc' into queue-rc
 
---===============0308804186642147426==--
+--===============5044421466862216220==--
