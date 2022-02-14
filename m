@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0697560464417087815=="
+Content-Type: multipart/mixed; boundary="===============5143070530131232177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 14 Feb 2022 08:01:28 -0000
-Message-Id: <164482568812.13013.11488421441427931367@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 08:01:33 -0000
+Message-Id: <164482569310.13146.16382874694277048830@gitolite.kernel.org>
 
---===============0697560464417087815==
+--===============5143070530131232177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
+  - ref: refs/heads/char-misc-linus
+    old: c72ea20503610a4a7ba26c769357d31602769c01
     new: 754e0b0e35608ed5206d6a67a791563c631cec07
-    log: revlist-26291c54e111-754e0b0e3560.txt
+    log: revlist-c72ea2050361-754e0b0e3560.txt
 
---===============0697560464417087815==
+--===============5143070530131232177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825687 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825692 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1644825686-992fe51c77deae0e589ea123215ec525f9f4fce4
+nonce 1644825691-339fa59b5d71018e36a83ada00d6bf6d349610a0
 
-26291c54e111ff6ba87a164d85d4a4e134b7315c 754e0b0e35608ed5206d6a67a791563c631cec07 refs/heads/main
+c72ea20503610a4a7ba26c769357d31602769c01 754e0b0e35608ed5206d6a67a791563c631cec07 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jqMQAK6oUqWJ4gANrYcVJPhc
-ROvIexLjmUbrG33KW2PZfPq38Q+if3FcMOoRgonQEFi6CzPIdZ077sL/Y+XNetpz
-ZlMaFFFgd1Xtnl0V49dhbt/3kMf9y1/rMJh9libgRk2PngQGWJ3U9W+l8kmPF80f
-BRo/SzCElH+OgaP5lAHHvaHofHmWTafHoBSjAQWp4tsPqNAXZuY+9Gh4Vy0ifl2f
-aR09C7ePKESKn01r/74H4g5Q+J/MoGOO9YZVvoT8fHEIAaUE5MNUzN2zB9dlX7w2
-4SVnrN2VkljPlqOUTy2rLGJb7De61FNFkOvDMhEEiU+tVjzKhgO0gs4JJo8yiJt3
-Ochdb+dDizN8MDNwCtHsRIe71Km6Ip4QRHEdFtduMplxn1Vxs/rIS/M2Q8oONRjU
-xliaIh73onc3F8b7USOD5gNQuuuT5w+E7OM5y3/Njd7LX0pgM9i9CpTO0UNtyDhn
-h+lkrbjt15kDBVAq1bAZpeYFodgQ/XJqtliQYaiHJKRYXufD/IrNwBZq9ErB7duq
-iqOqCZ5dQsc2dKMlXYSSNADA7uTxbdzckuTN8cWs80Sz9HZuyWkcCn+43GiB1NK0
-VQ19NLUVcPa8vVO1h2FGEdLCMBp5/dcM3XFrqqXlzi+kx/M+1Kj1NuLXO0f3B+l2
-YgHF2DIqsmYOFshRiYAT01qQ
-=5avY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDFwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qUUQAJ2/WC0vJsxu7rvXTNdF
+qvEBD0zjFbTY/FotKhq/HOB5T1nFiO5AE05UN277iyKPd2yO908+TQ6oj1WCALwJ
+2bVyLo6SPewL6v7Byu5KInz18jj+yLazUBsOi/E9aN6Gb71yp6RXlBfPflVgT13Z
+Vv/j+tM4K8F7soZEBMeHWkwxAOIKfb7aKO+lFmU4XKHJD9L9WOxUcu/FczmWrhsM
+w1jVzETrp/1cewJeSWHaHyfZb7zOYEQYemvLv0hvcWIpg7X+9Ap/7wdQNdyph1Um
+SvRsXawULqFbpxH2b0idUfkIg+blXAGn1awZeoJquYJovbzHLAYwCp+j8pRVB9D/
+orpSC1jjMilZ83xYuOJwqvUzNNJ/eHuEt9DFUS/5+E+zt8oGySJRYRh1PmGCd2vr
+kwL6a2/z09cinMaiJOqX53BCG48XLBw6nn2m75hXfvzDGiE3M/dwHRnex1E7Ch1y
+AEL9Ma6rIk+khQj6qfxbuiVeIR/Cmgz9mD3WbRKnpZUEQHEbyKo1ZYdyf1sx2UzX
+d4gJj2Y0n9FuUMorZfyd8VPjWgqpfmg1U8J0pa4L0AYS5Qj7SIe4ARCjb/M0zwP3
+zGxI/KhndfgpApQG/IPV3OXUHPqmcgqJR3YmUnElRjwUR/1DAa6I9+VALcoEOzNx
+JFDe0s+EUZOwwyhH8lOiBEZ/
+=/n8p
 -----END PGP SIGNATURE-----
 
---===============0697560464417087815==
+--===============5143070530131232177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26291c54e111-754e0b0e3560.txt
+Content-Disposition: attachment; filename=revlist-c72ea2050361-754e0b0e3560.txt
 
 80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
 34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
@@ -83,8 +83,6 @@ e4d63473d3110afd170e6e0e48494d3789d26136 spi: stm32-qspi: Update spi registering
 9df15d842a0f77f2b8ee29386f6d714e4220df57 spi: stm32: make SPI_MASTER_MUST_TX flags only specific to STM32F4
 5298d4bfe80f6ae6ae2777bcd1357b0022d98573 unicode: clean up the Kconfig symbol confusion
 248be352bbae1a0f14d0d3511a5b0bb9665097f5 ASoC: amd: acp-mach: Fix Left and Right rt1019 amp devices
-42fed57046fc74586d7058bd51a1c10ac9c690cb phy: usb: Leave some clocks running during suspend
-5070ce86246a8a4ebacd0c15b121e6b6325bc167 phy: broadcom: Kconfig: Fix PHY_BRCM_USB config option
 94bfe2bdfc5059a0870447ccf2c8048f3d016898 MAINTAINERS: add reviewer entry for Samsung/Exynos platform
 442b0c08db7e35980bed6af091877f4dda72ffca soc: samsung: Fix typo in CONFIG_EXYNOS_USI description
 30cc53897470d45219fb0a5eafd0cc8b0032cd1e pinctrl: thunderbay: comment process of building functions a bit
@@ -92,8 +90,6 @@ e4d63473d3110afd170e6e0e48494d3789d26136 spi: stm32-qspi: Update spi registering
 aa28514592d52043f4837a6457d6310452135ae1 pinctrl: cherryview: Trigger hwirq0 for interrupt-lines without a mapping
 1fd6bb5b47a65eacb063b37e6fa6df2b8fa92959 pinctrl: sunxi: Fix H616 I2S3 pin data
 9ca8581e79e51c57e60b3b8e3b89d816448f49fe ksmbd: fix SMB 3.11 posix extension mount failure
-6d1e6bcb31663ee83aaea1f171f3dbfe95dd4a69 phy: ti: Fix missing sentinel for clk_div_table
-29afbd769ca338fa14cbfbbc824f7dc457ed7f2e phy: cadence: Sierra: fix error handling bugs in probe()
 ddec7abd4d93760ad5b2c7c61bf123a7707664ca platform/x86: x86-android-tablets: Correct crystal_cove_charger module name
 4ce2a32d40260374dfce5344960c419fde23ce87 platform/x86: x86-android-tablets: Add support for disabling ACPI _AEI handlers
 84c2dcdd475f3f5d1d30c87404cafba4dd4b75ec platform/x86: x86-android-tablets: Add an init() callback to struct x86_dev_info
@@ -157,9 +153,6 @@ aad51ca71ad83273e8826d6cfdcf53c98748d1fa selftests: netfilter: check stateless n
 aeac4554eb549037ff2f719200c0a9c1c25e7eaa netfilter: nft_reject_bridge: Fix for missing reply from prerouting
 f459bfd4b9793f25e0fcf19878edd87d8dc569d9 netfilter: nft_byteorder: track register operations
 eda0cf1202acf1ef47f93d8f92d4839213431424 selftests: nft_concat_range: add test for reload with no element add/del
-37291f60d0822f191748c2a54ce63b0bc669020f phy: xilinx: zynqmp: Fix bus width setting for SGMII
-cfc826c88a79e22ba5d8001556eb2c7efd8a01b6 phy: stm32: fix a refcount leak in stm32_usbphyc_pll_enable()
-46e994717807f4b935c44d81dde9dd8bcd9a4f5d phy: phy-mtk-tphy: Fix duplicated argument in phy-mtk-tphy
 1293fccc9e892712d910ec96079d3717307f1d2d net: ieee802154: hwsim: Ensure proper channel selection at probe time
 d753c4004820a888ec007dd88b271fa9c3172c5c net: ieee802154: mcr20a: Fix lifs/sifs periods
 e5ce576d45bf72fd0e3dc37eff897bfcc488f6a9 net: ieee802154: at86rf230: Stop leaking skb's
@@ -361,7 +354,6 @@ de47db0cf7f4a9c555ad204e06baa70b50a70d08 net/mlx5e: IPsec: Fix tunnel mode crypt
 5b209d1a22afabfb7d644abb10510c5713a3e569 net/mlx5e: Avoid implicit modify hdr for decap drop rule
 6d5c900eb64107001e91e1f46bddc254dded8a59 net/mlx5e: Use struct_group() for memcpy() region
 ad5185735f7dab342fdd0dd41044da4c9ccfef67 net/mlx5e: Avoid field-overflowing memcpy()
-9a8406ba1a9a2965c27e0db1d7753471d12ee9ff phy: dphy: Correct clk_pre parameter
 3aa430d33b8dd4d3f996af9966833c7a51834fb8 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 0fa0f99fc84e41057cbdd2efbfe91c6b2f47dd9d nvme: fix a possible use-after-free in controller reset during load
 ff9fc7ebf5c06de1ef72a69f9b1ab40af8b07f9e nvme-tcp: fix possible use-after-free in transport error_recovery work
@@ -436,7 +428,6 @@ c36c04c2e132fc39f6b658bf607aed4425427fd7 Revert "mm/gup: small refactoring: simp
 71702c495b78dfbc22eeac32ea9cda452862750d drm/vc4: hdmi: Don't try disabling SCDC on Pi0-3.
 1d118965965f89948236ebe23072bb1fca5e7832 drm/vc4: hdmi: Allow DBLCLK modes even if horz timing is odd.
 7f3bdbc3f13146eb9d07de81ea71f551587a384b tools/resolve_btfids: Do not print any commands when building silently
-46963e2e0629cb31c96b1d47ddd89dc3d8990b34 misc: fastrpc: avoid double fput() on failed usercopy
 599ea31d13617c5484c40cdf50d88301dc351cfc ext4: prevent used blocks from being allocated during fast commit replay
 31a074a0c62dc0d2bfb9b543142db4fe27f9e5eb ext4: modify the logic of ext4_mb_new_blocks_simple
 e85c81ba8859a4c839bcd69c5d83b32954133a5b ext4: fast commit may not fallback for ineligible commit
@@ -500,7 +491,6 @@ fe68195daf34d5dddacd3f93dd3eafc4beca3a0e ixgbevf: Require large buffers for buil
 5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd serial: 8250_pericom: Revert "Re-enable higher baud rates"
 61cc70d9e8ef5b042d4ed87994d20100ec8896d9 vt_ioctl: fix array_index_nospec in vt_setactivate
 28cb138f559f8c1a1395f5564f86b8bbee83631b vt_ioctl: add array_index_nospec to VT_ACTIVATE
-c0689e46be23160d925dca95dfc411f1a0462708 eeprom: ee1004: limit i2c reads to I2C_SMBUS_BLOCK_MAX
 40106e005bd9764f84ef9e6c0979fe1126d7ff02 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 a85468b766d3bc17c8b17ed23a36ef6469340bb2 Revert "mm/page_isolation: unset migratetype directly for non Buddy page"
 fb5222aae64fe25e5f3ebefde8214dcf3ba33ca5 mm/debug_vm_pgtable: remove pte entry from the page table
@@ -547,7 +537,6 @@ fc93310c67ff1c0dc38e3df7814973b55eea5559 Merge tag 'scsi-fixes' of git://git.ker
 f8d9d938514f46c4892aff6bfe32f425e84d81cc tcp: take care of mixed splice()/sendmsg(MSG_ZEROCOPY) case
 c6ce9c5831cae515d375a01b97ae1778689acf19 crypto: api - Move cryptomgr soft dependency into algapi
 7e6a6b400db8048bd1c06e497e338388413cf5bc Merge tag 'kvmarm-fixes-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-9ccdcc73d37cf0f1d4f97712f6b38af8806ac064 Merge tag 'phy-fixes-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy into char-misc-next
 59085208e4a2183998964844f8684fea0378128d net: mscc: ocelot: fix all IP traffic getting trapped to CPU with PTP over IP
 524446e2179855534b425647dfc250757905aad8 Merge tag 'iomap-5.17-fixes-1' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 ea7b3e6d42d7afa141ff765099d6b4ea406001bc Merge tag 'vfs-5.17-fixes-2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -568,8 +557,6 @@ a2887b9b8d1db7be971e5951e08ffe8563ea412f perf bpf: Fix a typo in bpf_counter_cgr
 b2b1aa73ade982c175ac926a1fd34e76ad628b94 perf stat: Fix display of grouped aliased events
 4f2492731ada9d702ffdfaa6ec1ff64820a1664c tools include UAPI: Sync sound/asound.h copy with the kernel sources
 407eb43ae87c969d98746c3274ae5d0f977b102e libperf: Add arm64 support to perf_mmap__read_self()
-a0572cea8866230ac13da6358c88075f89e99b20 bus: mhi: pci_generic: Add mru_default for Foxconn SDX55
-05daa805a86c831ad9692f6f15e1b877c8f10638 bus: mhi: pci_generic: Add mru_default for Cinterion MV31-W
 fceb62124d8fe1f6fb4b64e8f11c095dca8e7ea7 perf ftrace: system_wide collection is not effective by default
 898b5841ae37c8a7297214b7fd001d4c0f6fd89d Merge tag 'edac_urgent_for_v5.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 b72e40b192f21f172a152ecb5905d22928bea2a3 Merge tag 'irq_urgent_for_v5.17_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -633,7 +620,6 @@ d9bc0de02aa0afa7ff96682428b2bb792bf00d9c MAINTAINERS: arm: samsung: add Git tree
 95a4eed7dd5b7c1c3664a626174290686ddbee9f gpiolib: Never return internal error codes to user space
 cc38ef936840ac29204d806deb4d1836ec509594 gpio: sifive: use the correct register to read output values
 7896020612039fcbff11b8a903b28b0f157d2e5f Merge tag 'amlogic-fixes-v5.17-rc-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
-bca828ccdd6548d24613d0cede04ada4dfb2f89c speakup-dectlk: Restore pitch setting
 117b4e96c7f362eb6459543883fc07f77662472c usb: dwc3: gadget: Prevent core from processing stale TRBs
 50b10528aad568c95f772039d4b3093b4aea7439 fbcon: Avoid 'cap' set but not used warning
 db405774f6a80c5607dcf43ec810f078bb5c660d MAINTAINERS: Add entry for fbdev core
@@ -752,7 +738,6 @@ c853685d11c09da35cb49bbf8f0c001abdc0d0a9 usb: core: Unregister device on compone
 75e5b4849b81e19e9efe1654b30d7f3151c33c2c USB: gadget: validate interface OS descriptor requests
 38ea1eac7d88072bbffb630e2b3db83ca649b826 usb: gadget: rndis: check size of RNDIS_MSG_SET command
 269cbcf7b72de6f0016806d4a0cec1d689b55a87 usb: dwc2: drd: fix soft connect when gadget is unconfigured
-c72ea20503610a4a7ba26c769357d31602769c01 iio: buffer: Fix file related error handling in IIO_BUFFER_GET_FD_IOCTL
 bf23747ee05320903177809648002601cd140cdd loop: revert "make autoclear operation asynchronous"
 c1dd10c681cd661aae7926630b3f3b0f26fc1cd5 Merge tag 'usb-serial-5.17-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 27a98fe60b033dfce95361abe368750994b8a78e Merge branch 'acpi-x86'
@@ -797,4 +782,4 @@ c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of gi
 e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 754e0b0e35608ed5206d6a67a791563c631cec07 Linux 5.17-rc4
 
---===============0697560464417087815==--
+--===============5143070530131232177==--
