@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5639036129732214418=="
+Content-Type: multipart/mixed; boundary="===============5900368771465709447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 14 Feb 2022 08:06:58 -0000
-Message-Id: <164482601845.18256.1026860001408279891@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 08:07:03 -0000
+Message-Id: <164482602328.18388.11563763574741081267@gitolite.kernel.org>
 
---===============5639036129732214418==
+--===============5900368771465709447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 28cb138f559f8c1a1395f5564f86b8bbee83631b
-    new: 754e0b0e35608ed5206d6a67a791563c631cec07
-    log: revlist-28cb138f559f-754e0b0e3560.txt
+  - ref: refs/heads/tty-next
+    old: ad30d108a5135af584ff47f5ff81be971b6c26f1
+    new: 802d00bd774b77fe132e9e83462b96fb9919411c
+    log: revlist-ad30d108a513-802d00bd774b.txt
 
---===============5639036129732214418==
+--===============5900368771465709447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644826017 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644826021 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1644826016-1a5baf97a01ef5770c5f68aa8d8f6232219fb574
+nonce 1644826021-f1c3957e6cd1653a5eaf91626aa58fc0009bd62b
 
-28cb138f559f8c1a1395f5564f86b8bbee83631b 754e0b0e35608ed5206d6a67a791563c631cec07 refs/heads/tty-linus
+ad30d108a5135af584ff47f5ff81be971b6c26f1 802d00bd774b77fe132e9e83462b96fb9919411c refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDaEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MBYQAJhMOBp1WjdGZcAcLZvE
-dzpOQrXiZfLbNBhUV3XlO8oGHyJfpZ76eDnvoyw2L7Ixv68ZVjDsnEWdxXqU5Jtg
-oS87dpjKASO0qWasdhX6wKuJGH1OGjezCLS1BejOeBvbWA5lmPcngq7EBjNQI3Sc
-W6Pc4v/zywTVy0c0tkb7CWf87920GmkAovXGw7f0uuQ6H6mZee4rUBHdU96s5HZf
-uokjq4Yb1jGRxPmQfdU8KuecQWjfe46Imi0MzODhOWLI81GhOr4YUFxPQPOIuBTQ
-/f1q4JsX8B+7/1ZCrVhr62lFU06Lk+tlU2hS8QJE8g7Q4XOrztCsuHz/40/6Rx5/
-coxN6wVpoUWjpBolHMe3V2TBWqQ2vTUibzvzli09USeYOQQUzQ6kH4TA5D2OO0Rc
-uKJuFWpDTSyIPKEjmDRTKQ6WssDejaDuy4Fsc35CQpc0Gq9ITy6meQdZglV84QNy
-rpfku1XFSktzGpi2XYWG034Mfe2C0kpLLq+jW26XeQfBcjMPbZyynntXd53oNBJs
-DrRvtwbURWvpBzNow1NnLjLgr6mFoMZTyrMB1aL9Bzl4Z1GOxN4J2GxDQxVxqFHd
-FOTUp+XSdMDlyKZT3mj3XgxQCMdE3Zcka7jtcaL+vg2Z0BsOBM/cBJ2qybSTbyEb
-ZSmzRShLG+9nydd0GlYs2eg1
-=dPJk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDaUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RMkP/iMB2uJNE1yFFd14HCdG
+7zBeLD+/hgnbxhE5RSFN4Aaz70NscWiLpR7J7nbyv8nQrmgcVIwV6p8JjIFhowns
+PGiIJspomgMpoR3kbCMNZ0RIGq/C3qoHFthDA3Bd2DLdj3Yubp/OE3qyEMDTDAa6
+DgI7Kq6qpde12mQ2POOnUlCPpfz2MGyzf2DK1r0CSVyDNomA5BnmN4ir51f0U+Mq
+0FY2Mphcm4S6ItzCc6ZuKef1IsdOXnwij4WnMWkKOzF2hsVEX5Rya8OoZ5OF71KE
+PErYePxJXQOP0SU0azD5OC1CLPPFAfh4CsfCd9yWQfP9Z+YaYB6BIxwfsB0tQeKz
+DTBNmTJJwoGWI3uhTMaLARfCY3AMgvH85oggnO7B6VX57amTtzPRCqxJGxhMUz1U
+rsSkYc9/z1StbznhHyzGGrVO8wnT4c2MV95RMxu1dcfPH35WBVoOwKmdUoXix6X3
+OxddLRDAglbEotE3VdAiuJWAwIcjBGh2AYLZByHwe80SZwf2M/7iGY9CKFdU9VfU
+iLxBAyilAT6Chbt0aRdP0e5fNeHCE+woEJBgI/bRMtaLZ81KlU+eLKkxA3rpRQgW
+55hVW4NGUzc8PKpzD4OjI/x2ouLilaufQ86e0rukkn7lYOIUAYddX3+jDJ2DrcXg
+0VmZgZZIJLiGhWj5/nXxBslu
+=Eb5S
 -----END PGP SIGNATURE-----
 
---===============5639036129732214418==
+--===============5900368771465709447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28cb138f559f-754e0b0e3560.txt
+Content-Disposition: attachment; filename=revlist-ad30d108a513-802d00bd774b.txt
 
 80c469a0a03763f814715f3d12b6f3964c7423e8 ARM: OMAP2+: hwmod: Add of_node_put() before break
 34596ba380b03d181e24efd50e2f21045bde3696 ARM: OMAP2+: adjust the location of put_device() call in omapdss_init_of
@@ -255,6 +255,7 @@ a4f399a1416f645ac701064a55b0cb5203707ac9 Input: wm97xx: Simplify resource manage
 292d2c82b105d92082c2120a44a58de9767e44f1 usb: raw-gadget: fix handling of dual-direction-capable endpoints
 459702eea6132888b5c5b64c0e9c626da4ec2493 usb: gadget: udc: renesas_usb3: Fix host to USB_ROLE_NONE transition
 5432184107cd0013761bdfa6cb6079527ef87b95 usb: gadget: f_uac2: Define specific wTerminalType
+c816b2e65b0e86b95011418cad334f0524fc33b8 n_tty: wake up poll(POLLRDNORM) on receiving data
 f6c6804c43fa18d3cee64b55490dfbd3bef1363a kvm: Move KVM_GET_XSAVE2 IOCTL definition at the end of kvm.h
 bd2db32e7c3e35bd4d9b8bbff689434a50893546 moxart: fix potential use-after-free on remove path
 2d192fc4c1abeb0d04d1c8cd54405ff4a0b0255b btrfs: don't start transaction for scrub if the fs is mounted read-only
@@ -496,6 +497,9 @@ e6b03375132fefddc55cf700418cf794b3884e0c arm64: dts: meson-sm1-odroid: fix boot 
 dd7f5a11ac5a6f733f422dc22b4d145d3260304e PCI/MSI: Remove bogus warning in pci_irq_get_affinity()
 fe68195daf34d5dddacd3f93dd3eafc4beca3a0e ixgbevf: Require large buffers for build_skb on 82599VF
 9b45a7738eec52bf0f5d8d3d54e822962781c5f2 iommu/amd: Fix loop timeout issue in iommu_ga_log_enable()
+5d5ead5e1cafa6a6076e8c3b55f707eafc76bfbd serial: 8250_pericom: Revert "Re-enable higher baud rates"
+61cc70d9e8ef5b042d4ed87994d20100ec8896d9 vt_ioctl: fix array_index_nospec in vt_setactivate
+28cb138f559f8c1a1395f5564f86b8bbee83631b vt_ioctl: add array_index_nospec to VT_ACTIVATE
 c0689e46be23160d925dca95dfc411f1a0462708 eeprom: ee1004: limit i2c reads to I2C_SMBUS_BLOCK_MAX
 40106e005bd9764f84ef9e6c0979fe1126d7ff02 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 a85468b766d3bc17c8b17ed23a36ef6469340bb2 Revert "mm/page_isolation: unset migratetype directly for non Buddy page"
@@ -792,5 +796,6 @@ f5e02656b19fa4e38180a08faadd631858a02877 Merge tag 'perf_urgent_for_v5.17_rc4' o
 c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 754e0b0e35608ed5206d6a67a791563c631cec07 Linux 5.17-rc4
+802d00bd774b77fe132e9e83462b96fb9919411c Merge 5.17-rc4 into tty-next
 
---===============5639036129732214418==--
+--===============5900368771465709447==--
