@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2822459070878868889=="
+Content-Type: multipart/mixed; boundary="===============3002308620672042554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 14 Feb 2022 15:50:56 -0000
-Message-Id: <164485385642.24972.14802711145817344193@gitolite.kernel.org>
+Date: Mon, 14 Feb 2022 15:52:53 -0000
+Message-Id: <164485397358.27049.3879339837469092916@gitolite.kernel.org>
 
---===============2822459070878868889==
+--===============3002308620672042554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 53e199d44986fdee12464efd3a52010bb7cccd90
-    new: eb1f9cb7627fb06780435c5c933fce96eff5ed25
-    log: revlist-53e199d44986-eb1f9cb7627f.txt
+  - ref: refs/heads/jd/cpuhp
+    old: b62eb5640016b7f87050104728c8eba825a478d8
+    new: e09db9454de88dca579c13562129bef2b0c7dd36
+    log: revlist-b62eb5640016-e09db9454de8.txt
 
---===============2822459070878868889==
+--===============3002308620672042554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53e199d44986-eb1f9cb7627f.txt
+Content-Disposition: attachment; filename=revlist-b62eb5640016-e09db9454de8.txt
 
 4ce3ea935e918b31326e8974b4af1b39271309a8 random: deobfuscate irq u32/u64 contributions
 5d4fd94b8f191524550eedab0e337e155a2ab468 random: introduce drain_entropy() helper to declutter crng_reseed()
@@ -42,5 +42,7 @@ a727282b8518128ecc32fdd582031e656c373fa9 random: defer fast pool mixing to worke
 77f41b97d529db53cebcbd4cd94a190926c0a219 random: unify early init crng load accounting
 5e0c8c5c30c2f12ae32f98f8050eb8efe852a050 random: check for crng_init == 0 in add_device_randomness()
 eb1f9cb7627fb06780435c5c933fce96eff5ed25 random: pull add_hwgenerator_randomness() declaration into random.h
+f90b53b76b552f9875e37ab91afddb74e382ff24 random: set fast pool count to zero in cpuhp prepare
+e09db9454de88dca579c13562129bef2b0c7dd36 random: invalidate crngs and batches in cpuhp prepare
 
---===============2822459070878868889==--
+--===============3002308620672042554==--
