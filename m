@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7048692906065232851=="
+Content-Type: multipart/mixed; boundary="===============8737424198721068928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 14 Feb 2022 08:01:49 -0000
-Message-Id: <164482570984.13558.10926010484784371463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 14 Feb 2022 08:02:19 -0000
+Message-Id: <164482573948.13837.1123529995336680435@gitolite.kernel.org>
 
---===============7048692906065232851==
+--===============8737424198721068928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/tags/staging-5.17-rc4
+    old: 76b110d9df4f5d688baebc337f459e6210c510bb
+    new: 0000000000000000000000000000000000000000
 
---===============7048692906065232851==
+--===============8737424198721068928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825708 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1644825707-54261d83c0fa7045d4924b2a19bfa85edd97ad4c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1644825739 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1644825738-acc23eed066f4614696f0f3cfadc965f9c4cde1c
 
-0000000000000000000000000000000000000000 48765f61ad6b9c0344f89d9332050c72df3ff43c refs/tags/v5.17-rc3
-0000000000000000000000000000000000000000 f95462f2d3d47839c81c8c5985fb49e0b02e97d3 refs/tags/v5.17-rc4
+76b110d9df4f5d688baebc337f459e6210c510bb 0000000000000000000000000000000000000000 refs/tags/staging-5.17-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDGwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bfIQANbkIK/ruyzFZ9H8o/ei
-Ai0e6+PgHp2aA/u6y+UdkbIsN1/2nZbsXTTkGBDnqJFsdY6uxQCG7rVvd8yP5uMV
-hqEAimmGFxCA6K98f3Mn2uhvgJUFrBjMw+IN7NsOdGM1QgBAic6gk1xYyqW9y/uN
-NDrUmA3/NxRvKlJv1ABvDRxrhECi2tcfrklMCNNpR5G4FCaoKXdBZem9ExJnIGK7
-p6fPY/a+s78sO3hkvkiipzaDDR4e8CGs5kZwfE278VPWmdVdq/TTm/UZ6BRrRTUc
-Kz9mRs2zxZB0DtsGv5Srk0GViH+SU52sHsdhlzDNSvlTdiU1AQ56iK/vIC+H4zUD
-bYs8z0q1OT5nwVoPO/uk4j/7UN4upR7xdMq4RQt/ImZbh6bCAlrnEQL6mYw5FVmM
-+rmVcWE4+O73VOUdFpPHgRUmAam2FGEe148V/R/0/ppRNKrgYSI9jWa8isGtPU78
-SC4Lk4yIRaqY1++ClKjBMuwgRQQmTIVcIYfk/mXGkczXHq1QbDCUKeTlvkL8fizr
-WkAkgu5jpqWo6Zk4dxAtWqGDKmeRm+Febpw6q9J8824M5kDsRCqKSVC0ynjqXgNM
-M91e+GYwyR5JlceR2kLr3iZ82UiF+EDGsTJNLwx8bseAZSI/MHAO+ufeVPJTfnUE
-wfEf7AjKZQeZbtW/P8XJaJze
-=eKfx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIKDIsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PHgQANPXSoy5sm4hCgziqOvi
+ygMAdVmRrxx4pjjikgd3QUBGeCpulOFg4z/9JdkhCzH7eRIxZwQkE/K869AHCVTF
+sW3MLd9iR4QjpcKs/ZmW5Sh9wiztNIav9GQf9jfm14N4myctU4G2SPgaxtPsoWeY
+NQZMPh5DjI14w2PkbuFimqlgV2ygVZYUCkPtLtxTt6VUH6w6iRb0cT2kLZrLxRG4
+fgzBLGkHxlhCObvNjDWPht0wG/5RVS+ec0Ep5w20FfG5bR0HE23Rdp3/oeApfeNE
+bSAjx5RCI6v1LNySX134pOpIldTTx7G5GxlJMQxNo+7CKY7FuwSzHEV6OTQPU3sk
+q6/PTe8YnKycuTXJ5dpJdvt/ZXqc50CKgNB5P5qYst095eQOxR8DmybldbeVsF4Z
+zzYu/lPIqtD0gY/BDqZiopjyEDakJfKQWDFzGHj4vUnITstVoVlPTtgbC+A969eB
+zk4VMZGetyEjzqZkA2NYvYcp7isnk8vRnHEnkCOcbXHCPWvuai6Bm+U4G6yzgsk8
+SAC68tDUHLHK8WhI3rwIYgU/Q64xlQ3LDJGZK/sFUUs789kzrx525C9PnnZiquoU
+2em0K4rw9YZzGwIuJ9MgbLsm+pJ75TBEIKsYM0CQn5RFXV5+TKcoAGPRl/3eywNG
+e9h+trutivGiW8DVd5qbIJtt
+=aV2H
 -----END PGP SIGNATURE-----
 
---===============7048692906065232851==--
+--===============8737424198721068928==--
