@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 15 Feb 2022 14:34:18 -0000
-Message-Id: <164493565887.585.18022315977298985313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 15 Feb 2022 14:34:42 -0000
+Message-Id: <164493568233.807.11462607791675032235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2a36ed7c1cd55742503bed81d2cc0ea83bd0ad0c
-    new: 07dd44852be89386ab12210df90a2d78779f3bff
+    old: 4f50ef152ec652cf1f1d3031019828b170406ebf
+    new: 25ce79db8042d364fe957d51e734f14d5b0c933a
     log: |
-         07dd44852be89386ab12210df90a2d78779f3bff dpaa2-eth: Initialize mutex used in one step timestamping path
+         25ce79db8042d364fe957d51e734f14d5b0c933a net: hso: Use GFP_KERNEL instead of GFP_ATOMIC when possible
          
