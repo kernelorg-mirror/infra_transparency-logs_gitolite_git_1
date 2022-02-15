@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 15 Feb 2022 22:56:16 -0000
-Message-Id: <164496577659.15425.159729088341248473@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3083723222034331606=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 15 Feb 2022 22:57:18 -0000
+Message-Id: <164496583896.15828.13836456568445339689@gitolite.kernel.org>
+
+--===============3083723222034331606==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/rtc-next
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: 73ce05302007eece23a6acb7dc124c92a2209087
-    log: |
-         c8fa17d9f08a448184f03d352145099b5beb618e rtc: fix use-after-free on device removal
-         f720002d8468f46c3cce8ab2b9f93aeedac4b602 dt-bindings: rtc: sun6i: Clean up repetition
-         8487614a8a8a70d44957a11693dbefd8350f402c dt-bindings: rtc: sun6i: Add H616, R329, and D1 support
-         2ca03e29e64bf41e8defb8a8c6b9d1b842875e87 rtc: sun6i: Enable the bus clock when provided
-         85bcb01f145dc32e7f88e6eebb3b5f96d3b56eb6 rtc: pcf8523: Fix GCC 12 warning
-         d4785b46345cc9564f883c94acc4c4de6bbfeea5 rtc: pcf2127: use IRQ flags obtained from device tree if available
-         73ce05302007eece23a6acb7dc124c92a2209087 rtc: pcf2127: fix bug when reading alarm registers
-         
+  - ref: refs/heads/dm-5.18
+    old: 35dff0dc75666b981b151849d253e43727812cae
+    new: 213f63071f1d59e979b39256ea90f1c15482cc55
+    log: revlist-35dff0dc7566-213f63071f1d.txt
+
+--===============3083723222034331606==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-35dff0dc7566-213f63071f1d.txt
+
+8da8939a421c91ce2d1ac92a2410d9818718d996 dm: rename split functions
+ddfa0bcb9544068b235923f24e70f3bae785b4b8 dm: fold __clone_and_map_data_bio into __split_and_process_bio
+43ec6fd1dec0d25d7397fa6bb54fbaa31e214978 dm: refactor dm_split_and_process_bio a bit
+fe5e9fa1cdc9c45bd8f4197f8a80339e982bd056 dm: reduce code duplication in __map_bio
+c40b2462f3951f7f34b2564291b2104e18953b5f dm: remove impossible BUG_ON in __send_empty_flush
+1abcc40a2b02ef03f3bcf86dd9ef35b9834f0338 dm: remove unused mapped_device argument from free_tio
+28d34493ea59f33b2e5e223aaa80e902500e4ea3 dm: remove code only needed before submit_bio recursion
+2c328027b45175d73bf352b012bd6d0407c1987b dm: record old_sector in dm_target_io before calling map function
+21322cd421d3b93a6d0fba873638853d40112060 dm: move kicking of suspend queue to dm_io_dec_pending
+226d58bd64661a882edec0be4b1e548369c68833 dm: move duplicate code from callers of alloc_tio into alloc_tio
+9ce103d2984fe43dc67b8059be2674eea053a860 dm: reduce dm_io and dm_target_io struct sizes
+150e76bd609ee97aa7881328068a1f7d253ac1a0 dm: flag clones created by __send_duplicate_bios
+f4ed39e8afb3be2cd94ec6e1faac657f210a9a64 dm: add dm_submit_bio_remap interface
+28d40154c8ac7e78d41024eb019de46cf806514d dm crypt: use dm_submit_bio_remap
+da0b451839e728dafee59fb65f1a8ff932410cd6 dm delay: use dm_submit_bio_remap
+213f63071f1d59e979b39256ea90f1c15482cc55 dm: fix double accounting of flush with data
+
+--===============3083723222034331606==--
