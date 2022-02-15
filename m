@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2567166257217653701=="
+Content-Type: multipart/mixed; boundary="===============0686449963528184684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 15 Feb 2022 08:14:06 -0000
-Message-Id: <164491284683.29519.13061695874049109970@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 08:14:12 -0000
+Message-Id: <164491285250.29649.10599915995015320791@gitolite.kernel.org>
 
---===============2567166257217653701==
+--===============0686449963528184684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 8375dfac4f683e1b2c5956d919d36aeedad46699
-    new: 8675a853249b660dd232b14c5c61f74ab02c63cd
-    log: revlist-8375dfac4f68-8675a853249b.txt
+  - ref: refs/heads/master
+    old: 7db788ad627aabff2b74d4f1a3b68516d0fee0d7
+    new: 032062f363b4bf02b1d547f329aa5d97b6a17410
+    log: revlist-7db788ad627a-032062f363b4.txt
 
---===============2567166257217653701==
+--===============0686449963528184684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644912843 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1644912849 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1644912843-8f22af077531f6b33662e138d6228737f5ec6ad2
+nonce 1644912849-973c7ea9d9bf49e50e84917d182fa1daefe66490
 
-8375dfac4f683e1b2c5956d919d36aeedad46699 8675a853249b660dd232b14c5c61f74ab02c63cd refs/heads/testing
+7db788ad627aabff2b74d4f1a3b68516d0fee0d7 032062f363b4bf02b1d547f329aa5d97b6a17410 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmILYMsTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRCtfkuQ2KDTXSwCB/sHRzNIOpTfXFdlvltiy7hRXHNLLo0/
-Lh6SPJNcdzCVqq8JUFTGTpwh8NBBtYdh7513+lLINeQTRz/32X48ZQoVNVSQdokY
-Vm4tNGnYXgq7C0Hh1h1EgLGSDp3qX5zIHiZe04OzK6+2C6eMBgLcKVZlpLqbrybe
-zo6T0n1dAeh+IRT/A1vnW422CK19NaVfFysZQ8i5BV96ySQzDQoKexWP0sxBrpme
-LcvWPbicXesDmeYn2T1ePa+Ju4NhTen1pW+7ABkcPcEBYV011GRckYpTTbUi1Eoq
-6UAyFkaeN37bKWmpgotgF8YmYXffwvhVOXfBczKg61LUcnCyoKcmkAvT
-=jQdt
+iQFHBAABCgAxFiEEBsvAIBsPu6mG7thcrX5LkNig010FAmILYNETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRCtfkuQ2KDTXQRkB/9S5Sz9QbuLDoH4RTSoKGl5HQnHpRog
+DkGrybA8H4x+f78dgzmUGvY2zxsLpGmkir4leU6BXw2NMw8rkuQhwMFVkd8NyIyo
+VfSPgOqUJWgB9uusZAbFs5Skt2TJ3kJEbJVjVjWSTBZYsYgb6lI/ZgYhkbrcAnNd
+28ojCOirzpDQut6r7n6YgUKZ3+1fZsyQFJ+waJASBn/BmvlFej00+asMjc4iPC03
+ru+ZIEYETmbW4FLu5SYxBTjI6HfWXvWShNmhuOEQ6o2wGFxIU3Skb4WhHlk6pvfk
+wMXjja+YOfZ9LuUkF7UjKIwmsed6TwsKldRBvgcXM/E4eLCnAuLHwMvn
+=opmJ
 -----END PGP SIGNATURE-----
 
---===============2567166257217653701==
+--===============0686449963528184684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8375dfac4f68-8675a853249b.txt
+Content-Disposition: attachment; filename=revlist-7db788ad627a-032062f363b4.txt
 
 e958b5884725dac86d36c1e7afe5a55f31feb0b2 ASoC: xilinx: xlnx_formatter_pcm: Make buffer bytes multiple of period bytes
 a64067f4cecaaa4deed8e33d3266bc0bcc189142 ASoC: simple-card: fix probe failure on platform component
@@ -339,6 +339,8 @@ a9c10b5b3b67b3750a10c8b089b2e05f5e176e33 xprtrdma: fix pointer derefs in error c
 b49ea673e119f59c71645e2f65b3ccad857c90ee SUNRPC: lock against ->sock changing during sysfs read
 e6251ab4551f51fa4cee03523e08051898c3ce82 Merge tag 'nfs-for-5.17-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 92a68053c3468705e2c7c752c9a3f256304a35a6 Documentation: KUnit: Fix usage bug
+7c759040c1dd03954f650f147ae7175476d51314 can: isotp: fix potential CAN frame reception race in isotp_rcv()
+8375dfac4f683e1b2c5956d919d36aeedad46699 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
 7152303cbec4f7c2c4db1fb646b549ffd4069b7c selftests: netfilter: add synproxy test
 75063c9294fb239bbe64eb72141b6871fe526d29 netfilter: xt_socket: fix a typo in socket_mt_destroy()
 2e71ec1a725a794a16e3862791ed43fe5ba6a06b selftests: netfilter: fix exit value for nft_concat_range
@@ -410,7 +412,5 @@ a2614140dc0f467a83aa3bb4b6ee2d6480a76202 net: dsa: mv88e6xxx: flush switchdev FD
 603c692d574185a1fffc9549e8e30f27bd7dba6c MAINTAINERS: bridge: update my email
 6605cc67ca18b9d583eb96e18a20f5f4e726103c USB: zaurus: support another broken Zaurus
 032062f363b4bf02b1d547f329aa5d97b6a17410 tipc: fix wrong publisher node address in link publications
-77f41955adca4a748ee58d2a201fe5de59716403 can: etas_es58x: change opened_channel_cnt's type from atomic_t to u8
-8675a853249b660dd232b14c5c61f74ab02c63cd can: gs_usb: change active_channels's type from atomic_t to u8
 
---===============2567166257217653701==--
+--===============0686449963528184684==--
