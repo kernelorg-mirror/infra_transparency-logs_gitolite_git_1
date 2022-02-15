@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8399149846883486402=="
+Content-Type: multipart/mixed; boundary="===============8979167185229571755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 15 Feb 2022 20:01:38 -0000
-Message-Id: <164495529859.30105.14265754974245996802@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 20:01:50 -0000
+Message-Id: <164495531082.30255.6160546824245876664@gitolite.kernel.org>
 
---===============8399149846883486402==
+--===============8979167185229571755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 12d8c11198af191d06d02b01624d84c669ef7231
-    new: 2c955856da4faec3a36df1e85b3ba3dfe230d6fd
-    log: revlist-12d8c11198af-2c955856da4f.txt
+  - ref: refs/heads/mlx5-queue
+    old: 83ee62950ce1907288b9b6a085e279ba5bb9782f
+    new: 7a864e83790c34557af0132c0feac5693d0e3a83
+    log: revlist-83ee62950ce1-7a864e83790c.txt
 
---===============8399149846883486402==
+--===============8979167185229571755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12d8c11198af-2c955856da4f.txt
+Content-Disposition: attachment; filename=revlist-83ee62950ce1-7a864e83790c.txt
 
 d0b78ab1ca357628ffb92cf8a0af00b4ffdc4e3b net: dsa: mv88e6xxx: Fix validation of built-in PHYs on 6095/6097
 9536923d3f353873e54d96769fbd2e7f867a73e1 net/mlx5e: Remove unused tstamp SQ field
@@ -48,5 +48,23 @@ ed5f9cf06b20f74c1098d6d62313e3e9af217fcb net/mlx5e: Use READ_ONCE/WRITE_ONCE for
 5454f5c28eca6baba032f22e0df7df1c5e3f075f net: bridge: vlan: check for errors from __vlan_del in __vlan_flush
 99cd6a64e128df19acfb4d79d69a846fad7e71df dpaa2-eth: Simplify bool conversion
 2c955856da4faec3a36df1e85b3ba3dfe230d6fd net: dm9051: Fix spelling mistake "eror" -> "error"
+b9dee6b0ba541d494077e0f7a4a7c0e579626109 net/mlx5e: Fix spelling mistake "supoported" -> "supported"
+9f4bec2abdaf7c07337d41c61477eba8a446362d net: Disable LRO feature if no RXCSUM
+0597addff5644ac75ceeab24ed909fd308a7803c net/mlx4: Delete useless moduleparam include
+df9e0943b0af0d61431cf421c109384d14e5c99e net/mlx5: Delete useless module.h include
+4c744f19e19f397a35976fa01dc781c4a9e32cfe net/mlx5: Node-aware allocation for the IRQ table
+765ea9acdcf4c2db4ec558e937f1aa82223987fc net/mlx5: Node-aware allocation for the EQ table
+4bf735f0efe90c5a32a4942efd3c86b5b2df2ad2 net/mlx5: Node-aware allocation for the EQs
+9d0d360ae721892a12102be316faa8eb26c66d48 net/mlx5: Node-aware allocation for UAR
+0be3f9ba24082442aa487a3279e468287e2aac6d net/mlx5: Node-aware allocation for the doorbell pgdir
+9694821084dbb629714afa32da36cc588e69900d net/mlx5e: E-Switch, Add PTP counters for uplink representor
+dcfce38fda234a6d3b5e8764337e026fd1e8b306 net/mlx5e: E-Switch, Add support for tx_port_ts in switchdev mode
+50272c10d9b28b1dffaae73e537767f4d7398e55 net/mlx5e: Default to Striding RQ when not conflicting with CQE compression
+f31cb1d065d48511f11cfa583404b3038e7e061c net/mlx5e: Generalize packet merge error message
+49e8629a50537e3ec9a69ce72642cfe3600ea0a8 Merge branch 'patchq/467855' into mlx5-queue
+f17b944631a411f619fd73609063e25fc5072879 Merge branch 'patchq/362916' into mlx5-queue
+a34f84217d98a07b86f3c8e8d69a77eafdd5afab Merge branch 'patchq/467755' into mlx5-queue
+1df8ce9ab250d492ddbba12f5bfb489ba297cc23 Merge branch 'patchq/464678' into mlx5-queue
+7a864e83790c34557af0132c0feac5693d0e3a83 Merge branch 'patchq/462991' into mlx5-queue
 
---===============8399149846883486402==--
+--===============8979167185229571755==--
