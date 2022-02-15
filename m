@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 15 Feb 2022 16:48:07 -0000
-Message-Id: <164494368795.25171.867004883727242763@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 16:48:16 -0000
+Message-Id: <164494369608.25340.14996841511141828187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 3624ba7b5e2acc02b01301ea5fd3534971eb9896
-    new: 687ba1ab7279b0286ba00c756cbe89d2597f967b
+  - ref: refs/heads/locking/core
+    old: b008893b08dcc8c30d756db05c229a1491bcb992
+    new: 0e958c120a64b4a87fa741fbe936299c6b55bd71
     log: |
-         6375345e09fe75d244f72004989577a81eaff6de sched: replace cpumask_weight with cpumask_empty where appropriate
-         9aa062c31acfca6477103401de466a892fecbfe4 sched/numa: Fix NUMA topology for systems with CPU-less nodes
-         e37b4a14be6f327845e210565f3738823549ebc1 sched/numa: Avoid migrating task to CPU-less node
-         687ba1ab7279b0286ba00c756cbe89d2597f967b psi: fix possible trigger missing in the window
+         58cf64037068608a178f9a97b0b720e954704088 locking/lockdep: Iterate lock_classes directly when reading lockdep files
+         668421a1cd9cde77974d2bdfa50e2c90ff2c2420 jump_label: avoid unneeded casts in STATIC_KEY_INIT_{TRUE,FALSE}
+         0e958c120a64b4a87fa741fbe936299c6b55bd71 jump_label: refactor #ifdef of struct static_key
          
