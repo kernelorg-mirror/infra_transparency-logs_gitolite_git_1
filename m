@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 15 Feb 2022 18:08:23 -0000
-Message-Id: <164494850387.17954.16110129016297499505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 15 Feb 2022 18:13:26 -0000
+Message-Id: <164494880624.21055.14473307618815125349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: d2b94f33e43727c17ed2816c1bfa10e6bc4f4be3
-    new: 8cbf062a250ed52148badf6f3ffd03657dd4a3f0
+  - ref: refs/heads/master
+    old: 3df9d803163e1616c2e742be8a7bfc00ac444ea8
+    new: 61d06f01f9710b327a53492e5add9f972eb909b3
     log: |
-         8cbf062a250ed52148badf6f3ffd03657dd4a3f0 bpf: Reject kfunc calls that overflow insn->imm
+         61d06f01f9710b327a53492e5add9f972eb909b3 selftests: bpf: Check bpf_msg_push_data return value
          
