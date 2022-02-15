@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Feb 2022 14:57:15 -0000
-Message-Id: <164493703535.17366.8597023070467424427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 15 Feb 2022 14:57:24 -0000
+Message-Id: <164493704467.17481.3407750423008859762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 5454f5c28eca6baba032f22e0df7df1c5e3f075f
-    new: 2c955856da4faec3a36df1e85b3ba3dfe230d6fd
+    old: ef57640575406f57f5b3393cf57f457b0ace837e
+    new: 8d2b1a1ec9f559d30b724877da4ce592edc41fdc
     log: |
-         99cd6a64e128df19acfb4d79d69a846fad7e71df dpaa2-eth: Simplify bool conversion
-         2c955856da4faec3a36df1e85b3ba3dfe230d6fd net: dm9051: Fix spelling mistake "eror" -> "error"
+         7e5b6a5c8c44310784c88c1c198dde79f6402f7b mctp: fix use after free
+         8d2b1a1ec9f559d30b724877da4ce592edc41fdc CDC-NCM: avoid overflow in sanity checking
          
