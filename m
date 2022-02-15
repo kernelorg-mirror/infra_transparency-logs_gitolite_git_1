@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6544100976931523955=="
+Content-Type: multipart/mixed; boundary="===============7080841743545930948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 15 Feb 2022 12:43:21 -0000
-Message-Id: <164492900131.23740.6372382396206742768@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 12:43:49 -0000
+Message-Id: <164492902935.24000.3413009804269346337@gitolite.kernel.org>
 
---===============6544100976931523955==
+--===============7080841743545930948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 62ed6622aaf0ba3c41cc6db6f901cbaa2a7378d1
-    new: 22754f7fbb4030eb2d5e73c2a2db63637ed1d105
-    log: revlist-62ed6622aaf0-22754f7fbb40.txt
+  - ref: refs/heads/for-next
+    old: c7f0d7b37291569d040aa2c01fb8a7c74cd7a022
+    new: 1e0a20264859530133e45c24e60a9ae43e679edd
+    log: revlist-c7f0d7b37291-1e0a20264859.txt
 
---===============6544100976931523955==
+--===============7080841743545930948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62ed6622aaf0-22754f7fbb40.txt
+Content-Disposition: attachment; filename=revlist-c7f0d7b37291-1e0a20264859.txt
 
 49b729f58e7a98a006a8a0c1dcca8a1a4f58d2a8 scsi: qla2xxx: Add qla2x00_async_done() for async routines
 03e4383c7ce36ac400489c8fe84724470a8251e9 scsi: ibmvscsis: Silence -Warray-bounds warning
@@ -47,5 +47,9 @@ b3911ab3a76e216cd97c6fdc05132e57c3e6941c scsi: mpi3mr: Fix cmnd getting marked a
 21401408ddebf4abdb556d3760603f3516f6fff0 scsi: mpi3mr: Update the copyright year
 d44b5fefb22e139408ae12b864da1ecb9ad9d1d2 scsi: mpi3mr: Fix memory leaks
 22754f7fbb4030eb2d5e73c2a2db63637ed1d105 scsi: mpi3mr: Bump driver version to 8.0.0.68.0
+7f4c5a26f735dea4bbc0eb8eb9da99cda95a8563 scsi: lpfc: Fix pt2pt NVMe PRLI reject LOGO loop
+10af115646171afc0217177d6eae92917b785897 scsi: ufs: core: Fix divide by zero in ufshcd_map_queues()
+f3d74cbf70c93281d88e5d3f1477ddcc1bcfabc8 Merge branch 'fixes' into for-next
+1e0a20264859530133e45c24e60a9ae43e679edd Merge branch 'misc' into for-next
 
---===============6544100976931523955==--
+--===============7080841743545930948==--
