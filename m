@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3083723222034331606=="
+Content-Type: multipart/mixed; boundary="===============2987276559527382966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 15 Feb 2022 22:57:18 -0000
-Message-Id: <164496583896.15828.13836456568445339689@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 22:57:38 -0000
+Message-Id: <164496585882.15987.9035837312191998820@gitolite.kernel.org>
 
---===============3083723222034331606==
+--===============2987276559527382966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.18
-    old: 35dff0dc75666b981b151849d253e43727812cae
+  - ref: refs/heads/for-next
+    old: 37e5a1d27caba51b688b24ddfb112e18dd712027
     new: 213f63071f1d59e979b39256ea90f1c15482cc55
-    log: revlist-35dff0dc7566-213f63071f1d.txt
+    log: revlist-37e5a1d27cab-213f63071f1d.txt
 
---===============3083723222034331606==
+--===============2987276559527382966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35dff0dc7566-213f63071f1d.txt
+Content-Disposition: attachment; filename=revlist-37e5a1d27cab-213f63071f1d.txt
 
 8da8939a421c91ce2d1ac92a2410d9818718d996 dm: rename split functions
 ddfa0bcb9544068b235923f24e70f3bae785b4b8 dm: fold __clone_and_map_data_bio into __split_and_process_bio
@@ -43,4 +43,4 @@ f4ed39e8afb3be2cd94ec6e1faac657f210a9a64 dm: add dm_submit_bio_remap interface
 da0b451839e728dafee59fb65f1a8ff932410cd6 dm delay: use dm_submit_bio_remap
 213f63071f1d59e979b39256ea90f1c15482cc55 dm: fix double accounting of flush with data
 
---===============3083723222034331606==--
+--===============2987276559527382966==--
