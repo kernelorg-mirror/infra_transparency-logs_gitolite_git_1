@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/nfs-utils
-Date: Tue, 15 Feb 2022 22:08:27 -0000
-Message-Id: <164496290747.15557.16417791574666373750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 15 Feb 2022 22:13:55 -0000
+Message-Id: <164496323531.18734.12152543461911388489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/nfs-utils
-user: rw
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/rw/reexport_wip
-    old: bbdf1e5c40e0fa470f3ad0a5be2d1b250992f205
-    new: b65380c9f2ac04ce1836dfc2c0dae1da307b560d
+  - ref: refs/heads/master
+    old: 6c9c4b7c3ab5f798b058bbb9e5abcdbe27b75b15
+    new: e6b7d537d728ff390b76cb3f147e7411de61150b
     log: |
-         263f859526aaf4320415759e1903b837b5290858 WIP give fsidnum table a better name
-         2cbf46134b19f32ec53d83ce8463427026fda441 WIP mountd: adjust help message
-         b65380c9f2ac04ce1836dfc2c0dae1da307b560d Make reexport a static lib and integrate into autoconf
+         b5ff08b267445f9407d6eefad86cde45ec3a50a2 lib: fix hci_strtolm crash
+         fb57ad9b9d107856e5f1c8135da04ffa2f7a11ac build: Fix errors with glibc < 2.25
+         e6b7d537d728ff390b76cb3f147e7411de61150b adapter: battery provider for non-LE controllers
          
