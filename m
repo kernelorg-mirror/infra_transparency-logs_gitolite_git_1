@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 15 Feb 2022 17:04:05 -0000
-Message-Id: <164494464503.6248.6964690787160720535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 15 Feb 2022 17:04:12 -0000
+Message-Id: <164494465289.6379.3379617951941312678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 9c3de619e13ee6693ec5ac74f50b7aa89056a70e
-    new: edc21dc909c6c133a2727f063eadd7907af51f94
+  - ref: refs/heads/fixes
+    old: 500c77eed0feabddd5b3afb48e32c204614a8eab
+    new: 6f66db29e2415cbe8759c48584f9cae19b3c2651
     log: |
-         edc21dc909c6c133a2727f063eadd7907af51f94 bpftool: Fix the error when lookup in no-btf maps
+         6f66db29e2415cbe8759c48584f9cae19b3c2651 pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
          
