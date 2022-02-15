@@ -1,27 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 15 Feb 2022 12:56:56 -0000
-Message-Id: <164492981620.2066.1467731157235676692@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2125644666317935682=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 15 Feb 2022 13:17:41 -0000
+Message-Id: <164493106179.14259.13073895026441760766@gitolite.kernel.org>
+
+--===============2125644666317935682==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/damon/next
-    old: 705416104f28c3855e1954ec5bbf42a08ca0f75f
-    new: afce6b7f747af7d6873928baf57b8c27a98cba4b
+  - ref: refs/heads/for-5.18
+    old: 4965e38fa064056021254af4656b1089a42dc764
+    new: f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea
     log: |
-         52a44a752018e135fe72f3a1bb61b8278661de0a mm/damon/core: Simplify ops registration
-         1c41bbfad730cd0fab8e94c7ecd9f520b4ab022d mm/damon/reclaim: Use registration based ops
-         46ab1f6e1d102585c8ad374d81014058b45559cf mm/damon/dbgfs: Use registration-based ops
-         71645c1f208af7571dd9264f14630cedabb95815 mm/damon/dbgfs: Use ops.id for knowing if the target has pid
-         27591197a9fd3bf81909e7ddf2a7561d95530f10 mm/damon/paddr,vaddr: Remove unused functions
-         1f99a12b16140a018781b8a42252dba2e8a2301d mm/damon: primitives->operations Rename remaining works
-         cc2d8bbd86773128ecab7b2278aefc9d6a401c67 mm/damon/core: Disallow duplicated ops registration
-         c7e0cdf34b6e7e59de5e6bbcc7ad86d4c7a7b68e mm/damon/core/ops_registration: Use separate mutex
-         afce6b7f747af7d6873928baf57b8c27a98cba4b mm/damon/dbgfs-test: Fix is_target_id() change
+         83a1bed1f49869ea0fc7de321d5dcc598d0dfb15 ASoC: tegra20: spdif: make const array rates static
+         f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea ASoC: soc-core: skip zero num_dai component in searching dai name
          
+
+--===============2125644666317935682==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1644931060 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1644931059-2299604ff5a2f2d3f598eebe54f06bb432740a07
+
+4965e38fa064056021254af4656b1089a42dc764 f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea refs/heads/for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmILp/QACgkQJNaLcl1U
+h9DKOAf/exYdVpgYimI8X/LXN4Tje5FDK/AQyJlMYJ0Mv8mxxi3nCIERFdlgiyci
+t2ynck0KoCpsrl+e42hn0dP79LOS5xGLxeZDmmTPOFMlbo2l4wFE76GYTM7jnSfw
+1etY6prOHKupIP8lyfjVONqBDtjqnEcYYgs6mml78rzZxahe3jzmPavzOAHxMveF
+ZKjqKCmmFWopNY3WeDBaE6igOncP1zfCPAh59W1itmsqvt4++kw39Dyv1ASpV+nl
+wxF90f2s0Q0pUotGL80kqRH4usSAyPRyhGs93bOlx6/QRuIuaNmNfZaoLPmNJHzc
+D+j2xQ6+rZyrQvY3FCVLvo2xNBpkjQ==
+=uUbh
+-----END PGP SIGNATURE-----
+
+--===============2125644666317935682==--
