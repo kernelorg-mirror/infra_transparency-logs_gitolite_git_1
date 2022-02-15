@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Tue, 15 Feb 2022 17:07:31 -0000
-Message-Id: <164494485154.9044.3456508515719631568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 15 Feb 2022 17:07:35 -0000
+Message-Id: <164494485566.9125.14830387924756841745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: caedaaf2f9d7856674bbe18956a7dd372256213e
-    new: 9d706074c6a339a0e4b7f3b87c17a9ddb63158a8
+  - ref: refs/heads/review-andy
+    old: 689e008877402564ce8a7884f21c9d2ed3ecb2dc
+    new: 5e0345539e53ba4032ff5d683c4aac8c9302f89c
     log: |
-         2c2c30b777ef38d2e09a34691245bf2605d21314 trace-cmd library: Use output handler when copying data from input file
-         ee8ce8c751de283c6fbd529f164e5b683edb61aa trace-cmd library: Handle version 7 files when copying headers between files
-         f2f3f530329aad2dd1d7a39dad2f66cf73a1125e trace-cmd library: Copy CPU count between trace files
-         97b277c1ce998f42443db1f3def670125affebc3 trace-cmd library: New API to copy buffer description between trace files
-         27a8f72f30955bdf1255c44b312d01edb106225e trace-cmd library: New API to copy options between trace files
-         6085100c4fa32635e12c8da17c5b45cc887eff09 trace-cmd library: New API to copy trace data between trace files
-         3fcc509b7682a4bb14ba5b094c1dace1854d49cf trace-cmd library: Avoid memory leak when setting trace clock
-         55cb5ebd01775f4163724b7cbfbfd59030c20703 trace-cmd library: Extend tracecmd_copy() API
-         9d706074c6a339a0e4b7f3b87c17a9ddb63158a8 trace-cmd: Add new subcommand "convert"
+         4398c358680e46104e2f6b60ff0557451ab7d299 pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
+         84fcf604e77dd59f55a3348986d0b236ee03844c pinctrl: alderlake: Add Raptor Lake-S ACPI ID
+         27b4830d01a457c8e22d4cc33481a689e2e94988 pinctrl: alderlake: Add Intel Alder Lake-N pin controller support
+         5e0345539e53ba4032ff5d683c4aac8c9302f89c pinctrl: icelake: Add Ice Lake-N PCH pin controller support
          
