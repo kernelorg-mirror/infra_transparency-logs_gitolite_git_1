@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 15 Feb 2022 01:28:09 -0000
-Message-Id: <164488848992.25505.12204921214791732753@gitolite.kernel.org>
+Date: Tue, 15 Feb 2022 01:29:56 -0000
+Message-Id: <164488859695.26253.4504947753775851692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/gustavoars/linux
 user: gustavoars
 changes:
   - ref: refs/heads/for-next/kspp-fam0
-    old: 58553f550750790e40d2d5194b6571b516a9acaa
-    new: 71182dcf1cef68a915a34931a430446df1c144dd
+    old: 71182dcf1cef68a915a34931a430446df1c144dd
+    new: c5f6e43931aeb6e2142f23cb73a21455e7c115b5
     log: |
-         71182dcf1cef68a915a34931a430446df1c144dd treewide: Replace zero-length arrays with flexible-array members
+         c5f6e43931aeb6e2142f23cb73a21455e7c115b5 treewide: Replace zero-length arrays with flexible-array members
          
