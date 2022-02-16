@@ -1,51 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2783463258867189784=="
+Content-Type: multipart/mixed; boundary="===============8088482104282413268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 16 Feb 2022 18:00:50 -0000
-Message-Id: <164503445032.6669.11928473796879359595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 16 Feb 2022 18:00:56 -0000
+Message-Id: <164503445651.6793.15561815572928709862@gitolite.kernel.org>
 
---===============2783463258867189784==
+--===============8088482104282413268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea
-    new: 83bfc7e793b555291785136c3ae86abcdc046887
+  - ref: refs/heads/for-5.18
+    old: db91535d770445e1b61f6f7e4bdbd8cce45440c0
+    new: 54d0fd06e2bd52d3b17648de787157a7c0625adb
     log: |
-         db0b4aedfab396a6fe631f5c3bb34319770f0581 ASoC: codec: wcd938x: Update CTIA/OMTP switch control
-         83bfc7e793b555291785136c3ae86abcdc046887 ASoC: SOF: core: unregister clients and machine drivers in .shutdown
+         47b34f495b8b75475952f12c521c4c1fc2fa09b4 spi: intel-pci: Add support for Intel Ice Lake-N SPI serial flash
+         2b993ab79b5dc83eb699e747bfac6c04f4f5fc70 spi: amd: Fix building without ACPI enabled
+         54d0fd06e2bd52d3b17648de787157a7c0625adb spi: pxa2xx: Add support for Intel Raptor Lake PCH-S
          
 
---===============2783463258867189784==
+--===============8088482104282413268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645034449 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1645034448-db318664914782e1285a7632b86d2d84b9ec6931
+pusher C3F436CA30F5D8EB 1645034455 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1645034454-6d8714482270b28a1e7970515b9c9de10b452568
 
-f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea 83bfc7e793b555291785136c3ae86abcdc046887 refs/heads/asoc-5.18
+db91535d770445e1b61f6f7e4bdbd8cce45440c0 54d0fd06e2bd52d3b17648de787157a7c0625adb refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmINO9EACgkQJNaLcl1U
-h9CTOgf9H/w6iZrM9O6+TEvVMfHirUsA06o4yf7B3kE2K9V2IIwYUdgH8NX997Ug
-A4TVwz0sfO7BCLWM6GgSmd4z5ibx9YSKUmhXUI/sSXJzpUwVe65ep4bTv3SfOrTk
-plA+G84tRe1Srr26lU7TOhrSHqXR9cO0GGZlU9wC3gM97IBVf8HfUY0TkzQNvLYC
-mJxWr9EzZxt8MSs8HiRiPBQ2EGikC0WRE++ccrbokqmEfrY8EO8eGeOK+0CGzgR7
-gPwZOya3nJtEiAsO08tZRCeq186HnipcCIvYYa+1aRiVsWG6ZYEcrEfKr/UIjQ2u
-Q1fGGyBYzKWrPhbjotii9FkE9+2dug==
-=kOoZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmINO9cACgkQJNaLcl1U
+h9C15Qf/Uf0acz6tB3OAD59ZHiO80Gv6o2F/Xjog42YtgpvdqJtB7neNWJzlv9M+
++/9R9giJxenQKt+DQhPjsa5s8/RCWxVOJdjTzv5KyzJ3Z6gKGDD97rHSoX9P5HTF
+9wTGYySsyVnKX2v1m0c804M+vfgqlA5RnkjfNMNx07jagwgMrm10due48C5LKfaL
+BhNh7wmDXHXh0fVs0tX8qmvGWfN7sRDYUPHgvtPO9wJt9YozigH0GLvH2DYmv4B2
+45mhyavL/RJrTCButLKiSwBPeSEtBiAsKNaHe79GOnwUInNyhjcTl0gekYvKRVEF
+h1oUzodwdMW9JrZih83DWD2wZaRh7Q==
+=ZqMa
 -----END PGP SIGNATURE-----
 
---===============2783463258867189784==--
+--===============8088482104282413268==--
