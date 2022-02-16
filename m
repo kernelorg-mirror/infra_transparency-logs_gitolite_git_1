@@ -1,57 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5521938694487834443=="
+Content-Type: multipart/mixed; boundary="===============2413344564822508771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 16 Feb 2022 23:48:17 -0000
-Message-Id: <164505529761.6156.9456780047306427813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 16 Feb 2022 23:48:31 -0000
+Message-Id: <164505531190.6300.280473398742033449@gitolite.kernel.org>
 
---===============5521938694487834443==
+--===============2413344564822508771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/jd/no-irq-trylocks
-    old: bf70e763e8cf9cb29e1003a7d39ec41f31fbe56e
-    new: 2d9cb831a9c20f6771555bb3149da7d533437aa6
-    log: revlist-bf70e763e8cf-2d9cb831a9c2.txt
+  - ref: refs/heads/master
+    old: 2c955856da4faec3a36df1e85b3ba3dfe230d6fd
+    new: f0ead99e623baca56dcbcc577299e8f97aefab0b
+    log: revlist-2c955856da4f-f0ead99e623b.txt
 
---===============5521938694487834443==
+--===============2413344564822508771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf70e763e8cf-2d9cb831a9c2.txt
+Content-Disposition: attachment; filename=revlist-2c955856da4f-f0ead99e623b.txt
 
-f73c522c4c2094d1c434083ae362bbd4a2ed7348 random: use simpler fast key erasure flow on per-cpu keys
-fd438287358273f31c1f1827a099ae4ddcb9e179 random: use hash function for crng_slow_load()
-c66a21451b644d1cee8df01f688c4342a293d713 random: make more consistent use of integer types
-66b36424007fda6bb3258f6977cf14ddcb273e06 random: remove outdated INT_MAX >> 6 check in urandom_read()
-fbc31a3fcae2fa6e2a085d67dceb5cbd9530b048 random: zero buffer after reading entropy from userspace
-051a81ede7cebdfd9d00743b6d8dec697ad71c5d random: fix locking for crng_init in crng_reseed()
-7db05e40b0e1325717e7e92b59e8a321d120c60e random: tie batched entropy generation to base_crng generation
-2a489e2caa02bbf720bd0392e9bcde82a2983cf8 random: remove ifdef'd out interrupt bench
-5296626aacd520cf7af38b9eee4d3fadb6e2ae7e random: remove unused tracepoints
-1bc6c6c18fd598e265df7e4d4f2843d6051a96fa random: add proper SPDX header
-897d139345fb67d5e71847f1387d126029f3f53e random: deobfuscate irq u32/u64 contributions
-1d9db20a084794dec4856f67ec0d44cfd31d2bb7 random: introduce drain_entropy() helper to declutter crng_reseed()
-76a6774987ec76e60c7a7f953fa4503cb140c668 random: remove useless header comment
-0d3e554bed5a397d3c9de292362f4f16889e4434 random: remove whitespace and reorder includes
-364cd2247c9949b79698e4188d58fae3e544fe90 random: group initialization wait functions
-f2c0c68bab2c498972607166e12a3bc21dc3f091 random: group crng functions
-cb3d0dd39ab49fedc7a4bd89622d377035a8d114 random: group entropy extraction functions
-e409f27b25c1ad171eea96c2864cad192632dc8f random: group entropy collection functions
-eaef627293e21f120488f2b5420107983a1b3dfb random: group userspace read/write functions
-73627d38330fe10d7104638fda2185ec836d3ece random: group sysctl functions
-2d131cee34a4a969d6e0e2104f3fe1e0b264b04a random: rewrite header introductory comment
-7181498d0073735ff1e1123f864c6af6884b4a1c random: defer fast pool mixing to worker
-7789a5f6455d4b23f0374126073bd14a84fcef77 random: do not take pool spinlock at boot
-cc538814458d90ef6225c4f84ed5165ef25b3f14 random: unify early init crng load accounting
-a0c135b9c1387198792bb098ceed271e26170677 random: check for crng_init == 0 in add_device_randomness()
-6b696fb453452970ef2c07423aff6a205dfa5b05 random: pull add_hwgenerator_randomness() declaration into random.h
-2d9cb831a9c20f6771555bb3149da7d533437aa6 random: do crng pre-init loading in worker rather than irq
+b0471c26108160217fc17acec4a9fdce92aaeeea gve: enhance no queue page list detection
+b2bc58d41fde91951334254c4231f75ea8a21a2b net: bridge: vlan: check early for lack of BRENTRY flag in br_vlan_add_existing
+3116ad0696dd2bf3f53c672f44f77e0d1c2da8ca net: bridge: vlan: don't notify to switchdev master VLANs without BRENTRY flag
+cab2cd77005187828273adfec04f3ad18a63cb3d net: bridge: vlan: make __vlan_add_flags react only to PVID and UNTAGGED
+27c5f74c7ba7b782f9694589ae733ca2ca8f76cc net: bridge: vlan: notify switchdev only when something changed
+8d23a54f5beea59b560855fb571e5d73d783e0b4 net: bridge: switchdev: differentiate new VLANs from changed ones
+263029ae317298a3719d2cd88a818c3a29a80e15 net: bridge: make nbp_switchdev_unsync_objs() follow reverse order of sync()
+b28d580e2939544ea0c56ca7aed7aacef1da466e net: bridge: switchdev: replay all VLAN groups
+7b465f4cf39ea1f5df7f425b843578b60f673155 net: switchdev: rename switchdev_lower_dev_find to switchdev_lower_dev_find_rcu
+c4076cdd21f8d68a96f1e7124bd8915c7e31a474 net: switchdev: introduce switchdev_handle_port_obj_{add,del} for foreign interfaces
+134ef2388e7f3271d13223decdb5e45b0f84489f net: dsa: add explicit support for host bridge VLANs
+164f861bd40ccc3ed10a59ee72437b93670a525a net: dsa: offload bridge port VLANs on foreign interfaces
+f0ead99e623baca56dcbcc577299e8f97aefab0b Merge branch 'Replay-and-offload-host-VLAN-entries-in-DSA'
 
---===============5521938694487834443==--
+--===============2413344564822508771==--
