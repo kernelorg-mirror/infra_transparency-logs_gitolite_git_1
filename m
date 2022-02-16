@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8088482104282413268=="
+Content-Type: multipart/mixed; boundary="===============2018225573549148006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 16 Feb 2022 18:00:56 -0000
-Message-Id: <164503445651.6793.15561815572928709862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 16 Feb 2022 18:01:02 -0000
+Message-Id: <164503446245.6896.1226550821224154669@gitolite.kernel.org>
 
---===============8088482104282413268==
+--===============2018225573549148006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: db91535d770445e1b61f6f7e4bdbd8cce45440c0
     new: 54d0fd06e2bd52d3b17648de787157a7c0625adb
     log: |
@@ -25,28 +25,28 @@ changes:
          54d0fd06e2bd52d3b17648de787157a7c0625adb spi: pxa2xx: Add support for Intel Raptor Lake PCH-S
          
 
---===============8088482104282413268==
+--===============2018225573549148006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645034455 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1645034454-6d8714482270b28a1e7970515b9c9de10b452568
+pusher C3F436CA30F5D8EB 1645034461 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645034460-f19d1258f1134c4b2634265c43c53eba4dd56459
 
-db91535d770445e1b61f6f7e4bdbd8cce45440c0 54d0fd06e2bd52d3b17648de787157a7c0625adb refs/heads/for-5.18
+db91535d770445e1b61f6f7e4bdbd8cce45440c0 54d0fd06e2bd52d3b17648de787157a7c0625adb refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmINO9cACgkQJNaLcl1U
-h9C15Qf/Uf0acz6tB3OAD59ZHiO80Gv6o2F/Xjog42YtgpvdqJtB7neNWJzlv9M+
-+/9R9giJxenQKt+DQhPjsa5s8/RCWxVOJdjTzv5KyzJ3Z6gKGDD97rHSoX9P5HTF
-9wTGYySsyVnKX2v1m0c804M+vfgqlA5RnkjfNMNx07jagwgMrm10due48C5LKfaL
-BhNh7wmDXHXh0fVs0tX8qmvGWfN7sRDYUPHgvtPO9wJt9YozigH0GLvH2DYmv4B2
-45mhyavL/RJrTCButLKiSwBPeSEtBiAsKNaHe79GOnwUInNyhjcTl0gekYvKRVEF
-h1oUzodwdMW9JrZih83DWD2wZaRh7Q==
-=ZqMa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmINO90ACgkQJNaLcl1U
+h9BZ8Qf/cNGw2rjfbqD1zGPF4v8mc2IcVZN15pRudFhJG9LGR+YJlZqPlc+5HIcG
+pPe6eXkFBDyPdUDRPi2bJQe9AA9s8ZWi08T3Zthaumn3pYosctaNxtH2TW7tJh88
+jD2Qiu1AaJvN7ZO7m5TRL9Wq+/2G7ZOor597Y3kuPc/moY1aJ55bm8GZZuv8MH/u
+sle0vf14ZVlFzrXFDFc1BNcc1DozXFqx00aGhOcTkYAb9qhyVHHHUxcLcM93vBt0
+3xN7xWPDBwOe/oHJ/G7Pgr01XlRV4Y2MvXd5Qr84IW5phWCavIRIP/v2fSorXstY
+4Ytya7wOM3sixWKMOJClzSRWRwvn2w==
+=b2Ag
 -----END PGP SIGNATURE-----
 
---===============8088482104282413268==--
+--===============2018225573549148006==--
