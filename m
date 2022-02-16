@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Feb 2022 14:55:49 -0000
-Message-Id: <164502334984.17030.8765555746746059983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 16 Feb 2022 14:58:50 -0000
+Message-Id: <164502353036.18104.8217657989929145415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: ee28855a54493ce83bc2a3fbe30210be61b57bc7
-    new: 161a9a33702a2e65a4118dacb449505ac8ce3122
+  - ref: refs/heads/objtool/urgent
+    old: bfb1a7c91fb7758273b4a8d735313d9cc388b502
+    new: f65cb99aa5b4453c6bfa69d0f2bf829079e1c538
     log: |
-         28c24ded649cf068ca518f2a3d78f5e7e06d41d8 perf/x86/intel/pt: Add a capability and config bit for event tracing
-         161a9a33702a2e65a4118dacb449505ac8ce3122 perf/x86/intel/pt: Add a capability and config bit for disabling TNTs
+         f65cb99aa5b4453c6bfa69d0f2bf829079e1c538 tools: Fix use-after-free for realloc(..., 0)
          
