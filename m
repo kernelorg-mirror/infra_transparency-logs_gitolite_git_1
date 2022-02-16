@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 16 Feb 2022 19:13:55 -0000
-Message-Id: <164503883564.21106.17155501288795253768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Wed, 16 Feb 2022 19:24:58 -0000
+Message-Id: <164503949807.28960.1916885629002087607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
   - ref: refs/heads/master
-    old: c5d9ae265b105d9a67575fb67bd4650a6fc08e25
-    new: 3593030761630e09200072a4bd06468892c27be3
+    old: f0ead99e623baca56dcbcc577299e8f97aefab0b
+    new: 4624b3e4b06cbe18e81f76b7377e59e392b6161b
     log: |
-         3593030761630e09200072a4bd06468892c27be3 tty: n_tty: do not look ahead for EOL character past the end of the buffer
+         4624b3e4b06cbe18e81f76b7377e59e392b6161b Revert "netfilter: conntrack: mark UDP zero checksum as CHECKSUM_UNNECESSARY"
          
