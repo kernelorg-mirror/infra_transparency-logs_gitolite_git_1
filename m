@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 16 Feb 2022 10:14:09 -0000
-Message-Id: <164500644938.24263.377962945120864581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 16 Feb 2022 10:23:53 -0000
+Message-Id: <164500703361.31746.6215015599414687230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/tags/mmc-v5.17-rc1-2
-    old: 0000000000000000000000000000000000000000
-    new: f8161ab7ac19e393ff4b7f8daa26f1c0e7a2d374
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/heads/master
+    old: 952b6d5f18594418963b70467a8cd115cfa37a5d
+    new: 04811bcfd4224be1d742564f363eb19581451d57
+    log: |
+         04811bcfd4224be1d742564f363eb19581451d57 Bluetooth: fix data races in smp_unregister(), smp_del_chan()
+         
