@@ -1,67 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0009440666563681872=="
+Content-Type: multipart/mixed; boundary="===============4530280856177085584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Wed, 16 Feb 2022 22:56:53 -0000
-Message-Id: <164505221354.6467.1755509034977824219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 16 Feb 2022 23:04:43 -0000
+Message-Id: <164505268364.10482.8114877293342813332@gitolite.kernel.org>
 
---===============0009440666563681872==
+--===============4530280856177085584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/seen
-    old: 27486cd1b2d5f788e4f86e523442e5d6d5d33cc9
-    new: f779b662fcd39d454fc354bfaa613b0cf483c120
-    log: revlist-27486cd1b2d5-f779b662fcd3.txt
+  - ref: refs/heads/master
+    old: 9769718c0d5041a8a6c08bf25fbf88d9a124be40
+    new: 6b696fb453452970ef2c07423aff6a205dfa5b05
+    log: revlist-9769718c0d50-6b696fb45345.txt
 
---===============0009440666563681872==
+--===============4530280856177085584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27486cd1b2d5-f779b662fcd3.txt
+Content-Disposition: attachment; filename=revlist-9769718c0d50-6b696fb45345.txt
 
-f6c71f81f9f597d94b95828b5f70f01283a56202 cache.h: remove always unused show_date_human() declaration
-88c7b4c3c8d51510d20ebb9990750ad0e97afbfb date API: create a date.h, split from cache.h
-f1842898324330dcf7a3b30ea08d18a68bd19ceb date API: provide and use a DATE_MODE_INIT
-2bacb8346660b54dc4440da44103a7cd3d469009 date API: add basic API docs
-974c919d36d944e9005def346fb363d8a83399f7 date API: add and use a date_mode_release()
-8a43825a8fc4e4fca423f8f232cbc3f15a893bf1 commit: fix "author_ident" leak
-f2fa3d896ea52ec477ca809320e9ae73f30f4c09 commit: use strbuf_release() instead of UNLEAK()
-9df0fc3d578acfdeb7fa1914fcf0507adb021fa5 xdiff: fix a memory leak
-61f883965f79308b849a55936bee69a33c476c5c xdiff: handle allocation failure in patience diff
-4a37b80e88f8f26a2f56d77c5ad6caa41d572ea8 xdiff: refactor a function
-43ad3af380702d9e304140f259480de59320e587 xdiff: handle allocation failure when merging
-4212d9f8218252dd1029bb1d132e121584ade49d terminal: pop signal handler when terminal is restored
-f1e47ecbbb855365fdb6ca597bc28e4c541115db terminal: set VMIN and VTIME in non-canonical mode
-300db53b37d9642d448bdc5c112b90c1b8788950 add -p: disable stdin buffering when interactive.singlekey is set
-244c27242f44e6b88e3a381c90bde08d134c274b diff.[ch]: have diff_free() call clear_pathspec(opts.pathspec)
-6ee36364eb32287f071878a91d3bbcd86313754a diff.[ch]: have diff_free() free options->parseopts
-401d468a21e6871479a8e472eec36651026c89a7 cat-file: rename cmdmode to transform_mode
-c49a8f8536830a88cc2351209b8c0fc5df6cb7ca cat-file: introduce batch_mode enum to replace print_contents
-cb7f65fd30f3403d2d5c809d8b833aebe31a6776 cat-file: add remove_timestamp helper
-bb9399e2132245920ed0dd1816460a582e103df7 cat-file: add --batch-command mode
-d67a7b789c33fe3a1fc66b606b896bb64af1e405 Merge branch 'en/merge-tree' into seen
-e1f0f5e268ee7f4530d347ceb8a1e0834b2d9721 Merge branch 'cb/save-term-across-editor-invocation' into seen
-90a79fc06f775058115872f4d595d657a27f3ae3 Merge branch 'tl/ls-tree-oid-only' into seen
-524c58e90550b21669be10f57394ce54cf9c10ec Merge branch 'ab/object-file-api-updates' into seen
-c597521922a0670c3d1c323c885fc8e502e850a5 Merge branch 'js/bisect-in-c' into seen
-0cb9758fa910e332b2d0178af20cb9de4bfeee59 Merge branch 'pw/xdiff-alloc-fail' into seen
-4338b69d97b4ada4ba33fbc7bac2d9f26ab64acf Merge branch 'jh/p4-various-fixups' into seen
-cd16ba94e0190baab9a83004ce844b9c352059b6 Merge branch 'gc/recursive-fetch-with-unused-submodules' into seen
-a06fd8f5ff4f1f6cce79cc76e8d810b651be09d8 Merge branch 'cg/t3903-modernize' into seen
-8b0ecb0928353715c4b90175bb2690fafa8e1283 Merge branch 'jh/builtin-fsmonitor-part2' into seen
-e7759cd526c543aced100bfffe891467af217012 Merge branch 'jc/cat-file-batch-commands' into seen
-636f960d8e7c022ea30506b08c5344c2139734bf Merge branch 'es/superproject-aware-submodules' into seen
-e8ea60c7907b9d909a2a71b1f1f6d67e94b27da4 Merge branch 'ab/date-mode-release' into seen
-82752f840a44325f6dcccc88a24c606f0c1f9c9d Merge branch 'en/sparse-checkout-fixes' into seen
-889dcef0fb7934e2215495194d604282db2578e3 Merge branch 'ab/commit-plug-leaks' into seen
-c39da26c181ccab3eaa2bd66a79768fb5b2ed843 Merge branch 'pw/single-key-interactive' into seen
-f779b662fcd39d454fc354bfaa613b0cf483c120 Merge branch 'ab/diff-free-more' into seen
+f73c522c4c2094d1c434083ae362bbd4a2ed7348 random: use simpler fast key erasure flow on per-cpu keys
+fd438287358273f31c1f1827a099ae4ddcb9e179 random: use hash function for crng_slow_load()
+c66a21451b644d1cee8df01f688c4342a293d713 random: make more consistent use of integer types
+66b36424007fda6bb3258f6977cf14ddcb273e06 random: remove outdated INT_MAX >> 6 check in urandom_read()
+fbc31a3fcae2fa6e2a085d67dceb5cbd9530b048 random: zero buffer after reading entropy from userspace
+051a81ede7cebdfd9d00743b6d8dec697ad71c5d random: fix locking for crng_init in crng_reseed()
+7db05e40b0e1325717e7e92b59e8a321d120c60e random: tie batched entropy generation to base_crng generation
+2a489e2caa02bbf720bd0392e9bcde82a2983cf8 random: remove ifdef'd out interrupt bench
+5296626aacd520cf7af38b9eee4d3fadb6e2ae7e random: remove unused tracepoints
+1bc6c6c18fd598e265df7e4d4f2843d6051a96fa random: add proper SPDX header
+897d139345fb67d5e71847f1387d126029f3f53e random: deobfuscate irq u32/u64 contributions
+1d9db20a084794dec4856f67ec0d44cfd31d2bb7 random: introduce drain_entropy() helper to declutter crng_reseed()
+76a6774987ec76e60c7a7f953fa4503cb140c668 random: remove useless header comment
+0d3e554bed5a397d3c9de292362f4f16889e4434 random: remove whitespace and reorder includes
+364cd2247c9949b79698e4188d58fae3e544fe90 random: group initialization wait functions
+f2c0c68bab2c498972607166e12a3bc21dc3f091 random: group crng functions
+cb3d0dd39ab49fedc7a4bd89622d377035a8d114 random: group entropy extraction functions
+e409f27b25c1ad171eea96c2864cad192632dc8f random: group entropy collection functions
+eaef627293e21f120488f2b5420107983a1b3dfb random: group userspace read/write functions
+73627d38330fe10d7104638fda2185ec836d3ece random: group sysctl functions
+2d131cee34a4a969d6e0e2104f3fe1e0b264b04a random: rewrite header introductory comment
+7181498d0073735ff1e1123f864c6af6884b4a1c random: defer fast pool mixing to worker
+7789a5f6455d4b23f0374126073bd14a84fcef77 random: do not take pool spinlock at boot
+cc538814458d90ef6225c4f84ed5165ef25b3f14 random: unify early init crng load accounting
+a0c135b9c1387198792bb098ceed271e26170677 random: check for crng_init == 0 in add_device_randomness()
+6b696fb453452970ef2c07423aff6a205dfa5b05 random: pull add_hwgenerator_randomness() declaration into random.h
 
---===============0009440666563681872==--
+--===============4530280856177085584==--
