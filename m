@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6540056247407651525=="
+Content-Type: multipart/mixed; boundary="===============7531199810667346487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 16 Feb 2022 01:02:21 -0000
-Message-Id: <164497334189.3915.16720670058985862215@gitolite.kernel.org>
+Date: Wed, 16 Feb 2022 01:02:28 -0000
+Message-Id: <164497334825.4050.6463894233415119650@gitolite.kernel.org>
 
---===============6540056247407651525==
+--===============7531199810667346487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: be5764c4e276863ac30a16cb91a79d9531abe7a3
     new: 87a73bdc421ac702c248002a0a2e62f08c6e7682
     log: revlist-be5764c4e276-87a73bdc421a.txt
 
---===============6540056247407651525==
+--===============7531199810667346487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ c096fff62d417ee112bb7bba5d65c1e3512f428d perf scripting python: Add all sample f
 aca8af3c2e8cb57662e6035c0ccb3c111a11d97a perf cs-etm: Update deduction of TRCCONFIGR register for branch broadcast
 87a73bdc421ac702c248002a0a2e62f08c6e7682 perf test: Make metric testing more robust
 
---===============6540056247407651525==--
+--===============7531199810667346487==--
