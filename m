@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 16 Feb 2022 15:03:14 -0000
-Message-Id: <164502379476.22096.13875197229539914198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 16 Feb 2022 15:04:21 -0000
+Message-Id: <164502386141.22517.18445461627436197366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 4398693a9e24bcab0b99ea219073917991d0792b
-    new: 667630edb5bacd05ee423cbbb53f236d0122ea34
+  - ref: refs/heads/linkage/alias-rework
+    old: f3f1b574521d8800c911c0aaba2abcd12225144b
+    new: 38d8f969f67015ed2f32ff5d8556485bba810a51
     log: |
-         e28747da771cbda2dac0e8d9487e875feb1b8fed gpiolib: sysfs: Move sysfs_emit() calls outside of the mutex lock
-         6b3c1791ae2fde75311b414f38d50e0125374a4e gpiolib: sysfs: Move kstrtox() calls outside of the mutex lock
-         667630edb5bacd05ee423cbbb53f236d0122ea34 gpiolib: sysfs: Simplify edge handling in the code
+         0c907dd5480ebd1c232c148cf1e255673a89d31a linkage: add SYM_FUNC_ALIAS{,_LOCAL,_WEAK}()
+         c01ec8ac5e4516a5952166c4a7cf7eb5dd59dd1a arm64: clean up symbol aliasing
+         a976eb34a46509a250689a324cf174e5de32562e x86: clean up symbol aliasing
+         38d8f969f67015ed2f32ff5d8556485bba810a51 linkage: remove SYM_FUNC_{START,END}_ALIAS()
          
