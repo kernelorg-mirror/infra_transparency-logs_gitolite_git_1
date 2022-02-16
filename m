@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6429593188802627960=="
+Content-Type: multipart/mixed; boundary="===============7523468622564119581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 16 Feb 2022 20:45:48 -0000
-Message-Id: <164504434857.17435.4876706030506288093@gitolite.kernel.org>
+Date: Wed, 16 Feb 2022 20:48:03 -0000
+Message-Id: <164504448354.18203.16165523380882020224@gitolite.kernel.org>
 
---===============6429593188802627960==
+--===============7523468622564119581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
   - ref: refs/heads/dm-5.18
-    old: 0146a537463e4c91a9ac7366a97a05a34f242aa8
-    new: f4a8526094c541cafde9c98e7cd22f0a6a5d442c
-    log: revlist-0146a537463e-f4a8526094c5.txt
+    old: f4a8526094c541cafde9c98e7cd22f0a6a5d442c
+    new: 3a0d2dd604f88b3eacfb43539495b34c53e9750e
+    log: revlist-f4a8526094c5-3a0d2dd604f8.txt
 
---===============6429593188802627960==
+--===============7523468622564119581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0146a537463e-f4a8526094c5.txt
+Content-Disposition: attachment; filename=revlist-f4a8526094c5-3a0d2dd604f8.txt
 
-fa85cdddd77844f57430165d15aa9f0ff562dae4 dm: fix double accounting of flush with data
-d65bfe1fac2d4589030dfaf66cb5a104a167fe32 dm stats: fix too short end duration_ns with STAT_PRECISE_TIMESTAMPS
-084f273d94e59d442de53e05684a774eba623901 dm: rename split functions
-b751062929c2d488f6ae1b59dde6f67666d8ef93 dm: fold __clone_and_map_data_bio into __split_and_process_bio
-3d866745f3fe48013fb5597b3fb47069bf4cbc83 dm: refactor dm_split_and_process_bio a bit
-8873e5fb5bca6c139120a8369c7932e3f7046895 dm: reduce code duplication in __map_bio
-9c542208eccbd2b690122730193cc3450cf94dd4 dm: remove impossible BUG_ON in __send_empty_flush
-0958929e364f631c691060841b3b7238c6545896 dm: remove unused mapped_device argument from free_tio
-e52ab8f5cc1bbbc212bd0ec8d703807d50def641 dm: remove legacy code only needed before submit_bio recursion
-04e02a295a81cb34456f9412de447d9a5bd0f968 dm: record old_sector in dm_target_io before calling map function
-fd5d9a9dd956effc5a8333c9367c2b7a1d21652c dm: move duplicate code from callers of alloc_tio into alloc_tio
-502888b9add037543d742e0764364e2f66030dbd dm: reduce dm_io and dm_target_io struct sizes
-4a3bf1367547ddbc6d9d6b8c1134e6672570ad2a dm: flag clones created by __send_duplicate_bios
-58f23f877a859e88e6b685e7fb64f3a25e9c38c1 dm: add dm_submit_bio_remap interface
-701afa7d3624935392ef634c1c2ea3ea4bb813be dm crypt: use dm_submit_bio_remap
-f4a8526094c541cafde9c98e7cd22f0a6a5d442c dm delay: use dm_submit_bio_remap
+40dd623a5d3ca78ff8efe98bfe2c90275dbf442f dm: fix double accounting of flush with data
+6297dd04f40d1c1ac8a81ba4b9d2d46d0ab50225 dm stats: fix too short end duration_ns with STAT_PRECISE_TIMESTAMPS
+50d5241841358efc906b77239bc81a7914317e23 dm: rename split functions
+2421dcb4ef33a425aa8b25a65006c1298bfc9639 dm: fold __clone_and_map_data_bio into __split_and_process_bio
+4beab41d7fe404cc1cffb06fdf0eb5778278779e dm: refactor dm_split_and_process_bio a bit
+d10efd7bad88b365d52ac09856750e3ffc238918 dm: reduce code duplication in __map_bio
+30db4c3451d1f4014eb34188bd0f386248c6eb32 dm: remove impossible BUG_ON in __send_empty_flush
+c68e956dcc8648626edd22fd6d630bf4e9b90f29 dm: remove unused mapped_device argument from free_tio
+cfb228a662ff0e5af7b458e051beca2089a31259 dm: remove legacy code only needed before submit_bio recursion
+eb2d4bf39ec174b5529a197e7aa96f78004f2c2c dm: record old_sector in dm_target_io before calling map function
+d04aa8ae799a83bad3802912343ae2923ef64688 dm: move duplicate code from callers of alloc_tio into alloc_tio
+8fde2c69a2f8f424fd4b35f93429814a96ed6d60 dm: reduce dm_io and dm_target_io struct sizes
+919ffcdabb307113be95917fbee10933f939acd1 dm: flag clones created by __send_duplicate_bios
+cee26f1d96fa2cb3a71bc787c1b1803a8ecc188e dm: add dm_submit_bio_remap interface
+20c273e574ed303d269491ff28d7c1ede2e3b354 dm crypt: use dm_submit_bio_remap
+3a0d2dd604f88b3eacfb43539495b34c53e9750e dm delay: use dm_submit_bio_remap
 
---===============6429593188802627960==--
+--===============7523468622564119581==--
