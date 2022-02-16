@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 16 Feb 2022 13:31:55 -0000
-Message-Id: <164501831503.27281.17228919755017898542@gitolite.kernel.org>
+Date: Wed, 16 Feb 2022 13:32:11 -0000
+Message-Id: <164501833146.27478.4853495033486347806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/fast-mix
-    old: 0c0b7189b145117d47aa2d61ac976d8398494d7f
-    new: f467843a75ec25fb381c40e382368cb9271b9a9c
+  - ref: refs/heads/jd/ath9k
+    old: f4363fd8b236e40a72f1901302f1cfa2ba2e4551
+    new: 9bbfc5c63e14481041d2a13b59969e9e7103bbb9
     log: |
-         f467843a75ec25fb381c40e382368cb9271b9a9c random: use max-period linear interrupt extractor
+         9bbfc5c63e14481041d2a13b59969e9e7103bbb9 ath9k: use hw_random API instead of directly dumping into random.c
          
