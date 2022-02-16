@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Feb 2022 18:01:23 -0000
-Message-Id: <164503448377.7117.1685649535077072158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 16 Feb 2022 18:01:51 -0000
+Message-Id: <164503451118.7371.9716596690587213001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: a887f9c7a4d37a8e874ba8415a42a92a1b5139fc
-    new: c5487b9cdea5c1ede38a7ec94db0fc59963c8e86
+    old: 9fdb6d8d46589de5b752ce87691a721c6fe9c59a
+    new: 2dc8bc5a6a4ef63559a97aea22bd5e5ff651a8f9
     log: |
-         9bdd10d57a8807dba0003af0325191f3cec0f11c ASoC: ops: Shift tested values in snd_soc_put_volsw() by +min
-         c5487b9cdea5c1ede38a7ec94db0fc59963c8e86 ASoC: cs4265: Fix the duplicated control name
+         2dc8bc5a6a4ef63559a97aea22bd5e5ff651a8f9 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         
+  - ref: refs/heads/for-next
+    old: db91535d770445e1b61f6f7e4bdbd8cce45440c0
+    new: 54d0fd06e2bd52d3b17648de787157a7c0625adb
+    log: |
+         47b34f495b8b75475952f12c521c4c1fc2fa09b4 spi: intel-pci: Add support for Intel Ice Lake-N SPI serial flash
+         2b993ab79b5dc83eb699e747bfac6c04f4f5fc70 spi: amd: Fix building without ACPI enabled
+         54d0fd06e2bd52d3b17648de787157a7c0625adb spi: pxa2xx: Add support for Intel Raptor Lake PCH-S
          
