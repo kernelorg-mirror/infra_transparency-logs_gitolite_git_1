@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 16 Feb 2022 15:06:42 -0000
-Message-Id: <164502400236.24727.143566297324556388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/nfs-utils
+Date: Wed, 16 Feb 2022 15:07:27 -0000
+Message-Id: <164502404715.25031.5306262700291299581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/rw/nfs-utils
+user: rw
 changes:
-  - ref: refs/heads/linkage/alias-rework
-    old: 38d8f969f67015ed2f32ff5d8556485bba810a51
-    new: 27275ab37156c65c2f305722b9134330fc8eae14
+  - ref: refs/heads/rw/reexport_wip
+    old: b65380c9f2ac04ce1836dfc2c0dae1da307b560d
+    new: 026bd23b7d026f2fffa5f9968b854ce9f6b6ad8f
     log: |
-         112236158e19fdb01ca30b847969af4a9429f42c arm64: clean up symbol aliasing
-         a0e1068a167adc9baf39bd7c8c85437be4c0d39c x86: clean up symbol aliasing
-         27275ab37156c65c2f305722b9134330fc8eae14 linkage: remove SYM_FUNC_{START,END}_ALIAS()
+         026bd23b7d026f2fffa5f9968b854ce9f6b6ad8f Instead of passing reexport strategy to mountd, make it a exportfs option
          
