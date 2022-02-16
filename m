@@ -1,79 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============8996102374427143794=="
+Content-Type: multipart/mixed; boundary="===============2804074057826611605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 16 Feb 2022 15:00:41 -0000
-Message-Id: <164502364138.21110.14017913780296262337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 16 Feb 2022 15:02:20 -0000
+Message-Id: <164502374077.21721.15315423279497981020@gitolite.kernel.org>
 
---===============8996102374427143794==
+--===============2804074057826611605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 0ef7c79e43d05936b83f0e6d8e33cc7cfaebaf18
-    new: 9cf4dd922ddb012b6e572c19ae0cbefbee252648
-    log: revlist-0ef7c79e43d0-9cf4dd922ddb.txt
+  - ref: refs/heads/main
+    old: 167044af388771909b0f5848ffb6c83890e89600
+    new: ea0de861374b06f97620eb508d442161b56cfa62
+    log: revlist-167044af3887-ea0de861374b.txt
 
---===============8996102374427143794==
+--===============2804074057826611605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ef7c79e43d0-9cf4dd922ddb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f65cb99aa5b4453c6bfa69d0f2bf829079e1c538 tools: Fix use-after-free for realloc(..., 0)
-28c24ded649cf068ca518f2a3d78f5e7e06d41d8 perf/x86/intel/pt: Add a capability and config bit for event tracing
-161a9a33702a2e65a4118dacb449505ac8ce3122 perf/x86/intel/pt: Add a capability and config bit for disabling TNTs
-988f4f5adc1f267942d3cfc221cc1c03b5e8b5fa linkage: add SYM_FUNC_ALIAS{,_LOCAL,_WEAK}()
-519a759e7667e0bc4e2fbf24f8a0555cf218ecd7 arm64: clean up symbol aliasing
-7591f04a86453600a0e084da1e0e6820c1113b88 x86: clean up symbol aliasing
-f3a79c186756c4e04f895c9c6370f2460f598cd2 linkage: remove SYM_FUNC_{START,END}_ALIAS()
-93941b342605330dc1a56fdefdc8787aa30baa93 tools: update x86 string routines
-1087ad4e3f88c474b8134a482720782922bf3fdf sched: replace cpumask_weight with cpumask_empty where appropriate
-0fb3978b0aac3a5c08637aed03cc2d65f793508f sched/numa: Fix NUMA topology for systems with CPU-less nodes
-5c7b1aaf139dab5072311853bacc40fc3457d1f9 sched/numa: Avoid migrating task to CPU-less node
-e6df4ead85d9da1b07dd40bd4c6d2182f3e210c4 psi: fix possible trigger missing in the window
-9d42ea0d6984044a82258f41d8407ee442687f30 pci: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-7b45b51e778021cd7817b8f0d743a2c73205c011 workqueue: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-c8fb9f22ae22dbe06a43b77717299e1c3e632d5c net: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-04d4e665a60902cf36e7ad39af1179cb5df542ad sched/isolation: Use single feature type while referring to housekeeping cpumask
-6367b600e31c6b211eadee7bf7f4ed8c755e9176 sched/isolation: Consolidate check for housekeeping minimum service
-0cd3e59de1f53978873669c7c8225ec13e88c3ae sched/isolation: Consolidate error handling
-65e53f869e9f92a23593c66214b88e54fb190a13 sched/isolation: Fix housekeeping_mask memory leak
-ed3b362d54f0038cafc985248350d301af7af686 sched/isolation: Split housekeeping cpumask per isolation features
-fb7275acd6fb988313dddd8d3d19efa70d9015ad locking/lockdep: Iterate lock_classes directly when reading lockdep files
-fe65deb56e552a8c9bf7f27860dbdeac12a36116 jump_label: Avoid unneeded casts in STATIC_KEY_INIT_{TRUE,FALSE}
-cd27ccfc727e99352321c0c75012ab9c5a90321e jump_label: Refactor #ifdef of struct static_key
-92662c85aee692551b4078ae9f9ca1efa003bd6f Merge branch 'perf/core'
-1cbca0535f2484ec1363eb529c45331361dcf96e perf/core: Add perf_clear_branch_entry_bitfields() helper
-b044d17d6d2144f98c1f069b83ae235281f0a425 x86/cpufeatures: Add AMD Fam19h Branch Sampling feature
-f7f99de39ce54300484ee8e7e6a1a55b8e5b8a68 perf/x86/amd: Add AMD Fam19h Branch Sampling support
-1677db9baedc3441f68d2e68ca6f0d98e8646e84 perf/x86/amd: Add branch-brs helper event for Fam19h BRS
-2f6c645244021b3f6986ceb2cfd6471e3f6bbf92 perf/x86/amd: Enable branch sampling priv level filtering
-1f3456b0caea7c638e7038a73f067db69eb644aa perf/x86/amd: Add AMD branch sampling period adjustment
-00b031a310da607f1e95c22d9e4031db219ff844 perf/x86/amd: Make Zen3 branch sampling opt-in
-e46389f9a1231ca151118fa561d30a021cd0c6fb ACPI: Add perf low power callback
-6c771da0387f0b411021cc0cd9db69869607a1a1 perf/x86/amd: Add idle hooks for branch sampling
-9c7765115e2864354aafa391c5e86fa967b27dc6 mm: Update ptep_get_lockless()'s comment
-f2e1542517c6c5bf1455615ec13726627485af90 x86/mm/pae: Make pmd_t similar to pte_t
-c99bf5458765421170b09788f8cdb1602cc74df9 sh/mm: Make pmd_t similar to pte_t
-c38aad5800f76437f35cafba46694974008828f6 mm: Fix pmd_read_atomic()
-e0d80995d70820ba4b6c8b3fbfa5ecad36fd35f0 mm: Rename pmd_read_atomic()
-2f1f5bb378339385ee088aab6f914dbd43043419 mm/gup: Fix the lockless PMD access
-7659c299d9a03c480d253ce29044c6ebb68d291f x86/mm/pae: Don't (ab)use atomic64
-ea926763f7027478d87c17a05e195d7c9718b78b x86/mm/pae: Use WRITE_ONCE()
-3905af5b31cbc854d84fae7195c4381612d474fa x86/mm/pae: Be consistent with pXXp_get_and_clear()
-f0fbeb601ea6522d0bd4f91d5e34dbe06ae05f44 Merge branch 'objtool/urgent'
-16c15ccbb7c32cd6e0d6062af8d1af333acafffb Merge branch 'core/core'
-2b157fe23c5c73375d0b74ba517b38c387f56a25 Merge branch 'sched/core'
-7bae60113aebfb6c8da10c82281e77ba61b6ceac Merge branch 'locking/core'
-d74dbf7677195d2646f622037b2ce0d760e74e8e Merge branch 'perf/core'
-cd5aa9d20feb280da26c14a79248eb3fa329d238 Merge branch 'perf/amd'
-9cf4dd922ddb012b6e572c19ae0cbefbee252648 Merge branch 'x86/mm'
+certificate version 0.1
+pusher 7BF9099A 1645023718 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1645023717-968c194ea1948e4218f6750163d972fe5dd566b7
 
---===============8996102374427143794==--
+167044af388771909b0f5848ffb6c83890e89600 ea0de861374b06f97620eb508d442161b56cfa62 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmINEeYACgkQB8qZga/f
+l8T4YQ/9HK3u1eu87510XpRCywx3P/qcsXNKR6skoUVINCHPZGp3zH6hkErqE02J
+qVmnfrMwdYUhbMHcIBoDlBEUWhzpc73MszHhzz01ksQOSouKx1KnclDORXa5vy38
+ZnR6vj8/sS+5YTB1nZ7/SxcE7sFD7jVFV4NSFN7RaN5IJzNYN8A9sQ6pD4BDAJAv
+MEsR1g+ELIv3fV7RTMAvh3IEyvVnPENuPvKqpDkbK+qO2BYmS0/le4ukpGZ6ACCS
+nympxwklh+kiVvD1lnFXzcfijWNvdCbA0l1wTt3DcuiMCIuvkxDPXVI5pfVUAL0W
+eYp3raAtFl/dwSoxj8Go3fYVEZj+/5OPRZ4dlNQC4vSwdiyJkezAzrj4vwxaDJEZ
+MT2VUgGRwp+L/lI88pzjqKhNNTgJQPr+2RIAR2uhK8H3qBpo0XkwcYvhSfai4G5e
+Yu/1ruFOmJ9kqcdN8vbWYcEUX19oJSbfpvWszGaxIqXMSBhWNzcuygT16RCv0fGf
+Z/pXTTK4sOkCSPbv+aaF5eg5OoUanm64o9V3iB1j/+9/QV70Zv5J8ZjirVxhJyGH
+daoFo1TSGiO37hYX8Q13ZCKStM0LcBh/F9ygEMsDIGompmAaVNWU2bJULYkh483O
+CtzZhCekREmiXb7ttx43I0iWeZmYTTioHvcgnN3TXK0JqrzTBbU=
+=Vm01
+-----END PGP SIGNATURE-----
+
+--===============2804074057826611605==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-167044af3887-ea0de861374b.txt
+
+08bc13d8efe30258850ecdc5d4f38c0bc07689c0 ieee80211: use tab to indent struct ieee80211_neighbor_ap_info
+b59fb5461166680c5e4e9df06b29debca33ee941 mac80211_hwsim: Add debugfs to control rx status RSSI
+024fcf5efda73d95394ec7448bc9751e265fb18f nl80211: use RCU to read regdom in reg get/dump
+d61f4274daa41565b5f9ce589b4ba1239781c139 ieee80211: add helper to check HE capability element size
+bd4e4d62d97c0fc150405ae2f700af51ab586e5b mac80211: parse only HE capability elements with valid size
+a3a20feb32a1c281ccac80dcf615480d3a79a6bf nl80211: accept only HE capability elements with valid size
+585625c955b1dcdda55036bee6fbda5bc5d97bd2 mac80211_hwsim: check TX and STA bandwidth
+f68420e485706c0827cd16590e20841207f3fde2 mac80211_hwsim: don't shadow a global variable
+64e594291062614305d1998286085285fcf52ce5 mac80211_hwsim: Add custom regulatory for 6GHz
+cbc1ca0a9d0a54cb8aa7c54c16e71599551e3f74 ieee80211: Add EHT (802.11be) definitions
+2a2c86f15e17c5013b9897b67d895e64a25ae3cb ieee80211: add EHT 1K aggregation definitions
+5cd5a8a3e2fb11b1c8a09f062c44c1e228ef987a cfg80211: Add data structures to capture EHT capabilities
+3743bec6120ae0748cb3fda6ff80a690117ef1f3 cfg80211: Add support for EHT 320 MHz channel width
+cfb14110acf87b4db62e07ba08a80429f1749f40 nl80211: add EHT MCS support
+c2b3d7699fb0ce66538b829af43970acc2f89060 nl80211: add support for 320MHz channel limitation
+31846b657857e6a73d982604f36a34710d98902c cfg80211: add NO-EHT flag to regulatory
+ea05fd3581d32a0f1098657005c7a9b763798fe8 cfg80211: Support configuration of station EHT capabilities
+f0e6bea8bd9b98616aefbd27cf6bb379529ecbd0 mac80211: Support parsing EHT elements
+5dca295dd76756c7918ad7113fc4a3cf8262ed43 mac80211: Add initial support for EHT and 320 MHz channels
+820acc810fb6ec43459ed313a361cf3a9e26cc44 mac80211: Add EHT capabilities to association/probe request
+a1de64078bf7a3fed856fef5334132ba1963b683 mac80211: Handle station association response with EHT
+90603d29f10b8520d2aa546b65f12c12257b9841 mac80211: Add support for storing station EHT capabilities
+443df9a776062e5957d3c8ab5ac7dd2822c1ac7b mac80211: calculate max RX NSS for EHT mode
+c1c5c8a21ce6b1c7f41b22618931b1e298833006 mac80211: parse AddBA request with extended AddBA element
+ea0de861374b06f97620eb508d442161b56cfa62 mac80211_hwsim: Advertise support for EHT capabilities
+
+--===============2804074057826611605==--
