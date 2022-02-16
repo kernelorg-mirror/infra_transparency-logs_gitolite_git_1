@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Wed, 16 Feb 2022 09:11:57 -0000
-Message-Id: <164500271784.2840.5696578365879232869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 16 Feb 2022 09:42:15 -0000
+Message-Id: <164500453564.3872.16857277985996650306@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/for-next
-    old: d71c02b0caeff2f7702ecca02854d3011dc29135
-    new: 7bd202b0f3ad527751f5eb0ee28f383d6a790156
+  - ref: refs/heads/for-usb-next
+    old: 954ee2dad53bd406405ec172c5618c869f61517b
+    new: e2c8957a5632baa77b37a2f73e76201c78f129b6
     log: |
-         e1dd33b2503bff6b75bc655fb576b0396d204b06 ata: pata_hpt366: disable fast interrupts in prereset() method
-         e0afcf140e6e2ea895a3c83565b0c085f9b80f59 ata: pata_hpt37x: disable fast interrupts in prereset() method
-         e3a607e1b35297781d5a1cd49cea67f9ff87ccae ata: pata_hpt3x2n: disable fast interrupts in prereset() method
-         d589f77896809387be4ee61332921c33d3bdae3a ata: libata-sff: make ata_resources_present() return 'bool'
-         93fd9ffb29cfb38ca1d2755a0c73d27cef24d6e2 ata: libata-sff: refactor ata_sff_set_devctl()
-         2c75a451ecb0b3242d1f0c38fdaa4fd43bc89f53 ata: libata-sff: refactor ata_sff_altstatus()
-         5c509618315f975ffa6133a53b197dcb1a46a50b ata: libata-scsi: use *switch* statements to check SCSI command codes
-         7bd202b0f3ad527751f5eb0ee28f383d6a790156 ata: Kconfig: fix sata gemini compile test condition
+         f39da4ef6566520baa712112cc7231040cf1459f xhci: dbc: refactor xhci_dbc_init()
+         d9c2d6d90975ca56ab6752191859e95b4248e47e xhci: dbc: create and remove dbc structure in dbgtty driver.
+         5ea093530f710d202691539db35e4fe2e9f16d34 xhci: dbc: Rename xhci_dbc_init and xhci_dbc_exit
+         fdf469e33a75400e04f48b841bedfe980ecd4c64 xhci: dbc: Don't call dbc_tty_init() on every dbc tty probe
+         2de0d61ae796e2fcdfdc268759c37f26ae1e4cc0 xhci: dbgtty: use IDR to support several dbc instances.
+         a0862f7e962872572d3003ee9328ccc5ecc173b8 xhci: Allocate separate command structures for each LPM command
+         55c100aae3b65ea3b17075c97785cb4122d0e683 usb: remove Link Powermanagement (LPM) disable before port reset.
+         19172b11f84f52e39b5d624a52d35c570d859ba5 usb: host: xhci: drop redundant checks
+         e2c8957a5632baa77b37a2f73e76201c78f129b6 usb: xhci: fix minmax.cocci warnings
          
