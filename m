@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/nfs-utils
-Date: Wed, 16 Feb 2022 15:07:27 -0000
-Message-Id: <164502404715.25031.5306262700291299581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 16 Feb 2022 15:26:42 -0000
+Message-Id: <164502520296.5724.1781848830405572924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/nfs-utils
-user: rw
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/rw/reexport_wip
-    old: b65380c9f2ac04ce1836dfc2c0dae1da307b560d
-    new: 026bd23b7d026f2fffa5f9968b854ce9f6b6ad8f
+  - ref: refs/heads/for-5.17/upstream-fixes
+    old: 7f016b35ca7623c71b31facdde080e8ce171a697
+    new: 25666e8ccd952627899b09b68f7c9b68cfeaf028
     log: |
-         026bd23b7d026f2fffa5f9968b854ce9f6b6ad8f Instead of passing reexport strategy to mountd, make it a exportfs option
+         25666e8ccd952627899b09b68f7c9b68cfeaf028 HID: logitech-dj: add new lightspeed receiver id
+         
+  - ref: refs/heads/for-next
+    old: cc64431a9607caf7fa9b62c65809a2252e9efead
+    new: 27c6565ac313b82e3ef12ad928604ba81fe07bab
+    log: |
+         25666e8ccd952627899b09b68f7c9b68cfeaf028 HID: logitech-dj: add new lightspeed receiver id
+         27c6565ac313b82e3ef12ad928604ba81fe07bab Merge branch 'for-5.17/upstream-fixes' into for-next
          
