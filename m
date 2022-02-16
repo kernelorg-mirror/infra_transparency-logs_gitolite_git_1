@@ -1,56 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============5123173593592595675=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 16 Feb 2022 11:46:06 -0000
-Message-Id: <164501196665.9030.1729194798127742973@gitolite.kernel.org>
-
---===============5123173593592595675==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 16 Feb 2022 11:48:38 -0000
+Message-Id: <164501211875.10243.16435856490906014910@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 03cd8a1b7ac265fd58cb58c3b98614c7a18d06cc
-    new: b02fe8219c8862fdba566036fb613de6b7620b62
+  - ref: refs/heads/marvell/mvpp2-affinity
+    old: 5797728aa5462d2aa6a9307c4fb8e7c8d47a6851
+    new: 3f8a5a7e1998699c3c6fe442a5d2d2ba92990887
     log: |
-         b02fe8219c8862fdba566036fb613de6b7620b62 Notes added by 'git notes add'
+         6a143f055e15ce0906921bb0b913553b7d0f1144 genirq: Extract irq_set_affinity_masks() from devm_platform_get_irqs_affinity()
+         3f8a5a7e1998699c3c6fe442a5d2d2ba92990887 net: mvpp2: Convert to managed interrupts to fix CPU HP issues
          
-
---===============5123173593592595675==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645011965 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1645011963-3e0387ee030011ba242d169daa76f3a206b72b56
-
-03cd8a1b7ac265fd58cb58c3b98614c7a18d06cc b02fe8219c8862fdba566036fb613de6b7620b62 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIM4/0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DQwP/2a7k7Cm/EZKPowanxnZ
-LLkV3ENCxJ+WSbecvmIaXxXN8IF4+LcpMitoRzQitpCW5wPcqWnjBHZ085hwYhtL
-mUKYiDQXQMtOOSPGHFaqPzg/5YxHq69wrOYQmUrnyQiP5tckOrvKgEe26wcurvqR
-d1hhzNyKcOM087SaejlKjCt2l9K3RZP1yyYaf/wXgnzus66MF5j4VqLytiQDRzMQ
-TDCLpabUmXL1gpUpbAcGg7HQrOS5aRXW0OU+C7FgmLlMWs/owylb6nAVIUQJrcyC
-tCghOE9OeLkZaPJkkEFo+HBIHDOYyHDNO9QxAyU5kr8i55fpavNIxevDivW7/1XP
-Gb922M3WiZ7L5lEpBBsq4lZf2jQw5Diud5BvlEn/V0t8c2HdquHicScSE0vn1i9c
-7GtBERTTnMEta89wwUUbNZWqR4xDOjJeiEQnS8nPBgeXI6GTjBTx5qkBur1H32pP
-rNJ+2SB+8UJY5Ikk61uayXjH4Y8W2llDEVjbCv2yAIdzliFKFqEkAzVzYYB/c9Br
-ocsesvdi86Hny92OliA5voH3DLfKRhj64mQBrF9UaTbjKr7z/e3gGZMaldxpOpRg
-ayWmiQsapT6K5jbv5qfi9WzRyxtaSdkxylgLhC2x5Ui6kG4c9NGGHNRhnkYxzEMq
-xhQ0hOBZ0ikHYO1isblImA/j
-=KLPS
------END PGP SIGNATURE-----
-
---===============5123173593592595675==--
