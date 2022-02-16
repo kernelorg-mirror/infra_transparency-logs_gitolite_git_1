@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2892103206141996730=="
+Content-Type: multipart/mixed; boundary="===============6529347782365543783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 16 Feb 2022 23:09:48 -0000
-Message-Id: <164505298834.13624.8439673065409149407@gitolite.kernel.org>
+Date: Wed, 16 Feb 2022 23:11:03 -0000
+Message-Id: <164505306364.15468.12138284752235652728@gitolite.kernel.org>
 
---===============2892103206141996730==
+--===============6529347782365543783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/jd/cpuhp
-    old: 9d4fa0d0e85b0834074b81a85dff6243492c8b3d
-    new: 651b4b7180aaa73671e9ddb6a8b0fec14d17ce75
-    log: revlist-9d4fa0d0e85b-651b4b7180aa.txt
+  - ref: refs/heads/jd/fast-mix
+    old: f467843a75ec25fb381c40e382368cb9271b9a9c
+    new: a391742645cf5c1d1b12e58fc807daae4ac7c4e9
+    log: revlist-f467843a75ec-a391742645cf.txt
 
---===============2892103206141996730==
+--===============6529347782365543783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d4fa0d0e85b-651b4b7180aa.txt
+Content-Disposition: attachment; filename=revlist-f467843a75ec-a391742645cf.txt
 
 f73c522c4c2094d1c434083ae362bbd4a2ed7348 random: use simpler fast key erasure flow on per-cpu keys
 fd438287358273f31c1f1827a099ae4ddcb9e179 random: use hash function for crng_slow_load()
@@ -54,5 +54,6 @@ a0c135b9c1387198792bb098ceed271e26170677 random: check for crng_init == 0 in add
 6b696fb453452970ef2c07423aff6a205dfa5b05 random: pull add_hwgenerator_randomness() declaration into random.h
 fbf81246f69700596676f38a4c183802e95a579c random: set fast pool count to zero in cpuhp prepare
 651b4b7180aaa73671e9ddb6a8b0fec14d17ce75 random: invalidate crngs and batches in cpuhp prepare
+a391742645cf5c1d1b12e58fc807daae4ac7c4e9 random: use max-period linear interrupt extractor
 
---===============2892103206141996730==--
+--===============6529347782365543783==--
