@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 17 Feb 2022 17:12:49 -0000
-Message-Id: <164511796986.14872.10549113635588469213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Feb 2022 17:12:53 -0000
+Message-Id: <164511797319.14936.10880636678568985148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/testme
-    old: 8795359e35bc33bf86b6d0765aa7f37431db3b9c
-    new: f4b2a4606a14ab0b697a4e21754c9ad19d39f8ca
+  - ref: refs/heads/master
+    old: 6aba04ee3263669b335458c4cf4c7d97d6940229
+    new: b9208492fcaecff8f43915529ae34b3bcb03877c
     log: |
-         f4b2a4606a14ab0b697a4e21754c9ad19d39f8ca x86/sgx: Add poison handling to reclaimer
+         b9208492fcaecff8f43915529ae34b3bcb03877c vsock: remove vsock from connected table when connect is interrupted by a signal
          
