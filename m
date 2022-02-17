@@ -1,81 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============4226732971083788536=="
+Content-Type: multipart/mixed; boundary="===============6696521051342225076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 17 Feb 2022 09:11:46 -0000
-Message-Id: <164508910685.17632.4152088093597819137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 17 Feb 2022 09:11:54 -0000
+Message-Id: <164508911450.17736.3618270929105538353@gitolite.kernel.org>
 
---===============4226732971083788536==
+--===============6696521051342225076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/rdma-next
-    old: 029039e98a3e55b96c5ece480d91d089df2821a0
-    new: 3bde901f54e8ff64725ceaba77fbd59327700993
-    log: revlist-029039e98a3e-3bde901f54e8.txt
-  - ref: refs/heads/testing/rdma-next
-    old: 55ed72dca9ab13b878002c09ea156ee0dcbeb042
-    new: e82d53e54fa36aa3e9cf9c579d3103e8b1d39d51
-    log: revlist-55ed72dca9ab-e82d53e54fa3.txt
-  - ref: refs/heads/testing/rdma-rc
-    old: dec816dab1ae350c18c615c7d943fee72b91af8c
-    new: 725fd1948d215d772a19af944aa950a142d8692b
+  - ref: refs/heads/queue-next
+    old: 4c44b21685a00a39902db6b2cb66ed4ab57c48ce
+    new: 6ab05ebfc603f28e3b58bc87eba8fad2c9dc00c7
+    log: revlist-4c44b21685a0-6ab05ebfc603.txt
+  - ref: refs/heads/queue-rc
+    old: 93bf132956ec9d72376b8b3ed3d9473d2d3955e7
+    new: 319e385c89d02219db9da0afcf4cd5f8606e0ce2
     log: |
          725fd1948d215d772a19af944aa950a142d8692b Merge branch 'master' into testing/rdma-rc
+         319e385c89d02219db9da0afcf4cd5f8606e0ce2 Merge branch 'testing/rdma-rc' into queue-rc
          
 
---===============4226732971083788536==
+--===============6696521051342225076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-029039e98a3e-3bde901f54e8.txt
-
-a099b08599e6ae6b8e9faccee83760dab622c11e RDMA/rxe: Revert changes from irqsave to bh locks
-9fd0eb7c3c73c80a7bbe28dc71ae8ec5698a7e84 RDMA/rxe: Move mcg_lock to rxe
-d572405518ffd7c21882c1f2e9a568f2e8548d0b RDMA/rxe: Use kzmalloc/kfree for mca
-5bc15d1f7e3c9b84b40e020983e2cee19a546e72 RDMA/rxe: Replace grp by mcg, mce by mca
-8a99c81f1231786c364963a9f335eab2cca816a4 RDMA/rxe: Replace int num_qp by atomic_t qp_num
-8a0a5fe0c462438a8c423ebaa0fbb7af5055a155 RDMA/rxe: Replace pool key by rxe->mcg_tree
-d2ccf0411d253433409278cd517a091a5b7b613e RDMA/rxe: Remove key'ed object support
-3810c1a1cbe8f3157f644b4e42f6c0157dfd22cb RDMA/rxe: Remove mcg from rxe pools
-a3fea7648298f42e0ced32093597f27e124e9974 net/sched: Don't print dump stack in event of transmission timeout
-f2ad9456c0ebe510b3ee882546aedcc01f82a1fd RDMA/mlx5: Remove redundant work in struct mlx5_cache_ent
-196f7e2dff255e5bd453be234e73326be1ad4917 RDMA/mlx5: Fix the flow of a miss in the allocation of a cache ODP MR
-18a2b7221dfd265f2316f8e4b2fdfbd5029972b0 RDMA/mlx5: Merge similar flows of allocating MR from the cache
-b421db5f06f47322f6b74e3f43baa6096997ea64 RDMA/mlx5: Store ndescs instead of the translation table size
-75f03a0131650af95564d30c9380059a736e1fb1 RDMA/mlx5: Reorder calls to pcie_relaxed_ordering_enabled()
-7dc780e756ba7f6c99318e37d216249b1dc4e43f RDMA/mlx5: Replace ent->lock with xa_lock
-c4f3a17c3fc4035a00407eab230fb90007e4a334 RDMA/mlx5: Replace cache list with Xarray
-7bdbcc86085b0a4f307f2d0550377d2fb851d438 RDMA/mlx5: Store the number of in_use cache mkeys instead of total_mrs
-c2aea591ed99c65f3553fc8bfbe51b5d7f43f06c RDMA/mlx5: Store in the cache mkeys instead of mrs
-eab8b9da36a2238e21667c31bf764d7140e93d98 RDMA/mlx5: Don't create mkeys larger then needed
-607cee780f33f10eb331a3fa2fd1933dafbf0d12 RDMA/mlx5: Remove ODP entries from the cache
-148cb916db6fd6e8d063422da677420e4c4e1f86 RDMA/mlx5: Don't use reg_create() to create a cacheable mkey
-579caa28ea4421feeb1346e2c133ef279d62cb5d RDMA/mlx5: Allow rereg all the mkeys that can load pas with UMR
-805161a5c2b7af7c6ffa6e0d37f935bc99c2fbe3 RDMA/mlx5: Change the cache structure to an RB-tree
-561b7307850bb0e7aaebc1aacabe185db013754b RDMA/mlx5: Delay the deregistration of a non-cache mkey
-97d49caf3d48ca34d74cf6c22f8fc49c9a15b827 RDMA/mlx5: Add work to remove temporary entries from the cache
-a861d3671d81ac82e4110a1878010ea0c6f8cb3a RDMA/mlx5: Rename the mkey cache variables and functions
-544e348e663fe3d9620e7d6be3f3b44628696632 RDMA/core: Introduce peer memory interface
-f7930bcef0e9008d5c449fa90b3e1d774acb3883 RDMA/mlx5: Release transport domain if loopback enable failed
-452d2f912e9e934309dc7da09484e745059f9d00 Revert "RDMA/mlx5: Release transport domain if loopback enable failed"
-46286daacc7f7502d9d299d50758029908af465b RDMA/mlx5: Don't remove cache MRs when a delay is needed
-e1fceab31b90e75dccb2402d8b7c36e0c4a91f45 RDMA/mlx5: Add a missing update of cache->last_add
-55e03687f89380278daac7c766ea133f7ed0b6e0 RDMA/cma: Clear all multicast request fields
-f8461e3cb5806c6ee0187e4e08bbcf63eedc5e7e tools/testing/scatterlist: Add missing defines
-3bde901f54e8ff64725ceaba77fbd59327700993 RDMA/mlx4: Don't continue event handler after memory allocation failure
-
---===============4226732971083788536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55ed72dca9ab-e82d53e54fa3.txt
+Content-Disposition: attachment; filename=revlist-4c44b21685a0-6ab05ebfc603.txt
 
 d0b78ab1ca357628ffb92cf8a0af00b4ffdc4e3b net: dsa: mv88e6xxx: Fix validation of built-in PHYs on 6095/6097
 9536923d3f353873e54d96769fbd2e7f867a73e1 net/mlx5e: Remove unused tstamp SQ field
@@ -208,5 +164,6 @@ f8461e3cb5806c6ee0187e4e08bbcf63eedc5e7e tools/testing/scatterlist: Add missing 
 725fd1948d215d772a19af944aa950a142d8692b Merge branch 'master' into testing/rdma-rc
 34e9ca01c0e71530282b41914986dc158c3c3cc9 Merge remote-tracking branch 'mlxsw/combined_queue' into testing/rdma-next
 e82d53e54fa36aa3e9cf9c579d3103e8b1d39d51 Merge branch 'rdma-next' into testing/rdma-next
+6ab05ebfc603f28e3b58bc87eba8fad2c9dc00c7 Merge branch 'testing/rdma-next' into queue-next
 
---===============4226732971083788536==--
+--===============6696521051342225076==--
