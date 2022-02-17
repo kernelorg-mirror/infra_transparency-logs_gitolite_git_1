@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 17 Feb 2022 13:22:26 -0000
-Message-Id: <164510414605.24664.6839251696585975373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 17 Feb 2022 13:27:07 -0000
+Message-Id: <164510442704.27647.394506399285914349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 40282358ae3057505becfafb17bb98b9593d83ea
-    new: 8b943e92aede6e73a867c326c00dbf9b4c9a321a
+  - ref: refs/heads/damon/next
+    old: 68c59fb8c27eb67034fd2d600363a8c9127d7d40
+    new: 777d549453de97999911a5a2a44d914e09e07bea
     log: |
-         ac89895213d8950dba6ab342863a0959f73142a7 HID: elo: Revert USB reference counting
-         8b943e92aede6e73a867c326c00dbf9b4c9a321a Merge branch 'for-5.17/upstream-fixes' into for-next
+         d6be70987adfdbaa32c3ad2e54d9f10b78516cf4 for_damon_hack/cv/sysfs: Update
+         777d549453de97999911a5a2a44d914e09e07bea mm/damon/sysfs: Fix a typo
          
