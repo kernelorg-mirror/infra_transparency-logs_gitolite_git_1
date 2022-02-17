@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Feb 2022 17:12:53 -0000
-Message-Id: <164511797319.14936.10880636678568985148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Thu, 17 Feb 2022 17:19:19 -0000
+Message-Id: <164511835978.18437.8852814070376494432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 6aba04ee3263669b335458c4cf4c7d97d6940229
-    new: b9208492fcaecff8f43915529ae34b3bcb03877c
+    old: 6a16e9e9531a5f746c4e2fe43873de1db434b4fc
+    new: a0639afe121870a2a9b69cadc07619ba82959e3e
     log: |
-         b9208492fcaecff8f43915529ae34b3bcb03877c vsock: remove vsock from connected table when connect is interrupted by a signal
+         55845033e922fed762d4725a768c0b24488deca7 t/io_uring: allow non-power-of-2 queue depths
+         a0639afe121870a2a9b69cadc07619ba82959e3e t/io_uring: align buffers correctly on non-4k page sizes
          
