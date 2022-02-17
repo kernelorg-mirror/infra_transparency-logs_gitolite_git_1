@@ -1,51 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4121131828780122449=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 17 Feb 2022 15:07:00 -0000
-Message-Id: <164511042078.28538.17702312893248299974@gitolite.kernel.org>
-
---===============4121131828780122449==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 17 Feb 2022 15:08:13 -0000
+Message-Id: <164511049321.29020.5876978572835115231@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 3261654a0b0da98d47ca048e5e7453c094a73447
-    new: 988896bb61827345c6d074dd5f2af1b7b008193f
+  - ref: refs/heads/perf/urgent
+    old: 629f520b265f3e62eb7d71cadec44c6842cf2ada
+    new: 31ded1535e3182778a1d0e5c32711f55da3bc512
     log: |
-         ad856280ddea3401e1f5060ef20e6de9f6122c76 x86/kvm/fpu: Limit guest user_xfeatures to supported bits of XCR0
-         988896bb61827345c6d074dd5f2af1b7b008193f x86/kvm/fpu: Remove kvm_vcpu_arch.guest_supported_xcr0
+         de9f498d2b381de1abf654ca3459c4f01227b5cd perf trace: Avoid early exit due SIGCHLD from non-workload processes
+         714b8b7131f9287b1ff6c0528accd5df585b30d3 tools headers UAPI: Sync linux/perf_event.h with the kernel sources
+         096972f5588dbac741f7f0cc057c84d895d4d80f libperf: Fix 32-bit build for tests uint64_t printf
+         0b31ea6613ad1e6b9b84d877c1be18e39934e90a perf cs-etm: No-op refactor of synth opt usage
+         9de0736973dd7f0f710d0f5e0a3dfd9fa9ffeb3f perf cs-etm: Fix corrupt inject files when only last branch option is enabled
+         30d1c4d947983f3cfbff9cbb7a4d69b05b699678 libperf: Fix perf_cpu_map__for_each_cpu macro
+         52a9dab6d892763b2a8334a568bd4e2c1a6fde66 libsubcmd: Fix use-after-free for realloc(..., 0)
+         047e6032c4f054372311eb20c759cfe0b3ca7ffe perf test: Fix arm64 perf_event_attr tests wrt --call-graph initialization
+         31ded1535e3182778a1d0e5c32711f55da3bc512 perf bpf: Defer freeing string after possible strlen() on it
          
-
---===============4121131828780122449==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1645110419 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1645110418-90d3ce4364e065e6528da64012a714acedfb6c23
-
-3261654a0b0da98d47ca048e5e7453c094a73447 988896bb61827345c6d074dd5f2af1b7b008193f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmIOZJMUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroMG6Qf/S542v8aKgT8sJkjl0GsHSIW4YVia
-ucvHbBxomf29twbVTOH/jnpE49liqzzWnrPTCzPk8mKmQ1FR1jQyLSG3nDnGRqQQ
-Z2m745J0MSlc49+6uLFgadIZ2Z1hGs4LZ9j3RfvCsXSVvrNoX0hHJyqFV+qyT7aH
-JAYb3nINrsoKU3Jqz/J6Cz05+FtcdP3qjiFv5DpvRNn9nG8wTIAcdO4tr+qewMpo
-O3io4GXk/OvX5SllbWBSVc5p2HnkSE5Gl+LkS5vEDYC0oH8i+aYh1RKfmlipSLnC
-seLLUpDjAkVxdDUwWfB/pnGhrN1cpnIZntv6hNrZ+cG2VypFGJlsuGv92w==
-=QY/H
------END PGP SIGNATURE-----
-
---===============4121131828780122449==--
