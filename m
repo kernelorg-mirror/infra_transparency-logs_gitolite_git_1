@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6259879257706703230=="
+Content-Type: multipart/mixed; boundary="===============8978636031151169138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 17 Feb 2022 18:31:15 -0000
-Message-Id: <164512267582.3347.780436930466343357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 17 Feb 2022 18:31:21 -0000
+Message-Id: <164512268194.3455.10971317030069632651@gitolite.kernel.org>
 
---===============6259879257706703230==
+--===============8978636031151169138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 54d0fd06e2bd52d3b17648de787157a7c0625adb
     new: 8b861b82502117e68fdf1e25173bad534a131fa8
     log: revlist-54d0fd06e2bd-8b861b825021.txt
 
---===============6259879257706703230==
+--===============8978636031151169138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645122674 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1645122673-49b672bb6be0178d00013c69fa513b2af3afbbfb
+pusher C3F436CA30F5D8EB 1645122680 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645122679-bb7a9b19099a2659c0b9df7b95388433bbcd2063
 
-54d0fd06e2bd52d3b17648de787157a7c0625adb 8b861b82502117e68fdf1e25173bad534a131fa8 refs/heads/for-5.18
+54d0fd06e2bd52d3b17648de787157a7c0625adb 8b861b82502117e68fdf1e25173bad534a131fa8 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIOlHIACgkQJNaLcl1U
-h9CHmAf9GGgWmJKzHOoNw0VrU3STMWwazeexAIUCFI4zoIW+wJ2syfKU3ZPrtoaj
-XE14oB/QyUEB88DjPQp/aae88RLG5cy9oL/wD5j0r/aam3qB9jLX5l1pvp/3lW+X
-siJozqFhznObc3H0v1BQlaoXXGw+UmWTV54Ua7Jg1TymhpzBjn9Q6BA/cvzBlPTN
-/cFX91XINBOCzws1AnBqSvmLNZSFTvwPDqQxnHM1I1wO9cV09RKngau3MNXiGlpt
-1uEsMYqqKPFJqrCe6E5FbWREOPnuxqKB3SAF33FHYV6AKjrEVjTPX7E58T1bsf4x
-kIPRAGxeM5NiwfZ/0ckCdgQKCt1uTQ==
-=QQF0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIOlHgACgkQJNaLcl1U
+h9Brtgf6Aiqsh/exgnm+HQnIs0G8eZ6/3T6YRzHB9U95EcXtowyMm/b7jfQ1zlPZ
+i4M1rs6d//UsBxhgj6LTwL0a0O2tMSQoudgrYrYX/4P09YnurFoSzAMwxIJfZQNv
+VP60Da7AN1wpRqKIUYlIrKZKs5wjbuwDNFf9Cg1OMQasamCNJvzcTgVBXWff9dIt
+wf1el0EB5aTP24uuOfa7E4Sc6eK1DufF3R6PlniPkCwB/8Qa+iGxU4KXsKRzFsK3
+6MD9WFZ134KS3+u2Xe0remfTzA38+AaBSd6vtRtVVQSgOwoIIy229QVkdR/sDrjt
+OXXKBmb5e3ROIUjcKOLok2svytIfAQ==
+=7yRN
 -----END PGP SIGNATURE-----
 
---===============6259879257706703230==
+--===============8978636031151169138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ e882575efc771f130a24322377dc1033551da11d spi: rockchip: Suspend and resume the b
 2fcdde56c44fe1cd13ce328128f509bbda2cdb41 spi: rockchip: clear interrupt status in error handler
 8b861b82502117e68fdf1e25173bad534a131fa8 spi: New support and problem adjustment of SPI rockchip
 
---===============6259879257706703230==--
+--===============8978636031151169138==--
