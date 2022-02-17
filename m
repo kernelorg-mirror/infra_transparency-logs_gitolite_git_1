@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7374306386169121202=="
+Content-Type: multipart/mixed; boundary="===============6062820715999258037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Thu, 17 Feb 2022 08:12:59 -0000
-Message-Id: <164508557967.12155.1013562542117377913@gitolite.kernel.org>
+Date: Thu, 17 Feb 2022 08:14:26 -0000
+Message-Id: <164508566648.12728.17186972140286935508@gitolite.kernel.org>
 
---===============7374306386169121202==
+--===============6062820715999258037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: 733e417518a69b71061c3bafc2bf106109565eee
     new: 3f2b41135db9099b8d216fffeede5c2cb38ed277
     log: revlist-733e417518a6-3f2b41135db9.txt
 
---===============7374306386169121202==
+--===============6062820715999258037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cbf2820341297b9aed0f846aba35556e94569210 fsmap.h: add linux/fsmap.h to UAPI comp
 7e9c3cb5ee07cba2a058d2f010ca2a71a08309c8 Merge branch 'asm-generic-compile-test' into asm-generic
 3f2b41135db9099b8d216fffeede5c2cb38ed277 Merge branch 'set_fs-3' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic into asm-generic
 
---===============7374306386169121202==--
+--===============6062820715999258037==--
