@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 17 Feb 2022 21:52:49 -0000
-Message-Id: <164513476916.4469.2520712605439561069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Thu, 17 Feb 2022 22:03:46 -0000
+Message-Id: <164513542648.10756.10671802235324462893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b26c2269b09899f82da8bc29687c5cd9a5bf3fac
-    new: e66acccc0569df04437bcd78b757cd2675e95baa
+    old: 929dcbdc0133c40329ca5d512147ea6a23c42d89
+    new: e39d74f47e03070da54ca6495c39fa372b9ac9b2
     log: |
-         e66acccc0569df04437bcd78b757cd2675e95baa Thu Feb 17 09:51:37 PM UTC 2022
+         ced70cdb8b4e923e5b86d3d7e8b034bd12a545c3 base64: refactor l_base64_decode and validate bytes consumed
+         e39d74f47e03070da54ca6495c39fa372b9ac9b2 unit: add base64 failure cases
          
