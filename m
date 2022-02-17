@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Feb 2022 16:21:45 -0000
-Message-Id: <164511490555.13274.7622176009987677658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 17 Feb 2022 16:21:58 -0000
+Message-Id: <164511491843.14350.13321630686695961869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: f7d344a2bd5ec81fbd1ce76928fd059e57ec9bea
-    new: 83bfc7e793b555291785136c3ae86abcdc046887
+  - ref: refs/heads/for-linus
+    old: b56a7cbf40c895cbe8b67ce5649a26b7a7bc48be
+    new: d04ad245d67a3991dfea5e108e4c452c2ab39bac
     log: |
-         db0b4aedfab396a6fe631f5c3bb34319770f0581 ASoC: codec: wcd938x: Update CTIA/OMTP switch control
-         83bfc7e793b555291785136c3ae86abcdc046887 ASoC: SOF: core: unregister clients and machine drivers in .shutdown
+         d04ad245d67a3991dfea5e108e4c452c2ab39bac regmap-irq: Update interrupt clear register for proper reset
          
