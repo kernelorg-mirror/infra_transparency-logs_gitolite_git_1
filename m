@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0252866440992623743=="
+Content-Type: multipart/mixed; boundary="===============8918076182949367800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 17 Feb 2022 21:43:55 -0000
-Message-Id: <164513423506.29581.10434899432946434590@gitolite.kernel.org>
+Date: Thu, 17 Feb 2022 21:44:02 -0000
+Message-Id: <164513424243.29704.11125696365834709867@gitolite.kernel.org>
 
---===============0252866440992623743==
+--===============8918076182949367800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 31ded1535e3182778a1d0e5c32711f55da3bc512
     new: b3d971ec25346d6890e9e8f05b63f758cfcef8c5
     log: revlist-31ded1535e31-b3d971ec2534.txt
 
---===============0252866440992623743==
+--===============8918076182949367800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -173,4 +173,4 @@ babb1fc3234320bd17930e02bad9d1a83f5e6859 Merge tag 'drm-misc-fixes-2022-02-17' o
 5666b610194705587807a1078753eadc007b9d79 Merge tag 'drm-intel-fixes-2022-02-17' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
 b3d971ec25346d6890e9e8f05b63f758cfcef8c5 Merge tag 'drm-fixes-2022-02-18' of git://anongit.freedesktop.org/drm/drm
 
---===============0252866440992623743==--
+--===============8918076182949367800==--
