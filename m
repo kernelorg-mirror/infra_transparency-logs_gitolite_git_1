@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 17 Feb 2022 14:18:55 -0000
-Message-Id: <164510753520.27360.7503474882739929602@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1606385291650594340=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 17 Feb 2022 14:25:30 -0000
+Message-Id: <164510793026.1199.9655548138965226880@gitolite.kernel.org>
+
+--===============1606385291650594340==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 77c6e3825c8f546359c5c9cbee689ba34f6e0d51
-    new: e3ec4635a2e2cfdc38cbc6dd53e266263fa75d49
-    log: |
-         d609a81d249c70fa02710f47882695e3826a9d04 firmware: arm_scmi: Add a virtio channel refcount
-         12f5292d5ef544089a812e2ebe9c9b850d16b730 firmware: arm_scmi: Review virtio free_list handling
-         951852eb7a21ddda76d005560ea82c853246f837 firmware: arm_scmi: Add atomic mode support to virtio transport
-         898b32089b97b36f98a377b6bd3f8758a6761d01 dt-bindings: firmware: arm,scmi: Add atomic-threshold-us optional property
-         aa28ea91b5c55fdf5c2180228e07ba8af6e3fc68 firmware: arm_scmi: Support optional system wide atomic-threshold-us
-         e0f2af427fd778cafd861a1a2aa7474c4c021b0c firmware: arm_scmi: Add atomic support to clock protocol
-         ef7e7cb121ae1c8b0b71b71ce13d654cd5aeff80 firmware: arm_scmi: Add support for clock_enable_latency
-         8295fbcce3c92250211d8f2392cc0f30a6f03631 clk: scmi: Support atomic clock enable/disable API
-         e3ec4635a2e2cfdc38cbc6dd53e266263fa75d49 Merge branch 'for-next/scmi/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-         
+  - ref: refs/heads/master
+    old: 5da1033b9e2bfda5a5be2537e34b1fd0ea74cf44
+    new: 4d449bdc5b2678fd3afbf9b0c444ce38f34ac6f0
+    log: revlist-5da1033b9e2b-4d449bdc5b26.txt
+
+--===============1606385291650594340==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5da1033b9e2b-4d449bdc5b26.txt
+
+ddaff5047003cd2fafda46f3555cba733ebf8bdc mlxsw: spectrum: remove guards against !BRIDGE_VLAN_INFO_BRENTRY
+ba43b547515eb0e63242165eedc7a53ed0063e37 net: lan966x: remove guards against !BRIDGE_VLAN_INFO_BRENTRY
+318994d3e2ab3cf00d267c3c5ef079598b6294a9 net: sparx5: remove guards against !BRIDGE_VLAN_INFO_BRENTRY
+1d21c327281afb19448405dae9ff6b54a9e9bc37 net: ti: am65-cpsw-nuss: remove guards against !BRIDGE_VLAN_INFO_BRENTRY
+5edb65eac10fdf4279b5e28a6c18d720cdc215e1 net: ti: cpsw: remove guards against !BRIDGE_VLAN_INFO_BRENTRY
+d54f16c7fa3bc350b07049e0c0046c59bcbe7c3e Merge branch 'switchdev-BRENTRY'
+13651224c00b74a02c731b7840577f14e0311c83 net: ping6: support setting basic SOL_IPV6 options via cmsg
+6f97c7c605d63d8f83f102a768ddfd0ad553fa3f selftests: net: test IPV6_DONTFRAG
+9657ad09e1fa04911034d8aac28d4377dc991eb5 selftests: net: test IPV6_TCLASS
+05ae83d5a4a23f7323dc0341b675c0a2002d94dd selftests: net: test IPV6_HOPLIMIT
+a22982c39eb1d68914c8b541e7ef10044c5f1b1e selftests: net: basic test for IPV6_2292*
+4d449bdc5b2678fd3afbf9b0c444ce38f34ac6f0 Merge branch 'ping6-SOL_IPV6'
+
+--===============1606385291650594340==--
