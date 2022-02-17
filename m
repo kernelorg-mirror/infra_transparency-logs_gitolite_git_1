@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7200119288142257083=="
+Content-Type: multipart/mixed; boundary="===============5143895182417588862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 17 Feb 2022 18:14:32 -0000
-Message-Id: <164512167263.22363.5548865382227525946@gitolite.kernel.org>
+Date: Thu, 17 Feb 2022 18:14:37 -0000
+Message-Id: <164512167769.22464.12649769089714953493@gitolite.kernel.org>
 
---===============7200119288142257083==
+--===============5143895182417588862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 8d2b1a1ec9f559d30b724877da4ce592edc41fdc
-    new: 7dbcda584eaa5bdb4a281c379207dacc1a5e6081
-    log: revlist-8d2b1a1ec9f5-7dbcda584eaa.txt
+  - ref: refs/heads/dev-queue
+    old: 35410c10918a84c9685cd644686ca637bb3c046b
+    new: 1c46dc012ba2552932ab9b17361d194f7804677f
+    log: revlist-35410c10918a-1c46dc012ba2.txt
 
---===============7200119288142257083==
+--===============5143895182417588862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d2b1a1ec9f5-7dbcda584eaa.txt
+Content-Disposition: attachment; filename=revlist-35410c10918a-1c46dc012ba2.txt
 
 c832962ac972082b3a1f89775c9d4274c8cb5670 net: bridge: multicast: notify switchdev driver whenever MC processing gets disabled
 0b0dff5b3b98c5c7ce848151df9da0b3cdf0cc8b ipv6: per-netns exclusive flowlabel checks
@@ -40,5 +40,21 @@ b9208492fcaecff8f43915529ae34b3bcb03877c vsock: remove vsock from connected tabl
 9fcf986cc4bc6a3a39f23fbcbbc3a9e52d3c24fd ipv4: fix data races in fib_alias_hw_flags_set
 d95d6320ba7a51d61c097ffc3bcafcf70283414e ipv6: fix data-race in fib6_info_hw_flags_set / fib6_purge_rt
 7dbcda584eaa5bdb4a281c379207dacc1a5e6081 nfp: flower: netdev offload check for ip6gretap
+29e50a71f56360ea9b6dcbbbe73d9717722b7a37 checkpatch: Fix warnings when --no-tree is used
+86e8f72e73615d2c21b5be488297b1b65c25c213 checkpatch.pl: seed camelcase from the provided kernel tree root
+cc495b85d6c8af9163161c2b5c50c3e60dc14073 ice: Fix a couple off by one bugs
+5b1e4cda58d439e905f8c055af5ef02b4ab38fab i40e: Fix the timeliness of stats after deleting tc
+e4a7e398703e52894780ffa94aa12a979b453f22 ice: fix setting l4 port flag when adding filter
+b512abc60ac036b0bdd63a2c7a6105523af91900 iavf: Fix handling of vlan strip virtual channel messages
+b35e4ff81b114124b706054ada04f734eb03ebdc ice: Don't use GFP_KERNEL in atomic context
+cca8d9a80033bef4733d85d63873afacaf7915bc e1000e: Fix possible HW unit hang after an s0ix exit
+910f506fd8d5c9edb9aca3c1182582ab90375e9f ice: avoid XDP checks in ice_clean_tx_irq()
+a7723b64b1ccf382b9b37f0d04806ee99d310644 iavf: Fix adopting new combined setting
+a1f897ed4a22b0e84e534f8099511aa1f29172f0 e1000e: Correct NVM checksum verification flow
+a6db8d97b208e5e46c5e85c8215402e93cfac355 ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+1a7bd132b8646e2efb8e3b8d2ad6cbb9fd103a9a ice: fix concurrent reset and removal of VFs
+d9ea09dd3fe256b044f01f94d5e16672c699dc2f ice: check the return of ice_ptp_gettimex64
+130dfc8a4ff09c5784b19ddf56f23b276ccbbd80 ice: initialize local variable 'tlv'
+1c46dc012ba2552932ab9b17361d194f7804677f igc: igc_read_phy_reg_gpy: drop premature return
 
---===============7200119288142257083==--
+--===============5143895182417588862==--
