@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 17 Feb 2022 04:33:00 -0000
-Message-Id: <164507238053.1515.14548905176220282541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Feb 2022 04:37:42 -0000
+Message-Id: <164507266226.4412.8162902370096058113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 8aa69d348261e0d7747beac8b70a2d272da53888
-    new: 1ce22047067490c3a465808556a99b2ab95bf046
+    old: 8d2b1a1ec9f559d30b724877da4ce592edc41fdc
+    new: c832962ac972082b3a1f89775c9d4274c8cb5670
     log: |
-         1ce22047067490c3a465808556a99b2ab95bf046 net/smc: return ETIMEDOUT when smc_connect_clc() timeout
+         c832962ac972082b3a1f89775c9d4274c8cb5670 net: bridge: multicast: notify switchdev driver whenever MC processing gets disabled
          
