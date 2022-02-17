@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 17 Feb 2022 12:54:21 -0000
-Message-Id: <164510246148.5738.11004263511815595304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 17 Feb 2022 12:56:00 -0000
+Message-Id: <164510256041.7723.13177856459867393492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: fa55f2bb64e4458e3db9967ca8b15ef31df0ce0a
-    new: 91adfbb14c00b9b4dcd4c9c680c653dd3a8a1919
+  - ref: refs/heads/for-5.18/apple
+    old: 4ea1e06cd2f1db285e662ef20f78fff5f5f32824
+    new: ed9f4f961260de51ed76d903e86b35ee8ce8eeb3
     log: |
-         5224f79096170bf7b92cc8fe42a12f44b91e5f62 treewide: Replace zero-length arrays with flexible-array members
-         91adfbb14c00b9b4dcd4c9c680c653dd3a8a1919 Merge branch 'for-next/kspp-fam0' into for-next/kspp
+         ed9f4f961260de51ed76d903e86b35ee8ce8eeb3 HID: apple: properly reflect LEDS dependency
+         
+  - ref: refs/heads/for-next
+    old: 1530b6e4c9d00dbd06f480ac2182a5d925d267d1
+    new: 40282358ae3057505becfafb17bb98b9593d83ea
+    log: |
+         ed9f4f961260de51ed76d903e86b35ee8ce8eeb3 HID: apple: properly reflect LEDS dependency
+         40282358ae3057505becfafb17bb98b9593d83ea Merge branch 'for-5.18/apple' into for-next
          
