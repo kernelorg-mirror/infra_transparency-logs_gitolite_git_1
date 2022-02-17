@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5107319909177776822=="
+Content-Type: multipart/mixed; boundary="===============3763193648146275353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Feb 2022 18:48:54 -0000
-Message-Id: <164512373463.13606.18040520476795407967@gitolite.kernel.org>
+Date: Thu, 17 Feb 2022 18:49:04 -0000
+Message-Id: <164512374439.13756.15345224203633069681@gitolite.kernel.org>
 
---===============5107319909177776822==
+--===============3763193648146275353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: f0ead99e623baca56dcbcc577299e8f97aefab0b
-    new: be6b41c15dc09c067492bd23668763f551747e4e
-    log: revlist-f0ead99e623b-be6b41c15dc0.txt
+  - ref: refs/heads/dev-queue
+    old: 9bb37bd8ce919db9c18e5bf2440ff3d961d119c8
+    new: 17c8572ffe461675979f10d2f3ed0abd67c10f4f
+    log: revlist-9bb37bd8ce91-17c8572ffe46.txt
 
---===============5107319909177776822==
+--===============3763193648146275353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0ead99e623b-be6b41c15dc0.txt
+Content-Disposition: attachment; filename=revlist-9bb37bd8ce91-17c8572ffe46.txt
 
 8aa69d348261e0d7747beac8b70a2d272da53888 net: hns3: Remove unused inline function hclge_is_reset_pending()
 1ce22047067490c3a465808556a99b2ab95bf046 net/smc: return ETIMEDOUT when smc_connect_clc() timeout
@@ -84,5 +84,58 @@ a22982c39eb1d68914c8b541e7ef10044c5f1b1e selftests: net: basic test for IPV6_229
 ae68db14b6164ce46beffaf35eb7c9bb2f92fee3 net: transition netdev reg state earlier in run_todo
 faab39f63c1fc4bcdf135690f03bd596b578c67e net: allow out-of-order netdev unregistration
 be6b41c15dc09c067492bd23668763f551747e4e ipv6/addrconf: ensure addrconf_verify_rtnl() has completed
+4157907dc6820c4eac5133380f43f9baf36c6efe i40e/i40evf: cleanup i40e_update_nvm_checksum()
+9436c528edf2e2e7566d52675cdfbfed6939c09b igc: Add UDP segmentation offload support
+007faf04aa6af991e87d1e774a1785b4e5420d0a i40e: Refactor VF queue requesting
+0507f386b13966823b663b60f7f87ed48a6a0fdf ice: add TTY for GNSS module for E810T device
+76e1ac5db802b57a1424d0615da96580cb87a4d2 i40e: remove dead stores on XSK hotpath
+da5e0962fb4a12a3aca6edd678af2cfc12e13aae i40e: Fix the timeliness of stats after deleting tc
+ab15f544274972cbe5e9e48c7f2ecf82c926e2e1 ice: Match on all profiles in slow-path
+50e4460cd50bc7236101e7aefe6961609f99961b ice: fix setting l4 port flag when adding filter
+8978cf30a183d0cab8c32c378d43fe5ed6d83d70 iavf: remove redundant ret variable
+618c11c2c6928e056006930eb52f92ca6436f2ee iavf: Add support for 50G/100G in AIM algorithm
+b1814f00c05e0c01afdabf6b3f6aeb1bf4100d14 ixgbe: Remove non-inclusive language from Intel code
+e7f4271567ff9173fe26986645712bfa695c9dc9 iavf: refactor processing of VLAN V2 capability message
+48a9f0154573095055ffe2fe30354f527070e82a ice: enable parsing IPSEC SPI headers for RSS
+9d013303b8461d2721246c1990767bb7f1581263 ice: Add support for inner etype in switchdev
+befcb7c9d5d9ded433f481bf8b6343c08d588a75 iavf: Add usage of new virtchnl format to set default MAC
+a538a3dc04851c5920007353f6ae3f9d75005c94 iavf: Fix handling of vlan strip virtual channel messages
+4bdb200d938e6efa830affc485ed967c7a213f02 iavf: Add waiting for response from PF in set mac
+d46109c8bc8d154d64b276af19de92058b4f2992 ice: Don't use GFP_KERNEL in atomic context
+8c917233a9be7d4404b8edda580c55e933d647d9 e1000e: Fix possible HW unit hang after an s0ix exit
+2e1fd2e5087d1597195911067caa5085eaa7365d ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+ed1483f441d5d80cb558b58405099f28c6b2a5b0 ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+0ddb97ab113022fce1ab6cd2a7fc0a0b01457435 ice: switch: use a struct to pass packet template params
+7084a93bfdb7171c3889d6b3c1851b90b834df9b ice: switch: use convenience macros to declare dummy pkt templates
+ee2a3b38057acfee7bda058ae27ff23acb5bc4cf iavf: stop leaking iavf_status as "errno" values
+c0ff18fb07598b41c94c9e68b92e3e55fd3478ff iavf: Fix incorrect use of assigning iavf_status to int
+8d1cd2c5f96c5d83bf2afb179733dcb1b5445376 ice: Add slow path offload stats on port representor in switchdev
+51c9d24f090058a595c8f305fdb047a042f879d4 ice: avoid XDP checks in ice_clean_tx_irq()
+eb1fc470b302ce6004786dbbe733b6a65e033884 iavf: Fix adopting new combined setting
+04c3a3789da9e85d83f76d54681df8ca5b5f1774 e1000e: Correct NVM checksum verification flow
+e21dfaa3e41b9f18270c844f32d18078c81499de ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+f95a016dbeca1785bb12ce61cdee7f99e995a537 ice: Add support for classid based queue selection
+745b237b0c6f55635d96a3e6ef662ad2fa57cfde iavf: Remove non-inclusive language
+ef1647c7a69f52f607d98fbcde196f88edee238f ice: change "can't set link" message to dbg level
+1686a8ec1bd533ba5a31b452c7dfbd0c1556eea8 ice: fix concurrent reset and removal of VFs
+6258f81c6c2796c8ad6a24d7093fd991fe53deca ixgbevf: clean up some inconsistent indenting
+4ffe3a77aab9ad6875431ec77a23b423076134bc ice: Add support for outer dest MAC for ADQ tunnels
+fd800446953ba6ca17486f9f776326701ace3a32 e1000e: Print PHY register address when MDI read/write fails
+3934347e46d44a090bc7baefaf0fe1263d5226ec ice: check the return of ice_ptp_gettimex64
+684f3b06115076cb1f0a3423bff81312ec36016b ice: initialize local variable 'tlv'
+7769ddb0a483f94918ae35881b100f1c5fbae7e7 i40e: stop disabling VFs due to PF error responses
+89897f24256094d9ab5a5ceddcceeb811726bb3c ice: stop disabling VFs due to PF error responses
+6bc4cee880ab4fa46e72d389ea71d36037c1f828 ice: refactor unwind cleanup in eswitch mode
+5ab0d2bcddd94c42951f39d0c98bd9105d3a933e ice: store VF pointer instead of VF ID
+59fe4af98e3c389921d74a496c1d80735690e631 ice: pass num_vfs to ice_set_per_vf_res()
+6b31c62f258152c1d57b2b4ed09dd3faf03f681b ice: move clear_malvf call in ice_free_vfs
+2819ba2dcbfb1e66bb48afb68f93628b4f042f7c ice: move VFLR acknowledge during ice_free_vfs
+e6a2f5d25ecf7db068daf26c355523ab883caa84 ice: remove checks in ice_vc_send_msg_to_vf
+1010692443c52400f3f72d7a912755496d499b08 ice: use ice_for_each_vf for iteration during removal
+972ba9423075aa0413cd6ed533bfbec75139d3ce ice: convert ice_for_each_vf to include VF entry iterator
+7c0cae1e617c75d03b12fac98328e5df0f184459 ice: factor VF variables to separate structure
+68267512b6cad8f2ad7b3962be6abc7f02f9e152 ice: introduce VF accessor functions
+645f702684d99f2d5d0460e7b5698fc611d7ddfa ice: convert VF storage to hash table with krefs and RCU
+17c8572ffe461675979f10d2f3ed0abd67c10f4f igc: igc_read_phy_reg_gpy: drop premature return
 
---===============5107319909177776822==--
+--===============3763193648146275353==--
