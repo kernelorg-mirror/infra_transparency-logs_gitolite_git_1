@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 17 Feb 2022 12:30:18 -0000
-Message-Id: <164510101851.23726.2196738600071548038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Thu, 17 Feb 2022 12:53:52 -0000
+Message-Id: <164510243203.5519.18411524709580914597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/jd/fast-mix
-    old: 76090e14aa4867001a034d7a3621413d62bc8a14
-    new: 8af0bf6dfadbc7518e61adfe3e5b76f85adfe916
+  - ref: refs/heads/for-next/kspp-fam0
+    old: fbe9ccfe809d21228d27ed766690907dc8be6fe1
+    new: 5224f79096170bf7b92cc8fe42a12f44b91e5f62
     log: |
-         09fd724817bde0d9b4ec34af645791bd04364b9e random: clear fast pool, crng, and batches in cpuhp bring up
-         8af0bf6dfadbc7518e61adfe3e5b76f85adfe916 random: use max-period linear interrupt extractor
+         5224f79096170bf7b92cc8fe42a12f44b91e5f62 treewide: Replace zero-length arrays with flexible-array members
          
