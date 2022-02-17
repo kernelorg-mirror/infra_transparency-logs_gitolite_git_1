@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3999267902726908054=="
+Content-Type: multipart/mixed; boundary="===============3147852890511308117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 17 Feb 2022 14:59:52 -0000
-Message-Id: <164510999280.22799.2295874590002697301@gitolite.kernel.org>
+Date: Thu, 17 Feb 2022 15:00:30 -0000
+Message-Id: <164511003056.24576.5288793645327418742@gitolite.kernel.org>
 
---===============3999267902726908054==
+--===============3147852890511308117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 2da0d487781b2b27c1e114976257f455eb25def4
-    new: 88daa27a2834edc5a40b7259976d98230983633e
+    old: 88daa27a2834edc5a40b7259976d98230983633e
+    new: f24bd333b4c665b5ca7a48af3be0262bac0185e5
     log: |
-         88daa27a2834edc5a40b7259976d98230983633e staging: wfx: Fix spelling mistake "unexpectly" -> "unexpectedly"
+         fa0d50f2ee91cb3538eab04d64c7940c9ee3013d staging: r8188eu: evt_allocated_buf is not used
+         0077e86a5bfeae07454cdce2f93a806e01bd5f49 staging: r8188eu: evt_done_cnt is set but not used
+         f24bd333b4c665b5ca7a48af3be0262bac0185e5 staging: r8188eu: struct usb_suspend_parm is not used
          
 
---===============3999267902726908054==
+--===============3147852890511308117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645109991 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645110029 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1645109991-9b6c6ae904445c72148e859661044940ebac6923
+nonce 1645110028-528c7163015a343f6d385305341ec9cdf2803dc6
 
-2da0d487781b2b27c1e114976257f455eb25def4 88daa27a2834edc5a40b7259976d98230983633e refs/heads/staging-testing
+88daa27a2834edc5a40b7259976d98230983633e f24bd333b4c665b5ca7a48af3be0262bac0185e5 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIOYucbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RfsQAJ25kkRYoZ3Dxi61l6yw
-JSftDv6jEsf6FUd/BCNcx1Agvr6TUkU8UtAczMjTqo966uWIEHILcYdcH7yLfmuV
-Vej8KFy2gK77yqTj2AF4JbN0uxZOv4KrXlNvxycEOevYyNeeAqncD/ZdgxuRECyl
-ueRSutwEppQUVP2USWjHHteJpke6ezo9V4hnwbnM9J18yYanprOo8F8efBQWahKZ
-4XdswEr8WzbAezQPKY9T0RAvtJjWnD3z+rPx9EPxdJAKXJX8iJGF9Y7mMwQH1Arr
-SkX+V5mBpdEqoAiexS3KCQaMi96VLlggQglyvuwDWGl17Gz9iIhk1uiS0cp/Iuyi
-yRc7bzow5dfGdrhPAOpQNBWzL7YXTPYgEMJ81DrYs78ry82zg6zkNAjn7AkSFNFa
-MCErc00/JN7NTHdDwQZZ/QT9pCX4+NPRC+ir6o6FU5xHN20ikHBJ78RIzVfP3Eri
-we1MJC2CbbA5RJ2G+Jr/ud8YtDXKv/mKRCGo5/4E9SVAllRYLocX+MNVzKKldSVc
-dNqUYf8ZR52RnBeBWFM46GrAVPHPTddbFnZxrCpfF189qzrJx74mNyNOV1533Bys
-bZ9ohrYeJXoZdDwC0QvhqpI0/CMX7S9UCHEOR3C6cKszGbkvm1rS4qC9ip0DfBJP
-oR2UHTHUMN9mxdlBB9frGpI7
-=Qclo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIOYw0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ol0QALjjDmgur/5dpLshsByf
+FayCfPNnmbhnB0M/z6Z3+jvWOrQRdw08Ogdut0Votbu3uofmfFYt3h/sT+kGb6KB
+a3wg+bOzv7TLJzGQdXRJEuwUFFnLGTpyrWpQ48gCboPx5OpjymE3uxqoqPPX75GR
+OituQJq6SMpgjuf0vsqHndE4KlZkeqWmMtkDnF6EtEuhtMPQ2FhkVWJaLGCWvzt1
+LRoWWqLhdihkl47uBFgvdqOt2nV9lJbbXvJRvxurRk+hi0TZhVBTyluraWcIaQds
+FtOF8HMvqPOdfEA2Sd72vjOprfYFYZX0Z3KsDetI5tGalbY9OUZN8HrV2FS5GpXY
+xl83OI626WBdWMiHpXSIxNCOgSQ++s5Adjd6XmgukAUGVe9fsoMq8eEi06tZ08Gw
+cM8vNOcRvCzq9xa3mN4z/URD/5/5KMWdZBV65AaLNSpeMq6D9gXWMblSWb6rgJ9L
+Xy67nc7FICNW3VRGK47Odn7vrVDxzycIICQiFaMjB4UtpflEsaQt/9efUJnUG/an
+a1MGhrUTVEM1Ryf0rGKZRUIcRTLXU2DyPWAuz1OqV95IFZc2T8o9IZIoDoHnDOdl
+GvGD6AcYgnhPqP8kJa/V4ZC+bAnc7TsGX42cmwmGYdslLa1wY/TZOv67Kwij0kks
+2YQURUfXSRz+Q8r6w0vOCtr7
+=XLlO
 -----END PGP SIGNATURE-----
 
---===============3999267902726908054==--
+--===============3147852890511308117==--
