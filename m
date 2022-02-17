@@ -1,38 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Feb 2022 19:25:42 -0000
-Message-Id: <164512594246.4532.913660346396042367@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0010024117220483764=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 17 Feb 2022 19:25:54 -0000
+Message-Id: <164512595491.4653.2914915948614570092@gitolite.kernel.org>
+
+--===============0010024117220483764==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 645b497d3c581749442fd3508d85d7cddde12076
-    new: 14f415d47a10267525335ddb6be3ba6fbc05fd09
+  - ref: refs/heads/master
+    old: 60b7fe33311d77cba1bbafd083c9daadab808594
+    new: c6dd15856d4861b7ecfbb7bac5a9dc6fc2a1bd0a
     log: |
-         c800d8738b59e187590f60f17cbb6403f55ce86e Makefile.extrawarn: Move -Wunaligned-access to W=1
-         14f415d47a10267525335ddb6be3ba6fbc05fd09 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
+         c6dd15856d4861b7ecfbb7bac5a9dc6fc2a1bd0a 5.4-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 748273b5df160fe9039a7dbb7050490cd6960d02
-    new: 9a5e9618429af77eccfedb1622543926deefac1e
-    log: |
-         5fa93ab8281ea451512bbbebf5a607c431aabb0c Makefile.extrawarn: Move -Wunaligned-access to W=1
-         9a5e9618429af77eccfedb1622543926deefac1e net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-         
-  - ref: refs/heads/queue/4.9
-    old: e8499b8cf1f6c35a87f3682e0d59a4a3f16d5abd
-    new: 3419f4c94b42f462192af26da7d8dc1a0f710239
-    log: |
-         9199e681b7e31fd2218c5010d73d240dd4812a56 Makefile.extrawarn: Move -Wunaligned-access to W=1
-         37c1f104ab7c3425ad1e4d79645a22aa330d1493 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-         69f6eaa24b84c2316baa6e5df49c94d86342e662 serial: parisc: GSC: fix build when IOSAPIC is not set
-         3dd4828cce3d1598680681af3da9f3c5c504e2f5 parisc: Fix data TLB miss in sba_unmap_sg
-         c91f3824c8a7dbaf4f01fcf6ceb34d9f9765efc1 parisc: Fix sglist access in ccio-dma.c
-         3419f4c94b42f462192af26da7d8dc1a0f710239 btrfs: send: in case of IO error log it
-         
+
+--===============0010024117220483764==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645125954 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1645125952-58da66be298f2abf09e4d80d84590ae23e4fd1f5
+
+60b7fe33311d77cba1bbafd083c9daadab808594 c6dd15856d4861b7ecfbb7bac5a9dc6fc2a1bd0a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIOoUIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RpwP/2pq2fkgTHsH1VUR2N0V
+FA1ddDCaSPHxiNRp7UAD4lGJl/hO65VhZNqwD+j6ygVNI+FYTgs8q8xjSz7pv+Ne
+FkUq4Ha8ydTNU2x0l+Q4TGk6/6tvWOqee54D7aC52lTQKR4amPXZn6v4p99+Xbh2
+Nf4OkBqzRu8MfI15YeOgO98v7/6M1oVexBLyBvvc8k2P0Jf/wplT2jELEreqR+jq
+ljugEXnxCyy3tERF7WBd0clLYeqe7GzMSKe8CV0p3+ZPpoN/0qw7+Iu4NSwWx5DW
+dGexRWKF/RYDcJdUoLKS7h9mwn22tF/CVHgWELK2sQHfrilEDAGxGNNQnhGjSVew
+mzikikD3AZZoWkdk2NB92fztlzbhKJ7OdP5wpv+VI2YK1bEHA0AZ97qYLLfDT26p
+m/xrTK84k2Obx2Tdr8oeksjyQLkye00ga7DVp6B06a0AxZxM5XMVHzyMOSYctIYh
+MA/oXRM9RYffs58Jq6v6F4lFodMvpsop+GD5Q7WrlKQbBpwMj2k3OTb4pC6FyaJK
+SxP9dPzC3/ayzlZEku55fWSww76uDsPdvQ0gfoYLnNw+NinB1SrOWaHVIBieHHrR
+NNKOYKv7HCxBQutkvrClyarA8RxsFULJtCObQ5Jl1KjPIZjpS3U1z93PHp4qD94d
+hCaYvSroiJGd9hf4G993E5o8
+=EHOD
+-----END PGP SIGNATURE-----
+
+--===============0010024117220483764==--
