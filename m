@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 17 Feb 2022 16:54:36 -0000
-Message-Id: <164511687670.2935.1777479386906080800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 17 Feb 2022 16:57:31 -0000
+Message-Id: <164511705125.5269.10215557942738154298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/tags/for-v5.17-rc
+  - ref: refs/heads/slab/for-5.18/trivial
     old: 0000000000000000000000000000000000000000
-    new: 7b906e67522533c4a66719d1032e55a9cfd25acd
+    new: 754e0b0e35608ed5206d6a67a791563c631cec07
