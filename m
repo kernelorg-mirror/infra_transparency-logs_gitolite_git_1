@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 17 Feb 2022 14:53:29 -0000
-Message-Id: <164510960961.19064.10367726456151898601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 17 Feb 2022 14:55:09 -0000
+Message-Id: <164510970990.21060.7868324980865892299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: 9590866d961b3e27a0b3634fd8fac612e635fa9d
-    new: 31ded1535e3182778a1d0e5c32711f55da3bc512
+  - ref: refs/heads/review-hans
+    old: dbce412a7733bb7a763d99db413da22da72e3736
+    new: 42f8bcb37e2c65931799cdf61d086ed78456e798
     log: |
-         31ded1535e3182778a1d0e5c32711f55da3bc512 perf bpf: Defer freeing string after possible strlen() on it
+         3d7d407dfb05b257e15cb0c6b056428a4a8c2e5d platform/x86: amd-pmc: Add support for AMD Spill to DRAM STB feature
+         42f8bcb37e2c65931799cdf61d086ed78456e798 platform/dcdbas: move EXPORT_SYMBOL after function
          
