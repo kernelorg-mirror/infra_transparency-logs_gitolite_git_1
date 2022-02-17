@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 17 Feb 2022 15:39:00 -0000
-Message-Id: <164511234003.17358.659123284012230263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 17 Feb 2022 15:50:03 -0000
+Message-Id: <164511300356.25067.556791214383993854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: aa622e2b773420154a6ab97086722767e88262d6
-    new: 4b67100bafbb3f60e6eecf87631e4d400d9b6f17
+  - ref: refs/heads/block-5.17
+    old: 9c1f0e87b5c1402456f24fe08462c8f4b9ec074b
+    new: e92bc4cd34de2ce454bdea8cd198b8067ee4e123
     log: |
-         5f8d171cd8a93ff425556e7fde5d59fefc677bf7 memstick: replace bitmap_weight with bitmap_weight_eq where appropriate
-         23370c458b911070fd1cd31e259f8b8b2e4681bb mmc: sdhci_am654: Fix the driver data of AM64 SoC
-         4144514dd26b5235022dbd04a13b41009f1d1f39 dt-bindings: mmc: sdhci-am654: Add compatible string for AM62 SoC
-         29f6bc57a01138105374cd9e6a8b9e77d2d24e88 dt-bindings: mmc: imx-esdhc: Add imx93 compatible string
-         4b67100bafbb3f60e6eecf87631e4d400d9b6f17 mmc: mtk-sd: use div64_u64() instead of do_div()
+         cc8f7fe1f5eab010191aa4570f27641876fa1267 block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
+         7a5428dcb7902700b830e912feee4e845df7c019 block: fix surprise removal for drivers calling blk_set_queue_dying
+         e92bc4cd34de2ce454bdea8cd198b8067ee4e123 block/wbt: fix negative inflight counter when remove scsi device
          
