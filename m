@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 17 Feb 2022 12:24:00 -0000
-Message-Id: <164510064065.18712.14577769768240327951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 17 Feb 2022 12:24:06 -0000
+Message-Id: <164510064656.18807.5150019019015619154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/jd/cpuhp
-    old: 651b4b7180aaa73671e9ddb6a8b0fec14d17ce75
-    new: 09fd724817bde0d9b4ec34af645791bd04364b9e
+  - ref: refs/heads/for-next
+    old: ae707d0eb707b5fc658e870dbd8b21887b0a5240
+    new: 2546c60004309ede8e2d1d5341e0decd90e057bf
     log: |
-         09fd724817bde0d9b4ec34af645791bd04364b9e random: clear fast pool, crng, and batches in cpuhp bring up
+         2546c60004309ede8e2d1d5341e0decd90e057bf platform/x86: Add Intel Software Defined Silicon driver
          
