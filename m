@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8397790256657739059=="
+Content-Type: multipart/mixed; boundary="===============8043152655493570814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 18 Feb 2022 15:43:15 -0000
-Message-Id: <164519899537.32016.17336719881807952258@gitolite.kernel.org>
+Date: Fri, 18 Feb 2022 15:43:35 -0000
+Message-Id: <164519901558.32185.14900338111234196958@gitolite.kernel.org>
 
---===============8397790256657739059==
+--===============8043152655493570814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.18
+  - ref: refs/heads/for-next
     old: 6367a981a09bcf8b7f8fdb885bdb0eb857789141
     new: 3c713fb33f46f7a7215a4787f5ff9f24e6e3da3a
     log: revlist-6367a981a09b-3c713fb33f46.txt
 
---===============8397790256657739059==
+--===============8043152655493570814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ bb0b06be2365c91850eb588898837775a75f0794 dm: flag clones created by __send_dupli
 b479cbe27562f81c845abe6834e640bc02ab773b dm crypt: use dm_submit_bio_remap
 3c713fb33f46f7a7215a4787f5ff9f24e6e3da3a dm delay: use dm_submit_bio_remap
 
---===============8397790256657739059==--
+--===============8043152655493570814==--
