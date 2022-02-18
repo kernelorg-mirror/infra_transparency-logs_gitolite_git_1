@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 18 Feb 2022 19:25:57 -0000
-Message-Id: <164521235734.18470.1589416948514945506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 18 Feb 2022 19:48:54 -0000
+Message-Id: <164521373498.31509.11065962002728880938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-kernelci
-    old: cc4e5a7f8e3853bd28e505bb231c40cd6efb3a18
-    new: 0ef49b25b7ccd4b0c97b043bea3da976784044c7
+  - ref: refs/heads/master
+    old: 086d49058cd8471046ae9927524708820f5fd1c7
+    new: 9087c6ff8dfe0a070e4e05a434399080603c29de
     log: |
-         a9e896f70fbe2aa1df588e31f0a7d8b604e9deb7 platform/chrome: cros_ec_debugfs: detach log reader wq from devm
-         0ef49b25b7ccd4b0c97b043bea3da976784044c7 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
+         9087c6ff8dfe0a070e4e05a434399080603c29de bpf: Call maybe_wait_bpf_programs() only once from generic_map_delete_batch()
          
