@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 18 Feb 2022 10:22:45 -0000
-Message-Id: <164517976584.15485.5988165982188230095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 18 Feb 2022 10:30:17 -0000
+Message-Id: <164518021740.20708.11653916187898250316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/jd/fast-mix
-    old: 37184d33a201ddcc4c09578dc1aabcb193e44653
-    new: e5ac022a5606d7a2056834b0750919a0b536fe97
+  - ref: refs/heads/x86/urgent
+    old: e5733d8c89c3b57c8fcd40b8acf508388fabaa42
+    new: 44cad52cc14ae10062f142ec16ede489bccf4469
     log: |
-         f2e416fdc8fc1fd81f3d5da2b8976ad808ab2fad random: pull add_hwgenerator_randomness() declaration into random.h
-         0a5b4f0c48521f6cb5c4d82cfef83742636ac70a random: clear fast pool, crng, and batches in cpuhp bring up
-         e5ac022a5606d7a2056834b0750919a0b536fe97 random: use max-period linear interrupt extractor
+         44cad52cc14ae10062f142ec16ede489bccf4469 x86/ptrace: Fix xfpregs_set()'s incorrect xmm clearing
          
