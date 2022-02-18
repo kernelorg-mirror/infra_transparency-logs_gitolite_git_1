@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 18 Feb 2022 18:26:55 -0000
-Message-Id: <164520881579.12241.12749085525749232605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 18 Feb 2022 18:39:05 -0000
+Message-Id: <164520954523.18822.14053923308045142215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/sysctl-next
-    old: 69df53794ed058f4bc28e2a3107888b8c2c6ab53
-    new: 8ca0c0d1ffe68a04fdf25680fe63de1f9833d261
+  - ref: refs/heads/master
+    old: d2327948c657231fd3f8366e73472c9c346450f2
+    new: 7bd9e62fc29040ccad6a8363416c9dd0da0bc145
     log: |
-         8ca0c0d1ffe68a04fdf25680fe63de1f9833d261 MAINTAINERS: add sysctl-next git tree
+         eea0d9df556718c3175002277b7f06322dfebaa6 core: Fix gpiod_line_bulk_reset type
+         7bd9e62fc29040ccad6a8363416c9dd0da0bc145 gpioinfo: Clean up scandir allocations
          
