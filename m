@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 18 Feb 2022 13:19:55 -0000
-Message-Id: <164519039546.479.10029261881467776742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Fri, 18 Feb 2022 13:24:25 -0000
+Message-Id: <164519066537.4691.10014265890561245694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
   - ref: refs/heads/for-next
-    old: 9f6408ce5dfa0e57d8b9df42571e4639611b962b
-    new: 4efc93d707ff689fff792ecbee63b2c062b0b1b0
+    old: 99a7efaf262cc1ab0ec0fa61c2c474f2f79eaadb
+    new: 6c3e778c8649f04774ee40897ab35ee5f78e80c2
     log: |
-         7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd ARM: dts: exynos: align PPMU event node names with dtschema
-         4efc93d707ff689fff792ecbee63b2c062b0b1b0 Merge branch 'next/dt' into for-next
-         
-  - ref: refs/heads/next/dt
-    old: 453a24ded415f7fce0499c6b0a2c7b28f84911f2
-    new: 7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd
-    log: |
-         7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd ARM: dts: exynos: align PPMU event node names with dtschema
+         f428101dc78ed922399f5319e12fb294c243be69 nvmem: core: Fix a conflict between MTD and NVMEM on wp-gpios property
+         6c3e778c8649f04774ee40897ab35ee5f78e80c2 mtd: core: Fix a conflict between MTD and NVMEM on wp-gpios property
          
