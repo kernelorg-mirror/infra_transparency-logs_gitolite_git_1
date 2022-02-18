@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 18 Feb 2022 19:17:07 -0000
-Message-Id: <164521182725.11583.3182616993002552356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 18 Feb 2022 19:25:57 -0000
+Message-Id: <164521235734.18470.1589416948514945506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: bleung
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3f4a4374662e7c4826d13cd108265253a11e5114
-    new: 73e032a00482c62ce9b4c6b6b5f87e960f00cb0f
+  - ref: refs/heads/for-kernelci
+    old: cc4e5a7f8e3853bd28e505bb231c40cd6efb3a18
+    new: 0ef49b25b7ccd4b0c97b043bea3da976784044c7
     log: |
-         ad2f3b08d1ab17e481df753aae221f085fe1cc8a ACPI: scan: Use ida_alloc() instead of ida_simple_get()
-         73e032a00482c62ce9b4c6b6b5f87e960f00cb0f Merge branch 'acpi-scan' into bleeding-edge
+         a9e896f70fbe2aa1df588e31f0a7d8b604e9deb7 platform/chrome: cros_ec_debugfs: detach log reader wq from devm
+         0ef49b25b7ccd4b0c97b043bea3da976784044c7 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
