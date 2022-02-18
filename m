@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 18 Feb 2022 12:22:17 -0000
-Message-Id: <164518693738.29772.8717775445684887925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 18 Feb 2022 12:31:53 -0000
+Message-Id: <164518751395.3210.10918761465346396914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/jd/fast-mix
-    old: 889758ccf6ccf0e80e84d3cdaa06939bb3e43c23
-    new: 5c1373861532b03327ab155cd7afaf507c65c2c2
+  - ref: refs/tags/arm64-fixes
+    old: 57711efa482cc69a188ce2c55fc8f916e8027b8e
+    new: abf7ba5a17a7a7ce45e42222e977b54c24949675
     log: |
-         5c1373861532b03327ab155cd7afaf507c65c2c2 random: use max-period linear interrupt extractor
+         4f6de676d94ee8ddfc2e7e7cd935fc7cb2feff3a arm64: Correct wrong label in macro __init_el2_gicv3
          
