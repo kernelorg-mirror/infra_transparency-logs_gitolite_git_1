@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 18 Feb 2022 19:12:30 -0000
-Message-Id: <164521155060.8575.12277796054944015499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 18 Feb 2022 19:17:07 -0000
+Message-Id: <164521182725.11583.3182616993002552356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/next
-    old: 1e9e574abaea04b78913ef887d79038ba5d1d2e8
-    new: 0ea9e1c3dbd4e78f7a82d23fdc959622432e461c
+  - ref: refs/heads/bleeding-edge
+    old: 3f4a4374662e7c4826d13cd108265253a11e5114
+    new: 73e032a00482c62ce9b4c6b6b5f87e960f00cb0f
     log: |
-         0ea9e1c3dbd4e78f7a82d23fdc959622432e461c efivars: Respect "block" flag in efivar_entry_set_safe()
+         ad2f3b08d1ab17e481df753aae221f085fe1cc8a ACPI: scan: Use ida_alloc() instead of ida_simple_get()
+         73e032a00482c62ce9b4c6b6b5f87e960f00cb0f Merge branch 'acpi-scan' into bleeding-edge
          
