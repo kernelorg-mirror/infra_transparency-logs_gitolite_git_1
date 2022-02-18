@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 18 Feb 2022 18:18:36 -0000
-Message-Id: <164520831632.5383.1503937209068963550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 18 Feb 2022 18:21:33 -0000
+Message-Id: <164520849348.7938.13221930607230950764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/sysctl-next
-    old: fc12aa67daba87a5ac43a9d3ae80be2e666e2ef9
-    new: 69df53794ed058f4bc28e2a3107888b8c2c6ab53
+  - ref: refs/heads/master
+    old: af3827acf2ee4522d7a470b4d29f267807178908
+    new: 5839c0cc568877269919648c006dee92a1311506
     log: |
-         69df53794ed058f4bc28e2a3107888b8c2c6ab53 MAINTAINERS: add sysctl-next git tree
+         5839c0cc568877269919648c006dee92a1311506 Fri Feb 18 06:20:41 PM UTC 2022
          
