@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Fri, 18 Feb 2022 13:12:39 -0000
-Message-Id: <164518995971.29205.13926432800508464148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 18 Feb 2022 13:19:55 -0000
+Message-Id: <164519039546.479.10029261881467776742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 4ee524587105011ef43e5bd3ef5ed019715363dd
-    new: d57d6fe5bf3463aad1332ecfc7555a6888b04fd9
+  - ref: refs/heads/for-next
+    old: 9f6408ce5dfa0e57d8b9df42571e4639611b962b
+    new: 4efc93d707ff689fff792ecbee63b2c062b0b1b0
     log: |
-         6de74d1069b821e96460d0fc2edfc35785db04fb hv_utils: Add comment about max VMbus packet size in VSS driver
-         d57d6fe5bf3463aad1332ecfc7555a6888b04fd9 drivers: hv: log when enabling crash_kexec_post_notifiers
+         7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd ARM: dts: exynos: align PPMU event node names with dtschema
+         4efc93d707ff689fff792ecbee63b2c062b0b1b0 Merge branch 'next/dt' into for-next
+         
+  - ref: refs/heads/next/dt
+    old: 453a24ded415f7fce0499c6b0a2c7b28f84911f2
+    new: 7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd
+    log: |
+         7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd ARM: dts: exynos: align PPMU event node names with dtschema
          
