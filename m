@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5909696625798441064=="
+Content-Type: multipart/mixed; boundary="===============0375773647371407455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 18 Feb 2022 10:52:44 -0000
-Message-Id: <164518156421.3274.6130659139302845902@gitolite.kernel.org>
+Date: Fri, 18 Feb 2022 10:55:39 -0000
+Message-Id: <164518173971.5709.10029753653846435946@gitolite.kernel.org>
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,370 +16,378 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 5c7912d67b0dcd2a9ffdc26b6eab75654ff010a1
-    new: 4e9f6aec70d9068e802d5d9b713c598e96766a49
-    log: revlist-5c7912d67b0d-4e9f6aec70d9.txt
+    old: 4e9f6aec70d9068e802d5d9b713c598e96766a49
+    new: e09982e7a13bb2b4052bdb98bc9362e98d5d7b42
+    log: revlist-4e9f6aec70d9-e09982e7a13b.txt
   - ref: refs/heads/queue/4.19
-    old: e08d5aa74f8763cd1deefd2e4646dd0221b1d6bb
-    new: 528441e018ec82194eb1c2e19876ee64233e1ca9
-    log: revlist-e08d5aa74f87-528441e018ec.txt
+    old: 528441e018ec82194eb1c2e19876ee64233e1ca9
+    new: 0066c10f4fab782e39125876e9e1333cf9423b59
+    log: revlist-528441e018ec-0066c10f4fab.txt
   - ref: refs/heads/queue/4.9
-    old: c7168c1e6011f3babf30f96dfac0c1be950e10b3
-    new: a6e9ca6ef41cb8eb15df5404f1865dd1b3d02873
-    log: revlist-c7168c1e6011-a6e9ca6ef41c.txt
+    old: a6e9ca6ef41cb8eb15df5404f1865dd1b3d02873
+    new: d6fae7820a93dcd80e9858921bd4b4b44d14a6c0
+    log: revlist-a6e9ca6ef41c-d6fae7820a93.txt
   - ref: refs/heads/queue/5.10
-    old: 6058cf20f93123a9ca1f611cb6cd3b7daf6a2187
-    new: 16d7c689d9bf692c411183999b5e3abf3977d184
-    log: revlist-6058cf20f931-16d7c689d9bf.txt
+    old: 16d7c689d9bf692c411183999b5e3abf3977d184
+    new: d6495932832f8c195ecfaff3f4b697fe539f0622
+    log: revlist-16d7c689d9bf-d6495932832f.txt
   - ref: refs/heads/queue/5.15
-    old: 11259a54dce4295b62f7969cce415e6df307ffe1
-    new: ae15fa2bc286ce18e4844fe100a4ca17134e3585
-    log: revlist-11259a54dce4-ae15fa2bc286.txt
+    old: ae15fa2bc286ce18e4844fe100a4ca17134e3585
+    new: ef8dc9fc7dc495264148d30e04f3b80f290d215f
+    log: revlist-ae15fa2bc286-ef8dc9fc7dc4.txt
   - ref: refs/heads/queue/5.16
-    old: d22ee933e29d89f56fa593961f64d195c3f8d277
-    new: 927cc24e742a8b0d6b93e13fe4427fa446be121a
-    log: revlist-d22ee933e29d-927cc24e742a.txt
+    old: 927cc24e742a8b0d6b93e13fe4427fa446be121a
+    new: e6a8b70ee80b6c3d2539ab2356a07b4352bd70f3
+    log: revlist-927cc24e742a-e6a8b70ee80b.txt
   - ref: refs/heads/queue/5.4
-    old: 73a526fa34440c026947353854f20000b9608806
-    new: a31e437a3db41ad2b81b2a2e09574855f31b311a
-    log: revlist-73a526fa3444-a31e437a3db4.txt
+    old: a31e437a3db41ad2b81b2a2e09574855f31b311a
+    new: 73d6ba9eb924b73cfc01655f19c481cc9936f7c7
+    log: revlist-a31e437a3db4-73d6ba9eb924.txt
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c7912d67b0d-4e9f6aec70d9.txt
+Content-Disposition: attachment; filename=revlist-4e9f6aec70d9-e09982e7a13b.txt
 
-3055ebc206b27981ce2dceec9c6e4050bf56fbab Makefile.extrawarn: Move -Wunaligned-access to W=1
-3be4429bbfa30bf31f7f7f78a9864a9cd95d8f39 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-55bc1a0365fa7a8e9975e4aca2f273c811d57174 serial: parisc: GSC: fix build when IOSAPIC is not set
-a1d693d1626adf0c1d08d5a3b3a023393b1e4b26 parisc: Fix data TLB miss in sba_unmap_sg
-4f1b18bbfb290858ccf251680c6e037856e38b1f parisc: Fix sglist access in ccio-dma.c
-08e9279bdae21ee50d4f4ca9238a9db7eceb7a3d btrfs: send: in case of IO error log it
-5cf59342288ae632fd332618f1ad09210bea26e8 net: ieee802154: at86rf230: Stop leaking skb's
-818d7878655c02b15b752ac3cf873b529ffd16b6 selftests/zram: Skip max_comp_streams interface on newer kernel
-ad34a8d81b0e662605116515cf9830169afd32a9 selftests/zram01.sh: Fix compression ratio calculation
-7545ee59f6ccde71110d623ec1d42485da5360c0 selftests/zram: Adapt the situation that /dev/zram0 is being used
-ec39bec666197661886e6cd2ed51a4965ace1a4f ax25: improve the incomplete fix to avoid UAF and NPD bugs
-71a4ad0a68f18544ec72c37b1b032df1fd4355bf vfs: make freeze_super abort when sync_filesystem returns error
-738caa1326f304bc233fe32a0c0ea4783379494b quota: make dquot_quota_sync return errors from ->sync_fs
-daa59888659f687992e4eb39fa42e385cfe84a7d Revert "module, async: async_synchronize_full() on module init iff async is used"
-e3929f2efdda8cf2c662ed2c701458bae46585a6 iwlwifi: fix use-after-free
-830501252a407d4e6ff6c10357fb8827ce6ef121 drm/radeon: Fix backlight control on iMac 12,1
-2ef95ec22df1a6abf0b3f1cb17d854e78508f00e xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
-4e9f6aec70d9068e802d5d9b713c598e96766a49 taskstats: Cleanup the use of task->exit_code
+e1c062bb22c39d09a2e8f125c9597ea728e0d301 Makefile.extrawarn: Move -Wunaligned-access to W=1
+8c40f90fcbfa77514b18fa3a2d7fab05a225214e net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
+dc3d1b3ffc7c340a9b08180ffd21aa2735523284 serial: parisc: GSC: fix build when IOSAPIC is not set
+0e9a0ce91774887e8d433df6970357a3dd4b529b parisc: Fix data TLB miss in sba_unmap_sg
+39be98f7b662d834957c25b7d6263f43d005fc2d parisc: Fix sglist access in ccio-dma.c
+a382835f9c7a4af9777f48034e6a8a844671fe6a btrfs: send: in case of IO error log it
+70f9b255b07edaa4dbd7c417dd579266a29ccbb4 net: ieee802154: at86rf230: Stop leaking skb's
+26f3eeef8481a0f4430d20828b87a0377648f2ce selftests/zram: Skip max_comp_streams interface on newer kernel
+4aff1aceeec05b79e747ff71e44dd1b53097c9f4 selftests/zram01.sh: Fix compression ratio calculation
+1f34e5cb5c1888d0c1e0ce07122f13faae580a93 selftests/zram: Adapt the situation that /dev/zram0 is being used
+1c292015bcc7d02cd43ae12e433040528a26417e ax25: improve the incomplete fix to avoid UAF and NPD bugs
+6ebe2b22873e62deb8beda010ae40b590a184727 vfs: make freeze_super abort when sync_filesystem returns error
+dbfb37befa116b0065218903c996efc9c811bc85 quota: make dquot_quota_sync return errors from ->sync_fs
+46bf9b8a67b9a567c8c64a72d508b3fdf2f83c13 Revert "module, async: async_synchronize_full() on module init iff async is used"
+21a9d340c11a1e15a2742b063dbf1a77c0f112c9 iwlwifi: fix use-after-free
+9c254f8b28965a1d027e1b5be50c9c0f4f49f660 drm/radeon: Fix backlight control on iMac 12,1
+5dbfc4347008e311fbfe41432ea804543c55c71b xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
+659496f5e0651c26b2ae882fa8725525d8bd63f8 taskstats: Cleanup the use of task->exit_code
+e09982e7a13bb2b4052bdb98bc9362e98d5d7b42 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e08d5aa74f87-528441e018ec.txt
+Content-Disposition: attachment; filename=revlist-528441e018ec-0066c10f4fab.txt
 
-26510c38608b94b50384321eb761cdbbbcabd672 Makefile.extrawarn: Move -Wunaligned-access to W=1
-3fa81275005be186a946d58856c87f80295d1568 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-47e59c0d4b9e060083d91ad6b81e3b09b351ab0f serial: parisc: GSC: fix build when IOSAPIC is not set
-043608c2ddd801254ccbaafc9bdfd67fcf5efd4c parisc: Fix data TLB miss in sba_unmap_sg
-4111d54cebf0de6070b03a9d7bbdfc170b50498d parisc: Fix sglist access in ccio-dma.c
-ce9710c2553e42b84f8a0cf72483326d2c69ca5e btrfs: send: in case of IO error log it
-c593d1171166f2b002981382eba4bfec3d3f46b9 net: ieee802154: at86rf230: Stop leaking skb's
-5c6b2927b22abcd91fc50961ad8006c384bbe6aa selftests/zram: Skip max_comp_streams interface on newer kernel
-22e636146c7e81954f101eb51863432ba50ac15f selftests/zram01.sh: Fix compression ratio calculation
-8aa96bf238e39ac3a6ceedb08a522f80cd4cefa9 selftests/zram: Adapt the situation that /dev/zram0 is being used
-0e3165f494dcbf50c5bc276831b0091967801089 ax25: improve the incomplete fix to avoid UAF and NPD bugs
-c5aa7b21aa3301089a0a649147901856d220d52d vfs: make freeze_super abort when sync_filesystem returns error
-7927b14f13350fc45655b9c1b50f901e411235d3 quota: make dquot_quota_sync return errors from ->sync_fs
-d8077226795bb1431924c23c10d077fac3a4a7ec nvme: fix a possible use-after-free in controller reset during load
-63f28c41f7d6d27a42e75b65bab47ecc949414a6 nvme-rdma: fix possible use-after-free in transport error_recovery work
-239ea296c3aa62f777d47568315a4c506309098f Revert "module, async: async_synchronize_full() on module init iff async is used"
-c61d80a23c78c897cb976bd649e9bcb5f6f47fd9 iwlwifi: fix use-after-free
-da5a67aa82de2a5e2d22a1d36db5d3a0957602be drm/radeon: Fix backlight control on iMac 12,1
-391a8900072fa797aaef71e85343e8d432bc7db9 xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
-2bab7b4957f98816f4a7c230272410c080cb60cd taskstats: Cleanup the use of task->exit_code
-528441e018ec82194eb1c2e19876ee64233e1ca9 mmc: block: fix read single on recovery logic
+ed2b6d1732a5bdc091512fa3e3bea875cce8bfb1 Makefile.extrawarn: Move -Wunaligned-access to W=1
+184ef1f9728cfefb678eb5dcb00d573b7b62b5d2 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
+4f54ca1f8525f482f549ecdf66e7a9964040b1a7 serial: parisc: GSC: fix build when IOSAPIC is not set
+a42be90c8476ef3cba5c17e8b5998586ecf1ab88 parisc: Fix data TLB miss in sba_unmap_sg
+91d42f12675709c67f51e1a16ae1711e214cdffc parisc: Fix sglist access in ccio-dma.c
+2fe189e8a6b31dc80a006372c114a832a3dcd5a1 btrfs: send: in case of IO error log it
+f790a2bc390182a3d88ec217044d974bc200b1f5 net: ieee802154: at86rf230: Stop leaking skb's
+c7b0689fcf09889d8fc7309b1156e5c036a01740 selftests/zram: Skip max_comp_streams interface on newer kernel
+e4052e50fdb72514fd9d9febfd8a572fc1faa56b selftests/zram01.sh: Fix compression ratio calculation
+d8a3352c13713aef014b3065828408444d0b6b9f selftests/zram: Adapt the situation that /dev/zram0 is being used
+52cd8fe0def3ec4bc7967b5df27ae12a79ded529 ax25: improve the incomplete fix to avoid UAF and NPD bugs
+60c7c0094ceb2fec41db3f34caa50bed7dd256e5 vfs: make freeze_super abort when sync_filesystem returns error
+f2ccdc6d5a7131af5d716072b9bd72d0b6896257 quota: make dquot_quota_sync return errors from ->sync_fs
+7fe7677cbecce9d365db2837d923cc5a32b4b42d nvme: fix a possible use-after-free in controller reset during load
+301afe200b51c96a64003f43cc9115c3e4539386 nvme-rdma: fix possible use-after-free in transport error_recovery work
+4a2780b3a1db52e5a2ce19fcab0cfafaed2a7231 Revert "module, async: async_synchronize_full() on module init iff async is used"
+ec0f2399fe37df2015b92ead791d931826e0997b iwlwifi: fix use-after-free
+b5bba3870dfa2ef59bfa8be51415074620ce168c drm/radeon: Fix backlight control on iMac 12,1
+889ff5d932f1bd1ad42ba3f9fae9766b9bfb003a xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
+07c887770f54f37a2aeca79551ec0b8b2fade4a4 taskstats: Cleanup the use of task->exit_code
+f89c7ada57981e7f9b940cce8dc1bc654565c835 mmc: block: fix read single on recovery logic
+0066c10f4fab782e39125876e9e1333cf9423b59 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7168c1e6011-a6e9ca6ef41c.txt
+Content-Disposition: attachment; filename=revlist-a6e9ca6ef41c-d6fae7820a93.txt
 
-767b0273eeb441518e2ff69ab558a1188939a65c Makefile.extrawarn: Move -Wunaligned-access to W=1
-907a2cd71c320f1a69227a6848a5f31861fe2a77 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-e767f94314262203f3ba48718e39740591418b28 serial: parisc: GSC: fix build when IOSAPIC is not set
-2c32b4644851227846b0b61a8e51667402ce63fc parisc: Fix data TLB miss in sba_unmap_sg
-ed8b9a52a0fd29d583c440b44403fdb9245fdae2 parisc: Fix sglist access in ccio-dma.c
-a58c24b639d683a75a774665b55c34e25f5d66b0 btrfs: send: in case of IO error log it
-a21198740a3681a032968a5f8eb1cffa685e92d1 net: ieee802154: at86rf230: Stop leaking skb's
-ed514529af22d9387b8e7c882d935d2386975703 selftests/zram: Skip max_comp_streams interface on newer kernel
-d239a53b581478a48bfd024de73105af6099903f selftests/zram01.sh: Fix compression ratio calculation
-df453bfffdbf71c5ba2e1f921816cb3b4d5f49ea selftests/zram: Adapt the situation that /dev/zram0 is being used
-565be616ab58de5bdba80a2f4281fdeb51fdfe43 ax25: improve the incomplete fix to avoid UAF and NPD bugs
-26805c698fd972bb40ea7615a1ed744ea4a4d38e vfs: make freeze_super abort when sync_filesystem returns error
-8d3d9c0ee2ba476e2cb0527a6a05c3eb44431048 quota: make dquot_quota_sync return errors from ->sync_fs
-e55dba1b16dffa1eb58a6fa1feed31dee9e6c92a drm/radeon: Fix backlight control on iMac 12,1
-42fd33d9c60ae09d00482918bad52c70da0a4de4 xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
-a6e9ca6ef41cb8eb15df5404f1865dd1b3d02873 taskstats: Cleanup the use of task->exit_code
+7cd143de3a40f3121c9e0b5f7b4ca30d8faa6771 Makefile.extrawarn: Move -Wunaligned-access to W=1
+5f62009890abcae94475826c10fe338f26432b50 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
+9323dfffc0c25a61ebe110c12163f6441cc2341e serial: parisc: GSC: fix build when IOSAPIC is not set
+8bca8a3550b10610211fae29b1fcbf8a91f0a092 parisc: Fix data TLB miss in sba_unmap_sg
+9bda65194611b8cb63b9a52012a04986d5e2791b parisc: Fix sglist access in ccio-dma.c
+e9a903917a607fe9bd64d8682e11306870cec43b btrfs: send: in case of IO error log it
+94d3ea55af26d0f05528bb5e75baab60cc687cd0 net: ieee802154: at86rf230: Stop leaking skb's
+d7ab0babe30512e252300c3b3b579e81eb635dcb selftests/zram: Skip max_comp_streams interface on newer kernel
+5416f62257bf527559d7b40f9dd64fe33ab0a714 selftests/zram01.sh: Fix compression ratio calculation
+2136fff345444bfbc159dfff5910912cb66eca18 selftests/zram: Adapt the situation that /dev/zram0 is being used
+0cdb51cb357dbef0625912cca9b20ff274210d2b ax25: improve the incomplete fix to avoid UAF and NPD bugs
+cca9bc9179fa4c90dc430c6ddf4f1148edb5ff83 vfs: make freeze_super abort when sync_filesystem returns error
+d9fbe39ce5b16abf4cfdb5c83d217d070126c4f4 quota: make dquot_quota_sync return errors from ->sync_fs
+eea61d3addbd9f3127ed8121f701c370c668cb5b drm/radeon: Fix backlight control on iMac 12,1
+64792e74d4017105e7f520e439e1a02d3333baf1 xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
+56876713c0e55355f86fc955c25a4b7dd262ccee taskstats: Cleanup the use of task->exit_code
+06dc5be4dda9b7b8f4b75f4c0f3beb465ad10aed vsock: correct removal of socket from the list
+d6fae7820a93dcd80e9858921bd4b4b44d14a6c0 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6058cf20f931-16d7c689d9bf.txt
+Content-Disposition: attachment; filename=revlist-16d7c689d9bf-d6495932832f.txt
 
-b0ebfa139f444145ad9211bc48c3023637411add drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
-b68109df22594d7afcf2d6c61fb170af65efb258 mm: memcg: synchronize objcg lists with a dedicated spinlock
-0a245e9b22b9f27606524b0afbe04969468228c2 rcu: Do not report strict GPs for outgoing CPUs
-8953e465ed3e483b09c2e9e6b3d328f2c78a186f fget: clarify and improve __fget_files() implementation
-dd43c9fe95541b747bb83e4c770147bc268a523a fs/proc: task_mmu.c: don't read mapcount for migration entry
-084c0391d9c217d90a5f9d8b6f0a89b0960eee6e can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
-948c1bf0aa9b5f0832987ca4ecf8f9bc4fd8b567 can: isotp: add SF_BROADCAST support for functional addressing
-aea97361dbff58c8cc9b1256e5473bb91f97dbf7 scsi: lpfc: Fix mailbox command failure during driver initialization
-5bb9876b7644b077372d2f4786e21b409d33d1c9 HID:Add support for UGTABLET WP5540
-9538d12c7345a83356fb4741ffd94fd26c050d86 Revert "svm: Add warning message for AVIC IPI invalid target"
-5d2d7d1c122b8909e8e1c6b40c5fa836df0b1ae6 serial: parisc: GSC: fix build when IOSAPIC is not set
-ca02dbfb6c0c0ce8324ab821df6ed63153a63c84 parisc: Drop __init from map_pages declaration
-acc3388f956d3eaa3635d548200630e78fb188cd parisc: Fix data TLB miss in sba_unmap_sg
-365ef1620f62d8a5b55da5d2929031ff78961fb6 parisc: Fix sglist access in ccio-dma.c
-1a672269c4e17d0aa00cc8f166a43fab4d975521 mmc: block: fix read single on recovery logic
-89489127997efdb24a9f4d8589b9002f424494eb mm: don't try to NUMA-migrate COW pages that have other uses
-0e95a501ed83d307346b1af06df5d0908de9a353 PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
-c820d079b0021d4eca8aef9dae5dcace888590e4 parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
-b9b51ffb3d4c3473f13299a153725d992ac46e6a btrfs: send: in case of IO error log it
-0b365ac6724a3acd3ee6b48ef5f7319014875357 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
-3ead33a91e734a0ab7e0e66befb6030f28dbb923 platform/x86: ISST: Fix possible circular locking dependency detected
-f2d0aee04696281046c941677cb09c4f121cc3a1 selftests: rtc: Increase test timeout so that all tests run
-a8a23c75f8bd97c71cfe5bcd4cf99ea42cb468dc kselftest: signal all child processes
-a111661320dd62202b02755929b1fe2c12033063 net: ieee802154: at86rf230: Stop leaking skb's
-bff3cbb52bacade6f127f99229f3e45c1eb84924 selftests/zram: Skip max_comp_streams interface on newer kernel
-8b162cc0d0e54e045266845b75c33abe726a264f selftests/zram01.sh: Fix compression ratio calculation
-b8553699534cbbc72bb04525073f924851389773 selftests/zram: Adapt the situation that /dev/zram0 is being used
-3da43f056aeda5e11ea5df8ea8153b6a91467f08 selftests: openat2: Print also errno in failure messages
-f822c244c00270af61eb03b0e028108a8dd8efe2 selftests: openat2: Add missing dependency in Makefile
-30639f6dcf6b79ad25c4cdc8fb765e1e40dcc643 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
-d95ae44e97cc59c39f9af20baf8b021227e8cfcd selftests: skip mincore.check_file_mmap when fs lacks needed support
-3a2e77a7a455eebc18bd14cb540b2c06ca4f6064 ax25: improve the incomplete fix to avoid UAF and NPD bugs
-6a7802fee952925f0ffd87769fe5002b8f743945 vfs: make freeze_super abort when sync_filesystem returns error
-549c7a8820ccffa983d229174229ced2159414c4 quota: make dquot_quota_sync return errors from ->sync_fs
-f48fa2716069c141eea882f2dfaa20633aad3f5d scsi: pm8001: Fix use-after-free for aborted TMF sas_task
-d6cc2dd91651fe592cf05a8ed708aee26cc03970 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
-54fb14485c632e792886e16e12b812fd77615569 nvme: fix a possible use-after-free in controller reset during load
-ed0e3fdc5706044aff5a4afa109ddde10750a67f nvme-tcp: fix possible use-after-free in transport error_recovery work
-8d4a2d78117509aef6ea5de02d5930fb1da944bd nvme-rdma: fix possible use-after-free in transport error_recovery work
-5463c6ba5a2e66358271d494373d0d4d9bd91581 drm/amdgpu: fix logic inversion in check
-9be86557ede91c97411bdb10beae4d4408719fdf x86/Xen: streamline (and fix) PV CPU enumeration
-d2ec7929cb9e77154947d5b6a5b39d71c8ab0131 Revert "module, async: async_synchronize_full() on module init iff async is used"
-cfdc18d4869956d30790b677a746fbd39e667a8f gcc-plugins/stackleak: Use noinstr in favor of notrace
-302d41c21f11a7a6c315874ac97f22357f9dcaab random: wake up /dev/random writers after zap
-493fe67c09bbafc1d53e9400102465b2ef809aed kbuild: lto: merge module sections
-738b98f9146eed52afb4faade7208b190278026e kbuild: lto: Merge module sections if and only if CONFIG_LTO_CLANG is enabled
-68e3661f9dd2985f9c508f7a0c917f975456478b iwlwifi: fix use-after-free
-f1f2b8bf2c9a58e5044045012cfdaafb02fe0bc0 drm/radeon: Fix backlight control on iMac 12,1
-16d7c689d9bf692c411183999b5e3abf3977d184 drm/i915/opregion: check port number bounds for SWSCI display power state
+51a5fede0c6e883df3e4b813990b86003321cfd4 drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
+f6a8a618eabbfbd8a0b4a917ba21537c48f857e7 mm: memcg: synchronize objcg lists with a dedicated spinlock
+25d66a68d4d9f57f0d86b41463711934c896842a rcu: Do not report strict GPs for outgoing CPUs
+922bdcc3bf80ae9ffb5c7c791947f64b1a77169c fget: clarify and improve __fget_files() implementation
+93539a114d125f82ed85a90240b5df8c51cccd0d fs/proc: task_mmu.c: don't read mapcount for migration entry
+e6718ba719316070ce18ce96aaed6c8eaa895d0f can: isotp: prevent race between isotp_bind() and isotp_setsockopt()
+091aac0a1da176803a61b8b265bdeae8e74588d4 can: isotp: add SF_BROADCAST support for functional addressing
+b39a2a6990dd26bdff27f4d08b5999806b8badf0 scsi: lpfc: Fix mailbox command failure during driver initialization
+cf2887ace43bc97fc75ebc9c71131f00b45f2c03 HID:Add support for UGTABLET WP5540
+53b9eaa5dd5155fdc48267a2b9f1c7c01b6b632b Revert "svm: Add warning message for AVIC IPI invalid target"
+4407ac01dae1194072a88fe6a23c7c0d48aa4dbd serial: parisc: GSC: fix build when IOSAPIC is not set
+92a30955155db3be41069b597a3bf38c6e6e8849 parisc: Drop __init from map_pages declaration
+98b97d5ef2139965d06dae83301c67380e38411f parisc: Fix data TLB miss in sba_unmap_sg
+02ee8d95595a6f601db0a1fc65d303a087be58d3 parisc: Fix sglist access in ccio-dma.c
+e78889670071f080dd8f6bdbe41fe9466a677816 mmc: block: fix read single on recovery logic
+a2ba2515ac3d8997aa3d9248bc093ed5862c3861 mm: don't try to NUMA-migrate COW pages that have other uses
+52f0a0bb713e555843d549478f764eb01b81bfde PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
+20551b6352b103f866734b41d89cae4846c2ba43 parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
+55f8c7ca0a6e62721aa928317cbe984691c8eeae btrfs: send: in case of IO error log it
+051edd215a134ac58092c0b878fd85d41690045e platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
+8e2798d844f050d7be968b338d4ed5bdd9bb02d7 platform/x86: ISST: Fix possible circular locking dependency detected
+8973c55fcd7f06ff7fad73b6b8cfb65c2460c8e7 selftests: rtc: Increase test timeout so that all tests run
+e727a82bb4d7a3058407e2d6072450a73c1bc951 kselftest: signal all child processes
+75295e3bbaae460cab6b169e1b9f3a440f4d7ab8 net: ieee802154: at86rf230: Stop leaking skb's
+b68dc21c895253a2e9f617fbedfacb2167ffd1f4 selftests/zram: Skip max_comp_streams interface on newer kernel
+4c8704254d7fabe34578094c327c0846c0af6b0c selftests/zram01.sh: Fix compression ratio calculation
+67ccc203ea7d63c06f98890809b96ab1a962bba5 selftests/zram: Adapt the situation that /dev/zram0 is being used
+42090b35aa07fdebd9386032719e1b690d67f5e9 selftests: openat2: Print also errno in failure messages
+e2a2da3f2ee061b5c6bd1844d1e90fc09a2bae2b selftests: openat2: Add missing dependency in Makefile
+5762c21c8eabc855de65f420712e43fc62128d05 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
+6530531e647c3819bf64cbe963572d786b0a3a47 selftests: skip mincore.check_file_mmap when fs lacks needed support
+818649a58e11010010093f15350b89ce99f29e9c ax25: improve the incomplete fix to avoid UAF and NPD bugs
+58c996148cfaf6d52cfb09f8b718445ba7c65a25 vfs: make freeze_super abort when sync_filesystem returns error
+14ef89e965d862c4f94690da58db7a38acb9d646 quota: make dquot_quota_sync return errors from ->sync_fs
+35f6496bafb02935e27083ce5265b9c961f300ef scsi: pm8001: Fix use-after-free for aborted TMF sas_task
+f45c5be4d4177f79d933fa870ae2a99b10ea1e7b scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
+4f49629e6252d4b2f9ce49ce15e0e669121b9c9a nvme: fix a possible use-after-free in controller reset during load
+40f00fabb927ef7e543acfc7f1472dd413d43e33 nvme-tcp: fix possible use-after-free in transport error_recovery work
+8d5a14f9be772f87ba24ff6e84a55e8ef78056d4 nvme-rdma: fix possible use-after-free in transport error_recovery work
+bed440858c0754bc957401b127b3fb48814df01c drm/amdgpu: fix logic inversion in check
+d5bee85eec0effd487be1ac270c1508565f31a91 x86/Xen: streamline (and fix) PV CPU enumeration
+7978a65fbedccefd6ed6254c8c672fbf411c7694 Revert "module, async: async_synchronize_full() on module init iff async is used"
+a0a52a628a22327c57be9207e953dae4f6114ff7 gcc-plugins/stackleak: Use noinstr in favor of notrace
+4f4047b9b05fcf9daf8156cfc69057f9a71accf2 random: wake up /dev/random writers after zap
+ca7848516bbe3a30666b32c6865357eaf7318890 kbuild: lto: merge module sections
+c84096a7af3b15917879cb63b2f8c114ceb758b3 kbuild: lto: Merge module sections if and only if CONFIG_LTO_CLANG is enabled
+1538ae75ae1797b88ac3f8d7610d643a24c33707 iwlwifi: fix use-after-free
+115e4f2796b0105fd0f7371dab0d2a3d47d2a388 drm/radeon: Fix backlight control on iMac 12,1
+d06f690a30439205de8a3a77a2eba40e65b16436 drm/i915/opregion: check port number bounds for SWSCI display power state
+d6495932832f8c195ecfaff3f4b697fe539f0622 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11259a54dce4-ae15fa2bc286.txt
+Content-Disposition: attachment; filename=revlist-ae15fa2bc286-ef8dc9fc7dc4.txt
 
-59b60722805c42b68cd910e6b35094359ab12cf0 drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
-913f506e8d443b1821dab108b1f9fdf2f6a44849 fs/proc: task_mmu.c: don't read mapcount for migration entry
-06664d96439594186edd0f4ef358ff280956fcb1 btrfs: zoned: cache reported zone during mount
-820b63b8b25b5a7fa0e0fb3a337b292fed2971e4 scsi: lpfc: Fix mailbox command failure during driver initialization
-d9c99917b8c061d86ebbe4fe6b4c1f27a8fcca5e HID:Add support for UGTABLET WP5540
-505c7d6f85cf21cd94b7f47b295209f92f9db026 Revert "svm: Add warning message for AVIC IPI invalid target"
-75359e8f743376d8d17af880935e4b1345be5de7 parisc: Show error if wrong 32/64-bit compiler is being used
-02894ca4a09b209421b4851c8cea4750fe2eef01 serial: parisc: GSC: fix build when IOSAPIC is not set
-dbce108c8e8a69f358fe92767d4bc996df350688 parisc: Drop __init from map_pages declaration
-59c4214adb832d01bcb142fb267db321f00575ad parisc: Fix data TLB miss in sba_unmap_sg
-01437035fb951b8f8cd411c0477e4e5bb34e1d08 parisc: Fix sglist access in ccio-dma.c
-90c9a1f6863bc7ff6a01aada6e5756aad017f326 mmc: block: fix read single on recovery logic
-3f09728fa9e58eddf501c4efcc46e9d0d0fae1b1 mm: don't try to NUMA-migrate COW pages that have other uses
-91661f856e05b0df29432d1006cd42c3b7103e74 HID: amd_sfh: Add illuminance mask to limit ALS max value
-266ed5e0fc032b401facc29f7a231a327e94bb8b HID: i2c-hid: goodix: Fix a lockdep splat
-49709f6fd1a1729a728be6d5a5dcad6a759c475a HID: amd_sfh: Increase sensor command timeout
-e038af2defecb8df34257b9da9540c635de3acfc HID: amd_sfh: Correct the structure field name
-9be605b5c51a96a47bcba6453c3e71ccf71d7472 PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
-e1c14799fa8c330997511c2981873a8e692d17b9 parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
-25f8ea31424c922676b53abfe80526fb32d6468c btrfs: send: in case of IO error log it
-c81fc4eaaa709a83a7d45e1dad0ac9f127135326 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
-ff4b5b3a68a637cf2ca96f62cc5b0fafc8c4a2ae platform/x86: ISST: Fix possible circular locking dependency detected
-ab881f866d21ed0ab53f7d1f77f696c34253f7d5 kunit: tool: Import missing importlib.abc
-9d7470ae44ad88e75481531d1ca5b73b64290e86 selftests: rtc: Increase test timeout so that all tests run
-34820116b300baaa537aaaab3216a9d46a79b720 kselftest: signal all child processes
-2ae95f3f8a9af4e4ec0bf31a1d04d8909af5a43f net: ieee802154: at86rf230: Stop leaking skb's
-dd7d36610125162d0f7451f7a85c2b9555e3150e selftests/zram: Skip max_comp_streams interface on newer kernel
-d4ce33427f6ff485d68a8f3bf5c308cf5b23f09d selftests/zram01.sh: Fix compression ratio calculation
-4837a3cecf4cbee4814d7e7ac053af4af5b86730 selftests/zram: Adapt the situation that /dev/zram0 is being used
-914f043e0a08243ea13f955f3f8431183e5c06ef selftests: openat2: Print also errno in failure messages
-87a4b2496798297859ae9739259a460446e8df28 selftests: openat2: Add missing dependency in Makefile
-0debe94989d90fb80af4bc866ec099991b144cf1 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
-cc2b7ecde968788bf1578f3e43338bd2bb66fe77 selftests: skip mincore.check_file_mmap when fs lacks needed support
-3a92e696663e8ebfa7ee51ea549fb94d76b174ee ax25: improve the incomplete fix to avoid UAF and NPD bugs
-446dd1f821a07f26eaeca9bcefe7883ad1f3d2bf pinctrl: bcm63xx: fix unmet dependency on REGMAP for GPIO_REGMAP
-5029e0509bb99fe6e6f230059208b4af0cf4ad48 vfs: make freeze_super abort when sync_filesystem returns error
-0d61ab444a6f7771b68b361c7c86f42c59457375 quota: make dquot_quota_sync return errors from ->sync_fs
-1dbe1ae4ec8191964487718df522769505c80867 scsi: pm80xx: Fix double completion for SATA devices
-952e90ab0b87ca37494d9fc4df0caa0078fd3a40 kselftest: Fix vdso_test_abi return status
-15073a8fef02cab145ac75b96ce44819c597d280 scsi: core: Reallocate device's budget map on queue depth change
-d52912d9a6d76e370232cf1acec1cd774402b816 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
-640c7894f1b2934f7eab0f51887f11b4ab63ad60 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
-29f9397e0a9a547d56e57785bb426293175fc4cc drm/amd: Warn users about potential s0ix problems
-e797fe46a7c20e1eb95372f7409b1bdc0303aa8a nvme: fix a possible use-after-free in controller reset during load
-b4fac3973f712be5e4c085ea79cdc7bfe17503ad nvme-tcp: fix possible use-after-free in transport error_recovery work
-69b1594a816525a0ea4098ed6fc25eecb6d58d98 nvme-rdma: fix possible use-after-free in transport error_recovery work
-feabbe53c717111e48eb574a1201acb03557d862 net: sparx5: do not refer to skb after passing it on
-a1d934150ce9b1ed8c0440d792d53610f0c1dbfe drm/amd: add support to check whether the system is set to s3
-311e5df4448f84bc53fe31bcffe1e13b46cd78d4 drm/amd: Only run s3 or s0ix if system is configured properly
-986e5454aecb2358e9c7bc0a3a08bb09bad88644 drm/amdgpu: fix logic inversion in check
-f137a91ef2731d91513b6fd9c27fba5377d8b6e1 x86/Xen: streamline (and fix) PV CPU enumeration
-fc395e0e08bae5213db16da27694fed4d90e250e Revert "module, async: async_synchronize_full() on module init iff async is used"
-a46e77c93068e9094430946501f79ff79e58f250 gcc-plugins/stackleak: Use noinstr in favor of notrace
-22a3a1fc4a87d3975814f2318fb2140497e96441 random: wake up /dev/random writers after zap
-0b161213b039f86e02e33b12c972833e969a0931 KVM: x86/xen: Fix runstate updates to be atomic when preempting vCPU
-9382d8122db60dc7db0191e36b0aff31e65cd6ac KVM: x86: nSVM/nVMX: set nested_run_pending on VM entry which is a result of RSM
-02d46aae03d7f1bbe14e24ebc518903e454a4077 KVM: x86: SVM: don't passthrough SMAP/SMEP/PKE bits in !NPT && !gCR0.PG case
-381fb181b226c0c23ab6731617aa680180184abc KVM: x86: nSVM: fix potential NULL derefernce on nested migration
-dd453e295fb72e1c039f0c546c7618eb88e020b3 KVM: x86: nSVM: mark vmcb01 as dirty when restoring SMM saved state
-438b9e914f60787cc5fbf4ede3287e985ed88f37 iwlwifi: fix use-after-free
-49e8c10e26539db8c8a548b84f377c58a7685df6 drm/radeon: Fix backlight control on iMac 12,1
-4940a1c03ffbf9869a2e46044126ed1ae633509b drm/atomic: Don't pollute crtc_state->mode_blob with error pointers
-199499745c3567742006c0dbedce77e62c7a5f0c drm/amd/pm: correct the sequence of sending gpu reset msg
-994b137aaa885d72445c1ea7440ed0c9c2d65003 drm/amdgpu: skipping SDMA hw_init and hw_fini for S0ix.
-54d820c40992b5ed05748ec57e2b2c73f61f0afa drm/i915/opregion: check port number bounds for SWSCI display power state
-04bc30ffc841a1f2168f13d121ba1f5f0e336db0 drm/i915: Fix dbuf slice config lookup
-ae15fa2bc286ce18e4844fe100a4ca17134e3585 drm/i915: Fix mbus join config lookup
+e644580868aefeb3ade0b3d95f48603560e3b4a6 drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
+2051c1a2939a1a9724ae758b3a20582c54aef0b5 fs/proc: task_mmu.c: don't read mapcount for migration entry
+3d41120881fb6dbdbfeb560993007e7c115dbf4d btrfs: zoned: cache reported zone during mount
+c5255494f171479263cace206cbf5384351d9c87 scsi: lpfc: Fix mailbox command failure during driver initialization
+aa118f403ad5090eb789e708a4086232ac1af240 HID:Add support for UGTABLET WP5540
+dcb255d38f0d8e8a0923f01cc4c677353ad84e7d Revert "svm: Add warning message for AVIC IPI invalid target"
+f1ed701b13995c16001d8716f6b89f5a43e2568b parisc: Show error if wrong 32/64-bit compiler is being used
+fb889e3ea93fba849d6c90f269d38ce58c6ba863 serial: parisc: GSC: fix build when IOSAPIC is not set
+7ccefa7b4025efba1897faa4df6964106c948bf2 parisc: Drop __init from map_pages declaration
+30ec9764d592a6986fe377d8f1829668a16c1298 parisc: Fix data TLB miss in sba_unmap_sg
+06754410b83634ac13bf06532b1e894d12a33503 parisc: Fix sglist access in ccio-dma.c
+9e6dd597ea33c4822c05f211e404800b10f2bc9f mmc: block: fix read single on recovery logic
+3887d6031db1e4f26fe4f99f5cba14ee49539b7d mm: don't try to NUMA-migrate COW pages that have other uses
+b8f93e19abc5c2048d1c3261bbe9c5e719018b75 HID: amd_sfh: Add illuminance mask to limit ALS max value
+fd002da78c305183637c8b6fb41b1d39f1992c25 HID: i2c-hid: goodix: Fix a lockdep splat
+185701b75c96c9f2f66e9563c13b7d3594615eb2 HID: amd_sfh: Increase sensor command timeout
+debff45bc0d0bf0b054c8ec059ec39d15d2b569f HID: amd_sfh: Correct the structure field name
+1e2a1def84c780f539b12ef0a052f63b23a6c707 PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
+cd7a4c984d962c738ec36ab293991a8497677e4b parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
+0bf86078e8739f2c7e3612e311404ff9e1e3f3a0 btrfs: send: in case of IO error log it
+80f83099fc009159882a62beef88c8b6f907cf47 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
+5105a289fea29dfb6e1dd77d6c25190e159d0445 platform/x86: ISST: Fix possible circular locking dependency detected
+1dab422252a86e1a21cea16477aabc82d11ee4b3 kunit: tool: Import missing importlib.abc
+2284b5e4375e3d8f412ca0e8ed7d6c972c3c79fa selftests: rtc: Increase test timeout so that all tests run
+6a7141350b6e087d7eafa66011799c9ecb48f8eb kselftest: signal all child processes
+c243e0c86f215712cbaa7669ddab54a70aa12c78 net: ieee802154: at86rf230: Stop leaking skb's
+1ed37eb3f7b439f5ffd8ae889d94c960aa439cef selftests/zram: Skip max_comp_streams interface on newer kernel
+7db360307badd425be67d3b0a1f45bad17b3a09f selftests/zram01.sh: Fix compression ratio calculation
+c7634470875c42e3077a95adae5e2b19ec9c7899 selftests/zram: Adapt the situation that /dev/zram0 is being used
+e76b6373169a8df8622b93ca2f3bbdfa4ea28144 selftests: openat2: Print also errno in failure messages
+405ade6b3067125400c34c06e948fd99b530d2e2 selftests: openat2: Add missing dependency in Makefile
+8d4581e23f0248b71410b55f34073643a49e4585 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
+ab6ff1210f494853cf72aa464eb4942c8db25e96 selftests: skip mincore.check_file_mmap when fs lacks needed support
+21117623b99a9aef0338141a0c944701f2c21d81 ax25: improve the incomplete fix to avoid UAF and NPD bugs
+d405d8557f560a42f0a4430c1e558a197013b6f4 pinctrl: bcm63xx: fix unmet dependency on REGMAP for GPIO_REGMAP
+698afc9cdf8d4d8ef0f1316ef0b616720f072c99 vfs: make freeze_super abort when sync_filesystem returns error
+402c8c215c27e96ff73d97d0a809fd3c3befde71 quota: make dquot_quota_sync return errors from ->sync_fs
+7dda1d1c9d308aa4f9b1575e1e282d5715476e1f scsi: pm80xx: Fix double completion for SATA devices
+bf55367ee0b1e8f0dd3782b7f9ce53fc49ffe781 kselftest: Fix vdso_test_abi return status
+e8034590d54ab8ea3dc5307b404c8c81ef074a95 scsi: core: Reallocate device's budget map on queue depth change
+21400e50e1d91cf1ff414ad5000da9c1cc1475bd scsi: pm8001: Fix use-after-free for aborted TMF sas_task
+ac45bddd83b65c476689e017671d1f613d6f4fe5 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
+c2cba5776cc46f1becd58cc3374b082111e88e2a drm/amd: Warn users about potential s0ix problems
+d5a21fb7fa9f5d9522e9c549ca6cf119fe20d0f3 nvme: fix a possible use-after-free in controller reset during load
+a6d89434d2892345136ff954ee1e3d362657ff43 nvme-tcp: fix possible use-after-free in transport error_recovery work
+f4c418c9b1b3c00b688487a30ee12a50603b9dfb nvme-rdma: fix possible use-after-free in transport error_recovery work
+679ccd3740543d7adb480ac4a10058da0a978760 net: sparx5: do not refer to skb after passing it on
+b85d0c2425b887b6dbf7a7fbbdeb314cdec89a1e drm/amd: add support to check whether the system is set to s3
+088678d1fa80ba433957a8837f8b7ed9c31820bd drm/amd: Only run s3 or s0ix if system is configured properly
+327cde6bef774782ba49e21515a1e2339b5e496d drm/amdgpu: fix logic inversion in check
+733f028596624fedec5f6c1d27bffdbc41cf4e6c x86/Xen: streamline (and fix) PV CPU enumeration
+2d9c79d1eae2ac9c0adc9e88e02fb5ae2ff0ce4c Revert "module, async: async_synchronize_full() on module init iff async is used"
+b0f18209fdfb7ba2be907b50f8a70ee98d1bca4d gcc-plugins/stackleak: Use noinstr in favor of notrace
+58d3dc07ea597fbc233076bead50b7cc353b8f6e random: wake up /dev/random writers after zap
+a469cdccc7d63b6950ad8f942641103ebf8b510f KVM: x86/xen: Fix runstate updates to be atomic when preempting vCPU
+2b0648377ddef038e31158caef0703bfa5c2f3de KVM: x86: nSVM/nVMX: set nested_run_pending on VM entry which is a result of RSM
+19ab1529430809919a164abc5c7927ffdddb71b7 KVM: x86: SVM: don't passthrough SMAP/SMEP/PKE bits in !NPT && !gCR0.PG case
+c1629a9ed5507871b2d4fc284c7b2abee56d8fd8 KVM: x86: nSVM: fix potential NULL derefernce on nested migration
+487c0319961900b7e3e286ef1d02bbf3ca45cc49 KVM: x86: nSVM: mark vmcb01 as dirty when restoring SMM saved state
+d59bf7375b67d64cfcf03094a39952d4abf40c62 iwlwifi: fix use-after-free
+77c61874ccbbedde0cd501baa601b08d5f3904c4 drm/radeon: Fix backlight control on iMac 12,1
+f5da194aa4c7bdd377017af7bd6d721cee52f04f drm/atomic: Don't pollute crtc_state->mode_blob with error pointers
+9868d5f5c048b51ab281455ccc63785f20bedec9 drm/amd/pm: correct the sequence of sending gpu reset msg
+6a0928856412197691cec5e40ad0b7f4f937f3a6 drm/amdgpu: skipping SDMA hw_init and hw_fini for S0ix.
+b80c822ac71bbf1ce6c46552c6368613a266c483 drm/i915/opregion: check port number bounds for SWSCI display power state
+16a5bb8b89428e62c301a9e0238083ca85eec72c drm/i915: Fix dbuf slice config lookup
+6048404c786393fd313ba398b58230dfefcc80fd drm/i915: Fix mbus join config lookup
+ef8dc9fc7dc495264148d30e04f3b80f290d215f vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d22ee933e29d-927cc24e742a.txt
+Content-Disposition: attachment; filename=revlist-927cc24e742a-e6a8b70ee80b.txt
 
-bef1cee4ce645dda099fc6e0da76326f729d8cc0 drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
-7f5f4349d3f91c334625087e3f00cca1cd53806c bpf: Introduce composable reg, ret and arg types.
-a5e19a48955ddda808ad764234a097b008069214 bpf: Replace ARG_XXX_OR_NULL with ARG_XXX | PTR_MAYBE_NULL
-53acf25c7547ad44b24e18b397891b827e7a75a4 bpf: Replace RET_XXX_OR_NULL with RET_XXX | PTR_MAYBE_NULL
-d2b8a16c27adc4142a80300b184d0a8dbb5a9e42 bpf: Replace PTR_TO_XXX_OR_NULL with PTR_TO_XXX | PTR_MAYBE_NULL
-a03e2b10a688ead058bc277f8ae647b20f4fdcc1 bpf: Introduce MEM_RDONLY flag
-abd9b77b670b726e7880586c2ea5d81bb5aaea47 bpf: Convert PTR_TO_MEM_OR_NULL to composable types.
-dd9ef3acecb52d2837c785f2aa66ba48bdf9f92b bpf: Make per_cpu_ptr return rdonly PTR_TO_MEM.
-a2cebcafd972334690a4ac4fabc148cd1b7802c2 bpf: Add MEM_RDONLY for helper args that are pointers to rdonly mem.
-0e1b404d01ff3546babc4437dc528a983bc22872 bpf/selftests: Test PTR_TO_RDONLY_MEM
-2481d51bfddbc0776b78363ca4a3d42deafe4480 HID:Add support for UGTABLET WP5540
-75329edccc59928a7de11d053d45b86f13cf1f1c Revert "svm: Add warning message for AVIC IPI invalid target"
-b8d92f758005ab7cb4b97ecb02eefecb8497395a parisc: Show error if wrong 32/64-bit compiler is being used
-2808637959b04d7c7934c1eb03b4b4ecca59e82d serial: parisc: GSC: fix build when IOSAPIC is not set
-de29b0b676a3b3a16d0bd2ac4fadb215fbcf775d parisc: Drop __init from map_pages declaration
-a5717af74162028ecb726a3685ade4f51fba8302 parisc: Fix data TLB miss in sba_unmap_sg
-4fb7b53e3f98b29e379e915ed94c79c5f755dddb parisc: Fix sglist access in ccio-dma.c
-b969ec331cc340d426d112b79f56554b7ad404cc mmc: block: fix read single on recovery logic
-587f1fc06a0a4acfa9f2f94d5fd6057a4978f0c6 mm: don't try to NUMA-migrate COW pages that have other uses
-d5cdb0249a0b67d783e34c71fd89ed205305284d HID: amd_sfh: Add illuminance mask to limit ALS max value
-433b2346af611752e01a994fa3ed6a8bc3380a4d HID: i2c-hid: goodix: Fix a lockdep splat
-5fe7073f6f229c6feab0507d4adb54bf62190d4d HID: amd_sfh: Increase sensor command timeout
-855f58148b6cd6f9c0d6b672b2a288550c8cb8e4 selftests: kvm: Remove absent target file
-31e19f1ced0f8fa9a1e9c95ee6494348501159ca HID: amd_sfh: Correct the structure field name
-3b8eae5e53a32c03de7390ebe3f6653cc60a6483 PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
-ebc2ca6b55489a1ba7af8c96ba2f575851cc4a00 parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
-a5b7c4920ebd106a05390bf622700a59272ab53a HID: apple: Set the tilde quirk flag on the Wellspring 5 and later
-bbd67986708dfe6b6b72677bf27e89f32c293cf0 btrfs: don't hold CPU for too long when defragging a file
-db7251317c468c7ba5f5fb256fca9b0e4332fe08 btrfs: send: in case of IO error log it
-32f3c89d33d0cf3f7d6105ddc88d7875617e01da btrfs: defrag: don't try to defrag extents which are under writeback
-04fa634b618fc03637f6c9d3832b0ae4f58ec119 ASoC: mediatek: fix unmet dependency on GPIOLIB for SND_SOC_DMIC
-4e3c840c9c2b561e2816a5d2bf15de8c375c4808 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
-d98d89ddcf7fbc760e6b5eda77ef1fe509ce582e platform/x86: ISST: Fix possible circular locking dependency detected
-0dfe43420b8c13eb7c26821853fcf1554e326e07 platform/x86: amd-pmc: Correct usage of SMU version
-fc9cd1d7d06ff1157c05f2a27f836c55d875a778 kunit: tool: Import missing importlib.abc
-795128ab619915f87183899abdbad9f37dcce856 selftests: rtc: Increase test timeout so that all tests run
-e79f63e44c2e9163547dc686b5d0b5aafdf3ddd8 kselftest: signal all child processes
-6b600adae147986b3f8accc039ab247bac11469b selftests: netfilter: reduce zone stress test running time
-67f8e574fc84ee8ba6e2f1b62d9d52bc3d0c9e45 net: ieee802154: at86rf230: Stop leaking skb's
-6cfccde0b66178b30ab0ddf51ea4ece63168f421 selftests/zram: Skip max_comp_streams interface on newer kernel
-7ea71b95d2562fd10d7ae470c6af4000ab8c84b2 selftests/zram01.sh: Fix compression ratio calculation
-051b3b6eb2c31f6831a9f09d07f623042e93fbcb selftests/zram: Adapt the situation that /dev/zram0 is being used
-721704df5d9fb8661436a0a91d4709e82bc822cc selftests: openat2: Print also errno in failure messages
-de0d64fbbe0ac6b5675d7ad7f3a9687c322faae9 selftests: openat2: Add missing dependency in Makefile
-8509b1903d70f7b531a196abd5ddddb9adb86ac9 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
-5884d97e79fc13212e059110f58318167447d3d5 selftests: skip mincore.check_file_mmap when fs lacks needed support
-a61d8aee7aca72cd6a845c4b74f91a8755a9454b ax25: improve the incomplete fix to avoid UAF and NPD bugs
-b2a99b4cf29eb3311c335869b1a188c1e1cf7b66 cifs: unlock chan_lock before calling cifs_put_tcp_session
-6d48c26d352a04de7032700533b7077c5329e744 pinctrl: bcm63xx: fix unmet dependency on REGMAP for GPIO_REGMAP
-83eb4ac00bf920950fbcbac62d1c55a21b01bedf vfs: make freeze_super abort when sync_filesystem returns error
-4311b751e73068d604d64197191efdef4ce4609d vfs: make sync_filesystem return errors from ->sync_fs
-505d7948de4140794233f9df69dbd0f804387209 quota: make dquot_quota_sync return errors from ->sync_fs
-070e98525f63eeb3244299b1e04097dab430bc27 scsi: pm80xx: Fix double completion for SATA devices
-52bc917ec6ab00b52b220337c2b3909e5c32b19a kselftest: Fix vdso_test_abi return status
-8225ceefabd5c2e0026bf18cc26db7db25758f2a scsi: core: Reallocate device's budget map on queue depth change
-b743b976418dd9ddfeb72f0b1f2b422310681117 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
-920ce67a2355b30085684ce80e6fa9d1158bab0a scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
-47bf06515fd62c5fa612de63fc0d3f55eeec1709 drm/amd: Warn users about potential s0ix problems
-5a10cb177673bbabaa2c080f7a00e89dfe370c22 mailmap: update Christian Brauner's email address
-fbd4e207674dfd1ff5750e2d95289bff19475907 nvme: fix a possible use-after-free in controller reset during load
-9c5984f05c31cadf5593e29eb07337292bf147b9 nvme-tcp: fix possible use-after-free in transport error_recovery work
-25d6ed3a9d1e0bdc3b201bcd5c2771afbb4cd399 nvme-rdma: fix possible use-after-free in transport error_recovery work
-162172d26a40736d67eb3e7afc190c5b679dbfcb net: sparx5: do not refer to skb after passing it on
-94918a37a62d4ed55d09b2feec18704fecf69b30 drm/amd: add support to check whether the system is set to s3
-2777330246c751ecd6ff87ba95552adf70549a7d drm/amd: Only run s3 or s0ix if system is configured properly
-a0c07feea4fe933d1a80f011157c6a2f430884c8 drm/amdgpu: fix logic inversion in check
-b6a9f939dd2317ac6f353e7c8375306beffe25a9 x86/Xen: streamline (and fix) PV CPU enumeration
-71b3ac18e461d716a192ecfc5e613ee2479857af Revert "module, async: async_synchronize_full() on module init iff async is used"
-ab3d292126de9bc30781b4aa808112d497bab94f gcc-plugins/stackleak: Use noinstr in favor of notrace
-daff58204763469d07cdc9e98031ec71fa2a8348 random: wake up /dev/random writers after zap
-66abbce3d5fac2500505d2306a84b3ffc855c424 KVM: x86/xen: Fix runstate updates to be atomic when preempting vCPU
-80a25607e845e15236d6392693755fd41bab8ddf KVM: x86: nSVM/nVMX: set nested_run_pending on VM entry which is a result of RSM
-4f884217071810ebc0fe6d0836de52660568f6c6 KVM: x86: SVM: don't passthrough SMAP/SMEP/PKE bits in !NPT && !gCR0.PG case
-8b6e67f84f8ae343f8a7919f6978010da0e32de9 KVM: x86: nSVM: fix potential NULL derefernce on nested migration
-b585c691f459fd73452398ad539d8a4b54f0d8a4 KVM: x86: nSVM: mark vmcb01 as dirty when restoring SMM saved state
-55fcdb115b8dfc61e86c9b7213baf58af0fe8a00 iwlwifi: remove deprecated broadcast filtering feature
-9c6985053beef51c7cb02afd5e107009a88fe1ba iwlwifi: fix use-after-free
-835518458f68a75877530e938b0d43613b4f2224 drm/mediatek: mtk_dsi: Avoid EPROBE_DEFER loop with external bridge
-d1ab1a19b10b1da53ae0407cf66ebcbf6adc65b3 drm/radeon: Fix backlight control on iMac 12,1
-a74928560c91aa6dd28090c97c7c179342031f7e drm/atomic: Don't pollute crtc_state->mode_blob with error pointers
-2bf3bbc3d588bbeb4c660c6ada6842df3c941955 drm/amd/pm: correct the sequence of sending gpu reset msg
-7d540a349ad05f39a1b781395fe34eaf47c68a5c drm/amdgpu: skipping SDMA hw_init and hw_fini for S0ix.
-e9c9eb643f11c70c4687114a7f6a45c64cda0c05 drm/i915/opregion: check port number bounds for SWSCI display power state
-6ce5b9703094e4a40ad29e26e1d67d09399e49b9 drm/i915: Fix dbuf slice config lookup
-927cc24e742a8b0d6b93e13fe4427fa446be121a drm/i915: Fix mbus join config lookup
+70ed0b906444ce46dbb6b17876ef4ae03c6dfb90 drm/nouveau/pmu/gm200-: use alternate falcon reset sequence
+d6ab3769f249775b39b2c1172dcc54ffbf5a2857 bpf: Introduce composable reg, ret and arg types.
+ce21927bad141200180c4ff3ec24d1bf563a5fe8 bpf: Replace ARG_XXX_OR_NULL with ARG_XXX | PTR_MAYBE_NULL
+fbcd211a678218eee7fa872ae002dd20664ad18b bpf: Replace RET_XXX_OR_NULL with RET_XXX | PTR_MAYBE_NULL
+ca827d622fcbc82544d7d7bc3c2a6c1b677ceec7 bpf: Replace PTR_TO_XXX_OR_NULL with PTR_TO_XXX | PTR_MAYBE_NULL
+ec9324d3f7656cd49796d117a77abb18e42e37dd bpf: Introduce MEM_RDONLY flag
+157f19dae767e3054fe1f718ff74d6ad03daaa3b bpf: Convert PTR_TO_MEM_OR_NULL to composable types.
+49202eb53c08a611573630ef18828012eaedad5b bpf: Make per_cpu_ptr return rdonly PTR_TO_MEM.
+3c12b5126aa31913e2bf3d65fa588e28185bd2c7 bpf: Add MEM_RDONLY for helper args that are pointers to rdonly mem.
+1c8fece10a113c147edf3a9701a2e60100aea9cf bpf/selftests: Test PTR_TO_RDONLY_MEM
+353f271805a6308d284041f1f4652e5ba2a3cf2e HID:Add support for UGTABLET WP5540
+b6f72eef879146e49cc8037676c4f049388f9402 Revert "svm: Add warning message for AVIC IPI invalid target"
+f1508f9f659f76a7bafef12c9d6a489eb98087cd parisc: Show error if wrong 32/64-bit compiler is being used
+17cdc02878458bb6d0de0b74afe0e33bb941f1f3 serial: parisc: GSC: fix build when IOSAPIC is not set
+dc3984f1f98abc9562f43b4c422bfa1d314f9bc9 parisc: Drop __init from map_pages declaration
+678466e7872710476d2183c0b2f9b7353eb390ec parisc: Fix data TLB miss in sba_unmap_sg
+38df428568d63d0a89235d6600e371f6cee97c1e parisc: Fix sglist access in ccio-dma.c
+28dff94d893001b102a823d73b32503f4ab97641 mmc: block: fix read single on recovery logic
+e4e62d5c1e7f5d37c5ceb3020d2ca02800fa9298 mm: don't try to NUMA-migrate COW pages that have other uses
+777f1a9bedceef6099b20f891bb87867021bfb5f HID: amd_sfh: Add illuminance mask to limit ALS max value
+9f05abf5740a1858f9b3feb4bc1a723912a0a388 HID: i2c-hid: goodix: Fix a lockdep splat
+cb36729991604eaf8b06835a170c447c8ae19ba2 HID: amd_sfh: Increase sensor command timeout
+60faaf33e6dab67bb731f7850b1ce329434d2bd1 selftests: kvm: Remove absent target file
+93b46250aec344696746419fb41f21436b9466e2 HID: amd_sfh: Correct the structure field name
+70992ef4997d6d130dbdf32cd08b3d657ecc1a34 PCI: hv: Fix NUMA node assignment when kernel boots with custom NUMA topology
+541ad161515c7bd282655f29656f13bbb974a132 parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
+e4029d25d096b1f92f2704d561cedf0386125889 HID: apple: Set the tilde quirk flag on the Wellspring 5 and later
+40e815069bebd4b2b453c0ce84eb103e4c78a296 btrfs: don't hold CPU for too long when defragging a file
+e41d7badab193db76e6c5a936224c6c57f43dd00 btrfs: send: in case of IO error log it
+b8b57490448cb0aed3cf464b78610434bf59a45f btrfs: defrag: don't try to defrag extents which are under writeback
+c8e22ef850bee60ed039ce2a71efed0b733a85cd ASoC: mediatek: fix unmet dependency on GPIOLIB for SND_SOC_DMIC
+1cfcca7c2a1123ec23499798898fd0a7f6417214 platform/x86: touchscreen_dmi: Add info for the RWC NANOTE P8 AY07J 2-in-1
+068029d53b53f59ba7dad21bf522a9f5e9b83984 platform/x86: ISST: Fix possible circular locking dependency detected
+0b44f180061f8eee4128a48f99f7b3dff3f98e74 platform/x86: amd-pmc: Correct usage of SMU version
+af9ee8b34fc6dec710ea7adc9584078a701ee405 kunit: tool: Import missing importlib.abc
+2b9ea32b2d7356e0a5a9dbee2ad1f9c969a154c3 selftests: rtc: Increase test timeout so that all tests run
+eddec0e29d74ecf0ab84124422595dd488ceae06 kselftest: signal all child processes
+48e60e67ef437d84d7c28dc3e2f2756ac0fee1c5 selftests: netfilter: reduce zone stress test running time
+ed8425b88aa9b9dbb7bb3bcf0956c05bba8d51a2 net: ieee802154: at86rf230: Stop leaking skb's
+387464db3264f4b66819f8c284baf30fcc6f292b selftests/zram: Skip max_comp_streams interface on newer kernel
+c47f0b3aa69107fd6a16c287c2b6c424b910d911 selftests/zram01.sh: Fix compression ratio calculation
+d49ae6325ba47ec51320ed149ee6f73b3420c6fb selftests/zram: Adapt the situation that /dev/zram0 is being used
+bdb7ee7c8a1e315446958475a73c452114b514f3 selftests: openat2: Print also errno in failure messages
+cc1cd0127fac4ada555ca5fe42cbec87ddf56fcc selftests: openat2: Add missing dependency in Makefile
+a84e6bf64a62728a5bd99817852e232de39209a1 selftests: openat2: Skip testcases that fail with EOPNOTSUPP
+0a5ff812f8c7299595ada0113bea6b4b4b93def0 selftests: skip mincore.check_file_mmap when fs lacks needed support
+5a354b5c0e373764ce0a7177ff548481577aa996 ax25: improve the incomplete fix to avoid UAF and NPD bugs
+c66223ea5534899269d45ec6b195188166ead2ec cifs: unlock chan_lock before calling cifs_put_tcp_session
+a920c7afbc752e5c8fbca2674ab82e9bd0df6ad2 pinctrl: bcm63xx: fix unmet dependency on REGMAP for GPIO_REGMAP
+991924f53bdfbdad1a27b042471a4a7f135b4514 vfs: make freeze_super abort when sync_filesystem returns error
+1a76d99b0a5a0628c2f1802f0e92c4f2bbb87475 vfs: make sync_filesystem return errors from ->sync_fs
+c4c4d2d531f789fd41d03290f4a3c8398a736e79 quota: make dquot_quota_sync return errors from ->sync_fs
+e8d1dbd8d906b88936677de4dc222f90d17deaf4 scsi: pm80xx: Fix double completion for SATA devices
+94f7aea8280f53bdce029ce4396f8809e8e3ad68 kselftest: Fix vdso_test_abi return status
+e21c71043ea9431be2e3760ca2227ce838fcc0d8 scsi: core: Reallocate device's budget map on queue depth change
+e8a190917166f41b8b98c9f5f42f1ad075a89a22 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
+e071411ea95bf53039cb8cc44d8a5c455c67ea48 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
+03e2e2c1013e98883edb68c5d82aebb8e47d2e76 drm/amd: Warn users about potential s0ix problems
+fd36516719d0b9be89091ac95060cf955ed42741 mailmap: update Christian Brauner's email address
+cd0ac61e6ff5862e9481deba04cd3ba656abf82a nvme: fix a possible use-after-free in controller reset during load
+5381ac0d422807ffa031007e35c2b8ff67e68a33 nvme-tcp: fix possible use-after-free in transport error_recovery work
+ac5c835f6a6aa336ef09c0237a4bebe972f568da nvme-rdma: fix possible use-after-free in transport error_recovery work
+4cc34e70a675baea6fdf0acc7f426c1b9a092e52 net: sparx5: do not refer to skb after passing it on
+48b2864d9962e3ad4d25230eea0291d95e47d3fe drm/amd: add support to check whether the system is set to s3
+2f33749e14f50ed89e48848c49ee1dd6556b7eb5 drm/amd: Only run s3 or s0ix if system is configured properly
+a8e6ec32226546bd46e4b182b83c06e1269c0bf5 drm/amdgpu: fix logic inversion in check
+9671016519c247077172bae5f804ac779478b0b1 x86/Xen: streamline (and fix) PV CPU enumeration
+19ddce51dc79d578f13377de8fbb1231f6c53fd9 Revert "module, async: async_synchronize_full() on module init iff async is used"
+93fbbd80300326d87213cb0664d499c82bcda1dc gcc-plugins/stackleak: Use noinstr in favor of notrace
+2f8163fbb1c7244ee3bf01be990d99a996f0a4f3 random: wake up /dev/random writers after zap
+35c416281005b501b4c96b54d8b49ad3da2df03f KVM: x86/xen: Fix runstate updates to be atomic when preempting vCPU
+06131fd3fc96892842e9af8d3980485324877f3f KVM: x86: nSVM/nVMX: set nested_run_pending on VM entry which is a result of RSM
+e3588ac5835e3a0462dab08f272fbdc66e7cdab1 KVM: x86: SVM: don't passthrough SMAP/SMEP/PKE bits in !NPT && !gCR0.PG case
+44b42457882e0350d0c3a26c2a66c491e5db1bc0 KVM: x86: nSVM: fix potential NULL derefernce on nested migration
+2cfa2ae16fd6be6db59ccc9c9572997fc5162e8d KVM: x86: nSVM: mark vmcb01 as dirty when restoring SMM saved state
+10bdd3007784d4414e9cab110132646f12389026 iwlwifi: remove deprecated broadcast filtering feature
+6a73c5105b24239d5d3af565964edca1d6dbf8fc iwlwifi: fix use-after-free
+3b65185ef2142a52acd5f72baeb73b2c1e7b6569 drm/mediatek: mtk_dsi: Avoid EPROBE_DEFER loop with external bridge
+e99494f42c72f53fb80fc730a1c23ad488dd1a20 drm/radeon: Fix backlight control on iMac 12,1
+8bc850b4eb3fc019390a3c2f4dd24787ad1a4ca3 drm/atomic: Don't pollute crtc_state->mode_blob with error pointers
+c13279dae41f73ec699e8ba746e9af685d80a005 drm/amd/pm: correct the sequence of sending gpu reset msg
+625f8778b3d327160e3e56affa51fa9d88e2ab27 drm/amdgpu: skipping SDMA hw_init and hw_fini for S0ix.
+8f01b3fdfe6414cd214df3567b76ffa6b3287ff9 drm/i915/opregion: check port number bounds for SWSCI display power state
+1ffc952f858e9df673fe7bf9f50831aef8058577 drm/i915: Fix dbuf slice config lookup
+bc3b5460b6baba2c484a8e0c03f1e5c73a1c0bb4 drm/i915: Fix mbus join config lookup
+e6a8b70ee80b6c3d2539ab2356a07b4352bd70f3 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==
+--===============0375773647371407455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73a526fa3444-a31e437a3db4.txt
+Content-Disposition: attachment; filename=revlist-a31e437a3db4-73d6ba9eb924.txt
 
-5a1a52da1d60eea5e353d7c1a922d6e3098e24b8 Makefile.extrawarn: Move -Wunaligned-access to W=1
-c4f46cc063b71be527206a3779f62f095ea14f46 HID:Add support for UGTABLET WP5540
-7e292f3a0f2de4a606ca67e09dc102eda163299d Revert "svm: Add warning message for AVIC IPI invalid target"
-e5a17a555100e56994d2116f463ed2eb47ac2f10 serial: parisc: GSC: fix build when IOSAPIC is not set
-2e01bb3d9bff3c69217f0770d80e682898940bd4 parisc: Drop __init from map_pages declaration
-1bb656fcd42ab9eac7dcd42f1bf4990dca9d2442 parisc: Fix data TLB miss in sba_unmap_sg
-7fbec8a97393a6465b2a71b2c93ff1f47ec4bd39 parisc: Fix sglist access in ccio-dma.c
-2a364d5997e9829812302929540abdaac99d0cc1 btrfs: send: in case of IO error log it
-936d14a823f9328079b3adbac8d065a051bdc287 platform/x86: ISST: Fix possible circular locking dependency detected
-6ccf3f33036db3c860e2bdacbfc89b64d0eb2c99 selftests: rtc: Increase test timeout so that all tests run
-8c0029babd0c6e92269c53aa8c5530d5b038ae06 net: ieee802154: at86rf230: Stop leaking skb's
-3032d8cee4871d63150dfde794417e7fa47e5092 selftests/zram: Skip max_comp_streams interface on newer kernel
-9fdc6fe1e784162006133c2b6779289acd656a6f selftests/zram01.sh: Fix compression ratio calculation
-d466777a609c3ba5ec116598f733f191551f871e selftests/zram: Adapt the situation that /dev/zram0 is being used
-25748d6ac8c11037f048fa53aac631435c60afb6 ax25: improve the incomplete fix to avoid UAF and NPD bugs
-9fede342d86f453acff6f4eb2cca01f7a57b4f8c vfs: make freeze_super abort when sync_filesystem returns error
-be458ab203d2f5ea8501908c4cc0d59771ab1bfc quota: make dquot_quota_sync return errors from ->sync_fs
-5e4a02792b39db63578e30703cb312f2a8c917d2 nvme: fix a possible use-after-free in controller reset during load
-a696696ed9a187a419681fe15a55fa009013d3ae nvme-tcp: fix possible use-after-free in transport error_recovery work
-dc1128c3edbfe3783b7a4aa4b64b3f52bcae058d nvme-rdma: fix possible use-after-free in transport error_recovery work
-b363e458af5e377a222a578ab06d9c3bba76cbc0 drm/amdgpu: fix logic inversion in check
-786db71c3500c4c05904096caae060c9ad97762e Revert "module, async: async_synchronize_full() on module init iff async is used"
-874040a5ce554cdb15664b4a8c7a8d0191b8ffa6 ftrace: add ftrace_init_nop()
-e4745e8200b991fd42ee671655bd93e6c8a2b428 module/ftrace: handle patchable-function-entry
-fd8713d701b5b8ae8158c2b6ec60cbc1fe7520e2 arm64: module: rework special section handling
-c5108ca4207b4e614c1e51ea4418a86b9c56ac79 arm64: module/ftrace: intialize PLT at load time
-7d8506917791ebe22ce5fc2ffead66ceeaa07a5c iwlwifi: fix use-after-free
-b80bd8e2f0a6148951bac0e1be200d6645327652 drm/radeon: Fix backlight control on iMac 12,1
-a33da9fd2b3a08a5fc2f81f82307a6e65261bf0e ext4: check for out-of-order index extents in ext4_valid_extent_entries()
-cddee44773364957f82c87d22ea0aa26e16085d6 ext4: check for inconsistent extents between index and leaf block
-654fe99a8e933f58f15082bf03e18efd79962926 ext4: prevent partial update of the extent blocks
-58f0eee611c57a3149b36835117cc6fd5d80d72b taskstats: Cleanup the use of task->exit_code
-a31e437a3db41ad2b81b2a2e09574855f31b311a dmaengine: at_xdmac: Start transfer for cyclic channels in issue_pending
+de819554733b2570fdd20da37c2059c26f5b9ca8 Makefile.extrawarn: Move -Wunaligned-access to W=1
+da03ca85c741b10cfc218428c5c67e1b6f415603 HID:Add support for UGTABLET WP5540
+7fc394e822362ac94bd1db3c22412cd1d8af7d81 Revert "svm: Add warning message for AVIC IPI invalid target"
+e6eb56c99aed5e249f8fd119eeec2f1cad336a0a serial: parisc: GSC: fix build when IOSAPIC is not set
+9f2f2f120fd02da4ef143d463304834caf7be594 parisc: Drop __init from map_pages declaration
+8755d7660e46b848a9c51d9151e00c4f9a605511 parisc: Fix data TLB miss in sba_unmap_sg
+5100ed017d383c2e9ebde00ede47dbb50ca99011 parisc: Fix sglist access in ccio-dma.c
+885cff68d7fa2b63b94d4ec7ac8adcd036594f16 btrfs: send: in case of IO error log it
+55aa1bb3f465304632722f8ebf91ac5b183bf1f6 platform/x86: ISST: Fix possible circular locking dependency detected
+4dd3f87a89ebb5df358a3ae3c24e59288baab54a selftests: rtc: Increase test timeout so that all tests run
+bbc0a5c066aac278cab5023bc0db0a1b9b84e2eb net: ieee802154: at86rf230: Stop leaking skb's
+41e0f7cc6e8fa42b83b7d7e43bbe7709e12348f6 selftests/zram: Skip max_comp_streams interface on newer kernel
+321e07568b785762429da392d8fefe6b00026cba selftests/zram01.sh: Fix compression ratio calculation
+cd679fb438f2ba7703e5ed094335a9dc02af6f23 selftests/zram: Adapt the situation that /dev/zram0 is being used
+6c173b5d821611f00b695958e41930e261fedbad ax25: improve the incomplete fix to avoid UAF and NPD bugs
+49025174d3aa1e4e788a87dd4c9cfec65816efe3 vfs: make freeze_super abort when sync_filesystem returns error
+54244b551ea2a6fc676d9a4368e931fc97018130 quota: make dquot_quota_sync return errors from ->sync_fs
+1e0d6a88136a0e07c4cacc48d330f1a339d0c914 nvme: fix a possible use-after-free in controller reset during load
+2809126bc38f6a2fa3909601310c0328c62fa9e7 nvme-tcp: fix possible use-after-free in transport error_recovery work
+43c66353079d4a1792366891066791134d4e90e3 nvme-rdma: fix possible use-after-free in transport error_recovery work
+7207cbd69c02cfa6b67251900e6a492248b153bf drm/amdgpu: fix logic inversion in check
+e4303cd5e368e9cc2d76f2ae2c04b506c12f15b0 Revert "module, async: async_synchronize_full() on module init iff async is used"
+526ba0a915c104bfbe2ff7a8379b63d67b47afca ftrace: add ftrace_init_nop()
+2434c24c2bcb6129444de20cc199f097521f1850 module/ftrace: handle patchable-function-entry
+6561da017778285f5510f8b4d100619af1e094fb arm64: module: rework special section handling
+87c6bd07b8cde92b1b76e31e1d707b247a9f7c9d arm64: module/ftrace: intialize PLT at load time
+ef56e3225bc9b17425de012f298364d3dbe84977 iwlwifi: fix use-after-free
+d188aa4801536f9eb1e8a130136b9cdc3ee17834 drm/radeon: Fix backlight control on iMac 12,1
+5cf49c8c5fda53c8c5aa9c81033fde7c2284919c ext4: check for out-of-order index extents in ext4_valid_extent_entries()
+b09f3d71a7eb9adb1a67c6eb8a1b1cc0f06913c4 ext4: check for inconsistent extents between index and leaf block
+f1a06f3953b9c41ff5351d98dd1bbfe8590d847e ext4: prevent partial update of the extent blocks
+582e06c5eb4d3be5339f93af1eed670729904f59 taskstats: Cleanup the use of task->exit_code
+fbb26eb8e938d409d3a5ab530d63026cc4a3c95c dmaengine: at_xdmac: Start transfer for cyclic channels in issue_pending
+73d6ba9eb924b73cfc01655f19c481cc9936f7c7 vsock: remove vsock from connected table when connect is interrupted by a signal
 
---===============5909696625798441064==--
+--===============0375773647371407455==--
