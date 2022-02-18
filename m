@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8075320669008023730=="
+Content-Type: multipart/mixed; boundary="===============7638057334006958479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 18 Feb 2022 02:30:33 -0000
-Message-Id: <164515143304.28042.15306014487867418390@gitolite.kernel.org>
+Date: Fri, 18 Feb 2022 02:31:42 -0000
+Message-Id: <164515150250.28487.18444792269309195885@gitolite.kernel.org>
 
---===============8075320669008023730==
+--===============7638057334006958479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,50 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: mpe
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/powerpc-5.17-4
+  - ref: refs/tags/v5.17-rc1
     old: 0000000000000000000000000000000000000000
-    new: e39a793091bf56faa0f24103b9e44c0ae54eec7b
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/tags/v5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
+  - ref: refs/tags/v5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
+  - ref: refs/tags/v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
 
---===============8075320669008023730==
+--===============7638057334006958479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1645151431 +1100
+pusher Michael Ellerman <mpe@ellerman.id.au> 1645151500 +1100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1645151430-18ea047c01fce80b070c1fda8195506bdce32d90
+nonce 1645151500-c2099942b24240283f3e5296e65d0a79e3394740
 
-0000000000000000000000000000000000000000 e39a793091bf56faa0f24103b9e44c0ae54eec7b refs/tags/powerpc-5.17-4
+0000000000000000000000000000000000000000 d0022914e86aa85ea6c806ae4bc442f9821e830a refs/tags/v5.17-rc1
+0000000000000000000000000000000000000000 95bc47315b817afcb621e4cbd2de4877152509ff refs/tags/v5.17-rc2
+0000000000000000000000000000000000000000 48765f61ad6b9c0344f89d9332050c72df3ff43c refs/tags/v5.17-rc3
+0000000000000000000000000000000000000000 f95462f2d3d47839c81c8c5985fb49e0b02e97d3 refs/tags/v5.17-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmIPBMcTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgOCbD/4zBcQdmEH5WTpbIAD+20FQRndUhSUI
-hTfjUGULKDYCT0qZbmPRJTR2ymT7k2Zggn4Xx6tzpD0vzFFyUpBeD99LjwLZR2Xm
-isCCxTmigJm2AC8A3+VRmhWZHk8xSn+5CQac+6ifjGdClEFDY8SqxTX251faTvfA
-FZopsmVN8ZwiqEsdQOkn1PNwtcUF8i2hgMK0LXKvEitQBs3kUq/SZD2I7g3tcRQI
-/WotKKANYV4MhcJu5uvaZTOom4pY+OfDsc7GL1Q+DwNRTIuNGEdrz+Xo+a16SS7T
-aq7GwLuGwjMO/mZ1w4Rd0+OO4YOr6lTV0hkNr4SOa9nrshbA+VoWHcs02DurnJRr
-73KsWm0O1a+FLGXaDJvwdAXSEBadRfzsynPYsD2ypv2fqwKxzVHNrJte5ks1YURt
-PC98lR8zcGmG405OfJNWAgQjlzyxnkgSE0tK0J5LKt6Gnqekewv2Al0NyKC7kDwh
-7l+uDOgmdUS1k2dpHxtPAAvajFpE6v+uMau7EGuy/ds2nXW03KqwCoB4QQhhhq3D
-Vp6XV/wAnY32Ib1fsd/olmo+w/B4h4N67kZDRkwCHRFVecPaySOu009brH3Q7Y1G
-5T+m3FuXxFp4s9RX2wImJPqHJ5Ml+0mDXUSG4PFbtbN9Hg8BOVQTj83MyOF7jiS7
-SwqsiF5t2TqgjQ==
-=VOwA
+iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmIPBQwTHG1wZUBlbGxl
+cm1hbi5pZC5hdQAKCRBR6+o8yOGlgDh5EACi8Ou7UHYroJh8zIkY/+HJDhTTP1MA
+kPe/r3gn9A6pAUksIYhgBEKgn+wI98+fHRdJkW+LakWn0ylneoiV0VkqCLCLLQD3
+qlIq6sUpD7az+R0QYoP+vOHuKmZrMYiAYOXh50djkj6X9KENNa/rvtvSoVYKiZru
+4uuntRVfPQ7oc8kxaPrvsH9vYhcXSpw861kcSsfcYzPS2iMIjXu+d2cOCgiDUOUc
+iJI6TGmFK566/q2tUdEZf3bhb8JOKPSLMuUtfH0ShaiRq5j6xJSX4JA5iro8ksTQ
+43xmMcyWpkLuXSaUSa3K8/TPIAD3ApOOeaqV2Wt68T5uj9+5EcUVejMbwsolHwfN
+8O0YZoScVn2TsbXrSZbpVnKCJ8HuBIuINV4tS6wp+856z49McF+1DVIL6qnYdW7O
+6BxV6lpOpnXRf3JppJv9xEUyAr2KPehzzS+hBhmIJj9N8ro9A7t8AdMWltAsWNGo
+cPx6mPBj6WNdUJlw2PecAfZ4QxjyILH/UjytM3KPCA6fJ8ND5vQtTl+TBHMWa0uF
+Jy1jXxS69zFrBt3Er4AV3kZ6mMt2X14Hikz+hAm4vv32EM84OATC1uknNDxtitOG
+Gju2wQesOtGEm8usl1Jpj0+WeM+KCaExiiHSrl2xSAn6TH5vlRjiv25YuQ08TUZM
+QSdqr4RErEmLyQ==
+=kONz
 -----END PGP SIGNATURE-----
 
---===============8075320669008023730==--
+--===============7638057334006958479==--
