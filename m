@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 18 Feb 2022 21:18:17 -0000
-Message-Id: <164521909777.24794.6478756269955150379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Fri, 18 Feb 2022 21:30:19 -0000
+Message-Id: <164521981914.1760.4419986216461066381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/master
-    old: ec8c8f22efb66ccae533fbd55a236570ffcf756c
-    new: afefbb4872f241d5ed84cf18bcdbb4d72d6c97c0
+  - ref: refs/heads/for-linus
+    old: de8aa31ac7c23af98fe24d1c1b43b065027d6af5
+    new: 7b1f781f2d2460693f43d5f764198df558e3494b
     log: |
-         a1cdd683dfebafdb37b29b0155f04457bc44c7d4 main.conf: Introduce MaxControllers
-         d96c2fd877a318a373347b4befa1ec6b9a46a952 adapter: Fix allowing multiple adapters with the same address
-         afefbb4872f241d5ed84cf18bcdbb4d72d6c97c0 main.conf: Fix parsing of mode options
+         7b1f781f2d2460693f43d5f764198df558e3494b Input: psmouse - set up dependency between PS/2 and SMBus companions
          
