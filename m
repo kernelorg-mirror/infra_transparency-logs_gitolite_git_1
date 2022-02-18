@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4777068343207339164=="
+Content-Type: multipart/mixed; boundary="===============6203920259604710427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Feb 2022 15:19:23 -0000
-Message-Id: <164519756308.15684.8566907736793640026@gitolite.kernel.org>
+Date: Fri, 18 Feb 2022 15:19:41 -0000
+Message-Id: <164519758117.15880.2841440223479073981@gitolite.kernel.org>
 
---===============4777068343207339164==
+--===============6203920259604710427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d24d2a2b0a81dd5e9bb99aeb4559ec9734e1416f
     new: 086d49058cd8471046ae9927524708820f5fd1c7
     log: revlist-d24d2a2b0a81-086d49058cd8.txt
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
 
---===============4777068343207339164==
+--===============6203920259604710427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1051,4 @@ aaae162aeb676f6c38e7a31b16631274f68874f4 teaming: deliver link-local packets wit
 7ea0c16a74a44c8482352aba67ab58225831f4aa net/ibmvnic: Cleanup workaround doing an EOI after partition migration
 086d49058cd8471046ae9927524708820f5fd1c7 ipv6: annotate some data-races around sk->sk_prot
 
---===============4777068343207339164==--
+--===============6203920259604710427==--
