@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4624410863319357854=="
+Content-Type: multipart/mixed; boundary="===============0289552074141033329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Fri, 18 Feb 2022 08:49:25 -0000
-Message-Id: <164517416524.3560.12806393107870091226@gitolite.kernel.org>
+Date: Fri, 18 Feb 2022 08:50:10 -0000
+Message-Id: <164517421002.5339.10714222487758157011@gitolite.kernel.org>
 
---===============4624410863319357854==
+--===============0289552074141033329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tmlind/linux-omap
 user: tmlind
 changes:
-  - ref: refs/heads/fixes
-    old: 80d680fdccba214e8106dc1aa33de5207ad75394
-    new: 8840f5460a23759403f1f2860429dcbcc2f04a65
-    log: revlist-80d680fdccba-8840f5460a23.txt
+  - ref: refs/heads/for-next
+    old: 61b6b9cfada4262dad54a3153eb1e8ee0e087362
+    new: f9ecc209330a4837393f7b87f6f95970542b90c6
+    log: revlist-61b6b9cfada4-f9ecc209330a.txt
 
---===============4624410863319357854==
+--===============0289552074141033329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80d680fdccba-8840f5460a23.txt
+Content-Disposition: attachment; filename=revlist-61b6b9cfada4-f9ecc209330a.txt
 
-0f65a9d337676b966316db17374fbef910ab8e4a KVM: VMX: Don't do full kick when triggering posted interrupt "fails"
-296aa26644d088d8ccf0d62b0a93443f7188d5e5 KVM: VMX: Pass desired vector instead of bool for triggering posted IRQ
-ccf8d687542f6a7288b79727bec1cc084b3771b3 KVM: VMX: Fold fallback path into triggering posted IRQ helper
-635e6357f948d57bc98af8d37eb81896333822e9 KVM: VMX: Don't do full kick when handling posted interrupt wakeup
 935a7333958e91b5d0c1b0ebc75a5cefdbb34dd5 KVM: SVM: Drop AVIC's intermediate avic_set_running() helper
 54744e17f031cbc5c5b995b1e275df1520c8a739 KVM: SVM: Move svm_hardware_setup() and its helpers below svm_x86_ops
 a3c19d5beaad25fcaa703b251c72c3a22fc09100 KVM: SVM: Nullify vcpu_(un)blocking() hooks if AVIC is disabled
@@ -1050,5 +1046,9 @@ bf5bdcc9f262b5afd3c0f06c39b34b4f2fcff661 MAINTAINERS: Update Benjamin Gaignard m
 486343d3728be741db13854dc7e983c20cdd7c07 Merge tag 'omap-for-v5.17/fixes-for-merge-window-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
 64324ef337d0caa5798fa8fa3f6bbfbd3245868a ARM: dts: switch timer config to common devkit8000 devicetree
 8840f5460a23759403f1f2860429dcbcc2f04a65 ARM: dts: Use 32KiHz oscillator on devkit8000
+6e8c8b508230318ac9354d162368063704530243 ARM: dts: am334x: pdu001: Use correct node name for RTC
+e2d54fb6cea94c348454665e4474af737367d770 ARM: dts: logicpd-torpedo: Add isp1763 support to baseboard
+668e2f58ed8b1920143ea1072ad8d02440132306 ARM: dts: am335x-sancloud-bbe-extended-wifi: New devicetree
+f9ecc209330a4837393f7b87f6f95970542b90c6 Merge branch 'omap-for-v5.18/dt' into for-next
 
---===============4624410863319357854==--
+--===============0289552074141033329==--
