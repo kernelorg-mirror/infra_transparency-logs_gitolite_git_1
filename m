@@ -1,81 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============5389716281055825941=="
+Content-Type: multipart/mixed; boundary="===============0440450506937664678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 18 Feb 2022 16:58:23 -0000
-Message-Id: <164520350344.18845.14595460451167365645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 18 Feb 2022 17:38:54 -0000
+Message-Id: <164520593412.11766.4508363159494085047@gitolite.kernel.org>
 
---===============5389716281055825941==
+--===============0440450506937664678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 0ef7c79e43d05936b83f0e6d8e33cc7cfaebaf18
-    new: 60d7a25c08cabe6e3e2869d832bf1819a7714834
-    log: revlist-0ef7c79e43d0-60d7a25c08ca.txt
+    old: 9195e5e0adbb8a9a5ee9ef0f9dedf6340d827405
+    new: 7993e65fdd0fe07beb9f36f998f9bbef2c0ee391
+    log: revlist-9195e5e0adbb-7993e65fdd0f.txt
 
---===============5389716281055825941==
+--===============0440450506937664678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ef7c79e43d0-60d7a25c08ca.txt
+Content-Disposition: attachment; filename=revlist-9195e5e0adbb-7993e65fdd0f.txt
 
-28c24ded649cf068ca518f2a3d78f5e7e06d41d8 perf/x86/intel/pt: Add a capability and config bit for event tracing
-161a9a33702a2e65a4118dacb449505ac8ce3122 perf/x86/intel/pt: Add a capability and config bit for disabling TNTs
-1087ad4e3f88c474b8134a482720782922bf3fdf sched: replace cpumask_weight with cpumask_empty where appropriate
-0fb3978b0aac3a5c08637aed03cc2d65f793508f sched/numa: Fix NUMA topology for systems with CPU-less nodes
-5c7b1aaf139dab5072311853bacc40fc3457d1f9 sched/numa: Avoid migrating task to CPU-less node
-e6df4ead85d9da1b07dd40bd4c6d2182f3e210c4 psi: fix possible trigger missing in the window
-9d42ea0d6984044a82258f41d8407ee442687f30 pci: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-7b45b51e778021cd7817b8f0d743a2c73205c011 workqueue: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-c8fb9f22ae22dbe06a43b77717299e1c3e632d5c net: Decouple HK_FLAG_WQ and HK_FLAG_DOMAIN cpumask fetch
-04d4e665a60902cf36e7ad39af1179cb5df542ad sched/isolation: Use single feature type while referring to housekeeping cpumask
-6367b600e31c6b211eadee7bf7f4ed8c755e9176 sched/isolation: Consolidate check for housekeeping minimum service
-0cd3e59de1f53978873669c7c8225ec13e88c3ae sched/isolation: Consolidate error handling
-65e53f869e9f92a23593c66214b88e54fb190a13 sched/isolation: Fix housekeeping_mask memory leak
-ed3b362d54f0038cafc985248350d301af7af686 sched/isolation: Split housekeeping cpumask per isolation features
-4b3c013f7019e3a48eb8e81a09cd368a365a927d sched: Fix yet more sched_fork() races
-090d4b359da6e1e9925d2d9ebd39abb009191a4c sched/preempt: Move PREEMPT_DYNAMIC logic later
-7b4e9d136bb7b0f404fa63c002ad82e072070415 sched/preempt: Refactor sched_dynamic_update()
-4f594c22af8abc58272069298ab98217ae659db2 sched/preempt: Simplify irqentry_exit_cond_resched() callers
-9cf4d5774538ba68d6a24e0106ab4a7f2a8b4d49 sched/preempt: Decouple HAVE_PREEMPT_DYNAMIC from GENERIC_ENTRY
-db4635581838fe26114a05f36e8d0400012fe082 sched/preempt: Add PREEMPT_DYNAMIC using static keys
-e4f87039f7759a10bf026cdeb9482c2bf0e1dafb arm64: entry: Centralize preemption decision
-22a15412fc1491287f5c12075e14dc121acdf050 arm64: Support PREEMPT_DYNAMIC
-8c8f83b0688e576008a724c253dfdbf38c485e4c linkage: add SYM_FUNC_ALIAS{,_LOCAL,_WEAK}()
-a0200a1358ad1e85c2628baee6b716583ebb2e1a arm64: clean up symbol aliasing
-ada9a58bbe7ea3f06828842500f0605dd4bcf69f x86: clean up symbol aliasing
-ec791316b6bc3ca4e8ceae25df9c562811b6c4d2 linkage: remove SYM_FUNC_{START,END}_ALIAS()
-47842c9a7b794e5cd34795cead34d56e6bcd057d Merge branch 'perf/core'
-ba47724f94db3c2baa6bc2bc41954ca12c17895f perf/core: Add perf_clear_branch_entry_bitfields() helper
-57bf70175750e3783413da5d5e71ebcc86ca30b8 x86/cpufeatures: Add AMD Fam19h Branch Sampling feature
-4faee376aa85a270a89a06f8681d87060550136d perf/x86/amd: Add AMD Fam19h Branch Sampling support
-59ac8a2912c6d2ec7223fcb4989f04c4cac3770b perf/x86/amd: Add branch-brs helper event for Fam19h BRS
-bc38ffe5a6c44276544e941d4d9df8f6859bb534 perf/x86/amd: Enable branch sampling priv level filtering
-dbea1bf55dd1215f39ec9bd45e21352ac290aa3c perf/x86/amd: Add AMD branch sampling period adjustment
-e4e199e7af6bda0f00f25a984083d3dc4c7b7bdb perf/x86/amd: Make Zen3 branch sampling opt-in
-f3458af1c1c08e4c40897293193b209bb835e95d ACPI: Add perf low power callback
-8c40a9c15c0a5ba81888cca718367beb48f33094 perf/x86/amd: Add idle hooks for branch sampling
-23951ce0af24aa14dc81320bcb1f72b7ca392ad5 mm: Update ptep_get_lockless()'s comment
-97cd0c874ac6381d9a2ab6734a81a81ececac39e x86/mm/pae: Make pmd_t similar to pte_t
-c6b36aa5aa4620876f968347b2733a9ee4b56ee3 sh/mm: Make pmd_t similar to pte_t
-2f25668521bb55f0b655b7da6572201c6376da1f mm: Fix pmd_read_atomic()
-ab00d8210eb2efdda9713910259156af6594d59a mm: Rename pmd_read_atomic()
-6fa164930b61b7e81c5b4da0ef4151eff9a141cd mm/gup: Fix the lockless PMD access
-edd963d2bd140989b7e9e5773e887b3992a47457 x86/mm/pae: Don't (ab)use atomic64
-822d9c2b18136612ada8c29988d96535892c0b98 x86/mm/pae: Use WRITE_ONCE()
-c40d13b939d776af4760b2143877288c5c1c66db x86/mm/pae: Be consistent with pXXp_get_and_clear()
-738c39ca780a790363fd8a367848c44c6bbffc04 Merge branch 'sched/urgent'
-ffdea284bce43b0ad6048da89dddedf8caab5458 Merge branch 'sched/core'
-40c59d6ce05a9eb6f8d931941cbf4d2baa4e2a17 Merge branch 'core/core'
-56768588de24ae57c219a7b3b116dfb82844356a Merge branch 'perf/core'
-85afc48cea49c10041cdfdb8e649ee55c0844c95 Merge branch 'perf/amd'
-60d7a25c08cabe6e3e2869d832bf1819a7714834 Merge branch 'x86/mm'
+ba1b71b008e97fd747845ff3a818420b11bbe830 mtd: rawnand: ingenic: Fix missing put_device in ingenic_ecc_get
+5c23b3f965bc9ee696bf2ed4bdc54d339dd9a455 mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
+079e6bdb2b1cc1da8b5c602229db782732668ae7 mtd: parsers: qcom: Don't print error message on -EPROBE_DEFER
+65d003cca335cabc0160d3cd7daa689eaa9dd3cd mtd: parsers: qcom: Fix kernel panic on skipped partition
+3dd8ba961b9356c4113b96541c752c73d98fef70 mtd: parsers: qcom: Fix missing free for pparts in cleanup
+4cd335dae3cf25412427938d8abbaf04d46e63b5 mtd: rawnand: omap2: Prevent invalid configuration and build error
+3e3765875b1b8864898603768fd5c93eeb552211 mtd: phram: Prevent divide by zero bug in phram_setup()
+9161f365c91614e5a3f5c6dcc44c3b1b33bc59c0 mtd: rawnand: gpmi: don't leak PM reference in error path
+36415a7964711822e63695ea67fede63979054d9 mtd: rawnand: brcmnand: Fixed incorrect sub-page ECC status
+564778d7b1ea465f9487eedeece7527a033549c5 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw()
+7f3d90a3519680dfa23e750f80bfdefc0f5eda4a ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_sx()
+650204ded3703b5817bd4b6a77fa47d333c4f902 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_range()
+2b7c46369f09c358164d31d17e5695185403185e ASoC: ops: Fix stereo change notifications in snd_soc_put_xr_sx()
+7fa5c33d043160eba3be9fb8e21588dff2a467c7 ASoC: amd: acp: Set gpio_spkr_en to None for max speaker amplifer in machine driver
+618c2dc667c87995cdc7de339224bd96bb049a1f ASoC: ops: Fix stereo change notifications
+9bb162fa26ed76031ed0e7dbc77ccea0bf977758 powerpc/603: Fix boot failure with DEBUG_PAGEALLOC and KFENCE
+946eb87114af37c9c13c618a7c1cdaca936905fa ASoC: Revert "ASoC: mediatek: Check for error clk pointer"
+307f31452078792aab94a729fce33200c6e42dc4 ASoC: tas2770: Insert post reset delay
+d7b530fdc45e75a54914a194c4becd9672a4e24f ASoC: rt5682s: do not block workqueue if card is unbound
+a6d78661dc903d90a327892bbc34268f3a5f4b9c ASoC: rt5668: do not block workqueue if card is unbound
+4c33de0673ced9c7c37b3bbd9bfe0fda72340b2a ASoC: rt5682: do not block workqueue if card is unbound
+e4e3a93c6e267572ca2345d8d86053e166843a8c MAINTAINERS: update cros_ec_codec maintainers
+8e1741c658996a16bd096e077dae0da2460a997f ALSA: memalloc: Fix dma_need_sync() checks
+3e16dc50d77dc3494275a241fac250c94bf45206 ALSA: memalloc: invalidate SG pages before sync
+c8d251f51ee61df06ee0e419348d8c9160bbfb86 ASoC: qcom: Actually clear DMA interrupt register for HDMI
+a887f9c7a4d37a8e874ba8415a42a92a1b5139fc ASoC: wm_adsp: Correct control read size when parsing compressed buffer
+a12821d5e012a42673f6fe521971f193441d8aa4 block: Add handling for zone append command in blk_complete_request
+06582bc86d7f48d35cd044098ca1e246e8c7c52e block: loop:use kstatfs.f_bsize of backing file to set discard granularity
+9405b5f8b20c2bfa6523a555279a0379640dc136 smb3: fix snapshot mount option
+dd5a927e411836eaef44eb9b00fece615e82e242 cifs: fix set of group SID via NTSD xattrs
+26d3dadebbcbddfaf1d9caad42527a28a0ed28d8 cifs: do not use uninitialized data in the owner/group sid
+3d6cc9898efdfb062efb74dc18cfc700e082f5d5 cifs: fix double free race when mount fails in cifs_get_root()
+19d20c7a29bf2e46ff1ab8e8c4fcd2da8a4f38e2 ALSA: usb-audio: revert to IMPLICIT_FB_FIXED_DEV for M-Audio FastTrack Ultra
+c07f2c7b45413a9e50ba78630fda04ecfa17b4f2 ALSA: hda/realtek: Add quirk for Legion Y9000X 2019
+6317f7449348a897483a2b4841f7a9190745c81b ALSA: hda: Fix regression on forced probe mask option
+dd8e5b161d7fb9cefa1f1d6e35a39b9e1563c8d3 ALSA: hda: Fix missing codec probe on Shenker Dock 15
+9a5adeb28b77416446658e75bdef3bbe5fb92a83 ALSA: usb-audio: Don't abort resume upon errors
+2a845837e3d0ddaed493b4c5c4643d7f0542804d ALSA: hda/realtek: Fix deadlock by COEF mutex
+0c6f4ebf8835d01866eb686d47578cde80097981 cifs: modefromsids must add an ACE for authenticated users
+5948342a526f43ffbd02ebac64670e55475b7e09 Merge tag 'asoc-fix-v5.17-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+4f6de676d94ee8ddfc2e7e7cd935fc7cb2feff3a arm64: Correct wrong label in macro __init_el2_gicv3
+fe663df7825811358531dc2e8a52d9eaa5e3515e powerpc/lib/sstep: fix 'ptesync' build error
+53923e0fe2098f90f339510aeaa0e1413ae99a16 cifs: fix confusing unneeded warning message on smb2.1 and earlier
+acd289e04a0a1f52bea7ff1129b365626059e3c2 ALSA: hda: Set max DMA segment size
+8872fc0d04592925b74ad9ab1b5686f4e016befe ASoC: SOF: hda: Set max DMA segment size
+c22a8086b384025ab97ce07465420a219697d3f2 ASoC: intel: skylake: Set max DMA segment size
+cc8f7fe1f5eab010191aa4570f27641876fa1267 block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
+7a5428dcb7902700b830e912feee4e845df7c019 block: fix surprise removal for drivers calling blk_set_queue_dying
+e92bc4cd34de2ce454bdea8cd198b8067ee4e123 block/wbt: fix negative inflight counter when remove scsi device
+7476b043b1914413f75b7e99040969734ae1fab6 Merge tag '5.17-rc5-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
+ea4b3d299fe6b6c9afa4a91dc2cf5479d0089eeb Merge tag 'powerpc-5.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+45a98a71d2daa8c58a99c17343a5d118b085a9be Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+2848551bc6590a0f4eaaae71d60a4aaa0e99b8cf Merge tag 'sound-5.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+b9889768bda1a326238990b7d75ea179321d9693 Merge tag 'block-5.17-2022-02-17' of git://git.kernel.dk/linux-block
+7993e65fdd0fe07beb9f36f998f9bbef2c0ee391 Merge tag 'mtd/fixes-for-5.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 
---===============5389716281055825941==--
+--===============0440450506937664678==--
