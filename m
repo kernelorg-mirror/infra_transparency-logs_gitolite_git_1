@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 18 Feb 2022 21:01:40 -0000
-Message-Id: <164521810071.15362.11914197263315353802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 18 Feb 2022 21:03:15 -0000
+Message-Id: <164521819558.15892.17384249272537098222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: f81cb6e25fc70f35171f271d362ff6a6324efc9a
-    new: 9aee51a7879be13763d8758712b34c73c4c2bede
+  - ref: refs/heads/rcu/next
+    old: 7707bb0f7af5c1d0f64ff5e13e020f0835b05703
+    new: 1b40a3d2152f568a7fc22535b135525cf7185c81
     log: |
-         cd3857f810242ff8511a148d996f935fbfd917d8 hwsim: check if radio name was already set
-         59c918cc2056c00c8d21a679a762f1088300eac2 main: remove unneeded stat call
-         9aee51a7879be13763d8758712b34c73c4c2bede dpp: check return of aes_siv_encrypt
+         f6823834aa2e2e581ca627238fa3ad3e0a727c08 rcu-tasks: Fix race in schedule and flush work
+         1b40a3d2152f568a7fc22535b135525cf7185c81 docs: Add documentation for rude and trace RCU flavors
          
