@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Feb 2022 11:59:47 -0000
-Message-Id: <164518558720.14171.12790034029545170028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 18 Feb 2022 12:07:19 -0000
+Message-Id: <164518603994.19497.12101005084734553595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 7ea0c16a74a44c8482352aba67ab58225831f4aa
-    new: 086d49058cd8471046ae9927524708820f5fd1c7
+  - ref: refs/heads/jd/fast-mix
+    old: e5ac022a5606d7a2056834b0750919a0b536fe97
+    new: 889758ccf6ccf0e80e84d3cdaa06939bb3e43c23
     log: |
-         086d49058cd8471046ae9927524708820f5fd1c7 ipv6: annotate some data-races around sk->sk_prot
+         889758ccf6ccf0e80e84d3cdaa06939bb3e43c23 random: use max-period linear interrupt extractor
          
