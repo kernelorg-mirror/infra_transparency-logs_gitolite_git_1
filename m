@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 19 Feb 2022 16:46:51 -0000
-Message-Id: <164528921186.7335.17654129914849948383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Sat, 19 Feb 2022 17:09:26 -0000
+Message-Id: <164529056650.21265.10899707912169797023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: e7f27420681f23e7e0f28beed38144058752112e
-    new: 0d0350c471ccd8d6a5b35e514e6b28e9a8fe4dbe
+  - ref: refs/heads/for-next
+    old: 3c713fb33f46f7a7215a4787f5ff9f24e6e3da3a
+    new: 7133cbf94d259ba13c949456067490288cf10568
     log: |
-         ccfbf44d4c7fb7c64cf79b3f2a5ae522e5165878 net: dsa: remove pcs_poll
-         64b4a0f8b51b20e0c9dbff7748365994364d5f01 net: phylink: remove phylink_config's pcs_poll
-         0d0350c471ccd8d6a5b35e514e6b28e9a8fe4dbe Merge branch 'phylink-remove-pcs_poll'
+         639e139eb428122ef1c14e76202e2de90e7ef278 dm: add dm_submit_bio_remap interface
+         0346cec30a947165b44fabc60b0835e1bd33342a dm crypt: use dm_submit_bio_remap
+         7133cbf94d259ba13c949456067490288cf10568 dm delay: use dm_submit_bio_remap
          
