@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3358044586210479710=="
+Content-Type: multipart/mixed; boundary="===============1779314256628283367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Sat, 19 Feb 2022 02:19:21 -0000
-Message-Id: <164523716157.26555.7837814261065903343@gitolite.kernel.org>
+Date: Sat, 19 Feb 2022 02:20:12 -0000
+Message-Id: <164523721274.28334.787280491450129934@gitolite.kernel.org>
 
---===============3358044586210479710==
+--===============1779314256628283367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/for-next
     old: deccb0b3203b9d725dbeb41815f82bc30e7ebbfc
     new: 9ce05ef2d43e4ea1901b2cf11a9dd03304585208
     log: revlist-deccb0b3203b-9ce05ef2d43e.txt
 
---===============3358044586210479710==
+--===============1779314256628283367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ fc007af340a6c9bff13d131667c5183beb67c477 ata: libata-sff: refactor ata_sff_altst
 d5f834dfc14400f18819ccbadedbb58ccc59c875 ata: pata_hpt37x: merge transfer mode setting methods
 9ce05ef2d43e4ea1901b2cf11a9dd03304585208 ata: libata-sff: fix reading uninitialized variable in ata_sff_lost_interrupt()
 
---===============3358044586210479710==--
+--===============1779314256628283367==--
