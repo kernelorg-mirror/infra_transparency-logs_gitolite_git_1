@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 19 Feb 2022 00:37:37 -0000
-Message-Id: <164523105740.26649.1543168681075783367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 19 Feb 2022 00:42:45 -0000
+Message-Id: <164523136599.29715.12051798393361151896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev-queue
-    old: 81003a1453e724321ed9cc9f75fb92d74884c413
-    new: 4aa6a63346d3f59eb543b131030e5974aeb1db36
+  - ref: refs/heads/seen
+    old: 694ca1375e3b2e8f0da0e96fcd65d4332f258ed9
+    new: 811d7a26529c3b022108cb3a29bd2421ea72602d
     log: |
-         5aa905143eeca6a0f4aeaa265c0f1c42ac70135e ice: convert VF storage to hash table with krefs and RCU
-         ad38fd1c1567111645fb8f47a9166bf51d2dce7a igc: igc_read_phy_reg_gpy: drop premature return
-         4e58061bc78d871fddee4d92d4e0e1fdbe62c1e0 Revert "i40e: Fix reset bw limit when DCB enabled with 1 TC"
-         4aa6a63346d3f59eb543b131030e5974aeb1db36 ice: Add inline flow director support for channels
+         ffc4f130cd83b134c6717331731a1a4e5367a2cc ls-files: support --recurse-submodules --stage
+         811d7a26529c3b022108cb3a29bd2421ea72602d Merge branch 'jt/ls-files-stage-recurse' into seen
          
