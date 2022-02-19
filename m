@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6459037487173708296=="
+Content-Type: multipart/mixed; boundary="===============6993951298116865980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 19 Feb 2022 19:43:23 -0000
-Message-Id: <164529980338.22691.4545729004323028136@gitolite.kernel.org>
+Date: Sat, 19 Feb 2022 19:43:32 -0000
+Message-Id: <164529981208.22818.2746229527315663022@gitolite.kernel.org>
 
---===============6459037487173708296==
+--===============6993951298116865980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 0ef7c79e43d05936b83f0e6d8e33cc7cfaebaf18
     new: 9c777ec671c6c5c76d799868ecd24d965fac12c0
     log: revlist-0ef7c79e43d0-9c777ec671c6.txt
 
---===============6459037487173708296==
+--===============6993951298116865980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -301,4 +301,4 @@ a8ec53a845bd39e6bd18f530fdf0b48cfff07092 Merge x86/sgx into tip/master
 05ddf990e72aff2fd521718649689646871b2557 Merge sched/core into tip/master
 9c777ec671c6c5c76d799868ecd24d965fac12c0 Merge ras/core into tip/master
 
---===============6459037487173708296==--
+--===============6993951298116865980==--
