@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1736472731046095960=="
+Content-Type: multipart/mixed; boundary="===============2615033619797364917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Sat, 19 Feb 2022 19:31:50 -0000
-Message-Id: <164529911053.16277.8148601242707442961@gitolite.kernel.org>
+Date: Sat, 19 Feb 2022 19:31:57 -0000
+Message-Id: <164529911722.16400.2842325809869142599@gitolite.kernel.org>
 
---===============1736472731046095960==
+--===============2615033619797364917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b352c3465bb808ab700d03f5bac2f7a6f37c5350
-    new: 3d00827a90db6f79abc7cdc553887f89a2e0a184
-    log: revlist-b352c3465bb8-3d00827a90db.txt
+  - ref: refs/heads/dev-queue
+    old: 967260db57d52ff5e97dc07407aeeb014653b969
+    new: 98b1f1d6a184646cb70760676f70ec5c6bedda24
+    log: revlist-967260db57d5-98b1f1d6a184.txt
 
---===============1736472731046095960==
+--===============2615033619797364917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b352c3465bb8-3d00827a90db.txt
+Content-Disposition: attachment; filename=revlist-967260db57d5-98b1f1d6a184.txt
 
 b70bc066d77b460a63a8c3fb2ea0d811ce862a83 ice: Match on all profiles in slow-path
 932645c298c41aad64ef13016ff4c2034eef5aed ice: fix setting l4 port flag when adding filter
@@ -45,5 +45,20 @@ e35f885b357d47e04380a2056d1b2cc3e6f4f24b selftests: mptcp: be more conservative 
 0033fced48d281d59f35565106e6d78b25a2f6e6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 5486f5bf790b5c664913076c3194b8f916a5c7ad net: Force inlining of checksum functions in net/checksum.h
 3d00827a90db6f79abc7cdc553887f89a2e0a184 net: dsa: microchip: fix bridging with more than two member ports
+eb89c1b4d7289433ada330d46242b680bee6a6ab checkpatch: Fix warnings when --no-tree is used
+69a0d6864c81c87c65ff5d54dc4921102d9c7462 checkpatch.pl: seed camelcase from the provided kernel tree root
+bf7e1c1d03460e7d296d3d5047ecab9c942644de ice: Fix a couple off by one bugs
+567970fc8b6ed85a5aa0be8bb9c0f0fabbd444f7 i40e: Fix the timeliness of stats after deleting tc
+73dc8a3339810b16b9462a050112e72d5f11c2c6 iavf: Fix handling of vlan strip virtual channel messages
+683de577369e331ca57937e0c67de67ac7705f6e ice: Don't use GFP_KERNEL in atomic context
+53f369592c4e1315f6df3a3161009c326717a623 e1000e: Fix possible HW unit hang after an s0ix exit
+68aa939e1ababfbc751f19e2739b600d17f86005 ice: avoid XDP checks in ice_clean_tx_irq()
+fbfe3297b1256e9ab8a4e2da4f0a7af5b67b379c iavf: Fix adopting new combined setting
+be9f117ed851af100dbb3245b76e5d015d2cf9c8 e1000e: Correct NVM checksum verification flow
+e1ca002a87e974dbad5f624a386adb93332b32fd ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
+af988911b158a2cd001b6868522661eec1ffc309 igc: igc_read_phy_reg_gpy: drop premature return
+3d066ac62d988602a2cf380577071d92da1a1d01 i40e: stop disabling VFs due to PF error responses
+eebd263740b45f5b4390dc92ced458d5a0597a33 ice: stop disabling VFs due to PF error responses
+98b1f1d6a184646cb70760676f70ec5c6bedda24 Revert "i40e: Fix reset bw limit when DCB enabled with 1 TC"
 
---===============1736472731046095960==--
+--===============2615033619797364917==--
