@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sat, 19 Feb 2022 17:09:45 -0000
-Message-Id: <164529058550.21422.18121085770426356312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 19 Feb 2022 17:45:21 -0000
+Message-Id: <164529272192.12869.463918183457777355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/dm-5.18
-    old: 3c713fb33f46f7a7215a4787f5ff9f24e6e3da3a
-    new: 7133cbf94d259ba13c949456067490288cf10568
-    log: |
-         639e139eb428122ef1c14e76202e2de90e7ef278 dm: add dm_submit_bio_remap interface
-         0346cec30a947165b44fabc60b0835e1bd33342a dm crypt: use dm_submit_bio_remap
-         7133cbf94d259ba13c949456067490288cf10568 dm delay: use dm_submit_bio_remap
-         
+  - ref: refs/tags/typesafe.2022.02.18a
+    old: 0000000000000000000000000000000000000000
+    new: f5b2eaf791ebbd6af881947ab7c40ed70681e534
