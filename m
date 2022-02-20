@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1178519163563499303=="
+Content-Type: multipart/mixed; boundary="===============4889379876404045137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 20 Feb 2022 15:14:19 -0000
-Message-Id: <164537005984.7396.10755042516885095608@gitolite.kernel.org>
+Date: Sun, 20 Feb 2022 15:14:20 -0000
+Message-Id: <164537006055.7447.7206456219048572214@gitolite.kernel.org>
 
---===============1178519163563499303==
+--===============4889379876404045137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: a35d65bedfbc38cffe2701798cd6810bbdf07892
-    new: 871c9e115feba3385195a37cbe222171d6b30fb6
-    log: revlist-a35d65bedfbc-871c9e115feb.txt
+  - ref: refs/heads/linux-4.19.y
+    old: 62a337a490a121949fc939a29f5ae1da94871b16
+    new: 73351b9c55d94bed5257874bcbb4dabc116f755c
+    log: revlist-62a337a490a1-73351b9c55d9.txt
 
---===============1178519163563499303==
+--===============4889379876404045137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,63 +32,71 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645370058 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1645370056-03c24b66fbff42d513e2025b18f0d95ba1adea90
 
-a35d65bedfbc38cffe2701798cd6810bbdf07892 871c9e115feba3385195a37cbe222171d6b30fb6 refs/heads/linux-4.14.y
+62a337a490a121949fc939a29f5ae1da94871b16 73351b9c55d94bed5257874bcbb4dabc116f755c refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmISWsobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4aoP/2Xe3lEOYxtxVJVdlbRF
-C6rmESpg21H+fg+8Nwg9d15t0i0LlssTPYFve8sYTOb1BhknuG7QB3Fqfl8mGQ9k
-gFqgnkmQPAakbMxNSBr8tF3c26rYSN5VvFSba8T+JLsuJHx3ogKJVX9zCaPqWu7B
-8d3bGiP468MUzSSD4PiZQaz4N/5knlTBWwE7RQLlRY0FnlscJh6QgYXeOU7kBrg1
-pOR02oVRGjyF+WxCLVdtgCgnPw7hu1ihe1XJHHuEQQPfh/MIZ+p6mlvHr25Ss5gg
-KR9JI3Gmf/Bk+HJUqFZj4G9XHGTOJPXYfWD/7ln62+WAJ+jCCPEZDvJven47GObx
-v16VyRk6np/GKlb10D+xFFubhK1Ke5i3OBE2KxDz2YjC6XoHHeC33irALw0qGQEL
-PpLbEN7bHg7/G5XIj2XSq/TZ3j5Rio+Aj+0KHWOo2u4hNAOd0pMtcjeHapDLNHYT
-ZqGeIVJgr2RNpUAd/D6CVbvhMUPGP5QOF/DATAv5aGTNJ8PKSXwcl/wVcZIDXYoO
-Ode578+4rOsAAgl041wuwVZAfeKAZESgcAI4Zn+IGNOB2jLo/325I0A8JxhRXXYi
-8DaX3dlSHpNY2OoDQmfvRo89Hs0o1Vp+QF+rkfBLnPDmidLTyx9UTeBaEPnyue16
-aUyoZEePvmgZy+zStiP3D6hT
-=qFCG
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EKAP/Ag8AKkmO01TeGNRY2Dt
+kAtry1ksdlOWLRYlLTYXwAy7KMM5iy7cCF8La5cnAagICUjzEzDOw4b4yq2GjFbw
+dNt4a2zrdeaLcUgQnFb4vjVK6aCyfGbujzPW6PmTowYykb6sLKhQCERsB++cIOU4
+GySFM8DoaM/QOtRje0mCh6HHX3gXPFBm02dBDT3WGPIvoZjPhTS2Ub/Jo4guuQwR
+0qOIM8P6XsRym/T/aJQhFIeh0HW+3b4vT2ZpRX5t24Q7cDu6loPDquAiYVeXhYOl
+0MlOt+g4WVwt5swSzD8/Uj4UXzr5OEeX6yQ/2yqod2IK3ezRpZ+CWu+duerGS7CN
+L0pwsMXutufuTRz6kLTYYaOhExFW3tczLjOAVyI6agaUV/w7aCZ1YUJzWamJAoYI
+S2NhfJHdafC9Wrb732SKdnAIPCcR4XdxFV1IYrSL22a2cl7OWf3sxdyUyQyYKSW1
+LSrGunqgM/QUY6czHaZVn3C/OjFYgOx+O80TZuBbyUSm3pOlyXxb4jf+zZacpP+m
+7jSCu+MhcNa+sMRyxTcAAbNh3rWa5qw6nWtQuEpC8og853HAZ0QBnFsLTpYR3sOb
+d8FOrVxe0M7j19QyzEdojqV/h+3ee0+IW3Dgm0t3Uk5RiT/4A8f6O9JoKlkpOpgc
+z1QyYwJf8JBCAxvU9MXq0RX7
+=R+pq
 -----END PGP SIGNATURE-----
 
---===============1178519163563499303==
+--===============4889379876404045137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a35d65bedfbc-871c9e115feb.txt
+Content-Disposition: attachment; filename=revlist-62a337a490a1-73351b9c55d9.txt
 
-1ed4347bb760ac3410f10fe12f9edfdeea8f0fd6 Makefile.extrawarn: Move -Wunaligned-access to W=1
-9936937b3198a0cf08546e7d551250f6edad4273 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-00ecae4a6a9d67342d42c91bbb5058173c5a1554 serial: parisc: GSC: fix build when IOSAPIC is not set
-5ed481f6c0f7ee9902cfd4e41ff888a535e5a3a7 parisc: Fix data TLB miss in sba_unmap_sg
-907d2dc240cf0ffecc4bdd3e94f2adf40559f7c3 parisc: Fix sglist access in ccio-dma.c
-c1fcec5e79d0fc96309b257da2a2cebcf028f718 btrfs: send: in case of IO error log it
-0ec693ddd2bf71b592aae533bdb5d0a334fea0ea net: ieee802154: at86rf230: Stop leaking skb's
-f6b53418526acb7a04bcee774eb1fb4951ba3aed selftests/zram: Skip max_comp_streams interface on newer kernel
-ffe3d681b3c26c091f714bcc8876dc413647fbe6 selftests/zram01.sh: Fix compression ratio calculation
-7907d5d3f5a8369316c54fc1a75523f71bb29c7f selftests/zram: Adapt the situation that /dev/zram0 is being used
-da66c507e2b5ad08f7dcb005b4b83e4bb44e8d4e ax25: improve the incomplete fix to avoid UAF and NPD bugs
-3156bafd185dcf94235b36ff6d28c8113c9178da vfs: make freeze_super abort when sync_filesystem returns error
-72f9166ad03d81815f7b7ccdc0c8200d4c059252 quota: make dquot_quota_sync return errors from ->sync_fs
-1ba3955c558644caa2474484b2b28bd2e0c98565 Revert "module, async: async_synchronize_full() on module init iff async is used"
-e4a1828a769a97bba73028ac0653300e2e09e116 iwlwifi: fix use-after-free
-0599f5100c7ff04aafbd47c6d12e3dc1dd879ee1 drm/radeon: Fix backlight control on iMac 12,1
-bccc92358f3ba9b9b2eda358079c13264841f0af xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
-a16435bd3618271e7bf5ffe0a1922d712b6bd239 taskstats: Cleanup the use of task->exit_code
-5a4b95cdd7cc6870121d3477e400938c789faa87 vsock: remove vsock from connected table when connect is interrupted by a signal
-113ead4619a71ffc4f009f9ce49bbb46ef0c567b iwlwifi: pcie: fix locking when "HW not ready"
-b237ff9b90c1299811a59c288ccb93e6ba6ec7d7 iwlwifi: pcie: gen2: fix locking when "HW not ready"
-bb500d3e5e814897eb8055ff2bddb6a6200e0a14 net: ieee802154: ca8210: Fix lifs/sifs periods
-6011afd82eb024396d70b7362e82af92744da35f ping: fix the dif and sdif check in ping_lookup
-2e4154339473c8bb254e394a142db15ebe2be4b4 drop_monitor: fix data-race in dropmon_net_event / trace_napi_poll_hit
-730aea135e43637a1c9ef31461c540866d1c2070 bonding: fix data-races around agg_select_timer
-0291b17e041c31fda4b65a769483d330d9a0100e libsubcmd: Fix use-after-free for realloc(..., 0)
-7fab102c0ecd14745a27a0b39321bb499a3079ec ALSA: hda: Fix regression on forced probe mask option
-37e1938b9aa82f7558a2eed8c32eb1ccbeef19ce ALSA: hda: Fix missing codec probe on Shenker Dock 15
-da058fc04423165a6245da53bfd62282071751e1 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw()
-7e35c5e192562342dbc42fe268737e99f18d9df8 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_range()
-ab3a52d92fc46dfd33924589192d5cd19423ed60 powerpc/lib/sstep: fix 'ptesync' build error
-db4122b8759914f6c22f66478894c95136fade6b NFS: LOOKUP_DIRECTORY is also ok with symlinks
-871c9e115feba3385195a37cbe222171d6b30fb6 Linux 4.14.268-rc1
+956e50bd6f1c328c9df29157cd28f7c444607c22 Makefile.extrawarn: Move -Wunaligned-access to W=1
+8a4c2532d5de4fe56c265b887974b750ecb4e5e6 net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
+4ec5d4c5f5d00dd6935ccb81b0c11239103c1c4e serial: parisc: GSC: fix build when IOSAPIC is not set
+ffb2b339bb65c8920505ef7a530bd94975315b3b parisc: Fix data TLB miss in sba_unmap_sg
+957984ca91df03ab8c61a6711d095eeb8963b43c parisc: Fix sglist access in ccio-dma.c
+cb042ae82970cf52a116597c66b9d8b931432825 btrfs: send: in case of IO error log it
+c492b2d548fd02ff3c69e4dfc2111a0025948935 net: ieee802154: at86rf230: Stop leaking skb's
+f43d1e9c8ee78900cab6cc8d87c2b79c2e607a9d selftests/zram: Skip max_comp_streams interface on newer kernel
+685f6a2244dffe7331dc93b04d20abb605cc3d54 selftests/zram01.sh: Fix compression ratio calculation
+810e2879346ea4af2ff46dcdc1f0032f432ce0be selftests/zram: Adapt the situation that /dev/zram0 is being used
+b6136bae92d652b8bf3ebda63e06e1a55fed456b ax25: improve the incomplete fix to avoid UAF and NPD bugs
+4002461dc74ecbfbf8e30827b0edc4e7b9a9992b vfs: make freeze_super abort when sync_filesystem returns error
+327891d4560f9d24290d2005b1a668f010285fbf quota: make dquot_quota_sync return errors from ->sync_fs
+6b2e428c37a6e3f620db16f68b607db5708ee68e nvme: fix a possible use-after-free in controller reset during load
+eb2c67c9804e8d7962abbc564d690a25ee83d5f0 nvme-rdma: fix possible use-after-free in transport error_recovery work
+6cd3a8bcae75a925f87f2108236b92a3d607f23a Revert "module, async: async_synchronize_full() on module init iff async is used"
+a750e4a330768f7794821d74bec6b727c04d7024 iwlwifi: fix use-after-free
+da8ca88f5f1e0ab49e925c91af82eed270955e5d drm/radeon: Fix backlight control on iMac 12,1
+8a7d5884391a445da036080ddee6eea4702efb83 xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
+0a4fd78f02f6e5e627deca8740ddb2082058f374 taskstats: Cleanup the use of task->exit_code
+abc0bb32c686c004100dd813643620c2a1612479 mmc: block: fix read single on recovery logic
+e2be436ca38c38c44453d36278d8a460aee45470 vsock: remove vsock from connected table when connect is interrupted by a signal
+e0fd667a53b917bd2a2d2bcec42f667fa230376c iwlwifi: pcie: fix locking when "HW not ready"
+1aaaba65687198a21e968e80a44716de586bbf7a iwlwifi: pcie: gen2: fix locking when "HW not ready"
+a54c39350231f84b6a717a7336444869c611a1b3 net: dsa: lan9303: fix reset on probe
+ab06a362fa14fb9433e10bb4cf1fc1e6132e37f6 net: ieee802154: ca8210: Fix lifs/sifs periods
+6b8545ec07738383efa39c3fc2ea71f7688b5160 ping: fix the dif and sdif check in ping_lookup
+d546d09f0abc7dc0eab97e9ef1a4e0334c6c389d drop_monitor: fix data-race in dropmon_net_event / trace_napi_poll_hit
+13c653db647fe122c09b07c439202738bc70c11a bonding: fix data-races around agg_select_timer
+9260de23d930b0e68cfbad6176836de683dceb24 libsubcmd: Fix use-after-free for realloc(..., 0)
+b5b60b1a26e810b52ea69a2fd75526e8e8c63670 ALSA: hda: Fix regression on forced probe mask option
+d7a24fc038961728cce098a9a5c984d0831a16e3 ALSA: hda: Fix missing codec probe on Shenker Dock 15
+081dd72303413f953843c623da31861361e90767 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw()
+68d5ffa27f3a2fb1c89bd693f46a7d44f0e003f7 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_range()
+7bac1b4aeccb42a955194066650f555d171a7cea powerpc/lib/sstep: fix 'ptesync' build error
+8165c55d770817d2ba9c65d27cf262220980a12c ext4: check for out-of-order index extents in ext4_valid_extent_entries()
+8afcf4bb502a543e0bbb7c8eb00887db188011dc block/wbt: fix negative inflight counter when remove scsi device
+96ac24d0dd8de95e2cdc140d7214220afbf6e5cf NFS: LOOKUP_DIRECTORY is also ok with symlinks
+4283fbfd6be6b146d4bdee1c7d8043903dc3e2a1 NFS: Do not report writeback errors in nfs_getattr()
+4941cd54dfa01bd01c01ced38f98c86e498bf8e3 mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
+73351b9c55d94bed5257874bcbb4dabc116f755c Linux 4.19.231-rc1
 
---===============1178519163563499303==--
+--===============4889379876404045137==--
