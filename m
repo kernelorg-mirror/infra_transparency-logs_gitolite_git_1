@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 20 Feb 2022 17:33:13 -0000
-Message-Id: <164537839349.32460.2839678750274899815@gitolite.kernel.org>
+Date: Sun, 20 Feb 2022 17:34:31 -0000
+Message-Id: <164537847181.461.10622441866645145548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 3f36bcda4a41662f8b6b1077d08099a293578cc9
-    new: be57aba92e58930ace6e82bf0764c8f3242a40f3
+    old: be57aba92e58930ace6e82bf0764c8f3242a40f3
+    new: 4c3bdc9c82a61368384e42c3c0100c32efa76262
     log: |
-         ed8a6b9c2695c425068dc4be93b307b7d6fa210e iio:frequency:admv1014: add support for ADMV1014
-         f88312d3218a2e52207d50b3d7f894110ea4448a dt-bindings:iio:frequency: add admv1014 binding
-         e69bb32695232e197f5f949fef5b1643faed0d1a Documentation:ABI:testing:admv1014: add ABI docs
-         be57aba92e58930ace6e82bf0764c8f3242a40f3 MAINTAINERS: add maintainer for ADMV1014 driver
+         2f62500ae52bbe0c013eddce88bbf6bd9ffd5289 iio: frequency: admv1014: add support for ADMV1014
+         104b33dae5baf1f83f85443c4e1d600cd83d8d21 dt-bindings: iio: frequency: add admv1014 binding
+         bf9efe850ed38dff8501334db162b5c1db66ab65 Documentation: ABI: testing: admv1014: add ABI docs
+         4c3bdc9c82a61368384e42c3c0100c32efa76262 MAINTAINERS: add maintainer for ADMV1014 driver
          
