@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0780077995880710684=="
+Content-Type: multipart/mixed; boundary="===============5970965304394637525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 20 Feb 2022 23:21:34 -0000
-Message-Id: <164539929497.28868.12339163256474515911@gitolite.kernel.org>
+Date: Sun, 20 Feb 2022 23:21:49 -0000
+Message-Id: <164539930980.29331.18056998227384616473@gitolite.kernel.org>
 
---===============0780077995880710684==
+--===============5970965304394637525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: c816b50a7c5884f9396a9af4f820962360569149
     new: 6567e6d0ff093037626680728bcf027e49effe29
     log: revlist-c816b50a7c58-6567e6d0ff09.txt
 
---===============0780077995880710684==
+--===============5970965304394637525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -183,4 +183,4 @@ b99a7f3e0c620e4d2edc5d8a3fadd6c2679b7e15 certs: Factor out the blacklist hash cr
 284bdf2d91f5c12b30fba0440e9e12779be0af9e certs: Allow root user to append signed hashes to the blacklist keyring
 6567e6d0ff093037626680728bcf027e49effe29 KEYS: trusted: Fix trusted key backends when building as module
 
---===============0780077995880710684==--
+--===============5970965304394637525==--
