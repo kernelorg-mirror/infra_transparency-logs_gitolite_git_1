@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 20 Feb 2022 17:49:43 -0000
-Message-Id: <164537938378.9670.8504992502011427743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 20 Feb 2022 18:33:12 -0000
+Message-Id: <164538199248.5995.7846600465188874117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dev.2022.02.17a
+  - ref: refs/tags/iio-fixes-for-5.17a
     old: 0000000000000000000000000000000000000000
-    new: f5b2eaf791ebbd6af881947ab7c40ed70681e534
+    new: d6e924df05579bd918de65204405424314032d76
