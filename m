@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8064749067706664119=="
+Content-Type: multipart/mixed; boundary="===============4555253429549995889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 20 Feb 2022 01:29:05 -0000
-Message-Id: <164532054506.17570.2501985910086736158@gitolite.kernel.org>
+Date: Sun, 20 Feb 2022 01:29:18 -0000
+Message-Id: <164532055809.17722.1909086223131476343@gitolite.kernel.org>
 
---===============8064749067706664119==
+--===============4555253429549995889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,124 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 22754f7fbb4030eb2d5e73c2a2db63637ed1d105
-    new: ac2beb4e3bd75b0049068516b9d42201bda0ded3
-    log: revlist-22754f7fbb40-ac2beb4e3bd7.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: ea1e047d716d2b09089e58f126c5e0fa80ead110
+    new: a28ebccdfd1205a20531566c2242c8f6ea8056d4
+    log: revlist-ea1e047d716d-a28ebccdfd12.txt
 
---===============8064749067706664119==
+--===============4555253429549995889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1645320537 -0500
+pusher 75C5DE3D 1645320549 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1645320537-ad513a2515afa4ed5650ef89710acd6eaa7e8a53
+nonce 1645320548-368801295e6b9ac2c14e5ed7896ef4f464315429
 
-22754f7fbb4030eb2d5e73c2a2db63637ed1d105 ac2beb4e3bd75b0049068516b9d42201bda0ded3 refs/heads/queue
+ea1e047d716d2b09089e58f126c5e0fa80ead110 a28ebccdfd1205a20531566c2242c8f6ea8056d4 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIRmVkACgkQ7ulgGnXF
-3j0GfQ/+PcIG6yYNq8T5h0lYYflZBUUEpExWCkcMgtyhT2DU21nk9Qs1EcP5ULuD
-uWlRVErtAR2SJersxL75u+cx6oMeNBQGzBc1P5KfqpSyly+1qyGC5pTEjfwJ86el
-10lJwPecb3Tcgdb2ihWBuRkV2jK0S6lUM1Agq8VyVlzmJw9ipv6hPhtVaRwzapCx
-uTaoMFnGfJIbKS61jCFe/7/ikwCVJZ/etK+/h4JiujbsVthKzY9Li84yPyj8vsQW
-M33tQ7KHvS3nze0g0utXCDIZg/FXrcViMA0Yde6ZHm38XCLnfYEa4jiAlxd9jIwL
-M/U5k2rDGngOxCIx1wA+2YTErbDFv7Mxomy6dnlIZhCUYar9P/nEbhQ9JWwz90G/
-nn11fIr831cMDOENUX//z95mmCUpCldPxV2pv9df6QyaT5Gi8RpTFQntjCRsxwyl
-pXpHI+TIgOXwNpllDhDJa7wGa3f2s85Usf1bfp55KeK83tvyrjXW7xcSVb3cYw+0
-0Rbdq/7fRUx6Gsj7W7l27/F0ZoNxoaraQ+2HPkiaRLaTqM4SY3iDhx4II19DDd9d
-32/vcMzw9CLwdkp0QG2d0ZsBk/FLRvZfmyYJ2broj/d3FpyNp45+UjCDNO75NQ4s
-Ow5P5jNujOcS6we4AqR8RhlwMuRr3yUeuky7Q/48U9v11OwLTpA=
-=fwYk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIRmWUACgkQ7ulgGnXF
+3j2HaA/6A/riSzUd4+hse37vwWVXU4akGk73ZrARWW9h2ix0oSE2w/zx9SvLADbE
+MHUkQxlSptA9PDrqqlCkVYnEKcpeAKmbvRTZVLU3cEJ0FWP9glUPa5l2pqVkdVwT
+jAoLoMT9CT0znucAwg7vqSzoPm/op8Hrp8qozg4p0VHSP26Ajh0yDiEsIhZnm6Ev
+y+FwJYYZerrKngV/7SAoa8VHM85C4dOOnx2P/Mt/0NzYfqtAUS+ev/v/MoF4auWv
+IRIL+S83Jn46LTkUbKK0H0PjeRKz9ys0Vd2eCjI11F/ir4WSNo3V/Dn36G7LcUo+
+C5UwgKJ0B8gqpCYWelvU8XNIT280XXs8ES053nmtD5IpwLV/N2wOTmihijuokmOO
+J9ThIEIlzc3Oa+KIAACbIfoWOT0VFurBkBt8A1JmLlA9KV4OkR7ZpSMLM+tho0Tu
+nFKXAGINwUaCwhtEJ3wFbsUIrV+91QfAjQ3/VWE4HEegSchNtIjMMI2/4cLN4M1d
+kSajFElmIZVvVMsQbOnGWYy7h6toFXkUHk9N2h6+ru6pp2TdZIQdB23dAiDW+7oo
+Xk6wfibr+b0Y7UTm4CX0BPzeSOcyHuCzIXDOlry6azYLz5D5VYrmdT66PNMW23tr
+r2dLs7wcNrU0wA4YXEJ/ApueuZLMJF3JiwUN7ceo73GwWo2dHSc=
+=lbp9
 -----END PGP SIGNATURE-----
 
---===============8064749067706664119==
+--===============4555253429549995889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22754f7fbb40-ac2beb4e3bd7.txt
+Content-Disposition: attachment; filename=revlist-ea1e047d716d-a28ebccdfd12.txt
 
-61263b3a11a2594b4e898f166c31162236182b5c scsi: elx: efct: Don't use GFP_KERNEL under spin lock
-a861790afaa8b6369eee8a88c5d5d73f5799c0c6 scsi: target: iscsi: Make sure the np under each tpg is unique
-a65b32748f4566f986ba2495a8236c141fa42a26 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
-b70a99fd13282d7885f69bf1372e28b7506a1613 scsi: qedf: Add stag_work to all the vports
-5239ab63f17cee643bd4bf6addfedebaa7d4f41e scsi: qedf: Fix refcount issue when LOGO is received during TMF
-64fd4af6274eb0f49d29772c228fffcf6bde1635 scsi: qedf: Change context reset messages to ratelimited
-62afb379a0fee7e9c2f9f68e1abeb85ceddf51b9 scsi: pm8001: Fix bogus FW crash for maxcpus=1
-8c9db6679be4348b8aae108e11d4be2f83976e30 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
-847f9ea4c5186fdb7b84297e3eeed9e340e83fce scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
-fb8d5ea8fd907faa3751a9e5df5d01b5f3803e35 scsi: 3w-sas: Remove useless DMA-32 fallback configuration
-8001fa240fc0af1c3538a9fbaccd2c345ff9ab62 scsi: hisi_sas: Remove useless DMA-32 fallback configuration
-012d98dae453821ac31da25595ffa26d4ad49c8c scsi: bfa: Remove useless DMA-32 fallback configuration
-ad6c8a426446873febc98140d81d5353f8c0825b scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
-c99b9b2301492b665b6e51ba6c06ec362eddcd10 scsi: ufs: Treat link loss as fatal error
-efd7bb1d75cf6808d67c869a29245c88a990bdea scsi: 53c700: Remove redundant assignment to pointer SCp
-4db09593af0b0b4d7d4805ebb3273df51d7cc30d scsi: myrs: Fix crash in error case
-c26b85ea16365079be8d206b20556a60a0c69ad4 scsi: pm80xx: Fix double completion for SATA devices
-936bd03405fc83ba039d42bc93ffd4b88418f1d3 scsi: bnx2fc: Make bnx2fc_recv_frame() mp safe
-edb854a3680bacc9ef9b91ec0c5ff6105886f6f3 scsi: core: Reallocate device's budget map on queue depth change
-0aed75fd30dacd31144188f7ddd5d571db7511c5 scsi: pm8001: Fix warning for undescribed param in process_one_iomb()
-61f162aa4381845acbdc7f2be4dfb694d027c018 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
-df7abcaa1246e2537ab4016077b5443bb3c09378 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
-c763ec4c10f78678d6d4415646237f07109a5a5f scsi: hisi_sas: Fix setting of hisi_sas_slot.is_internal
-c80b27cfd93ba9f5161383f798414609e84729f3 scsi: lpfc: Remove NVMe support if kernel has NVME_FC disabled
-5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 scsi: lpfc: Reduce log messages seen after firmware download
-ac2beb4e3bd75b0049068516b9d42201bda0ded3 Merge branch '5.17/scsi-fixes' into 5.18/scsi-staging
+9aacf6fe90592cc7f64d56505e42606b61b76f00 scsi: libsas: Handle non-TMF codes in sas_scsi_find_task()
+1d6049a3b14feb39c8d6c8f538a711dcc54f88e0 scsi: libsas: Use enum for response frame DATAPRES field
+25882c82f850e3e972a973e0af310b3e58de38fd scsi: libsas: Delete lldd_clear_aca callback
+2dd6801a671c0a82e756355d20669ad5bbe89073 scsi: libsas: Delete SAS_SG_ERR
+da19eaba6e751e6745930d04a98db73ebcead12a scsi: hisi_sas: Delete unused I_T_NEXUS_RESET_PHYUP_TIMEOUT
+4aef43b25df2bc81bebea1aa335a0696ab3a2275 scsi: libsas: Move SMP task handlers to core
+bbfe82cdbaf84e6622ceb6f3447c8c4bb7dde7ab scsi: libsas: Add struct sas_tmf_task
+96e54376a8b27066d32ca36800318c43e6b6d2c5 scsi: libsas: Add sas_task.tmf
+001ec7f89bea94259ededbedc8b5627b93848b8a scsi: libsas: Add sas_execute_tmf()
+350d85ba5badb90af0299862c4422fa016ebc91b scsi: libsas: Add sas_execute_ssp_tmf()
+2037a340314f4be8977563006476bd15c859eda2 scsi: libsas: Add TMF handler exec complete callback
+693e66a0a6ac56322687f614ba6e8bfbc43a1530 scsi: libsas: Add TMF handler aborted callback
+69b80a0ed0b5d0c54ee1618eb5a015699e8c47c5 scsi: libsas: Add sas_abort_task_set()
+e8585452953a040a6d1d901e5b2e8c327f09e219 scsi: libsas: Add sas_clear_task_set()
+29d7769055a21968c0bbfe866affe1640d90bd1d scsi: libsas: Add sas_lu_reset()
+72f8810e1fdcd52deedfd294497fa8337703a632 scsi: libsas: Add sas_query_task()
+4fea759edfa795b170a72bfd3be7b7601012ce4b scsi: libsas: Add sas_abort_task()
+13685dfbad9831580335dc6e2f7a3be14b769686 scsi: libsas: Add sas_execute_ata_cmd()
+27e273d15f897393dd01bc8a3ff3cc31b3d601fa scsi: ips: Remove an unreachable statement
+c83e81fae20d621c7be7a169711f30eb6dda9646 scsi: ips: Change the return type of ips_release() into 'void'
+d48b922c3f4b028c09e4cbf145f7ab13c1ac1946 scsi: ips: Use true and false instead of TRUE and FALSE
+4fef5f20780f69b1a605bdb802e63f53dcd90277 scsi: nsp_cs: Change the return type of two functions into 'void'
+b97891888f8bbefec311efa35bd4fdf07985d7f7 scsi: nsp_cs: Use true and false instead of TRUE and FALSE
+92a8c869c9bd2f1a94c16bbc9db3a4ada2a91dec scsi: Remove drivers/scsi/scsi.h
+fd4831656114a538dc87655c88f8c2f0ac07cb9c scsi: NCR5380: Remove the NCR5380_CMD_SIZE macro
+3f2134e12cbce03aeae89830b48ec2a867b85870 scsi: NCR5380: Add SCp members to struct NCR5380_cmd
+6e1ef2c94c1a0aeb55e2dfba6fab12f8e7e49bec scsi: arm: Rename arm/scsi.h into arm/arm_scsi.h
+587ed17b9ab86c49903190e641c2b1116f7f3294 scsi: arm: Move the SCSI pointer to private command data
+f33eabb45c455780c1e1e03d08796d4f23c2bf6d scsi: 53c700: Stop clearing SCSI pointer fields
+7d60bc0f39e7ee7d310d70b85ae484b9f89ab905 scsi: aacraid: Move the SCSI pointer to private command data
+c1ddc13389e97f5867c510f4f2a3f92fe3492784 scsi: advansys: Move the SCSI pointer to private command data
+f5055c9584c331bcc06005bf1c96b1c574e5eaea scsi: aha1542: Remove a set-but-not-used array
+983f069a685d40e44d44297d8736321c9dff3cc4 scsi: aha152x: Move the SCSI pointer to private command data
+d6e9e595ba5c8d83e056d8740fa6b5dd8c604673 scsi: bfa: Stop using the SCSI pointer
+c13c78d8da590292a3c30057663159af76577384 scsi: csio: Stop using the SCSI pointer
+c1f70735ee006cbcb9fa6916d311fda13e4fa929 scsi: dc395x: Stop using the SCSI pointer
+9afc4328a09260ccb41f7900ca8ecc7e828b150b scsi: esp_scsi: Stop using the SCSI pointer
+f40a8b9ba44e3faae7c5546a931d005a7bd7db65 scsi: fdomain: Move the SCSI pointer to private command data
+889d28383a06edb1946bac770a0dfe767b2f9a95 scsi: fnic: Fix a tracing statement
+2b6499687859603307c28ec3a6cdc9d85a7e0395 scsi: fnic: Stop using the SCSI pointer
+a227d4767af4eaf256858a6455813fd7f0dcc599 scsi: hptiop: Stop using the SCSI pointer
+9e23314b1f1b1854f2b29d812d368efef942f600 scsi: imm: Move the SCSI pointer to private command data
+da9604f1d06d6325061172370f09fb3857af3ccd scsi: iscsi: Stop using the SCSI pointer
+def5a6f5d3b3cca2ce5202ba03209f06db4261bc scsi: initio: Stop using the SCSI pointer
+38eb106b92804f5f0cac87b37963d26c417feb24 scsi: libfc: Stop using the SCSI pointer
+9e6e466ec3fb9eeed919cb71ea055388e599dd75 scsi: bnx2fc: Stop using the SCSI pointer
+6ac524f0bd4f8ef7a843a21f547efd59b96b7003 scsi: qedf: Stop using the SCSI pointer
+287c2994ebbcec12d711b3fba56942d953f66776 scsi: mac53c94: Fix a set-but-not-used compiler warning
+84494338e68cb627ff339e608f807b07337b6af9 scsi: mac53c94: Move the SCSI pointer to private command data
+2471d7e35ff1e81801c81382d248ddc27d058393 scsi: megaraid: Stop using the SCSI pointer
+a625266792e735601f86af500d0d7f6dc33c3386 scsi: megasas: Stop using the SCSI pointer
+7b7d171aca3c4750d11ff9adfcd7591be735f16f scsi: mesh: Move the SCSI pointer to private command data
+cbb02d8cc8e0df04fa980e192bde3b65d22a3ecc scsi: mvsas: Fix a set-but-not-used warning
+cf5e5db5824e08e35aa13ff969dc0ab9aa753214 scsi: mvumi: Stop using the SCSI pointer
+eadb7e81109bc9ff2247af5d32bad805a304b9f5 scsi: nsp32: Stop using the SCSI pointer
+3d4fc0651a8a4767e8254a5cd3ff4ca92ee6f281 scsi: nsp_cs: Move the SCSI pointer to private command data
+d4c944463a7e24ce19316a6bbc9a87fa634f03f5 scsi: sym53c500_cs: Move the SCSI pointer to private command data
+f38cdeb2d91e715e55ed753c80e588424cc62843 scsi: ppa: Move the SCSI pointer to private command data
+28ec4ca2dcb2e5dd177e03645d32be4d4df12b83 scsi: qla1280: Move the SCSI pointer to private command data
+990c872c315ca19829e9701d9082e719bf37c0bc scsi: qla2xxx: Stop using the SCSI pointer
+af862473547c639eb323411e78353e3f2a0b7c75 scsi: smartpqi: Stop using the SCSI pointer
+0c20b461634658527d27abf296bab4ae2b04b085 scsi: sym53c8xx_2: Move the SCSI pointer to private command data
+311618c99f748ef938ca45359f41daaee787dffb scsi: usb: Stop using the SCSI pointer
+c36b948fb514f0c6a5348cda3ec530dddffca7d4 scsi: wd719x: Stop using the SCSI pointer
+acd6148b023f54a094e524a29e29f6fc8ead1ac0 scsi: wd33c93: Move the SCSI pointer to private command data
+d7ca1f31f1670c1f7b9638f351e82674263a0fec scsi: zalon: Stop using the SCSI pointer
+e630b7fdb5487fae221e825f5c29f07616be21fd scsi: core: Remove struct scsi_pointer from struct scsi_cmnd
+38e75ab5ce7b2ed5d8fd30fe43ff677debdc6d42 scsi: ufs: core: Remove wlun_dev_to_hba()
+ca45e335a56af9b72730f2e545f0cf4b6c5cb73b scsi: qla2xxx: Use named initializers for port_[d]state_str
+ed67ca76bbc410509c0dad8f4529dcdd674e5022 scsi: qla2xxx: Use named initializers for q_dev_state
+094cfb489ff204e069d3fdc06d5a7cc6a5d47b0d scsi: target: tcmu: Make cmd_ring_size changeable via configfs
+129e8e136b1e8683cabcf43b9ef0a9532839f7a6 scsi: mpi3mr: Fix flushing !WQ_MEM_RECLAIM events warning
+345dddb6b7eb2984dd313f398c1235ff03e717cd scsi: cxlflash: Query write_zeroes limit for zeroing
+b3add0a1ca4dddfa8f61f887e1c38b005ac4fcf3 scsi: drbd: Remove WRITE_SAME support
+e8e9884730b367e3fc85fa49859e6cb92196df50 scsi: rnbd: Remove WRITE_SAME support
+2770ae2741fc95975f83ab31e769da108419bae0 scsi: sd: Remove WRITE_SAME support
+903bb64b0d46953944d93e988c9f47975a86c92a scsi: md: Remove WRITE_SAME support
+64d4584d71a2c0ceecf88a037a278e3abb552254 scsi: dm: Remove WRITE_SAME support
+2988062985d598d6871f47cb8eb70318af5b5b2d scsi: block: Remove REQ_OP_WRITE_SAME support
 
---===============8064749067706664119==--
+--===============4555253429549995889==--
