@@ -1,50 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============3630477698663308198=="
+Content-Type: multipart/mixed; boundary="===============7440232127022418523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sun, 20 Feb 2022 01:26:11 -0000
-Message-Id: <164532037148.16485.9834907648727229913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Sun, 20 Feb 2022 01:28:43 -0000
+Message-Id: <164532052380.17306.325964147876111709@gitolite.kernel.org>
 
---===============3630477698663308198==
+--===============7440232127022418523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b352c3465bb808ab700d03f5bac2f7a6f37c5350
-    new: 8940e6b669ca1196ce0a0549c819078096390f76
-    log: revlist-b352c3465bb8-8940e6b669ca.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: cc88a07dd6a596361b44f954e8411fc5e9e29d6b
+    new: 0536b17bbc301d66af404573f9bcd349fb89d7aa
+    log: revlist-cc88a07dd6a5-0536b17bbc30.txt
 
---===============3630477698663308198==
+--===============7440232127022418523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b352c3465bb8-8940e6b669ca.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b70bc066d77b460a63a8c3fb2ea0d811ce862a83 ice: Match on all profiles in slow-path
-932645c298c41aad64ef13016ff4c2034eef5aed ice: fix setting l4 port flag when adding filter
-fadead80fe4c033b5e514fcbadd20b55c4494112 ice: fix concurrent reset and removal of VFs
-ed22d9c8d128293fc7b0b086c7d3654bcb99a8dd ice: check the return of ice_ptp_gettimex64
-5950bdc88dd1d158f2845fdff8fb1de86476806c ice: initialize local variable 'tlv'
-5a2aba71cd2610d3ed08867a1b1bf617cd8f89b8 net: mvpp2: always set port pcs ops
-ba88b5533728c54bdea68431988eff2d9a7a1237 MAINTAINERS: rmnet: Update email addresses
-3a14d0888eb4b0045884126acc69abfb7b87814d nfp: flower: Fix a potential leak in nfp_tunnel_add_shared_mac()
-0cd33c5ffec12bd77a1c02db2469fac08f840939 selftests: mptcp: fix diag instability
-5b31dda736e31c58d1941c7349569c7452eafb6b selftests: mptcp: improve 'fair usage on close' stability
-98247bc16a27cf8ead4c47ce9f15888be85841fc mptcp: fix race in overlapping signal events
-837cf45df163a3780bc04b555700231e95b31dc9 mptcp: fix race in incoming ADD_ADDR option processing
-f73c1194634506ab60af0debef04671fc431a435 mptcp: add mibs counter for ignored incoming options
-6ef84b1517e08f6c2fc105b798a9d21bf4caa6cb selftests: mptcp: more robust signal race test
-e35f885b357d47e04380a2056d1b2cc3e6f4f24b selftests: mptcp: be more conservative with cookie MPJ limits
-90141edcd53d145e870bca24d0ce0daaa7157e02 Merge branch 'mptcp-fixes'
-0033fced48d281d59f35565106e6d78b25a2f6e6 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-5486f5bf790b5c664913076c3194b8f916a5c7ad net: Force inlining of checksum functions in net/checksum.h
-3d00827a90db6f79abc7cdc553887f89a2e0a184 net: dsa: microchip: fix bridging with more than two member ports
-8940e6b669ca1196ce0a0549c819078096390f76 net: dsa: avoid call to __dev_set_promiscuity() while rtnl_mutex isn't held
+certificate version 0.1
+pusher 75C5DE3D 1645320514 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1645320513-a182b62d50fb3c041b00fd814ec6c1065bd7e9af
 
---===============3630477698663308198==--
+cc88a07dd6a596361b44f954e8411fc5e9e29d6b 0536b17bbc301d66af404573f9bcd349fb89d7aa refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIRmUIACgkQ7ulgGnXF
+3j1j5RAAloFBZLfRP6pguv0ncGVFhQxpq0TCGvUJv8RXaSEILeXFHrrwVYJ2vD0R
+hIlrIDnNmZ3K88/gafcTWM8UpnTLxs8efCFMM7815e3q5UDagjomq4E2VuKk7LRJ
+TaDJiBjw09PMWVFvRid3uvPE4Xj7AFuWJ64S5WfphY99t8hIHMo1rDK+bzWTcMsC
+XiskL2IPGkbtn7AAexm9AkApWExDL4Gj+T1rY+TYOLss/0Jw6rk3t7Lyh+p7ddQl
+hoNKohE4Szfm+dvJC/Ug0PQ0ez+0AG8foRJPnyo4jsj0JpIfNtKgiYGtM5ujDZAv
+i7mg4cWEbYOQyV4zLH4unmZ+VsK60vorhP0mo27qp7Ep6+K9dUt/YT6CGz5mFXkn
+SvDC1UPahURWglzsnv5Eh+P5vugQ03t1ivVfIxZR0DDs9gr3YydvIg6V1s6bk/1S
+psuvs8+z06mMuZEQeIrtblGeVZvQstyDxDBL3PvaDPbmc5XtCh5yYK0aMzjhtc8E
+VYn97HoL4HTKjCFdT13AiGWMLnd5BhT7wDpFqUh0pUCTMqXKKO41t1tFNUdFAHnt
+HJthTyqL/MSce337DSqPn8CbAl8rm4Z9/4q1dMGW8+KLn7RIh0ppOHGdsbUYs/sv
+mB3VuIeUoU2fMjHswCYUd2LkH3Xq3+li/9utNlRoX0QMQ/u2Duk=
+=c23H
+-----END PGP SIGNATURE-----
+
+--===============7440232127022418523==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cc88a07dd6a5-0536b17bbc30.txt
+
+61263b3a11a2594b4e898f166c31162236182b5c scsi: elx: efct: Don't use GFP_KERNEL under spin lock
+a861790afaa8b6369eee8a88c5d5d73f5799c0c6 scsi: target: iscsi: Make sure the np under each tpg is unique
+a65b32748f4566f986ba2495a8236c141fa42a26 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+b70a99fd13282d7885f69bf1372e28b7506a1613 scsi: qedf: Add stag_work to all the vports
+5239ab63f17cee643bd4bf6addfedebaa7d4f41e scsi: qedf: Fix refcount issue when LOGO is received during TMF
+64fd4af6274eb0f49d29772c228fffcf6bde1635 scsi: qedf: Change context reset messages to ratelimited
+62afb379a0fee7e9c2f9f68e1abeb85ceddf51b9 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+8c9db6679be4348b8aae108e11d4be2f83976e30 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+847f9ea4c5186fdb7b84297e3eeed9e340e83fce scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+fb8d5ea8fd907faa3751a9e5df5d01b5f3803e35 scsi: 3w-sas: Remove useless DMA-32 fallback configuration
+8001fa240fc0af1c3538a9fbaccd2c345ff9ab62 scsi: hisi_sas: Remove useless DMA-32 fallback configuration
+012d98dae453821ac31da25595ffa26d4ad49c8c scsi: bfa: Remove useless DMA-32 fallback configuration
+ad6c8a426446873febc98140d81d5353f8c0825b scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
+c99b9b2301492b665b6e51ba6c06ec362eddcd10 scsi: ufs: Treat link loss as fatal error
+efd7bb1d75cf6808d67c869a29245c88a990bdea scsi: 53c700: Remove redundant assignment to pointer SCp
+4db09593af0b0b4d7d4805ebb3273df51d7cc30d scsi: myrs: Fix crash in error case
+c26b85ea16365079be8d206b20556a60a0c69ad4 scsi: pm80xx: Fix double completion for SATA devices
+936bd03405fc83ba039d42bc93ffd4b88418f1d3 scsi: bnx2fc: Make bnx2fc_recv_frame() mp safe
+edb854a3680bacc9ef9b91ec0c5ff6105886f6f3 scsi: core: Reallocate device's budget map on queue depth change
+0aed75fd30dacd31144188f7ddd5d571db7511c5 scsi: pm8001: Fix warning for undescribed param in process_one_iomb()
+61f162aa4381845acbdc7f2be4dfb694d027c018 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
+df7abcaa1246e2537ab4016077b5443bb3c09378 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
+c763ec4c10f78678d6d4415646237f07109a5a5f scsi: hisi_sas: Fix setting of hisi_sas_slot.is_internal
+c80b27cfd93ba9f5161383f798414609e84729f3 scsi: lpfc: Remove NVMe support if kernel has NVME_FC disabled
+5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 scsi: lpfc: Reduce log messages seen after firmware download
+ac2beb4e3bd75b0049068516b9d42201bda0ded3 Merge branch '5.17/scsi-fixes' into 5.18/scsi-staging
+
+--===============7440232127022418523==--
