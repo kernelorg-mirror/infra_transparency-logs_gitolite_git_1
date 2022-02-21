@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1018475531304021043=="
+Content-Type: multipart/mixed; boundary="===============9193808987192793665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 21 Feb 2022 17:04:11 -0000
-Message-Id: <164546305109.24237.14500989760330104475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 21 Feb 2022 17:05:14 -0000
+Message-Id: <164546311411.26097.15604296389206255152@gitolite.kernel.org>
 
---===============1018475531304021043==
+--===============9193808987192793665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dm-5.18
-    old: aee22f09ce731f44dc4fcf4e888e9bdca025dcc6
-    new: 20f7a6371576309d6e415f9b8bfbdc5a1816e6b3
-    log: revlist-aee22f09ce73-20f7a6371576.txt
+  - ref: refs/heads/staging-testing
+    old: 695eac3c62b8141f3e0f474677bb390a0eeee023
+    new: 60f1d3c92dc1ef1026e5b917a329a7fa947da036
+    log: |
+         1f3c2a776a370d8388e9958c94d13494388089b0 staging: wfx: fix scan with WFM200 and WW regulation
+         60f1d3c92dc1ef1026e5b917a329a7fa947da036 staging: wfx: fix an error handling in wfx_init_common()
+         
 
---===============1018475531304021043==
+--===============9193808987192793665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aee22f09ce73-20f7a6371576.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f2a08485e091b43aabcb5ca3ca3eaab580e9cb35 dm: interlock pending dm_io and dm_wait_for_bios_completion
-ac7679925217cd7f759a0bf1e3d5692da8fad7fe dm: reorder members in mapped_device struct
-625244120f38c592698a1ad0860320609e26daab dm: rename split functions
-603c863b56c7c010fc266af3f3e376cbaf16f665 dm: fold __clone_and_map_data_bio into __split_and_process_bio
-8f2b703241f19253b266368a009a388f9faa8925 dm: refactor dm_split_and_process_bio a bit
-05a771cab493a6f9c07bce7d73b251929747884a dm: reduce code duplication in __map_bio
-28eed900a5eba0ac34f165eca46ff247e02f9891 dm: remove impossible BUG_ON in __send_empty_flush
-3a5bd81a80d52b81f73a44b7422da72dbac1885b dm: remove unused mapped_device argument from free_tio
-ea1a8b87276615240b7223c1555355439a97386a dm: remove legacy code only needed before submit_bio recursion
-051da66a50054899e7c37c669f1a8bed73973315 dm: record old_sector in dm_target_io before calling map function
-55671b4bfc1425c3c7dfc4a8b99ee30a7ce9be5c dm: move duplicate code from callers of alloc_tio into alloc_tio
-8e774215783662a810b2c132d2f21c1f753e5c9d dm: reduce dm_io and dm_target_io struct sizes
-582e5138ddffb0766fc30d7ae1e7784e9880eef5 dm: flag clones created by __send_duplicate_bios
-60054e931e7cf45e351489e3dd4b411d1f719f0e dm: add dm_submit_bio_remap interface
-fa3e25efe718c65e42cc0a32a4a4e6414937d2c1 dm crypt: use dm_submit_bio_remap
-86fe68d322fe5b455288a4a51d2236b38afdcbde dm delay: use dm_submit_bio_remap
-ed9a97ba90a07f2563ec5df4e4a358eeff2627c1 dm: stop using block's in_flight counters for pending IO
-20f7a6371576309d6e415f9b8bfbdc5a1816e6b3 dm: eliminate copying of dm_io fields in dm_io_dec_pending
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645463113 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1645463112-c8439d8b9a7e75f3cafb6bf76a2277d11e639b53
 
---===============1018475531304021043==--
+695eac3c62b8141f3e0f474677bb390a0eeee023 60f1d3c92dc1ef1026e5b917a329a7fa947da036 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmITxkkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ryAP/3aiYURvWn21w2CPpOlT
+2cigFDe07D5RexrdhD5PrRPiktNVZ9cdYFvtwFUnJFVKrbxy1SLFUpJKZZmw/BfV
+SvXrkTDfK19GqLsgpi4fkAQXS3oefCQKlcny6+dumgt/CfRNQeIwhlQvWcHnGk/f
+GqUJmHT2plqzCqLwbEYrcto8//b98fQjw16jtzEJJPq2al70WnEfq04U2IxFLHGS
+eMC92N5INiLl19WImhBcFVBAila3ByKwbofR/kcTUrERM/732zn/pbGEYNaGYeo7
+Wblb5VuIg7FgiQ/E+ae+4q7pLhbHcBXsp1Cl1RqddvKmwceFh23k1ZFXhRSL993T
+wPnfYq8K0jAovnZPXZm98+HNf3iOPczQPqimGvt5VilJdYgXkQkdNpaEhIfjkE/o
+zwMVLbsfmtmYRSQMPTSm9Ogg0vhTuEg0rqJJR0ALUTq5td8s4s4CgZd9U57Q29Q+
+8rr0XmNDpFt3AURz9qInl7qUt/oxoplDGXGIdYHB2h4tAJnUdzkKTacHF/QvFj8W
+dLh4Ru8cCZX256+BVv03W4rw6N5sE0sda9/x2DkcfW/cKYm2D/n9nNQFPKBFwEvF
+o7csW6XYj3odhWUKd2s2tbbvGlhPE2eV3DfdBjTqSr34evDU8EZT6DtenM7AQheo
+poBkb/PaijceFQkL08k6AUkG
+=khzk
+-----END PGP SIGNATURE-----
+
+--===============9193808987192793665==--
