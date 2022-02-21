@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4414911077553626472=="
+Content-Type: multipart/mixed; boundary="===============0257183198250876891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 21 Feb 2022 15:22:53 -0000
-Message-Id: <164545697356.22152.2669424750245670483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 21 Feb 2022 15:22:59 -0000
+Message-Id: <164545697925.22292.12939694284294672952@gitolite.kernel.org>
 
---===============4414911077553626472==
+--===============0257183198250876891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 043786303b175977e515d4e99cf6b5f886b136dc
     new: f89504300e94524d5d5846ff8b728592ac72cec4
     log: |
@@ -27,28 +27,28 @@ changes:
          f89504300e94524d5d5846ff8b728592ac72cec4 spi: Stacked/parallel memories bindings
          
 
---===============4414911077553626472==
+--===============0257183198250876891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645456971 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1645456971-e5a0c37b9d79655275e0e4d6c9f0ee6364a02612
+pusher C3F436CA30F5D8EB 1645456977 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645456977-17ea551df2be00a41fc387c87ed1d45b07a30b44
 
-043786303b175977e515d4e99cf6b5f886b136dc f89504300e94524d5d5846ff8b728592ac72cec4 refs/heads/for-5.18
+043786303b175977e515d4e99cf6b5f886b136dc f89504300e94524d5d5846ff8b728592ac72cec4 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmITrksACgkQJNaLcl1U
-h9DTyQf/YzN3alWgEFBo8IbpwlgxBMXtKPQLfEXOYvG5vIy6heyyKFzSqPTRenDy
-oEvpdPGLI+ARof8x+z6eJzwUqvwkZ/5pbGhkHZttu9L/nezzKELVje47J3/h+Nsy
-dKKn2WJvIhjIKXOJrkjx2+39uU8Uo2u/BSXW2ZMUqmx6mXPzCF4VMS0eqPbk14yF
-Td/BB7/d+RUErgl/SaDdCVnf2+1O2E9t+Rnf3Dt7FtwwKpKLJF3YKCewF1pbMMaI
-Ye4irkcZHSpBCTJ8NhRBoU8a0bBpaf04E7k9eoxtna/5fPMNgzwLlnkwmg7bbt9J
-DZTPGzI9HEgthmA684WtX9JeKEPMYg==
-=OK0Q
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmITrlEACgkQJNaLcl1U
+h9BbJQf/Ypwsh0kJDDZqKXrBT+BilOFkQk+2GdjNcn6tjab8ZL/ExuOv7K2jHDwS
+1FhTpcyk8P0Jo0VbpNbi2GyFgJUqu5Uo8gxPlSWohj4QwunBXoQnbKHgmwqolDDb
+snBdUJsfJvKL9TvgP9mY/GQyHsiuN1Dpwr5A42IPofkjLFN0Hzwug4xZUSEzOmp2
+4gq6/4LD44zhFWOoKxcgpVBHOFsVsiA0dx4uYBVukapdZK+BcUFQUEDf8k30U5av
+c0GAK4J0kqlFYH8QscY881Y+3r5gyZlrKGPbQpdtF4GcN7w427GLHlJNmDqmKnjR
+U2qN+vPmIAnBLlHcXvtrSl2JY/Kh4g==
+=382Z
 -----END PGP SIGNATURE-----
 
---===============4414911077553626472==--
+--===============0257183198250876891==--
