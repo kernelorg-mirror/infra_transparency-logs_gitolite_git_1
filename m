@@ -1,51 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============4022198153225240890=="
+Content-Type: multipart/mixed; boundary="===============4414911077553626472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 21 Feb 2022 15:22:46 -0000
-Message-Id: <164545696689.22057.3694333066685599441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 21 Feb 2022 15:22:53 -0000
+Message-Id: <164545697356.22152.2669424750245670483@gitolite.kernel.org>
 
---===============4022198153225240890==
+--===============4414911077553626472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: ce6a70bfce21bb4edb7c0f29ecfb0522fa34ab71
-    new: ff5a90173d981934e1134d28af3625acaab01d80
+  - ref: refs/heads/for-5.18
+    old: 043786303b175977e515d4e99cf6b5f886b136dc
+    new: f89504300e94524d5d5846ff8b728592ac72cec4
     log: |
-         b9afe038b1fba24e815000606d5877de97f9f154 ASoC: SOF: Intel: Add topology overwrite for Felwinter
-         ff5a90173d981934e1134d28af3625acaab01d80 ASoC: mediatek: mt8195: enable apll tuner
+         b252ada293d5d30566121c61fa7552e74396d533 dt-bindings: mtd: spi-nor: Allow two CS per device
+         e2edd1b64f1c79e8abda365149ed62a2a9a494b4 spi: dt-bindings: Describe stacked/parallel memories modes
+         eba5368503b4291db7819512600fa014ea17c5a8 spi: dt-bindings: Add an example with two stacked flashes
+         c5a3106aa4923bec979c2a76667a493cb5d134fd spi: Use of_device_get_match_data()
+         f89504300e94524d5d5846ff8b728592ac72cec4 spi: Stacked/parallel memories bindings
          
 
---===============4022198153225240890==
+--===============4414911077553626472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645456965 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1645456965-1170277f0a94955d0102da827db96a55c393e991
+pusher C3F436CA30F5D8EB 1645456971 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1645456971-e5a0c37b9d79655275e0e4d6c9f0ee6364a02612
 
-ce6a70bfce21bb4edb7c0f29ecfb0522fa34ab71 ff5a90173d981934e1134d28af3625acaab01d80 refs/heads/asoc-5.18
+043786303b175977e515d4e99cf6b5f886b136dc f89504300e94524d5d5846ff8b728592ac72cec4 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmITrkUACgkQJNaLcl1U
-h9DU1Qf/dt8+UHDQUHJt/OsF4zh36nwZp66Dp5qtqUFufPMyXYmy7Bnv9nw+bUyL
-SOAx60JaJWhfVpEsGG3MNqgvnaBGnMYaiZxTW6I7de2o0qPODn7gQ19nk/7jGyjJ
-XkBQ575yyhlH/SJjN4cN5lMGwz6+gLldl5dFa18lA4w8bSgaLUsiK+8Jc79Aae5K
-MJoz3WIzCxuaPCniYFXecbTwxYpExK1uxg+U1f6x+1JE5CplpRoq3zJ1pENSG53W
-gmckJ+9LsrA9vcW+bvsPb6Wac7W8D7CHrrqh4sxhT4nV1/0EBi5YRtWpdIVJ2wbR
-PtvKMAjfMJo+c37F7rfWSNQZYThUBw==
-=rngq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmITrksACgkQJNaLcl1U
+h9DTyQf/YzN3alWgEFBo8IbpwlgxBMXtKPQLfEXOYvG5vIy6heyyKFzSqPTRenDy
+oEvpdPGLI+ARof8x+z6eJzwUqvwkZ/5pbGhkHZttu9L/nezzKELVje47J3/h+Nsy
+dKKn2WJvIhjIKXOJrkjx2+39uU8Uo2u/BSXW2ZMUqmx6mXPzCF4VMS0eqPbk14yF
+Td/BB7/d+RUErgl/SaDdCVnf2+1O2E9t+Rnf3Dt7FtwwKpKLJF3YKCewF1pbMMaI
+Ye4irkcZHSpBCTJ8NhRBoU8a0bBpaf04E7k9eoxtna/5fPMNgzwLlnkwmg7bbt9J
+DZTPGzI9HEgthmA684WtX9JeKEPMYg==
+=OK0Q
 -----END PGP SIGNATURE-----
 
---===============4022198153225240890==--
+--===============4414911077553626472==--
