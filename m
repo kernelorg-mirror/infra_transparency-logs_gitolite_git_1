@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1478075302500375410=="
+Content-Type: multipart/mixed; boundary="===============8788416639035057226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 21 Feb 2022 17:11:15 -0000
-Message-Id: <164546347566.29471.1354364210965834600@gitolite.kernel.org>
+Date: Mon, 21 Feb 2022 17:12:13 -0000
+Message-Id: <164546353340.29866.15655996412215859712@gitolite.kernel.org>
 
---===============1478075302500375410==
+--===============8788416639035057226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 60352184705ac6d53a41e6d7dd2d0bae327fd3dd
-    new: f474a4546feb3836e229df220bd45c92994fa12b
+    old: f474a4546feb3836e229df220bd45c92994fa12b
+    new: 1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae
     log: |
-         bffd6e0a73988ef358e93e6b1a9ab298f38dfafd staging: r8188eu: remove ODM_CmnInfoHook()
-         165f2997adfc66ed812a192662142f49026b97c5 staging: r8188eu: convert two u8 variables to bool
-         ec868592f5c54aebbd175d9fd9105c09ccde3997 staging: r8188eu: remove enum odm_bw
-         c16be3c61dc99d1f8364f0074645339d8a8a6628 staging: r8188eu: convert type of pBandWidth in odm_dm_struct
-         f474a4546feb3836e229df220bd45c92994fa12b staging: r8188eu: remove ODM_CmnInfoUpdate()
+         4fcde4ec0170259264264ffbc1eb94f0e840bae9 staging: r8188eu: remove unused macros from rtw_security.h
+         98e8e0c3115da2ce76c9523ebab4b235309c26bd staging: r8188eu: remove unused aes tables from rtw_security.c
+         1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae staging: r8188eu: move open brace to the previous line
          
 
---===============1478075302500375410==
+--===============8788416639035057226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645463474 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645463531 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1645463473-5bb19e40789ca33f06de2528d147627f696ee382
+nonce 1645463531-e018cec79f2d5741fdef890234446d96df2d1e26
 
-60352184705ac6d53a41e6d7dd2d0bae327fd3dd f474a4546feb3836e229df220bd45c92994fa12b refs/heads/staging-testing
+f474a4546feb3836e229df220bd45c92994fa12b 1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmITx7IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e+EQAIiYYCOA9y4LCd1E4yyp
-QYAZ5N5YLSATK0UGXai9qyi/yVJ/Xn+jcXQaokOengR6MkQHU1YFNrAHzgLkf+Xd
-w7wHu3DHWCb8EaqmP5U5EkfO4h+1S82UNi/H37qCo0Rldu7TPS1tgnCY8VqqyseB
-lRvA/X0R+g4flz3mzkdC17ZALnE1c1/ALe+TMDTUfDPENkcUKd60d++iVRG1mZOY
-5w6x7iGShB9huzGhqVoD/BllFzR7cvn0pdJS5AwQKBz6NYsS4yf4ibDTXKySBfgi
-tgZvr9nNT8LgVIpRvfYaF9VfAiuZno+chwJcUiNHYY/Hj5EyjxUfqDdhmzsUtdIz
-jSZ4TeUbhI24WkLQlJ0nZmwPn+TL9JduW3FEYxUvLNBI24FfKgbjgOYc5uMSnGrx
-FOqWo07+l6H3c0Ky1zOk5M3ydIf4XGjoUwYLxOHyYGZe2eDa+ysJyOOaLZDJ1UPv
-n8+2oFTvH5ME5xnWPQ/MvLCJ1tMn3RscJIMvckq9cF1YS0rui/6kgvHIu9A5fwSH
-LCaIdSLpTmKoEakEM/+puR6vgoCJqDDeLaoVFcoZxulZZzMgljD5wU18d7Uh91il
-HbMFHkJPJhG76rjWGu5fTja89AkTDi1T4MEeHLCsmhtqoOwD0WR84oaqdBCFJa8y
-t3i3ECGbR0OBTaWia51Jw+PG
-=/B6T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmITx+wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IxQP/1xvtZp5+l6eaPMc2kGl
+LgGBMRPyHC1bTMDtFg4DSrN2gl6unFmypUrVPq+nuDpqzGwxq5rM5iKOWLW2ZqbJ
+Vn+nSBF3a8zEHOL1HqVLkR8zsOvU0qjyoG2rgiwXoQNNKQ2JOhz0atpp2bAIxE21
+hxKQ/RimKJh0Eg/sii0gW9PG6UuGpSFCfPvh6mmRaJnEfdpewd7xuw7whCxFisBk
+WrantEZPSQ+36U9+VXbzfLUgAwsfc2DRDW+I9Ddd7UWX6oJniJotNvYqlQ1ilMO0
+lrbo44CjUOpFQrIf62Z+6GUXEOAr/f00LI8/yAkksaFhGeuXkFRwn+5vnYj8waSY
+xgsBHv+n9hhhk72JNfNW9fuFx64g0z2ATDuQjPgsEYAMjurlLVLbN9mvIHX6RPcV
+tP2pHNUxXolcj44hSK/qMNUGPIu91/sswrHlTbqOwjEZMSuB0segsb7IJlk9i7OF
++ZUujOB7NTcJ4S+sE88bV0oEVWlUhy3DVe92/i2/iytVzTKcjNN6i3CfMTS8zSsJ
+lLA1mHIqZN7E5v/gKbo/m7gB22Jb092pJn0OuGvv5IA0i0lSRGApssgkmQSfEQ95
+nD3r4zAjE2jfmlAesY5lOQFnQ0FL3q/qb0qsoeYFS3Z2kCZd7P0OxEEcPYB8+omd
+sjYPcP1FdqL5zZg5Y38dlKA8
+=EaDG
 -----END PGP SIGNATURE-----
 
---===============1478075302500375410==--
+--===============8788416639035057226==--
