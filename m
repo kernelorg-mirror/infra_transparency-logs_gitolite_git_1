@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Mon, 21 Feb 2022 13:59:02 -0000
-Message-Id: <164545194266.32622.13175054965977667705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 21 Feb 2022 14:45:56 -0000
+Message-Id: <164545475624.30026.17223588098226251447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/tags/mlx5-vfio-v8
-    old: 0000000000000000000000000000000000000000
-    new: 4c1cf42d85bdda1737015e4df84fa59371d71855
+  - ref: refs/heads/for-5.18
+    old: 2ba3673d70178bf07fb75ff25c54bc478add4021
+    new: 96b02f2fbde29a08ac7239fd9ba87ff870cf8a94
+    log: |
+         96b02f2fbde29a08ac7239fd9ba87ff870cf8a94 Docs: printk: add 'console=null|""' to admin/kernel-parameters
+         
