@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8788416639035057226=="
+Content-Type: multipart/mixed; boundary="===============5346705186745688138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 21 Feb 2022 17:12:13 -0000
-Message-Id: <164546353340.29866.15655996412215859712@gitolite.kernel.org>
+Date: Mon, 21 Feb 2022 17:13:46 -0000
+Message-Id: <164546362641.30391.9437017237637855782@gitolite.kernel.org>
 
---===============8788416639035057226==
+--===============5346705186745688138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: f474a4546feb3836e229df220bd45c92994fa12b
-    new: 1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae
+    old: 1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae
+    new: c4b5dfd8403bd29ba34b9173a1e4e2f3ee655ce2
     log: |
-         4fcde4ec0170259264264ffbc1eb94f0e840bae9 staging: r8188eu: remove unused macros from rtw_security.h
-         98e8e0c3115da2ce76c9523ebab4b235309c26bd staging: r8188eu: remove unused aes tables from rtw_security.c
-         1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae staging: r8188eu: move open brace to the previous line
+         c4b5dfd8403bd29ba34b9173a1e4e2f3ee655ce2 staging: rtl8192e: use BIT macro instead of left shifting
          
 
---===============8788416639035057226==
+--===============5346705186745688138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645463531 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645463625 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1645463531-e018cec79f2d5741fdef890234446d96df2d1e26
+nonce 1645463624-0f1dcf9dc44dd0132f88bae1e79b567fe16b2ffb
 
-f474a4546feb3836e229df220bd45c92994fa12b 1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae refs/heads/staging-testing
+1a461527f6bc4b0e29b4badb64b7d1f1fc9437ae c4b5dfd8403bd29ba34b9173a1e4e2f3ee655ce2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmITx+wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IxQP/1xvtZp5+l6eaPMc2kGl
-LgGBMRPyHC1bTMDtFg4DSrN2gl6unFmypUrVPq+nuDpqzGwxq5rM5iKOWLW2ZqbJ
-Vn+nSBF3a8zEHOL1HqVLkR8zsOvU0qjyoG2rgiwXoQNNKQ2JOhz0atpp2bAIxE21
-hxKQ/RimKJh0Eg/sii0gW9PG6UuGpSFCfPvh6mmRaJnEfdpewd7xuw7whCxFisBk
-WrantEZPSQ+36U9+VXbzfLUgAwsfc2DRDW+I9Ddd7UWX6oJniJotNvYqlQ1ilMO0
-lrbo44CjUOpFQrIf62Z+6GUXEOAr/f00LI8/yAkksaFhGeuXkFRwn+5vnYj8waSY
-xgsBHv+n9hhhk72JNfNW9fuFx64g0z2ATDuQjPgsEYAMjurlLVLbN9mvIHX6RPcV
-tP2pHNUxXolcj44hSK/qMNUGPIu91/sswrHlTbqOwjEZMSuB0segsb7IJlk9i7OF
-+ZUujOB7NTcJ4S+sE88bV0oEVWlUhy3DVe92/i2/iytVzTKcjNN6i3CfMTS8zSsJ
-lLA1mHIqZN7E5v/gKbo/m7gB22Jb092pJn0OuGvv5IA0i0lSRGApssgkmQSfEQ95
-nD3r4zAjE2jfmlAesY5lOQFnQ0FL3q/qb0qsoeYFS3Z2kCZd7P0OxEEcPYB8+omd
-sjYPcP1FdqL5zZg5Y38dlKA8
-=EaDG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmITyEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ENYP/3Xa95IUIfV5ucUxPKo6
+uittMiFuyQ7XDwTvcD/3AN58vpG82FIwxfSofW+uhxuWsjrcDSPE3N4OjJU4BeYU
+jRW+EZRh3+n3Lte9RuHc5CxMg7aQ2ZLotwlwqIjeJUSXq0Vf9uTBpRVXfZXRyGOH
+ctFYlpILgeJwaGF76+jR1cODM2l1NUTfo0ER0i2Hi+TrgPZvc8up5Po4hwmdY5aw
+kMdGQ8xNmWR4PQEKzbZhQC9zjITb/baSAdJ/t5672SrlxNrMUXvowDCNdkvfoMfL
+eLYC3YU7JLOXw7/Ocv7R6GMa5I4+/QoXMUo/yFllW4cvqqYuYM/M/BQe7lzWn1MP
+bo2POBi7LtHxuycJpDUk+Hn3+eiraM13LEEOvLZs4xtLwmkSEdNJXC4X8qxorffn
+1YgBqPH8v46jUkBjmukuXh3PJO5dyWdbDm3FT6PK12Rux4TTqlGlw+WucxGe9waA
+0MMsRjw12yQzUIzd7Qf0BWjd4CrkmM8zwHqmpc6DHcvNXXsbiq678ERyfE9mDlgt
+QhRBG4+msEkm+/QUGlDKJqXwNhDYJae6lw8O0OMtXqTV0aJLTGiee4SV7yKuIRX8
+ECcf1ajP5CQasHfLWPL4u5VMMkHzHT3T/K/3T4aFXdZUuBY5c6UcatIhtMZJch1X
+wzrhjBbTwbWSr5A9zUpPs++0
+=xYrt
 -----END PGP SIGNATURE-----
 
---===============8788416639035057226==--
+--===============5346705186745688138==--
