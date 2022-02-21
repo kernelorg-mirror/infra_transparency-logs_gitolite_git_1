@@ -1,58 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3230054588724491955=="
+Content-Type: multipart/mixed; boundary="===============2428923454052510662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 21 Feb 2022 20:15:39 -0000
-Message-Id: <164547453948.18922.13125817218876048071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 21 Feb 2022 20:24:26 -0000
+Message-Id: <164547506690.24439.10412818897939240695@gitolite.kernel.org>
 
---===============3230054588724491955==
+--===============2428923454052510662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: dc7b9a471a6645be4aa32cbece37ac0a90f9a116
-    new: 3191dd5a1179ef0fad5a050a1702ae98b6251e8f
-    log: revlist-dc7b9a471a66-3191dd5a1179.txt
+  - ref: refs/heads/dm-5.18
+    old: eec0758c34992dd9ab970b324fed841492c3993c
+    new: 6d5668ec004c180e427b25677752a700df93d473
+    log: revlist-eec0758c3499-6d5668ec004c.txt
 
---===============3230054588724491955==
+--===============2428923454052510662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc7b9a471a66-3191dd5a1179.txt
+Content-Disposition: attachment; filename=revlist-eec0758c3499-6d5668ec004c.txt
 
-c30c575db4858f0bbe5e315ff2e529c782f33a1f random: absorb fast pool into input pool after fast load
-186873c549df11b63e17062f863654e1501e1524 random: use simpler fast key erasure flow on per-cpu keys
-66e4c2b9541503d721e936cc3898c9f25f4591ff random: use hash function for crng_slow_load()
-04ec96b768c9dd43946b047c3da60dcc66431370 random: make more consistent use of integer types
-434537ae54ad37e93555de21b6ac8133d6d773a9 random: remove outdated INT_MAX >> 6 check in urandom_read()
-7b5164fb1279bf0251371848e40bae646b59b3a8 random: zero buffer after reading entropy from userspace
-7191c628fe07b70d3f37de736d173d1b115396ed random: fix locking for crng_init in crng_reseed()
-0791e8b655cc373718f0f58800fdc625a3447ac5 random: tie batched entropy generation to base_crng generation
-95e6060c20a7f5db60163274c5222a725ac118f9 random: remove ifdef'd out interrupt bench
-14c174633f349cb41ea90c2c0aaddac157012f74 random: remove unused tracepoints
-a07fdae346c35c6ba286af1c88e0effcfa330bf9 random: add proper SPDX header
-b2f408fe403800c91a49f6589d95b6759ce1b30b random: deobfuscate irq u32/u64 contributions
-246c03dd899164d0186b6d685d6387f228c28d93 random: introduce drain_entropy() helper to declutter crng_reseed()
-6071a6c0fba2d747742cadcbb3ba26ed756ed73b random: remove useless header comment
-87e7d5abad0cbc9312dea7f889a57d294c1a5fcc random: remove whitespace and reorder includes
-5f1bb112006b104b3e2a1e1b39bbb9b2617581e6 random: group initialization wait functions
-3655adc7089da4f8ca74cec8fcef73ea5101430e random: group crng functions
-a5ed7cb1a7732ef11959332d507889fbc39ebbb4 random: group entropy extraction functions
-92c653cf14400946f376a29b828d6af7e01f38dd random: group entropy collection functions
-a6adf8e7a605250b911e94793fd077933709ff9e random: group userspace read/write functions
-0deff3c43206c24e746b1410f11125707ad3040e random: group sysctl functions
-5f75d9f3babea8ae0a2d06724656874f41d317f5 random: rewrite header introductory comment
-58340f8e952b613e0ead0bed58b97b05bf4743c5 random: defer fast pool mixing to worker
-afba0b80b977b2a8f16234f2acd982f82710ba33 random: do not take pool spinlock at boot
-da792c6d5f59a76c10a310c5d4c93428fd18f996 random: unify early init crng load accounting
-1daf2f387652bf3a7044aea042f5023b3f6b189b random: check for crng_init == 0 in add_device_randomness()
-b777c38239fec5a528e59f55b379e31b1a187524 random: pull add_hwgenerator_randomness() declaration into random.h
-3191dd5a1179ef0fad5a050a1702ae98b6251e8f random: clear fast pool, crng, and batches in cpuhp bring up
+9f6dc633761006f974701d4c88da71ab68670749 dm: interlock pending dm_io and dm_wait_for_bios_completion
+560b303a0b89ebf5027904b7b81ff53dcda3df6b dm: fix double accounting of flush with data
+51be5df7b2923106dbe392ddbfcaeb6fbcf2a688 dm stats: fix too short end duration_ns when using precise_timestamps
+f825883be8f57ab195625c5f50f5c30229f65a4e dm: eliminate copying of dm_io fields in dm_io_dec_pending
+80226045dc16e445305fd6aa89174e07aa15e010 dm: reorder members in mapped_device struct
+feebe0db412dc4f854e198141077da1e36b8635c dm: rename split functions
+1e12c35debd140882a1a8b77ca11f787f43b12fd dm: fold __clone_and_map_data_bio into __split_and_process_bio
+525a0d115f9e79d0b7adebd2eb25cf5e12acb5c9 dm: refactor dm_split_and_process_bio a bit
+a0c6ff069fe4b495bd44dedd36c498d318486609 dm: reduce code duplication in __map_bio
+23cb895330000ac6a34d19b11f9c48a33a78dab5 dm: remove impossible BUG_ON in __send_empty_flush
+19e8cb1c503120da6803b9b2041f80f84f0cba3b dm: remove unused mapped_device argument from free_tio
+dad072f77515a74e817a63aa6aecbc1103d60cbf dm: remove legacy code only needed before submit_bio recursion
+e4a89d584ec5ebfaf6e0186b241f8e5bb5ddbdf4 dm: record old_sector in dm_target_io before calling map function
+fb5f5d21099e6636219bd3e74c209dfe296b2260 dm: move duplicate code from callers of alloc_tio into alloc_tio
+ab32992a88435500ca1cff0037b613b0ff069a90 dm: reduce dm_io and dm_target_io struct sizes
+42b959dfec32ff0fcd005c5eb05eb8376df2abb7 dm: flag clones created by __send_duplicate_bios
+7affcd744d6b2a5dacd16ea35d424d5e349bae77 dm: add dm_submit_bio_remap interface
+11549e28260ab3c67136d0d44326418a1d7f89b1 dm crypt: use dm_submit_bio_remap
+6d5668ec004c180e427b25677752a700df93d473 dm delay: use dm_submit_bio_remap
 
---===============3230054588724491955==--
+--===============2428923454052510662==--
