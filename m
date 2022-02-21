@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8317744778329077489=="
+Content-Type: multipart/mixed; boundary="===============2467635824751236546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 21 Feb 2022 15:30:12 -0000
-Message-Id: <164545741296.27677.6162463952020803310@gitolite.kernel.org>
+Date: Mon, 21 Feb 2022 15:30:38 -0000
+Message-Id: <164545743857.27868.15890315540816783520@gitolite.kernel.org>
 
---===============8317744778329077489==
+--===============2467635824751236546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.18
+  - ref: refs/heads/for-next
     old: a085adb8eed0de4fcc0805ccdb0787aebd0aa1a1
     new: aee22f09ce731f44dc4fcf4e888e9bdca025dcc6
     log: revlist-a085adb8eed0-aee22f09ce73.txt
 
---===============8317744778329077489==
+--===============2467635824751236546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ca8d274f84b12965738f8f21078c154c3315b70a dm: add dm_submit_bio_remap interface
 4c494f3ee6d797f7d1028c30e61bd5c4f23556f1 dm: stop using block's in_flight counters for pending IO
 aee22f09ce731f44dc4fcf4e888e9bdca025dcc6 dm: eliminate copying of dm_io fields in dm_io_dec_pending
 
---===============8317744778329077489==--
+--===============2467635824751236546==--
