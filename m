@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1589127981282952063=="
+Content-Type: multipart/mixed; boundary="===============5641387646395402146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 21 Feb 2022 15:05:33 -0000
-Message-Id: <164545593348.10955.9355060479148070800@gitolite.kernel.org>
+Date: Mon, 21 Feb 2022 15:07:25 -0000
+Message-Id: <164545604521.11554.13020538475506665861@gitolite.kernel.org>
 
---===============1589127981282952063==
+--===============5641387646395402146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,43 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: bf2952ae7f92ec5f2e3f8703c35eeaa28d0ad30f
-    new: f4bc051fc91ab9f1d5225d94e52d369ef58bec58
+  - ref: refs/heads/next
+    old: db6e7adf8de9b3b99a9856acb73870cc3a70e3ca
+    new: 1bbc60d0c7e5728aced352e528ef936ebe2344c0
     log: |
-         f4bc051fc91ab9f1d5225d94e52d369ef58bec58 KVM: x86: flush TLB separately from MMU reset
+         b2125513dfc0dd0ec5a9605138a3c356592cfb73 KVM: SEV: Allow SEV intra-host migration of VM with mirrors
+         1e8ff29fbbde01e18d97f7b68d1e90260844ca19 selftests: KVM: allow sev_migrate_tests on machines without SEV-ES
+         8a2897853c53fd3d0e381a46b194889cf6da3391 KVM: x86: return 1 unconditionally for availability of KVM_CAP_VAPIC
+         2a89061451c799bd36dbe1b90613c35212fc1f64 KVM: x86: use static_call_cond for optional callbacks
+         e4fc23bad813591417f466beb7e833cdd2089cf6 KVM: x86: remove KVM_X86_OP_NULL and mark optional kvm_x86_ops
+         dd2319c61888018a5295264c9b631e151dad364d KVM: x86: warn on incorrectly NULL members of kvm_x86_ops
+         abb6d479e22642c82d552970d85edd9b5fe8beb6 KVM: x86: make several APIC virtualization callbacks optional
+         5be2226f417d5b06d17e6c52d6e341cf43c29e48 KVM: x86: allow defining return-0 static calls
+         1bbc60d0c7e5728aced352e528ef936ebe2344c0 KVM: x86/mmu: Remove MMU auditing
          
 
---===============1589127981282952063==
+--===============5641387646395402146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1645455931 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1645456043 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1645455931-05eebe050bd36c02e300f9af08612b367df3a4ea
+nonce 1645456043-d9a0f8fb365b8a2df138361bb2eb895a908e14f1
 
-bf2952ae7f92ec5f2e3f8703c35eeaa28d0ad30f f4bc051fc91ab9f1d5225d94e52d369ef58bec58 refs/heads/queue
+db6e7adf8de9b3b99a9856acb73870cc3a70e3ca 1bbc60d0c7e5728aced352e528ef936ebe2344c0 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmITqjsUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroO/BggApi/2T9YaDUskgRA+i6/uz7rFxUhb
-wqWpvImfBdODRc3Ka10DA4UI5Mkzqoz5vC8hp/TwSxRFDqTGqEI5CXn5WbMhghDm
-2Sg8p9yPd1VqDMZbRRBz2CsvqmtPlUiBurLK6r+oDLni4W4YWPdnEEJN6aZblZuA
-ecvayp6FkYYn/M6HAVq2jdNW0zclD2TJfF54+a8cQ8vgk4la3mdgmbDsg+YMgku/
-fHQ3XRfThjOp1itff37KrkQu9Zb+hZk+wqof4rglpvYxjiUC9xivoHPFuMffG+NQ
-E/0NGlhX3mZAxHL7Rk+mlJ4b6QZIwNb14gyzKLXtMyWaFtHj9GKz0dz5fA==
-=1aju
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmITqqsUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroO33AgAqqXfa30SY5ZVs76k0O/8qwys1VM+
+doHkWkbmEAeZW13+BCp2XsM4667YfhAOZ+5xo98CQMzeLh4xH4ElSncQiAn+wIVU
+WcocpQntf/bQSlBw3S/DApmy12ciuyPpdXe3U38xsQBc2keldtxh4XRzVKzTOuvK
+zunQnIQqEnE4jEH7RyVDcYNBpDL71glui0A6D+hAht1eb2tyAIEgG3ewpZQuY9dW
+3F/k9vd3NXD7xh4gnM0fxpvVN8p2YsnRejI1uUQaIIfMHEezcv23kN3Y2gnjSs7P
+ToTt0V/tRrZz9/aNSzYOXQnfsb0s1FGCbSb4X3TmGKRO/IcJOoVDbtKUFw==
+=nSJ0
 -----END PGP SIGNATURE-----
 
---===============1589127981282952063==--
+--===============5641387646395402146==--
