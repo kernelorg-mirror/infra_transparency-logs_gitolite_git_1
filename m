@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 21 Feb 2022 16:36:07 -0000
-Message-Id: <164546136705.6322.8955382133674735789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Mon, 21 Feb 2022 16:47:51 -0000
+Message-Id: <164546207129.12870.1219424464638168688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 86c12c738651edf809092589acaa147238620f24
-    new: 141e6a976c0583cd5339218a4843ea24c550a18d
+  - ref: refs/heads/master
+    old: 3f43022d4021850905886e391ec68c02c99aec5a
+    new: c377f4f85943e5b155b3daaab1ce5213077531d8
     log: |
-         80e4e1f472889f31a4dcaea3a4eb7a565296f1f3 irqchip/gic-v3: Use dsb(ishst) to order writes with ICC_SGI1R_EL1 accesses
-         141e6a976c0583cd5339218a4843ea24c550a18d Merge branch irq/misc-5.18 into irq/irqchip-next
+         e9d0f70a57d00e96e8dd80d53eee38b8cc829164 aarch64: add system call definitions
+         cc7ab24619ae25540d7d98df842fe64dd10cbe48 x86-64: add system call definitions
+         c377f4f85943e5b155b3daaab1ce5213077531d8 io_uring: use syscall helpers for the hot path
          
