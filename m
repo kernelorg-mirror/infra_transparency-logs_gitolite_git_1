@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 22 Feb 2022 20:13:17 -0000
-Message-Id: <164556079785.27570.11506501768448647063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 22 Feb 2022 20:29:00 -0000
+Message-Id: <164556174004.5641.8634372898044040416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/tags/juno-update-5.18
-    old: 0000000000000000000000000000000000000000
-    new: a3bc24f457eac30f7eaebceea86cab34b97d31a1
+  - ref: refs/heads/for-next
+    old: 67ff2f262619d7bb5101525672ead4f2a437a40f
+    new: 9195c294bc58f284f5bf7bc7e6d94cce078b206f
+    log: |
+         d10efa21a9374829a662ec1377237e85f430c024 riscv: mm: Control p4d's folding by pgtable_l5_enabled
+         677b9eb8810edc6c616a699018a83e24ed0cccab riscv: mm: Prepare pt_ops helper functions for sv57
+         011f09d1205285b215003a6c65408609ef78abac riscv: mm: Set sv57 on defaultly
+         8fbdccd2b17335e1881a23865e98c63fcc345938 riscv: mm: Support kasan for sv57
+         9195c294bc58f284f5bf7bc7e6d94cce078b206f RISC-V: Add Sv57 page table support
+         
