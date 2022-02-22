@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 22 Feb 2022 20:44:18 -0000
-Message-Id: <164556265893.14728.9501685657398082010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Feb 2022 20:50:03 -0000
+Message-Id: <164556300353.19232.7770917430628162250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: b3d971ec25346d6890e9e8f05b63f758cfcef8c5
-    new: 5b061a322b05a5e023d9a0df1ae1f8bb562ed87b
+  - ref: refs/heads/for-5.18/drivers
+    old: 55143a783f07e0914dd36b3f238fb1ede337e1f8
+    new: 2ff4ec783f4c635289384398d14b241f21bce269
     log: |
-         a7e793a867ae312cecdeb6f06cceff98263e75dd selftests/exec: Add non-regular to TEST_GEN_PROGS
-         21bffcb76ee2fbafc7d5946cef10abc9df5cfff7 selftests/seccomp: Fix seccomp failure by adding missing headers
-         6fec1ab67f8d60704cc7de64abcfd389ab131542 selftests/ftrace: Do not trace do_softirq because of PREEMPT_RT
-         9195e5e0adbb8a9a5ee9ef0f9dedf6340d827405 Merge tag 'linux-kselftest-fixes-5.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         f268088f65af69aa6ae1fb65e696cbb6478bcc9a perf test: Skip failing sigtrap test for arm+aarch64
-         8a3d2ee0de3828e0d01f9682d35ee53704659bd0 perf evlist: Fix failed to use cpu list for uncore events
-         69560e366fc4d5fca7bebb0e44edbfafc8bcaf05 perf data: Fix double free in perf_session__delete()
-         5b061a322b05a5e023d9a0df1ae1f8bb562ed87b tools arch x86: Sync the msr-index.h copy with the kernel sources
+         4a330a241a41e4f2a9d752dea41be70803a66a94 null_blk: remove hardcoded null_alloc_page() param
+         2ff4ec783f4c635289384398d14b241f21bce269 null_blk: null_alloc_page() cleanup
+         
+  - ref: refs/heads/for-next
+    old: 7e0469db34b87ff21c9294f8804f3701e9f2623b
+    new: 5774f2f04654804f8e0a40cfe8ff3f8ce3c0b6c9
+    log: |
+         4a330a241a41e4f2a9d752dea41be70803a66a94 null_blk: remove hardcoded null_alloc_page() param
+         2ff4ec783f4c635289384398d14b241f21bce269 null_blk: null_alloc_page() cleanup
+         5774f2f04654804f8e0a40cfe8ff3f8ce3c0b6c9 Merge branch 'for-5.18/drivers' into for-next
          
