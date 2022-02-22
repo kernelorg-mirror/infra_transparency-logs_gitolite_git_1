@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 22 Feb 2022 21:44:59 -0000
-Message-Id: <164556629973.21706.12386594189483370276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Feb 2022 21:50:02 -0000
+Message-Id: <164556660289.25853.8751989001132334937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/ceph-sparse-read
-    old: 12d630be5afa1dba8b1da9b4e1320e682be73a74
-    new: 007a607471937ee2ff56508bbc95149eec94339f
+  - ref: refs/heads/master
+    old: cfb92440ee71adcc2105b0890bb01ac3cddb8507
+    new: 917bbdb107f8767cb78f24e7d6725a2f93b9effe
     log: |
-         fcb8ac6aeb205c880a4d53a09703016882471d04 libceph: allow ceph_osdc_new_request to accept a multi-op read
-         32fd6b2c90121c37b5427151367578d53907a733 libceph: allow ceph_msg_data_advance to advance more than a page
-         e68292eb68b29e25ce8500e258ebd7b6889dae4b libceph: add sparse read support to msgr2 crc state machine
-         1d0a0cab96f1d6b83f43d09e4885570b304d3b00 libceph: add sparse read support to OSD client
-         9be2d5adbb969a31f4a48c0f60875042275d48d7 libceph: add revoke support for sparse data
-         1a592fcc865e16e116ffef70beafe9cac71c4386 ceph: add sparse read mount option
-         59bc174c05930acdcc2056cdcc074e289c0c5bfc libceph/rbd: define a proper struct for OP_STAT replies
-         d5a7d4d685be3b6d2bee934f77b5e16b8b381a70 libceph: add ceph_osdc_new_sparse_read
-         007a607471937ee2ff56508bbc95149eec94339f ceph: switch to new sparse read allocator
+         868d7618d75f2cac23c2be6ca8d55ae1380c36d1 platform/x86: thinkpad_acpi: Add dual-fan quirk for T15g (2nd gen)
+         e3d13da7f77d73c64981b62591c21614a6cf688f platform/x86: asus-wmi: Fix regression when probing for fan curve control
+         ae09639e3b2a0291b37b122c94dd4f773cd4e513 platform/x86: int3472: Add terminator to gpiod_lookup_table
+         9d2231c5d74e13b2a0546fee6737ee4446017903 lib/iov_iter: initialize "flags" in new pipe_buffer
+         038101e6b2cd5c55f888f85db42ea2ad3aecb4b6 Merge tag 'platform-drivers-x86-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+         917bbdb107f8767cb78f24e7d6725a2f93b9effe Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
          
