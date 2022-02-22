@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 22 Feb 2022 20:50:03 -0000
-Message-Id: <164556300353.19232.7770917430628162250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 22 Feb 2022 21:14:23 -0000
+Message-Id: <164556446318.1693.16033244457606154215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-5.18/drivers
-    old: 55143a783f07e0914dd36b3f238fb1ede337e1f8
-    new: 2ff4ec783f4c635289384398d14b241f21bce269
+  - ref: refs/heads/dt/next
+    old: 2e8185fccd63f008987d55d1b4d69bf1e050bc02
+    new: 5d16dcd252fd3f77d1579342b78d947033065d64
     log: |
-         4a330a241a41e4f2a9d752dea41be70803a66a94 null_blk: remove hardcoded null_alloc_page() param
-         2ff4ec783f4c635289384398d14b241f21bce269 null_blk: null_alloc_page() cleanup
-         
-  - ref: refs/heads/for-next
-    old: 7e0469db34b87ff21c9294f8804f3701e9f2623b
-    new: 5774f2f04654804f8e0a40cfe8ff3f8ce3c0b6c9
-    log: |
-         4a330a241a41e4f2a9d752dea41be70803a66a94 null_blk: remove hardcoded null_alloc_page() param
-         2ff4ec783f4c635289384398d14b241f21bce269 null_blk: null_alloc_page() cleanup
-         5774f2f04654804f8e0a40cfe8ff3f8ce3c0b6c9 Merge branch 'for-5.18/drivers' into for-next
+         c8f2ad6869b56233ba4d00dc090e11bb41a55205 dt-bindings: crypto: Convert Atmel AES to yaml
+         d63b583f681e7999fde293142f6cbc0f2a766b64 dt-bindings: crypto: Convert Atmel TDES to yaml
+         44c75c9e3d08b430a9f002a087f2da255909b8ff dt-bindings: crypto: Convert Atmel SHA to yaml
+         5d16dcd252fd3f77d1579342b78d947033065d64 dt-bindings: convert ata/cortina,gemini-sata-bridge to yaml
          
