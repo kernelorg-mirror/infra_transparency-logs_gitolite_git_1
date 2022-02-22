@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Tue, 22 Feb 2022 08:04:25 -0000
-Message-Id: <164551706590.29252.15381708906285037082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Tue, 22 Feb 2022 08:06:37 -0000
+Message-Id: <164551719704.31420.9688659317632970398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/next
-    old: 0d9f1a5690e3ac29cc14ddc024aaf95640ad46d7
-    new: 35ddb4e1f3f41082097155c312eaab6898013043
+  - ref: refs/heads/clk/imx
+    old: 39d1e443173a58a6a3452bb931907ce0fb4061e3
+    new: e501cf5e56c6b3461134f9657fff9869bf71bf23
     log: |
-         35ddb4e1f3f41082097155c312eaab6898013043 KVM: s390: Add missing vm MEM_OP size check
+         e501cf5e56c6b3461134f9657fff9869bf71bf23 clk: imx: Remove audio_mclk_root_clk
          
