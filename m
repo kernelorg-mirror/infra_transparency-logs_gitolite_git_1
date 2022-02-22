@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Tue, 22 Feb 2022 00:33:19 -0000
-Message-Id: <164548999901.23218.3742885902060082363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Tue, 22 Feb 2022 00:45:16 -0000
+Message-Id: <164549071614.31274.9852037614528006136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 7be76f8f6e9fd69fbd51159969ed8d1d3c746f76
-    new: ee72f7f08e0e2bbb5c276ae63d2ff82ec66732bd
+  - ref: refs/heads/for-5.17-fixes
+    old: c8ea23d5fa59f28302d4e3370c75d9c308e64410
+    new: 5f6b0f2d037c8864f20ff15311c695f65eb09db5
     log: |
-         ee72f7f08e0e2bbb5c276ae63d2ff82ec66732bd x86/sgx: Free backing memory after faulting the enclave page
+         5f6b0f2d037c8864f20ff15311c695f65eb09db5 ata: pata_hpt37x: fix PCI clock detection
          
