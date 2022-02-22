@@ -1,16 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 22 Feb 2022 18:41:38 -0000
-Message-Id: <164555529876.30742.6152144201837463181@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2999732178022338874=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Tue, 22 Feb 2022 18:47:32 -0000
+Message-Id: <164555565262.1706.9221940953285525878@gitolite.kernel.org>
+
+--===============2999732178022338874==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
+user: jkirsher
 changes:
-  - ref: refs/tags/typesafe.2022.02.22a
-    old: 0000000000000000000000000000000000000000
-    new: 32d1fea91f38d92aeb67bd79b7a705ef91321888
+  - ref: refs/heads/master
+    old: 6342082c115e76ab5efe3f93c4c1ac6d01a3c7d0
+    new: c53073d4e1485ac9f7cb065db466793c495aead7
+    log: revlist-6342082c115e-c53073d4e148.txt
+
+--===============2999732178022338874==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6342082c115e-c53073d4e148.txt
+
+3959b595b39126f5193a51756a76a1231715dbec linux-firmware: update firmware for MT7921 WiFi device
+3c60818505d8b27e8716717d202a3068cf757ca5 linux-firmware: Update AMD cpu microcode
+34f9f8994a61192abfb597fc55810e3c27269ebf LICENSE.amdgpu: update copyright date
+97d0c7fff2106119daa0f9249840f87469883e00 amdgpu: Add aldebaran firmware from 21.50
+51c41e0e0dbb2593c40b06223873aad84bdf3815 amdgpu: Update arcturus firmware from 21.50
+964e73fa506492994cc46e87a111b2bcde89b2bb amdgpu: Update green sardine firmware from 21.50
+9f84af7645b9e63a616b4e8384b2ae19bad7b2bc amdgpu: Update cyan skillfish2 firmware from 21.50
+4a597a3fd2a023203e6ebe9ebbb788be15de7def amdgpu: Update navi10 firmware from 21.50
+a00061d16aade2620ceaf326c024415282cade55 amdgpu: Update navi12 firmware from 21.50
+edeed02eb73a8f4bc8ff0ccdaf1aaa3367c63dc9 amdgpu: Update navi14 firmware from 21.50
+7b3a5b950c7538a0c2f1617562313f3bb2e12425 amdgpu: Update sienna cichlid firmware from 21.50
+400fc4796a4d1cfd513d2f1eaa7e2cd9afbf8baf amdgpu: Update navy flounder firmware from 21.50
+ca1f7a40f3fa395847ceafe0656d155e02a57f1f amdgpu: Update dimgrey cavefish firmware from 21.50
+4c10cbe7fc2a2d9128c01e54b33c8b8c0b139d4e amdgpu: Update beige goby firmware from 21.50
+5b2742c01e49b14b5aa1461850a83d48e16e8ba2 amdgpu: Update picasso firmware from 21.50
+87ee374f0509078e17c50da7bc83b3ea7e99dd15 amdgpu: Update raven firmware from 21.50
+ba491f60469c0b475af256b057b6cbec68027072 amdgpu: Update raven2 firmware from 21.50
+b2a9dc25fc4c907142b052531cae382b8dd6bdce amdgpu: Update renoir firmware from 21.50
+88b4ba0f7faa205c14077b2b8fcbafbbeb0282df amdgpu: Update vangogh firmware from 21.50
+3e49b41e7b798c505016894845695bff2172b559 amdgpu: Update vega10 firmware from 21.50
+2b96e6214d0157695d06f645e48228444555594d amdgpu: Update vega12 firmware from 21.50
+5dadc0e6e518fd9103db82314a77619b63bab50c amdgpu: Update vega20 firmware from 21.50
+c40a2b3134a68854388fc2b866faa71e200eb7fb amdgpu: Update yellow carp firmware from 21.50
+dbe29f6e685b6c2f7b700f6f87df35e06bda7c69 rtl_bt: Update RTL8822C BT UART firmware to 0x15B7_6D7D
+4d7f6fdb2758d2ea422f63189c6a9a618507e9c6 rtl_bt: Update RTL8822C BT USB firmware to 0x19B7_6D7D
+c53073d4e1485ac9f7cb065db466793c495aead7 rtl_bt: Update RTL8852A BT USB firmware to 0xDFB7_6D7A
+
+--===============2999732178022338874==--
