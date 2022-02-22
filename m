@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Feb 2022 11:03:45 -0000
-Message-Id: <164552782536.23475.7096531144816732371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 22 Feb 2022 11:19:04 -0000
+Message-Id: <164552874403.32536.13770397932544761446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
   - ref: refs/heads/master
-    old: b6553c71813f57b1bfa775af120169c549f7f090
-    new: d4276e570a0cff6ad28b3b5cb7d3268c846de3a5
+    old: d5dbde5dd185fa77efb6426dc15bf245d089dc01
+    new: 0d6b63a6a2d7632ccceeac7bdde03bd7c3638dff
     log: |
-         341b672c99b9e69d7e8695979cb8a93f6ae58500 net: dsa: b53: clean up if() condition to be more readable
-         dda1c25751fa22ecbfa8eaa17efb296ff5017408 net: dsa: b53: populate supported_interfaces and mac_capabilities
-         cc6b68f5f10e9fd2af083a70a0a007d2eeb989d8 net: dsa: b53: drop use of phylink_helper_basex_speed()
-         25179f8f34424208183341595ac8ea06d9900b9c net: dsa: b53: switch to using phylink_generic_validate()
-         81c1681cbb9f462eea5282942ea12faf40eaeef3 net: dsa: b53: mark as non-legacy
-         d4276e570a0cff6ad28b3b5cb7d3268c846de3a5 Merge branch 'net-dsa-b53-non-legacy'
+         6018d2bcd8f1ef79f49e8a5aa4d93274ac8de660 Use markdown version of FAQ.
+         0d6b63a6a2d7632ccceeac7bdde03bd7c3638dff FAQ: Use relative links in chapter references.
+         
+  - ref: refs/merge-requests/281/merge
+    old: b2df263c3fd5609b3af883cbf5ef1e3baef0ee47
+    new: 86b0278fe06c0aa8f944f1f2e8fca036634db05d
+    log: |
+         d5dbde5dd185fa77efb6426dc15bf245d089dc01 Clarify graceful reencryption interruption.
+         86b0278fe06c0aa8f944f1f2e8fca036634db05d Merge branch 'progress-enhancements' into 'master'
          
