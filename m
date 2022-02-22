@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 22 Feb 2022 17:47:27 -0000
-Message-Id: <164555204774.27322.7470427878751329474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Feb 2022 17:50:06 -0000
+Message-Id: <164555220689.29593.17603176933684413071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev
-    old: d00a3d9bf73d3a3b4ab6129a5c9da86cb9e63783
-    new: 628d25db73063a385a552fd07b507c5cd28a24aa
+  - ref: refs/heads/io_uring-5.17
+    old: 228339662b398a59b3560cd571deb8b25b253c7e
+    new: 80912cef18f16f8fe59d1fb9548d4364342be360
     log: |
-         628d25db73063a385a552fd07b507c5cd28a24aa srcu: Ensure snp nodes tree is fully initialized before traversal
+         80912cef18f16f8fe59d1fb9548d4364342be360 io_uring: disallow modification of rsrc_data during quiesce
          
