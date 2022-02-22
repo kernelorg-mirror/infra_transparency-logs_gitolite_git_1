@@ -1,36 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Tue, 22 Feb 2022 14:28:35 -0000
-Message-Id: <164554011594.27266.17585092555658810020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Feb 2022 14:50:04 -0000
+Message-Id: <164554140409.8672.16523685426227530657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master-pending
-    old: a63bca2e8ccb39bc4f5ea7890301570fbc60bbf7
-    new: 9904ebcc849ccd87f346d5241a8ec44ff0c38672
+  - ref: refs/heads/block-5.17
+    old: e92bc4cd34de2ce454bdea8cd198b8067ee4e123
+    new: bb49c6fa8b845591b317b0d7afea4ae60ec7f3aa
     log: |
-         cae84a492cacd9b4eecaafd5dab33f5beba8806e ath11k: Add basic WoW functionalities
-         be0a61d2d789cc9fd29fcbf0ef0af441b8b473fb ath11k: Add WoW net-detect functionality
-         1d10d68b92bf071966884b891a8aed80577ba2ce ath11k: implement hardware data filter
-         eb558ec9af2620129e8978ca82a05069b5ebbd89 ath11k: purge rx pktlog when entering WoW
-         2190fe41cc01c2fddcbe521e0d660351759ce90b ath11k: support ARP and NS offload
-         4136ddcfda28450e2d01173e37300b95c8687d9b ath11k: support GTK rekey offload
-         9904ebcc849ccd87f346d5241a8ec44ff0c38672 Merge branch 'pending' into master-pending
+         bb49c6fa8b845591b317b0d7afea4ae60ec7f3aa block: clear iocb->private in blkdev_bio_end_io_async()
          
-  - ref: refs/heads/pending
-    old: 33e6dac76e6c1f2ee159b8d4002628aea4357bad
-    new: 4136ddcfda28450e2d01173e37300b95c8687d9b
+  - ref: refs/heads/for-5.18/block
+    old: 8410f70977734f21b8ed45c37e925d311dfda2e7
+    new: 86d7331299fda7634b11c1b7c911432679d525a5
     log: |
-         cae84a492cacd9b4eecaafd5dab33f5beba8806e ath11k: Add basic WoW functionalities
-         be0a61d2d789cc9fd29fcbf0ef0af441b8b473fb ath11k: Add WoW net-detect functionality
-         1d10d68b92bf071966884b891a8aed80577ba2ce ath11k: implement hardware data filter
-         eb558ec9af2620129e8978ca82a05069b5ebbd89 ath11k: purge rx pktlog when entering WoW
-         2190fe41cc01c2fddcbe521e0d660351759ce90b ath11k: support ARP and NS offload
-         4136ddcfda28450e2d01173e37300b95c8687d9b ath11k: support GTK rekey offload
+         86d7331299fda7634b11c1b7c911432679d525a5 block: update io_ticks when io hang
+         
+  - ref: refs/heads/for-next
+    old: 4315f889272a4017f5846f3803d6f0cd388f1ab8
+    new: bc2959102cb9f0105e0da3a0df0192ba927b52d5
+    log: |
+         86d7331299fda7634b11c1b7c911432679d525a5 block: update io_ticks when io hang
+         bc2959102cb9f0105e0da3a0df0192ba927b52d5 Merge branch 'for-5.18/block' into for-next
          
