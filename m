@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Mon, 21 Feb 2022 23:03:57 -0000
-Message-Id: <164548463710.30673.9361105158447336254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Tue, 22 Feb 2022 00:02:33 -0000
+Message-Id: <164548815347.3782.3135848976741036728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/libtraceevent
-    old: c642be90d6b699ace94ddf393a395fe0ee9a1ffc
-    new: 66052f775a52304c5b11a7da20fdfa34d723e0ed
+  - ref: refs/heads/master
+    old: 97fa357a19ce9677b79f8ed9b925d4af97fc4820
+    new: 7be76f8f6e9fd69fbd51159969ed8d1d3c746f76
     log: |
-         66052f775a52304c5b11a7da20fdfa34d723e0ed libtraceevent: Move to 1.6 devel
+         7be76f8f6e9fd69fbd51159969ed8d1d3c746f76 x86/sgx: Free backing memory after faulting the enclave page
          
