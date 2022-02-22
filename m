@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8703582540868166053=="
+Content-Type: multipart/mixed; boundary="===============9034307462831154629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 22 Feb 2022 12:07:42 -0000
-Message-Id: <164553166252.32527.18342693319752444771@gitolite.kernel.org>
+Date: Tue, 22 Feb 2022 12:09:04 -0000
+Message-Id: <164553174411.579.18262674333226433493@gitolite.kernel.org>
 
---===============8703582540868166053==
+--===============9034307462831154629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 770d2ec0db40483317d5f1646a9f2e185091f477
+  - ref: refs/heads/master
+    old: 4c707c1c0de83967079b4e385012fa5b00e2cd11
     new: d821c745f8d92624a30a3de0ec1ce901277de8b3
-    log: revlist-770d2ec0db40-d821c745f8d9.txt
+    log: revlist-4c707c1c0de8-d821c745f8d9.txt
 
---===============8703582540868166053==
+--===============9034307462831154629==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-770d2ec0db40-d821c745f8d9.txt
+Content-Disposition: attachment; filename=revlist-4c707c1c0de8-d821c745f8d9.txt
 
 c427353e1465a0c18c8dff42241de3ad8640f4ee headers/deps: Add header dependencies to .c files: <linux/trace_clock.h>
 0dc6ce8325430647ca08b930ffdedd5ccc1bca25 headers/deps: Add header dependencies to .c files: <linux/trace_events.h>
@@ -1051,4 +1051,4 @@ e3216250d1ae31c5d7ede5543a86f752783007ff x86/cpufeature: Always provide the cach
 be833185383fdbba23a99c9bb27526556bfadb0e headers/deps: x86/asm: Optimize <asm/segment.h> dependencies, remove <asm/segment_api.h> inclusion
 d821c745f8d92624a30a3de0ec1ce901277de8b3 headers/deps: x86/modules: Optimize <asm/module.h> dependencies, remove <asm/orc_types.h> inclusion
 
---===============8703582540868166053==--
+--===============9034307462831154629==--
