@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 23 Feb 2022 15:17:39 -0000
-Message-Id: <164562945915.3361.2501995599948158396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 23 Feb 2022 15:33:43 -0000
+Message-Id: <164563042374.14303.15842952239613171862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next
-    old: 689e008877402564ce8a7884f21c9d2ed3ecb2dc
-    new: d25478e1d8f9bf9344cf61a9c02fae88d9930f55
+  - ref: refs/heads/tmp.perf/urgent
+    old: 5b061a322b05a5e023d9a0df1ae1f8bb562ed87b
+    new: a17eaee0e4f657712758708143f849ae77fd695f
     log: |
-         abcad0f9e7b992b94e4bf753c350b7b46cac68e7 pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
-         ddfdd1304e5996d8f49320cf09843d979912ab29 pinctrl: alderlake: Add Raptor Lake-S ACPI ID
-         114b610b9048c6a622c857e044ff105cbc46fab1 pinctrl: alderlake: Add Intel Alder Lake-N pin controller support
-         d25478e1d8f9bf9344cf61a9c02fae88d9930f55 pinctrl: icelake: Add Ice Lake-N PCH pin controller support
+         13e741b834538a225512912608f0182079fc64e2 perf script: Fix error when printing 'weight' field
+         a17eaee0e4f657712758708143f849ae77fd695f libperf: Fix perf_event_attr::read_format read_size calculations
          
