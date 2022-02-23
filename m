@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 23 Feb 2022 07:49:09 -0000
-Message-Id: <164560254907.32538.14339545157266627665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 23 Feb 2022 08:20:03 -0000
+Message-Id: <164560440362.21074.11564410467502341300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/auto-latest
-    old: 126aeda0b71ac3ecd654ed294149d07e63807d1c
-    new: abe87fe230d7233bce90b7e40f005864954153eb
+  - ref: refs/heads/master
+    old: 5663b85462a66821fc314c5bf9ffd427d1ad71cc
+    new: 277f2bb14361790a70e4b3c649e794b75a91a597
     log: |
-         be9a2277cafd318976d59c41a7f45a934ec43b26 fork: Redo ifdefs around task stack handling
-         546c42b2c5c161619736dd730d3df709181999d0 fork: Duplicate task_struct before stack allocation
-         2bb0529c0bc0698f3baf3e88ffd61a18eef252a7 fork, IA64: Provide alloc_thread_stack_node() for IA64
-         7865aba3ade4cf30f0ac08e015550084a50d9afb fork: Don't assign the stack pointer in dup_task_struct()
-         f1c1a9ee00e4c53c9ccc03ec1aff4792948a25eb fork: Move memcg_charge_kernel_stack() into CONFIG_VMAP_STACK
-         1a03d3f13ffe5dd24142d6db629e72c11b704d99 fork: Move task stack accounting to do_exit()
-         e540bf3162e822d7a1f07e69e3bb1b4f925ca368 fork: Only cache the VMAP stack in finish_task_switch()
-         0ce055f85335e48bc571114d61a70ae217039362 fork: Use IS_ENABLED() in account_kernel_stack()
-         abe87fe230d7233bce90b7e40f005864954153eb Merge branch into tip/master: 'core/core'
+         ef527f968ae05c6717c39f49c8709a7e2c19183a net: __pskb_pull_tail() & pskb_carve_frag_list() drop_monitor friends
+         342b6419193c6f697fd47d9c72fcff9cafc70687 net: dsa: fix panic when removing unoffloaded port from bridge
+         277f2bb14361790a70e4b3c649e794b75a91a597 ibmvnic: schedule failover only if vioctl fails
          
