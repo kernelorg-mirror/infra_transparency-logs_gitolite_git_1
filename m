@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Feb 2022 00:41:52 -0000
-Message-Id: <164557691221.11866.13248286848442729577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
+Date: Wed, 23 Feb 2022 00:42:22 -0000
+Message-Id: <164557694204.12135.7585927265581249353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dlemoal/libata
+user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 5663b85462a66821fc314c5bf9ffd427d1ad71cc
-    new: ef527f968ae05c6717c39f49c8709a7e2c19183a
+  - ref: refs/heads/for-5.17-fixes
+    old: 5f6b0f2d037c8864f20ff15311c695f65eb09db5
+    new: 8d093e02e898b24c58788b0289e3202317a96d2a
     log: |
-         ef527f968ae05c6717c39f49c8709a7e2c19183a net: __pskb_pull_tail() & pskb_carve_frag_list() drop_monitor friends
+         8d093e02e898b24c58788b0289e3202317a96d2a ata: pata_hpt37x: disable primary channel on HPT371
          
