@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 23 Feb 2022 01:50:43 -0000
-Message-Id: <164558104350.32046.16470069182036453094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 23 Feb 2022 02:44:52 -0000
+Message-Id: <164558429257.1107.7022946175691720030@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: cd3bc044af483422cc81a93f23c78c20c978b17c
-    new: f2544f5e6c691679d56bb38637d2f347075b36fa
+  - ref: refs/heads/for-next
+    old: 9195c294bc58f284f5bf7bc7e6d94cce078b206f
+    new: d56201d9440de302c8cb017761946e585f6cb74f
     log: |
-         f2544f5e6c691679d56bb38637d2f347075b36fa EVM: fix the evm= __setup handler return value
+         d56201d9440de302c8cb017761946e585f6cb74f riscv: defconfig: enable hugetlbfs option
          
