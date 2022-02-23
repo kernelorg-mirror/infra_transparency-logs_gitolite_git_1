@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Feb 2022 00:22:53 -0000
-Message-Id: <164557577310.31424.14284548675953820701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Feb 2022 00:41:52 -0000
+Message-Id: <164557691221.11866.13248286848442729577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ee8f97efa7a59e7f390ed2de627ddd139beb6243
-    new: 926146a84bca936819f4cef1f6d6f646137b6f1d
+    old: 5663b85462a66821fc314c5bf9ffd427d1ad71cc
+    new: ef527f968ae05c6717c39f49c8709a7e2c19183a
     log: |
-         ab847d03a5e41a59a25009d2630682bd55398fab s390/iucv: sort out physical vs virtual pointers usage
-         1bb7e8dff89690e2da98608da04b0c75085c2576 s390/net: sort out physical vs virtual pointers usage
-         926146a84bca936819f4cef1f6d6f646137b6f1d Merge branch 's390-net-updates-2022-02-21'
+         ef527f968ae05c6717c39f49c8709a7e2c19183a net: __pskb_pull_tail() & pskb_carve_frag_list() drop_monitor friends
          
