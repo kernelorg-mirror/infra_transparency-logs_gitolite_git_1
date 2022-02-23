@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5563451706900351217=="
+Content-Type: multipart/mixed; boundary="===============9024411579038189573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 23 Feb 2022 03:19:27 -0000
-Message-Id: <164558636755.24186.18433770229313861427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 23 Feb 2022 03:29:35 -0000
+Message-Id: <164558697582.31624.17886206315065054751@gitolite.kernel.org>
 
---===============5563451706900351217==
+--===============9024411579038189573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/asoc-5.17
-    old: c5487b9cdea5c1ede38a7ec94db0fc59963c8e86
-    new: 4b0bec6088588a120d33db85b1f0d9f096d1df71
-    log: |
-         42c709c4e1ce4c136891530646c9abd5dff3524f ASoC: codecs: rx-macro: fix accessing compander for aux
-         bcfe5f76cc4051ea3f9eb5d2c8ea621641f290a5 ASoC: codecs: rx-macro: fix accessing array out of bounds for enum type
-         0ea5eff7c6063a8f124188424f8e4c6727f35051 ASoC: codecs: va-macro: fix accessing array out of bounds for enum type
-         cc587b7c8fbbe128f6bd0dad025a0caea5e6d164 ASoC: codecs: wc938x: fix accessing array out of bounds for enum type
-         b0217519236924f77a8382b4004e43ef8fd0dcbb ASoC: codecs: wcd938x: fix kcontrol max values
-         61163c3e7480106804269182e24db05244866493 ASoC: codecs: wcd934x: fix kcontrol max values
-         4b0bec6088588a120d33db85b1f0d9f096d1df71 ASoC: codecs: wcd934x: fix return value of wcd934x_rx_hph_mode_put
-         
+  - ref: refs/heads/misc
+    old: 22754f7fbb4030eb2d5e73c2a2db63637ed1d105
+    new: ac2beb4e3bd75b0049068516b9d42201bda0ded3
+    log: revlist-22754f7fbb40-ac2beb4e3bd7.txt
 
---===============5563451706900351217==
+--===============9024411579038189573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-22754f7fbb40-ac2beb4e3bd7.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1645586366 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1645586365-73e59685ba6f5e14434ea14b258014be5870c658
+61263b3a11a2594b4e898f166c31162236182b5c scsi: elx: efct: Don't use GFP_KERNEL under spin lock
+a861790afaa8b6369eee8a88c5d5d73f5799c0c6 scsi: target: iscsi: Make sure the np under each tpg is unique
+a65b32748f4566f986ba2495a8236c141fa42a26 scsi: ufs: ufshcd-pltfrm: Check the return value of devm_kstrdup()
+b70a99fd13282d7885f69bf1372e28b7506a1613 scsi: qedf: Add stag_work to all the vports
+5239ab63f17cee643bd4bf6addfedebaa7d4f41e scsi: qedf: Fix refcount issue when LOGO is received during TMF
+64fd4af6274eb0f49d29772c228fffcf6bde1635 scsi: qedf: Change context reset messages to ratelimited
+62afb379a0fee7e9c2f9f68e1abeb85ceddf51b9 scsi: pm8001: Fix bogus FW crash for maxcpus=1
+8c9db6679be4348b8aae108e11d4be2f83976e30 scsi: zfcp: Fix failed recovery on gone remote port with non-NPIV FCP devices
+847f9ea4c5186fdb7b84297e3eeed9e340e83fce scsi: bnx2fc: Flush destroy_work queue before calling bnx2fc_interface_put()
+fb8d5ea8fd907faa3751a9e5df5d01b5f3803e35 scsi: 3w-sas: Remove useless DMA-32 fallback configuration
+8001fa240fc0af1c3538a9fbaccd2c345ff9ab62 scsi: hisi_sas: Remove useless DMA-32 fallback configuration
+012d98dae453821ac31da25595ffa26d4ad49c8c scsi: bfa: Remove useless DMA-32 fallback configuration
+ad6c8a426446873febc98140d81d5353f8c0825b scsi: ufs: Use generic error code in ufshcd_set_dev_pwr_mode()
+c99b9b2301492b665b6e51ba6c06ec362eddcd10 scsi: ufs: Treat link loss as fatal error
+efd7bb1d75cf6808d67c869a29245c88a990bdea scsi: 53c700: Remove redundant assignment to pointer SCp
+4db09593af0b0b4d7d4805ebb3273df51d7cc30d scsi: myrs: Fix crash in error case
+c26b85ea16365079be8d206b20556a60a0c69ad4 scsi: pm80xx: Fix double completion for SATA devices
+936bd03405fc83ba039d42bc93ffd4b88418f1d3 scsi: bnx2fc: Make bnx2fc_recv_frame() mp safe
+edb854a3680bacc9ef9b91ec0c5ff6105886f6f3 scsi: core: Reallocate device's budget map on queue depth change
+0aed75fd30dacd31144188f7ddd5d571db7511c5 scsi: pm8001: Fix warning for undescribed param in process_one_iomb()
+61f162aa4381845acbdc7f2be4dfb694d027c018 scsi: pm8001: Fix use-after-free for aborted TMF sas_task
+df7abcaa1246e2537ab4016077b5443bb3c09378 scsi: pm8001: Fix use-after-free for aborted SSP/STP sas_task
+c763ec4c10f78678d6d4415646237f07109a5a5f scsi: hisi_sas: Fix setting of hisi_sas_slot.is_internal
+c80b27cfd93ba9f5161383f798414609e84729f3 scsi: lpfc: Remove NVMe support if kernel has NVME_FC disabled
+5852ed2a6a39c862c8a3fdf646e1f4e01b91d710 scsi: lpfc: Reduce log messages seen after firmware download
+ac2beb4e3bd75b0049068516b9d42201bda0ded3 Merge branch '5.17/scsi-fixes' into 5.18/scsi-staging
 
-c5487b9cdea5c1ede38a7ec94db0fc59963c8e86 4b0bec6088588a120d33db85b1f0d9f096d1df71 refs/heads/asoc-5.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIVp74ACgkQJNaLcl1U
-h9CgFwf/W7QYKbH0XqVggvPJagKPjP6jevIEQL77TqT2IYkAxXvVfZ9PO4WNxCu3
-EeMoUqxelQ4x7JhOAMDOLKOLD11yLatC1B/ofNXB1FMDOTUMbcfn0J/K5ENvpt44
-UnrodhbvzWQo9FdQTXSRu+7he3GPk4d2g4EvrCBNIprlMy7/TM1cJotSvg4TN2It
-WcZI5mUxKM8tpuIa4ocmP2bVHomS/9X7j7fQPbK0jOGSWZLFyXKY34eju9Pugv6h
-DGnG4Nz8giWexYQdiGUL23ers/mYTHhdE7bxR/mrpLl+pE0P8NZCFwGxF7PmujjS
-+zNi9fmub4IPpgiZWGN8PmC/BwueYA==
-=ITeQ
------END PGP SIGNATURE-----
-
---===============5563451706900351217==--
+--===============9024411579038189573==--
