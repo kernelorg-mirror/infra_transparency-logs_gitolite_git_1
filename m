@@ -1,42 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2905131305103410503=="
+Content-Type: multipart/mixed; boundary="===============9089468408753675086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 23 Feb 2022 19:39:27 -0000
-Message-Id: <164564516716.14931.9784867923009035744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 23 Feb 2022 20:08:04 -0000
+Message-Id: <164564688441.1444.7766321871769870227@gitolite.kernel.org>
 
---===============2905131305103410503==
+--===============9089468408753675086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0a956360583d6618d1aed9a5c85155985137e879
-    new: d21b2b8fbd73ff2fe54b4b6facb93cfa1d89a371
-    log: revlist-0a956360583d-d21b2b8fbd73.txt
+  - ref: refs/heads/master
+    old: 5c1ee569660d4a205dced9cb4d0306b907fb7599
+    new: 23d04328444a8fa0ca060c5e532220dac8e8bc26
+    log: revlist-5c1ee569660d-23d04328444a.txt
 
---===============2905131305103410503==
+--===============9089468408753675086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a956360583d-d21b2b8fbd73.txt
+Content-Disposition: attachment; filename=revlist-5c1ee569660d-23d04328444a.txt
 
-f713815e3a147e7d4e5e0202224fbcf0f1e4c375 iavf: Rework mutexes for better synchronisation
-67440bd4a44c733e575ff9472093fe44295c25c2 iavf: Add waiting so the port is initialized in remove
-36e6e9d2531dbeb5526f75544fdba5397a20f199 iavf: Fix init state closure on remove
-d5f7d6da1a5c78f94250d1b3f59a63c4147bca27 iavf: Fix locking for VIRTCHNL_OP_GET_OFFLOAD_VLAN_V2_CAPS
-24203183ecbd3634ad6975cd477ca949e8b75beb iavf: Fix race in init state
-361ec31c5c6ecf1b8767a75797f1273234b03d9b iavf: Fix deadlock in iavf_reset_task
-868e1f33c10aab8ff574335669da98fbacdb7fe2 iavf: Fix missing check for running netdev
-2f7667776fd86fc8f9342a5358961c14bf2ae3bf iavf: Fix __IAVF_RESETTING state usage
-c6f441a7a608a0e29695634d79419660aa28a929 iavf: Fix handling of vlan strip virtual channel messages
-6e5cad3a6d0699e93b6e2fda32a2599f4ceab0ed iavf: Fix adopting new combined setting
-0d11cbfe31bdcc350c87c1e7ec91cbf6f7ce39b2 igc: igc_write_phy_reg_gpy: drop premature return
-d21b2b8fbd73ff2fe54b4b6facb93cfa1d89a371 ice: Fix curr_link_speed advertised speed
+e23e40fd6de5c1c94793bc4147e8f34387d58576 hwmon: (ntc_thermistor) Underscore Samsung thermistor
+93dd04ab0b2b32ae6e70284afc764c577156658e slab: remove __alloc_size attribute from __kmalloc_track_caller
+221944736f66f38e9bdbce52c616d10df7f15c54 tools/cgroup/slabinfo: update to work with struct slab
+1b5f517cca36292076d9e38fa6e33a257703e62e hwmon: Handle failure to register sensor with thermal zone correctly
+35f165f08950a876f1b95a61d79c93678fba2fd6 hwmon: (pmbus) Clear pmbus fault/warning bits after read
+dd2288f4a020d693360e3e8d72f8b9d9c25f5ef6 parisc/unaligned: Fix fldd and fstd unaligned handlers on 32-bit kernel
+a97279836867b1cb50a3d4f0b1bf60e0abe6d46c parisc/unaligned: Fix ldw() and stw() unalignment handlers
+4eb0a7c8e195d4549221f9df3a0313254c493949 Merge tag 'slab-for-5.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+6f5738db96ddc3525de21990ed569ef43e05f42d Merge tag 'hwmon-for-v5.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+23d04328444a8fa0ca060c5e532220dac8e8bc26 Merge tag 'for-5.17/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============2905131305103410503==--
+--===============9089468408753675086==--
