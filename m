@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Feb 2022 12:26:36 -0000
-Message-Id: <164561919673.21523.6557696734743437910@gitolite.kernel.org>
+Date: Wed, 23 Feb 2022 12:29:36 -0000
+Message-Id: <164561937629.22513.6677572630509415594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: acd8df5880d7c80b0317dce8df3e65b6a6825c88
-    new: 4767b7e2ed818e97851d236d23f2e2ffa90af6ec
+    old: 4767b7e2ed818e97851d236d23f2e2ffa90af6ec
+    new: 3185485cfaa0206000bd5e74a2ebb734e02fa246
     log: |
-         907e772f6f6debb610ea28298ab57b31019a4edb net: dsa: realtek: allow subdrivers to externally lock regmap
-         2796728460b822d549841e0341752b263dc265c4 net: dsa: realtek: rtl8365mb: serialize indirect PHY register access
-         4767b7e2ed818e97851d236d23f2e2ffa90af6ec Merge branch 'dsa-realtek-phy-read-corruption'
+         dc121c0084910db985cf1c8ba6fce5d8c307cc02 mctp: make __mctp_dev_get() take a refcount hold
+         e297db3eadd7809170aea627ed3d9f714fa3da2d mctp: Fix incorrect netdev unref for extended addr
+         3185485cfaa0206000bd5e74a2ebb734e02fa246 Merge branch 'mctp-incorrect-addr-refs'
          
