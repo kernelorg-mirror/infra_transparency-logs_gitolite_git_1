@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 23 Feb 2022 01:45:03 -0000
-Message-Id: <164558070336.28660.12381527354781942393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 23 Feb 2022 01:47:16 -0000
+Message-Id: <164558083631.29422.9390145711467015819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 8fe1e5e165ad7b4f7c318f507aa85cd747401b81
-    new: 2e4627c3c92ed823cb976b0a48d5463c2b187fec
+  - ref: refs/heads/for-next
+    old: 9195c294bc58f284f5bf7bc7e6d94cce078b206f
+    new: d56201d9440de302c8cb017761946e585f6cb74f
     log: |
-         2e4627c3c92ed823cb976b0a48d5463c2b187fec player: Fix Track being emitted with empty metadata
+         d56201d9440de302c8cb017761946e585f6cb74f riscv: defconfig: enable hugetlbfs option
          
