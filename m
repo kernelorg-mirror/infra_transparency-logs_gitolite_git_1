@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4161254581166597548=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 23 Feb 2022 23:25:54 -0000
-Message-Id: <164565875467.3461.8644389857234262797@gitolite.kernel.org>
-
---===============4161254581166597548==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Wed, 23 Feb 2022 23:29:40 -0000
+Message-Id: <164565898014.4730.3372788051085773754@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 03dd4b816a528472acbf56dad06e0e284eed876b
-    new: 45fee8edb4b333af79efad7a99de51718ebda94b
-    log: revlist-03dd4b816a52-45fee8edb4b3.txt
-
---===============4161254581166597548==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03dd4b816a52-45fee8edb4b3.txt
-
-43c075959de3c45608636d9d80ff9e61d166fb21 mlx5: remove unused static inlines
-c2c922dae77f36e24d246c6e310cee0c61afc6fb net/mlx5: Add ability to insert to specific flow group
-0b0ea3c5b1c087b20ee3edb8f0846bce5f08a807 net/mlx5: E-Switch, reserve and use same uplink metadata across ports
-82e86a6c7109e0beed1828304b7d62ce2e597444 net/mlx5: E-switch, remove special uplink ingress ACL handling
-1749c4c51c16e3e078faae0a876d01bafb187a74 net/mlx5: E-switch, add drop rule support to ingress ACL
-9278287e8d9e30b6bf6e3bd29ac387d789b8ce7f net/mlx5: Lag, use local variable already defined to access E-Switch
-4f4551435ce000a47cd4f331af7b67e962f5f6f4 net/mlx5: Lag, don't use magic numbers for ports
-54493a08e21f46446b3b24577c5a6f229d049757 net/mlx5: Lag, record inactive state of bond device
-6cb87869adbe6b1b92e1f415076a605256e267c8 net/mlx5: Lag, offload active-backup drops to hardware
-f086470122d567025303e2361b57e2f8172af201 net/mlx5: cmdif, Return value improvements
-605bef0015b163867127202b821dce79804d603d net/mlx5: cmdif, cmd_check refactoring
-f23519e542e51c19ab3081deb089bb3f8fec7bb9 net/mlx5: cmdif, Add new api for command execution
-31803e59233efc838b9dcb26edea28a4b2389e97 net/mlx5: Use mlx5_cmd_do() in core create_{cq,dct}
-0a41527608e7f3da61e76564f5a8749a1fddc7f1 net/mlx5: cmdif, Refactor error handling and reporting of async commands
-c76a1e90ad4e98e41f673d7634b1ac4a066d0cea RDMA/mlx5: Use new command interface API
-72fb3b60a3114a1154a8ae5629ea3b43a88a7a4d net/mlx5: Add reset_state field to MFRL register
-45fee8edb4b333af79efad7a99de51718ebda94b net/mlx5: Add clarification on sync reset failure
-
---===============4161254581166597548==--
+  - ref: refs/heads/pci/vga
+    old: 47b48275c9ca34e0bb27c3cbc83aad632c5d9e70
+    new: fd2692370d56a7f1c1a806dfd1494c6e1fb01f7a
+    log: |
+         acc2bdccb69f33d51830284d70a83f0834b5ff8e PCI/VGA: Move vga_arb_integrated_gpu() earlier in file
+         485a043de9b87296b1d9c0e6768216434aa67487 PCI/VGA: Factor out vga_select_framebuffer_device()
+         a37fc522af17f2aa82f4b5d9313284c04d38b541 PCI/VGA: Factor out default VGA device selection
+         77150ba4d5d90c82dc63c6702b29bef1e230e3b9 PCI/VGA: Move framebuffer detection to ADD_DEVICE path
+         f71bd05ee2b32832f640f1e62d873692c8bd3457 PCI/VGA: Move non-legacy VGA detection to ADD_DEVICE path
+         1dfe2bdb2285af2b083e0060d35f7f066bbd30df PCI/VGA: Move disabled VGA device detection to ADD_DEVICE path
+         06f2f48c6c319598cfee057e66c4a35b45849e13 PCI/VGA: Remove empty vga_arb_device_card_gone()
+         8908a8d8380b87bef243a0f707e4e6f7bd059eac PCI/VGA: Log bridge control messages when adding devices
+         ad37052890e41d74f5d7db71d0bedf7a83e0eb22 PCI/VGA: Use unsigned format string to print lock counts
+         fd2692370d56a7f1c1a806dfd1494c6e1fb01f7a PCI/VGA: Replace full MIT license text with SPDX identifier
+         
