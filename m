@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Feb 2022 01:03:05 -0000
-Message-Id: <164557818509.30977.1123556773331898659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Feb 2022 01:06:20 -0000
+Message-Id: <164557838062.1306.5159513420843490009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 1054457006d4a14de4ae4132030e33d7eedaeba1
-    new: cc727b6418004e90e1fea04d70f95e97dcf45331
+    old: ef527f968ae05c6717c39f49c8709a7e2c19183a
+    new: 342b6419193c6f697fd47d9c72fcff9cafc70687
     log: |
-         cc727b6418004e90e1fea04d70f95e97dcf45331 usbnet: gl620a: Replace one-element array with flexible-array member
+         342b6419193c6f697fd47d9c72fcff9cafc70687 net: dsa: fix panic when removing unoffloaded port from bridge
          
