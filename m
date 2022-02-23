@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3550356523688054020=="
+Content-Type: multipart/mixed; boundary="===============3326564787769345496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 23 Feb 2022 14:36:57 -0000
-Message-Id: <164562701746.9565.13239409407569456766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 23 Feb 2022 14:47:55 -0000
+Message-Id: <164562767528.15833.3700540964077671349@gitolite.kernel.org>
 
---===============3550356523688054020==
+--===============3326564787769345496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/gpio-immutable
-    old: 5bcef0d59c643b8a70398229d4e3b264d3079c48
-    new: a8efbdaca4e130354cbdcd15fba21b0d5a75aef1
-    log: revlist-5bcef0d59c64-a8efbdaca4e1.txt
+  - ref: refs/heads/driver-core-testing
+    old: b4ae8c2fb673d2fc60cb8fe645dba4f4db8b0dab
+    new: f2eb478f2f322217aa642e11c1cc011f99c797e6
+    log: |
+         f2eb478f2f322217aa642e11c1cc011f99c797e6 kernfs: move struct kernfs_root out of the public view.
+         
 
---===============3550356523688054020==
+--===============3326564787769345496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bcef0d59c64-a8efbdaca4e1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d335092933079e0a48c61ea5791906d040105a4d dt-bindings: interrupt-controller: stm32-exti: document st,stm32mp13-exti
-04133bb1e710bc3d5532694999fbb3d0f1421724 irqchip/stm32-exti: Add STM32MP13 support
-689daef64074dc54f1730a466ef5687be7de909b Merge branch irq/stm32mp13 into irq/irqchip-next
-add679d2cb923855e060ef3f2d8b131ac0701f46 Merge branch irq/parent_device into irq/irqchip-next
-45ec846c1cd11835a29c85645065115dd791aa45 irqdomain: Let irq_domain_set_{info,hwirq_and_chip} take a const irq_chip
-393e1280f765661cf39785e967676a4e57324126 genirq: Allow irq_chip registration functions to take a const irq_chip
-0a25cb5544f4f01d2e7c06164555fd9cd6eb64fd genirq/debugfs: Use irq_print_chip() when provided by irqchip
-745f1fb91fe51b4a36bc1c3dbccdbbbb978f93d2 irqchip/gic: Switch to dynamic chip name output
-365550239f87342e3d29802fce0f5e9a044e8070 irqchip/lpc32xx: Switch to dynamic chip name output
-421f16238a9da88ce1f2e3a103866de095cc15f6 irqchip/mvebu-pic: Switch to dynamic chip name output
-3344265a2692414831c15964dd27a5b4adc4ed83 irqchip/ts4800: Switch to dynamic chip name output
-3fb212a042fbd8eccbb2af1852e03ed7757b9600 irqchip/versatile-fpga: Switch to dynamic chip name output
-86c12c738651edf809092589acaa147238620f24 Merge branch irq/print_chip into irq/irqchip-next
-80e4e1f472889f31a4dcaea3a4eb7a565296f1f3 irqchip/gic-v3: Use dsb(ishst) to order writes with ICC_SGI1R_EL1 accesses
-141e6a976c0583cd5339218a4843ea24c550a18d Merge branch irq/misc-5.18 into irq/irqchip-next
-58d1d925f05485020306e5141336cfd2989843dc gpu: host1x: Fix hang on Tegra186+
-ce15d1e872b3e0676c02d75fd75cbc4c2c32516e gpio: tegra186: Fix chip_data type confusion
-f8b69e764560eaf7826af3b0105f9b4fb5e89bda gpio: Don't fiddle with irqchips marked as immutable
-d5ce603213832212cbf3302e2bac487a99583c44 gpio: Expose the gpiochip_irq_re[ql]res helpers
-5dedb5be66fc8968c7647da9968747aad263a2e0 pinctrl: apple-gpio: Make the irqchip immutable
-aa9ef71053d826d768075e6426e8b9dc7b6bd478 pinctrl: msmgpio: Make the irqchip immutable
-a8efbdaca4e130354cbdcd15fba21b0d5a75aef1 gpio: tegra186: Make the irqchip immutable
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645627673 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1645627673-c87d2450031ce0539d0e31de6de446bc2bd63b7f
 
---===============3550356523688054020==--
+b4ae8c2fb673d2fc60cb8fe645dba4f4db8b0dab f2eb478f2f322217aa642e11c1cc011f99c797e6 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIWSRkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+meoP/R7H1F+vE3JRCXuKjlE5
+N08EWZvut0IbnvwlPru/j0wKlqQryxKlj6AbVdGdaBfV0yd86tmNPzrQVaop/Nf2
+yGS8y39n03WWIXK8XXCwitON+ek7R27uOAOPWSXmm4EgKibYhIb1KC7vRYmuquA9
+fBl4h7tuoqeVtNOMpDW/dz1jNnHayUemmx5b6/EErs6iNiSZwRRtkEWrYJjVhcES
+v0JVqF/iAjZhDCDyVSr+uVGhnx9WQcnliI032IXZhNP8XG3iyLnxBvxGVHbJE61c
+pjWFIRBPGSvOZrWJLUZ25jd3OJJxyQNn58AZ5zcj3QPBPSC7OTs31xll+iGMDEGN
+nzJoWb3DrrivBvGghSpaiocd7B6PDog/OUGjpzBaoK3kv6/MW/2WOM+tzgrH6dy6
+CKEOAbsSYNhxqrN7SM2bdiBaLyMvAmxD4S1FOe8IRCl7Z0Jfn3L8aTLFqbSdvDm5
+SOxMgHcYuP46kzEXefkESGymcurPNPIAFDstYH/HDVgGjOeMb83r+W6e3bHfPm5u
+LnDMy2ofZRQkNc3/FtDm6fJ81jJzhII+weX6YODY69DtfIo15LhnnwURcBYEt3z/
+5zkqWZuqNdaK3G/2SFZwMU3Qxw/EiyguMjp4eX0DFf6NtFyaiaAYqssz1L8bGZ3o
+B19GUqYS5Y0OR+jzfDP7FpD4
+=i+H8
+-----END PGP SIGNATURE-----
+
+--===============3326564787769345496==--
