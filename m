@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 23 Feb 2022 16:59:24 -0000
-Message-Id: <164563556484.5451.2383868716057881426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 23 Feb 2022 16:59:39 -0000
+Message-Id: <164563557915.5602.921603352472078133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/next-fixes
-    old: 849feb8d895a85f8f2276c2ece1aba6d9a1f9513
-    new: 6e60f6a7ae9535f5aee96308302aa3944bbd9616
+  - ref: refs/heads/master
+    old: 2e4627c3c92ed823cb976b0a48d5463c2b187fec
+    new: d89af9acb7283f8f446c976a0f3f425424768d1e
     log: |
-         26fbac2517fcad34fa3f950151fd4c0240fb2935 btrfs: autodefrag: only scan one inode once
-         2ac3e062af024e5f5ad21afecf677becbaed9ed8 btrfs: reduce extent threshold for autodefrag
-         6e60f6a7ae9535f5aee96308302aa3944bbd9616 Merge branch 'misc-5.17' into next-fixes
+         b086260ac6d4ac765bdc443bb50bd304b0d076c9 adapter-api: Document per-client discovery sessions
+         d89af9acb7283f8f446c976a0f3f425424768d1e monitor: fix division by zero about conn->tx_pkt_med
          
