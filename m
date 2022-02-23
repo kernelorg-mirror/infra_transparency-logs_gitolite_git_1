@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 23 Feb 2022 21:50:02 -0000
-Message-Id: <164565300247.2877.390364300639114775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 23 Feb 2022 21:56:19 -0000
+Message-Id: <164565337965.8584.3714201385234600913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/jd/vmgenid
-    old: 0c414856696ad292883b135a26ecc52cc2b07a0a
-    new: f3c97ea495f81feb84b82e0f065c1f5e53789e38
+  - ref: refs/heads/master
+    old: b4f72786429cc57383ff41e02407726313ca178d
+    new: a19df7139440258e02126f1c795ba64932a8e949
     log: |
-         d7eefe16ab754048533238e99a33dea26f155cdf random: add mechanism for VM forks to reinitialize crng
-         f3c97ea495f81feb84b82e0f065c1f5e53789e38 virt: vmgenid: introduce driver for reinitializing RNG on VM fork
+         a19df7139440258e02126f1c795ba64932a8e949 bpftool: Remove usage of reallocarray()
          
