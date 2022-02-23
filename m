@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 23 Feb 2022 13:50:13 -0000
-Message-Id: <164562421389.11697.4025554394838561772@gitolite.kernel.org>
+Date: Wed, 23 Feb 2022 14:04:43 -0000
+Message-Id: <164562508344.20461.7479513532166815464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/jd/vmgenid
-    old: 233520ddf79cfb9bd873327255901e4a9046f40a
-    new: 4da03455b6a9c012699ed00f3d52170506e02afd
+    old: 4da03455b6a9c012699ed00f3d52170506e02afd
+    new: b21831ba278e04a3f7617397349a67cc9a03227d
     log: |
-         3c90ef6adbdb2c4b748f3f66a9484f98d1381a1e random: add mechanism for VM forks to reinitialize crng
-         4da03455b6a9c012699ed00f3d52170506e02afd drivers/virt: add vmgenid driver for reinitializing RNG
+         8eb3d477012540b8efba64001558ab17d3fb5b0a random: add mechanism for VM forks to reinitialize crng
+         b21831ba278e04a3f7617397349a67cc9a03227d drivers/virt: add vmgenid driver for reinitializing RNG
          
