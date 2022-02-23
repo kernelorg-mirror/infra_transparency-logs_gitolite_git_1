@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============9089468408753675086=="
+Content-Type: multipart/mixed; boundary="===============0844490161690042673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 23 Feb 2022 20:08:04 -0000
-Message-Id: <164564688441.1444.7766321871769870227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 23 Feb 2022 20:11:35 -0000
+Message-Id: <164564709573.4030.5886904783979876861@gitolite.kernel.org>
 
---===============9089468408753675086==
+--===============0844490161690042673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 5c1ee569660d4a205dced9cb4d0306b907fb7599
     new: 23d04328444a8fa0ca060c5e532220dac8e8bc26
     log: revlist-5c1ee569660d-23d04328444a.txt
 
---===============9089468408753675086==
+--===============0844490161690042673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ a97279836867b1cb50a3d4f0b1bf60e0abe6d46c parisc/unaligned: Fix ldw() and stw() u
 6f5738db96ddc3525de21990ed569ef43e05f42d Merge tag 'hwmon-for-v5.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 23d04328444a8fa0ca060c5e532220dac8e8bc26 Merge tag 'for-5.17/parisc-4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============9089468408753675086==--
+--===============0844490161690042673==--
