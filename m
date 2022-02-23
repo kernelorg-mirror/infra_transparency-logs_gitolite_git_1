@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7073649310975171294=="
+Content-Type: multipart/mixed; boundary="===============0360882897222284218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 23 Feb 2022 04:07:00 -0000
-Message-Id: <164558922035.25024.11520256243426606549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Feb 2022 04:07:06 -0000
+Message-Id: <164558922602.25144.6548945496414023424@gitolite.kernel.org>
 
---===============7073649310975171294==
+--===============0360882897222284218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 1847e3046c528bd85bd51e2860f4139bd9052d6c
     new: 4d986ffa036a773456476f70bd0fde2fb1330b7d
     log: |
          4d986ffa036a773456476f70bd0fde2fb1330b7d spi: add missing pci_dev_put() before return
          
 
---===============7073649310975171294==
+--===============0360882897222284218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645589219 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1645589218-4484e5ce82f0d8409a1f4a304937d985f07af37e
+pusher C3F436CA30F5D8EB 1645589224 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645589224-85ba93a8e87ebe2bb0a409808d40a51c48f28ec1
 
-1847e3046c528bd85bd51e2860f4139bd9052d6c 4d986ffa036a773456476f70bd0fde2fb1330b7d refs/heads/for-5.18
+1847e3046c528bd85bd51e2860f4139bd9052d6c 4d986ffa036a773456476f70bd0fde2fb1330b7d refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIVsuMACgkQJNaLcl1U
-h9Bmcwf9HGxrtL3QPvCFt7sWe7AI5Rte91Ht7Vy12FxLfOLPvkyNI1EK4bsfgYap
-R7Jj3YqKlZo6TUnAk/hLwM1QGxoCDRdR3CxOAyoNZor/VTDZ/FMaGqv4uxX5hJN4
-qqYnZvVHuaBKteAy8CHdfLK5THWYeOpuXAB0ebbDf8M/TlBz4dlIDXJEM720LX4h
-OKdMUBzB0s0tokbNZoVKAcJc4Tg7qn1/ZLQkwAUziCigN5vbTzaPjqltTR+ai79O
-4uM3n0dRwHsPx5WmWfnrGGAlxj6isFVcjsSZ7QuTwA2vivFTTgzcjVrBDvKmtTgz
-dIleVQdWlziCVSbzKX1mAKmdKYIt5w==
-=vfNa
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIVsugACgkQJNaLcl1U
+h9CFLAf/brwtVkTbVWY8bBpijmARaumxbE7oBoIe1WWDNr8yZ+iuF0PXcRcC6jPa
+8mypUeZp3IW5U5Mq/E4mBUrv2GvdVYt2F18X5PUPTw5mEXNUoeKsYx8ZchZb0OIZ
+hgnIDHsd/tFMDQ58wYGJdwT62acJDUctKRh73mxcuF5BmmvgGrlYpNwttduJKogV
+PDsqzkzLLBjPomflze9M9JYnhR/Htr6l833HeIp6zZ9S0SaXlzEuVtEmD8s2GcAI
+vwkVqS5RI8BIhP3a6IZo6d7fzJess3OUXG+VIUmdqtiwefKaQuntDVYv9o2vwnbM
+ueP4vNF/pz6uOfc+AybfVgD5vxpOkA==
+=WaaL
 -----END PGP SIGNATURE-----
 
---===============7073649310975171294==--
+--===============0360882897222284218==--
