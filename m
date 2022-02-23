@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6366569283425221797=="
+Content-Type: multipart/mixed; boundary="===============1613853798759655702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 23 Feb 2022 03:33:03 -0000
-Message-Id: <164558718352.2319.3497732362776409504@gitolite.kernel.org>
+Date: Wed, 23 Feb 2022 03:33:18 -0000
+Message-Id: <164558719805.2482.462679318277537665@gitolite.kernel.org>
 
---===============6366569283425221797==
+--===============1613853798759655702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a28ebccdfd1205a20531566c2242c8f6ea8056d4
-    new: 2cba0e36259c98cf1cd18a00d4a90eaee7439f1e
-    log: revlist-a28ebccdfd12-2cba0e36259c.txt
+  - ref: refs/heads/staging
+    old: 2988062985d598d6871f47cb8eb70318af5b5b2d
+    new: b709a4caa9d01f89314a4e5aab2e722fc9a5989a
+    log: revlist-2988062985d5-b709a4caa9d0.txt
 
---===============6366569283425221797==
+--===============1613853798759655702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1645587174 -0500
+pusher 75C5DE3D 1645587190 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1645587174-9353fb2b0c35cb3d0e618684435185311f4469a6
+nonce 1645587190-053f7ea72b6625bfbbfbd8c4d261c8d84ec15a2b
 
-a28ebccdfd1205a20531566c2242c8f6ea8056d4 2cba0e36259c98cf1cd18a00d4a90eaee7439f1e refs/tags/mkp-scsi-staging
+2988062985d598d6871f47cb8eb70318af5b5b2d b709a4caa9d01f89314a4e5aab2e722fc9a5989a refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIVquYACgkQ7ulgGnXF
-3j12mBAAkH02yrtxh14zCLYWMubQFc74YdrB0PL0JyaCv8els5YFMA4XLNviDQF0
-s4aBFEop8VUWCmXUyTSme1bNm9gawFX43hhQWEdhlUHlxBncUQJOnGBfr4r7M75S
-iQHuerIAgrPJrO1DyzlEnKwf0O6wJSPvYcKgF5pwwCl0RbbiPnltGEk66Tay5TXZ
-MESNRqoVI5nDJtch3Ncwh+2mwaf1jiUvVD8zENyagmjwywYxkxwJIs9Wjam8pR2E
-lIGWuqrqgi8yBVPPvzPj9yGc8G8OesWkeBYOkgGd/3dP9byXbJkozoe7SrFqsC26
-9k3mlQooWDAXbdeevxgnTA3+lQEqNf58Z5xpJTmKQndl6XFb5kFlLuPhMrlpkWG3
-/230LwHE2pFpV3z/375F+ba3ksFEdRbmxElIb9j4SHxtO/izZVVDtEUg70lYWV/6
-gRpWSI3WxBf8h8Bl2M21x4gJHqedtV4KUCXHY0AcJ2Cw3oIOanO0zc50xSXU2hK7
-oBZtTILAqQGidZ2NOR85e1CGmgGwFjd1AIUl4FANPyjD89Y2py+hbV1GXB75Nn6V
-bXDUCR63tYLyHm9jAh0Hn7T2O7chYnS0MzkYV50rrYul7N8dO9gdIOD0AODNhIQQ
-dpf1oumUYLy6GWxsBMu2LjsHfN8QKtJ8eT5Vf862UO3HJk+x+FY=
-=ssD+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIVqvYACgkQ7ulgGnXF
+3j0WHw//e7s6G5YozT44cWjxEQv/mpVAzvd8TzxR7F7JammYtaocfHBMSwqIzLtN
+o5pcBhANoQ9zPbSabDLXhcZSi0kjllyaWlHfu7pVnoyPgSCWpZSzdZJZa9PLbVaS
+NsxbNGpincIrj1J5/CyVIWBiKxmvvitagPVgB1iC16kdgMTuiUl1ATfmZBBGzlJj
+tBAfNx7IF8ylvgm9usIxJOKOlZQkvvPTBPFZj07RgYQjZ/cBsBEGa8cPCAxVL19x
+h277aPQ4chzR6RqinNS/mCpIgvxcOEcm0YiM0CPcR0EzsH/wFI4ylvWZjSY5EGa4
+TjhKslDZig+2dvSTVPBr0xqn8Fw/H5caF7WMzMjq+VEB8Pp7IntdstlnDzy8TQOS
+k3o8E+NvK0qkb/eXA4oKsv9m8pw2kbFW7QB/gAiCdKR6KXCIFuVVXpRMcRaPF53N
+qAsmbDdeaPtuKjj8KvFwjCyAFyx3roKgTlZBcbQDsNCFtZI9MhhcOCn3G27E1MXP
+jxqoAgD/JPUuVZpWYiG3+sftGth2jmq5wA3tRfbGjZd+4XwsF1/Agyfo96qyapN8
+6ozsnHBo+W1BQeorfnWpCZyPFdsxRB7B9aSBPlv09Q8y85BNRMEEOIdbxczuVTtt
+2D2kCr2uG5uo7Q71x0xs2YLr0qQ06OM9G9KefbZXkttxdxhg3ew=
+=eT2l
 -----END PGP SIGNATURE-----
 
---===============6366569283425221797==
+--===============1613853798759655702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a28ebccdfd12-2cba0e36259c.txt
+Content-Disposition: attachment; filename=revlist-2988062985d5-b709a4caa9d0.txt
 
 3f2e252ef727318f81588704461735617ad55b88 scsi: libsas: Add sas_execute_ata_cmd()
 2cf0e0a9da38ce2495490869ad08efbc2057ae66 scsi: ips: Remove an unreachable statement
@@ -151,4 +151,4 @@ e29c47fe8946cc732b0e0d393b65b13c84bb69d0 scsi: pm8001: Simplify pm8001_task_exec
 ca44f98d619481094d38524077e9e638aafa2923 scsi: pm8001: Improve pm80XX_send_abort_all()
 b709a4caa9d01f89314a4e5aab2e722fc9a5989a scsi: pm8001: Fix pm8001_info() message format
 
---===============6366569283425221797==--
+--===============1613853798759655702==--
