@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Feb 2022 13:14:01 -0000
-Message-Id: <164562204151.19574.13940914587593950481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 23 Feb 2022 13:18:23 -0000
+Message-Id: <164562230346.22461.7999390527044558971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: ecf4a24cf97838fb0b78d4ede0f91d80b058289c
-    new: 0228d37bd1a4fa552916e696f70490225272d58a
+  - ref: refs/heads/jd/vmgenid
+    old: a960beb77f08abc1226b6fd9be07d8a5e9f4fe95
+    new: 233520ddf79cfb9bd873327255901e4a9046f40a
     log: |
-         4f1e72850d452e5c3302faa82a01f179ff5f9482 drivers/net/ftgmac100: refactor ftgmac100_reset_task to enable direct function call
-         3c773dba8182cdfea7b32caafe9290240ab8de5f drivers/net/ftgmac100: adjust code place for function call dependency
-         1baf2e50e48f10f0ea07d53e13381fd0da1546d2 drivers/net/ftgmac100: fix DHCP potential failure with systemd
-         0228d37bd1a4fa552916e696f70490225272d58a Merge branch 'ftgmac100-fixes'
+         f0ce6f658c88e3c038df0b89caa84ceb196b5f7b random: add mechanism for VM forks to reinitialize crng
+         233520ddf79cfb9bd873327255901e4a9046f40a drivers/virt: add vmgenid driver for reinitializing RNG
          
