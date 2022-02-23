@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1124685319928892584=="
+Content-Type: multipart/mixed; boundary="===============1387229205816306303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 23 Feb 2022 15:48:31 -0000
-Message-Id: <164563131157.23542.16910614993558560736@gitolite.kernel.org>
+Date: Wed, 23 Feb 2022 15:48:44 -0000
+Message-Id: <164563132472.23693.11827558779797573682@gitolite.kernel.org>
 
---===============1124685319928892584==
+--===============1387229205816306303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 8f28922a53843345495e99c6fcc3c28abbc3f39d
     new: c9e54f38976a1c0ec69c0a6208b3fd55fceb01d1
     log: revlist-8f28922a5384-c9e54f38976a.txt
 
---===============1124685319928892584==
+--===============1387229205816306303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e147099c54c1c6d4999a0a7a494a07557c631f44 efi/mokvar: move up init order
 4d83e5144e224b90f6589d11b5fecde33c0dd211 integrity: Trust MOK keys if MokListTrustedRT found
 c9e54f38976a1c0ec69c0a6208b3fd55fceb01d1 integrity: Only use machine keyring when uefi_check_trust_mok_keys is true
 
---===============1124685319928892584==--
+--===============1387229205816306303==--
