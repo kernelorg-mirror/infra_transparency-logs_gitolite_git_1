@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5369947563391760621=="
+Content-Type: multipart/mixed; boundary="===============6638633672159600566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 23 Feb 2022 07:09:57 -0000
-Message-Id: <164560019757.6973.4906538181643186457@gitolite.kernel.org>
+Date: Wed, 23 Feb 2022 07:10:13 -0000
+Message-Id: <164560021342.8564.238814681252176362@gitolite.kernel.org>
 
---===============5369947563391760621==
+--===============6638633672159600566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/headers
-    old: 661b50f977c9efa7e4893c97bf36931175749fc7
+  - ref: refs/heads/master
+    old: 7d9efc989eceed6a8fa475a186880ec4a1ad54a3
     new: dd72321e3523f5da9ebff0ebff8f6448f0e49173
-    log: revlist-661b50f977c9-dd72321e3523.txt
+    log: revlist-7d9efc989ece-dd72321e3523.txt
 
---===============5369947563391760621==
+--===============6638633672159600566==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-661b50f977c9-dd72321e3523.txt
+Content-Disposition: attachment; filename=revlist-7d9efc989ece-dd72321e3523.txt
 
 68812ee7742ccffc1120b1a2c3b5f7db5ac7d328 headers/deps: Add header dependencies to .c files: <linux/sysfs.h>
 85d214e5c732bd35ff79e373bdf0788f1b2bf37c headers/deps: Add header dependencies to .c files: <linux/tasklet_api.h>
@@ -1051,4 +1051,4 @@ c935173316155b576e2464caf2c51691e6723541 headers/deps: Introduce the CONFIG_FAST
 ff7578f68b87fc4c484b075b63d5abb5e38eeab9 headers/deps: x86/asm: Optimize <asm/segment.h> dependencies, remove <asm/segment_api.h> inclusion
 dd72321e3523f5da9ebff0ebff8f6448f0e49173 headers/deps: x86/modules: Optimize <asm/module.h> dependencies, remove <asm/orc_types.h> inclusion
 
---===============5369947563391760621==--
+--===============6638633672159600566==--
