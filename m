@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 23 Feb 2022 14:53:45 -0000
-Message-Id: <164562802599.20515.12817566413658851503@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 23 Feb 2022 14:57:23 -0000
+Message-Id: <164562824302.23105.12965905700250024578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/sched/headers
-    old: 752ebfa60b23acf60ae787b2025cc2f4165c4911
-    new: 97c5eeb4de3ad324ed2a4656b46465299cfd010a
+  - ref: refs/heads/for-linus
+    old: c22a8086b384025ab97ce07465420a219697d3f2
+    new: ce345f1e48458837a5b064cac94382c095e00e79
     log: |
-         229dee5bdee62dec3a4d3c807fcd04c649fdbc4c headers/deps: Add header dependencies to .c files: <net/netfilter/ipv6/nf_defrag_ipv6.h>
-         01c583e12a0caf17e69fe674518fd8cb3550d7c6 headers/prep: Fix header to build standalone: <net/netfilter/ipv6/nf_defrag_ipv6.h>
-         0db0d71974cc1a6b1dfb1386bbdccbe50b362d22 headers/deps: Add header dependencies to .c files: <linux/cpuhotplug.h>
-         b2fa54dcc77d1046b3a5dc09d032c4a0a7c0c186 FIX: e66f6481a8c7 sched/headers: Reorganize, clean up and optimize kernel/sched/core.c dependencies
-         97c5eeb4de3ad324ed2a4656b46465299cfd010a headers/deps: Add header dependencies to .c files: <linux/module.h>
+         9bdd10d57a8807dba0003af0325191f3cec0f11c ASoC: ops: Shift tested values in snd_soc_put_volsw() by +min
+         c5487b9cdea5c1ede38a7ec94db0fc59963c8e86 ASoC: cs4265: Fix the duplicated control name
+         ce345f1e48458837a5b064cac94382c095e00e79 Merge tag 'asoc-fix-v5.17-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+         
+  - ref: refs/heads/master
+    old: 685c69c4ac506788411dadd10c368c9002875de6
+    new: 1eb02925ef5873a34a4245faf9d31e89cd62cb4b
+    log: |
+         9bdd10d57a8807dba0003af0325191f3cec0f11c ASoC: ops: Shift tested values in snd_soc_put_volsw() by +min
+         c5487b9cdea5c1ede38a7ec94db0fc59963c8e86 ASoC: cs4265: Fix the duplicated control name
+         ce345f1e48458837a5b064cac94382c095e00e79 Merge tag 'asoc-fix-v5.17-rc5' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+         1eb02925ef5873a34a4245faf9d31e89cd62cb4b Merge branch 'for-linus'
          
