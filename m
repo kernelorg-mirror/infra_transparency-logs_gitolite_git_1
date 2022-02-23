@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 23 Feb 2022 10:37:45 -0000
-Message-Id: <164561266572.27901.5551395076855796813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Wed, 23 Feb 2022 10:53:48 -0000
+Message-Id: <164561362885.6185.3834282565709347374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/review-hans
-    old: 7e45710a8a56896d7af5c5ff4ed7cfb18573791b
-    new: 07f5ed0eee011f2b76ee01a4939f3ff1d34ac5e3
+  - ref: refs/heads/sched/headers
+    old: 860df1d9b0002f8282580f005996dcd11ac052a0
+    new: 752ebfa60b23acf60ae787b2025cc2f4165c4911
     log: |
-         07f5ed0eee011f2b76ee01a4939f3ff1d34ac5e3 lg-laptop: Move setting of battery charge limit to common location
+         752ebfa60b23acf60ae787b2025cc2f4165c4911 FIX: b7c2fe87a955 headers/deps: Add header dependencies to .h files: <linux/mm_api.h>
          
