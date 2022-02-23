@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3225057323002132261=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 23 Feb 2022 07:32:39 -0000
-Message-Id: <164560155991.22927.5845605593267123576@gitolite.kernel.org>
-
---===============3225057323002132261==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 23 Feb 2022 07:48:51 -0000
+Message-Id: <164560253169.32359.2935929735717738486@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 4c49300d8e676702cc097784007bf11735821d6d
-    new: 7570fb41e450ba37bf9335fe3751fa9f502c30fa
+  - ref: refs/heads/master
+    old: 126aeda0b71ac3ecd654ed294149d07e63807d1c
+    new: abe87fe230d7233bce90b7e40f005864954153eb
     log: |
-         7570fb41e450ba37bf9335fe3751fa9f502c30fa mmc: rtsx: Let MMC core handle runtime PM
+         be9a2277cafd318976d59c41a7f45a934ec43b26 fork: Redo ifdefs around task stack handling
+         546c42b2c5c161619736dd730d3df709181999d0 fork: Duplicate task_struct before stack allocation
+         2bb0529c0bc0698f3baf3e88ffd61a18eef252a7 fork, IA64: Provide alloc_thread_stack_node() for IA64
+         7865aba3ade4cf30f0ac08e015550084a50d9afb fork: Don't assign the stack pointer in dup_task_struct()
+         f1c1a9ee00e4c53c9ccc03ec1aff4792948a25eb fork: Move memcg_charge_kernel_stack() into CONFIG_VMAP_STACK
+         1a03d3f13ffe5dd24142d6db629e72c11b704d99 fork: Move task stack accounting to do_exit()
+         e540bf3162e822d7a1f07e69e3bb1b4f925ca368 fork: Only cache the VMAP stack in finish_task_switch()
+         0ce055f85335e48bc571114d61a70ae217039362 fork: Use IS_ENABLED() in account_kernel_stack()
+         abe87fe230d7233bce90b7e40f005864954153eb Merge branch into tip/master: 'core/core'
          
-
---===============3225057323002132261==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645601558 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1645601557-82d55f56ccafd9dcbc8f46003a9654099dd29545
-
-4c49300d8e676702cc097784007bf11735821d6d 7570fb41e450ba37bf9335fe3751fa9f502c30fa refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIV4xYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7EP/1y6DpU7C8vvqQjJTrRG
-tqQKfvH8/EsB5dPdEVQniFZUbl9E6suwfyCelSjk1tN+ES3P5RmpwF5gQRc6RmC2
-olNWCNWJbbCI81NPMz6kXhIcpgx6rDdsmIcR2SK0mz9xlwzCg6RsANDArv6kOhur
-3oFoXGRJClz3xGAk0+6v9oDQMLoMdj9qvc+IGAEBKC09oqwcL+dlTTklnd6QzKID
-qoyH3J0vGIJvshVp1GI00jo0/zn9svr4Wyk0z/bzm6sdxXitQn2sbwoMLTIqGvyF
-5kLFI947iXXcGnGbHdm4Up2yviPlyoMkw8OrDTSKBODuNWjj7RAO3detO6/ngrwj
-aMXKnETV/+s9QAmDwt43MvFGXug8CblR1xA4mYtbPWgwwzLrKfePLgRyD1DzvgQm
-UiEx0NsyCGYvRjlLYU6J7g1W3oAqcUzDXGAB/PIDrtm1w7NG9j+hpf0/oFEOZqya
-6xB+scpIc22OiCsdtbRBJPN8e8pzc06Y+YTQoJFHlaQIafcFRagBCNZrVGB+ZWIT
-KQnLSUKmwiD0JoGccnyBcwlwVGSbHwx9jLA6VTeLcQDDLX0F6tB63gBZTh57cFBH
-ukbFgR+a/v+ghsadCO/JFM6u/rCpgDaFz7Gj+eAjCnZ9PKxsTwBh65aJ0dYZg/d2
-ixHiLj6QFRmyD/tLI2kCmk11
-=ShG4
------END PGP SIGNATURE-----
-
---===============3225057323002132261==--
