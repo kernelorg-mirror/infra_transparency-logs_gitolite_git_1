@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 23 Feb 2022 18:26:35 -0000
-Message-Id: <164564079513.699.569646232154423337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 23 Feb 2022 18:40:19 -0000
+Message-Id: <164564161930.9351.18446104698088476103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/damon/next
-    old: cefaca49a881e2cf43beaa8eb605db55efee4670
-    new: 95f6a7711cc3e435fdbd86694d3585200063b986
+  - ref: refs/heads/jd/vmgenid
+    old: 4ef7a373ae261aa8b6061c4eebe21b2c864f9f6f
+    new: db055cc5b1c65ad1e64c71451db33842e705347e
     log: |
-         95f6a7711cc3e435fdbd86694d3585200063b986 Docs/ABI/testing: Add DAMON sysfs interface ABI document
+         db055cc5b1c65ad1e64c71451db33842e705347e drivers/virt: add vmgenid driver for reinitializing RNG
          
