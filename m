@@ -1,22 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Feb 2022 04:00:46 -0000
-Message-Id: <164558884663.21451.13349677224732254873@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4217520971547549321=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 23 Feb 2022 04:06:48 -0000
+Message-Id: <164558920870.24826.8554048518429925673@gitolite.kernel.org>
+
+--===============4217520971547549321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0ebea8f9b81cc02bbef2ec720a4c19e841c03217
-    new: 922ea87ff6f2b63f413c6afa2c25b287dce76639
+  - ref: refs/heads/for-5.18
+    old: ff5a90173d981934e1134d28af3625acaab01d80
+    new: b83eb8be4f2ca9d6beb1a8b66f666ef7039b7a64
     log: |
-         763087dab97547230a6807c865a6a5ae53a59247 net: add skb_set_end_offset() helper
-         2b88cba55883eaafbc9b7cbff0b2c7cdba71ed01 net: preserve skb_end_offset() in skb_unclone_keeptruesize()
-         fa4fad40d5959373e3c6046d30344fc4f586bb20 Merge branch 'tcp-take-care-of-another-syzbot-issue'
-         922ea87ff6f2b63f413c6afa2c25b287dce76639 ionic: use vmalloc include
+         b83eb8be4f2ca9d6beb1a8b66f666ef7039b7a64 ASoC: sc7280: Really depends on SOUNDWIRE
          
+
+--===============4217520971547549321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1645589207 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1645589206-0db8d07244e7ab396168234a799dafcd8b1a25f7
+
+ff5a90173d981934e1134d28af3625acaab01d80 b83eb8be4f2ca9d6beb1a8b66f666ef7039b7a64 refs/heads/for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIVstcACgkQJNaLcl1U
+h9A5pgf/Ul6nP0HlNud+w52UNIjt23X4mz4gCrKRBSoAlvyw90Eh1y54T6d3O+4U
+iaM6AKBFKse1LPucQqC7toRT55oIiGCWJB8VTDxBj9Mie4G1vpFGL66xi9qK4vq6
+E2uYsZF/qrVKptrZi5iPvN6ktfdxfTNEbv1qPScfEMP9y/U7+qk5/KfXvpV8O7ke
+EaYW9TLEgVJCNs06zXGUOSyJ6KcEAF6IjpBy/qdtHnKvVsZFpjCC7cIYduQKZN23
+FBvvpf4XuBQ1Lk1vCQKmOUFRIWxfmf6K8bWsD89WAfLl2Ny5hGAK2EfjUYfNMpSH
+qnC2/1IfkSFGvtS5MQatSuy1b5uMww==
+=OWpK
+-----END PGP SIGNATURE-----
+
+--===============4217520971547549321==--
