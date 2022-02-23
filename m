@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Wed, 23 Feb 2022 22:29:44 -0000
-Message-Id: <164565538468.30074.11765466537499268080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 23 Feb 2022 23:03:58 -0000
+Message-Id: <164565743835.19702.3252801878022119655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/ndctl/ndctl
-user: vishal
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-73/vj/papr
-    old: c5ccbf29c54b5a3d9cb1c138c06c8d5ac3ee80c2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: a19df7139440258e02126f1c795ba64932a8e949
+    new: 08894d9c647aad08ddd19398e03a0aa1a70b7dc8
+    log: |
+         08894d9c647aad08ddd19398e03a0aa1a70b7dc8 libbpf: Simplify the find_elf_sec_sz() function
+         
