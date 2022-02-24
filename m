@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 24 Feb 2022 12:47:13 -0000
-Message-Id: <164570683307.14863.6755521849984333011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 24 Feb 2022 12:48:03 -0000
+Message-Id: <164570688396.15175.6928052138167579871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/tags/usb-serial-5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: fd6f3b1bd1124a0e552a5ce757212fdb8d6bce83
+  - ref: refs/heads/review-hans
+    old: 07f5ed0eee011f2b76ee01a4939f3ff1d34ac5e3
+    new: d440bdf08322e84149be3fee2ab9d43a770c62f7
+    log: |
+         646f429ec2de40f63ec7a00e4e18783e67853346 platform/x86: amd-pmc: Set QOS during suspend on CZN w/ timer wakeup
+         d440bdf08322e84149be3fee2ab9d43a770c62f7 surface: surface3_power: Fix battery readings on batteries without a serial number
+         
