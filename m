@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 24 Feb 2022 20:25:13 -0000
-Message-Id: <164573431381.22761.16269183675560219108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Feb 2022 20:29:32 -0000
+Message-Id: <164573457278.24139.6117954065970761063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: c3f6a8e5ab2d955cda7dda98c104aa8e0f49c06e
-    new: 9cab94f59b2378304935bcb45c7a57d3b22369e4
-    log: |
-         9cab94f59b2378304935bcb45c7a57d3b22369e4 Mellanox: Add new mlxsw_spectrum firmware xx.2010.1406
-         
+  - ref: refs/heads/v2_20220222_kyarlagadda_tegra_quad_spi_combined_sequence_mode
+    old: 0000000000000000000000000000000000000000
+    new: ea23f0e148b82e5bcbc6c814926f53133552f0f3
