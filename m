@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 24 Feb 2022 11:21:12 -0000
-Message-Id: <164570167276.23891.13384065057254547069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 24 Feb 2022 11:30:05 -0000
+Message-Id: <164570220513.31044.6400356158710160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 1ff8cc2ca84d695da3fc30a2ead1054e4c99e2fa
-    new: fdc9ce72cffea59c564dc890086b0d0b714d05b0
+    old: 39c2a5e0d38a2f1a8e01bcedbc7b5fd52e604868
+    new: acda0aab9ed26da73f713995d2b67feab7669417
     log: |
-         de85193cff0d94d030a53656d8fcc41794807bef power: supply: sbs-charger: Don't cancel work that is not initialized
-         419c0e9d25ac083877eb37143b54eb57af1401dd power: supply: da9150-fg: Use devm_delayed_work_autocancel()
-         d016fc7ab52ab378d8bc11ac6f7e326da7b7a625 power: supply: max14656: Use devm_work_autocancel()
-         fdc9ce72cffea59c564dc890086b0d0b714d05b0 power: supply: max8997_charger: Use devm_work_autocancel()
+         272a253338f91a192defc124930030369b2a7fd4 arm64: dts: fsd: Add the MCT support
+         acda0aab9ed26da73f713995d2b67feab7669417 Merge branch 'for-v5.18/tesla-fsd' into for-next
+         
+  - ref: refs/heads/for-v5.18/tesla-fsd
+    old: bd1e3696a052b9b2bd3c1c72ef4bf800a3a1e286
+    new: 272a253338f91a192defc124930030369b2a7fd4
+    log: |
+         272a253338f91a192defc124930030369b2a7fd4 arm64: dts: fsd: Add the MCT support
          
