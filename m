@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 24 Feb 2022 16:55:01 -0000
-Message-Id: <164572170167.17125.832275080978144145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 24 Feb 2022 17:01:55 -0000
+Message-Id: <164572211550.22106.126399863539060610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/pci/vga
-    old: fd2692370d56a7f1c1a806dfd1494c6e1fb01f7a
-    new: f3e7b0c5e0e022af3d071c51262920461ba81629
+  - ref: refs/heads/review-hans
+    old: 5ca7646b7cfc66314c10fbe6acbb76cee26ef1f4
+    new: 555a28b9ab1c2a83577bc58e24a63c9716e36561
     log: |
-         7650fd9a42ccfc2726c1bda0a5a0c3ba788d15b4 PCI/VGA: Move firmware default device detection to ADD_DEVICE path
-         856a27050d53fb4ef9d0dbabe9f7095b0af6f43e PCI/VGA: Move non-legacy VGA detection to ADD_DEVICE path
-         9ac9b6067117eb4bc9ef7a8df4e669a74bc37660 PCI/VGA: Move disabled VGA device detection to ADD_DEVICE path
-         d975a90b038ef7f0751eef7c96b4462ba734575c PCI/VGA: Remove empty vga_arb_device_card_gone()
-         3f5947a276e53e66d60607e20cddac46786de261 PCI/VGA: Log bridge control messages when adding devices
-         e4b0508734dbfeb85d030b8399527ae0ed64cc88 PCI/VGA: Use unsigned format string to print lock counts
-         f3e7b0c5e0e022af3d071c51262920461ba81629 PCI/VGA: Replace full MIT license text with SPDX identifier
+         2f46d7f7e959da3ae18ed5d283935673f7a22354 pinctrl: baytrail: Add pinconf group + function for the pmu_clk
+         9c62db431d92a736c3b7998bf48107b505682d32 Merge branch 'platform-drivers-x86-pinctrl-pmu_clk' into review-hans
+         591013acf101ff693fff6c08f9b376adbba753d3 platform/x86: x86-android-tablets: Fix EBUSY error when requesting IOAPIC IRQs
+         4341d3535e4abf963bfc605d4cd03b1ffaaf1562 platform/x86: x86-android-tablets: Add Lenovo Yoga Tablet 2 830 / 1050 data
+         9c439347b9bbfb96e59ad53929b880bb87d6bf00 platform/x86: x86-android-tablets: Workaround Lenovo Yoga Tablet 2 830/1050 poweroff hang
+         555a28b9ab1c2a83577bc58e24a63c9716e36561 platform/x86: x86-android-tablets: Lenovo Yoga Tablet 2 830/1050 sound support
          
