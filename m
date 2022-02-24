@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Thu, 24 Feb 2022 20:36:11 -0000
-Message-Id: <164573497105.29728.6744725617847866806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 24 Feb 2022 20:37:56 -0000
+Message-Id: <164573507604.30369.2003159702257892335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+repo: pub/scm/network/wireless/iwd
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 80740ebb7e1ad15ab9c11425dcd26e073f86d74b
-    new: a56a1138cbd85e4d565356199d60e1cb94e5a77a
+    old: 6fce08c30115e108a51174f7702addacab145e3a
+    new: a3997dc16a3f8ee03cb6afd7700f9068c73031e0
     log: |
-         a56a1138cbd85e4d565356199d60e1cb94e5a77a Bluetooth: hci_sync: Fix not using conn_timeout
+         30abadd8e7a43f0436f1000a1858619c88d5eed9 build: Require at least version 0.49 when building with external ELL
+         a3997dc16a3f8ee03cb6afd7700f9068c73031e0 build: Add iwd-decrypt-profile to .gitignore
          
