@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5592063845171771433=="
+Content-Type: multipart/mixed; boundary="===============8166424290845996940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 24 Feb 2022 21:52:18 -0000
-Message-Id: <164573953868.15668.5431178432398863182@gitolite.kernel.org>
+Date: Thu, 24 Feb 2022 21:53:16 -0000
+Message-Id: <164573959637.16082.1330692930725701492@gitolite.kernel.org>
 
---===============5592063845171771433==
+--===============8166424290845996940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
+  - ref: refs/heads/for-next
     old: 98e437f134b3447e22af78e6c71837cd9b404990
     new: 3f96885eb713c45ca1c228a9a58b42e1a7726675
     log: revlist-98e437f134b3-3f96885eb713.txt
 
---===============5592063845171771433==
+--===============8166424290845996940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -328,4 +328,4 @@ fa231bef3b34f1670b240409c11e59a3ce095e6d soc: imx: gpcv2: Fix clock disabling im
 31c50bf184a4f5c93394a48b5ba3bc281636360e Merge tag 'tegra-for-5.17-arm-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
 3f96885eb713c45ca1c228a9a58b42e1a7726675 Merge tag 'imx-fixes-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
 
---===============5592063845171771433==--
+--===============8166424290845996940==--
