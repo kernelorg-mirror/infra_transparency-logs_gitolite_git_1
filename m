@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 24 Feb 2022 15:32:46 -0000
-Message-Id: <164571676687.28412.2450724972267728600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 24 Feb 2022 15:33:28 -0000
+Message-Id: <164571680847.28723.7662636121133326855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: 8522595a687fa7a5feaf2b78ed37fb13e25f19ea
-    new: 0150d93c2444ad656b5563ee581886a8ad8b8826
+  - ref: refs/heads/review-hans
+    old: d440bdf08322e84149be3fee2ab9d43a770c62f7
+    new: 5ca7646b7cfc66314c10fbe6acbb76cee26ef1f4
     log: |
-         da3951ebdcd1cb1d5c750e08cd05aee7b0c04d9a random: round-robin registers as ulong, not u32
-         a3f9e8910e1584d7725ef7d5ac870920d42d0bb4 random: only wake up writers after zap if threshold was passed
-         0150d93c2444ad656b5563ee581886a8ad8b8826 random: do crng pre-init loading in worker rather than irq
+         070633100acecc87efa3690905febe58b9a42b4f platform/x86: Add AMD system management interface
+         f601f7ac7ca78fda4c81c31f7a58286125086ac3 Documentation: Add x86/amd_hsmp driver
+         5ca7646b7cfc66314c10fbe6acbb76cee26ef1f4 platform/x86: thinkpad_acpi: Add dual fan probe
          
