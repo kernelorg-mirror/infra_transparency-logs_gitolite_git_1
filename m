@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 24 Feb 2022 16:41:16 -0000
-Message-Id: <164572087647.8455.7122041514220904208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mel/linux
+Date: Thu, 24 Feb 2022 16:50:36 -0000
+Message-Id: <164572143661.14284.9425052023840937321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/mel/linux
+user: mel
 changes:
-  - ref: refs/tags/platform-drivers-x86-pinctrl-pmu_clk-1
+  - ref: refs/heads/mm-noprefetch-v2r1
     old: 0000000000000000000000000000000000000000
-    new: ed3893cfc01ae601cef788a27cc736a36697daef
+    new: 11ea19c2bfffedfcaa3692f43f54ff9d19694ea4
