@@ -1,46 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2222428620158149475=="
+Content-Type: multipart/mixed; boundary="===============4960458166218217096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 24 Feb 2022 19:14:56 -0000
-Message-Id: <164573009663.10960.2948072822654956347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 24 Feb 2022 19:17:40 -0000
+Message-Id: <164573026001.13309.16980319640527518310@gitolite.kernel.org>
 
---===============2222428620158149475==
+--===============4960458166218217096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: fc4232749306d2fb9341c4c6d17c489ab657a67e
-    new: 8276cbee5a52543c614a1e1bc2624188d5970848
-    log: revlist-fc4232749306-8276cbee5a52.txt
+  - ref: refs/heads/master
+    old: 23d04328444a8fa0ca060c5e532220dac8e8bc26
+    new: 73878e5eb1bd3c9656685ca60bc3a49d17311e0c
+    log: revlist-23d04328444a-73878e5eb1bd.txt
 
---===============2222428620158149475==
+--===============4960458166218217096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc4232749306-8276cbee5a52.txt
+Content-Disposition: attachment; filename=revlist-23d04328444a-73878e5eb1bd.txt
 
-b9794a822281944ef3de5b1812a94cbdb8134320 powercap/drivers/dtpm: Convert the init table section to a simple array
-3759ec678e8944dc2ea70cab77a300408f78ae27 powercap/drivers/dtpm: Add hierarchy creation
-73dbcb6e37bf0c43bac8c15fe5bcab2bec2367fb powercap/drivers/dtpm: Add CPU DT initialization support
-e446556173170e675a7a321e76ce5fa3587de724 powercap/drivers/dtpm: Add dtpm devfreq with energy model support
-b9d6c47a2be8d273ecc063afda6e9fd66a35116d rockchip/soc/drivers: Add DTPM description for rk3399
-7b75bbdf5bedebed387aac6ad8411ed1cf3db5d0 powercap/dtpm: Change locking scheme
-0aea2e4ec2a2bfa2d7e8820e37ba5b5ce04f20a5 powercap/dtpm_cpu: Reset per_cpu variable in the release function
-690de0b4013f6f35bc9fced12746b9f396c471ae powercap/dtpm: Fixup kfree for virtual node
-c404c64d64bc31bebe8a2015103671f7cd282731 powercap/dtpm: Destroy hierarchy function
-4712a236db409d5ee5dccb8c7e57fe54d7d3ec66 powercap/dtpm: Move the 'root' reset place
-bfded2ca8f36935ff13b3b30f8e66d6135e178ac powercap/dtpm_cpu: Add exit function
-f1ebef9e55f3c49063b575e97d2019832b8f8ef9 dtpm/soc/rk3399: Add the ability to unload the module
-46501add157dd9ff34b70380baee4915b2aa04f1 Merge tag 'dtpm-v5.18' of https://git.linaro.org/people/daniel.lezcano/linux
-595e4ad348f13ec0166d8846840bf2884ec0a096 Merge branch 'powercap' into bleeding-edge
-3abea10e6a8f0e7804ed4c124bea2d15aca977c8 thermal: int340x: fix memory leak in int3400_notify()
-8276cbee5a52543c614a1e1bc2624188d5970848 Merge branch 'thermal-int340x-fixes' into bleeding-edge
+fa4300f060e5c4ca670b705f1e9b93685ad30c5b of: unittest: update text of expected warnings
+f240762f88b4b1b58561939ffd44837759756477 io_uring: add a schedule point in io_add_buffers()
+132507ed04ce0c5559be04dd378fec4f3bbc00e8 of/fdt: move elfcorehdr reservation early for crash dump kernel
+228339662b398a59b3560cd571deb8b25b253c7e io_uring: don't convert to jiffies for waiting on timeouts
+bb49c6fa8b845591b317b0d7afea4ae60ec7f3aa block: clear iocb->private in blkdev_bio_end_io_async()
+80912cef18f16f8fe59d1fb9548d4364342be360 io_uring: disallow modification of rsrc_data during quiesce
+34f3eda8c8ffd4d0b2145ac11c91cc365cd1ada3 MAINTAINERS: sifive: drop Yash Shah
+0c0822bcb73f154d96ee648644ec5a8628e3b864 dt-bindings: update Roger Quadros email
+ce2fc710c9d2b25afc710f49bb2065b4439a62bc selinux: fix misuse of mutex_is_locked()
+363f6368603743072e5f318c668c632bccb097a3 nvme: don't return an error from nvme_configure_metadata
+602e57c9799c19f27e440639deed3ec45cfe1651 nvme: also mark passthrough-only namespaces ready in nvme_update_ns_info
+c2700d2886a87f83f31e0a301de1d2350b52c79b nvme-tcp: send H2CData PDUs based on MAXH2CDATA
+54134be6580364ab98db09eb8070a09bb02e37ae Merge tag 'selinux-pr-20220223' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+91318b29a81cf51451ecf1c0054898f67dc26d87 Merge tag 'devicetree-fixes-for-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+68af28426b3ca1bf9ba21c7d8bdd0ff639e5134c platform/x86: amd-pmc: Set QOS during suspend on CZN w/ timer wakeup
+21d90aaee8d5c2a097ef41f1430d97661233ecc6 surface: surface3_power: Fix battery readings on batteries without a serial number
+b2750f14007f0e1b36caf51058c161d2c93e63b6 Merge tag 'nvme-5.17-2022-02-24' of git://git.infradead.org/nvme into block-5.17
+6c528f34ca367468a5be2f0263a7031c166ad558 Merge tag 'platform-drivers-x86-v5.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+3a5f59b17f9dec448976626663a73841460d7ab4 Merge tag 'io_uring-5.17-2022-02-23' of git://git.kernel.dk/linux-block
+73878e5eb1bd3c9656685ca60bc3a49d17311e0c Merge tag 'block-5.17-2022-02-24' of git://git.kernel.dk/linux-block
 
---===============2222428620158149475==--
+--===============4960458166218217096==--
