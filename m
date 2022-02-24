@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 24 Feb 2022 11:19:49 -0000
-Message-Id: <164570158934.21949.13072337872523156659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 24 Feb 2022 11:21:12 -0000
+Message-Id: <164570167276.23891.13384065057254547069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/jd/vmgenid
-    old: e74d8803668354e3e2da4c232386efa96765f343
-    new: b4ba10f0bfc4854bddaf1acbdbd5018fc6b7fc32
+  - ref: refs/heads/for-next
+    old: 1ff8cc2ca84d695da3fc30a2ead1054e4c99e2fa
+    new: fdc9ce72cffea59c564dc890086b0d0b714d05b0
     log: |
-         c927d7114bebddbb4e3692f5e68f51403a1a705d random: only wake up writers after zap if threshold was passed
-         a8f8bd8660997615365f63a64df610919c1b6e3f random: do crng pre-init loading in worker rather than irq
-         e9b10185a063b53ca932ddd0c261d34fe498e971 random: add mechanism for VM forks to reinitialize crng
-         b4ba10f0bfc4854bddaf1acbdbd5018fc6b7fc32 virt: vmgenid: introduce driver for reinitializing RNG on VM fork
+         de85193cff0d94d030a53656d8fcc41794807bef power: supply: sbs-charger: Don't cancel work that is not initialized
+         419c0e9d25ac083877eb37143b54eb57af1401dd power: supply: da9150-fg: Use devm_delayed_work_autocancel()
+         d016fc7ab52ab378d8bc11ac6f7e326da7b7a625 power: supply: max14656: Use devm_work_autocancel()
+         fdc9ce72cffea59c564dc890086b0d0b714d05b0 power: supply: max8997_charger: Use devm_work_autocancel()
          
