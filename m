@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3083946998968091941=="
+Content-Type: multipart/mixed; boundary="===============6701529340313672528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 24 Feb 2022 10:00:38 -0000
-Message-Id: <164569683878.4950.1689411310416263954@gitolite.kernel.org>
+Date: Thu, 24 Feb 2022 10:17:17 -0000
+Message-Id: <164569783733.14455.9177302485198223010@gitolite.kernel.org>
 
---===============3083946998968091941==
+--===============6701529340313672528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 32fde84362c40961726a5c91f35ad37355ccc0c6
-    new: 7f14c7227f342d9932f9b918893c8814f86d2a0d
+    old: 7f14c7227f342d9932f9b918893c8814f86d2a0d
+    new: aaaba1c86d04dac8e49bf508b492f81506257da3
     log: |
-         7f14c7227f342d9932f9b918893c8814f86d2a0d USB: gadget: validate endpoint index for xilinx udc
+         84918a89d6efaff075de570b55642b6f4ceeac6d usb: dwc3: gadget: Let the interrupt handler disable bottom halves.
+         aaaba1c86d04dac8e49bf508b492f81506257da3 usb: gadget: rndis: add spinlock for rndis response list
          
 
---===============3083946998968091941==
+--===============6701529340313672528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645696837 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645697835 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1645696837-dc56c18ad6b5fa52d8fb58aabefd7538e72cc96f
+nonce 1645697835-44ea300a5908794bac32ae22e7a318669e276a4b
 
-32fde84362c40961726a5c91f35ad37355ccc0c6 7f14c7227f342d9932f9b918893c8814f86d2a0d refs/heads/usb-linus
+7f14c7227f342d9932f9b918893c8814f86d2a0d aaaba1c86d04dac8e49bf508b492f81506257da3 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIXV0UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yQUQAMf1ILsJvF6iakCHNS2v
-xneUSaixq3DzyaCuRPrHYv6h/Mtsw0mxR+aBFWRWtjT5Mol7OwCQF9NAYwth7nLa
-JsIq3SkKbfekATARWwCc+G1syVWxtdcV4wtGuh7LYgxB1xhhZzBz4Zmc8rNXUhp0
-ORZSaawFRUnOw/KPLJocQ3wTSEApL47LbdB6gXuk+oRHNP40pCNkAhltj+Ok+M4k
-oOaJZhQ+DHIFbaSUUzZSC22gB0QyAAMKnqxziE/RI0tPWlJgeQevB0/8hWLXPWCP
-vc1wnU8+iCEVig/3+dLIJZv3NmzJsQTzP8YJ4A/rgTMo1rzZi6xaMUzzBl1TaJEX
-MypwNwSiUr79GP7u90hOVsa1fuheobgd+6Mv62nxuCD9mZC3CT848q3CSWib7O47
-JXRgUoQO35sZ3mSGVLbHqpwYuwRTo1FMnVH0zuu3uCnVAPWUn1h6ACukSDFu0Og0
-02fvrEHV9V/RorXdFCDqUYg3l/b3A+fxyG5EXyEGzGs5dv9oijstRTnI4wjPxGDF
-Aty9Bw/2G1BklM7mozP3BVrqofvff0lXuKEY3jyvzuLmnFqSPb7jN9RGODzedtRW
-q1BIiQMJHCh/dPBC2qGAvsCscCZtzKF48DMFxKkfOPzkAmGAdXVgx1EYSDHjp1QJ
-1/h32y8QHk5KOjrftpJHUXyJ
-=F4FA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIXWywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5vEQANc1hV4OLnq5UzLwMgdU
+B0bKSLJ/RHQDAWF8/uWhMqCej54k9lrvpFQXMlF3PqSFoTAatDAPAQZYZzGfOYln
+eELBcKTVEgzZyHrXpydh79pWkUOSjuJ84nXL8bEZpzJUvk4GBhSPlMsks/q455wd
+iOz9fE79JOYoa3I6+sAkKAL7IoL1atUAIjbzQ3j5j9/3CCpMEkAQzdfBRE6cVb1l
+y1GWB8HLc0FiVSh24coXQROAoTCFDwSXs4K1O3jc75PZUfX+gXqa0kRsrnI8oQEV
+X7eCFqgOKUlolzDnrbPpagiqDGubC2YrGB+QxzNvsHNOLMinQTOQ8WeHaq9QzOmj
+t7/A+nzsPMiwYROJv2dZ/ZDO77DBWxEA43QEG9hjbxT6fu0+zzqPlXyVH7VumFBy
+V/DNnHKsQav8Ai86DumhPBdiNCOjZkUA3gBQER0H4pg4myjLRufav32pJszDN6tM
+0x483sQ2+ZT0ffxIlWud50DiPtAt7QmPF7EekKVSV3ZsF+LZn5FrYcN66Ab4zLYv
+USyP8vtTRh8S/wWN2WGcD7IlMaADd3YFLFgnCNslR8lBeBUgKrP4NlygD2vTRU6Y
+Sw/6Af4xQ6fVvwweyN5eONmkQMc53FWXpp+ipZtuhsn4iiJh4rCFWAaBF1p54yPB
+4BMcbJUaQ0sDhl/OdIMj2+V4
+=ARCD
 -----END PGP SIGNATURE-----
 
---===============3083946998968091941==--
+--===============6701529340313672528==--
