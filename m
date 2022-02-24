@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3560568027133724129=="
+Content-Type: multipart/mixed; boundary="===============4158472296715948482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 24 Feb 2022 10:19:52 -0000
-Message-Id: <164569799257.15303.11817426226052351890@gitolite.kernel.org>
+Date: Thu, 24 Feb 2022 10:20:26 -0000
+Message-Id: <164569802634.17031.16743457446516690363@gitolite.kernel.org>
 
---===============3560568027133724129==
+--===============4158472296715948482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: a5d847b0afd317df1ed0e3b72fbef72ce4824532
-    new: f9aeda81c0e8cfd6c5b21401f6206b2c7584f876
+    old: f9aeda81c0e8cfd6c5b21401f6206b2c7584f876
+    new: a352fa58c0ee5c91714cd31a36b5cd308085fcbf
     log: |
-         c6c986b657e55910746ea0f41e1aee0696833c7a usb: host: ehci-q: make qtd_fill() return *unsigned int*
-         f9aeda81c0e8cfd6c5b21401f6206b2c7584f876 xhci: omit mem read just after allocation of trb
+         a352fa58c0ee5c91714cd31a36b5cd308085fcbf usb: misc: USB_QCOM_EUD should depend on ARCH_QCOM
          
 
---===============3560568027133724129==
+--===============4158472296715948482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645697991 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645698025 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1645697990-ce816316910ff800e58f6e30af00b32a44e0335d
+nonce 1645698024-796f159123a365bfa0e79c7cb0aa58377bf7246a
 
-a5d847b0afd317df1ed0e3b72fbef72ce4824532 f9aeda81c0e8cfd6c5b21401f6206b2c7584f876 refs/heads/usb-testing
+f9aeda81c0e8cfd6c5b21401f6206b2c7584f876 a352fa58c0ee5c91714cd31a36b5cd308085fcbf refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIXW8cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R8AQAKK0Au71t0gaVCv6FEag
-Sq9FGSAOAG217UKKIfHqYfGoTtMjxZxtvSgvnV40rg7BGgeEoKCtC7V47LSKyUW4
-9hYww/mchpYeHimfmUM7Tn9XdEC3iLoL4k7H7e+WoP3tgWnL7aZnW65EV3Ij+RBk
-XiS8dgb5KfC09r7XA9HXI1enDJf5CglGTqkPxuzvIfYTbzpJKtEFUtJ4hSzk24gR
-UZ9LyUMYrounjeuAOennRasi6CRIdbRBcIPtB6aVQNJ/xgAtzlXOfuLGc7jheqbO
-RUGhsV3oDj+L0nfmEwUzxGRW+2fDB61MFZ53LKw+Rym8o9nTaTRE6qY0itH/uJSq
-8dGAYUyKOPyxNHk967islaK7+SGZ2v5Gu2kAT0RwbzVIwzaoDX2TYN91rLj1M2MJ
-iR6XuwNuBFlaB/qOAtxBBf571dYaLCtIT6ojnSmWKt3EvpeZpQB+6JbNFepDUgEE
-j+4NkeTbm1lWRHQiXz3kagB6wIJrl6S4pNEQm3Ty+tGQ0FxGpB/o0kEsPMg+3Ifl
-uD3IFEIMX4ejYkaCmA2eFCS0R7ghxtunBh9W7lb46LTZklMILypzuMtJfzgwFru6
-FydrzRKOzH21NU7nWMwlL4EnWJGjhT842jT4u+urKS6Dul5YY/K1gAgIsPnvbWIp
-1EYk1aq7s9nHRf7HZ4uJnCVM
-=agsH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIXW+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AFIQAJHAUtuC0xIy7+3+KJAY
+BlN718eFJkJ9lo1CBHU+Bc79UXD/cOyOL+83MwoL5QcnvDn4E/+8BSwQtjevNm+R
+rtyi/KYR4RVCkG2i6iGnh49Ov0dRY8SsAH9dejPR1LnOwcTVEirEdZguoEQgGSSX
+nXAKCY2TyM6QXO4ZcPKBVF+oskVHSoXoBVpnCfQrP4KZ+srzR+8eHqz/HUoHzPnM
+Px0STh1LwscuweRJdAY1qmF5DeYNIX6vACj0B6nR6bQlElK1FEEuCc8YQ7oy+K3t
+ogl+xnyX9vIV85q0/88QXmikHLw46eNCsq5M5waeFbkg2ux0YTanClQQQ047prGe
+qTYhvS2mfCrfPxqXbd49N5eIDpxNFXmXlTrTKcP40MtWCq20auftkSjhOAT3DYFx
+SIqVNMRUrmpYN3DQ4HrfCSCRJqUDKsnpdxKrVuirImjWyiDmX+qjXtWVJC7bhPDJ
+J0nM2ny6tdxICqMsry79NyAHEL8dDPBc7V92At1uGKlAUGkNv5FzCC9d2w8ffdxA
+ubwaeo93Z1OpzRlQDl5+5O53vQyS9Vk6eDXSxiJNC4Yf2glZWgjQVsPSvOC3AQKZ
+Az86OtbVo/Oz5NB8iHc8n6m9nSjyX1SnuptRDONojblh4UrpnWext96SYRH1ErS/
+ku7jT+a4ajBYCJujvXhBmPk9
+=E+id
 -----END PGP SIGNATURE-----
 
---===============3560568027133724129==--
+--===============4158472296715948482==--
