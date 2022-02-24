@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 24 Feb 2022 22:17:55 -0000
-Message-Id: <164574107579.31646.8532280766379785481@gitolite.kernel.org>
+Date: Thu, 24 Feb 2022 22:28:15 -0000
+Message-Id: <164574169543.6542.7608988057997689731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 24066ca9586532fb7ab3b74f44acf22665a196a5
-    new: ee26bb171e1eb2e1645317799cedcbbb816cd84a
+    old: ee26bb171e1eb2e1645317799cedcbbb816cd84a
+    new: 00ad22335ab220b780a456f94e3589af63f2d04f
     log: |
-         ee26bb171e1eb2e1645317799cedcbbb816cd84a random: cleanup UUID handling
+         00ad22335ab220b780a456f94e3589af63f2d04f random: cleanup UUID handling
          
