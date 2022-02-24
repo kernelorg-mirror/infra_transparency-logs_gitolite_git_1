@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8470117140460097240=="
+Content-Type: multipart/mixed; boundary="===============8949446780455489831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 24 Feb 2022 04:17:44 -0000
-Message-Id: <164567626460.31114.8761322187027921378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Feb 2022 04:17:50 -0000
+Message-Id: <164567627034.31207.2618947964085091519@gitolite.kernel.org>
 
---===============8470117140460097240==
+--===============8949446780455489831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 4b0bec6088588a120d33db85b1f0d9f096d1df71
     new: c07ac3ee76e5e5506bca9c03fbbb15e40ab28430
     log: |
@@ -29,28 +29,28 @@ changes:
          c07ac3ee76e5e5506bca9c03fbbb15e40ab28430 ASoC: rt5682s: Fix the wrong jack type detected
          
 
---===============8470117140460097240==
+--===============8949446780455489831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645676263 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1645676262-4cfa28ef997a8e7625f449374452231d4ba5fa1d
+pusher C3F436CA30F5D8EB 1645676268 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645676268-915aeeab1eec46aa7d18e13f2255ef3d848225df
 
-4b0bec6088588a120d33db85b1f0d9f096d1df71 c07ac3ee76e5e5506bca9c03fbbb15e40ab28430 refs/heads/for-5.17
+4b0bec6088588a120d33db85b1f0d9f096d1df71 c07ac3ee76e5e5506bca9c03fbbb15e40ab28430 refs/heads/asoc-5.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIXBucACgkQJNaLcl1U
-h9BqyAf/eVWw3dniH5HtuhEB/33LVZ9kGv+jhmaReyKtK5qRfmlJ486o8L4bGIZd
-69YhtaK4PsDJL7+Qf/96MGcCopzcq566H2vCtYeOVhfU+L2LeNn38WBbYgFpr1Kw
-WlbHJyNCZ7X5/aeHZLCSHNFNdp5fwNk2ueDwR3UFA7ZjtS+YrO76zfbFiELZ+ZUp
-RAx6I/1QGceVqrr0EIi4vGSw8pJMcBu+GX/i7SgUw2hbHQVub0TGxw4w2G3Cp4aJ
-LQHDODzOZJDN/pCZe9lz5CVILN7y0/gNUX+hA7Y+x6j1n7Objcm1RxeeUnaxXpJm
-ERl9XuksFp8MmlYAwAD68nDJJYrdkg==
-=1zDp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIXBuwACgkQJNaLcl1U
+h9A9OQf/dIYvj8RKMq92alPendS4hE84Y6SE7QUS4SlWrtQyiIILqdWqo9iPv9j+
+pI89xzl4/sm8oSlzWX32gKr43mpdKp70P0OzorgFrPwmtZWeEqOqVZQdf7OuQqoz
+Z3hYNHOHydNBXJf623cAUnTms63S4fjac/Nichd0dUA0xg7dKjKTdvO0NT/YCBVl
+XFnpdxxjKKeKUzz7hni7PO0OoxpgTKLSfKpk3Ty0m7aDEX5fSDDMhC6vY2NgKYOx
+vMBGjMDGc6fLr6cJMNeHCc51NzAwAphIoZoQJZ2KAjnwtbRQF757UN9wke4lf0L/
+j052P5vtz/y+CGz4as1ypUAvv2i7vA==
+=aGJL
 -----END PGP SIGNATURE-----
 
---===============8470117140460097240==--
+--===============8949446780455489831==--
