@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0679947167389505304=="
+Content-Type: multipart/mixed; boundary="===============1836826993210413960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 24 Feb 2022 22:56:07 -0000
-Message-Id: <164574336782.25277.11448297389063915006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 24 Feb 2022 22:56:13 -0000
+Message-Id: <164574337371.25452.12927393911723700469@gitolite.kernel.org>
 
---===============0679947167389505304==
+--===============1836826993210413960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 4d986ffa036a773456476f70bd0fde2fb1330b7d
     new: 952b4b70ab4e7fbb857b3ea267d7d5abf9fe6048
     log: |
@@ -28,28 +28,28 @@ changes:
          952b4b70ab4e7fbb857b3ea267d7d5abf9fe6048 Tegra QUAD SPI ACPI & device support
          
 
---===============0679947167389505304==
+--===============1836826993210413960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1645743366 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1645743365-7af8ebcec71c6489b3a3f2faff5bcbed2dafa9dd
+pusher C3F436CA30F5D8EB 1645743372 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1645743371-8a204d0ad97a384e1477b568973229cec9713aba
 
-4d986ffa036a773456476f70bd0fde2fb1330b7d 952b4b70ab4e7fbb857b3ea267d7d5abf9fe6048 refs/heads/for-5.18
+4d986ffa036a773456476f70bd0fde2fb1330b7d 952b4b70ab4e7fbb857b3ea267d7d5abf9fe6048 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIYDQYACgkQJNaLcl1U
-h9DHZgf+Jcwzzr6QUBHN5GMraOjjXOw0aEAMscRUTIkKs7dKTn2O3YfbbDYMAB/+
-rCsPkeW5cowDinZGzW9rn0prFuG3vQbaxl30xtB9RJUUm/PgE/vjCK45kx127eE5
-Walj5+0AUbQhDr4pLDYwECvYWrwhXmZmPk3IOkcgoZJn8gEwkFRas+/4kvbBDb31
-cUdiVmYA5DRbR6afJLTiOK4Ko7XYwqKg3fEql/SEgFJHZi0ngVQUmVyfmckzAa4u
-nhNKo1g8M+SZsgU9k4ioWU8Yhr0BneTiXzuyM8Svs0yn5tNgVNqnbvauPdrnegim
-mqUATm3PXcdn509SRmTih+/vYtjucA==
-=o3ej
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIYDQwACgkQJNaLcl1U
+h9DC9Af/TdUGlB8gxHRf8AId19r1U7vwXk2tLYzZauq6C7HZbNgMBDBWFA2F8e4N
+4q0VVpkCX7B1FtAo6gtZhSMX3I6xAInwvMokD4WbzTg+drh968jDuim56lNwoexT
+q2hS+zB9v1GLgysDrbKRhaCtXRUNlPPwPzlm3NQzAj2VFrNDRzCRAswhaHm17Rlo
+y4KUNlTrh+bEtwYmuQKSYoFxDtAibiUn5+eG9hy3OTvQlwCpLYkxnNMQVALL0gJW
++88IiLYpUnAK4m7vfntz81ioVrWeTcRmy1329w9Rtv1uaqEzzScVOXYQXV+0z62c
+enarUw5icCd5m4hYWXteO5fABt/FgQ==
+=Xb37
 -----END PGP SIGNATURE-----
 
---===============0679947167389505304==--
+--===============1836826993210413960==--
