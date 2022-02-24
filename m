@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 24 Feb 2022 23:21:33 -0000
-Message-Id: <164574489308.8385.13672127956297049056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 24 Feb 2022 23:25:47 -0000
+Message-Id: <164574514789.12321.10099810816972728883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 021d358c3e702c53f8fb10cdfc2f037a1c396b32
-    new: d20a747cd1a8a9b35239c4cc0d6e8b331679560b
+  - ref: refs/heads/for-next
+    old: bf19347a78563c1aa31598ca1332f309270f770c
+    new: f03511c4f2b5a661adafc9827b0d4985e87aff4e
     log: |
-         d20a747cd1a8a9b35239c4cc0d6e8b331679560b Thu Feb 24 11:20:55 PM UTC 2022
+         3cc8cd2d25954ed5794df2d190b81c7325c584e3 arm64: dts: rockchip: add naneng combo phy nodes for rk3568
+         f03511c4f2b5a661adafc9827b0d4985e87aff4e Merge branch 'v5.18-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v5.18-armsoc/dts64
+    old: a0024f55eb5b741b76a0b950f1222ddbab6a9fc9
+    new: 3cc8cd2d25954ed5794df2d190b81c7325c584e3
+    log: |
+         3cc8cd2d25954ed5794df2d190b81c7325c584e3 arm64: dts: rockchip: add naneng combo phy nodes for rk3568
          
