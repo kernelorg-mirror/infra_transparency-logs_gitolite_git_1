@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Thu, 24 Feb 2022 16:04:19 -0000
-Message-Id: <164571865937.16754.16932512656323122943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Thu, 24 Feb 2022 16:20:05 -0000
+Message-Id: <164571960580.27433.6935213733129337930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/for-next
-    old: 791461c598ab8f034405fd1e966e28062339a07b
-    new: ab135102861ce2198a0c7898206e00bc41e52ade
+  - ref: refs/heads/master-pending
+    old: c3e46ec5302ea2189dec9bf6d97bfe1aa8281057
+    new: 35313606d5ffe932f3128d977514bac8fb85bfef
     log: |
-         ab135102861ce2198a0c7898206e00bc41e52ade ucounts: Fix systemd LimigtNPROC with private users regression
+         dfc438d224e4ad756b276d79e5771c45b523156d Revert "ath: add support for special 0x0 regulatory domain"
+         35313606d5ffe932f3128d977514bac8fb85bfef Merge branch 'pending' into master-pending
          
-  - ref: refs/heads/ucount-rlimit-fixes-for-v5.17
-    old: 791461c598ab8f034405fd1e966e28062339a07b
-    new: ab135102861ce2198a0c7898206e00bc41e52ade
+  - ref: refs/heads/pending
+    old: a70bb2b37151481ecf2f9200668de12eb46a9712
+    new: dfc438d224e4ad756b276d79e5771c45b523156d
     log: |
-         ab135102861ce2198a0c7898206e00bc41e52ade ucounts: Fix systemd LimigtNPROC with private users regression
+         dfc438d224e4ad756b276d79e5771c45b523156d Revert "ath: add support for special 0x0 regulatory domain"
          
