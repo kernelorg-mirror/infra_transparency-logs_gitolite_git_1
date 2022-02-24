@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1772417585882542476=="
+Content-Type: multipart/mixed; boundary="===============0571921252965457223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Thu, 24 Feb 2022 18:32:25 -0000
-Message-Id: <164572754588.16673.5408639434899494700@gitolite.kernel.org>
+Date: Thu, 24 Feb 2022 18:34:32 -0000
+Message-Id: <164572767210.17347.6790878927459051716@gitolite.kernel.org>
 
---===============1772417585882542476==
+--===============0571921252965457223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-dt
-    old: 078c2a0e8e60bb3fe78cf50b5da1620a4e13e0cd
-    new: 85aa52c46d5e8461eb2b87f8558e89cb83e4ab29
-    log: revlist-078c2a0e8e60-85aa52c46d5e.txt
+  - ref: refs/heads/at91-next
+    old: 9be3df0e718c07dcf5b34c6c1c8f96e774d1b392
+    new: 2ada3c963e162a785f98580b02129fa6070cfe0a
+    log: revlist-9be3df0e718c-2ada3c963e16.txt
 
---===============1772417585882542476==
+--===============0571921252965457223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-078c2a0e8e60-85aa52c46d5e.txt
+Content-Disposition: attachment; filename=revlist-9be3df0e718c-2ada3c963e16.txt
 
-ca2c9b76bc3c75ac116ef199b75e7ca4e27e7acb perf stat: Add aggr creators that are passed a cpu
 01843ca0197783d0951a1948ebeaaed9a47ce55d perf stat: Correct aggregation CPU map
 a023283fadef8a3f6916ba2b0c37955d76ffaf4d perf stat: Switch aggregation to use for_each loop
 88031a0de7d68d132014154b9e5307428e8ed70d perf stat: Switch to cpu version of cpu_map__get()
@@ -1050,5 +1049,6 @@ ca61eebc0f2cb7cff65ed14cb79d57cf7d67eb38 ARM: dts: at91: sama7g5: Enable can0 an
 ee45f377838a183fe22346c1d936c6b9892de709 ARM: dts: at91: fix low limit for CPU regulator
 f5453abbe945835166a764c677e3a55e30ba04ce ARM: dts: at91: sama7g5ek: set regulator voltages for standby state
 85aa52c46d5e8461eb2b87f8558e89cb83e4ab29 ARM: dts: at91: sama7g5: add opps
+2ada3c963e162a785f98580b02129fa6070cfe0a Merge branch 'at91-dt' into at91-next
 
---===============1772417585882542476==--
+--===============0571921252965457223==--
