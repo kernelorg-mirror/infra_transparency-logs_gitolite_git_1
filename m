@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 25 Feb 2022 10:39:49 -0000
-Message-Id: <164578558916.8793.13892508465794834149@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 10:42:26 -0000
+Message-Id: <164578574629.11118.649534336688186225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: dcf4ff7a48e7598e6b10126cc02177abb8ae4f3f
-    new: 087a7b944c5db409f7c1a68bf4896c56ba54eaff
+    old: 087a7b944c5db409f7c1a68bf4896c56ba54eaff
+    new: 9f1c50cf39167ff71dc5953a3234f3f6eeb8fcb5
     log: |
-         087a7b944c5db409f7c1a68bf4896c56ba54eaff net: stmmac: only enable DMA interrupts when ready
+         9f1c50cf39167ff71dc5953a3234f3f6eeb8fcb5 net/smc: fix connection leak
          
