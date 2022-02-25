@@ -1,14 +1,14 @@
-Content-Type: multipart/mixed; boundary="===============8371723836400091051=="
+Content-Type: multipart/mixed; boundary="===============0201860943084412953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 25 Feb 2022 09:20:52 -0000
-Message-Id: <164578085299.8144.7845511564913084708@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 09:24:10 -0000
+Message-Id: <164578105007.10560.97102868845059334@gitolite.kernel.org>
 
---===============8371723836400091051==
-Content-Type: text/plain; charset="us-ascii"
+--===============0201860943084412953==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: a603ca60cebff8589882427a67f870ed946b3fc8
-    new: 787779f8afe71b7249ce482129585cbbfd450bd2
+    old: 787779f8afe71b7249ce482129585cbbfd450bd2
+    new: 932d596378b0253354246f4aa3662add4883a167
     log: |
-         bb5f36c31414c77e204edc7e28d95115c9daa5ff ia64: termbits.h is identical to asm-generic one
-         787779f8afe71b7249ce482129585cbbfd450bd2 xtensa: termbits.h is identical to asm-generic one
+         52fa786609dc142050b590148b7b9cd63bcdc413 MAINTAINERS: Add Pali Rohár as mvebu-uart.c maintainer
+         932d596378b0253354246f4aa3662add4883a167 serial: 8250: Return early in .start_tx() if there are no chars to send
          
 
---===============8371723836400091051==
+--===============0201860943084412953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645780852 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645781046 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1645780851-a00da16f04a0ea3d8fcb11a8ac3dd43994cdbee0
+nonce 1645781046-f595360151be81791866497a772f47c6e43b77c9
 
-a603ca60cebff8589882427a67f870ed946b3fc8 787779f8afe71b7249ce482129585cbbfd450bd2 refs/heads/tty-testing
+787779f8afe71b7249ce482129585cbbfd450bd2 932d596378b0253354246f4aa3662add4883a167 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYn3QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qDgP/Rd2AsZ5Mc+Lg2kbpx4X
-rQoqFmTeKTCm1PfNsNZD5+XBltjJLkvAEL5xQSmCcXdlc/Y24npwox4r6dy0q+1X
-PNdL+YCtQ3HsRMa1nn4cR+7iURil6JR7rXZQ8mT+gZaWoDZd1KBFNH3NvCIdiLDN
-wdtFkviIdjEMo7dqsSCZIcwfYxYIj+VAKUNjHk9xJuq/P8Gtn2uFUjqv6PyEVzVc
-AiFe9gw5kIb0guStM0UraEadktRFhkcdSG42JGUAGv3OoS1ixMvHkuxDLOEetHz0
-i7dz9vjzfVe7Z6q6bAL7z6f9I34HZvlZr9/fSkcLM4FJA2iDw05zs3uzWRp5Medo
-vbwnCNp30s524/uPExs4gt2BhSGTuJi9qXP7frqi8QZ6eNCYcZ2VuPe7VvM+Ecju
-giRtzB37da3KNVS+zaMOXtoS1qmqiCPOKJ+c4ewAfwh5e82JzC0U6g76DrVqXDuM
-NG/u9vBiROsQI1QcGr+5qqadgcgQ7ExzgoSuoa+lJZbGByAnN9Qy4dNDcmJadWzY
-XN4fljiqaBNQ3IJhrUcOTUl7zMP+KAAZyS0ukp4sHoq1cgev3anp0QXJO23nH+f+
-6hAwVZrj13u1f3QRoHnAL31Ncb6rC+e0Ybdsj803806MebFCDEbo5upweQsfMBR+
-koGwRoxL4yXhoTT/Jx4jVGA9
-=QUjm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYoDYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FhAP/3xlqCf6P5+5u8OFguN8
+zb7Jxu0t11zr6Tluw+F/NwrFpnil3K9jdWbdsm0WaLAnGvwcso+shpnVtSfgo/VK
+kImA3LZQKvPjLj4O+YxLv8gyIhA11CtICZaJ0B9NhB7JJeQTtXGygLu74h/7jScP
+TaKaT6wU3ghOPlEEpQsyQJfv1iKBvKRwsWDXdkjKpFDF0gcu2WrPJpE7IER91//J
+jN6yd4KxfT3P9UkT4MHNbDmtO2zpTuYfM9UaQCYettlgUP+vRJ7Un1MCVYEDfEP6
+PqAx+8sw3hEjJCxZaOMZ9sYVcrXs3EQIZ7uaLzTXkwBQDlQVPOh0TIbFpnM5dZ7Z
+X5NwlQhZgawbslCCvkHxBJD1mY+Lu3zotn38ytctUUdmZBSMsjcrPmhs4y6iYoD5
+dvu0HjcpW1ZNMdd+k6g6rxISawChNz2hqCDqFZ/Xvlnu4iMnMUMgtwLe5amykH3I
+m0UXErtFArkzByLilmIt9f62ehvWtoPesw7g9pk3FyqKQkX8XFCxggMsGASRKVxL
+tB6yiCr6LvFccSG6jCP0GE9hCGWpQAWUVfDsfv6g2QGLahYIY9oM1o4wIkzqSIJX
+qk8IqM5BqLSk8HVxnKm/A7x8CnXDvAGJDV61VxlthRDo8lGPyImlcmXXFWJEvVrJ
+OXhWhldGYGNovIuir8CaXr/A
+=cKen
 -----END PGP SIGNATURE-----
 
---===============8371723836400091051==--
+--===============0201860943084412953==--
