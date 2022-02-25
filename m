@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0498245427086796809=="
+Content-Type: multipart/mixed; boundary="===============7691864596974975113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Fri, 25 Feb 2022 10:17:35 -0000
-Message-Id: <164578425535.27122.8548526625120156424@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 10:18:07 -0000
+Message-Id: <164578428748.27366.6599357227625077869@gitolite.kernel.org>
 
---===============0498245427086796809==
+--===============7691864596974975113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/asm-generic
+  - ref: refs/heads/master
     old: 45d9de484a57be37a3730f32682943b643a4785a
     new: dd865f090f0382ba9e74dc4fe1008c08a67a6fca
     log: revlist-45d9de484a57-dd865f090f03.txt
 
---===============0498245427086796809==
+--===============7691864596974975113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ e5ef21d139957b8d064fefb7db42d1525605dd98 ia64: remove CONFIG_SET_FS support
 967747bbc084b93b54e66f9047d342232314cd25 uaccess: remove CONFIG_SET_FS
 dd865f090f0382ba9e74dc4fe1008c08a67a6fca Merge branch 'set_fs-4' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic into asm-generic
 
---===============0498245427086796809==--
+--===============7691864596974975113==--
