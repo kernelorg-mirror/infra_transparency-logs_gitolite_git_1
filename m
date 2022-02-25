@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7180899079775649703=="
+Content-Type: multipart/mixed; boundary="===============4488152810860526486=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 25 Feb 2022 09:08:50 -0000
-Message-Id: <164578013002.32344.6490676638906020896@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 09:09:14 -0000
+Message-Id: <164578015428.32562.16167507750567045994@gitolite.kernel.org>
 
---===============7180899079775649703==
+--===============4488152810860526486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea
-    new: 57078a3c2e24fcc1ee8b7d44b69d27dba41c6598
+    old: 57078a3c2e24fcc1ee8b7d44b69d27dba41c6598
+    new: 91c9ba35bb0695279c6924ef7e364196ce59a7c6
     log: |
-         57cbe4277d3420ea94142fbb162116030d4035f3 staging: r8188eu: remove unused variable from UpdateHalRAMask8188EUsb
-         6f29d72d2b7ae4caba2d9e578424ed32ba66ec3e staging: r8188eu: remove 5 GHz channels from ch_freq_map
-         b052de6526383a7199079ae68afd92f9187c0862 staging: r8188eu: refactor rtw_ch2freq()
-         91b0ad05b6fd5761afc86dafaa8403cf457f4519 staging: r8188eu: clean up rtw_rf.c
-         8beb52f6baf5b5510c4978df406255ea42efe7e8 staging: r8188eu: remove redundant variable reg_0x143
-         cf38b73e48798e333271a0a42c45bea7c23ffc52 staging: rtl8192u: fix broken debug macro
-         907f6fae37cd65b036fd257b15ab5222a2f13ca5 staging: rtl8192u: add empty debug functions
-         57078a3c2e24fcc1ee8b7d44b69d27dba41c6598 staging: rtl8192u: rework init and exit function
+         91c9ba35bb0695279c6924ef7e364196ce59a7c6 staging: pi433: add index value to write dev_dbg statement
          
 
---===============7180899079775649703==
+--===============4488152810860526486==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645780127 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645780152 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1645780127-3e97d996ac558839a524aa6e0aef7259b09de546
+nonce 1645780152-1850dfc3c6d5345458ff25cbde8aa89e94820e39
 
-d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea 57078a3c2e24fcc1ee8b7d44b69d27dba41c6598 refs/heads/staging-testing
+57078a3c2e24fcc1ee8b7d44b69d27dba41c6598 91c9ba35bb0695279c6924ef7e364196ce59a7c6 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYnJ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zyMP/RDOwT4WcL87CwflBhLy
-dPL6lrTTwuS1shiD0wRL9Mj3O5fqD2dfIfc4pnrA0UIL/I4yo/HnJcRhMAVGVKrS
-DDquoaI9oOcN7q972VCRIX2XR6StR0f71hZVRWuAy9K4ThCN/R8GWnOKVRcWJW7j
-SycVxta0DahX13UaXWxnLk4r7K/xa6KsDdGqIVkTD/ZebFp0pXhtbEG0eGx/TUXD
-s1RlqEfwHQcR6J4tPWoXaj5cKFEsuQqdjtNvZXwtkdblq3vSkHOTLSF0qMF/uc/6
-EIS56bQYujOoJm0vk15w3cv2oEDAxitmffZPkcAjkwJAeibv6dw/2rkRd3iZXCp6
-qYXjdxws+PtYSww3vvNBz7vwciPCu3MMS+K0OREUtcmDoOX6L3yMNj2WT/EhVLCj
-eOqlr7VbgmccYXj0euFvrdpnFXCc4urGPNYMFvNBivrpgMfOt1iNVVvUM/sBZw5Q
-MP6Rg/uV6he1a8+Mb5k+UV9td2SSG5I/eBFMjga+FdyLdltUQSR8ozoESYFwmLkj
-fpCICn/YnFuDw6UHXicSyVlg3digWBBMIvbzi5plIIT7ekyThDYU0wKy5yjgu9FV
-emPE+/QVlRJEF+gZRFDEl6Y0hJCcq3OXW5NkwHTuIwn+dGZ7CRmVra8ZtBWFkrC1
-pSOePaal/QwktXPtLgSBqI5+
-=7w5d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYnLgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XHcP/3IMEpz+WFQc5I8xK8fA
+MIio9vx1WIgxNLgvHprzxUTmQ9PbNieMJZScrMGIan23O0+N/e2RZNByMC3vJFbr
+wTunAPZkFWiApkJxNvC0aAaqe/OtL7WkDF+pOy5nvVLY7D4pH2aXTE0kZnveN2ab
+acmh1C0OvjGweFbh0eXGeur+D7kiW+RZlk5Q2jnFB44X/r2Hz4ujXJvqWOLJsApq
+rOhyTSuTgBaYYAfulY0FugPPQSHRf7x5m84+p5ZYmFLtGd+zFG4O400uoiZt6zyE
+MZ/5Hibjq7YDxPZ6Tt1kRNGP2hHc4UXXprSCNgLUdSn4CBVchKCf7TRBSV4vXzpV
+EaCtR/HeijXzET/2XPKo1OMbX7s0OTLmNaaUuZaDRJoOrWXwQo4abMHgdgNr5t8V
+6E0IvSFvtcoFKD09ZyzvmlcVLbAnLRccFsqNbrq1/eO4sVV5qqcZiP+QrtkRSQ1v
+48W42bruQOg6BFejchcQa6rl8bFevIZKrmiFJp5WgFHrGSBHCbwIp5F17SFgqTq7
+u6AI6J1ESrPA3Exzxw6qjDwiEIoprERq8sworHrgcr0QJVZmndU+DjjNgkESLgOg
+zSBXHeUkh5t3GP0btzJVphBuHxT7k9k69rZ42ul9br07FzB9qAmZ7dLX4a4otl6z
+EAmeNGIDcMgDTN+7nDObOex2
+=RvBS
 -----END PGP SIGNATURE-----
 
---===============7180899079775649703==--
+--===============4488152810860526486==--
