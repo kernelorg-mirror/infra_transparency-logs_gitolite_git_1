@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Fri, 25 Feb 2022 18:26:39 -0000
-Message-Id: <164581359997.3386.2709150450169527529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 25 Feb 2022 18:31:47 -0000
+Message-Id: <164581390748.6521.6631328492737002930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djbw
 changes:
-  - ref: refs/heads/master
-    old: c0529aa9bfa5676ff9934b1a75543f13735666c5
-    new: d54207b61470109003e4a9ee087e7d81306e5654
+  - ref: refs/heads/preview
+    old: 5bc8110e536d2b1c9a18777eb7576fb4c9dac8a3
+    new: 9b688fc651b9d2b633e8d959454670aba1c39162
     log: |
-         d54207b61470109003e4a9ee087e7d81306e5654 virt: vmgenid: introduce driver for reinitializing RNG on VM fork
+         9b688fc651b9d2b633e8d959454670aba1c39162 cxl/hdm: Fix size_hi programming
          
