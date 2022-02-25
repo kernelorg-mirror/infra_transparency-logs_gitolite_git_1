@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0297493018415084731=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 25 Feb 2022 22:45:33 -0000
-Message-Id: <164582913370.8669.8613527099820047550@gitolite.kernel.org>
-
---===============0297493018415084731==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 25 Feb 2022 22:50:03 -0000
+Message-Id: <164582940325.11549.9971314598451265772@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/topic-rpc-with-tls-upcall
-    old: 584c1eeb2aba2cf1a48e390c8952ea5fd8d15197
-    new: 36249436901778914f5c664c27ce5e7f684df25c
-    log: revlist-584c1eeb2aba-362494369017.txt
-
---===============0297493018415084731==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-584c1eeb2aba-362494369017.txt
-
-bc395b2b3b94513474efe071fa7c8f7405dc8cb7 SUNRPC: Expose TLS policy via the rpc_create() API
-b4c0ac43fd8a0e0af3f92aaf05fdb77992e34754 SUNRPC: Add infrastructure for async RPC_AUTH_TLS probe
-e6554e24a0f2f597254562b1a3a2202effe514a2 SUNRPC: Add FSM machinery to handle RPC_AUTH_TLS on reconnect
-9c4b0f2b5d9c89191a449b90a66170b0a9392296 NFS: Replace fs_context-related dprintk() call sites with tracepoints
-0e505e4ac27c6e2f25d3823ea6e157e2c6d8d5ea NFS: Have struct nfs_client carry a TLS policy field
-d26179225e17af97232bf1300efbeca5027a4217 NFS: Add a "tls=" NFS mount option
-ea23a3623f21a2e9a05dba9fdb7016d9633c418f lockd: Pass "tls=" mount option setting to NLM
-ec2a29eb6dd537d567740baa8fcfbf774616555f net: Add distinct sk_psock field
-112a770c5894381df78ab4a7c9e3e29e59abf2a7 net/tls: Add an AF_TLSH address family
-bac8b85359ad654831dd314de4e65996e7702cc4 net/tls: Add support for PF_TLSH (a TLS handshake listener)
-4543edd5976bdd62f01f173349bfaded55009f1c net/tls: Add some observability for AF_TLSH sockets
-0857bafd7393d2c38129228c745db6a2712c12ba SUNRPC: RPC client support for TLS handshake upcall
-36249436901778914f5c664c27ce5e7f684df25c SUNRPC: Capture cmsg metadata on client-side receive
-
---===============0297493018415084731==--
+  - ref: refs/heads/arm/defconfig
+    old: a1c57d7e77ed427dccdd2eeb9e9cfc2eb05b992e
+    new: eeac19a4d398e77bd61f0f69703e490b405b0446
+    log: |
+         485d710685b1a914230f9c18db9fbb9d08e16475 arm64: defconfig: Enable Audio Graph Card2 driver
+         3cff3c099fcd7cb7c1f326bc8e54c2e57f55f48e ARM: shmobile: defconfig: Disable unneeded 8250 serial options
+         2e8a3335472461927e57d1741ccf1791ff416075 arm64: defconfig: Enable additional support for Renesas platforms
+         0917b5bdbe4bfb7927d8dc2c1939f6736d561644 Merge tag 'renesas-arm-defconfig-for-v5.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/defconfig
+         3ed58ac3fac1227c8d270063fb97f0e3c1192a4d ARM: multi_v7_defconfig: Enable Broadcom STB USB drivers
+         eeac19a4d398e77bd61f0f69703e490b405b0446 ARM: multi_v7_defconfig: Enable BCM23550 and BCM53573
+         
