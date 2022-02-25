@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Fri, 25 Feb 2022 00:55:27 -0000
-Message-Id: <164575052713.6223.6554949059078108179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 25 Feb 2022 00:57:05 -0000
+Message-Id: <164575062513.6875.9015409255360125845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/nios2_for_v5.18
-    old: 93f855e6fb4f59a4daea74f5c6859a4e41493be4
-    new: 048b7695b48a3a4523a7a7fbfedc396b40ccf62f
+  - ref: refs/heads/clk-fixes
+    old: 6e6fec3f961c00ca34ffb4bf2ad9febb4b499f8d
+    new: aa091a6a91df395a0fa00a808a543301ec99e734
     log: |
-         048b7695b48a3a4523a7a7fbfedc396b40ccf62f uaccess: drop maining CONFIG_SET_FS users
+         aa091a6a91df395a0fa00a808a543301ec99e734 clk: lan966x: Fix linking error
+         
+  - ref: refs/heads/clk-next
+    old: 356a8666263c09d0fba84e344fc910f4c316caac
+    new: 7da5e77a1b5fc58c78f0e16ebf1068febda799a0
+    log: |
+         aa091a6a91df395a0fa00a808a543301ec99e734 clk: lan966x: Fix linking error
+         7da5e77a1b5fc58c78f0e16ebf1068febda799a0 Merge branch 'clk-fixes' into clk-next
          
