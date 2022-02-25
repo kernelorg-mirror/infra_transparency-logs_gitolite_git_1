@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2341286876549788204=="
+Content-Type: multipart/mixed; boundary="===============7882123297517536703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 25 Feb 2022 09:34:04 -0000
-Message-Id: <164578164487.17066.11579771307263632956@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 09:35:46 -0000
+Message-Id: <164578174669.19046.6874245337332354494@gitolite.kernel.org>
 
---===============2341286876549788204==
+--===============7882123297517536703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: c77a6ac84085c0f27209f6f26c271d20f8e74f93
-    new: 6ba6351b023eb8a6e8919f4aa5b85241b2025ca2
+    old: 6ba6351b023eb8a6e8919f4aa5b85241b2025ca2
+    new: c5e453f9c9a97c03d6c050a2bfbe6859fe1d9d5a
     log: |
-         6ba6351b023eb8a6e8919f4aa5b85241b2025ca2 serial: 8250: Correct Kconfig help text for blacklisted PCI devices
+         c5e453f9c9a97c03d6c050a2bfbe6859fe1d9d5a serial: 8250_aspeed_vuart: replace snprintf with sysfs_emit
          
 
---===============2341286876549788204==
+--===============7882123297517536703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645781643 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645781745 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1645781643-5a58b30d29d792f57dd6ecf69b0d4d97bf12ca10
+nonce 1645781745-1acabdab71c1a08c21b8af41b57907345a1addf6
 
-c77a6ac84085c0f27209f6f26c271d20f8e74f93 6ba6351b023eb8a6e8919f4aa5b85241b2025ca2 refs/heads/tty-testing
+6ba6351b023eb8a6e8919f4aa5b85241b2025ca2 c5e453f9c9a97c03d6c050a2bfbe6859fe1d9d5a refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYoosbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m5wQAM+1zFw6xT8V2iNKg1Xn
-pywZ9RlPxQSxQcH0xjueNLnfEE55VzZZxiBQgVvQz5/+7U0PxemC8FvQ90Pe4fEA
-2zAaUDGdvdrnfs/hgjT49cnZqgHoVo11F4ObHVNnc7OIsI0x1U23Y+XoDTyaaXXL
-TgPy1aw0uZD+vkYfSUp5PhA5Ec2TnctepSL8sFIiDWLSMdzIfjm6mz8UpI+A4pJb
-K/XJQGhpzYFu40BarRrvOnPtyPj4eXWEyVh6lxAY2ktoFt8azqJRd+Vap23FdX/m
-tFpszGZQgTWaYWVRJzlQmJOlMHU+7E8/GmPWlhLA7jJyEzwtRC3Fyq0MZ5BZ2t7O
-HyCMCyfluozhj+tXQ/A+RwVWYN9nWsqfv3F/eBsqk5+q0/ukzPqkyzLpdQodPSdl
-n//LWcvQIFFWdnoWkIuISDfVMl7kEorioI+aEBdMzr8/g5dkHveJKgAnOtkBS4/7
-nuUkgXwxghqTSRw3dwBHnMO6AdG2QVxsFfBSRvV+PHV4dURT3YYg57wEeAmAeJjc
-H8lHULFkVMfFIiA9+aoa3shudqyNu2SX7Tgi4LZoPd+MJ6CyDo4ebMqPV/ymIp0N
-mYfC5l4gMJKafJgGNI52PGVvrnwLppnfTH66LLu7WCCwbHZwShuRTBybkggAofVh
-E6XrqZOw2tfjr2Zyz5gfA0vf
-=WYUK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYovEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xz8P/A7Ow0JR3CDfUvhp7bye
+68mu290EhLSNsb7nd7uraDfLLYK/MDCP92AZotKOBj9SFc4yIFLCY1ADv7KeGt0H
+ylUAZiG7D4DTKN1cIUeAJYtiyiaHQdP76sik1gf6jo6H/sYTzVspX9evBUb4IiBe
+PtnLUcqUo9JW+KkXs58y3Zp4A0Ngjz/gR83U0CM8QdaQqOvrglsFT2t/vhHbm5U9
+yC8GwSg+QeC/ninK/mOZtKOsby+2Ut4ISAsp1tety78f1JiZT0wTQsGsbGE3x/je
+tirqv42S+oAhQGDZdaEBSCMiYoNbYoxOVb6iC3GfHytsnPOT6DQamrnetn4M7s7Q
+7pYbw7beTo+qfSKIpYv/X7qQKDGyMmd2EOQfcwFVymDL9csGrRPvFgb17MRXe+aY
+VecquM85uTDxuVWO3lk9Ig9+8LxZ7h9ccmcU0jkoizOvQfTJcaezDu8oHgmomUAW
+l8T3ClmuhibtlqQgFf4M7GxHeK7DKvHtXCu5WTJFemZiQ7yDhtgVV7YBrJnwgFEN
+N+52CHqNpUz5KZ0d8DGq8Z3yPuonagkwHnMKzfjJglyyGLw9Tl3ReV0wB9uZT2j1
+uZSiw2Kb55WLsGGeRg4rYLL/eoN+fKiPJhLIwDp04nvNI4kldfRYgjGVEgXLqziQ
+RVW5pPEVagtaqE1pLlWfJB1I
+=5fz2
 -----END PGP SIGNATURE-----
 
---===============2341286876549788204==--
+--===============7882123297517536703==--
