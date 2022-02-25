@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3470645794298286562=="
+Content-Type: multipart/mixed; boundary="===============8296896714690092454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 25 Feb 2022 10:58:11 -0000
-Message-Id: <164578669124.22005.6340076940296251008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 25 Feb 2022 10:59:30 -0000
+Message-Id: <164578677036.22498.1733312309169235376@gitolite.kernel.org>
 
---===============3470645794298286562==
+--===============8296896714690092454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: f909805d5e0e32c002499b1d3837567d72fe8d58
-    new: 53d2fe589e62c9a7d3b679c1b9cc493a2d7e7d0b
+  - ref: refs/heads/driver-core-testing
+    old: f2eb478f2f322217aa642e11c1cc011f99c797e6
+    new: 8bcbde2bb1374112264826aa26ff959149f318e4
     log: |
-         53d2fe589e62c9a7d3b679c1b9cc493a2d7e7d0b 5.16-stable patches
+         8bcbde2bb1374112264826aa26ff959149f318e4 debugfs: Document that debugfs_create functions need not be error checked
          
 
---===============3470645794298286562==
+--===============8296896714690092454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645786690 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1645786689-dee486933b6b0cc37764d43018e226165d1851f2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645786768 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1645786767-5e370ce7c3b8cfe42aebce6a8e5eb15756553ec0
 
-f909805d5e0e32c002499b1d3837567d72fe8d58 53d2fe589e62c9a7d3b679c1b9cc493a2d7e7d0b refs/heads/master
+f2eb478f2f322217aa642e11c1cc011f99c797e6 8bcbde2bb1374112264826aa26ff959149f318e4 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYtkIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AisQAJnyEtpEefjoPNEvzdcz
-RPQ647xTyh3jmTC/GteRq+S/OkxGHpjGAeCVUugoi59TUo02cy8rr7mEbki2aDo2
-0qppDApU/HXbfzizHsGeuvSxgTdzLyKRuiCuJcqN/WWkFeYfr+c1Yd96diNCx2vk
-ctZOsOKUv6bppNPRug3LnEIVOk7oGDQpVM4MghKZ/39nhEGbP6QYfYBVHNW+p4od
-On01eWD0dQ5ekaYHKDHjPXEa+qSGcAqSwGDyifOK6PYHTZ/a2onZWCZzg85yHBX2
-vNNve/GNmyg2NugxjiJKFLBmUUtj0VfDZryuX/d0c+A+VV6FzMKtH74DK4YVzYax
-FvhtDzH4rFwOYEpuAmqqvvz5bDu3KuVMyIWPKGST5xKsymUsIbBHuf1m9ePpVqOH
-XttXx/gTtZYjy4wrRK2FHoE/8fMZvRB+Nm2Tu3ZHULyVO4euNvFQsEVBia6M7uuh
-RL+BdfReWzi/YnLb+mLgjvNLc/m6M9K0mCHEufZN1se7n48FAOgDp1Idsnv2An+A
-gQNshd1sVIFVtQXZBqWvME/9q34g2Pzp/9+grVD4p7ujt/tj5GvOUWLfI3gbSZ0L
-GgKMzdYcnVA0kR/jAJkefbR486qlWUkTN1uEhWS/kG0GyXkZCvkqYlCaKDCvsShb
-yRtWMWvq3AuSz/5X0jnRgSXq
-=KZVH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYtpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5koQAL2E7S3PVsXe13237R1l
+Y/qfpdPwWGnU7KutGBQwJpeuSnNwVX1MFBF4vaFEav8MsUbwQ+PSQdD344hR++b5
+x5xUbEuJ4JGTj3PVzaQEafd0X7PFFdTGRi8NmcrABtkhufLHtiaMURackYDh4qIo
+YTvz2Py/QvIFkCqV1txd0AR6DiwaTsjf2Ev8gGjThe+09YN9dQwvdZ8ndRj3Fv20
+epBfoIZ7700TVpoVyI6tTgW9J7g/JnVsLlf81qeL1jdU+PI2N7EU8H/1EaI3mhvg
+a3Xz2CiAl+DmfBVmdmzdbQIwyF5IoWza+lovQSxSbri1vqS+u/HGH9lUz3mVOU0h
+R5jSaX6GmgNF4UW45qGLbBq5+0JOHQc8TcjOwKGF09gzAbJ9ELBsK9WSoaMaPnHB
+VZHOiIK2HNqM4Funj4fbJgH1ydHgzeB+GR6TNKd+IAG0kjKRSrG+C8woEVPsT5au
+MI6+Sv0juCAP4V3F3EggEcFBVieBzN+cCbEd8fjWAcvbE/HO8oOIaLPgxl2tKIKA
+UREnSi/i2Cw1rx+DQNrwrERt5BBnsCsIBBHJWJ6TBfDvOp6MVkxrbCmLXRwXy0Do
+bZZ/T1p9nPN0fPL9g0wEfcqoDJYxQH9oAsDJeEqEa02sssIfOECv6gd6GpuMsFGC
+f796gASbpMQcKsfljEOA4Ns2
+=I80S
 -----END PGP SIGNATURE-----
 
---===============3470645794298286562==--
+--===============8296896714690092454==--
