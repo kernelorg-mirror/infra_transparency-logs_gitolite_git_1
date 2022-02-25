@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Feb 2022 13:53:08 -0000
-Message-Id: <164579718866.12761.6005750939427871892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Fri, 25 Feb 2022 14:02:28 -0000
+Message-Id: <164579774808.18570.11111741763931398603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/v4_20220225_quic_srivasam_add_power_domains_support_for_digital_macro_codecs
-    old: 0000000000000000000000000000000000000000
-    new: 023f15dce33cb4eb91eeeb2941f5f70d7d0f4f43
+  - ref: refs/heads/next
+    old: 32942d33d63d27714ed16a4176e5a99547adb6e0
+    new: 9a4556dad7bd0a6b8339cb72e169f5c76f2af6f1
+    log: |
+         4bf18d5a2dd02db8c5b16a2cfae513510506df5b phy: marvell: phy-mvebu-a3700-comphy: Remove port from driver configuration
+         934337080c6c59b75db76b180b509f218640ad48 phy: marvell: phy-mvebu-a3700-comphy: Add native kernel implementation
+         ee995101fde67f85a3cd4c74f4f92fc4592e726b Revert "ata: ahci: mvebu: Make SATA PHY optional for Armada 3720"
+         8e10548f7f4814e530857d2049d6af6bc78add53 Revert "usb: host: xhci: mvebu: make USB 3.0 PHY optional for Armada 3720"
+         9a4556dad7bd0a6b8339cb72e169f5c76f2af6f1 Revert "PCI: aardvark: Fix initialization with old Marvell's Arm Trusted Firmware"
+         
