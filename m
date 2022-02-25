@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 25 Feb 2022 02:22:26 -0000
-Message-Id: <164575574689.4277.8011042946699924470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 25 Feb 2022 03:15:09 -0000
+Message-Id: <164575890979.4961.12874855775574630693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: d8152cfe2f21d6930c680311b03b169899c8d2a0
-    new: 8a7271000b915bd6301866699c54c1e11885bc84
+  - ref: refs/heads/fixes
+    old: 5feef64f4c67068c49f5409d43c67cabf2327f66
+    new: 9ddbdb9f3777df369333db47ec2e2c5d05862654
     log: |
-         dd3b1dc3dd050f1f47cd13e300732852414270f8 Bluetooth: hci_core: Fix leaking sent_cmd skb
-         fa78d2d1d64f147062e384a4a10a26a5f89944b5 Bluetooth: fix data races in smp_unregister(), smp_del_chan()
-         29fb608396d6a62c1b85acc421ad7a4399085b9f Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-         2e8ecb4bbc13d4752d64a9f8f5512d59125cab25 Bluetooth: assign len after null check
-         80740ebb7e1ad15ab9c11425dcd26e073f86d74b Bluetooth: hci_sync: Fix hci_update_accept_list_sync
-         a56a1138cbd85e4d565356199d60e1cb94e5a77a Bluetooth: hci_sync: Fix not using conn_timeout
-         8a7271000b915bd6301866699c54c1e11885bc84 Merge tag 'for-net-2022-02-24' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+         9ddbdb9f3777df369333db47ec2e2c5d05862654 riscv: fix nommu_k210_sdcard_defconfig
          
