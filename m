@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 25 Feb 2022 09:58:09 -0000
-Message-Id: <164578308952.15049.11747364839798664734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Fri, 25 Feb 2022 10:12:34 -0000
+Message-Id: <164578395495.23884.11489210468973447678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/damon/next
-    old: 73dd2c8d736e5d58d28e28f19933a2de26f387fb
-    new: e42992edd4f7d40bc3ea90d7df668b3755b11154
-    log: |
-         e42992edd4f7d40bc3ea90d7df668b3755b11154 Docs/ABI/testing: Document DAMON sysfs interface
-         
+  - ref: refs/tags/renesas-arm-dt-for-v5.18-tag2
+    old: 0000000000000000000000000000000000000000
+    new: 819bc0b8f383076810bfb6255c7b54e866d4f5ae
+  - ref: refs/tags/renesas-drivers-for-v5.18-tag2
+    old: 0000000000000000000000000000000000000000
+    new: 46883a9d87316e2fe1f7e7dc7e449d21386c2b47
