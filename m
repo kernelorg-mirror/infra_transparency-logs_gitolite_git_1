@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 25 Feb 2022 10:32:24 -0000
-Message-Id: <164578514464.4979.18425252928728297176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Feb 2022 10:34:13 -0000
+Message-Id: <164578525341.5623.14020309319605844247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a6df953f0178c8a11fb2de95327643b622077018
-    new: dcf4ff7a48e7598e6b10126cc02177abb8ae4f3f
+    old: a46e3d5eb7050755c6e47e378af39289f4a727c6
+    new: 28a3f0601727d521a1c6cce62ecbcb7402a9e4f5
     log: |
-         dcf4ff7a48e7598e6b10126cc02177abb8ae4f3f xen/netfront: destroy queues before real_num_tx_queues is zeroed
+         28a3f0601727d521a1c6cce62ecbcb7402a9e4f5 net: openvswitch: IPv6: Add IPv6 extension header support
          
