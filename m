@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 25 Feb 2022 23:24:51 -0000
-Message-Id: <164583149115.1214.11552249361381866716@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 23:24:59 -0000
+Message-Id: <164583149998.1338.11840210355659897229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: 6255b48aebfd4dff375e97fc8b075a235848db0b
-    new: 52f28d2f50827144389cb279bb392ca220c09963
+  - ref: refs/heads/core/core
+    old: 0ce055f85335e48bc571114d61a70ae217039362
+    new: 3f6155af40a6c01e37bdf92a8dcebd0eb74c9dbe
     log: |
-         67d1b450504989b80efcfe4ba8bab6f32eea068f sched/cpuacct: fix charge percpu cpuusage
-         d67e27e3d2e9c8412287d0ac8b8e4eaab404de6d sched/cpuacct: optimize away RCU read lock
-         52f28d2f50827144389cb279bb392ca220c09963 sched/cpuacct: remove redundant RCU read lock
+         8d7143c581d2d17250253e84d32bf919e5359920 linkage: add SYM_FUNC_ALIAS{,_LOCAL,_WEAK}()
+         bafd665279a25b06310365ab5234f2fa871e8178 arm64: clean up symbol aliasing
+         f87d382606d6a6f25fbff500ce8bddbf71673a4a x86: clean up symbol aliasing
+         3f6155af40a6c01e37bdf92a8dcebd0eb74c9dbe linkage: remove SYM_FUNC_{START,END}_ALIAS()
          
