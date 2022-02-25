@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 25 Feb 2022 21:17:39 -0000
-Message-Id: <164582385972.16388.13657302665738053934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 25 Feb 2022 21:34:11 -0000
+Message-Id: <164582485121.27401.3619313915872288908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 4b23c6ecefcc9c15ae3d2f09d529151ab214b97f
-    new: 115ccd2278ccaa882000a20cb81a3649ef7dfe8b
+    old: 3735be926c498a651343005f65adceab3773b13b
+    new: fbdd0559558c6d668e32f3e187f21896b0a9b18e
     log: |
-         7920af5c826cb4a7ada1ae26fdd317642805adc2 gpio: rockchip: Reset int_bothedge when changing trigger
-         ae42f9288846353982e2eab181fb41e7fd8bf60f gpio: Return EPROBE_DEFER if gc->to_irq is NULL
-         115ccd2278ccaa882000a20cb81a3649ef7dfe8b Merge tag 'gpio-fixes-for-v5.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+         fbdd0559558c6d668e32f3e187f21896b0a9b18e Fri Feb 25 09:33:36 PM UTC 2022
          
