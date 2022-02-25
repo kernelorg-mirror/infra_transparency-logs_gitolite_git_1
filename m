@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 25 Feb 2022 14:54:45 -0000
-Message-Id: <164580088522.20556.15803652781277794969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 25 Feb 2022 14:55:31 -0000
+Message-Id: <164580093127.22270.2127209606474683574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/aspeed/dt
+  - ref: refs/tags/stm32-dt-for-v5.18-1
     old: 0000000000000000000000000000000000000000
-    new: 43fd3d4d95cee85e187e5c4ef1d991f77d4d928c
+    new: 4884a60973a4b507a75a8d54223a041d38405992
