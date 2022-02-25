@@ -1,43 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2977799477429654656=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Fri, 25 Feb 2022 09:04:18 -0000
-Message-Id: <164577985897.29154.9913193622639738790@gitolite.kernel.org>
-
---===============2977799477429654656==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 25 Feb 2022 09:05:44 -0000
+Message-Id: <164577994411.31147.6165155340526488369@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/next
-    old: 7160820d742a16313f7802e33c2956c19548e488
-    new: 32942d33d63d27714ed16a4176e5a99547adb6e0
-    log: revlist-7160820d742a-32942d33d63d.txt
-
---===============2977799477429654656==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7160820d742a-32942d33d63d.txt
-
-6773675ae8ccd9b4dea9efc4b5e4189465d6a3a8 dt-bindings: phy: Add compatible for D1 USB PHY
-5df4afa1e4388744f20177bdfbaf4fcafc31017b phy: sun4i-usb: Remove .disc_thresh where not applicable
-1743dea7f06b939f67ba258bab993fa5ff6e43fb phy: sun4i-usb: Rework HCI PHY (aka "pmu_unk1") handling
-204642e7de220a009e02f386b652f02078422959 phy: sun4i-usb: Add D1 variant
-10c573c61338d80c271f3579da22772c483d8a7a phy/cadence: Use of_device_get_match_data()
-ae532b2b7aa5a3dad036aef4e0b177607172d276 phy: usb: Add "wake on" functionality for newer Synopsis XHCI controllers
-3153fa38e38af566cf6454a03b1dbadaf6f323c0 phy: dphy: Correct lpx parameter and its derivatives(ta_{get,go,sure})
-09a3512681b359d7d18d1ff999831b0c63decdae phy: ti: tusb1210: Improve ulpi_read()/_write() error checking
-cb7d21b44f250a97660b904c43440f74e318aa82 phy: ti: tusb1210: Drop tusb->vendor_specific2 != 0 check from tusb1210_power_on()
-df37c99815d9e0775e67276d70c93cbc25f31c70 phy: ti: tusb1210: Add a delay between power-on and restoring the phy-parameters
-48969a5623ed918713552e2b4f9d391c89b5e838 phy: ti: tusb1210: Add charger detection
-abb29c4783d0ed68ab62ead609d7a2469f70cd71 dt-bindings: phy: mediatek,tphy: Add compatible for MT8192
-32942d33d63d27714ed16a4176e5a99547adb6e0 phy: phy-brcm-usb: fixup BCM4908 support
-
---===============2977799477429654656==--
+  - ref: refs/heads/queue/4.14
+    old: dbe46bd35b2dcc9ee1aa0fdd864d0c04a1c916f9
+    new: 0b22bdd75f2612e40c36363b5d27d96e90351f9e
+    log: |
+         0b22bdd75f2612e40c36363b5d27d96e90351f9e cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+         
+  - ref: refs/heads/queue/4.19
+    old: 6c9f0f48e748fc581dae39e3ad45ebe3749870c9
+    new: b33d47bc2740ba2256cd4c13fea43db003976eca
+    log: |
+         b33d47bc2740ba2256cd4c13fea43db003976eca cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+         
+  - ref: refs/heads/queue/4.9
+    old: 9279031d74f8fe8760ce32ac527bc4658b578926
+    new: 2c398475a7ff14c3b434596f7787986f743193ce
+    log: |
+         2c398475a7ff14c3b434596f7787986f743193ce mtd: rawnand: brcmnand: Fixed incorrect sub-page ECC status
+         
+  - ref: refs/heads/queue/5.10
+    old: 77884558a50f4f0f0fbdf4858d17fb35ac1eb480
+    new: 6516ac5e327b2ab8223f9f37e82d1d090f705137
+    log: |
+         6516ac5e327b2ab8223f9f37e82d1d090f705137 cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+         
+  - ref: refs/heads/queue/5.15
+    old: 01266cf9cd350a1d0c327be4fe95b12f661dc55c
+    new: 08a89c131b088bad5c15f1b1771ad07f2a566288
+    log: |
+         08a89c131b088bad5c15f1b1771ad07f2a566288 mm/filemap: Fix handling of THPs in generic_file_buffered_read()
+         
+  - ref: refs/heads/queue/5.16
+    old: d2d942496ace3ed839008817bfd5d1baa4993680
+    new: bb70ae65e06215dcc8091bc3c8468d8ebc79b68e
+    log: |
+         b8fce5bc6ddeaeffd35e03f3358b3eda98491ece mm/filemap: Fix handling of THPs in generic_file_buffered_read()
+         480b87b7b18ee774c5d22b72f49eaa267fb4f10c cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+         7587dd06cf876a3a453a906781d8ebbc69bbb575 cgroup-v1: Correct privileges check in release_agent writes
+         58b3421e55a22a19c38f570531fdc585e1238fdc btrfs: tree-checker: check item_size for inode_item
+         bb70ae65e06215dcc8091bc3c8468d8ebc79b68e btrfs: tree-checker: check item_size for dev_item
+         
+  - ref: refs/heads/queue/5.4
+    old: 182150e71d5fbec88cb77fec9ffae9ed1f8d7aa4
+    new: e415764f73bbd6680e0c2ae70827162b5fbc4b85
+    log: |
+         e415764f73bbd6680e0c2ae70827162b5fbc4b85 cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+         
