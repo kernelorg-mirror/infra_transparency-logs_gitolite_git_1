@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 25 Feb 2022 15:12:54 -0000
-Message-Id: <164580197487.572.17311630623287683852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Feb 2022 15:13:39 -0000
+Message-Id: <164580201931.894.1080636165887342288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/sunxi/dt
+  - ref: refs/heads/fileURlD2w
     old: 0000000000000000000000000000000000000000
-    new: ebdfc289a348fbc7fbc87c37b0cc156f78cc5f57
+    new: 83854c231262d2ad43c4fb32414ba25304f925d8
