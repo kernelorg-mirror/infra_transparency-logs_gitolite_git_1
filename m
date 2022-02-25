@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8504033135422362230=="
+Content-Type: multipart/mixed; boundary="===============3134196917792172757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 25 Feb 2022 15:27:56 -0000
-Message-Id: <164580287667.11335.8002819840512362232@gitolite.kernel.org>
+Date: Fri, 25 Feb 2022 15:28:10 -0000
+Message-Id: <164580289033.11439.14882972301130348282@gitolite.kernel.org>
 
---===============8504033135422362230==
+--===============3134196917792172757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/pm
-    old: 33569ef3c754a82010f266b7b938a66a3ccf90a4
-    new: c5eb92f57de2446e0071c3af70ea54f237eb05d5
-    log: revlist-33569ef3c754-c5eb92f57de2.txt
-  - ref: refs/tags/pm-5.17-rc6
+  - ref: refs/heads/thermal
+    old: e5b54867f47f765fcb439e09ed763b5de617af3e
+    new: 3abea10e6a8f0e7804ed4c124bea2d15aca977c8
+    log: revlist-e5b54867f47f-3abea10e6a8f.txt
+  - ref: refs/tags/thermal-5.17-rc6
     old: 0000000000000000000000000000000000000000
-    new: 1e221d987eff033962d0a1996763370c6ea97302
+    new: 1e7d097ba6ef0b95793658ae3ab6ffb371a99753
 
---===============8504033135422362230==
+--===============3134196917792172757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33569ef3c754-c5eb92f57de2.txt
+Content-Disposition: attachment; filename=revlist-e5b54867f47f-3abea10e6a8f.txt
 
+37291f60d0822f191748c2a54ce63b0bc669020f phy: xilinx: zynqmp: Fix bus width setting for SGMII
+cfc826c88a79e22ba5d8001556eb2c7efd8a01b6 phy: stm32: fix a refcount leak in stm32_usbphyc_pll_enable()
 46e994717807f4b935c44d81dde9dd8bcd9a4f5d phy: phy-mtk-tphy: Fix duplicated argument in phy-mtk-tphy
 25e58af4be412d59e056da65cc1cefbd89185bd2 nvme-pci: add the IGNORE_DEV_SUBNQN quirk for Intel P4500/P4600 SSDs
 a5f3851b7f7951e8d4ba0a9ba3b5308a5f250a2d nvme-fabrics: remove the unneeded ret variable in nvmf_dev_show
@@ -716,8 +718,6 @@ bd488afc3b39e045ba71aab472233f2a78726e7b net: dsa: seville: register the mdiobus
 7db788ad627aabff2b74d4f1a3b68516d0fee0d7 nfp: flower: fix ida_idx not being released
 7c759040c1dd03954f650f147ae7175476d51314 can: isotp: fix potential CAN frame reception race in isotp_rcv()
 8375dfac4f683e1b2c5956d919d36aeedad46699 can: isotp: fix error path in isotp_sendmsg() to unlock wait queue
-4f774c4a65bf3987d1a95c966e884f38c8a942af cpufreq: Reintroduce ready() callback
-ef8ee1cb8fc8976a68f5e89cd5f7b6f7de80c66f cpufreq: qcom-hw: Delay enabling throttle_irq
 7152303cbec4f7c2c4db1fb646b549ffd4069b7c selftests: netfilter: add synproxy test
 75063c9294fb239bbe64eb72141b6871fe526d29 netfilter: xt_socket: fix a typo in socket_mt_destroy()
 2e71ec1a725a794a16e3862791ed43fe5ba6a06b selftests: netfilter: fix exit value for nft_concat_range
@@ -1052,6 +1052,6 @@ e268d7084a90c740198579abc069813f903120aa Merge tag 'scsi-fixes' of git://git.ker
 222177397aabda681ca9a16ab498bba5c597cda0 Merge tag 'x86_urgent_for_v5.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3324e6e803156b4296975555f566892e4e3f4fcf Merge tag 'locking_urgent_for_v5.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cfb92440ee71adcc2105b0890bb01ac3cddb8507 Linux 5.17-rc5
-c5eb92f57de2446e0071c3af70ea54f237eb05d5 Merge branch 'cpufreq/arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
+3abea10e6a8f0e7804ed4c124bea2d15aca977c8 thermal: int340x: fix memory leak in int3400_notify()
 
---===============8504033135422362230==--
+--===============3134196917792172757==--
