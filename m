@@ -1,61 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3528895796887825028=="
+Content-Type: multipart/mixed; boundary="===============8817059946471018867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 25 Feb 2022 09:00:04 -0000
-Message-Id: <164577960441.27398.18012302950709029865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 25 Feb 2022 09:01:58 -0000
+Message-Id: <164577971806.28110.6929786902667310173@gitolite.kernel.org>
 
---===============3528895796887825028==
+--===============8817059946471018867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 7570fb41e450ba37bf9335fe3751fa9f502c30fa
-    new: f24b35aa522959f6c8ee44fe0b42ee993f632556
+  - ref: refs/heads/staging-testing
+    old: 7c6444d8e0f1be30e7fd910e40c0d495c36e6935
+    new: d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea
     log: |
-         d0cac2434c8ecd4863e082d976f5db9405d14b80 mfd: simple-mfd-i2c: Add Delta TN48M CPLD support
-         b3dcb5de62092406bea6d5d03e32824d823fcd39 gpio: Add Delta TN48M CPLD GPIO driver
-         440c7317e4bb243f9464fa508d675db944972dd6 dt-bindings: reset: Add Delta TN48M
-         5cd3921d16b64b4ca19fe8c070718ab83e232863 reset: Add Delta TN48M CPLD reset controller
-         54ae8c4b8c29e576d6dbfb49832522f782bb7190 dt-bindings: mfd: Add Delta TN48M CPLD drivers bindings
-         f24b35aa522959f6c8ee44fe0b42ee993f632556 MAINTAINERS: Add Delta Networks TN48M CPLD drivers
+         a17b34502aebaac8533b3e1fd73fd6e1360d31db staging: wfx: check the return value of devm_kmalloc()
+         26c511f8b7c33760057622693d16ac9527e772af staging: vt6656: Fix CamelCase warnings in mac.h and mac.c
+         efae250a1a12196523f6fdbac3c5f7a440b5edce staging: vt6656: Add comment for locks
+         ac1569b7dca22e6bc05585093c90cb11fcc10fbd staging: vt6656: Fix CamelCase warnings in macro
+         efc72b11b3eb5dc6f9d63224da8e1dde2bed24c3 staging: vt6656: Change macro to function and moved to better file
+         1929be8c45a21954d3f328cd4c9e9b671e7ac688 staging: vt6656: Remove ftrace-like logging
+         d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea staging: vt6656: Remove unnecessary line breaks
          
 
---===============3528895796887825028==
+--===============8817059946471018867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645779602 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1645779602-7631e1950451cdafa25c8b902aa285da7dbc426d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645779716 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1645779716-de7e1dc06b7bd49a155faf45b472f780606f8f27
 
-7570fb41e450ba37bf9335fe3751fa9f502c30fa f24b35aa522959f6c8ee44fe0b42ee993f632556 refs/heads/char-misc-testing
+7c6444d8e0f1be30e7fd910e40c0d495c36e6935 d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYmpIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M0EQAJzWr2/Qv8iYadVZAclw
-yL1D8Gxwph4kfnGuNWHQvpOyVmrSwQsBHo4znzCdbVx+lSdemP58trapybXfiOMZ
-GDxFI7xRET17F2tji85Q1aXrzn04zemNAqIbGdw32C37+qQCKfEIRnUiCI9ikN/o
-/Zat99k1LVbEkX5pxldYRmPU4ljRFHt+syyMYRWmWrNW4zO/xwfEZAxis73+GOqw
-tPP7SIwga+chgBHlbOu0Ht9I67oPi0jOdlIc9p4XZ7pNjKQcgPbou+KAzs1W4dqt
-IlimcdvDYwMAD0toYnFv5kOeBdcwqh6WcCnWX8eU3im4a9YT++JVdj5vnO0JZvcJ
-ksSLlugKRGbFUULxuCpty38gDw7WI8ar/ClRFcChrwT1D0lLOTuPT8k1E7m4fMN6
-XsCkA+YK9B3eZoVVZuKes1rw1NuZnDadxqEDRlZzdBgb0d+Pl0MPT59Aw2AmJDn/
-ofcdgIJ7qYKzGkwkHH0X84fcYzRr+HRP84it/2bEVihQn7Kl5hVWtFxltTGIxiA4
-uvM2awYM5q/oCBSM56vjJGK/fbZpDp2B0hq8ELTvTszyUeV1DWhWn+mfL9uH/OQC
-KYoe5S6JcU1XnJzffGCiT5aKcqWpRYdeq3vsRusuZvLznVdw5Udmgw6g1bbAszmC
-6adTBljSIWFz9iTspoiC60Q6
-=aD96
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIYmwQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hdAQAMBzI7bDQDxtxWvPjNPc
+Sq8fKzBxFEDYFUA+JUN1o3P0i5THVTMJoMi+xv5MN7y5x0xDSjJ/1ki+2TjOh28w
+5p0Zl/odFLO4a9+ay3CVpKs3eJEU2lQqKXjWy1gRWr6Gl9iZeQy4CEJGw7bKXOWu
+ZcvuvlLhJ4rf1gI0YYZXRViq9nR+k6TliJliW6KtHbxTOMTwgavrKOAeNIUMwo9S
++FokdYGP+xPasmCBHv1UKo9l+sux4lGtqAcWKXw884LspgF6fudlsCmYL+NJeTp2
+HsH61bjHkI1xhpQZTcQ+cKr9CHP/u+92MNOGtbYaTwPIhWyPg2rTo31z3fyMFz3K
+vWFwTG4epZIMYT+RCL0JxDkp37MePfDohk2+bWpn0K/afcXum4kXzdxZ3GzEqL9y
+iRBXKnUwQsYOFQf5WYSzC+Fv02PdSdo/u5gwpVxAUanAz54I3uNTYYnNm+JYj+LO
+HUEVLtLMgrjX1djH5F6Hd0H6AHA15W0w5v/J6bh2/7Lfofh2ZOwkKgRe96AIHnvg
+Hs08gV0zwKPG3fEaGR8DDf4vmYEdUZ3DzjuNYUkBlPvpGwyQxbRHTKVab8igQUNz
+nUNjffRqSozSOI+gAqmraItj3FLHGyeHdVuTrLQRMbBCzdATXeilu5E0+cLuKOoT
+/W/Ryu/PL02h8DpsYToGr74A
+=v8ck
 -----END PGP SIGNATURE-----
 
---===============3528895796887825028==--
+--===============8817059946471018867==--
