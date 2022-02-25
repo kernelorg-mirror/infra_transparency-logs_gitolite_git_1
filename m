@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Feb 2022 10:34:13 -0000
-Message-Id: <164578525341.5623.14020309319605844247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 25 Feb 2022 10:39:49 -0000
+Message-Id: <164578558916.8793.13892508465794834149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: a46e3d5eb7050755c6e47e378af39289f4a727c6
-    new: 28a3f0601727d521a1c6cce62ecbcb7402a9e4f5
+    old: dcf4ff7a48e7598e6b10126cc02177abb8ae4f3f
+    new: 087a7b944c5db409f7c1a68bf4896c56ba54eaff
     log: |
-         28a3f0601727d521a1c6cce62ecbcb7402a9e4f5 net: openvswitch: IPv6: Add IPv6 extension header support
+         087a7b944c5db409f7c1a68bf4896c56ba54eaff net: stmmac: only enable DMA interrupts when ready
          
