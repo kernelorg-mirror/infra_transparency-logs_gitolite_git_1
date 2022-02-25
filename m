@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 25 Feb 2022 20:30:03 -0000
-Message-Id: <164582100362.18734.4597402135922589671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 25 Feb 2022 20:39:39 -0000
+Message-Id: <164582157912.23114.10442107676062750589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: beeedce52a99e1df9128a60ae0b4755b725f20a7
-    new: 68d7d1c1368df544702846813b8fe44d5b65228a
+  - ref: refs/heads/ftrace/urgent
+    old: 3fdff31db88a2d2571a59c12423d3ae0265304c7
+    new: 1a79f2cbbefdc0ac72c14b7e0a184fe087f50416
     log: |
-         485d710685b1a914230f9c18db9fbb9d08e16475 arm64: defconfig: Enable Audio Graph Card2 driver
-         3cff3c099fcd7cb7c1f326bc8e54c2e57f55f48e ARM: shmobile: defconfig: Disable unneeded 8250 serial options
-         2e8a3335472461927e57d1741ccf1791ff416075 arm64: defconfig: Enable additional support for Renesas platforms
-         0917b5bdbe4bfb7927d8dc2c1939f6736d561644 Merge tag 'renesas-arm-defconfig-for-v5.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/defconfig
-         68d7d1c1368df544702846813b8fe44d5b65228a Merge branch 'arm/defconfig' into for-next
+         89470a504f775f9a02eb23a2a03390d26bdea25a tracefs: Set the group ownership in apply_options() not parse_options()
+         273aaba17d6fe659f77d9a3bdb5e63ee02d5331b tracing: Fix selftest config check for function graph start up test
+         94121c8e6d1e58b74930129896cabe456cbc7cd9 rtla/hist: Make -E the short version of --entries
+         e0c3cd5f2bad094e4503d9594270e9b4eb1ec8f4 rtla/osnoise: Free params at the exit
+         1a79f2cbbefdc0ac72c14b7e0a184fe087f50416 rtla/osnoise: Fix error message when failing to enable trace instance
          
