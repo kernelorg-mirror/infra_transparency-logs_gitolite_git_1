@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 25 Feb 2022 13:06:28 -0000
-Message-Id: <164579438831.13487.17332035655364212289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Fri, 25 Feb 2022 13:07:55 -0000
+Message-Id: <164579447522.13998.4125237918590380266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/renesas-devel-2022-02-25-v5.17-rc5
+  - ref: refs/tags/kvmarm-fixes-5.17-4
     old: 0000000000000000000000000000000000000000
-    new: 1b7303cac46550d869b4379e133111d2b45cefb1
-  - ref: refs/tags/renesas-next-2022-02-25-v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 349afe8a11b698c921c7578677367566a4dc0078
+    new: 04d479e3591c4fdb1f0c62ec4ba229de16a55401
