@@ -1,93 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============5377315416281691107=="
+Content-Type: multipart/mixed; boundary="===============7086975661844139974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 26 Feb 2022 07:50:38 -0000
-Message-Id: <164586183879.1831.13403337454465983457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 26 Feb 2022 07:50:59 -0000
+Message-Id: <164586185975.2043.17187657658523213311@gitolite.kernel.org>
 
---===============5377315416281691107==
+--===============7086975661844139974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 7570fb41e450ba37bf9335fe3751fa9f502c30fa
-    new: 2be483f12ea34b43826f70c60f0924a7bda991bd
-    log: revlist-7570fb41e450-2be483f12ea3.txt
+  - ref: refs/heads/driver-core-next
+    old: f2eb478f2f322217aa642e11c1cc011f99c797e6
+    new: ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5
+    log: revlist-f2eb478f2f32-ae016b9da7bc.txt
 
---===============5377315416281691107==
+--===============7086975661844139974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645861838 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1645861837-eae01e7ca9d162775db24c3e0831b86828d18deb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645861859 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1645861858-2eb28e874101d2b9feeec612a82fedc65b190191
 
-7570fb41e450ba37bf9335fe3751fa9f502c30fa 2be483f12ea34b43826f70c60f0924a7bda991bd refs/heads/char-misc-next
+f2eb478f2f322217aa642e11c1cc011f99c797e6 ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIZ284bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9h4P/iv7G7rFeESuaskdp7eC
-uk7G5i623oo3fh2Zg6dPdVzcuWK77mIDcEGAbIkeyprikliSRHkaTFPhUFD0LUf6
-V5Rs457Z+rBYGQq2ToAPv42HJLMhmUkwf0hf2yK72+bpoGLm26zWRfUHG121bXkt
-0YRoykanesHrqASFhB/iyjFYVenQVrhV/Wsp3CQOHVBFUrB5NKabEl9xiYz2rf/H
-Zs3NzAdigUcwxo2xRC9NGVAa8SUaA7VPOzOlpdX9hSddC++Gdox8pwYbyigc0spS
-AVG0Fr9euCQbe7jUevJy5IiVUxVbrqF1XxY7Q2+yZg8AJU9mmkQlCz+hqk30t7VK
-WZCCW1MbQLVtM3oj/zh5RA2f6eacVo3rjITWeBFaS9thTsWDBixTG3cbEWDiqb6u
-9ClElNSpsIOZDT3OLECPahXDYqRtA7pWvFWLMwgM8qQxZ3o4xzu2bWOEAcFt+lK2
-uIA1s4Etw8esLGFqLGs7kRb58tmYixDpLuwdCPaqPA83LO8hOTMudTKYsC1iRe/1
-0wAnDTokMpvEio8KPOSOxcwOMOoyG06P9Jm3ShqggNJFlKaY8eh5t7Y8C3B4xRFT
-aqhc20dSU8Uz/QA26elHQ0TXK/6Skr4xr39aIYt8J2LcHx/ZQdmTDAc3wZL6aSiO
-SauDPi9fCCl4Eo+TVdbk0Uqf
-=zsDs
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIZ2+MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dWQP/38Nb4RORgCVdarWq0Lt
+Zi49HNnIN2FJZJ1UDUfTH0Dg1Q25ymySk30IAkaUojm01ere3L+m6C42Pvwl9TZq
+2q4yFCn9iB1y3rfWS0CQRtoQZJhp8LPdrw9UImKkmSqPdhyVAUW5bJFnjziTn0on
+Usnj9baGodZ+WM3t7EksDN5RREz1BGAGeSvW1al+SgqZAySywTsHw+koxWzyL7JY
+GZ/RsxhpV0qxvhPBarPPErIGf+Q+B+MUeQsnqBVoMO0XH2gn6irSba/0ea0oRPRx
+FmsMhC4httD1a3K5OYFgMJQQ7iyh7BHod7VRNEyhCteZvlk0yibQOw4MS5f9IHQC
+DjUcFn9xKRRY1PDUh6r91KqnZZDnmex1bJYUj9xmfWp+GmVGgEKVt4rqj2XSFVPW
+fgC6ovpyodMHoB+b8Jcr6wg6jGvdPjGiQpLWlRMP2339ldjZj4X88HN5WRL+j+f2
+WBN44dNvYpEifHLyeiW40utsBwjyW6Foa2S+sPYuS5VFNCNsBehNpgg75ancaGyc
+z/CoaAGgaGd9KHSysWp0rNdIOgP4v0kvoFTlzqndfMRK/Se7K+bRb3dFiO7GqlLd
+G3ezhetYpwDEi7NJuL20ACKe5TZOWBQbM3mfvJnHxlF2mzj85mzILqS05i6+Fjvy
+5XvlnairdbWrr8OdqlyP2E+B
+=t7Cn
 -----END PGP SIGNATURE-----
 
---===============5377315416281691107==
+--===============7086975661844139974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7570fb41e450-2be483f12ea3.txt
+Content-Disposition: attachment; filename=revlist-f2eb478f2f32-ae016b9da7bc.txt
 
-d0cac2434c8ecd4863e082d976f5db9405d14b80 mfd: simple-mfd-i2c: Add Delta TN48M CPLD support
-b3dcb5de62092406bea6d5d03e32824d823fcd39 gpio: Add Delta TN48M CPLD GPIO driver
-440c7317e4bb243f9464fa508d675db944972dd6 dt-bindings: reset: Add Delta TN48M
-5cd3921d16b64b4ca19fe8c070718ab83e232863 reset: Add Delta TN48M CPLD reset controller
-54ae8c4b8c29e576d6dbfb49832522f782bb7190 dt-bindings: mfd: Add Delta TN48M CPLD drivers bindings
-f24b35aa522959f6c8ee44fe0b42ee993f632556 MAINTAINERS: Add Delta Networks TN48M CPLD drivers
-bc5c75e0a5a9400f81a987cc720100ac475fa4d8 nvmem: qfprom: Increase fuse blow timeout to prevent write fail
-8747ec2e9762ed9ae53b3a590938f454b6a1abdf nvmem: Add driver for OCOTP in Sunplus SP7021
-8fb29b4501824e1b700881679c7b4c981aadf155 dt-bindings: nvmem: Add bindings doc for Sunplus OCOTP driver
-7d658f5c4002c87a6f6cf2074dddc69b91ee4c22 MAINTAINERS: add a git repo for the Stratix10 Service driver
-085a884434f3e3b08349a0ba0904f9f561739d57 firmware: stratix10-svc: extend SVC driver to get the firmware version
-41a92a89eee819298f805c40187ad8b02bb53426 w1: w1_therm: fixes w1_seq for ds28ea00 sensors
-b791da238992436f6269e8743b3bc23305702674 VMCI: Fix the description of vmci_check_host_caps()
-cc312da2d3af87f183c57b672042c85cfe6f15c2 VMCI: No need to clear memory after a dma_alloc_coherent() call
-77e861619baea5a7c934e47fda74b03c0b072aec VMCI: Fix some error handling paths in vmci_guest_probe_device()
-3bc93c7bded0cf361e58af160e9b23996c10a1a1 comedi: drivers: ni_routes: Use strcmp() instead of memcmp()
-22f01029cd25dcf227b99c87dce75bba58df4e6b xilinx_hwicap: cleanup comments
-20dde50ffe26be9cd446932e3eaf3f7d7db97423 misc: sgi-gru: Don't cast parameter in bit operations
-4044fe5525adb65ce0ce9931b8f23fc3ab1aa758 ocxl: Make use of the helper macro LIST_HEAD()
-aef3125dd6db982cdeed0d3f1ba68211e44e6cde powerpc/BSR: Make use of the helper macro LIST_HEAD()
-4c4559b43c5fbe1af5b55212c3f411781da2093d config: android-recommended: Don't explicitly disable CONFIG_AIO
-3bdd6d5ad5f8f6719cc761127df4af64ff163c79 config: android-recommended: Disable BPF_UNPRIV_DEFAULT_OFF for netd
-2c9ae453543c9a3c08840cc4a51a054ebc4e75bf misc: rtsx: conditionally build rtsx_pm_power_saving()
-f4e335f34519ba8e1271f779a7bc7db168e4488d lkdtm/fortify: Swap memcpy() for strncpy()
-86f4c65fd5003c894dd3082d53e26307fbc211cc misc: rtsx: rts522a rts5228 rts5261 support Runtime PM
-f1d0821bf37ba3cecee0fd1e9ae72a943a69d01d firmware: xilinx: Add support for runtime features
-de8512339520a850bb290cbf5c8bb07aa4e5adda firmware: zynqmp: Add documentation for runtime feature config
-2c5d8f7cb3f9badb62573f18ade51bb78e37b921 firmware: xilinx: Add sysfs support for feature config
-ccdf6f806fbf559f7c29ed9302a7c1b4da7fd37f mei: me: disable driver on the ign firmware
-685867f40c4ee8cc7f7d27561ce13b43f864cb84 mei: me: avoid link reset on shutdown
-04af137c6a88b7f8f78e78abf353ec97ce28c5b5 mei: me: fix reset policy on read error in interrupt
-2be483f12ea34b43826f70c60f0924a7bda991bd mei: do not overwrite state on hw start
+8bcbde2bb1374112264826aa26ff959149f318e4 debugfs: Document that debugfs_create functions need not be error checked
+36744c117ab4e3d7e114c10d66882c418ba6ea8a firmware_loader: EXTRA_FIRMWARE does not support compressed files
+2502960fba7e94e090112069694365295c32ccc5 component: Add common helper for compare/release functions
+a190622af3f9a6ff86554bf7665f022cb919223e drm/komeda: Make use of the helper component_compare_of
+1434fc3f3904a1d228a4f88822d31a3e746b1d73 drm/armada: Make use of the helper component_compare_of/dev_name
+0a522394202f1f5ce1874b807c60dca3282b4c8c drm/etnaviv: Make use of the helper component_compare_of/dev_name
+0904b83e0cbb3dc1b8d5c0b1a5daeca725600eee drm/hirin: Make use of the helper component_compare_of
+bc02412a8deaf5edbe10614ecd4b29479b8d676a drm/ingenic: Make use of the helper component_compare_of
+05399aa063b19a96c7472875d2e8b1bd51f31da9 drm/mediatek: Make use of the helper component_compare_of
+46a87c5a581dafd334679f07dffe7fa1ec01b7e9 drm/meson: Make use of the helper component_compare_of
+0a82e0a99bfc4f9fccfdd226be4137677b8f39b3 drm/msm: Make use of the helper component_compare_of
+11ef5c77abc29d78ccedc26d01deb0bf0b2130f4 drm/sprd: Make use of the helper component_compare_of
+50a912a8660243b189f57aee9c81b7cd8367e5d2 drm/sti: Make use of the helper component_compare_of
+6817222e8158c5ffee46fc3fbb8571e5bc1e1faa drm/sun4i: Make use of the helper component_compare_of
+f798aa411fa6712eb885a8b5d138487736c55824 drm/rockchip: Make use of the helper component_compare_dev
+35ca882c053a26c812f8e98b27978af627306d1f drm/exynos: Make use of the helper component_compare_dev
+f8b3f5e81479b4508719d2e49273b46cfa2f3e5f drm/mcde: Make use of the helper component_compare_dev
+419838bcf74f8ecbddb5d3c2492dba86e4881636 drm/omap: dss: Make use of the helper component_compare_dev
+947f019e429465713c9d7d1f0d111a3ff7321e26 drm/vc4: Make use of the helper component_compare_dev
+ab011ab6b007378132b242e6a70813aab3afc2c8 drm: of: Make use of the helper component_release_of
+4811a485a91b30650bb540ff3d769d66eadcac5c iommu/mediatek: Make use of the helper component_compare/release_of
+a8271d7e40537240484a4a39bd9f19fb136c277d ASoC: codecs: wcd938x: Make use of the helper component_compare/release_of
+5730c81df7a3b26750d9e6b4ae62bcec47ab2375 power: supply: ab8500: Make use of the helper component_compare_dev
+f790ce387372b13b0bf3caf36c8e7201f9527e13 video: omapfb: dss: Make use of the helper component_compare_dev
+ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5 ALSA: hda/realtek: Make use of the helper component_compare_dev_name
 
---===============5377315416281691107==--
+--===============7086975661844139974==--
