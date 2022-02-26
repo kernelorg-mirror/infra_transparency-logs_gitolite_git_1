@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 26 Feb 2022 17:06:42 -0000
-Message-Id: <164589520242.7464.7789268381591609037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sat, 26 Feb 2022 17:44:02 -0000
+Message-Id: <164589744232.28166.17048813308067586179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/for-next/overflow
-    old: 2ee9b438ef95e4d1a41fba18fd837d1cea67d4a8
-    new: e010d62545b6ddaeb0dc8dce1601d51db13a258d
+  - ref: refs/heads/master
+    old: cf2511565f40be1b78b3fc1194e823baf305f0a0
+    new: c3773c171dffb79f771d213d94249cefc4b9b6de
     log: |
-         e010d62545b6ddaeb0dc8dce1601d51db13a258d um: Remove unused timeval_to_ns() function
+         78c0d7a0120f7a117493811f6abf6c2a48a06453 Add TD_F_SYNCS thread flag
+         c3773c171dffb79f771d213d94249cefc4b9b6de windowsaio: open file for write if we have syncs
          
