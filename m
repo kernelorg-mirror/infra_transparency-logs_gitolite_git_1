@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sat, 26 Feb 2022 10:42:48 -0000
-Message-Id: <164587216826.27905.9084108530315483221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sat, 26 Feb 2022 10:52:36 -0000
+Message-Id: <164587275638.2701.6223812547982079647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 7f32b2ac59c05eac114a9de96813d8bb3495642a
-    new: 2413983e29c50955529c0381e4b15e2e7de32882
+    old: ae693fcab9b636bf0e521f38060398417c3cf3d9
+    new: cac545f64e6f5863b430f5b94442b777aa7f1165
+    log: |
+         cac545f64e6f5863b430f5b94442b777aa7f1165 lspci: Decode PCIe 6.0 Slot Power Limit values
+         
