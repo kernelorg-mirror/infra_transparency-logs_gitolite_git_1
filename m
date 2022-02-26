@@ -1,86 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============7086975661844139974=="
+Content-Type: multipart/mixed; boundary="===============1419254285083218276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 26 Feb 2022 07:50:59 -0000
-Message-Id: <164586185975.2043.17187657658523213311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 26 Feb 2022 07:51:30 -0000
+Message-Id: <164586189094.2435.14396024555742758367@gitolite.kernel.org>
 
---===============7086975661844139974==
+--===============1419254285083218276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f2eb478f2f322217aa642e11c1cc011f99c797e6
-    new: ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5
-    log: revlist-f2eb478f2f32-ae016b9da7bc.txt
+  - ref: refs/heads/staging-next
+    old: 7c6444d8e0f1be30e7fd910e40c0d495c36e6935
+    new: 83ba9a33b56673263981d5633fd6a96d83dabc21
+    log: revlist-7c6444d8e0f1-83ba9a33b566.txt
 
---===============7086975661844139974==
+--===============1419254285083218276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645861859 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1645861858-2eb28e874101d2b9feeec612a82fedc65b190191
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1645861890 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1645861889-c79b7facf67194615193427c7c1f16063f7ac42d
 
-f2eb478f2f322217aa642e11c1cc011f99c797e6 ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5 refs/heads/driver-core-next
+7c6444d8e0f1be30e7fd910e40c0d495c36e6935 83ba9a33b56673263981d5633fd6a96d83dabc21 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIZ2+MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dWQP/38Nb4RORgCVdarWq0Lt
-Zi49HNnIN2FJZJ1UDUfTH0Dg1Q25ymySk30IAkaUojm01ere3L+m6C42Pvwl9TZq
-2q4yFCn9iB1y3rfWS0CQRtoQZJhp8LPdrw9UImKkmSqPdhyVAUW5bJFnjziTn0on
-Usnj9baGodZ+WM3t7EksDN5RREz1BGAGeSvW1al+SgqZAySywTsHw+koxWzyL7JY
-GZ/RsxhpV0qxvhPBarPPErIGf+Q+B+MUeQsnqBVoMO0XH2gn6irSba/0ea0oRPRx
-FmsMhC4httD1a3K5OYFgMJQQ7iyh7BHod7VRNEyhCteZvlk0yibQOw4MS5f9IHQC
-DjUcFn9xKRRY1PDUh6r91KqnZZDnmex1bJYUj9xmfWp+GmVGgEKVt4rqj2XSFVPW
-fgC6ovpyodMHoB+b8Jcr6wg6jGvdPjGiQpLWlRMP2339ldjZj4X88HN5WRL+j+f2
-WBN44dNvYpEifHLyeiW40utsBwjyW6Foa2S+sPYuS5VFNCNsBehNpgg75ancaGyc
-z/CoaAGgaGd9KHSysWp0rNdIOgP4v0kvoFTlzqndfMRK/Se7K+bRb3dFiO7GqlLd
-G3ezhetYpwDEi7NJuL20ACKe5TZOWBQbM3mfvJnHxlF2mzj85mzILqS05i6+Fjvy
-5XvlnairdbWrr8OdqlyP2E+B
-=t7Cn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIZ3AIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HQ8QAJskYgi8T3Ah7QHunP4J
+uXGLGMAT98elqLQITzBPsKQcxZ2niXHKCDCIp1Q/zvZZ7F06Kk9cD1ruX9ulAgTg
+Bni1ufb0t1pg8feFkYG1XsIObV3AMtB80XIBHuzB41Gq+MjXNxJgV2hgnVPy4KvT
+/C6F8yoENVCkwJxkUU4OKC0/C0xZRC8P+1fAFN8Ju98k5PCxh+MJ+PAycatDDDsA
+RiTJZTXvqV4nFJ6jUXx8C4QLgfmUjZKSNFdg3Zq0CIiw+hsQWIIv9EZlrCzaySje
+QikySnziyjCorFUSwq3ER0k5mLUzqIXJuBVoeaHYHkGRU17aTsX0jNnWwOzI90xM
+QAjj4vOQgp2Rc7Xc/fAHHZbE581qfVDhP02E9m8OSld+D/IVR9YVluVMsPbFNI++
+fjNHH7IBC6sylC+wpDccoAXuk5ZbSxM+UP7KYb8PlrZ6CkEc8zSFlDGdsXhqjwxd
+s4QTac7KEoCrvJcl92iEQgbYFEBFDOfpytxDIlFdnR3F0g55Ibhh1hz6g6e8vB6O
+IybNuew5FHSv4ZYLDx4xlOQTpvFHrXV0nVFHXixJQqpRFVa8dkMb70xy1ZX6GNVq
+KFfZ/4Q3jWvRVjNLRCWFVat2HZShKTKjf9UDSyC4hakwqX8v90QXRavG4xV7+Q6A
+8NFYFMgedJc/ny4n2kuOZ8RK
+=3PHw
 -----END PGP SIGNATURE-----
 
---===============7086975661844139974==
+--===============1419254285083218276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2eb478f2f32-ae016b9da7bc.txt
+Content-Disposition: attachment; filename=revlist-7c6444d8e0f1-83ba9a33b566.txt
 
-8bcbde2bb1374112264826aa26ff959149f318e4 debugfs: Document that debugfs_create functions need not be error checked
-36744c117ab4e3d7e114c10d66882c418ba6ea8a firmware_loader: EXTRA_FIRMWARE does not support compressed files
-2502960fba7e94e090112069694365295c32ccc5 component: Add common helper for compare/release functions
-a190622af3f9a6ff86554bf7665f022cb919223e drm/komeda: Make use of the helper component_compare_of
-1434fc3f3904a1d228a4f88822d31a3e746b1d73 drm/armada: Make use of the helper component_compare_of/dev_name
-0a522394202f1f5ce1874b807c60dca3282b4c8c drm/etnaviv: Make use of the helper component_compare_of/dev_name
-0904b83e0cbb3dc1b8d5c0b1a5daeca725600eee drm/hirin: Make use of the helper component_compare_of
-bc02412a8deaf5edbe10614ecd4b29479b8d676a drm/ingenic: Make use of the helper component_compare_of
-05399aa063b19a96c7472875d2e8b1bd51f31da9 drm/mediatek: Make use of the helper component_compare_of
-46a87c5a581dafd334679f07dffe7fa1ec01b7e9 drm/meson: Make use of the helper component_compare_of
-0a82e0a99bfc4f9fccfdd226be4137677b8f39b3 drm/msm: Make use of the helper component_compare_of
-11ef5c77abc29d78ccedc26d01deb0bf0b2130f4 drm/sprd: Make use of the helper component_compare_of
-50a912a8660243b189f57aee9c81b7cd8367e5d2 drm/sti: Make use of the helper component_compare_of
-6817222e8158c5ffee46fc3fbb8571e5bc1e1faa drm/sun4i: Make use of the helper component_compare_of
-f798aa411fa6712eb885a8b5d138487736c55824 drm/rockchip: Make use of the helper component_compare_dev
-35ca882c053a26c812f8e98b27978af627306d1f drm/exynos: Make use of the helper component_compare_dev
-f8b3f5e81479b4508719d2e49273b46cfa2f3e5f drm/mcde: Make use of the helper component_compare_dev
-419838bcf74f8ecbddb5d3c2492dba86e4881636 drm/omap: dss: Make use of the helper component_compare_dev
-947f019e429465713c9d7d1f0d111a3ff7321e26 drm/vc4: Make use of the helper component_compare_dev
-ab011ab6b007378132b242e6a70813aab3afc2c8 drm: of: Make use of the helper component_release_of
-4811a485a91b30650bb540ff3d769d66eadcac5c iommu/mediatek: Make use of the helper component_compare/release_of
-a8271d7e40537240484a4a39bd9f19fb136c277d ASoC: codecs: wcd938x: Make use of the helper component_compare/release_of
-5730c81df7a3b26750d9e6b4ae62bcec47ab2375 power: supply: ab8500: Make use of the helper component_compare_dev
-f790ce387372b13b0bf3caf36c8e7201f9527e13 video: omapfb: dss: Make use of the helper component_compare_dev
-ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5 ALSA: hda/realtek: Make use of the helper component_compare_dev_name
+a17b34502aebaac8533b3e1fd73fd6e1360d31db staging: wfx: check the return value of devm_kmalloc()
+26c511f8b7c33760057622693d16ac9527e772af staging: vt6656: Fix CamelCase warnings in mac.h and mac.c
+efae250a1a12196523f6fdbac3c5f7a440b5edce staging: vt6656: Add comment for locks
+ac1569b7dca22e6bc05585093c90cb11fcc10fbd staging: vt6656: Fix CamelCase warnings in macro
+efc72b11b3eb5dc6f9d63224da8e1dde2bed24c3 staging: vt6656: Change macro to function and moved to better file
+1929be8c45a21954d3f328cd4c9e9b671e7ac688 staging: vt6656: Remove ftrace-like logging
+d4cbaca3d086ed70a0dfa07f2bc51c87d4299cea staging: vt6656: Remove unnecessary line breaks
+57cbe4277d3420ea94142fbb162116030d4035f3 staging: r8188eu: remove unused variable from UpdateHalRAMask8188EUsb
+6f29d72d2b7ae4caba2d9e578424ed32ba66ec3e staging: r8188eu: remove 5 GHz channels from ch_freq_map
+b052de6526383a7199079ae68afd92f9187c0862 staging: r8188eu: refactor rtw_ch2freq()
+91b0ad05b6fd5761afc86dafaa8403cf457f4519 staging: r8188eu: clean up rtw_rf.c
+8beb52f6baf5b5510c4978df406255ea42efe7e8 staging: r8188eu: remove redundant variable reg_0x143
+cf38b73e48798e333271a0a42c45bea7c23ffc52 staging: rtl8192u: fix broken debug macro
+907f6fae37cd65b036fd257b15ab5222a2f13ca5 staging: rtl8192u: add empty debug functions
+57078a3c2e24fcc1ee8b7d44b69d27dba41c6598 staging: rtl8192u: rework init and exit function
+91c9ba35bb0695279c6924ef7e364196ce59a7c6 staging: pi433: add index value to write dev_dbg statement
+a42614f2b48bfae8b706b581cc73b32d0ff1b114 staging: wfx: sta.o was linked twice
+0d585ee974bce2f71851722a58d37de082ac6718 staging: wfx: fix struct alignment
+e71b18ba664d624a65282c7fa9fbf600c823360f staging: wfx: format comments on 100 columns
+5265c43d40d04d57ac2108a8350e4e35e47dc518 staging: wfx: format code on 100 columns
+063cf5f58922470ed102316d143ef5b5c475c6f0 staging: wfx: remove useless variable
+a564d55a0cc123b7ea844b7ca8e79c116914e416 staging: wfx: drop useless include
+1de8eec7c339700e266e9768258eb2e9625a0622 staging: wfx: remove duplicated code in wfx_cmd_send()
+0803a85a6f236f648b80584bc02b86b092f43d5a staging: wfx: prefer to wait for an event instead to sleep
+c86176d51340d5ee29afffce63d79c4ece5d96bb staging: wfx: ensure HIF request has been sent before polling
+fe5c03d478d43e89914797016c62dfb701a0c565 staging: wfx: flags for SPI IRQ were ignored
+63a9c6676ef09f46119ea08e0ab296920a065d15 staging: r8188eu: EepromAddressSize is set but not used
+8f7b7c0df5e8d789e616111a23d1d84ee7073336 staging: r8188eu: remove unused function prototype
+b073b837fc549c3480430f503196ec80cfcf442c staging: r8188eu: remove update_bcn_p2p_ie()
+83ba9a33b56673263981d5633fd6a96d83dabc21 staging: r8188eu: remove ETH_ALEN from ieee80211.h
 
---===============7086975661844139974==--
+--===============1419254285083218276==--
