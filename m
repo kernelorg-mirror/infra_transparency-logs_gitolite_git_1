@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sat, 26 Feb 2022 21:16:20 -0000
-Message-Id: <164591018071.22199.6091180839312756936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 26 Feb 2022 21:59:10 -0000
+Message-Id: <164591275050.14236.10293904023086374714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: f041a74c30dc31ae7b4e968130ace4ad98f90d25
-    new: e67cc98f66c21dd666428fbe10279f892f63c718
-    log: |
-         e67cc98f66c21dd666428fbe10279f892f63c718 Sat Feb 26 09:15:39 PM UTC 2022
-         
+  - ref: refs/tags/samsung-dt-5.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 39d504eaba8edf595c5096973e626b5580c65666
+  - ref: refs/tags/samsung-dt64-5.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 6d3665eb3fe93c5811cfabfb75b9c6eee56aa829
+  - ref: refs/tags/samsung-soc-5.18
+    old: 0000000000000000000000000000000000000000
+    new: bd8832f7dbb77945e07a6dffcd17ee6134de7a5f
