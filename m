@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6119792933207417965=="
+Content-Type: multipart/mixed; boundary="===============6188791461159517538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 27 Feb 2022 11:06:04 -0000
-Message-Id: <164595996402.13858.4183073166232212036@gitolite.kernel.org>
+Date: Sun, 27 Feb 2022 11:07:42 -0000
+Message-Id: <164596006208.14461.10852631918107150136@gitolite.kernel.org>
 
---===============6119792933207417965==
+--===============6188791461159517538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,26 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 0cc70c6eecf14c37cb6d8eb3f625ab359e6be323
-    new: 1bb1c5bc54e9ea6ef8a2e2a5d17e728c22c5a447
-    log: revlist-0cc70c6eecf1-1bb1c5bc54e9.txt
+    old: 1bb1c5bc54e9ea6ef8a2e2a5d17e728c22c5a447
+    new: b42a738e409b62f38a15ce7530e8290b00f823a4
+    log: revlist-1bb1c5bc54e9-b42a738e409b.txt
 
---===============6119792933207417965==
+--===============6188791461159517538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0cc70c6eecf1-1bb1c5bc54e9.txt
+Content-Disposition: attachment; filename=revlist-1bb1c5bc54e9-b42a738e409b.txt
 
-5e187189ec324f78035d33a4bc123a9c4ca6f3e3 net: ip: add skb drop reasons for ip egress path
-a5736edda10ca2ba075606baad1dda3f2426766d net: neigh: use kfree_skb_reason() for __neigh_event_send()
-56d4b4e48ace91ee4e41991438e0e11688750617 net: neigh: add skb drop reasons to arp_error_report()
-4aaa489538afd75ba638b5d848693e547dc40320 Merge branch 'ip-neigh-skb-reason'
-e8eb9e32999dc5995b19d5141f8ebb38f69696fc PCI: Add Fungible Vendor ID to pci_ids.h
-e1ffcc66818fbaa84da5e7fd153ec29ef0adf037 net/fungible: Add service module for Fungible drivers
-ee6373ddf3a974c4239f56931f5944fd289146e7 net/funeth: probing and netdev ops
-21c5ea95da9e560d97e92cd85afc28c083f4ad74 net/funeth: ethtool operations
-d1d899f2442887e8f8be99bb90f3479fefcbf097 net/funeth: devlink support
-db37bc177dae89cef6fc37bdbe6b223929f70245 net/funeth: add the data path
-a3662007a12edde4d3291fc60c42e6b5d01ced5e net/funeth: add kTLS TX control part
-749efb1e6d73f528598b13302864227b77810da5 net/fungible: Kconfig, Makefiles, and MAINTAINERS
-1bb1c5bc54e9ea6ef8a2e2a5d17e728c22c5a447 Merge branch 'FFungible-ethernet-driver'
+91495f21fcec3a889d6a9c21e6df16c4c15f2184 net: dsa: tag_8021q: replace the SVL bridging with VLAN-unaware IVL bridging
+d7f9787a763f35225287aedb9364c972ae128d18 net: dsa: tag_8021q: add support for imprecise RX based on the VBID
+d27656d02d85078c63f060fca9c5d99794791a75 docs: net: dsa: sja1105: document limitations of tc-flower rule VLAN awareness
+08f44db3abe69a195373ba5f8bd7cee395231c45 net: dsa: felix: delete workarounds present due to SVL tag_8021q bridging
+04b67e18ce5b29785578397f6785f28f512d64aa net: dsa: tag_8021q: merge RX and TX VLANs
+b6362bdf750b4ba266d4a10156174ec52460e73d net: dsa: tag_8021q: rename dsa_8021q_bridge_tx_fwd_offload_vid
+c26933639b5402c174c65c01d33f145622784012 net: dsa: request drivers to perform FDB isolation
+06b9cce42634a50f2840777a66553b02320db5ef net: dsa: pass extack to .port_bridge_join driver methods
+219827ef92f86460a6159c012636cae5e1e7a0e3 net: dsa: sja1105: enforce FDB isolation
+54c319846086e57071fd0e92d20f2cba0fbf0e79 net: mscc: ocelot: enforce FDB isolation when VLAN-unaware
+b42a738e409b62f38a15ce7530e8290b00f823a4 Merge branch 'dsa-fdb-isolation'
 
---===============6119792933207417965==--
+--===============6188791461159517538==--
