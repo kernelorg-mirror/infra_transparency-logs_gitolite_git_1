@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 28 Feb 2022 10:10:53 -0000
-Message-Id: <164604305395.8110.6725875519461094464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 28 Feb 2022 10:15:30 -0000
+Message-Id: <164604333037.11424.10319851399451258456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/next/libgpiod-2.0
-    old: f9ef0780d043f354edcbf3565f69764356edc57a
-    new: 9ca1e3100f3d11eb00e041c6cc6334956f3ab233
+  - ref: refs/heads/testing
+    old: 95df41f4ef19f5884269e6c62dc1d128a23c94cb
+    new: 66724c31c0a0959e540c95a82ed87763df7a5a69
     log: |
-         ffb006dd4ab9d435e5c0623bd31c2bcecaf3a465 gpiosim: fix a memory leak
-         4d8936acedafd48297686dbe8d4f0dfafee37b90 WIP: core: implement v2.0 API
-         b2b1c68f56a7425322b126e4bc42045b88e44ff6 WIP: line-request: don't accept NULL line config
-         18420b3ad863c603116153ae5aba7dc0724023c6 WIP: build: add a configure option for enabling gcov profiling
-         9ca1e3100f3d11eb00e041c6cc6334956f3ab233 WIP: build: link the gcov library with profiling enabled
+         8e74a48d17d509bf605e64252f38550b1a9cc376 iio: test: add basic tests for the iio-rescale driver
+         278fe1d2d3a70e45267098024dc27390d8a0a157 iio: afe: rescale: add RTD temperature sensor support
+         03e7d21ee1a975311c2a2c6f1f31e45023af991c iio: afe: rescale: add temperature transducers
+         d065a283fe8109a055930fc438eeea81d7f121df dt-bindings: iio: afe: add bindings for temperature-sense-rtd
+         66724c31c0a0959e540c95a82ed87763df7a5a69 dt-bindings: iio: afe: add bindings for temperature transducers
          
