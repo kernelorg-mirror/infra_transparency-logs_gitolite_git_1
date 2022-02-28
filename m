@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6696622805690144543=="
+Content-Type: multipart/mixed; boundary="===============2364961686667412769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Feb 2022 20:50:08 -0000
-Message-Id: <164608140838.10366.5164631903292176321@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 20:50:14 -0000
+Message-Id: <164608141452.10475.7411437461250362292@gitolite.kernel.org>
 
---===============6696622805690144543==
+--===============2364961686667412769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: eebb0f4e894f1e9577a56b337693d1051dd6ebfd
-    new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-eebb0f4e894f-7e57714cd0ad.txt
+  - ref: refs/heads/tty-next
+    old: c2faf737abfb10f88f2d2612d573e9edc3c42c37
+    new: d4ab5487cc77a4053dc9070c5761ad94bf397825
+    log: revlist-c2faf737abfb-d4ab5487cc77.txt
 
---===============6696622805690144543==
+--===============2364961686667412769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081407 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081413 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1646081404-4b7f8323124fd3b7089b47cc2b95334b76a18e99
+nonce 1646081412-e22ab182ce375fc0c25fb3764967dd780c927ddb
 
-eebb0f4e894f1e9577a56b337693d1051dd6ebfd 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/tty-linus
+c2faf737abfb10f88f2d2612d573e9edc3c42c37 d4ab5487cc77a4053dc9070c5761ad94bf397825 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdNX8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0zIP/R8k2Ql3W/bhuQtOypgb
-utn9XAUQrD26E+L+eDj61QL7S6PJ8uaHZEWRnLoU4ifvS4RQNFjQRsvM9oi4oB01
-QpWAwH3thZnFhzWECpwz7BQholKKr2SLIxlpiEXZrwprTHrDrfjQR3VbgwAvAm1v
-XHxMf4fQKn5nGPflLBhc6QMOLYvz/mIh7JAOD+zvaPp7BusoDsSJRL7Cp2gIfK4J
-C9NxSFu3oMUX18WfZP7lCV9MpWdiRCnLb145re4GdJ2KW/UOmloK6JIwJJvk0Z06
-rD0o0I9o4+8O1vP0Mq0nMnJDTjpTcmN+NOrLBEhJMqnw9LEDfT5CzowOgktQAfj2
-88d+KyhO+KFsNC6mjh0sz8QDhLUl5cqBIFE9XCwRnhjHb+J657QiB+kuU+ek/Ymx
-FNlj3qah/c5HfLU951cjpFrnR0Bh5y0Jd0APqM7guFAzXFHSGy1SEyTJ0nb4eZrJ
-JdvFhm+tuNg3X0ozyWpKpruO2FAAjLZMlnleMDn24ufY4akR6QvK0jKFX/n/1yxZ
-8kAyOII2jTDysQHewYEbtUQPyEPDDSnKafYqZ1LwdCv0FFAtHXREzNMCwVeT5r0Q
-ZCChg/lQksFYjAKgZ2HWqxIbx+OTSX90GH9cuBipkXUtGGmTtYuhmBOXMpH2XPxi
-+p309+86/fHjFxdb9fjYYeCJ
-=lQyM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdNYUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MRUQAIRPR3mu3QNk4ZEBFABQ
+JPKFk1Gu7jM6g4Sk+EmcCvWJ+z3N4qBHJRgJwbqXekdcpm8GpY3AHaO5DX3gcHiK
+Lyk0v8OnIvFHxxLyp7iDpIyQAjSRTVIXzEhZ2PmkeTy+NMsTiG83f+qjqSIMd8Dl
+9sLqwk49Urh/UuejhQjh0kNV0GSsHNN8NF0G/Qz1n/KSEAxME3IEs/NF3asOMsle
+q7y2RvaNI9FCer7W1V0Te1OQQoRZUnpFep5Q5DO9hOt2I+hQNcTDyvn/Wpkt12Da
+9y4sllFpDvv1vf2zRoPUcdC86J9Ze+ncTRR6jN/nABgeoO4ifBZum6HcGXeuMmZH
+xLpWT7bmiJABFtGXJ4rZ806ZGM6BV7FIixHjQ9swlFEtOqtAT+aP30YPiNVmKG25
+ICnrvtymgTDYsWtiwSViBwiWOJMHceYI4rb4pjASn4AiMnxAa6GbOJATGO09YeNq
+gm5mATfrDx1qEgebUQdtKN/gmLaDhnY+Cm4T41o672Pw65hqPIIj93XbVuJplnO7
+7y7z8o9/PHYNRSFsJM6sI6192+rwY4RxQWuSqRfguxVaOc58aWEIzEw8+dBdiqtx
+M1fwBW3S/yR/2DDwCMyfJ4Udyml5uom2C+ujBxIGiZt+rZP8nQ+xm5UlwAFM4lSm
+farZJDQA+zBNGv+uYPzgNq+k
+=GyZ0
 -----END PGP SIGNATURE-----
 
---===============6696622805690144543==
+--===============2364961686667412769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eebb0f4e894f-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-c2faf737abfb-d4ab5487cc77.txt
 
 91c64a4f1cb01cf0ec50f0372ff8ca9d3022b7d0 drm/i915/gvt: clean up kernel-doc in gtt.c
 d72d69abfdb6e0375981cfdda8eb45143f12c77d drm/i915/gvt: Make DRM_I915_GVT depend on X86
@@ -470,6 +470,14 @@ efe8a1e7cad456075247488f92a05f9cc2ddb394 Merge tag 'iio-fixes-for-5.17a' of http
 f6c052afe6f802d87c74153b7a57c43b2e9faf07 nvmem: core: Fix a conflict between MTD and NVMEM on wp-gpios property
 6c7621890995d089a56a06d11580d185ede7c2f8 mtd: core: Fix a conflict between MTD and NVMEM on wp-gpios property
 038101e6b2cd5c55f888f85db42ea2ad3aecb4b6 Merge tag 'platform-drivers-x86-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+737b0ef3be6b319d6c1fd64193d1603311969326 tty: n_gsm: fix encoding of control signal octet bit DV
+57435c42400ec147a527b2313188b649e81e449e tty: n_gsm: fix encoding of command/response bit
+e3b7468f082d106459e86e8dc6fb9bdd65553433 tty: n_gsm: fix proper link termination after failed open
+96b169f05cdcc844b400695184d77e42071d14f2 tty: n_gsm: fix NULL pointer access due to DLCI release
+c19d93542a6081577e6da9bf5e887979c72e80c1 tty: n_gsm: fix wrong tty control line for flow control
+687f9ad43c52501f46164758e908a5dd181a87fc tty: n_gsm: fix wrong modem processing in convergence layer type 2
+a2ab75b8e76e455af7867e3835fd9cdf386b508f tty: n_gsm: fix deadlock in gsmtty_open()
+eebb0f4e894f1e9577a56b337693d1051dd6ebfd sc16is7xx: Fix for incorrect data being transmitted
 1432108d00e42ffa383240bcac8d58f89ae19104 drm/amd/display: Protect update_bw_bounding_box FPU code.
 f626dd0ff05043e5a7154770cc7cda66acee33a3 drm/amdgpu: disable MMHUB PG for Picasso
 e3f3824874da78db5775a5cb9c0970cd1c6978bc drm/amd/pm: fix some OEM SKU specific stability issues
@@ -646,5 +654,6 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 98f3e84f8df66f1ac9d04b6d8093993c9bfd69e6 Merge tag 'dma-mapping-5.17-1' of git://git.infradead.org/users/hch/dma-mapping
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
+d4ab5487cc77a4053dc9070c5761ad94bf397825 Merge 5.17-rc6 into tty-next
 
---===============6696622805690144543==--
+--===============2364961686667412769==--
