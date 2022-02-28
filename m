@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4522410769902851720=="
+Content-Type: multipart/mixed; boundary="===============2454885625505538059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Feb 2022 20:43:27 -0000
-Message-Id: <164608100755.3725.8657652467415249838@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 20:43:35 -0000
+Message-Id: <164608101569.3820.12348371040629709780@gitolite.kernel.org>
 
---===============4522410769902851720==
+--===============2454885625505538059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 754e0b0e35608ed5206d6a67a791563c631cec07
+  - ref: refs/heads/usb-linus
+    old: 19eae24b76c27dedfb166dc06a8c48e052cbc814
     new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-754e0b0e3560-7e57714cd0ad.txt
+    log: revlist-19eae24b76c2-7e57714cd0ad.txt
 
---===============4522410769902851720==
+--===============2454885625505538059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081005 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081014 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1646081005-b68eabce058c4ea516d45dafda851786666454d2
+nonce 1646081012-d604c84c301fd76d1b72a5b3cd6912dc6ec84c27
 
-754e0b0e35608ed5206d6a67a791563c631cec07 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/main
+19eae24b76c27dedfb166dc06a8c48e052cbc814 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdM+0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S2oQAKyIeqKqKxuf7IYq4x44
-OMGRSYPQJBPHgy1811CAMWkSsPpIqDjqIKpyNsf25PRJkDbXC1YctZapRzRh+Gc1
-f2mOksuU8ZI7OePvdu1w5vjkzlKTp3a3XANBiGme5ORyfGGfREZ+vsNNefhFhoZq
-OOS9W/y4Vg1zkvcUlReYOze4z2Qjzwj53b38p1vRUk3W2EKUS8SrZBbvTCXylwZH
-y97KCQ8NH0lpvz6G0R9kC/kiiOwF9/msDw1655xGthYDE48u9A3PQk9T0uCjw+Zu
-hX2+pBvHu+QwMF0wezzwE3RK9ZGhWr2JSqA0SIauRKZl4koTmtZ76N/tp3OFd1ac
-iKNBTfv+92lARuVm/pGIPRsVHr1Pr2148DXX0jAs6/Ya90grEnX5xLSzdIbuEcAq
-PWbr/7sN5yG4ii9Qf6FBxrdo3KXCJor2F8eqOmYLnl12cV6ZVUJCKlbZjJCIPWwW
-emBG/BsD/XFE/B1rOVqfWYGqz2ryXJwvnRKbGDuhEr0umu7tHCsORhKyer5ItVYc
-FmE25pRDgI4+z8BwrJ2FvxTgkBmNHzGrICU8ifBjhROR7rRXDF6grJeYt4I1MeQb
-d1iXEu4N6jw3s1nL/yywl/aUb7WA8xKmPqUhVQi2i+OquIcSTK1UEBy38G/SAww1
-B1EFwTrKBilZgCmfGeE2RuZQ
-=4eGg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdM/YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hjYP/ieTsl06P6IxCOg452nJ
+yxhWKAAy66L9tfDCThw2ja6fuQSs7RHL7uukZLLCj84Je5LnN9hPk5qTa/v7UJuG
+wS9W0KL5R8abvGn2MnBGA4ei/eKrFl9u5X1/kIzniswDAdB3dLDvmst+KuQ6OAsv
+MuoLHlItmXRFTwzYJKpO9Bw+XY+wIN00VKKejjGu9k+eaqXh7Ely2+SlLDa1HCWR
+gNCZ4M1GbBZTf5MQhanatGe9/zx2MaljFSK1xtuy6NbAIFHWAd7hT0i95A29fZ6s
+jp4U+33tuNRmR6x2I03LHhqpLwuYFQMobvA6fvqx1MTyz2CpEpoW4i1+12h30M+v
+X411t3qL6cuCx2yL05d18rM3GN/d/tiLPtnf7VdGbNbDcmr9O6H3D38b9Z1OtwA1
+70MkJ3QCbDo10FdyY22nntzU1HzurPxFRrghmCAP0bLpfinGbNOc0l45qIyRiu6x
+IxaGI/O6JeqWDz4XnhBGmEK0aVjuRsUuYmhBGGZRgTQ3P16iUwFEhKTY2ubS3Ive
+waCCz+W6NGUfsZBe7BjvhF2ldmJ0q2jL4vx7eDE8gjFFUKmY/s7tnOQAHyGXGWt6
+9yyAnaj2niix42p6STrQFHrEkfUMB28Ky5Sot116u9wuAvcacA0/yip+S+7d3ldr
+jRwh8yDmHEoQ2uiyeQCbRk1t
+=30bd
 -----END PGP SIGNATURE-----
 
---===============4522410769902851720==
+--===============2454885625505538059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-754e0b0e3560-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-19eae24b76c2-7e57714cd0ad.txt
 
 91c64a4f1cb01cf0ec50f0372ff8ca9d3022b7d0 drm/i915/gvt: clean up kernel-doc in gtt.c
 d72d69abfdb6e0375981cfdda8eb45143f12c77d drm/i915/gvt: Make DRM_I915_GVT depend on X86
@@ -268,10 +268,6 @@ da2ad87fba0891576aadda9161b8505fde81a84d dmaengine: sh: rcar-dmac: Check for err
 2ce4462f2724d1b3cedccea441c6d18bb360629a i2c: imx: allow COMPILE_TEST
 5de717974005fcad2502281e9f82e139ca91f4bb i2c: qup: allow COMPILE_TEST
 fe663df7825811358531dc2e8a52d9eaa5e3515e powerpc/lib/sstep: fix 'ptesync' build error
-038438a25c45d5ac996e95a22fa9e76ff3d1f8c7 usb: dwc3: pci: add support for the Intel Raptor Lake-S
-d7c93a903f33ff35aa0e6b5a8032eb9755b00826 usb: dwc3: pci: Add "snps,dis_u2_susphy_quirk" for Intel Bay Trail
-8b328f8002bcf29ef517ee4bf234e09aabec4d2e xhci: re-initialize the HC during resume if HCE was set
-243a1dd7ba48c120986dd9e66fee74bcb7751034 xhci: Prevent futile URB re-submissions due to incorrect return value.
 525b108e6d95b643eccbd84fb10aa9aa101b18dd net: phy: mediatek: remove PHY mode check on MT7531
 b465c0dc83be93428eddff82b7bd4479759a0163 Merge tag 'ieee802154-for-net-2022-02-15' of git://git.kernel.org/pub/scm/linux/kernel/git/sschmidt/wpan
 25206111512de994dfc914f5b2972a22aa904ef3 crypto: af_alg - get rid of alg_memory_allocated
@@ -334,12 +330,9 @@ cc8f7fe1f5eab010191aa4570f27641876fa1267 block-map: add __GFP_ZERO flag for allo
 7a5428dcb7902700b830e912feee4e845df7c019 block: fix surprise removal for drivers calling blk_set_queue_dying
 e92bc4cd34de2ce454bdea8cd198b8067ee4e123 block/wbt: fix negative inflight counter when remove scsi device
 35a79e64de29e8d57a5989aac57611c0cd29e13e ping: fix the dif and sdif check in ping_lookup
-aba2081e0a9c977396124aa6df93b55ed5912b19 tps6598x: clear int mask on probe failure
 ad856280ddea3401e1f5060ef20e6de9f6122c76 x86/kvm/fpu: Limit guest user_xfeatures to supported bits of XCR0
 988896bb61827345c6d074dd5f2af1b7b008193f x86/kvm/fpu: Remove kvm_vcpu_arch.guest_supported_xcr0
 c16bdeb5a39ffa3f32b32f812831a2092d2a3061 rlimit: Fix RLIMIT_NPROC enforcement failure caused by capability calls in set_user
-62e3f0afe246720f7646eb1b034a6897dac34405 usb: dwc3: pci: Fix Bay Trail phy GPIO mappings
-32fde84362c40961726a5c91f35ad37355ccc0c6 usb: dwc2: drd: fix soft connect when gadget is unconfigured
 8f2f9c4d82f24f172ae439e5035fc1e0e4c229dd ucounts: Enforce RLIMIT_NPROC not RLIMIT_NPROC+1
 a55d07294f1e9b576093bdfa95422f8119941e83 ucounts: Base set_cred_ucounts changes on the real user
 c923a8e7edb010da67424077cbf1a6f1396ebd2e ucounts: Move RLIMIT_NPROC handling after set_user
@@ -449,9 +442,6 @@ e268d7084a90c740198579abc069813f903120aa Merge tag 'scsi-fixes' of git://git.ker
 3324e6e803156b4296975555f566892e4e3f4fcf Merge tag 'locking_urgent_for_v5.17_rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cfb92440ee71adcc2105b0890bb01ac3cddb8507 Linux 5.17-rc5
 ba1366f3d039e7c3ca1fc29ed00ce3ed2b8fd32f PCI: vmd: Prevent recursive locking on interrupt allocation
-198a7ebd5fa17b4d0be8cb70240ee1be885175c0 Revert "USB: serial: ch341: add new Product ID for CH341A"
-6ecb3f0b18b320320460a42e40d6fb603f6ded96 USB: serial: option: add support for DW5829e
-cfc4442c642d568014474b6718ccf65dc7ca6099 USB: serial: option: add Telit LE910R1 compositions
 3f33364836aacc28cd430d22cf22379e3b5ecd77 drm/i915: Widen the QGV point mask
 a40ee54e9a0958406469d46def03eec62aea0b69 drm/i915: Disconnect PHYs left connected by BIOS on disabled ports
 afc189df6bcc6be65961deb54e15ec60e7f85337 drm/i915: Correctly populate use_sagv_wm for all pipes
@@ -572,12 +562,8 @@ ca49df96f9f5efd4f0f1e64f7c4c0c63a3329cb9 net/mlx5e: Fix VF min/max rate paramete
 0c3127933cb5ee73784bdf6881525d1efc1d4b34 Merge tag 'drm/tegra/for-5.17-rc6' of https://gitlab.freedesktop.org/drm/tegra into drm-fixes
 7c17b3d37f1fa1eb0498cdf63d43ce37b23eaae5 Merge tag 'amd-drm-fixes-5.17-2022-02-23' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 5facf49702b6d994d3f1c72cffa0e83f3858ee19 Merge tag 'mlx5-fixes-2022-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
-7f14c7227f342d9932f9b918893c8814f86d2a0d USB: gadget: validate endpoint index for xilinx udc
-84918a89d6efaff075de570b55642b6f4ceeac6d usb: dwc3: gadget: Let the interrupt handler disable bottom halves.
-aaaba1c86d04dac8e49bf508b492f81506257da3 usb: gadget: rndis: add spinlock for rndis response list
 68af28426b3ca1bf9ba21c7d8bdd0ff639e5134c platform/x86: amd-pmc: Set QOS during suspend on CZN w/ timer wakeup
 21d90aaee8d5c2a097ef41f1430d97661233ecc6 surface: surface3_power: Fix battery readings on batteries without a serial number
-19eae24b76c27dedfb166dc06a8c48e052cbc814 Merge tag 'usb-serial-5.17-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 b2750f14007f0e1b36caf51058c161d2c93e63b6 Merge tag 'nvme-5.17-2022-02-24' of git://git.infradead.org/nvme into block-5.17
 558732df2122092259ab4ef85594bee11dbb9104 btrfs: reduce extent threshold for autodefrag
 0f4558ae91870692ce7f509c31c9d6ee721d8cdc Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
@@ -655,4 +641,4 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
 
---===============4522410769902851720==--
+--===============2454885625505538059==--
