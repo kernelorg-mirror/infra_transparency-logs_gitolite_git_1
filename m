@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2652071344918029099=="
+Content-Type: multipart/mixed; boundary="===============2937696509934575429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 28 Feb 2022 06:46:55 -0000
-Message-Id: <164603081579.24006.11593567332469299199@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 06:47:04 -0000
+Message-Id: <164603082423.24107.14997708598050378932@gitolite.kernel.org>
 
---===============2652071344918029099==
+--===============2937696509934575429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: d8f7a5484f2188e9af2d9e4e587587d724501b12
-    new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-d8f7a5484f21-7e57714cd0ad.txt
+  - ref: refs/heads/driver-core-next
+    old: ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5
+    new: 4a248f85b3dd8e010ff8335755c927130e9b0764
+    log: revlist-ae016b9da7bc-4a248f85b3dd.txt
 
---===============2652071344918029099==
+--===============2937696509934575429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646030814 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646030820 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1646030813-33a9034733ea411892cd0d3a98be4812f5e694c8
+nonce 1646030820-330f5d2d036c0df1a39b1bbb8c69691f6ee5beb8
 
-d8f7a5484f2188e9af2d9e4e587587d724501b12 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/driver-core-linus
+ae016b9da7bcb3b4ddd95afc406ddf5b27a859d5 4a248f85b3dd8e010ff8335755c927130e9b0764 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcb94bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PyAQAIEqnUvNeU5hkQ7OOq5X
-uzvqYf+GWHOI/wNfe0rByphTRdKgTS91qITaIMr3pHG8d5re0no6GJtp4FTGScel
-EHnY7GIzniy/nD9V6sbUEIBJ3V1Yk/htpOlShQVjvuFnYfn0rbCsEgOeIyPoIkQZ
-T2IJdF+hyVXdNb/DTFMLkGDVNbT0JiTVSvR8LTqfWczaS93qCuJeiQLWRs3JN5Iy
-ZGgzD4eG7FtMNZGhOHpxS5nBDkIA3aF+t6EySZGGq6Ya3ndwDpuFwBIUXwWahj3c
-8qC+nuF88e4ehe4SjSm7NKxRXqjCkFSuXVD6+QFrTyo7sSwIeEDTp9tOk9iidLFw
-VEN+pxf/vGbSiz5uaeGMiMpiJMlwqnilzyPHzqHsbK31L8tRgFW8OwhWs5M6GlaG
-+UmkC2HB6uUfajglWV4vcHV4QFdVJ8thP5TV5LwTQDQOtWMrEyKGW3CHuLVmBZyN
-h53dapfFHs1O7pT8nomhypoc0GlUtiNEuiB8GPmlHdIPAespRk8Jvdpvrd4dOOuQ
-+lDNbWdAYdJj6wFTl4ec8CoioPV48oTO441xYOl9CXQQWJ7ZROr3GdMVG3SCzslW
-8NncHFeywBdPC1ymPa+ziqHDJC950kvk/YiU6/QPc1ey6gxNDXLYxdoRkf+A/5/Y
-HxXnS9LV2PWvS+XKgx0bCL/P
-=e8gi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcb+QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FpIP/2osC6NZeVOudsoE6+ML
+fioPCVlIy9S0Oja1E9YnvduE3aRkV7aFhM64FjthzEf3CalCIYZ7kQ1s6CuydSDZ
+UHLKZPBuuyB3lrqIFEDlbdb9Bp8CtW5hTm75s9X7E6BfTqdh0gDzRJaijgbvz8r8
+eZSZ4BDYSQH2AuOPpMhZEE3t3rsr23KtHBTrNw0XoaYggkn1YTmU9cjnaMi5asCi
+lPIoGRBZ70RZfPUpaezvEaxQkOV5b+cT/wCjkJN0eYdAMgcY6eJofjzRirSEkPLr
+16v85ezyH7h/uAvZZhCHl4XEdww/HPXkzqT6V7F6RMk/62pMkxZ88JaTDwlNMQ9k
+dN68oq6mOT4DSZ5hylX2PoXCROgC5V6iXNPOMRW3mooIlcLlsfAYYIYDsWdPtr3s
+nTVZBae3iGvtG3w8MjXanW3TPGfFroc2UM+ZebMNuaMj00KE+OdFjbqdAyDGvd4g
+T2htK+a5nurMhNk0pyPiqvSEqhweZ/Er/7gZdHyqcGz0Vfp45Qg2fAVg3AAfiLAX
+fxIjdBLQMUiujZh6cgs7ZkorV1emghs4lnVuPvyILUh9qP6FMCnmwqkfVbVBJsBF
+iPXZorQitdLLiqXpq9qicXAlvuuv4AXP/AC1vpYNe4S3rxEDF3xOWlvOYi3+plbX
+hXALkog0/yXF9tJk7EtAnCIE
+=+jnr
 -----END PGP SIGNATURE-----
 
---===============2652071344918029099==
+--===============2937696509934575429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8f7a5484f21-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-ae016b9da7bc-4a248f85b3dd.txt
 
-472c6e46f589c26057596dcba160712a5b3e02c5 xfs: remove XFS_PREALLOC_SYNC
-fbe7e520036583a783b13ff9744e35c2a329d9a4 xfs: fallocate() should call file_modified()
 0b02c8c0d75a738c98c35f02efb36217c170d78c xfs: set prealloc flag in xfs_alloc_file_space()
 b39a04636fd7454911b80e7b5ab2a66b011a8145 xfs: move xfs_update_prealloc_flags() to xfs_pnfs.c
 cea267c235e1b1ec3bfc415f6bd420289bcb3bc9 xfs: ensure log flush at the end of a synchronous fallocate call
@@ -912,6 +910,7 @@ e3f3824874da78db5775a5cb9c0970cd1c6978bc drm/amd/pm: fix some OEM SKU specific s
 4d22336f903930eb94588b939c310743a3640276 drm/amd/display: For vblank_disable_immediate, check PSR is really used
 5f6b0f2d037c8864f20ff15311c695f65eb09db5 ata: pata_hpt37x: fix PCI clock detection
 dad3bdeef45f81a6e90204bcc85360bb76eccec7 netfilter: nf_tables: fix memory leak during stateful obj update
+d8f7a5484f2188e9af2d9e4e587587d724501b12 driver core: Free DMA range map when device is released
 5663b85462a66821fc314c5bf9ffd427d1ad71cc Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 f0fdfc04fd974cea23351b830fcac0822ea19a51 regulator: da9121: Fix DA914x current values
 c8c57fbc1c5067b913077e948c7d957af6834ba3 regulator: da9121: Fix DA914x voltage value
@@ -1081,5 +1080,6 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 98f3e84f8df66f1ac9d04b6d8093993c9bfd69e6 Merge tag 'dma-mapping-5.17-1' of git://git.infradead.org/users/hch/dma-mapping
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
+4a248f85b3dd8e010ff8335755c927130e9b0764 Merge 5.17-rc6 into driver-core-next
 
---===============2652071344918029099==--
+--===============2937696509934575429==--
