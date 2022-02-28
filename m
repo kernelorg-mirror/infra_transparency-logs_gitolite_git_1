@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
-Date: Mon, 28 Feb 2022 09:01:19 -0000
-Message-Id: <164603887949.13879.11544678479315663793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 28 Feb 2022 09:08:41 -0000
+Message-Id: <164603932148.17586.7647779153727319297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/narmstrong/linux-oxnas
-user: narmstrong
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/heads/master-pending
+    old: dade6cc912d94d00aa359b38fb2efad4bc570ea5
+    new: 583f428666206e4ab9d1111811a143ed7aeb2ad2
+    log: |
+         17303434b56ddbf83addcf2a17aa2ab823133bb1 ath9k: make array voice_priority static const
+         583f428666206e4ab9d1111811a143ed7aeb2ad2 Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: 35981e0bcc7ba83bb42f786486a0d5696cb36ecd
+    new: 17303434b56ddbf83addcf2a17aa2ab823133bb1
+    log: |
+         17303434b56ddbf83addcf2a17aa2ab823133bb1 ath9k: make array voice_priority static const
+         
