@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6652939610108734584=="
+Content-Type: multipart/mixed; boundary="===============6773641823403802894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Feb 2022 20:49:19 -0000
-Message-Id: <164608135980.8528.11560349480967718003@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 20:49:57 -0000
+Message-Id: <164608139783.8813.13164566787459775319@gitolite.kernel.org>
 
---===============6652939610108734584==
+--===============6773641823403802894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 71404f653cf7858fdbb81dd5419a8a4ac4ffa20c
-    new: 084be519b2749bb212641da3bda61407ac1ec3b8
-    log: revlist-71404f653cf7-084be519b274.txt
+  - ref: refs/heads/main
+    old: 754e0b0e35608ed5206d6a67a791563c631cec07
+    new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
+    log: revlist-754e0b0e3560-7e57714cd0ad.txt
 
---===============6652939610108734584==
+--===============6773641823403802894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081357 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646081397 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1646081353-4b39998fdb6339fba4d9c55a1d70ae1566a44b8e
+nonce 1646081396-be0e69a52fe694242a32b02568f30a411e8068c8
 
-71404f653cf7858fdbb81dd5419a8a4ac4ffa20c 084be519b2749bb212641da3bda61407ac1ec3b8 refs/heads/tty-testing
+754e0b0e35608ed5206d6a67a791563c631cec07 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdNU0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+esMQAKJb0xN2H5bffOUESsST
-N4BDuMMLPP0bfRomQj2Uw9F4Hl0JUYIUYpG/3wDET6tztVXvg6I2gtUbsAIQXie1
-LNw4DJLJpXJ4M31hxsO/Jl39rca8oxP+sAkIveuxEDIZJPh546+E0mXdsdJrhVRA
-Apd4sNkch5Dv5WjIM46EXT4Tt+oZD6Ed8tmpfXWbKnabFRdnDwyGq9iMg+je17eI
-ygdU4fDJwZjn7+WM+7odnzJHTJySn5tYJ5FIilgigaA1HVZN4VOImsVw4zjd32qP
-oYn38ik7S3/7sx+g7ZxDVf0KNrDXOm9jIjpA9+yCvnByqIeSYLdTgJ2++5sMkF3R
-kg3x8kLsf8ZdWPl6gIKN5K1+j7cRyLEcJYKp8FnwZbGuylQ4lpRxwPb1jGPL9ATl
-XcHuuYYxDnMaWuz+6NEA3Iq8fksNc61rZmtw/sLpLFgnFHGAHkiRL4+hkmboIICD
-HLBNaoDUe5g+ilYR0sVhgH8gRMct8VpTX1GdUOZ+aPSeNJGPcYgkHLAnB6wnjJvb
-pV3YQOSz37l2NjJeMIjcLp9OwyKtZr3weTIA1kYGcg1WR2E9QvQhu8J04iHchRuk
-EVwin4u5d3y+1p4F/yWbJhUgzErCNoJBfwZ7RxUrKgCrAUMiaN94UbPRXy0ph9Pk
-wsu1B4ENotT50gFpDy8VYZVQ
-=nujx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdNXUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yB0QAIXdg+fOimYzP8+/e8pJ
+utIlvTfvjP/uzN1sIvApKEbmpXZAP2w8xqGUw0+IbzYFc+ItBHWfNXzkcFzV3k6W
+8/JbDGH2Xrfd1vZdDXRW0S/y5/xFCst6jgQD4kXKbLHtCXF7Y7/td/yzadHilYSf
+ds0mu2l/vqgDOAEZDj9N5cjYJ1exmuWLaMSlMfddzNEVoojDydxiomW2eAzCwhH8
+vSW09AVuf1oTXY3yZl35seRAy0fI5zogHOmf2YASZO0V5HSOmIlOiJiUcIIVCzPa
+ylBTDuEGJqxn7qsmnJCyz+6CwgXgL9NpqWlb536JiJVMfFWCTPw4vatySvSkGYH6
+RA+t7bmOG0VRZggXedhp6sU/k8rAcP4aTzyrDR14QNPjKlMBTNwlDAqvOB503RBT
+6rb+JN+8gHPDYenA0ghWKaGWGaPoeOD8rXbj4Ay7/iyEFo1Qi1p/hHrRf+GoXkrk
+ri/WhrIlFGJ5DHA97zc1L3h3svk+ZFWCNdNBAHcMGin+7DOd2RzEFlYqYh4F5U+5
+LEqTw0jGD/tb9JHk7Fc77cLpX1Hb7fWw72A772b4OwBuI7AMIaZLpQcyrguxtw93
+OZnYzKIdhHQSIsmxyNiNv3kzWPqIdKVr3pYtmi6ryWj/+vSzUq8qVIAbuicBAXtw
+qDy8hGRZ2WMt12CsRfod9UzU
+=ZSfS
 -----END PGP SIGNATURE-----
 
---===============6652939610108734584==
+--===============6773641823403802894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71404f653cf7-084be519b274.txt
+Content-Disposition: attachment; filename=revlist-754e0b0e3560-7e57714cd0ad.txt
 
 91c64a4f1cb01cf0ec50f0372ff8ca9d3022b7d0 drm/i915/gvt: clean up kernel-doc in gtt.c
 d72d69abfdb6e0375981cfdda8eb45143f12c77d drm/i915/gvt: Make DRM_I915_GVT depend on X86
@@ -654,11 +654,5 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 98f3e84f8df66f1ac9d04b6d8093993c9bfd69e6 Merge tag 'dma-mapping-5.17-1' of git://git.infradead.org/users/hch/dma-mapping
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
-d4ab5487cc77a4053dc9070c5761ad94bf397825 Merge 5.17-rc6 into tty-next
-797bd4d41c8b41afc10fad39146ac9558cb39e94 tty: serial: define UART_LCR_WLEN() macro
-988c5bbea59ffacb7762983760ae40d721ea304b tty: serial: make use of UART_LCR_WLEN() + tty_get_char_size()
-5e1440bc23324846a003052787af6aa492e90773 USB: serial: make use of UART_LCR_WLEN() + tty_get_char_size()
-3f1519a70a3eeef4898b1684b8567699f0b03879 sdio_uart: make use of UART_LCR_WLEN() + tty_get_char_size()
-084be519b2749bb212641da3bda61407ac1ec3b8 mxser: make use of UART_LCR_WLEN() + tty_get_char_size()
 
---===============6652939610108734584==--
+--===============6773641823403802894==--
