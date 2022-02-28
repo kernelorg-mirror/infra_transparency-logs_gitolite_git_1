@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 28 Feb 2022 09:41:08 -0000
-Message-Id: <164604126823.21540.6295534293987325149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 28 Feb 2022 10:10:53 -0000
+Message-Id: <164604305395.8110.6725875519461094464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 557bf686f1c6f8825ae44db732d42a60ad3b1437
-    new: 7a69f34ab44d16b82ce993b5a5ee8a60a5ba6d81
+  - ref: refs/heads/next/libgpiod-2.0
+    old: f9ef0780d043f354edcbf3565f69764356edc57a
+    new: 9ca1e3100f3d11eb00e041c6cc6334956f3ab233
     log: |
-         c1736e6e0686a3553cc4b6910b10a9b2907cc0f1 mfd: exynos-lpass: Drop unneeded syscon.h include
-         bf50628e5f969d5fe1a2faa532f97824c161543f dt-bindings: mfd: samsung,exynos5433-lpass: Convert to dtschema
-         875c9253eed983cdec03121fc2c6bc4574db9b4f mfd: Add support for the MediaTek MT6366 PMIC
-         a3cbe85a8746b3e3571f8d63ef7bddbc635b1e74 dt-bindings: mfd: Add compatible for the MediaTek MT6366 PMIC
-         7a69f34ab44d16b82ce993b5a5ee8a60a5ba6d81 mfd: atmel-flexcom: fix compilation warning
+         ffb006dd4ab9d435e5c0623bd31c2bcecaf3a465 gpiosim: fix a memory leak
+         4d8936acedafd48297686dbe8d4f0dfafee37b90 WIP: core: implement v2.0 API
+         b2b1c68f56a7425322b126e4bc42045b88e44ff6 WIP: line-request: don't accept NULL line config
+         18420b3ad863c603116153ae5aba7dc0724023c6 WIP: build: add a configure option for enabling gcov profiling
+         9ca1e3100f3d11eb00e041c6cc6334956f3ab233 WIP: build: link the gcov library with profiling enabled
          
