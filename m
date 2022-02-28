@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 28 Feb 2022 16:41:20 -0000
-Message-Id: <164606648080.7876.12250096576799924722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Mon, 28 Feb 2022 16:43:55 -0000
+Message-Id: <164606663596.9049.4806473209679112157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/tags/memory-controller-drv-tegra-5.18
-    old: 0000000000000000000000000000000000000000
-    new: c35470fc7962983a10eaa84be417f7d5b4fbee9b
-  - ref: refs/tags/memory-controller-drv-mediatek-5.18
-    old: 0000000000000000000000000000000000000000
-    new: aa666e6d1ac9b886932aa4cc2eff273e364e025c
-  - ref: refs/tags/memory-controller-drv-5.18
-    old: 0000000000000000000000000000000000000000
-    new: c3424c60f68cb9f7765ea66af058839725cca9b5
+  - ref: refs/heads/mvebu/fixes
+    old: 0f89e3d718bc0eea2ac52c3ab3321133fd838d12
+    new: c2e0124eb5a1cd04f2b1386b0046a220017ff4f6
+    log: |
+         c2e0124eb5a1cd04f2b1386b0046a220017ff4f6 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+         
