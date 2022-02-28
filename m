@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Mon, 28 Feb 2022 16:52:03 -0000
-Message-Id: <164606712320.15719.17737734577550708309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 28 Feb 2022 16:59:21 -0000
+Message-Id: <164606756113.19377.2585156981369014093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 2013b615a7a7e25dc2e43677dbfef12471cdccf8
-    new: b54f53bc11a584713f79a704c70c488489f524b8
+  - ref: refs/heads/for-next
+    old: ca1697eb09208f0168d94b88b72f57505339cbe5
+    new: e52b78f890675132989aaa298e1e1077b6bf9325
     log: |
-         b54f53bc11a584713f79a704c70c488489f524b8 coresight: Drop unused 'none' enum value for each component
+         d248b2771f543417dea7f9af8be05190594e0621 sound: core: remove initialise static variables to 0
+         e52b78f890675132989aaa298e1e1077b6bf9325 sound: core: Remove redundant variable and return the last statement
+         
+  - ref: refs/heads/master
+    old: c33a6643759cabba5324cbbe65ad91c952384816
+    new: e6aaf67fc6d16f47570258b365b0bd3df6e9153c
+    log: |
+         d248b2771f543417dea7f9af8be05190594e0621 sound: core: remove initialise static variables to 0
+         e52b78f890675132989aaa298e1e1077b6bf9325 sound: core: Remove redundant variable and return the last statement
+         e6aaf67fc6d16f47570258b365b0bd3df6e9153c Merge branch 'for-next'
          
