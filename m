@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7391568307617006941=="
+Content-Type: multipart/mixed; boundary="===============4185383103727161592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 28 Feb 2022 07:45:08 -0000
-Message-Id: <164603430844.29853.5861347701320130915@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 07:45:13 -0000
+Message-Id: <164603431356.29967.521097209857918294@gitolite.kernel.org>
 
---===============7391568307617006941==
+--===============4185383103727161592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 754e0b0e35608ed5206d6a67a791563c631cec07
+  - ref: refs/heads/staging-linus
+    old: b6821b0d9b56386d2bf14806f90ec401468c799f
     new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-754e0b0e3560-7e57714cd0ad.txt
+    log: revlist-b6821b0d9b56-7e57714cd0ad.txt
 
---===============7391568307617006941==
+--===============4185383103727161592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646034307 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646034312 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1646034307-78b846178e3cda52f366c80f865230452908a552
+nonce 1646034312-ecae41287b41f51b18d78c942a8877767bcfe129
 
-754e0b0e35608ed5206d6a67a791563c631cec07 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/main
+b6821b0d9b56386d2bf14806f90ec401468c799f 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcfYMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xxgP/29+PUfWhbi6b6mDaStW
-VxGrQ4zqA57clFwccl2ASWjV8umdqKWc4Ln9GpnJVJ6PwyaIlgL+kOtcIJcbrr4V
-qyCiGKUrGZepe2I5+4LqiQwu+887/tBDde4wVnOwhX4a672ZTqFOhrIIDF/Y9C93
-Wl5tttOJXirvvMZ+Ea3ZAH3bkzyvH/xay+piWbWDufJuHHdY4ZhM07nebqCOmYkz
-hsrfPhWOHENpE9q9Ufx/y5nW6ljhilXQeniyWMK+GQXN+RufwPntNxgp5aB7I1TC
-swrENUdV8+cNYkyTBc7/hdBoXWPLn9Uk6AyK6i5uuDW4YCeLDu1XnVhkINqqm/wU
-ggIsEPPcO+cXN2tJY2lGWfZ1NuPy4DPMj19WtB6M0IxxUrv3cpVm0apBkhn1qquw
-xV2lV+U6f+WDnx5h/pQR95KmeoDr4otkTXi7MQKVXpKP5saskoasXkLdMia6RA4T
-sqzF+l+QlhNqAUzVbFBrrWhJ/mnlm5eapl/Fij/N/zXb4TDGzRc5BMtUxiLolIrV
-Ye7EJuKcw7Rx580bf3jKGVQB6K+YwsdCcVpZbiJ31WFIof1plgq67TfMOvKUyUfg
-Yrj2txyrKAldrHSHuEhmapuOPVEngOzdOLPn3hw9jA+yjoaWhto3UOHJTChW76S4
-urqPaYkFwhL/0C/oXtZfYXKc
-=1H1Q
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcfYgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5CcP+QHjbnhk2WX80eQ+scsu
+vUKzLr/5IH0QE9dKwDN694GNGWr/osrqHasPaEIYNO1k2FO0xanK1oR1aMi8G4YR
+C46NqZt1nha8XULvlITse4NCii+ullG1m8msxi39Eu5MqTxBbujDDWSQq0x5xlbq
+qpJp0NQ+Za4TKJBz8OrFBP1dZMDBJeGGephlnUbhp5akjVJZsA4qq4rS0xyRO1VL
+3TtoxXGqf0e7dFtZ/xu0YWo1GiB/DesjN7yrLlEJAQJOF27+eWegM0ndACaXHjRf
+n8KpG9MZ/y8PHFD8LW8S2EMuQsiPkcA1nAYn+CiUL+oHLcmsCaGjzg6CcwfLmLbg
+/kOJ9lTOXkFtXbuvydL1w0sKgtF47L+StWrU6TCcioh8vT5ZjCATnCNrxuq2WYWa
+ToMi+2WAg+c+NayZd3ENQtT8XTxb4eR6iAzt7C6QMRvdw+aITHdLF/17dS/jBjnK
+4HkioCdvwDzWeoUxhSEnQg2WzasVt1CiulMfX0uyMici6uq+cQ5FIaP2vTgtB+0U
+JsETe950IlUU+YZNQYwkUixg+wLUUWDJmXlauKrnHOZpWT8jkhwCzGJNQmcWSxCV
+DPaZ3AORjJSkNKbPIovK+xfG+9+YpMZH9hL+b2XeV6nBVnWkmT+Bt7hNQwtzuS6k
+WSVpdu5neHMmQsmA7z7qiXsJ
+=yFEn
 -----END PGP SIGNATURE-----
 
---===============7391568307617006941==
+--===============4185383103727161592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-754e0b0e3560-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-b6821b0d9b56-7e57714cd0ad.txt
 
 91c64a4f1cb01cf0ec50f0372ff8ca9d3022b7d0 drm/i915/gvt: clean up kernel-doc in gtt.c
 d72d69abfdb6e0375981cfdda8eb45143f12c77d drm/i915/gvt: Make DRM_I915_GVT depend on X86
@@ -284,7 +284,6 @@ f240762f88b4b1b58561939ffd44837759756477 io_uring: add a schedule point in io_ad
 7e5b6a5c8c44310784c88c1c198dde79f6402f7b mctp: fix use after free
 f8efca92ae509c25e0a4bd5d0a86decea4f0c41e EDAC: Fix calculation of returned address and next offset in edac_align_ptr()
 8d2b1a1ec9f559d30b724877da4ce592edc41fdc CDC-NCM: avoid overflow in sanity checking
-b6821b0d9b56386d2bf14806f90ec401468c799f staging: fbtft: fb_st7789v: reset display before initialization
 6f66db29e2415cbe8759c48584f9cae19b3c2651 pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
 c24449b321095d8c80cdda3d68107269c1d5569f Merge tag 'hyperv-fixes-signed-20220215' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 2572da44a51192ad181482c1989e66e5eb47dcbe Merge tag 'for-5.17/parisc-3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
@@ -655,4 +654,4 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
 
---===============7391568307617006941==--
+--===============4185383103727161592==--
