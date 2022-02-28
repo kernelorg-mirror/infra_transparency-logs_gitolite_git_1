@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7868330319538573320=="
+Content-Type: multipart/mixed; boundary="===============8086367272092736057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 28 Feb 2022 19:13:55 -0000
-Message-Id: <164607563576.10206.16471630988420844960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 28 Feb 2022 19:15:03 -0000
+Message-Id: <164607570322.12063.14556819068365177166@gitolite.kernel.org>
 
---===============7868330319538573320==
+--===============8086367272092736057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 0f907c3880f82cf9e8884c98aa70dd9e61221dfc
-    new: 46c81702e9228039eed367c7b451be3bb5fd7e45
-    log: revlist-0f907c3880f8-46c81702e922.txt
+  - ref: refs/heads/for-next
+    old: 75bbf0a182cf32c19e57cae786a932b51d255f1a
+    new: c83a1899d243081cd12b9c8fc314c881e35aaa5d
+    log: revlist-75bbf0a182cf-c83a1899d243.txt
 
---===============7868330319538573320==
+--===============8086367272092736057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1646075633 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1646075633-71215f65c67c9e4160195ce69daac494a626d278
-
-0f907c3880f82cf9e8884c98aa70dd9e61221dfc 46c81702e9228039eed367c7b451be3bb5fd7e45 refs/heads/asoc-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIdHvEACgkQJNaLcl1U
-h9BP/ggAgSD8+zrtyiS1lHOwGg4QAQaQ/YTpI2aWYwJvxMunZcYkYLSwdCs6JWNE
-rQ6ORPfXB4A0cpg+9S31QMVi0j0aKx48M0dGiVrPHxERpN/ZBH8WbNqx67xKLS2C
-bgopWCnGAJznKKs6LI72jmFrbsDR1ls/kUijF2afciLvx3XyDqF8rAtZxXEs9+6t
-sSZ1LLjOZAx0JISRo4FCU/eQeq7Hq33le62LWoOy1H1oXSY7OB7vmskI7TMfDmKz
-PnoFmmGauOs+/8wiWe9s8SU7bU+qOKqn4gy3lSkIpQaH3NiWflyMFThhKU0+SYuV
-1aHTUTxcr4aBtvfZ1dGR6VJLz7WiEg==
-=vKRr
------END PGP SIGNATURE-----
-
---===============7868330319538573320==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f907c3880f8-46c81702e922.txt
+Content-Disposition: attachment; filename=revlist-75bbf0a182cf-c83a1899d243.txt
 
 9e3d83c52844f955aa2975f78cee48bf9f72f5e1 ASoC: codecs: Add power domains support in digital macro codecs
 6619c7d4379aca716a90f7581be2853071c086f6 ASoC: qcom: dt-bindings: Add bindings for power domains in lpass digital codecs
@@ -96,5 +71,7 @@ d14c87d8ef0da4500ee8a0a3273972f4bb549412 ASoC: max9860: Use modern ASoC DAI form
 677c90bac3f198434f0256338cefc77e4663bcca ASoC: max98927: Use modern ASoC DAI format terminology
 316cd9412679fb36a0d4bcc6f4a045da467334e9 ASoC: es7241: Use modern ASoC DAI format terminology
 46c81702e9228039eed367c7b451be3bb5fd7e45 ASoC: Add power domains support for digital macro codecs
+df6077121c12c014337850e5798e5d2e3936a6d8 Merge branch 'asoc-linus' into asoc-next
+c83a1899d243081cd12b9c8fc314c881e35aaa5d Merge remote-tracking branch 'asoc/for-5.18' into asoc-next
 
---===============7868330319538573320==--
+--===============8086367272092736057==--
