@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Mon, 28 Feb 2022 11:04:06 -0000
-Message-Id: <164604624605.9981.13069069712390413677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Feb 2022 11:06:38 -0000
+Message-Id: <164604639814.12228.6517106817632502163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/matthias.bgg/linux
-user: matthias.bgg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/v5.17-next/soc
-    old: 0000000000000000000000000000000000000000
-    new: 88590cbc17033c86c8591d9f22401325961a8a59
+  - ref: refs/heads/master
+    old: 519ca6fa960587d02904a9f8f79d587ac874fb03
+    new: 9995b408f17ff8c7f11bc725c8aa225ba3a63b1c
+    log: |
+         9995b408f17ff8c7f11bc725c8aa225ba3a63b1c net: ipv6: ensure we call ipv6_mc_down() at most once
+         
