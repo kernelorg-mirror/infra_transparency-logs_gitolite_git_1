@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5986146855749550756=="
+Content-Type: multipart/mixed; boundary="===============0086715203080966507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 28 Feb 2022 03:41:20 -0000
-Message-Id: <164601968084.5767.16467016374225053201@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 03:41:31 -0000
+Message-Id: <164601969145.5908.15984074754899284395@gitolite.kernel.org>
 
---===============5986146855749550756==
+--===============0086715203080966507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: e41ef594be1dab539f59f57ec45ae98d7dbcc02a
-    new: 5728625d5c34ef3b207b4350c3fb9ee166eb91f8
-    log: revlist-e41ef594be1d-5728625d5c34.txt
+  - ref: refs/heads/5.18/scsi-staging
+    old: b709a4caa9d01f89314a4e5aab2e722fc9a5989a
+    new: 740ec00969c3fa062a74af9680af197c30de5c6f
+    log: revlist-b709a4caa9d0-740ec00969c3.txt
 
---===============5986146855749550756==
+--===============0086715203080966507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1646019672 -0500
+pusher 75C5DE3D 1646019683 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646019671-51ac5dd2d56e408e8e8fab1c4b6bdec66ad43ba0
+nonce 1646019683-9ca9bde448ff4b4a0fe1ed8a5c108bd228b4bb4b
 
-e41ef594be1dab539f59f57ec45ae98d7dbcc02a 5728625d5c34ef3b207b4350c3fb9ee166eb91f8 refs/tags/mkp-scsi-staging
+b709a4caa9d01f89314a4e5aab2e722fc9a5989a 740ec00969c3fa062a74af9680af197c30de5c6f refs/heads/5.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIcRFgACgkQ7ulgGnXF
-3j19fQ/9GM8TkGsNjHOMwL4AQC+m8PKVRQFX230ryDqL2D9ky0Iacf3viV2r9Z0m
-spiQmBPHKDz0U4o3fcE0w9UDNCfbxxYGhV+ZhvtxQo+LBcL07V+jF1nPZVWUweR6
-CEnDCJsun3BV83y8FRdcHnyB/3HcZDPyi6Jx2HX4XaZbUIAIH8oriTT4JstatN2P
-vP59lucn0CWOignxTaG+6y+YKUzqaZK0jc08a9qVUpCXnX3ErRXubH4mFQs0HfIB
-5JN6E49sb3zppuvQF4CZ1aLp9J3/9v+BcwMfWWs1nQkfY2MLeK6RinhDlKorlokv
-LakWaeuzlKktQ4QE9Z9zhboRp//v+44CLmMKm973sr9W6SIPVThPsD10xCmMkPjy
-H8L5SGHuk7A8pnZTtXE55fFznbosY83lYWumGkH7zcI7EAnp/GASrnWZb4R7jtc2
-pNoaduZ7QP+yCroXTE3t8oMFKGYffJ6/KG+jyZ9AEaXh0dvHfdwfl/qgKajYpzfv
-cQYAsosWVqLTDdwafS9p7CPykQmjoPgqK7Zcd4o+JkaPNONad+5WCJDVMxZfsRs1
-aTwEZLPCv/7CajliyjQeo46qG6LXcZY7lO+jBPqV7agocDNTxS3sAG+uYbQAzgT3
-cDRL2snNlYiAdOodj7N+KaDH0zjufceFuFdmvQFFdSdlrXxFYNk=
-=IYPr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIcRGMACgkQ7ulgGnXF
+3j1qdw//SNozN9LHgwixyTi7o28JpIsKNYmQC/c9oiK6llkYfDnX+5KtZvfHNge3
+I2fX4GXZuSqws46U+SHqpnsSViW/0ZsxCMVlSV7/cghX5Yboq8zlNmyzPWAMhrMN
+RoY3sIiFRPTEhsbK9mzH2Fdmr8Bge+NyXaMVXyIHbONReydp8XeTzN0X2pqDDVVC
+k9UPbz2b7cCEq7mkDjDx6h+NOe7jjoKv8k0F3EotDwtdAM00aXqUoh3dgEXtgmgU
+4WGMkw6g38hAGR8eyAzD+PlVZCPGBX0Qye2KDr3M+O6lvaHa1lgAzxeEc9ghqHTJ
+9qYUMxHG32LcEWRFx/PlISdkr2eSoYOlWL4EtZ2QB0kxbIB31LYT1IkxYZ021SHY
+qqXetQowA4M4TeUpQ/hAz+vDP5VbNqQGK+vbQYVb+0FNw4wyZIjELpyk0N4lH4E6
+K7IP9J/OBz1svqiaC4GzV/pO0lNU9+svI6if2AALxCbSKazn3ZCDKzxildFlVp77
+qKBzIxWf0N5PSI93s6ODA0zvYIoHzqSh25sAwdKDqEcwGzLYja+IKTUzhQ8BgAWN
+vSaE6x51y2p7X2Jtf6UWqAvVrpHUywfpa93Jt3+Nrz4R04X/IrKowNpHPJmRKTqp
+w9QMWGGL6AZm6tuXwVsJjlpGs1Rz3jGASrrdkvO/dENgNX0OwDs=
+=QapT
 -----END PGP SIGNATURE-----
 
---===============5986146855749550756==
+--===============0086715203080966507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e41ef594be1d-5728625d5c34.txt
+Content-Disposition: attachment; filename=revlist-b709a4caa9d0-740ec00969c3.txt
 
 c5b483d5c1a26b6006180f5dc7b2f8674f19afa3 scsi: libfc: Replace one-element arrays with flexible-array members
 e3af2e3b0019d9040f7cce39a8992cb4c03a087b scsi: message: fusion: Use GFP_KERNEL instead of GFP_ATOMIC in non-atomic context
@@ -98,4 +98,4 @@ ed709ce8aea370ef0da2912ddbdaecd13b395d05 scsi: target: pscsi: Remove struct pscs
 d5d9518b513ae7456e57f9602cec5077235f1081 scsi: core: Remove struct scsi_request
 740ec00969c3fa062a74af9680af197c30de5c6f scsi: core: Remove <scsi/scsi_request.h>
 
---===============5986146855749550756==--
+--===============0086715203080966507==--
