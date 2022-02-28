@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1755310869050470225=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Mon, 28 Feb 2022 17:55:47 -0000
-Message-Id: <164607094776.26423.11296908516367791893@gitolite.kernel.org>
-
---===============1755310869050470225==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 28 Feb 2022 17:56:47 -0000
+Message-Id: <164607100791.26798.18409883170888695455@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/rdma
-user: jkirsher
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 748663c8ccf6b2e5a800de19127c2cc1c4423fd2
-    new: 884194ef264e140a6d22f7a5de2b76765d17734a
-    log: revlist-748663c8ccf6-884194ef264e.txt
-
---===============1755310869050470225==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-748663c8ccf6-884194ef264e.txt
-
-185b9826782a53529b2b57328a8f49b1d0cf8f8f RDMA/mlx5: Remove redundant work in struct mlx5_cache_ent
-2f0e60d5e9f96341a0c8a01be8878cdb3b29ff20 RDMA/mlx5: Fix the flow of a miss in the allocation of a cache ODP MR
-56561ac6b27d489feb5d1e7e8b2a55a15063fcad RDMA/mlx5: Merge similar flows of allocating MR from the cache
-9ee2516c43823652da597633aed9646dac51c1f8 RDMA/mlx5: Store ndescs instead of the translation table size
-77528e2aed9246cf8017b8a6f1b658a264d6f2b2 RDMA/mlx5: Reorder calls to pcie_relaxed_ordering_enabled()
-4eaa29b45e09d8565bd8bf596750d9b90ad5c806 RDMA/ib_srp: Add more documentation
-2c4b14ea9507106c0599349fbb8efdeb3b7aa840 RDMA/irdma: Remove enum irdma_status_code
-45225a93ccc01a93f7fbffef4fcb2d9c649fe71e RDMA/irdma: Propagate error codes
-2322d17abf0a6c90251e8c0e419620c537e2875f RDMA/irdma: Remove excess error variables
-6a8a2e473b986191f4113c485905ea8462724d58 RDMA/rxe: Warn if mcast memory is not freed
-4a4f1073475796bcb343998bb1eddf6844b77963 RDMA/rxe: Collect mca init code in a subroutine
-a181c4c81a7104370c6144df5daf914780f8e89e RDMA/rxe: Collect cleanup mca code in a subroutine
-6090a0c4c7c6156f267ee217f6577eecd610a652 RDMA/rxe: Cleanup rxe_mcast.c
-80005c43d4c8f486fe594d89e640b3d24d6b3f4c RDMA/irdma: Use net_type to check network type
-8627da62cc3b9de4d299f2558a9f16b4c3c13a5d RDMA/irdma: Remove the unnecessary variable saddr
-884194ef264e140a6d22f7a5de2b76765d17734a RDMA/irdma: Move union irdma_sockaddr to header file
-
---===============1755310869050470225==--
+  - ref: refs/heads/master
+    old: d38b7f240696b6f9c2e2ee4ddef65248dd45e041
+    new: 1974a67b3037cf6c18179f5f47f4831ed87feaf9
+    log: |
+         27bf997545aacb61b214802e7eb9ff064126e748 scan: add scan_bss_get_security
+         9224575a83e5064d6b53e9cbd32caef7e1ba8b5b station: replace station_parse_bss_security
+         1974a67b3037cf6c18179f5f47f4831ed87feaf9 scan: check flush feature before using flag
+         
