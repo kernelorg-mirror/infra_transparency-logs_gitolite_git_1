@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2416332121791268747=="
+Content-Type: multipart/mixed; boundary="===============8420162321555352057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Feb 2022 11:01:00 -0000
-Message-Id: <164604606080.8638.6250562704029661110@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 11:01:13 -0000
+Message-Id: <164604607326.8825.11377577061367753157@gitolite.kernel.org>
 
---===============2416332121791268747==
+--===============8420162321555352057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7775e06b6677688f74efe8a5d1b7e05576260fcf
-    new: 5ff519ee9a5aa7daddbd28200d3f71b649c13358
-    log: revlist-7775e06b6677-5ff519ee9a5a.txt
+  - ref: refs/heads/for-next
+    old: 8213c61376877ead2128f2ce1b5935be58bad0da
+    new: 0d52a01a266ba21840c7cb02e1de39c503759dda
+    log: |
+         ee55c9c5734e34d7bf40c4f91d181622630626ff m68k: defconfig: Update defconfigs for v5.17-rc3
+         0d52a01a266ba21840c7cb02e1de39c503759dda m68k: defconfig: Disable fbdev on Sun3/3x
+         
+  - ref: refs/heads/for-v5.18
+    old: 8213c61376877ead2128f2ce1b5935be58bad0da
+    new: 0d52a01a266ba21840c7cb02e1de39c503759dda
+    log: |
+         ee55c9c5734e34d7bf40c4f91d181622630626ff m68k: defconfig: Update defconfigs for v5.17-rc3
+         0d52a01a266ba21840c7cb02e1de39c503759dda m68k: defconfig: Disable fbdev on Sun3/3x
+         
+  - ref: refs/heads/m68k-queue
+    old: c98234a344644969f31f24ed54989929f8199ba9
+    new: 66b9a5f97eddb1b92556ead57ad66ef951e42fd6
+    log: revlist-c98234a34464-66b9a5f97edd.txt
 
---===============2416332121791268747==
+--===============8420162321555352057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7775e06b6677-5ff519ee9a5a.txt
+Content-Disposition: attachment; filename=revlist-c98234a34464-66b9a5f97edd.txt
 
 b7a78a8adaa8849c02f174d707aead0f85dca0da iio: adc: tsc2046: fix memory corruption by preventing array overflow
 0e33d15f1dce9e3a80a970ea7f0b27837168aeca iio: adc: ad7124: fix mask used for setting AIN_BUFP & AIN_BUFM bits
@@ -344,6 +358,10 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 98f3e84f8df66f1ac9d04b6d8093993c9bfd69e6 Merge tag 'dma-mapping-5.17-1' of git://git.infradead.org/users/hch/dma-mapping
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
-5ff519ee9a5aa7daddbd28200d3f71b649c13358 Merge tag 'v5.17-rc6'
+e0caf651b72271984cac46b6cb50ecf733bb9d98 m68k: Add asm/config.h
+221a29d9e658dfe741193c2f931f6d26f50d0153 m68k: mm: Remove check for VM_IO to fix deferred I/O
+e8869535c35d6e4ba9d229a32b5f690dd50571bc m68k: atari: usb: Add ISP1160 USB host controller support
+3e6c8672c0331367eef3887b2b9cc98863d3cbc4 m68k: atari: Update Kconfig.bus help text
+66b9a5f97eddb1b92556ead57ad66ef951e42fd6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2416332121791268747==--
+--===============8420162321555352057==--
