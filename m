@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7001277340629139092=="
+Content-Type: multipart/mixed; boundary="===============3657625091840714557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 28 Feb 2022 14:11:50 -0000
-Message-Id: <164605751071.5014.9034523922595506736@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 14:12:41 -0000
+Message-Id: <164605756165.5588.10325147452569276587@gitolite.kernel.org>
 
---===============7001277340629139092==
+--===============3657625091840714557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: ac2beb4e3bd75b0049068516b9d42201bda0ded3
-    new: b709a4caa9d01f89314a4e5aab2e722fc9a5989a
-    log: revlist-ac2beb4e3bd7-b709a4caa9d0.txt
+  - ref: refs/heads/for-next
+    old: 95cd16ea1a66b743862c4b05a6aa25757b63004e
+    new: f6de306274ab69a8d60ed5490a88bef4a3aba850
+    log: revlist-95cd16ea1a66-f6de306274ab.txt
 
---===============7001277340629139092==
+--===============3657625091840714557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac2beb4e3bd7-b709a4caa9d0.txt
+Content-Disposition: attachment; filename=revlist-95cd16ea1a66-f6de306274ab.txt
 
 9aacf6fe90592cc7f64d56505e42606b61b76f00 scsi: libsas: Handle non-TMF codes in sas_scsi_find_task()
 1d6049a3b14feb39c8d6c8f538a711dcc54f88e0 scsi: libsas: Use enum for response frame DATAPRES field
@@ -137,5 +137,6 @@ e29c47fe8946cc732b0e0d393b65b13c84bb69d0 scsi: pm8001: Simplify pm8001_task_exec
 304fe11bdc25b4c8a6c9551590d256f647158805 scsi: pm8001: Simplify pm8001_ccb_task_free()
 ca44f98d619481094d38524077e9e638aafa2923 scsi: pm8001: Improve pm80XX_send_abort_all()
 b709a4caa9d01f89314a4e5aab2e722fc9a5989a scsi: pm8001: Fix pm8001_info() message format
+f6de306274ab69a8d60ed5490a88bef4a3aba850 Merge branch 'misc' into for-next
 
---===============7001277340629139092==--
+--===============3657625091840714557==--
