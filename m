@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7532930636388839220=="
+Content-Type: multipart/mixed; boundary="===============8399093753338879662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 28 Feb 2022 17:22:21 -0000
-Message-Id: <164606894144.3362.16548113403080204588@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 17:23:00 -0000
+Message-Id: <164606898073.3688.567644706068858152@gitolite.kernel.org>
 
---===============7532930636388839220==
+--===============8399093753338879662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,100 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 703fd9abe2008be8088c4d787974ed4708a02545
-    new: 277110482a84a0400d6d71b4c12262431b62a5fe
-    log: revlist-703fd9abe200-277110482a84.txt
+  - ref: refs/heads/linux-5.4.y
+    old: b77a12b8d61311504f44ad2458e742bc5c69aa96
+    new: aa9d24e3c1088399a4cd2b031c4c6abee5d58a60
+    log: revlist-b77a12b8d613-aa9d24e3c108.txt
 
---===============7532930636388839220==
+--===============8399093753338879662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646068934 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646068975 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1646068934-de512598d82d0f0b40987fdcc9983e189ae0bf50
+nonce 1646068975-63daf64c6773862db08b8f906fc2987e4017c6a9
 
-703fd9abe2008be8088c4d787974ed4708a02545 277110482a84a0400d6d71b4c12262431b62a5fe refs/heads/linux-4.19.y
+b77a12b8d61311504f44ad2458e742bc5c69aa96 aa9d24e3c1088399a4cd2b031c4c6abee5d58a60 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdBMYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VM4QALuhM2jEuhvSVLjVKoDG
-uLOX0NRmv3+OkJPZfo5h3m+/wuE3GkHbleMfQI8au2AWqPN3qxcHVkEwNm2N5U4+
-XdZ9WdweVwdvBzgnZq964/iAcsU1roOXmQg7ckcHEsxgSi1s+HeZV5rlWk4/+Rbe
-D/Txtohp3xkE4hrDiP4KuPSVgmQzlFT+zKLByDKO9iXK+f84cgkEehG4hLc/Y0PX
-DPO1CLgFMJt+oFK4R5VbvHtkU0vrnSsYyPgRVotWuGi/0P9VE/UFBsR5GzqsL5wW
-ro4Ts37M3A/PfyFuZ+96QD3wznT2a6Ov86gj9LwGr8acIvAS/clmrY2NFlPj+k1g
-fkXq87FLGxqVEDU7dIlu2dwJzhQkN0cAiGw91RDd6QocV3IHxdG4L5dBtP7iTiOJ
-Gk8gwhaNbqGitP9t3MLOkx4GbUyHGixtoTdpDGu23SE25O3qPMtcLMq2Wi5XTTxS
-cc1ZAK6HV+nn0N4zQSMrT9y2S3TTUt4ZcTM7CgiEX7BC8XfGkiVtV5caGxbNeDqq
-BI/AzGsp0igd5fBLOdWyghPp4xp35BAKFYY6DmvL3ncU2I8tLcDingkvL9CrXBtO
-Ny3UwfTd7Q+gSS5KHBSBN34qvUGZFLuVaFnnYu+wEZlK/JQ3Po6A9FCtcUS8OTAq
-/JFsnjni3v1aUluu4smctAvi
-=/lOS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdBO8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R5YQAKfSpHNQdreX9DUlC8LF
+EAQeZPDRV722rkHDlHBUPbeIm/5ELjBtVxnOQ03TaTN4v8AJWDJHXeFuWlNpwZWi
+yWbeahOVTtGUT1X4wsYZx2PVU12yqN48pz67C9MazvH+OS1ji7dGP34y53Au6Htn
+mJDJjKWFrRI3OFGE3c4sWSBFyKd6CsEk9Np6Bwk7NvO6msbZ4SHclzckUg/Nodk/
+dZC6LFS3oR1+FmwKxFoYBcHALEQrpEitgyGMp7MUwlNUAc8+hUrb7Xs9irPhIIvW
+7jU8peaO1YNU2AtVr+O5IQmHZYPRaWM/5z/usClad9FKif+awWy51otCtBg0km9g
+DqUfe5Rsq3VsB5rGbNUwr0V8nwN5QxqgnuDlRtcahlvGTrTPwfMSjA8oiyF8AB2t
+KfLNXWy8CEY30t9y2Fb036pejk0WyUiLD+2E5nYbevs1n/eeHLIOZ0QXa6gCLHoz
+eIuBb55SgPsIh9VpVcnInCdSY2yC7tJfs+SHhQOB524w9+Vyogyk15vlxY3psagO
+AczNGSSOIAgPipiFzjVjEYy0iULPBYngl08V/xNC4Z9mpmmk/wIKaGexWaz1tp7z
+KpmmYflTcnflIMqbNgLv2Cyr1g1J04mPUBfLTH8nhYyG3E7JbK+GIdV+sDCCv8Ej
+PZyc+TMswEDIan/Dt7Svq67n
+=Fr+Y
 -----END PGP SIGNATURE-----
 
---===============7532930636388839220==
+--===============8399093753338879662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-703fd9abe200-277110482a84.txt
+Content-Disposition: attachment; filename=revlist-b77a12b8d613-aa9d24e3c108.txt
 
-8b4ae08c31e313165e06e44262cf6531297be519 cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
-9d4cdd14b1dcf5250866493e1f684055bd5be8e1 vhost/vsock: don't check owner in vhost_vsock_stop() while releasing
-1ed796720a10faa7f8f9df3176ccdef58cf97322 parisc/unaligned: Fix fldd and fstd unaligned handlers on 32-bit kernel
-e10266efe4e4783abdf78b37857c35532f6dc0b9 parisc/unaligned: Fix ldw() and stw() unalignment handlers
-49bec651305e52602bc8b83e164830af9abee67a sr9700: sanity check for packet length
-4e072dcb1f1512e20e7b70f239e68f37534fbe56 USB: zaurus: support another broken Zaurus
-fd58b67485453613ed9d7b9cb4c0d18f3572fef6 ping: remove pr_err from ping_lookup
-6b27a56871dbf578264f6297a42e6de43046f4eb net: __pskb_pull_tail() & pskb_carve_frag_list() drop_monitor friends
-255d22d511f456006efd951a7b89ae47b5482d11 tipc: Fix end of loop tests for list_for_each_entry()
-357b5099de21c5e4034f16ec938b0c345b8413d1 gso: do not skip outer ip header in case of ipip and net_failover
-22f06564f8f9aec29d13fac92e8fb1c4c51c0d4c openvswitch: Fix setting ipv6 fields causing hw csum failure
-688d01d89894e65ecf764a57ec2c5995065275b2 drm/edid: Always set RGB444
-6e1a22c6c4e900c4d7254eb8010b6726f4bfe67b net/mlx5e: Fix wrong return value on ioctl EEPROM query failure
-98491f836154d584f87c748451de36a7542412c0 configfs: fix a race in configfs_{,un}register_subsystem()
-d95ac4d040adef992638d0491b58dfa3e71dca03 RDMA/ib_srp: Fix a deadlock
-a0ae0ce249ecf677574a7ea2211f0dac2a6c7b60 tty: n_gsm: fix proper link termination after failed open
-3e7f6e1138bfff69e9a883301211844d5feb28fd gpio: tegra186: Fix chip_data type confusion
-7b5f6f678b2ed9df42da3a358054f5768ea42694 Revert "drm/nouveau/pmu/gm200-: avoid touching PMU outside of DEVINIT/PREOS/ACR"
-358e60c3b9f56e302c2da2d237321b0b4ca58b24 memblock: use kfree() to release kmalloced memblock regions
-24c02d2ccc7297fe729e60e399ad8e9815e6b8c3 fget: clarify and improve __fget_files() implementation
-89744dcbc01b4fec780aa8d6837d1efb67f2f838 tracing: Have traceon and traceoff trigger honor the instance
-7afed3d6e8a04268f6da9c70a7346081afcf2e24 iio: adc: men_z188_adc: Fix a resource leak in an error handling path
-785d4c37f27262d9b1223ea89b93e5594bceb7e1 ata: pata_hpt37x: disable primary channel on HPT371
-6b31ad4133e3f58953f752bda683d31936418bd2 Revert "USB: serial: ch341: add new Product ID for CH341A"
-ab23ac034f677646c849b5966c4f5d956911a0de usb: gadget: rndis: add spinlock for rndis response list
-eac18e53122fc611007f00255e260aab2388808d USB: gadget: validate endpoint index for xilinx udc
-ea76dce8f3ed90531d6aa1646f85e3fb70b64840 tracefs: Set the group ownership in apply_options() not parse_options()
-bff68b18ab526223264180a456dfe235e704ecce USB: serial: option: add support for DW5829e
-2bea6f45bd57f41c3976de7d37fe9f92225f7333 USB: serial: option: add Telit LE910R1 compositions
-62c16b16dcddcfe90e68bc6b144ad3e82c4d1e49 usb: dwc3: pci: Fix Bay Trail phy GPIO mappings
-0f5f4342436aed7b549bfd1797db5d990a2a472a usb: dwc3: gadget: Let the interrupt handler disable bottom halves.
-8e10f8aaf8589d6c7d1df8013b1fd8e004fa4ad1 xhci: re-initialize the HC during resume if HCE was set
-2e254cb11c85cdedb9d0dd89894e4eaaeba4a193 xhci: Prevent futile URB re-submissions due to incorrect return value.
-9d75dceec1c702094523255b88a0f3f4eae0f587 tty: n_gsm: fix encoding of control signal octet bit DV
-277110482a84a0400d6d71b4c12262431b62a5fe Linux 4.19.232-rc1
+f0d4a0ff638eee63609620323d444488521b11ae cgroup/cpuset: Fix a race between cpuset_attach() and cpu hotplug
+f420627baab2a6dda88c4511d4fa3c5078b0c4c4 clk: jz4725b: fix mmc0 clock gating
+e18d119960b5f58fd740b42e92e64acaa4bfadd9 vhost/vsock: don't check owner in vhost_vsock_stop() while releasing
+b6e2c00ee3431a0b170d4fab577af7f1297d195f parisc/unaligned: Fix fldd and fstd unaligned handlers on 32-bit kernel
+a938f6f0624c334f9611243895115cada804fd97 parisc/unaligned: Fix ldw() and stw() unalignment handlers
+e2aaf3e8c95939e6ee1e4dc51bca4838d6dbba22 drm/amdgpu: disable MMHUB PG for Picasso
+dd816a8094fe26b3588dc1b338b7e0888f15b6fe sr9700: sanity check for packet length
+fb6d9ca7c598bb36f1cfe8a4ddd50f9e1dc855fc USB: zaurus: support another broken Zaurus
+b66ca8f9ef99d17ba762e3165cc21b8b0fc7b697 netfilter: nf_tables_offload: incorrect flow offload action array size
+ec2fe3b57a66e1de31a58d00619d3e7171bbb0f7 x86/fpu: Correct pkru/xstate inconsistency
+0a424760445bf1527333e408d201faa91f0dbb61 tee: export teedev_open() and teedev_close_context()
+e26d09faa07ebfea3a1fd13fa7d39b69f6cade5b optee: use driver internal tee_context for some rpc
+762f7ac16d4ae1c60a182969e1c133023778582b lan743x: fix deadlock in lan743x_phy_link_status_change()
+b9ae36e38f0103a8db758edab2473fc6ec3af9b9 ping: remove pr_err from ping_lookup
+6a5bf67a0b6f56e9bbbd7064d68cb2844e6902a4 perf data: Fix double free in perf_session__delete()
+87083d9651f97ec21c0d0a9bbf3be89fa03a893a bpf: Do not try bpf_msg_push_data with len 0
+03a351fcb924883fcb44c474292b19379ef10286 net: __pskb_pull_tail() & pskb_carve_frag_list() drop_monitor friends
+33d45274280e13d4494684a6582897f5ac68eaa9 tipc: Fix end of loop tests for list_for_each_entry()
+1aaf24ea8ee01b711683797068df63748488a7c7 gso: do not skip outer ip header in case of ipip and net_failover
+24ffbab2785546f105151ddad0dd1576e8f5fb2a openvswitch: Fix setting ipv6 fields causing hw csum failure
+272b8a570b5a7d589404077f46bd5c1e35c2c095 drm/edid: Always set RGB444
+9549678112d879bdcec5e826637cb61166388b78 net/mlx5e: Fix wrong return value on ioctl EEPROM query failure
+c3bc5320640fb3f980fd8dc543fed473616f8e3e net: ll_temac: check the return value of devm_kmalloc()
+3a02f4e80b7a4f8c900430b9a66035799a39e994 net: Force inlining of checksum functions in net/checksum.h
+6890f76b1b32397f344a646d3cc160a02bfeb1b9 nfp: flower: Fix a potential leak in nfp_tunnel_add_shared_mac()
+14d69932cb2cadabe56fc5181c276206a59b7de7 netfilter: nf_tables: fix memory leak during stateful obj update
+9b5a1b785f4475350152bfbc334b33c3ac120abd net/mlx5: Fix possible deadlock on rule deletion
+2c71b0ce63bfcd39dc3491b7b5adb753f80b805e net/mlx5: Fix wrong limitation of metadata match on ecpf
+06e0d90eed90d1f62395ec1678e650d6403f29da spi: spi-zynq-qspi: Fix a NULL pointer dereference in zynq_qspi_exec_mem_op()
+fd68fc0abe45eae42d98ac1ab0f25d3ffc696606 configfs: fix a race in configfs_{,un}register_subsystem()
+d8ee0abf7a4d6fd8736040267da49540a7d8b830 RDMA/ib_srp: Fix a deadlock
+13c1c021037ec2b157432ee0c170925a77be2cbd tracing: Have traceon and traceoff trigger honor the instance
+e4e3af2750ba841f6ab609c973a1d5e960f0dcaf iio: adc: men_z188_adc: Fix a resource leak in an error handling path
+6e31bb0b70d7e1ee5bf9a553c9e0812ebeedf5da iio: adc: ad7124: fix mask used for setting AIN_BUFP & AIN_BUFM bits
+0c05b231d9b46e888e16a0c09006f72329d774b8 iio: Fix error handling for PM
+8a541c70f013547a44f204d2d3172d0e1ca73fc8 ata: pata_hpt37x: disable primary channel on HPT371
+33a8b2a7469e7bdce113db2c3039878acd6895d4 Revert "USB: serial: ch341: add new Product ID for CH341A"
+f1c7ef96447c06c6c0ef64a11b6fcd34fc8bd3f7 usb: gadget: rndis: add spinlock for rndis response list
+fe7fd4bb54dc1f395add5f72a28ad2ffcef29e06 USB: gadget: validate endpoint index for xilinx udc
+921d54812204d6d2fbaf3f80a40a81909dd05d1d tracefs: Set the group ownership in apply_options() not parse_options()
+c5ba68cb34fb68dfcb4ade9349748ce33c2f280f USB: serial: option: add support for DW5829e
+ac7a1543d4c4ff28d8e074d5c5ec96b934a70925 USB: serial: option: add Telit LE910R1 compositions
+1c44a7a3706de527d4ddef3aec34ac3fd396eb85 usb: dwc3: pci: Fix Bay Trail phy GPIO mappings
+ecae7a1ca5bb2ae49e06eed1a1569debc0a79117 usb: dwc3: gadget: Let the interrupt handler disable bottom halves.
+5cc85621a45e969e760ef449112a47701dea4913 xhci: re-initialize the HC during resume if HCE was set
+9f6bbd218303b51f1b11973c7c3d592b8248438c xhci: Prevent futile URB re-submissions due to incorrect return value.
+7ae0c8bdbe90bb1337ebd259254c698b3952c5ca tty: n_gsm: fix encoding of control signal octet bit DV
+72e073b2ad63375f2e72bc572e7cd90984e9e565 tty: n_gsm: fix proper link termination after failed open
+6831f0377dd37fb89c05f4fd7e79ff6a553e6827 tty: n_gsm: fix NULL pointer access due to DLCI release
+2166628cc55aa15bf53ed7dc7c8eb0dca58e54c6 gpio: tegra186: Fix chip_data type confusion
+773817ad70728bce025ea561383e4b7da5527525 Revert "drm/nouveau/pmu/gm200-: avoid touching PMU outside of DEVINIT/PREOS/ACR"
+e4cfce900e9148bb65ab002772f2665863b64a14 memblock: use kfree() to release kmalloced memblock regions
+0a33c14a02de0e5b4c90ff50350502a3d37da2b7 fget: clarify and improve __fget_files() implementation
+aa9d24e3c1088399a4cd2b031c4c6abee5d58a60 Linux 5.4.182-rc1
 
---===============7532930636388839220==--
+--===============8399093753338879662==--
