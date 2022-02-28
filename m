@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8770224128947926909=="
+Content-Type: multipart/mixed; boundary="===============9052881822914512381=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 28 Feb 2022 03:40:57 -0000
-Message-Id: <164601965740.5523.4845385523206662223@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 03:41:08 -0000
+Message-Id: <164601966811.5620.14042103630502631772@gitolite.kernel.org>
 
---===============8770224128947926909==
+--===============9052881822914512381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/5.18/scsi-queue
+  - ref: refs/heads/queue
     old: ac2beb4e3bd75b0049068516b9d42201bda0ded3
     new: b709a4caa9d01f89314a4e5aab2e722fc9a5989a
     log: revlist-ac2beb4e3bd7-b709a4caa9d0.txt
 
---===============8770224128947926909==
+--===============9052881822914512381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1646019649 -0500
+pusher 75C5DE3D 1646019660 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646019649-91d5790078e88f6527c9eaf566f5959d5b429814
+nonce 1646019660-e271ddcf45baa704ebb9ed20c91cc9603972dc9a
 
-ac2beb4e3bd75b0049068516b9d42201bda0ded3 b709a4caa9d01f89314a4e5aab2e722fc9a5989a refs/heads/5.18/scsi-queue
+ac2beb4e3bd75b0049068516b9d42201bda0ded3 b709a4caa9d01f89314a4e5aab2e722fc9a5989a refs/heads/queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIcREEACgkQ7ulgGnXF
-3j0M5Q//fVNKE4bmj+jS9NJ5Xu+6mFdkPDzDX8J7ofyjF9vT943+US1bpdVagHB7
-q24z17HJWgHdh0pkLAkvjuf/wjalN6XzZWwzsNWilC769RvPsKyhxuwa9mbZeCIA
-TvDM/u8TlKKXiVFei5HOHc+Ukw7tnvfX5uX6kaGOfXMbALmyRdtEo8znh1wtkCD8
-iMxgk0CAqAKlODD8VC6ALZzi2Z037AVCLoulfEUBz0HrW+/eFtRUitbFb5OCNEQr
-RGk6HpdF3y/1OzgQxUTCQKFDdEnZdKrN2JYtUCr7FkhpOQWtor51zOlX0lXED42G
-gyI+4NYBk6BNpvuEtut8n5UBMRHnqUH0Wzbq2rpNx9if5Cb5Ckj6hRsPwMRhdmeP
-pHTyMAq+ZxorEnAVSd0hUatonELgZ9sLDDiXGa/L1V05TmTwuVK666KVoFF1QrjJ
-0vfVox7OCY1ScuRDl6TECc5a81D7XgZt34R7c3HQbMwM+hy++/NutspFrtn5ug1a
-N2LPph4Swehua67SeVRiCt/p3FykCJh5O2gW175mYEzJhFirati8mPAU1xh8Jcsv
-+swDAELP5sl5OGhfbPn0OiSBipUT/s4jVUpRnca4pcU+1tze1/nU2Ijshu3xn92I
-5lrySne67oq6nmRbFeci/hplWNmh06tV8ZCZTlFfhJ90b6ffQWk=
-=wuBI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIcREwACgkQ7ulgGnXF
+3j12mg/9FNULzsRh4GWA8G/nhyEShQT77FnVeXh/wmTkwjn+cLzGNXKkQuoulwmx
+pTf7HF6bUIh6sOFrDnRNhuH15TTmc8blnPml6vrsJdNU7RTzbH0uPvwD1TbdwVoX
+szIieWvl0sYZnk52B5TnFVs8tm3/As4LgpLkN24SQYSd8OMn3inoS3nScH2B0P2S
+nxeDTu1kQF76wM7bNMsbVY4iIc3txAM3ThtH+SnvT9YoNn0MvOIJ7IASXv7063pZ
+V3HptyZVLFzMstSss0bZQpUtGcUZMhZCVAIe+NwoPfrmUJ7mewsBePzfNA+v3Yaj
+U/ejYyfDvHsRRLRn2ZjNWljnyJGs2KmePSPkHF3POfkXSdZotaLU+/Pl/LgyQjVL
++kb2AlF/zjmVuUXMd2V6pGLbDg4YU+dnQLh2zLAkV/i43G7aAagd4sucp/m66mBF
+tmNcub6kfia+pKCv8VgN6iyo23Vh+FRci5lHomxd4lgmkzuzJGVRL1j6eSYV8yPf
+mq4eOdAutuymIaE/Cn/CYHs84x5vQJXOlq+yqmStm3UhpZDW5sasSmcrCW/KEPgW
+FlhbuOST0bdY8VYBrzDCtFhGd68yZMUpqWDULsQRpXBolUOWh+0yWoi2/LdOJ6/S
+PECxptUAvHlXP+S0gtFuCpNI1t1WuLt8lwv0Yi6tazqgW3M0FQg=
+=i2Mz
 -----END PGP SIGNATURE-----
 
---===============8770224128947926909==
+--===============9052881822914512381==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -168,4 +168,4 @@ e29c47fe8946cc732b0e0d393b65b13c84bb69d0 scsi: pm8001: Simplify pm8001_task_exec
 ca44f98d619481094d38524077e9e638aafa2923 scsi: pm8001: Improve pm80XX_send_abort_all()
 b709a4caa9d01f89314a4e5aab2e722fc9a5989a scsi: pm8001: Fix pm8001_info() message format
 
---===============8770224128947926909==--
+--===============9052881822914512381==--
