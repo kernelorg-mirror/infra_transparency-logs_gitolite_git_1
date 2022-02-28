@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0036050018448641114=="
+Content-Type: multipart/mixed; boundary="===============2416332121791268747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 28 Feb 2022 10:57:05 -0000
-Message-Id: <164604582541.5900.16798996342685132789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 28 Feb 2022 11:01:00 -0000
+Message-Id: <164604606080.8638.6250562704029661110@gitolite.kernel.org>
 
---===============0036050018448641114==
+--===============2416332121791268747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
+user: geert
 changes:
-  - ref: refs/heads/fixes
-    old: cfb92440ee71adcc2105b0890bb01ac3cddb8507
-    new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-cfb92440ee71-7e57714cd0ad.txt
+  - ref: refs/heads/master
+    old: 7775e06b6677688f74efe8a5d1b7e05576260fcf
+    new: 5ff519ee9a5aa7daddbd28200d3f71b649c13358
+    log: revlist-7775e06b6677-5ff519ee9a5a.txt
 
---===============0036050018448641114==
+--===============2416332121791268747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfb92440ee71-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-7775e06b6677-5ff519ee9a5a.txt
 
 b7a78a8adaa8849c02f174d707aead0f85dca0da iio: adc: tsc2046: fix memory corruption by preventing array overflow
 0e33d15f1dce9e3a80a970ea7f0b27837168aeca iio: adc: ad7124: fix mask used for setting AIN_BUFP & AIN_BUFM bits
@@ -344,5 +344,6 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 98f3e84f8df66f1ac9d04b6d8093993c9bfd69e6 Merge tag 'dma-mapping-5.17-1' of git://git.infradead.org/users/hch/dma-mapping
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
+5ff519ee9a5aa7daddbd28200d3f71b649c13358 Merge tag 'v5.17-rc6'
 
---===============0036050018448641114==--
+--===============2416332121791268747==--
