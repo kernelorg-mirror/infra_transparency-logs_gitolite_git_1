@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Feb 2022 15:10:20 -0000
-Message-Id: <164606102088.12707.4389002301743580431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 28 Feb 2022 15:11:57 -0000
+Message-Id: <164606111707.13285.4807819836063425537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 5e214f2e43e453d862ebbbd2a4f7ee3fe650f209
-    new: c62dd8a58d19fa35b60c84ab2435ac3ad0d3777e
+  - ref: refs/heads/master
+    old: e7dbe86544fabd1a5dd8eac203b02918f6112be6
+    new: c2a7de4feb6e09f23af7accc0f882a8fa92e7ae5
     log: |
-         c62dd8a58d19fa35b60c84ab2435ac3ad0d3777e bpftool: Remove redundant slashes
+         64276a9939ff414f2f0db38036cf4e1a0a703394 random: cleanup UUID handling
+         abded93ec1e9692920fe309f07f40bd1035f2940 random: unify cycles_t and jiffies usage and types
+         c2a7de4feb6e09f23af7accc0f882a8fa92e7ae5 random: do crng pre-init loading in worker rather than irq
          
