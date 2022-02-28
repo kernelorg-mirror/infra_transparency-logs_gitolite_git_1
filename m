@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Mon, 28 Feb 2022 15:13:43 -0000
-Message-Id: <164606122330.14259.10147628135087776972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Mon, 28 Feb 2022 15:13:54 -0000
+Message-Id: <164606123453.14408.3209341646698549248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: 6b9c5718b913900195354edc927b5c2783ff829b
-    new: dadcf77a61f6e140273d8510044bd6b71507dfb2
+  - ref: refs/heads/jd/blocking-urandom
+    old: 33756f97c1f651d586161102dba106864088a180
+    new: 2ad310f93ec3d7062bdb73f06743aa56879a0a28
     log: |
-         ab988e0cf2b050159ead87d9a7f1d08f9905f853 Add key use tracking to detect use after free
-         034c7733c643b06529515be228b974079ea10a99 Add test for dynamic engine keys to detect possible use after free
-         dadcf77a61f6e140273d8510044bd6b71507dfb2 Take an engine reference in the key
+         64276a9939ff414f2f0db38036cf4e1a0a703394 random: cleanup UUID handling
+         abded93ec1e9692920fe309f07f40bd1035f2940 random: unify cycles_t and jiffies usage and types
+         c2a7de4feb6e09f23af7accc0f882a8fa92e7ae5 random: do crng pre-init loading in worker rather than irq
+         2ad310f93ec3d7062bdb73f06743aa56879a0a28 random: block in /dev/urandom
          
