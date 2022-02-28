@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4760134240920551905=="
+Content-Type: multipart/mixed; boundary="===============7171408676598594181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 28 Feb 2022 06:31:40 -0000
-Message-Id: <164602990012.13344.2328257584540042318@gitolite.kernel.org>
+Date: Mon, 28 Feb 2022 06:31:52 -0000
+Message-Id: <164602991263.13484.8794279760077309846@gitolite.kernel.org>
 
---===============4760134240920551905==
+--===============7171408676598594181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 754e0b0e35608ed5206d6a67a791563c631cec07
+  - ref: refs/heads/char-misc-linus
+    old: 6c7621890995d089a56a06d11580d185ede7c2f8
     new: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
-    log: revlist-754e0b0e3560-7e57714cd0ad.txt
+    log: revlist-6c7621890995-7e57714cd0ad.txt
 
---===============4760134240920551905==
+--===============7171408676598594181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646029899 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646029911 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1646029898-f943b0303cc0f425a87f54cc96eefeeb99ad01f4
+nonce 1646029907-7b2c7ed1dbc5e08463f4c1411aa8f4a19ef495ce
 
-754e0b0e35608ed5206d6a67a791563c631cec07 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/main
+6c7621890995d089a56a06d11580d185ede7c2f8 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcbEsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CRgQAItUbtPh+tsjzR0uyqXL
-25/JHyeOishG5rR2WmLpWrscNAeJpIcKXEr5EALl9hQlaHYTj3UXFy3Vl9Rgba2Y
-+m2rlhXdvOWVNt7IvjoHXR+VLO53VG22TKjPINdjw/zw+RI1KCzWDwvEgD+8IZtY
-RmVggy2EDeBjvkP32akUgMqNDxYrGaIq0KBzExsgxkYemcSW4xl/BXEmfzR3yzS+
-OLtpAbjDW/eRomQSSpLAyaL2RdxJHVFS4a/pQBX+xQEnNSZtWXYkSXmXx+IDhnPx
-TAUSp9eY3e+icPirAGiDNnfpGS/mHetPP2oPpiyBvkBIop4cj06A1mxPEjM6JPBK
-2OUeEwmukqniXDtjduavYce2NCbbbofChyaE6vbDIQYMB2cv9c+2oqEs0HX1SPUP
-5G1yky7pGAo//lh7BxQ6FpKytanRjxEc6Zt+cScM8IP7Kor99Ygoy4r17EtmSk7J
-frWcyke2v4pM2g9w6Nm1MORbPG3SoCwLbrz+IaObHRK7IPeWXJBKpAfIc1p2Ci5y
-T3XkmicI17GvNgwkDnr4lLFnElRjT2n9ho+QIpDKUoNbxYVh3CuOjwsG86D0lOfx
-p4Z2veqWM2CDFOOm50TBtxKZtocQiAEktP9XDAYqhOAHHt0wL9lH4YQLvZ0rI/6k
-7IenLPX53zBOESSVdRFIVJGU
-=a6pO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIcbFcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EOoP/AxxWdaFJNDCHYdKMwEj
+VpQCyfVAY41iWlw+Zg00t/Q4GNnCB5yHP51cGVf+PV/m0MOFRCnSG1Tt2mjG6/vu
+kO5suaM+i7EBrt3fIgfUF1+7QCei8ESK3bea5NdtGU61zB+bjP4Hpdnrt1ncYcJc
+rWZSFJ44CVL/Acfrkw3OH2AuQDQdMIzkpaMzDp3gDG5Iq8pbQBZNijQD9s58f4sV
+EMNJjT+San/QHCENZCUtB1ShWp/KjO68dtAwT7g3ZJWxZJjnoEsXTz7MfzqDAhgu
+ZNpjD0L8+x9Xba8vP3fi4iuqiRBoHRf7XT60YEyzfVIc0QpECHmzZ2yApNXk+bbw
+Kbw8iCRHi2bkvxSeFh6Ppz3Pib1w8vqxUymqQ+DUhfotbQWZBkAA/jBBdG8BCCbO
+3QjAGAZF4xFwimVMoW1AYqQqbqEhjelKYpPXjVSk0q752sT976ynTmDFMPvYQCuV
+/UrIY5SvLw7ZCh25FAxsVJfQhOCsPV5wa4UZ6pRTeSZ8fIQz9X4vzM0dzpmg+XfQ
+602uBWSSU7GJQtI3e9MEJ6wRR2nOCBiGdvGGxVNWlOtzTPmUh6kp0nGVT/CrqeNC
+C7lF/WASeyAqX5KQryRvenZ5fTE8TVFhrr3E/6cIL8A2j5T3ZGe08jlCniRUbBAT
+DG1KQSTy1zFy+szGetGy+gEe
+=B6zn
 -----END PGP SIGNATURE-----
 
---===============4760134240920551905==
+--===============7171408676598594181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-754e0b0e3560-7e57714cd0ad.txt
+Content-Disposition: attachment; filename=revlist-6c7621890995-7e57714cd0ad.txt
 
 91c64a4f1cb01cf0ec50f0372ff8ca9d3022b7d0 drm/i915/gvt: clean up kernel-doc in gtt.c
 d72d69abfdb6e0375981cfdda8eb45143f12c77d drm/i915/gvt: Make DRM_I915_GVT depend on X86
 e26a78057c25dd56f112d536319c38735ed92ba4 HID: apple: Set the tilde quirk flag on the Wellspring 5 and later
-b7a78a8adaa8849c02f174d707aead0f85dca0da iio: adc: tsc2046: fix memory corruption by preventing array overflow
-0e33d15f1dce9e3a80a970ea7f0b27837168aeca iio: adc: ad7124: fix mask used for setting AIN_BUFP & AIN_BUFM bits
-b0e85f95e30d4d2dc22ea123a30dba36406879a1 iio:imu:adis16480: fix buffering for devices with no burst mode
-ccbed9d8d2a5351d8238f2d3f0741c9a3176f752 iio: accel: fxls8962af: add padding to regmap for SPI
 817b8b9c5396d2b2d92311b46719aad5d3339dbe HID: elo: fix memory leak in elo_probe
 ba1b71b008e97fd747845ff3a818420b11bbe830 mtd: rawnand: ingenic: Fix missing put_device in ingenic_ecc_get
 5c23b3f965bc9ee696bf2ed4bdc54d339dd9a455 mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
@@ -78,12 +74,6 @@ ba1b71b008e97fd747845ff3a818420b11bbe830 mtd: rawnand: ingenic: Fix missing put_
 b7d6f44a0fa716a82969725516dc0b16bc7cd514 parisc: Fix data TLB miss in sba_unmap_sg
 d7da660cab47183cded65e11b64497d0f56c6edf parisc: Fix sglist access in ccio-dma.c
 665408f4c3a5c83e712871daa062721624b2b79e brcmfmac: firmware: Fix crash in brcm_alt_fw_path
-a1cba0e2deeb0fe5200602658ed1078a714f8667 iio: frequency: admv1013: remove the always true condition
-e0a2e37f303828d030a83f33ffe14b36cb88d563 iio: adc: men_z188_adc: Fix a resource leak in an error handling path
-e7a3290d330e3f8cf06a3cad455c49e89183137b iio: addac: ad74413r: Do not reference negative array offsets
-8a3e4a5614adab30b6e0eb7dbd8ef737aabbb8eb iio: addac: ad74413r: use ngpio size when iterating over mask
-4165456fe6b7719c0c9626022a7d96c381c94e6f iio: addac: ad74413r: correct comparator gpio getters mask usage
-632fe0bb8c5b9c06ec961f575ee42a6fff5eceeb iio: Fix error handling for PM
 a72c01a94f1d285a274219d36e2a17b4846c0615 mac80211: mlme: check for null after calling kmemdup
 42a79960ffa50bfe9e0bf5d6280be89bf563a5dd mac80211_hwsim: report NOACK frames in tx_status
 cacfddf82baf1470e5741edeecb187260868f195 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
@@ -125,7 +115,6 @@ e3d13da7f77d73c64981b62591c21614a6cf688f platform/x86: asus-wmi: Fix regression 
 18a1d5e1945385d9b5adc3fe11427ce4a9d2826e parisc: Add ioread64_lo_hi() and iowrite64_lo_hi()
 8bc69f86328e87a0ffa79438430cc82f3aa6a194 Drivers: hv: vmbus: Fix memory leak in vmbus_add_channel_kobj
 6bf625a4140f24b490766043b307f8252519578b Drivers: hv: vmbus: Rework use of DMA_BIT_MASK(64)
-ea85bf906466191b58532bb19f4fbb4591f0a77e iio: imu: st_lsm6dsx: wait for settling time in st_lsm6dsx_read_oneshot
 946eb87114af37c9c13c618a7c1cdaca936905fa ASoC: Revert "ASoC: mediatek: Check for error clk pointer"
 307f31452078792aab94a729fce33200c6e42dc4 ASoC: tas2770: Insert post reset delay
 d7b530fdc45e75a54914a194c4becd9672a4e24f ASoC: rt5682s: do not block workqueue if card is unbound
@@ -466,9 +455,6 @@ ae09639e3b2a0291b37b122c94dd4f773cd4e513 platform/x86: int3472: Add terminator t
 6069da443bf65f513bb507bb21e2f87cfb1ad0b6 netfilter: nf_tables: unregister flowtable hooks on netns exit
 1a58f84ea5df7f026bf92a0009f931bf547fe965 netfilter: nft_limit: fix stateful object memory leak
 9d2231c5d74e13b2a0546fee6737ee4446017903 lib/iov_iter: initialize "flags" in new pipe_buffer
-efe8a1e7cad456075247488f92a05f9cc2ddb394 Merge tag 'iio-fixes-for-5.17a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-f6c052afe6f802d87c74153b7a57c43b2e9faf07 nvmem: core: Fix a conflict between MTD and NVMEM on wp-gpios property
-6c7621890995d089a56a06d11580d185ede7c2f8 mtd: core: Fix a conflict between MTD and NVMEM on wp-gpios property
 038101e6b2cd5c55f888f85db42ea2ad3aecb4b6 Merge tag 'platform-drivers-x86-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 737b0ef3be6b319d6c1fd64193d1603311969326 tty: n_gsm: fix encoding of control signal octet bit DV
 57435c42400ec147a527b2313188b649e81e449e tty: n_gsm: fix encoding of command/response bit
@@ -655,4 +641,4 @@ e41898d2ba51ef2e8e81fb905c1eaa958aec830a Merge tag 'fixes-2022-02-26' of git://g
 52a02554673122486ecb36c36387d91cf9544986 Merge tag 'irq-urgent-2022-02-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 Linux 5.17-rc6
 
---===============4760134240920551905==--
+--===============7171408676598594181==--
