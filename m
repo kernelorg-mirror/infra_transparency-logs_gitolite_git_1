@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Feb 2022 16:31:27 -0000
-Message-Id: <164606588707.2001.6779902824878392375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 28 Feb 2022 16:39:19 -0000
+Message-Id: <164606635955.5799.15966456494022837397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-next
-    old: 07609c193a0cfd1e3532a7dd81383c9d458f485c
-    new: a4fbfdd7a160eccaafc093eb5b34f838b1ca0bf0
-    log: |
-         a4fbfdd7a160eccaafc093eb5b34f838b1ca0bf0 libbpf: Fix BPF_MAP_TYPE_PERF_EVENT_ARRAY auto-pinning
-         
+  - ref: refs/tags/soc-fixes-5.17-2
+    old: 0000000000000000000000000000000000000000
+    new: e8d17987ecccc310d67025a1c5fc2d1bdd79d286
