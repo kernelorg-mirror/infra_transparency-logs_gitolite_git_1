@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
-Date: Mon, 28 Feb 2022 23:11:29 -0000
-Message-Id: <164608988962.6856.9283203792732289285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 28 Feb 2022 23:29:26 -0000
+Message-Id: <164609096652.18171.13716144099952015614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/heads/master
+    old: 43429ea74a121683dc231d0a694bb32734caea92
+    new: b664e255ba3c655a675e4e1fe9503d6f7ada3305
+    log: |
+         b664e255ba3c655a675e4e1fe9503d6f7ada3305 bpf: Add some description about BPF_JIT_ALWAYS_ON in Kconfig
+         
