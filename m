@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0980224837065966616=="
+Content-Type: multipart/mixed; boundary="===============6147520083573560769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 28 Feb 2022 21:26:01 -0000
-Message-Id: <164608356151.1099.8711547738056584974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 28 Feb 2022 21:29:11 -0000
+Message-Id: <164608375179.2177.7576051778951905543@gitolite.kernel.org>
 
---===============0980224837065966616==
+--===============6147520083573560769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 83ed0f6e2a0a02128e8f1d4d1634b264bae23f75
-    new: bcd9a49a237d5bf9cfd407200ccc8c92b20ad6fe
+  - ref: refs/heads/char-misc-testing
+    old: 085686fb8491a7cbf6a7260d5b9d4169a041c340
+    new: 540e6a8114d012d09cf6d49ba5ea0b942a3988eb
     log: |
-         bcd9a49a237d5bf9cfd407200ccc8c92b20ad6fe Add 82704BBB30DDCBC6 (Tzung-Bi Shih)
+         540e6a8114d012d09cf6d49ba5ea0b942a3988eb Revert "mfd: simple-mfd-i2c: Add Delta TN48M CPLD support"
          
 
---===============0980224837065966616==
+--===============6147520083573560769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1646083561 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1646083561-5d3634fed9533b321ae30695f503dbc61cebe117
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646083750 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1646083749-0a52e4a89bf44ca744e307b0f189d7e392df3a79
 
-83ed0f6e2a0a02128e8f1d4d1634b264bae23f75 bcd9a49a237d5bf9cfd407200ccc8c92b20ad6fe refs/heads/master
+085686fb8491a7cbf6a7260d5b9d4169a041c340 540e6a8114d012d09cf6d49ba5ea0b942a3988eb refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYh096QAKCRC2xBzjVmSZ
-bLTDAQDZxy+AgPzu3V3XZetZiHvob+68J9sPhvuAdbYl2qjIHgEAngD2wHi3cDQi
-mYseDXvt74Qygw2on9w6frGcwP8d8gw=
-=6q+K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIdPqYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d40P/31CyW6kczgUMmUTR7Hg
+zM8CzCcAvDMDte/esKCBjLEo6oQzOWZPtk6uv07dOmV7ZbzqU+uIA2lNTqYKyBXC
+yEve25kZ+jx8SaVD1pvBRi4LnjB8umtCslHdCWzXXnhCvVub0+CqGhqlUGB+6/VE
+blngKpBr9EBTSReQWeQ4CXcVr9MyCrEKbueuF7Kas+0ZN8baskMSUuMm8ZNlWwtm
+2YR3JmchNoaurFj9KTG1ASKAbNzBvQAquOFWPeQVt4ziU01Pv/UO4G/tluhGTEKb
+1q8FFrkaaJXOH31m+3ePJoAr/A7dgQOweI46Abw9zFgIGo4UL8AtW9QSTyS22N9p
+rGwDcS4AJ29LYc+GaAkL+Vzyx83Dr8t/pGMRUptNRMiQeppeUdJRlOrvnZvjwnRZ
+aQi3iR6TLigSLvq4Kg7tcIFRhfqRRj+cXTTQVVjL1hlLycjypUqDqdoc0ZVuSf+H
+VDt3w9PXp4wSM5wFbHe1XT1YyI0CyfQ28SvL2tnyvVZnSx7ZbZOV3B84BEVhIg3g
+X1L7x3mLM+jqdiCaTiEqCyalM7n1MiazT9wFqzoHrtrlkhdC2q1PA9SRZTMfCI6n
+rS5Au2mYYxC0/r2h//dALy8cff2ah3d0WnzpvqJQ2G7jOg1fhhuv0cI7a2woeMJ2
+50betj45Nh1p1YTfgcz6MC2Y
+=XUDA
 -----END PGP SIGNATURE-----
 
---===============0980224837065966616==--
+--===============6147520083573560769==--
