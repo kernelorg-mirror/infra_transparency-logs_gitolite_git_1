@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 28 Feb 2022 15:59:30 -0000
-Message-Id: <164606397098.12622.8703382806239802278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 28 Feb 2022 16:03:40 -0000
+Message-Id: <164606422072.15477.13684279427329476837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: c3d7ca6c0f46da69f046d45c7b673d585ab5fd7c
-    new: 0aee14f3a1ff0be06cf9dfb984e54383bbbe774e
+    old: d23c49562a887a8875b144d092034e14b0e279ff
+    new: ca1697eb09208f0168d94b88b72f57505339cbe5
     log: |
-         e6e6479c27aa22d11ff7109125dd5ec9ef276de8 soc: microchip: make mpfs_sys_controller_put static
-         0aee14f3a1ff0be06cf9dfb984e54383bbbe774e Merge branch 'arm/soc' into for-next
+         a544684b790f3e9f75173b3b42d7dad1c89dd237 ALSA: mips: Use platform_get_irq() to get the interrupt
+         ca1697eb09208f0168d94b88b72f57505339cbe5 ALSA: spi: Add check for clk_enable()
+         
+  - ref: refs/heads/master
+    old: 1eb02925ef5873a34a4245faf9d31e89cd62cb4b
+    new: c33a6643759cabba5324cbbe65ad91c952384816
+    log: |
+         a544684b790f3e9f75173b3b42d7dad1c89dd237 ALSA: mips: Use platform_get_irq() to get the interrupt
+         ca1697eb09208f0168d94b88b72f57505339cbe5 ALSA: spi: Add check for clk_enable()
+         c33a6643759cabba5324cbbe65ad91c952384816 Merge branch 'for-next'
          
