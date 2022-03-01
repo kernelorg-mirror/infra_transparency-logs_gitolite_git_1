@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7514666384588241185=="
+Content-Type: multipart/mixed; boundary="===============1644929403974718437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 01 Mar 2022 21:04:09 -0000
-Message-Id: <164616864981.14047.12869066342662185697@gitolite.kernel.org>
+Date: Tue, 01 Mar 2022 21:04:20 -0000
+Message-Id: <164616866021.14187.4834804074443346863@gitolite.kernel.org>
 
---===============7514666384588241185==
+--===============1644929403974718437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 31979060cc07600b250d5837a33dae1beacfeb74
+  - ref: refs/heads/tty-next
+    old: d4ab5487cc77a4053dc9070c5761ad94bf397825
     new: a106848c42b6a0ed4817008373562a4ab67f9e7e
     log: |
+         797bd4d41c8b41afc10fad39146ac9558cb39e94 tty: serial: define UART_LCR_WLEN() macro
+         988c5bbea59ffacb7762983760ae40d721ea304b tty: serial: make use of UART_LCR_WLEN() + tty_get_char_size()
+         5e1440bc23324846a003052787af6aa492e90773 USB: serial: make use of UART_LCR_WLEN() + tty_get_char_size()
+         834119f5763148e2a9c56785cd09dd397fd24020 sdio_uart: make use of UART_LCR_WLEN() + tty_get_char_size()
+         e7d6f84c9b5aaddf119b11799fd13411d33f13dd mxser: make use of UART_LCR_WLEN() + tty_get_char_size()
+         31979060cc07600b250d5837a33dae1beacfeb74 tty: serial: meson: Fix the compile link error reported by kernel test robot
          a106848c42b6a0ed4817008373562a4ab67f9e7e serial: sunplus-uart: Fix compile error while CONFIG_SERIAL_SUNPLUS_CONSOLE=n
          
 
---===============7514666384588241185==
+--===============1644929403974718437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646168648 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646168659 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1646168648-ef463bb19002750825b2aa1a03cf60c0ef46df7a
+nonce 1646168659-4c7b9c19b1340541daeccb4727f0708b121dbbce
 
-31979060cc07600b250d5837a33dae1beacfeb74 a106848c42b6a0ed4817008373562a4ab67f9e7e refs/heads/tty-testing
+d4ab5487cc77a4053dc9070c5761ad94bf397825 a106848c42b6a0ed4817008373562a4ab67f9e7e refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIeikgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DSgQAIxKCqMtqa6If6Kt9nYK
-HnTlIGbqKsNx9YqRMenrhUf2Q7Dt+iw5ltkAuBGne4vtqrXKOJKvhJ1u3u3cP+50
-UX2my9jgwddnXCEDM/YGi9+D3o7zMs6zrNnb2Fw8p/jtJJWLUohXqzsv505y8ANg
-iV5CrS7M9ncVIVJK2MklwjEpyKBXffS5/T47IniG7D/n5zz5p4ywl7F74gRTSG8R
-cA6RHYNM8NzLlHJC7PWSKHh9oowBwPHvvRqpi8Azk1yAUuLc6DsRVBYdF7xbKq7k
-WIz79sKLEN5Qd334HJQxsI5Raklrw2fFiizCYlOClI87a2NMk/GGE8zmOeqzwsuG
-0TN5Ef5voqENtDDoO3s8hotXoWj+KxM1N1tEjciFT5TsRfF4mg9EJ7uu1PbZWRNE
-Rz9ZC5sQQWKzVboHN5e845eOG/lUPCWUeFUSRLn5IcXkYzrU6E9gFk60n4xZGCj6
-5lbC3n8rbws65diZy6ORLCNGW18DAXVH/rudXTYqGAf6F7mycLEbnlGcxsVP3SYF
-JbQh4RtKn3Bhp3Th30mpS3x7wyz7vhHMhA0eEa87lYU2JQPgTlT4Gvxuf+ogOJwr
-UEAQWjMdIIBQlNYCRtjZio/bGaTU8HWWYqB0TFdzdHLv56H+IVfpUZ4j3ziNoXWX
-cUblw2XYKQlVCNJcxJyaH39o
-=3NiO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIeilMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+elgP/iPKtl7Pu5aBb7642Qaa
+8chfwHgiISAn/w0/WpxI9cprgys6pbNAT2Xhxg+vxd/hddEp+8WZ23aPIv64WZPh
+3OcAKQrHxd+7V/y9AOo7yX81/MfQaScvW5oPa/omfkpVvcWvQQKtsyQ57vQrz8Vq
+jR0KxpjUwdC42RVJTdrzyNkKeoZ/yHjDs3oo2Yfj24iydnr8RQKBRWWB+pfhN0u9
+OqQQX66IkkcdUU/dTBACrgIKED9wiPJwzuGmepuMx3Eryl2ThAJ2Bi4dKIGTQUUe
+m8Ef6HgwYlYZQcyX5595GnuFcfHQUX618f4TmRMPggibEUD/fG0C53piPF+KcCbI
+SuDlpLpbiNb4omdqeiIyeItdsXCxIipkRzG4VJKDjCyEL1zAwuqTBGXKSaMgkW/b
+/iTRrYMghk8abwD6GhWzBOduxZtWlHR+0BUMPi4IcgUZy/hqseJm1/mg5IPf1+cb
+y6zD/fyYv8TFdIwQttX4lRXS0Y9iylhRgH2F6dGVMH3xCYvrpMypB9K7qvUDUl5s
+rrV3+VelKbwSEwzESmSrP4dGuifPNPqYG34GnEFe9yTIjuy1ZwCLHrLfEUI5k8dE
++gLP0rS+ZwAriZb6mDYT0CQDyNdB/gxT5PktalV2LotGCihsEutkNCuMt+cHOJxL
+t15WMYRjXQqzfUmcMgLEg0IV
+=UeBj
 -----END PGP SIGNATURE-----
 
---===============7514666384588241185==--
+--===============1644929403974718437==--
