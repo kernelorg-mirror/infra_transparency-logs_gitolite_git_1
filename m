@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 01 Mar 2022 08:09:00 -0000
-Message-Id: <164612214025.7321.194330987081998616@gitolite.kernel.org>
+Date: Tue, 01 Mar 2022 08:09:05 -0000
+Message-Id: <164612214506.7404.7494012729787019681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.17-next/dts32
-    old: 51911d1c1bb3e30b57e3af1072a3b6e583f3df5f
-    new: ecd2a1c1d541a80a2197fd5cac274c65b3ec30c8
+  - ref: refs/heads/v5.17-next/dts64
+    old: d1986fbd56ed5fb4dad3701543c81e19cc433923
+    new: 994a71a3c9110cc906aee2b7066aaecbafdfd989
     log: |
-         2cf1c348d0f5d43b601974cbde3e6db5ad491a40 ARM: Add basic support for Airoha EN7523 SoC
-         ecd2a1c1d541a80a2197fd5cac274c65b3ec30c8 ARM: dts: add GPIO support for Airoha EN7523
+         462f6c4a7c082b17a1608807732ab8d818eaf319 arm64: dts: mt8183: add jpeg enc node for mt8183
+         a97af4b52b63e28550dca16472d707e8d180e0f6 arm64: dts: mt6358: add mt6358-keys node
+         994a71a3c9110cc906aee2b7066aaecbafdfd989 arm64: dts: mediatek: Add mt8192 power domains controller
          
