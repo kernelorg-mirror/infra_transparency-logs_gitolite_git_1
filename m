@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0272169542422312386=="
+Content-Type: multipart/mixed; boundary="===============2616721334480183781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 01 Mar 2022 21:25:23 -0000
-Message-Id: <164616992361.29836.7818000756252017177@gitolite.kernel.org>
+Date: Tue, 01 Mar 2022 21:25:33 -0000
+Message-Id: <164616993306.29988.14667321012223433402@gitolite.kernel.org>
 
---===============0272169542422312386==
+--===============2616721334480183781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: f0ead99e623baca56dcbcc577299e8f97aefab0b
-    new: 7282c126f7688f697d33f3b965c29bba67fb4eba
-    log: revlist-f0ead99e623b-7282c126f768.txt
+  - ref: refs/heads/mlx5-queue
+    old: 0c34d8bf2fd34534db2e7f1a74630c78a10d5236
+    new: 8fd9432b5963de094aa4f494fb596c64ef9d97ef
+    log: revlist-0c34d8bf2fd3-8fd9432b5963.txt
 
---===============0272169542422312386==
+--===============2616721334480183781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0ead99e623b-7282c126f768.txt
+Content-Disposition: attachment; filename=revlist-0c34d8bf2fd3-8fd9432b5963.txt
 
-817b8b9c5396d2b2d92311b46719aad5d3339dbe HID: elo: fix memory leak in elo_probe
-9decff5f403f9a48f639736ec0271e2870cadbb6 optee: Use bitmap_free() to free bitmap
-abc8dc34d1f6e34ed346c6e3fc554127e421b769 tee: optee: do not check memref size on return from Secure World
-4064c461148ab129dfe5eaeea129b4af6cf4b9b7 optee: add error checks in optee_ffa_do_call_with_arg()
-165216533dda560f2620ce8f61381a9ee0ca57ba arm64: dts: ti: k3-j721s2: Move aliases to board dts
-aee744a37aaf277e74557e683cc524fbe6daeef7 arm64: dts: ti: k3-j721s2-common-proc-board: Alias console uart to serial2
-ba1b71b008e97fd747845ff3a818420b11bbe830 mtd: rawnand: ingenic: Fix missing put_device in ingenic_ecc_get
-5c23b3f965bc9ee696bf2ed4bdc54d339dd9a455 mtd: rawnand: qcom: Fix clock sequencing in qcom_nandc_probe()
-079e6bdb2b1cc1da8b5c602229db782732668ae7 mtd: parsers: qcom: Don't print error message on -EPROBE_DEFER
-65d003cca335cabc0160d3cd7daa689eaa9dd3cd mtd: parsers: qcom: Fix kernel panic on skipped partition
-3dd8ba961b9356c4113b96541c752c73d98fef70 mtd: parsers: qcom: Fix missing free for pparts in cleanup
 4cd335dae3cf25412427938d8abbaf04d46e63b5 mtd: rawnand: omap2: Prevent invalid configuration and build error
 3e3765875b1b8864898603768fd5c93eeb552211 mtd: phram: Prevent divide by zero bug in phram_setup()
 0cea730cac824edf78ffd3302938ed5fe2b9d50d staging: vc04_services: Fix RCU dereference check
@@ -1050,5 +1039,16 @@ b70a5cc045197aad9c159042621baf3c015f6cc7 net/smc: send directly on setting TCP_N
 a505cce6f7cfaf2aa2385aab7286063c96444526 net/smc: don't req_notify until all CQEs drained
 6b88af839d204c9283ae09357555e5c4f56c6da5 net/smc: don't send in the BH context if sock_owned_by_user
 7282c126f7688f697d33f3b965c29bba67fb4eba Merge branch 'smc-datapath-opts'
+f6aab83b7decaf651cffe7fdac7d0bb316ea6bca net/mlx5e: TC, Fix use after free in mlx5e_clone_flow_attr_for_post_act()
+db92e5a54683c5e15e24eaca9a1780051855cd61 net/mlx4: Delete useless moduleparam include
+e23d561b0bd94e472d6e18cac8c6f77d42d44d4a net: Disable LRO feature if no RXCSUM
+3e3c73781949750a5d06041245a50e5618568119 net/mlx5: Delete useless module.h include
+94799e8c9b0a65acd566620693ff502684a74d17 net/mlx5: Node-aware allocation for the IRQ table
+598627c5621991e2c17ce76c8ca4d734803a1a1e net/mlx5: Node-aware allocation for the EQ table
+0e4098693071646a6a6d7148486e6a48464ab6cc net/mlx5: Node-aware allocation for the EQs
+880c73959a80438d2d0b3821a0c0fb510d6765d5 net/mlx5: Node-aware allocation for UAR
+f933092be54ae8d9a6a546976b4238e56e9a362e net/mlx5: Node-aware allocation for the doorbell pgdir
+ea4f6df7b90fc99e8c260f1009c5047791c8fec0 Merge branch 'patchq/467855' into mlx5-queue
+8fd9432b5963de094aa4f494fb596c64ef9d97ef Merge branch 'patchq/362916' into mlx5-queue
 
---===============0272169542422312386==--
+--===============2616721334480183781==--
