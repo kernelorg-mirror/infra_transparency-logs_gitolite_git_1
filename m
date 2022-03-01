@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0263751091650039256=="
+Content-Type: multipart/mixed; boundary="===============5127443842022817229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 01 Mar 2022 21:33:58 -0000
-Message-Id: <164617043877.2102.8830691650576717809@gitolite.kernel.org>
+Date: Tue, 01 Mar 2022 21:34:35 -0000
+Message-Id: <164617047596.2360.16645597474872666151@gitolite.kernel.org>
 
---===============0263751091650039256==
+--===============5127443842022817229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,47 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: dbbe23c31922ff773a0847a5c1d3c41050fe1c67
-    new: e092f715ff5fee7f54beeb060e065398f91e8150
+    old: e092f715ff5fee7f54beeb060e065398f91e8150
+    new: 095f746502740d76a086ab127e11b3c4dba78141
     log: |
-         50dc963bc12ce84fb70b90a83109f27ce92fc42f staging: pi433: remove TODOs-related item from the TODO file
-         ed01d1b9bca21b186aa05b5beab4df88d42cf335 staging: r8188eu: remove _linked_rx_signal_strength_display()
-         2d19e698e7f1c2453340b515f18adc779c42b11e staging: pi433: remove rf69_get_flag function resolving enum conflict
-         18ba5748c24dc42a3280f94eb7b52a9bbb756c48 staging: r8188eu: smooth_rssi_data is not used
-         6e1e59c1caf6d1981bfab8a2c920ad2e9995471c staging: r8188eu: irq_prepare_beacon_tasklet is unused
-         1327fcf175fa63d3b7a058b8148ed7714acdc035 staging: r8188eu: fix endless loop in recv_func
-         905eebcf28d06a6d6e1a74afa1577c21b1601cca staging: r8188eu: cnt is set but not used
-         dde7b6ea87806376832dc3e663546d3aa97218a5 staging: r8188eu: recvframe_push is not used
-         1b627cc172910d2678c3e5362daa8e7ad97f4eb6 staging: r8188eu: get_rx_status is not used
-         e092f715ff5fee7f54beeb060e065398f91e8150 staging: r8188eu: remove unused define
+         e9f3ac5edb25e47d6cc2b6fd2f4e1542ec7150e6 staging: r8188eu: use ieee80211 define for management frame type
+         d7e168c76f16c280f7ad8a09b8ecddd53c208a3f staging: r8188eu: use ieee80211 helpers to check the frame type
+         aacd0400c7f3eccfba3df30d80f194abe1aa4111 staging: r8188eu: refactor validate_recv_frame's error handling
+         1c167e3b8304b0b9ec39a48d26c645185456aa93 staging: r8188eu: use ieee80211 helper for qos bit
+         7c22fd48fd4e9a89a8400828e77f169a604cfa3b staging: r8188eu: use ieee80211 helper to check for more fragments
+         3371c86dc0546b7777ec574a3b713883dabb410d staging: r8188eu: use ieee80211 helper to read "more data"
+         0beae891d3bae1161eaa2e48de4d68c0d5166afe staging: r8188eu: use ieee80211 helper to read the protected bit
+         095f746502740d76a086ab127e11b3c4dba78141 staging: r8188eu: use ieee80211 helper to read the "order" bit
          
 
---===============0263751091650039256==
+--===============5127443842022817229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646170437 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646170474 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1646170436-70c778d51c8b99a9b749b6b65277b65d250a0b54
+nonce 1646170474-e69c657a24442b3c3ee113a4ef3126c1514c34cb
 
-dbbe23c31922ff773a0847a5c1d3c41050fe1c67 e092f715ff5fee7f54beeb060e065398f91e8150 refs/heads/staging-testing
+e092f715ff5fee7f54beeb060e065398f91e8150 095f746502740d76a086ab127e11b3c4dba78141 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIekUUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tNEQANYl92JhJrDhulOfES66
-gXb22NNg7qBMsyV/NHHnT1x9H0Gdt6amm/PxaaOmGuDe6+sBynzGa33He3FVPZ9F
-tjMvyn3HwEMziNgkECptU+Wur4kSHCkn6wr0xWIx4keehikMZ9Lu9fLzcKKLaRpR
-YSEnEPL76Nvjofiq2+loykHxj07HqSLxjibOzYhkU4kGir6y87IrjabXAXZppmJH
-3F7kyrWVuFt/W8nI6SycbYvQVojmGidH4ftlQzCRIwhxIiGy5Mb+qHJ2wDgBUFzB
-Ivc5ItbLXHVMZbraRNwRKYXFNQ0U2dEk/rGYe4fMqoB06PVigjS9Hi5GII5I4G/9
-J37dQiAFJ7BN+Lo1F+8wZ0tC7H9LDLO8BCEBHLQFwhJz2mbPQcqdOOtLB2KOWBM8
-bVStzuIhQswGFZxrS0kuyy+ncuBDWdYfiA4P/Rh/O8HOks3nB6VSqGUkVtnqVWJd
-XJ3ybNpzya6ttDY8VpDB5OHDnMsr/fBaUA3Xi5OsNztj0wDyGjv1CFhOtT1nsZzO
-3WZoUe87pA7cXz63wrO8tSojDLBsEEp1nrYCYXbdW23LQE3Dfvdy/pvKnP1vb7Bc
-dhH22CbAzdxgzbDpTfjYVTL9PXuPIFROrCbbrIFbPfHC+sBioiORMy0blretM4ud
-wGgomHqHfhNFvsRyjuje4g35
-=Pk/b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIekWobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VZEP/A5InyodlC+H2y5d0QG/
+VU+QeuUcRgEB+xrYg4hgxmZTREcR1Fa6682Ml4rGhHzEVwhmGgYQuH/SxyElu2S5
+1QJWRGV90jIteIMwV//NBDyEYfr4N9ZFYj+3zQLfRgVCShs5L2bSpwb+thwltmzi
+atdIt/kQQRFQvEaW6OzIjHL6ILh/LWeZSFcd81afUMnB/KqFE4M3dJcy1YU6QyXp
+rRXfmLWtyy8hkh90jiHgKN289232d0LixIRXw0SvdkD27DjyPpenJPkWLFEM/kJE
+h+KaAg69k2Acux7S57q9Oa0DAQvz1ezIki4tHbj0sg2+tfvpINTZTrH/UdVsGR1R
+u3031DUeaDMct0PUHX11j8Tk+QWNYD0NApO0n4YgqovM8EprYHmL5dV/hlkcZ0Ew
+BpK7twgCuPHcdReRx1mZ7RKk6vixSao/r3bvpTDQBxl0XO/gX5U/D9MFAyjOCfkH
+uV9i/Sl3yD5cIiHSe7i2IOMck/xqYkVyONz3UgRl9XPDUV8+ZZnlIhw1XAvvB7uN
+USQIv7oYfH7Osxjp0AzE+rRe/PEdg7LaqoINUtvpYPuhOfmiiHhfhnJXaRpmN2RG
+iGEALBHLOZXFIdf9FthPGI54HVUptOizuQGudjzGODhszEQt85DcPerZuvPETtwh
+FH9GymR0rKl8AESQcwSwU4j7
+=jGTs
 -----END PGP SIGNATURE-----
 
---===============0263751091650039256==--
+--===============5127443842022817229==--
