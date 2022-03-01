@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 01 Mar 2022 14:31:07 -0000
-Message-Id: <164614506735.15072.9067529484622130654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 01 Mar 2022 14:31:35 -0000
+Message-Id: <164614509545.15302.563845533483379261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: 038a6208e339e0f871ba89c65d56251470a88cdb
-    new: e2049ad63a24a91eaa1f44819c09c71ad78e281c
+  - ref: refs/heads/for-5.17/upstream-fixes
+    old: fc3ef2e3297b3c0e2006b5d7b3d66965e3392036
+    new: cc71d37fd1f11e0495b1cf580909ebea37eaa886
     log: |
-         fd30bc087930caedff3e616a73ff9fb7137a8e8f dt-bindings: clock: Add imx93 clock support
-         859b458d3fea64e7d5924ab0d5aeb2b58ce7090e dt-bindings: clock: add i.MX93 clock definition
-         420cb530e7fd92bd1f0f7488c826400ba0241c05 clk: imx: add i.MX93 composite clk
-         cf83406856d8c88ccf538fba072b1bde27777a23 clk: imx: support fracn gppll
-         e2049ad63a24a91eaa1f44819c09c71ad78e281c clk: imx: add i.MX93 clk
+         cc71d37fd1f11e0495b1cf580909ebea37eaa886 HID: vivaldi: fix sysfs attributes leak
+         
+  - ref: refs/heads/for-next
+    old: 008b6635d1e6aa66443899f65e9f7ca25f44618c
+    new: 5bd244f9134bfba5ae1676d11898eb7d91b786b5
+    log: |
+         cc71d37fd1f11e0495b1cf580909ebea37eaa886 HID: vivaldi: fix sysfs attributes leak
+         5bd244f9134bfba5ae1676d11898eb7d91b786b5 Merge branch 'for-5.17/upstream-fixes' into for-next
          
