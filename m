@@ -1,59 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2134570123650819056=="
+Content-Type: multipart/mixed; boundary="===============8774909100880328107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 01 Mar 2022 21:17:27 -0000
-Message-Id: <164616944754.24236.12799368457718748592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 01 Mar 2022 21:19:52 -0000
+Message-Id: <164616959272.25047.5395704661176636708@gitolite.kernel.org>
 
---===============2134570123650819056==
+--===============8774909100880328107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/tty-testing
-    old: 16b3ac9041a33fd34990717096476145d08d42fc
-    new: 47b95e8ab731511b7ed7924ec3ec922e14737e4e
-    log: |
-         cc4c1d05eb10c3ad4c6315f1897bc56b1e7429aa sc16is7xx: Properly resume TX after stop
-         21144bab4f1191e01e1cf785720e6af99d86a347 sc16is7xx: Handle modem status lines
-         6e124e58ae2e0e3f6400dce21e942a94a67a7949 sc16is7xx: Set AUTOCTS and AUTORTS bits
-         47b95e8ab731511b7ed7924ec3ec922e14737e4e serial: mvebu-uart: fix return value check in mvebu_uart_clock_probe()
-         
+  - ref: refs/heads/seen
+    old: f30f164babf70be301432c264da326315bc1a336
+    new: b80f241ef67bea16f2a75b98d36e066e4f55aa0c
+    log: revlist-f30f164babf7-b80f241ef67b.txt
 
---===============2134570123650819056==
+--===============8774909100880328107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f30f164babf7-b80f241ef67b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646169446 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1646169445-4198ec69661a340fb9e03b7b5886358b9b9725ce
+287fd17e3a1daec2b0d0d8e26d2b2318511ec153 sparse-index: prevent repo root from becoming sparse
+2c521b0e4900d8e7ff1f611ed956cfdd67f03eb0 status: fix nested sparse directory diff in sparse index
+cc89331ddc92cd89012eaf7937d167b3e0beaecc read-tree: explicitly disallow prefixes with a leading '/'
+14bf38cfcff0b68468444e85bc09c7d5007be34b read-tree: expand sparse checkout test coverage
+2c66a7c8cefa27ef56efbc76bdfe13696b9dac3a read-tree: integrate with sparse index
+749703924121b9eb2750b4313b2c769113c8b310 read-tree: narrow scope of index expansion for '--prefix'
+ab81047a6c5c4f98640f8a2f56e138367cfdada9 read-tree: make two-way merge sparse-aware
+f27c170f645e6b8ed642c49c503964893ee26a4f read-tree: make three-way merge sparse-aware
+c5fc750f900136933ac744c3424c3e7bf2bf69f9 Merge branch 'vd/sparse-read-tree' into seen
+0af7d8f02961289b20b35c6e47e8c26cbd7e93f0 Merge branch 'tk/untracked-cache-with-uall' into seen
+970eb196d4fa3f30bc32462b0cf7615c53d1aa1b Merge branch 'gc/recursive-fetch-with-unused-submodules' into seen
+54af19cf41d3e472ec017a5142d51624a57c5257 Merge branch 'ar/submodule-update' into seen
+6d74cb4aa08486ccb04b18602cd74b5c2c612e81 Merge branch 'tk/t7063-chmtime-dirs-too' into seen
+b80f241ef67bea16f2a75b98d36e066e4f55aa0c Merge branch 'jh/builtin-fsmonitor-part3' into seen
 
-16b3ac9041a33fd34990717096476145d08d42fc 47b95e8ab731511b7ed7924ec3ec922e14737e4e refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIejWYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dPUP+wQFwx3aWfAoJCXp0Qkk
-4eN3axDi/jCC1Y+Io8RzgBxCZfqPK5S9jAzqlt35RO9E3JHwDHkpeeed/+apguFm
-me+wQtfDZ1aJ1SbKkTlt/VseOi/GuCbBHBxwKkiMz8ovuHK6T4LiGwe+Sx1FOBv9
-fdiFEIMeaL641KSsT8c5Za76VL16IBmtxOMfyF7agepHcIz8EAC1Te/qzfc6nMXb
-SPn6FD7Ff2/7QpQXd/n+3xdlqyJ24CjZa3z3zsCMDLsP9+5KVegGB8uARoyZfVNp
-8WFEuzVz4cYIBpY5W8glgYa+A9oyF8MRjGZUqCfbaHrb4Edy0KuemU0/5DwKMyXH
-g8bXdYUgvZpcyNiT6fJxxtdY4qzeHmIwavpobY9CVcuM1eNJ9IHzQAcySgJMuxXF
-rU6tN/YELvVX2Gt/6lkJVLpEZp/ddpZpu5UgkkS3Zdgmb5TRpH0G770mVag4ArCd
-0BgzUy9CPF0rwuM302FSUMO6WTaGlA+G7J1327yiskaA2ffDs5uVMCa9islWzXIy
-VK8VpOUvNrg6N6G2SoDfL02MqNyGlr3mXOfflQJ5R0w6XsoFv5DFwdCJ0i0GTuW7
-DqGEhIxPnHMpTJEKyGb2qBe6Yh2hllkAvfc1t8Q/RiKyaizpiWarVjYkTFehP+Ej
-yKSek+OQPQYFVBxV3Yd41Hae
-=in9I
------END PGP SIGNATURE-----
-
---===============2134570123650819056==--
+--===============8774909100880328107==--
