@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 01 Mar 2022 10:51:56 -0000
-Message-Id: <164613191694.674.7359749698348032703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 01 Mar 2022 10:52:55 -0000
+Message-Id: <164613197583.1086.6724087657591854582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/master
-    old: 17a8f31bba7bac8cce4bd12bab50697da96e7710
-    new: 3b836da4081fa585cf6c392f62557496f2cb0efe
+  - ref: refs/heads/jd/vmgenid
+    old: f77527c55ad02f0d86f9589073c69b7a4981ad0e
+    new: b558d27a8d24a7dbf4c881872080be5d9d27fd37
     log: |
-         747670fd9a2d1b7774030dba65ca022ba442ce71 netfilter: nf_queue: don't assume sk is full socket
-         2e78855d311c401083df9776aa450d32d716e83e selftests: netfilter: add nfqueue TCP_NEW_SYN_RECV socket race test
-         c3873070247d9e3c7a6b0cf9bf9b45e8018427b1 netfilter: nf_queue: fix possible use-after-free
-         3b836da4081fa585cf6c392f62557496f2cb0efe netfilter: nf_queue: handle socket prefetch
+         a516c6f7efbd2b954e2f61d89702e05bc0a2854f random: don't let 644 read-only sysctls be written to
+         db1d52c9d21b01fc54c829af6fbd4cba3457301c random: add mechanism for VM forks to reinitialize crng
+         55ded32fcbcce41688d4b47a23f1eac9d598ac92 ACPI: allow longer device IDs
+         b558d27a8d24a7dbf4c881872080be5d9d27fd37 virt: vmgenid: introduce driver for reinitializing RNG on VM fork
          
