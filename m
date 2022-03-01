@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7259119145014103869=="
+Content-Type: multipart/mixed; boundary="===============3908079287639980605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 01 Mar 2022 20:36:39 -0000
-Message-Id: <164616699919.29393.9668512047630078808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 01 Mar 2022 20:47:45 -0000
+Message-Id: <164616766516.4664.2481790690329143502@gitolite.kernel.org>
 
---===============7259119145014103869==
+--===============3908079287639980605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/work.mount
-    old: 35437c3f34d8b46a4b7bb71585bbda77b790a92c
-    new: 849e8479b1bacdd8c87468a0048ec0bd5f1c2cee
-    log: revlist-35437c3f34d8-849e8479b1ba.txt
+  - ref: refs/heads/thermal/linux-next
+    old: 8ee1c0f6526ce942b7595951c7bb0165010051c2
+    new: cef4b473c499a76a1e5a12f280fa0379b8c3e0e1
+    log: revlist-8ee1c0f6526c-cef4b473c499.txt
 
---===============7259119145014103869==
+--===============3908079287639980605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35437c3f34d8-849e8479b1ba.txt
+Content-Disposition: attachment; filename=revlist-8ee1c0f6526c-cef4b473c499.txt
 
-785576c9356fb249e2715fe25f47c773385574ce dt-bindings: net: mdio: Drop resets/reset-names child properties
-e623611b4d3f722b57ceeaf4368ac787837408e7 Merge branch 'dt/linus' into dt/next
-8973d7b8638f1c2615eec495dfe70122a01a9e1b dt-bindings: net: oxnas-dwmac: Add bindings for OX810SE
-72f1f7e46c6e96b2ae300d750de01ac75d625b4e net: stmmac: dwmac-oxnas: Add support for OX810SE
-2716a5271d54e401856113ef7bdec1e06260f1dd Merge branch 'arm-ox810se-add-ethernet-support'
-62942e9fda9fd1def10ffcbd5e1c025b3c9eec17 perf script: Fix hex dump character output
-8de78328f041f10a2b546fdb3791a87ba6b742e6 Revert "perf powerpc: Add encodings to represent data based on newer composite PERF_MEM_LVLNUM* fields"
 b4bb6f05e4b25e66825956006c3d5cbe5b73eaec Revert "perf powerpc: Add data source encodings for power10 platform"
 dcffc5ebb80dd5887b91091b8ecd082c9ed75361 perf evsel: Improve error message for uncore events
 818ab78c03aad94fabc18d386e9c73b539a1f447 libperf: Add comments to 'struct perf_cpu_map'
@@ -1048,7 +1041,14 @@ f0ac5b85810a69104ee6bc939bcbaecfe4db9a3e perf tools: Remove redundant err variab
 67bfce0e01927859618b76ff5a36a7f23b412cef Merge tag 'trace-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 40c843218f11625722e9a7c3ced81a83b95ecf05 Merge tag 'perf-tools-for-v5.17-2022-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 e783362eb54cd99b2cac8b3a9aeac942e6f6ac07 Linux 5.17-rc1
-aee39bc9c2662fa7393047fcbdadac0756c70d32 mount_setattr(): clean the control flow and calling conventions
-849e8479b1bacdd8c87468a0048ec0bd5f1c2cee uninline may_mount() and don't opencode it in fspick(2)/fsopen(2)
+ffae973348505a786a145021d72da331509af185 dt-bindings: thermal: samsung: Convert to dtschema
+0710fa425e577fd68e2f372cfcef29250cf5bc43 MAINTAINERS: thermal: samsung: Drop obsolete properties
+a1f087a12965c6638b8b25917dca316d56ff8268 thermal/drivers/tsens: register thermal zones as hwmon sensors
+520c3d98a47de5def4640e3b1a4f5e729abff8ee thermal/drivers/qcom/lmh: Add support for sm8150
+cad8dc16d1e79b61774c68ddcb026c7d807b1301 dt-bindings: thermal: Add sm8150 compatible string for LMh
+0d0ccdaa31590753d1651d551f4c9ef5948c0c5a dt-bindings: thermal: tsens: Add msm8953 compatible
+e3bbc7e3846634bed8f0f79589e78cb4462ce659 drivers/thermal/ti-soc-thermal: Add hwmon support
+7c1cebf2645fec4d50ea65d139878d6ca36e7999 thermal: tegra-bpmp: Handle errors in BPMP response
+cef4b473c499a76a1e5a12f280fa0379b8c3e0e1 thermal/drivers/brcmstb_thermal: Interrupt is optional
 
---===============7259119145014103869==--
+--===============3908079287639980605==--
