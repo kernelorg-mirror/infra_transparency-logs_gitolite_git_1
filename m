@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 01 Mar 2022 10:25:17 -0000
-Message-Id: <164613031789.15488.3271175137275793290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 01 Mar 2022 10:25:42 -0000
+Message-Id: <164613034247.15714.14275151943520291817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/irq/misc-5.18
-    old: 0000000000000000000000000000000000000000
-    new: e414c25e3399b2b3d7337dc47abccab5c71b7c8f
+  - ref: refs/heads/master
+    old: 843547bcddb4cc00d5ebb19542a9e15baf27a317
+    new: 36bbb18a216025206386a0bb069a3684d57ac116
+    log: |
+         36bbb18a216025206386a0bb069a3684d57ac116 build-sys: distribute Meson files
+         
