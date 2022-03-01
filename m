@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 01 Mar 2022 14:31:35 -0000
-Message-Id: <164614509545.15302.563845533483379261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Tue, 01 Mar 2022 14:33:22 -0000
+Message-Id: <164614520210.15947.9959508572526531870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/for-5.17/upstream-fixes
-    old: fc3ef2e3297b3c0e2006b5d7b3d66965e3392036
-    new: cc71d37fd1f11e0495b1cf580909ebea37eaa886
+  - ref: refs/heads/icc-next
+    old: 2ccd1d8a2f5d9daaa092060b1f9f779755ef36c7
+    new: 52c85167e41341c2cbc2570f4bb6bc6cd8f8bc6e
     log: |
-         cc71d37fd1f11e0495b1cf580909ebea37eaa886 HID: vivaldi: fix sysfs attributes leak
-         
-  - ref: refs/heads/for-next
-    old: 008b6635d1e6aa66443899f65e9f7ca25f44618c
-    new: 5bd244f9134bfba5ae1676d11898eb7d91b786b5
-    log: |
-         cc71d37fd1f11e0495b1cf580909ebea37eaa886 HID: vivaldi: fix sysfs attributes leak
-         5bd244f9134bfba5ae1676d11898eb7d91b786b5 Merge branch 'for-5.17/upstream-fixes' into for-next
+         e45f1c1d70cae0d7a28ad60f9c6391e210354f0b interconnect: Add stubs for the bulk API
+         52c85167e41341c2cbc2570f4bb6bc6cd8f8bc6e Merge branch 'icc-msm8939' into icc-next
          
