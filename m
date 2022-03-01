@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Tue, 01 Mar 2022 08:08:49 -0000
-Message-Id: <164612212944.7198.8463840379715479216@gitolite.kernel.org>
+Date: Tue, 01 Mar 2022 08:09:00 -0000
+Message-Id: <164612214025.7321.194330987081998616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.17-next/defconfig
-    old: 5243fc3f7395985ce06af0500c94b50a21191716
-    new: b5d8378ff0baa69e6ee857dcb7548c10bf16d64e
+  - ref: refs/heads/v5.17-next/dts32
+    old: 51911d1c1bb3e30b57e3af1072a3b6e583f3df5f
+    new: ecd2a1c1d541a80a2197fd5cac274c65b3ec30c8
     log: |
-         b5d8378ff0baa69e6ee857dcb7548c10bf16d64e ARM: multi_v7_defconfig: Add support for Airoha EN7523 SoC
+         2cf1c348d0f5d43b601974cbde3e6db5ad491a40 ARM: Add basic support for Airoha EN7523 SoC
+         ecd2a1c1d541a80a2197fd5cac274c65b3ec30c8 ARM: dts: add GPIO support for Airoha EN7523
          
