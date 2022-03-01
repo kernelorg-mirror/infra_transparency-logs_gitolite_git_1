@@ -1,28 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Mar 2022 14:49:25 -0000
-Message-Id: <164614616537.26690.687199637724877436@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0702129528424795885=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 01 Mar 2022 14:52:46 -0000
+Message-Id: <164614636654.29299.3818839195367376161@gitolite.kernel.org>
+
+--===============0702129528424795885==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: 7cf5aa32e392dfa1e671ef2f704b729a7b39c7f9
-    new: b8d06ce712e37c6a6e74bf1624a0f4a412cd6508
-    log: |
-         610d086d6df0b15c3732a7b4a5b0f1c3e1b84d4c mac80211: fix EAPoL rekey fail in 802.3 rx path
-         a6bce78262f5dd4b50510f0aa47f3995f7b185f3 mac80211: refuse aggregations sessions before authorized
-         859ae7018316daa4adbc496012dcbbb458d7e510 mac80211: fix forwarded mesh frames AC & queue selection
-         50bb467c9e76743fbc8441d29113cdad62dbc4fe rfkill: define rfill_soft_blocked() if !RFKILL
-         1db5fcbba2631277b78d7f8aff99c9607d29f6d8 iwlwifi: don't advertise TWT support
-         5a6248c0a22352f09ea041665d3bd3e18f6f872c iwlwifi: mvm: check debugfs_dir ptr before use
-         6ad27f522cb3b210476daf63ce6ddb6568c0508b nl80211: Handle nla_memdup failures in handle_nan_filter
-         94d9864cc86f572f881db9b842a78e9d075493ae mac80211: treat some SAE auth steps as final
-         a12f76345e026f1b300a0d17c56f020b6949b093 cfg80211: fix CONFIG_CFG80211_EXTRA_REGDB_KEYDIR typo
-         b8d06ce712e37c6a6e74bf1624a0f4a412cd6508 Merge tag 'wireless-for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-         
+  - ref: refs/heads/for-next
+    old: 5bd244f9134bfba5ae1676d11898eb7d91b786b5
+    new: 60157d4f9e2e9f3e93c544d3e8402188d8ce90d7
+    log: revlist-5bd244f9134b-60157d4f9e2e.txt
+  - ref: refs/heads/for-5.18/core
+    old: 0000000000000000000000000000000000000000
+    new: 42764f97e6ebf1ff518c83e4a36395fddf7a6085
+
+--===============0702129528424795885==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5bd244f9134b-60157d4f9e2e.txt
+
+1c1813a743fe84d0dcf53743baa4edc1f74c44c8 HID: core: statically allocate read buffers
+74acc277b65219002bb103e51e461c2934563ada HID: core: de-duplicate some code in hid_input_field()
+b79c1abae5e19726c5060749e4e7c9e426b045c8 HID: core: split data fetching from processing in hid_input_field()
+3c2b0dbd69901b71848c83d5c642be290198aa13 HID: input: tag touchscreens as such if the physical is not there
+f2d4ddfa640d2371bad55891159102acd2504108 HID: input: rework spaghetti code with switch statements
+187ccd6caa4b40dcfbcb2531746e9fe500414e79 HID: input: move up out-of-range processing of input values
+22f4b026c3ddd4b26c5baa202bd3ee38feaa2e9a HID: compute an ordered list of input fields to process
+bebcc522fbee4bf51a2571378154ef2a4bf14724 HID: core: for input reports, process the usages by priority list
+048cddfd440583a07530774fe20c7d26d7378155 HID: input: enforce Invert usage to be processed before InRange
+87562fcd134214a68e58d0714b820f2f2da75b1f HID: input: remove the need for HID_QUIRK_INVERT
+5c20000a4756f57c824e3045c978ef19136a676d HID: input: accommodate priorities for slotted devices
+42764f97e6ebf1ff518c83e4a36395fddf7a6085 Input: docs: add more details on the use of BTN_TOOL
+60157d4f9e2e9f3e93c544d3e8402188d8ce90d7 Merge branch 'for-5.18/core' into for-next
+
+--===============0702129528424795885==--
