@@ -1,58 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============1773203362982826941=="
+Content-Type: multipart/mixed; boundary="===============5886872162965545723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 01 Mar 2022 16:40:11 -0000
-Message-Id: <164615281153.4021.2340074474912726500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 01 Mar 2022 16:49:16 -0000
+Message-Id: <164615335642.9640.14253131617174480347@gitolite.kernel.org>
 
---===============1773203362982826941==
+--===============5886872162965545723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: bd0e0b94f31752eabd41c7f8119ed14eade74902
-    new: 4825ba5f7439de4ef948b42b42d60e8e1d670d7d
-    log: revlist-bd0e0b94f317-4825ba5f7439.txt
+  - ref: refs/heads/master
+    old: 98fffd72f934c48e7e69e21e1394de0b5aed49b4
+    new: 7282c126f7688f697d33f3b965c29bba67fb4eba
+    log: revlist-98fffd72f934-7282c126f768.txt
 
---===============1773203362982826941==
+--===============5886872162965545723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd0e0b94f317-4825ba5f7439.txt
+Content-Disposition: attachment; filename=revlist-98fffd72f934-7282c126f768.txt
 
-610d086d6df0b15c3732a7b4a5b0f1c3e1b84d4c mac80211: fix EAPoL rekey fail in 802.3 rx path
-a6bce78262f5dd4b50510f0aa47f3995f7b185f3 mac80211: refuse aggregations sessions before authorized
-859ae7018316daa4adbc496012dcbbb458d7e510 mac80211: fix forwarded mesh frames AC & queue selection
-fda2635466cd26ad237e1bc5d3f6a60f97ad09b6 igc: igc_read_phy_reg_gpy: drop premature return
-c4208653a327a09da1e9e7b10299709b6d9b17bf igc: igc_write_phy_reg_gpy: drop premature return
-1866aa0d0d6492bc2f8d22d0df49abaccf50cddd e1000e: Fix possible HW unit hang after an s0ix exit
-ffd24fa2fcc76ecb2e61e7a4ef8588177bcb42a6 e1000e: Correct NVM checksum verification flow
-7cf5aa32e392dfa1e671ef2f704b729a7b39c7f9 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-50bb467c9e76743fbc8441d29113cdad62dbc4fe rfkill: define rfill_soft_blocked() if !RFKILL
-1db5fcbba2631277b78d7f8aff99c9607d29f6d8 iwlwifi: don't advertise TWT support
-5a6248c0a22352f09ea041665d3bd3e18f6f872c iwlwifi: mvm: check debugfs_dir ptr before use
-6ad27f522cb3b210476daf63ce6ddb6568c0508b nl80211: Handle nla_memdup failures in handle_nan_filter
-94d9864cc86f572f881db9b842a78e9d075493ae mac80211: treat some SAE auth steps as final
-a12f76345e026f1b300a0d17c56f020b6949b093 cfg80211: fix CONFIG_CFG80211_EXTRA_REGDB_KEYDIR typo
-b8d06ce712e37c6a6e74bf1624a0f4a412cd6508 Merge tag 'wireless-for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-c0983e03fef6a4dc8bdfb202a489876a51afec32 checkpatch: Fix warnings when --no-tree is used
-f3d0ad0e89528f9ea5dbaf4da17399bbfa042d24 checkpatch.pl: seed camelcase from the provided kernel tree root
-f86fa99b96c1b60b6f26d21e2de1a0c9dbf05b21 ice: Fix a couple off by one bugs
-56475db2170bb22f1051664a29759c9c64cd83c0 i40e: Fix the timeliness of stats after deleting tc
-30056a0b6d2d8b2f7774fed4a8aba659acfe07de ice: Don't use GFP_KERNEL in atomic context
-9e86e7fd657365f43be79053808089bddafe088f ice: avoid XDP checks in ice_clean_tx_irq()
-560d23568105cbe854c1a70d907366e7c66f38b4 ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
-dd91d0e5aaa4603c6852d7387c496b74635b44ef i40e: stop disabling VFs due to PF error responses
-e47abc7c5a8a91ccfe09ebfee5286f4b4e6e6b08 ice: stop disabling VFs due to PF error responses
-6eb4751a4ff3f09d0e9417765a7ddf5413d9d6d6 iavf: Fix handling of vlan strip virtual channel messages
-c480c1f110a6ee9eea509bcbd8e87950b8e9d9ff iavf: Fix adopting new combined setting
-86b0b4f1172f2005eebbfd2375186f38ce7bb6f9 ice: Fix curr_link_speed advertised speed
-4825ba5f7439de4ef948b42b42d60e8e1d670d7d ice: Fix error with handling of bonding MTU
+7d8e4c98d13b6b54655140d6b6a6a17fbc9b32f1 staging: fbtft: Fix error path in fbtft_driver_module_init()
+c222ea5d2f3361458672d1f52c78970aa021cb61 staging: fbtft: Deduplicate driver registration macros
+316f569df766df9a49c36c052ec6afaf19cb6933 tpm: st33zp24: Make st33zp24_remove() a void function
+afb0a80e63d67e957b5d0eb4ade301aff6e13c8c platform/chrome: cros_ec: Make cros_ec_unregister() return void
+a0386bba70934d42f586eaf68b21d5eeaffa7bd0 spi: make remove callback a void function
+43c075959de3c45608636d9d80ff9e61d166fb21 mlx5: remove unused static inlines
+c2c922dae77f36e24d246c6e310cee0c61afc6fb net/mlx5: Add ability to insert to specific flow group
+0b0ea3c5b1c087b20ee3edb8f0846bce5f08a807 net/mlx5: E-Switch, reserve and use same uplink metadata across ports
+82e86a6c7109e0beed1828304b7d62ce2e597444 net/mlx5: E-switch, remove special uplink ingress ACL handling
+1749c4c51c16e3e078faae0a876d01bafb187a74 net/mlx5: E-switch, add drop rule support to ingress ACL
+9278287e8d9e30b6bf6e3bd29ac387d789b8ce7f net/mlx5: Lag, use local variable already defined to access E-Switch
+4f4551435ce000a47cd4f331af7b67e962f5f6f4 net/mlx5: Lag, don't use magic numbers for ports
+54493a08e21f46446b3b24577c5a6f229d049757 net/mlx5: Lag, record inactive state of bond device
+6cb87869adbe6b1b92e1f415076a605256e267c8 net/mlx5: Lag, offload active-backup drops to hardware
+f086470122d567025303e2361b57e2f8172af201 net/mlx5: cmdif, Return value improvements
+605bef0015b163867127202b821dce79804d603d net/mlx5: cmdif, cmd_check refactoring
+f23519e542e51c19ab3081deb089bb3f8fec7bb9 net/mlx5: cmdif, Add new api for command execution
+31803e59233efc838b9dcb26edea28a4b2389e97 net/mlx5: Use mlx5_cmd_do() in core create_{cq,dct}
+0a41527608e7f3da61e76564f5a8749a1fddc7f1 net/mlx5: cmdif, Refactor error handling and reporting of async commands
+c76a1e90ad4e98e41f673d7634b1ac4a066d0cea RDMA/mlx5: Use new command interface API
+72fb3b60a3114a1154a8ae5629ea3b43a88a7a4d net/mlx5: Add reset_state field to MFRL register
+45fee8edb4b333af79efad7a99de51718ebda94b net/mlx5: Add clarification on sync reset failure
+e499cd3102b280bce3a1acaf3f92e8163e53cb3b Merge tag 'spi-remove-void' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+0b9e69e1a1e4d60473486d15217845ae1e151d4a net: dm9051: Make remove() callback a void function
+f2b77012ddd5b2532d262f100be3394ceae3ea59 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+6765393614ea8e2c0a7b953063513823f87c9115 vxlan: move to its own directory
+fba55a66e8ecd1855a77df7e6f296cc5ccffa202 vxlan_core: fix build warnings in vxlan_xmit_one
+76fc217d7fb11437b9395a6e61cd2e11b17220f0 vxlan_core: move common declarations to private header file
+c63053e0cb5afcf53d5119cf82136c22131792a2 vxlan_core: move some fdb helpers to non-static
+a9508d121a0ec3ba53a32f8c197223cbf19074c2 vxlan_core: make multicast helper take rip and ifindex explicitly
+efe0f94b333bf73dae0649937d40fbb15b3165e1 vxlan_core: add helper vxlan_vni_in_use
+7b8135f4df98b155b23754b6065c157861e268f1 rtnetlink: add new rtm tunnel api for tunnel id filtering
+a498c5953a9cdadcc1479c07d5b04c1afa3f53dc vxlan_multicast: Move multicast helpers to a separate file
+f9c4bb0b245cee35ef66f75bf409c9573d934cf9 vxlan: vni filtering support on collect metadata device
+3edf5f66c12aa0b318b05ad2c04cf363b0f51f99 selftests: add new tests for vxlan vnifiltering
+4095e0e1328a3cd9e3b30174d6cb0edb3824256d drivers: vxlan: vnifilter: per vni stats
+445b2f36bb4efb81f064e931f28b9ec19f114355 drivers: vxlan: vnifilter: add support for stats dumping
+1e385c08249e4822e0f425efde1896d3933d1471 Merge branch 'vxlan-vnifiltering'
+462791bbfa350189e309a5a94541f6b63cd874e8 net/smc: add sysctl interface for SMC
+dcd2cf5f2fc0d4d37aa5400b308d401a150c38b6 net/smc: add autocorking support
+12bbb0d163a90d81a2677cf7808d364697290207 net/smc: add sysctl for autocorking
+b70a5cc045197aad9c159042621baf3c015f6cc7 net/smc: send directly on setting TCP_NODELAY
+6bf536eb5c8ca011d1ff57b5c5f7c57ceac06a37 net/smc: correct settings of RMB window update limit
+a505cce6f7cfaf2aa2385aab7286063c96444526 net/smc: don't req_notify until all CQEs drained
+6b88af839d204c9283ae09357555e5c4f56c6da5 net/smc: don't send in the BH context if sock_owned_by_user
+7282c126f7688f697d33f3b965c29bba67fb4eba Merge branch 'smc-datapath-opts'
 
---===============1773203362982826941==--
+--===============5886872162965545723==--
