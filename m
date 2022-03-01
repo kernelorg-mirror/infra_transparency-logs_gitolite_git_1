@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 01 Mar 2022 10:41:54 -0000
-Message-Id: <164613131474.25639.6333235057262694468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 01 Mar 2022 10:51:56 -0000
+Message-Id: <164613191694.674.7359749698348032703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
   - ref: refs/heads/master
-    old: 77ee5a4bf5aa64d7a681eb32ee9dc31b17eca140
-    new: a516c6f7efbd2b954e2f61d89702e05bc0a2854f
+    old: 17a8f31bba7bac8cce4bd12bab50697da96e7710
+    new: 3b836da4081fa585cf6c392f62557496f2cb0efe
     log: |
-         a516c6f7efbd2b954e2f61d89702e05bc0a2854f random: don't let 644 read-only sysctls be written to
+         747670fd9a2d1b7774030dba65ca022ba442ce71 netfilter: nf_queue: don't assume sk is full socket
+         2e78855d311c401083df9776aa450d32d716e83e selftests: netfilter: add nfqueue TCP_NEW_SYN_RECV socket race test
+         c3873070247d9e3c7a6b0cf9bf9b45e8018427b1 netfilter: nf_queue: fix possible use-after-free
+         3b836da4081fa585cf6c392f62557496f2cb0efe netfilter: nf_queue: handle socket prefetch
          
