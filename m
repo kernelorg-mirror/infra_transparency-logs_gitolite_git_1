@@ -1,49 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0906707167532391864=="
+Content-Type: multipart/mixed; boundary="===============8537939149419127097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 01 Mar 2022 12:45:27 -0000
-Message-Id: <164613872774.10094.14117917694004072223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 01 Mar 2022 13:10:43 -0000
+Message-Id: <164614024388.26170.12827266173160554847@gitolite.kernel.org>
 
---===============0906707167532391864==
+--===============8537939149419127097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 2546c60004309ede8e2d1d5341e0decd90e057bf
-    new: 555a28b9ab1c2a83577bc58e24a63c9716e36561
-    log: revlist-2546c6000430-555a28b9ab1c.txt
+  - ref: refs/heads/main
+    old: 94d9864cc86f572f881db9b842a78e9d075493ae
+    new: a12f76345e026f1b300a0d17c56f020b6949b093
+    log: |
+         a12f76345e026f1b300a0d17c56f020b6949b093 cfg80211: fix CONFIG_CFG80211_EXTRA_REGDB_KEYDIR typo
+         
 
---===============0906707167532391864==
+--===============8537939149419127097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2546c6000430-555a28b9ab1c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ce2645c458b5c83b0872ea9e39d2c3293445353a platform/x86/intel/uncore-freq: Move to uncore-frequency folder
-ae7b2ce578513adf0a77f0127e27ee4447d50443 platform/x86/intel/uncore-freq: Use sysfs API to create attributes
-414eef27283a2133a0998beb8e3e35f84eaac961 platform/x86/intel/uncore-freq: Display uncore current frequency
-dbce412a7733bb7a763d99db413da22da72e3736 platform/x86/intel-uncore-freq: Split common and enumeration part
-3d7d407dfb05b257e15cb0c6b056428a4a8c2e5d platform/x86: amd-pmc: Add support for AMD Spill to DRAM STB feature
-42f8bcb37e2c65931799cdf61d086ed78456e798 platform/dcdbas: move EXPORT_SYMBOL after function
-4b1be2fe63b80fd3af591268f1698a495e7f29be platform/x86: int3472: Add terminator to gpiod_lookup_table
-07f5ed0eee011f2b76ee01a4939f3ff1d34ac5e3 lg-laptop: Move setting of battery charge limit to common location
-646f429ec2de40f63ec7a00e4e18783e67853346 platform/x86: amd-pmc: Set QOS during suspend on CZN w/ timer wakeup
-d440bdf08322e84149be3fee2ab9d43a770c62f7 surface: surface3_power: Fix battery readings on batteries without a serial number
-070633100acecc87efa3690905febe58b9a42b4f platform/x86: Add AMD system management interface
-f601f7ac7ca78fda4c81c31f7a58286125086ac3 Documentation: Add x86/amd_hsmp driver
-5ca7646b7cfc66314c10fbe6acbb76cee26ef1f4 platform/x86: thinkpad_acpi: Add dual fan probe
-2f46d7f7e959da3ae18ed5d283935673f7a22354 pinctrl: baytrail: Add pinconf group + function for the pmu_clk
-9c62db431d92a736c3b7998bf48107b505682d32 Merge branch 'platform-drivers-x86-pinctrl-pmu_clk' into review-hans
-591013acf101ff693fff6c08f9b376adbba753d3 platform/x86: x86-android-tablets: Fix EBUSY error when requesting IOAPIC IRQs
-4341d3535e4abf963bfc605d4cd03b1ffaaf1562 platform/x86: x86-android-tablets: Add Lenovo Yoga Tablet 2 830 / 1050 data
-9c439347b9bbfb96e59ad53929b880bb87d6bf00 platform/x86: x86-android-tablets: Workaround Lenovo Yoga Tablet 2 830/1050 poweroff hang
-555a28b9ab1c2a83577bc58e24a63c9716e36561 platform/x86: x86-android-tablets: Lenovo Yoga Tablet 2 830/1050 sound support
+certificate version 0.1
+pusher 7BF9099A 1646140225 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1646140225-1455fd0f5b395e5a5d523b1b0f4d7813116a8663
 
---===============0906707167532391864==--
+94d9864cc86f572f881db9b842a78e9d075493ae a12f76345e026f1b300a0d17c56f020b6949b093 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmIeG0EACgkQB8qZga/f
+l8SmDA/+IEyJbnQ4WkshtAGEylfTdjuAtqV7Ku8IqgVMuLTXxi/P2FUakuO5V7JZ
+9UgXy8VFSHz8JTHAelCu//p78l+QCU5gvfbf6Qk0Oy5wM6yifb8ZRVjsOuIFy/t5
+vcEnG4PQvFxKAjn6j3d0sQKtvNFPFYIsXwa8Q82eGXGT1s6VpRZwa6D6mOxgsVwD
+BdWUuQ2WFN0+Ez7m/qcZsCNnJqe655xY5OxRBNc5RPPtgQrc6rurczfnmdJ2/dJt
+Bnu8QDs8c+R1kjs6K8Pivosk3kJo0XKJgZmeNq+mwLc/W76Fn7h6uw1x1sgX1sk7
+t/4SB3BCFePeOb2CmcE4V3+vZA17BDP6/yb5Wq4N7msilkMwojOSenaW0Yh1fUNn
+TNuriLbkCoUOz3XvVc3cC48MRi6Of1ACc1BloIVcgaVlLvtgs22nb2bRbYCx5yHH
+d/uUBYIxt7GWshytE7QyxnnzYE9BMfP6GbsOVyO7Jngv0TMtDyZ5aNEXNlyn+zo5
+hyejWFf37hvxl3Sf6R/w1j2MsqZuPCv6j/Tjv7sXY1a8KIC4cQPirV9PnNVIiBcF
+4EsotyW8mbCflpMJ3fP41KQmnm6saiYShTd8nLw9q5UZPodWfCVpOyjpS14KzCu7
+ux3JTZpZTanLBBaTHeISCc4kgr1sNCX5lAYZVwgDgLzIUkiQ4Q4=
+=cHqT
+-----END PGP SIGNATURE-----
+
+--===============8537939149419127097==--
