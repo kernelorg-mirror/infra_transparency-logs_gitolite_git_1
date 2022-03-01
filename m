@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 01 Mar 2022 11:15:47 -0000
-Message-Id: <164613334708.15935.5154063752142459284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Tue, 01 Mar 2022 11:29:55 -0000
+Message-Id: <164613419512.24150.11821677837193321718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/heads/master
-    old: 36bbb18a216025206386a0bb069a3684d57ac116
-    new: 0ae7bb11c29aa11c8ef25b1ef2f82ee4701b856d
-    log: |
-         0ae7bb11c29aa11c8ef25b1ef2f82ee4701b856d loopdev: add retries on EAGAIN
-         
+  - ref: refs/tags/mvebu-dt64-5.18-1
+    old: 0000000000000000000000000000000000000000
+    new: 819a12f3e6444a4cbe04da41c77de9fec27d43ce
