@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 01 Mar 2022 23:21:08 -0000
-Message-Id: <164617686852.10331.10860273476716182060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 01 Mar 2022 23:30:09 -0000
+Message-Id: <164617740913.16000.4973318861673578785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: b8d06ce712e37c6a6e74bf1624a0f4a412cd6508
-    new: 4761df52f1549cc8c5ffcad0b2095fffe2c5435d
+  - ref: refs/heads/mlx5-queue
+    old: 8fd9432b5963de094aa4f494fb596c64ef9d97ef
+    new: f8b8ffade1339f4bb298f5665c2cca29a855a89f
     log: |
-         ae089831ff28a115908b8d796f667c2dadef1637 netfilter: nf_tables: prefer kfree_rcu(ptr, rcu) variant
-         56763f12b0f02706576a088e85ef856deacc98a0 netfilter: fix use-after-free in __nf_register_net_hook()
-         17a8f31bba7bac8cce4bd12bab50697da96e7710 netfilter: egress: silence egress hook lockdep splats
-         747670fd9a2d1b7774030dba65ca022ba442ce71 netfilter: nf_queue: don't assume sk is full socket
-         2e78855d311c401083df9776aa450d32d716e83e selftests: netfilter: add nfqueue TCP_NEW_SYN_RECV socket race test
-         c3873070247d9e3c7a6b0cf9bf9b45e8018427b1 netfilter: nf_queue: fix possible use-after-free
-         3b836da4081fa585cf6c392f62557496f2cb0efe netfilter: nf_queue: handle socket prefetch
-         db6140e5e35a48405e669353bd54042c1d4c3841 net/sched: act_ct: Fix flow table lookup failure with no originating ifindex
-         4761df52f1549cc8c5ffcad0b2095fffe2c5435d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         00fa1d2960cab7b9a59ca8fe9630ce32898ac750 net: Disable LRO feature if no RXCSUM
+         050f366418cd6b8d5d6b19b499cea3012dcb8110 net/mlx4: Delete useless moduleparam include
+         bc16415bbf0a888e6a262ab9124108a689deddec net/mlx5: Delete useless module.h include
+         f6eded55ac0b1399ce1bffc083b8c919dadf08b8 net/mlx5: Node-aware allocation for the IRQ table
+         3caf43c3f98f1987a0d1cd3dfed8fdaea7984677 net/mlx5: Node-aware allocation for the EQ table
+         92616bccc38dd246284d941d1c7be3fa5e93bd20 net/mlx5: Node-aware allocation for the EQs
+         40b4f4603867a01912d19e6379eb44a756cab3ac net/mlx5: Node-aware allocation for UAR
+         302c5e7512a4d087410c00db8ec16d17698e19c8 net/mlx5: Node-aware allocation for the doorbell pgdir
+         8920c5e8891587f4e951886fa760c3b60af2653b Merge branch 'patchq/467855' into mlx5-queue
+         f8b8ffade1339f4bb298f5665c2cca29a855a89f Merge branch 'patchq/362916' into mlx5-queue
          
