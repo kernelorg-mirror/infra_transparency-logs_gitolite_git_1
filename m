@@ -1,57 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============3309746768414779108=="
+Content-Type: multipart/mixed; boundary="===============0263751091650039256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 01 Mar 2022 21:27:14 -0000
-Message-Id: <164617003447.30670.10687489366724485573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 01 Mar 2022 21:33:58 -0000
+Message-Id: <164617043877.2102.8830691650576717809@gitolite.kernel.org>
 
---===============3309746768414779108==
+--===============0263751091650039256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 085686fb8491a7cbf6a7260d5b9d4169a041c340
-    new: 3dd9a926ec2308e49445f22abef149fc64e9332e
+  - ref: refs/heads/staging-testing
+    old: dbbe23c31922ff773a0847a5c1d3c41050fe1c67
+    new: e092f715ff5fee7f54beeb060e065398f91e8150
     log: |
-         540e6a8114d012d09cf6d49ba5ea0b942a3988eb Revert "mfd: simple-mfd-i2c: Add Delta TN48M CPLD support"
-         3dd9a926ec2308e49445f22abef149fc64e9332e mmc: rtsx: Fix build errors/warnings for unused variable
+         50dc963bc12ce84fb70b90a83109f27ce92fc42f staging: pi433: remove TODOs-related item from the TODO file
+         ed01d1b9bca21b186aa05b5beab4df88d42cf335 staging: r8188eu: remove _linked_rx_signal_strength_display()
+         2d19e698e7f1c2453340b515f18adc779c42b11e staging: pi433: remove rf69_get_flag function resolving enum conflict
+         18ba5748c24dc42a3280f94eb7b52a9bbb756c48 staging: r8188eu: smooth_rssi_data is not used
+         6e1e59c1caf6d1981bfab8a2c920ad2e9995471c staging: r8188eu: irq_prepare_beacon_tasklet is unused
+         1327fcf175fa63d3b7a058b8148ed7714acdc035 staging: r8188eu: fix endless loop in recv_func
+         905eebcf28d06a6d6e1a74afa1577c21b1601cca staging: r8188eu: cnt is set but not used
+         dde7b6ea87806376832dc3e663546d3aa97218a5 staging: r8188eu: recvframe_push is not used
+         1b627cc172910d2678c3e5362daa8e7ad97f4eb6 staging: r8188eu: get_rx_status is not used
+         e092f715ff5fee7f54beeb060e065398f91e8150 staging: r8188eu: remove unused define
          
 
---===============3309746768414779108==
+--===============0263751091650039256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646170033 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1646170033-3d7a295ebe4d036881c0631d1b01099364ebf411
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646170437 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1646170436-70c778d51c8b99a9b749b6b65277b65d250a0b54
 
-085686fb8491a7cbf6a7260d5b9d4169a041c340 3dd9a926ec2308e49445f22abef149fc64e9332e refs/heads/char-misc-next
+dbbe23c31922ff773a0847a5c1d3c41050fe1c67 e092f715ff5fee7f54beeb060e065398f91e8150 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIej7IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BEQP/RfdnGdXEAxl/x4ab8Na
-5EwH2RgzoxJOoLFbDeRP/XnHbXfy1kaeg/Dnf75tMo/13WV2duC6YWZA9G04KIpR
-G4JvbIWQIidsLqqnTOK23/w5erfqdaJ8xPO2l+Z4FGZcGxChVUCaVCpWJuotSo8q
-HcinaHtczJEBwdARUjIOq12GCOGNEU++XCRP3zM0imNTUKWyQd8M/XDxJAXbAnwP
-1SOBiI7IsagaJvJJK+hQVddMynyInUFbSQcHpA3wODX4XwXl+cflpAgWd80DurPb
-Y9sZXSmUPPDoa+3g8QTY4sS3O1J/l5GcWeC0aC5pX6eeC7pvKlU2WkZ0maV3ybm9
-TeHFE+25rkjv+A0sXsRLOIR1DndoMYL2pF0ktlVZXelEkAoGdeGdoSOj6+tH4dQ1
-RFvMXSpx5hfEl3waz2l+hHmspXJio+cuBRaBO3ntShiVv9Uu7CMtIScGpKru8pQx
-5G2T4w7yghBfdgkD9NF4gDdKBC1kY5s700xuiat7dGMMyXC6y/El1+X/hBhObrDS
-dupvy1NhWX8SQQStia/IwfA0mmpdiGhhvucj/N2T8ZhS7FTxq2LLC8udCCwBJtRQ
-sYYmD1Nr2K+HRB1RS33AndKOOkcQPOOGLBggZDLENUVedTua7uEgN3IXNuKre142
-Dsoo4CE+B9sGTt6HPrGATU5A
-=mZTE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIekUUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tNEQANYl92JhJrDhulOfES66
+gXb22NNg7qBMsyV/NHHnT1x9H0Gdt6amm/PxaaOmGuDe6+sBynzGa33He3FVPZ9F
+tjMvyn3HwEMziNgkECptU+Wur4kSHCkn6wr0xWIx4keehikMZ9Lu9fLzcKKLaRpR
+YSEnEPL76Nvjofiq2+loykHxj07HqSLxjibOzYhkU4kGir6y87IrjabXAXZppmJH
+3F7kyrWVuFt/W8nI6SycbYvQVojmGidH4ftlQzCRIwhxIiGy5Mb+qHJ2wDgBUFzB
+Ivc5ItbLXHVMZbraRNwRKYXFNQ0U2dEk/rGYe4fMqoB06PVigjS9Hi5GII5I4G/9
+J37dQiAFJ7BN+Lo1F+8wZ0tC7H9LDLO8BCEBHLQFwhJz2mbPQcqdOOtLB2KOWBM8
+bVStzuIhQswGFZxrS0kuyy+ncuBDWdYfiA4P/Rh/O8HOks3nB6VSqGUkVtnqVWJd
+XJ3ybNpzya6ttDY8VpDB5OHDnMsr/fBaUA3Xi5OsNztj0wDyGjv1CFhOtT1nsZzO
+3WZoUe87pA7cXz63wrO8tSojDLBsEEp1nrYCYXbdW23LQE3Dfvdy/pvKnP1vb7Bc
+dhH22CbAzdxgzbDpTfjYVTL9PXuPIFROrCbbrIFbPfHC+sBioiORMy0blretM4ud
+wGgomHqHfhNFvsRyjuje4g35
+=Pk/b
 -----END PGP SIGNATURE-----
 
---===============3309746768414779108==--
+--===============0263751091650039256==--
