@@ -1,57 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============4170914261025460734=="
+Content-Type: multipart/mixed; boundary="===============6642899717847979782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Tue, 01 Mar 2022 08:58:46 -0000
-Message-Id: <164612512610.8014.14306244180866646181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 01 Mar 2022 09:04:01 -0000
+Message-Id: <164612544157.11266.9586252646492955963@gitolite.kernel.org>
 
---===============4170914261025460734==
+--===============6642899717847979782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/mhi-next
-    old: 7ba21a082d3eb40787416dc0d1e980b7de1cc490
-    new: b85d0d28ed263a5421f698d5c7bd513c7b6d8b97
-    log: revlist-7ba21a082d3e-b85d0d28ed26.txt
+  - ref: refs/heads/damon/next
+    old: 2852bfbf5dde9732f9bb21f8f7c86c51899ab274
+    new: 0e539492d11ad21b5f8704c8af2e40e4c5bc1e0e
+    log: revlist-2852bfbf5dde-0e539492d11a.txt
 
---===============4170914261025460734==
+--===============6642899717847979782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ba21a082d3e-b85d0d28ed26.txt
+Content-Disposition: attachment; filename=revlist-2852bfbf5dde-0e539492d11a.txt
 
-941f3f928daa61fbe2198bc292b3e14dbfdbc410 bus: mhi: Fix pm_state conversion to string
-fc0175d6ae53670c4468d1b422ef6ab1921cb127 bus: mhi: Fix MHI DMA structure endianness
-7b53cf6f78848f021913917a7d583d3c4bc51e37 bus: mhi: Move host MHI code to "host" directory
-4abcb4d9d08a1acc9e2008a67a222ec848e2e51b bus: mhi: Use bitfield operations for register read and write
-948a1792468ca6afd5ac0c92ef1772af17ef455b bus: mhi: Use bitfield operations for handling DWORDs of ring elements
-15fbc9eadc1176d6042b72fbd66d33e36045bacf bus: mhi: Cleanup the register definitions used in headers
-a22777df696f3c3ae08527efbe909dcda9bdd837 bus: mhi: host: Rename "struct mhi_tre" to "struct mhi_ring_element"
-73b1dbb18bee4da687aae50bf250ae6f9a929979 bus: mhi: Move common MHI definitions out of host directory
-ed97144182117586712c8036ded0bab36898eae0 bus: mhi: Make mhi_state_str[] array static inline and move to common.h
-91edfc7469deb8e6c6c03980e727b5846202dd9e bus: mhi: ep: Add support for registering MHI endpoint controllers
-53b9714478b4568094534dc5e1b3a92a6e1bda84 bus: mhi: ep: Add support for registering MHI endpoint client drivers
-7cd38fb6bbd9db17ff5bbdd356b19fd83c031164 bus: mhi: ep: Add support for creating and destroying MHI EP devices
-2616db2c6a319da5f2f6d4c6a6a3a90608ad88f9 bus: mhi: ep: Add support for managing MMIO registers
-b3fd2b06b24c0abe234a6b493f9ea6d8cbded9ca bus: mhi: ep: Add support for ring management
-a5fae2f8f62754d0219e20dd8e2fc83a102fb6ba bus: mhi: ep: Add support for sending events to the host
-8bce01e4319a66f2acd5c7b362a2768193b4bf0c bus: mhi: ep: Add support for managing MHI state machine
-e02891290a22c62d450ebd7489ef73309604e1a0 bus: mhi: ep: Add support for processing MHI endpoint interrupts
-f7289b59bb20b66fbaf6a167110c66124a357ad6 bus: mhi: ep: Add support for powering up the MHI endpoint stack
-6a78f02247a5f635825d464b3449e7b34e608d03 bus: mhi: ep: Add support for powering down the MHI endpoint stack
-7437715c5caf0d43526c9ca5882ac1c7a9ee3468 bus: mhi: ep: Add support for handling MHI_RESET
-7cfa7c826250b99d2876475f5b14b7267135f79a bus: mhi: ep: Add support for handling SYS_ERR condition
-41b82e1bca9968131f4addc3b11f13b9e9ff02cc bus: mhi: ep: Add support for processing command rings
-c085fe80b154935aefe9267c727f650532e0fb73 bus: mhi: ep: Add support for reading from the host
-5ee8d986c91969c0b497ec86a416fdfe252e1e8c bus: mhi: ep: Add support for processing channel rings
-86e01ae698f88cb9152104ed92e25bf0d76dc932 bus: mhi: ep: Add support for queueing SKBs to the host
-a9b05db8e9e50a52ca3fd970a45f69f1f3d1cc07 bus: mhi: ep: Add support for suspending and resuming channels
-b85d0d28ed263a5421f698d5c7bd513c7b6d8b97 bus: mhi: ep: Add uevent support for module autoloading
+0ef42413bb563286933c37af966e147c1a6ff524 for_damon_hack: Add files for DAMON hacks
+56ed5f2b1ffc4f46969e73f9789f448fba17a3c2 === Patches in -mm but mmotm ===
+db70dac3dca74ae404bd98e2c320fe84b212f8e6 === Patches written or reviewed by SJ but not merged in -mm ===
+c857e0d974cdd54694ebbc19e094717bd2a7e568 ===== Implement DAMON sysfs interface =====
+8a96c33803b238d9e2eca9789d1cc9df6ef818df mm/damon/core: Allow non-exclusive DAMON start/stop
+a58b530eed9dbb9ee4b407afd9d3d3e5ff8e8306 mm/damon/core: Add number of each enum type values
+cf60f0bad44e232c44637707cce81a0402f89ef5 mm/damon: Implement a minimal stub for sysfs-based DAMON interface
+0806e6463411657f243e30b94f2042bec79fd001 mm/damon/sysfs: Link DAMON for virtual address spaces monitoring
+8a953bc122a2372978d1f5f938c2727237613524 mm/damon/sysfs: Support the physical address space monitoring
+7d165108ccba31b95d513686d87e9f277129ba97 mm/damon/sysfs: Support DAMON-based Operation Schemes
+c36c16b143181056a1c2586cbd3bb1aca7f67782 mm/damon/sysfs: Support DAMOS quotas
+09240485d6605fcb10a40234639c2594f516e9f3 mm/damon/sysfs: Support schemes prioritization
+442be1d9433d42f0c936e343c1e2517a81790715 mm/damon/sysfs: Support DAMOS watermarks
+e2bbf4e96538c6d7e50d18e0957cdb2d99ddca86 mm/damon/sysfs: Support DAMOS stats
+5c0843a31caafa7c2d4c20eaff3284252d7f0c7d selftests/damon: Add a test for DAMON sysfs interface
+bea0f8893bb9a239b573300e39eb8202edcfb762 Docs/admin-guide/mm/damon/usage: Document DAMON sysfs interface
+fb40638e8a1e9b11274ac8a95d2b7711080e9f30 Docs/ABI/testing: Add DAMON sysfs interface ABI document
+3bbd86bf0ef5166eea5b65f08cb072bde845bc88 ===== Yuanchu's damon selftest fixes =====
+e0cea83d4792fb060ba0534488baf627363c8ae0 selftests/damon: add damon to selftests root Makefile
+961e12b4505425c9f83ab4385a53fd06c1679560 selftests/damon: make selftests executable
+77e9a8b02214ab02fd065da540540b8d0ce3ab14 === More not-yet-posted commits ===
+2dc9fa438263e9e9281a759abe75410a4d5104b8 tools: Introduce a minimal user-space tool for DAMON
+cef937b03526e32e10ea181c6174dedfca8c73a8 tools/perf: Integrate DAMON in perf
+1c05f658bd6264ad6e9775dd2c31c59ada8093ec selftests/damon: Test race between target_ids_read() and dbgfs_before_terminate()
+5e3e96d95d3cbabc4cddac850bd5cb9843f236bc selftests/damon: Test target_ids_write()'s pids leaks
+155ca7eda25841aa2cfbf2967972a254e40845a6 === Commits that not will be posted ===
+946525ae5892a2ec98a9e39691d0bc7588a00520 mm/damon: Add debug code
+776a7b21e3df81edb62567a3a3569cbc6496ad2d Docs: Modify for DAMON only
+e8413bf46c4f3b8bd18f4f3d7f328338f44fea72 Docs/DAMON: Add more docs -next doc
+f1b92fbbd3ceea39ffff26273621de1fd9490a0d === More dirty hacks ===
+04f96a019144e564d804b7c09852e66eeb9ba324 xen-blk{back,front}: Update contact points for buffer_squeeze_duration_ms and feature_persistent
+768f1efe119c3b5d670ec458858cdb53cd3caed0 ===== Allow online tuning =====
+30b1ee274cfa548fb045933fe74f5042d82479b8 mm/damon: Add a new callback, after_wmarks_check()
+0e539492d11ad21b5f8704c8af2e40e4c5bc1e0e wip/damon/reclaim: Allow online parameters update
 
---===============4170914261025460734==--
+--===============6642899717847979782==--
