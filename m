@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 01 Mar 2022 15:00:44 -0000
-Message-Id: <164614684498.2901.5558868787658991419@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5633757462296798346=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 01 Mar 2022 15:01:37 -0000
+Message-Id: <164614689784.3270.10532922900774541628@gitolite.kernel.org>
+
+--===============5633757462296798346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1e385c08249e4822e0f425efde1896d3933d1471
-    new: 7282c126f7688f697d33f3b965c29bba67fb4eba
+    old: bcd9a49a237d5bf9cfd407200ccc8c92b20ad6fe
+    new: 3325b87f92899305af8ba7f5b1163d2c96f2cdc2
     log: |
-         462791bbfa350189e309a5a94541f6b63cd874e8 net/smc: add sysctl interface for SMC
-         dcd2cf5f2fc0d4d37aa5400b308d401a150c38b6 net/smc: add autocorking support
-         12bbb0d163a90d81a2677cf7808d364697290207 net/smc: add sysctl for autocorking
-         b70a5cc045197aad9c159042621baf3c015f6cc7 net/smc: send directly on setting TCP_NODELAY
-         6bf536eb5c8ca011d1ff57b5c5f7c57ceac06a37 net/smc: correct settings of RMB window update limit
-         a505cce6f7cfaf2aa2385aab7286063c96444526 net/smc: don't req_notify until all CQEs drained
-         6b88af839d204c9283ae09357555e5c4f56c6da5 net/smc: don't send in the BH context if sock_owned_by_user
-         7282c126f7688f697d33f3b965c29bba67fb4eba Merge branch 'smc-datapath-opts'
+         3325b87f92899305af8ba7f5b1163d2c96f2cdc2 Add 6CEF3D27CA5B141E (Joseph Salibury)
          
+
+--===============5633757462296798346==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1646146897 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1646146897-1a279e4b8bf106b826807ae777a1686377f5bbc3
+
+bcd9a49a237d5bf9cfd407200ccc8c92b20ad6fe 3325b87f92899305af8ba7f5b1163d2c96f2cdc2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYh41UQAKCRC2xBzjVmSZ
+bALeAP9XH/qFEHvMuVQ1spCRTCXt+hOsKbInb4T4l3PiduEwFwD/W2yGv2Nlu4G1
+YJiL5mQIV5R8Q5QZI50X7nO1hWjs8gg=
+=6rEi
+-----END PGP SIGNATURE-----
+
+--===============5633757462296798346==--
