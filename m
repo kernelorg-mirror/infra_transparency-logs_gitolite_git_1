@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 02 Mar 2022 14:39:53 -0000
-Message-Id: <164623199365.14196.276291290136547299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 02 Mar 2022 14:43:34 -0000
+Message-Id: <164623221406.17010.2012742173717671732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: hansg
 changes:
-  - ref: refs/heads/master
-    old: cfb10ba3de635947f6f3ab2d3cb1bb0a1b19c79d
-    new: 47d5af6db3917c5493692edacce4d605be2f7f7f
+  - ref: refs/heads/review-hans
+    old: a3d38af35d61a1e2045b73b4e43fa5ffb9d71008
+    new: e1c21608e3cfc4b44ecdf04e12986b6564667095
     log: |
-         1deee1df1b9d6b856e26bb3a059b5d9ced5fc56f random: provide notifier for VM fork
-         47d5af6db3917c5493692edacce4d605be2f7f7f wireguard: device: clear keys on VM fork
+         e1c21608e3cfc4b44ecdf04e12986b6564667095 platform/x86: thinkpad_acpi: Add PSC mode support
          
