@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8599754066906519226=="
+Content-Type: multipart/mixed; boundary="===============8778366654808155536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 02 Mar 2022 16:59:01 -0000
-Message-Id: <164624034187.9535.15373551322370494900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 02 Mar 2022 16:59:08 -0000
+Message-Id: <164624034811.9642.15983807726244678814@gitolite.kernel.org>
 
---===============8599754066906519226==
+--===============8778366654808155536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 8dd55245836119ee3636543b6c2597efd78e643d
     new: 227178d238b3ebdc2347045b52e2f2a8d4809a11
     log: revlist-8dd552458361-227178d238b3.txt
 
---===============8599754066906519226==
+--===============8778366654808155536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646240340 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1646240339-5a47c4ac2c692d6442f94cbda2e7e1f361f94677
+pusher C3F436CA30F5D8EB 1646240346 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646240345-a4f3ac52f50f19558c5c6e5c908b7fb6e9e246ef
 
-8dd55245836119ee3636543b6c2597efd78e643d 227178d238b3ebdc2347045b52e2f2a8d4809a11 refs/heads/for-5.18
+8dd55245836119ee3636543b6c2597efd78e643d 227178d238b3ebdc2347045b52e2f2a8d4809a11 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIfolQACgkQJNaLcl1U
-h9DrKAf/aigZUoFxNj75Mlt9z8+wsgayaiuI0wWOzJGjYuDJyCExijyAckhrlVlQ
-PMU1r0IUuER+GUJbjip8rel4L5XW1236aSISUuwsG2DlujwM40qwnlXJ/pYBTJWX
-J9U8aiFYkQgB/NMEPVAd0AucC/B4XxLDRP7aztc/E0IdwE4U03TBqY836xRgTT7w
-z6jdZzSAQ8Wv7WE0IHVlBo2LADHebB69VPBkruazUrLk6peluJqwNLeuq2QStikG
-oBFmhaFIQwNGhoJRyaDzmgLASj99zCT42LiKvH+T2z8feVbRzmkXicyjEri6Qlmp
-HLC0oGknZ/GzfCNHqZawdRcW529/Vw==
-=MKov
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIfoloACgkQJNaLcl1U
+h9AZMwf9HP9FKooOLCG1A77qdGsVaR9rEwbRfSQpYqQF8dG+rTp7oUXmzjC7//Ai
+oMNrRAV0nrf5ac5PtHoDEoFsFhotmDKbqqsVLMutBWojwMdBAYs3Gyu74AuZ3vu7
+1f72Ba0eWGYGCSJtfZqESQyokHx+wU6Wz5vrIhC3N3RjtTZp34BJ/5+JvKRxXQGa
+Q1WOTc7tNm7dA9tb5nYmDLM92rIKo/8pdhsLQprZsIHRO+z+lHj2FBFyhrSnY7a9
+xcev0vMMTB7u8+00hnBr+fmIH0eS7Xx/IXqbukoPSZNPYp+uvIMljRKmNVqf/GvG
+TJdCJADCsp31Z0XdMQvW1TE6hug0Gw==
+=Awaw
 -----END PGP SIGNATURE-----
 
---===============8599754066906519226==
+--===============8778366654808155536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ de2c6f98817fa5decb9b7d3b3a8a3ab864c10588 ASoC: soc-compress: prevent the potenti
 d5dd781bcc81aa31b62310927f25cfa2574450f1 ASoC: qcom: Fix error code in lpass_platform_copy()
 227178d238b3ebdc2347045b52e2f2a8d4809a11 ASoC: Intel: machine driver updates for 5.18
 
---===============8599754066906519226==--
+--===============8778366654808155536==--
