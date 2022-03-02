@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Wed, 02 Mar 2022 19:21:07 -0000
-Message-Id: <164624886735.6455.9972086005412731891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 02 Mar 2022 19:28:43 -0000
+Message-Id: <164624932372.10313.15068590803760233005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: holtmann
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: ba1aedc11a67aede0059fa676bb97b68be954741
-    new: d2a111df49a074350fc13618fc79e265afcb01a4
+  - ref: refs/heads/for-next
+    old: acda0aab9ed26da73f713995d2b67feab7669417
+    new: b2d5c4016a34d769e8ec00db7c53b9a7d8312e07
     log: |
-         d2a111df49a074350fc13618fc79e265afcb01a4 Bluetooth: hci_event: don't print an error on vendor events
+         e7f127b213faf9494b2c4215e72055a824814fac arm64: dts: juno: align pl330 node name with dtschema
+         8ede5890faaa28ac380b040bc933ead56ae9ec28 arm64: dts: lg: add dma-cells to pl330 node
+         ad3c72b0c6b912a0e917ae8010c62cc98012ab1e arm64: dts: lg: align pl330 node name with dtschema
+         b2d5c4016a34d769e8ec00db7c53b9a7d8312e07 Merge branch 'for-v5.18/dt-cleanup' into for-next
          
+  - ref: refs/heads/for-v5.18/dt-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: ad3c72b0c6b912a0e917ae8010c62cc98012ab1e
