@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Wed, 02 Mar 2022 21:18:46 -0000
-Message-Id: <164625592680.12690.409621893080202640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 02 Mar 2022 21:25:20 -0000
+Message-Id: <164625632092.17638.1100788075031432085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nathan/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/wip/llvm-suffix
-    old: 0000000000000000000000000000000000000000
-    new: 83219caafbb7dbc2e41e3888ba5079d342aff633
+  - ref: refs/heads/master
+    old: 530e214c5b5acbfaf819d884b196f3c61f5eca3d
+    new: 8bbe98bdccef0bb4fe88c666c28a3d4fe51151f7
+    log: |
+         eed1fcee556fd8569afe94178b0c2784a5a6b717 x86: Disable HAVE_ARCH_HUGE_VMALLOC on 32-bit x86
+         676b2daabaf9a993db0e02a5ce79b984aaa0388b bpf, x86: Set header->size properly before freeing it
+         8bbe98bdccef0bb4fe88c666c28a3d4fe51151f7 Merge branch 'fixes for bpf_prog_pack'
+         
