@@ -1,39 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Wed, 02 Mar 2022 08:08:35 -0000
-Message-Id: <164620851550.31309.8517429077793308322@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 02 Mar 2022 08:16:27 -0000
+Message-Id: <164620898779.5453.9546071465102802058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/mlx5-vfio
-    old: d18f3ba69448b8f68caf8592a9abb39e75c76e8d
-    new: e3d71f5dc4500f6764906505e2a93ed81a8ad190
+  - ref: refs/heads/mlx5-queue
+    old: 866647127ff153722284aa1df3e7eb969c981a20
+    new: 4f5bbe2bff0cad20f941c9dfc2809b719ce3d4a6
     log: |
-         47ec676d1582f02d4813b2d206c03f821061a84a vfio: Have the core code decode the VFIO_DEVICE_FEATURE ioctl
-         7effe931ba8d0266b7c73b98ce54419da0428852 vfio: Define device migration protocol v2
-         75fa1931fe268d9fa93de484e1fe53975e7456c8 vfio: Extend the device migration protocol with RUNNING_P2P
-         65d182cf36743a0f7f484dbabbe84e380f80f776 vfio: Remove migration protocol v1 documentation
-         1ed7ca61b3cc94ada517ccaabd9604e77a5260f7 vfio/mlx5: Expose migration commands over mlx5 device
-         c1564bb159d77746f38ccb1ce7cefed42cdcb798 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
-         4d6d972ece0575f4372f2fd421e28b5464fb5b2c vfio/pci: Expose vfio_pci_core_aer_err_detected()
-         e3d71f5dc4500f6764906505e2a93ed81a8ad190 vfio/mlx5: Use its own PCI reset_done error handler
-         
-  - ref: refs/tags/mlx5-vfio-v9
-    old: de0cf175b4070fd43ac9efda4789e45a0fd05176
-    new: bab79a719e768d836c9f56a4926062f3e49fd355
-    log: |
-         47ec676d1582f02d4813b2d206c03f821061a84a vfio: Have the core code decode the VFIO_DEVICE_FEATURE ioctl
-         7effe931ba8d0266b7c73b98ce54419da0428852 vfio: Define device migration protocol v2
-         75fa1931fe268d9fa93de484e1fe53975e7456c8 vfio: Extend the device migration protocol with RUNNING_P2P
-         65d182cf36743a0f7f484dbabbe84e380f80f776 vfio: Remove migration protocol v1 documentation
-         1ed7ca61b3cc94ada517ccaabd9604e77a5260f7 vfio/mlx5: Expose migration commands over mlx5 device
-         c1564bb159d77746f38ccb1ce7cefed42cdcb798 vfio/mlx5: Implement vfio_pci driver for mlx5 devices
-         4d6d972ece0575f4372f2fd421e28b5464fb5b2c vfio/pci: Expose vfio_pci_core_aer_err_detected()
-         e3d71f5dc4500f6764906505e2a93ed81a8ad190 vfio/mlx5: Use its own PCI reset_done error handler
+         ea9dbaeff799d54a92a1835652ff96877f16c789 net: Disable LRO feature if no RXCSUM
+         db63f47ac0775f154c5fdc78db7abbbae7c4a2c9 net/mlx4: Delete useless moduleparam include
+         02c2a78e9cfea6f6ec1b33edef89e942dbaeb61a net/mlx5: Delete useless module.h include
+         d10343c8ef9b14c9642f01b89e8ce6525c7000dd net/mlx5: Node-aware allocation for the IRQ table
+         00929fb75c47169def1b62c59367170402a87120 net/mlx5: Node-aware allocation for the EQ table
+         5ddaa07da91200db0524a1cd1c0157292d8aa485 net/mlx5: Node-aware allocation for the EQs
+         55455b48810e81e629643826baba0927e15cd6ba net/mlx5: Node-aware allocation for UAR
+         48785cf94eb0e45360877d44d269dd6aa9ca6487 net/mlx5: Node-aware allocation for the doorbell pgdir
+         249c8f09200476190cd01ff7b05783c966b61dbd Merge branch 'patchq/467855' into mlx5-queue
+         4f5bbe2bff0cad20f941c9dfc2809b719ce3d4a6 Merge branch 'patchq/362916' into mlx5-queue
          
