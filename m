@@ -1,42 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============8530048456590546626=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 02 Mar 2022 23:34:18 -0000
-Message-Id: <164626405866.10735.17246559971107324252@gitolite.kernel.org>
-
---===============8530048456590546626==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Wed, 02 Mar 2022 23:38:59 -0000
+Message-Id: <164626433977.13695.2918263894142671597@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 4624b3e4b06cbe18e81f76b7377e59e392b6161b
-    new: 25485ffb54ac073e82957218404e303469477c2f
-    log: revlist-4624b3e4b06c-25485ffb54ac.txt
-
---===============8530048456590546626==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4624b3e4b06c-25485ffb54ac.txt
-
-814fc7895c936d5f7de043b54989e5a51bd3c956 netfilter: nft_ct: track register operations
-df6f14318594b7eb8674765d132a7374f5e7507b netfilter: nf_tables: Reject tables of unsupported family
-cb4aac4bbca5c4dee8fc115e2011149f4c95f7b7 nfnetlink: handle already-released nl socket
-e999c34a878887e8413b6f728b929d668e191888 netfilter: ctnetlink: make ecache event cb global again
-231b6c80885ba76efc24a992e434b817d52b2386 netfilter: ecache: move to separate structure
-38a419ee4e646c1a6427f98717ad0bfac9762607 netfilter: ecache: use dedicated list for event redelivery
-4ebc1fa62655d62e55d6332eef71bfb05fcc23c9 netfilter: conntrack: split inner loop of list dumping to own function
-78babcd3d89c2de2bc8ba688faa4f6d64d82f7ff netfilter: conntrack: include ecache dying list in dumps
-3ad61edaa5ac46811b4ea07a994428ead31e7468 netfilter: conntrack: remove the percpu dying list
-88ca203fd7241d065e3f7bf404e50ccd4f7c9b7e netfilter: flowtable: Support GRE
-b2ea9a0ac82bf016c28f1d4040e9917b12df624d act_ct: Support GRE offload
-25485ffb54ac073e82957218404e303469477c2f net/mlx5: Support GRE conntrack offload
-
---===============8530048456590546626==--
+  - ref: refs/heads/ux500-codina-v5.17-rc1
+    old: 55196848adbcea2ea36561a056bb610bf3ab40bf
+    new: cfe047066bbb0031361562e28f1f565837a17cfc
+    log: |
+         91ec5771d72bd41789ad5888bfe209a538cd8f70 Input: zinitix - Do not report shadow fingers
+         55e0d014193561d45fbc4853ea6e2665dad65f6a ARM: dts: ux500: Register Amstaos proximity sensor
+         4999fc8e5dd8ac5b7a669117421bf9a4b0187515 dt-bindings: leds: Add regulator-led binding
+         cf3790c26af92d2644053c22f555a98f24fee8c9 leds: regulator: Add dev helper variable
+         c4fdeb3cab103386d9616e3da0c4b10fd154f122 leds: regulator: Make probeable from device tree
+         f8dab2a8e3d7594f2e1baf8afea0de8b1a19deee dt-bindings: arm: ux500: Document Codina-TMO
+         cfe047066bbb0031361562e28f1f565837a17cfc ARM: dts: ux500: Add Codina TMO device tree
+         
+  - ref: refs/heads/ux500-href-charging-v5.17-rc1
+    old: ff2a9483749f5860407c6fb4798202b774978a81
+    new: 3d04cfb34204804d230a481ff6c21b59aef20dbf
+    log: |
+         a733d2873e2932741548e713766ee40e12ef67ed power: supply: Static data for Samsung batteries
+         9f99d30c03589455d5518fbfda3122ea8507bf22 HACK: turn on messages in the charging algorithm
+         e64b7d5abd794f9834601a2f6210c2349f98c933 HACK: turn on messages in the charger
+         eb15af5ce014f8aeb98c5d648e50423dca1580c8 dt-bindings: power: supply: ab8500_fg: Add line impedance
+         6e4634b28daf91454104f1f54574bd3f5c65378b power: supply: ab8500_fg: Account for line impedance
+         3d04cfb34204804d230a481ff6c21b59aef20dbf ARM: dts: ux500: Add line impedance to fuel gauge
+         
+  - ref: refs/heads/ux500-janice-v5.17-rc1
+    old: ce0c99b96901cf4f58cd20da455b9f492a7b5372
+    new: 8fa4244da48024e3d03c94bd5fc709576220825d
+    log: |
+         8fa4244da48024e3d03c94bd5fc709576220825d GPS stab
+         
+  - ref: refs/heads/ux500-charging-v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3205c463457e0bec98ef7d707889e9daefec79ca
