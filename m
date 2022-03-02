@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4602301644484082059=="
+Content-Type: multipart/mixed; boundary="===============5601707037928037178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Wed, 02 Mar 2022 23:12:56 -0000
-Message-Id: <164626277613.28965.6110631902140800803@gitolite.kernel.org>
+Date: Wed, 02 Mar 2022 23:13:18 -0000
+Message-Id: <164626279864.29186.7464495822264875915@gitolite.kernel.org>
 
---===============4602301644484082059==
+--===============5601707037928037178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,40 @@ repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
 user: zx2c4
 changes:
   - ref: refs/heads/stable
-    old: 890414c288f5d409789ec3c287d28b030537a412
-    new: 076a2e7da325ef10583c4383387b45bcc7d76901
-    log: revlist-890414c288f5-076a2e7da325.txt
+    old: 076a2e7da325ef10583c4383387b45bcc7d76901
+    new: 33b8e9a2e70da8aac5c85330971b3f0ec51920d3
+    log: revlist-076a2e7da325-33b8e9a2e70d.txt
 
---===============4602301644484082059==
+--===============5601707037928037178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-890414c288f5-076a2e7da325.txt
+Content-Disposition: attachment; filename=revlist-076a2e7da325-33b8e9a2e70d.txt
 
-7b1867ea1d870ecff5e1b65731e9d59b9597df4a mac80211: fix EAPoL rekey fail in 802.3 rx path
-50593544e24d4b584bf642c980f2798e527f1b3c mac80211: refuse aggregations sessions before authorized
-ba73c805a891d7c54b74001d1dee7a8d77b4df47 mac80211: fix forwarded mesh frames AC & queue selection
-43b7ad7da4239c29258be4fad65a21d5cfb29af7 rfkill: define rfill_soft_blocked() if !RFKILL
-985057d31fb2ba24bb94fd05f3073d40c0ac0d96 iwlwifi: don't advertise TWT support
-8d5db81d64214dbb68854fe8495157ab052fc61f iwlwifi: mvm: check debugfs_dir ptr before use
-6049f71ea56a5c962e1223253001531980b7c3fb nl80211: Handle nla_memdup failures in handle_nan_filter
-6ff4b7c0556beea194e35ffe39b18857f205104c mac80211: treat some SAE auth steps as final
-c27da797d3519ecdd1ecf31156cb64c74c1f06ff cfg80211: fix CONFIG_CFG80211_EXTRA_REGDB_KEYDIR typo
-0c0779ca05880d7b5d77566c68128611fe9e4322 netfilter: nf_tables: prefer kfree_rcu(ptr, rcu) variant
-95a857049a28cfac7ebb205b7fdaec4ac681810f netfilter: fix use-after-free in __nf_register_net_hook()
-1dcac9396fc2e5bd8dc7be89001e852bb389a387 netfilter: egress: silence egress hook lockdep splats
-78e48ac65311fcf80b0993d75b9b42307fc49b11 netfilter: nf_queue: don't assume sk is full socket
-88811506ecf9fcdb4b7dc3b5c792e93ae8ee6fdf selftests: netfilter: add nfqueue TCP_NEW_SYN_RECV socket race test
-b70c0efa9fdce38c0b980e3c71ecafce536a057e netfilter: nf_queue: fix possible use-after-free
-0b4ad01c04ba782b2f659dd97d80b6adb7d98d9d netfilter: nf_queue: handle socket prefetch
-43e7895deedc5d0221634412f441251369d9379d net/sched: act_ct: Fix flow table lookup failure with no originating ifindex
-820f85570e8e4dca91e2abb4b1ba0267ec9617d6 Bluetooth: Fix not checking MGMT cmd pending queue
-ddbf69525cb097eaabd4fcf6abcd28736aa4e10e net: dsa: restore error path of dsa_tree_change_tag_proto
-de932e38b3226fdf0a4b341164457c7e843df937 ptp: ocp: Add ptp_ocp_adjtime_coarse for large adjustments
-27b7c47353ae14279d42c3605f43f71efba93895 wireguard: queueing: use CFI-safe ptr_ring cleanup function
-076a2e7da325ef10583c4383387b45bcc7d76901 wireguard: selftests: simplify RNG seeding
+610d086d6df0b15c3732a7b4a5b0f1c3e1b84d4c mac80211: fix EAPoL rekey fail in 802.3 rx path
+a6bce78262f5dd4b50510f0aa47f3995f7b185f3 mac80211: refuse aggregations sessions before authorized
+859ae7018316daa4adbc496012dcbbb458d7e510 mac80211: fix forwarded mesh frames AC & queue selection
+ae089831ff28a115908b8d796f667c2dadef1637 netfilter: nf_tables: prefer kfree_rcu(ptr, rcu) variant
+56763f12b0f02706576a088e85ef856deacc98a0 netfilter: fix use-after-free in __nf_register_net_hook()
+17a8f31bba7bac8cce4bd12bab50697da96e7710 netfilter: egress: silence egress hook lockdep splats
+50bb467c9e76743fbc8441d29113cdad62dbc4fe rfkill: define rfill_soft_blocked() if !RFKILL
+1db5fcbba2631277b78d7f8aff99c9607d29f6d8 iwlwifi: don't advertise TWT support
+5a6248c0a22352f09ea041665d3bd3e18f6f872c iwlwifi: mvm: check debugfs_dir ptr before use
+6ad27f522cb3b210476daf63ce6ddb6568c0508b nl80211: Handle nla_memdup failures in handle_nan_filter
+94d9864cc86f572f881db9b842a78e9d075493ae mac80211: treat some SAE auth steps as final
+747670fd9a2d1b7774030dba65ca022ba442ce71 netfilter: nf_queue: don't assume sk is full socket
+2e78855d311c401083df9776aa450d32d716e83e selftests: netfilter: add nfqueue TCP_NEW_SYN_RECV socket race test
+c3873070247d9e3c7a6b0cf9bf9b45e8018427b1 netfilter: nf_queue: fix possible use-after-free
+3b836da4081fa585cf6c392f62557496f2cb0efe netfilter: nf_queue: handle socket prefetch
+a12f76345e026f1b300a0d17c56f020b6949b093 cfg80211: fix CONFIG_CFG80211_EXTRA_REGDB_KEYDIR typo
+b8d06ce712e37c6a6e74bf1624a0f4a412cd6508 Merge tag 'wireless-for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+db6140e5e35a48405e669353bd54042c1d4c3841 net/sched: act_ct: Fix flow table lookup failure with no originating ifindex
+4761df52f1549cc8c5ffcad0b2095fffe2c5435d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+275f3f64870245b06188f24bdf917e55a813d294 Bluetooth: Fix not checking MGMT cmd pending queue
+2e77551c61286bac56ebf337b1ac2dd419952c8d Merge tag 'for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+0b0e2ff10356e7e2ffd66ecdd6eee69a2f03449b net: dsa: restore error path of dsa_tree_change_tag_proto
+90f8f4c0e3cebd541deaa45cf0e470bb9810dd4f ptp: ocp: Add ptp_ocp_adjtime_coarse for large adjustments
+9903b8374fe905ba1a0636c45628f2dcaed1bd7f wireguard: queueing: use CFI-safe ptr_ring cleanup function
+33b8e9a2e70da8aac5c85330971b3f0ec51920d3 wireguard: selftests: simplify RNG seeding
 
---===============4602301644484082059==--
+--===============5601707037928037178==--
