@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 02 Mar 2022 20:06:55 -0000
-Message-Id: <164625161527.3293.1632981307762742891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Wed, 02 Mar 2022 20:15:28 -0000
+Message-Id: <164625212871.9217.4968360422150309391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-next
-    old: 53157759f56bae8aa6ad2912378f7e75e218e779
-    new: 8d807ef59d872dc78d7e5e5cc137b2f5fee1c5a3
-    log: |
-         dca669354e6ff494222dfc461bed1087264f3755 dt-bindings: Another pass removing cases of 'allOf' containing a '$ref'
-         8d807ef59d872dc78d7e5e5cc137b2f5fee1c5a3 dt-bindings: gpu: Convert aspeed-gfx bindings to yaml
-         
+  - ref: refs/heads/n5x_i2c_recovery
+    old: 0000000000000000000000000000000000000000
+    new: 2b4455d2cbca31ee9123ecedbc1d25fae8991741
