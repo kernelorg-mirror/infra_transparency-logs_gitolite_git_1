@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 02 Mar 2022 00:26:25 -0000
-Message-Id: <164618078546.20641.9358516990810448214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 02 Mar 2022 00:39:26 -0000
+Message-Id: <164618156665.27662.11900617279121398730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/exynos-drm-next
-    old: 38a15ad9488e21cad8f42d3befca20f91e5b2874
-    new: 4ce37b0ef39e949003333e2115deb8bacdb367ec
+  - ref: refs/heads/mlx5-queue
+    old: f8b8ffade1339f4bb298f5665c2cca29a855a89f
+    new: 2c72090f05a987a185a547043af72a3b554734b8
     log: |
-         0d22b031662ad48d5835e470a90784f4b39adce9 drm/exynos/exynos7_drm_decon: Use platform_get_irq_byname() to get the interrupt
-         be52abd4d2b7ea343373cc116a99699a3e3c5573 drm/exynos: mixer: Use platform_get_irq() to get the interrupt
-         b342c1f335981ebc442127efe03524d2331a273c drm/exynos/exynos_drm_fimd: Use platform_get_irq_byname() to get the interrupt
-         be0a3b7e2a97e3f73004a5b453cc2023d8c1317a drm/exynos/fimc: Use platform_get_irq() to get the interrupt
-         586d0902456ad965c9a456fd0a0f451518aed1c5 drm/exynos: gsc: Use platform_get_irq() to get the interrupt
-         0a6e8d0a6df67e0fff9c7d130b89769df4167c2b drm/exynos: Don't fail if no TE-gpio is defined for DSI driver
-         4188db23285e28d9e9b9096f856cdcd7868005ee drm/exynos: Search for TE-gpio in DSI panel's node
-         ee20a65ce10b1a96d7ad0236b3f738eca9ea127e Merge tag 'exynos-drm-fixes-v5.17-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into exynos-drm-next
-         4ce37b0ef39e949003333e2115deb8bacdb367ec drm/exynos: fimd: add BGR support for exynos4/5
+         8249ae4bbd743905dc807983ba82b8098987df2b net: Disable LRO feature if no RXCSUM
+         5af01ea8e1201bcb3ecbdb0fb5c0f20f24e19a99 net/mlx4: Delete useless moduleparam include
+         0d99fca0809f091e1082dcba69c255dae1a2f5d5 net/mlx5: Delete useless module.h include
+         1fec9a75416bb570df5372e95833fb8fed1ac754 net/mlx5: Node-aware allocation for the IRQ table
+         2dfe5b0997cff3e40fcfbb9f8f17ab277f6a8f57 net/mlx5: Node-aware allocation for the EQ table
+         6ffa7427c7564bae96d4bdb90faf53216523ff81 net/mlx5: Node-aware allocation for the EQs
+         8fc56f260ed74ca1ba8caee6b482ed9c4a6b9bfc net/mlx5: Node-aware allocation for UAR
+         8209c4019a402f4beb78e3884d67953de21e9c96 net/mlx5: Node-aware allocation for the doorbell pgdir
+         75011587da516e41d3b2430b39e0c93d1d33fe91 Merge branch 'patchq/467855' into mlx5-queue
+         2c72090f05a987a185a547043af72a3b554734b8 Merge branch 'patchq/362916' into mlx5-queue
          
