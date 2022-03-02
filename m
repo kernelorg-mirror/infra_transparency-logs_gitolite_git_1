@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3503838534511779842=="
+Content-Type: multipart/mixed; boundary="===============7256808192431003756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 02 Mar 2022 05:11:52 -0000
-Message-Id: <164619791203.14890.2293060919561155028@gitolite.kernel.org>
+Date: Wed, 02 Mar 2022 05:12:06 -0000
+Message-Id: <164619792600.15075.16650609063276160796@gitolite.kernel.org>
 
---===============3503838534511779842==
+--===============7256808192431003756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5728625d5c34ef3b207b4350c3fb9ee166eb91f8
-    new: 81676302e40906c4b1701d0b497203ac680d624d
-    log: revlist-5728625d5c34-81676302e409.txt
+  - ref: refs/heads/staging
+    old: 740ec00969c3fa062a74af9680af197c30de5c6f
+    new: f2ddbbea7780f0af46944ccd494f7eded8e214a4
+    log: revlist-740ec00969c3-f2ddbbea7780.txt
 
---===============3503838534511779842==
+--===============7256808192431003756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1646197902 -0500
+pusher 75C5DE3D 1646197918 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646197902-7d846490c9cea362cfd2e34e0b9c6554611029b0
+nonce 1646197917-098073b36e96a19d8e33e272ff92d67a374fd5ef
 
-5728625d5c34ef3b207b4350c3fb9ee166eb91f8 81676302e40906c4b1701d0b497203ac680d624d refs/tags/mkp-scsi-staging
+740ec00969c3fa062a74af9680af197c30de5c6f f2ddbbea7780f0af46944ccd494f7eded8e214a4 refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIe/I4ACgkQ7ulgGnXF
-3j0Zgw//Z3tok+7ebj/tTcAMsdB9gVLBN8admV8yihE8EleGL+BBk7jwiUFWx37C
-/oBq5fbNeavwY7Z6YHod9CElzG21wpvde2e1fFV+J0hkgMxs11a8dbjaX2uz1vOI
-biUt1UWMIs8VtPaxJkiEdDUs4gugdWHE+pFcea6VA21C7UX+zgvaRsnnfOvqbN1t
-5Hl1iuUTEBCOzv63jOWHSj0VloNbqxDbuOClvXL4gdHQJYkOw8roJr0D/Jq2b/sT
-p80/PUDp4Eru7mhKOMnDQgCSLxb2mOWfu1GK9DUOjddAznbNEHZiDzIIx8h4y3w5
-vUg4XEyzLkhQEo0ICGDMdWKVUQToe6eN6jQNch05tBwJwSuZsgOcZt1qj5s9i3no
-flffO+z57lxWsVUrVYZ6NfKGkEn+J2HvT9XxoiGNMzvBF6j9haIyklcnJvWYTdG+
-Ptckgo/YPXybuhihbeIoW1LCabGK905tTFVljDko2LNio4Tei9k4E0vdQrse5cnM
-C2CA2kvlhs0f4BXpXEf0WgcNqMPi0jUCoWP2bKqGNoD9Jf0EitGrpOi/yhe6QRpg
-bqLebiPOQEQ6caBjEzHLLKFQ5ZK6pyZsdMOhR6uWQ5iIM1Y0wjOOWqB43wSDqW1T
-pb3RKdi7dXBiT9R0iw6KWjImRp4VHGWxa4X3xt773JbN1L/O8AM=
-=UhMj
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIe/J4ACgkQ7ulgGnXF
+3j1hvRAAhJM9hjQxasOKwx4qcm8gFrZxG9QB0lOfsqbpjk9IrCQXGtsE49nTFfpn
+sHwueOe4/JRvTp+Ek9J0llQIrh3eOZQmdCSR2jlDQ4YSrhmdf4fiQX3vG604wy04
+41mogbKLt+Hd1wtKHet8nUlv0NNhq9imGCdBg6hOZikOp5rknqXe68s0sv16Cb4w
+6azyv9OycyItBNwRSfUB6b997pIV2IbpxwBFM4JZbp7621N28sP0RZJVwqsIOm2r
+sdJ5fiJSKJ/JdDnCkWH+bxpfnyUJeOAT2SOPV5zgjwbXYgKF2omY74M2unjXFT4q
+U3Fyegk/XEuVVcWrNFEey//r+2Gp1HJwblRxtw6Sl4bHKaWQ7SDauk8+Bd9CfAoY
+MNdWN5FTwuVKsSryFrXgHpVvou15jPe97Qe9QVRNuHP3q120liwlaeiKGFEkEGhu
+tryATpNm+K4Ee37hf4sbxiEsjB/pNIi8j/4hPAh2VonvjSzB0arXwNzE4GH0LtGs
+NKW4sXoHRlWK78GpOQp7kDXlpWtRk6tvDpcqjNx42cmNmxgkb7LI08NJOSOp134M
+x20DW5Rbkfd49rZETsgA9QTGvTy4uj0kRT3dYh2MKuI5LdKqY0c8sZseF6V+PFs7
+XScPCJAJ9LhVOMePLty+ZqGz+hwkbgnkGDWaNn032uDqUSNbxYo=
+=V4Re
 -----END PGP SIGNATURE-----
 
---===============3503838534511779842==
+--===============7256808192431003756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5728625d5c34-81676302e409.txt
+Content-Disposition: attachment; filename=revlist-740ec00969c3-f2ddbbea7780.txt
 
 c49ff72cff4caff709b2edb98421bd87bec1d853 scsi: target: pscsi: Remove struct pscsi_plugin_task
 71bada345b33b9297e7cc9415db6328c99b554f9 scsi: core: Don't memset() the entire scsi_cmnd in scsi_init_command()
@@ -98,4 +98,4 @@ d8ffd1ed26b9adc3e88944c225c51ec8d8e54dd3 scsi: lpfc: SLI path split: Refactor Ab
 37b1baa6ba18d68f0579b240233cc27f76400d00 scsi: lpfc: Update lpfc version to 14.2.0.0
 f2ddbbea7780f0af46944ccd494f7eded8e214a4 scsi: lpfc: Copyright updates for 14.2.0.0 patches
 
---===============3503838534511779842==--
+--===============7256808192431003756==--
