@@ -1,52 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1209464549161081159=="
+Content-Type: multipart/mixed; boundary="===============1949829626409043365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Mar 2022 16:59:20 -0000
-Message-Id: <164624036028.9859.8744451551700087653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 02 Mar 2022 16:59:26 -0000
+Message-Id: <164624036626.9997.10836790610472373014@gitolite.kernel.org>
 
---===============1209464549161081159==
+--===============1949829626409043365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.18
-    old: a94e5cd8457fb46866459562ef6c53f9dcc375f7
-    new: 80c056656d46ffbece6125dee3f25adbc36d1486
+  - ref: refs/heads/for-5.18
+    old: f16ed63e53c79070283d3c264de5309794272ae9
+    new: 13262fc26c1837c51a5131dbbdd67a2387f8bfc7
     log: |
-         75c3543e39f0c94644eac5965b3efe50c2c5c39d regulator: virtual: use dev_err_probe()
-         d2fb5487ecb2a28b61ff261ae18488afc98d24a6 regulator: virtual: warn against production use
-         80c056656d46ffbece6125dee3f25adbc36d1486 regulator: virtual: add devicetree support
+         ee8ad9440f18478796dbd7e0891efcc44376ab70 spi: dt-bindings: renesas,rspi: Drop comment for generic compatible string
+         d149dd2a806b9d11e570c3731eca8bda3c5f6238 spi: dt-bindings: mediatek: Set min size for 'mediatek,pad-select'
+         13262fc26c1837c51a5131dbbdd67a2387f8bfc7 spi: spi-zynqmp-gqspi: Handle error for dma_set_mask
          
 
---===============1209464549161081159==
+--===============1949829626409043365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646240358 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1646240358-5c0d8346b8fc212e8717cf116d7dee7099b4f726
+pusher C3F436CA30F5D8EB 1646240364 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1646240364-b75e915b90fae578edfe87c4eb05d86ec506de05
 
-a94e5cd8457fb46866459562ef6c53f9dcc375f7 80c056656d46ffbece6125dee3f25adbc36d1486 refs/heads/regulator-5.18
+f16ed63e53c79070283d3c264de5309794272ae9 13262fc26c1837c51a5131dbbdd67a2387f8bfc7 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIfomYACgkQJNaLcl1U
-h9Diowf/XwVsITStj70k6VDdbTfn8YruMOUfNHvt9Ndfbn69MkpzWCP9q65d7ieI
-4Jtmf6bDjNbI+l2idzkww9OYvpDzZxxn7/FnCEV87rA6N7ktQcKpHkN+y9wJjaRS
-5QOGErQ3HJy67jP1saVxQP4RvuEE1H0tbZo/9BTvUepGH7Rlq+ZZQNJRvHkAjeQ9
-zLwjXYswPA1BegsQQd/Kvxk0vVGnciKKdBc0ys8sdQhcbJnjh78asEZ4/mldu+Uu
-PwLB1Lb8zoCMVPxUqJEvc2iIheaXPLf5rs4wLD/q7mmfThG4veUs5xY9KCKBOieA
-m772qMgWAS+Itl0KtwRW7ecBFuSuog==
-=19vy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIfomwACgkQJNaLcl1U
+h9Cy1wf9HoGdMJSPweHYlLlFa44h0q2fFxzFS4Qnhb8VGY2HFTkL1fHUEudjjeEE
+MQsbmBJBQVzBdkdXa2lWUasz1Sy9CwPRfR47SSaLcGojGhCLRmMiPCW4l5KGip9Q
+yo4JpzjEWePxVy5J9Rit0UySnEHz3/VRlLtlQUyAJmtyrV7A/RNffdeE3fk4lkdJ
+cRJZO2HNAUeJd2uSkhIwd8VH7eLzUFOirihFhAgyLs38CDsBt+y6C4uICwEl6Xji
+mcVqr50zkWFATF8GVULgUf/OW6hRnClaMqaygmcTIMm4yDTz9Tm+1QRtvxpmP436
+EPYYqVetB85AYw/2LUsyDLtWUEm4Pw==
+=vqIQ
 -----END PGP SIGNATURE-----
 
---===============1209464549161081159==--
+--===============1949829626409043365==--
