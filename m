@@ -1,52 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0981686653567592930=="
+Content-Type: multipart/mixed; boundary="===============8207007796050282959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 02 Mar 2022 16:59:31 -0000
-Message-Id: <164624037187.10068.2470456817524884789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 02 Mar 2022 16:59:52 -0000
+Message-Id: <164624039250.10319.13438968119701441515@gitolite.kernel.org>
 
---===============0981686653567592930==
+--===============8207007796050282959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.18
-    old: f16ed63e53c79070283d3c264de5309794272ae9
-    new: 13262fc26c1837c51a5131dbbdd67a2387f8bfc7
-    log: |
-         ee8ad9440f18478796dbd7e0891efcc44376ab70 spi: dt-bindings: renesas,rspi: Drop comment for generic compatible string
-         d149dd2a806b9d11e570c3731eca8bda3c5f6238 spi: dt-bindings: mediatek: Set min size for 'mediatek,pad-select'
-         13262fc26c1837c51a5131dbbdd67a2387f8bfc7 spi: spi-zynqmp-gqspi: Handle error for dma_set_mask
-         
+  - ref: refs/heads/for-next
+    old: 560b539f15af503388d418eaa292c725ee33b640
+    new: e7ec5ee8171904872ca043e3364da799da55d3c2
+    log: revlist-560b539f15af-e7ec5ee81719.txt
 
---===============0981686653567592930==
+--===============8207007796050282959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-560b539f15af-e7ec5ee81719.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1646240370 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1646240370-f3e85dd54ce7f5143d25d5739c7ff26f5d5f2364
+a6264056b39ee0c478e1d73bfc40f61a8cf3673f ASoC: soc-acpi: remove sof_fw_filename
+f1eebb3bf707b267bd8ed945d00a81c8ca31bd73 ASoC: Intel: boards: fix spelling in comments
+da793fb0f56c0a53d0d461d80d9c1936a39afc30 ASoC: Intel: add RT1308 I2S machine driver and HDMI-in capture via I2S support.
+e1d5e13324020c4b405e63cae34560c7992bec2e ASoC: Intel: boards: create sof-realtek-common module
+024979b67b392569dde3f9294f9b66651d2c0a93 ASoC: Intel: sof_rt1308: move rt1308 code to common module
+709ec7bec6b34ee136fff4b1b5265baaae7319a3 ASoC: Intel: cirrus-common: support cs35l41 amplifier
+2fe14ff61bd6d4fabe313435dd378b5a38eb6102 ASoC: Intel: sof_ssp_amp: rename driver and support cs35l41 amplifier
+c4dcd7100c26881b1095d5b2651d61190fc5f247 ASoC: Intel: soc-acpi: add entries in ADL match table
+2ecf362d220317debf5da376e0390e9f7a3f7b29 ASoC: mxs-saif: Handle errors for clk_enable
+f9e2ca0640e59d19af0ff285ee5591ed39069b09 ASoC: atmel_ssc_dai: Handle errors for clk_enable
+a2253ec7aef2c942630ecbe3380690bd3a704a94 ASoC: amd: use asoc_substream_to_rtd()
+45ea97d74313bae681328b0c36fa348036777644 ASoC: dwc-i2s: Handle errors for clk_enable
+300689fb04b3f23c1ac1abfe960b48ec414df597 ASoC: soc-generic-dmaengine-pcm: set period_bytes_min based on maxburst
+de2c6f98817fa5decb9b7d3b3a8a3ab864c10588 ASoC: soc-compress: prevent the potentially use of null pointer
+d5dd781bcc81aa31b62310927f25cfa2574450f1 ASoC: qcom: Fix error code in lpass_platform_copy()
+227178d238b3ebdc2347045b52e2f2a8d4809a11 ASoC: Intel: machine driver updates for 5.18
+7a66b825446fa62045d09c159672f2a76be7d219 Merge branch 'asoc-linus' into asoc-next
+e7ec5ee8171904872ca043e3364da799da55d3c2 Merge remote-tracking branch 'asoc/for-5.18' into asoc-next
 
-f16ed63e53c79070283d3c264de5309794272ae9 13262fc26c1837c51a5131dbbdd67a2387f8bfc7 refs/heads/spi-5.18
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIfonIACgkQJNaLcl1U
-h9BkvAf+NLrG+hmRf3FTl3Uu56hg/RhMvA7xYfvhTKVbYATgb3xHr/AXkuH4k2sS
-0xc4cMcOu2ueU7K2bsUphRPOMJTxFEG8TLhDfTj5F5sM/5x6tlczP8eXDOcapPmX
-eswuC6y0PMHstmBai8vEc9oFI+bgrSKNCNB+E0+pM5OzbUyzsWpXJA3KUjfn6tFZ
-wqpEfIQul7TLys4Ly7Edd26AWOwXrqYkPhpA+blpldYS0xvFXt68TQzod9zyUlGi
-7mJTI5XYqxSJ0Ws5Ebprk0kZrzJjgGCOZrecpZZlQe7i4fofuIgexbOY6EkIbcNL
-sYuLYXeGltX/R7aN9ohdncfLSoOIsg==
-=Df+l
------END PGP SIGNATURE-----
-
---===============0981686653567592930==--
+--===============8207007796050282959==--
