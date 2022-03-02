@@ -1,34 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 02 Mar 2022 17:00:16 -0000
-Message-Id: <164624041692.12104.17843187057091479795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 02 Mar 2022 17:00:40 -0000
+Message-Id: <164624044069.12354.569841439180704590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 9ea28fe70274b8709640e74bdf7d6b8cd027aba1
-    new: 48fdc1fa4d937b687a32736ff945b5b29230b73b
+    old: 59a450a32e19a915ae2e5543044937b4b3fe8de3
+    new: 5d68c8f6d848ce6c758fda03c5b9dba6a5ee4a5a
     log: |
-         48fdc1fa4d937b687a32736ff945b5b29230b73b Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         5d68c8f6d848ce6c758fda03c5b9dba6a5ee4a5a Merge remote-tracking branch 'spi/for-5.16' into spi-linus
          
   - ref: refs/heads/for-next
-    old: a94e5cd8457fb46866459562ef6c53f9dcc375f7
-    new: 29bfeed6be0c0ee1fce3a634499d051ab87c208e
+    old: ee60db9e1738ad7b68623f6ca46d6802a4e8f871
+    new: c605a0069e781a5966a131bf63ca0253eec15ef8
     log: |
-         4e2a354e3775870ca823f1fb29bbbffbe11059a6 regulator: core: fix false positive in regulator_late_cleanup()
-         f0fdfc04fd974cea23351b830fcac0822ea19a51 regulator: da9121: Fix DA914x current values
-         c8c57fbc1c5067b913077e948c7d957af6834ba3 regulator: da9121: Fix DA914x voltage value
-         9c7cf33c53ce833b58de9e5c192b4736dbd09cb1 regulator: da9121: Remove surplus DA9141 parameters
-         75c3543e39f0c94644eac5965b3efe50c2c5c39d regulator: virtual: use dev_err_probe()
-         d2fb5487ecb2a28b61ff261ae18488afc98d24a6 regulator: virtual: warn against production use
-         80c056656d46ffbece6125dee3f25adbc36d1486 regulator: virtual: add devicetree support
-         48fdc1fa4d937b687a32736ff945b5b29230b73b Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
-         e9f739e0ac51df6ebadf8faf86e8cfc986ea4d47 Merge branch 'regulator-linus' into regulator-next
-         29bfeed6be0c0ee1fce3a634499d051ab87c208e Merge remote-tracking branch 'regulator/for-5.18' into regulator-next
+         ee8ad9440f18478796dbd7e0891efcc44376ab70 spi: dt-bindings: renesas,rspi: Drop comment for generic compatible string
+         d149dd2a806b9d11e570c3731eca8bda3c5f6238 spi: dt-bindings: mediatek: Set min size for 'mediatek,pad-select'
+         13262fc26c1837c51a5131dbbdd67a2387f8bfc7 spi: spi-zynqmp-gqspi: Handle error for dma_set_mask
+         5d68c8f6d848ce6c758fda03c5b9dba6a5ee4a5a Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         4b09259e6f158200f1d906e748eda6786c0f8e5f Merge branch 'spi-linus' into spi-next
+         c605a0069e781a5966a131bf63ca0253eec15ef8 Merge remote-tracking branch 'spi/for-5.18' into spi-next
          
