@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289332808952684377=="
+Content-Type: multipart/mixed; boundary="===============2289232347429688301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 02 Mar 2022 11:16:55 -0000
-Message-Id: <164621981564.13943.18085938373111694238@gitolite.kernel.org>
+Date: Wed, 02 Mar 2022 11:17:36 -0000
+Message-Id: <164621985634.14266.16752685982946303987@gitolite.kernel.org>
 
---===============7289332808952684377==
+--===============2289232347429688301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
-  - ref: refs/heads/review-hans
+  - ref: refs/heads/for-next
     old: 555a28b9ab1c2a83577bc58e24a63c9716e36561
     new: cb18448bbf1c845aecaa09b04cfdcceb070d9236
     log: revlist-555a28b9ab1c-cb18448bbf1c.txt
 
---===============7289332808952684377==
+--===============2289232347429688301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ f97afae4d78097f7c854fa4890c6536582fd7e1e Merge remote-tracking branch 'pdx86/pla
 bf8fd1a9736eaff5a5b823415e5a0d165a42e5d6 platform/x86: x86-android-tablets: Workaround Lenovo Yoga Tablet 2 830/1050 poweroff hang
 cb18448bbf1c845aecaa09b04cfdcceb070d9236 platform/x86: x86-android-tablets: Lenovo Yoga Tablet 2 830/1050 sound support
 
---===============7289332808952684377==--
+--===============2289232347429688301==--
