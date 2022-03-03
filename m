@@ -1,237 +1,158 @@
-Content-Type: multipart/mixed; boundary="===============5612987199487521679=="
+Content-Type: multipart/mixed; boundary="===============1816892010973460698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Thu, 03 Mar 2022 17:41:08 -0000
-Message-Id: <164632926858.1611.14228824730322926744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 03 Mar 2022 17:55:45 -0000
+Message-Id: <164633014553.11862.1062804200073882772@gitolite.kernel.org>
 
---===============5612987199487521679==
+--===============1816892010973460698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/pending-4.14
-    old: 66fb3c0404c748457b03fa14e72cb0b4e9aa6c34
-    new: 5c5b76d9bfb0739b965040fd478e88847762667b
-    log: |
-         649a3b17f47c95302c6e47986d1a28594e8ca65c mac80211_hwsim: report NOACK frames in tx_status
-         91508f3190835a8d3d8a1aadf3b11e19c0d36220 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-         bf5036a694d08d2b3de6907322308e04b6437d50 i2c: bcm2835: Avoid clock stretching timeouts
-         0fd5391c03d8464a4429ceafe7d3b77a91f9f696 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-         937d45f112bc8ec3ad776d4cb4a0cb6bef1f4e8d cifs: fix double free race when mount fails in cifs_get_root()
-         a2d9525935ce6b26fc9df15b323839f058b85cf0 dmaengine: shdma: Fix runtime PM imbalance on error
-         9c68f751c0666d43c28df45642c41426c62d503e i2c: cadence: allow COMPILE_TEST
-         71f67adc96455173e95adc683a2e08c958c66d06 i2c: qup: allow COMPILE_TEST
-         3774cd1375aa154501ea6f1abc643a79eddd8903 net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-         5c5b76d9bfb0739b965040fd478e88847762667b ata: pata_hpt37x: fix PCI clock detection
-         
-  - ref: refs/heads/pending-4.19
-    old: 350cf749fc4514b703b38233bf00a86a1e0772cb
-    new: dc6b4c488a95c082fccae39bfa2518157ce9e6e4
-    log: revlist-350cf749fc45-dc6b4c488a95.txt
-  - ref: refs/heads/pending-4.9
-    old: 8cb627e1f28cb5fb08f64d4b0e9d4323b5fbcddf
-    new: 97f689409ac7fd96db6466b83943d166b44f78fb
-    log: |
-         35e8426b64eec69efac7b9f861fce9a2bfe0a4db mac80211_hwsim: report NOACK frames in tx_status
-         83cae796eaf1fa0ba60681e7c284156e0505a0bd mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-         8ae39a7a80d12c1d2a7215a43cca8a8c756e9285 i2c: bcm2835: Avoid clock stretching timeouts
-         e147a9aed0337a9365cfadacc2c27807e09a5ea1 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-         57dc93ccaa70386e4b3383f94eefc2d058cad914 cifs: fix double free race when mount fails in cifs_get_root()
-         2478cfece193a8ed5e0323d600d8d235d89275fb dmaengine: shdma: Fix runtime PM imbalance on error
-         32b0b42c00a00b1457dcfa0de4ec5af6f0fd0279 i2c: qup: allow COMPILE_TEST
-         3d80e78d19a79d937df0bc1bb27f2359cf9eb3eb net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-         97f689409ac7fd96db6466b83943d166b44f78fb ata: pata_hpt37x: fix PCI clock detection
-         
-  - ref: refs/heads/pending-5.10
-    old: cf1085b3ff206a8fb2cda551a328c822ca4a3d74
-    new: 0f04ba987a971dc9fd67d4665c47e21d5231cdff
-    log: revlist-cf1085b3ff20-0f04ba987a97.txt
-  - ref: refs/heads/pending-5.15
-    old: b5f46c2826753bcf93d57b0d5688a1ad329a74a0
-    new: 7aa7c9e2c3b30322d7f7fe98f2ec8d28286cd2b6
-    log: revlist-b5f46c282675-7aa7c9e2c3b3.txt
-  - ref: refs/heads/pending-5.16
-    old: d7441483acc310b24c7b1d0b4e714f9f381c7121
-    new: 641b43ce7c85d47bfb4887dc81217b3334be4593
-    log: revlist-d7441483acc3-641b43ce7c85.txt
-  - ref: refs/heads/pending-5.4
-    old: bdb5270cedea844231a8f77ca5852b8ffc84029a
-    new: 9b0b1353220b6d90f3bcec3d780ab8c3a3d37c17
-    log: revlist-bdb5270cedea-9b0b1353220b.txt
+  - ref: refs/heads/for-next
+    old: 2b9956051d027d74ed8c54bf1c224ee956aa65eb
+    new: f717a6052f383d3ea57229970e0d2a18e963413a
+    log: revlist-2b9956051d02-f717a6052f38.txt
 
---===============5612987199487521679==
+--===============1816892010973460698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-350cf749fc45-dc6b4c488a95.txt
+Content-Disposition: attachment; filename=revlist-2b9956051d02-f717a6052f38.txt
 
-ad155ace61784cca044f74e84ce8c32e5ce633a1 mac80211_hwsim: report NOACK frames in tx_status
-70d2ce709b50e58257841ecf6eebe5ebf6b12de7 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-ddb00fbe8952f9038c8ab47a979ae3dbc295f870 i2c: bcm2835: Avoid clock stretching timeouts
-e2ff7c5b05aa3d8575dccc07873bbfd7506ec041 ASoC: rt5668: do not block workqueue if card is unbound
-f84ff8320312d52da45184382a4ce9023494377a ASoC: rt5682: do not block workqueue if card is unbound
-2ddc63dd20705da29f2ac2f83980664a74a487ea Input: clear BTN_RIGHT/MIDDLE on buttonpads
-b8f0eb368291acbe6a2da266e57616a96e9ef2ee cifs: fix double free race when mount fails in cifs_get_root()
-88590613ed8238e8a115efc41e72c5128e108a39 dmaengine: shdma: Fix runtime PM imbalance on error
-5bc231047f67534209ec65e502e5533ac8daa2ae i2c: cadence: allow COMPILE_TEST
-1c1861ccb0057f19587943d0a1158e8d3e962964 i2c: qup: allow COMPILE_TEST
-e5039b78acd6ec0c5a781572948e6fa8fea38951 net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-c6f88f96735e459e0f4d62249e0493f40c700087 tracing: Add test for user space strings when filtering on string pointers
-22aa33a5586f08067395defd7130e806e18b2812 ata: pata_hpt37x: fix PCI clock detection
-96aa57559e5c1514924ef730cbe6568c8b2cefa7 drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-dc6b4c488a95c082fccae39bfa2518157ce9e6e4 tracing: Add ustring operation to filtering string pointers
+c992fa1fd52380d0c4ced7b07479e877311ae645 btrfs: subpage: fix a wrong check on subpage->writers
+d99478874355d3a7b9d86dfb5d7590d5b1754b1f btrfs: fix lost prealloc extents beyond eof after full fsync
+a50e1fcbc9b85fd4e95b89a75c0884cb032a3e06 btrfs: do not WARN_ON() if we have PageError set
+a6ab66eb8541d61b0a11d70980f07b4c2dfeddc5 btrfs: tree-checker: use u64 for item data end to avoid overflow
+b4be6aefa73c9a6899ef3ba9c5faaa8a66e333ef btrfs: do not start relocation until in progress drops are done
+5fd76bf31ccfecc06e2e6b29f8c809e934085b99 btrfs: fix relocation crash due to premature return from btrfs_commit_transaction()
+d4aef1e122d8bbdc15ce3bd0bc813d6b44a7d63a btrfs: qgroup: fix deadlock between rescan worker and remove qgroup
+4751dc99627e4d1465c5bfa8cb7ab31ed418eff5 btrfs: add missing run of delayed items after unlink during log replay
+c86cd67970efed5a5b5007961bfdb0e1dc873f31 btrfs: fallback to blocking mode when doing async dio over multiple extents
+b5f0c6962103ed910b414d9beb3f000960b03e02 btrfs: remove write and wait of struct walk_control
+e4aeb5667442ad8374087946c2e875ca483a911f btrfs: reuse existing pointers from btrfs_ioctl
+cedb75166981475c5f3d8c2bbeda7c343cb0b61e btrfs: don't log unnecessary boundary keys when logging directory
+c46c4e40eeb4ea3f14709b7c335da4aa3726e874 btrfs: put initial index value of a directory in a constant
+c75e8355682fa386c641709b7f795acbbba29bab btrfs: stop copying old dir items when logging a directory
+269c66373b9936b3134cdc4be83f4782b434fd0c btrfs: stop trying to log subdirectories created in past transactions
+df1f837fa94834a445cf6ea567200d26c257aeb7 btrfs: move missing device handling in a dedicate function
+c528dde5c7a964c674688bc2e9de2fca7127c23d btrfs: reuse existing inode from btrfs_ioctl
+3709cdfbe01fae1d6093ac860b8dc05f6942189b btrfs: simplify fs_devices member access in btrfs_init_dev_replace_tgtdev
+8f85cd952465ebe8a367c008fa0de9bc342f0694 btrfs: harden identification of a stale device
+6625eae31dc864ec4385e66948180bda2871a313 btrfs: match stale devices by dev_t
+988d7d524e8a5039487960ba29eb0c759871a037 btrfs: add device major-minor info in the struct btrfs_device
+a33412aa6b40c5cc4ebe9b89720b0f655cb3fabd btrfs: use dev_t to match device in device_matched
+55e4583957feb90955512c8be49f2d09d3fbf47c btrfs: cleanup temporary variables when finding rotational device status
+da039ec5f9d9f9b2be9ad12ff573973d0143c415 btrfs: zoned: remove redundant initialization of to_add
+7b927695bfcae514619abb600d891040dc76c17b btrfs: scrub: remove redundant initialization of increment
+f53d1240e3f0cabf9e81eab7b730a5a26e6f2c4d btrfs: move QUOTA_ENABLED check to rescan_should_stop from btrfs_qgroup_rescan_worker
+e2005e6d3b1b8875ac3ccec7f11a3c758aaf89fb btrfs: send: remove redundant ret variable in fs_path_copy
+e2e065fe7829371dca8f19fedfa1e9cc00e5e105 btrfs: add helper to delete a dir entry from a log tree
+5e73df796fc60747f87d51cba6b0ff80c00a695b btrfs: pass the dentry to btrfs_log_new_name() instead of the inode
+892d1ee6ee278feab22d41d0815911d4bd8da8d0 btrfs: avoid logging all directory changes during renames
+d54bb21ebba6d4bc506940db05b4d75da9fe6d40 btrfs: stop doing unnecessary log updates during a rename
+33ab62165abcffcfc8ab751464be5c98603b0edb btrfs: avoid inode logging during rename and link when possible
+4060e6100ceabaac8d6f8ec64c8fafd2e4db4d97 btrfs: use single variable to track return value at btrfs_log_inode()
+307357ba0356c13a81cb9da5f5b898bb743b0079 btrfs: add definition for EXTENT_TREE_V2
+7eb6252659ba527ffc3d90a702ecbbde2ea76ef7 btrfs: disable balance for extent tree v2 for now
+91da5b02ab822b1af883c8c18c2734d6c3bf803d btrfs: disable device manipulation ioctl's EXTENT_TREE_V2
+4c125835fb87477d26ea2ef9d6f6e10117dd80c2 btrfs: disable qgroups in extent tree v2
+5e1dfe14957a9c30fea3d7543e9180a180366606 btrfs: disable scrub for extent-tree-v2
+5071f00cc5381d0a8277d30c2a4d4572df8c4ad2 btrfs: disable snapshot creation/deletion for extent tree v2
+02a0a16fb9f6f8fe875d0e5e99bb4bd5893ccc8a btrfs: disable space cache related mount options for extent tree v2
+21528661e310bb3a5d26421bd74279658be707ee btrfs: tree-checker: don't fail on empty extent roots for extent tree v2
+cdc173e0ce0a2fa1be6a4e0590216a512758c05b btrfs: abstract out loading the tree root
+550013bbcec9d6f49cb7594bd635b22dc6ca734e btrfs: add code to support the block group root
+b9abec9c0678974504ff866bf399c542ee4fc0da btrfs: add support for multiple global roots
+321b7ccfd0c2c1c76bcc985a188f097ac1a71e41 btrfs: zoned: make zone activation multi stripe capable
+697be98f445625b42199861c8f528ab7769fe2b0 btrfs: zoned: make zone finishing multi stripe capable
+7462bd3cc8188d7a10106d976a61aeafad5ab66d btrfs: zoned: prepare for allowing DUP on zoned
+8c3ef298ece1192b45d20dd1e66be4d9cf545769 btrfs: zoned: allow DUP on meta-data block groups
+a6692ddd2f2f3455b6bdf3bf945c95ff1a5b0492 btrfs: replace BUILD_BUG_ON by static_assert
+8a8fc9cb5a60dd8b34658bc830ef9dbfdb908d10 btrfs: zoned: remove redundant assignment in btrfs_check_zoned_mode
+ec0ebb4d161255d0b64dd7316b5825397081a931 btrfs: stop checking for NULL return from btrfs_get_extent_fiemap()
+ee5605138418db86734358292d1bbca39858616c btrfs: remove unnecessary leaf free space checks when pushing items
+b2caa0b8d848eb10513d6c30a231b8b1947b0370 btrfs: avoid unnecessary COW of leaves when deleting items from a leaf
+05cd94ae59ebeef49be5a47d125dad6ea6aa0946 btrfs: avoid unnecessary computation when deleting items from a leaf
+1654aa591355af46cac340d430d4c295e88057ab btrfs: remove constraint on number of visited leaves when replacing extents
+31ff5b713513d6c8d5f52cab30aecbc4af3641fe btrfs: remove useless path release in the fast fsync path
+6fdef94c0c446b821bef43dd8cbb99a42c8981ce btrfs: prepare extents to be logged before locking a log tree path
+a57ba3b08f6ca67590b99de5a8ca8fb67652efbb btrfs: stop checking for NULL return from btrfs_get_extent()
+21bc82d5b21c802d702f9f7d54ab81acbac61a39 btrfs: fix lost error return value when reading a data page
+f16421cf32e95631fd88dbae3c5414cd6fe4f5e2 btrfs: remove no longer used counter when reading data page
+42271acae6aec194684262b19abba04f489ba100 btrfs: assert we have a write lock when removing and replacing extent maps
+d82e03c18c6c5ee4e647c4508a5ea56f1344f87a btrfs: populate extent_map::generation when reading from disk
+aabd6e477e96bb0dce67116b349ec333c25c9e6d btrfs: add lzo workspace buffer length constants
+bdb8a86d5c883f6da8e5d028703a17c783675093 btrfs: qgroup: remove duplicated check in adding qgroup relations
+126521ea70914bd6a9c2918812daadfc55043bbc btrfs: qgroup: remove outdated TODO comments
+ea67342bb02e2f5d3a5bdc75090e198e73e78200 fs: export rw_verify_area()
+d3a18d5f6dacef7db3db8fcb4009e9dfc12f5363 fs: export variant of generic_write_checks without iov_iter
+d32d77ba86cbe2724bc0552375bf3dc9ef25cd5c btrfs: don't advance offset for compressed bios in btrfs_csum_one_bio()
+41f5996b0cb3f41f3e6f0cd0cca38bcb00a1a78a btrfs: add ram_bytes and offset to btrfs_ordered_extent
+4ead3decb3f6806d45ae038dcfc6763ecc9a9125 btrfs: support different disk extent size for delalloc
+a09a606e7b34d7874de74657cfb84ad1ace9b0af btrfs: clean up cow_file_range_inline()
+23156ed2c9df3ced577ee7d562572bb9fe871b37 btrfs: optionally extend i_size in cow_file_range_inline()
+7453ce8a83bade20af049b2f96b4bbf443ef3eb1 btrfs: add definitions and documentation for encoded I/O ioctls
+8f6f0cb8b2e0a0e1b9989234bb73d1bff010c3ec btrfs: add BTRFS_IOC_ENCODED_READ ioctl
+3766b783f806d303e97b73c9b8fd6daa739fa4d6 btrfs: add BTRFS_IOC_ENCODED_WRITE
+4be367db714ba58bcba5de75de5fae76fea4f370 btrfs: make search_csum_tree return 0 if we get -EFBIG
+91e3b2e914bbc0f7af1133761e68c2c480b1624d btrfs: handle csum lookup errors properly on reads
+d567c14219ddcded6ed95c369ccb55fc5038c036 btrfs: check correct bio in finish_compressed_bio_read
+6e6cf3cbae69a69f9fa8293b0864266959f3cb7a btrfs: remove the bio argument from finish_compressed_bio_read
+8a80a66b3d92eb6cebd9cb6e67fb8e74f7720e14 btrfs: track compressed bio errors as blk_status_t
+bb43842448c2653129ca76e170a3929ac8693e80 btrfs: do not double complete bio on errors during compressed reads
+842b394941ed0ef6e72fcbd8797350d94ce6dc80 btrfs: do not try to repair bio that has no mirror set
+2a2973af05f266eb9b4bf145438557957cd07ffa btrfs: do not clean up repair bio if submit fails
+463774e412a81108b440daa091ea14ea13224730 btrfs: subpage: fix a wrong check on subpage->writers
+07a9f5e0a23961a1f070a88ce17b6c8ef07a5b25 btrfs: fix lost prealloc extents beyond eof after full fsync
+ad25c3b10e4162f0ed4f73923b755f5763a717d0 btrfs: stop copying old file extents when doing a full fsync
+680991b031b2ac4b2c9fcd46b515732f048fbf5f btrfs: hold on to less memory when logging checksums during full fsync
+4ca2b6afe3576d3e7450ae525060f0375cc41e34 btrfs: voluntarily relinquish cpu when doing a full fsync
+078b26e403eba2be824f336a92169033d58eb377 btrfs: reset last_reflink_trans after fsyncing inode
+b01972420596c45de2aceaeeebd462c62c5b39b6 btrfs: fix unexpected error path when reflinking an inline extent
+cf2c15ded8b73c87d4a5051a03e4cfaf6c18ab22 btrfs: deal with unexpected extent type during reflinking
+8ade32bb428b20467b30194ebb1cbc80d577c6a9 btrfs: add filesystems state details to error messages
+27d21e38b74fd65550b14577ddf19be42122fb07 btrfs: do not WARN_ON() if we have PageError set
+8298d07ddec6a24c6a3007d32b4a8cf2c9817b7e btrfs: tree-checker: use u64 for item data end to avoid overflow
+57f2305487c568b135982c480d786e3ee51fb180 btrfs: do not start relocation until in progress drops are done
+9c2529c74c9d9a7d4e1b465e9162a4da34801701 btrfs: pass btrfs_fs_info for deleting snapshots and cleaner
+26b3b8e29f5d5b83699df11fb74a4b6dc33dc352 btrfs: pass btrfs_fs_info to btrfs_recover_relocation
+ee7db195514fa9c7521fb48104e037d7bfd6271e btrfs: fix relocation crash due to premature return from btrfs_commit_transaction()
+75e88daeb92f8dbad2e232c9c1f142cc23eb582f btrfs: remove the cross file system checks from remap
+11eac1a7481ddc7b4854d6a0b8b589b19b4e45ab fs: allow cross-vfsmount reflink/dedupe
+562cb202feb7069301c2c0d0a97005310294d3d9 btrfs: zoned: mark relocation as writing
+736d8b39a4806ec532277c7bc277c54313baf1ad btrfs: extend locking to all space_info members accesses
+d2bc1704a420f13cbda58080908426e59083f5d8 btrfs: qgroup: fix deadlock between rescan worker and remove qgroup
+39b55ce0971c0a6556bcc24ad0c2719a69256865 btrfs: add missing run of delayed items after unlink during log replay
+4c2d18a4ca27548844cee4a881ed6737aaed3122 btrfs: add and use helper for unlinking inode during log replay
+934acc8cb1697587f769607782f971236a5098c6 btrfs: remove BUG_ON(ret) in alloc_reserved_tree_block
+16fca1ba7049d88adcdbc1ef9d640eca873a5aae btrfs: add a alloc_reserved_extent helper
+e063853acb97aa77aac5e67d850b840b34b7d258 btrfs: remove last_ref from the extent freeing code
+149e05b00970c867044d189d8e5f79e84a2bd5bb btrfs: factor out do_free_extent_accounting helper
+30c83234eaf66a04a5030e4c09c4ab98e71ced8e btrfs: unify the error handling pattern for read_tree_block()
+e0fb7c337000035a9f80b05ac614adc179e79054 btrfs: unify the error handling of btrfs_read_buffer()
+5bcb1e86e813f91292b6335b460d0d5674b68c72 btrfs: check extent buffer owner against the owner rootid
+1e19efdcde26d8daf50e2c74ee5f9914f5ced8ee btrfs: fallback to blocking mode when doing async dio over multiple extents
+7654f8e6f5eeb8c7261b71dc4831163d5a141a2d btrfs: verify the tranisd of the to-be-written dirty extent buffer
+fa04841def7fc0a2ba1693c7186a30fee8122a2c btrfs: add lockdep_assert_held to need_preemptive_reclaim
+1f6f2b3c3fdf6b16fbef194972a711948ba3ae19 btrfs: use dummy extent buffer for super block sys chunk array read
+e2220638f68f968ad6c046ea624a9094b8ed99a2 btrfs: make nodesize >= PAGE_SIZE case to reuse the non-subpage routine
+a2844a1adfd2b95cd4bf416efe6f5e6f5147b82b btrfs: expand subpage support to any PAGE_SIZE > 4K
+679c9dd515ea82c09a8d3f6c896289e3bb043ad2 btrfs: introduce a helper to locate an extent item
+5686dbf3e8fef7525a90a4ff1174b543b6a71c8d btrfs: introduce dedicated helper to scrub simple-mirror based range
+739569bc26d3fe5f14ba7fb4c59ff59de725e950 btrfs: introduce dedicated helper to scrub simple-stripe based range
+d619b10f6d2a722013b654015e2bf1c1b8f8540c btrfs: use scrub_simple_mirror() to handle RAID56 data stripe scrub
+ee027f02b25580936a91493753dc96163c57e6b2 Merge branch 'misc-5.17' into for-next-current-v5.16-20220303
+e9d3ef7eaebc685efac4d0b64bc6182bac3ad37a Merge branch 'misc-next' into for-next-next-v5.17-20220303
+deb81dcff2c9100b1da790b9bf7d02d1056b6374 Merge branch 'ext/qu/subpage-more-sizes' into for-next-next-v5.17-20220303
+b39572bc4f7f4e31f575011903f87c8b7d0bad43 Merge branch 'ext/qu/scrub-refactor' into for-next-next-v5.17-20220303
+d4aa31e4d37ae2276ef1967c75b6278e698b6a45 Merge branch 'for-next-current-v5.16-20220303' into for-next-20220303
+f717a6052f383d3ea57229970e0d2a18e963413a Merge branch 'for-next-next-v5.17-20220303' into for-next-20220303
 
---===============5612987199487521679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf1085b3ff20-0f04ba987a97.txt
-
-ac9d2e62478a8ddc549feb932e90bf680c1253e9 mac80211_hwsim: report NOACK frames in tx_status
-219fa3f1a46cafbf3556f4cd9e8c6e074a4ccc4d mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-872dbad4889eedd7cba78149858a11e30a5069eb i2c: bcm2835: Avoid clock stretching timeouts
-38f94e3fae32f8e350619a7814a49bc9f20c278a ASoC: rt5668: do not block workqueue if card is unbound
-e3f5f5d696c74a5a3aec0500e967fcfc83c6dcda ASoC: rt5682: do not block workqueue if card is unbound
-044e160e9936bd13adfbfb678095cc92bef4c199 regulator: core: fix false positive in regulator_late_cleanup()
-44edf659d2eca220880157583b48f8af0b9363b1 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-384eac801be5b30ff20b5c34b42c863389b87180 KVM: arm64: vgic: Read HW interrupt pending state from the HW
-5067efc2c8df0eaf7ae03ad64282aaba23c7a463 tipc: fix a bit overflow in tipc_crypto_key_rcv()
-b50b527145481f796bfc79a062075a633749a76a cifs: fix double free race when mount fails in cifs_get_root()
-a75c2276735f75db2400b6b7eb6c0e430daf710b selftests/seccomp: Fix seccomp failure by adding missing headers
-3710e43ab0be2f3da29d4e95e8467c847e4ef787 dmaengine: shdma: Fix runtime PM imbalance on error
-d5aadcb4def14b6ac0f5c19e5a85cc8e44516c70 i2c: cadence: allow COMPILE_TEST
-a796ff88e4d8b449be1a803a59ed78f2810f6ed2 i2c: qup: allow COMPILE_TEST
-333754f964f444e4e78bb0de318fbbc23454ab70 net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-763c459f8926db81943c34d6868f71990823ab93 exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
-469b7cc76f58da21387f6f87be427d7da78b1e65 exfat: fix i_blocks for files truncated over 4 GiB
-c8a49e25979081b12e10347d8f0e23d16a1fabd4 tracing: Add test for user space strings when filtering on string pointers
-0bdd10a0970a47105a5f77da57df07d6a26d58e0 serial: stm32: prevent TDR register overwrite when sending x_char
-1171a40e5d7e6bbbe2a0a25017f9769309bfc587 sched/fair: Fix fault in reweight_entity
-d59d537b54be7707e993f9d3f0d424bcc8076d20 ata: pata_hpt37x: fix PCI clock detection
-37439ed264820cd75d0faec30c77f52e5fe70c6e drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-0f04ba987a971dc9fd67d4665c47e21d5231cdff tracing: Add ustring operation to filtering string pointers
-
---===============5612987199487521679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b5f46c282675-7aa7c9e2c3b3.txt
-
-915a335913649741e337e6203a3c6e8cf83cf803 mac80211_hwsim: report NOACK frames in tx_status
-d52f0a3a1a9a800ea0aa30e036ffdc1be32f08ed mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-6652593189d76999e33c01b022e890c0e6620a00 i2c: bcm2835: Avoid clock stretching timeouts
-371cbd79deae52fb70e9805d8a915e3e3abdbd5d ASoC: rt5668: do not block workqueue if card is unbound
-f3bb25e83affd7cd9e32eb14db3afd12da9ac9ce ASoC: rt5682: do not block workqueue if card is unbound
-10669b5a3d8d2e17dd58a7bacc2b581a885c6935 regulator: core: fix false positive in regulator_late_cleanup()
-64da498b97e953ab39efc613b815b71d105b3537 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-7fb33b02e9b4a3302a65763bb7d7ef74c34cbf88 btrfs: get rid of warning on transaction commit when using flushoncommit
-c560ac24610cde03cdc984068eaf8abc66d880c8 KVM: arm64: vgic: Read HW interrupt pending state from the HW
-c3ae0b89a0aec7a53935a8928252f2fcb2a4bb00 block: loop:use kstatfs.f_bsize of backing file to set discard granularity
-a417856cf44f8f831aec70349f855465a6bc2c33 tipc: fix a bit overflow in tipc_crypto_key_rcv()
-0bf209e8992df8792a2637501c0b382026706562 cifs: do not use uninitialized data in the owner/group sid
-446e51a749a4d6c7a47bc8017654fc174bb98d47 cifs: fix double free race when mount fails in cifs_get_root()
-d7cab16b767694f7e629e50d3d3e595b2139c32f HID: amd_sfh: Handle amd_sfh work buffer in PM ops
-b4d42516147c6579836ee041112ed355c23eca82 HID: amd_sfh: Add functionality to clear interrupts
-2808f2cf4171de8fb8fb43df196573b732812d78 HID: amd_sfh: Add interrupt handler to process interrupts
-d8ab12b2def7dd0c5c34a17bd21cc6c2379030fc cifs: modefromsids must add an ACE for authenticated users
-7037d06de9169581a61dc9bd2b9a9f3a58492367 selftests/seccomp: Fix seccomp failure by adding missing headers
-bd9826d3f45ad70131401ab3de6648885864c662 drm/amd/pm: correct UMD pstate clocks for Dimgrey Cavefish and Beige Goby
-7aed66f1fc67ea3c160947e337e1b2d2de97306a selftests/ftrace: Do not trace do_softirq because of PREEMPT_RT
-c7cf4b5def26d6a7b6d1e29e6877ccfc1e0615a8 dmaengine: shdma: Fix runtime PM imbalance on error
-168f3f4841ecaccbbbb96933e00c5cfd2df40aa8 i2c: cadence: allow COMPILE_TEST
-0f6e3e03e22fbeb4c7995b3e9587891fc8235ba0 i2c: imx: allow COMPILE_TEST
-9528d0ba6a5419f6a47c5b862886e63ddab66f24 i2c: qup: allow COMPILE_TEST
-38d55724ddc60ec380e8189aeb0467cc6010a33f net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-41a82c0a048711ee313c1e2c39b06fd9085f7c6f block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
-75d8ae4039f71f1ee6e9c6ef80bde4a8808d7798 exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
-adb5eb72f2f80c27e56105e443a8f72b815bb4cb exfat: fix i_blocks for files truncated over 4 GiB
-8bde0789b5124af412c4c3a8965a566bcb123520 tracing: Add test for user space strings when filtering on string pointers
-9ddce6ce7e864c772bf1e1ee4b6baedebe5a5a9a arm64: Mark start_backtrace() notrace and NOKPROBE_SYMBOL
-ea7be0e69f83dbf28be5787229e6ac8f0802dde3 serial: stm32: prevent TDR register overwrite when sending x_char
-6a1eb83d7183b37249ae18dde93e60b51b80e959 ext4: drop ineligible txn start stop APIs
-aa7e97290cd59c6a9d8233e86eac8e0b45930fba ext4: simplify updating of fast commit stats
-fa042744c10f3bc8b1a3b6bd9d14b7afba046df3 ext4: fast commit may not fallback for ineligible commit
-f1744934c57592505e706f97616ff9fb361eb1c4 ext4: fast commit may miss file actions
-745c9d155f63932f6311f847398f710ba18fa16d sched/fair: Fix fault in reweight_entity
-dbcb14461f515e1ea521e1f25dc59327e69b6fdd ata: pata_hpt37x: fix PCI clock detection
-a49c23a3287d17a6b5994a2f8b3bb0c755bf9d16 drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-7aa7c9e2c3b30322d7f7fe98f2ec8d28286cd2b6 tracing: Add ustring operation to filtering string pointers
-
---===============5612987199487521679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7441483acc3-641b43ce7c85.txt
-
-f70d49cbdb4b00c5b20342251572ee296e458c64 mac80211_hwsim: report NOACK frames in tx_status
-e5f889576df9c1b87f121c1f32f54715cd8cce29 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-cc493cab808a002f42a15bb894697f42f82169c1 i2c: bcm2835: Avoid clock stretching timeouts
-feba0156c1bc224d1a06c34ab37ad51e95a2feaa ASoC: rt5682s: do not block workqueue if card is unbound
-0a716a0ad58de9b4d81669451dca0134d3dda053 ASoC: rt5668: do not block workqueue if card is unbound
-2eadc5fdf0cf828b54c04379b2b49248158ffd4e ASoC: rt5682: do not block workqueue if card is unbound
-321dfca6582fa000e99e561f14e389862156ab64 regulator: core: fix false positive in regulator_late_cleanup()
-0d726c146da3bd8a6ed23891b71d274e667ba995 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-f1f6d41abffc76742d2b60918138141f835bc194 btrfs: get rid of warning on transaction commit when using flushoncommit
-5c86311175d24125f2e88cbf71c491130607fb54 KVM: arm64: vgic: Read HW interrupt pending state from the HW
-a79b2514d40ba12184d61017fff815027d5c1641 block: loop:use kstatfs.f_bsize of backing file to set discard granularity
-ab8c4f952a2939d584fdfffe18c91e88f5d32f6a tipc: fix a bit overflow in tipc_crypto_key_rcv()
-21b63ce21d234bab5f3f2400f6efa40bf573b4a6 cifs: do not use uninitialized data in the owner/group sid
-48ee41676e5578648428562f26a54624cbb8fb5c cifs: fix double free race when mount fails in cifs_get_root()
-be24c1336649535a0ef3eabeb36e61e6c364f0f6 HID: amd_sfh: Handle amd_sfh work buffer in PM ops
-8833336d1fa36544b0d9915833a66f278d000bfa HID: amd_sfh: Add functionality to clear interrupts
-f73930eadb7227c9bc8effe78808989a3bb8c7d0 HID: amd_sfh: Add interrupt handler to process interrupts
-605ee7871a4e6030caa2dfa4d5ec3f38c32facb1 cifs: modefromsids must add an ACE for authenticated users
-1ce16e0fc2746604a9cdafea13e81127c5c6ed89 selftests/seccomp: Fix seccomp failure by adding missing headers
-a1a862b327ea0e6dd49bc8cfd03a901a6d3b8daf drm/amd/pm: correct UMD pstate clocks for Dimgrey Cavefish and Beige Goby
-347ee93281390b23f4a4bd445da70cddb05fc340 selftests/ftrace: Do not trace do_softirq because of PREEMPT_RT
-cb82230dafb4ce09e5f339ad4b5403738e4db468 dmaengine: shdma: Fix runtime PM imbalance on error
-3311f43910af141ce63ca625e528cd8b72593f37 i2c: cadence: allow COMPILE_TEST
-db8f61f4d574d5f731d95f46e31f29ee36ab69ea i2c: imx: allow COMPILE_TEST
-3c084636fb14843bae34c480ecae757b4e551e0f i2c: qup: allow COMPILE_TEST
-fc94a0712b96743d4454e716552bafd1400ead9d net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-aec29e76b184a680dd34963fb11eba08d75e621f block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
-5dcaaecb0895d026a2954b4b5d82e8fe995f610c exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
-6d432547abd6645f7cc07a08f4eb84e73ac4c3f5 exfat: fix i_blocks for files truncated over 4 GiB
-d003cfd3df7bf6ed1560ad3fe2abd2102c0b564e tracing: Add test for user space strings when filtering on string pointers
-9b93f78bc256080274ff351d54eb73fe892aadf6 arm64: Mark start_backtrace() notrace and NOKPROBE_SYMBOL
-36807348826799579605d1c23d7af6b7b253d0fa serial: stm32: prevent TDR register overwrite when sending x_char
-248f6fc5c8c2cbdfaa4d22847ba276c1ea01f5bb KVM: arm64: Workaround Cortex-A510's single-step and PAC trap errata
-f5b14d8a3321344787c8cff251bf27bb0935a0f2 ext4: drop ineligible txn start stop APIs
-d29ecbeb7189008f18506200809e12a2f7fe49f4 ext4: simplify updating of fast commit stats
-642f8c30b87603489a33051fd74a51c0a4447cf7 ext4: fast commit may not fallback for ineligible commit
-dc0cacc25bc9df3a8521ebf4875cac0c2248bbfb ext4: fast commit may miss file actions
-9f407ba6c655408e85afec84fdd872507b6a2954 sched/fair: Fix fault in reweight_entity
-768f4b6c9d9178cefd0355fde27e1d8aa3d3f89a KVM: x86: Add KVM_CAP_ENABLE_CAP to x86
-da843dd5695cde66ea4bcce7142d469b2d8514d9 ata: pata_hpt37x: fix PCI clock detection
-ba0f28782dfb657a17208d37a05a7187e3335be4 drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-641b43ce7c85d47bfb4887dc81217b3334be4593 tracing: Add ustring operation to filtering string pointers
-
---===============5612987199487521679==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdb5270cedea-9b0b1353220b.txt
-
-0f6cb3209b25ebc2a380583b25c0f66c9dbc2d47 mac80211_hwsim: report NOACK frames in tx_status
-847db42cf6a9980ab328ea87adab565389a5e712 mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-8ec837a24d533bdfb8531485b8066f64f5dfb352 i2c: bcm2835: Avoid clock stretching timeouts
-5170cbf7ddaa7234296c37af2e152ca9b22df44b ASoC: rt5668: do not block workqueue if card is unbound
-a9bb9cc7a3308b9e054f598a04e4ae74957a29d8 ASoC: rt5682: do not block workqueue if card is unbound
-80061b0287e3a4b50fcfcbdfc91735a88c8b405b Input: clear BTN_RIGHT/MIDDLE on buttonpads
-cb54c1236fa5fc8419f82b47afa611f9174d2604 cifs: fix double free race when mount fails in cifs_get_root()
-8322ff79752ea55157c17446e67ec6bf3c22b78d dmaengine: shdma: Fix runtime PM imbalance on error
-c67b93bc473d164c2fd428a69c1d83f1421acd9e i2c: cadence: allow COMPILE_TEST
-9431c2e03f82e3e839189c40d990d60d65cd23e0 i2c: qup: allow COMPILE_TEST
-8faecbc4ce615941190b21e145123bff859d1f72 net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-143c4b91224542c6e23e78e9bb5c3c5b272b3a40 tracing: Add test for user space strings when filtering on string pointers
-4b5360db9c175a21df29a9864096edd5b52901e4 ata: pata_hpt37x: fix PCI clock detection
-8dc1a0649f3258d57d1f4321fddfc8f16f713265 drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-9b0b1353220b6d90f3bcec3d780ab8c3a3d37c17 tracing: Add ustring operation to filtering string pointers
-
---===============5612987199487521679==--
+--===============1816892010973460698==--
