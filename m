@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Wed, 02 Mar 2022 23:55:43 -0000
-Message-Id: <164626534313.26719.16293017705691002721@gitolite.kernel.org>
+Date: Thu, 03 Mar 2022 00:01:56 -0000
+Message-Id: <164626571642.30263.614851857655929367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nathan/linux
 user: nathan
 changes:
-  - ref: refs/heads/wip/llvm-suffix
-    old: 83219caafbb7dbc2e41e3888ba5079d342aff633
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/submitted/drm-selftests-stack-usage
+    old: 0000000000000000000000000000000000000000
+    new: d859b2a774d3d4eee307a9d31f7378037164ad8f
