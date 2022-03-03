@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 03 Mar 2022 20:11:42 -0000
-Message-Id: <164633830205.2651.8855176401333919077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 03 Mar 2022 20:17:31 -0000
+Message-Id: <164633865190.7323.13733598297819614855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: b949c21fc23ecaccef89582f251e6281cad1f81e
-    new: b08968f196d498b19e9d0841d76a03862258f2d8
+    old: 778dacd2622a6c0e5e0d26c1dc964170062d921c
+    new: 1c5a2da046198828b64242383acaa135735de5ca
     log: |
-         b08968f196d498b19e9d0841d76a03862258f2d8 cachefiles: Fix incorrect length to fallocate()
+         1c5a2da046198828b64242383acaa135735de5ca knownnetworks: use band_freq_to_channel to verify known freqs
          
