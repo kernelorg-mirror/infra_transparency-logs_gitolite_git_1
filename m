@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6064549528106577027=="
+Content-Type: multipart/mixed; boundary="===============7315434833763824919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 03 Mar 2022 13:31:38 -0000
-Message-Id: <164631429882.32382.17454145114257272641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 03 Mar 2022 13:31:44 -0000
+Message-Id: <164631430487.32503.8547137362669299394@gitolite.kernel.org>
 
---===============6064549528106577027==
+--===============7315434833763824919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 227178d238b3ebdc2347045b52e2f2a8d4809a11
     new: 8f2b025abc31bc15d38657d1286d7470bbbd5efa
     log: |
@@ -24,28 +24,28 @@ changes:
          8f2b025abc31bc15d38657d1286d7470bbbd5efa ASoC: bt-sco: fix bt-sco-pcm-wb dai widget don't connect to the endpoint
          
 
---===============6064549528106577027==
+--===============7315434833763824919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646314297 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1646314296-a642f73bc5203669eedd74f10f6541c918b43c35
+pusher C3F436CA30F5D8EB 1646314303 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646314302-81ac51b093fb65c46305d3df429efe048c805b17
 
-227178d238b3ebdc2347045b52e2f2a8d4809a11 8f2b025abc31bc15d38657d1286d7470bbbd5efa refs/heads/for-5.18
+227178d238b3ebdc2347045b52e2f2a8d4809a11 8f2b025abc31bc15d38657d1286d7470bbbd5efa refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIgwzkACgkQJNaLcl1U
-h9Cqhgf/VFGVIfbsdJH3ZJAJNELUnJiFqLNcRVBeFmqGEvlnpvu9AtEJBJWj65Rt
-LX5Dm77BgH3P3hUQXDu/JMQNqKt9DdiAhk0/m2TFwnL91t9NYd/F+EO8GO70XPwr
-2ldY7OkpyUrkqMUdsQvBqhZljY75ilOGGFdLMXYoL7GZXJNCXYqBr+ANDbC0fhlU
-4N8oZqaQwI0HPisdhcdrjPiVS0eDUMCrOOtM+k+gknFT/dXahYS7krpcbe//K9Ii
-0P9YQ7BVjKqr6Mi13dN2fYx5EGhjFcDAgDRAlP4TWvuI1IgyVQGcJLSqFADEkWFW
-v7/fbKnP9EwUM8izVdVvjhAwbWUQhQ==
-=kKxm
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIgwz8ACgkQJNaLcl1U
+h9DG0gf+L4y90wxNtR0WCSzFTbf8Rsqe4otQjhn/f1IcJzKjKs+D+JuMrtvPPeGo
+AIIyaVU6wtXrORr/u15Tcar9vDXn7CazSMabaWIeXdMC2/Z0vEnjWr8lzYZz97Qy
+V6JvBmXKCzO/vlfGJ6gY6a1o/Rjt/yUb3kwz8bMfezBxki90lPoQBxvZYNVJ17at
+hbnSqnKSjlfwiDdBg0g9ho6rCqhoCSUhs2OYnWESbsnDwN3j9oTn8Nb2a74x4AkF
+K6UMM6QL8baPdOBDKX2xL2gWe+iV9sqWLCIRi9JX6ZAHbSWt6LLj+hLCTpi2+Scm
+NNrXR2aKTWIQdD6jb9tB3r/9wCkxMw==
+=m1OB
 -----END PGP SIGNATURE-----
 
---===============6064549528106577027==--
+--===============7315434833763824919==--
