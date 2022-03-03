@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0613205185264150386=="
+Content-Type: multipart/mixed; boundary="===============6608968442973860273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 03 Mar 2022 14:08:10 -0000
-Message-Id: <164631649036.23083.6356984420122546550@gitolite.kernel.org>
+Date: Thu, 03 Mar 2022 14:09:16 -0000
+Message-Id: <164631655678.23530.2094932937449887963@gitolite.kernel.org>
 
---===============0613205185264150386==
+--===============6608968442973860273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 47b95e8ab731511b7ed7924ec3ec922e14737e4e
-    new: 3f8bab174cb26aa5a8053c4457cc733881e3ad88
+    old: 3f8bab174cb26aa5a8053c4457cc733881e3ad88
+    new: 3631e48df0dbfcce3b08f0ccafcaa587657379cd
     log: |
-         3f8bab174cb26aa5a8053c4457cc733881e3ad88 serial: make uart_console_write->putchar()'s character an unsigned char
+         3631e48df0dbfcce3b08f0ccafcaa587657379cd serial: samsung: Add samsung_early_read to support early kgdboc
          
 
---===============0613205185264150386==
+--===============6608968442973860273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646316488 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646316555 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1646316487-779f8c714c275e411bc89ca4697f3af7c6d705e8
+nonce 1646316555-b672fb30e495233c06986b88ea1c4f9689e576ef
 
-47b95e8ab731511b7ed7924ec3ec922e14737e4e 3f8bab174cb26aa5a8053c4457cc733881e3ad88 refs/heads/tty-testing
+3f8bab174cb26aa5a8053c4457cc733881e3ad88 3631e48df0dbfcce3b08f0ccafcaa587657379cd refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIgy8gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a3IP/jzEgI8Akc7gh4Lssbe2
-TciukX/yR/WHCTifTxfQBCIyWGxzuAjGuuHeqA94TA18j1Gt24uAI3dM2eU5h+Wh
-su8m/XhmHaWMnJejszMTzh0xBrkjaO9h7Fm2i1AoshC57+5sampkZ0VA5Zwegd1e
-7UdcnkvUgFBmsjzlWrYiq0V7dZETpthueqPciSgZtUPiwUtw/hKFnMgih7YPL03Y
-/IpusfGidl2o7h4fbUeqElnzsCiTtKeP7G8be0Nc5GW2MxYYjPxPf54O1PxzLJRU
-YCpc5as0rhw53nHMo6n34IiK9PgYccTvEwDg+E+nig99xesOXU6mxHGC7wDS0CyM
-nII8AmhxnVvhgMgpqnbigm4PpCzl7zoBKS8vtUZ1ElkjxIVpUf6CfiLkoJyvmS2X
-ZLOMFaXB4AjJxFWI6hcFxPZFwExhZZnHtHgHGKj4RG2omIQa8aSRCBCj/XXlNPl4
-KKSHQR4iMTHB8/ZO6z9FIK5gx8A0byazGK6bcEzPazRX51w8MS6k4nk2yscQTbHj
-bd0qQW6zYRFEAaqiyuDwZCdH1S27mBtGHVo0OenKGsHYDwHM1V/dSudbq2susV25
-Z/WdIYZfXNrD/BmbT9UYINoe5EvMu8VMDs2qmS756KA2XBqU6Ka5N4fqapEmK2Ij
-fQQ4hzMiO+fjcVFxqPNcxvMh
-=3/eQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIgzAsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+76QP+wYuhb1PhCxJdb5eTsy+
+UXN82BLKvl74eFXGJKEHQKR0oxivRKF13xE9PkE1FdQPwE6vuntvFPWV7YKl1ZbC
+yesk8pl3SSkb8hMNh0zfx4Rg355agWJmhAURz/4ItO0KLLCL4aZDhdn9bvSYeo87
+OhxIlIV952gbALZIL9Jh1zbua83HiKWUWcA0LGzt5/i9STBY04PgSebusgw+cztq
+MlsJw6GZ4uCIW3oJE8KaEwI6MzfCmpLYxHK9o/Uhfr4gDPd3cB+x1rkZ60iv1lml
+W0veLEq4yvlhX8eJNVck8OiQwDERujqGX+Db6EfrZBvF7O5JgOzlP5B9CtpWeJyn
+NduMZINrzNSzFJO2vDTAh1h7v9Gx4bJZ7B39zpM7cJPO73FYPRqaxdav8M+SW6MC
+BvLbk38ssaG8ftw510DrWAqYjPLN7OPenz0ou6lvdvRRDcYmQucFF0VowwUdcVZ0
+MhZH0Hdq/CZKDHIwq4oFYeqaIqCJA0YKIeYc+THboXDvVOy5lbQ8xB9msLepQ5kk
+B4TLVIypN0xVWa0l1pqW8n2Lj9tvbVuh/PyOIDi/pVPz565EKx7NjasDgRL8juwx
+E8etu52SSSpb9N1A7q0Bz4RRfPQeNv8+jkYY70yexNWg5Ou+OwjUiANK/O9Pl0bK
+4/VFdqai54nLhCoJDh8GM3ed
+=jl7n
 -----END PGP SIGNATURE-----
 
---===============0613205185264150386==--
+--===============6608968442973860273==--
