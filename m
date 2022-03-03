@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2856486002841053841=="
+Content-Type: multipart/mixed; boundary="===============4283188028508203653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 03 Mar 2022 18:16:16 -0000
-Message-Id: <164633137649.25753.5827090781035310389@gitolite.kernel.org>
+Date: Thu, 03 Mar 2022 18:16:21 -0000
+Message-Id: <164633138193.25869.12700334093450882406@gitolite.kernel.org>
 
---===============2856486002841053841==
+--===============4283188028508203653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4761df52f1549cc8c5ffcad0b2095fffe2c5435d
-    new: e1bec7fa1cee311a6d3fb9161037c7675904134d
-    log: revlist-4761df52f154-e1bec7fa1cee.txt
+  - ref: refs/heads/dev-queue
+    old: 5862d8e032585a3e3841c020c2cae61f7f302e89
+    new: 704f1f3022d8b59d8bbb570b090b865a4c9d2a0f
+    log: revlist-5862d8e03258-704f1f3022d8.txt
 
---===============2856486002841053841==
+--===============4283188028508203653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4761df52f154-e1bec7fa1cee.txt
+Content-Disposition: attachment; filename=revlist-5862d8e03258-704f1f3022d8.txt
 
 275f3f64870245b06188f24bdf917e55a813d294 Bluetooth: Fix not checking MGMT cmd pending queue
 2e77551c61286bac56ebf337b1ac2dd419952c8d Merge tag 'for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -54,5 +54,18 @@ dc9752075341e7beb653e37c6f4a3723074dc8bc selftests: mlxsw: tc_police_scale: Make
 312f2d500af55823b96cd33b6b9bf6c4c0bc6e78 Merge branch 'selftests-mlxsw-a-couple-of-fixes'
 6c7273a266759d9d36f7c862149f248bcdeddc0f ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
 e1bec7fa1cee311a6d3fb9161037c7675904134d net: dsa: make dsa_tree_change_tag_proto actually unwind the tag proto change
+c4b2aad0ba5438aa77386e5522e0866b6c216ba0 checkpatch: Fix warnings when --no-tree is used
+dcf453e47896a200578ec4b9f28669598bb9f265 checkpatch.pl: seed camelcase from the provided kernel tree root
+aec18bbcb67ac0aaab9837d0cbcf7634e573c7fb ice: Fix a couple off by one bugs
+2e4b6a000d33ee20503ab302b38120ba540dec95 i40e: Fix the timeliness of stats after deleting tc
+fe589d22c89b866a51d50504548582ebdabc9663 ice: Don't use GFP_KERNEL in atomic context
+2562a16f07225fef3dd5248c60e8a2214f068755 i40e: stop disabling VFs due to PF error responses
+4df8a9f995043585f0a69aa22c9616cdd991175d ice: stop disabling VFs due to PF error responses
+336b00957dc60ea40fb16c1719084dcf880f0c10 iavf: Fix handling of vlan strip virtual channel messages
+8443ebd17d34f90e81b011b275b50e496b2dfa53 iavf: Fix adopting new combined setting
+382dc40e2b1bdc41e4572dd1f83edb73ab9e8ceb ice: Fix curr_link_speed advertised speed
+58433db28e62d45c973257cd3d572b4e610aa344 ice: Fix error with handling of bonding MTU
+4da66d6bcb6be51977fcc465a2e1429dc6c34d89 ice: Fix re-enablement of FW logging after reset
+704f1f3022d8b59d8bbb570b090b865a4c9d2a0f igc: Fix infinite loop in release_swfw_sync
 
---===============2856486002841053841==--
+--===============4283188028508203653==--
