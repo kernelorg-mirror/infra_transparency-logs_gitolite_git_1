@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Mar 2022 06:33:32 -0000
-Message-Id: <164628921232.32325.4194586518460531211@gitolite.kernel.org>
+Date: Thu, 03 Mar 2022 06:44:44 -0000
+Message-Id: <164628988444.6583.11754081985551942251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 2102a27e49174c3133e02b7b74bc27316506afaf
-    new: cb1d8fba91f2ecf828000707cc56a376498078a4
+    old: cb1d8fba91f2ecf828000707cc56a376498078a4
+    new: 002028857384242ebf1195c0b406e1570fd06457
     log: |
-         d922a99b96d0030f2e7e8128e98f29123172bd03 flow_offload: improve extack msg for user when adding invalid filter
-         cb1d8fba91f2ecf828000707cc56a376498078a4 net: openvswitch: remove unneeded semicolon
+         13b0bd2e62e7b16f273eb681174c842567015a39 net: dsa: mv88e6xxx: don't error out cmode set on missing lane
+         002028857384242ebf1195c0b406e1570fd06457 net: dsa: mv88e6xxx: support RMII cmode
          
