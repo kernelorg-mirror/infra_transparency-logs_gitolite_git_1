@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Mar 2022 15:56:02 -0000
-Message-Id: <164632296258.28815.7997503698414459750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Thu, 03 Mar 2022 15:57:38 -0000
+Message-Id: <164632305841.29375.8008326217946709822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/for-next
-    old: 41332d6e3a430adc91e0af115b4261b0d2f116ec
-    new: 7df5072cc05fd1aab5823bbc465d033cd292fca8
+  - ref: refs/heads/next
+    old: 35732a0694cd2e8642d90f9b49a99742faadd869
+    new: 266fa94673d325f489f74d0a9a12024a7f1ee49c
     log: |
-         7df5072cc05fd1aab5823bbc465d033cd292fca8 bpf: Small BPF verifier log improvements
+         266fa94673d325f489f74d0a9a12024a7f1ee49c soundwire: qcom: use __maybe_unused for swrm_runtime_resume()
          
