@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 03 Mar 2022 06:54:45 -0000
-Message-Id: <164629048565.13768.17261252635294692475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Mar 2022 06:55:48 -0000
+Message-Id: <164629054856.15572.16494568000285103929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 002028857384242ebf1195c0b406e1570fd06457
-    new: 42f0c1934c7cb3e94c2fe8f5771245fa5631d0e7
+    old: 1dba41c9d2e2dc94b543394974f63d55aa195bfe
+    new: e3d5ea2c011ecb16fb94c56a659364e6b30fac94
     log: |
-         bf08824a0f4776fc0626b82b6924fa1a5643eacb flow_dissector: Add support for HSR
-         42f0c1934c7cb3e94c2fe8f5771245fa5631d0e7 tcp: Remove the unused api
+         60ce37b03917e593d8e5d8bcc7ec820773daf81d bpf, sockmap: Do not ignore orig_len parameter
+         e3d5ea2c011ecb16fb94c56a659364e6b30fac94 tcp: make tcp_read_sock() more robust
          
