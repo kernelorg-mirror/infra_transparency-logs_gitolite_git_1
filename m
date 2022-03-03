@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Thu, 03 Mar 2022 22:35:16 -0000
-Message-Id: <164634691697.355.7314670695517735791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 03 Mar 2022 23:35:46 -0000
+Message-Id: <164635054682.7053.9472047548587463675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 4ab8c58f8e9d96e300dff48552f62caedbdac582
-    new: 797061fc9c019f05f1e81c86a9a5c61dc1719a14
+  - ref: refs/heads/fixes
+    old: 22e2100b1b07d6f5acc71cc1acb53f680c677d77
+    new: e4fcfe6eca6f32357f1b4408ff15b10527518eee
     log: |
-         797061fc9c019f05f1e81c86a9a5c61dc1719a14 x86/sgx: Free backing memory after faulting the enclave page
+         8b274f2238950c55570ff14fcc278a7fcbecc663 riscv: Fix is_linear_mapping with recent move of KASAN region
+         a3d328037846d013bb4c7f3777241e190e4c75e1 riscv: Fix config KASAN && SPARSEMEM && !SPARSE_VMEMMAP
+         5f763b3b59602735993149330ffa7e348bc85bc0 riscv: Fix DEBUG_VIRTUAL false warnings
+         c648c4bb7d02ceb53ee40172fdc4433b37cee9c6 riscv: Fix config KASAN && DEBUG_VIRTUAL
+         625e24a550e6a600e639b43cf7c15879b2a70840 riscv: Move high_memory initialization to setup_bootmem
+         e4fcfe6eca6f32357f1b4408ff15b10527518eee riscv: Fix kasan pud population
          
