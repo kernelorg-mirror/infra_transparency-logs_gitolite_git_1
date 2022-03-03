@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 03 Mar 2022 05:57:08 -0000
-Message-Id: <164628702808.8778.2717959092268801841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 03 Mar 2022 06:00:06 -0000
+Message-Id: <164628720614.11320.3142421530862064193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 95749c103379814780b5e2e8cbb168b744047841
-    new: ea97ab9889b0125d2256e5131d854c370aab8212
+    old: a577223a97df241df26b91a95d03eec8c9fe0b36
+    new: fa452e0a609a038e5ef9d2e042bb80e08e1af7af
     log: |
-         690bb6fb64f5dc7437317153902573ecad67593d batman-adv: Request iflink once in batadv-on-batadv check
-         6116ba09423f7d140f0460be6a1644dceaad00da batman-adv: Request iflink once in batadv_get_real_netdevice
-         6c1f41afc1dbe59d9d3c8bb0d80b749c119aa334 batman-adv: Don't expect inter-netns unique iflink indices
-         ea97ab9889b0125d2256e5131d854c370aab8212 Merge tag 'batadv-net-pullrequest-20220302' of git://git.open-mesh.org/linux-merge
+         94ea9392e113921df1b2cffb181671e768f3f87b batman-adv: Start new development cycle
+         c138f67ad4721801791a01cd10c816414b33b48d batman-adv: Remove redundant 'flush_workqueue()' calls
+         eb7da4f17dfcee649767f89e17842f664a459549 batman-adv: Migrate to linux/container_of.h
+         6ee3c393eeb7d16a3c228c4fa23913b76c7e7df3 batman-adv: Demote batadv-on-batadv skip error message
+         fa452e0a609a038e5ef9d2e042bb80e08e1af7af Merge tag 'batadv-next-pullrequest-20220302' of git://git.open-mesh.org/linux-merge
          
