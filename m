@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Thu, 03 Mar 2022 16:25:30 -0000
-Message-Id: <164632473059.16059.8680930095706577293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 03 Mar 2022 16:38:35 -0000
+Message-Id: <164632551597.24793.8652561625430827666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ux500-charging-v5.17-rc1
-    old: 3205c463457e0bec98ef7d707889e9daefec79ca
-    new: 01b7316179ef63c642f49038a605939a2ec58dd8
+  - ref: refs/heads/master
+    old: 312f2d500af55823b96cd33b6b9bf6c4c0bc6e78
+    new: 6c7273a266759d9d36f7c862149f248bcdeddc0f
     log: |
-         01b7316179ef63c642f49038a605939a2ec58dd8 Disable busy detect on Ux500 MMCI
+         6c7273a266759d9d36f7c862149f248bcdeddc0f ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
          
