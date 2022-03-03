@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 03 Mar 2022 14:50:54 -0000
-Message-Id: <164631905460.14950.3858699560240311615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 03 Mar 2022 15:00:41 -0000
+Message-Id: <164631964157.20964.11660486747610483176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/experimental
-    old: b254ce8b6d7427dc2ab4540bfb22e68b8e0143b1
-    new: 1ab11aae4b78a4b0f75fa65047d2c419d4307dbb
+  - ref: refs/heads/for-next
+    old: a4e8145edcfd66b69056c59885770b428eccca59
+    new: b2963932346f0631c5145f656a22d4237f0956fa
     log: |
-         1ab11aae4b78a4b0f75fa65047d2c419d4307dbb erofs-utils: fix some style problems
+         b2963932346f0631c5145f656a22d4237f0956fa gfs2: Remove return value for gfs2_indirect_init
          
