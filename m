@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1742920938199675225=="
+Content-Type: multipart/mixed; boundary="===============8959911982678768203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 04 Mar 2022 18:53:20 -0000
-Message-Id: <164642000069.13187.722652092657270181@gitolite.kernel.org>
+Date: Fri, 04 Mar 2022 18:54:00 -0000
+Message-Id: <164642004062.13489.2912695620651097797@gitolite.kernel.org>
 
---===============1742920938199675225==
+--===============8959911982678768203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 0b0e2ff10356e7e2ffd66ecdd6eee69a2f03449b
     new: be4977b847f5d5cedb64d50eaaf2218c3a55a3a3
     log: revlist-0b0e2ff10356-be4977b847f5.txt
 
---===============1742920938199675225==
+--===============8959911982678768203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -313,4 +313,4 @@ b949c21fc23ecaccef89582f251e6281cad1f81e Merge tag 'net-5.17-rc7' of git://git.k
 0bf476fc3624e3a72af4ba7340d430a91c18cd67 net: macb: Fix lost RX packet wakeup race in NAPI receive
 be4977b847f5d5cedb64d50eaaf2218c3a55a3a3 tipc: fix kernel panic when enabling bearer
 
---===============1742920938199675225==--
+--===============8959911982678768203==--
