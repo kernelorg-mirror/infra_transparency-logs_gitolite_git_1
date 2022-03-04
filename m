@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 04 Mar 2022 08:53:15 -0000
-Message-Id: <164638399565.18064.14453499432100347735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 04 Mar 2022 08:56:27 -0000
+Message-Id: <164638418722.20547.8318059744576665554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/usb-next
-    old: c4b9c570965f75d0d55e639747f1e5ccdad2fae0
-    new: e1d15646565b284e9ef2433234d6cfdaf66695f1
-    log: |
-         e1d15646565b284e9ef2433234d6cfdaf66695f1 USB: serial: pl2303: add IBM device IDs
-         
+  - ref: refs/tags/sound-5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 373a49bc6c26cc9e25ca6fbc076529a3dd58f13d
