@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 04 Mar 2022 13:43:33 -0000
-Message-Id: <164640141348.29448.8782181445814955459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 04 Mar 2022 13:43:36 -0000
+Message-Id: <164640141690.29559.13917546539646762340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 41234ce8fabbd1f478da0b1703595c496991a1e7
-    new: f011ccb490f952ea35e9ce4d73ca9b7d0d2453c3
+  - ref: refs/heads/for-kernelci
+    old: 8bc4f150ea4e36be489e4adee914f0e124112799
+    new: 909957a69ae03a61c1002924d26f1c2db9ae2f6a
     log: |
-         f011ccb490f952ea35e9ce4d73ca9b7d0d2453c3 linux-firmware: add firmware for MT7986
+         909957a69ae03a61c1002924d26f1c2db9ae2f6a driver core: Refactor sysfs and drv/bus remove hooks
          
