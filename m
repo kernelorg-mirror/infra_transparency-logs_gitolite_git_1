@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Fri, 04 Mar 2022 13:11:52 -0000
-Message-Id: <164639951250.8367.12797953783098533005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 04 Mar 2022 13:19:26 -0000
+Message-Id: <164639996626.13629.14349513486883375982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/sgx2-v2.2
-    old: 0000000000000000000000000000000000000000
-    new: c058da2de75f6929fcaef3a4560621e741eab7f1
+  - ref: refs/heads/master
+    old: 0bf476fc3624e3a72af4ba7340d430a91c18cd67
+    new: be4977b847f5d5cedb64d50eaaf2218c3a55a3a3
+    log: |
+         be4977b847f5d5cedb64d50eaaf2218c3a55a3a3 tipc: fix kernel panic when enabling bearer
+         
