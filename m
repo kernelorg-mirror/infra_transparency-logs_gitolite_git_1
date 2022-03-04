@@ -1,21 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Fri, 04 Mar 2022 08:51:51 -0000
-Message-Id: <164638391150.17376.1831915749114510677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 04 Mar 2022 08:52:19 -0000
+Message-Id: <164638393975.17601.6488223858013452948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/clk/imx
-    old: e2049ad63a24a91eaa1f44819c09c71ad78e281c
-    new: 0b4640e9c78dfa8b2112aa73eb0660fef913356b
+  - ref: refs/heads/for-next
+    old: e52b78f890675132989aaa298e1e1077b6bf9325
+    new: d7f15befac809ba365742464e1b0bebf07149c58
     log: |
-         75a9d2055830cc2c80f2380d279316bd309e9f8f clk: imx8mm: remove SYS PLL 1/2 clock gates
-         bca13d88187dc67af4389afc873cfae63eb12d75 clk: imx8mn: remove SYS PLL 1/2 clock gates
-         0b4640e9c78dfa8b2112aa73eb0660fef913356b clk: imx8mp: remove SYS PLL 1/2 clock gates
+         76f22f4dcae645ea468811f9d30ec04f9ffaa1ea Documentation: sound: fix typo in control-names.rst
+         3cffb26fbb5202c6a4bee4b99d6bef5623003fbb ALSA: echoaudio: remove redundant assignment to variable bytes
+         d7f15befac809ba365742464e1b0bebf07149c58 ALSA: lola: add a check for the return of vmalloc()
+         
+  - ref: refs/heads/master
+    old: b6e4fe2c5997cb0f1df00c3efefccb232e058574
+    new: 8c1cfc8253569dadf4463db3a0c32806c46bf740
+    log: |
+         76f22f4dcae645ea468811f9d30ec04f9ffaa1ea Documentation: sound: fix typo in control-names.rst
+         3cffb26fbb5202c6a4bee4b99d6bef5623003fbb ALSA: echoaudio: remove redundant assignment to variable bytes
+         d7f15befac809ba365742464e1b0bebf07149c58 ALSA: lola: add a check for the return of vmalloc()
+         8c1cfc8253569dadf4463db3a0c32806c46bf740 Merge branch 'for-next'
          
