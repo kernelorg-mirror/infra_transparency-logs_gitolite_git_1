@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joro/iommu
-Date: Fri, 04 Mar 2022 15:34:03 -0000
-Message-Id: <164640804366.7362.13755692197908079424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 04 Mar 2022 15:34:45 -0000
+Message-Id: <164640808582.7645.12717902248423931362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joro/iommu
-user: joro
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/tags/iommu-fixes-v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 9717ec6daa175852e40216c4bbbe138b558c2a92
+  - ref: refs/heads/master
+    old: 4bd80d7a4039ac605a1e9ae767d2b01dbfc9b61e
+    new: eb3f05179a27b98f99e590bf2164582113f23f7e
+    log: |
+         c5e25bb585cea7458b173e017309ef6ca22b44ed Bluetooth: btusb: Add a new PID/VID 13d3/3567 for MT7921
+         eb3f05179a27b98f99e590bf2164582113f23f7e Bluetooth: btmtksdio: Fix kernel oops when sdio suspend.
+         
