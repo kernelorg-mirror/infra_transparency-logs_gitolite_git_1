@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/bpf
-Date: Fri, 04 Mar 2022 11:22:49 -0000
-Message-Id: <164639296953.1166.10078902543359206892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Fri, 04 Mar 2022 11:49:43 -0000
+Message-Id: <164639458319.18323.2135055693794366701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/bpf
-user: dborkman
+repo: pub/scm/linux/kernel/git/at91/linux
+user: nferre
 changes:
-  - ref: refs/heads/pr/mm
-    old: ce09c3434202c7984b6ca568160406d2fe42c350
-    new: 8a99a175d25f4bcce6b78cee8fa536e40b987b0a
+  - ref: refs/heads/at91-soc
+    old: d0054a470c33902f5ae88835ed8a8ecc3cf8faa4
+    new: def8abbb1464579c37f15b3d7a95e5f3bab758dc
     log: |
-         8a99a175d25f4bcce6b78cee8fa536e40b987b0a mm: Consider __GFP_NOWARN flag for oversized kvmalloc() calls
+         def8abbb1464579c37f15b3d7a95e5f3bab758dc ARM: at91: add support in soc driver for new SAMA5D29
          
