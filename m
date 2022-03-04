@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 04 Mar 2022 03:47:29 -0000
-Message-Id: <164636564908.14016.5952921835894776064@gitolite.kernel.org>
+Date: Fri, 04 Mar 2022 04:05:28 -0000
+Message-Id: <164636672850.25477.7415654792961903968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: e4fcfe6eca6f32357f1b4408ff15b10527518eee
-    new: 26cf678d0359d2fa870167b48e503288de9f6dc6
+    old: 26cf678d0359d2fa870167b48e503288de9f6dc6
+    new: 74583f1b92cb3bbba1a3741cea237545c56f506c
     log: |
-         b08565468a6c58923de672c3d6cb308c57c88196 riscv: Fix is_linear_mapping with recent move of KASAN region
-         a1ba5105d0f5f2561f435f4816a31d53880ce1c8 riscv: Fix config KASAN && SPARSEMEM && !SPARSE_VMEMMAP
-         6b417744be9b37f774318d39b2e44caf0a6f79c2 riscv: Fix DEBUG_VIRTUAL false warnings
-         2083e76bc374d79ecb176cfe2abc7bcd9a39775a riscv: Fix config KASAN && DEBUG_VIRTUAL
-         ee84ecafbb1524739e40d0df22181751cc62036d riscv: Move high_memory initialization to setup_bootmem
-         5e501ccb036bff61ac8ab616af3ecb0a27df8a70 riscv: Fix kasan pud population
-         26cf678d0359d2fa870167b48e503288de9f6dc6 riscv: dts: k210: fix broken IRQs on hart1
+         8b274f2238950c55570ff14fcc278a7fcbecc663 riscv: Fix is_linear_mapping with recent move of KASAN region
+         a3d328037846d013bb4c7f3777241e190e4c75e1 riscv: Fix config KASAN && SPARSEMEM && !SPARSE_VMEMMAP
+         5f763b3b59602735993149330ffa7e348bc85bc0 riscv: Fix DEBUG_VIRTUAL false warnings
+         c648c4bb7d02ceb53ee40172fdc4433b37cee9c6 riscv: Fix config KASAN && DEBUG_VIRTUAL
+         625e24a550e6a600e639b43cf7c15879b2a70840 riscv: Move high_memory initialization to setup_bootmem
+         e4fcfe6eca6f32357f1b4408ff15b10527518eee riscv: Fix kasan pud population
+         74583f1b92cb3bbba1a3741cea237545c56f506c riscv: dts: k210: fix broken IRQs on hart1
          
