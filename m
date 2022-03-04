@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7847852091917540958=="
+Content-Type: multipart/mixed; boundary="===============7022495145820112752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 04 Mar 2022 18:58:19 -0000
-Message-Id: <164642029955.16457.5561920744180559770@gitolite.kernel.org>
+Date: Fri, 04 Mar 2022 18:58:28 -0000
+Message-Id: <164642030879.16597.15045230420069612682@gitolite.kernel.org>
 
---===============7847852091917540958==
+--===============7022495145820112752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: a02192151b7dbf855084c38dca380d77c7658353
-    new: 1039135aedfc5021b4827eb87276d7b4272024ac
-    log: revlist-a02192151b7d-1039135aedfc.txt
+  - ref: refs/heads/mlx5-queue
+    old: a0ec9f50d8a224d8931c35eb5cbac6ed3aad8f12
+    new: ff90bde350f6164ed868e67b9a218da70757aef8
+    log: revlist-a0ec9f50d8a2-ff90bde350f6.txt
 
---===============7847852091917540958==
+--===============7022495145820112752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a02192151b7d-1039135aedfc.txt
+Content-Disposition: attachment; filename=revlist-a0ec9f50d8a2-ff90bde350f6.txt
 
 94ea9392e113921df1b2cffb181671e768f3f87b batman-adv: Start new development cycle
 c138f67ad4721801791a01cd10c816414b33b48d batman-adv: Remove redundant 'flush_workqueue()' calls
@@ -548,5 +548,16 @@ d31d37912ea79f1e47e8c2998eae0109f57dc298 net: sparx5: Add support for ptp interr
 6402528b7a0bf9869aca1f7eed43b809d57f0ae5 nfp: xsk: add AF_XDP zero-copy Rx and Tx support
 844f63f5dba811dab87c8650e011bc914c51f86b Merge branch 'nfp-AF_XDP-zero-copy'
 1039135aedfc5021b4827eb87276d7b4272024ac net: ethernet: sun: Remove redundant code
+faabda5fd766e7b34058213a662098fd530ebfc8 net/mlx5e: TC, Fix use after free in mlx5e_clone_flow_attr_for_post_act()
+1a495e46673799b128c8776c02fbc44a590704cc net/mlx4: Delete useless moduleparam include
+03178ab8bd459d11ec2862f795a8d50135c343b6 net: Disable LRO feature if no RXCSUM
+f97311070792c507123f2abbed48f1d8e715cf18 net/mlx5: Delete useless module.h include
+f1aeb1edd6a13b7b2b8139b104277684e268bfff net/mlx5: Node-aware allocation for the IRQ table
+50726ffa34b42e93ce724e6f8ee8fee7e1f78944 net/mlx5: Node-aware allocation for the EQ table
+17781ba40302c7a415214e675c865632ab072f44 net/mlx5: Node-aware allocation for the EQs
+8a71c881ff9804902f55472579ee44f3d7681c2c net/mlx5: Node-aware allocation for UAR
+6faad967d08a180267867f7a4e18261db35f7454 net/mlx5: Node-aware allocation for the doorbell pgdir
+4844fd150cd40390f3dcca3d00a66640a85a6cf0 Merge branch 'patchq/467855' into mlx5-queue
+ff90bde350f6164ed868e67b9a218da70757aef8 Merge branch 'patchq/362916' into mlx5-queue
 
---===============7847852091917540958==--
+--===============7022495145820112752==--
