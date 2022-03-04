@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Fri, 04 Mar 2022 10:34:31 -0000
-Message-Id: <164639007169.1079.5215621210390989357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 04 Mar 2022 10:38:00 -0000
+Message-Id: <164639028039.3652.3311086857327341774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/i3c/next
-    old: 13462ba1815db5a96891293a9cfaa2451f7bd623
-    new: cd5883f7e933764e2ddddd9cbb0f7ce18df127c4
-    log: |
-         97a82882d8529c18ff15a0b5396d8c4bd2a36157 i3c: remove i2c board info from i2c_dev_desc
-         cd5883f7e933764e2ddddd9cbb0f7ce18df127c4 i3c: support dynamically added i2c devices
-         
+  - ref: refs/tags/damon/next-2022-03-04-10-37-on-v5.17-rc6-mmotm-2022-03-03-21-24
+    old: 0000000000000000000000000000000000000000
+    new: 7a4ae6a75636409e345b53d910629191f2ba93dc
