@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 04 Mar 2022 16:50:03 -0000
-Message-Id: <164641260328.28654.2094026994738828602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 04 Mar 2022 16:52:43 -0000
+Message-Id: <164641276309.29575.3155972546503620880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-5.18/io_uring
-    old: 6810a554d2740bef3883cf3d71057aaa129e1ce5
-    new: 8061ecdca6112c8b5c0e6f0e2268fc64acacebb9
-    log: |
-         8061ecdca6112c8b5c0e6f0e2268fc64acacebb9 io_uring: add support for registering ring file descriptors
-         
   - ref: refs/heads/for-next
-    old: e2f4ede7e71124f9fd8a0ccade673d96d04d9f74
-    new: 5df9b0a511fda0d454ee54d0428a611f5fdd2b76
+    old: dbba77c2f01b4c428a97c4657e8cf02359c3250a
+    new: c060cc0014c9ebea89cdb3299543813b19ea7267
     log: |
-         8061ecdca6112c8b5c0e6f0e2268fc64acacebb9 io_uring: add support for registering ring file descriptors
-         5df9b0a511fda0d454ee54d0428a611f5fdd2b76 Merge branch 'for-5.18/io_uring' into for-next
+         26c9da51949916b73d995a2c89412c346903273d remoteproc: Introduce sysfs_read_only flag
+         19e7bf836997f37b7c70cf8f3091e76b79769673 remoteproc: wkup_m3: Set sysfs_read_only flag
+         c060cc0014c9ebea89cdb3299543813b19ea7267 Merge branch 'rproc-next' into for-next
          
