@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Fri, 04 Mar 2022 08:33:14 -0000
-Message-Id: <164638279480.4544.5689718796603952194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Fri, 04 Mar 2022 08:51:51 -0000
+Message-Id: <164638391150.17376.1831915749114510677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/tags/drm-fixes-2022-02-11
-    old: 0000000000000000000000000000000000000000
-    new: 97f6f9139b3bd713743274f3dabd9b2b8e4f1cc1
-  - ref: refs/tags/drm-fixes-2022-02-18
-    old: 0000000000000000000000000000000000000000
-    new: 4973a480815f7ac949f3aa2dd87bcf36427d579e
-  - ref: refs/tags/drm-fixes-2022-02-25
-    old: 0000000000000000000000000000000000000000
-    new: d01cf209e929c7bac939a92508f68ae55edf9ea6
-  - ref: refs/tags/exynos-drm-next-v5.18
-    old: 0000000000000000000000000000000000000000
-    new: b3e91d9aa41d408aff05bb040f3ccc56d8700248
+  - ref: refs/heads/clk/imx
+    old: e2049ad63a24a91eaa1f44819c09c71ad78e281c
+    new: 0b4640e9c78dfa8b2112aa73eb0660fef913356b
+    log: |
+         75a9d2055830cc2c80f2380d279316bd309e9f8f clk: imx8mm: remove SYS PLL 1/2 clock gates
+         bca13d88187dc67af4389afc873cfae63eb12d75 clk: imx8mn: remove SYS PLL 1/2 clock gates
+         0b4640e9c78dfa8b2112aa73eb0660fef913356b clk: imx8mp: remove SYS PLL 1/2 clock gates
+         
