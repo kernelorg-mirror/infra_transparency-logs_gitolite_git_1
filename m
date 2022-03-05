@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3196624478330719508=="
+Content-Type: multipart/mixed; boundary="===============0241754388164280339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 05 Mar 2022 17:35:51 -0000
-Message-Id: <164650175112.9105.11603794680259647813@gitolite.kernel.org>
+Date: Sat, 05 Mar 2022 17:35:57 -0000
+Message-Id: <164650175723.9228.7290737269960361540@gitolite.kernel.org>
 
---===============3196624478330719508==
+--===============0241754388164280339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 7df5072cc05fd1aab5823bbc465d033cd292fca8
     new: d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2
     log: revlist-7df5072cc05f-d59e3cbaef70.txt
 
---===============3196624478330719508==
+--===============0241754388164280339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bafed3f231f7037ce881de2278c14a679ee9c937 bnxt_en: implement hw health reporter
 22f5dba5065d4149cf5186da6255894ed119179d bnxt_en: add an nvm test for hw diagnose
 d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2 Merge branch 'bnxt_en-updates'
 
---===============3196624478330719508==--
+--===============0241754388164280339==--
