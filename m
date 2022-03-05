@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
-Date: Sat, 05 Mar 2022 04:54:45 -0000
-Message-Id: <164645608590.19341.6257658575488185597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 05 Mar 2022 04:59:43 -0000
+Message-Id: <164645638374.22359.17820068885757180572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/ftrace/urgent
-    old: 1d1898f65616c4601208963c3376c1d828cbf2c7
-    new: 1d02b444b8d1345ea4708db3bab4db89a7784b55
+  - ref: refs/heads/master
+    old: 2bc0a832fad341a745786ba158e9a32ab1beced6
+    new: 349fa2796e5235d81df6e01f122e75124e34b859
     log: |
-         1d02b444b8d1345ea4708db3bab4db89a7784b55 tracing: Fix return value of __setup handlers
+         349fa2796e5235d81df6e01f122e75124e34b859 net: sparx5: Fix initialization of variables on stack
          
