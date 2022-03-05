@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9210066161468816448=="
+Content-Type: multipart/mixed; boundary="===============7846883074597120565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 05 Mar 2022 12:30:02 -0000
-Message-Id: <164648340232.2461.9453250880010202164@gitolite.kernel.org>
+Date: Sat, 05 Mar 2022 12:33:01 -0000
+Message-Id: <164648358164.4121.8715329756427887209@gitolite.kernel.org>
 
---===============9210066161468816448==
+--===============7846883074597120565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: b4a432dd81d4b8fdb7f8178c621152f66fd816b4
-    new: 5d7d629c2078390be3527538b8c6681dfb502d66
+    old: 5d7d629c2078390be3527538b8c6681dfb502d66
+    new: 49731dd1d77dd154e45955ed9ab7c99b07f45b19
     log: |
-         5d7d629c2078390be3527538b8c6681dfb502d66 5.16-stable patches
+         49731dd1d77dd154e45955ed9ab7c99b07f45b19 drop queue-5.15/drm-i915-workaround-broken-bios-dbuf-configuration-o.patch
          
 
---===============9210066161468816448==
+--===============7846883074597120565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646483401 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646483580 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1646483400-a7f307c69dab57f1c4cf0fa8569145b9835a0bcf
+nonce 1646483579-2ad054fe63e818e8f29359a70e6d845ebb760764
 
-b4a432dd81d4b8fdb7f8178c621152f66fd816b4 5d7d629c2078390be3527538b8c6681dfb502d66 refs/heads/master
+5d7d629c2078390be3527538b8c6681dfb502d66 49731dd1d77dd154e45955ed9ab7c99b07f45b19 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIjV8kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gZgP/04+KRai8G+EFDjBeMgA
-LCpeopJKbd1YOjnwfDtLgkbcsp8Eq98pRWaGAi2zbrp5wYNajejvMNn/73ANwjbe
-jx9gASMYIU1XNkyWOYVliWdIGFpo1PCRb5xObXJptO6HagonM5q4AqV08IAqgiP6
-QcA73nu4n50d5kv2KSigbUFkZgo8bUXBGPE3l2XPVK55nS40Ybgblt1YBz14pITI
-DkdDiOixJ+envd5ESOkNCwcJawTyUoe4I9UaWLwYRzSsVwxNBR9gxTCO0fUo6UqD
-P5hfzCwhDOsHsOg+rPI29CxsjW0RcAh5Jg2NONZS5PCa4sxnx+ZDE9hXoCMvi8SL
-V0kg+WO9lIH0ZVjuxUiEVF5nDIrkSY1jTVDycRxjLyo05x4zoSnrVWmOr/+PDOdY
-rKPjQ8sqhik+et7c8ZeCtwBVh91+1T9OZCi9NS9rpq49xYn63YkaD7Q7iWy1od1N
-EY/F0WC9Y7//qPK/fTVlF/Y4aWJJfBzVJTxv7fzGob+i4NahxPh5kn0Hizc0KSJ6
-aK0Rm2zUmeK2ghwsE5S2QPDl+dEaAamjcy+oPuOjPq6v0OyEaJN6u7TlAwsLFDJ3
-Wv6F3BKRRyELdszdQx3xzQTPsIWCESWcDHJAGFYPSuQJb/4XF23ljtWrQ3e7mca6
-UEpe+UI+ghPZHyG7dgSoI5K/
-=ipDh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIjWHwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+34gP/AxRzWi9nuh3Zjcl0tII
+cN1Z7h2C3GvXruODgOKewuCqqyfbGpE2YsxvZFibxyP8+hNfGZYnL2NQERw+LyKg
+BCi/xqNMH+Zvyqe9WyltUmehGNhwF2eh06TR6NDH4AsYSBigp33qOPhTNcmh5vGu
+Qwl7ZAVqWeB+ix1qF+vohChxwiV8GFqPeAF2iYv9grJB5tqzGCl2k5ya4SF/rN6T
+ce5Wp0addJd1gsctvhKp4L6PWKm99SGBtRNkKydu8YHN6G5WN20E3zetK4X8KxOZ
+KY0uqxBBR4rZtZeC4kThKtnzKwtXvUX27vnSEDG+gnp5eXBBVSyhQBmbngXvc5cc
+YofrBQCiJT5efETAicM6RtapCTD1ZnhiOhCpv5P94vA2U7BhLhEotusibFKwRmD9
+JdGFUv34J9lNV9Rt+kKa1lzWzzaj+g+/yVoLBkAiVoLz2J+qoSjJuYpD7xVATX88
+DdLLErrioE5hbkP1kH6TBxRMWOk79Ss3/qC6XoT4iMqRcmH9nONAvB3k7sWQKnrq
+WJWjbDo0vUAV6HPzjshdFgDjdvVJwkFvutwF/z3hC5g3J7GDGaoWZtTplBHrsWkB
+1bgdkGNpzIMqEdpMqqhnSifjPrsiC1C1E4zbvYDGiVA8Zajs5gI2YcBJggZbBKBe
+3XIlxX2LZcpbfEn+hFs9yqm2
+=krKQ
 -----END PGP SIGNATURE-----
 
---===============9210066161468816448==--
+--===============7846883074597120565==--
