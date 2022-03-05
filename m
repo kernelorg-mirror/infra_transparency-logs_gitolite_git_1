@@ -1,41 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8292557689093627606=="
+Content-Type: multipart/mixed; boundary="===============5454689531671427113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 05 Mar 2022 20:17:47 -0000
-Message-Id: <164651146720.17293.6915476100465272301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 05 Mar 2022 20:25:33 -0000
+Message-Id: <164651193356.22622.4633086906243434038@gitolite.kernel.org>
 
---===============8292557689093627606==
+--===============5454689531671427113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: a80501b89152adb29adc7ab943d75c7345f9a3fb
-    new: 73f7e05609ece4030f2745c4c0c01e0be6889590
-    log: revlist-a80501b89152-73f7e05609ec.txt
+  - ref: refs/heads/master
+    old: 287419d97c5b56be0321224de247e910a9f92707
+    new: 5dc7f8682744ddd0eec7a7a397d183cd289320df
+    log: |
+         a88d1f7134fa2913df50ea8c1ca41b5c1eeb07ee 5.4-stable patches
+         724ce434d51d1ccbdd5c1206df394326374b1fb5 5.10-stable patches
+         5dc7f8682744ddd0eec7a7a397d183cd289320df 4.9-stable patches
+         
 
---===============8292557689093627606==
-Content-Type: text/plain; charset="utf-8"
+--===============5454689531671427113==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a80501b89152-73f7e05609ec.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b135e324d7a2e7fa0a7ef925076136e799b79f44 IB/hfi1: Allow larger MTU without AIP
-7c4a539ec38f4ce400a0f3fcb5ff6c940fcd67bb RDMA/core: Fix ib_qp_usecnt_dec() called when error
-5a32949d81ccc80fa6614894fb0a45e2fffb1862 RDMA/hns: Remove the unused parameter "op_modifier" in mailbox
-0018ed4bb07feb8b1b2bcb125650db63941c3160 RDMA/hns: Remove fixed parameter “timeout” in the mailbox
-479dc93ba75da134e84c1993c9b62caa6f6ccdc6 RDMA/hns: Remove redundant parameter "mailbox" in the mailbox
-e50cda2b9f840e7a11951421e65a6a779c0aa6f1 RDMA/hns: Fix the wrong type of parameter "op" of the mailbox
-162e29feabba9232a07af5fb07b6b9ae4717d512 RDMA/hns: Refactor mailbox functions
-cf7f8f5c1c541ece6ec265432c8cf22a6edf067b RDMA/hns: Remove similar code that configures the hardware contexts
-904de76c42b7d758e75197f8d532a1ffafc3caad RDMA/hns: Clean up the return value check of hns_roce_alloc_cmd_mailbox()
-b65afbd2a05cdc7cff1c0db742b2ed4510d4826f RDMA/hns: Refactor the alloc_srqc()
-73f7e05609ece4030f2745c4c0c01e0be6889590 RDMA/hns: Refactor the alloc_cqc()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646511932 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1646511931-37abe28996c3d0d9bad6ceab1b68eb1097a99333
 
---===============8292557689093627606==--
+287419d97c5b56be0321224de247e910a9f92707 5dc7f8682744ddd0eec7a7a397d183cd289320df refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIjxzwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I9kQALkjZmtCet78d85wz4QY
+qz9wwm4Ob/XHVJQ+7cyZ9lq+bOJJnL75G2qPjTytfHjC3ZPs1MEgFfIlcM6cN36b
+ucHCIosHk8gjzj5NGG6pRspEOGBNrdk/2rt61INMzqCaH5RPCd+wqUvjwYl/slKT
+dOfvH6MEszoAT5toVefJgutPHRGdcv7xTSftI1HOTe4aMYzulVwSCljfzsfa4lTo
+ccuajiC0LLGMulQCMPZhmfjIHvJf0kM14IZ4BxCfl7nVm6bjv7yk91vRyFGCa7rG
+LUb5Oljpa6xbOHk6ETh3gRBdVigS/SuQDGmgKM+3nz4PvmXPKVNRHuZdgxMZTKjn
+eM3S1FmCptPuM/VOTXJyGwwXlT7ynvC+g6PJkbxCH/W4h/AitCBcvuaZShv9deF9
+LdYxG6zaooPgM0A0DTsxpUEfJqmKGbhmv5ccMMLY9Y3/CSfqWjTbviY8BV7GXQIi
+6K03phGB79AZgdzEWFd0V6HEYI1V2Juo1KfSkZeGmB7iNBUeL1QeEY5f5S2oMng4
+2J1DEwYbpxRI5Y+eybNncfRa70ixMPZPV0ADP4HlieKkj5r09jL7ul/puBPR7CnM
+zHN6VYsUPCUsCR2LA1ifAzd/ACkN6k09RwjEVP+9KChVhBMCi7xgyN/e3qVANK9i
+4nyN9sHz8JuXEDdrka1lYK3z
+=cq1+
+-----END PGP SIGNATURE-----
+
+--===============5454689531671427113==--
