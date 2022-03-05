@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1584251631310299987=="
+Content-Type: multipart/mixed; boundary="===============4102081298393223779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 05 Mar 2022 18:41:42 -0000
-Message-Id: <164650570298.19101.2614816787430713788@gitolite.kernel.org>
+Date: Sat, 05 Mar 2022 18:41:51 -0000
+Message-Id: <164650571157.19205.15067381505259334140@gitolite.kernel.org>
 
---===============1584251631310299987==
+--===============4102081298393223779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 1039135aedfc5021b4827eb87276d7b4272024ac
-    new: d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2
-    log: revlist-1039135aedfc-d59e3cbaef70.txt
+  - ref: refs/heads/mlx5-queue
+    old: ff90bde350f6164ed868e67b9a218da70757aef8
+    new: e6bd46b803eecedb95f60d714de5ca2e53daabcf
+    log: revlist-ff90bde350f6-e6bd46b803ee.txt
 
---===============1584251631310299987==
+--===============4102081298393223779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1039135aedfc-d59e3cbaef70.txt
+Content-Disposition: attachment; filename=revlist-ff90bde350f6-e6bd46b803ee.txt
 
 a6aab018829948c1818bed656656df9ae321408b arm64: insn: Generate 64 bit mask immediates correctly
 9087c6ff8dfe0a070e4e05a434399080603c29de bpf: Call maybe_wait_bpf_programs() only once from generic_map_delete_batch()
@@ -120,5 +120,16 @@ f16a9169286691d23906a1bb1c8e07e53113586c bnxt_en: Do not destroy health reporter
 bafed3f231f7037ce881de2278c14a679ee9c937 bnxt_en: implement hw health reporter
 22f5dba5065d4149cf5186da6255894ed119179d bnxt_en: add an nvm test for hw diagnose
 d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2 Merge branch 'bnxt_en-updates'
+be6f9e2c33210a51a05ac6858226740118d1b09c net/mlx5e: TC, Fix use after free in mlx5e_clone_flow_attr_for_post_act()
+921dacaad8660dfe94443380d09684b631efef38 net: Disable LRO feature if no RXCSUM
+282b104af80b8dd3bd9d9317221b954c6b23a83e net/mlx4: Delete useless moduleparam include
+296e90660b49e1a36b13bee853f3494e79a7a464 net/mlx5: Delete useless module.h include
+3846625ca416bd1ca38716c8b164e73bb704f987 net/mlx5: Node-aware allocation for the IRQ table
+10a643f353f3130d0f8433ea6900e22934ea0375 net/mlx5: Node-aware allocation for the EQ table
+b40b6cee1ba81389f6db0623f78f33cb394152e2 net/mlx5: Node-aware allocation for the EQs
+66b8303f722e8a30d45f7f9a605730878aacf472 net/mlx5: Node-aware allocation for UAR
+23703d8bdcd58c4ab9c78d6403b75aa710781a78 net/mlx5: Node-aware allocation for the doorbell pgdir
+fffe15cd95bb089477d902dae15075e7bc684677 Merge branch 'patchq/467855' into mlx5-queue
+e6bd46b803eecedb95f60d714de5ca2e53daabcf Merge branch 'patchq/362916' into mlx5-queue
 
---===============1584251631310299987==--
+--===============4102081298393223779==--
