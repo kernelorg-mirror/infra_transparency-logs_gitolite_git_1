@@ -1,58 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Sun, 06 Mar 2022 11:20:10 -0000
-Message-Id: <164656561009.26803.10044381326168929820@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6498178034972728619=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 06 Mar 2022 11:36:32 -0000
+Message-Id: <164656659244.4039.13539649120043023603@gitolite.kernel.org>
+
+--===============6498178034972728619==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next
-    old: 663f1ba312266875dd38531a9c56b63b3dae99f9
-    new: b51082905faededb32f57e380446e919a42b9017
-    log: |
-         3bcf0fb3f2b4ab4ceeab488af1a3f7f8b8d70ba4 event_notifier: add event_notifier_get_wfd()
-         ff5eb77b8af2710acaf5041b117490dd6bedcebd vhost: use wfd on functions setting vring call fd
-         eb9baecdb3aef37ef4952bd4014f14c9d057fa18 configure, meson: allow enabling vhost-user on all POSIX systems
-         b51082905faededb32f57e380446e919a42b9017 docs: vhost-user: add subsection for non-Linux platforms
-         
-  - ref: refs/heads/pci
-    old: 663f1ba312266875dd38531a9c56b63b3dae99f9
-    new: b51082905faededb32f57e380446e919a42b9017
-    log: |
-         3bcf0fb3f2b4ab4ceeab488af1a3f7f8b8d70ba4 event_notifier: add event_notifier_get_wfd()
-         ff5eb77b8af2710acaf5041b117490dd6bedcebd vhost: use wfd on functions setting vring call fd
-         eb9baecdb3aef37ef4952bd4014f14c9d057fa18 configure, meson: allow enabling vhost-user on all POSIX systems
-         b51082905faededb32f57e380446e919a42b9017 docs: vhost-user: add subsection for non-Linux platforms
-         
-  - ref: refs/tags/for_autotest
-    old: fd43294e50465e249909bde4a6a917cf5bc5b34e
-    new: 293a027f6f61d17d6d6ff76a953c66d3fb1e796c
-    log: |
-         3bcf0fb3f2b4ab4ceeab488af1a3f7f8b8d70ba4 event_notifier: add event_notifier_get_wfd()
-         ff5eb77b8af2710acaf5041b117490dd6bedcebd vhost: use wfd on functions setting vring call fd
-         eb9baecdb3aef37ef4952bd4014f14c9d057fa18 configure, meson: allow enabling vhost-user on all POSIX systems
-         b51082905faededb32f57e380446e919a42b9017 docs: vhost-user: add subsection for non-Linux platforms
-         
-  - ref: refs/tags/for_autotest_next
-    old: fd43294e50465e249909bde4a6a917cf5bc5b34e
-    new: 293a027f6f61d17d6d6ff76a953c66d3fb1e796c
-    log: |
-         3bcf0fb3f2b4ab4ceeab488af1a3f7f8b8d70ba4 event_notifier: add event_notifier_get_wfd()
-         ff5eb77b8af2710acaf5041b117490dd6bedcebd vhost: use wfd on functions setting vring call fd
-         eb9baecdb3aef37ef4952bd4014f14c9d057fa18 configure, meson: allow enabling vhost-user on all POSIX systems
-         b51082905faededb32f57e380446e919a42b9017 docs: vhost-user: add subsection for non-Linux platforms
-         
-  - ref: refs/tags/for_upstream
-    old: fd43294e50465e249909bde4a6a917cf5bc5b34e
-    new: 293a027f6f61d17d6d6ff76a953c66d3fb1e796c
-    log: |
-         3bcf0fb3f2b4ab4ceeab488af1a3f7f8b8d70ba4 event_notifier: add event_notifier_get_wfd()
-         ff5eb77b8af2710acaf5041b117490dd6bedcebd vhost: use wfd on functions setting vring call fd
-         eb9baecdb3aef37ef4952bd4014f14c9d057fa18 configure, meson: allow enabling vhost-user on all POSIX systems
-         b51082905faededb32f57e380446e919a42b9017 docs: vhost-user: add subsection for non-Linux platforms
-         
+  - ref: refs/heads/master
+    old: 925a24213b5cc80fcef8858e6dc1f97ea2b17afb
+    new: 83b7b77af37a89a1ef82201ac8fb45456ecc25bb
+    log: revlist-925a24213b5c-83b7b77af37a.txt
+
+--===============6498178034972728619==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-925a24213b5c-83b7b77af37a.txt
+
+736f16de75f9bb32d76f652cb66f04d1bc685057 net: tap: track dropped skb via kfree_skb_reason()
+45a15d89fbcd280571eba8e5ca309e14ba6afa8f net: tun: split run_ebpf_filter() and pskb_trim() into different "if statement"
+4b4f052e2d89c2eb7e13ee28ba9e85f8097aef3d net: tun: track dropped skb via kfree_skb_reason()
+4c22aac3f83ea3c4c90fa964a88e197f16b8cae0 Merge branch 'tuntap-kfree_skb_reason'
+a3d73e15909bdcf25f341e6623cc165ba7eb5968 net: phy: Use netif_rx().
+00f4a0afb7eafdf3dae764ec0c40fe6abfdf8254 can: Use netif_rx().
+b903117b48681e12fae38e09c874f38c45186dc6 mctp: serial: Use netif_rx().
+e77975e02b593cbcc1ab2325b1729614d01de71f slip/plip: Use netif_rx().
+1cd2ef9fcb67115030b20ea2b560635efce746da wireless: Atheros: Use netif_rx().
+b381728e7e282e2f5c2581d6919aa4fc08f5a88a wireless: brcmfmac: Use netif_rx().
+afb6d39f329248598b044a87bad382e938c5ddda wireless: Marvell: Use netif_rx().
+f9834dbdd322f144f7b51f2fe8017fc6b870b3ec wireless: Use netif_rx().
+83b7b77af37a89a1ef82201ac8fb45456ecc25bb Merge branch 'netif_rx-conversions-part2'
+
+--===============6498178034972728619==--
