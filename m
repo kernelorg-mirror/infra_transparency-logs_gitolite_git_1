@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 06 Mar 2022 10:56:57 -0000
-Message-Id: <164656421783.10747.12284576362331023820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 06 Mar 2022 10:58:13 -0000
+Message-Id: <164656429341.11211.8683076285083075023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: c6a502c2299941c8326d029cfc8a3bc8a4607ad5
-    new: afb3cc1a397d77771f342691b7e6b032a234d7f2
+    old: d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2
+    new: 925a24213b5cc80fcef8858e6dc1f97ea2b17afb
     log: |
-         afb3cc1a397d77771f342691b7e6b032a234d7f2 net: dsa: unlock the rtnl_mutex when dsa_master_setup() fails
+         925a24213b5cc80fcef8858e6dc1f97ea2b17afb Revert "net/smc: don't req_notify until all CQEs drained"
          
