@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
-Date: Sun, 06 Mar 2022 05:43:46 -0000
-Message-Id: <164654542642.24370.2015472751021505181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 06 Mar 2022 06:15:05 -0000
+Message-Id: <164654730524.13285.11202655861158936857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
-user: jarkko
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/edmm
-    old: 7e752b8a268bfd1bf5088fc9eeac1c2ad26b44b6
-    new: a57542d8d70a7260bae2ec655bcef0002fb0db03
+  - ref: refs/heads/kbuild
+    old: d42118db5e7bea017cf9d7c122c7ca3b89a51421
+    new: b841c43a43f4432f8258dbf3b845beda68f939b5
     log: |
-         b9179226d9a2515b6c215ba895581ecba8ecfc57 mm: Add f_ops->populate()
-         8229d4008c16041dd2c1f147466f24d136a32679 x86/sgx: Export sgx_encl_page_alloc()
-         a57542d8d70a7260bae2ec655bcef0002fb0db03 x86/sgx: Implement EAUG population with MAP_POPULATE
+         437ff7609232fadd6d9428d22a9e119b9cc096b6 usr/include: replace extra-y with always-y
+         b841c43a43f4432f8258dbf3b845beda68f939b5 arch: syscalls: simplify uapi/kapi directory creation
          
