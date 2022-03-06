@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6244593296635094740=="
+Content-Type: multipart/mixed; boundary="===============7803453515598409791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 06 Mar 2022 10:12:34 -0000
-Message-Id: <164656155446.12962.15682806947378537560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
+Date: Sun, 06 Mar 2022 10:12:57 -0000
+Message-Id: <164656157756.13187.14212274318222560504@gitolite.kernel.org>
 
---===============6244593296635094740==
+--===============7803453515598409791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/colyli/linux-bcache
+user: colyli
 changes:
   - ref: refs/heads/master
-    old: eb8db9efd87630097ac905ea9fb7c3e65aec6909
-    new: c70ebefbca648f45dac0f9c2aec8f97d84b95e8c
-    log: |
-         c70ebefbca648f45dac0f9c2aec8f97d84b95e8c 5.15-stable patches
-         
+    old: ac84e82f78cb55ce8e760e0b5887d56efd78d6bc
+    new: dcde98da997075053041942ecf97d787855722ec
+    log: revlist-ac84e82f78cb-dcde98da9970.txt
 
---===============6244593296635094740==
+--===============7803453515598409791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ac84e82f78cb-dcde98da9970.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646561553 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1646561551-3b942dff774d592ee30ecce5d3c16ff68a81a820
+ba115adf61b36b8c167126425a62b0efc23f72c0 Input: samsung-keypad - properly state IOMEM dependency
+1136fa0c07de570dc17858745af8be169d1440ba Merge tag 'v5.17-rc4' into for-linus
+d176708ffc20332d1c730098d2b111e0b77ece82 Input: goodix - use the new soc_intel_is_byt() helper
+d982992669733dd75520000c6057d8ee0725a363 Input: goodix - workaround Cherry Trail devices with a bogus ACPI Interrupt() resource
+6b4b54c7ca347bcb4aa7a3cc01aa16e84ac7fbe4 s390/setup: preserve memory at OLDMEM_BASE and OLDMEM_SIZE
+9fa881f7e3c74ce6626d166bca9397e5d925937f s390/ftrace: fix ftrace_caller/ftrace_regs_caller generation
+1389f17937a03fe4ec71b094e1aa6530a901963e s390/ftrace: fix arch_ftrace_get_regs implementation
+c194dad21025dfd043210912653baab823bdff67 s390/extable: fix exception table sorting
+81a36d8ce554b82b0a08e2b95d0bd44fcbff339b Input: elan_i2c - move regulator_[en|dis]able() out of elan_[en|dis]able_power()
+04b7762e37c95d9b965d16bb0e18dbd1fa2e2861 Input: elan_i2c - fix regulator enable count imbalance after suspend/resume
+bfa26ba343c727e055223be04e08f2ebdd43c293 HID: add mapping for KEY_DICTATE
+327b89f0acc4c20a06ed59e4d9af7f6d804dc2e2 HID: add mapping for KEY_ALL_APPLICATIONS
+ff712a627f7296a42ea5d7356704525e1e909e05 selftests/vm: cleanup hugetlb file after mremap test
+5c26f6ac9416b63d093e29c30e79b3297e425472 mm: refactor vm_area_struct::anon_vma_name usage code
+96403e11283def1d1c465c8279514c9a504d8630 mm: prevent vm_area_struct::anon_name refcount saturation
+942341dcc5748d9c1fc7009a359fc1916bfe0ef0 mm: fix use-after-free when anon vma name is used after vma is freed
+f2b277c4d1c63a85127e8aa2588e9cc3bd21cb99 memfd: fix F_SEAL_WRITE after shmem huge page allocated
+b773827e361952b3f53ac6fa4c4e39ccd632102e kselftest/vm: fix tests build with old libc
+dd21bfa425c098b95ca86845f8e7d1ec1ddf6e4a proc: fix documentation and description of pagemap
+d1eff16d727ff257b706d32114d3881f67cc9c75 configs/debug: set CONFIG_DEBUG_INFO=y properly
+f9026e19a44d965793d25e7a02b0d6c1bcafd8f5 Merge tag 's390-5.17-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+0014404f9c18dd360a1b8bb4243643c679ce99bf Merge branch 'akpm' (patches from Andrew)
+dcde98da997075053041942ecf97d787855722ec Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 
-eb8db9efd87630097ac905ea9fb7c3e65aec6909 c70ebefbca648f45dac0f9c2aec8f97d84b95e8c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIkiREbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OvIP/AlElag7bPQhp1Eaqtgk
-7pKsnBgQdbvmTlyzJ2luNCNbXrWt+j0K1cDM+WxjWpvMMqOo4Pvk8wMj5rWVqCff
-Fal1XdpsnX3rYjVL6ykZS9+0lBQEKREE5Q2Hdh7ZvjzjXvha8Hentdad2yaB37x+
-vFqHtuqzpLGj0oygsyhEpu7TH9hN8UgKsxt9k9dL60nOtVhv+h5+pCEmBK5Ba7Kl
-tjxPN3uVGmqNu/SzDQhtlrol8rlHJur7YavfJn/qzrDpJHKbIDJj1QHUx6wVwNBu
-0P7i5tFU5hi+zCLcEvZT1b0fMLiLihFy8Mh5TqZHJhfsxpOoG9exMkGpO2DSXGDO
-m5YZtzJLify0UeQNR04xkfnAdWwBnNRCuJw9AHqn8gZvc9/+JblSJ/cl+Kc6QhdP
-gECfeoeWBCw8MVHDf3VLDV9UxZZ4wOqUvGhJmrk279bZ8V/Ms5qf/evEPvS6ih60
-KD7cZbrRYF2NqbJMReV73yuiBvWlk4x4d7Qo+GeUJiPFHtaI3uapcyxiWxibnWZD
-6WUxFSPS+V6mgXrt0tY86z4RNA5j+9ip5zDfIWUYzg8ryA4pJyasW8YEtlWwpHU4
-/kXVsrYPwPGyuQgt7OM3bE2Qs/oPOxfejFcHv/G8w24xhufrHpNbs1ljTX6rMJd8
-huw/yogHNP4AB3ndajtHAGZT
-=M79l
------END PGP SIGNATURE-----
-
---===============6244593296635094740==--
+--===============7803453515598409791==--
