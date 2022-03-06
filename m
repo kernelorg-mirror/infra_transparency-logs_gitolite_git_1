@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 06 Mar 2022 06:15:05 -0000
-Message-Id: <164654730524.13285.11202655861158936857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Sun, 06 Mar 2022 06:25:16 -0000
+Message-Id: <164654791645.20291.5290014565496107501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/kbuild
-    old: d42118db5e7bea017cf9d7c122c7ca3b89a51421
-    new: b841c43a43f4432f8258dbf3b845beda68f939b5
+  - ref: refs/heads/jd/sipmix
+    old: a7f10d8e737e04c9918228de63a40b43b18ecb59
+    new: 7395ff7f18c88f84be89540b5507b82a4f7451e3
     log: |
-         437ff7609232fadd6d9428d22a9e119b9cc096b6 usr/include: replace extra-y with always-y
-         b841c43a43f4432f8258dbf3b845beda68f939b5 arch: syscalls: simplify uapi/kapi directory creation
+         7395ff7f18c88f84be89540b5507b82a4f7451e3 random: use SipHash as interrupt entropy accumulator
          
