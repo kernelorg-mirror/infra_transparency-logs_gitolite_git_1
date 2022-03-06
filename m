@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 06 Mar 2022 04:15:17 -0000
-Message-Id: <164654011799.563.13651464619819649027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Sun, 06 Mar 2022 04:28:30 -0000
+Message-Id: <164654091082.8573.18114868937770589474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/heads/jd/sipmix
-    old: e8f6ac928c77e91ceba9262e0ceb9d2bdede286d
-    new: a7f10d8e737e04c9918228de63a40b43b18ecb59
+  - ref: refs/heads/edmm
+    old: 59dfb75b2d292ce52a47ad653815604886f21152
+    new: 15f7361a70f0a62c8540477caa4cb60d6a114f2d
     log: |
-         a7f10d8e737e04c9918228de63a40b43b18ecb59 random: use SipHash as interrupt entropy accumulator
+         15f7361a70f0a62c8540477caa4cb60d6a114f2d x86/sgx: Export sgx_encl_page_alloc()
          
