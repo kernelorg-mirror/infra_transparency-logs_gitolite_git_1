@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6098302376839656027=="
+Content-Type: multipart/mixed; boundary="===============9142154821328794626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 06 Mar 2022 10:48:01 -0000
-Message-Id: <164656368109.4760.11080213368627387923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Sun, 06 Mar 2022 10:50:27 -0000
+Message-Id: <164656382773.7112.6591119388493830943@gitolite.kernel.org>
 
---===============6098302376839656027==
+--===============9142154821328794626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e3da234fd2c4b77c7f93d51b8966ef3032b82d63
-    new: 01019bfc72fb2848d157c4008b6280962ba64eb0
+  - ref: refs/tags/for-linus
+    old: 2fee683d165e60f9a401ee6123804471e762c73c
+    new: b8fdc6eac49e2ed3a34064e4c6b447811f32b075
     log: |
-         01019bfc72fb2848d157c4008b6280962ba64eb0 4.19-stable patches
+         40cd58dbf121e1d0c18f1bd4dd10335ae45a28fc x86/kvm: Don't use PV TLB/yield when mwait is advertised
+         3c51d0a6c761c2025c6db1ed4d3a7273167bf899 x86/kvm: Don't waste memory if kvmclock is disabled
+         92e68cc558774de01024c18e8b35cdce4731c910 x86/kvmclock: Fix Hyper-V Isolated VM's boot issue when vCPUs > 64
+         9ee83635d872812f3920209c606c6ea9e412ffcc KVM: x86: Yield to IPI target vCPU only if it is busy
+         c6c937d673aaa1d603f62f134e1ca9c173eeeed3 KVM: x86/mmu: Passing up the error state of mmu_alloc_shadow_roots()
+         8d25b7beca7ed6ca34f53f0f8abd009e2be15d94 KVM: x86: pull kvm->srcu read-side to kvm_arch_vcpu_ioctl_run
          
 
---===============6098302376839656027==
+--===============9142154821328794626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646563680 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1646563678-125d5e1aad381dc3ef4eeefaadc13439369b6c2f
+pusher Paolo Bonzini <pbonzini@redhat.com> 1646563825 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1646563825-3c3b9049cc6dfafe702fa0334f6e762b756b9cb6
 
-e3da234fd2c4b77c7f93d51b8966ef3032b82d63 01019bfc72fb2848d157c4008b6280962ba64eb0 refs/heads/master
+2fee683d165e60f9a401ee6123804471e762c73c b8fdc6eac49e2ed3a34064e4c6b447811f32b075 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIkkWAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6/EQAIAuHbBe+QlbtYAPYU+8
-aPuL+QXulzeljvoJMPYNqKYRwK1JSBqKvSwvggqllg5TGxGH9p02ViFtPBwHS293
-e1Ist8XtX3VG5nnz+QbCazvypje2TNqsSsFux3cP9m1z9ilQBiHufR7vofQi40mS
-X4MZAwHudkQUS4YSpqbFNJa8we0TPUcf3SY9mXSmCHmvZbi+RtvuJXmB9JXg9x5Z
-MzWuUljFeg+rREqYiE+eEQbDLzsNWrT/vaKVS/HHuvAAK8rf6RC8bRGy4VpNVkPZ
-/YimBYYqC4uyBEpQmIpJrgnIF5jtXLAq0k/A8p3lTybSpz8m2ndqIIyXwB7INw1W
-W13sa6tGgLj3nr5C4KhjlZLmPudtEtX81FWhTQIvvyS3jvzrRg51f6evT/AoQ4sY
-YXuDcB5pWS9MLet2hOdeNeSfShTWjvBaz6/dIWlVF9ZMwHYt8IWy6BC+mLHXks79
-c+irEMnsj0mfMp8lboLGjJMwyzs90GkW4iHi6p3bwsHpvIFIsWpdPzJqbuUcBpoM
-KIzhkqUM+YV6OkNACA5PmO5HujxpHg9MXad+M4QX8H/tKy8JCH5KdGXIImUuTRXw
-VN6PdlGGT9tmcADgsIFKrtcUvhpfS49o7yFXRd7yO1ROFeINMhuNdZ3ZTrfzl6MW
-dcWC+tLXW5e9fxZsqcAwmmiA
-=Kdb+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmIkkfEUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroObIwf/Vk4h1vxB2GB1TbRKHDLut/pwTACP
+tV5aPrtj1eDGcsgZb+U7rcBmClThRWruu+5fw1fuIRGoEtPZjpODGr5QI0o0N4CE
+PeTkW2bW9+OcylDwvRZBiTSLeOX9/nahgDkojDjujZAtF2nIjlhICYRYXZgyYW6X
+CZA7+4Kh3rHYhK9V0G7HKRakBpIAKxAcEdEqsbEeM4K+ktO6IxSfCkrBYWXY5yEx
+DZxErOQ/fVcER6qiJcdtG/HnPjsQne42Q3vy76Dexi9MwpQYxNcRmni84re9mOWh
+Cp+PLcQQm0tJUvhUlyGQg1ieRPpBVRhgYFlEvOsk+9KnA8k3fuxyc0+0cA==
+=SDMl
 -----END PGP SIGNATURE-----
 
---===============6098302376839656027==--
+--===============9142154821328794626==--
