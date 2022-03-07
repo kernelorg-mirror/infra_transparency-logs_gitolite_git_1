@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 07 Mar 2022 17:16:43 -0000
-Message-Id: <164667340368.3478.13414015230158575225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Mon, 07 Mar 2022 17:26:21 -0000
+Message-Id: <164667398162.9284.8436127091828568821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 40a4503e85f79364fc58066039f57e955a5a43ec
-    new: 1aa71e6ce4807e5d4c74bc7818e9796d2bcfd433
+  - ref: refs/heads/master
+    old: be4977b847f5d5cedb64d50eaaf2218c3a55a3a3
+    new: c70c453abcbf3ecbaadd4c3236a5119b8da365cf
     log: |
-         d1d28bd9a0f896c7d2f7147ca631f86c49b16d7f mm/slub: use helper macro __ATTR_XX_MODE for SLAB_ATTR(_RO)
-         fb15a2ce432a698de019df3f7b68a1c5907c1a2e Merge branch 'slab/for-5.18/trivial' into slab/for-next
-         1aa71e6ce4807e5d4c74bc7818e9796d2bcfd433 Merge branch 'slab/for-5.18/cleanups' into slab/for-next
+         a502a8f04097e038c3daa16c5202a9538116d563 net: phy: meson-gxl: fix interrupt handling in forced mode
+         c6a502c2299941c8326d029cfc8a3bc8a4607ad5 mISDN: Fix memory leak in dsp_pipeline_build()
+         afb3cc1a397d77771f342691b7e6b032a234d7f2 net: dsa: unlock the rtnl_mutex when dsa_master_setup() fails
+         d0aeb0d4a3f7d2a0df7e9545892bbeede8f2ac7e isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
+         e0058f0fa80f6e09c4d363779c241c45a3c56b94 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+         dd830aed23c6e07cd8e2a163742bf3d63c9add08 net: lantiq_xrx200: fix use after free bug
+         bb77bd31c281f70ec77c9c4f584950a779e05cf8 ethernet: sun: Free the coherent when failing in probing
+         d9dc0c84ad2d4cc911ba252c973d1bf18d5eb9cf qed: return status of qed_iov_get_link
+         c70c453abcbf3ecbaadd4c3236a5119b8da365cf smsc95xx: Ignore -ENODEV errors when device is unplugged
          
