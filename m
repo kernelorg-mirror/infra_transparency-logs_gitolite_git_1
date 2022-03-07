@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5595374184692371065=="
+Content-Type: multipart/mixed; boundary="===============0435194130679656138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 07 Mar 2022 16:58:56 -0000
-Message-Id: <164667233604.22861.16777840382194996532@gitolite.kernel.org>
+Date: Mon, 07 Mar 2022 16:59:06 -0000
+Message-Id: <164667234623.22962.10700513286287949966@gitolite.kernel.org>
 
---===============5595374184692371065==
+--===============0435194130679656138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1039135aedfc5021b4827eb87276d7b4272024ac
-    new: 57d29a2935c9aab0aaef6264bf6a58aad3859e7c
-    log: revlist-1039135aedfc-57d29a2935c9.txt
+  - ref: refs/heads/dev-queue
+    old: 8a0b72e4589bfcef0d4650dd3cacae519542291f
+    new: 48b2dee99c556f2f053cdde35e9b31e885beea11
+    log: revlist-8a0b72e4589b-48b2dee99c55.txt
 
---===============5595374184692371065==
+--===============0435194130679656138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1039135aedfc-57d29a2935c9.txt
+Content-Disposition: attachment; filename=revlist-8a0b72e4589b-48b2dee99c55.txt
 
 a6aab018829948c1818bed656656df9ae321408b arm64: insn: Generate 64 bit mask immediates correctly
 9087c6ff8dfe0a070e4e05a434399080603c29de bpf: Call maybe_wait_bpf_programs() only once from generic_map_delete_batch()
@@ -155,5 +155,60 @@ e21af12622c0fb36f719ef9bd5aa1defcffb8004 Merge branch 'netif_rx-part3'
 0273d10182ec4507a43b868dd80fd62860b7e948 selftests: net: fix array_size.cocci warning
 cd5169841c49dab75ecc3b20b3bd1100395b6909 net: dsa: return success if there was nothing to do
 57d29a2935c9aab0aaef6264bf6a58aad3859e7c net: rtnetlink: fix error handling in rtnl_fill_statsinfo()
+848970f764990de987840b5362aa4e67d711ca2e igc: Add UDP segmentation offload support
+d6a3169a037cdba161656d6f73bf35ebe74188d7 i40e: Refactor VF queue requesting
+9a2b3c5ef47d05c1cbc75a10710a1e74ca8f54fa i40e: Fix the timeliness of stats after deleting tc
+0dd1a58c9ec6985759dcb2bb3316dd7dc1706a08 ice: Add support for inner etype in switchdev
+e17c21bdb2dc93c33964728aa7898dfc4ee3b4ca iavf: Fix handling of vlan strip virtual channel messages
+820c6d0789f33d25ced6d5bf63151852e83de8dd ice: Don't use GFP_KERNEL in atomic context
+94844c64fdff426f117a41ca8fc3d3797acf416a ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+7f659d80d800811a0c1284c82b4add73d5359a9b ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+7afa8709dd0175bc784f3d33ebe902f642d6f377 ice: switch: use a struct to pass packet template params
+6bc0727cd129852e49258bb246c5e282b1fb6ae4 ice: switch: use convenience macros to declare dummy pkt templates
+6371cfe6c4345b31c28170265c18b052037355c8 ice: Add slow path offload stats on port representor in switchdev
+3465c6b8030ff3270111c8a8609543f9bbba45f0 ice: avoid XDP checks in ice_clean_tx_irq()
+881245fb1cf23a882fd1fd84deb4051697a693ad iavf: Fix adopting new combined setting
+247af6b1bc9b53f809ff4a619b815b44c0869eb0 ice: Add support for classid based queue selection
+89da9557cc53416b0c544a536a02c900eb282096 ice: change "can't set link" message to dbg level
+dd6cf86e44f846df3871d5e3345fba7c18d6ca29 ice: Add support for outer dest MAC for ADQ tunnels
+3fe61c144b78d595087483afe68df02953ba5fc6 e1000e: Print PHY register address when MDI read/write fails
+853df9a7102005f1622cd8829c693394a59463d4 i40e: stop disabling VFs due to PF error responses
+0bb22ceff1e44de702501f0588dcfb3ba2577746 ice: stop disabling VFs due to PF error responses
+d825d2c378b8e57434664bc826f64d58c3ebc840 ice: Add inline flow director support for channels
+6fad184ed809e8fcd6a6dcfe45c9e1564e24ad81 ice: Fix curr_link_speed advertised speed
+6c6d335070d9776084a58daa3bcad2a7ee45437e ice: rename ice_sriov.c to ice_vf_mbx.c
+ca2537a9163d225ccf3295979c3090d5b84e8534 ice: rename ice_virtchnl_pf.c to ice_sriov.c
+ae344240d7dcf15efcb5d02b21ca039acd6c464d ice: remove circular header dependencies on ice.h
+441cfc3e3154c26ac3a22286b73c0f56a0f3b88f ice: convert vf->vc_ops to a const pointer
+a8c5ccb1e9407ee9d086d40729ce8d366cf23e8f ice: remove unused definitions from ice_sriov.h
+a396bd1e9af321054187b5801e07c0a8a3223b58 ice: rename ICE_MAX_VF_COUNT to avoid confusion
+da1f1bf7e3ae58895f61652b554d789c271f0a9f ice: refactor spoofchk control code in ice_sriov.c
+b4631ba6edcb1563fe145ce559448b4979e22d7b ice: move ice_set_vf_port_vlan near other .ndo ops
+cc9bca8f6a6cc388d6aff9f70994b6b4ca669dd6 ice: cleanup error logging for ice_ena_vfs
+bb683cc09165824b4283e23e2e2a821b99cfbcb3 ice: log an error message when eswitch fails to configure
+40f223c1b8e8fe6cf48fa31bfb2b157db646ab78 ice: use ice_is_vf_trusted helper function
+4d88b3ac6f662f3c0573bb6f4ee0fd363c395163 ice: introduce ice_vf_lib.c, ice_vf_lib.h, and ice_vf_lib_private.h
+1f2d07ca6fd82504ec24f3575ae7312fe6a03181 ice: fix incorrect dev_dbg print mistaking 'i' for vf->vf_id
+34e0742feff4a614ee66f998c25812e46f0eb8f8 ice: introduce VF operations structure for reset flows
+d0977c79c5825146f6f3981e149079618e38b12b ice: fix a long line warning in ice_reset_vf
+705bb1f9a23c319a67fe88b13372af4236bed5b0 ice: move reset functionality into ice_vf_lib.c
+eff084efaf96f01cee7f41710373a9bc8ba450c4 ice: drop is_vflr parameter from ice_reset_all_vfs
+88a02b66681082dd65dd12fbbab7f46c1bb923e2 ice: make ice_reset_all_vfs void
+5046f9891b77f84fe9738deb5612d1182fac86e9 ice: convert ice_reset_vf to standard error codes
+1c62850b5623db17c5ae2e21843be4a081ff9ef4 ice: convert ice_reset_vf to take flags
+23ec312156107e4596663fd58871ba3d9e78f3cc ice: introduce ICE_VF_RESET_NOTIFY flag
+7721cd2074fd1483647ad3b4ae06384f331640fe ice: introduce ICE_VF_RESET_LOCK flag
+6283a557f7ed5a4eb4b19a0affe594ff152c1921 ice: cleanup long lines in ice_sriov.c
+1ba761eab7f8aba7acfba626e2a582f4ad9596c4 ice: introduce ice_virtchnl.c and ice_virtchnl.h
+510939f6286be0f82600b5b4764fa9dd65741658 ice: remove PF pointer from ice_check_vf_init
+7aaeeff2bc731d97a8d706e9397578eaca308a72 ice: Fix error with handling of bonding MTU
+6f2bc8773c3f92645b0bff76c167f7308141a14c ice: Add support for double VLAN in switchdev
+5deff0085b71014553bcfabea118c50ea2ed8e6d ice: Fix re-enablement of FW logging after reset
+de0c1d3e6f53c9cce3f7e3e5ad59a939a2aa7093 igc: Fix infinite loop in release_swfw_sync
+307b6b6d844787af0c19a8b0c190b059a5cebce7 ixgbe: add the ability for the PF to disable VF link state
+0385013d0d6cb37b16564b6a087c73cee9779a39 ixgbe: add improvement for MDD response functionality
+81d3f44c8ae81258c1ca9372f44f47c629b087cd ixgbevf: add disable link state
+ad7451a4a847818a2a2a761958b8017ac552bba0 i40e: little endian only valid checksums
+48b2dee99c556f2f053cdde35e9b31e885beea11 ice: add trace events for Tx timestamps
 
---===============5595374184692371065==--
+--===============0435194130679656138==--
