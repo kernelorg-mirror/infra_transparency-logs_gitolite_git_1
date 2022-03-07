@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 07 Mar 2022 08:46:26 -0000
-Message-Id: <164664278625.10140.9922927838579697916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Mon, 07 Mar 2022 08:49:32 -0000
+Message-Id: <164664297249.11134.9897835394207453984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/heads/kfence/dev
+    old: b3c4c8415f446f5e7ede4eafbec7150725445447
+    new: aba62886d8b85c61e53330287686589d3b5b2145
+    log: |
+         25dc63c9ceba5f36ce06a135da34dcf9410f7275 kfence: Allow re-enabling KFENCE after system startup
+         aba62886d8b85c61e53330287686589d3b5b2145 kfence: Alloc kfence_pool after system startup
+         
