@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 07 Mar 2022 12:27:05 -0000
-Message-Id: <164665602570.6138.17502777157394915418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Mon, 07 Mar 2022 12:31:12 -0000
+Message-Id: <164665627220.8947.7312902321872990619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: cd5169841c49dab75ecc3b20b3bd1100395b6909
-    new: 57d29a2935c9aab0aaef6264bf6a58aad3859e7c
+  - ref: refs/heads/asm-generic
+    old: 9f15ac318b836c881f9e3cc0cdbc7497033a6336
+    new: 3edb65f4e8fdec0569edf6a0e74675d2e5e6fe0e
     log: |
-         57d29a2935c9aab0aaef6264bf6a58aad3859e7c net: rtnetlink: fix error handling in rtnl_fill_statsinfo()
+         3edb65f4e8fdec0569edf6a0e74675d2e5e6fe0e nds32: Remove the architecture
+         
+  - ref: refs/heads/master
+    old: 9f15ac318b836c881f9e3cc0cdbc7497033a6336
+    new: 3edb65f4e8fdec0569edf6a0e74675d2e5e6fe0e
+    log: |
+         3edb65f4e8fdec0569edf6a0e74675d2e5e6fe0e nds32: Remove the architecture
          
