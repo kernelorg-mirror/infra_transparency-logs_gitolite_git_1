@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 07 Mar 2022 12:18:21 -0000
-Message-Id: <164665550170.397.459694122533650778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 07 Mar 2022 12:23:40 -0000
+Message-Id: <164665582010.3495.6015586632193005825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/fixes
-    old: f0d2f15362f02444c5d7ffd5a5eb03e4aa54b685
-    new: 1760fdb6fe9f796fbdb9b4106b3e0bbacc16b55c
+  - ref: refs/heads/master
+    old: 0c1794c200e943ea95a28c0a8c7eda6b5c004a9d
+    new: 0273d10182ec4507a43b868dd80fd62860b7e948
     log: |
-         1760fdb6fe9f796fbdb9b4106b3e0bbacc16b55c mmc: core: Restore (almost) the busy polling for MMC_SEND_OP_COND
+         0273d10182ec4507a43b868dd80fd62860b7e948 selftests: net: fix array_size.cocci warning
          
