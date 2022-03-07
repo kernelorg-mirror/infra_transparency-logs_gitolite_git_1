@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 07 Mar 2022 08:21:48 -0000
-Message-Id: <164664130863.25821.8100397921603370174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 07 Mar 2022 08:22:49 -0000
+Message-Id: <164664136978.26274.8351312359619197533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 4ff2980b6bd2aa6b4ded3ce3b7c0ccfab29980af
-    new: a3d9001b4e287fc043e5539d03d71a32ab114bcb
-    log: |
-         a3d9001b4e287fc043e5539d03d71a32ab114bcb Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-         
+  - ref: refs/tags/memory-controller-drv-5.18-2
+    old: 0000000000000000000000000000000000000000
+    new: b8a426dc5ca9e8211da9b05c2bccf269ca1d3fa1
