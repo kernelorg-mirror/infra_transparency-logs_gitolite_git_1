@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 07 Mar 2022 15:43:50 -0000
-Message-Id: <164666783051.3851.3144727777307503946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 07 Mar 2022 15:45:22 -0000
+Message-Id: <164666792227.6773.13024826865523990632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/irq/aic-pmu
-    old: 0000000000000000000000000000000000000000
-    new: 11db7410cfcba2e5ffed7b8bb2a57d4dd5e22063
+  - ref: refs/heads/for-next
+    old: c086df4902573e2f06c6a2a83452c13a8bc603f5
+    new: 0c4bcfdecb1ac0967619ee7ff44871d93c08c909
+    log: |
+         0c4bcfdecb1ac0967619ee7ff44871d93c08c909 fuse: fix pipe buffer lifetime for direct_io
+         
