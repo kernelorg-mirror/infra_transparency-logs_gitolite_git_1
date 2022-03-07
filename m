@@ -1,49 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Sun, 06 Mar 2022 23:33:31 -0000
-Message-Id: <164660961115.6866.5850898247192333173@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7872888203756898985=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 07 Mar 2022 00:56:51 -0000
+Message-Id: <164661461110.28561.6837955547507589569@gitolite.kernel.org>
+
+--===============7872888203756898985==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.16
-    old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/heads/master
+    old: 3ee65c0f0778b8fa95381cd7676cde2c03e0f889
+    new: ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2
+    log: |
+         ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2 Linux 5.17-rc7
+         
+
+--===============7872888203756898985==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646614610 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1646614609-578625f5f4ca2c8b7fdb0e67c8d01f3de7ad0c3d
+
+3ee65c0f0778b8fa95381cd7676cde2c03e0f889 ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIlWFIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SPoQAKiurI5SIxTqMjpF5vWh
+153Fd6k1yyxRgMvlPyG4GE90iWVZaiF05M5cCIMOcc8CwGG/dbe5qm9TV6zsyGWX
+YNKbGtLd0J5pLEPty4mLJafjXN7wNcR9o+jNAxJzaIf0Ly/+MEKnIUklFcHq5L/I
+VM8atEDv+Es8ZJouyyFAbQW47g3yn3dhJONP8gUVrtS9jbrzkPaWiT9lRhWNkV4n
+YAGF7ktrA2U8ZbMIQcbngSf8FJWmjNFdSZVXEnpN4OhlTYW1b91+BCkp9E3AL3qD
+oqHVC9cwR0b9S36vEz9QRgK6InRRIz0B6RDrFHKyu6VSrQrmotn9n2QYFBx2mioB
+jUdTC+itxaIAzilQQN4Ml4Nfp4wuL0Hpcjrg1FCKX7wMo1eZvDS/RcjsaSqQN6dB
+ggd53XlKS6BCAkcQ58ctkfIRup2C6BI09y6/A3oEbGf5S8XLx354tHrCB2zmSc0c
+Jvt5PpUeIy/hsTOw8F3acYYZ2hmr9dErBVpYCKjXDoAzW4O0+m6Re/Z//aIq/der
+PDvyZdK4TVMDLOKal/Gq073zfjFAuWp3prg9W2pRDyRqnOdi1ppZZKOQSeYSPZA2
+BsHc3v9b1WEge2UhbW075KzUiqRM95nARn7CqaaBP+WixSq02HomeX0SVwn4naqB
+PAqmxynvOEXEJV36q57SJasi
+=MbXF
+-----END PGP SIGNATURE-----
+
+--===============7872888203756898985==--
