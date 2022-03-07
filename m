@@ -1,28 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Mar 2022 20:38:24 -0000
-Message-Id: <164668550490.3892.2014603986887313124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 07 Mar 2022 20:38:47 -0000
+Message-Id: <164668552742.4116.8656841479472940069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 48fdc1fa4d937b687a32736ff945b5b29230b73b
-    new: 113bf7c7a9d1d72d2557d9a3b920ed11e57a4f8e
+    old: a7c76d3f0787a76fb0af2b83a38712964c116859
+    new: 8d1898c89e9511b6497fd35b19986d8a4785f6b3
     log: |
-         113bf7c7a9d1d72d2557d9a3b920ed11e57a4f8e Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         8d1898c89e9511b6497fd35b19986d8a4785f6b3 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 29bfeed6be0c0ee1fce3a634499d051ab87c208e
-    new: f31e493443f5de8731e0a7aaeb9197e457b82953
+    old: a3d3c11c04240ef00907ad3f66c7219ed2949f75
+    new: 651831162c573b44c75e5b9f84aa34a2b8c2d1f0
     log: |
-         bbc7ba0fa06ab4aee26969a9454ca32e4a8fcb1c regulator: cleanup comments
-         113bf7c7a9d1d72d2557d9a3b920ed11e57a4f8e Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
-         e262498ffbf4250969c9b657c939e92d6158526a Merge branch 'regulator-linus' into regulator-next
-         f31e493443f5de8731e0a7aaeb9197e457b82953 Merge remote-tracking branch 'regulator/for-5.18' into regulator-next
+         af524ae5ad13a9c28acf0b2ec4489d5903c4fbed spi: Update NXP Flexspi maintainer details
+         c59dbc642d4e76187516960780b6cd26e7f2c943 spi: cadence: fix platform_get_irq.cocci warning
+         fa0f3db49e10ac61774e1c90167ec79429d6fd56 spi: qup: replace spin_lock_irqsave by spin_lock in hard IRQ
+         320689a1b543ca1396b3ed43bb18045e4a7ffd79 spi: Fix Tegra QSPI example
+         b15e3bc76925eb1366348483fca89f115c8cde31 spi: npcm-fiu: Fix typo ("npxm")
+         8d1898c89e9511b6497fd35b19986d8a4785f6b3 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         39a62d3135921fa173b608ad35341038b7c1ded3 Merge branch 'spi-linus' into spi-next
+         651831162c573b44c75e5b9f84aa34a2b8c2d1f0 Merge remote-tracking branch 'spi/for-5.18' into spi-next
          
