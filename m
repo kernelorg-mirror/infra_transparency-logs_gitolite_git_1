@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0892305382575445902=="
+Content-Type: multipart/mixed; boundary="===============9076334108960415563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 07 Mar 2022 15:18:19 -0000
-Message-Id: <164666629923.20234.13364927117877725750@gitolite.kernel.org>
+Date: Mon, 07 Mar 2022 15:22:31 -0000
+Message-Id: <164666655171.23035.4377066715912624504@gitolite.kernel.org>
 
---===============0892305382575445902==
+--===============9076334108960415563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 40720f389012ee98285ab153a8f4e6b19c2b767d
-    new: 88e29d31ee94119b66a1a3cf01ff0e97f4f40046
+    old: 88e29d31ee94119b66a1a3cf01ff0e97f4f40046
+    new: f1cff79a12cfa4d849c3df7b2903e5cf93be1617
     log: |
-         88e29d31ee94119b66a1a3cf01ff0e97f4f40046 drop queue-5.10/ibmvnic-define-flush_reset_queue-helper.patch
+         f1cff79a12cfa4d849c3df7b2903e5cf93be1617 drop some drm amd patches from 5.15 that broke the build
          
 
---===============0892305382575445902==
+--===============9076334108960415563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646666296 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646666551 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1646666294-87c4ff66c0951511d86831b06fb55b71be75f2aa
+nonce 1646666550-52821c9ee33283dd21936781ec1f51f0a9078353
 
-40720f389012ee98285ab153a8f4e6b19c2b767d 88e29d31ee94119b66a1a3cf01ff0e97f4f40046 refs/heads/master
+88e29d31ee94119b66a1a3cf01ff0e97f4f40046 f1cff79a12cfa4d849c3df7b2903e5cf93be1617 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmImIjgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xvQP/AqzE0wQpFKaXDIrYEvG
-0dI9zpUyw5oFyntCQv0gI80Z4OEL1xuU8afIxmIl/CouKCcYLDL8pvVME590gard
-gQojMZItwmHZmOzSpcyRe6fgKs0nxo1VpMvFM0vyMnQcEmDg/bfiLU+EsCpLSpVu
-UXNroxaFowOzU9wm2m1IuuDUz5Z8CoP94rOmJy5mms9jTyyRdr+zmcyDHGzGVYyQ
-8yskmDPdMuaOAXkM4KQi0Pkz6JEKhF2rSJm4ToRyqBNCVcR1EwGeh6pQeo+Pcoig
-iO0VjMUACL5uUPSVw0kRLeGIj2SAxtBXwr/mzLfsTx1YBSVbY3iyUzRRkwQ6Wxgw
-/9FWcgmV3Rf/DTFp6oPzeNiYH1qeNq4OGoiptgCeFo2DlieTjeVC9ZiLAEaiDCiH
-4WqU4Tf5gwTmyXTt33zASXBCaYPEa9oOQfdD4DSBzAyXY7ngv0/fAAaoRj5uqSpX
-mwIzjmX1fKSGpL9RLEcRuGnC+RTpwldVEqjdTU3NzFedbcwcL5v7XD+hPgw2uDM5
-Uv0lEBXeObhUj2bh5MEgI/5VvBs3S71zTwJuRYcUbavnHLPjb/NYB1Bc0i6CakLN
-DWX9wiIiFdH3uNPeZDt6kU0fwzYdRgbUgiWebcTDLp1EhitRdIKAjIkZ5qCnOAeP
-Dj0fOoJ3Ni5503aQMqZgbB2C
-=NgcE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmImIzcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o/YQALfzlJ8+yEdMMRrS0t2d
+t7t7qWzDhXubRjx6h+J9G7zikurLAIxb2JqGzdZYQvH7+jmPpMYuWrwW2vXSoi4x
+6UF+O37z4K/nglChMnUVfDplOD9mnnXGru3fy+sCNWXoJf/xC9SgFdT4vZyh3CKu
+V94yY2RZfwj7yQQZk+TR+AW3vEslV9xoLbhbCcX+uqmwpSE+ezgUn5sr8BCNFEbo
+aKwVt0y/lN4dFrUJ6Z2RCRpNBTO8qXpLuJxjCrLMpYzRbNFSD7xYU+2kb8Bl2Bb0
+iKndTOnRfFdk/Oky00rWNM+DU5uK9nTZiQ7SOarVTMU02Zt1+rcJFZ1eRS/nLvRS
+d/wcEeIFH3iOC46hMqya8zW5qCEAcSwcr6W7k8bZO3seJSMEWhDuKgP16A95ghvr
+Qsb715YeB3nWdVBlbfVEFC5YmDqshpBvU9XKl3xZvn5q913u7ydV4i766z93VZ7A
+QDYqmW3SMhv3OWt7tVZb/bmMj9SkZzNmklAGZiQdTWgd2fLBRBqCbbFc7sjta7N+
+qgT3xiCfi5Itm7SbeWz7epKTeg8yucqhL53W5Nt3k6iUeQ8ry57GyREv4eTsEN9U
+yKlaHu7DibsjF/9Vd4E1EG6WtwFxzgtTOiRUc1tyWnVzTuujFaIcpfGskV7Ir5Kk
+qKck+XyoX0gNE7Utr9WXZzTv
+=jNsq
 -----END PGP SIGNATURE-----
 
---===============0892305382575445902==--
+--===============9076334108960415563==--
