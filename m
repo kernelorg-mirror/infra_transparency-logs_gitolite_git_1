@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2588196529515238862=="
+Content-Type: multipart/mixed; boundary="===============5721321704703023299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 07 Mar 2022 20:37:35 -0000
-Message-Id: <164668545557.3363.15650689322627772801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Mar 2022 20:37:41 -0000
+Message-Id: <164668546120.3483.4125491936809974253@gitolite.kernel.org>
 
---===============2588196529515238862==
+--===============5721321704703023299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: dc8fea13f98ace0ae8815dd44d1e60c184f3f930
     new: b15e3bc76925eb1366348483fca89f115c8cde31
     log: |
@@ -27,28 +27,28 @@ changes:
          b15e3bc76925eb1366348483fca89f115c8cde31 spi: npcm-fiu: Fix typo ("npxm")
          
 
---===============2588196529515238862==
+--===============5721321704703023299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646685454 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1646685453-385627009e3f85f6e3d08357e47f46509b0fefb8
+pusher C3F436CA30F5D8EB 1646685459 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646685459-5ebc55c6e6b1a6f78c4c0e79006078e6ffbe2cce
 
-dc8fea13f98ace0ae8815dd44d1e60c184f3f930 b15e3bc76925eb1366348483fca89f115c8cde31 refs/heads/for-5.18
+dc8fea13f98ace0ae8815dd44d1e60c184f3f930 b15e3bc76925eb1366348483fca89f115c8cde31 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmImbQ4ACgkQJNaLcl1U
-h9Ammgf/b4Pmhpq7Bhg14Uk4fm9jVrqK98qRAgpWKlU11gxZH9Urp+29G4qWX6lH
-wDNNh1eOZGZfrFxX7yI5BACtYFhmsyNr4vAmVHOjqvKeOAZb994yR0YhwoPYSwki
-x9MRToWhVGkjsYOsQsGgIddd9KhGj+rsm8OYk4S2g8fLC4+fuQeUfVDnm025Und7
-ejizMr7kJbb1wEKXIBGToDn80tAED+bH3DVIIP9HQW5NjJKLyX3E52fq1i6G6jPM
-ltmjaZ9DBbYnzIdet5YzIj8sVevK3SJgeCRiKvH7L7EpFKOcgX86w5qq8z55I6pw
-Xrfwuw1UorvGVIcNGAX4roa/POstGg==
-=o+6B
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmImbRMACgkQJNaLcl1U
+h9BBuQf9GQiIdjCGnKdNaQbxOxa3dFiPDL3GBD2JFFejKCfIpfKJ+9jdFRCC1SZt
+5s1DGd4KoUgQe6IeT0GCE90+V+M3x+uO0f8EhgGuDaTl0RG2nbzzuw77Ss6HNUZ5
+Lul4JQfNIaB8dmc7W1zM0RbujrLAWRKta8kwfGooznpkdGB9bzXrfiLh0r5n/Xy0
+p7FIaGpt3CezedQjSCXgaXnbxWZc/3cmg77f7iZ2hQpokB/rPGw8v96+coYBz+Gs
+u0/csDXPIkbEVyHw+8XTvTJoobmsfZUAdkXz6Kmi9jFV8G79+SeIDbrtpKofx2VR
+YoEKttyQ5aSr2gRlhdGlVmbRfenPnw==
+=on/Z
 -----END PGP SIGNATURE-----
 
---===============2588196529515238862==--
+--===============5721321704703023299==--
