@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5390684754943802937=="
+Content-Type: multipart/mixed; boundary="===============4629239094015472075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 07 Mar 2022 20:37:10 -0000
-Message-Id: <164668543072.2963.11633191353804467864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Mar 2022 20:37:17 -0000
+Message-Id: <164668543754.3050.3817794635777205054@gitolite.kernel.org>
 
---===============5390684754943802937==
+--===============4629239094015472075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: b7fb0ae09009d076964afe4c1a2bde1ee2bd88a9
     new: 5e02fb590e83684f63217f93a9cdeabd6a925f9c
     log: |
@@ -24,37 +24,37 @@ changes:
          16639d39bdf577168d3fe34315917a94365c8d19 ASoC: cs35l41: Fix max number of TX channels
          5e02fb590e83684f63217f93a9cdeabd6a925f9c ASoC: cs35l41: Fix DSP mbox start command and global enable order
          
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 8f2b025abc31bc15d38657d1286d7470bbbd5efa
     new: 9fce18ab0bc20fd7c00c6bc880ed7aaea655918b
     log: revlist-8f2b025abc31-9fce18ab0bc2.txt
 
---===============5390684754943802937==
+--===============4629239094015472075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646685428 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1646685428-450a0ef5e5994d8f0af2588d03f77ee551c01c5b
+pusher C3F436CA30F5D8EB 1646685435 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646685434-8dd19cd237a16b14fbde79ef44110e95f72d8822
 
-b7fb0ae09009d076964afe4c1a2bde1ee2bd88a9 5e02fb590e83684f63217f93a9cdeabd6a925f9c refs/heads/for-5.17
-8f2b025abc31bc15d38657d1286d7470bbbd5efa 9fce18ab0bc20fd7c00c6bc880ed7aaea655918b refs/heads/for-5.18
+b7fb0ae09009d076964afe4c1a2bde1ee2bd88a9 5e02fb590e83684f63217f93a9cdeabd6a925f9c refs/heads/asoc-5.17
+8f2b025abc31bc15d38657d1286d7470bbbd5efa 9fce18ab0bc20fd7c00c6bc880ed7aaea655918b refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmImbPQACgkQJNaLcl1U
-h9ATYwf+ItQXcHeSFjHsrVI6cmLjot5NFa/jDHUWK7Q2vwF2NnoUMpV28NcBh3DO
-H3znMMMTX+bMTwfTbtyt+GlEVfOWeqF6LVwzAHHCiv+E90G9mBjfP+OvOrU/DFJv
-JcZzS+6HNHzFtD3Gv2uUznntQHmP86/Ki20QVNcgQTGobR62uccWBeOUlsPE2PQX
-CqTkWHifeW6rz6DR6EkpUuwnRkbLlzwY99Epy+AWSkuej3T/onhAfpZjRstmxrtF
-CisS7caGhbGB3wQWO1ormy0yf6VfgRZjY0GdcerOZAH0F0LCtalkZZmcXiJ8AYn4
-hOlXOMs8vz0uklsasr4DdkdBvMEtXA==
-=BOqV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmImbPsACgkQJNaLcl1U
+h9CCXQf6A+hEFwHhTFxLNCn0NNvyh23qoakNMKwZacvv1ng4bv1ISIhPzgDU2R2w
++ZNpwxi+lSuyHoHPZJdSzfTxt0xEdm3kAmKOpnb7jNlBraWaX5hM2aXNEuuv9tWh
+5b9KOivNa1D/fhJFgxE6TndaN0Zd8yF/5Q1Idgku2rduWZPwNoKGfmSmQquspXwJ
+Bvk1s+q7qZy1hqmj82j+I49VboEGCEZqLsOA9yJAK2vrwFMR7MNh5oeczNnaX+V1
+MPHqB19BpkmU39gBM7PylUrdki7K6G2RYwN7VI+AjpogDE/MPEgFsr5PWNahKEyo
+7jo7frTpb4zidLQ9dfCm87xYn853kQ==
+=+ezG
 -----END PGP SIGNATURE-----
 
---===============5390684754943802937==
+--===============4629239094015472075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -103,4 +103,4 @@ fc14fac286a05d36202f8114d00a9935ca2e0756 ASoC: codecs: Add Awinic AW8738 audio a
 5e36946abcfb566bd8126caba62389d79415ca2b ASoC: SOF: updates for 5.18
 9fce18ab0bc20fd7c00c6bc880ed7aaea655918b ASoC: fsl_sai: Cleanups and 1:1 bclk:mclk ratio support
 
---===============5390684754943802937==--
+--===============4629239094015472075==--
