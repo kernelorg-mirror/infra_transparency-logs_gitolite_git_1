@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6896996138391508020=="
+Content-Type: multipart/mixed; boundary="===============3734702601132614198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Mar 2022 10:55:58 -0000
-Message-Id: <164665055877.11007.1216680147198778729@gitolite.kernel.org>
+Date: Mon, 07 Mar 2022 10:56:35 -0000
+Message-Id: <164665059594.11259.12276687511309540000@gitolite.kernel.org>
 
---===============6896996138391508020==
+--===============3734702601132614198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5ff519ee9a5aa7daddbd28200d3f71b649c13358
-    new: 46c5118e55c98936e6a433c7b1554dfc36b7cad1
-    log: revlist-5ff519ee9a5a-46c5118e55c9.txt
+  - ref: refs/heads/m68k-queue
+    old: 66b9a5f97eddb1b92556ead57ad66ef951e42fd6
+    new: 30f574286ceea11dd822910a441155a4c14e9a16
+    log: revlist-66b9a5f97edd-30f574286cee.txt
 
---===============6896996138391508020==
+--===============3734702601132614198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ff519ee9a5a-46c5118e55c9.txt
+Content-Disposition: attachment; filename=revlist-66b9a5f97edd-30f574286cee.txt
 
 2ddd96aadbd0412040ef49eda94549c32de6c92c arm64: dts: rockchip: fix dma-controller node names on rk356x
 85a8bccfa945680dc561f06b65ea01341d2033fc arm64: dts: rockchip: drop pclk_xpcs from gmac0 on rk3568
@@ -300,6 +300,10 @@ f40a33f5ea54c01d640b150eb63e94defeb9b614 Merge tag 'trace-v5.17-rc5' of git://gi
 f81664f760046ac9b5731d9340f9e48e70ea7c8d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 3ee65c0f0778b8fa95381cd7676cde2c03e0f889 Merge tag 'for-5.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2 Linux 5.17-rc7
-46c5118e55c98936e6a433c7b1554dfc36b7cad1 Merge tag 'v5.17-rc7'
+35647f9f16ed3b1dc0ccdc0ea3262b08f411d8d0 m68k: Add asm/config.h
+08deb485ea7671b617f42bf4a8eba1bd9ebc95ae m68k: mm: Remove check for VM_IO to fix deferred I/O
+8499d905fd68df91115f86e38cecfad52869bd62 m68k: atari: usb: Add ISP1160 USB host controller support
+2264f06a33f6cf5644e68663e86db6a3236f8960 m68k: atari: Update Kconfig.bus help text
+30f574286ceea11dd822910a441155a4c14e9a16 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6896996138391508020==--
+--===============3734702601132614198==--
