@@ -1,19 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 07 Mar 2022 13:25:18 -0000
-Message-Id: <164665951834.11923.16518229599366823224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/mst/qemu
+Date: Mon, 07 Mar 2022 13:43:07 -0000
+Message-Id: <164666058728.22012.9683407022566809056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/virt/kvm/mst/qemu
+user: mst
 changes:
-  - ref: refs/heads/for-next
-    old: 4f01d09b2bbfbcb47b3eb305560a7f4857a32260
-    new: a58c22cfbbf62fefca090334bbd35fd132e92a23
+  - ref: refs/heads/next
+    old: 41d137fc631bd9315ff84727d780757d25054c58
+    new: f28d793bc19455bc4fe0a1c637fbe8e3b62c149c
     log: |
-         a58c22cfbbf62fefca090334bbd35fd132e92a23 video: fbdev: omapfb: Add missing of_node_put() in dvic_probe_of
+         b12b36b6e39b49f5c2ed5ec8f788159ab3fb8a23 virtio: drop name parameter for virtio_init()
+         765c551817a6af4bcebfe2ac389351f44a7bd480 virtio: add vhost support for virtio devices
+         ae0f9863fe098f24d6d84c76963ed1f08466e098 qmp: add QMP command x-query-virtio
+         8381eb8c4e21bc09fe99e5ce22cfdf69224da38f qmp: add QMP command x-query-virtio-status
+         371bfea0fe5b12925117cd3fdc1d397706f88b68 qmp: decode feature & status bits in virtio-status
+         e4331ad9fd5fd61be22a6fcf828b0243f3f6d786 qmp: add QMP commands for virtio/vhost queue-status
+         2f3c6ca274d4fc1f0f07fc08fbac1bc171a4246b qmp: add QMP command x-query-virtio-queue-element
+         f28d793bc19455bc4fe0a1c637fbe8e3b62c149c hmp: add virtio commands
+         
+  - ref: refs/heads/pci
+    old: 41d137fc631bd9315ff84727d780757d25054c58
+    new: f28d793bc19455bc4fe0a1c637fbe8e3b62c149c
+    log: |
+         b12b36b6e39b49f5c2ed5ec8f788159ab3fb8a23 virtio: drop name parameter for virtio_init()
+         765c551817a6af4bcebfe2ac389351f44a7bd480 virtio: add vhost support for virtio devices
+         ae0f9863fe098f24d6d84c76963ed1f08466e098 qmp: add QMP command x-query-virtio
+         8381eb8c4e21bc09fe99e5ce22cfdf69224da38f qmp: add QMP command x-query-virtio-status
+         371bfea0fe5b12925117cd3fdc1d397706f88b68 qmp: decode feature & status bits in virtio-status
+         e4331ad9fd5fd61be22a6fcf828b0243f3f6d786 qmp: add QMP commands for virtio/vhost queue-status
+         2f3c6ca274d4fc1f0f07fc08fbac1bc171a4246b qmp: add QMP command x-query-virtio-queue-element
+         f28d793bc19455bc4fe0a1c637fbe8e3b62c149c hmp: add virtio commands
          
