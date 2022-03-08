@@ -1,51 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============4779820262290706154=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Tue, 08 Mar 2022 11:52:15 -0000
-Message-Id: <164674033563.25082.7874881991244286870@gitolite.kernel.org>
-
---===============4779820262290706154==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 08 Mar 2022 12:02:06 -0000
+Message-Id: <164674092611.31223.7047894799957825750@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/devel
-    old: c150ef7052d9838c9e4d15e058c979c211247a47
-    new: e79884a07983085319df4e791d8558b83f160f2b
-    log: revlist-c150ef7052d9-e79884a07983.txt
-
---===============4779820262290706154==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c150ef7052d9-e79884a07983.txt
-
-8a71bea82e2ff1c584d8d6d1496ae8beb7292bcb serial: samsung_tty: do not unlock port->lock for uart_write_wakeup()
-90462adf92f9d94e30207a252bfdff5e0ce4de14 tty: serial: serial_txx9: remove struct uart_txx9_port
-08835492ee4a23fccbae1e8ec7058a5e7a0533f8 tty: serial: owl-uart, send x_char even if stopped
-2ffd5d4cc855016a9cd1eeee2f7bb8eca1f4a168 tty: serial, add uart_port_tx helper
-adc1f7b9234b2c628f3eda8d02f826b2ae987c6c tty: serial, use uart_port_tx
-f623e5926838c7310ee760b7b91780f186b319b8 tty: serial, use uart_port_tx_limit
-62dc2e5cd677d3111046b22961ff0f1022b299e7 drm/i915: remove circ_buf.h includes
-5d7da93278bcc8a01f2b827f22073e346925f5e3 perf: don't install headers with x permissions
-031af87aaedd69034b69ad5b4859bd124cc33e6d perf: remove shebang from scripts/{perl,python}/*.{pl,py}
-f1590e0331c08c7553722b316a25a82c61443dc4 mxser: less tty, more termios
-3afbb70d02f3a9bd0efd6dee061ea625962eb1c1 mxser: add to_mport helper
-bc4d2676e6e484af8684e02a2a8690f0de482257 mxser: use lock from uart_port
-a8846e9ca63589582beb600d6651182af9cd85ec mxser: use iobase from uart_port
-ab730ac0cda93c8d65dba92514265f766be0ce7c mxser: use type from uart_port
-0bb40fa2f3577c3b694c85bb8fce78b09e7105b5 mxser: use x_char from uart_port
-4f403069a93474939de894b507c37d6a9d08266a mxser: use icount from uart_port
-0aa41ad28634ab2de72b9258af459d78bf863a4e mxser: use timeout from uart_port
-22d6033479fbc1c1179131696c3c50f6d4e80343 mxser: use status masks from uart_port
-35aedfac871fe3c9a6a8ff2b5c389570d4bb4002 mxser: use fifosize from uart_port
-6e0eb00b3a006f0fcd77d20acb0dfe8617c50af9 mxser: use hw_stopped from uart_port
-e79884a07983085319df4e791d8558b83f160f2b mxser: switch to uart_driver
-
---===============4779820262290706154==--
+  - ref: refs/heads/for-next/misc
+    old: 90527221b7adb409c6e9a0b11d3336cf14723c6e
+    new: 819a47d24b61b5e2d660d19c8798f0f9b4498b73
+    log: |
+         031495635b4668f94e964e037ca93d0d38bfde58 arm64: Do not defer reserve_crashkernel() for platforms with no DMA memory zones
+         ee94b5a061b121305cae8ff46b7fa8325aa84b12 arm64: drop unused includes of <linux/personality.h>
+         819a47d24b61b5e2d660d19c8798f0f9b4498b73 arm64: clean up tools Makefile
+         
+  - ref: refs/heads/for-next/perf
+    old: 95ed57c73bbcffa02cbb1d61c19484c2ec6de094
+    new: f00f3674873bb4ca4984aa3c440f3b0087a3677e
+    log: |
+         205295c7e1abba9c1db1f9fe075f22f71351887f perf/arm-cmn: Hide XP PUB events for CMN-600
+         31fac565773981df43f018b2dbfbc7a3164f4b6c perf/arm-cmn: Update watchpoint format
+         805bbdf28b271ed82b204cfd58b6eb456462ea49 dt-bindings: perf: marvell: cn10k ddr performance monitor
+         7cf83e222bce0f135f9c2714a49623cbb9fbde29 perf/marvell: CN10k DDR performance monitor support
+         35a43326a9e3c229254fd531dfc711d20897d0fc perf/marvell: cn10k DDR perfmon event overflow handling
+         68fa55f0e05ce371c4b5de7932d9f570d61bf791 perf/marvell: cn10k DDR perf event core ownership
+         83f83cc0c1379413fb1199a78f91ab441a7e76fd arm64: perf: Expose some Armv9 common events under sysfs
+         f00f3674873bb4ca4984aa3c440f3b0087a3677e arm64: perf: Consistently make all event numbers as 16-bits
+         
+  - ref: refs/heads/for-next/perf-m1
+    old: 0000000000000000000000000000000000000000
+    new: 0cafbc1549ce501f8a4529b6780638e9b50393f4
