@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6899365311769202411=="
+Content-Type: multipart/mixed; boundary="===============2744832516052292327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 08 Mar 2022 20:07:56 -0000
-Message-Id: <164677007653.16061.6423489875722422625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Mar 2022 20:08:02 -0000
+Message-Id: <164677008279.16176.2583012745408854781@gitolite.kernel.org>
 
---===============6899365311769202411==
+--===============2744832516052292327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: c8a7fae5941739074d363dbd8b92745d8e7827b1
     new: 87fee8d0911fd8a4e88892aa79c7aeef845d8454
     log: revlist-c8a7fae59417-87fee8d0911f.txt
 
---===============6899365311769202411==
+--===============2744832516052292327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646770074 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1646770074-fd8d49acc96e4a785473b3b54958389ff3d0b1ed
+pusher C3F436CA30F5D8EB 1646770081 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646770080-77c42617cc9c6fb98838f5f12ca4b44403906a89
 
-c8a7fae5941739074d363dbd8b92745d8e7827b1 87fee8d0911fd8a4e88892aa79c7aeef845d8454 refs/heads/for-5.18
+c8a7fae5941739074d363dbd8b92745d8e7827b1 87fee8d0911fd8a4e88892aa79c7aeef845d8454 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInt5oACgkQJNaLcl1U
-h9AGcQf/SxeJh/yZFZ68LgNYZAW78JkuAP+re/bCV+0DIbDU/jYtl4jjeLbgVQG9
-b/TyEAWLn8K7uTMRxExIfGZsBxRjc7nHdjSzekeg1ucmONBT92wxjh9w0PoRcRXO
-LMn0SglOxvlAnMzYWNpZj5RgYJ1fhyJnkjACHcV3nPO4pPLr+xYNL205vrjE9Uj/
-8o8EgzrMlnoCPivr99KwpxkcMvQRK98WKsJ0yhHvcEU+hyySOkyPFhqlww3fgqZI
-fWoYIj2gTJ46AaETCDUutg1kVbqUcUO1dJFhY3RDOqjAFDgCS6gq80NLZT1qW3xB
-ENpSewUeh7/sDPaMQF7SLQCjXtzoXA==
-=ZEe5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInt6EACgkQJNaLcl1U
+h9CzFAf/UCI1ab0E/nueFWQ6DQt/Lwr7R/VhL6oRPBB7DOWZhmob978Bl5XIXmTY
+Qyyb0widyzgtobccaTVboBz+0JPtIhmUA+UqBkY50iVe79FFePFkG+UDW7a2o2Xk
+0CzVZxfbhSimVbriESsLCsGeu5h0BGydsUtoPno0g5+Da6t5dwqI70MxIiFOg2aV
+n+aSel9+7eclyMDQ5C+8ofL/2Cjph/uA7ga8yJQeL3+CjWLnN4WRC+wn2iYYkwN+
+xXDe9VhN4E10GtCVtse/aBKpS9zNKyL8n8ks4pKLn1SNCutUAC0MkclpFQJf5jts
+L5LJ/YZ12jq6v1qCJQ2LSrdUiEyzFw==
+=wA7G
 -----END PGP SIGNATURE-----
 
---===============6899365311769202411==
+--===============2744832516052292327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ ed6e9aa8f52f88975b4692eb00bdeaf35cd3d529 dt-bindings: mfd: maxim,max14577: Conve
 4ebb15a15799da4954f1d4926fcd3263ea46e417 spi: s3c64xx: Add spi port configuration for Tesla FSD SoC
 87fee8d0911fd8a4e88892aa79c7aeef845d8454 spi: Tesla FSD support
 
---===============6899365311769202411==--
+--===============2744832516052292327==--
