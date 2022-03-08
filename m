@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1816718587548394325=="
+Content-Type: multipart/mixed; boundary="===============3112973266036148850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 08 Mar 2022 14:26:17 -0000
-Message-Id: <164674957729.29183.4301220233572777673@gitolite.kernel.org>
+Date: Tue, 08 Mar 2022 14:26:33 -0000
+Message-Id: <164674959308.29365.17905142073906112769@gitolite.kernel.org>
 
---===============1816718587548394325==
+--===============3112973266036148850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: a66320f041601309f1885bcb52e27e0c2f72079b
     new: 7b03446f992d9e0ddf5f5b80c2899a08bc406e99
     log: revlist-a66320f04160-7b03446f992d.txt
 
---===============1816718587548394325==
+--===============3112973266036148850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -343,4 +343,4 @@ c96fbdb64056cf7e9671a1da65ec65d74a6b4ba0 Merge core/core into tip/master
 0e1fda8932116911cb0bad5042f70da0050614a7 Merge timers/core into tip/master
 7b03446f992d9e0ddf5f5b80c2899a08bc406e99 Merge x86/urgent into tip/master
 
---===============1816718587548394325==--
+--===============3112973266036148850==--
