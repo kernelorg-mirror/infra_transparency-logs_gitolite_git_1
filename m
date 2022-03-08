@@ -1,50 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============5824778776583629262=="
+Content-Type: multipart/mixed; boundary="===============6899365311769202411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Mar 2022 20:07:50 -0000
-Message-Id: <164677007023.15940.11233732573516392850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 08 Mar 2022 20:07:56 -0000
+Message-Id: <164677007653.16061.6423489875722422625@gitolite.kernel.org>
 
---===============5824778776583629262==
+--===============6899365311769202411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.18
-    old: bbc7ba0fa06ab4aee26969a9454ca32e4a8fcb1c
-    new: 2594703044ad2ef7ea7d463bf2cf82a13f7fc266
-    log: |
-         2594703044ad2ef7ea7d463bf2cf82a13f7fc266 regulator: Convert TPS62360 binding to json-schema
-         
+  - ref: refs/heads/for-5.18
+    old: c8a7fae5941739074d363dbd8b92745d8e7827b1
+    new: 87fee8d0911fd8a4e88892aa79c7aeef845d8454
+    log: revlist-c8a7fae59417-87fee8d0911f.txt
 
---===============5824778776583629262==
+--===============6899365311769202411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646770068 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1646770068-fb3e2cd4127fa7a8b8b2480e7188f05eccad56e6
+pusher C3F436CA30F5D8EB 1646770074 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1646770074-fd8d49acc96e4a785473b3b54958389ff3d0b1ed
 
-bbc7ba0fa06ab4aee26969a9454ca32e4a8fcb1c 2594703044ad2ef7ea7d463bf2cf82a13f7fc266 refs/heads/regulator-5.18
+c8a7fae5941739074d363dbd8b92745d8e7827b1 87fee8d0911fd8a4e88892aa79c7aeef845d8454 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInt5QACgkQJNaLcl1U
-h9DcQgf9FvyEecsJr17urRvki51OFsQpW5wcYP6DNWklUiqOYQzwzKfZDFYL5A7M
-Y3djZW/YnRhZ6TmGrJ7c3piM6GrxzDHrOxcx0MKwqXGSfDtcwdTZ0z2FgwOB7cJg
-HYoK8G2+SzgA/RHZV6jJuswYYzW95/Vn2cYzEN5gdJKD1vk0v7H7SBW5ctA8ziBh
-PlqtR5F6uJdwHqzY6R5MWeHjnEj0a99RI9v45KlT6QSqkcIySthyq8RRabZtu+XB
-jzsQ3bPLe50oVtICsBuE1Tehg3GdJQ1Ff8uJjoZPqv5buZ2fRpPcV5hHeIzB40hB
-itL3CD5PvuD1a93Kv2DUlfFfS+0Ezw==
-=hD3x
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInt5oACgkQJNaLcl1U
+h9AGcQf/SxeJh/yZFZ68LgNYZAW78JkuAP+re/bCV+0DIbDU/jYtl4jjeLbgVQG9
+b/TyEAWLn8K7uTMRxExIfGZsBxRjc7nHdjSzekeg1ucmONBT92wxjh9w0PoRcRXO
+LMn0SglOxvlAnMzYWNpZj5RgYJ1fhyJnkjACHcV3nPO4pPLr+xYNL205vrjE9Uj/
+8o8EgzrMlnoCPivr99KwpxkcMvQRK98WKsJ0yhHvcEU+hyySOkyPFhqlww3fgqZI
+fWoYIj2gTJ46AaETCDUutg1kVbqUcUO1dJFhY3RDOqjAFDgCS6gq80NLZT1qW3xB
+ENpSewUeh7/sDPaMQF7SLQCjXtzoXA==
+=ZEe5
 -----END PGP SIGNATURE-----
 
---===============5824778776583629262==--
+--===============6899365311769202411==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c8a7fae59417-87fee8d0911f.txt
+
+9729cad0278b4fdde172bb7b5da65bd1a0e0fb8b dt-bindings: extcon: maxim,max77843: Add MAX77843 bindings
+77357c50e4003f38e3e058fa64ae5e84dec414a3 regulator: dt-bindings: maxim,max77843: Add MAX77843 bindings
+4fddb6211da1749a5fb683a33d7d4890d1290b1b dt-bindings: mfd: maxim,max77843: Add MAX77843 bindings
+04732ff2a1f0f4c37164a788af2a69a01d6c6191 MAINTAINERS: mfd: Cover MAX77843 by Maxim PMIC/MUIC for Exynos boards entry
+0ff4827ed66f3cdb9d4f5cfad4a3c211215ff4f0 spi: dt-bindings: samsung: Convert to dtschema
+f412fe11c1a9d815565f3918c56f3fd02167c734 mfd: dt-bindings: google,cros-ec: Reference Samsung SPI bindings
+96f06006a3505287b37ba19d4e50e504ac5b6a50 mfd: dt-bindings: google,cros-ec: Fix indentation in example
+7db7a24657c969291921d6580d62748b1320dd2f spi: s3c64xx: Allow controller-data to be optional
+ce44e3aeec43a887a7999f4e0e50df1e4557af78 dt-bindings: power: supply: maxim,max14577: Convert to dtschema
+e1cd4265e547e02efc2a2547e8f390a7a9041787 regulator: dt-bindings: maxim,max14577: Convert to dtschema
+ed6e9aa8f52f88975b4692eb00bdeaf35cd3d529 dt-bindings: mfd: maxim,max14577: Convert to dtschema
+6b9d48b418fbc91ae8dbcba2cfe078c4736a77f2 regulator: dt-bindings: maxim,max77802: Convert to dtschema
+172e611b54e813c49a35b6b74bccaa99f27bf566 dt-bindings: mfd: maxim,max77802: Convert to dtschema
+363d3c51bc5b3243b5b035a1f50d6d994a1b203f spi: dt-bindings: samsung: Add fsd spi compatible
+4ebb15a15799da4954f1d4926fcd3263ea46e417 spi: s3c64xx: Add spi port configuration for Tesla FSD SoC
+87fee8d0911fd8a4e88892aa79c7aeef845d8454 spi: Tesla FSD support
+
+--===============6899365311769202411==--
