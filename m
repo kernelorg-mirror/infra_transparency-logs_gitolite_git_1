@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6038742582464204507=="
+Content-Type: multipart/mixed; boundary="===============9036820856988287692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 08 Mar 2022 05:15:30 -0000
-Message-Id: <164671653011.20215.8173033284365696667@gitolite.kernel.org>
+Date: Tue, 08 Mar 2022 05:33:24 -0000
+Message-Id: <164671760462.30401.2108947422093602992@gitolite.kernel.org>
 
---===============6038742582464204507==
+--===============9036820856988287692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
-    new: ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2
-    log: revlist-0fcfb00b28c0-ffb217a13a2e.txt
+  - ref: refs/heads/devfreq-testing
+    old: 5857e3d1820d85e10321ec180ed88e780fd0ec3e
+    new: 3439b6e7ff5704e4f812af746da9f06a6403d796
+    log: revlist-5857e3d1820d-3439b6e7ff57.txt
 
---===============6038742582464204507==
+--===============9036820856988287692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fcfb00b28c0-ffb217a13a2e.txt
+Content-Disposition: attachment; filename=revlist-5857e3d1820d-3439b6e7ff57.txt
 
-05b5a9d6285412d97fc61b8ec113d1d4f6b950c2 perf tools: Apply correct label to user/kernel symbols in branch mode
-b2b1aa73ade982c175ac926a1fd34e76ad628b94 perf stat: Fix display of grouped aliased events
-4f2492731ada9d702ffdfaa6ec1ff64820a1664c tools include UAPI: Sync sound/asound.h copy with the kernel sources
-407eb43ae87c969d98746c3274ae5d0f977b102e libperf: Add arm64 support to perf_mmap__read_self()
 a0572cea8866230ac13da6358c88075f89e99b20 bus: mhi: pci_generic: Add mru_default for Foxconn SDX55
 05daa805a86c831ad9692f6f15e1b877c8f10638 bus: mhi: pci_generic: Add mru_default for Cinterion MV31-W
 fceb62124d8fe1f6fb4b64e8f11c095dca8e7ea7 perf ftrace: system_wide collection is not effective by default
@@ -1050,5 +1046,9 @@ f40a33f5ea54c01d640b150eb63e94defeb9b614 Merge tag 'trace-v5.17-rc5' of git://gi
 f81664f760046ac9b5731d9340f9e48e70ea7c8d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 3ee65c0f0778b8fa95381cd7676cde2c03e0f889 Merge tag 'for-5.17-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2 Linux 5.17-rc7
+c7c3c9c32e74dab4be409e5506f619a06f978d92 PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
+ae763e5ef1bcfccbf95119180ee716637b7bb353 PM / devfreq: Add cpu based scaling support to passive governor
+29ffb69ff8b4bbdd1e7716e1a517e64647cc91b0 PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
+3439b6e7ff5704e4f812af746da9f06a6403d796 PM / devfreq: passive: Update frequency when start governor
 
---===============6038742582464204507==--
+--===============9036820856988287692==--
