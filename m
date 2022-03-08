@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2922754899115442503=="
+Content-Type: multipart/mixed; boundary="===============8471082323535440730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 08 Mar 2022 17:19:33 -0000
-Message-Id: <164675997317.15275.2702716526086768171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 08 Mar 2022 17:19:39 -0000
+Message-Id: <164675997965.15360.12479964727864917959@gitolite.kernel.org>
 
---===============2922754899115442503==
+--===============8471082323535440730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 9fce18ab0bc20fd7c00c6bc880ed7aaea655918b
     new: 73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8
     log: revlist-9fce18ab0bc2-73d9cf7ca121.txt
 
---===============2922754899115442503==
+--===============8471082323535440730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646759971 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1646759970-e11ad5d080fcaf62741a6a8a6910d2e1d4a6fded
+pusher C3F436CA30F5D8EB 1646759977 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646759977-6046434e4d54df654c0226ef4b2f1dc99f564d5f
 
-9fce18ab0bc20fd7c00c6bc880ed7aaea655918b 73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8 refs/heads/for-5.18
+9fce18ab0bc20fd7c00c6bc880ed7aaea655918b 73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInkCMACgkQJNaLcl1U
-h9BZmgf/f0HVC0wQK5PqOU5U893P1IHKVJNa2JA+IQibqUvwkBf5HM3/hJhAkA5c
-PFKgZyigecC5qWJu0IujRJZcRGr0DffTAhci7AMcfpQPrlDxMPYNu3pgyhSun5Lb
-R3E/x+1xJBVYdIuNfWHvUAKBuLcIiWFSeyPAi2GPgz8UWINSsU26ni1AJ/rYDSZv
-3g5R7bH5cBygUZGwsdK7o7bVB3IH4An5EKPbD1OWdnH4pf0APsvgj9zgLqtJ3chJ
-0JIOYrYwuX45nV779cmZnsqM39O4AQOL/U/R6H+vwXucMZcm3BlTCQjjUgkyOEKl
-EjeCdZTchiv5bzgNYgWTno4wP8CX9Q==
-=20i8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmInkCkACgkQJNaLcl1U
+h9DCcQf/atGS3IWXs6zpNSg9LaIOwhqECEhLuYefS+gOgL4URhyM5ZV44TAUGTfG
+VacAY6YClgr7Lr1FhxcqWxqMGmKF1DrMUkZp5U3WqBR512SNnOPNQxnZvPV7H3TK
+/0Ka5auZev8KuxxmILKfQJEl3h3IfZcT5Jwt3GaA6PnLqfBSfNauexR2yKEPgcFJ
+pYgNuxeMfJP507s8eslS8OqHXi1/zYTZw/DmKRySVATyuxD/75SYUgU1Z7OnaKH/
+FULme0S/0AzbfgC0g91+uQ0Xy5RrD9o/NRvgh1R9Opo1LlwB/R9EPlXGbnrRmMXc
+CMF8PfVBZ/v5PUydBJrFQQ9I9uHnJw==
+=8WdM
 -----END PGP SIGNATURE-----
 
---===============2922754899115442503==
+--===============8471082323535440730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ a6b44a2518a08348bd0f0401e4d2b99233bbabc2 ASoC: rk817: Fix missing clk_disable_un
 6b1b0f7d7d65e6a15b5e5e05cd66a924474e3e64 Add driver for SAMA7G5's PDMC
 73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8 Clean ups and preparation for IPC abstraction in the SOF driver
 
---===============2922754899115442503==--
+--===============8471082323535440730==--
