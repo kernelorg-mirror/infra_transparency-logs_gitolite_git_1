@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 08 Mar 2022 19:24:09 -0000
-Message-Id: <164676744938.16419.14334552457940727398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 08 Mar 2022 19:25:01 -0000
+Message-Id: <164676750152.16829.13116066058847519411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dt/linus
-    old: f6eafa4022dd61e029205bea4d4147d26e69fef2
-    new: 96435a394261e2f3df230b49864cfbf000e754f5
+  - ref: refs/heads/master
+    old: 554fcb7d89a554933bedeeb1b9a616da91b7cc75
+    new: b69b5736c8a1f52b3f92f44ea1ed52e558cba7fb
     log: |
-         96435a394261e2f3df230b49864cfbf000e754f5 dt-bindings: firmware: arm,scpi: Add missing maxItems to mboxes/shmem
+         b69b5736c8a1f52b3f92f44ea1ed52e558cba7fb audio: Fix crash in a2dp_discover
          
-  - ref: refs/tags/devicetree-fixes-for-5.17-3
-    old: 0000000000000000000000000000000000000000
-    new: 463ee0f56dee9754305d92b0b88b78c271d4a812
