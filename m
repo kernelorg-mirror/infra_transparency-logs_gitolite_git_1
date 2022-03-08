@@ -1,16 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 08 Mar 2022 02:18:34 -0000
-Message-Id: <164670591494.3093.17788764660324734407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 08 Mar 2022 05:14:33 -0000
+Message-Id: <164671647392.17601.16706725615846398753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/tags/extcon-next-for-5.18
+  - ref: refs/tags/v5.16
     old: 0000000000000000000000000000000000000000
-    new: 5c19913ef3a27d7be21c7b75f795cfb6a0747723
+    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
+  - ref: refs/tags/v5.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
+  - ref: refs/tags/v5.16-rc8
+    old: 0000000000000000000000000000000000000000
+    new: da629478930871e4c9a51c56ad86078f10b83f9f
+  - ref: refs/tags/v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/tags/v5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
+  - ref: refs/tags/v5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
+  - ref: refs/tags/v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/tags/v5.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: fb245665706076547ba72af611b41bc38c3ab73a
+  - ref: refs/tags/v5.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/tags/v5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
