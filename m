@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Tue, 08 Mar 2022 14:24:25 -0000
-Message-Id: <164674946571.27089.18140425734798921187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 08 Mar 2022 14:24:57 -0000
+Message-Id: <164674949750.27311.10282856364372850593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/fuse-fixes-5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 34bd2289ff59f7c1ae5482897f96dfff23bd96fc
+  - ref: refs/heads/master
+    old: 6c43a920a5cd26511059751f594c3ac05f9a6125
+    new: d307eab593b283849c13703ca3fd6a5b3908d6f8
+    log: |
+         64807c2321512f67959e51f09e302c145c336184 net: phy: exported the genphy_read_master_slave function
+         f1f3a674261e08f318a4bbe06391874ffdd9383f net: phy: lan87xx: use genphy_read_master_slave in read_status
+         d307eab593b283849c13703ca3fd6a5b3908d6f8 Merge branch 'net-phy-lan87xx-use-genphy_read_master_slave-function'
+         
