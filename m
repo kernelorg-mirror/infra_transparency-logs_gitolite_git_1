@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 08 Mar 2022 23:31:11 -0000
-Message-Id: <164678227190.9375.10609487216906985177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 08 Mar 2022 23:42:49 -0000
+Message-Id: <164678296998.16183.15825432946378207398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/rtc-next
-    old: df02071fd3fb8228a0996758a251994e61df04cc
-    new: 5e086367298dfaa1617885e797c8a58873365f03
+  - ref: refs/heads/master
+    old: dc44588f2e445edd7a4ca7dc9bf05bb3b4b2789e
+    new: a24ef2702e2c1b948df37080eb3f18cca60d414b
     log: |
-         5e086367298dfaa1617885e797c8a58873365f03 rtc: wm8350: Handle error for wm8350_register_irq
+         9ed87094fb97011626d274e96172c398f4841b9d - fixed typo in configure script
+         a24ef2702e2c1b948df37080eb3f18cca60d414b Merge branch 'master' of https://github.com/dpronin/fio
          
