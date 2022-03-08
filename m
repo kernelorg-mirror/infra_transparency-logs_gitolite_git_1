@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Tue, 08 Mar 2022 17:12:09 -0000
-Message-Id: <164675952996.10212.11737436429867355347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 08 Mar 2022 17:19:04 -0000
+Message-Id: <164675994451.15024.15418091305766526093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: cc6e4a3e9e0328b6c05c52c980d3d213ce41f1ef
-    new: 032884362e9e07eb89f5fbbe8326bff41fdb2fea
+  - ref: refs/heads/master
+    old: d0d793c2870082650a916c5ca120b5fd69451797
+    new: a93c2552e1ed7d66477c9cc9d42d1f0b125e7367
     log: |
-         032884362e9e07eb89f5fbbe8326bff41fdb2fea KVM: s390x: fix SCK locking
+         a93c2552e1ed7d66477c9cc9d42d1f0b125e7367 random: check for signal and try earlier when generating entropy
          
