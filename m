@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Tue, 08 Mar 2022 17:56:20 -0000
-Message-Id: <164676218028.8544.7911689458055429483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 08 Mar 2022 17:59:44 -0000
+Message-Id: <164676238461.9676.4847223315065343261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morse/linux
-user: morse
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/spectre-bhb/v5.17
+  - ref: refs/tags/thermal-v5.18-rc1
     old: 0000000000000000000000000000000000000000
-    new: 58c9a5060cb7cd529d49c93954cdafe81c1d642a
+    new: de4046414406cb6f51de70d93ebb143e7ea3e88c
