@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 08 Mar 2022 17:46:47 -0000
-Message-Id: <164676160737.2296.18433396158151917993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Tue, 08 Mar 2022 17:50:27 -0000
+Message-Id: <164676182715.4974.8108930746574277372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
+user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: a93c2552e1ed7d66477c9cc9d42d1f0b125e7367
-    new: 7d3ef61422280aa65412846935b244a2c74b827e
+  - ref: refs/heads/main
+    old: 9d0badecea4c5e85345577984a328f38c75685c3
+    new: c8d9d92544668922dc5aa06d2491f42b837b9361
     log: |
-         7d3ef61422280aa65412846935b244a2c74b827e random: check for signal and try earlier when generating entropy
+         a42dfaa46eeca2257a46a9f77d8c15bb1233d39d Revert "rdma: Fix res_print_uint() and add res_print_u64()"
+         c8d9d92544668922dc5aa06d2491f42b837b9361 rdma: Fix the logic to print unsigned int.
          
