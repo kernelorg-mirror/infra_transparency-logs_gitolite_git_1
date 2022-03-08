@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 08 Mar 2022 20:31:57 -0000
-Message-Id: <164677151738.32637.16252315750050676011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Tue, 08 Mar 2022 20:47:20 -0000
+Message-Id: <164677244062.10551.1979070071155195939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: e6142af01c9a6e4858c6add41beca2612cdced43
-    new: b26e48c6b7237130ac03a47079a6d439a7699312
+  - ref: refs/heads/hyperv-next
+    old: 1d7286729aa616772be334eb908e11f527e1e291
+    new: eeda29db98f429a3b6473117e6ce1c213ab614f2
     log: |
-         b26e48c6b7237130ac03a47079a6d439a7699312 Tue Mar  8 08:31:22 PM UTC 2022
+         eeda29db98f429a3b6473117e6ce1c213ab614f2 x86/hyperv: Output host build info as normal Windows version number
          
