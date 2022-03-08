@@ -1,214 +1,239 @@
-Content-Type: multipart/mixed; boundary="===============6546126803393184333=="
+Content-Type: multipart/mixed; boundary="===============8452484832399085082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 08 Mar 2022 18:14:13 -0000
-Message-Id: <164676325392.14555.5557720691083074325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 08 Mar 2022 18:15:34 -0000
+Message-Id: <164676333405.10994.11944328000881901520@gitolite.kernel.org>
 
---===============6546126803393184333==
+--===============8452484832399085082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/queue/5.16
-    old: 1fcf6adc160ad7a5869a382afb130fac360bb1a4
-    new: 6f2f0f7b421e70f019ec1c30607bc20197c4044c
-    log: revlist-1fcf6adc160a-6f2f0f7b421e.txt
+  - ref: refs/heads/next
+    old: 4b3deeb25d03f55d1d605c96f19e40bb89b562d1
+    new: 3458b5c2785d1687444b7e1bf4e90a07567a99cd
+    log: revlist-4b3deeb25d03-3458b5c2785d.txt
+  - ref: refs/heads/seen
+    old: 8ff6a80ebdb984b581143668db311b33817f06eb
+    new: 7e73792f9e686f01f1e9b9da7a0ea469716ebccc
+    log: revlist-8ff6a80ebdb9-7e73792f9e68.txt
 
---===============6546126803393184333==
+--===============8452484832399085082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fcf6adc160a-6f2f0f7b421e.txt
+Content-Disposition: attachment; filename=revlist-4b3deeb25d03-3458b5c2785d.txt
 
-db19a2623c8b13b7f9a39ad046a327537ca9b0be mac80211_hwsim: report NOACK frames in tx_status
-90cff4d005897c1ca1b9c14927007fb36761e16b mac80211_hwsim: initialize ieee80211_tx_info at hw_scan_work
-5b274dc4402871213d02e1c18e2852f5183129ae i2c: bcm2835: Avoid clock stretching timeouts
-9e5c5fc86ce67535df45baff218392ddc224e185 ASoC: rt5682s: do not block workqueue if card is unbound
-b10a3b1fc68206bb8db0b68e24b19312772ef065 ASoC: rt5668: do not block workqueue if card is unbound
-ef6a7edc9ba6d9814323f05000b862e26fe44ecf ASoC: rt5682: do not block workqueue if card is unbound
-4747f28bee32f2b7371b5c671776e5fe8f0f4792 regulator: core: fix false positive in regulator_late_cleanup()
-a410b495fc6a799dc3f35941b1003e6f14603554 Input: clear BTN_RIGHT/MIDDLE on buttonpads
-808b962536478f8303a3d6be8200704ac0211397 btrfs: get rid of warning on transaction commit when using flushoncommit
-bea410992b17e5241a7012f4c0cb499c9ccc5f71 KVM: arm64: vgic: Read HW interrupt pending state from the HW
-4c014267d9393876634781241b6fc2494f49885c block: loop:use kstatfs.f_bsize of backing file to set discard granularity
-db562c092b3a430a07067b2a23c8ecd11e40ae51 tipc: fix a bit overflow in tipc_crypto_key_rcv()
-75f63b712dc4c3affda49a774228ddb224972ffa cifs: do not use uninitialized data in the owner/group sid
-bfde37e0719974b995bd0ca1a64397fe48329a02 cifs: fix double free race when mount fails in cifs_get_root()
-f6c6c5223285b7ec07f3e6d2090c860ee7380c10 HID: amd_sfh: Handle amd_sfh work buffer in PM ops
-5e97bdcf6d1befd2554785796fe2bce29ddf50f8 HID: amd_sfh: Add functionality to clear interrupts
-0a546d46d59006b6f67e271543472160c0f95cbc HID: amd_sfh: Add interrupt handler to process interrupts
-0a66a09e112d978c0ba46ede34628da51a347219 cifs: modefromsids must add an ACE for authenticated users
-35256a4385fbfb550363945f4d8c96c48b3a7024 selftests/seccomp: Fix seccomp failure by adding missing headers
-52a966ae17b5dd97b6b607ae5094add01337ecde drm/amd/pm: correct UMD pstate clocks for Dimgrey Cavefish and Beige Goby
-f7def05be4f8fb35004f8ea0a47846612c301f82 selftests/ftrace: Do not trace do_softirq because of PREEMPT_RT
-e1a65b6df43d70b71d5724ab3145306a88a94549 dmaengine: shdma: Fix runtime PM imbalance on error
-a26340b9ebc6b692381a630df66ae8bf0d0393d9 i2c: cadence: allow COMPILE_TEST
-731983676837bed633c78e392f2b7aed69408062 i2c: imx: allow COMPILE_TEST
-520eac92ee3c2a8c702e205290d7fed86d7f2805 i2c: qup: allow COMPILE_TEST
-608ab77955df83012b08dad7aa04c23314a53906 net: usb: cdc_mbim: avoid altsetting toggling for Telit FN990
-62c9c532fd3808915120b6e90a7d8b5ed7031625 block-map: add __GFP_ZERO flag for alloc_page in function bio_copy_kern
-39cc73d2f36eac287195fbfbd668a88ea83bc93d usb: gadget: don't release an existing dev->buf
-75aa552db090859662d79a9aed09801b00768e3b usb: gadget: clear related members when goto fail
-14e9f58ff24fc2df498bacc3234022cafbae121c exfat: reuse exfat_inode_info variable instead of calling EXFAT_I()
-0512a1381550fd76915f056f95a9ed64371596e0 exfat: fix i_blocks for files truncated over 4 GiB
-88ff1949713cec317786d177963f37e2990bfcd1 tracing: Add test for user space strings when filtering on string pointers
-01a81a27c1bbb0d1b23a75d7f6c4fa2bd2e4688f arm64: Mark start_backtrace() notrace and NOKPROBE_SYMBOL
-4f5132f93527c98974fb3388cd75f2e8bcd91482 serial: stm32: prevent TDR register overwrite when sending x_char
-9b762408e38007da2ca1e66ef796e7e7db89352c KVM: arm64: Workaround Cortex-A510's single-step and PAC trap errata
-6519d506a227453a31bf76336062547ef25bdfa7 ext4: drop ineligible txn start stop APIs
-934c47f9a4cfe5d1a9308a9ff5f934b3b3cf7dfb ext4: simplify updating of fast commit stats
-e59534d609052cb968472b9da8745629a1a3607b ext4: fast commit may not fallback for ineligible commit
-4dcfb9b0599f8162624630093823b6f9f62400ec ext4: fast commit may miss file actions
-9d0c31dde41a12001fd6dee18c6a04e4b55ac226 sched/fair: Fix fault in reweight_entity
-ba39193aa11edad4e11473b6f2778a4c95957c88 KVM: x86: Add KVM_CAP_ENABLE_CAP to x86
-b1dec8152935bea4426eadbbefe3ed6e5210f7bb ata: pata_hpt37x: fix PCI clock detection
-2fa97f1e1d9d45220f295489554a59573daaaafa drm/amdgpu: check vm ready by amdgpu_vm->evicting flag
-917e2df31e517b9038873e4f11d8b1fcace333fd tracing: Add ustring operation to filtering string pointers
-43f77b1c3487dbe9617a63bfe1cd006992b07391 ipv6: fix skb drops in igmp6_event_query() and igmp6_event_report()
-2069c525bd0e2ad3fd5eecca953473b514648232 btrfs: defrag: bring back the old file extent search behavior
-70d7d82d6f2a57ab27ecf83a83ebecce4e52901c btrfs: defrag: don't use merged extent map for their generation check
-46559643cb0f8c41d361a5a831a2c38181e29829 ALSA: intel_hdmi: Fix reference to PCM buffer address
-506487869ea3158b693d8f784dc3adc9e4565d78 ucounts: Fix systemd LimitNPROC with private users regression
-1fc05912a6e6de11061c64b75ecfbe1e42ded8b4 binfmt_elf: Avoid total_mapping_size for ET_EXEC
-525471fb865aeaada9b5ae861a7438b22355dcf3 riscv/efi_stub: Fix get_boot_hartid_from_fdt() return value
-fa762918803a6425c914c1e8d7c8b6dc8207be67 riscv: Fix config KASAN && SPARSEMEM && !SPARSE_VMEMMAP
-485f76b1aa283c56e2177eced1c470f857feb23a riscv: Fix config KASAN && DEBUG_VIRTUAL
-d7b46a3d54362830bc13f364ee2ccae73973a84f iwlwifi: mvm: check debugfs_dir ptr before use
-332fc9e09546efe718bda1437a3dfa54959d6ede ASoC: ops: Shift tested values in snd_soc_put_volsw() by +min
-b5859e66b21d4abad50587ea3016fb1e0e732540 iommu/vt-d: Fix double list_add when enabling VMD in scalable mode
-4e1b81f0d3fb76be6f083e3e92166980298cac42 iommu/amd: Recover from event log overflow
-fbc9e8f11d46c403eb2a12498c7a7b4c788497fa drm/i915: s/JSP2/ICP2/ PCH
-f0b2bf2ce6591b7d5e2b099edeb66e65cde638ee drm/amd/display: Reduce dmesg error to a debug print
-55347bc84ebfdfacfd252f73cae317e9120de2a1 xen/netfront: destroy queues before real_num_tx_queues is zeroed
-06e718fa68b0b438e02ee5981a6ad957e936cb51 thermal: core: Fix TZ_GET_TRIP NULL pointer dereference
-607a3457da293377efa2d8003c01a08d7f55f4f8 mac80211: fix EAPoL rekey fail in 802.3 rx path
-77a7e2f1a34d61d5a41dbf551347d50f3504df52 blktrace: fix use after free for struct blk_trace
-7da601b09a8a4c6138f8e4ca019cfbcf849a1f58 ntb: intel: fix port config status offset for SPR
-f5b3f7511ef653e71b06edde99703ba81e1bc9fb mm: Consider __GFP_NOWARN flag for oversized kvmalloc() calls
-30f78a71d22a2056f7cc2b202e9bf7abd4daa9fe xfrm: fix MTU regression
-5cba586b0de1ad07a75dae2a4a441a1b127a2fe8 netfilter: fix use-after-free in __nf_register_net_hook()
-80e23b639d0a7403d9f50227ecca08959740f20e bpf, sockmap: Do not ignore orig_len parameter
-01a6fa44f4a80e2249f4a0ac77b079a93a6eaa6e xfrm: fix the if_id check in changelink
-abc65fe351d677667a9d60bf798bb2e2a05d5c30 xfrm: enforce validity of offload input flags
-2a223c1ccd3b53537e1b774ac4abeb2187eea3a8 e1000e: Correct NVM checksum verification flow
-d6f29b8c0b953fad42deda979e447a44a1904506 net: fix up skbs delta_truesize in UDP GRO frag_list
-ce4d9dd664f3a2585adad18c6597713c84acf432 netfilter: nf_queue: don't assume sk is full socket
-0cd4c901a33ea1b8ce8122415062b694e6deca88 netfilter: nf_queue: fix possible use-after-free
-1c996f82d976e18ceca16cba12bda316d835ae26 netfilter: nf_queue: handle socket prefetch
-65e840b0868cd055981563b75b643a1aa11f70e5 batman-adv: Request iflink once in batadv-on-batadv check
-ab78457642da0fd67a9cc3a65f7ebaaaa4829ce0 batman-adv: Request iflink once in batadv_get_real_netdevice
-be0a4a267b6f2486fd191fbb986ed7f40ca89fb9 batman-adv: Don't expect inter-netns unique iflink indices
-6b80c200601a33e7837af4758dfe75db24e5723e net: ipv6: ensure we call ipv6_mc_down() at most once
-73fd25a091ba163c62b2518ab19695fc0cec6d62 net: dcb: flush lingering app table entries for unregistered devices
-8dbd6659242023076ec8d1cedfb56f3e41bc18b3 net: ipa: fix a build dependency
-4060b9a538aa6dfbbcd8b43e0448e88d0e3fd38a net: ipa: add an interconnect dependency
-72b6256a1311f546a912e5f4391ed2452c0f5949 net/smc: fix connection leak
-0688d6a707f9d1e9e282c985ac70336d1a0b14a3 net/smc: fix unexpected SMC_CLC_DECL_ERR_REGRMB error generated by client
-72c74f65428ecfb73cabfe5e33241660af6df4ff net/smc: fix unexpected SMC_CLC_DECL_ERR_REGRMB error cause by server
-4e4484949abc9dd46bee2b339a517384e005e1aa btrfs: fix ENOSPC failure when attempting direct IO write into NOCOW range
-800384c01ffb5b7a0b3f5bf7d97b435b553f2dbe platform/x86: amd-pmc: Set QOS during suspend on CZN w/ timer wakeup
-2d3a2b4a8a69935a36fc89e226d4d57b0ed08a44 net: dsa: microchip: fix bridging with more than two member ports
-e30c52e32bb1cbe40a613896a452ca537cf7a194 mac80211: fix forwarded mesh frames AC & queue selection
-dc38e5691a11c7520d9efc032583818451b2b92d net: stmmac: fix return value of __setup handler
-beaeb3d4e7a84a7f3be111ec776b6b008f5986de mac80211: treat some SAE auth steps as final
-18d7cfeb16a3c1b434166b3f3be01080f07dc8bc iavf: Fix missing check for running netdev
-98e117ff5c97b64c2c5a21fe14431ceb2c9a900c net: sxgbe: fix return value of __setup handler
-fcd9c4f19883680b349b5fe1fef797924f66cd5f ibmvnic: register netdev after init of adapter
-4a5da69b7af382890a0768cb10929a104defdc31 net: arcnet: com20020: Fix null-ptr-deref in com20020pci_probe()
-d03e5863cefc770ba5be6112484b32808cf8b563 ixgbe: xsk: change !netif_carrier_ok() handling in ixgbe_xmit_zc()
-0aba2d8457d6be2e62d68d13243596845aad6bc7 iavf: Fix deadlock in iavf_reset_task
-9e22bf7c33a07019edbbada482e98554ae91b3ab efivars: Respect "block" flag in efivar_entry_set_safe()
-e10f1a1928ac72f98e53ab9fff5965f060aa3d5d auxdisplay: lcd2s: Fix lcd2s_redefine_char() feature
-d866862f9d6a0dd57d64329a0bf058f8a2ea0993 firmware: arm_scmi: Remove space in MODULE_ALIAS name
-6de5b12051cb6da8cceae63bf3ec011591877407 ASoC: cs4265: Fix the duplicated control name
-aa1f81e6e0bc7f46470dcb00b7848e03af641fad auxdisplay: lcd2s: Fix memory leak in ->remove()
-bd7db81ada262c073f4d9177e6b2625e9bb1bc69 auxdisplay: lcd2s: Use proper API to free the instance of charlcd object
-a7bf568ca7ba9bde175ce8048c01a2f38ac79249 can: gs_usb: change active_channels's type from atomic_t to u8
-3368fe546070296f3d761c7dccdaac9e2d823c39 iommu/tegra-smmu: Fix missing put_device() call in tegra_smmu_find
-f7965f210c5f2583c162d0bf589a18dc7fd4dbb5 arm64: dts: rockchip: Switch RK3399-Gru DP to SPDIF output
-c1ec48f41463dfe2440837ffc4242207eeae097b igc: igc_read_phy_reg_gpy: drop premature return
-871b35b5969ee80e27961b77803b24c0a22b8331 ARM: Fix kgdb breakpoint for Thumb2
-50949d0bdc100c509cb7a8ad42015a9b86fec9f2 mips: setup: fix setnocoherentio() boolean setting
-4b7d846c9b8e38b747da0506c3f554356f546ba6 ARM: 9182/1: mmu: fix returns from early_param() and __setup() functions
-e792ba04e93c1f1aea773ecc9d484993e87f2288 mptcp: Correctly set DATA_FIN timeout when number of retransmits is large
-7352dcff887f7c8d32d49ab08884f72adb66b802 selftests: mlxsw: tc_police_scale: Make test more robust
-70f6734cb12d0ddaa35059f5da8cea3e2f9cbc91 pinctrl: sunxi: Use unique lockdep classes for IRQs
-d60d58a03b90703e50988c687a8f9a730f09888f igc: igc_write_phy_reg_gpy: drop premature return
-e00078d895c772334853e25aa88855e233971238 ibmvnic: free reset-work-item when flushing
-ddd879d7899332a319e0dfb702e996b0a00bf79c memfd: fix F_SEAL_WRITE after shmem huge page allocated
-c5c9800f8af30f61a88d5b1c9f43cbed419fc583 s390/setup: preserve memory at OLDMEM_BASE and OLDMEM_SIZE
-236eb3b0905e41ac7d70ee9670da9a48407bc5b0 s390/extable: fix exception table sorting
-2f1fc07802ccfc59af3bab4342881dd0184df72f sched: Fix yet more sched_fork() races
-32fbbbd8e5d4d20a8f003efa1eb0cc6bd636b775 arm64: dts: rockchip: drop pclk_xpcs from gmac0 on rk3568
-ee011a702975de081148586593dcc60a4ad8ba93 arm64: dts: juno: Remove GICv2m dma-range
-ba33f3f76943a224a432d9f09fa506c818add327 arm64: dts: rockchip: fix Quartz64-A ddr regulator voltage
-9cdd393ea3b9b2753b3dd24d2853fff22a548652 arm64: dts: imx8mm: Fix VPU Hanging
-bbc828ddb77add80b023f7517420cd7d9c9c4441 iommu/amd: Fix I/O page table memory leak
-e2a60e10e6b693801f1a47fef661b0c37b1ceab5 MIPS: ralink: mt7621: do memory detection on KSEG1
-27d83881cc59f120677cc03a12f06e50e109b361 ARM: dts: switch timer config to common devkit8000 devicetree
-2c624b0606c8194230ec7c556a4b9dc2d7d3d654 ARM: dts: Use 32KiHz oscillator on devkit8000
-aff9af23712aced97a37dab9762cbc83d884f14c soc: fsl: guts: Revert commit 3c0d64e867ed
-44a958389a0211a2417563e2840094148ea596b6 soc: fsl: guts: Add a missing memory allocation failure check
-db6075161ad647e62fc6f51e2342baa747278eb5 soc: fsl: qe: Check of ioremap return value
-10bef39d5efbb2df869768b8130c330aca1ac16e soc: imx: gpcv2: Fix clock disabling imbalance in error path
-16fc0d127c3f5f755ee2cb7a936a2db002a00677 netfilter: nf_tables: prefer kfree_rcu(ptr, rcu) variant
-5547e1b29e1c476b079a001219d97ad6275bc2c1 ARM: tegra: Move panels to AUX bus
-1406c6e37990fc4632c41c851a4014ff93c6f90c Bluetooth: Fix bt_skb_sendmmsg not allocating partial chunks
-6641c2dba24421ce0ed4ec3002100bd25ee7a717 can: etas_es58x: change opened_channel_cnt's type from atomic_t to u8
-475a33049c1c686b3551e9d19770e3ba5fec5bc2 net: stmmac: enhance XDP ZC driver level switching performance
-698feb8ea20e7e59230e8873e5266009862e7a9f net: stmmac: only enable DMA interrupts when ready
-5dc83f8d55c59975e4032c48d2a5720cc15a09ad ibmvnic: initialize rc before completing wait
-9108e8cc55c4fbf84a94db0a557997ced46d6be1 ibmvnic: define flush_reset_queue helper
-4304396572c3d0cd841b867dbc926b5b1875c22b ibmvnic: complete init_done on transport events
-101d3038d2dade16463418848ef9600bcb265d7f ibmvnic: Update driver return codes
-ba4a7706a293c82a52f1662b3ca519a74b56067b ibmvnic: init init_done_rc earlier
-6871de0e1fd9b5cff65510d434032350af385aa5 ibmvnic: clear fop when retrying probe
-56f899bd84e3a3861059e84fec7aa15033bacc8d ibmvnic: Allow queueing resets during probe
-b4f2eeb1d2cf76e4a047c7af17f588a1a0d5ab3a net: chelsio: cxgb3: check the return value of pci_find_capability()
-541c629a38370d0e84d5212814601bd9700c4b7e net: sparx5: Fix add vlan when invalid operation
-181f0f2392ba8a23b32b7d9c7040cb549c175d59 iavf: Add trace while removing device
-8b0773d53d60464a174a170887f0c08a1a97506d iavf: Rework mutexes for better synchronisation
-98bda6539f354aa1d5c20bc28000aaa1bfd1d493 iavf: Add waiting so the port is initialized in remove
-16289a6fbe08994e10db6590796fb39f093b4c27 iavf: Fix init state closure on remove
-b8fd974aa8e7d82a3fc61382dc5a246e361f6999 iavf: Fix locking for VIRTCHNL_OP_GET_OFFLOAD_VLAN_V2_CAPS
-1a05f85f644868f8c9e774291b420c7ab79fe45a iavf: Fix race in init state
-2413b53108a4e679cfe7c9beefa8188154cd0743 iavf: Fix __IAVF_RESETTING state usage
-319921a25af0d6f8e26381e69d7df0a9e27acb10 drm/i915/guc/slpc: Correct the param count for unset param
-87535497e0f6e973116821781ef6dd64c9bdce10 drm/bridge: ti-sn65dsi86: Properly undo autosuspend
-712ab91793c80d87114d307acd396892dc7164f3 e1000e: Fix possible HW unit hang after an s0ix exit
-49c65a800e7082701caa59e69974907e19778e8e MIPS: ralink: mt7621: use bitwise NOT instead of logical
-120d2d4fd2d7253dc38df83c79824ce36897677c nl80211: Handle nla_memdup failures in handle_nan_filter
-1e44ebc2213bfe9740c3dc70c21b7b35e0553012 ptp: ocp: Add ptp_ocp_adjtime_coarse for large adjustments
-c071cbba544be20867c31fbc6932821b6890d911 drm/amdgpu: fix suspend/resume hang regression
-65e8006d7fbd0129e9d45622886092aa678ac02f net: dcb: disable softirqs in dcbnl_flush_dev()
-e46fa794badf1fc52927ebc0be2d0b0834f403b8 selftests: mlxsw: resource_scale: Fix return value
-36e32143e5aceb518642bbdead2901f7b2e4408d net: stmmac: perserve TX and RX coalesce value during XDP setup
-ea47839c3d8a27a518ebf9571f56b5178ad55f95 Input: elan_i2c - move regulator_[en|dis]able() out of elan_[en|dis]able_power()
-7817aa95a9a7816d48ec7eecd0560efc426b892f Input: elan_i2c - fix regulator enable count imbalance after suspend/resume
-f2010f398f7f2b9bdcf205fa1845dded6ea3146c Input: samsung-keypad - properly state IOMEM dependency
-a8f0f50dc364b6bcab5d6289be1249e242c447ce HID: add mapping for KEY_DICTATE
-743d3ec81b69f9d07062a1626fc9451cc68e51ca HID: add mapping for KEY_ALL_APPLICATIONS
-1a152b97327a4f552ce1e9ad69b2ff4a1ea4a15d tracing/histogram: Fix sorting on old "cpu" value
-9e01e70eb44afccfc72c9ee93291ec4a2ee8c94e tracing: Fix return value of __setup handlers
-ecc445d2bab17ae635ae60901a7ac432651760cd btrfs: fix lost prealloc extents beyond eof after full fsync
-7b1969c7a39b6b568888afe1038337e54c15d592 btrfs: fix relocation crash due to premature return from btrfs_commit_transaction()
-436dc0edd5dfd5492f47a95f2a1293d27ccfdfe4 btrfs: subpage: fix a wrong check on subpage->writers
-e206173dba11e74f596c4d47659a61a65384fd75 btrfs: do not WARN_ON() if we have PageError set
-0d74be9382b0bb3d5c1e1f8b395b2a14c72a2fe8 btrfs: qgroup: fix deadlock between rescan worker and remove qgroup
-bc7e7f29283f08264a1d396524ee2bef82356a66 btrfs: add missing run of delayed items after unlink during log replay
-181da5a39d35bbcdd48e1f4719a22dafd0efb6e5 btrfs: fallback to blocking mode when doing async dio over multiple extents
-23727987117fa27db5e4f0f2d270bf0d80d78be6 btrfs: do not start relocation until in progress drops are done
-e09971041419fb8ba467f9903147fb6085f0b1f6 Revert "xfrm: xfrm_state_mtu should return at least 1280 for ipv6"
-02c675ac86a4ac276b6c91f7206560df0af6979c proc: fix documentation and description of pagemap
-829e83e21977b02d394d6045c0175ec130327185 x86/kvmclock: Fix Hyper-V Isolated VM's boot issue when vCPUs > 64
-f16db0dc2ea0ddde7cba905572dd318b3d9c9974 s390/ftrace: fix arch_ftrace_get_regs implementation
-5d0229315facc6986165c3d533b9b05b57238795 s390/ftrace: fix ftrace_caller/ftrace_regs_caller generation
-6f2f0f7b421e70f019ec1c30607bc20197c4044c KVM: x86/mmu: Passing up the error state of mmu_alloc_shadow_roots()
+ae5d569bb22ea4e889c9a2da757ed0c253ec1fc1 t0003: avoid pipes with Git on LHS
+bbea0ddeb9bd9eefe568a9f4456cccf630704d8c object-file.c: split up declaration of unrelated variables
+63e05f90562cc8db5c450dbceeab6677b6e5351f object-file API: return "void", not "int" from hash_object_file()
+b04cdea46cf5ae60066fa6dd12d5449bf3ef283f object-file API: add a format_object_header() function
+c80d226a046170b1c8dd82ef72a27373ddd5880e object-file API: have write_object_file() take "enum object_type"
+73182b2d84e3348ab87ef5ecbe3315881381c29c object API: correct "buf" v.s. "map" mismatch in *.c and *.h
+cdcaaec9a6028f53f9b44efb6dce9f15bb394b45 object API docs: move check_object_signature() docs to cache.h
+ee213de22d15e801ba3712be0cb8ecbf7415fa1d object API users + docs: check <0, not !0 with check_object_signature()
+0f156dbb04b434d95ce5465e6b07d8869d55e8e0 object-file API: split up and simplify check_object_signature()
+0ff7b4f976b78ab38313356b3e0582e5fa9a3bcc object API: rename hash_object_file_literally() to write_*()
+44439c1c5827480f68b37c3cc38f257eaeb3ed2c object-file API: have hash_object_file() take "enum object_type"
+2bbb28a3ee2f7252de02f5d0db4da79090b4f8fc object-file.c: add a literal version of write_object_file_prepare()
+6aea6baeb3ece6c832dbdf1deed09f41aebf85c2 object-file API: pass an enum to read_object_with_reference()
+a67d178be4e604426152212c1c589b2e7f05e29f t7519: avoid file to index mtime race for untracked cache
+37482b4080b2e965cedfd85bab5fef2feb415992 t7519: populate untracked cache before test
+317956d91239e86b26ce95735451698b042dbe5d untracked-cache: write index when populating empty untracked cache
+34363403a28ad4d0bd76c5aa7351293b6e4a4e47 Merge branch 'ps/fetch-atomic' into ps/fetch-mirror-optim
+4de656263aa195080495fc0a103351b9eaac8160 upload-pack: look up "want" lines via commit-graph
+8e55634b47858f036ca773f3e1d754e5dbd4bb59 fetch: avoid lookup of commits when not appending to FETCH_HEAD
+cd475b3b03809b1b1c664e0dca9f16f815456719 refs: add ability for backends to special-case reading of symbolic refs
+1553f5e76c72243f61b454412b651706a869388f remote: read symbolic refs via `refs_read_symbolic_ref()`
+0a7b38707d5d5c8a7baeb88a85d6259cee4f4e4d refs/files-backend: optimize reading of symbolic refs
+e98373f997f5994a08423b3f42b6ddadb3a2a511 fsmonitor: enhance existing comments, clarify trivial response handling
+7d2f730c325e183b9af2ddec0b9c1f649c20ff64 fsmonitor-ipc: create client routines for git-fsmonitor--daemon
+9e28f121ed18e15daa3a42eb94834831364a7f19 fsmonitor: config settings are repository-specific
+5ca3223387936f77c395f3bfc22ea16a81681821 fsmonitor: use IPC to query the builtin FSMonitor daemon
+28b8e0ad1930aeab28067c7f712e67c86cc57a63 fsmonitor: document builtin fsmonitor
+c18b6e6f3271143d867a8334a65c581d9a434c59 fsmonitor--daemon: add a built-in fsmonitor daemon
+a875e55bee0a3791cdd642193386836a50586631 fsmonitor--daemon: implement 'stop' and 'status' commands
+1e7a8f4e58dcececda7d4e6110fc33e660a6619e compat/fsmonitor/fsm-listen-win32: stub in backend for Windows
+1d008ac19c349fead05e2de2a42c11c17a1262e8 compat/fsmonitor/fsm-listen-darwin: stub in backend for Darwin
+fa91d6013d852476041319cb21eb1b71af7372ff fsmonitor--daemon: implement 'run' command
+4fa14b43ff87e976db732d6070d035811a3db812 fsmonitor--daemon: implement 'start' command
+8a3032a358c199fccb9d82be6ce3a4d30a75aa1f fsmonitor--daemon: add pathname classification
+a6ef27dc7c4d93f64878a210fb0272bff412806a fsmonitor--daemon: define token-ids
+036154752d450cbb1b5e92d719fccfe5d34f83e1 fsmonitor--daemon: create token-based changed path cache
+025e8c74548bc74f983656846582f9b961900de0 compat/fsmonitor/fsm-listen-win32: implement FSMonitor backend on Windows
+33fa22204685e1b8d69d9dbd9b9b5e4d9078d511 compat/fsmonitor/fsm-listen-darwin: add MacOS header files for FSEvent
+51c2df597d399793eff5d747b8711ba082bdf44d compat/fsmonitor/fsm-listen-darwin: implement FSEvent listener on MacOS
+4e396cbf949491dc74a112065bd6b2c043b07ed7 fsmonitor--daemon: implement handle_client callback
+3d4b8e1137f1dae3193787444dab8f204dad6216 help: include fsmonitor--daemon feature flag in version info
+9cffe6afa38566d671b1e82454a57cef74e24ffe t/helper/fsmonitor-client: create IPC client to talk to FSMonitor Daemon
+4fabbf4c3f39a5f6dbe20e2ad1b762e10fddf1e5 t7527: create test for fsmonitor--daemon
+cde6a3be19887e568007bd9208c1aae1a134fee0 t/perf: avoid copying builtin fsmonitor files into test repo
+1773ff5abdf9f14a6e23f0979e2a1fc886200df7 t/helper/test-chmtime: skip directories on Windows
+ae909805a69415ef680b4b7de1093e8b6b4b7ea3 t/perf/p7519: speed up test on Windows
+aa072da617efa8bfebea71039599adbaf520bf74 t/perf/p7519: add fsmonitor--daemon test cases
+06938ae2dc227d98d0cbf25946d274a422e371e2 fsmonitor--daemon: periodically truncate list of modified files
+5db9196e31707e29b1463ce2a67514fa648959d6 fsmonitor--daemon: use a cookie file to sync with file system
+6691197503af8e6a8b088a67312b11c156ffa1d1 fsmonitor: force update index after large responses
+cf1eff921f746ed290b1e01ab0b3f0a5024373e4 t7527: test status with untracked-cache and fsmonitor--daemon
+1a9241e1fee9d418e436849853f031329e792192 update-index: convert fsmonitor warnings to advise
+c78c7a959cacf20eb55a694ed9e20921afb306cf test-read-graph: include extra post-parse info
+17925e0602983b1a1dbdd418c2fc2c70ca5faf5b t5318: extract helpers to lib-commit-graph.sh
+75979d94607d92d53b1cad5d65f20594c66d275c commit-graph: fix ordering bug in generation numbers
+3b0199d4c3c9cc2ec39413c52c15cfd16e4d0980 commit-graph: start parsing generation v2 (again)
+c8d67b9a682e2a52beafab60f057ac317e35358d commit-graph: fix generation number v2 overflow values
+287fd17e3a1daec2b0d0d8e26d2b2318511ec153 sparse-index: prevent repo root from becoming sparse
+2c521b0e4900d8e7ff1f611ed956cfdd67f03eb0 status: fix nested sparse directory diff in sparse index
+cc89331ddc92cd89012eaf7937d167b3e0beaecc read-tree: explicitly disallow prefixes with a leading '/'
+14bf38cfcff0b68468444e85bc09c7d5007be34b read-tree: expand sparse checkout test coverage
+2c66a7c8cefa27ef56efbc76bdfe13696b9dac3a read-tree: integrate with sparse index
+749703924121b9eb2750b4313b2c769113c8b310 read-tree: narrow scope of index expansion for '--prefix'
+ab81047a6c5c4f98640f8a2f56e138367cfdada9 read-tree: make two-way merge sparse-aware
+f27c170f645e6b8ed642c49c503964893ee26a4f read-tree: make three-way merge sparse-aware
+090a3085bc9f2101b69b3c8940278fb7c22f02c9 t/helper/test-chmtime: update mingw to support chmtime on directories
+9ba83ebfda1137ad7a4d677e6bef57e345288804 t7063: mtime-mangling instead of delays in untracked cache testing
+76bccbcfe2ff0d75302b0bf98b82aba95f8fc937 stash: add tests to ensure reflog --rewrite --updatref behavior
+7d3d226e700904d6fbf3d9a1b351ebeb02f2cf04 reflog: libify delete reflog function and helpers
+758b4d2be8c009a07dfa86d8cafdf1375905ab45 stash: call reflog_delete() in reflog.c
+c6dddb34b57d85cc57f2efae98aed2b2539e7acd builtin/remote.c: parse options in 'rename'
+56710a7ae0170404d7bc6411bd5c9a18124c0629 builtin/remote.c: show progress when renaming remote references
+5445124fad4db6c6646edc8b9b0348794fd7e439 config: correct "--type" option in "git config -h" output
+046188cc65c9d912f910c7334b5aa24f3e91801c log tests: fix "abort tests early" regression in ff37a60c369
+131b94a10a77e40eb3b3ba276d07fb663e220cd1 test-lib.sh: Use GLIBC_TUNABLES instead of MALLOC_CHECK_ on glibc >= 2.34
+6dbf4b8172ef9edd50bdf9ca2da4681ba9153f75 commit-graph: declare bankruptcy on GDAT chunks
+6f69325258da2816445f8ee4bd028c0a167b31e8 gettext API users: don't explicitly cast ngettext()'s "n"
+99d60545f87445d7050999b826fc4cd49e69376c string-list API: change "nr" and "alloc" to "size_t"
+9f6e63b966e9876ca6f990819fabafc473a3c9b0 merge: don't run post-hook logic on --no-verify
+a8cc594333848713b8e772cccf8159196ea85ede hooks: fix an obscure TOCTOU "did we just run a hook?" race
+c4d1d526312a2dbe39c7997cb5a08cfce12f2427 tests: change some 'test $(git) = "x"' to test_cmp
+a182f69d5fb9fafead59eedbeb8a88a404ce3360 tests: use "test_stdout_line_count", not "test $(git [...] | wc -l)"
+277ce7961d3c01c77b16fe4f751672b855b087fb read-tree tests: check "diff-files" exit code on failure
+d239ef1cbacfa021175147ae69e6b5ec0de234a6 diff tests: don't ignore "git diff" exit code
+5476bdf0e86272c47a93ae5c10486d2de31415bd diff tests: don't ignore "git diff" exit code in "read" loop
+1ff543acd01b9e8cfe9af7c262d118ab0bf4d5e7 apply tests: use "test_must_fail" instead of ad-hoc pattern
+8127a2b1f51658f4e3fad1d70bef9ce7a0d030ed merge tests: use "test_must_fail" instead of ad-hoc pattern
+53ce7ccff11e9cbc55f7cd7a754df7fde54dbcc8 rev-parse tests: don't ignore "git reflog" exit code
+b6d775dd38615f6371a57458fcb527aa0abfcbdf notes tests: don't ignore "git" exit code
+5b911a29ffd020fb34644f844d9e1a004d2c28f0 diff tests: don't ignore "git rev-list" exit code
+cf10c5b4cf75e383eb50daa17dd073583260e1a5 rev-list tests: don't hide abort() in "test_expect_failure"
+72aae6d60136da0c727344539003680dc01c9d18 gettext tests: don't ignore "test-tool regex" exit code
+e19b3199506a47098d1ca7b21a5e37cabb70f7f2 apply tests: don't ignore "git ls-files" exit code, drop sub-shell
+c419562860e3baf1cd3ae1ed9cb7cce6ab06cbd5 checkout tests: don't ignore "git <cmd>" exit code
+a6ecc256c34c42a8b9f1790d9bfb5ea8f6309022 rev-list simplify tests: don't ignore "git" exit code
+407dcd1f5d89e5b21e7d3e746490ca5faef56fb1 Merge branch 'ab/grep-patterntype' into next
+d3749d58501c0c05c18e879ddeeed5f4fce71936 Merge branch 'tk/empty-untracked-cache' into next
+3ff4e5c09c975f298415463914b39da61fc2f276 Merge branch 'sm/no-git-in-upstream-of-pipe-in-tests' into next
+60aae8731cd4634b11715504be79ede48606b5e3 Merge branch 'ps/fetch-mirror-optim' into next
+5f9d38548312acc15719e66b8e39610280c98771 Merge branch 'jh/builtin-fsmonitor-part2' into next
+810ac5a1d3dad4da6efa37be16fa131f499bcb05 Merge branch 'ep/test-malloc-check-with-glibc-2.34' into next
+a914e267f284286c181a79fcd8b39f5ca3db224c Merge branch 'mf/fix-type-in-config-h' into next
+7fc151ce676e57c5d4e44b8a9c97b9b3aaaabe41 Merge branch 'ab/object-file-api-updates' into next
+037c187db20c7faebf9d562edf1f98de3bc33fe7 Merge branch 'vd/sparse-read-tree' into next
+adff4dbd86f9988fc02786276bca87d28ee87b94 Merge branch 'tb/rename-remote-progress' into next
+4073dcf05cbfc1eb07c7b80675a5e9f09caac08b Merge branch 'jc/stash-drop' into next
+36dd214bc294011c9ab6c627a2419c12d0572391 Merge branch 'ds/commit-graph-gen-v2-fixes' into next
+99c954903d6dc10387ba77b7c07cd9afdde60e62 Merge branch 'tk/t7063-chmtime-dirs-too' into next
+bf89509f4cc8139e058fae37e16601575b6917c4 Merge branch 'ab/keep-git-exit-codes-in-tests' into next
+07188be733856ddf3d6b10e8a0502aebfad1a3f5 Merge branch 'ab/racy-hooks' into next
+3458b5c2785d1687444b7e1bf4e90a07567a99cd Merge branch 'ab/string-list-count-in-size-t' into next
 
---===============6546126803393184333==--
+--===============8452484832399085082==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8ff6a80ebdb9-7e73792f9e68.txt
+
+f3117dfdd1a0e586066bb8963b43324f5dee9f90 t5526: introduce test helper to assert on fetches
+6e94bd64f334b91fab0f06b44ad00fc34a068a8c t5526: stop asserting on stderr literally
+d1d1572e75edfa901fd6ab836402f57ba2da27b4 t5526: create superproject commits with test helper
+7c2f8cc58cc3648a0e1e4c76be15a09114b4d9dd submodule: make static functions read submodules from commits
+1e5dd3a1114643ca43e3d83da4f5c44447f061ff submodule: inline submodule_commits() into caller
+6e1e0c9959f1df4b8c5aafb69d149374720b26dc submodule: store new submodule commits oid_array in a struct
+73bc90d7e19c471318e799624b6d4c6d449c655d submodule: extract get_fetch_task()
+5370b91f3fae9d7a511e23142b55082200152cef submodule: move logic into fetch_task_create()
+692baad91d4e172ed74579e9d41f7a7a6fd9a3a7 fetch: fetch unpopulated, changed submodules
+723c68095d8c6032372e65308a38ed6bc2e27b31 submodule: fix latent check_has_commit() bug
+212546a999493420ecfcf7fffb23a439a0eba89c block-sha1: remove use of assembly
+77fc12b67de628444d1c228e71d857f0052b75b3 index-pack: document and test the --promisor option
+aaf251cdc5cc9da08418a18224458d068f250f39 revision: put object filter into struct rev_info
+a4a03844bf467890a03661c55d33a91de8ece96e pack-objects: use rev.filter when possible
+f43b0f926e1f57bb56a7d0dcb14a313f7a651151 pack-bitmap: drop filter in prepare_bitmap_walk()
+6752cab5d64945f9c9d3f6315ad4ed2f312d2618 list-objects: consolidate traverse_commit_list[_filtered]
+ec00e74aed98ac16f7cb4bd4977701934758a67a MyFirstObjectWalk: update recommended usage
+7ce88bdb7fa721f310c3ba18e8261c472c422f64 list-objects: handle NULL function pointers
+abc6781b4be862d60e179675f204658cae82c5b4 bundle: parse filter capability
+f5618e8e1794378065181e14306a3397b48dcae4 rev-list: move --filter parsing into revision.c
+d4bfd9c832479a8e6ceff7c7ce551952a642510b bundle: create filtered bundles
+179704fe04dca99c139b7c6acb7ca1435d43f5a5 bundle: unbundle promisor packs
+3adc5a6749db6fe351332d849578bb574e3de598 clone: fail gracefully when cloning filtered bundle
+61d626e5510bc83ef502c08d7a18e2d2fde3b612 Merge branch 'en/present-despite-skipped' into jch
+a2f740ce0f1f9397f2a2ca4dcb458bc3cba592fe Merge branch 'pw/xdiff-alloc-fail' into jch
+9ee25c535195db3ae6dc01e5f798a9c2f2634f0a Merge branch 'jc/cat-file-batch-commands' into jch
+577d5596f3610455a07d6007f64d5afd495be175 Merge branch 'hn/reftable-no-empty-keys' into jch
+3a763528b32e9ab663c944878d939da6e3f78ea6 Merge branch 'ab/c99-variadic-macros' into jch
+6f7115b106e470edb0a6b7f7ad8bbe3964e27d8a Merge branch 'ab/help-fixes' into jch
+2fb8aefc824143274ebe780bf0d736092dbdedfb Merge branch 'ps/fetch-atomic' into jch
+0c33962eae9f1f5718d5ddc0f449aaf4367274f0 Merge branch 'ab/make-optim-noop' into jch
+0ba430c7dc8d04892f75228075bb79fa02b0e17f Merge branch 'en/merge-ort-align-verbosity-with-recursive' into jch
+10fa19559c2a645216acdf83a495098402e8594a Merge branch 'gc/parse-tree-indirect-errors' into jch
+98f1b0ab8757fc2d786f9cf1fcbc69ad1918cc55 Merge branch 'fs/gpgsm-update' into jch
+445ed44f53d4bca44ae81a31ca44d20e4cf7f03f Merge branch 'ps/fetch-atomic-fixup' into jch
+6e58468f5807d631c55380da950f6e98b339fd3b Merge branch 'nj/read-tree-doc-reffix' into jch
+1e6c1347f9e19b05ba9fa6e5861ebd9353093567 Merge branch 'ab/plug-random-leaks' into jch
+a398b1dfee59926382897944d2d25f21e837709f Merge branch 'ab/grep-patterntype' into jch
+30a8afef6bc44cc6914c8310d7413cf18873efeb Merge branch 'tk/empty-untracked-cache' into jch
+26cef89fa2cd037ed7e1ff4dac0b76ce81bb68e8 Merge branch 'sm/no-git-in-upstream-of-pipe-in-tests' into jch
+6340680cd07d0d4d2305788552920e3b394b22f6 Merge branch 'ps/fetch-mirror-optim' into jch
+90e84e940802d483c7cdadd17b6271811160c266 Merge branch 'jh/builtin-fsmonitor-part2' into jch
+737ab3a038a190b1f1f612690492514d4de0af1c Merge branch 'ep/test-malloc-check-with-glibc-2.34' into jch
+2e5590b990dec5ed0831d5913493b837c159d381 Merge branch 'mf/fix-type-in-config-h' into jch
+366c24eb65d349d83ab62853b1113ef4e7e1e4c5 Merge branch 'ab/object-file-api-updates' into jch
+1df3b59d9182952159ae9654f0d5a9b58ad5adb2 Merge branch 'vd/sparse-read-tree' into jch
+784a89c409c4ac55cf29c6fbcae4057ff237867d Merge branch 'tb/rename-remote-progress' into jch
+388b7c96ffc1e964e335ae50af5374a3048981d1 Merge branch 'jc/stash-drop' into jch
+80e8df365677ca119bfa7a57756cee15e3522fcd Merge branch 'ds/commit-graph-gen-v2-fixes' into jch
+5a0068de54b45e64b54a021d95567c4ebe6a0fb7 Merge branch 'tk/t7063-chmtime-dirs-too' into jch
+8adb63086053c61aa1515d40da93e8921d415e2d Merge branch 'ab/keep-git-exit-codes-in-tests' into jch
+25af10ea29de111b0fe95e889c7a35b742c4bd76 Merge branch 'ab/racy-hooks' into jch
+5e4a5b0385e2a4f4fe80bbe1ddece0bfce4992ba Merge branch 'ab/string-list-count-in-size-t' into jch
+f9db95e6f9892a2476a5811fbd90a6eab027a441 ### match next
+0458beae3d0510d6e8efdf92eaf3f50f327070dd Merge branch 'ds/partial-bundles' into jch
+a79eab9a6ea387f5ed64d7630fd3b41ebcd3bbbb Merge branch 'pw/single-key-interactive' into jch
+f8c43667e66b03aecb07d7527630a1f0d178b996 Merge branch 'en/merge-tree' into jch
+1a3acc66b5d94b2830167bf29425f4dc1aaaa2d7 Merge branch 'js/use-builtin-add-i' into jch
+93a6647e01cc9214be1fc094deb29fcecbf471ce Merge branch 'rj/receive-pack-abort-upon-disconnect' into jch
+1929ec7571c7ae6a64ed3cde082b1565b41df24f Merge branch 'js/scalar-diagnose' into jch
+0a1cc15289aeb06e257e38604103209dd9d65590 Merge branch 'et/xdiff-indirection' into jch
+fff14cb75fb980d8ee649978f7680b51270e55c3 Merge branch 'js/bisect-in-c' into jch
+ed43a8c05c5f34fb0f143fe5f203a84d7dabdaa4 Merge branch 'ab/http-gcc-12-workaround' into jch
+4a6f925d8a7d73c1cdd7781c8e2111921583a98f Merge branch 'tk/simple-autosetupmerge' into jch
+1a60cbb27cd064e98f7f37059a17cda668449b9f Merge branch 'pw/worktree-list-with-z' into jch
+c097714ca7399a77dec3578a4e373a055fd0e10d Merge branch 'jd/userdiff-kotlin' into jch
+f1332119729b280ce778eb05b36a7e5e76b1c390 Merge branch 'js/ci-github-workflow-markup' into jch
+046eceacaf6c5350ad639f4684fc600f4c1d1db2 Merge branch 'jk/name-rev-w-genno' (early part) into jch
+a0a4c94fa326e0b4888eb2bef41a1db72406c53c Merge branch 'ab/hook-tests-updates' into jch
+d86127b04170a2563ea6f0684ce0b571e3a4d09e Merge branch 'jc/mailsplit-warn-on-tty' into jch
+c393ed15cd722192ba3e46f77974b3150b8c7bb2 Merge branch 'jd/prompt-upstream-mark' into jch
+d0e1280ed53a32b41e2ac61891dda2f7ba369f9c Merge branch 'gc/recursive-fetch-with-unused-submodules' into jch
+943fd02769d4d3fc8daab64cfcd7cc2c967f75ef comment: fix typo
+a262585d813482c06bf121ad41377f29eadd2bc1 gitweb: remove invalid http-equiv="content-type"
+8b87f6344d70b71d0334bf01f77eaf9424e47cc9 Merge branch 'jy/gitweb-no-need-for-meta' into jch
+1e122e3694f261d60a7216519f3c07ca1588e91f Merge branch 'tb/cruft-packs' into seen
+bec9b1b3304e30c4a5ce9a1fc5aa4594c69dfa94 Merge branch 'cb/save-term-across-editor-invocation' into seen
+53fa4a13ef9f604bd08849b8b23990c1d0030310 Merge branch 'tl/ls-tree-oid-only' into seen
+672d377f5a7c4eee38c43e2367db0808cce28b19 Merge branch 'jh/p4-various-fixups' into seen
+f0e371dbaf2210e60ef41e7a3b4feac6ec9dae39 Merge branch 'es/superproject-aware-submodules' into seen
+a3033f7c8e0158de9c53254e646d59705c184d50 Merge branch 'ab/commit-plug-leaks' into seen
+20b6450eca44d8db7fcd5e5a648ee63b10dab373 Merge branch 'rc/fetch-refetch' into seen
+ce11ffdbbcfaf49c0615156145323d962baede7d Merge branch 'tk/untracked-cache-with-uall' into seen
+1ad388116c2a541dafac06be0d7878f8c41fb7ab Merge branch 'ar/submodule-update' into seen
+589474e21a087db58cfded65a8564fc296547e18 Merge branch 'jh/builtin-fsmonitor-part3' into seen
+9dcfbad387bebdf5712806cfc41f1490960482ea Merge branch 'jk/name-rev-w-genno' into seen
+7e73792f9e686f01f1e9b9da7a0ea469716ebccc Merge branch 'bc/block-sha1-without-gcc-asm-extension' into seen
+
+--===============8452484832399085082==--
