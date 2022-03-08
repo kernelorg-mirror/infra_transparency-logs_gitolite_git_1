@@ -1,22 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Tue, 08 Mar 2022 13:25:04 -0000
-Message-Id: <164674590480.21692.7873532587205252382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 08 Mar 2022 13:30:49 -0000
+Message-Id: <164674624935.25159.5611566349881786408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/testing
-    old: 25cd959c0ff9a7d226b95faf21988bf8f986d81e
-    new: 28b09f9a5e82fda04cae54e7347d00f34a4225b1
+  - ref: refs/heads/bleeding-edge
+    old: e8f79f1bdea6a6a50337fe86e79e651a699352ca
+    new: 6e4a5d0575b74b69433acd8b0e140e73ba77779f
     log: |
-         268e2c36ddc0d3eda8806ed2d79173a76fa72b88 netfilter: extensions: introduce extension genid count
-         aa6f95d57e4f82e7fac714d52cf4573b2791b12e netfilter: cttimeout: decouple unlink and free on netns destruction
-         b12d95ed2d403baf91ea72b5fef7567a2887a35e netfilter: conntrack: remove __nf_ct_unconfirmed_destroy
-         28b09f9a5e82fda04cae54e7347d00f34a4225b1 netfilter: conntrack: remove unconfirmed list
+         a1b6f487cb47ad99ee14730f03c80d3eb4c71e8a turbostat: fix PC6 displaying on some systems
+         d9f35588ea859f47df4a1563c93ccb9113e544cf Merge branch 'acpica' into linux-next
+         7b614688477485962f47913179a4199dc598e758 Merge branch 'pm-uncore-next' into bleeding-edge
+         6e4a5d0575b74b69433acd8b0e140e73ba77779f Merge branch 'pm-tools' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 0b4cb964dac51d55a3a3ed4db6536e8b4b31031a
+    new: d9f35588ea859f47df4a1563c93ccb9113e544cf
+    log: |
+         0c9992315e738e7d6e927ef36839a466b080dba6 ACPICA: Avoid walking the ACPI Namespace if it is not there
+         d9f35588ea859f47df4a1563c93ccb9113e544cf Merge branch 'acpica' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 0b4cb964dac51d55a3a3ed4db6536e8b4b31031a
+    new: d9f35588ea859f47df4a1563c93ccb9113e544cf
+    log: |
+         0c9992315e738e7d6e927ef36839a466b080dba6 ACPICA: Avoid walking the ACPI Namespace if it is not there
+         d9f35588ea859f47df4a1563c93ccb9113e544cf Merge branch 'acpica' into linux-next
          
