@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 08 Mar 2022 20:47:20 -0000
-Message-Id: <164677244062.10551.1979070071155195939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 08 Mar 2022 20:53:56 -0000
+Message-Id: <164677283645.14077.7547302368523965745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 1d7286729aa616772be334eb908e11f527e1e291
-    new: eeda29db98f429a3b6473117e6ce1c213ab614f2
+  - ref: refs/heads/master
+    old: 4f86a6b46e5377a300b1d49f51c687450f72fb6d
+    new: 330f4c53d3c2d8b11d86ec03a964b86dc81452f5
     log: |
-         eeda29db98f429a3b6473117e6ce1c213ab614f2 x86/hyperv: Output host build info as normal Windows version number
+         330f4c53d3c2d8b11d86ec03a964b86dc81452f5 ARM: fix build error when BPF_SYSCALL is disabled
          
