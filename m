@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3764971061553925351=="
+Content-Type: multipart/mixed; boundary="===============5892150209388004036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 08 Mar 2022 12:26:45 -0000
-Message-Id: <164674240559.15184.9234149901065288717@gitolite.kernel.org>
+Date: Tue, 08 Mar 2022 12:26:54 -0000
+Message-Id: <164674241498.15278.7460140353543049756@gitolite.kernel.org>
 
---===============3764971061553925351==
+--===============5892150209388004036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: f6ba14acb2fb4e3008ac13cc26aed2bb6775edad
     new: 2cb66984caa2766fbb392686d81d9d62a35d7912
     log: revlist-f6ba14acb2fb-2cb66984caa2.txt
 
---===============3764971061553925351==
+--===============5892150209388004036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d3cff4a95ed78ca192fc4bbb2743d13b7a6cc555 KEYS: remove support for asym_tpm keys
 ec5b7dc890e0631c2db3289bd5542c0f0d1323ca KEYS: asymmetric: properly validate hash_algo and encoding
 2cb66984caa2766fbb392686d81d9d62a35d7912 tpm: use try_get_ops() in tpm-space.c
 
---===============3764971061553925351==--
+--===============5892150209388004036==--
