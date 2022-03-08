@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 08 Mar 2022 12:45:13 -0000
-Message-Id: <164674351322.28583.13690393487921638165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 08 Mar 2022 12:52:24 -0000
+Message-Id: <164674394447.32365.10305661994369510825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/tegra/fixes
+  - ref: refs/tags/v5.17-rc7
     old: 0000000000000000000000000000000000000000
-    new: 7401b49c50c2b032223de408e28e37cbd63f4c97
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
