@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1279607264630543050=="
+Content-Type: multipart/mixed; boundary="===============6082383189987583973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 08 Mar 2022 21:01:01 -0000
-Message-Id: <164677326168.19264.8294924803828425296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 08 Mar 2022 21:01:05 -0000
+Message-Id: <164677326542.19362.2095732380222781522@gitolite.kernel.org>
 
---===============1279607264630543050==
+--===============6082383189987583973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7daecc46344fedfa47f96a3d272fe1661d6bb89e
-    new: 88a8af54cf943432d6ffff67e843bc660b2d5d46
+    old: 92f90cc9fe0e7a984ea3d4bf3d120e30ba8a2118
+    new: 330f4c53d3c2d8b11d86ec03a964b86dc81452f5
     log: |
-         88a8af54cf943432d6ffff67e843bc660b2d5d46 4.14-stable patches
+         7e807f4b081c5813df21da54e9a0491ea2ce16e7 dt-bindings: mfd: Fix pinctrl node name warnings
+         f6eafa4022dd61e029205bea4d4147d26e69fef2 dt-bindings: phy: ti,tcan104x-can: Document mux-states property
+         4f86a6b46e5377a300b1d49f51c687450f72fb6d Merge tag 'devicetree-fixes-for-5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         330f4c53d3c2d8b11d86ec03a964b86dc81452f5 ARM: fix build error when BPF_SYSCALL is disabled
          
 
---===============1279607264630543050==
+--===============6082383189987583973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646773260 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1646773258-45a3d325b1e62a698190178c77b27dec3a587680
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646773264 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1646773262-d1116e8275bfacfdafbe53f81eacd0922afac779
 
-7daecc46344fedfa47f96a3d272fe1661d6bb89e 88a8af54cf943432d6ffff67e843bc660b2d5d46 refs/heads/master
+92f90cc9fe0e7a984ea3d4bf3d120e30ba8a2118 330f4c53d3c2d8b11d86ec03a964b86dc81452f5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmInxA0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4AsP/Rk7AFGAP29MHNP5j6Rd
-kJvqRjYUltNfIGpu0b2KGhRkklKm3sK0Zq7rh9tJKNvH82w1DZzJmRzOULcaQT/P
-29UmeCgL8cDRAVBmF0XDMXgVydEqVFThPz5rYXHTrJrJ1G741XQPlMhFaSo8N3+v
-roFSzKaqglbizrrTmPzUFiw6WmASJauue2LUez1U6RMdRgof0ySydFvjESUFTcxs
-H85wZiiKsGmVtmdofPIymtRggXoJA3YCIu6qBzxR+Y4j9NDHwEYFyQTLY1sfLP4S
-u+TOYw4q6CWnje0DfueAtKhuZDhsCw7OG8wgM0qmRvHiDcyI2RqzanEv5Pk0bre5
-9RoHmDmQCArMqckBB9Fb4XptTbQsK8QzSOOuxmWMuDQPf8L34+O8ojSV0LMdPu35
-DM3vhtUoPaOr0QHoWnTVrPsNzqYsApxOGUaGHhmyS4eUOKLSFCVRRK0K/gAYB+GO
-6MmJAR7KKMiFL0Y55MOfRu7MZ6SrlVjsA+K5Dzp5Qzlv8bYRU5HI3jnR2C+tOub/
-gDN/rhCvIMEHVes8bims7cO84diM84d0FKkYUTW04kJy2lwPeF34OHVZpS73fSz6
-DZkn0r5tV6XvDOxNL7FqokC3K7op7YzoHlLxmeSzwPXOfWvLFQyfJeXI0zW5zd5h
-yDCbJ17TYlaKgPQRebQr8aLp
-=ZYmW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmInxBAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+onAP/ig6xsvXrzBLoab8s364
+6x6cApFnG2EuGsC+8lffxzV/lr14X7QcyC4ND0IjggOlPL88zNvzejrych247zGQ
+1EjAnsFJclMR9qatOLYgWTaDMgql4mZbW7njJeu3W9khzUFWnde6O3Yf3iP6/a++
+znYXSv2IOVGap2GMCH0+XWlojfSCF86da49ttUAjBNy+9GVieGsn9dOfCbub8LyV
+6IcVnrzggIBZAr1z70AYq2x21z3ac7poIJXTasX92EFSIa5ieOwCRTNXFKVUbSRF
+AZZAHoJaTpBF6Ody2hi63oFcSmOeand29MrkqOtJfh90WpBn40X/QipYRUIpO6dF
+KH86UpAy831LzcxDv0eRQEChOSd26OqmddvD1yWIkZC92hxHCy+og9kHuKJgettd
+oUQU6Y+2P6rg/ay7P60CJASYWWdDFf3vm1vv05OLt3cmj+DalKi799SE72WAipmT
+eutgkPOIFqBTK8tXt2qfBqz1ljh1A03K4dNH7/vNqrCSSkmRNV1K2enFeNLTgF3P
+FpbGPfSwpmHFWCjW6ea9p+nSvmQMOn5ionOAN5B5OreDJnoR6+oFxKkSFYp+g3Qn
+SZNrC0vyT+0jcmH2EDsAm+Wb4c7x0ooObI3BMuIPGFH017RONqzK/o5J3zXjtQsG
+R/wDX/XYekn1ehlJ1Vc8HVCE
+=+L0f
 -----END PGP SIGNATURE-----
 
---===============1279607264630543050==--
+--===============6082383189987583973==--
