@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1059278614335829062=="
+Content-Type: multipart/mixed; boundary="===============3132513487977812244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Mar 2022 18:23:25 -0000
-Message-Id: <164685020562.20827.5076297542806604643@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 18:23:32 -0000
+Message-Id: <164685021212.20954.10047494450348532881@gitolite.kernel.org>
 
---===============1059278614335829062==
+--===============3132513487977812244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e5417cbf7ab5df1632e68fe7d9e6331fc0e7dbd6
-    new: cc7e2f596e64783ded1feebc55445199c9bd929e
-    log: revlist-e5417cbf7ab5-cc7e2f596e64.txt
+  - ref: refs/heads/dev-queue
+    old: 367dbfe3519cde37cba20b879368481afb465adb
+    new: 7d9f54f8a37fca13a64acffdacbfeb1be55586a1
+    log: revlist-367dbfe3519c-7d9f54f8a37f.txt
 
---===============1059278614335829062==
+--===============3132513487977812244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5417cbf7ab5-cc7e2f596e64.txt
+Content-Disposition: attachment; filename=revlist-367dbfe3519c-7d9f54f8a37f.txt
 
 4ff2980b6bd2aa6b4ded3ce3b7c0ccfab29980af xfrm: fix tunnel model fragmentation behavior
 a3d9001b4e287fc043e5539d03d71a32ab114bcb Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
@@ -47,5 +47,12 @@ c79fcc27be90b308b3fa90811aefafdd4078668c tipc: fix incorrect order of state mess
 c9ffa3e2bc451816ce0295e40063514fabf2bd36 net: marvell: prestera: Add missing of_node_put() in prestera_switch_set_base_mac_addr
 71171ac8eb34ce7fe6b3267dce27c313ab3cb3ac ax25: Fix NULL pointer dereference in ax25_kill_by_device
 cc7e2f596e64783ded1feebc55445199c9bd929e Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+5315cc275a2ac56ae9464aef4819f787cd1b7b6b checkpatch: Fix warnings when --no-tree is used
+16ef5261264a589b2cb3ea05db6053081e3a04d5 checkpatch.pl: seed camelcase from the provided kernel tree root
+fa7266b87efcc4b511dbac60f5c9f4073280fd3a ice: Fix a couple off by one bugs
+40d65dc87d45a633c5489044d893f2ffa745c7e5 i40e: Fix the timeliness of stats after deleting tc
+f099b76b503369ba68facd7f59a5421816ac38b9 ice: Fix re-enablement of FW logging after reset
+17151d9ffd532e4717ef439358878723ad14d5ca igc: Fix infinite loop in release_swfw_sync
+7d9f54f8a37fca13a64acffdacbfeb1be55586a1 ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
 
---===============1059278614335829062==--
+--===============3132513487977812244==--
