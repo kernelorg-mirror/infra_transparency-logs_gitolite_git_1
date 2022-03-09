@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 09 Mar 2022 14:55:39 -0000
-Message-Id: <164683773946.14170.17663171461201183773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1473204670355587960=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 09 Mar 2022 14:57:38 -0000
+Message-Id: <164683785838.14846.13630918806207665600@gitolite.kernel.org>
+
+--===============1473204670355587960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 71171ac8eb34ce7fe6b3267dce27c313ab3cb3ac
-    new: cc7e2f596e64783ded1feebc55445199c9bd929e
+    old: 4431db8027dd84dc85e0f41e34093eb4b0094b0d
+    new: aba35bd119058facc3c3c1adf21918626bb07dff
     log: |
-         4ff2980b6bd2aa6b4ded3ce3b7c0ccfab29980af xfrm: fix tunnel model fragmentation behavior
-         a3d9001b4e287fc043e5539d03d71a32ab114bcb Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-         ebe48d368e97d007bfeb76fcb065d6cfc4c96645 esp: Fix possible buffer overflow in ESP transformation
-         053c8fdf2c930efdff5496960842bbb5c34ad43a esp: Fix BEET mode inter address family tunneling on GSO
-         23c7f8d7989e1646aac82f75761b7648c355cb8a net: Fix esp GSO on inter address family tunnels.
-         cc7e2f596e64783ded1feebc55445199c9bd929e Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+         aba35bd119058facc3c3c1adf21918626bb07dff drop x86 spectre patches from 4.9
          
+
+--===============1473204670355587960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646837857 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1646837852-6455861bf218221e28e705acf02570c4437ac8a2
+
+4431db8027dd84dc85e0f41e34093eb4b0094b0d aba35bd119058facc3c3c1adf21918626bb07dff refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIowGEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wRwP/0p2j4XScdMrbmGgikqx
+54EnvQ2F4FSI1CB30O7IiK/V5mLzG9bgpSJN5ugpgaTUIYnt/VlUjjMQ6b8AzypS
+MBX1z9MYfoJPX5nIaN9UW0Ce1woQ9XYNmITM/A/WuMrw2JNo8qT24IEAmLWZO1SZ
+aiqwg+HDJta/BjBpWjyLFfYhZDyRQkCguS19aPlqRg7hi/DNzurQV9eHXPFyQS9B
+HcIyOeI5T+MmHFAYNzRr6fQBe5pu+1JyW6X4B0N2afmxVy5mnpTKcEqvKChuS2lD
+WppgoTawPaLWVl3kmPZdSiJ2rAtjmr9aqWiu6LCvNmVCqHdeet0lmeUCbwgy1tQN
+v/uZUTAEsQwv+vA2a6tDJo3OZjakMX7U4LbioTcEH4kKOZdYg+RkQ0mAb/RV41Ie
+/LfTezQndStZ90Wnc3A1tGDRTrzw0imdGPgeUlgDL5k+bgJX/QnXM4SJk1AXn80Z
+eIxfyVcSmtmSTPmV3gMYWsSGNOZt86tcA+M6iceBVtGq6jVNTN6AqkcYck9PMRcb
+si0trAFNUILU7Q5Br8sJkFCl26wI0Mk/ekiqFtaOqsLgGsCGpL2B/Cn6RchF9wva
+p3OUmbpWX8Vny0c1Fw5FA/0gsLWq8r6YR/FdYrErAvDe0WhvgwPCvRPIVwl7aac0
+eC6bKzVvANonY8Waq0Cxrz3T
+=QQ/p
+-----END PGP SIGNATURE-----
+
+--===============1473204670355587960==--
