@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7730565365242409687=="
+Content-Type: multipart/mixed; boundary="===============8616256082650986301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Mar 2022 04:09:05 -0000
-Message-Id: <164679894529.31364.17099016617843664647@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 04:09:16 -0000
+Message-Id: <164679895613.31483.4420666428962860153@gitolite.kernel.org>
 
---===============7730565365242409687==
+--===============8616256082650986301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 6f123fecc0a2dac5dbea842437709a702fdc24da
-    new: a168538cc6ab9670775a185e290b344976d602f4
+  - ref: refs/heads/5.18/scsi-staging
+    old: f2ddbbea7780f0af46944ccd494f7eded8e214a4
+    new: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
     log: |
          e9c478014b602fda2a99a6370d9eb2e5d7355246 scsi: scsi_debug: Silence unexpected unlock warnings
          3fd07aecb75003fbcb0b7c3124d12f71ffd360d8 scsi: scsi_debug: Fix qc_lock use in sdebug_blk_mq_poll()
@@ -29,33 +29,33 @@ changes:
          2bd3b6b75946db2ace06e145d53988e10ed7e99a scsi: ufs: core: scsi_get_lba() error fix
          
 
---===============7730565365242409687==
+--===============8616256082650986301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1646798936 -0500
+pusher 75C5DE3D 1646798948 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646798936-31434ee144975f2b166a66f74be25bdb613e14c9
+nonce 1646798948-12f5bbfe0ace61eb8aebc8b01f44b8e81d3812e1
 
-6f123fecc0a2dac5dbea842437709a702fdc24da a168538cc6ab9670775a185e290b344976d602f4 refs/tags/mkp-scsi-staging
+f2ddbbea7780f0af46944ccd494f7eded8e214a4 2bd3b6b75946db2ace06e145d53988e10ed7e99a refs/heads/5.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKFgACgkQ7ulgGnXF
-3j0QcA//ccSAQ8ZofUl8bcOES+b4Cyqk7sMNlaU2qCOIB7Iibp9Zrm/O7eQ6blck
-3ONnMJ1o7+8hEFzxtSDT4w3n/yWzyxsAB3/7KhoQhTUQyIMNe1vFMoIaJ55o4znr
-DgPlYM/AT5jmKA8E6NOrUG0J6cSQqHv+Web7458z10EhMKMzPT0omnw62XToI77M
-kBI5HXEP4tSmuaPc1+ApufKUJ2enObux3svJjth0CamJMPDRUrjOGsAcPNuAq4iQ
-NqxZrBUhL7kSAP23PCNXJi14vOzjYxkggBVPRj+V5mDbcQC3VwLt4qh/jMZ7mDxC
-IznpJBahVt580OBapzettz2zR0MGpybT8yGJ+LDF5s3UadntJY7F5NcVmavyThYp
-9BhoKaa8LvJZM9VEip2AuurDer4DLvhQf9aE+/fXCok+1s28NdAGPDwMRwsC9QLI
-oad/dwQbaPdpUIkIcjnEQrEK/FetgUhTOZcWIYM9liTwl2yDquts/7I1IZu3TQkF
-zMb/+aqZNnn/D4FpEuQLM7++DxjBtURP/va1hotwfPTKopAwgv/zx0VNHaZao+mF
-VDG/fpvaYw1VIh4dIcjPvRgcX7zTV407VTs0TjPIJqrshpahhc4eImqP+2WgA9Yl
-cwP+7VGkuvmAHkCkSHfzkvXLjPZ1aKRvjtO7AtFYJgwmEx0xrW4=
-=an6t
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKGQACgkQ7ulgGnXF
+3j3Fmw//aDKr0PbxtNqZGij0fB4nx2C3O8MtyXkFcwpCq77hLyL9XFA79jyfTT8I
+wlSqrVWSE8KUSgFRreVnRhDZ7vPbhqgQtD3TnJPUSzXofVAKFmRg1JSjQ2eu+x9I
+WQ8NHzKnypTxutm5wr6nS55WCJQ0kS4CokBxUsXbQiQrUjifhEii8rhNtoGzNsv+
+4Kvxpk+88PNa7s2H0uzGQZd2IyoZkrWjb6IBUNWgKPfKZzBmqQ0H1u06mlYuAtnp
+hX+KOoUP9yut57ej8N6j+byMfcxJEv492cilg0c7vD2Z+vkqcNd16UI9KEk7/eb8
+hAf1+qOoSG7rmdLSlkY1bnUOaJTCK++IfkY72Rr+1IIoRY0kvoo7TA5N9FR5LQvC
+1Ukh0HCcjoFd4f1NFTLqP0gtUHJAZdZyfkaJN44bBQFmqOs1XxUSMZxkbzsH9JFe
+WbGnKKNWLH58vIhj2SHNnyd/2Lht2WQF7jWtfYHElj2QxtRluzpB4z+CWc6zFhTA
+a+rh/8vWFw8/hjlgSXxxABiVJHX2K7HLwCtpy9bardI9WNai0ZWvQtbheXpb1fUh
+BuU+w5QjqNQzPjZkPqOUGO35nAhGal+KdvJaG02s9I76Axd+CAykz62GmCMptbz7
+0bGi/IJDhzoeyH5+lkrj40uMUSZ9ok2JugmekO0fm1WcV9tVKKo=
+=Q/sU
 -----END PGP SIGNATURE-----
 
---===============7730565365242409687==--
+--===============8616256082650986301==--
