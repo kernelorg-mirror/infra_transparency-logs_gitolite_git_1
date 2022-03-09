@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Wed, 09 Mar 2022 06:09:52 -0000
-Message-Id: <164680619242.12265.9228886708189119663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 09 Mar 2022 06:17:39 -0000
+Message-Id: <164680665979.18874.15018316801129775511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kfence/dev
-    old: 687f71b150b903dc2a8e9a5ab9a18605edb09c11
-    new: f2439e37b1e1e540cc5dbb29e8757a776bdc73cf
+  - ref: refs/heads/master
+    old: e5417cbf7ab5df1632e68fe7d9e6331fc0e7dbd6
+    new: b19ab4b38b06aae12442b2de95ccf58b5dc53584
     log: |
-         db627d9a36d1eee7532a4068d61255c303a87d30 kfence: allow use of a deferrable timer
-         80feb35a08823c0043ae42b675cf0d1dea398e1d kunit: fix UAF when run kfence test case test_gfpzero
-         0d27990641e3da521bf59c8b1defa51b92a2fc8e kunit: make kunit_test_timeout compatible with comment
-         f2439e37b1e1e540cc5dbb29e8757a776bdc73cf kfence: test: try to avoid test_gfpzero trigger rcu_stall
+         b19ab4b38b06aae12442b2de95ccf58b5dc53584 ethernet: Fix error handling in xemaclite_of_probe
          
