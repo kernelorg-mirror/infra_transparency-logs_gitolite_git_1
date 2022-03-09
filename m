@@ -1,42 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3873192708592541150=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 09 Mar 2022 17:20:20 -0000
-Message-Id: <164684642091.13245.4521172679178202965@gitolite.kernel.org>
-
---===============3873192708592541150==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 09 Mar 2022 17:29:02 -0000
+Message-Id: <164684694236.17314.15589133128839790721@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: cb18448bbf1c845aecaa09b04cfdcceb070d9236
-    new: 10b29dd7eafe1987b44866d3ee1d0d71bf622cb3
-    log: revlist-cb18448bbf1c-10b29dd7eafe.txt
-
---===============3873192708592541150==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb18448bbf1c-10b29dd7eafe.txt
-
-60c7353c6b23537448c7b24498f7bbf8973a81ef Input: soc_button_array - add support for Microsoft Surface 3 (MSHW0028) buttons
-faabb26838f30b5a49178a50c8286e900928400f platform/surface: Remove Surface 3 Button driver
-f6d92cfc79e830d9976c69e80f97d80bae7c9c6c tools arch x86: Add Intel SDSi provisiong tool
-a3d38af35d61a1e2045b73b4e43fa5ffb9d71008 selftests: sdsi: test sysfs setup
-e1c21608e3cfc4b44ecdf04e12986b6564667095 platform/x86: thinkpad_acpi: Add PSC mode support
-c91a5b1c221a58d008485cf7d02ccce73108b119 platform/x86: huawei-wmi: check the return value of device_create_file()
-f2a6c7e7474001842a4adaf042d12206c27fc391 platform/x86: intel-uncore-freq: fix uncore_freq_common_init() error codes
-d713b8d2aa03454e676fbf453b1231c43033c33d platform/x86: amd-pmc: uninitialized variable in amd_pmc_s2d_init()
-1e8aa2aa1274953e8e595f0630436744597d0d64 platform/x86: x86-android-tablets: Depend on EFI and SPI
-d4b938abafc83c1e79694c5ff8d749cd23243a2b platform/x86: thinkpad_acpi: clean up dytc profile convert
-6229ce9c36384c7adce09f06a3a1897faa5f2c1a platform/x86: thinkpad_acpi: Fix compiler warning about uninitialized err variable
-10b29dd7eafe1987b44866d3ee1d0d71bf622cb3 platform/x86: thinkpad_acpi: Don't use test_bit on an integer
-
---===============3873192708592541150==--
+  - ref: refs/heads/dm-5.18
+    old: 37c3f24df8a1c3e08a40d884f094d2cd11625cd6
+    new: 01e69f52bb03cbd802ef0edae7160b6bc8c9a655
+    log: |
+         69fe0f29892077f14b56e2a479b6bcf533209d53 block: add ->poll_bio to block_device_operations
+         b99fdcdc36369d2a3a26bf44736d420eb629d8b7 dm: support bio polling
+         e7550a748ba988d6a86a3cc9c0a72768f697a8b7 dm: add WARN_ON to dm_submit_bio_remap
+         790ccc2ac9ae6654e2e2138ee8cf418d1eef9c77 dm thin: use dm_submit_bio_remap
+         01e69f52bb03cbd802ef0edae7160b6bc8c9a655 dm cache: use dm_submit_bio_remap
+         
