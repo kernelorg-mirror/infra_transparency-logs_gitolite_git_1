@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3259214967167748768=="
+Content-Type: multipart/mixed; boundary="===============4000385182846446684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 09 Mar 2022 15:58:59 -0000
-Message-Id: <164684153973.23276.14099348461381345199@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 15:59:01 -0000
+Message-Id: <164684154102.23369.5057874919395937469@gitolite.kernel.org>
 
---===============3259214967167748768==
+--===============4000385182846446684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,71 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: fffc858299cfd5be59202cb8a06f537360a1f3bc
-    new: be15501ac1fff96964cb8880d44736bd1653295b
-    log: revlist-fffc858299cf-be15501ac1ff.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 008572656cdfb7c5cd719977a91b084176e07e60
+    new: 2ef7c55895217efa8183111969710960a529d3cd
+    log: revlist-008572656cdf-2ef7c5589521.txt
 
---===============3259214967167748768==
+--===============4000385182846446684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646841538 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646841539 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1646841537-142f990b9f39e82cc415b8e24c2569e8e4a611fe
+nonce 1646841538-46c0f6027286634aad6160a316bef52be09d305e
 
-fffc858299cfd5be59202cb8a06f537360a1f3bc be15501ac1fff96964cb8880d44736bd1653295b refs/heads/linux-4.19.y
+008572656cdfb7c5cd719977a91b084176e07e60 2ef7c55895217efa8183111969710960a529d3cd refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIozsIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ckUP/jNF7bt+jpCRlsAhOxO7
-LdO8pXVW60ggf0cEKNqerDX8cJFiG3KxXYR37deKo10u0FdJXaG5IyqqPjgcl1Db
-AcI4cmF3kiRAqiL+3wjauvUb5KdcMAtOYEQ2XKB4i+sw17tNrW9MYCIKuj9UwRdV
-Cmap1LzjQOimuAPyoW/O621+1BMTA97RthFhApuOlPhhp6+/2Dte72Eve0/jJCEN
-BkKyaLm5aT0O2p6WDvWeBETIrtbyk5dvOLNbtj9SKDBJYPpICViZaYiEK6WadRXL
-TYYvwXQpJoDBBO9+22Uw6F7GFtTDRhHvpvkrL7G83OBpkqD4SzIcy1mGengaqsa7
-6NVcZsDTwmGKJeGCPTuV+IQO9+2WCC0PWbjzNFdQWY4TN4Vrcz/B9UxoEjn0n++R
-gSnYEFiGwUwL79R3I+1gt+MTOXkh8982ndgJqVViG6i3T/5/UCV11lZh4mFPb/P/
-IdvCL7lapG2VLoxTJBoRhTkfY43ByoKZOBzPzzb3cOahCdZ+IwyxC70cXBRWvQcN
-n69x5Z4EjORQ3Vd+l3WzYG3Bkn1Zn0iL6vhpSApRmctJ0tLRmZ5csl10zG5P90GG
-NGEXEleqv+sAC+kKX9Y09Z06s+Zs/LnAS+8EDVDrpUDfSR4k7KQOI1BArpzftd5v
-a07v9Td7Lh0O280OaN2OHtVJ
-=kI7+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIozsMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rxMP/0wVyj7m6jvfSdvnhZC7
+MW1THcE+ATjCAY5MVJ+gm7umwpt9+5SCvjs7lTVBrN6LnzyU6FBfq2y3Av4wfBj8
+45tKWXsJbAobrI6hBG0epD79Gne5xHiyClVMX6cUs1ASkmzO88bJO/7g+TPLYwFS
+TNQpBcq1FAsaRwqkYz9AANXk/Ad60DoHkxZuAaCTHaoSduqgOjgOJyMLOv9gD+OG
+F2hJgnx09OY3fwNVXztA/wLbrUb0fPwELaMGuviO6NJdJfuIczn+FfS0N06A/I/o
+lA+FYnbQYdEd+nJ0ryvNI6u/bx5z+x9u+/kaAcIv+zB3tKACCE7JQ7poiRDUZdpF
+77cItGK5fyMzheDDhCgmI5pn9DODtNOCha3hX5Td/+POXi64Xo7Fb1u2Cw1TfaFm
+p3HKHf1ceBDpAHSKCGHLspzOFT9X6skpuXwyKO/p/wl6w5mbCsbfp7BF3mDKk4Ws
+e1Vwrv/Lz0+mJVWVhuxsXKwRXlHow26l1EAG5pnC3ShOvswzYuPC+pkA4kK5EVit
+CzR7h3WtZWrGKhM94NrX0V0lcR0Cc34H3+OzVjpK7XVQ3tWZOS9BEl84HU5gM7/x
+9vEA3ZYISY2VzKdXoFooFgyV8KYsxxt/8IZFgudCAgk6gRMvyuX8pnKUAuyYv5dN
+lYHap67l2GBpNLoEY0reSlC8
+=RiCs
 -----END PGP SIGNATURE-----
 
---===============3259214967167748768==
+--===============4000385182846446684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fffc858299cf-be15501ac1ff.txt
+Content-Disposition: attachment; filename=revlist-008572656cdf-2ef7c5589521.txt
 
-dfc6096dc430067b106e4e32b5e443814b5c04b4 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-84bc38f90eb9fecab49b2678c13b8ace8ebe3fb0 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-42fca3db18a9e0d4f9f23f81b4b5115ca83b4751 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-e2982efb00a54d8f5e682cbf68ef9844040b5811 x86/speculation: Add eIBRS + Retpoline options
-ba81977a470c874ce83bdc96f1749c6d36ccfefd Documentation/hw-vuln: Update spectre doc
-b799f7ac596fff0c36321428de9fd7c9aa8c4008 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-235558f2edcb2d51f29f7a51862e5e9331117ae3 x86/speculation: Use generic retpoline by default on AMD
-bdbeba47f617b6be1c1df6a3c29b0eadf8054f4f x86/speculation: Update link to AMD speculation whitepaper
-69a4715b821de4cf973df10a935a0e3bcada38f5 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-623ec99a4caf2c56cff918db90feb640a1703bac x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-9bca4a015e870f6bf1e8ffda4098ed25592eec8b arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-897a86bb5c2b713688f1ab6871928a1ec3168bfa arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-a2ddf1aee89e935686cd8d65ce39904a033f0d90 ARM: report Spectre v2 status through sysfs
-879968801f1b817145ba9b7409944feb454fbc9a ARM: early traps initialisation
-c04b215a47a597b3abdce5e933308c83ac688414 ARM: use LOADADDR() to get load address of sections
-f6aa6161a961e81f945ea1bad78ebfa059c8547c ARM: Spectre-BHB workaround
-6524887523837dd35b06688783e7d52e4e88a346 ARM: include unprivileged BPF status in Spectre V2 reporting
-e03129827c95e1cacd49c0fe5bbf28a2cf6081c5 ARM: fix build error when BPF_SYSCALL is disabled
-be15501ac1fff96964cb8880d44736bd1653295b Linux 4.19.234-rc1
+06d880b74a54708c8bdd7ed4a53df769e1694265 x86/speculation: Add RETPOLINE_AMD support to the inline asm CALL_NOSPEC variant
+a8c032ebc99d1caaf29b3ddf93af6805f68d5bc8 x86/retpoline: Make CONFIG_RETPOLINE depend on compiler support
+7e7cba123fd8ebf6dea4ccb893138cdd5df247b4 x86/retpoline: Remove minimal retpoline support
+aeb60d78207452d146f427301abed6535bf595cb Documentation: Add section about CPU vulnerabilities for Spectre
+9dc662bfb4fe4e678ffb94f7d3b33e4b0f1b6be3 Documentation: Add swapgs description to the Spectre v1 documentation
+6bc87d33241209a01f53e81782e2d42d8c404d1a Documentation: refer to config RANDOMIZE_BASE for kernel address-space randomization
+02e76ea4cc616daa9d57029d5d3732e0eb2c1e31 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+6ffab5822843c80c80d9e6c1f11ccbb383311dcf x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+54645dad69adba77a06107ea9cb4384df788fcf3 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+826aab2cef472fffd96480b6498fb7909cd861b7 x86/speculation: Add eIBRS + Retpoline options
+bf725bed31bd100edd610fb1fc2cd7466abb9cde Documentation/hw-vuln: Update spectre doc
+0da04fd67845c3f76cf15a5341d56b9e3e9543cf x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+bf32b5a0cd1acbfa40172c9be990029b82d8b388 x86/speculation: Use generic retpoline by default on AMD
+655767080555d71727fc0c241a9c2b460031a899 x86/speculation: Update link to AMD speculation whitepaper
+0d81029c9d40387223eae86a3d2614b5424fbc85 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+e6af44d966022bf9115a8960425eb6fc2389e3bb x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+214d65aebb2bca3c8ea6c2e003cc9be4af2940fd arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+9ebd845f3cd18cbd7cccd7f58c2da3b954274e9f arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+f30e34db0fd4dd9de6bbf1f92ceb8d41e43a14af ARM: report Spectre v2 status through sysfs
+18b649120895a481b2dfd235f2f84864c429079e ARM: early traps initialisation
+41b13534ea8aa554d4e987650e24da5510258752 ARM: use LOADADDR() to get load address of sections
+d0002ea56072220ddab72bb6e31a32350c01b44e ARM: Spectre-BHB workaround
+fd723e642aacb60567beda736ebb062db44b8349 ARM: include unprivileged BPF status in Spectre V2 reporting
+5bc9aac38d145dab511e48c36072c40f71d3b518 ARM: fix build error when BPF_SYSCALL is disabled
+2ef7c55895217efa8183111969710960a529d3cd Linux 4.9.306-rc1
 
---===============3259214967167748768==--
+--===============4000385182846446684==--
