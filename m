@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3409610003784745465=="
+Content-Type: multipart/mixed; boundary="===============8593323678511214912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Mar 2022 04:08:31 -0000
-Message-Id: <164679891154.30980.13652084033824370206@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 04:08:42 -0000
+Message-Id: <164679892208.31124.8607205046828159837@gitolite.kernel.org>
 
---===============3409610003784745465==
+--===============8593323678511214912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: bb02f40e768e840927748a787853da294718fe0f
-    new: fd1cda09f89338a1cda9fb7e485bc110d974f9ed
-    log: revlist-bb02f40e768e-fd1cda09f893.txt
+  - ref: refs/heads/5.18/scsi-queue
+    old: 26440303310591e29121964ede0048583cb3126d
+    new: 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f
+    log: revlist-264403033105-71bb9ab6e351.txt
 
---===============3409610003784745465==
+--===============8593323678511214912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1646798903 -0500
+pusher 75C5DE3D 1646798914 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646798902-83c1fd653476acd73e65fa82855d33221535bb6c
+nonce 1646798914-d17151ab613e5124a85fa7d87bcb1c16621a5e4d
 
-bb02f40e768e840927748a787853da294718fe0f fd1cda09f89338a1cda9fb7e485bc110d974f9ed refs/tags/mkp-scsi-queue
+26440303310591e29121964ede0048583cb3126d 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKDcACgkQ7ulgGnXF
-3j3Xcw/9FUVtKm/nRriyc7qzoBWXydV5I2MJQKPWsL0BDZil5/y+jmhv55EkN5rV
-MouqgrfbjKUBh9Y7iNlKG1o5mWN6aqs1vCGJxRiTMK8OuMiridz5SNzF7YtaBLD5
-se0RrHnx2cRSIsVpbyQZf7m0vRdqe18pA7f0eEVhF4USKRzTyYOxyCmTSmTtK3O6
-hWx35AkjwAxYL5MkAcbeyBbt7WJeQ+cEt0kp/dGKbSqU5HYzlgSe05xwaRMDKTSk
-y2T7TKqrrDR4fHjere3tZahYTJtJmlm6EtoMjfx3CmguUhnN0w4H9lS6dPBoCtas
-IQ4f/a/PwNrtl5ooluFLH71dG8RmhLsMd3Qyx75PRxi7jwOF2DFrBMgrQKAzGF3k
-KOucfWKDMOrXDBde8aHCSIFXqeEidoQzcKP7ZibDhThC7KVXI2R69j7fRj73MwHe
-9IeZELy0Qgz6WZLeIltus88CCuTvuvqR84S+hVFOR2aVYsP6g7LgA14WfzKoxZ18
-LxHmx0BSrLmGOqDpvCuv3MfZBALIn7LutFSKInwPfqrv1uTVPd2+K1SmZVtbtS6P
-Vc56l1N0rpMK9f15Hq1oRVWxvopsPxScsg867HTeyHRlKXJ5cJajG3XB6Fkp8ghn
-vZza8SxjkvmJe1Y61xpocpico2Y4RXk5VlB4Mv6893KwCvKAacY=
-=nf1x
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKEIACgkQ7ulgGnXF
+3j1krw/7B5n262ZBdZrpQPUgmuqzohMcbYIuP4CdSegJ/teTaL4pVtLhgi787Uzh
+deKbVmC3F22eMalAQQm7swK7pFKN68WQC2SCn/ZJP7HbkfuZlEQbSUfWbhOYS2vG
+EzSQYroGAm9VEGAKxnwY8i8BpW6hCpKEZBxXRXmxcMkCniGsJ1o1ImfkbB4ZLWt1
+4a9Dthyq0Im4EV5uUcjvvS4RjbRVMxmAF63BeRsVJsdD+OhNW7bDn+nmJq2NHbS9
+kl4ONUDwxOA3wKCvL8CCPTF6LjnEk9kHNqaGWiSA9lPh06nvcVt/IjXKW8xPuk8u
+uWQz05LslPIkTJ3V14Bwv3X96Pvxvr4Eoxo8euQsUaenbzZdVXB/AYk5mopZtn1X
+r4MFtlSIAr63O6Zhr98EBvBOMhmeG457ZVjD3eUYLi/IxaE0t7ejB5stRaIigtH8
+b28A6z9EkHjEubu23dUXA9C3cnnk6IDgA1rS5pE1FsBFQ2RBIjJoS8Ah6kOxChFS
+YF0d+d7VpnBvf2v+1zCGmKoO6/xUhRpJplR0V6KDLoMmAMrOYCXOYUkQOkBl/G0l
+gSoCoBwGw4HI6cYuTKgYR0vToOdLgktPM+XshUu3Gcbz+6S1d3cizCcL42gXHPsE
+jSF8m5h+szoxg7bfEo/aKcweKWT061vAtrcs0nSLVd1tCDIalyA=
+=F4d4
 -----END PGP SIGNATURE-----
 
---===============3409610003784745465==
+--===============8593323678511214912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb02f40e768e-fd1cda09f893.txt
+Content-Disposition: attachment; filename=revlist-264403033105-71bb9ab6e351.txt
 
 32698c955295957d63f042f4bb30e9d613ca8b55 scsi: libsas: Clean up sas_form_port()
 07e0984b96ec1ba8c6de1c092b986b00ea0c114c scsi: scsi_transport_fc: Fix FPIN Link Integrity statistics counters
@@ -73,4 +73,4 @@ e81ce97f571607757f29a8a25ae0051e72b3c832 scsi: lpfc: Use rport as argument for l
 af4edb1d50c6d1044cb34bc43621411b7ba2cffe scsi: core: sd: Add silence_suspend flag to suppress some PM messages
 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f scsi: ufs: Fix runtime PM messages never-ending cycle
 
---===============3409610003784745465==--
+--===============8593323678511214912==--
