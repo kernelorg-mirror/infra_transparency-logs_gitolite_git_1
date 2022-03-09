@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4099436333339738865=="
+Content-Type: multipart/mixed; boundary="===============6305334229741328188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 09 Mar 2022 15:59:04 -0000
-Message-Id: <164684154431.23589.1492019992984624400@gitolite.kernel.org>
+Message-Id: <164684154463.23613.8373422492005541950@gitolite.kernel.org>
 
---===============4099436333339738865==
+--===============6305334229741328188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,90 +16,90 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 85e0bfde7535402d6e40db8ea47f1768e9ee21d2
-    new: 948492e30880804fcbdaf8003d281d4b813cb445
-    log: revlist-85e0bfde7535-948492e30880.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 652c28e207c2f1eee7fea963d32a057d827b70e9
+    new: 980f7d3e8f911b7e604fbb1c1e8fcdc2a52cb107
+    log: revlist-652c28e207c2-980f7d3e8f91.txt
 
---===============4099436333339738865==
+--===============6305334229741328188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646841542 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646841543 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1646841541-67634b63684e0c3aa98d2ea1b208cc77a899933a
 
-85e0bfde7535402d6e40db8ea47f1768e9ee21d2 948492e30880804fcbdaf8003d281d4b813cb445 refs/heads/linux-5.10.y
+652c28e207c2f1eee7fea963d32a057d827b70e9 980f7d3e8f911b7e604fbb1c1e8fcdc2a52cb107 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIozsYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JToQALd+jeZgFtNwK352MMYm
-7iK6LIdMx7R+Hmy1dMZo+L3PsJl4Bopr5erOdWPYVQV4rjPUU9LmNwIHIpPb9H2W
-fecc6JvA8erV41i2GADeGiG8HWxwqZBm2gzbxWAo51qDD5oNZoHQmx8Q4lDmVCId
-Lxbz3SHJtYN8lHVm9rQi4D4AzlNYlozJ0y9CBiVlzTvz3lowlb/LfjL2HNFEBKBx
-iRfrtGcJFwJ7p4cwtvdDqLzwNdzCv5eDD7TMXlEVzTQQTQ+f09KhNFdB2H9issUc
-HxQWgsjNRq1Eo0JjBqwKqKeTyI4whOwyGculAYK0nbevnK5+f+pAKpm3QlloiGDm
-kshylKy0e8t5oUoohJz8EBdVoVf6Sv91QdChnZtvxdTEMtDCa79z6785MwmL3lUy
-iz8ccxg4pT0IgARtPPQLOxSKy7XK+y4ASKP2O2+ZgzGo7mhAI0iJcLcJt/gmJlaU
-517rWh4jB18d/KXVFjPFDO1IEwTE+6P5hpdL7UHJ9X9/PN/tueyOuAU0zlq9dg4r
-Y3kF6bGQX79wMtpOcmuXPeTeL82Ql6p1+NGkpQ9kV9ag8/6OAhTlPdcrFtEd0JTm
-hb5KcOy03H71i/vVIBdP4fyHzwnh19dR6g+0p7zdEcF6OaPjQ+9SQCX9HVj1szik
-+LRT3t2TnVmELkysdzd7HxB0
-=s0Tu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIozscbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uYMP/A5wfBVDUmSay1f9NADe
+gfRR5ARrTlNoTPpN4wlB9Mt8AYu+YAgmob/GKCCzYzdlODEa9rIJVV1B4OMtIxcM
+B5HKEB4HsM7uGEs4efST8NplsC2EFR08enjbOwEA+Wgz+xggWmP/Tzs1dUmFHyuR
+yJEg8eP0oBCesFq+WURbb1xgCcdXSz9m4rHEKnfYQLr9pnrdWMOyuJnFl1uzto9u
+SToIaYn2iNHvvzWs4Fg6WF+6OCHkWg4IgEHbOi2VudSKpGPx6LyB49J1qt/AgfD0
+uwotVjzl82kbJhK9THhV39mQatYPiwDrLSznk47At555kHLhzFyWVFjg/J2gS/lS
+J9cD/zqhwHWbPHt9nDrZb40mnCRtDmg3m7ingHSdXUVtrEARF3bzIMOg+/nvayZN
+6Wd4odypjRS2UQwzHvew2ZosieGD1jw5E2rPKuQ1YLxop0m8kn3jdBrt/4A7E8a1
+j47nzXVENiRZrmYKkBQ/N0F2bk10iWQHZ0WWoVrDLhGGQ4ANWb/kRdHf7Fj43Sbf
+J2YDTTDSrYpxRm8l341y0KE6wseiuozt1kig0QpgefRlOpYfPCL9EkheH34pHCoM
++AEgU0QMewWVEvZQNAJc0pDGM1mR+ZPGsc0gf+r/Xb050/EFNa1ZFnnUkWe1Xb0w
+D1Dt3WTuTL9UZ/SD4sefIQrT
+=Dk7g
 -----END PGP SIGNATURE-----
 
---===============4099436333339738865==
+--===============6305334229741328188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85e0bfde7535-948492e30880.txt
+Content-Disposition: attachment; filename=revlist-652c28e207c2-980f7d3e8f91.txt
 
-24a276065fe12270b683328b5f1333433b9a3389 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-78abd1d4ed83d1469d88e59962eb6da6614ecfc4 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-ae2d6688dc156ca5c21910873d6a87b5b4ef26e8 x86/speculation: Add eIBRS + Retpoline options
-5ad7dd58b984d2ec2d9f7fa9945313bd20cb4b4f Documentation/hw-vuln: Update spectre doc
-fcf51c8265ecba1aac9d47cad2044251d10112fa x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-85721af95242c10cd294784c6e1f0fd16a6f1998 x86/speculation: Use generic retpoline by default on AMD
-13f1ce651f4b42cbdc366974796da67ccdc15871 x86/speculation: Update link to AMD speculation whitepaper
-16c5fcca9bfdca0803acffb891a5686806ba6bff x86/speculation: Warn about Spectre v2 LFENCE mitigation
-9774828faeaf22dafbe0a2fdc35510592bdbaef8 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-5641a2b51c240ab745f2bc9b9f270c2679f0652f ARM: report Spectre v2 status through sysfs
-b250c2ae03d07085d0e53845193b3dc6ec8cae68 ARM: early traps initialisation
-7e5b1cfd59bbac0479c1f686f738b0cad8608024 ARM: use LOADADDR() to get load address of sections
-034acdaf5e098827f55ee7d083fc1f58300ca962 ARM: Spectre-BHB workaround
-915e51891896ad85bd503f82d54b1b3a5c96b394 ARM: include unprivileged BPF status in Spectre V2 reporting
-234050075504dc03074674d8287ebf54add3656d arm64: cputype: Add CPU implementor & types for the Apple M1 cores
-a33f9ee55669da55fa885c70b9a9f2068f43496b arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
-219b55fee8239107bb7cf38190580dbca00f65de arm64: Add Cortex-X2 CPU part definition
-dca9c0d603c4f3764196bd36007df26adabb919e arm64: Add Cortex-A510 CPU part definition
-74d785c48237d0dfaf679c762dedf4a3103a3aa1 arm64: Add HWCAP for self-synchronising virtual counter
-0ef9fb30feb36bbf6b274a52eba3ef75970db714 arm64: add ID_AA64ISAR2_EL1 sys register
-f3c5245b41728e226a8571ebde3f4513beeefb3f arm64: cpufeature: add HWCAP for FEAT_AFP
-36fc31da8e8628c6a280c41a3333e267d06f1f8d arm64: cpufeature: add HWCAP for FEAT_RPRES
-0299fa64d33c85d39d46ffa851a4b59d24a8755f arm64: entry.S: Add ventry overflow sanity checks
-921770c79c37386ec6a226f68e8241a18e25e139 arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
-578c7ab40141fbe63c8cf7970cc6215018f3ad15 arm64: entry: Make the trampoline cleanup optional
-89bafa71b49962179d9d70a1c9727b5bfc8aa97b arm64: entry: Free up another register on kpti's tramp_exit path
-3b0ac751bdecd207f9cd4622f88456430cd3702a arm64: entry: Move the trampoline data page before the text page
-2c2ae73f7d8fe83914c77b7f09f53f9d014a9d0d arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-abb3f37b3fb41e4a81919ee9ecf8180bf3ba5a68 arm64: entry: Don't assume tramp_vectors is the start of the vectors
-97e338980ce54319c47ac9590a7d63aa038d13ca arm64: entry: Move trampoline macros out of ifdef'd section
-0d414ee0ac059cd7597341e8f5a51b9660156bdc arm64: entry: Make the kpti trampoline's kpti sequence optional
-99a054bb34863d48d07f18c426359fe03faadbf5 arm64: entry: Allow the trampoline text to occupy multiple pages
-db337430bc6e2033e239b8d7a68fafbd5506e9f1 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-c6d79e1315fafd4cd0ddcd8c929cdf9bdfbb7ade arm64: entry: Add vectors that have the bhb mitigation sequences
-2ab18afd1374a3b767247e1b9747605bc5559a2d arm64: entry: Add macro for reading symbol addresses from the trampoline
-5d123e75e9cb04e0151483d7736ed48de16d7009 arm64: Add percpu vectors for EL1
-ba21c6a32a353b099d854710b51b1b46ad05e2dc arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-29b99d3d6fc0cffb0608fc368fbd91ad44fd0eac KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
-55d7260c6416efe77ccda9b8b52c4eddb63f5843 arm64: Mitigate spectre style branch history side channels
-b0b3e24c341e6714a1f640872397124f64220918 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-efb963ad93189c1013b87897967fd4b7cd6cea28 arm64: Use the clearbhb instruction in mitigations
-c6c93a462def156aa45e50cdaa9ea8e0a799dee1 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-5c016f6751cbb102d4a0861ba2b05bdf84853f83 ARM: fix build error when BPF_SYSCALL is disabled
-948492e30880804fcbdaf8003d281d4b813cb445 Linux 5.10.105-rc1
+8c72ecdac2c294e7a544bfaeca812cfc513c0e4b x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+1217163d3f181fa5a97e75d4b7f1bb4114fef098 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+1fd674403341d7748a99a29ee8957a1efcd86b77 x86/speculation: Add eIBRS + Retpoline options
+f416cf15fd58b57340dd305cb35a36ba1f1167df Documentation/hw-vuln: Update spectre doc
+43e8a45b8876436d3d8f104c2fe92bed08825241 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+f1c473951d632cbbd27088e23a4d2508c673a41b x86/speculation: Use generic retpoline by default on AMD
+abcb9bca591bc355d40697153dd6c5e72d9f295a x86/speculation: Update link to AMD speculation whitepaper
+e4109ca3ee8855635f8f62e52d0e4febdd657cfd x86/speculation: Warn about Spectre v2 LFENCE mitigation
+49a4820299831c95d3fbadadfd373e6a7848188a x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+71b635a451ff4f023aa52ccc4001de6170e302db ARM: report Spectre v2 status through sysfs
+da63d1412c5255ac4e65e54b22850c6398d0e97c ARM: early traps initialisation
+2bb36e457add3d6e54033079de9016eb6a0a0fd7 ARM: use LOADADDR() to get load address of sections
+8f4782a68fafec934310d288e3dbef8174c14ccd ARM: Spectre-BHB workaround
+e3c51bab5f5762bdb8b3ac137507e3baa7c25741 ARM: include unprivileged BPF status in Spectre V2 reporting
+52a3c3680485a509be94dcb8f63ecd07753299cd arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+b4328534c6198c34bc759e85aa52b0c535360c1e arm64: Add HWCAP for self-synchronising virtual counter
+bacd1409209afe0f0745435ac656fb6a5bc68ed9 arm64: Add Cortex-X2 CPU part definition
+3f26b2fca04957380bd362ec2f815cef2c29c6f6 arm64: add ID_AA64ISAR2_EL1 sys register
+bc2665e4fb212acad05370fa9574244e457cf379 arm64: cpufeature: add HWCAP for FEAT_AFP
+a2af6746fd65268650f9137ae2305274e144da0f arm64: cpufeature: add HWCAP for FEAT_RPRES
+16be7e63c8195e789dfab8ecf9391f1cbe2973eb arm64: entry.S: Add ventry overflow sanity checks
+28f89dd8cbd6b5c9f6923a644d390aab855174e0 arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
+9fe6ef8d6b9b7571d07ae560e16bea0c4494f71e KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
+c17fa5dbc9852cf10e24f6466cb54a03f43ef95e arm64: entry: Make the trampoline cleanup optional
+d39863f13935c7826701b0bfc6b115cc213e1f9b arm64: entry: Free up another register on kpti's tramp_exit path
+7cd64952d1b9d839b23c4fc55a79e206ea244ea4 arm64: entry: Move the trampoline data page before the text page
+8da20f2e344cb0fe0b10e393229de9e32a5ff247 arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+0d98c38683cdd895bbd773e19ebe4f50649d70da arm64: entry: Don't assume tramp_vectors is the start of the vectors
+856df2475783bfd26c1d352f2795b70a8ca50b9b arm64: entry: Move trampoline macros out of ifdef'd section
+7179dc83b5fd6b5cf4c59b3e1ebc3579765a06ad arm64: entry: Make the kpti trampoline's kpti sequence optional
+70cfb77531e185779dc6c4e66424dadf09ce6b38 arm64: entry: Allow the trampoline text to occupy multiple pages
+4075e07b5ef288b3d04b6f5f8f818bd9e5aa2765 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+720b8398671f99255d672b642a9c27ba33d0eb8f arm64: entry: Add vectors that have the bhb mitigation sequences
+1a33d424425f313ebb333189d67c24264086d4c3 arm64: entry: Add macro for reading symbol addresses from the trampoline
+02a7c013e48f56b147269dddeb7286cd6dbc9ce5 arm64: Add percpu vectors for EL1
+43b363f27ee653ff99ef766ec2b2a9b18d3eed19 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+b57e5dc9fe39451d320fd85c207537f23f0b3d8c arm64: Mitigate spectre style branch history side channels
+d3d5468798e0db9dba87f56ee3d38451111f01c3 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+91970130d6dc3882674d20baa6583d110a5a0f96 arm64: Use the clearbhb instruction in mitigations
+8a51fedb1a8c0441992e0909e19124b5b61cd533 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+6f390f1931ddb8c89d07bf5fef31f43aad4af91a ARM: fix build error when BPF_SYSCALL is disabled
+f3e22c45053e772051fc619a23a9365d276a7e4a slip: fix macro redefine warning
+f17e5f841880344eef537f4c6b19ca083c1e97d4 block: drop unused includes in <linux/genhd.h>
+980f7d3e8f911b7e604fbb1c1e8fcdc2a52cb107 Linux 5.15.28-rc1
 
---===============4099436333339738865==--
+--===============6305334229741328188==--
