@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 09 Mar 2022 23:11:46 -0000
-Message-Id: <164686750654.5848.17160867173906580818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 09 Mar 2022 23:36:38 -0000
+Message-Id: <164686899870.22166.10876788810587911203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/pci/host/rcar
-    old: ee05a724f5989ea90e71c16f18e27303c3d62291
-    new: e2502d3a7d35825478e8ced97ccbf34b20c6691f
+  - ref: refs/heads/master
+    old: bb4d9442696960f2af09df701d85cc93d910436d
+    new: 5da0f530c877e6eb9e87cd0d2ed93de75ec94f0c
     log: |
-         e2502d3a7d35825478e8ced97ccbf34b20c6691f PCI: rcar: Finish transition to L1 state in rcar_pcie_config_access()
+         5da0f530c877e6eb9e87cd0d2ed93de75ec94f0c Wed Mar  9 11:35:45 PM UTC 2022
          
