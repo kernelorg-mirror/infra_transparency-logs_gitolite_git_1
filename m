@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 09 Mar 2022 23:43:07 -0000
-Message-Id: <164686938742.26048.17096807448857399372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 09 Mar 2022 23:48:19 -0000
+Message-Id: <164686969987.30343.14599810388380386450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/watchdog-next
-    old: f0513a27b0a949add72720a6b6b5804e07259083
-    new: b6447e51682d2d364b82ba35606888e39251dfcf
+  - ref: refs/heads/master
+    old: f4fe76112c8fbe0a2d2e3ebd94ff2cfe22977e39
+    new: fb5abce6b2bb5cb3d628aaa63fa821da8c4600f9
     log: |
-         b6447e51682d2d364b82ba35606888e39251dfcf dt-bindings: watchdog: renesas,wdt: Document RZ/V2L SoC
+         2abc9c246e0548e52985b10440c9ea3e9f65f793 KEYS: asymmetric: enforce that sig algo matches key algo
+         590bfb57b2328951d5833979e7ca1d5fde2e609a KEYS: asymmetric: properly validate hash_algo and encoding
+         fb5abce6b2bb5cb3d628aaa63fa821da8c4600f9 tpm: use try_get_ops() in tpm-space.c
          
