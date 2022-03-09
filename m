@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 09 Mar 2022 19:28:20 -0000
-Message-Id: <164685410046.31930.3259796190511668407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 09 Mar 2022 19:29:54 -0000
+Message-Id: <164685419413.32446.17131878325378653734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next
-    old: 17bf6b7c7835841f77adda76802ac2e6c11ec65e
-    new: 16d1f0a7938568e32fafaedfeb45dd661e9880ee
+  - ref: refs/heads/master
+    old: 7f415828f987fca9651694c7589560e55ffdf9a6
+    new: 24055bb87977e0c687b54ebf7bac8715f3636bc3
     log: |
-         fa4300f060e5c4ca670b705f1e9b93685ad30c5b of: unittest: update text of expected warnings
-         132507ed04ce0c5559be04dd378fec4f3bbc00e8 of/fdt: move elfcorehdr reservation early for crash dump kernel
-         34f3eda8c8ffd4d0b2145ac11c91cc365cd1ada3 MAINTAINERS: sifive: drop Yash Shah
-         0c0822bcb73f154d96ee648644ec5a8628e3b864 dt-bindings: update Roger Quadros email
-         7e807f4b081c5813df21da54e9a0491ea2ce16e7 dt-bindings: mfd: Fix pinctrl node name warnings
-         f6eafa4022dd61e029205bea4d4147d26e69fef2 dt-bindings: phy: ti,tcan104x-can: Document mux-states property
-         28650a5c3a3471f8211b567bc8fe55aebbd4df66 Merge branch 'dt/linus' into dt/next
-         16d1f0a7938568e32fafaedfeb45dd661e9880ee dt-bindings: Add vendor prefix for Xen hypervisor
+         24055bb87977e0c687b54ebf7bac8715f3636bc3 net: tcp: fix shim definition of tcp_inbound_md5_hash
          
