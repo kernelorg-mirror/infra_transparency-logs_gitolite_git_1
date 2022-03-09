@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5186542918422974173=="
+Content-Type: multipart/mixed; boundary="===============3259214967167748768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 09 Mar 2022 15:58:59 -0000
-Message-Id: <164684153935.23249.10259495995315477350@gitolite.kernel.org>
+Message-Id: <164684153973.23276.14099348461381345199@gitolite.kernel.org>
 
---===============5186542918422974173==
+--===============3259214967167748768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: f1bb5f1eac6df1ac10e9ca24a9a30ebef99225a4
-    new: b0e99fb904717023cd79d1eb8251a47db658e9d4
-    log: revlist-f1bb5f1eac6d-b0e99fb90471.txt
+  - ref: refs/heads/linux-4.19.y
+    old: fffc858299cfd5be59202cb8a06f537360a1f3bc
+    new: be15501ac1fff96964cb8880d44736bd1653295b
+    log: revlist-fffc858299cf-be15501ac1ff.txt
 
---===============5186542918422974173==
+--===============3259214967167748768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,49 +32,49 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646841538 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1646841537-142f990b9f39e82cc415b8e24c2569e8e4a611fe
 
-f1bb5f1eac6df1ac10e9ca24a9a30ebef99225a4 b0e99fb904717023cd79d1eb8251a47db658e9d4 refs/heads/linux-4.14.y
+fffc858299cfd5be59202cb8a06f537360a1f3bc be15501ac1fff96964cb8880d44736bd1653295b refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIozsIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fMAP/1SdUTcR57MOa5r24Z8J
-B8Zr8MmMZbGpIVplo1iOc5SILmWheQNJoB3ruuseu1Th7UB32SakUZIi++GJFdwL
-VZc3n1emB2bHQ887jYFcqhjvoK18Wj3tgvLelSD6p0L0K3LfUqhP+uYDjCUEWKCY
-YG3SK2QiuUympRjbEU5+BNJs3k+QDjAsCZ9Qa+yhTOcdmiWf9uPB3eWWHjf/n9lA
-oVXwxObQGSgyyDrSbgzFlKrwtH7dX9wJCRr3MLO6EqY9Gs+PD+83us93jxKJCYTH
-B7S7QHdNEq4BhMjW9lrPOxGns53bqupgFQx6fcs0BTYGy0KcwJ/DFhY7pXWGb4Gl
-7MGirSfxeVB6ymK+y/wa740aBSWz9YPi6R9KpS7MUVWu4yvSnoH+jStJ6vZtfciJ
-XDN/WEJ2CzFB6O+DCUWzRU8VWDyomYKSo+o6Qze6t3QQr0m8qv+gBqh4M/S5ZmIL
-sxqPMaOq+ZXH1NFe6YRe7iaGeDFbg6FkAjXIbUV0qLxniqYmuWpWk5Ao/OtupS0S
-xq34E77KqWkvuGBvVQc6GvNUC8H/KvqwndAvBxjAEP2nvQRIk5vbfH3xXusHT5XV
-NkbZzksLHhyvMEqxeq4iTxGC8oWZq9Cxxn+lx9QxMafKzUAqAL3EVVy6LDYtybOo
-JzPGZPxubvcTZvTCzzOXjrJm
-=kS9Y
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ckUP/jNF7bt+jpCRlsAhOxO7
+LdO8pXVW60ggf0cEKNqerDX8cJFiG3KxXYR37deKo10u0FdJXaG5IyqqPjgcl1Db
+AcI4cmF3kiRAqiL+3wjauvUb5KdcMAtOYEQ2XKB4i+sw17tNrW9MYCIKuj9UwRdV
+Cmap1LzjQOimuAPyoW/O621+1BMTA97RthFhApuOlPhhp6+/2Dte72Eve0/jJCEN
+BkKyaLm5aT0O2p6WDvWeBETIrtbyk5dvOLNbtj9SKDBJYPpICViZaYiEK6WadRXL
+TYYvwXQpJoDBBO9+22Uw6F7GFtTDRhHvpvkrL7G83OBpkqD4SzIcy1mGengaqsa7
+6NVcZsDTwmGKJeGCPTuV+IQO9+2WCC0PWbjzNFdQWY4TN4Vrcz/B9UxoEjn0n++R
+gSnYEFiGwUwL79R3I+1gt+MTOXkh8982ndgJqVViG6i3T/5/UCV11lZh4mFPb/P/
+IdvCL7lapG2VLoxTJBoRhTkfY43ByoKZOBzPzzb3cOahCdZ+IwyxC70cXBRWvQcN
+n69x5Z4EjORQ3Vd+l3WzYG3Bkn1Zn0iL6vhpSApRmctJ0tLRmZ5csl10zG5P90GG
+NGEXEleqv+sAC+kKX9Y09Z06s+Zs/LnAS+8EDVDrpUDfSR4k7KQOI1BArpzftd5v
+a07v9Td7Lh0O280OaN2OHtVJ
+=kI7+
 -----END PGP SIGNATURE-----
 
---===============5186542918422974173==
+--===============3259214967167748768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1bb5f1eac6d-b0e99fb90471.txt
+Content-Disposition: attachment; filename=revlist-fffc858299cf-be15501ac1ff.txt
 
-f9a0ed3c63ebdbb36d9891341b94c538de31388a x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-d18870131fe525579b4fb02ac65745411239f01f x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-76f4b397b94bcf7403b35cc5dc8a3b15bb454f10 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-3a88cf25d74a6e5a315a21e20939be0b7c52d8ad x86/speculation: Add eIBRS + Retpoline options
-cea280830535779992bd370c6cffc71b206de710 Documentation/hw-vuln: Update spectre doc
-6dcbf0d6fb297330963e7bd1f4c56dcd8676d4ed x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-1466ad3fe82d5b6bb317fd2689a712881262db90 x86/speculation: Use generic retpoline by default on AMD
-3e194336c3314f3d8cd340d3454a65edc7c4f345 x86/speculation: Update link to AMD speculation whitepaper
-aa3fdf022ea0e7a17bfc39f51a60a3e0c0937538 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-63b4e4f7b4262149ac58d60961acd2718d0ab488 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-86bb0ca01e4fd46c41d943230b1c3a49636d2b37 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-aa27f400d00b36df362e06c4605dbcde1ecebfe2 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-3e7c5e229b4db47dffe2bcaf6fd9d6afea0cce8d ARM: report Spectre v2 status through sysfs
-fe6da53a3ca851b94dd5962eebedccc06ed3a5b9 ARM: early traps initialisation
-0025b47dffbe34fd7bc0a94b72eb75a6f2a1c2b7 ARM: use LOADADDR() to get load address of sections
-6a9fff4ef933b3d3a2b3f877791657f2cb16a515 ARM: Spectre-BHB workaround
-603c92756df7819ea4887b2f1dbf519a68054170 ARM: include unprivileged BPF status in Spectre V2 reporting
-4c3fb01159145a0ac2ce6adcdfb88f94fd343a8f ARM: fix build error when BPF_SYSCALL is disabled
-b0e99fb904717023cd79d1eb8251a47db658e9d4 Linux 4.14.271-rc1
+dfc6096dc430067b106e4e32b5e443814b5c04b4 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+84bc38f90eb9fecab49b2678c13b8ace8ebe3fb0 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+42fca3db18a9e0d4f9f23f81b4b5115ca83b4751 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+e2982efb00a54d8f5e682cbf68ef9844040b5811 x86/speculation: Add eIBRS + Retpoline options
+ba81977a470c874ce83bdc96f1749c6d36ccfefd Documentation/hw-vuln: Update spectre doc
+b799f7ac596fff0c36321428de9fd7c9aa8c4008 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+235558f2edcb2d51f29f7a51862e5e9331117ae3 x86/speculation: Use generic retpoline by default on AMD
+bdbeba47f617b6be1c1df6a3c29b0eadf8054f4f x86/speculation: Update link to AMD speculation whitepaper
+69a4715b821de4cf973df10a935a0e3bcada38f5 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+623ec99a4caf2c56cff918db90feb640a1703bac x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+9bca4a015e870f6bf1e8ffda4098ed25592eec8b arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+897a86bb5c2b713688f1ab6871928a1ec3168bfa arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+a2ddf1aee89e935686cd8d65ce39904a033f0d90 ARM: report Spectre v2 status through sysfs
+879968801f1b817145ba9b7409944feb454fbc9a ARM: early traps initialisation
+c04b215a47a597b3abdce5e933308c83ac688414 ARM: use LOADADDR() to get load address of sections
+f6aa6161a961e81f945ea1bad78ebfa059c8547c ARM: Spectre-BHB workaround
+6524887523837dd35b06688783e7d52e4e88a346 ARM: include unprivileged BPF status in Spectre V2 reporting
+e03129827c95e1cacd49c0fe5bbf28a2cf6081c5 ARM: fix build error when BPF_SYSCALL is disabled
+be15501ac1fff96964cb8880d44736bd1653295b Linux 4.19.234-rc1
 
---===============5186542918422974173==--
+--===============3259214967167748768==--
