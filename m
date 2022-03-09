@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5423737529105144735=="
+Content-Type: multipart/mixed; boundary="===============2659319286902056185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Mar 2022 04:52:12 -0000
-Message-Id: <164680153247.28744.16160399233625549569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 09 Mar 2022 04:52:17 -0000
+Message-Id: <164680153718.28817.6746724212675239154@gitolite.kernel.org>
 
---===============5423737529105144735==
+--===============2659319286902056185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 4cbe04c9b1f65ccc1facae748f3f785bbedc7ea2
-    new: 0b6e631dad8a397230d51fd0d273802f46198fcb
-    log: revlist-4cbe04c9b1f6-0b6e631dad8a.txt
+  - ref: refs/heads/queue-rc
+    old: c9d520dd059c50654f4f79089a8fef6d73776eb6
+    new: a8626ac2165ca6f516d109109cc1be439ab0858c
+    log: revlist-c9d520dd059c-a8626ac2165c.txt
 
---===============5423737529105144735==
+--===============2659319286902056185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cbe04c9b1f6-0b6e631dad8a.txt
+Content-Disposition: attachment; filename=revlist-c9d520dd059c-a8626ac2165c.txt
 
 e5417cbf7ab5df1632e68fe7d9e6331fc0e7dbd6 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
 269567bd2d6015577d182a7ce4d8e72d245dbbc6 net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
@@ -40,5 +40,7 @@ f5b0a46f32fa4bf491df4c5df617d22d284b4d17 Merge branch 'patchq/473089' into mlx5-
 39937e3c7037929ab9074c3918eb339b58436954 Merge branch 'patchq/382345' into mlx5-for-net
 da4eec441234c523b3d3b08e99ab2ce56289cf93 Merge branch 'mlx4-for-net' into net-rc
 0b6e631dad8a397230d51fd0d273802f46198fcb Merge branch 'mlx5-for-net' into net-rc
+fbf09a51fef28c99f52b1285e20548ad19e2b5b9 Merge branch 'net-rc' into queue-rc
+a8626ac2165ca6f516d109109cc1be439ab0858c Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5423737529105144735==--
+--===============2659319286902056185==--
