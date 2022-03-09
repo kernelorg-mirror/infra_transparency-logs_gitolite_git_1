@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 09 Mar 2022 18:59:29 -0000
-Message-Id: <164685236955.12566.12703204774602275587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 09 Mar 2022 19:00:04 -0000
+Message-Id: <164685240461.14334.8668542786273253991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/tmp.master
-    old: 6cfd1492c1df62d763e65dfd3352753991a3e72d
-    new: 65d7273668ded59b1a36607e8a109d9a44376114
+  - ref: refs/heads/for-next/fixes
+    old: 4f6de676d94ee8ddfc2e7e7cd935fc7cb2feff3a
+    new: b859ebedd1e730bbda69142fca87af4e712649a1
     log: |
-         4d004e2314f3252e2fc57562a163d7b8a2ec693b core: Ditch 'dwarves__active_loader' extern declaration, it was nuked
-         65d7273668ded59b1a36607e8a109d9a44376114 pahole: Introduce --compile to produce a compilable output
+         6e2edd6371a497a6350bb735534c9bda2a31f43d arm64: Ensure execute-only permissions are not allowed without EPAN
+         b859ebedd1e730bbda69142fca87af4e712649a1 arm64: kasan: fix include error in MTE functions
+         
+  - ref: refs/tags/arm64-fixes
+    old: abf7ba5a17a7a7ce45e42222e977b54c24949675
+    new: c737dbfbf5fbf2192060edd30cae874232b381e1
+    log: |
+         6e2edd6371a497a6350bb735534c9bda2a31f43d arm64: Ensure execute-only permissions are not allowed without EPAN
+         b859ebedd1e730bbda69142fca87af4e712649a1 arm64: kasan: fix include error in MTE functions
          
