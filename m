@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 09 Mar 2022 01:35:11 -0000
-Message-Id: <164678971119.30035.3477257175433699944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 09 Mar 2022 01:40:45 -0000
+Message-Id: <164679004560.787.11810300279691528154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: 5e397957c517d40be16f9bd4d1dfc76804fe3255
-    new: d189849b443286a0d4369068fb03b412cffb32e5
+  - ref: refs/heads/master
+    old: 7fd9fd46a459272e641be78c1cc36baab1921fa1
+    new: 3399dd9f372bf0f4f3fb1fb11eb60ebd7b52d79c
     log: |
-         d189849b443286a0d4369068fb03b412cffb32e5 Documentation/filesystem/dax: update DAX description on erofs
-         
-  - ref: refs/heads/dev-test
-    old: 5e397957c517d40be16f9bd4d1dfc76804fe3255
-    new: d189849b443286a0d4369068fb03b412cffb32e5
-    log: |
-         d189849b443286a0d4369068fb03b412cffb32e5 Documentation/filesystem/dax: update DAX description on erofs
+         d4b540544499d90ac81695e21e354cd5c82fa67e Improve perf related BPF tests (sample_freq issue)
+         1fd49864127cd0d33aea8de4cf0858344c9c7265 Improve send_signal BPF test stability
+         ba83af059153441d77bc2dbb4cd22421b8a34107 Improve stability of find_vma BPF test
+         3399dd9f372bf0f4f3fb1fb11eb60ebd7b52d79c Merge branch 'BPF test_progs tests improvement'
          
