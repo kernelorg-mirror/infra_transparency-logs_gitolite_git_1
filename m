@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2733958936109861878=="
+Content-Type: multipart/mixed; boundary="===============1411591897103532781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 09 Mar 2022 13:18:31 -0000
-Message-Id: <164683191179.14986.17663192002435566131@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 13:19:22 -0000
+Message-Id: <164683196285.15327.14452842287976281012@gitolite.kernel.org>
 
---===============2733958936109861878==
+--===============1411591897103532781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: b709a4caa9d01f89314a4e5aab2e722fc9a5989a
+  - ref: refs/heads/for-next
+    old: f6de306274ab69a8d60ed5490a88bef4a3aba850
     new: 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f
-    log: revlist-b709a4caa9d0-71bb9ab6e351.txt
+    log: revlist-f6de306274ab-71bb9ab6e351.txt
 
---===============2733958936109861878==
+--===============1411591897103532781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b709a4caa9d0-71bb9ab6e351.txt
+Content-Disposition: attachment; filename=revlist-f6de306274ab-71bb9ab6e351.txt
 
 c5b483d5c1a26b6006180f5dc7b2f8674f19afa3 scsi: libfc: Replace one-element arrays with flexible-array members
 e3af2e3b0019d9040f7cce39a8992cb4c03a087b scsi: message: fusion: Use GFP_KERNEL instead of GFP_ATOMIC in non-atomic context
@@ -67,4 +67,4 @@ e81ce97f571607757f29a8a25ae0051e72b3c832 scsi: lpfc: Use rport as argument for l
 af4edb1d50c6d1044cb34bc43621411b7ba2cffe scsi: core: sd: Add silence_suspend flag to suppress some PM messages
 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f scsi: ufs: Fix runtime PM messages never-ending cycle
 
---===============2733958936109861878==--
+--===============1411591897103532781==--
