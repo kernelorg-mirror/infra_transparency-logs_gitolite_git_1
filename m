@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 09 Mar 2022 11:21:43 -0000
-Message-Id: <164682490380.1163.10697068628340395240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 09 Mar 2022 11:26:14 -0000
+Message-Id: <164682517414.4114.7057218201279214108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: 409f87333182c1dbd9a33abce999d48ef1505723
-    new: 35821dcbafe53e446f351b754e78e04e6a21f5e4
+  - ref: refs/heads/for-5.18/cleanups
+    old: 13b7b29fc4eb590dd525e6b1667b59e18cd4ff33
+    new: 6d3a16d09bfac2883b8ea12a83d4420a4062d8c0
     log: |
-         d6c47d21a0ef9a76c537f8c5258b49d61f2e160f irqchip/meson-gpio: Add support for meson s4 SoCs
-         92af5d479013494ad15f929ef0b75b705c34fbb4 Merge branch irq/meson-gpio into irq/irqchip-next
-         35821dcbafe53e446f351b754e78e04e6a21f5e4 Merge branch irq/aic-pmu into irq/irqchip-next
+         5182f3c9180397b16d15981b385ecfad9249e527 mm/slub: limit number of node partial slabs only in cache creation
+         6d3a16d09bfac2883b8ea12a83d4420a4062d8c0 mm/slub: refactor deactivate_slab()
          
