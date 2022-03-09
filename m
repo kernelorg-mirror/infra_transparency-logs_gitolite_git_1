@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2305429573705191367=="
+Content-Type: multipart/mixed; boundary="===============0762965816300501768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 09 Mar 2022 06:00:07 -0000
-Message-Id: <164680560711.7710.14662561300960046792@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 06:00:08 -0000
+Message-Id: <164680560870.7766.10456143962335952404@gitolite.kernel.org>
 
---===============2305429573705191367==
+--===============0762965816300501768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-5.18
-    old: b77d8306d84f83d1da68028a68c91da9c867b6f6
-    new: d9d6a568b0832eaed69338fd07bdfaa4124c4010
-    log: revlist-b77d8306d84f-d9d6a568b083.txt
+  - ref: refs/heads/for-next
+    old: 22139a9091fd260a543e170c1113aee41b038c6b
+    new: 95bfda60be180974943529326511fac9a7ec350d
+    log: revlist-22139a9091fd-95bfda60be18.txt
 
---===============2305429573705191367==
+--===============0762965816300501768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b77d8306d84f-d9d6a568b083.txt
+Content-Disposition: attachment; filename=revlist-22139a9091fd-95bfda60be18.txt
 
 8b6167a90135b749bd0e0cab07a75bc07e0fc925 dt-bindings: clock: Add sc8280xp to the RPMh clock controller binding
 809b482896742b30bcdaf2e2b2860acd1b0aa75d clk: qcom: rpmhcc: add sc8280xp support to the RPMh clock controller
@@ -61,5 +61,6 @@ d8b180fb3dcfe200d6d6c3c0a9115158603e20fc clk: qcom: gcc: Add emac GDSC support f
 4f7788e55c602ae286879b042196870fee0006d1 clk: qcom: Fix sorting of SDX_GCC_65 in Makefile and Kconfig
 912b5cdd673023d1e1c1c6d344142628b14547e2 dt-bindings: clock: add QCOM SM6125 display clock bindings
 d9d6a568b0832eaed69338fd07bdfaa4124c4010 clk: qcom: Add display clock controller driver for SM6125
+95bfda60be180974943529326511fac9a7ec350d Merge branches 'arm64-defconfig-for-5.18', 'arm64-for-5.18', 'clk-for-5.18', 'defconfig-for-5.18', 'drivers-for-5.18', 'dts-for-5.18', 'arm64-fixes-for-5.17' and 'dts-fixes-for-5.17' into for-next
 
---===============2305429573705191367==--
+--===============0762965816300501768==--
