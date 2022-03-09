@@ -1,31 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 09 Mar 2022 16:24:34 -0000
-Message-Id: <164684307477.8094.16100772348877446919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Wed, 09 Mar 2022 16:37:45 -0000
+Message-Id: <164684386532.16424.3417267800753677772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/heads/master
+    old: f011ccb490f952ea35e9ce4d73ca9b7d0d2453c3
+    new: cd01f857da28abc170ebf19216945873ec7d5fec
+    log: |
+         3a4b2bd63739d6e795785868ce29e97fce29e2bc iwlwifi: update 9000-family firmwares to core68-60
+         4e3fc4d69b34cd4d5373b862a02f19ebaaf1d21e ath10k/ath11k: mark notice.txt as "File:"
+         05b5dc0014b2775d775a493f7f3560169b50c5e2 ath11k: WCN6855 hw2.0: add board-2.bin and regdb.bin
+         36f2ea9f7931a09918a2cdd4a30f5a611c2d7f32 ath11k: WCN6855 hw2.0: add WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3
+         e8bc0db413b4ab7f8e540ffa17991ff61252de9c ath11k: add links for WCN6855 hw2.1
+         8f9285cca830cb709439ee2cf14d0519d155983b iwlwifi: add new FWs from core68-60 release
+         4eedaea73fd50265397a20b06b8f8807740c3ca1 Merge branch 'ath10k-20220307' of git://git.kernel.org/pub/scm/linux/kernel/git/kvalo/linux-firmware into main
+         cd01f857da28abc170ebf19216945873ec7d5fec Merge tag 'iwlwifi-fw-2022-03-03-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware into main
+         
