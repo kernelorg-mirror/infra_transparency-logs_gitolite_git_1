@@ -1,23 +1,39 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Wed, 09 Mar 2022 09:24:13 -0000
-Message-Id: <164681785313.8050.357492554493106549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 09 Mar 2022 09:49:52 -0000
+Message-Id: <164681939220.5966.18172245072602214923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 032884362e9e07eb89f5fbbe8326bff41fdb2fea
-    new: f494ca3edc8c839aec39269419d3e4f8706ae1a1
+  - ref: refs/heads/for-linus
+    old: cd94df1795418056a19ff4cb44eadfc18ac99a57
+    new: 9cb727506704b5323998047789fc871e64a6aa14
     log: |
-         c9b62d6cb4954cfb59081dfe4464a86b47ba9512 KVM: s390: selftests: Split memop tests
-         ca222482f7d7e8b550da8aec168a984998740684 KVM: s390: selftests: Add macro as abstraction for MEM_OP
-         b9a721d26c9083458a719abd44fef9cbf43bb173 KVM: s390: selftests: Add named stages for memop test
-         de64608f44df409f5bbadd55caaf7298e69ebf7c KVM: s390: selftests: Add more copy memop tests
-         f494ca3edc8c839aec39269419d3e4f8706ae1a1 KVM: s390: selftests: Add error memop tests
+         9cb727506704b5323998047789fc871e64a6aa14 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+         
+  - ref: refs/heads/for-next
+    old: fc4cf4293f0da3985ca66edc2cf067531d933c42
+    new: 7cacfa4a7b0dcf8f10dda5327957ee13db1c455f
+    log: |
+         441d1e10476bc9d966baf32745277a6e77c325d5 ALSA: scarlett2: Split scarlett2_config_items[] into 3 sections
+         604b388419d08032c07aff8946ee19c073b59189 ALSA: scarlett2: Add support for the internal "standalone" switch
+         7cacfa4a7b0dcf8f10dda5327957ee13db1c455f ALSA: hda: Add AlderLake-PS variant PCI ID
+         
+  - ref: refs/heads/master
+    old: fd7698cf0858f8c5e659b655109cd93c2f15cdd3
+    new: 3a0099a1909dea6022690b0ae496938dd2e5771c
+    log: |
+         9cb727506704b5323998047789fc871e64a6aa14 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+         441d1e10476bc9d966baf32745277a6e77c325d5 ALSA: scarlett2: Split scarlett2_config_items[] into 3 sections
+         604b388419d08032c07aff8946ee19c073b59189 ALSA: scarlett2: Add support for the internal "standalone" switch
+         0a87ccfc5fd31da825d16ef98dc61393b63b4a47 Merge branch 'for-next'
+         19859b5b32612368dd0863ee51fd1cc1e3c984d2 Merge branch 'for-linus'
+         7cacfa4a7b0dcf8f10dda5327957ee13db1c455f ALSA: hda: Add AlderLake-PS variant PCI ID
+         3a0099a1909dea6022690b0ae496938dd2e5771c Merge branch 'for-next'
          
