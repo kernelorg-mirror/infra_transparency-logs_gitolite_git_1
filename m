@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pratyush/v4l-utils
-Date: Wed, 09 Mar 2022 18:27:09 -0000
-Message-Id: <164685042988.23683.4681580084525548947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Wed, 09 Mar 2022 18:34:42 -0000
+Message-Id: <164685088240.27653.13503244733648332069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pratyush/v4l-utils
-user: pratyush
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/meta/cgit
+  - ref: refs/heads/coredump-vma-snapshot-fix-for-v5.18
     old: 0000000000000000000000000000000000000000
-    new: 7f7fce9d56f1e5c9b84205ab243c336131d5f23c
+    new: f833116ad2c3eabf9c739946170e07825cca67ed
