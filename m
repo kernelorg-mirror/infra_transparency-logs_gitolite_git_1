@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 09 Mar 2022 00:55:56 -0000
-Message-Id: <164678735630.31863.7530593597453293779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 09 Mar 2022 01:35:11 -0000
+Message-Id: <164678971119.30035.3477257175433699944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
   - ref: refs/heads/dev
-    old: 68b8080fdd0c184d683265d7bfbdd0afc44717c7
-    new: d35e244112b59b8f98421d90818cf6a8c66c759c
+    old: 5e397957c517d40be16f9bd4d1dfc76804fe3255
+    new: d189849b443286a0d4369068fb03b412cffb32e5
     log: |
-         b0c99b2cde7043dd8718642e940f199998ba59d4 EXP srcu: Check for too many zero-delay srcu_reschedule() calls
-         d35e244112b59b8f98421d90818cf6a8c66c759c EXP srcu: Reduce SRCU_MAX_NODELAY for diagnostics
+         d189849b443286a0d4369068fb03b412cffb32e5 Documentation/filesystem/dax: update DAX description on erofs
+         
+  - ref: refs/heads/dev-test
+    old: 5e397957c517d40be16f9bd4d1dfc76804fe3255
+    new: d189849b443286a0d4369068fb03b412cffb32e5
+    log: |
+         d189849b443286a0d4369068fb03b412cffb32e5 Documentation/filesystem/dax: update DAX description on erofs
          
