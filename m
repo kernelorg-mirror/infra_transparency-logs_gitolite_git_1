@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4444807210939258429=="
+Content-Type: multipart/mixed; boundary="===============2788363820984706805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 09 Mar 2022 13:09:22 -0000
-Message-Id: <164683136285.7469.14626020969652283724@gitolite.kernel.org>
+Date: Wed, 09 Mar 2022 13:11:37 -0000
+Message-Id: <164683149718.9760.3362336210325369761@gitolite.kernel.org>
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,278 +16,300 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: e0edabf82d7879b97bba929f32cb4d7babddd81c
-    new: 290b08a15fbdd022e4994c5bdd56c56f632c060a
-    log: revlist-e0edabf82d78-290b08a15fbd.txt
+    old: 290b08a15fbdd022e4994c5bdd56c56f632c060a
+    new: bbc81a04d0e62bd58635214d3899c884d2520017
+    log: revlist-290b08a15fbd-bbc81a04d0e6.txt
   - ref: refs/heads/queue/4.19
-    old: 08385e6195da3a186586aafef90c49e943ed5184
-    new: d499b97e7fa8fc3df2d1b7a3326ed8f12381b9c9
-    log: revlist-08385e6195da-d499b97e7fa8.txt
+    old: d499b97e7fa8fc3df2d1b7a3326ed8f12381b9c9
+    new: eedd1042e0c2ac96f145b39360d734468cc3c77e
+    log: revlist-d499b97e7fa8-eedd1042e0c2.txt
   - ref: refs/heads/queue/4.9
-    old: d4c33c9091ce5c7d407707f2157474bf1ef0a193
-    new: 5b261bc1f23526cce4b5f5c7152f5e079fe75344
-    log: revlist-d4c33c9091ce-5b261bc1f235.txt
+    old: 5b261bc1f23526cce4b5f5c7152f5e079fe75344
+    new: 289f6de1f0f66d10a62a0ea6017d8c517ed85903
+    log: revlist-5b261bc1f235-289f6de1f0f6.txt
   - ref: refs/heads/queue/5.10
-    old: 3df4459d763154b62ba270f9def41a7258ae45f4
-    new: d011a2063373fc64c275072190cb8b4821f9615a
-    log: revlist-3df4459d7631-d011a2063373.txt
+    old: d011a2063373fc64c275072190cb8b4821f9615a
+    new: 587ff16faa429579aee0da761188ce59874def14
+    log: revlist-d011a2063373-587ff16faa42.txt
   - ref: refs/heads/queue/5.15
-    old: 07a1545574ed6206e4be90df98c153d10604bddf
-    new: a72226f62865ac22d62d62c02d67840c0254e9be
-    log: revlist-07a1545574ed-a72226f62865.txt
+    old: a72226f62865ac22d62d62c02d67840c0254e9be
+    new: 5940b606b071ee0019147bcddb8bbbe440d21ae8
+    log: revlist-a72226f62865-5940b606b071.txt
   - ref: refs/heads/queue/5.16
-    old: c01db94ffbc35199c8e6b363e76034de837837da
-    new: 0815fdaa37fb653fe376cd6e9a99a8b3a198fccb
-    log: revlist-c01db94ffbc3-0815fdaa37fb.txt
+    old: 0815fdaa37fb653fe376cd6e9a99a8b3a198fccb
+    new: c4c6d5f385759347e2ce2e4c01f3654265106b55
+    log: revlist-0815fdaa37fb-c4c6d5f38575.txt
   - ref: refs/heads/queue/5.4
-    old: a0f4a0914cadc1f1ea49782eebe069b5b7910f1a
-    new: 9118c400e542bdc6b3cea21d6b2ed7207485e5a4
-    log: revlist-a0f4a0914cad-9118c400e542.txt
+    old: 9118c400e542bdc6b3cea21d6b2ed7207485e5a4
+    new: 251931769911f8de3e1fc222ebca5b6cbd3a2d71
+    log: revlist-9118c400e542-251931769911.txt
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0edabf82d78-290b08a15fbd.txt
+Content-Disposition: attachment; filename=revlist-290b08a15fbd-bbc81a04d0e6.txt
 
-fa70dad78b4900bf40b4c914f951a0d2a9c42c6f cpu/SMT: create and export cpu_smt_possible()
-2f0584181455a87e52e67f82aa8cdd4222021898 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-0e69ab68c176933b5dfca9a8675495577a051438 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-3121bad274e3c026e7ec7e185c2c3bb9d7a43ae4 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-bd27c358bf34fed579810a947a731b876601d9be x86/speculation: Add eIBRS + Retpoline options
-90632671750228c20517b9a977cdb7b5729a6b41 Documentation/hw-vuln: Update spectre doc
-398823e28e8330e0e0c9f9956809685c39dafd51 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-d06a839cddb3ffcfd62a4f462eba2528b54110fb x86/speculation: Use generic retpoline by default on AMD
-2d03ac98b92bd4849cf0137986eab3c91d31ee84 x86/speculation: Update link to AMD speculation whitepaper
-13865caa6f15e181aa0af86b058ee2541ab11362 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-789ca226b414bdedccdd91b60ae7c0a20c6f70ff x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-ffa5e5a2c40d8956463c4b621829cde61931c48a arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-24b9d8630330fd415e409c6777cb9f612031fb95 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-d5b95cf5292592a8cfe1d08863673e8a3bbb1651 ARM: report Spectre v2 status through sysfs
-a87fe8a006822cd5e4e68faea68f4fa3cf220f47 ARM: early traps initialisation
-2a84051950ffad4940796b69839f25dfbf8a1d04 ARM: use LOADADDR() to get load address of sections
-5823e51a1044611a6b5a987a4e333598b757e67a ARM: Spectre-BHB workaround
-946769ab6c343dd9e3d4b63cf1debf6debc7a5e9 ARM: include unprivileged BPF status in Spectre V2 reporting
-290b08a15fbdd022e4994c5bdd56c56f632c060a ARM: fix build error when BPF_SYSCALL is disabled
+b1ad99e478e1fadcc845b3e756c0e73617ed7d1e cpu/SMT: create and export cpu_smt_possible()
+33487fc32b462b79fca7ae49d9c0e48027bf9391 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+60b43badd34a31acba5c34b80d937d21601618fd x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+f1bbc43fca55c34f2224bdd2dfe4f15a23d552e7 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+c25c66deecd429ac947dba9ecb408864a747bc0e x86/speculation: Add eIBRS + Retpoline options
+9d9742609d8a2daeb4f9df6994f8953d8393993b Documentation/hw-vuln: Update spectre doc
+a5f4b8af899d21634417b587db7e4ab566e69abb x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+6e159c5c8abf2a1595cf89c7853f3fa14dc2eafb x86/speculation: Use generic retpoline by default on AMD
+57e3d535845ed7ca953af784d0e9d80f20cfd806 x86/speculation: Update link to AMD speculation whitepaper
+d90282f7e90e1a733dfb6be7af46db14011551d5 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+f9477c1b7a2b645a2635ee09718022166f2d6661 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+b0d84f7f3078abe9cde4aa3251c6d06aaf4a5548 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+1c3439947c41720ae85f83b34294eb6266f63751 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+130cf2804627c1fd2f0a57c4c2123ea02ead30ae ARM: report Spectre v2 status through sysfs
+438b46fc3bf4a7b3f6b46e11a09cc330b3797909 ARM: early traps initialisation
+5a0b866fb6829e68214d32b3621c5aa1aeadfc91 ARM: use LOADADDR() to get load address of sections
+00cd8b0cf62ed6d4de675ac44e6d203d3ca0c1a0 ARM: Spectre-BHB workaround
+6e1b171ae5b3f84e992a3119063f764271ce8bda ARM: include unprivileged BPF status in Spectre V2 reporting
+bbc81a04d0e62bd58635214d3899c884d2520017 ARM: fix build error when BPF_SYSCALL is disabled
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08385e6195da-d499b97e7fa8.txt
+Content-Disposition: attachment; filename=revlist-d499b97e7fa8-eedd1042e0c2.txt
 
-165a3e963fe6be3c224a2efb0d48c7c6232127e1 cpu/SMT: create and export cpu_smt_possible()
-b6a628cf1ce416180b56583b84c3d3cd44fca670 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-40eff654d112ef86350c04cf6058d3d529315699 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-624ca7451f3e7678ccc2b0ae9759cacaa06c1d34 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-6c17df19be25b2605597f14138cac374e14615f3 x86/speculation: Add eIBRS + Retpoline options
-a2329f0da019ff48b75b3c4d80577af67449f96b Documentation/hw-vuln: Update spectre doc
-9bc405439130ae8159a34472d7efab1ad80fefb5 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-74b86e9c949488d6e3273c856a565d5a0a538943 x86/speculation: Use generic retpoline by default on AMD
-dcc977a96283f3c2e563c80380e1ff0cd4ae8ccb x86/speculation: Update link to AMD speculation whitepaper
-b2d40caaac5bc6494fa66be43796f929c59cd85c x86/speculation: Warn about Spectre v2 LFENCE mitigation
-05f9230c192f41c34275047b5a070b00d9a243ba x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-52d90320ea716d16373775812c774fbfc0fd2548 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-ee3f8c540eef9d47100258acaec2e6bdf4b92fbd arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-dec946dfca445a150bc4d3e77f344f6487f94445 ARM: report Spectre v2 status through sysfs
-e01128df859e099000ab759c7e5acd5f90b34d5b ARM: early traps initialisation
-e2c4c7093c3daea18af03c7a530c3f68d33a60b9 ARM: use LOADADDR() to get load address of sections
-a2fa103f794262ad48ada8b4f86d9211c0c8e5c3 ARM: Spectre-BHB workaround
-035d7d26f2ec949a2880d82d068c8968767885bd ARM: include unprivileged BPF status in Spectre V2 reporting
-d499b97e7fa8fc3df2d1b7a3326ed8f12381b9c9 ARM: fix build error when BPF_SYSCALL is disabled
+68bbe6c9927bf0035b4cdfad7f063269ffcd0a4f cpu/SMT: create and export cpu_smt_possible()
+b72af8ea5d30e0769d2bd5606e5f59df5a4aae35 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+4ad0a664d025f5b4d825d84ccfaefd3e4845b56d x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+cc0ec2841a567a6d6b24f0962f34d50ad7107c1a x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+0c536b6b67ceeb892b85cf864cf357de7d42ac5a x86/speculation: Add eIBRS + Retpoline options
+4e47d34e948920c89cbeef49a9393f29990ee526 Documentation/hw-vuln: Update spectre doc
+caabe907284d1462bc17e8cfd8b80d7a7456d467 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+5818145dc9a8aea31f6513e7317d6114aca562b9 x86/speculation: Use generic retpoline by default on AMD
+76c55693f899125fc63bb5ba94c08211635bd9c7 x86/speculation: Update link to AMD speculation whitepaper
+169457a0e0da8d44a6fbd1d8f86c8ac3a4d74618 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+724cd9d6cc6e4dff0385b15175ec6b3e01b658ec x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+dfd93ef3aae8b25dbc9542381cd2dd12d5886e02 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+40357a0a3508c0c12a8d4e7053eb9846ddbedb3a arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+790a09050a0803b34541cf4e961dabdb4204f78a ARM: report Spectre v2 status through sysfs
+2166f771538a625bffc2ec3b5d0c9b131abbf61d ARM: early traps initialisation
+23ea79a4d7b47ef721e961523ca3813236a95ebf ARM: use LOADADDR() to get load address of sections
+b9d96c991df8b0fd9491a38de334c6796ed6a36a ARM: Spectre-BHB workaround
+26254e45c5547692aa8067d430b49a64546ac08f ARM: include unprivileged BPF status in Spectre V2 reporting
+eedd1042e0c2ac96f145b39360d734468cc3c77e ARM: fix build error when BPF_SYSCALL is disabled
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4c33c9091ce-5b261bc1f235.txt
+Content-Disposition: attachment; filename=revlist-5b261bc1f235-289f6de1f0f6.txt
 
-e3c53559241ebf05235cb88bd4dd0738141bbb57 cpu/SMT: create and export cpu_smt_possible()
-82e3672c6fb03eb9242e51b06572a160a89df857 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-3fa5bc811dfae1b94739e4cc73da5efaaebf9668 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-1e15bdd65a723a74a0f7d7bbdc8aa12f5a031905 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-d4c809a444b6965295048cdb5d4e6fd549fdb260 x86/speculation: Add eIBRS + Retpoline options
-baf22e7c4fa4efe079c480564e609501d422371f Documentation/hw-vuln: Update spectre doc
-3720b749109530392e1efd816f9622639492e6be x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-e697e99bf56f2429e7a3913117f2459f565a9582 x86/speculation: Use generic retpoline by default on AMD
-802b3f0214e9907b74ff9ec031ef0b86185677c7 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-470a8d2677509c8a9fce4b813cf4c440370aca6d x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-bb033ee12675d120115f813be13723ab2be9e970 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-22529a9716ddbdf0c69bff719948b6db43659cf4 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-a69dfc876715e34137b73bb746a07139d73e1ecb ARM: report Spectre v2 status through sysfs
-28e71084853e02d151d075a08bd15d226423b86f ARM: early traps initialisation
-9f80f4ea31459b429d2eb545a6985aed5ea38433 ARM: use LOADADDR() to get load address of sections
-4ef5b52c814e408e15fc32fed8ee3b59f4feb6f3 ARM: Spectre-BHB workaround
-6f7a13dba200c9258455b48d2211d245ff8422be ARM: include unprivileged BPF status in Spectre V2 reporting
-5b261bc1f23526cce4b5f5c7152f5e079fe75344 ARM: fix build error when BPF_SYSCALL is disabled
+becd32dff734420569e8748fbf68af05903caa2f cpu/SMT: create and export cpu_smt_possible()
+0cd372479f94be33a8f75874196a39f0867f00a9 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+e4fa82c209da35629f923507a53eb0fb28f280d1 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+e4f75dbf5da149905359a9028c3bdd3e927549d9 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+18a321c68fae8442a84aa185dbffdf855011ee05 x86/speculation: Add eIBRS + Retpoline options
+2d654e52ac4b42b427a32286ba0206f45e91a7d3 Documentation/hw-vuln: Update spectre doc
+d1f68cba303eee1207862ca09759bd5426dede1b x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+3410c971002e5cca43a9d3f883536e4315fa42db x86/speculation: Use generic retpoline by default on AMD
+7bd1dc2530e15aa334e11c6335aa28aa6075652e x86/speculation: Warn about Spectre v2 LFENCE mitigation
+c3b8a68910877b45ca800d480728999ba8edd5c0 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+1aeda4355df6bf89a39b1b5bad88467ddb0d54a2 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+48c97f916d8aa56e7be0b286b65f70127724ae80 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+078cdda27d9620fc0d030805077889244b6a1b38 ARM: report Spectre v2 status through sysfs
+d03ac64c9fcf38fa39c0dd76efb6cba291278d11 ARM: early traps initialisation
+6dc2b587b572a816d7b0f2c6ff57693bb9386125 ARM: use LOADADDR() to get load address of sections
+a87525c503c30b252ed6283aa2f284531ee96228 ARM: Spectre-BHB workaround
+106ebd35b10a89f97200133c5a90af0bf158b128 ARM: include unprivileged BPF status in Spectre V2 reporting
+289f6de1f0f66d10a62a0ea6017d8c517ed85903 ARM: fix build error when BPF_SYSCALL is disabled
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3df4459d7631-d011a2063373.txt
+Content-Disposition: attachment; filename=revlist-d011a2063373-587ff16faa42.txt
 
-f22690220b5de0a51741ead4de89fb7e3af0197c x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-aa0f4f03764c6d94ac7ce2e3ce2f3b264a571fd4 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-27079506fd3c0f7a820d7fac7c5009e519072059 x86/speculation: Add eIBRS + Retpoline options
-916fa88ca82129a0125f6a8fd106466f8693da77 Documentation/hw-vuln: Update spectre doc
-2cc3d676ce7400a301d4df8b7d49b0e5cec01896 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-f3c49ec2da11ca8cf101108c30960f4294935581 x86/speculation: Use generic retpoline by default on AMD
-4f543a7e71421b998312695d7246168dfcf58d31 x86/speculation: Update link to AMD speculation whitepaper
-ce4fe010d2feb600b0b5113de51afa4bcd6f948a x86/speculation: Warn about Spectre v2 LFENCE mitigation
-1330a4bc9a0d77c46f42c1775549ca5ae52dd266 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-1a7fbb802962c6e2cd3a2f3ac05242dec5ef206e ARM: report Spectre v2 status through sysfs
-4b837b71b198c6abda23fd99cbc5bab97240d09b ARM: early traps initialisation
-7a716089666b706148b1a9b48e2f9f4d2a3e9757 ARM: use LOADADDR() to get load address of sections
-76afd2fc51dcc8912a40ed2c406cc79e1a921441 ARM: Spectre-BHB workaround
-7ef28841c59ae948f115393925573304b2269564 ARM: include unprivileged BPF status in Spectre V2 reporting
-f42ce3eda6b91b8a5d90c1f457a73c6cf64f6ff8 arm64: cputype: Add CPU implementor & types for the Apple M1 cores
-e85f3d1f5aef1d53e0477495d8192a1e34fdac5d arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
-94974bec06feb8b8360f4fbe4205c7b78834fcf2 arm64: Add Cortex-X2 CPU part definition
-cf2a4ca7f31a6773da2f4767a4bbb9482e2090a6 arm64: Add Cortex-A510 CPU part definition
-e073e8eeb5ebeb7d4c96e2edb53fda760c66a877 arm64: Add HWCAP for self-synchronising virtual counter
-689959904f72f5fedab2630d0cdcbefb0dd0157a arm64: add ID_AA64ISAR2_EL1 sys register
-9526f8f7e5abec0cb2335743d4a925b73b8ce5b6 arm64: cpufeature: add HWCAP for FEAT_AFP
-b9d7166f24f87a086fb5c631d8715239b6f4a19b arm64: cpufeature: add HWCAP for FEAT_RPRES
-3146fa4a77ad673222d287c5a55c6181be8e472a arm64: entry.S: Add ventry overflow sanity checks
-fd0675bcda68c349d16af5deeff25474b367da7f arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
-90f528254ed0313d0f72dabb4ef1a3e7f106a0ef arm64: entry: Make the trampoline cleanup optional
-ef233d112548b5c3be309bb7f58fa2ebd2720d95 arm64: entry: Free up another register on kpti's tramp_exit path
-354891ca58ce58e754225f3334939d736fbfc97f arm64: entry: Move the trampoline data page before the text page
-4a4fd244feab6d3bb6f6522863501ff5042bba4b arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-3b62c94465bbf98c05a8366f9c7be845dbe6f6ae arm64: entry: Don't assume tramp_vectors is the start of the vectors
-894f36a124be6d9ef84efd450f9c03797c6258af arm64: entry: Move trampoline macros out of ifdef'd section
-ed24e00b33b59136a1594ff2a7182498ce54fa42 arm64: entry: Make the kpti trampoline's kpti sequence optional
-fe0075d35a789864044e289613acf16fec2abbe6 arm64: entry: Allow the trampoline text to occupy multiple pages
-b909f502b3f11e02c9f3b600acc4c41190811a41 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-331f67a678b07723d906c143c35caff3d73be4df arm64: entry: Add vectors that have the bhb mitigation sequences
-acf13b9bb30349c1d5486dc547138c88638c1c63 arm64: entry: Add macro for reading symbol addresses from the trampoline
-a873720e5f77726bbc51e318e7cf4cad0def05ca arm64: Add percpu vectors for EL1
-6cf09bb4c5f55b2e908fa401277909e39f1faf72 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-5585d0fd3674b2d6a15c7334030948ee06d946fd KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
-1c4d6cf3dac23ccd3cf3a32dd59edb97101bc3a5 arm64: Mitigate spectre style branch history side channels
-5208c94bc7265009247ee3dbbede801dc8ccca69 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-de40cff030879ba288e4913cb9f4c483f4a07abb arm64: Use the clearbhb instruction in mitigations
-83c9037cab68273248dc0d6f7d9c6a86eff6b9d6 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-d011a2063373fc64c275072190cb8b4821f9615a ARM: fix build error when BPF_SYSCALL is disabled
+2765445d214252511231e14c9cc5995c77fe458d x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+355b41cb685e6101eb7f4c4c3e110f0c0b7a8053 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+449b630127b449cc426e8e030136a3cd21e91d6c x86/speculation: Add eIBRS + Retpoline options
+2c8dc4a7d4d3fffd0329f390e4fdfb485f005916 Documentation/hw-vuln: Update spectre doc
+32bc6bec3f6128435da4cb664c5c5b11fdb8b069 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+77a3bca1835cf243af524c40655ac9ceaa2b3dea x86/speculation: Use generic retpoline by default on AMD
+4e83cb8a33b3e1b3de5c1174b778275d3c2671fe x86/speculation: Update link to AMD speculation whitepaper
+8dcc5ae973ce9adde4012cf0387e62afe632ac28 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+8e3b9f1745ec6e3e58b58b4eabcd4bfcd5a03ccb x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+439b16bfbd6c7f26f3badf1046be1557bd2719f4 ARM: report Spectre v2 status through sysfs
+71740517c18e2f3ab7775e1a901811734f51203c ARM: early traps initialisation
+d3314bbe4ee2bef8b5194d23a6e56a86fed1916f ARM: use LOADADDR() to get load address of sections
+ee926cc307721c7179de036cb0705698866e56aa ARM: Spectre-BHB workaround
+902f10ab4607c2dffe84fc98cdcb981c141e2725 ARM: include unprivileged BPF status in Spectre V2 reporting
+29c1836daf0a80689f2873075c0f54aeda18c8f3 arm64: cputype: Add CPU implementor & types for the Apple M1 cores
+f27e8e8e2242c2b973c4f420966d6cd305171526 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+8f7ece2708e4838d3e891bae2325b66f5a57aa47 arm64: Add Cortex-X2 CPU part definition
+b0518e136f5e2f876154511e5cea58dc3052ee10 arm64: Add Cortex-A510 CPU part definition
+e84cf197736b95eeaba32fe80e3ec08a74913fcb arm64: Add HWCAP for self-synchronising virtual counter
+38462f831695f5956cebfbd855ac1b00dbab13c9 arm64: add ID_AA64ISAR2_EL1 sys register
+cb0362096e8cc061af859c6f77ecec1bcc479163 arm64: cpufeature: add HWCAP for FEAT_AFP
+8906b5dba2b7fe7e14dd0c5c452d0273ca24c06f arm64: cpufeature: add HWCAP for FEAT_RPRES
+4ae0bc43bc9874b703902c35e980fd7bd628232c arm64: entry.S: Add ventry overflow sanity checks
+54aaa75479a734e5939c3764d43358bd488667ea arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
+ca0f9694caafe192fdab9bc7fd5f720684f9a13c arm64: entry: Make the trampoline cleanup optional
+5d147df64567cfb7d06f24bdc34bf5c600fa9902 arm64: entry: Free up another register on kpti's tramp_exit path
+33ebf46d3ac2f8bb5b3388e9358ac9496731a05a arm64: entry: Move the trampoline data page before the text page
+dac51c6fed7d1ac75b21442b66de8c0672add98f arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+d61d5cbf81dbcc69ecc254bdff607fae53704253 arm64: entry: Don't assume tramp_vectors is the start of the vectors
+9de8493537339d10241a3ea240dea666a43e26b8 arm64: entry: Move trampoline macros out of ifdef'd section
+ed0fa0069e41e65d1196fdcfdd4c97bdbcc2e54e arm64: entry: Make the kpti trampoline's kpti sequence optional
+180e0a92b2d02ed84b3e8ef04442119ebdb4a677 arm64: entry: Allow the trampoline text to occupy multiple pages
+3a766cfb139e2837e03e73375e643e22e0d5ed8e arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+a95c69c2fa65bfd94a51f272b442c2821777d06c arm64: entry: Add vectors that have the bhb mitigation sequences
+8541d1031ad6b35a480dacd38b1790cb1e9694b5 arm64: entry: Add macro for reading symbol addresses from the trampoline
+fe7bab9795f3e94b0067f2d83ce9a19f6cf7d61c arm64: Add percpu vectors for EL1
+fde5a17714553974b59446e41576e25f5ed0519d arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+26bd0e051af70d966507684c5718bd01209d3280 KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
+25c3e801c9f4b45c3e79b0be93bec2a95a651abe arm64: Mitigate spectre style branch history side channels
+15a81847d0a4c52f1bb020774eee5eb81733d521 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+77cd9020a2a2bbd77da0e945efb41e94d8fbdaf6 arm64: Use the clearbhb instruction in mitigations
+a395c14921548b489ec6f26425897f20b9e2693e arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+587ff16faa429579aee0da761188ce59874def14 ARM: fix build error when BPF_SYSCALL is disabled
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07a1545574ed-a72226f62865.txt
+Content-Disposition: attachment; filename=revlist-a72226f62865-5940b606b071.txt
 
-9159914692806528e2b7748b0ebcf3ae918bcba7 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-07049b605e084db4330ffbf6d564159ebd475c4a x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-4fe74799f3a9eed920ea935b6693ef7c9dba2662 x86/speculation: Add eIBRS + Retpoline options
-785e553e69eef7ab0afa916e406fb757e868010c Documentation/hw-vuln: Update spectre doc
-c48b07ae886b3de8f07accfa0b470e142026e650 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-d800bf3feec9c1fa7d0a2f9cbb7967addfb72807 x86/speculation: Use generic retpoline by default on AMD
-6e86aab2a3e2c14aa90f312252eeb19c3ef15a6c x86/speculation: Update link to AMD speculation whitepaper
-6a8d400639662d735e5ef41cee5103d99acb38bb x86/speculation: Warn about Spectre v2 LFENCE mitigation
-fa4993f55ac94dee9e2514afe60b3827ff66a5bb x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-0af5135341704fc0d35a82c188cbb18551a9dc8d ARM: report Spectre v2 status through sysfs
-a17a92de7e427ac40b2c792ebe28c1c217407ff6 ARM: early traps initialisation
-27f2a57d1b96ebac608de1a3dbde12c462e4b883 ARM: use LOADADDR() to get load address of sections
-a604392d323bb6776513974862a37e189eae572f ARM: Spectre-BHB workaround
-3db0d614947bf9810223553ac112d3429bc73533 ARM: include unprivileged BPF status in Spectre V2 reporting
-6a38bc297e08274a9f26ba8b35e505d5cc0676b1 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
-4c62c9379d220ff3f247b38d398a283e62e75b19 arm64: Add HWCAP for self-synchronising virtual counter
-ea281f7bf51d1750d67af1ab75ea7de6cc2198a1 arm64: Add Cortex-X2 CPU part definition
-4fad0f7b0a4ccc99563842d71b69aa80efe9abd6 arm64: add ID_AA64ISAR2_EL1 sys register
-d0cd6ecd1509e39b6007a338393ad54f8b41a621 arm64: cpufeature: add HWCAP for FEAT_AFP
-02aa35d157b0837807a7b6a086ba8dd2898bb5dd arm64: cpufeature: add HWCAP for FEAT_RPRES
-46bfd86edbc78eb16c8f3f334b49af7a14adc8b2 arm64: entry.S: Add ventry overflow sanity checks
-ce018ed2e8db4e7c0cef60ee95aa5e9442a293ae arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
-18422e0d08c8aab6d6606c0b8e92fdd396838cb7 KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
-0bc55279be55fcacd1c9f6ca87cc8c9e616241f1 arm64: entry: Make the trampoline cleanup optional
-10892c6f023d13eaeb13c8f6056050edbc8f29db arm64: entry: Free up another register on kpti's tramp_exit path
-665947c9aa94dc0718284b377b446b25164e71c5 arm64: entry: Move the trampoline data page before the text page
-c32bdd6d2c92074377cedb247222a7d5104031d6 arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-74cee9d93b28a26aed1a8bd8964fb4dc7cb6c384 arm64: entry: Don't assume tramp_vectors is the start of the vectors
-bd072d0489f4b045d0e481ef9792339aaff578db arm64: entry: Move trampoline macros out of ifdef'd section
-11b9462441ea733ff27fa15dd8a28fb048089230 arm64: entry: Make the kpti trampoline's kpti sequence optional
-5cc987c55211ccdcc52a37160a7ee30681acab97 arm64: entry: Allow the trampoline text to occupy multiple pages
-b7593720470b7ed6fc1311ba18cb06b416b6f382 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-d6811c57c3dc756166f0f3f9262d308098760572 arm64: entry: Add vectors that have the bhb mitigation sequences
-433fa72d6a43ab9429cd369ea931778c0ef567fa arm64: entry: Add macro for reading symbol addresses from the trampoline
-c0e3d39f61461c1f19396e807aa1df3907da5c3c arm64: Add percpu vectors for EL1
-b494ea97dd9713ac1432242f2cc7cfaad7c36534 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-6de5c86920338f6419ec9462260487ae6d7f435e arm64: Mitigate spectre style branch history side channels
-4b1ecfe74ade8d7c1fcc74a43e2aafc8267f80a7 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-116fcfa77305dba85828bdeb9e7226bc99e884dd arm64: Use the clearbhb instruction in mitigations
-a99cab7d539c9ef9ad8767ab68e31504c7c108cc arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-af2f0568f5315417d182c23655f5b6cb177f3b18 ARM: fix build error when BPF_SYSCALL is disabled
-77805686cf5ce7adb979cac36222b62ab21ae63f slip: fix macro redefine warning
-a72226f62865ac22d62d62c02d67840c0254e9be block: drop unused includes in <linux/genhd.h>
+40d23d4f188a86bca69f3d093c60ab489443f39a x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+e5ae21f61cc4dce4bcf7be3748fb0d53b560655b x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+7015705257f8af2654bc4c23851fcc1689c33d62 x86/speculation: Add eIBRS + Retpoline options
+11f0fadc89255272a02d3d81493ad8aa4b6fa8e9 Documentation/hw-vuln: Update spectre doc
+0fecb97e5737b475b667478917cb421052bc7342 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+0c6298367575d4ad03bf9ab00562368c493658f3 x86/speculation: Use generic retpoline by default on AMD
+18a8792201ff4b42a8a2468b1189180a25e66a4e x86/speculation: Update link to AMD speculation whitepaper
+b0bd58165228d7f23c200797f24fec6e68812c62 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+5d534fb25854b32861f0aef8e0cd9fabd99c5f0d x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+1879892e53429e83940740d28e05753816896b13 ARM: report Spectre v2 status through sysfs
+50179d10c8eb0b2c5849d5723bd14ac536ee9c58 ARM: early traps initialisation
+868ac438bd9891f20c2f3929ba8ac5c84aa1c1af ARM: use LOADADDR() to get load address of sections
+6307c7a637177b4fdf31db00981e39a3ece10143 ARM: Spectre-BHB workaround
+5f6464f17feb991a6fc488b102124949365d2dfd ARM: include unprivileged BPF status in Spectre V2 reporting
+19f73300fec4d41a6dbdabad8be1335e56675ee3 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+fe3eaee78304f261e2e8ad0cf910f80557f2a833 arm64: Add HWCAP for self-synchronising virtual counter
+9cd3c185be3a14cfe49af139e67d06b56e9b0c9a arm64: Add Cortex-X2 CPU part definition
+b08af600463efbaf9f5e6b8df7e0aca874eb9219 arm64: add ID_AA64ISAR2_EL1 sys register
+04514d69e2d64f47b747b3f42bdcdfee5661c00b arm64: cpufeature: add HWCAP for FEAT_AFP
+c1ac2355b67a61d7cab7bc7beacd94332380c8b9 arm64: cpufeature: add HWCAP for FEAT_RPRES
+0fb6c078dcf965ccd698abb55505fbc969f982a9 arm64: entry.S: Add ventry overflow sanity checks
+d19ee09d3beaf4d81846758e9211a000e878ee30 arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
+af0ba4b26c1d3a813e0222719342a07878c4b48f KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
+eb68e42976a9ebb2aa1be68da4f674c397b0bf07 arm64: entry: Make the trampoline cleanup optional
+f62e6f2038f0a10b0a9ae8f7851d9f08ad7d348b arm64: entry: Free up another register on kpti's tramp_exit path
+dd9694ecf9b1b7b521cbef5c26736ab38f8dc4ff arm64: entry: Move the trampoline data page before the text page
+b05fe6d1794ab7ebab4476e4f07821ce80303c98 arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+da9be5654d95ad8316c8c0fe0ac78c45b419ca91 arm64: entry: Don't assume tramp_vectors is the start of the vectors
+a8d4eee848b8432fd5060a7cccfafdbcdaf4baf4 arm64: entry: Move trampoline macros out of ifdef'd section
+e7e63ce76d10d7e4817c73e8e10b249f0560eaa2 arm64: entry: Make the kpti trampoline's kpti sequence optional
+0b1c570a322efb72fbedae986fb6e69173c03344 arm64: entry: Allow the trampoline text to occupy multiple pages
+e68e201220f216302fc3f26840e98617a8bd66cd arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+997ec88d7af91220ff60529174237afde0d9c736 arm64: entry: Add vectors that have the bhb mitigation sequences
+0c618dd2ab1a4d92701792a9fb9cdf5497dc9f4b arm64: entry: Add macro for reading symbol addresses from the trampoline
+1149871b883b18728ef5c7289fb9e20bafca68a4 arm64: Add percpu vectors for EL1
+31d22254425c55098049c92db975d7c5e17dd3f7 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+1a36b93093e50a674ad6a9c5c1b72b5a829e9c8d arm64: Mitigate spectre style branch history side channels
+849f2cf32516f6e2da8fa26737f4231ca41edaf4 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+2b4f96c9ba1870d26100cf85575cfe4949a85e9b arm64: Use the clearbhb instruction in mitigations
+cac55f2f0aa00044fba9e064f92546298ea90143 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+92f23cfa278fb3d29fbf8b31cd91e03f40fc191f ARM: fix build error when BPF_SYSCALL is disabled
+8d2c3643935316013f7d320706136a079875a4c4 slip: fix macro redefine warning
+5940b606b071ee0019147bcddb8bbbe440d21ae8 block: drop unused includes in <linux/genhd.h>
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c01db94ffbc3-0815fdaa37fb.txt
+Content-Disposition: attachment; filename=revlist-0815fdaa37fb-c4c6d5f38575.txt
 
-d3b0803803e940a1b5cf12c636112b2b6bdee582 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-dae3f2b1816ca867cd6e7c9774880cd181bbbbdc x86/speculation: Add eIBRS + Retpoline options
-45731ccee9a92fc00123834d5ac89d8d17e8125e Documentation/hw-vuln: Update spectre doc
-c19729875880b8d673c603e458bb4a8897e43816 x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-018672426db2a3f84829e6cf03d7177b546887ad x86/speculation: Use generic retpoline by default on AMD
-d6bb83dafa5b74851946155a7dd0b4cb3f86d0c3 x86/speculation: Update link to AMD speculation whitepaper
-7a2f1f682b954bc9ef2f9fc5ef5a5b36456669a1 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-204343096c3f9916b32cc5d8c84b6f68c20da6c3 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-2b02096bdf5b1c8d5f2fcee5b22fcc3d8260b12b ARM: report Spectre v2 status through sysfs
-cc461b33379bee54cddef41a81290d96b84e69fe ARM: early traps initialisation
-15cd0b9ffde413a9647dd6050e076b1865fcb4ab ARM: use LOADADDR() to get load address of sections
-f47f8f3eddd834f2ff77b7708a242b7a7bd8acbe ARM: Spectre-BHB workaround
-53878a721a864a691ce55a351296c9a1f9dfa311 ARM: include unprivileged BPF status in Spectre V2 reporting
-31caa991d342f115b17a6c93c3c02bde782f7c3e arm64: add ID_AA64ISAR2_EL1 sys register
-9662190fd8ba3eb33a0c27dc8f865d3d37904330 arm64: cpufeature: add HWCAP for FEAT_AFP
-0d23c73a1a260402e90aa61274a4733f3087e93d arm64: cpufeature: add HWCAP for FEAT_RPRES
-c7b301ce010dc5b11017b006a5f69e3e6926ea7a arm64: entry.S: Add ventry overflow sanity checks
-447279ced12dbb4ec380b84eff117a8a5b520d5d arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
-89610131276fe704eff82f4d5c7ab5cd34be6470 KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
-08534153958505df243e1b26e409ddfe35517fec arm64: entry: Make the trampoline cleanup optional
-cbcd8c67f2acb304cd0c7d71dc1f1f0b7f9afc41 arm64: entry: Free up another register on kpti's tramp_exit path
-8b045c085c0110afaba3ae1c793cbabe1e401638 arm64: entry: Move the trampoline data page before the text page
-f37419f827d4cecf869892e821f302b96ca75cfe arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-74ed8b9919fb201b018d514dd8c10e8ef22e7168 arm64: entry: Don't assume tramp_vectors is the start of the vectors
-986c53bbd65e556fd623c7bda0b71bfd7c836f00 arm64: entry: Move trampoline macros out of ifdef'd section
-9c51a1944a803561ab0c6c15905c2876877a6a79 arm64: entry: Make the kpti trampoline's kpti sequence optional
-723d168ae64687ce4cd8c689e8ee188da66f402f arm64: entry: Allow the trampoline text to occupy multiple pages
-fd8ff5aaec347656611c94579f10c0989bf4ff2a arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-bde34f82513bac2b6d4bd99d6c2cb725c992526c arm64: entry: Add vectors that have the bhb mitigation sequences
-38f1d907b6e92dbf42ea77b10e94e48d94f19f90 arm64: entry: Add macro for reading symbol addresses from the trampoline
-bbd12d84b148e9bc887e25f32cc698d2a4b60487 arm64: Add percpu vectors for EL1
-e4c7f7c638d24c323311c2cc839eb25c7afeceb7 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-dd1c5a6eb3e01f1c45c72a34cb4c988df2c74fd9 arm64: Mitigate spectre style branch history side channels
-3be83028e384717fe4efd5deb3379871c9d1ea23 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-b958c9b22333e29523c2b3e6b5ac67bc76f08818 arm64: Use the clearbhb instruction in mitigations
-58d3a3a8e8b7d7d732ed317bee46c6432a0faef0 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-0815fdaa37fb653fe376cd6e9a99a8b3a198fccb ARM: fix build error when BPF_SYSCALL is disabled
+e2e8ab9afa37386a62ad68b6f5b8166363447c5f x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+e6018a7ede6f292cb5583376532e88fc350f36f2 x86/speculation: Add eIBRS + Retpoline options
+c7328d4ab7ecd6a794ee355e1bc22e546915a692 Documentation/hw-vuln: Update spectre doc
+04b73a4f3d5933cee9a5cd991596d12a6ccee28a x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+39e5f390a147cb880c0638a263b8872dcbd04b6c x86/speculation: Use generic retpoline by default on AMD
+bcf327ca615b652b8500f55efc3131cc95113ad0 x86/speculation: Update link to AMD speculation whitepaper
+d47909c03ec04ca8f54c1ea3821e5b069f8267cc x86/speculation: Warn about Spectre v2 LFENCE mitigation
+bc43b1126b1285f0e7bb7861724260cdecc336d0 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+1c69f4c7e50c54fa38b3e567cef2f47585c85bc6 ARM: report Spectre v2 status through sysfs
+9937287d147d5e17912e7e16bb0667927ba780d5 ARM: early traps initialisation
+e388261a922f8654aeabc12c66a1d8d9d0a6604d ARM: use LOADADDR() to get load address of sections
+b4a46ff3c158c7953b47645e647ed42559aeb725 ARM: Spectre-BHB workaround
+c6836bf840f04d8de35ac906dbe0bcb317c7bb1d ARM: include unprivileged BPF status in Spectre V2 reporting
+006ac8d91c3e1bf470499e57613667fda1e0a8a6 arm64: add ID_AA64ISAR2_EL1 sys register
+fb79fbb41de738a6d7a531e3310e9881e87e39b4 arm64: cpufeature: add HWCAP for FEAT_AFP
+a7ee96a0fa97ed937144db3340372fb7143c5de4 arm64: cpufeature: add HWCAP for FEAT_RPRES
+065c4f4620f25c517d99e59a83fd8e934833479b arm64: entry.S: Add ventry overflow sanity checks
+a611f43fe456fab93f76b59fb7dace0a3b2eb989 arm64: spectre: Rename spectre_v4_patch_fw_mitigation_conduit
+c5969646bc47935676864158905e6a567e73a4db KVM: arm64: Allow indirect vectors to be used without SPECTRE_V3A
+0e27e6b18413e2b5d5a642f3b1107cf8c36aaab2 arm64: entry: Make the trampoline cleanup optional
+010ef43916dcf1861225b8a6815c8b94a533ceb3 arm64: entry: Free up another register on kpti's tramp_exit path
+ba566e15cf0de7224b924ece8c051655010a5a72 arm64: entry: Move the trampoline data page before the text page
+067a9f9c7dab6ed7a51abf2693e7b3beef3e2c3f arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+2a06ed7e1a202db87aa131cfc5abeabce37b29d4 arm64: entry: Don't assume tramp_vectors is the start of the vectors
+ca74a5d5d9a6407888190218d57ad626110e80cb arm64: entry: Move trampoline macros out of ifdef'd section
+9c041d9494db86e0ff3e25e015cbc9c1cb7e6630 arm64: entry: Make the kpti trampoline's kpti sequence optional
+22b3f2dffe3bf72cf504bb84ae015729b8c3ab93 arm64: entry: Allow the trampoline text to occupy multiple pages
+4cc8f2483685a48e02f21d9009a1087b858dd523 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+3bc8b1116c745632f7be125406fc616b8d49d90f arm64: entry: Add vectors that have the bhb mitigation sequences
+4204aad4c588efc83916695716b5498d70afc326 arm64: entry: Add macro for reading symbol addresses from the trampoline
+509042fc4ebcc08f445c6f94d6813959716c4e9d arm64: Add percpu vectors for EL1
+032b7f63f348167c68213d9e8486f0843b133d79 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+c9ebf794d70bf0a5c83a646aa8ebdd2c42666521 arm64: Mitigate spectre style branch history side channels
+0dea1e24837b2ec15eacbef8541f9a2185959cbe KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+dbdb755ec02489280399f476f12cd1e8aebd5f3d arm64: Use the clearbhb instruction in mitigations
+3e65b4236458091738be6c3111b0503df3ac2e30 arm64: proton-pack: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+c4c6d5f385759347e2ce2e4c01f3654265106b55 ARM: fix build error when BPF_SYSCALL is disabled
 
---===============4444807210939258429==
+--===============2788363820984706805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0f4a0914cad-9118c400e542.txt
+Content-Disposition: attachment; filename=revlist-9118c400e542-251931769911.txt
 
-3dd34029a4ca61d5a4a30809b7516f728b92b8dd x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-07f37115044c316dc1b071ff61a89c102fad04c2 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-f8463074c2ecc613b1f8160484b259e44e4ccbb5 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-010196159061fae1efecc8d69ec2233c1668f331 x86/speculation: Add eIBRS + Retpoline options
-bbd7144848441eff976578da4abefeabdb4d0c1f Documentation/hw-vuln: Update spectre doc
-818b4f4efadc858ce816bf762203ad0d3b742baf x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-763b20560b44af3889bc73213fd1cf57d0f4821a x86/speculation: Use generic retpoline by default on AMD
-f466033840cf0f9f6a27ebd9564d0ee34114bf0b x86/speculation: Update link to AMD speculation whitepaper
-04fbfe309d5fcd6f10a88328b41b45f57ccb5980 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-a64c2df2d52617b8c041e1f6049dfff7c32ab4dd x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-749fccca7b3a5fddfac31b95985cb4c4a1a4deb5 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-4d13e0d5ca1dba30a4cfdf3482702aaee102fda9 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-884ebcd9d2029e1bb78654fc1453761e3635b073 ARM: report Spectre v2 status through sysfs
-ae8e079c5d765d3504bdb15e88cb2847cc0ac0ec ARM: early traps initialisation
-e43b441a138814db6b442aa4e1f07655430780ac ARM: use LOADADDR() to get load address of sections
-1304af5ec1732c9ba20d47fa42eec38099e7c247 ARM: Spectre-BHB workaround
-ce6b7cc1ca873123d2be2b7a87f0dd1ec5b83059 ARM: include unprivileged BPF status in Spectre V2 reporting
-9118c400e542bdc6b3cea21d6b2ed7207485e5a4 ARM: fix build error when BPF_SYSCALL is disabled
+cebd6bb85eed8fc124872fc25498aa8e6fefd66f x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+fc9c7d4e63dc65c36863ce6df5124a6ba90182f0 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+b848aa7ace48c33417754f3ea2fd5abc0a22dbca x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+27fb8a3972d115f86b2695e196051799ce6be12a x86/speculation: Add eIBRS + Retpoline options
+18f8fb83f2952d4832a08cc477aad06fd6d2bd60 Documentation/hw-vuln: Update spectre doc
+1a4be386fdcefbd41048a34e3dd5d1b955ea8e3b x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+469c49cdfc989c3ad624c47b533763c5604ccacf x86/speculation: Use generic retpoline by default on AMD
+2e7582dd54be9423093dcebb6ffa085eb9cf11dc x86/speculation: Update link to AMD speculation whitepaper
+4f8ebe08fc190d98fe2bbccbed47ab30917b4ae8 x86/speculation: Warn about Spectre v2 LFENCE mitigation
+fa76ace22049677f2157f78a9964cd2d18ecbed8 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+ebaab1c5b2c743854f465413a7106a3b1900a3bc arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+d25b3ac9a850604bfd9257afb129c0ae78d6ce67 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+d875b65f42cef3e30974347b0c028b66274618c4 ARM: report Spectre v2 status through sysfs
+8e6e74eebd2d9cdd97fa5e55149309af33365f4d ARM: early traps initialisation
+0496e1da8b8438ef5281dcf6975502f3289facfe ARM: use LOADADDR() to get load address of sections
+3e1413336c4ac31b3156062709b473997aca5889 ARM: Spectre-BHB workaround
+fdf27a49142f08fd6d472aeecc7b496571fff49b ARM: include unprivileged BPF status in Spectre V2 reporting
+4dc2be3d0abdf8d0071439dd51ef8ba9fa1754a1 ARM: fix build error when BPF_SYSCALL is disabled
+1fe839c2b408696b386eaafbced421494838622f arm64: entry.S: Add ventry overflow sanity checks
+5750efb9df65c5f5d5f243a6176b581ed30e5333 arm64: entry: Make the trampoline cleanup optional
+a269a5bf679b7653014d98ac16f916fb3b9845ff arm64: entry: Free up another register on kpti's tramp_exit path
+67556dddd87a679279ce417d992658a985769f54 arm64: entry: Move the trampoline data page before the text page
+e3fc563c02c6e935a1659b55c863765404289164 arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+2b5f3468d63d868ce94598ea4ebd5886425d6fef arm64: entry: Don't assume tramp_vectors is the start of the vectors
+00b7f7b121194404079179f706082747f649b0ea arm64: entry: Move trampoline macros out of ifdef'd section
+a44ee2bfd0a83114aff1c49f112c53b016804453 arm64: entry: Make the kpti trampoline's kpti sequence optional
+7a2a8584c40af442622c500b00cd9ec87f110fa3 arm64: entry: Allow the trampoline text to occupy multiple pages
+ca4e50971d9abe99aae5158f527727dc203f75cf arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+7167b8753692bd6805e9b543c7dc2a92dc9801fa arm64: entry: Add vectors that have the bhb mitigation sequences
+7330a91f65f386591db5da31610ad5d86d2f0563 arm64: entry: Add macro for reading symbol addresses from the trampoline
+6a629debec551c70dc8b222b8de9ded6a976e4ca arm64: Add percpu vectors for EL1
+0eb5970f4ebcd5b37832eace957e8da33482e1d9 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+703af6d9b5f4111b8e4dda75c4a58f70b7c148d5 arm64: Add part number for Arm Cortex-A77
+716dadfd283fe73e651c84f5a0ba0b4a39996046 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+75391d1af56f07c97fb075ffaba1bd8711330ccd arm64: Add Cortex-X2 CPU part definition
+3c59646ebf74c5a42f2f57ae71d0ff0664b76ee5 KVM: arm64: Add templates for BHB mitigation sequences
+fad018c2b1cc8011ae5bf236704822fdbd23faa6 arm64: Mitigate spectre style branch history side channels
+e52621583c227ffcd21b799c61a7a43b5ced7a52 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+bcf96be79b7d6e0a8b674fd617976a79149cb86a arm64: add ID_AA64ISAR2_EL1 sys register
+251931769911f8de3e1fc222ebca5b6cbd3a2d71 arm64: Use the clearbhb instruction in mitigations
 
---===============4444807210939258429==--
+--===============2788363820984706805==--
