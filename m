@@ -1,61 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7833342003985741285=="
+Content-Type: multipart/mixed; boundary="===============5423737529105144735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 09 Mar 2022 04:09:37 -0000
-Message-Id: <164679897763.31738.2613758088603448747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Wed, 09 Mar 2022 04:52:12 -0000
+Message-Id: <164680153247.28744.16160399233625549569@gitolite.kernel.org>
 
---===============7833342003985741285==
+--===============5423737529105144735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: f2ddbbea7780f0af46944ccd494f7eded8e214a4
-    new: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
-    log: |
-         e9c478014b602fda2a99a6370d9eb2e5d7355246 scsi: scsi_debug: Silence unexpected unlock warnings
-         3fd07aecb75003fbcb0b7c3124d12f71ffd360d8 scsi: scsi_debug: Fix qc_lock use in sdebug_blk_mq_poll()
-         271add11994ba1a334859069367e04d2be2ebdd4 scsi: libfc: Fix use after free in fc_exch_abts_resp()
-         0c25422d34b4726b2707d5f38560943155a91b80 scsi: mpt3sas: Remove scsi_dma_map() error messages
-         208cc9fe6f21112b5cc6cb87065fb8ab66e79316 scsi: mpt3sas: Fix incorrect 4GB boundary check
-         296559d41e0f8e7c8f198dd3946e288255088cef scsi: ufs: docs: UFS documentation corrections
-         2bd3b6b75946db2ace06e145d53988e10ed7e99a scsi: ufs: core: scsi_get_lba() error fix
-         
+  - ref: refs/heads/net-rc
+    old: 4cbe04c9b1f65ccc1facae748f3f785bbedc7ea2
+    new: 0b6e631dad8a397230d51fd0d273802f46198fcb
+    log: revlist-4cbe04c9b1f6-0b6e631dad8a.txt
 
---===============7833342003985741285==
+--===============5423737529105144735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4cbe04c9b1f6-0b6e631dad8a.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1646798970 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1646798969-7203738cf3ac38bfc2909a3fc592c2f782d15d35
+e5417cbf7ab5df1632e68fe7d9e6331fc0e7dbd6 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
+269567bd2d6015577d182a7ce4d8e72d245dbbc6 net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
+48583d4574b24826230e82203b8fb0f6c00c1861 net/mlx5: Fix offloading with ESWITCH_IPV4_TTL_MODIFY_ENABLE
+b151899a6c8dde0849116889fd7588467188ae3f net/mlx5e: TC, Reject rules with drop and modify hdr action
+048323a78e6756d2df3dc28be6a62b5323f9db9c net/mlx5e: TC, Reject rules with drop and modify hdr action
+9f88f86ca818bb474116661a6855945d9335b128 net/mlx5e: TC, Reject rules with forward and drop actions
+cde2f8d2c77bfc40009f37ab5960c9b62ae6ce2a net/mlx5: Fix a race on command flush flow
+bed032520c9f656f9c944f2a64068b5e08ac98d3 net: Fix features skip in for_each_netdev_feature()
+908c2b8b69355dbdc27bf35acf562cbfa5eade39 Merge branch 'patchq/463565' into mlx5-for-net
+3a78cfb1d66672af6b8c1a4e02721065e37b6500 Merge branch 'patchq/466355' into mlx5-for-net
+f5b0a46f32fa4bf491df4c5df617d22d284b4d17 Merge branch 'patchq/473089' into mlx5-for-net
+39937e3c7037929ab9074c3918eb339b58436954 Merge branch 'patchq/382345' into mlx5-for-net
+da4eec441234c523b3d3b08e99ab2ce56289cf93 Merge branch 'mlx4-for-net' into net-rc
+0b6e631dad8a397230d51fd0d273802f46198fcb Merge branch 'mlx5-for-net' into net-rc
 
-f2ddbbea7780f0af46944ccd494f7eded8e214a4 2bd3b6b75946db2ace06e145d53988e10ed7e99a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKHoACgkQ7ulgGnXF
-3j18IQ//a5PBSWATreMHdrJ57tca8o3hyU5XNAz3K43LYdppFV847eIAFWTAZLdL
-Ys6+gceFCqrCnksb8xe3NSUWzm8tuD/e5MzE+UD+6yA7bmxKPRhDjvwWat31dn44
-B9yrqf+Q/cLLzS/s46JM4qsOpxeBuzzYxX7Anq4/Jh33qGenJQJ/vlQIWCqwMCjl
-xcayR5Czj5lAnHaPpiqGYvD08Hz0vdH8BzDhqyZSrHWVpRldYQ6FCUZW2x4stymE
-mFJkVMEbi8VhamRqWw2XC9FmbCvlQTvPbozvKyRzMHrs5k9vXhcdgEK4EZDTgfu6
-O6cNtO/sG9rtDAc7sLKJlM+n6aD81SgJs9x5JXoTuvw+Wdr5stVEmvuJ0legyZT5
-qVYKlwoG/2svoRM0TKW/ppJj1P7sxGX7/X7+3B0KiR/x94SHV96h9tyBzU6vkFvu
-XU4k2qet2qXT/sC8BLAhWoG51N7eeZzxne0mzpf5aUETJ/wy7PsK7iIy7x/lu5Xk
-8mW/DAAnYoVa0SxVHMGT5NzZ+ampDGPNauJg6SpmphAJN1H2NHpHmVXl0d6WBCo2
-itxjh8+YErwVRTpwLw1Jb7U4to0geZQ+x7c6fFRZCH34TvZ3ef+imUNg5CehCZA+
-0mFOi5DzPDRnzOI5hburoTu4cmNybxGbriHVNfLwsymGbIDBcbI=
-=0x4D
------END PGP SIGNATURE-----
-
---===============7833342003985741285==--
+--===============5423737529105144735==--
