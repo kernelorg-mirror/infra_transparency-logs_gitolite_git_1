@@ -1,75 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============8271383065637894025=="
+Content-Type: multipart/mixed; boundary="===============3409610003784745465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 09 Mar 2022 04:04:10 -0000
-Message-Id: <164679865009.28158.12891044360870488845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 09 Mar 2022 04:08:31 -0000
+Message-Id: <164679891154.30980.13652084033824370206@gitolite.kernel.org>
 
---===============8271383065637894025==
+--===============3409610003784745465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/net-next-mlx4
-    old: d59e3cbaef707f0d3dc1e3b6735cb25060ca74c2
-    new: d307eab593b283849c13703ca3fd6a5b3908d6f8
-    log: revlist-d59e3cbaef70-d307eab593b2.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: bb02f40e768e840927748a787853da294718fe0f
+    new: fd1cda09f89338a1cda9fb7e485bc110d974f9ed
+    log: revlist-bb02f40e768e-fd1cda09f893.txt
 
---===============8271383065637894025==
+--===============3409610003784745465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d59e3cbaef70-d307eab593b2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-925a24213b5cc80fcef8858e6dc1f97ea2b17afb Revert "net/smc: don't req_notify until all CQEs drained"
-736f16de75f9bb32d76f652cb66f04d1bc685057 net: tap: track dropped skb via kfree_skb_reason()
-45a15d89fbcd280571eba8e5ca309e14ba6afa8f net: tun: split run_ebpf_filter() and pskb_trim() into different "if statement"
-4b4f052e2d89c2eb7e13ee28ba9e85f8097aef3d net: tun: track dropped skb via kfree_skb_reason()
-4c22aac3f83ea3c4c90fa964a88e197f16b8cae0 Merge branch 'tuntap-kfree_skb_reason'
-a3d73e15909bdcf25f341e6623cc165ba7eb5968 net: phy: Use netif_rx().
-00f4a0afb7eafdf3dae764ec0c40fe6abfdf8254 can: Use netif_rx().
-b903117b48681e12fae38e09c874f38c45186dc6 mctp: serial: Use netif_rx().
-e77975e02b593cbcc1ab2325b1729614d01de71f slip/plip: Use netif_rx().
-1cd2ef9fcb67115030b20ea2b560635efce746da wireless: Atheros: Use netif_rx().
-b381728e7e282e2f5c2581d6919aa4fc08f5a88a wireless: brcmfmac: Use netif_rx().
-afb6d39f329248598b044a87bad382e938c5ddda wireless: Marvell: Use netif_rx().
-f9834dbdd322f144f7b51f2fe8017fc6b870b3ec wireless: Use netif_rx().
-83b7b77af37a89a1ef82201ac8fb45456ecc25bb Merge branch 'netif_rx-conversions-part2'
-669b258a793db9f1c3bff29ce2bbd61b810503ad bonding: helper macro __ATTR_RO to make code more clear
-f72de02ebece2e962462bc0c1e9efd29eaa029b2 ptp: Add generic PTP is_sync() function
-1246b229c6e8712f4da2d2a0d0b2542ff3daa837 dp83640: Use generic ptp_msg_is_sync() function
-3914a9c07e8c3a30f178f1c92e2354b9cffdecb5 micrel: Use generic ptp_msg_is_sync() function
-cd0b6277c3aafdf855a7cded10defd7705e6580e Merge branch 'ptp-is_sync'
-a70d20704ad5230912b6f0113d7226cea19cde91 s390: net: Use netif_rx().
-4bcc4249b4cf4df17429a5299c456ba9e76de779 staging: Use netif_rx().
-3d391f6518fddcd44367d463aa20a50145f3ea3f tun: vxlan: Use netif_rx().
-a0f0db8292e6fdb6b467a2270fa88b219ac98fb7 tipc: Use netif_rx().
-94da81e2fc4285db373fe9a1eb012c2ee205b110 batman-adv: Use netif_rx().
-d33d0dc9275d29be68ae1bacf430e30dc112d769 bluetooth: Use netif_rx().
-63d57cd674541f3633d7e3e025c26c0ec01090fc phonet: Use netif_rx().
-e1f9e434617fb28097223d9484de66218bc0b52d net: phy: micrel: Use netif_rx().
-2655926aea9beea62c9ba80c032485456fd848f0 net: Remove netif_rx_any_context() and netif_rx_ni().
-67dbd6c0a2c427211244e344b85a55d6e82886bf net: phy: micrel: Move netif_rx() outside of IRQ-off section.
-e21af12622c0fb36f719ef9bd5aa1defcffb8004 Merge branch 'netif_rx-part3'
-7de8eb0d9039f16e1122d7aa524a1502a160c4ff net/smc: fix compile warning for smc_sysctl
-0c1794c200e943ea95a28c0a8c7eda6b5c004a9d nfp: xsk: avoid newline at the end of message in NL_SET_ERR_MSG_MOD
-0273d10182ec4507a43b868dd80fd62860b7e948 selftests: net: fix array_size.cocci warning
-cd5169841c49dab75ecc3b20b3bd1100395b6909 net: dsa: return success if there was nothing to do
-57d29a2935c9aab0aaef6264bf6a58aad3859e7c net: rtnetlink: fix error handling in rtnl_fill_statsinfo()
-72f00505f2d2eced9789e98ca081f8229f03b2ed ptp: ocp: off by in in ptp_ocp_tod_gnss_name()
-8daf4e75fc09d6b0ca8fea0988959c99643aa8a8 vxlan_core: delete unnecessary condition
-13d04d79701ba240969b296903de14db3734ab25 ice: xsk: fix GCC version checking against pragma unroll presence
-69adcb988a0675ce001dfc416d56fba2e8a85f48 net: cxgb3: Fix an error code when probing the driver
-1416ea0ddc1463fb8c9cf12b48f3df82a327e356 net: mdio-mux: add bus name to bus id
-328c621b95cdee01c50ec6d025b871b7c591f424 net: lan966x: allow offloading timestamp operations to the PHY
-6c43a920a5cd26511059751f594c3ac05f9a6125 net: dsa: tag_dsa: Fix tx from VLAN uppers on non-filtering bridges
-64807c2321512f67959e51f09e302c145c336184 net: phy: exported the genphy_read_master_slave function
-f1f3a674261e08f318a4bbe06391874ffdd9383f net: phy: lan87xx: use genphy_read_master_slave in read_status
-d307eab593b283849c13703ca3fd6a5b3908d6f8 Merge branch 'net-phy-lan87xx-use-genphy_read_master_slave-function'
+certificate version 0.1
+pusher 75C5DE3D 1646798903 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1646798902-83c1fd653476acd73e65fa82855d33221535bb6c
 
---===============8271383065637894025==--
+bb02f40e768e840927748a787853da294718fe0f fd1cda09f89338a1cda9fb7e485bc110d974f9ed refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIoKDcACgkQ7ulgGnXF
+3j3Xcw/9FUVtKm/nRriyc7qzoBWXydV5I2MJQKPWsL0BDZil5/y+jmhv55EkN5rV
+MouqgrfbjKUBh9Y7iNlKG1o5mWN6aqs1vCGJxRiTMK8OuMiridz5SNzF7YtaBLD5
+se0RrHnx2cRSIsVpbyQZf7m0vRdqe18pA7f0eEVhF4USKRzTyYOxyCmTSmTtK3O6
+hWx35AkjwAxYL5MkAcbeyBbt7WJeQ+cEt0kp/dGKbSqU5HYzlgSe05xwaRMDKTSk
+y2T7TKqrrDR4fHjere3tZahYTJtJmlm6EtoMjfx3CmguUhnN0w4H9lS6dPBoCtas
+IQ4f/a/PwNrtl5ooluFLH71dG8RmhLsMd3Qyx75PRxi7jwOF2DFrBMgrQKAzGF3k
+KOucfWKDMOrXDBde8aHCSIFXqeEidoQzcKP7ZibDhThC7KVXI2R69j7fRj73MwHe
+9IeZELy0Qgz6WZLeIltus88CCuTvuvqR84S+hVFOR2aVYsP6g7LgA14WfzKoxZ18
+LxHmx0BSrLmGOqDpvCuv3MfZBALIn7LutFSKInwPfqrv1uTVPd2+K1SmZVtbtS6P
+Vc56l1N0rpMK9f15Hq1oRVWxvopsPxScsg867HTeyHRlKXJ5cJajG3XB6Fkp8ghn
+vZza8SxjkvmJe1Y61xpocpico2Y4RXk5VlB4Mv6893KwCvKAacY=
+=nf1x
+-----END PGP SIGNATURE-----
+
+--===============3409610003784745465==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bb02f40e768e-fd1cda09f893.txt
+
+32698c955295957d63f042f4bb30e9d613ca8b55 scsi: libsas: Clean up sas_form_port()
+07e0984b96ec1ba8c6de1c092b986b00ea0c114c scsi: scsi_transport_fc: Fix FPIN Link Integrity statistics counters
+8dd3dff3bf3e9d91df3a4c3665d3da873b6095b8 scsi: iscsi: Fix recovery and unblocking race
+b07c348f8ffb2885500a1c93f7be0edeead61ad5 scsi: iscsi: Speed up session unblocking and removal
+d8ec5d67b8bb6593223f24c04e1d530d86748250 scsi: iscsi: Remove iscsi_scan_finished()
+5842ea3668310466dcf645a23b6cd5012ce2eadf scsi: iscsi: ql4xxx: Use per-session workqueue for unbinding
+7cb6683ce761eda9b474e4d612cdfc2067a5ea07 scsi: iscsi: Use the session workqueue for recovery
+69af1c9577aae2149f79be6f485609250fdfb0ad scsi: iscsi: Drop temp workq_name
+98cdcd6c6b4a3abacc65dd7ec66a230a5dffc3f8 scsi: wd719x: Return proper error code when dma_set_mask() fails
+bf180cc1a5da39cd23e52127370a6f11494689b3 scsi: lpfc: Kill lpfc_bus_reset_handler()
+45c59287ff01589dab148048ef3d18d3211eee1d scsi: lpfc: Drop lpfc_no_handler()
+bb21fc9911eea92afd476f7e64b327716e042a25 scsi: lpfc: Use fc_block_rport()
+123a3af35d084569c80b53de0e8e631567d0396f scsi: lpfc: Use rport as argument for lpfc_send_taskmgmt()
+e81ce97f571607757f29a8a25ae0051e72b3c832 scsi: lpfc: Use rport as argument for lpfc_chk_tgt_mapped()
+af4edb1d50c6d1044cb34bc43621411b7ba2cffe scsi: core: sd: Add silence_suspend flag to suppress some PM messages
+71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f scsi: ufs: Fix runtime PM messages never-ending cycle
+
+--===============3409610003784745465==--
