@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 09 Mar 2022 12:28:58 -0000
-Message-Id: <164682893888.13509.11406023248769284858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Wed, 09 Mar 2022 12:39:34 -0000
+Message-Id: <164682957433.20065.3087581387361308724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/main
-    old: 4eedaea73fd50265397a20b06b8f8807740c3ca1
-    new: cd01f857da28abc170ebf19216945873ec7d5fec
+  - ref: refs/heads/thermal/linux-next
+    old: a7da8a0955cbe81433afecad229d2a2ba60c3f0a
+    new: 1379d28e840ff2f7f8a4095ec6cb3e7034e966bc
     log: |
-         3a4b2bd63739d6e795785868ce29e97fce29e2bc iwlwifi: update 9000-family firmwares to core68-60
-         8f9285cca830cb709439ee2cf14d0519d155983b iwlwifi: add new FWs from core68-60 release
-         cd01f857da28abc170ebf19216945873ec7d5fec Merge tag 'iwlwifi-fw-2022-03-03-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/linux-firmware into main
+         8db984a3711309153a67343babdcdd2ec9b428c2 dt-bindings: thermal: rzg2l-thermal: Document RZ/V2L bindings
+         1379d28e840ff2f7f8a4095ec6cb3e7034e966bc thermal: rcar_thermal: Use platform_get_irq_optional() to get the interrupt
          
