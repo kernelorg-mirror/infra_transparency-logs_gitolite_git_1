@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1729436154763735740=="
+Content-Type: multipart/mixed; boundary="===============3024379975334395998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 10 Mar 2022 11:33:58 -0000
-Message-Id: <164691203802.20372.5410877967847613147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Mar 2022 11:34:04 -0000
+Message-Id: <164691204463.20482.8206413709906798783@gitolite.kernel.org>
 
---===============1729436154763735740==
+--===============3024379975334395998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.17
+  - ref: refs/heads/asoc-5.17
     old: 5e02fb590e83684f63217f93a9cdeabd6a925f9c
     new: 353bb6a5f2ac495f289b7c7a528c7d134c9a8ec4
     log: |
          353bb6a5f2ac495f289b7c7a528c7d134c9a8ec4 ASoC: wm_adsp: Compressed stream DSP memory structs should be __packed
          
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8
     new: 233d2c4a103ac1ce83025029a83d5840b3d2b046
     log: revlist-73d9cf7ca121-233d2c4a103a.txt
 
---===============1729436154763735740==
+--===============3024379975334395998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1646912035 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1646912035-0a6d2d6ee318a943fcd79d1176ef0371bf785a24
+pusher C3F436CA30F5D8EB 1646912042 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1646912042-466348f26240b08bfe751d3a48a2e3b3e4c7494b
 
-5e02fb590e83684f63217f93a9cdeabd6a925f9c 353bb6a5f2ac495f289b7c7a528c7d134c9a8ec4 refs/heads/for-5.17
-73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8 233d2c4a103ac1ce83025029a83d5840b3d2b046 refs/heads/for-5.18
+5e02fb590e83684f63217f93a9cdeabd6a925f9c 353bb6a5f2ac495f289b7c7a528c7d134c9a8ec4 refs/heads/asoc-5.17
+73d9cf7ca1210140b9fb17fd79a0e33d1d5b9af8 233d2c4a103ac1ce83025029a83d5840b3d2b046 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIp4iMACgkQJNaLcl1U
-h9C3NAf/Yt5Jbhc93HfDxH++VMFc5yn7yOXnKQbwrCk0kxBmDyh7cwbbwapiclkl
-QtcgwtIc2vH1jt+/HHi8YuRmVKU8VFfqCD0ok4b5jL4uQaCWqJZlXzW581aguSbg
-f+drViPoxWV+OroILhZV/+DIlMOBY5qNda5Lr8QBKbL/fJJC7pYEWmOg1N/+kKTA
-BHK/oWuVNtSBuths+3hCyvqGc/A1Sl2lQhb8AS8gjKuMGejVuJCfGj81DF1M7FQP
-SYZDEgikthFvNvZHDbo4RSebAuxkZFA+lHoB3Ndhc7kU/+YT3nB235l9ioEmoWlT
-Kb8Z09eQVmqmrkL7TPh1LidsKv/tkw==
-=jpn4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIp4ioACgkQJNaLcl1U
+h9DevQf8COBkdtjVisUxNT4P29GjVm0FkjQsLSDtZIOVRJFgmYTR6SX8rGkqRg8U
+xCLdjyTIXilV/B+3R/LG/yzIoYdGIEx/HpqNWhiFWWI0imic+tgH3w1tuDCUqzfI
+khSwJpsVLJkKAxaSWV8GfXgOJtaTPWIPM226RvQ5LwEpyu1drXI9MDhEcPqAUWmR
+RsjdKfol/omnyi/iDOUAlFua9v0G2RN+WmbcJxyG2hbApGg1vmaJ1iBQ7XbkFPu7
+AeGxHWMN5b2kfqBs8qosDyTc5EPeJVmI97rhFs333MlkOSE5lR/5a1stO3uK+srJ
+Fk7/sP0S/f4F70OmvXa3SYzixaql+Q==
+=VSm4
 -----END PGP SIGNATURE-----
 
---===============1729436154763735740==
+--===============3024379975334395998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ c8ee0c37c045ccc1fbbe074e8af5031b36861cd2 ASoC: SOF: amd: Remove unneeded semicol
 efb1a2d3d8f5c18ab03e9e4a1b7fc732f25e00d6 ALSA/ASoC/SOF/Intel: improve support for ES8336-based platforms
 233d2c4a103ac1ce83025029a83d5840b3d2b046 Clean ups and preparation for IPC abstraction in the SOF driver
 
---===============1729436154763735740==--
+--===============3024379975334395998==--
