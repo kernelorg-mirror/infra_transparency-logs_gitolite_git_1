@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 10 Mar 2022 11:35:00 -0000
-Message-Id: <164691210048.21088.1116689972629768872@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3622566498996898680=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 10 Mar 2022 11:49:33 -0000
+Message-Id: <164691297328.31407.8576130279002650224@gitolite.kernel.org>
+
+--===============3622566498996898680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 1a69f6b8c034974d70946b42db985e2429c096a4
-    new: 2b000c66100fdef9cc20a716f9ebb2118e24ef21
+  - ref: refs/heads/master
+    old: 8126ec37ed527e6e56728e47f11e83bfc5922921
+    new: 7d7fd5b614afe30b6f5c629d93523afc00004ce3
     log: |
-         2b000c66100fdef9cc20a716f9ebb2118e24ef21 Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         7d7fd5b614afe30b6f5c629d93523afc00004ce3 typo in commit message fixed up
          
-  - ref: refs/heads/for-next
-    old: 7d37c55923321fb7e355d7695eb9be6c919a50fd
-    new: 9c37731b9501ab36aa5f87b8120b33068eb0343b
-    log: |
-         b77e70f6b8f2cc62fba847f3008a430a09ef275d regulator: Add bindings for Richtek RT5190A PMIC
-         760423dfad53877b468490758fe7ea968ded9402 regulator: rt5190a: Add support for Richtek RT5190A PMIC
-         2b000c66100fdef9cc20a716f9ebb2118e24ef21 Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
-         d5b9ccc706eb13e1ded268bd5bb7ae963d61183c Merge branch 'regulator-linus' into regulator-next
-         9c37731b9501ab36aa5f87b8120b33068eb0343b Merge remote-tracking branch 'regulator/for-5.18' into regulator-next
-         
+
+--===============3622566498996898680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646912967 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1646912966-5982f2f141b60b5d27da2d6e4b56ecf99c94c559
+
+8126ec37ed527e6e56728e47f11e83bfc5922921 7d7fd5b614afe30b6f5c629d93523afc00004ce3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIp5ccbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yDwP/RW/EN+4pD8l2O+oUyjT
+IcD28WFe4t4oQ/WaVNQw6oU1RuiNz7+lg6M9zdjGTw43vCkKWtvGH0Dvf2p/3MfG
+evBaeXI9MiRHKzTg5HOwD6f3Y6mkqCnC1X+7WSl4Ofvalmdd6/3gwgLT+jN1rAW7
+9NLVHCorHfVumu9AVDIlFquXxCs6uj3ZBs7pLspHxTrRm2IL3J7MNFj0Zu/aet8m
+xs41zwEq7A7c2Gr/EvgaJyk7turyytTVMXzXyaQkOHxVa2kGVURV5T35p3j93OX5
+IUzII4KWxDwnVegQOSWR5WUSZBWSiAxXNXiT3nSikW+XsWQGhSFL6de5ieTugkzZ
+Xz5qUYZ+by65/sfk8x9N0qjRnKNC6qsT+g3sYM5qIV34vFVBWBcddx+aH0nEpXYo
+wo5mBSRrbd8BmvDT+12FoDVyCqL24zkiNnptZFYsEa+oMvSibT+0R4j95mcJrrlZ
+0awmsi1VU1CKblZARE8Ax9/0dLG8E9odEBVKVeqPSZLOq4aiKd9a9B5JOYHLRkqo
+G/nMQ+td0EyZL7kU649cmEmmsN7IgZdz4HYViTIZDwwgTiZNzrpvgbbJa6pLtQYv
+2MlKu/PF4RFeo/GBs1hEybVaddtYaY3yVsPn5PgWXRob7YH9TdQ+ZbdyJZOGtjca
+jMJvnyTUCWjHb+Ds2p6fTwP5
+=QBpu
+-----END PGP SIGNATURE-----
+
+--===============3622566498996898680==--
