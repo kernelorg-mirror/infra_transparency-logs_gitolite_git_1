@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Thu, 10 Mar 2022 13:49:57 -0000
-Message-Id: <164692019751.10697.2520954594428540810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Thu, 10 Mar 2022 13:50:04 -0000
+Message-Id: <164692020425.12236.3777641139734680056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/mvebu/fixes
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: a1cc1697bb56cdf880ad4d17b79a39ef2c294bc9
+  - ref: refs/heads/next-integrity
+    old: cd3bc044af483422cc81a93f23c78c20c978b17c
+    new: 4a48b4c428dc92b5e0b19de83e7eb8d530dddd48
     log: |
-         a1cc1697bb56cdf880ad4d17b79a39ef2c294bc9 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
+         f2544f5e6c691679d56bb38637d2f347075b36fa EVM: fix the evm= __setup handler return value
+         4a48b4c428dc92b5e0b19de83e7eb8d530dddd48 MAINTAINERS: add missing security/integrity/platform_certs
          
