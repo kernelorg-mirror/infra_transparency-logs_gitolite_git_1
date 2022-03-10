@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 10 Mar 2022 12:26:53 -0000
-Message-Id: <164691521377.18814.12781434788697852326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 10 Mar 2022 12:27:39 -0000
+Message-Id: <164691525980.19193.16066513028198679099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: b1a384d2cbccb1eb3f84765020d25e2c1929706e
-    new: 1db333d9a51f3459fba1bcaa564d95befe79f0b3
-    log: |
-         1a4e53d2fc4f68aa654ad96d13ad042e1a8e8a7d spi: Fix invalid sgs value
-         1db333d9a51f3459fba1bcaa564d95befe79f0b3 Merge tag 'spi-fix-v5.17-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-         
+  - ref: refs/tags/damon/next-2022-03-10-12-27-on-v5.17-rc6-mmotm-2022-03-03-21-24
+    old: 0000000000000000000000000000000000000000
+    new: 6529729e5d83e97e58481e9682c30a801b374ba9
