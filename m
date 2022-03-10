@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 10 Mar 2022 19:48:03 -0000
-Message-Id: <164694168318.25486.6607732942472419027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 10 Mar 2022 19:50:00 -0000
+Message-Id: <164694180031.26181.16452929387272705745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: a4eddaaa7ab59179ddce76b25e9b78e8bccb6490
-    new: ff47588fa76f2c42a0abfa73b486cc94a5f02f72
-    log: |
-         ff47588fa76f2c42a0abfa73b486cc94a5f02f72 Thu Mar 10 07:47:28 PM UTC 2022
-         
+  - ref: refs/tags/arm64_defconfig_for_v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 7a71fc1bd06852f8d2864c9f158d8f01a83d88d7
