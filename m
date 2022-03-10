@@ -1,65 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8367571981457995149=="
+Content-Type: multipart/mixed; boundary="===============6758832467480133765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 10 Mar 2022 13:19:51 -0000
-Message-Id: <164691839191.22337.17290001903306001295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 10 Mar 2022 13:37:53 -0000
+Message-Id: <164691947394.1464.7369130655009671466@gitolite.kernel.org>
 
---===============8367571981457995149==
+--===============6758832467480133765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm/dt
-    old: 7b4fc7c6f9a3d89ce6cdb616a0fe9c18f536fcbf
-    new: 634f0f26cb9b0c7910efa8cbc9612b89a3d98001
+  - ref: refs/heads/master
+    old: 46687d44f1c0492b61bcc9bd36e441153a92d704
+    new: 646fb7f984c2477d776f0e6b3fd1458ce0f4ccb9
     log: |
-         3cc8cd2d25954ed5794df2d190b81c7325c584e3 arm64: dts: rockchip: add naneng combo phy nodes for rk3568
-         37cbd3c522869247ed4525b5042ff4c6a276c813 arm64: dts: rockchip: Fix SDIO regulator supply properties on rk3399-firefly
-         079d76ab304227dd29e7bba76736567b5ac73030 arm64: dts: rockchip: Remove vcc13 and vcc14 for rk808
-         9d25aadd55bb8c37c468661b506f932d15492028 arm64: dts: rockchip: Add #clock-cells value for rk805
-         f188620d6f96d398988a22934aa2cac5043c739c ARM: dts: rockchip: Add #clock-cells value for rk805
-         c042639a70ed00ab2138f507ae1d6fa57c66ce11 ARM: dts: rockchip: Update regulator name for PX3
-         fc30ed4edd4d5966d524b4b426ae57cf1cc60e51 Merge tag 'v5.18-rockchip-dts64-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-         634f0f26cb9b0c7910efa8cbc9612b89a3d98001 Merge tag 'v5.18-rockchip-dts32-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
+         646fb7f984c2477d776f0e6b3fd1458ce0f4ccb9 5.4-stable patches
          
-  - ref: refs/heads/arm/fixes
-    old: d3258737afc0101f497745f83fc4038c963a6b81
-    new: d986afd5a7b75b477ac347b222354cecd97edc87
-    log: |
-         1860d30466366774055d993f9b31094ede8af415 MAINTAINERS: Update git tree for Broadcom iProc SoCs
-         d25ca90833073f2b807e0e697dcf05ba75396de7 Merge tag 'arm-soc/for-5.18/maintainers' of https://github.com/Broadcom/stblinux into arm/fixes
-         d986afd5a7b75b477ac347b222354cecd97edc87 MAINTAINERS: Update Jisheng's email address
-         
-  - ref: refs/heads/for-next
-    old: 4d0d3c7a65712edc4fb7efc3a37d4abf15ff17c7
-    new: cc473cb1af672d69615d9ee245d781b1134ca06e
-    log: revlist-4d0d3c7a6571-cc473cb1af67.txt
 
---===============8367571981457995149==
+--===============6758832467480133765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4d0d3c7a6571-cc473cb1af67.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3cc8cd2d25954ed5794df2d190b81c7325c584e3 arm64: dts: rockchip: add naneng combo phy nodes for rk3568
-37cbd3c522869247ed4525b5042ff4c6a276c813 arm64: dts: rockchip: Fix SDIO regulator supply properties on rk3399-firefly
-079d76ab304227dd29e7bba76736567b5ac73030 arm64: dts: rockchip: Remove vcc13 and vcc14 for rk808
-9d25aadd55bb8c37c468661b506f932d15492028 arm64: dts: rockchip: Add #clock-cells value for rk805
-f188620d6f96d398988a22934aa2cac5043c739c ARM: dts: rockchip: Add #clock-cells value for rk805
-c042639a70ed00ab2138f507ae1d6fa57c66ce11 ARM: dts: rockchip: Update regulator name for PX3
-1860d30466366774055d993f9b31094ede8af415 MAINTAINERS: Update git tree for Broadcom iProc SoCs
-d25ca90833073f2b807e0e697dcf05ba75396de7 Merge tag 'arm-soc/for-5.18/maintainers' of https://github.com/Broadcom/stblinux into arm/fixes
-d986afd5a7b75b477ac347b222354cecd97edc87 MAINTAINERS: Update Jisheng's email address
-ddb5239c4be40d92798dee91cc83ea9ff7f0c367 Merge branch 'arm/fixes' into for-next
-fc30ed4edd4d5966d524b4b426ae57cf1cc60e51 Merge tag 'v5.18-rockchip-dts64-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-634f0f26cb9b0c7910efa8cbc9612b89a3d98001 Merge tag 'v5.18-rockchip-dts32-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/dt
-1fbb99ebf959b11430209c87fa45fe5b52cfa5dc Merge branch 'arm/dt' into for-next
-cc473cb1af672d69615d9ee245d781b1134ca06e soc: document merges
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646919473 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1646919468-58cc6c0fc673857118568f895997af9392b8a329
 
---===============8367571981457995149==--
+46687d44f1c0492b61bcc9bd36e441153a92d704 646fb7f984c2477d776f0e6b3fd1458ce0f4ccb9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIp/zEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bIgP/2Tr7p92K5qNPN1KBlMv
+o3sS1Jk/gdk4Y9QEX3kk7kG9EWRUHseLqdMUmgnus8sUrYb5Bq5ffbAeUPW4DCbC
+d+tv3lhxzj5JNeu6AMD+HC+rq97LoiWs1HPfdg6EmLK9KeMrnvwN/teltypNd2oj
+YhlO8SWxmNXFd9jl3I+vBB/AMfLaiG0WD150cv9QnycJHdnOnEXgyMO2JIfBMCT0
++xVMzLIdKpd6Ieh7hZB009uJXwHADywCuX+wjJslfh+sHbijoz34e9cvKDYJ6hf9
+AE1etenEIQjcOt2dYgTt/ROcoLw6HpYrrPCOkwpy55T9ooZuvEAlEF0/Jd3mtx9c
+LhlktVeFrnnJOIQ7kwqJ+/YMffewPI3nmQaUAO5IhZqrfKlAKYi0dQIohliTHu5z
+Wv0X+aXy/NeNKUERI+S43bmxrymQdHtYhh61MxfqUy/Q4daNNBIwrt9tc0XHxUKh
+cNRGjx02d9U+3/G2Gtmk+SXdOG0nq4Bp6y9YJTQgKeLijKxHatvKzJiSYhAntTqg
+yPoPo1A+eNv4/7m1Q8Lkm0PO4nzkeAVbbCL2H0xOoHLtH1DaSDvBFap+WLTSOZlj
+ucJRHFZ4YWX954arI5LAY/GxnWrQtUAJWuAMUqDSFHIWV5+kpufzqlQfauB6qRJk
+t0zZKywOmspc70HOhq/znOyz
+=xya4
+-----END PGP SIGNATURE-----
+
+--===============6758832467480133765==--
