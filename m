@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 10 Mar 2022 14:31:48 -0000
-Message-Id: <164692270816.8139.17268904464737656990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 10 Mar 2022 14:45:11 -0000
+Message-Id: <164692351176.17807.15750240017917636239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/arm/fixes
-    old: d986afd5a7b75b477ac347b222354cecd97edc87
-    new: 7e606edaa0a2e443fba9ae324efc1ba7834a0e7d
-    log: |
-         a1cc1697bb56cdf880ad4d17b79a39ef2c294bc9 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
-         7e606edaa0a2e443fba9ae324efc1ba7834a0e7d Merge tag 'mvebu-fixes-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-         
+  - ref: refs/tags/arm64-mte-misc-test-v1
+    old: 0000000000000000000000000000000000000000
+    new: 30efc010d0dd807dec4428577773cf2eef4a8047
