@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 10 Mar 2022 19:42:01 -0000
-Message-Id: <164694132188.20721.15916467167860722615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 10 Mar 2022 19:48:03 -0000
+Message-Id: <164694168318.25486.6607732942472419027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/socfpga_dts_update_for_v5.18_part2
-    old: 0000000000000000000000000000000000000000
-    new: 532affff4c20ca795e51cab97a46327779136999
+  - ref: refs/heads/master
+    old: a4eddaaa7ab59179ddce76b25e9b78e8bccb6490
+    new: ff47588fa76f2c42a0abfa73b486cc94a5f02f72
+    log: |
+         ff47588fa76f2c42a0abfa73b486cc94a5f02f72 Thu Mar 10 07:47:28 PM UTC 2022
+         
