@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9143826942651190913=="
+Content-Type: multipart/mixed; boundary="===============5863333660474102858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 10 Mar 2022 14:01:36 -0000
-Message-Id: <164692089697.19851.6743114502107472329@gitolite.kernel.org>
+Date: Thu, 10 Mar 2022 14:01:38 -0000
+Message-Id: <164692089819.19923.1263938634998576750@gitolite.kernel.org>
 
---===============9143826942651190913==
+--===============5863333660474102858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,78 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.14.y
-    old: b0e99fb904717023cd79d1eb8251a47db658e9d4
-    new: cf6b1b9a9382d377147536224fdf8acf034ec00c
-    log: revlist-b0e99fb90471-cf6b1b9a9382.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 2ef7c55895217efa8183111969710960a529d3cd
+    new: 94fcefabfb63e8b0aace670cfffb1ba509d20396
+    log: revlist-2ef7c5589521-94fcefabfb63.txt
 
---===============9143826942651190913==
+--===============5863333660474102858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646920895 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646920896 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1646920894-b69124130b30de5345669d86547047a4d4b6cec9
 
-b0e99fb904717023cd79d1eb8251a47db658e9d4 cf6b1b9a9382d377147536224fdf8acf034ec00c refs/heads/linux-4.14.y
+2ef7c55895217efa8183111969710960a529d3cd 94fcefabfb63e8b0aace670cfffb1ba509d20396 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIqBL8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ooP/RMoEm9rfDiNubMXVc8d
-tf/2DI6QZMFMTXJLs6PcOUMgSn6SoznAdGwTApGh3lapCUDuma+sgTyzosapG1/I
-OISjT+KJTd1Rh342rFNcXaNim1g7q15fGovNFVF0HyN5vy0ik2RuUf0wq+db+HDq
-MMTbxnj65qco82ubQhHfWYuF5uBeW06E01dm4JJejCYlEKu9TIJeZwLhAN9Loq9K
-zchcuV42EOYgkwBYwu0R/SmAT9S2VVk8kumP+y4og8Vrlhz1wPR955thirm/6Z6g
-Y6cy/0HrgPnYQkMjgIkayZcPKiePahRI1fGgKzi6oIPP3cuK6UHDHLM8kzsFL+YH
-LbgOavrnlmxjkytBVlTm7B7bl9820YTnwGa/tsn0rbeekzaDNm5b4z3xoV0j5C2Z
-6qSLyN2VBec5+WEeSFBKuAIVELTsBgmB8M8BZgM4leQWwAZPC2weyO43ZU+JJ0jV
-bLWXcTBMLUQfNjTULpYWow24vQzEIqIFepXPcddrW5kXk1akn13oQPPwbaiGSsMA
-ETkFAUl1yAueE/cv7S5vhDHV1R5J0SLk+BtcercRAwaeqj/Ks7RuE5e53kHJTPCZ
-RYLtmvnwaP/6mr5mUHzxFqhaWROqqLq2BYQxEIVMubtXU/7yyt14bYsYDF9kVuZg
-FlzPfhUgqJOwxK3zrJ2f3+iu
-=p51p
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIqBMAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uuEP/A8Ydz4Fa2L8scHGawFx
+mzA5tfBzJqmyeaoQDe02lR4IjJWA4pqGhvOewmtN59ZggRwnJnF/JbFtgHCT+cJC
+jLPjG9C321O/Noa8sLbCTU+Og37Caj8AiH2ZY6yCqSX8U4yxBlB1n+VTssElVP3z
+SWoSA8yyjmMyFVItUhPbiFV7W5fqwVvaaelofpCm1HgsysWx8CPHVqOJlLwU+/T2
+WxvpZ76GL77rPeESjP7Oof9N4i7t5MYe/QNQ5BXJpJneqM15NMinjqM//WYCTc/U
+/+4eKdeqaWhupXCd8dpvnDHSayrVcAUvfiF7aNl8Nzoc9WhMGRndOqj7Ye5ixCJD
+r3I7/L5Qm7eT5C6HyXnRaM8Hc7Se09NkA1kbuKU3vuZg9J5ahXUFabGecIcQ6wLL
+29elzMvRcd/As76eZk6GJakiUpm06vhCXK3jjEckOkVN1oSUFuYpovw6NIDil/j8
+O/DwErof5rtiHt2hhPE0tuk/Fxn5i7XVZc00HuJxLwb8TtYHKxKL4ZUsEpfJ37WO
+oQ9AfnH7eDgEhMyalOzqGznQJ3RTDx9vjgu0ZQlQatQJLlaHi7e+qZKJhYaNtnNb
+6+S0TzL1wH/gQL4Is80AOwt/qUjXyXcBT1zE8+a+8Tqht3Az3/t190h+B28savOm
+TKKiRgFW+iM5kuU8cOiXhPd+
+=5sIw
 -----END PGP SIGNATURE-----
 
---===============9143826942651190913==
+--===============5863333660474102858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b0e99fb90471-cf6b1b9a9382.txt
+Content-Disposition: attachment; filename=revlist-2ef7c5589521-94fcefabfb63.txt
 
-e1544f0950659c4252378bba02f8e29ff23021f3 x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
-65843aeb1e4d0fed01c01e533519fd137a7330fa x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
-5e6df46b5e0496dc1815bd7c2212f4464fcc3ca2 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
-3408c66efe693a1d6e66dcda38727fc74d93d374 x86/speculation: Add eIBRS + Retpoline options
-965e436e6c69863b00c96024297cfa9ca7f2d411 Documentation/hw-vuln: Update spectre doc
-2a6aa765e82f89e6f5dc389167cd16347640f54d x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
-2b3a520fa70545292e0d673e08e409c44f6980e8 x86/speculation: Use generic retpoline by default on AMD
-d1318ad9e86799dcf17a7f82bfeca5963453463f x86/speculation: Update link to AMD speculation whitepaper
-db205c3ae854d62f8da3784c006cfdfd9ff12ba4 x86/speculation: Warn about Spectre v2 LFENCE mitigation
-892134076aaac4290468412dc3a1fdcd64a57059 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
-74356dc89c9ca851dcad87f10a2c730bd01dc365 arm/arm64: Provide a wrapper for SMCCC 1.1 calls
-31ef8422c5a854c29b7283e7c4894f74b6804771 arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
-87c30404c109b11393a53e781b2e523b86769deb ARM: report Spectre v2 status through sysfs
-d8fb51f8d895a44bac678444db2b85cd2df65b6a ARM: early traps initialisation
-9b46ea861dddd7d22645c9b1a1853d404ae24fa3 ARM: use LOADADDR() to get load address of sections
-05d00d530aa6ae38e280d315022fccc741716ecd ARM: Spectre-BHB workaround
-204d60ceb17175d2746d3abe84e2a8260438f986 ARM: include unprivileged BPF status in Spectre V2 reporting
-17fadbbc38592c06a8cacb1324ddc9fcc19a6bc5 ARM: fix build error when BPF_SYSCALL is disabled
-7bd9d673b5603bee64efbd9ab1c7b664807fcb29 ARM: fix co-processor register typo
-0eaee1a949f83878ef19c6c1ee836438d3243a31 ARM: Do not use NOCROSSREFS directive with ld.lld
-a79ac81e220c1c1e132c8f94d10cadf0b183bc07 ARM: fix build warning in proc-v7-bugs.c
-cd1e6f18a8706cc39a2ed6500f029e06ce2555b7 xen/xenbus: don't let xenbus_grant_ring() remove grants in error case
-d77a70f330b89f06545e97b881895dbf58b360c2 xen/grant-table: add gnttab_try_end_foreign_access()
-c356ba94999e59a7cd3aaf058e7fbfb0d180ab20 xen/blkfront: don't use gnttab_query_foreign_access() for mapped status
-481b4952ff1731eaa0a17f67523efce0ad9b81b3 xen/netfront: don't use gnttab_query_foreign_access() for mapped status
-e26d9783daa4ca11c10d94ef5b50983192fe597e xen/scsifront: don't use gnttab_query_foreign_access() for mapped status
-0d0952d43fd79a42d4dfe34e921eed744b02b47a xen/gntalloc: don't use gnttab_query_foreign_access()
-084621ef45f5beaefac6608afc557379025dc164 xen: remove gnttab_query_foreign_access()
-9257f91068179dcfeb055c89c17faf6af9e730be xen/9p: use alloc/free_pages_exact()
-47a251efda0f6bcd9c90ead34790cdc26defed3f xen/gnttab: fix gnttab_end_foreign_access() without page specified
-e635eb9fdc99966d57bd4fc76dfd6109365b5e72 xen/netfront: react properly to failing gnttab_end_foreign_access_ref()
-cf6b1b9a9382d377147536224fdf8acf034ec00c Linux 4.14.271-rc1
+a520ee5d55c25a80f8d52e1669a252c2d555ab1e x86/speculation: Add RETPOLINE_AMD support to the inline asm CALL_NOSPEC variant
+fe7d4caaaac90c1eaaf9c1f7d2e0ecd8a872752b x86/retpoline: Make CONFIG_RETPOLINE depend on compiler support
+218226ca02208c2f9d97f62d980a32995f446cac x86/retpoline: Remove minimal retpoline support
+47b2b3ad7589b2b915504150cdb24e71b2317a18 Documentation: Add section about CPU vulnerabilities for Spectre
+1c62e7e3e7fa08c6bfde73889511864975dabfdf Documentation: Add swapgs description to the Spectre v1 documentation
+76d97c7253b9d9f3ecd3a5e0355e8afc34dce576 Documentation: refer to config RANDOMIZE_BASE for kernel address-space randomization
+b900f5a31d5bb7e0112cc93d2518f996e1c6c1db x86/speculation: Merge one test in spectre_v2_user_select_mitigation()
+020a03401e8c5bcd178267fea4568458e560e157 x86,bugs: Unconditionally allow spectre_v2=retpoline,amd
+e6ea0c377abfc3ffa5be2545451edcca6b5a7a62 x86/speculation: Rename RETPOLINE_AMD to RETPOLINE_LFENCE
+e1bcbf3127f6a1f073068ee09b64590154c2c028 x86/speculation: Add eIBRS + Retpoline options
+71eb355830c717771322cedcbc1ee0f5bcfce733 Documentation/hw-vuln: Update spectre doc
+9acd12fd50cd9b3c4fea7c4609a0469786a1ba5c x86/speculation: Include unprivileged eBPF status in Spectre v2 mitigation reporting
+0f5d2bf63708b694530282fd4127ffe3de257276 x86/speculation: Use generic retpoline by default on AMD
+28d5afe288d20ff88b00f59c555eb657d3ed1383 x86/speculation: Update link to AMD speculation whitepaper
+3ba8b59964e2ebc72c0055131681183dcf73650a x86/speculation: Warn about Spectre v2 LFENCE mitigation
+e035a8fe215eac62825f3a65d68604b58a4c26c0 x86/speculation: Warn about eIBRS + LFENCE + Unprivileged eBPF + SMT
+e2c7b1a953d4bb946f6165c2b830d87b3b8a10ce arm/arm64: Provide a wrapper for SMCCC 1.1 calls
+2af71209c539b2e7972c643f4ac365ebe7b01e6d arm/arm64: smccc/psci: add arm_smccc_1_1_get_conduit()
+3fd44d6a8a802f73021fdd5f3427e31613b6c44a ARM: report Spectre v2 status through sysfs
+0d734325a5015fe8c3c686b71d7b32b16ad38318 ARM: early traps initialisation
+8d833baf7e74294b31b2a007e41bf029cb716856 ARM: use LOADADDR() to get load address of sections
+1417176f54f501beb66ad5e7404f8bdd8d8644e8 ARM: Spectre-BHB workaround
+633a203dd00d0d4ad18dcbe001488ea766a46940 ARM: include unprivileged BPF status in Spectre V2 reporting
+d0b14b3a0d47a7738a0a8daaaf787fff63c40f6d ARM: fix build error when BPF_SYSCALL is disabled
+ddb28860451d9f829dcde1134ff6e93f682c1197 ARM: fix co-processor register typo
+09198356d29a61431583703423715ba38135ec30 ARM: Do not use NOCROSSREFS directive with ld.lld
+26b96abb160f10805a4befb500e083987c9a59e2 x86/build: Fix compiler support check for CONFIG_RETPOLINE
+bd3e14db198612ea9d69ddfcb7865a9564dc8961 x86, modpost: Replace last remnants of RETPOLINE with CONFIG_RETPOLINE
+eb2118e3f0c66bdeba70a806e14e9eb207fdcfa8 ARM: fix build warning in proc-v7-bugs.c
+f5a6bf1254f792342bf487220b8e46a12fafa5a0 xen/xenbus: don't let xenbus_grant_ring() remove grants in error case
+fa1eb3ef0a0c65342eb8dd050ed7fcd405947262 xen/grant-table: add gnttab_try_end_foreign_access()
+078232d0b67afb6a314d2a8c6ecdbe1a666d771f xen/blkfront: don't use gnttab_query_foreign_access() for mapped status
+d0a02e80408b83790bbbab49610d37b9ddf34ea6 xen/netfront: don't use gnttab_query_foreign_access() for mapped status
+8db34858aae58f19f5bfb4cd63b8008d2a744cf2 xen/scsifront: don't use gnttab_query_foreign_access() for mapped status
+0c8c2b0f8bdc27b315562451e15f9d81332ff0dd xen/gntalloc: don't use gnttab_query_foreign_access()
+1d0ae0c182ffa711abab1e8c036891ab6fe229eb xen: remove gnttab_query_foreign_access()
+0b69dc086cf5912987a3091c93f4f0add5a92513 xen/gnttab: fix gnttab_end_foreign_access() without page specified
+ea323bbec1cdba23a86366170f7b80d9a0df2c73 xen/netfront: react properly to failing gnttab_end_foreign_access_ref()
+94fcefabfb63e8b0aace670cfffb1ba509d20396 Linux 4.9.306-rc1
 
---===============9143826942651190913==--
+--===============5863333660474102858==--
