@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Thu, 10 Mar 2022 15:02:27 -0000
-Message-Id: <164692454700.28098.9737509470201266686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Thu, 10 Mar 2022 15:07:58 -0000
+Message-Id: <164692487802.31344.11727502854242029068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
-user: srini
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: 0eb1fb16396ce3b0d8d493a4416a5c5f06091c84
-    log: |
-         0eb1fb16396ce3b0d8d493a4416a5c5f06091c84 slimbus: qcom-ngd-ctrl: Use platform_get_irq() to get the interrupt
-         
+  - ref: refs/heads/v1.5
+    old: 0000000000000000000000000000000000000000
+    new: d14a7a3cd95d050e0bf563ee430ebc2742d1018d
