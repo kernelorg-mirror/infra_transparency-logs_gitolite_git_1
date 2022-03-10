@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Thu, 10 Mar 2022 02:20:25 -0000
-Message-Id: <164687882513.4657.12080034675594643702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Thu, 10 Mar 2022 03:02:09 -0000
+Message-Id: <164688132907.30268.2411257039381476275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/libata
-user: dlemoal
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: 5e776d7b20f040f3219128cee17a1191d66a0f3f
-    new: d268afa1ff6f582dede1819fbed7ded7442a406c
+  - ref: refs/heads/dev
+    old: 6c4d1a1698638e4fbcdec797621910c37aea030c
+    new: 0e18a4058b3ed2ccae6537c275ebed2c8b498695
     log: |
-         d268afa1ff6f582dede1819fbed7ded7442a406c ata: pata_pxa: Use platform_get_irq() to get the interrupt
+         50c63009f6ab37eb78d8b4f9bc606a12b2b46505 f2fs: avoid an infinite loop in f2fs_sync_dirty_inodes
+         7f8e249dccc4c530cf26c2c091f5bb64e701c262 f2fs: introduce F2FS_UNFAIR_RWSEM to support unfair rwsem
+         d13732cc0cc920ee58d45a38d8472769171aaa1d f2fs: remove unnecessary read for F2FS_FITS_IN_INODE
+         db5ba70a824fac1e3ce1dd6f27cd8f1946815e33 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
+         0e18a4058b3ed2ccae6537c275ebed2c8b498695 f2fs: use spin_lock to avoid hang
          
