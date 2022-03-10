@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2027043332553178555=="
+Content-Type: multipart/mixed; boundary="===============1624259018774787666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 10 Mar 2022 00:17:13 -0000
-Message-Id: <164687143339.16889.12977623230412652521@gitolite.kernel.org>
+Date: Thu, 10 Mar 2022 00:33:34 -0000
+Message-Id: <164687241439.26252.1737802167883207147@gitolite.kernel.org>
 
---===============2027043332553178555==
+--===============1624259018774787666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,42 @@ repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
   - ref: refs/heads/next
-    old: b3c57902bef6a4da58cb0465e858f797a5885c1a
-    new: b587abab0ba4aa25afc1271959a14ce19782fce2
-    log: revlist-b3c57902bef6-b587abab0ba4.txt
+    old: b587abab0ba4aa25afc1271959a14ce19782fce2
+    new: cc6be29f78170abf3a18b66743a6b6ddf0f5d40d
+    log: revlist-b587abab0ba4-cc6be29f7817.txt
 
---===============2027043332553178555==
+--===============1624259018774787666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3c57902bef6-b587abab0ba4.txt
+Content-Disposition: attachment; filename=revlist-b587abab0ba4-cc6be29f7817.txt
 
-602a4eda68839bb33ca35c54d400e0685bac1d71 PCI/AER: Update aer-inject URL
-3dc8a1f6f64481a8a5a669633e880f26dae0d752 PCI: Support BAR sizes up to 8TB
-92c45b63ce22c8898aa41806e8d6692bcd577510 PCI: Reduce warnings on possible RW1C corruption
-e2502d3a7d35825478e8ced97ccbf34b20c6691f PCI: rcar: Finish transition to L1 state in rcar_pcie_config_access()
-548d805b65574e2c71884265ff4c752983d18822 PCI: fu740: Drop redundant '-gpios' from DT GPIO lookup
-c83555a4f4f531f0b0b6d7c744b3d29477158707 Merge branch 'pci/acpi'
-e8b19ac833820b44907e5a8e9bb6c8b69128399a Merge branch 'pci/bridge-class-codes'
-2f950df091aec97dd70d9d1e8a22d0061744009b Merge branch 'pci/enumeration'
-07a9ad3214869988c07d6c0d34cec1f8cfe23ee5 Merge branch 'pci/hotplug'
-f83d590f2fe60d75228abfbf3c8df4b0b642caa8 Merge branch 'pci/misc'
-6d0504ceb5417a65724b1b0ef4c5134a75c32792 Merge branch 'pci/p2pdma'
-b9a90e6f1d9bd26173cdbbfd7191d5c9c76fe1a4 Merge branch 'pci/vga'
-96a715f78fb1a08cc47596ad29d9c9617a7cbf70 Merge branch 'remotes/lorenzo/pci/aardvark'
-9b97867490f19f71e3162a773c62e11f2d8505b5 Merge branch 'remotes/lorenzo/pci/endpoint'
-f0f81665dbcac116f7bd0dc086bffbd560f56f18 Merge branch 'pci/host/fu740'
-d690f457f18fa5de40896a9b7dcf98c9d5ac6e03 Merge branch 'remotes/lorenzo/pci/imx6'
-c68506a32d6e4afdbb41f5918bd21dcd66b1f7a4 Merge branch 'remotes/lorenzo/pci/misc'
-1c9f2dc7f902dbccc682b5a97468c07127a38f1d Merge branch 'remotes/lorenzo/pci/mvebu'
-de22d23f00856f6407bdc4145d5cc76b2a85b5c6 Merge branch 'remotes/lorenzo/pci/qcom'
-6ba17bfc20e946bbd7995e2437dc35cd8808e58e Merge branch 'pci/host/rcar'
-b587abab0ba4aa25afc1271959a14ce19782fce2 Merge branch 'remotes/lorenzo/pci/uniphier'
+1d38fe6ee6a874675ca3bba6b48e69a0e6176ffc PCI/VGA: Move vgaarb to drivers/pci
+c1593ddd894d0518fc96fe7f531f3a5c919b8463 PCI/VGA: Move vga_arb_integrated_gpu() earlier in file
+60a9bac8ab48ddbf68dc280cd26879583e9d72ba PCI/VGA: Factor out vga_select_framebuffer_device()
+dfe3da812d99b40f99ce018152db4b3a87bd86c4 PCI/VGA: Factor out default VGA device selection
+f8d81df285a2fa2e739a9e4774e413ac778d282c PCI/VGA: Move firmware default device detection to ADD_DEVICE path
+e96902eb8c69fdcc55fa6beee796c6b34613e0fc PCI/VGA: Move non-legacy VGA detection to ADD_DEVICE path
+37114e4d1547ed230706d07edaee2d2b4b3215a4 PCI/VGA: Move disabled VGA device detection to ADD_DEVICE path
+dc593fd48abbea1e840c847c464eabc9c6bca180 PCI/VGA: Remove empty vga_arb_device_card_gone()
+4e6c91847a7fa94a6a0caeeb388718b8ae005d56 PCI/VGA: Log bridge control messages when adding devices
+d5109fe4d1ecba04d3f6903ab0421188d1420d22 PCI/VGA: Use unsigned format string to print lock counts
+f321c35feaee8dbde551775210ae3d41534b7a20 PCI/VGA: Replace full MIT license text with SPDX identifier
+7a70710a3026af0142ad2579403c2c60fbce3da2 Merge branch 'pci/acpi'
+74047995f18148e19c1b747e5e65d7bf741c1423 Merge branch 'pci/bridge-class-codes'
+a879ae5b02b7e27602afdfdbeb5197dab2f4a268 Merge branch 'pci/enumeration'
+0d922954f2600d06ff88e93d795affb2c4ea72e0 Merge branch 'pci/hotplug'
+aaf741442e34e5ea345c4cfb5549e2e64da927d9 Merge branch 'pci/misc'
+d8a205d3c371f22cb047d079901ea0dc590619be Merge branch 'pci/p2pdma'
+92b071b9c15d0c40415b3fae4b3c221dd8c5c7fd Merge branch 'pci/vga'
+6c92a6524b706201664b96540d2a3515260bb829 Merge branch 'remotes/lorenzo/pci/aardvark'
+469712a6c4140859a5ff12efdf6529451cf6d4c3 Merge branch 'remotes/lorenzo/pci/endpoint'
+e9b7807b9af4f21cd6580dcb045cf0ef5a9ae118 Merge branch 'pci/host/fu740'
+769e768e46e3c0e87ff41326155074e75c2c2a3f Merge branch 'remotes/lorenzo/pci/imx6'
+3c14ddbd415de66e14d42bdc41dc2c75432529c9 Merge branch 'remotes/lorenzo/pci/misc'
+34c795f67b71c2ea9b0d91788ae2055887d6f95a Merge branch 'remotes/lorenzo/pci/mvebu'
+6f1850b5f7407f530ac396b6734c616f34e7dae8 Merge branch 'remotes/lorenzo/pci/qcom'
+b75a68d8d1d8318f6ea9a3044d4aebfaaedce10b Merge branch 'pci/host/rcar'
+cc6be29f78170abf3a18b66743a6b6ddf0f5d40d Merge branch 'remotes/lorenzo/pci/uniphier'
 
---===============2027043332553178555==--
+--===============1624259018774787666==--
