@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Thu, 10 Mar 2022 21:11:17 -0000
-Message-Id: <164694667709.15265.16777992969434925358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Thu, 10 Mar 2022 21:12:49 -0000
+Message-Id: <164694676985.16004.12027650652218214986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: d0563685f3b6286a263823603f65d8839795c25a
-    new: 88988db4d96bc480386c33fe7ed7fa074a7dde9a
+  - ref: refs/heads/linux-next
+    old: 775fa31960509590035bf77d6569b56ed8723147
+    new: a2ec975d906ee0fb7ba13fa56025ef6f65feaa3e
     log: |
-         0a22de82790db8bb381a8c3e1762ace9eac8b59f random: reseed more often immediately after booting
-         88988db4d96bc480386c33fe7ed7fa074a7dde9a random: check for signal and try earlier when generating entropy
+         a2ec975d906ee0fb7ba13fa56025ef6f65feaa3e vsock: each transport cycles only on its own sockets
+         
+  - ref: refs/heads/vhost
+    old: 775fa31960509590035bf77d6569b56ed8723147
+    new: a2ec975d906ee0fb7ba13fa56025ef6f65feaa3e
+    log: |
+         a2ec975d906ee0fb7ba13fa56025ef6f65feaa3e vsock: each transport cycles only on its own sockets
          
