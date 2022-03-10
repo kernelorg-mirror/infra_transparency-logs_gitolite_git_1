@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 10 Mar 2022 23:33:35 -0000
-Message-Id: <164695521564.8755.1005280422067606264@gitolite.kernel.org>
+Date: Thu, 10 Mar 2022 23:33:54 -0000
+Message-Id: <164695523440.8907.15030506380017645478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/firmware/linux-firmware
 user: jwboyer
 changes:
-  - ref: refs/tags/20220310
-    old: 0000000000000000000000000000000000000000
-    new: f8ec992f68b3a2cc38be3fecb6f9000795fcb588
+  - ref: refs/notes/signatures/tar
+    old: 89bfe9aec263412d88b10b9fd38d1a0d9803aaf3
+    new: ef486d744a367af81dd93bd4d6fd6467b7e52b45
+    log: |
+         ef486d744a367af81dd93bd4d6fd6467b7e52b45 Notes added by 'git notes add'
+         
