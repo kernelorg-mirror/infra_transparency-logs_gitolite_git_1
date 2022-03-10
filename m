@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 10 Mar 2022 03:04:08 -0000
-Message-Id: <164688144840.30944.15627753133887606932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Thu, 10 Mar 2022 03:23:09 -0000
+Message-Id: <164688258964.11445.16803844994505076407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/dev-test
-    old: 7713afc93eaa7c61402653e1dd6e3c683f532187
-    new: 0e18a4058b3ed2ccae6537c275ebed2c8b498695
+  - ref: refs/heads/ftrace/core
+    old: 7ab34c09507b05b91207c596490e3b6c935b7b97
+    new: 664dd413c4a40d80cd81f04b621dd37c1a6485bc
     log: |
-         344150999b7fc88502a65bbb147a47503eca2033 f2fs: fix to avoid potential deadlock
-         f41ee8b91c00770d718be2ff4852a80017ae9ab3 f2fs: fix to do sanity check on curseg->alloc_type
-         50c63009f6ab37eb78d8b4f9bc606a12b2b46505 f2fs: avoid an infinite loop in f2fs_sync_dirty_inodes
-         7f8e249dccc4c530cf26c2c091f5bb64e701c262 f2fs: introduce F2FS_UNFAIR_RWSEM to support unfair rwsem
-         d13732cc0cc920ee58d45a38d8472769171aaa1d f2fs: remove unnecessary read for F2FS_FITS_IN_INODE
-         db5ba70a824fac1e3ce1dd6f27cd8f1946815e33 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-         0e18a4058b3ed2ccae6537c275ebed2c8b498695 f2fs: use spin_lock to avoid hang
+         c4da75a83a8298c89bc0a0b429dd208e2fa7c984 tracing: Fix last_cmd_set() string management in histogram code
+         e818f1169fb359fa1032bb5ed3424fd89415ce70 tracing: Allow custom events to be added to the tracefs directory
+         cec19adb351234234326fb3b28e78f6679c9dd65 tracing: Add sample code for custom trace events
+         6a543dc9463133bf31c2f089f1a97d37d0967e12 tracing: Move the defines to create TRACE_EVENTS into their own files
+         b5e8190a746ce889886b0c803c101365878ac368 tracing: Add TRACE_CUSTOM_EVENT() macro
+         664dd413c4a40d80cd81f04b621dd37c1a6485bc user_events: Prevent dyn_event delete racing with ioctl add/delete
          
