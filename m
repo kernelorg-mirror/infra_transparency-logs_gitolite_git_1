@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Thu, 10 Mar 2022 16:12:59 -0000
-Message-Id: <164692877962.10682.17715664872749113523@gitolite.kernel.org>
+Date: Thu, 10 Mar 2022 16:13:04 -0000
+Message-Id: <164692878451.10770.13139293103344668389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/utils/trace-cmd/trace-cmd
 user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: f5a11e11f917e730d6c97b821948defd0368e70a
-    new: ac34b8b386595540a6e23cbc63a6ea57e23a49a1
-    log: |
-         ac34b8b386595540a6e23cbc63a6ea57e23a49a1 trace-cmd: Version 3.0
-         
+  - ref: refs/tags/trace-cmd-v3.0
+    old: 0000000000000000000000000000000000000000
+    new: ebd12c7e321b24e103ba18ab36efb562fd67764f
