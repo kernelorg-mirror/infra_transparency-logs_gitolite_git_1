@@ -1,44 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7720722904788232685=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 10 Mar 2022 21:58:29 -0000
-Message-Id: <164694950903.16045.7958223273972234765@gitolite.kernel.org>
-
---===============7720722904788232685==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 10 Mar 2022 21:58:54 -0000
+Message-Id: <164694953485.16210.2023095568016772469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/rcu/next
-    old: 1498a74770d7ec2f6b62083cbd671c2ca7ca7549
-    new: 442ed0995329841f3f88da38791dbb6295ce6c39
-    log: revlist-1498a74770d7-442ed0995329.txt
-
---===============7720722904788232685==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1498a74770d7-442ed0995329.txt
-
-959702139b19652c5e442ad025653f21096962a6 torture: Make thread detection more robust by using lspcu
-c64e368bef575bd2ccc8c61e79afb18cbc20f462 torture: Skip vmlinux check for kvm-again.sh runs
-ea383ab41f74c9597decc3a0f36ec2f1c5213a49 rcu-tasks: Print pre-stall-warning informational messages
-f0ac8402cc3b06f5f7754b277cf70fc566f3b5a8 scftorture: Fix distribution of short handler delays
-62b0bdbe587b675173cee900a01087d30015d95b kernel/smp: Provide boot-time timeout for CSD lock diagnostics
-02961d50dae8d46c3c68966278253bb685187bdb torture: Enable CSD-lock stall reports for scftorture
-d8aad4c7cdc839a5eb04bcf4fabc36ec689e437e rcu: Add comments to final rcu_gp_cleanup() "if" statement
-4ec9b5e333f74a52bdd299d5b5e2e690f9edf3ff rcu-tasks: Use rcuwait for the rcu_tasks_kthread()
-b613497d0018e9ab6ad5a021af21167e73c31f77 rcu-tasks: Make Tasks RCU account for userspace execution
-3cadbde2a1da966f930f690e348edb6ef673e958 rcutorture: Avoid corner-case #DE with nsynctypes check
-72eccad7ffb3cee8a43f1f85737e1ead8da7c4f9 rcutorture: Add missing return and use __func__ in warning
-5e7d5b43300dd971c474714e7b7bd204661c0de7 rcu-tasks: Use schedule_hrtimeout_range() to wait for grace periods
-c018f61407a508e054b2a058ba6be6c53a31d0f4 rcutorture: Adjust scenarios' Kconfig options for CONFIG_PREEMPT_DYNAMIC
-442ed0995329841f3f88da38791dbb6295ce6c39 srcu: Prevent expedited GPs and blocking readers from consuming CPU
-
---===============7720722904788232685==--
+  - ref: refs/heads/master
+    old: 743bec1b78af174f588956ffbdb9bca4348e3eaf
+    new: 60695896e41a6a0c7f8518fd13f8db79f880df0a
+    log: |
+         3b5d4ddf8fe1f60082513f94bae586ac80188a03 bpf: net: Remove TC_AT_INGRESS_OFFSET and SKB_MONO_DELIVERY_TIME_OFFSET macro
+         539de9328e3ab444efe51ddc7416ce2a3f0f23b2 bpf: Simplify insn rewrite on BPF_READ __sk_buff->tstamp
+         9d90db97e4d4537c82a5ee476b1c13553e487f28 bpf: Simplify insn rewrite on BPF_WRITE __sk_buff->tstamp
+         9bb984f28d5bcb917d35d930fcfb89f90f9449fd bpf: Remove BPF_SKB_DELIVERY_TIME_NONE and rename s/delivery_time_/tstamp_/
+         3daf0896f3f958b48d7747e96dd57a6b10745b76 bpf: selftests: Update tests after s/delivery_time/tstamp/ change in bpf.h
+         60695896e41a6a0c7f8518fd13f8db79f880df0a Merge branch 'bpf-tstamp-follow-ups'
+         
