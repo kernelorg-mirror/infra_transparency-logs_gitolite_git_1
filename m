@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Fri, 11 Mar 2022 01:24:46 -0000
-Message-Id: <164696188614.21948.2908202261599599284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 11 Mar 2022 01:39:15 -0000
+Message-Id: <164696275557.31173.11772789851435572761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/main
-    old: c8d9d92544668922dc5aa06d2491f42b837b9361
-    new: 62c0700c7b373ad71ef712e4c065610c80866440
+  - ref: refs/heads/master
+    old: 27839092aaec86487cedc6186ce2e45a3fbe6700
+    new: 8f96af95dae992b7f61ad673af0750005045e792
     log: |
-         62c0700c7b373ad71ef712e4c065610c80866440 uapi: update magic.h
+         8f96af95dae992b7f61ad673af0750005045e792 Fri Mar 11 01:38:23 AM UTC 2022
          
