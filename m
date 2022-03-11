@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 11 Mar 2022 16:27:26 -0000
-Message-Id: <164701604661.30851.4711233860974322359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 11 Mar 2022 16:31:30 -0000
+Message-Id: <164701629003.1210.5822260596150649756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: denkenz
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: f3f829a02fbd8cef7ed1c8a73f46cc88907e9151
-    new: aad560dfa054cc7bd16434b503905523fa31642d
+  - ref: refs/heads/fixes
+    old: c80ee64a8020ef1a6a92109798080786829b8994
+    new: 0966d385830de3470b7131db8e86c0c5bc9c52dc
     log: |
-         aad560dfa054cc7bd16434b503905523fa31642d netconfig: Add l_netconfig_apply_rtnl
+         0966d385830de3470b7131db8e86c0c5bc9c52dc riscv: Fix auipc+jalr relocation range checks
          
