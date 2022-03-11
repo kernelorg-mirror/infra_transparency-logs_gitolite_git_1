@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0871043823921626444=="
+Content-Type: multipart/mixed; boundary="===============4504359617716951640=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Fri, 11 Mar 2022 10:49:52 -0000
-Message-Id: <164699579250.25191.9276877545693699853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Mar 2022 10:59:02 -0000
+Message-Id: <164699634211.30994.12971315494564522345@gitolite.kernel.org>
 
---===============0871043823921626444==
+--===============4504359617716951640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/iw
-user: jberg
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: 5909e73359e8494f3dd2767e5e5a8a41b26a67a4
-    new: 0900996845744bf33f83dc4d85b3acf0c435c66c
-    log: |
-         64bf570fdb591a0ac46f6ef407d85b21fc0cba54 update nl80211.h
-         0900996845744bf33f83dc4d85b3acf0c435c66c iw: print Radar background capability if supported
-         
+    old: 63f13b2e879679014f42b65fb50dabde02c85726
+    new: 3af722cb735d212554027ec81e2aa2e6bf1ee34d
+    log: revlist-63f13b2e8796-3af722cb735d.txt
 
---===============0871043823921626444==
+--===============4504359617716951640==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-63f13b2e8796-3af722cb735d.txt
 
-certificate version 0.1
-pusher 7BF9099A 1646995787 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1646995787-e13c12d8c641682ac70f1af0c4bd90b1fb19fc1a
+042637019ea3661bfb82aed6860f73bdbcb6d263 net/mlx4: Delete useless moduleparam include
+71ab580705c1c49a3e939997d19d1e439cecdb80 net/mlx5: Delete useless module.h include
+196df17ac53a715e55d99fda6025c2db22504bb2 net/mlx5: Node-aware allocation for the IRQ table
+e894246df5136f670f3568b7856daeec6c4f9456 net/mlx5: Node-aware allocation for the EQ table
+7f880719b953eba8c13b4e2ebe8c1f9d5fd44848 net/mlx5: Node-aware allocation for the EQs
+b5e4c3079490638dafa59413a51f9aef3df120d9 net/mlx5: Node-aware allocation for UAR
+a3540effb766b868af429ae6f4909457b4d4f5ea net/mlx5: Node-aware allocation for the doorbell pgdir
+7690900052303e758b797db1ff8013fe425d1806 net/mlx5: CT: Introduce a platform for multiple flow steering providers
+34ea969d164503b683d6b918b13b78a8e267c2cf net/mlx5: DR, Add helper to get backing dr table from a mlx5 flow table
+c6fef514adaa0d681f486ebbdec4c299db7101d6 net/mlx5: Add smfs lib to export direct steering API to CT
+3ee61ebb0df1ec5cf9b60a12c1d7249230a73f9c net/mlx5: CT: Add software steering ct flow steering provider
+fbf6836db42d013056e0a423599d8afeb5b838ac net/mlx5: CT: Create smfs dr matchers dynamically
+271907ee2f29cd1078fd219f0778fd824fb1971c net/mlx5: Query the maximum MCIA register read size from firmware
+fcb610a86c53dfcfbb2aa62e704481112752f367 net/mlx5: Parse module mapping using mlx5_ifc
+970adfb76095fa719778d70a6b86030d2feb88dd net/mlx5e: Remove overzealous validations in netlink EEPROM query
+8ef1dc4d204a5329eeeaf6edd9b62f6f2a64ebef Merge tag 'mlx5-updates-2022-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
+3af722cb735d212554027ec81e2aa2e6bf1ee34d powerpc/net: Implement powerpc specific csum_shift() to remove branch
 
-5909e73359e8494f3dd2767e5e5a8a41b26a67a4 0900996845744bf33f83dc4d85b3acf0c435c66c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmIrKUsACgkQB8qZga/f
-l8Tn7g//e/jRQdei6Nt1iCoaFX1Eynq44+xGYioKMlqHo1Umfj76BwNNhINYIAB5
-k6Vl1GpgRM3ruGNOwEbCDIJGBlEShxZKh7kWtNvLG9lOmEyPaEpFjSvCKERixqOX
-VvryyRWHX6qkbVcqOAOeo4Jpnv6Z0bLEoLIN2hP9bS9QiaJxNLq/Te9SvXaBrZ+2
-zO2caJY7/5F80K8K1c+cRGdnzeLUbabGOyLd0RkUsLsR4t22jmeB2XIbtWt47h+N
-OP8Ok4xSVbcUpTzZBWtPEg74TndvMpZELJly0KhXLMFyWDEzQgawa6GhcUTnQOfV
-t7whBQEdAAShPqxsWRg8vP/Sbg0wyXV90tn7T18iF+NIsOdyRkWmnRESblUtlnx1
-uBV2yIgYabZkZFb2BUfxZdVmjXegO1YjJzKVIxhOVyDJdh0KNCCNPyu2kF4Fx5uZ
-LA0j7uNur6cIiE8r9W2vpV6/qhV5zrzGUSLQNv09vO4Y9yL+mBWSQRNXMy9HJ/WT
-QxH1YKoAVR6QkYUACME+b42lPVYby+rHEFzVT0MfbE9HZZDH4eHzCLrBH6fDyhlz
-LFyGsIpTzgjbHmZTWRS0uXLJb4sbdV+E9qRm1vVeJmm6qXAL5zUeXxDJDWpO3RBu
-oKHMfsXNFAbQvgZ+/61dERruXDYCE3k2pGiRnwjDnH7w+ARZmb8=
-=aOtu
------END PGP SIGNATURE-----
-
---===============0871043823921626444==--
+--===============4504359617716951640==--
