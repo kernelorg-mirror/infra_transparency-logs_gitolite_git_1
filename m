@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 11 Mar 2022 09:13:51 -0000
-Message-Id: <164699003183.29382.16206779248263259834@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1307836758672831651=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 11 Mar 2022 09:14:01 -0000
+Message-Id: <164699004186.29551.16850625915705913109@gitolite.kernel.org>
+
+--===============1307836758672831651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/irqchip-next
-    old: c425060a406c941a9e17bfe578f57cc707b46b3c
-    new: 89ea5be11a5f386a821c15542f6c1531d0f064b9
+  - ref: refs/heads/master
+    old: 1f14debdbe735990d6a8b895f4bb6f000cb79239
+    new: 18131eb9fabf466837925de6030e331c611fee0e
     log: |
-         89eb1681b73ff584c5678f7185a2d8e3070e9b78 PCI: apple: Change MSI handling to handle 4-cell AIC fwspec form
-         ab1fd5abb75001d37e1fef5f310951b56f41ad58 dt-bindings: interrupt-controller: apple,aic2: New binding for AICv2
-         2cf68211664acd2e4bdd1fb66697137b30901981 irqchip/apple-aic: Add Fast IPI support
-         7c841f5f6fa3f991cb76b96cd2378337a74011b3 irqchip/apple-aic: Switch to irq_domain_create_tree and sparse hwirqs
-         dc97fd6fec009957e81026055fc99a03877ff3b8 irqchip/apple-aic: Dynamically compute register offsets
-         a801f0ee563b8180caf186493806a145a75b4a3c irqchip/apple-aic: Support multiple dies
-         768d4435de2a042f35069c68587d8e6702102248 irqchip/apple-aic: Add support for AICv2
-         89ea5be11a5f386a821c15542f6c1531d0f064b9 Merge branch irq/aic-v2 into irq/irqchip-next
+         18131eb9fabf466837925de6030e331c611fee0e Linux 4.14.271
          
+
+--===============1307836758672831651==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1646990041 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1646990038-f5172086191905dae4be4f6c02e1e36833624d7d
+
+1f14debdbe735990d6a8b895f4bb6f000cb79239 18131eb9fabf466837925de6030e331c611fee0e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIrEtkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HI0P/jnU2GIOJBzpE4IDPGwu
+fCBMF+XpNPw1MiSTf1szL8Wt9zpEcfAaIeSzBHlqoI51nOgErCxBGBmePnyg2HCQ
+ePFxRc4w3dI5t/wHnlkZ3Ygu7luEA8L2/wEeNniVzS5SMPy4g8F9d2Vrgz/PKZVS
+5wPV2jW08Rz5qWeNeSv6I0fBnrATHn0TywVDR45CFzNFhF8dgVM33LCAL70Wh+Ls
+TQJOw9Uvm26yOgwQ8406KPM0SdumONhDxW9c/ChkeY/oBJMM/aAmUxxgayZogotd
+OrSICs340IMwJr5/xXlbMBe4tDQ3aJz/l7fDMKDY2Aup9cbVnSGtkW4nz8gYXC1Q
+ynW7bCQ9QxukwMCRVBs4/EyO9eAEvrKohRyzlyDnN1Ztk9TSR/96NKJTBX77ur3O
+rtWFShxxCBJd5MgCamnd/W3pLmwnfQ1P3XDawTvChilWUxh5oe73WkpSQUbAtYEz
+4TQ9UhVvQ6x+4/ekaaBWCw5iCB2yuFfHYqsaY+sof0iawlnzm9yhrVShRl2SRHyE
+03qLLhiNwnR9UNnCEZJh+msqn2scO3VZnq1ESNipgdeXULuMG+GJnvjsJ6Hfyslk
+fxhQUOTc6w3yl4y2+Nvvh3iAD2aLa/rfjblyNhxvmowS60i2IqOpi6vFr246ClpT
+Wbgaz6g42W/BkmTNdFOA5RqK
+=lMYC
+-----END PGP SIGNATURE-----
+
+--===============1307836758672831651==--
