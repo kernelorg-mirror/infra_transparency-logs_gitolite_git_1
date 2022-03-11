@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 11 Mar 2022 03:30:36 -0000
-Message-Id: <164696943655.8869.9864988371141311676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 11 Mar 2022 03:32:04 -0000
+Message-Id: <164696952499.9741.14153154743747521718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 72951a77c00fb23275c8164aeee409c06b6f197c
-    new: b7f2b0d3511a6bbf9387f08f370f9125663e18d8
+  - ref: refs/heads/seen
+    old: d8f5f6a0429216429004a3f55605b60cab76ee26
+    new: 364f266af069a91c50fcdc5054e809e5ea34f8ff
     log: |
-         cac2ed0a1b0653d95e8714667385214b06f67c0f dt-bindings: dvfs: Use MediaTek CPUFREQ HW as an example
-         b7f2b0d3511a6bbf9387f08f370f9125663e18d8 dt-bindings: cpufreq: cpufreq-qcom-hw: Convert to YAML bindings
+         364f266af069a91c50fcdc5054e809e5ea34f8ff Merge branch 'ns/core-fsyncmethod' into seen
          
