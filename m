@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Mar 2022 04:34:58 -0000
-Message-Id: <164697329879.17983.18444752934573057837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 11 Mar 2022 04:40:01 -0000
+Message-Id: <164697360192.21283.2417019415293290717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 87ed3de674c69f4d998a6e0e1eb04e008ca93f84
-    new: c17c4059df2471183a0e0d567677cbd7f0e0a980
+  - ref: refs/heads/fixes
+    old: c80ee64a8020ef1a6a92109798080786829b8994
+    new: 0966d385830de3470b7131db8e86c0c5bc9c52dc
     log: |
-         c17c4059df2471183a0e0d567677cbd7f0e0a980 ptp: ocp: add UPF_NO_THRE_TEST flag for serial ports
+         0966d385830de3470b7131db8e86c0c5bc9c52dc riscv: Fix auipc+jalr relocation range checks
          
