@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5149198083743707085=="
+Content-Type: multipart/mixed; boundary="===============3516842953954513920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 11 Mar 2022 20:21:22 -0000
-Message-Id: <164703008251.22094.519440178124630995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 11 Mar 2022 20:21:28 -0000
+Message-Id: <164703008884.22221.18184490512116654246@gitolite.kernel.org>
 
---===============5149198083743707085==
+--===============3516842953954513920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 6b6bb5e26222021abe1c5360f43b4c2ff1dd012f
     new: 8fc262265918d2a1817103b454d32979f1d7f35c
     log: revlist-6b6bb5e26222-8fc262265918.txt
 
---===============5149198083743707085==
+--===============3516842953954513920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1647030080 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1647030079-113a25f9fec07e3802baf1ff50fec10f733e7a64
+pusher C3F436CA30F5D8EB 1647030086 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1647030086-2c9bda09dc6b11d71b0d9db1a420e50c4c7faf9e
 
-6b6bb5e26222021abe1c5360f43b4c2ff1dd012f 8fc262265918d2a1817103b454d32979f1d7f35c refs/heads/for-5.18
+6b6bb5e26222021abe1c5360f43b4c2ff1dd012f 8fc262265918d2a1817103b454d32979f1d7f35c refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIrr0AACgkQJNaLcl1U
-h9Dx9Qf/Z1Mpy3YZxkgEMVaNV6pFt84mIR7+poQ42y0vDiY8bKesp9MyOoxqcR1F
-duVGaOzxBgUwyvee2JlIw83qvv2awjvi3vxqkQIPCeyUVIZGYE/p9x7A3TfRSR5W
-Gju1Vhd3qecFU4etBxKq8ZLSU2YisElQeYb4DdZIWMbfxC33G8YJmBIOWdZw0jyI
-LLlc/Oc+ctnWE7TAoxYyD3xd72gMxYukpuLoQRIAl4mdrdRPL+2iH316StKVx2Xj
-LvRAobORjQsfNnSAT2GfT4dwxm5aRWCt0xQ8ufVaCzVgvwjW5t2muPMfkEYk+Zz3
-08rvf2zOtte50d+AN4L8Kgci1gV/3w==
-=9KUs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIrr0YACgkQJNaLcl1U
+h9CqTwf/dvjhUJB/2o4o+TozT8TVNBZF/ByYCrY3CgLi5dlg23zO5ehv68gYTX0s
+PqSl2MA0OXVe2nXzQTM07zUS2CltQfR/ETZ7nW9xkXC/M8Sc5nspaMG6nGeqyOhq
+IQmiSdpS5CbthwgTPnmoj0zLFGQ1FwCvbSqdwoGA2njYGoGAu7jVaF2YgGr7SaPF
+CSEBbqYQ3MkqT++HE8lffDmM98hE1TVUnl3BzysCBo9D234vny/I4h8FHWV0uspo
+c9VGgrkgv7MughU3X+2+S90sCdjeqRnsgummt10oI1fRVrkYusCsyDHxOIfuvMDn
+oPz0dc3H0bcf3XCh89IfFFREz0t6pA==
+=8msc
 -----END PGP SIGNATURE-----
 
---===============5149198083743707085==
+--===============3516842953954513920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -93,4 +93,4 @@ ee60f738e3bcb75549a094ccb6396ae8ad6b9101 ASoC: mediatek: Add mt8195 reset contro
 c0fc71e2d7d21ed8b2ee763d894517e4fec6ffc5 ASoC: SOF/Intel: small fixes and updates for 5.18
 8fc262265918d2a1817103b454d32979f1d7f35c Make the SOF pcm_hw_params DSP op IPC agnostic
 
---===============5149198083743707085==--
+--===============3516842953954513920==--
