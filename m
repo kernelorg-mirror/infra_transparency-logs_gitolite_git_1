@@ -1,35 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Fri, 11 Mar 2022 21:40:41 -0000
-Message-Id: <164703484183.10059.14956513004084663352@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6003306059641601338=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 11 Mar 2022 21:48:54 -0000
+Message-Id: <164703533473.15393.12416932855060779145@gitolite.kernel.org>
+
+--===============6003306059641601338==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: zanussi
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v5.4-rt
-    old: ffd36f43c2e7b9eb1f1c261b2146c44ccd781936
-    new: 8f83fc7941f704f55939adaa778afd8ae76662e4
+  - ref: refs/heads/master
+    old: b48e024ee336e6bc36a0547d055da25bbe3564cd
+    new: f03e852a6e166795eb663d41d005668bf1aa4ebd
     log: |
-         d991bdeb3d3f28ebd610f5420186b9e1295d1e8a eventfd: Make signal recursion protection a task bit
-         ddb3a3714ab8ea773634ae8122d827f953d49fd2 aio: Fix incorrect usage of eventfd_signal_allowed()
-         8f83fc7941f704f55939adaa778afd8ae76662e4 Linux 5.4.182-rt71
+         f03e852a6e166795eb663d41d005668bf1aa4ebd Check if dirs exist before processing any keys
          
-  - ref: refs/heads/v5.4-rt-rebase
-    old: d26b67e63f49eb2bdf5afee8d88c9e30b54db84c
-    new: 2095304639819d92887c4aadc76660e92cf6e8ce
-    log: |
-         962a7fcd1c82ab130e9935110d0828799a00a02c eventfd: Make signal recursion protection a task bit
-         c5e072a368d843b9888a9662b2aeae882a0ff97d aio: Fix incorrect usage of eventfd_signal_allowed()
-         2095304639819d92887c4aadc76660e92cf6e8ce Linux 5.4.182-rt71 REBASE
-         
-  - ref: refs/tags/v5.4.182-rt71
-    old: 0000000000000000000000000000000000000000
-    new: ade9d455bb13456ae7c40f7177b886d32acb5283
-  - ref: refs/tags/v5.4.182-rt71-rebase
-    old: 0000000000000000000000000000000000000000
-    new: a6091bca1377105f9e747ecd3f6755306f67abec
+
+--===============6003306059641601338==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1647035334 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1647035334-39e9082cc87b3a136701a9df058a2db3f6cb5206
+
+b48e024ee336e6bc36a0547d055da25bbe3564cd f03e852a6e166795eb663d41d005668bf1aa4ebd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYivDxgAKCRC2xBzjVmSZ
+bLwCAP9etzKsi5Re8vEWiqwE4ldmxPLGTRF00xqLq5zuJicETQD+Ky6kLAoATJo6
+otrnXZ0y+Cta5Ul/6BQZktyS1NZobA8=
+=RgCj
+-----END PGP SIGNATURE-----
+
+--===============6003306059641601338==--
