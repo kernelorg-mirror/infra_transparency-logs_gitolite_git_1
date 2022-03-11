@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 11 Mar 2022 21:19:04 -0000
-Message-Id: <164703354493.28328.2258388629242863281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 11 Mar 2022 21:27:33 -0000
+Message-Id: <164703405323.1383.6479211031269315327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: c09df4bd3a915079eec5e77160366225a28699a2
-    new: d3b351f65bf42ccda1f686de3ccb21ea1a0c4f5a
+  - ref: refs/heads/master
+    old: dc006b8e218084e380d851e4f57538dc7e9c5bde
+    new: 5608d1e0d35d0693931de75e230a8b2873a78776
     log: |
-         d3b351f65bf42ccda1f686de3ccb21ea1a0c4f5a selftests/bpf: Fix a clang compilation error for send_signal.c
+         5608d1e0d35d0693931de75e230a8b2873a78776 Fri Mar 11 09:24:02 PM UTC 2022
          
