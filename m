@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 11 Mar 2022 05:01:21 -0000
-Message-Id: <164697488156.3761.1370278232066633546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 11 Mar 2022 05:24:34 -0000
+Message-Id: <164697627429.17876.8171176947068617551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/extcon-next
-    old: 7f3e22d689056970eee5fc5b6ec2e26d985b02c2
-    new: d88b12efaff75801d1410d822d8d0315ebe20151
+  - ref: refs/heads/master
+    old: dda64ead7e82caa47fafe0edc36067ee64df2203
+    new: 79b00034e9dcd2b065c1665c8b42f62b6b80a9be
     log: |
-         d88b12efaff75801d1410d822d8d0315ebe20151 extcon: usb-gpio: Remove disable irq operation in system sleep
+         804f468853179b9b58af05c153c411931aa5b310 drm/i915/psr: Set "SF Partial Frame Enable" also on full update
+         9470c29faa91c804aa04de4c10634bf02462bfa5 drm/sun4i: mixer: Fix P010 and P210 format numbers
+         1f37299bb4e10223f689b49723bac74b5c05c1a9 Merge tag 'drm-misc-fixes-2022-03-10' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+         30eb13a26014ca640b5eb57b6d010114084d5c92 Merge tag 'drm-intel-fixes-2022-03-10' of git://anongit.freedesktop.org/drm/drm-intel into drm-fixes
+         79b00034e9dcd2b065c1665c8b42f62b6b80a9be Merge tag 'drm-fixes-2022-03-11' of git://anongit.freedesktop.org/drm/drm
          
