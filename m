@@ -1,96 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3516842953954513920=="
+Content-Type: multipart/mixed; boundary="===============8078075423337904808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 11 Mar 2022 20:21:28 -0000
-Message-Id: <164703008884.22221.18184490512116654246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 11 Mar 2022 20:21:35 -0000
+Message-Id: <164703009502.22316.14235684368809009586@gitolite.kernel.org>
 
---===============3516842953954513920==
+--===============8078075423337904808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 6b6bb5e26222021abe1c5360f43b4c2ff1dd012f
-    new: 8fc262265918d2a1817103b454d32979f1d7f35c
-    log: revlist-6b6bb5e26222-8fc262265918.txt
+  - ref: refs/heads/for-5.18
+    old: 2cfdf0b4441aa918c3b18142740c92407b3c35a2
+    new: 1889421a891ff439b25495011b8b75f81660abca
+    log: |
+         1889421a891ff439b25495011b8b75f81660abca spi: Update clock-names property for arm pl022
+         
 
---===============3516842953954513920==
+--===============8078075423337904808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1647030086 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1647030086-2c9bda09dc6b11d71b0d9db1a420e50c4c7faf9e
+pusher C3F436CA30F5D8EB 1647030093 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1647030093-e7e561dfd5786f332db3bbbe72b5693afdc79a87
 
-6b6bb5e26222021abe1c5360f43b4c2ff1dd012f 8fc262265918d2a1817103b454d32979f1d7f35c refs/heads/asoc-5.18
+2cfdf0b4441aa918c3b18142740c92407b3c35a2 1889421a891ff439b25495011b8b75f81660abca refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIrr0YACgkQJNaLcl1U
-h9CqTwf/dvjhUJB/2o4o+TozT8TVNBZF/ByYCrY3CgLi5dlg23zO5ehv68gYTX0s
-PqSl2MA0OXVe2nXzQTM07zUS2CltQfR/ETZ7nW9xkXC/M8Sc5nspaMG6nGeqyOhq
-IQmiSdpS5CbthwgTPnmoj0zLFGQ1FwCvbSqdwoGA2njYGoGAu7jVaF2YgGr7SaPF
-CSEBbqYQ3MkqT++HE8lffDmM98hE1TVUnl3BzysCBo9D234vny/I4h8FHWV0uspo
-c9VGgrkgv7MughU3X+2+S90sCdjeqRnsgummt10oI1fRVrkYusCsyDHxOIfuvMDn
-oPz0dc3H0bcf3XCh89IfFFREz0t6pA==
-=8msc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIrr00ACgkQJNaLcl1U
+h9B9RAf/U1w6M7unF9d9rXavGIuBTpc9q2T1Sd5uU02qYNucCdywq+Yehsn7uUNr
+FbGxUh5wSQIfxdVKrLjuP6BMfCBDJsN0O/RpM6cvojFKqt9cFsJQG/1MMLrvd2Li
+TTPwymXNQ8QN0PuV03Vp8+TNATp9koLxRQLjelSUAOeTbVMIeEhVbTy0NshhnFjJ
+PxaeqPoUGyjeDl7vU8gLt95l9uM9Gb/kA42Ncu5oA7mKMbCR1UYjSJqBjvRU6GbA
+bAHKpHEiOB+pf8Hg5sjvb8r1QIEogdvMutPhRimA6X1acYFA/9apyyhKM9qiJ9tF
+BmmBZ3zzEoHZ1K3ou/t4T3jhoH9eqQ==
+=mtel
 -----END PGP SIGNATURE-----
 
---===============3516842953954513920==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b6bb5e26222-8fc262265918.txt
-
-a174e72e2355b9025205b4b6727bf43047eac6c6 ASoC: SOF: Intel: enable DMI L1 for playback streams
-7e4bfcf10a03981cb3056d723bb2f92eead5c0bb ASoC: SOF: compress: fix null check after dereference
-d8b502a7c353a63269d5ac3cfa7e5a04308df6a1 ASoC: SOF: trace: Use proper DMA direction for the trace data buffer
-24320c55566138426ee0f9ec866dd3d656071799 ASoC: SOF: Intel: add topology overwrite for Taniks
-d7be9e33c4ad71c299fd58c5d46d4407c0b42d86 ASoC: Intel: soc-acpi: Add entry for rt711-sdca-sdw in ADL match table
-d7bc6ddef016d851cb0ff97ae16ac98d5f3c85ee ASoC: SOF: sof-priv: Remove stale snd_sof_ipc_stream_pcm_params() declaration
-31f60a0c943d6a7e84b06686b1ed86ddadf484fa ASoC: SOF: Make pcm_hw_params snd_sof_dsp_ops callback IPC neutral
-d1b1146fc708eff661c2becb9bf78374adde6db7 ASoC: SOF: pcm: Remove sof_pcm_dsp_params() wrapper
-757ce8103c9e5b83cf18a669fe38484b0be3cfaf ASoC: SOF: Introduce optional callback to configure stream data offset
-a6db22a68b0b2183184659d27c0a74df96f0d6d0 ASoC: SOF: Mark snd_sof_dsp_ops.ipc_pcm_params() callback optional
-9a0a809a5aaeb09458c5f0d26fac63c213b0adb6 ASoC: SOF: stream-ipc: Add sof_set_stream_data_offset()
-29e3aa0bb934e44c6ec0127cbe96983dc9b82b0e ASoC: SOF: Intel: hda-ipc: Add hda_set_stream_data_offset()
-cf73363e4a55579e3131f5de38c3b7b70bb4d639 ASoC: SOF: Intel: Convert to use the generic set_stream_data_offset ops
-f0383aded3c6e61e044b90662bf99b3d850c5d90 ASoC: SOF: imx: Convert to use the generic set_stream_data_offset ops
-00f19253633710877880ad062d6cee3c13deb9a5 ASoC: SOF: Remove ipc_pcm_params() ops
-f67084148dac015d059c64f25e57abd0ab18946c ASoC: mediatek: mt8195: add reset controller
-ee7f79a81a27c47088fe0af95788621644826d91 dt-bindings: mediatek: mt8195: add reset property
-886e09c77d2b48559d26928a5705a20ef3ac117d ASoC: mchp-spdifrx: fix typo
-5bbe2918acccfa60de1c1a2139de9cc5441d5796 ASoC: simple-card-utils: Don't reset clock of active DAI
-375a347da4889f64d86e1ab7f4e6702b6e9bf299 ASoC: msm8916-wcd-digital: Fix missing clk_disable_unprepare() in msm8916_wcd_digital_probe
-c19bd02e9029f0f75b58f4b8662527da74be8985 ALSA: hda: Add helper macros for DSP capable devices
-da0398099a83483014adc509a2845c88ccf672af ASoC: Export DAI register and widget ctor and dctor functions
-9fe51c559a862d6c884f6784de26c8f9463187b1 ASoC: Intel: Introduce AVS driver
-2879516fcd6d7ec5972762dbd94859d9221e70d8 ASoC: Intel: avs: Inter process communication
-cb1eb6b5be42799d23f81ffde84ee3537365b0ed ASoC: Intel: avs: Add code loading requests
-b956b27b477ae63e92240f813c1027de601df11f ASoC: Intel: avs: Add pipeline management requests
-f14a1c5a9f830025dc8638303ddefd5f731ae4bc ASoC: Intel: avs: Add module management requests
-469e87ca9a2029c325362496c7b589683a382505 ASoC: Intel: avs: Add power management requests
-25f414fcdb875e4203ff43f42898367c32df4827 ASoC: Intel: avs: Add ROM requests
-3322e1688953966da15fcd0ae3183a351e241ea3 ASoC: Intel: avs: Add basefw runtime-parameter requests
-c1a427e8da9332a5832fd4a5429adede34bfa85f ASoC: Intel: avs: Firmware resources management utilities
-580a5912d1fe774f9902b614fa33e1add92ca749 ASoC: Intel: avs: Declare module configuration types
-215e67b2d2de1d8d34a53c440b9a19a732ee6fb0 ASoC: Intel: avs: Dynamic firmware resources management
-b27f452317236b0cbaa94c4498f8241e2ad871b1 ASoC: Intel: avs: General code loading flow
-45864e49a05aa446b9d99c464c1a9f46956ed32c ASoC: Intel: avs: Implement CLDMA transfer
-65794fe1a5f6f5fb10fa7b71a762158332144855 ASoC: Intel: avs: Code loading over CLDMA
-092cf7b26a48a542d9aabfc0f517fa263102a4c1 ASoC: Intel: avs: Code loading over HDA
-c1156cce4719ab2633575dd4822606f959142ef7 ASoC: Intel: AVS - Audio DSP for cAVS
-ee60f738e3bcb75549a094ccb6396ae8ad6b9101 ASoC: mediatek: Add mt8195 reset control support
-c0fc71e2d7d21ed8b2ee763d894517e4fec6ffc5 ASoC: SOF/Intel: small fixes and updates for 5.18
-8fc262265918d2a1817103b454d32979f1d7f35c Make the SOF pcm_hw_params DSP op IPC agnostic
-
---===============3516842953954513920==--
+--===============8078075423337904808==--
