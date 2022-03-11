@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Mar 2022 04:19:24 -0000
-Message-Id: <164697236478.8693.14390985926087163141@gitolite.kernel.org>
+Date: Fri, 11 Mar 2022 04:24:29 -0000
+Message-Id: <164697266931.11763.14750274366841668013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,13 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 8bed3d02a663aadcf21d841397acb7a46c2e554b
-    new: 462248536174d95c69e5013f95cf4243cee686e6
+    old: 462248536174d95c69e5013f95cf4243cee686e6
+    new: 4c7d2e179576e821b461bb4a58d0a834916601fa
     log: |
-         c40bb4fedcd6b8b6a714da5dd466eb88ed2652d1 net: dsa: lantiq_gswip: enable jumbo frames on GSWIP
-         1926407a4ab0e59d5a27bed7b82029b356d80fa0 net: openvswitch: fix uAPI incompatibility with existing user space
-         5d26cff5bdbebdf98ba48217c078ff102536f134 net: account alternate interface name memory
-         155fb43b70b5fce341347a77d1af2765d1e8fbb8 net: limit altnames to 64k total
-         462248536174d95c69e5013f95cf4243cee686e6 Merge branch 'net-control-the-length-of-the-altname-list'
+         34a897758efed21e8b06c1ee3c550b528e93a375 ice: Add support for inner etype in switchdev
+         c8ff29b5874204d26eed90984db6789ccde62e3c ice: Add slow path offload stats on port representor in switchdev
+         ad24d9ebc446251c808b11a434099fbb2b555f85 ice: change "can't set link" message to dbg level
+         457a02f03e9207421931471fe50ed3fba70aa868 ice: avoid XDP checks in ice_clean_tx_irq()
+         02ddec1986ff0b8de20094aae2fa5b8f8ee7e1a3 ice: Add support for outer dest MAC for ADQ tunnels
+         4c7d2e179576e821b461bb4a58d0a834916601fa Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
