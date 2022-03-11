@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 11 Mar 2022 04:40:01 -0000
-Message-Id: <164697360192.21283.2417019415293290717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 11 Mar 2022 05:01:21 -0000
+Message-Id: <164697488156.3761.1370278232066633546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/fixes
-    old: c80ee64a8020ef1a6a92109798080786829b8994
-    new: 0966d385830de3470b7131db8e86c0c5bc9c52dc
+  - ref: refs/heads/extcon-next
+    old: 7f3e22d689056970eee5fc5b6ec2e26d985b02c2
+    new: d88b12efaff75801d1410d822d8d0315ebe20151
     log: |
-         0966d385830de3470b7131db8e86c0c5bc9c52dc riscv: Fix auipc+jalr relocation range checks
+         d88b12efaff75801d1410d822d8d0315ebe20151 extcon: usb-gpio: Remove disable irq operation in system sleep
          
