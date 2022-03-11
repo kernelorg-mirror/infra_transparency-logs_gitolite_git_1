@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 11 Mar 2022 00:10:09 -0000
-Message-Id: <164695740976.1356.16400396683390104709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 11 Mar 2022 00:12:15 -0000
+Message-Id: <164695753543.2299.8808412221346597050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/x86/sgx
-    old: 6170abb21e2380477080b25145da9747ad467d3d
-    new: ed83935a9af088439462ef3f2efcf1ef62b05dfd
+  - ref: refs/heads/master
+    old: 5cb1ebdbc4342b1c2ce89516e19808d64417bdbc
+    new: e0ae713023a9d09d6e1b454bdc8e8c1dd32c586e
     log: |
-         ed83935a9af088439462ef3f2efcf1ef62b05dfd x86/sgx: Free backing memory after faulting the enclave page
+         e0ae713023a9d09d6e1b454bdc8e8c1dd32c586e xdp: xdp_mem_allocator can be NULL in trace_mem_connect().
          
