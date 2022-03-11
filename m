@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5125638337193121335=="
+Content-Type: multipart/mixed; boundary="===============5136973210835582547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 11 Mar 2022 22:09:37 -0000
-Message-Id: <164703657741.27858.1134609772693030434@gitolite.kernel.org>
+Date: Fri, 11 Mar 2022 23:19:48 -0000
+Message-Id: <164704078824.8846.11114559562150150404@gitolite.kernel.org>
 
---===============5125638337193121335==
+--===============5136973210835582547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx4
+  - ref: refs/heads/mlx4-queue
     old: d307eab593b283849c13703ca3fd6a5b3908d6f8
     new: 59d5923536ac8640f4ff20d011a4851a3c143764
     log: revlist-d307eab593b2-59d5923536ac.txt
 
---===============5125638337193121335==
+--===============5136973210835582547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -478,4 +478,4 @@ b325af3cfab970efa59b69cbcd9890be54713cef ptp: ocp: Add signal generators and upd
 ff1d56cb2653e673859bc6233b71762de13c067a docs: ABI: Document new timecard sysfs nodes.
 59d5923536ac8640f4ff20d011a4851a3c143764 Merge branch 'ptp-ocp-new-firmware-support'
 
---===============5125638337193121335==--
+--===============5136973210835582547==--
