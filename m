@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6678362971898846542=="
+Content-Type: multipart/mixed; boundary="===============9077074873632919679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 12 Mar 2022 09:12:09 -0000
-Message-Id: <164707632984.27132.10450654840781512813@gitolite.kernel.org>
+Date: Sat, 12 Mar 2022 09:21:30 -0000
+Message-Id: <164707689013.1868.3163904916274592684@gitolite.kernel.org>
 
---===============6678362971898846542==
+--===============9077074873632919679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: aa2d5f2f168c8b380d4e94a32149cef16ed60efc
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 647474b8d980256b26b1cd112d7333a4dbd4260a
     new: 71941773e143369a73c9c4a3b62fbb60736a1182
-    log: revlist-aa2d5f2f168c-71941773e143.txt
+    log: revlist-647474b8d980-71941773e143.txt
 
---===============6678362971898846542==
+--===============9077074873632919679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa2d5f2f168c-71941773e143.txt
+Content-Disposition: attachment; filename=revlist-647474b8d980-71941773e143.txt
 
 77b0eea1508d116b67753bdaf9378a2e30b815a9 rtc: pl031: fix rtc features null pointer dereference
 fc55c23a736cce88f5f975ab93326d25b49ef109 Merge tag 'for-linus-bhb' of git://git.armlinux.org.uk/~rmk/linux-arm
@@ -1051,4 +1051,4 @@ d74b9221a504e92ed8462411eeac11312e20826c kselftest/vm: override TARGETS from arg
 5f1d55566417b50bf3a0fe71e59f9afcbfb7d5a3 fixup for "mm: generalize ARCH_HAS_FILTER_PGPROT"
 71941773e143369a73c9c4a3b62fbb60736a1182 Add linux-next specific files for 20220310
 
---===============6678362971898846542==--
+--===============9077074873632919679==--
