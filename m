@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7569354880479000232=="
+Content-Type: multipart/mixed; boundary="===============7156279019610525370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 12 Mar 2022 17:59:52 -0000
-Message-Id: <164710799285.26060.18859299257319985@gitolite.kernel.org>
+Date: Sat, 12 Mar 2022 18:00:01 -0000
+Message-Id: <164710800190.26233.14509866504806970050@gitolite.kernel.org>
 
---===============7569354880479000232==
+--===============7156279019610525370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 59d5923536ac8640f4ff20d011a4851a3c143764
-    new: 97aeb877de7f14f819fc2cf8388d7a2d8090489d
-    log: revlist-59d5923536ac-97aeb877de7f.txt
+  - ref: refs/heads/mlx5-queue
+    old: f8dcf306dcea4742d8df85a8b9489a044d3a750f
+    new: 1a0fbb606476dc9acadb1dd42287e20b04f07a93
+    log: revlist-f8dcf306dcea-1a0fbb606476.txt
 
---===============7569354880479000232==
+--===============7156279019610525370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59d5923536ac-97aeb877de7f.txt
+Content-Disposition: attachment; filename=revlist-f8dcf306dcea-1a0fbb606476.txt
 
 a76ed59163ba82462ccb262b4c3590a3c1a115dd ath11k: Rename ath11k_ahb_ext_irq_config
 22b59cb965f79ee1accf83172441c9ca0ecb632a ath11k: fix kernel panic during unload/load ath11k modules
@@ -309,5 +309,14 @@ d57da85dc4e3b7ad6e627c90f73aca51a45826d2 net: usb: asix: unify ax88772_resume co
 d5f3c81c569f50b534400d3e9b84d05e65d4f229 net: usb: asix: make use of mdiobus_get_phy and phy_connect_direct
 4d17d43de9d186150b3289ce99d7a79fcff202f9 net: usb: asix: suspend embedded PHY if external is used
 97aeb877de7f14f819fc2cf8388d7a2d8090489d Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+5bbc60a35c9a2d9515a24aeb52abec63c325e7df net/sched: add vlan push_eth and pop_eth action to the hardware IR
+a31c9ab9edc1b973fb7dc5db9449db8ecf321451 net/mlx5e: MPLSoUDP decap, use vlan push_eth instead of pedit
+a238a38088d4d2f66620abf3bf6000af8d0fd012 net/mlx5e: MPLSoUDP encap, support action vlan pop_eth explicitly
+416a0b1c6fd8b401c4ae6fa71e6ee8f401782155 net/mlx5: CT: Remove extra rhashtable remove on tuple entries
+f783ee23fd31ea20dc419dc0823aa268e2229106 net/mlx5e: Drop error CQE handling from the XSK RX handler
+1db5f1f9b185d2ddff53d3a0d3a1b018b0ea7e0c net: Disable LRO feature if no RXCSUM
+81df32e0bdd80598e2f2d6443b869311f5c6138a Merge branch 'patchq/485549' into mlx5-queue
+73dff8dd6e76ca95342f5712f88e972482851288 Merge branch 'patchq/467532' into mlx5-queue
+1a0fbb606476dc9acadb1dd42287e20b04f07a93 Merge branch 'patchq/393730' into mlx5-queue
 
---===============7569354880479000232==--
+--===============7156279019610525370==--
