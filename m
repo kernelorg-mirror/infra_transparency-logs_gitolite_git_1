@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 11 Mar 2022 23:58:52 -0000
-Message-Id: <164704313211.1878.5892503382600789953@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3097360263543200060=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sat, 12 Mar 2022 00:08:16 -0000
+Message-Id: <164704369637.7777.17136509517798282736@gitolite.kernel.org>
+
+--===============3097360263543200060==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/mlx5-queue
-    old: 71eabcdb7b18dcd96d7eabc722b0c21b483ce4e2
-    new: f8dcf306dcea4742d8df85a8b9489a044d3a750f
-    log: |
-         aaf0bd0bf0dcfeca02ebe4ee19d687938b800fc7 net/sched: add vlan push_eth and pop_eth action to the hardware IR
-         153c606faabf025b02032150ed78d2739140dfbc net/mlx5e: MPLSoUDP decap, use vlan push_eth instead of pedit
-         f2dc0f2a04f120729d66b90e9d51ad16ab45b339 net/mlx5e: MPLSoUDP encap, support action vlan pop_eth explicitly
-         696a83179fe40663ac1fbeecef9d46aa312e4c90 net/mlx5: CT: Remove extra rhashtable remove on tuple entries
-         bb8b142f6ce65d1b5cb84aaa9f9d178ebb1a15f8 net/mlx5e: Drop error CQE handling from the XSK RX handler
-         deb16fb2a05447906fa7d814131dfd287e309988 net: Disable LRO feature if no RXCSUM
-         e9aafb85c81b8174c9c9046145044d8d2f372bba Merge branch 'patchq/485549' into mlx5-queue
-         b6620c4347fd76435fe9627ac359c375018a479f Merge branch 'patchq/467532' into mlx5-queue
-         f8dcf306dcea4742d8df85a8b9489a044d3a750f Merge branch 'patchq/393730' into mlx5-queue
-         
+  - ref: refs/heads/ftrace/core
+    old: 664dd413c4a40d80cd81f04b621dd37c1a6485bc
+    new: bc47ee4844d6b7d7351536cd99d35848c4449689
+    log: revlist-664dd413c4a4-bc47ee4844d6.txt
+
+--===============3097360263543200060==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-664dd413c4a4-bc47ee4844d6.txt
+
+173c2049d12b441b498d6423276f5dd76b1e637b user_events: Fix potential uninitialized pointer while parsing field
+5677a3d713ad795e3ce32d631941e982777b43db tracing: Fix last_cmd_set() string management in histogram code
+8bcd06632b73291e8734f46084ed04f4106b840a tracing: Allow custom events to be added to the tracefs directory
+953c2f052112a857c00058a641dc0c58ec7551d4 tracing: Add sample code for custom trace events
+af6b9668e85ffd1502aada8036ccbf4dbd481708 tracing: Move the defines to create TRACE_EVENTS into their own files
+3a73333fb370f7b65de9d94c53df503642bda789 tracing: Add TRACE_CUSTOM_EVENT() macro
+7e348b325bc40eb52aead4d57a1f90d33ea834fc user_events: Prevent dyn_event delete racing with ioctl add/delete
+9f438d4d7fa2f59570cd58bca24ac82e7172d63b tracing: Fix strncpy warning in trace_events_synth.c
+b3bc8547d3be60898818885f5bf22d0a62e2eb48 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+380af29b8d7670c445965bd573ab219aff0c4c11 tracing: Add snapshot at end of kernel boot up
+bc47ee4844d6b7d7351536cd99d35848c4449689 tracing/user_events: Use alloc_pages instead of kzalloc() for register pages
+
+--===============3097360263543200060==--
