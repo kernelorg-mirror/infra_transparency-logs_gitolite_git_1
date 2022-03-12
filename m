@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 12 Mar 2022 20:05:45 -0000
-Message-Id: <164711554503.10982.3551784137911709172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 12 Mar 2022 20:23:26 -0000
+Message-Id: <164711660683.21998.18369467697338850583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: a58e9d0984e8dad53f17ec73ae3c1cc7f8d88151
-    new: 0433401dc11d14e654a02d7a2609a797bd4881d3
+  - ref: refs/heads/dev
+    old: 758cf1496b94442c47c339b10d80cbaadf613425
+    new: 59608584999a8d3ddfb82cd7cb71593a910e689a
     log: |
-         0433401dc11d14e654a02d7a2609a797bd4881d3 parisc: Avoid calling SMP cache flush functions on cache-less machines
+         59608584999a8d3ddfb82cd7cb71593a910e689a fixup! rcu: Make UP-vacuous normal grace period advance sequence
          
