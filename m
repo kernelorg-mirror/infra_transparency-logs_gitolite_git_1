@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5701139843477908763=="
+Content-Type: multipart/mixed; boundary="===============8617814362512390889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 12 Mar 2022 11:19:34 -0000
-Message-Id: <164708397495.27207.1919953998595064485@gitolite.kernel.org>
+Date: Sat, 12 Mar 2022 11:22:36 -0000
+Message-Id: <164708415634.29726.7305225044889082624@gitolite.kernel.org>
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,381 +16,415 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: bcd7ae399a0bc169e9610dad8087f23a412d9745
-    new: cfbc0446895b66f79af46b8c60445d3cb5f3cfcf
-    log: revlist-bcd7ae399a0b-cfbc0446895b.txt
+    old: cfbc0446895b66f79af46b8c60445d3cb5f3cfcf
+    new: 56337cf086b46c80ecf81c3cc7baa8412f8363d3
+    log: revlist-cfbc0446895b-56337cf086b4.txt
   - ref: refs/heads/queue/4.19
-    old: 6de30e6483b1e6e8cfdcac4e1a48539c15082b5e
-    new: 735a137dc342512c5bc6b5b0f003b600697d5d97
-    log: revlist-6de30e6483b1-735a137dc342.txt
+    old: 735a137dc342512c5bc6b5b0f003b600697d5d97
+    new: fab305055307b46894eb204842b2a15e6959b66b
+    log: revlist-735a137dc342-fab305055307.txt
   - ref: refs/heads/queue/4.9
-    old: 92a8646c3e598571a6e7741bfcbe491cd071db5b
-    new: 1c7f5cf39a94a124f37c6ea4b5b32d57bb75bcc2
-    log: revlist-92a8646c3e59-1c7f5cf39a94.txt
+    old: 1c7f5cf39a94a124f37c6ea4b5b32d57bb75bcc2
+    new: 691c06f8e73d4a9bceb74b849704aba8a930c6fa
+    log: revlist-1c7f5cf39a94-691c06f8e73d.txt
   - ref: refs/heads/queue/5.10
-    old: 09d7b203859031f7efa53f8c7e4c0caa7fad7d2e
-    new: 955a7b664fc4ebdb1b27686ab76b14d72e5ac9cc
-    log: revlist-09d7b2038590-955a7b664fc4.txt
+    old: 955a7b664fc4ebdb1b27686ab76b14d72e5ac9cc
+    new: 8f2dadafa7954e533c6b99c277559d43c864131a
+    log: revlist-955a7b664fc4-8f2dadafa795.txt
   - ref: refs/heads/queue/5.15
-    old: 5b01f828c42589b14fd191c598b694923463bd33
-    new: 5e0b8639c6820465fde09947c72b8b7ebc5a45c7
-    log: revlist-5b01f828c425-5e0b8639c682.txt
+    old: 5e0b8639c6820465fde09947c72b8b7ebc5a45c7
+    new: 15d210ad702a543724ab4b83d2346f3591d5eda0
+    log: revlist-5e0b8639c682-15d210ad702a.txt
   - ref: refs/heads/queue/5.16
-    old: a22e2f1d3ecd35a9f9f843a7f167fb55bcaa92ab
-    new: d2d2fedbd46935b27473462774e88b6a7742668c
-    log: revlist-a22e2f1d3ecd-d2d2fedbd469.txt
+    old: d2d2fedbd46935b27473462774e88b6a7742668c
+    new: 25ad54887dad22e596b4293edfc58413250586e5
+    log: revlist-d2d2fedbd469-25ad54887dad.txt
   - ref: refs/heads/queue/5.4
-    old: c13ad1f7eca26483894c1be61fa2464c847c086c
-    new: f96dc7a1b2eba651077864f0428d8003106f7fac
-    log: revlist-c13ad1f7eca2-f96dc7a1b2eb.txt
+    old: f96dc7a1b2eba651077864f0428d8003106f7fac
+    new: 6bf05a76d080019004690a5a8f5b204b993b80b0
+    log: revlist-f96dc7a1b2eb-6bf05a76d080.txt
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcd7ae399a0b-cfbc0446895b.txt
+Content-Disposition: attachment; filename=revlist-cfbc0446895b-56337cf086b4.txt
 
-15c7a243810f86d4bcaa282d7bcafb09c19005bd net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-e9004acc3ced9035d037c4ca64535684b867dc6f qed: return status of qed_iov_get_link
-069f84c8691835d6157f146f9f9bffb9a5dede81 ethernet: Fix error handling in xemaclite_of_probe
-d95313b6a4857a306c3143adf18047f3447e35dd net: ethernet: ti: cpts: Handle error for clk_enable
-80c10e37977c34a5bb7291353e57a8ca43dd4212 net: ethernet: lpc_eth: Handle error for clk_enable
-f3407073e74a6db9b4806aa90923cd4ddb690f1e ax25: Fix NULL pointer dereference in ax25_kill_by_device
-ebec7217f1059851b16d51cb11ceccd75333ea0e net/mlx5: Fix size field in bufferx_reg struct
-d5984603f3e1469dbcb5bf2cc44a1f5e072faf63 NFC: port100: fix use-after-free in port100_send_complete
-6ff0705585915764f0125694f2e00c11df7c503a gpio: ts4900: Do not set DAT and OE together
-9bd55aa8d1148b9b47ddd60af9869d6988a6c25f sctp: fix kernel-infoleak for SCTP sockets
-4a823bd390d056be7cb460dbee9401ab200aede1 net-sysfs: add check for netdevice being present to speed_show
-9c64b4e15aaa8d51ff667c55446442723e265bc0 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-eab7b884e79607b22162c4bef813b4bd82cd1e32 Revert "xen-netback: Check for hotplug-status existence before watching"
-adaebeec91cfdbd287e33e72d034bf31a9f9c67d tracing: Ensure trace buffer is at least 4096 bytes large
-adb4fe88bf3a199db5bb441c3b95d3f14bb251f8 selftests/memfd: clean up mapping in mfd_fail_write
-fadd55e7fd0c2e871740375d1dbee423cd13e4cd ARM: Spectre-BHB: provide empty stub for non-config
-15b8b83e46b27ea80515120320f02321abb85f6b staging: gdm724x: fix use after free in gdm_lte_rx()
-cfbc0446895b66f79af46b8c60445d3cb5f3cfcf KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
+6cdbddb83ba22ab6bb111e7f6f5e70d14d415c99 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+3b2fb88a3337cc2a49ea674e85d0d73fe3b15ea5 qed: return status of qed_iov_get_link
+3d037546458a02f70b87d05e9561042583c038f4 ethernet: Fix error handling in xemaclite_of_probe
+efd41a2b006e2dbd40e3c84aa5b85b13c20a9f6b net: ethernet: ti: cpts: Handle error for clk_enable
+8da340da81ae09042d682587f7bb19dceabb7fd1 net: ethernet: lpc_eth: Handle error for clk_enable
+17962bc0add5794b5ac90a46fae3b80cb587d05b ax25: Fix NULL pointer dereference in ax25_kill_by_device
+0c43a28b6a09473473bd39af8e47ad802037acd8 net/mlx5: Fix size field in bufferx_reg struct
+b68073bd393b63a6563fdb03018c16190afe33d1 NFC: port100: fix use-after-free in port100_send_complete
+dd6ff8d24fa73e30e6977befd76f73fad1eaaffc gpio: ts4900: Do not set DAT and OE together
+0dcc0c85322acb4ec4c38a54f8e482a97e3deae3 sctp: fix kernel-infoleak for SCTP sockets
+572f2ee51f16a65cbd579f0c537a2f1cca6e17d6 net-sysfs: add check for netdevice being present to speed_show
+5e13c3ef8ed6f7adf4e8cab951ccea4d99b2d4df Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+541579556f0311ad1f5f631e8ef625c9ce3d56c6 Revert "xen-netback: Check for hotplug-status existence before watching"
+ffb2bcba7716981dbea77fae287f2049354b7440 tracing: Ensure trace buffer is at least 4096 bytes large
+91225f638139d8a63998b172c4233bb120655804 selftests/memfd: clean up mapping in mfd_fail_write
+08a3bd9a4b62caf05a8d203824727ef000ae34f9 ARM: Spectre-BHB: provide empty stub for non-config
+e29e71b6043d3d60ac1c2c164e118983e4703db7 staging: gdm724x: fix use after free in gdm_lte_rx()
+56337cf086b46c80ecf81c3cc7baa8412f8363d3 KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de30e6483b1-735a137dc342.txt
+Content-Disposition: attachment; filename=revlist-735a137dc342-fab305055307.txt
 
-95881aafe297452f554c8afbd63fb898ff3c5469 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-b26774283a883c025fecbac5102fcaae0258ca58 qed: return status of qed_iov_get_link
-3ef019be81952ea0444102b1b1c2f3bb63dbcf48 ethernet: Fix error handling in xemaclite_of_probe
-9b1999c7de57cad5ce4db5bdd2a08e9e9c3affd0 net: ethernet: ti: cpts: Handle error for clk_enable
-0d22cddf9f258123c26d08cba1f565ef4abf582b net: ethernet: lpc_eth: Handle error for clk_enable
-4553adb59470c963a07c33dbb671e8dac539997e ax25: Fix NULL pointer dereference in ax25_kill_by_device
-89d536eeab7df762a0d44e6add2782c1bcef3759 net/mlx5: Fix size field in bufferx_reg struct
-f4f6f7931a26f05d3b6ab9a20e33389892d9e52a NFC: port100: fix use-after-free in port100_send_complete
-951f8aa06514a9f72a0c74a18eb8f24a8b314bd7 gpio: ts4900: Do not set DAT and OE together
-bad154debcca52870eecb1b9a0694f5ddd3931fe gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-8f9e6ef416a0f7bb32640c61857bdaa9c693faf3 net: phy: DP83822: clear MISR2 register to disable interrupts
-4a727f4ae68f0b31763c77a97c5fe0d08c6c08e1 sctp: fix kernel-infoleak for SCTP sockets
-03a5241238cd9dd6d3c673851d9b141d0f6c68c2 net-sysfs: add check for netdevice being present to speed_show
-853d3e53bdf7ee248c6e4216678bde4222df4e68 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-8732298284d9ad69ccea63ce90988276eb78aa0e Revert "xen-netback: Check for hotplug-status existence before watching"
-cd00b840b06905b288b6bb50dc502beac6c65acc tracing: Ensure trace buffer is at least 4096 bytes large
-a1334e14d9a616d5688ce900587b5f8c23a84218 selftests/memfd: clean up mapping in mfd_fail_write
-4903c0340d1f8d5ea5b951b31173ff8012141990 ARM: Spectre-BHB: provide empty stub for non-config
-9959b283ef3a9b32333cdf812cacb9f2eba17fa5 staging: gdm724x: fix use after free in gdm_lte_rx()
-08a96db84bb07d7452f57aced0b391983fd54c8a net: macb: Fix lost RX packet wakeup race in NAPI receive
-40c8ed1102133af4d6e0dba8855659ccf7f8a6c8 riscv: Fix auipc+jalr relocation range checks
-735a137dc342512c5bc6b5b0f003b600697d5d97 KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
+d640f3ee40046c74c2e84e00c0de623978e54e9a net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+684c55598101984ca62f58c2dfc3f5289923a700 qed: return status of qed_iov_get_link
+f879af063cee84b31d57502c84d096ac58aeb478 ethernet: Fix error handling in xemaclite_of_probe
+e8714944ceaf330b49a1be4586b6d0f2a4c4b221 net: ethernet: ti: cpts: Handle error for clk_enable
+fe1386f47d47c46e7525802af7609aa6547e2e69 net: ethernet: lpc_eth: Handle error for clk_enable
+e81d888dc274fe1cbaf1f116eea01e710cc46355 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+4925f812adfcc71c19cb06fbb6ece3d543fa8535 net/mlx5: Fix size field in bufferx_reg struct
+030bf0e67882c25189c9cea64ab702b5bf80d86d NFC: port100: fix use-after-free in port100_send_complete
+91d1cdbbc81cf9bccb71c187af0cd344c2eeb4e1 gpio: ts4900: Do not set DAT and OE together
+daac83ba3b9c555f9e2f81e2d87fff90bf844a98 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+b8c6b7be741c8059ab4754c59e201f10be436b37 net: phy: DP83822: clear MISR2 register to disable interrupts
+b64beb8b498b6fc32527e0fc9403968668653794 sctp: fix kernel-infoleak for SCTP sockets
+47a3cd2b22f83506378b7c594d7e358ce9519985 net-sysfs: add check for netdevice being present to speed_show
+68121716520f9147c90fdbf2e608da1d6eea376b Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+485a6213ef15f44ac93d82f93ba42dce627a4f42 Revert "xen-netback: Check for hotplug-status existence before watching"
+7eb151c7563feff3b5e91226a41336795ae1491d tracing: Ensure trace buffer is at least 4096 bytes large
+553ea11e23338e08fdcc4bf4332df6104f7b6cd0 selftests/memfd: clean up mapping in mfd_fail_write
+0ef9e7c814aee10f3c285481aa1e43338a77c378 ARM: Spectre-BHB: provide empty stub for non-config
+731c0fef559e0e4ab4b1061266c924c40f96bdfb staging: gdm724x: fix use after free in gdm_lte_rx()
+89c2d40fb491ca8e154f5e57b178a6e730cacae9 net: macb: Fix lost RX packet wakeup race in NAPI receive
+10ba342352992092f58edd4572e57e64faf236fb riscv: Fix auipc+jalr relocation range checks
+fab305055307b46894eb204842b2a15e6959b66b KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a8646c3e59-1c7f5cf39a94.txt
+Content-Disposition: attachment; filename=revlist-1c7f5cf39a94-691c06f8e73d.txt
 
-08b0051bf2054635ebfb9ae6048548147d6d60bb net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-829420b9b3d491acfba5413f64f0535f2ec84f12 qed: return status of qed_iov_get_link
-38ba49f492f0ddb1dc217c4fd6328f032f5b6518 ethernet: Fix error handling in xemaclite_of_probe
-54375093ea2864ba8bd77404889d3a33760c04bf net: ethernet: lpc_eth: Handle error for clk_enable
-af51705180a4d4a9d196b381a199f9e1acf7058c ax25: Fix NULL pointer dereference in ax25_kill_by_device
-11fe0cb6b24680227733cc0e45796dae888d7725 net/mlx5: Fix size field in bufferx_reg struct
-d82c579305e3433becbf26be4d351116303c9815 NFC: port100: fix use-after-free in port100_send_complete
-517b40356a40b825bd42213920bfe6ae3bc8b6d8 gpio: ts4900: Do not set DAT and OE together
-307a3787d79a69ff46d6e73889fb4a2fc607baeb sctp: fix kernel-infoleak for SCTP sockets
-e427ffdfa0ffbfdc607c3a7a10cc095598c8849d net-sysfs: add check for netdevice being present to speed_show
-17ba2bf57197b8c462f8c4c1670dc4710071000f Revert "xen-netback: Check for hotplug-status existence before watching"
-ca48a9dc93f296c02af3de2822cbe81bfc4a64d0 tracing: Ensure trace buffer is at least 4096 bytes large
-ad36e6120ea0f09161bbb5871ea2f7327d9b092b selftests/memfd: clean up mapping in mfd_fail_write
-25b579d2138783be727a44e0c8c2728532fcf80a ARM: Spectre-BHB: provide empty stub for non-config
-5144fd5a2e5d118423dd7a733c53de99180aa5ca staging: gdm724x: fix use after free in gdm_lte_rx()
-1c7f5cf39a94a124f37c6ea4b5b32d57bb75bcc2 KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
+0ba7c86005fc9a3288d9ea599de8981352b70763 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+047a812fd399fbf4bdd4f16e82f44b9a3c3669a6 qed: return status of qed_iov_get_link
+119567f9d0bc48d5b08c70de49ce11a3f05d009c ethernet: Fix error handling in xemaclite_of_probe
+9a096c4a95053f7c8d2553bc4c3961e8fa20c9f0 net: ethernet: lpc_eth: Handle error for clk_enable
+5509087b015dee81a3085981f2e167adcf6b389e ax25: Fix NULL pointer dereference in ax25_kill_by_device
+ea362144eeafafcdf9fce2d5bb17ec0939fbc3cc net/mlx5: Fix size field in bufferx_reg struct
+ddc0b5e45e7f462cf1dcf92a5612c9216862cb2b NFC: port100: fix use-after-free in port100_send_complete
+ce4dba39ab8a428b2867d4202c65dee4c8701be3 gpio: ts4900: Do not set DAT and OE together
+0ce53dcb5c67bf83b1bf7ba00b366231aa563e33 sctp: fix kernel-infoleak for SCTP sockets
+2c81f96c31752b74cea24786f660023dfe4d2407 net-sysfs: add check for netdevice being present to speed_show
+4981441a2b26bb1a6811d5b3270c5d4bd7e29a98 Revert "xen-netback: Check for hotplug-status existence before watching"
+11032b0c47b43c98200ed696466b5e08eb23306d tracing: Ensure trace buffer is at least 4096 bytes large
+9c63653b6a5797c7977245b4f65c470a21e169d3 selftests/memfd: clean up mapping in mfd_fail_write
+964a2d20834d536ef6a7fa2340cff50428df8eb5 ARM: Spectre-BHB: provide empty stub for non-config
+cb886f6dd970f47f008addfde2e4546748ef03f1 staging: gdm724x: fix use after free in gdm_lte_rx()
+691c06f8e73d4a9bceb74b849704aba8a930c6fa KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09d7b2038590-955a7b664fc4.txt
+Content-Disposition: attachment; filename=revlist-955a7b664fc4-8f2dadafa795.txt
 
-2a65055004db74a8598bb03c8b528387b0c9ed02 ARM: boot: dts: bcm2711: Fix HVS register range
-f4b2e5549f2eedb653a664fdc7378903030b0059 clk: qcom: gdsc: Add support to update GDSC transition delay
-531835f887961407c5107f31d54d1b7a1022c708 HID: vivaldi: fix sysfs attributes leak
-d539e7d3e0905af63a8bc06621e56c8bd1613d49 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
-30eca618e5afd92bf4f188e7c90e9381bffb0160 tipc: fix kernel panic when enabling bearer
-ac9f961811b1bfef28839dfeda99ff8bc9469b2c mISDN: Remove obsolete PIPELINE_DEBUG debugging information
-70a971c2b89c062784bf42b1928c943a4634a3c8 mISDN: Fix memory leak in dsp_pipeline_build()
-f0f8a66d5e9115b342c709b3ea7c42855b090267 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
-2b19161d47f8a75f78ff64fd1c936309ea89067e isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
-059f11678454714f3c7c111da6b51595560d275d net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-32280e12b360419ba787939740d813cbdf0cd866 esp: Fix BEET mode inter address family tunneling on GSO
-bf7091ac174acf7fb5003eaf90ef8c0767adb9af qed: return status of qed_iov_get_link
-a97900f2408a2737ce130ca66e6dcd22f43810e8 drm/sun4i: mixer: Fix P010 and P210 format numbers
-4fb360cda9eb3c04d9af4abe70b5cee129b7e6b6 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
-35834546f84333f551746b73ee5761db1fcaffbf ARM: dts: aspeed: Fix AST2600 quad spi group
-b279164ce7a3cbc8904ead2988543885794e33fa i40e: stop disabling VFs due to PF error responses
-4722501386d75abd0cbfebc46a46038419a7d5ea ice: stop disabling VFs due to PF error responses
-c479ae8252c9b33395d368b9eb5b8f23809eb618 ice: Align macro names to the specification
-755abc5efaf5e086a5f1574ad025bd1bd2715f2b ice: Remove unnecessary checker loop
-50395aa1480ca0c6fa209b9d554342f402d393b5 ice: Rename a couple of variables
-48b83e9ee969e2b98b1f9d4f47ba738fdf46812f ice: Fix curr_link_speed advertised speed
-c5309321d52c1e75897b60c42ce2527e267392ab ethernet: Fix error handling in xemaclite_of_probe
-b000aee1fe8ef08833b3f220023f88e2b888086c tipc: fix incorrect order of state message data sanity check
-6ea71ffa16efb80350e894c9ff3fc2ec15a26790 net: ethernet: ti: cpts: Handle error for clk_enable
-c050fb1d36c424074eaf3eea7a97276716988519 net: ethernet: lpc_eth: Handle error for clk_enable
-b9a6fd8e5c81b50803f74f28940443b80f7ef5d6 ax25: Fix NULL pointer dereference in ax25_kill_by_device
-1634fb72d5f179594c7a9a0db31f5ce1a377d27b net/mlx5: Fix size field in bufferx_reg struct
-52d30146c5aa0937663c6a0e30cece72318c1d3a net/mlx5: Fix a race on command flush flow
-94e579678b49d639c72e3fda9b13e4cfbf700c17 net/mlx5e: Lag, Only handle events from highest priority multipath entry
-ce920de5792d2c1057cf95d8f28bde22f5d95f66 NFC: port100: fix use-after-free in port100_send_complete
-3cd1925701a0593e57b575499eebbea7f2083cbb selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
-463e986316c89cee8317a1767c7e5199f69cad18 gpio: ts4900: Do not set DAT and OE together
-a6f91bfc644070e949c2261efde14f1240b3f236 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-e44cda5566beded63c04aa5e3d2b814d50dca756 net: phy: DP83822: clear MISR2 register to disable interrupts
-0ad88fd6c4013427dc9811aba945966e3ea3471c sctp: fix kernel-infoleak for SCTP sockets
-0c9ccd3c885a999abd711b4a2fff812d11dea8f8 net: bcmgenet: Don't claim WOL when its not available
-988973729b99768ab86eae1afbf0dae1d2353e32 selftests/bpf: Add test for bpf_timer overwriting crash
-012dea83f389ee832be17ac5068d18316f9276e7 spi: rockchip: Fix error in getting num-cs property
-ce607741eee08abe22bda8c6460d7014e412c12b spi: rockchip: terminate dma transmission when slave abort
-a9b12851dee1788049f0e33ee62e98188b40822c net-sysfs: add check for netdevice being present to speed_show
-6729f79e13c2b9f1e9d1786786d12273ff6002a6 hwmon: (pmbus) Clear pmbus fault/warning bits after read
-5f85989fe2bfc7e430d30329652f0e8185bf5451 gpio: Return EPROBE_DEFER if gc->to_irq is NULL
-03ff4dde5fe1c1b8d15adbd5402f81faae6e8505 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-f7b2b9371b7a38079d4f5632798576d6f0d43160 Revert "xen-netback: Check for hotplug-status existence before watching"
-341db75559f43d0a1a6489b949a97487aaabcfa3 ipv6: prevent a possible race condition with lifetimes
-c85c4ac95075c1e406cb2b1f6b739b8c61d9a97c tracing: Ensure trace buffer is at least 4096 bytes large
-4c2f478a3264a43e67f0fb8a0dc08329f00940b0 selftest/vm: fix map_fixed_noreplace test failure
-a3ce4c5698e0b68a763b4a5ae07d3ca2957cec65 selftests/memfd: clean up mapping in mfd_fail_write
-955a7b664fc4ebdb1b27686ab76b14d72e5ac9cc ARM: Spectre-BHB: provide empty stub for non-config
+f2cecfea461be075e60bd8ca454d1eaaf5be1de5 ARM: boot: dts: bcm2711: Fix HVS register range
+1a734fb8df86b20450609225a8c53dd87c669f1a clk: qcom: gdsc: Add support to update GDSC transition delay
+06e258b227181356617e81b8ae56396a221de429 HID: vivaldi: fix sysfs attributes leak
+4a94da22dfd32228f27ce29a1985268658f10f02 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+153b376e4ddd49d43dd384ad8442fc8c014701a0 tipc: fix kernel panic when enabling bearer
+04dfb6b39cf433965547379cfa9175a1e4c846a1 mISDN: Remove obsolete PIPELINE_DEBUG debugging information
+0ac157a7175be9fdd2319f9c839a31f84dfefc2b mISDN: Fix memory leak in dsp_pipeline_build()
+00884910ff396c60fae5b3dca68073a90c141f76 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
+b0c7b49b1aea1babd3e7fdd8c31304f3aa3375f6 isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
+319df05dbd669fadf250a75ac84aab471dda3a33 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+263577e1661ffba0f644527c29e0034ff1e52b49 esp: Fix BEET mode inter address family tunneling on GSO
+1be213543b672777cb4db2447547a871e22a5bcc qed: return status of qed_iov_get_link
+45ef99a50dc201ff2a8a4e3cb8c492d8f711e999 drm/sun4i: mixer: Fix P010 and P210 format numbers
+ecc5060602ba1f77b7a9fed6af6bcc3e68389db9 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
+f2d0362c373f3521d23dd0c7f6c517631d26e54b ARM: dts: aspeed: Fix AST2600 quad spi group
+1736ba7d9cd07e646a3220c60b172e8d9a596d04 i40e: stop disabling VFs due to PF error responses
+8cfeba2af8e7982290aadc9b9a68af7f95df8e28 ice: stop disabling VFs due to PF error responses
+fa4d1be09218a4f418422d80d244e680632b4f0c ice: Align macro names to the specification
+98d7d746c73912ddb2d85ebc0b84006dbe02e558 ice: Remove unnecessary checker loop
+e8b235d8c614e3e4f9b21bca511c72b981ffd606 ice: Rename a couple of variables
+f25145b48c0397a206fcedf025b28176930ba1f7 ice: Fix curr_link_speed advertised speed
+752d7a5b6ca5d4912467641efa7a35ac01176247 ethernet: Fix error handling in xemaclite_of_probe
+504f1056a9e0a53bad45e9baa50df1d85088f514 tipc: fix incorrect order of state message data sanity check
+f86ef81b7f42331bbbf7eb69a5d4fcf1ab8c1c06 net: ethernet: ti: cpts: Handle error for clk_enable
+7b74e4a1e453a574e950cf26a8bdae041712593a net: ethernet: lpc_eth: Handle error for clk_enable
+d611e3dd3740409662cdcc52616f1bab24392dd0 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+783b273a17d8af72ccae4ed55282812a3ef18645 net/mlx5: Fix size field in bufferx_reg struct
+52848020b5b130f32d7010781ae8e46ac597655c net/mlx5: Fix a race on command flush flow
+2d0b12676e4d34fcdc4141a730a1e04b26e38327 net/mlx5e: Lag, Only handle events from highest priority multipath entry
+43794c17c0c4c68e3496f7cde50a769a9f5082a6 NFC: port100: fix use-after-free in port100_send_complete
+e1e96615c71f0b80367c8111d4967dd73efbc214 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
+3578186e46b03831d7f2d1e8855a5ff8e0f8dfa5 gpio: ts4900: Do not set DAT and OE together
+3fbc8416736e9d7110d06e2875e5ccfbbb7d158d gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+7b92ff60136c5f7e7bf1b2ad3a3801abffc48164 net: phy: DP83822: clear MISR2 register to disable interrupts
+6ef43b24456b09b28ada41b746388502bf73820c sctp: fix kernel-infoleak for SCTP sockets
+271568ce3a40c28701ca17a3600e03323d3fe5e3 net: bcmgenet: Don't claim WOL when its not available
+2fdc8cb4b6ffecbbc3b0b6c24c5659b345535743 selftests/bpf: Add test for bpf_timer overwriting crash
+be0b73db56ecb7654faea74add96442e19d10bf1 spi: rockchip: Fix error in getting num-cs property
+a13d1c29df9614c4792370087552bd914b894d81 spi: rockchip: terminate dma transmission when slave abort
+45f968c97b18ca8257c662fae8853bf4df1c2a91 net-sysfs: add check for netdevice being present to speed_show
+cfc124bb072c734bcf6e06801e664315530e757b hwmon: (pmbus) Clear pmbus fault/warning bits after read
+8d589d12a84a49654724b44d6e3844f718fedd11 gpio: Return EPROBE_DEFER if gc->to_irq is NULL
+2b26b025982fb7a586d87418ed2be4b8e2c46875 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+f01564ba05c7a395369f4b47c9a960ec979d8a3f Revert "xen-netback: Check for hotplug-status existence before watching"
+a070dd582bee5a955a83ef99e2a5e177b1b92921 ipv6: prevent a possible race condition with lifetimes
+c08f3a538b61feeec799f5dc19e4e77caf411ae4 tracing: Ensure trace buffer is at least 4096 bytes large
+c2ed12b3c323b5b37a6b1c177e671236cc178d11 selftest/vm: fix map_fixed_noreplace test failure
+9b11a392d6a26ad85dfa087a77587c2ce1671094 selftests/memfd: clean up mapping in mfd_fail_write
+40704f9e45cc4b57bd2525748e2d6695f9c46569 ARM: Spectre-BHB: provide empty stub for non-config
+3f8f0d4e389ad63156421f9ce169eff1291fcbda fuse: fix pipe buffer lifetime for direct_io
+64d68ec21f3cd2311af75e15b7cf937fc53c64cf staging: rtl8723bs: Fix access-point mode deadlock
+711df26c0c2f3f9742693aeea1ef088ee2f1acec staging: gdm724x: fix use after free in gdm_lte_rx()
+45e845090ed798811a758f8731ad80d0b3717c71 net: macb: Fix lost RX packet wakeup race in NAPI receive
+3eb6bccd50ea7e25afd7d12adb0e00806fc463fd mmc: meson: Fix usage of meson_mmc_post_req()
+a0e2b45d7ce6f87c710ad0f6390dbdc48e02b75d riscv: Fix auipc+jalr relocation range checks
+8f2dadafa7954e533c6b99c277559d43c864131a arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b01f828c425-5e0b8639c682.txt
+Content-Disposition: attachment; filename=revlist-5e0b8639c682-15d210ad702a.txt
 
-eb72d23b3c496b1117bc74f167960a2135768a90 arm64: dts: qcom: sm8350: Describe GCC dependency clocks
-badd44f3b3581033be7366e0f7d7b424a1e92294 arm64: dts: qcom: sm8350: Correct UFS symbol clocks
-e966b614f4571cac9de39ec2230f33658d34e394 HID: elo: Revert USB reference counting
-62c77324c14155252536fa0bba0abf1bc1320f78 HID: hid-thrustmaster: fix OOB read in thrustmaster_interrupts
-827a87ae6b8787ca07e8c3be17846a4ab2061814 ARM: boot: dts: bcm2711: Fix HVS register range
-8368ef672efaba2d01c8d923186974a915df815f clk: qcom: gdsc: Add support to update GDSC transition delay
-37ad8f984e09fa3cf6c8213ac42f18680e6f4534 clk: qcom: dispcc: Update the transition delay for MDSS GDSC
-a59227803ab04169cb4c27cfb6d1b4fef6f537d2 HID: vivaldi: fix sysfs attributes leak
-30fe3c70ed19ec7d7fd9d2d6dc956f548d1cc9a7 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
-f54e3dee560da4712ca39edce893cdbaab230bab tipc: fix kernel panic when enabling bearer
-89259497e4ee0ffc7ee08d02534c2ccf928ba4ce vdpa/mlx5: add validation for VIRTIO_NET_CTRL_MQ_VQ_PAIRS_SET command
-fedbd8367b5ea9bccf4102446228ec952fb2f7fb vduse: Fix returning wrong type in vduse_domain_alloc_iova()
-3408f1785c49fcd2b5732086955f03deedc1038e net: phy: meson-gxl: fix interrupt handling in forced mode
-c8465cb9de6d3ff57a2417edd2ff270595e997ae mISDN: Fix memory leak in dsp_pipeline_build()
-72adb48ca02f0cd5c66c6297e26ee122b0e2c0b9 vhost: fix hung thread due to erroneous iotlb entries
-9d56b6033cdb78275c2603d25796c583b20a1b07 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
-4b030a4d7b3b7adbd50d28d57d42b6b009c723e6 vdpa: fix use-after-free on vp_vdpa_remove
-90626f5b9438d0ec772c15a1f64352fd1dd35730 isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
-fcb8157d0884f2bed6460f33fac88cd9eb66ac5f net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-fe8b99f39a93a964ca0659d32d8836a67e83af24 esp: Fix possible buffer overflow in ESP transformation
-26a370c1a00100d3c878c598d985875863a9e0f4 esp: Fix BEET mode inter address family tunneling on GSO
-fb4717464ededa5a0ce3bdd1af7b924ec867e159 qed: return status of qed_iov_get_link
-1028b2a0f6e983dc60da53ebf3cbe746dad9c954 smsc95xx: Ignore -ENODEV errors when device is unplugged
-94206298c79aeb93be35a79cbf580fba074fb6dc gpiolib: acpi: Convert ACPI value of debounce to microseconds
-d62b877c40ca7bbc275bcb4691e144046094f704 drm/sun4i: mixer: Fix P010 and P210 format numbers
-f438ee206b4e460e7dfebbdd3c0bca867aecc219 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
-b76a5805e9c25e37c946843df085fe9d0d63cba0 ARM: dts: aspeed: Fix AST2600 quad spi group
-1c4e57ff382835bbf2af9084d3b6837dca3f00ca iavf: Fix handling of vlan strip virtual channel messages
-1a31b94b5694955c16ddf6b3d5feae97cfd98466 i40e: stop disabling VFs due to PF error responses
-fbd2d25e83f3bd78727345a5769c268451c9374b ice: stop disabling VFs due to PF error responses
-40e3a89c44f88aa6003eee7f3e086eec4f0b79fb ice: Fix error with handling of bonding MTU
-461843da6c6f3567296108f383eabee0422db2f5 ice: Don't use GFP_KERNEL in atomic context
-3b91a93306225dd940a6be9cce0bb06eb014fbc0 ice: Fix curr_link_speed advertised speed
-74003ef24e4a59d9bcb09d6658c9d409f2a51c95 ethernet: Fix error handling in xemaclite_of_probe
-6af690297d23a996bb47efd1c71eafd670994a64 tipc: fix incorrect order of state message data sanity check
-b63730d660a6bface819bfd0e92b94692338e852 net: ethernet: ti: cpts: Handle error for clk_enable
-23de02bd2f250fdfbebe73bbcb1962fe2476c939 net: ethernet: lpc_eth: Handle error for clk_enable
-cd16d1c613b9af2b461258029aab32ca0ff63806 net: marvell: prestera: Add missing of_node_put() in prestera_switch_set_base_mac_addr
-2254b91f0bf93ce4caad0209b143b83ad0eda6d6 ax25: Fix NULL pointer dereference in ax25_kill_by_device
-8151c056c664732c893dff514d8af1432578efcb net/mlx5: Fix size field in bufferx_reg struct
-7df5082bd5cf02dc54395d96f56931e222ba3bdc net/mlx5: Fix a race on command flush flow
-cd75329ce6f1f9f68faba6648c85b73ecb8d0101 net/mlx5e: Lag, Only handle events from highest priority multipath entry
-6dbbcf28d505d042e4f3b985c65e390fee7f7552 NFC: port100: fix use-after-free in port100_send_complete
-addb6de4a6ad96cbfbce5e66aa38a13cfe3292b9 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
-600395fa5143d0511745deb379278a00416064c1 selftests: pmtu.sh: Kill nettest processes launched in subshell.
-932db3c064d581e21f9d206fa6dc884575d4d687 gpio: ts4900: Do not set DAT and OE together
-8aadbe20d66d39b254dc33c8a568c6a937e659b8 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-bc8c5f3d4a62aa9f11df63892dc844e310f9a3a5 net: phy: DP83822: clear MISR2 register to disable interrupts
-979df12d4892aef8b28b37565b0fd9440a05b36b sctp: fix kernel-infoleak for SCTP sockets
-52580a9606a97d13a6e8fcdbad19240cfda1659d net: bcmgenet: Don't claim WOL when its not available
-5b738b42ddb80802844a7e7290ce7b7313f10622 net: phy: meson-gxl: improve link-up behavior
-eef99e09c92c546def30af66cc96753f08beffe8 selftests/bpf: Add test for bpf_timer overwriting crash
-34ea68a2c63c76d901ecadc28e153327fc523976 swiotlb: fix info leak with DMA_FROM_DEVICE
-e5e7765cca08aec4cf92d227c60293af9833680b usb: dwc3: pci: add support for the Intel Raptor Lake-S
-00e8a3c2d8f83b6ce9f45b6101413657576e3eef pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
-4e424029453f619566be7f426a9edfb5cdde9a41 KVM: Fix lockdep false negative during host resume
-c60f34b01e81197352690d822dd3fa84902e3464 kvm: x86: Disable KVM_HC_CLOCK_PAIRING if tsc is in always catchup mode
-4b58a9e8678bb2145622a039b1e6afdcd0f09444 spi: rockchip: Fix error in getting num-cs property
-486da9b1bd2106a1f2f4fdc622aaa8bdb4209831 spi: rockchip: terminate dma transmission when slave abort
-c748ad4db9bb7042bce77ecded6c899646034768 drm/vc4: hdmi: Unregister codec device on unbind
-5791862dfadcbcc5f133369828f6b84ae57759fb x86/kvm: Don't use pv tlb/ipi/sched_yield if on 1 vCPU
-999c00ac9277a7b2ffa66d7f07db85d906ed7eee net-sysfs: add check for netdevice being present to speed_show
-d47bad2e613a43fac198dbb838ad529d2170a646 hwmon: (pmbus) Clear pmbus fault/warning bits after read
-a122c698c483d2a354f77115c078c3815e71873d PCI: Mark all AMD Navi10 and Navi14 GPU ATS as broken
-925fb17b7ea56c4e2b9c4a0f2e01e739905861ad gpio: Return EPROBE_DEFER if gc->to_irq is NULL
-4c13c3d4a15d9952d2484b760b955b038bad2961 drm/amdgpu: bypass tiling flag check in virtual display case (v2)
-eec4f3d3871ec1463a87278d345f89cd82fa0240 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-bd37910a19fae9a52a62123974e3d171de4d0cb9 Revert "xen-netback: Check for hotplug-status existence before watching"
-cd58e740b46e71948c0d05b2abd0c092e518292d ipv6: prevent a possible race condition with lifetimes
-f457deb14b4591401c926535d3e0e8ba2ae65a0b tracing: Ensure trace buffer is at least 4096 bytes large
-6055b5f7b5a49abc36e70ceb7c1e3100f827e752 tracing/osnoise: Make osnoise_main to sleep for microseconds
-847b08810800669735bc8527d77f2e37c5d93ca7 selftest/vm: fix map_fixed_noreplace test failure
-b229c522aaa903332d4e323680f54a84d1b49f4b selftests/memfd: clean up mapping in mfd_fail_write
-5e0b8639c6820465fde09947c72b8b7ebc5a45c7 ARM: Spectre-BHB: provide empty stub for non-config
+bede4380d69f3fe99218aa9b99f341f7f8b3a9a5 arm64: dts: qcom: sm8350: Describe GCC dependency clocks
+04a1df9901452de9a42717bdf34e417abaa4ff81 arm64: dts: qcom: sm8350: Correct UFS symbol clocks
+22ec00eaad4072a18601a8c73254647816748f4f HID: elo: Revert USB reference counting
+cc3b18a4434f003850943c0a21c049cde1315307 HID: hid-thrustmaster: fix OOB read in thrustmaster_interrupts
+fe6a743d65b2f61bccefdb704c9f866dc02044c3 ARM: boot: dts: bcm2711: Fix HVS register range
+5382a23778c4aee0874b31b95cde2aa3da8919e4 clk: qcom: gdsc: Add support to update GDSC transition delay
+9bb2869ea6e1946a35cde3b43a1a189443287a50 clk: qcom: dispcc: Update the transition delay for MDSS GDSC
+39dd5a8b41fad6a953ad9f8537a9353f34901edf HID: vivaldi: fix sysfs attributes leak
+947cbe9897ba21e3e542b5bff66089ff58a42cde arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+19e2bc9c9f89e0177ac3be1408d30d1ccafd7e94 tipc: fix kernel panic when enabling bearer
+93caaeaa8766fea2f969369f08a2dedafb64347c vdpa/mlx5: add validation for VIRTIO_NET_CTRL_MQ_VQ_PAIRS_SET command
+d41d55502a43bef1258caa43a83e83737f18aae7 vduse: Fix returning wrong type in vduse_domain_alloc_iova()
+e302b20be4b612bb2030d766cb66b85ffc65fbf3 net: phy: meson-gxl: fix interrupt handling in forced mode
+64fa990ab8d8ce8df98b45991078bbf193851882 mISDN: Fix memory leak in dsp_pipeline_build()
+46a24ca74a0736368e5530f1e510a73a64e8ac86 vhost: fix hung thread due to erroneous iotlb entries
+4836ffde3e6811dd98fbb92f1fd2525dd75e8125 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
+06d83c745c58cbf98d790edaf1f4ebb51f9a8cb8 vdpa: fix use-after-free on vp_vdpa_remove
+b10ce28a107b45e16f3f6a9f520e1ac7c94511f7 isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
+cbcf6737742b4b4d27292c9dc862b57e4d07f749 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+3fe926cf37355a767d5f188f7ce6815192102db9 esp: Fix possible buffer overflow in ESP transformation
+52f8de40dd553bded9f7ad624a4c7fe0833afa63 esp: Fix BEET mode inter address family tunneling on GSO
+7e324196fe1fe0ef0afe08ce2460de191f3e901f qed: return status of qed_iov_get_link
+19c40b5fa1dc60c52d0a7dbbe68e5147e0dc068a smsc95xx: Ignore -ENODEV errors when device is unplugged
+297d68b6fc556082aec14db272ec1684747996df gpiolib: acpi: Convert ACPI value of debounce to microseconds
+984dee6fb78f5887b53897c04601a93d17ae7452 drm/sun4i: mixer: Fix P010 and P210 format numbers
+cfca2393d386fbce666efe5718c62e0b3cb9678a net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
+68039b1e44bd3e8afae25b05883a42e1e8b38e51 ARM: dts: aspeed: Fix AST2600 quad spi group
+cad0d8229b194c730a692c02a3690309c6e356af iavf: Fix handling of vlan strip virtual channel messages
+56090b07f2729e7a76654c846a70eb0d4b428879 i40e: stop disabling VFs due to PF error responses
+7183ea0e7409cda2674f6e51988f9a663bf66c66 ice: stop disabling VFs due to PF error responses
+500e577181ce4a0a742b9457104ee4b220af2046 ice: Fix error with handling of bonding MTU
+76acc88941c0faedea4c78b773bde51f16f4f08c ice: Don't use GFP_KERNEL in atomic context
+d3819e4f55c93b4058799ffc7f5c841345941260 ice: Fix curr_link_speed advertised speed
+fa01f4e2a1937bc8d7356a01571a3d530e925a2b ethernet: Fix error handling in xemaclite_of_probe
+4a5b933a26065016902fe8ca96d104089aecbcec tipc: fix incorrect order of state message data sanity check
+21a79b4f688ad8a52219cc1c727ead7bcf9fc937 net: ethernet: ti: cpts: Handle error for clk_enable
+0df15caec651eae2f2cb802586451561488a7e80 net: ethernet: lpc_eth: Handle error for clk_enable
+3b26f4543b11fbb23b7394ead33a10509c9848f7 net: marvell: prestera: Add missing of_node_put() in prestera_switch_set_base_mac_addr
+6ab7a1d9d6003b9b0503ce89a655b58ffab0bf42 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+01f7dae3d210ca2f89cb9c0fb85902751b9f4974 net/mlx5: Fix size field in bufferx_reg struct
+b9a930b0d7e475504c31c7c4fb4c2ef654dcdb25 net/mlx5: Fix a race on command flush flow
+4a0d342667d9374f22d627415325e338159d08c2 net/mlx5e: Lag, Only handle events from highest priority multipath entry
+af594f7581ca080b611fa540af237f11e70ae2b4 NFC: port100: fix use-after-free in port100_send_complete
+7e35895778f08add8a9fdb8b0492409c48947e79 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
+0f3fc2932799b5d9f7c7f7f32fd822236561e644 selftests: pmtu.sh: Kill nettest processes launched in subshell.
+8ba0a688b18b2cfb1daf4981398f4eacbdd48c49 gpio: ts4900: Do not set DAT and OE together
+330774630e0edb7bfa4320849602d6c8276ada56 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+bf359f7321c457bbacea8ce05770f47772c6d949 net: phy: DP83822: clear MISR2 register to disable interrupts
+a88d709be32a1d815c3bd96688f6c4c81a55aab7 sctp: fix kernel-infoleak for SCTP sockets
+333efd2d0806858879e92daf043327365e2f694c net: bcmgenet: Don't claim WOL when its not available
+9a0e309aaf7ec6771eca238975db6aee8f978449 net: phy: meson-gxl: improve link-up behavior
+534d9effead67cd0a0733b15058d882d94edcf28 selftests/bpf: Add test for bpf_timer overwriting crash
+21fd7367d64b0932c8b7398a70bb350c9cf77559 swiotlb: fix info leak with DMA_FROM_DEVICE
+a15468c93031e89e9d97c8a98c5a302f5d83efbe usb: dwc3: pci: add support for the Intel Raptor Lake-S
+e617848f9660744b43c5aab326c02254edad378b pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
+e8e6b6c0b080ec96342de6ddd24e54613e098952 KVM: Fix lockdep false negative during host resume
+35d56d691f2d9cb1c1cea9e574513958fc4a5f03 kvm: x86: Disable KVM_HC_CLOCK_PAIRING if tsc is in always catchup mode
+e34252a970e83dc5bd6e2d50ee5d10935dbdd34c spi: rockchip: Fix error in getting num-cs property
+4ef7c769239fd07421beb72c9dae103c76973cfb spi: rockchip: terminate dma transmission when slave abort
+f61df47e32eab46903bbce169d7f571e2c67a8df drm/vc4: hdmi: Unregister codec device on unbind
+be975a23e05960e2d094c914db621289a42f3074 x86/kvm: Don't use pv tlb/ipi/sched_yield if on 1 vCPU
+632b62d499ca81de274fd9541d0822576fef970c net-sysfs: add check for netdevice being present to speed_show
+a9c7ecf6fd054c5dda440095677709583049802d hwmon: (pmbus) Clear pmbus fault/warning bits after read
+729528764e25ed3ab359271b860f05dc499bb773 PCI: Mark all AMD Navi10 and Navi14 GPU ATS as broken
+97e7272359fffd698821c98e27baa1628c954090 gpio: Return EPROBE_DEFER if gc->to_irq is NULL
+82db283cec904f4f80de905922f9a24a4c48c8a2 drm/amdgpu: bypass tiling flag check in virtual display case (v2)
+f0e76a60d91657d0655ddf6cdb205fafbc1a34ae Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+f269fad50704535dc19d2194f7779aeca7ae9021 Revert "xen-netback: Check for hotplug-status existence before watching"
+4b9712746fe41a158e754a353c7ca8b424cbcc3c ipv6: prevent a possible race condition with lifetimes
+5f22c332fb430561f5fc1d46788c7b9fec2ba01a tracing: Ensure trace buffer is at least 4096 bytes large
+0043a6faa7316f6ce434e8f8f80662716b4fcab4 tracing/osnoise: Make osnoise_main to sleep for microseconds
+bb9ca30262096cd01bcc4797a8d32f616c7675ff selftest/vm: fix map_fixed_noreplace test failure
+a686a588f8db26716cff778134a51a2e9e2a24ed selftests/memfd: clean up mapping in mfd_fail_write
+59dc900d075b3e15a0b9b37cd0739e28dbf48785 ARM: Spectre-BHB: provide empty stub for non-config
+1bba84884f2d3a52dc7cfc149b9284efeb99be77 fuse: fix fileattr op failure
+89721e3192e0737931197c646b0b88ae5bbba469 fuse: fix pipe buffer lifetime for direct_io
+fc62dbea48c940d9d39f1b26ef63c160c6aeb55a staging: rtl8723bs: Fix access-point mode deadlock
+8ada21f65d9c640eeeb973030b42b3a292dd0bb1 staging: gdm724x: fix use after free in gdm_lte_rx()
+48aa8384f4ccb7411d6965dc37a49ba37bece208 net: macb: Fix lost RX packet wakeup race in NAPI receive
+1f7d3d82e76795d0050dd52771409d6a87b2572e riscv: alternative only works on !XIP_KERNEL
+8bb58dae79cada8b4c4d2547f0030c67692f56d0 mmc: meson: Fix usage of meson_mmc_post_req()
+26a31906129dc6b403067b963b956c55cdc77d9f riscv: Fix auipc+jalr relocation range checks
+b5b361cb2f2424e650f0fb1846cb1950830aca61 tracing/osnoise: Force quiescent states while tracing
+b54bb1fabea2ddca73c03c449a5d0e3463e5e402 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
+0cdc3f6e3e3222d6337fe05e8bd3dcc65570c938 arm64: Ensure execute-only permissions are not allowed without EPAN
+c8544ae3679930815a11f8dbfbca49d4fe76edd4 arm64: kasan: fix include error in MTE functions
+15d210ad702a543724ab4b83d2346f3591d5eda0 swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a22e2f1d3ecd-d2d2fedbd469.txt
+Content-Disposition: attachment; filename=revlist-d2d2fedbd469-25ad54887dad.txt
 
-26a953a1774d304860d45ea650ab23d6e417509d arm64: dts: qcom: sm8350: Describe GCC dependency clocks
-539ed9d85473f11602275a90823b4c7f4c9ce724 arm64: dts: qcom: sm8350: Correct UFS symbol clocks
-081b8e6f3d8af87e657cc39989a43ad0a7b6471b HID: elo: Revert USB reference counting
-ae9ec3a80dad30464a08ea55087abb90b502dba5 HID: hid-thrustmaster: fix OOB read in thrustmaster_interrupts
-210949432c858dae5e05c27da33c9e9270f2b8b5 ARM: boot: dts: bcm2711: Fix HVS register range
-28603b13c7c5201fca91550783de832b4451c82a clk: qcom: gdsc: Add support to update GDSC transition delay
-3f546b4125bcac1e1277a6349a5718a7d33bd333 clk: qcom: dispcc: Update the transition delay for MDSS GDSC
-0c2670e1181baebc0ebaa7e468070cf7831e71ff soc: mediatek: mt8192-mmsys: Fix dither to dsi0 path's input sel
-267b32ffcb27001cf1ecef17b894bf2e99d0dc8a HID: vivaldi: fix sysfs attributes leak
-55afb14d486ac4ca9330bb2aee18ea12b2121bcb HID: nintendo: check the return value of alloc_workqueue()
-d39b479125badd637bdeeb432e7292ea0dceb0ec arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
-32719ee71d25e603896fa7829e226a21fae68ad2 tipc: fix kernel panic when enabling bearer
-2e73041d25063b6fa1e73960d7c7bdbdb4ba8b4f vdpa/mlx5: add validation for VIRTIO_NET_CTRL_MQ_VQ_PAIRS_SET command
-593ed3d7aae05d65d3afcc6213a1c312d2ae915c vduse: Fix returning wrong type in vduse_domain_alloc_iova()
-9d88ecdd4afb1a30644ba95f07f09cbb1d1be557 net: phy: meson-gxl: fix interrupt handling in forced mode
-3081d8f4100dc95b377d33e973aa7326c1b5850c mISDN: Fix memory leak in dsp_pipeline_build()
-0d38963f77bf8082d916700a818338d6ddb7ff3e vhost: fix hung thread due to erroneous iotlb entries
-2b2cc07a598108c55cda40755a3629b9d0474a6d virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
-0876a655deea986645ad92657ff3ad998355b4e5 virtio-blk: Remove BUG_ON() in virtio_queue_rq()
-6894d99c77f9d0bf524728461023a72e74e73e40 vdpa: fix use-after-free on vp_vdpa_remove
-dfd9343107479806e2be8c62471e3b3fbca6b32c isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
-3b8776d1abe904730a42f5efcdd0fd466ee8e043 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-12c7be73dccf2ed37fdda7f88781cdd253d77153 esp: Fix possible buffer overflow in ESP transformation
-92cce7e19c7c80946bdc231b0543d3f1b22d6a16 esp: Fix BEET mode inter address family tunneling on GSO
-a31dfa28e2ff15b9925cfb65ef5633bce472b6b6 net: gro: move skb_gro_receive_list to udp_offload.c
-cde3b17a81c9c6d520b97fadda04cb64a4533c13 qed: return status of qed_iov_get_link
-688733fe1057a30314c3474435be27276f5d5f32 smsc95xx: Ignore -ENODEV errors when device is unplugged
-c033be41bda428fdbfe61f7bf04478d2baf9c917 gpiolib: acpi: Convert ACPI value of debounce to microseconds
-3b81d80dc07e4ea560bd0d862341dda5cbb47c8e drm/i915/psr: Set "SF Partial Frame Enable" also on full update
-487a594db331c4aaa111f51c7812f8de5a841dd1 drm/sun4i: mixer: Fix P010 and P210 format numbers
-684cbf3226e6f047677b6e49836ebe55de42660a net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
-54b531218cd53ad5c707ae89676fbb2def36f733 ARM: dts: aspeed: Fix AST2600 quad spi group
-4ddbf9aead5917112ea2cdbd1c4e3ba8eb1c171d iavf: Fix handling of vlan strip virtual channel messages
-4940a598c77e67e8fddf3e5b3e2623918c9ddffd i40e: stop disabling VFs due to PF error responses
-29cd873da3378d75b0a68e115a391ccb7412070e ice: stop disabling VFs due to PF error responses
-a6fdc0a32bf9d8610631104211a3124093fb72bf ice: Fix error with handling of bonding MTU
-efe380993158d0bdaafcd4a3eb602d80931d29ab ice: Don't use GFP_KERNEL in atomic context
-c15240cfd9352ef761b1c45a99c6cc5ac8d3cbbc ice: Fix curr_link_speed advertised speed
-569c635a30404b353de13e0828bb8500cbc07ed8 ethernet: Fix error handling in xemaclite_of_probe
-8bf51fd9a60575d6271565ee8418689b5b390018 tipc: fix incorrect order of state message data sanity check
-299312c6d93571fc5cfcd9c37ed104bdf8f9aba3 net: ethernet: ti: cpts: Handle error for clk_enable
-b75db97e515d3173de61904e853af1170e61aac6 net: ethernet: lpc_eth: Handle error for clk_enable
-9b5e258af40556c5d238bd38191899b64815d28e net: marvell: prestera: Add missing of_node_put() in prestera_switch_set_base_mac_addr
-8e3b6a609ec40a813121080168d43d9017d92360 ax25: Fix NULL pointer dereference in ax25_kill_by_device
-08b3ee77fdf2f06e30e8d69910a682898a2fea5a net/mlx5: Fix size field in bufferx_reg struct
-4622295c65cddeef8a16869895b361e6dbf9aaf8 net/mlx5: Fix a race on command flush flow
-ffb247cb917a6719b5288a75e308220b5fb2c98e net/mlx5e: Lag, Only handle events from highest priority multipath entry
-4736a1bbe307aa9a3ae97fa3b9810f3bb966ef81 net/mlx5e: SHAMPO, reduce TIR indication
-959ac3ce76afa84b1a23027dbd87bb78f945e154 NFC: port100: fix use-after-free in port100_send_complete
-cb6c610d71a7afb58619c4797871c80cf83c54b3 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
-fd06df6ea8b989194ceb9d759dcbe88ebdf1190c selftests: pmtu.sh: Kill nettest processes launched in subshell.
-29c924c66c6145c9c8ca4b2042603710c37329be gpio: ts4900: Do not set DAT and OE together
-9f5d734a083f2fa918a01b6b4b7fe764be9dd159 mm: gup: make fault_in_safe_writeable() use fixup_user_fault()
-5c2a594d3dcfedfcbca5be9f3e2ffe900dd74a8b gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-721993454992a62ebaa9ffbad1a73d0a35710563 net: phy: DP83822: clear MISR2 register to disable interrupts
-b03ed93f079ede6d95d0b33abcc29b816a54696a sctp: fix kernel-infoleak for SCTP sockets
-e5505199ca5835eb349b174f68c4249203971aad net: arc_emac: Fix use after free in arc_mdio_probe()
-6a9d6a2d5ae3f63f711137d74acf8a9cfebf1b13 net: bcmgenet: Don't claim WOL when its not available
-83135ac78bf83017033ac0df779fb5d03c45d132 net: phy: meson-gxl: improve link-up behavior
-67edde0573dd54967cd8323b35f579b1960b56db selftests/bpf: Add test for bpf_timer overwriting crash
-6e4f8c15f7b461c470c590265f1d8ef00d7827bc swiotlb: fix info leak with DMA_FROM_DEVICE
-adab0b3f8b748306425bf200ab789c8a7a021a1d usb: dwc3: pci: add support for the Intel Raptor Lake-S
-871010c6cf049fc78fafea17aa3df6959c29efa9 pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
-b89f2dff1ea0b28af656ae6c2e85c58ee678b2a1 KVM: Fix lockdep false negative during host resume
-2bb34912fb9059eb99afeffeb61612cb9f6ad0c8 kvm: x86: Disable KVM_HC_CLOCK_PAIRING if tsc is in always catchup mode
-b9e70a35c38625e54aba9264e55b928ee706a084 spi: rockchip: Fix error in getting num-cs property
-1d6fd9260c76780cd51cc09fed0fd695e72731e4 spi: rockchip: terminate dma transmission when slave abort
-6bf76fb35f4bf0ad091190f72837d985d5e97dd3 drm/vc4: hdmi: Unregister codec device on unbind
-c99d378911765362c517934b792957997bf09596 of/fdt: move elfcorehdr reservation early for crash dump kernel
-7a572372cf460973340e8f329e1be5164d342b93 x86/kvm: Don't use pv tlb/ipi/sched_yield if on 1 vCPU
-c4c0c77dcf14693fc1dd9da170b41e3beda0071b drivers: hamradio: 6pack: fix UAF bug caused by mod_timer()
-ba0fd3d84be1fc18f75503c6ee1a2845c16e5b76 net-sysfs: add check for netdevice being present to speed_show
-77cc554484ee8da07219c5d9c37497c2547a824d hwmon: (pmbus) Clear pmbus fault/warning bits after read
-c49b4a7717a90a74a1093e36c3baaa6b9e7859e1 nvme-tcp: send H2CData PDUs based on MAXH2CDATA
-fbb199397cda48982ef2b3830138ca44e697a468 PCI: Mark all AMD Navi10 and Navi14 GPU ATS as broken
-f36f0a0d297239bd634e2285bf97554c9fec799a gpio: Return EPROBE_DEFER if gc->to_irq is NULL
-5c30ddd3090d38ee81ca1ca10035a343f85bbd73 drm/amdgpu: bypass tiling flag check in virtual display case (v2)
-8b88e18c196fffeaffb96266a27c2c69d374943d Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-56bbb51a0dd0cf319abf3efc7590ca04e718f900 Revert "xen-netback: Check for hotplug-status existence before watching"
-5e48e425a2a6b0418abdbd58f36e4bc458e0b3c4 ipv6: prevent a possible race condition with lifetimes
-b970a0f6e9d5395da08ee92899e9e8ca734b4304 tracing: Ensure trace buffer is at least 4096 bytes large
-a1b44d83fe77beadcc66a918ea0e7af82e567a34 tracing/osnoise: Make osnoise_main to sleep for microseconds
-a622144d8a5d94702b385ac685731f5fcad62e03 tracing: Fix selftest config check for function graph start up test
-20274c8e3ba1599cd4ba1a48e71872658c825879 selftest/vm: fix map_fixed_noreplace test failure
-dcb82854e9d6e50a103805fd2b1170b231eaa296 selftests/memfd: clean up mapping in mfd_fail_write
-d2d2fedbd46935b27473462774e88b6a7742668c ARM: Spectre-BHB: provide empty stub for non-config
+1fd5e72c5bd9abc03d24db33e495ff4191618361 arm64: dts: qcom: sm8350: Describe GCC dependency clocks
+4339e6d2fe6a38df08df5e22c0444bcede2b9362 arm64: dts: qcom: sm8350: Correct UFS symbol clocks
+3c36c11d38868734d9aecd2aef35bc535a6adef1 HID: elo: Revert USB reference counting
+723d8d48e89decab7df081104646649e382aa369 HID: hid-thrustmaster: fix OOB read in thrustmaster_interrupts
+a91a667c3321b4955a1cf9f374982abcf5402cb7 ARM: boot: dts: bcm2711: Fix HVS register range
+c762ffc5de5ee86c1a6aa0d99c9cc25a7478d578 clk: qcom: gdsc: Add support to update GDSC transition delay
+5a9e02e15f459bd7f94151a3e487359eb4a89f95 clk: qcom: dispcc: Update the transition delay for MDSS GDSC
+e57d5204ccc9ebfec3ab41fef70db6eaea399eee soc: mediatek: mt8192-mmsys: Fix dither to dsi0 path's input sel
+75d23ed09d0f57a332e26ecaa9ea1892007b24b1 HID: vivaldi: fix sysfs attributes leak
+bdef71c2266167ddde5124a14d3bb4c72ceae9e2 HID: nintendo: check the return value of alloc_workqueue()
+724379e95d987f9c11424a2328f7a2d33085bb31 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+4bfcae1dba5f93e42bf0c05249c6cdf333dd7837 tipc: fix kernel panic when enabling bearer
+81a9addb6128480a904f66f9458bf586defc3109 vdpa/mlx5: add validation for VIRTIO_NET_CTRL_MQ_VQ_PAIRS_SET command
+91e0579f3ba640e572444d95e87d660c8f2d5429 vduse: Fix returning wrong type in vduse_domain_alloc_iova()
+6b0df748c938f34a35b2b25937abde00e203392b net: phy: meson-gxl: fix interrupt handling in forced mode
+8483ff570d52e1e6ea207f9efc009730b8c7f9ba mISDN: Fix memory leak in dsp_pipeline_build()
+c6d531acfa5b5abc3ada47875d52617ae98b56e7 vhost: fix hung thread due to erroneous iotlb entries
+b4ea3556ddabf9d6b2bf60d1b641a2deb09183f0 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
+535eca1cf89e472d92857b95c0246e1057ab32ef virtio-blk: Remove BUG_ON() in virtio_queue_rq()
+632073346590067b83865c4cd392eef98878009e vdpa: fix use-after-free on vp_vdpa_remove
+de4acf4237140d565c94941c8e82b9952f5c38ca isdn: hfcpci: check the return value of dma_set_mask() in setup_hw()
+fc0fe3772b341385988f2471d9705960ab2b9284 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+ceaa40c9290ca1c99ceea19f1356e224246d451f esp: Fix possible buffer overflow in ESP transformation
+a5b738233b499a4791dc08ddb353512f30b450b0 esp: Fix BEET mode inter address family tunneling on GSO
+210527ea5878313ca8c887abda837c5f4a067c09 net: gro: move skb_gro_receive_list to udp_offload.c
+42ba90cf8c887f22b11705280f964956b98b7df3 qed: return status of qed_iov_get_link
+03a1951b28e2d56eb9f59a5dcae70fd01852a8b0 smsc95xx: Ignore -ENODEV errors when device is unplugged
+bceb026c2848b81d0693dbb9a65dc37df3a4028e gpiolib: acpi: Convert ACPI value of debounce to microseconds
+b242c3cd73de4ca78d09510ccfe08329c77e158c drm/i915/psr: Set "SF Partial Frame Enable" also on full update
+ae240bd3d1092975e4e755ad27380873d9697d5a drm/sun4i: mixer: Fix P010 and P210 format numbers
+14c78c1df8efee12a91fad2b9afc9c4f51f15129 net: dsa: mt7530: fix incorrect test in mt753x_phylink_validate()
+20fc5fa74ab0a282433dc4e6d8a67cab19e53a71 ARM: dts: aspeed: Fix AST2600 quad spi group
+ea80b2978e74b096e58aa0276351533847d7d691 iavf: Fix handling of vlan strip virtual channel messages
+a7fe30c32d7aad1965602345044f393d33b831bc i40e: stop disabling VFs due to PF error responses
+3f5df9e61b9f9a88ff1e0ddde7a0d2443809ae4f ice: stop disabling VFs due to PF error responses
+196c91fe02aee9ff5b263e8b6bf843cce89b2ba5 ice: Fix error with handling of bonding MTU
+176e6a204b6348e61de4b67edfa674023bbadbaa ice: Don't use GFP_KERNEL in atomic context
+f6226c37ba548a11a226bc29c4334c70500461df ice: Fix curr_link_speed advertised speed
+e214e5e00d5a508a8c4c306fe38305ac4923926f ethernet: Fix error handling in xemaclite_of_probe
+1c008593f21654f51675154d39bdb9afd57bb1e9 tipc: fix incorrect order of state message data sanity check
+23ec17a9d25cf5c48ce335b48d9256e98070de44 net: ethernet: ti: cpts: Handle error for clk_enable
+9a650dd08ebd7a9174e4728ff861b653554f269c net: ethernet: lpc_eth: Handle error for clk_enable
+cea43fb9f4634635fe763f9218c6cd5ca69373ac net: marvell: prestera: Add missing of_node_put() in prestera_switch_set_base_mac_addr
+20e6bb71aad47b49cef7091637d825f5bb693f26 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+dafe4e67544b0da54dd1133e76c58c2974cda5c9 net/mlx5: Fix size field in bufferx_reg struct
+64b99454c32efc5c99c9a2436d20ad62a6dc32b8 net/mlx5: Fix a race on command flush flow
+1a90804c483cb9c41a666a17f4a672dacd12fd37 net/mlx5e: Lag, Only handle events from highest priority multipath entry
+b8acc5c7818f5c36daeb290c7206be3a43054e58 net/mlx5e: SHAMPO, reduce TIR indication
+e07f8343af158055e88b56c09a8c96e2a8888c13 NFC: port100: fix use-after-free in port100_send_complete
+725fa2bcd4494d4555155503d339be6dcbb08e2b selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
+a4bd2efb9846f7762792f37dacb7cbc5e7d7ae91 selftests: pmtu.sh: Kill nettest processes launched in subshell.
+d6b90ae694b86f215c7b52d2e5a56494a9d96c4b gpio: ts4900: Do not set DAT and OE together
+694f6b5137e26a5dcd513c9bf34c5e0a32c7fddb mm: gup: make fault_in_safe_writeable() use fixup_user_fault()
+a7361d30da14bff43e9c96bc4ef061947cf050a5 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+978622af5bc49df339118de642ec243e808941c1 net: phy: DP83822: clear MISR2 register to disable interrupts
+17a9cff6bf9d832e80369ab8c8c6da4cd4e9b0af sctp: fix kernel-infoleak for SCTP sockets
+59f3d8c42effdf579429abe73215c1c32c8e02ca net: arc_emac: Fix use after free in arc_mdio_probe()
+3ee7efa6b96b792f7febe3654e50833c51d4e57f net: bcmgenet: Don't claim WOL when its not available
+688a8deae0d711fd7a4ac96eada251058e1100f3 net: phy: meson-gxl: improve link-up behavior
+dde13a52a900ab647160d5c1b7a5473383489333 selftests/bpf: Add test for bpf_timer overwriting crash
+b4882660dfdad365c07bf0437d26915e001fecb6 swiotlb: fix info leak with DMA_FROM_DEVICE
+2c4152de8eae38805f44039ba08040073e88a3d5 usb: dwc3: pci: add support for the Intel Raptor Lake-S
+29136cd6596b103952b7bf7ea34416516f6d462d pinctrl: tigerlake: Revert "Add Alder Lake-M ACPI ID"
+e8009cd8de36c64dc943c8099ffcfbf5a541067d KVM: Fix lockdep false negative during host resume
+6307d1c431b302496ba7c2b6c8635a18d60f926c kvm: x86: Disable KVM_HC_CLOCK_PAIRING if tsc is in always catchup mode
+ef87952cf901a06dc61cbbedb5042d1fb842ee44 spi: rockchip: Fix error in getting num-cs property
+9e163e8dcb895f01b6c2cb3f8758846e4c84911f spi: rockchip: terminate dma transmission when slave abort
+347e0610384ae53df7d3d1b44c349ba92d063d6f drm/vc4: hdmi: Unregister codec device on unbind
+a1bdc973720c3c0f8f7ff276a37b1b7d4f95444f of/fdt: move elfcorehdr reservation early for crash dump kernel
+c6dd4016336be44e914da77d8917d6181982e21c x86/kvm: Don't use pv tlb/ipi/sched_yield if on 1 vCPU
+ddbd8e282f09b344810f87173695611da596b5c7 drivers: hamradio: 6pack: fix UAF bug caused by mod_timer()
+ace9ae18a9efab81b0ffea636ea0c8f0403b9518 net-sysfs: add check for netdevice being present to speed_show
+e878eb6513f801cf24863b9a12d5d8b592faf601 hwmon: (pmbus) Clear pmbus fault/warning bits after read
+0efa65e324fa86ad6967f4a28808f13494e19be6 nvme-tcp: send H2CData PDUs based on MAXH2CDATA
+aa62ef23b4901c1498c37b2a480981cb459976d9 PCI: Mark all AMD Navi10 and Navi14 GPU ATS as broken
+0d0408647fe561e0f206f92889b84f4c1d6f4277 gpio: Return EPROBE_DEFER if gc->to_irq is NULL
+e56b6d2edc29c8fb4c219aceaa0a63d1741dc927 drm/amdgpu: bypass tiling flag check in virtual display case (v2)
+7d3891ec7bdc9abb4ff98437dddfbfa78fe2eb80 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+f68d01cc47461080541e89dbdfa1b742597c1485 Revert "xen-netback: Check for hotplug-status existence before watching"
+e082c384b37f2236758c2d7fc672ad3f2a95e5ee ipv6: prevent a possible race condition with lifetimes
+0163d11b84223db77825c15ce54fe774b2c30734 tracing: Ensure trace buffer is at least 4096 bytes large
+0b2fa4bef9bb23bc2e37f099ed5ce672325b23a1 tracing/osnoise: Make osnoise_main to sleep for microseconds
+fb448b14f7687033cb4d0cb5539b7ba89237b2b8 tracing: Fix selftest config check for function graph start up test
+e5fed13a8168ccedc872f153d9fbd3498a345167 selftest/vm: fix map_fixed_noreplace test failure
+fab4c1de919bc1e8339af7af64a6aa11a495419a selftests/memfd: clean up mapping in mfd_fail_write
+261b1ae647448e1c9887c612d16fc7f2533091ec ARM: Spectre-BHB: provide empty stub for non-config
+de181fd6c34d7f283d7755de9f7cbed791da8d8f fuse: fix fileattr op failure
+a4d3d2465103c14e51a0726aa278f1b5e4e0d5d5 fuse: fix pipe buffer lifetime for direct_io
+85f0398429e47dc467fe782ac9a416e54ff6e19f staging: rtl8723bs: Fix access-point mode deadlock
+f68c1cd15d4851fdba5185e2d92f26f7ead03e1d staging: gdm724x: fix use after free in gdm_lte_rx()
+be008967b6ef64e76e8b01573432fdb05b591f46 net: macb: Fix lost RX packet wakeup race in NAPI receive
+de559e90ae25477ab4f4559fbffcead624a12347 riscv: alternative only works on !XIP_KERNEL
+365bc10dcceaacdaaaa0f11bc0033194e2c56332 mmc: meson: Fix usage of meson_mmc_post_req()
+626af08feb73fa99f272556d6790032f16b4ca42 riscv: Fix auipc+jalr relocation range checks
+0658a0dd4a754512995d282be4e8f828f9df1789 tracing/osnoise: Force quiescent states while tracing
+497e5f02e034b933666261881fec2b824a4e03db tracing/osnoise: Do not unregister events twice
+d66c65647d1ee205b859a9ccfbaf1cd972dca902 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
+9e454852cfbff10cb88571adb9e2efbba4fefe55 arm64: Ensure execute-only permissions are not allowed without EPAN
+86c2cafeab1c1d5a77964cb6f2e2b8fe348e75e3 arm64: kasan: fix include error in MTE functions
+25ad54887dad22e596b4293edfc58413250586e5 swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
 
---===============5701139843477908763==
+--===============8617814362512390889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c13ad1f7eca2-f96dc7a1b2eb.txt
+Content-Disposition: attachment; filename=revlist-f96dc7a1b2eb-6bf05a76d080.txt
 
-0abe422f365c545882e108967e66d8e92019ad8e clk: qcom: gdsc: Add support to update GDSC transition delay
-af20a8bbc7c9a3f4c3d1e776474bc2126669bf9d arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
-5b367c39970304820422cf2dc7a12c6574cdfa19 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
-0613f179250e09e240983852b088d7a883b6d8d9 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-2af9142b543119dc8ae3ddf1324b88858fdb9fa2 qed: return status of qed_iov_get_link
-f7446d09b096959bc8bf4bb20f09515fd19acbce drm/sun4i: mixer: Fix P010 and P210 format numbers
-a4055b6a95996974fa73b2cce309d9e415e4817f ARM: dts: aspeed: Fix AST2600 quad spi group
-8f3393e39e89035df6abecaff079a177a24a52bb ethernet: Fix error handling in xemaclite_of_probe
-db3cf985839b816de579c8399d32f000624a532b net: ethernet: ti: cpts: Handle error for clk_enable
-7f7b649435930634d4a1b15361ae8b4f57291ef1 net: ethernet: lpc_eth: Handle error for clk_enable
-68e6194abf08d46f9e1139b11f57a41d7426c377 ax25: Fix NULL pointer dereference in ax25_kill_by_device
-95fad478d071e251b1d60cafa9526b5094f238bb net/mlx5: Fix size field in bufferx_reg struct
-401dd3efe8a136fa752cba7f16c9f85a81ac6e35 net/mlx5: Fix a race on command flush flow
-e140b9857cda257fd5ee339c7f4627cf5a994dfc NFC: port100: fix use-after-free in port100_send_complete
-74dc4bc06af1882ba1ee265a1d8625d1ab6bfdb1 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
-349201f9022c70dd61f8e25eacf7c6e2af71a31c gpio: ts4900: Do not set DAT and OE together
-14c3feba92adb3dac0f2d9a7d8e081aa64b30f68 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-d873b6b0cbc47c874b8a185037bed817ca407c6b net: phy: DP83822: clear MISR2 register to disable interrupts
-60d86c31de664c2272e0e98051047bafd35d5ff4 sctp: fix kernel-infoleak for SCTP sockets
-5dc8c11d5e85c058f409f288c962e61ced6f53f9 net: bcmgenet: Don't claim WOL when its not available
-0aeebcd2a4d1c9dab5ebaa60016ff9336f0c02ab selftests/bpf: Add test for bpf_timer overwriting crash
-067c466f7ad87747e7b6e0b4115d9d3e92673a65 net-sysfs: add check for netdevice being present to speed_show
-a7e78f75075062afbeb33f667a0eae0086c4da75 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-b8fa098cce6136ebb05a8996adf7929641c9744a Revert "xen-netback: Check for hotplug-status existence before watching"
-a76ba80aa2456de19859a356d8fb9ec3bd98a4be ipv6: prevent a possible race condition with lifetimes
-1318d94753e123c59c0e971840c03b65e1fcea19 tracing: Ensure trace buffer is at least 4096 bytes large
-92ea5fd13528b53d5241ac1ee580435cb23743aa selftest/vm: fix map_fixed_noreplace test failure
-f8176c5a986fe51c38d2283d172ebb148e7636af selftests/memfd: clean up mapping in mfd_fail_write
-07f712077a6ee12af558242744c7d23a25bc10f9 ARM: Spectre-BHB: provide empty stub for non-config
-09cbd770fe3d195ae7178666d77b6d76fe62d1da fuse: fix pipe buffer lifetime for direct_io
-b26ea969d1f3178691bd80d99434e49c1f9983a8 staging: gdm724x: fix use after free in gdm_lte_rx()
-b5ff61b516c6aad29fb3b26c54d079766bae0758 net: macb: Fix lost RX packet wakeup race in NAPI receive
-089802574fe2fd95237d2e16359c7fa5ec1637d5 mmc: meson: Fix usage of meson_mmc_post_req()
-f828d8a83542ffed41e627f5942ef2a46fa7e96b riscv: Fix auipc+jalr relocation range checks
-f96dc7a1b2eba651077864f0428d8003106f7fac arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
+9f1a0ce69fcbbe7f4d84c74795899c8b5fba9733 clk: qcom: gdsc: Add support to update GDSC transition delay
+7e5666da81a8633a23830ff3e3b0dc8e1c92003e arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+d15e10a1ffcae6236a10616b6dd568feaf1b7e16 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
+bcc4a8cec872c10785857fc93323b43324182846 net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+3da2a09f4ace0f9e8429e25e6d78ee9558e618d9 qed: return status of qed_iov_get_link
+54780bb94a04e14ed80794680a7fae1634ea40d0 drm/sun4i: mixer: Fix P010 and P210 format numbers
+9e46a9e572224a6ab919c54fa47e4d6ad0ac5366 ARM: dts: aspeed: Fix AST2600 quad spi group
+8f9985bd24cb00c68c04abb1412211d1c95f2ec4 ethernet: Fix error handling in xemaclite_of_probe
+d374d586a620e17176f5403ba83c36ddd8655999 net: ethernet: ti: cpts: Handle error for clk_enable
+d06208b502f93119aa7ee14d34044a3a2db43cd4 net: ethernet: lpc_eth: Handle error for clk_enable
+6b9a93c2425ca58073cb6872c4e0f4ab92aa996c ax25: Fix NULL pointer dereference in ax25_kill_by_device
+3cbafd353847617e8e7bd1378b57f281b28c4636 net/mlx5: Fix size field in bufferx_reg struct
+b4d33f3a1e54da5a4a76117ed6a448de7294ebb6 net/mlx5: Fix a race on command flush flow
+662babd2f883f375edcf1cfa1a3e6fd80a1defee NFC: port100: fix use-after-free in port100_send_complete
+6e01e23df80424f19f9c97fb93e71a5656cecbdc selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
+069f91cee194ed8213ddfbd4fea220f1bc93f2a2 gpio: ts4900: Do not set DAT and OE together
+7020278b02ebfc2dd4393c45b151c8ad95676b95 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+8894ba7b30a5e189e48cc0761f3e6d5762bc5f83 net: phy: DP83822: clear MISR2 register to disable interrupts
+9bbbdef6d640a578c1713c33cbc5839f7451ee3b sctp: fix kernel-infoleak for SCTP sockets
+e8342f4ca3562725d47ecc8f973b43d74e7258fb net: bcmgenet: Don't claim WOL when its not available
+1959de6841129cf542a9ddec1bb41ec1d6824a8e selftests/bpf: Add test for bpf_timer overwriting crash
+6d140ce11dc8342daf4bd834dfe9d699cb82f055 net-sysfs: add check for netdevice being present to speed_show
+fb45908c4a998fe6c2e90501f0d225445ada9a12 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+476e7bac519a6a475ad3939764efb9c4257529a9 Revert "xen-netback: Check for hotplug-status existence before watching"
+da60b958982e7d060a6a31a3a9235b5edff9ede3 ipv6: prevent a possible race condition with lifetimes
+93a487e5e3eb5d7f0b8a985ea10d1e677478708f tracing: Ensure trace buffer is at least 4096 bytes large
+f5d0dee454cabf8634f71aab6492f18ec7b35fcb selftest/vm: fix map_fixed_noreplace test failure
+6b086a2c7bbfe0e592c8bb61cf2f30e81af88409 selftests/memfd: clean up mapping in mfd_fail_write
+ba13dbe2d48b16eaee32aa716e6013d499441891 ARM: Spectre-BHB: provide empty stub for non-config
+2cb77896f56eb6f5c8da76179057c1fd28049067 fuse: fix pipe buffer lifetime for direct_io
+4b6a3fe27309e923f707a524c3acb50eaf52870f staging: gdm724x: fix use after free in gdm_lte_rx()
+c69592c0d342bcad215cd48d60d7ca2896d768dd net: macb: Fix lost RX packet wakeup race in NAPI receive
+e03bd88bf3cb85f438045cbdb3398dd243981d56 mmc: meson: Fix usage of meson_mmc_post_req()
+2788929aa5a69a0552257c12e1093ab0d5e59cfd riscv: Fix auipc+jalr relocation range checks
+6bf05a76d080019004690a5a8f5b204b993b80b0 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
 
---===============5701139843477908763==--
+--===============8617814362512390889==--
