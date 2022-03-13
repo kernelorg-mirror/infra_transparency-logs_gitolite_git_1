@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5881137418831858703=="
+Content-Type: multipart/mixed; boundary="===============4631815980231384742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sun, 13 Mar 2022 19:33:17 -0000
-Message-Id: <164719999719.22593.7668179248026102186@gitolite.kernel.org>
+Date: Sun, 13 Mar 2022 19:33:26 -0000
+Message-Id: <164720000616.22742.6989823680609543047@gitolite.kernel.org>
 
---===============5881137418831858703==
+--===============4631815980231384742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 97aeb877de7f14f819fc2cf8388d7a2d8090489d
-    new: de29aff976d3216e7f3ab41fcd7af46fa8f7eab7
-    log: revlist-97aeb877de7f-de29aff976d3.txt
+  - ref: refs/heads/mlx5-queue
+    old: 1a0fbb606476dc9acadb1dd42287e20b04f07a93
+    new: 72308e53c2e5dd44158a6db27bc5a4b9d38f3218
+    log: revlist-1a0fbb606476-72308e53c2e5.txt
 
---===============5881137418831858703==
+--===============4631815980231384742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-97aeb877de7f-de29aff976d3.txt
+Content-Disposition: attachment; filename=revlist-1a0fbb606476-72308e53c2e5.txt
 
 fc7dcd05f4c2660cf665bb1c2b9cd82e8d9d8bd8 can: vxcan: vxcan_xmit(): use kfree_skb() instead of kfree() to free skb
 c47675b11ba12a2369bbc562f9acb5e84a37951e can: mcp251xfd: mcp251xfd_ring_init(): use %d to print free RAM
@@ -40,5 +40,14 @@ c9e6b80dfd48d1229348ac278da2a5cb79024b32 can: mcp251xfd: update macros describin
 656fc12ddaf8fbd126c2a56d50a9e226379cb2b0 can: mcp251xfd: add TX IRQ coalescing ethtool support
 aa66ae9b241eadd5d31077f869f298444c98a85f can: mcp251xfd: ring: increase number of RX-FIFOs to 3 and increase max TX-FIFO depth to 16
 de29aff976d3216e7f3ab41fcd7af46fa8f7eab7 Merge tag 'linux-can-next-for-5.18-20220313' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+e69fa583222c7fdb5e125b95144e2e25af426235 net/sched: add vlan push_eth and pop_eth action to the hardware IR
+ed48b930964d60696922d1959d9ca665e377869c net/mlx5e: MPLSoUDP decap, use vlan push_eth instead of pedit
+ff0aa33cfcea9c436f645abcac2d0604c04bb6dc net/mlx5e: MPLSoUDP encap, support action vlan pop_eth explicitly
+c1c4b197ab681b6bffc1aef9df9909686883c910 net/mlx5: CT: Remove extra rhashtable remove on tuple entries
+51e608dbbb4cc8732eb0d878f0048586e1c032f3 net/mlx5e: Drop error CQE handling from the XSK RX handler
+737fa36388170b63c8abff2f3b6f2685ad57084c net: Disable LRO feature if no RXCSUM
+a927a7e9ec992f9943d85aa64c2732b293a90b94 Merge branch 'patchq/485549' into mlx5-queue
+107c35fec17e06f8668b7f6ef1c17afb82d33641 Merge branch 'patchq/467532' into mlx5-queue
+72308e53c2e5dd44158a6db27bc5a4b9d38f3218 Merge branch 'patchq/393730' into mlx5-queue
 
---===============5881137418831858703==--
+--===============4631815980231384742==--
