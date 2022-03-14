@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8098957195726986408=="
+Content-Type: multipart/mixed; boundary="===============6053128492487505389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:32:30 -0000
-Message-Id: <164728995070.23396.780443923429163500@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:32:36 -0000
+Message-Id: <164728995620.23493.17715523727725047249@gitolite.kernel.org>
 
---===============8098957195726986408==
+--===============6053128492487505389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.16-rc6-dts
-    old: 35fbac6ef34f33b3a738ad8c19e3c81d7bb709f7
-    new: d60662e9798b3c236ae7b57656708606c56dfdd6
-    log: revlist-35fbac6ef34f-d60662e9798b.txt
+  - ref: refs/tags/v5.16-rc7-dts
+    old: cc29f9ca7decca2428e44457b33ec0327c04d1bb
+    new: e74aedbb2a1676d5cc330ae3430a5203ef0498e2
+    log: revlist-cc29f9ca7dec-e74aedbb2a16.txt
 
---===============8098957195726986408==
+--===============6053128492487505389==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-35fbac6ef34f-d60662e9798b.txt
+Content-Disposition: attachment; filename=revlist-cc29f9ca7dec-e74aedbb2a16.txt
 
 0a2dd56958ccbc8513ec6bcc454fac2ef135d420 dt-bindings: interrupt-controller: Convert MSI controller to json-schema
 5eb71ca60713952dda8ba976bb72e92d92a1f8ea dt-bindings: interrupt-controller: msi: Add msi-ranges property
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 4f37535df1a326453679a12c0569aecd5e63d822 Merge tag 'v5.16-dts-raw'
 
---===============8098957195726986408==--
+--===============6053128492487505389==--
