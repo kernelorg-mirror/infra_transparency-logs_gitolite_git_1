@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8443575056044249748=="
+Content-Type: multipart/mixed; boundary="===============2252860904801191161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:30:57 -0000
-Message-Id: <164728985778.22027.5700094635304708743@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:31:03 -0000
+Message-Id: <164728986337.22113.11791910110173668364@gitolite.kernel.org>
 
---===============8443575056044249748==
+--===============2252860904801191161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.15-dts
-    old: 9bf170dac75cb246f2c68a96354d0507ff7e90e5
-    new: a31c83bd69d426eaabfbe756c84c331be98e150d
-    log: revlist-9bf170dac75c-a31c83bd69d4.txt
+  - ref: refs/tags/v5.15-rc1-dts
+    old: 2d75c582439c6ec68e34a893ccfc2bf16d8a4cb2
+    new: bdf46d591d06a35789846e6ab80078d616e85cef
+    log: revlist-2d75c582439c-bdf46d591d06.txt
 
---===============8443575056044249748==
+--===============2252860904801191161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9bf170dac75c-a31c83bd69d4.txt
+Content-Disposition: attachment; filename=revlist-2d75c582439c-bdf46d591d06.txt
 
 70a621433e20491b381af25c5a92657994e80f87 dt-bindings: iio: dac: ad5449: Add missing binding document.
 2990660066effe4662298812ec42befa7f567fe3 dt-bindings: iio: dac: ad5504: Add missing binding document
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 352db9c86b0515f7e35fcb130deac68a93e1d7d2 Merge tag 'v5.14-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 
---===============8443575056044249748==--
+--===============2252860904801191161==--
