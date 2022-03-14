@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4066836466093435270=="
+Content-Type: multipart/mixed; boundary="===============8831401449354822716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:23:06 -0000
-Message-Id: <164728938607.14655.12683593155450495537@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:23:11 -0000
+Message-Id: <164728939157.14765.9982929675885868138@gitolite.kernel.org>
 
---===============4066836466093435270==
+--===============8831401449354822716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.11-rc2-dts
-    old: 4178332e1c4162318b2f49282ad26dc3c2134dab
-    new: 7709980cf9d3e156652f27a4640a8975c30826a2
-    log: revlist-4178332e1c41-7709980cf9d3.txt
+  - ref: refs/tags/v5.11-rc3-dts
+    old: a83d78f91ddd8d1b31736a5368ac1a429c815411
+    new: 90c2dcfaf4bea8f9d5322751acc7af20ab007868
+    log: revlist-a83d78f91ddd-90c2dcfaf4be.txt
 
---===============4066836466093435270==
+--===============8831401449354822716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4178332e1c41-7709980cf9d3.txt
+Content-Disposition: attachment; filename=revlist-a83d78f91ddd-90c2dcfaf4be.txt
 
 d381df07c1131745932aeb624457aceadc5a1c78 ARM: OMAP2+: Drop legacy platform data for am3 emif
 8fe93f099fa9e38048260685c67b6ceb29fd0258 ARM: OMAP2+: Drop legacy platform data for am3 ocmcram
@@ -1051,4 +1051,4 @@ a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 
---===============4066836466093435270==--
+--===============8831401449354822716==--
