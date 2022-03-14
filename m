@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6656551304161125186=="
+Content-Type: multipart/mixed; boundary="===============3293739279236930196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:33:31 -0000
-Message-Id: <164729001181.24185.14832560539097001099@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:33:37 -0000
+Message-Id: <164729001761.24293.11178925510666109312@gitolite.kernel.org>
 
---===============6656551304161125186==
+--===============3293739279236930196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc5-dts
-    old: c7b5bba7f7f8eb27485818427b8eeb8eaa50dd9b
-    new: edd799fd55e7186137aeed79bb507886d1ffdeb5
-    log: revlist-c7b5bba7f7f8-edd799fd55e7.txt
+  - ref: refs/tags/v5.17-rc6-dts
+    old: bc4d66958bb85aa456dc9b32dea7420806236e41
+    new: f29ef0f22071cc19c846c50622b62a349cc7e11a
+    log: revlist-bc4d66958bb8-f29ef0f22071.txt
 
---===============6656551304161125186==
+--===============3293739279236930196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b5bba7f7f8-edd799fd55e7.txt
+Content-Disposition: attachment; filename=revlist-bc4d66958bb8-f29ef0f22071.txt
 
-f034283efb5bbbd84091a533eebc6e306c2d3ef0 arm64: dts: Update NAND MTD partition for Agilex and Stratix 10
-51b7ab2756155bd5b1d45145c197b3738abae529 dt-bindings: i2c: apple,i2c: allow multiple compatibles
-4489b6a9d140c427db9adeff3b3adadc52d5d26d arm64: dts: apple: add #interrupt-cells property to pinctrl nodes
-df2f0c7bb69d590822933f1e55824c63e34f389a Merge branch 'for-5.16' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into asoc-5.17 so we can apply new Tegra work
 4863c3a91f10ce53ef8a9f26d41f8c60b2f43fd3 regulator: qcom,rpmh: Add compatible for PM8450
 7ca6553f1e19aac0613a1c60594a56b1457c2fce spi: dt-bindings: add schema listing peripheral-specific properties
 3b8f847167c04f2b34a5b969ed5f37d8178bfef8 spi: dt-bindings: cdns,qspi-nor: Move peripheral-specific properties out
@@ -1031,6 +1027,9 @@ dd19787945ec5490d5a005e80f03634cb1f5cd97 Merge tag 'soc-fixes-5.17-1' of git://g
 44eb914f1718f2b4cd611888c32f99c8360f89e2 Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9bfc09103447597f253cc575558e1718d81da344 Merge tag 'asoc-fix-v5.17-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 6b622a1d0002a95fe28f60dcdc5ac1f707597100 Merge tag 'sound-5.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+6a1d209ba1bbbb420e5db205e7a19e647f6e744c MAINTAINERS: sifive: drop Yash Shah
+15083ddd0aad16f822d02f63669ce0b8a39e9ed4 dt-bindings: update Roger Quadros email
+0663e79aa3cb7f82e108e88eba11acc5c8d451c7 Merge tag 'devicetree-fixes-for-5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 3c4fc6acb048bd9eb9d8c32f68644ae6837f84e0 Merge tag 'v5.9-rc2-dts-raw'
 dd8abd48bf270dcf95462367b75e27e1dac0ca63 Merge tag 'v5.9-rc3-dts-raw'
 de5e7cb6acb2a582385627bbb57736287fa69e7d Merge tag 'v5.9-rc4-dts-raw'
@@ -1050,5 +1049,6 @@ b6773534aa4f73ff23e36c63c93c233c65344ce2 Merge tag 'v5.17-rc2-dts-raw'
 ff4066337f17937fbfa84709953369ee30628089 Merge tag 'v5.17-rc3-dts-raw'
 759199db4c457d537a8817243adc3bdbfda9fdb9 Merge tag 'v5.17-rc4-dts-raw'
 6a43a3661a8dfd5115b31ea3894d774c820c8118 Merge tag 'v5.17-rc5-dts-raw'
+ffc4ddc9b03639ecd2eded362b7ce2020f2d24b2 Merge tag 'v5.17-rc6-dts-raw'
 
---===============6656551304161125186==--
+--===============3293739279236930196==--
