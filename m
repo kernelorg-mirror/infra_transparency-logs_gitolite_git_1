@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4445701961734973403=="
+Content-Type: multipart/mixed; boundary="===============5438107820206789223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:22:41 -0000
-Message-Id: <164728936161.14298.10462406771153346364@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:22:47 -0000
+Message-Id: <164728936704.14366.17256196305812387891@gitolite.kernel.org>
 
---===============4445701961734973403==
+--===============5438107820206789223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.10-rc6-dts
-    old: afa2436429d7d0944660e2fbb4baf1742674a69a
-    new: 39d4ebdb630d053f3402711bc27ef2316c52dfa0
-    log: revlist-afa2436429d7-39d4ebdb630d.txt
+  - ref: refs/tags/v5.10-rc7-dts
+    old: 38c8a375e8aee3ac237fc8438666170085b69c66
+    new: 8f0fa444f0ed77a7e773d4a27e401d6bfe590cfb
+    log: revlist-38c8a375e8ae-8f0fa444f0ed.txt
 
---===============4445701961734973403==
+--===============5438107820206789223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afa2436429d7-39d4ebdb630d.txt
+Content-Disposition: attachment; filename=revlist-38c8a375e8ae-8f0fa444f0ed.txt
 
 8b0496d7971da2388bdd6afc1801439c8703a350 Merge tag 'irq-urgent-2020-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b100c655746f508ac09544609a48a5e689495e8 Merge 5.9-rc3 into usb-next
@@ -505,4 +505,4 @@ b6c4562d76cd84ff9af3216c2b9b3f45938f4bb0 Merge tag 'v5.9-rc5-dts-raw'
 a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 
---===============4445701961734973403==--
+--===============5438107820206789223==--
