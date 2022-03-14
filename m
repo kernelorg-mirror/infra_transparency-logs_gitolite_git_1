@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5377860244437227360=="
+Content-Type: multipart/mixed; boundary="===============5261758341600498311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:33:03 -0000
-Message-Id: <164728998330.23835.18244410446709762760@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:33:08 -0000
+Message-Id: <164728998898.23902.17854736660226991720@gitolite.kernel.org>
 
---===============5377860244437227360==
+--===============5261758341600498311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc2-dts
-    old: 03f48304b8abfc3a531596bc411f6005a65a16ee
-    new: d10cf3ee3a0f9b7df644e412c96eff39cd470f93
-    log: revlist-03f48304b8ab-d10cf3ee3a0f.txt
+  - ref: refs/tags/v5.17-rc3-dts
+    old: 719c69cfc66d38e38455df8e798f68f26d600a25
+    new: b0611db8ef006e0da9a563583a992038ef30d19a
+    log: revlist-719c69cfc66d-b0611db8ef00.txt
 
---===============5377860244437227360==
+--===============5261758341600498311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03f48304b8ab-d10cf3ee3a0f.txt
+Content-Disposition: attachment; filename=revlist-719c69cfc66d-b0611db8ef00.txt
 
-f7e5b1f5a4acfe61fd4ddbcbf96f5a88e41c29f0 dt-bindings: timer: Add StarFive JH7100 clint
-d1a272f556f1ad092c619de2f877fa49a8669c03 dt-bindings: interrupt-controller: Add StarFive JH7100 plic
-2eb99c1d656abcc6c9d29f0bb8a601341b51b33b Merge 5.16-rc3 into usb-next
-c541b88e2ed58834a6aede5a94ce73698c8970f1 dt-bindings: i2c: imx-lpi2c: Add i.MX8DXL compatible match
-2f72f9eb00f6f5ad81d023a00609141dbb747032 dt-bindings: i2c: imx-lpi2c: Add imx8ulp compatible string
-01917fd66b876c9f772a945111cab9c07345d41f dt-bindings: timer: tpm-timer: Add imx8ulp compatible string
 d826b2dcb612383be3e5c2df9bcea64bb716c65a dt-bindings: mfd: regulator: Drop BD70528 support
 1fa2886a41c89f5bccf5797a6de7ec0f6146300d spi: spi-rockchip: Add rk3568-spi compatible
 825527850c5d296e398342c038c5e9b1b14a00bd dt-bindings: regulator: Add compatible for pmg1110
@@ -1027,13 +1021,18 @@ a2bc49a612feaf33b67a2fcb49f5290f6db69b73 dt-bindings: google,cros-ec: drop Enric
 2c13e3ac4f8a9b3a0b81941c7a63d6fe20ab029c Merge tag 'rtc-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 64b361d91fc4b2b059fa0a20f3ed8445038c82ec Merge tag 'riscv-for-linus-5.17-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f437e46c32dc154e0119c8ac56ee5613cce84513 Merge tag 'devicetree-fixes-for-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+d3b494750a94ea4b1019d1937240fefd9c8a302b spi: spi-rockchip: Add rk3568-spi compatible
 6e105c4518da606f16ec37182934aebaf1a5257f dt-bindings: can: tcan4x5x: fix mram-cfg RX FIFO config
 2bf36022eade251197023d35df441b5febd69e33 Merge tag 'net-5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+fd66d68c5679e58778e8e9c65022e7d7fae93451 spi: dt-bindings: Fix 'reg' child node schema
 ea08a037bbea89dd147e2f6e222890bca5ab4bba dt-bindings: irqchip: renesas-irqc: Add R-Car V3U support
 c59bbb1e2fc03ecb25a41dcd4589b43db287c298 dt-bindings: interrupt-controller: sifive,plic: Fix number of interrupts
 41dd3b8842046aa4486a708be3baadf4743d15be dt-bindings: interrupt-controller: sifive,plic: Group interrupt tuples
 b8f51f7e89f73e4321b4877b27787eeef1155ab5 Merge tag 'irqchip-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
 1db5e51b3901a917bffcf874c18566818d9129d4 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2548ee3d921ff57273fa853f4b666d3fd77dcaee Merge tag 'spi-fix-v5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+21d17edf6191ae5527e7eb6e954d20bf2119fea7 dt-bindings: net: qcom,ipa: add optional qcom,qmp property
+2909ff122067f18ed1710605fb5df908bfe9b778 Merge tag 'net-5.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3c4fc6acb048bd9eb9d8c32f68644ae6837f84e0 Merge tag 'v5.9-rc2-dts-raw'
 dd8abd48bf270dcf95462367b75e27e1dac0ca63 Merge tag 'v5.9-rc3-dts-raw'
 de5e7cb6acb2a582385627bbb57736287fa69e7d Merge tag 'v5.9-rc4-dts-raw'
@@ -1050,5 +1049,6 @@ fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 4f37535df1a326453679a12c0569aecd5e63d822 Merge tag 'v5.16-dts-raw'
 e2110b3a3ada3c81b53b8757ed58da7b7e082851 Merge tag 'v5.17-rc1-dts-raw'
 b6773534aa4f73ff23e36c63c93c233c65344ce2 Merge tag 'v5.17-rc2-dts-raw'
+ff4066337f17937fbfa84709953369ee30628089 Merge tag 'v5.17-rc3-dts-raw'
 
---===============5377860244437227360==--
+--===============5261758341600498311==--
