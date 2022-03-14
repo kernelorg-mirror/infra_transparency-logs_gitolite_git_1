@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8037987178537249868=="
+Content-Type: multipart/mixed; boundary="===============5288522268617041490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:24:16 -0000
-Message-Id: <164728945655.15825.9310664090504608200@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:24:22 -0000
+Message-Id: <164728946207.15912.279048586883642563@gitolite.kernel.org>
 
---===============8037987178537249868==
+--===============5288522268617041490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.12-rc6-dts
-    old: 1728b218b13696108a7f236ab255dc961e86b1b3
-    new: bbd28b0bb2b379230b2fe92a0626d29cbfb95a61
-    log: revlist-1728b218b136-bbd28b0bb2b3.txt
+  - ref: refs/tags/v5.12-rc7-dts
+    old: da84f8e5c2b817f049f353eabaab16e9b75cab43
+    new: c37290a8e6b307e2e8c7d9569d1a64f16001825c
+    log: revlist-da84f8e5c2b8-c37290a8e6b3.txt
 
---===============8037987178537249868==
+--===============5288522268617041490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1728b218b136-bbd28b0bb2b3.txt
+Content-Disposition: attachment; filename=revlist-da84f8e5c2b8-c37290a8e6b3.txt
 
 428c516a3623147468194eec896736e931b3d445 dt-bindings: clock: renesas: rcar-usb2-clock-sel: Add support for RZ/G2 M/N/H
 37512ceded8394af2f830190cb117d7c39fc4518 dt-bindings: usb: usb-hcd: Detach generic USB controller properties
@@ -1051,4 +1051,4 @@ ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 
---===============8037987178537249868==--
+--===============5288522268617041490==--
