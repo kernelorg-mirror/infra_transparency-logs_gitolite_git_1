@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7135369410061957710=="
+Content-Type: multipart/mixed; boundary="===============6938104447746129615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 14 Mar 2022 17:34:32 -0000
-Message-Id: <164727927264.28088.5673508487256190216@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 17:35:27 -0000
+Message-Id: <164727932740.29877.10259143563912796811@gitolite.kernel.org>
 
---===============7135369410061957710==
+--===============6938104447746129615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 65c873c37ec36bbecd1b7da753061d214f23474b
-    new: 6413489354f1c67f56f64625d648b9adf4463795
+    old: 6413489354f1c67f56f64625d648b9adf4463795
+    new: 78b33c600486e97c9b61c25a37b283c211be8560
     log: |
-         6413489354f1c67f56f64625d648b9adf4463795 staging: rtl8723bs: Use min() instead of doing it manually
+         c93338804239bed55fd1e73a3b2f65566bfa0c88 staging: vt6656: Remove unused rf_type in channel.c
+         10c8968968454a97f11bc70498f9cf89ecf4f697 staging: vt6656: Remove unused rf_type in baseband.c
+         ee9a0fc17f0c5662307ac614fa33b38522747bad staging: vt6656: Remove unused rf_type in rf.c; top level
+         8b0f74a8cfe57af5bb9d70fa53a1d1b98c9ee1af staging: vt6656: Remove unused rf_type in rf.c; unused variables
+         78b33c600486e97c9b61c25a37b283c211be8560 staging: vt6656: Remove unused rf_type in card.c
          
 
---===============7135369410061957710==
+--===============6938104447746129615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647279271 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647279326 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647279270-0d3f1c9b602494bebf7c31bb3574cb4362ff11e8
+nonce 1647279325-1f7a64932a524b58041428905b7447b027f2bc12
 
-65c873c37ec36bbecd1b7da753061d214f23474b 6413489354f1c67f56f64625d648b9adf4463795 refs/heads/staging-testing
+6413489354f1c67f56f64625d648b9adf4463795 78b33c600486e97c9b61c25a37b283c211be8560 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvfKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+09cQAJtbUbsLe7s8nIzw7Kd+
-OY5+cVa7yuHz1vhgYp/tVJ42W8iMyGHHj90t1w4og3GEa9JFIOkbADZoTcN2DBx+
-f+qlQPYAVXJ7nbZMVgCJesyixDXnVGFScBMGE/ct2fjUdsmFlhBxm/2fDORyRlLU
-cO2UDBdwsxUi1Dqmnhlwm4vyrIq79oL5e4bH6UolwFlFdu6z/YigPqUVnzjj2358
-dw90WN6+0GXPErzfypsUkfV3o77ZY0sXG57AruwuV7PVsRsBlrnqppIvbXaTn+r+
-xNNBfuKdRBkFqTnPNG3i41RMpHdLBktEyjnsYlzXC4puFUbfRlnOjC2nJ06mrMy7
-vHJxe/jN3FbB29W058iYQ9PZJv8h0LLi+tMINK7FB8vUJu0q5PCHWnLhneujxMlI
-efIXcWyFPyXiHkJPHtCkNntuFDvkomC1FmKTjAZwD3iqWPSGeYHje14e4nk8N2is
-rgjFQIMPCruLnWU9sav5CaSydjMoY26ORbS/QTP5dZ7tH8zyj90imvDwAs6YQsEl
-ByZ/pT4XBJ5HcVD05Q3KnZ+Dov5qFZ8D/XJjQoN37WObyRIiQOb+G9X+KPZ/RRc2
-qVmgrVDY10F6oSFD4w093Z9FkBnqVhVLryvDUxI9F2Wi+ZROGYwTH2jXu2P4psxU
-CBR6MyOAj6t7oIVBBJinRN6J
-=V8A5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvfN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pbIP/i931nn5jQFrQoKXMiBN
+1q4eB8sePPtAMWZZUmYCXDkVu25qkN6BE8sqqgvvgxHe0K1JPiiy98TPEo1MwsmC
+aFTU7AGOLQT0WN1Qa904l0ZEJyJ8M8PKpglw/pSEfUWeDioUam2I3JfIWYQsbyeO
+fvLvcHMaauZXrGYj2MZj4yLqtMkW9eLo/FzsjC5mqwtvhdxlGe+zrgTTejvm6lhL
+meJRH1AlbSGCXYI25SwEeRkJlMgdPkozujKRhNir73nyBsoJqhPk94+FiZHNWOMY
+iKdx442jLThE23G2qI7L84ugCYBxd6BXxgKyeSoybFgC21C27ubOoUUA2jXCJy2O
+SL5miIAvcikRbaQnqq9osextqdKyDXq6udKdJu+I9bkM6zKrdIeGP1pFqYN84gn9
+w2F75X4VCppd7F5b4OF9FTjpzg0ircMMGUgJBZVCTbPqN4IMMom8+WcAle5NLIKg
+0RM/OSoIL5aCD92wjZJRKEoMP+abUKVeo74fL7WbCLRm0ePMtYD6N/UZCvIdiPCd
+8O5FxtqRED0YRhZ/IrFtR+ai9BN3GTFlKTLR2TX038pNuT0mtMAWo8gBidkMKcfi
+kNeNsanJ70un6qZQzoZvApf+d/E21sSANrpIDEkcsZ5YQUB8I0LRG8/0tSjwWmTP
+ybe4rLbzr2B4tZUEmqxtr5Pt
+=PDcr
 -----END PGP SIGNATURE-----
 
---===============7135369410061957710==--
+--===============6938104447746129615==--
