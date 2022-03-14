@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5660674652444442852=="
+Content-Type: multipart/mixed; boundary="===============1619508208498815457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:29:43 -0000
-Message-Id: <164728978397.19448.430991263351941129@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:29:49 -0000
+Message-Id: <164728978953.19542.9575738151788670947@gitolite.kernel.org>
 
---===============5660674652444442852==
+--===============1619508208498815457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.13-rc5-dts
-    old: fd25ceb5b4d7aeee80043ae33272568652b7d183
-    new: b220d72286c06cc95016e46114bd634474c3e2bd
-    log: revlist-fd25ceb5b4d7-b220d72286c0.txt
+  - ref: refs/tags/v5.13-rc6-dts
+    old: d732c0d410e13c4eb9ff70f5bae66e793d859c15
+    new: 00b590a5e0b571b198ecb885e59de0556ec4b5cd
+    log: revlist-d732c0d410e1-00b590a5e0b5.txt
 
---===============5660674652444442852==
+--===============1619508208498815457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd25ceb5b4d7-b220d72286c0.txt
+Content-Disposition: attachment; filename=revlist-d732c0d410e1-00b590a5e0b5.txt
 
 abb36d6fa23e52ec71f171045b54bac53629a905 arm64: dts: qcom: sc7280: Add cpuidle states
 e7eb2371e31c9d7c93a0f91ffd0a4be73fc7a35b arm64: dts: qcom: sc7280: Add rpmh power-domain node
@@ -1051,4 +1051,4 @@ c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 
---===============5660674652444442852==--
+--===============1619508208498815457==--
