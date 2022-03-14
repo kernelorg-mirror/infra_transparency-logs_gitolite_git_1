@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/toke/linux
-Date: Mon, 14 Mar 2022 09:39:24 -0000
-Message-Id: <164725076462.9676.16853971386803035280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 14 Mar 2022 09:39:26 -0000
+Message-Id: <164725076651.11196.1604840687535008888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/toke/linux
-user: toke
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/xdp-queueing-03
-    old: fc2f0f778f386a279e545a0fd75649f84b53a870
-    new: a043a41b1a69e5d034c8bdc1cdcce2f3df28a833
+  - ref: refs/heads/for-5.17/upstream-fixes
+    old: fe23b6bbeac40de957724b90a88d46fb336e29a9
+    new: f97ec5d75e9261a5da78dc28a8955b7cc0c4468b
     log: |
-         d4910357d4647b87c43043e377662f48d600e639 bpf: Use 64-bit return value for bpf_prog_run
-         bbc5e4bcf50166ba87d8019251cd7aaf039826aa xdp: add dequeue program type for getting packets from a PIFO
-         cb1eaee3ef727e38433ad0f1d62f1c4f1d9486b3 bpf: Allow returning referenced dequeued packet from dequeue prog
-         ea48b9325fce6c3071854d90612a32330e781f53 bpf: Add helpers to dequeue from a PIFO map
-         b14b94ab411ce8f876d3dd4df188786fd404ed21 libbpf: Add support for dequeue program type
-         581e3988251592601ab763f144f827b71296beb9 bpf: Enable direct packet access for dequeue packets
-         a53af000639a42b53f17470ddda7e76cb661fe91 selftests/bpf: Add DPA tests for dequeue prog
-         a043a41b1a69e5d034c8bdc1cdcce2f3df28a833 selftests/bpf: Add test for XDP queueing through PIFO maps
+         f97ec5d75e9261a5da78dc28a8955b7cc0c4468b HID: intel-ish-hid: Use dma_alloc_coherent for firmware update
+         
+  - ref: refs/heads/for-next
+    old: cde4b57a1c5185fad2b4939fc6c84fc0fdafcf19
+    new: 3cc519d82627102c10c9095617641f00a084842e
+    log: |
+         f97ec5d75e9261a5da78dc28a8955b7cc0c4468b HID: intel-ish-hid: Use dma_alloc_coherent for firmware update
+         3cc519d82627102c10c9095617641f00a084842e Merge branch 'for-5.17/upstream-fixes' into for-next
          
