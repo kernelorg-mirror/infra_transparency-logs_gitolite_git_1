@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0636870646642416815=="
+Content-Type: multipart/mixed; boundary="===============1783504590876662393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:30:16 -0000
-Message-Id: <164728981669.21344.16316404070727868572@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:30:22 -0000
+Message-Id: <164728982227.21435.13424021759598697882@gitolite.kernel.org>
 
---===============0636870646642416815==
+--===============1783504590876662393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.14-rc1-dts
-    old: 9898235f398c696d79c83d13c251ed41cf4f98de
-    new: ead8611c628c2a133c4ea388a6bdf9317ba41f2e
-    log: revlist-9898235f398c-ead8611c628c.txt
+  - ref: refs/tags/v5.14-rc2-dts
+    old: 3b575779fbb672ca30d7490a2591c320f558c1d5
+    new: 645681af21ef43981f61ad4ee14b2fb7928817b1
+    log: revlist-3b575779fbb6-645681af21ef.txt
 
---===============0636870646642416815==
+--===============1783504590876662393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9898235f398c-ead8611c628c.txt
+Content-Disposition: attachment; filename=revlist-3b575779fbb6-645681af21ef.txt
 
 5526c9618fb931d0ab6c848972afa59f99e43999 dt-bindings: serial: amlogic, meson-uart: add fifo-size property
 1604c1a62207f7b9dc81b33848e856ce2583bf80 dt-bindings: serial: renesas,scif: Document r9a07g044 bindings
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 352db9c86b0515f7e35fcb130deac68a93e1d7d2 Merge tag 'v5.14-dts-raw'
 
---===============0636870646642416815==--
+--===============1783504590876662393==--
