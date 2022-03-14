@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0858949771317236591=="
+Content-Type: multipart/mixed; boundary="===============4347696227342991551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Mar 2022 10:58:17 -0000
-Message-Id: <164725549706.22538.1482271388082767159@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 10:58:21 -0000
+Message-Id: <164725550189.22619.18238744404304306888@gitolite.kernel.org>
 
---===============0858949771317236591==
+--===============4347696227342991551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 46c5118e55c98936e6a433c7b1554dfc36b7cad1
-    new: dcb13717dcd512bc7fdd7a3c98b3438b2feae250
-    log: revlist-46c5118e55c9-dcb13717dcd5.txt
+  - ref: refs/heads/m68k-queue
+    old: 30f574286ceea11dd822910a441155a4c14e9a16
+    new: 179d60c7414b787102614ed9b0e97e00c17704e4
+    log: revlist-30f574286cee-179d60c7414b.txt
 
---===============0858949771317236591==
+--===============4347696227342991551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46c5118e55c9-dcb13717dcd5.txt
+Content-Disposition: attachment; filename=revlist-30f574286cee-179d60c7414b.txt
 
 fc5a40694ba684fb3b7009819965ec38e829118f Revert "dt-bindings: arm: qcom: Document SDX65 platform and boards"
 ebea268ea583ba4970df425dfef8c8e21d0a4e12 arm64: tegra: Disable ISO SMMU for Tegra194
@@ -268,6 +268,10 @@ a7a72631f62445e3671b7cab5ad01f856c1aa90d perf parse-events: Fix NULL check again
 aad611a868d16cdc16a7d4a764cef955293e47e3 Merge tag 'perf-tools-fixes-for-v5.17-2022-03-12' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 f0e18b03fcafd8344539101f564ae358950ae892 Merge tag 'x86_urgent_for_v5.17_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09688c0166e76ce2fb85e86b9d99be8b0084cdf9 Linux 5.17-rc8
-dcb13717dcd512bc7fdd7a3c98b3438b2feae250 Merge tag 'v5.17-rc8'
+20dc9dd975d63c848b777e3739183dda863a1e48 m68k: Add asm/config.h
+b49ee7d55efbe5198f1885693bd8f7cedc8b6788 m68k: mm: Remove check for VM_IO to fix deferred I/O
+fdd70102a3ea3e03200f6b7066e083cb9142d87d m68k: atari: usb: Add ISP1160 USB host controller support
+4c1df29dfab54b26b0957374450797296f1ffcb6 m68k: atari: Update Kconfig.bus help text
+179d60c7414b787102614ed9b0e97e00c17704e4 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0858949771317236591==--
+--===============4347696227342991551==--
