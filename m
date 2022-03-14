@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2951101703113690369=="
+Content-Type: multipart/mixed; boundary="===============3476982982409252372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:23:24 -0000
-Message-Id: <164728940428.14931.7053046707613080573@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:23:29 -0000
+Message-Id: <164728940972.15052.9498356689722988118@gitolite.kernel.org>
 
---===============2951101703113690369==
+--===============3476982982409252372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.11-rc5-dts
-    old: 504130a9675252e4a577bf99eb68987ee77a3012
-    new: 100bb6e4a3834913214107588cd6ab3fcce059cf
-    log: revlist-504130a96752-100bb6e4a383.txt
+  - ref: refs/tags/v5.11-rc6-dts
+    old: 44322a212225dc9d8f4b4e837807308522221b5b
+    new: ddf0ed45194f2a7e432a158e505e94d911d67d22
+    log: revlist-44322a212225-ddf0ed45194f.txt
 
---===============2951101703113690369==
+--===============3476982982409252372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-504130a96752-100bb6e4a383.txt
+Content-Disposition: attachment; filename=revlist-44322a212225-ddf0ed45194f.txt
 
 d381df07c1131745932aeb624457aceadc5a1c78 ARM: OMAP2+: Drop legacy platform data for am3 emif
 8fe93f099fa9e38048260685c67b6ceb29fd0258 ARM: OMAP2+: Drop legacy platform data for am3 ocmcram
@@ -1051,4 +1051,4 @@ a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 
---===============2951101703113690369==--
+--===============3476982982409252372==--
