@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 14 Mar 2022 17:38:34 -0000
-Message-Id: <164727951471.31271.4746403306894979194@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 17:38:43 -0000
+Message-Id: <164727952355.31401.11662832268665039015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/debug/experimental
+  - ref: refs/heads/perf/amd
     old: 0000000000000000000000000000000000000000
-    new: 1b8eb177cf97e65e5af92b92a74cf4a4c8ef2543
+    new: 935477e35cf3749f751a6e274a7a9a56e609c6bf
