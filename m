@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8831401449354822716=="
+Content-Type: multipart/mixed; boundary="===============3501639567318749208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:23:11 -0000
-Message-Id: <164728939157.14765.9982929675885868138@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:23:18 -0000
+Message-Id: <164728939886.14864.16474035229301019031@gitolite.kernel.org>
 
---===============8831401449354822716==
+--===============3501639567318749208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.11-rc3-dts
-    old: a83d78f91ddd8d1b31736a5368ac1a429c815411
-    new: 90c2dcfaf4bea8f9d5322751acc7af20ab007868
-    log: revlist-a83d78f91ddd-90c2dcfaf4be.txt
+  - ref: refs/tags/v5.11-rc4-dts
+    old: ce584d27c96a928a5569ca139d51f5d54297a873
+    new: 39ca61437f7287010aee4510faab2f2f4aa03036
+    log: revlist-ce584d27c96a-39ca61437f72.txt
 
---===============8831401449354822716==
+--===============3501639567318749208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a83d78f91ddd-90c2dcfaf4be.txt
+Content-Disposition: attachment; filename=revlist-ce584d27c96a-39ca61437f72.txt
 
 d381df07c1131745932aeb624457aceadc5a1c78 ARM: OMAP2+: Drop legacy platform data for am3 emif
 8fe93f099fa9e38048260685c67b6ceb29fd0258 ARM: OMAP2+: Drop legacy platform data for am3 ocmcram
@@ -1051,4 +1051,4 @@ a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 
---===============8831401449354822716==--
+--===============3501639567318749208==--
