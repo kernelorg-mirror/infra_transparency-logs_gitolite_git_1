@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 14 Mar 2022 18:17:57 -0000
-Message-Id: <164728187796.26851.94916848422243962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Mon, 14 Mar 2022 18:24:51 -0000
+Message-Id: <164728229155.30454.13451485916258668155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/dev-queue
-    old: cd01f857da28abc170ebf19216945873ec7d5fec
-    new: 95673fdf2d68ac032924f0f20760bca59af16516
+  - ref: refs/heads/net-mlx5
+    old: 8e6ed963763fe21429eabfc76c69ce2b0163a3dd
+    new: e981bc74aefc6a177b50c16cfa7023599799cf74
     log: |
-         95673fdf2d68ac032924f0f20760bca59af16516 ice: update ice DDP comms package to 1.3.31.0
+         e981bc74aefc6a177b50c16cfa7023599799cf74 net: dsa: microchip: add spi_device_id tables
          
