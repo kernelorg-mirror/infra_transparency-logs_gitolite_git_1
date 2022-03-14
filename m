@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Mar 2022 08:54:11 -0000
-Message-Id: <164724805135.23472.17430419445854464715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Mon, 14 Mar 2022 09:08:52 -0000
+Message-Id: <164724893224.32377.16517816776879839469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next
-    old: 8b9dc11510f6e0d15a6ab3231fe306afd491666f
-    new: 2546018f02f1bff1623375a793fce49f2619a20f
+  - ref: refs/heads/bootconfig/core
+    old: 851eb04a13868ed61bd973f38e4fa9d741eef92e
+    new: edfd057d71904a819d1c86dfbb0b73e966b5286b
     log: |
-         ccb4214f7f2a8b75acf493f31128e464ee1a3536 ASoC: soc-compress: Change the check for codec_dai
-         910f42bfe96783fc633196bd975731a420c7a066 ASoC: dt-bindings: Fix patternProperties with fixed strings
-         3139f5c24208c335ebdd8b91577885e58eb6cbf7 Merge branch 'asoc-linus' into asoc-next
-         2546018f02f1bff1623375a793fce49f2619a20f Merge remote-tracking branch 'asoc/for-5.18' into asoc-next
+         51ffd299b7d9d2aebb0111a254f57c3a650a241d bootconfig: Check the checksum before removing the bootconfig from initrd
+         117f8edbc1a9be77bda3101944474a46d3a680bc bootconfig: Support embedding a bootconfig file in kernel
+         edfd057d71904a819d1c86dfbb0b73e966b5286b docs: bootconfig: Add how to embed the bootconfig into kernel
          
