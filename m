@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9108852411580206392=="
+Content-Type: multipart/mixed; boundary="===============3309157546306752721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 14 Mar 2022 18:29:18 -0000
-Message-Id: <164728255839.1142.16245846398571235664@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 18:29:27 -0000
+Message-Id: <164728256753.1279.6707386511640129055@gitolite.kernel.org>
 
---===============9108852411580206392==
+--===============3309157546306752721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: de29aff976d3216e7f3ab41fcd7af46fa8f7eab7
-    new: 5e7350e8a618ebfea0713b30986976fcbb90b8bb
-    log: revlist-de29aff976d3-5e7350e8a618.txt
+  - ref: refs/heads/mlx5-queue
+    old: 72308e53c2e5dd44158a6db27bc5a4b9d38f3218
+    new: 2b98bce7903fdab33c6ed1cc163e06496658267c
+    log: revlist-72308e53c2e5-2b98bce7903f.txt
 
---===============9108852411580206392==
+--===============3309157546306752721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de29aff976d3-5e7350e8a618.txt
+Content-Disposition: attachment; filename=revlist-72308e53c2e5-2b98bce7903f.txt
 
 291ac68478d95cb2b897915da3dc13c6e86d2218 net: macvlan: fix potential UAF problem for lowerdev
 1f4a5983d623d6dbda4cc7587a2d9d798e0d4035 net: macvlan: add net device refcount tracker
@@ -44,5 +44,14 @@ aa95c37112414c4c7ea8332357cb7182fc45c84a dpaa2-mac: move setting up supported_in
 f978fe85b8d1d5b879a4ddda7e4baddbe60e4ee8 dpaa2-mac: configure the SerDes phy on a protocol change
 3cbe93a1f540dbc997fc24a38796266e2b473e06 arch: arm64: dts: lx2160a: describe the SerDes block #1
 5e7350e8a618ebfea0713b30986976fcbb90b8bb Merge branch 'dpaa2-mac-protocol-change'
+43c74eac34f88f1d42a45af74b87fe947ca5c244 net/sched: add vlan push_eth and pop_eth action to the hardware IR
+aca4100a5dacb5596b495062c19509f81a108104 net/mlx5e: MPLSoUDP decap, use vlan push_eth instead of pedit
+299455d504eeb1e08392b574f2c87eac4ccb4af3 net/mlx5e: MPLSoUDP encap, support action vlan pop_eth explicitly
+7d4963bd0957579356bde52785cd1360399f60b4 net/mlx5: CT: Remove extra rhashtable remove on tuple entries
+b5ce67ac9b7957ba07ada8b73b590a7639e128c2 net/mlx5e: Drop error CQE handling from the XSK RX handler
+003c46cd655ca17bdb9c9b7792e103a37f9dad07 Merge branch 'patchq/485549' into mlx5-queue
+0b0a2d13e298420406dcfb98a240db3372e8c0f6 net: Disable LRO feature if no RXCSUM
+9fcb8554f0ce2b650a37015d150baf9bd70d30f0 Merge branch 'patchq/467532' into mlx5-queue
+2b98bce7903fdab33c6ed1cc163e06496658267c Merge branch 'patchq/393730' into mlx5-queue
 
---===============9108852411580206392==--
+--===============3309157546306752721==--
