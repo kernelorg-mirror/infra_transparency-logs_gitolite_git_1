@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3646224478554481075=="
+Content-Type: multipart/mixed; boundary="===============7810450634958007349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:24:05 -0000
-Message-Id: <164728944563.15637.6441723864620506239@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:24:11 -0000
+Message-Id: <164728945108.15753.912626884174742164@gitolite.kernel.org>
 
---===============3646224478554481075==
+--===============7810450634958007349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.12-rc4-dts
-    old: fd45fea96db8d43c46e53b73b539963680692fb7
-    new: b97ad45b77049aeafd0831b9dec4f3d4cae1650f
-    log: revlist-fd45fea96db8-b97ad45b7704.txt
+  - ref: refs/tags/v5.12-rc5-dts
+    old: 2e2ba7f24c0848e781fadd45653044b3a0ab4d1a
+    new: 2477e20b958368e1c08cbbe7032bff4e6d131e62
+    log: revlist-2e2ba7f24c08-2477e20b9583.txt
 
---===============3646224478554481075==
+--===============7810450634958007349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd45fea96db8-b97ad45b7704.txt
+Content-Disposition: attachment; filename=revlist-2e2ba7f24c08-2477e20b9583.txt
 
 428c516a3623147468194eec896736e931b3d445 dt-bindings: clock: renesas: rcar-usb2-clock-sel: Add support for RZ/G2 M/N/H
 37512ceded8394af2f830190cb117d7c39fc4518 dt-bindings: usb: usb-hcd: Detach generic USB controller properties
@@ -1051,4 +1051,4 @@ ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 
---===============3646224478554481075==--
+--===============7810450634958007349==--
