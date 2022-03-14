@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3865934046929067325=="
+Content-Type: multipart/mixed; boundary="===============3780848242331251517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:31:14 -0000
-Message-Id: <164728987447.22310.7717374843137250167@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:31:20 -0000
+Message-Id: <164728988004.22388.17234323371536641487@gitolite.kernel.org>
 
---===============3865934046929067325==
+--===============3780848242331251517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.15-rc3-dts
-    old: 89101574f2c46ea1e6517c5952c727d0bfa6033a
-    new: e38c5e8629abce633f97fd0ee5fd4ab6164f38c6
-    log: revlist-89101574f2c4-e38c5e8629ab.txt
+  - ref: refs/tags/v5.15-rc4-dts
+    old: 3d600b2779dacae7ee70ae04f03b036b75abced3
+    new: 98f3086837a80ab630738d43a69e9710ff8905d3
+    log: revlist-3d600b2779da-98f3086837a8.txt
 
---===============3865934046929067325==
+--===============3780848242331251517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89101574f2c4-e38c5e8629ab.txt
+Content-Disposition: attachment; filename=revlist-3d600b2779da-98f3086837a8.txt
 
 70a621433e20491b381af25c5a92657994e80f87 dt-bindings: iio: dac: ad5449: Add missing binding document.
 2990660066effe4662298812ec42befa7f567fe3 dt-bindings: iio: dac: ad5504: Add missing binding document
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 352db9c86b0515f7e35fcb130deac68a93e1d7d2 Merge tag 'v5.14-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 
---===============3865934046929067325==--
+--===============3780848242331251517==--
