@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1693743849442759153=="
+Content-Type: multipart/mixed; boundary="===============6354806757182355722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:22:04 -0000
-Message-Id: <164728932476.13755.7647752770270691038@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:22:10 -0000
+Message-Id: <164728933024.13829.9424025857961227903@gitolite.kernel.org>
 
---===============1693743849442759153==
+--===============6354806757182355722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.10-rc1-dts
-    old: ec7941e57fe904303a937227309664a1d2c8a119
-    new: 11d7a96bd6b2cde006e22e376500c000a15e6a02
-    log: revlist-ec7941e57fe9-11d7a96bd6b2.txt
+  - ref: refs/tags/v5.10-rc2-dts
+    old: 6f467b44c5d61191bec28c08eda8d40256acf55a
+    new: dba58d1a649b11f3f8392c51d5bf9458299dc88b
+    log: revlist-6f467b44c5d6-dba58d1a649b.txt
 
---===============1693743849442759153==
+--===============6354806757182355722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec7941e57fe9-11d7a96bd6b2.txt
+Content-Disposition: attachment; filename=revlist-6f467b44c5d6-dba58d1a649b.txt
 
 8b0496d7971da2388bdd6afc1801439c8703a350 Merge tag 'irq-urgent-2020-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b100c655746f508ac09544609a48a5e689495e8 Merge 5.9-rc3 into usb-next
@@ -146,7 +146,6 @@ e1659319a69221865e94cc6ef3195c965a96510a Merge git://git.kernel.org/pub/scm/linu
 75a4db2a9186dd24b7e6bea4f0afc0a1099b4073 arm64: dts: ti: Add support for J7200 Common Processor Board
 3866a55d6d13ea0e04b61c6e9fd8cad1092c38a4 devicetree: hwmon: shtc1: add sensirion,shtc1.yaml
 f609232c8c95a08fe7c3d61268e423318cf5c0e7 dt-bindings: hwmon: Add bindings for ADM1266
-ba069483050287e6096560e523707ddd270a25ae arm64: dts: marvell: espressobin: Add ethernet switch aliases
 ddd1c664d9bbbf942934f65e0f04ed6f3a3bcf2a dt-bindings: usb: atmel: Update DT bindings documentation for sam9x60
 8f3d65f10bedd9fe66a661c73c86f7cccedaa4ea ARM: dts: at91: sam9x60ek: enable usb device
 3bbd64a8dcabecb0e88560cf80e4757f5a81d535 dt-bindings: extcon: ptn5150: Convert binding to DT schema
@@ -282,16 +281,11 @@ ba0da04dad612815bbc192b676a1114af2f29189 Merge tag 'v5.9-rc7' into patchwork
 27b4a73161af5897fdd001e77cdccba401cf83ba dt-bindings: Fix 'reg' size issues in zynqmp examples
 0644075b3ac224afa0eb9ffd6c5746b764c03f4d Merge 5.9-rc8 into usb-next
 0913dc0039f9beb096e5e1248ab1c754ffa48dbc Merge 5.9-rc8 into staging-next
-20c1a8df7657975f2dc40782abb4177089aba673 ARM: dts: sun4i-a10: fix cpu_alert temperature
 0e463c1376a7b365d4c15e430a9a21cab7feb08e Merge tag 'extcon-next-for-5.10-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 f1d9add3a5dfd436726558b9348eab7fd64d2600 Merge branch 'opp/linux-next' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 18298b719ec785f74a3d48a597efcc8c11d6ef5b dt-bindings: regulator: document pm8950 and pm8953 smd regulators
 e59b3d94a02f74b2d66df2eb270e9916ba0a70b4 regulator: bd9576: fix regulator binfdings dt node names
 8fdb07afc311beb4758a45d8418760308350ae6d Merge remote-tracking branch 'regulator/for-5.10' into regulator-next
-7473678aae52b2a13a56f1854ea2511ffc330968 arm64: dts: meson-axg: add USB nodes
-625d071d7e5cd1c10266b499b25771945a47d547 arm64: dts: meson-axg-s400: enable USB OTG
-c6f8f933be9b6476c241e3cf5dcc2aa1c0eebe6b arm64: dts: meson: add missing g12 rng clock
-48076e54243da8447ff77d17498bc40b9b3a6cc3 arm64: dts: amlogic: meson-g12: use the G12A specific dwmac compatible
 c2ff860861f747c4fb843105a4bb4fc5357d9035 spi: renesas,sh-msiof: Add r8a77961 support
 60b67f5e3dd116b06ef2af4b15eccd80f3d41e71 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d317b8743a66d5974c79848b149a8197ca61edaa Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
@@ -367,7 +361,6 @@ a1b7458e4940f6b17816acf3fb5f246c7ec72328 Merge tag 'docs/v5.10-1' of git://git.k
 ca2e1d09dcfda518f675c5cd10800cb889dffa57 Merge tag 'arc-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 794aa903ab94418451bb2126da7408c7b6d90013 Merge tag 'for-v5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 eb0434de6e1dbd2430545082c5b5a206e915842d netsec: ignore 'phy-mode' device property on ACPI systems
-abf4db158280ac5d86d329af47e12ae8a5105663 arm64: dts: amlogic: add missing ethernet reset ID
 2f6c0fa32ed800c59b4c88dcb860e4bc6d584f27 Merge branch 'i2c/for-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 8e26922c9408e58da66575c34d9fd69162d7351b Merge tag 'rtc-5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 0df5851192b4c58cf25add819d605158e81ac80a Merge tag 'linux-watchdog-5.10-rc1' of git://www.linux-watchdog.org/linux-watchdog
@@ -377,8 +370,6 @@ beffe0bae6e9ab1f19e18a0b514d16f72817286a Merge tag 'pci-v5.10-changes' of git://
 092275e02ce0fab04bfb051d2742394bf6ee591b Merge tag 'rproc-v5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/andersson/remoteproc
 152e09b2a08d509ebe7c3bab023cea222b5ce0e0 dt-binding: display: Require two resets on mantix panel
 4aa32b27ee2aa2d14179d7b6817a57a5d307f871 Merge tag 'tag-chrome-platform-for-v5.10' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-ae63d5dfed4de3d48cdec694725794ff23088114 ARM: dts: meson8: remove two invalid interrupt lines from the GPU node
-1c6902d59c4fa898050aef7ea9848568808ebbe8 arm64: dts: meson: odroid-n2 plus: fix vddcpu_a pwm
 4bcd4f12443e1d80a04211194202eb3229ee29a7 Merge tag 'net-5.10-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5023c9c4e3a97bdd38adf79f674369c5cf762937 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 d1ab1454e399ad7d57d61e3c6814d197c9c94e24 Merge tag 'armsoc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -514,4 +505,4 @@ b6c4562d76cd84ff9af3216c2b9b3f45938f4bb0 Merge tag 'v5.9-rc5-dts-raw'
 a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 
---===============1693743849442759153==--
+--===============6354806757182355722==--
