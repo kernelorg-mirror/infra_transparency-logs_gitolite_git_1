@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 14 Mar 2022 15:24:15 -0000
-Message-Id: <164727145519.7022.5630038056598531305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 14 Mar 2022 15:26:07 -0000
+Message-Id: <164727156745.9090.1133669348548756814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/review-hans
-    old: 9f7e383ebdee6712bee02e3a6c2027cf287950fc
-    new: 883cc17d2c29cb39f1931cc59d9a983b260b6d2c
+  - ref: refs/heads/master
+    old: f564af34bb7d58f4e0776b64168f565f17ee8597
+    new: db0309dd3768c8fee530305a57ac965952b448ad
     log: |
-         883cc17d2c29cb39f1931cc59d9a983b260b6d2c platform/x86: hp-wmi: support omen thermal profile policy v1
+         db0309dd3768c8fee530305a57ac965952b448ad Bluetooth: Fix use after free in hci_send_acl
          
