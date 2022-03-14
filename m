@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3464566899017963167=="
+Content-Type: multipart/mixed; boundary="===============3942935622464533908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:31:49 -0000
-Message-Id: <164728990921.22870.9705727344578147881@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:31:54 -0000
+Message-Id: <164728991479.22939.6793192550687837298@gitolite.kernel.org>
 
---===============3464566899017963167==
+--===============3942935622464533908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.16-rc1-dts
-    old: 6f7057336ccdd20e205e871f2bc7351cab8582a6
-    new: c0ea07563b35a6506a2be651f7af230aed489057
-    log: revlist-6f7057336ccd-c0ea07563b35.txt
+  - ref: refs/tags/v5.16-rc2-dts
+    old: 224a3c2f4252e7bb642b219dee0b32d7e2ebc71a
+    new: caeb105aa2baefdbb41193fa646ac127195c0e25
+    log: revlist-224a3c2f4252-caeb105aa2ba.txt
 
---===============3464566899017963167==
+--===============3942935622464533908==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6f7057336ccd-c0ea07563b35.txt
+Content-Disposition: attachment; filename=revlist-224a3c2f4252-caeb105aa2ba.txt
 
 0a2dd56958ccbc8513ec6bcc454fac2ef135d420 dt-bindings: interrupt-controller: Convert MSI controller to json-schema
 5eb71ca60713952dda8ba976bb72e92d92a1f8ea dt-bindings: interrupt-controller: msi: Add msi-ranges property
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 4f37535df1a326453679a12c0569aecd5e63d822 Merge tag 'v5.16-dts-raw'
 
---===============3464566899017963167==--
+--===============3942935622464533908==--
