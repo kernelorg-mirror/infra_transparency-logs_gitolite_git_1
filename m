@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2657806971324084135=="
+Content-Type: multipart/mixed; boundary="===============6254631300886514893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:29:13 -0000
-Message-Id: <164728975384.18978.5253727194105319988@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:29:20 -0000
+Message-Id: <164728976068.19056.12591854338007733584@gitolite.kernel.org>
 
---===============2657806971324084135==
+--===============6254631300886514893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.13-dts
-    old: 1eeac85af021a799204d9c58c7155047720002a3
-    new: 5ff0c0ae46d36d2ae2c18bf5c0f9755712b54040
-    log: revlist-1eeac85af021-5ff0c0ae46d3.txt
+  - ref: refs/tags/v5.13-rc1-dts
+    old: 7cc83aaf6c3619d15b8d62d420237de00263eacb
+    new: 73bac6202f28b35f2bdeb38abdb32a64aa191f6c
+    log: revlist-7cc83aaf6c36-73bac6202f28.txt
 
---===============2657806971324084135==
+--===============6254631300886514893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1eeac85af021-5ff0c0ae46d3.txt
+Content-Disposition: attachment; filename=revlist-7cc83aaf6c36-73bac6202f28.txt
 
 abb36d6fa23e52ec71f171045b54bac53629a905 arm64: dts: qcom: sc7280: Add cpuidle states
 e7eb2371e31c9d7c93a0f91ffd0a4be73fc7a35b arm64: dts: qcom: sc7280: Add rpmh power-domain node
@@ -1051,4 +1051,4 @@ c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 
---===============2657806971324084135==--
+--===============6254631300886514893==--
