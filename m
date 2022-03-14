@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5261758341600498311=="
+Content-Type: multipart/mixed; boundary="===============6754286650346950382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:33:08 -0000
-Message-Id: <164728998898.23902.17854736660226991720@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:33:16 -0000
+Message-Id: <164728999689.24028.18272712706059415838@gitolite.kernel.org>
 
---===============5261758341600498311==
+--===============6754286650346950382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,55 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc3-dts
-    old: 719c69cfc66d38e38455df8e798f68f26d600a25
-    new: b0611db8ef006e0da9a563583a992038ef30d19a
-    log: revlist-719c69cfc66d-b0611db8ef00.txt
+  - ref: refs/tags/v5.17-rc4-dts
+    old: 72aec006a5e3e9788a764274df44fa2ba1aebc68
+    new: e48b6dc31c0e0aefde50bfb6e48b2985a2f8c528
+    log: revlist-72aec006a5e3-e48b6dc31c0e.txt
 
---===============5261758341600498311==
+--===============6754286650346950382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-719c69cfc66d-b0611db8ef00.txt
+Content-Disposition: attachment; filename=revlist-72aec006a5e3-e48b6dc31c0e.txt
 
-d826b2dcb612383be3e5c2df9bcea64bb716c65a dt-bindings: mfd: regulator: Drop BD70528 support
-1fa2886a41c89f5bccf5797a6de7ec0f6146300d spi: spi-rockchip: Add rk3568-spi compatible
-825527850c5d296e398342c038c5e9b1b14a00bd dt-bindings: regulator: Add compatible for pmg1110
-b8c00ce0eb6cf0cd91ba93d4556bada796419041 dt-bindings: net: Add schema for Qualcomm BAM-DMUX
-2cf31e7d8efa8e835c75a6630cccdc4612c07ba7 dt-bindings: net: Add bindings for IXP4xx V.35 WAN HSS
-1babbf61a8ddc1403a191f75cb1ba1fc220d059c dt-bindings: net: lan966x: Add lan966x-switch bindings
-c7018c0f7d18a7dbf0d32adcd5ae7f2c2db965ef ARM: dts: stm32: fix stusb1600 pinctrl used on stm32mp157c-dk
-320cc2b64b9ba79191b741c16c89be7438ae7faf regulator: dt-bindings: maxim,max77686: Convert to dtschema
-2fa59c758691d4004c60f772ffd1f70f1284ff5b dt-bindings: mfd: maxim,max77686: Convert to dtschema
-3ddb896047752a2ba494f377eb4580f6b0a59dae dt-bindings: mfd: bd9571mwv: Convert to json-schema
-a937719353af5d86a56fe41cc4cb2c21c922892e dt-bindings: mfd: syscon: Add samsung,exynos850-sysreg
-063009e798ef58985e45f4bf0738263c5df07e51 dt-bindings: display: sync formats with simplefb.h
-a62e7f8265cfc20df287efef6e5038e2ae6c5fb3 dt-bindings: thermal: Fix definition of cooling-maps contribution property
-0a997b4e1b44884c7c5d19db762471545fb3f652 dt-bindings: arm: cpus: Add ARM Cortex-A78
-244c537700044c5e6886584cbc3e28f9e11d27d8 media: dt-bindings: media: renesas,jpu: Convert to json-schema
-5654cab7db1a3d7fc1a59ddbe79ed525bf25ca66 dt-bindings: power: supply: pm8941-charger: add pm8226
-455d7c2ebabc7e40633261e70adf5c141a7b482c regulator: da9121: Remove erroneous compatible from binding
-873fcbef14d29740470406ca7e2e791297b65084 regulator: da9121: Add DA914x binding info
-01a18c948c0434d406005ea1b735a154b4e15c3e dt-bindings: thermal: Document Renesas RZ/G2L TSU
-2e4e7806256613b380639eb34fb7a06efdf753ae arm64: dts: n5x: add qspi, usb, and ethernet support
-deb05af1589f3b28704e7bb14c8634de556ce8a4 arm64: dts: qcom: sm8250: Add CPU opp tables
-267f6d06ae0fde48668f90d2b636ba611a9b74ce arm64: dts: qcom: msm8916: Add RPM sleep stats
-b9e9db8e47b390b8f97f07b121495b3d90a246f8 arm64: dts: qcom: sdm660-xiaomi-lavender: Add volume up button
-74f0f961f4a02f8cc3f1a59a7e2ee1cd2ad10422 ARM: dts: qcom: sdx55: Add support for PCIe PHY
-f30a737c8c58597138f76c29db0c18305476dc70 ARM: dts: qcom: sdx55-fn980: Enable PCIE0 PHY
-f4bc978e034acdf255fc5a0605422223f330c694 ARM: dts: qcom: sdx55: Add support for PCIe EP
-3700659254524f1d1dde470e3acd5cb7e5a9f958 ARM: dts: qcom: sdx55-fn980: Enable PCIe EP
-ecf2adf4cb2f226a52b529b8d2bc2a5aa39708fa ARM: dts: qcom: sdx55-fn980: Enable IPA
-4d748e3bb0559c2ad38ca0db313a982531c8e221 ARM: dts: qcom: sdx55-t55: Enable IPA
-a48319ff86ba520088ea640e22f31fc27dda7652 arm64: dts: qcom: Drop input-name property
-5c06cf3fbdf08c32c737c1d20d8211ff063e2d23 dt-bindings: arm: qcom: Document qcom,sc7280-crd board
-2e13bd29e7015cb7c01b623f238e5a39b9517c0b arm64: dts: qcom: sc7280-crd: Add device tree files for CRD
-b9fd1fecc9aabd42a9004afc3ad68851e373ef9b arm64: dts: qcom: sc7280: Define EC and H1 nodes for IDP/CRD
-6c71dc949a83f9193d8b8074c4670b48a77c0be0 arm64: dts: qcom: sc7280-crd: Add Touchscreen and touchpad support
-6bd77f13ddb101f8f058bae26dd01b26c4d1ff8a arm64: dts: qcom: sm6125: Add RPMPD node
-546683121d919be02670df2f833a5bad0d9dc2d5 arm64: dts: qcom: sm6125: Add power domains to sdhc
-7a6307b9993bea0152b6859a70edd08ec1286310 arm64: dts: qcom: msm8916: fix MMC controller aliases
-687e78d782dcb8147f835eec85b85a7435187678 ARM: dts: sun8i: Adjust power key nodes
 989cdcf7f1e6da40d8e39dc129ac9b9ee5733d46 dt-bindings: gpio: sifive,gpio: Group interrupt tuples
 2461b5e158cc1e61f630e12bc1d269557f115c72 arm64: meson: fix dts for JetHub D1
 3e5deab94068e9aac64a26dc815d0a7e9ecdc3aa arm64: dts: meson: p241: add vcc_5v regulator
@@ -643,6 +605,8 @@ e1025be926ef983c650de950b183c3bbdf96800a ASoC: dt-bindings: audio-graph-port: en
 c6b917fc1ecefff64b8f460803e2397a5dfd7e3a dt-bindings: gpio: tegra: Convert to json-schema
 a7ee2f1c7f3eeb885fbd0a4009f5ad5551ab2e82 dt-bindings: gpio: tegra186: Convert to json-schema
 51aab9d7e9ebe00339b0703880c1792c5e363f54 dt-bindings: gpio: Add Tegra234 support
+1a47b576654aff08ea7f2597759f94df649393ed ARM: dts: am335x-wega: Fix typo in mcasp property rx-num-evt
+cb236c8687fe2885ed04dcbbf0d34df630242547 ARM: dts: Fix timer regression for beagleboard revision c
 87c7bdb4d90713df907321e3c0f7ae82f2cb7865 ARM: tegra: Add memory client hotflush resets on Tegra114
 b7713297e0535d5134abc4e9d0c2197f9d511e7e ARM: tegra: Add host1x hotflush reset on Tegra124
 8ac8d39fb704d0d0c33ebd8d5b00d277d8b28f31 dt-bindings: mmc: tegra: Convert to json-schema
@@ -787,6 +751,8 @@ abbabfe15624f3e66cc44f1f79dbf35d0f4fca28 dt-bindings: mtd: renesas: Describe Ren
 9a7c9151ee5483a73b427041033a39c5fed57ff2 dt-bindings: arm: ux500: Document missing compatibles
 8be9e1f77cc955484c0970e3236c6f2522c43a68 dt-bindings: arm,cci-400: Drop the PL330 from example
 dc25a1472f901a861061ed892e8832a46f0f1875 dt-bindings: pinctrl: qcom: Add SDX65 pinctrl bindings
+604b8e65de32188e178087b5804c1ace70192290 clk: ti: Move dra7 clock devices out of the legacy section
+1c23f6882509336217be5017daca0323708b0f75 ARM: dts: Don't use legacy clock defines for dra7 clkctrl
 c62610037907f37d170d471a260a93907b72972f Merge tag 'iio-for-5.17a' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 05b928d2f6d8a0248f70e00b14ae4a859fadc979 dt-bindings: memory-controllers: ti,gpmc: Add compatible for AM64
 372ec97fb636e1cd81cb50d2f284a3d08ba81691 ASoC: dt-bindings: Use name-prefix schema
@@ -915,6 +881,9 @@ f098227782d774700617093b4eacc2861a119e0e dt-bindings: net: snps,dwmac: Enable bu
 62da788185c7eef9d6cdc616e105cfd4006d38f3 Merge branch 'for-5.17/hidraw' into for-linus
 369096ee5604cf7d2b00b461e97a296fe2aa4de0 Merge branch 'for-5.17/letsketch' into for-linus
 fad1a11c3547d4af781c40b223d03cde210382c6 Merge branches 'edac-misc' and 'edac-amd64' into edac-updates-for-v5.17
+d4c164d6b45966e1884a1fe4b26b131593f8f7f1 ARM: dts: meson: Fix the UART compatible strings
+9aa502e7ab0fc493573028876ae4b3e5b0e6e069 ARM: dts: meson8: Fix the UART device-tree schema validation
+9f3357f38dd4a76674534c909d14bc0f0693b4aa ARM: dts: meson8b: Fix the UART device-tree schema validation
 7e69e8d64689e63c1bda288ef3641284a6758910 Merge tag 'timers-v5.17-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/core
 5f43a0ac0a2d186f5db2ba2eb688179e739b613f Merge branch 'for-5.16' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi into spi-5.17
 79f367702564d58ef409da96dc290243c7404f05 Merge tag 'drivers-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1023,16 +992,46 @@ a2bc49a612feaf33b67a2fcb49f5290f6db69b73 dt-bindings: google,cros-ec: drop Enric
 f437e46c32dc154e0119c8ac56ee5613cce84513 Merge tag 'devicetree-fixes-for-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 d3b494750a94ea4b1019d1937240fefd9c8a302b spi: spi-rockchip: Add rk3568-spi compatible
 6e105c4518da606f16ec37182934aebaf1a5257f dt-bindings: can: tcan4x5x: fix mram-cfg RX FIFO config
+0c9875e19e30266fc587a65d53730a45ca16e4b5 arm64: dts: ti: k3-j721s2: Move aliases to board dts
+d660ab8d763be8b9d8c14521ed4acd8c7588a9dc arm64: dts: ti: k3-j721s2-common-proc-board: Alias console uart to serial2
+34cce1673d705651e77842016005d1275ada79f8 arm64: dts: imx8mn-venice-gw7902: disable gpu
+26fc2e64eada012b9a15744a15bb827dde35e2e4 ARM: dts: imx6qdl-udoo: Properly describe the SD card detect
 2bf36022eade251197023d35df441b5febd69e33 Merge tag 'net-5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+0ed1c5c3abb6d1e0b7772914fa77f902fa930201 ARM: dts: imx23-evk: Remove MX23_PAD_SSP1_DETECT from hog group
 fd66d68c5679e58778e8e9c65022e7d7fae93451 spi: dt-bindings: Fix 'reg' child node schema
 ea08a037bbea89dd147e2f6e222890bca5ab4bba dt-bindings: irqchip: renesas-irqc: Add R-Car V3U support
 c59bbb1e2fc03ecb25a41dcd4589b43db287c298 dt-bindings: interrupt-controller: sifive,plic: Fix number of interrupts
 41dd3b8842046aa4486a708be3baadf4743d15be dt-bindings: interrupt-controller: sifive,plic: Group interrupt tuples
+e7dced70c95814b59c3348751cdf3a21077b3f44 arm64: dts: freescale: Fix sound card model for MBa8Mx
+b8c80d85f1025dc03da3e7992fb11fa9cd52a9b1 arm64: dts: ls1028a: sl28: re-enable ftm_alarm0
+f1aa50c2fcd04b46983e7881ebb05f2bb0ce8fa8 ARM: dts: imx7ulp: Fix 'assigned-clocks-parents' typo
+b702ee79b266a682c378a218e94953126b699e49 arm64: dts: imx8mq: fix mipi_csi bidirectional port numbers
+4602df639d919cbf2ff3143f5ad7505c5b891f72 arm64: dts: imx8mq-librem5: fix mipi_csi1 port number to sensor
+92aab2e3b8c29fd642cb527f3a1fc9dfd6bcf90d arm64: dts: imx8mq: fix lcdif port node
 b8f51f7e89f73e4321b4877b27787eeef1155ab5 Merge tag 'irqchip-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
 1db5e51b3901a917bffcf874c18566818d9129d4 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2548ee3d921ff57273fa853f4b666d3fd77dcaee Merge tag 'spi-fix-v5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+57c422224cee9138074c0735cd330a062467311e dt-bindings: update riscv plic compatible string
 21d17edf6191ae5527e7eb6e954d20bf2119fea7 dt-bindings: net: qcom,ipa: add optional qcom,qmp property
 2909ff122067f18ed1710605fb5df908bfe9b778 Merge tag 'net-5.17-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+2a9df1de8bcf738aa6456694645de1a6014f4308 arm64: dts: meson-g12b-odroid-n2: fix typo 'dio2133'
+d29403e8fa54afe70f5714b55c39a3c2a9082f80 arm64: dts: meson-sm1-odroid: use correct enable-gpio pin for tf-io regulator
+2fe20d9f3a304af561e97d0055d4548ca4c7c07e arm64: dts: meson-sm1-bananapi-m5: fix wrong GPIO domain for GPIOE_2
+5acd61b2b6a9a669b58ef5f38db44cf693349693 arm64: dts: meson-gx: add ATF BL32 reserved-memory region
+ee55d94b1990e1ef8ccb257a3d558a88e8d8868e arm64: dts: meson-g12: add ATF BL32 reserved-memory region
+e5c2634c22deafedb7b79f86da321b4a52cd926e arm64: dts: meson-g12: drop BL32 region from SEI510/SEI610
+e63990526114b2169d278fca521f3f85db0e40ab arm64: dts: meson-sm1-odroid: fix boot loop after reboot
+7abb7be0d35d052609461ff55181710946788f5e Merge tag 'omap-for-v5.17/fixes-for-merge-window-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/tmlind/linux-omap into arm/fixes
+2148c068700d233f5b46fed0616a0ebb7438c5af Merge branch 'v5.17/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+47f36e06aad909997b758a2f138b0807100d7ba3 Merge tag 'imx-fixes-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+074eea70478d221f52e4c7074a9841cc816d62c7 ARM: dts: spear320: Drop unused and undocumented 'irq-over-gpio' property
+7af206a359c389f5833f57d4a613ac9b09ed0dca Merge tag 'ti-k3-dt-fixes-for-v5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
+5f532147e2e73febe8b2dcc85a0d7fd3f87cbdf2 ARM: dts: Fix boot regression on Skomer
+c1c98a41ffda0481a474946492d52b90a45b0654 Merge tag 'amlogic-fixes-v5.17-rc-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+c3c70ba6e7a81d4a86dbbef274a4e69f58e92e65 MIPS: DTS: CI20: fix how ddc power is enabled
+e2e22c4a2dcd6a224d7a874333f360a2ff064123 Revert "arm64: dts: imx8mn-venice-gw7902: disable gpu"
+dd19787945ec5490d5a005e80f03634cb1f5cd97 Merge tag 'soc-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+44eb914f1718f2b4cd611888c32f99c8360f89e2 Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3c4fc6acb048bd9eb9d8c32f68644ae6837f84e0 Merge tag 'v5.9-rc2-dts-raw'
 dd8abd48bf270dcf95462367b75e27e1dac0ca63 Merge tag 'v5.9-rc3-dts-raw'
 de5e7cb6acb2a582385627bbb57736287fa69e7d Merge tag 'v5.9-rc4-dts-raw'
@@ -1050,5 +1049,6 @@ fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 e2110b3a3ada3c81b53b8757ed58da7b7e082851 Merge tag 'v5.17-rc1-dts-raw'
 b6773534aa4f73ff23e36c63c93c233c65344ce2 Merge tag 'v5.17-rc2-dts-raw'
 ff4066337f17937fbfa84709953369ee30628089 Merge tag 'v5.17-rc3-dts-raw'
+759199db4c457d537a8817243adc3bdbfda9fdb9 Merge tag 'v5.17-rc4-dts-raw'
 
---===============5261758341600498311==--
+--===============6754286650346950382==--
