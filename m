@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6250353950297618836=="
+Content-Type: multipart/mixed; boundary="===============9152899818051919644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 14 Mar 2022 17:31:54 -0000
-Message-Id: <164727911490.27107.15761271076951219203@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 17:32:51 -0000
+Message-Id: <164727917164.27486.13381744749293150538@gitolite.kernel.org>
 
---===============6250353950297618836==
+--===============9152899818051919644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: cb9d439002263efbc99814cc8439fe65d805cfb2
-    new: d7e2d1e88823c93f98ce241050a9cfc9b591d33a
+    old: d7e2d1e88823c93f98ce241050a9cfc9b591d33a
+    new: 65c873c37ec36bbecd1b7da753061d214f23474b
     log: |
-         378c64302afe543ba6cedcbc696c08395e75aba4 staging: pi433: remove hardcoded mask value for easier readability
-         d7e2d1e88823c93f98ce241050a9cfc9b591d33a staging: pi433: formatting improvement for multi-line bitwise statement
+         1ffba357301321b33c71e260d1549e98dae1c391 staging: vt6655: Remove unused byRFType in channel.c
+         b7711a87061245fb8d8cc7947c43fadcbe932dc0 staging: vt6655: Remove unused byRFType in baseband.c
+         dd2837bdea0e92b3f0019d5db20bf753efc6d1d7 staging: vt6655: Remove unused byRFType in rf.c
+         65c873c37ec36bbecd1b7da753061d214f23474b staging: vt6655: Remove unused byRFType in card.c
          
 
---===============6250353950297618836==
+--===============9152899818051919644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647279113 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647279170 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647279112-1a05a96c113182eec405d62d420e79014b70b917
+nonce 1647279169-e9f2062437e58d39c040391bd38d36b0d49fec4e
 
-cb9d439002263efbc99814cc8439fe65d805cfb2 d7e2d1e88823c93f98ce241050a9cfc9b591d33a refs/heads/staging-testing
+d7e2d1e88823c93f98ce241050a9cfc9b591d33a 65c873c37ec36bbecd1b7da753061d214f23474b refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvfAkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M1IP/ito3ghZJwuH0uwYwXMR
-FrIdSjZcYcHibPvWVHMJw6S7A8Bh+fbYlj69LkSc1vTajb9bUa+EI69lDJFncv/I
-Y0zN3CG1n+VZB01SLAP8t28n2pulWuvgP8ty/k5OkodIk1vn1rFZDnZsih1hDNdv
-oIGzWdz+ZnRPGkUFq+NKGy7L/4AM278LCZzRSK55+SzfefiREEVr1TzHzF6oNpKl
-sKVTd5WRwl1kLzs0Yo+NT215rjUSZ3o9lHceL+pOT+LaRVD48bG15+GYeMUKI1dL
-kCBSQoxve8NLZB+iWPfatVjoX6bvjxmA3kEYM2foBd8TpvdyH32rONmZoTqQgwzy
-lmsH0ug1JBSEZpCWCIOTAIL6Scc/1S43fsaJsLeVIiYy3++Diov0redI7vnImZVy
-1t0uT8QcYArzzZRFbIP/xOMDABtXwaHP2HR6rOfiC+pndqlDaQMSJw2/NiZfZ49I
-Byj0MEASkJ00jbmQqx3hEhjc/kp9lqi7kWo1bjFyYn7dtdeU6g1c3jKc8CD+0Wh1
-QN94fuKFCvOmS+w5dRwyNmSybHaJE0+eLioG5FYvXC6NrQXOAiCFgzqnbxRSC6R1
-0FTjADi0brxqh+0roDaKYJM5jejB5Jnmx5/xf1g1hrlzarEdiCoaxFn/hLifNBrX
-IFux6Ijk2uNQtQG+1dFKXDn5
-=mlT4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvfEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QyQP/jY4ft8AkRckpeGu42mz
+uyvL7PqhdkzpQ+sFAeNfcm+wzW3a2Fo11Bn8EULQBYWrJhhZ+awG/M1hgLyVP33e
+Qv1lHaOFQFw612bP2UQzq77b2X525x+SSJD0fKL/do5P2O3SEYQKUdch7H+CPnLe
+bpV6p9+ngVrjkQCGF7R1dvMcMfgHOvwisupBZjrS2sDVxH9TuE5Ib+HLFqMI4rU2
+Wr34iGU0+UK8Nx1z9YwyzSs98CXrE3kt/W9wx+15mi/3wySPBfKaqgWCeOohW6PJ
+YgN/QdsBY+MptpCZBe+n7gp3kQ2brPeKPRBOdybW53J7dezBEVBsFjNXE7alQ0Nj
+fuXPaTzzre+0XCC6YtRzZSiizXK+Cs0qgE470pLP1ebosSxOYZxpsnFnst6mx+Wt
+ouXBnsRz7eMzdZxBaRUkSIE4jIm+pInGr/Po6XQWyyTKw4zxJvb4zKSh/iD+SLzR
+ESg651fXfSVesgj69gWbaTEO4rvWYs7Hs45MEjsq+yfQ3RPrAULLD+xVQDpygWtY
+yuANdrQzAGSCCuok+r2ffg+PoFJGugFxmnqLX0simNGhsQS1kSVcyo9YI/O/Dwnq
+Ro9y+lNlKi0dYIhPOrIAnA6FT7UqpYBeCsDHfhdBAE1rOzAD0yfJzwUEEyC+5qM/
+q2jbw7ldmlmKhDReQSf918g1
+=CYTb
 -----END PGP SIGNATURE-----
 
---===============6250353950297618836==--
+--===============9152899818051919644==--
