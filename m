@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8546521597208050596=="
+Content-Type: multipart/mixed; boundary="===============4445701961734973403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:22:26 -0000
-Message-Id: <164728934657.14137.15372188631988214533@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:22:41 -0000
+Message-Id: <164728936161.14298.10462406771153346364@gitolite.kernel.org>
 
---===============8546521597208050596==
+--===============4445701961734973403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.10-rc5-dts
-    old: b1ddd26d7530f72b3aa8f6ed98c583508c55cc00
-    new: 4d720548f7827e92e9761e4363651cd51ef35ef5
-    log: revlist-b1ddd26d7530-4d720548f782.txt
+  - ref: refs/tags/v5.10-rc6-dts
+    old: afa2436429d7d0944660e2fbb4baf1742674a69a
+    new: 39d4ebdb630d053f3402711bc27ef2316c52dfa0
+    log: revlist-afa2436429d7-39d4ebdb630d.txt
 
---===============8546521597208050596==
+--===============4445701961734973403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1ddd26d7530-4d720548f782.txt
+Content-Disposition: attachment; filename=revlist-afa2436429d7-39d4ebdb630d.txt
 
 8b0496d7971da2388bdd6afc1801439c8703a350 Merge tag 'irq-urgent-2020-08-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 2b100c655746f508ac09544609a48a5e689495e8 Merge 5.9-rc3 into usb-next
@@ -505,4 +505,4 @@ b6c4562d76cd84ff9af3216c2b9b3f45938f4bb0 Merge tag 'v5.9-rc5-dts-raw'
 a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 
---===============8546521597208050596==--
+--===============4445701961734973403==--
