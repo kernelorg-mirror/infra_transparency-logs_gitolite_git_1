@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4010494249037108909=="
+Content-Type: multipart/mixed; boundary="===============3464566899017963167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:31:43 -0000
-Message-Id: <164728990358.22783.13229567055050826627@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:31:49 -0000
+Message-Id: <164728990921.22870.9705727344578147881@gitolite.kernel.org>
 
---===============4010494249037108909==
+--===============3464566899017963167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.16-dts
-    old: bab9fd3677f23a6ae2d4298acc339c60a9459b1c
-    new: 484b37f00ce361124aca5335dd5a8df893760b4d
-    log: revlist-bab9fd3677f2-484b37f00ce3.txt
+  - ref: refs/tags/v5.16-rc1-dts
+    old: 6f7057336ccdd20e205e871f2bc7351cab8582a6
+    new: c0ea07563b35a6506a2be651f7af230aed489057
+    log: revlist-6f7057336ccd-c0ea07563b35.txt
 
---===============4010494249037108909==
+--===============3464566899017963167==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bab9fd3677f2-484b37f00ce3.txt
+Content-Disposition: attachment; filename=revlist-6f7057336ccd-c0ea07563b35.txt
 
 0a2dd56958ccbc8513ec6bcc454fac2ef135d420 dt-bindings: interrupt-controller: Convert MSI controller to json-schema
 5eb71ca60713952dda8ba976bb72e92d92a1f8ea dt-bindings: interrupt-controller: msi: Add msi-ranges property
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 4f37535df1a326453679a12c0569aecd5e63d822 Merge tag 'v5.16-dts-raw'
 
---===============4010494249037108909==--
+--===============3464566899017963167==--
