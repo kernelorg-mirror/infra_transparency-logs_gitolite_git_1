@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2737038313705966434=="
+Content-Type: multipart/mixed; boundary="===============5734467729255926018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 14 Mar 2022 14:07:17 -0000
-Message-Id: <164726683766.18357.9113156885758815744@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 14:07:22 -0000
+Message-Id: <164726684234.18441.5745733766702827038@gitolite.kernel.org>
 
---===============2737038313705966434==
+--===============5734467729255926018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
+  - ref: refs/heads/staging-linus
+    old: 342e7c6ea58200e45bcaa9bdd8402a5531c4777e
     new: 09688c0166e76ce2fb85e86b9d99be8b0084cdf9
-    log: revlist-7e57714cd0ad-09688c0166e7.txt
+    log: revlist-342e7c6ea582-09688c0166e7.txt
 
---===============2737038313705966434==
+--===============5734467729255926018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647266837 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647266841 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647266836-a2a1132fdbabbc98eb3bec82d3f02de6813f151c
+nonce 1647266840-78d0761d3ba9d5ab2202b27626f1db5bf91d232f
 
-7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3 09688c0166e76ce2fb85e86b9d99be8b0084cdf9 refs/heads/main
+342e7c6ea58200e45bcaa9bdd8402a5531c4777e 09688c0166e76ce2fb85e86b9d99be8b0084cdf9 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvTBUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z9gQAIU058H+WPFA8TC/2kMQ
-o/cXMhWurNXLJmxl1rrbzITK3QYZiXU8uKbon65wqG9prZe31o/OJOC8pgByezau
-ep0Wk8OBVdAoGELMrRY3V/4cW3xeGjuc6Em2nNgDcdn/c2BEOUvTo4Sgo7RUe7em
-ZWpT8esQ7GifmKqft3GBdxj/9TVmbByJRVOi7iFAy48fPSdGeyd8CRgc0gJNkSWN
-QXXdU5tHjIHvL4gk4fcSoTUuHK2zMnbCo9/mBCwbG5ylXlJPjlnpiPIE2AtB4eqf
-vjUaIj7aQR4pt3gfWxp8VjSVKbPILt4eOH6UIqDmKaB5cW5RgcvFJcRcUVeIfXmB
-KCpHKHqbyOE+tj8efXBt8a/XnRbcz283Hp/htYvXS5yIPv1tJMTd/HuZg50w3F3u
-CYl3SpA4qFyTJOIKra/ZVkDhjc6BcEuiOZVdQVM6W8HxPrBtXDUdBtrsJS4jwZ2P
-JpuL9P17VgtJWtOYv1nrg3REXISqTIx0XMGqKSHAQ9QAPe26z/DLkmgrll30fZGe
-+F5jGEtQrfV+FrDiZaF9O0wSWvdKOgpS3fi4B+O6pvdLRL/yQsYkGdl3XEGYBC4R
-PWRPb6BfnkQKDcJ7xZmWiVwCx4fANWtUhVajp1RbNM84fGk9aLJUliHlPy7SePqs
-PYGxCHpsSUJ9AC73wBixEjJh
-=G7GH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvTBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OEsP/1qJUcFrCEt4Xw1H2YRW
+L/nHl3uoYpXIAtTpxJF3mLae3sjKoybZ+YxxchntVUGrp+/8XPzaSIWyxxF//oPE
+TR5rH1LQ5i8gTJP9CBlQZEE0OnG9fjN609WxyiqRBT58RcO8h8HAMn49x8L04qrY
+WDDRyta4ec0n/z82W/g4mH4suftq+vDrmqpDDDiIGkBlL1GBix0IZP0XFPIEaBys
+29zgUGvsZYRuvltb6vt7zTSQA3oErnmoTC4MYhZLPfgVZNdv/4U4RZQfw8VyUI+H
+5vTc6dgbLRjDvN9e16mPnUsNHoGnixVYr2HJBh9xbxQ5EUd6+9tEpNlXVqSsMxWm
+4PcPIqxR/8W3Pg4JpMaL7n92w1pUos3P/lJSlQlkmUhldDRZT7Q7HzKrOPOqNpgU
+ATKm/m0GPevMyciZ1PsysX7TcNLATHpelxWg8zPxeip8801X4l6fMzh1BJuiEM9b
+7I/htaHWSRhowBi+MCYKJAVD/WwhNRtJrgxypSuH+48rj2IAnBp86BkdloHeIgr2
+LHwTKm/ybSHOGZYqP7OeVvY78FYz1KXB9eLd3p3qKlRLgPEFcn+AR86QdD43SOzV
+v9OeugJ238bDLx9fZk6RKQA17OjQEVCyIi8ARjyUuJfIkC5lX16h38mSv87ZKyEo
+gv6L6bIp3b2M5xspEw6bF2S9
+=EaZL
 -----END PGP SIGNATURE-----
 
---===============2737038313705966434==
+--===============5734467729255926018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e57714cd0ad-09688c0166e7.txt
+Content-Disposition: attachment; filename=revlist-342e7c6ea582-09688c0166e7.txt
 
 fc5a40694ba684fb3b7009819965ec38e829118f Revert "dt-bindings: arm: qcom: Document SDX65 platform and boards"
 2ddd96aadbd0412040ef49eda94549c32de6c92c arm64: dts: rockchip: fix dma-controller node names on rk356x
@@ -287,7 +287,6 @@ c194dad21025dfd043210912653baab823bdff67 s390/extable: fix exception table sorti
 fb184c4af9b9f4563e7a126219389986a71d5b5b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 db6140e5e35a48405e669353bd54042c1d4c3841 net/sched: act_ct: Fix flow table lookup failure with no originating ifindex
 a0e897d1b36793fe0ab899f2fe93dff25c82f418 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
-fc7f750dc9d102c1ed7bbe4591f991e770c99033 staging: gdm724x: fix use after free in gdm_lte_rx()
 4761df52f1549cc8c5ffcad0b2095fffe2c5435d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 275f3f64870245b06188f24bdf917e55a813d294 Bluetooth: Fix not checking MGMT cmd pending queue
 2e77551c61286bac56ebf337b1ac2dd419952c8d Merge tag 'for-net-2022-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -300,8 +299,6 @@ fc7f750dc9d102c1ed7bbe4591f991e770c99033 staging: gdm724x: fix use after free in
 6c1f41afc1dbe59d9d3c8bb0d80b749c119aa334 batman-adv: Don't expect inter-netns unique iflink indices
 0aa6b294b312d9710804679abd2c0c8ca52cc2bc ALSA: intel_hdmi: Fix reference to PCM buffer address
 22ba5e99b96f1c0dbdfa4f4e1d9751b4c8348541 erofs: fix ztailpacking on > 4GiB filesystems
-8f4347081be32e67b0873827e0138ab0fdaaf450 staging: rtl8723bs: Fix access-point mode deadlock
-342e7c6ea58200e45bcaa9bdd8402a5531c4777e staging: rtl8723bs: Improve the comment explaining the locking rules
 c992fa1fd52380d0c4ced7b07479e877311ae645 btrfs: subpage: fix a wrong check on subpage->writers
 d99478874355d3a7b9d86dfb5d7590d5b1754b1f btrfs: fix lost prealloc extents beyond eof after full fsync
 a50e1fcbc9b85fd4e95b89a75c0884cb032a3e06 btrfs: do not WARN_ON() if we have PageError set
@@ -574,4 +571,4 @@ aad611a868d16cdc16a7d4a764cef955293e47e3 Merge tag 'perf-tools-fixes-for-v5.17-2
 f0e18b03fcafd8344539101f564ae358950ae892 Merge tag 'x86_urgent_for_v5.17_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 09688c0166e76ce2fb85e86b9d99be8b0084cdf9 Linux 5.17-rc8
 
---===============2737038313705966434==--
+--===============5734467729255926018==--
