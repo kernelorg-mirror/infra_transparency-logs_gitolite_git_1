@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3229824045271182187=="
+Content-Type: multipart/mixed; boundary="===============7846381917346866459=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 14 Mar 2022 17:29:04 -0000
-Message-Id: <164727894499.24260.507891466758933654@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 17:29:47 -0000
+Message-Id: <164727898721.24550.18439236635278078016@gitolite.kernel.org>
 
---===============3229824045271182187==
+--===============7846381917346866459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,63 +17,59 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 56955aae9fc2c59fa3c9b32f1f147cdbe05e5ac4
-    new: daed08de44e83c7a0f850f28de3b87984eecca32
-    log: revlist-56955aae9fc2-daed08de44e8.txt
+    old: daed08de44e83c7a0f850f28de3b87984eecca32
+    new: cb9d439002263efbc99814cc8439fe65d805cfb2
+    log: revlist-daed08de44e8-cb9d43900226.txt
 
---===============3229824045271182187==
+--===============7846381917346866459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647278942 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647278985 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647278940-8218d721342630f40324c9f3a2388e0af21ccc46
+nonce 1647278984-9860df14e10d8ca04a204e125a9a2a198f251468
 
-56955aae9fc2c59fa3c9b32f1f147cdbe05e5ac4 daed08de44e83c7a0f850f28de3b87984eecca32 refs/heads/staging-testing
+daed08de44e83c7a0f850f28de3b87984eecca32 cb9d439002263efbc99814cc8439fe65d805cfb2 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIve14bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FicP/2H4xrONWtWf5qwuLu5X
-RMHsRK8b44VVcreSmyD0rwu/zy5ySKJnbHdLKtStUTL7gM7j19nsjIRcrxQ2NW7y
-JPtXHzRqZE8KI+7E8MxmiqNZKP8rSBae3NyuHGvgXCGbIoAnPSs4Kt0JYvz5VT9y
-Ws121PQH8hhha7kUfcLLL2WzZKJxYvr8I0jC+0XLhAf4GRGvUfzKfD5u8M+PGzfi
-5N+/q2Cv7GBKMh61Fr/ImSDsRFRE1ZRrOb61+GSDrRtCMmtPvjwEefRMfU1JLheH
-r63IaW/UVKw9YVIRCVxD/ZDpZTv7X3LwCHus6KHFGcLn/whX9ugoGpoFd0FUE0JQ
-ZrKouxlSA6Svt9KIK02uz38kDgth0V4txgjdXC1XqnU8nu2SRF9Qyth3AaqN1tIi
-nF61Q7sf06Ja2zOPPMSNMXKXk9QFLN64qC2T7dGVt9oXQTrgyy54lqrdBYcWPY5I
-hhaKJzjAsqZLeyZk4bWaAtyDhV+BOF/5+AeaVilt/TssurUmBwFqtWRN9Wjr/wIC
-TLC3BzSLjWLip115k0AyulTPDnUyRXCcCmmevHbY1IA6q61BtXKOvzOxxPNKVpkA
-1Cj5bq3DJ88Aor8S213MkUjO8DOk1Vl5mfwFb/ZOphNkceeeGoo5TOkV/rGjdlK3
-VI0+kuKeD6YArLFWb1REco/2
-=znbP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIve4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dusP/iyPkQE8AP7ULXsioIgq
++BKXEhSYIzq9rYb2si2OdpbZBO480AVDsAL/j6Ncy2HBJgJ37qw5QPcdJ6VnLm2H
+24cSDXrz7Ea1zFmVYSoYzLI/wVN+vA5vvXLxAgj9Z43Lyi8UFOVe3ZmEVUbXF04W
+Q+TH8C0CBVbBhnf05dNNj2QGKCuW/c8VpQvfC8wGAaBRWcP5Ui0MyoeVHvobLvs5
+0KXeakUiv/NWSDZpBY+Ptk2brhVKfkn7GMYCnxL01+g1vVdB4ZNnQchrRbeErN1N
+0Kao/K6Xiq1dz/KzUT5W56As7TfAV4mVc94Oxs5dEpOCgKl0or6irOS/xxiBYIoP
+U7PXBBCUJiaoSU7QIZ5vGIdJdK4Y7FAXE3FQxi39s0cx6Gsez3OBCf6iMAmFQnQf
+OdJc3pWsaEye53m00LCGpmnXMa5E3FW8eVQoLNCH081QbY1Vu31rXfSfHI4PiC19
+v1161VtZtzoFCiMgQNKXUoLuaUNiDMp/MIWt+qj7Lje8AQS7B4v5/B9fvDDTSWjq
+UnUIv2dGZHXVikvcgyg6PjYUkGSMV15iy2RcZpz1ZZiqba/KubWdqNRXI7SkKAmF
+wJ2dkyYUs7xHOBiNio6trSftIF82M2hLpqXRMpEvVpUl9K4PTdJ56Pvs38srTP0i
+8jpKrWxSKLxT8zNIDxHpJ+T3
+=4XV4
 -----END PGP SIGNATURE-----
 
---===============3229824045271182187==
+--===============7846381917346866459==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56955aae9fc2-daed08de44e8.txt
+Content-Disposition: attachment; filename=revlist-daed08de44e8-cb9d43900226.txt
 
-8d6319cdafadd9f68542cc21972c8c0c5d787ac5 staging: gdm724x: remove redundant assignment of pointer w
-4a51c297f8ffd1621828b856ab89f01d1a2eec81 staging: vt6655: remove redundant assignment of pointer tx_key
-765b9808cd21708dd99fae31ccfb9045aba84b23 staging: r8188eu: mark rtw_is_cckrates_included as bool
-f11a0a1d028d49195165eed976454b888d466ae0 staging: r8188eu: mark rtw_is_cckratesonly_included as bool
-f85021269ab41f6752ca295ab7f58a803b77b9bc staging: r8188eu: mark rtw_is_desired_network as bool
-97115f5f0f96f4e5d5779acb5b1d76d1895f8134 staging: r8188eu: mark PS_RDY_CHECK as bool
-77a5ea010be8ed2a48a951a31b16407262b455cb staging: r8188eu: mark check_indicate_seq as bool
-e21762181fb5d33ae95ee1bd58d4ca41a65129de staging: r8188eu: mark enqueue_reorder_recvframe as bool
-10b4f58f2ef209093a0a6a09d20a6f7fa05c9a74 staging: r8188eu: mark recv_indicatepkts_in_order as bool
-fb706ede588a33942c7e489a8eb0b925bcf54f8c staging: r8188eu: mark cckrates_included as bool
-2a603c8fac9d0a3d1d18e5e4eca157c2474b55b4 staging: r8188eu: mark cckratesonly_included as bool
-7167068ac69cafe13f4b022203d80c85e1f77868 staging: r8188eu: mark is_basicrate as bool
-ad5213882e1f15a70ca47f137ef845ab9df9b7ea staging: r8188eu: mark is_ap_in_tkip as bool
-34e21a9157e137779b70b454ae0ff219d550a27a staging: r8188eu: mark rtl8188eu_xmitframe_complete as bool
-b459e83949a51a45c7783b3774ebec6453cdfc45 staging: r8188eu: mark check_fwstate as bool
-a47807b864b0ea36696c1d60f477e4c4a36b6f0a staging: r8188eu: mark IS_MCAST as bool
-5a61d6b4f4a98875c87cc98d10c5923bf09cf272 staging: r8188eu: mark IsFrameTypeCtrl as bool
-daed08de44e83c7a0f850f28de3b87984eecca32 staging: r8188eu: mark rtw_endofpktfile as bool
+b8cb97338d772135f2c5cb96880b8fa02c912c3c staging: r8188eu: remove unused field list
+3770d651ce3c503a2eda932ad2794c884f4f6701 staging: r8188eu: remove unused field recvbuf_lock
+e9ef65f994d477fc993ca28020e98c0fddda9480 staging: r8188eu: remove unused fields in struct recv_buf
+b711ae9a5573b1364f1f9c772904a948afd736c3 staging: r8188eu: remove unused field phead
+fffb719a6340ea78651fe48faaa80b97e0fc3d25 staging: r8188eu: remove unused field ptail
+cd71106689061428647b29e16c02329883e38056 staging: r8188eu: remove unused field pend
+e3ffbcac9d8daa94cbcee79043d4839540ab2070 staging: r8188eu: remove unused field pdata
+4e342a3c786ed37db1083b0c4ac9c9685e722cea staging: r8188eu: remove unneeded field pbuf
+44aa511a6c383af3c9c858c38e078335d49d34f1 staging: r8188eu: remove unused fields in struct recv_buf
+23a11ec550db4ad65dd42d68e8bf014e7df65b5f staging: r8188eu: remove tmp variable in update_recvframe_attrib_88e
+618a9b2719c383ec63782388f0fd04f72562d0ac staging: r8188eu: summarize declaration and assignment
+05a0a115aa04d6402a69964b23a989314cc53204 staging: r8188eu: don't initialize drvinfo_sz to 0
+49571c57e21fbd0915bd50992c7dac3295f13d95 staging: r8188eu: remove unnecessary casts
+cb9d439002263efbc99814cc8439fe65d805cfb2 staging: r8188eu: remove comments in update_recvframe_attrib_88e
 
---===============3229824045271182187==--
+--===============7846381917346866459==--
