@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8323792948306971088=="
+Content-Type: multipart/mixed; boundary="===============1908588761212865957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:23:54 -0000
-Message-Id: <164728943463.15429.3591235502456058352@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:24:00 -0000
+Message-Id: <164728944011.15544.8410486272661113397@gitolite.kernel.org>
 
---===============8323792948306971088==
+--===============1908588761212865957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.12-rc2-dts
-    old: 6dfc5ea81b15fc6707de71b85832ed582c5ac363
-    new: e035a1d4aaa83fede1278c799057e9178aa56183
-    log: revlist-6dfc5ea81b15-e035a1d4aaa8.txt
+  - ref: refs/tags/v5.12-rc3-dts
+    old: 9506faa216fd26dc1b5c15455303c1fe36ed2fef
+    new: 3e5eff780f0d54094849a7302cdd804dcc7b0675
+    log: revlist-9506faa216fd-3e5eff780f0d.txt
 
---===============8323792948306971088==
+--===============1908588761212865957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dfc5ea81b15-e035a1d4aaa8.txt
+Content-Disposition: attachment; filename=revlist-9506faa216fd-3e5eff780f0d.txt
 
 428c516a3623147468194eec896736e931b3d445 dt-bindings: clock: renesas: rcar-usb2-clock-sel: Add support for RZ/G2 M/N/H
 37512ceded8394af2f830190cb117d7c39fc4518 dt-bindings: usb: usb-hcd: Detach generic USB controller properties
@@ -1051,4 +1051,4 @@ ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 
---===============8323792948306971088==--
+--===============1908588761212865957==--
