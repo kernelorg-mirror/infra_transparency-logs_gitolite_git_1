@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 14 Mar 2022 16:27:04 -0000
-Message-Id: <164727522474.16537.15119233710025887489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/iproute2
+Date: Mon, 14 Mar 2022 16:30:45 -0000
+Message-Id: <164727544535.19275.12766133222733040872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jkirsher/iproute2
+user: jkirsher
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-invlpir
-    old: 411608e924a4a3b1a691a9fd044412c6c4e49d78
-    new: 4ee8c04a840abe347573628ca6a82233b06f17d6
+  - ref: refs/heads/main
+    old: 62c0700c7b373ad71ef712e4c065610c80866440
+    new: ac0a54b2d5db0298baab935f555fd092c4b6cb69
     log: |
-         e70e7373f132f9b9c9e144fb31058ab537a3b727 irqchip/gic-v3: Exposes bit values for GICR_CTLR.{IR,CES}
-         519abb6655e4c48207aec8a43e79ba7b143409ed KVM: arm64: vgic-v3: Implement MMIO-based LPI invalidation
-         82632c9b2d3db27c6722335a1371791079646492 KVM: arm64: vgic-v3: Expose GICR_CTLR.RWP when disabling LPIs
-         4ee8c04a840abe347573628ca6a82233b06f17d6 KVM: arm64: vgic-v3: Advertise GICR_CTLR.{IR,CES} as a new GICD_IIDR revision
+         1808f002dfdd33fc397151c30bcffcef25cb6ae9 lib/fs: fix memory leak in get_task_name()
+         19c0def1f60159c0d90fa183a49dff3186101e6a ipaddress: remove 'label' compatibility with Linux-2.0 net aliases
+         885e281eadc238e30f7c3a42ad366ea123c03a83 uapi: update vdpa.h
+         ac0a54b2d5db0298baab935f555fd092c4b6cb69 rdma: make RES_PID and RES_KERN_NAME alternative to each other
          
