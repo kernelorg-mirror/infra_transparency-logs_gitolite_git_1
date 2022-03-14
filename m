@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1007778415954879771=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 14 Mar 2022 14:07:37 -0000
-Message-Id: <164726685713.18709.11493200331385733687@gitolite.kernel.org>
-
---===============1007778415954879771==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 14 Mar 2022 14:14:16 -0000
+Message-Id: <164726725697.22704.15652514530928936263@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
-
---===============1007778415954879771==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647266856 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647266855-77de7b174dfdfe1b43d020a37eae4b51dc1c2c2f
-
-0000000000000000000000000000000000000000 d741fa92d022434dd4e2c9d1974cb64fb1752143 refs/tags/v5.17-rc7
-0000000000000000000000000000000000000000 4fbac60432f1a7e608882a54af7b9a98dd168d0f refs/tags/v5.17-rc8
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvTCgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qL8P/3TUmiBbPgWIe6Ud7GxZ
-whCsW4oaL7Mp80sQ+gOKYbSH6ipUXudXMBzE58degYK4sEAoxfcGGr7km4fVZKUU
-UPubjWoIrbdEVYo5YytYXcBKQxRGXHiFAsL7w+SSy0ucEDS7dObqrCVDSA8IIYcJ
-iP1S8p4wTiufzjJlxn8txONZ6C6gBLi1od1aYESbjvu7UKfPS1XUkQAU4cESrdy9
-WgFVh9IS/Ya8MWzhcZ1MFQHJKeOKiSQyV9tdTfocr49aHGpQA33XAibve9Iu+e11
-CDFG9uM0s8UKKvvnYD0nUVOfFQmRJ34UnV+nAERJN7Z09vjnx6FkNLVzjfmTtUPc
-kpWv8vzptMXqqpq9jBtobyaKNj7A/1knAE+uGYGsj/fj/Zjkboq5PlfB3nPDPzLl
-FZVz3X6rAazlGbqshlbQs/fRt+q+8xC2F+NR2jzCGJ1r9lwEsq2vB9rz3G967G7b
-/a4R/YNQ58LnITIj1h9CGsBdD911fyww4GkztHv/uc9LtSnHOPP+GW3CoxPKZw1B
-0absR6wBRjmUMYcLydxp3vA4Ayv2pOuy6283qdDuImhcV1CZxDt25bxyFeS0jkKz
-/BRVOMO3SKLOw83ZQ7L/qduhPCk3zJe+ZggPsrgkNVlaHxAKT2Z4kYEW62g4xUY9
-wmpFBGWnKgLwAUBt9pTmtsUM
-=sBd8
------END PGP SIGNATURE-----
-
---===============1007778415954879771==--
+  - ref: refs/heads/mips-next
+    old: 3f059a7e8c13c62addc1808d13a41d1f6dc24bd1
+    new: 588d08201c2d91c0b7408eb1deb73f6c8fce9ea3
+    log: |
+         4528668ca331f7ce5999b7746657b46db5b3b785 mips: cdmm: Fix refcount leak in mips_cdmm_phys_base
+         4d409ca3e5107a1b300d0f36550d61c5da4fd8a7 MIPS: boot/compressed: Use array reference for image bounds
+         b847bd64ea9f484510e27065cb2bccc58d9b829b MIPS: Only use current_stack_pointer on GCC
+         8755d57ba1ff910666572fab9e32890e8cc6ed3b MIPS: RB532: fix return value of __setup handler
+         2bc5bab9a763d520937e4f3fe8df51c6a1eceb97 MIPS: pgalloc: fix memory leak caused by pgd_free()
+         89fa1268932420c64155bb4de9a9252a8c9e475d MIPS: Remove redundant check in device_tree_init()
+         cd04d58e829dd074b0af1c1556c5130227f9f23a MIPS: Remove redundant definitions of device_tree_init()
+         588d08201c2d91c0b7408eb1deb73f6c8fce9ea3 MIPS: Fix wrong comments in asm/prom.h
+         
