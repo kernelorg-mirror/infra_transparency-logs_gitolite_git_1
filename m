@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5535871030421331141=="
+Content-Type: multipart/mixed; boundary="===============5377860244437227360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:32:57 -0000
-Message-Id: <164728997758.23752.2441625215870599253@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:33:03 -0000
+Message-Id: <164728998330.23835.18244410446709762760@gitolite.kernel.org>
 
---===============5535871030421331141==
+--===============5377860244437227360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc1-dts
-    old: a1b6543ae91a2084ca1ac4c85339ab564a955bc0
-    new: 9c19ec3d28833c8d12c01ff48e4816dfd59d33c5
-    log: revlist-a1b6543ae91a-9c19ec3d2883.txt
+  - ref: refs/tags/v5.17-rc2-dts
+    old: 03f48304b8abfc3a531596bc411f6005a65a16ee
+    new: d10cf3ee3a0f9b7df644e412c96eff39cd470f93
+    log: revlist-03f48304b8ab-d10cf3ee3a0f.txt
 
---===============5535871030421331141==
+--===============5377860244437227360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1b6543ae91a-9c19ec3d2883.txt
+Content-Disposition: attachment; filename=revlist-03f48304b8ab-d10cf3ee3a0f.txt
 
-7fff6a44666a3098d6df69237df87c0fe6d1a19e arm64: dts: renesas: salvator-common: Merge hdmi0_con
-8b9f7782d3b0819a7f46a3dea1937dbd7445fae6 arm64: dts: renesas: r8a779a0: Add DU support
-b471b6277d0054ddfaab138a98e7be7d25688c60 dt-bindings: regulator: qcom: spmi-regulator: Document pm8226 compatible
-7d46399a4f26290cf546a21b495ff478e5cced27 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-4655c347a86b05254b33d039c13f93d2295384be Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-c69471f92c2bf76fe7d6f08db473e158a6081b4f Revert "dt-bindings: pinctrl: qcom: Add SDX65 pinctrl bindings"
-bd7f6dd0e30c81646f2cf57f02ef51f76f8de610 dt-bindings: display/msm: remove edp.txt
-84ce14f1b7aa3844a6fecf246e12e6ab44003425 dt-bindings: msm/dp: Add DP compatible strings for sc7280
 f7e5b1f5a4acfe61fd4ddbcbf96f5a88e41c29f0 dt-bindings: timer: Add StarFive JH7100 clint
 d1a272f556f1ad092c619de2f877fa49a8669c03 dt-bindings: interrupt-controller: Add StarFive JH7100 plic
 2eb99c1d656abcc6c9d29f0bb8a601341b51b33b Merge 5.16-rc3 into usb-next
@@ -1035,6 +1027,13 @@ a2bc49a612feaf33b67a2fcb49f5290f6db69b73 dt-bindings: google,cros-ec: drop Enric
 2c13e3ac4f8a9b3a0b81941c7a63d6fe20ab029c Merge tag 'rtc-5.17' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 64b361d91fc4b2b059fa0a20f3ed8445038c82ec Merge tag 'riscv-for-linus-5.17-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 f437e46c32dc154e0119c8ac56ee5613cce84513 Merge tag 'devicetree-fixes-for-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+6e105c4518da606f16ec37182934aebaf1a5257f dt-bindings: can: tcan4x5x: fix mram-cfg RX FIFO config
+2bf36022eade251197023d35df441b5febd69e33 Merge tag 'net-5.17-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+ea08a037bbea89dd147e2f6e222890bca5ab4bba dt-bindings: irqchip: renesas-irqc: Add R-Car V3U support
+c59bbb1e2fc03ecb25a41dcd4589b43db287c298 dt-bindings: interrupt-controller: sifive,plic: Fix number of interrupts
+41dd3b8842046aa4486a708be3baadf4743d15be dt-bindings: interrupt-controller: sifive,plic: Group interrupt tuples
+b8f51f7e89f73e4321b4877b27787eeef1155ab5 Merge tag 'irqchip-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/maz/arm-platforms into irq/urgent
+1db5e51b3901a917bffcf874c18566818d9129d4 Merge tag 'irq_urgent_for_v5.17_rc2_p2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3c4fc6acb048bd9eb9d8c32f68644ae6837f84e0 Merge tag 'v5.9-rc2-dts-raw'
 dd8abd48bf270dcf95462367b75e27e1dac0ca63 Merge tag 'v5.9-rc3-dts-raw'
 de5e7cb6acb2a582385627bbb57736287fa69e7d Merge tag 'v5.9-rc4-dts-raw'
@@ -1050,5 +1049,6 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 4f37535df1a326453679a12c0569aecd5e63d822 Merge tag 'v5.16-dts-raw'
 e2110b3a3ada3c81b53b8757ed58da7b7e082851 Merge tag 'v5.17-rc1-dts-raw'
+b6773534aa4f73ff23e36c63c93c233c65344ce2 Merge tag 'v5.17-rc2-dts-raw'
 
---===============5535871030421331141==--
+--===============5377860244437227360==--
