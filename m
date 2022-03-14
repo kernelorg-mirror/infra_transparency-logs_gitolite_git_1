@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6282949193840583800=="
+Content-Type: multipart/mixed; boundary="===============6093953992411784526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:31:31 -0000
-Message-Id: <164728989126.22574.1330845285339794756@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:31:36 -0000
+Message-Id: <164728989679.22676.7987277635142593889@gitolite.kernel.org>
 
---===============6282949193840583800==
+--===============6093953992411784526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.15-rc6-dts
-    old: 4add25754383ee6f3354a736936f0814713d8e55
-    new: 1b9f49504715d43db55d9d667c9c52d93563a229
-    log: revlist-4add25754383-1b9f49504715.txt
+  - ref: refs/tags/v5.15-rc7-dts
+    old: f7a0774bfd89b216e8f690b27cb03fd436edc202
+    new: b3fb2575dfb382e3b390388891b969322a68b45e
+    log: revlist-f7a0774bfd89-b3fb2575dfb3.txt
 
---===============6282949193840583800==
+--===============6093953992411784526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4add25754383-1b9f49504715.txt
+Content-Disposition: attachment; filename=revlist-f7a0774bfd89-b3fb2575dfb3.txt
 
 70a621433e20491b381af25c5a92657994e80f87 dt-bindings: iio: dac: ad5449: Add missing binding document.
 2990660066effe4662298812ec42befa7f567fe3 dt-bindings: iio: dac: ad5504: Add missing binding document
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 352db9c86b0515f7e35fcb130deac68a93e1d7d2 Merge tag 'v5.14-dts-raw'
 fa9e401423559138ec6edd87a23bf3e3568725b7 Merge tag 'v5.15-dts-raw'
 
---===============6282949193840583800==--
+--===============6093953992411784526==--
