@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3004795420343481828=="
+Content-Type: multipart/mixed; boundary="===============4918814597237154022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:22:52 -0000
-Message-Id: <164728937247.14446.8165257122758650305@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:23:00 -0000
+Message-Id: <164728938057.14567.15228638484607748768@gitolite.kernel.org>
 
---===============3004795420343481828==
+--===============4918814597237154022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.11-dts
-    old: f4f58a5c841cc66b72b1893b95d1d357f1ff58c5
-    new: c48489ee59b9140f372fef5573f3af043ce7cbb2
-    log: revlist-f4f58a5c841c-c48489ee59b9.txt
+  - ref: refs/tags/v5.11-rc1-dts
+    old: 4500cbac421f8b69d19bdfb26735653a5365322c
+    new: d190dca5cd5a6ea5196d11b07c6298f5464a3d86
+    log: revlist-4500cbac421f-d190dca5cd5a.txt
 
---===============3004795420343481828==
+--===============4918814597237154022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4f58a5c841c-c48489ee59b9.txt
+Content-Disposition: attachment; filename=revlist-4500cbac421f-d190dca5cd5a.txt
 
 d381df07c1131745932aeb624457aceadc5a1c78 ARM: OMAP2+: Drop legacy platform data for am3 emif
 8fe93f099fa9e38048260685c67b6ceb29fd0258 ARM: OMAP2+: Drop legacy platform data for am3 ocmcram
@@ -1051,4 +1051,4 @@ a967925e224de92d51b60e8c95a996a21000202f Merge tag 'v5.9-rc8-dts-raw'
 ce73e9ad9ec4d5505e3b157092d8e517af463c90 Merge tag 'v5.10-dts-raw'
 c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 
---===============3004795420343481828==--
+--===============4918814597237154022==--
