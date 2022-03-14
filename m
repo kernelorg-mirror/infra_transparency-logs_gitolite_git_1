@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 14 Mar 2022 09:39:26 -0000
-Message-Id: <164725076651.11196.1604840687535008888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 14 Mar 2022 09:42:37 -0000
+Message-Id: <164725095718.4570.7736053159897359563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-5.17/upstream-fixes
-    old: fe23b6bbeac40de957724b90a88d46fb336e29a9
-    new: f97ec5d75e9261a5da78dc28a8955b7cc0c4468b
+  - ref: refs/heads/master
+    old: 0f8de4902fe3f3512ee5043c5277d002a488a804
+    new: 5b20802caf024f7a4ada1370420ea3d85763b769
     log: |
-         f97ec5d75e9261a5da78dc28a8955b7cc0c4468b HID: intel-ish-hid: Use dma_alloc_coherent for firmware update
-         
-  - ref: refs/heads/for-next
-    old: cde4b57a1c5185fad2b4939fc6c84fc0fdafcf19
-    new: 3cc519d82627102c10c9095617641f00a084842e
-    log: |
-         f97ec5d75e9261a5da78dc28a8955b7cc0c4468b HID: intel-ish-hid: Use dma_alloc_coherent for firmware update
-         3cc519d82627102c10c9095617641f00a084842e Merge branch 'for-5.17/upstream-fixes' into for-next
+         0b77077c990fc7c97e06844d0a7f879994bdbce9 Fix minor typos
+         4a479160141bc121ebd5edf67fd406e5b2fe6630 Fix crash, when mount was not found on bsd systems
+         47470044a1bf58f73c6a7978065bad38173c63e4 hardlink: set all locale elements, so that messages will get translated
+         114330ffc0750fe5ab7fbdc02e87c4d0819ca45f hardlink: grammaticalize the main description in the man page
+         cd8d4b5391fcc3c245a62a0878a7fd31a1360210 hardlink: add a missing word to an error message
+         5be97fff36dac109f41b45dbb6b418497b779486 Merge branch 'fix_typos' of https://github.com/yurchor/util-linux
+         5b20802caf024f7a4ada1370420ea3d85763b769 Merge branch 'fix-bsd-crashes-when-mount-not-found' of https://github.com/ellcs/util-linux
          
