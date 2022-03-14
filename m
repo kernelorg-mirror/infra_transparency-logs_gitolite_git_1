@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3005376001217846823=="
+Content-Type: multipart/mixed; boundary="===============1946179927495038035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:30:39 -0000
-Message-Id: <164728983911.21717.16271434173613700392@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:30:44 -0000
+Message-Id: <164728984472.21826.1687896663106625388@gitolite.kernel.org>
 
---===============3005376001217846823==
+--===============1946179927495038035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.14-rc5-dts
-    old: b312b48268c9575216a4705f76a0d880ba8a849c
-    new: 5f002240065b82c5d46b3ef178ae36fb007bbfbd
-    log: revlist-b312b48268c9-5f002240065b.txt
+  - ref: refs/tags/v5.14-rc6-dts
+    old: f1eeded42dc460b68dc9ee37e8dd1a73e8b3509b
+    new: 6d1ab257a80a93be87140f6a5881d216b66b2c12
+    log: revlist-f1eeded42dc4-6d1ab257a80a.txt
 
---===============3005376001217846823==
+--===============1946179927495038035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b312b48268c9-5f002240065b.txt
+Content-Disposition: attachment; filename=revlist-f1eeded42dc4-6d1ab257a80a.txt
 
 5526c9618fb931d0ab6c848972afa59f99e43999 dt-bindings: serial: amlogic, meson-uart: add fifo-size property
 1604c1a62207f7b9dc81b33848e856ce2583bf80 dt-bindings: serial: renesas,scif: Document r9a07g044 bindings
@@ -1051,4 +1051,4 @@ bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 352db9c86b0515f7e35fcb130deac68a93e1d7d2 Merge tag 'v5.14-dts-raw'
 
---===============3005376001217846823==--
+--===============1946179927495038035==--
