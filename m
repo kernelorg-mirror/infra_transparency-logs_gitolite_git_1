@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Mon, 14 Mar 2022 10:32:56 -0000
-Message-Id: <164725397626.5757.5458945392794561533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 14 Mar 2022 10:34:06 -0000
+Message-Id: <164725404622.6179.9875971601406369605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/pci/rcar
-    old: 9775965dbae50a04f12879179d6d6fb58f240d6b
-    new: 6e36203bc14ce1470ad289ef050eb0fe542ee8b7
+  - ref: refs/heads/master
+    old: d96657dc9238f8e9bda47b377e17e7c6f90935af
+    new: 102e4a8e12fda992803adec51be65e8d1089d4db
     log: |
-         84b576146294c2be702cfcd174eaa74167e276f9 PCI: rcar: Finish transition to L1 state in rcar_pcie_config_access()
-         6e36203bc14ce1470ad289ef050eb0fe542ee8b7 PCI: rcar: Use PCI_SET_ERROR_RESPONSE after read which triggered an exception
+         fbd9a2ceba5c74bbfa19cf257ae4b4b2c820860d net: Add lockdep asserts to ____napi_schedule().
+         102e4a8e12fda992803adec51be65e8d1089d4db selftests: tc-testing: Increase timeout in tdc config file
          
