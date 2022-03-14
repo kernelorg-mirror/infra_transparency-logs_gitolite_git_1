@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6254631300886514893=="
+Content-Type: multipart/mixed; boundary="===============3805135975453759185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:29:20 -0000
-Message-Id: <164728976068.19056.12591854338007733584@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:29:26 -0000
+Message-Id: <164728976616.19166.7781160955819345066@gitolite.kernel.org>
 
---===============6254631300886514893==
+--===============3805135975453759185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.13-rc1-dts
-    old: 7cc83aaf6c3619d15b8d62d420237de00263eacb
-    new: 73bac6202f28b35f2bdeb38abdb32a64aa191f6c
-    log: revlist-7cc83aaf6c36-73bac6202f28.txt
+  - ref: refs/tags/v5.13-rc2-dts
+    old: 96731f33350af921454c3cca7750bd03ad5b88d2
+    new: cf15e323a3a11bc2053027068ee2ec32ae81a20d
+    log: revlist-96731f33350a-cf15e323a3a1.txt
 
---===============6254631300886514893==
+--===============3805135975453759185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cc83aaf6c36-73bac6202f28.txt
+Content-Disposition: attachment; filename=revlist-96731f33350a-cf15e323a3a1.txt
 
 abb36d6fa23e52ec71f171045b54bac53629a905 arm64: dts: qcom: sc7280: Add cpuidle states
 e7eb2371e31c9d7c93a0f91ffd0a4be73fc7a35b arm64: dts: qcom: sc7280: Add rpmh power-domain node
@@ -1051,4 +1051,4 @@ c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 
---===============6254631300886514893==--
+--===============3805135975453759185==--
