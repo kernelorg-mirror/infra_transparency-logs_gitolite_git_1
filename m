@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7671365778617308672=="
+Content-Type: multipart/mixed; boundary="===============7578260757738859374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:29:31 -0000
-Message-Id: <164728977177.19245.7655457044375441599@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:29:38 -0000
+Message-Id: <164728977841.19340.2916651600278580236@gitolite.kernel.org>
 
---===============7671365778617308672==
+--===============7578260757738859374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.13-rc3-dts
-    old: 9accb3fd36b5fa6d71835a601414a5b26ee533cc
-    new: 94f01c6bb8d41b50d6bdbfd03365cf015485be4b
-    log: revlist-9accb3fd36b5-94f01c6bb8d4.txt
+  - ref: refs/tags/v5.13-rc4-dts
+    old: 05bd76cc4e26f3a3a46bff41265843ac80861b45
+    new: 1f94f1c6851e67fb00d8f3f2fa80675aa5117899
+    log: revlist-05bd76cc4e26-1f94f1c6851e.txt
 
---===============7671365778617308672==
+--===============7578260757738859374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9accb3fd36b5-94f01c6bb8d4.txt
+Content-Disposition: attachment; filename=revlist-05bd76cc4e26-1f94f1c6851e.txt
 
 abb36d6fa23e52ec71f171045b54bac53629a905 arm64: dts: qcom: sc7280: Add cpuidle states
 e7eb2371e31c9d7c93a0f91ffd0a4be73fc7a35b arm64: dts: qcom: sc7280: Add rpmh power-domain node
@@ -1051,4 +1051,4 @@ c941a6316e1d598a3aa2d3437e5c2da81d826442 Merge tag 'v5.11-dts-raw'
 bc633c9bda78791e5ae2edd66d471a7bdbd9987c Merge tag 'v5.12-dts-raw'
 5772836527f679e2cd36e6daf4f91eee37815a5e Merge tag 'v5.13-dts-raw'
 
---===============7671365778617308672==--
+--===============7578260757738859374==--
