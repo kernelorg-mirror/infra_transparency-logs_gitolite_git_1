@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4074806413754309560=="
+Content-Type: multipart/mixed; boundary="===============5647418451144918925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 14 Mar 2022 11:27:45 -0000
-Message-Id: <164725726569.10151.10839561414810491793@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 11:27:46 -0000
+Message-Id: <164725726633.10198.18147602690706082498@gitolite.kernel.org>
 
---===============4074806413754309560==
+--===============5647418451144918925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: 2c2c7e4a12c7e274adda3b334d912169c515efe7
-    new: 4a3043563aa908c48d7d1a19fccbd97c56fdd119
-    log: revlist-2c2c7e4a12c7-4a3043563aa9.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 1346e17653a52c2042a486c7726f92e81481c8ec
+    new: cb0af18075f051a9c4e242e027f1c6d08ac573a8
+    log: revlist-1346e17653a5-cb0af18075f0.txt
 
---===============4074806413754309560==
+--===============5647418451144918925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,61 +32,74 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647257264 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1647257258-12a7932e875b46e18b1ec78a5dd3e5d63f34e437
 
-2c2c7e4a12c7e274adda3b334d912169c515efe7 4a3043563aa908c48d7d1a19fccbd97c56fdd119 refs/heads/linux-4.19.y
+1346e17653a52c2042a486c7726f92e81481c8ec cb0af18075f051a9c4e242e027f1c6d08ac573a8 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIvJrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oyoP/0veLoHyJ27+ARfsL/ya
-iKNLJJQVkn+S+l+uT0BWplB9Dopxd/8VnbZZ4OYzw9c4ni9MW19JH3eL41plkpqA
-8pTPFVO79Ac+9tDhtSEJXwxnRZ6z2wnldKpFpvRO3npQOOq4zYmNkKDUAMibe/57
-+sdvsvMSZEc2bofbDqx13xNRWxCcMd5061MlizKj98SS53aGLIlLJPd0U7ZuDJq2
-c4DGsqm7nDFSvct4KPN8Oo7b2HOLfKGjyQVO1zoZDdiDASRTQWDwHFbyO+T+loB3
-o1gW8pALl7lNktXlg4DcdXKshjeePYDyU7onCYAIDkqEoVduKx4B8V/V1Dz7Vhwn
-VWJhjIlm2qhy5M6ti4Orw7bFFbLR1R/s+GU5XLseBAFpE4/Gra2ciWNY4n3gGyyn
-dbp8P3DoLxqpDE06dU2a+eeOXkYg7MPYDI7RsyUkkHzgBUsq/hni2HUMbkgnGsUA
-nK/MQYkGd3r3Tn2alNBnBcDBvDP/nMcjxvjFmBTT794jpFQ7JDiDHNXsvzit8+xc
-ZE8w221J1FLSjpXofjrcRL+Cbq57vYL4j2rEOfuQeFtdIUZqOOHAG0gzGAJfv56X
-DObj6bDqn5GGBtUUKt0ZrJ8Qm+muprnmeo52fSfO/LMm4eoF3FVro8b9l76IdiS4
-suF2Hue09yLJyk4Rm9tmO0Ox
-=A098
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZqMP/itSUkNTynZInWXmFpDW
+ZcVJ0jzJ7sd0CE1FIJWmx4ykeUJizgJ/cMoga2MusjfuYEazo3H4csj72klwk5d3
+HwZaMdVB+ceJ5dAQye4NZnJMGO7nTWYql0QRHhUgsuBAzZwNHa1J1+UZBhvDEpZ8
+6X9ryE3/UPOAunXhmMevHHLzAONPHW1U0K8AUXjwBl5rFIiK7b+6+BmxbNdTvhc2
+pGxcEAtNgJfrGaVLcJ+e29O6nQpb+5IEtRb++C6oZtcI4UCpDgl8XTCKgY96Bzfn
+Cgt20PtdtTeaFGnFxOO8xkzWkaygMBNl5Walkg6/dC/z6+mDa+PBPDi7pPy9R7jy
+38MeQ0EqtLv5TNh82qrrBJS7yKhpMGgXKgmBGrVw0j+Xw6Tykjd0gNhplXvpv/8o
+P9SvPovUDRJN1M6Cx3hcTlcfRTvE3uG0Qm8ZfnLHYjUBir6i8jR0Ug8MK+om4wbz
+deO3PxTmVcJtJXZiwnpowc53Ji9c+15wMgpgNIApYLGZeIghCAs85OyVI+YN7IB7
+JoyUMwcysHGTVJh+UBF6mGGnuy4Mpo9kpLAE1Dt5KdqIgLGcBT7cGb0UGHNCLPPL
+ThQ1eHPDDEuLWS22TS0UJJy+9wo3m2zrqcGYrzoC6RvieKYPS1Wlc1Y+AQp8WAKo
+O5D5fpQZm/21xncZ9l/xLzuH
+=eq7H
 -----END PGP SIGNATURE-----
 
---===============4074806413754309560==
+--===============5647418451144918925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c2c7e4a12c7-4a3043563aa9.txt
+Content-Disposition: attachment; filename=revlist-1346e17653a5-cb0af18075f0.txt
 
-d032f2c04f76da24afb987f3e34be3d64c26460e net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
-0a823dae36079ad9f3aa03f1397ff7cec0d1443c qed: return status of qed_iov_get_link
-9bfbbf49f1d0d1252f6bdc54aded210d42de2893 ethernet: Fix error handling in xemaclite_of_probe
-1188d33690eeb2cd3951c2e032dfd919f54c1120 net: ethernet: ti: cpts: Handle error for clk_enable
-8e7156f364b0e2d25698c432291f27b26efed412 net: ethernet: lpc_eth: Handle error for clk_enable
-585042de8e4448c8b9f679ba9bad0d204995d78b ax25: Fix NULL pointer dereference in ax25_kill_by_device
-6a31aff417c8561992fb456b6ac972aa480c85be net/mlx5: Fix size field in bufferx_reg struct
-d4fa6d88d544e099e528bdd9e755b214f5012609 NFC: port100: fix use-after-free in port100_send_complete
-52c57a7dd883787003580171da9f491f113422de gpio: ts4900: Do not set DAT and OE together
-caf168259209486134e847524bac82c0c10e7414 gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
-247ef15e49ed26289f7d14b5f0dc03d3558eb97a net: phy: DP83822: clear MISR2 register to disable interrupts
-0497a71cc31647d5b32f853dc2aba8ead935ecf0 sctp: fix kernel-infoleak for SCTP sockets
-65f2b59a701b9f77112e4c8b38973791177993e4 net-sysfs: add check for netdevice being present to speed_show
-01e9851a41e340d702878d90b7586329baebdc72 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
-d3f1fbac93c4afbda5af3691cea02a2ea63e6f8c Revert "xen-netback: Check for hotplug-status existence before watching"
-bb667ff50aaa76b74581c0f863dc669f339b96ba tracing: Ensure trace buffer is at least 4096 bytes large
-4aa9c96a5b39663e2ecf60aa592a9d07e7d78e2d selftests/memfd: clean up mapping in mfd_fail_write
-c821d65d33eff9dd89d8dc62c65fef5644abab85 ARM: Spectre-BHB: provide empty stub for non-config
-736a4c386d55e363a1b683e24dc7effac00a9b11 staging: gdm724x: fix use after free in gdm_lte_rx()
-93c0fca801bbf204a1f62e5444ae50a82009b9d8 net: macb: Fix lost RX packet wakeup race in NAPI receive
-f08b3f077bdb767b5d9d63c0bef7ab9d49675b27 riscv: Fix auipc+jalr relocation range checks
-7ec3254efa8d7b3b9364094f7f16ee47015cc45d KVM: arm64: Reset PMC_EL0 to avoid a panic() on systems with no PMU
-d97835efa0bf6a619ee109c57c84a807e8ea727c virtio: unexport virtio_finalize_features
-3d0f11c7ba8d85440005645773c46fff15d120b1 virtio: acknowledge all features before access
-85ee4226c50875ba58830ffb30c8d11495e52066 ARM: fix Thumb2 regression with Spectre BHB
-0742c3c4cd334a229c9d916d8afc015310a9513c ext4: add check to prevent attempting to resize an fs with sparse_super2
-fa722baf3215bde4a3a4098073207ad77db9513e btrfs: unlock newly allocated extent buffer after error
-be755f18e3c0857a908e36c1be3cffacb087440b sched/topology: Make sched_init_numa() use a set for the deduplicating sort
-d60e4b407da0e9aaa2618b79586d3f31ed74dfe3 sched/topology: Fix sched_domain_topology_level alloc in sched_init_numa()
-1473c21ba3a00343a0826a391240e0c6067493a1 ia64: ensure proper NUMA distance and possible map initialization
-4a3043563aa908c48d7d1a19fccbd97c56fdd119 Linux 4.19.235-rc1
+defaa0061f0cd9c10f6761fe4629b8f7e01eff3a clk: qcom: gdsc: Add support to update GDSC transition delay
+c3aae2e86f680863fc5e11f438d973f79ba4fa58 arm64: dts: armada-3720-turris-mox: Add missing ethernet0 alias
+21a09014dbfec5d98cc6163d2d3e474cf26605c8 virtio-blk: Don't use MAX_DISCARD_SEGMENTS if max_discard_seg is zero
+77a63a508d9ade640343e7e5b228de06587502eb net: qlogic: check the return value of dma_alloc_coherent() in qed_vf_hw_prepare()
+3fd442f1babaca297050896728f41ce96ff91d79 qed: return status of qed_iov_get_link
+757e636e11102d1be7aa4a4948ea171e503a09d9 drm/sun4i: mixer: Fix P010 and P210 format numbers
+c9f21212d1c9e0117f0d46759e95b5d71c4833b5 ARM: dts: aspeed: Fix AST2600 quad spi group
+84d0810fc1a964cde8a6d5fed49691f4fe473c44 ethernet: Fix error handling in xemaclite_of_probe
+377e0a0a53dfbca1f19f4ae4d3116a36a8e3c906 net: ethernet: ti: cpts: Handle error for clk_enable
+800851735b7bec5f84ed48f223ad2f8167409007 net: ethernet: lpc_eth: Handle error for clk_enable
+2dd610907708e9894889a89cd6d98e711c62ed40 ax25: Fix NULL pointer dereference in ax25_kill_by_device
+76b443ac99fbd6f14ae4358c21cebb26cb96aac9 net/mlx5: Fix size field in bufferx_reg struct
+78cf76030ed7ce760e2c2098a5d33c29621174ed net/mlx5: Fix a race on command flush flow
+e9b3275cc56383270160f94eb60bee8a0206d674 NFC: port100: fix use-after-free in port100_send_complete
+55b287bd68279dbf9bf8bc4bff8acd531f3624a3 selftests: pmtu.sh: Kill tcpdump processes launched by subshell.
+102169bbebce3e24a4edd1b23b0c1723e734166f gpio: ts4900: Do not set DAT and OE together
+da471d01b00e5e8beca041edbf4cb7a5d46f1a2d gianfar: ethtool: Fix refcount leak in gfar_get_ts_info
+0d22109b359878075b963b1b6ea23551f80dff73 net: phy: DP83822: clear MISR2 register to disable interrupts
+327caff0ec31e3c6a1ade4473931766e07ca5c48 sctp: fix kernel-infoleak for SCTP sockets
+afb3ca59e07d0083bdc71d2b0a9d9b9bfaf121b3 net: bcmgenet: Don't claim WOL when its not available
+19013ac1e1ac4c273e1d8d17fcd2cc46c6d2f6c8 selftests/bpf: Add test for bpf_timer overwriting crash
+075ef50319d196ced454afb0b8f6deb9ddede5bb net-sysfs: add check for netdevice being present to speed_show
+3a11492e11a2023857f15eefac51dedc654e5ba2 Revert "xen-netback: remove 'hotplug-status' once it has served its purpose"
+420e251541de73f733aa981f78c0c1e2a0e7a908 Revert "xen-netback: Check for hotplug-status existence before watching"
+225469e246eb6514d4cf0e9881edf870eed24ebf ipv6: prevent a possible race condition with lifetimes
+f6befe5f455dd4ff14fb0156d68c92a037c08ecf tracing: Ensure trace buffer is at least 4096 bytes large
+cdc989a5aedbf0ee554237a1aa84fc001e588c48 selftest/vm: fix map_fixed_noreplace test failure
+ac39282bb60749c824b80cea0f097bd60756d583 selftests/memfd: clean up mapping in mfd_fail_write
+fdba18cc2e9f9b2d6c364ce46bd8381df91362d9 ARM: Spectre-BHB: provide empty stub for non-config
+35d48bb7f1416289fd21e217ec0e2eb43792c5c4 fuse: fix pipe buffer lifetime for direct_io
+0a5e1fb1e9057de2bd7d68cb6864538d1c372213 staging: gdm724x: fix use after free in gdm_lte_rx()
+69e864219b84b02e3345f416089468628f5bfb9d net: macb: Fix lost RX packet wakeup race in NAPI receive
+57f0a6dd488cd338fb9c5726c10d0d9741addd8f mmc: meson: Fix usage of meson_mmc_post_req()
+aa40e193d2d89be29be860c1bc2060048e7872cf riscv: Fix auipc+jalr relocation range checks
+36644354f911c0798dcbb5f5b9e5645ee2c30d71 arm64: dts: marvell: armada-37xx: Remap IO space to bus address 0x0
+e7258028d6cb3b6a8155917c7ca83d1fcb12854e virtio: unexport virtio_finalize_features
+155082f3d3a7371bd6d9aab6ff2896215bd2195e virtio: acknowledge all features before access
+66b5de650a304c81d12cc76ff21bbad77254b9a2 ARM: fix Thumb2 regression with Spectre BHB
+b423cdc0c5c025102a2ecd1d20fb26b0d4560229 ext4: add check to prevent attempting to resize an fs with sparse_super2
+72c0533c8645c67fc349e678d22e0e0fe3cdf90f x86/cpufeatures: Mark two free bits in word 3
+ef1518c9f8106d89f3dc9db00c857c367c66d5b8 x86/cpu: Add hardware-enforced cache coherency as a CPUID feature
+232947fdae0de727ac9b9aa78726544b00a3866a x86/mm/pat: Don't flush cache if hardware enforces cache coherency across encryption domnains
+1178ce23c61c48f7651fecb4f59e94af967c2dce KVM: SVM: Don't flush cache if hardware enforces cache coherency across encryption domains
+cb0af18075f051a9c4e242e027f1c6d08ac573a8 Linux 5.4.185-rc1
 
---===============4074806413754309560==--
+--===============5647418451144918925==--
