@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6754286650346950382=="
+Content-Type: multipart/mixed; boundary="===============6656551304161125186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Mon, 14 Mar 2022 20:33:16 -0000
-Message-Id: <164728999689.24028.18272712706059415838@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 20:33:31 -0000
+Message-Id: <164729001181.24185.14832560539097001099@gitolite.kernel.org>
 
---===============6754286650346950382==
+--===============6656551304161125186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc4-dts
-    old: 72aec006a5e3e9788a764274df44fa2ba1aebc68
-    new: e48b6dc31c0e0aefde50bfb6e48b2985a2f8c528
-    log: revlist-72aec006a5e3-e48b6dc31c0e.txt
+  - ref: refs/tags/v5.17-rc5-dts
+    old: c7b5bba7f7f8eb27485818427b8eeb8eaa50dd9b
+    new: edd799fd55e7186137aeed79bb507886d1ffdeb5
+    log: revlist-c7b5bba7f7f8-edd799fd55e7.txt
 
---===============6754286650346950382==
+--===============6656551304161125186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72aec006a5e3-e48b6dc31c0e.txt
+Content-Disposition: attachment; filename=revlist-c7b5bba7f7f8-edd799fd55e7.txt
 
-989cdcf7f1e6da40d8e39dc129ac9b9ee5733d46 dt-bindings: gpio: sifive,gpio: Group interrupt tuples
-2461b5e158cc1e61f630e12bc1d269557f115c72 arm64: meson: fix dts for JetHub D1
-3e5deab94068e9aac64a26dc815d0a7e9ecdc3aa arm64: dts: meson: p241: add vcc_5v regulator
-b6703a668febfdb4d94a0d9b40e177733f708a94 arm64: dts: meson: p241: add sound support
 f034283efb5bbbd84091a533eebc6e306c2d3ef0 arm64: dts: Update NAND MTD partition for Agilex and Stratix 10
 51b7ab2756155bd5b1d45145c197b3738abae529 dt-bindings: i2c: apple,i2c: allow multiple compatibles
 4489b6a9d140c427db9adeff3b3adadc52d5d26d arm64: dts: apple: add #interrupt-cells property to pinctrl nodes
@@ -1029,9 +1025,12 @@ e63990526114b2169d278fca521f3f85db0e40ab arm64: dts: meson-sm1-odroid: fix boot 
 5f532147e2e73febe8b2dcc85a0d7fd3f87cbdf2 ARM: dts: Fix boot regression on Skomer
 c1c98a41ffda0481a474946492d52b90a45b0654 Merge tag 'amlogic-fixes-v5.17-rc-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
 c3c70ba6e7a81d4a86dbbef274a4e69f58e92e65 MIPS: DTS: CI20: fix how ddc power is enabled
+7e62ef60b784aa11ebd4574e6b249e071c789362 MAINTAINERS: update cros_ec_codec maintainers
 e2e22c4a2dcd6a224d7a874333f360a2ff064123 Revert "arm64: dts: imx8mn-venice-gw7902: disable gpu"
 dd19787945ec5490d5a005e80f03634cb1f5cd97 Merge tag 'soc-fixes-5.17-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 44eb914f1718f2b4cd611888c32f99c8360f89e2 Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9bfc09103447597f253cc575558e1718d81da344 Merge tag 'asoc-fix-v5.17-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+6b622a1d0002a95fe28f60dcdc5ac1f707597100 Merge tag 'sound-5.17-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 3c4fc6acb048bd9eb9d8c32f68644ae6837f84e0 Merge tag 'v5.9-rc2-dts-raw'
 dd8abd48bf270dcf95462367b75e27e1dac0ca63 Merge tag 'v5.9-rc3-dts-raw'
 de5e7cb6acb2a582385627bbb57736287fa69e7d Merge tag 'v5.9-rc4-dts-raw'
@@ -1050,5 +1049,6 @@ e2110b3a3ada3c81b53b8757ed58da7b7e082851 Merge tag 'v5.17-rc1-dts-raw'
 b6773534aa4f73ff23e36c63c93c233c65344ce2 Merge tag 'v5.17-rc2-dts-raw'
 ff4066337f17937fbfa84709953369ee30628089 Merge tag 'v5.17-rc3-dts-raw'
 759199db4c457d537a8817243adc3bdbfda9fdb9 Merge tag 'v5.17-rc4-dts-raw'
+6a43a3661a8dfd5115b31ea3894d774c820c8118 Merge tag 'v5.17-rc5-dts-raw'
 
---===============6754286650346950382==--
+--===============6656551304161125186==--
