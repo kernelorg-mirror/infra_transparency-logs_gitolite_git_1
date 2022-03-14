@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 14 Mar 2022 14:52:09 -0000
-Message-Id: <164726952950.16077.13606845998897717053@gitolite.kernel.org>
+Date: Mon, 14 Mar 2022 14:52:43 -0000
+Message-Id: <164726956355.16362.7128585753118994254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvms390/linux
 user: borntraeger
 changes:
-  - ref: refs/heads/next
-    old: f494ca3edc8c839aec39269419d3e4f8706ae1a1
-    new: 08b1d8dfcfc5f7aa3285e22f373a0c759d4ef743
+  - ref: refs/tags/kvm-s390-next-5.18-2
+    old: 2d59deda5215c569a8323c2c9a6c53619e14a1d6
+    new: 0c2fbecece6b7e0f85bfa529126fb8536fbc081b
     log: |
          37c95af75e07055d0abe2b7e51869b69b36f403d KVM: s390x: fix SCK locking
          8823c04e3c0a0872e85513f0ef8cbb1296cf9627 KVM: s390: selftests: Split memop tests
