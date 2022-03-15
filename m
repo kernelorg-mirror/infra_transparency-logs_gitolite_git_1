@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 15 Mar 2022 16:22:00 -0000
-Message-Id: <164736132092.14266.1205549544119205095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Tue, 15 Mar 2022 16:22:32 -0000
+Message-Id: <164736135204.14534.18341598632992465391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/dev-test
-    old: 0e18a4058b3ed2ccae6537c275ebed2c8b498695
-    new: bbbbbefe49a688114a4f7e57c4dd31a78eaa791d
+  - ref: refs/tags/v5.9-rc2-dts
+    old: 9476eafb181c71da8eced260b5934d6bcfe9c01f
+    new: 334a9caee79566b319df60decbc1ce45a0b9e5af
     log: |
-         ba900534f807f0b327c92d5141c85d2313e2d55c f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-         a6f748c35eca6eedf2dda8b2a30abd640f1249dc f2fs: fix compressed file start atomic write may cause data corruption
-         9bed01cddc942719d3ff573ca4e02babecfde8ed f2fs: use spin_lock to avoid hang
-         bbbbbefe49a688114a4f7e57c4dd31a78eaa791d f2fs: remove redundant parameter judgment
+         6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
          
