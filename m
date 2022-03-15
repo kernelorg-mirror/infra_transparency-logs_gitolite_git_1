@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1268011674409767596=="
+Content-Type: multipart/mixed; boundary="===============8284045307301921989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Mar 2022 17:45:56 -0000
-Message-Id: <164736635613.11100.11132288391339961985@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 17:46:20 -0000
+Message-Id: <164736638079.11272.15690773696468635966@gitolite.kernel.org>
 
---===============1268011674409767596==
+--===============8284045307301921989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 239071064732bc4a30308cbba11014aa1aab550a
-    new: e9b667a82cdcfe21d590344447d65daed52b353b
+    old: e9b667a82cdcfe21d590344447d65daed52b353b
+    new: 16b1941eac2bd499f065a6739a40ce0011a3d740
     log: |
-         e9b667a82cdcfe21d590344447d65daed52b353b usb: usbtmc: Fix bug in pipe direction for control transfers
+         16b1941eac2bd499f065a6739a40ce0011a3d740 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
          
 
---===============1268011674409767596==
+--===============8284045307301921989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647366354 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647366379 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1647366352-20ce77bb0a39f87157419fe4a268d6b60319fd56
+nonce 1647366377-186cae2ca77ff70f3cdc122d8989ac11a0acac2e
 
-239071064732bc4a30308cbba11014aa1aab550a e9b667a82cdcfe21d590344447d65daed52b353b refs/heads/usb-linus
+e9b667a82cdcfe21d590344447d65daed52b353b 16b1941eac2bd499f065a6739a40ce0011a3d740 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIw0NIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LbgQANKBUik+DqqPDURwfEgn
-Qw4zfvtPergyPtQxTp1DzEMqauh3jS6K3+EnGwmH6WOirJ9IBYz9rj60vUT+xp9n
-QU9SVcah9/c63Pasex8btEnQrnu9Lje17tu2zFdQz03vEkR6htB7BtEnJeXnNH1/
-CbqGcNNzs5FEdCm+XhCyYwNe8MRzGni4sHswEMmKw5TSothExpTm2WfnXpeCOi44
-TQwk030K+C5guSdvbClXjw+QoKTG40P/yB8VN9ZphNAdIDYROy8YtkK920V9R23A
-ubyLD64w2RjB6JfYRBsFRO1/X4h33hD2JCbCQHDtGcHCV25QtAGkiC5uT+PFLeKU
-fRPQmWfYOmofIekHVZGYC3n0mAmh8ZFrrY5PAIP10Vfa7Yp09eOnn2P4ej4cV68c
-6ZIyByGYmaYKuOXsemPuHVySFjZPfGYwut/7ndTQhUXsLp8tO82/QFCqq2xaq5nS
-DkZSIyZDjDy/ADGhu2kt52NFQlj5iiSVRISc60Wtb0tSqhLzz2XGqCi8DY9ak86k
-svWKmdrw67p8luc6lYBK8hjV1RB3BWvg38YxMDA7WMR12anm6vojtCQFM5bpqNi6
-izjf3zzhRSHjemairl9d7AGKmv7gqZpsM9X01iogkhGUng7+Yf/nKj5uQCdOeqYp
-BKkUagU85wcNIF+Ah1bfvqQu
-=tht4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIw0OsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tlgP/0DrzZDayQ1qKTIjHKTX
+pfctS0OlusNGGEKOz8e0R5L8ZF7m7w6YrkZv5FSnwRijKW92QaQgKNWZKSFYLxlD
+yAzSczM3cqkCJ/i4Su2wxxLU9r3Txrz8905/58bm6fYt7h2xpoeU1Wambx9PRBz6
+74Rw7pKUG04yh4MfbypadFbC8Xo8dkAUrrX3EzcNZAcO/ADaAAhv99VCJPxmrKBC
+CzZ/TYLkIiIg6ECerPUH9RXFCv/ZnyiQReNxh3v8/v9asRY7dlyMJSvaTbl/RPKT
+yPQumMA35hvVJ0Qc91Id7oQAr+egh2pKKCWChGP+q73EdZ6w4yZSB5cg60PEQBzA
+1ii+xS/shfOLwQ5IWKCeqi2NmM0cJaIBENqlN1ig2fUeljbqtOOUQUna7Z7DU5yJ
+ppJTFOP1tuc/l1VcIze/gubWw3+/1BpYmCKO5WvpifsRJcYP4S1j+ep+QoJlQpNS
+2jgJ4v+HpTDaeVfEVlQa8fOKgp6VXrtPf9CSN2zfZJAO4fMTQEAaWBQDku4ZFSp4
+ytFcIs/ZmXXiPHY40mjehersafmdOHxGcPmwKPF7Tg2s4zGcDQln4E1/yyvY2RSr
+jmm1A0zH98NF8G2G9/LL/ywVTLQF/DzQoMgW0G7TstrqDjictDTz/23oSyaq2TZY
+MFxGnGXYA+IYTjZdIv1/zE5t
+=rnlj
 -----END PGP SIGNATURE-----
 
---===============1268011674409767596==--
+--===============8284045307301921989==--
