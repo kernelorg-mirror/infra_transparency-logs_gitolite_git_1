@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4832782391666652698=="
+Content-Type: multipart/mixed; boundary="===============6042990841287530502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Mar 2022 17:20:50 -0000
-Message-Id: <164736485060.26221.16790114072910774718@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 17:22:32 -0000
+Message-Id: <164736495240.26811.17286120518923902656@gitolite.kernel.org>
 
---===============4832782391666652698==
+--===============6042990841287530502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 977b94814006dd78a7853de696be8c5ef3f0e71b
-    new: 298ac860af9a0b604bcf06749a6acbd07548db99
+    old: 298ac860af9a0b604bcf06749a6acbd07548db99
+    new: d790a9db918f7c2356ea2f775cd868551218fc07
     log: |
-         69f8aeab437c6bae1394673154917e0a218edb44 x86/tsc: Be consistent about use_tsc_delay()
-         b0ae33a2d2fb6c55117b377ec4ae3f2c84eab6a2 usb: early: xhci-dbc: Remove duplicate keep parsing
-         298ac860af9a0b604bcf06749a6acbd07548db99 usb: early: xhci-dbc: Fix xdbc number parsing
+         b07cabb8361dc692522538205552b1b9dab134be USB: storage: ums-realtek: fix error code in rts51x_read_mem()
+         d790a9db918f7c2356ea2f775cd868551218fc07 usb: common: usb-conn-gpio: Make VBUS supply completely optional
          
 
---===============4832782391666652698==
+--===============6042990841287530502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647364849 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647364951 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1647364848-0446b28f80d944f35256a6b95fb98939bcf7b607
+nonce 1647364950-468ad3d09021d55a61929650adf5d003566212fd
 
-977b94814006dd78a7853de696be8c5ef3f0e71b 298ac860af9a0b604bcf06749a6acbd07548db99 refs/heads/usb-testing
+298ac860af9a0b604bcf06749a6acbd07548db99 d790a9db918f7c2356ea2f775cd868551218fc07 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIwyvEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kQUP/2DxbDRQDt0axHWKRQuO
-Nbu/O6yX74x6XH0gYz/B56OEApRe477xZk3IQuM5caL5KX2HdLq+zjm77OTpiPxr
-YrzVcKZdlUu/UxzpLWbWURhPkfTwzA5k/4ibGG6gR0C4pai6zMBQMpjb9AE1hgp4
-a9LDz3yAxGag3aG/hMQG1AaGECDWYV2VGv8OdaD9b2xywfshNE8U2tb8v9/Oxbad
-mBfdOlJlMO/moOfNPkdX7XSGBfMq+WFzdNox9deck9yUyoBLRoLDZx6wQWtGvnVJ
-lhKLT1aKL7fQQRzUiiZfKsWOTsgT18fXhYZqffwVWyLxlmhVOl1OMMLWgmXuvUf5
-fIb2f/4LgirdE3fw94jSmu2Y5dskIDKlC/SG71heXmSQqR4p4DUaVB5obNOUirs6
-EXJy50AHtmwCc6b+ohb+doueoOSKVyaeOz9srTvU2SQXPGJzfoov0tp0S59aGwSn
-BVEff55X1hHhY3c4eIEW75Ti/ctfYkoGwtG3NHopk+U0ariCbM7OVHVJvwLG7zsp
-l5gBhvyncnMH0w/VYaXm97j/hwEE9WBAA6ai4C/aum+NcRuMGxqjsYEhLzQL6e3O
-ymMPt5EzyzGscjPBuUjhaM2C+XHSx+XU9XoNOKz2rijU1KakW3FPnPJcv1cHaF+f
-sfCkyENoiEYmZoqxc1SE0DoE
-=pPso
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIwy1cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FTcQANTmr6ueyvqjkowxgg/t
+NP1y/Tg4VltyfAb1LiBLS8Oh91WKNn4kWTAa7RRkv1MHuQFvCiV3JLn83UQdsFxg
+sQaJ4bgFclQJjcIVBxldQqGnHaPFua93mwHWnE0L1IiLIAx15/XGw2wPNX1XyD8f
+vpCnthEmsH2anxdSPbm8KVy20iUrO1LZgZIJAtydL45IQ9pxVGsC6pUj4/04Fq7T
+4r5WMibDOummsxElxImEgk2cP/4+s9uWvj5xDmDrMMu4soGYSryTviHOmQDuMaiN
+dzUPjGwVwIE4hB6rU4XAkaVgzOgpvPr44dQ3gXjozGDsbfUlWTUOA+CpwLtKC59h
+1CNqYMgOmXSsfxMLVpiBMEtKX0a3v9Fo9PMJ066tvhKKStPDEdjTfykzX1WpmwjJ
+2K3rH/ds614aqdXUFqkrPQUiB363CzCbBcmrknWliL0V5dqWEnpjaU3V09DsEdd+
+IlWoI7P0p4Me0Zdre5EKATuxb7H5GJieDL2cSiTVuWq7BVh7TLh2NyfH+Xe/yOX3
+FchMQUKrmlyfma2pUhcvMi2H0tpwpZjVPQGTc89KJtac1x4fIa3I1s/cOPS5KazI
+tlk6jTbqH7+mEKlPMGnA/fkQjZTscK9+WP1f4FMtL2/D4zkYkSzn6wKV2iCYdzvE
+KTkvSNgRuU2fLev7Uq/bB2jW
+=AK9A
 -----END PGP SIGNATURE-----
 
---===============4832782391666652698==--
+--===============6042990841287530502==--
