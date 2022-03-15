@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Mar 2022 18:57:50 -0000
-Message-Id: <164737067053.27181.15010354466901357505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 15 Mar 2022 19:12:51 -0000
+Message-Id: <164737157134.4088.18299261089820330927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 72f56fdb97b26bc9a1ce297a636b91c19593eb19
-    new: abe2fec8ee66017aa32abc47c52266da6fbe1d9a
+  - ref: refs/heads/for-next
+    old: 73f7e05609ece4030f2745c4c0c01e0be6889590
+    new: 2c25e45267d0c7517578b7203a55fba2b6f6564a
     log: |
-         bbfbf7a5e77e4c899982c7df4cf3197cb6f99be4 Revert "netfilter: conntrack: mark UDP zero checksum as CHECKSUM_UNNECESSARY"
-         f1082dd31fe461d482d69da2a8eccfeb7bf07ac2 netfilter: nf_tables: Reject tables of unsupported family
-         4e8d9584d154479d357327f76d4e49486915c9c9 netfilter: flowtable: Support GRE
-         fcb6aa86532c1f321440f56f739a26ef856e6475 act_ct: Support GRE offload
-         1918ace1382d43430c8a61294fa4385065a46804 net/mlx5: Support GRE conntrack offload
-         334ff12284fc56bdc5af6d310c6381d96906f5a0 netfilter: bridge: clean up some inconsistent indenting
-         abe2fec8ee66017aa32abc47c52266da6fbe1d9a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+         6f6dbb819dfc1a35bcb8b709b5c83a3ea8beff75 RDMA/irdma: Prevent some integer underflows
+         7e8e611d6a0ff228577b1167335ffefb0f44d5d8 RDMA/rxe: Change variable and function argument to proper type
+         aaaf62e066231f68f937990bc99f728576a2eab5 RDMA/rxe: Remove useless argument for update_state()
+         7922d3de4d270a9aedb71212fc0d5ae697ced516 Revert "RDMA/core: Fix ib_qp_usecnt_dec() called when error"
+         087f9c3f2309ed183f7e4b85ae57121d8663224d RDMA/mlx5: Fix memory leak in error flow for subscribe event routine
+         2c25e45267d0c7517578b7203a55fba2b6f6564a RDMA/qib: Fix typos in comments
          
