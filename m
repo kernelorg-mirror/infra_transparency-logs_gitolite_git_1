@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4360113325680475839=="
+Content-Type: multipart/mixed; boundary="===============7444152379947562948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Mar 2022 04:58:43 -0000
-Message-Id: <164732032391.780.6801789269025798167@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 04:58:54 -0000
+Message-Id: <164732033497.880.706810241365742770@gitolite.kernel.org>
 
---===============4360113325680475839==
+--===============7444152379947562948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: fd1cda09f89338a1cda9fb7e485bc110d974f9ed
-    new: 6a9789b18b469e099bc3661ed1bc58e933d70c9f
+  - ref: refs/heads/5.18/scsi-queue
+    old: 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f
+    new: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
     log: |
          e9c478014b602fda2a99a6370d9eb2e5d7355246 scsi: scsi_debug: Silence unexpected unlock warnings
          3fd07aecb75003fbcb0b7c3124d12f71ffd360d8 scsi: scsi_debug: Fix qc_lock use in sdebug_blk_mq_poll()
@@ -29,33 +29,33 @@ changes:
          2bd3b6b75946db2ace06e145d53988e10ed7e99a scsi: ufs: core: scsi_get_lba() error fix
          
 
---===============4360113325680475839==
+--===============7444152379947562948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1647320316 -0400
+pusher 75C5DE3D 1647320327 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1647320315-5aa51a9ee41893aad64b6aaff02766ed6c8f3a40
+nonce 1647320326-df1fdb985cc53d02f7a16582245f030d95d66235
 
-fd1cda09f89338a1cda9fb7e485bc110d974f9ed 6a9789b18b469e099bc3661ed1bc58e933d70c9f refs/tags/mkp-scsi-queue
+71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f 2bd3b6b75946db2ace06e145d53988e10ed7e99a refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHPwACgkQ7ulgGnXF
-3j1Tjw//dp5KL4RlAsU/I7UVLMiQK0bagvgA5HtI+z7FWWDhif2ilyI1asSxNgBY
-1RZJJGU9aGfBRfOdKwF8unKsz9hWhNSxQpDtt0HaEwoVcw/OhzKCXVTsuLj7GF4t
-JABX5ietOiyKD15seMlwZvjY7R8Es7+semKIJUmdn3Rypg926a4+Gc2u1RA/NNDr
-iHVIrtkD7ORFcGmPFoiZI7PPJQjaXp6SscBz9DMozT1D206Yc1Cuvqs2U+Cf6xjO
-oPdcQ0KLdLyNomw3x3c4hm7Hzk/59EjqVv+3IWaXKftojRXzSqtHxifZLrXKQF00
-qoVJZuwlv7nN7ORuLcq4yXmZeOFzVTXDe+iUlkXihIr7fZiMcDOPpTPNQ+Ztivv7
-6iBYKDMFCC30WA/29ptkM0wP8P+j5mAefEbkhZTYzNZXxda9wG6WFnIaqt0O1iUa
-RMiFAoxU70Ol+OFdHJ2XzEvfXSQ7REkdlp/yc3JUAGiqkVecmPoOOgTr9GjC11tV
-ZgdcUZiT0JSmIEaOyzNTumyaSLcJZybaHs9jPHX2oLM8DXVD8DXoV7Z/dWUDz+Dn
-PY1q+I2gyv/DAj3wlknMcu43/bHPVyyYfuJ3elP1x4D4L+rDO7QvbPZ5vNiEyrW0
-78oE5N08BPS66l88tZk8g8OsJAu4J6n0jzc8ZsYZfeQjiCMrYn0=
-=Faal
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHQcACgkQ7ulgGnXF
+3j2yPw//V4dBX0qheEouox0NiGv4dEe9vQYjpZHCh8BFatRqpnVn4Gp7BHVLm4nM
+y0vjgO1E/do2fG/YaziGgDs/XBDOY7xsRBVcXSG9yLYi1eSsenSu+F55pOIRXbrU
+gRniUy+8WbZDsdquiKP985E/juoTin3oyOJhTUM6BM31EhIQUMXFMxO+hGdQce8g
+zB55RdPU9ckzCKqqeBq2Xb6nnUrHc8g3+y2t6kLDQwj7O9K7xamWul3aTtDAwm9v
+bx/Tjm1UIQW2hS6lWGEbRH06Gu2pYKnNwS1UPKg56tp1R0rHticgqumTOyZWqKtg
+1Ze94F7DK1SDQfpXdlb7H6Es+A4NQP16gzkiyYGcmMiJi68J1xLmDaHg9mPV8eEZ
+KabSsOrCyb1mMSmM+gzC0OFz3RQs85ZLscXfUVlKBqMkgkbTp2JfmMBA9PNDzQK5
+FDE42/yCSwVEuU/ry1sd/7CPkX+6YJqYPE5bhgf7dRBI6VQWidJGK5AAt9/s6jnJ
+47XHXancn6A5bAjd6+woXqPpnOu6LGCWr05SDCrxBASLrQMzL20C5lL8PjURQxDe
+d7qKvroQas+Imz7xpOlOkdHEEz1qlCa3A5jZEBRmcGHir+d15353AXwOB57Wj6Qe
+8cSkSMd+LDNnVl7d2wosmHL6V/0b90rWE8Tb+4oUrGMFYV4xZko=
+=adzb
 -----END PGP SIGNATURE-----
 
---===============4360113325680475839==--
+--===============7444152379947562948==--
