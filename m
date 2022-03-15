@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 14 Mar 2022 23:50:03 -0000
-Message-Id: <164730180348.24172.2284986996019741403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 15 Mar 2022 00:17:41 -0000
+Message-Id: <164730346175.8931.17234410405062961505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/io_uring-5.17
-    old: 80912cef18f16f8fe59d1fb9548d4364342be360
-    new: 9ccd435817a22cb8c7338c9ba6467ee233d0b22c
+  - ref: refs/heads/wip/jgg-for-next
+    old: 73f7e05609ece4030f2745c4c0c01e0be6889590
+    new: 2c25e45267d0c7517578b7203a55fba2b6f6564a
     log: |
-         9ccd435817a22cb8c7338c9ba6467ee233d0b22c io_uring: don't check unrelated req->open.how in accept request
+         6f6dbb819dfc1a35bcb8b709b5c83a3ea8beff75 RDMA/irdma: Prevent some integer underflows
+         7e8e611d6a0ff228577b1167335ffefb0f44d5d8 RDMA/rxe: Change variable and function argument to proper type
+         aaaf62e066231f68f937990bc99f728576a2eab5 RDMA/rxe: Remove useless argument for update_state()
+         7922d3de4d270a9aedb71212fc0d5ae697ced516 Revert "RDMA/core: Fix ib_qp_usecnt_dec() called when error"
+         087f9c3f2309ed183f7e4b85ae57121d8663224d RDMA/mlx5: Fix memory leak in error flow for subscribe event routine
+         2c25e45267d0c7517578b7203a55fba2b6f6564a RDMA/qib: Fix typos in comments
          
