@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============1995916590301740382=="
+Content-Type: multipart/mixed; boundary="===============4492161385040582188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 15 Mar 2022 13:25:43 -0000
-Message-Id: <164735074390.27505.4906967020987454485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Tue, 15 Mar 2022 13:26:17 -0000
+Message-Id: <164735077707.27734.8086392126864731515@gitolite.kernel.org>
 
---===============1995916590301740382==
+--===============4492161385040582188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/staging-testing
-    old: 78b33c600486e97c9b61c25a37b283c211be8560
-    new: 721412ed3d819e767cac2b06646bf03aa158aaec
-    log: |
-         721412ed3d819e767cac2b06646bf03aa158aaec staging: remove ashmem
-         
+  - ref: refs/heads/linux-next
+    old: 775fa31960509590035bf77d6569b56ed8723147
+    new: b7e51e7a4462553096ecbd50b505f185144b4700
+    log: revlist-775fa3196050-b7e51e7a4462.txt
+  - ref: refs/heads/vhost
+    old: 775fa31960509590035bf77d6569b56ed8723147
+    new: b7e51e7a4462553096ecbd50b505f185144b4700
+    log: revlist-775fa3196050-b7e51e7a4462.txt
 
---===============1995916590301740382==
+--===============4492161385040582188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-775fa3196050-b7e51e7a4462.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647350742 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647350741-accbf0b836e8009c8e5e85c37bd4b6c52a3ef5df
+943079124adebded1c4833db1cc7beb45d34a6c9 vDPA/ifcvf: implement shared IRQ feature
+2430cf541aaeb57dc0572730d7e30ab301db8139 vDPA/ifcvf: cacheline alignment for ifcvf_hw
+744d6fd9c2b0be934b3e720c6e48000206e9c39f mm/balloon_compaction: make balloon page compaction callbacks static
+6976ed308fa29ea77d6cedd3c54e8f3eddfd9d23 Add definition of VIRTIO_F_IN_ORDER feature bit
+f14813a0a49e0280460f9d171cdcd5589668b7ff virtio_crypto: Introduce VIRTIO_CRYPTO_NOSPC
+1eed0dcb582f3a8baf6385a8fdebe7626b268064 virtio-crypto: introduce akcipher service
+1130f97f7729ec4ac2a680bbaf5f04db6876668c virtio-crypto: implement RSA algorithm
+672100d5821e519aac5a4919528a9fe8897fdbe4 virtio-crypto: rename skcipher algs
+2dcf95f798432b666663b1cdce78617cdff831be net/mlx5: Add support for configuring max device MTU
+eee27a6c3d29e69b19d8bd8f4f56a449f757bc5b virtio_ring: rename vring_unmap_state_packed() to vring_unmap_extra_packed()
+7d176de9c390729bcb8eb0d4163132b7cea3b518 virtio_ring: remove flags check for unmap split indirect desc
+2c9d608a94641ad027c3fc9782aec791a3b775ca virtio_ring: remove flags check for unmap packed indirect desc
+b7e51e7a4462553096ecbd50b505f185144b4700 tools/virtio: fix after premapped buf support
 
-78b33c600486e97c9b61c25a37b283c211be8560 721412ed3d819e767cac2b06646bf03aa158aaec refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIwk9YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AGcP/j1eDkUPUchVJ43VRU38
-qjwBHcQs13jfUdW3LdqU0Kkdt64BAyGgt9yXm4w6/e818UO11bRqKg6D1p5+MmYa
-BokVyyjs7vgC6JqEXlwrwI/cIQ1LkjBNqMytVE+67AEQfRMJT8LaG3yRA7GjHCK6
-icME+0dpxY+4Zl5TzhX5I4TaUDWwFvG1scHZGnoMd5mZ717aJiY40s2TzYvFdAU4
-imEhDuNzKB8YMkskhqYeivMVOWACU7YoxBV1pZSTEO30RIjyxF1i99a341t82NUU
-eNvLL+joxguzjbBIUpiSeGc86eWHPDMDM7uEfahpTatyESnaHdbPO90cynHqIm0k
-gkvKQtaMrADk0GGO+6c2yduecwPDirbDR62AwuJLlBF72EJIOG+4sGcNkwlblImO
-AcOej/gBNsl4EXi/kSSmP2KsgclQaeNngfe2ep8X4sYKlV29p2MwfUJ0Ve+gY9Pu
-BzHsCL7qaxaSwrzTpsC1YYp+aA1blsBwbqQSnC9cw2MtFBkZYBhykSUI3ZLnn3je
-vL+ZOcRZCW8uq7MWgmRROcIH5Ui8+ot+UP+Gr7dAOkhwArdVrvd9s7JKs2fMfN9m
-RXSH975F4p9mFW52RoA2EgNLoCXEBciWdoBIJzSpsAOTbm7f0eOf3SAh1+dmSb1O
-he2PlT0I+LZe5GCk/T5iItgs
-=nJdD
------END PGP SIGNATURE-----
-
---===============1995916590301740382==--
+--===============4492161385040582188==--
