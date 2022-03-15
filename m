@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7708061093248079413=="
+Content-Type: multipart/mixed; boundary="===============6148015898527045295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Mar 2022 08:29:24 -0000
-Message-Id: <164733296469.7467.1172248644964408635@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 08:30:25 -0000
+Message-Id: <164733302585.9389.5266988858925328583@gitolite.kernel.org>
 
---===============7708061093248079413==
+--===============6148015898527045295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: f2aa197e4794bf4c2c0c9570684f86e6fa103e8b
-    new: ccacfe56d7ecdd2922256b87e9ea46f13bb03b55
-    log: revlist-f2aa197e4794-ccacfe56d7ec.txt
+  - ref: refs/heads/master
+    old: 2d8a4c1123c7d9d33c70777e86df761c60f159e8
+    new: a076c4ce87b492efbd33a953beef4f255d1dee16
+    log: revlist-2d8a4c1123c7-a076c4ce87b4.txt
 
---===============7708061093248079413==
+--===============6148015898527045295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2aa197e4794-ccacfe56d7ec.txt
+Content-Disposition: attachment; filename=revlist-2d8a4c1123c7-a076c4ce87b4.txt
 
 d0b9d6dcaa5ac480c272683919f387cc6d82b638 sched/headers: Fix header to build standalone: <linux/sched_clock.h>
 95458477f5b2dc436e3aa6aa25c0f84bb83e6195 sched/headers: Add header guard to kernel/sched/sched.h
@@ -42,5 +42,6 @@ c4ad6fcb67c42d65481c85733c8009c8afdfdf4e sched/headers: Reorganize, clean up and
 e81daa7b6489e9810fa699c5104c6fd500e64fb8 sched/headers: Reorganize, clean up and optimize kernel/sched/build_utility.c dependencies
 4ff8f2ca6ccd9e0cc5665d09f86d631b3ae3a14c sched/headers: Reorganize, clean up and optimize kernel/sched/sched.h dependencies
 ccacfe56d7ecdd2922256b87e9ea46f13bb03b55 Merge branch 'sched/fast-headers' into sched/core
+a076c4ce87b492efbd33a953beef4f255d1dee16 Merge branch into tip/master: 'sched/core'
 
---===============7708061093248079413==--
+--===============6148015898527045295==--
