@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0035009781247273353=="
+Content-Type: multipart/mixed; boundary="===============6476638546081282426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:27:09 -0000
-Message-Id: <164736162961.21341.17539063055672455767@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:27:14 -0000
+Message-Id: <164736163428.21453.4751906373156090538@gitolite.kernel.org>
 
---===============0035009781247273353==
+--===============6476638546081282426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.16-rc7-dts
-    old: e74aedbb2a1676d5cc330ae3430a5203ef0498e2
-    new: 8df300e015da67e9da8db6e860157adfac71a730
-    log: revlist-e74aedbb2a16-8df300e015da.txt
+  - ref: refs/tags/v5.16-rc8-dts
+    old: ad3365b4a93638e0459daeea7cd8f775ab9ec7cc
+    new: 4d93835ba97358fb5bfbd0707b7ae5fd673dd765
+    log: revlist-ad3365b4a936-4d93835ba973.txt
 
---===============0035009781247273353==
+--===============6476638546081282426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e74aedbb2a16-8df300e015da.txt
+Content-Disposition: attachment; filename=revlist-ad3365b4a936-4d93835ba973.txt
 
 6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
 aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -85,4 +85,4 @@ cd19412dc8b5583a76131502a8443c6a3492186a Merge tag 'v5.15-dts-raw'
 2c72560db4233578fba1683e8047aad37f8aab0d Merge tag 'v5.16-rc6-dts-raw'
 fa42bb6609f75278f5e645751b4a592b165a570e Merge tag 'v5.16-rc7-dts-raw'
 
---===============0035009781247273353==--
+--===============6476638546081282426==--
