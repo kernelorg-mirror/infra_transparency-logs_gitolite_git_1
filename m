@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8195930989610706819=="
+Content-Type: multipart/mixed; boundary="===============1368033026819366666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:24:52 -0000
-Message-Id: <164736149220.17252.8060376514482996802@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:24:56 -0000
+Message-Id: <164736149650.17358.6165036757597237052@gitolite.kernel.org>
 
---===============8195930989610706819==
+--===============1368033026819366666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.12-dts
-    old: 5cc099068718f2b21377101a244f347d958c8988
-    new: 23a675044550332ee57dc3b7998d3ccbbe044ef0
-    log: revlist-5cc099068718-23a675044550.txt
+  - ref: refs/tags/v5.13-rc1-dts
+    old: 73bac6202f28b35f2bdeb38abdb32a64aa191f6c
+    new: 12504932b062aebd3fbd327b622b47b4b6c26e92
+    log: revlist-73bac6202f28-12504932b062.txt
 
---===============8195930989610706819==
+--===============1368033026819366666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cc099068718-23a675044550.txt
+Content-Disposition: attachment; filename=revlist-73bac6202f28-12504932b062.txt
 
 6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
 aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -57,5 +57,6 @@ f5630e304315ec636add6ba661c1792863132c24 Merge tag 'v5.12-rc5-dts-raw'
 0f649056d4a2127758bac32ff7989f0a4b3af4c8 Merge tag 'v5.12-rc7-dts-raw'
 8a15133bcbec39a53ea2e4461190037c628d56b5 Merge tag 'v5.12-rc8-dts-raw'
 2104734b10f9219771f4c9112570e5b8bed8bc41 Merge tag 'v5.12-dts-raw'
+cb2e824caf46c09327b873dcd38b83b9bbfb3085 Merge tag 'v5.13-rc1-dts-raw'
 
---===============8195930989610706819==--
+--===============1368033026819366666==--
