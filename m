@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8287336644739107807=="
+Content-Type: multipart/mixed; boundary="===============7945108698399211458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Mar 2022 14:45:24 -0000
-Message-Id: <164735552443.16567.13851875720367364729@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 14:46:18 -0000
+Message-Id: <164735557808.16946.1147376495496293296@gitolite.kernel.org>
 
---===============8287336644739107807==
+--===============7945108698399211458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: aa6812be1feb75139b9bc263915b3f1ceeb4e154
-    new: ecb0a2f1e9e263645c9344e898423937ea842551
+    old: ecb0a2f1e9e263645c9344e898423937ea842551
+    new: f0397247a82bdc037454af37f00e9c966686a5f5
     log: |
-         ac01df343e5a6c6bcead2ed421af1fde30f73e7e usb: dwc3: omap: fix "unbalanced disables for smps10_out1" on omap5evm
-         ecb0a2f1e9e263645c9344e898423937ea842551 usb: dwc3: pci: Add support for Intel Alder Lake
+         f0397247a82bdc037454af37f00e9c966686a5f5 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
          
 
---===============8287336644739107807==
+--===============7945108698399211458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647355523 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647355576 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1647355522-61fb9dda9a6d7a49f3861de0af0c72167a340cea
+nonce 1647355576-179b4b3f81891fa0b763e669222f361d54381973
 
-aa6812be1feb75139b9bc263915b3f1ceeb4e154 ecb0a2f1e9e263645c9344e898423937ea842551 refs/heads/usb-testing
+ecb0a2f1e9e263645c9344e898423937ea842551 f0397247a82bdc037454af37f00e9c966686a5f5 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIwpoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nK0P/0ghRibAbkw3+e+t+WaL
-nko7dPvhupogvxsGmzfwYWCiDK6I7MOf67MDqgHSK2oBb/mvxuZTdNn7gWtzM2T7
-EEOXmKu/YvYK6kR/Gp1n5StBOWmJI9saymqUVpoD711oE87jLN47dqYC5bC+wrjX
-IWFi/O9mpLnnehjyiC8JuH1Ymiu8CFMm4U+BxKcu+tAcXTmrQDuYEwSoaMx1imTi
-hWZAC87MRz2MxMT5rvpZYb6xiQG8HMpsCvdPkHghjr04vW0/dW8WndmYcOfQ0nyB
-Bry0VGlh3fxQyA2SsfhtEMMc8nT69yVeP250lsQhfwjKJm29n7TcmIyxCOQsCceQ
-m69yOWEaAHCT9d+63++I45oWeTOpL6jWPf2yaQQIFgQ4pWDiurPxIwOTpbEvea/+
-+qxlQNeraFpwKwIN+KV99kz5yTg5fhQONZb5P5S5QJwXLkWnwRcj4dRVxwIqi3dT
-V5wSSPplkE5JwHOJzg8gVdOjichIe73k3/NLaw2wHYp9QllfAClghFA1qDKceda/
-TyH8eNxG+aqrypLekBuQ6YDC0jpsk068o71X08Zn8Iwjx/y2TZ6xCzG7vlFRmnZs
-GCFJ3/KXhkfyE8JiKyh3WMjRlfVeZpYDxST0HtMb408Ht8byC/jNOM+Q5CfLVs54
-s06YGakDSjxbSmvfXT7u51aO
-=wGkV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIwprgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rV8QAL3/wx+euDr8TT053z6u
+mo9zzGtmfnmBkjR5bQ/zDnoGefh/zNq+fAubtS5XD2JC/lIvzDErzhrgOUB/N7l4
++4oadM4ViI30QjO1MZx6w6F1eB1HxaWjhvqywTB03sdDmQ0L75lpEEDsMNiN3B7c
+TOBt/kpmPCttIsB8njxyX1K4y7jT2PgB77t5vDPvECkuxEVjirLOZlkii5hXmSIX
+9qB8aS/1O0M0v5eZe4PFN06sxx487YuH22GRv9xByNIUw1EWRnR853pbTZ7Hroiz
+0/JhEdKJnRH/2zsRY2J8cwABQzekLKeHxQkjZ9o9Hr632jwCumTCmjc7IcfBqXb7
+bCXdQ4DKWcrPODDn6Fl3G6eQ57mZtEt0ZxvSLmzNTxC7cjDjc+cIU80Xp5Js3kla
+zZyykX01imXAKvGR3sNq79MDGrbCpJQbw6b4j90+rQSDcn+llP08reSI8/ttygUG
+CL8bJ9Leo8d2O2TKds63qsPwI/+A8G5qjnomnwBCLdkmmNKowFtNHvn2s1zxLCoY
+LyJcgjDsinzodQpxdIzL/G07BTIlDfOV++ucjcbHvROJF9XwvY6grT+3O7Lk21at
+g+TGYldyET6Tf7840aA5/R6V8LbEGURqkJ47b6msAPpwtvXl6dpoQoyt7elBETe2
+xE2IGBfuJWnJkS9rzuBgeyCr
+=/r3w
 -----END PGP SIGNATURE-----
 
---===============8287336644739107807==--
+--===============7945108698399211458==--
