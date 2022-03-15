@@ -1,47 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4492161385040582188=="
+Content-Type: multipart/mixed; boundary="===============7432881027215981256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 15 Mar 2022 13:26:17 -0000
-Message-Id: <164735077707.27734.8086392126864731515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 15 Mar 2022 13:39:03 -0000
+Message-Id: <164735154329.2454.8073447498999739453@gitolite.kernel.org>
 
---===============4492161385040582188==
+--===============7432881027215981256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: 775fa31960509590035bf77d6569b56ed8723147
-    new: b7e51e7a4462553096ecbd50b505f185144b4700
-    log: revlist-775fa3196050-b7e51e7a4462.txt
-  - ref: refs/heads/vhost
-    old: 775fa31960509590035bf77d6569b56ed8723147
-    new: b7e51e7a4462553096ecbd50b505f185144b4700
-    log: revlist-775fa3196050-b7e51e7a4462.txt
+  - ref: refs/heads/for-5.18
+    old: 910f42bfe96783fc633196bd975731a420c7a066
+    new: a8ae15ead9c9d10671c3f76cb0749dec6e571ce7
+    log: |
+         a8ae15ead9c9d10671c3f76cb0749dec6e571ce7 ASoC: atmel: mchp-pdmc: Fix `-Wpointer-bool-conversion` warning
+         
 
---===============4492161385040582188==
+--===============7432881027215981256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-775fa3196050-b7e51e7a4462.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-943079124adebded1c4833db1cc7beb45d34a6c9 vDPA/ifcvf: implement shared IRQ feature
-2430cf541aaeb57dc0572730d7e30ab301db8139 vDPA/ifcvf: cacheline alignment for ifcvf_hw
-744d6fd9c2b0be934b3e720c6e48000206e9c39f mm/balloon_compaction: make balloon page compaction callbacks static
-6976ed308fa29ea77d6cedd3c54e8f3eddfd9d23 Add definition of VIRTIO_F_IN_ORDER feature bit
-f14813a0a49e0280460f9d171cdcd5589668b7ff virtio_crypto: Introduce VIRTIO_CRYPTO_NOSPC
-1eed0dcb582f3a8baf6385a8fdebe7626b268064 virtio-crypto: introduce akcipher service
-1130f97f7729ec4ac2a680bbaf5f04db6876668c virtio-crypto: implement RSA algorithm
-672100d5821e519aac5a4919528a9fe8897fdbe4 virtio-crypto: rename skcipher algs
-2dcf95f798432b666663b1cdce78617cdff831be net/mlx5: Add support for configuring max device MTU
-eee27a6c3d29e69b19d8bd8f4f56a449f757bc5b virtio_ring: rename vring_unmap_state_packed() to vring_unmap_extra_packed()
-7d176de9c390729bcb8eb0d4163132b7cea3b518 virtio_ring: remove flags check for unmap split indirect desc
-2c9d608a94641ad027c3fc9782aec791a3b775ca virtio_ring: remove flags check for unmap packed indirect desc
-b7e51e7a4462553096ecbd50b505f185144b4700 tools/virtio: fix after premapped buf support
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1647351541 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1647351541-330ea2696cf2e44bff82e66d0bb8f231ce4cdef2
 
---===============4492161385040582188==--
+910f42bfe96783fc633196bd975731a420c7a066 a8ae15ead9c9d10671c3f76cb0749dec6e571ce7 refs/heads/for-5.18
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIwlvUACgkQJNaLcl1U
+h9C8dAf/biY2cB4l7R3usLh5hOIGmRLXO5Q5qi9f+gEJnQ46Da5icLtcFWZ+TEhI
+jnk9D88M3rWb4rkGGJHXjSL9lAinlUEWTV9mOQxMdm23CEQPUYTaRPiTlgGJ6bjF
+NQyYRpTFTZ2L1MTr5ZlJhMCnmb4IBWpIkIvmXkeh5qXggS43aoTrN0oSzUMA9rkK
+BlWPTfbEY9OV/6ytg8KtqelXxBPzw5LcHkVE0hNeQUL7tUlPfB500WFuu1qmOggM
+lZ5+jaTBfgCrDiel1WWtc5aS3dZta2GFo2WD4czELLR9qQl2A4JzfkN9U9olz9RU
+ZzrRS3LdbWHzhZL97Y34hzG8YGChmg==
+=jqq+
+-----END PGP SIGNATURE-----
+
+--===============7432881027215981256==--
