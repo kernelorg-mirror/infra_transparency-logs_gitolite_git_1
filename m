@@ -1,26 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 15 Mar 2022 11:06:08 -0000
-Message-Id: <164734236801.30328.2297880308175623770@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8788473553255815321=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 15 Mar 2022 11:07:41 -0000
+Message-Id: <164734246127.30943.2491648819254139115@gitolite.kernel.org>
+
+--===============8788473553255815321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 00eec9fe4f3b9588b4bfa8ef9dd0aae96407d5d7
-    new: cc01575924f7d85d67bc0b14a52b183327cff39c
+  - ref: refs/heads/main
+    old: de29aff976d3216e7f3ab41fcd7af46fa8f7eab7
+    new: dde78aa520155316f31fca1b0f4dfcb779151799
     log: |
-         12644a59cbc36543f0c8c44d37e6ce0663d7b433 stmmac: dwmac-mediatek: add platform level clocks management
-         c71bf30bb73a4af765fe25aa4470025c264d831c stmmac: dwmac-mediatek: Reuse more common features
-         7d0fb37fbe07c682e5ca1c747716138d04018e72 stmmac: dwmac-mediatek: re-arrange clock setting
-         2b6763dcc702550445b245d55093efa29504dc21 arm64: dts: mt2712: update ethernet device node
-         e65187c3e9688fe6fe4384f0854067334251517d net: dt-bindings: dwmac: Convert mediatek-dwmac to DT schema
-         80ce5da7595de419e04d531417ad31534110ce43 stmmac: dwmac-mediatek: add support for mt8195
-         e4ce7d3683af4f9aaeb37671007591205012b22c net: dt-bindings: dwmac: add support for mt8195
-         cc01575924f7d85d67bc0b14a52b183327cff39c Merge branch 'mediatek-ethernet-patches-on-mt8195'
+         3fa5a0f5b0d69e31c6476cd81afeca3cc25a4927 mac80211: always have ieee80211_sta_restart()
+         2b3171c6fe0af24b5506e061525e08917a2f744a mac80211: MBSSID beacon handling in AP mode
+         c9eb90a56842a95351ee2d03933b1d8e36addc38 mac80211: MBSSID channel switch
+         dde78aa520155316f31fca1b0f4dfcb779151799 mac80211: update bssid_indicator in ieee80211_assign_beacon
          
+
+--===============8788473553255815321==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1647342443 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1647342443-291edd007577ed606626e5c509e44afbed3b7692
+
+de29aff976d3216e7f3ab41fcd7af46fa8f7eab7 dde78aa520155316f31fca1b0f4dfcb779151799 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEH1e1rEeCd0AIMq6MB8qZga/fl8QFAmIwc2sACgkQB8qZga/f
+l8QF9g//WcTv4IZDldNeFpk6iDvbSCuMLTgwdDsLKlpzFzDLIHVnS70B+UyI524H
+Svl5gRA+BhN66yqDARqk3f+zep960DIFRY/AOsl5fNLyS7z0Plv7NXIIO0kG+OFd
+xkQbheajnPMDy/JCrYIqqZtXjmJdrVKEcgCFBkIeHxJwDLf4+hmySthmdwYe5njQ
+pepTPkduhiPO/guKHm6il5Doc9+0fmmXruXOt00GgSu8Dowt1gMZMZ3VZgRou2gH
+mcFWHE9ZTSJG/dSvauN0C77bmYAlc4g+OHB5AxFe1ZT28qMWZvDfmealkAEFM5Ww
+JxJMq7zlQLjzWvkXHOSwyaMe9mfwNqu7mo+5axSB4/b7cxZsoMK/sLg/urnNihki
+AEqgJ5ast78vTGh1PrsWutCDUJi7SvFGvF6pa8isPh/2mxlkaSgiZwADjU86fyhx
+P/aUfg7X6PGtIl4RBZ0N/nhsyPD0VjBXWF5qW/Hc8MJWswTuJgiqdaMlft+OKYMA
+ztHaeW6jUNMRTGrRa+mqt6YIGmstvMB2BPccsY5TyFWrWMJZTrBpTszcnuZLW58f
+I713xWHoDGrADAxwz4akwZkjWst0AF/+EANYA8e/zuLcB8dyJ5SzYs70BGrGv/++
+xUvXxAY6lR0oopc/V/Alfa/Jl0usygUfHrAlj8ipTYLzUNXVQdU=
+=zhH8
+-----END PGP SIGNATURE-----
+
+--===============8788473553255815321==--
