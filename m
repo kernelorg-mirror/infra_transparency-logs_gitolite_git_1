@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6325126076945274797=="
+Content-Type: multipart/mixed; boundary="===============8811813280431761363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:24:39 -0000
-Message-Id: <164736147902.16994.14286523250972093189@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:24:43 -0000
+Message-Id: <164736148353.17107.12035296858926286304@gitolite.kernel.org>
 
---===============6325126076945274797==
+--===============8811813280431761363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.12-rc6-dts
-    old: bbd28b0bb2b379230b2fe92a0626d29cbfb95a61
-    new: 93f661e7d347d203460bddb6b537ce704f7c1c1b
-    log: revlist-bbd28b0bb2b3-93f661e7d347.txt
+  - ref: refs/tags/v5.12-rc7-dts
+    old: c37290a8e6b307e2e8c7d9569d1a64f16001825c
+    new: 3bceba8a3af56ff2d8a75917729f26fda6739aa6
+    log: revlist-c37290a8e6b3-3bceba8a3af5.txt
 
---===============6325126076945274797==
+--===============8811813280431761363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbd28b0bb2b3-93f661e7d347.txt
+Content-Disposition: attachment; filename=revlist-c37290a8e6b3-3bceba8a3af5.txt
 
 6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
 aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -54,5 +54,6 @@ ab520b68409e214f15755e441be9a934fbb722f5 Merge tag 'v5.11-rc7-dts-raw'
 cff19261642d4f60047f123cb03b9ec80ca382bd Merge tag 'v5.12-rc3-dts-raw'
 fff646122146e30b7240b05107007fbf3b6ef1a5 Merge tag 'v5.12-rc4-dts-raw'
 f5630e304315ec636add6ba661c1792863132c24 Merge tag 'v5.12-rc5-dts-raw'
+0f649056d4a2127758bac32ff7989f0a4b3af4c8 Merge tag 'v5.12-rc7-dts-raw'
 
---===============6325126076945274797==--
+--===============8811813280431761363==--
