@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6160513886631095637=="
+Content-Type: multipart/mixed; boundary="===============4360113325680475839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Mar 2022 04:58:31 -0000
-Message-Id: <164732031194.613.15008550291686609447@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 04:58:43 -0000
+Message-Id: <164732032391.780.6801789269025798167@gitolite.kernel.org>
 
---===============6160513886631095637==
+--===============4360113325680475839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 10af115646171afc0217177d6eae92917b785897
-    new: 69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3
+  - ref: refs/tags/mkp-scsi-queue
+    old: fd1cda09f89338a1cda9fb7e485bc110d974f9ed
+    new: 6a9789b18b469e099bc3661ed1bc58e933d70c9f
     log: |
-         69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 scsi: mpt3sas: Page fault in reply q processing
+         e9c478014b602fda2a99a6370d9eb2e5d7355246 scsi: scsi_debug: Silence unexpected unlock warnings
+         3fd07aecb75003fbcb0b7c3124d12f71ffd360d8 scsi: scsi_debug: Fix qc_lock use in sdebug_blk_mq_poll()
+         271add11994ba1a334859069367e04d2be2ebdd4 scsi: libfc: Fix use after free in fc_exch_abts_resp()
+         0c25422d34b4726b2707d5f38560943155a91b80 scsi: mpt3sas: Remove scsi_dma_map() error messages
+         208cc9fe6f21112b5cc6cb87065fb8ab66e79316 scsi: mpt3sas: Fix incorrect 4GB boundary check
+         296559d41e0f8e7c8f198dd3946e288255088cef scsi: ufs: docs: UFS documentation corrections
+         2bd3b6b75946db2ace06e145d53988e10ed7e99a scsi: ufs: core: scsi_get_lba() error fix
          
 
---===============6160513886631095637==
+--===============4360113325680475839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1647320304 -0400
+pusher 75C5DE3D 1647320316 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1647320303-1597d5c6108537fc6cafc9cabd5e85cdd44279af
+nonce 1647320315-5aa51a9ee41893aad64b6aaff02766ed6c8f3a40
 
-10af115646171afc0217177d6eae92917b785897 69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 refs/heads/fixes
+fd1cda09f89338a1cda9fb7e485bc110d974f9ed 6a9789b18b469e099bc3661ed1bc58e933d70c9f refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHPAACgkQ7ulgGnXF
-3j0yAw//dGsag7u5bs6qQOfoRo8275/1SJhGz8VmCy017Ui3tQezqPPkHV0355Fh
-wX7rIvPyr0uOGiKNt7roenlvnSfD7AcLjaFqDGk+8mkACNJLKOFpPp8Kw6fZ8+TV
-x8LLZO+yOC9lHaLH18W6G08dnZTpGD/dfruVaUlYyISf6PjmHExCL3yMyIemI9FY
-fOP1z9eRBN6fPoBAYRL3/WmA7ePLeXDgtvqo9BwSrXaTFgnhvoeUwJFXpuFqqYTC
-lHqPK2f6HenJTlYRdlMhgsWYwEJUkrWbia6kTKGORcGAKjLxBlLLyuKgBoFbkm8V
-SNbIRN31kLN489nCA9UBnY7FY2Ps58bXYpny0m2k5DnC+2VbHq97r1tJOKC3USO9
-fJjPtbU8Pkdd21e3lsLy0IRBAAogbQsQlKhEkVdIJf/Ib7r3XtTtfV0UcWICuwbf
-35/cW5Kq+vYDnkqd37+iRhPVed7kRYgUSPfUF6EKrOIK+03OzP77imMnuGFs3dLZ
-9cYrzmHk1VTPzJrG7uT82m5fr2DQmV86c517oHcRLy1zBBMIR2kjbwrus3mpTX7b
-HcIlaesnTr7Jp9NLyhbgC8iCjYThKSkJ/IgJm6CINy63+nIXIzywB7tw5rpwHyWr
-qCda26mBUr/8T7bzycLoN6i0vYXbuw9Jtgaa/33/loszdVYYEvg=
-=8lCD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHPwACgkQ7ulgGnXF
+3j1Tjw//dp5KL4RlAsU/I7UVLMiQK0bagvgA5HtI+z7FWWDhif2ilyI1asSxNgBY
+1RZJJGU9aGfBRfOdKwF8unKsz9hWhNSxQpDtt0HaEwoVcw/OhzKCXVTsuLj7GF4t
+JABX5ietOiyKD15seMlwZvjY7R8Es7+semKIJUmdn3Rypg926a4+Gc2u1RA/NNDr
+iHVIrtkD7ORFcGmPFoiZI7PPJQjaXp6SscBz9DMozT1D206Yc1Cuvqs2U+Cf6xjO
+oPdcQ0KLdLyNomw3x3c4hm7Hzk/59EjqVv+3IWaXKftojRXzSqtHxifZLrXKQF00
+qoVJZuwlv7nN7ORuLcq4yXmZeOFzVTXDe+iUlkXihIr7fZiMcDOPpTPNQ+Ztivv7
+6iBYKDMFCC30WA/29ptkM0wP8P+j5mAefEbkhZTYzNZXxda9wG6WFnIaqt0O1iUa
+RMiFAoxU70Ol+OFdHJ2XzEvfXSQ7REkdlp/yc3JUAGiqkVecmPoOOgTr9GjC11tV
+ZgdcUZiT0JSmIEaOyzNTumyaSLcJZybaHs9jPHX2oLM8DXVD8DXoV7Z/dWUDz+Dn
+PY1q+I2gyv/DAj3wlknMcu43/bHPVyyYfuJ3elP1x4D4L+rDO7QvbPZ5vNiEyrW0
+78oE5N08BPS66l88tZk8g8OsJAu4J6n0jzc8ZsYZfeQjiCMrYn0=
+=Faal
 -----END PGP SIGNATURE-----
 
---===============6160513886631095637==--
+--===============4360113325680475839==--
