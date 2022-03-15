@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
-Date: Tue, 15 Mar 2022 16:54:49 -0000
-Message-Id: <164736328982.7388.11178457817033095272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 15 Mar 2022 17:01:54 -0000
+Message-Id: <164736371490.13046.16262312582780404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: ecaf90ac8f6aab55987e4f21680fc95d81e58350
-    new: cfde37f5bdf90823260960e105a570f2382cba71
+  - ref: refs/heads/x86/misc
+    old: 16273fa4f3a2dc2c64dd8a28fe30f255a4de0e4c
+    new: 686016f732420f88dd2e1d67cf4bb5dffdb93c82
     log: |
-         99660051e2b55be77dd638e0cce31ce6879cace5 trace-cmd library: Fix off by one in tracecmd_read_cpu_first()
-         b898502f46fcb8ee2a25a850cfe33351a8a67f26 trace-cmd report: Have -q not print empty CPUs
-         0182ed722e6ae96d471caa546039202fb12cb36f trace-cmd report: Add --cpus option
-         d38cbfc863bc762296995fb9ac18f2c43f5ed8a5 trace-cmd record: Add --name option to name unnamed guests
-         37623725105f54a0708f692dca2ffaa169e652f6 trace-cmd agent: Move becoming daemon after prints and errors
-         75bcde2f70b8b5b3f7c46828c0503a9f66c29643 trace-cmd list: Have -o read the options directory instead of file
-         cfde37f5bdf90823260960e105a570f2382cba71 trace-cmd stat: Update the usage and man pages
+         01683580c65ffe0ce72d52cfb5225b80b477c598 MAINTAINERS: Update maintainers for paravirt ops and VMware hypervisor interface
+         d69079d04f9319bfd4e90b788f19927142c55901 MAINTAINERS: Add Zack as maintainer of vmmouse driver
+         686016f732420f88dd2e1d67cf4bb5dffdb93c82 MAINTAINERS: Mark VMware mailing list entries as email aliases
          
