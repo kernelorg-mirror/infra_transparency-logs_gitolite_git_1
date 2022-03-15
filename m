@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6026674420625823621=="
+Content-Type: multipart/mixed; boundary="===============7403548129681910710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:27:23 -0000
-Message-Id: <164736164326.21604.11583746715565792545@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:27:27 -0000
+Message-Id: <164736164777.21714.4044564766093278180@gitolite.kernel.org>
 
---===============6026674420625823621==
+--===============7403548129681910710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.17-rc1-dts
-    old: 9c19ec3d28833c8d12c01ff48e4816dfd59d33c5
-    new: dab89f7b0cceb9b34dc746ffbdeaf64ebe9be64a
-    log: revlist-9c19ec3d2883-dab89f7b0cce.txt
+  - ref: refs/tags/v5.17-rc2-dts
+    old: d10cf3ee3a0f9b7df644e412c96eff39cd470f93
+    new: 548e0b06c35c564ae0b95031fbea639c5382bc3f
+    log: revlist-d10cf3ee3a0f-548e0b06c35c.txt
 
---===============6026674420625823621==
+--===============7403548129681910710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c19ec3d2883-dab89f7b0cce.txt
+Content-Disposition: attachment; filename=revlist-d10cf3ee3a0f-548e0b06c35c.txt
 
 6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
 aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -86,5 +86,6 @@ cd19412dc8b5583a76131502a8443c6a3492186a Merge tag 'v5.15-dts-raw'
 fa42bb6609f75278f5e645751b4a592b165a570e Merge tag 'v5.16-rc7-dts-raw'
 3920e400bbf7f5e9ad353f9bc0e9f71c7c18e862 Merge tag 'v5.16-dts-raw'
 94e0ad1ce15a35dbd9750c2fc70f24c3be76ed2e Merge tag 'v5.17-rc1-dts-raw'
+5193248502bcdfb9260e2332cd49a7ab901e08b1 Merge tag 'v5.17-rc2-dts-raw'
 
---===============6026674420625823621==--
+--===============7403548129681910710==--
