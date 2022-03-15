@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1525388682737298533=="
+Content-Type: multipart/mixed; boundary="===============7415172602664964191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Mar 2022 04:59:05 -0000
-Message-Id: <164732034596.1022.11301258096349106414@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 04:59:18 -0000
+Message-Id: <164732035884.1169.198368524481208490@gitolite.kernel.org>
 
---===============1525388682737298533==
+--===============7415172602664964191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,75 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f
-    new: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
-    log: |
-         e9c478014b602fda2a99a6370d9eb2e5d7355246 scsi: scsi_debug: Silence unexpected unlock warnings
-         3fd07aecb75003fbcb0b7c3124d12f71ffd360d8 scsi: scsi_debug: Fix qc_lock use in sdebug_blk_mq_poll()
-         271add11994ba1a334859069367e04d2be2ebdd4 scsi: libfc: Fix use after free in fc_exch_abts_resp()
-         0c25422d34b4726b2707d5f38560943155a91b80 scsi: mpt3sas: Remove scsi_dma_map() error messages
-         208cc9fe6f21112b5cc6cb87065fb8ab66e79316 scsi: mpt3sas: Fix incorrect 4GB boundary check
-         296559d41e0f8e7c8f198dd3946e288255088cef scsi: ufs: docs: UFS documentation corrections
-         2bd3b6b75946db2ace06e145d53988e10ed7e99a scsi: ufs: core: scsi_get_lba() error fix
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: a168538cc6ab9670775a185e290b344976d602f4
+    new: 6c12a93e62adf7eceb2425ccf14510617c7ed430
+    log: revlist-a168538cc6ab-6c12a93e62ad.txt
 
---===============1525388682737298533==
+--===============7415172602664964191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1647320338 -0400
+pusher 75C5DE3D 1647320350 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1647320337-21d7ba84d9d1c40dd907f1861e68df68d9a99c52
+nonce 1647320349-4a8feb521a377fba93622b253bba1118dcec8a1d
 
-71bb9ab6e3511b7bb98678a19eb8cf1ccbf3ca2f 2bd3b6b75946db2ace06e145d53988e10ed7e99a refs/heads/queue
+a168538cc6ab9670775a185e290b344976d602f4 6c12a93e62adf7eceb2425ccf14510617c7ed430 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHRIACgkQ7ulgGnXF
-3j3vDg//e4yg/WTizQ3i9Z4w1Bz9VtKW7hz0T9LprBLT7iGQwkXIE4oMK2E2iuIb
-VhFd890reFmPsbmZEDXCy5fcFpawOGTRkQj2s5QClUPQ6yihxcYyzmBVf9Y4vY0Y
-+cHpZAKhYqG8dlO3MyuCLTw3lqc9OMx+ptNmx3zMBVck4fGG3Nczt/5rNuC9adYp
-eg6vWKbZJffhX/04wtLSJSrRkcs2daJ9ur+Ae3Pz8sFBp5sb2L/UxVCKevNN0PYM
-82eiAXCZ2j5aN8+MYP/zHKCnL8Oz253rSv5BDd4tKiAGvQzXZ8vh+nDggNr45BTl
-bkquQOtKFE5Ay7uzRfB6MhZU9WdBVPY0sBOGzWoANLxRAkMOKmyKVnwe4TTfRb7J
-cKQY4kNoIX26myMh84kMgR+MJjQSU3Uc7dz5J0UW85poOJUx226mvQz72YwAuOZK
-Gd04897AMEVkbzs3HFcZlumpXOzAieDYXmX7zCq02TSwqXDbfPUjGcKWz5pzoTM0
-JxSI2j+Mr9JYnbUdttERvRCqY7kHO2uuf92+eticO+4I1coLhXG02vcm4gGIPX34
-N3Z016G6Wa76Rtd8jfb5zZA3qMLA5obNJV0BlgUl1QRV/2tTDuNIKWSf0ppIT6dB
-w6B+dOpsWNs+rqxR/kQSA5hTagmahdUgu0mBMd5rR/btF/G0kb8=
-=LvdD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHR4ACgkQ7ulgGnXF
+3j36xA//Qmx9TpuGl2SxSn/ujBu0os4gnc255p67riD55b6uxWO6G9nTZTwX8Cp3
+4GSLw/Eg7dyxpowUe1M19AsGXXYS8/KCPZyuvavTFoAhKGuYIme9jCnpwjN6yPTc
+WC5rFMHb662ue6eNiqFFwn5yar0M80Pdy9QvDnTZpozKCpXU/A8v2WYL50NmEuKM
+rnqrwPKghw5g84HyAAcqX1EKwY431tCUwkKBDIgde7SYZYpd85zup5K1skoiSU6Q
+36j1DJSEwccj3CpL/6l2aEk7j/GOYZYxTpNJaEkkH8KQoiCQNQM9jFgONWWWwjl3
+zCM3syl/25XapYYYYHxu/3CXzuzTTm+IuDeCcSl4/nVFxMKSXXgt9GwrftfW4BUu
+PNScpFEuoEBmOOdwPlifTUpzVWS/X9IvxT1LVXtAOq4a5zMDUheu2nN5R9sSs5it
+zc7sXb9fCV7Fx2hkwMLlhcBhRbW5yJCh9wIPjGD3ivutj6/ax3IPm7FsAvV9dlWT
+hGlpNSjgd5aSVeRl7yV8ymRTCirZNp1xVKue8C/dRQYyJr5/uvI4mtIFhyHmfiyP
+gPoy9APTOy3WT0f5BWVI9P4zs4UdTdqBSN7g/K8jXnEtwrRx4bHn2GGVQD6dEnCQ
+xNKs8n3BePRa4TdJN7fWOb5mWMOWZURGrekyFHG8gQZ2iBfRbu8=
+=QGX5
 -----END PGP SIGNATURE-----
 
---===============1525388682737298533==--
+--===============7415172602664964191==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a168538cc6ab-6c12a93e62ad.txt
+
+2ea3a393bfae2e50003ecc14b757736eeba7ea6a scsi: lpfc: Remove failing soft_wwn support
+5c9bf3635b66add7d829b4d8d538ae0d770d9d89 scsi: libsas: Add sas_execute_internal_abort_single()
+6a91c3e31578979a93b500efc76af4d3499f75ad scsi: libsas: Add sas_execute_internal_abort_dev()
+2cbbf489778eb9dde51392ec5f74ae2868e4b857 scsi: pm8001: Use libsas internal abort support
+095478a6e5bf590f2bbf341569eb25173c9c5f32 scsi: hisi_sas: Use libsas internal abort support
+d72d827f2f2636d8d72f0f3ebe5b661c9a24d343 scsi: target: Add iscsi/cpus_allowed_list in configfs
+f089ce7bb5eedec0481cb2b0df174cdd3021f233 scsi: aacraid: Clean up some inconsistent indenting
+7db304bd2a4fbf98ed763cd7f599598f5d0e2477 scsi: megasas: Clean up some inconsistent indenting
+e1b353e7a31dcaf47c234812c46a2db9cd5be584 scsi: core: Remove unreachable code warning
+ad515cada7dac3cdf5e1ad77a0ed696f5f34e0ab scsi: iscsi: Add helper functions to manage iscsi_cls_conn
+7dae459f5e56a89ab01413ae055595c982713349 scsi: libiscsi: Add iscsi_cls_conn to sysfs after initialization
+8709c323091be019f76a49cf783052a5636aca85 scsi: libiscsi: Teardown iscsi_cls_conn gracefully
+58ca5999e0367d131de82a75257fbfd5aed0195d scsi: qla2xxx: Fix incorrect reporting of task management failure
+6a45c8e137d4e2c72eecf1ac7cf64f2fdfcead99 scsi: qla2xxx: Fix disk failure to rediscover
+db212f2eb3fb7f546366777e93c8f54614d39269 scsi: qla2xxx: Fix loss of NVMe namespaces after driver reload test
+c85ab7d9e27a80e48d5b7d7fb2fe2b0fdb2de523 scsi: qla2xxx: Fix missed DMA unmap for NVMe ls requests
+0972252450f90db56dd5415a20e2aec21a08d036 scsi: qla2xxx: Fix crash during module load unload test
+c13ce47c64ea8f14e77eecb40d1e7c2ac667f898 scsi: qla2xxx: Fix N2N inconsistent PLOGI
+c02aada06d19a215c8291bd968a99a270e96f734 scsi: qla2xxx: Fix hang due to session stuck
+713b415726f100f6644971e75ebfe1edbef1a390 scsi: qla2xxx: Fix laggy FC remote port session recovery
+d2646eed7b19a206912f49101178cbbaa507256c scsi: qla2xxx: Reduce false trigger to login
+f3502e2e98a92981601edc3dadf4b0f43c79836b scsi: qla2xxx: Fix stuck session of PRLI reject
+a7e05f7a1bcbe4ee055479242de46c5c16ab03b1 scsi: qla2xxx: Use correct feature type field during RFF_ID processing
+3648bcf1c1374e9f42d241d83e2e50c0ef07a852 scsi: qla2xxx: Increase max limit of ql2xnvme_queues
+811655d005b24068c580bc8183f2c7f5cbd64149 scsi: qla2xxx: Update version to 10.02.07.400-k
+9a866e6aaf4e5a1cfd7b2058d35f1b107a318827 scsi: lpfc: Fix typos in comments
+8037185d1ad8dcfa2fa4fef3dbc26507f4c37b12 scsi: elx: libefc_sli: Fix typos in comments
+5419e0f1562258b48560aee023ad2e41c0949df0 scsi: qla2xxx: Fix typos in comments
+9d05790f518744e0341e2d6c988b9db9143ce535 scsi: aic7xxx: Fix typos in comments
+dc2646417d54f002fb127067b5848dbef975e8ff scsi: lpfc: Use kcalloc()
+
+--===============7415172602664964191==--
