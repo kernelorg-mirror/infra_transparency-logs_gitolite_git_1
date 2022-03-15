@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 15 Mar 2022 08:57:51 -0000
-Message-Id: <164733467158.26399.2282874769808399745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Tue, 15 Mar 2022 09:00:40 -0000
+Message-Id: <164733484007.28829.4638919001841509595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/damon/next
-    old: 8b588d5fca672d960b31361b9cdd9ee3b907bd9a
-    new: e4477f4cdcc93bdf5a2c9d645f2916a2e1ff4c35
+  - ref: refs/heads/mlx4-queue
+    old: 3c2dfb735b4a9239e2b8170e88aaddbf987d9798
+    new: bdd6a89de44b9e07d0b106076260d2367fe0e49a
     log: |
-         071dda8e3aa9de9eb66797ae0df5b3acc0202cc5 for_damon_hack: Separate config part
-         e4477f4cdcc93bdf5a2c9d645f2916a2e1ff4c35 mm/damon/core-test: Add a kunit test case for ops registration
+         8772cc499bff844cf00d1b0b4428633d77c60a0d net/mlx5e: Fix use-after-free in mlx5e_stats_grp_sw_update_stats
+         bdd6a89de44b9e07d0b106076260d2367fe0e49a nfp: flower: avoid newline at the end of message in NL_SET_ERR_MSG_MOD
          
