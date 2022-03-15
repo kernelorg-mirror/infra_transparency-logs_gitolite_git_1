@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4726055800410968309=="
+Content-Type: multipart/mixed; boundary="===============8476477835531145586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 15 Mar 2022 12:58:35 -0000
-Message-Id: <164734911526.8430.15220646409796359915@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 13:01:16 -0000
+Message-Id: <164734927632.10831.10913492907129678271@gitolite.kernel.org>
 
---===============4726055800410968309==
+--===============8476477835531145586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf/core
+  - ref: refs/heads/perf/core
     old: f693dac4794fae99c04f75a3a1a5c4018bb33144
     new: 65eab2bc7dab326ee892ec5a4c749470b368b51a
     log: revlist-f693dac4794f-65eab2bc7dab.txt
 
---===============4726055800410968309==
+--===============8476477835531145586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -983,4 +983,4 @@ f0e18b03fcafd8344539101f564ae358950ae892 Merge tag 'x86_urgent_for_v5.17_rc8' of
 09688c0166e76ce2fb85e86b9d99be8b0084cdf9 Linux 5.17-rc8
 65eab2bc7dab326ee892ec5a4c749470b368b51a Merge remote-tracking branch 'torvalds/master' into perf/core
 
---===============4726055800410968309==--
+--===============8476477835531145586==--
