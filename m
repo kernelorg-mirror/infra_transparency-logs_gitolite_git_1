@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:23:12 -0000
-Message-Id: <164736139209.15324.12464463205110597616@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:23:16 -0000
+Message-Id: <164736139642.15390.18242707913852394625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.10-rc2-dts
-    old: dba58d1a649b11f3f8392c51d5bf9458299dc88b
-    new: 41b5e213665ed1ed2545511931354e03ed247d51
+  - ref: refs/tags/v5.10-rc3-dts
+    old: 3e5c45bb1ad369a4718f62bf88688e159156915f
+    new: 133a46e60184552a1448242f6f0f96340dac125b
     log: |
          6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
          aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -25,4 +25,5 @@ changes:
          e4a94383a23f0387f26bb27755e015c7c5c58db3 Merge tag 'v5.9-dts-raw'
          9aaca0ead440b9466aaaf2a0d0223b5e333ea21f Merge tag 'v5.10-rc1-dts-raw'
          f19027643e8bfa8f4b99f7608e054a6615b323bb Merge tag 'v5.10-rc2-dts-raw'
+         7d38e61159618a364bdbe1a398226c44fab9af15 Merge tag 'v5.10-rc3-dts-raw'
          
