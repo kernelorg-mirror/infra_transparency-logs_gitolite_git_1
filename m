@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7415172602664964191=="
+Content-Type: multipart/mixed; boundary="===============7660532505013712502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 15 Mar 2022 04:59:18 -0000
-Message-Id: <164732035884.1169.198368524481208490@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 04:59:29 -0000
+Message-Id: <164732036995.1301.492182983861544641@gitolite.kernel.org>
 
---===============7415172602664964191==
+--===============7660532505013712502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: a168538cc6ab9670775a185e290b344976d602f4
-    new: 6c12a93e62adf7eceb2425ccf14510617c7ed430
-    log: revlist-a168538cc6ab-6c12a93e62ad.txt
+  - ref: refs/heads/5.18/scsi-staging
+    old: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
+    new: dc2646417d54f002fb127067b5848dbef975e8ff
+    log: revlist-2bd3b6b75946-dc2646417d54.txt
 
---===============7415172602664964191==
+--===============7660532505013712502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1647320350 -0400
+pusher 75C5DE3D 1647320362 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1647320349-4a8feb521a377fba93622b253bba1118dcec8a1d
+nonce 1647320361-6b87681d34321c751c5b4db46e87438ff85cf7bb
 
-a168538cc6ab9670775a185e290b344976d602f4 6c12a93e62adf7eceb2425ccf14510617c7ed430 refs/tags/mkp-scsi-staging
+2bd3b6b75946db2ace06e145d53988e10ed7e99a dc2646417d54f002fb127067b5848dbef975e8ff refs/heads/5.18/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHR4ACgkQ7ulgGnXF
-3j36xA//Qmx9TpuGl2SxSn/ujBu0os4gnc255p67riD55b6uxWO6G9nTZTwX8Cp3
-4GSLw/Eg7dyxpowUe1M19AsGXXYS8/KCPZyuvavTFoAhKGuYIme9jCnpwjN6yPTc
-WC5rFMHb662ue6eNiqFFwn5yar0M80Pdy9QvDnTZpozKCpXU/A8v2WYL50NmEuKM
-rnqrwPKghw5g84HyAAcqX1EKwY431tCUwkKBDIgde7SYZYpd85zup5K1skoiSU6Q
-36j1DJSEwccj3CpL/6l2aEk7j/GOYZYxTpNJaEkkH8KQoiCQNQM9jFgONWWWwjl3
-zCM3syl/25XapYYYYHxu/3CXzuzTTm+IuDeCcSl4/nVFxMKSXXgt9GwrftfW4BUu
-PNScpFEuoEBmOOdwPlifTUpzVWS/X9IvxT1LVXtAOq4a5zMDUheu2nN5R9sSs5it
-zc7sXb9fCV7Fx2hkwMLlhcBhRbW5yJCh9wIPjGD3ivutj6/ax3IPm7FsAvV9dlWT
-hGlpNSjgd5aSVeRl7yV8ymRTCirZNp1xVKue8C/dRQYyJr5/uvI4mtIFhyHmfiyP
-gPoy9APTOy3WT0f5BWVI9P4zs4UdTdqBSN7g/K8jXnEtwrRx4bHn2GGVQD6dEnCQ
-xNKs8n3BePRa4TdJN7fWOb5mWMOWZURGrekyFHG8gQZ2iBfRbu8=
-=QGX5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmIwHSoACgkQ7ulgGnXF
+3j3YiA//XDBI6FA2POxbKYYTAevvqfSa45x2K/j/KRDfdk2jT+0WFQduXNJavaVU
+9BzS26+5C8YFFWPWGvUj/zPMdVSXqoPThreABUDGS7wBiWtw5Lb8t6m70tPauRxk
+npN/lOTuUsuxBL36Hds2ldfy6dz1pk1Hu4Ud5xWvikbVeVXfAe7tHCwi32tm4pp5
+TVn37mPlgwLxW1dRjjnSesn/1s8FHqBUuEHxz2pIbMeQtw08DTScPAYDH/oZDIhR
+JHa0UM+2v/420ilSKUL+khSh2lzC1BUC03FQUmkkvwAhcTrPWo0jjWJPv8tainQu
+aCuOVoSvQf7ZY7lIJb4X9pAQmt0go3MqG1hscDalIiW7x72K06MXtI1e+AZkr1hy
+Ly66yHPAOnKgubjklsmBuEH/i0d0el48ksIWUdCDiP/AcVcUekbceLJZB8UZfN7D
+XfkkFO5tqs+wicViv5nyt5b5Y7FOgSrCXl8xiqRYBTe7hzfP2L9bLQI2Uh7cGjM7
+34SFXoZqzMkLFlXCdmPXgbZpVF+vLqK5+AelNWa6CxmLF+LuzL/xKkcv1vqzP4Xe
+YYXD5DkVytj7PURSE7RWvnJhsl47BR0lxjrc5MQqCKZL/yMlT2ImDAr6+75jzmXu
+HMD3TZp/zQ+NEUkP4iMJSBaGWJuEkHBuPapD0rrDPEsJ3ieSR0Y=
+=UODa
 -----END PGP SIGNATURE-----
 
---===============7415172602664964191==
+--===============7660532505013712502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a168538cc6ab-6c12a93e62ad.txt
+Content-Disposition: attachment; filename=revlist-2bd3b6b75946-dc2646417d54.txt
 
 2ea3a393bfae2e50003ecc14b757736eeba7ea6a scsi: lpfc: Remove failing soft_wwn support
 5c9bf3635b66add7d829b4d8d538ae0d770d9d89 scsi: libsas: Add sas_execute_internal_abort_single()
@@ -87,4 +87,4 @@ a7e05f7a1bcbe4ee055479242de46c5c16ab03b1 scsi: qla2xxx: Use correct feature type
 9d05790f518744e0341e2d6c988b9db9143ce535 scsi: aic7xxx: Fix typos in comments
 dc2646417d54f002fb127067b5848dbef975e8ff scsi: lpfc: Use kcalloc()
 
---===============7415172602664964191==--
+--===============7660532505013712502==--
