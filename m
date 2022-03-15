@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6568572497483310355=="
+Content-Type: multipart/mixed; boundary="===============5648566488530664098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 15 Mar 2022 16:26:56 -0000
-Message-Id: <164736161626.21120.2139498483440101736@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 16:27:00 -0000
+Message-Id: <164736162072.21187.8177349326462588066@gitolite.kernel.org>
 
---===============6568572497483310355==
+--===============5648566488530664098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
 user: ijc
 changes:
-  - ref: refs/tags/v5.16-rc4-dts
-    old: 8d4ea13124957216c30e0244c44f4dd8d2da6afb
-    new: d5ad9992183434c4d96e760f4386f05abd489423
-    log: revlist-8d4ea1312495-d5ad99921834.txt
+  - ref: refs/tags/v5.16-rc5-dts
+    old: 639ef536b5d36cb0fc61434ee3b4d4ceab3ee11a
+    new: 87453fe9989cebd1d0c514c53460ffb7ab8ec81e
+    log: revlist-639ef536b5d3-87453fe9989c.txt
 
---===============6568572497483310355==
+--===============5648566488530664098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d4ea1312495-d5ad99921834.txt
+Content-Disposition: attachment; filename=revlist-639ef536b5d3-87453fe9989c.txt
 
 6caf70e4ac2b1dd3a7a78df0c67d14ae4cc550f8 Merge tag 'v5.9-rc2-dts-raw'
 aa57b059c5ad8b6571ba3c0d286499eb56c4b749 Merge tag 'v5.9-rc3-dts-raw'
@@ -81,5 +81,6 @@ d4c9354d05556db3c235a951a821200f8523ba51 Merge tag 'v5.15-rc6-dts-raw'
 cd19412dc8b5583a76131502a8443c6a3492186a Merge tag 'v5.15-dts-raw'
 81e7947344f93176f0df83f46b75453bfecdf632 Merge tag 'v5.16-rc1-dts-raw'
 06b9c83c861c0e5218090f6d99b7f1a96fd20698 Merge tag 'v5.16-rc3-dts-raw'
+1a630116a1d380b86c98054396d7b2954e2e2d7b Merge tag 'v5.16-rc5-dts-raw'
 
---===============6568572497483310355==--
+--===============5648566488530664098==--
