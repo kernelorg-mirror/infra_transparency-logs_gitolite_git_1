@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Mar 2022 09:36:10 -0000
-Message-Id: <164733697023.21635.2950404264666235553@gitolite.kernel.org>
+Date: Tue, 15 Mar 2022 09:36:15 -0000
+Message-Id: <164733697501.21753.18240795370720665364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: ccdbf33c2349a0a867f46dde5f94b0715f6fa341
-    new: a7b2553b5ece1aba4b5994eef150d0a1269b5805
+  - ref: refs/heads/master
+    old: 50f99f1c3a57a5e239a76c683e7a6446d9b2fae5
+    new: c42ebd2c2a503ec2f534ecc60e2a828cd3634273
     log: |
-         a7b2553b5ece1aba4b5994eef150d0a1269b5805 sched/headers: Only include <linux/entry-common.h> when CONFIG_GENERIC_ENTRY=y
+         94dad98330cfcc512ef5eda9d60aa139fe27dde0 Merge branch into tip/master: 'sched/core'
+         c42ebd2c2a503ec2f534ecc60e2a828cd3634273 Merge branch into tip/master: 'irq/core'
          
