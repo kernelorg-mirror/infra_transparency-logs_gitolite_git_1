@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 16 Mar 2022 21:27:01 -0000
-Message-Id: <164746602114.6283.3096524698260623110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 16 Mar 2022 21:37:52 -0000
+Message-Id: <164746667264.12782.14630031618103602524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/arm/soc
-    old: a483b1b232e616d0095a59b987ffc739bc1b56bc
-    new: 53ba8b50a294d43886151e2415171151881be83c
+  - ref: refs/heads/for-linus-5.18
+    old: 982e4430beb94e65c482d36a11dbb779f20c38a7
+    new: 309b517276f21dc7e6315c6637792f8bbfdf7ec4
     log: |
-         53ba8b50a294d43886151e2415171151881be83c ARM: remove support for NOMMU ARMv4/v5
+         b0f212633b31ddca99c76aa38f812fe492e8410a xen/grant-table: remove gnttab_*transfer*() functions
+         c94b731da21f10086a9e52d63c21c730e3f6c939 xen/grant-table: remove readonly parameter from functions
+         309b517276f21dc7e6315c6637792f8bbfdf7ec4 arch:x86:xen: Remove unnecessary assignment in xen_apic_read()
          
