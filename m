@@ -1,29 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 16 Mar 2022 18:01:03 -0000
-Message-Id: <164745366306.1700.5440212274336848995@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7232504231699087226=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 16 Mar 2022 18:02:37 -0000
+Message-Id: <164745375770.2262.14982078601059877674@gitolite.kernel.org>
+
+--===============7232504231699087226==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 2c25e45267d0c7517578b7203a55fba2b6f6564a
-    new: 3197706abd053275d2a561cfb7dc8f6cfaf7d02c
-    log: |
-         51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
-         70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
-         63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
-         8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
-         c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
-         3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
-         b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
-         3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
-         df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
-         3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
-         3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
-         
+  - ref: refs/heads/topic-rpc-with-tls-upcall
+    old: 1b082bbb1c1b6c6216af23761b313d42d6023970
+    new: e6dfe67cc331c2410bc6dda5bb5fc4da3dbc7e83
+    log: revlist-1b082bbb1c1b-e6dfe67cc331.txt
+
+--===============7232504231699087226==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b082bbb1c1b-e6dfe67cc331.txt
+
+53b05bef89d1f1130fb7701357f3f1a6d4d661b7 tls: build proto after context has been initialized
+a75230ff94ba7b74a593ab900566608c08748896 net/tls: Add an AF_TLSH address family
+877305e9f020d50b1f7cdfdb382e2263afa2a96a net/tls: Add support for PF_TLSH (a TLS handshake listener)
+49a26356bf3eab1e8f60c3d7b206d820be649c14 net/tls: Add some observability for AF_TLSH sockets
+0c73cedff421d0becb2850c0d7e33a2c7fa6182a SUNRPC: Fix socket waits for write buffer space
+6b4c142e140292b2adc762faa2392c281f42bde1 SUNRPC: Replace internal use of SOCKWQ_ASYNC_NOSPACE
+549f5ad7415d52870a13022acf4346001d5c749d SUNRPC: Improve accuracy of socket ENOBUFS determination
+203c1705e410466b134cb88d6745c0c05dcd96c4 SUNRPC: Replace dprintk() call site in xs_data_ready
+946f7c3ba8415e56d4b79e7a5a63f07f2d25023b SUNRPC: Ignore data_ready callbacks during TLS handshakes
+9089798df3d53616fa315f2b330fa22a27af8820 SUNRPC: Capture cmsg metadata on client-side receive
+757f2ae1ff3b9adac8d9132ef59256b8606f6b95 SUNRPC: Fail faster on bad verifier
+c3e29ba5a8d78fc58697928ef252d53e0a1add9f SUNRPC: Widen rpc_task::tk_flags
+478484d4c7552ffbb5f21ceb6c7c2103c49a1d17 SUNRPC: Add RPC client support for the RPC_AUTH_TLS authentication flavor
+2b2c12ebc4d8ef3a030283bfbfaa23cabecbf02e SUNRPC: Refactor rpc_call_null_helper()
+ae4b8fd9e441f34bbb994f2bea2928ddc784e4a4 SUNRPC: Add RPC_TASK_CORK flag
+6ec5ca2d5a69f34f6cc5242b36b8f7247e21c1dd SUNRPC: Add a cl_xprtsec_policy field
+ba9a412eb174f2b6de75533f56d368fac444542a SUNRPC: Expose TLS policy via the rpc_create() API
+ad08a8d7b8cd2824884a31a9564cd8b73879ba30 SUNRPC: Add infrastructure for async RPC_AUTH_TLS probe
+8a2956e34af9381c95b42b6d440f275ab1d3feba SUNRPC: Add FSM machinery to handle RPC_AUTH_TLS on reconnect
+0e1648c0b4fc7ca9504f8d2d18394aa1ef795263 NFS: Replace fs_context-related dprintk() call sites with tracepoints
+6e4e8fa65227731d3a8da8d46eb91dc2bb7193db NFS: Have struct nfs_client carry a TLS policy field
+e6dfe67cc331c2410bc6dda5bb5fc4da3dbc7e83 NFS: Add an "xprtsec=" NFS mount option
+
+--===============7232504231699087226==--
