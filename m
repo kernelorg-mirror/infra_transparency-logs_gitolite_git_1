@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4765949885777330639=="
+Content-Type: multipart/mixed; boundary="===============0966190204794046285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 16 Mar 2022 08:06:13 -0000
-Message-Id: <164741797340.31563.12668283829397233765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 16 Mar 2022 08:27:46 -0000
+Message-Id: <164741926619.12767.8413607543576244324@gitolite.kernel.org>
 
---===============4765949885777330639==
+--===============0966190204794046285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 7f220d4a38e095ef4ee851ef4ff90f92ed9b778b
-    new: aff477cb8f94613f501d386d10f20019e294bc35
+  - ref: refs/heads/master
+    old: 2d7defde031aaabea74c9501c5b3af9a294bd00d
+    new: 406dbdecae0eff1853b187129013d6695c6b5b3c
     log: |
-         aff477cb8f94613f501d386d10f20019e294bc35 xen/usb: harden xen_hcd against malicious backends
+         406dbdecae0eff1853b187129013d6695c6b5b3c drop some broken 4.19 patches
          
 
---===============4765949885777330639==
+--===============0966190204794046285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647417972 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1647417970-9971719357e83836ed1617078d8c102dcd068ac3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647419258 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1647419253-8087de6a296538fb7359d516501150e4de677cf4
 
-7f220d4a38e095ef4ee851ef4ff90f92ed9b778b aff477cb8f94613f501d386d10f20019e294bc35 refs/heads/usb-testing
+2d7defde031aaabea74c9501c5b3af9a294bd00d 406dbdecae0eff1853b187129013d6695c6b5b3c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIxmnQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+owwP/ibFkNQaaSu1qJ1RQxSd
-0pDdbMYTmqMq6D+NE0VMEODe1tIxk2Jl1AgsYr7fnvmkZcwEbcjV25jSb3jMDnho
-hKl8SsyAoLoKY+S3RR0G5rWJmC04aGCAxatS1bbOoKaFw2O0IwuemxbkPyerjkGy
-oU1IDNDs8v4izXqQy8fpyAW5USidaQHmmFJ6eH9qEZjqsZnqG6I0ZZSmo0fy5lk2
-xsw9w6um2CnPqQ7PoScTycBI7B/WzkvY7x2p7MklqZj9B6Rp8+33r3v09Bp8Vicw
-IzmScLHOMQY9Du9fDClffMijxBouc+KKpXJVUrBXN0FA7PciW5/0GWYeLnZ9IvR4
-Xq20PR2kD+Htj8lS//n/OKEScTA5YqJFJdF3O4fvEVm+W5RxJYz5WCFedC8pxJ+I
-mDc/reMG5KB4iE49Dch4+BcVC/FtT8NEgc2AFCw3ZnY4vqIWyF1QkCc6lcGvyAoV
-NpPjuREs3gTuqx71pt0HGjcLid2ZWcXnTruyYrJGMXsMwQmPTXejLfeghsiZgrfc
-VVYX/X/X1za/aCpJBxsQ2v0PZWcScYz2oSJsrezW1izduSL3XmGj9YiHcQmi0v4f
-/xvNzoIGMyFEVyisKumWMduBRtsf0IcFqws7kp97+2WAm0/bYz6UBuZn3VVNK59t
-zC5kM4Js+uFYkPwyMMCy5W8n
-=Berz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIxn3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E88QALtNFYS8ElkElV9dqND0
+/X0xYHi6HtKPhN4gwy13SGATAvrb7wwmNmPDQq1CTqb4Qi/YXvfB6fqAz2KijxFi
+Wl3FZ1a5fxsucKpEcitMTKXzm5+MPS1ffxKgtiYttdRJnXtRZv4cXsUEa/G3A+CR
+6SsJMX+RRv0ITExmM3AGIscc/oifPXYBCDa4DP/Y/0GNfdl7x43uB1XaiLFtkCts
+57aC1xroNKWFGkRRL7WPDyt4+w5mepyJhUUdXVxsG9x3zgo1Cib66YwmSuVNuU0x
+OFRMSShI6wOueTUFI4qiUZeB0iUI1D7BmfeZz35cMfMOUJFwSX7aPaapvUw84JJt
+BxhrRkz7Tk7Mi2ZtLF0T/TlttN7GCa0Bom/3z35u5TNeTJxwRqtTKk5JUsD5LmQF
+qmUbNIy1ANC9zNHV2RxgK/rAHi9HCNYpxcVs8sbiWC/tJHAVcoiI2YeYjbzCH1ti
+Xr/sraU3C7ft5NOHOJjSnCC4HyCfJXFgZB5/59pntMJOQui8Zi45rBWqJLcPbocF
+5i1ZgkLEUWPXKnF5lFkOMM4ups7tvzLGaxP3SiDQgylQ+VYbt7NxZGAcD7qSKY5f
+X470DMos0HW6h+scBo9HkFfkoQT9PL1AwzB/P5/Ap1R/9jos7NEo64S2YPEaGRFu
+wq8/hsC6ttuu4HEgcaOJc0ED
+=M3zP
 -----END PGP SIGNATURE-----
 
---===============4765949885777330639==--
+--===============0966190204794046285==--
