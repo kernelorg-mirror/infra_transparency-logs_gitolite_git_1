@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 16 Mar 2022 22:09:40 -0000
-Message-Id: <164746858030.383.13595132910833023424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 16 Mar 2022 22:11:24 -0000
+Message-Id: <164746868497.2427.11155109520406864621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 4acbe0d8bf411d30126c14a9a4a34e1702e97f52
-    new: 28b6c894942ad0d68d53f468c6a3a69b3cbffe56
+  - ref: refs/heads/master
+    old: 6585abea98ae5f750358a6427f2ddf7715393f69
+    new: aaccdf9c93a00cc5eec6f9d97046b44643c60800
     log: |
-         c5d3786a88f6a416125e3119c7a4b5a349d71bb2 gfs2: Fix should_fault_in_pages() logic
-         b2d5f10d9662d8755719aef7e131d2453173b754 gfs2: Disable page faults during lockless buffered reads
-         28b6c894942ad0d68d53f468c6a3a69b3cbffe56 gfs2: Add read/write page 'fault_stats'
+         663af70aabb7c9b6bd5e1c1cdeb44e7025a4f855 bpf: selftests: Add helpers to directly use the capget and capset syscall
+         b1c2768a82b9cd149f54e335de38ea1212f47b07 bpf: selftests: Remove libcap usage from test_verifier
+         82cb2b30773e3ccbbd2ed4427d52a91862d4db6d bpf: selftests: Remove libcap usage from test_progs
+         aaccdf9c93a00cc5eec6f9d97046b44643c60800 Merge branch 'Remove libcap dependency from bpf selftests'
          
