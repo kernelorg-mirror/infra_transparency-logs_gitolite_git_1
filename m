@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 16 Mar 2022 01:44:05 -0000
-Message-Id: <164739504525.10818.8201970336967725829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ostr/linux
+Date: Wed, 16 Mar 2022 01:53:33 -0000
+Message-Id: <164739561390.17145.4202072051859056793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
+repo: pub/scm/linux/kernel/git/ostr/linux
 user: ostr
 changes:
-  - ref: refs/heads/linux-next
+  - ref: refs/heads/for-linus-5.18
     old: 982e4430beb94e65c482d36a11dbb779f20c38a7
     new: 309b517276f21dc7e6315c6637792f8bbfdf7ec4
     log: |
