@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 16 Mar 2022 15:07:00 -0000
-Message-Id: <164744322099.15599.4248330145877110817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 16 Mar 2022 15:07:30 -0000
+Message-Id: <164744325032.15828.4597314173592966533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 7bbcb678923a90d364afa6c5d89a2fa5156a69ed
-    new: 0e23eafdfc3691d7c21bab6613517c5b8915b49a
+  - ref: refs/heads/mediatek-drm-next
+    old: 71941773e143369a73c9c4a3b62fbb60736a1182
+    new: d6aa1755f683551a8a30f523f84c139376fec338
     log: |
-         1d348b131d0159d90bae1467a5dc59a3d8f360b0 client: fix colors to make grey really grey
-         0e23eafdfc3691d7c21bab6613517c5b8915b49a AUTHORS: Mention Vladimír's contributions
+         d6aa1755f683551a8a30f523f84c139376fec338 drm/mediatek: mtk_drm_plane: Use kmalloc in mtk_plane_duplicate_state
          
