@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0757162966176352537=="
+Content-Type: multipart/mixed; boundary="===============1793212066550935165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 16 Mar 2022 13:39:09 -0000
-Message-Id: <164743794969.26040.16129210967850531848@gitolite.kernel.org>
+Date: Wed, 16 Mar 2022 13:54:52 -0000
+Message-Id: <164743889277.4114.1466842246137623615@gitolite.kernel.org>
 
---===============0757162966176352537==
+--===============1793212066550935165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/staging-next
     old: 1868755c9078cda1a3a4abd866edd42f9a46b1ed
     new: ca7918f21466545250033b5bd077c2fbab0247a3
     log: |
          ca7918f21466545250033b5bd077c2fbab0247a3 MAINTAINERS: remove the obsolete file entry for staging in ANDROID DRIVERS
          
 
---===============0757162966176352537==
+--===============1793212066550935165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647437946 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647438892 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647437946-5e9ecc46c98b55cf457099b1ee3e6f95795db857
+nonce 1647438891-9297e63a34d7265808f01f52c9433ce73c597b91
 
-1868755c9078cda1a3a4abd866edd42f9a46b1ed ca7918f21466545250033b5bd077c2fbab0247a3 refs/heads/staging-testing
+1868755c9078cda1a3a4abd866edd42f9a46b1ed ca7918f21466545250033b5bd077c2fbab0247a3 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIx6HobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s30QAIcfbJyAcW3sR0yTsA7D
-5AUa5smCuSwbOR9cdBvOd1059ibLCdZv/HkSHgT8ZcFVTjik9QCumPZFxsWsBytu
-fA2nzQfB9X9wS3nWbMe0ifWOi6Ee6neCpUcqoNYcH6fRprGjNRtSA4g4y0Ygaq9H
-eRUVrHe1xzyOsRC3oRMaPQgJESy+o0aBChXMpLqybJkSK1wT2PGR6Db29yVAVaSr
-qHHktelnmq1Eui8Ra3efGrD/PKWYiQm7I4WglUoxIOwtpjZS/zb2FCETqAgegUlJ
-/Uq+duQGj7+2cnGkxHvJm2fm209WWo0T1U2/PNVZRuVyy3jDWLFwlTZaznlg0Wnq
-KREmxeFaN6uDMDrBvJgqquGYrQs92RaVYoxlW0Mul92OkFugbOEO5BBsb5PKBjoT
-2EcLw53xqErDDJ+zEa5CQiKFKaYpeLHsW3s+7ct9iG3sVhwr5nqU5aBq5b+c7OKu
-B5h3JEyx4PKJ5WjM9uow5TINnJcoZOQuS/pC/z8+B/11KJZK+Zeme7ixA7aplAqJ
-pQNqQ7CFlLoEa4LPOuEpcrZGrtz+RgskOGbl02eqiBIbmE0oONDV73ZrR87q8/8f
-RRZiLiXgIa1pRAQj4ooV0S7ycDn4XfL08uQn3n+xlyAm1CFL3DlQ0wS0j5urRNiC
-i0t+aOVBTF1IsqF+rsXX0hgo
-=QWzy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIx7CwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rDcQAKotlM96vrL5IEnYByOa
+DZC8Thu0uJA3vtivLWcp6E9R5Xg74BTySj2m+aKF4ApnCFxQoftFucwVdaYoh1hX
+mvHT6hbgj4J4zUzs+0RaNHgbHUHsYFk/aWkILFh3CfhMf5QeIVC/eo6HYPO3Tg42
+tunubkAc+ALNypSqegQYy+laPbF1C1SS75wrpgwn8N/FKhLHb0h/P/b9GlCt/7zq
+UzxD2FdJc3F67Va4gGIag1dXxev7S8txR71JJAEqPj4L4Psfu8MsnoC9AVJXT6W6
+WEWWnnTpeqqDugPrkAiBZWglte7z9qIjMxyMY3Q5sDAEtfqFgkj7CCnjgPgowHEr
+bnqrqsbCJUSl+wACAbYpM09VdXFMRP0dXiHZTqYD5Cv8tBxCcMeVsUJs2pB5fDUt
+8VMSZb1B9rKVoAU/ln7zDZYOzyXaOFGGlESWr8cvpGortLoqbd2+hTm+PR0IEgNs
+aAQfodmya1qG6hmcWqMelc3h6P+fcjm5t6uOoZKSh6ynGvAdj+gj2oov5SeHUvKd
+HFQN6ewzBcv9q8RoUbnrsNZwC/eDIo3cNvNJGesG9o17ScooNYSNILJYCD0VFpFQ
+pVyFHFjhk8MZ9QSjJco3nw0adjdpGnw47XsOXeS11AXFcb1ZGgd+88uAveHYkEqv
+XvMMbedvQe2OLSOJjElSFz8e
+=sh3S
 -----END PGP SIGNATURE-----
 
---===============0757162966176352537==--
+--===============1793212066550935165==--
