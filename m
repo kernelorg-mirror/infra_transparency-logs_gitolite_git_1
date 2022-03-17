@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6456235572246546747=="
+Content-Type: multipart/mixed; boundary="===============2494341721814160514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Mar 2022 14:39:24 -0000
-Message-Id: <164752796439.16011.4195621012110890972@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 14:39:29 -0000
+Message-Id: <164752796963.16132.12187924227020708398@gitolite.kernel.org>
 
---===============6456235572246546747==
+--===============2494341721814160514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b1351527f1eeb9624c301ecb7d8adbc4f543e045
-    new: 1abea24af42c35c6eb537e4402836e2cde2a5b13
-    log: revlist-b1351527f1ee-1abea24af42c.txt
+  - ref: refs/heads/dev-queue
+    old: c54f50f36922803fd55716084441d5b54f20bfe3
+    new: fe613e5fa4b2e2b700554c1ecd5fa5d3f4da30a2
+    log: revlist-c54f50f36922-fe613e5fa4b2.txt
 
---===============6456235572246546747==
+--===============2494341721814160514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1351527f1ee-1abea24af42c.txt
+Content-Disposition: attachment; filename=revlist-c54f50f36922-fe613e5fa4b2.txt
 
 3ea566422cbde9610c2734980d1286ab681bb40e can: isotp: sanitize CAN ID checks in isotp_bind()
 30ffd5332e06316bd69a654c06aa033872979b7c can: isotp: return -EADDRNOTAVAIL when reading from unbound socket
@@ -51,5 +51,20 @@ ab95465cde2337108252cdf01f064abdc1a67f6c net/sched: add vlan push_eth and pop_et
 435fe1c0c1f74b682dba85641406abf4337aade6 net: geneve: support IPv4/IPv6 as inner protocol
 58e06d05d43a9e37e121edabaada00a9d844444c net: stmmac: clean up impossible condition
 1abea24af42c35c6eb537e4402836e2cde2a5b13 selftests: net: fix array_size.cocci warning
+e3ec2df507e34e87ecf65ba280c4148c91c170f2 igc: Add UDP segmentation offload support
+ec79adc25fd249e8336f734065d726c7fe49d3e0 ice: Fix re-enablement of FW logging after reset
+390d097ccddef58c492eaa2f068bbb7cb5e860a9 igc: Fix infinite loop in release_swfw_sync
+7a78c6e142264a267d93e8a7e45c6ec810c7c14f i40e: little endian only valid checksums
+530d4f5ba5c8cd63529ec92170bb55f59a0d89ab ice: add trace events for Tx timestamps
+f2c3be3ba010a20340d59246d0c6e1cff97a15fc ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
+de21c5eedd8b82f95fd3eddaf6c48c4bdb70d392 i40e: Add support for MPLS + TSO
+f5713ade3cd3b93ab0006347c388aea16feb945a ice: fix return value check in ice_gnss.c
+560e76396093495032707da5853ae94bb5293ef0 igc: Fix BUG: scheduling while atomic
+05a86531ed1a2019722b80abf4fc77831d9a59be iavf: Fix double free in iavf_reset_task
+805b47fc841634733e320ba636dfbab01a73a4ac ice: destroy flow director filter mutex after releasing VSIs
+e35a663516114eb481d17c0d7b52c74f1cb7d443 igb: zero hwtstamp by default
+c43ccca066f1af4cc74e81e4e0c896e15f03be29 gtp: Fix inconsistent indenting
+4b385f194be236353ed3756878eddfac8890e9cb ice: Fix inconsistent indenting in ice_switch
+fe613e5fa4b2e2b700554c1ecd5fa5d3f4da30a2 ice: Add mpls+tso support
 
---===============6456235572246546747==--
+--===============2494341721814160514==--
