@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 17 Mar 2022 23:40:07 -0000
-Message-Id: <164756040741.16840.15729670045508782871@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 23:43:38 -0000
+Message-Id: <164756061827.18261.5754140323658681624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: e243f39685af1bd6d837fa7bff40c1afdf3eb7fa
-    new: 21c68644ff8305e486c6a70ccacfbcce8f0c75e1
+    old: 21c68644ff8305e486c6a70ccacfbcce8f0c75e1
+    new: fad6c1f1a109ee6f9d7090756f8ea44bc300b4f5
     log: |
-         df4d35e1f01f7a6d50bb098eaeed8b04ef422fdc enetc: use correct format characters
-         d65aea8e829815e3d2bd677d7bfdd842bcd3853b bnx2x: use correct format characters
-         c011072c90353814a9d8e2b3cd111e77ae8601ed net/fsl: xgmac_mdio: use correct format characters
-         8624a95ecdea5ce6829bb42b0b9dcd8705961e04 vlan: use correct format characters
-         30fb35989dcc6ccb65c5033e49e271c742d03522 net: ethernet: ti: Fix spelling mistake and clean up message
-         21c68644ff8305e486c6a70ccacfbcce8f0c75e1 ethernet: sun: Fix spelling mistake "mis-matched" -> "mismatched"
+         02f393381d14df948918f5021486e1197c05a21f gtp: Fix inconsistent indenting
+         2bcd5b9f357d5359cff2ad6d1e68e0a606d02870 ice: Fix inconsistent indenting in ice_switch
+         2b1d0a242a0038f65e10d77261b7cbcb6bb5b18a ice: fix return value check in ice_gnss.c
+         4c1202189e351bc99856805ee9c82ffca6594ba0 ice: add trace events for tx timestamps
+         fad6c1f1a109ee6f9d7090756f8ea44bc300b4f5 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
          
