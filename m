@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 17 Mar 2022 18:50:40 -0000
-Message-Id: <164754304023.19393.5827435273248198710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Thu, 17 Mar 2022 18:52:08 -0000
+Message-Id: <164754312882.19928.9807316313978242579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/for-next
-    old: 286e937efbc7177c114e80aae9b402131e3886c1
-    new: 0d64787e24c6926b60e7d4f07138b9d937925792
-    log: |
-         6060a75e77fb05c9d54ed41cccc496dd98054b57 platform/x86: thinkpad_acpi: consistently check fan_get_status return.
-         20e1d6402a71dba7ad2b81f332a3c14c7d3b939b ACPI / x86: Add support for LPS0 callback handler
-         b1f66033cd4e9ce8cbe2c74c98d4e04c0b2d7b40 platform/x86: amd-pmc: Move to later in the suspend process
-         23f5f7007ab3eafdb764e25527d8267783deb358 platform/x86: amd-pmc: Output error codes in messages
-         0d64787e24c6926b60e7d4f07138b9d937925792 platform/x86: amd-pmc: Drop CPU QoS workaround
-         
+  - ref: refs/tags/mlx5-updates-2022-03-17
+    old: 0000000000000000000000000000000000000000
+    new: 1295c589121e67991a7c09d15b1814dd8248ebd2
