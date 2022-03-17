@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 17 Mar 2022 20:23:35 -0000
-Message-Id: <164754861510.14712.14218653968395873745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 17 Mar 2022 20:33:35 -0000
+Message-Id: <164754921520.20716.7051797130729765219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: dea2d93a8ba437460c5f21bdfa4ada57fa1d2179
-    new: 4c905f6740a365464e91467aa50916555b28213d
+  - ref: refs/heads/ceph-sparse-read
+    old: ac1258417d18853c67b89b19ae3ee740ecfb8e18
+    new: 0c3a5f6ce99f8a3eaa7d7104e97e94d2cade0ac0
     log: |
-         0492d857636e1c52cd71594a723c4b26a7b31978 netfilter: flowtable: Fix QinQ and pppoe support for inet table
-         6e1acfa387b9ff82cfc7db8cc3b6959221a95851 netfilter: nf_tables: validate registers coming from userspace.
-         4c905f6740a365464e91467aa50916555b28213d netfilter: nf_tables: initialize registers in nft_do_chain()
+         09f18b4445cd24bdba078e2d8ec0c68b1e0fff48 libceph: add spinlock around osd->o_requests
+         4b006c3ee5adbf566a8334c60f8ae0c58a6e5db9 libceph: add sparse read support to msgr2 crc state machine
+         0604f74d910682379b380e7d2c2a06629c629835 libceph: add sparse read support to OSD client
+         17b08c1f2c1f17ab3bb79ff37ad9099511c11c64 libceph: rework osd code to pass back extent map
+         63bc51ed68fee1e51055911b84ce966268243606 libceph: add places to save an extent map in a sparse read request
+         589e62096bcf73a30c5afbc72f79a31fcf16bc6f ceph: convert to sparse reads
+         0c3a5f6ce99f8a3eaa7d7104e97e94d2cade0ac0 ceph: change over to handling extent map on sparse read
          
