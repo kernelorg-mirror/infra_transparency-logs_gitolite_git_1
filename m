@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
-Date: Thu, 17 Mar 2022 16:32:49 -0000
-Message-Id: <164753476991.25591.15572925786637225021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Thu, 17 Mar 2022 16:34:22 -0000
+Message-Id: <164753486210.26156.15135546817363029874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/kernel-shark
-user: y.karadzhov
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/kernelshark
-    old: e35970770b71f0cc849870512a806dff96bf19e1
-    new: 37dd19f24c693e0c40a8cf133642e387b216540e
+  - ref: refs/heads/next/libgpiod-2.0
+    old: 9d5112d0448fb2436e926a36842ff5ca365303c3
+    new: 55db767dc41a945245c757f7666249e98d3d12f2
     log: |
-         ab5cae65062e7ac24c4e9c7263c75c8331d86411 kernel-shark: Fix comment typos
-         b5ad5393ebf014db40a565e2e64b9dcd88246d8b kernel-shark: Hide CPUs with no data in them
-         027ccb9b4e2fd5fde2a41a4e5ff1931ddf0df9d5 kernel-shark: CPU plots dialog ease spotting empty CPUs
-         37dd19f24c693e0c40a8cf133642e387b216540e kernelshark: Release input_mutex on not finding record
+         65a821c153561c2740866537e6aa0f8ac1777d63 doc: API documentation tweaks corrections
+         4f2b3340beccece209717bf5c1b0a38527208768 core: use num_values rather than num_lines when dealing with subsets of values
+         55db767dc41a945245c757f7666249e98d3d12f2 core: rename uAPI related variables and functions to uapi.
          
