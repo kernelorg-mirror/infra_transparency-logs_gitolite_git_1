@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5255289329008146126=="
+Content-Type: multipart/mixed; boundary="===============0154468136936020754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Mar 2022 12:38:31 -0000
-Message-Id: <164752071160.1750.7719333759933669342@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 12:38:32 -0000
+Message-Id: <164752071228.1798.9941739704887431929@gitolite.kernel.org>
 
---===============5255289329008146126==
+--===============0154468136936020754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.16.y
-    old: 3782384411f0049c12382d763c8d3c9c63ba0edf
-    new: 2592cb3b4e45a885b1bc3f7c03ec537d2213a217
-    log: revlist-3782384411f0-2592cb3b4e45.txt
+  - ref: refs/heads/linux-5.4.y
+    old: e52a2b0f299b226fb96e4f911af2296f7643f210
+    new: c11fd3c57f23841115d2a464f97edcfcac3bc1d0
+    log: revlist-e52a2b0f299b-c11fd3c57f23.txt
 
---===============5255289329008146126==
+--===============0154468136936020754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,61 +30,76 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647520710 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1647520708-56e8339c44f11fb22fc1f48de4ae57183d1a493b
+nonce 1647520709-ddd125a92af5ac958142c069f0991aecaf847820
 
-3782384411f0049c12382d763c8d3c9c63ba0edf 2592cb3b4e45a885b1bc3f7c03ec537d2213a217 refs/heads/linux-5.16.y
+e52a2b0f299b226fb96e4f911af2296f7643f210 c11fd3c57f23841115d2a464f97edcfcac3bc1d0 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzK8YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N6gQANZhUvfgkqH9eJDI8+Ed
-HFuMZI7VrQAtjaT/8VExOB6/j7xwWnmf9DbMajH67JBvoF0tejw0CNuxurMww84v
-DNYSL07ONd9DgmOZvQfyi+IfJaCGx33bMGQH53IQ8TZ2LepzIxCRxdQlxAdxMww1
-D5QgeTPmgBvkllfqix1qUyhrBJiYLWiawtyShON+WQj1i/DGyH6FLVBZD7Wf2ZoT
-L0aMOzwr+iSbcj79VGyWUX3iv9Q4LoVDjXjsuRwZ+XxZyH0A9wrMf5CPJ3jBb/Ak
-YyFZ3STkUUPLICvBPJZZrGvH37kTdqu5cMFiY3Q8pcje/4k3ZXPVX/oBKRfjDUNI
-9bPi3LYtiMZygCvejwEiTI3Vkak+R85NIZaCfpBZHy4fcGd4o+/HvgLN3/thUM0I
-LrFEFMAlZTUCtV1XA6VsRTxbocNXe0VUKuGRKzmIhFO+MRtKg25WydckrzMuki/p
-H7Qa4jd1HIOk7/yrywzllTVn91nwUW3duEFJ5C0hckDAeBsD847ES8DC9X9jYuzs
-7yJt/YT9gpkbssIddMq4m5nUC30LLkpVHvHCH4l3HiV9LMDOY79jWypk4aNC105i
-TQ1bm9qwY7FqSJREQSOXLi2MNN7ro6mraJkfjrfi28u1L1OkrzCPKdU4XRkgfL71
-E3MnvnDjVd0ueo4LpBllsFX6
-=lMkE
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bH0P/1imuvLRxIXFs6ViHVfn
+9UqvvHZgWbEq3A9ZwbUtWq5z8v8WMlNnQY9Gf9yyNc/nwLkSrQ558FIYYssIVStZ
+1XHsjIS/cxAvZR1erWJZ8KeqH+zXwKmWVDOiUJnMb2DuV+GslV/tz1EqLLxAsRkB
+VCbw0sOJ1WF9xJhywhsMM18uu/cbVT9Pjdfhmf14R4qrp6adQ38B0xyrVMOACBiZ
+erhKH3YI59mSrVYQHcDErmJ/6u+LqqcC1KUL2uoPzyyDhpOZBNUVPeN4fbTuxel5
+Y3g7svca80f5mjMeqBEVogEbLcwxXUtYsOMk0RLsH7QqvP95D7sJx/Aj2rL69b9N
+FFsGztHZyyh2IW/S6iLUUlQcMl1y9H76hmvpOs9RGdjn3X2F/aJNTtizQbcBCRHP
+Wv82oC399jTK0/R5aWBx/XUKTor46MPOVhAK5GFHAimjEnqUxpknFRxHSLBoPPnq
+MGggWZcRRISa64vtZPjaD71gNTbFvZMH9TWSaKXBW+JN/0LE30JJayeGXwNDitmD
+rz8lgzax2LbgtGr+hp/s6a+HKpyjBCwyLxQ0YVtvvGTSn9pyjurio0V5cvvv69CF
+a60+yLzOS2ck531Hq13L29y4LUrq/XBaDj3Q0QXV5cKC6erUzvKkZLg+pp5ldhCz
+9jMVaWLJ2MoIUxkAOyoF1hvb
+=DPiV
 -----END PGP SIGNATURE-----
 
---===============5255289329008146126==
+--===============0154468136936020754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3782384411f0-2592cb3b4e45.txt
+Content-Disposition: attachment; filename=revlist-e52a2b0f299b-c11fd3c57f23.txt
 
-becfb4944d02781869d6b7dea86abba29144a3ed Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-2ca1a0ee4b0af4557111461d998db7a0764b2446 arm64: dts: rockchip: fix dma-controller node names on rk356x
-ee358afefbf071b8383bf09ba4dc79249d8db08c arm64: dts: rockchip: fix rk3399-puma-haikou USB OTG mode
-1aed143728fab004ebebc9e0980ebc7e9456028f xfrm: Check if_id in xfrm_migrate
-23e817eafc506ba58ae032b67716831009d57fd1 xfrm: Fix xfrm migrate issues when address family changes
-e12ea2e65259467f70b9ac8b412c9cd4947ff0ed arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-f1021cc9565a6a0e92767a11aba42bfdc48fd1dc arm64: dts: rockchip: align pl330 node name with dtschema
-21d5b8f5a672f368b850e35cbb1f3506d950ad2a arm64: dts: rockchip: reorder rk3399 hdmi clocks
-bca37b5cd87c20793292b3bb354d3959dd801a28 arm64: dts: agilex: use the compatible "intel,socfpga-agilex-hsotg"
-f651b2a12dda6821c87dfe2fba3a24916624af94 ARM: dts: rockchip: reorder rk322x hmdi clocks
-9f1124d636f7e5b8d3e45949dc17e5342e00d5ca ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-64f61143c5ded9ede3601a4cb412538182263981 mac80211: refuse aggregations sessions before authorized
-6245e91cc43eb3db7e3718cea7a30f0c0c3cdfa9 MIPS: smp: fill in sibling and core maps earlier
-86137aadb16d065038821bae5aa512bb741f8e07 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-9e98cb01d78442833690420503032828cdaaf50f Bluetooth: hci_core: Fix leaking sent_cmd skb
-5ffce8dfce5d436cc34e5fdb58032f61daea99aa can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-397150d8f2663b63a58cd28eb118ea40ebf3caa8 atm: firestream: check the return value of ioremap() in fs_init()
-8148bdf2af5371e0ecd8929dec38c94ccd51f32b netfilter: egress: silence egress hook lockdep splats
-1dce49985d964a45a2759105a57909803a300dbd Input: goodix - use the new soc_intel_is_byt() helper
-9bb9fff06706907b544744f8b77b1384b6ebdb64 Input: goodix - workaround Cherry Trail devices with a bogus ACPI Interrupt() resource
-199dbe89a3fe26a4d1e13a32f9c83839047c04ce iwlwifi: don't advertise TWT support
-57d9de3171f499e89988e60cd74a22767ee5f331 drm/vrr: Set VRR capable prop only if it is attached to connector
-bd65666eabbc41d5543c010373d9ab4f24bac1db nl80211: Update bss channel on channel switch for P2P_CLIENT
-3890b151468824a152f4df412f88e1fe01cd3fd6 tcp: make tcp_read_sock() more robust
-b541eb6f82e10fb6bd54eb78637a5ff51a5b24e3 sfc: extend the locking on mcdi->seqno
-a06f5ec38871278ea236fc6d5b0f2d3873c060be bnx2: Fix an error message
-1281e292bbc245f104819d1418bc387a4f36e422 kselftest/vm: fix tests build with old libc
-1f6122144fdae2e0ee17256e6a8f942ff78e8051 ice: Fix race condition during interface enslave
-2592cb3b4e45a885b1bc3f7c03ec537d2213a217 Linux 5.16.16-rc1
+59b6d32955375cc14287d11a418d35c1022cc87d Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
+ae291f72b97905017a3d500f7b856dbcfb03cd64 sctp: fix the processing for INIT chunk
+b789423b045d1a3b857c7f7ba4a839bc027960d4 arm64: Add part number for Arm Cortex-A77
+cd5fa3068babe5d068a6fcab77b5bad4c867eca5 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+6a5b652b4b093c37298c7745e491f2bfe03659b8 arm64: add ID_AA64ISAR2_EL1 sys register
+f00d146dba115e82003accedabc0489b1e10c171 arm64: Add Cortex-X2 CPU part definition
+408761e8dc93cc5cec9e07a8576eb0175f13372d arm64: entry.S: Add ventry overflow sanity checks
+2d6defb2ebd42a8d3aee887a4bff8dc7283eec23 arm64: entry: Make the trampoline cleanup optional
+7a87cb54ddbeef889b45d827e9b4131f478cc6f3 arm64: entry: Free up another register on kpti's tramp_exit path
+cc9b0eb97575def02a149d8e13df06dd525e6681 arm64: entry: Move the trampoline data page before the text page
+22acb472378d09e9e0c3b95a50136aa8596d9a6b arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+872ae8754870edc2d52e85168865bfb670759478 arm64: entry: Don't assume tramp_vectors is the start of the vectors
+761735f09bd1f13d2c08feb8bd467f507a04a7fc arm64: entry: Move trampoline macros out of ifdef'd section
+731462efd84dc33feba7dd757dbf38f356845e5b arm64: entry: Make the kpti trampoline's kpti sequence optional
+c0ddbee4024860347820a4e68206692e0f4ac3da arm64: entry: Allow the trampoline text to occupy multiple pages
+686c9233f206d5882e46a833ef99837896573a0d arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+0ca33d3c03db5255b550cc9f92283b1a86106952 arm64: entry: Add vectors that have the bhb mitigation sequences
+4cac19f8370c72574452d2e775c016934fa49bb6 arm64: entry: Add macro for reading symbol addresses from the trampoline
+909ef7ecf095a52da7b6e3357fc33c947927cd49 arm64: Add percpu vectors for EL1
+1fbe011e0b0afa0e1c2eb4e0bcee7b6317ddc3ae arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+f23ad0e94a7bc28d58a3e9841d066010d7429f81 KVM: arm64: Add templates for BHB mitigation sequences
+c8e420bdc32a19f893c2e2e7f9a316a0a68b2421 arm64: Mitigate spectre style branch history side channels
+39e62e5e803efa73c6bb01ee7e684f0666247aa2 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+30151a860457c38f80d6555d457fbea6f003d808 arm64: Use the clearbhb instruction in mitigations
+c841384b09823216c755e02b4d7c6221260d156d xfrm: Check if_id in xfrm_migrate
+a0f476d6be16f29cfab7cada314f02630c16a08a xfrm: Fix xfrm migrate issues when address family changes
+9c8cff3c0edaa3bf82a76f14891be47c448fb483 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
+0168c62a582d944cd0dbf839a3c4f6857d9ca8fe arm64: dts: rockchip: reorder rk3399 hdmi clocks
+672e492a483a5c8643fd84b5a70992aa71d3ceec arm64: dts: agilex: use the compatible "intel,socfpga-agilex-hsotg"
+b405b9b6ac3d77ddb1fea294aa07e6b6e09dd48c ARM: dts: rockchip: reorder rk322x hmdi clocks
+7f6dd0a8d372b8165a8e2b97c7646f5a33f7a934 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+ebc8072fd591c469a485c9cc14c53b7c1bd0888c mac80211: refuse aggregations sessions before authorized
+05e24b418e012558a9b525f7678e478df42d1881 MIPS: smp: fill in sibling and core maps earlier
+f87e6e2592e6629ebd13b8f35d974d72624dedb0 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+34dd827eddb98779b994cd6d716d2e25bdb417e9 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+60e2fc8ebae3a43500af3b66c4b550703e9f7246 atm: firestream: check the return value of ioremap() in fs_init()
+4533d69fcdfca8b04807e76cc79251ddcbe43ecf iwlwifi: don't advertise TWT support
+df7bbced7f6f2ee0919e429880f8309a1df9f6a7 drm/vrr: Set VRR capable prop only if it is attached to connector
+f33dadaf050c950dcb2588aea4cd5a90f004d2ca nl80211: Update bss channel on channel switch for P2P_CLIENT
+0fb61b4a42a839c9d4cde8d240b260ab9a0ecadd tcp: make tcp_read_sock() more robust
+1d5295b4e4d6fb9c5691c31c5f8b966a918dcdbe sfc: extend the locking on mcdi->seqno
+bd1ec66b57fb9729d1e622ad04e345d84c6a7880 bnx2: Fix an error message
+4b589446642f24daca7d598f4639599c4c000285 kselftest/vm: fix tests build with old libc
+c11fd3c57f23841115d2a464f97edcfcac3bc1d0 Linux 5.4.186-rc1
 
---===============5255289329008146126==--
+--===============0154468136936020754==--
