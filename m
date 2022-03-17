@@ -1,105 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============6068384095447640317=="
+Content-Type: multipart/mixed; boundary="===============9213693972096933641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Mar 2022 11:07:43 -0000
-Message-Id: <164751526397.7147.8209726390028970389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 17 Mar 2022 11:11:48 -0000
+Message-Id: <164751550859.9958.16066686214443493069@gitolite.kernel.org>
 
---===============6068384095447640317==
+--===============9213693972096933641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: holtmann
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 70f77a2cb5281ad0b08a0bbdeeba885984c399dd
-    new: e52a2b0f299b226fb96e4f911af2296f7643f210
-    log: revlist-70f77a2cb528-e52a2b0f299b.txt
+  - ref: refs/heads/master
+    old: 7c686a32a512b795a45e76224855c69e3a8070d7
+    new: 65d6602f6334a4f733fac9d1acd19469d3c2a537
+    log: revlist-7c686a32a512-65d6602f6334.txt
 
---===============6068384095447640317==
+--===============9213693972096933641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7c686a32a512-65d6602f6334.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647515262 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1647515260-fb75d03f6b9d54a5a032479d33f953bef6d2a097
+2cb7b4890d6e7f20560dc251e7f8d3cc68b0d554 devlink: expose instance locking and add locked port registering
+8a38f2cc968aebe40cfa287b53b1b52ef7acd4dc eth: nfp: wrap locking assertions in helpers
+162cca42920c2597298fcdf85538b40356c92151 eth: nfp: replace driver's "pf" lock with devlink instance lock
+5e8930aa86a561998a37aa512d790ad2982122bc eth: mlxsw: switch to explicit locking for port registration
+49e83bbe8cc32e197fccf4f617b3fa2fedc27a23 devlink: hold the instance lock in port_split / port_unsplit callbacks
+706217c1ceb516c96283a1557a31fe003d0c8052 devlink: pass devlink_port to port_split / port_unsplit callbacks
+b1351527f1eeb9624c301ecb7d8adbc4f543e045 Merge branch 'devlink-expose-instance-locking-and-simplify-port-splitting'
+3ea566422cbde9610c2734980d1286ab681bb40e can: isotp: sanitize CAN ID checks in isotp_bind()
+30ffd5332e06316bd69a654c06aa033872979b7c can: isotp: return -EADDRNOTAVAIL when reading from unbound socket
+42bf50a1795a1854d48717b7361dbdbce496b16b can: isotp: support MSG_TRUNC flag when reading from socket
+7843d3c8e5e6887e79dd11c7b5311d9fec66cb76 dt-bindings: can: xilinx_can: Convert Xilinx CAN binding to YAML
+c34983c94166689358372d4af8d5def57752860c can: ucan: fix typos in comments
+a0bfd73deba1bb3c51e2f208ec03465422af667c Merge tag 'linux-can-next-for-5.18-20220316' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+e077ed58c243afc197bc2a2ba0e1ff61135e4ec2 bareudp: use ipv6_mod_enabled to check if IPv6 enabled
+a8df216630fedadc4e8cc086f0e2e612f9c3d1f4 hamradio: Fix wrong assignment of 'bbc->cfg.loopback'
+af1147b236da553544bed1ed8b683510e1278308 net: ksz884x: optimize netdev_open flow and remove static variable
+2fc559c8cba028aaa80f73796a8ce5325418fb3e gve: Fix spelling mistake "droping" -> "dropping"
+f403443015c6520d146813ec48cbfce0c902ccc0 net: hns3: Fix spelling mistake "does't" -> "doesn't"
+571703ff387cf5d2efbeda2674644345fcb3b016 net: mv643xx_eth: undo some opreations in mv643xx_eth_probe
+4de7c8bd6a380d69848ec7991cc85eeed652daac phy: Remove duplicated include in phy-fsl-lynx-28g.c
+a860352e9dd02552e04a0503d0982cf9a4d3a0f4 net: dsa: Never offload FDB entries on standalone ports
+ab95465cde2337108252cdf01f064abdc1a67f6c net/sched: add vlan push_eth and pop_eth action to the hardware IR
+697319b2954faae7816497ef15d731666acdc4e7 net/mlx5e: MPLSoUDP decap, use vlan push_eth instead of pedit
+725726fd1fb716f81eaffcac95381d0230967fa1 net/mlx5e: MPLSoUDP encap, support action vlan pop_eth explicitly
+717f1019c0fc664143a4b62bb42d5707ffb8b810 Merge branch 'flow_offload-add-tc-vlan-push_eth-and-pop_eth-actions'
+05fc65f3f5e45e8194e16b8e43e92133ada06e26 ptp: ocp: Fix PTP_PF_* verification requests
+270a95966881f25c17590e9702860fd1101cfb66 dt-bindings: net: mvneta: Add marvell,armada-ac5-neta
+2d2a514c1d61d8cbe00f22f27ff51623d3be89e6 net: mvneta: Add support for 98DX2530 Ethernet port
+82192c49f343a80b790783086de3c42e1f2bbd45 Merge branch 'net-mvneta-armada-98dx2530-soc'
+200d8766f88fceaedb318bcb4b7d8ee26ef41179 Bluetooth: mgmt: remove redundant assignment to variable cur_len
+e2a32250eff7cd07d3f17a6fb36f1f59f0d637b4 Bluetooth: btusb: Add missing Chicony device for Realtek RTL8723BE
+35a18b46f9b8ad9d69c9eb276bcde4abed8de596 Bluetooth: btmtkuart: rely on BT_MTK module
+863e11def199ac470ecc9a78ead8d1673354dfb9 Bluetooth: btmtkuart: add .set_bdaddr support
+d9861cbd82b5e0f93e3562f7d711ad0d2be24114 Bluetooth: btmtkuart: fix the conflict between mtk and msft vendor event
+2f93ea19309434585a12c14b3c29b32e07c41f94 Bluetooth: hci_sync: Add a new quirk to skip HCI_FLT_CLEAR_ALL
+9d786ab533c04c51331dfe244837767bb1a235b6 Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
+811246d2f03126ee87df029bc98a24581f1b447a Bluetooth: Fix use after free in hci_send_acl
+7dc961a7865952533f86cda3b0c89c1cb9a7338a Bluetooth: hci_uart: add missing NULL check in h5_enqueue
+5276ef6931441622d38f59e6f5ce10bf757526c2 Bluetooth: btrtl: Add support for RTL8852B
+ca497d2cb4191b67712b05697841df5ca2a8d581 Bluetooth: Don't assign twice the same value
+68e607b69ccf8e0a5e71107aadfc699623989756 Bluetooth: fix incorrect nonblock bitmask in bt_sock_wait_ready()
+ccc0b735b2f06feb4bf9b224fe51140367775179 Bluetooth: msft: Clear tracked devices on resume
+6938e36b5b725aac5611f0feb3e4bbc39270302f Bluetooth: Send AdvMonitor Dev Found for all matched devices
+65ac48b3f225e5e58d74038e5028db3a9b2933a8 Bluetooth: call hci_le_conn_failed with hdev lock in hci_le_conn_failed
+65d6602f6334a4f733fac9d1acd19469d3c2a537 Bluetooth: btmtkuart: fix error handling in mtk_hci_wmt_sync()
 
-70f77a2cb5281ad0b08a0bbdeeba885984c399dd e52a2b0f299b226fb96e4f911af2296f7643f210 refs/heads/linux-5.4.y
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzFn4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TewP/1c3dKsM52FVdbpwtZTj
-GMEu3+zUgqpOirvuoYomd+hMxIwsIvIyX8cAMHxj+m776ipP9GksIYi014LRmJ6q
-k9pyjE7muSDgKKbATU7Uu6cE2ppH/jIDKtaYqAtUy1v8j2YOJQSeNDy+ZRR/KL3n
-ldIcBPvmVs2tlpXjWat+6KQkkpk4NSDAo9mRFtuzmHTtjOqjedlodA8hrzAdTUDk
-WcshCTdNSUwkmywLqeqU0aQrT8OU+dYrjWwQMd4A4JarMHLCTrRD5+XlZlbav1Xa
-0aFQjqO8VD9GeOpuLODL//RX7zjGd5Rw2ROVya3sG7HXBlP1OcWZqWdzkalV/8Qb
-atzM8nCV037I1khJL5rffMNj1absoOKJ8SD47f4djvzFlg4S0fq9u0HxR2xMYmsb
-ofz6X9ndvJ4lAA7qXaAoG+xyamfhYNv8b/xVpSCT/fr/CXW/nwFIqWOIiMitR9WS
-00oGP4z/P8YhBDuoO+nl2L5cExRMU6rIT5Skk0L10aHwEBUlSdqMZqyQM9Dy/Ij5
-1W9WGjT5mLbtkI3VdTsi0WRldOsjpqzcG6frysWaBEEGhGiYa2c4u8n47YbndtIA
-XUpe4wvdqbfnEcIoRTYoece0n1acoZKLWjL605rqzbHJ8W9Nm/KQrDYokWjd7Gu2
-H1J93FTrEgQjhtprqyKrtcN7
-=TCWX
------END PGP SIGNATURE-----
-
---===============6068384095447640317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70f77a2cb528-e52a2b0f299b.txt
-
-830304f2c936c3a85a566cdeeeb5a264a00dc4c6 Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-40fd945728a1b7d8c143bec00eeabb7ef1cdbe39 sctp: fix the processing for INIT chunk
-3a268fd7184875545145879fcbe5c8508f04d502 arm64: Add part number for Arm Cortex-A77
-76aa4d3733d3cddb37daafbb656a2222711fc597 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
-6954562f97f1d6eb1181ac6ba4f2f9e5abbbe1a8 arm64: add ID_AA64ISAR2_EL1 sys register
-c709bca8fdae6cf678651e4cb3fe0b36b12ff233 arm64: Add Cortex-X2 CPU part definition
-58f19dede376353ccf6e75dad52ec46abee454d2 arm64: entry.S: Add ventry overflow sanity checks
-4c33f0171c4fc051b3e369ad860994dcb507f38c arm64: entry: Make the trampoline cleanup optional
-a2a55b72cd959978ea8446a69cf8a32627c2d1f8 arm64: entry: Free up another register on kpti's tramp_exit path
-e84c0f688f352ec5c5983d4802b8e02c3a053d44 arm64: entry: Move the trampoline data page before the text page
-18b9fa2f9729898e1c25cbdaa3d051fecc0d124c arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-1ec2c4501eb069594adda71c98cee04a3178f9e3 arm64: entry: Don't assume tramp_vectors is the start of the vectors
-4e4207927d1b4339dedd7ae8f09f0c16b3c2007c arm64: entry: Move trampoline macros out of ifdef'd section
-ee08dbee7ab91bb4d16e496107d3efa8966c5978 arm64: entry: Make the kpti trampoline's kpti sequence optional
-3d24c95da29cc0d946b99cdd5f2026374bb8a493 arm64: entry: Allow the trampoline text to occupy multiple pages
-605911e1737264a84e8d560cdb6c564536293464 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-59ed65e185635c9d95c9c7094d9d58ef629a23c8 arm64: entry: Add vectors that have the bhb mitigation sequences
-d5cf02b407754b344e719e9d2094ed9d70c92f58 arm64: entry: Add macro for reading symbol addresses from the trampoline
-9e49c04fc898fe413e18b247244124e56650195e arm64: Add percpu vectors for EL1
-f0001df87c502cd8bbb4b627a372c4579664dc19 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-0a46cd2e8aa271c7e376c173b425f00e5c315148 KVM: arm64: Add templates for BHB mitigation sequences
-8f85a8765bfd6f74392fe8f83b62f01a92db9e4a arm64: Mitigate spectre style branch history side channels
-cba45be0fc5154da2321de39ff64f60d6d96165b KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-106d0ff375bea4c609dc32eab8077a9e969341ab arm64: Use the clearbhb instruction in mitigations
-a26b371a9199f3d58db97e77692a6123b04b5ec6 xfrm: Check if_id in xfrm_migrate
-882bb6fa4ca447f067e19ca4a7fb6f99605b0f68 xfrm: Fix xfrm migrate issues when address family changes
-09b9412dd8142eb6001718ee158b6137a13504f9 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-4611b9b58690c69d1a28327cf0c7bc2dc7d547dd arm64: dts: rockchip: reorder rk3399 hdmi clocks
-de3ebfd655d98da7740054a52118ae37f9211631 arm64: dts: agilex: use the compatible "intel,socfpga-agilex-hsotg"
-57cc06f00cf83bfc4793a65e51b7f418fb7ad01d ARM: dts: rockchip: reorder rk322x hmdi clocks
-d2080456ba075d6ed61193cb4e42c2483513db66 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-f90c4bfba4bf7657dc9a4dc894db16d079dfdc26 mac80211: refuse aggregations sessions before authorized
-d7a895e3d99a3a6143e004128ba86b047774291b MIPS: smp: fill in sibling and core maps earlier
-f3a9f3476bc941ea98b72501a37005226db0af34 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-d570df07884aaaac59c1e98b8455a22c953e33c9 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-c8a64132a71759ead517eb4c821ff12457bb4ba2 atm: firestream: check the return value of ioremap() in fs_init()
-af8e0fd2f4a1da6dadd787ed30ad16ad8da50dad iwlwifi: don't advertise TWT support
-5a3f4ed25511af0321f70f08aff88b339f97a8d1 drm/vrr: Set VRR capable prop only if it is attached to connector
-e7e2f788d631222f6006a71f97227249bb335c5b nl80211: Update bss channel on channel switch for P2P_CLIENT
-a2bde7d294c0e32a6109f3a8beed08af032612e8 tcp: make tcp_read_sock() more robust
-cf440bd9b9f1b8752303a3e3428cf691f04aa628 sfc: extend the locking on mcdi->seqno
-7b739c1edb809a17cf0fcc836bfe8edd5aef6b36 bnx2: Fix an error message
-c616819bd38c4d32fca2d5e07cda8f283f67193d kselftest/vm: fix tests build with old libc
-e52a2b0f299b226fb96e4f911af2296f7643f210 Linux 5.4.186-rc1
-
---===============6068384095447640317==--
+--===============9213693972096933641==--
