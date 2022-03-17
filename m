@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1696816477997544844=="
+Content-Type: multipart/mixed; boundary="===============5967431914249400591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Mar 2022 12:39:52 -0000
-Message-Id: <164752079220.2419.557601929802578487@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 12:39:53 -0000
+Message-Id: <164752079318.2482.11080255954248241009@gitolite.kernel.org>
 
---===============1696816477997544844==
+--===============5967431914249400591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,61 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.9.y
-    old: 939b7a272ac2ed11f240571c4cab896cceec0855
-    new: 907431a01b501aa43a2378f95507ba89f652a315
-    log: revlist-939b7a272ac2-907431a01b50.txt
+  - ref: refs/heads/linux-4.14.y
+    old: 15a83c97698d0d1f7f5a60ef29ac9d7287bdf372
+    new: 439a12ddb074b188b1eb84d3ce9fa2ee9887839b
+    log: revlist-15a83c97698d-439a12ddb074.txt
 
---===============1696816477997544844==
+--===============5967431914249400591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647520791 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647520792 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1647520790-46435686231c1c544099f47225398f2a70e20ff2
+nonce 1647520791-01b8e4c137a27692c2cbd4b10528eb70becffcfb
 
-939b7a272ac2ed11f240571c4cab896cceec0855 907431a01b501aa43a2378f95507ba89f652a315 refs/heads/linux-4.9.y
+15a83c97698d0d1f7f5a60ef29ac9d7287bdf372 439a12ddb074b188b1eb84d3ce9fa2ee9887839b refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzLBcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ECQP/2pdWXiYSWOOHB9KhHIP
-EDpGdn7oo5m7z0uUufNXbvJv2GH4OF9BblPZJ5rJI96Rzc5EBCnjB7v6CJwgerFP
-usLhdR4hCT1YjccCK0/0frynosBJXM+I4ftsfFkANNnlSA87+7I20eSsmJkaA/rm
-872oEzZ5wYfPCgxnxVy4JuKcBerxe2xLJvU/ev1ppfLu816+Td3jPWnWZHlCn6DJ
-WpcUehwF/rUQQyy6xolxTAPouj80EAMe2ehoO0/H1pTiW/YxXfmj5kaEna37ruro
-j134vJpHB1kZIoVmOIsGuE2lhdrQCGmKAnmAyKmLbU5DriGmfp94/KX02ueVipJP
-FywwS2WV+39uj9cLJkxvadsH2UDjnyNUiTm2vjuInf8vRHk2JzFqNpRTXdgT6FsV
-sQ83FtaT/55oDKhcQysGxZhSkn047kJiKE2whHTpD/FbUI/mzkRSwhMXiUl1xE8A
-YXkq45S5Vm9+IRKtNCD5gebBYvqLqkmLLBSOT6hqCeC1SDe8Sv+XkWiUMJ8yRhmE
-trivbtYBm94gphSd1GnfjRfsc/ZwY2GpdkA1rmyrZAkE8LoV3d/rhWgyYPNyG1rR
-KGIYWcZOZjkglpjqQQoKL300Rni9HqmrihbtbvvTSNxUq+9dNDrhfTisqEu3D18R
-THjQ4glVgIKZ/wkF50dXDwS1
-=vb4Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzLBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CXYQAKWUrJJAsKYatiUPsa8N
+M4RhPX0D1UDHxJpTUGtEWH9b6q+KqTpGOH+TjhbeZIeImWrhgf2a7SCsQrZZ0TPl
+XOeENWT0qdZYo7CNQI7kg2OAa8UjCozmNPXhyPs7klBCSNc+O3N+yywHlNi83KPF
+/yLJLv+Sfws9orWS/3NHOF/2NpB7K68K1Mr/BTqOb+ccmBuVMLquSqLjvyEovIMJ
+dFf52BMmx8QYOhR1kCFXRgoYsaMrJBvjC//GHAExl67zi9Hp2cAfyhSx63yEjVqz
+MIgds9qmzWGN78/A2EhbxBhlnMoujWDYvwE7c8yv52mBpT2TeKQtEbgdUC+Q/YZ+
+hXbZYXy+Jtc8NM5WUdqM5BBPwwS6m1dpjbA6oHiBnFfBzL/TY3IXR9eb/0a+IMKO
+XAiVYxPnb4LkdeRLFmhow2fGaFZ/GFlXXuPd9UtAQwenxxihCgBmMuyGnUD8z4Y7
+k27Y6nhwDEtFaKAcZR1Kl0ILDSB2HzpnmDslbnVwRlWsp81TdMW1QNFMphRUZF1n
+fjQdp/LjjSlEftYPYXEE9fWwXLuv0peKW3aoDtJZ81PgltKyXvJiEDuaEWFLwaBs
+MviFdORtIrQjmPgLmXiJqIN/s0aGl+G+JRpTiSbsJXuCQ/Fdnvghz6gIpm40J2+k
+H5yvGYme/El7YllKMmYtwFRj
+=e1gl
 -----END PGP SIGNATURE-----
 
---===============1696816477997544844==
+--===============5967431914249400591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-939b7a272ac2-907431a01b50.txt
+Content-Disposition: attachment; filename=revlist-15a83c97698d-439a12ddb074.txt
 
-ad66cc184552adb3c52dcb84ac1290ccae616603 xfrm: Fix xfrm migrate issues when address family changes
-22e67b1d34fe8ba7d697a7428a629f709d5c1d77 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-a7ba51ab53758638a5607c29627fde4ce2957339 MIPS: smp: fill in sibling and core maps earlier
-7418ec05aaf209a81cd751e60fe2bec8a6792e56 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-4e7db66c1bfba3c16910eaf151fbb7c40ab862dd can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-ceb118591213f771769101c214868a8ff3c0d9ae atm: firestream: check the return value of ioremap() in fs_init()
-36e3c49c8c114f0b724fd88f9bf1c660e9941abc nl80211: Update bss channel on channel switch for P2P_CLIENT
-a807d85785fd40b01d3528c75e89a7724545a8cf tcp: make tcp_read_sock() more robust
-948ced64dbfc61196184f6504cae7154dad45868 sfc: extend the locking on mcdi->seqno
-d133a9f53da5240b0a1ed2215ceff15abcafe1f5 bnx2: Fix an error message
-e53e1a19e132adce91532e1fc407d497ce6e8167 kselftest/vm: fix tests build with old libc
-907431a01b501aa43a2378f95507ba89f652a315 Linux 4.9.308-rc1
+65a42632eb2fc6ca5ca9dddf1f516e89e9001b83 sctp: fix the processing for INIT chunk
+7c5ccf3ec6694533cf9423aa49e371a36c84d3df sctp: fix the processing for INIT_ACK chunk
+9d465968077b0bebe97115a6c0674d7141627ac3 xfrm: Fix xfrm migrate issues when address family changes
+9697447349770deaebfe7b2baa8e958a6e15b5a6 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
+5d5c3df2d1a6aea7699d8239a556577872c2a772 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+9b2ce2ae3a0f3a8cf357e8d698da54dcb663985c MIPS: smp: fill in sibling and core maps earlier
+1e0d62fc7ceb4905994faabc8e8ae48e0a041a89 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+be5198326948bee68a774eb3c3f332e4850024e0 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+91df2fe1f2c967f5479fdb50104f3a7646b62783 atm: firestream: check the return value of ioremap() in fs_init()
+aec559c9007d8a47ddef766c4b7069078f8001d3 nl80211: Update bss channel on channel switch for P2P_CLIENT
+66d3263cb4edb0bca792a966be31c91b098c8a29 tcp: make tcp_read_sock() more robust
+5c8f29ea0c41e347563483ff87eb8e7c6a6f2cae sfc: extend the locking on mcdi->seqno
+98bad8d368283a3135d79b999d44c9fee7f9fdfa bnx2: Fix an error message
+886e6fd213df837017900bfd17f8f32fc3ba9f80 kselftest/vm: fix tests build with old libc
+439a12ddb074b188b1eb84d3ce9fa2ee9887839b Linux 4.14.273-rc1
 
---===============1696816477997544844==--
+--===============5967431914249400591==--
