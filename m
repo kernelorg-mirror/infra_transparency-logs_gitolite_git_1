@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 17 Mar 2022 16:34:46 -0000
-Message-Id: <164753488670.26354.2724744418467438359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Mar 2022 16:37:07 -0000
+Message-Id: <164753502779.28534.6193776189385622803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next/libgpiod-2.0
-    old: 55db767dc41a945245c757f7666249e98d3d12f2
-    new: 1d5a2cc518385c17e5383c4afa4ef599d87121bd
+  - ref: refs/heads/master
+    old: f1858c277ba40172005b76a31e6bb931bfc19d9c
+    new: 8e0341aefcc9133f3f48683873284b169581315b
     log: |
-         35451ca3ea33511b55c5ce6c4217016364f89362 WIP: doc: API documentation tweaks corrections
-         b09f955886fef5a9947435b5674331b58d653bd1 WIP: core: use num_values rather than num_lines when dealing with subsets of values
-         1d5a2cc518385c17e5383c4afa4ef599d87121bd WIP: core: rename uAPI related variables and functions to uapi.
+         424e7834e293936a54fcf05173f2884171adc5a3 bnx2x: fix built-in kernel driver load failure
+         0f643c88c8d240eba0ea25c2e095a46515ff46e9 net: bcmgenet: skip invalid partial checksums
+         8e0341aefcc9133f3f48683873284b169581315b net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
          
