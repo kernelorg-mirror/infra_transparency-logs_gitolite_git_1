@@ -1,59 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7832355708375145128=="
+Content-Type: multipart/mixed; boundary="===============8555933303636238970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 17 Mar 2022 20:49:15 -0000
-Message-Id: <164755015536.31417.7510923924513211036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 17 Mar 2022 20:51:32 -0000
+Message-Id: <164755029252.1223.512939422212162565@gitolite.kernel.org>
 
---===============7832355708375145128==
+--===============8555933303636238970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/next
-    old: bd147bd4c926ecac9d565fbdf96f41669b67d6bd
-    new: d79e394c7ba5149b242467d29c9a539633b4c0ee
-    log: revlist-bd147bd4c926-d79e394c7ba5.txt
+  - ref: refs/heads/riscv-d1
+    old: 9aee673d5aba7d014916dd9209bbc77fd22de628
+    new: 5acf4c1828afd2b357b001c796fbbbaad5461ba4
+    log: revlist-9aee673d5aba-5acf4c1828af.txt
 
---===============7832355708375145128==
+--===============8555933303636238970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd147bd4c926-d79e394c7ba5.txt
+Content-Disposition: attachment; filename=revlist-9aee673d5aba-5acf4c1828af.txt
 
-1edc7a507ad27ecefffd7eb235348d3a21257e39 PCI: Declare pci_filp_private only when HAVE_PCI_MMAP
-2f50869846238bab5717cbd8377a095264d4acc2 PCI: Remove unused assignments
-10bd45629c0af373ac2fb80daec894d27d912a87 PCI: kirin: Remove unused assignments
-c41590f812b3d5ce62044752e99308bebc64f1e4 PCI: fu740: Remove unused assignments
-0ef1f674af012676c42b07b8428600e14ac8cedd PCI: cpqphp: Remove unused assignments
-d6ef10c59bbdbbe653bd072910e323c2c239e3e8 PCI: ibmphp: Remove unused assignments
-84b576146294c2be702cfcd174eaa74167e276f9 PCI: rcar: Finish transition to L1 state in rcar_pcie_config_access()
-6e36203bc14ce1470ad289ef050eb0fe542ee8b7 PCI: rcar: Use PCI_SET_ERROR_RESPONSE after read which triggered an exception
-2a8b7b24b85080f565408e5c118c451fc634dc77 x86/PCI: Add #includes to asm/pci_x86.h
-deaf7a2c2e4b5072a743633bf37c45f34426a093 PCI: imx6: Invoke the PHY exit function after PHY power off
-45514f78c65cc9a09437f20e180625f94f769863 PCI: imx6: Assert i.MX8MM CLKREQ# even if no device present
-ca01309c5c1b237bb1f25345f93d58affff16832 Merge branch 'pci/acpi'
-37bc9723a3b7a42aa0281233f6a6ec7ed1d6249d Merge branch 'pci/bridge-class-codes'
-b0e8ff8f904dbc4fb70293b36854c76a92b2d4c7 Merge branch 'pci/enumeration'
-cd4f6b1cde8bb4501790a9b30d70da839aaec65d Merge branch 'pci/hotplug'
-6a3a5ae87fceba577af26ff3caa75c3bfa69775b Merge branch 'pci/misc'
-058fe88df43c50f21e1e47be709eefc87ab309c4 Merge branch 'pci/p2pdma'
-5feee930e03612f47ee9fe4c94153338bbc05ad2 Merge branch 'pci/vga'
-f44aeb2fbc26760022f3035274c736e83b44c78e Merge branch 'remotes/lorenzo/pci/aardvark'
-849b720b791336d3469d7de40d0750a96b3b32ac Merge branch 'pci/host/dwc'
-0f307cf057701858d1d69cce48d1667977ff0ae0 Merge branch 'remotes/lorenzo/pci/endpoint'
-0c2c4cefb9f3937665d48a8dec7d951ae8f7f294 Merge branch 'pci/host/fu740'
-4b52e9cb2f30aef077eaa7de62809208d442e678 Merge branch 'remotes/lorenzo/pci/hv'
-e380e9da1f8622e6d3a92ee4137b18060baf23dc Merge branch 'remotes/lorenzo/pci/imx6'
-27892ea49fc0a9d42547bc91314d78ce672d4d7b Merge branch 'remotes/lorenzo/pci/misc'
-15f05c408c594fc2fd74fa041e1ca75a644cb06b Merge branch 'remotes/lorenzo/pci/mvebu'
-a959fe1f7fb5e1573327e19d2543f6fc463d29ce Merge branch 'remotes/lorenzo/pci/qcom'
-3e7b96d1213941a86587808818eaed733da391a6 Merge branch 'remotes/lorenzo/pci/rcar'
-d79e394c7ba5149b242467d29c9a539633b4c0ee Merge branch 'remotes/lorenzo/pci/uniphier'
+58004f266918912771ee71f46bfb92bf64ab9108 RISC-V: Correctly print supported extensions
+2a31c54be097c74344b4fab20ea6104012d2cb8b RISC-V: Minimal parser for "riscv, isa" strings
+40a4d0dfbcf00c8534ab8724041705b3db6c5ce2 RISC-V: Extract multi-letter extension names from "riscv, isa"
+02d52fbd940af7d7fe0a523e99938113b2addd35 RISC-V: Implement multi-letter ISA extension probing framework
+3f96db125d68127ffef6fdeeb777d94ccf95c09f RISC-V: Do no continue isa string parsing without correct XLEN
+a9b202606c69312cdaa4db187837820ebf7213b2 RISC-V: Improve /proc/cpuinfo output for ISA extensions
+dbe0c40657f3f60e7690f7c88ad444b1131da51d riscv: prevent null-pointer dereference with sbi_remote_fence_i
+821bb1f8f450d11414312e73abdbb4e85f229df3 riscv: integrate alternatives better into the main architecture
+7ca27f40e867bdf2e058d28a8a641b2de80a06cd riscv: allow different stages with alternatives
+f3c1a8434bda227c612593750b0027eea32ad9da riscv: implement module alternatives
+b06a7454cfd2c222e63086cc9ffcd02c57a8c030 riscv: implement ALTERNATIVE_2 macro
+41a1abfb0af87b24bb2d51ffd55e81f16d0e9c2b riscv: extend concatenated alternatives-lines to the same length
+83ff7850cc5b31c512f0a30437e2999ec5505712 riscv: prevent compressed instructions in alternatives
+99bac71063993c701f63bc81d0125b021b66cb57 riscv: move boot alternatives to after fill_hwcap
+d872775e6d66accada1cd6eb5be5def60134fdc8 riscv: Fix accessing pfn bits in PTEs for non-32bit variants
+da65ee978f5db298cfafe344be973acb92179c4e riscv: add cpufeature handling via alternatives
+de8950b38c5be22611acbba781e7f0d298bc292b riscv: add RISC-V Svpbmt extension support
+92356eb06de426ee9c583c28a73d92d5ee9bcd19 riscv: remove FIXMAP_PAGE_IO and fall back to its default value
+5acf4c1828afd2b357b001c796fbbbaad5461ba4 riscv: add memory-type errata for T-Head
 
---===============7832355708375145128==--
+--===============8555933303636238970==--
