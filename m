@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 17 Mar 2022 16:34:22 -0000
-Message-Id: <164753486210.26156.15135546817363029874@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 16:34:46 -0000
+Message-Id: <164753488670.26354.2724744418467438359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
   - ref: refs/heads/next/libgpiod-2.0
-    old: 9d5112d0448fb2436e926a36842ff5ca365303c3
-    new: 55db767dc41a945245c757f7666249e98d3d12f2
+    old: 55db767dc41a945245c757f7666249e98d3d12f2
+    new: 1d5a2cc518385c17e5383c4afa4ef599d87121bd
     log: |
-         65a821c153561c2740866537e6aa0f8ac1777d63 doc: API documentation tweaks corrections
-         4f2b3340beccece209717bf5c1b0a38527208768 core: use num_values rather than num_lines when dealing with subsets of values
-         55db767dc41a945245c757f7666249e98d3d12f2 core: rename uAPI related variables and functions to uapi.
+         35451ca3ea33511b55c5ce6c4217016364f89362 WIP: doc: API documentation tweaks corrections
+         b09f955886fef5a9947435b5674331b58d653bd1 WIP: core: use num_values rather than num_lines when dealing with subsets of values
+         1d5a2cc518385c17e5383c4afa4ef599d87121bd WIP: core: rename uAPI related variables and functions to uapi.
          
