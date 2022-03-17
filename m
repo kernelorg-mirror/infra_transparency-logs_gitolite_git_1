@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7687937773233972539=="
+Content-Type: multipart/mixed; boundary="===============8927090963585498087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Mar 2022 19:14:04 -0000
-Message-Id: <164754444493.1083.2732953690794755282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 17 Mar 2022 19:14:10 -0000
+Message-Id: <164754445079.1404.15987332793836781100@gitolite.kernel.org>
 
---===============7687937773233972539==
+--===============8927090963585498087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 753132f0394b7e3cebe805a6c626a02e75766f7f
     new: 638cec39339db40df9fc2ece0411a64856669b93
     log: |
@@ -24,28 +24,28 @@ changes:
          638cec39339db40df9fc2ece0411a64856669b93 ASoC: fsl_spdif: Add new registers included on i.MX8ULP
          
 
---===============7687937773233972539==
+--===============8927090963585498087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1647544443 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1647544443-63e38638904730bbe68750f289c220b25674dc65
+pusher C3F436CA30F5D8EB 1647544449 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1647544449-05c7608c64ee856099c0d6f8b188830fbdc46fba
 
-753132f0394b7e3cebe805a6c626a02e75766f7f 638cec39339db40df9fc2ece0411a64856669b93 refs/heads/for-5.18
+753132f0394b7e3cebe805a6c626a02e75766f7f 638cec39339db40df9fc2ece0411a64856669b93 refs/heads/asoc-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIziHsACgkQJNaLcl1U
-h9Anfwf/YORdWJrUxnenAtTrJN/3yKd3G5sIcnZRNIePiXLq5N41eUGC0f2NvaCk
-Uh2I7hXzsuDFvQyguD1rzhLG9yVloy6E5IhGA9AogThzdIJVfbXAPemTfAC/UsIQ
-QKkHBTgrtqO8hG0g/uLwHd01dus0UqTZ6BgSYnTc43VaPmLuUmnlSvzjDsngDgDm
-Jrk/FMeV5rvIsBaXs1eoOvKpo5mcPzFlLiC5pLAcc17nlHhjy/lLvUVC75T6xPtQ
-RaZfU0sUCkSau/OuRXhGUXSm0sbQsyPpKgf8N7TPFMSJ3gqvyMOylJeadWLecm/Y
-j7YyvDYGrX/vnwLexCd0ByI3gHrbKA==
-=O9qM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIziIEACgkQJNaLcl1U
+h9BCXQf/Yv+thCpHJ0zbI8OZjFrGP1ckboEz66TAeeNOFHtP385nWt1PoZ6GgpPN
+wlzoTt4wq+EW8BZ0XB6cln7mmqnQ87L3+RfDD9e+nuf5yKliGGDzzQUswhK/mjzE
+6dtBbPScxAlHk/B4Wmt0dhjqlvceaF7ZtIKUc3TM8jze+MIG9AgPPgCfzCyIpoYi
+/9QjeR0LTOsrNHZOPqKKA91k3GHUOMU8UZLjMlMKUXBc5hoGIGZxqTIKKPJX/Jjd
+ILHH7sO59z0YaLiojiEl48pq8n18Eu+xx07jF8Wqy5lplA/brrSUdRKdUsIg5EXN
+z9b/lTKSJtDxOTwTu160JupDKwc3gg==
+=M40W
 -----END PGP SIGNATURE-----
 
---===============7687937773233972539==--
+--===============8927090963585498087==--
