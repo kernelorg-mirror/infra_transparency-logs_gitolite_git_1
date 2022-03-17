@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 17 Mar 2022 01:50:03 -0000
-Message-Id: <164748180331.20810.11246575589999446754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 17 Mar 2022 01:58:46 -0000
+Message-Id: <164748232665.25174.3029243815558253156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-5.18/io_uring
-    old: 521d61fc760aebdbf8938347a40c9538c0a70034
-    new: 91eac1c69c202d9dad8bf717ae5b92db70bfe5cf
+  - ref: refs/heads/master
+    old: b1351527f1eeb9624c301ecb7d8adbc4f543e045
+    new: a0bfd73deba1bb3c51e2f208ec03465422af667c
     log: |
-         81459350d581e958ee9c6e76031f77333881c23c io_uring: cache req->apoll->events in req->cflags
-         91eac1c69c202d9dad8bf717ae5b92db70bfe5cf io_uring: cache poll/double-poll state with a request flag
-         
-  - ref: refs/heads/for-next
-    old: 811e8716edcd0a0190c6186b798f12ddbf706819
-    new: ab0cb592a3cce40d37f9b68a9cc8726f15464769
-    log: |
-         81459350d581e958ee9c6e76031f77333881c23c io_uring: cache req->apoll->events in req->cflags
-         91eac1c69c202d9dad8bf717ae5b92db70bfe5cf io_uring: cache poll/double-poll state with a request flag
-         ab0cb592a3cce40d37f9b68a9cc8726f15464769 Merge branch 'for-5.18/io_uring' into for-next
+         3ea566422cbde9610c2734980d1286ab681bb40e can: isotp: sanitize CAN ID checks in isotp_bind()
+         30ffd5332e06316bd69a654c06aa033872979b7c can: isotp: return -EADDRNOTAVAIL when reading from unbound socket
+         42bf50a1795a1854d48717b7361dbdbce496b16b can: isotp: support MSG_TRUNC flag when reading from socket
+         7843d3c8e5e6887e79dd11c7b5311d9fec66cb76 dt-bindings: can: xilinx_can: Convert Xilinx CAN binding to YAML
+         c34983c94166689358372d4af8d5def57752860c can: ucan: fix typos in comments
+         a0bfd73deba1bb3c51e2f208ec03465422af667c Merge tag 'linux-can-next-for-5.18-20220316' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
          
