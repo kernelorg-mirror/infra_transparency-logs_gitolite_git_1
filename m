@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 17 Mar 2022 02:33:03 -0000
-Message-Id: <164748438385.15222.1159666970815866252@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 02:39:22 -0000
+Message-Id: <164748476250.18567.16055300872185367508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: af1147b236da553544bed1ed8b683510e1278308
-    new: 571703ff387cf5d2efbeda2674644345fcb3b016
+    old: 571703ff387cf5d2efbeda2674644345fcb3b016
+    new: a860352e9dd02552e04a0503d0982cf9a4d3a0f4
     log: |
-         2fc559c8cba028aaa80f73796a8ce5325418fb3e gve: Fix spelling mistake "droping" -> "dropping"
-         f403443015c6520d146813ec48cbfce0c902ccc0 net: hns3: Fix spelling mistake "does't" -> "doesn't"
-         571703ff387cf5d2efbeda2674644345fcb3b016 net: mv643xx_eth: undo some opreations in mv643xx_eth_probe
+         4de7c8bd6a380d69848ec7991cc85eeed652daac phy: Remove duplicated include in phy-fsl-lynx-28g.c
+         a860352e9dd02552e04a0503d0982cf9a4d3a0f4 net: dsa: Never offload FDB entries on standalone ports
          
