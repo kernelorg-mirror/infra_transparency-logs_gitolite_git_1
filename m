@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 17 Mar 2022 11:13:54 -0000
-Message-Id: <164751563473.10982.16924219852025807415@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 17 Mar 2022 11:34:42 -0000
+Message-Id: <164751688254.24599.9670924851897471905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: holtmann
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: 65d6602f6334a4f733fac9d1acd19469d3c2a537
-    new: 255a55aaccb17fee3fa947c7eadf76d0e693da79
+  - ref: refs/heads/linux-4.4.y-st
+    old: a7841982622594475c87d82372d03c2cd9a4786c
+    new: 2da59b21e4e0de4fcdc61659d93dd26a0aed6dea
     log: |
-         496eab9dde9f3d350d8267057b468d352ac9810c Bluetooth: btmtksdio: Fix kernel oops in btmtksdio_interrupt
-         aeeb8ed27062e72c83d44a66cbbd2adc57fc2eac Bluetooth: mt7921s: Set HCI_QUIRK_VALID_LE_STATES
-         c844ce71d5be6b5c3ef36cf97d2a5f84e661bc33 Bluetooth: mt7921s: Add .get_data_path_id
-         3cabc5ca2c9d2d9f0e51a8559c69c93a0f4b4665 Bluetooth: mt7921s: Add .btmtk_get_codec_config_data
-         255a55aaccb17fee3fa947c7eadf76d0e693da79 Bluetooth: mt7921s: Add WBS support
+         46c33101debfc4226d08933659660a8835b6a0e0 cgroup-v1: Require capabilities to set release_agent
+         af77028d340bb4e8b59d28faf4db04988b144379 moxart: fix potential use-after-free on remove path
+         2da59b21e4e0de4fcdc61659d93dd26a0aed6dea tipc: improve size validations for received domain records
          
