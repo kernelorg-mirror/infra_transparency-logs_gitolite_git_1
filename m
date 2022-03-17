@@ -1,51 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8927090963585498087=="
+Content-Type: multipart/mixed; boundary="===============0607702645688669607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 17 Mar 2022 19:14:10 -0000
-Message-Id: <164754445079.1404.15987332793836781100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 17 Mar 2022 19:14:17 -0000
+Message-Id: <164754445716.1677.11302256662800295374@gitolite.kernel.org>
 
---===============8927090963585498087==
+--===============0607702645688669607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 753132f0394b7e3cebe805a6c626a02e75766f7f
-    new: 638cec39339db40df9fc2ece0411a64856669b93
+  - ref: refs/heads/for-5.18
+    old: c9839acfcbe20ce43d363c2a9d0772472d9921c0
+    new: ebc4cb43ea5ada3db46c80156fca58a54b9bbca8
     log: |
-         b26f965f7c83464f60d5af411ef9a03079e41800 ASoC: SOF: topology: Use kmemdup() to replace kzalloc + memcpy
-         638cec39339db40df9fc2ece0411a64856669b93 ASoC: fsl_spdif: Add new registers included on i.MX8ULP
+         1a4e53d2fc4f68aa654ad96d13ad042e1a8e8a7d spi: Fix invalid sgs value
+         2d2c73318bd51e430da6818c0d12973081aba8d2 spi: Get sgs size fix into branch
+         ebc4cb43ea5ada3db46c80156fca58a54b9bbca8 spi: Fix erroneous sgs value with min_t()
          
 
---===============8927090963585498087==
+--===============0607702645688669607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1647544449 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1647544449-05c7608c64ee856099c0d6f8b188830fbdc46fba
+pusher C3F436CA30F5D8EB 1647544455 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1647544455-22e3de1c383c3bd2b26a755603ba7297dac0ca7e
 
-753132f0394b7e3cebe805a6c626a02e75766f7f 638cec39339db40df9fc2ece0411a64856669b93 refs/heads/asoc-5.18
+c9839acfcbe20ce43d363c2a9d0772472d9921c0 ebc4cb43ea5ada3db46c80156fca58a54b9bbca8 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIziIEACgkQJNaLcl1U
-h9BCXQf/Yv+thCpHJ0zbI8OZjFrGP1ckboEz66TAeeNOFHtP385nWt1PoZ6GgpPN
-wlzoTt4wq+EW8BZ0XB6cln7mmqnQ87L3+RfDD9e+nuf5yKliGGDzzQUswhK/mjzE
-6dtBbPScxAlHk/B4Wmt0dhjqlvceaF7ZtIKUc3TM8jze+MIG9AgPPgCfzCyIpoYi
-/9QjeR0LTOsrNHZOPqKKA91k3GHUOMU8UZLjMlMKUXBc5hoGIGZxqTIKKPJX/Jjd
-ILHH7sO59z0YaLiojiEl48pq8n18Eu+xx07jF8Wqy5lplA/brrSUdRKdUsIg5EXN
-z9b/lTKSJtDxOTwTu160JupDKwc3gg==
-=M40W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmIziIcACgkQJNaLcl1U
+h9DsXAf/coMMTXDMdfjUOeIha6nf7C22pjsuirb1uPAlakK+RX+tSsqYUbclcbF1
+E5/jhyjNppS3ayZXA8grPSMj6MZo5Z4BcREV5/XXwMSzYWwyFaeirDyOlgFlDv00
+lAoN/JpIttp4yq3+2T+UajwlXiZbIaLvwenez0vPahEXfRq3i8T9TdXO50eqoN+e
+/X3UThdsosCuuhGc1AsX9KYXrPxXn5tEq6j9wTxkao3s9bmfnpkDcNaiOhVPnS8/
+s3+h6B5vWyaVpX+277COMHflW1RPD7nLxGFkp8TBF/Sw1U9TV5E9ttqh3uOpOaZ1
+Oxci3+Fzwws8SdZ//i48C/pnSs+YkA==
+=IEtK
 -----END PGP SIGNATURE-----
 
---===============8927090963585498087==--
+--===============0607702645688669607==--
