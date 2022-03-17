@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4424731702975384820=="
+Content-Type: multipart/mixed; boundary="===============7476846836179021523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 17 Mar 2022 11:07:42 -0000
-Message-Id: <164751526227.6998.7140377588332017514@gitolite.kernel.org>
+Date: Thu, 17 Mar 2022 11:07:43 -0000
+Message-Id: <164751526301.7082.17747073062317281706@gitolite.kernel.org>
 
---===============4424731702975384820==
+--===============7476846836179021523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,72 +16,75 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: b9a0208cb3e3e37def2abe4d602f084e0f746419
-    new: bce139da2f8a5175e21e92533e5b35367eaf7f89
-    log: revlist-b9a0208cb3e3-bce139da2f8a.txt
+  - ref: refs/heads/linux-5.16.y
+    old: 3ea3a232f03adfcf6d18d91d6e851057b6cb079b
+    new: 3782384411f0049c12382d763c8d3c9c63ba0edf
+    log: revlist-3ea3a232f03a-3782384411f0.txt
 
---===============4424731702975384820==
+--===============7476846836179021523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647515260 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647515261 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1647515255-6503871cea95bbe74af8c8e46de4946d173ff6af
+nonce 1647515259-1d16d794eb8041d4e5f4df0eba7c134205496d15
 
-b9a0208cb3e3e37def2abe4d602f084e0f746419 bce139da2f8a5175e21e92533e5b35367eaf7f89 refs/heads/linux-5.15.y
+3ea3a232f03adfcf6d18d91d6e851057b6cb079b 3782384411f0049c12382d763c8d3c9c63ba0edf refs/heads/linux-5.16.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzFnwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h+wP+we3G44HW6fQ7dq7Lo4z
-907zIsO4aXt/HUFmlV3wPLP1N/0ZpaqO+DYj2vhOSHO7Lw2wGNbPUkwzHbSpype6
-Z9rOsgwpOwssAnZhmpl7nxHr1lCPhL+lI1/i8S5eGPe0JYJDLQAS0cpJ1AqKiYIX
-Bt/E63Tu4VJ/0U9HWyC3DANfpFhQvF4Sc5wNdVs4izkRkZ7A8IEtCeKq9Vtdu2OM
-tTb6SWbStj5EwAhxlwR/nmg7OHSF05TiI/wyhWtKsqvCAomM104FiD6mzCP3xGpp
-PrHEfHIkZHQF/tqc6vCDCZC/+YayYrELOiVSDa9u0XvfMXKHTDS/Oa30hN0bie4n
-oskvOzz/RGpDiZuGbpPLuDa3++el1kXSUrEjGlHdMCWlnQzVTFAY7uTQnEc2ezlh
-tPr01qIA0luNAxWcyHZBODVHalFZ87DsspmUYPqh2T94KRYOZnjS9sv58rDxzHcu
-2TxgP4vRosDUyG3xUW7gYrB8Q4Jxx5o3tX35ZbmtqyVc4MG53R3uUiEaeYLFw4MW
-7z7iXuQEB3YXlJBW3GNA3ttWCkvzns7sV3zdlOnjH0HEAdU0mEXC9SWhgfUTCbBQ
-dWUJy1LvuuX4viHhNesKKcwr4wxV+LfKw9AawxE8tdcH8bmEaYUORsFDfeL3JCXP
-rzkpuEBjue26zSfXmoupkao0
-=e0XJ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmIzFn0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vrUQAI63YInLk39ifHcXp8gG
+RDjzhxLzz24mm2DsPyTjg3JCmpVR18ye+zGYpIqaMgH2OJDL9EgeA8YXBWpJRx5X
++J6OWB8111MP7kNuuDoUlczcvbRB7JzSPBFV0aWjgMSrRwz8xrV6F6Q8oROiOMHp
+S/6fo9liAqOy1i2nkya8VNQiCZI1EBU+ji7F9Z6yyvt6g9SePTlUzVeH09tp8l1v
+N/8/5sfLA2j+Oqo/05VrIrN2ucs0qxRkxaqgyugp8YbSeK4YjZbIlG7XyN3tuY5p
+dFl3nZpY7VGSRYRsLOXb4wp3iCxAUmzyiqOyhPL0d8MCdKeQijCFqKR1WcUgYGyk
+WAk+0b4gVWGE0hzW/p4PImKyIjUyo064g/4vqrvrQwzSKLzsL5VL/QhF+ugmqKv9
+USu6tyVxMmqdoWVDhLvvRlKu1RWmKs8W+2+zFMLWn7HTqiYN6B3WI0A1le71Cm0O
+iM8GtipoA3EJ5DBHL/ZPnRYo720SvgKX7FV2wGaDkYmM3xCFZBN3k+4DUF8IyxoM
+UpW4LdylCHNJ0mLFnrPkN2cMLqBF48wKcFsrXmuB22iW0BMnhGVNjvEPy39xPek9
+34Vxr9mgU1p0Z7oFwf7HWhh3FvDLMsPiFvIXJax3Ym+anGxOkV9wDjHocBmQKbii
+3U33vY2TqxaBM2/d7tZ0Ee1o
+=gw/1
 -----END PGP SIGNATURE-----
 
---===============4424731702975384820==
+--===============7476846836179021523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9a0208cb3e3-bce139da2f8a.txt
+Content-Disposition: attachment; filename=revlist-3ea3a232f03a-3782384411f0.txt
 
-79f59bf53b37b8a9bf74a66d242034ec5a3477e0 Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-e8d3f21249d6c8481955bf567c57efdab350baa5 arm64: dts: rockchip: fix rk3399-puma-haikou USB OTG mode
-dc4d6934a20962f537f51356b9c49597904d5219 xfrm: Check if_id in xfrm_migrate
-5867a29a0b5cf789d288ecbe5b9df9661d614c47 xfrm: Fix xfrm migrate issues when address family changes
-41fbe96abc05641d24eaaf2856277d7dd1ce0f8d arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-d7646b2768719d7d95fd3d9062d20cb7aa0308b4 arm64: dts: rockchip: align pl330 node name with dtschema
-28720d2aeca24a4b1633df889a41beaa8bae3859 arm64: dts: rockchip: reorder rk3399 hdmi clocks
-272dda3807ed298ae8e3c240c4571571d6df1039 arm64: dts: agilex: use the compatible "intel,socfpga-agilex-hsotg"
-20ca423999e73a4f87c9b761ba93e02dd7d269a2 ARM: dts: rockchip: reorder rk322x hmdi clocks
-08df17519f1e424c1ee9b91fa55a751b5edd5c85 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-0855121baf43d412525da2a65358e06fe57e55ff mac80211: refuse aggregations sessions before authorized
-a7b4098d45e4915056b621c617fca75485fd83a0 MIPS: smp: fill in sibling and core maps earlier
-5866d2011558a013430a1978f18524eb99c7a214 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-952e8fbe21e58ae3e6dbb29d9f347de05303d1e3 Bluetooth: hci_core: Fix leaking sent_cmd skb
-6525b26bed909e466187065787ef29e8d3f2b0a8 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-7c9157b45ad587ccee10b2316487ec790668fa1c atm: firestream: check the return value of ioremap() in fs_init()
-1149ef7347539d206724d6089c7ddfa5dd93fadb iwlwifi: don't advertise TWT support
-96c37e91503ce004f8453e47d42840811576b2fe drm/vrr: Set VRR capable prop only if it is attached to connector
-d3e7f612c583fe16d2c20b7fccbf0ed916b7a6a3 nl80211: Update bss channel on channel switch for P2P_CLIENT
-f16f6f85938a7837f89211deef2c6250eed22bb5 tcp: make tcp_read_sock() more robust
-9a872286f3860632961098905802432e7bbcb6e0 sfc: extend the locking on mcdi->seqno
-7370180ef1a34111c2ad969b1bb101753ec40e6d bnx2: Fix an error message
-df51fd0ffbf3600051a0aa10d28c406afb271632 kselftest/vm: fix tests build with old libc
-e0d729d8448d32f8a5944b600075a96e93c13f4c x86/module: Fix the paravirt vs alternative order
-0803c8a55f0961544d9afb05f3fac210041b1a00 ice: Fix race condition during interface enslave
-bce139da2f8a5175e21e92533e5b35367eaf7f89 Linux 5.15.30-rc1
+6f99eafc75b3f3c8fc5ba882504f521008b197b2 Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
+5e78965a27261bbbc90d390c9657166bb9a98580 arm64: dts: rockchip: fix dma-controller node names on rk356x
+dccf93f64fbeb629effa59fa025d6a9bc689aaed arm64: dts: rockchip: fix rk3399-puma-haikou USB OTG mode
+f19e47c40cbdfecf3aca732421567f9c550f966a xfrm: Check if_id in xfrm_migrate
+2c91c2884462f38101cce6382dbee7c634711fbd xfrm: Fix xfrm migrate issues when address family changes
+9139509f823695f83572ab8cbeb477f62f03afb7 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
+b8d3ca3de3c2e98afab600e1ef9a7c573dbea5f4 arm64: dts: rockchip: align pl330 node name with dtschema
+e0b4513a6abaddd2ef0b8a8229adb1c25daa2eaf arm64: dts: rockchip: reorder rk3399 hdmi clocks
+98aadc1f3789fb5779f71e088459ef1b0d54da2c arm64: dts: agilex: use the compatible "intel,socfpga-agilex-hsotg"
+bd9662627c5400f04aa3c2146845697b1ca52df7 ARM: dts: rockchip: reorder rk322x hmdi clocks
+15e9eadfb401b32801663c90c80d19e26a8eefb2 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+4c48948969b6fb003c5434a31844c651a473062a mac80211: refuse aggregations sessions before authorized
+ab15a74ef65e8d0684f8fd1647af81070e1650b7 MIPS: smp: fill in sibling and core maps earlier
+0b7c2fa005142f827905e1fb0f9dd23ec0858e1f ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+22bbcdc34c621996f02d56b2755baffb92f52cff Bluetooth: hci_core: Fix leaking sent_cmd skb
+8c9c9f5c4676905a2bec68a64e1efa135c3e06ea can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+1e29cc2df5c963a4b0263fd11beb21907117bb8e atm: firestream: check the return value of ioremap() in fs_init()
+e9b36e36955dceffa426220292035fa41879fd6d netfilter: egress: silence egress hook lockdep splats
+5f8578aec711400b6a47e99e5cdf28020a548548 Input: goodix - use the new soc_intel_is_byt() helper
+118055d3b44422d17d064b18b80d931ce66ed77c Input: goodix - workaround Cherry Trail devices with a bogus ACPI Interrupt() resource
+db3dc708911303ceb6caa20137cc2711b2ec3914 iwlwifi: don't advertise TWT support
+68186dfc5426b1adaa8a5b422688c9d860060b0d drm/vrr: Set VRR capable prop only if it is attached to connector
+8d8e13e091859d00ad9a235327777d9b8c303607 nl80211: Update bss channel on channel switch for P2P_CLIENT
+8afc2508456081f1d0434446e453ed91d2a5626c tcp: make tcp_read_sock() more robust
+982738b8f4f72373190bd1b40c1902a4f8d69904 sfc: extend the locking on mcdi->seqno
+510c6549fbe15e07731af8f4e004b1ca2c59d784 bnx2: Fix an error message
+b2222cefe9bdee3ab32feb0b178991b43ab3c27a kselftest/vm: fix tests build with old libc
+eb7e14acbd1ac118ae8c8fecf479245219ba17bc ice: Fix race condition during interface enslave
+3782384411f0049c12382d763c8d3c9c63ba0edf Linux 5.16.16-rc1
 
---===============4424731702975384820==--
+--===============7476846836179021523==--
