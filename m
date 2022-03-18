@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9216204690750645669=="
+Content-Type: multipart/mixed; boundary="===============0866654572718838794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Mar 2022 15:27:16 -0000
-Message-Id: <164761723687.4691.1023387537556104181@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 15:27:22 -0000
+Message-Id: <164761724286.4777.17060876805172769949@gitolite.kernel.org>
 
---===============9216204690750645669==
+--===============0866654572718838794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e243f39685af1bd6d837fa7bff40c1afdf3eb7fa
-    new: e89600ebeeb14d18c0b062837a84196f72542830
-    log: revlist-e243f39685af-e89600ebeeb1.txt
+  - ref: refs/heads/dev-queue
+    old: 1097eebf91322dd332e7d160a6be96c0ef785fef
+    new: 1f3d1ed5dffc5e954874251f60e738489d4da40b
+    log: revlist-1097eebf9132-1f3d1ed5dffc.txt
 
---===============9216204690750645669==
+--===============0866654572718838794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e243f39685af-e89600ebeeb1.txt
+Content-Disposition: attachment; filename=revlist-1097eebf9132-1f3d1ed5dffc.txt
 
 3fa5a0f5b0d69e31c6476cd81afeca3cc25a4927 mac80211: always have ieee80211_sta_restart()
 2b3171c6fe0af24b5506e061525e08917a2f744a mac80211: MBSSID beacon handling in AP mode
@@ -154,5 +154,13 @@ e913c09dbe3b4114ed4fadd15705a63fcfaaf48a Merge branch 'lan743x-PCI11010-#PCI1141
 dca51fe7fbb11909cd80e81714f6de4515123a64 Merge tag 'wireless-next-2022-03-18' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 efb3719f4ab0c4646ce2fe16c610e6a9bb0e1b08 af_vsock: SOCK_SEQPACKET receive timeout test
 e89600ebeeb14d18c0b062837a84196f72542830 af_vsock: SOCK_SEQPACKET broken buffer test
+a2cef978c23f1c91176847183f4bdae59271a91c igc: Add UDP segmentation offload support
+7c2e5f4228f2b5eaa781fd6ccd64b0360300c826 ice: Fix re-enablement of FW logging after reset
+24dd94a6cfecd18b751c3f8f117a4f7688a6ebec igc: Fix infinite loop in release_swfw_sync
+cc7034c380c9a113bfa2b1f3dcdb2caaa5b38023 i40e: little endian only valid checksums
+2449cbbfdf167b673d9540f1b584df3ffa7ab549 i40e: Add support for MPLS + TSO
+a68dbe5f7cfe5180ff4c9704b5f3ea5852c092aa igc: Fix BUG: scheduling while atomic
+b22250e665b62a9afcbbdfe845a98dc6f6a3bb96 igb: zero hwtstamp by default
+1f3d1ed5dffc5e954874251f60e738489d4da40b ice: Add mpls+tso support
 
---===============9216204690750645669==--
+--===============0866654572718838794==--
