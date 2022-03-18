@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 18 Mar 2022 08:38:11 -0000
-Message-Id: <164759269146.11004.10393423130891406469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Fri, 18 Mar 2022 08:41:55 -0000
+Message-Id: <164759291581.13624.15732381333463806111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/damon/next
-    old: d9ec7a7e38fa93f7a8cd2e7ae8eb45e43bcde9be
-    new: 52072acc815c47b1d7744927092e12e230d01661
+  - ref: refs/heads/mips-next
+    old: 588d08201c2d91c0b7408eb1deb73f6c8fce9ea3
+    new: 8931ddd8d6a55fcefb20f44a38ba42bb746f0b62
     log: |
-         9727dba6d60f6800738c89e27a480af6c7a7467f mm/damon: minor cleanup for damon_pa_young
-         52072acc815c47b1d7744927092e12e230d01661 for_damon_hack/todo: Update
+         8931ddd8d6a55fcefb20f44a38ba42bb746f0b62 MIPS: ingenic: correct unit node address
          
