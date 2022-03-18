@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 18 Mar 2022 22:46:42 -0000
-Message-Id: <164764360279.1287.3188793985784563252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 18 Mar 2022 22:50:04 -0000
+Message-Id: <164764380480.3836.2225559469981439352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 411fadd62cecf74935693b7690b416af9bd4a332
-    new: 0acfd47aee46a4dc7aedcc6470d52c35bf0a836c
-    log: |
-         0acfd47aee46a4dc7aedcc6470d52c35bf0a836c parisc: Convert parisc_requires_coherency() to static branch
-         
+  - ref: refs/tags/for-5.18/64bit-pi-2022-03-18
+    old: 0000000000000000000000000000000000000000
+    new: 966478eabd32a9789d43c01b4953a8579c424a3a
+  - ref: refs/tags/for-5.18/alloc-cleanups-2022-03-18
+    old: 0000000000000000000000000000000000000000
+    new: a99a13d075638e033df7f5449eedf5d903c6580a
+  - ref: refs/tags/for-5.18/write-streams-2022-03-18
+    old: 0000000000000000000000000000000000000000
+    new: f9dbe14a6978a392df1aa51cba7b72d202dea3a4
