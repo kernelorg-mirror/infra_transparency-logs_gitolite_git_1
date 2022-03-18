@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2604730670038567570=="
+Content-Type: multipart/mixed; boundary="===============6115731348179561797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 18 Mar 2022 12:17:50 -0000
-Message-Id: <164760587058.8765.780522831994778224@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 12:25:06 -0000
+Message-Id: <164760630632.13882.2481709399506295755@gitolite.kernel.org>
 
---===============2604730670038567570==
+--===============6115731348179561797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 1a282ef0a18fff8a37a60566da3a87b5d8daf1de
-    new: 0dc0da881b4574d1e04a079ab2ea75da61f5ad2e
+    old: 0dc0da881b4574d1e04a079ab2ea75da61f5ad2e
+    new: f25fbd5b1ef3773bd975135f8a017dc2251626cc
     log: |
-         0dc0da881b4574d1e04a079ab2ea75da61f5ad2e tty: serial: bcm63xx: use more precise Kconfig symbol
+         dffa58b64cca6ca266bc0310d8e6b27abd1f8048 serial: 8250_tegra: mark acpi_device_id as unused with !ACPI
+         d3a46d0d83f94b5780bcaaea4b4ddbe7c110b35c tty: serial: samsung: embed s3c24xx_uart_info in parent structure
+         7483189d6b3c1dec7e91fa082a4d52cfc9dd1ef0 tty: serial: samsung: embed s3c2410_uartcfg in parent structure
+         3aec400965500697179aed4497d9ad8dc9502e37 tty: serial: samsung: reduce number of casts
+         97a6cfe8115b04296da6ee6589367234307f0c7d tty: serial: samsung: constify s3c24xx_serial_drv_data
+         5d18bec0cf73370b2328dc311f28271f2b40d163 tty: serial: samsung: constify UART name
+         8eea61c00f7cea81e8a7f461716be64ebef264a7 tty: serial: samsung: constify s3c24xx_serial_drv_data members
+         bb1d98187b09d44b43115f5086a6de5adce61c17 tty: serial: samsung: constify variables and pointers
+         f25fbd5b1ef3773bd975135f8a017dc2251626cc tty: serial: samsung: simplify getting OF match data
          
 
---===============2604730670038567570==
+--===============6115731348179561797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647605869 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647606305 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1647605868-9384bb1523d4aa576769f6b7b496bb4ec406acee
+nonce 1647606304-6cd239ee5d237e4ea2635a10eb893e9bf5423d73
 
-1a282ef0a18fff8a37a60566da3a87b5d8daf1de 0dc0da881b4574d1e04a079ab2ea75da61f5ad2e refs/heads/tty-testing
+0dc0da881b4574d1e04a079ab2ea75da61f5ad2e f25fbd5b1ef3773bd975135f8a017dc2251626cc refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0eG0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9WUQAJ+6zhmwCVRXDhvT7tZX
-S9coZE1NaZp28e3A2PSMIe0gceHnfH1rxS77H/vUFCIklnTmB1B2P+qs08cFe6Uo
-BZmtU6WIxpvN+piFEG+1VOzg40aD330E/NRkxoX9smkgLwvUUTueq7hXkGqBB19/
-S+KS9BQZcFeTVSaufj6Xso3sx9ccS4edc7A1TkkD9jWp4UGZD5FaZOimhmWCeZ+e
-QDVv66Kr8oxIi0sJOfonRXHZlSSyRpbfgnKjUP95B0X5qSHJtyKLVIFgdOuq4PUE
-bhzpSNLU9qosQfSn9hD+Rd25RsTuXu8oc6kIPVEb4JwsZJ45Yekw+dfze721qGA1
-EFkQjN+le+5F9H4rCa/9TritsahMCRVX/aPTTB62TDeVN0yPALvhndt2qnhGkjGn
-M7wvsM7LT2FPdpEz9DWyNfYI+oLaFOrZtvy53showsHIMsSro1gDpyK3cCdbv7Gl
-lsAFsPW3UgjCszF2naFclw9CHol65cHxSpXGhJIBS1GJpTLE/qsXgc/7dAmefPWU
-+WUC1jPKhJ/yS5Lq1LjFqvp090zB4cvCKPjuCv75fvAnjKTXUwquPTVGNGG4keN2
-dTWKfcb4XK/iSniPjwk51AWjom6KBJChwiHLUjaxSIj89xc8xbJaDSF/qJsbZvhw
-r7evBMSeEgVoW3Mj9RvmWXNg
-=IuRD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0eiEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jw4P/2YOi9np5IiaQxI14T71
+htI4gQize7JSUVCT+RBB98Mmdp0vxF1EiNJlYoU1XCM15P+0wC1o7y348wRzma8Z
+mA7tBr6cGidWo+hp74X/a2f4Q5EPOkoehxkxOU2KPuxyVIANR7ZUgZNzUfl7ZaaN
+AnjZTORNJjtsGqEsLy++Q9Vu4AhSX5Chn8KWuoPSMA2z5xfh/1JNJhxvxaKwOVPH
+Bg8gnFwaRYnuvldct8zUMzzc0g6ahjW+vgdLhWSUZs11Q+WZEWj2XWyCOIyCQmkk
+orv+0taSxNRc7VLOVaDmdHKkxagp08vfJnqsEN2F4r6U4HOUYATQOkutcusVtrLG
+J0CATdJ9l6V6/+m9/vpR/3WyCxynTmRzT8+CRntciNbhAXKHh9f2aJgoEqo95DpT
+3PhFIVafHcCYqEe5ImmLTuETi3vOUO7l6A9vjK22FBwsfYJmnP71ZhyD8i9YIpyG
+Wk2pW+7oJh+sCuPnb7EL8rwZrFTs75BXvvGuJOkJkfklUu8XhzcofYdkYiy3+h6g
+CcOVs9FxBm8ZWZ898bvJQ1DO113nQfXUYxK5JyW+NQqQu1QRH8RtolVgWezxc9u+
+QUI4bNZOWSonTljPKTYSqbuk10/QvPg2LQM+moX+ZAH2CRz+xz4huVj3FUs7RK9e
+I+iqfZaR2yclVe9foVcChEpr
+=QCQs
 -----END PGP SIGNATURE-----
 
---===============2604730670038567570==--
+--===============6115731348179561797==--
