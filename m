@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5147821151500142442=="
+Content-Type: multipart/mixed; boundary="===============3194740331149860150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 18 Mar 2022 12:43:53 -0000
-Message-Id: <164760743392.24538.14465639366301725696@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 12:44:13 -0000
+Message-Id: <164760745390.25698.12366941647711490661@gitolite.kernel.org>
 
---===============5147821151500142442==
+--===============3194740331149860150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 362e54e48b783d6f6ef4b9793903d02d449508aa
-    new: 9314a822e56422f419e2b514ba1f355843ce3063
+    old: 9314a822e56422f419e2b514ba1f355843ce3063
+    new: 56bd392be52eec994a6d191ce3d798cf83c34133
     log: |
-         9314a822e56422f419e2b514ba1f355843ce3063 staging: sm750fb: fix naming style
+         56bd392be52eec994a6d191ce3d798cf83c34133 staging: rts5208: Resolve checkpatch.pl issues.
          
 
---===============5147821151500142442==
+--===============3194740331149860150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647607432 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647607452 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647607430-9d1152f9d502866c5d2386d67a3abaf95f312732
+nonce 1647607451-a42658497138cef1c0d8861cd5275ec2e8f60cab
 
-362e54e48b783d6f6ef4b9793903d02d449508aa 9314a822e56422f419e2b514ba1f355843ce3063 refs/heads/staging-testing
+9314a822e56422f419e2b514ba1f355843ce3063 56bd392be52eec994a6d191ce3d798cf83c34133 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0fogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dCAQAMRYCZTF5fwTSbY7h9Ah
-ZYiwPJHrBABmm+GONMyMOfTE0Q60QazCw1NwtzKH+wgAGe/Abw1iKHF+Mn8RzorW
-PWxcc5dSF/qmZGXdAPAKQU9tfFq33reu/lbLv2rC3BpVsY3gZ+BdXwSm+pLKIl5G
-yVHbzaxsPTtwCxaahg5iXrMNRAhVRq+T0nSnzddenRmCSOu94QZcyVl0toyNeTuK
-cu1LczhbvKeeldqc8y0w3Usu9UAXx9O4j8/ByPpDurz2+XdZuWsisR3d27nsRXRr
-HpWfBiLoDHiBulbidGpaRTyr8WbUMDkhjYGHzHt5njgphQcERw76Mem9NpkjuGQm
-2HURHMcZPItoCFsE6gIeOkyPfFyJri+VvvGDJUyVazgquMXA/FG15EALhGbXsd0T
-liBEPEisEd25LSQ9uZubq7SIkSfOWL0t1fBZq6HV/77zz5VCd/k3BJZMREkSTtPc
-K4+ZHB7YJavA+gH6Ge3HKOlPZedzS72KntKoJqS/khGMz1/6udfbvnB+IgQWsPwv
-/rNoIrF4RgCnsBhknvs0tP7Ufd3WNqucJ/QOoLfV0hwxCLxrfmswk8RZJF1awwMg
-lGmLPxiex2Z/3ol0aC9qLJgbvpuaSYQluauvU2vO62g7QgYV2R9LzAOxoyw5vhUE
-LvIo3b96rx4NhqG26iD+KiKy
-=MRWm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0fpwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7oP/iL3mKgyeAu9aNs7gTEp
+kNSR7qYi1rXDtG5OJAdwICHbTZnIy9Jc2jiwCLLpmxE0WfLp5EkmmvQKLg6SF4ht
+fJH080JgHpACPvYpgtBBsFQDUgZjOQg1lsnmyq7bRMywumqzogyVDlfbfszRweDL
+Cb8TtLZ8j2OgD2HtlOHPlcmGtyMxJ2MZEKV26qgO9ZOhcBZDjxIvcCE7/iY+JLee
+xx6mjQSq3eeeIX9TSJyRuVI44nNgAu1KF5RTz0CTwaO9sgQoMdo5ZBSfpR+wkp8R
+dGWamzQVWxJ/D06Qz7BGCcLNtd4mpzxmO0htPsQ3keg3OvKVf2o8LcQbDeHxZMqc
+KlsTqpfG4qepoZeFJVCsb/iApNB3Bkko9i3ZGSul8h2WUuEFgMYAmfpz0PwfqDXj
+MPDNBc/lGMUqjAhY5D5IqW2kme5D7XGXuAfhnf1j6FQKMjxPc/2fTT2L3OSrxpaw
+Vnl7gT8o4/B1Ut/drSxCVt9gtOh3dwc7fck0YG4ty7XJyT2ZbEWG1J6RYVMcL2xK
+XkDE9XHUUjlBEYkJwUFb/tvI7n0zAIyFUcOgYHwbq+nJpTSEZw/ILOAwdJuxzy/L
+KNiU49rI6X9lhD4fAnrngy3nPtyNMe7XsGNRZa/VIyrHHeeA5KYpqvb8ICwX37mh
+aCRizWtprOuTJ5FWzdKzSnIj
+=vPwK
 -----END PGP SIGNATURE-----
 
---===============5147821151500142442==--
+--===============3194740331149860150==--
