@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4955864726693001697=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 18 Mar 2022 13:32:06 -0000
-Message-Id: <164761032608.26445.12977822482251244637@gitolite.kernel.org>
-
---===============4955864726693001697==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ogabbay/linux
+Date: Fri, 18 Mar 2022 13:32:59 -0000
+Message-Id: <164761037931.26807.1439456688439442558@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ogabbay/linux
+user: ogabbay
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 555d44932c67e617d89bc13c81c7efac5b51fcfa
-    new: 901581389eade09af969c1a4183e17ec663131d0
+  - ref: refs/heads/habanalabs-next
+    old: 631e049254ac5ba85e5ca61fc0ad909e2c055269
+    new: 0526601eeeff2bcebc40cbd5a7542f5913eeb9b2
     log: |
-         901581389eade09af969c1a4183e17ec663131d0 drivers/base/dd.c : Remove the initial value of the global variable
+         123b9e1561210fd2fab265f90fafd40a069604da habanalabs: change mmu_get_real_page_size to be ASIC-specific
+         e51f5ae3409fe860484d85911fa8e3d9bfc13f42 habanalabs: convert all MMU masks/shifts to arrays
+         542f09b6079aa94e083a6eaeec2cfdf9d32760c0 habanalabs: add user API to get valid DRAM page sizes
+         2342bab7a2c5b1f972aa95218b78e546a4103167 habanalabs: add new return code to device fd open
+         110529ab4264d60444296bce14e127b9f01b18cf habanalabs: expose compute ctx status through info ioctl
+         2864b93b4383b0d0427d986b8eeb307596057a6b habanalabs/gaudi: increase submission resources
+         08524adb2b085a1d87905bfe55389accc5d44ed3 habanalabs/gaudi: avoid resetting max power in hard reset
+         30f63a835767b5becf70ca1fd21ddbd8d73d5f9f habanalabs: parse full firmware versions
+         0526601eeeff2bcebc40cbd5a7542f5913eeb9b2 habanalabs: modify dma_mask to be ASIC specific property
          
-
---===============4955864726693001697==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647610324 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1647610323-212e239971b271a5a584b0a5bfb0274a9c37f19f
-
-555d44932c67e617d89bc13c81c7efac5b51fcfa 901581389eade09af969c1a4183e17ec663131d0 refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0idQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gt4P/idKS53id2J9bMCceC7k
-3c7epbp8BEiGWYLjQFkO1WOLQVaQCg6Sw6OxCaECHWb6hgQ1mkfoHvda6KYX9ILA
-WwGv4Amd0CSSUXvgEiPtLzrv+tft4kagFQpxF3NDq/71kACpLKWok1mZLtCPTJGW
-YD3EKyJaXZ5SclDDWAqU93qO+yYm/wUy8bAL0UZ4djrRfFGDMqhCdiAJj6guA3z/
-IC4JL6KUVgJwTs4eePpU4r/H9yDtv8Jq4gOG5IqsQu0RprlQbBJlic0lkg6RdPOQ
-xU/EblxJsRfgPg6zNcwTiag41RqIgmsBkq6xaBzNfTx14NHSueiBtaGMxEcOTO02
-GG4i8mkI+TBQ/L+DNR4Bxv3lkaaLhjZraDNmuScJseiqvLPPJ8zQ6fWbAJwOYhDW
-vglpQcm6T0UJ+q+Or38Tjd0zNo/d1QsOi7PwPnpX7p735Zu7m5bQAGHcvSf+EXmx
-p2U5+IXKyc7e+ukcFYcS1Csfc2IG8PIOddJTh2e9KlanKdariLqTPVP3KaUK8Sq0
-DAtCQAz5K9L4bmjBvAvR7c+JY9320ay55eVUhX/1djh2moR3qD105ZQbvuqJZ31v
-kaJ7D90w/goyVfrWLqEvYVk1XxJGETmeylzsz8isI/7A4XhkZ6Qr/bEk75UGVc4y
-xh3xbLMeh8zliGKYUbMI5URT
-=6Q64
------END PGP SIGNATURE-----
-
---===============4955864726693001697==--
