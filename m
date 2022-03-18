@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3194740331149860150=="
+Content-Type: multipart/mixed; boundary="===============8988110764912947054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 18 Mar 2022 12:44:13 -0000
-Message-Id: <164760745390.25698.12366941647711490661@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 12:44:32 -0000
+Message-Id: <164760747274.25907.15147392071675411546@gitolite.kernel.org>
 
---===============3194740331149860150==
+--===============8988110764912947054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 9314a822e56422f419e2b514ba1f355843ce3063
-    new: 56bd392be52eec994a6d191ce3d798cf83c34133
+    old: 56bd392be52eec994a6d191ce3d798cf83c34133
+    new: 832ce36f44a2c5dd3cb6be6dfb9003715f8dca2a
     log: |
-         56bd392be52eec994a6d191ce3d798cf83c34133 staging: rts5208: Resolve checkpatch.pl issues.
+         832ce36f44a2c5dd3cb6be6dfb9003715f8dca2a staging: greybus: introduce pwm_ops::apply
          
 
---===============3194740331149860150==
+--===============8988110764912947054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647607452 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647607471 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1647607451-a42658497138cef1c0d8861cd5275ec2e8f60cab
+nonce 1647607470-be93484cebba815b82f9c5113d6e4aa5e84ed25b
 
-9314a822e56422f419e2b514ba1f355843ce3063 56bd392be52eec994a6d191ce3d798cf83c34133 refs/heads/staging-testing
+56bd392be52eec994a6d191ce3d798cf83c34133 832ce36f44a2c5dd3cb6be6dfb9003715f8dca2a refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0fpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7oP/iL3mKgyeAu9aNs7gTEp
-kNSR7qYi1rXDtG5OJAdwICHbTZnIy9Jc2jiwCLLpmxE0WfLp5EkmmvQKLg6SF4ht
-fJH080JgHpACPvYpgtBBsFQDUgZjOQg1lsnmyq7bRMywumqzogyVDlfbfszRweDL
-Cb8TtLZ8j2OgD2HtlOHPlcmGtyMxJ2MZEKV26qgO9ZOhcBZDjxIvcCE7/iY+JLee
-xx6mjQSq3eeeIX9TSJyRuVI44nNgAu1KF5RTz0CTwaO9sgQoMdo5ZBSfpR+wkp8R
-dGWamzQVWxJ/D06Qz7BGCcLNtd4mpzxmO0htPsQ3keg3OvKVf2o8LcQbDeHxZMqc
-KlsTqpfG4qepoZeFJVCsb/iApNB3Bkko9i3ZGSul8h2WUuEFgMYAmfpz0PwfqDXj
-MPDNBc/lGMUqjAhY5D5IqW2kme5D7XGXuAfhnf1j6FQKMjxPc/2fTT2L3OSrxpaw
-Vnl7gT8o4/B1Ut/drSxCVt9gtOh3dwc7fck0YG4ty7XJyT2ZbEWG1J6RYVMcL2xK
-XkDE9XHUUjlBEYkJwUFb/tvI7n0zAIyFUcOgYHwbq+nJpTSEZw/ILOAwdJuxzy/L
-KNiU49rI6X9lhD4fAnrngy3nPtyNMe7XsGNRZa/VIyrHHeeA5KYpqvb8ICwX37mh
-aCRizWtprOuTJ5FWzdKzSnIj
-=vPwK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0fq8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OL4P/jOLD1hP7MnFeMwmF4Hg
+xOsPvur1Mckk4zEU0nnQM5V9jM4h0SCHX3HIYr8Wt4Qy4t6qWHp+sKIDcNIXNS7f
+/f3ZzG1e19i12aMoR2O5O9yPdqluNbqV9iIavWHe5wjSYP8YCARhxeMjkmTBodjQ
+BZ4JEas92FUTZ7mv2eDTRS2hRjV3+s34yjR5dtOvWBLYp3jy4/cs31uTE5K6etyV
+KXtaDDaxEBBJr4A8XJ+0u4KEtWQmRJffNluj7Lahhqudkyo5AzULRSI0WfQPeRoT
++9yi1kQrxmPJMFeXWxUUaR1vu/EElCHaVk58MzBV2/Fhs2GpV+EdybA7Opnb3zTl
+d9SIMmjb7TIEqpTDdkZywv5YOn6v038NqjKudcNgT5AD+FYvS+6bBwHiDYdXNmlV
+Hh/qnRzQqCm1LRjAVACUUGHDIMDHLDmfaZ3DM5HB+PiagUoUzxOOeDoVs+QUJx7l
+2A6R/A08HlJArdcE1ntHcsxLG5AJTtM7KHRXd+Jsy26p/IU57fx2phKjeL4iWcFw
+ePWqXG7OJq9VTd2pXHKrTwKVYgUksBrgmalybDnB1PZewqikGJXg9+XGExV6heTn
+EMeFi9XmggwUlx+XJdGaZYrHDbSbrgwJpdtlWiF+7xqWiEgh0WW5qvlqvUuY3VeO
+nzcNdu0mVS2F7G9tSEuyKC9H
+=pv1v
 -----END PGP SIGNATURE-----
 
---===============3194740331149860150==--
+--===============8988110764912947054==--
