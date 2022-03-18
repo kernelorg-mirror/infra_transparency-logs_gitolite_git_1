@@ -1,24 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Mar 2022 17:30:35 -0000
-Message-Id: <164762463528.21220.53238816304061859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 18 Mar 2022 17:35:37 -0000
+Message-Id: <164762493716.24520.13963225284616321080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/dev-queue
-    old: 1f3d1ed5dffc5e954874251f60e738489d4da40b
-    new: 0a141bb0370881648cbf24794f83df1f9adca472
+  - ref: refs/heads/for-next
+    old: 2c25e45267d0c7517578b7203a55fba2b6f6564a
+    new: 3197706abd053275d2a561cfb7dc8f6cfaf7d02c
     log: |
-         fda83461aa8a75c8ae977514544c6c914c561260 ice: synchronize_rcu() when terminating rings
-         63bf8fe94eea871f81006444ad548da43ce0826c ice: xsk: fix VSI state check in ice_xsk_wakeup()
-         e9b40986096a6150f2769428ab7c41b9af8a3796 ice: clear cmd_type_offset_bsz for TX rings
-         89957a7022b715cb21e79da0327d8c4055520ca2 ice: xsk: check if Rx ring was filled up to the end
-         40a678f721448531174b92e4f9e340e0604c7ee3 ice: Add support for classid based queue selection
-         0a141bb0370881648cbf24794f83df1f9adca472 ice: Add mpls+tso support
+         51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
+         70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
+         63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
+         8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
+         c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
+         3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
+         b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
+         3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
+         df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
+         3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
+         3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
          
