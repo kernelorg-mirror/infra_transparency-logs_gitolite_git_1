@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2919557584927640464=="
+Content-Type: multipart/mixed; boundary="===============9067198847944413420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 18 Mar 2022 20:09:42 -0000
-Message-Id: <164763418224.26185.10282156113348857198@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 20:12:38 -0000
+Message-Id: <164763435832.28737.10973392399949175174@gitolite.kernel.org>
 
---===============2919557584927640464==
+--===============9067198847944413420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: 3ce854d6668ff79f57063daf142cb9e9599d3e2c
-    new: ed92fe3ef85b54462201ff0c166e8f95f4e46a2b
-    log: revlist-3ce854d6668f-ed92fe3ef85b.txt
+  - ref: refs/heads/mlx5-queue
+    old: 30185f7fe2dc8c0537c3f5577c11dc2c8cc992b3
+    new: 2f257a21113b11c7f9e1733cd26851efcb76f171
+    log: revlist-30185f7fe2dc-2f257a21113b.txt
 
---===============2919557584927640464==
+--===============9067198847944413420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ce854d6668f-ed92fe3ef85b.txt
+Content-Disposition: attachment; filename=revlist-30185f7fe2dc-2f257a21113b.txt
 
 f0d2f15362f02444c5d7ffd5a5eb03e4aa54b685 mmc: meson: Fix usage of meson_mmc_post_req()
 9feaf8b387ee0ece9c1d7add308776b502a35d0c efi: fix return value of __setup handlers
@@ -332,5 +332,10 @@ e89600ebeeb14d18c0b062837a84196f72542830 af_vsock: SOCK_SEQPACKET broken buffer 
 ff58593bfc4ab83ce58d8233c2c68ed19a9824d1 Revert "net: openvswitch: remove unneeded semicolon"
 f93b35f863ff4e14bacf1cba398568d3006d377f Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
 ed92fe3ef85b54462201ff0c166e8f95f4e46a2b Revert "net: Add lockdep asserts to ____napi_schedule()."
+53f65894c4f557a6eaac8cedc1537b87ebfa315f net: Disable LRO feature if no RXCSUM
+b294a6790a448445da3cc04bc3c5f221ae419940 net/mlx5e: Report header-data split state through ethtool
+c251cb1402671951d60980ffcc1313831b67e0ea net/mlx5e: Statify function mlx5_cmd_trigger_completions
+74b88406e4fc562c6ba9466a198e9864526df6b0 Merge branch 'patchq/471431' into mlx5-queue
+2f257a21113b11c7f9e1733cd26851efcb76f171 Merge branch 'patchq/485758' into mlx5-queue
 
---===============2919557584927640464==--
+--===============9067198847944413420==--
