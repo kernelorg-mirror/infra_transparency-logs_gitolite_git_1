@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 18 Mar 2022 15:34:08 -0000
-Message-Id: <164761764820.8821.11423224881764284846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Fri, 18 Mar 2022 15:38:49 -0000
+Message-Id: <164761792979.11727.14700175200494534384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/x86/core
-    old: 9cea0d46f52f31c077a83a9b9e4e3887adfbecbe
-    new: 2f35e67f621fffc636cb802a4f93fd168cf38274
+  - ref: refs/heads/master
+    old: cd01f857da28abc170ebf19216945873ec7d5fec
+    new: 681281e49fb6778831370e5d94e6e1d97f0752d6
     log: |
-         2f35e67f621fffc636cb802a4f93fd168cf38274 kbuild: Fixup the IBT kbuild changes
+         fe3ec816766aaf2106f508bcab62f408a1fc0a0c rtl_bt: Add firmware and config files for RTL8852B
+         c025e59f8bc987b626b8c5b623b2af77b6959330 amdgpu: update GC 10.3.7 firmware
+         681281e49fb6778831370e5d94e6e1d97f0752d6 amdgpu: update PSP 13.0.8 firmware
          
