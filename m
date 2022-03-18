@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Fri, 18 Mar 2022 08:15:15 -0000
-Message-Id: <164759131584.30694.2968251978552942182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 18 Mar 2022 08:38:11 -0000
+Message-Id: <164759269146.11004.10393423130891406469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 46162ac2a6a425674b0e20a3e0668b21187f94bf
-    new: 9b046d0245cec982c72a65d3ea1b834959a9708b
+  - ref: refs/heads/damon/next
+    old: d9ec7a7e38fa93f7a8cd2e7ae8eb45e43bcde9be
+    new: 52072acc815c47b1d7744927092e12e230d01661
     log: |
-         9b046d0245cec982c72a65d3ea1b834959a9708b parisc: Avoid using hardware single-step in kprobes
+         9727dba6d60f6800738c89e27a480af6c7a7467f mm/damon: minor cleanup for damon_pa_young
+         52072acc815c47b1d7744927092e12e230d01661 for_damon_hack/todo: Update
          
