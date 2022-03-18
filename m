@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5678325454822810088=="
+Content-Type: multipart/mixed; boundary="===============0225404639254161738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 18 Mar 2022 20:55:59 -0000
-Message-Id: <164763695927.25263.15401126317708926813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 18 Mar 2022 20:56:05 -0000
+Message-Id: <164763696533.25412.11834708611717167959@gitolite.kernel.org>
 
---===============5678325454822810088==
+--===============0225404639254161738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.18
-    old: 2d2329787ba2e70eae330f1cecd61a9576fe65de
-    new: 0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e
+  - ref: refs/heads/for-5.18
+    old: 8a317e00798ac0893042e63807429ffddce52a34
+    new: 5999f85ddeb436b4007878f251a30ccc8b9c638b
     log: |
-         86fc59ef818beb0e1945d17f8e734898baba7e4e regmap: add configurable downshift for addresses
-         0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e regmap: allow a defined reg_base to be added to every address
+         e34855b99696433a26d86179552553c6c6fa69b8 regulator: dt-bindings: Add PMX65 compatibles
+         5999f85ddeb436b4007878f251a30ccc8b9c638b regulator: qcom-rpmh: Add support for SDX65
          
 
---===============5678325454822810088==
+--===============0225404639254161738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1647636957 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1647636957-4e7f9d9ae2914f1efa11260978576ba244be7b7d
+pusher C3F436CA30F5D8EB 1647636964 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1647636963-9293a474450f55e935269857fa9d6eac0f1376dc
 
-2d2329787ba2e70eae330f1cecd61a9576fe65de 0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e refs/heads/regmap-5.18
+8a317e00798ac0893042e63807429ffddce52a34 5999f85ddeb436b4007878f251a30ccc8b9c638b refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmI08d0ACgkQJNaLcl1U
-h9BA2wf+M5ZB3HaLIC9vHeP3gvwCIPtBBONp8Ssc+3bPDCE3CQF+X1rI7MBsX0NL
-+U+/BafQihaaEC+r0kv4yX/MgY3FgNw45wYqYVoIA/pnou1aBJFNzvrzBOYH2oZ2
-Ajoi1UTNq+7ls48AtUDuzo0r77D6+8Kdx/5uQyWb1Fqoh6nMVi+1vWnApV1z+2MR
-szQlFTU7MoPfSM/1bJyMcn4fXd9B6Z/GwFHfv+0c6jvuw4QUQVVC4Oq8qfTRKnNt
-kMBBJ+ZHDVgEhjSr1fsUkxd4WBSKEODor+Toj+eiSTxLMQ+lR7ynVchfLo6M4fVe
-47B6vNRIB5Dwr66DiW0mjZyuHvfPKA==
-=lSVw
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmI08eQACgkQJNaLcl1U
+h9AgKgf+I1nLZV40GHutsSj2kSLmpjQ108V3h75Oas9rywWbd+ZsqcJq2UBOCY+3
+us3pSk3Bnp61ucNitRRvEK/g3ULEJkSxD5UTntPOLgMYXWEhDMRyXx2Mf9xMM4+1
+cmevmF4D+wU///An+rSS6FUyrVvRJCMqffZEEbHvl1AaTW6vsE50x0oPy/4/ljXm
+uj/+KQr90vFMWuBFEjx/wUHCFDwJ1rjTXFEKKBx1OIxWZSPO1WWP1WI1k/TLCLSI
+11vROctjXc4VLPFMHCtaqtBHMjecJrHIP8GJWH4BLO7SS/TD6CfAX4xgmcFsVtM5
+xOKmU26ERwMvpz1tbUtHBK/JD/zzqA==
+=gZI7
 -----END PGP SIGNATURE-----
 
---===============5678325454822810088==--
+--===============0225404639254161738==--
