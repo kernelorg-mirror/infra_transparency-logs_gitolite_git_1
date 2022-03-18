@@ -1,29 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 18 Mar 2022 20:57:20 -0000
-Message-Id: <164763704001.26403.1493835637078614334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 18 Mar 2022 20:57:41 -0000
+Message-Id: <164763706138.26615.9980238791421858121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2489d5d9cded3e90c7e9d141710c220eb00a6c5f
-    new: 2c5cf84f0132ce0981c8379f5bdeacefe913534f
+    old: e3f6d21a23ee0e478955eb6e3723abf76f3fc55c
+    new: d583fe25614fa95293df55f23a95764d8501dcf8
     log: |
-         2c5cf84f0132ce0981c8379f5bdeacefe913534f Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
+         d583fe25614fa95293df55f23a95764d8501dcf8 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 6cb9327ca7999eacc41ea2927d2c48e99dd064b6
-    new: 52577a86f146fd45da9d348d5625ba116578ef72
+    old: 366188b45dc52fcd5e749e79593d2495e2692125
+    new: ebcbbd0316bfc1257792052e48642c72410fd8fc
     log: |
-         e34855b99696433a26d86179552553c6c6fa69b8 regulator: dt-bindings: Add PMX65 compatibles
-         5999f85ddeb436b4007878f251a30ccc8b9c638b regulator: qcom-rpmh: Add support for SDX65
-         2c5cf84f0132ce0981c8379f5bdeacefe913534f Merge remote-tracking branch 'regulator/for-5.16' into regulator-linus
-         be3c8b6b3e61b9ed927134a8f17728976aad3a2a Merge branch 'regulator-linus' into regulator-next
-         52577a86f146fd45da9d348d5625ba116578ef72 Merge remote-tracking branch 'regulator/for-5.18' into regulator-next
+         89b35e3f28514087d3f1e28e8f5634fbfd07c554 spi: fsi: Implement a timeout for polling status
+         d583fe25614fa95293df55f23a95764d8501dcf8 Merge remote-tracking branch 'spi/for-5.16' into spi-linus
+         3e3ece8c6a709b1c07e4e6c91976ed78670b68e3 Merge branch 'spi-linus' into spi-next
+         ebcbbd0316bfc1257792052e48642c72410fd8fc Merge remote-tracking branch 'spi/for-5.18' into spi-next
          
