@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 18 Mar 2022 16:59:35 -0000
-Message-Id: <164762277520.32526.8479146360900305828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 18 Mar 2022 17:14:51 -0000
+Message-Id: <164762369186.10373.13380323899401538808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 63cc8e20b384d5ea10a4df330d8b9cf2f14eb64c
-    new: 08063b4bc1581bbdcae99da4a54f546a50045fc0
+  - ref: refs/heads/master
+    old: 9905eed48e82dfe265e2b9e57f19f8e0d1b7d0d7
+    new: 6bd0c76bd70447aedfeafa9e1fcc249991d6c678
     log: |
-         08063b4bc1581bbdcae99da4a54f546a50045fc0 bpftool: Add BPF_TRACE_KPROBE_MULTI to attach type names table
+         f54eeae970f4dd4400d8ef3157788fbd3e2dd0e3 bpf: Remove Lorenz Bauer from L7 BPF maintainers
+         18b1ab7aa76bde181bdb1ab19a87fa9523c32f21 xsk: Fix race at socket teardown
+         6bd0c76bd70447aedfeafa9e1fcc249991d6c678 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
          
