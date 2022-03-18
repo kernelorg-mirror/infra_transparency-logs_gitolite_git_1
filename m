@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 18 Mar 2022 23:48:13 -0000
-Message-Id: <164764729307.8082.11631960546344429432@gitolite.kernel.org>
+Date: Fri, 18 Mar 2022 23:48:22 -0000
+Message-Id: <164764730210.8178.1282548331875621432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/core
-    old: 2f35e67f621fffc636cb802a4f93fd168cf38274
-    new: 46a5cf598a940e674a574664c32ad3518dc9ed6f
+  - ref: refs/heads/perf/core
+    old: 02a08d78f5c429c7dc8e5b9417b4efb518b3d041
+    new: b8828389acddd3dec57bab88002d0bb3f7aaca05
     log: |
-         71a7580b17e9510e5f74c0687567f9d8b5d48f5d x86/Kconfig: Only enable CONFIG_CC_HAS_IBT for clang >= 14.0.0
-         46a5cf598a940e674a574664c32ad3518dc9ed6f x86/Kconfig: Only allow CONFIG_X86_KERNEL_IBT with ld.lld >= 14.0.0
+         37f0107251b08a348c539bd7be6886490ff4d1b3 perf/x86: Add Intel Raptor Lake support
+         f2ace48f6015486352d6b814e29f2af4bdd205bb perf/x86/cstate: Add Raptor Lake support
+         b7aac893658f471c972b8b4b1735e146a99ee311 perf/x86/msr: Add Raptor Lake CPU support
+         b8828389acddd3dec57bab88002d0bb3f7aaca05 perf/x86/uncore: Add Raptor Lake uncore support
          
