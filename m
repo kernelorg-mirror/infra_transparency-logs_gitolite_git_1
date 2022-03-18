@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 18 Mar 2022 22:50:04 -0000
-Message-Id: <164764380480.3836.2225559469981439352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 18 Mar 2022 22:58:27 -0000
+Message-Id: <164764430703.7873.12137415402297572875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/tags/for-5.18/64bit-pi-2022-03-18
-    old: 0000000000000000000000000000000000000000
-    new: 966478eabd32a9789d43c01b4953a8579c424a3a
-  - ref: refs/tags/for-5.18/alloc-cleanups-2022-03-18
-    old: 0000000000000000000000000000000000000000
-    new: a99a13d075638e033df7f5449eedf5d903c6580a
-  - ref: refs/tags/for-5.18/write-streams-2022-03-18
-    old: 0000000000000000000000000000000000000000
-    new: f9dbe14a6978a392df1aa51cba7b72d202dea3a4
+  - ref: refs/heads/for-next
+    old: 0acfd47aee46a4dc7aedcc6470d52c35bf0a836c
+    new: ca3ee5ad86cc1b9553d5bd6878957ad8c79dfb4a
+    log: |
+         ca3ee5ad86cc1b9553d5bd6878957ad8c79dfb4a parisc: Fix invalidate/flush vmap routines
+         
