@@ -1,26 +1,80 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Mar 2022 00:49:41 -0000
-Message-Id: <164756458110.29127.15341001923598232454@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6466595294886347326=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 18 Mar 2022 02:50:03 -0000
+Message-Id: <164757180337.15132.12845810742854448665@gitolite.kernel.org>
+
+--===============6466595294886347326==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 7b6e6235b6641284b28f6a2bbd6b823a2081bd5c
-    new: 3e66fd54aeac0519de638a12d84778d8991bedad
+  - ref: refs/heads/for-5.18/block
+    old: 8ef22dc4a7cbef5870e612edfbf9cd058ddaaa50
+    new: 572299f03afd676dd4e20669cdaf5ed0fe1379d4
     log: |
-         2b341f7532d4f6c8b84206daad202a745962b844 ptp: ocp: Make debugfs variables the correct bitwidth
-         4fa72108029c090d581fdb2d7ce267ef6cb8acdd net: mscc: ocelot: refactor policer work out of ocelot_setup_tc_cls_matchall
-         ccb6ed426f10ac4f742efa7d897c266aa10ac64a net: mscc: ocelot: add port mirroring support using tc-matchall
-         c3d427eac90f8788f510d8d26931afd117bb6406 net: mscc: ocelot: establish functions for handling VCAP aux resources
-         f2a0e216bee5d95e2c2d916a8815a659cd3703c2 net: mscc: ocelot: offload per-flow mirroring using tc-mirred and VCAP IS2
-         0148bb50b8fd51baf357de8b237c0c6011506540 net: dsa: pass extack to dsa_switch_ops :: port_mirror_add()
-         5e497497681ea0515d5ff70e54e0305f2b83cfb8 net: dsa: felix: add port mirroring support
-         3e66fd54aeac0519de638a12d84778d8991bedad Merge branch 'mirroring-for-ocelot-switches'
+         572299f03afd676dd4e20669cdaf5ed0fe1379d4 block: limit request dispatch loop duration
          
+  - ref: refs/heads/for-5.18/drivers
+    old: bcfe9b6cbb4438b8c1cc4bd475221652c8f9301b
+    new: ae53aea611b7a532a52ba966281a8b7a8cfd008a
+    log: revlist-bcfe9b6cbb44-ae53aea611b7.txt
+  - ref: refs/heads/for-next
+    old: 284534f9df0a3c580bdb4c8a17126876c63a643a
+    new: 1c405ce254ff3b32ff2e7d9735feada1e7dbb829
+    log: revlist-284534f9df0a-1c405ce254ff.txt
+
+--===============6466595294886347326==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bcfe9b6cbb44-ae53aea611b7.txt
+
+5e6a7d1eb834be23243c48a964ced67ab0b6e9ce nvme-multipath: use vmalloc for ANA log buffer
+8f31dded50d927974a5a696196052ed53f1baf66 nvme-multipath: call bio_io_error in nvme_ns_head_submit_bio
+462b8b2d84975758e5b74fe832bfe8145eef403f nvme-tcp: don't initialize ret variable
+a387935c241d2517c22546f1206a77a856a40541 nvme-tcp: don't fold the line
+841aee4d75f18fdfb53935080b03de0c65e9b92c nvme-tcp: lockdep: annotate in-kernel sockets
+b2fb99e42598ba5d1ac045fb39a2b38fd80dd8d2 nvmet-fc: fix kernel-doc warning for nvmet_fc_register_targetport
+0acb8231ebae5175260a7da853f525f2730cc095 nvmet-fc: fix kernel-doc warning for nvmet_fc_unregister_targetport
+a8adf0cddc230be98da0e68bea846e28686dcb60 nvmet-rdma: fix kernel-doc warning for nvmet_rdma_device_removal
+73d77c53ff342bfa23daedf4475cdd06618e447b nvmet: don't fold lines
+98152eb70fffad910ee7c511b110afe98f162fc5 nvmet: use snprintf() with PAGE_SIZE in configfs
+da7837339641601f202f27515771dc0646083938 nvmet: move the call to nvmet_ns_changed out of nvmet_ns_revalidate
+b739e137052069c996ab8b3bc9c25be501ecc63b nvme: cleanup how disk->disk_name is assigned
+e559398f47e090394bbbd9006349c858e1ba80da nvme: remove nvme_alloc_request and nvme_alloc_request_qid
+ce8d78616a6b637d1b763eb18e32045687a84305 nvme: warn about shared namespaces without CONFIG_NVME_MULTIPATH
+ae53aea611b7a532a52ba966281a8b7a8cfd008a Merge tag 'nvme-5.18-2022-03-17' of git://git.infradead.org/nvme into for-5.18/drivers
+
+--===============6466595294886347326==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-284534f9df0a-1c405ce254ff.txt
+
+5e6a7d1eb834be23243c48a964ced67ab0b6e9ce nvme-multipath: use vmalloc for ANA log buffer
+8f31dded50d927974a5a696196052ed53f1baf66 nvme-multipath: call bio_io_error in nvme_ns_head_submit_bio
+462b8b2d84975758e5b74fe832bfe8145eef403f nvme-tcp: don't initialize ret variable
+a387935c241d2517c22546f1206a77a856a40541 nvme-tcp: don't fold the line
+841aee4d75f18fdfb53935080b03de0c65e9b92c nvme-tcp: lockdep: annotate in-kernel sockets
+b2fb99e42598ba5d1ac045fb39a2b38fd80dd8d2 nvmet-fc: fix kernel-doc warning for nvmet_fc_register_targetport
+0acb8231ebae5175260a7da853f525f2730cc095 nvmet-fc: fix kernel-doc warning for nvmet_fc_unregister_targetport
+a8adf0cddc230be98da0e68bea846e28686dcb60 nvmet-rdma: fix kernel-doc warning for nvmet_rdma_device_removal
+73d77c53ff342bfa23daedf4475cdd06618e447b nvmet: don't fold lines
+98152eb70fffad910ee7c511b110afe98f162fc5 nvmet: use snprintf() with PAGE_SIZE in configfs
+da7837339641601f202f27515771dc0646083938 nvmet: move the call to nvmet_ns_changed out of nvmet_ns_revalidate
+b739e137052069c996ab8b3bc9c25be501ecc63b nvme: cleanup how disk->disk_name is assigned
+e559398f47e090394bbbd9006349c858e1ba80da nvme: remove nvme_alloc_request and nvme_alloc_request_qid
+ce8d78616a6b637d1b763eb18e32045687a84305 nvme: warn about shared namespaces without CONFIG_NVME_MULTIPATH
+572299f03afd676dd4e20669cdaf5ed0fe1379d4 block: limit request dispatch loop duration
+c71506bfede054244b52d08bbc5186cd07340f45 Merge branch 'for-5.18/block' into for-next
+ae53aea611b7a532a52ba966281a8b7a8cfd008a Merge tag 'nvme-5.18-2022-03-17' of git://git.infradead.org/nvme into for-5.18/drivers
+1c405ce254ff3b32ff2e7d9735feada1e7dbb829 Merge branch 'for-5.18/drivers' into for-next
+
+--===============6466595294886347326==--
