@@ -1,55 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7179555507868291612=="
+Content-Type: multipart/mixed; boundary="===============0602556338680366321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 18 Mar 2022 13:16:43 -0000
-Message-Id: <164760940390.16356.2451662342737257342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 18 Mar 2022 13:18:33 -0000
+Message-Id: <164760951333.16997.6841884451440585058@gitolite.kernel.org>
 
---===============7179555507868291612==
+--===============0602556338680366321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: c3ddf16e2ef74184cd4f9e17f51f56e0dc6d3af2
-    new: b7790e078ad503abf4ce27f71544dbbc676377a7
-    log: revlist-c3ddf16e2ef7-b7790e078ad5.txt
+  - ref: refs/heads/char-misc-testing
+    old: b850b7a8b369322adf699ef48ceff4d902525c8c
+    new: 37fd83916da2e4cae03d350015c82a67b1b334c4
+    log: |
+         202c08914ba50dd324e42d5ad99535a89f242560 firmware: sysfb: fix platform-device leak in error path
+         96c9e802c64014a7716865332d732cc9c7f24593 kgdbts: fix return value of __setup handler
+         37fd83916da2e4cae03d350015c82a67b1b334c4 firmware: google: Properly state IOMEM dependency
+         
 
---===============7179555507868291612==
+--===============0602556338680366321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3ddf16e2ef7-b7790e078ad5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bc406f17d840083a5ff2c01a1f227fc645410d9a Merge patches from 4.9.302.
-c02b2c32b8e7a92b51c9aa6da0975e53c4bac32d drm/edid: Always set RGB444
-d3690221063b41d77e33f37cea1cdff989d1827f Makefile.extrawarn: Move -Wunaligned-access to W=1
-e15f4029a2a0049c77337be7fd089989ebba750c net: usb: ax88179_178a: Fix out-of-bounds accesses in RX fixup
-037f2d51c15b4998ed19bf4a542f4b049d6a4f97 serial: parisc: GSC: fix build when IOSAPIC is not set
-ca156cb4166f163dd7a894f5e67fd4076e11538e parisc: Fix data TLB miss in sba_unmap_sg
-85dec77198d0c0abb5559d8c1bdcedd1279fb0e0 parisc: Fix sglist access in ccio-dma.c
-ca393662a6a7278ca0ab9beb4ef1a58687f6c67c selftests/zram: Skip max_comp_streams interface on newer kernel
-69557dfdd91bd101ed9cbf4f91b756782a875692 selftests/zram01.sh: Fix compression ratio calculation
-5307e946afb2b30063bbadedc50d872ed7ecc074 selftests/zram: Adapt the situation that /dev/zram0 is being used
-e2493544866772247a1f9fb1c35de2e45ab47243 ax25: improve the incomplete fix to avoid UAF and NPD bugs
-b205512f37f521bb2e9aa50848c1fb89840eed8e quota: make dquot_quota_sync return errors from ->sync_fs
-a5a129926f62bb2340aee433c53468fdd096f379 drm/radeon: Fix backlight control on iMac 12,1
-4e9d3e9892e3f96626f1d94451870e2325e8373e xfrm: Don't accidentally set RTO_ONLINK in decode_session4()
-09965cb6bf22ba6c8fb778f339053032b7233554 taskstats: Cleanup the use of task->exit_code
-a42b52da6af1997260ed1a8c58362a05ca75ee3e drop_monitor: fix data-race in dropmon_net_event / trace_napi_poll_hit
-488fad1e01dfdfeddd49e5837fbf9316bae33424 ALSA: hda: Fix regression on forced probe mask option
-e48b5be2909d9a09795cf370018e6f20ce707a42 ALSA: hda: Fix missing codec probe on Shenker Dock 15
-28fababe6d61a58a8b57603723aefa77fdadb411 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw()
-8f29266ba5fc79f2f0dccdfc4ee226b87d0c1789 ASoC: ops: Fix stereo change notifications in snd_soc_put_volsw_range()
-38654404797f9cedf7f5def6fcb871b8cb499526 EDAC: Fix calculation of returned address and next offset in edac_align_ptr()
-104b57a4f6bdd6a8c2479f61df72389623aa7c41 KVM: x86/pmu: Use AMD64_RAW_EVENT_MASK for PERF_TYPE_RAW
-f90c6a4ca63428cefc23d18df52500e9f03a8928 ata: libata-core: Disable TRIM on M88V29
-f78208aabf8c78696bdce08531377ad2ca053948 tracing: Fix tp_printk option related with tp_printk_stop_on_boot
-b7790e078ad503abf4ce27f71544dbbc676377a7 Merged changes from 4.9.303.
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647609512 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1647609510-717e55e126fa5bdfa1b989e6299f16596db1f321
 
---===============7179555507868291612==--
+b850b7a8b369322adf699ef48ceff4d902525c8c 37fd83916da2e4cae03d350015c82a67b1b334c4 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0hqgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z0kQAJScQMiug6LR8A+U2UV2
+/DOKTEf8pJct/0OMnzGBpKsVhTEGsYbhIPOTBvOXNqrdA2nscLOQ+Qf6i6e3CU5a
+cv2cFfKYum3DZoOXUvInVBDdr+FwnwZBNEiFphujNrH8p3CMHoSEhlh0znCeYnir
+ZDfN93SEh9Dr3am8JPKiQbiTJany96DdU8Ozb7qxP4E+oCyOkesGVAop8+oTRXyU
+da2wkDS7RVy9/N/9bIhk0XJlRuY4hh2Z/gGOlD7Vxo9t7KsA5+tke0Q+B9HPWIrg
++pnJiqaLuvRDrsOUY1/gDwRvHCgFT9fHnMzQPEJlk1a9k0GkE6BaEudANQ2VvBwq
+BOzFjx9cBrKfuUcaHxKzfOZ+xQVkAMLPD5yliozDVqIJCTZYwwbKNT1SsnZglEoy
+BIuBFYcSD09uIJ/Nl8kedmc5jW0MIjChhELsF8ILoUno5FSCFiAfLw1dBfgezAsT
+RQ+eR/XySRPyyltsCzUGqSHTu+kujVxgh06VgoyvRjiLe9ZmSH96jokV+r9WqBka
+Oc9BuFsPzB0iO2dS56CJdts3AcjYL/CavzeM3zC4mvnte3Fik5w1mGb1LxEJlvxP
+84zhFBpWWLU5wNncC23+CZ/8cMdCruuDrN+jxsHyFE/F1Lpf9SHnm2nzDrx1aGdQ
+QiPd9/XMoq0ElZS8VHnUkg5t
+=SbX3
+-----END PGP SIGNATURE-----
+
+--===============0602556338680366321==--
