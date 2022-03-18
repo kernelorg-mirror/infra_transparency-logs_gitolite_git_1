@@ -1,29 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 18 Mar 2022 17:35:37 -0000
-Message-Id: <164762493716.24520.13963225284616321080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 18 Mar 2022 17:50:03 -0000
+Message-Id: <164762580379.2258.11867795354130552257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 2c25e45267d0c7517578b7203a55fba2b6f6564a
-    new: 3197706abd053275d2a561cfb7dc8f6cfaf7d02c
+  - ref: refs/heads/for-5.18/io_uring
+    old: dbc7d452e7cf7d3ebc0064e68d30e28d86d3939a
+    new: 5e929367468c8f97cd1ffb0417316cecfebef94b
     log: |
-         51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
-         70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
-         63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
-         8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
-         c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
-         3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
-         b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
-         3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
-         df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
-         3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
-         3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
+         adf3a9e9f556613197583a1884f0de40a8bb6fb9 io_uring: don't check unrelated req->open.how in accept request
+         5e929367468c8f97cd1ffb0417316cecfebef94b io_uring: terminate manual loop iterator loop correctly for non-vecs
+         
+  - ref: refs/heads/for-next
+    old: 4679d0b736d8dd8a4963b044fb2bed499c486b6a
+    new: eece50ff15491d636772eb0e59072ef4a1532d20
+    log: |
+         adf3a9e9f556613197583a1884f0de40a8bb6fb9 io_uring: don't check unrelated req->open.how in accept request
+         556ec1d924b80a360c8e2f07bbf5536aa970ee64 Merge branch 'for-5.18/io_uring' into for-next
+         5e929367468c8f97cd1ffb0417316cecfebef94b io_uring: terminate manual loop iterator loop correctly for non-vecs
+         eece50ff15491d636772eb0e59072ef4a1532d20 Merge branch 'for-5.18/io_uring' into for-next
          
