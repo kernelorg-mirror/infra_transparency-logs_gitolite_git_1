@@ -1,36 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 18 Mar 2022 13:01:55 -0000
-Message-Id: <164760851528.5451.2606415090601606151@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0492995258015229255=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 18 Mar 2022 13:01:59 -0000
+Message-Id: <164760851917.5566.11535528908121077797@gitolite.kernel.org>
+
+--===============0492995258015229255==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: c14231cc04337c2c2a937db084af342ce704dbde
-    new: efb6402c3c4a7c26d97c92d70186424097b6e366
+  - ref: refs/heads/char-misc-testing
+    old: e0de88dc7ba2cfd352f0e472044a9176c0a91cf1
+    new: 66bcd06099bb866ee0e4349e7937ddb8f03db754
     log: |
-         efb6402c3c4a7c26d97c92d70186424097b6e366 ALSA: oss: Fix PCM OSS buffer allocation overflow
+         66bcd06099bb866ee0e4349e7937ddb8f03db754 parport_pc: Also enable driver for PCI systems
          
-  - ref: refs/heads/for-next
-    old: a893b7fc7b59cdf3fae01335c86537bee4407edc
-    new: 8a580a26760cb14535c160613fe9cd0e4dc6f5c6
-    log: |
-         8a580a26760cb14535c160613fe9cd0e4dc6f5c6 ALSA: oss: Release temporary buffers upon errors
-         
-  - ref: refs/heads/master
-    old: b3178f649441092af7ddf62f4bae4673f2dc1823
-    new: 32092d26485af758af68c23576be1d0f3f8b4c88
-    log: |
-         864cb14c0fa22344613ae93d68e155bf9bbbc9fb ALSA: hda/realtek: Fix LED on Zbook Studio G9
-         a893b7fc7b59cdf3fae01335c86537bee4407edc ALSA: core: Fix typo in 'PCM Timer Interface' help
-         efb6402c3c4a7c26d97c92d70186424097b6e366 ALSA: oss: Fix PCM OSS buffer allocation overflow
-         c104ad4707448105bc54473eaecd508239591e63 Merge branch 'for-linus'
-         8a580a26760cb14535c160613fe9cd0e4dc6f5c6 ALSA: oss: Release temporary buffers upon errors
-         32092d26485af758af68c23576be1d0f3f8b4c88 Merge branch 'for-next'
-         
+
+--===============0492995258015229255==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647608517 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1647608516-a5d5f37082a8c4f07b72d7a4520fea8f1bf8f467
+
+e0de88dc7ba2cfd352f0e472044a9176c0a91cf1 66bcd06099bb866ee0e4349e7937ddb8f03db754 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI0gsUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CDYQANTMviZKHfOQQNhR4QIu
+lgQFaEKyXZxOGegau51Fz6LkpM9p74Eh+kjqveUzjH2ZHqD3oGqqhSEwr+6azTUG
+TOVkFsnKkGoTZi7E/UzkDxHhTqxYuHuWwSgtDMWFnHFXcIsKxypbhGKcd29ztZh9
+dzZx0DjthYbbs31XtTQu6ldVr8O3fWipkFiVGtv+mFZ/d3ltjTf+neVc9Q0P/sXl
+yG2t5KEoshk1IgkmI5NprMJS0xVHUUTijqcFVHhezp9KXQolmHiry3eUiy0owi72
+weL9new8iUAfh3894HmOdzdRQwIWKBSttZ1kRM5oxsyV1ntO7zavZICgmVOO7WJT
+qMIetczf9ry0cSWJNMEsgz58KAOKwQHgp0zn26yPVO5F9ByWrx0sfUpBe/hcKfBV
+jgolTdzXkMOBqguDwBe+go+SnQvyrc+91RAO0RevDSR+wuabfeWOErA9Ueq8+3Of
+MgzfqNblbNeaIWXtQoo+ynlwXu7Pu1uKk46bLHuI7sPGwg1QqQp3W06Bu8PrNIW1
+c5JRwErkJi2GFMH6Tm1Jn2GkfXhZByg14+yB5iAmA0+2y0aKhBbKSQxT1zeK51nd
+/1luPKb4frkvKL56nC88GaYzoszwugGINYWVDfuCO1JWxAfh0SXnjlqJ5y8oiJPd
+eSIo+qo5AhOP0CGFCeArjLvs
+=+zdZ
+-----END PGP SIGNATURE-----
+
+--===============0492995258015229255==--
