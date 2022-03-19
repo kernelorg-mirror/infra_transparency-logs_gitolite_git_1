@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5431378169434779307=="
+Content-Type: multipart/mixed; boundary="===============6804469438467010344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 19 Mar 2022 15:00:58 -0000
-Message-Id: <164770205892.12349.6031734964152617179@gitolite.kernel.org>
+Date: Sat, 19 Mar 2022 15:01:11 -0000
+Message-Id: <164770207150.12508.3674132277796111296@gitolite.kernel.org>
 
---===============5431378169434779307==
+--===============6804469438467010344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 0bf126163c3e7e6d722622073046aed567a5551e
+  - ref: refs/heads/testing
+    old: f568cbd9aef24a02b22884d92c154f3af076b383
     new: 37fd83916da2e4cae03d350015c82a67b1b334c4
-    log: revlist-0bf126163c3e-37fd83916da2.txt
+    log: revlist-f568cbd9aef2-37fd83916da2.txt
 
---===============5431378169434779307==
+--===============6804469438467010344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bf126163c3e-37fd83916da2.txt
+Content-Disposition: attachment; filename=revlist-f568cbd9aef2-37fd83916da2.txt
 
-1e805d190ba59e870a316c603f11e16de5a04131 Merge tag 'phy-fixes-5.17' into next
-d88ca22d6f0c9245086fe4cfca4cbe84382bdaa1 phy: cadence: Sierra: Add support for skipping configuration
-9bb162fa26ed76031ed0e7dbc77ccea0bf977758 powerpc/603: Fix boot failure with DEBUG_PAGEALLOC and KFENCE
-3037b174b1876aae6b2d1a27a878c681c78ccadc ARM: socfpga: fix missing RESET_CONTROLLER
-fc764b103b81ebe88f69f9ae4f116551ab8cfc5d drm/vc4: crtc: Fix redundant variable assignment
-94fdd7c02a56d0316d20e417a1141b71a8dcee82 net/smc: use GFP_ATOMIC allocation in smc_pnet_add_eth()
-eb48d42198792f1330bbb3e82ac725d43c13fe02 drm/i915: Fix oops due to missing stack depot
 ee59792c97176f12c1da31f29fc4c2aab187f06e drm/i915: Disable DRRS on IVB/HSW port != A
 3526b607b02397cdb6d459594e4f1d63133d6655 drm/i915/ttm: Return some errors instead of trying memcpy move
 9d7516b16f2a7ecbddd7940e582c78fcdc9136ef drm/i915: Fix header test for !CONFIG_X86
@@ -961,6 +954,13 @@ b0106bc6fe5a99490f2a2407025db6f2b514b6dc habanalabs: add an option to delay a de
 e45f1c1d70cae0d7a28ad60f9c6391e210354f0b interconnect: Add stubs for the bulk API
 52c85167e41341c2cbc2570f4bb6bc6cd8f8bc6e Merge branch 'icc-msm8939' into icc-next
 3dd9a926ec2308e49445f22abef149fc64e9332e mmc: rtsx: Fix build errors/warnings for unused variable
+6270bf1f0197739a9cddaf0a40699a99b7357cb5 iio: imu: st_lsm6dsx: use dev_to_iio_dev() to get iio_dev struct
+571426631acf46e2999c7ecd1e9d048172969a43 iio: adc: aspeed: Add divider flag to fix incorrect voltage reading.
+c87b7b12f48db86ac9909894f4dc0107d7df6375 iio: accel: mma8452: use the correct logic to get mma8452_data
+5165102efa41c2aedc77441612f4506a8a8671db dt-bindings: iio: adc: zynqmp_ams: Add clock entry
+1f21a41578062d439cc485bce2d8b664f9a6170e iio: adc: xilinx-ams: Fixed missing PS channels
+d5d786fb531697be74c567b3844c6897ddf1ffdd iio: adc: xilinx-ams: Fixed wrong sequencer register settings
+0bf126163c3e7e6d722622073046aed567a5551e iio: adc: xilinx-ams: Fix single channel switching sequence
 7a37e890bd5db4a89a17ec9bcd7e5f4a33396648 dt-bindings: phy: renesas,usb2-phy: Document RZ/V2L phy bindings
 41d393aaead4e51d709b860176102b18bedb3c68 phy: cadence: Add Cadence D-PHY Rx driver
 40b95583561e18480d36c732b89cc1126725078c phy: dt-bindings: Convert Cadence DPHY binding to YAML
@@ -1051,4 +1051,4 @@ b850b7a8b369322adf699ef48ceff4d902525c8c firmware: stratix10-svc: add missing ca
 96c9e802c64014a7716865332d732cc9c7f24593 kgdbts: fix return value of __setup handler
 37fd83916da2e4cae03d350015c82a67b1b334c4 firmware: google: Properly state IOMEM dependency
 
---===============5431378169434779307==--
+--===============6804469438467010344==--
