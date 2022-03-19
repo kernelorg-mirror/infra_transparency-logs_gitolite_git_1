@@ -1,23 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 19 Mar 2022 23:48:53 -0000
-Message-Id: <164773373306.22025.14141993325243971578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 19 Mar 2022 23:52:52 -0000
+Message-Id: <164773397297.24770.14994438822957976654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: 97e9c8eb4bb1dc57859acb1338dfddbd967d7484
-    new: 14702b3b2438e2f2d07ae93b5d695c166e5c83d1
+  - ref: refs/heads/i2c/for-mergewindow
+    old: 8b6d8d00a46a12a4baa08d547d4231e50a558254
+    new: 1a22aabf20adf89cb216f566913196128766f25b
     log: |
-         69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 scsi: mpt3sas: Page fault in reply q processing
-         733ab7e1b5d1041204c4ca7373f6e6f9d08e3283 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
-         1447c635802fd0f5e213ad5277753108d56a4db3 Revert "arm64: dts: freescale: Fix 'interrupt-map' parent address cells"
-         f76da4d5ad5168de58f0f5be1a12c1052a614663 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-         14702b3b2438e2f2d07ae93b5d695c166e5c83d1 Merge tag 'soc-fixes-5.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+         3364c0ef8732694084f8238ffd9c62819209fd7f i2c: designware: Remove code duplication
+         d714fb25e755ad96b699993fac47f48c4d6cebe9 i2c: add tracepoints for I2C slave events
+         cb13aa16f34f794a9cee2626862af8a95f0f0ee9 i2c: meson: Fix wrong speed use from probe
+         1a22aabf20adf89cb216f566913196128766f25b i2c: mux: demux-pinctrl: do not deactivate a master that is not active
+         
+  - ref: refs/heads/i2c/for-next
+    old: 7effd734baa80613db41026ef5da42d6a64ccd24
+    new: 5db36559df9b9c4f8a5dd86eeaa733ff973e3a33
+    log: |
+         3364c0ef8732694084f8238ffd9c62819209fd7f i2c: designware: Remove code duplication
+         d714fb25e755ad96b699993fac47f48c4d6cebe9 i2c: add tracepoints for I2C slave events
+         cb13aa16f34f794a9cee2626862af8a95f0f0ee9 i2c: meson: Fix wrong speed use from probe
+         1a22aabf20adf89cb216f566913196128766f25b i2c: mux: demux-pinctrl: do not deactivate a master that is not active
+         5db36559df9b9c4f8a5dd86eeaa733ff973e3a33 Merge branch 'i2c/for-mergewindow' into i2c/for-next
          
