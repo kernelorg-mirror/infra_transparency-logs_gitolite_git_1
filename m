@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3748364966076498969=="
+Content-Type: multipart/mixed; boundary="===============4012344657186420610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 19 Mar 2022 03:55:30 -0000
-Message-Id: <164766213063.8686.7005219163874679263@gitolite.kernel.org>
+Date: Sat, 19 Mar 2022 03:55:41 -0000
+Message-Id: <164766214119.8835.9998575490909704435@gitolite.kernel.org>
 
---===============3748364966076498969==
+--===============4012344657186420610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6a9789b18b469e099bc3661ed1bc58e933d70c9f
-    new: 327779e170f5ed363bd696db01e054a260142b62
-    log: revlist-6a9789b18b46-327779e170f5.txt
+  - ref: refs/heads/5.18/scsi-queue
+    old: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
+    new: 66daf3e6b9936328cb28eaaa29dddfe96343cc85
+    log: revlist-2bd3b6b75946-66daf3e6b993.txt
 
---===============3748364966076498969==
+--===============4012344657186420610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1647662122 -0400
+pusher 75C5DE3D 1647662133 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1647662121-808844c13eecd4ca68ac046d0fe8af6b89b3bcbb
+nonce 1647662133-bb48a891b62639f414b506749f60c3ddded9d36c
 
-6a9789b18b469e099bc3661ed1bc58e933d70c9f 327779e170f5ed363bd696db01e054a260142b62 refs/tags/mkp-scsi-queue
+2bd3b6b75946db2ace06e145d53988e10ed7e99a 66daf3e6b9936328cb28eaaa29dddfe96343cc85 refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmI1VCoACgkQ7ulgGnXF
-3j0c4xAAmlv7KT8OME4uGD8zCzkmW8EBpcD42s8+F/+WkmnZ909/Mo0BFcVkswLw
-O8EAZMnjnaOulun7/wIauhjptz7KuYgSNCKkxSsgqQf9k4vhXtsaKjRzboVQnWmw
-5Xy86v82Bp3GiZYOSfbb371eg4gOaa+IWgyklAmfNR+u+Z5Avh0Cua/Rm0vjvP8i
-X7JtyLh1xO/xATzzuNh43QoTHGsDFz05MnPeJRbOc9VfNlYJs+i6j+c5a1HikFuI
-+ngnVS5Eez//KFnLb4ZI6HRFWeCImRse+VHVyGwN60C1VjDgXtEr/5jgGOXYoAq1
-TjvvNegOaZL5lPx6PjjH6vC0VyV69Jj6z0nX4pLSMQBF5fcXjIMVbj3pSDShhOjG
-NWy/hEus4fjxiawoaHNYEsF+SnL9PnkknFi1j254kDOhxZuKeW6PJStGEnxpWZyL
-s+dxv27V5HB8VKSb3nkkHi900hmvA1YqxPKOnTAUe6BGrnM6F8VSEAq6o+Ge6KY6
-MdvpO1/6xJWXNqdgN6dRnB+TEfzuZESH9SS0YGkxsQRWJ+MbaT+32eMPLAsOK0vJ
-SFkb7z4rQ2909Hxf54tQQe7JCVziC6dBteVWp2Cfs+E38o9DmGCHSipMIO2hcY7Q
-AJs7J77QkGQ3Q3P2wWNWWqxDu938p+vzPKA/TePcccITadp+GRg=
-=gWxd
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmI1VDUACgkQ7ulgGnXF
+3j2IXw//ZHPLStsD2oSK/Uyi1JvDmYEoPJfWRYxQtZ3AUK6Q5eBsPAKswfXJKafL
+yJp7exy3TAwwdEkExhWGclMQAmrM9CNiZ7aJ1gQHlIDE0JSzPGCsgkzdFnN8OJI+
+HTw4gIg+ZIRFaMTBXR2JdJYbCBAi+tm55ow/uwcv1j/1m3r/P2Dt7zuxZ1U12D6N
+WVfz2bOoL7ul8UfmjbDPLhWLbRBz+62wr8R6qiM22qhz3hQpIUv4sGSCWGAWU266
+/Tg4zlpcjvGX0N5/gAG2+sceTSZXHTGu8QNmeOT0fZrg6h1MipGrRL328xddP2cB
+kPXpe9QJy77FWS2quz6D9Eixc0zRx2leEZJ3uPGdV2hkegg8FA0UBmmk2WhgOn9S
+jnHhhclRhRxZIr2N/Bi3Nb+mV3KswNY3dsVlgm+5u0cWEzUJ0QwldXnFZ3k5AbrP
+Gu44w60rv3MF5ppAyxDGON4MjaPYipViBM0Jt5aL9kQUGs4iAo6aJrkpOD7G1QS/
+gA5kzPB2rjdOWoYamIfez707jTTqer1bmDhnnG8t4jb3TRFe2VroFebDTuQapm9n
+d1R+bcUNMVpwVW+7MSWg/I3gZy/1TFZkk81/8zWGy1cGkMfmtT9GV1YgKwiyV2sX
+0bYzf3Ejr09313fOPUD3/0ALYLNg33ugZu5dSFQGqCW3zsCInkI=
+=gS6q
 -----END PGP SIGNATURE-----
 
---===============3748364966076498969==
+--===============4012344657186420610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a9789b18b46-327779e170f5.txt
+Content-Disposition: attachment; filename=revlist-2bd3b6b75946-66daf3e6b993.txt
 
 2ea3a393bfae2e50003ecc14b757736eeba7ea6a scsi: lpfc: Remove failing soft_wwn support
 5c9bf3635b66add7d829b4d8d538ae0d770d9d89 scsi: libsas: Add sas_execute_internal_abort_single()
@@ -106,4 +106,4 @@ f45775bf562a5523602541482106b2e9871955cf scsi: lpfc: Copyright updates for 14.2.
 dc155e1acb18fe549bf4efc91ecca2a80deea5f2 scsi: bsg: Drop needless assignment in scsi_bsg_sg_io_fn()
 66daf3e6b9936328cb28eaaa29dddfe96343cc85 scsi: scsi_ioctl: Drop needless assignment in sg_io()
 
---===============3748364966076498969==--
+--===============4012344657186420610==--
