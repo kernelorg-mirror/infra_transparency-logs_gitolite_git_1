@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1187685405970692576=="
+Content-Type: multipart/mixed; boundary="===============0318739487736883612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 19 Mar 2022 12:45:32 -0000
-Message-Id: <164769393252.27880.7933584244751826155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 19 Mar 2022 12:46:20 -0000
+Message-Id: <164769398010.28234.16612583185266497559@gitolite.kernel.org>
 
---===============1187685405970692576==
+--===============0318739487736883612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 70dc59e7b730693eacb7f02ca8ef7b6c48782b4d
-    new: 985d33b05a9448c03473abeb491979c059669e40
+  - ref: refs/heads/usb-testing
+    old: ac484005767bb50cc76e56e26fdbb25a097e5bf8
+    new: 46d2c20b0b10cf07a2a24b047a09195ba96c84f7
     log: |
-         985d33b05a9448c03473abeb491979c059669e40 Notes added by 'git notes add'
+         46d2c20b0b10cf07a2a24b047a09195ba96c84f7 usb: gadget: fsl_qe_udc: Add missing semicolon in qe_ep_dequeue()
          
 
---===============1187685405970692576==
+--===============0318739487736883612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647693931 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1647693930-9886634c648c70a818e2591b3575d53b6a0e5d28
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647693978 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1647693978-7cbccb9ddeb3e328b7b4649497c7dd1599784862
 
-70dc59e7b730693eacb7f02ca8ef7b6c48782b4d 985d33b05a9448c03473abeb491979c059669e40 refs/notes/signatures/tar
+ac484005767bb50cc76e56e26fdbb25a097e5bf8 46d2c20b0b10cf07a2a24b047a09195ba96c84f7 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI10GsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3LkQALDJyg7Y/VIz5BZOiALa
-a9JvIOD98aqaKwo09a2LW5T7tjLKzZ0Wz1wWUW9qUbRm7Oa+C0z483qg8tJt6KDU
-QtmdK39sriSJ4/XiVssykMJ40j0dpKI7coUDDmzFjbZYmtILVymykBLH7csEAdmt
-BS4fn5mpWMM94Mg00s+e9msmZCU0Nwok1uzEMXJccH1Akc6Sga6XIgfHkjydTNiT
-W1tFvSMWVCpBpfTyMOs5QDm9nxnR6uhdm8JBy5Dp6pZVrehBlYatDU59oqc3bXWe
-Zcvijhcn3vtCLPzOfmKvNuJRZDM/BgZzX+HtXK8AvBo/ewfUMsClvYlDUegSh8V6
-ScflJgA1+xQ9kBbHVc7Dg8lMSTkNMcMhq3Jn83ktRFbJwIR6kgSaKtTVTjlB6Tgt
-/whFt0kd7eJ8aR/vOoCli4E9ukR7WoNBwYV3LwJp2R/as9cii38PKTM/KT6PC92k
-z9ZnrCd5slNqrA7hjtzKC8UW79n4KdeUvKkcakP4wN4Z19b9iJjyWeSSl0SW+qcg
-v3rsQNm/+BzqynWjM58c5W6aor2B/ZQTzMw8c6m9FfpQnN6v8bgAQeTDUzyEy3B+
-0NdSCjafwxefgs4Jl4tu2gblR+Xfrunh1v24VDBXGLI//zZXoY3c4OXWI7kCL+/g
-ZYTsd3tKlO8JdLrL2y19v6qc
-=joII
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI10JobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u38P/RqMnB0m7rh5drBg0/NB
+dk0aTWttUHxKMT7sl0XufNaHXJhPrNZhtgJ4W86EW214e3Auuyz5IuuBYD0kVMev
+EQP1ZMIzI49mQWhLacezVMho0WiyR6r/xR8C/N/VOMBmLP1/1RSVwvDjQaodmN7D
+jKO7jgxET5VT1jPnHGWP++4TtlxFcKUeaYQnFXbmBnj2Bx3wUfzJgt+a3CAwJUbE
+6r5/YGKxWI0m6SPCMZ8EfFUbtY4bYVKfDzstA3uXB4OZ7K4aowjygrXlQrV+O23O
+nKC58ceVqftLnHWKUm1k9LfPVox40MyAcNEy/B1GOGfSfeaskkx149bS9N70Sk6e
+XPM8/Ii6g2d17/J9v6JL2BGeo2P6EMOQLKJiKGM9pqrBcV9aZcdaBzA5I56wS0W3
+hjADcgkt9dmiZMKVeMex/fPcMujM0qbso4plXlMbt2VECdJwsqFmbn/hzAP8eNrb
+6EOdhSRofr8Jb0vohI/LBY6y21pl7Z3rq0xTYQN0imLEafsBeDlyYIDIvRwL6iWI
+BN3ISGRcl44+8j6bRekX2st93+XAWUdREZR1z7VNuSIP6fk9V9M1l0DK/q+09KPx
+L+ILIJzybcMa0ov3tiGg1nMnjs5SoSgpy3JvOttcQe8qNXrAYNkRGYIlaefVdQu5
+gCQeNvSUrOzmihHX9yI2Oasb
+=Bew+
 -----END PGP SIGNATURE-----
 
---===============1187685405970692576==--
+--===============0318739487736883612==--
