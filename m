@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6480795612173335399=="
+Content-Type: multipart/mixed; boundary="===============2438856209999779812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 19 Mar 2022 19:40:17 -0000
-Message-Id: <164771881735.24251.17574876273127825408@gitolite.kernel.org>
+Date: Sat, 19 Mar 2022 19:40:36 -0000
+Message-Id: <164771883630.24440.1053063857317440881@gitolite.kernel.org>
 
---===============6480795612173335399==
+--===============2438856209999779812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 2bd3b6b75946db2ace06e145d53988e10ed7e99a
-    new: 66daf3e6b9936328cb28eaaa29dddfe96343cc85
-    log: revlist-2bd3b6b75946-66daf3e6b993.txt
+  - ref: refs/heads/for-next
+    old: 428a8907e32b99ca0b265ce0c031dc087deb44fc
+    new: ee03d7a9c533a237e19a5a22d53505eec69f4bcb
+    log: revlist-428a8907e32b-ee03d7a9c533.txt
 
---===============6480795612173335399==
+--===============2438856209999779812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bd3b6b75946-66daf3e6b993.txt
+Content-Disposition: attachment; filename=revlist-428a8907e32b-ee03d7a9c533.txt
 
 2ea3a393bfae2e50003ecc14b757736eeba7ea6a scsi: lpfc: Remove failing soft_wwn support
 5c9bf3635b66add7d829b4d8d538ae0d770d9d89 scsi: libsas: Add sas_execute_internal_abort_single()
@@ -73,7 +73,10 @@ e0367dfe90d6d5b2143311b0027c9c5d8878a30c scsi: lpfc: SLI path split: Refactor LS
 0e082d926f59dbad311e4cc15317631b935a2efe scsi: lpfc: SLI path split: Refactor BSG paths
 64de6108f41003fbb15fc687b584939edd278f41 scsi: lpfc: Update lpfc version to 14.2.0.0
 f45775bf562a5523602541482106b2e9871955cf scsi: lpfc: Copyright updates for 14.2.0.0 patches
+733ab7e1b5d1041204c4ca7373f6e6f9d08e3283 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
 dc155e1acb18fe549bf4efc91ecca2a80deea5f2 scsi: bsg: Drop needless assignment in scsi_bsg_sg_io_fn()
 66daf3e6b9936328cb28eaaa29dddfe96343cc85 scsi: scsi_ioctl: Drop needless assignment in sg_io()
+82628bf0f30f2e572a5db5bf190ad6cdc3eef1f0 Merge branch 'fixes' into for-next
+ee03d7a9c533a237e19a5a22d53505eec69f4bcb Merge branch 'misc' into for-next
 
---===============6480795612173335399==--
+--===============2438856209999779812==--
