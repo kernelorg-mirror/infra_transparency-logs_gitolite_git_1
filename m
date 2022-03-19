@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 19 Mar 2022 12:39:45 -0000
-Message-Id: <164769358500.27052.16945020296362586856@gitolite.kernel.org>
+Date: Sat, 19 Mar 2022 12:39:47 -0000
+Message-Id: <164769358732.27139.8670480768645204715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,54 +11,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/arch
+  - ref: refs/tags/liburing-0.1
     old: 0000000000000000000000000000000000000000
-    new: e1f89765f957accc4c9a0e3ca233532c6564548b
-  - ref: refs/heads/big-sqe
+    new: 1e51da40853c070de36f5e341ff1913605970654
+  - ref: refs/tags/liburing-0.2
     old: 0000000000000000000000000000000000000000
-    new: 4a7147618ba2fb4f44f4d5e9265c9ed6c35960cb
-  - ref: refs/heads/cqring-nodrop
+    new: 901046c9662ad0747a270b8c92508af670d971a5
+  - ref: refs/tags/liburing-0.3
     old: 0000000000000000000000000000000000000000
-    new: 570d79ab6485cb94aad931553d95bab7f8d19d11
-  - ref: refs/heads/fd-select
+    new: dbb8da9fc6495d5ff64bb0b5c3e6f28d47e82d5f
+  - ref: refs/tags/liburing-0.4
     old: 0000000000000000000000000000000000000000
-    new: 122f64b216caecf78c3c1c6e4c50789e33104c0d
-  - ref: refs/heads/huge
+    new: bed6934bca1bb4a8b5e7897c3158a193f83ba191
+  - ref: refs/tags/liburing-0.5
     old: 0000000000000000000000000000000000000000
-    new: 06139aa1b856020b298fc51df8e8052e8c67c534
-  - ref: refs/heads/issue25
+    new: 9861ec76f876f8351cfb17c9bf7e0fdc5fc3b78d
+  - ref: refs/tags/liburing-0.6
     old: 0000000000000000000000000000000000000000
-    new: a24269f3ac34318bb1862b236bd4ba8b8e71a90f
-  - ref: refs/heads/issue448
+    new: 79d2264b6ac65d92d0a3c0540e7b7fc2b28db7f1
+  - ref: refs/tags/liburing-0.7
     old: 0000000000000000000000000000000000000000
-    new: 1fcdf578088cf1b5e67273419d44774d3d1f2a03
-  - ref: refs/heads/libaio-wrapper
+    new: 3040f955e8256983fb48b572f4565c464a8b6d24
+  - ref: refs/tags/liburing-2.0
     old: 0000000000000000000000000000000000000000
-    new: deab6dc8363248a554cb50c94515aa84c7642628
-  - ref: refs/heads/link-timeout
+    new: efad1d8ebb1fa986d8d48461baca159dd091f0a2
+  - ref: refs/tags/liburing-2.1
     old: 0000000000000000000000000000000000000000
-    new: bc1bd5e97e2c758d6fd975bd35843b9b2c770c5a
-  - ref: refs/heads/master
-    old: 0000000000000000000000000000000000000000
-    new: 12edb77b8f9dc2e508065d1baa6dfba2825d20c1
-  - ref: refs/heads/mlock-size
-    old: 0000000000000000000000000000000000000000
-    new: ea0fd51b78b3c089add37e8c4ee61abd460beb7a
-  - ref: refs/heads/registered-ring
-    old: 0000000000000000000000000000000000000000
-    new: 7887833a0d59939f513b74b58a5efb8e94a39342
-  - ref: refs/heads/timeout
-    old: 0000000000000000000000000000000000000000
-    new: 095bafc04ef9b72ebfcf61c5665ca1267542381f
-  - ref: refs/heads/v0.5
-    old: 0000000000000000000000000000000000000000
-    new: 3be13f40c02f245ac03a8b3500736e657f04920a
-  - ref: refs/heads/wakeup-ring
-    old: 0000000000000000000000000000000000000000
-    new: ab80fef9c929a1adcbce87b672eab0761e2f95d1
-  - ref: refs/heads/xattr
-    old: 0000000000000000000000000000000000000000
-    new: db0999999b0f034599d667e28ca730252910728b
-  - ref: refs/heads/xattr-getdents64
-    old: 0000000000000000000000000000000000000000
-    new: 18d71076f6c97e1b25aa0e3b0e12a913ec4717fa
+    new: 74faa672769663fe5b22e99baf7cda41128c9455
