@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8435448925783777853=="
+Content-Type: multipart/mixed; boundary="===============4106374753890734354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 20 Mar 2022 10:30:50 -0000
-Message-Id: <164777225088.19925.10274449876995014952@gitolite.kernel.org>
+Date: Sun, 20 Mar 2022 10:32:59 -0000
+Message-Id: <164777237938.20757.17656457619364546734@gitolite.kernel.org>
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,253 +16,268 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 6a3b6d68e0ea21e17a0735618ae6f8f030009cfb
-    new: 524ab3a76dbabf24921cddb257cd0146603fefe5
-    log: revlist-6a3b6d68e0ea-524ab3a76dba.txt
+    old: 524ab3a76dbabf24921cddb257cd0146603fefe5
+    new: a2e01a66e13677144a405c8b36fad994f680f729
+    log: revlist-524ab3a76dba-a2e01a66e136.txt
   - ref: refs/heads/queue/4.19
-    old: 1c583e3276f05f323c8ed7d1ef35c6d836a67b6d
-    new: eb0de3be887cc9e1b91b8068599755c0046db56a
-    log: revlist-1c583e3276f0-eb0de3be887c.txt
+    old: eb0de3be887cc9e1b91b8068599755c0046db56a
+    new: 1ff4330b516590937e55e90d70968e1f8dc382fb
+    log: revlist-eb0de3be887c-1ff4330b5165.txt
   - ref: refs/heads/queue/4.9
-    old: 048665d9014ac54aa770caec385f4ab5ea4e2b89
-    new: 985760d117937b666eefe3aa41a6b28635fa6f3e
-    log: revlist-048665d9014a-985760d11793.txt
+    old: 985760d117937b666eefe3aa41a6b28635fa6f3e
+    new: 2bdb35a4828c265c7f5f2e383261ceb38a396c89
+    log: revlist-985760d11793-2bdb35a4828c.txt
   - ref: refs/heads/queue/5.10
-    old: 9f50c21150bd9c7241c085ce7ea83cc65feb7157
-    new: 7304798006fb65973654f4846ea0d8e276f35815
-    log: revlist-9f50c21150bd-7304798006fb.txt
+    old: 7304798006fb65973654f4846ea0d8e276f35815
+    new: 86608f5100fc416ba3564f9a50c22b6f2689f6c4
+    log: revlist-7304798006fb-86608f5100fc.txt
   - ref: refs/heads/queue/5.15
-    old: 45c52369a535db247ffd47b1ad89ad2d3bf50af0
-    new: 1f2297f8470e62b07546cfef001e7735923b784d
-    log: revlist-45c52369a535-1f2297f8470e.txt
+    old: 1f2297f8470e62b07546cfef001e7735923b784d
+    new: a942beb28fac6c8f23323b78c585d2c3a799e79e
+    log: revlist-1f2297f8470e-a942beb28fac.txt
   - ref: refs/heads/queue/5.16
-    old: dcce35ee260e84a0792a1c3affbbab8946dbd8b7
-    new: 384610f7fd7299454a1a7a31de8fb7e95b404465
-    log: revlist-dcce35ee260e-384610f7fd72.txt
+    old: 384610f7fd7299454a1a7a31de8fb7e95b404465
+    new: bfdb4f4d0c761c6a65979fb97b5047227e22faa9
+    log: revlist-384610f7fd72-bfdb4f4d0c76.txt
   - ref: refs/heads/queue/5.4
-    old: 7aa6f43c272626edf3d81c2a703ac715ce02358e
-    new: 4bce3672758361ac67e834d98569b7ff84faa11e
-    log: revlist-7aa6f43c2726-4bce36727583.txt
+    old: 4bce3672758361ac67e834d98569b7ff84faa11e
+    new: 56d48cd38defb6b9eb374d9b0ca438325067ffad
+    log: revlist-4bce36727583-56d48cd38def.txt
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a3b6d68e0ea-524ab3a76dba.txt
+Content-Disposition: attachment; filename=revlist-524ab3a76dba-a2e01a66e136.txt
 
-39f2ae3eea84ddef1ba03874c083507ff8e21cb2 sctp: fix the processing for INIT chunk
-9b98b450828f4e4bb798870808c75aa014052ef1 sctp: fix the processing for INIT_ACK chunk
-6d86cf94b1a0f153be3a790f7df341a4f9f6952e xfrm: Fix xfrm migrate issues when address family changes
-bac64ed8d7b83151f8250a2cc7ec99c8c601adf4 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-b8a611de28cf31559afc396e9578df84cf132d61 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-827ccc64776931e2e2e9207f84114b1d29afa543 MIPS: smp: fill in sibling and core maps earlier
-210756cb27a2a5cfb1dfea9a6a38fb963f736325 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-841ae028c627353dad1e4ecd3fb1e3a6325ff938 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-a91e7e3f8c39452fc1102445d4d88b5eab8b11bf atm: firestream: check the return value of ioremap() in fs_init()
-901b3b80da887a9637d2626b22c9bc0e18f08acd nl80211: Update bss channel on channel switch for P2P_CLIENT
-2561bd91d14c72d68dde32f7706eb6efedb2ce2a tcp: make tcp_read_sock() more robust
-b8d93e8883dfbc20797137ba9e8b9117862f6f85 sfc: extend the locking on mcdi->seqno
-c83dde8d6ef516e7a8f6bfc7e1bb54d915efa7e3 kselftest/vm: fix tests build with old libc
-50484e3daf116ab4560fbd84d88bc147b72f3bba fs: sysfs_emit: Remove PAGE_SIZE alignment check
-ccaf1a3c30bdf50ee98304a9e666552d04756371 efi: fix return value of __setup handlers
-ba3219c2bd2700dfcf861bbde88221615c3f4bc0 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-91121404ed2cb147592e286e97eb901f442c1bca atm: eni: Add check for dma_map_single
-969bf3de0772e203aaf62d105641bbf0cb2f5726 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-f75c38606daefbac19f6597b4d0059907ee2a7a1 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-524ab3a76dbabf24921cddb257cd0146603fefe5 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+6247c9f15fc3f4f66d178918e97608358566b413 sctp: fix the processing for INIT chunk
+b02906ad4ae0f8983da2d67aeab42739aec89905 sctp: fix the processing for INIT_ACK chunk
+14d6f80354558f28f1ddc6f9d05e8935b405cf60 xfrm: Fix xfrm migrate issues when address family changes
+8d3550f21016e66f3a29ccea0c897bf95a8a3109 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
+3bf69fe3f8bd786cf58808dd93792eb392cee9be ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+29a3eaa061e71ff884b108da2d7c6a858d5ece57 MIPS: smp: fill in sibling and core maps earlier
+853ff3e4c334ef2ad2a8df847566ad4836aebd38 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+73dc158417165ab4a6587ebb806c44141303ddb1 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+7a782fd5a3256933d4db8cc24791bc57e66e7019 atm: firestream: check the return value of ioremap() in fs_init()
+0aa7d5cded671eab6ef445b8a85d6691c871d2b6 nl80211: Update bss channel on channel switch for P2P_CLIENT
+d6c99727bfa053d45160b06f4580fff63cdef025 tcp: make tcp_read_sock() more robust
+95efe3b9996ec5f8a287b92bf3ae3cc3c0c4d559 sfc: extend the locking on mcdi->seqno
+dd4aafd781aa41b8a260fa5be7ad8a480a15dee6 kselftest/vm: fix tests build with old libc
+183fce993cdd145d33161ca0f62e4378ee724f34 fs: sysfs_emit: Remove PAGE_SIZE alignment check
+122447b122a7aeef06840ce93615a2ea54cbb7a3 efi: fix return value of __setup handlers
+8bde9befaffacf48cadb96b017da4f7ef8a522ee net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+550cc90fa98d6dd3b57ef5b61fe83aad11bbe43d atm: eni: Add check for dma_map_single
+e3f2417832f436bc3b5de5164c30c64e17e47eea net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+0e7a4a5b7b2b8c6bcc11edddf28793ad881be8b2 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+a2e01a66e13677144a405c8b36fad994f680f729 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c583e3276f0-eb0de3be887c.txt
+Content-Disposition: attachment; filename=revlist-eb0de3be887c-1ff4330b5165.txt
 
-4fb99011c26d8b5af7a7d5469a9ed65c4eddddc2 Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
-cf2f216757afb9018dc41f3ae7def2047fed9a75 sctp: fix the processing for INIT chunk
-2aa4abc9374305e9c904162eab3d7546e0e04d67 sctp: fix the processing for INIT_ACK chunk
-2e4e661f8531f5e7fbfddb945148ce5b5c88ede8 xfrm: Check if_id in xfrm_migrate
-d458b5eac941300d70a3c6b3589c39499c72a618 xfrm: Fix xfrm migrate issues when address family changes
-542180e5a5f88489af8b4bae06a9e3891c7b8eb6 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
-6af7d63335c8c263caa6f9b8402fbc2b90e1ff22 arm64: dts: rockchip: reorder rk3399 hdmi clocks
-8b27f721b4c0c0364f86f8cdadcbbe4c916ffa58 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-63f4472aefa78762e6de6129e0020d28727b6ab2 MIPS: smp: fill in sibling and core maps earlier
-3226d437de1af8d31752ee9ca7acf5168e27c2a8 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-e86e9ecc78be47d7f39a16de008612154c9e3011 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-5ca6d717c9aca90a0ffb639902eb45a804d19df9 atm: firestream: check the return value of ioremap() in fs_init()
-13ca99460d9cfd670ac2182b3c23b51bcd39f26e nl80211: Update bss channel on channel switch for P2P_CLIENT
-175b74f7a8b07d847894c9948ecae7e75f1e795b tcp: make tcp_read_sock() more robust
-b048158f9ab37c1db2caadeb9cf887511bf26f72 sfc: extend the locking on mcdi->seqno
-ebdf316bc5b9fb2758a928fb35b44e1bebc2367c kselftest/vm: fix tests build with old libc
-f7545df553a366d37fd6dc825654134b6625bbc3 sched/topology: Make sched_init_numa() use a set for the deduplicating sort
-0838b0bf1c76c650d6439e70956e1336bb968f0c sched/topology: Fix sched_domain_topology_level alloc in sched_init_numa()
-3c180727e1071206297335e1c4910e84377e0549 ia64: ensure proper NUMA distance and possible map initialization
-75e4871af8cb8f54b11cb9f92c1fe856b377820c cpuset: Fix unsafe lock order between cpuset lock and cpuslock
-cd9052ac5555b4201b443fb08e84d1fe44a100ec mm: fix dereference a null pointer in migrate[_huge]_page_move_mapping()
-0b3cfe42388138aeca59a2168acf3129c1660cd1 fs: sysfs_emit: Remove PAGE_SIZE alignment check
-bceb5d91b6bdf2079b9a0d51530d9486187883d0 arm64: Add part number for Arm Cortex-A77
-8c508a7bb9ed7fc6af07562250500fd0117384bf arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
-d658f8dee31f79574c03b8a586d1caf869a4bda6 arm64: Add Cortex-X2 CPU part definition
-deb304a8d8ed042116ae3d474e44a6ccd1ec148e arm64: entry.S: Add ventry overflow sanity checks
-f61793b70485e81c7161896407a27b9caddfa378 arm64: entry: Make the trampoline cleanup optional
-92d0af11752faf7e43b8da49fdb25d4243b87a90 arm64: entry: Free up another register on kpti's tramp_exit path
-727b8602b6b8807e1b5b788a926423752907ff94 arm64: entry: Move the trampoline data page before the text page
-7a3b8f24c7cd55f67cc02815f79a8150f74666ac arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
-6fafb159c32a0d1658c6d1fa2d8ac68d6df7db3c arm64: entry: Don't assume tramp_vectors is the start of the vectors
-264a58b70976b32e51f574b912c8a3ee559cf86f arm64: entry: Move trampoline macros out of ifdef'd section
-ace80bf11479f86aea65b10ea1d0cf922a106dd8 arm64: entry: Make the kpti trampoline's kpti sequence optional
-e7de8a6e53485622ffcc95587ea815cad3aaf4ac arm64: entry: Allow the trampoline text to occupy multiple pages
-07dc082f5c36362c23e64860efbe30975c080281 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
-be9ee0caad066a9edf26fc70f331d692bcdb60e6 arm64: entry: Add vectors that have the bhb mitigation sequences
-2cb3c56ca750b10e730644b29991de717f695cf7 arm64: entry: Add macro for reading symbol addresses from the trampoline
-1ef8e23d39d7893eb0422139006d53c838e30d57 arm64: Add percpu vectors for EL1
-c4443404e9b39c70c5dc95f78c9436de00fd6c94 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
-2304b487ada0e4c3fd204c371d8491da3662818b KVM: arm64: Add templates for BHB mitigation sequences
-0222f14e43680909cd4faeeb26fb1e84aea98c28 arm64: Mitigate spectre style branch history side channels
-61818ba9c7e365f94a26ae446884d851f065cd6b KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
-4f978dd9b6c6ad71934703b660077006e7a94e71 arm64: add ID_AA64ISAR2_EL1 sys register
-a627fc3bd3cdbcf45715426fd432437fb9fdb748 arm64: Use the clearbhb instruction in mitigations
-6b7fe965914e48482dae8f3a281f19a2921185d1 crypto: qcom-rng - ensure buffer for generate is completely filled
-5891a48b526026c2c207cac7c723e924b198addb ocfs2: fix crash when initialize filecheck kobj fails
-56de53a9291214b6ffed6ea7b6477d506205735b efi: fix return value of __setup handlers
-ccd3253df331077d74043ba4035c78388e6360e3 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-ceebd5742f302a220e0c8b61eacf0d4f3719a22d atm: eni: Add check for dma_map_single
-9b202275ee69526f97afc9f6b3251c0e795d9d48 hv_netvsc: Add check for kvmalloc_array
-53ece45e28bdc863a900548154af30a434e36f4b drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-25d4cfbc0e13edbfefbf28c04b168ef0a37d9e67 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-b62dc12506f3c461f8ce953a8b2f450dcc73c966 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-028afe6298ea65597009513cd7453cade2bb191d usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-eb0de3be887cc9e1b91b8068599755c0046db56a usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+31c9bc508fcfc137c42424b62d825a2206e634ba Revert "xfrm: state and policy should fail if XFRMA_IF_ID 0"
+b9d659bdbcaa1f6182b34a3a68140569404d61f8 sctp: fix the processing for INIT chunk
+dd894700a2fa0d4fe08794e759287a88a3ff1317 sctp: fix the processing for INIT_ACK chunk
+f0e83ab0b637085eaecc738dd9f4e11dec354863 xfrm: Check if_id in xfrm_migrate
+8a6e8c260d6c269463310b2e61f812f8c17c3d14 xfrm: Fix xfrm migrate issues when address family changes
+c59f81f65d8d4342b4f1ae681be4f2234ef83018 arm64: dts: rockchip: fix rk3399-puma eMMC HS400 signal integrity
+2434f6ad2170f7715eea32fe4327f050d782c778 arm64: dts: rockchip: reorder rk3399 hdmi clocks
+6ca376c354014f707236d16696bd95d019489ca8 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+1fb16fad00e8cf275a92b70bf6a12f7677f3b0ca MIPS: smp: fill in sibling and core maps earlier
+d5cb82a4d9dd769428c6b60d8c705be66456ff4e ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+434517d2bd18ffb883350af325b3ae859f521ead can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+d93ac78cf052493e4c623536c7660577175cb101 atm: firestream: check the return value of ioremap() in fs_init()
+17e34d04102ed18b6687386f185757593ddbf7c1 nl80211: Update bss channel on channel switch for P2P_CLIENT
+381eb5845dc30209d046a2d0ce349af77fb9ec4e tcp: make tcp_read_sock() more robust
+6190ea4543836301a7979b47fd7574dea12b8c13 sfc: extend the locking on mcdi->seqno
+f2af3c2ecfea988bf3dc3d5442a72e762dcd853e kselftest/vm: fix tests build with old libc
+a8da86b9684c9d36d1f2faef24f99f824116f170 sched/topology: Make sched_init_numa() use a set for the deduplicating sort
+d7099abc5d89d01bc25ebb67947cae39b6de6e9a sched/topology: Fix sched_domain_topology_level alloc in sched_init_numa()
+5b916fa6542e6a1b496001fc2435c3552fc07785 ia64: ensure proper NUMA distance and possible map initialization
+358410c582d1af7057a34d6160b39f420496cec1 cpuset: Fix unsafe lock order between cpuset lock and cpuslock
+eae0aed9fdae79c73f2c755487d72be08076c882 mm: fix dereference a null pointer in migrate[_huge]_page_move_mapping()
+948f904b5af1fe35d847781e9f40887439afc4a0 fs: sysfs_emit: Remove PAGE_SIZE alignment check
+1cbd120b452bac4404ca4893acd9bda0990de77a arm64: Add part number for Arm Cortex-A77
+83fb37b29469625c26e1ad341860dc4470c8f7e5 arm64: Add Neoverse-N2, Cortex-A710 CPU part definition
+c73f4125339a91b036b7ecdcf39d93695762ec58 arm64: Add Cortex-X2 CPU part definition
+afa3f6e3fdc92470cdc807adaffbf391d5bdf4b8 arm64: entry.S: Add ventry overflow sanity checks
+f972ebb68747db7718e00680d363c3fea2a9885a arm64: entry: Make the trampoline cleanup optional
+f78ca5b20b3cfab8c4bfbfa78e2cd8a847657039 arm64: entry: Free up another register on kpti's tramp_exit path
+fa81bd2d12ecf7a4df98d9bf5271643bcfb8f1b9 arm64: entry: Move the trampoline data page before the text page
+3f6b7480244d59d25e2326f20444a9958dbdc8cb arm64: entry: Allow tramp_alias to access symbols after the 4K boundary
+7ad481b7d64c2eff7f0495a3a6b4e4a8b7c4e21d arm64: entry: Don't assume tramp_vectors is the start of the vectors
+91efd776812c313cb6cdc13b934dcd31ce2d245b arm64: entry: Move trampoline macros out of ifdef'd section
+0f7143e74d7d72ee0f220ee9252c0da50a6b33a4 arm64: entry: Make the kpti trampoline's kpti sequence optional
+f6fadb10350a810e4c9b146c0bcbfed3967f25c2 arm64: entry: Allow the trampoline text to occupy multiple pages
+9240262ed5180e85187df6ab52cb1db354fa4a26 arm64: entry: Add non-kpti __bp_harden_el1_vectors for mitigations
+43672831084ad13f37a6088e818148003db43a13 arm64: entry: Add vectors that have the bhb mitigation sequences
+c95a8b485d504277fd3dbdbc980d53c9fabd2632 arm64: entry: Add macro for reading symbol addresses from the trampoline
+2eabdff2c6a7977de4ad9eb83a3b24d20bf79e9f arm64: Add percpu vectors for EL1
+a177045758f2e6306c80bab8722f237813704293 arm64: proton-pack: Report Spectre-BHB vulnerabilities as part of Spectre-v2
+27a5a5cfabd5a8781bca7a67e0ad2bb4db3e47b5 KVM: arm64: Add templates for BHB mitigation sequences
+aca557d0c62a1083376e684a2173ea631cc8789a arm64: Mitigate spectre style branch history side channels
+c7a2261d116003327775f2ee7deb9630e8d95df7 KVM: arm64: Allow SMCCC_ARCH_WORKAROUND_3 to be discovered and migrated
+530a010b5a11979aebc6a4d4acf4b707a6464cf0 arm64: add ID_AA64ISAR2_EL1 sys register
+01790df1f1441bd0574b0110392c14a4d19278bf arm64: Use the clearbhb instruction in mitigations
+b8ffdeba09f63c1dca1d57b2df0eea650a8d88f6 crypto: qcom-rng - ensure buffer for generate is completely filled
+b621cd8dd5ff9fd4680ac7cae36e49611094cdfb ocfs2: fix crash when initialize filecheck kobj fails
+e476ba6d649fda59af1cbf4be80900481558a548 efi: fix return value of __setup handlers
+55bbbd29a777db0a3db736e1de61b47525e3a653 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+46a562094aef99d0ad226528d90f5370b047a348 atm: eni: Add check for dma_map_single
+9eff7fd54f5570f0d5b5efe2641281c68a361b2d hv_netvsc: Add check for kvmalloc_array
+b514400e10622ddf97f23d72744523bba80d2b07 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+51844e23fcde5573779a77fa14bfc2a8ee8e0ac9 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+476ff531eb4d627692ab70f214bc739f7661cfde net: dsa: Add missing of_node_put() in dsa_port_parse_of
+1331f62ca3d0cd9b80d61377aaf492cb23be9f13 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+1ff4330b516590937e55e90d70968e1f8dc382fb usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-048665d9014a-985760d11793.txt
+Content-Disposition: attachment; filename=revlist-985760d11793-2bdb35a4828c.txt
 
-2540a21ca03a228d02550a84023da326ccb1a906 xfrm: Fix xfrm migrate issues when address family changes
-e45ca50ed9251b62910c372732adaa6d94e98975 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
-6bc1d84720c463b56425c24852b72b63a51d52fd MIPS: smp: fill in sibling and core maps earlier
-1cbb0b6ade7d8ea28536a2e493455ca3f1ebfa27 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
-f45562aa625e0bf7eb06360c13fb2b15d19953a9 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
-eb2f8ef61055770c26c22e54e6c91479c77c5ac0 atm: firestream: check the return value of ioremap() in fs_init()
-34a6297df3c74dc59f2523e559ddb5a930b66d9b nl80211: Update bss channel on channel switch for P2P_CLIENT
-f47a0776138c7d474ecdca7288f830bac79458ed tcp: make tcp_read_sock() more robust
-b0515e146d3fe5d93d778ea9555ed5cc2aaddfcc sfc: extend the locking on mcdi->seqno
-2aceaf9cd69c7535538a1ed9141d6864f66959a6 kselftest/vm: fix tests build with old libc
-4267f40218b7539be0376585fd1210e7ab921a67 fs: sysfs_emit: Remove PAGE_SIZE alignment check
-9f7d7e2def836033ecd3c4abaee1168950d34a16 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-0c848abffd9e966e36577c0c34f962fbff46a1c9 atm: eni: Add check for dma_map_single
-f3911d9a3d2da98d833a9869b5eaf9ed61a82cf2 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-985760d117937b666eefe3aa41a6b28635fa6f3e usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+b6d1d5234b8b4803dd0b4abf83e5df78ddacbcc9 xfrm: Fix xfrm migrate issues when address family changes
+7caed47f846e4c672c37bdd3f8b2c92b5ea1c861 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+cdf511e2157eab4feb8fcec40b6b3674651249d6 MIPS: smp: fill in sibling and core maps earlier
+fdc603ad991a71d925f65956170fdbc37c914c53 ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+b60e9aae93dde35af0caeaa7d32c17da8b2eaf76 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+9764edfea047772775cd4046a20b53a9f1df2f6b atm: firestream: check the return value of ioremap() in fs_init()
+7f8b7a82d1ac353699d7a2dc90a11c1ee0ececab nl80211: Update bss channel on channel switch for P2P_CLIENT
+ae70a939019aa020ec0c37d07d99534723d5f528 tcp: make tcp_read_sock() more robust
+6a58940185c05519d5f0885589122ee6dbac0e46 sfc: extend the locking on mcdi->seqno
+c7fe6bcbb77cb0a97ce6df8f4dd3d1dfdb4a9058 kselftest/vm: fix tests build with old libc
+971c865ab86c876cd1217da038f7a0f5fedc256a fs: sysfs_emit: Remove PAGE_SIZE alignment check
+67b1b07eda63da7a2d097574bcdd0113b406e61a net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+424befc28c8e587e1022ae30073a8f923ee29e0e atm: eni: Add check for dma_map_single
+3feac072f669a24988b6f0ca0542ba7b065c9dba usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+2bdb35a4828c265c7f5f2e383261ceb38a396c89 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f50c21150bd-7304798006fb.txt
+Content-Disposition: attachment; filename=revlist-7304798006fb-86608f5100fc.txt
 
-5330c458bf2954d7b3125b056650175433b5df58 crypto: qcom-rng - ensure buffer for generate is completely filled
-221e8ba7b6bb8dbc8f815f02c1d9e18cfa5cb500 ocfs2: fix crash when initialize filecheck kobj fails
-a1cff9f61c2ba35f280a7471e77407245f438882 mm: swap: get rid of livelock in swapin readahead
-46ed263270c9082a7dbe22e81a76959a036ba0a7 efi: fix return value of __setup handlers
-bea0cf572406c961f37986b971509266f8010353 vsock: each transport cycles only on its own sockets
-f327f4068186da5cda58537f052aff92d8e7498f esp6: fix check on ipv6_skip_exthdr's return value
-671d42b287b640ea6b4cda6ad0df8841019e7d1f net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-99a2313bd1c8d71b2d425a4912e46264513c71dc net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-67b1575ec1af2a10376a6a724e3e5f237152159b atm: eni: Add check for dma_map_single
-c84ced92d2143a51eb53821dced3bcb0f6e594d2 hv_netvsc: Add check for kvmalloc_array
-69e505c3ed24d5324a27135d1e19d1c4e377e164 drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
-2d120d93084e07745253f21770e6c210d12770b4 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-2ee2d9dd0c86deb30762abe6bace70e8becade40 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-47d85db711dd62962015532f349b0979cdf19bde net: dsa: Add missing of_node_put() in dsa_port_parse_of
-8f9521907e2604724ebe3de338614164424f0f27 net: phy: mscc: Add MODULE_FIRMWARE macros
-b2f896cf07ee0c4d90bdd518aa32b6be604ac3b7 bnx2x: fix built-in kernel driver load failure
-20f8a45828dcf1d1b229490244c610494a65f84b net: bcmgenet: skip invalid partial checksums
-d114e8e39c1365c94d680703ea0b297b6e0afa03 net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
-7304798006fb65973654f4846ea0d8e276f35815 arm64: fix clang warning about TRAMP_VALIAS
+d542e2cab01f227eb2022e128eb10a4f29194d07 crypto: qcom-rng - ensure buffer for generate is completely filled
+e120d9d1e0828222dc6aeda45f9bf6b29b0c5a03 ocfs2: fix crash when initialize filecheck kobj fails
+f1e4ee0fb78e1f52e7dcc97b4e1ed9bcb2c8eba3 mm: swap: get rid of livelock in swapin readahead
+1835d8a3a79afb2b8159601fb4d02a02663acb7d efi: fix return value of __setup handlers
+e31f903582ee90176007536f7fdfa9678a566e03 vsock: each transport cycles only on its own sockets
+b90d49e3c72eaadb226d76cccaa6b1d985f962f0 esp6: fix check on ipv6_skip_exthdr's return value
+f375a0a1278555f1296514f4e9784b8f94e40080 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+5bd79474a73d754aae499da2f1e06c4922ed885f net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+f460d87bb83c08fcbf0d0d8c9c38c988db7866fb atm: eni: Add check for dma_map_single
+bf2e111f9f1ac4c26d7f31077f0564438d4b2425 hv_netvsc: Add check for kvmalloc_array
+2b0e899b8be60d701193da8824c618f6c7c9736c drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
+6caa9b1893538f1857e6dcb0c34d62c7dce497c9 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+63fc40024eff1fb2272e18057c09953397c743ea net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+e0fe09581ad4615891d690ca0e9084ea12449b22 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+027a489d67f62d2855922f1b6132d31e85ba1a0e net: phy: mscc: Add MODULE_FIRMWARE macros
+e4c4e10e51be8e4c1428d46fae82d27f398c671d bnx2x: fix built-in kernel driver load failure
+1c335cc71764654e929f26afc6725476ec54964d net: bcmgenet: skip invalid partial checksums
+38bbb6e72f082ec9d64f4becfc5ddb75540b1a2d net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+cd8b6f927ce46282a0b8b87aa06a1dca2dd69c5f arm64: fix clang warning about TRAMP_VALIAS
+25a1c5a4d859a0c95e52196dea37ceefbae8bd39 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+924f95214da733289d4660218820f90fe80f0cf9 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+c42bd434efb8453c5016c57b16f23faaa293d49a usb: usbtmc: Fix bug in pipe direction for control transfers
+86608f5100fc416ba3564f9a50c22b6f2689f6c4 scsi: mpt3sas: Page fault in reply q processing
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45c52369a535-1f2297f8470e.txt
+Content-Disposition: attachment; filename=revlist-1f2297f8470e-a942beb28fac.txt
 
-43c26244d08ae7ffc57ae93a1a552c344871c838 crypto: qcom-rng - ensure buffer for generate is completely filled
-3f6e1c448b0aa43c178857dc8d571f6de27001a3 ocfs2: fix crash when initialize filecheck kobj fails
-8db943fe2d62f895a2667bec2c53f38185c37036 mm: swap: get rid of livelock in swapin readahead
-90e024961f659c14a5d7ee4604d111e26fe25a30 block: release rq qos structures for queue without disk
-e6eaf539d62192a0f0d49213a4805a8b1f959ed8 drm/mgag200: Fix PLL setup for g200wb and g200ew
-a805d673943b677094c75e2c8a6b44179d8fe74b efi: fix return value of __setup handlers
-1f724c55b4d7e00172649bd71724b6b2108f5a8c alx: acquire mutex for alx_reinit in alx_change_mtu
-6a920b26b1ae0422018cc568f9ca02e5db671111 vsock: each transport cycles only on its own sockets
-545eedc11355e50139044cf89bde4838c4d18baf esp6: fix check on ipv6_skip_exthdr's return value
-418ba742d266bf079b8a3d77bf67ae8ecaa9a26a net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-b13abd5be6a61a63a760ad6823b768103adbf944 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-4eb1ca3daee5a0adca58c763bb9dc804a02ff908 atm: eni: Add check for dma_map_single
-53d4b40724a3bb06b054ebce4f287e18920fbca7 iavf: Fix double free in iavf_reset_task
-cdec3e9abf4e90f0fbbb2ac2b6f5f0012a18d701 hv_netvsc: Add check for kvmalloc_array
-75d54587fab25a3806a064294cafc5b0124eabec drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
-74472989df9295972650ec034ab4ad8625b86985 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-2a9c4900823077f52e6920e230d069bd29451741 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-ae45a8f588246b4cd6622f6cd605b0557ef782b1 drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
-318c8b2db6dc8733166b79fe9083d921da063e01 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-7fc38463ab950b43a831f77927763f7d0003c651 net: phy: mscc: Add MODULE_FIRMWARE macros
-0f5caca78846f7cc61434ea8c7c50a2cf90a62c2 bnx2x: fix built-in kernel driver load failure
-a01905b999ce10508abde73607f89cc81542f302 net: bcmgenet: skip invalid partial checksums
-153af137d430c4185c65dd933a4419fbcf814a46 net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
-76f4de0adeb8508d3efa2a94f6353f6eb41f771e iavf: Fix hang during reboot/shutdown
-1f2297f8470e62b07546cfef001e7735923b784d arm64: fix clang warning about TRAMP_VALIAS
+13641a41eff2dc0d941416ec481d1bbe11b799d9 crypto: qcom-rng - ensure buffer for generate is completely filled
+e397480cb150bd35cc602c2ca0609fd7e5a22297 ocfs2: fix crash when initialize filecheck kobj fails
+40694b026fea1e961d02bab08552d4e902d8a710 mm: swap: get rid of livelock in swapin readahead
+c1b751e48619fb7c9f880b9f5ca2aa65fc65d7ea block: release rq qos structures for queue without disk
+9966eb98d50dfe21ec44a9c3b9bdebebb2c77fbf drm/mgag200: Fix PLL setup for g200wb and g200ew
+787b11fdb2927049c0d290f44820cf8f824a838a efi: fix return value of __setup handlers
+d6e8b2966897acbcdeb811b0f691d9385707d48f alx: acquire mutex for alx_reinit in alx_change_mtu
+f978402c9a1c607525a0481780f703141e5984c9 vsock: each transport cycles only on its own sockets
+557108e945c4dc96dbcf2b3f3a1ef656484ab49f esp6: fix check on ipv6_skip_exthdr's return value
+01054058ab38ac84410867b36e2c3184208beb04 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+6550197b6d18e00b47fb2b98a7dc6993ca262df8 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+772cf6e5981b6257b437bf605ea255d2bd504109 atm: eni: Add check for dma_map_single
+9b5804bb61407af06fe584d931c53afc86be517c iavf: Fix double free in iavf_reset_task
+9b05e8f129e7919454bdab8107588489cc9a4272 hv_netvsc: Add check for kvmalloc_array
+f164ed43980bcd0e0ae52b1640c14839c7a56595 drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
+1e48a17aabf9e914f3acdfcf4a11ae33de445ef5 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+83d06d6d50a6687f80dfba9d91f64158893bdc61 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+84a7b6f32060c9c1cf235c0c95b1e00a8a4f138a drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
+adc02bd71d5fd654bc2704c736b8d0d10cae2783 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+a97b463f8c71031f65c8085215e3391eb0e875d0 net: phy: mscc: Add MODULE_FIRMWARE macros
+da8f74e0d8ea88d48205459bbf8ee3079a1a5668 bnx2x: fix built-in kernel driver load failure
+b36f793d99f1b8b511421ec6ec2993d51760da5e net: bcmgenet: skip invalid partial checksums
+9f472150b2324a724cebc67d4760e4b0f579adea net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+2ccf30fb1c020c92e3f6d9fc12edd3ae89bb9bf8 iavf: Fix hang during reboot/shutdown
+64d1d54cdda9c2ddca84d543f48e71e4c551122d arm64: fix clang warning about TRAMP_VALIAS
+5afdaf1a02022420c1e9b25774db36892284e93b usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+10514744e3f449809f4ea64e72f89455f4550073 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+5680b595bfe9b2a32cedcf8627faab796da75f74 usb: usbtmc: Fix bug in pipe direction for control transfers
+a942beb28fac6c8f23323b78c585d2c3a799e79e scsi: mpt3sas: Page fault in reply q processing
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcce35ee260e-384610f7fd72.txt
+Content-Disposition: attachment; filename=revlist-384610f7fd72-bfdb4f4d0c76.txt
 
-09eb27d61ec988f7be4ffc2a504472bc29a1053e crypto: qcom-rng - ensure buffer for generate is completely filled
-3f450a83a50ce487f8f4ea3be5b4220a92f13039 ocfs2: fix crash when initialize filecheck kobj fails
-f4a5bf25853915f376aca79a8a17b1f5f25aed0f mm: swap: get rid of livelock in swapin readahead
-673d88f7cd36322ec5ecbaae33fa9bf86f3e9694 block: release rq qos structures for queue without disk
-747c5a4f62a35df13b1475af71f72d009175ad8a drm/mgag200: Fix PLL setup for g200wb and g200ew
-15288d66c5d0813b8cee640486d054c87be63b60 efi: fix return value of __setup handlers
-ac6d81e597990790e1fab64b780de3bf37bdd853 alx: acquire mutex for alx_reinit in alx_change_mtu
-2c2f97d0a8a15fb1e320f35ab1c36677b5f03377 vsock: each transport cycles only on its own sockets
-89e2e7ed723809eb0fb79e00e06dec4fc914a32b esp6: fix check on ipv6_skip_exthdr's return value
-06ebad312d05abdaf18a6eb488f92c698d199055 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-c730a563c91a7d723960445b90a4379c329cfec0 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-c4bc199a3cf34113f0878c913ad4c54899c8497d nvmet: revert "nvmet: make discovery NQN configurable"
-89fc9cad16883ffe56aa3929bff505160bf274b5 atm: eni: Add check for dma_map_single
-6444a5fbd64aa92dad26ba3644242f8fec287a5b ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
-661f57177c2284ffff5b2c3e497a92facaf39a59 iavf: Fix double free in iavf_reset_task
-f67af9d8ad99b07428712593f824506c216ad425 hv_netvsc: Add check for kvmalloc_array
-d6eef36f85d7c5400e006d3e5af929f95ea05fce drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
-e84d8b39894c0c9389e9524dfde7849518a99e4b drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-917e9c99e24fa284ffd2295e881ebb7989cb63ae net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-b5b940d4f49a94cc5fb3696f37c2408cb0248834 drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
-446ec917e15a7558a24a75a12842576c5a8908cd net: dsa: Add missing of_node_put() in dsa_port_parse_of
-6cee25b7610ad3cb95f3d0581dc6a5087cfb31c9 net: phy: mscc: Add MODULE_FIRMWARE macros
-c1765c82008fbea70cceb44761e8b39b48b46cd5 bnx2x: fix built-in kernel driver load failure
-2feff8b6ebea59273005f693c84780feec518004 net: bcmgenet: skip invalid partial checksums
-97b2af4fff985fd188b5911abd42ae6547b71f03 net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
-c9f2a5ab0e3e85e4e17a8be2ac1da88d06628fb2 iavf: Fix hang during reboot/shutdown
-384610f7fd7299454a1a7a31de8fb7e95b404465 arm64: fix clang warning about TRAMP_VALIAS
+e6b3fc3081b1f300eae9d085486fac5fbaf624f0 crypto: qcom-rng - ensure buffer for generate is completely filled
+a27f9a3843b5955bc03e5a393463e1033e557dee ocfs2: fix crash when initialize filecheck kobj fails
+4a6c2529f8a2e1ea0865d88057f19fafa1a0bd7a mm: swap: get rid of livelock in swapin readahead
+8f95a71e28010a814b520676a8bd1c9fa4185e2a block: release rq qos structures for queue without disk
+632e39819c8bc50fafcf439d9297c66ac2aff537 drm/mgag200: Fix PLL setup for g200wb and g200ew
+6f521052686a85887de367ccaa9c733dc155d7b2 efi: fix return value of __setup handlers
+74d36c82432835bf5c6d194f722d3ca5dda9cd3a alx: acquire mutex for alx_reinit in alx_change_mtu
+1a5f7a9572abda8bf3584ef700d6988c26dff358 vsock: each transport cycles only on its own sockets
+3ae2538a1f418ab2715d37a10fbc4f586e2ac127 esp6: fix check on ipv6_skip_exthdr's return value
+ab6bebdab7f9962f948fbcce3dd96a612f18cfa0 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+d98055d2283350f2a0c7eca9e04bb4b7fa1ed6c6 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+f5e0ee435cce687bf4ba0ebb54ed890e5da81825 nvmet: revert "nvmet: make discovery NQN configurable"
+1c2cf6d6dd3fa2c6b083199ffee357c9922d58e7 atm: eni: Add check for dma_map_single
+ada790d61f5bf38ee52c2c3f992f1854aa08b9e1 ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
+3986bbef46089ff0e49ea0263e49645288cd967d iavf: Fix double free in iavf_reset_task
+4e03756fb28668d62eb99ee5f99c56c84391a3f9 hv_netvsc: Add check for kvmalloc_array
+1ca200fbb6ecc4ad325f7ce50c51b2b4ce4bd43f drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
+5e9513bec34974c59f9ac31f64d644b03320f046 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+55cd57340228aab3c94cb34255c7642b452e339b net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+2c82e58f216ec9dcf8765f2c6667a315f432bf9d drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
+dc237f877b22876ebe73f01cb6303fd474f8c7d7 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+6cc25578602c134bed3492d0ff64cb9f68445774 net: phy: mscc: Add MODULE_FIRMWARE macros
+626add7ca1be34be352786b098bdf7ea74760996 bnx2x: fix built-in kernel driver load failure
+c2fe9a3c5539da9861b64d094694c165702f1d64 net: bcmgenet: skip invalid partial checksums
+4bfb566275577a73733cc8f8ea482a273e1e937f net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+94654831ba78f1bb54e5a80fee30bda6ceea0438 iavf: Fix hang during reboot/shutdown
+76f94b678fdcc36c2edddbd2a345cee534c28673 arm64: fix clang warning about TRAMP_VALIAS
+93be85c12ae484ca1ca6b9660e18536f22a478bd usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+17bcb7ad07098cbe46f7b99cfe2578e8852bd11e usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+a528dc902b88e5f893285eba1de3058eb1c5cf90 usb: usbtmc: Fix bug in pipe direction for control transfers
+bfdb4f4d0c761c6a65979fb97b5047227e22faa9 scsi: mpt3sas: Page fault in reply q processing
 
---===============8435448925783777853==
+--===============4106374753890734354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7aa6f43c2726-4bce36727583.txt
+Content-Disposition: attachment; filename=revlist-4bce36727583-56d48cd38def.txt
 
-ad59a00baee3cc776c3c83bd97909f1e0c477d9c crypto: qcom-rng - ensure buffer for generate is completely filled
-19782f41609a20c58ff83d529a75f594a560ac6c ocfs2: fix crash when initialize filecheck kobj fails
-e17a0b55a75ab4ba272aabb0dc675a4747047538 efi: fix return value of __setup handlers
-1ba08d7ad426567edfc23420897dd47b7d6448db net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-0cd097f692e6486fa0e5877044f433178f018774 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-839da852539a7c9f662744374127e95be2f8a932 atm: eni: Add check for dma_map_single
-d91d1d67cea2f017eeb890d67e349a1cf9ca40ca hv_netvsc: Add check for kvmalloc_array
-00e3ed51e4209b8be237bf6487aec576ec8c3283 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-97d52b7a0c01a4870e440eec392d8ff407e5854f net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-7a8ac40c0696d2288ae6bf74dd6681b3b537b903 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-4bce3672758361ac67e834d98569b7ff84faa11e arm64: fix clang warning about TRAMP_VALIAS
+5957152f896fc60fbde562eb2e84a31e75e25f93 crypto: qcom-rng - ensure buffer for generate is completely filled
+63359f00468981e710c2a12a2c4139081847e9c6 ocfs2: fix crash when initialize filecheck kobj fails
+cc3d941ab460ef2a072afe99b58796dad92b992a efi: fix return value of __setup handlers
+22a0f5ca6c997f26457316edde16949f9716c0b4 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+5fe9d3599b63e390d2b108143a8cf007924114d6 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+ef8f666a5ff52f3914e0c2fbf360ed8d609a75c8 atm: eni: Add check for dma_map_single
+d5ecc22ea5967ad0486db8b137e2847445b6cc8f hv_netvsc: Add check for kvmalloc_array
+d4a9a6e882e395518f9e42d4a5cf0fed6878af12 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+fd3fd5c7672d12fa1c60464fc6ebf41658db760f net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+a694e11521313feb344839902fafd63273020382 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+19dcf006a6452359bebe9ce12d59243bb150de38 arm64: fix clang warning about TRAMP_VALIAS
+48ab34d71b32b09580fb91a4c27a7265d41bca10 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+a73989edee7262c4b4355c1c071fe81805053da5 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+56d48cd38defb6b9eb374d9b0ca438325067ffad usb: usbtmc: Fix bug in pipe direction for control transfers
 
---===============8435448925783777853==--
+--===============4106374753890734354==--
