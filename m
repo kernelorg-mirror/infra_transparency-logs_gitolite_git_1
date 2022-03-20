@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 20 Mar 2022 00:44:07 -0000
-Message-Id: <164773704722.24717.11185084553599369135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 20 Mar 2022 00:50:03 -0000
+Message-Id: <164773740351.29910.16862623123437933700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: a5d2fec4950b683ddfbf864b3b97b19746550c89
-    new: 38cd6395cdc96552e0320460d7a4047ee0660156
+  - ref: refs/heads/for-5.18/io_uring
+    old: 5e929367468c8f97cd1ffb0417316cecfebef94b
+    new: d08f5045d3543069fc5794187fc5f075e2e3b984
     log: |
-         38cd6395cdc96552e0320460d7a4047ee0660156 Sun Mar 20 12:43:26 AM UTC 2022
+         d08f5045d3543069fc5794187fc5f075e2e3b984 io_uring: recycle provided before before poll arm
+         
+  - ref: refs/heads/for-next
+    old: eece50ff15491d636772eb0e59072ef4a1532d20
+    new: 9333209e6ca220de8bef7cb1e5fba4003ddcb158
+    log: |
+         d08f5045d3543069fc5794187fc5f075e2e3b984 io_uring: recycle provided before before poll arm
+         9333209e6ca220de8bef7cb1e5fba4003ddcb158 Merge branch 'for-5.18/io_uring' into for-next
          
