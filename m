@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Sun, 20 Mar 2022 23:37:34 -0000
-Message-Id: <164781945478.1157.5721188356940705033@gitolite.kernel.org>
+Date: Sun, 20 Mar 2022 23:49:59 -0000
+Message-Id: <164782019961.9391.9536669052909868456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: 8130653dabe6726b46b7b19c31d85e33a67175e3
-    new: e48808692b6db3f1d7d31139eb22030228ba6fb7
+    old: e48808692b6db3f1d7d31139eb22030228ba6fb7
+    new: bb2cd5f3d9e63ce9f17c7996aa1dd11b63a87af3
     log: |
-         f1d18e2e6ec5680fe1926de0da9bed428f2e0475 Update kernel headers
-         9e82e828764aa1c0303697164883fc355e9310b8 bridge: support for controlling mcast_router per port
-         e48808692b6db3f1d7d31139eb22030228ba6fb7 man: bridge: document per-port mcast_router settings
+         b25599c57ef283b4d94ea4881d423d761a9ca3dc ip: GTP support in ip link
+         28add13738253cf07cc7aa4bb73148ea718d8d77 f_flower: Implement gtp options support
+         bb2cd5f3d9e63ce9f17c7996aa1dd11b63a87af3 Merge branch 'gtp-netdev' into next
          
   - ref: refs/heads/master
-    old: 8130653dabe6726b46b7b19c31d85e33a67175e3
-    new: e48808692b6db3f1d7d31139eb22030228ba6fb7
+    old: e48808692b6db3f1d7d31139eb22030228ba6fb7
+    new: bb2cd5f3d9e63ce9f17c7996aa1dd11b63a87af3
     log: |
-         f1d18e2e6ec5680fe1926de0da9bed428f2e0475 Update kernel headers
-         9e82e828764aa1c0303697164883fc355e9310b8 bridge: support for controlling mcast_router per port
-         e48808692b6db3f1d7d31139eb22030228ba6fb7 man: bridge: document per-port mcast_router settings
+         b25599c57ef283b4d94ea4881d423d761a9ca3dc ip: GTP support in ip link
+         28add13738253cf07cc7aa4bb73148ea718d8d77 f_flower: Implement gtp options support
+         bb2cd5f3d9e63ce9f17c7996aa1dd11b63a87af3 Merge branch 'gtp-netdev' into next
          
