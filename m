@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 20 Mar 2022 20:53:29 -0000
-Message-Id: <164780960900.31316.13597426356802532566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 20 Mar 2022 21:18:55 -0000
+Message-Id: <164781113506.15166.10770233359643932725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 88cbe9d01d7c5900d7ba3cc41ae18035d5a13f8a
-    new: ca3c4670b89d8f5de2975c4c4995d70749dab672
+    old: fb5abce6b2bb5cb3d628aaa63fa821da8c4600f9
+    new: 84d82bf6d7f0b490095c5a00407f6846c454ef1b
     log: |
-         ca3c4670b89d8f5de2975c4c4995d70749dab672 Sun Mar 20 08:52:50 PM UTC 2022
+         84d82bf6d7f0b490095c5a00407f6846c454ef1b tpm/tpm_ftpm_tee: Return true/false (not 1/0) from bool functions
          
