@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 20 Mar 2022 16:58:39 -0000
-Message-Id: <164779551908.9833.5400864267579122353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 20 Mar 2022 17:02:06 -0000
+Message-Id: <164779572678.12469.5325712522617524813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: aed950de3e16feb944754c43fb0085253d230c77
-    new: 2426f868eca54caea05607449ce82aad566d526d
+  - ref: refs/heads/master
+    old: 14702b3b2438e2f2d07ae93b5d695c166e5c83d1
+    new: 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230
     log: |
-         4fc5f5346592cdc91689455d83885b0af65d71b8 nfsd: fix using the correct variable for sizeof()
-         3d1024ae504bb338e7f31eca2f4cf67a3c60d713 fs/lock: add new callback, lm_lock_expired, to lock_manager_operations
-         2426f868eca54caea05607449ce82aad566d526d fs/lock: only call lm_breaker_owns_lease if there is conflict.
+         e941dc13fd3717122207d74539ab95da07ef797f Input: zinitix - do not report shadow fingers
+         5600f6986628dde8881734090588474f54a540a8 Input: aiptek - properly check endpoint type
+         fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation function offsets with SLS
+         1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+         7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
          
-  - ref: refs/tags/nfsd-5.18
-    old: 0000000000000000000000000000000000000000
-    new: dfa59b6f7f26bc32621d9e2cd4e94f5e968e5b19
