@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6585293592901789690=="
+Content-Type: multipart/mixed; boundary="===============2413933396798444867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Sun, 20 Mar 2022 23:32:39 -0000
-Message-Id: <164781915917.30534.987483698591325286@gitolite.kernel.org>
+Date: Sun, 20 Mar 2022 23:32:45 -0000
+Message-Id: <164781916555.30652.748818543200736128@gitolite.kernel.org>
 
---===============6585293592901789690==
+--===============2413933396798444867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
 user: herbert
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linus
     old: a680b1832ced3b5fa7c93484248fd221ea0d614b
     new: 0e03b8fd29363f2df44e2a7a176d486de550757a
     log: revlist-a680b1832ced-0e03b8fd2936.txt
 
---===============6585293592901789690==
+--===============2413933396798444867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -164,4 +164,4 @@ c6ded03bcac9dde5bc7b4a1121efa050a28118b0 crypto: dh - Remove the unused function
 a5997f1ae84af1f6e57bb19787ab1c658db0ef37 MAINTAINERS: update HPRE/SEC2/TRNG driver maintainers list
 0e03b8fd29363f2df44e2a7a176d486de550757a crypto: xilinx - Turn SHA into a tristate and allow COMPILE_TEST
 
---===============6585293592901789690==--
+--===============2413933396798444867==--
