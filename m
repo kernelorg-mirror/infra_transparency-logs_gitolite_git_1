@@ -1,77 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============7620279619474068908=="
+Content-Type: multipart/mixed; boundary="===============1814337657916881102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 20 Mar 2022 07:07:49 -0000
-Message-Id: <164776006949.10459.11442811995632103785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Sun, 20 Mar 2022 08:31:08 -0000
+Message-Id: <164776506828.26062.9385191528958792310@gitolite.kernel.org>
 
---===============7620279619474068908==
+--===============1814337657916881102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 34e047aa16c0123bbae8e2f6df33e5ecc1f56601
-    new: 14702b3b2438e2f2d07ae93b5d695c166e5c83d1
-    log: revlist-34e047aa16c0-14702b3b2438.txt
+  - ref: refs/heads/rdma-next
+    old: 69e42200d8c3a4db457010770dd61afb6893b8dd
+    new: 9e0884a17fa8a7a705e831d4097889822a18aaad
+    log: revlist-69e42200d8c3-9e0884a17fa8.txt
+  - ref: refs/heads/testing/rdma-next
+    old: 29ed07df8ad0016a16164d290f55b9f2446294a5
+    new: 0b6fbd83d989504ca168b3f0e1e05495257cdb57
+    log: revlist-29ed07df8ad0-0b6fbd83d989.txt
+  - ref: refs/heads/testing/rdma-rc
+    old: a5de8c3680a464f1eaa902f285c9fad633804bff
+    new: b303ab665a8e924b9ef98b56231bd6b2873869f5
+    log: |
+         b303ab665a8e924b9ef98b56231bd6b2873869f5 Merge branch 'master' into testing/rdma-rc
+         
+  - ref: refs/tags/mlx-next
+    old: 2c25e45267d0c7517578b7203a55fba2b6f6564a
+    new: 3197706abd053275d2a561cfb7dc8f6cfaf7d02c
+    log: |
+         51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
+         70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
+         63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
+         8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
+         c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
+         3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
+         b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
+         3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
+         df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
+         3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
+         3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
+         
 
---===============7620279619474068908==
+--===============1814337657916881102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-69e42200d8c3-9e0884a17fa8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647760066 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1647760065-d36930a69bf80b22b63c19195449b202defbfe5b
+51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
+70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
+63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
+8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
+c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
+3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
+b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
+3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
+df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
+3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
+3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
+7f68d7493ff07a0ad63f63c4a1a4e0781cec0dd2 IB/iser: Remove iser_reg_data_sg helper function
+ee4efeaea8837bb7018d188a9eb8837c7ff79561 IB/iser: Use iser_fr_desc as registration context
+80303ee244907e720544da83e10fd0552875a6f0 IB/iser: Generalize map/unmap dma tasks
+2e11a5e459c1c4f1d27430d2707ec7ef77f371ca IB/iser: Fix error flow in case of registration failure
+87e0eacb176f9500c2063d140c0a1d7fa51ab8a5 RDMA/nldev: Prevent underflow in nldev_stat_set_counter_dynamic_doit()
+48081375344953d91f7db62cadd0d6c8aabde3ce net/sched: Don't print dump stack in event of transmission timeout
+a73b8c0c883de6bf9b7a3c569c6a70f40c1e085a RDMA/core: Introduce peer memory interface
+6acd40bc223ee7bd0bc1c838f7ca1ea0e8aef2be RDMA/mlx5: Don't remove cache MRs when a delay is needed
+4204ba6eee1c7f3f91bcc480df03d06c2d2b65e4 RDMA/mlx5: Add a missing update of cache->last_add
+1034271dd63ab8b19fc2c4da1d16cbb0366acd17 RDMA/cma: Clear all multicast request fields
+540556d6183df8fd15653ad5c08d545eec56fd30 tools/testing/scatterlist: Add missing defines
+50fc66605f0da298502c334c78fddb89323eb324 RDMA/mlx4: Don't continue event handler after memory allocation failure
+9e0884a17fa8a7a705e831d4097889822a18aaad IB/cm: Cancel mad on the disconnectReq event when the state is MRA_REP_RCVD
 
-34e047aa16c0123bbae8e2f6df33e5ecc1f56601 14702b3b2438e2f2d07ae93b5d695c166e5c83d1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI20sIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wegQAJIp91unDSzeymQv8yGM
-iTKDXpipUYOSbNpSWGudDZqRdWuVtjE+iMNmwzOHHTk51R+S1rTYVZqwMSPnX0lG
-zHNLVkL+7fkIze3pTKyEi/0qFoNO8VUVcq/zJ50X2Mhim6daisMTdESPaTSAIovC
-Z9LwK63P96D1a7Ax0mXdFtQdfxbMm+VFUh39XOoDY7c1Gk3o55aNZJZSOJQ8oT37
-P0skfLMg8bV28ccuqkQDef3/KCTLeAnsAj6uKyGtR8quz7rUnOF8MVdRxFL3Lhbs
-S0F8TMKx3iSWFjzgrK6Yd0YVv0CVT1Qj/7rSdQ8A5GuumRojFuftIwSVdssSHkF6
-Lu4uv0iDxcQntB60Pc6hmwlBqXUAIHMWk+h0b7r7fROYoqRpRbBcKmlkzQq696hy
-BXVWBHm9PbFBPyR+zsHNls/gELTmWj3serbSYrCK5KIwcMJ3j0QQfTc+8eVg5leC
-z7XJhGq0RHQ/avjogiSDwlNG0odNsmsv+HVdkJ/A+vl3L8Qr03OHexdaU0a6UlSR
-EFb3nSIao9EnCp2p7+CoK3u5v5/HYvR69iXaD3WjaCCOQPHpFjUz9FCYiGt9mJT4
-YEG3fGFAh+Be+u3LJ0bRBOfXchk1kiTtjt2ixDYh6ln58UrCO59ZDVqLQcpT+ldN
-oLkSjWy4PAwjegSonugGY/8G
-=vxWk
------END PGP SIGNATURE-----
-
---===============7620279619474068908==
+--===============1814337657916881102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34e047aa16c0-14702b3b2438.txt
+Content-Disposition: attachment; filename=revlist-29ed07df8ad0-0b6fbd83d989.txt
 
-69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 scsi: mpt3sas: Page fault in reply q processing
-65f3324f4b6fed78b8761c3b74615ecf0ffa81fa usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-239071064732bc4a30308cbba11014aa1aab550a partially Revert "usb: musb: Set the DT node on the child device"
-e9b667a82cdcfe21d590344447d65daed52b353b usb: usbtmc: Fix bug in pipe direction for control transfers
-16b1941eac2bd499f065a6739a40ce0011a3d740 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
-733ab7e1b5d1041204c4ca7373f6e6f9d08e3283 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
-01b44ef2bf6bc83df8a4703029fd611fbfc31c60 counter: Stop using dev_get_drvdata() to get the counter device
-1447c635802fd0f5e213ad5277753108d56a4db3 Revert "arm64: dts: freescale: Fix 'interrupt-map' parent address cells"
-3cf6a32f3f2a45944dd5be5c6ac4deb46bcd3bee perf symbols: Fix symbol size calculation condition
-8b464eac9765dfc84d0327fa3f3668faa439d1ce perf evlist: Avoid iteration for empty evlist.
-7bd1da15d211d439d96eb7cc8a35ce694b71d120 perf parse-events: Ignore case in topdown.slots check
-6aa61c12a43bb365296e72251e7346b661030b52 Merge tag 'usb-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-ba6354f61472c5bc910c34ea1b368f62c3706692 Merge tag 'char-misc-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-97e9c8eb4bb1dc57859acb1338dfddbd967d7484 Merge tag 'perf-tools-fixes-for-v5.17-2022-03-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-f76da4d5ad5168de58f0f5be1a12c1052a614663 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-14702b3b2438e2f2d07ae93b5d695c166e5c83d1 Merge tag 'soc-fixes-5.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+51cad2872435f79c63b81503d8d1c9f143172489 RDMA/irdma: Add support for address handle re-use
+70f92521584f1d1e8268311ee84413307b0fdea8 RDMA/hns: Use the reserved loopback QPs to free MR before destroying MPT
+63221acb0c63141cc7650f8eefb148337061e6db RDMA/rxe: Fix ref error in rxe_av.c
+8a1a0be894da0d06bfbb496cc2dc3057fa83e103 RDMA/rxe: Replace mr by rkey in responder resources
+c9f4c695835c9c2085065a3adc1b57d2005b508b RDMA/rxe: Reverse the sense of RXE_POOL_NO_ALLOC
+3c3e4d582bdc461081abea9de54eb4112a9a6283 RDMA/rxe: Delete _locked() APIs for pool objects
+b4a47f6836b9c8fa60ccd8ff64f3c5f5b7d35afa RDMA/rxe: Replace obj by elem in declaration
+3ccffe8abf2febab4642033d4675a20bbade151b RDMA/rxe: Move max_elem into rxe_type_info
+df34dc9e03bfb9181f6f5405f4dd319340b5b46c RDMA/rxe: Shorten pool names in rxe_pool.c
+3225717f6dfa29a6f03629b7a7f8492e1521d06d RDMA/rxe: Replace red-black trees by xarrays
+3197706abd053275d2a561cfb7dc8f6cfaf7d02c RDMA/rxe: Use standard names for ref counting
+8b8e7158aa757e47f2984004d0af0689592a494b MAINTAINERS: adjust entry for header movement in hisilicon qm driver
+f621eb13facb7681a79f4fec8ec6553ae160da76 vfio-pci: Provide reviewers and acceptance criteria for variant drivers
+7f68d7493ff07a0ad63f63c4a1a4e0781cec0dd2 IB/iser: Remove iser_reg_data_sg helper function
+ee4efeaea8837bb7018d188a9eb8837c7ff79561 IB/iser: Use iser_fr_desc as registration context
+80303ee244907e720544da83e10fd0552875a6f0 IB/iser: Generalize map/unmap dma tasks
+2e11a5e459c1c4f1d27430d2707ec7ef77f371ca IB/iser: Fix error flow in case of registration failure
+87e0eacb176f9500c2063d140c0a1d7fa51ab8a5 RDMA/nldev: Prevent underflow in nldev_stat_set_counter_dynamic_doit()
+48081375344953d91f7db62cadd0d6c8aabde3ce net/sched: Don't print dump stack in event of transmission timeout
+a73b8c0c883de6bf9b7a3c569c6a70f40c1e085a RDMA/core: Introduce peer memory interface
+6acd40bc223ee7bd0bc1c838f7ca1ea0e8aef2be RDMA/mlx5: Don't remove cache MRs when a delay is needed
+4204ba6eee1c7f3f91bcc480df03d06c2d2b65e4 RDMA/mlx5: Add a missing update of cache->last_add
+1034271dd63ab8b19fc2c4da1d16cbb0366acd17 RDMA/cma: Clear all multicast request fields
+540556d6183df8fd15653ad5c08d545eec56fd30 tools/testing/scatterlist: Add missing defines
+50fc66605f0da298502c334c78fddb89323eb324 RDMA/mlx4: Don't continue event handler after memory allocation failure
+9e0884a17fa8a7a705e831d4097889822a18aaad IB/cm: Cancel mad on the disconnectReq event when the state is MRA_REP_RCVD
+b303ab665a8e924b9ef98b56231bd6b2873869f5 Merge branch 'master' into testing/rdma-rc
+bfc4493981f6a51c19c1e4586d28e8bda26dd50a Merge branch 'rdma-next' into testing/rdma-next
+0b6fbd83d989504ca168b3f0e1e05495257cdb57 Merge remote-tracking branch 'vfio/next' into testing/rdma-next
 
---===============7620279619474068908==--
+--===============1814337657916881102==--
