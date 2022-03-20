@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sun, 20 Mar 2022 15:32:00 -0000
-Message-Id: <164779032034.19047.15795580557182996207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 20 Mar 2022 15:37:11 -0000
+Message-Id: <164779063126.22131.10809567954231642337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 908245632aa0a71edafafafdb22ffb0a7c35ef12
-    new: c822572d68e326384ce179b9484de0e4abf3d514
+  - ref: refs/heads/testing
+    old: e6d382f6cc9795362043d5a32e7740b87799ee69
+    new: 0ffbacb6ed51cb0c122ffdda5741e309af5fda9b
     log: |
-         c822572d68e326384ce179b9484de0e4abf3d514 engines/null: use correct -include
+         5fe2a6860a08c0bfa40d70190175a3ec32d1ad73 iio: dac: ltc2688: Use temporary variable for struct device
+         0ffbacb6ed51cb0c122ffdda5741e309af5fda9b iio: multiplexer: Make use of device properties
          
