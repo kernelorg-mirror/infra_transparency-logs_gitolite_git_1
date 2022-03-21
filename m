@@ -1,94 +1,86 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Mon, 21 Mar 2022 23:07:04 -0000
-Message-Id: <164790402452.2344.2514007081548344456@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1342144927772103510=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 21 Mar 2022 23:11:59 -0000
+Message-Id: <164790431972.5581.1226498754348090916@gitolite.kernel.org>
+
+--===============1342144927772103510==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/tags/for-rockchip-cdn_dp_resume-v2
-    old: 0000000000000000000000000000000000000000
-    new: 5d46a21838eb5fad22ebf8c8079e3cf8a3fb5fe5
-  - ref: refs/tags/v5.15
-    old: 0000000000000000000000000000000000000000
-    new: dc7089468610f429e9264420c43d5a3625fd5d8b
-  - ref: refs/tags/v5.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
-  - ref: refs/tags/v5.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 249433b711cba85aaec2e714898b46e3fa821571
-  - ref: refs/tags/v5.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
-  - ref: refs/tags/v5.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f3cee05630e772378957a74a209aad059714cbd2
-  - ref: refs/tags/v5.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d04cf217bb59dd613f4ada813e25b05b82003df2
-  - ref: refs/tags/v5.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
-  - ref: refs/tags/v5.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
-  - ref: refs/tags/v5.16
-    old: 0000000000000000000000000000000000000000
-    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
-  - ref: refs/tags/v5.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3b976fedd330ee50011f1905429829c61cd4de4d
-  - ref: refs/tags/v5.16-rc2
-    old: 0000000000000000000000000000000000000000
-    new: afb057419d0194961ca1e0001ec27f7c6f23699c
-  - ref: refs/tags/v5.16-rc3
-    old: 0000000000000000000000000000000000000000
-    new: e9966818ad676112345dca60e65d48ef2e686930
-  - ref: refs/tags/v5.16-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 06d124d85ce02d2993feda73742a71b78029ea3e
-  - ref: refs/tags/v5.16-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
-  - ref: refs/tags/v5.16-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
-  - ref: refs/tags/v5.16-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 6e15d3d15ba113412ee05ee99c0476662a000178
-  - ref: refs/tags/v5.16-rc8
-    old: 0000000000000000000000000000000000000000
-    new: da629478930871e4c9a51c56ad86078f10b83f9f
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
-  - ref: refs/tags/v5.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 95bc47315b817afcb621e4cbd2de4877152509ff
-  - ref: refs/tags/v5.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
-  - ref: refs/tags/v5.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5880f641c08a2f9788ccff499c368936438c5ae2
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
+  - ref: refs/heads/ceph-fscrypt-sparse
+    old: 0405d7b412a132138ace19e23e68f23b7d0b8e90
+    new: 4e66870976684f69b18b1e025263640eed5479c7
+    log: revlist-0405d7b412a1-4e6687097668.txt
+
+--===============1342144927772103510==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0405d7b412a1-4e6687097668.txt
+
+552e6c2ca8efaeb3ee8124013e395e3f8286365b libceph: define struct ceph_sparse_extent and add some helpers
+b2645c64fc5235b8a81fc8b1b63e4a1da9e42168 libceph: add sparse read support to msgr2 crc state machine
+d2d33839b71df3907be6ad6c45db0464409d828d libceph: add sparse read support to OSD client
+7f09055a00798bca63b8a393c6bb23aa9cc5b65f ceph: add new mount option to enable sparse reads
+f244a09b4eda97cd03e683036eacf716047b9c72 vfs: export new_inode_pseudo
+6af58c700d920d242ef10976b5f3a6da55f3f378 fscrypt: export fscrypt_base64url_encode and fscrypt_base64url_decode
+824dbeae35f98f2bed0426ea3587fd65b8b59760 fscrypt: export fscrypt_fname_encrypt and fscrypt_fname_encrypted_size
+70ba54ae24723bd49681a945d24ddb3e40904387 fscrypt: add fscrypt_context_for_new_inode
+85b5b06895711ae26790b8be446f4a954d9a2281 ceph: preallocate inode for ops that may create one
+727a5d8c7c2acb6103545e57d2b19343c876322f ceph: crypto context handling for ceph
+dd7593f2dad49e8b408f0c5396cd3241c2e8c05f ceph: parse new fscrypt_auth and fscrypt_file fields in inode traces
+67df970b6680e9868beb20303e92e65caba3ad7c ceph: add support for fscrypt_auth/fscrypt_file to cap messages
+ff8bfd1439f038962ca3fba5b01a8bc21e6b3f9d ceph: add ability to set fscrypt_auth via setattr
+e1d98707f39462cbc287a23f0bdebef3d36944c2 ceph: implement -o test_dummy_encryption mount option
+386d1b7f97b6d92a93bac45077f5dc20fe2e4299 ceph: decode alternate_name in lease info
+0ff9a07016cad3895d74c4a6be5116fabff48f07 ceph: add fscrypt ioctls
+1787a7007ee2e665b7dc8db0ef794db34078e254 ceph: make the ioctl cmd more readable in debug log
+29e869dc55650d4c42e8fe622ce02ca374a8a115 ceph: make ceph_msdc_build_path use ref-walk
+0dff6a942617d0350f19fba114600c88f4065c40 ceph: add encrypted fname handling to ceph_mdsc_build_path
+3cf6b10dc600716db3f0f06a5d54401187e09e71 ceph: send altname in MClientRequest
+bc73f1aadee6031ecf45441061fc85f606880b4b ceph: encode encrypted name in dentry release
+55f01f0b924aa1bdf16d8725d69af5fe7a494fa5 ceph: properly set DCACHE_NOKEY_NAME flag in lookup
+deed78c2a8d983bc0fbe8359ad510d797bea2490 ceph: make d_revalidate call fscrypt revalidator for encrypted dentries
+24f0355fbf0df7b8d571e8a9475e8955182f0378 ceph: add helpers for converting names for userland presentation
+a4202f783bb1daec42a23186203c6a6f07912ab2 ceph: fix base64 encoded name's length check in ceph_fname_to_usr()
+3353162c0f0895132131a42bc269d2754f764a4a ceph: add fscrypt support to ceph_fill_trace
+0bd45fa427d30665c20b948cbc0107b311a6feb4 ceph: pass the request to parse_reply_info_readdir()
+1ed479c54f04ca8df61faa277c3c76b18b2aa00a ceph: add ceph_encode_encrypted_dname() helper
+a46e81c498b83d2bdd537a0eb4de5f0fbf59dcbf ceph: add support to readdir for encrypted filenames
+6b99b8e3f32e99ff83922044179c20a118e52063 ceph: create symlinks with encrypted and base64-encoded targets
+fa4dbf19b5c05509061cc5958aecb74adffb3c62 ceph: make ceph_get_name decrypt filenames
+9048ce49a28dde00b24dbc2d240189960e33c86b ceph: add a new ceph.fscrypt.auth vxattr
+fef8b55238ee8a1f5fff82df274b9e620b5fef34 ceph: add some fscrypt guardrails
+b2aac377da2c236b5cc4c0f03040618c3ca5c735 ceph: set encryption context on open
+c3445032226bd590c515c0246b75bd71b2c373ee ceph: don't allow changing layout on encrypted files/directories
+c9aee3c58798a75d1ad9997d499328d8abd78f1f libceph: add CEPH_OSD_OP_ASSERT_VER support
+e2b11d8b3bee890f467f521c9efc76b834b56c50 ceph: size handling for encrypted inodes in cap updates
+187da96a4e9174128f6ccb82786cfb460a6dce33 ceph: fscrypt_file field handling in MClientRequest messages
+8bc9beb12a2c40c9bc53a91ead4b07a3ade0e980 ceph: get file size from fscrypt_file when present in inode traces
+7fb37ab26c91fc62deda7cab57b56218fe78bd40 ceph: handle fscrypt fields in cap messages from MDS
+eef63bd01f8a8f5638c043a1c0f87a0213e8f8e5 ceph: add __ceph_get_caps helper support
+d1e0a22adfed33dab4d94a7b56b795cab0d0ea79 ceph: add __ceph_sync_read helper support
+166ada9475abc258b4c6a4d6a2c6e47997da62b5 ceph: add object version support for sync read
+6f8d10dce0b2345ff3223a0b4058c70c8596c8a0 ceph: add infrastructure for file encryption and decryption
+c59d909089cf2f36c49f7766b7e637c072f62d64 ceph: add truncate size handling support for fscrypt
+28bc7906d9fd7c5a58b1f6a9ac14424553397587 libceph: allow ceph_osdc_new_request to accept a multi-op read
+a8df7b0d02a3268b1bce419d232f1f4d6f728911 ceph: disable fallocate for encrypted inodes
+66604cd269c9e9967115f8f328d2be982b344e7b ceph: disable copy offload on encrypted inodes
+079c9bd9cbc86884f59c8a73ec214a104a4c9ac0 ceph: don't use special DIO path for encrypted inodes
+2c49eb9d333a386d82b0e1387c3a02a2dc6d6613 ceph: align data in pages in ceph_sync_write
+d0c6a9f758f493f60a9d8f4cb29c589c4f3f8592 ceph: add read/modify/write to ceph_sync_write
+d6a703ff2d3f70936579cb633609fec9998267c3 ceph: plumb in decryption during sync reads
+6545b92d64ab0a6b96950a1dc08ac2f1d49d2c3f ceph: add fscrypt decryption support to ceph_netfs_issue_op
+57f8d9485cb7e37bd2079e1105aa9ea99e21d82e ceph: set i_blkbits to crypto block size for encrypted inodes
+01f755ce405f5f6f3f12b21733a5f2e9404605eb ceph: add encryption support to writepage
+4e66870976684f69b18b1e025263640eed5479c7 ceph: fscrypt support for writepages
+
+--===============1342144927772103510==--
