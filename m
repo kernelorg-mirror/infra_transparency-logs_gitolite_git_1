@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1225173198478411230=="
+Content-Type: multipart/mixed; boundary="===============3003877725409000125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 21 Mar 2022 15:27:06 -0000
-Message-Id: <164787642662.17658.7087279406863575071@gitolite.kernel.org>
+Date: Mon, 21 Mar 2022 15:27:12 -0000
+Message-Id: <164787643210.17775.5854202939543921218@gitolite.kernel.org>
 
---===============1225173198478411230==
+--===============3003877725409000125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e89600ebeeb14d18c0b062837a84196f72542830
-    new: e7dc00f3d6c323709c5515a7a3d05062a0034b83
-    log: revlist-e89600ebeeb1-e7dc00f3d6c3.txt
+  - ref: refs/heads/dev-queue
+    old: 0a141bb0370881648cbf24794f83df1f9adca472
+    new: bbb4aa76941b45213ce118c4d18f8d9c4cb03ac4
+    log: revlist-0a141bb03708-bbb4aa76941b.txt
 
---===============1225173198478411230==
+--===============3003877725409000125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e89600ebeeb1-e7dc00f3d6c3.txt
+Content-Disposition: attachment; filename=revlist-0a141bb03708-bbb4aa76941b.txt
 
 2ecda181682e9ed66dfbd5f8445c5d5a35b984d3 xfrm: delete duplicated functions that calls same xfrm_api_check()
 ad739d0889a81a4273ab60a6c83cac3e6fad6aad i40e: little endian only valid checksums
@@ -122,5 +122,16 @@ e94b99a40b997b547862d35ca05c7c6925a2ccfa ar5523: fix typo "to short" -> "too sho
 d2d803d1c72bfdc3ad985b5833cc438b5d6e4ff9 i825xx: fix typo "Frame to short" -> "Frame too short"
 dc97870682e19fb5260281e9b7636e796869075e mISDN: fix typo "frame to short" -> "frame too short"
 e7dc00f3d6c323709c5515a7a3d05062a0034b83 Merge branch 'too-short'
+e93b0ddcfcfe152cb2d210243283930181d78202 igc: Add UDP segmentation offload support
+d3fa424a0d9d46a08e304854256055f946bfca2f ice: Fix re-enablement of FW logging after reset
+3e03fb86d53fccf2816e942e64ffd159e1948514 igc: Fix infinite loop in release_swfw_sync
+c534e204f031d7e39121656a526fea18d3ddf42f i40e: Add support for MPLS + TSO
+2e097e672c6f0d62577569a642ce27dd6c2ae05d igc: Fix BUG: scheduling while atomic
+19505bf0f98826b40271e54ab9a775353c5a3475 ice: synchronize_rcu() when terminating rings
+d90139bd12bd311e18712de51cea8305ff0f8c0c ice: xsk: fix VSI state check in ice_xsk_wakeup()
+6ea57eea969abc036f67da91511d8207ab7e2bd0 ice: clear cmd_type_offset_bsz for TX rings
+32d8abd3674a9efd0edfe3c2fa2f8a0ef71bc931 ice: xsk: check if Rx ring was filled up to the end
+c7d48d9aa76c54b3d2105eecdc0aa5776ede836f ice: Add support for classid based queue selection
+bbb4aa76941b45213ce118c4d18f8d9c4cb03ac4 ice: Add mpls+tso support
 
---===============1225173198478411230==--
+--===============3003877725409000125==--
