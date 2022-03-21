@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
-Date: Mon, 21 Mar 2022 13:24:16 -0000
-Message-Id: <164786905638.28632.2660487988886262969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 21 Mar 2022 13:25:34 -0000
+Message-Id: <164786913431.30560.14553388240583736141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvalo/ath
-user: kvalo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master-pending
-    old: df17714a0841e0186b119370276bcd70c9932481
-    new: 8b4978d04fe6444900ed97b28a759a475458788b
+  - ref: refs/heads/master
+    old: 57939fdc2cbe9e4b5c3fbbdcdc76414da8c57ea7
+    new: a62551c988d2e948cb0a227ba48419fee495b028
     log: |
-         613f5bcc9c8c0a39cf7444a725054fc3648612ad ath11k: enable PLATFORM_CAP_PCIE_GLOBAL_RESET QMI host capability
-         8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e ath11k: Add peer rhash table support
-         8b4978d04fe6444900ed97b28a759a475458788b Merge branch 'pending' into master-pending
-         
-  - ref: refs/heads/pending
-    old: eb7e6c7721e7b2c6743ef4f03aec58f97c734047
-    new: 8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e
-    log: |
-         613f5bcc9c8c0a39cf7444a725054fc3648612ad ath11k: enable PLATFORM_CAP_PCIE_GLOBAL_RESET QMI host capability
-         8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e ath11k: Add peer rhash table support
+         af9b45d08eb44dcf3cba92a5ab2c93c6be615d0a net: sparx5: Add arbiter for managing PGID table
+         3bacfccdcb2d3268adaf66d2ff4024251a93b916 net: sparx5: Add mdb handlers
+         a62551c988d2e948cb0a227ba48419fee495b028 Merge branch 'sparx5-mcast'
          
