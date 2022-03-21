@@ -1,109 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============1920532227084217952=="
+Content-Type: multipart/mixed; boundary="===============9091933068409641677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 21 Mar 2022 13:30:40 -0000
-Message-Id: <164786944070.1567.13280053059176235795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Mon, 21 Mar 2022 13:31:54 -0000
+Message-Id: <164786951448.2275.4658503007732077028@gitolite.kernel.org>
 
---===============1920532227084217952==
+--===============9091933068409641677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: cc54f346a33749c2c8b5d22a322e1c12901855ed
-    new: 19164ad08bf668bca4f4bfbaacaa0a47c1b737a6
-    log: revlist-cc54f346a337-19164ad08bf6.txt
+  - ref: refs/heads/linux-4.9.y
+    old: 30c2bae71edcc8705abce38050f2ec9597c9aa49
+    new: 6298575e2909aeee7dfbe9afbad1a9f3c91fa042
+    log: revlist-30c2bae71edc-6298575e2909.txt
 
---===============1920532227084217952==
+--===============9091933068409641677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1647869437 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1647869437-5b16fd4c6868a7d2abfaf8ecc25618134456384a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647869513 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1647869512-b834c652f6899783324e470c35314c2c2b11c026
 
-cc54f346a33749c2c8b5d22a322e1c12901855ed 19164ad08bf668bca4f4bfbaacaa0a47c1b737a6 refs/heads/queue
+30c2bae71edcc8705abce38050f2ec9597c9aa49 6298575e2909aeee7dfbe9afbad1a9f3c91fa042 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmI4ff0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroNLAgf9EGhAX6qWKhUUtWYUfYqhJea7b97W
-7yNDVW78EZNVLJoAdBZxAPPdYvC7BgVDZ1QITJjzxKDNJSunG+qqRKjB8bCVUdxE
-zGheo+Zs3MeNwoTG8aprBnqC4hECXmwwQAB3/UczbbWHiIbHX9whf/2ZcwrjqGxs
-XFo+k9MUKVUlI+1Pl+LUde9Xae4rWreRKcyMyGARAg1hBRg2Yb2Z1+Rmz9aG8BhQ
-r/nznvDl/wweHntWFbbCSpV4dVWvx9aLyJs6E70IYqXMPmNm2Mxzz9dvrB6zJZ9l
-CwnMlNvAFUujrYF9KkKylYUeisa5AtPzSxIR8FpNMHAoNWjUGmnMNV7bfQ==
-=GUWH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI4fkkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QhUQAMEbX9Pheo6a9bfuH7my
+zxEKIU0uTfXY6a9YscQpHweYbGyXkeceaRn7/Df7hCCabAvk6ajPLJGnZ3Ssh5S7
+6ZFaflat1lNtu/4wNka2WAGzZbz16nNDu/UMCI08hr+eMy2e7+FFbi5AFycJy8mm
+FUkk+PPaclbyD1FW38e1c4da1l2JKY2XLM+yOAuPoL6VGmo2asvlxEZRRv41x3xW
+oUKMysnzbt+2xRsboKx/l+hYeqEFNQ8ZGTguiR+LWR4WBCs/tAyGfmp9mZqXL/pw
+KR2r8jFWzE2TIp6LroUOH5lb79BhZ6H0RsMORRGfVdgYDYTIZgIQ6tzsPfpSM+EV
+CuLwhJDGSAS21GUwOmZ/hQpTJMUBvNDJry1P1Koaap/XVoy2B77FZgckP4QqPNoS
+e5Mq1CxEAQXEyDbjhI5VTKLXluHvT86c7FxbzmC+gJ17khjFjzgcZ9FArFpZAN7k
+e/fuGV8oUd2HF8JEbdxPZRpyUyo4Lvh89R3iDI3hGumLjOaQNIuXFMinRwb6tnC9
+DevKsYzmIKz9YbauhEPcmQrLvDZPX7C0rv0wXgqSmoF2cVay5w0Bc+wl//QJywoz
+CFK3mVrDY8Yia0oQmqXdM74UtxYKO2RZyEqJlpe70mwBq+wCLh7MuXOgDVHXvos7
+hWhOCNnMO+r+reqMcl0cDYiy
+=meCz
 -----END PGP SIGNATURE-----
 
---===============1920532227084217952==
+--===============9091933068409641677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc54f346a337-19164ad08bf6.txt
+Content-Disposition: attachment; filename=revlist-30c2bae71edc-6298575e2909.txt
 
-fcb93eb6d09dd302cbef22bd95a5858af75e4156 kvm: x86/mmu: Flush TLB before zap_gfn_range releases RCU
-873dd122172f8cce329113cfb0dfe3d2344d80c0 Revert "KVM: x86/mmu: Zap only TDP MMU leafs in kvm_zap_gfn_range()"
-bf07be36cd881b50684aca8f76d4b407da6cb058 KVM: x86: do not use KVM_X86_OP_OPTIONAL_RET0 for get_mt_mask
-58b3d12c0a860cda34ed9d2378078ea5134e6812 KVM: x86: add support for CPUID leaf 0x80000021
-f144c49e8c3950add1b051e76ebf40a258984c9d KVM: x86: synthesize CPUID leaf 0x80000021h if useful
-5e17b2ee45b941fb7bc46107810d727088be392e kvm: x86: Require const tsc for RT
-6d8491910fcd3324d0f0ece3bd68e85ead3a04d7 KVM: x86: Introduce KVM_CAP_DISABLE_QUIRKS2
-c9b8fecddb5bb4b67e351bbaeaa648a6f7456912 KVM: use kvcalloc for array allocations
-1496f6057cddd5e3a18e556c926a8e1f0638e094 KVM: x86: nSVM: implement nested VMLOAD/VMSAVE
-cf7e984bff86c6aef2b81e568ea7f29af7d66cd9 KVM: x86: SVM: allow to force AVIC to be enabled
-0f9f7b043c745f99d9aa3a7832ba5ab5b221b8b1 KVM: Prevent module exit until all VMs are freed
-1e646841789575f7ade971801ccf28d90106029f Revert "KVM: set owner of cpu and vm file operations"
-4fad0b22f337d2599f1fedf892258df496cdb7ea KVM: x86/mmu: Recurse down to 1GB level when zapping pages in a range
-753b6273889adb87a09302fb2c8b530142c90328 KVM: x86: mark synthetic SMM vmexit as SVM_EXIT_SW
-11f31a655879ae5e3cae8406943a1893b0fd1cc3 KVM: Don't actually set a request when evicting vCPUs for GFN cache invd
-140dc82d9599b25ede94049805807fad707bde21 KVM: x86/pmu: Use different raw event masks for AMD and Intel
-e48d398de5710d52768638f0a618931a910a25cc KVM: SVM: Fix kvm_cache_regs.h inclusions for is_guest_mode()
-c82a78099a9b1339b91bdc65572c2b91f56f708a KVM: Use enum to track if cached PFN will be used in guest and/or host
-88c70b97b6f0829c49b6effc9069658adaf5d6d9 KVM: Remove dirty handling from gfn_to_pfn_cache completely
-056df75a96dc6ecd3b0da2232bd0d29da3ce1e37 KVM: x86/xen: Use gfn_to_pfn_cache for runstate area
-07468e3f33c2c6ab9c2898dd845d882873340cec KVM: x86: Use gfn_to_pfn_cache for pv_time
-8c30002ae44a22c2131b1c3c1ebc29b32650fac1 KVM: x86/xen: Use gfn_to_pfn_cache for vcpu_info
-a668105ecc6d1f25ac69426e18bfea268b8c5b7a KVM: x86/xen: Use gfn_to_pfn_cache for vcpu_time_info
-dc16fd72a9e9ac64277515cb8adfab2fa77c2a86 KVM: x86/xen: Make kvm_xen_set_evtchn() reusable from other places
-9d7e2fee41350adce9ecb3d96607b9aea92cf2a1 KVM: x86/xen: Support direct injection of event channel events
-1c4533430ef4e07cace7f5d4fb6349f0955f5f8f KVM: x86/xen: intercept EVTCHNOP_send from guests
-81f1e387d4f5c8777a67fef5255b96def363de11 KVM: x86/xen: handle PV IPI vcpu yield
-e8767722566da7664bb199672ca07ec52a683804 KVM: x86/xen: Add KVM_XEN_VCPU_ATTR_TYPE_VCPU_ID
-9143026635cd33cb4666c32f50dea966c39543d8 KVM: x86/xen: handle PV timers oneshot mode
-a156ff8a8f86d8c25053a734c60975e1352a61e8 KVM: x86/xen: Kernel acceleration for XENVER_version
-190725388709a3926813eea3b52c88351561a48d KVM: x86/xen: Support per-vCPU event channel upcall via local APIC
-612ec34e568e5b2763485092642f1b4ab3b50239 KVM: x86/xen: Advertise and document KVM_XEN_HVM_CONFIG_EVTCHN_SEND
-de5fb36aefb39114667165a42e315a31fa92e993 KVM: x86/xen: handle PV spinlocks slowpath
-7058dfc0483f6365cd7e44881bef70c4594e97d9 KVM: x86/xen: Add self tests for KVM_XEN_HVM_CONFIG_EVTCHN_SEND
-2e18c284aef083200bf550a68934756ef0642027 KVM: x86/xen: Update self test for Xen PV timers
-a6a43c54f9e41da15e454bc70481650a47dc2c04 KVM: VMX: Prepare VMCS setting for posted interrupt enabling when APICv is available
-5526b0ebac2d6b002fa577588c0d7d410702f25a KVM: X86: Change the type of access u32 to u64
-55160fe1a91e8c52caebf8bf0c4c6236eb8cceff KVM: X86: Fix comments in update_permission_bitmask
-4fd172d7108c89fa9c802f29894ce60989a717be KVM: X86: Rename variable smap to not_smap in permission_fault()
-2529932551f67bd153b260eca1a412ca2e906403 KVM: X86: Handle implicit supervisor access with SMAP
-5676f5f7262f71b625e7c3b9c4727011a4a55213 KVM: x86: Make APICv inhibit reasons an enum and cleanup naming
-3e967990f5d6dad53bc8a812c7afea8aae2eff59 KVM: x86: Add wrappers for setting/clearing APICv inhibits
-a3f19b812395f242a5f2c57657eee21a89bfcf62 KVM: x86: Trace all APICv inhibit changes and capture overall status
-690f00154dc88cc9be5f28c036ad7ee5ead6a7c0 KVM: x86/svm: Clear reserved bits written to PerfEvtSeln MSRs
-88c441c147770e900723d17583f35679db2e58c7 KVM: x86: mmu: trace kvm_mmu_set_spte after the new SPTE was set
-dfad7b52b2b27eeb833e5001d80684752da479bb KVM: x86/i8259: Remove a dead store of irq in a conditional block
-020c8f21c6c4945cc3bfe313c5d8c399cdf3e863 KVM: x86/pmu: Fix and isolate TSX-specific performance event logic
-a742015bf20fa2350adf2f9f6afa2d66c4508347 KVM: x86/emulator: Emulate RDPID only if it is enabled in guest
-8c63e7cc50129b8f45378b88048d5d970affdc1c KVM: x86: Only do MSR filtering when access MSR by rdmsr/wrmsr
-54c684f79ad5bd50cbed177d8cf3a02d6fc55afe KVM: x86: document limitations of MSR filtering
-5bd16985b5cffc9d9b72f4a12e480b164f384556 KVM: MIPS: remove reference to trap&emulate virtualization
-2e72d1065ea4049559741fc3a9470791515265ce KVM: x86: Accept KVM_[GS]ET_TSC_KHZ as a VM ioctl.
-1c86c1685c8653095871f1aff7c55a1afeb6aaeb KVM: x86: Don't snapshot "max" TSC if host TSC is constant
-19164ad08bf668bca4f4bfbaacaa0a47c1b737a6 KVM: x86: Test case for TSC scaling and offset sync
+ad081eea4f1265cf6648a24669009caa1208d6df xfrm: Fix xfrm migrate issues when address family changes
+bafb3e53467e9eacf6e1017c23e88cf912a32012 ARM: dts: rockchip: fix a typo on rk3288 crypto-controller
+b36983dc7d46b153b751eca5dfbbd29f196c1f9d MIPS: smp: fill in sibling and core maps earlier
+297539e5d7956bfaa64ea94745423a02a794659e ARM: 9178/1: fix unmet dependency on BITREVERSE for HAVE_ARCH_BITREVERSE
+6913fd50eecd9dd5ac114ea7d0e3d08498de8927 can: rcar_canfd: rcar_canfd_channel_probe(): register the CAN device when fully ready
+3fa8f4cb4cae2e91eb2a3a1aa085d7df4527f7b9 atm: firestream: check the return value of ioremap() in fs_init()
+875c39656e93ba1655f6b7898eb15498d1d22744 nl80211: Update bss channel on channel switch for P2P_CLIENT
+e68bad7f2347882c473cf5e462407df157e7d587 tcp: make tcp_read_sock() more robust
+b2b302196a62b1e11a86dbc3dfc2c4d805e0041b sfc: extend the locking on mcdi->seqno
+ee1953f923c90a5b02289b4272d4dbce955cb9a0 kselftest/vm: fix tests build with old libc
+d4dbe1ebde5b4e9700bc887b7ac667ad3d101877 fs: sysfs_emit: Remove PAGE_SIZE alignment check
+351546b45b24727ceac879fb120c63d864edba93 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+9ebeed24f600de4280627a5fc9c18aae5269d562 atm: eni: Add check for dma_map_single
+b596bb43c653889fe3d674b8a9af13983dac10f4 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+269d0a14cb65901fa44b4014ee10ecede655831e usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+15fe530002586e661d2eaf7b6de83586040cb0fe Input: aiptek - properly check endpoint type
+6298575e2909aeee7dfbe9afbad1a9f3c91fa042 Linux 4.9.308-rc1
 
---===============1920532227084217952==--
+--===============9091933068409641677==--
