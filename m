@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============9188652527766284343=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 21 Mar 2022 19:07:37 -0000
-Message-Id: <164788965725.4196.16701590070720181518@gitolite.kernel.org>
-
---===============9188652527766284343==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 21 Mar 2022 19:10:19 -0000
+Message-Id: <164788981959.6593.7338958380586944096@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 3b4ef72f27792c30dfff8c715cde754a0e600f7b
-    new: 5c26f2b500140c6f6ba1e03c3d064c74da76837a
+  - ref: refs/heads/dm-5.19
+    old: ad3854dffaf8c6e548b79a9b2150ba9dad2ddcdc
+    new: ec193bf440fa5750b5958c28dde55168ce418c56
     log: |
-         5c26f2b500140c6f6ba1e03c3d064c74da76837a Weekly update from keys.openpgp.org
+         463785bfa103b2f33eafc2cdb3f8158092e18d2c dm: add DM_IO_REFFED and optimize out refcounting for normal IO
+         2bee7763f909ae074e90d2b23bf3aa4959bab91d dm: use state machine for bio polling completion
+         ec193bf440fa5750b5958c28dde55168ce418c56 dm: push error handling down to __split_and_process_bio
          
-
---===============9188652527766284343==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1647889656 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1647889656-b7cded265cd19d2f2a838defdf548a7e4712adad
-
-3b4ef72f27792c30dfff8c715cde754a0e600f7b 5c26f2b500140c6f6ba1e03c3d064c74da76837a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYjjM+AAKCRC2xBzjVmSZ
-bJKtAQCCT/yvzWMeHhAYkQDN3I6jdGN52KcvgNPkoh9tLiw/RQEAu6ztwBT+W2UQ
-mOXHhlDZW5emFOpKd7rKr0u1iDmPLwU=
-=PaEB
------END PGP SIGNATURE-----
-
---===============9188652527766284343==--
