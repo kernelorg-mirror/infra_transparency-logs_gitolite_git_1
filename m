@@ -1,22 +1,94 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Mar 2022 22:55:43 -0000
-Message-Id: <164790334374.28147.13529251525435717013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Mon, 21 Mar 2022 23:07:04 -0000
+Message-Id: <164790402452.2344.2514007081548344456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: e0c0ca3546adf6aaa9ba7c7232bd3b1792f3153b
-    new: a53cbe5d628c0cbaa76b23a292c6b32e6c2ddcfe
-    log: |
-         afaed2b142a1ab896764b03d8d26dc8778ea887c net: dsa: mv88e6xxx: Require ops be implemented to claim STU support
-         bd48b911c88f017a97b1943201d23d6962968d1a net: dsa: mv88e6xxx: Ensure STU support in VLAN MSTI callback
-         7ee776cdc7a0b87b766f4cace50c36fe405922cf Merge branch 'net-dsa-mv88e6xxx-mst-fixes'
-         a53cbe5d628c0cbaa76b23a292c6b32e6c2ddcfe net: dsa: felix: allow PHY_INTERFACE_MODE_INTERNAL on port 5
-         
+  - ref: refs/tags/for-rockchip-cdn_dp_resume-v2
+    old: 0000000000000000000000000000000000000000
+    new: 5d46a21838eb5fad22ebf8c8079e3cf8a3fb5fe5
+  - ref: refs/tags/v5.15
+    old: 0000000000000000000000000000000000000000
+    new: dc7089468610f429e9264420c43d5a3625fd5d8b
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
+  - ref: refs/tags/v5.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 249433b711cba85aaec2e714898b46e3fa821571
+  - ref: refs/tags/v5.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 71a6dc2a869beafceef1ce46a9ebefd52288f1d7
+  - ref: refs/tags/v5.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f3cee05630e772378957a74a209aad059714cbd2
+  - ref: refs/tags/v5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d04cf217bb59dd613f4ada813e25b05b82003df2
+  - ref: refs/tags/v5.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: a8fa06cfb065a2e9663fe7ce32162762b5fcef5b
+  - ref: refs/tags/v5.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 46d7e6997a768a578d08ddf53f65e779dd1b1776
+  - ref: refs/tags/v5.16
+    old: 0000000000000000000000000000000000000000
+    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
+  - ref: refs/tags/v5.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+  - ref: refs/tags/v5.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: afb057419d0194961ca1e0001ec27f7c6f23699c
+  - ref: refs/tags/v5.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: e9966818ad676112345dca60e65d48ef2e686930
+  - ref: refs/tags/v5.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 06d124d85ce02d2993feda73742a71b78029ea3e
+  - ref: refs/tags/v5.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 841f4df0a0f8f4c450a7057f37080dc2a7db81ef
+  - ref: refs/tags/v5.16-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 54bc2946f536d8be48c71571cd6614ea482bfe61
+  - ref: refs/tags/v5.16-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 6e15d3d15ba113412ee05ee99c0476662a000178
+  - ref: refs/tags/v5.16-rc8
+    old: 0000000000000000000000000000000000000000
+    new: da629478930871e4c9a51c56ad86078f10b83f9f
+  - ref: refs/tags/v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/tags/v5.17-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 95bc47315b817afcb621e4cbd2de4877152509ff
+  - ref: refs/tags/v5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 48765f61ad6b9c0344f89d9332050c72df3ff43c
+  - ref: refs/tags/v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
+  - ref: refs/tags/v5.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: fb245665706076547ba72af611b41bc38c3ab73a
+  - ref: refs/tags/v5.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/tags/v5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/tags/v5.17-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
