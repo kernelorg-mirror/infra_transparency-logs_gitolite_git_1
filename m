@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9214723218242003930=="
+Content-Type: multipart/mixed; boundary="===============8598690243519229491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 21 Mar 2022 13:32:23 -0000
-Message-Id: <164786954325.3107.2570019825040406524@gitolite.kernel.org>
+Message-Id: <164786954378.3147.5140154894417049751@gitolite.kernel.org>
 
---===============9214723218242003930==
+--===============8598690243519229491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,79 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: ad1cbf59981830123b55208a81b92710e5535da5
-    new: 9d7b0ced5647e0df1b200ee29119cb58ff958339
-    log: revlist-ad1cbf599818-9d7b0ced5647.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 96c7766c3de1cd762436b005be37575e017a3abb
+    new: ca23d8a1f1ca986793db05e0398452d325571a3a
+    log: revlist-96c7766c3de1-ca23d8a1f1ca.txt
 
---===============9214723218242003930==
+--===============8598690243519229491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647869541 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647869542 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1647869541-97dfebc561f2eb979c8a1d7654e53202edd9bbde
+nonce 1647869542-76ce90e791f7e3ada4e8233ecd1b326c4f6cd023
 
-ad1cbf59981830123b55208a81b92710e5535da5 9d7b0ced5647e0df1b200ee29119cb58ff958339 refs/heads/linux-5.10.y
+96c7766c3de1cd762436b005be37575e017a3abb ca23d8a1f1ca986793db05e0398452d325571a3a refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI4fmUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tVkP/0fskIMu4gMnf1z9sTi9
-eOLp6N50gljpIvFlXa9PzCvrguVIYzFeVEst+3mzUwuA674tscKYND6NswSj8bTY
-2AllKGZes2Fcj0DtRQoGqQkEBqaGJ30OkE01Y0V5FPqKJdn7hzJtPk+LSalDlxzn
-nVbii0B3Sf2sEKZTixmyyzpIxJWXIPGfYv3Y/Q3UPzClz0eeYwhSKbbiFMtDZriM
-I2c+uXcssJboaSMe9Am97wVgpo83zysdi0W3wdlIIJUc01VyZ5hfZE1KpFKiqB7s
-WbNTInpQMTiG8Yqw0XqP/GQd5R/RS1UMTIjUfUUfS8TrsQN4SQr6pxaLUs0lPwXb
-WtozTkOgRRorgTB/j6B+lT/m6s4ldbZMjGW/q1kVlJ+TPDNjOYGCrvEbPTmc0mua
-K6cqWmSavL0A+nsH43c59Uij2apGsIKDEA7SA0MU+jhKB78prI/sPqrRCfCDTjcH
-EgMeW8mXYNlK9ZBUu0OjC0Uzwppq6tdLtt0pUdSgFdHgUwRxOLsQo8L0IAHLzmoS
-pL3EDUMuOWkRbJ6yJMpgn29qF1IWuIVo7IMe1redajTLRV5CzOq7IGRoaW7xtEin
-dQyQGBZYw0vd/F33KJB7Ch5TRR9bOXnUlSP3gVO/u1VR1GmHRIh3hIWOHiW4smdh
-YekVz54D5RvbizmPbvfArNFT
-=Ja9g
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI4fmYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3McQANgHch+i4tDqOQb9znkh
+BprmPImlQrv2/GQ+kZOo/T24xQqYjaOGyP+Cc72TmYy2SUkx9hKAqTuEv8PndRKC
+BUZmANchA9G+lnwC9iDLorqP+044VhiQsNbWFSvSq8ZWCMTWSBHBwl5RcnwD+iyV
+DWUAXsCyFzXknfr6jpbTiAqTYvkfoKNtUiUyY5+/T2T4GtFMtzTEhdE+5a5KzIda
+VUVMxFuNd7kxQyQSRgQC6mOdyyjQSdzA465CTWn980rGv5CDNvA7qnZJw6MlnKUi
+O7wmBCkyRyiExdW9BpUA/oZtGPUIWI33c15ujyZRpuRt8HgjXYt2yojH85ZNoeMj
+Hd5eMlHxb5uQnH3aLwKpOEezEn2j/Ecn9k333zSgRqr7T0L34c+KzFb7Yt53WE3w
+RifgfquAhiq8Cx6JLfDS+kGkfOOuhUktWVLFrAH0E2g36viF4nNu5FReQHLnrhGq
+YsI4DuSI26bwS/fbip76lGXT+hrmE1iTwPc9iamfYGvLL7PcM+pzmhsCL7GM95Dg
+XyEhodozykGAbJ8/DrWZa3AUyNmAr/oV6pzfQKDFID13RxS3s+KMWv6e0BTW7jRN
+hY/F7SXo7DwnIkBnNUn1dmGD27GHmv/oUusgjEpm5G6IbAQSeqDohYc+hzaN6Seo
++6po3P8cmyUsxcZMfYBJCszt
+=b658
 -----END PGP SIGNATURE-----
 
---===============9214723218242003930==
+--===============8598690243519229491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad1cbf599818-9d7b0ced5647.txt
+Content-Disposition: attachment; filename=revlist-96c7766c3de1-ca23d8a1f1ca.txt
 
-ecfd313c254a4906442c9a2bc9e516e2be8a616f crypto: qcom-rng - ensure buffer for generate is completely filled
-a83c3bd96133d8d42794dee5df25c1069b390069 ocfs2: fix crash when initialize filecheck kobj fails
-f7b65411d7609f245548be66dd088530d396d3f1 mm: swap: get rid of livelock in swapin readahead
-68a039c87a43221a928bb13a09ef66a95b004444 efi: fix return value of __setup handlers
-33eec7b7ac867152040f85eacc7fd1d5c8e3446f vsock: each transport cycles only on its own sockets
-54e8af4ba098c49ea649d5d2e32de2781fe37b96 esp6: fix check on ipv6_skip_exthdr's return value
-e8f65a9951ae149ab209817ad2b3daf66684486b net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-6ecf4a759b6d7ed2249c263db65ffb74037dd313 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-8b2d7d1b9ea1e17401967a9b6b22e3b25705ea34 atm: eni: Add check for dma_map_single
-d10471096d7ed8e16e71182fce73f6e5447c19c1 hv_netvsc: Add check for kvmalloc_array
-a4611cd72bca9576dc142795990874260e5f939d drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
-7179429f40c18a94810a05b8abb16b5b5a73edfd drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-15fc1bcdfee94486ac330878e13655d809d2ee7d net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-6545d2d31f8c24d10588783b4f1787af212f3ff0 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-45591e2c2aeda8f9534a908d5c2b4bb226d0e0bd net: phy: mscc: Add MODULE_FIRMWARE macros
-2879d4d1b6b44880b12924c159d8c5e48601a3b2 bnx2x: fix built-in kernel driver load failure
-92fd08b55f6e2c0f27a027a067d425a67f122a70 net: bcmgenet: skip invalid partial checksums
-0137680ffe56754b5b0abd1e5699bd1be312afde net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
-e178543bd82acf66b91705279e3d9903d13a84df arm64: fix clang warning about TRAMP_VALIAS
-5126eeb8fee7a6efce89bb3d983bc08d943d09cd usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-da166cbd1e150641eec2a11c66b0a70050476714 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
-3decb1e5c49e5d9faa6eb760437ad57f66a5d3f4 usb: usbtmc: Fix bug in pipe direction for control transfers
-67e2de13daea2f45f6aa0da8961036d3e0dd5237 scsi: mpt3sas: Page fault in reply q processing
-b8f0cf9c0489c03c58a23d710b03b12ba8704505 Input: aiptek - properly check endpoint type
-1b7fd415dc673f978872fd09e15b5228a22ea402 perf symbols: Fix symbol size calculation condition
-81551a1323c8aeb83854d78520e1c9a271649d22 net: usb: Correct PHY handling of smsc95xx
-ebe125c5ead2ddbd51a454f31d6857e732f37978 net: usb: Correct reset handling of smsc95xx
-e3c54b5b200ec91d3589d9c677c882dd78a7ab30 smsc95xx: Ignore -ENODEV errors when device is unplugged
-4098cac6b4a0a04581a03d6ffe9ba691d5f28f90 esp: Fix possible buffer overflow in ESP transformation
-2c86d180e5def711055d53cda8e948feefd6c42b Revert "selftests/bpf: Add test for bpf_timer overwriting crash"
-9d7b0ced5647e0df1b200ee29119cb58ff958339 Linux 5.10.108-rc1
+80294cc9a41e872710e801035b50116972d21f40 crypto: qcom-rng - ensure buffer for generate is completely filled
+7f47f11226471bacdb93c41c14066f7974797921 ocfs2: fix crash when initialize filecheck kobj fails
+9b3bec2f8120898f2795220595981bc186c451b5 mm: swap: get rid of livelock in swapin readahead
+1cc141d2f07a20f04c2edc9854d125daf34fcf3e block: release rq qos structures for queue without disk
+f547b5e2a541e07f4e0a634a462736d2f7ed99ea drm/mgag200: Fix PLL setup for g200wb and g200ew
+edb3c28fcaafab3f8b44f83897ad4229bc2c0b3b efi: fix return value of __setup handlers
+c112555a17cb0856131814f094131d79ce3938d7 alx: acquire mutex for alx_reinit in alx_change_mtu
+f65cba3145fbf6c19f0479bef100103d78f2a7f0 vsock: each transport cycles only on its own sockets
+976534e9c73fd35e3a80d5d4a05b2797878c1a1a esp6: fix check on ipv6_skip_exthdr's return value
+1e71341ccafcb3441ff46f77c574d08c500a708b net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+047fd0b6a27decd2251adfbae48a8adeafc1bc4f net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+d379a244a1dffa996d6ed69efc7d5134120036a8 atm: eni: Add check for dma_map_single
+0c3e92a539da201871dd2c08b8c5b48f024db7b3 iavf: Fix double free in iavf_reset_task
+60c780f0b5bde50e17047ed68ef687214b0921d5 hv_netvsc: Add check for kvmalloc_array
+217a3e426659925899448a0eb3f05fd101b73e30 drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
+db9614f4da9c3d4169f9ae44c21b2884ad2c990c drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+057d10049d5810a56866cc7de5219e3a847dd481 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+904661129de6d50d2e59881b14c24cd3745fbea5 drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
+cb79c55ef93e797705e3cdd93a44bfb2857f1d82 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+dd9b102b34e561cfed0ddbcf9e3c9b42e59ec444 net: phy: mscc: Add MODULE_FIRMWARE macros
+ea3fb84584f09742fc730925a03f6c5bb2764d57 bnx2x: fix built-in kernel driver load failure
+18bdb678521e8df3b5ec3100e269dfbbb7fb947e net: bcmgenet: skip invalid partial checksums
+a23bacd0e28bc54925ee351cde8be53fd03454ad net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+dbca0d89832c60e496f13f10d2f5cce325a0f21a iavf: Fix hang during reboot/shutdown
+0ff7390ad103184e065e86b8361c3cda5139a58e arm64: fix clang warning about TRAMP_VALIAS
+de9d9056ab2a9ba902170aba27bbe4b4ebca461d usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+0c0df81e40172693ac3069a849c1e10c7c959e0a usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+f266910712ecc19b7c4aa490e2766ccdab1f00f4 usb: usbtmc: Fix bug in pipe direction for control transfers
+7f5e7be5df0afa3bbe3922e5df1e4f6aa80c1f26 scsi: mpt3sas: Page fault in reply q processing
+0a322abeeaf8adebf2e9735808e24acebecd4f2c Input: aiptek - properly check endpoint type
+86ae9961a163b170091c96e2fd31251d6d10a0b8 perf symbols: Fix symbol size calculation condition
+eb4c90b0e371348ffe5bb7412682f1ef8d17a733 btrfs: skip reserved bytes warning on unmount after log cleanup failure
+ca23d8a1f1ca986793db05e0398452d325571a3a Linux 5.15.31-rc1
 
---===============9214723218242003930==--
+--===============8598690243519229491==--
