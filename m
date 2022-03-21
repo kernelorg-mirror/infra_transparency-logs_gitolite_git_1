@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2787425574870578383=="
+Content-Type: multipart/mixed; boundary="===============2166436785040828984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Mon, 21 Mar 2022 23:16:05 -0000
-Message-Id: <164790456503.9747.10994738960615246584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Mon, 21 Mar 2022 23:16:11 -0000
+Message-Id: <164790457136.9874.15616327969841258298@gitolite.kernel.org>
 
---===============2787425574870578383==
+--===============2166436785040828984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f443e374ae131c168a065ea1748feac6b2e76613
     log: revlist-09688c0166e7-f443e374ae13.txt
 
---===============2787425574870578383==
+--===============2166436785040828984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -110,4 +110,4 @@ fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation functi
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
 
---===============2787425574870578383==--
+--===============2166436785040828984==--
