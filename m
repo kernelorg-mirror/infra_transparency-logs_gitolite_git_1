@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1623621628597527693=="
+Content-Type: multipart/mixed; boundary="===============4518829752451940788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 21 Mar 2022 12:52:18 -0000
-Message-Id: <164786713875.7273.4028611660575856890@gitolite.kernel.org>
+Date: Mon, 21 Mar 2022 12:52:19 -0000
+Message-Id: <164786713941.7324.4320853248572349625@gitolite.kernel.org>
 
---===============1623621628597527693==
+--===============4518829752451940788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 0464ab17184b8fdec6676fabe76059b90e54e74f
-    new: 898f5f87b38398c741fe44c22221d20e76d45d8d
-    log: revlist-0464ab17184b-898f5f87b383.txt
+  - ref: refs/heads/linux-5.16.y
+    old: e9459820fd71c851a20a4bc077903b027fea40ba
+    new: c7b8ba7a6b9507a6cedd76099bbf9aff19a3aadd
+    log: revlist-e9459820fd71-c7b8ba7a6b95.txt
 
---===============1623621628597527693==
+--===============4518829752451940788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,63 +32,68 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1647867137 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1647867134-c6e62efa5c05dd538a483c9bc05ff12a4c75a2ce
 
-0464ab17184b8fdec6676fabe76059b90e54e74f 898f5f87b38398c741fe44c22221d20e76d45d8d refs/heads/linux-5.15.y
+e9459820fd71c851a20a4bc077903b027fea40ba c7b8ba7a6b9507a6cedd76099bbf9aff19a3aadd refs/heads/linux-5.16.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI4dQEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HVMP/1VjIuW5sfpsH3rpCRAW
-kWjbouQ0ySANsCCUMr6eU+gudcOhudk79cbajzN4zXiibcYrrMXlWsOz7gNup/om
-4RBi6aKDIcy1PtfYlgBtXATMF13bpic2i9VG8No29kq0dlX1iqcnzu6aS1EHY66Q
-V5G+QNJPfet/mm94epu/DdMz9o9MXFQFrGHaGRucMIfNS8z5SNwAlYVD7fCCa6CK
-04ME368vWca40rrU4a5CWqTjKsX3I7yOXta9v/i3TTLPfPRmDRh7eVeJTdTVtjzH
-ke8UGTjRqG7rZeozc3qJ2GfJfD6HmRdnhc6UGEC2LO4EsqOqXo+hrfja/FaAGUVv
-wnQFWEhvRUAfNO/9+N+6FQXUnkRBh7sEUyN7+2IVxpSRzGGD02ytTOOTCymIyV/D
-uCbzusE6Scg5SNbtfsBijyHgX/FKMasq8c06vOspDD5b8MmS0npBqqJe2MkGNMuv
-ARi9q2PHQbUe+AA8gh/LrZgotMgJNqvp25gKyvf3Ev0wkVRhuE7g2FjgRfqTupzx
-TJ5euDkdf6nMVKplumUwG9OjO7RKRbe7Qb20xPW5uAx9eAIKmrp3vd/o045YlLSB
-6n08dQlxTlpncsu7CwRYwYZ3w7hTTH97QdCkayEq9lbxd+Vcgp5I2TSmAvXyi+h8
-FtIP3TFHmWIACUD/Vc9PFLp4
-=Axmd
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KHkQAI4L0Mf1MEPZPt3K4OAz
+Aw25HfqFGGjoELrBSyALXUULMwEBmCQ+4ATVy54LS+QzkAkCS+K393KEiEIph0tE
+MhORiZLADdJsRX26xllTulLrRW6s22W2a8RdubNEpojMdmuEoBCnqYa/0Q/VqH4u
+IuCE6LC8ji1lGkuHm7iNmg0K9hu9pMmtffNulKkjboigskxdtgyCxg4RtpJ+IWEi
+ce5sV6NM3ea468FISFQKu//pDcL6g/ny1iUA+w5EX7W2/3TERr4dRSKS163lGezZ
+oO1lSA8wBxYapQlTJEAlAF+zxLuMGmQDjHc93TY9vCgVJZkw7xTINJLDu65uSEd0
+c2JHu172DmMn18gG/CjhTrikCZCDW9tQVa7kd+2pZAwSyrjQBIK2qSm5RvNgFA8r
+tBgAVRabvVMgdGf63qDjssTlWyuDLV2/puvIGxRvnJgE5mP7mTNOFHKcPSE+/9Ti
+icOFVdj/anebmPxTNsrhGRaxUrIRJOI75+b21WI5y3FWjTBC8znDZfVk/So6cEId
+rGxHXLjipBJeJwDNI7m2Z4ZJmsK4VrZBtwvELfojGsYkB/jUu+RWzfu1hwwjm50W
+ear78D/csS/aehpXIz7Qrd0+9zCaopRslzbKEkxx7akefr/TllHSp39nJy0SZMhe
+IOeWcNljbQvrwJyJLIrUWCU2
+=BPAt
 -----END PGP SIGNATURE-----
 
---===============1623621628597527693==
+--===============4518829752451940788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0464ab17184b-898f5f87b383.txt
+Content-Disposition: attachment; filename=revlist-e9459820fd71-c7b8ba7a6b95.txt
 
-d34aa6764402bdfa880b8ea9f32b7013c175408e crypto: qcom-rng - ensure buffer for generate is completely filled
-3bdf06fe8bc638746d8e94e0abd3d0e7117a86ff ocfs2: fix crash when initialize filecheck kobj fails
-8d57a1d195318897c9231945f899d449ba7c44af mm: swap: get rid of livelock in swapin readahead
-1afe4bb3ed5aeba96674ded581b42c49d6e4f7a4 block: release rq qos structures for queue without disk
-3834650f51d468f5f5cc4bd110b77869f6359a86 drm/mgag200: Fix PLL setup for g200wb and g200ew
-47247455ac032eb24534447774045c314638fcbb efi: fix return value of __setup handlers
-6353d1027226efeb1f322a578aec77c0f68865af alx: acquire mutex for alx_reinit in alx_change_mtu
-98414d12caf3b1ae36ae848e6ddf58614d1f5994 vsock: each transport cycles only on its own sockets
-39d579aa8059bf857fe21a5a2ccffc8cf0574fb3 esp6: fix check on ipv6_skip_exthdr's return value
-bfb9d32375c2b7f90b6baa5ba2218908b4fb5413 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-049b0ef41aa05b8afbc3c38e21b8881351b9160a net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-2fc94e1418ec1e034fc83f3430e00f2b376e7c52 atm: eni: Add check for dma_map_single
-ca45df88885c19b61a3da4b470a24c53847fa13e iavf: Fix double free in iavf_reset_task
-cbf0831db9962a43aad4eda8f6f4787d85562827 hv_netvsc: Add check for kvmalloc_array
-8577522229e72cf8cad24cacd918a2c9d5bf9b8f drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
-6e9c0d94d2567338d57defa39b253fe57c819e7d drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-f723a07d7ed9d69a37175775b1ee83c0564ebd78 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-a3beb2569a7beb0674ea8d1bb95f4a358456973f drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
-1d4b2af59989809065016b12c9f7171e36b7d671 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-957e0ec36595eebf209c647c40367a3641ab10d7 net: phy: mscc: Add MODULE_FIRMWARE macros
-2212e092f8a4654288556869c0f0c7b29fba14ca bnx2x: fix built-in kernel driver load failure
-4e65c2a78b0daf8ce9cc3ace2c239c719a0343c6 net: bcmgenet: skip invalid partial checksums
-f150fa47f90f08926e9336f9600629b4265ccd56 net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
-21b3613039a5970b9975a060df3e0c9d9f5b8b37 iavf: Fix hang during reboot/shutdown
-c8ad2cad4c2c45adce3c12a4083a0e2a0afbdb41 arm64: fix clang warning about TRAMP_VALIAS
-60cff59d384f45183b2678b6aae8cb06f7e72c46 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-838f47cd74bcf2a4979c71aec85b0a20d6443902 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
-c3c09486f428a022e9f10652c1e3f83e85c3306a usb: usbtmc: Fix bug in pipe direction for control transfers
-b6d57c2585aef90b3846b1738e0f6e41b679323e scsi: mpt3sas: Page fault in reply q processing
-528a9b666bd1f5cefde92cf809315fc91778b4ad Input: aiptek - properly check endpoint type
-dacf6d09bbd89f69c154c562edc95b33c8d7ac63 perf symbols: Fix symbol size calculation condition
-7370628110bc45025ffb64c1a948cbb28ca8e644 btrfs: skip reserved bytes warning on unmount after log cleanup failure
-898f5f87b38398c741fe44c22221d20e76d45d8d Linux 5.15.31-rc1
+fb0036f46aa2dfa14095a9998a13b01e3d8e7ec5 crypto: qcom-rng - ensure buffer for generate is completely filled
+68c8eed7630163cbf265e76953d4a635807b0ff7 ocfs2: fix crash when initialize filecheck kobj fails
+db1c52c00791c080204ed9a7e990a35e8f62ac12 mm: swap: get rid of livelock in swapin readahead
+10dfd402e8f6c3d385f02a43c5d061f52e1c5880 block: release rq qos structures for queue without disk
+6dc43c34965a29651dc60e3dae40379113fd2a94 drm/mgag200: Fix PLL setup for g200wb and g200ew
+9d28b24605fbfe72ca047ee76e971b7014f1f963 efi: fix return value of __setup handlers
+df02b23168c6d89e17e3c6ce8667b726d25fe380 alx: acquire mutex for alx_reinit in alx_change_mtu
+b5eb8378dbf5150fb3969c4ed390fb5e00c7aad2 vsock: each transport cycles only on its own sockets
+afd4272723151083f26f57584962240c918de2fc esp6: fix check on ipv6_skip_exthdr's return value
+55ba4a4e89bfc3cc32bb1b9f26d050213f639f8b net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+7b462ede33b61d47cd96fc065d954f129a4041f4 net/packet: fix slab-out-of-bounds access in packet_recvmsg()
+29e64dc6e0f76cb7822493f648db03aa4afaba62 nvmet: revert "nvmet: make discovery NQN configurable"
+46223ebe2b13df0c48cfb0a7fdea41447a1e9791 atm: eni: Add check for dma_map_single
+d211c2703314ee4c16e3c252c1fcc142e6e8d281 ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
+6e3464e9ebd30c1c39fbde3ad6411deb821524e8 iavf: Fix double free in iavf_reset_task
+53cb3aed4ab621382d640a438e7b92b3eab268e9 hv_netvsc: Add check for kvmalloc_array
+a06ed6af41857eeb92406f2ac3951ea0a7dc3002 drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
+5ef0f0d5628b6a21dcc14d2963e2ffa63cc1599d drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+011f32f5b9b050f0e8ca5d39808a19d67bca3130 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
+96dd42cd48395a54cf7669c12b4f6a474eda89d1 drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
+1a2a8725caab4b181bdb29986655f9b2c413eab5 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+07fe754f3bca8a07a477bc68e204c5cb7712fee9 net: phy: mscc: Add MODULE_FIRMWARE macros
+71cc90e33be0950754295f3543d3a71ee2d4b693 bnx2x: fix built-in kernel driver load failure
+dc302eddd927a18733cb7faaf37d963cc8ba2934 net: bcmgenet: skip invalid partial checksums
+78c887113d4dd183bdc9af6b98f71a2126c086f6 net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+bea448b7ac106d0bd0a259dc2fb7b1fa79275c10 iavf: Fix hang during reboot/shutdown
+7a60d8abf3382e021e6b7670dcee3446aa347a31 arm64: fix clang warning about TRAMP_VALIAS
+b449dec43070989d416b2e984ab95be12bb65ec0 usb: gadget: rndis: prevent integer overflow in rndis_set_response()
+1d6d04cee9199ea25f38d6ed560713a4dd88d333 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
+4f1900056fdc67a98895f8503da37e9954c7a5ab usb: usbtmc: Fix bug in pipe direction for control transfers
+e1c21839e163c3cfdbcf77420028f5f763828304 scsi: mpt3sas: Page fault in reply q processing
+8eba04cc06552dd16f4452c9945c8fb97966c9ad Input: aiptek - properly check endpoint type
+3f0290f180228f76a7cb0fce7ad4be3fd644c64a arm64: errata: avoid duplicate field initializer
+044c0804db0a1737055a054fd9ad424a46d2a3ca perf symbols: Fix symbol size calculation condition
+27093eed76ba4a925b1f6d44f05e9630687b759d Revert "arm64: dts: freescale: Fix 'interrupt-map' parent address cells"
+feb486912abdb6ff22c1da160dd5590eb40f3683 Revert "ath10k: drop beacon and probe response which leak from other channel"
+cb4dad11db35876ed4ae5ee84236faefa49c8976 btrfs: skip reserved bytes warning on unmount after log cleanup failure
+c7b8ba7a6b9507a6cedd76099bbf9aff19a3aadd Linux 5.16.17-rc1
 
---===============1623621628597527693==--
+--===============4518829752451940788==--
