@@ -1,29 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Mar 2022 13:23:35 -0000
-Message-Id: <164786901533.28341.8885221691445474459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Mon, 21 Mar 2022 13:24:16 -0000
+Message-Id: <164786905638.28632.2660487988886262969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
-  - ref: refs/heads/master
-    old: 4b45e07907d87d0e218d9c4a125cdf1d9ea9b1c3
-    new: 57939fdc2cbe9e4b5c3fbbdcdc76414da8c57ea7
+  - ref: refs/heads/master-pending
+    old: df17714a0841e0186b119370276bcd70c9932481
+    new: 8b4978d04fe6444900ed97b28a759a475458788b
     log: |
-         fc9769f62e5937b496139b07e9e9656896479018 nfp: calculate ring masks without conditionals
-         62d033309d62653ff5be7e7a35b3ff30ffb4181f nfp: move the fast path code to separate files
-         6fd86efa630effbfbc7bd276609d11cb5e18d487 nfp: use callbacks for slow path ring related functions
-         d6488c49c2530f6b39e7eabebaefc4411d61e791 nfp: prepare for multi-part descriptors
-         07cd69c96bff4edf5edcd17b5a821f63343bf9cc nfp: move tx_ring->qcidx into cold data
-         0dcf7f500b0a56c0c58deeeac7692fe213aa08b1 nfp: use TX ring pointer write back
-         b94b6a1342ccce016f1139af32adc3b6bfab9656 nfp: add per-data path feature mask
-         d9e3c29918a80d2d18f0c3c059a578a368f6713c nfp: choose data path based on version
-         c10d12e3dce8efc24af2478d45b0313796b20387 nfp: add support for NFDK data path
-         d9d950490a0a5822ffeda291a588eb85d4f7b96f nfp: nfdk: implement xdp tx path for NFDK
-         57939fdc2cbe9e4b5c3fbbdcdc76414da8c57ea7 Merge branch 'nfp3800'
+         613f5bcc9c8c0a39cf7444a725054fc3648612ad ath11k: enable PLATFORM_CAP_PCIE_GLOBAL_RESET QMI host capability
+         8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e ath11k: Add peer rhash table support
+         8b4978d04fe6444900ed97b28a759a475458788b Merge branch 'pending' into master-pending
+         
+  - ref: refs/heads/pending
+    old: eb7e6c7721e7b2c6743ef4f03aec58f97c734047
+    new: 8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e
+    log: |
+         613f5bcc9c8c0a39cf7444a725054fc3648612ad ath11k: enable PLATFORM_CAP_PCIE_GLOBAL_RESET QMI host capability
+         8f0cd86375ee446a66f0ba379ebc7c3a47d5a10e ath11k: Add peer rhash table support
          
