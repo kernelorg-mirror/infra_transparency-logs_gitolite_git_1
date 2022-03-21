@@ -1,61 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6978121009859568429=="
+Content-Type: multipart/mixed; boundary="===============4850908734834223924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 21 Mar 2022 10:07:21 -0000
-Message-Id: <164785724155.29286.5429000005437851413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 21 Mar 2022 10:08:03 -0000
+Message-Id: <164785728355.29637.12514458699547465638@gitolite.kernel.org>
 
---===============6978121009859568429==
+--===============4850908734834223924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
-user: bigeasy
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/linux-5.17.y
-    old: 09688c0166e76ce2fb85e86b9d99be8b0084cdf9
-    new: f443e374ae131c168a065ea1748feac6b2e76613
-    log: revlist-09688c0166e7-f443e374ae13.txt
+  - ref: refs/heads/x86/core
+    old: 46a5cf598a940e674a574664c32ad3518dc9ed6f
+    new: 44aba1d9e26641728f33f5834f436dd9ef486b96
+    log: revlist-46a5cf598a94-44aba1d9e266.txt
 
---===============6978121009859568429==
+--===============4850908734834223924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1647857239 +0100
-pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1647857238-6f295bdb158d453006271ca3dd5de1dc13eeb265
-
-09688c0166e76ce2fb85e86b9d99be8b0084cdf9 f443e374ae131c168a065ea1748feac6b2e76613 refs/heads/linux-5.17.y
------BEGIN PGP SIGNATURE-----
-
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmI4TlcWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W8arDACXIeRh4nyEOVr45CJIf9h1HFqZ
-3lVuAmCUYFkM0v8uOAYgzOV8d7RUn4kMH+MOU4mNb1n8Q57WVPlrulXrFd7lS8aL
-fmX3HRnrTbuN55L0bORrR1sNRGPtPQTcZa/4vFxcJJEsiwF0SiNTTGMicAp8u03q
-mznyrB0KzGHyRmcDHvU1ZiVTEYHwj5X5i6iv0NATk6Ndrw8h8iWJi2Sa/rcM+axw
-w/0PdHI/nz6FfNEUKjfROwu2FjsdCISY0osWNTVeNASLLI9+rkxZfYqzTeKGPySI
-7QCCykmWpuZ3v8TZ0Ck4K2sMxJWDaFK5LGJcmSTyrPqxnBlPoh49Pnhx8NbPEshF
-x6ER/zLtQb+sGjut+Ocn20OSM/m1t9kneIyGbQfD71Jihw66c5ll37zlbRvt85PB
-ux3T/ZWXzt8OX/0TRtZIg/u0KypjDlnU/wPjduBWPB+UamapTf6Qk0o9dOCZxkNL
-c2TSKg6RquXiTUl92+4ZVogBlO4aNpA6mVttrHU=
-=XZ/H
------END PGP SIGNATURE-----
-
---===============6978121009859568429==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09688c0166e7-f443e374ae13.txt
+Content-Disposition: attachment; filename=revlist-46a5cf598a94-44aba1d9e266.txt
 
 9feaf8b387ee0ece9c1d7add308776b502a35d0c efi: fix return value of __setup handlers
-e941dc13fd3717122207d74539ab95da07ef797f Input: zinitix - do not report shadow fingers
 a82c25c366b0963d33ddf699196e6cf57f6d89b1 Revert "netfilter: nat: force port remap to prevent shadowing well-known ports"
 ee0a4dc9f317fb9a97f20037d219802ca8de939b Revert "netfilter: conntrack: tag conntracks picked up in local out hook"
 9a564bccb78a76740ea9d75a259942df8143d02c af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
@@ -72,19 +43,11 @@ e981bc74aefc6a177b50c16cfa7023599799cf74 net: dsa: microchip: add spi_device_id 
 daaca3522a8e67c46e39ef09c1d542e866f85f3b block: release rq qos structures for queue without disk
 837d9e49402eaf030db55a49f96fc51d73b4b441 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
 15d703921f0618a212567d06bca767f3f1c25681 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-5600f6986628dde8881734090588474f54a540a8 Input: aiptek - properly check endpoint type
-69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 scsi: mpt3sas: Page fault in reply q processing
 0f8946ae704ac6880c590beb91bc3a732595a28a net: mdio: mscc-miim: fix duplicate debugfs entry
 c700525fcc06b05adfea78039de02628af79e07a net/packet: fix slab-out-of-bounds access in packet_recvmsg()
 0c48645a7f3988a624767d025fa3275ae24b6ca1 nvmet: revert "nvmet: make discovery NQN configurable"
 0f74b29a4f53627376cf5a5fb7b0b3fa748a0b2b atm: eni: Add check for dma_map_single
-65f3324f4b6fed78b8761c3b74615ecf0ffa81fa usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-239071064732bc4a30308cbba11014aa1aab550a partially Revert "usb: musb: Set the DT node on the child device"
 56e337f2cf1326323844927a04e9dbce9a244835 Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-e9b667a82cdcfe21d590344447d65daed52b353b usb: usbtmc: Fix bug in pipe direction for control transfers
-16b1941eac2bd499f065a6739a40ce0011a3d740 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
-733ab7e1b5d1041204c4ca7373f6e6f9d08e3283 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
-01b44ef2bf6bc83df8a4703029fd611fbfc31c60 counter: Stop using dev_get_drvdata() to get the counter device
 e9c14b59ea2ec19afe22d60b07583b7e08c74290 Add Paolo Abeni to networking maintainers
 f153546913bada41a811722f2c6d17c3243a0333 ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
 1b4ae7d925c6569fff27313b4d84171b11510893 ice: destroy flow director filter mutex after releasing VSIs
@@ -98,7 +61,6 @@ f6189589fa7cc4fb6b53f2929f69f0505123202f Merge tag 'nvme-5.17-2022-03-16' of git
 fc1b6ef7bfb3d1d4df868b1c3e0480cacda6cd81 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
 1bbdcbaeda445c76ca05f5d822c26fc7268c1ff5 Merge tag 'wireless-2022-03-16' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 186abea8a80b7699a05bbe6cbd661d64f887e1a0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-1447c635802fd0f5e213ad5277753108d56a4db3 Revert "arm64: dts: freescale: Fix 'interrupt-map' parent address cells"
 d34c58247f73c5358ceae1ae648fb9daa408ef23 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 a46310bfae94cfadf3d28a4d97b71e3e4dcc954c Merge tag 'efi-urgent-for-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 4ee06de7729d795773145692e246a06448b1eb7a net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
@@ -125,17 +87,8 @@ cced5148a1303a2ec57d04a7745a560821b45280 Merge tag 'drm-fixes-2022-03-18' of git
 6c4bcd8140770f8190a8e691aff0e3550069edb1 Merge tag 'block-5.17-2022-03-18' of git://git.kernel.dk/linux-block
 6e4069881a7f9dceb6dfb97e436d55e3c7f43e81 Merge tag '5.17-rc8-smb3-fix' of git://git.samba.org/sfrench/cifs-2.6
 34e047aa16c0123bbae8e2f6df33e5ecc1f56601 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-3cf6a32f3f2a45944dd5be5c6ac4deb46bcd3bee perf symbols: Fix symbol size calculation condition
-8b464eac9765dfc84d0327fa3f3668faa439d1ce perf evlist: Avoid iteration for empty evlist.
-7bd1da15d211d439d96eb7cc8a35ce694b71d120 perf parse-events: Ignore case in topdown.slots check
-6aa61c12a43bb365296e72251e7346b661030b52 Merge tag 'usb-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-ba6354f61472c5bc910c34ea1b368f62c3706692 Merge tag 'char-misc-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-97e9c8eb4bb1dc57859acb1338dfddbd967d7484 Merge tag 'perf-tools-fixes-for-v5.17-2022-03-19' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-f76da4d5ad5168de58f0f5be1a12c1052a614663 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-14702b3b2438e2f2d07ae93b5d695c166e5c83d1 Merge tag 'soc-fixes-5.17-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation function offsets with SLS
-1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
+64ac0df29f304aca54e4e0ae608a0e6ee6b160cb Merge branch 'kvm/kvm-sls-fix'
+44aba1d9e26641728f33f5834f436dd9ef486b96 kvm/emulate: Fix SETcc emulation for ENDBR
 
---===============6978121009859568429==--
+--===============4850908734834223924==--
