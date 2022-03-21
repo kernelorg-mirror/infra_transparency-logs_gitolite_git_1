@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 21 Mar 2022 09:58:59 -0000
-Message-Id: <164785673993.22480.11025335772362365497@gitolite.kernel.org>
+Date: Mon, 21 Mar 2022 09:59:08 -0000
+Message-Id: <164785674849.22579.11391431907476823565@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 02a08d78f5c429c7dc8e5b9417b4efb518b3d041
-    new: ce1dea305bfc2c1b616b3695a09ff75aa6d680f2
+  - ref: refs/heads/locking/core
+    old: cd27ccfc727e99352321c0c75012ab9c5a90321e
+    new: 9ec71cdfd4e82021ab5bda5f320448c58f9b425e
     log: |
-         998b98d2967b2cf806e556e0a380fee1c1b52205 perf/x86: Add Intel Raptor Lake support
-         d745d6b9e39c2d6d7eb3e85ed6dd8475be43893e perf/x86/cstate: Add Raptor Lake support
-         d828f99a02f54c03bede9e4294f0b2e95d6158ae perf/x86/msr: Add Raptor Lake CPU support
-         ce1dea305bfc2c1b616b3695a09ff75aa6d680f2 perf/x86/uncore: Add Raptor Lake uncore support
+         8283fd1ec5bf3a2ca40f77c02d57fa61d5f422f2 static_call: Don't make __static_call_return0 static
+         180a795c069ba4520567b933d57b035e1e3e6059 x86,static_call: Fix __static_call_return0 for i386
+         1923a1429507b15b2061968614a6943365159738 lockdep: Fix -Wunused-parameter for _THIS_IP_
+         77199b67fd74012a145f4342ecc42c8e4540a52d static_call: Properly initialise DEFINE_STATIC_CALL_RET0()
+         9ec71cdfd4e82021ab5bda5f320448c58f9b425e static_call: Remove __DEFINE_STATIC_CALL macro
          
