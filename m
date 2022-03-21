@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6522082272149393486=="
+Content-Type: multipart/mixed; boundary="===============2246058587582378518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Mar 2022 10:16:08 -0000
-Message-Id: <164785776879.4221.3366129147149926426@gitolite.kernel.org>
+Date: Mon, 21 Mar 2022 10:16:59 -0000
+Message-Id: <164785781933.4579.14779781647326005620@gitolite.kernel.org>
 
---===============6522082272149393486==
+--===============2246058587582378518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,87 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
+  - ref: refs/heads/auto-latest
+    old: 82c20a7b207d88e8c6c24f8a6179d6a03f72bd8a
+    new: c5ce7fd2592464ff5da46d8b9b7581411eab0a80
+    log: revlist-82c20a7b207d-c5ce7fd25924.txt
   - ref: refs/heads/master
-    old: 2eb7c8e792cfe83724dee33cc6e67233843bd6c0
-    new: 718ad39c9c283202647708d808313255a7082c01
-    log: revlist-2eb7c8e792cf-718ad39c9c28.txt
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
+    old: 718ad39c9c283202647708d808313255a7082c01
+    new: c5ce7fd2592464ff5da46d8b9b7581411eab0a80
+    log: revlist-718ad39c9c28-c5ce7fd25924.txt
 
---===============6522082272149393486==
+--===============2246058587582378518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb7c8e792cf-718ad39c9c28.txt
+Content-Disposition: attachment; filename=revlist-82c20a7b207d-c5ce7fd25924.txt
 
+9feaf8b387ee0ece9c1d7add308776b502a35d0c efi: fix return value of __setup handlers
 e941dc13fd3717122207d74539ab95da07ef797f Input: zinitix - do not report shadow fingers
+a82c25c366b0963d33ddf699196e6cf57f6d89b1 Revert "netfilter: nat: force port remap to prevent shadowing well-known ports"
+ee0a4dc9f317fb9a97f20037d219802ca8de939b Revert "netfilter: conntrack: tag conntracks picked up in local out hook"
+9a564bccb78a76740ea9d75a259942df8143d02c af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
+95932ab2ea07b79cdb33121e2f40ccda9e6a73b5 vhost: allow batching hint without size
+5e34af4142ffe68f01c8a9acae83300f8911e20c net: ipv6: fix skb_over_panic in __ip6_append_data
+46b348fd2d81a341b15fb3f3f986204b038f5c42 alx: acquire mutex for alx_reinit in alx_change_mtu
+8e6ed963763fe21429eabfc76c69ce2b0163a3dd vsock: each transport cycles only on its own sockets
+ed5f85d4229010235eab1e3d9acf6970d9304963 netfilter: nf_tables: disable register tracking
 40ce1121c1d76daf9048a86e36c83e469281b9fd drm/mgag200: Fix PLL setup for g200wb and g200ew
+a680b1832ced3b5fa7c93484248fd221ea0d614b crypto: qcom-rng - ensure buffer for generate is completely filled
+e981bc74aefc6a177b50c16cfa7023599799cf74 net: dsa: microchip: add spi_device_id tables
+4db4075f92af2b28f415fc979ab626e6b37d67b6 esp6: fix check on ipv6_skip_exthdr's return value
+6665ca15746dc34606b5d79fae278a101a368437 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 daaca3522a8e67c46e39ef09c1d542e866f85f3b block: release rq qos structures for queue without disk
+837d9e49402eaf030db55a49f96fc51d73b4b441 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
+15d703921f0618a212567d06bca767f3f1c25681 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 5600f6986628dde8881734090588474f54a540a8 Input: aiptek - properly check endpoint type
 69ad4ef868c1fc7609daa235dfa46d28ba7a3ba3 scsi: mpt3sas: Page fault in reply q processing
+0f8946ae704ac6880c590beb91bc3a732595a28a net: mdio: mscc-miim: fix duplicate debugfs entry
+c700525fcc06b05adfea78039de02628af79e07a net/packet: fix slab-out-of-bounds access in packet_recvmsg()
 0c48645a7f3988a624767d025fa3275ae24b6ca1 nvmet: revert "nvmet: make discovery NQN configurable"
+0f74b29a4f53627376cf5a5fb7b0b3fa748a0b2b atm: eni: Add check for dma_map_single
 65f3324f4b6fed78b8761c3b74615ecf0ffa81fa usb: gadget: rndis: prevent integer overflow in rndis_set_response()
 239071064732bc4a30308cbba11014aa1aab550a partially Revert "usb: musb: Set the DT node on the child device"
+56e337f2cf1326323844927a04e9dbce9a244835 Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
 e9b667a82cdcfe21d590344447d65daed52b353b usb: usbtmc: Fix bug in pipe direction for control transfers
 16b1941eac2bd499f065a6739a40ce0011a3d740 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
 733ab7e1b5d1041204c4ca7373f6e6f9d08e3283 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
 01b44ef2bf6bc83df8a4703029fd611fbfc31c60 counter: Stop using dev_get_drvdata() to get the counter device
+e9c14b59ea2ec19afe22d60b07583b7e08c74290 Add Paolo Abeni to networking maintainers
+f153546913bada41a811722f2c6d17c3243a0333 ice: fix NULL pointer dereference in ice_update_vsi_tx_ring_stats()
+1b4ae7d925c6569fff27313b4d84171b11510893 ice: destroy flow director filter mutex after releasing VSIs
+16b2dd8cdf6f4e0597c34899de74b4d012b78188 iavf: Fix double free in iavf_reset_task
+886e44c9298a6b428ae046e2fa092ca52e822e6a hv_netvsc: Add check for kvmalloc_array
+dea2d93a8ba437460c5f21bdfa4ada57fa1d2179 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+462ccc35a750f335c8456cde9120b8b593fff60f Revert "ACPI: scan: Do not add device IDs from _CID if _HID is not valid"
+45b4eb7ee6aa1a55a50831b328aa5f46ac3a7187 Revert "ath10k: drop beacon and probe response which leak from other channel"
 f6189589fa7cc4fb6b53f2929f69f0505123202f Merge tag 'nvme-5.17-2022-03-16' of git://git.infradead.org/nvme into block-5.17
 6061806a863e8b65b109eb06a280041cc7525442 drm/imx: parallel-display: Remove bus flags check in imx_pd_bridge_atomic_check()
 fc1b6ef7bfb3d1d4df868b1c3e0480cacda6cd81 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
+1bbdcbaeda445c76ca05f5d822c26fc7268c1ff5 Merge tag 'wireless-2022-03-16' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+186abea8a80b7699a05bbe6cbd661d64f887e1a0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 1447c635802fd0f5e213ad5277753108d56a4db3 Revert "arm64: dts: freescale: Fix 'interrupt-map' parent address cells"
+d34c58247f73c5358ceae1ae648fb9daa408ef23 Merge branch 'linus' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+a46310bfae94cfadf3d28a4d97b71e3e4dcc954c Merge tag 'efi-urgent-for-v5.17-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+4ee06de7729d795773145692e246a06448b1eb7a net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
 e3ee9fb22652f228225c352bd4fabec330cac5f0 smb3: fix incorrect session setup check for multiuser mounts
 a8253684eb4b30abd3faf055bc475c23da748dc6 Merge drm/drm-fixes into drm-misc-fixes
 3c3384050d68570f9de0fec9e58824decfefba7a drm: Don't make DRM_PANEL_BRIDGE dependent on DRM_KMS_HELPERS
+cb0b430b4e3acc88c85e0ad2e25f2a25a5765262 net: dsa: Add missing of_node_put() in dsa_port_parse_of
+f1858c277ba40172005b76a31e6bb931bfc19d9c net: phy: mscc: Add MODULE_FIRMWARE macros
+424e7834e293936a54fcf05173f2884171adc5a3 bnx2x: fix built-in kernel driver load failure
+0f643c88c8d240eba0ea25c2e095a46515ff46e9 net: bcmgenet: skip invalid partial checksums
+8e0341aefcc9133f3f48683873284b169581315b net: mscc: ocelot: fix backwards compatibility with single-chain tc-flower offload
+b04683ff8f0823b869c219c78ba0d974bddea0b5 iavf: Fix hang during reboot/shutdown
+029c4628b2eb2ca969e9bf979b05dc18d8d5575e mm: swap: get rid of livelock in swapin readahead
+8208257d2d04d4953a8cb9f1426d245a95c4fea2 configs/debug: restore DEBUG_INFO=y for overriding
+7b0b1332cfdb94489836b67d088a779699f8e47e ocfs2: fix crash when initialize filecheck kobj fails
+1c4debc443ef7037dcb7c4f08c33b9caebd21d2e selftests: vm: fix clang build error multiple output files
+2ab99e54584e0048b9c0bea2d61053a61bae0bbc Merge branch 'akpm' (patches from Andrew)
+c81801eb7f2476a25d8fb27449e01b0bef46908a Merge tag 'acpi-5.17-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+551acdc3c3d2b6bc97f11e31dcf960bc36343bfc Merge tag 'net-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 ca5a5761ac542691a6b3520b6c5c047cf63b4b8d Merge tag 'drm-misc-fixes-2022-03-17' of git://anongit.freedesktop.org/drm/drm-misc into drm-fixes
+2f35e67f621fffc636cb802a4f93fd168cf38274 kbuild: Fixup the IBT kbuild changes
 7f34b43e07cb512b28543fdcb9f35d1fbfda9ebc arm64: fix clang warning about TRAMP_VALIAS
 316e46f65a5497839857db08b6fbf60f568b165a arm64: errata: avoid duplicate field initializer
 cced5148a1303a2ec57d04a7745a560821b45280 Merge tag 'drm-fixes-2022-03-18' of git://anongit.freedesktop.org/drm/drm
@@ -72,8 +119,48 @@ f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
 64ac0df29f304aca54e4e0ae608a0e6ee6b160cb Merge branch 'kvm/kvm-sls-fix'
 44aba1d9e26641728f33f5834f436dd9ef486b96 kvm/emulate: Fix SETcc emulation for ENDBR
 3387ce4d8a5f2956fab827edf499fe6780e83faa headers/prep: Fix header to build standalone: <linux/psi.h>
-b33daaaa4f8d5afcee75919cdd02e27744752779 Merge branch 'linus'
-c904ccc5a580f2223f9dbd23e7a1071bb9b63753 Merge branch into tip/master: 'x86/core'
-718ad39c9c283202647708d808313255a7082c01 Merge branch into tip/master: 'sched/core'
+f328607154cb4e046ee0810627e8626d3a4ea687 Merge branch into tip/master: 'x86/sgx'
+d5eaa7a70526a0d7d4486f032e8b93c3bd1261d5 Merge branch into tip/master: 'x86/sev'
+0ddc1127d85f3bb9f2c63d5db64c84c924854a3f Merge branch into tip/master: 'x86/pasid'
+c645c23bfc43028ac262bf39b2cf1d06d939310b Merge branch into tip/master: 'x86/paravirt'
+2ee1ba981dd472a1316414f25b0d74329b66759f Merge branch into tip/master: 'x86/misc'
+99007d4831c13926bf5420e005c1dd628ad90210 Merge branch into tip/master: 'x86/irq'
+cf6ac1352fe35998d6fce45cf1d504516a4d599a Merge branch into tip/master: 'x86/cpu'
+919ce88bb9a51141255b80deeca8e9c8624c987b Merge branch into tip/master: 'x86/core'
+55f8863b374cb1316404efaca8bd8cfe93516413 Merge branch into tip/master: 'x86/cleanups'
+9dfe096dbde462d734a40a9e08e9827f96ec412c Merge branch into tip/master: 'x86/cc'
+baee66fd8a3124f19462e5f4b123d7ed2c0ee9dc Merge branch into tip/master: 'x86/build'
+2862a554cd0bfcab507ee71fc48543f374e88cb4 Merge branch into tip/master: 'timers/core'
+a301b5380c47702bb9fe2f278c35aa5a4be0c3d5 Merge branch into tip/master: 'sched/core'
+a8fbfc33ac7a9d9e00a7ff27386b390d3f398bd5 Merge branch into tip/master: 'ras/core'
+0ea7262a751c1700cb357087d751f06e2ba92be3 Merge branch into tip/master: 'perf/core'
+e27cfe35d955d472291b43dad30beee51dc0d49e Merge branch into tip/master: 'locking/core'
+29a3500b0b52c16d8ec635248f42a9a26e64be13 Merge branch into tip/master: 'irq/core'
+c5ce7fd2592464ff5da46d8b9b7581411eab0a80 Merge branch into tip/master: 'core/core'
 
---===============6522082272149393486==--
+--===============2246058587582378518==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-718ad39c9c28-c5ce7fd25924.txt
+
+f328607154cb4e046ee0810627e8626d3a4ea687 Merge branch into tip/master: 'x86/sgx'
+d5eaa7a70526a0d7d4486f032e8b93c3bd1261d5 Merge branch into tip/master: 'x86/sev'
+0ddc1127d85f3bb9f2c63d5db64c84c924854a3f Merge branch into tip/master: 'x86/pasid'
+c645c23bfc43028ac262bf39b2cf1d06d939310b Merge branch into tip/master: 'x86/paravirt'
+2ee1ba981dd472a1316414f25b0d74329b66759f Merge branch into tip/master: 'x86/misc'
+99007d4831c13926bf5420e005c1dd628ad90210 Merge branch into tip/master: 'x86/irq'
+cf6ac1352fe35998d6fce45cf1d504516a4d599a Merge branch into tip/master: 'x86/cpu'
+919ce88bb9a51141255b80deeca8e9c8624c987b Merge branch into tip/master: 'x86/core'
+55f8863b374cb1316404efaca8bd8cfe93516413 Merge branch into tip/master: 'x86/cleanups'
+9dfe096dbde462d734a40a9e08e9827f96ec412c Merge branch into tip/master: 'x86/cc'
+baee66fd8a3124f19462e5f4b123d7ed2c0ee9dc Merge branch into tip/master: 'x86/build'
+2862a554cd0bfcab507ee71fc48543f374e88cb4 Merge branch into tip/master: 'timers/core'
+a301b5380c47702bb9fe2f278c35aa5a4be0c3d5 Merge branch into tip/master: 'sched/core'
+a8fbfc33ac7a9d9e00a7ff27386b390d3f398bd5 Merge branch into tip/master: 'ras/core'
+0ea7262a751c1700cb357087d751f06e2ba92be3 Merge branch into tip/master: 'perf/core'
+e27cfe35d955d472291b43dad30beee51dc0d49e Merge branch into tip/master: 'locking/core'
+29a3500b0b52c16d8ec635248f42a9a26e64be13 Merge branch into tip/master: 'irq/core'
+c5ce7fd2592464ff5da46d8b9b7581411eab0a80 Merge branch into tip/master: 'core/core'
+
+--===============2246058587582378518==--
