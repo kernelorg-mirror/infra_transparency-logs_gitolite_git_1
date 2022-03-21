@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 21 Mar 2022 15:21:36 -0000
-Message-Id: <164787609653.13973.15313903024107470830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 21 Mar 2022 15:21:42 -0000
+Message-Id: <164787610277.14086.15986521160478959690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: d0f325c34c2fbe15f6774f2b628224280b571ae9
-    new: d8dc09a4db45e49cc1ee5170632833ec11fafa7e
+  - ref: refs/heads/dm-5.18
+    old: e9567332a4a0bf3533b4126e50992d5a569ea675
+    new: d3472739f40aa43094646202ffac2ee2019316f6
     log: |
-         d8dc09a4db45e49cc1ee5170632833ec11fafa7e bpf, arm: Fix various typos in comments
+         d3472739f40aa43094646202ffac2ee2019316f6 dm: enable BIOSET_PERCPU_CACHE for dm_io bioset
          
