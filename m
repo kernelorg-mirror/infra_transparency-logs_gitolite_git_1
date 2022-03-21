@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9123520539490943025=="
+Content-Type: multipart/mixed; boundary="===============5200419848114573880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 21 Mar 2022 12:07:28 -0000
-Message-Id: <164786444860.7134.1688833387456436487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 21 Mar 2022 12:15:15 -0000
+Message-Id: <164786491577.13819.8461250147517372212@gitolite.kernel.org>
 
---===============9123520539490943025==
+--===============5200419848114573880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f443e374ae131c168a065ea1748feac6b2e76613
     log: revlist-e783362eb54c-f443e374ae13.txt
 
---===============9123520539490943025==
+--===============5200419848114573880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation functi
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
 
---===============9123520539490943025==--
+--===============5200419848114573880==--
