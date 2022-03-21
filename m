@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6154310166876636999=="
+Content-Type: multipart/mixed; boundary="===============8282353619489985716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 21 Mar 2022 08:52:36 -0000
-Message-Id: <164785275692.29566.697448207278247540@gitolite.kernel.org>
+Date: Mon, 21 Mar 2022 08:52:41 -0000
+Message-Id: <164785276101.29675.592999215182645308@gitolite.kernel.org>
 
---===============6154310166876636999==
+--===============8282353619489985716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: dcb13717dcd512bc7fdd7a3c98b3438b2feae250
-    new: f0c73906b869c57ed9f74fd5add86581e457d13c
-    log: revlist-dcb13717dcd5-f0c73906b869.txt
+  - ref: refs/heads/m68k-queue
+    old: 179d60c7414b787102614ed9b0e97e00c17704e4
+    new: 5e1850bb3c647ceb323efc380b4e7f0c60189be2
+    log: revlist-179d60c7414b-5e1850bb3c64.txt
 
---===============6154310166876636999==
+--===============8282353619489985716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb13717dcd5-f0c73906b869.txt
+Content-Disposition: attachment; filename=revlist-179d60c7414b-5e1850bb3c64.txt
 
 9feaf8b387ee0ece9c1d7add308776b502a35d0c efi: fix return value of __setup handlers
 e941dc13fd3717122207d74539ab95da07ef797f Input: zinitix - do not report shadow fingers
@@ -109,6 +109,10 @@ fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation functi
 1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
-f0c73906b869c57ed9f74fd5add86581e457d13c Merge tag 'v5.17'
+26320c2cf86c2178bffb1d98366d8e493069a821 m68k: Add asm/config.h
+aab1673ef0ab3c30dfa8551b88ccfe548a7a31ea m68k: mm: Remove check for VM_IO to fix deferred I/O
+dfc2fa42db0718d850a05ff4d320e6526b09ba0b m68k: atari: usb: Add ISP1160 USB host controller support
+437014d215f556369eb7aac664b21d3cdeb58f43 m68k: atari: Update Kconfig.bus help text
+5e1850bb3c647ceb323efc380b4e7f0c60189be2 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6154310166876636999==--
+--===============8282353619489985716==--
