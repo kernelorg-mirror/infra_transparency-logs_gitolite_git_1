@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 22 Mar 2022 20:46:15 -0000
-Message-Id: <164798197503.17226.15753605762991144465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 22 Mar 2022 20:50:03 -0000
+Message-Id: <164798220361.19882.7521807986817841136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf/core
-    old: 2853714791b64b7045e53f7736d707e86059cc91
-    new: feff08395b2c427caadf00f8c22920cfb3306739
+  - ref: refs/heads/for-5.18/io_uring
+    old: 6e295a664efd083ac9a5c1a8130c45be1db0cde7
+    new: 7d58de1ade8c19d9972c888897cde303a4bc7728
     log: |
-         84005bb6148618cc8429d4011354f4a2f8a02914 perf ftrace latency: Add -n/--use-nsec option
-         feff08395b2c427caadf00f8c22920cfb3306739 perf ftrace latency: Update documentation
+         7d58de1ade8c19d9972c888897cde303a4bc7728 io_uring: don't recycle provided buffer if punted to async worker
+         
+  - ref: refs/heads/for-next
+    old: 67aa3bbac7753d19271e80e840b1470da41d0832
+    new: 9c5ed4675cd7b16dab2376897ff063559c4f54f8
+    log: |
+         7d58de1ade8c19d9972c888897cde303a4bc7728 io_uring: don't recycle provided buffer if punted to async worker
+         9c5ed4675cd7b16dab2376897ff063559c4f54f8 Merge branch 'for-5.18/io_uring' into for-next
          
