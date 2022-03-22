@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 22 Mar 2022 10:01:19 -0000
-Message-Id: <164794327970.20702.15275407908751603819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Tue, 22 Mar 2022 10:26:42 -0000
+Message-Id: <164794480272.4456.9979431990783499310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/pabeni/net-next
 user: pabeni
 changes:
   - ref: refs/heads/master
-    old: 6b3c74550224c3be24c4cf6ab8c333602b458bff
-    new: 6a7d8cff4a3301087dd139293e9bddcf63827282
+    old: 4723832fa63f30c85cce3739b0497e4e193f684b
+    new: 7b17d2d7d7bf5add35f1e9067ef9450698eac85e
     log: |
-         6a7d8cff4a3301087dd139293e9bddcf63827282 tipc: fix the timer expires after interval 100ms
+         917b149ac3d5c8b3a582559b9779ee29d69fad78 selftests: forwarding: Disable learning before link up
+         f70f5f1a8ffff4c943182aa80c600aeec1b9b001 selftests: forwarding: Use same VRF for port and VLAN upper
+         7b17d2d7d7bf5add35f1e9067ef9450698eac85e Merge branch 'selftests-forwarding-locked-bridge-port-fixes'
          
