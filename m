@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 22 Mar 2022 12:20:17 -0000
-Message-Id: <164795161709.14103.15892454419586403792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 22 Mar 2022 13:10:17 -0000
+Message-Id: <164795461753.12671.12505506245891496552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 3837c992260022a47fe866b49ae89f035a57dd61
-    new: a3e3c026e87bf24507ec42e8d7b4e91e110ded84
+  - ref: refs/heads/for-next
+    old: 716f7a2481580d0583d74814d986ba4c74693e58
+    new: 3d8fa7a22dcd54ccfdcea6ed0d9badbdb8594274
     log: |
-         a3e3c026e87bf24507ec42e8d7b4e91e110ded84 Tue Mar 22 12:19:18 PM UTC 2022
+         3d8fa7a22dcd54ccfdcea6ed0d9badbdb8594274 dt-bindings: ufs: qcom: Add SM6350 compatible string
          
