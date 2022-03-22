@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aegl/ras-tools
-Date: Tue, 22 Mar 2022 17:03:53 -0000
-Message-Id: <164796863390.724.13543746423690124451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/efilite
+Date: Tue, 22 Mar 2022 17:14:08 -0000
+Message-Id: <164796924888.7186.540355851611210701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aegl/ras-tools
-user: aegl
+repo: pub/scm/linux/kernel/git/ardb/efilite
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: e8b04612190b5fd221e4985ba6a02742543b99b1
-    new: 29600b3a66d8adf545614e2aef5ace7c3bf4d46d
+  - ref: refs/heads/main
+    old: 63d2ff699a55d9a1980338b572fea70d9137de2d
+    new: beb86485024fa55a6a0ffbc226009028fcff93bb
     log: |
-         29600b3a66d8adf545614e2aef5ace7c3bf4d46d einj_mem_uc: Fix parsing of available_error_types
+         b59c2b2da00757080ca02cf00d657d9419aec781 Reject misaligned address in free_pages
+         0a4d417ef70dea29ab4935244343f602e4774736 Rewrite page table code
+         6d78e05a6ff02964dabae0e33681f115088cb30b Implement randomized allocate_pages
+         beb86485024fa55a6a0ffbc226009028fcff93bb Implement locate_protocol
          
