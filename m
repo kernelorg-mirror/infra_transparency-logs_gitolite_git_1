@@ -1,26 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 22 Mar 2022 20:50:03 -0000
-Message-Id: <164798220361.19882.7521807986817841136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 22 Mar 2022 20:53:16 -0000
+Message-Id: <164798239657.20932.9610357868833606310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-5.18/io_uring
-    old: 6e295a664efd083ac9a5c1a8130c45be1db0cde7
-    new: 7d58de1ade8c19d9972c888897cde303a4bc7728
+  - ref: refs/heads/for-linus
+    old: 17aaf0193392cb3451bf0ac75ba396ec4cbded6e
+    new: ef248d9bd616b04df8be25539a4dc5db4b6c56f4
     log: |
-         7d58de1ade8c19d9972c888897cde303a4bc7728 io_uring: don't recycle provided buffer if punted to async worker
+         ef248d9bd616b04df8be25539a4dc5db4b6c56f4 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
          
   - ref: refs/heads/for-next
-    old: 67aa3bbac7753d19271e80e840b1470da41d0832
-    new: 9c5ed4675cd7b16dab2376897ff063559c4f54f8
+    old: 17aaf0193392cb3451bf0ac75ba396ec4cbded6e
+    new: ef248d9bd616b04df8be25539a4dc5db4b6c56f4
     log: |
-         7d58de1ade8c19d9972c888897cde303a4bc7728 io_uring: don't recycle provided buffer if punted to async worker
-         9c5ed4675cd7b16dab2376897ff063559c4f54f8 Merge branch 'for-5.18/io_uring' into for-next
+         ef248d9bd616b04df8be25539a4dc5db4b6c56f4 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
+         
+  - ref: refs/heads/master
+    old: 935d793378adc3bb2b761f9cd5573cd17dc250eb
+    new: 725c435b4bac8dd6ff414ca322bc850c1908ef9a
+    log: |
+         ef248d9bd616b04df8be25539a4dc5db4b6c56f4 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
+         725c435b4bac8dd6ff414ca322bc850c1908ef9a Merge branch 'for-linus'
          
