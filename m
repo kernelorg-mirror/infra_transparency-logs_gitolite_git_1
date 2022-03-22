@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0458463062141980376=="
+Content-Type: multipart/mixed; boundary="===============5627858765887717302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Tue, 22 Mar 2022 15:17:24 -0000
-Message-Id: <164796224451.30313.8846072353064851316@gitolite.kernel.org>
+Date: Tue, 22 Mar 2022 15:17:51 -0000
+Message-Id: <164796227113.30535.12044451292972031718@gitolite.kernel.org>
 
---===============0458463062141980376==
+--===============5627858765887717302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 user: luca
 changes:
-  - ref: refs/heads/master
-    old: 8594ab868799ce78c770498b74fe55ded30def9e
+  - ref: refs/heads/pending
+    old: e9a709969cb35c22ce03b8c36852285971d29bec
     new: e89600ebeeb14d18c0b062837a84196f72542830
-    log: revlist-8594ab868799-e89600ebeeb1.txt
+    log: revlist-e9a709969cb3-e89600ebeeb1.txt
 
---===============0458463062141980376==
+--===============5627858765887717302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8594ab868799-e89600ebeeb1.txt
+Content-Disposition: attachment; filename=revlist-e9a709969cb3-e89600ebeeb1.txt
 
-1dba41c9d2e2dc94b543394974f63d55aa195bfe net: ipa: add an interconnect dependency
-d922a99b96d0030f2e7e8128e98f29123172bd03 flow_offload: improve extack msg for user when adding invalid filter
-cb1d8fba91f2ecf828000707cc56a376498078a4 net: openvswitch: remove unneeded semicolon
-13b0bd2e62e7b16f273eb681174c842567015a39 net: dsa: mv88e6xxx: don't error out cmode set on missing lane
-002028857384242ebf1195c0b406e1570fd06457 net: dsa: mv88e6xxx: support RMII cmode
-bf08824a0f4776fc0626b82b6924fa1a5643eacb flow_dissector: Add support for HSR
-42f0c1934c7cb3e94c2fe8f5771245fa5631d0e7 tcp: Remove the unused api
-60ce37b03917e593d8e5d8bcc7ec820773daf81d bpf, sockmap: Do not ignore orig_len parameter
-e3d5ea2c011ecb16fb94c56a659364e6b30fac94 tcp: make tcp_read_sock() more robust
-8610037e8106b48c79cfe0afb92b2b2466e51c3d page_pool: Add allocation stats
-ad6fa1e1ab1b8164f1ba296b1b4dc556a483bcad page_pool: Add recycle stats
-6b95e3388b1ea0ca63500c5a6e39162dbf828433 page_pool: Add function to batch and return stats
-a3dd98281b9f265c7b89cb0c7a91739bff2e6506 Documentation: update networking/page_pool.rst
-cc10e84b2ec3aea2cb82129bdf4185d4c05a486d mlx5: add support for page_pool_get_stats
-a8ff736d31396cdd913660c34ff77b549aa853b3 Merge branch 'page_pool-stats'
-d90b3120473a770a10d81dd633e8e475ea86f944 net: stmmac: Add support for SM8150
-a7bf6d7c9249946996bc622a7a8584f2c48ea372 net: stmmac: dwmac-qcom-ethqos: Adjust rgmii loopback_en per platform
 d52b453608569357ab242ab780597e4b6118a4d4 Merge branch 'stmmac-SA8155p-ADP'
 4e6e6bec7440b9b76f312f28b1f4e944eebb3abc qed: display VF trust config
 cbcc44db2cf7b836896733acc0e5ea966136ed22 qed: validate and restrict untrusted VFs vlan promisc mode
@@ -472,6 +455,10 @@ f2e2662ccf483392a1f7517258c3aa6539264d44 net: dsa: felix: actually disable flood
 1330b6ef3313fcec577d2b020c290dc8b9f11f1a skb: make drop reason booleanable
 cdba24904e1dd4d5152c80f6f96a0ed187e7f8a4 net/fungible: Fix local_memory_node error
 40bb09c87f0b00c991f6c2fb367f0a2711760332 net/fungible: CONFIG_FUN_CORE needs SBITMAP
+895907779752606f6a4795abfc008509f8e38314 rtw89: 8852a: add ieee80211_ops::hw_scan
+7bfd05ff4e805d017940e889b7a91014c7b6f9e6 rtw89: add tx_wake notify for low ps mode
+517eed92bca2f66a894a53a38902bf1a06eefeb0 rtw89: fix HE PHY bandwidth capability
+12b604d4ba693a3aa254cf7f9d0b4835770e9e97 rtw89: declare HE capabilities in 6G band
 7228918b34615ef6317edcd9a058a057bc54aa32 x86/boot: Fix memremap of setup_indirect structures
 445c1470b6ef96440e7cfc42dfc160f5004fd149 x86/boot: Add setup_indirect support in early_memremap_is_setup_data()
 6babfc6e6fab068018c36e8f6605184b8c0b349d net: ethernet: ti: cpts: Handle error for clk_enable
@@ -549,6 +536,19 @@ b0de0cf4f57cbac41ef7fa382bcaef83288af1e7 tcp: autocork: take MSG_EOR hint into c
 b5521fe9a9336caa1caa2db126f1d3ba1bc8303e Merge tag 'xsa396-5.17-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 9c674947f6112e4d68715e9f363c6698c2b0eead Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 9a564bccb78a76740ea9d75a259942df8143d02c af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
+8061effc78fae30b0b4d52d18bae8b37a72ebc93 iwlwifi: bump FW API to 71 for AX devices
+b0aa02b3de89aaed95b9b17dfb4639e7190deebd iwlwifi: mvm: add a flag to reduce power command.
+b49c2b252b58e8afa2b0a908d61ef979334d78bd iwlwifi: Configure FW debug preset via module param.
+8b3d2c4882874f32dd1470a92e98417a8d0345cb iwlwifi: mvm: remove cipher scheme support
+5053a451109e08d62d9086c1427c55c0411c9c3e iwlwifi: yoyo: disable IMR DRAM region if IMR is disabled
+1c4db7613f35b248ff05b8bfb3a4580a3d11d75c iwlwifi: mvm: add support for IMR based on platform
+a6d21729ff7a116744daeadd8382c97c9ea85503 iwlwifi: yoyo: dump IMR DRAM only for HW and FW error
+7b9f485091a5755f6e0a7dd3725f3b312768ecd0 iwlwifi: pcie: fix SW error MSI-X mapping
+bb16ffd561b60638108f1cc97b08f18270468678 iwlwifi: use 4k queue size for Bz A-step
+f0c163382cd2497348c9212f5d3b87754ed33a7b iwlwifi: dbg: in sync mode don't call schedule
+97374513bbc426cea115882847369efac633ead3 iwlwifi: dbg: check trigger data before access
+e8e10a37c51c08b99d272b2e1b3ef70fcd38f9e8 iwlwifi: acpi: move ppag code from mvm to fw/acpi
+8594ab868799ce78c770498b74fe55ded30def9e iwlwifi: bump FW API to 72 for AX devices
 4b7fe92c06901f4563af0e36d25223a5ab343782 can: isotp: add local echo tx processing for consecutive frames
 530e0d46c61314c59ecfdb8d3bcb87edbc0f85d3 can: isotp: set default value for N_As to 50 micro seconds
 9c0c191d82a1de964ac953a1df8b5744ec670b07 can: isotp: set max PDU size to 64 kByte
@@ -1051,4 +1051,4 @@ dca51fe7fbb11909cd80e81714f6de4515123a64 Merge tag 'wireless-next-2022-03-18' of
 efb3719f4ab0c4646ce2fe16c610e6a9bb0e1b08 af_vsock: SOCK_SEQPACKET receive timeout test
 e89600ebeeb14d18c0b062837a84196f72542830 af_vsock: SOCK_SEQPACKET broken buffer test
 
---===============0458463062141980376==--
+--===============5627858765887717302==--
