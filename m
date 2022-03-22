@@ -1,33 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4821609892386758581=="
+Content-Type: multipart/mixed; boundary="===============5265956505935938691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 22 Mar 2022 23:40:15 -0000
-Message-Id: <164799241516.32040.4072451865640777441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 22 Mar 2022 23:40:25 -0000
+Message-Id: <164799242570.32161.12954064711288179296@gitolite.kernel.org>
 
---===============4821609892386758581==
+--===============5265956505935938691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
-    old: 555f3d7be91a873114c9656069f1a9fa476ec41a
+    old: cfb92440ee71adcc2105b0890bb01ac3cddb8507
     new: 3bf03b9a0839c9fb06927ae53ebd0f960b19d408
-    log: revlist-555f3d7be91a-3bf03b9a0839.txt
+    log: revlist-cfb92440ee71-3bf03b9a0839.txt
   - ref: refs/tags/v5.17
     old: 0000000000000000000000000000000000000000
     new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f95462f2d3d47839c81c8c5985fb49e0b02e97d3
-  - ref: refs/tags/v5.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: fb245665706076547ba72af611b41bc38c3ab73a
   - ref: refs/tags/v5.17-rc6
     old: 0000000000000000000000000000000000000000
     new: 5880f641c08a2f9788ccff499c368936438c5ae2
@@ -38,11 +32,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
 
---===============4821609892386758581==
+--===============5265956505935938691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-555f3d7be91a-3bf03b9a0839.txt
+Content-Disposition: attachment; filename=revlist-cfb92440ee71-3bf03b9a0839.txt
 
 2984539959dbaf4e65e19bf90c2419304a81a985 tick/rcu: Remove obsolete rcu_needs_cpu() parameters
 0345691b24c076655ce8f0f4bfd24cba3467ccbd tick/rcu: Stop allowing RCU_SOFTIRQ in idle
@@ -1069,4 +1063,4 @@ f968c6a4c66ec25e97ca8801eada103abfe9b295 Docs/ABI/testing: add DAMON sysfs inter
 15423a52cc84e23bc11e4a903cd775adc7c6ab00 mm/damon/sysfs: remove repeat container_of() in damon_sysfs_kdamond_release()
 3bf03b9a0839c9fb06927ae53ebd0f960b19d408 Merge branch 'akpm' (patches from Andrew)
 
---===============4821609892386758581==--
+--===============5265956505935938691==--
