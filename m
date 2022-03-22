@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 22 Mar 2022 01:51:13 -0000
-Message-Id: <164791387331.19444.15058752682790810244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 22 Mar 2022 01:55:59 -0000
+Message-Id: <164791415919.22437.11384945242392693087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: ca3c4670b89d8f5de2975c4c4995d70749dab672
-    new: a3975090a664a56a45b5ca9f36d0f60cf1770ef9
+  - ref: refs/heads/riscv-ftrace_mutex_fix
+    old: 211a90331ccd425eeb7fc3df09a310730ae54b57
+    new: 013eaa62130cd541cb2e7bf58303c509298701a8
     log: |
-         a3975090a664a56a45b5ca9f36d0f60cf1770ef9 Tue Mar 22 01:49:18 AM UTC 2022
+         013eaa62130cd541cb2e7bf58303c509298701a8 RISC-V: Don't check text_mutex during stop_machine
          
