@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3567399948766016820=="
+Content-Type: multipart/mixed; boundary="===============6019006642712933803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 23 Mar 2022 16:47:21 -0000
-Message-Id: <164805404157.13947.14110984650342531889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 23 Mar 2022 16:47:27 -0000
+Message-Id: <164805404791.14073.14011119178179041456@gitolite.kernel.org>
 
---===============3567399948766016820==
+--===============6019006642712933803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 6b1f86f8e9c7f9de7ca1cb987b2cf25e99b1ae3a
     log: revlist-3bf03b9a0839-6b1f86f8e9c7.txt
 
---===============3567399948766016820==
+--===============6019006642712933803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -196,4 +196,4 @@ d68eccad370665830e16e5c77611fde78cd749b3 mm/filemap: Allow large folios to be ad
 9030fb0bb9d607908d51f9ee02efdbe01da355ee Merge tag 'folio-5.18c' of git://git.infradead.org/users/willy/pagecache
 6b1f86f8e9c7f9de7ca1cb987b2cf25e99b1ae3a Merge tag 'folio-5.18b' of git://git.infradead.org/users/willy/pagecache
 
---===============3567399948766016820==--
+--===============6019006642712933803==--
