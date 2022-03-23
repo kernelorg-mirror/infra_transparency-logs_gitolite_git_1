@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Wed, 23 Mar 2022 20:54:21 -0000
-Message-Id: <164806886159.14852.7690007327984403117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 23 Mar 2022 21:18:37 -0000
+Message-Id: <164807031742.30822.2202715691891897689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/pci-v5.18-changes
-    old: 0000000000000000000000000000000000000000
-    new: 0a8ac67413afcb7d18436ebdfc6aae10ae38b65a
+  - ref: refs/heads/master
+    old: 4e5f68a2f95988a7cddb102e62ef777e0ed59b34
+    new: dbb22ccdbb6bacbb39164dafdb1efddee71b6f0c
+    log: |
+         dbb22ccdbb6bacbb39164dafdb1efddee71b6f0c Wed Mar 23 09:12:53 PM UTC 2022
+         
