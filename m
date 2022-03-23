@@ -1,37 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6024818127293994075=="
+Content-Type: multipart/mixed; boundary="===============0508729759933773290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Wed, 23 Mar 2022 20:23:04 -0000
-Message-Id: <164806698478.27069.17097245811731194305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 23 Mar 2022 20:23:30 -0000
+Message-Id: <164806701053.27280.12323109226620430981@gitolite.kernel.org>
 
---===============6024818127293994075==
+--===============0508729759933773290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
+repo: pub/scm/linux/kernel/git/netfilter/nf
 user: pablo
 changes:
   - ref: refs/heads/master
-    old: 36c2e31ad25bd087756b8db9584994d1d80c236b
-    new: 89695196f0ba78a17453f9616355f2ca6b293402
-    log: revlist-36c2e31ad25b-89695196f0ba.txt
+    old: 4fa331b45da29765542ed3947d94e12615d298b5
+    new: f92fcb5c00dc924a4661d5bf68de7937040f26b8
+    log: revlist-4fa331b45da2-f92fcb5c00dc.txt
 
---===============6024818127293994075==
+--===============0508729759933773290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36c2e31ad25b-89695196f0ba.txt
+Content-Disposition: attachment; filename=revlist-4fa331b45da2-f92fcb5c00dc.txt
 
 f54eeae970f4dd4400d8ef3157788fbd3e2dd0e3 bpf: Remove Lorenz Bauer from L7 BPF maintainers
 18b1ab7aa76bde181bdb1ab19a87fa9523c32f21 xsk: Fix race at socket teardown
-0492d857636e1c52cd71594a723c4b26a7b31978 netfilter: flowtable: Fix QinQ and pppoe support for inet table
-6e1acfa387b9ff82cfc7db8cc3b6959221a95851 netfilter: nf_tables: validate registers coming from userspace.
-4c905f6740a365464e91467aa50916555b28213d netfilter: nf_tables: initialize registers in nft_do_chain()
-4fa331b45da29765542ed3947d94e12615d298b5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 4219196d1f662cb10a462eb9e076633a3fc31a15 ibmvnic: fix race between xmit and reset
 e82025c623e2bf04d162bafceb66a59115814479 af_unix: Fix some data-races around unix_sk(sk)->oob_skb.
 d9a232d435dcc966738b0f414a86f7edf4f4c8c4 af_unix: Support POLLPRI for OOB.
@@ -51,15 +47,8 @@ ed0c99dc0f499ff8b6e75b5ae6092ab42be1ad39 tcp: ensure PMTU updates are processed 
 8fd36358ce82382519b50b05f437493e1e00c4a9 net: dsa: fix panic on shutdown if multi-chip tree failed to probe
 6b3c74550224c3be24c4cf6ab8c333602b458bff net: wwan: qcom_bam_dmux: fix wrong pointer passed to IS_ERR()
 6a7d8cff4a3301087dd139293e9bddcf63827282 tipc: fix the timer expires after interval 100ms
-e9e6faeafaa00da1851bcf47912b0f1acae666b4 drivers: net: xgene: Fix regression in CRC stripping
-4a6806cfcbca2cd7bae94b2d4244dab3aaa1b333 net: marvell: prestera: add missing destroy_workqueue() in prestera_module_init()
-a911ad18a56aeecf87a098ad1cdc4de91d7f60de net: bridge: mst: Restrict info size queries to bridge ports
-054d5575cd6ed2792611a7cbb8c88663cc873780 net/sched: fix incorrect vlan_push_eth dest field
 32d53c0aa3a7b727243473949bad2a830b908edc ice: fix 'scheduling while atomic' on aux critical err interrupt
 5a3156932da06f09953764de113419f254086faf ice: don't allow to run ice_send_event_to_aux() in atomic ctx
 f92fcb5c00dc924a4661d5bf68de7937040f26b8 Merge branch 'ice-avoid-sleeping-scheduling-in-atomic-contexts'
-2844e2434385819f674d1fb4130c308c50ba681e drivers: ethernet: cpsw: fix panic when interrupt coaleceing is set via ethtool
-764f4eb6846f5475f1244767d24d25dd86528a4a llc: fix netdevice reference leaks in llc_ui_bind()
-89695196f0ba78a17453f9616355f2ca6b293402 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6024818127293994075==--
+--===============0508729759933773290==--
