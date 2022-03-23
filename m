@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Wed, 23 Mar 2022 15:43:06 -0000
-Message-Id: <164805018699.2140.1762953740987728573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 23 Mar 2022 15:47:43 -0000
+Message-Id: <164805046345.6327.8996860482546054540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: fa2d8afa1f0a2d6c1018a04a2ea65aa2f9ac8621
-    new: 0e1b951d6de0528a81d119634ad23f8f9fb6d423
+  - ref: refs/heads/dm-5.19
+    old: cf68874a9c7355bde8a31b6087b0b57f6dc23d62
+    new: 5e0cb0216cf059a54d58149a46c6ea3ef207c696
     log: |
-         5e6ded2e7a5d9c71186acc8f51989ef6e6addda4 livepatch: Reorder to use before freeing a pointer
-         0e1b951d6de0528a81d119634ad23f8f9fb6d423 Merge branch 'for-5.18/selftests-fixes' into for-next
+         f50e56649a3f302420ccab8f532d7326df581597 dm: optimize is_abnormal_io for normal rw IO
+         5e0cb0216cf059a54d58149a46c6ea3ef207c696 dm: push error handling down to __split_and_process_bio
          
