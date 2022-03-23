@@ -1,70 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============1825833772434698674=="
+Content-Type: multipart/mixed; boundary="===============1506022863558750744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Wed, 23 Mar 2022 18:59:37 -0000
-Message-Id: <164806197768.4089.6819776200570824609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 23 Mar 2022 19:24:44 -0000
+Message-Id: <164806348447.20220.5921676192795404949@gitolite.kernel.org>
 
---===============1825833772434698674==
+--===============1506022863558750744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/rtc-next
-    old: aa4457338209fbf11ab1b4d3685dd784e2305fbf
-    new: 1a31d63632553a54af6c0c3c5b5930e931a94ee4
-    log: revlist-aa4457338209-1a31d6363255.txt
+  - ref: refs/heads/master
+    old: 6b1f86f8e9c7f9de7ca1cb987b2cf25e99b1ae3a
+    new: 1bc191051dca28fa6d20fd1dc34a1903e7d4fb62
+    log: revlist-6b1f86f8e9c7-1bc191051dca.txt
 
---===============1825833772434698674==
+--===============1506022863558750744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa4457338209-1a31d6363255.txt
+Content-Disposition: attachment; filename=revlist-6b1f86f8e9c7-1bc191051dca.txt
 
-eb74f47bb6b0c0494d7c90491ee321f3b699f93f dt-bindings: rtc: at91: rename rtt bindings file
-811f5559270f25c34c338d6eaa2ece2544c3d3bd rtc: mc146818-lib: fix locking in mc146818_set_time
-ea6af39f3da50c86367a71eb3cc674ade3ed244c rtc: pl031: fix rtc features null pointer dereference
-9f6cd82eca7e91a0d0311242a87c6aa3c2737968 rtc: sun6i: Fix time overflow handling
-648c151ab5d8b05bf1c539c92fcb080f475f20b9 rtc: sun6i: Add support for linear day storage
-7878fec4b5445b708f5aa068bbc600e59308a165 rtc: sun6i: Add support for broken-down alarm registers
-8a93720329d4d24c352b035e0532f756c8ecf546 rtc: sun6i: Add Allwinner H616 support
-43f0269b6b89c1eec4ef83c48035608f4dcdd886 rtc: wm8350: Handle error for wm8350_register_irq
-7fc46339c33e60218bbb1f542d55da1678919d11 clk: sunxi-ng: mux: Allow muxes to have keys
-d91612d7f01aca454469976d25db761c5085ae4d clk: sunxi-ng: Add support for the sun6i RTC clocks
-1738890a3165ccd0da98ebd3e2d5f9b230d5afa8 clk: sunxi-ng: sun6i-rtc: Add support for H6
-9e02e8032ae546c75b3bbb5c821eb11bdec286ad rtc: ds1685: switch to RTC_FEATURE_UPDATE_INTERRUPT
-5c0a04a663019dd14cb000d370cff0ced6df7ef1 rtc: ds1685: drop no_irq
-000bf045c69b40f5fd9aac61414cbb44f322e7c0 rtc: ds1307: switch to RTC_FEATURE_UPDATE_INTERRUPT
-9597f8cc80b2044b02579961cffc6cd0d0d2f099 rtc: mpc5121: let the core handle the alarm resolution
-14e6fc13a979ef87aa269a4386854d4dcc2cc836 rtc: mpc5121: switch to RTC_FEATURE_UPDATE_INTERRUPT
-ba39374bc988c6a8ff81811d05839490457e79a5 rtc: m41t80: switch to RTC_FEATURE_UPDATE_INTERRUPT
-965994736554aa6b356ddcd9751cc5c450aaf5f8 rtc: opal: switch to RTC_FEATURE_UPDATE_INTERRUPT
-fff36f79681602d1196be34a8f5a7cc0c5a7a582 rtc: pcf2123: switch to RTC_FEATURE_UPDATE_INTERRUPT
-c7e91f7c1baa8b0bf1864c8abe44ca4b8732eb49 rtc: pcf2123: set RTC_FEATURE_ALARM_RES_MINUTE
-689fafd5b53ac223ba7c7b83aebe1c78ce7db46c rtc: pcf2127: switch to RTC_FEATURE_UPDATE_INTERRUPT
-bda1027358e72e6255f11a4b59c375f138a2dd10 rtc: pcf2127: set RTC_FEATURE_ALARM_RES_2S
-11316c2463740d02e6c9680501b974e56555a85f rtc: pcf85063: switch to RTC_FEATURE_UPDATE_INTERRUPT
-a9f2d5bb662295f6c742d0e0366fcbaf93a923be rtc: pcf85063: set RTC_FEATURE_ALARM_RES_2S
-c1325e730caf66b81e629d6587415571ae0c20dc rtc: pcf8523: switch to RTC_FEATURE_UPDATE_INTERRUPT
-e51cdef0819e171abdf4ceaea0385f21e29df46b rtc: pcf8523: let the core handle the alarm resolution
-cf4521ed7ba5b5b0c72f74f180b6e9557f130522 rtc: pcf8563: let the core handle the alarm resolution
-d28a0e144e5ee146c7e821a5d54571363da7dce7 rtc: pcf8563: switch to RTC_FEATURE_UPDATE_INTERRUPT
-4fc4d3339f0f6f53ccc001f4e56a86fa1d027e87 rtc: spear: switch to devm_rtc_allocate_device
-f395e1d3b28d7c2c67b73bd467c4fb79523e1c65 rtc: spear: set range
-343597e29eecb391fec144e600b1af84999a5045 rtc: spear: drop uie_unsupported
-a87a07a111443adbf69cb815187e9532319e8530 rtc: spear: fix spear_rtc_read_time
-e99653afeb9585350644c5ae4b0ca987cbe8d053 rtc: add new RTC_FEATURE_ALARM_WAKEUP_ONLY feature
-8aa74363969f172c845b270b47a3d22871d7e156 rtc: efi: switch to devm_rtc_allocate_device
-1350b94c94ccd8cc585709e21bad6380d50112e1 rtc: efi: switch to RTC_FEATURE_UPDATE_INTERRUPT
-07398602c84adf49a0b908313f85370792e8cc68 rtc: hym8563: switch to devm_rtc_allocate_device
-e6b7d19d393850452dbc2a10879f36cb25a24613 rtc: hym8563: let the core handle the alarm resolution
-7e1df2f1c58185aff7b2658e34a46924cf0ab503 rtc: hym8563: switch to RTC_FEATURE_UPDATE_INTERRUPT
-ed90e3e20d35bf07b650f7028728e159c1741be1 rtc: xgene: stop using uie_unsupported
-1a31d63632553a54af6c0c3c5b5930e931a94ee4 rtc: remove uie_unsupported
+f244b4dc53e520d4570b2610436aba0593ce6f55 printk: ringbuffer: Improve prb_next_seq() performance
+d75b26f880f60ead301e79ba0f4a635c5a60767f vsprintf: Fix potential unaligned access
+f74a08fc61073cc5b5f4e24eb513f0b79f4f6ce7 vsprintf: Move space out of string literals in fourcc_string()
+1581a884b7ca5592270caa010a910f2ed4f7b5f5 tracing: Remove size restriction on tracing_log_err cmd strings
+edfeed318d59ff242e895bf906223fc0b915117c tracing: Remove size restriction on hist trigger cmd error logging
+27c888da9867725784bad3d6455d6e53b425fa2b tracing: Remove size restriction on synthetic event cmd error logging
+55bc8384d3deadce48923d8329c1434494c52273 tracing: Save both wakee and current on wakeup events
+7f5a08c79df35e68f1a43033450c5050f12bc155 user_events: Add minimal support for trace_event into ftrace
+aa3b2b4c669205200615dd8a2cc4af4f81fd0335 user_events: Add print_fmt generation support for basic types
+9aed4e157d1ffe4aeebc005b4eceede1ed5a403a user_events: Handle matching arguments from dyn_events
+3207d0459ef3789c7efa801b57123c8a79d05694 user_events: Add basic perf and eBPF support
+0279400ad38d858ed68f5d787385f6122d4170b2 user_events: Optimize writing events by only copying data once
+2467cda1b5c97a58776a8aebfa5d76543e47479d user_events: Validate user payloads for size and null termination
+446640e49ec00458655e29c31e55aabd6702985d user_events: Add self-test for ftrace integration
+745bb7e683ff00e7b52e54b422fd05c58ae94e1a user_events: Add self-test for dynamic_events integration
+3a6163893a9a6a90e086234ee205c1f74eeb5f84 user_events: Add self-test for perf_event integration
+7640e77035aadcd7d50f9c7583ca25a4e1aa2874 user_events: Add self-test for validator boundaries
+c57eb47815097d879e1fa8c81e313aec917d8f4d user_events: Add sample code for typical usage
+864ea0e10cc90416a01b46f0d47a6f26dc020820 user_events: Add documentation file
+77498617857f68496b360081dde1a492d40c28b2 printk: Add panic_in_progress helper
+d51507098ff91e863b6e0a8047507741d59b8175 printk: disable optimistic spin during panic
+13fb0f74d7029df3b8137f11ef955e578a4a4a60 printk: Avoid livelock with heavy printk during panic
+8ebc476fd51e6c0fd3174ec1959a20ba99d4c5e5 printk: Drop console_sem during panic
+2ba3673d70178bf07fb75ff25c54bc478add4021 printk: use atomic updates for klogd work
+96b02f2fbde29a08ac7239fd9ba87ff870cf8a94 Docs: printk: add 'console=null|""' to admin/kernel-parameters
+a5a763b2b26678f1e01b2d031819b175d8f14555 printk: Set console_set_on_cmdline=1 when __add_preferred_console() is called with user_specified == true
+ce06e863f36f16cdc3b84c7206cd13d5f597d623 printk: make suppress_panic_printk static
+9f8e5aee93ed2482638d577a56806b455084b595 tracing: Fix allocation of last_cmd in last_cmd_set()
+84842911322fc6a02a03ab9e728a48c691fe3efd vsprintf: Fix %pK with kptr_restrict == 0
+b665eae7a788c5e2bc10f9ac3c0137aa0ad1fc97 printk: fix return value of printk.devkmsg __setup handler
+173c2049d12b441b498d6423276f5dd76b1e637b user_events: Fix potential uninitialized pointer while parsing field
+5677a3d713ad795e3ce32d631941e982777b43db tracing: Fix last_cmd_set() string management in histogram code
+8bcd06632b73291e8734f46084ed04f4106b840a tracing: Allow custom events to be added to the tracefs directory
+953c2f052112a857c00058a641dc0c58ec7551d4 tracing: Add sample code for custom trace events
+af6b9668e85ffd1502aada8036ccbf4dbd481708 tracing: Move the defines to create TRACE_EVENTS into their own files
+3a73333fb370f7b65de9d94c53df503642bda789 tracing: Add TRACE_CUSTOM_EVENT() macro
+7e348b325bc40eb52aead4d57a1f90d33ea834fc user_events: Prevent dyn_event delete racing with ioctl add/delete
+9f438d4d7fa2f59570cd58bca24ac82e7172d63b tracing: Fix strncpy warning in trace_events_synth.c
+b3bc8547d3be60898818885f5bf22d0a62e2eb48 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+380af29b8d7670c445965bd573ab219aff0c4c11 tracing: Add snapshot at end of kernel boot up
+bc47ee4844d6b7d7351536cd99d35848c4449689 tracing/user_events: Use alloc_pages instead of kzalloc() for register pages
+089331d47325d3f55016ed3d1f79ffd2754fb19e user_events: Add trace event call as root for low permission cases
+61c57d578bd7ca2aff3652ed62d95e3f8fc6d16e rtla/osnoise: Add support to adjust the tracing_thresh
+d635316ae92291083ae7a36014e29ed7b306cb04 rtla/osnoise: Add an option to set the threshold
+2b622edd5eb5a12c1203fdb353c2ce0681672571 rtla/osnoise: Add the automatic trace option
+173a3b014827955cefdf972ae673d94b60e31cf8 rtla/timerlat: Add the automatic trace option
+b5aa0be25c27a7f21d9a28f0e0057915552d3c1b rtla/trace: Add trace events helpers
+51d64c3a181938da8fb56404524e15776e9c6bf8 rtla: Add -e/--event support
+336c92b26cf9aee6c5d5907ef49b90d2665e9d70 rtla/trace: Add trace event trigger helpers
+1a754893653f73724d007c2cf95cf6c47d5114c4 rtla: Add --trigger support
+5487b6ce267bbafd399f3642062d974832d3eddc rtla/trace: Add trace event filter helpers
+44f3a37d1d3eb10770c7fec4eb89495d37957a26 rtla: Add --filter support
+761916fd02c2525139aca957b8a53fda1d8b3616 rtla/trace: Save event histogram output to a file
+28d2160cb1a18cca87a51345e7df47499447f5a4 rtla: Check for trace off also in the trace instance
+7d38c35167c58153e8b5bea839616d00e90564b9 rtla/osnoise: Fix osnoise hist stop tracing message
+7d0dc9576dc3817c483b408715e506c3e9f37bed rtla/timerlat: Add --dma-latency option
+75016ca3acd0de79868ef5b0694195fe05288ade rtla: Tools main loop cleanup
+795301d3c28996219d555023ac6863401b6076bc tracing: Have type enum modifications copy the strings
+0834c6f03b0279d58718f93630206305079645da Merge branch 'for-5.18-vsprintf-fourcc-fixup' into for-linus
+1ccd85f5ac60be460bade24a873800ae6820fbd6 Merge branch 'for-5.18-panic-deadlocks' into for-linus
+5eb17c1f458c3921cbfdc6544044642f48d09644 Merge branch 'rework/fast-next-seq' into for-linus
+30d024b5058e0433914022f87d917a97a9527632 cacheflush.h: Add forward declaration for struct folio
+3ef4ea3d84ca568dcd57816b9521e82e3bd94f08 Merge tag 'printk-for-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+20f463fb38686dd3fe7e6903cab56bdbbf756238 Merge tag 'trace-rtla-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+1bc191051dca28fa6d20fd1dc34a1903e7d4fb62 Merge tag 'trace-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============1825833772434698674==--
+--===============1506022863558750744==--
