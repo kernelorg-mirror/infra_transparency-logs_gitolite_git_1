@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 23 Mar 2022 16:54:29 -0000
-Message-Id: <164805446917.18034.11917972673542936239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-sgx
+Date: Wed, 23 Mar 2022 17:02:44 -0000
+Message-Id: <164805496415.23666.18305196076823913847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/jarkko/linux-sgx
+user: jarkko
 changes:
-  - ref: refs/tags/arm-defconfig-5.18
-    old: ffc2f8a0917bf0074b2b3bc45f3c7b36a029b584
-    new: 8bfef2df55d1aadbfb3f1ee95ccea3abb1c68a82
+  - ref: refs/heads/master
+    old: ecd65b71bea122099015f4e89996e8f46cfb03a0
+    new: 1750586cfc98757f2e7af332c81a177a0f6e215d
     log: |
-         cf38326010aebf39855977475a901c4c7a3e0b63 ARM: configs: multi_v5: Enable Allwinner F1C100
+         f1aae470ec2373dd5d70f4dd8dfb21f5a66fcff5 selftests/sgx: Use rip relative addressing for encl_stack
+         1750586cfc98757f2e7af332c81a177a0f6e215d selftests/sgx: Make TCS table relocatable
          
