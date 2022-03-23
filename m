@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 23 Mar 2022 20:09:58 -0000
-Message-Id: <164806619863.17279.10367118617461124711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 23 Mar 2022 20:19:13 -0000
+Message-Id: <164806675365.24353.4629296855255578082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 190fd07c32ba7cda7ab1a214cffb1f408838abaf
-    new: 4dd07af12b86f5674137e315080d1407dd27dc3c
+  - ref: refs/heads/ceph-sparse-read
+    old: cfb1d1d34e8d18c72f70f2cf5eea21357a1e0b4e
+    new: da1d82f0cca814ee175a657e07e8da81d100a34f
     log: |
-         4dd07af12b86f5674137e315080d1407dd27dc3c random: re-add removed comment about get_random_{u32,u64} reseeding
+         c5bdb0d4a55e5b2dff372fc86fe1983287758921 libceph: support sparse reads on msgr2 secure codepath
+         da1d82f0cca814ee175a657e07e8da81d100a34f DEBUG: hex dump the decrypted buffer
          
