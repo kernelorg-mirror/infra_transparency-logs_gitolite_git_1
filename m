@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 23 Mar 2022 14:58:36 -0000
-Message-Id: <164804751636.5025.15933092136112343736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 23 Mar 2022 14:58:59 -0000
+Message-Id: <164804753923.5225.9988102996142113367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/next/libgpiod-2.0
-    old: fd3c7267d67d01c5f730bcacba8d71ea0d58b28c
-    new: 5e396ad40057f99491e4341d538d4864dc8a44e3
+  - ref: refs/heads/main
+    old: 1d7a308bf7349fcf1627e950159029dfccf85891
+    new: 501646beec2b1c4a2ff4f2909c5ddb5cea8c7f8e
     log: |
-         5e396ad40057f99491e4341d538d4864dc8a44e3 WIP: tests: bump the required kernel version
+         501646beec2b1c4a2ff4f2909c5ddb5cea8c7f8e kexec-xen: Allow xen_kexec_exec() to return in case of Live Update
+         
+  - ref: refs/heads/master
+    old: 1d7a308bf7349fcf1627e950159029dfccf85891
+    new: 501646beec2b1c4a2ff4f2909c5ddb5cea8c7f8e
+    log: |
+         501646beec2b1c4a2ff4f2909c5ddb5cea8c7f8e kexec-xen: Allow xen_kexec_exec() to return in case of Live Update
          
