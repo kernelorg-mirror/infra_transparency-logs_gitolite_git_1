@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0585699365926235722=="
+Content-Type: multipart/mixed; boundary="===============5278203873311979816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 23 Mar 2022 04:16:18 -0000
-Message-Id: <164800897869.21208.7138383520748288662@gitolite.kernel.org>
+Date: Wed, 23 Mar 2022 04:16:27 -0000
+Message-Id: <164800898700.21338.16013863326106226069@gitolite.kernel.org>
 
---===============0585699365926235722==
+--===============5278203873311979816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 7f0059b58f0257d895fafd2f2e3afe3bbdf21e64
     new: 2af7e566a8616c278e1d7287ce86cd3900bed943
     log: revlist-7f0059b58f02-2af7e566a861.txt
 
---===============0585699365926235722==
+--===============5278203873311979816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cde3fc244b3d2e1bb32fc5869c718ec1cbb79481 net: bridge: mst: prevent NULL deref in
 b20bdd9cc9740ac1f2138adab25ddd51245c67be iwlwifi: mvm: Don't fail if PPAG isn't supported
 2af7e566a8616c278e1d7287ce86cd3900bed943 net/mlx5e: Fix build warning, detected write beyond size of field
 
---===============0585699365926235722==--
+--===============5278203873311979816==--
