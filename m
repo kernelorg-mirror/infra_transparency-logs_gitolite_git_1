@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Wed, 23 Mar 2022 09:42:21 -0000
-Message-Id: <164802854134.32540.17471153410561196542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Wed, 23 Mar 2022 09:50:22 -0000
+Message-Id: <164802902290.6687.2193762455978042331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/next
-    old: 3bcc372c9865bec3ab9bfcf30b2426cf68bc18af
-    new: 4aa5ac75bf79cbbc46369163eb2e3addbff0d434
-    log: |
-         4aa5ac75bf79cbbc46369163eb2e3addbff0d434 KVM: s390: Fix lockdep issue in vm memop
-         
+  - ref: refs/tags/2.5-rc1.1
+    old: 0000000000000000000000000000000000000000
+    new: 50a25b3fb33b7f25fe4e2e05ea2607e810637ba4
