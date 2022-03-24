@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 24 Mar 2022 03:28:31 -0000
-Message-Id: <164809251185.15904.15040082970857334678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Thu, 24 Mar 2022 04:05:28 -0000
+Message-Id: <164809472869.7788.15581666731380411877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djbw
 changes:
-  - ref: refs/heads/main
-    old: 418481002fdc76a3b7caa17dc21b94cf1c4ff1c1
-    new: 4aeb6e60d0420ba22744f45e9d09476abc614e46
+  - ref: refs/heads/libnvdimm-for-next
+    old: 66908004f0557c591ebb6e6b65f332669de0a0ea
+    new: ada8d8d337ee970860c9844126e634df8076aa11
     log: |
-         1ee309a49aa071c247d1fecb2b4d736284a714fc configure: add check_libtirpc()
-         292509f95dd407d5dcef18822d00ff83ef1b7d8f ss: remove an implicit dependency on rpcinfo
-         4aeb6e60d0420ba22744f45e9d09476abc614e46 Merge branch 'ss-rpcinfo' into next
+         de7a9e949f4f094741f708cd05572f932d009d02 drivers/nvdimm: Fix build failure when CONFIG_PERF_EVENTS is not set
+         d0007eb15c2a8113e847143c783ea83d93963741 powerpc/papr_scm: Fix build failure when
+         11cddee9c19f57bba335cff9787f23fb2d6d6f26 MAINTAINERS: remove section LIBNVDIMM BLK: MMIO-APERTURE DRIVER
+         ada8d8d337ee970860c9844126e634df8076aa11 nvdimm/blk: Fix title level
          
-  - ref: refs/heads/next
-    old: 0000000000000000000000000000000000000000
-    new: 4aeb6e60d0420ba22744f45e9d09476abc614e46
