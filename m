@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1199538389861575369=="
+Content-Type: multipart/mixed; boundary="===============6345444918601887079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Mar 2022 21:59:45 -0000
-Message-Id: <164815918546.5050.11616052941402269899@gitolite.kernel.org>
+Date: Thu, 24 Mar 2022 21:59:51 -0000
+Message-Id: <164815919152.5139.10590077979458109065@gitolite.kernel.org>
 
---===============1199538389861575369==
+--===============6345444918601887079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2af7e566a8616c278e1d7287ce86cd3900bed943
     new: 169e77764adc041b1dacba84ea90516a895d43b2
     log: revlist-2af7e566a861-169e77764adc.txt
 
---===============1199538389861575369==
+--===============6345444918601887079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ efee6c79298fd823c569d501d041de85caa102a6 Merge tag 'tomoyo-pr-20220322' of git:/
 7403e6d8263937dea206dd201fed1ceed190ca18 Merge tag 'vfio-v5.18-rc1' of https://github.com/awilliam/linux-vfio
 169e77764adc041b1dacba84ea90516a895d43b2 Merge tag 'net-next-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============1199538389861575369==--
+--===============6345444918601887079==--
