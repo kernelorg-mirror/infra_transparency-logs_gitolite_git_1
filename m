@@ -1,41 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 24 Mar 2022 22:47:24 -0000
-Message-Id: <164816204436.5280.2929204267737179799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 24 Mar 2022 22:50:03 -0000
+Message-Id: <164816220345.7617.4541809177746966669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/devel
-    old: 5c032526a5b473dff77f012c8e863e12d17bc107
-    new: 168a0abf05a8da919397552d9cd2a798c4104e8a
+  - ref: refs/heads/for-5.18/io_uring
+    old: 6d4809f49bec8dc3b244debcb97f78239e52f5bb
+    new: fd7427eb8e67ff15a76c65d7e47ae2ac763c7cd5
     log: |
-         042a6362ce4dae201c9aa345ec2acce659edddca pinctrl: mediatek: mt8186: Account for probe refactoring
-         6ef00b42f9019143e4534738f83af8e663bf7695 pinctrl: nuvoton: Fix sparse warning
-         0bb850887c1e27ca81d1b4cd19db83f40a61dd30 pinctrl: nuvoton: wpcm450: select GENERIC_PINCTRL_GROUPS
-         ce2076ba209e5e5258b71c44065988d8f7fa2976 pinctrl: nuvoton: wpcm450: off by one in wpcm450_gpio_register()
-         283fb4ea08c5876150b4158e9c20c14309214ce2 pinctrl: nuvoton: Fix return value check in wpcm450_gpio_register()
-         9279c00fa40250e5cb23a8423dce7dbc6516a0ea pinctrl: ingenic: Fix regmap on X series SoCs
-         f164935f6f15b2e3496eab7d6aed293a6a98d221 dt-bindings: pinctrl: rt2880: add missing pin groups and functions
-         6ed23c312ab13486935b4449744ec2721587ed0b dt-bindings: pinctrl: aspeed: Update gfx node in example
-         168a0abf05a8da919397552d9cd2a798c4104e8a pinctrl: qcom-pmic-gpio: Add support for pm8450
+         a73825ba70c93e1eb39a845bb3d9885a787f8ffe io_uring: fix async accept on O_NONBLOCK sockets
+         fd7427eb8e67ff15a76c65d7e47ae2ac763c7cd5 io_uring: improve task work cache utilization
          
   - ref: refs/heads/for-next
-    old: 5c032526a5b473dff77f012c8e863e12d17bc107
-    new: 168a0abf05a8da919397552d9cd2a798c4104e8a
+    old: 873aa58c2b351cd93c7c4cbd0048251719370af4
+    new: f913198335ead0d5da3dc62c1568d65748057957
     log: |
-         042a6362ce4dae201c9aa345ec2acce659edddca pinctrl: mediatek: mt8186: Account for probe refactoring
-         6ef00b42f9019143e4534738f83af8e663bf7695 pinctrl: nuvoton: Fix sparse warning
-         0bb850887c1e27ca81d1b4cd19db83f40a61dd30 pinctrl: nuvoton: wpcm450: select GENERIC_PINCTRL_GROUPS
-         ce2076ba209e5e5258b71c44065988d8f7fa2976 pinctrl: nuvoton: wpcm450: off by one in wpcm450_gpio_register()
-         283fb4ea08c5876150b4158e9c20c14309214ce2 pinctrl: nuvoton: Fix return value check in wpcm450_gpio_register()
-         9279c00fa40250e5cb23a8423dce7dbc6516a0ea pinctrl: ingenic: Fix regmap on X series SoCs
-         f164935f6f15b2e3496eab7d6aed293a6a98d221 dt-bindings: pinctrl: rt2880: add missing pin groups and functions
-         6ed23c312ab13486935b4449744ec2721587ed0b dt-bindings: pinctrl: aspeed: Update gfx node in example
-         168a0abf05a8da919397552d9cd2a798c4104e8a pinctrl: qcom-pmic-gpio: Add support for pm8450
+         a73825ba70c93e1eb39a845bb3d9885a787f8ffe io_uring: fix async accept on O_NONBLOCK sockets
+         fd7427eb8e67ff15a76c65d7e47ae2ac763c7cd5 io_uring: improve task work cache utilization
+         f913198335ead0d5da3dc62c1568d65748057957 Merge branch 'for-5.18/io_uring' into for-next
          
