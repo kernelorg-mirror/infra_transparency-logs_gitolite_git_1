@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 24 Mar 2022 23:18:26 -0000
-Message-Id: <164816390648.25038.13673288866427178687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Thu, 24 Mar 2022 23:18:57 -0000
+Message-Id: <164816393707.25272.8757868368140075444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/modules-testing
-    old: 6508c0fc949f2a3acda7ef04ed24c5f1151558f3
-    new: 829a463cac1fc6deadff7153e729eace2b83de6f
+  - ref: refs/heads/master
+    old: 1b61eb2cf08223a751d7c247e8f759016256f848
+    new: 53ac775bf9f694b5e4273d1a13bc6e4e26a46ef4
     log: |
-         829a463cac1fc6deadff7153e729eace2b83de6f lib/test: use after free in register_test_dev_kmod()
+         dcdf343662ebfdb78b48b90ea2aa130055220baa trace-cmd library: Use cpu_data variable to shorten commands
+         1524530ad78b4a6d02f1965024cf95321dad43f0 trace-cmd library: Fix memory leak of page_maps
+         add83e0c8b511cf211c0fb8e211c9b9f1cffcaa9 trace-cmd library: Fix tracecmd_read_at()
+         53ac775bf9f694b5e4273d1a13bc6e4e26a46ef4 libtracecmd: Version 1.1.3
          
