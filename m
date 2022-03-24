@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1001304042875876176=="
+Content-Type: multipart/mixed; boundary="===============2919042436559258541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 24 Mar 2022 12:33:05 -0000
-Message-Id: <164812518542.23147.13944878692622523302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Mar 2022 12:44:18 -0000
+Message-Id: <164812585853.30733.3308166760237911376@gitolite.kernel.org>
 
---===============1001304042875876176==
+--===============2919042436559258541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: 24a4dc0724fee01d3bfdf5644df5dc5b20a55290
-    new: b826acd2c4c413a5f8c4ea8f50d99839c58034ef
-    log: revlist-24a4dc0724fe-b826acd2c4c4.txt
+  - ref: refs/heads/master
+    old: f1ed78968fdb5159cfbc1837f98507b4d67c04fc
+    new: 5988cd6309e96c3f2d2ed1ef98cfb75a7cf50a78
+    log: |
+         5988cd6309e96c3f2d2ed1ef98cfb75a7cf50a78 5.4-stable patches
+         
 
---===============1001304042875876176==
+--===============2919042436559258541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24a4dc0724fe-b826acd2c4c4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6d90354a71e8711de9ae06867fc623aab369c711 tty: serial: altera, use altera_jtaguart_stop_tx()
-c844d3d8e11949bb98675a7192512ae8e89bdec1 tty: serial: introduce uart_port_tx{,_limit}() helpers
-14fcb7daa9d4396701d4b7226c48b834c49563fc tty: serial: use uart_port_tx() helper
-99b6bfb0933283439855c5cab5a03538447571d4 tty: serial: use uart_port_tx_limit() helper
-7b2e6a8f7ba446c5f9023e1c7a21be8182ee4cdc Documentation: move tty to driver-api
-4ba64b81ebc4bb08890cd622e11d5390a2233fb7 Documentation: tty: introduce "Other Documentation"
-4a13ee52e33d4589178333a056135fb06d2f022f Documentation: tty: move n_gsm to tty
-4285582256a3c795887970f9fbcb12b4d7f8f839 Documentation: tty: move moxa-smartio.rst to tty
-d367c097d36cadc42a08c962ece1d8449cafa9a6 Documentation: tty: n_gsm, delete "Additional Documentation"
-edab433a9934e194e5293a377dd89bc5f18502f6 Documentation: tty: n_gsm, use power of ReST
-7283cff77a10f518be661c1277462c7b4037f6c2 Documentation: serial: move uart_ops documentation to the struct
-80464163903137703c34ca688e10c872c816e097 Documentation: serial: dedup kernel-doc for uart functions
-d0590b26664b2b54ecd0eea3b4bb886c784c8422 Documentation: serial: move GPIO kernel-doc to the functions
-b73b15723be92e6bd62af329f44ae5477ee70b46 Documentation: serial: link uart_ops properly
-b216e45907e02e0207320195faeffdf426089d88 tty: serial: serial_core, reformat kernel-doc for functions
-9d8023a7f3c9f39ee08164e1ce04dbf352d7bbbd tty: serial: document uart_get_console()
-bef2095f5ea956b43a6769536831d011c931b9a2 drm/i915: remove circ_buf.h includes
-cf75704f5795ba0936390d0459355c1dab8dcf37 perf: don't install headers with x permissions
-b92fc712aa34380b1df613799a2fd5667e164c9e perf: remove shebang from scripts/{perl,python}/*.{pl,py}
-a13b52404d6aee9cb9d1a904b84850199439ea13 mxser: less tty, more termios
-5491eebd51dafa1ed11f8d5a5bc626c54e45e0b8 mxser: add to_mport helper
-f15269f8f0829f68d0560bbb5d1a93d0cacdf161 mxser: use lock from uart_port
-65e4757a35ad75023322faff44f33a3ac72bc355 mxser: use iobase from uart_port
-f3e4555705b93ea35e6938c0c01e454bacc0f9cf mxser: use type from uart_port
-65459d92c6fb42a90c6cad8010ebb31a7c98d301 mxser: use x_char from uart_port
-9a8f6489819244bc31008412744b92d5ad3e5a45 mxser: use icount from uart_port
-94d2f2b8fc9e875705a451eadb1ee8d671781944 mxser: use timeout from uart_port
-0b7d46b28f49ff2234b372ed00d11d845e0d7246 mxser: use status masks from uart_port
-76252c1350f023f72b5e681d024382849652243e mxser: use fifosize from uart_port
-c5f6b5b0e021671e409bbeeaa03652a3e45e9229 mxser: use hw_stopped from uart_port
-b826acd2c4c413a5f8c4ea8f50d99839c58034ef mxser: switch to uart_driver
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648125857 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648125856-cebf18053095822f3f4353917740646bd39fc646
 
---===============1001304042875876176==--
+f1ed78968fdb5159cfbc1837f98507b4d67c04fc 5988cd6309e96c3f2d2ed1ef98cfb75a7cf50a78 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI8Z6EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QsoP+wRe1H6ZZH6rTmjm+sit
+kCqakP+FFZRa6DAuaxwURxdoroTAqyXuzVd2nOB2V6/TDa40UDg49E9MB6LdLhLi
+ztJKljTNT//XREeSkwTeB4/8tADRJjBa5QZaFRvgg/caahoEX/ezqfzb4E+R/AOW
+v40/q5AIO553sWP5ul1ATnwRpq+Xa80XwD7Jtl9Xcs3j0L60Ua4E/q3we2eQ4AHe
+zAx6WFiYtiw8uXK4IvBahoCauAepvgjY8z4reauiWpgS02zKX5SvQMBAfE69ZkZ8
+k8t73EYhDI4U7B+c5fnVipd9cGZSUh/Rd5LW8BHdGuavF9ywrU97TgY5c80uTiOM
+QYp7bw/sOhuvzba3Jt7vqmXvA+JHFRYpX014Hd/qS+dZrRxcPTTWeHihGJLCpoi0
+cUxP2wGM+21CqYIBT7VvuuOGEmoqERmNgZMWfel81+01MNGU1RIBotq9Ghrkvjy0
+QcctwSRn6YVn0YSKnHeeKnlNqlzckzTM0YndiJDaSChKgYy9yn6+H1/okOJ+/W9I
++YKI2jVilRZfY4DvusmCL/9dxpE0CfTmS80tnLuZaKHsysSQ5uKMmO/G7/P9JhXA
+ndCGTnwY3FvIANtfJDxTz+TlRUH3zfbEwBV5K3LruWg9wy3SuE2o6dfheB+rA6iB
+iWJ2thgqc+GXqb+6Rr5QzeVS
+=k1Ou
+-----END PGP SIGNATURE-----
+
+--===============2919042436559258541==--
