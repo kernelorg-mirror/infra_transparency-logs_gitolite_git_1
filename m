@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 24 Mar 2022 01:02:13 -0000
-Message-Id: <164808373379.18301.12360649191754339471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 24 Mar 2022 01:18:48 -0000
+Message-Id: <164808472860.30710.3602340817650025843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/x86/fpu
-    old: 4aad2238251ec561801ad6f72daaeb8ed66105f2
-    new: 3c238fa8a9b19d96892d6de4be1a4a6353515b50
+  - ref: refs/heads/dev
+    old: 00b03e7bc4b9a387ccf54250d403fea10c81e840
+    new: b3f38ba2d1ccaa4c4b2096a310e7b170ef559d4d
     log: |
-         bb316e585353a798e650279f2f753f35ddeaaeba x86/fpu: Remove redundant XCOMP_BV initialization
-         ed652799fe85ec92b0d7d8c1643ad55a21499068 x86/fpu: Remove unused supervisor only offsets
-         5f5a6380bc706e5cb428720e75c46326b77b9ff1 x86/fpu/xsave: Initialize offset/size cache early
-         847cfd1fdc3d18784ab6f79eb855a5d4d2289630 x86/fpu: Cache xfeature flags from CPUID
-         82cd885594297bbdca422ef266b84ff0dea4f422 x86/fpu/xsave: Handle compacted offsets correctly with supervisor states
-         0e603a3b2f14f751561e9a83d84b59ddcd93e7f9 x86/fpu/xstate: Handle supervisor states in XSTATE permissions
-         3c238fa8a9b19d96892d6de4be1a4a6353515b50 x86/fpu/xstate: Consolidate size calculations
+         9bd9712d243fe0b100b42d89507af922596f0b86 rcu: Remove needless polling work requeue for further waiter
+         72253006a36fab23e549bfff1ac5c0fc534b4ca9 rcu: No need to reset the poll request flag before completion
+         2d95b78e7e539e98328bbf4a176dfe34e4889f7b rcu: Perform early sequence fetch for polling locklessly
+         b3f38ba2d1ccaa4c4b2096a310e7b170ef559d4d rcu: Name internal polling flag
          
