@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4909165345090580714=="
+Content-Type: multipart/mixed; boundary="===============0383423535527400019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 24 Mar 2022 12:44:57 -0000
-Message-Id: <164812589756.31137.10067002094555813770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Mar 2022 12:51:16 -0000
+Message-Id: <164812627662.3592.17312322807540778864@gitolite.kernel.org>
 
---===============4909165345090580714==
+--===============0383423535527400019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.4
-    old: d1ed1cf41505572f59890b7679459cd39aecd008
-    new: 6727568c32b9f192fec6d45f420d92f3134bb736
-    log: revlist-d1ed1cf41505-6727568c32b9.txt
+  - ref: refs/heads/master
+    old: 5988cd6309e96c3f2d2ed1ef98cfb75a7cf50a78
+    new: dc58834eacaec42f6d288ab3ae09159b57bdcbe9
+    log: |
+         dc58834eacaec42f6d288ab3ae09159b57bdcbe9 5.10-stable patches
+         
 
---===============4909165345090580714==
+--===============0383423535527400019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1ed1cf41505-6727568c32b9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-184f7bd08ce56f003530fc19f160d54e75bf5c9d crypto: qcom-rng - ensure buffer for generate is completely filled
-e61655430d29a71a74a8ec6ab4d2b6f62608d3d9 ocfs2: fix crash when initialize filecheck kobj fails
-d0f3c2d1d85a230d066bf3ba154f48dbf6e92616 efi: fix return value of __setup handlers
-93697483660a0a7a49bba4215345321903c72d41 net: phy: marvell: Fix invalid comparison in the resume and suspend functions
-268dcf1f7b3193bc446ec3d14e08a240e9561e4d net/packet: fix slab-out-of-bounds access in packet_recvmsg()
-97ccef56e53c98c20746642a06ae1d27853bdaec atm: eni: Add check for dma_map_single
-b01e2df5fbf68719dfb8e766c1ca6089234144c2 hv_netvsc: Add check for kvmalloc_array
-3fd96bc64c95312f7e6f9813771a83ce15aa47c0 drm/panel: simple: Fix Innolux G070Y2-L01 BPP settings
-f96aa063ffd57028d3148b2fbb5f8e99bb0733d9 net: handle ARPHRD_PIMREG in dev_is_mac_header_xmit()
-d7b92963752718baaf2ff43573204e0de09e3505 net: dsa: Add missing of_node_put() in dsa_port_parse_of
-58ee8e2cb30a9dbf9138a5b10a6988a4c0719c5c arm64: fix clang warning about TRAMP_VALIAS
-21829376268397f9fd2c35cfa9135937b6aa3a1e usb: gadget: rndis: prevent integer overflow in rndis_set_response()
-2282a6eb6d4e118e294e43dcc421e0e0fe4040b5 usb: gadget: Fix use-after-free bug by not setting udc->dev.driver
-700a0715854c1e79a73341724ce4f5bb01abc016 usb: usbtmc: Fix bug in pipe direction for control transfers
-e732b0412f8c603d1e998f3bff41b5e7d5c3914c Input: aiptek - properly check endpoint type
-0dd366cfdfe03f44571602d2e4e43ee3eee42284 perf symbols: Fix symbol size calculation condition
-1771bc0d04d65f69519f82c0d2d8c098531ddd17 Revert "selftests/bpf: Add test for bpf_timer overwriting crash"
-055c4cf7e6da13450016942e5286492b4a224868 Linux 5.4.187
-2244a5980863c2ce00d1149fbad680d54581a1c5 nfsd: cleanup nfsd_file_lru_dispose()
-6727568c32b9f192fec6d45f420d92f3134bb736 nfsd: Containerise filecache laundrette
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648126275 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648126275-9798b574fcf7ebd7c0005342c18e5cc518d6070c
 
---===============4909165345090580714==--
+5988cd6309e96c3f2d2ed1ef98cfb75a7cf50a78 dc58834eacaec42f6d288ab3ae09159b57bdcbe9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI8aUMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l80QANfSkbjPTrKU+aMn6kkH
+PnMhMQG8ezs3/C4HZp/0DnawuVvhEdnUFJIdHqchmQL9a3rg7q1hzRmk8l4VDnqd
+TdTkjEvcLuElcDP3TpXpBPA9R2F+IToQACP+SK3DyDIDAlCAhaEMsGtLbzzuU+SU
+0QxzDMfu5oLtqE5hlqYQBBgJ9D8piUIG6ZF3GZZmZUYWUY7Bu+kEfTqs/brpltD9
+XA83Xhwq5IdAN9NiJyRqrPCkpMfawACD4WFNiqkzrhCnPiSQpzd3mrWVwQ1n/X/u
+Mcr73MofCXl4Tt+h6AtY3Xfgm7iW5A6guo7cA9H5M75v5RNmiGETojKIu7OTayWJ
+uqQY7hxq0pdgn993Xvmmjr4zI+jKTJ0C6+czXhI17Ayoba74PvAPWoQBwfaA5XIU
+8h1ApAyd/Lni5Bvq0/dqtR0hN/MiEYkKy0i/XnPC5M/Wi3xatbgHJu6tb40yUhpA
+tSF0XdVpFjPzyYjjxpls8ym9eFn7H12jzqx46MeQDOJxq51yjDkyPWQ3tje6Jv4D
+6ZSIRIjbWwJW2JdSPYf+hq1AxVX7aYvzi1EGo5GzR34ColUNN5Qpq4XMp1Lunq0V
+1p4Q7mS+PEQllZxoxPB7BOWY1tw2ye1dG2oVZXf42Lixg5Jsx5+8/DZsTEvuPsB2
+vQbJ+E7kdnnglHV78YrBItVc
+=CyV2
+-----END PGP SIGNATURE-----
+
+--===============0383423535527400019==--
