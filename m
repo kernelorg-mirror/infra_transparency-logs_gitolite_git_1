@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 24 Mar 2022 20:59:31 -0000
-Message-Id: <164815557146.30834.10982768868329348541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Thu, 24 Mar 2022 20:59:53 -0000
+Message-Id: <164815559342.31010.1949848505252533446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/at91sam9g20ek
-    old: 137f9665fcaed0f78d9d57b01c56060865dbbb87
-    new: 55301c5d1ebe600740f914611ed6ba0240529fed
+  - ref: refs/heads/misc
+    old: b1a4fd70c671e90c22b9cd3ea6b5c62df2aae726
+    new: d0bcd2d0020109f866f078f7a85b42b01b87c915
     log: |
-         fc7b14932c8042d40c7c1f9b3b89966577594c1a regulator: fixed: Remove print on allocation failure
-         e0db738d289a307ec02d06c68b0df03e8801477b squash supplies.
-         55301c5d1ebe600740f914611ed6ba0240529fed PLLB setting
+         d0bcd2d0020109f866f078f7a85b42b01b87c915 signal: Deliver SIGTRAP on perf event asynchronously if blocked
          
