@@ -1,68 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 24 Mar 2022 14:22:14 -0000
-Message-Id: <164813173452.30679.1946214616271864811@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6667997224978970100=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Mar 2022 14:22:54 -0000
+Message-Id: <164813177400.30942.3324378610179058851@gitolite.kernel.org>
+
+--===============6667997224978970100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: 235b2fa16284fef76a9a829039fe94523772bb5f
-    new: 343d5b596a4f771d335a25aca22b9fed8387091d
+  - ref: refs/heads/master
+    old: f13f15a36ed6ca2fa48a6f32ec93bcc53382fdfa
+    new: 52ce419fe0eb0e5a73732a53eb0da09c1cfc3a09
     log: |
-         8ee68b118f88bc363e0643c33daafbeda85aa4bf nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         343d5b596a4f771d335a25aca22b9fed8387091d net: ipv6: fix skb_over_panic in __ip6_append_data
+         52ce419fe0eb0e5a73732a53eb0da09c1cfc3a09 4.14-stable patches
          
-  - ref: refs/heads/queue/4.19
-    old: 133aa769d857027440e32f751c2653da34e8dbb0
-    new: 5de0bd1655dcb1c18f5d96d84b5d19d90fc44391
-    log: |
-         78b44e49a2d6b9f590b47582896720516d593eb7 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         5de0bd1655dcb1c18f5d96d84b5d19d90fc44391 net: ipv6: fix skb_over_panic in __ip6_append_data
-         
-  - ref: refs/heads/queue/4.9
-    old: bc9499a3e46a275c59c424473c5d54ffe63188dd
-    new: 4f0935230134dfc90819314398aa24df47cd7230
-    log: |
-         9e34ce7e32fbd6fb1d2c04def82ee2488a6d2aed nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         4f0935230134dfc90819314398aa24df47cd7230 net: ipv6: fix skb_over_panic in __ip6_append_data
-         
-  - ref: refs/heads/queue/5.10
-    old: cf278dda16ee07a887ab0ebee98ecb6ae0524764
-    new: a011512dbfcb06ec266b79079430e99c3178c693
-    log: |
-         b18a784bd3cce3332b0bdbfbc46ce77ebfb3e55d nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         382834341808569ade00073ce4c12bd3e84c74f2 net: ipv6: fix skb_over_panic in __ip6_append_data
-         b63e77917c95de3cc0450386d2de65881e6ee522 exfat: avoid incorrectly releasing for root inode
-         1b5df2825e2b736d218f0607450fc9630bafd404 cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
-         1b0a67fe5aaf8f7ed8bcaef24b5659c20cfbb30e cgroup: Use open-time cgroup namespace for process migration perm checks
-         a011512dbfcb06ec266b79079430e99c3178c693 cgroup-v1: Correct privileges check in release_agent writes
-         
-  - ref: refs/heads/queue/5.15
-    old: 57d4301e22c219e4eaef9afa6c222d50843373c2
-    new: 3882a2ab9a0c74d5d09440c3a967ba9b9c020339
-    log: |
-         9b7cf0acc60f0e1a27da493d9e537093371ac9fd nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         3882a2ab9a0c74d5d09440c3a967ba9b9c020339 net: ipv6: fix skb_over_panic in __ip6_append_data
-         
-  - ref: refs/heads/queue/5.16
-    old: 94f70a987f679f43ed41878904bd0db56a933417
-    new: 22462f80f91afe1905ae52471fedb5b8c9385adf
-    log: |
-         dcbbbab95708a5b6c3ff2d01912309fddc4ceac7 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         22462f80f91afe1905ae52471fedb5b8c9385adf net: ipv6: fix skb_over_panic in __ip6_append_data
-         
-  - ref: refs/heads/queue/5.4
-    old: 507c16b0c452f38d3006aeb6ca5bb49fe0d5310d
-    new: 759fd6c61cefee0119897f4bff2884ad365fb75b
-    log: |
-         035f04b7990e1f338fef5725ba6abc7772131911 nfsd: cleanup nfsd_file_lru_dispose()
-         6f117df3c8e805c5ca06e23b15e7997e8583e2eb nfsd: Containerise filecache laundrette
-         d7fbc31faa18d4f821774fbfd4b2161ebeb764bf nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-         759fd6c61cefee0119897f4bff2884ad365fb75b net: ipv6: fix skb_over_panic in __ip6_append_data
-         
+
+--===============6667997224978970100==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648131773 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648131766-00a562a42a6e0ee65a56cceaba1e4c81968f56cd
+
+f13f15a36ed6ca2fa48a6f32ec93bcc53382fdfa 52ce419fe0eb0e5a73732a53eb0da09c1cfc3a09 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI8fr0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mYIP/jzG1RFmj0UlaFtyJQyL
+3RgcbsEuoDH7cDuKrHIBaP+Z9EuNNAskw5B99gSgaZUZif1b4qyI80wjR2ZjCbbh
+zByYEnENi4EhWf1douKxqAJb8dMxWxNwBbA6eWl9q7AlM/uI3Fc6WMG6KUEsRfoF
+xGN6F4JQkqRKwquDi6SsGoLn/iI7PG9spvCupUdg5a01fn6jA9SPEaXNs0/o9Uyw
+QRhiZ5+/Mic4MxfUBeDnp14L01XQYoheyypmVffW85wB2gjTi5H1HW/tZrDjr4uJ
+ttXajg2PbDuiPOW5eXq3TznsAc039xsoUloIdMkU5gSf322juHvFy2BSwd1TubLE
+0NZ+NbMhcA+OEtDgIP7NZfX+Qml52wW4b/KGux15vmLx31jCUiSOOVsUKzES7QCB
+H8xPnLnkFGisria8MmvFFXTmKanXm9hM+nkUvc0jf0Bbc9qMK3Ur6ByiI9vOdw4l
+N7raAUcB0Mbop60D9FRi60KNvaVfCzOgdmj3Eoh1/06DTfW00eZf+mQRpgy89Q0v
+rOK7iF/0NKGXZKZXACvNqXXHVgqDvm7mjkrLs0Oi+IVgrS9V6B8gqVTHEZ6SqCgf
+a005bygtGkI8Bw0JHfN0UVFiNU8pROaO5J6o2kvvRF8ZxvIiUm67sM+6XUTcV9HE
+8qNSNMIhhXOQOpTxQ/VQzDeR
+=SmPc
+-----END PGP SIGNATURE-----
+
+--===============6667997224978970100==--
