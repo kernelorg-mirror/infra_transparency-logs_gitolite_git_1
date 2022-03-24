@@ -1,32 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 24 Mar 2022 13:13:48 -0000
-Message-Id: <164812762880.17861.18136630973633952451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 24 Mar 2022 13:50:04 -0000
+Message-Id: <164812980418.10386.5181552480525091712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: ef248d9bd616b04df8be25539a4dc5db4b6c56f4
-    new: ce18f905a500879e86ca998963a55f99d413a462
+  - ref: refs/heads/for-5.18/io_uring
+    old: 8a3e8ee56417f5e0e66580d93941ed9d6f4c8274
+    new: 7ef66d186eb95f987a97fb3329b65c840e2dc9bf
     log: |
-         ce18f905a500879e86ca998963a55f99d413a462 ALSA: hda/realtek: Add mute and micmut LED support for Zbook Fury 17 G9
+         7ef66d186eb95f987a97fb3329b65c840e2dc9bf io_uring: remove IORING_CQE_F_MSG
          
   - ref: refs/heads/for-next
-    old: ef248d9bd616b04df8be25539a4dc5db4b6c56f4
-    new: ce18f905a500879e86ca998963a55f99d413a462
+    old: 7f813daa416d16d87c4aede4a10c72a835302368
+    new: 6094ac7115dd03e2281665a4dbf54ad29c002eaa
     log: |
-         ce18f905a500879e86ca998963a55f99d413a462 ALSA: hda/realtek: Add mute and micmut LED support for Zbook Fury 17 G9
-         
-  - ref: refs/heads/master
-    old: 725c435b4bac8dd6ff414ca322bc850c1908ef9a
-    new: f76a4b5ae8d3dc4c0117c5eb5194426d0310215b
-    log: |
-         ce18f905a500879e86ca998963a55f99d413a462 ALSA: hda/realtek: Add mute and micmut LED support for Zbook Fury 17 G9
-         f76a4b5ae8d3dc4c0117c5eb5194426d0310215b Merge branch 'for-linus'
+         7ef66d186eb95f987a97fb3329b65c840e2dc9bf io_uring: remove IORING_CQE_F_MSG
+         6094ac7115dd03e2281665a4dbf54ad29c002eaa Merge branch 'for-5.18/io_uring' into for-next
          
