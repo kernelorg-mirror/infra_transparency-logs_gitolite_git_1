@@ -1,53 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2789166701237927329=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 25 Mar 2022 05:31:18 -0000
-Message-Id: <164818627857.11362.10473972905601367140@gitolite.kernel.org>
-
---===============2789166701237927329==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
+Date: Fri, 25 Mar 2022 07:17:12 -0000
+Message-Id: <164819263251.14037.713117973537274834@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rppt/memblock
+user: rppt
 changes:
-  - ref: refs/tags/powerpc-5.18-1
+  - ref: refs/tags/memblock-v5.18-rc1
     old: 0000000000000000000000000000000000000000
-    new: d3007f4bcfc88800d9817f502da6db7afe16c24d
-
---===============2789166701237927329==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Michael Ellerman <mpe@ellerman.id.au> 1648186276 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1648186275-3dc90fc4e307a6cfa65fcd9c722fec46fc0fe24f
-
-0000000000000000000000000000000000000000 d3007f4bcfc88800d9817f502da6db7afe16c24d refs/tags/powerpc-5.18-1
------BEGIN PGP SIGNATURE-----
-
-iQJHBAABCAAxFiEEJFGtCPCthwEv2Y/bUevqPMjhpYAFAmI9U6QTHG1wZUBlbGxl
-cm1hbi5pZC5hdQAKCRBR6+o8yOGlgBPrD/wKByyCbQAuDa6eTzQyc2H/pJv4Y3K/
-QBi0/BaN07aZPfXQh7tGqubmkdlftQc8DRL6CsrCCY3+f5dQ3QZYdjnVDhEp+PvG
-r27P7O+jsSXooSEnu+01Y8mdsGIqAZh6ON5Ipawwi45py1f3kpqGc3MLzqrCIxMN
-q0iwJ6AAFJAJ+sI/lh58SyG6CARHQtNTvoYk0wxez54wnit81mvtKzy8dXxPkWyf
-x6arDLoA6I9BXbZsuB9dhY+bve//MrCYPp5QUYY7yU+Ckf55ChXLDp4sdvO8AHjk
-z5n0kThwj0bRBQibfW1tKq3XaNrX6r8k7nj2Vkl2o1wGXp+qO+xrExYfqsN3v+Lj
-epzT+5Jorxyp2HLp/qcHISdB1KdiH3x118GjCimcr7Xd6Z9LTSFEGQddYitWESXi
-Qt3Ljdz75dszoMkBcPhQW2JFi12rOk5RLMzOouiSzv1sf4Bk2clt3XJABRnpb3w3
-kAWoOla0Bovs0562SUQy6EPbex+kH6XDaCzGJC/1P3KI6qfYagYtUueFGfrH7crN
-g0ZPkD3RuTqW6C/SimfEqmAS/I0EzTBwM1gi/J0RwhjdTb3xEZQQVALVqyYZh6gi
-M3eFlCiROi8aIfFS/vzQfVrNXuMmtqwrVapGWksZq3efTHMHxxVAHJtEzNgYRT+i
-haagEiKw+sERhw==
-=cIah
------END PGP SIGNATURE-----
-
---===============2789166701237927329==--
+    new: 23c9220aa84dddd4179035f368fb1d33facb91c2
+  - ref: refs/tags/v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.17-rc5
+    old: 0000000000000000000000000000000000000000
+    new: fb245665706076547ba72af611b41bc38c3ab73a
+  - ref: refs/tags/v5.17-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5880f641c08a2f9788ccff499c368936438c5ae2
+  - ref: refs/tags/v5.17-rc7
+    old: 0000000000000000000000000000000000000000
+    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
+  - ref: refs/tags/v5.17-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
