@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0179324607200362131=="
+Content-Type: multipart/mixed; boundary="===============4390220854605978631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 25 Mar 2022 14:03:59 -0000
-Message-Id: <164821703996.31555.5669632679876924506@gitolite.kernel.org>
+Date: Fri, 25 Mar 2022 14:04:00 -0000
+Message-Id: <164821704073.31633.9029050931577657555@gitolite.kernel.org>
 
---===============0179324607200362131==
+--===============4390220854605978631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,81 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 055c4cf7e6da13450016942e5286492b4a224868
-    new: 3e1d412714eb3af7c5b8afb8c6ad86eb9c003c8e
-    log: revlist-055c4cf7e6da-3e1d412714eb.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 96e48ac9a685f2f5855e2820496ed6ecf893febe
+    new: 6f981a05fa8567b2b3bad086fb697f769522b87e
+    log: revlist-96e48ac9a685-6f981a05fa85.txt
 
---===============0179324607200362131==
+--===============4390220854605978631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648217038 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648217039 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1648217034-e3986ad6f4ac1c95b4054cff4abcf5199186c602
+nonce 1648217035-52e740e6eff86e16b1490da6207e2b16da7176fe
 
-055c4cf7e6da13450016942e5286492b4a224868 3e1d412714eb3af7c5b8afb8c6ad86eb9c003c8e refs/heads/linux-5.4.y
+96e48ac9a685f2f5855e2820496ed6ecf893febe 6f981a05fa8567b2b3bad086fb697f769522b87e refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI9y84bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4jAP/RO+M3yjIvr8+YTNNFS/
-/2WyolOF15zO42mP2G+pOBECn8wQ32qS57x5i0hZH1qhHnMPQ/PO+oZWhO49NjuS
-/PeEscLfV8BvFpfz5RU/lAebV9ndR8+3C3vMqZgSCVFUm/nzjs2bWYFRTe9p7GHL
-haZd6u/VX4unw42xUZx7zHEd5CeXqN0n/ctBa4pCTBYfJf3AdL12Cmif00oQNndp
-d4a/J0Ycu2XfQtGkHuQ0RwcSNCef0lSxgVOYBfBpUA04QOhO8ZZp8QbX3P1Wtagy
-o47ps8OWJAd9Hwnq02rOEP/BPvDg7ADD7jX/FC8aPIAVVt07l9P2fLHcmlxpkBOT
-Gx1wGK5bu+jnGcdGqKQazAd/ADu/atGrKHAf1sI8vVKXm/HLFVq5O0KY2gcGP88h
-X/Y22r1qzDO1e+HdZgXGw/oY7KAZ/WkSnV7ODXUG9cmfIYPo4fm6z8VrISItHoIA
-GjxX7+qDV5UButY8Ifp01icD86tWwoVMheHomCNd0Sk7BrDXais417S+h021H9y6
-G5GmpN+2SqsBGgJzU6rWxL5B+AmrW1jkrcjwPfow5OTP9gOFLrpogejD/xCck1hs
-/DH8ljWIQKDbT6ZHOrRN/BLe1fN1b6O/1fVmLiChmjZMazj2NxSdom8n15tVYo1r
-1/V4dton5SDXMgfV2TzJescf
-=eCUz
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI9y88bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GAkQANOJE48dpsJJ+G0yN81h
+bNSAjdS2hpCh1SBOwB/RiJ/cQh+N+KlHExNMB60zYmir0+46d8RIrXWINA1OtmtI
+W56TU1LeOCjMLbkt08BTjY1DvYjcJpEt5QoJm7vQ+qdMJc70qjfSIOqSnib86wkE
+rE06FiU1qLQ1ikxnLQMw88iwSS+qoMMWa3np+fQuasPsyb1ZatqzhGP7ZXVQrNY/
+NobwAg/DoAxJPQPYmZoNRKuZxSC8AsaWDiMGnNedx3jCX5wgI58i8bjCNAqLqTtT
+Cb91siit9dWkhREymVuPyFvtIX8i3CPQrtvfH/2TVkN6+8rfgZ1NQITt09nYvPNY
+PZ/e6P0dS0plyr5ylU7qilU8y79kzhFBTvhyXKp87yHYg9rn8YmZgdC3wY5rT5i8
+kiNlM7xCrZIe4Jn94CVxZJeeZNUdUJnr0bGhElF7A3sWtrY+9mDLD8/hiH54VR/P
+F/NUjQmrFhww+RANZkwmDUO11SdXAN/mdkAZ2EqYdG2vcXwgm7ZROSSekXycyEDc
++eH1Vz0vzsFoBSmuPkPhjblEVEe/UIpdLtZiqC/V0JfCy9ye1WBXCL75KRNui9Sc
+KoCLv2nxOF5TYZx9hxbE460bKPPHz7X4MWUvDyDXkZG2Uh0vynJGgCcdy4jWKqhp
+ipZ0AEEoRCXPbuZe4Xv7lKS0
+=Kpd3
 -----END PGP SIGNATURE-----
 
---===============0179324607200362131==
+--===============4390220854605978631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-055c4cf7e6da-3e1d412714eb.txt
+Content-Disposition: attachment; filename=revlist-96e48ac9a685-6f981a05fa85.txt
 
-ce76d13b1c997598c1180c19b442a47db60fa3f7 nfsd: cleanup nfsd_file_lru_dispose()
-cdc41960f4772d51da7b611513c8a523609673ff nfsd: Containerise filecache laundrette
-6efa8431e58c5110bdb7c71a4fdcb9bfab23831f nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-5803da5591f1e71f90a8cc988d727dc479ea347d net: ipv6: fix skb_over_panic in __ip6_append_data
-a0ee3cc3bd78b4b18ff7976c86cb1dc34a6fbe6c esp: Fix possible buffer overflow in ESP transformation
-359e8519174bbd45f912427625b8d2e5e068a9c2 tpm: Fix error handling in async work
-a3c98c71b86d8f9ec677b1ee74be96071d7ca048 staging: fbtft: fb_st7789v: reset display before initialization
-2942c8c7747aefa44d077ea3bfaa2d5013539a27 thermal: int340x: fix memory leak in int3400_notify()
-7ee74a47501f9eeb14137bbe2d2a4bb4b4616b77 llc: fix netdevice reference leaks in llc_ui_bind()
-1d2983a07eaa2448960a18f31c09cfc2c8275347 swiotlb: fix info leak with DMA_FROM_DEVICE
-855e8a7f0593ab018d25a3e1e8bf857b18450275 swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
-cdfbba1382b98f10c0e5bf9e1920e55d473aab8e ALSA: pcm: Add stream lock during PCM reset ioctl operations
-7d5d610a7580d072ac13f38825009ec7daf31a7a ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-ef0257de9d484c5b615508347eb97ced8266d691 ALSA: cmipci: Restore aux vol on suspend/resume
-236e7b9ed4b694b83f41bd96f8a57dd86eb3c3c4 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-fd7e0573c8fe3f9f9cc62b0ce20a3310267d8668 drivers: net: xgene: Fix regression in CRC stripping
-9612925f048b7eec3c165d779db32b741913e39e ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-41b4964823630d995ea9064cc2cf552676030ac6 ALSA: oss: Fix PCM OSS buffer allocation overflow
-eef14c78270197b96d9f8869c628e75432be4f65 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-72b8d0fdef9c81d7b0eeae93cad3cf7d46d0bb25 ALSA: hda/realtek: Add quirk for ASUS GA402
-bad6c6018ec38fcbdc71c94ff0ff2b2205c1e1d6 netfilter: nf_tables: initialize registers in nft_do_chain()
-8bfa56643fb4c088faaf5ede50e092e3326acf03 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-534ccec5fea120aa1e44fa24bac8540bcefa7f71 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-e1c8020f09850c29f395130352817c3e6ca47360 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-d9320a5908b6f72032859f4275c0306aca83feeb crypto: qat - disable registration of algorithms
-3350306ad82feb5551cd57933773f9aa851123d7 rcu: Don't deboost before reporting expedited quiescent state
-3e46f00f7c26d9567b30d4ef015b7aca4ab8fc2d mac80211: fix potential double free on mesh join
-3331312b8a6327a25cf687d267b9aae30068eec2 tpm: use try_get_ops() in tpm-space.c
-3e1d412714eb3af7c5b8afb8c6ad86eb9c003c8e Linux 5.4.188-rc1
+87c5f04a294fda933c57bda8a59dd07889065aa4 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+84eb147fe229842b10030deb4074fadbe0a4a3ff net: ipv6: fix skb_over_panic in __ip6_append_data
+beb60d71afd0c068eebb69e0654bf5c68bcaf4ab tpm: Fix error handling in async work
+be5921e5b60eb75fdd0f050a94c094ea8f4e1ba6 Bluetooth: btusb: Add another Realtek 8761BU
+f1fa51baddbaf9d768e2c207bfd719b2afeb8844 llc: fix netdevice reference leaks in llc_ui_bind()
+019cd5fe2298eef0008ac8400d7b0bd4d5b4e3ae ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+79c5548febcc91adade57554a7f7477cbb844d1c ALSA: oss: Fix PCM OSS buffer allocation overflow
+cf142b5d141a59ae50935f7be32bd9cba6d0c274 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+80175a9a73c032efa8459d1d75b2f27f84249d7a ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+8eeb3f6efedde09ef9564dde2301599ef9e05235 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+82cd73835f239022c0ae5aaa6df14db8ea8d515b ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+a3e268b3e67743e1353fb52a54a5d5cbb9246a88 ALSA: hda/realtek: Add quirk for ASUS GA402
+8b608369b792bae8842546073e8db3207462019e ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+ac4711d160a8b4583a3c56f357b33c3ab3487edb ALSA: pcm: Fix races among concurrent read/write and buffer changes
+62498b01b327f2ecf4780bd26cb4002759a4c1ef ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+244292bd82adcfb537264e24dc9e6abdc245ee33 ALSA: pcm: Fix races among concurrent prealloc proc writes
+4192ad169cf32eee23cf02bbc58b1dca0081672a ALSA: pcm: Add stream lock during PCM reset ioctl operations
+437e81e74b16dd49a7b09557723e181e2f487387 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+f04068716dd7e58b2164ce177a27ddadf1a41334 ALSA: cmipci: Restore aux vol on suspend/resume
+250a6cb442bb99115f6d0b387bbe658240aaa7df ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+d081af22bbbfd192e58aca232cc7ace7643a8816 drivers: net: xgene: Fix regression in CRC stripping
+304fc5a203e7f2af81f22a1821654235b556f870 netfilter: nf_tables: initialize registers in nft_do_chain()
+a6fcaf0368b7a7cfc3881f3f585025d33f7e9d10 netfilter: nf_tables: validate registers coming from userspace.
+73a9e1ee073c212f84b65b5993686d2f6043ca69 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+7c219b843efa022ed2ccd615fbd037f332ecbe28 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+844f80885eeaab08076c0bec11cad45394844b25 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+b063f2be6990253b0048e588a1f54a0de7ee97ae crypto: qat - disable registration of algorithms
+92d303a1e4d8a4d7ebb4dbccc685592f6439b84f Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+5f1854f661fb0b363347fb41cbecae8292a0d344 Revert "ath: add support for special 0x0 regulatory domain"
+cdfde5f022e3269ec4e13b1b035fb1e4682845ad drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
+5fe4cc229fa9a44d939651edcfc847bb2d08dfd0 rcu: Don't deboost before reporting expedited quiescent state
+f665faa9b99fed92bb70d0e1e64d5121f91ee51d uaccess: fix integer overflow on access_ok()
+77231b4cb30f980fcacac61c192c4d05adb422a6 mac80211: fix potential double free on mesh join
+7b8018aac113d6627df4eab71716cbc08f3d9ac9 tpm: use try_get_ops() in tpm-space.c
+6f981a05fa8567b2b3bad086fb697f769522b87e Linux 5.15.32-rc1
 
---===============0179324607200362131==--
+--===============4390220854605978631==--
