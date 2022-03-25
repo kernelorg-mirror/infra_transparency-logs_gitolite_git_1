@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Mar 2022 15:33:27 -0000
-Message-Id: <164822240740.21776.17798762317224901518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 25 Mar 2022 15:39:42 -0000
+Message-Id: <164822278276.25148.15381934661471724813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/wm8731-overhaul
+  - ref: refs/tags/s390-5.18-1
     old: 0000000000000000000000000000000000000000
-    new: 52dfbaa8601dd85a8c6f2424ff642b46dad8c03c
+    new: 9e1630b6b05fbf2ec81da99167805c9bb8478860
+  - ref: refs/tags/v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.17-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
