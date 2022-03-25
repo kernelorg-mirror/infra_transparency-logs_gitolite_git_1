@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 25 Mar 2022 23:35:47 -0000
-Message-Id: <164825134703.14004.15510236771074113212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 25 Mar 2022 23:37:39 -0000
+Message-Id: <164825145911.14630.15375801456224005398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/afs-testing
-    old: 4c6fd74ee75a9bab61edc5246ce87dd58ed23b98
-    new: bd9f21ac2aa3a4b3332c504a89afe0019a56391a
+  - ref: refs/heads/master
+    old: feb13dcb1818b775fbd9191f797be67cd605f03e
+    new: afec4980dc0462d5c2c02d76243b06e8a489ee61
     log: |
-         bd9f21ac2aa3a4b3332c504a89afe0019a56391a rxrpc: Give call->timer a ref on the timer struct
+         264a9c5c9dff40f92a2a9ad1757d59a4438114fd net: sparx5: Remove unused GLAG handling in PGID
+         ad238fc6de7d1adece5167df09464912c098b021 net: sparx5: Refactor mdb handling according to feedback
+         afec4980dc0462d5c2c02d76243b06e8a489ee61 Merge branch 'net-sparx5-refactor-based-on-feedback-on'
          
