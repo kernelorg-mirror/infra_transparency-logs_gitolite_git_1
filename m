@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 25 Mar 2022 01:36:28 -0000
-Message-Id: <164817218851.22249.3854003832258378223@gitolite.kernel.org>
+Date: Fri, 25 Mar 2022 01:38:51 -0000
+Message-Id: <164817233183.23008.13182946452977319280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: ffba2123e1714a27e9362fda57c42155dda37efc
-    new: 9fe087dda5bf097007b263664051bc0e84f6580d
+    old: 9fe087dda5bf097007b263664051bc0e84f6580d
+    new: a81687886ca9a64c0aeefefcbc6e7a64ce083ab0
     log: |
-         109d899452ba17996eccec7ae8249fb1f8900a16 net: dsa: realtek: make interface drivers depend on OF
-         9fe087dda5bf097007b263664051bc0e84f6580d net: usb: ax88179_178a: add Allied Telesis AT-UMCs
+         4b5f1ad5566ada230aaa2ce861b28d1895f1ea68 vsock/virtio: initialize vdev->priv before using VQs
+         c1011c0b3a9c8d2065f425407475cbcc812540b7 vsock/virtio: read the negotiated features before using VQs
+         88704454ef8b00ea91537ae0d47d9348077e0e72 vsock/virtio: enable VQs early on probe
+         a81687886ca9a64c0aeefefcbc6e7a64ce083ab0 Merge branch 'vsock-virtio-enable-vqs-early-on-probe-and-finish-the-setup-before-using-them'
          
