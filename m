@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ostr/linux
-Date: Fri, 25 Mar 2022 19:28:38 -0000
-Message-Id: <164823651877.14623.14899439140732547706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 25 Mar 2022 19:49:05 -0000
+Message-Id: <164823774528.28308.10140358955202288573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ostr/linux
-user: ostr
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/for-linus-5.18
-    old: 309b517276f21dc7e6315c6637792f8bbfdf7ec4
-    new: de2ae403b4c0e79a3410e63bc448542fbb9f9bfc
-    log: |
-         ff32baa1f39b1adb519479a51e7acbcbfdd2206c xen: don't hang when resuming PCI device
-         de2ae403b4c0e79a3410e63bc448542fbb9f9bfc xen: fix is_xen_pmu()
-         
+  - ref: refs/heads/for-next
+    old: 4db5053d95c57c52789ec20ce6ed875aeb454f33
+    new: 0000000000000000000000000000000000000000
