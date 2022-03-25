@@ -1,56 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============9084301648485348095=="
+Content-Type: multipart/mixed; boundary="===============4475084171519734603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 25 Mar 2022 15:01:15 -0000
-Message-Id: <164822047539.382.463998820487260954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 25 Mar 2022 15:04:20 -0000
+Message-Id: <164822066070.1491.3573621029741397048@gitolite.kernel.org>
 
---===============9084301648485348095==
+--===============4475084171519734603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b9989ae4b477b843aa92605d0a6fe69f897c4210
-    new: 75ba373ef4d93346f0495f55c83a8e19dcd3c7cf
-    log: |
-         75ba373ef4d93346f0495f55c83a8e19dcd3c7cf 5.17-stable patches
-         
+  - ref: refs/heads/linux-4.9.y
+    old: a2f6229e7503770f752962e9381483dccd8a78de
+    new: ebc053b844b704373fb74ff8f019e29785bed7e9
+    log: revlist-a2f6229e7503-ebc053b844b7.txt
 
---===============9084301648485348095==
+--===============4475084171519734603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648220474 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1648220472-ac0da66c65832fa7aa56a8982a5b7e9340aacce7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648220659 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1648220656-71aec882449e74641b8ebdd26443d74e20fa3dfe
 
-b9989ae4b477b843aa92605d0a6fe69f897c4210 75ba373ef4d93346f0495f55c83a8e19dcd3c7cf refs/heads/master
+a2f6229e7503770f752962e9381483dccd8a78de ebc053b844b704373fb74ff8f019e29785bed7e9 refs/heads/linux-4.9.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI92TobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NC8P/2/5PGPMCVX7WuYHBEaP
-hJUZoUKuB8BYb/NXW3QmoUWjlIo4peN5NvlZAcgRBk8qDHCcdzfZIQweiA40xKAM
-x9moK5tnRO4FFqW/BR8U6OYjEnv65mSfBntWrTbEoI3z/+KpDikd67/HY3lUdcAV
-Nal3L3D7xXBeY8ni2aZagEw5NSo6EcQIzTborpJ0Xua+uUbLgHbaO3BNcXLwFeKu
-yH8fDBOIcDyBHZwhZQKsmzjsAMSW2YxAoJ07OOPbrAaoLN1i3Opl//p1W8VHUr6g
-xsQ7gHmY2Dt0oa5gaRM6Aps0SuSV5rlObP5K4O7KASnDvT4MisgyDG8g2oLy09cy
-yeuO8VfiJEpGc5310OxSC0VjfaCoAOkHcTGYuXEKmnrjEaZHemgEZuy/HSsUb1XL
-fO8WKEq2tni8BxGbsgk0o5AlewGpzTCnqVk42MPlkN1GHEv6RWPrNXrSu4hRmHnC
-IqProG02jSghPSv1Iebjjaj5g7yiJ2/1hHhZZ+4B9cw+ddjPsOLfYgHe2r09BdvJ
-0nLbmEIUxePsxD68xZTc5uWSqJXpbuRbLYif92fglILYdHzNwygUnXSQbYJewvJZ
-BeObUifOeggBsc99ZSUfm+pUF1EUR7ZVnV2ey1X+/9TG9KtHYqmXP6eKlEA59CEG
-Yv2rNjwvOrqNB/w9WQVDnxhy
-=/eQE
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI92fMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TpUP/0AURZrQgC4f05WsLR2f
+vfuzPLwQkMO6VlAfdBMQXfPvQPgIZc/ZxBPNnGUZqYrkqIS+5Nmygdj5Y21fFwqB
+1GQIe38SDv1H6k4vz5EVHflpsFc1G/7e+fO5kIrMeEr3QJehE9877E9MnUiFTshK
+7lCinkfQBhUtPHTk9Ss2C80clZqz/7+SktattGgOcp1d+/Uc6fNvmTOItTyCL4UR
+m8mpFIefFFx98QBItgIvsp9O8quRpE0HdI3i2SnNwu//RcvuD7uZBMfaAlaDMPMG
+6LhDAFTbA9M14vhftrYtfxrb9D85mm6/iGyisSxV4GVHsXiqddw1aQ+gtyazWZkX
+npfPX+TxJ/BDjAE+qH+MlQ4/F5jtyXuSbqPZzTE/NOs+85Ypot8dIRWOxXKE1DYq
+FzUI2LT4gE37qWnkqe9f9eTRYI4BNMyu3xNeCY0n6Vib9dp3QuuBVMIORAq8yMu3
+w8Wpx40GXMBUz3lWwJ0aylFrvAg75WNBiiXOEDo+wnegGCbhNAGhuqkXSMmnf3uI
+h5NIqNqG2xaooEWwyZ4KsBn0FjSN3pz613MxjAiZ4zRu79/bmrwW8/KujuYVzBW6
+SpXU8nPOwzjoZEJLNm0Oik1QoTXMg4bJfZf7MTR09YCroaLggxzHswMtqIRsPolv
+lfw+GiScf4Cb9BTKgbDdKQD1
+=A+G2
 -----END PGP SIGNATURE-----
 
---===============9084301648485348095==--
+--===============4475084171519734603==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a2f6229e7503-ebc053b844b7.txt
+
+35ac3d8b6b80d29606f3ca57bd2eef76584b0cdb nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+289343cbdaa191399de678ed6019fd0f99079359 net: ipv6: fix skb_over_panic in __ip6_append_data
+46a9cba7dc013c037ef1ec27820daafd4f51d3b3 staging: fbtft: fb_st7789v: reset display before initialization
+17a89e9a0ee298dc0ab4e27e6be35e5a340c78c4 llc: fix netdevice reference leaks in llc_ui_bind()
+f8237b8a36ea49551c1e336a245efbf2b48a5b88 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+22ba513b187a7d2a431af8e1ad8b77c83043bb7e ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+f6582aa524b88806b9fdd3575a3eb975278d4327 ALSA: cmipci: Restore aux vol on suspend/resume
+d793543c26d9db50ee30c6b9917bcbde352b826d ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+b62d100024215b3dae47be24816be8f6085e72ed netfilter: nf_tables: initialize registers in nft_do_chain()
+c02066c8237f966ffb610fe43a254fa5b4baabc6 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+e4938ed0d8e8f8d95198412aa4b243535696a113 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+17bc6dc9f8d3138a5d7ad6377ed5c491a45ed940 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+6ed4c32dd46e0c54a20af75a2256c13b856ead38 crypto: qat - disable registration of algorithms
+43fb0ceb3156efec969be668f7c188c281e3d34f mac80211: fix potential double free on mesh join
+ebc053b844b704373fb74ff8f019e29785bed7e9 Linux 4.9.309-rc1
+
+--===============4475084171519734603==--
