@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Fri, 25 Mar 2022 11:25:41 -0000
-Message-Id: <164820754163.27107.10801681222277051141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+Date: Fri, 25 Mar 2022 11:40:45 -0000
+Message-Id: <164820844531.3850.6208691642799854124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/nsaenz/linux-rpi
+user: nsaenz
 changes:
-  - ref: refs/heads/rc7+snp-v12
-    old: 0000000000000000000000000000000000000000
-    new: 10cb2d06f0d8476f52448737e8be42342a0873d3
+  - ref: refs/heads/pcpdrain-sl-v3r1
+    old: 9710838f0540b295e2ffc2ded307fe65a9fa7111
+    new: d74b7e8fef5d9d1c6d7aba7b2ac898f77081a18a
+    log: |
+         d74b7e8fef5d9d1c6d7aba7b2ac898f77081a18a mm/page_alloc: Avoid disabling interruptions on hot paths
+         
