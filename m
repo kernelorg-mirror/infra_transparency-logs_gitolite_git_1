@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1537555322146065766=="
+Content-Type: multipart/mixed; boundary="===============2020999459084896595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 25 Mar 2022 11:08:22 -0000
-Message-Id: <164820650275.14444.2796260268833219971@gitolite.kernel.org>
+Date: Fri, 25 Mar 2022 11:12:10 -0000
+Message-Id: <164820673006.17356.801640042284362789@gitolite.kernel.org>
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,249 +16,270 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
   - ref: refs/heads/queue/4.14
-    old: 07c5808651a3c9e4ab836498fbb3baf6c1b3e428
-    new: 795321199b987b1446bee8332fac3027c557d31f
-    log: revlist-07c5808651a3-795321199b98.txt
+    old: 795321199b987b1446bee8332fac3027c557d31f
+    new: fe6c3a10f321a4b66d8d36f83837f726d3031673
+    log: revlist-795321199b98-fe6c3a10f321.txt
   - ref: refs/heads/queue/4.19
-    old: 12965f9d42d665703b29fa96e301bb3ebf71a59a
-    new: 9000239e6744a9b8eb260acea7d986169a3e7596
-    log: revlist-12965f9d42d6-9000239e6744.txt
+    old: 9000239e6744a9b8eb260acea7d986169a3e7596
+    new: 5a5b58395863a5272572170fc1d4b931c03c10bd
+    log: revlist-9000239e6744-5a5b58395863.txt
   - ref: refs/heads/queue/4.9
-    old: 32a19a91aefc8cd76143fcf4b2d867e42fae1d19
-    new: 6942c4857622eef94d0a72ac36a50a19fb19feb2
-    log: revlist-32a19a91aefc-6942c4857622.txt
+    old: 6942c4857622eef94d0a72ac36a50a19fb19feb2
+    new: 9867db4f7613a40de94e77f524ebe0033b2d3d2a
+    log: revlist-6942c4857622-9867db4f7613.txt
   - ref: refs/heads/queue/5.10
-    old: 977dce0756fb111b7a3815a077a6f9667f479d6d
-    new: 4f22449a6b6d7acd138c87284ed268d908c3195a
-    log: revlist-977dce0756fb-4f22449a6b6d.txt
+    old: 4f22449a6b6d7acd138c87284ed268d908c3195a
+    new: 16ccbf76c334c1724ee43616a9b749ebf3f1c57c
+    log: revlist-4f22449a6b6d-16ccbf76c334.txt
   - ref: refs/heads/queue/5.15
-    old: b456c5ec1fa84a22e33bd4b6ba005f9c71410f28
-    new: 73e349646eea23ec7b830a93cba395ed55a661f6
-    log: revlist-b456c5ec1fa8-73e349646eea.txt
+    old: 73e349646eea23ec7b830a93cba395ed55a661f6
+    new: d9c80877ee2670213eb7ccefba8d46284b416675
+    log: revlist-73e349646eea-d9c80877ee26.txt
   - ref: refs/heads/queue/5.16
-    old: 40c6b8c4e65fd5fe123c76b1dddac807620e99f5
-    new: 36926d73eeeb07342b9c8c9665f608908a1c8e4f
-    log: revlist-40c6b8c4e65f-36926d73eeeb.txt
+    old: 36926d73eeeb07342b9c8c9665f608908a1c8e4f
+    new: a32863390e4b12fe159dd0ee69479515b5853b1c
+    log: revlist-36926d73eeeb-a32863390e4b.txt
   - ref: refs/heads/queue/5.17
-    old: 371c14185af932d777ccd8201477764de4506beb
-    new: 77e995fa2a73c82b5ad03a31d2f20577da895d0f
-    log: revlist-371c14185af9-77e995fa2a73.txt
+    old: 77e995fa2a73c82b5ad03a31d2f20577da895d0f
+    new: 3cc762f46d342cdf25d932a8181a2ce006f48776
+    log: revlist-77e995fa2a73-3cc762f46d34.txt
   - ref: refs/heads/queue/5.4
-    old: cd30d8a042ffca561262f39b32bacb7dde4d2e1b
-    new: 86f5a9679100ab51b07f21745d725a8fb14ec939
-    log: revlist-cd30d8a042ff-86f5a9679100.txt
+    old: 86f5a9679100ab51b07f21745d725a8fb14ec939
+    new: 3599b5d176857f1fcc4610f4e98c4b6df9000688
+    log: revlist-86f5a9679100-3599b5d17685.txt
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-07c5808651a3-795321199b98.txt
+Content-Disposition: attachment; filename=revlist-795321199b98-fe6c3a10f321.txt
 
-cbaa624239809ee367bf838c527011839bb35b57 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-21554fac140c9a8842b5d9ae62a01171fcd17b0a net: ipv6: fix skb_over_panic in __ip6_append_data
-1762b1e6c3f27c97198ab63cfa97bc84b817314a esp: Fix possible buffer overflow in ESP transformation
-e117d7e706cf4a0fbdfe240005351bf3afd8f222 staging: fbtft: fb_st7789v: reset display before initialization
-e98831dca33f8e2addf1191d8e726e87c4942df4 thermal: int340x: fix memory leak in int3400_notify()
-667b5429bcfb8d3ab90a80e2d0bef735b2af700c llc: fix netdevice reference leaks in llc_ui_bind()
-d7f4b806f20ce9953821cc4ba99ef9a3a441a642 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-0d40c8e2f2a57d72c1f28e5c5e8691c05048cf86 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-b8d6859b86ac0e4d85d20f4a11576ac9221cf42a ALSA: cmipci: Restore aux vol on suspend/resume
-9ad06779b697e8e4e8fb1fbfed9626cc58b7c7f8 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-59a6ff2a775bc627cfc29a61392f2494fd483296 drivers: net: xgene: Fix regression in CRC stripping
-7e740e19b9494a72a6a5aa4313aca679beda916e netfilter: nf_tables: initialize registers in nft_do_chain()
-6e49a58f250709d4ebe46d09f570914fa352ee5b ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-a04c15a836cb2520850659811790c2631d6b1054 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-795321199b987b1446bee8332fac3027c557d31f ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+2638cceeefd3c7f7a26cc7487fd347fa8cd305bf nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+b83082bc1e319be778ce7586c9029b9401aae608 net: ipv6: fix skb_over_panic in __ip6_append_data
+c5074950161040160a56e0c2591bcde6c2bb6e19 esp: Fix possible buffer overflow in ESP transformation
+1af87f21b89ab494565d6bb26520be2204e74c39 staging: fbtft: fb_st7789v: reset display before initialization
+d54f3fabb6910741fcf43ee976cadc0f10a51024 thermal: int340x: fix memory leak in int3400_notify()
+03189956c4fea174b8f860656198d059a762c6a7 llc: fix netdevice reference leaks in llc_ui_bind()
+3bb059ffb3fef71afefeb0e73f3defbc84630be5 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+3d64d6fe6683351d17c9c41beef14b934f60ba8c ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+0ad5d68e0358a7a1f180c9dd0957bd69f19ada93 ALSA: cmipci: Restore aux vol on suspend/resume
+84f00b7964df45e575b7eee2271e18b01560c8e1 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+63fce9f14fc177c75ad16d92854eae656a2feff3 drivers: net: xgene: Fix regression in CRC stripping
+361f4d8155b0fa0799ac7e63b2febcddd3660621 netfilter: nf_tables: initialize registers in nft_do_chain()
+6aefb3a954f40716f0418763e39113210cb4952b ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+6c9d20543ddf53ee0933f88f4cdb9f8f685a58cc ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+fe6c3a10f321a4b66d8d36f83837f726d3031673 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12965f9d42d6-9000239e6744.txt
+Content-Disposition: attachment; filename=revlist-9000239e6744-5a5b58395863.txt
 
-054ab4ef9cca910732d907b3a5b7b062e7767fd9 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-cf5f1558fbde81a470c1d343808a01d0311b68c8 net: ipv6: fix skb_over_panic in __ip6_append_data
-4f480ab605ef95b3fc08c9b6b2b5ce30e8375a11 esp: Fix possible buffer overflow in ESP transformation
-6306d79f4b87146a55a8c483499e5b20852864eb staging: fbtft: fb_st7789v: reset display before initialization
-db02d4acda30d9db64e3dbc22f2113d624f3fe5f thermal: int340x: fix memory leak in int3400_notify()
-7f04101f679591037407fe85c2e7045d028182ba llc: fix netdevice reference leaks in llc_ui_bind()
-3db9b1df0d6c076ca05bbfa4532bc36e66b337b1 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-07df02d584e2261a822ecc251bf6cbbcf16a1d46 ALSA: oss: Fix PCM OSS buffer allocation overflow
-d047795382f12fc01b7c7a4219f69de0e79d4af6 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-e4cf005329074936ccf72106395379064b80f614 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-ccee962be9b97c0adf909059d06ffa9c99f622d6 ALSA: cmipci: Restore aux vol on suspend/resume
-775a8475492ec4796288b06c3c0b18a1f4bf3d91 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-3831c4cfb1a6040edd947ab70035201edf6b9c32 drivers: net: xgene: Fix regression in CRC stripping
-9000239e6744a9b8eb260acea7d986169a3e7596 netfilter: nf_tables: initialize registers in nft_do_chain()
+286b1cc2c24dae87b32b089746e110626b67f8f3 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+d037c325d9e825109f8e7a4b0e802a5fe5371610 net: ipv6: fix skb_over_panic in __ip6_append_data
+d4ea68df29cc1f4f556dc307bc646844168d5499 esp: Fix possible buffer overflow in ESP transformation
+e6b872a62983ae05d75e542c2a369cebe66b770c staging: fbtft: fb_st7789v: reset display before initialization
+d895b33578917a28afff7486e0a1e01fb81c6ecb thermal: int340x: fix memory leak in int3400_notify()
+22b72c83071adacf423191395346d3074ed5a6f1 llc: fix netdevice reference leaks in llc_ui_bind()
+c38e067aea058bc1ce0fa885963ad93b672e9682 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+5976489a90ff4b91944ccbb167d790fce659e420 ALSA: oss: Fix PCM OSS buffer allocation overflow
+ea9caecdef741da50286facc157edf7030c747b4 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+bb277f8d8a4cd07fa42331101f86081fe73db256 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+50bd211e8618af64008e6b39ef1f2b0f5c3f436e ALSA: cmipci: Restore aux vol on suspend/resume
+17483328a744251b27d1f858c88e50a909897314 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+e8872dcd2ab86d1e0fae4659607dc605f08fe360 drivers: net: xgene: Fix regression in CRC stripping
+739529728fbdb7caa18c66ccc83db916c06fcb6e netfilter: nf_tables: initialize registers in nft_do_chain()
+ee847c1bc95a17eb82dd6bcf1b061ced983092b2 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+0b9fb9b5fbcb0a27f7266081feaf7162cf8fb3ca ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+5a5b58395863a5272572170fc1d4b931c03c10bd ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32a19a91aefc-6942c4857622.txt
+Content-Disposition: attachment; filename=revlist-6942c4857622-9867db4f7613.txt
 
-b55f0b105a8523abc134dd32deec9961d882bf71 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-ef5452a714d451c289952928c714fca8fc3fe623 net: ipv6: fix skb_over_panic in __ip6_append_data
-e3e8dce10ee793346bda4371bcbcb7ed6f577d14 staging: fbtft: fb_st7789v: reset display before initialization
-ee6691426573ef3c8dc06319347c2f131be10d49 llc: fix netdevice reference leaks in llc_ui_bind()
-15682ed1f5154d55557060737fede5f73a25322c ALSA: pcm: Add stream lock during PCM reset ioctl operations
-fafa623f6e139b2a3e35e6af59f237916bbd2075 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-6a1f894fa5c5cc03654486caf86445fb2441b6a6 ALSA: cmipci: Restore aux vol on suspend/resume
-0a8c2d0c19962eb097a35729b0ef929aae7f7b31 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-9e3057437bceab5c72b2da0894fb42fafc327cde netfilter: nf_tables: initialize registers in nft_do_chain()
-7fc803c751341b0c967cc39cf5a6bfa84a8863b1 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-a89e1e73fabd3d07cef0f229c5254767af2d498a ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-6942c4857622eef94d0a72ac36a50a19fb19feb2 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+48f9d9ab39fcf2285cff942abdbebb900ae35909 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+5f138b8df6c5467c888110254c41d69325c0c57c net: ipv6: fix skb_over_panic in __ip6_append_data
+d2938945d2c3895f791c40c9bd68eabd8236de58 staging: fbtft: fb_st7789v: reset display before initialization
+1b41732cbe081c58e13481264c6d2767976b1104 llc: fix netdevice reference leaks in llc_ui_bind()
+60ee489996a7e08f883df6bd8753161bc842976c ALSA: pcm: Add stream lock during PCM reset ioctl operations
+b14065e8060cbcaf40bcfae07474c36fec83f049 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+a1cf12c3c8208e1754075b07e9c77855b141568e ALSA: cmipci: Restore aux vol on suspend/resume
+ee109bdaf5405d4a2ed1b84fa0a7115499d42d26 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+ac816259c4abaec3c1f86ce9a531b482015ee8af netfilter: nf_tables: initialize registers in nft_do_chain()
+999a6c9df539da1b5e86f6e9deec6baa45e255fd ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+7d7df5c5af034a1b1fefec233561057dd01b44c1 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+9867db4f7613a40de94e77f524ebe0033b2d3d2a ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-977dce0756fb-4f22449a6b6d.txt
+Content-Disposition: attachment; filename=revlist-4f22449a6b6d-16ccbf76c334.txt
 
-525bc64dfaa3ee207fe8a1e1b8d7dc0ec1a678e8 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-912a09b51d2a967665d6d0f2787c2f9ae8b8b3c7 net: ipv6: fix skb_over_panic in __ip6_append_data
-c14506312a45a6c98e1ac95c661b0cfc494cd757 exfat: avoid incorrectly releasing for root inode
-5d0c1bff75262f4decb7df4250f0d3034b297a5f cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
-5d588387a26e85c0fe73f99f1584d18681a22a43 cgroup: Use open-time cgroup namespace for process migration perm checks
-637d2cf727c7642f7dc505cd9dee90b269411855 cgroup-v1: Correct privileges check in release_agent writes
-0ff39333ecdbb5c470dc3afa4940e31fa20bc546 tpm: Fix error handling in async work
-6df916462eeb9d5a5cf1b0a556ac3762b3553991 staging: fbtft: fb_st7789v: reset display before initialization
-914214afddb7507a1cbe5d2a3371119051bc7302 llc: fix netdevice reference leaks in llc_ui_bind()
-712166ca9d444353499e81ef513893b6dce22c4c swiotlb: fix info leak with DMA_FROM_DEVICE
-c43372fd0b7e524ec3a6a4f17da906143a7ab71a swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
-366fe6fbda7883e3aff4c7e2efa549d4f9ebd7a3 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-b8ac5ff6191c0c050365661d149f46b8a0075481 ALSA: oss: Fix PCM OSS buffer allocation overflow
-aa394e1d9751cdef712813e5dc001a57fc7a9aea ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-cd05954a278441ec551700a99bc63c21f0906e2d ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-1660dcfa96eb3a211b6b6c23b27ab2efa706dc9e ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-e2971300e1a7f6b0d7e797de00ec288112251b70 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-e0edd2fd2e0cdc7ec343796d36a771cea6c163b1 ALSA: hda/realtek: Add quirk for ASUS GA402
-d80c1a6bd4a5a659966be8764221d2fb694af404 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-a8b67ebc486cfbb72ba5ae55d22b0e3c880ae0c1 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-bb2ac90bf8e888d391ad17fd0c7544c2838d7769 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-c528745eb93949f6f6a151379a79e4a7792d0894 ALSA: pcm: Fix races among concurrent prealloc proc writes
-42d0b7687c0718249f62cd7ee4161baec971c116 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-7c3ba7e6965e1336d7f39c537fec7d49eb1662d4 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-16a9d3c766f8fe75f2d09b5e23a013e12bc493eb ALSA: cmipci: Restore aux vol on suspend/resume
-f47d33b2f765546de69947de88319c5b6b046409 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-00537b5dc12caef7f9d1107bd5643bc8e0f9dbd6 drivers: net: xgene: Fix regression in CRC stripping
-4f22449a6b6d7acd138c87284ed268d908c3195a netfilter: nf_tables: initialize registers in nft_do_chain()
+00fad5644cc2481efaf96fc4ea89a89c6cc8c371 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+a7a8316703df64fce46680624985d35b5b9ce379 net: ipv6: fix skb_over_panic in __ip6_append_data
+de508270a0d2e8a9cbbc87ec7e749d572ff6206c exfat: avoid incorrectly releasing for root inode
+b3031b66d35d0f563bc2b7a3bbe5a476c8d95a48 cgroup: Allocate cgroup_file_ctx for kernfs_open_file->priv
+d07d104acc3ffb16e1f553c353c4b5892028348c cgroup: Use open-time cgroup namespace for process migration perm checks
+c1f528b103dd9bcee35be20f143a08e9aeb523ab cgroup-v1: Correct privileges check in release_agent writes
+cfbc414565bbbe0a029d4bcc49e61aa092c80baf tpm: Fix error handling in async work
+2c3a5e8142505d5ffc959cbbcaf69f13f66aa6cf staging: fbtft: fb_st7789v: reset display before initialization
+51a5eb6eae77c8f66de465620c7231fc1fd0d9ae llc: fix netdevice reference leaks in llc_ui_bind()
+2add0fb958b1c110dae7c994b2b5abf77da7c1b4 swiotlb: fix info leak with DMA_FROM_DEVICE
+bbdce936587d90cb5bcf24111608d25a38d1dc17 swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
+804973532c8b9e728b25330f926f7e2ab8cc1af4 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+44554384d1e34f8289a8d5d5034ab33cc0fd3f19 ALSA: oss: Fix PCM OSS buffer allocation overflow
+01e8cc322e817b58838d20e4dfd5ed54107e575d ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+ec64bd070e0571bae6af6885bd1c445592e3e94d ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+6ac7e632583ea9c5f099a55652469a8bb37538b5 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+d9b8c5c89c7ebc0635913574efd608d32fc7b150 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+1e30f4a1d100ce7f518895241aa636e0cea54c5d ALSA: hda/realtek: Add quirk for ASUS GA402
+2780490f0e18fc154e4d6f8ca2b007ec1d4a6475 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+75dd23353d3057a0f1120d176896f83fe3c1138d ALSA: pcm: Fix races among concurrent read/write and buffer changes
+f35cc398b956f5c80b28d756f33eceb0f006061c ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+35b812b8ccca92daa77514e67397bbbdff4fff1e ALSA: pcm: Fix races among concurrent prealloc proc writes
+c3443e73ec7d17a7b7d03dceb26f96ffac42cbdc ALSA: pcm: Add stream lock during PCM reset ioctl operations
+333ec7dcb719a795dae8b6ad69ec88faebf62bee ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+7049c0b00f64a383bfc3737b744f0f80dd928be7 ALSA: cmipci: Restore aux vol on suspend/resume
+7bc58d6f59b30c278f53c47170da93ba734171e9 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+8a78027c0b66357fb5d0445814fc3686e3c14661 drivers: net: xgene: Fix regression in CRC stripping
+c63d3087f803df8a610578573333b26ffcead336 netfilter: nf_tables: initialize registers in nft_do_chain()
+fd2ca7fd7313c73f7b613040167b378cf8ce43ea ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+a22f0e014a8b010cbcc1f1c3dc785dd03a796659 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+16ccbf76c334c1724ee43616a9b749ebf3f1c57c ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b456c5ec1fa8-73e349646eea.txt
+Content-Disposition: attachment; filename=revlist-73e349646eea-d9c80877ee26.txt
 
-b18a79e240fac100877eaf07e6635895e247b588 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-5235c38250eee2b5e7b4f1f4741ab788b9f6b785 net: ipv6: fix skb_over_panic in __ip6_append_data
-0ecfbce5de55e81866d024defe135433e7b05534 tpm: Fix error handling in async work
-cf755e03f213517eecefddfc29db6cbbfbcf0215 Bluetooth: btusb: Add another Realtek 8761BU
-4d2fd47e0d3e2eda6e15bde4f692de28008c5a2f llc: fix netdevice reference leaks in llc_ui_bind()
-bbed5c28c4a3d7407e1eff4e4662581aa818aca4 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-e6926f369ed8bffb13932426617feb0cf3b21c87 ALSA: oss: Fix PCM OSS buffer allocation overflow
-91103536ecbe97544a11092855256b911142d9df ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-4a746973cae72fb3934c8864135dfae642a359cd ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-e39c52146546cc3649deb05450133016fee2130f ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-e08b2c7780bc2851dcbdfc37d08883a5fda1ebc4 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-eaa0a4be6aa41c38262947509b82eacb26ebab69 ALSA: hda/realtek: Add quirk for ASUS GA402
-b6ed03490eb46a207e2d7c4e3468bbfe500b5553 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-111a7f67422b1e52a915331a036c0a0275bf1310 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-61abde85c7dc399fb483cfdb39f12def9bbab47d ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-b766adcad2b7ca6f604ca9f55a804f6a999faf28 ALSA: pcm: Fix races among concurrent prealloc proc writes
-b7e1d17232ad78673af87a5a5ee9378c93fd08d9 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-eaad7ef4f64d36ad9c7594508d854670838aa9b5 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-41129ccecc554dae98477591495e9fc7fc956643 ALSA: cmipci: Restore aux vol on suspend/resume
-fd554ac81accb61f2fc3b5038c03fab46106fb35 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-8aa0099a7885137999b9ba90fd0b7ce65dcad509 drivers: net: xgene: Fix regression in CRC stripping
-c89b1e5f6d72afca2abcb0ec3640427aa62d16de netfilter: nf_tables: initialize registers in nft_do_chain()
-73e349646eea23ec7b830a93cba395ed55a661f6 netfilter: nf_tables: validate registers coming from userspace.
+e81563e4db4fb00bbd8112d01133bbe65bba0500 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+98077157636cfd2ea1cd72e2978b323e3828af42 net: ipv6: fix skb_over_panic in __ip6_append_data
+9c8a9a3e4dda9fc97473270459ba40247c355c0d tpm: Fix error handling in async work
+e03d8688474b26f44ea81726ce00433eaa1d92af Bluetooth: btusb: Add another Realtek 8761BU
+41e6dc67779c864099e24b43b9ebff382057426f llc: fix netdevice reference leaks in llc_ui_bind()
+696ceee16c5b6fd0ab7d8e762150ba3b334e6e2f ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+5d1d13b1643998023af88098c61ee99fe7a12e81 ALSA: oss: Fix PCM OSS buffer allocation overflow
+4882475d9bc4eab2614decd4f6a4b46f6b3b3e94 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+1cd20c890e8d0e38b7d2a58a3d41c37f99ecb4ae ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+1d02b8f75ffdbcfe82b288d20b54cf617d4ee527 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+c7fe490ad8a231075cf734a4aae07f4eceec6d1c ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+22dc699b8284c208581ce08d1461aea594b0566e ALSA: hda/realtek: Add quirk for ASUS GA402
+3944d98356fbe70d1b24f8033fe6699892f1395e ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+c400996c3bfc6fd250b96508a9066741992937d4 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+39403cf91dfe8c0ef55796ea3bfdae25a5da0632 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+ca1dab866cc42a5dfa2501fe33d251c27742fb7e ALSA: pcm: Fix races among concurrent prealloc proc writes
+f4d64b4b1ac1646a0edfb8f7173a8163f0c5e9e5 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+c4a92bfc43d50f46adfbd48147fcfd2998114cbf ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+e70d47a0643bda21e75a578c64c23ae77d0bbf81 ALSA: cmipci: Restore aux vol on suspend/resume
+c87b916a8ab0e021c36a862e007c8b43f55d07a7 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+c7fef6ae42f3509b310fb92fec94cc3ea56b919b drivers: net: xgene: Fix regression in CRC stripping
+6f075a4cbe6c103ff5490132df430e3b48a8ef37 netfilter: nf_tables: initialize registers in nft_do_chain()
+46a0ec776e9efb1bd554410675914a120f036528 netfilter: nf_tables: validate registers coming from userspace.
+0edeb76f3fac024f8e5aef7e05f712668303b14e ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+56d7e4b2bbe3841db8b0e9f4236a61cb7f9c8784 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+9f79d7cca00eaf9d74b95fffd6370d2e365ebfa7 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+d9c80877ee2670213eb7ccefba8d46284b416675 crypto: qat - disable registration of algorithms
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40c6b8c4e65f-36926d73eeeb.txt
+Content-Disposition: attachment; filename=revlist-36926d73eeeb-a32863390e4b.txt
 
-445f24215054d2f70214c4d75d0f6d5bb803fa52 Bluetooth: btusb: Add another Realtek 8761BU
-61626d2f91a7bd33e6a419c2d04d0e9de8d6c12c llc: fix netdevice reference leaks in llc_ui_bind()
-c14baed8752274eb2e7d0ef43827f255978a3bb6 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-91f953be4b0c844282fb1ade72714ad7bac1c7ab ALSA: oss: Fix PCM OSS buffer allocation overflow
-bb8cb46a1e52170fc2459ea79545221681d18cc6 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-1e56c7369def5896ba442a0816e8aaf21b66f63f ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-7f17eac21914e9b123ea3f5dde60073d6c940b3b ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-0cc9fc4ae74e3eead81b4bd23d88671407f43195 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-7f877445f5737a0783f93f6a3c6c518dad57d9f7 ALSA: hda/realtek: Add quirk for ASUS GA402
-e93cb3366b2ba0f832296cd3e3e7247fff246a8c ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-04bbcdf9789df5c0eec354635d140e7abdae1755 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-5fa25f8db23e63d14602de8041ee80275208ccf2 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-483a75e127ef7617e61447c7a60f8c9a1769abd1 net: ipv6: fix skb_over_panic in __ip6_append_data
-b716e3b395d1f40d14ef446a4d3ce7fd170933f3 tpm: Fix error handling in async work
-0f1e1058949b5902716be6261d52f8329327ed33 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-f52bc17fe17231f03f402e6749c258e8b39148ce ALSA: pcm: Fix races among concurrent prealloc proc writes
-1e725d3985f7b3351975c31d93bdd9915492bc2b ALSA: pcm: Add stream lock during PCM reset ioctl operations
-abe9748f08d19e8e0c23bc50421bfc25b6e1766f ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-12c2ab25c3a2795998b572269d276031c20df21f ALSA: cmipci: Restore aux vol on suspend/resume
-f777eeef1ad1dbaaba8e0eb648a886a81d98ca49 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-d4d5ec92ca08371f6386cca5a76e5b7a806da4b3 drivers: net: xgene: Fix regression in CRC stripping
-813b204db8b5aeb5c161ef7347400ff953634320 netfilter: nf_tables: initialize registers in nft_do_chain()
-36926d73eeeb07342b9c8c9665f608908a1c8e4f netfilter: nf_tables: validate registers coming from userspace.
+1e55b7feee1c929187af74278924621da565c044 Bluetooth: btusb: Add another Realtek 8761BU
+4b0b320eabd1bbf6d7b54ec5d4c387caa7750a6c llc: fix netdevice reference leaks in llc_ui_bind()
+d160a57b39b6392292606507d6314b5d8d23b2ee ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+a732f5a85f04664ce30e4a49ed94e17c5e5951c5 ALSA: oss: Fix PCM OSS buffer allocation overflow
+3ebab49ba55f6b96a6dda774844ee097b9395fa2 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+79f8f0d17af52cf5352dd82956f62a34167c012d ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+4c9b577fe2760f95bd96bd87470234ee339bc832 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+3e74d1624eedeec742d01d6f749cb59cf7a2f1af ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+215d440f08edfda01651e6a07b1b13c8cede11fe ALSA: hda/realtek: Add quirk for ASUS GA402
+35271ad6a0b9579c5054cdc3a8cc6be3d8d5b3ec ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+3b5a09335f0e14ffe42255c3402434fcc086e630 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+cde30852c3cee733a68e407a566d559ca8bfb151 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+2f23bf71381a8b19b2ae1cc7d03356d134a7437c net: ipv6: fix skb_over_panic in __ip6_append_data
+3227725e1ba0a5f7a12af8a943b1e0c099c73117 tpm: Fix error handling in async work
+5a05fc37887982502669b6519f8060529056d307 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+62e624fa2f9896ff1848fa319b53cb217cacbbec ALSA: pcm: Fix races among concurrent prealloc proc writes
+de0328e9c85063c835929f22ca69a6a255f846bc ALSA: pcm: Add stream lock during PCM reset ioctl operations
+d2755092a14bb908235c513c2b89018efa02202b ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+9b5d7f7339dddc5e01aa67c311558e16b9b78f43 ALSA: cmipci: Restore aux vol on suspend/resume
+3350a2c87fcf94948190f11bdf1ae5dd9ddca4c9 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+133d9f8f1910b1e55dcec1edd3652ef927f58dc4 drivers: net: xgene: Fix regression in CRC stripping
+fd9c60e5cd4745b9cd54de717a5c5a5e04d18195 netfilter: nf_tables: initialize registers in nft_do_chain()
+e31a36011e494d575f4c2aef069280fa3b47b031 netfilter: nf_tables: validate registers coming from userspace.
+7a2d5cb64f5fc8e7bae235c1418a0112e7afea89 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+5c320e076c68884ca1f3f1640c4456e9442f207f ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+ef301da326ab00434e6c69efe21b2eb02aceaea7 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+a32863390e4b12fe159dd0ee69479515b5853b1c crypto: qat - disable registration of algorithms
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-371c14185af9-77e995fa2a73.txt
+Content-Disposition: attachment; filename=revlist-77e995fa2a73-3cc762f46d34.txt
 
-e8b51fe94d0fe984aa2f1c64f87dbcb655e2e7b0 tpm: Fix error handling in async work
-82dbef50394148bb2c78a3188833bdcc44ca59a2 Bluetooth: btusb: Add another Realtek 8761BU
-2734ffef60cada1a9e64aa3d68daa7f2a6676e61 llc: fix netdevice reference leaks in llc_ui_bind()
-a2a16ff81c19d604ff8f0e353c89a5e3bacd965f ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-d426bd70c8a9bae71d6abf542069594c7472e701 ALSA: oss: Fix PCM OSS buffer allocation overflow
-34db5cac990dd898ee4233d7e1df4e40fd1ea3c1 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-ab7dac718f9623b4356d1168f382efcd07c39a83 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-0fff038d5fc81f007735272daa8e0a6dc8ebab74 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-914e07cb1e6242d300231108fe17f769b7ef803f ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-9e2354d3a92f0443939b897c10a6ecb69cb8e7bc ALSA: hda/realtek: Add quirk for ASUS GA402
-1767dfd5fb7495c5635e47e0d76521d9bf9fcd8e ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-54dc0c106d9217a8474bbe030c8883d43685c9ec ALSA: pcm: Fix races among concurrent read/write and buffer changes
-f5090530a1a5ea6bc596b9e112cffa5fd9102553 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-dadb65035383b153326250af2127ac61d1d39f22 ALSA: pcm: Fix races among concurrent prealloc proc writes
-b5d270c19929712aa1bee38804e8326fe41b5628 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-fbea064e996c297e1cdd1a9048310251888dfa3b ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-4463d651a2af35f94529bb17b690f1a586184310 ALSA: cmipci: Restore aux vol on suspend/resume
-e54c72af0d75de906b86c29c9d4aa7334d4b23e3 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-47d227657a52346b89f712fd56fe7a2833975015 drivers: net: xgene: Fix regression in CRC stripping
-31dd6fb50b36295e632590158094d95485897cc0 netfilter: nf_tables: initialize registers in nft_do_chain()
-77e995fa2a73c82b5ad03a31d2f20577da895d0f netfilter: nf_tables: validate registers coming from userspace.
+e3e63cf31f5740fe2d8538129942cb739501d8b3 tpm: Fix error handling in async work
+a6745858ee0dfaf30659dd2dd9bca05b33319cb9 Bluetooth: btusb: Add another Realtek 8761BU
+93e85398e89c6cf8cc5e3f282eeb9aa196760b2a llc: fix netdevice reference leaks in llc_ui_bind()
+26434b1ba30910259ac8abda9171a51b0c415a23 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+a1af9baf0469f3f6dc1753c69b87aaf15df08b1b ALSA: oss: Fix PCM OSS buffer allocation overflow
+fd03a4c25d3dbd48629ef4579db39e4f5496bef8 ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+9f91b088e3208e18f4b9049651b261c83a4300d3 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+8763185487e3b9074d07817717241b20a27527c8 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+4807d630cb2e75f6daf43cf6a49345f9c2b81f02 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+d056a289bfab7dd0ae9c1edae727bf3e16eb92e4 ALSA: hda/realtek: Add quirk for ASUS GA402
+40d8448b8a1ecc68f31b078ebfff3a4d8bf83ed7 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+a44bac024740918f33efe3ee395b5b9536607f79 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+ea3a5650d30cb26cc6cf424d95a22497118e9895 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+35751281b5a8013328756f6e4b861a5fbab562de ALSA: pcm: Fix races among concurrent prealloc proc writes
+be08843c9e914965ef888142fcbe3a00615e31d8 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+5798db40895315f9345d500d7fb11d5673025e50 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+fb5044c8ede4a842164698d61e3a29ebda62ab97 ALSA: cmipci: Restore aux vol on suspend/resume
+0fc78e63247f875032dacfa586b0b1d0b92b7f48 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+f919d42be8dccd7c840fee260f5673cafce3ef6c drivers: net: xgene: Fix regression in CRC stripping
+25ddacc3f6be137092b1de5f46891717ff32c3ab netfilter: nf_tables: initialize registers in nft_do_chain()
+c0bd2716272f2ee2c22dd5a13613480e5d1978d9 netfilter: nf_tables: validate registers coming from userspace.
+14ebcac6378fce24ad7dcb3786cdf9cde4fcd08d ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+7616f52d65d7ac1906bcfecfb08d64f8d9b29c7f ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+b169ee52e9d2a8d93b48b3a6a8c247cdd5c47a60 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+3cc762f46d342cdf25d932a8181a2ce006f48776 crypto: qat - disable registration of algorithms
 
---===============1537555322146065766==
+--===============2020999459084896595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd30d8a042ff-86f5a9679100.txt
+Content-Disposition: attachment; filename=revlist-86f5a9679100-3599b5d17685.txt
 
-216a92bb7d9bb50aad2b72e85d7af78d2c6fc316 nfsd: cleanup nfsd_file_lru_dispose()
-69691da9a966d0a808c520616ae25499348b7bd9 nfsd: Containerise filecache laundrette
-49d0cfbe8f9141e12ab0d52518e89336cc22f370 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-6594422a59858c4447865a1fffd9474a3cc1a488 net: ipv6: fix skb_over_panic in __ip6_append_data
-3f58af8224d9408979c6c425fb01bc461005504f esp: Fix possible buffer overflow in ESP transformation
-f5d3c55bfca9fc64c167e4e29877f06d88db021c tpm: Fix error handling in async work
-844df6d22eb6f69c2a168e3b8e0306dc02196653 staging: fbtft: fb_st7789v: reset display before initialization
-d80b096908e578a42de3848f0bdeaa856b120078 thermal: int340x: fix memory leak in int3400_notify()
-d69187e4d05bd5f180a05f913ef5c585c0d0b5e3 llc: fix netdevice reference leaks in llc_ui_bind()
-d10a2a8d01801b2a2cc096bbe215eb011b4099f6 swiotlb: fix info leak with DMA_FROM_DEVICE
-b061ccbb5e22bab8d8c0deeca9dcc5ecb4e891ae swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
-4c3e0ed6ce870cce229cd207f7b74a6d6c87aea2 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-d2da0cdc0e8257a731caa81804bb1845fd947ae2 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-408e607d586e2a629e19b794baceaf2808249a73 ALSA: cmipci: Restore aux vol on suspend/resume
-67d7edd68928d3d74e25cb4e9ab0929a06597a6a ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-2d84c384b7fc751fab051754ad3ed96e72890311 drivers: net: xgene: Fix regression in CRC stripping
-9cbf3852a95f21a0103b962efecdc3e39e93c2f3 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-1b089dea7b4c5d68ced1c63c28a864063162fb94 ALSA: oss: Fix PCM OSS buffer allocation overflow
-3cf7ec0a4f43c725a7efe1fe236c1f096351d44c ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-c4eb23e3fa870425ffba13d317d5167ae953e75f ALSA: hda/realtek: Add quirk for ASUS GA402
-86f5a9679100ab51b07f21745d725a8fb14ec939 netfilter: nf_tables: initialize registers in nft_do_chain()
+13b56dcc53defdbc51a9b415f9897033e2a9577d nfsd: cleanup nfsd_file_lru_dispose()
+4cb43de4198f931308c9003995d426d8f0e76eeb nfsd: Containerise filecache laundrette
+bd4f5e97058fbb44297b83f070dccf57be66a060 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+ef89848d2a63f6ef88e7c4f4dfa81cd07eb4472f net: ipv6: fix skb_over_panic in __ip6_append_data
+2a6ca0972683b73f65d93f119448dc4bc621ec0b esp: Fix possible buffer overflow in ESP transformation
+e9e942ad6d3bcfc2a21d02794c8d9be2e949bd1a tpm: Fix error handling in async work
+60cc5cdf01b7de600256c1de0baa97dc65f660a6 staging: fbtft: fb_st7789v: reset display before initialization
+b5d7f05c24a729e0182619e7bbd2f598dc2ca2d0 thermal: int340x: fix memory leak in int3400_notify()
+5547edfc287a073a1d54ba440443760e4b2d0814 llc: fix netdevice reference leaks in llc_ui_bind()
+f1a55af40964de8489dd16de5e73f7dc5da6f594 swiotlb: fix info leak with DMA_FROM_DEVICE
+8699923962387e663152637f8b0d44d266ba8956 swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
+9310b2d41837e186a11bf77b11fbd8c6c1e90923 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+dc0323ebb614c16d98106f64cf987f107ade1093 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+820152de980e7a1579f1496922913bdb1cde95f5 ALSA: cmipci: Restore aux vol on suspend/resume
+c9bd4d1750ca4d038949374f2429d931cc69cc9e ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+f77cab42f40df330ca0f730833702dd2cbb7c1a2 drivers: net: xgene: Fix regression in CRC stripping
+32087327234dd0d9a5b5f882e158e3ba6784bde2 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+a77ae91197807eb0a63828b64c2de04f5bf55e10 ALSA: oss: Fix PCM OSS buffer allocation overflow
+ac6cb6959b68ab9866778b4619375528c47c7d96 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+8d52a0524a025ac849e76a82356bc5650430414f ALSA: hda/realtek: Add quirk for ASUS GA402
+54b111cecd4df22c127c8a2bf767ea7b6682f723 netfilter: nf_tables: initialize registers in nft_do_chain()
+28149f3e0b64738f361ce98dc1e4447cbf476394 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+6b39fd66c09c2fd84e5c0a5cfebab5bc7f3e928a ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+3599b5d176857f1fcc4610f4e98c4b6df9000688 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
 
---===============1537555322146065766==--
+--===============2020999459084896595==--
