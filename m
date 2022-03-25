@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8022589096028082541=="
+Content-Type: multipart/mixed; boundary="===============0769358280210992538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Fri, 25 Mar 2022 09:41:56 -0000
-Message-Id: <164820131649.22019.5415294530971740245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 25 Mar 2022 09:49:44 -0000
+Message-Id: <164820178422.27294.14151693999427105000@gitolite.kernel.org>
 
---===============8022589096028082541==
+--===============0769358280210992538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pci-mvebu
-    old: aeb27bba109976eb94e28a67f162ea24b65b6bed
-    new: 7e00fdf690aba7994e92a8e08a3caa32e9980c23
-    log: revlist-aeb27bba1099-7e00fdf690ab.txt
+  - ref: refs/heads/master
+    old: ca57b8816e25537671133e8516a40a4466323882
+    new: 79c9d23690ce1962999ae6187c2aa936e4ee9657
+    log: |
+         79c9d23690ce1962999ae6187c2aa936e4ee9657 4.9-stable patches
+         
 
---===============8022589096028082541==
+--===============0769358280210992538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeb27bba1099-7e00fdf690ab.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-728ad94676539a7607d579751157d3dbcba063ac PCI: Add PCI_EXP_SLTCTL_ASPL_DISABLE macro
-a5e00e9d9b07429c6bc704fb5311ec7b56999431 dt-bindings: Add 'slot-power-limit-milliwatt' PCIe port property
-272e96eb7eaa05fbaebcd498d0ac513a50f20bb4 PCI: Add function for parsing 'slot-power-limit-milliwatt' DT property
-1d9af7cca964b54758f9b636e71e011c194c64e1 PCI: mvebu: Add support for sending Set_Slot_Power_Limit message
-c78cedaa28881260d1ace07662a4c4f177e9c7f5 ARM: dts: turris-omnia: Set PCIe slot-power-limit-milliwatt properties
-47e2a5e71678fe43076cdc95b72eecc457f8d65b PCI: mvebu: use BIT() and GENMASK() macros instead of hardcoded hex values
-bb30ce49d3466656f8aca62da6fc3a0fcb6c8852 PCI: mvebu: For consistency add _OFF suffix to all registers
-e9d7557cd3f1a22fe6cfd7b82b782a98e6c8bb02 dt-bindings: PCI: mvebu: Update information about summary interrupt
-042376531d328909af0ac8ffb2268709c74b294b EXPERIMENTAL: PCI: mvebu: Implement support for interrupts on emulated bridge
-6aa0670181f927de2c8f92445faf032395ba0a98 PCI: pciehp: Enable DLLSC interrupt only if supported
-7f6906ab44d50c64c007f8c38f2044e63d026865 PCI: pciehp: Enable Command Completed Interrupt only if supported
-e48d0ae17c3ed7f4d7b7930176bb665a22c895ed EXPERIMENTAL: PCI: mvebu: Add support for PCI_EXP_SLTSTA_DLLSC via hot plug interrupt
-7e00fdf690aba7994e92a8e08a3caa32e9980c23 EXPERIMENTAL: PCI: mvebu: Add support for detecting failures in config requests
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648201783 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648201782-fc352d1bf1c5d56c7b4d3c54017117ff961bf5b9
 
---===============8022589096028082541==--
+ca57b8816e25537671133e8516a40a4466323882 79c9d23690ce1962999ae6187c2aa936e4ee9657 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI9kDcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MbkQAL9mfm1bZQ0rw+gT/UDo
+QFSAgv+jGsQjC3wiO0sfjr68sGzBf8OVE7O0iqgfv1UoILaJCFPznrofYWqj7bLn
+pDoEmu6L8HMlh7xfHwqaJ9iRDEi3iHs0cMJBop7sCGNfGQgHGOIA6LY2IdcWHshx
+DNvjubV5KP6EAAD8IagN6g3CYIviuQBpAwDrasEy40iehfi3S5fIM4lrVONohtRh
+xsNLfsdb9ag8MWCoWQ4TqhHTspaMgXLCAdyJHG58szxNqDWeHQe50b7R0/UbeXru
+5vpv28E7RKWuzuJ4SBO88SuRfQdzl5tyrFjthzfr22uf2Sghew5UPb1o/5lmDC6Y
+gQwP4dSr7Y1z78fYgU+ODTcBVmeFkCPR+mcu0haVDiDZo02kxX/ABTgNHM9ZDfLO
+Rm0nUbdscWe+r9m7DAFr1QBmtPozgWiLTbOdZwq/PoshXuEAs3HjabqPKXC6KIj0
+UtYFviQrVyXyPYftSWdKfsz1f0bPPo7Erj5sPwOLZGG8Ifyr9idh0xASZ9LOQTHh
+B5AUTGUVWV3xXNEh2ldXHfUinmTQDYbXh0qMoLAGVaydmJg1XizwPM09k8WlJyYa
+Vq86W0uMa6ix749ukC9NXxJX5z00d0KO71MCV0VJ/vhZUYtg2Y75rbc2ZALeKx07
+wLh7WxXjgBzsi+tyWemRnBX4
+=yPPK
+-----END PGP SIGNATURE-----
+
+--===============0769358280210992538==--
