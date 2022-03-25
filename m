@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2492725736744050357=="
+Content-Type: multipart/mixed; boundary="===============0580280775690955065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 25 Mar 2022 15:04:25 -0000
-Message-Id: <164822066524.1629.9147963482489959041@gitolite.kernel.org>
+Message-Id: <164822066584.1729.14774791955649608054@gitolite.kernel.org>
 
---===============2492725736744050357==
+--===============0580280775690955065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,67 +16,76 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y
-    old: e9ab0e419effc3553386aca9d6c836f29b65bea9
-    new: 3a6a2212011395b420629a2d46310bd935d18c76
-    log: revlist-e9ab0e419eff-3a6a22120113.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 3e1d412714eb3af7c5b8afb8c6ad86eb9c003c8e
+    new: f7f6eb6ea69d3487f62c6e27e7855e0818d2a704
+    log: revlist-3e1d412714eb-f7f6eb6ea69d.txt
 
---===============2492725736744050357==
+--===============0580280775690955065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648220663 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648220664 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1648220660-08af5dc1158a83cb473f284adf02f3aa162a98b4
 
-e9ab0e419effc3553386aca9d6c836f29b65bea9 3a6a2212011395b420629a2d46310bd935d18c76 refs/heads/linux-4.19.y
+3e1d412714eb3af7c5b8afb8c6ad86eb9c003c8e f7f6eb6ea69d3487f62c6e27e7855e0818d2a704 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI92fcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5fkQAJJiwB+ZCCapX8/odi3T
-H6cOE+rZ/zS577eFiXbWUIyKjt/iuyQajacy+spUC7MRd/U7QMEOdyoV24ZYXgP4
-HxaCVr1PEFtYspByzhe/dy5OjYSqhE2fc76MtX8KZ972TsmJX8kQDt05rxS3QD2U
-goxyIN93X+RmRZ1HuRZ36GIPqL6O0bLZPuAmjeELwXUn/3Imq+vJatJvFhcxHf7w
-fchoH5qG+Mxv0ZcARvfmjJyfslUcV8hbqnqOyKANs52tPiey5zLdktsGYKTfnTrC
-8RAc+VhglWeU9pXJcaXyswyiFGy/0mYb1O03/a8iRCkP5Qu55iGAD2jQhmqAzsTc
-3sublUWLj4cTiXRSpNl2ltvivzFSu1afmCzyHnNINwks33MYHUEyFbkzdfOkjyT3
-dKPAw56Gi+NmSfIWleZoXF+LXBWnYupgIkWcqzOHeH2XH9XemJNOYa7sPTB39Hnu
-Of2DQcOiNhtiIEw7876Mi1IH9iZQ6LFnwBXdKCUzP5UpiUXfSCr7blHX2R8CtflP
-cPn5NpuGP2JnRZo23HrXdjNY5jyd5821sIWObJZXEaRbf4I192y3IUchtwTqsL3B
-xsO5s0x7C+HYJeQ4YMMl6pOKWZQz2dID1Js1gHRW11KM/CjA8CjPrZRqde5OMn8Y
-w+2wUITM8zR7WQK214+Lqw6f
-=r5/y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmI92fgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qkAP/1lGSx0Xa5yvWEfDxAIv
+oKRlmIokdz1vMBOQW3nUNi7xN/lNwl0GwJ6tSRzI/gbEntaNUwQ0pg4ttfv/gglP
+FURCCnctAzM1iEUNf3tl51ZrxxgQUUW/U9m2MqXchXb34kJDVYYssfavqj2DcJcI
+CwlIJK++kspb9SPrF/kBL4WuGw501tApNt777ngB5yA9vsw6cIa7w/A2CsDcFl6g
+CQVITo+XtJhu7O5Ix6hx8qZPoM9jkKND2xSNtegj6etJuFK5e66dDKZ1Dxr4d8qJ
+fFpzp1mfjQly/TjejzmDbyEVJcTucwWBhS2w0+2J2qn0jHVU34s7SnfLPoEAI6X1
+XFpMcDc08sx8PM3LTxTj1IEjqItBjzF/JYKckUK9h9ZZdcWC2KdJVbOwUTfeUDpH
+XEOH+YzN0858LGOitWz5ro3YExy6XkvJU5Z71xIZ+pHKKJYHw7z3Zl/0AzyBNo47
+jzs9MxwJZ93BncKjA6IROj1Qr8CvSNkUiQvN/Zcx5ZZr1d8NNhVfp19QS96ayhBj
+j0ghpfXeJJ1qxyVOG32ncOVCS1PmzMwZ6uRXARs9dCGLAHZCwh3X6WQsBUZs9Us5
+59lZVPemoZ8e141mSiYBPAxXeuv2zikUO56Le+9rKVVGqqmEPNlbde0JfM9354x1
+nZTuTEOKk+O2FDOwhu6foa/p
+=dO+1
 -----END PGP SIGNATURE-----
 
---===============2492725736744050357==
+--===============0580280775690955065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9ab0e419eff-3a6a22120113.txt
+Content-Disposition: attachment; filename=revlist-3e1d412714eb-f7f6eb6ea69d.txt
 
-35ea77b210c191793a7d2261371cf13d5dec7f1c nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-e658a6ccb3d1b4559f1da7a7ce97b55a9c09ab15 net: ipv6: fix skb_over_panic in __ip6_append_data
-07738d564c5677dc578dcbd4eee8842b85459a01 esp: Fix possible buffer overflow in ESP transformation
-2a42df81c1a12206768e13333815f3e89bbd3a70 staging: fbtft: fb_st7789v: reset display before initialization
-1ca9c39b4990a8a0ca2f6fe4c141b0227cf19722 thermal: int340x: fix memory leak in int3400_notify()
-53850867b083ada8baefd5835f5981bb5d44d0ad llc: fix netdevice reference leaks in llc_ui_bind()
-99adac724007d9999a5c43cc0cfe19c26c71a801 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-9c1863b4e40b360b0bbb1f3f950f0eabba8cb484 ALSA: oss: Fix PCM OSS buffer allocation overflow
-05a3263fb20417ce6bd443626533d9aeac33ad8a ALSA: pcm: Add stream lock during PCM reset ioctl operations
-c073f1edd64e00678cab14d706871522d397f56d ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-37af7049c531591e4a1e0317c34eb2c1d17f0be1 ALSA: cmipci: Restore aux vol on suspend/resume
-89cea98361064738d33fbfbd97314dcb2843ae28 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-12ea55fceec2328bf6eea4c9d5f453efa3c678dc drivers: net: xgene: Fix regression in CRC stripping
-26d36be7390088378838dec0ab66f5314bc934c9 netfilter: nf_tables: initialize registers in nft_do_chain()
-6bd62662beeb21ced860029b452ddd3614de1252 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-5bc16791994a0f56415d31cd9f3d6a213410ad9b ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-b9b29404436fc34c5e6e5db9192f440bc118768c ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-d4220a67007d195f7ee4943ba11dcc1b817b91b1 crypto: qat - disable registration of algorithms
-537cbdfd0abee09498474a46dabf36f05ea3f236 mac80211: fix potential double free on mesh join
-0820e24cecc2e7485995e344f1a6d0bcad784b4f nds32: fix access_ok() checks in get/put_user
-3a6a2212011395b420629a2d46310bd935d18c76 Linux 4.19.237-rc1
+5e17d9ce46bcd98e07a380cba5e4bb4669d81344 nfsd: cleanup nfsd_file_lru_dispose()
+cb6f6fc10773d41b66e30143c6ddded25641abe8 nfsd: Containerise filecache laundrette
+0379741b520e4f4ab56c6c7a1cd4b51e3f4c938c nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
+13fdf83c0352cf5b697f5ca24c3089be99295af6 net: ipv6: fix skb_over_panic in __ip6_append_data
+3bbfe82ef7ee8c1e1be2ba4d38123641072ea02e esp: Fix possible buffer overflow in ESP transformation
+61582f09e4b96aebcdf8e6430351a51258db084d tpm: Fix error handling in async work
+364f41765c45ffacaf40a363dd734fa1233c3e82 staging: fbtft: fb_st7789v: reset display before initialization
+1212110773c49e5ff5d8aa01bf0ecd2e99703115 thermal: int340x: fix memory leak in int3400_notify()
+50743027def744bc6d27b029a13b7348cce67b2c llc: fix netdevice reference leaks in llc_ui_bind()
+f101c961727a223517fb2b28cfafc50d7a5e6251 swiotlb: fix info leak with DMA_FROM_DEVICE
+3c9dad8981657c7b7afe1589711095b46e372a0e swiotlb: rework "fix info leak with DMA_FROM_DEVICE"
+8f36f42da821aee6c6f84cbceb0db9e0cb1ecec0 ALSA: pcm: Add stream lock during PCM reset ioctl operations
+57671b8e2b43589c87fc51c3d5b720c7133e5d1c ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+52d264c981c7393b90a072a2c7f0eb816f8b049f ALSA: cmipci: Restore aux vol on suspend/resume
+5ae27fa7e95e2295359b76682baffb33f5b673fc ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+ee28e893ab58a47ed9eab92a6ba4dd50daca08ad drivers: net: xgene: Fix regression in CRC stripping
+dc26467f165c38cc105c4d5c1f45419c7916892e ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+568ff083e163d11289476ee24f568f4b58a00218 ALSA: oss: Fix PCM OSS buffer allocation overflow
+73718e8408a97a966a6797495db6cbff7357670c ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+65f6b7d978f80ad1be9210a50daea46ba4352924 ALSA: hda/realtek: Add quirk for ASUS GA402
+272cd65582453df66bc4626f30d5692f011e8486 netfilter: nf_tables: initialize registers in nft_do_chain()
+7b458fb3118115bd7cf6d3ca43625ef494b8eb23 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+bcd5d2410ad0c06d5b4da1877d00156811b4ec28 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+0b9d96650a421cfce1669c0b43586b1431ff08e4 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+2f0f0e1984f0169a8f57cf144ffa2b6a043202c8 crypto: qat - disable registration of algorithms
+2d65d05bfb67bb0476e8e9cdc7c0c736ccbdaa49 rcu: Don't deboost before reporting expedited quiescent state
+5e898b6a9bc05186f1728b885d52b2187944a621 mac80211: fix potential double free on mesh join
+63d94471be4ee353583c126c53b0284166c2ab63 tpm: use try_get_ops() in tpm-space.c
+cb18528c1aa990811755751af06f132420340406 nds32: fix access_ok() checks in get/put_user
+f7f6eb6ea69d3487f62c6e27e7855e0818d2a704 Linux 5.4.188-rc1
 
---===============2492725736744050357==--
+--===============0580280775690955065==--
