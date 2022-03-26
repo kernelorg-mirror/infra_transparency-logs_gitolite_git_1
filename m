@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Sat, 26 Mar 2022 15:04:22 -0000
-Message-Id: <164830706281.32303.16267556723661509891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sat, 26 Mar 2022 15:04:44 -0000
+Message-Id: <164830708483.32515.1254973197653989850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: acme
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/next
-    old: 31df013b70540072521943fad624e63a247228dd
-    new: b71a2260affc125344210093d7f6484793f0a0ad
+  - ref: refs/heads/for-linus-5.18
+    old: 309b517276f21dc7e6315c6637792f8bbfdf7ec4
+    new: de2ae403b4c0e79a3410e63bc448542fbb9f9bfc
     log: |
-         b71a2260affc125344210093d7f6484793f0a0ad btf_encoder: Collect info of per-cpu varaibles from threads.
+         ff32baa1f39b1adb519479a51e7acbcbfdd2206c xen: don't hang when resuming PCI device
+         de2ae403b4c0e79a3410e63bc448542fbb9f9bfc xen: fix is_xen_pmu()
          
