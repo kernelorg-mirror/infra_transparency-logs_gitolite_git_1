@@ -1,19 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 26 Mar 2022 01:56:39 -0000
-Message-Id: <164825979984.8790.15527393412608295684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sat, 26 Mar 2022 06:06:56 -0000
+Message-Id: <164827481675.7307.2897642237724650337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/at91sam9g20ek
-    old: ae571e61aad4e2b4086f6da0684c79ac242ad159
-    new: 38dbe55aa7e253839cd346f043d0a58bbcf02011
+  - ref: refs/heads/clk-next
+    old: dfb6e16868bfbdc9a85dbbbb80fbef306057210f
+    new: 3fb2cf242e745966d5cbaea86fc4e46189c59c56
     log: |
-         38dbe55aa7e253839cd346f043d0a58bbcf02011 ARM: dts: at91: Add VCC for serial EEPROM
+         5f7e2af00807f2117650e711a58b7f0e986ce1df clk: Initialize orphan req_rate
+         481f541ced8fcf9af87bedf6f87c2023de22bf6e clk: test: Test clk_set_rate_range on orphan mux
+         7dabfa2bc4803eed83d6f22bd6f045495f40636b clk: Drop the rate range on clk_put()
+         3fb2cf242e745966d5cbaea86fc4e46189c59c56 Merge branch 'clk-range' into clk-next
+         
+  - ref: refs/heads/clk-range
+    old: e9d6cea2af1cf8d84287ff2287b6cd776f7475d2
+    new: 7dabfa2bc4803eed83d6f22bd6f045495f40636b
+    log: |
+         5f7e2af00807f2117650e711a58b7f0e986ce1df clk: Initialize orphan req_rate
+         481f541ced8fcf9af87bedf6f87c2023de22bf6e clk: test: Test clk_set_rate_range on orphan mux
+         7dabfa2bc4803eed83d6f22bd6f045495f40636b clk: Drop the rate range on clk_put()
          
