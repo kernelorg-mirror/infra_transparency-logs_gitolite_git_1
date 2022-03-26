@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Sat, 26 Mar 2022 15:04:44 -0000
-Message-Id: <164830708483.32515.1254973197653989850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Sat, 26 Mar 2022 15:05:17 -0000
+Message-Id: <164830711794.1764.14941160653416578014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: ostr
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/for-linus-5.18
-    old: 309b517276f21dc7e6315c6637792f8bbfdf7ec4
-    new: de2ae403b4c0e79a3410e63bc448542fbb9f9bfc
+  - ref: refs/heads/next
+    old: b71a2260affc125344210093d7f6484793f0a0ad
+    new: 1bc98ed290d2c833c8a9b68c66974255e2d9ee40
     log: |
-         ff32baa1f39b1adb519479a51e7acbcbfdd2206c xen: don't hang when resuming PCI device
-         de2ae403b4c0e79a3410e63bc448542fbb9f9bfc xen: fix is_xen_pmu()
+         1bc98ed290d2c833c8a9b68c66974255e2d9ee40 btf_encoder: Collect info of per-cpu variables from threads
          
