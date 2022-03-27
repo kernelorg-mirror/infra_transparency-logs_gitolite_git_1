@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 27 Mar 2022 13:48:39 -0000
-Message-Id: <164838891931.12360.1841562233287933126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 27 Mar 2022 14:58:19 -0000
+Message-Id: <164839309984.23530.14715005897246528336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: 2e891856ca6fd6bf183e3e82133fb3dd5d5de454
-    new: bc2246691358faf1c0cf88ee48c19fb1d15ad3b2
+  - ref: refs/heads/testing
+    old: 08e73b9561cf838e7aef0bf2a08015e05e507100
+    new: 68e94115d82c500b00b518c50874ecabf399bf72
     log: |
-         c6cf7bf677deb211fa542ce9232310bb0118a5ff parisc: Find a new timesync master if current CPU is removed
-         6f0677151e5890eb425cb7e498b194a06f84ca28 parisc: Clean up cpu_check_affinity() and drop cpu_set_affinity_irq()
-         bc2246691358faf1c0cf88ee48c19fb1d15ad3b2 parisc: Fix CPU affinity for Lasi, WAX and Dino chips
+         8ca346a84b4343ae9c6d3ac88a2196b281400af6 iio: temperature: ltc2983: Don't hard code defined constants in messages
+         ad997183522ad196de94ebae89e001fd4b0715f5 iio: temperature: ltc2983: Use single error path to put OF node
+         1061a89c776fdbbe7a4fd677c678c298ccf98df2 iio: temperature: ltc2983: Make use of device properties
+         704ab048ec549ae3256855638d5cf0e54145899b MAINTAINERS: updated Lorenzo's email address
+         f4056ea25441bf730ce37ae2edea383e4db802eb dt-bindings: iio: imu: mpu6050: Document invensense,icm20608d
+         68e94115d82c500b00b518c50874ecabf399bf72 iio: imu: inv_mpu6050: Add support for ICM-20608-D
          
