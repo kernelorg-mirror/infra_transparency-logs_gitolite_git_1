@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 27 Mar 2022 18:24:30 -0000
-Message-Id: <164840547032.25934.12821968852321659598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sun, 27 Mar 2022 18:38:15 -0000
+Message-Id: <164840629529.2050.8412989162855362372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/master
-    old: 73f5401d29955ee5e84e2fa38bd2010389941562
-    new: a491c777b4fc5852ea54696f53a25521a2f01310
-    log: |
-         a491c777b4fc5852ea54696f53a25521a2f01310 Sun Mar 27 06:23:03 PM UTC 2022
-         
+  - ref: refs/heads/for-v5.16/mtk-smi
+    old: 93403ede5aa4edeec2c63541b185d9c4fc9ae1e4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-v5.16/renesas-rpc
+    old: 4a26df8e60e534110f37e23c068f25f2f523bb83
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-v5.16/tegra-mc
+    old: 31b88d85f0432e1c0738fe0714191e8504f505c3
+    new: 0000000000000000000000000000000000000000
