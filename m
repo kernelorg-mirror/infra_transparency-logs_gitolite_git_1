@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 27 Mar 2022 14:58:19 -0000
-Message-Id: <164839309984.23530.14715005897246528336@gitolite.kernel.org>
+Date: Sun, 27 Mar 2022 15:03:08 -0000
+Message-Id: <164839338890.26651.7404843325087177807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,13 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 08e73b9561cf838e7aef0bf2a08015e05e507100
-    new: 68e94115d82c500b00b518c50874ecabf399bf72
+    old: 68e94115d82c500b00b518c50874ecabf399bf72
+    new: 2bfbf7d62be878df9ed910b78ff93fdddbc0f03f
     log: |
-         8ca346a84b4343ae9c6d3ac88a2196b281400af6 iio: temperature: ltc2983: Don't hard code defined constants in messages
-         ad997183522ad196de94ebae89e001fd4b0715f5 iio: temperature: ltc2983: Use single error path to put OF node
-         1061a89c776fdbbe7a4fd677c678c298ccf98df2 iio: temperature: ltc2983: Make use of device properties
-         704ab048ec549ae3256855638d5cf0e54145899b MAINTAINERS: updated Lorenzo's email address
-         f4056ea25441bf730ce37ae2edea383e4db802eb dt-bindings: iio: imu: mpu6050: Document invensense,icm20608d
-         68e94115d82c500b00b518c50874ecabf399bf72 iio: imu: inv_mpu6050: Add support for ICM-20608-D
+         e2f21d3e0b2636b049cc266c3e9a8fc9967b6a10 iio: adc: ad7124: Remove shift from scan_type
+         068479ed2b4f6b403c000bbc95180ad197b6ad9f iio: adc: ad7124: Add update_scan_mode
+         103ce43f47fd04238f260b2e07e076b3a1ddd7f6 iio: adc: ad7192: Add update_scan_mode
+         60e0ee74d11157dbbfedfc91e56f97a12735d6d3 iio: adc: ad_sigma_delta: Add sequencer support
+         8b41114a0aa27f9525904606084ae944ccc3cc79 iio: adc: ad7124: add sequencer support
+         2bfbf7d62be878df9ed910b78ff93fdddbc0f03f iio: adc: ad7192: add sequencer support
          
