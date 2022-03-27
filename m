@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2750881465989770449=="
+Content-Type: multipart/mixed; boundary="===============2012738563421603562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 27 Mar 2022 19:03:47 -0000
-Message-Id: <164840782784.18479.9943521290140824376@gitolite.kernel.org>
+Date: Sun, 27 Mar 2022 19:04:25 -0000
+Message-Id: <164840786591.18781.14619239106293689178@gitolite.kernel.org>
 
---===============2750881465989770449==
+--===============2012738563421603562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/auto-latest
     old: 600d730aeda8aa00a394ad1aab40137aba7ad9e5
     new: ba5a91cc154f61f6af263973ff33a858f11a0635
     log: revlist-600d730aeda8-ba5a91cc154f.txt
 
---===============2750881465989770449==
+--===============2012738563421603562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f022814633e1c600507b3a99691b4d624c2813f0 Merge tag 'trace-v5.18-1' of git://git.
 410ce3dd5055b3fa68fb7f99a6756be3a7e17f22 x86/config: Make the x86 defconfigs a bit more usable
 ba5a91cc154f61f6af263973ff33a858f11a0635 Merge branch into tip/master: 'x86/urgent'
 
---===============2750881465989770449==--
+--===============2012738563421603562==--
