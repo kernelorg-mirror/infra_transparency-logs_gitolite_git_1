@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2668768694237290079=="
+Content-Type: multipart/mixed; boundary="===============5827715983992561580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 27 Mar 2022 13:27:40 -0000
-Message-Id: <164838766049.30822.9707234863090396760@gitolite.kernel.org>
+Date: Sun, 27 Mar 2022 13:27:50 -0000
+Message-Id: <164838767061.30981.5799943722106234478@gitolite.kernel.org>
 
---===============2668768694237290079==
+--===============5827715983992561580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,96 +15,67 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/5.10-3
-    old: 1d80898f6a93aefb7f268b4090f092ef361fbe03
-    new: 2ec79a296a945a5824b233b81daf2a098899556f
-    log: revlist-1d80898f6a93-2ec79a296a94.txt
-  - ref: refs/heads/for-greg/5.15-3
-    old: 050e90f72e64e6a53aef4d67d1fc7ed3982356b6
-    new: 78770b14e4176fadcd42133becdadf8c1b805f5f
+  - ref: refs/heads/for-greg/5.15-101
+    old: 127dabb6a9ab18a76c0c62175bdac41c0db1bf6d
+    new: be9982f7029967f121a230d1d4eb4c148fde3ec1
+    log: revlist-127dabb6a9ab-be9982f70299.txt
+  - ref: refs/heads/for-greg/5.16-101
+    old: e0bb4c72f1edc1d97c0d688977df7802dde9b5cc
+    new: 15327895b76395f0fb6f01d281a2cef50bdace1a
+    log: revlist-e0bb4c72f1ed-15327895b763.txt
+  - ref: refs/heads/for-greg/5.4-101
+    old: ef02a5d0491e5eb4d63d8f3bedfdd392ed3bdb2a
+    new: 5dc986cfb3334e3ecd669407a9d86d4120ea3d1d
     log: |
-         a4a5e92e1effb3ea6c6bb2fa3123fad22769bc91 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
-         7f3d02314f7f57d1e1b3cae3f4551708e306425b mmc: host: Return an error when ->enable_sdio_irq() ops is missing
-         bd4173e5a7cfdcc336ec0ce6406523caa9e0a2d2 ASoC: ak4642: Use of_device_get_match_data()
-         f1dd2e90483905ec01e73765bcf954111e733306 media: atomisp: fix bad usage at error handling logic
-         78770b14e4176fadcd42133becdadf8c1b805f5f ALSA: hda/realtek: Add alc256-samsung-headphone fixup
+         47f7398efa204a899b3cb0611d4a0f2fc3762a78 sched/debug: Remove mpol_get/put and task_lock/unlock from sched_show_numa
+         21982563aa2d1869f798a590389bd5d4e1dfc892 perf/core: Fix address filter parser for multiple filters
+         9d953926e785f11b752844a8ba3435bff4207a11 perf/x86/intel/pt: Fix address filter config for 32-bit kernel
+         856af31fc21667a4c604fd21cd1fb6d6f40e7747 f2fs: fix missing free nid in f2fs_handle_failed_inode
+         5dc986cfb3334e3ecd669407a9d86d4120ea3d1d f2fs: fix to avoid potential deadlock
          
-  - ref: refs/heads/for-greg/5.16-3
-    old: 669d3c2cad904bd6fc66b3c37fee9d2d791b2974
-    new: 3d0686bcc849c7a4a46b01e73769c06d5dee12f6
-    log: |
-         c8b69c625a0c04b0ab7f9ce0487116561cb15d90 ASoC: Intel: Revert "ASoC: Intel: sof_es8336: add quirk for Huawei D15 2021"
-         0ae7362f610169a36388e38641b8a0df616c705e ASoC: Intel: sof_es8336: use NHLT information to set dmic and SSP
-         7e772082e8bedda4f5da1dc215a4158c64ce512e ASoC: Intel: sof_es8336: log all quirks
-         67c4e13157c94c0f10b95edd272849d1d7f96c1f tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
-         206989cec2364d4a44292542eb56898f67e5900a mmc: host: Return an error when ->enable_sdio_irq() ops is missing
-         b0ea35853c7b91f002c7a297bd2cca5468879057 ASoC: ak4642: Use of_device_get_match_data()
-         add3340fd35b4775e72b1661f71fe1ba8e1bdc8d media: atomisp: fix bad usage at error handling logic
-         3d0686bcc849c7a4a46b01e73769c06d5dee12f6 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
-         
-  - ref: refs/heads/for-greg/5.17-3
-    old: 4b7fc7318b17d68613f8328c9226c0403b503556
-    new: b7ff605e200c83d088c209c83567faf63a4d8d89
-    log: revlist-4b7fc7318b17-b7ff605e200c.txt
 
---===============2668768694237290079==
+--===============5827715983992561580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d80898f6a93-2ec79a296a94.txt
+Content-Disposition: attachment; filename=revlist-127dabb6a9ab-be9982f70299.txt
 
-ef54b72e09b74be7c002baeea796bdf4e038af18 media: ir_toy: free before error exiting
-813afd374c65493713050fbc6afc3f42b217dcc9 ASoC: SOF: Intel: hda: Remove link assignment limitation
-e586018c0b8e0593eed28c10e8c762c09c0fab00 video: fbdev: nvidiafb: Use strscpy() to prevent buffer overflow
-f7e8a1c3442820d27a951f6b5a04af344e6b879e video: fbdev: w100fb: Reset global state
-95a0ba68c09b2d529fdf3547141c8c8b88d5864c video: fbdev: cirrusfb: check pixclock to avoid divide by zero
-f274cb4ac1612aa8063650564d13f7385eefbe36 video: fbdev: omapfb: acx565akm: replace snprintf with sysfs_emit
-8faa3d0cad651c9acf7b66916509d6b3ec1fcff1 ARM: dts: qcom: fix gic_irq_domain_translate warnings for msm8960
-e870fc75a757f8b19b7332c490a9b0e5ea671f9a ARM: dts: bcm2837: Add the missing L1/L2 cache information
-5e1cfb2a5232b28c3fd3b558ea1cb3a84942eafe ASoC: madera: Add dependencies on MFD
-b236e43e51cfe9683d85ecb9729f3a16c1616fe2 media: atomisp_gmin_platform: Add DMI quirk to not turn AXP ELDO2 regulator off on some boards
-3d4916f14486057d4695e809b35e31d3f7b8c3ec media: atomisp: fix dummy_ptr check to avoid duplicate active_bo
-d2806d57b3e98d3beeba5361a0042dee74355b99 ARM: ftrace: avoid redundant loads or clobbering IP
-bd9f10300af22a345c5f565034eb185f6aced11e ARM: dts: imx7: Use audio_mclk_post_div instead audio_mclk_root_clk
-c18734b3db6d86a3625dce50a26339fd02ec9205 arm64: defconfig: build imx-sdma as a module
-c58e2de92e736e159006d786962c1b49eaf6cbbe video: fbdev: omapfb: panel-dsi-cm: Use sysfs_emit() instead of snprintf()
-9db20dfb8ad8dac34a876021b2433159364ee698 video: fbdev: omapfb: panel-tpo-td043mtea1: Use sysfs_emit() instead of snprintf()
-3f98398737b94356c8ac251abcf7144334055876 video: fbdev: udlfb: replace snprintf in show functions with sysfs_emit
-ed409080cf2e013324cf714fd85ebce3881b0b2e ARM: dts: bcm2711: Add the missing L1/L2 cache information
-d218a3dde51e1b20b82f2eede15d76c8edd771dc printk: Add panic_in_progress helper
-58d17dc3a6c0428eb31da8eb745c300360ff47cf ASoC: soc-core: skip zero num_dai component in searching dai name
-6d0857ce9c240631d2e30417ff4beed87f69bc32 printk: use atomic updates for klogd work
-21da1677a6222474e8f8cc2cbff12ea4b7d3e38d media: cx88-mpeg: clear interrupt status register before streaming video
-19b2f8e2d412c13a06cd2ee0bb6bb46362b81127 uaccess: fix type mismatch warnings from access_ok()
-35007c16418f72f9f6502a8d0f56f196c89d7d33 lib/test_lockup: fix kernel pointer check for separate address spaces
-b8e9642ea5b7e3d3749a71bf3989601aab603632 ARM: tegra: tamonten: Fix I2C3 pad setting
-7922c1fdc05355f45b53198645e4c331395bfc76 ARM: mmp: Fix failure to remove sram device
-9c3d8a6ee325e9463ec1b761ceb3e24b3e62051a video: fbdev: sm712fb: Fix crash in smtcfb_write()
-936108fc954a6cdf8bd3e4db008b314d09129daf media: Revert "media: em28xx: add missing em28xx_close_extension"
-3db81740065a92553d013cbb977c59232d04b81e media: hdpvr: initialize dev->worker at hdpvr_register_videodev
-6d5617c56a8b183f0377e345cd97776e218f6e52 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
-d4233638b57170d8648f397ccef60a7a716b72a6 mmc: host: Return an error when ->enable_sdio_irq() ops is missing
-e823adf242645476a86c267ca06cf0c5fb09cbfe ASoC: ak4642: Use of_device_get_match_data()
-b32eaa14232cd592a925b086b1bb97ed52f543ee media: atomisp: fix bad usage at error handling logic
-2ec79a296a945a5824b233b81daf2a098899556f ALSA: hda/realtek: Add alc256-samsung-headphone fixup
+5447623b1a1335a7ebf444fac69c6d58b052949c sched/uclamp: Fix iowait boost escaping uclamp restriction
+b7a267166e53114845fe3ba97a667b9716222894 rseq: Remove broken uapi field layout on 32-bit little endian
+7ee8361acece018562f8f3ecc63eba08b7ff004b perf/core: Fix address filter parser for multiple filters
+5bf529e3a3e63ed83ac5513a11e9c24fdbe30e6b perf/x86/intel/pt: Fix address filter config for 32-bit kernel
+e4efd0a8bded53e3a558fad00cdc175fe43faa61 sched/fair: Improve consistency of allowed NUMA balance calculations
+c9b051d52a752d4b4adf1330decfb9b410310750 f2fs: fix missing free nid in f2fs_handle_failed_inode
+0ee38adca9ac7cddd956fe3ad6a2553fbbc841b3 nfsd: more robust allocation failure handling in nfsd_file_cache_init
+cb8006623d8d2449180f11352f1d0cbd80f0a439 sched/cpuacct: Fix charge percpu cpuusage
+61603793cd0c200573c24bf6bec486879c1a2475 sched/rt: Plug rt_mutex_setprio() vs push_rt_task() race
+64ccfe5e5350f76169a955ed878e566c58752751 f2fs: fix to avoid potential deadlock
+61bc60762894dbe6bba0c8ad0f441f4ccd89a30d btrfs: fix unexpected error path when reflinking an inline extent
+1f798fd86eb3fe887a022c07cd773572929c64c6 f2fs: fix compressed file start atomic write may cause data corruption
+7452276efdb8daab0e498989b83f604a5751260b selftests, x86: fix how check_cc.sh is being invoked
+f9590eeb52bf207da5d38efc456ebc0b94f46b02 drivers/base/memory: add memory block to memory group after registration succeeded
+be9982f7029967f121a230d1d4eb4c148fde3ec1 kunit: make kunit_test_timeout compatible with comment
 
---===============2668768694237290079==
+--===============5827715983992561580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b7fc7318b17-b7ff605e200c.txt
+Content-Disposition: attachment; filename=revlist-e0bb4c72f1ed-15327895b763.txt
 
-2e22ed56501f6bdbe0700cd121ec2a0dfc3d4fe7 ALSA: intel-dsp-config: add more ACPI HIDs for ES83x6 devices
-6935fedcafad7fd0d4e3de213cff9a4aab651e16 ASoC: Intel: soc-acpi: add more ACPI HIDs for ES83x6 devices
-196b3a689ae4c84d940accfd788cbe0b2157c497 ALSA: intel-dspconfig: add ES8336 support for CNL
-25cd386ade6c7415ae508bd16e75de2555848fbc ASoC: Intel: Revert "ASoC: Intel: sof_es8336: add quirk for Huawei D15 2021"
-ff3295709a31556c7cb65f9c2323001d7cb13247 ASoC: Intel: sof_es8336: use NHLT information to set dmic and SSP
-a4f718ac1a9cec945593299cb0eca8bd60b06ec2 ASoC: Intel: sof_es8336: log all quirks
-e1a91f4f2d1ff8c8bf2139cb3bb9ceefe70f0dcc tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
-16942980d18c4edc1c94a3247cf9ca58a7bb087e mmc: host: Return an error when ->enable_sdio_irq() ops is missing
-63387d1c3014ad4f5eacb2f820fb806ccb341b88 ASoC: mediatek: Fix error handling in mt8183_da7219_max98357_dev_probe
-b779aac894d73f6da5fa547324c36b32dd796529 ASoC: ak4642: Use of_device_get_match_data()
-7946805ff1635a11d0e95ee2cf5548d6dbe374e9 media: atomisp: fix bad usage at error handling logic
-b7ff605e200c83d088c209c83567faf63a4d8d89 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
+ca2a4682621ddc05c4a570fa21703561216a8829 sched/uclamp: Fix iowait boost escaping uclamp restriction
+fc78d9d7f0da93a1e76df84c2e6fc241abe60541 rseq: Remove broken uapi field layout on 32-bit little endian
+abb01e9979a21340ee70800e9697a1128e46deac perf/core: Fix address filter parser for multiple filters
+aba5537b35f1652014b41b2fa43e769a31d072a9 perf/x86/intel/pt: Fix address filter config for 32-bit kernel
+6f92e4f337ba9c874bc654d96864e06458827528 sched/fair: Improve consistency of allowed NUMA balance calculations
+95d78bc30e107027e3e032f5cd86fd7c1b0fbc43 f2fs: fix missing free nid in f2fs_handle_failed_inode
+c5340afc38b5d3371a1e1c983df888f537d54a79 nfsd: more robust allocation failure handling in nfsd_file_cache_init
+263665d814c7b0c7e901736c6b4fdf5fb231641b sched/cpuacct: Fix charge percpu cpuusage
+c37dd4d942b59132de11fc5c864bf734807377fe sched/rt: Plug rt_mutex_setprio() vs push_rt_task() race
+af182bc971d41df7597874d7fbadda34d57fa7a1 f2fs: fix to avoid potential deadlock
+149f302c61092b4442fd798779df66640210fe24 btrfs: fix unexpected error path when reflinking an inline extent
+92d60efcf8bd991d8740b1c979ae74bf179ac429 f2fs: fix compressed file start atomic write may cause data corruption
+6f15b11ab22e0aa164413ae27072212399337c9b selftests, x86: fix how check_cc.sh is being invoked
+2581fe293d013ea9f66045b501f901a237885282 drivers/base/memory: add memory block to memory group after registration succeeded
+15327895b76395f0fb6f01d281a2cef50bdace1a kunit: make kunit_test_timeout compatible with comment
 
---===============2668768694237290079==--
+--===============5827715983992561580==--
