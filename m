@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 27 Mar 2022 19:33:00 -0000
-Message-Id: <164840958039.5342.1678294164285947775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 27 Mar 2022 19:41:44 -0000
+Message-Id: <164841010440.10891.3590028545161843408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 7001052160d172f6de06adeffde24dde9935ece8
-    new: 88b3be5c6391a5b4be1dcdc4bb8dca8438105438
+  - ref: refs/heads/at91sam9g20ek
+    old: 9b7c2a59764c95a3d9696bc99e8d04938535401e
+    new: c65969e08705abc320d8501dafed899779348d77
     log: |
-         862cf8d5fd98ed8ea8989726ed5da53761a9ed76 openrisc/boot: Remove unnecessary initialisation in memcpy().
-         88b3be5c6391a5b4be1dcdc4bb8dca8438105438 Merge tag 'for-linus' of https://github.com/openrisc/linux
+         c65969e08705abc320d8501dafed899779348d77 ARM: configs: at91: Enable options required for systemd
          
