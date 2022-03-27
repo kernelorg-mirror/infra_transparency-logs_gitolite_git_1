@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3462385015306512389=="
+Content-Type: multipart/mixed; boundary="===============2668768694237290079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sun, 27 Mar 2022 13:27:17 -0000
-Message-Id: <164838763764.30599.10251897543668901208@gitolite.kernel.org>
+Date: Sun, 27 Mar 2022 13:27:40 -0000
+Message-Id: <164838766049.30822.9707234863090396760@gitolite.kernel.org>
 
---===============3462385015306512389==
+--===============2668768694237290079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,115 +15,96 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sashal/linux-stable
 user: sashal
 changes:
-  - ref: refs/heads/for-greg/4.14-2
-    old: 1ee1c08e44de4ebeed13a2e8b9fb8cb2c6451774
-    new: ecaa3cf5e6a532a3ec0d863a67353631cca18aa1
+  - ref: refs/heads/for-greg/5.10-3
+    old: 1d80898f6a93aefb7f268b4090f092ef361fbe03
+    new: 2ec79a296a945a5824b233b81daf2a098899556f
+    log: revlist-1d80898f6a93-2ec79a296a94.txt
+  - ref: refs/heads/for-greg/5.15-3
+    old: 050e90f72e64e6a53aef4d67d1fc7ed3982356b6
+    new: 78770b14e4176fadcd42133becdadf8c1b805f5f
     log: |
-         28b212cd78f5e43848905b235e3476903ebf14c8 ext4: don't BUG if someone dirty pages without asking ext4 first
-         ecaa3cf5e6a532a3ec0d863a67353631cca18aa1 ntfs: add sanity check on allocation size
+         a4a5e92e1effb3ea6c6bb2fa3123fad22769bc91 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+         7f3d02314f7f57d1e1b3cae3f4551708e306425b mmc: host: Return an error when ->enable_sdio_irq() ops is missing
+         bd4173e5a7cfdcc336ec0ce6406523caa9e0a2d2 ASoC: ak4642: Use of_device_get_match_data()
+         f1dd2e90483905ec01e73765bcf954111e733306 media: atomisp: fix bad usage at error handling logic
+         78770b14e4176fadcd42133becdadf8c1b805f5f ALSA: hda/realtek: Add alc256-samsung-headphone fixup
          
-  - ref: refs/heads/for-greg/4.19-2
-    old: c62969344124a497def1c9c971c883142308ab65
-    new: af3f6422b3af3a95b986d07ada58701a51b8f419
+  - ref: refs/heads/for-greg/5.16-3
+    old: 669d3c2cad904bd6fc66b3c37fee9d2d791b2974
+    new: 3d0686bcc849c7a4a46b01e73769c06d5dee12f6
     log: |
-         dda02c82599068d59b544e8526389754f6533415 ext4: don't BUG if someone dirty pages without asking ext4 first
-         af3f6422b3af3a95b986d07ada58701a51b8f419 ntfs: add sanity check on allocation size
+         c8b69c625a0c04b0ab7f9ce0487116561cb15d90 ASoC: Intel: Revert "ASoC: Intel: sof_es8336: add quirk for Huawei D15 2021"
+         0ae7362f610169a36388e38641b8a0df616c705e ASoC: Intel: sof_es8336: use NHLT information to set dmic and SSP
+         7e772082e8bedda4f5da1dc215a4158c64ce512e ASoC: Intel: sof_es8336: log all quirks
+         67c4e13157c94c0f10b95edd272849d1d7f96c1f tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+         206989cec2364d4a44292542eb56898f67e5900a mmc: host: Return an error when ->enable_sdio_irq() ops is missing
+         b0ea35853c7b91f002c7a297bd2cca5468879057 ASoC: ak4642: Use of_device_get_match_data()
+         add3340fd35b4775e72b1661f71fe1ba8e1bdc8d media: atomisp: fix bad usage at error handling logic
+         3d0686bcc849c7a4a46b01e73769c06d5dee12f6 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
          
-  - ref: refs/heads/for-greg/5.10-2
-    old: f3ae3489d4556fcf2118052262f6d7e9a71d9737
-    new: 604dcb5dea45ad616aa009504e212f0e8c2ec009
-    log: |
-         397e0ac3a9501a7d454955bd67accc2330ee2d88 ext4: don't BUG if someone dirty pages without asking ext4 first
-         1950379cff732baded58788a3d9fef4199f95b9f f2fs: fix to do sanity check on curseg->alloc_type
-         adae8840bdf82828b1c6614b395404b802ea86f5 NFSD: Fix nfsd_breaker_owns_lease() return values
-         84404b73827fd011e010699a978b43e1e63ffe95 btrfs: harden identification of a stale device
-         ad4dca202ad02d51d913e7630a70f96f65b22c4a f2fs: compress: fix to print raw data size in error path of lz4 decompression
-         604dcb5dea45ad616aa009504e212f0e8c2ec009 ntfs: add sanity check on allocation size
-         
-  - ref: refs/heads/for-greg/5.15-2
-    old: d3a2d396092216191b3059c1af73f4b0bc55b3af
-    new: 9992063c9e1d5fbf6b18440004faf930d0c542a2
-    log: revlist-d3a2d3960922-9992063c9e1d.txt
-  - ref: refs/heads/for-greg/5.16-2
-    old: ef5a3ae0d2d4d6d67652ff97a82066d6fdc2710b
-    new: 1314b16cd70a6fba1f58d7eb3a367821cfa22e17
-    log: revlist-ef5a3ae0d2d4-1314b16cd70a.txt
-  - ref: refs/heads/for-greg/5.17-2
-    old: 3a61c64f97e1f06ef469f8222dcd0862dda5d73a
-    new: 9c038454e8e68cad6d89b34bf40cb25a6933dcf1
-    log: revlist-3a61c64f97e1-9c038454e8e6.txt
-  - ref: refs/heads/for-greg/5.4-2
-    old: 918b887ab68e61a98e403a4e5888207fefb70b43
-    new: 701cc23707c53a83a0ef63d3f9b26bfe2a393616
-    log: |
-         a5c9fd5324814762a3588b2eda71b5dd4f0d1cae ext4: don't BUG if someone dirty pages without asking ext4 first
-         701cc23707c53a83a0ef63d3f9b26bfe2a393616 ntfs: add sanity check on allocation size
-         
+  - ref: refs/heads/for-greg/5.17-3
+    old: 4b7fc7318b17d68613f8328c9226c0403b503556
+    new: b7ff605e200c83d088c209c83567faf63a4d8d89
+    log: revlist-4b7fc7318b17-b7ff605e200c.txt
 
---===============3462385015306512389==
+--===============2668768694237290079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3a2d3960922-9992063c9e1d.txt
+Content-Disposition: attachment; filename=revlist-1d80898f6a93-2ec79a296a94.txt
 
-f0c6dc0f154a1b7d7dd5733f300e5195ca8eec75 sched/tracing: Don't re-read p->state when emitting sched_switch event
-061d9223276325f0694b276cba520219238c9d69 sched/tracing: Report TASK_RTLOCK_WAIT tasks as TASK_UNINTERRUPTIBLE
-3a97169ffad9be5431512a319432509c3d211308 ext4: don't BUG if someone dirty pages without asking ext4 first
-cbec5493880e9c1e8ac11d9b6fd1fc1b913e2a4a f2fs: fix to do sanity check on curseg->alloc_type
-efabf80e0681e0a66dc63c960939fdcb82a5d9f3 NFSD: Fix nfsd_breaker_owns_lease() return values
-7949d94c83c0dbbf82566d20b6ba3928983375f1 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-5103301bc5d071626c16bd8ca8839a6e73b4c9ee btrfs: harden identification of a stale device
-9829b986b566693816754ff8549b497f18f243a2 btrfs: make search_csum_tree return 0 if we get -EFBIG
-2bb952f26e5a1426ba081673c019821d6145fd34 f2fs: use spin_lock to avoid hang
-3f64d966abce933f9fbe7d043a4a22e800cdca18 f2fs: compress: fix to print raw data size in error path of lz4 decompression
-f4d7503271cad664bc5b4293a5ed56e0cba0f6a7 Adjust cifssb maximum read size
-9992063c9e1d5fbf6b18440004faf930d0c542a2 ntfs: add sanity check on allocation size
+ef54b72e09b74be7c002baeea796bdf4e038af18 media: ir_toy: free before error exiting
+813afd374c65493713050fbc6afc3f42b217dcc9 ASoC: SOF: Intel: hda: Remove link assignment limitation
+e586018c0b8e0593eed28c10e8c762c09c0fab00 video: fbdev: nvidiafb: Use strscpy() to prevent buffer overflow
+f7e8a1c3442820d27a951f6b5a04af344e6b879e video: fbdev: w100fb: Reset global state
+95a0ba68c09b2d529fdf3547141c8c8b88d5864c video: fbdev: cirrusfb: check pixclock to avoid divide by zero
+f274cb4ac1612aa8063650564d13f7385eefbe36 video: fbdev: omapfb: acx565akm: replace snprintf with sysfs_emit
+8faa3d0cad651c9acf7b66916509d6b3ec1fcff1 ARM: dts: qcom: fix gic_irq_domain_translate warnings for msm8960
+e870fc75a757f8b19b7332c490a9b0e5ea671f9a ARM: dts: bcm2837: Add the missing L1/L2 cache information
+5e1cfb2a5232b28c3fd3b558ea1cb3a84942eafe ASoC: madera: Add dependencies on MFD
+b236e43e51cfe9683d85ecb9729f3a16c1616fe2 media: atomisp_gmin_platform: Add DMI quirk to not turn AXP ELDO2 regulator off on some boards
+3d4916f14486057d4695e809b35e31d3f7b8c3ec media: atomisp: fix dummy_ptr check to avoid duplicate active_bo
+d2806d57b3e98d3beeba5361a0042dee74355b99 ARM: ftrace: avoid redundant loads or clobbering IP
+bd9f10300af22a345c5f565034eb185f6aced11e ARM: dts: imx7: Use audio_mclk_post_div instead audio_mclk_root_clk
+c18734b3db6d86a3625dce50a26339fd02ec9205 arm64: defconfig: build imx-sdma as a module
+c58e2de92e736e159006d786962c1b49eaf6cbbe video: fbdev: omapfb: panel-dsi-cm: Use sysfs_emit() instead of snprintf()
+9db20dfb8ad8dac34a876021b2433159364ee698 video: fbdev: omapfb: panel-tpo-td043mtea1: Use sysfs_emit() instead of snprintf()
+3f98398737b94356c8ac251abcf7144334055876 video: fbdev: udlfb: replace snprintf in show functions with sysfs_emit
+ed409080cf2e013324cf714fd85ebce3881b0b2e ARM: dts: bcm2711: Add the missing L1/L2 cache information
+d218a3dde51e1b20b82f2eede15d76c8edd771dc printk: Add panic_in_progress helper
+58d17dc3a6c0428eb31da8eb745c300360ff47cf ASoC: soc-core: skip zero num_dai component in searching dai name
+6d0857ce9c240631d2e30417ff4beed87f69bc32 printk: use atomic updates for klogd work
+21da1677a6222474e8f8cc2cbff12ea4b7d3e38d media: cx88-mpeg: clear interrupt status register before streaming video
+19b2f8e2d412c13a06cd2ee0bb6bb46362b81127 uaccess: fix type mismatch warnings from access_ok()
+35007c16418f72f9f6502a8d0f56f196c89d7d33 lib/test_lockup: fix kernel pointer check for separate address spaces
+b8e9642ea5b7e3d3749a71bf3989601aab603632 ARM: tegra: tamonten: Fix I2C3 pad setting
+7922c1fdc05355f45b53198645e4c331395bfc76 ARM: mmp: Fix failure to remove sram device
+9c3d8a6ee325e9463ec1b761ceb3e24b3e62051a video: fbdev: sm712fb: Fix crash in smtcfb_write()
+936108fc954a6cdf8bd3e4db008b314d09129daf media: Revert "media: em28xx: add missing em28xx_close_extension"
+3db81740065a92553d013cbb977c59232d04b81e media: hdpvr: initialize dev->worker at hdpvr_register_videodev
+6d5617c56a8b183f0377e345cd97776e218f6e52 tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+d4233638b57170d8648f397ccef60a7a716b72a6 mmc: host: Return an error when ->enable_sdio_irq() ops is missing
+e823adf242645476a86c267ca06cf0c5fb09cbfe ASoC: ak4642: Use of_device_get_match_data()
+b32eaa14232cd592a925b086b1bb97ed52f543ee media: atomisp: fix bad usage at error handling logic
+2ec79a296a945a5824b233b81daf2a098899556f ALSA: hda/realtek: Add alc256-samsung-headphone fixup
 
---===============3462385015306512389==
+--===============2668768694237290079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef5a3ae0d2d4-1314b16cd70a.txt
+Content-Disposition: attachment; filename=revlist-4b7fc7318b17-b7ff605e200c.txt
 
-ea6cc9b03080e4a908e06d0afbb9507302865f61 sched/tracing: Don't re-read p->state when emitting sched_switch event
-1dc11973d89bb05f0029e2bde83692aec6190055 sched/tracing: Report TASK_RTLOCK_WAIT tasks as TASK_UNINTERRUPTIBLE
-87b4fc331286faa6562648c619b9bf54b74791bd ext4: don't BUG if someone dirty pages without asking ext4 first
-d4339d7ff2dd201f51e7ebf0e508e4c3f64036b4 f2fs: fix to do sanity check on curseg->alloc_type
-06df663e1c9a96a7aaccd67f3ddd983bec2908bc NFSD: Fix nfsd_breaker_owns_lease() return values
-a8520af9ff1217359caaf723fa144ce77e9f2029 f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-cbb746497463f529e63e59c691402ab3d7db76ba btrfs: harden identification of a stale device
-53507e78e3d2ae7fd41f58c5e126508ae9ce564d btrfs: don't advance offset for compressed bios in btrfs_csum_one_bio()
-86a350c7d5268f7d956803724f1e67cff0191714 btrfs: make search_csum_tree return 0 if we get -EFBIG
-cf84400d293868dc3294bc54b0e18c73c52972bd btrfs: handle csum lookup errors properly on reads
-c5ddcec967008e76a115ee9ff70816c5c19816dc btrfs: do not double complete bio on errors during compressed reads
-1805bda10c59b5920782cf9a4c698ba12f76062a btrfs: do not clean up repair bio if submit fails
-66aa67e35c8ac1b0a6d09fed73aea36c22a489a8 f2fs: use spin_lock to avoid hang
-f945eef003f8b20d279d2c64a6206c29379072d1 f2fs: compress: fix to print raw data size in error path of lz4 decompression
-c48d2eca8d0a8f5570b295d5a9b5389cfdb89400 Adjust cifssb maximum read size
-1314b16cd70a6fba1f58d7eb3a367821cfa22e17 ntfs: add sanity check on allocation size
+2e22ed56501f6bdbe0700cd121ec2a0dfc3d4fe7 ALSA: intel-dsp-config: add more ACPI HIDs for ES83x6 devices
+6935fedcafad7fd0d4e3de213cff9a4aab651e16 ASoC: Intel: soc-acpi: add more ACPI HIDs for ES83x6 devices
+196b3a689ae4c84d940accfd788cbe0b2157c497 ALSA: intel-dspconfig: add ES8336 support for CNL
+25cd386ade6c7415ae508bd16e75de2555848fbc ASoC: Intel: Revert "ASoC: Intel: sof_es8336: add quirk for Huawei D15 2021"
+ff3295709a31556c7cb65f9c2323001d7cb13247 ASoC: Intel: sof_es8336: use NHLT information to set dmic and SSP
+a4f718ac1a9cec945593299cb0eca8bd60b06ec2 ASoC: Intel: sof_es8336: log all quirks
+e1a91f4f2d1ff8c8bf2139cb3bb9ceefe70f0dcc tracing: Have TRACE_DEFINE_ENUM affect trace event types as well
+16942980d18c4edc1c94a3247cf9ca58a7bb087e mmc: host: Return an error when ->enable_sdio_irq() ops is missing
+63387d1c3014ad4f5eacb2f820fb806ccb341b88 ASoC: mediatek: Fix error handling in mt8183_da7219_max98357_dev_probe
+b779aac894d73f6da5fa547324c36b32dd796529 ASoC: ak4642: Use of_device_get_match_data()
+7946805ff1635a11d0e95ee2cf5548d6dbe374e9 media: atomisp: fix bad usage at error handling logic
+b7ff605e200c83d088c209c83567faf63a4d8d89 ALSA: hda/realtek: Add alc256-samsung-headphone fixup
 
---===============3462385015306512389==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a61c64f97e1-9c038454e8e6.txt
-
-95685345cfab3bdd75c5596836eb0a9afdd7c77d sched/tracing: Don't re-read p->state when emitting sched_switch event
-27358b1c75d534722b07e411ab63373236a64384 sched/tracing: Report TASK_RTLOCK_WAIT tasks as TASK_UNINTERRUPTIBLE
-99efef93c6087452de50c21c82104e57028cc86c ext4: don't BUG if someone dirty pages without asking ext4 first
-d8e09bffe49659785d7620036eba7c2ef9a9ea10 f2fs: fix to do sanity check on curseg->alloc_type
-1eae364abb4fd60807cbaac5fa10505ee39919d0 NFSD: Fix nfsd_breaker_owns_lease() return values
-410f5d43399078dab10f49b6817f70858fd0b19f f2fs: don't get FREEZE lock in f2fs_evict_inode in frozen fs
-0cf0c6265f7efeef0287789783a5fe713f832099 btrfs: harden identification of a stale device
-31b5b271faaed98231beca0d67034f977e447f8c btrfs: don't advance offset for compressed bios in btrfs_csum_one_bio()
-f95abdb77c862a7723dc846d0747ef9bd07aa44c btrfs: make search_csum_tree return 0 if we get -EFBIG
-7bb2d4795949ab177880a59022622cf2fe40e2b7 btrfs: handle csum lookup errors properly on reads
-34bb939e72afbe7e6dc4c622b75c91f9b88b1648 btrfs: do not double complete bio on errors during compressed reads
-c2b9590b508fa7e99bb81cc61f21f885f079e93f btrfs: do not clean up repair bio if submit fails
-6c6a75f8497d4b9e72da993cefc76dc8b3d156b4 btrfs: reset last_reflink_trans after fsyncing inode
-ff09b6f7d97902a080070ce796752eef4100d670 f2fs: use spin_lock to avoid hang
-0f63831a161bdd2726588b7d41e9b08677de72b1 f2fs: compress: fix to print raw data size in error path of lz4 decompression
-0d4452baaeaf727abfe16cd67b8e95bffc76b952 Adjust cifssb maximum read size
-9c038454e8e68cad6d89b34bf40cb25a6933dcf1 ntfs: add sanity check on allocation size
-
---===============3462385015306512389==--
+--===============2668768694237290079==--
