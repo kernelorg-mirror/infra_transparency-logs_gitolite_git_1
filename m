@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2791336497783342902=="
+Content-Type: multipart/mixed; boundary="===============3249162557881169770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 28 Mar 2022 03:53:45 -0000
-Message-Id: <164843962538.7912.3092386412949299962@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 03:54:00 -0000
+Message-Id: <164843964055.8047.1615460642971564594@gitolite.kernel.org>
 
---===============2791336497783342902==
+--===============3249162557881169770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 2426f868eca54caea05607449ce82aad566d526d
-    new: 0b5e0caf0b90c2fb68db1e8b17f5811fb20c4557
-    log: revlist-2426f868eca5-0b5e0caf0b90.txt
+  - ref: refs/heads/nfsd-courteous-server
+    old: 7cc229e21ec29d053d300117bf831198c620c265
+    new: a1390e20bc4c44e2694f8d807f73b79a3aa28773
+    log: revlist-7cc229e21ec2-a1390e20bc4c.txt
 
---===============2791336497783342902==
+--===============3249162557881169770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2426f868eca5-0b5e0caf0b90.txt
+Content-Disposition: attachment; filename=revlist-7cc229e21ec2-a1390e20bc4c.txt
 
-1f667e157605a217f10fc45f1a7fb4a8354eb5e3 Bluetooth: Don't assign twice the same value
-da8912176fb0ff9fd60e14fa653108d96422b896 Bluetooth: fix incorrect nonblock bitmask in bt_sock_wait_ready()
-37b63c68194d09d358c8abd73692adf9a6ceaad3 Bluetooth: msft: Clear tracked devices on resume
-ff39fc1bc6b4053a9c3f193c7e3255a06ecfcc43 Bluetooth: Send AdvMonitor Dev Found for all matched devices
-9fa6b4cda3b414e990f008f45f9bcecbcb54d4d1 Bluetooth: call hci_le_conn_failed with hdev lock in hci_le_conn_failed
-a76d269a4e86cfd7d4441e40adccfa67808fe6fa Bluetooth: btmtkuart: fix error handling in mtk_hci_wmt_sync()
-b062a0b9c1dc1ff63094337dccfe1568d5b62023 Bluetooth: btmtksdio: Fix kernel oops in btmtksdio_interrupt
-546ff98eb3a019695aa5638a870c589cc2aa95df Bluetooth: mt7921s: Set HCI_QUIRK_VALID_LE_STATES
-d786105ef25c0c7640daffc10bcf6d6fcfa0d0e1 Bluetooth: mt7921s: Add .get_data_path_id
-f41b91fa178342b6a49f1088e514178c2da4176f Bluetooth: mt7921s: Add .btmtk_get_codec_config_data
-5ad80cfcf30006110075860b61a7101f215f665c Bluetooth: mt7921s: Add WBS support
-27e8527e006f1f4281adc335cf7aa744f649f398 Bluetooth: hci_bcm: Add the Asus TF103C to the bcm_broken_irq_dmi_table
 520e31a99100b786d82e518f89e4fd132570a349 Bluetooth: bcm203x: remove superfluous header files
 726c0eb7cb15be3e5fe9a9f1c8aad12c5cbe4675 Bluetooth: ath3k: remove superfluous header files
 9b56adcf525522e9ffa52471260298d91fc1d395 f2fs: fix compressed file start atomic write may cause data corruption
@@ -165,6 +153,7 @@ d86142dd7c4e10e50bdb3679b405d748214b2c28 xfs: log items should have a xlog point
 01728b44ef1b714756607be0210fbcf60c78efce xfs: xfs_is_shutdown vs xlog_is_shutdown cage fight
 1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+4fc5f5346592cdc91689455d83885b0af65d71b8 nfsd: fix using the correct variable for sizeof()
 a3d0245c58f962ee99d4440ea0eaf45fb7f5a5cc xtensa: fix xtensa_wsr always writing 0
 8d10ea152e2fb9b4a42b282cb90bfc4d98e319a3 ipmi: initialize len variable
 dba529605f55e7eee725dd8e48a70f95ecdd612c dt-bindings: gnss: Rewrite common bindings in YAML
@@ -1050,5 +1039,16 @@ f82da161ea75dc4db21b2499e4b1facd36dab275 powerpc: restore removed #endif
 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 mm: kfence: fix missing objcg housekeeping for SLAB
 b1c28efc246a31a0e2325b091906d1358411c7dd fs/lock: add new callback, lm_lock_expired, to lock_manager_operations
 0b5e0caf0b90c2fb68db1e8b17f5811fb20c4557 fs/lock: only call lm_breaker_owns_lease if there is conflict.
+275b747589d54dc0bd49858737d42c749ad8f31d fs/lock: add helper locks_owner_has_blockers to check for blockers
+5d92626e4edfecc0c97c67a5e07a5aa728c06e29 NFSD: Add courtesy client state, macro and spinlock to support courteous server
+a89a0c845612f6654594d4b1dac15313fbae1590 NFSD: Add lm_lock_expired call out
+2a0b95a1df0c15f1cfd1861ab95230dae2245f3b NFSD: Update nfsd_breaker_owns_lease() to handle courtesy clients
+bbe53b695471bb9a9fac4ec1cd014bbc12a56882 NFSD: Update nfs4_get_vfs_file() to handle courtesy client
+7c8b8dceb598a9926efe2e138ba73a921da53698 NFSD: Update find_clp_in_name_tree() to handle courtesy client
+3a16cb8ec6898b5303b2aa54758965d76154b5b1 NFSD: Update find_in_sessionid_hashtbl() to handle courtesy client
+6a66988671ac122f85199ea0e80746c417d26983 NFSD: Update find_client_in_id_table() to handle courtesy client
+adedf460246d2ea1d791b5c627a19d1acd673524 NFSD: Refactor nfsd4_laundromat()
+9e58f4af3a94cabc055766d54e6401eafaaaa3ae NFSD: Update laundromat to handle courtesy clients
+a1390e20bc4c44e2694f8d807f73b79a3aa28773 NFSD: Show state of courtesy clients in client info
 
---===============2791336497783342902==--
+--===============3249162557881169770==--
