@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1809957252644495898=="
+Content-Type: multipart/mixed; boundary="===============9139500588329575730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 28 Mar 2022 20:50:22 -0000
-Message-Id: <164850062274.10886.15862889742851039774@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 20:52:33 -0000
+Message-Id: <164850075384.11722.9616123109104751909@gitolite.kernel.org>
 
---===============1809957252644495898==
+--===============9139500588329575730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/heads/master
-    old: 038101e6b2cd5c55f888f85db42ea2ad3aecb4b6
-    new: 7203062171db6669f746d14148c4af76af619e74
-    log: revlist-038101e6b2cd-7203062171db.txt
+  - ref: refs/heads/for-linus
+    old: e006252f0cf6b51ce84d9c11772652afb01d0088
+    new: b0cf9b4b26e697886bf0986579953c16cf92d3d2
+    log: revlist-e006252f0cf6-b0cf9b4b26e6.txt
 
---===============1809957252644495898==
+--===============9139500588329575730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-038101e6b2cd-7203062171db.txt
+Content-Disposition: attachment; filename=revlist-e006252f0cf6-b0cf9b4b26e6.txt
 
-03d5c98d91587291163c341883ddf067bb6ca00a Merge branches 'acpi-pm', 'acpi-properties', 'acpi-misc' and 'acpi-x86'
 c639e85e93aa10ea0512ee416eead60da466e161 ASoC: atmel: mchp-pdmc: print the correct property name
 24b2b094b5567c1440f902bab892a23b9d98e398 Merge branches 'acpi-ec', 'acpi-cppc', 'acpi-fan' and 'acpi-battery'
 714797c98eddae34e81b444c906e60f890885678 Merge tag 'kvmarm-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
@@ -1050,5 +1049,6 @@ ff61bc81b3feebcef4d0431a92e2e40e8d4fe8b3 Merge tag 'pinctrl-v5.18-1' of git://gi
 266d17a8c0d857a579813ad185cd1640b0d6ccac Merge tag 'driver-core-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 dfdc1de64248b5e1024d8188aeaf0e59ec6cecd5 Merge tag 'staging-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 7203062171db6669f746d14148c4af76af619e74 Merge tag 'tty-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+b0cf9b4b26e697886bf0986579953c16cf92d3d2 MAINTAINERS: update hexagon maintainer email, tree
 
---===============1809957252644495898==--
+--===============9139500588329575730==--
