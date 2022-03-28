@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7189420628220689373=="
+Content-Type: multipart/mixed; boundary="===============0462775932391634815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Mar 2022 08:58:27 -0000
-Message-Id: <164845790773.11656.16359403082255210168@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 08:58:31 -0000
+Message-Id: <164845791193.11717.12335556097021693159@gitolite.kernel.org>
 
---===============7189420628220689373==
+--===============0462775932391634815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 16b1941eac2bd499f065a6739a40ce0011a3d740
+  - ref: refs/heads/usb-next
+    old: 46d2c20b0b10cf07a2a24b047a09195ba96c84f7
     new: ae085d7f9365de7da27ab5c0d16b12d51ea7fca9
-    log: revlist-16b1941eac2b-ae085d7f9365.txt
+    log: revlist-46d2c20b0b10-ae085d7f9365.txt
 
---===============7189420628220689373==
+--===============0462775932391634815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648457906 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648457911 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1648457906-50532b5781e634008c35b8725c93457bea5b1256
+nonce 1648457910-9fce2ad1685db8163779b3c7863eeb973a922293
 
-16b1941eac2bd499f065a6739a40ce0011a3d740 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 refs/heads/usb-linus
+46d2c20b0b10cf07a2a24b047a09195ba96c84f7 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJBeLMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tO8P/Rr48MGMwYIVpH+cEjue
-JSgPu4UVVRn9RyIN5yv9nY+jdn1m3+GDI5ec+Sn0dYUqqc6VGhb1t7nboA6QFY+e
-mgyN1iSBNusX+DHLD+xHkHbrj4mP1xu6H2DHja/LKz3wzX36TJXt5rfk2ZfHqbUn
-eiy5Z91k4P8gWu+Fabr7vRqGExxQ1gAzN/1FecrYZyi2/9eo1D8PDHE+SabK3oYc
-gucF8WSoIWkuMC24LtQZjo2XHLEIPnHN8z1nkKybyaXKLaOnfNinZUw13U3nd5dT
-P4z39eJ7A9xbUrsRwU0A3ijFkq9XqvVVYC8qsQWMYnPkApGVF7/eHTsiGvKmX8l/
-JcDdLdfx7MgItaoTNI8CiuRq65lvU+lP7GYPv2Ez1vBMwoCnRjyZsNNEzFmg7QoP
-4mWd3xJBiFJI+Rx52CyPIiXgvP+7aofr/XBmsnt6INsK7gudmXkE2U8Xl5IfVYei
-0R5OzTew3Y5ipyK5Lqy2k3DcXS3ervCSYGt6hXKyE/4c9+nDU9dngd1y1z0W7dEQ
-Rw6qFu4TSFSI9JLPMSAN4NVDULJliHAQVeXxC6R1FUUHOUxagoX2ajG6BqCy9NX+
-w0YLpz0WM6yhl+44+QGjLPcf0o7g7TRuNDu4eygbqT/OVilpstdUQON2Czs89ypN
-WnNrs/ziiIe30Orcz//3Yjs7
-=hYsY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJBeLcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JlEQAJUNf67KmoT2HCH19mPA
+U2nkJB8FFRqXtSJtNMDdj8txVnSlXVaTAmIJc07s9cMwYPHlnF9RxdIty4UYverI
+6HfhuSTF0vMNAxbfngtCEOSNFsMiIxSAKKIFdn+VFq17MtUv4JHAFuQBfNIwSrj2
+DJOkKACTQXlTN1IdP9IcuTns6+U3c/Lbf9kAOMCkIK2xZnt/2qNnV9nzpFXzWX3R
+kbDpghAIz84ZDlB9/v5CPvaSViYfeE5YCs6UBYqYWq0qgd+WzOKUP+HTuol5SoWf
+sSJG/LGcbBLLBEY+XBHjfC5GcQQdJEGNbSkH4rwM69sf1dFlGnvkWVikjFPFENNZ
+EapEsIbH8s+xUvM7D5RMxp0KX65AH0L2e7ePFdHl+6tp+2ZcgdrCvDePJnNgC3MF
+Gh00+wbr1GFHWY3r1sLRu4Uumc5yEXn7QaINyBS/PUkIVQyYtkNxHeN7TVWFVdn0
+qkTcMVBkL5SBqg/ujUKeMJAXrulH1s86snS3oqyIZRtymt0vL6psk1Cao3gRfA33
+nUIovykYPUlGzohlhKoKYnW560TaLHz6Bztwkt6yX5Skj1aTZlq6tlAV8hqIozoJ
+cGUbwH5WVNJ+BckiHlcxpdikBqtUyqv8O+6bqgWanIeCAHfCNRNjif6JTbMUQ7e9
+pyshgiU1FYJejwDEg827P/pm
+=Pw0Y
 -----END PGP SIGNATURE-----
 
---===============7189420628220689373==
+--===============0462775932391634815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16b1941eac2b-ae085d7f9365.txt
+Content-Disposition: attachment; filename=revlist-46d2c20b0b10-ae085d7f9365.txt
 
+32cb08e958696908a9aad5e49a78d74f7e32fffb Bluetooth: hci_uart: add missing NULL check in h5_enqueue
 18e8055c88142d8f6e23ebdc38c126ec37844e5d Bluetooth: btrtl: Add support for RTL8852B
 1f667e157605a217f10fc45f1a7fb4a8354eb5e3 Bluetooth: Don't assign twice the same value
 da8912176fb0ff9fd60e14fa653108d96422b896 Bluetooth: fix incorrect nonblock bitmask in bt_sock_wait_ready()
@@ -145,7 +146,6 @@ dca65818c80cf06e0f08ba2cf94060a5236e73c2 cifs: use a different reconnect helper 
 800c326bfa9cee38f0e173733ce9f93492c84c8b nfc: st21nfca: remove unnecessary skb check before kfree_skb()
 d5f497b889794161facc1522d86720b587d1c0b7 ptp: ocp: use snprintf() in ptp_ocp_verify()
 0caf6d9922192dd1afa8dc2131abfb4df1443b9f af_netlink: Fix shift out of bounds in group mask calculation
-46d2c20b0b10cf07a2a24b047a09195ba96c84f7 usb: gadget: fsl_qe_udc: Add missing semicolon in qe_ep_dequeue()
 62f65554f5cffb17234e2b267d6376efc561d1c0 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ ipsec-next
 092d992b76ed9d06389af0bc5efd5279d7b1ed9f Merge tag 'mlx5-updates-2022-03-18' of git://git.kernel.org/pub/scm/linux/kernel/git/saeed/linux
 6aa61c12a43bb365296e72251e7346b661030b52 Merge tag 'usb-5.17-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
@@ -1082,4 +1082,4 @@ dfb0a0b715fdda25a5a1f54cb9c73e1410a868e8 Merge tag 'leds-5.18-rc1' of git://git.
 f82da161ea75dc4db21b2499e4b1facd36dab275 powerpc: restore removed #endif
 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 mm: kfence: fix missing objcg housekeeping for SLAB
 
---===============7189420628220689373==--
+--===============0462775932391634815==--
