@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Mon, 28 Mar 2022 22:24:53 -0000
-Message-Id: <164850629349.8386.9832018446426590193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 28 Mar 2022 22:36:50 -0000
+Message-Id: <164850701033.16620.11156866780597783257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 660f74e6c0ce7d20cf3a755a7e6c976d027113bb
-    new: ff5c7b271350b9fe59fb8e62effba0d9e61cce50
+    old: d78950e039d8bfcc0e010857d983c1b16d01887a
+    new: 6f7743426b4182cfd55ba3e1bde9a7d53cc310d5
     log: |
-         ff5c7b271350b9fe59fb8e62effba0d9e61cce50 Mon Mar 28 10:23:10 PM UTC 2022
+         6f7743426b4182cfd55ba3e1bde9a7d53cc310d5 eapol: zero entire buffer when creating frame
          
