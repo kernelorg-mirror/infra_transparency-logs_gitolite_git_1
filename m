@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 28 Mar 2022 09:41:04 -0000
-Message-Id: <164846046461.21255.17468692139826583674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Mon, 28 Mar 2022 09:46:06 -0000
+Message-Id: <164846076628.25713.1591658329524140537@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/master
-    old: f4d9018183ff9a6cd6a77bf33461b60570ec7622
-    new: 9b725af7028163bd29d39da3b910dffc903107ee
-    log: |
-         9b725af7028163bd29d39da3b910dffc903107ee lslocks: fix maj:min scanf
-         
+  - ref: refs/heads/features
+    old: 559e162a09cd351625ed7156f7038e8c10d42291
+    new: 7dcfe50f58d28e0e2ba79e9e4333888bcf9442a4
