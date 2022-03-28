@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7326886100073735356=="
+Content-Type: multipart/mixed; boundary="===============8175120297627997568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 28 Mar 2022 11:44:08 -0000
-Message-Id: <164846784896.4079.10014531384828575474@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 11:45:27 -0000
+Message-Id: <164846792754.6165.2654381918154529780@gitolite.kernel.org>
 
---===============7326886100073735356==
+--===============8175120297627997568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 1760fdb6fe9f796fbdb9b4106b3e0bbacc16b55c
-    new: 6f2e03c11ef6f1169d1b370f30c6bf764fc3e21b
-    log: revlist-1760fdb6fe9f-6f2e03c11ef6.txt
+  - ref: refs/heads/devel
+    old: 7aed66ad891dc862e4ba125dfe8d9c01d32103c8
+    new: 25e14a52d35928a1831ca98889a8a25ac3017990
+    log: revlist-7aed66ad891d-25e14a52d359.txt
 
---===============7326886100073735356==
+--===============8175120297627997568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1760fdb6fe9f-6f2e03c11ef6.txt
+Content-Disposition: attachment; filename=revlist-7aed66ad891d-25e14a52d359.txt
 
-37b63c68194d09d358c8abd73692adf9a6ceaad3 Bluetooth: msft: Clear tracked devices on resume
-ff39fc1bc6b4053a9c3f193c7e3255a06ecfcc43 Bluetooth: Send AdvMonitor Dev Found for all matched devices
-9fa6b4cda3b414e990f008f45f9bcecbcb54d4d1 Bluetooth: call hci_le_conn_failed with hdev lock in hci_le_conn_failed
-a76d269a4e86cfd7d4441e40adccfa67808fe6fa Bluetooth: btmtkuart: fix error handling in mtk_hci_wmt_sync()
-b062a0b9c1dc1ff63094337dccfe1568d5b62023 Bluetooth: btmtksdio: Fix kernel oops in btmtksdio_interrupt
-546ff98eb3a019695aa5638a870c589cc2aa95df Bluetooth: mt7921s: Set HCI_QUIRK_VALID_LE_STATES
-d786105ef25c0c7640daffc10bcf6d6fcfa0d0e1 Bluetooth: mt7921s: Add .get_data_path_id
-f41b91fa178342b6a49f1088e514178c2da4176f Bluetooth: mt7921s: Add .btmtk_get_codec_config_data
 5ad80cfcf30006110075860b61a7101f215f665c Bluetooth: mt7921s: Add WBS support
 27e8527e006f1f4281adc335cf7aa744f649f398 Bluetooth: hci_bcm: Add the Asus TF103C to the bcm_broken_irq_dmi_table
 520e31a99100b786d82e518f89e4fd132570a349 Bluetooth: bcm203x: remove superfluous header files
@@ -1048,7 +1040,15 @@ dfb0a0b715fdda25a5a1f54cb9c73e1410a868e8 Merge tag 'leds-5.18-rc1' of git://git.
 f82da161ea75dc4db21b2499e4b1facd36dab275 powerpc: restore removed #endif
 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 mm: kfence: fix missing objcg housekeeping for SLAB
 41e509c73a72f461f4a9407139e8da93e9d1267c Revert "mmc: sdhci-xenon: fix annoying 1.8V regulator warning"
+b6106609cc0f37ac309b6281318ff55599839af7 mmc: renesas_sdhi: remove outdated headers
+efd9bf5a209f83ec3c49c53799add2631e5e2252 mmc: renesas_sdhi: R-Car D3 also has no HS400
+d6978ce74c6caeb61518eb8afa5c5274a7d8872f mmc: renesas_sdhi: make setup selection more understandable
+2617369af77671e3e2ca4a748e80270f379cee27 mmc: renesas_sdhi: remove a stale comment
+d4bfa17a655c6de2153b1aeb16757aef8d852870 mmc: renesas_sdhi: make 'fixed_addr_mode' a quirk
+dce2ba8b2ee8cef6d49c42f954396c23a99abec8 mmc: renesas_sdhi: make 'dmac_only_one_rx' a quirk
+c509ba180c492f94076bdcb17a7570d99faa0c74 mmc: renesas_sdhi: style fix for proper function bodies
 18bc0f87e265518817d285227c5e8dbd1533eb42 mmc: mmci: stm32: correctly check all elements of sg list
 6f2e03c11ef6f1169d1b370f30c6bf764fc3e21b mmc: block: Check for errors after write on SPI
+25e14a52d35928a1831ca98889a8a25ac3017990 Merge branch 'fixes' into devel
 
---===============7326886100073735356==--
+--===============8175120297627997568==--
