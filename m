@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0289934726068224813=="
+Content-Type: multipart/mixed; boundary="===============8118040420088873519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 28 Mar 2022 07:59:13 -0000
-Message-Id: <164845435345.15762.16178438972221316026@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 07:59:15 -0000
+Message-Id: <164845435575.15824.11834155870299111962@gitolite.kernel.org>
 
---===============0289934726068224813==
+--===============8118040420088873519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,85 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 96e48ac9a685f2f5855e2820496ed6ecf893febe
-    new: e29be6724adbc9c3126d2a9550ec21f927f22f6d
-    log: revlist-96e48ac9a685-e29be6724adb.txt
+  - ref: refs/tags/v5.15.32
+    old: 0000000000000000000000000000000000000000
+    new: f385ffee06f44fcfdef5bbf812343fb6b7562621
 
---===============0289934726068224813==
+--===============8118040420088873519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648454352 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648454355 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1648454351-5d8b0651a7373c8b8747f045b0afd0d4223b6080
+nonce 1648454354-69c64c109428eb04a4f6f86460f5f2b0d6a7bdde
 
-96e48ac9a685f2f5855e2820496ed6ecf893febe e29be6724adbc9c3126d2a9550ec21f927f22f6d refs/heads/linux-5.15.y
+0000000000000000000000000000000000000000 f385ffee06f44fcfdef5bbf812343fb6b7562621 refs/tags/v5.15.32
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJBatAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fbAP/REyy+3AWnLJofDWuiml
-nKBUwZkCEJfx5OOURA9KB/4DiBgLUXz3SEhlLWwKXGU3OI78+vpIqSBHMMya+EsI
-ngsp1RZWcvmonkJ3Jlm918WekX+jU6a2SsxKbKi6gmeqO+yU7beAFS5dnT1foakI
-qB0wI7JYprfjiKsdAdD1FpJjtUul7WeEMXY6W9DFp4eKhSUivaOn0UuTHgj70IqF
-BTT0KWjr3eB+04l0kOQDZkDra5vs5aohW8BXug7KE0350s8wKinTP7b7bKlg1luH
-kR/xR4GRC3YYi4m/jYsYhz4cjegDgJIStwNyScA3l+aiB7mJIl+ALec5LYvK42lN
-t5DEMVdqpDDUbdv932fEn/kNAHT5km7ZMUNKYj7Rn8gBH9qjpItwP+6YPNyjfNfK
-IcvOQxXa0WgNrDEYept+OYigusPlDKuZMXpRTNeth9ioqSt+evSx8uhYpZeR90I1
-ci3FRaf8uvBEhuDdRP6j8OZItgjBl7I+0vTr8ixBtZJ78HAxxOZ7+qeSYbRcYQjJ
-TsSyVyhzboODxR1iJ+62EHJgR0mqcoxJ5DtM72xlbRehIkl7lzqn3dnVZJM+DwZ+
-CZy9xldd/tQ6OP6Vk/arRLs+ssKcEewcWIyA8h1df2Kd94cPlPcKzD8GKe8zB4BQ
-DExfiWWYO1+JjACb+OnVz/GP
-=lJNp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJBatMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+imUQAJBMlMUnRBqWQ23L8yA6
+/Ahou2TFfLHLdzJ9KloVLdp9uQSg26GfYRuSwaN6h+pUDEW3xIlFuC84/ySrHvMN
+0SBOc7iigeJXK752/wyUbR/YpEWygoUXFyjx4gx8ssfEYNaHesUJbyv+UEziPrJH
+OOF0acAusMMxVtafIfF0otBJPGmN7sc3hITu5N4Az+fI9U89bThoHjUoSAcP6QXC
+vxYsGA4IKJ6Zul5ybypL5hP+oQ8y8JqGspQfOQC1J9CpzVeDxfMqXZnrcsuNoiwT
+aevcjoT+j1eQN8FetZ1LcMyk9g3VSoqoh0B0RMDkq2ewk7N+EFArLU4/s8zZroo8
+4aeQlf7rE8XCL70v4rUyK3U7OSqdbyJx+brSBvDq2KN6+TI8Vy00dFV+pn4CPmz8
+uZqdEpnm6+l7Ko9/TnRMINtMgXIe+80trr3Al3azAdq+s3p9T7IWPOFwmxPYMuCX
+J7Nx8K2rSPwrkCKdqMWRYxXkJS/CcigfSsd+NHAt55UrfZqL1c5P5S81dWmuNv2x
+/kPfwnKVGd091jUlq8QpjMmZe6ckumYUY5MZa2dDkV+OVIAfiguLqcSmci8OGGAe
+xE6FqjOw3eTpATvRK8HcsyigHQyxKAi+Lqqg+jBa9kWYDl+pFI6Gi1IhzfLWRyhB
+eKgEddTrR0vfjFhJH30EMGy+
+=7vKw
 -----END PGP SIGNATURE-----
 
---===============0289934726068224813==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-96e48ac9a685-e29be6724adb.txt
-
-a34c47b1ab07153a047476de83581dc822287f39 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-2317fd3b126c448fd0bbb3faa77106a7eb58ce92 net: ipv6: fix skb_over_panic in __ip6_append_data
-42b9f6d19faa86ae74a35574b9db71cebae5cf10 tpm: Fix error handling in async work
-5b2ca3b8213a49940cb88d29034cbdaa3fbaccb7 Bluetooth: btusb: Add another Realtek 8761BU
-e9072996108387ab19b497f5b557c93f98d96b0b llc: fix netdevice reference leaks in llc_ui_bind()
-5e431799c35b4621e71f25883707103514ac1104 ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-7a40cbf3579a8e14849ba7ce46309c1992658d2b ALSA: oss: Fix PCM OSS buffer allocation overflow
-10cdffd4854a6a682823542fd73315865ded275b ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-85060f4868dbb3215459f6fc67e90d516757daaf ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-8e6ea2176222af06b49e8b7ff5cc62745f952ec4 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-0e7cdc8059a04fa80839a02f284a7199fc62269c ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-3b1bacd00ac3b1bd8fc3ec588ae7dd17c7a00860 ALSA: hda/realtek: Add quirk for ASUS GA402
-33061d0fba51d2bf70a2ef9645f703c33fe8e438 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-47711ff10c7e126702cfa725f6d86ef529d15a5f ALSA: pcm: Fix races among concurrent read/write and buffer changes
-cb6a39c5ebd0a125c420c5a10999813daaece019 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-51fce708ab8986a9879ee5da946a2cc120f1036d ALSA: pcm: Fix races among concurrent prealloc proc writes
-f4827c62b6496fe16ca55c29d45d2c51d5245904 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-099a1cc21b16dbf446158fd3675f3d23cbea1b68 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-9abaacd6491e454c3e753acfcab12e9bf991b1c8 ALSA: cmipci: Restore aux vol on suspend/resume
-c2052ad0c74fd0a1c6def7dd5a9bbad520f52687 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-3e27eafac6590d09164e4ad00a2e99b30e4ea37e drivers: net: xgene: Fix regression in CRC stripping
-fafb904156fbb8f1dd34970cd5223e00b47c33be netfilter: nf_tables: initialize registers in nft_do_chain()
-1bd57dea456149619f3b80d67eee012122325af8 netfilter: nf_tables: validate registers coming from userspace.
-8942aac690161dd3bd8c91044c6f867d9f10a364 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-a01ac24114899d46dafcb0dc0c204418f9d28ea4 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-57a2b3f8bf1c91f4a7daf40cc77a095d8fc14493 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-cb807cb52a8e399dfe7d58a64549cbbbb176ba9d crypto: qat - disable registration of algorithms
-4b6a48f87d0319e506c0ad7e4da0b81b01182b06 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-5023652cc6e490ca94b0beb29d6f2496623451f9 Revert "ath: add support for special 0x0 regulatory domain"
-b094fece3810c71ceee6f0921676cb65d4e68c5a drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-058d62a03e7d057d5eeec0db800117765ff23e6c rcu: Don't deboost before reporting expedited quiescent state
-e65d28d4e9bf90a35ba79c06661a572a38391dec uaccess: fix integer overflow on access_ok()
-12e407a8ef17623823fd0c066fbd7f103953d28d mac80211: fix potential double free on mesh join
-476ddd23f818fb94cf86fb5617f3bb9a7c92113d tpm: use try_get_ops() in tpm-space.c
-cdb96445297bb922e17ee08fed02515b6688e564 wcn36xx: Differentiate wcn3660 from wcn3620
-110dea31d48f9e91ce9ab528a82ac61470a27d14 m68k: fix access_ok for coldfire
-22ac37c530656eedfeaa2536d7c65e4ff936b8ad nds32: fix access_ok() checks in get/put_user
-60981bb5ce183cbea9ddc88389735f363b8c56c5 llc: only change llc->dev when bind() succeeds
-e29be6724adbc9c3126d2a9550ec21f927f22f6d Linux 5.15.32
-
---===============0289934726068224813==--
+--===============8118040420088873519==--
