@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 28 Mar 2022 09:18:25 -0000
-Message-Id: <164845910598.25685.11715944394221184245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 28 Mar 2022 09:41:04 -0000
+Message-Id: <164846046461.21255.17468692139826583674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/for-linus-5.18-rc1-tag
-    old: 0000000000000000000000000000000000000000
-    new: 81c9d123e3785888349661153c07b6a0102e6914
+  - ref: refs/heads/master
+    old: f4d9018183ff9a6cd6a77bf33461b60570ec7622
+    new: 9b725af7028163bd29d39da3b910dffc903107ee
+    log: |
+         9b725af7028163bd29d39da3b910dffc903107ee lslocks: fix maj:min scanf
+         
