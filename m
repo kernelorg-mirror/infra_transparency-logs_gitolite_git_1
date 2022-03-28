@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6661352619334988825=="
+Content-Type: multipart/mixed; boundary="===============6166020462451154817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 28 Mar 2022 18:12:40 -0000
-Message-Id: <164849116022.1496.14597818277462899296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 28 Mar 2022 18:12:51 -0000
+Message-Id: <164849117125.1634.10058567210716034432@gitolite.kernel.org>
 
---===============6661352619334988825==
+--===============6166020462451154817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ae085d7f9365de7da27ab5c0d16b12d51ea7fca9
     log: revlist-6b1f86f8e9c7-ae085d7f9365.txt
 
---===============6661352619334988825==
+--===============6166020462451154817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dfb0a0b715fdda25a5a1f54cb9c73e1410a868e8 Merge tag 'leds-5.18-rc1' of git://git.
 f82da161ea75dc4db21b2499e4b1facd36dab275 powerpc: restore removed #endif
 ae085d7f9365de7da27ab5c0d16b12d51ea7fca9 mm: kfence: fix missing objcg housekeeping for SLAB
 
---===============6661352619334988825==--
+--===============6166020462451154817==--
