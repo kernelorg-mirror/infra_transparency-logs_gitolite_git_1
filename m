@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
-Date: Mon, 28 Mar 2022 23:41:25 -0000
-Message-Id: <164851088591.26801.15392716088626400501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Mar 2022 23:49:50 -0000
+Message-Id: <164851139067.32352.8177617301050464887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
-user: ebiederm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/ucount-rlimit-for-v5.18
+  - ref: refs/tags/net-5.18-rc0
     old: 0000000000000000000000000000000000000000
-    new: 623b62a6bdbc4c06e54bb2a73c0bfce66ba67e7f
+    new: 38ba46aabc355f83c69e60fd9b5cf3787734295d
