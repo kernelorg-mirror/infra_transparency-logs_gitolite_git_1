@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Mon, 28 Mar 2022 23:35:04 -0000
-Message-Id: <164851050469.23213.686756264370720090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiederm/user-namespace
+Date: Mon, 28 Mar 2022 23:41:25 -0000
+Message-Id: <164851088591.26801.15392716088626400501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/ebiederm/user-namespace
+user: ebiederm
 changes:
-  - ref: refs/heads/testing/kspp-stringop-overflow
-    old: 67e9e04c83950331bf5ef24c0f3f25a4f486adc6
-    new: 7dc9148b23b386bbc3f3759787bb957322ce7a2a
-    log: |
-         7dc9148b23b386bbc3f3759787bb957322ce7a2a mm: mempolicy: Fix Wstringop-overflow warnings in mpol_parse_str()
-         
+  - ref: refs/tags/ucount-rlimit-for-v5.18
+    old: 0000000000000000000000000000000000000000
+    new: 623b62a6bdbc4c06e54bb2a73c0bfce66ba67e7f
