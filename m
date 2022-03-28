@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1515014450543456457=="
+Content-Type: multipart/mixed; boundary="===============4411290343090129944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 28 Mar 2022 08:02:05 -0000
-Message-Id: <164845452547.12889.6808228902911033008@gitolite.kernel.org>
+Date: Mon, 28 Mar 2022 08:03:08 -0000
+Message-Id: <164845458861.13294.11249455227915133217@gitolite.kernel.org>
 
---===============1515014450543456457==
+--===============4411290343090129944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,106 +15,57 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: bot-stable-queue
 changes:
-  - ref: refs/heads/queue/5.16
-    old: a4acdec115175e6992c9e2c2a869d1757b4f1454
-    new: e9a14a1aad1071e9fe880ce4b59dd1c41aa369bd
-    log: revlist-a4acdec11517-e9a14a1aad10.txt
   - ref: refs/heads/queue/5.17
-    old: ef0b87bdec4363b078dadbf04366412d69a1994a
-    new: c131221434beb87492a1aecac7f13a2c9d06346c
-    log: revlist-ef0b87bdec43-c131221434be.txt
+    old: c131221434beb87492a1aecac7f13a2c9d06346c
+    new: a6ba28d41c95ea8d25fec4928a0dafcada273957
+    log: revlist-c131221434be-a6ba28d41c95.txt
 
---===============1515014450543456457==
+--===============4411290343090129944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4acdec11517-e9a14a1aad10.txt
+Content-Disposition: attachment; filename=revlist-c131221434be-a6ba28d41c95.txt
 
-ebb79374ed6b26d037d627f30e144899648f8732 Bluetooth: btusb: Add another Realtek 8761BU
-cd1986097df711baf80da15c43fe016aaac0b4e4 llc: fix netdevice reference leaks in llc_ui_bind()
-a846c9ae56e04cc76dc6584ded84be083fec922b ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-ffb53258bb96a7de8e6a10b80e68fb08857e48e3 ALSA: oss: Fix PCM OSS buffer allocation overflow
-6b66cbdc472e031141dc90bfc3f76b01e6c206fe ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-77a8d68df70e580020be14f867e4e6945be265be ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-3b8b4f0508d149ec868c9f32e96f4842c5d92af7 ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-f04a434bb36dd04b18ac761832174e6772bd33b1 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-447840f251dc41e6ce73731653f310be2f07c6e0 ALSA: hda/realtek: Add quirk for ASUS GA402
-a4bb28af7cdce2a1e9e595bf3ff1cd6fd22cee0d ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-32a81cda99e3a599444c1f2132e6e47e9a557546 ALSA: pcm: Fix races among concurrent read/write and buffer changes
-85012439741a4ac5f0986b26074b2cb6d97937b4 nfc: st21nfca: Fix potential buffer overflows in EVT_TRANSACTION
-2b25a012bb52636455caec3cb97b835374a30a51 net: ipv6: fix skb_over_panic in __ip6_append_data
-777051c369802bc1dc53fde280a1ed33e6990c43 tpm: Fix error handling in async work
-ed17f5532f459236feebc9ce99cd26a9fc347bb1 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-9602487fd0ded4cc353f62c0e8a9015c03099b71 ALSA: pcm: Fix races among concurrent prealloc proc writes
-dd105ae02e8d12cf3d6f50d671f9069b746606f0 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-d293fa364a758a65a70f01add15b7bd1f9e086ec ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-f1981ee0ce36062924bd8eecd305cfce71bda02f ALSA: cmipci: Restore aux vol on suspend/resume
-acb2692e15ef9b4dbe09896e83e33a450ba43399 ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-f3b30536dfd2040679c32e96948e7f05ac10c587 drivers: net: xgene: Fix regression in CRC stripping
-1303d4dcc262467233271da7e43a991539782ea2 netfilter: nf_tables: initialize registers in nft_do_chain()
-7655992fce4c752ea7145286f22e25d779abc600 netfilter: nf_tables: validate registers coming from userspace.
-3b28393e767fd4238a210ee8ba96f79fde5e19ca ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-47539201f9f68bf2b48d11adff4a366f195d29bb ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-27109ee071613997ea41d625312bdad648458ceb ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-e119837441ae2c481d0f6bc893da5eb99b9c2bb4 crypto: qat - disable registration of algorithms
-7e365a5ac74d62b4a593e8bcec59f73518166fc9 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-82437c742df1fcf6176b20c88fba66b6f773ac99 Revert "ath: add support for special 0x0 regulatory domain"
-89329673adc36ee691288f717f3fc7585bb5d926 drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-217e83638d240cefa376fb9150706db3f7aa8636 rcu: Don't deboost before reporting expedited quiescent state
-571316f9139712b22a5bca96b486fbb1ab53dc8b uaccess: fix integer overflow on access_ok()
-576d559d0a31ee463cb8e7765d9f0703fb056ddd mac80211: fix potential double free on mesh join
-47da7fb6b176229f04183c5496b9e1ba119a7a06 tpm: use try_get_ops() in tpm-space.c
-45d172f0c64f8e2607c1a4f26c6a15367c0d990b wcn36xx: Differentiate wcn3660 from wcn3620
-e7f962a14f578e7e014696e69b3b400b8d3c7652 m68k: fix access_ok for coldfire
-175fefc33e106d029437152eaf32298b1759678e nds32: fix access_ok() checks in get/put_user
-e9a14a1aad1071e9fe880ce4b59dd1c41aa369bd llc: only change llc->dev when bind() succeeds
+bef2e4342355d08ba1fa22d47f1ccce1f59571b5 tpm: Fix error handling in async work
+4941c79e192f567bf2f63ffa745339b7493d1c13 Bluetooth: btusb: Add another Realtek 8761BU
+6a5f603b9fdc07ad434491981d9d8b46639dc8ac llc: fix netdevice reference leaks in llc_ui_bind()
+d2b14a383ad7d3c2bece8c6977af781c9836d57f ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
+4972cad7ca0a5c92fcf94d883e8bf4b25f717e92 ALSA: oss: Fix PCM OSS buffer allocation overflow
+548f6a9149b175784c3efc7cb09def32101b563e ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
+590410bc92b6b9e4e9f996b2be3840ed5e5f64f3 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
+4862d88e288ece47bab13e5192aeeea9d7e2640f ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
+4931480baf7a8bde10d5717395b06b8928218432 ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
+4873b0dfef784988f0a161025ea575191b52982a ALSA: hda/realtek: Add quirk for ASUS GA402
+9fd339827b8904e9a3d3aea2d677699f29288166 ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
+86935709368f524d781da91f444f119aa2486915 ALSA: pcm: Fix races among concurrent read/write and buffer changes
+1cb1c89f557548d22b2a70d5dabc1e28206db6e9 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
+0c451b9908b7f93344fb7f41c8f0c47f9cf9f591 ALSA: pcm: Fix races among concurrent prealloc proc writes
+d949e3c4c27b1a945fffe3c90990968229c5847d ALSA: pcm: Add stream lock during PCM reset ioctl operations
+6f12371af4ed933f38731cbd84f7ecd897617191 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
+6c367ad6e57bee8405e2568c3b65d31edc2785a7 ALSA: cmipci: Restore aux vol on suspend/resume
+ce0b51868fe5a56c9693da1244b4fd331fd8096a ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
+437a57aa881e4295a572003c6ccc16bcdd47a107 drivers: net: xgene: Fix regression in CRC stripping
+7368ea1eee4f451170741bbfad6f2a6004bdfecb netfilter: nf_tables: initialize registers in nft_do_chain()
+a0a790fdba28cf5acc9ad0e1281a2cb53cb700a6 netfilter: nf_tables: validate registers coming from userspace.
+c78e33fc934d3eb6e75adc0ca9b141bdcb71c02e ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
+41502b9a562c5f9d23c2813ba23bb1e7d046c7a3 ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
+ed89dc3ed9064e70408c6e0857ad0fd50bab3c6c ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
+1f3c441d87a0abceea57a1767786860cab8187cc crypto: qat - disable registration of algorithms
+e8795fc04d887877de2e0acf20eee2f5b4db68a6 Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
+67a5a945c1ce5e2e7fb496bb854c3853b0cd50ea Bluetooth: hci_sync: Add a new quirk to skip HCI_FLT_CLEAR_ALL
+312cf10efd994933fda23a91c55a4a2406ca22e6 Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
+4b6659874d26f28f03626e8985bd5ede087fd563 Revert "ath: add support for special 0x0 regulatory domain"
+e9251aa7ab7a3d0eb912516f4d78f41c6c4a15d5 drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
+c96da6ddd9060559d8d88b63d127cdf6c70ed9b3 jbd2: fix use-after-free of transaction_t race
+6162da6d3d7a5f5f96635101c544903d1f314081 rcu: Don't deboost before reporting expedited quiescent state
+ca8c37942de7a4d0fcf898c4a3dcf221fdb5e6c9 uaccess: fix integer overflow on access_ok()
+3eaff507cba1bdedd0246e365bc8816c627e0ccd mac80211: fix potential double free on mesh join
+0b88ac14b4d702679357ff493972f808339f6614 tpm: fix reference counting for struct tpm_chip
+6d02fe01554595666d475df1bdee46f67255741b tpm: use try_get_ops() in tpm-space.c
+b18733fa6fa54b1e7c155736df265c362a282502 wcn36xx: Differentiate wcn3660 from wcn3620
+574f285e4957da5f134ec4b4745409450fb76a80 m68k: fix access_ok for coldfire
+8aed515b1f9264f934f842ad1c688ace2ef4d4ef nds32: fix access_ok() checks in get/put_user
+807e30e35652828060dcc08b8597398948a950ee drm/msm/gpu: Fix crash on devices without devfreq support (v2)
+a6ba28d41c95ea8d25fec4928a0dafcada273957 llc: only change llc->dev when bind() succeeds
 
---===============1515014450543456457==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef0b87bdec43-c131221434be.txt
-
-d05dcefd96b8c62b18c68bc14d2cca0f89b208d0 tpm: Fix error handling in async work
-5eb9600d3d4560c6fa75a53a54c43a12a5ee0029 Bluetooth: btusb: Add another Realtek 8761BU
-8ddc7759e5e89961ef3cf19a301a5b2758981b96 llc: fix netdevice reference leaks in llc_ui_bind()
-ffad4c42cebd46dcab4b25cb059a48304101c4de ASoC: sti: Fix deadlock via snd_pcm_stop_xrun() call
-7065fd0ca8d7d8bcbc2217efd2c63be72705824b ALSA: oss: Fix PCM OSS buffer allocation overflow
-df5be76aad21efc4b579b048127aa38631ee86ea ALSA: usb-audio: add mapping for new Corsair Virtuoso SE
-2116e11caa6d15f95d06536eb781546ab596f245 ALSA: hda/realtek: Add quirk for Clevo NP70PNJ
-8c2557da5fe921e975f2345f6c05a20ec188429f ALSA: hda/realtek: Add quirk for Clevo NP50PNJ
-5410f5322310def19533e82866c19a56a6d4789a ALSA: hda/realtek - Fix headset mic problem for a HP machine with alc671
-ca168c8dcc7130ac319b40092813d343eea6405b ALSA: hda/realtek: Add quirk for ASUS GA402
-a2d62b9564bc481210cc26712c639626af9aca3a ALSA: pcm: Fix races among concurrent hw_params and hw_free calls
-35dbf301e2d6ecbf07d3b5e3a75dc4cff8170d8c ALSA: pcm: Fix races among concurrent read/write and buffer changes
-6f36e99fbc6774f3afbe2955c2bca87c99ab4088 ALSA: pcm: Fix races among concurrent prepare and hw_params/hw_free calls
-52d2fb72fe13f7254f25a75941fedbf487ca8fcc ALSA: pcm: Fix races among concurrent prealloc proc writes
-91c46c6ce7006552eaf59d039a53ae679424c0c4 ALSA: pcm: Add stream lock during PCM reset ioctl operations
-a6f70141ae1635317156272c870e462d1ce3e539 ALSA: usb-audio: Add mute TLV for playback volumes on RODE NT-USB
-c66e417cff2f59c52230c0b5f89c10b37b785c06 ALSA: cmipci: Restore aux vol on suspend/resume
-b7c93e9f07508b43feb2d5a4c30bf13fe8ebb0ff ALSA: pci: fix reading of swapped values from pcmreg in AC97 codec
-abedaff00f5b296ed5c1165987eb101425f928be drivers: net: xgene: Fix regression in CRC stripping
-25a204c8da6ccb6879786c3c000d3b90f16db085 netfilter: nf_tables: initialize registers in nft_do_chain()
-bfd7b4b7355bbaafd7fad0c6563e76b314b89d54 netfilter: nf_tables: validate registers coming from userspace.
-1acd390fe92355163e2987d000c471a608a363f3 ACPI / x86: Work around broken XSDT on Advantech DAC-BJ01 board
-de4b4477ec9ca23d12bd3a8724e2a13c431ab3ef ACPI: battery: Add device HID and quirk for Microsoft Surface Go 3
-7d1c55c7d26c012f7286fd3be02a976d530de0e9 ACPI: video: Force backlight native for Clevo NL5xRU and NL5xNU
-80c03153106e691a2ecc30b510c16f0929653e38 crypto: qat - disable registration of algorithms
-176e8505035cbbf2492a5bedbcb84cd7231f1d2d Bluetooth: btusb: Add one more Bluetooth part for the Realtek RTL8852AE
-1ee7f313c46f63f1f5d29690265737d8f6e273b0 Bluetooth: hci_sync: Add a new quirk to skip HCI_FLT_CLEAR_ALL
-ae536c0420c6b9b89713d0e5cf7655a9153877f8 Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
-a3699556b69972a0482e12e18fc309d932a8ddaa Revert "ath: add support for special 0x0 regulatory domain"
-d488836c566dd12bc615411b3bbce7df484dd91b drm/virtio: Ensure that objs is not NULL in virtio_gpu_array_put_free()
-ea2a0d2c67c871a0d2491ae39ea852467149588c jbd2: fix use-after-free of transaction_t race
-1bb9b4917a0644607b2c2edb589433012d43d3df rcu: Don't deboost before reporting expedited quiescent state
-1aa4e80aff1cee2db080cbbe6650218d71400e19 uaccess: fix integer overflow on access_ok()
-9d67a28c37a074cc68ec7fa67fab97c23a790ad9 mac80211: fix potential double free on mesh join
-b61797ba652b1995ea63e4ced48065748ba04dc5 tpm: fix reference counting for struct tpm_chip
-a21aa6c7404c5773ab1aaeafa0b504b8d7349da4 tpm: use try_get_ops() in tpm-space.c
-f7046bdb1e1984a8cf8c4fd469cad0a1b9176ab6 wcn36xx: Differentiate wcn3660 from wcn3620
-20e4326347a5760a8723691861e2ef5c22bcc0f3 m68k: fix access_ok for coldfire
-9d4074221b860feab7ca30a873f2e6936b5b8dd3 nds32: fix access_ok() checks in get/put_user
-bfcdb8bc0cd77f7f25ec82a91d0c3de57d11d2fc drm/msm/gpu: Fix crash on devices without devfreq support (v2)
-c131221434beb87492a1aecac7f13a2c9d06346c llc: only change llc->dev when bind() succeeds
-
---===============1515014450543456457==--
+--===============4411290343090129944==--
