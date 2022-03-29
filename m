@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0724560668531829450=="
+Content-Type: multipart/mixed; boundary="===============6179412072110200220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 29 Mar 2022 16:00:30 -0000
-Message-Id: <164856963062.1744.5297355667492136911@gitolite.kernel.org>
+Date: Tue, 29 Mar 2022 16:07:04 -0000
+Message-Id: <164857002429.5219.15106506257810960243@gitolite.kernel.org>
 
---===============0724560668531829450==
+--===============6179412072110200220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,58 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 8dbab6b8f34a7e8931ce9c334e2cbaf5ed2fda20
-    new: 20f60ff4becca2599cffec325283f005ae95601d
-    log: |
-         249c2072bc9d0b232bfd0d11589855af19224ee4 staging: r8188eu: make _rtw_init_mlme_priv static
-         e372cf7554edd2495824e087cc8a45db74227252 staging: r8188eu: the MCS_rate_2R array is not used
-         6646fe154c3e07e9ad23f6d13f0e0f8307687398 staging: r8188eu: remove empty rtw_dummy_event_callback
-         20f60ff4becca2599cffec325283f005ae95601d staging: r8188eu: remove empty rtw_fwdbg_event_callback
-         
+    old: 20f60ff4becca2599cffec325283f005ae95601d
+    new: c93c68f19e68e19c319d9471fdb9dab37d85d7f0
+    log: revlist-20f60ff4becc-c93c68f19e68.txt
 
---===============0724560668531829450==
+--===============6179412072110200220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648569628 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648570022 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1648569627-218e283e17543d1556ab0187c1d545dc19c74656
+nonce 1648570021-9c7696ad5f51810b0407b1e556a30cb342d00281
 
-8dbab6b8f34a7e8931ce9c334e2cbaf5ed2fda20 20f60ff4becca2599cffec325283f005ae95601d refs/heads/staging-testing
+20f60ff4becca2599cffec325283f005ae95601d c93c68f19e68e19c319d9471fdb9dab37d85d7f0 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJDLRwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i5oQANRpvkDXyRThF/da209g
-V95J7dRKRN36ILeoGwImsaXtNaUI1ESI9oj0BwUyPgVvb+RavLqfu22G+ZfnoJQP
-MugMo0fmzk2OGIAxaT6Ant53WVKMcaST5cnnh8879TNJxIE5EwFdlxYB0bo28vUI
-aEOOp7kPRyxC/qxe/rODK2k70MPvLCT4MVG4VOuKtdud9mIvujLqERUyu0nfxXE3
-LSuntI7/oLlYRw2+yAh3I3gpFAPisOcTdUKMkXlPtaBkI/0Jz2E6EaYXXa5QE4+a
-Ojr+a2FOcJhYZv3tepSJEJ8NKLUQq43BHrf1uUmpXzGeTMOwjrDKoaawIfEYzxxn
-nSULyMWWGE08QE7MrXlrYMdN/rnTenBLBQWwvAfu5Bl1ggqJ49uKlVy4utp5wdE3
-IL1X0cnhDvjx3+0f1hJWcKby12nPw/1fIEoSXvd5wVKCo+Aj4rFlRkB0PxdUViRA
-A4U2zH2e5ceISn1cm0rsqdOGLdsbTaaYojaxxDINCCSBbFLvq7ruDVw0I93JW7+R
-bXndiTxW4mkJakaHCDNtgwR2Sydoc4pd9gBBkCrfO5yS4tLyWv+brDHdYhC/OvN7
-S86wR0FBnKflq80VlzjBo7xkyYLZnUP8XqqmDzlgLoePVwKZkoup11UTo7JNi7lW
-GiBSWEKYAJMqir86NdMe7HKl
-=YSMj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJDLqYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rVkQAKT0rK5qBgWdWmfsIrYp
+vFLKH64PvaZRhVys6eFpBCxY8xTTa+Wm3LwVV0krYsi7weGWUWd3jQLe2w34h90q
+f+k1xQzjbDQmmq5BuZrU+Q5hQObGichT8aPZ9H8gtW3DYXhLnPreLXvQfPFVYw8z
+kyVEOgx/RWzMRzS8Z1UWSzKgLtpArNJjFxIuuOM7KK9YcaoRa7LZ5HiDho57RHAM
+SRN/GsgKXI6xDsycWQnej4GMqjZpv+DXL0NvFrfWmklp8CcVekmJ1YzPjoAZasdl
+S6GcgHoK48pK8lIAngHRsUHrbPYYugabhvNEPtCenHhIP3o/oIKfMwTFlp1E+UQk
+Km6ozn0V2GIxIuS1Hg0UpZmc/7miV15f/YBZwjKrP97I7bvZdl/SFYJv7IXg7G68
++DRmr69jxviiL+U/AY2Wiox43b+yAH2ytx58bZlNDzxsY+aqvaCAMwd0QTuItdJq
+xNSsrb+gndSAxGEIH+MLbavbpQ7v2gB/g/4wSPQnvyomwygjy6qvo1t37l57OW8+
+isSFBO6RduYpuSIdsKZ6PG/CNxaUVOChcZEbJUWt6eN9UXg8mPfETzG3wYYA83dl
+A/JNA53NCYvZsmGMFwiejboyRMuohaWYMgU3Pr61DYhsFskZG8Kc8FNiBGzmExEy
+OQxCVErFx3oT791dJOYcpCnf
+=tE5H
 -----END PGP SIGNATURE-----
 
---===============0724560668531829450==--
+--===============6179412072110200220==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-20f60ff4becc-c93c68f19e68.txt
+
+91b726859be6cd4883707341011d44d608201a26 staging: r8188eu: use ieee80211 define for version check
+8298f97ca1665f942fa6f5db5cb7259a2b94d20e staging: r8188eu: use ieee80211 helper to read the pwr bit
+0fcca7f3cda62c49c0f8a849f6a4e8021b945c53 staging: r8188eu: use standard mechanisms for control frames
+5282f6c87040012ba35aebdb01efb5a542789a17 staging: r8188eu: use standard mechanisms for data frames
+8a8259e56288d237c62130385ca21a880f1b7584 staging: r8188eu: use standard mechanisms for qos data frames
+9f2f3ed15e9e1544efa1f2bbf18c87ae2511a75b staging: r8188eu: remove unused data frame subtypes
+e4e511d6c9074e3a8bf64f2c6d894988402f30e9 staging: r8188eu: remove unused control frame subtypes
+d0294df61efe2696f4f19908fb3752dd0a31184c staging: r8188eu: use ieee80211 macro for sequence number
+127baea58aff126bc8febb5183617854e82c9180 staging: r8188eu: use ieee80211 define for fragment number
+4a00978054baa1ed545413af45dec5130ff0df2b staging: r8188eu: refactor rtw_usb_bulk_size_boundary()
+54abe3983ffd6711d9931e18a18c5d0c3b5ff814 staging: r8188eu: refactor rtw_inc_and_chk_continual_urb_error()
+16c53111691e909c1bee23052c84ad86475cf0b3 staging: r8188eu: convert rtw_usb_bulk_size_boundary() to bool
+c93c68f19e68e19c319d9471fdb9dab37d85d7f0 staging: r8188eu: convert rtw_inc_and_chk_continual_urb_error() to bool
+
+--===============6179412072110200220==--
