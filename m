@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Mar 2022 09:15:08 -0000
-Message-Id: <164854530804.21111.6420391590743926168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
+Date: Tue, 29 Mar 2022 09:57:59 -0000
+Message-Id: <164854787973.28585.2673595489367794043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/matthias.bgg/linux
+user: matthias.bgg
 changes:
-  - ref: refs/heads/master
-    old: 807ca64e154638c7540f3dfb48a2b9a8a58385d0
-    new: ad7da1ce5749c0eb4f09dd7e5510123be56f10fb
+  - ref: refs/heads/v5.18-next/dts64
+    old: f5806be200bae76be1f5549dbb8959ba1720e87a
+    new: 01144e2e8d5f4f1b3ade9bdd2db1bc2b64138c5d
     log: |
-         ad7da1ce5749c0eb4f09dd7e5510123be56f10fb net: lan966x: fix kernel oops on ioctl when I/F is down
+         3eb05491b2a32a3dae68a8b4bc32542d60ec8fb7 arm64: dts: mt8192: Add the mmsys reset bit to reset the dsi0
+         01144e2e8d5f4f1b3ade9bdd2db1bc2b64138c5d dt-bindings: arm: mediatek: Add mt8195 pericfg compatible
          
