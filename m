@@ -1,53 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0172492723547234557=="
+Content-Type: multipart/mixed; boundary="===============8161354724451327231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 29 Mar 2022 15:56:39 -0000
-Message-Id: <164856939931.31251.8097805509628667448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 29 Mar 2022 15:58:57 -0000
+Message-Id: <164856953799.32054.13943009116289833862@gitolite.kernel.org>
 
---===============0172492723547234557==
+--===============8161354724451327231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1930a6e739c4b4a654a69164dbe39e554d228915
-    new: 5efabdadcf4a5b9a37847ecc85ba71cf2eff0fcf
-    log: revlist-1930a6e739c4-5efabdadcf4a.txt
+  - ref: refs/heads/staging-testing
+    old: 51aeb9762ffdfd2ad7ca26d37cf6e363fa27ff42
+    new: 05e3749787538fcc776575aa80ebaa58452645ea
+    log: |
+         5e44489de3f8091e8450d26299a21d347674b795 staging: rtl8712: Use completions for signaling
+         45d26492488ca13097d9e0ed9e55f76d641570be staging: vt6656: Fix multiple blank lines warning
+         2ecfc310f3d6c35e1dd03ae2ff89c669766d19fd staging: greybus: codecs: use dedicated list iterator variable
+         70663be017a7fd14c8a77c891dafb765574e2b33 staging: greybus: codecs: fix type confusion of list iterator variable
+         05e3749787538fcc776575aa80ebaa58452645ea staging: r8188eu: remove local BIT macro
+         
 
---===============0172492723547234557==
+--===============8161354724451327231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1930a6e739c4-5efabdadcf4a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dfcf2e017f5bb928094952d5d56d3566d3d07ba7 swiotlb: do not zero buffer in set_memory_decrypted()
-35265899acef135225e946b883fb07acba1d31a2 swiotlb: simplify debugfs setup
-c0a4191c27a12d3175283fa33f16db20e91008fd swiotlb: tidy up includes
-404f9373c4e5c943ed8a5e71c8dcfef9eddd54ab swiotlb: simplify array allocation
-e62c17f0455a74b182ce6373e2777817256afaa1 MAINTAINERS: update maintainer list of DMA MAPPING BENCHMARK
-06cc5cf16591c3b1d63af2bbc9d33a66419ced98 alpha: Remove usage of the deprecated "pci-dma-compat.h" API
-ffecba83be9c7ced229b9f1d75643d5a49f820c4 agp/intel: Remove usage of the deprecated "pci-dma-compat.h" API
-0fb3436b4b36cf69f4544385aa2bb8c5a4913509 sparc: Remove usage of the deprecated "pci-dma-compat.h" API
-8c155674d9757be855547dc4eb6bcb82d52482e7 rapidio/tsi721: Remove usage of the deprecated "pci-dma-compat.h" API
-fba09099c6e506608e05e08ac717bf34501f821b media: v4l2-pci-skeleton: Remove usage of the deprecated "pci-dma-compat.h" API
-f5ff79fddf0efecca538046b5cc20fb3ded2ec4f dma-mapping: remove CONFIG_DMA_REMAP
-80e4390981618e290616dbd06ea190d4576f219d dma-debug: fix return value of __setup handlers
-8ddde07a3d285a0f3cec14924446608320fdc013 dma-mapping: benchmark: extract a common header file for map_benchmark definition
-dcb09a08d8d4052f8e8567ae2baddfbaf1d9c11f Revert "dt-bindings: display: mediatek: add ethdr definition for mt8195"
-ab487888d5dfb37b71a256114e8fa6fafdbb3163 dt-bindings: display: mediatek, mutex: Fix mediatek, gce-events type
-10f17b2054a7ab3b86a8d333d99146fff3e9c728 dt-bindings: display: mediatek, ovl: Fix 'iommu' required property typo
-bff4e302a6679b0df8ac950979faabbc8f3ae961 dt-bindings: display: mediatek: Fix examples on new bindings
-09a2fb41ba67dcb45f259efd1d2baafe4a6be1a7 dt-bindings: net: snps,dwmac: modify available values of PBL
-a50e431bbc6fc5768ed26be5fab5b149b7b8b1fe dt-bindings: media: mediatek,vcodec: Fix addressing cell sizes
-22a41e9a5044bf3519f05b4a00e99af34bfeb40c dt-bindings: Fix missing '/schemas' in $ref paths
-37fcacb50be7071d146144a6c5c5bf0194b9a1cf phy: PHY_FSL_LYNX_28G should depend on ARCH_LAYERSCAPE
-9ae2a143081fa8fba5042431007b33d9a855b7a2 Merge tag 'dma-mapping-5.18' of git://git.infradead.org/users/hch/dma-mapping
-5efabdadcf4a5b9a37847ecc85ba71cf2eff0fcf Merge tag 'devicetree-fixes-for-5.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648569535 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1648569533-88d5aa34671226e0e6f078578f6a327be40123d6
 
---===============0172492723547234557==--
+51aeb9762ffdfd2ad7ca26d37cf6e363fa27ff42 05e3749787538fcc776575aa80ebaa58452645ea refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJDLL8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+23sP/AxZ1vS18QMVY9Tes6/U
+mQlStN1NxSgfT+iexktoLapdfKQf2xiKyDntQcCH9M7TUJMB+7QpP3AcxRPYE9sx
+2YKfivxuVbEpw8YcVqlr5BwJFo1BlM6SSq99kcQIN6+UOiHPHmqIeNO5n5CwV50x
+Y1bzSTinaL0XdjKZy9Tuc261OxcLw3uIhPfwcfS8p8FmuDJ1dG4FeubaUHMhOeWS
+hP/6/YAQhiT915rrnQ1pYzYt58AuAKX99Wu3isW8nSd+8F/8KbSjLSGHnIdL+uMX
+aRsJSi0uv68ggaEIKhefCO8Dwzmp8LvOaxtmdFbnHlqVHReRAN0Jhk0MuqQLCCmx
+QdFWyCSfXd3T/XFBYob/ps02RI7bSw27mU+NYecI1+SeWC19YoF19U0aEiLGGnGj
+xivSd/cYISJN/NrnLMmGMp0dP2Lw94hlWi9f74+ZecAZsknhWXZThEij1bFVwVKD
+YwHu3FPB9bH+n0VBTRgyVtDj1AS/z+g6lZn3/vDNKQ/x8ZrIMsrHfepe6tpxg90U
+H3SesHimHPP+7zswFEd5Oi8jWQQfrx32rGyRonY1CG+KH7AtAPTFhe+h4IPzz9CY
+dLIZWISKNGW0fA9Uoloqe2YXTvKrFS5Aoanfdf0d6IkIB0GtTgAfV9IYbxnsLXaA
+//wQdZlSYX7uc5WEqYdEuYak
+=0xzn
+-----END PGP SIGNATURE-----
+
+--===============8161354724451327231==--
