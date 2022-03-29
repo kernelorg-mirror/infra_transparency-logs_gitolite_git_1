@@ -1,58 +1,127 @@
-Content-Type: multipart/mixed; boundary="===============3990740824464038223=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 29 Mar 2022 14:52:25 -0000
-Message-Id: <164856554526.20752.14220904816258391612@gitolite.kernel.org>
-
---===============3990740824464038223==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 29 Mar 2022 15:42:03 -0000
+Message-Id: <164856852364.21221.308287024579038250@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/staging-testing
-    old: 1930a6e739c4b4a654a69164dbe39e554d228915
-    new: 51aeb9762ffdfd2ad7ca26d37cf6e363fa27ff42
+  - ref: refs/heads/coverity_scan
+    old: e4ed545cbfbfb8992550ceed7edd60d3643f7004
+    new: bdee8aeb0eb0d2eb067a4c239bb1ec7ad3c0854f
     log: |
-         20b4b3fb383b3a499b8b47daaf1d6325faa9cfe2 staging: r8188eu: fix suspect code indent for conditional statements
-         b53eaf4934a91f0df15fbb7bc44f1fbc515a734b staging: rtl8723bs: Remove redundant else branches.
-         51aeb9762ffdfd2ad7ca26d37cf6e363fa27ff42 staging: rtl8723bs: Change rtw_ndev_notifier_call message to dbg
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         bdee8aeb0eb0d2eb067a4c239bb1ec7ad3c0854f Fix a leak in error path.
          
-
---===============3990740824464038223==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648565543 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1648565541-942359950b2eafa302ee023cc842b5ed82cde8f1
-
-1930a6e739c4b4a654a69164dbe39e554d228915 51aeb9762ffdfd2ad7ca26d37cf6e363fa27ff42 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJDHScbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Oj8P/3NfeZgxZbZ4Uwnrolf7
-+ElvSnseU//wcw+2ZY+BmS86JNMTKE1bqbcMsBEuNkCfc0bqxjRVX1FpVjh0lYZ9
-+TDgxitWa7RE+nsivrqYwWxwUMIZ8JO46THvlZ9os97qVhtKN/7D0Y4Il4D5H/us
-3ck+3h4loDHsFNMLnK6qXgkmq00EoaqeNk14J8hfCD8u3gA0P+DWn/8ip2rbRC3R
-OKKdq1XEgFAXJTtQ55F1ZbayQzOG+Ba0PLUctn88vbvatmT6bgm2gEZNgONXndhK
-nxu9oDVSexKKUL8SuLmhdAHahWB5GJad4dYTFSSz0XI9tArKC7w5dQvW2UyYZIUB
-iRLO12Re2z8RgMoixX5X38t3YTdTBNGkV/kkkky7kjfR/CnAkLSi2ugqcumfBsRI
-69cT9LD2MLLkWCBF54CMPy0MkUKqH+CrrtAEqIZVX2DuufHlfAK0rtHaqufVZNmw
-qXbXQBS+1ukGcdHENxH+3ruNLVCytHjPgyksHMmeIvNEe90x08n0oKLS7c7wouzc
-rl8SWM7N0EdVdXag7M35X+Uc1+HL1XD0SOouCP6RrFqij+4tHkd6RUv4Bhu0u+DV
-am7alDGbCMvkJKeKeUn+RgTpUkt2UPQ191qrqr/6hHUclWlHgsgs5iem4CLJEYiL
-oNsCCHbcDHoju6qyHQGzo1c2
-=14KG
------END PGP SIGNATURE-----
-
---===============3990740824464038223==--
+  - ref: refs/heads/fix-tests
+    old: 51436104ece6e0b02d78b309607a7c7858570dac
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: e4ed545cbfbfb8992550ceed7edd60d3643f7004
+    new: 1116289de4a790dc1c74230fc1dc46ddc72b04b5
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         c4c1ca2224f882b6a7a757906e049b28783ba2c6 Use batch mode for integrity resize test.
+         1595fcf4793c4e9300b20087afe94d2ee4b541a5 Do not run keyed integrity resize tests for older kernel.
+         1116289de4a790dc1c74230fc1dc46ddc72b04b5 Try to load dm-integrity in api-test.
+         
+  - ref: refs/heads/mk
+    old: 4f039b163c9111a4ba000e91a138c92d387c41af
+    new: f7811c667bc0e6d7c5e245be8dd85e96708fa592
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         63f2e984a6f897394cc351f47984e6c09f9e67fc Replace OPT_MASTER_KEY_FILE_ID with OPT_VOLUME_KEY_FILE_ID.
+         b2ac6b708daebf37bf0ba3f9e8c16e38037b6bb9 Add aliases for --volume-key-file and --dump-volume-key-file.
+         0df790064fcaedaab60b8061488fe14ea901563a Replace name master with volume key.
+         1c81f50705f734813941a20ee9f86cc36a964b83 Replace mk_ with vk_ name prefix.
+         45faf2f0cca9fb0aab4ca851e22962f1a65a97c1 Replace master on a few more places.
+         f7811c667bc0e6d7c5e245be8dd85e96708fa592 Use volume key in FAQ.
+         
+  - ref: refs/merge-requests/264/merge
+    old: 1e61517da2b7869210495c1a9e7b43deb9c9d23b
+    new: 83d425a0afb7636ad833bfe4192135fb6a51e9c0
+    log: |
+         e4ed545cbfbfb8992550ceed7edd60d3643f7004 Remove debug line from api-test.
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         83d425a0afb7636ad833bfe4192135fb6a51e9c0 Merge branch 'minor-documentation-improvements' into 'master'
+         
+  - ref: refs/merge-requests/302/merge
+    old: 4654926332af52596399bd582e7c0b159ad1aef9
+    new: 094ccb1a9974b734fe7f72cd8ee4c0dd92750c22
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         094ccb1a9974b734fe7f72cd8ee4c0dd92750c22 Merge branch 'add-blkzeroout-support' into 'master'
+         
+  - ref: refs/merge-requests/303/head
+    old: 4f039b163c9111a4ba000e91a138c92d387c41af
+    new: f7811c667bc0e6d7c5e245be8dd85e96708fa592
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         63f2e984a6f897394cc351f47984e6c09f9e67fc Replace OPT_MASTER_KEY_FILE_ID with OPT_VOLUME_KEY_FILE_ID.
+         b2ac6b708daebf37bf0ba3f9e8c16e38037b6bb9 Add aliases for --volume-key-file and --dump-volume-key-file.
+         0df790064fcaedaab60b8061488fe14ea901563a Replace name master with volume key.
+         1c81f50705f734813941a20ee9f86cc36a964b83 Replace mk_ with vk_ name prefix.
+         45faf2f0cca9fb0aab4ca851e22962f1a65a97c1 Replace master on a few more places.
+         f7811c667bc0e6d7c5e245be8dd85e96708fa592 Use volume key in FAQ.
+         
+  - ref: refs/merge-requests/303/merge
+    old: d25466de2a4dc9c23676087d8e79c2aa20cfc614
+    new: 11410d93f3ab91e5d0dffeaacbc496780b25cd63
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         63f2e984a6f897394cc351f47984e6c09f9e67fc Replace OPT_MASTER_KEY_FILE_ID with OPT_VOLUME_KEY_FILE_ID.
+         b2ac6b708daebf37bf0ba3f9e8c16e38037b6bb9 Add aliases for --volume-key-file and --dump-volume-key-file.
+         0df790064fcaedaab60b8061488fe14ea901563a Replace name master with volume key.
+         1c81f50705f734813941a20ee9f86cc36a964b83 Replace mk_ with vk_ name prefix.
+         45faf2f0cca9fb0aab4ca851e22962f1a65a97c1 Replace master on a few more places.
+         f7811c667bc0e6d7c5e245be8dd85e96708fa592 Use volume key in FAQ.
+         11410d93f3ab91e5d0dffeaacbc496780b25cd63 Merge branch 'mk' into 'master'
+         
+  - ref: refs/merge-requests/304/head
+    old: 51436104ece6e0b02d78b309607a7c7858570dac
+    new: 1116289de4a790dc1c74230fc1dc46ddc72b04b5
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         c4c1ca2224f882b6a7a757906e049b28783ba2c6 Use batch mode for integrity resize test.
+         1595fcf4793c4e9300b20087afe94d2ee4b541a5 Do not run keyed integrity resize tests for older kernel.
+         1116289de4a790dc1c74230fc1dc46ddc72b04b5 Try to load dm-integrity in api-test.
+         
+  - ref: refs/merge-requests/304/merge
+    old: 1da683a1ada466eb100c2be16b882e975a47657e
+    new: 847feb58ef408e84ff0ef97edb91bbd1f35b8971
+    log: |
+         e2a5af9e640614cc3d3385c3a7135576fdde0ee9 Add new argument type CRYPT_ARG_ALIAS.
+         2b42968e929e17509e7c9406002201f3698352e2 Port cryptsetup --new option to CRYPT_ARG_ALIAS type.
+         c4c1ca2224f882b6a7a757906e049b28783ba2c6 Use batch mode for integrity resize test.
+         1595fcf4793c4e9300b20087afe94d2ee4b541a5 Do not run keyed integrity resize tests for older kernel.
+         1116289de4a790dc1c74230fc1dc46ddc72b04b5 Try to load dm-integrity in api-test.
+         847feb58ef408e84ff0ef97edb91bbd1f35b8971 Merge branch 'fix-tests' into 'master'
+         
+  - ref: refs/heads/fix-leak
+    old: 0000000000000000000000000000000000000000
+    new: 650c7e8b67e18162a2b157a706694b1b71041252
+  - ref: refs/merge-requests/305/head
+    old: 0000000000000000000000000000000000000000
+    new: 2b42968e929e17509e7c9406002201f3698352e2
+  - ref: refs/merge-requests/305/merge
+    old: 0000000000000000000000000000000000000000
+    new: e8d09ef68210ca8cd50dac9243b4107922d8227e
+  - ref: refs/merge-requests/306/head
+    old: 0000000000000000000000000000000000000000
+    new: 650c7e8b67e18162a2b157a706694b1b71041252
+  - ref: refs/merge-requests/306/merge
+    old: 0000000000000000000000000000000000000000
+    new: 57e83e67bc6909f16fddb5eeb9b47c4a238c416c
