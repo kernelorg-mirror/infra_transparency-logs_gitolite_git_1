@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0972681244931150483=="
+Content-Type: multipart/mixed; boundary="===============2526153088452355258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 29 Mar 2022 01:28:40 -0000
-Message-Id: <164851732073.4747.16611251980989141652@gitolite.kernel.org>
+Date: Tue, 29 Mar 2022 01:28:46 -0000
+Message-Id: <164851732686.4868.3543835833577616090@gitolite.kernel.org>
 
---===============0972681244931150483==
+--===============2526153088452355258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 169e77764adc041b1dacba84ea90516a895d43b2
     new: d717e4cae0fe77e10a27e8545a967b8c379873ac
     log: revlist-169e77764adc-d717e4cae0fe.txt
 
---===============0972681244931150483==
+--===============2526153088452355258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cffb2b72d3ed47f5093d128bd44d9ce136b6b5af Merge tag 'kgdb-5.18-rc1' of git://git.
 20695e9a9fd39103d1b0669470ae74030b7aa196 Revert "selftests: net: Add tls config dependency for tls selftests"
 d717e4cae0fe77e10a27e8545a967b8c379873ac Merge tag 'net-5.18-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0972681244931150483==--
+--===============2526153088452355258==--
