@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 29 Mar 2022 22:29:17 -0000
-Message-Id: <164859295792.26501.15551765140421365527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Tue, 29 Mar 2022 22:37:11 -0000
+Message-Id: <164859343151.31889.5204572357235877677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: bc35807c2fc8b900930c6bfe3b77e49fb2b051f0
-    new: cd63b85f857d87a3e4699b6ee5cc43b5dfb8682e
+    old: 082d4435d990daeb4991fea9a4c35ff36f1018c8
+    new: 8ee71fa3db59971795a6642dfbcf04a9ff2c5fdf
     log: |
-         cd63b85f857d87a3e4699b6ee5cc43b5dfb8682e test/open-direct-link: don't test if CQE_SKIP isn't available
+         8ee71fa3db59971795a6642dfbcf04a9ff2c5fdf Tue Mar 29 10:36:35 PM UTC 2022
          
