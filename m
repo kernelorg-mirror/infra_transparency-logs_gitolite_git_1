@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 29 Mar 2022 22:15:36 -0000
-Message-Id: <164859213634.18888.17969557230684883038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 29 Mar 2022 22:17:15 -0000
+Message-Id: <164859223550.19506.7303218997435927590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 13776ebb9964b2ea66ffb8c824c0762eed6da784
-    new: 1c24a186398f59c80adb9a967486b65c1423a59d
+    old: c66ea037406887aa14be9865cb352fd95a76dad3
+    new: bc35807c2fc8b900930c6bfe3b77e49fb2b051f0
     log: |
-         1c24a186398f59c80adb9a967486b65c1423a59d fs: fd tables have to be multiples of BITS_PER_LONG
+         bc35807c2fc8b900930c6bfe3b77e49fb2b051f0 test/open-direct-link: add test case for linked open+read+close
          
