@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Tue, 29 Mar 2022 12:30:55 -0000
-Message-Id: <164855705541.25449.3800513195494359385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 29 Mar 2022 12:37:23 -0000
+Message-Id: <164855744352.28918.1730508243286936712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: a57d3fdce796f1bb516c74db95d016bb6db170c1
-    new: 5e644771eb91e91dd0fa32f4b51f90c44853a2b1
+    old: 7a3a27b6a384f51b67f7e7086f47cf552fa70dc4
+    new: a339505f1dd3ea0d2626abdcfd44d6ddd56b41e3
     log: |
-         61850e56907c0d3d41be27bd59f573984c8cf00d Handle finished jobs when using status-interval
-         5e644771eb91e91dd0fa32f4b51f90c44853a2b1 Merge branch 'status-interval-finished-jobs' of https://github.com/mmkayPL/fio
+         cbdf65e0484af93d3966f0f04eeeb7a5a518d673 Add test for multiple concurrent accepts
+         a339505f1dd3ea0d2626abdcfd44d6ddd56b41e3 man/io_uring_prep_cancel.3: add io_uring_prep_poll_remove(3) to see also
          
