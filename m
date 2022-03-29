@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 29 Mar 2022 01:50:00 -0000
-Message-Id: <164851860014.19377.9596074911432825756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 29 Mar 2022 01:53:40 -0000
+Message-Id: <164851882042.22026.5897638531590090772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/tags/v4.19.235-cip70-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 824e93b73118864a6dcb0dca194a5fac93928367
+  - ref: refs/heads/testing/kspp-stringop-overflow
+    old: 7dc9148b23b386bbc3f3759787bb957322ce7a2a
+    new: adefa55acd84ecb24949c9b6581afa3e3395bccb
+    log: |
+         adefa55acd84ecb24949c9b6581afa3e3395bccb mm/pgtable: Fix Wstringop-overflow warnings in pgd_alloc()
+         
