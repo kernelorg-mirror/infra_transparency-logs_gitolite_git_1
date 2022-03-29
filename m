@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 29 Mar 2022 21:48:19 -0000
-Message-Id: <164859049954.32263.12289102600342311840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 29 Mar 2022 21:50:02 -0000
+Message-Id: <164859060298.1527.5932904473130862517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dm-5.19
-    old: 80b47fd6638ce53f0c4382d818c6a593dcfa03f9
-    new: 41a2c7829baa330e56ffa11fc5b20cc351ac8974
+  - ref: refs/heads/for-5.18/io_uring
+    old: 6219eb7c1895e79ddc696ef4d8637159d1e14491
+    new: 554c953e29fe1baaf1d230239b7d0f0081fb3723
     log: |
-         e766e4376ad4660b45b95d57caac8c964424c09f dm: factor out dm_io_wait_for_submission
-         c6d04f7249d5c60ac9ebaa468b84be8eb0c59031 dm: factor out dm_io_set_error and __dm_io_dec_pending
-         6a58147014f7fca1552c909b50534b2df2a925e3 dm: add DM_IO_REFFED and optimize out refcounting for normal IO
-         14e8dafc7cb8c6d8e69aae4df24b94a950a67247 dm: use state machine for bio polling completion
-         78cd46e9b3692cdb6c0974e077feafc3f517e519 dm: push error handling down to __split_and_process_bio
-         6779e263b6dbb92214185a1fc47ebaf74f14bce9 dm: push splitting down into __split_and_process_bio
-         6124b7a63c1905b8c7150040dcf5c4084b198c3a dm: do not account REQ_PREFLUSH bios
-         41a2c7829baa330e56ffa11fc5b20cc351ac8974 dm: conditionally enable branching for less used features
+         212a168ff48df97ec0ad8ac3fa0bd31cd2cf7f21 io_uring: move read/write file prep state into actual opcode handler
+         554c953e29fe1baaf1d230239b7d0f0081fb3723 io_uring: defer file assignment for links
          
