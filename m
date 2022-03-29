@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0056567260545954856=="
+Content-Type: multipart/mixed; boundary="===============7431698755749865707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Tue, 29 Mar 2022 18:43:54 -0000
-Message-Id: <164857943464.8768.16629944880983402816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 29 Mar 2022 18:44:03 -0000
+Message-Id: <164857944321.8912.10785184789829557215@gitolite.kernel.org>
 
---===============0056567260545954856==
+--===============7431698755749865707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 5efabdadcf4a5b9a37847ecc85ba71cf2eff0fcf
     log: revlist-ae085d7f9365-5efabdadcf4a.txt
 
---===============0056567260545954856==
+--===============7431698755749865707==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a50e431bbc6fc5768ed26be5fab5b149b7b8b1fe dt-bindings: media: mediatek,vcodec: Fi
 9ae2a143081fa8fba5042431007b33d9a855b7a2 Merge tag 'dma-mapping-5.18' of git://git.infradead.org/users/hch/dma-mapping
 5efabdadcf4a5b9a37847ecc85ba71cf2eff0fcf Merge tag 'devicetree-fixes-for-5.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============0056567260545954856==--
+--===============7431698755749865707==--
