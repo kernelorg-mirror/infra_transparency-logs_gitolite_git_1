@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Tue, 29 Mar 2022 22:37:11 -0000
-Message-Id: <164859343151.31889.5204572357235877677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 29 Mar 2022 22:38:40 -0000
+Message-Id: <164859352039.32364.13409330414118926627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 082d4435d990daeb4991fea9a4c35ff36f1018c8
-    new: 8ee71fa3db59971795a6642dfbcf04a9ff2c5fdf
+    old: cd63b85f857d87a3e4699b6ee5cc43b5dfb8682e
+    new: 000dd873f4da9b6052792c93d4d0978bb4ea3252
     log: |
-         8ee71fa3db59971795a6642dfbcf04a9ff2c5fdf Tue Mar 29 10:36:35 PM UTC 2022
+         000dd873f4da9b6052792c93d4d0978bb4ea3252 test/open-direct-link: add IOSQE_ASYNC
          
