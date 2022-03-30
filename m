@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4944389258154577740=="
+Content-Type: multipart/mixed; boundary="===============7438607125876374371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Mar 2022 17:11:11 -0000
-Message-Id: <164866027147.25458.11466353016450221609@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 17:11:12 -0000
+Message-Id: <164866027201.25510.5334951257590125590@gitolite.kernel.org>
 
---===============4944389258154577740==
+--===============7438607125876374371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 2845ff3fd34499603249676495c524a35e795b45
-    new: b552dad8e31df606472643e9cb2b8d5cd81cec9c
-    log: revlist-2845ff3fd344-b552dad8e31d.txt
+  - ref: refs/heads/linux-5.17.y
+    old: 59db887d13b3a4df2713c2a866fa2767e0dea569
+    new: a4a581be34e060c13976688294cfca1d19570366
+    log: revlist-59db887d13b3-a4a581be34e0.txt
 
---===============4944389258154577740==
+--===============7438607125876374371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -30,48 +30,45 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648660270 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1648660263-7bc835e8c4077f3a6664032ec3674690dee492f1
+nonce 1648660262-7322dd1e941aeba781ce777fe44d2682f0764a1d
 
-2845ff3fd34499603249676495c524a35e795b45 b552dad8e31df606472643e9cb2b8d5cd81cec9c refs/heads/linux-5.4.y
+59db887d13b3a4df2713c2a866fa2767e0dea569 a4a581be34e060c13976688294cfca1d19570366 refs/heads/linux-5.17.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEjy4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XVUQAKlrGUswzj31qx6QBMU/
-ehArQALD3HSRAhA8q5KRozXgQ9KHUlqj6a2wVmiZx0BZDmw8gEB2qXST1FwrTmD3
-+vZ2ZqE72c3rBtu92PQSb2XZAIsuJKub49m63aXFaqJZNsUsebdNqZoSdfJneu2q
-ZLj9k8PNxaTOqlnDc90HBi82/bO/iKT+PSuus/jaI3FoLypBARHrj4dG7qLEQB7H
-LrHOwmgeQ+rxldD7ju/w40bwPjgDIjTm8geELWt6psLTxNILRr6az7x9fIYROa0Y
-DXxWGLFmdo7EeiqLFE8vhYQT2b0/goqnaD79OOtbEx6OkPq+M1z3kXQWM7bcbJSa
-qlEx5PfDlqCxqC0SEjN84eE7v0SR6/YFvU5vGRbok8GCDve82dICNJEatCCYuqn9
-WqzTiUysSM+65r5g8ObwHrZU0xkiYFIP5e193EKe1ld7wYpo0FgonRbxPD2dre9w
-JAeM1Qiua/ni0srTqGpZPYfB8Mo3LXKw9uNE1Ct0ml23y50HDiOlPnxs8qO118le
-sQ7Inzbo+E6o199aULO41uA4tPVZ54qR3rSKlQ9rRNeInByB5NG7voJSUvMN5Kis
-na5fWoLOXOy9G01ZCf4mvJaiPJkkIclpSwsuTA3QsLneAnBIqx/86NgMHHbOGFTA
-Tf5keGZlC1TbOhvquedcvNsr
-=FPKF
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CPUP/2VjfQEpChZBjH7KDep9
+9ZGil6QvlS1eQqLbgwBPE+gpwuPsnj8SPeR+QYqlMuN11KY/q3OZC2xISezEVsk1
+5WmYNGf6xjuyIYm6Zk6426XeUns5mans4OiWE9jGsjF4f2CjKfTazwjlSDmgzOkr
+pbLVzgIfaLtlnpyyek9aECuAx3uU1PsTOMovWfi5Y8qpbYWdR/ocHFrONzhqtE20
+K6YXoEFTAg1tXe2x74E1edn9RWOJPyW4W7mPkHC3k2la6O64EtkD9nvs5qjKwXVy
+nXfk8yGrkU6OHWZCR47fV5NbnWolqOSTgoBrayrU0smTWtr6f7i8dB8hQLqKARtj
+g4N2sQWLpKHWVHED4gmf2akhfGsc0/LHzuTK8cSyhL91YwnfWFj5+9xFPeaEFnPY
+cmo6PKxK6zlJ4GFaLNAZGAsXpkRu7ddAsLP9S4AiRdwUgt04UT2uDenY2KI99ydC
+aaMjZZdPXN8Msnm9VSTy/xKXF2RWuCJhwdpAbj0pHYnElm7GLGO7msLzTT7V1dVX
+aMcrq0CkAe79hbqwNgheFLkw42x8ZJ8lcYwYmHfJReoy3VSRzuYApE1oGSPp//H6
+gUMtLob55D7juFZnev95QwGkfK1/i9C99qn6MG6YNmoUQKX8Rk3G6RwSSQyYRtoF
+gcaaYdEYIGOSQBKXSE5aOOtZ
+=MtEC
 -----END PGP SIGNATURE-----
 
---===============4944389258154577740==
+--===============7438607125876374371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2845ff3fd344-b552dad8e31d.txt
+Content-Disposition: attachment; filename=revlist-59db887d13b3-a4a581be34e0.txt
 
-fa79b10975a91260e335897160bf46ae4e0fbf9b swiotlb: fix info leak with DMA_FROM_DEVICE
-6c78e782e5ad688618d09577e9d16a99851b8e43 USB: serial: pl2303: add IBM device IDs
-f2a1dece6cbe05f1510a8851cac17a69cba2acb4 USB: serial: simple: add Nokia phone driver
-800797ff05b0863c4820631ef3fd07bb85b10332 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-61b90f8a7e7ffb3222e295bdccff93e53983e212 netdevice: add the case if dev is NULL
-456822d6a1d6471e6a6e135065326020d414b816 HID: logitech-dj: add new lightspeed receiver id
-55562ccec54fbae57fbadd48b14b1017d62461b8 xfrm: fix tunnel model fragmentation behavior
-42a7c11044e49bb13d4f009ddcb4b6615e26350d virtio_console: break out of buf poll on remove
-8bdcc0ec73ee0c71975f922cd3e0e534035d648d ethernet: sun: Free the coherent when failing in probing
-9ff3afd74391d7121c6087321d87a4035eaa1d6b spi: Fix invalid sgs value
-71d0a86916004d7fe63903a7bbc828948edabb6b net:mcf8390: Use platform_get_irq() to get the interrupt
-4e0c1df659929e622eceb6c552264cd76302f5aa spi: Fix erroneous sgs value with min_t()
-6fb4104a7408bb6ca3aba07007a244b8091adffa af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-0cde07573c20c32fb023f9efe5dd1d8446804a37 net: dsa: microchip: add spi_device_id tables
-bb0ebc2d09a40bb6d359b4deb42cd812c0f31785 iommu/iova: Improve 32-bit free space estimate
-b552dad8e31df606472643e9cb2b8d5cd81cec9c Linux 5.4.189-rc1
+b01507094a476b38d6d4cf10ce54c429f4744060 Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
+a84f59d417a6ca9043cfeae2c85596aeabb71c12 USB: serial: pl2303: add IBM device IDs
+e2afdddf031431c4cf96ed65c098d663a9d9ebd7 dt-bindings: usb: hcd: correct usb-device path
+cfcd4191d17fb7723b5e9d9c76580c4183a441c3 USB: serial: pl2303: fix GS type detection
+04b5413703e5f0c81b459157d8247f826c6a0b0e USB: serial: simple: add Nokia phone driver
+e1a7c3d95224857474230782ea680b6c2c74dc46 mm: kfence: fix missing objcg housekeeping for SLAB
+e56ef78c0dbc1057f3dfb683f5f828a831975e1a locking/lockdep: Avoid potential access of invalid memory in lock_class
+f09d15c97e6d86ff7456732b00723a46b6e32526 drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
+9863c3f51ed7eb9fcd3bfd83a33b190eae293179 drm/amdgpu: only check for _PR3 on dGPUs
+82adc3cd18555869c6c02dfc204ca2070ffa9d16 iommu/iova: Improve 32-bit free space estimate
+09d9db2e68c7e875e3b874bf1e5c4d17583bddfe block: flush plug based on hardware and software queue order
+24db660933adfca692688f110633051b4a239e81 block: ensure plug merging checks the correct queue at least once
+a4a581be34e060c13976688294cfca1d19570366 Linux 5.17.2-rc1
 
---===============4944389258154577740==--
+--===============7438607125876374371==--
