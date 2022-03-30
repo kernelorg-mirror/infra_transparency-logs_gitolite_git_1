@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 30 Mar 2022 23:46:30 -0000
-Message-Id: <164868399018.24953.5847207143559569922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 30 Mar 2022 23:50:02 -0000
+Message-Id: <164868420297.27583.9033088211229773374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev.2022.03.29b
-    old: 0000000000000000000000000000000000000000
-    new: b9209c6b5fb310b6f3297617ad7aeabcd3de1d58
+  - ref: refs/heads/sock-nolock
+    old: c85a178eca38f97674c97e3d9e5cc115aa750cab
+    new: c6492b841da274eadf23b7511df5aa4958db26d2
+    log: |
+         c6492b841da274eadf23b7511df5aa4958db26d2 io_uring: mark accept direct socket as no-lock
+         
