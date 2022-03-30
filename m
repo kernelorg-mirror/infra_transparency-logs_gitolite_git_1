@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3170350692519830738=="
+Content-Type: multipart/mixed; boundary="===============6162583148572245574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Mar 2022 17:11:06 -0000
-Message-Id: <164866026667.25213.9849231275680646491@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 17:11:10 -0000
+Message-Id: <164866027059.25282.5916340545053963930@gitolite.kernel.org>
 
---===============3170350692519830738==
+--===============6162583148572245574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,51 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.16.y
-    old: 9fec77b5f094c1bbd0432c3f98d20cca8fc07321
-    new: 64fb031e20993afa055417d9eaab2a6ab0d8e327
-    log: revlist-9fec77b5f094-64fb031e2099.txt
+  - ref: refs/heads/linux-4.14.y
+    old: af1af6ebca0e28a97e5f802b9da695678fcd226a
+    new: ba8aa76a51779f8aa7c3da1f110c38f73fd4359c
+    log: |
+         06302d57bc15e55b6c95a421cf7ed8c1d987ca86 USB: serial: pl2303: add IBM device IDs
+         7818d62cf13b07799730484111a8b5d00c8c298d USB: serial: simple: add Nokia phone driver
+         5166fd0aa497d917b7273a87de6d25b1494200f7 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
+         4234e7f91fb731d7baececfa563e2b16fc1f3108 netdevice: add the case if dev is NULL
+         1fc29636b82a46985ccbbceb49b5c6884d32cdb8 virtio_console: break out of buf poll on remove
+         e274758c99b36372bf61f2b8e4f9a587ed1024c0 ethernet: sun: Free the coherent when failing in probing
+         2dba5ec67957937df2c39051315fd3f323fd5eae spi: Fix invalid sgs value
+         680a8960885268c567c844e4c8de970dfb1627dc spi: Fix erroneous sgs value with min_t()
+         11797627f21de0e9f3555615683eee8ff358334a af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
+         a791042ed8c215c4faa3c791110a6e312706d4f1 fuse: fix pipe buffer lifetime for direct_io
+         ba8aa76a51779f8aa7c3da1f110c38f73fd4359c Linux 4.14.275-rc1
+         
 
---===============3170350692519830738==
+--===============6162583148572245574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648660265 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648660269 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1648660262-7322dd1e941aeba781ce777fe44d2682f0764a1d
 
-9fec77b5f094c1bbd0432c3f98d20cca8fc07321 64fb031e20993afa055417d9eaab2a6ab0d8e327 refs/heads/linux-5.16.y
+af1af6ebca0e28a97e5f802b9da695678fcd226a ba8aa76a51779f8aa7c3da1f110c38f73fd4359c refs/heads/linux-4.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEjykbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C94QAL6YAXR5gRNVBde+cF2t
-02yIADJVRSOH1IChqp5IYlGYDjaip4n9Wq0fpbdGTQGYumejk/Bw94sweua0UWYS
-CaIPvhQjCzHn71PcSdMe1UTAZqTSfj+ho+a+rMusljFp73MExdd35OroEqA53156
-tc+Vwd5XncuABYRVUHvHPv66/q87v4PRuz/15VgDUAW7CNO5agJgKmGJf/H5fDIs
-12CYf8oZ6N/7uQLVLJC424pXoE02ASC9zdhyT2mY0eoCyiWxmvahQtOmKoUGbiFO
-V6nhZnhieAAwm/7frIqgUYlOI3dgkOCxWUiT56YjCu8q5HhOxI2IR8UwrQ50w1p/
-9ZGCZWY24+5SReAwG3QFWxEtULpVqvh39SS5LKhHawYQoy53fgAt4EyEtIRIaaUP
-tTpT1UlBE5WL8WGtVFiR4n6GNCmFcGnr3VLeMqbv13YlxRQLvOjww6BdU7vAvdht
-A+2NZ98Jrmqm7l1wo3eRRrB61cBHdjbr23HGGZ4gLD5lQZon5G3TW4CikjDrfR4F
-MlCmDFRQpmiDS6HuOjTdm0Eltk/1qFnW6qTKzxOOcvkm47GyWB5N6ntrMn2rWsRh
-/E/UP6PEIAxpxWL1U0c2cg5sI287ELai08+2Upq9iRIhw/xLcyBxgLOlyDZGede2
-lDaZG5KIcEw3L8C0Yn/7UAeJ
-=nOlF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEjy0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjgQALIvrDG+QS70YM9NV7ih
+BEAnQTzW3P56ISk9COmEO7kQHf+KKcE4GPoNzp+jMLgMcogzXD3HP+nJcuMQ6xsi
+8lOmhh6C4urCI5Ke+8ADq5/0GL1pZfNTbAIDsCVhwk6O20k8H1r9Am2LJh3wTbmc
+OaFOhcKe7n5ZH6njdqu6neRIyKj6jYb5e88XRnwSNU83KiHCjqwBTqgVcV2lEmNy
+TlM8fQV9fhcsvofr0li0w41pHP4TWYwrVHF34e4yScjJY6ye3+61bhgi2bJDQC+D
+Opo3DQNIgsARTHz3GqUybQncze8estP5gRqgO7FU4/gbHR2z1eCHK0Hf1GsJ4DtB
+hs4gIqdAKB6rmLhydaWweMOz/9I5xcZmw33yQdjxc2cb0oF+Dz3BMs6e8QcdXzfS
+cHWHl2hIWR+v1NRj9NNU0dWbG5sBsUDSoJx2AYiqrC6CQyac2/G3kYCmXHaYoe1S
+atuMDVwmGl/hPd/wu5zzMBQTpXoNn5Ei+PLOdE0DYYXpyiAEyw6qzAPbIU4Pht6U
+2/IjOnD1QqxOYXDX+sRdUa31W5Yx1xeC2mNJV2PsXBjbp8oi7yErN+1dEZAznjW9
+GvWcNFD4GprlStS7BFhPTBAvrpfxlH1k0QXUtDINpn8AeNjs/gR8oGLsbp6Jbv93
++ytg/k9M2ggU5lzRTO7RzedI
+=VoF1
 -----END PGP SIGNATURE-----
 
---===============3170350692519830738==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fec77b5f094-64fb031e2099.txt
-
-d59ab93463e0b18c59d2c9e9d332587e998a0223 Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
-6135c226c496877b00d7f2e65335621c8857b4f8 USB: serial: pl2303: add IBM device IDs
-652eb8cb56138aac7d639c1762c748ac653981bb dt-bindings: usb: hcd: correct usb-device path
-78f04cd4767eb9d51fdf157cda10a7de7bf78b24 USB: serial: pl2303: fix GS type detection
-cbdf2f5625057d69df95109493b37214134eca0c USB: serial: simple: add Nokia phone driver
-c20b69541c9e16897a4f463e7d97c1b01927cf21 mm: kfence: fix missing objcg housekeeping for SLAB
-46f8f32d5c7021ff9e5d41cfbaae5a917f8fe51a HID: logitech-dj: add new lightspeed receiver id
-25bc519cc73c95307d67a37528a1e5c7f8094e1a HID: Add support for open wheel and no attachment to T300
-d29abcaa41f5d48b81572489630702fb4e6226d9 xfrm: fix tunnel model fragmentation behavior
-48bbe347ae7c5c02543f92375ab2248998e2930e ARM: mstar: Select HAVE_ARM_ARCH_TIMER
-fa1fdd8b6f94a70ab57cc0278bcdf82f4f117e33 virtio_console: break out of buf poll on remove
-8104ad8abdd2507246f626ebac018e5907b55a21 vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
-cfee423d0c57bc7eaf28e5b6e8dd991e17617fb4 tools/virtio: fix virtio_test execution
-0116139849e8748aebf9315919a8191b51b8557c ethernet: sun: Free the coherent when failing in probing
-0bdf88fe80b1a3df61a5fab0f922f126da119a26 gpio: Revert regression in sysfs-gpio (gpiolib.c)
-ec27f79e1b0830aa4dcff04cfdd8c62d8e4a9b15 spi: Fix invalid sgs value
-ab44d8da1842ff8c3b60f264a54256d463d404ae net:mcf8390: Use platform_get_irq() to get the interrupt
-b81297949257cbfddc8ad2bbde123ea28ff8d14b Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-a7a7a1382bd1725d899123e3811d168e20d368a6 spi: Fix erroneous sgs value with min_t()
-76502f0a2b27dcdb25e3667ca4c5bf270f421488 Input: zinitix - do not report shadow fingers
-f7de89e30c67692db87280244a12f92e778c36ea af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-a01da3916307216e7cffca3a3231b576141a6c2a net: dsa: microchip: add spi_device_id tables
-cb8f614e08f57ce4a3a9d6546ff5bba657e53f2a scsi: fnic: Finish scsi_cmnd before dropping the spinlock
-66ec413165390cce463a0b3d871165d64347a6d5 selftests: vm: fix clang build error multiple output files
-456532761fb8767e66ff3244e2df879cc8fa2618 locking/lockdep: Avoid potential access of invalid memory in lock_class
-62d9174883e393b3980255ebdb69bd5b403a44c6 drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
-aeddcbff1c545ec9640334d0908bca277476a12a drm/amdgpu: only check for _PR3 on dGPUs
-10e6627630e2304befbc3779a255b4fd0c0f82c8 iommu/iova: Improve 32-bit free space estimate
-64fb031e20993afa055417d9eaab2a6ab0d8e327 Linux 5.16.19-rc1
-
---===============3170350692519830738==--
+--===============6162583148572245574==--
