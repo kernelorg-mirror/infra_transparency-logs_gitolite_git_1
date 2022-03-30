@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Wed, 30 Mar 2022 13:51:49 -0000
-Message-Id: <164864830965.25648.8701461012353739166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Wed, 30 Mar 2022 14:18:43 -0000
+Message-Id: <164864992378.9957.748507641417567100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/master
-    old: aae937481ae28c0cfe502309e9acb5c34ba0b2cd
-    new: 15cacf20709c6917c798e298a1e087c0663e5c13
-    log: |
-         15cacf20709c6917c798e298a1e087c0663e5c13 Fix prctl return code/errno handling in libcap.
-         
+  - ref: refs/heads/bpf/fixes
+    old: 0000000000000000000000000000000000000000
+    new: c8e0619c6c70c05ad8357088d92d9411079f72e3
