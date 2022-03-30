@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8717606157433050745=="
+Content-Type: multipart/mixed; boundary="===============5424594839043834724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 30 Mar 2022 15:56:49 -0000
-Message-Id: <164865580963.9561.10271383440164475721@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 15:58:30 -0000
+Message-Id: <164865591075.10168.7314283788794673159@gitolite.kernel.org>
 
---===============8717606157433050745==
+--===============5424594839043834724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 1930a6e739c4b4a654a69164dbe39e554d228915
-    new: d888c83fcec75194a8a48ccd283953bdba7b2550
-    log: revlist-1930a6e739c4-d888c83fcec7.txt
+  - ref: refs/heads/kobject-const
+    old: 50dfafdd5926d0d85c1922452b641f1d075cc8fe
+    new: 1207c87ac31b88dceff1d5948758f82f42f00b00
+    log: revlist-50dfafdd5926-1207c87ac31b.txt
 
---===============8717606157433050745==
+--===============5424594839043834724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648655809 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648655908 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1648655808-5c90350cdd9e2d0626fd3ad730c6358532137329
+nonce 1648655907-8d37a6f2ebdbf3829cb7036b633a81fa490b718b
 
-1930a6e739c4b4a654a69164dbe39e554d228915 d888c83fcec75194a8a48ccd283953bdba7b2550 refs/heads/driver-core-next
+50dfafdd5926d0d85c1922452b641f1d075cc8fe 1207c87ac31b88dceff1d5948758f82f42f00b00 refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEfcEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7esQAINzJZbOPDMcT1ZdxYsM
-CjkLMo/lonSCzr/ggyTHuDrv4pr5sn8SBAsOjs8FhAUby3VRjBIMJe1hteM53B97
-gUHhGfPhjqgR7P+db8BoZ7YrffozBolrKV1Fk/iyhZuSbVFJaoEFO7XAhRX+C2Yi
-t/XvTO3ufBHePhh9Y4tjRGpPYyXQbUaqyjLfhs9X3WQ0tSGjNkQayPfGkRVhEQSD
-yFDyXs6MW8IEUq0ijKTR5npwV3Vq/nNy30u3qM2bTWeEbKzIt/twXUFToBO/tUsN
-WW3awNtaQs2pMzErty+qKyFQ7j4tNdvyK1I0B9gyx+VTAswszLrzWA59LAytO7/r
-qfEqVRZsvqCdSTMc9ty7PX8phmmv3PQyEgt4BXQEHypvY1ZEdlagtDrdRsx97o/G
-yKOO8sLXILJXBoVb8kGvWkYGnGXrxTqsZFlVdGrIAWTC/Y0qsE7DLLziQOH9ZdUT
-E9FLhUOxqqRl1qsrrWlBoV9SCY/Ie9qQEW2s+UiZ9DJNGnuqjfIYx9tG4qk2dYfI
-fprQW7GL5Mjwcv6DJSsJEwy6yLoEe9LSKf+ttmYEtVVRHs4hn85gGqgyfgMBhBDS
-s2pXGmrgMJg1dfyDnXwyvF8xXi4Y5sscbzl/fNTeEgVCU5x2z0tiXbE7rcd3AroJ
-OHwr3Sld2aPm+pdUnrVbhil5
-=4bD9
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEfiQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PqMQAJu3XQ9lRvS4QjdDeyCp
+QUJMxBB4LuObIHYrmMJFMh+5Qalbl/3jn4w6wrKRByN8E+KHyDkbAJl6oiMpGnuc
+yTyvPdgkDkAOmEeEj9BYd/c6GB/lernXvv1U/jCc3L6Wfr5lSATf2sZyaesEfkMi
+3mvyGTogoVpw4cFEJ/szLybwpP+UguNagC+E96p8sGCxtUHe192dws0n+zWFgAku
+1IBW45rexMGiFj4FIYrjLjTCEHMxjzlMN2hgGYaZbz8+aC/khJ0w7VTrvVfSn3pt
+g6C3ZVejp09cBsTa64sycGV7UcAf7ZSv4BK/LoA11wXzYN9Xuf+IvgT5/JWJGNae
+IA7nBljhsZcUBujopTS9RQDj9+Zz5A90FbZTpYBv6e3/w8sHlbR5LEysuoTmdfRR
+H/jv2wB3+Km1Vl9tKLaXpsZdc3JuDdYTWUwrrV5AqM0NI+A3kr2ztNXCuJQYHy4r
+ElyN6kNT8ml3uqKB3lbwZJtuNRiKP5gTyJnDaVzaCyN3ueNenGjTpW5Wr8+Eexdq
+GDNdj26TGaHBJCIcGOxWY+/YvzeBg3lb5tFL3zf+RLgM03RvBzdsglmferFuN3kW
+ot1S6VBpZ9FEHX1z6aWT/lpYXbzyQmcWMhCQ9EDHxS/MTgliS5IarOjW0gvBP9p3
+XEf4daPP9QQ41E/4OJaDGMvS
+=NHz0
 -----END PGP SIGNATURE-----
 
---===============8717606157433050745==
+--===============5424594839043834724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1930a6e739c4-d888c83fcec7.txt
+Content-Disposition: attachment; filename=revlist-50dfafdd5926-1207c87ac31b.txt
 
 dfcf2e017f5bb928094952d5d56d3566d3d07ba7 swiotlb: do not zero buffer in set_memory_decrypted()
 35265899acef135225e946b883fb07acba1d31a2 swiotlb: simplify debugfs setup
@@ -209,5 +209,7 @@ a50e431bbc6fc5768ed26be5fab5b149b7b8b1fe dt-bindings: media: mediatek,vcodec: Fi
 1ec48f95519bd3e920536118e8ddd30e28cde4ab Merge tag 'jfs-5.18' of https://github.com/kleikamp/linux-shaggy
 965181d7ef7e1a863477536dc328c23a7ebc8a1d Merge tag 'nfs-for-5.18-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 d888c83fcec75194a8a48ccd283953bdba7b2550 fs: fix fd table size alignment properly
+3ddb345d33f145628d6655194da0b612506da605 powerpc/pseries/vas: use default_groups in kobj_type
+1207c87ac31b88dceff1d5948758f82f42f00b00 kobject: kobj_type: remove default_attrs
 
---===============8717606157433050745==--
+--===============5424594839043834724==--
