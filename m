@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 30 Mar 2022 23:50:02 -0000
-Message-Id: <164868420297.27583.9033088211229773374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
+Date: Wed, 30 Mar 2022 23:52:15 -0000
+Message-Id: <164868433544.28377.3272875741740067885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/nathan/linux
+user: nathan
 changes:
-  - ref: refs/heads/sock-nolock
-    old: c85a178eca38f97674c97e3d9e5cc115aa750cab
-    new: c6492b841da274eadf23b7511df5aa4958db26d2
-    log: |
-         c6492b841da274eadf23b7511df5aa4958db26d2 io_uring: mark accept direct socket as no-lock
-         
+  - ref: refs/heads/submitted/remove-mno-global-merge
+    old: 0000000000000000000000000000000000000000
+    new: 89c80d8738cc6f1f460e86740917f20f72e4c927
