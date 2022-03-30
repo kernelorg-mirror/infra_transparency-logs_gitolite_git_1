@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 30 Mar 2022 19:57:55 -0000
-Message-Id: <164867027552.6264.3373110864748282251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 30 Mar 2022 20:02:14 -0000
+Message-Id: <164867053433.9229.4421033112685100021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 6cb6e2ddf4471da365fe89ecd3c62454c9acf510
-    new: 4a06a31be0453d7c8208108dccbb7cfacf768bc4
+    old: 6f7743426b4182cfd55ba3e1bde9a7d53cc310d5
+    new: 45f86d71484f0edb365d740cb8403ec1bc85d9d8
     log: |
-         0cc480a546e9b4740451dbdaaadc3df8ca1f8c34 shell: Make bt_shell_add_submenu set main menu if none has been set
-         d204e84c0694700f6cb1b8d98d26492de63d4303 client: Add support for player submenu
-         4a06a31be0453d7c8208108dccbb7cfacf768bc4 a2dp: Fix crash when SEP codec has not been initialized
+         ce94013baef7257cee50334aa0ddd327640b44c9 p2p: Fix Device Address updates from Probe Requests
+         0201cde7cec6f3171c8dff4ee759512c840dd185 test-runner: Fix checks in exit_vm
+         83299ef6aadb7f413220001a48ae73f4ebe9d2d8 test-runner: Don't require SUDO_GID to be set for logs
+         45f86d71484f0edb365d740cb8403ec1bc85d9d8 test-runner: Replace exit with sys.exit
          
