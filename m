@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 30 Mar 2022 08:19:53 -0000
-Message-Id: <164862839363.27136.9154083971571112950@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 08:20:52 -0000
+Message-Id: <164862845287.28956.460348372275148312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,21 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 5e2baa04e4cd94c2465b248b7d861fcff8c22fae
-    new: f30741cded62f87bb4b1cc58bc627f076abcaba8
+    old: f30741cded62f87bb4b1cc58bc627f076abcaba8
+    new: 6ddc2f749621d5d45ca03edc9f0616bcda136d29
     log: |
-         f30741cded62f87bb4b1cc58bc627f076abcaba8 ALSA: hda/realtek: Fix audio regression on Mi Notebook Pro 2020
+         6ddc2f749621d5d45ca03edc9f0616bcda136d29 ALSA: hda: Avoid unsol event during RPM suspending
          
   - ref: refs/heads/for-next
-    old: 5e2baa04e4cd94c2465b248b7d861fcff8c22fae
-    new: f30741cded62f87bb4b1cc58bc627f076abcaba8
+    old: f30741cded62f87bb4b1cc58bc627f076abcaba8
+    new: 6ddc2f749621d5d45ca03edc9f0616bcda136d29
     log: |
-         f30741cded62f87bb4b1cc58bc627f076abcaba8 ALSA: hda/realtek: Fix audio regression on Mi Notebook Pro 2020
+         6ddc2f749621d5d45ca03edc9f0616bcda136d29 ALSA: hda: Avoid unsol event during RPM suspending
          
   - ref: refs/heads/master
-    old: 59ed478c81de2fa8bc2c0d6f4d3c6b8198f393c4
-    new: f0dca611b058ac215e273ad2d74a5b8600aaf01f
+    old: f0dca611b058ac215e273ad2d74a5b8600aaf01f
+    new: c563964a2ccf3063db14c2434dcb5b7424893e28
     log: |
-         f30741cded62f87bb4b1cc58bc627f076abcaba8 ALSA: hda/realtek: Fix audio regression on Mi Notebook Pro 2020
-         f0dca611b058ac215e273ad2d74a5b8600aaf01f Merge branch 'for-linus'
+         6ddc2f749621d5d45ca03edc9f0616bcda136d29 ALSA: hda: Avoid unsol event during RPM suspending
+         c563964a2ccf3063db14c2434dcb5b7424893e28 Merge branch 'for-linus'
          
