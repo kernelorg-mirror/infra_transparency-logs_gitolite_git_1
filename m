@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Wed, 30 Mar 2022 20:28:35 -0000
-Message-Id: <164867211599.25882.5930633675613089660@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6781014806381947325=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 30 Mar 2022 20:44:08 -0000
+Message-Id: <164867304876.3797.5020649502439555305@gitolite.kernel.org>
+
+--===============6781014806381947325==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 45f86d71484f0edb365d740cb8403ec1bc85d9d8
-    new: fa366c79e466a6478f50ae243ddee44c278c57d2
+    old: d702371ad476bf55461abad07ba3034ab7c9686c
+    new: fdce6027ce06777bdbfbbb454639f2353902bfec
     log: |
-         8d5e64e90d6856e828a9904e23301f3877cfdee4 tools: add some required options to kernel config
-         f97b53608d7120b9d214d11b88a46f27eebb1bb7 tools: add UML specific options to the kernel config
-         a773aa6a072d4a23ab52026d19f8f3992100ef9c auto-t: remove direct scan() call when possible
-         1fca13f07a188a32770ec3f149fff3cca3a456a4 auto-t: testutil: wait for operstate
-         b1bc8fb7fb92e79a53e83d089ab1e63a26884e21 auto-t: testSAE-roam: wait for ip link down
-         416ad05ce7e98895e024c8d0a8778644bc87d258 auto-t: fix up a few issues in testNetconfig
-         fa366c79e466a6478f50ae243ddee44c278c57d2 auto-t: test-wide replacement of assertTrue(list_sta())
+         fdce6027ce06777bdbfbbb454639f2353902bfec Update A6CD9F096F642CB3 (Alexandre Belloni)
          
+
+--===============6781014806381947325==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1648673048 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1648673048-e0f4b7cc54f88bddeb9af3bb6bcf413aa733fcce
+
+d702371ad476bf55461abad07ba3034ab7c9686c fdce6027ce06777bdbfbbb454639f2353902bfec refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCYkTBGAAKCRC2xBzjVmSZ
+bFSXAP4ibkz8I873DmWXFJcoKiA6hbW/LjzLyTW8qYQ5Wp9qgAD/dBsLoRfRtLB1
+lr2gQoYKNSqCtiBUboFFPcY9txS+yAU=
+=cjRZ
+-----END PGP SIGNATURE-----
+
+--===============6781014806381947325==--
