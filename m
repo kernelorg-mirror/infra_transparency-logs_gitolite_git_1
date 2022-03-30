@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 30 Mar 2022 17:34:41 -0000
-Message-Id: <164866168158.8768.3459503547302038446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 30 Mar 2022 17:35:25 -0000
+Message-Id: <164866172591.10517.9470722467741352748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/master
-    old: 0d44d59d3863f396a68d55d71e5636cafe485470
-    new: 3b52ae980c41b420592e3005199041890a56d6dc
+  - ref: refs/heads/main
+    old: 1b03cf7adc3c156ecab2618acb1ec585336a3f75
+    new: 36805fe6ba339a02fa177467f753604d8cbf7b15
     log: |
-         1c90b19aa381588dc4f53047a950fda2ddf5feeb helpers: add file creation with pattern
-         3b52ae980c41b420592e3005199041890a56d6dc test/fixed-reuse: test that linked file slot reuse is correct
+         36805fe6ba339a02fa177467f753604d8cbf7b15 kexec-tools: fix leak FILE pointer.
+         
+  - ref: refs/heads/master
+    old: 1b03cf7adc3c156ecab2618acb1ec585336a3f75
+    new: 36805fe6ba339a02fa177467f753604d8cbf7b15
+    log: |
+         36805fe6ba339a02fa177467f753604d8cbf7b15 kexec-tools: fix leak FILE pointer.
          
