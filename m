@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Wed, 30 Mar 2022 23:32:31 -0000
-Message-Id: <164868315144.14624.8229871112917516375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Wed, 30 Mar 2022 23:33:43 -0000
+Message-Id: <164868322362.15087.8234847306246371504@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
   - ref: refs/heads/master
-    old: 5e644771eb91e91dd0fa32f4b51f90c44853a2b1
-    new: 87933e32e356b15b85c6d9775d5e840994080a4f
+    old: b986f4acbaac0e018884e5d831bf9093c54784e9
+    new: 0380fa6a48acc19bdf597314596c766a848cd034
     log: |
-         87933e32e356b15b85c6d9775d5e840994080a4f Rename 'fallthrough' attribute to 'fio_fallthrough'
+         0380fa6a48acc19bdf597314596c766a848cd034 Wed Mar 30 11:31:31 PM UTC 2022
          
