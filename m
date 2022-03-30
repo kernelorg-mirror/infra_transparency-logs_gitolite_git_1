@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5213897527040801142=="
+Content-Type: multipart/mixed; boundary="===============2749153495423615847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 30 Mar 2022 13:34:31 -0000
-Message-Id: <164864727189.12352.11150405298152953296@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 13:34:42 -0000
+Message-Id: <164864728247.12521.4333144623876005025@gitolite.kernel.org>
 
---===============5213897527040801142==
+--===============2749153495423615847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 5f4e5ce638e6a490b976ade4a40017b40abb2da0
-    new: ff0f8785e40234300bd6042418a7bc9c0be87ace
-    log: revlist-5f4e5ce638e6-ff0f8785e402.txt
+  - ref: refs/heads/perf/core
+    old: 02a08d78f5c429c7dc8e5b9417b4efb518b3d041
+    new: 526b757ec86624687a2caf650dd5eeb9a746e223
+    log: revlist-02a08d78f5c4-526b757ec866.txt
 
---===============5213897527040801142==
+--===============2749153495423615847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f4e5ce638e6-ff0f8785e402.txt
+Content-Disposition: attachment; filename=revlist-02a08d78f5c4-526b757ec866.txt
 
-dbd0f5299302f8506637592e2373891a748c6990 xfs: check buffer pin state after locking in delwri_submit
-941fbdfd6dd0f1d7961c28123b5460912f678cb5 xfs: xfs_ail_push_all_sync() stalls when racing with updates
-70447e0ad9781f84e60e0990888bd8c84987f44e xfs: async CIL flushes need pending pushes to be made stable
-d86142dd7c4e10e50bdb3679b405d748214b2c28 xfs: log items should have a xlog pointer, not a mount
-8eda87211097195d96d7d12be37dd39d6a7c8b80 xfs: AIL should be log centric
-01728b44ef1b714756607be0210fbcf60c78efce xfs: xfs_is_shutdown vs xlog_is_shutdown cage fight
-1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4fc5f5346592cdc91689455d83885b0af65d71b8 nfsd: fix using the correct variable for sizeof()
 a3d0245c58f962ee99d4440ea0eaf45fb7f5a5cc xtensa: fix xtensa_wsr always writing 0
@@ -1044,11 +1037,18 @@ a50e431bbc6fc5768ed26be5fab5b149b7b8b1fe dt-bindings: media: mediatek,vcodec: Fi
 1ec48f95519bd3e920536118e8ddd30e28cde4ab Merge tag 'jfs-5.18' of https://github.com/kleikamp/linux-shaggy
 965181d7ef7e1a863477536dc328c23a7ebc8a1d Merge tag 'nfs-for-5.18-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 d888c83fcec75194a8a48ccd283953bdba7b2550 fs: fix fd table size alignment properly
-ab425486107adc5223d0df6e77b33dfb41639501 perf/x86: Unify format of events sysfs show
-ebbec1ad00ec9d285f128c213d51b900d14617e8 perf/x86: Add Intel Raptor Lake support
-53b99f584af28e320e769222c9a60b058466106f perf/x86/cstate: Add Raptor Lake support
-0700ab093edcece68088fc24df4b184e103e684f perf/x86/msr: Add Raptor Lake CPU support
-9e0ae4f5c929e255fca61cd768a4defdb225c7b2 perf/x86/uncore: Add Raptor Lake uncore support
-ff0f8785e40234300bd6042418a7bc9c0be87ace perf/core: Inherit event_caps
+23ccd228489984dfe43b0acc0316436b30450d00 perf/core: Add perf_clear_branch_entry_bitfields() helper
+3d1a0fa090018d143429015d1734662db9c2cd3b x86/cpufeatures: Add AMD Fam19h Branch Sampling feature
+eb6010d90eddbdbaade66d094f55f5d48d419921 perf/x86/amd: Add AMD Fam19h Branch Sampling support
+9d672f54ddad675af190a0b8e8a1b139737df9f8 perf/x86/amd: Add branch-brs helper event for Fam19h BRS
+d5340306701997833190ca03c495ad553e921b2b perf/x86/amd: Enable branch sampling priv level filtering
+b67aa167971bb8af403a147bda806d780c308d7e perf/x86/amd: Add AMD branch sampling period adjustment
+8208025b2c9e211c533fad51a1c3cfe6e8b695b0 perf/x86/amd: Make Zen3 branch sampling opt-in
+9c546322b55dee336b46eb22a8e3c469593a09c6 ACPI: Add perf low power callback
+67bdc1985b303b6ae5e0e1f638869eb7ba668d16 perf/x86/amd: Add idle hooks for branch sampling
+7a665802930fb82d6b12ac4467a25783f0dc7075 perf/core: Don't pass task around when ctx sched in
+3cfa529a8802cb6b8f49a52260c93f346bc43311 perf/core: Use perf_cgroup_info->active to check if cgroup is active
+2e3f205b40f866731cb8bcb197084a32f00ac080 perf/core: Fix perf_cgroup_switch()
+526b757ec86624687a2caf650dd5eeb9a746e223 perf/core: Always set cpuctx cgrp when enable cgroup event
 
---===============5213897527040801142==--
+--===============2749153495423615847==--
