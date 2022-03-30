@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2717542486046848615=="
+Content-Type: multipart/mixed; boundary="===============4318902581799595844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 30 Mar 2022 18:18:55 -0000
-Message-Id: <164866433556.6088.13325110502265093334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 30 Mar 2022 18:19:03 -0000
+Message-Id: <164866434330.6241.7781471824786744486@gitolite.kernel.org>
 
---===============2717542486046848615==
+--===============4318902581799595844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 74164d284b2909de0ba13518cc063e9ea9334749
     log: revlist-5efabdadcf4a-74164d284b29.txt
 
---===============2717542486046848615==
+--===============4318902581799595844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -532,4 +532,4 @@ d177850d5d58320a573dd69eb3f3564856a48a88 Merge tag 'hwlock-v5.18' of git://git.k
 4f3730117f162b17147795eaad44421cc65178c7 Merge tag 'regulator-fix-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 74164d284b2909de0ba13518cc063e9ea9334749 Merge tag 'pwm/for-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
 
---===============2717542486046848615==--
+--===============4318902581799595844==--
