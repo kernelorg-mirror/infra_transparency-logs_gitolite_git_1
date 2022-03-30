@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/efilite
-Date: Wed, 30 Mar 2022 13:18:54 -0000
-Message-Id: <164864633461.2657.3468679556015716211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Wed, 30 Mar 2022 13:23:34 -0000
+Message-Id: <164864661493.5607.10696453615802699896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/efilite
-user: ardb
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: a755e12087a54ebee6acb25e2c55f042f679c8b9
-    new: 73dfaad0a4f6bb252b51daecdd464b0048dc1a3c
+  - ref: refs/heads/master
+    old: 77c9387c0c5bd496fba3200024e3618356b2fd34
+    new: 2609f635a20d3691e7b5725edc3bdadb7bedf8fb
     log: |
-         670a35d9a98219957a1291e4e536f4b50c9d5556 Barebones EFI implementation for mach-virt/arm64
-         8a9c4e42b6a734f7f551bd6d2db215b6e5e09efa Use RNDR instruction if available
-         480b8144eec8cfd1112ae2bff0f97926396b82fe rng: Add EFI RNG PROTOCOL support
-         2d6e10fd027b7bd033e6b7533f611ba398c89b12 Use generic type for LoadFile{2}::LoadFile()
-         73dfaad0a4f6bb252b51daecdd464b0048dc1a3c Replace get_random_u64() with a generic version get_random::<T>()
+         522574fd7864e091d473765102e866414979b2ab bpftool: Explicit errno handling in skeletons
+         d31e0386a2f122b40b605eb0120a2fbcfca77868 bpf: Fix sparse warnings in kprobe_multi_resolve_syms
+         2609f635a20d3691e7b5725edc3bdadb7bedf8fb selftests/bpf: Fix warning comparing pointer to 0
          
