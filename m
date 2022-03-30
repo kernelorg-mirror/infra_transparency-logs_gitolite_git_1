@@ -1,16 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 30 Mar 2022 08:13:58 -0000
-Message-Id: <164862803897.23407.6398120230853249395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Wed, 30 Mar 2022 08:18:36 -0000
+Message-Id: <164862831645.26559.13018098326689210908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rt-rebase
-    old: 0000000000000000000000000000000000000000
-    new: aed3deab96ccf83730eb0455c97c71bfa7613c53
+  - ref: refs/heads/linux-next
+    old: a3febb2f995b81cdac3c8cc31d6ad8e1d87dda28
+    new: 1c80cf031e0204fde471558ee40183695773ce13
+    log: |
+         7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
+         c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
+         55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
+         1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
+         
+  - ref: refs/heads/vhost
+    old: a3febb2f995b81cdac3c8cc31d6ad8e1d87dda28
+    new: 1c80cf031e0204fde471558ee40183695773ce13
+    log: |
+         7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
+         c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
+         55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
+         1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
+         
+  - ref: refs/tags/for_linus
+    old: 2db3da269b345fc2a2de2d85eea688581db8a2ab
+    new: fe34dc7e55c805489a9fe361f52fdb5bfe90cad7
