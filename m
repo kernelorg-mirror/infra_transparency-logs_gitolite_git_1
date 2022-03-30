@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3282488935776576934=="
+Content-Type: multipart/mixed; boundary="===============1879713415739934176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 30 Mar 2022 13:34:11 -0000
-Message-Id: <164864725195.12142.2419820796261695656@gitolite.kernel.org>
+Date: Wed, 30 Mar 2022 13:34:21 -0000
+Message-Id: <164864726183.12241.12020825537792365366@gitolite.kernel.org>
 
---===============3282488935776576934==
+--===============1879713415739934176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 28df029d53a2fd80c1b8674d47895648ad26dcfb
-    new: c63430af257305fdc6dd1433164ff0c770743125
-    log: revlist-28df029d53a2-c63430af2573.txt
+  - ref: refs/heads/locking/core
+    old: cd27ccfc727e99352321c0c75012ab9c5a90321e
+    new: 3f15fa10235b97326d7d7de9eed4d3a6ed5e3e66
+    log: revlist-cd27ccfc727e-3f15fa10235b.txt
 
---===============3282488935776576934==
+--===============1879713415739934176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28df029d53a2-c63430af2573.txt
+Content-Disposition: attachment; filename=revlist-cd27ccfc727e-3f15fa10235b.txt
 
-941fbdfd6dd0f1d7961c28123b5460912f678cb5 xfs: xfs_ail_push_all_sync() stalls when racing with updates
-70447e0ad9781f84e60e0990888bd8c84987f44e xfs: async CIL flushes need pending pushes to be made stable
-d86142dd7c4e10e50bdb3679b405d748214b2c28 xfs: log items should have a xlog pointer, not a mount
-8eda87211097195d96d7d12be37dd39d6a7c8b80 xfs: AIL should be log centric
-01728b44ef1b714756607be0210fbcf60c78efce xfs: xfs_is_shutdown vs xlog_is_shutdown cage fight
-1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4fc5f5346592cdc91689455d83885b0af65d71b8 nfsd: fix using the correct variable for sizeof()
 a3d0245c58f962ee99d4440ea0eaf45fb7f5a5cc xtensa: fix xtensa_wsr always writing 0
 8d10ea152e2fb9b4a42b282cb90bfc4d98e319a3 ipmi: initialize len variable
@@ -1050,5 +1043,12 @@ a1f929cc9ccfc9c0e2f071c4b88103d0e1b2d32a x86,static_call: Fix __static_call_retu
 f9576ad665bca4d44d92240f0a1ff4da20a17bd7 x86/percpu: Remove volatile from arch_raw_cpu_ptr().
 a9f68f1efa38f7e78319c83e8599d28b40c87fed Revert "locking/local_lock: Make the empty local_lock_*() function a macro."
 c63430af257305fdc6dd1433164ff0c770743125 Revert "mm/page_alloc: mark pagesets as __maybe_unused"
+51033ce5575f24ab3b30a472f3a9bf8bd5179467 lockdep: Fix -Wunused-parameter for _THIS_IP_
+5ce69cf472a66e0cd58177ad02d9f6003c0663c0 locking/rwsem: No need to check for handoff bit if wait queue empty
+999871fcd992af9e61e01bb0b54f2c042b269af7 locking/rwsem: Conditionally wake waiters in reader/writer slowpaths
+c576d4070cb240800549d3bfa4c8af4714e5693c locking/rwsem: Always try to wake waiters in out_nolock path
+9929132d243beb1d01a878853abc1a08a9d06a07 locking: Add lock contention tracepoints
+fe10c75b9d6c5940fb751a99ca243f3aeb7188df locking: Apply contention tracepoints in the slow path
+3f15fa10235b97326d7d7de9eed4d3a6ed5e3e66 locking/mutex: Make contention tracepoints more consistent wrt adaptive spinning
 
---===============3282488935776576934==--
+--===============1879713415739934176==--
