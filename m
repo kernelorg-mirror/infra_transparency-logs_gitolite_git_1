@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/xfstests-dev
-Date: Wed, 30 Mar 2022 10:06:17 -0000
-Message-Id: <164863477761.7845.10278965465116681348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 30 Mar 2022 10:06:21 -0000
+Message-Id: <164863478158.7925.12326487487649105476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/xfstests-dev
+repo: pub/scm/linux/kernel/git/brauner/linux
 user: brauner
 changes:
   - ref: refs/tags/fs.idmapped.overlay.v2
-    old: 0000000000000000000000000000000000000000
-    new: 5607d93b95d3a3594c6aef39a553b3b7a97a3b53
+    old: e247d071e2c5fd450a6c029e04de775d2081d7b3
+    new: c0b09f71ea665efa7457aa8197df97784baef7e5
+    log: |
+         3471f552ce1b35653332e2e6affb8adb2662d266 ovl: support idmapped layers
+         
