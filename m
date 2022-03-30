@@ -1,76 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============4667463465430843585=="
+Content-Type: multipart/mixed; boundary="===============2454742838750706857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 29 Mar 2022 23:41:56 -0000
-Message-Id: <164859731674.9093.9721965336109711226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 30 Mar 2022 00:16:54 -0000
+Message-Id: <164859941436.32607.1672614704741660489@gitolite.kernel.org>
 
---===============4667463465430843585==
+--===============2454742838750706857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev
-    old: 2eb9d6a49acd4f12078967c33e9786e084fe6407
-    new: 72ee6272c2a01687f3774f445574708452738302
-    log: revlist-2eb9d6a49acd-72ee6272c2a0.txt
+  - ref: refs/heads/next
+    old: 1d4f13e63720fb8eae39afa215199f7d77662dba
+    new: 59ce5fa87eb4cb23cbd2457a488784725996144b
+    log: |
+         3d8046a820851621b8f195078fcac5b5c38fec86 Merge branch 'ab/refs-various-fixes'
+         d62966735d0f2c9a632d34023336bc0387a4bd5a Merge branch 'vd/cache-bottom-fix'
+         5fe35fcc790f6df1839ff984896f9d5e6710d012 Merge branch 'jt/reset-grafts-when-resetting-shallow'
+         f81853674929cc1dfef6c3f97e4ece9072ba0b0a Merge branch 'jc/rebase-detach-fix'
+         805e0a68082a217f0112db9ee86a022227a9c81b The 16th batch
+         59ce5fa87eb4cb23cbd2457a488784725996144b Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: e5c1408f517aa4e87bff7d40d62bcf40c8711462
+    new: e15ed75720beea34bf8a462f3b83932030473e63
+    log: revlist-e5c1408f517a-e15ed75720be.txt
 
---===============4667463465430843585==
+--===============2454742838750706857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2eb9d6a49acd-72ee6272c2a0.txt
+Content-Disposition: attachment; filename=revlist-e5c1408f517a-e15ed75720be.txt
 
-19ba3603cc57b19771f4e9503bb25080f74e1d29 srcu: Prevent expedited GPs and blocking readers from consuming CPU
-6a773f1d16dace0e8160999b84d43652b10f5a0f rcu: Print number of online CPUs in RCU CPU stall-warning messages
-b10e27dfddbe21f4470bd4efc9ffc111b221b530 rcu: Make UP-vacuous normal grace period advance sequence
-93b1b2b20214ba8c70ded02c4cd98b15bf13be73 scftorture: Remove extraneous "scf" from per_version_boot_params
-fe8e97f4ca6d4a664fac820dd18d8a14069fa4bc torture: Save "make allmodconfig" .config file
-677e218d00e83f63fe294b46eacf61cd7b58b866 rcutorture: Call preempt_schedule() through static call/key
-3462346e3dedfa01f490b1746bdb207e46040040 rcu: Add polled expedited grace-period primitives
-fc8b3497d6713938516971614a5ce71551b3bae6 rcu: Fix expedited GP polling against UP/no-preempt environment
-95c2f07ac436ef0078c24b0d82f1fafb49708c3e EXP preempt/dynamic: Introduce preempt mode accessors
-ab556e0f6b5ce7cb9733912fb62d6c2c1bf4099d rcu: Fix preemption mode check on synchronize_rcu[_expedited]()
-7d9baa93432768effe3ec0629fa5990b54abf989 rcutorture: Test polled expedited grace-period primitives
-c6022f7a55267b34cfd025e9846dc6776bc83df2 srcu: Drop needless initialization of sdp in srcu_gp_start()
-f28060cf0a2cc920251de1eaeaf9b964fa05bb87 rcu: Make TASKS_RUDE_RCU select IRQ_WORK
-cc20b60dca32b3946186bd0de721836456bab131 rcu: Make the TASKS_RCU Kconfig option be selected
-c12347418a0fa4c829cfe0ebd3105e6113ad485d rcutorture: Allow rcutorture without RCU Tasks Trace
-72cb92632507921bf7b724998818ece7352b9127 rcutorture: Allow rcutorture without RCU Tasks
-8187442058dcf7cf2b8987713f01571b517a7f6b rcutorture: Allow rcutorture without RCU Tasks Rude
-bc7b4a1aacf80708bf8bc5a7640c35fc52385ec5 rcutorture: Add CONFIG_PREEMPT_DYNAMIC=n to TASKS02 scenario
-af9bc04274f4b7e4d1013b74b9e9b8dc44761ec7 rcu-tasks: Restore use of timers for non-RT kernels
-0a276db60df6b2e466933c311a76d9ab0c8bf3db rcutorture: Allow specifying per-scenario stat_interval
-af067a53b2e233234fc1761dea4472830251fcc5 tools/nolibc/stdio: make printf(%s) accept NULL
-cea711bec275f936fabf7a085ac25567d65e9548 tools/nolibc/stdlib: add a simple getenv() implementation
-dd6724f9d4bddd8399ae1962aacddd554b8bbcd3 tools/nolibc/stdio: add support for '%p' to vfprintf()
-d91364d552793617ce591bc50c818a3ed84d62ab tools/nolibc/string: add strcmp() and strncmp()
-ce4461a6a9e48455c1f51011537ad4d43e579082 tools/nolibc/sys: add syscall definition for getppid()
-160806cbf5c9e1b7a76bf2eec075c14dc742a9b8 tools/nolibc/types: add poll() and waitpid() flag definitions
-47371b6b1f56d0a84823ffc2d7a1e8d14ffcaea1 tools/nolibc: add a makefile to install headers
-2c93fd8692dc7a14f92f1c7a29021aea38c609c6 tools/nolibc: add the nolibc subdir to the common Makefile
-6e0c30d146fa49f2b77ac5b5a5cdb964bc524396 rcu: Make normal polling GP be more precise about sequence numbers
-ceb0753922e2798ae1dc0a4beced3a03d5f0ba05 tools/nolibc/string: do not use __builtin_strlen() at -O0
-9b3c1cdbf66fc8a384f5a95286f17558cf07a6f8 tools/nolibc/stdlib: only reference the external environ when inlined
-d9a5ddb91d553ea9608f6df9d7af88154a803b45 rcu: Remove needless polling work requeue for further waiter
-ee0f24296015bf88a6fe490458e15159df85f486 rcu: No need to reset the poll request flag before completion
-8762e5827281dcdee4908dc640d349820d33b797 rcu: Perform early sequence fetch for polling locklessly
-245490ea861a7a6aa7b7c530056b1fd3cd816561 rcu: Name internal polling flag
-724a73a18b4f391c1348198dccdfa4682e1e63cb rcu: Check for successful spawn of ->boost_kthread_task
-1b0d1c5996cfa54365d77ab55217f45304ae4305 refscale: Allow refscale without RCU Tasks
-4d9cd6b9d22a234666bfbd3f07bc3513c12bc4f6 refscale: Allow refscale without RCU Tasks Rude/Trace
-36e93d893ba4b2bcdfeefc16538546103af1660f rcuscale: Allow rcuscale without RCU Tasks
-944e602856aa6060c4fd3be08666c38599d6d058 rcuscale: Allow rcuscale without RCU Tasks Rude/Trace
-42665db838045b36662a83fec8fdff4d9232336d rcutorture: Make kvm.sh allow more memory for --kasan runs
-036e5258aea3b59f88e20729a6af12d2441b4908 scftorture: Adjust for TASKS_RCU Kconfig option being selected
-ae3ea80b03874703fc6273cc99e116d19cb6fc40 rcutorture: Make torture.sh refscale and rcuscale specify Tasks Trace RCU
-61ec8c928ee75f521d0627b6b91c2b01ff509c23 rcutorture: Make torture.sh allow for --kasan
-aedd26b87ccc2715d74180162d6973f322ef73b7 rcu-tasks: Make show_rcu_tasks_generic_gp_kthread() check all CPUs
-72ee6272c2a01687f3774f445574708452738302 rcu_sync: Fix comment to properly reflect rcu_sync_exit() behavior
+e301bfeecd20a3ca3278a8799b1dcac3a1ea2772 fetch-pack: refactor packet writing and fetch options
+3e3de3bc3d6edee2c092264da558431102c37249 transfer.advertiseObjectInfo: add object-info config
+0d19d2ba894ee20393ec07530a95b92f020259f6 object-info: add option for retrieving object info
+9be0383e459f66f814bb9d11c11cb02383e35477 fixup! object-info: add option for retrieving object info
+e5ec440c982417d39908b9a4bab79523a6a37f6c core.fsync: fix incorrect expression for default configuration
+a7bea281abd89650f1ee240a1ae28d5432ef9933 object-name: make get_oid quietly return an error
+7362786e861ffe6d239e777b038f932faedc29e6 builtin/stash: factor out revision parsing into a function
+caac77cc1d8971be1bedd85fc80c897110b7c2a1 builtin/stash: provide a way to export stashes to a ref
+6daeadca65763e9811a713d1675eeb425bea89cf builtin/stash: provide a way to import stashes from a ref
+d2e9081c3fb7874b11b907919aac69de989dd8ad vimdiff: new implementation with layout support
+8678acaaaa519efd40960c729a4215a05daa1589 vimdiff: integrate layout tests in the unit tests framework ('t' folder)
+2e4d0eb56e7814a1bfd2a8b47f42e52bd9d2d4f5 vimdiff: add tool documentation
+f6c635b44e7cf56ce61259591d90d61d931bd8ef mergetools: add description to all diff/merge tools
+932baa930fdb5ea80fe508f72dc20490f5153296 mergetools: add tools description to `git help config`
+5f34a0dcddb550f831c63b15a25cfc80fc0c6782 Merge branch 'fr/vimdiff-layout' into jch
+f8d7579efdf8a100b12851ad2bf7f35c4b24303d Merge branch 'dl/prompt-pick-fix' into jch
+229b9ce6c0e2c9a9e80d665ec4c380a375c849ae Merge branch 'rc/fetch-refetch' into jch
+57390180f99c0cacd49cd4454cdf51afffac31e6 Merge branch 'tk/ambiguous-fetch-refspec' into jch
+9a78878ad4a582ae571ff1c3d7ba7fd6abb72383 Merge branch 'jh/builtin-fsmonitor-part2' into jch
+3df8d290294a7b4dd5d96784d381bb4f84916112 Merge branch 'en/merge-tree' into jch
+0aaeb90fafcddfa904e1761d68c8d9a5ddfb98cd Merge branch 'js/use-builtin-add-i' into jch
+31da829129f86b9f8c76db6ae6b812a033d384d2 Merge branch 'js/scalar-diagnose' into jch
+f34a35fdc4a99e0d550ce4cc7943f886b889c564 Merge branch 'et/xdiff-indirection' into jch
+7aa177f74c074aba92e8226776196a6adb26ad95 Merge branch 'js/bisect-in-c' into jch
+adab1c718748d8ade6af8ea233d51752ac70097f Merge branch 'tk/simple-autosetupmerge' into jch
+19b935bbaa1650bc8fdc958b3286353cc99574b7 Merge branch 'pw/worktree-list-with-z' into jch
+611ef1325005974db1c97cd6656942be2873d99a Merge branch 'dp/worktree-repair-in-usage' into jch
+547a5cd0a344368f5caf331ac25c1bb23b45d9d5 Merge branch 'vd/mv-refresh-stat' into jch
+016d55804234a6026142fa8f8abac5602deed18d Merge branch 'tk/untracked-cache-with-uall' into jch
+560d9b8346f687d4713364368391c71ff03cb839 Merge branch 'ns/core-fsyncmethod' into jch
+2ca9cf6ab61ae7a7e2b1c08d5b84bc2aa8fde94a Merge branch 'ns/batch-fsync' into seen
+b89df6c1142bfd5a33e75cbff59171841b3b2dc4 Merge branch 'jh/builtin-fsmonitor-part3' into seen
+a5c71cc7ef76285eb8d63cdc7bd5a9e2ab724d98 Merge branch 'tb/cruft-packs' into seen
+8f60f5e9aff0e1697582acee5a5f69515cadb01f Merge branch 'jh/p4-various-fixups' into seen
+590360445fb7d4718d995eab70816b7ccf0e9daa Merge branch 'ab/commit-plug-leaks' into seen
+bfb13a1798dc250f78a41ae9b97c6a07f908bd7a Merge branch 'en/sparse-cone-becomes-default' into seen
+b3891615cf4bb55e66cc0b3b74ec5322af235ec2 Merge branch 'bc/stash-export' into seen
+69ce59f25803ab77f8569c742c1e77c885bcc3b7 Merge branch 'kf/p4-multiple-remotes' into seen
+09b4150b145b715313b6e734dcadc7b655b69168 Merge branch 'ab/plug-leak-in-revisions' into seen
+b91f68dc0851ced1c921413ca1418e4c389072f1 Merge branch 'ab/http-gcc-12-workaround' into seen
+1c16a480d94f64044be212179e3bbbbc9ff11ee6 Merge branch 'ab/ci-setup-simplify' into seen
+1968394bc50f488793e0ee3b5308f340863fc33b Merge branch 'ab/ci-github-workflow-markup' into seen
+e15ed75720beea34bf8a462f3b83932030473e63 Merge branch 'cw/remote-object-info' into seen
 
---===============4667463465430843585==--
+--===============2454742838750706857==--
