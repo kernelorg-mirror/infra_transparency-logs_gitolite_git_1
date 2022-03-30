@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7870934861765521469=="
+Content-Type: multipart/mixed; boundary="===============9161873858536056773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 30 Mar 2022 17:11:12 -0000
-Message-Id: <164866027202.25515.12634244722916619593@gitolite.kernel.org>
+Message-Id: <164866027230.25563.17159501114433135854@gitolite.kernel.org>
 
---===============7870934861765521469==
+--===============9161873858536056773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: d9c5818a0bc09e4cc9fe663edb69e4d6cdae4f70
-    new: 09422778fc8ca3a1132208cd8e957242be79eda6
-    log: revlist-d9c5818a0bc0-09422778fc8c.txt
+  - ref: refs/heads/linux-5.15.y
+    old: e29be6724adbc9c3126d2a9550ec21f927f22f6d
+    new: 5ad2919962c839a6e54010d4c07ffece674ab514
+    log: revlist-e29be6724adb-5ad2919962c8.txt
 
---===============7870934861765521469==
+--===============9161873858536056773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,53 +32,60 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648660270 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1648660263-7bc835e8c4077f3a6664032ec3674690dee492f1
 
-d9c5818a0bc09e4cc9fe663edb69e4d6cdae4f70 09422778fc8ca3a1132208cd8e957242be79eda6 refs/heads/linux-5.10.y
+e29be6724adbc9c3126d2a9550ec21f927f22f6d 5ad2919962c839a6e54010d4c07ffece674ab514 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJEjy4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e+UP/0NlL+QE9icOfsG6VMuY
-OtuscsEpdw9Q8HeMAmLupCunwL9fw5Qd7RY4s6+jD6WYPFPy8ZRPkQ0Vzqxo6yLR
-uxVz5tPdE5S5ysq97faxFXNuJXp/vXf6FdvwhJJaJ0XG2rboa5CSrUMTLZEATJeB
-4q+2UPIziCe026CbSnTBC21AGR8UF2hYqg5RObJxhJftX9uapcGZp4L2o6Oxx60M
-sseHPSdVgmd0CKQm9w0eOEMamjoshzlPsnjjIP1kC983qEG/oj5QNjcCL7tHfVxa
-6lMvwQF04qhbz2Ncd1RwT631Jhk0zL8DXZBP8cp4nWPZXwzuAvnjj7fua/jj0msw
-+D8KJYQncqzW5i86rPlO80GCY3JjUcn4l2Og1ovD0ROl4rL3K179R/t2VPcsPXh6
-/C86hO76Pi8VGc3QUC1V6V47MLeO/Ysp16ogzelNscjU0VWO/XifMM8ProC2m+Zj
-519T4wLDDghXGRIdabzNCGfe+nwxnd5Fiduewr1YfqVbBvUOaxa8g8HKRIHiaX/4
-UFMnlPfhZIz+SI28cpzPxT3/L/yq1d97aLqN3SlUVnwU8KOigA9oCj9acRZz1M0x
-usTRnSGnWdA66t9csOm8xKEtHg2BxIjy0mmq/yzlhWaJGZ1feuqoS3oFNi27OfM/
-bdMf/NeuyU1pVqk0TPufJC+v
-=kLpZ
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RokP/02fDpAAIXY8pVcKQrpJ
+cZr04rpD3cElzceqOnbMcNL81IGcPO58yiq8/9oYtuWiQfVyZwoLhXRGN1NEkY+f
+RseTJkR3lFjBoqqEuQtZqzR3XomE+/bdOXOgo9lCX+pxl4Iz7Bw2AZF7ZRD6NxWg
+fO+EUCql2EdQbUvz1J34zVEI8g9+/CgGhAW1xiLRnT53zZ5zD5Q+i0NXf3dSpuSV
+aYbUjuYBAyKLsi4xPHIrAMNPTiKTHwITy6YU5yguWEIq1JVAxLeToUYhAEXHU/eA
+hA1xFXxtvTQTOqh2U+iWKgY5RttR+Fo7x1KiJJXq06QFQdANDRTtc9gjvbw5VlQf
+cpHEqgS2JH5kgFV7OO9H/E/PUAcR9Z1Rtcp+zmK2erbwkuJj5Dccq8EOQXsNO8E2
+3Nq3vf3kygr9Fzwx7vjUfyG5NN75CK+TaPrLi7Onr3pI/C0xsbs7AunOOUX1a7LR
+xeBglDPuLYsiN3kAurwG4sIaBvVXTgaCuML0UxGXm88Us8EzuaPFrDEaGu0vfMP4
+lRJjYJawKs4Ro48I1WEmNRLuKX7aEc8CoW+hcVLNwpNFA3mfMM8KEtHmJZklXF2G
+Ru25s00hppJP/vRMSWSGU5O+fzKUNq1+SvYwiO+MuiY1Fed+4E+9O2T5h2MaIj4P
++yHlFDY611njHAiCYv8xFn4z
+=PgOl
 -----END PGP SIGNATURE-----
 
---===============7870934861765521469==
+--===============9161873858536056773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9c5818a0bc0-09422778fc8c.txt
+Content-Disposition: attachment; filename=revlist-e29be6724adb-5ad2919962c8.txt
 
-f2e160154d5e7a724cf9047569e6c36ecee7e6d8 swiotlb: fix info leak with DMA_FROM_DEVICE
-8e909a263b5b8ea6f3a7ab31f010e41c6affd0ad USB: serial: pl2303: add IBM device IDs
-5a4d6d1318b7dffa2ca4da80727fd010585055b6 USB: serial: simple: add Nokia phone driver
-ad0db40672c850587c30528933eba9d298b3eded hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-8bd310a3caba9dc1cf05634b37cb8d6eed37a553 netdevice: add the case if dev is NULL
-93e9ffac7b68e1bfa23d19ea19db3f07f59eaffa HID: logitech-dj: add new lightspeed receiver id
-24f3e86ed79ceb4a3ae19b502924bf98a037176e xfrm: fix tunnel model fragmentation behavior
-d520eb43c4804881bd6c8a4b40a1071379e5ed23 ARM: mstar: Select HAVE_ARM_ARCH_TIMER
-c135749f9413b5874927bda871df42dcaa67a1b1 virtio_console: break out of buf poll on remove
-fce8f991d0dfaf4607519cecaeab503dbae2bcba vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
-7fc485a65cfe9e6448db83001db329a495d33396 tools/virtio: fix virtio_test execution
-53d7ccd0e3ea777a1d462213d9caf6c502db5bb5 ethernet: sun: Free the coherent when failing in probing
-71a7f40f1fc72ca4dc9c51cd5a8fd71997c394c1 gpio: Revert regression in sysfs-gpio (gpiolib.c)
-36edc1952b496951e241e0fb8360c69173b1d485 spi: Fix invalid sgs value
-b7f543db40485b958dd8df35a78edaf68e1b35c9 net:mcf8390: Use platform_get_irq() to get the interrupt
-ee55ddd40a48922de3b9e918bbd956523a83d98d Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-7c0563c7b4e8f98d1237fcc15717160db4b5aa8f spi: Fix erroneous sgs value with min_t()
-13b0ddd7ea1635818a416f4f829a03299afc7a07 Input: zinitix - do not report shadow fingers
-faca3280eee574fa670172a95cedc07f7bc0ddfe af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-3726239f4a1760275784017788da039b5deb4a89 net: dsa: microchip: add spi_device_id tables
-07e823165051533938ef42d62aa82f397cb8b2ce locking/lockdep: Avoid potential access of invalid memory in lock_class
-e48f22fc7e008b5360de75c2bbb6de3e67fc3cb0 iommu/iova: Improve 32-bit free space estimate
-09422778fc8ca3a1132208cd8e957242be79eda6 Linux 5.10.110-rc1
+1d8c95fcdbdb09952c0b8c9b0ad5fe0ef0fb6c4f Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
+26a0b6523a5316c50660167d7d858f7409a09f65 USB: serial: pl2303: add IBM device IDs
+268d53819859d3a9fecce5fcda74f3dcba095f8e dt-bindings: usb: hcd: correct usb-device path
+21d01317ebcb15bfe5e5e05c6a0942eb88ae0083 USB: serial: pl2303: fix GS type detection
+0c84acc2060eceabed3992f7f078bccbac1777ae USB: serial: simple: add Nokia phone driver
+26ff7a5c4fe18d14863b7e8f0a075d2811f8b99c mm: kfence: fix missing objcg housekeeping for SLAB
+e48a3b98725097add33937bdecaa302b81e16221 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
+ef5e20d8083ddaf21a6af4a20e4eb6004cd0cd31 HID: logitech-dj: add new lightspeed receiver id
+e18549338208b70ccb996001131a1da52be3aee2 HID: Add support for open wheel and no attachment to T300
+9fd74611ce055b89df648c4c1e65ba2dba4e3936 xfrm: fix tunnel model fragmentation behavior
+339f633acb02ae356df81f70b6a68d62594a3538 ARM: mstar: Select HAVE_ARM_ARCH_TIMER
+335498de13b1a0527576cd084e15160e6e82cba7 virtio_console: break out of buf poll on remove
+04d1d317efc94b2b4f1ae1f673e697fa0454e6a8 vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
+3a2e2a326a350dd3894338d62c1f9b8181361a8e tools/virtio: fix virtio_test execution
+f59ead4f9522fc6f80ce7421d8fc6f98422bb9b0 ethernet: sun: Free the coherent when failing in probing
+61acc6168039c141a60d3fac91713bc4ea8b02cf gpio: Revert regression in sysfs-gpio (gpiolib.c)
+fe55f7f277b2fcff3333affe44ed3685f13deef9 spi: Fix invalid sgs value
+fc3a0688617b796e7f021441b0ff083d996fdfe3 net:mcf8390: Use platform_get_irq() to get the interrupt
+9f49c3fa72e1ff3e874a8fd1feb2af373a381da1 Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
+54baed54d1bc16b09655cc9c8e1485af6bd6d019 spi: Fix erroneous sgs value with min_t()
+29450f170862d79a16c1c68ef15c89ad1f7ed452 Input: zinitix - do not report shadow fingers
+aae953018ef426df264d6ac84dbce7d8dac5d85f af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
+ebd98601863a965e83468cd352981b1deca2e28f net: dsa: microchip: add spi_device_id tables
+7fb2927b50067985ae4e6e139ff3710338b1c92f selftests: vm: fix clang build error multiple output files
+0a0cf2129d22ab8cc6a10d8e146962ce5368045f locking/lockdep: Avoid potential access of invalid memory in lock_class
+fe62815471e66fb3b4e8e61a335769440cd3ff0b drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
+fb7e87cfacd22d851a188e3a9fe477da76f3f2d3 drm/amdgpu: only check for _PR3 on dGPUs
+277e19503b04c68200bc289356711b95eceaf31c iommu/iova: Improve 32-bit free space estimate
+7d366449723d591f94f3d2584ca0b9673cf904a7 virtio-blk: Use blk_validate_block_size() to validate block size
+5ad2919962c839a6e54010d4c07ffece674ab514 Linux 5.15.33-rc1
 
---===============7870934861765521469==--
+--===============9161873858536056773==--
