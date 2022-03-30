@@ -1,229 +1,124 @@
-Content-Type: multipart/mixed; boundary="===============1306727762118471235=="
+Content-Type: multipart/mixed; boundary="===============1411034032854036125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 30 Mar 2022 16:43:14 -0000
-Message-Id: <164865859494.6310.11202391647456188225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Wed, 30 Mar 2022 16:52:14 -0000
+Message-Id: <164865913496.13153.15142370075969849814@gitolite.kernel.org>
 
---===============1306727762118471235==
+--===============1411034032854036125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/4.14
-    old: d572fb0e0eef53df304809f9e6a93a00bb42b526
-    new: 3d0b0a3b342abcdb8f089d537a24e61392837941
-    log: |
-         9ddf93e891ea22ccef65bc6246f9a87164557a26 USB: serial: pl2303: add IBM device IDs
-         fe4767ae8a818cbeed0e3e3591b285e986d32c6e USB: serial: simple: add Nokia phone driver
-         951e8b62beac4cefd9750f10d788baaa2cedadaa hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-         9ba7bda0d8b8e2be01037d200410b0e4932b4d47 netdevice: add the case if dev is NULL
-         32165f48313adc56df93b1f03305f6021a7ef537 virtio_console: break out of buf poll on remove
-         ea3fb61664a4fd8baf13b1bf2fa07893321dc7eb ethernet: sun: Free the coherent when failing in probing
-         56f951cc2c090ed1f8034708400a038785f0f108 spi: Fix invalid sgs value
-         c68b3512a8489a8f1890f53dc0356b7848eb6bb8 spi: Fix erroneous sgs value with min_t()
-         b5015da1ce57b8bfdb2c507ece95f63766298658 af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-         3d0b0a3b342abcdb8f089d537a24e61392837941 fuse: fix pipe buffer lifetime for direct_io
-         
-  - ref: refs/heads/queue/4.19
-    old: 0ccaadc1ede348fc78174f41ea3512085300be4f
-    new: aeadc134c12f0f84a6b8d01403f37c20699fbc20
-    log: revlist-0ccaadc1ede3-aeadc134c12f.txt
-  - ref: refs/heads/queue/4.9
-    old: 4d5698fc6e0a09480ba191a031cd499ba5265c38
-    new: 1084389c26d25b49800672c5a8a93988f00d0cae
-    log: |
-         3a599b2e5786d14218e7a69581d74a91953666bf USB: serial: pl2303: add IBM device IDs
-         b62656e9dfd30225ded700a4fb6fadecb3083e94 USB: serial: simple: add Nokia phone driver
-         8f100ee68c9500ff01138bd5ae9a53ecff5770ea netdevice: add the case if dev is NULL
-         fd5ea1a0a4e9f6c56456431b9c887c5cf7d21f6a virtio_console: break out of buf poll on remove
-         da61c59cbf0e802df70be75deddb9ec5d0c4e060 ethernet: sun: Free the coherent when failing in probing
-         1084389c26d25b49800672c5a8a93988f00d0cae af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-         
-  - ref: refs/heads/queue/5.10
-    old: 114e9b39e948fdf229855eae848b2578fd5f902d
-    new: e3a27d59f151b757feb380b82fe561633bd4019b
-    log: revlist-114e9b39e948-e3a27d59f151.txt
-  - ref: refs/heads/queue/5.15
-    old: b4cc7a8ba6bc03b4dac429001f351acee7163e82
-    new: fa2f2eb2bbe4bb194e6b979aa6ea143491c4d606
-    log: revlist-b4cc7a8ba6bc-fa2f2eb2bbe4.txt
-  - ref: refs/heads/queue/5.16
-    old: cf74991bd24336af7146694eaaaee01d290c234e
-    new: 601f980bb3a344c9eb24d7d0149ded5691edfc90
-    log: revlist-cf74991bd243-601f980bb3a3.txt
-  - ref: refs/heads/queue/5.17
-    old: 360f2ab712a03b308654d086566a72b1d2b3ba9d
-    new: aa93200cbc214f3ac33363dffc5513830b3c955f
-    log: revlist-360f2ab712a0-aa93200cbc21.txt
-  - ref: refs/heads/queue/5.4
-    old: ce19c02193b4907ed7c7640dfd0a94c13da6d8c8
-    new: 0962c4e581ac6f915f24f3f8c335a58db2a56a14
-    log: revlist-ce19c02193b4-0962c4e581ac.txt
+  - ref: refs/heads/next
+    old: b1e34d325397a33d97d845e312d7cf2a8b646b44
+    new: 72863fa1b6f04e37ba0cd181961728650aa96b85
+    log: revlist-b1e34d325397-72863fa1b6f0.txt
 
---===============1306727762118471235==
+--===============1411034032854036125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ccaadc1ede3-aeadc134c12f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-93f85dc73cab84dd787921983259924fdf074f69 USB: serial: pl2303: add IBM device IDs
-7e8d36dd3d993c8f6286a2c167ab4cf5ce71e526 USB: serial: simple: add Nokia phone driver
-74af5995bd09b795f3e78445afdb3141e47ecd76 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-548eb63b5d382cd354f4e297c7f014c4a72049c1 netdevice: add the case if dev is NULL
-ff1e98c92d0ba8051e49a8f67d41c2b11eaf56f2 xfrm: fix tunnel model fragmentation behavior
-f6266c3cc3da2115698b11d0ba189790ffd877e0 virtio_console: break out of buf poll on remove
-a349ba473972b5018fbca9d5df17dff9a75c587c ethernet: sun: Free the coherent when failing in probing
-8ab06918ac3796b4f93f21d0cdb8697d17ad36bf spi: Fix invalid sgs value
-def3b0e79e8aa6ab78aeb2834ae831d863bda1b6 net:mcf8390: Use platform_get_irq() to get the interrupt
-b40fc9f69a6abbc4c6c5ce0649f401e928d0819e spi: Fix erroneous sgs value with min_t()
-3da8f9ac80d9cdc7b6d760578a7a2b1b1bafaa34 af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-aeadc134c12f0f84a6b8d01403f37c20699fbc20 fuse: fix pipe buffer lifetime for direct_io
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1648659094 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1648659093-cce8a0a322939b40b34191939de9d73cdf516549
 
---===============1306727762118471235==
+b1e34d325397a33d97d845e312d7cf2a8b646b44 72863fa1b6f04e37ba0cd181961728650aa96b85 refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJEipYUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPquQgAh6tkBudlHMFGXjn0UjBBc1g3fZvI
+s7JabZYK738SleIigAC0C9Ip8fL9rm+8GD3gOyx5fuuZoovnyq9nHjh5BXyXA0dJ
+sOqsBgBRhI3iY/wPTOSKCrKyW5mBmoPV4Sw3uD+9FZ+A1Ed3jNLbrM26fGdLeSiE
+a1Vm1HA7UEeadEuzHAaMaUJYfD3IteeHRgezVkTO++sERN38NSi1Cj9fvRp0EJFx
+p1OaCvP3LZevI0qdg5jrVz0YN/8zIm428o4F2BKupccjunCpzbe5Rc/Xs30GtO1J
+VOPSO7UuXj+ZCid5eaXBVogAzBFWRkbFXFJYgdDH6iXBuaIkoI3Onp1Yeg==
+=/yec
+-----END PGP SIGNATURE-----
+
+--===============1411034032854036125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-114e9b39e948-e3a27d59f151.txt
+Content-Disposition: attachment; filename=revlist-b1e34d325397-72863fa1b6f0.txt
 
-0b3458115f2b6514f037be616ea4024b75736389 swiotlb: fix info leak with DMA_FROM_DEVICE
-c8e40e0d5a7512e26a7a5a0ea6efbd7ef1a0ae36 USB: serial: pl2303: add IBM device IDs
-c5d7d0da247bb8ed6c45c3056fcdd2711275e2ae USB: serial: simple: add Nokia phone driver
-045f964817ca25ca149bc1f249363304dbff30e8 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-e7ba980ad8c19628c4cbd8002c513121a2ab91f7 netdevice: add the case if dev is NULL
-c9ce5d6783c16fd809fa79ccf4abcd2be37da285 HID: logitech-dj: add new lightspeed receiver id
-0a1ca6db25cbd9f06151dd2ded4e20bbfc6dcb78 xfrm: fix tunnel model fragmentation behavior
-2032215d57792415975dcd428c8077ad68127d04 ARM: mstar: Select HAVE_ARM_ARCH_TIMER
-8946bcbdc478fdd59549d44f0d807453397e0b0f virtio_console: break out of buf poll on remove
-091412e782e7a4230b1b46d7fa52e41fccd2aad1 vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
-f8e7779754b6a49509d1511cec46cbad94933fea tools/virtio: fix virtio_test execution
-4983f259444689e5f55e662372e9d577d45fc68c ethernet: sun: Free the coherent when failing in probing
-8901cf6e5caec97b5715f6081f26c6a27d4577d4 gpio: Revert regression in sysfs-gpio (gpiolib.c)
-fa755cb736db5076512639bef7dcf87afed5d070 spi: Fix invalid sgs value
-dc7b89d5f19434b3ecf75cd8035b391f2f64466c net:mcf8390: Use platform_get_irq() to get the interrupt
-7cc22ad0a2e0ad8bededacdde581de9d79e021fb Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-afb84e8cb161b23f2c9ff12273a5a22623b04462 spi: Fix erroneous sgs value with min_t()
-65fdde6819cd97afbd90df845e184b0ab157457a Input: zinitix - do not report shadow fingers
-c98c0bd5d6efe0bb22ccedcc1891ff9ee6e6ed2e af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-ba31bd23ec091dada4f3fe9ce6a8a0015449dfc2 net: dsa: microchip: add spi_device_id tables
-83c1357982f7760cc59176c524f2d6cc7fa01ad5 locking/lockdep: Avoid potential access of invalid memory in lock_class
-e3a27d59f151b757feb380b82fe561633bd4019b iommu/iova: Improve 32-bit free space estimate
+0a27820e11d3a34d55d11e104c98824fea09bfeb KVM: x86/mmu: Recurse down to 1GB level when zapping pages in a range
+f1ad2c0892d7dde430cf5dce520bb223e4c67af2 KVM: MMU: propagate alloc_workqueue failure
+398e6559e5342214a6ee50a139a14e30786273ab KVM: SVM: fix panic on out-of-bounds guest IRQ
+737c2101ab55068b754aa9f093d9291caf864428 KVM: x86/mmu: Zap only TDP MMU leafs in zap range and mmu_notifier unmap
+686a13060dedbe435874f26459d1eae7251c6014 KVM: x86: Allow userspace to opt out of hypercall patching
+f3a2df72fe54881622e119208d42a9ed0291586c selftests: KVM: Test KVM_X86_QUIRK_FIX_HYPERCALL_INSN
+7a2fb30d54d20a2bfae9b2b9df7dfb8693887fa5 KVM: avoid double put_page with gfn-to-pfn cache
+f25843b69944e3763d331c8410e5552cee0c385b KVM: x86: nSVM: implement nested VMLOAD/VMSAVE
+881f979356a01b2fd382c1d26aa6e423808c2ecd KVM: x86: SVM: allow to force AVIC to be enabled
+37be1dee56de3b514750aefef504e6770062c7cd KVM: x86: mark synthetic SMM vmexit as SVM_EXIT_SW
+6f5270ade70b2a6f0c13c1aa52a09a9f51681f6d KVM: Don't actually set a request when evicting vCPUs for GFN cache invd
+32b43ba2510a6ff5211c7c1a0a961220707a1851 KVM: x86/pmu: Use different raw event masks for AMD and Intel
+9904e2a72f2134095d94211b63ddb8637691f8dd KVM: SVM: Fix kvm_cache_regs.h inclusions for is_guest_mode()
+cab1ec7aeb584d05f2baf19f79ac164bdc23b34b KVM: Use enum to track if cached PFN will be used in guest and/or host
+8fe96c5cb5a863c9ccf2dd32e52dbc317c78a451 KVM: Remove dirty handling from gfn_to_pfn_cache completely
+3e338624f2a30577d2b19627e249481437e0a79c KVM: x86/xen: Use gfn_to_pfn_cache for runstate area
+6227c1bbb4c94ddf2cf6e034d1574a36822adb79 KVM: x86: Use gfn_to_pfn_cache for pv_time
+c984fcab38e652e2f8a21c394f24e5dd47f30a15 KVM: x86/xen: Use gfn_to_pfn_cache for vcpu_info
+71d0b09f5d926633cf2a18b4e23e97b7d6ed2271 KVM: x86/xen: Use gfn_to_pfn_cache for vcpu_time_info
+39a2e2018da33455c9753da332c248d40110d5ad KVM: x86/xen: Make kvm_xen_set_evtchn() reusable from other places
+68dea34f26d4ee1c254cf54cbd552595a8f9abb0 KVM: x86/xen: Support direct injection of event channel events
+793fcf60b8859ab19318243d6b0b339feba4ffb6 KVM: x86/xen: intercept EVTCHNOP_send from guests
+afdb51587e83645d0e04e5acc03d07b59cecc0ce KVM: x86/xen: handle PV IPI vcpu yield
+6abd2804a99819e885f7519430b0a341fadd2873 KVM: x86/xen: Add KVM_XEN_VCPU_ATTR_TYPE_VCPU_ID
+ce4e53b0ecc9f1dc6077ed24f01918856de808f2 KVM: x86/xen: handle PV timers oneshot mode
+92b926f70f8b70efa958657b65faf2d60504fdff KVM: x86/xen: Kernel acceleration for XENVER_version
+5dcbdd7c1691ce99210d898c090ca74e9118bd36 KVM: x86/xen: Support per-vCPU event channel upcall via local APIC
+cf17bddc12ece5892fda4198190e4d9b599dbf60 KVM: x86/xen: Advertise and document KVM_XEN_HVM_CONFIG_EVTCHN_SEND
+824bf3054617ea28043c6271cfdbc94f1c0107b8 KVM: x86/xen: handle PV spinlocks slowpath
+cf7f35b8381df43ad2d670778b3a3cdc2c8cea3c KVM: x86/xen: Add self tests for KVM_XEN_HVM_CONFIG_EVTCHN_SEND
+db2862c293f3f0984392293cc1516e98024bdf6c KVM: x86/xen: Update self test for Xen PV timers
+20cda7750fafc4352da85e83c621535de3830798 KVM: VMX: Prepare VMCS setting for posted interrupt enabling when APICv is available
+a3d2130274794a506b141e72c761d064cb6e6156 KVM: X86: Change the type of access u32 to u64
+efdc5dbc537345e7029026eb228aa8f1c58da3f2 KVM: X86: Fix comments in update_permission_bitmask
+55bdd70b1f7182307cd3ecc100444f5d6790f869 KVM: X86: Rename variable smap to not_smap in permission_fault()
+de51ba53117f0a5337a18665c1f26b125aad7376 KVM: X86: Handle implicit supervisor access with SMAP
+4972ba2f18f5c1758f370415afd648071d415a6b KVM: x86: Make APICv inhibit reasons an enum and cleanup naming
+1c072a19d7b0ccf7a36492db8a279fc2ef7b3683 KVM: x86: Add wrappers for setting/clearing APICv inhibits
+a9ef30bad39b5ad17c50a32d6685ee269412691e KVM: x86: Trace all APICv inhibit changes and capture overall status
+cf0e21f42a8cc83be4a7ce9e74dfc12e53cffd38 KVM: x86/svm: Clear reserved bits written to PerfEvtSeln MSRs
+3ad006e0127e54bd7224b8be57cf643c5d1083c3 KVM: x86: mmu: trace kvm_mmu_set_spte after the new SPTE was set
+629165d23a1949d71e798f228f2270870559d35d KVM: x86/i8259: Remove a dead store of irq in a conditional block
+a47df41738d93b0ca6b73063c676dd507a2e93f3 KVM: x86/pmu: Fix and isolate TSX-specific performance event logic
+5400b43ac299988a40df5044d9db6ffe33f13090 KVM: x86/emulator: Emulate RDPID only if it is enabled in guest
+526e19e33540422d9226ba5ebd646f3700813ec9 KVM: x86: Only do MSR filtering when access MSR by rdmsr/wrmsr
+b645fa7274540d5b756e0f5bc47169d15d3abe24 KVM: x86: document limitations of MSR filtering
+b17bae701dcf5638e8ad8a8bfbe2feeec8004c2c KVM: MIPS: remove reference to trap&emulate virtualization
+eeb9f14edb2d461a2c66d819f8f77808662fb2f8 KVM: x86: Accept KVM_[GS]ET_TSC_KHZ as a VM ioctl.
+404eb77118bfd8edbde802c0d447d4aad81422f6 KVM: x86: Don't snapshot "max" TSC if host TSC is constant
+bbe5c0ea866f9df6eb88b2d7fb58e7c287897b12 KVM: x86: Test case for TSC scaling and offset sync
+85169122212bf7fdf9df2f3a43fc856041cefbd0 KVM: x86: Support the vCPU preemption check with nopvspin and realtime hint
+d428e310f05aef9496ec4d19fb610e015a9542a8 KVM: x86: SVM: use vmcb01 in init_vmcb
+fed7d971e0c6a8ac2b9e43c0f6753d373f7d06d3 kvm: x86: SVM: use vmcb* instead of svm->vmcb where it makes sense
+1241b02d642d21f445c481d6bc78ec4c2f90e2ed KVM: x86: SVM: fix avic spec based definitions again
+608d09d13fc294fcef1d24572aef467a7992e67c KVM: x86: SVM: move tsc ratio definitions to svm.h
+86ac72f75deac62f2c1ec26e7ac20d85276f2460 kvm: x86: SVM: remove unused defines
+70e02f15fe19cc8bfcfd26ecdc86a0cbe79ad392 KVM: x86: SVM: fix tsc scaling when the host doesn't support it
+f31b6cf33e01f9321f17457967e7ffa5673ced1e KVM: x86: SVM: remove vgif_enabled()
+013e9b346de6185cc5075b5b7642ae9d4deade93 KVM: x86: nSVM: correctly virtualize LBR msrs when L2 is running
+51e6e7d8635d6d2b0b69c1624d28e54ddf83e076 KVM: x86: nSVM: implement nested LBR virtualization
+8ce9c1f46a0e3a2d7fd5d6e6048117c1aea655e0 KVM: x86: nSVM: support PAUSE filtering when L0 doesn't intercept PAUSE
+80acb3e718dd9602d38e7d6f03f2ca40ac4457ca KVM: x86: nSVM: implement nested vGIF
+b4e1f44bad55900edd10f549088c631af9789114 KVM: x86: allow per cpu apicv inhibit reasons
+b90f9f5a6ced444bde39bf115bf73a1eb7a1742e KVM: x86: SVM: allow AVIC to co-exist with a nested guest running
+507486bea0c52c0f5bf9ee880047116c95dbed70 KVM: x86: cleanup enter_rmode()
+38207325f8fb8bbf4c257e827e9e55f4722777d1 KVM: x86: Remove redundant vm_entry_controls_clearbit() call
+39f0f0a1d2fd967252d80741fdcf704919b4e338 KVM: x86: optimize PKU branching in kvm_load_{guest|host}_xsave_state
+460296cbcd1761dcdee4f8bdf9b5e51f8d00d2bb KVM: x86/mmu: Don't rebuild page when the page is synced and no tlb flushing is required
+72863fa1b6f04e37ba0cd181961728650aa96b85 mm: avoid pointless invalidate_range_start/end on mremap(old_size=0)
 
---===============1306727762118471235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4cc7a8ba6bc-fa2f2eb2bbe4.txt
-
-3a836b597bd5bfa209457a8107a56b00f89f1088 Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
-13e22d8441974cb8d08d1f67f01e9535815e47a6 USB: serial: pl2303: add IBM device IDs
-3884febe4fd1b17cb30bd8d749a7f979c4cb4851 dt-bindings: usb: hcd: correct usb-device path
-e5f997fcc29f54f7100ffaf22a292445039d4c4b USB: serial: pl2303: fix GS type detection
-0610eb5cf816f6829d21aade9c450fa10a011e45 USB: serial: simple: add Nokia phone driver
-a5e131a015380e36fd73e3b9c847c7ef81562c37 mm: kfence: fix missing objcg housekeeping for SLAB
-4af3ea9b6b94bb7801eb0cff3b7b01400093c117 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-d29ab2aa62efec98080f23d83e3313cc61fc12f2 HID: logitech-dj: add new lightspeed receiver id
-41908ec51595e5b087c84a43a4cf0da9bf5f2f83 HID: Add support for open wheel and no attachment to T300
-725d634937c91deadd67f893961591b3c9d89167 xfrm: fix tunnel model fragmentation behavior
-f14959cbe9d097c66518076b53f5bfbf63396321 ARM: mstar: Select HAVE_ARM_ARCH_TIMER
-ba15bc0d355d3f573f719f0e5d31c532a4d3ae66 virtio_console: break out of buf poll on remove
-ec6a315b0584c1e5141dbafa5cd6780b9c49253b vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
-26e20af84eaabb5c73356d07109f08ea7ab70ba9 tools/virtio: fix virtio_test execution
-7581afe66447d6717f53faf4d9f9d9afb861edbe ethernet: sun: Free the coherent when failing in probing
-8ceb1665d7d20a597640af7478cc2f4bdbd16fc1 gpio: Revert regression in sysfs-gpio (gpiolib.c)
-534f0698410a2e182d4e2d7ea7d13117cf2de2c6 spi: Fix invalid sgs value
-63f44232467051c602930661836c735f317c8e51 net:mcf8390: Use platform_get_irq() to get the interrupt
-a71e384e145e54898045a62fc341117c30798b14 Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-035e6627a1b4b70f4973677b443148b6086ef393 spi: Fix erroneous sgs value with min_t()
-6f4354705fafbff575e6a710c85aebc7ef8b21e6 Input: zinitix - do not report shadow fingers
-a7afee4c648ee77ded19212f8a8bdd3aef8d7b2b af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-0f62c75b51d6b9f093776b7b3e5b5717c0cfa531 net: dsa: microchip: add spi_device_id tables
-4ffc7b4b65f7d85cbac13ee316b8305df28893a7 selftests: vm: fix clang build error multiple output files
-1abacea26280f811902c1760fa40fd2052c7cfe7 locking/lockdep: Avoid potential access of invalid memory in lock_class
-2d17b802615a721b0e648a0034a39b4431d34d4b drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
-660ba1fe57cea1d0438f333d339780b3c359e48b drm/amdgpu: only check for _PR3 on dGPUs
-3b5207446c7bb82accb395d9cff6e68bb3eaf4bc iommu/iova: Improve 32-bit free space estimate
-fa2f2eb2bbe4bb194e6b979aa6ea143491c4d606 virtio-blk: Use blk_validate_block_size() to validate block size
-
---===============1306727762118471235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf74991bd243-601f980bb3a3.txt
-
-51f15372ac3b1559cb07e640b9a86f6503557b38 Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
-93ab5c276b3d4f70fcfadd2d2fa88aab6f5c97ca USB: serial: pl2303: add IBM device IDs
-8458534278055cd05dbe2303c636ad895e8fff39 dt-bindings: usb: hcd: correct usb-device path
-d44da9b5ab7105213ca3bc2422be28670cfd0b0f USB: serial: pl2303: fix GS type detection
-7068d0de7fae2b741d2c95139c4b62c0a9e5a7b0 USB: serial: simple: add Nokia phone driver
-78ad609f2d85a84171ce586ad65bb67f2d541a2a mm: kfence: fix missing objcg housekeeping for SLAB
-be604456ced29d710cc5785e7c0e6fdbef2a344f HID: logitech-dj: add new lightspeed receiver id
-996fd1ac7e7f07090392385755b1fbd49bf1ed5c HID: Add support for open wheel and no attachment to T300
-a7b29e07c157d59b29ce12e6a2f71a096b5d1398 xfrm: fix tunnel model fragmentation behavior
-6290cfde5d8d2a43470c19f171c8054323b617fb ARM: mstar: Select HAVE_ARM_ARCH_TIMER
-6059bdd40c47536b005226b37c4c238b698892df virtio_console: break out of buf poll on remove
-e980e2cd55e687ca6ba00f344aaa88f0c491bc2a vdpa/mlx5: should verify CTRL_VQ feature exists for MQ
-e964df54322121a515edb052b55e7d0d5aae6ed9 tools/virtio: fix virtio_test execution
-96713c42dac5921939a6d6223333c867bc772e3f ethernet: sun: Free the coherent when failing in probing
-0768e91c97f30fa431897d7dae437dc93394f3a5 gpio: Revert regression in sysfs-gpio (gpiolib.c)
-8bbc57e6f36381e068339bb14b9da3f0444bf0af spi: Fix invalid sgs value
-26b4dc1702ab53eefe01e4666c91729c78db9480 net:mcf8390: Use platform_get_irq() to get the interrupt
-6dc19f9381798c9b223b96ddca3692035f7371f0 Revert "gpio: Revert regression in sysfs-gpio (gpiolib.c)"
-8637a799923ebb2f3b807585bbc46e913ae99140 spi: Fix erroneous sgs value with min_t()
-2629c6b5f3c6f7f8af68d50207ead8b7fa1c6696 Input: zinitix - do not report shadow fingers
-caaffc4580729efce5730926cdf17849513e01aa af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-e0f5acaa745b60bab113f734e256b1c1048371af net: dsa: microchip: add spi_device_id tables
-ec5c31bab1f092264e510020db2310654c6eb355 scsi: fnic: Finish scsi_cmnd before dropping the spinlock
-1851e83cb56ccc1969a63c2713d30d004cc38285 selftests: vm: fix clang build error multiple output files
-cdc7a58d2022cdbac153e417152261a56cd626c9 locking/lockdep: Avoid potential access of invalid memory in lock_class
-361e0e71d54f46ba0ff072e23aa7ff08fd6e8965 drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
-dd8e1b514b9ce9e994e839714f4918e4b9ede7e8 drm/amdgpu: only check for _PR3 on dGPUs
-601f980bb3a344c9eb24d7d0149ded5691edfc90 iommu/iova: Improve 32-bit free space estimate
-
---===============1306727762118471235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-360f2ab712a0-aa93200cbc21.txt
-
-27a0166a90dafd4788c500c7d40f29e85d0b8bec Revert "swiotlb: rework "fix info leak with DMA_FROM_DEVICE""
-db6dc597ce97265533536a2827d7da0219342c1f USB: serial: pl2303: add IBM device IDs
-85b6b81120e1a736e87c25261bf361e9a42be295 dt-bindings: usb: hcd: correct usb-device path
-ae7cf538816c2e5f113cf58753e36f7cabb500ec USB: serial: pl2303: fix GS type detection
-d2494a2726e9d004ecc456bfed89a17908bc6ba5 USB: serial: simple: add Nokia phone driver
-647502db29afc381cf0fd9f13431ccd68ed14466 mm: kfence: fix missing objcg housekeeping for SLAB
-188257ced26b9e066c7b3b48d43f95bb1b6508d4 locking/lockdep: Avoid potential access of invalid memory in lock_class
-19f001b6cfd0220fb6676c8f687a04c4b3558e9c drm/amdgpu: move PX checking into amdgpu_device_ip_early_init
-a0f53083e99fab38cda331a69b44448fead4bb3e drm/amdgpu: only check for _PR3 on dGPUs
-af08f95e7d0e33d0e38a0cf232de7145cf06a10c iommu/iova: Improve 32-bit free space estimate
-2fe5061e53359b0a9530efd0035c111d9d73e2db block: flush plug based on hardware and software queue order
-aa93200cbc214f3ac33363dffc5513830b3c955f block: ensure plug merging checks the correct queue at least once
-
---===============1306727762118471235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce19c02193b4-0962c4e581ac.txt
-
-3d82f3c3853fbc7996ffed74d87ddf266084741b swiotlb: fix info leak with DMA_FROM_DEVICE
-606d5c5fc52a41f0d39052955878ffcbdd1cd865 USB: serial: pl2303: add IBM device IDs
-cdf6fd60dd9b55e614d2653b3fb0d6b211efb4f1 USB: serial: simple: add Nokia phone driver
-c8443308fdaf8483f11baa2ea5a24b772cf17b83 hv: utils: add PTP_1588_CLOCK to Kconfig to fix build
-e0acd29246c6bde1a61c46bf694c7019ba740df5 netdevice: add the case if dev is NULL
-b2624bec0ecc3aa6ea3d4b23d1afc1e8e63136a0 HID: logitech-dj: add new lightspeed receiver id
-796398e24869a1e19f133601d0a23230e4d6705c xfrm: fix tunnel model fragmentation behavior
-0def90efaaf45b456e7a47a9d7242ce523e06f6f virtio_console: break out of buf poll on remove
-ae353b39150d755f7ad13853f7bccb7f56329877 ethernet: sun: Free the coherent when failing in probing
-7881671a1b740da18be8adc7fafb9a7a1401a249 spi: Fix invalid sgs value
-b405d4964ab0e1113f6a8138861d7822ad589fa9 net:mcf8390: Use platform_get_irq() to get the interrupt
-62169fc9836fd5ea670e579701b76ffed415dead spi: Fix erroneous sgs value with min_t()
-880039250920378514cda2b60d0d4aa39c5501bf af_key: add __GFP_ZERO flag for compose_sadb_supported in function pfkey_register
-0347bf7c10f7981325ed3d51062352de851edd0b net: dsa: microchip: add spi_device_id tables
-0962c4e581ac6f915f24f3f8c335a58db2a56a14 iommu/iova: Improve 32-bit free space estimate
-
---===============1306727762118471235==--
+--===============1411034032854036125==--
