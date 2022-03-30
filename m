@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 30 Mar 2022 19:50:03 -0000
-Message-Id: <164866980335.2451.7541717598226793480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 30 Mar 2022 19:57:55 -0000
+Message-Id: <164867027552.6264.3373110864748282251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-5.18/drivers
-    old: f941c51eeac7ebe0f8ec30943bf78e7f60aad039
-    new: f4329d1f848ac35757d9cc5487669d19dfc5979c
+  - ref: refs/heads/master
+    old: 6cb6e2ddf4471da365fe89ecd3c62454c9acf510
+    new: 4a06a31be0453d7c8208108dccbb7cfacf768bc4
     log: |
-         f4329d1f848ac35757d9cc5487669d19dfc5979c drbd: fix potential silent data corruption
-         
-  - ref: refs/heads/for-next
-    old: 1523cc875a6ba127f63a5a8e4e63dd6d199050d9
-    new: 672ac2b269280a15907380f19d92847ba1827187
-    log: |
-         f4329d1f848ac35757d9cc5487669d19dfc5979c drbd: fix potential silent data corruption
-         672ac2b269280a15907380f19d92847ba1827187 Merge branch 'for-5.18/drivers' into for-next
+         0cc480a546e9b4740451dbdaaadc3df8ca1f8c34 shell: Make bt_shell_add_submenu set main menu if none has been set
+         d204e84c0694700f6cb1b8d98d26492de63d4303 client: Add support for player submenu
+         4a06a31be0453d7c8208108dccbb7cfacf768bc4 a2dp: Fix crash when SEP codec has not been initialized
          
