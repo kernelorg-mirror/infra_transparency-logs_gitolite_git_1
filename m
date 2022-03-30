@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Wed, 30 Mar 2022 14:18:43 -0000
-Message-Id: <164864992378.9957.748507641417567100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Wed, 30 Mar 2022 14:24:46 -0000
+Message-Id: <164865028649.13270.749435097233042231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/bpf/fixes
+  - ref: refs/heads/parisc-5.18-2
     old: 0000000000000000000000000000000000000000
-    new: c8e0619c6c70c05ad8357088d92d9411079f72e3
+    new: a9fe7fa7d874a536e0540469f314772c054a0323
