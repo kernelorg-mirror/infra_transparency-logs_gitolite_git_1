@@ -1,34 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 30 Mar 2022 08:18:36 -0000
-Message-Id: <164862831645.26559.13018098326689210908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
+Date: Wed, 30 Mar 2022 08:19:06 -0000
+Message-Id: <164862834666.26810.11543269541971188201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/brauner/linux
+user: brauner
 changes:
-  - ref: refs/heads/linux-next
-    old: a3febb2f995b81cdac3c8cc31d6ad8e1d87dda28
-    new: 1c80cf031e0204fde471558ee40183695773ce13
+  - ref: refs/heads/fs.idmapped.overlayfs
+    old: df2370e6c3b9f46e96f94bf95bf150413cb427c8
+    new: ba6644a773eee67aab5448f8f744284a959c2019
     log: |
-         7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
-         c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
-         55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
-         1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
+         c6a02518c41488ec21f9001c90d18038fedefbb9 ovl: use ovl_path_getxattr() wrapper
+         3a297dd296c48e7762523d81cb23b8e7cea41a9e ovl: handle idmappings for layer fileattrs
+         e3f3df6772bdb63f7cf0c6b008bb1b328848c6dc ovl: handle idmappings for layer lookup
+         a11864b86786204ffc59db9ad77d0292978530df ovl: store lower path in ovl_inode
+         0db3a491f9e45b160f52bf104d0e3f7e80f5c5b6 ovl: use ovl_copy_{real,upper}attr() wrappers
+         9bed88b9be0f32a4a8165129e89afd2a6e790e49 ovl: handle idmappings in ovl_permission()
+         a23fb0ac5799d5361bb078c489298909f0d49cd4 ovl: handle idmappings in layer open helpers
+         6ca8353fc182b1b386b990f9177dc15f190b492f ovl: handle idmappings in ovl_xattr_{g,s}et()
+         ba6644a773eee67aab5448f8f744284a959c2019 ovl: support idmapped layers
          
-  - ref: refs/heads/vhost
-    old: a3febb2f995b81cdac3c8cc31d6ad8e1d87dda28
-    new: 1c80cf031e0204fde471558ee40183695773ce13
-    log: |
-         7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
-         c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
-         55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
-         1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
-         
-  - ref: refs/tags/for_linus
-    old: 2db3da269b345fc2a2de2d85eea688581db8a2ab
-    new: fe34dc7e55c805489a9fe361f52fdb5bfe90cad7
