@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Thu, 31 Mar 2022 20:43:21 -0000
-Message-Id: <164875940155.14712.4194156708534500917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Thu, 31 Mar 2022 20:46:02 -0000
+Message-Id: <164875956290.18148.15238719721686478245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 2c8937a039dff5c8a180f814dbe38f28344d2fc8
-    new: 5fcb2e3c43ac50e1f7a5429157ba0972bcb34f00
+    old: 0396e46dc46523cba8401a0df84f67cc0b6067ab
+    new: 1754abb3e7583c570666fa1e1ee5b317e88c89a0
     log: |
-         5fcb2e3c43ac50e1f7a5429157ba0972bcb34f00 Thu Mar 31 08:42:03 PM UTC 2022
+         1754abb3e7583c570666fa1e1ee5b317e88c89a0 random: mix build-time latent entropy into pool at init
          
