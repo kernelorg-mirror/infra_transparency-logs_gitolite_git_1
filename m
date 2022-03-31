@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Thu, 31 Mar 2022 15:43:11 -0000
-Message-Id: <164874139100.13674.6847048765466308969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 31 Mar 2022 16:14:36 -0000
+Message-Id: <164874327652.1799.1901364992760288361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: jes
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: e30ca260741d727e6f444e8f2ce25fe7a5a26567
-    new: cf9a109209aad285372b67306d54118af6fc522b
+    old: 46b556205dcead1ec180329b771c2593d81c6b9b
+    new: 9d570741aec1e1ebd37823b34a2958f24809ff24
     log: |
-         f1cc8ab9ab6a92c3cd94ab7590b46285e214681e Unify error message.
-         5ce5a15f0bf007e850e15259bba4f53736605fb2 mdadm: Fix double free
-         fea026b4849182fc8413014c81456e7215af28d9 Grow_reshape: Add r0 grow size error message and update man
-         cf9a109209aad285372b67306d54118af6fc522b udev: adapt rules to systemd v247
+         ea07af2e71cdf2c08251d8ead196ce1c9466e38c openvswitch: Add recirc_id to recirc warning
+         9d570741aec1e1ebd37823b34a2958f24809ff24 vxlan: do not feed vxlan_vnifilter_dump_dev with non vxlan devices
          
