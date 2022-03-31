@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0453463290740697060=="
+Content-Type: multipart/mixed; boundary="===============5041017078887407428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Thu, 31 Mar 2022 15:09:25 -0000
-Message-Id: <164873936563.23281.5888428753581735416@gitolite.kernel.org>
+Date: Thu, 31 Mar 2022 15:09:53 -0000
+Message-Id: <164873939307.23498.9372069384909516446@gitolite.kernel.org>
 
---===============0453463290740697060==
+--===============5041017078887407428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/helgaas/pci
 user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 611f841830aa5723ea67682628bd214cbc18df41
-    new: 7818872f7c7add1ae12dca9eddf118d6d308c401
-    log: revlist-611f841830aa-7818872f7c7a.txt
+  - ref: refs/heads/for-linus
+    old: 18146f25ac6695ce2ed09503de46dafd2b1f36a6
+    new: 148a650476955705482dd57e7ffcf105d8b65440
+    log: revlist-18146f25ac66-148a65047695.txt
 
---===============0453463290740697060==
+--===============5041017078887407428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-611f841830aa-7818872f7c7a.txt
+Content-Disposition: attachment; filename=revlist-18146f25ac66-148a65047695.txt
 
-5cccbe83ff2f3f1c6dddfbb83a7e81901908c4a7 media: platform: ti-vpe: move config to its own file
-2662ce2d08760cf749e47265d6275317db335b65 media: platform: rkisp1: move config to its own file
-f5a6e9176e209a7658214e6955e236241085c166 media: platform: delta: move config to its own file
-26e89e83dfb4ff8ea8fa0cf71e17476958388302 media: platform: bdisp: move config to its own file
-1d031da4f6e7ec7a83b6920d663e3baec11f6a98 media: platform: s5p-mfc: move config to its own file
-f879856a91daa91156f9b81c7be3dbf4f31bcd20 media: platform: s5p-jpeg: move config to its own file
-32ccd1f5a116eb5b848aa722e70f6a1ec91e590f media: platform: Kconfig: sort entries
-0461b70d0697fab7742e1ea4a5f63351ea821e04 media: platform: move some manufacturer entries
-d7700ca98d7a03eda24489a0eedaefda1a301629 media: platform: Kconfig: place platform drivers on a submenu
-64441979bda6c2d17fa40c022f7debec6c328793 media: platform: rename coda/ to chips-media/
-dc7bbea90075b57772e9a28043061bf71d96f06f media: platform: rename marvell-ccic/ to marvell/
-c1f3caff2450048ab6c053e5b23698b58f286159 media: platform: rename meson/ge2d/ to amlogic/meson-ge2d/
-8bbc139c6bde391d00835dd74e2326f50045cde4 media: platform: rename mtk-jpeg/ to mediatek/mtk-jpeg/
-1cb72963fa1e3667936d069333923787037e9ffb media: platform: rename mtk-mdp/ to mediatek/mtk-mdp/
-728dc4075accb2821b595f650b5a6a64f42a9abe media: platform: rename mtk-vcodec/ to mediatek/mtk-vcodec/
-574476a7d05dcfb0d66e90e43c2d20262f183b23 media: platform: rename mtk-vpu/ to mediatek/mtk-vpu/
-9b18ef7c9ff408df170ac339c57a759145c055d2 media: platform: rename tegra/vde/ to nvidia/tegra-vde/
-238c84f71120f41c45301359902a912a19370f3d media: platform: rename exynos4-is/ to samsung/exynos4-is/
-3bae07d4b44cf10bbffc6270e00816dda57e6e70 media: platform: rename exynos-gsc/ to samsung/exynos-gsc/
-c1024049033f923b80ec80f4c1857d6dbcdf5bc8 media: platform: rename s3c-camif/ to samsung/s3c-camif/
-a7f3b2d32dabd8e59854ec39ba257050b5e4949e media: platform: rename s5p-g2d/ to samsung/s5p-g2d/
-f4104b7851a8d8b9a70899dcbecdb393eb16cd8a media: platform: rename s5p-jpeg/ to samsung/s5p-jpeg/
-43ecec16c4face9a59e81771e7cbff4671c62117 media: platform: rename s5p-mfc/ to samsung/s5p-mfc/
-e7b8153e2a4f0c9c8d1450aa7328d54ea64fe8b2 media: platform: place stm32/ and sti/ under st/ dir
-407965e2348e6875e113c985331bdc125d58bdbb media: platform: rename am437x/ to ti/am437x/
-d24a170bde6543fa2879d3c422b7874716cdf038 media: platform: rename davinci/ to ti/davinci/
-ceafdaac46ea2c623a64eabaed64abd2fe7cb76f media: platform: rename omap3isp/ to ti/omap3isp/
-012e3ca3cb4d7f50699b983af86532aa92faa90f media: platform: rename omap/ to ti/omap/
 8148baabd1c4b02c0af3002d59a1c92975d2e719 media: platform: re-structure TI drivers
 68f8ef61c659f2c5b674ed4716fea78a7bbb01f3 media: platform: ti/Kconfig: move VPE/CAL entries to it
 f2ab6d3e8c485f794b5e2de07c09d2bd653ef85e media: platform: Create vendor/{Makefile,Kconfig} files
@@ -312,6 +284,8 @@ fcb93eb6d09dd302cbef22bd95a5858af75e4156 kvm: x86/mmu: Flush TLB before zap_gfn_
 873dd122172f8cce329113cfb0dfe3d2344d80c0 Revert "KVM: x86/mmu: Zap only TDP MMU leafs in kvm_zap_gfn_range()"
 1422df58e5eb83dca131dc64e0f307a1f9e56078 Merge branch 'edac-amd64' into edac-updates-for-v5.18
 3387ce4d8a5f2956fab827edf499fe6780e83faa headers/prep: Fix header to build standalone: <linux/psi.h>
+1874b6d7ab1bdc900e8398026350313ac29caddb PCI: xgene: Revert "PCI: xgene: Use inbound resources for setup"
+825da4e9cec68713fbb02dc6f71fe1bf65fe8050 PCI: xgene: Revert "PCI: xgene: Fix IB window setup"
 9fd75b66b8f68498454d685dc4ba13192ae069b0 ax25: Fix refcount leaks caused by ax25_cb_del()
 fc6d01ff9ef03b66d4a3a23b46fc3c3d8cf92009 ax25: Fix NULL pointer dereferences in ax25 timers
 ed32641e06c62359020dacb873783f991c02566f Merge branch 'ax25-fixes'
@@ -489,6 +463,8 @@ bba90e096468a3185649e9ab75873722ae4d6f96 Merge tag 'core-core-2022-03-21' of git
 84c2e17951feeea08a1f3a01e71f8fa82b66332a Merge tag 'timers-core-2022-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 93287e28bcc8bcb3f23d46196845bf7c311cb8aa Merge tag 'irq-core-2022-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a04b1bf574e1f4875ea91f5c62ca051666443200 Merge tag 'for-5.18/parisc-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+a382c757ec5ef83137a86125f43a4c43dc2ab50b PCI: fu740: Force 2.5GT/s for initial device probe
+63cd736f449445edcd7f0bcc7d84453e9beec0aa PCI: Avoid broken MSI on SB600 USB devices
 d56c9fe6a06820d5ef8188d96bf4345c7bdba249 bpf: Fix warning for cast from restricted gfp_t in verifier
 96805674e5624b3c79780a2b41c7a3d6bc38dc76 bpf: Fix bpf_prog_pack for multi-node setup
 e581094167beb674c8a3bc2c27362f50dc5dd617 bpf: Fix bpf_prog_pack when PMU_SIZE is not defined
@@ -559,6 +535,13 @@ f70f5f1a8ffff4c943182aa80c600aeec1b9b001 selftests: forwarding: Use same VRF for
 cde3fc244b3d2e1bb32fc5869c718ec1cbb79481 net: bridge: mst: prevent NULL deref in br_mst_info_size()
 4a0cb83ba6e0cd73a50fa4f84736846bf0029f2b netdevice: add missing dm_private kdoc
 0313bc278dac7cd9ce83a8d384581dc043156965 Revert "random: block in /dev/urandom"
+cb2d0f846139b620ff2d11da15daa0eeb581d1a6 PCI: Declare pci_filp_private only when HAVE_PCI_MMAP
+c50762a85da6a95a96a20043ed518264b62b47df PCI: Remove unused assignments
+b6829e0419e5b3deafce5455da588c39deda77fa PCI: kirin: Remove unused assignments
+6f102550728838f0f83123f193740c06fdfbdd62 PCI: fu740: Remove unused assignments
+af8b8b6c044541430b287e549aeb5ffd622c8ac7 PCI: cpqphp: Remove unused assignments
+6a8fcf7d47a0679a0fe4239c783224ceb559e661 PCI: ibmphp: Remove unused assignments
+b9fae6a47b8bcb397e6a482095431f6ba9648211 x86/PCI: Add #includes to asm/pci_x86.h
 1c4664faa38923330d478f046dc743a00c1e2dec xtensa: define update_mmu_tlb function
 881b568756ae55ce7d87b9f001cbbe9d1289893e Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/fscrypt
 aab4ed5816acc0af8cce2680880419cd64982b1d Merge tag 'erofs-for-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
@@ -586,6 +569,26 @@ ef248d9bd616b04df8be25539a4dc5db4b6c56f4 ALSA: hda/realtek: Add alc256-samsung-h
 3fe2f7446f1e029b220f7f650df6d138f91651f2 Merge tag 'sched-core-2022-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 93917ad50972e6298885d81b37b6a8602eb0b188 RISC-V: Add support for restartable sequence
 6d1a6f464efd596779d1b272b3dc8170c5fa189f rseq/selftests: Add support for RISC-V
+05ca7e5058ab564195f0b7ee5b81623ca36acb53 Merge branch 'pci/acpi'
+fde14ee6293efc5bbde6caf7b8c6ebb2f1fb203a Merge branch 'pci/bridge-class-codes'
+a9af571b35aadd1faa8a3e75172d18afbbc018cb Merge branch 'pci/enumeration'
+f787b6821423fe0d79b63ef29ff3cb48b99af34b Merge branch 'pci/hotplug'
+73c82469bd88ce1c9a4403f34582e544e77f4854 Merge branch 'pci/misc'
+a6e0eba677f8e9b58f8062205566a911c15e1f4f Merge branch 'pci/msi'
+bdef65de39c2e0592038340a5b5746fdecce900f Merge branch 'pci/p2pdma'
+816f8917046de14e78a5715b72d462e10123a45c Merge branch 'pci/vga'
+7ec9ff94f5f7416f501d1c0177c82e785974f9ec Merge branch 'remotes/lorenzo/pci/aardvark'
+0321da851e3ed1a61619f822f94d66e96f463c05 Merge branch 'pci/host/dwc'
+a69e89ba6c810295b4ce795ce38088788857822f Merge branch 'remotes/lorenzo/pci/endpoint'
+d93fefad2060402028fcd2537ea5e784aca003d6 Merge branch 'pci/host/fu740'
+8a43a7444884e8df18397a78a6a939bd35baa663 Merge branch 'remotes/lorenzo/pci/hv'
+f409855492fa1dae3c4644e332ea8c0ad9260071 Merge branch 'remotes/lorenzo/pci/imx6'
+0888e08938e54b14b4176cd92e527c61ef68e4de Merge branch 'remotes/lorenzo/pci/misc'
+9b2c25fa1299897d19f3befd9437055ee4b3213b Merge branch 'remotes/lorenzo/pci/mvebu'
+0c634fcb980dc07a5286f975ff7453bb09e22f42 Merge branch 'remotes/lorenzo/pci/qcom'
+4b0f6ecaba3b90daa08b10d2936a82e901c3de16 Merge branch 'remotes/lorenzo/pci/rcar'
+c1e10d81dac4508d8c795aaae5b4ca3912ae9cda Merge branch 'remotes/lorenzo/pci/uniphier'
+611f841830aa5723ea67682628bd214cbc18df41 Merge branch 'remotes/lorenzo/pci/xgene'
 62eb29526b48d20704668a2fdf97a49d01bf52ce linux/kthread.h: remove unused macros
 2b76e68d7249f2f209b3ee3d15e8a2fb805220a3 scripts/spelling.txt: add more spellings to spelling.txt
 714fbf2647b1a33d914edd695d4da92029c7e7c0 ntfs: add sanity check on allocation size
@@ -1047,8 +1050,5 @@ aa5b537b0ecc16992577b013f11112d54c7ce869 Merge tag 'riscv-for-linus-5.18-mw0' of
 ebcb577aee1448fd60904fc4126cbf7ec012bd0b Merge tag 'gpio-updates-for-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 636f64db07f33a18630248b4c57e182cd315b0da Merge tag 'ras_core_for_v5.18_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 148a650476955705482dd57e7ffcf105d8b65440 Merge tag 'pci-v5.18-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/helgaas/pci
-7977342129305dd7facb55aeb7dac45642200222 PCI: hv: Remove unused hv_set_msi_entry_from_desc()
-7afcfba6362d9503a1b93609b8ae31e8a1685c4b x86/PCI: Eliminate remove_e820_regions() common subexpressions
-7818872f7c7add1ae12dca9eddf118d6d308c401 x86/PCI: Log host bridge window clipping for E820 regions
 
---===============0453463290740697060==--
+--===============5041017078887407428==--
