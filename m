@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vishal/linux
-Date: Thu, 31 Mar 2022 20:16:11 -0000
-Message-Id: <164875777118.30661.7537166807915133810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 31 Mar 2022 20:19:18 -0000
+Message-Id: <164875795804.31649.10001970826481722168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vishal/linux
-user: vishal
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/cxl-osc
-    old: 1b14cb29c313c4288f576c2480ba62a7721a2e9b
-    new: f74a428de667751aa294c22a4e5c5ff7d99fb80a
+  - ref: refs/heads/for-rc
+    old: 5f7b839d47dbc74cf4a07beeab5191f93678673e
+    new: 999397926ab3f78c7d1235cc4ca6e3c89d2769bf
     log: |
-         c608a6e556b6c9190e3fa4622e97ffaeb4d80920 PCI/ACPI: add a helper for retrieving _OSC Control DWORDs
-         d21a0fdb97aedfbcd2231d666b058da644c98c6a PCI/ACPI: Use CXL _OSC instead of PCIe _OSC
-         f74a428de667751aa294c22a4e5c5ff7d99fb80a PCI/ACPI: negotiate CXL _OSC
+         6b8a94332ee4f7d9a8ae0cbac7609f79c212f06c nfsd: Fix a write performance regression
+         999397926ab3f78c7d1235cc4ca6e3c89d2769bf nfsd: Clean up nfsd_file_put()
          
