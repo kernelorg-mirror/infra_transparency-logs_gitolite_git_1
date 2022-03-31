@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0828794798353701418=="
+Content-Type: multipart/mixed; boundary="===============2879554037457544503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 31 Mar 2022 04:59:34 -0000
-Message-Id: <164870277459.6416.10546175698344267547@gitolite.kernel.org>
+Date: Thu, 31 Mar 2022 05:01:08 -0000
+Message-Id: <164870286810.8479.4864853121428337142@gitolite.kernel.org>
 
---===============0828794798353701418==
+--===============2879554037457544503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: d888c83fcec75194a8a48ccd283953bdba7b2550
-    new: 787af64d05cd528aac9ad16752d11bb1c6061bb9
-    log: revlist-d888c83fcec7-787af64d05cd.txt
+  - ref: refs/heads/staging-testing
+    old: 0dfcaebf8157d5d12ceb4c11bea590b8f826555b
+    new: 56f96f6617cce0b31db710823c6f3f9d940496a7
+    log: revlist-0dfcaebf8157-56f96f6617cc.txt
 
---===============0828794798353701418==
+--===============2879554037457544503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648702773 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648702863 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1648702773-f521998f924306c64c6bb8060bb39e80f0335469
+nonce 1648702862-0496b595a2dbef7e7e10c2a28bf0d6182d19e0de
 
-d888c83fcec75194a8a48ccd283953bdba7b2550 787af64d05cd528aac9ad16752d11bb1c6061bb9 refs/heads/staging-next
+0dfcaebf8157d5d12ceb4c11bea590b8f826555b 56f96f6617cce0b31db710823c6f3f9d940496a7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJFNTUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+A/oQAMj6p/226xIeIXFZJ5g6
-O7YBUFVVu1lqiH00b5XI0aYrTTaA1KNxTFFyomWun/o9t4i2Q8psEQsdkG+ZoGqv
-rvsVMeHPuK/O3kAyfaV9LtEVhdDZEOmdF32M46cElJjlawmiIi2dV+vQ0lfRo9gh
-qcSnZUXqdntDZ4QOKAASZjEup9taSYwmkEg3srI1bXsv1PJab1Mx7ZE0nJ4NeX6w
-5ic+VxrdVPg3Rs/0MQchZU5IS5C0ZKr21SWWbThXHkhcvdRuLjEqi5+gxnE7xNRw
-Oo6dP4yRcs+NBtC5Ua8x0GS9kieBfYxsEY5ejYTer3cA+ZwH1dwhW2PnHeA7YShU
-9dwdylcGEdD6lEbiE95XyG5GE5MdK9bA2hEZB8oy5ajL5s/7zgd6+dMAI6qfy0XO
-xUbfNTpHhTVp8CiUpxcnpGkC7D5uEiRpkfv/A1ZgZMgKhpzWbZ06s1G6UqTENHIQ
-0K4W/QI+kpbvntf/MPniJHcNYO+op4pvF/8Z3M2vw3YAqooUHKtw3dcO+eaXKWtC
-Ybh4bGc1clWcjigzk13IvUJjacuuZqcPpRGTt2/sEzZIf3dzvQZ1gnISSuFfzSBC
-D7/f9ZOAV4EXjWmRJpH4q0aRzUakCPWl3XljPSgv2Fdvcg5PalT0t26hl4WJ3x1P
-dBK40/hCY1/BR1S7GwpF3fT4
-=2QTp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJFNY8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EFsP/0aCas/rFjK+uzdTXbqJ
+TE43tfr1XLBvAu0yzqsAMpHfyTaGebHyWQsmL4UZHtYMHaxLpp9Gkv5d5w1bv6Cm
+87RdjQyH2ZarOn8XBKzLP/KHJv1hQ8B0sgg5N8zhzbel9h22n1u4m9qsV3lDzIbN
+I5IKmud0iBQoFsMo5j1BxQm58xMTbJp2Tya3czw1F8tGM/xP++BjlSHL2Qln98Is
+vIsPH6IH58+D2B4G1on+5QzlSc+YkoSoECq71XNdoxYn502SvE3+518cGZ4EaQbC
+mw2y2bALlBfgL5sY2hWY++nMOPwPnQbHwYcIqzWUhqdKl1z8nP2+rQuO1B8dUe3V
+hJr6puLM3oANx3VdazLgBO9Qw4fgkOSUx2MwYgtli1mko5EtTcLbYs/Qs/xEJN0i
+v1FY0SNe7HA2dm4jadUBlLusCH6P0y6qA/1VwRaGrynpBOm3G6aX4BVVcSupEFWx
+4aUMu3esY/0PgsmIAExp43VQ0zl+xKunxB0hy1Bw7rfAsM6BAU+UjWYHlxOHwMBY
+bCrDVTaNev0cjgEVA/DRgZJroa4ADINtaEQCUwTY/pQXBb9+vnZIqAgqOd0/2vLm
+27P0wbPxDTngxVBizrQDwBvJdG0AF5JEjh6clvpiMdB3/60WZproafvxTbYgrgy4
+AtcleaI29JE0Oe5a2OkT6XyO
+=nPWX
 -----END PGP SIGNATURE-----
 
---===============0828794798353701418==
+--===============2879554037457544503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d888c83fcec7-787af64d05cd.txt
+Content-Disposition: attachment; filename=revlist-0dfcaebf8157-56f96f6617cc.txt
 
 59a43fa2487bf8ac67a758c4e653ce3db16f86a9 clk: renesas: r8a779f0: Add SYS-DMAC clocks
 d843e61e0ea50ecf2fc9276c828ea3867867fd89 clk: renesas: r8a7799[05]: Add MLP clocks
@@ -453,5 +453,37 @@ d177850d5d58320a573dd69eb3f3564856a48a88 Merge tag 'hwlock-v5.18' of git://git.k
 57c06b6e1e74b62eabaacacbe40bdb29c7e990eb Merge tag 'modules-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mcgrof/linux
 d5fd43bac8396c9b213faf14cd4560d73b30f618 Merge tag 'for-5.18/parisc-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 787af64d05cd528aac9ad16752d11bb1c6061bb9 mm: page_alloc: validate buddy before check its migratetype.
+4fbc9d85c4e35db237956541d72d7870b516dc13 staging: r8188eu: fix suspect code indent for conditional statements
+187e83dc726162472787c84e166c9e9a148ecbb6 staging: rtl8723bs: Remove redundant else branches.
+8cfbfa3ee1ce6af63f2271081d1e91d50fa02724 staging: rtl8723bs: Change rtw_ndev_notifier_call message to dbg
+3b1eb2b8ebb96de705299e2b393d23d7199a2e4f staging: rtl8712: Use completions for signaling
+70aa8afb4300bc4e7cc465b5b159aef5b27adbf1 staging: vt6656: Fix multiple blank lines warning
+c0aadae70ba51376c245088b7e266cc89289cb12 staging: greybus: codecs: use dedicated list iterator variable
+7062c02e8f7392db90a6bd82a4781edbef3c1343 staging: greybus: codecs: fix type confusion of list iterator variable
+ca7ae7a14dd5be171ecc73ed039a370182109ced staging: r8188eu: remove local BIT macro
+400fecb5a77a77b7e6d26d9e5c106532cccc43fc staging: r8188eu: remove two limit defines
+9f0b1a8bc654d298f1a213071a1e630b7407dd36 staging: r8188eu: remove unused defines for dynamic functions
+c6dcdecfdb4d3b7792007d1cc1f5808fbe29f3f7 staging: r8188eu: DYNAMIC_BB_DYNAMIC_TXPWR is not used
+a4ba45f1a19f8579e5c203014731af3ed6ae6258 staging: r8188eu: DYNAMIC_BB_ANT_DIV is not used
+2424e889e7301dd8474aefab8db22d53e5b26b92 staging: r8188eu: DYNAMIC_RF_CALIBRATION is not used
+a4f4134573b8c72ca0a42be113363d1a56a2a6e1 staging: r8188eu: refactor dm func set and clear
+4d295a77bfff33a6f88d64a4608de7915e0a8b37 staging: vchiq: replace usage of found with dedicated list iterator variable
+5a82681ffd1d72583a84d8e958fef16c1bd964b5 staging: r8188eu: make _rtw_init_mlme_priv static
+0ab7bc5f9c5291476b963408d6e5870f2b57baed staging: r8188eu: the MCS_rate_2R array is not used
+ed8ec8196dc9d0cafd78622352ed5d7f6bc497f2 staging: r8188eu: remove empty rtw_dummy_event_callback
+c1151b857cde37ec75a52e722a888fc6e7c0a661 staging: r8188eu: remove empty rtw_fwdbg_event_callback
+adf043c51c77954b4af286088152781dbfa9fd1c staging: r8188eu: use ieee80211 define for version check
+34222365929fc620a2cdf3dd8c0bccd5fd6280e2 staging: r8188eu: use ieee80211 helper to read the pwr bit
+9f8117ec097c0e05969883bfd7a946ee890c6587 staging: r8188eu: use standard mechanisms for control frames
+e373d3f2790df24dfd5f11566516d889c958ccc6 staging: r8188eu: use standard mechanisms for data frames
+adb61ef985fc7d7ec28374ae6b98ff68d763c580 staging: r8188eu: use standard mechanisms for qos data frames
+09617a8a197e966d02d30b9dae1fb1d60f6c527d staging: r8188eu: remove unused data frame subtypes
+c9462583ccfc46b400447ed297880d872300fc9a staging: r8188eu: remove unused control frame subtypes
+2cdad8750542d75bea1aa1837a783a6a2eee03ad staging: r8188eu: use ieee80211 macro for sequence number
+f7cbb6a535a3f28dae999be2fdbf6d07cae153ab staging: r8188eu: use ieee80211 define for fragment number
+5f12836e86e887a892b4986d2fde79572107994e staging: r8188eu: refactor rtw_usb_bulk_size_boundary()
+798e1b90d12d1986d6869c5bcfa32a9fbe888d8b staging: r8188eu: refactor rtw_inc_and_chk_continual_urb_error()
+f5a83d55def0618c36f6b4b151f7ec893dee8271 staging: r8188eu: convert rtw_usb_bulk_size_boundary() to bool
+56f96f6617cce0b31db710823c6f3f9d940496a7 staging: r8188eu: convert rtw_inc_and_chk_continual_urb_error() to bool
 
---===============0828794798353701418==--
+--===============2879554037457544503==--
