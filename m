@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 31 Mar 2022 20:28:50 -0000
-Message-Id: <164875853062.5603.5085398696896638104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 31 Mar 2022 20:43:21 -0000
+Message-Id: <164875940155.14712.4194156708534500917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/for-next
-    old: 617487600b94b83c9733d8e3cb55a3f09beee194
-    new: 2e7451fb57632454aaccc8ca1aac167751df9fca
+  - ref: refs/heads/master
+    old: 2c8937a039dff5c8a180f814dbe38f28344d2fc8
+    new: 5fcb2e3c43ac50e1f7a5429157ba0972bcb34f00
     log: |
-         2e7451fb57632454aaccc8ca1aac167751df9fca RISC-V: Enable profiling by default
+         5fcb2e3c43ac50e1f7a5429157ba0972bcb34f00 Thu Mar 31 08:42:03 PM UTC 2022
          
