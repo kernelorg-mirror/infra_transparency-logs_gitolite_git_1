@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 31 Mar 2022 18:24:25 -0000
-Message-Id: <164875106500.20090.18127726475200224846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 31 Mar 2022 18:25:01 -0000
+Message-Id: <164875110166.20365.262605578165281157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: bgix
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 4a06a31be0453d7c8208108dccbb7cfacf768bc4
-    new: ff35b1d2e97e68f67cc556f85005636b65a190cb
+  - ref: refs/heads/for-v5.18/hardening
+    old: ef3e787c21d1efcd297f0cf2e9535e76188fb831
+    new: 229a08a4f4e4f9949801cc39b6480ddc9c487183
     log: |
-         ff35b1d2e97e68f67cc556f85005636b65a190cb mesh: use explicit uint32_t when bit shifting left
+         229a08a4f4e4f9949801cc39b6480ddc9c487183 ARM/dma-mapping: Remove CMA code when not built with CMA
          
