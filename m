@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Thu, 31 Mar 2022 18:13:17 -0000
-Message-Id: <164875039779.12784.829551247168777678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 31 Mar 2022 18:24:25 -0000
+Message-Id: <164875106500.20090.18127726475200224846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/bluetooth/bluez
+user: bgix
 changes:
   - ref: refs/heads/master
-    old: fa366c79e466a6478f50ae243ddee44c278c57d2
-    new: 040b8c2d5fbfdaff179e8ac3e54159f4020fc604
+    old: 4a06a31be0453d7c8208108dccbb7cfacf768bc4
+    new: ff35b1d2e97e68f67cc556f85005636b65a190cb
     log: |
-         040b8c2d5fbfdaff179e8ac3e54159f4020fc604 auto-t: use full_scan=True on testBSSBlacklist
+         ff35b1d2e97e68f67cc556f85005636b65a190cb mesh: use explicit uint32_t when bit shifting left
          
