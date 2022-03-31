@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8774592952024417616=="
+Content-Type: multipart/mixed; boundary="===============5131324170254134401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 31 Mar 2022 22:08:34 -0000
-Message-Id: <164876451457.5750.6721443997803218537@gitolite.kernel.org>
+Date: Thu, 31 Mar 2022 22:09:17 -0000
+Message-Id: <164876455740.6023.9115809546644337907@gitolite.kernel.org>
 
---===============8774592952024417616==
+--===============5131324170254134401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: d717e4cae0fe77e10a27e8545a967b8c379873ac
     new: 2975dbdc3989cd66a4cb5a7c5510de2de8ee4d14
     log: revlist-d717e4cae0fe-2975dbdc3989.txt
-  - ref: refs/tags/v5.17
-    old: 0000000000000000000000000000000000000000
-    new: f8e739787152143aacffc181562a29c049c2d658
-  - ref: refs/tags/v5.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d741fa92d022434dd4e2c9d1974cb64fb1752143
-  - ref: refs/tags/v5.17-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4fbac60432f1a7e608882a54af7b9a98dd168d0f
 
---===============8774592952024417616==
+--===============5131324170254134401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -677,4 +668,4 @@ ea07af2e71cdf2c08251d8ead196ce1c9466e38c openvswitch: Add recirc_id to recirc wa
 93235e3df29c084a37e0daed17801c6adfce4cb6 Merge tag 'v5.18-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 2975dbdc3989cd66a4cb5a7c5510de2de8ee4d14 Merge tag 'net-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8774592952024417616==--
+--===============5131324170254134401==--
