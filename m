@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 01 Apr 2022 17:15:37 -0000
-Message-Id: <164883333789.25385.8246268059006504027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 01 Apr 2022 17:16:50 -0000
+Message-Id: <164883341013.25888.6513787859826357745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: dc73d76f63eaf8857c8883df851d772c4aea33a8
-    new: 119c5c9e45dd39fb539db57bb605e87026c52a08
-    log: |
-         119c5c9e45dd39fb539db57bb605e87026c52a08 dm: fix bio polling to handle possibile BLK_STS_AGAIN
-         
+  - ref: refs/heads/riscv-spinwait
+    old: 0000000000000000000000000000000000000000
+    new: 5da7222d4f869cf4bc965db27083e0422b46b650
