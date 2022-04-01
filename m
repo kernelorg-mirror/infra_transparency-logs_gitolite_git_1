@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 01 Apr 2022 18:42:00 -0000
-Message-Id: <164883852003.16853.6862640105812152408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Fri, 01 Apr 2022 18:44:15 -0000
+Message-Id: <164883865581.18930.18132170432204047917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: 0b5e0caf0b90c2fb68db1e8b17f5811fb20c4557
-    new: c1dbd5583235f82d4a85e57362f9ada3ce9bd87d
+  - ref: refs/heads/ftrace/core
+    old: 5991b58bc2ea2ec831f6801b1b2b227d1058e3eb
+    new: bfdf01279299f1254561d6c2072f1919e457e23a
     log: |
-         4124a66f638584cb98c1155791c95c1e82dd96cf fs/lock: add new callback, lm_lock_expired, to lock_manager_operations
-         ea5a9f1822679092349402cbe95f3a0a2f89ad6a fs/lock: only call lm_breaker_owns_lease if there is conflict.
-         c1dbd5583235f82d4a85e57362f9ada3ce9bd87d fs/lock: add helper locks_owner_has_blockers to check for blockers
+         bfdf01279299f1254561d6c2072f1919e457e23a tracing: Move user_events.h temporarily out of include/uapi
          
