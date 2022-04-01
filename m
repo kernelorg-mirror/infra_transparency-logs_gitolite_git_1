@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 01 Apr 2022 11:06:40 -0000
-Message-Id: <164881120088.5910.382908209166739671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvalo/ath
+Date: Fri, 01 Apr 2022 11:52:55 -0000
+Message-Id: <164881397554.3528.13751122198094251081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/kvalo/ath
+user: kvalo
 changes:
   - ref: refs/heads/master
-    old: 066dfc4290406b1b0b014ae3267d4266a344efd1
-    new: c3efcedd272aa6dd5929e20cf902a52ddaa1197a
+    old: 748b34786d1c96e758862d8e8577106ccde6515a
+    new: 57b7042c114767b7330b14a260f61732e556742e
     log: |
-         bd8c624c0cd59de0032752ba3001c107bba97f7b ice: Clear default forwarding VSI during VSI release
-         2c0069f3f91f125b1b2ce66cc6bea8eb134723c3 ice: Fix MAC address setting
-         1273f89578f268ea705ddbad60c4bd2dcff80611 ice: Fix broken IFF_ALLMULTI handling
-         4298a62ff894b5b3b3e6545b2aa6dcbcfdc69be1 Merge branch 'ice-fixups'
-         60be976ac45137657b7b505d7e0d44d0e51accb7 mctp: Fix check for dev_hard_header() result
-         8ce40a2fd350769e94877b53d353a3b11d85f43b mctp i2c: correct mctp_i2c_header_create result
-         4a9dda1c1da65beee994f0977a56a9a21c5db2a7 mctp: Use output netdev to allocate skb headroom
-         f41bdd49afef32e63c61c3011fef53c463710169 Merge branch 'MCTP-fixes'
-         c3efcedd272aa6dd5929e20cf902a52ddaa1197a net: micrel: fix KS8851_MLL Kconfig
+         2c977be2cc5cd4743d2f223360e685d91f0cdffc ath10k: add support for MSDU IDs for USB devices
+         d930e2560ebee73411cfa5d5b0de4e82254c33e9 ath10k: enable napi on RX path for usb
+         7c45823064122e8bdc97972e9861ea03b086d0ab ath9k: make is2ghz consistent in ar9003_eeprom
+         9149a94adad204a1301b55bd49ea1c12c179d144 wcn36xx: Improve readability of wcn36xx_caps_name
+         985f9bcb11966608d2e3dfc2a6c6dc6b5369af41 Merge branch 'ath-next'
+         1a253169baa07518e5345f27a1edd1eab6862f91 Merge remote-tracking branch 'mhi/mhi-next'
+         57b7042c114767b7330b14a260f61732e556742e Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202204011151
+    old: 0000000000000000000000000000000000000000
+    new: 57b7042c114767b7330b14a260f61732e556742e
