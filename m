@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1236728317791394151=="
+Content-Type: multipart/mixed; boundary="===============5291255211522214617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 01 Apr 2022 15:19:33 -0000
-Message-Id: <164882637306.9270.15184694873504367633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 01 Apr 2022 15:19:38 -0000
+Message-Id: <164882637850.9347.16300813780811486872@gitolite.kernel.org>
 
---===============1236728317791394151==
+--===============5291255211522214617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: e8b767f5e04097aaedcd6e06e2270f9fe5282696
     log: revlist-74164d284b29-e8b767f5e040.txt
 
---===============1236728317791394151==
+--===============5291255211522214617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -290,4 +290,4 @@ f008b1d6e1e06bb61e9402aa8a1cfa681510e375 Merge tag 'netfs-prep-20220318' of git:
 a87a08e3bf2decaed29c4dfde3916676f9b966a8 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 e8b767f5e04097aaedcd6e06e2270f9fe5282696 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 
---===============1236728317791394151==--
+--===============5291255211522214617==--
