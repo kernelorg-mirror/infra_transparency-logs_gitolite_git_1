@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 01 Apr 2022 21:04:32 -0000
-Message-Id: <164884707216.14588.6552110976213050427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 01 Apr 2022 21:07:07 -0000
+Message-Id: <164884722747.16958.10223992721065388724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 7170069ea3556e191f48bb8bda85acdaae5f92b2
+  - ref: refs/heads/master
+    old: 8eb943fc5e5fa62751248302fe8f6c9856d81c09
+    new: 891663ace74c23321a40f4bae13e45a1803d5e20
+    log: |
+         891663ace74c23321a40f4bae13e45a1803d5e20 bpf, test_offload.py: Skip base maps without names
+         
