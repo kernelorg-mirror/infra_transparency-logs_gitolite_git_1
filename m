@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Fri, 01 Apr 2022 00:37:45 -0000
-Message-Id: <164877346516.5635.13327073921468385961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 01 Apr 2022 00:50:02 -0000
+Message-Id: <164877420211.14073.4594909849976614966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: c8f43943902e1f07301b7669e466a947431f71ee
-    new: a7d7d04f740995b92c202f344cabb4a507ec5c88
+  - ref: refs/heads/for-next
+    old: e634ff7733ba3c03a18fb47cc355700a5a01014f
+    new: 1464d00b27b2e29a5556f6a4099cf083886e883f
     log: |
-         a7d7d04f740995b92c202f344cabb4a507ec5c88 Fri Apr  1 12:36:41 AM UTC 2022
+         8933e7f2e37549cf54ad1133476bda8ec05b68ea Documentation: riscv: remove non-existent directory from table of contents
+         6f562570b9c5d6a3e30d87aec60a9d8f22a3203c RISC-V: defconfig: Drop redundant SBI HVC and earlycon
+         1464d00b27b2e29a5556f6a4099cf083886e883f RISC-V: K210 defconfigs: Drop redundant MEMBARRIER=n
          
