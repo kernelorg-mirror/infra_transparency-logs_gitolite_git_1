@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Thu, 31 Mar 2022 23:57:43 -0000
-Message-Id: <164877106378.12679.5421623321975524926@gitolite.kernel.org>
+Date: Fri, 01 Apr 2022 00:00:03 -0000
+Message-Id: <164877120320.14733.3242872201657109564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/chrome-platform-5.18
+  - ref: refs/heads/for-next
     old: a9e896f70fbe2aa1df588e31f0a7d8b604e9deb7
     new: 0e8eb5e8acbad19ac2e1856b2fb2320184299b33
     log: |
