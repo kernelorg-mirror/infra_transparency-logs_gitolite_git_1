@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3944948865843773157=="
+Content-Type: multipart/mixed; boundary="===============5968880414824597040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 01 Apr 2022 05:45:44 -0000
-Message-Id: <164879194400.12117.446816947205633767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 01 Apr 2022 05:45:52 -0000
+Message-Id: <164879195252.12214.15399084173573931694@gitolite.kernel.org>
 
---===============3944948865843773157==
+--===============5968880414824597040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 787af64d05cd528aac9ad16752d11bb1c6061bb9
-    new: e8b767f5e04097aaedcd6e06e2270f9fe5282696
-    log: revlist-787af64d05cd-e8b767f5e040.txt
+  - ref: refs/heads/staging-testing
+    old: b22c721c4f3fd4608da059c56fbe7a0cc598fb6a
+    new: 6b9061735db36cb069ed0eaf9a41b17bf132b7ea
+    log: revlist-b22c721c4f3f-6b9061735db3.txt
 
---===============3944948865843773157==
+--===============5968880414824597040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648791943 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1648791942-eadeb1083c72a6025e7430e8a1382c8cd089adff
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648791950 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1648791949-dd140b483a0c37f764d3d0a697a2061570753faa
 
-787af64d05cd528aac9ad16752d11bb1c6061bb9 e8b767f5e04097aaedcd6e06e2270f9fe5282696 refs/heads/char-misc-testing
+b22c721c4f3fd4608da059c56fbe7a0cc598fb6a 6b9061735db36cb069ed0eaf9a41b17bf132b7ea refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJGkYcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nk0QANaFQP0yD+OcIYLDOmaY
-ErBv+R70llv3Sjqj9bZxPxpgErD+HDSeacOX8Ojb6n/RPe2dLOpoN19eE13UWSL3
-MjZV0HQGLBj1UIfBNh34BmUYN3GxstV07pCuvf7ifj13bwl0gRW+a7H/PVYZPWmQ
-kWFUg+ma9FKHwyYh0X7aaMQtGtIhJZPnHGhtGJKkoTo3a6v1FmcteCkIc845kJFD
-QEJ9MuPzRj6/IQriF2odZWoZaYwRKhtAP+jY+TcjnoPeo3c6EYOqDOfXmp8ymHK6
-n/1P2tsMkvYhzZw2mW7z8ok88kSFfc3a/zuvgXasSmPXceI05kqfj8su32j+XLSQ
-zigGwFpRayX/ret5+PMVq0RNX1gbR73xoMS3VPDTwEQJRpvuMZnXNydwjtEiK+ao
-93Orq9O98BJiBsGME8rk478EyqjQtk4m7+RZ3yeJBnD9cANdy86YNCVIfb4+68+o
-zsTRBbcYQLSuXEWjlhotuqn1BXJj1aLI7NB8p3nkvQq+vMYxRAfUsduPQbb1DH6c
-erlD4SWq9tVc+oZjz76l+uEp5PCiDCqHPMG1JAQ/kPt1WefiBy3UW06GnNKBcYsU
-XHCffATb4iLZWYFdH2m9+CDBVvgqJAS9K2SyBiB5d6T8K5T5JYdXCbvrp56L26LX
-/C0lJ6CcnglkDkGRa7T2jN0H
-=iN/C
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJGkY4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9icP/3sYYxSkrAKT6R67CNHX
+dnHP5paeaUidsyefstVd+3BX5zIHUyK+keMz3o/XUc3v+DBdk3VLzP3Yrn0MASCi
+VK/1kJpWq7SVmjHK76ruMsxmPv6jyIWsCnpttQarjwKOx4KC8KOLZop05ZK/y8xx
+iU1NVbmj1DzYvCuUyphQIZikHoV5zoo+5Rl2TjfxQulQkWjiR6jIVb3a1SsFjKS3
+XAHynQ+gAtBFngTGPifSaJa0hOfcNeQ7nLFW1kLMBPGowd7D7ACCbnwBiFjDDTue
+MHw00W5+Ew1mIjHgDUXyNVdIa93ovt7xI3RQn1OcAhyN87Xu/rCexjCngQSk75cc
+dIbST2JylQ+4VbrMebIejxW30WB6J7OL+3I77wtRfGjxQXVTw1vld1VoSOWpNPiE
+5DYYHVAPDaYmkr45yU4mLoW1k0hNlnEOHgRCfLwRW7crQUXcYdDyinCGsp/dSUOm
+mhsK5988PUwLW1pKGZjaJu4C93XOB1pOXL2rWnoPE20KPO8B1nv6OBhn192mApQs
+wLO1hhpZYTRHiXFxmMf0hVZlv25SupgNQDgIhPn3kHyXeDOqHfLmRtrFLLtf1LrJ
+NlZ4+uUHIhk+rTR4AngI74s71n80Eqbn2sviD1YZ9lJkaTgXTlDFtOrUhg0I69Dz
+OWY709cX20WaHDm5FWjg3U/V
+=M8og
 -----END PGP SIGNATURE-----
 
---===============3944948865843773157==
+--===============5968880414824597040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-787af64d05cd-e8b767f5e040.txt
+Content-Disposition: attachment; filename=revlist-b22c721c4f3f-6b9061735db3.txt
 
 3cbf0e392f173ba0ce425968c8374a6aa3e90f2e ubi: Fix race condition between ctrl_cdev_ioctl and ubi_cdev_ioctl
 40a8f0d5e7b3999f096570edab71c345da812e3e ubifs: rename_whiteout: Fix double free for whiteout_ui->data
@@ -300,5 +300,57 @@ f008b1d6e1e06bb61e9402aa8a1cfa681510e375 Merge tag 'netfs-prep-20220318' of git:
 3d198e42ce25cb1d58ff7052c036407271ebfb51 Merge tag 'gfs2-v5.17-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 a87a08e3bf2decaed29c4dfde3916676f9b966a8 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 e8b767f5e04097aaedcd6e06e2270f9fe5282696 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
+535505aa3cb7ae2294abdd7ac5d0a589feae0b11 staging: r8188eu: fix suspect code indent for conditional statements
+4eee0e0ae457cf63e694b795e246f08a7130ede8 staging: rtl8723bs: Remove redundant else branches.
+5aa6b2da6461eca81cfa21a8f455f36d8d2f9141 staging: rtl8723bs: Change rtw_ndev_notifier_call message to dbg
+8cdd9299cd99f78b33ee2ab5b4e9154b06f39fed staging: rtl8712: Use completions for signaling
+3c1259ddf1548ed571332d786d66f898c386eb40 staging: vt6656: Fix multiple blank lines warning
+3ef76c41165abd98d7e77f70601e32ec9de424d5 staging: greybus: codecs: use dedicated list iterator variable
+697b7a7674ebe879472518187d807f5a6e815704 staging: greybus: codecs: fix type confusion of list iterator variable
+7ab7d826ca527d34b95fe22f9b09fec3fc1e6b86 staging: r8188eu: remove local BIT macro
+6cca0f601ee27b5dde6e3372887d8198d4c1e8a3 staging: r8188eu: remove two limit defines
+174fefbf04416e5e3f80ea6d72206f03743be733 staging: r8188eu: remove unused defines for dynamic functions
+aaf43d3dda59f4fbdfdec4abadb7ce894dbd687f staging: r8188eu: DYNAMIC_BB_DYNAMIC_TXPWR is not used
+d4be01352901654ec966ab808245a3d6b6e0b57b staging: r8188eu: DYNAMIC_BB_ANT_DIV is not used
+7e74015f1fa6c577b8599cd04b852c43d4aa2c04 staging: r8188eu: DYNAMIC_RF_CALIBRATION is not used
+e9cb196d5f252269b82fb31d5255edb464a79319 staging: r8188eu: refactor dm func set and clear
+feb0db5dace22576e8730ce076443d1c6cd5b9cc staging: vchiq: replace usage of found with dedicated list iterator variable
+eb8e562460625ab3ca50a670f4a2f58ea76651bd staging: r8188eu: make _rtw_init_mlme_priv static
+06aa212900be05de27c748b614e7f69aa268a9b4 staging: r8188eu: the MCS_rate_2R array is not used
+f026fc824cc83bda3fc5daf7d1582714285a80ad staging: r8188eu: remove empty rtw_dummy_event_callback
+e1100ef94df7c1945ca334d45c9567be2d3b6688 staging: r8188eu: remove empty rtw_fwdbg_event_callback
+69c056e6f7b30090231dc5f55134301f24b3ca0f staging: r8188eu: use ieee80211 define for version check
+e63bf3273b327396d045ab554c005d5e8fd0e88a staging: r8188eu: use ieee80211 helper to read the pwr bit
+e3bad948479d334ddbfdd13d2574c86c0e31ab96 staging: r8188eu: use standard mechanisms for control frames
+e00336261747b76efd06a8b9e307ed8cca95c3dc staging: r8188eu: use standard mechanisms for data frames
+f846cb073a0eafac1e0214972c61c20059415731 staging: r8188eu: use standard mechanisms for qos data frames
+a182f61e1644fd9749195a7a6239c23690d0b524 staging: r8188eu: remove unused data frame subtypes
+ea3a9a234b0784cb5e571980dfbec6fb7e5d08e1 staging: r8188eu: remove unused control frame subtypes
+e9804fb4635af98fad6caa8d4ed47591be40c66c staging: r8188eu: use ieee80211 macro for sequence number
+f32680925d2054adb07c9501eb91458be84bc1f1 staging: r8188eu: use ieee80211 define for fragment number
+eb35da647cef44cee3a704d15b9da7bf05c71bea staging: r8188eu: refactor rtw_usb_bulk_size_boundary()
+99bf3ef5c1d8a45758f4e3a730b48378fd384fda staging: r8188eu: refactor rtw_inc_and_chk_continual_urb_error()
+f8a51607b0f4a18245e831ed86bb8fce671b10e8 staging: r8188eu: convert rtw_usb_bulk_size_boundary() to bool
+c09bdcff914b7f9f8743cfa46d0763f02094dbf8 staging: r8188eu: convert rtw_inc_and_chk_continual_urb_error() to bool
+3aff5789e8f113c5db71fea39e08a0bfeafcf978 staging: wfx: remove space at the start of the line
+83c7f7b103b77ea2b6c818930b0fba545edfd7a4 staging: r8188eu: remove unnecessary spaces
+9b98f1c9da6bea8c4f99aad99c1ffa7ae5eb2308 staging: rtl8723bs: remove code suspect indent
+3e01180d115aedef838f790379e895315fa374f8 staging: rts5208: Convert kmap() to kmap_local_page()
+169098cceb46c7ead344dd186d0f2fcbaa1fa2be staging: r8188eu: Directly return _SUCCESS instead of using local ret variable
+7d4b0bd121300af2570bc15ffc73b2339012b8ca staging: r8188eu: remove HW_VAR_RESP_SIFS from SetHwReg8188EU()
+557f249b5723c89971d2c1dda022e50c33260768 staging: r8188eu: remove HW_VAR_MLME_DISCONNECT from SetHwReg8188EU()
+808c5e8fe676ef89019fc6b9e9a577c14f0d3d53 staging: r8188eu: rename some macros to upper case
+96ab449b963e31c82768d81750f082ef7e4b75af staging: r8188eu: remove HW_VAR_ACM_CTRL from SetHwReg8188EU()
+2f0883f5342b0fc9fb4977a63527f90449d2f961 staging: r8188eu: remove HW_VAR_RXDMA_AGG_PG_TH from SetHwReg8188EU()
+5a28fdf98d69a7abba1c703049e492193bc754a8 staging: r8188eu: simplify if-else statement
+dee7230dea268da9aded4597b97f8f9581d35531 staging: r8188eu: remove HW_VAR_TX_RPT_MAX_MACID from SetHwReg8188EU()
+b464a1f296182857e3d42c191599d48025837297 staging: r8188eu: remove HW_VAR_BCN_VALID from SetHwReg8188EU()
+3d90261f48d0fb268a9e1fdd81fdeb20fef6be42 staging: r8188eu: Fix sparse endianness warnings.
+761690ca3a95ad520605411bf2c51b062b6351fa staging: r8188eu: Fix misspelling in comment "Tranceiver" -> "Transceiver"
+2e57a68ef344e8a2e4c2af831c46b6facba9988b staging: r8188eu: Fix misspelling in comment "writting" -> "writing"
+2e153649cb8aa71c3d80c0cb769a75364e67bcb2 staging: rtl8723bs: place constants on the right side of tests
+ae4d5e750e502613178f0ae3ac4d28c277d9ff77 staging: r8188eu: remove the "dump rx packet" fragments
+d114159cc5a4120b78412f4e9fc9a382439f923f staging: r8188eu: remove the "dump tx packet" fragments
+6b9061735db36cb069ed0eaf9a41b17bf132b7ea staging: r8188eu: add a check for rtw_cbuf_alloc()
 
---===============3944948865843773157==--
+--===============5968880414824597040==--
