@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1517641170239742054=="
+Content-Type: multipart/mixed; boundary="===============8312434413969324909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 01 Apr 2022 22:10:10 -0000
-Message-Id: <164885101023.27525.18327886689701452843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 01 Apr 2022 22:28:48 -0000
+Message-Id: <164885212811.6440.13297883944010328751@gitolite.kernel.org>
 
---===============1517641170239742054==
+--===============8312434413969324909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 2524257bce43610f5ec14feccbacf7a103cae94a
     log: revlist-2b1c7fc323c5-2524257bce43.txt
 
---===============1517641170239742054==
+--===============8312434413969324909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba2d6201a9bfb1c5d5bfbc58a2db73d051b8337a Merge tag 'soc-fixes-5.18-1' of git://g
 a3dfc532b8731843c12bdc45e804eacc47e51e50 Merge tag 'riscv-for-linus-5.18-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 2524257bce43610f5ec14feccbacf7a103cae94a dt-bindings: Fix phandle-array issues in the idle-states bindings
 
---===============1517641170239742054==--
+--===============8312434413969324909==--
