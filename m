@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Apr 2022 22:55:07 -0000
-Message-Id: <164885370708.24382.17828987399696360017@gitolite.kernel.org>
+Date: Fri, 01 Apr 2022 22:57:53 -0000
+Message-Id: <164885387330.25351.14365788549519674104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/arm64-sysreg-gen
+  - ref: refs/heads/arm64-sme
     old: 0000000000000000000000000000000000000000
-    new: 4d70bd3e00d23daa1f2710282f5ec3a721cd5e65
+    new: 3ea02e82af19f79b0dad6fcb09211f9feebe7360
