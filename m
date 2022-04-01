@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 01 Apr 2022 19:50:04 -0000
-Message-Id: <164884260406.31131.15935882876129660568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 01 Apr 2022 20:30:00 -0000
+Message-Id: <164884500025.22430.2792398456959483286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/for-5.18/block-2022-04-01
-    old: 0000000000000000000000000000000000000000
-    new: 6825e74358bcb74cd544d26d38a0fa21e48262fb
-  - ref: refs/tags/for-5.18/drivers-2022-04-01
-    old: 0000000000000000000000000000000000000000
-    new: c0c292aeed50f103ba38852304f9658611b3289e
-  - ref: refs/tags/for-5.18/io_uring-2022-04-01
-    old: 0000000000000000000000000000000000000000
-    new: 2a58a9daa9899368ae7925b590cf6a9c7dabb6ae
+  - ref: refs/heads/master
+    old: 38608ee7b6907830f157818d81f7b2393d49c808
+    new: 11e17ae423778f48c84da6a2e215f140610e1973
+    log: |
+         11e17ae423778f48c84da6a2e215f140610e1973 bpf: Use swap() instead of open coding it
+         
