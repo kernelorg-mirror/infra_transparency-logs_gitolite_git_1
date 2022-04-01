@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1461645204010793717=="
+Content-Type: multipart/mixed; boundary="===============0401134898434364587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 01 Apr 2022 01:50:21 -0000
-Message-Id: <164877782161.26442.9225916479833097203@gitolite.kernel.org>
+Date: Fri, 01 Apr 2022 01:51:22 -0000
+Message-Id: <164877788251.26902.3932408785048032954@gitolite.kernel.org>
 
---===============1461645204010793717==
+--===============0401134898434364587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: dd81e1c7d5fb126e5fbc5c9e334d7b3ec29a16a0
-    new: f443e374ae131c168a065ea1748feac6b2e76613
-    log: revlist-dd81e1c7d5fb-f443e374ae13.txt
+  - ref: refs/heads/dev
+    old: 1413276f228f9009c758330d2b88b302be427b59
+    new: a4a3d8c52d952ab1f5c8b8b67b57f2e01936628d
+    log: revlist-1413276f228f-a4a3d8c52d95.txt
 
---===============1461645204010793717==
+--===============0401134898434364587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd81e1c7d5fb-f443e374ae13.txt
+Content-Disposition: attachment; filename=revlist-1413276f228f-a4a3d8c52d95.txt
 
-c5d714aa6dce262482992cccc0ab01383294f7ac Merge tag 'irq-urgent-2022-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e89d3a46710908c3973397849e758f6ca42db77d Merge tag 'kbuild-fixes-v5.17-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 754e0b0e35608ed5206d6a67a791563c631cec07 Linux 5.17-rc4
 9405b5f8b20c2bfa6523a555279a0379640dc136 smb3: fix snapshot mount option
 dd5a927e411836eaef44eb9b00fece615e82e242 cifs: fix set of group SID via NTSD xattrs
@@ -1050,5 +1048,7 @@ fe83f5eae432ccc8e90082d6ed506d5233547473 kvm/emulate: Fix SETcc emulation functi
 1e0e7a6a28f877312b93cd12a1448c8d53733b55 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 7445b2dcd77ae8385bd08bb6c2db20ea0cfa6230 Merge tag 'for-linus-5.17' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 f443e374ae131c168a065ea1748feac6b2e76613 Linux 5.17
+9ec784bf774c2d3b35a7577fc6441cfbd60aefea exfat: allow access to paths with trailing dots
+a4a3d8c52d952ab1f5c8b8b67b57f2e01936628d exfat: do not clear VolumeDirty in writeback
 
---===============1461645204010793717==--
+--===============0401134898434364587==--
