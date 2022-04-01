@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0131133209546308201=="
+Content-Type: multipart/mixed; boundary="===============2098412289362144981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 01 Apr 2022 06:09:08 -0000
-Message-Id: <164879334847.26245.6766836778754109273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 01 Apr 2022 06:36:07 -0000
+Message-Id: <164879496703.11946.3255575262318623174@gitolite.kernel.org>
 
---===============0131133209546308201==
+--===============2098412289362144981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: be17603714c2a12b34f36542989b5cad53ba1b0b
-    new: 507975d937e80796e8bb2b41f19d1e4a71ec40b7
+  - ref: refs/heads/master
+    old: 68894f74bc1214e7ec3e2d7b3882a85e913c23ab
+    new: 6a502bf6e77b6f14c4cb84e97c597dc29889c441
     log: |
-         6ea783abb76acfa16361ac8fa54a83a8b8c9ffda staging: rtl8723bs: remove 5 GHz channels from ch_freq_map
-         507975d937e80796e8bb2b41f19d1e4a71ec40b7 staging: rtl8723bs: refactor rtw_ch2freq()
+         6a502bf6e77b6f14c4cb84e97c597dc29889c441 move some 4.14 patches "out of the way"
          
 
---===============0131133209546308201==
+--===============2098412289362144981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648793345 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1648793344-27b7e613ec1172cc4504fefea5d9abd1f2bb23b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648794960 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648794958-4221a66b604b65ac151faafcfb51d69d581f1ed8
 
-be17603714c2a12b34f36542989b5cad53ba1b0b 507975d937e80796e8bb2b41f19d1e4a71ec40b7 refs/heads/staging-testing
+68894f74bc1214e7ec3e2d7b3882a85e913c23ab 6a502bf6e77b6f14c4cb84e97c597dc29889c441 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJGlwEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OgAQALohChZgw832nlJcRNdn
-1KkI0CIkOaz1wRqkI5l0+LW4CJEnIUDfede9JgB96VKImoLhBHmGJDyox5ZguM9n
-jiBliiiwwax/00D6mlxgL1VwcR9IRP+NY1I2sEx+Gj5opTCHfM8VYdPQs//+YlBh
-/2GmLY3LhgWz9Dmk1bCknE0WKB1lbotUGjGNfxkBydRggcNF45kFHBBXqRIyxscP
-3CPzBQs/BRbht/cphpG+HNQxSciB89RdvwyzvKmqu2OnO9CYPkVkgR1OwUKLd6pU
-LADP9K+6NxBMqtssRmmpp+737T0y73QIvrbfDd1G7wwTn6R2lpNu4YqC8+cM6ZNl
-CPg4lYZoE/LR3UdNt7XkmyHdHJtroJmpo++Tkgy+c2NWtxV0MY+r/hmqLtK2xUcg
-x0zuz8anHmBBaxqV7gwt3EiL942AjcaokuLwiXp7R1CAs8XdHEPRQZA7dlTuTAI9
-jHTaALG2MvZ6lkyyaSik1Fn9UsnZ7iU/p780lpQaYg54QrQgZN06+AdCx/bzRXxo
-ut0CyZKMTWZX9vbvnGLGj1Vu5o5Mdota9hhFze0nr/7gIUoJBg+4uDMJwSRRIkyH
-X2BN2GfsPO+3RpDlSQeqGVzaqhyEQ0jbYZ4DyO649ixvUtP2rPOgjoHq6nftUMdg
-PP01F5ap4gJ0HC0YRSc2T12F
-=rjG6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJGnVAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QSkP/0SzXMjyE8TYJdoUVG0z
+9XPXVlJ2mV3YxJv2jW9rfia2BNH8i3Dq/mvkTaAIANEX4tvCCh1Y2Pietcyc8pNJ
+0KJcDCG095CUDDmOw2d4B8A0wyuUd7ibY7emwd1uGTzI7eV7nRFX5hf5bz9xrKdj
+mcn4Gg7xorAs38VP2eJC/6qgWxjobLWLWZuHvaQomZuy3LlHI8V7wNBNxgKRwOEp
+cJ9IJc0FxGkIeTCcjJh8StbRR+NsZASevNkBzr9mMxDCjca3Ppmwv+ki2ec2ZhwP
+lbqJecrzTsD3V8KUIbt9gOSCnaV5v9BqybYSNkao6wKm1Lh6d0qLT/NRGWTAktt0
+tRPSg79itPKZv0GmK/+3H/mOa3YxWw0pREFWn6oQDLQGxZ8jvf2ADLLlg9rtqxdL
++stDI8IQXS7n5B2ARE1xqxAQiDjCKwLXBZh288PkXkpWedFVr24b58bqXHXKBi1h
+yPsDhLNu5AKFhhguqNdYI5Hu6fYcx0x1CE5DE6RJRr944rZB0DNWM0X1gUoq+1BI
+CTsenkTnExwBT23zwP732CHMQzjtCryAEZm/WaGnbBA9O6wZ96sjnRhVwggqIL+v
+Vvzy/780vutGN4cG/p/Kyq37/K7hesyjTUKgyj7s9L5GB1XZDzHZ/2c1qQfaudYK
+5Fywyr8X87KvauNC30ms0tX/
+=etCB
 -----END PGP SIGNATURE-----
 
---===============0131133209546308201==--
+--===============2098412289362144981==--
