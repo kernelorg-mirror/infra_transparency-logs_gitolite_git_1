@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 01 Apr 2022 02:10:16 -0000
-Message-Id: <164877901664.6401.8267523399130038999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+Date: Fri, 01 Apr 2022 02:38:34 -0000
+Message-Id: <164878071413.23752.14795035582736061449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+user: sforshee
 changes:
-  - ref: refs/heads/at91sam9g20ek
-    old: 0000000000000000000000000000000000000000
-    new: c65969e08705abc320d8501dafed899779348d77
+  - ref: refs/heads/master
+    old: 902b321be2ad8473bcd3248fb4e9d61deec123d4
+    new: 20f6f34bb93448d2bd46df8c3921ef22ff24e127
+    log: |
+         20f6f34bb93448d2bd46df8c3921ef22ff24e127 wireless-regdb: add missing spaces for US S1G rules
+         
