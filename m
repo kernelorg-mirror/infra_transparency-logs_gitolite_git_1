@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 01 Apr 2022 14:50:03 -0000
-Message-Id: <164882460365.23705.15282791488266632173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Fri, 01 Apr 2022 14:52:05 -0000
+Message-Id: <164882472556.24432.7055904313468292734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/for-5.18/io_uring
-    old: d570aa1c4f191100f502edfc240e8d49687f62ac
-    new: 28ec8263f98612d2bb75af96de3a8b1b8827378e
+  - ref: refs/heads/main
+    old: c1ae085bd211d6b35aa8040914e6402b7dd5170f
+    new: 272af539f78586cc599c6ca917b70630db6390cf
     log: |
-         28ec8263f98612d2bb75af96de3a8b1b8827378e io_uring: drop the old style inflight file tracking
+         272af539f78586cc599c6ca917b70630db6390cf kexec-tools 2.0.24-rc1
          
-  - ref: refs/heads/for-next
-    old: d70ec1bb9b2490af9f82fdc3939a0fbc4039713a
-    new: 53cb2834dbf449c0d82798f5bf0c026cf33fc008
+  - ref: refs/heads/master
+    old: c1ae085bd211d6b35aa8040914e6402b7dd5170f
+    new: 272af539f78586cc599c6ca917b70630db6390cf
     log: |
-         28ec8263f98612d2bb75af96de3a8b1b8827378e io_uring: drop the old style inflight file tracking
-         68caec31e00af9f9ca71ee4050973af11c45d4d0 Merge branch 'for-5.18/io_uring' into for-next
-         53cb2834dbf449c0d82798f5bf0c026cf33fc008 Merge branch 'for-5.18/drivers' into for-next
+         272af539f78586cc599c6ca917b70630db6390cf kexec-tools 2.0.24-rc1
          
+  - ref: refs/tags/v2.0.24-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 739019628a021a082ab794399f405c15d151e29f
