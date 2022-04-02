@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/palmer/sparse
-Date: Sat, 02 Apr 2022 03:17:37 -0000
-Message-Id: <164886945711.2283.14662582934958646085@gitolite.kernel.org>
+Date: Sat, 02 Apr 2022 04:30:21 -0000
+Message-Id: <164887382146.17307.15177747851127414234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,10 @@ repo: pub/scm/linux/kernel/git/palmer/sparse
 user: palmer
 changes:
   - ref: refs/heads/riscv
-    old: ba6cd6e52baa28fd3ad3d5ad60b02d9a23f1260a
-    new: f7cbd183e026239fc6e5b06e4f735fa2eff70385
+    old: f7cbd183e026239fc6e5b06e4f735fa2eff70385
+    new: 262dfaa77d5adc75f8c703ad3760bc2f891c9e0b
     log: |
-         9211c9a14d3f12a22f0c41027c6ebe024a254893 RISC-V: Match GCC's semantics for multiple -march instances
-         0cc108efa72226e9f8a2e0eea77c5f092f59c696 RISC-V: Remove the unimplemented ISA extensions
-         91bf1cc93666174a812ea19e7f7eb67ef26442d7 RISC-V: Remove "g" from the extension list
-         13b09068628eb3ed171baec74d9837bf2e937fbd RISC-V: Add the Zicsr extension
-         f7cbd183e026239fc6e5b06e4f735fa2eff70385 RISC-V: Add the Zifencei extension
+         d787a98d4d81e297d432d6614aa655f4871bc185 RISC-V: Remove "g" from the extension list
+         8f2d8784f13791d20a619f8c94704da5178d8270 RISC-V: Add the Zicsr extension
+         262dfaa77d5adc75f8c703ad3760bc2f891c9e0b RISC-V: Add the Zifencei extension
          
