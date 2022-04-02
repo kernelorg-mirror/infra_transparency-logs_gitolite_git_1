@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1154800891279551747=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 02 Apr 2022 12:41:30 -0000
-Message-Id: <164890329020.20954.17856998040064226546@gitolite.kernel.org>
-
---===============1154800891279551747==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-trace
+Date: Sat, 02 Apr 2022 12:43:19 -0000
+Message-Id: <164890339993.21974.12103560366757997780@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rostedt/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 524c38c151a3c5d256da6c9c02e0b39b254232e8
-    new: d6a624d8d56f005902cf5f7bf4c1438edbfde9ee
+  - ref: refs/heads/ftrace/core
+    old: bfdf01279299f1254561d6c2072f1919e457e23a
+    new: 5cfff569cab8bf544bab62c911c5d6efd5af5e05
     log: |
-         d6a624d8d56f005902cf5f7bf4c1438edbfde9ee 4.14-stable patches
+         84055411d861d3a2b485ad629fce7d2179d72c1e tracing: Rename the staging files for trace_events
+         bed5b60bf67ccd8957b8c0558fead30c4a3f5d3f proc: bootconfig: Add null pointer check
+         efe34e99fc41ad2b3fd3bbe79ecd3906620ec961 tracing/user_events: Hold event_mutex during dyn_event_add
+         768c1e7f1de03afd0b55e0e951efc272309eeb52 tracing/user_events: Remove eBPF interfaces
+         fcbf591cedbd44d82d7765b3c7e261858108593f tracing: Set user_events to BROKEN
+         18bfee3216fa6f28d55ebf88d824a539d2bec3c7 ftrace: Make ftrace_graph_is_dead() a static branch
+         5cfff569cab8bf544bab62c911c5d6efd5af5e05 tracing: Move user_events.h temporarily out of include/uapi
          
-
---===============1154800891279551747==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648903289 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1648903286-c350df4cef8438f49bc1104a27884f6575bfd40e
-
-524c38c151a3c5d256da6c9c02e0b39b254232e8 d6a624d8d56f005902cf5f7bf4c1438edbfde9ee refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJIRHkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9y8P/0e+Jn+KIvwaD+iQbD/G
-5T1ypRrk6604YQ04EuZG37aHWQkr40ri78ZaTTghbwsyXkY/1bEv77XxA4JAXoWP
-H+K/XGaUpYsQ3o1BWsGrChs8R6Zqg6qQQVvh8FKvqbWCP5nffgZ5mCfzoct23N8X
-5VuSddPpZwVbB5FDnWxKYokloRTCn/YyNnKxF4OBA8MG/1A78vVI0VIux1wtQicX
-dSxDYhVxsO+/QWWIS/pF2xcPQTQD0NNAh5fn0L4cD+jZAGxjUj2aFPtPQFR7LW91
-PSBdEWiXYT2gDOK3MDsh2OqX0JKleRAMMD1tahdnwWRyds76GZ/tHazt5n33ZVVB
-0NFXhUhj0SY70txhyA45W+xxuy4EkmS0KDOtPK+Ev9mcQwrFDyyrheNnQmnRMuDu
-wcrSmrgn6doGzw+Z5oNTBXg3utg8sn/AINczEcxZIP7g/fRvIndvPfXat1bYPtwj
-mEwsSZ7VrJ2MqjcLsFSZ9l+lJdWH5Ce76yGdIFGBBUpuxo3rq19hOY5JXzZJP9wY
-vRcBs7wkSNkqxBS96+dDe+QbBoOjEjkYZGLi5q4IRvZuGXWvFGBooDvOweWajYR4
-SrpDUfn/9asj1/Jk2RCTV8CIJK35jZRxf2TOcZyhZ8Z7LwjIVdOpyziI8uzbYqRD
-9MEW1/XrMJeM5zZviuvOfngL
-=f/Jo
------END PGP SIGNATURE-----
-
---===============1154800891279551747==--
