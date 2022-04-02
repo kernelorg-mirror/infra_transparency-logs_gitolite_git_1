@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8976069931556444210=="
+Content-Type: multipart/mixed; boundary="===============3530005720914720506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 02 Apr 2022 01:35:50 -0000
-Message-Id: <164886335022.1205.6481396101747253001@gitolite.kernel.org>
+Date: Sat, 02 Apr 2022 01:36:50 -0000
+Message-Id: <164886341007.1592.3242840554621000869@gitolite.kernel.org>
 
---===============8976069931556444210==
+--===============3530005720914720506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: a536629ef32d127d26f3886f1fd480708fd5ac20
-    new: b6e0cdb87bf37357489de1069d55bd59f008daeb
-    log: revlist-a536629ef32d-b6e0cdb87bf3.txt
+  - ref: refs/heads/next
+    old: fb5abce6b2bb5cb3d628aaa63fa821da8c4600f9
+    new: 8467b0ed6ce37f7e3f87aa3826627dc9cc55ecb2
+    log: revlist-fb5abce6b2bb-8467b0ed6ce3.txt
 
---===============8976069931556444210==
+--===============3530005720914720506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a536629ef32d-b6e0cdb87bf3.txt
+Content-Disposition: attachment; filename=revlist-fb5abce6b2bb-8467b0ed6ce3.txt
 
+fd60b28842df833477c42da6a6d63d0d114a5fcc fs: allocate inode by using alloc_inode_sb()
+65d3af647b4016f134145591914102ee762350b1 f2fs: allocate inode by using alloc_inode_sb()
+f53bf711d4d8e07de2caa3f13f6082c6e24145a4 mm: dcache: use kmem_cache_alloc_lru() to allocate dentry
 9bbdc0f324097f72b2354c2f8be4cdffd32679b6 xarray: use kmem_cache_alloc_lru to allocate xa_node
 da0efe30944476275c902c52fbac812db0541d87 mm: memcontrol: move memcg_online_kmem() to mem_cgroup_css_online()
 5abc1e37afa0335c52608d640fd30910b2eeda21 mm: list_lru: allocate list_lru_one only when needed
@@ -1047,8 +1050,5 @@ fe35fdb30511f845608571f7c09062ebb94d96c2 Merge tag 'for-5.18/dm-fixes' of git://
 3b1509f275ce13865c28ce254c36dc7c915808eb Merge tag 'for-5.18/io_uring-2022-04-01' of git://git.kernel.dk/linux-block
 d589ae0d44607a0af65b83113e4cfba1a8af7eb3 Merge tag 'for-5.18/block-2022-04-01' of git://git.kernel.dk/linux-block
 8467b0ed6ce37f7e3f87aa3826627dc9cc55ecb2 Merge tag 'for-5.18/drivers-2022-04-01' of git://git.kernel.dk/linux-block
-5dd40dfe5e04bc8d781f16bf4fd15c981528cdc0 tpm/tpm_ftpm_tee: Return true/false (not 1/0) from bool functions
-f071411c3757f723ed06ba96f79b349dc931d6b6 tpm: ibmvtpm: Correct the return value in tpm_ibmvtpm_probe()
-b6e0cdb87bf37357489de1069d55bd59f008daeb tpm: Remove read16/read32/write32 calls from tpm_tis_phy_ops
 
---===============8976069931556444210==--
+--===============3530005720914720506==--
