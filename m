@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0740288451557540171=="
+Content-Type: multipart/mixed; boundary="===============3899562322384911182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sat, 02 Apr 2022 00:13:17 -0000
-Message-Id: <164885839742.9601.14897951138660002272@gitolite.kernel.org>
+Date: Sat, 02 Apr 2022 00:13:47 -0000
+Message-Id: <164885842771.10784.3708244019146905884@gitolite.kernel.org>
 
---===============0740288451557540171==
+--===============3899562322384911182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.18
-    old: 5291984004edfcc7510024e52eaed044573b79c7
-    new: 8467b0ed6ce37f7e3f87aa3826627dc9cc55ecb2
-    log: revlist-5291984004ed-8467b0ed6ce3.txt
+  - ref: refs/heads/dm-5.19
+    old: bc76723fc2cd1d4ea24eb763224e636468ca29d5
+    new: 7f790f4da003bb68b987e4916c25b6f0497d92da
+    log: revlist-bc76723fc2cd-7f790f4da003.txt
 
---===============0740288451557540171==
+--===============3899562322384911182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5291984004ed-8467b0ed6ce3.txt
+Content-Disposition: attachment; filename=revlist-bc76723fc2cd-7f790f4da003.txt
 
-4cc893176cf6ba0b0f53287d3c306862e058225a Merge 5.17-rc8 into staging-next
-46eb3ad789a43c3d4ffbd5ac97337d9b913bafe2 staging: rtl8723bs: fix typos in comments
-6256e18686158fa49e019297f990f1c1817aabf1 staging: mt7621-dts: fix LEDs and pinctrl on GB-PC1 devicetree
-5bc148649cf358d0cccf525452a4efbd4bc89a0f staging: mt7621-dts: fix GB-PC2 devicetree
-dcd520af4eacae8c9d2db1f50e7adc0ca050fc1a staging: mt7621-dts: fix cpuintc and fixedregulator dtc warnings, fix xhci
-56955aae9fc2c59fa3c9b32f1f147cdbe05e5ac4 staging: vchiq_arm: make vchiq_platform_get_arm_state() static
-8d6319cdafadd9f68542cc21972c8c0c5d787ac5 staging: gdm724x: remove redundant assignment of pointer w
-4a51c297f8ffd1621828b856ab89f01d1a2eec81 staging: vt6655: remove redundant assignment of pointer tx_key
-765b9808cd21708dd99fae31ccfb9045aba84b23 staging: r8188eu: mark rtw_is_cckrates_included as bool
-f11a0a1d028d49195165eed976454b888d466ae0 staging: r8188eu: mark rtw_is_cckratesonly_included as bool
-f85021269ab41f6752ca295ab7f58a803b77b9bc staging: r8188eu: mark rtw_is_desired_network as bool
-97115f5f0f96f4e5d5779acb5b1d76d1895f8134 staging: r8188eu: mark PS_RDY_CHECK as bool
-77a5ea010be8ed2a48a951a31b16407262b455cb staging: r8188eu: mark check_indicate_seq as bool
-e21762181fb5d33ae95ee1bd58d4ca41a65129de staging: r8188eu: mark enqueue_reorder_recvframe as bool
-10b4f58f2ef209093a0a6a09d20a6f7fa05c9a74 staging: r8188eu: mark recv_indicatepkts_in_order as bool
-fb706ede588a33942c7e489a8eb0b925bcf54f8c staging: r8188eu: mark cckrates_included as bool
-2a603c8fac9d0a3d1d18e5e4eca157c2474b55b4 staging: r8188eu: mark cckratesonly_included as bool
-7167068ac69cafe13f4b022203d80c85e1f77868 staging: r8188eu: mark is_basicrate as bool
-ad5213882e1f15a70ca47f137ef845ab9df9b7ea staging: r8188eu: mark is_ap_in_tkip as bool
-34e21a9157e137779b70b454ae0ff219d550a27a staging: r8188eu: mark rtl8188eu_xmitframe_complete as bool
-b459e83949a51a45c7783b3774ebec6453cdfc45 staging: r8188eu: mark check_fwstate as bool
 a47807b864b0ea36696c1d60f477e4c4a36b6f0a staging: r8188eu: mark IS_MCAST as bool
 5a61d6b4f4a98875c87cc98d10c5923bf09cf272 staging: r8188eu: mark IsFrameTypeCtrl as bool
 daed08de44e83c7a0f850f28de3b87984eecca32 staging: r8188eu: mark rtw_endofpktfile as bool
@@ -1050,5 +1029,26 @@ fe35fdb30511f845608571f7c09062ebb94d96c2 Merge tag 'for-5.18/dm-fixes' of git://
 3b1509f275ce13865c28ce254c36dc7c915808eb Merge tag 'for-5.18/io_uring-2022-04-01' of git://git.kernel.dk/linux-block
 d589ae0d44607a0af65b83113e4cfba1a8af7eb3 Merge tag 'for-5.18/block-2022-04-01' of git://git.kernel.dk/linux-block
 8467b0ed6ce37f7e3f87aa3826627dc9cc55ecb2 Merge tag 'for-5.18/drivers-2022-04-01' of git://git.kernel.dk/linux-block
+a626e5207b5d343835962f8122c395aaecd155a3 block: allow using the per-cpu bio cache from bio_alloc_bioset
+f50eba0c14e92fe9b799598595d16f548496e8fc block: allow use of per-cpu bio alloc cache by block drivers
+af4a6c937d51e928c38ac6b8ce32fe5b2876a381 dm: conditionally enable BIOSET_PERCPU_CACHE for dm_io bioset
+646bb839e5f8604fd08fefa3d9e4419eef6a2027 dm: optimize is_abnormal_io for normal rw IO
+ddf834f31fe39f74b833853441852312bc49ee88 dm: simplify dm_io access in dm_split_and_process_bio
+8ceddf961ca8a17cd41da427e997b79ebdc31360 dm: simplify dm_start_io_acct
+7beb72a8fa3188e9109dd219856ac2d90c27f480 dm: mark various branches unlikely
+e7f81c7b8366771c6ebf0c14e15c9308fbc82c1f dm: add local variables to clone_endio and __map_bio
+e1c4ab4fd11b5a5c5c59216be5ada04f1fdc87e4 dm: move hot dm_io members to same cacheline as dm_target_io
+68511858b049159a0da68c9954c524b5eae3a565 dm: introduce dm_{get,put}_live_table_bio called from dm_submit_bio
+311a8e6650601a79079000466db77386c5ec2abb dm: assign io->orig_bio at very end of dm_split_and_process_bio
+56219ebb5f5c84785aa821f755d545eae41bdb1a dm: factor out dm_io_wait_for_submission
+fdfd3fde681a3132086481890744a1c18c1ac986 dm: factor out dm_io_set_error and __dm_io_dec_pending
+4aa7a368370c2a172d5a0b8927c6332c4b6a3514 dm: add DM_IO_REFFED and optimize out refcounting for normal IO
+960e179bce342c6d03197297916514ad7e7daefe dm: use state machine for bio polling completion
+a734aa98f9d3e1c4782b909377f50329e3387e01 dm: push error handling down to __split_and_process_bio
+5620541b4fda35f6e12ca6985b0bbeee2f4ecbeb dm: push splitting down into __split_and_process_bio
+bcf3a5a5d759c07a07ae0a14d428bca99185c2d2 dm: do not account REQ_PREFLUSH bios
+bd3f91e6d5a053a5a455f45c885747df0b472818 dm: conditionally enable branching for less used features
+44d3adefc9f30bce56cc3d22cae7a20744055df5 dm: simplify basic targets
+7f790f4da003bb68b987e4916c25b6f0497d92da dm: remove bio polling debug checks
 
---===============0740288451557540171==--
+--===============3899562322384911182==--
