@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6278508524441788042=="
+Content-Type: multipart/mixed; boundary="===============0208184467962066316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sat, 02 Apr 2022 09:46:14 -0000
-Message-Id: <164889277435.8917.3245261004947707453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 02 Apr 2022 10:39:15 -0000
+Message-Id: <164889595504.8267.14130778213399592687@gitolite.kernel.org>
 
---===============6278508524441788042==
+--===============0208184467962066316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/tags/kvm-5.18-2
-    old: 0000000000000000000000000000000000000000
-    new: 4dbedfccba470acf03f400ea0becce9a0f7796aa
+  - ref: refs/heads/master
+    old: 9e0ad16929ae5398e75aa020e1fa51c15b6dce46
+    new: 5a34b898470ebfccc99252de93d374a34ca5d467
+    log: |
+         5a34b898470ebfccc99252de93d374a34ca5d467 move 4.14 patches back into place for release
+         
 
---===============6278508524441788042==
+--===============0208184467962066316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1648892772 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1648892772-d02df5ab6b53488cda22e9d338da6df7c7931aba
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648895950 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1648895950-744b2cf64a842ffd1f9ce6311888ee287e313816
 
-0000000000000000000000000000000000000000 4dbedfccba470acf03f400ea0becce9a0f7796aa refs/tags/tags/kvm-5.18-2
+9e0ad16929ae5398e75aa020e1fa51c15b6dce46 5a34b898470ebfccc99252de93d374a34ca5d467 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmJIG2QUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOB8gf8DT4WWyUrODekM1qyIbhuXjfhOujR
-8zlZqtKaorlM1TLSJBLGRLEohWALF+STBw257lY/MONv3mU6aSGiwYS7ND4fA3hb
-3PCgufUDLvsMsAzlu7rXOq8HNpt7YQmbwXkXJ7j7bZv2PWUvGfAJcMhnILC3e/CH
-2ql0bNL2KZoX+h+tc3ScA6ysjNyME6VmwaLRoB5eS0Cs93l1Mx+3a+r1GZ6mopPo
-0naiY3C8G8m0+HL25SuUwI6ZZ9wBwsaPHAjUXZD/22u2ziPzNsq7wBTfKBDjsuaK
-7foPS1MDYDuA45ltJxO95xCLGuztaazE/axqC7RzOBjxZVp+Nz90mqCkuw==
-=5inx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJIJ84bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vZEQAISriFg/UFZKCLROrHAt
+NTylnY5S3F0cqXsJC9GwQSQDooVVXdo92fjMIYigpxasLMlhqcNwDAhzJccRtvgw
+jw+w23DMTl32r+a63pldzyJ5/zRsvkdkdP7jJKMJAStMoYt1xxHjwQJ65j2//XCF
+LxNZrONQLm/3/Y7bqvVVOHQyQoFXyjG3Pbky7jTgXI2zz+syFekj7+tKRvbMM93j
+xl4nv2nAi0zOu2RjgtU44gkj7HR4znty/Q4brRO/Ucs0bmymSB6EXonXO5bqI4Kl
+1LQ3/qyNq4Yw3X/SrBvzQRFA6MVAuQTRZ9EfotJ3fiIbaUx6zd2Nt5FL+I5J3VSK
+sLDmq4qiJ0RUQeYwaNmQ2JhHJ0WJAauzas9rfYJ7yRy64+E3K4O7Kl7Ht2LDh0Bd
+OgieLZ5tjC8NOQB+7by9RYp5+iJJgPFp4lsSEy/uIopTdmlYdqCbUYT1A1aWy8mZ
+uo0qlDfAOKsze0OjCPt3Ulozju29qJ43SosfuExv7m1CAT+b0OMFmNHQJlP8dqX/
+YiIBu8g94OuIua7ewZYKB51XqBwTkfo21+SPZbRyuJEA+erpgBl3DbiOLix/wIOm
+GMubg/YtEHilbf+sJufsBg8z2OfivH/Q5RCHa2lBr+DgFVIIosmkWseXrGvcXb+l
+mvItav8M5Ut03Xh56fBPjV/+
+=JHf4
 -----END PGP SIGNATURE-----
 
---===============6278508524441788042==--
+--===============0208184467962066316==--
