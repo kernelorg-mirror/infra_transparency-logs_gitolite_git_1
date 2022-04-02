@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 02 Apr 2022 15:32:06 -0000
-Message-Id: <164891352670.4855.10230104600441234506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sat, 02 Apr 2022 15:33:21 -0000
+Message-Id: <164891360187.5338.15722446397118697965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: d74625ec3fee8b41e4c1924748d978112e8e72d1
-    new: bdb6b1f2a6459ffacfa26e2d5e2433c61668c90d
+  - ref: refs/heads/master
+    old: 1abba4b82eb431541c3e483fb228637f4ae1cf18
+    new: 432a94b0b7e1436a00587a0988fb678def465882
     log: |
-         05dc6b467b69da49feb7b7862657a5f12046317f Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
-         e287fb44836b9a8ef7916e45ee1d5e0e38e5e638 Revert "net: openvswitch: remove unneeded semicolon"
-         bdb6b1f2a6459ffacfa26e2d5e2433c61668c90d Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+         d01480c80596d0b3ba5477a9b7a61898ff4caddd advsync: NBS wordsmithing
+         3953847692cb757ccda5a663d9ac3fe1fb4f670f advsync: Add QQ for NBS redemption
+         b97c0b4f0770d49423b2cb5cfbb7bd7326f31736 advsync: Fix punctuation-check complaints
+         432a94b0b7e1436a00587a0988fb678def465882 toolsoftrade: Clarify rwlock efficiency formula description
          
