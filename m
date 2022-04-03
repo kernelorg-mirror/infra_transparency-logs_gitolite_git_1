@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 03 Apr 2022 22:12:19 -0000
-Message-Id: <164902393956.6764.17824897551013953443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Sun, 03 Apr 2022 22:57:22 -0000
+Message-Id: <164902664255.3663.772001627489746110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
   - ref: refs/heads/master
-    old: ca2c1386f48df5ab012711619a1ca2008ac3c729
-    new: 6f7a45cafc810a25a26001932f864107cf7d7ba6
+    old: b9f25ea9058d31b5cd86f2efd49c6c66ad726544
+    new: 37f0586eff42acbcd1c7425c04ca996a22e0c05d
     log: |
-         6f7a45cafc810a25a26001932f864107cf7d7ba6 Sun Apr  3 10:11:44 PM UTC 2022
+         8fd02a2f5bd552894ef415b7e5c525be6bc6c3e3 ioctl: add the memory free operation after send_ioctl call fails
+         8c2984c4db62a16e6614eb97056c45e2ed0f7ea4 strset: do not put a pointer to a local variable to nlctx
+         37f0586eff42acbcd1c7425c04ca996a22e0c05d Release version 5.17.
          
