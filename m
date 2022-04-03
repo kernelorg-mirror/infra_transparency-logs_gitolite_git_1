@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3398012886368881442=="
+Content-Type: multipart/mixed; boundary="===============8213902300715620653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Sun, 03 Apr 2022 20:43:48 -0000
-Message-Id: <164901862850.14548.16271553542180609665@gitolite.kernel.org>
+Date: Sun, 03 Apr 2022 20:45:25 -0000
+Message-Id: <164901872586.16709.1592823379382896530@gitolite.kernel.org>
 
---===============3398012886368881442==
+--===============8213902300715620653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/crng/random
 user: zx2c4
 changes:
-  - ref: refs/heads/linus/master
-    old: 34af78c4e616c359ed428d79fe4758a35d2c5473
+  - ref: refs/heads/master
+    old: 1754abb3e7583c570666fa1e1ee5b317e88c89a0
     new: 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04
-    log: revlist-34af78c4e616-09bb8856d4a7.txt
+    log: revlist-1754abb3e758-09bb8856d4a7.txt
 
---===============3398012886368881442==
+--===============8213902300715620653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-34af78c4e616-09bb8856d4a7.txt
+Content-Disposition: attachment; filename=revlist-1754abb3e758-09bb8856d4a7.txt
 
+2c4d33b87c619a0227bcd6327c9c27741a4a6646 perf vendor events intel: Update events for CascadelakeX
+3e75e95e80eee167e11b19b7bbf8ad7e4dab5048 perf vendor events intel: Update events for Elkhartlake
+fb76811a8f6e037d6a989b1e97b2c99796a25b1c perf vendor events intel: Update events for Icelake
+f25db21bbf9a47042665f7742d6054b5a27c0c2a perf vendor events intel: Update events for IcelakeX
+fd14311829f38f1360dfec99cdfd2f4ff89baa9e perf vendor events intel: Update events for Skylake
 299d5dca772e3a4c5f7aa0167b85e2a9760456ae perf vendor events intel: Update events for SkylakeX
 42e80e1ac3291604abdd196b4c37b48c8413edba perf vendor events intel: Update events for Tigerlake
 5edc3c618bb877b3a071b7ea93450bef42f53850 perf vendor events intel: Update events for TremontX
@@ -445,10 +450,6 @@ b5bf5b283d07bd1f4d49657557fb99ec5fbfc588 rtc: pm8xxx: Attach wake irq to device
 ab0ac0959b028779ea43002db81daa12203cb57d io_uring: fix invalid flags for io_put_kbuf()
 8197b053a83335dd1b7eb7581a933924e25c1025 io_uring: fix put_kbuf without proper locking
 631f871f071746789e9242e514ab0f49067fa97a fs/iomap: Fix buffered write page prefaulting
-af704c856e888fb044b058d731d61b46eeec499d random: skip fast_init if hwrng provides large chunk of entropy
-d97c68d178fbf8aaaf21b69b446f2dfb13909316 random: treat bootloader trust toggle the same way as cpu trust toggle
-dd7aa36e535797926d8eb311da7151919130139d random: re-add removed comment about get_random_{u32,u64} reseeding
-0396e46dc46523cba8401a0df84f67cc0b6067ab virt: vmgenid: recognize new CID added by Hyper-V
 113be37d87449836ebbca4ca2909dc4e1db9663d [smb3] move more common protocol header definitions to smbfs_common
 664d66dc0a64b32e60a5ad59a9aebb08676a612b ASoC: SOF: Intel: Fix build error without SND_SOC_SOF_PCI_DEV
 184ae0e32bc990bba203b60503df89c9f8865f13 regulator: rt4831: Add bypass mask to fix set_bypass API work
@@ -889,7 +890,6 @@ e729dbe8ea1c6145ae7b9efd6a00a5613746d3b0 Merge tag 'acpi-5.18-rc1-2' of git://gi
 617487600b94b83c9733d8e3cb55a3f09beee194 RISC-V: module: fix apply_r_riscv_rcv_branch_rela typo
 2e7451fb57632454aaccc8ca1aac167751df9fca RISC-V: Enable profiling by default
 8cf8df89678aa5ab3eb206ccc7c8dee7c528bf50 ARM: OMAP2+: Fix regression for smc calls for vmap stack
-1754abb3e7583c570666fa1e1ee5b317e88c89a0 random: mix build-time latent entropy into pool at init
 f4f5d7cfb2e57fafd12dabd971b892f83ce02bfe Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 d4f1db771599852713fc2bbb7d3cc6cf9ace3b54 Merge tag 'auxdisplay-for-linus-v5.18-rc1' of https://github.com/ojeda/linux
 354b8bf222ee15bf9aac3d870ba8e0880dd9bc8d Merge tag 'linux-watchdog-5.18-rc1' of git://www.linux-watchdog.org/linux-watchdog
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 
---===============3398012886368881442==--
+--===============8213902300715620653==--
