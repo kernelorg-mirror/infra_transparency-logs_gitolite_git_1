@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5338572240361872048=="
+Content-Type: multipart/mixed; boundary="===============3116376308066460745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 03 Apr 2022 08:58:24 -0000
-Message-Id: <164897630430.25067.12134819268613781768@gitolite.kernel.org>
+Date: Sun, 03 Apr 2022 08:58:49 -0000
+Message-Id: <164897632937.25366.13354055070369381725@gitolite.kernel.org>
 
---===============5338572240361872048==
+--===============3116376308066460745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 3794ccf4c9f3c5fca01973e18b7544c9437ead46
-    new: 6410a01572305c73fbfa48e222ed2c6cf5abcf28
-    log: revlist-3794ccf4c9f3-6410a0157230.txt
+  - ref: refs/heads/main
+    old: 88e6c0207623874922712e162e25d9dafd39661e
+    new: be2d3ecedd9911fbfd7e55cc9ceac5f8b79ae4cf
+    log: revlist-88e6c0207623-be2d3ecedd99.txt
 
---===============5338572240361872048==
+--===============3116376308066460745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648976298 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1648976327 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1648976298-151c3d933b0314b301692021c34dc327809497ee
+nonce 1648976326-6057f37df6a57ee350358b39522f455ceb705000
 
-3794ccf4c9f3c5fca01973e18b7544c9437ead46 6410a01572305c73fbfa48e222ed2c6cf5abcf28 refs/heads/staging-testing
+88e6c0207623874922712e162e25d9dafd39661e be2d3ecedd9911fbfd7e55cc9ceac5f8b79ae4cf refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJJYaobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NIsQAKN4RBA1Bd76b6u+QfW9
-NPsXFIGMaDUp1V+H+M4i1iTnmKmuMV4QJnZZPWfB1OmlOzSPvL3Wv+8BESKcPjlk
-dE/up4u5AlCJcs1W+l7/8XDfGpd3epcJ8zPZEYfRjtHpO0Rzx5HiUn2i0hYXgYDf
-r1PCbzCtzlq2FxsMyyf9qidV/DdW7ZAR4CuqzT4vuiBQ7PmKPn2x3u/0Xegz3dHt
-xxm0YpfbYsyum4Mo/HG3lRAaNxVtSoJCX+s2vxsDtunxq9nXpfvrQrxoJrWF9bNx
-ZckhOYHkXHnJsPmmsMdcoSOjqQw9KwWXezqzNVuKGlh0bUunChr6+TJ2cAHBBFxe
-ehD3ztFtQefXGidSUAiWdGa9OyogaZUQ+ZH6pPNJyBy2ZQMgPxmTxwzGWQoljxH9
-iB48eK1LZ8ac41inWjknJzeSELJJT8YRlJt5VWb0RPsI7wS9Zd8/T7zEI4aZ6Im8
-ZFnR4FxvTmekIATA3ujDW/wDVyZM9WWhe8pTQzy/P0f+tr0Cckri/qgmR8PIYdrG
-vU6jMS6zBXCV8RjhYw1C3q3tCNOSgi98oJq2/st/7I0Mxt/SDujWp93uPkY5tzxc
-Rs3K9YlFkLku83ABRSXXETMlsFtRUnAxAWl5p97DIalh4Ilqjn78gB/L0mO6yZz1
-XY1Sl5RvyFL2VJ4q89MYPuE3
-=NCAL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJJYccbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X3oP+QFxR/OzeeydlsnhWTVZ
+HwiF3DLDXgVcKSrR5vlc+rKBq1lo0uRo6f+sil3QbqDQbAOv/oVkzHqVbaUsYxRb
+gcKba8wpAaO+xg7RmYW8plYtRs/qpeOFr0+06xJa6Va0jNAdcGmIxOT4jZqJnEBK
+fN8NEO3iQdNsh5YJyLdPhxJUr446CZjk6F7/Rma2i2mIyQ8aJppP+JCCVGNAR37b
+OLg91zW+pjJvBCYr1G8I53x0ejowMeC43Yw1WP9ArVr+dSZ/s2t8bXCAwUBlb9w+
+CsZzm7c9pLwVvVU81y3fC8JCqy26NBHLv7txjFbQUXjqSGEZ4QKiYicHyrlK2jjq
+BTp7Y64KxGGLQSRt9+xojJJR45cCPdD9NaWpaNMk6GjnVWsouSuW2gu5uPcd8C61
+Fn48Ed+4TbKUknJ7YjEa753tAW7AqrD/uw18f2+0SC4LnHLUf61Tyci/C2trUVeO
+CJvIl3NFwWyCKabfBAO5rs/t5jVJheLW37pBGUW9m02t3Uap1CL3x+9AKnYErHyB
+zBO/d17G8nYXi69uGB4KXhyL9jj/tZ81+axwzsOu080gl/oN0hIFdVyqKCq5+D2i
+qAHZDk1Vn5SJDIplGhyhTbVhp6oIgBeNBMjQQ84WuGWZ8LGnN3IIuj9eN+NUhaoY
+AYy9+b1F0R529apvHX1lq1/h
+=oS+y
 -----END PGP SIGNATURE-----
 
---===============5338572240361872048==
+--===============3116376308066460745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3794ccf4c9f3-6410a0157230.txt
+Content-Disposition: attachment; filename=revlist-88e6c0207623-be2d3ecedd99.txt
 
 664de6a26b7f17eebca896c3e18201b15d5c7b19 MAINTAINERS: platform-chrome: Add new chrome-platform@lists.linux.dev list
 53eeb07381f2fa426807df6a68fc580b8463dae4 platform/chrome: cros_ec_typec: Make try power role optional
@@ -143,71 +143,5 @@ bf5c0c2231bcab677e5cdfb7f73e6c79f6d8c2d4 modpost: restore the warning message fo
 0b0fa57a2772be5bcef199ae5e769295afec0de5 Merge tag 'mips_5.18_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 d897b680418db98f01a0bff038f1b03770a33722 Merge tag 'kbuild-fixes-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 be2d3ecedd9911fbfd7e55cc9ceac5f8b79ae4cf Merge tag 'perf-tools-for-v5.18-2022-04-02' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
-0092200a96d9553cd7ea50ac3a5d557e09de4cce staging: r8188eu: fix suspect code indent for conditional statements
-a1deac7e686efe56800dac278984893049258388 staging: rtl8723bs: Remove redundant else branches.
-2969e444e20ce8b7f15ba68b2a9078f249f5d092 staging: rtl8723bs: Change rtw_ndev_notifier_call message to dbg
-9dbcd8ccebcfd09e16ce73902982037cb1c743b6 staging: rtl8712: Use completions for signaling
-d3d29f10b23b15cf5fd6474e77ca8a38835173e3 staging: vt6656: Fix multiple blank lines warning
-ebb9f8307209546b9deb9d887ba024f355119262 staging: greybus: codecs: use dedicated list iterator variable
-39e2082a9950c8d38b74f7fc35b6e1c556504be0 staging: greybus: codecs: fix type confusion of list iterator variable
-4b6b9f400a60e4ea50fb0b856935813e442ec662 staging: r8188eu: remove local BIT macro
-bf3b0ede59854787aa3c98298ff6d551c6f6bb6f staging: r8188eu: remove two limit defines
-e70334bb10cfd7aab0159e82244ea74d451c72aa staging: r8188eu: remove unused defines for dynamic functions
-73f3d94636dddc8729940792fef4160d38becda9 staging: r8188eu: DYNAMIC_BB_DYNAMIC_TXPWR is not used
-261f2ec38b47db081948f2eea3e292fc449ab4f8 staging: r8188eu: DYNAMIC_BB_ANT_DIV is not used
-011417d1115a0e3751f6ddecbe7fd30a4fc5d986 staging: r8188eu: DYNAMIC_RF_CALIBRATION is not used
-ffa7a861331ea8cedd18ac07a229e51fccef1fc2 staging: r8188eu: refactor dm func set and clear
-955cf623aa4e5f27547fd884f02526dcd16ecaab staging: vchiq: replace usage of found with dedicated list iterator variable
-738b80ca151cbd990c5281cbedf4492ca61515d9 staging: r8188eu: make _rtw_init_mlme_priv static
-502c1fc65bb95d6918573e3a02694a1c66f03299 staging: r8188eu: the MCS_rate_2R array is not used
-0aa4a9c1799834d4afe5c08e692bf65a82b4bf8b staging: r8188eu: remove empty rtw_dummy_event_callback
-3ac900654bac195769a982290230b80b572d68be staging: r8188eu: remove empty rtw_fwdbg_event_callback
-24417ebcac53c07d1be536a4d47f8b025c8c4047 staging: r8188eu: use ieee80211 define for version check
-1ede4570fb52b123827f3b3bd083f97c9e88deeb staging: r8188eu: use ieee80211 helper to read the pwr bit
-e97661eb9f1de1c413dcb1906dc19e502717e1c7 staging: r8188eu: use standard mechanisms for control frames
-b632bd2b13c7167d4f8ea5e187880827c761e9bc staging: r8188eu: use standard mechanisms for data frames
-3b6dd7e3a0793bfd48dfc57ebeb7888aecbbc9e0 staging: r8188eu: use standard mechanisms for qos data frames
-bfe330afff0b10bf401a970a08b27098877af8a2 staging: r8188eu: remove unused data frame subtypes
-683d734e801f2e893b5137dfc284e8ded18d4edb staging: r8188eu: remove unused control frame subtypes
-0246850d8499730b0286015534ca2d16304b2e22 staging: r8188eu: use ieee80211 macro for sequence number
-e04d305b7e63eed9668b07d5c5af5c8b4d6cf156 staging: r8188eu: use ieee80211 define for fragment number
-8fcdf1397d9f4f962c8e3f6c262ae26fa43e72cc staging: r8188eu: refactor rtw_usb_bulk_size_boundary()
-d3f33296c4c5281843c3985d3874df4b5dc9dd6c staging: r8188eu: refactor rtw_inc_and_chk_continual_urb_error()
-2d275c071938954bcef08f4ec5286417db237374 staging: r8188eu: convert rtw_usb_bulk_size_boundary() to bool
-53ba81cae5feb3990e09fd8b4d13b61b91d9d1ca staging: r8188eu: convert rtw_inc_and_chk_continual_urb_error() to bool
-d06f8c9c32a79e1416a739fa08e4e57201013b77 staging: wfx: remove space at the start of the line
-4723e0e65bac01c9b5b7f413228b784effe7fc60 staging: r8188eu: remove unnecessary spaces
-e0d7c45f182744d19cee3d6646d734ce4d4e0fbf staging: rtl8723bs: remove code suspect indent
-e4be60558720aee8c74cf3ceaac65cd196d7239a staging: rts5208: Convert kmap() to kmap_local_page()
-42c6adf123f83c0cee0d07772d6543907b73fd84 staging: r8188eu: Directly return _SUCCESS instead of using local ret variable
-576c50736d43889555f448e4af167f4a0c5c8b5b staging: r8188eu: remove HW_VAR_RESP_SIFS from SetHwReg8188EU()
-0b4bd2291a4660a2f18ea3e6ead774149c2fe03b staging: r8188eu: remove HW_VAR_MLME_DISCONNECT from SetHwReg8188EU()
-c74a30dbbaaf4aa5ec63e25bb0067780ce7d365d staging: r8188eu: rename some macros to upper case
-15d567f5397ab58613655e400695c353a9418d1c staging: r8188eu: remove HW_VAR_ACM_CTRL from SetHwReg8188EU()
-dc1f3078368ce4cdee08db3d4a3b7cefd01bd726 staging: r8188eu: remove HW_VAR_RXDMA_AGG_PG_TH from SetHwReg8188EU()
-b2378220568927a030159a7cb75bcbf6e9dffb5c staging: r8188eu: simplify if-else statement
-85b203c0773aac59d77f63cde1a6f96b7e497f55 staging: r8188eu: remove HW_VAR_TX_RPT_MAX_MACID from SetHwReg8188EU()
-b6a606d0929c140b737f0943817eef2c99eb89ef staging: r8188eu: remove HW_VAR_BCN_VALID from SetHwReg8188EU()
-aeb4e218e163fc119dc65ec1c2b4f719bbac15e3 staging: r8188eu: Fix sparse endianness warnings.
-04182fbfac6b5c18d6a6d80f70187c3d1fed8e00 staging: r8188eu: Fix misspelling in comment "Tranceiver" -> "Transceiver"
-c3151f1a377a9ee5b5575f3a35d5eb449e5709dc staging: r8188eu: Fix misspelling in comment "writting" -> "writing"
-1145bbff6db21c8a4de1718209411f4d1680943a staging: rtl8723bs: place constants on the right side of tests
-7af27f843e1369357aff1aca4f11ef0570a7ab6d staging: r8188eu: remove the "dump rx packet" fragments
-147286998e318996ebe58168c17cb617fd435444 staging: r8188eu: remove the "dump tx packet" fragments
-5027c40a325d05156daf841cc2b81f34790bdfce staging: r8188eu: add a check for rtw_cbuf_alloc()
-ad8bb71e00b65555ff62945ef15ac2cab081c912 staging: rtl8723bs: place constants on the right side of tests
-ef7a88895c48792bdbdf19e4de2af7c3b55da626 staging: r8188eu: remove duplicate assignment
-2804b7b96dea884adbb37464dfa04823df680f49 staging: rtl8723bs: remove redundant braces in if statements
-521a870ec1ee32192d9cd61696d9a6263356b9d0 staging: rtl8723bs: Fix No space before tabs
-11037a9aa0e842dc1897f75c8465eccc02a872ff staging: r8188eu: rename clear_bacon_valid_bit()
-8faddd87abca1c7134dc8da14b15e629dfdc528b staging: r8188eu: remove HW_VAR_BCN_VALID from GetHwReg8188EU()
-708a46f89956ce652d770bd1fd96458220f97c8b staging: r8188eu: remove HW_VAR_CHK_HI_QUEUE_EMPTY from GetHwReg8188EU()
-8172c4b57dae46205c26151320889a8c4e0e96e0 staging: r8188eu: remove HW_VAR_FWLPS_RF_ON from GetHwReg8188EU()
-145a7b50b51396084a24502b43179297d5cce39c staging: r8188eu: remove GetHwReg8188EU()
-6ffa96732a12844a3c1e0829e34bf32c069e8bfe staging: unisys: Remove "struct dentry *eth_debugfs_dir"
-8662fdd0f4d224b4e27a78581acb852d6ca26396 staging: r8188eu: use sizeof(*pvar) for allocating structs
-9a46b3ef9585c3771d5181e92bf0d03ea3f42d0b staging: r8188eu: remove handlerOS independent comment
-8a2d1ceb34dc4ea47d5f29e3e4b0e150274d821f staging: rtl8723bs: remove 5 GHz channels from ch_freq_map
-6410a01572305c73fbfa48e222ed2c6cf5abcf28 staging: rtl8723bs: refactor rtw_ch2freq()
 
---===============5338572240361872048==--
+--===============3116376308066460745==--
