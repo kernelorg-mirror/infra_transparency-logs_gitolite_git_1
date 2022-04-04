@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4037034293738454358=="
+Content-Type: multipart/mixed; boundary="===============5474012439938314920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 04 Apr 2022 17:55:24 -0000
-Message-Id: <164909492437.10536.3919291980932590118@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 17:59:42 -0000
+Message-Id: <164909518244.11941.17893501112008998536@gitolite.kernel.org>
 
---===============4037034293738454358==
+--===============5474012439938314920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-5.18
+  - ref: refs/heads/next
     old: 272ceeaea355214b301530e262a0df8600bfca95
     new: 3123109284176b1532874591f7c81f3837bbdc17
     log: revlist-272ceeaea355-312310928417.txt
 
---===============4037034293738454358==
+--===============5474012439938314920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============4037034293738454358==--
+--===============5474012439938314920==--
