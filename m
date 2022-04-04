@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5080204245548235060=="
+Content-Type: multipart/mixed; boundary="===============8934448238928479768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 04 Apr 2022 08:09:46 -0000
-Message-Id: <164905978630.14056.3903139628094221496@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 08:10:03 -0000
+Message-Id: <164905980391.15644.9316838886169129176@gitolite.kernel.org>
 
---===============5080204245548235060==
+--===============8934448238928479768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: b09eac38bca896ebe88da75a864c94f3a9ea8492
+  - ref: refs/heads/togreg
+    old: 37fd83916da2e4cae03d350015c82a67b1b334c4
     new: b28bc9ebbe2320f919e4f4cf70fafbc8a0ac328d
-    log: revlist-b09eac38bca8-b28bc9ebbe23.txt
+    log: revlist-37fd83916da2-b28bc9ebbe23.txt
 
---===============5080204245548235060==
+--===============8934448238928479768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b09eac38bca8-b28bc9ebbe23.txt
+Content-Disposition: attachment; filename=revlist-37fd83916da2-b28bc9ebbe23.txt
 
 9bbb820a5bd5f406ae5e0819cc31f2c2e6f4d990 mm/damon/sysfs: support DAMOS quotas
 1c78b2bcd240c43690f3766a87bcfa7eb25d37ae mm/damon/sysfs: support schemes prioritization
@@ -1051,4 +1051,4 @@ f1c9ce0ced2d2596bd979933ca9f57fdf8aabdfc iio: adc: ti-ads1015: Add TLA2024 suppo
 ad202fe8edd18536198f7b98ec1893b81be490af iio: adc: ti-ads1015: Replace data_rate with chip data struct ads1015_data
 b28bc9ebbe2320f919e4f4cf70fafbc8a0ac328d iio: adc: ti-ads1015: Switch to read_avail
 
---===============5080204245548235060==--
+--===============8934448238928479768==--
