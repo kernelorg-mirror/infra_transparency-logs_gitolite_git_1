@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5809498371121018745=="
+Content-Type: multipart/mixed; boundary="===============8888263386651014186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 04 Apr 2022 14:34:44 -0000
-Message-Id: <164908288478.5503.10781380105061255883@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 14:35:10 -0000
+Message-Id: <164908291029.7102.15236847197584984661@gitolite.kernel.org>
 
---===============5809498371121018745==
+--===============8888263386651014186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: e1977dc8bbf3752b7844b2b9d12f07a0bd7d6562
-    new: 054cd1b71de08bdb177cf53c167acaf357fec554
+    old: 054cd1b71de08bdb177cf53c167acaf357fec554
+    new: e54e00a28837656d0564e572f33de3f405e01710
     log: |
-         0eaf4a6239136068c439494e0c68a25c2cbb816a staging: rtl8712: Fix multiple blank lines warning from .h files
-         054cd1b71de08bdb177cf53c167acaf357fec554 staging: rtl8712: Fix multiple blank lines warning from .c files
+         091bfe946a9678926f0fef482783ed3e0aafe4f1 staging: r8188eu: remove unused fields from struct pwrctrl_priv
+         d08a738ff1d06bd66cc8b9a9b8c9ffd4df53c029 staging: r8188eu: reg_rfoff is never set
+         ff99fdb280a58305a1ee189677f97f3a5028e04a staging: r8188eu: pnp_bstop_trx is never set
+         93bf50ec9740168c0719d6f3914db98ba5f63a2f staging: r8188eu: pwr_state_check_cnts is always zero
+         e54e00a28837656d0564e572f33de3f405e01710 staging: r8188eu: ps_flag is never set
          
 
---===============5809498371121018745==
+--===============8888263386651014186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649082882 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649082908 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649082881-796ef6e16989d2c54f446a37d48df17b08e99cf0
+nonce 1649082907-fef705eab69bc2bf8329dee4db77a929a3b92d1b
 
-e1977dc8bbf3752b7844b2b9d12f07a0bd7d6562 054cd1b71de08bdb177cf53c167acaf357fec554 refs/heads/staging-testing
+054cd1b71de08bdb177cf53c167acaf357fec554 e54e00a28837656d0564e572f33de3f405e01710 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJLAgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xnkP9RTM+XaDHXy0Og1fPBC/
-ncrWopCybaK1DdUS4KTu7ZpkznDfBZDibb+wppNjBmEgqhQXBmLldyBnpONU1GBs
-Y8KIp4SMuSbHk6lbCkr9umbscIeIaG0mwsIhfcRNlhgnT9w5iMGrXmOFzx2NSJB4
-uQ7bY2gwDU+OxgY/ci9yivbiOW2Ype+S6w5GiRe0KDy8DJ6b2Z+G+23RhMO/RoKt
-aX5OHwIXlv8OZsK9gqMAO9DWWE2OHnERHSk8K2jLf/p/bYyN0hfenDt29ou1c6qY
-ZY5161IRJ1GOUmKoo6nP+/VITUMr8CYC7BjpZcvOxepln72ViGPsfEWoyZJusRA3
-hKvC2APZ1N/Cln73wnw2bnFsNfjpEn8qsihWttrAI+2ayf4RAAQMMiDh6fY53rTV
-DPqP2qN8cr0OLT+wZU6X/gFmRjPDy5mzv6zm6JOAGSDczJ3MknOabs++1/Em6rPf
-fLEwFl2jXuuN1NkUJdVTAc0B1TBiobLGHBupmPeMBbyJCqiz6mcU4SGxAg+qU8ve
-0t28ceytBsxmGF73zUMcx8Gthr4E2qLTCbvKMr1UxMYKztOGDXILHlI5HqLR9yaY
-UPjjrE/yliD7762FDFyMbhBCRlOrP8ca8w2RAijKUiKd3xMEBkSiKcMB8/aiangr
-CE2SRFnkT82OMGz2pwl6CYk=
-=JHJN
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJLAhwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dxMP/1cWZFpTr47w+PtT2xyQ
+mdSCSm43NzpgCCpNrLBMjQgf7hPCTdneXNyb1LW1Q5IsX6UJ0IrkIYrd2+nAcS93
+PJGmwvwYrpbuAqc3trgVJqxZHH0iRH6uWwWPsVKDhjDjK1Zv1vL/n1WuqE75mnfl
+I59XQUaTTWQFkJ4w55qNYGVUYkj/ecQ6gf3VkHeGrlO0va7krvna7NWdwsgi6VeY
++Si7fPS2RYH7Ak8PCyW191S7Xyrf4igS8dfLJFR4MyMY9GCwY1oRV5vnYfth7ttj
+3udPrDyYteyQzFtPATY+HBtAl+Q/rHCOnAO9JNWMt1nyeaZcVQPqM7PHGJjSzen3
++XuL+k7cKuKkSyLddWT0cZdHOgGxCqcpQCwaQP1eKorRrsRqXTXx8ckrFEtvryGV
+rzgod3HWfVrbEzBLz1O/GNXbscLEeC7luxhWwBiAgTdBP2p72nWkX8aPHqch80n7
+VQQjwgH/U7GbzG4uda9ypbd551PpNr8VFCMbGYgEP3ebHcmfz6xd8qONwq/223ad
+LjOn3sD0rRPqC8La6NZF/qCtnugooEhuzmfvqaf/PFoYuPgZ5eFyMURamAG3v7B8
+G977e0Vdtk7s2iehZxGAWK1mRGvrmFpHVNe1oQy7tn357xOrN0j8hsXJsDbBzvOj
+m9/OhB62M0o7Dhov47KWeIzw
+=2+Xi
 -----END PGP SIGNATURE-----
 
---===============5809498371121018745==--
+--===============8888263386651014186==--
