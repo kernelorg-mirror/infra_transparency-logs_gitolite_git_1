@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0372356972137079887=="
+Content-Type: multipart/mixed; boundary="===============2380173021258609165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 04 Apr 2022 12:14:48 -0000
-Message-Id: <164907448845.6967.7386373440858375994@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 12:14:58 -0000
+Message-Id: <164907449867.7104.17570318845856889428@gitolite.kernel.org>
 
---===============0372356972137079887==
+--===============2380173021258609165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: b1e8206582f9d680cff7d04828708c8b6ab32957
-    new: 506d6c5f1ac44a36b2ff48ea56ba8a4571adb027
-    log: revlist-b1e8206582f9-506d6c5f1ac4.txt
+  - ref: refs/heads/locking/urgent
+    old: 28df029d53a2fd80c1b8674d47895648ad26dcfb
+    new: c4556206071dff4093fedb3839c113ffa527000f
+    log: revlist-28df029d53a2-c4556206071d.txt
 
---===============0372356972137079887==
+--===============2380173021258609165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1e8206582f9-506d6c5f1ac4.txt
+Content-Disposition: attachment; filename=revlist-28df029d53a2-c4556206071d.txt
 
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
 b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
 adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
 bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
@@ -1047,8 +1043,12 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-664eaf9962fbd2579343bd54d655ba7d79acde3e sched/core: Fix forceidle balancing
-9d83169d6fbb1108de82a0c3420e826187999e7d sched: Teach the forced-newidle balancer about CPU affinity limitation.
-506d6c5f1ac44a36b2ff48ea56ba8a4571adb027 entry: Fix compile error in dynamic_irqentry_exit_cond_resched()
+6edc9a85ecc78270b8912599bb74316479727bba x86,static_call: Fix __static_call_return0 for i386
+4d0c9a96d06559b493d953ab1ca823bbccca2b06 static_call: Don't make __static_call_return0 static
+83a33b3eb934d768b7c51670cda59bd58dd6c570 static_call: Properly initialise DEFINE_STATIC_CALL_RET0()
+67f0e62aa4bb30cc608541701606bd450beeab18 static_call: Remove __DEFINE_STATIC_CALL macro
+acd99dbdcbaf86c02f2b806d14703bbc615be0d2 x86/percpu: Remove volatile from arch_raw_cpu_ptr().
+3d89fb8caf0c18f8f6f0c023bb2ae27b04729a20 Revert "locking/local_lock: Make the empty local_lock_*() function a macro."
+c4556206071dff4093fedb3839c113ffa527000f Revert "mm/page_alloc: mark pagesets as __maybe_unused"
 
---===============0372356972137079887==--
+--===============2380173021258609165==--
