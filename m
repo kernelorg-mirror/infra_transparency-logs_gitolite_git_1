@@ -1,71 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6534411477613793144=="
+Content-Type: multipart/mixed; boundary="===============0483742535337620323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Apr 2022 16:34:23 -0000
-Message-Id: <164909006339.19576.2883547016078210145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Mon, 04 Apr 2022 16:34:31 -0000
+Message-Id: <164909007176.19703.12037276111497163463@gitolite.kernel.org>
 
---===============6534411477613793144==
+--===============0483742535337620323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/next
-    old: f6d344cd5fa6a15e1ec2da350470b35a3f55f74c
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-f6d344cd5fa6-312310928417.txt
+  - ref: refs/heads/netfs-maple
+    old: 5cb7f190822d09757b30cd9539e57eef72552d1f
+    new: 674eea41fc70a740ff83ec590f9833f805852464
+    log: revlist-5cb7f190822d-674eea41fc70.txt
 
---===============6534411477613793144==
+--===============0483742535337620323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6d344cd5fa6-312310928417.txt
+Content-Disposition: attachment; filename=revlist-5cb7f190822d-674eea41fc70.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
-8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
-436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
-1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
-242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
-f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
-9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
-7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
-4d69c3457821100a39fa8c6e0c23ed910bb6c29d mm/damon/reclaim: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-da7aaca05f4f88f5e723f315771808a629b3d32b mm/damon/dbgfs: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-4a20865b0744c987655472425203345d970da7a0 mm/damon/dbgfs: use operations id for knowing if the target has pid
-999b9467974f75aae96b285337a77c098c9f1e07 mm/damon/dbgfs-test: fix is_target_id() change
-851040566a008f7248cb754d5bb9a3e34f2effe5 mm/damon/paddr,vaddr: remove damon_{p,v}a_{target_valid,set_operations}()
-3213a3c10fc81e8dd441b74b6555bb9cb287f898 mm/damon: remove unnecessary CONFIG_DAMON option
-561f4fc4972443f1273f7abbd8270fd949e6584b Docs/vm/damon: call low level monitoring primitives the operations
-742cc2bfce5a94ad629a3a0bd408ef61c8be2826 Docs/vm/damon/design: update DAMON-Idle Page Tracking interference handling
-4c1f287f8c80268a870d8a51012ac4adf8fcbec5 Docs/damon: update outdated term 'regions update interval'
-8b9b0d335a345cbc590baa5aa8aa02c467c1e4e8 mm/damon/core: allow non-exclusive DAMON start/stop
-5257f36ec289d544532f2889cbed11abbb06cf0c mm/damon/core: add number of each enum type values
-c951cd3b89010c7a4751b9d4ea074007e44851e6 mm/damon: implement a minimal stub for sysfs-based DAMON interface
-a61ea561c87139992fe32afdee48a6f6b85d824a mm/damon/sysfs: link DAMON for virtual address spaces monitoring
-2031b14ea757361fd5fceb481a6f0c1bf9e3462f mm/damon/sysfs: support the physical address space monitoring
-7e84b1f8212a038ebeee06de56db7181148fa0cd mm/damon/sysfs: support DAMON-based Operation Schemes
-9bbb820a5bd5f406ae5e0819cc31f2c2e6f4d990 mm/damon/sysfs: support DAMOS quotas
-1c78b2bcd240c43690f3766a87bcfa7eb25d37ae mm/damon/sysfs: support schemes prioritization
-1b32234ab087d15f4afcac644dbe036100bcc1c1 mm/damon/sysfs: support DAMOS watermarks
-0ac32b8affb5a384253dbb8339bd2d0e91add0b7 mm/damon/sysfs: support DAMOS stats
 40184e484def1bea48e6be8c80ea7f992b8df16a selftests/damon: add a test for DAMON sysfs interface
 b18402726bd10e122c65eecc244ca1cdcb868cc8 Docs/admin-guide/mm/damon/usage: document DAMON sysfs interface
 f968c6a4c66ec25e97ca8801eada103abfe9b295 Docs/ABI/testing: add DAMON sysfs interface ABI document
@@ -1050,5 +1010,45 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+625d4867ba096f768cd81ccc2a3e51217fdf6c66 netfs: ->cleanup() op can always be given rreq pointer now
+9bff5b05142d47cc6a64f5e023fd01d9bf8bee9e netfs: Add a procfile to list in-progress requests
+1aaaba3487d42a654eb66b2f972ad8fd411ab6c4 iov_iter: Add a function to extract an iter's buffers to a bvec iter
+9fa4542a113fd3ced8d6581107b56a591674bef9 iov_iter: Add a general purpose iteration function
+25ab933d24f5ba99bb4d8b63bb3443bde2984b94 netfs: Track the fpos above which the server has no data
+1a996bf01ee136c79962fee405c2f02242613388 netfs: Note nonblockingness in the netfs_io_request struct
+d8648d5ddfce4a65f12d404c62e7d6b343880087 netfs: Allow the netfs to make the io (sub)request alloc larger
+cae8dd85733f703374474ed433b8263263d4fa7f netfs: Provide invalidatepage and releasepage calls
+97fe463427ed45d48cfd7f1d066ebfd5fd962e5a netfs: Add rsize to netfs_i_context
+a8b01632f9255347c351a94545547b3b3c00dae7 netfs: Add an iov_iter to the read subreq for the network fs/cache to use
+1e281ddc3a414a761cd1755d273fed4a5abf7c62 netfs: Track pages for buffered I/O in netfs_io_request
+295408d426513671b885c71465f50f404d47ae72 netfs: Add bounce buffering support
+b7dc7848b375d8cd00e211160f2c33b3f0618182 netfs: Add support for DIO buffering
+be1bb787e99ec13aa190b6085123d9065dc22134 netfs: Implement support for DIO read
+5229958621b2b197ba1fcb746aa7da06575ba890 afs: Enable DIO read through netfslib
+cb80122e3672247f7f5e9a53731646844dea4cdc 9p: Use netfslib read DIO helper
+056bca518c41eced448944f0f434d4e8817d448c 9p: [FOR TEST] enable folio file pages
+658eb4af88879fa5ea912c404c5be6c644cb4a7d 9p: Allow the target volume to be specified in the device string
+51b63e667ad83864c161cf2b8ef462e907536070 Maple Tree: Add new data structure
+a23a2940ad744bde19ac834fd212d614c96ca759 mm: Export find_get_entries()
+9262347fc4c2b6d6b53ada15cbef4da34121f375 netfs: Add wsize, min blocksize and object size params to inode context
+57fa798ee862619c116743072cc61290b9fe0485 netfs: Add a sanity-check function for the netfs inode context
+52a74d5da7ccf582df319c8674e326bc055d111f netfs: Extend the netfs_io_*request structs to handle writes
+d77af6a0e73b5e3c4bae01c64df536f2662e2dab netfs: Dispatch write requests to process a writeback slice
+54ce29b059e41fbae373f1a0e7a1761dc644f7dc netfs: Add buffering methods that involve crypto
+fc693b2e39df6567a0312f21bb9004e1d7983286 netfs: Perform content encryption
+12890a7c58a0e1b6851394d0760aeb3ea006f039 netfs: Decrypt encrypted content
+86ffcdd2a1cb7c858063208fdfb7abe941bc0b9e netfs: Support decryption on DIO read
+e25d1386e84297fa65124359f2ed688859bebed3 netfs: Define a struct to track dirty regions of a file
+92f2398befbdebef48f59e8bccc71833001cccb5 netfs: Implement some trivial write throttling
+ae4286cc177a3ab6eb714fa6e60712d55694ad8f netfs: Add a hook to allow tell the netfs to update its i_size
+de9e0f1eda787a00e12338ec6e4738a6cb19b0c6 netfs: Implement DIO write support
+073b0ba90614945b31bccfede6e00102b7eb460e netfs: Implement buffered writes through netfs_file_write_iter()
+9edaf8a5ff00174bd33f2fef488785289dabd2dd netfs: Check for conflicting regions when about to perform a write
+fc20927bc9709523b2a53feee2a52423b9d66456 netfs: Allow buffered shared-writeable mmap through netfs_page_mkwrite()
+fc4687771899934d2cd99d292c7d0afdea630880 netfs: Do copy-to-cache-on-read through VM writeback
+5e5e24ad5bf0176cea69018da2e7118b84d041f8 netfs: Generate a write request from ->writepages()
+2726127983997dfb5bb1bc83d69cec5baeea5694 afs: Use the netfs write helpers
+e3f5aec34955d83f706c49c395274da333dd726d afs: [DON'T MERGE] Implement trivial content crypto for testing purposes
+674eea41fc70a740ff83ec590f9833f805852464 afs: Fix afs_init_request() to handle getting no file* from writepages
 
---===============6534411477613793144==--
+--===============0483742535337620323==--
