@@ -1,30 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3871616341423730923=="
+Content-Type: multipart/mixed; boundary="===============2103717266921781263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Apr 2022 06:33:21 -0000
-Message-Id: <164905400167.13718.15359515154115582558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 04 Apr 2022 06:41:44 -0000
+Message-Id: <164905450455.19207.11892371519265533326@gitolite.kernel.org>
 
---===============3871616341423730923==
+--===============2103717266921781263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: f48a0c475c2aec8f2274703e1dc7be503f40f7cc
+  - ref: refs/heads/master
+    old: f443e374ae131c168a065ea1748feac6b2e76613
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-f48a0c475c2a-312310928417.txt
+    log: revlist-f443e374ae13-312310928417.txt
+  - ref: refs/tags/v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/tags/v5.16
+    old: 0000000000000000000000000000000000000000
+    new: d067e3e91a795a2b936c5c5b18f2591187a74f6e
+  - ref: refs/tags/v5.17
+    old: 0000000000000000000000000000000000000000
+    new: f8e739787152143aacffc181562a29c049c2d658
+  - ref: refs/tags/v5.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3b976fedd330ee50011f1905429829c61cd4de4d
+  - ref: refs/tags/v5.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d0022914e86aa85ea6c806ae4bc442f9821e830a
+  - ref: refs/tags/v5.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 57a5fe67d97b4a4c39b212673db451b0275ba820
 
---===============3871616341423730923==
+--===============2103717266921781263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f48a0c475c2a-312310928417.txt
+Content-Disposition: attachment; filename=revlist-f443e374ae13-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1069,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============3871616341423730923==--
+--===============2103717266921781263==--
