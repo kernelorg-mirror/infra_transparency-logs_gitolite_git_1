@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1824038591810624904=="
+Content-Type: multipart/mixed; boundary="===============7730834444029515470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 04 Apr 2022 12:15:08 -0000
-Message-Id: <164907450846.8682.1790858446585101876@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 12:15:18 -0000
+Message-Id: <164907451807.8825.11015616238709467725@gitolite.kernel.org>
 
---===============1824038591810624904==
+--===============7730834444029515470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: cd27ccfc727e99352321c0c75012ab9c5a90321e
-    new: 26874437d5f1fcfa3de2e1d17cf6979532f32c48
-    log: revlist-cd27ccfc727e-26874437d5f1.txt
+  - ref: refs/heads/perf/urgent
+    old: 5f4e5ce638e6a490b976ade4a40017b40abb2da0
+    new: 06f4bcffa80d7e561f41580b18152544fe365b04
+    log: revlist-5f4e5ce638e6-06f4bcffa80d.txt
 
---===============1824038591810624904==
+--===============7730834444029515470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd27ccfc727e-26874437d5f1.txt
+Content-Disposition: attachment; filename=revlist-5f4e5ce638e6-06f4bcffa80d.txt
 
+737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
+d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
+144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
 8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
 436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
 1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
@@ -1036,19 +1039,16 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-6edc9a85ecc78270b8912599bb74316479727bba x86,static_call: Fix __static_call_return0 for i386
-4d0c9a96d06559b493d953ab1ca823bbccca2b06 static_call: Don't make __static_call_return0 static
-83a33b3eb934d768b7c51670cda59bd58dd6c570 static_call: Properly initialise DEFINE_STATIC_CALL_RET0()
-67f0e62aa4bb30cc608541701606bd450beeab18 static_call: Remove __DEFINE_STATIC_CALL macro
-acd99dbdcbaf86c02f2b806d14703bbc615be0d2 x86/percpu: Remove volatile from arch_raw_cpu_ptr().
-3d89fb8caf0c18f8f6f0c023bb2ae27b04729a20 Revert "locking/local_lock: Make the empty local_lock_*() function a macro."
-c4556206071dff4093fedb3839c113ffa527000f Revert "mm/page_alloc: mark pagesets as __maybe_unused"
-c1f486bd2551c0ba9fb70151e7a18d4260c4f5b3 lockdep: Fix -Wunused-parameter for _THIS_IP_
-139a0e951bb3b7d1b993d56788aa0d25816c3508 locking/rwsem: No need to check for handoff bit if wait queue empty
-7da533c254d25312dea0113391b7f6c8efb4cff7 locking/rwsem: Conditionally wake waiters in reader/writer slowpaths
-8360b50e0ab09c6cb16be264985da2e8d020ce7d locking/rwsem: Always try to wake waiters in out_nolock path
-0d19b164ae15d77667490936a596ee7a7795c9ee locking: Add lock contention tracepoints
-0eb1376874dfdcc050c7ea756ca21c95d1c7a2e0 locking: Apply contention tracepoints in the slow path
-26874437d5f1fcfa3de2e1d17cf6979532f32c48 locking/mutex: Make contention tracepoints more consistent wrt adaptive spinning
+b6a9ac198531db6923f57a52560d74e9e20b1eac perf/x86: Add Intel Raptor Lake support
+d2f7b6dff37736f57e529aff5fc413ad2b4534fc perf/x86/cstate: Add Raptor Lake support
+88ef34315aa344066f461d00dbb0cec6ff422fbf perf/x86/msr: Add Raptor Lake CPU support
+ece0f72835c3bad9d3c62daeb39f2576639bc9a9 perf/x86/uncore: Add Raptor Lake uncore support
+f20cd32cf364815545cc85c56e0060052f4b4358 perf/core: Inherit event_caps
+bf701ce7b4f9ae39073aba0a6d9cd679221d8bf8 perf/x86/intel: Don't extend the pseudo-encoding to GP counters
+29f3937a78cad49e925ef1525b7627d593c20a4b perf/x86/intel: Update the FRONTEND MSR mask on Sapphire Rapids
+728beb379cf355c60b78a353bd5d6b931cc17667 perf/core: Don't pass task around when ctx sched in
+5f1ceb10f7ff54feb3159bd94b9432b79ad7720b perf/core: Use perf_cgroup_info->active to check if cgroup is active
+3736b0ed4188480f4f55e63373dee280524b883e perf/core: Fix perf_cgroup_switch()
+06f4bcffa80d7e561f41580b18152544fe365b04 perf/core: Always set cpuctx cgrp when enable cgroup event
 
---===============1824038591810624904==--
+--===============7730834444029515470==--
