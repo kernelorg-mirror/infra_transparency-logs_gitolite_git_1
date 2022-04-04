@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2913452664742549526=="
+Content-Type: multipart/mixed; boundary="===============7207968474355060750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/matthias.bgg/linux
-Date: Mon, 04 Apr 2022 12:09:45 -0000
-Message-Id: <164907418510.2235.9502621888027159151@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 12:10:12 -0000
+Message-Id: <164907421257.3881.8236581215753265668@gitolite.kernel.org>
 
---===============2913452664742549526==
+--===============7207968474355060750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/matthias.bgg/linux
 user: matthias.bgg
 changes:
-  - ref: refs/heads/v5.18-next/dts64
-    old: 0430c2279712af206bd3d33b21f328562ab16551
-    new: aa8f3711fc87f7d9b8edee6f09e44b3f9113f081
-    log: revlist-0430c2279712-aa8f3711fc87.txt
+  - ref: refs/heads/v5.18-next/soc
+    old: b0b77b410e3cc34cbe87ace37fb518288bbacc1f
+    new: 9d7370a56d1871e924377872985a13f6cd104e82
+    log: revlist-b0b77b410e3c-9d7370a56d18.txt
 
---===============2913452664742549526==
+--===============7207968474355060750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0430c2279712-aa8f3711fc87.txt
+Content-Disposition: attachment; filename=revlist-b0b77b410e3c-9d7370a56d18.txt
 
+c50762a85da6a95a96a20043ed518264b62b47df PCI: Remove unused assignments
+b6829e0419e5b3deafce5455da588c39deda77fa PCI: kirin: Remove unused assignments
+6f102550728838f0f83123f193740c06fdfbdd62 PCI: fu740: Remove unused assignments
+af8b8b6c044541430b287e549aeb5ffd622c8ac7 PCI: cpqphp: Remove unused assignments
+6a8fcf7d47a0679a0fe4239c783224ceb559e661 PCI: ibmphp: Remove unused assignments
+b9fae6a47b8bcb397e6a482095431f6ba9648211 x86/PCI: Add #includes to asm/pci_x86.h
+1c4664faa38923330d478f046dc743a00c1e2dec xtensa: define update_mmu_tlb function
+05e815539f3f161585c13a9ab023341bade2c52f cxl/core/port: Fix NULL but dereferenced coccicheck error
+fa3416509605621b8db263b0ee9aaf85285aee4b ACPI, APEI: Use the correct variable for sizeof()
+ee1fee900537b5d9560e9f937402de5ddc8412f3 ptrace: Check PTRACE_O_SUSPEND_SECCOMP permission on PTRACE_SEIZE
+ecaed3b9deea9ff3e7d98b9ee8722c7d78de5d97 Revert "ARM: rethook: Add rethook arm implementation"
+35df0155e68a1fb20646f34247f19131170693bd Revert "powerpc: Add rethook support"
 0f8f8030038ae37c32a233186caab2c381396784 Revert "arm64: rethook: Add arm64 rethook implementation"
 4e8ca13440b4b84873da44871f8824a12381d16b Revert "rethook: x86: Add rethook x86 implementation"
 7f0059b58f0257d895fafd2f2e3afe3bbdf21e64 selftests/bpf: Fix kprobe_multi test.
@@ -1037,18 +1049,6 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-33c7874b44324fe9657d19ca01ef4ae4403a5a4b arm64: dts: mediatek: Format mediatek,larbs as an array of phandles
-261691b40128e6b76bb94d562457d8a5236cc7fa arm64: dts: mt8192: Add pwrap node
-c63556ec6bfe21cde6ab2fb0b651112bc5e99e56 arm64: dts: mt8192: Add SCP node
-40de66b8bbbb6137022652954167d5c570bb93c2 arm64: dts: mt8192: Add usb-phy node
-e5aac2258e666cdfe7e027766b89af639cd5fb08 arm64: dts: mt8192: Add xhci node
-27f0eb16b0d417c155e96b5d3b89074699944e09 arm64: dts: mt8192: Fix nor_flash status disable typo
-4d50a433d0fde2c610628a7b40a0291899861482 arm64: dts: mt8192: Add efuse node
-4a65b0f1bec51872b406a8f74a66c0e6e298423c arm64: dts: mt8192: Add m4u and smi nodes
-19c66219e4d5b813ebbd28621cfe9c450659ded7 arm64: dts: mt8192: Add the mmsys reset bit to reset the dsi0
-7663f7a26b335a53102a0893824689182ac64e42 dt-bindings: arm: mediatek: Add mt8195 pericfg compatible
-b2edd51979d2861e75a9b20ac0e566e9a0770d81 arm64: dts: mt8192: Add dpi node
-e530d080932d0db52071c9bec20d60b4a3d9035c arm64: dts: mt8192: Add PCIe node
-aa8f3711fc87f7d9b8edee6f09e44b3f9113f081 arm64: dts: mt8192: Add H264 venc device node
+9d7370a56d1871e924377872985a13f6cd104e82 soc: mediatek: mmsys: Add sw0_rst_offset for MT8192
 
---===============2913452664742549526==--
+--===============7207968474355060750==--
