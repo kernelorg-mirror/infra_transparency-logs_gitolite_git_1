@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2663962197297432863=="
+Content-Type: multipart/mixed; boundary="===============2868567540884578182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 04 Apr 2022 21:40:13 -0000
-Message-Id: <164910841364.26751.2841408082069790283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Mon, 04 Apr 2022 21:43:11 -0000
+Message-Id: <164910859188.28083.14073047250442796075@gitolite.kernel.org>
 
---===============2663962197297432863==
+--===============2868567540884578182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 5191290407668028179f2544a11ae9b57f0bcf07
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-519129040766-312310928417.txt
+  - ref: refs/heads/next-integrity-testing
+    old: 4a48b4c428dc92b5e0b19de83e7eb8d530dddd48
+    new: 29d1c2b47ef3b39a5bc58e060a4ee23ccf3d052e
+    log: revlist-4a48b4c428dc-29d1c2b47ef3.txt
 
---===============2663962197297432863==
+--===============2868567540884578182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519129040766-312310928417.txt
+Content-Disposition: attachment; filename=revlist-4a48b4c428dc-29d1c2b47ef3.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
@@ -1050,5 +1049,6 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+29d1c2b47ef3b39a5bc58e060a4ee23ccf3d052e ima: remove redundant initialization of pointer 'file'.
 
---===============2663962197297432863==--
+--===============2868567540884578182==--
