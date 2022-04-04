@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============1853155563812934242=="
+Content-Type: multipart/mixed; boundary="===============7599069733648408885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 04 Apr 2022 10:28:28 -0000
-Message-Id: <164906810846.29745.6531800917883839541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 04 Apr 2022 10:28:32 -0000
+Message-Id: <164906811295.29835.6018592365989309139@gitolite.kernel.org>
 
---===============1853155563812934242==
+--===============7599069733648408885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/at91sam9g20ek-audio-dt
-    old: 2581ebc33f51479738b092cb91d5320902beb452
-    new: 9fe107fbd103a639ae04249918971a5c603567ca
-    log: revlist-2581ebc33f51-9fe107fbd103.txt
+  - ref: refs/heads/master
+    old: ffb217a13a2eaf6d5bd974fc83036a53ca69f1e2
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-ffb217a13a2e-312310928417.txt
 
---===============1853155563812934242==
+--===============7599069733648408885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2581ebc33f51-9fe107fbd103.txt
+Content-Disposition: attachment; filename=revlist-ffb217a13a2e-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
@@ -1048,7 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-eedf833fa4b81d167c18253ec25478f8191c972d ARM: dts: at91: Map MCLK for wm8731 on at91sam9g20ek
-9fe107fbd103a639ae04249918971a5c603567ca ARM: dts: at91: Describe regulators on at91sam9g20ek
 
---===============1853155563812934242==--
+--===============7599069733648408885==--
