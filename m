@@ -1,31 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============4127740340006688374=="
+Content-Type: multipart/mixed; boundary="===============3250232327640094203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Mon, 04 Apr 2022 19:58:14 -0000
-Message-Id: <164910229415.25487.13322556512991421353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 04 Apr 2022 20:10:46 -0000
+Message-Id: <164910304636.1272.12563338950328790575@gitolite.kernel.org>
 
---===============4127740340006688374==
+--===============3250232327640094203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/modules-next
-    old: 719fce7539cd3e186598e2aed36325fe892150cf
-    new: ac1b8702cc454feb635c9ff535a91ee3a982154e
-    log: revlist-719fce7539cd-ac1b8702cc45.txt
+  - ref: refs/heads/x86/platform
+    old: 9e4d52a00a0217857fa40dc998971a375f861a61
+    new: f93ba85de0d1ce1924b0752b6a7a784c11c36414
+    log: revlist-9e4d52a00a02-f93ba85de0d1.txt
 
---===============4127740340006688374==
+--===============3250232327640094203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-719fce7539cd-ac1b8702cc45.txt
+Content-Disposition: attachment; filename=revlist-9e4d52a00a02-f93ba85de0d1.txt
 
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
+adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
+bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
+3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
+737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
+d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
+144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
+8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
+436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
+1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
+242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
+f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
+9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
+7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
+4d69c3457821100a39fa8c6e0c23ed910bb6c29d mm/damon/reclaim: use damon_select_ops() instead of damon_{v,p}a_set_operations()
+da7aaca05f4f88f5e723f315771808a629b3d32b mm/damon/dbgfs: use damon_select_ops() instead of damon_{v,p}a_set_operations()
+4a20865b0744c987655472425203345d970da7a0 mm/damon/dbgfs: use operations id for knowing if the target has pid
 999b9467974f75aae96b285337a77c098c9f1e07 mm/damon/dbgfs-test: fix is_target_id() change
 851040566a008f7248cb754d5bb9a3e34f2effe5 mm/damon/paddr,vaddr: remove damon_{p,v}a_{target_valid,set_operations}()
 3213a3c10fc81e8dd441b74b6555bb9cb287f898 mm/damon: remove unnecessary CONFIG_DAMON option
@@ -1026,29 +1047,8 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-cfc1d277891eb499b3b5354df33b30f598683e90 module: Move all into module/
-787434626d9fb1584974d4b43ddd58c5096ec88d module: Simple refactor in preparation for split
-450f0134ccf0c733451c5b0a14ab24f8621a69ed module: Make internal.h and decompress.c more compliant
-54baa1322356f8d0a30fda1cb1aec3fd905eb777 module: Move livepatch support to a separate file
-74e8376518114351d7a2f197edb2eda80301f247 module: Move latched RB-tree support to a separate file
-2bd8c24f9f25877e0f2b3e594e85f68b2e2bc8e7 module: Move strict rwx support to a separate file
-8e4b395652b48b86968402e2ec26a54e025e9235 module: Move extra signature support out of core code
-fa96a12372c36fabafdc17cf65fd5b1cbf8b2ab0 module: Move kmemleak support to a separate file
-8c5ba1bb7d37a79d6e6c54d1125f719a8f2e34e7 module: Move kallsyms support into a separate file
-852675c69a1d82015502647340ff8b72467aad78 module: kallsyms: Fix suspicious rcu usage
-53ef1fbd8b6f92fd312aa99bc2dd55c54c692b56 module: Move procfs support into a separate file
-7e63cf0950ddaab648619b5c2636cb76795a1ccf module: Move sysfs support into a separate file
-f1f086e16e076e2da03815733e6db668d4efc160 module: Move kdb module related code out of main kdb code
-5544ecd620def87d1948de0a6cba2459307fd7a1 module: Move version support into a separate file
-281f10b77c6acf2a6643aaff24f6e45db11218e6 module: Make module_enable_x() independent of CONFIG_ARCH_HAS_STRICT_MODULE_RWX
-4c3718c984dabd8a62574d9f5ace02064cc877ae module: Move module_enable_x() and frob_text() in strict_rwx.c
-3c619b8ce4250696992e07871c1688e330be87f0 module: Rework layout alignment to avoid BUG_ON()s
-f6339ae0365ad73ea0e63df22a52937d24382927 module: Rename debug_align() as strict_align()
-3d886307304bad0fcfbcfb980ca14f167a794d55 module: Always have struct mod_tree_root
-fdc19b2d9f749ac1c914baa592f6e12acfee5f31 module: Prepare for handling several RB trees
-b7fa3ec056dc20cc48ca38ab94006a0af032a6f1 module: Introduce data_layout
-893e8194630f4a93deee258ad4aee1879f70a4a7 module: Add CONFIG_ARCH_WANTS_MODULES_DATA_IN_VMALLOC
-8885ee7aab4119929ea82a464f338c27df2aedfa module: Remove module_addr_min and module_addr_max
-ac1b8702cc454feb635c9ff535a91ee3a982154e powerpc: Select ARCH_WANTS_MODULES_DATA_IN_VMALLOC on book3s/32 and 8xx
+419074a49f3343004a8bf5122e2a9a7259d7e4dd x86/platform/uv: Update NMI Handler for UV5
+4395de040d24b40fb3cd7fb4f0b013748abe0a72 x86/platform/uv: Update TSC sync state for UV5
+f93ba85de0d1ce1924b0752b6a7a784c11c36414 x86/platform/uv: Log gap hole end size
 
---===============4127740340006688374==--
+--===============3250232327640094203==--
