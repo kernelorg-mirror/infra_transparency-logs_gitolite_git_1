@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7730834444029515470=="
+Content-Type: multipart/mixed; boundary="===============5615736380486511856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 04 Apr 2022 12:15:18 -0000
-Message-Id: <164907451807.8825.11015616238709467725@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 12:15:27 -0000
+Message-Id: <164907452785.8955.7348461967417088154@gitolite.kernel.org>
 
---===============7730834444029515470==
+--===============5615736380486511856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 5f4e5ce638e6a490b976ade4a40017b40abb2da0
-    new: 06f4bcffa80d7e561f41580b18152544fe365b04
-    log: revlist-5f4e5ce638e6-06f4bcffa80d.txt
+  - ref: refs/heads/perf/core
+    old: 02a08d78f5c429c7dc8e5b9417b4efb518b3d041
+    new: 4e53de5e2bfcc9eb033784ee0035cb51d23ea9be
+    log: revlist-02a08d78f5c4-4e53de5e2bfc.txt
 
---===============7730834444029515470==
+--===============5615736380486511856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f4e5ce638e6-06f4bcffa80d.txt
+Content-Disposition: attachment; filename=revlist-02a08d78f5c4-4e53de5e2bfc.txt
 
+3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
 737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
 d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
 144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
@@ -1039,16 +1040,15 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-b6a9ac198531db6923f57a52560d74e9e20b1eac perf/x86: Add Intel Raptor Lake support
-d2f7b6dff37736f57e529aff5fc413ad2b4534fc perf/x86/cstate: Add Raptor Lake support
-88ef34315aa344066f461d00dbb0cec6ff422fbf perf/x86/msr: Add Raptor Lake CPU support
-ece0f72835c3bad9d3c62daeb39f2576639bc9a9 perf/x86/uncore: Add Raptor Lake uncore support
-f20cd32cf364815545cc85c56e0060052f4b4358 perf/core: Inherit event_caps
-bf701ce7b4f9ae39073aba0a6d9cd679221d8bf8 perf/x86/intel: Don't extend the pseudo-encoding to GP counters
-29f3937a78cad49e925ef1525b7627d593c20a4b perf/x86/intel: Update the FRONTEND MSR mask on Sapphire Rapids
-728beb379cf355c60b78a353bd5d6b931cc17667 perf/core: Don't pass task around when ctx sched in
-5f1ceb10f7ff54feb3159bd94b9432b79ad7720b perf/core: Use perf_cgroup_info->active to check if cgroup is active
-3736b0ed4188480f4f55e63373dee280524b883e perf/core: Fix perf_cgroup_switch()
-06f4bcffa80d7e561f41580b18152544fe365b04 perf/core: Always set cpuctx cgrp when enable cgroup event
+bf62b7a5f140516e472b727a364229a6b180ae11 perf/core: Add perf_clear_branch_entry_bitfields() helper
+13f56d6f6a4329714f22d5dd40a68574f3d55561 x86/cpufeatures: Add AMD Fam19h Branch Sampling feature
+104f457e06ce88c0ce52fe24ba7a4b187c909adf perf/x86/amd: Add AMD Fam19h Branch Sampling support
+e31334878cf21d88641a21ae5e3c29fc914373bb perf/x86/amd: Add branch-brs helper event for Fam19h BRS
+843e7ca6780ec047018f0da584fb7f41b639839f perf/x86/amd: Enable branch sampling priv level filtering
+30d40af02c7da86f84484c751f3e83eaed395848 perf/x86/amd: Add AMD branch sampling period adjustment
+e17ae924bffb1edf233810dfeb5fe8209411e973 perf/x86/amd: Make Zen3 branch sampling opt-in
+f363a0f48f7f99b46b6067228c48096daf084f77 ACPI: Add perf low power callback
+808a2f40d96ff1a507487c155d73d29b61b23432 perf/x86/amd: Add idle hooks for branch sampling
+4e53de5e2bfcc9eb033784ee0035cb51d23ea9be perf/x86: Unify format of events sysfs show
 
---===============7730834444029515470==--
+--===============5615736380486511856==--
