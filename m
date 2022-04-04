@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2777765420645199044=="
+Content-Type: multipart/mixed; boundary="===============3730473409193082435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 04 Apr 2022 08:54:36 -0000
-Message-Id: <164906247649.15015.7894127978550919510@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 08:55:06 -0000
+Message-Id: <164906250617.16663.2079627927388385112@gitolite.kernel.org>
 
---===============2777765420645199044==
+--===============3730473409193082435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: f443e374ae131c168a065ea1748feac6b2e76613
+  - ref: refs/heads/gpio/for-next
+    old: 87ba5badc541a79bab2fa3243ee0008c0880c64a
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-f443e374ae13-312310928417.txt
+    log: revlist-87ba5badc541-312310928417.txt
 
---===============2777765420645199044==
+--===============3730473409193082435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f443e374ae13-312310928417.txt
+Content-Disposition: attachment; filename=revlist-87ba5badc541-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============2777765420645199044==--
+--===============3730473409193082435==--
