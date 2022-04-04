@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7928478640571071859=="
+Content-Type: multipart/mixed; boundary="===============0441770599708340058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/rdma
-Date: Mon, 04 Apr 2022 18:18:26 -0000
-Message-Id: <164909630689.25430.9549811390909073725@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 18:18:30 -0000
+Message-Id: <164909631001.25495.13384174804269941199@gitolite.kernel.org>
 
---===============7928478640571071859==
+--===============0441770599708340058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jkirsher/rdma
 user: jkirsher
 changes:
-  - ref: refs/heads/master
-    old: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
+  - ref: refs/heads/for-next
+    old: 87e0eacb176f9500c2063d140c0a1d7fa51ab8a5
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-7e57714cd0ad-312310928417.txt
+    log: revlist-87e0eacb176f-312310928417.txt
 
---===============7928478640571071859==
+--===============0441770599708340058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e57714cd0ad-312310928417.txt
+Content-Disposition: attachment; filename=revlist-87e0eacb176f-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============7928478640571071859==--
+--===============0441770599708340058==--
