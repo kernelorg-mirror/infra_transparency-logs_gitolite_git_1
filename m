@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1183067619039809765=="
+Content-Type: multipart/mixed; boundary="===============0508766906688745317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 04 Apr 2022 09:29:34 -0000
-Message-Id: <164906457482.6658.12709887633301534031@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 09:35:10 -0000
+Message-Id: <164906491025.11627.17628604598385333613@gitolite.kernel.org>
 
---===============1183067619039809765==
+--===============0508766906688745317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: f443e374ae131c168a065ea1748feac6b2e76613
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-f443e374ae13-312310928417.txt
+  - ref: refs/heads/next
+    old: 144c4a77a3e1e520daba85eafd28999af22e1aa5
+    new: 03941ed91c7231e4973fb50de6c349974405df4e
+    log: revlist-144c4a77a3e1-03941ed91c72.txt
 
---===============1183067619039809765==
+--===============0508766906688745317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f443e374ae13-312310928417.txt
+Content-Disposition: attachment; filename=revlist-144c4a77a3e1-03941ed91c72.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
@@ -1050,5 +1049,6 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+03941ed91c7231e4973fb50de6c349974405df4e thunderbolt: Replace usage of found with dedicated list iterator variable
 
---===============1183067619039809765==--
+--===============0508766906688745317==--
