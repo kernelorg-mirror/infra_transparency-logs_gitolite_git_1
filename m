@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 04 Apr 2022 17:02:48 -0000
-Message-Id: <164909176884.6935.1365343506168960534@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 17:02:55 -0000
+Message-Id: <164909177527.7012.1170222102403373854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 3123109284176b1532874591f7c81f3837bbdc17
     new: 4f9f45d0eb0e7d449bc9294459df79b9c66edfac
     log: |
