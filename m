@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 04 Apr 2022 17:02:55 -0000
-Message-Id: <164909177527.7012.1170222102403373854@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 17:08:05 -0000
+Message-Id: <164909208559.10130.7985209072752950600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,15 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 changes:
   - ref: refs/heads/for-next
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 4f9f45d0eb0e7d449bc9294459df79b9c66edfac
+    old: 4f9f45d0eb0e7d449bc9294459df79b9c66edfac
+    new: c5057050a59fa25ef5d241b47d7b350e11ea4801
     log: |
-         b452dbf24d7d9a990d70118462925f6ee287d135 memory: renesas-rpc-if: fix platform-device leak in error path
-         6f296a9665ba5ac68937bf11f96214eb9de81baa memory: atmel-ebi: Fix missing of_node_put in atmel_ebi_probe
-         4f9f45d0eb0e7d449bc9294459df79b9c66edfac dt-bindings: memory: snps,ddrc-3.80a compatible also need interrupts
+         56653827f0d7bc7c2d8bac0e119fd1521fa9990a memory: samsung: exynos5422-dmc: Avoid some over memory allocation
+         c5057050a59fa25ef5d241b47d7b350e11ea4801 Merge branch 'mem-ctrl-next' into for-next
+         
+  - ref: refs/heads/mem-ctrl-next
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 56653827f0d7bc7c2d8bac0e119fd1521fa9990a
+    log: |
+         56653827f0d7bc7c2d8bac0e119fd1521fa9990a memory: samsung: exynos5422-dmc: Avoid some over memory allocation
          
