@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6658175151095895863=="
+Content-Type: multipart/mixed; boundary="===============2425968612523775916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 04 Apr 2022 07:30:04 -0000
-Message-Id: <164905740435.20160.9083768966382035450@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 07:30:38 -0000
+Message-Id: <164905743872.20385.15321911461402495498@gitolite.kernel.org>
 
---===============6658175151095895863==
+--===============2425968612523775916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-testing
-    old: 3439b6e7ff5704e4f812af746da9f06a6403d796
-    new: e8222a8ce34258ab3033cae96c0153a55414da4d
-    log: revlist-3439b6e7ff57-e8222a8ce342.txt
+  - ref: refs/heads/devfreq-fixes
+    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-0fcfb00b28c0-312310928417.txt
 
---===============6658175151095895863==
+--===============2425968612523775916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3439b6e7ff57-e8222a8ce342.txt
+Content-Disposition: attachment; filename=revlist-0fcfb00b28c0-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
 698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
@@ -1046,9 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-e812f86345abdb14f10c88829d032d9f990a02d4 PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
-95f7ed4a4161892825bb0ba124579c93280ad462 PM / devfreq: Add cpu based scaling support to passive governor
-04bf2090b80879edd3b025340775d187aa47ba8f PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
-e8222a8ce34258ab3033cae96c0153a55414da4d PM / devfreq: passive: Update frequency when start governor
 
---===============6658175151095895863==--
+--===============2425968612523775916==--
