@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1243136517257891772=="
+Content-Type: multipart/mixed; boundary="===============2204782024889434291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 04 Apr 2022 14:21:34 -0000
-Message-Id: <164908209442.30251.5726486648500444773@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 14:21:56 -0000
+Message-Id: <164908211695.30454.4031264896526722176@gitolite.kernel.org>
 
---===============1243136517257891772==
+--===============2204782024889434291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 41022eff9c2d21e658c7a6fcd31005bf514d28b7
+  - ref: refs/heads/mips-fixes
+    old: 5d8965704fe5662e2e4a7e4424a2cbe53e182670
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-41022eff9c2d-312310928417.txt
+    log: revlist-5d8965704fe5-312310928417.txt
 
---===============1243136517257891772==
+--===============2204782024889434291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41022eff9c2d-312310928417.txt
+Content-Disposition: attachment; filename=revlist-5d8965704fe5-312310928417.txt
 
-734c15700cdf9062ae98d8b131c6fe873dfad26d mm: only re-generate demotion targets when a numa node changes its N_CPU state
-bd55b0c2d64e84a75575f548a33a3dfecc135b65 mm/thp: ClearPageDoubleMap in first page_add_file_rmap()
-cb325ddde5616219848ac0e100a781919a0ce55b mm/zswap.c: allow handling just same-value filled pages
-6eada26ffc80bfe1f2db088be0c44ec82b5cd3dc mm: remove usercopy_warn()
-ad7489d5262d2aa775b5e5a1782793925fa90065 mm: uninline copy_overflow()
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
@@ -251,6 +246,7 @@ b3d7fe86fbd06638c71dd851ba921adf50d912ce kcov: properly handle subsequent mmap c
 0cbcc92917c5de80f15c24d033566539ad696892 kernel/resource: fix kfree() of bootmem memory again
 b027471adaf955efde6153d67f391fe1604b7292 Revert "ubsan, kcsan: Don't combine sanitizer with kcov on clang"
 b9080ba4a6ec56447f263082825a4fddb873316b x86/defconfig: Enable WERROR
+f8f9f21c7848e63133c16c899f3d84aa54eb79fe MIPS: Fix build error for loongson64 and sgi-ip27
 5662abf6e21338be6d085d6375d3732ac6147fd2 drm/edid: check basic audio support on CEA extension block
 7344bad7fb6daa4877a1c064b52c7d5f9182c41b drm/edid: fix CEA extension byte #3 parsing
 7ef66d186eb95f987a97fb3329b65c840e2dc9bf io_uring: remove IORING_CQE_F_MSG
@@ -803,6 +799,9 @@ d177850d5d58320a573dd69eb3f3564856a48a88 Merge tag 'hwlock-v5.18' of git://git.k
 2a44cdaa01837355b14b9221e87d75963846296c Merge tag 'dmaengine-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 4f3730117f162b17147795eaad44421cc65178c7 Merge tag 'regulator-fix-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 74164d284b2909de0ba13518cc063e9ea9334749 Merge tag 'pwm/for-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/thierry.reding/linux-pwm
+f93e2a100ee73a4b84d96d7d1881baaac36e586e mips: sgi-ip22: add a check for the return of kzalloc()
+34123208bbcc8c884a0489f543a23fe9eebb5514 MIPS: lantiq: check the return value of kzalloc()
+bf64f7fe151b9568443c9b0cf643b3542d36870c MIPS: rb532: move GPIOD definition into C-files
 f4329d1f848ac35757d9cc5487669d19dfc5979c drbd: fix potential silent data corruption
 866b7a278cdb51eb158cd8513bc7438fc857804a net: dsa: felix: fix possible NULL pointer dereference
 8f0588e80e33273c2fa219da4622affab0cdd22f ptp: ocp: handle error from nvmem_device_find
@@ -914,6 +913,7 @@ eabd9a3807e17e211690e6c40f1405b427b64c48 platform: chrome: Split trace include f
 a4a3d8c52d952ab1f5c8b8b67b57f2e01936628d exfat: do not clear VolumeDirty in writeback
 8b188fba75195745026e11d408e4a7e94e01d701 Revert "Input: clear BTN_RIGHT/MIDDLE on buttonpads"
 4fe87e818ea492ade079cc01a31d088e445f8539 dma-mapping: move pgprot_decrypted out of dma_pgprot
+41022eff9c2d21e658c7a6fcd31005bf514d28b7 MIPS: crypto: Fix CRC32 code
 9d17f3372306429661d8d44a5cbc0b1209e2ebe5 ARM: 9190/1: kdump: add invalid input check for 'crashkernel=0'
 9be4c88bb7924f68f88cfd47d925c2d046f51a73 ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
 dbdcc906d978650417b076a875b0f962fcdf79dd dm ioctl: log an error if the ioctl structure is corrupted
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============1243136517257891772==--
+--===============2204782024889434291==--
