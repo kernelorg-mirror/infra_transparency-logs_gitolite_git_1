@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1846983908719597579=="
+Content-Type: multipart/mixed; boundary="===============7102783836600866492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 04 Apr 2022 08:37:29 -0000
-Message-Id: <164906144935.2921.10906068344054896501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 04 Apr 2022 08:37:45 -0000
+Message-Id: <164906146503.3085.15921467529526355614@gitolite.kernel.org>
 
---===============1846983908719597579==
+--===============7102783836600866492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: dbf3f09322141b6f04a33949453b7626f62d9e0b
+  - ref: refs/heads/master
+    old: b4b746a23bbdec5014389297f474c4be7fc06099
+    new: 373625bd8de77a6c38b80a33aaff47aa02b633f1
     log: |
-         dbf3f09322141b6f04a33949453b7626f62d9e0b tty: serial: mpc52xx_uart: make rx/tx hooks return unsigned, part II.
+         373625bd8de77a6c38b80a33aaff47aa02b633f1 5.17-stable patches
          
 
---===============1846983908719597579==
+--===============7102783836600866492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649061446 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1649061445-29692044017d49276a00fe4810876063f46644e4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649061464 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1649061461-a809feaf8afeeae45ec7843406278ae8094ce014
 
-3123109284176b1532874591f7c81f3837bbdc17 dbf3f09322141b6f04a33949453b7626f62d9e0b refs/heads/tty-linus
+b4b746a23bbdec5014389297f474c4be7fc06099 373625bd8de77a6c38b80a33aaff47aa02b633f1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJKrkYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bK0QAKuQMqb0cRBFk52L8W9C
-l2rlZUkFxjvqU6SuEIaJ5TndrK72WMIs19ENwG93LJ/OspNu3CWDZK7JBouthn7O
-nlUCr29lEJlko9eeIgu1s4ZTR15Ogbg2EHcdDEIH0/gNb2t74wOzmlHHdtHH7T+l
-Wp7KAgSbc5VZct1B7gRqT4kAqy9tQWGgd442OqwBkC0V3aYtAh6hdnE7MOTPcAvR
-H/PB2iJ7Hpv6yZu3av1T4AGSnpIxaQcu6lqI/GZnvInWHtRn6qstwfsQGFUdFTeX
-fbYBTMO0Qavu2gaWOXyW7Kv2Utl4wy7vZWgwg1SW5gXytQHVQroY8yc9Z6memJeM
-yUE+gY5wr5pknJHUA8Q7h6+6rmtlyurTQa/5Ux0OQT6XTMBdsNHzsTJgFAqp9o6P
-PXtT4BGrHGje7KJI2MgmsrB1Danpw3N3igWzB2CVJ/cfFCs1a4C9NbVRivCTLT+6
-TznAkmLePD5JI/76xOwbeyyXHn7fWJ8fA4eURdL+h4BmkjRuhIp+kOKK3agFZa9D
-auDA/AWkygRTODGtGsqM4PTB4lwz6beq+IFJQFNLZ+XUVf+m0A/LWq1NUaFXHwyr
-wa7yiGuqEC0eEdXv1aYbulCoM3GCmJseBq+7vvgPiGkDdUA2fIiSghDhWo9I+5on
-7falH7Gr0oeq7MJt35zsV55Z
-=OnOW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJKrlgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hEwP/jxafYUBA7rdg4tr/wFF
+e9sbdWK/5l3BmYmi+mr41mAwxTnQ/EgpJ5Ke+NPly9IPEAuXI4sAGTrpkLQOWGp+
+XzIJ+2NuFnOlulhS4FN9+kMQh6X30GP9BL+UF+nPPbX+Dv4uqWf89aCmwiNudwUP
+Z7ugo5dZKFgOanCtinwP+2nY0WR3+eIz3PyQzvDI0zQRAG1TVImOJDwFruqTDK6d
+VtkceJdWadJ6MGKTvWwGfKosEB/md89GWhu97+f2CX8JelYMZbps6MhK2fIqOsmu
+5aY6BsBa71GByLy2CVaOibi87JAxtMpXTGZbn9v/xVM145CgNbAs4FM49XNn6xlV
+TPLaP1qNnn4ooBQgrzfss7d9StwvP+InL5EetDwWU4gXY1HbPXZQLz6pUIYQQ5QA
+kKnQ9BJj1CzvtGSdYsZM7tD8T0h1RtFEdvbgUAVjkBEaeq41+EMr+nml4s6HidT+
+8rFzwfLF5tVYxvLsXF6sKTMaH6toNycB+iZIOlUc5MRK3RkDCO3DEwUsqp23ml3i
+KEgdx8ALoodVYPjy9nGNo615ix0rphfEdGgtyxcR7yF4QOkA+KaVOK+1/lU1MvOJ
+TZFtq9P0FRFuAdvp5PRxDXsFE/Gkd1sHE41hUE0PrfUZKSFyY/oGt9l1xplTmLvp
+m/7DRaaFfOnlsGVoytLC25kF
+=yAWn
 -----END PGP SIGNATURE-----
 
---===============1846983908719597579==--
+--===============7102783836600866492==--
