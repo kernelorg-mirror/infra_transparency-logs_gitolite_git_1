@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5261054888216789505=="
+Content-Type: multipart/mixed; boundary="===============3871616341423730923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 04 Apr 2022 06:31:38 -0000
-Message-Id: <164905389806.13110.13419338323001062236@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 06:33:21 -0000
+Message-Id: <164905400167.13718.15359515154115582558@gitolite.kernel.org>
 
---===============5261054888216789505==
+--===============3871616341423730923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: b7f2b0d3511a6bbf9387f08f370f9125663e18d8
-    new: f84ccad5f5660f86a642a3d7e2bfdc4e7a8a2d49
-    log: revlist-b7f2b0d3511a-f84ccad5f566.txt
+  - ref: refs/heads/opp/linux-next
+    old: f48a0c475c2aec8f2274703e1dc7be503f40f7cc
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-f48a0c475c2a-312310928417.txt
 
---===============5261054888216789505==
+--===============3871616341423730923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7f2b0d3511a-f84ccad5f566.txt
+Content-Disposition: attachment; filename=revlist-f48a0c475c2a-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
 698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
 b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
@@ -1045,10 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-be5985b3dbce5ba2af3c8b0f2b7df235c93907e6 cpufreq: qcom-hw: drop affinity hint before freeing the IRQ
-5e4f009da6be563984ba4db4ef4f32529e9aeb90 cpufreq: qcom-hw: fix the race between LMH worker and cpuhp
-6240aaad75e1a623872a830d13393d7aabf1052c cpufreq: qcom-hw: fix the opp entries refcounting
-a1eb080a04477a55c66d70fb3401b059d6dcc3a9 cpufreq: qcom-hw: provide online/offline operations
-f84ccad5f5660f86a642a3d7e2bfdc4e7a8a2d49 cpufreq: qcom-cpufreq-hw: Fix throttle frequency value on EPSS platforms
 
---===============5261054888216789505==--
+--===============3871616341423730923==--
