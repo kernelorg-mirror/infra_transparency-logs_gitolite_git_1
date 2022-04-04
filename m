@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2429485505352555818=="
+Content-Type: multipart/mixed; boundary="===============7615100232123682684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 04 Apr 2022 16:36:48 -0000
-Message-Id: <164909020878.21987.820774695574451505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Mon, 04 Apr 2022 16:39:30 -0000
+Message-Id: <164909037095.22894.12484097795624700768@gitolite.kernel.org>
 
---===============2429485505352555818==
+--===============7615100232123682684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: bleung
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 0e8eb5e8acbad19ac2e1856b2fb2320184299b33
+  - ref: refs/heads/master
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-0e8eb5e8acba-312310928417.txt
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============2429485505352555818==
+--===============7615100232123682684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e8eb5e8acba-312310928417.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
-6eada26ffc80bfe1f2db088be0c44ec82b5cd3dc mm: remove usercopy_warn()
-ad7489d5262d2aa775b5e5a1782793925fa90065 mm: uninline copy_overflow()
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
@@ -907,6 +905,8 @@ f008b1d6e1e06bb61e9402aa8a1cfa681510e375 Merge tag 'netfs-prep-20220318' of git:
 a87a08e3bf2decaed29c4dfde3916676f9b966a8 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 e8b767f5e04097aaedcd6e06e2270f9fe5282696 Merge tag 'for-linus-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/uml
 8933e7f2e37549cf54ad1133476bda8ec05b68ea Documentation: riscv: remove non-existent directory from table of contents
+eabd9a3807e17e211690e6c40f1405b427b64c48 platform: chrome: Split trace include file
+0e8eb5e8acbad19ac2e1856b2fb2320184299b33 platform/chrome: cros_ec_debugfs: detach log reader wq from devm
 6f562570b9c5d6a3e30d87aec60a9d8f22a3203c RISC-V: defconfig: Drop redundant SBI HVC and earlycon
 1464d00b27b2e29a5556f6a4099cf083886e883f RISC-V: K210 defconfigs: Drop redundant MEMBARRIER=n
 9ec784bf774c2d3b35a7577fc6441cfbd60aefea exfat: allow access to paths with trailing dots
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============2429485505352555818==--
+--===============7615100232123682684==--
