@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2380173021258609165=="
+Content-Type: multipart/mixed; boundary="===============1824038591810624904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 04 Apr 2022 12:14:58 -0000
-Message-Id: <164907449867.7104.17570318845856889428@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 12:15:08 -0000
+Message-Id: <164907450846.8682.1790858446585101876@gitolite.kernel.org>
 
---===============2380173021258609165==
+--===============1824038591810624904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 28df029d53a2fd80c1b8674d47895648ad26dcfb
-    new: c4556206071dff4093fedb3839c113ffa527000f
-    log: revlist-28df029d53a2-c4556206071d.txt
+  - ref: refs/heads/locking/core
+    old: cd27ccfc727e99352321c0c75012ab9c5a90321e
+    new: 26874437d5f1fcfa3de2e1d17cf6979532f32c48
+    log: revlist-cd27ccfc727e-26874437d5f1.txt
 
---===============2380173021258609165==
+--===============1824038591810624904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28df029d53a2-c4556206071d.txt
+Content-Disposition: attachment; filename=revlist-cd27ccfc727e-26874437d5f1.txt
 
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
 8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
 436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
 1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
@@ -1050,5 +1043,12 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 acd99dbdcbaf86c02f2b806d14703bbc615be0d2 x86/percpu: Remove volatile from arch_raw_cpu_ptr().
 3d89fb8caf0c18f8f6f0c023bb2ae27b04729a20 Revert "locking/local_lock: Make the empty local_lock_*() function a macro."
 c4556206071dff4093fedb3839c113ffa527000f Revert "mm/page_alloc: mark pagesets as __maybe_unused"
+c1f486bd2551c0ba9fb70151e7a18d4260c4f5b3 lockdep: Fix -Wunused-parameter for _THIS_IP_
+139a0e951bb3b7d1b993d56788aa0d25816c3508 locking/rwsem: No need to check for handoff bit if wait queue empty
+7da533c254d25312dea0113391b7f6c8efb4cff7 locking/rwsem: Conditionally wake waiters in reader/writer slowpaths
+8360b50e0ab09c6cb16be264985da2e8d020ce7d locking/rwsem: Always try to wake waiters in out_nolock path
+0d19b164ae15d77667490936a596ee7a7795c9ee locking: Add lock contention tracepoints
+0eb1376874dfdcc050c7ea756ca21c95d1c7a2e0 locking: Apply contention tracepoints in the slow path
+26874437d5f1fcfa3de2e1d17cf6979532f32c48 locking/mutex: Make contention tracepoints more consistent wrt adaptive spinning
 
---===============2380173021258609165==--
+--===============1824038591810624904==--
