@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0992451474039656847=="
+Content-Type: multipart/mixed; boundary="===============2777765420645199044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 04 Apr 2022 08:53:54 -0000
-Message-Id: <164906243442.14717.16208943178461581214@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 08:54:36 -0000
+Message-Id: <164906247649.15015.7894127978550919510@gitolite.kernel.org>
 
---===============0992451474039656847==
+--===============2777765420645199044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 24f71ae5447e661813228677d343208d624fc141
+  - ref: refs/heads/master
+    old: f443e374ae131c168a065ea1748feac6b2e76613
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-24f71ae5447e-312310928417.txt
+    log: revlist-f443e374ae13-312310928417.txt
 
---===============0992451474039656847==
+--===============2777765420645199044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24f71ae5447e-312310928417.txt
+Content-Disposition: attachment; filename=revlist-f443e374ae13-312310928417.txt
 
-cb325ddde5616219848ac0e100a781919a0ce55b mm/zswap.c: allow handling just same-value filled pages
-6eada26ffc80bfe1f2db088be0c44ec82b5cd3dc mm: remove usercopy_warn()
-ad7489d5262d2aa775b5e5a1782793925fa90065 mm: uninline copy_overflow()
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
@@ -866,10 +863,13 @@ ff8376ade4f668130385839cef586a0990f8ef87 rxrpc: fix some null-ptr-deref bugs in 
 9c6d6652e950fb34295f446676a811f6df5b8561 ARM: 9189/1: decompressor: fix unneeded rebuilds of library objects
 8b2360c7157b462c4870d447d1e65d30ef31f9aa ARM: 9187/1: JIVE: fix return value of __setup handler
 db0a1550407e9bb227a31ce7e2f77489986f47e0 MAINTAINERS: add drbd co-maintainer
+576892a84f37875c7deb20eee11d5b88dd5e1097 gpio: ts4900: Fix comment formatting and grammar
+48ec13d36d3ff716a8a08e6583a925def7a2564d gpio: Properly document parent data union
 6d35d04a9e18990040e87d2bbf72689252669d54 nbd: fix possible overflow on 'first_minor' in nbd_dev_add()
 c7803b05f74bc3941b127f3155671e1944f632ae smb3: fix ksmbd bigendian bug in oplock break, and move its struct to smbfs_common
 b92e358757b91c2827af112cae9af513f26a3f34 cifs: prevent bad output lengths in smb2_ioctl_query_info()
 d6f5e358452479fa8a773b5c6ccc9e4ec5a20880 cifs: fix NULL ptr dereference in smb2_ioctl_query_info()
+24f71ae5447e661813228677d343208d624fc141 gpio: ts5500: Fix Links to Technologic Systems web resources
 22ef7ee3eeb2a41e07f611754ab9a2663232fedf PCI: hv: Remove unused hv_set_msi_entry_from_desc()
 46b556205dcead1ec180329b771c2593d81c6b9b Merge tag 'linux-can-fixes-for-5.18-20220331' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 ea07af2e71cdf2c08251d8ead196ce1c9466e38c openvswitch: Add recirc_id to recirc warning
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============0992451474039656847==--
+--===============2777765420645199044==--
