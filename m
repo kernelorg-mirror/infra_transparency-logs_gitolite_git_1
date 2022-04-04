@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4355824867483051629=="
+Content-Type: multipart/mixed; boundary="===============7124236233844812269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 04 Apr 2022 07:23:17 -0000
-Message-Id: <164905699735.14814.11240783887569816047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 04 Apr 2022 07:23:36 -0000
+Message-Id: <164905701622.14975.16254606299097273946@gitolite.kernel.org>
 
---===============4355824867483051629==
+--===============7124236233844812269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 3123109284176b1532874591f7c81f3837bbdc17
     log: revlist-f443e374ae13-312310928417.txt
 
---===============4355824867483051629==
+--===============7124236233844812269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============4355824867483051629==--
+--===============7124236233844812269==--
