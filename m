@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2567779303921045636=="
+Content-Type: multipart/mixed; boundary="===============3166470844720900139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 Apr 2022 16:30:34 -0000
-Message-Id: <164908983494.18171.6914674623944575757@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 16:30:43 -0000
+Message-Id: <164908984391.18314.5329505654911934112@gitolite.kernel.org>
 
---===============2567779303921045636==
+--===============3166470844720900139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 169e77764adc041b1dacba84ea90516a895d43b2
-    new: 2975dbdc3989cd66a4cb5a7c5510de2de8ee4d14
-    log: revlist-169e77764adc-2975dbdc3989.txt
+  - ref: refs/heads/dev-queue
+    old: c3ac33fdeac6d1a23f2d28aafaee5520632c159f
+    new: d9de0d497aa81c05d020d53f8643940cf8f9d8ca
+    log: revlist-c3ac33fdeac6-d9de0d497aa8.txt
 
---===============2567779303921045636==
+--===============3166470844720900139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-169e77764adc-2975dbdc3989.txt
+Content-Disposition: attachment; filename=revlist-c3ac33fdeac6-d9de0d497aa8.txt
 
-7db304bd2a4fbf98ed763cd7f599598f5d0e2477 scsi: megasas: Clean up some inconsistent indenting
-e1b353e7a31dcaf47c234812c46a2db9cd5be584 scsi: core: Remove unreachable code warning
-ad515cada7dac3cdf5e1ad77a0ed696f5f34e0ab scsi: iscsi: Add helper functions to manage iscsi_cls_conn
-7dae459f5e56a89ab01413ae055595c982713349 scsi: libiscsi: Add iscsi_cls_conn to sysfs after initialization
-8709c323091be019f76a49cf783052a5636aca85 scsi: libiscsi: Teardown iscsi_cls_conn gracefully
-58ca5999e0367d131de82a75257fbfd5aed0195d scsi: qla2xxx: Fix incorrect reporting of task management failure
-6a45c8e137d4e2c72eecf1ac7cf64f2fdfcead99 scsi: qla2xxx: Fix disk failure to rediscover
-db212f2eb3fb7f546366777e93c8f54614d39269 scsi: qla2xxx: Fix loss of NVMe namespaces after driver reload test
-c85ab7d9e27a80e48d5b7d7fb2fe2b0fdb2de523 scsi: qla2xxx: Fix missed DMA unmap for NVMe ls requests
-0972252450f90db56dd5415a20e2aec21a08d036 scsi: qla2xxx: Fix crash during module load unload test
-c13ce47c64ea8f14e77eecb40d1e7c2ac667f898 scsi: qla2xxx: Fix N2N inconsistent PLOGI
-c02aada06d19a215c8291bd968a99a270e96f734 scsi: qla2xxx: Fix hang due to session stuck
-713b415726f100f6644971e75ebfe1edbef1a390 scsi: qla2xxx: Fix laggy FC remote port session recovery
-d2646eed7b19a206912f49101178cbbaa507256c scsi: qla2xxx: Reduce false trigger to login
-f3502e2e98a92981601edc3dadf4b0f43c79836b scsi: qla2xxx: Fix stuck session of PRLI reject
-a7e05f7a1bcbe4ee055479242de46c5c16ab03b1 scsi: qla2xxx: Use correct feature type field during RFF_ID processing
-3648bcf1c1374e9f42d241d83e2e50c0ef07a852 scsi: qla2xxx: Increase max limit of ql2xnvme_queues
-811655d005b24068c580bc8183f2c7f5cbd64149 scsi: qla2xxx: Update version to 10.02.07.400-k
-9a866e6aaf4e5a1cfd7b2058d35f1b107a318827 scsi: lpfc: Fix typos in comments
-8037185d1ad8dcfa2fa4fef3dbc26507f4c37b12 scsi: elx: libefc_sli: Fix typos in comments
 5419e0f1562258b48560aee023ad2e41c0949df0 scsi: qla2xxx: Fix typos in comments
 9d05790f518744e0341e2d6c988b9db9143ce535 scsi: aic7xxx: Fix typos in comments
 dc2646417d54f002fb127067b5848dbef975e8ff scsi: lpfc: Use kcalloc()
@@ -1050,5 +1030,25 @@ ea07af2e71cdf2c08251d8ead196ce1c9466e38c openvswitch: Add recirc_id to recirc wa
 9d570741aec1e1ebd37823b34a2958f24809ff24 vxlan: do not feed vxlan_vnifilter_dump_dev with non vxlan devices
 93235e3df29c084a37e0daed17801c6adfce4cb6 Merge tag 'v5.18-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 2975dbdc3989cd66a4cb5a7c5510de2de8ee4d14 Merge tag 'net-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+576021ee6882e0a3e0dd1a610ab45137cac2d45c igc: Add UDP segmentation offload support
+c04e7d0cadeaa6942aa4c4cc3718a4aea5636caf igc: Fix infinite loop in release_swfw_sync
+5c8f74954f43ef51b3787f09a2c15063f5029e11 i40e: Add support for MPLS + TSO
+5e5d71ca819632ec601b92cf5960df677a84103e igc: Fix BUG: scheduling while atomic
+95fd46474443669105983d549a6ad85c1a3a9265 ice: synchronize_rcu() when terminating rings
+e7efc6649d748f62835bb7faaf554c0d1a0cff92 ice: xsk: fix VSI state check in ice_xsk_wakeup()
+8897188cf34e2017fae1bd4eba0cb7a5cc79395d ice: clear cmd_type_offset_bsz for TX rings
+d1b8b111b91dc29967b06b33d97e936d8acba828 ice: xsk: check if Rx ring was filled up to the end
+5750a17e6e92034c69a258aacc04998b283069c2 ice: Add support for classid based queue selection
+6bf2a67b481230044984e6f4a33c00c7436546c2 ice: Add mpls+tso support
+32d92cbae2861acf8935bff8f7bbd56d4b91467a igc: Remove igc_set_spd_dplx method
+ac1fe0c00b9a048e02351558fb98916bbcb0bc45 ice: switch: add and use u16[] aliases to ice_adv_lkup_elem::{h, m}_u
+41d89ec8e5202f28b5137bf9ce0dd3b6b73201d7 ice: switch: unobscurify bitops loop in ice_fill_adv_dummy_packet()
+ddde88077ad3c6ee295a2bae3cd4479401dadf97 ice: switch: use a struct to pass packet template params
+bb6098228498955012d983eddbd1df57fd475acc ice: switch: use convenience macros to declare dummy pkt templates
+8acb9466e4b860b66d1dc6d50d684841e9490fa6 ice: switch: convert packet template match code to rodata
+7bd2b133c692811144113780ccf932a7c63c207f Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+1fc35c64ed9bf83f21abf4b5edef6614b8af6892 ice: introduce common helper for retrieving VSI by vsi_num
+2a2371b4e9a3fb1cc154b80af5a042e3a2924e99 ice: use min_t() to make code cleaner in ice_gnss
+d9de0d497aa81c05d020d53f8643940cf8f9d8ca i40e: Add Inspur Ethernet Connection X722 for 10GbE SFP+ support
 
---===============2567779303921045636==--
+--===============3166470844720900139==--
