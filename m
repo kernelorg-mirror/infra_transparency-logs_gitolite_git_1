@@ -1,63 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============0508766906688745317=="
+Content-Type: multipart/mixed; boundary="===============7437796128212479424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 04 Apr 2022 09:35:10 -0000
-Message-Id: <164906491025.11627.17628604598385333613@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 04 Apr 2022 09:40:16 -0000
+Message-Id: <164906521645.30771.11999672214239996666@gitolite.kernel.org>
 
---===============0508766906688745317==
+--===============7437796128212479424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/next
-    old: 144c4a77a3e1e520daba85eafd28999af22e1aa5
-    new: 03941ed91c7231e4973fb50de6c349974405df4e
-    log: revlist-144c4a77a3e1-03941ed91c72.txt
+  - ref: refs/heads/master
+    old: bb77d4c08c656dc6f9863818e8405efba05abf1e
+    new: d2f27dc76d3d5a290f9dfcafae3047e5c9d0ba2b
+    log: revlist-bb77d4c08c65-d2f27dc76d3d.txt
+  - ref: refs/heads/renesas-drivers-for-v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 2f89bef90de4740be33b2cb4ba95e0107df0d25e
+  - ref: refs/heads/renesas-dt-bindings-for-v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 3f285c301cd788164fa776e1f95458c56e68a6ee
 
---===============0508766906688745317==
+--===============7437796128212479424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-144c4a77a3e1-03941ed91c72.txt
+Content-Disposition: attachment; filename=revlist-bb77d4c08c65-d2f27dc76d3d.txt
 
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
-8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
-436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
-1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
-242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
-f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
-9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
-7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
-4d69c3457821100a39fa8c6e0c23ed910bb6c29d mm/damon/reclaim: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-da7aaca05f4f88f5e723f315771808a629b3d32b mm/damon/dbgfs: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-4a20865b0744c987655472425203345d970da7a0 mm/damon/dbgfs: use operations id for knowing if the target has pid
-999b9467974f75aae96b285337a77c098c9f1e07 mm/damon/dbgfs-test: fix is_target_id() change
-851040566a008f7248cb754d5bb9a3e34f2effe5 mm/damon/paddr,vaddr: remove damon_{p,v}a_{target_valid,set_operations}()
-3213a3c10fc81e8dd441b74b6555bb9cb287f898 mm/damon: remove unnecessary CONFIG_DAMON option
-561f4fc4972443f1273f7abbd8270fd949e6584b Docs/vm/damon: call low level monitoring primitives the operations
-742cc2bfce5a94ad629a3a0bd408ef61c8be2826 Docs/vm/damon/design: update DAMON-Idle Page Tracking interference handling
-4c1f287f8c80268a870d8a51012ac4adf8fcbec5 Docs/damon: update outdated term 'regions update interval'
-8b9b0d335a345cbc590baa5aa8aa02c467c1e4e8 mm/damon/core: allow non-exclusive DAMON start/stop
-5257f36ec289d544532f2889cbed11abbb06cf0c mm/damon/core: add number of each enum type values
-c951cd3b89010c7a4751b9d4ea074007e44851e6 mm/damon: implement a minimal stub for sysfs-based DAMON interface
 a61ea561c87139992fe32afdee48a6f6b85d824a mm/damon/sysfs: link DAMON for virtual address spaces monitoring
 2031b14ea757361fd5fceb481a6f0c1bf9e3462f mm/damon/sysfs: support the physical address space monitoring
 7e84b1f8212a038ebeee06de56db7181148fa0cd mm/damon/sysfs: support DAMON-based Operation Schemes
@@ -1049,6 +1023,38 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-03941ed91c7231e4973fb50de6c349974405df4e thunderbolt: Replace usage of found with dedicated list iterator variable
+8eb5092e64de30c003d8fe16a7eeacbfe29b7b84 arm64: dts: renesas: r9a07g054: Fillup the ADC stub node
+ffe3f135dd28295114233d2a8073b3b15774b528 arm64: dts: renesas: r9a07g054: Fillup the SDHI{0,1} stub nodes
+b0bb96e5162368814acdc76da7fdb2cd574f58c2 arm64: dts: renesas: r9a07g054l2-smarc: Drop deleting gpio-hog pins related to SDHI
+791b7e1dcb9fe9f9e7f7dd1b6714cd8e0f6ee349 arm64: dts: renesas: r9a07g054: Fillup the CANFD stub node
+e3ab4573761418ba1b853ec33e5db723db279ff5 arm64: dts: renesas: r9a07g054l2-smarc: Drop deleting can{0,1}-stb-hog nodes
+3f285c301cd788164fa776e1f95458c56e68a6ee dt-bindings: power: renesas,rzg2l-sysc: Document RZ/G2UL SoC
+2f89bef90de4740be33b2cb4ba95e0107df0d25e soc: renesas: Identify RZ/G2UL SoC
+e46a72e0398e570fbab5905ea6be67dc76d678f4 arm64: dts: renesas: r9a07g054: Fillup the I2C{0,1,2,3} stub nodes
+8d3da65c4c40d77977799f58fa6465bdc723536f arm64: dts: renesas: r9a07g054: Fillup the sbc stub node
+f458b7707c9c4acabb7cdf6c0fcfde1a506b360f arm64: dts: renesas: r9a07g054: Fillup the OSTM{0,1,2} stub nodes
+f35a868bcf95c066a00dcae9e7ee42d85eaf05b2 arm64: dts: renesas: r9a07g054: Fillup the WDT{0,1,2} stub nodes
+cd0339ec25895c0be45656908442bc121bbadacb arm64: dts: renesas: r9a07g054: Add SSI{1,2,3} nodes and fillup the SSI0 stub node
+a8e2a77b644ac23319f0e7c3e8d9dcd6dc9aebd1 arm64: dts: renesas: r9a07g054: Add USB2.0 phy and host support
+c9c4e5b7d202cce2f488a56c06332016380890b3 arm64: dts: renesas: r9a07g054: Add USB2.0 device support
+3f3c46d4e2cb38bfa7d1f24c2099a20229867d9d arm64: dts: renesas: r9a07g054: Add SPI{0,2} nodes and fillup SPI1 stub node
+1889f4798c443dfd4993ba9bbbf4ed7bf801d94b arm64: dts: renesas: r9a07g044c2-smarc: Enable usb2.0
+a2b642d89e4beeddbfbd7be6108db2b7aaef78b6 arm64: dts: renesas: rzg2lc-smarc-pinfunction: Sort the nodes
+0a7c1c888a0c0276837f2cd7190683474a136506 arm64: dts: renesas: rzg2l-smarc: Move out i2c3 and Audio codec from common dtsi
+4fa1edc83b2b2b467ed47bd682c7beab81a38ef5 arm64: dts: renesas: rzg2lc-smarc: Enable i2c{0,1,2}
+4eb6a6bb8ef31491c217167ecce2c0a26fd4f34e arm64: dts: renesas: rzg2lc-smarc: Enable Audio
+018d7b93477fbb04ba7b4bc4c355793d644e45da arm64: dts: renesas: rzg2lc-smarc-som: Enable serial NOR flash
+a081c4fe98f6662fbddb1597a6203be669641af1 arm64: dts: renesas: rzg2lc-smarc-som: Enable OSTM
+6f57895c49bc36a6ba125b9926d4b9699376e656 arm64: dts: renesas: rzg2lc-smarc-som: Add vdd core regulator
+809823b853a2559d04948ea43800408f00c8db23 arm64: dts: renesas: r9a07g054: Fillup the GPU node
+4b7e7f10835a504501a04a82498234da78c4117e arm64: dts: renesas: r9a07g054: Add OPP table
+f6a2f28ab19ca5ce5bbd3a821fe19468d7c921dc arm64: dts: renesas: r9a07g054: Add TSU node
+9a4259e59694136add708608fce861a1beff9635 arm64: dts: renesas: falcon-cpu: Use INTC_EX for SN65DSI86
+d63833b8699c585d9ed32d968563b5eba69df9f6 arm64: dts: renesas: r8a779a0: Add CANFD device node
+d2194187aa4f9a4c2df010962e4e008efc3f930b arm64: dts: renesas: falcon: Enable CANFD 0 and 1
+0182581a9f63764bcbdbc68e98881b50e03fc4c4 arm64: dts: renesas: r8a77961: Add CAN-FD node
+ca9df4a75a208f3294a9a09b84ffa1bc89d3e0df arm64: defconfig: Enable ARCH_R9A07G054
+eee41de7440d0f559567f48dd5920f8155247174 Merge branches 'renesas-arm-defconfig-for-v5.19', 'renesas-arm-dt-for-v5.19', 'renesas-drivers-for-v5.19' and 'renesas-dt-bindings-for-v5.19' into renesas-next
+d2f27dc76d3d5a290f9dfcafae3047e5c9d0ba2b Merge branch 'renesas-next' into renesas-devel
 
---===============0508766906688745317==--
+--===============7437796128212479424==--
