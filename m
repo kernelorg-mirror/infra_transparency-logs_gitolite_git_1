@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8765421095805173779=="
+Content-Type: multipart/mixed; boundary="===============6693468820752171376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 04 Apr 2022 16:24:17 -0000
-Message-Id: <164908945753.12713.6651745076860282041@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 16:26:50 -0000
+Message-Id: <164908961048.14988.1785153349125035899@gitolite.kernel.org>
 
---===============8765421095805173779==
+--===============6693468820752171376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 5debe5bfa02c4c8922bd2d0f82c9c3a70bec8944
+  - ref: refs/heads/master
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-5debe5bfa02c-312310928417.txt
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============8765421095805173779==
+--===============6693468820752171376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5debe5bfa02c-312310928417.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============8765421095805173779==--
+--===============6693468820752171376==--
