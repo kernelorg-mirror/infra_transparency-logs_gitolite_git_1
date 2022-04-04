@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6250360133668218515=="
+Content-Type: multipart/mixed; boundary="===============0151408480432431046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 04 Apr 2022 08:58:03 -0000
-Message-Id: <164906268385.17728.12834340237852463633@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 08:58:16 -0000
+Message-Id: <164906269605.17865.13179651018369794089@gitolite.kernel.org>
 
---===============6250360133668218515==
+--===============0151408480432431046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/master
-    old: cfb92440ee71adcc2105b0890bb01ac3cddb8507
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-cfb92440ee71-312310928417.txt
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
-  - ref: refs/heads/v5.19-armsoc/drivers
-    old: 0000000000000000000000000000000000000000
-    new: dc08a6884dfbd2974f681c8fc1211d7284273bfc
-  - ref: refs/heads/v5.19-armsoc/dts32
-    old: 0000000000000000000000000000000000000000
-    new: 146c9a346fdd0506228cace62cf324e4c1e3705a
-  - ref: refs/heads/v5.19-armsoc/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 056ef970c434a572f81eae199846bf3f521a8303
-  - ref: refs/heads/v5.19-armsoc/soc32
-    old: 0000000000000000000000000000000000000000
-    new: 2946aa908bb63539b566fc3ba0b867022787602b
-  - ref: refs/heads/v5.19-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/for-next
+    old: 73b0466cfade6e5a5be674ccaec9453447e89e7b
+    new: f62180385a210a120e2bd4c5f6f95bdc9534cb12
+    log: revlist-73b0466cfade-f62180385a21.txt
 
---===============6250360133668218515==
+--===============0151408480432431046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfb92440ee71-312310928417.txt
+Content-Disposition: attachment; filename=revlist-73b0466cfade-f62180385a21.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
-8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
-436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
-1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
-242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
 f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
 9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
 7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
@@ -1068,5 +1032,23 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+7e5a7e39d767b60d8631792bd3d7820a6f4a43f8 ARM: dts: rockchip: correct interrupt flags on rk3188 boards
+146c9a346fdd0506228cace62cf324e4c1e3705a ARM: dts: rockchip: use generic node name for dma rk3036/rk322x
+4246d0bab2a8685e3d4aec2cb0ef8c526689ce96 arm64: dts: rockchip: Move drive-impedance-ohm to emmc phy on rk3399
+16c0f95d9ed14f033b5f1bd37e96d257b60c198c arm64: dts: rockchip: Add sata nodes to rk356x
+a070d3b857d4961e1202754f7a86a0f796f808cd arm64: dts: rockchip: Add some pins for NanoPi4
+34fc952867aa2a2e257bf2bcbbaac97ac91f8bd1 arm64: dts: rockchip: Change io-domains of bpi-r2-pro
+5c8e82ed3a4a5c8023b2959d8f3292f7291e7227 arm64: dts: rockchip: Add gmac1 and change network settings
+57f3b0bf5c346f73a848c3d74270b21ed110e530 arm64: dts: rockchip: correct interrupt flags on rk3399 boards
+a66f6482f8f1669209812cd6fa991c3774ce1d02 dt-bindings: soc: grf: add naneng combo phy register compatible
+dc08a6884dfbd2974f681c8fc1211d7284273bfc soc: rockchip: pm_domains: Fix typo in comment
+2946aa908bb63539b566fc3ba0b867022787602b ARM: rockchip: fix typos in comments
+213b5c5869c4e41bd7e926682af785e566cd461e arm64: dts: rockchip: fix Makefile sorting for BananaPi R2 Pro
+65a31b5abb7f4c373ce0de52eca75348156c87d2 dt-bindings: arm: rockchip: add radxa rock3 model a
+056ef970c434a572f81eae199846bf3f521a8303 arm64: dts: rockchip: add basic dts for the radxa rock3 model a
+d01cff93b07c49e6186a1ed487cf84ddd8a07ada Merge branch 'v5.19-armsoc/drivers' into for-next
+a26726958d815e4636fb9b77870a647a0e12b550 Merge branch 'v5.19-armsoc/dts32' into for-next
+a0721b5013152ae832a32f81a38a65979519f0c3 Merge branch 'v5.19-armsoc/dts64' into for-next
+f62180385a210a120e2bd4c5f6f95bdc9534cb12 Merge branch 'v5.19-armsoc/soc32' into for-next
 
---===============6250360133668218515==--
+--===============0151408480432431046==--
