@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8458843650975306719=="
+Content-Type: multipart/mixed; boundary="===============8464878997098052546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 04 Apr 2022 05:39:17 -0000
-Message-Id: <164905075788.14945.5461284922853605273@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 05:39:22 -0000
+Message-Id: <164905076234.15016.13036289678054439853@gitolite.kernel.org>
 
---===============8458843650975306719==
+--===============8464878997098052546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,82 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/heads/master
+    old: be2d3ecedd9911fbfd7e55cc9ceac5f8b79ae4cf
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-be2d3ecedd99-312310928417.txt
 
---===============8458843650975306719==
+--===============8464878997098052546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649050757 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649050761 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1649050755-68e5fea4f72eac17cee98cb23a995503f958d98c
+nonce 1649050759-822ccaea9d8b2656ceed766de949954df461ce78
 
-0000000000000000000000000000000000000000 9a36f3f1dac90e023401f6db395c601ef74becbd refs/tags/v5.18-rc1
+be2d3ecedd9911fbfd7e55cc9ceac5f8b79ae4cf 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJKhIUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8AQQAKFJj4A7/0qGA2s82tNs
-K5ramyzzmKWRWySbbA+2Cw713ilefJOyRwNnXP15BopOuOcL8YmSq2Zxdd6wF5Nf
-XKIeelxoxFoUmjnew/K7rE1dT0QZLxzvNOoTVHwpISfExv96rupsGso0ExPkYOHL
-1HtxgNN16Nw6aoehaUgbfw/jATw9Rf5F7HYas4tb/MKP6R/5zIm4Rcmi4wEtNmDG
-9YZyNPxciJkwhX6+1SE83uR2y+zJUAUM02nw9oBWHdjIX3mwrUf1LcBoLiTO0eht
-FcEWFm1hgsfgxyQf1hfQA2np/DrY+Bln/uyXubHmyoche5sl9U0zdKnPulSpK+zJ
-t5wNX88T4MX/btBHfmMYwY5ymw8jjmj33PhZKUMlApAUVNhig0DTu9o56QL0G3g2
-9GNkYK1G38cNEJ0miOaZh82341p61FcFbLsSYPWVnbaaKVxJfxJrSJcSNC5OkK4R
-/sVQsWtpt3T6qxnEtC7IoOkWZvuZbp1k7a4LbsztNjX4oPwdLbw6M4dId20lOHi2
-AhIrxDYdZXa6uOspewr8zTe/diATSy7Soi1Cqxg2GOJ+VPPWUL75B6RaL8uL91AN
-oaH6OJ6ehPiEx7dDuY9JLrtrLPeoFKYtAtcvMiHXb697Q6QhXGnuzk77QrPa4n+7
-cm5sBcsqj42NvZarZORiYqgx
-=ZR67
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJKhIkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VFEQAIBR/RFbTfRRffve4nKd
+rpuxAeyIgrx30yAV4YKIMf98v0PB+VwuuVqFyYIrwcjFjZ7KhdHyRzWI7lUqtPt8
+nXDNJO9oZmMykRagnikSvXz9ocWa3z1yq6C/eVxb67dbca+wJAD3X1HPLNvxOOuc
+//7wEd4tgOFzR3gZd40/zTiHtotYjlz0TPV0S7ahJc9fvPFZikS8Xcq7HbKPt5Xj
+X5cP7Y1hRnMWkz/ubuQwVboZcuNVgIzd4hVTJlY7f6UatWdqADqi5cZXwO3gxECT
+vIF5cv6h7e5Lv7e8x3SadAObVDS1j+XGzq+AyPIM0bc8JOX+P2qoxfYsUiXhQcbg
+SRrUwhqJOxHgkzEuVxEGeA2uS+YdlKgwxqAi3rXltxtnj+71sM+hx3vC+EgOUBPi
+rnAlIJYp7L0Tsz5EG/Qc7etzpnGUu47GLMSvS/Szvt7B/zpYnCsn7yeqgC5gwpl9
+UPPl60+pIY4xy9nwO6whoKiPxiriWGKp1bgtiRwxJ2BqipCCimua1BOn0RkxSUzV
+fxS6n1uLa8lrR3Ant/9xLCK/3zCZdgf/juvWb5xgABtDmlYRr7CsNV8x28MvoxFw
+tL3V2jH/BywS1q8PjWbiylF7jTaVU88tU2yF1FKJVzbkBiWlU+hjM2AeLEzMnnEL
+6wjFVw9Xn8NQ/C+ST49aDg1/
+=fegN
 -----END PGP SIGNATURE-----
 
---===============8458843650975306719==--
+--===============8464878997098052546==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-be2d3ecedd99-312310928417.txt
+
+063452fd94d153d4eb38ad58f210f3d37a09cca4 x86/fpu/xstate: Fix the ARCH_REQ_XCOMP_PERM implementation
+20df737561484cb2d42e537663c03a7311d2b3c1 selftests/x86/amx: Update the ARCH_REQ_XCOMP_PERM test
+b9080ba4a6ec56447f263082825a4fddb873316b x86/defconfig: Enable WERROR
+410ce3dd5055b3fa68fb7f99a6756be3a7e17f22 x86/config: Make the x86 defconfigs a bit more usable
+4009a4ac82dd95b8cd2b62bd30019476983f0aff x86/sev: Unroll string mmio with CC_ATTR_GUEST_UNROLL_STRING_IO
+a9f84fb7158fea60cbcadef5c0166fb22b469091 x86/fpu: Remove redundant XCOMP_BV initialization
+7968778914e53788a01c2dee2692cab157de9ac0 PCI: Remove the deprecated "pci-dma-compat.h" API
+d47f71f6de7970d504748d1a60a11c51af5bce47 x86/fpu: Remove unused supervisor only offsets
+35a77d4503d9d9d0e19e3a2a0d3fc9ab09fb6857 x86/fpu/xsave: Initialize offset/size cache early
+6afbb58cc2251c1d83472ca3005638206e73b6b8 x86/fpu: Cache xfeature flags from CPUID
+7aa5128b5fea26cf224766303ea3b8df343f9a87 x86/fpu/xsave: Handle compacted offsets correctly with supervisor states
+781c64bfcb735960717d1cb45428047ff6a5030c x86/fpu/xstate: Handle supervisor states in XSTATE permissions
+d6d6d50f1e801a790a242c80eeda261e36c43b7b x86/fpu/xstate: Consolidate size calculations
+05b0ebd06ae6b9e72b747362e52abb400a175080 PCI/doc: cleanup references to the legacy PCI DMA API
+7dd5ad2d3e82fb55229e3fe18e09160878e77e20 Revert "signal, x86: Delay calling signals in atomic on RT enabled kernels"
+9c6d6652e950fb34295f446676a811f6df5b8561 ARM: 9189/1: decompressor: fix unneeded rebuilds of library objects
+8b2360c7157b462c4870d447d1e65d30ef31f9aa ARM: 9187/1: JIVE: fix return value of __setup handler
+4fe87e818ea492ade079cc01a31d088e445f8539 dma-mapping: move pgprot_decrypted out of dma_pgprot
+9d17f3372306429661d8d44a5cbc0b1209e2ebe5 ARM: 9190/1: kdump: add invalid input check for 'crashkernel=0'
+9be4c88bb7924f68f88cfd47d925c2d046f51a73 ARM: 9191/1: arm/stacktrace, kasan: Silence KASAN warnings in unwind_frame()
+de4fb176622d54a82ea3ceb7362392aaf5ff0b5a Merge branches 'fixes' and 'misc' into for-linus
+84055411d861d3a2b485ad629fce7d2179d72c1e tracing: Rename the staging files for trace_events
+bed5b60bf67ccd8957b8c0558fead30c4a3f5d3f proc: bootconfig: Add null pointer check
+efe34e99fc41ad2b3fd3bbe79ecd3906620ec961 tracing/user_events: Hold event_mutex during dyn_event_add
+768c1e7f1de03afd0b55e0e951efc272309eeb52 tracing/user_events: Remove eBPF interfaces
+fcbf591cedbd44d82d7765b3c7e261858108593f tracing: Set user_events to BROKEN
+18bfee3216fa6f28d55ebf88d824a539d2bec3c7 ftrace: Make ftrace_graph_is_dead() a static branch
+5cfff569cab8bf544bab62c911c5d6efd5af5e05 tracing: Move user_events.h temporarily out of include/uapi
+859c2c7b1d0623a6f523f970043db85ce0e5aa60 Revert "clk: Drop the rate range on clk_put()"
+5dee87215b2c539e7b82704d56f610a4e558b9cc Merge tag 'for-linus' of git://git.armlinux.org.uk/~rmk/linux-arm
+63d12cc30574eec9241932cefa17a21df3afd8d0 Merge tag 'dma-mapping-5.18-1' of git://git.infradead.org/users/hch/dma-mapping
+e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8b5656bc4e3707da642cb4a9126f4849fb518423 Merge tag 'x86-urgent-2022-04-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
+3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+
+--===============8464878997098052546==--
