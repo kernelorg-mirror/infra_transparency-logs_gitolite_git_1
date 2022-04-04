@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0827203710917609431=="
+Content-Type: multipart/mixed; boundary="===============6658175151095895863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 04 Apr 2022 07:28:37 -0000
-Message-Id: <164905731734.18151.10744681562263631165@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 07:30:04 -0000
+Message-Id: <164905740435.20160.9083768966382035450@gitolite.kernel.org>
 
---===============0827203710917609431==
+--===============6658175151095895863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,26 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 9eb1950bb6f4bc0880210be05e674ad35aa43d5c
-    new: 93515220624f43e93f06698786141938581d5e43
-    log: revlist-9eb1950bb6f4-93515220624f.txt
+  - ref: refs/heads/devfreq-testing
+    old: 3439b6e7ff5704e4f812af746da9f06a6403d796
+    new: e8222a8ce34258ab3033cae96c0153a55414da4d
+    log: revlist-3439b6e7ff57-e8222a8ce342.txt
 
---===============0827203710917609431==
+--===============6658175151095895863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9eb1950bb6f4-93515220624f.txt
+Content-Disposition: attachment; filename=revlist-3439b6e7ff57-e8222a8ce342.txt
 
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
+adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
+bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
+3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
+737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
+d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
 144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
 8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
 436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
@@ -1037,18 +1046,9 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-cf6ddbdd90659ad1bf700055dd9f98effffb5a15 dt-bindings: devfreq: rk3399_dmc: Convert to YAML
-131b232ba243332ded5e45dd792a102b00a3786e dt-bindings: devfreq: rk3399_dmc: Deprecate unused/redundant properties
-0ed0713e81d4787c12ee5d1ee1683f6ef120fb43 dt-bindings: devfreq: rk3399_dmc: Fix Hz units
-71875a02356d5ff48da52ae0d3f02e7fc7a75aa2 dt-bindings: devfreq: rk3399_dmc: Specify idle params in nanoseconds
-e51cb9a80280cbd93a3d39fa25098f24f553218d dt-bindings: devfreq: rk3399_dmc: Add more disable-freq properties
-d88e95632267fa0c80343483d028d2cd3741b875 PM / devfreq: rk3399_dmc: Drop undocumented ondemand DT props
-0f7cd98d4e31118905c0b8b81552b03b7b8d2ae6 PM / devfreq: rk3399_dmc: Drop excess timing properties
-bcd9486000697f0f4073c4a94fb6a8f96ec339b6 PM / devfreq: rk3399_dmc: Use bitfield macro definitions for ODT_PD
-6e09f271955213c149457a3ecdc95f5ca782c692 PM / devfreq: rk3399_dmc: Support new disable-freq properties
-5d2429d6f0fbc2d0c946a694084415e2f5839ca1 PM / devfreq: rk3399_dmc: Support new *-ns properties
-eaf02d0585f55b288853369b27bbb400b1f4e5ef PM / devfreq: rk3399_dmc: Disable edev on remove()
-38d4c4a4e375801a04181a2afb2c5d73f73a161e PM / devfreq: rk3399_dmc: Use devm_pm_opp_of_add_table()
-93515220624f43e93f06698786141938581d5e43 PM / devfreq: rk3399_dmc: Avoid static (reused) profile
+e812f86345abdb14f10c88829d032d9f990a02d4 PM / devfreq: Export devfreq_get_freq_range symbol within devfreq
+95f7ed4a4161892825bb0ba124579c93280ad462 PM / devfreq: Add cpu based scaling support to passive governor
+04bf2090b80879edd3b025340775d187aa47ba8f PM / devfreq: passive: Reduce duplicate code when passive_devfreq case
+e8222a8ce34258ab3033cae96c0153a55414da4d PM / devfreq: passive: Update frequency when start governor
 
---===============0827203710917609431==--
+--===============6658175151095895863==--
