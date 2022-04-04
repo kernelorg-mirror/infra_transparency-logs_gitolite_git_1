@@ -1,30 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3730473409193082435=="
+Content-Type: multipart/mixed; boundary="===============6250360133668218515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 04 Apr 2022 08:55:06 -0000
-Message-Id: <164906250617.16663.2079627927388385112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 04 Apr 2022 08:58:03 -0000
+Message-Id: <164906268385.17728.12834340237852463633@gitolite.kernel.org>
 
---===============3730473409193082435==
+--===============6250360133668218515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 87ba5badc541a79bab2fa3243ee0008c0880c64a
+  - ref: refs/heads/master
+    old: cfb92440ee71adcc2105b0890bb01ac3cddb8507
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-87ba5badc541-312310928417.txt
+    log: revlist-cfb92440ee71-312310928417.txt
+  - ref: refs/tags/v5.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/heads/v5.19-armsoc/drivers
+    old: 0000000000000000000000000000000000000000
+    new: dc08a6884dfbd2974f681c8fc1211d7284273bfc
+  - ref: refs/heads/v5.19-armsoc/dts32
+    old: 0000000000000000000000000000000000000000
+    new: 146c9a346fdd0506228cace62cf324e4c1e3705a
+  - ref: refs/heads/v5.19-armsoc/dts64
+    old: 0000000000000000000000000000000000000000
+    new: 056ef970c434a572f81eae199846bf3f521a8303
+  - ref: refs/heads/v5.19-armsoc/soc32
+    old: 0000000000000000000000000000000000000000
+    new: 2946aa908bb63539b566fc3ba0b867022787602b
+  - ref: refs/heads/v5.19-clk/next
+    old: 0000000000000000000000000000000000000000
+    new: 3123109284176b1532874591f7c81f3837bbdc17
 
---===============3730473409193082435==
+--===============6250360133668218515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87ba5badc541-312310928417.txt
+Content-Disposition: attachment; filename=revlist-cfb92440ee71-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1069,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============3730473409193082435==--
+--===============6250360133668218515==--
