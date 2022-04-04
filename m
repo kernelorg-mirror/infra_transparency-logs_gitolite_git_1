@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Mon, 04 Apr 2022 17:12:57 -0000
-Message-Id: <164909237796.13480.2575488338747288830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 04 Apr 2022 17:24:33 -0000
+Message-Id: <164909307359.20981.15302278521376429723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: kvalo
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main
-    old: 61a891efbb1099bb7bdcedfc50f802fabbe46a0e
-    new: 10cb21f4ff3f9cb36d1e1c39bf80426f02f4986a
+  - ref: refs/heads/for-kernelci
+    old: 9c79d56710a8066e787c3d9a59cf80fbbbb277ed
+    new: 24dfb0212a8c30939f7fb0877439ecf5dfd4ea28
     log: |
-         10cb21f4ff3f9cb36d1e1c39bf80426f02f4986a Revert "ath11k: mesh: add support for 256 bitmap in blockack frames in 11ax"
+         24dfb0212a8c30939f7fb0877439ecf5dfd4ea28 of/platform: Drop static setup of IRQ resource from DT core
          
