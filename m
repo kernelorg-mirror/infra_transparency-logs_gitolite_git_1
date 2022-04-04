@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4246609132435849439=="
+Content-Type: multipart/mixed; boundary="===============2255695570721872665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 04 Apr 2022 21:50:56 -0000
-Message-Id: <164910905611.2467.7779853552654088859@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 21:53:51 -0000
+Message-Id: <164910923198.3427.9895619500905299992@gitolite.kernel.org>
 
---===============4246609132435849439==
+--===============2255695570721872665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,118 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: 95385bb74f406dc022e0ea5463ae3115d7b6bf5c
-    new: 873863d594c4b12aba19872c78fcaa65147fe9ae
-    log: revlist-95385bb74f40-873863d594c4.txt
+  - ref: refs/heads/for-next
+    old: 89a925d7560844e14e068b1f318b1d09e010da85
+    new: 9b58921a376a289572a2f161934b49778ec47c58
+    log: revlist-89a925d75608-9b58921a376a.txt
 
---===============4246609132435849439==
+--===============2255695570721872665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95385bb74f40-873863d594c4.txt
+Content-Disposition: attachment; filename=revlist-89a925d75608-9b58921a376a.txt
 
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
-8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
-436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
-1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
-242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
-f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
-9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
-7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
-4d69c3457821100a39fa8c6e0c23ed910bb6c29d mm/damon/reclaim: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-da7aaca05f4f88f5e723f315771808a629b3d32b mm/damon/dbgfs: use damon_select_ops() instead of damon_{v,p}a_set_operations()
-4a20865b0744c987655472425203345d970da7a0 mm/damon/dbgfs: use operations id for knowing if the target has pid
-999b9467974f75aae96b285337a77c098c9f1e07 mm/damon/dbgfs-test: fix is_target_id() change
-851040566a008f7248cb754d5bb9a3e34f2effe5 mm/damon/paddr,vaddr: remove damon_{p,v}a_{target_valid,set_operations}()
-3213a3c10fc81e8dd441b74b6555bb9cb287f898 mm/damon: remove unnecessary CONFIG_DAMON option
-561f4fc4972443f1273f7abbd8270fd949e6584b Docs/vm/damon: call low level monitoring primitives the operations
-742cc2bfce5a94ad629a3a0bd408ef61c8be2826 Docs/vm/damon/design: update DAMON-Idle Page Tracking interference handling
-4c1f287f8c80268a870d8a51012ac4adf8fcbec5 Docs/damon: update outdated term 'regions update interval'
-8b9b0d335a345cbc590baa5aa8aa02c467c1e4e8 mm/damon/core: allow non-exclusive DAMON start/stop
-5257f36ec289d544532f2889cbed11abbb06cf0c mm/damon/core: add number of each enum type values
-c951cd3b89010c7a4751b9d4ea074007e44851e6 mm/damon: implement a minimal stub for sysfs-based DAMON interface
-a61ea561c87139992fe32afdee48a6f6b85d824a mm/damon/sysfs: link DAMON for virtual address spaces monitoring
-2031b14ea757361fd5fceb481a6f0c1bf9e3462f mm/damon/sysfs: support the physical address space monitoring
-7e84b1f8212a038ebeee06de56db7181148fa0cd mm/damon/sysfs: support DAMON-based Operation Schemes
-9bbb820a5bd5f406ae5e0819cc31f2c2e6f4d990 mm/damon/sysfs: support DAMOS quotas
-1c78b2bcd240c43690f3766a87bcfa7eb25d37ae mm/damon/sysfs: support schemes prioritization
-1b32234ab087d15f4afcac644dbe036100bcc1c1 mm/damon/sysfs: support DAMOS watermarks
-0ac32b8affb5a384253dbb8339bd2d0e91add0b7 mm/damon/sysfs: support DAMOS stats
-40184e484def1bea48e6be8c80ea7f992b8df16a selftests/damon: add a test for DAMON sysfs interface
-b18402726bd10e122c65eecc244ca1cdcb868cc8 Docs/admin-guide/mm/damon/usage: document DAMON sysfs interface
-f968c6a4c66ec25e97ca8801eada103abfe9b295 Docs/ABI/testing: add DAMON sysfs interface ABI document
-15423a52cc84e23bc11e4a903cd775adc7c6ab00 mm/damon/sysfs: remove repeat container_of() in damon_sysfs_kdamond_release()
-3bf03b9a0839c9fb06927ae53ebd0f960b19d408 Merge branch 'akpm' (patches from Andrew)
-b20bdd9cc9740ac1f2138adab25ddd51245c67be iwlwifi: mvm: Don't fail if PPAG isn't supported
-bbde015227e89f1da21bd3b84523d62c4a445c06 RISC-V: add support for restartable sequences
-2af7e566a8616c278e1d7287ce86cd3900bed943 net/mlx5e: Fix build warning, detected write beyond size of field
-9030fb0bb9d607908d51f9ee02efdbe01da355ee Merge tag 'folio-5.18c' of git://git.infradead.org/users/willy/pagecache
-6b1f86f8e9c7f9de7ca1cb987b2cf25e99b1ae3a Merge tag 'folio-5.18b' of git://git.infradead.org/users/willy/pagecache
-1e21270685ae4c14361dd501da62cdc4be867d4e crypto: fix crc64 testmgr digest byte order
-d578c770c85233af592e54537f93f3831bde7e9a block: avoid calling blkg_free() in atomic context
-5077e2c8cf4d6b22a95a6c54a917f764e8887978 net: dsa: fix missing host-filtered multicast addresses
-36c2e31ad25bd087756b8db9584994d1d80c236b net: geneve: add missing netlink policy and size for IFLA_GENEVE_INNER_PROTO_INHERIT
-726be2c72efc0a64c206e854b8996ad3ab9c7507 nvme: fix the read-only state for zoned namespaces with unsupposed features
-2e21e4454bd3435ef6e3b84492dcbfaaf9d8769c nvme-pci: expose use_threaded_interrupts read-only in sysfs
-bc360b0b1611566e1bd47384daf49af6a1c51837 nvme-pci: add quirks for Samsung X5 SSDs
-b690490d6d466972ade172ee2e7f6ffa49e7e910 Merge branch 'for-5.18/amd-sfh' into for-linus
-412370414c3c7cfe504e2af1d8c98d7a912e6c9a Merge branch 'for-5.18/apple' into for-linus
-a2ff0059270fd35770c6bb22dca86a491b832fb2 Merge branch 'for-5.18/core' into for-linus
-e0464ad24666f6e35236e3ac8263911efb9099e7 Merge branch 'for-5.18/google' into for-linus
-5d3ab41394f70a4398b586c24a2d15d7ac3cb442 Merge branch 'for-5.18/i2c-hid' into for-linus
-1fe30b497ca02dbf8562536116e24ce41c61f8fa Merge branch 'for-5.18/razer' into for-linus
-bda3c85a00b07668f7acca41e84607c2c5bee3b4 Merge branch 'for-5.18/sigma-micro' into for-linus
-b146dbbd3bc61678165f3de7904ab613865385ba Merge branch 'for-5.18/uclogic' into for-linus
-cf38326010aebf39855977475a901c4c7a3e0b63 ARM: configs: multi_v5: Enable Allwinner F1C100
-2f45a4e2897793cc6ae25f5fe78b485ce7fd01d0 ASoC: rockchip: i2s_tdm: Fixup config for SND_SOC_DAIFMT_DSP_A/B
-e2c0cb7c0cc72939b61a7efee376206725796625 io_uring: bump poll refs to full 31-bits
-d89a4fac0fbc6fe5fc24d1c9a889440dcf410368 io_uring: fix assuming triggered poll waitqueue is the single poll
-4d55f238f8b89124f73e50abbd05e413def514fe io_uring: don't recycle provided buffer if punted to async worker
-5e6ded2e7a5d9c71186acc8f51989ef6e6addda4 livepatch: Reorder to use before freeing a pointer
-748718bcc0a2bc3bdc03ea86819bdf60dc6412e7 mfd: atmel-flexcom: Fix compilation warning
-9876ef1d7ea038a9d0a6cb850cc8b12f9098dc45 dt-bindings: Add compatibles for undocumented trivial syscons
-e7391b021e3f7bac37ec485f2ed1ca6787a800a7 dt-bindings: mfd: brcm,cru: Rename pinctrl node
-5a2d27c283db049e46c7fac5092ea45c6add2d47 mfd: intel-lpss: Provide an SSP type to the driver
-e4f8e06515e2ed015e36f1a1ef6ebc811f446d10 MAINTAINERS: Rectify entry for ROHM MULTIFUNCTION BD9571MWV-M PMIC DEVICE DRIVERS
-e84ee1a75f944a0fe3c277aaa10c426603d2b0bc mfd: asic3: Add missing iounmap() on error asic3_mfd_probe
-3cf2b4344b651b94d62411963e666c9cb5b99e62 mfd: arizona-spi: Split Windows ACPI init code into its own function
-9ed55e9ac536a3d60e5dd75def3e9158d1d09f5e mfd: arizona-spi: Add Android board ACPI table handling
-553f685ebf9689e701ec6b95c0ca3595cf1a743f mfd: db8500-prcmu: Remove unused inline function
-fc832ac98752950e267081d1ea6048d948969037 mfd: Use platform_get_irq() to get the interrupt
-def387a2395708ccba333ccc0cea82ef5108f9be mfd: bd9576: fix typos in comments
-eca344a7362e0f34f179298fd8366bcd556eede1 tracing: Have trace event string test handle zero length strings
-d99460ed5cdcc28feba6b992630b04650e410902 dt-bindings: mfd: syscon: Add microchip,lan966x-cpu-syscon compatible
-61285ff72ae59e1603f908b13363e99883d67e09 fs: do not pass __GFP_HIGHMEM to bio_alloc in do_mpage_readpage
-bb7f5d96aaa87d5aee2f5eb98ae0b84f08988489 gfs2: Fix should_fault_in_pages() logic
-52f3f033a5dbd023307520af1ff551cadfd7f037 gfs2: Disable page faults during lockless buffered reads
-124c458a401a2497f796e4f2d6cafac6edbea8e9 gfs2: Minor retry logic cleanup
-dcbc65aac28360df5f5a3b613043ccc0e81da3cf ptrace: Remove duplicated include in ptrace.c
-e97824ff663ce3509fe040431c713182c2f058b1 mm/mlock: fix two bugs in user_shm_lock()
-6cadd424abb63120f8346a4509dc43bddc9401d3 Merge tag 'nand/for-5.18' into mtd/next
-30d024b5058e0433914022f87d917a97a9527632 cacheflush.h: Add forward declaration for struct folio
-e9e6faeafaa00da1851bcf47912b0f1acae666b4 drivers: net: xgene: Fix regression in CRC stripping
-4a6806cfcbca2cd7bae94b2d4244dab3aaa1b333 net: marvell: prestera: add missing destroy_workqueue() in prestera_module_init()
-a911ad18a56aeecf87a098ad1cdc4de91d7f60de net: bridge: mst: Restrict info size queries to bridge ports
-054d5575cd6ed2792611a7cbb8c88663cc873780 net/sched: fix incorrect vlan_push_eth dest field
-32d53c0aa3a7b727243473949bad2a830b908edc ice: fix 'scheduling while atomic' on aux critical err interrupt
-5a3156932da06f09953764de113419f254086faf ice: don't allow to run ice_send_event_to_aux() in atomic ctx
-f92fcb5c00dc924a4661d5bf68de7937040f26b8 Merge branch 'ice-avoid-sleeping-scheduling-in-atomic-contexts'
-2844e2434385819f674d1fb4130c308c50ba681e drivers: ethernet: cpsw: fix panic when interrupt coaleceing is set via ethtool
-764f4eb6846f5475f1244767d24d25dd86528a4a llc: fix netdevice reference leaks in llc_ui_bind()
-89695196f0ba78a17453f9616355f2ca6b293402 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 3ef4ea3d84ca568dcd57816b9521e82e3bd94f08 Merge tag 'printk-for-5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 20f463fb38686dd3fe7e6903cab56bdbbf756238 Merge tag 'trace-rtla-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 1bc191051dca28fa6d20fd1dc34a1903e7d4fb62 Merge tag 'trace-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
@@ -191,6 +90,9 @@ c7d4b15372bde442059c7d6415afeba073a09474 Merge tag 'ata-5.18-rc1' of git://git.k
 9c4b86ebf5bfdaceba4bedbaf76e4ff745db17ef Merge tag 'for-5.18/fbdev-1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 182966e1cd74ec0e326cd376de241803ee79741b Merge tag 'media/v5.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 40037e4f8b2f7d33b8d266f139bf345962c48d46 Merge tag 'sound-5.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+0b9e66762aa0cda2a9c2d5542d64e04dac528fa6 btrfs: zoned: traverse devices under chunk_mutex in btrfs_can_activate_zone
+62ed0bf7315b524973bb5fb9174b60e353289835 btrfs: zoned: remove left over ASSERT checking for single profile
+b642b52d0b50f4d398cb4293f64992d0eed2e2ce btrfs: fix qgroup reserve overflow the qgroup limit
 7ba89d2af17aa879dda30f5d5d3f152e587fc551 io_uring: ensure recv and recvmsg handle MSG_WAITALL correctly
 8a3e8ee56417f5e0e66580d93941ed9d6f4c8274 io_uring: add flag for disabling provided buffer recycling
 5db1c2dbc04c161d9e6b3f93457452e2ee904bde dt-bindings: nvmem: add U-Boot environment variables binding
@@ -256,6 +158,11 @@ f2dd495a8d589371289981d5ed33e6873df94ecc netfilter: nf_conntrack_tcp: preserve l
 82ee41b85cef16b4be1f4732650012d9baaedddd SUNRPC don't resend a task on an offlined transport
 1d15d121cc2ad4d016a7dc1493132a9696f91fc5 NFSv4.1: don't retry BIND_CONN_TO_SESSION on session error
 c1cb81429df462eca1b6ba615cddd21dd3103c46 kdb: Fix the putarea helper function
+bbac58698a55cc0a6f0c0d69a6dcd3f9f3134c11 btrfs: remove device item and update super block in the same transaction
+05fd9564e9faf0f23b4676385e27d9405cef6637 btrfs: fix fallocate to use file_modified to update permissions consistently
+75a36a7d3ea904cef2e5b56af0c58cc60dcf947a btrfs: avoid defragging extents whose next extents are not targets
+a7d16d9a07bbcb7dcd5214a1bea75c808830bc0d btrfs: do not warn for free space inode in cow_file_range
+60021bd754c6ca0addc6817994f20290a321d8d6 btrfs: prevent subvol with swapfile from being deleted
 15f2e3d6c1f713050d2d51f822fc4253f67ae7ac Merge tag 'fs.v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 2e2d4650b34ffe0a39f70acc9429a58d94e39236 Merge tag 'fs.rt.v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/brauner/linux
 cd4699c5fd66b00211f4709b9957bfd7b0a02ddc Merge tag 'prlimit-tasklist_lock-for-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiederm/user-namespace
@@ -1049,6 +956,99 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-873863d594c4b12aba19872c78fcaa65147fe9ae Merge branch 'misc-5.18' into next-fixes
+fc5c5c2559480ec61e4e4421ac6b6cd8c2adf9f7 btrfs: zoned: traverse devices under chunk_mutex in btrfs_can_activate_zone
+b03c3897a9b1b0c2558c2dfca510b2f4c49d6c49 btrfs: zoned: remove left over ASSERT checking for single profile
+d957dc9c55161cd5b5f91f9f656540708d02bf33 btrfs: fix qgroup reserve overflow the qgroup limit
+b872f0f2af50be62944890ac31a96730881bd443 btrfs: reserve correct number of items for unlink and rmdir
+d40ecda38665bfcfa69bc2d6a2f3f83ea48edf1a btrfs: reserve correct number of items for rename
+5d4a482c1e44554a23cc6b05cfa3cc6754c4166e btrfs: fix anon_dev leak in create_subvol()
+8d5c497cf7c307a587895320c1aac2a11a010800 btrfs: get rid of btrfs_add_nondir()
+05916793aeb7dc28973173ef0d5b0e606b0b7ab9 btrfs: remove unnecessary btrfs_i_size_write(0) calls
+1bd8207fa9562e1960d4aa1fbd18d944653d35d1 btrfs: remove unnecessary inode_set_bytes(0) call
+b91833676623a38bb113e6a147fdb32519aec307 btrfs: remove unnecessary set_nlink() in btrfs_create_subvol_root()
+a02f8a41bcbfd8217b4ea44f0438797bbc8493ef btrfs: remove unused mnt_userns parameter from __btrfs_set_acl
+a0aaad3ceb788d7629380551f369272a7c3f96f7 btrfs: remove redundant name and name_len parameters to create_subvol
+996794a08efa45e79cd19132c57ee66e2d1dd95d btrfs: don't pass parent objectid to btrfs_new_inode() explicitly
+fd48645788dcced071271e76c41654aa560a1ba9 btrfs: move btrfs_get_free_objectid() call into btrfs_new_inode()
+fae0214c980ce3b1fc2c583e9c8364d9db944bc8 btrfs: set inode flags earlier in btrfs_new_inode()
+8f355904a612e3c10d03ece753ed1e772cfab33c btrfs: avoid unnecessary btree search restarts when reading node
+06c4ef9f8cd03afc0ea0b467e7c5eaad71000e05 btrfs: release upper nodes when reading stale btree node from disk
+969fe76152434d55f3d7c7750637a3a4f9eaebd2 btrfs: update outdated comment for read_block_for_search()
+17418a310a5306e408dd774b9fddc86f24b99941 btrfs: remove trivial wrapper btrfs_read_buffer()
+57efaad2ec87f0f6b917661e84988b2030c09788 btrfs: scrub: rename members related to scrub_block::pagev
+7a826b9ad9da95f1240b083991a12c78016aef5c btrfs: scrub: rename scrub_page to scrub_sector
+2241a41e2f555f4b50032b8ce788e157de33c743 btrfs: scrub: rename scrub_bio::pagev and related members
+b0c2497a20579d6d3c0003255f2c5e9f101dc6a0 btrfs: introduce btrfs_for_each_slot iterator macro
+9893c15f5ac87f8ed46a1c26f2d8c8d5dc750c8e btrfs: use btrfs_for_each_slot in find_first_block_group
+f903eb9e0beef7bc8f0d717551c9d5f2e53dd3e9 btrfs: use btrfs_for_each_slot in mark_block_group_to_copy
+49cf815e486329a9e695118baed0ab7d90082a67 btrfs: use btrfs_for_each_slot in btrfs_search_dir_index_item
+012449657242b51cc4aa2baa00dbdcbd4cbc5a6e btrfs: use btrfs_for_each_slot in btrfs_real_readdir
+c24382d631e9b83c32428176ea1d03c1b83d5ade btrfs: use btrfs_for_each_slot in did_create_dir
+e6133a8ee567ad1d95c598862bcb4b32db464b96 btrfs: use btrfs_for_each_slot in can_rmdir
+eff6176665bc02afe85ca391d6b0d8a512a27cea btrfs: use btrfs_for_each_slot in is_ancestor
+07c03a1f398ee2e6ce0182ea8f7f6d59afa3968c btrfs: use btrfs_for_each_slot in process_all_refs
+92276ded7c4f9bc6fca668cd57047286c18898a3 btrfs: use btrfs_for_each_slot in process_all_new_xattrs
+7966a9a53163a6b0f2abb0cee6c35108a4300054 btrfs: use btrfs_for_each_slot in process_all_extents
+6d506060309fadf5b2ca37374c5b0636b28a0e21 btrfs: use btrfs_for_each_slot in btrfs_unlink_all_paths
+0c1bb2ee0eb2c6ac216b9158ee7a35e77a86347a btrfs: use btrfs_for_each_slot in btrfs_read_chunk_tree
+84abf7eb1eb8e9aee71a25c1e50f0b4301393a55 btrfs: use btrfs_for_each_slot in btrfs_listxattr
+b821f51c461bc04955e871c9f09afb9075a14dee btrfs: use a local variable for fs_devices pointer in btrfs_dev_replace_finishing
+4d11ce7e174c75a7cdb7431cf7279d477d4f3202 btrfs: remove device item and update super block in the same transaction
+e5641bb9020a733b1132932ca8c5a2ece3b0dd7a btrfs: fix fallocate to use file_modified to update permissions consistently
+42ba7219faf7b72e90dbe9cd3dfeb7e28f56a044 btrfs: warn when extent buffer leak test fails
+3e82764828d6ae197d80a646f3d8d4f644b6da76 btrfs: allocate inode outside of btrfs_new_inode()
+002a67adc25a1e795cb6c00ab6844ed32a7374ec btrfs: factor out common part of btrfs_{mknod,create,mkdir}()
+59649d816dd08fd993e1adaf524ab2ccad754f27 btrfs: reserve correct number of items for inode creation
+b36062e114d6b5adeb34d6ac2a1d068a8896735a btrfs: move common inode creation code into btrfs_create_new_inode()
+8251ca5bc314c325849b45b9aecd4e53a460947a btrfs: only reserve the needed data space amount during fallocate
+a872d52d6925b38f248a57b99e05d9d84c22ecbe btrfs: remove useless dio wait call when doing fallocate zero range
+119eb700e6c59c262f5dc4936a71bc65692a14ee btrfs: remove inode_dio_wait() calls when starting reflink operations
+4c6eb92bb117d1c1481e215440eea489a8e7ce4f btrfs: remove ordered extent check and wait during fallocate
+f8fc37069fc92b40518d3d05ca81fcff8d664849 btrfs: lock the inode first before flushing range when punching hole
+ae8f5bb7bcb39d4de286c64e03d0ab45ed32bde8 btrfs: remove ordered extent check and wait during hole punching and zero range
+8bda8913eeba275bd409b133f64fa71a65980270 btrfs: add and use helper to assert an inode range is clean
+f9db7f0b5b2503bd28a5b1b691aa0a81bfa89d17 btrfs: tree-checker: check extent buffer owner against owner rootid
+0b0e4ad623912c2cbcfba00a62214ea2ea3b90f4 btrfs: avoid defragging extents whose next extents are not targets
+c6ce74b79b73cc9168bd99602db6a15deb0ddc5a btrfs: add messages to printk index
+7c3bd8d310687b11da57ca0475cf11b191a4ef6f btrfs: do not warn for free space inode in cow_file_range
+16bbb2b6e510a685e2c89f84f45b0a9a6d703821 btrfs: prevent subvol with swapfile from being deleted
+647e218557a8dfdc7d99110f81970a692c9697d4 btrfs: zoned: remove redundant condition in btrfs_run_delalloc_range
+f737c6257f113595fccf51370f4fe23818d95d86 btrfs: remove unused variable in btrfs_{start,write}_dirty_block_groups()
+56d99353607b2fe58e77653c81d5edfe07fa5b36 btrfs: avoid blocking on page locks with nowait dio on compressed range
+a0f21efe42be980a664ed9438a23c8eabe0c8035 btrfs: avoid blocking nowait dio when locking file range
+1639f5825e0355965dea881fc480b4cb4f4cf0da btrfs: avoid double nocow check when doing nowait dio writes
+9ef68db0b854cbd6329a6aefb6e5ccfb0f21c58e btrfs: stop allocating a path when checking if cross reference exists
+c804e9b3727cc99f35c97371182259bdf5591b4e btrfs: free path at can_nocow_extent() before checking for checksum items
+43a4f0c92310e01d1737bf6cb616da3f64682968 btrfs: release path earlier at can_nocow_extent()
+fa5e487d3b8a82b39ad0930aa9a2fdd7fcb6feb4 btrfs: avoid blocking when allocating context for nowait dio read/write
+3555b5f3b3d24fbd68fc0823c97c59060f831e28 btrfs: avoid blocking on space revervation when doing nowait dio writes
+48e43f7346682aa207e0a8453dbaa11bdf57a19a btrfs: replace memset with memzero_page in data checksum verification
+f9982c6f1d5222ef563269c6d8f1e97a516e7f06 btrfs: release correct delalloc amount in direct IO write path
+bf178519763b822c8381c176a0026679d0afe0cc btrfs: remove support of balance v1 ioctl
+e49240a41b2fe0c9d1dbd232cb67dd7e70d2ae5f btrfs: remove checks for arg argument in btrfs_ioctl_balance
+b24475315a18d596e89c72a860143b690290a0ba btrfs: simplify code flow in btrfs_ioctl_balance
+1257948223af234520215d799b2eb328d54b897a btrfs: mark resumed async balance as writing
+05a7e44f9561efd5b06f783fbc79463817cdac2b fs: add a lockdep check function for sb_start_write()
+ec4727950715be2290b0e9f98cfb25a2d79a41ee btrfs: assert that relocation is protected with sb_start_write()
+2b87a9984029fe78035d859d318ca2a88562dcca btrfs: use dummy extent buffer for super block sys chunk array read
+c7f64af1aa27e89c7415f33d41c38bb563f11c58 btrfs: make nodesize >= PAGE_SIZE case to reuse the non-subpage routine
+52744e471eec9791eac0e1af36b69189122cedc1 btrfs: expand subpage support to any PAGE_SIZE > 4K
+7b1bdd89bc964f724f7f55c8df660a054d0e5670 btrfs: remove unnecessary type casts
+573b98074bb98d569ef7fe28dc5afadcbf17432a btrfs: factor out allocating an array of pages
+2e8a0d632197e6a6f24123501fe16303740492b4 btrfs: allocate page arrays using bulk page allocator
+979760804c6f40091ac35813fca680281e42abb1 btrfs: move common NOCOW checks against a file extent into a helper
+150dcf88c5e9e76c99d888f6b7ab14faa7280edd btrfs: do not test for free space inode during NOCOW check against file extent
+d2e7b66dcd53b1d55d180377aedd8af990aee95d btrfs: return allocated block group from do_chunk_alloc()
+bf6392c0e50a06aeb8a08547dbe26bd89526a797 btrfs: zoned: activate block group only for extent allocation
+6232a41d2ac911832b8d4f4f206476ead154f8a3 btrfs: fix root ref counts in error handling in btrfs_get_root_ref
+3f4ccfa00273273ec11a21631ab11e67d6102fbb btrfs: fix btrfs_submit_compressed_write cgroup attribution
+8e4b6103daf2d36102ccca2fc47d4f07569d2ef2 btrfs: make the bg_reclaim_threshold per-space info
+86af3803208d18c2855642f86b93d7ebdddb9e5d btrfs: allow block group background reclaim for non-zoned filesystems
+23cbd5a0356eaab5627443673167db7462f85c4f btrfs: change the bg_reclaim_threshold valid region from 0 to 100
+4c59e5f1173eb28d1b950d206b4e85676ab93dfa btrfs: zoned: make auto-reclaim less aggressive
+05e039536bdc6583e771d0543d0755314ce696f7 Merge branch 'misc-5.18' into for-next-current-v5.17-20220404
+d9829b7817f17bcbc1b52e6bf28ced97fc5d5ec0 Merge branch 'misc-next' into for-next-next-v5.18-20220404
+a62893c9d3118813d3e5cb359fceb11b47c84995 Merge branch 'for-next-current-v5.17-20220404' into for-next-20220404
+9b58921a376a289572a2f161934b49778ec47c58 Merge branch 'for-next-next-v5.18-20220404' into for-next-20220404
 
---===============4246609132435849439==--
+--===============2255695570721872665==--
