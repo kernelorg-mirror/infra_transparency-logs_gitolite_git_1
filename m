@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7182474481414330623=="
+Content-Type: multipart/mixed; boundary="===============8765421095805173779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 04 Apr 2022 16:14:42 -0000
-Message-Id: <164908888231.6829.9759746569256740089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 04 Apr 2022 16:24:17 -0000
+Message-Id: <164908945753.12713.6651745076860282041@gitolite.kernel.org>
 
---===============7182474481414330623==
+--===============8765421095805173779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/cpupower
-    old: 8382dce5e4835c045f33b8958a5f559d212cdd11
+  - ref: refs/heads/kunit
+    old: 5debe5bfa02c4c8922bd2d0f82c9c3a70bec8944
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-8382dce5e483-312310928417.txt
+    log: revlist-5debe5bfa02c-312310928417.txt
 
---===============7182474481414330623==
+--===============8765421095805173779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8382dce5e483-312310928417.txt
+Content-Disposition: attachment; filename=revlist-5debe5bfa02c-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============7182474481414330623==--
+--===============8765421095805173779==--
