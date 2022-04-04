@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 04 Apr 2022 23:49:25 -0000
-Message-Id: <164911616511.14046.5049437675556725940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 04 Apr 2022 23:50:03 -0000
+Message-Id: <164911620309.15166.11239930629554486497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 7224a0737c46cb7a385dc75f1c2e1c8e783e8adb
-    new: 568189310c2096e204674edd2f0da036cd50676a
+  - ref: refs/heads/io_uring-5.18
+    old: 37c752efb3ee4a60f4a424a1564ba0fb50698081
+    new: 6a610fed92846b205e275b143a5d529bb6b13f01
     log: |
-         d298761746d59ca169dfe68b4d0a983c3053573b selftests/bpf: Define SYS_NANOSLEEP_KPROBE_NAME for aarch64
-         568189310c2096e204674edd2f0da036cd50676a libbpf: Support Debian in resolve_full_path()
+         a3e4bc23d5470b2beb7cc42a86b6a3e75b704c15 io_uring: defer splice/tee file validity check until command issue
+         584b0180f0f4d67d7145950fe68c625f06c88b10 io_uring: move read/write file prep state into actual opcode handler
+         5e3de2206273a64600c168a3be187ad50614669f io_uring: propagate issue_flags state down to file assignment
+         741bfcae2afe8f9b3286eb4519bd18cd69fab1fe io_uring: defer file assignment
+         6a610fed92846b205e275b143a5d529bb6b13f01 io_uring: drop the old style inflight file tracking
          
