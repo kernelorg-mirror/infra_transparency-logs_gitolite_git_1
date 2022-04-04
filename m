@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5065393649665208087=="
+Content-Type: multipart/mixed; boundary="===============5316962744178266252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 04 Apr 2022 18:05:15 -0000
-Message-Id: <164909551519.16865.14683237701706967437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 04 Apr 2022 18:14:56 -0000
+Message-Id: <164909609627.22620.15381459328773959480@gitolite.kernel.org>
 
---===============5065393649665208087==
+--===============5316962744178266252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/next
-    old: cdbec3ede0b8cb318c36f5cc945b9360329cbd25
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-cdbec3ede0b8-312310928417.txt
+  - ref: refs/heads/x86/cpu
+    old: 08f253ec3767bcfafc5d32617a92cee57c63968e
+    new: f8858b5eff30d1b2be15ef1ea6285964013b95e6
+    log: revlist-08f253ec3767-f8858b5eff30.txt
 
---===============5065393649665208087==
+--===============5316962744178266252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdbec3ede0b8-312310928417.txt
+Content-Disposition: attachment; filename=revlist-08f253ec3767-f8858b5eff30.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
 698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
 b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
 adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
@@ -1050,5 +1044,11 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+1625c833db93516faaac5feedadf8d19c14238b6 x86/cpu: Allow feature bit names from /proc/cpuinfo in clearcpuid=
+c949110ef4e31cb5d3387bd8273fd5de66b5227b x86/cpu: Remove "nosep"
+dbae0a934f09208075ec3e73491bd0844e1397b3 x86/cpu: Remove CONFIG_X86_SMAP and "nosmap"
+385d2ae0a1b5efacb30e13a0f0e521490441d9bb x86/cpu: Remove "nosmep"
+76ea0025a214cdf0d2c204f4c21cbffa9fb57c32 x86/cpu: Remove "noexec"
+f8858b5eff30d1b2be15ef1ea6285964013b95e6 x86/cpu: Remove "noclflush"
 
---===============5065393649665208087==--
+--===============5316962744178266252==--
