@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 04 Apr 2022 20:26:19 -0000
-Message-Id: <164910397978.11677.12232286579705566759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 04 Apr 2022 20:27:49 -0000
+Message-Id: <164910406916.12216.14967258133321995746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 81200b0265b15609dcecf192e3f7fb238ec0d3da
+  - ref: refs/heads/master
+    old: 215c27ac35d334d6be9c8982b52faf97ff78c26f
+    new: fbd72c3bd426e9284a11840706196d46928142d8
     log: |
-         0a9876f36b08706d9954d8ccb42d0cd85f210333 selinux: Remove redundant assignments
-         43b666622c60bc001f2f8a19f5f97946ff53a5cc selinux: runtime disable is deprecated, add some ssleep() discomfort
-         81200b0265b15609dcecf192e3f7fb238ec0d3da selinux: checkreqprot is deprecated, add some ssleep() discomfort
+         30a3c697057e4457aadbd71b282b21a39f578bbd Review and update .3 and .7 man pages
+         fbd72c3bd426e9284a11840706196d46928142d8 Merge branch 'changes-3' of https://github.com/ewyler/liburing
          
