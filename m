@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5474012439938314920=="
+Content-Type: multipart/mixed; boundary="===============4825290456719491404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 04 Apr 2022 17:59:42 -0000
-Message-Id: <164909518244.11941.17893501112008998536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 04 Apr 2022 18:02:33 -0000
+Message-Id: <164909535363.14370.3939007470545356269@gitolite.kernel.org>
 
---===============5474012439938314920==
+--===============4825290456719491404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/next
-    old: 272ceeaea355214b301530e262a0df8600bfca95
+  - ref: refs/heads/stable-5.18
+    old: cdbec3ede0b8cb318c36f5cc945b9360329cbd25
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-272ceeaea355-312310928417.txt
+    log: revlist-cdbec3ede0b8-312310928417.txt
 
---===============5474012439938314920==
+--===============4825290456719491404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-272ceeaea355-312310928417.txt
+Content-Disposition: attachment; filename=revlist-cdbec3ede0b8-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============5474012439938314920==--
+--===============4825290456719491404==--
