@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2425968612523775916=="
+Content-Type: multipart/mixed; boundary="===============7094156734417431752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 04 Apr 2022 07:30:38 -0000
-Message-Id: <164905743872.20385.15321911461402495498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 04 Apr 2022 07:31:05 -0000
+Message-Id: <164905746593.20613.17151528388289437651@gitolite.kernel.org>
 
---===============2425968612523775916==
+--===============7094156734417431752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 0fcfb00b28c0b7884635dacf38e46d60bf3d4eb1
+  - ref: refs/heads/extcon-fixes
+    old: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-0fcfb00b28c0-312310928417.txt
+    log: revlist-7e57714cd0ad-312310928417.txt
 
---===============2425968612523775916==
+--===============7094156734417431752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fcfb00b28c0-312310928417.txt
+Content-Disposition: attachment; filename=revlist-7e57714cd0ad-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============2425968612523775916==--
+--===============7094156734417431752==--
