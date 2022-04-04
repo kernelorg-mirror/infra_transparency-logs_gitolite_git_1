@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6672025480254284163=="
+Content-Type: multipart/mixed; boundary="===============8737988534173886870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 04 Apr 2022 06:13:56 -0000
-Message-Id: <164905283640.1463.13469941915243277578@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 06:14:01 -0000
+Message-Id: <164905284180.1526.11219374429734886778@gitolite.kernel.org>
 
---===============6672025480254284163==
+--===============8737988534173886870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 changes:
-  - ref: refs/heads/next/dt
-    old: 7cdfe3b3b60c89f0e12e8ee194a7cfbfd46515dd
+  - ref: refs/heads/next/dt64
+    old: 06874015327ba7bf6aae49ca825a492a2679237f
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-7cdfe3b3b60c-312310928417.txt
+    log: revlist-06874015327b-312310928417.txt
 
---===============6672025480254284163==
+--===============8737988534173886870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cdfe3b3b60c-312310928417.txt
+Content-Disposition: attachment; filename=revlist-06874015327b-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============6672025480254284163==--
+--===============8737988534173886870==--
