@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0866855190268428287=="
+Content-Type: multipart/mixed; boundary="===============2429485505352555818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 04 Apr 2022 16:36:35 -0000
-Message-Id: <164909019570.21833.5107019419516070524@gitolite.kernel.org>
+Date: Mon, 04 Apr 2022 16:36:48 -0000
+Message-Id: <164909020878.21987.820774695574451505@gitolite.kernel.org>
 
---===============0866855190268428287==
+--===============2429485505352555818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: bleung
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 67b595a6145146d532c378275ddf706839616be7
-    new: bf84b10d9901ded51d33411499079ce64e0c4ae7
-    log: revlist-67b595a61451-bf84b10d9901.txt
+  - ref: refs/heads/for-next
+    old: 0e8eb5e8acbad19ac2e1856b2fb2320184299b33
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-0e8eb5e8acba-312310928417.txt
 
---===============0866855190268428287==
+--===============2429485505352555818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67b595a61451-bf84b10d9901.txt
+Content-Disposition: attachment; filename=revlist-0e8eb5e8acba-312310928417.txt
 
+6eada26ffc80bfe1f2db088be0c44ec82b5cd3dc mm: remove usercopy_warn()
 ad7489d5262d2aa775b5e5a1782793925fa90065 mm: uninline copy_overflow()
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1049,6 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-bf84b10d9901ded51d33411499079ce64e0c4ae7 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
 
---===============0866855190268428287==--
+--===============2429485505352555818==--
