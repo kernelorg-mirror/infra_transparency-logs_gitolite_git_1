@@ -1,52 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2204782024889434291=="
+Content-Type: multipart/mixed; boundary="===============1490704876714912494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 04 Apr 2022 14:21:56 -0000
-Message-Id: <164908211695.30454.4031264896526722176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 04 Apr 2022 14:28:59 -0000
+Message-Id: <164908253934.1645.15215942617527653236@gitolite.kernel.org>
 
---===============2204782024889434291==
+--===============1490704876714912494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 5d8965704fe5662e2e4a7e4424a2cbe53e182670
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-5d8965704fe5-312310928417.txt
+  - ref: refs/heads/watchdog-next
+    old: d7e5876bf57044f8be42e2eecae47ea1d3e46f8d
+    new: e4eb999cf8d0959cc69c4f7a59dbe13a3059a31c
+    log: revlist-d7e5876bf570-e4eb999cf8d0.txt
 
---===============2204782024889434291==
+--===============1490704876714912494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d8965704fe5-312310928417.txt
+Content-Disposition: attachment; filename=revlist-d7e5876bf570-e4eb999cf8d0.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
-737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
-d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
-144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
-8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
-436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
-1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
-242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
-f7d911c39cbbb88d625216a0cfd0517a3047c46e mm/damon: rename damon_primitives to damon_operations
-9f7b053a0f6121f89e00d1688bfca0bf278caa25 mm/damon: let monitoring operations can be registered and selected
-7752925fbc081f31bef6a410fb8a06830daaf460 mm/damon/paddr,vaddr: register themselves to DAMON in subsys_initcall
 4d69c3457821100a39fa8c6e0c23ed910bb6c29d mm/damon/reclaim: use damon_select_ops() instead of damon_{v,p}a_set_operations()
 da7aaca05f4f88f5e723f315771808a629b3d32b mm/damon/dbgfs: use damon_select_ops() instead of damon_{v,p}a_set_operations()
 4a20865b0744c987655472425203345d970da7a0 mm/damon/dbgfs: use operations id for knowing if the target has pid
@@ -1050,5 +1029,26 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+ec41c6d93df6ab625140611caf7bea7e1916ae9b dt-bindings: watchdog: Add compatible for MediaTek MT8186
+78915fdfae188e23bd68d19a0f7fe7d87db57e9a dt-bindings: reset: mt8186: add reset-controller header file
+90108493d17ff272734c0d403a19435cda6ead82 watchdog: mediatek: mt8186: add wdt support
+bb09699d2e580d5f0bb61288b79ab73743905dc4 dt-bindings: watchdog: imx7ulp-wdt: Add imx93 compatible string
+000abbc8e464bacfb0e5cf238ea1e20a5009b45b watchdog: bcm7038_wdt: Support BCM6345 compatible string
+e96ec9452c62cc0e16cf06fcd33eedb87af1a047 watchdog: mtk_wdt: mt7986: Add toprgu reset controller support
+ba8fff075be0bedd7250158bf635955aece90a86 dt-bindings: watchdog: improve QCOM compatible parsing for modern chips
+1c32f0f39e1fd23fe6aae21e43e449b23cc8b1ef dt-bindings: watchdog: convert faraday,ftwdt010 to yaml
+8a39518248d73d0f91b0c2f915f0417b9827b793 watchdog: rzg2l_wdt: Fix 32bit overflow issue
+0278676978dfcc167eb78b22b0176bf3b439e606 watchdog: rzg2l_wdt: Fix Runtime PM usage
+30956092a76f60a8a4da74877a046e0de59cf8f4 watchdog: rzg2l_wdt: Fix 'BUG: Invalid wait context'
+18d4c1e0701640bb2c59d5e129d3baaca7822a1c watchdog: rzg2l_wdt: Fix reset control imbalance
+33bd5a675541e35845c68656bdcec98d1a92857a watchdog: rzg2l_wdt: Add error check for reset_control_deassert
+5c6e0d167d673ca2213c37135fb9a572af06be70 watchdog: rzg2l_wdt: Use force reset for WDT reset
+f4445edf13bca05c25fec6bfa1588ec5912907f2 watchdog: rzg2l_wdt: Add set_timeout callback
+8ca530f01a766fb6eb5fbca83d6ea6720aa8ccf6 dt-bindings: watchdog: renesas,wdt: Document RZ/V2L SoC
+1a4cc646cc5033242b4d35b78aa0977ef64fe7cc dt-bindings: reset: mt7986: Add reset-controller header file
+84ee79decab4cb3bee4d42081546963b4ea38c23 dt-bindings: watchdog: Add watchdog yaml file for Sunplus SP7021
+24904c90537ccb76b7de11f0e6709b86bc4ee6a4 watchdog: Add watchdog driver for Sunplus SP7021
+edb55cc77cd48cb3a9bc50d27bf758f857cb4a49 dt-bindings: watchdog: sunxi: fix F1C100s compatible
+e4eb999cf8d0959cc69c4f7a59dbe13a3059a31c dt-bindings: watchdog: sunxi: clarify clock support
 
---===============2204782024889434291==--
+--===============1490704876714912494==--
