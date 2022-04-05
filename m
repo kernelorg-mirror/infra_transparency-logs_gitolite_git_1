@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8797665816241697772=="
+Content-Type: multipart/mixed; boundary="===============4614885299132488627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 Apr 2022 19:54:49 -0000
-Message-Id: <164918848977.17620.280351358122929298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 05 Apr 2022 20:04:33 -0000
+Message-Id: <164918907348.23578.4677303776359477800@gitolite.kernel.org>
 
---===============8797665816241697772==
+--===============4614885299132488627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/x86/build
-    old: 4eda2bc3431ebe5c8361580877a4666d10ea28a7
-    new: 9f61ccc85afb061f65dd8ede7b8d4845b2f2dfce
-    log: revlist-4eda2bc3431e-9f61ccc85afb.txt
+  - ref: refs/heads/edac-for-next
+    old: d52ba330befa549b85576121c98318dae679d1fc
+    new: b2fa90ef62558ed65f09201b4c8b79ece4468275
+    log: revlist-d52ba330befa-b2fa90ef6255.txt
 
---===============8797665816241697772==
+--===============4614885299132488627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4eda2bc3431e-9f61ccc85afb.txt
+Content-Disposition: attachment; filename=revlist-d52ba330befa-b2fa90ef6255.txt
 
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
@@ -1049,6 +1049,6 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-9f61ccc85afb061f65dd8ede7b8d4845b2f2dfce x86/configs: Add x86 debugging Kconfig fragment plus docs
+b2fa90ef62558ed65f09201b4c8b79ece4468275 powerpc/85xx: Remove fsl,85... bindings
 
---===============8797665816241697772==--
+--===============4614885299132488627==--
