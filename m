@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1005289904521584051=="
+Content-Type: multipart/mixed; boundary="===============8835188322669148917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 05 Apr 2022 14:06:03 -0000
-Message-Id: <164916756319.14464.7416231328885433456@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 14:10:16 -0000
+Message-Id: <164916781694.17243.15225464313524238854@gitolite.kernel.org>
 
---===============1005289904521584051==
+--===============8835188322669148917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: b68e5a50c80108bfd6905513e5ddab6478c29e38
-    new: 826fdfafeb383c2ab88f37913177ebcdbf776cee
+    old: 826fdfafeb383c2ab88f37913177ebcdbf776cee
+    new: fc39b7845a30b022fc944e9aab132119427c3905
     log: |
-         c1b068defdd91eabf59f11bd364f37c926d65460 staging: rtl8712: remove Unnecessary parentheses
-         8a4b1870f8b2e5908536ffad4cea2ae943b9106c staging: r8188eu: simplify control flow
-         9f2d13a65d1aca945cfc6845cb100ceab33ddb0d staging: rtl8712: simplify control flow
-         7e8be11afd8781f0a36db213962855a55fe5c18c staging: rtl8723bs: simplify control flow
-         0780158f909fa3f1e2c43071ae77bc8602c028b4 staging: rtl8723bs: remove handlerOS independent comment
-         f9ceb182bad81b7c2fc238cc16ce826b7a3d3e48 staging: rtl8723bs: combine both sides of conditional statement
-         826fdfafeb383c2ab88f37913177ebcdbf776cee staging: rtl8723bs: remove redundant braces in if statements
+         3c22d17793e4384ae1cebbc0b0253d3556552dff staging: rtl8723bs: remove return from a function returning void
+         1663863a15cf1ad72cde5b75997fdd93d9e2c169 staging: rtl8723bs: remove redundant else branches
+         848448bf1d6cd68c6c934d8f50c438573be5340e staging: rtl8723bs: remove space after function name
+         cc1bea295750116cb6aa6207ecefc7870c214e52 staging: vt6655: Remove unused macros in mac.h
+         fc39b7845a30b022fc944e9aab132119427c3905 staging: vt6655: Rename constant definitions with CamelCase
          
 
---===============1005289904521584051==
+--===============8835188322669148917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649167560 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649167814 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649167559-d208f415008ee879df9b40e4de943e85417c10f6
+nonce 1649167813-cc777abec0d15ff64b71962ba3a2be1668a692b2
 
-b68e5a50c80108bfd6905513e5ddab6478c29e38 826fdfafeb383c2ab88f37913177ebcdbf776cee refs/heads/staging-testing
+826fdfafeb383c2ab88f37913177ebcdbf776cee fc39b7845a30b022fc944e9aab132119427c3905 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJMTMgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mlQP/jB/xsUpZZGbUjtwzrSm
-K2AQiaumbl3Yn2EPZL2DfWALZY+25A9tiaf85P1abXvwm6iIhabiMPIUqpBT/42/
-6E2U/nugwxUhC9NzBLtZ+SgX3B0cSSA809Ms+Ad22e7anczQCuUt23A0kCSBxs29
-XV/TElY4pDAuYVSKyrZsfQp9o+5rayB41ItQmwZ/XDh6lX8s2Mlhkkre1j0scz+E
-7kgHrtOX+SwKtQyjUS2vperw4oZze0zkDit90BmYSn0lRl5NTuFENfyolZzSV1ZH
-npddrr9f3Eh36uJ7ZbNT41JLhEeLsGHH19sZ2ZupSUYPCNmU8ekQDEdkLeTjFDus
-o/oBzLoiQOFWrkrfCE0btyVZL6SQtx2feN1H2De8HZ3hmZBoZTrBpigZSRg4Ohqv
-LwaFXqa0As3g99WAIprrd/H8CMHpf4GSILYYeHo8gfyprrtZg1vgs0EiUrlTUQ9/
-1EbHqDTM/AtEUgPpgg80hjvqsizY3UMX49C7b7ib+Im89WR8lrXig2NjVWBrzOEy
-sup+iHg4svHotprhCTBuO7Q86/w9NWb+bW36FYpDTDkOoaus9giuZXRD6wwu185i
-LUgRvA86UeX1sUVsudN7sUkwQ1pmWZfTxv1JUUXGjTx7vcU5Xs799OvemZliOg7y
-+06gQUWHAaO3wzLHo6nhCFKU
-=9P8r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJMTcYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dqkP/iL4ywEyj1G4AtrJZEuy
+fuDVrp453Mvbl+ZD0AwbphKvMML5SQhT+FluMuOTMlWAPrcDEmUPgWKNFw7Nur+S
+XIe5LQ0qpVhgucydX8yaXMaFSC7FKup8KtFjiUcwKup/zIe6jSGfUOqegRy8yoqR
+eCHjSo0MtpiBe83HoolY7o3olT3oPv/VqHk/JhwGYtGiyvVq3KRvag2pDGguvs/x
+8Yee4PNzEsAB3tCrDwyEGnjQydpugTLO2gYLb9miJbwObD5bAt0amUc9YcuT0Nnv
+p/4F3xH2hQnMWmR0hgJ5UpPFx2goPhGP/YY8SdF0Lg1Dpuyn/ZrY+D0Z9cChyZAJ
+B4FuKiR2k6TejBOgDC8FWG+SVLc0PlASQzdtoBVEEn69bODEQqAolZDcPZrBntnz
+1mg770qmfqJYx4a3mMe0k+ImtwbgA6HF1z80PSRXZ6aKZy7eVjcDZh/0KtycZ/+p
+mxjtexzzWDBRyD4h1MRLrfY2D3UsdyX1sPACwUhC2Y1odr4X/9difJynR6nUvFh/
+Wy8RVD9aOsqZnZrXbz81z7ePEmnLpOxsnDZxhaXQNgTvTwEVL+lCS876ZPiFq8Xz
+C0ZGP39M67s/t3xO61CKpwHs0P0KALtsZwYXOppynRCFzekyxa4NFs8CAZ2FKEtf
+ClceAoPITlsLRh64gzceKOgy
+=ckkY
 -----END PGP SIGNATURE-----
 
---===============1005289904521584051==--
+--===============8835188322669148917==--
