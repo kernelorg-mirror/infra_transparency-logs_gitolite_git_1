@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2118089296674703556=="
+Content-Type: multipart/mixed; boundary="===============3366694530075533259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 05 Apr 2022 09:25:44 -0000
-Message-Id: <164915074428.11807.2712877153498131725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Apr 2022 09:25:50 -0000
+Message-Id: <164915075035.11911.14708316889236599683@gitolite.kernel.org>
 
---===============2118089296674703556==
+--===============3366694530075533259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/regmap-5.18
     old: 0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e
     new: 3123109284176b1532874591f7c81f3837bbdc17
     log: revlist-0074f3f2b1e4-312310928417.txt
-  - ref: refs/heads/for-5.19
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/regmap-5.19
+    old: 0000000000000000000000000000000000000000
     new: bd941dfaae3503c6b707d8544696205f759e57a3
-    log: |
-         bd941dfaae3503c6b707d8544696205f759e57a3 regmap: Constify static regmap_bus structs
-         
 
---===============2118089296674703556==
+--===============3366694530075533259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649150742 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1649150742-b679b4a5c4217dc0bc2674fa50f254e18e90a8bb
+pusher C3F436CA30F5D8EB 1649150748 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649150748-1342a8b12f1738d30e1ba0d1a311320c206b4d23
 
-0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/for-5.18
-3123109284176b1532874591f7c81f3837bbdc17 bd941dfaae3503c6b707d8544696205f759e57a3 refs/heads/for-5.19
+0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/regmap-5.18
+0000000000000000000000000000000000000000 bd941dfaae3503c6b707d8544696205f759e57a3 refs/heads/regmap-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCxYACgkQJNaLcl1U
-h9AKuQf/WETOCYNVEQjA6BuxcNNBHqIG0XnNKobU0lUijSToY9HecxajbeZEpvmf
-JrZ1p/C1OMxrMgUu8vndaMJ8IECq7qwIvR5yCnBvB5zEdJdvA8ufL4GnJNetuQQ7
-dS4lv2sMla9SRLyh4MvTcWXEUJ+WQKJisz+KVd23JucImqnUeBvLVj4NZ5B+F4vP
-KwrKe4a0dJACCaxzTYZrpldv9PQc5B+TlrUQ2gcr43bTCsBkTvw5c+GH2lb4Zl6g
-8FPhVGQLr3hO/oHCyx51HQKG10vzFMHd2lA6qa5R76vJQRjXed3T+epltjKmAdtg
-8cvLUyuRO2qeeeGs5C9ltjpUFcPDhQ==
-=ObvE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCxwACgkQJNaLcl1U
+h9BGswf/Y4QwLs9ezVVTw5cvtbNOk/acSMhGrWi5Z1H+V2YENJqkIGNaJhj12OMU
+Idu+tX1kPaVLf1PAP2OIS/s8EBEIM0jI1s7Ni0uVUoKBIEFy5crPHl+4ojoFP6/X
+AMFmq706gV0cSj6dMPTFCLhaXiJRKuS6XElpzCR5WI7edYZExC1pTI54LizlwUoO
+TkYaHdDcAphHp5aX52Bvx+YyP/qV3TnIQo3Y+RF/5wGk7cnYXGkW5t4D22G/SF2j
+DXLZgJmvd1sj826B1BZ0FHe3woSsAWwc2uy7uUMBelj0P52t+a3J3JRmbXF1t1jN
+0gthJBT3h2Ym3vSAIoBv7ONfFOLEug==
+=HfgG
 -----END PGP SIGNATURE-----
 
---===============2118089296674703556==
+--===============3366694530075533259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1080,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============2118089296674703556==--
+--===============3366694530075533259==--
