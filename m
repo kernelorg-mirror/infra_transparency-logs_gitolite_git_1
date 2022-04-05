@@ -1,35 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5389631537554416412=="
+Content-Type: multipart/mixed; boundary="===============2112620124019452339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 05 Apr 2022 09:30:26 -0000
-Message-Id: <164915102647.15387.5405660840793497813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 05 Apr 2022 09:30:33 -0000
+Message-Id: <164915103398.15488.7884345294874519803@gitolite.kernel.org>
 
---===============5389631537554416412==
+--===============2112620124019452339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: cc6202f83457e76ddb3108c25faec471a8930906
-    new: 8ab89e4e6b5d2cb4516b09f7bc31feb375c89637
-    log: revlist-cc6202f83457-8ab89e4e6b5d.txt
+    old: 8422ef74eeb481061fe3d9b60399933b7e4086bb
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-8422ef74eeb4-312310928417.txt
   - ref: refs/heads/for-next
-    old: 59e7c3dd920ba6066a5796c514c2e737ac6beb96
-    new: b66751b6e3591eafe5c9cbabd68a45731b0083e3
-    log: revlist-59e7c3dd920b-b66751b6e359.txt
+    old: 36ee0554e5007c61173281515d20dd0ec08a3970
+    new: bd941dfaae3503c6b707d8544696205f759e57a3
+    log: |
+         bd941dfaae3503c6b707d8544696205f759e57a3 regmap: Constify static regmap_bus structs
+         
 
---===============5389631537554416412==
+--===============2112620124019452339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc6202f83457-8ab89e4e6b5d.txt
+Content-Disposition: attachment; filename=revlist-8422ef74eeb4-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
 adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
 bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
 3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
@@ -88,6 +98,7 @@ e0464ad24666f6e35236e3ac8263911efb9099e7 Merge branch 'for-5.18/google' into for
 bda3c85a00b07668f7acca41e84607c2c5bee3b4 Merge branch 'for-5.18/sigma-micro' into for-linus
 b146dbbd3bc61678165f3de7904ab613865385ba Merge branch 'for-5.18/uclogic' into for-linus
 cf38326010aebf39855977475a901c4c7a3e0b63 ARM: configs: multi_v5: Enable Allwinner F1C100
+2f45a4e2897793cc6ae25f5fe78b485ce7fd01d0 ASoC: rockchip: i2s_tdm: Fixup config for SND_SOC_DAIFMT_DSP_A/B
 e2c0cb7c0cc72939b61a7efee376206725796625 io_uring: bump poll refs to full 31-bits
 d89a4fac0fbc6fe5fc24d1c9a889440dcf410368 io_uring: fix assuming triggered poll waitqueue is the single poll
 4d55f238f8b89124f73e50abbd05e413def514fe io_uring: don't recycle provided buffer if punted to async worker
@@ -444,6 +455,7 @@ d97c68d178fbf8aaaf21b69b446f2dfb13909316 random: treat bootloader trust toggle t
 dd7aa36e535797926d8eb311da7151919130139d random: re-add removed comment about get_random_{u32,u64} reseeding
 0396e46dc46523cba8401a0df84f67cc0b6067ab virt: vmgenid: recognize new CID added by Hyper-V
 113be37d87449836ebbca4ca2909dc4e1db9663d [smb3] move more common protocol header definitions to smbfs_common
+664d66dc0a64b32e60a5ad59a9aebb08676a612b ASoC: SOF: Intel: Fix build error without SND_SOC_SOF_PCI_DEV
 184ae0e32bc990bba203b60503df89c9f8865f13 regulator: rt4831: Add bypass mask to fix set_bypass API work
 aefe5fc3000a24869edbf7bb657adf28372ec158 regulator: rt4831: Add active_discharge_on to fix discharge API
 9a8b3d5f71eb74b1b95927bd320b1070866a119a Merge tag 'mips_5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
@@ -1044,92 +1056,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-c775cbf62ed4911e4f0f23880f01815753123690 ASoC: atmel: Remove system clock tree configuration for at91sam9g20ek
-9c363532413cda3e2c6dfa10e5cca7cd221877a0 ASoC: topology: Correct error handling in soc_tplg_dapm_widget_create()
-acc72863e0f11cd0bedc888b663700229f9ba5ff codecs: rt5682s: fix an incorrect NULL check on list iterator
-5708cc2f4b50c7bf27234eee77e1d9487533bbd3 ASoC: SOF: topology: Fix memory leak of scontrol->name
-fb6d679fee95d272c0a94912c4e534146823ee89 ASoC: soc-pcm: use GFP_KERNEL when the code is sleepable
-f730a46b931d894816af34a0ff8e4ad51565b39f ASoC: soc-dapm: fix two incorrect uses of list iterator
-c8618d65007ba68d7891130642d73e89372101e8 ASoC: rt5682: fix an incorrect NULL check on list iterator
-c598ccfbeb26cb9452f99e7beb92ef779dcb16b1 ASoC: cs35l41: Add one more variable in the debug log
-0b3d5d2e358ca6772fc3662fca27acb12a682fbf ASoC: cs35l41: Fix a shift-out-of-bounds warning found by UBSAN
-8ab89e4e6b5d2cb4516b09f7bc31feb375c89637 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
 
---===============5389631537554416412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59e7c3dd920b-b66751b6e359.txt
-
-ea5ffef079a72478d8612b4071c2986e364f82d2 ASoC: SOF: Intel: hda-loader: Use local snd_dma_buffer
-7f0a1335d3b67745d4b51dc634c3b400c3f1d42b ASoC: SOF: Remove dmab and dmab_bdl from snd_sof_dev struct
-a3e6b3691b35c6312cff32127ffc01e81d6e6d41 ASoC: SOF: ipc: Add max_payload_size field in struct snd_sof_ipc
-78935913573b7c0397b5e3d4512ee0f67b280d3b ASoC: SOF: ipc: Use ipc->max_payload_size for message/reply size checking
-7d8e9d79276492cbc66575a301d7ab8b92786699 ASoC: SOF: Drop support for mapped control data
-758f24d49bff2707812fb8dfac53930603e26312 ASoC: SOF: extend the interface to stop DMA trace
-249ee180874dd48a809caf70981b2aa800329d27 ASoC: SOF: disable dma trace in s0ix
-5db8eb5b9e35c712cc63fcebf04c80ace9812961 ASoC: SOF: ipc: Use msg->reply_data directly in snd_sof_ipc_get_reply()
-2a51c0f81adda8cc32b02e8ca7b7d9d13ad4376a ASoC: SOF: Drop 'header' parameter from tx_message() API
-30b50b9734ddf08b0bb7321f47f4b849cba54875 ASoC: SOF: Remove header from struct snd_sof_ipc_msg
-9e116f5a6e95e59145f90a82ad37ee0e53f686a9 ASoC: SOF: Remove redundant return statements
-c54ce1a17232215c4a518149292b41835992eee8 ASoC: tegra: Add binding doc for ASRC module
-a2df8c2d5b36fc66b9a6e674f3e0c87c0b9d0a48 ASoC: tegra: Add Tegra186 based ASRC driver
-76821c139d7e0429845e7c0798747e7eec16ec83 ASoC: tegra: AHUB routes for ASRC module
-395f8fd616086310c40ddc4e9686440f147d5c00 ASoC: topology: Use for loop instead of while
-0db627c4f5df704d44699ed27dd81caa6d782a17 ASoC: topology: Remove unnecessary looping
-4fad3cc6eb962a6fe32ab9fb9d30b08a88298f63 ASoC: topology: Return bool instead of int
-5e2cd47a36b386080e7a29c1efbb0247ed6ed365 ASoC: topology: Rename SOC_TPLG_PASS_MIXER to _CONTROL
-34b310451cbf4dedcee56b4534085c20203c6b53 ASoC: topology: Correct error message
-430791dd9207271099002b65aa65fd5e6aa31236 ASoC: topology: Rename soc_tplg_init_kcontrol() function
-00b87e18f3c0a98e2e22a95eb205c2ae03862a23 ASoC: wm8731: Update to modern DAI terminology
-3f4fb905510911f6149593a7321ae1825259b242 ASoC: wm8731: Factor component init out of bus code
-5f1b9d1e424b91a8ae04211cbe4d354463c83583 ASoC: wm8731: Move regulator request into wm8731_init()
-8875d104af6c237bfedb47309afd938984a3c05b ASoC: wm8731: Factor our MCLK and mutex initialisation
-9dc15f81baf273b5aaaa3302ee8faacd78f361fd ASoC: wm8731: Factor out the I2C and SPI bus code into separate modules
-0e336eeaf467cdd86d827d696e24081b638ef61c ASoC: wm8731: Convert DT bindings to YAML format
-64a1a4e04e4450a89940adc8f339a85e2c01d905 ARM: configs: Update multi_v5_defconfig for WM8731 bus refactoring
-4dbc714fe07641e7a07731f82152448ef09f3002 ASoC: mediatek: mt8195: revise mt8195-mt6359-rt1019-rt5682.c
-094e30efa444a118a535cb67ec000bbee9f8d150 ASoC: mediatek: mt8195: merge machine driver
-dc16399078aea4c98f17aa99f0cdea9d5ac9c4a9 ASoC: dt-bindings: mediatek: mt8195: merge mt8195 machine yaml
-3a0323c26c6720447fd5eff6495c1aea514b77d5 ASoC: mediatek: mt8195: rename card controls
-86a6b9c9dffff1bd653d582cfc5138da75e5f7b0 ASoC: mediatek: mt8195: add machine support for max98390 and rt5682
-cae34da5323b6ce4d0dc365d1b971f838dcff318 ASoC: dt-bindings: mediatek: mt8195: support mt8195-mt6359-max98390-rt5682
-c775cbf62ed4911e4f0f23880f01815753123690 ASoC: atmel: Remove system clock tree configuration for at91sam9g20ek
-28103509248b94392e04a8ffcbc47da5e3e31dfc ASoC: atmel: Fix error handling in at91samg20ek probe()
-01251dd004d8e106295c3aa8e3ba890f0dd55e02 ASoC: atmel: Don't squash error codes from atmel_ssc_set_audio()
-9c363532413cda3e2c6dfa10e5cca7cd221877a0 ASoC: topology: Correct error handling in soc_tplg_dapm_widget_create()
-acc72863e0f11cd0bedc888b663700229f9ba5ff codecs: rt5682s: fix an incorrect NULL check on list iterator
-5708cc2f4b50c7bf27234eee77e1d9487533bbd3 ASoC: SOF: topology: Fix memory leak of scontrol->name
-fb6d679fee95d272c0a94912c4e534146823ee89 ASoC: soc-pcm: use GFP_KERNEL when the code is sleepable
-9b014266ef8ad0159b39920a752f191bcd6f356c ASoC: SOF: topology: use new sound control LED layer
-1a8ee4cf84187bce17c76886eb6dd9389c3b99a8 ASoC: codecs: Fix error handling in power domain init and exit handlers
-900dedd7e47cc3f8d93dfa0ae6ac6cf49eda0c97 ASoC: Introduce snd_soc_of_get_dai_link_cpus
-e5cd0623d7879eb98059223b9eb233a686d58b40 ASoC: ad1*, ada*, ssm*: use i2c_match_id and simple i2c probe
-290186e14c3bbef07a6c68e689f26bf076259ee4 ASoC: intel: atom: Remove superfluous flush_scheduled_work()
-c5198db82d4c257d4d9fb9dc0db329482f3d08b9 ASoC: qcom: Add driver support for ALC5682I-VS
-89be5dc60d67b377be60b47dd12d1a3ee142aacb ASoC: da[79]*: use simple i2c probe function
-5e9058ea2bc6e73aeb54b585af38d043490a8509 ASoC: da7218: use i2c_match_id and simple i2c probe
-5449fd7bd01fc13266979a6ab48493d4d2e43725 ASoC: samsung: Constify snd_soc_dapm_{route,widget} structs
-0f91bc71fe1f24b29e8980504a23681324713a0f ASoC: cs35l41: Add one more variable in the debug log
-9f342904216f378e88008bb0ce1ae200a4b99fe8 ASoC: cs35l41: Fix an out-of-bounds access in otp_packed_element_t
-b79bd63a66894ca6c75fb9827dc8f3f7fc1233e2 ASoC: ada*, ssm*: use simple i2c probe function
-6d8f318b949aaa43a415947ee834890546e4e81b ASoC: wm*: use i2c_match_id and simple i2c probe
-4a4043456cb82df20e146902cfb3dd84bc393cd3 ASoC: cs*: use simple i2c probe function
-a403993ce98fb401f696da7c4f374739a7609cff ASoC: SOF: ipc3-topology: Set scontrol->priv to NULL after freeing it
-bc0505bdfb85fc2eb8767c7eb5aec556e176cb41 ASoC: rt5682s: Separate the regulator consumer controls
-b695f5c0a86ea685500a72b6a9959da041f26da6 ASoC: Intel: catpt: Drop redundant enum constant
-f730a46b931d894816af34a0ff8e4ad51565b39f ASoC: soc-dapm: fix two incorrect uses of list iterator
-c8618d65007ba68d7891130642d73e89372101e8 ASoC: rt5682: fix an incorrect NULL check on list iterator
-c598ccfbeb26cb9452f99e7beb92ef779dcb16b1 ASoC: cs35l41: Add one more variable in the debug log
-0b3d5d2e358ca6772fc3662fca27acb12a682fbf ASoC: cs35l41: Fix a shift-out-of-bounds warning found by UBSAN
-514ed489c684deb15f8dbe7d073bd2f7c8ba7b16 ASoC: atmel: Fixes for AT91SAM9G20-EK audio driver
-e0e1d166b5f5f23a3b6ce91d19367557617f9f5a ASoC: mediatek: Add support for MT8195 sound card with max98390 and rt5682
-5f6c3f90845343316d32a08bafea9faddbdfa6de ASoC: SOF: Miscellaneous fixes for IPC and trace
-5c5c69e94308d505a34402c1522ccfe1e5c8f1c3 ASoC: wm8731: Overhaul of the driver
-bcb3d07226a86fb2b3ea8aeee9abaeee1ef1402c ASoC: topology: Cleanup patches
-66e384d86ff533b3352a1f897c6bc7bf7f1adafe ASoC: ASRC support on Tegra186 and later
-9a2c98418930c60e25b89a140c8b42a8cd6d84a6 ASoC: Pull in fixes
-8ab89e4e6b5d2cb4516b09f7bc31feb375c89637 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-b66751b6e3591eafe5c9cbabd68a45731b0083e3 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
-
---===============5389631537554416412==--
+--===============2112620124019452339==--
