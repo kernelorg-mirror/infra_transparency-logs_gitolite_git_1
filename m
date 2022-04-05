@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Tue, 05 Apr 2022 18:06:02 -0000
-Message-Id: <164918196218.10766.10123513042573641931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 05 Apr 2022 18:07:22 -0000
+Message-Id: <164918204246.11246.7302766966880467965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/net-next-mlx5
-    old: bdb6b1f2a6459ffacfa26e2d5e2433c61668c90d
-    new: 18ef2151524e9679dcc14365a21c2d4458aeec6e
+  - ref: refs/heads/for-next
+    old: 7a150b0d850e37e7bdfc87459edd0ff302f67478
+    new: a1a2b7125e1079cfcc13a116aa3af3df2f9e002b
     log: |
-         88b4a2d48a9f32074fef4d8ebcf36385bb0ac962 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
-         bd44e92f8200afcae347f5e2577d6924acb2bf95 Revert "net: openvswitch: remove unneeded semicolon"
-         18ef2151524e9679dcc14365a21c2d4458aeec6e Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+         a1a2b7125e1079cfcc13a116aa3af3df2f9e002b of/platform: Drop static setup of IRQ resource from DT core
          
