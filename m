@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 05 Apr 2022 09:22:44 -0000
-Message-Id: <164915056405.9170.4911419369334924032@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 09:23:30 -0000
+Message-Id: <164915061034.9469.17241281334728494926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: hansg
 changes:
   - ref: refs/heads/review-hans
-    old: 753ee989f7cf0c0a76a7f56956827a8863a60f97
-    new: 909a72332a046a5ae64b76c023e20c9aca30e4f9
+    old: 909a72332a046a5ae64b76c023e20c9aca30e4f9
+    new: f632b296b007144b6901995a01fbea9225e920f1
     log: |
-         909a72332a046a5ae64b76c023e20c9aca30e4f9 platform/x86: amd-pmc: Fix compilation without CONFIG_SUSPEND
+         f632b296b007144b6901995a01fbea9225e920f1 tools/power/x86/intel-speed-select: fix build failure when using -Wl,--as-needed
          
