@@ -1,67 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============7753281629210940044=="
+Content-Type: multipart/mixed; boundary="===============7401379941747935022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 05 Apr 2022 09:26:10 -0000
-Message-Id: <164915077048.12229.8715977744501254920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 05 Apr 2022 09:26:16 -0000
+Message-Id: <164915077671.12356.12372664244098097264@gitolite.kernel.org>
 
---===============7753281629210940044==
+--===============7401379941747935022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 89b35e3f28514087d3f1e28e8f5634fbfd07c554
     new: 35d516bdcd92fde46202d06b68df1166760208fd
     log: revlist-89b35e3f2851-35d516bdcd92.txt
-  - ref: refs/heads/for-5.19
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/spi-5.19
+    old: 0000000000000000000000000000000000000000
     new: 774227cfb9f570538999ea7713589c87300f21b6
-    log: |
-         9f763fd20da7d892ffaedac0c58d821922f8a674 spi: mediatek: add spi memory support for ipm design
-         a740f4e684c020ea57a8a198a9322d739f7ab6d5 spi: mediatek: support hclk
-         a4765dfb80a7333aaac394a5ba20056d11b55636 spi: support hclk
-         d21b94bf3ac44aa7759c0de6f72c0a887eb9e23b spi: spidev: Convert BUILD_BUG_ON() to static_assert()
-         2a7f669dd8f6561d227e724ca2614c25732f4799 spi: spidev: Replace ACPI specific code by device_get_match_data()
-         88a285192084edab6657e819f7f130f9cfcb0579 spi: spidev: Replace OF specific code by device property API
-         e23d86c49a9c78e8dbe3abff20b30812b26ab427 spi: qcom-qspi: Add minItems to interconnect-names
-         02b3024824f48a270f6170901f1abeb1edb1619f spi: Prepare cleanup of powerpc's asm/prom.h
-         d50d7e91c6e5ccd71f21ba1aec3fef7ee4229fd6 spi: spidev: replace usage of found with dedicated list iterator variable
-         774227cfb9f570538999ea7713589c87300f21b6 spi: mediatek: add single/quad mode support
-         
 
---===============7753281629210940044==
+--===============7401379941747935022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649150768 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1649150768-ae9f4c05553e31d76c490de656042f257a5e05ee
+pusher C3F436CA30F5D8EB 1649150774 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649150774-0e6d3ed78d77d5ae8619e5313fe1eb0653c030de
 
-89b35e3f28514087d3f1e28e8f5634fbfd07c554 35d516bdcd92fde46202d06b68df1166760208fd refs/heads/for-5.18
-3123109284176b1532874591f7c81f3837bbdc17 774227cfb9f570538999ea7713589c87300f21b6 refs/heads/for-5.19
+89b35e3f28514087d3f1e28e8f5634fbfd07c554 35d516bdcd92fde46202d06b68df1166760208fd refs/heads/spi-5.18
+0000000000000000000000000000000000000000 774227cfb9f570538999ea7713589c87300f21b6 refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCzAACgkQJNaLcl1U
-h9DJBAf8DQHt4oDTcs7Tz9ocTJXfXW9FaB9TJoiz5VG5X/VRrs7uGWi/eZYjXdzs
-vuwqtGRCvQq0soVSkMk9jVAllsegBxDMV3eTnmm1X5lsx7/GOl9a+CwdcSflcoKL
-x50QVNTaT37QCtE2WIsFKupntdWdLuoO3tpGnkqTKSJ5cwSmrq8KuoCnUOg23wbq
-NpGG3EP9jBCG1QSoqYZrt4FKnsnq0k8M+uyX764NEv5zv2f2n42l0gGXzRQrZ2eq
-K8HLyKIoVVRsLs272k8rbOoG3z/8aQpg0DtaPp7ZpqcSnCaabw2Q1L3usEKwR0a5
-MzGLqCwD/tdrxCVR9C9bgvoyrM4KcQ==
-=/AJ1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCzYACgkQJNaLcl1U
+h9Bi9gf9EtVg3Ha9Nre3osg7JvkxdlJqk+2hDJbNtLO+Pp85K8rQ2AAa2k+lhpgR
+xb/xE7B/2Mh3fgYXSNG7QieReeZIAl4+hm61b0ERB2dA0OyxX0XiO2qqEQCD5avk
+rf0QqtvM7EI6hdvERnhzhqSCt2vBxWVtBDiOu6rI+d5+ktxRkPbbfbNd2VpUzZtC
+joCgBYHvHzrDAknAyAh1Wgy9jIxlZsFLvvH3CWcQVigP6OaIEMTUux5as2DdPLjQ
+pqcv/Bj7cV0Rz8tIKSkRIVppinxJb9tOQeGazlLSDGOQr4wv+3sbGlQfnA/IJzNW
+PnlC/9piztkkh/QD0BAruI/xF3cPZA==
+=vFsP
 -----END PGP SIGNATURE-----
 
---===============7753281629210940044==
+--===============7401379941747935022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1092,4 +1080,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 2f8cf5f642e80f8b6b0e660a9c86924a1f41cd80 spi: rpc-if: Fix RPM imbalance in probe error path
 35d516bdcd92fde46202d06b68df1166760208fd spi: mxic: Fix an error handling path in mxic_spi_probe()
 
---===============7753281629210940044==--
+--===============7401379941747935022==--
