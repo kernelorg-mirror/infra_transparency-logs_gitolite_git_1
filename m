@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 05 Apr 2022 17:56:06 -0000
-Message-Id: <164918136670.4447.7234566683142283009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
+Date: Tue, 05 Apr 2022 17:58:31 -0000
+Message-Id: <164918151175.5374.1763502666378644447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/helgaas/pci
+user: helgaas
 changes:
-  - ref: refs/heads/20220405_kuninori_morimoto_gx_asoc_ak4613_add_tdm256_test_support
-    old: 0000000000000000000000000000000000000000
-    new: f28dbaa958fbd8fb7ffe40211b0e083156191f84
+  - ref: refs/heads/pci/hotplug
+    old: dff6139015dc68e93be3822a7bd406a1d138628b
+    new: b2851926c6d9d977ff60f613aff95f4900b9620e
+    log: |
+         b2851926c6d9d977ff60f613aff95f4900b9620e PCI: hotplug: Clean up include files
+         
