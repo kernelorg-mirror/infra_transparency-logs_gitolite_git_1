@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5148183328044730858=="
+Content-Type: multipart/mixed; boundary="===============3461134085416830448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 Apr 2022 08:19:33 -0000
-Message-Id: <164914677379.31811.3137214089592225055@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 08:20:42 -0000
+Message-Id: <164914684251.1262.9842813229474505132@gitolite.kernel.org>
 
---===============5148183328044730858==
+--===============3461134085416830448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: b1e8206582f9d680cff7d04828708c8b6ab32957
-    new: 0a70045ed8516dfcff4b5728557e1ef3fd017c53
-    log: revlist-b1e8206582f9-0a70045ed851.txt
+  - ref: refs/heads/perf/urgent
+    old: 5f4e5ce638e6a490b976ade4a40017b40abb2da0
+    new: e19cd0b6fa5938c51d7b928010d584f0de93913a
+    log: revlist-5f4e5ce638e6-e19cd0b6fa59.txt
 
---===============5148183328044730858==
+--===============3461134085416830448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1e8206582f9-0a70045ed851.txt
+Content-Disposition: attachment; filename=revlist-5f4e5ce638e6-e19cd0b6fa59.txt
 
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
-3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
 737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
 d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
 144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
@@ -1047,8 +1039,16 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-5b6547ed97f4f5dfc23f8e3970af6d11d7b7ed7e sched/core: Fix forceidle balancing
-386ef214c3c6ab111d05e1790e79475363abaa05 sched: Teach the forced-newidle balancer about CPU affinity limitation.
-0a70045ed8516dfcff4b5728557e1ef3fd017c53 entry: Fix compile error in dynamic_irqentry_exit_cond_resched()
+c61759e581576d3330bd1d9490b4d7552e24da6b perf/x86: Add Intel Raptor Lake support
+2da202aa1c38bfe8841611a3d339892eb5579e2b perf/x86/cstate: Add Raptor Lake support
+82cd83047a9a80e52c0849e56885279166215310 perf/x86/msr: Add Raptor Lake CPU support
+ad4878d4d71d9ada913be2ad5b6d7f526a695b6f perf/x86/uncore: Add Raptor Lake uncore support
+e3265a4386428d3d157d9565bb520aabff8b4bf0 perf/core: Inherit event_caps
+4a263bf331c512849062805ef1b4ac40301a9829 perf/x86/intel: Don't extend the pseudo-encoding to GP counters
+e590928de7547454469693da9bc7ffd562e54b7e perf/x86/intel: Update the FRONTEND MSR mask on Sapphire Rapids
+a0827713e298d021d3c79ae7423aea408f3f7c3a perf/core: Don't pass task around when ctx sched in
+6875186aea5ce09a644758d9193265da1cc187c7 perf/core: Use perf_cgroup_info->active to check if cgroup is active
+96492a6c558acb56124844d1409d9ef8624a0322 perf/core: Fix perf_cgroup_switch()
+e19cd0b6fa5938c51d7b928010d584f0de93913a perf/core: Always set cpuctx cgrp when enable cgroup event
 
---===============5148183328044730858==--
+--===============3461134085416830448==--
