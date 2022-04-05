@@ -1,60 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============2152090165865605979=="
+Content-Type: multipart/mixed; boundary="===============7753281629210940044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 Apr 2022 09:26:03 -0000
-Message-Id: <164915076380.12140.354493092092097714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 05 Apr 2022 09:26:10 -0000
+Message-Id: <164915077048.12229.8715977744501254920@gitolite.kernel.org>
 
---===============2152090165865605979==
+--===============7753281629210940044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-5.18
-    old: 5999f85ddeb436b4007878f251a30ccc8b9c638b
-    new: 2316f0fc0ad2aa87a568ceaf3d76be983ee555c3
-    log: revlist-5999f85ddeb4-2316f0fc0ad2.txt
-  - ref: refs/heads/regulator-5.19
-    old: 0000000000000000000000000000000000000000
-    new: 310584018e1af38d17101761d81c0f23bdf2242c
+  - ref: refs/heads/for-5.18
+    old: 89b35e3f28514087d3f1e28e8f5634fbfd07c554
+    new: 35d516bdcd92fde46202d06b68df1166760208fd
+    log: revlist-89b35e3f2851-35d516bdcd92.txt
+  - ref: refs/heads/for-5.19
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 774227cfb9f570538999ea7713589c87300f21b6
+    log: |
+         9f763fd20da7d892ffaedac0c58d821922f8a674 spi: mediatek: add spi memory support for ipm design
+         a740f4e684c020ea57a8a198a9322d739f7ab6d5 spi: mediatek: support hclk
+         a4765dfb80a7333aaac394a5ba20056d11b55636 spi: support hclk
+         d21b94bf3ac44aa7759c0de6f72c0a887eb9e23b spi: spidev: Convert BUILD_BUG_ON() to static_assert()
+         2a7f669dd8f6561d227e724ca2614c25732f4799 spi: spidev: Replace ACPI specific code by device_get_match_data()
+         88a285192084edab6657e819f7f130f9cfcb0579 spi: spidev: Replace OF specific code by device property API
+         e23d86c49a9c78e8dbe3abff20b30812b26ab427 spi: qcom-qspi: Add minItems to interconnect-names
+         02b3024824f48a270f6170901f1abeb1edb1619f spi: Prepare cleanup of powerpc's asm/prom.h
+         d50d7e91c6e5ccd71f21ba1aec3fef7ee4229fd6 spi: spidev: replace usage of found with dedicated list iterator variable
+         774227cfb9f570538999ea7713589c87300f21b6 spi: mediatek: add single/quad mode support
+         
 
---===============2152090165865605979==
+--===============7753281629210940044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649150761 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649150761-850a8f09d6d2834590ec333d7dcae112d24fb115
+pusher C3F436CA30F5D8EB 1649150768 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1649150768-ae9f4c05553e31d76c490de656042f257a5e05ee
 
-5999f85ddeb436b4007878f251a30ccc8b9c638b 2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 refs/heads/regulator-5.18
-0000000000000000000000000000000000000000 310584018e1af38d17101761d81c0f23bdf2242c refs/heads/regulator-5.19
+89b35e3f28514087d3f1e28e8f5634fbfd07c554 35d516bdcd92fde46202d06b68df1166760208fd refs/heads/for-5.18
+3123109284176b1532874591f7c81f3837bbdc17 774227cfb9f570538999ea7713589c87300f21b6 refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCykACgkQJNaLcl1U
-h9BTRgf9HbNfVRCt09skekOBxQ9UPsAMWdnKE7E9L078zeuPfNc+6/JXtDnt4ftJ
-oge2lAy6eBVo5iWlbb3TnsJSy3sj/bwg/7ZF1QXVJ+rVDEML1mhvwLU5fmsDReg2
-PLZqEDs3/hV4C9AuLSr0+twhyrRo4+vPJt9nubMjgpfA+YaD/PnQZFYgnVYW9j0t
-hntRyPntN+Ghg/PKuFsictRAskLj83t5iYZY12ytUjYN2Q12qGbJk+bNyPRN5QsU
-otUE1b3o2V9e/IFc1NrzGh4tYuGrrUQxvNUDAP1o98ktlL7N0T8Nmcq4fBekTZBA
-dJVOSA5iXcXo9Vdcic6EQNN7dKm1pQ==
-=nmuq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCzAACgkQJNaLcl1U
+h9DJBAf8DQHt4oDTcs7Tz9ocTJXfXW9FaB9TJoiz5VG5X/VRrs7uGWi/eZYjXdzs
+vuwqtGRCvQq0soVSkMk9jVAllsegBxDMV3eTnmm1X5lsx7/GOl9a+CwdcSflcoKL
+x50QVNTaT37QCtE2WIsFKupntdWdLuoO3tpGnkqTKSJ5cwSmrq8KuoCnUOg23wbq
+NpGG3EP9jBCG1QSoqYZrt4FKnsnq0k8M+uyX764NEv5zv2f2n42l0gGXzRQrZ2eq
+K8HLyKIoVVRsLs272k8rbOoG3z/8aQpg0DtaPp7ZpqcSnCaabw2Q1L3usEKwR0a5
+MzGLqCwD/tdrxCVR9C9bgvoyrM4KcQ==
+=/AJ1
 -----END PGP SIGNATURE-----
 
---===============2152090165865605979==
+--===============7753281629210940044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5999f85ddeb4-2316f0fc0ad2.txt
+Content-Disposition: attachment; filename=revlist-89b35e3f2851-35d516bdcd92.txt
 
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
@@ -1076,8 +1089,7 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-92d96b603738ec4f35cde7198c303ae264dd47cb regulator: wm8994: Add an off-on delay for WM8994 variant
-17049bf9de55a42ee96fd34520aff8a484677675 regulator: rtq2134: Fix missing active_discharge_on setting
-2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 regulator: atc260x: Fix missing active_discharge_on setting
+2f8cf5f642e80f8b6b0e660a9c86924a1f41cd80 spi: rpc-if: Fix RPM imbalance in probe error path
+35d516bdcd92fde46202d06b68df1166760208fd spi: mxic: Fix an error handling path in mxic_spi_probe()
 
---===============2152090165865605979==--
+--===============7753281629210940044==--
