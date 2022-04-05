@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3540992224012110347=="
+Content-Type: multipart/mixed; boundary="===============2401737421155937143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Tue, 05 Apr 2022 22:30:49 -0000
-Message-Id: <164919784935.22079.14397118626896710077@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 22:33:44 -0000
+Message-Id: <164919802447.23033.6500279920920834382@gitolite.kernel.org>
 
---===============3540992224012110347==
+--===============2401737421155937143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: c55f91c9e10401e3a6cdc6cc080db43d32edb7b6
-    new: 07fb1e5babd5d3d4228517295db2ea4067ce2a79
-    log: revlist-c55f91c9e104-07fb1e5babd5.txt
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 64884e592d71fd567fef7bdcb0736a5dae71ecb2
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-64884e592d71-312310928417.txt
 
---===============3540992224012110347==
+--===============2401737421155937143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c55f91c9e104-07fb1e5babd5.txt
+Content-Disposition: attachment; filename=revlist-64884e592d71-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
@@ -1048,7 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-d327bc37c16a9c55e7d243ada2a58ba764e2bc58 drm/mediatek: mtk_drm_plane: Use kmalloc in mtk_plane_duplicate_state
-07fb1e5babd5d3d4228517295db2ea4067ce2a79 drm/mediatek: mtk_drm_crtc: Use kmalloc in mtk_drm_crtc_duplicate_state
 
---===============3540992224012110347==--
+--===============2401737421155937143==--
