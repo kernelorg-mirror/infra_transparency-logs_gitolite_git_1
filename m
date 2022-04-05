@@ -1,60 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6592030471718327539=="
+Content-Type: multipart/mixed; boundary="===============2118089296674703556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 Apr 2022 09:25:37 -0000
-Message-Id: <164915073774.11689.5114876616722436863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 05 Apr 2022 09:25:44 -0000
+Message-Id: <164915074428.11807.2712877153498131725@gitolite.kernel.org>
 
---===============6592030471718327539==
+--===============2118089296674703556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: 49a24e9d9c740d3bd8b1200f225f67d45e3d68a5
-    new: 0b3d5d2e358ca6772fc3662fca27acb12a682fbf
-    log: revlist-49a24e9d9c74-0b3d5d2e358c.txt
-  - ref: refs/heads/asoc-5.19
-    old: 0000000000000000000000000000000000000000
-    new: 66e384d86ff533b3352a1f897c6bc7bf7f1adafe
+  - ref: refs/heads/for-5.18
+    old: 0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-0074f3f2b1e4-312310928417.txt
+  - ref: refs/heads/for-5.19
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: bd941dfaae3503c6b707d8544696205f759e57a3
+    log: |
+         bd941dfaae3503c6b707d8544696205f759e57a3 regmap: Constify static regmap_bus structs
+         
 
---===============6592030471718327539==
+--===============2118089296674703556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649150734 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649150734-dc141166801e3d2986e011ab8a130aa0c6a61284
+pusher C3F436CA30F5D8EB 1649150742 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1649150742-b679b4a5c4217dc0bc2674fa50f254e18e90a8bb
 
-49a24e9d9c740d3bd8b1200f225f67d45e3d68a5 0b3d5d2e358ca6772fc3662fca27acb12a682fbf refs/heads/asoc-5.18
-0000000000000000000000000000000000000000 66e384d86ff533b3352a1f897c6bc7bf7f1adafe refs/heads/asoc-5.19
+0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/for-5.18
+3123109284176b1532874591f7c81f3837bbdc17 bd941dfaae3503c6b707d8544696205f759e57a3 refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCw4ACgkQJNaLcl1U
-h9DJtwf+LgLk1L/1WnoMWhmLK33W+mioSFhGYVBez7DtVbJgrinAMRm+Mceb6FlH
-C+qirDf5y50yfgS1stmwoMe1CZMvgqzUntJ1NF8DoX7l2wcehuEt83ox0n54nNGS
-RRHBOdeJZnVLUVR8z9zUDyw3jrT3HI27fFoXf8u443Mimt1qnjJkhq06NAV1k3MQ
-b3485Cn/BYqYIFOFEBHKPld0sa7MiEeaZsxdR9kxsSurguxUUTzadqW59+ilmlRS
-Kh45kSFWDjQmYPgQbTG7emubyq0SdxMLJIbBLVfXb/Ugj9jfjO3cWBO7DIY1uhSz
-nCJC8n5NoJLLxGioaotV52Ol5vGoiA==
-=QEIk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCxYACgkQJNaLcl1U
+h9AKuQf/WETOCYNVEQjA6BuxcNNBHqIG0XnNKobU0lUijSToY9HecxajbeZEpvmf
+JrZ1p/C1OMxrMgUu8vndaMJ8IECq7qwIvR5yCnBvB5zEdJdvA8ufL4GnJNetuQQ7
+dS4lv2sMla9SRLyh4MvTcWXEUJ+WQKJisz+KVd23JucImqnUeBvLVj4NZ5B+F4vP
+KwrKe4a0dJACCaxzTYZrpldv9PQc5B+TlrUQ2gcr43bTCsBkTvw5c+GH2lb4Zl6g
+8FPhVGQLr3hO/oHCyx51HQKG10vzFMHd2lA6qa5R76vJQRjXed3T+epltjKmAdtg
+8cvLUyuRO2qeeeGs5C9ltjpUFcPDhQ==
+=ObvE
 -----END PGP SIGNATURE-----
 
---===============6592030471718327539==
+--===============2118089296674703556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49a24e9d9c74-0b3d5d2e358c.txt
+Content-Disposition: attachment; filename=revlist-0074f3f2b1e4-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
+adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
 bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
 3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
 737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
@@ -1070,14 +1082,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-c775cbf62ed4911e4f0f23880f01815753123690 ASoC: atmel: Remove system clock tree configuration for at91sam9g20ek
-9c363532413cda3e2c6dfa10e5cca7cd221877a0 ASoC: topology: Correct error handling in soc_tplg_dapm_widget_create()
-acc72863e0f11cd0bedc888b663700229f9ba5ff codecs: rt5682s: fix an incorrect NULL check on list iterator
-5708cc2f4b50c7bf27234eee77e1d9487533bbd3 ASoC: SOF: topology: Fix memory leak of scontrol->name
-fb6d679fee95d272c0a94912c4e534146823ee89 ASoC: soc-pcm: use GFP_KERNEL when the code is sleepable
-f730a46b931d894816af34a0ff8e4ad51565b39f ASoC: soc-dapm: fix two incorrect uses of list iterator
-c8618d65007ba68d7891130642d73e89372101e8 ASoC: rt5682: fix an incorrect NULL check on list iterator
-c598ccfbeb26cb9452f99e7beb92ef779dcb16b1 ASoC: cs35l41: Add one more variable in the debug log
-0b3d5d2e358ca6772fc3662fca27acb12a682fbf ASoC: cs35l41: Fix a shift-out-of-bounds warning found by UBSAN
 
---===============6592030471718327539==--
+--===============2118089296674703556==--
