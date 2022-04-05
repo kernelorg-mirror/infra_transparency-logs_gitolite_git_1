@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9061858714108667244=="
+Content-Type: multipart/mixed; boundary="===============1029997937453273809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 05 Apr 2022 01:28:07 -0000
-Message-Id: <164912208775.19642.310858889141577552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 05 Apr 2022 01:31:52 -0000
+Message-Id: <164912231224.22621.14560495514367506074@gitolite.kernel.org>
 
---===============9061858714108667244==
+--===============1029997937453273809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 3123109284176b1532874591f7c81f3837bbdc17
     log: revlist-2524257bce43-312310928417.txt
 
---===============9061858714108667244==
+--===============1029997937453273809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -272,4 +272,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============9061858714108667244==--
+--===============1029997937453273809==--
