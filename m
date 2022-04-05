@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 05 Apr 2022 11:16:56 -0000
-Message-Id: <164915741628.2265.1949461588490078941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 05 Apr 2022 11:30:37 -0000
+Message-Id: <164915823704.10720.14892626760097981748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/kfence/dev
-    old: 9e436d6046db232a34797f127b52884051a6bd08
-    new: 09f32964284110846ded8ade9a1a2bfcb17dc58e
+  - ref: refs/heads/rcu/dev-testing
+    old: 241ad46321b94a00e196ba8e6b02895959252c0e
+    new: ba0ad8da0dcb84d560810134e43b9e51a9c21ca4
     log: |
-         09f32964284110846ded8ade9a1a2bfcb17dc58e kfence, slab, slub: support kmem_obj_info() with KFENCE objects
+         ba0ad8da0dcb84d560810134e43b9e51a9c21ca4 rcu/nocb: Add/del rdp to iterate from rcuog itself
          
