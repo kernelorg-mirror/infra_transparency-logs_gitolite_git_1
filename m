@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4503678598021021320=="
+Content-Type: multipart/mixed; boundary="===============1883910209185184244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 05 Apr 2022 02:46:36 -0000
-Message-Id: <164912679691.7715.14676537626712130278@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 02:46:47 -0000
+Message-Id: <164912680757.7848.8437498199233793681@gitolite.kernel.org>
 
---===============4503678598021021320==
+--===============1883910209185184244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 327779e170f5ed363bd696db01e054a260142b62
-    new: c7a1af4e54ee12654f3d3cc38826e800eb50fc3c
-    log: revlist-327779e170f5-c7a1af4e54ee.txt
+  - ref: refs/heads/5.18/scsi-queue
+    old: 66daf3e6b9936328cb28eaaa29dddfe96343cc85
+    new: a6b758b0420bda28995ea6939ca0808fcec68be4
+    log: revlist-66daf3e6b993-a6b758b0420b.txt
 
---===============4503678598021021320==
+--===============1883910209185184244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1649126787 -0400
+pusher 75C5DE3D 1649126800 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1649126786-b333a3eab7bf9dd50f5b5ccdc84dc03d6ac200fc
+nonce 1649126799-afb5c5fff3c16785f3c5328b1cf1b0e69b3d0c9f
 
-327779e170f5ed363bd696db01e054a260142b62 c7a1af4e54ee12654f3d3cc38826e800eb50fc3c refs/tags/mkp-scsi-queue
+66daf3e6b9936328cb28eaaa29dddfe96343cc85 a6b758b0420bda28995ea6939ca0808fcec68be4 refs/heads/5.18/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJLrYMACgkQ7ulgGnXF
-3j3dIQ/+PcKj2zX6yOKtXkSg6owSclHpLcXTCXgP9mahcuYZ38+zj2758WfcM7MG
-vwLzGmFe/kohvf72fNJ0saH0i9gpwP8sWdQ6Cha6+PAkgYarAjHBtZncXoK7qU4R
-sjGnGfZ/ik1fNcAbV7PR0erudnRzGwUWMu9w+4yN3edMFFVrSjotduCqmqcsnrQ6
-SQKgnBWQaq1mvKMSyMfh9gbDGNCFtp9OefuKfgjZJK3Ag5uiUGGVYvrqad5udPe2
-5PIhgmIhbiUBmQEuVmKNHWBOKzdkkBkYIKkr+3y1tAOXuhrledL5pVTQsn4S9JHM
-iSeWo1n1KUEeo4WIXvAwXOqcOnwo3Wjc07YNreHCqnkiNStgjPpyI9x6U4tnTWxH
-fcwZxlnxvftrXOTQ0Rb6EeBi733AS+7knPPoDBoyQGRWGrM1EI6I7lth4VzHNzaY
-+mM2HosPqBvIrEMEE+5Bh/WkePILfTZkInz3nmdjXogPO+CVTiFqIWKmBnpNAbPN
-BQu4HY5VhtYnX/gZjgTs0FGRfEJQ2MwrN6/XNeZXIADvYxy4LIBVlPH5bIR+lOPA
-eTcGCRbXGILFf91maCjyhdWqYqyGkWFKq1E+FI/OOp5KQ4ZuspcCoXo8Y0R701vi
-eBeqWVFVg9ZCCwO9HxvZhzZA5R+2ULXXBSCmv5bdCNGLRdsMamc=
-=19wn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJLrZAACgkQ7ulgGnXF
+3j2B8g/9FLAa6z1McA4o2lQIYcwy901YD70u5yN2W/DPSx88rqzQb3pwM3lBzocv
+7B8DAC6tadZSOYNvxtIV4WTJIsfZDJp7UhkO3HeRzobrLI3IJLNhtDOdV+To8ng2
+/Ssf/1ft1t6ezK80sogDu7kW0X5NCphgZHhzqSUN8GlcXScfPQ8EnTmg4uPK7XJJ
+i13gmSk6wFOgYnDrjtx5/JY+zqRtUB3qcryOaFH3IBoSQKrEst6u+iJb3jn0Lhd2
++rwHJ+vd+tr7kLsMabcGepyEO/+SPkzS819A6fFcxJxF5QoTiUOrByoJWWPhSBX1
+1tniLDkY2ZQ4jMlU1rM34vyUgYZEUS0HuwNbq7Ok/JSQC1/UkmVRDGif1GBmS4dF
+emWY+slnfhxq27VAYGyekIp+Qz8jU76dvUXGOZ1RGzjYmcckkxm4GZ+y6swCA1nj
+XAWsNujRIw7iNFt38GbrvCazD9fdw53LA7ifONuONDlxi9y9B7L8KpFxS4zOt1Hw
+m0mmGAM8j814uKNF46/sb0na5x8uZNnWqfok5WboULCwh+ixtkizyBfsFx7KbUVE
+Ht8wE8aT1GoQhjFianrnPohT4PNPxF51Ee3DUaFkQ7kowIaGUMbxtS5swRGythZk
+OmlkNHHAxujJiy0zedBcH/nAQaJ5FNguF3VF0OjcHWhID6yZoEg=
+=U8GO
 -----END PGP SIGNATURE-----
 
---===============4503678598021021320==
+--===============1883910209185184244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-327779e170f5-c7a1af4e54ee.txt
+Content-Disposition: attachment; filename=revlist-66daf3e6b993-a6b758b0420b.txt
 
 87d663d40801dffc99a5ad3b0188ad3e2b4d1557 scsi: mpt3sas: Fix use after free in _scsih_expander_node_remove()
 ebfe3e0c5e805da3dd692bb120cd6269b7c19b80 scsi: libiscsi: Remove unnecessary memset() in iscsi_conn_setup()
@@ -82,4 +82,4 @@ fac952bb546a9f103a769d7105194175e11abc99 scsi: isci: Fix spelling mistake "doesn
 7ff897b2a59558d919b72f1aef58b1aa63d19c61 scsi: bnx2fc: Fix spelling mistake "mis-match" -> "mismatch"
 a6b758b0420bda28995ea6939ca0808fcec68be4 scsi: bnx2i: Fix spelling mistake "mis-match" -> "mismatch"
 
---===============4503678598021021320==--
+--===============1883910209185184244==--
