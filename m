@@ -1,61 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============3366694530075533259=="
+Content-Type: multipart/mixed; boundary="===============4037294471192829350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 Apr 2022 09:25:50 -0000
-Message-Id: <164915075035.11911.14708316889236599683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 05 Apr 2022 09:25:57 -0000
+Message-Id: <164915075726.12042.12164489354472664537@gitolite.kernel.org>
 
---===============3366694530075533259==
+--===============4037294471192829350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-5.18
-    old: 0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-0074f3f2b1e4-312310928417.txt
-  - ref: refs/heads/regmap-5.19
-    old: 0000000000000000000000000000000000000000
-    new: bd941dfaae3503c6b707d8544696205f759e57a3
+  - ref: refs/heads/for-5.18
+    old: aefe5fc3000a24869edbf7bb657adf28372ec158
+    new: 2316f0fc0ad2aa87a568ceaf3d76be983ee555c3
+    log: revlist-aefe5fc3000a-2316f0fc0ad2.txt
+  - ref: refs/heads/for-5.19
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 310584018e1af38d17101761d81c0f23bdf2242c
+    log: |
+         d077002c9d07dc6f64d07a362202a1e1081b2f6c regulator: mt6366: Add support for MT6366 regulator
+         417dfad7e4f0501853e05a46742a4e47075f034c regulator: Add BUCK and LDO document for MT6358 and MT6366
+         41812783057c01e4e5f1eec649607e4773124dba regulator: dt-bindings: richtek,rt4801: minor comments adjustments
+         6c315afe65d05dc6eebf2d6b73a191990aada218 regulator: fixed: Remove print on allocation failure
+         261f06315cf7c3744731e36bfd8d4434949e3389 regulator: Flag uncontrollable regulators as always_on
+         f704882033a70cbc27f6944e831e325eb3214c73 regulator: Add BUCK and LDO document for MT6358 and MT6366
+         f0e3c6261af183f0c2246cfe691abec78377622c regulator: mt6366: Add support for MT6366 regulator
+         610d8188ea9d19f1febd7f5c256ba6f9db2f590a regulator: Add support for MediaTek PMIC MT6366
+         310584018e1af38d17101761d81c0f23bdf2242c Add support for MediaTek PMIC MT6366
+         
 
---===============3366694530075533259==
+--===============4037294471192829350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649150748 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649150748-1342a8b12f1738d30e1ba0d1a311320c206b4d23
+pusher C3F436CA30F5D8EB 1649150754 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1649150754-1878c7121c6fc237d406b1adbcf16ea2950f862a
 
-0074f3f2b1e43d3cedd97e47fb6980db6d2ba79e 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/regmap-5.18
-0000000000000000000000000000000000000000 bd941dfaae3503c6b707d8544696205f759e57a3 refs/heads/regmap-5.19
+aefe5fc3000a24869edbf7bb657adf28372ec158 2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 refs/heads/for-5.18
+3123109284176b1532874591f7c81f3837bbdc17 310584018e1af38d17101761d81c0f23bdf2242c refs/heads/for-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCxwACgkQJNaLcl1U
-h9BGswf/Y4QwLs9ezVVTw5cvtbNOk/acSMhGrWi5Z1H+V2YENJqkIGNaJhj12OMU
-Idu+tX1kPaVLf1PAP2OIS/s8EBEIM0jI1s7Ni0uVUoKBIEFy5crPHl+4ojoFP6/X
-AMFmq706gV0cSj6dMPTFCLhaXiJRKuS6XElpzCR5WI7edYZExC1pTI54LizlwUoO
-TkYaHdDcAphHp5aX52Bvx+YyP/qV3TnIQo3Y+RF/5wGk7cnYXGkW5t4D22G/SF2j
-DXLZgJmvd1sj826B1BZ0FHe3woSsAWwc2uy7uUMBelj0P52t+a3J3JRmbXF1t1jN
-0gthJBT3h2Ym3vSAIoBv7ONfFOLEug==
-=HfgG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJMCyMACgkQJNaLcl1U
+h9Bmvgf9ELJ9RH/FhJ8R/hXykSlztDu9FTOX/1CzEONwRVDoOvznTLixHcF0HNbY
+A84koqHXcdM5mvvmpRP1xvd6MmcpaLo1EhenprTRXT6mMGbJ4B/yx6pHJbC4Ou+W
+UvJDWgQQKn5bod5RiF9brTV5Nmi8ognq5LulX7NAetQu8Uego/D5Xml4cos3Pusv
+vwZpSnoY775VSHJrRsZzUU0mcG1mce3oyt+8eDbFHXf8ceFjcfwNTqtUS7muLUG0
+RRIFER/BbarMm6zJgUr6/2TWusog1Ik2xkDOfyASj/P4op+xltOlJWVgZj89It7u
+qAQ79GH3mmu/Lcviwy7c2p8cXEmIxw==
+=6+iV
 -----END PGP SIGNATURE-----
 
---===============3366694530075533259==
+--===============4037294471192829350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0074f3f2b1e4-312310928417.txt
+Content-Disposition: attachment; filename=revlist-aefe5fc3000a-2316f0fc0ad2.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
@@ -479,8 +489,6 @@ dd7aa36e535797926d8eb311da7151919130139d random: re-add removed comment about ge
 0396e46dc46523cba8401a0df84f67cc0b6067ab virt: vmgenid: recognize new CID added by Hyper-V
 113be37d87449836ebbca4ca2909dc4e1db9663d [smb3] move more common protocol header definitions to smbfs_common
 664d66dc0a64b32e60a5ad59a9aebb08676a612b ASoC: SOF: Intel: Fix build error without SND_SOC_SOF_PCI_DEV
-184ae0e32bc990bba203b60503df89c9f8865f13 regulator: rt4831: Add bypass mask to fix set_bypass API work
-aefe5fc3000a24869edbf7bb657adf28372ec158 regulator: rt4831: Add active_discharge_on to fix discharge API
 9a8b3d5f71eb74b1b95927bd320b1070866a119a Merge tag 'mips_5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 1f1c153e406a7375ae0fc3d6000b64e7ba27cf8a Merge tag 'powerpc-5.18-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 744465da705f7d8cd893e97738a47b91f3321ce2 Merge tag 'xtensa-20220325' of https://github.com/jcmvbkbc/linux-xtensa
@@ -1079,5 +1087,8 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+92d96b603738ec4f35cde7198c303ae264dd47cb regulator: wm8994: Add an off-on delay for WM8994 variant
+17049bf9de55a42ee96fd34520aff8a484677675 regulator: rtq2134: Fix missing active_discharge_on setting
+2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 regulator: atc260x: Fix missing active_discharge_on setting
 
---===============3366694530075533259==--
+--===============4037294471192829350==--
