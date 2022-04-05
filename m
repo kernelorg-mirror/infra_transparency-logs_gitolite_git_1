@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Tue, 05 Apr 2022 22:57:25 -0000
-Message-Id: <164919944504.7346.13078170161049123192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Tue, 05 Apr 2022 23:19:31 -0000
+Message-Id: <164920077174.21363.12806425876299164912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 87345b4c14a37e6c6d0a85252669c605bb690471
-    new: 6003ad1527112e3afa47f63ef84f50b9d4223323
+  - ref: refs/heads/mediatek-drm-next
+    old: 07fb1e5babd5d3d4228517295db2ea4067ce2a79
+    new: b74d921b900b6ce38c6247c0a1c86be9f3746493
     log: |
-         309760cbaba67cba51704e4d71c1539eb3e3c388 test-runner: use type=os.path.abspath for argparse
-         6003ad1527112e3afa47f63ef84f50b9d4223323 test-runner: add logging, monitor, and results to UML
+         b74d921b900b6ce38c6247c0a1c86be9f3746493 drm/mediatek: Add vblank register/unregister callback functions
          
