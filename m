@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 05 Apr 2022 17:50:02 -0000
-Message-Id: <164918100280.32760.1686058863590616360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 05 Apr 2022 17:56:06 -0000
+Message-Id: <164918136670.4447.7234566683142283009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/io_uring-5.18
-    old: 8d5d05a2b725445da6824363096e21486ee80f10
-    new: b988dfb16cdc2a7e9affe1d5ba79ac0abc748af0
-    log: |
-         eafe3cf7933c1d201ddb3a97e154ab41e31acf22 io_uring: drop the old style inflight file tracking
-         b988dfb16cdc2a7e9affe1d5ba79ac0abc748af0 Revert "io_uring: Add support for napi_busy_poll"
-         
+  - ref: refs/heads/20220405_kuninori_morimoto_gx_asoc_ak4613_add_tdm256_test_support
+    old: 0000000000000000000000000000000000000000
+    new: f28dbaa958fbd8fb7ffe40211b0e083156191f84
