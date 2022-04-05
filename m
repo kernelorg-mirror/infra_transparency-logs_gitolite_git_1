@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8725426689090173445=="
+Content-Type: multipart/mixed; boundary="===============8140796685279072092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 Apr 2022 19:21:40 -0000
-Message-Id: <164918650002.29125.7434549530838168560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
+Date: Tue, 05 Apr 2022 19:25:30 -0000
+Message-Id: <164918673052.31861.145256629197111947@gitolite.kernel.org>
 
---===============8725426689090173445==
+--===============8140796685279072092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/bp/bp
 user: bp
 changes:
-  - ref: refs/heads/x86/misc
-    old: 686016f732420f88dd2e1d67cf4bb5dffdb93c82
-    new: e1907d37514b8564ba18b4a768a35beee71cb011
-    log: revlist-686016f73242-e1907d37514b.txt
+  - ref: refs/heads/tip-ras-core
+    old: f11445ba7a1160b87615e3f863a9e66c85189399
+    new: e5f28623ceb103e13fc3d7bd45edf9818b227fd0
+    log: revlist-f11445ba7a11-e5f28623ceb1.txt
 
---===============8725426689090173445==
+--===============8140796685279072092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-686016f73242-e1907d37514b.txt
+Content-Disposition: attachment; filename=revlist-f11445ba7a11-e5f28623ceb1.txt
 
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
@@ -1049,6 +1048,7 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-e1907d37514b8564ba18b4a768a35beee71cb011 x86/amd_nb: Unexport amd_cache_northbridges()
+9f1b19b977ee3cbd3fe9135ff63dbf221eac1d6a x86/mce: Avoid unnecessary padding in struct mce_bank
+e5f28623ceb103e13fc3d7bd45edf9818b227fd0 x86/MCE/AMD: Fix memory leak when threshold_create_bank() fails
 
---===============8725426689090173445==--
+--===============8140796685279072092==--
