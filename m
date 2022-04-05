@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4177634751942082727=="
+Content-Type: multipart/mixed; boundary="===============6572502740346004507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 05 Apr 2022 00:55:40 -0000
-Message-Id: <164912014053.25258.1216344760320331947@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 00:55:49 -0000
+Message-Id: <164912014913.25456.4944926999016767073@gitolite.kernel.org>
 
---===============4177634751942082727==
+--===============6572502740346004507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 6b49f3409a090c8e9d1f46ff2705c479b45a54d4
     new: 7a150b0d850e37e7bdfc87459edd0ff302f67478
     log: revlist-6b49f3409a09-7a150b0d850e.txt
 
---===============4177634751942082727==
+--===============6572502740346004507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d49b3ae4294f00f268a76648d920dc2a2a07ec90 dt-bindings: net: qcom,ipa: finish the 
 44c8a51a5f28436622fde18fd057c857b42ac28c docs: dt: writing-bindings: describe typical cases
 7a150b0d850e37e7bdfc87459edd0ff302f67478 docs: dt: writing-schema: mention coding style
 
---===============4177634751942082727==--
+--===============6572502740346004507==--
