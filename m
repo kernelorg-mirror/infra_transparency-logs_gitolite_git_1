@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8642076424272151927=="
+Content-Type: multipart/mixed; boundary="===============3845964331770429953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 05 Apr 2022 08:26:46 -0000
-Message-Id: <164914720640.4773.7784541149417945443@gitolite.kernel.org>
+Date: Tue, 05 Apr 2022 08:28:17 -0000
+Message-Id: <164914729764.5313.11908833094986388580@gitolite.kernel.org>
 
---===============8642076424272151927==
+--===============3845964331770429953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: ffea9fb319360b9ead8befac6bb2db2b54fd53e6
-    new: 089c02ae2771a14af2928c59c56abfb9b885a8d7
-    log: revlist-ffea9fb31936-089c02ae2771.txt
+  - ref: refs/heads/perf/core
+    old: 02a08d78f5c429c7dc8e5b9417b4efb518b3d041
+    new: 7bebfe9dd802b80abff5a43e00ab68d98893a22c
+    log: revlist-02a08d78f5c4-7bebfe9dd802.txt
 
---===============8642076424272151927==
+--===============3845964331770429953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffea9fb31936-089c02ae2771.txt
+Content-Disposition: attachment; filename=revlist-02a08d78f5c4-7bebfe9dd802.txt
 
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
-597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
-56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
-698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
-b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
-adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
-bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
 3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
 737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
 d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
@@ -1047,8 +1040,15 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-cfe43f478b79ba45573ca22d52d0d8823be068fa preempt/dynamic: Introduce preemption model accessors
-5693fa74f98afed5421ac0165e9e9291bde7d9e1 kcsan: Use preemption model accessors
-089c02ae2771a14af2928c59c56abfb9b885a8d7 ftrace: Use preemption model accessors for trace header printout
+bfe4daf850f45d92dcd3da477f0b0456620294c3 perf/core: Add perf_clear_branch_entry_bitfields() helper
+a77d41ac3a0f41c80120ec5b8b08ab284fec950a x86/cpufeatures: Add AMD Fam19h Branch Sampling feature
+ada543459cab7f653dcacdaba4011a8bb19c627c perf/x86/amd: Add AMD Fam19h Branch Sampling support
+44175993efbae04e8b2d7f7795ff512c3a726db0 perf/x86/amd: Add branch-brs helper event for Fam19h BRS
+8910075d61a37e5b0d82e6c83ed9a0a31fe9ea08 perf/x86/amd: Enable branch sampling priv level filtering
+ba2fe7500845a30fc845a72081999cf632051862 perf/x86/amd: Add AMD branch sampling period adjustment
+cc37e520a236069c0de0e7ea455082fa11c73b12 perf/x86/amd: Make Zen3 branch sampling opt-in
+2a606a18cd672a16343d146a126721b34cc6adbd ACPI: Add perf low power callback
+d5616bac7adadbf42a3b63b8717e75eb82a2cc2c perf/x86/amd: Add idle hooks for branch sampling
+7bebfe9dd802b80abff5a43e00ab68d98893a22c perf/x86: Unify format of events sysfs show
 
---===============8642076424272151927==--
+--===============3845964331770429953==--
