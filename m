@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 05 Apr 2022 18:15:10 -0000
-Message-Id: <164918251054.18060.16932691029312480494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 05 Apr 2022 18:17:04 -0000
+Message-Id: <164918262451.18799.7880847697840457053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-invlpir
-    old: fac6a694128bafb7e8f9999845a884b2aaac035d
-    new: 71b682e3a2c501003154a0c484987a9e9fde1e22
+  - ref: refs/heads/bleeding-edge
+    old: 0832f130b6ce75cab042dce649db40242805c496
+    new: 5f4c1a0133c9a31e0808471812e33b5f366d1712
     log: |
-         2116324b0f40ee86178da255026465fd1ded904c KVM: arm64: vgic-v3: Expose GICR_CTLR.RWP when disabling LPIs
-         5eb6a69ffd51d295b8d6ec0cca14489db8215737 KVM: arm64: vgic-v3: Implement MMIO-based LPI invalidation
-         71b682e3a2c501003154a0c484987a9e9fde1e22 KVM: arm64: vgic-v3: Advertise GICR_CTLR.{IR,CES} as a new GICD_IIDR revision
+         95d5a7214b86e64dc97db3d35f6d97533f89fb32 iio: chemical: scd30: Export dev_pm_ops instead of suspend() and resume()
+         a8e2512efc65892a1cbf608d9c03c8bcbe5a623a PM: core: Add NS varients of EXPORT[_GPL]_SIMPLE_DEV_PM_OPS and runtime pm equiv
+         bd8284e968ecfc7777703cd76eabbbbf9f3ac9ff iio: chemical: scd30: Move symbol exports into IIO_SCD30 namespace
+         5f4c1a0133c9a31e0808471812e33b5f366d1712 Merge branch 'pm-core' into bleeding-edge
          
