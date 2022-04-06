@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 06 Apr 2022 00:52:27 -0000
-Message-Id: <164920634786.16520.17327759573564334145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 06 Apr 2022 01:12:49 -0000
+Message-Id: <164920756921.415.10887982383926944091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: a651a7ba294c696bddf590393f6a301bd6ab004c
-    new: cd9bb50979957b24e81d363432f253bfefb6aea9
+    old: 03eb7daec59f9b273d87141a5e8c4bea24fb3358
+    new: 3f2a3050b4a3e7f32fc0ea3c9b0183090ae00522
     log: |
-         cd9bb50979957b24e81d363432f253bfefb6aea9 random: check for signals every PAGE_SIZE chunk of /dev/[u]random
+         1d7e4fd72bb9be080c23a099b0dff1007109fc2b net: micrel: Fix KS8851 Kconfig
+         3f2a3050b4a3e7f32fc0ea3c9b0183090ae00522 net: openvswitch: don't send internal clone attribute to the userspace.
          
