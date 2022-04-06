@@ -1,46 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3292700047666944831=="
+Content-Type: multipart/mixed; boundary="===============7452743804846070216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 06 Apr 2022 13:45:26 -0000
-Message-Id: <164925272644.25862.2581103968531155866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 06 Apr 2022 13:51:44 -0000
+Message-Id: <164925310481.29328.13473041592435439801@gitolite.kernel.org>
 
---===============3292700047666944831==
+--===============7452743804846070216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 3e732ebf7316ac83e8562db7e64cc68aec390a18
-    log: revlist-312310928417-3e732ebf7316.txt
+  - ref: refs/heads/bleeding-edge
+    old: bfb13c25fad240c3fd1601e8deff642389e903e8
+    new: 2f7fc67b4d3f454beaa41b6c98671e9fd289b16f
+    log: |
+         5eceec43cb76a8b8cfacae836722de261f425b6b Merge branch 'devprop' into linux-next
+         2c962db504ed5418ceaa2611ac7a031c183150f1 Merge branch 'pm-core' into linux-next
+         5a5b6c1848bcc8ad708fffbd8d4a25e63a711bdd Merge branch 'acpi-bus' into linux-next
+         2f7fc67b4d3f454beaa41b6c98671e9fd289b16f Merge branch 'thermal-int340x' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: d8a5a5e3123a30efb235ef9d7a26140c51688050
+    new: 2f7fc67b4d3f454beaa41b6c98671e9fd289b16f
+    log: revlist-d8a5a5e3123a-2f7fc67b4d3f.txt
+  - ref: refs/heads/testing
+    old: d8a5a5e3123a30efb235ef9d7a26140c51688050
+    new: 2f7fc67b4d3f454beaa41b6c98671e9fd289b16f
+    log: revlist-d8a5a5e3123a-2f7fc67b4d3f.txt
 
---===============3292700047666944831==
+--===============7452743804846070216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-3e732ebf7316.txt
+Content-Disposition: attachment; filename=revlist-d8a5a5e3123a-2f7fc67b4d3f.txt
 
-0b9e66762aa0cda2a9c2d5542d64e04dac528fa6 btrfs: zoned: traverse devices under chunk_mutex in btrfs_can_activate_zone
-62ed0bf7315b524973bb5fb9174b60e353289835 btrfs: zoned: remove left over ASSERT checking for single profile
-b642b52d0b50f4d398cb4293f64992d0eed2e2ce btrfs: fix qgroup reserve overflow the qgroup limit
-bbac58698a55cc0a6f0c0d69a6dcd3f9f3134c11 btrfs: remove device item and update super block in the same transaction
-05fd9564e9faf0f23b4676385e27d9405cef6637 btrfs: fix fallocate to use file_modified to update permissions consistently
-75a36a7d3ea904cef2e5b56af0c58cc60dcf947a btrfs: avoid defragging extents whose next extents are not targets
-a7d16d9a07bbcb7dcd5214a1bea75c808830bc0d btrfs: do not warn for free space inode in cow_file_range
-60021bd754c6ca0addc6817994f20290a321d8d6 btrfs: prevent subvol with swapfile from being deleted
-7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
-c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
-55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
-1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
-ce4c854ee8681bc66c1c369518b6594e93b11ee5 Merge tag 'for-5.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-73924ec4d560257004d5b5116b22a3647661e364 x86/pm: Save the MSR validity status at context setup
-e2a1256b17b16f9b9adf1b6fea56819e7b68e463 x86/speculation: Restore speculation related MSRs during S3 resume
-3e732ebf7316ac83e8562db7e64cc68aec390a18 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+8c756a0a2de17f1535ef885ac7e556e016735eb2 device property: Convert device_{dma_supported,get_dma_attr} to fwnode
+55dcbc05827ebcefe888a2829e0a59343ce6ae0a ACPI: property: Move acpi_fwnode_device_get_match_data() up
+68b979d068d3d0dceb14c446f664433d96f20a7e device property: Add iomap to fwnode operations
+99c63707bafd15bcf97fbd6bef1c92d5bfa01d28 device property: Add irq_get to fwnode operation
+ac2a3feefad549814f5e7cca30be07a255c8494a ACPI: bus: Eliminate acpi_bus_get_device()
+95d5a7214b86e64dc97db3d35f6d97533f89fb32 iio: chemical: scd30: Export dev_pm_ops instead of suspend() and resume()
+a8e2512efc65892a1cbf608d9c03c8bcbe5a623a PM: core: Add NS varients of EXPORT[_GPL]_SIMPLE_DEV_PM_OPS and runtime pm equiv
+bd8284e968ecfc7777703cd76eabbbbf9f3ac9ff iio: chemical: scd30: Move symbol exports into IIO_SCD30 namespace
+bdff938d04409aba0e43e408ee47d45d1486b2ae thermal: int340x: Clean up unnecessary acpi_buffer pointer freeing
+9e5d3d6be66472037c4b20b7d2b43e916207ab77 thermal: int340x: Consolidate freeing of acpi_buffer pointer
+ad47f8343a96cc1ebd3654a645d86c63eaeefb39 thermal: int340x: Clean up _OSC context init
+5eceec43cb76a8b8cfacae836722de261f425b6b Merge branch 'devprop' into linux-next
+2c962db504ed5418ceaa2611ac7a031c183150f1 Merge branch 'pm-core' into linux-next
+5a5b6c1848bcc8ad708fffbd8d4a25e63a711bdd Merge branch 'acpi-bus' into linux-next
+2f7fc67b4d3f454beaa41b6c98671e9fd289b16f Merge branch 'thermal-int340x' into linux-next
 
---===============3292700047666944831==--
+--===============7452743804846070216==--
