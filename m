@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/mdadm
-Date: Wed, 06 Apr 2022 14:52:11 -0000
-Message-Id: <164925673135.4597.5356569952865763773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 06 Apr 2022 14:53:06 -0000
+Message-Id: <164925678658.4975.9303706502748136417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/mdadm
-user: colyli
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/20220406-testing
+  - ref: refs/heads/fileugbJdr
     old: 0000000000000000000000000000000000000000
-    new: 6bb829e44cc30f4d2c7695cffd71d967961e54ba
+    new: 30fd1ea522c400e98912a6a86b6133cd4ad440f9
