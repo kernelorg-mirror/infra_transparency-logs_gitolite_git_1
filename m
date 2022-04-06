@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1152058632026403505=="
+Content-Type: multipart/mixed; boundary="===============3911700677366161026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 06 Apr 2022 12:43:47 -0000
-Message-Id: <164924902784.13200.14675900095638054165@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 12:43:53 -0000
+Message-Id: <164924903314.13285.5292199026414920433@gitolite.kernel.org>
 
---===============1152058632026403505==
+--===============3911700677366161026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: a1ce76e89907a69713f729ff21db1efa00f3bb47
     new: 3123109284176b1532874591f7c81f3837bbdc17
     log: revlist-a1ce76e89907-312310928417.txt
 
---===============1152058632026403505==
+--===============3911700677366161026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============1152058632026403505==--
+--===============3911700677366161026==--
