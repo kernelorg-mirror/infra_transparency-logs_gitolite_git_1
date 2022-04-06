@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4093230729210408963=="
+Content-Type: multipart/mixed; boundary="===============8497578253238914979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 06 Apr 2022 08:52:54 -0000
-Message-Id: <164923517458.8419.495970304295273874@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 08:54:49 -0000
+Message-Id: <164923528935.9099.17201976558943571903@gitolite.kernel.org>
 
---===============4093230729210408963==
+--===============8497578253238914979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: a033588ec66bffd6cb51f946b2e998a9f9bf598d
+  - ref: refs/heads/ti-k3-config-next
+    old: 3bc04fba357a269f4b7ff824b146d82ad1ebf9de
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-a033588ec66b-312310928417.txt
+    log: revlist-3bc04fba357a-312310928417.txt
 
---===============4093230729210408963==
+--===============8497578253238914979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a033588ec66b-312310928417.txt
+Content-Disposition: attachment; filename=revlist-3bc04fba357a-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============4093230729210408963==--
+--===============8497578253238914979==--
