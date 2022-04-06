@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 06 Apr 2022 06:02:14 -0000
-Message-Id: <164922493455.27003.7554590767810741052@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 06:02:24 -0000
+Message-Id: <164922494443.27101.5997947389240246875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 2f16fa2aaee5de7e5fb3b27653e80378220bd3dc
+  - ref: refs/heads/for-next
+    old: d5ea4fece4508bf8e72b659cd22fa4840d8d61e5
     new: 1866d6b8a8516cfd0ab31c539aa0b6c984f34af3
     log: |
          33057b0081b73b01aa10caf2a7caefd0d45e3ed1 docs: kbuild: add references on Kconfig semantics
