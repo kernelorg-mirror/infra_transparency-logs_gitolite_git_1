@@ -1,40 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Wed, 06 Apr 2022 08:09:13 -0000
-Message-Id: <164923255331.10948.1776737921673160270@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8102597345153642798=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 06 Apr 2022 08:17:03 -0000
+Message-Id: <164923302359.17581.12842703795725821239@gitolite.kernel.org>
+
+--===============8102597345153642798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/for_autotest
-    old: 12e0f8ad13e8f19a066222b1f055ab6fb153f16f
-    new: 506db307a357f793d1944c3ea00a39b515170993
+  - ref: refs/heads/for-5.19/trivial
+    old: 1e703d0548e0a2766e198c64797737d50349f46e
+    new: a285909f471d6703a04b2b3942c352e27131c92b
     log: |
-         97105ac3eaab22c24adced0826be4bb1c69f7f9e virtio: fix feature negotiation for ACCESS_PLATFORM
-         68b206cbfa374f3645b0a9b14daa81862a72cc11 acpi: Bodge acpi_index migration
-         654318b4aae73681e9eda6d6a2f8002c823f6df3 intel-iommu: correct the value used for error_setg_errno()
-         26b6f64628ff4d1e18d35cb723740d31dbff5939 virtio-iommu: use-after-free fix
+         a285909f471d6703a04b2b3942c352e27131c92b mm/slub, kunit: Make slub_kunit unaffected by user specified flags
          
-  - ref: refs/tags/for_autotest_next
-    old: 12e0f8ad13e8f19a066222b1f055ab6fb153f16f
-    new: 506db307a357f793d1944c3ea00a39b515170993
-    log: |
-         97105ac3eaab22c24adced0826be4bb1c69f7f9e virtio: fix feature negotiation for ACCESS_PLATFORM
-         68b206cbfa374f3645b0a9b14daa81862a72cc11 acpi: Bodge acpi_index migration
-         654318b4aae73681e9eda6d6a2f8002c823f6df3 intel-iommu: correct the value used for error_setg_errno()
-         26b6f64628ff4d1e18d35cb723740d31dbff5939 virtio-iommu: use-after-free fix
-         
-  - ref: refs/tags/for_upstream
-    old: 12e0f8ad13e8f19a066222b1f055ab6fb153f16f
-    new: 506db307a357f793d1944c3ea00a39b515170993
-    log: |
-         97105ac3eaab22c24adced0826be4bb1c69f7f9e virtio: fix feature negotiation for ACCESS_PLATFORM
-         68b206cbfa374f3645b0a9b14daa81862a72cc11 acpi: Bodge acpi_index migration
-         654318b4aae73681e9eda6d6a2f8002c823f6df3 intel-iommu: correct the value used for error_setg_errno()
-         26b6f64628ff4d1e18d35cb723740d31dbff5939 virtio-iommu: use-after-free fix
-         
+
+--===============8102597345153642798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1649233022 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1649233021-53bba1df4229a721a2c4ce5f8a8d323e1bc952b1
+
+1e703d0548e0a2766e198c64797737d50349f46e a285909f471d6703a04b2b3942c352e27131c92b refs/heads/for-5.19/trivial
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEjUuTAak14xi+SF7M4CHKc/GJqRAFAmJNTH4ACgkQ4CHKc/GJ
+qRBEOwf9GBa63aN+5XpihTbETviiCzhSzbRpHox0xsG0WMRecYJxJl7lflTEFVTD
+gtajxAgqmHE3+J7b8FJdfYg+O9PexisO+pXnHWL3GXTdYF6l6fDG/GXYxehFxgti
+nMyr0oVYVK1k0mXFLxIDDAalFAipOQJ77gVTGZtlrKj4SI00jYpuhaEbjgAtd7GB
+wQ6hS+v789fYK+0uh6rbG39WwpgwdmT+AAF2IckcudaSnk3Xv8/ZVoSqcTuwpeiO
+Z/g4A4OEspvqbyQ9V5nH5ed3bE5S7/Ty/YDlH+Z/rQgIQvGcxaSIJk3jcXbKS/rh
+e5IzrCRtuRWd8FooRqRUlZY4llua/w==
+=6+IC
+-----END PGP SIGNATURE-----
+
+--===============8102597345153642798==--
