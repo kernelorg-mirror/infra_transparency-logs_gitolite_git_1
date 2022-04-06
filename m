@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Wed, 06 Apr 2022 16:04:22 -0000
-Message-Id: <164926106262.19123.11190661599420749806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 06 Apr 2022 16:10:23 -0000
+Message-Id: <164926142332.23845.4528185645369860510@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 4a0b43dbcb6c24da22f0a525d0fccf6c078ee77e
-    new: c0e3693ba3f95073533001d9eb652f20ab3eee04
+  - ref: refs/heads/backport-5.4.y
+    old: d768bbaf42d9f76ebd1a45e0c090b02cf975ce72
+    new: 41c4c05c8fafbf2e015a3761ba6e1495a9ebbfff
     log: |
-         6ded3d7471d8bb01eb87ac2d506db7e8a839986a memory: emif: remove unneeded ENOMEM error messages
-         c0e3693ba3f95073533001d9eb652f20ab3eee04 Merge branch 'mem-ctrl-next' into for-next
-         
-  - ref: refs/heads/mem-ctrl-next
-    old: 56653827f0d7bc7c2d8bac0e119fd1521fa9990a
-    new: 6ded3d7471d8bb01eb87ac2d506db7e8a839986a
-    log: |
-         6ded3d7471d8bb01eb87ac2d506db7e8a839986a memory: emif: remove unneeded ENOMEM error messages
+         a062bb4614190a91a39918a51c7d002ea55c31f1 lib/crypto: blake2s: move hmac construction into wireguard
+         368940e5da1d8668c5483a03e6a78aa08d241f55 wireguard: queueing: use CFI-safe ptr_ring cleanup function
+         c1dc7e5b810106eebe646853bb2f4f796da136ed wireguard: selftests: simplify RNG seeding
+         dd594ea9e2f6ee951acc24e45b4bf952d9a08f13 wireguard: socket: free skb in send6 when ipv6 is disabled
+         41c4c05c8fafbf2e015a3761ba6e1495a9ebbfff wireguard: socket: ignore v6 endpoints when ipv6 is disabled
          
