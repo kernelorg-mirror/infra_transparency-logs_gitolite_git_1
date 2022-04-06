@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2920092876275607908=="
+Content-Type: multipart/mixed; boundary="===============4391295089702204517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 06 Apr 2022 15:19:28 -0000
-Message-Id: <164925836801.22289.6114926256280642984@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 15:19:33 -0000
+Message-Id: <164925837357.22375.17420383430330465516@gitolite.kernel.org>
 
---===============2920092876275607908==
+--===============4391295089702204517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1158f79f82d437093aeed87d57df0548bdd68146
-    new: b423e54ba965b4469b48e46fd16941f1e1701697
-    log: revlist-1158f79f82d4-b423e54ba965.txt
+  - ref: refs/heads/dev-queue
+    old: f3b86a92b550f98d1b50f0177ce5163062e5685d
+    new: edce337186745883e13a9f86e43c35739e909ddc
+    log: revlist-f3b86a92b550-edce33718674.txt
 
---===============2920092876275607908==
+--===============4391295089702204517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1158f79f82d4-b423e54ba965.txt
+Content-Disposition: attachment; filename=revlist-f3b86a92b550-edce33718674.txt
 
 31818213170caa51d116eb5dc1167b88523b4fe1 netfilter: bitwise: fix reduce comparisons
 42193ffd79bd3acd91bd947e53f3548a3661d0a1 netfilter: nf_tables: memcg accounting for dynamically allocated objects
@@ -49,5 +49,17 @@ a3ebe92a0f2dfaeac257b685531decf8c9cd8eee net: ipv6mr: fix unused variable warnin
 4e910dbe36508654a896d5735b318c0b88172570 qede: confirm skb is allocated before using
 afb8e246527536848b9b4025b40e613edf776a9d net: usb: aqc111: Fix out-of-bounds accesses in RX fixup
 b423e54ba965b4469b48e46fd16941f1e1701697 myri10ge: fix an incorrect free for skb in myri10ge_sw_tso
+bacde65ccf10a3f1ae6802e557fef382043f9b0c checkpatch: Fix warnings when --no-tree is used
+368d99b01337bf56642b20f9ad07cb7cbd964a70 checkpatch.pl: seed camelcase from the provided kernel tree root
+0c72ebe6ef48612e74cae4e5407757efb6ca39fb igc: Fix infinite loop in release_swfw_sync
+b0d54386148f1096631659478843163ec7315356 igc: Fix BUG: scheduling while atomic
+72cd6370974f224e11efcc56e08e0ee068de0bf2 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+d53b8956818dd70373aa8625e2aa6cc003838489 i40e: i40e_main: fix a missing check on list iterator
+112332e534fda4beacd67075ca51da5fd01088ba ice: ice_sched: fix an incorrect NULL check on list iterator
+57cfb1b37b3ca0e9a4948799ac794c754f7f66b0 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+47cc398a0542b7ba58940293cf67bce45b66d68d ice: Fix memory leak in ice_get_orom_civd_data()
+e5ef6aa81d87f3f6d8dc9b658d9272627cfa35c3 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
+efb9ef725ccbd17150d803fd849adb51e1186f9a iavf: Fix error when changing ring parameters on ice PF
+edce337186745883e13a9f86e43c35739e909ddc ixgbe: ensure IPsec VF<->PF compatibility
 
---===============2920092876275607908==--
+--===============4391295089702204517==--
