@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 06 Apr 2022 14:24:31 -0000
-Message-Id: <164925507143.17436.5594380303540927399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 Apr 2022 14:28:36 -0000
+Message-Id: <164925531665.20160.1703021959137582436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4e910dbe36508654a896d5735b318c0b88172570
-    new: afb8e246527536848b9b4025b40e613edf776a9d
+    old: 207d924dcf324fa4334938a38463aa0f1fcdc756
+    new: a5b116a0fa90d6d0e7af4f39199a6ae1f0afc9c7
     log: |
-         afb8e246527536848b9b4025b40e613edf776a9d net: usb: aqc111: Fix out-of-bounds accesses in RX fixup
+         a5b116a0fa90d6d0e7af4f39199a6ae1f0afc9c7 net: wan: remove the lanmedia (lmc) driver
          
