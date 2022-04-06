@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0784804152526055702=="
+Content-Type: multipart/mixed; boundary="===============1569364079770277325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 06 Apr 2022 12:42:32 -0000
-Message-Id: <164924895281.11518.13901698676971374767@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 12:42:39 -0000
+Message-Id: <164924895993.11606.10706082777879734015@gitolite.kernel.org>
 
---===============0784804152526055702==
+--===============1569364079770277325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: d25478e1d8f9bf9344cf61a9c02fae88d9930f55
+  - ref: refs/heads/fixes
+    old: 6f66db29e2415cbe8759c48584f9cae19b3c2651
     new: 0be0b70df6611205ac392d0e21f7e077f3230ee6
-    log: revlist-d25478e1d8f9-0be0b70df661.txt
+    log: revlist-6f66db29e241-0be0b70df661.txt
 
---===============0784804152526055702==
+--===============1569364079770277325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d25478e1d8f9-0be0b70df661.txt
+Content-Disposition: attachment; filename=revlist-6f66db29e241-0be0b70df661.txt
 
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 0be0b70df6611205ac392d0e21f7e077f3230ee6 pinctrl: alderlake: Fix register offsets for ADL-N variant
 
---===============0784804152526055702==--
+--===============1569364079770277325==--
