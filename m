@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8497578253238914979=="
+Content-Type: multipart/mixed; boundary="===============3903429113272694247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 06 Apr 2022 08:54:49 -0000
-Message-Id: <164923528935.9099.17201976558943571903@gitolite.kernel.org>
+Date: Wed, 06 Apr 2022 08:55:59 -0000
+Message-Id: <164923535995.10930.10273812627664359606@gitolite.kernel.org>
 
---===============8497578253238914979==
+--===============3903429113272694247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-config-next
-    old: 3bc04fba357a269f4b7ff824b146d82ad1ebf9de
+  - ref: refs/heads/ti-next
+    old: 183a6f5c6e1ea03c5a0bf0d9d304e6a73b806e04
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-3bc04fba357a-312310928417.txt
+    log: revlist-183a6f5c6e1e-312310928417.txt
 
---===============8497578253238914979==
+--===============3903429113272694247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bc04fba357a-312310928417.txt
+Content-Disposition: attachment; filename=revlist-183a6f5c6e1e-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============8497578253238914979==--
+--===============3903429113272694247==--
