@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1569364079770277325=="
+Content-Type: multipart/mixed; boundary="===============5808709271581727667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 06 Apr 2022 12:42:39 -0000
-Message-Id: <164924895993.11606.10706082777879734015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 06 Apr 2022 12:43:18 -0000
+Message-Id: <164924899886.12153.9510450610808148699@gitolite.kernel.org>
 
---===============1569364079770277325==
+--===============5808709271581727667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
   - ref: refs/heads/fixes
-    old: 6f66db29e2415cbe8759c48584f9cae19b3c2651
-    new: 0be0b70df6611205ac392d0e21f7e077f3230ee6
-    log: revlist-6f66db29e241-0be0b70df661.txt
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============1569364079770277325==
+--===============5808709271581727667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f66db29e241-0be0b70df661.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
@@ -1049,6 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-0be0b70df6611205ac392d0e21f7e077f3230ee6 pinctrl: alderlake: Fix register offsets for ADL-N variant
 
---===============1569364079770277325==--
+--===============5808709271581727667==--
