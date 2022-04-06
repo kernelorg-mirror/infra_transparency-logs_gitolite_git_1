@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0839922470332241240=="
+Content-Type: multipart/mixed; boundary="===============1284846452801392407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Wed, 06 Apr 2022 09:59:21 -0000
-Message-Id: <164923916193.1537.6340289528555575729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 06 Apr 2022 10:01:46 -0000
+Message-Id: <164923930646.3846.17939815976335788088@gitolite.kernel.org>
 
---===============0839922470332241240==
+--===============1284846452801392407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/review-andy
-    old: d25478e1d8f9bf9344cf61a9c02fae88d9930f55
-    new: 0be0b70df6611205ac392d0e21f7e077f3230ee6
-    log: revlist-d25478e1d8f9-0be0b70df661.txt
+  - ref: refs/heads/renesas/v3u/pwm
+    old: e9dda667f896ff014d22fdbe9a93023e36d1f0b4
+    new: 8cff963da6fd2ae0551de0a612f8e30e0643721e
+    log: revlist-e9dda667f896-8cff963da6fd.txt
 
---===============0839922470332241240==
+--===============1284846452801392407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d25478e1d8f9-0be0b70df661.txt
+Content-Disposition: attachment; filename=revlist-e9dda667f896-8cff963da6fd.txt
 
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
-7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
 698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
@@ -1049,6 +1046,9 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-0be0b70df6611205ac392d0e21f7e077f3230ee6 pinctrl: alderlake: Fix register offsets for ADL-N variant
+f0ff0d2cd37ea418875fd1447883b1ed6560c1d8 dt-bindings: pwm: Add R-Car V3U device tree bindings
+58394506ef329a5e468648ac2d7a0b89366d0d63 clk: renesas: r8a779a0: Add PWM clock
+c84dce039a8c014a78724f95d3c8b5396fb668e7 arm64: dts: renesas: r8a779a0: Add PWM nodes
+8cff963da6fd2ae0551de0a612f8e30e0643721e WIP: dts: add pwm0 to falcon
 
---===============0839922470332241240==--
+--===============1284846452801392407==--
