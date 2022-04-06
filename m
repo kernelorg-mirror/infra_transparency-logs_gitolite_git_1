@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8943658742685690565=="
+Content-Type: multipart/mixed; boundary="===============2925321640106068572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 06 Apr 2022 13:25:38 -0000
-Message-Id: <164925153808.10258.16049414830102287537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 06 Apr 2022 13:26:30 -0000
+Message-Id: <164925159072.10635.17968452884451450892@gitolite.kernel.org>
 
---===============8943658742685690565==
+--===============2925321640106068572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1ee375d77bb944321c969b456aa73994566cecf6
-    new: f90e5a3d5b8c6069505eb216884efd0f08fe4bea
-    log: revlist-1ee375d77bb9-f90e5a3d5b8c.txt
+    old: c178216f5eea84fd27daae68c3d1ec632a833f5a
+    new: 1ff04f633248e430d73fa6732d4b815d62390eb3
+    log: |
+         1ff04f633248e430d73fa6732d4b815d62390eb3 fix up queue-4.19/block-don-t-merge-across-cgroup-boundaries-if-blkcg-is-enabled.patch
+         
 
---===============8943658742685690565==
+--===============2925321640106068572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ee375d77bb9-f90e5a3d5b8c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ed941f65da8166a0ffb82fec30ac331f348fb4d1 dt-bindings: net: convert mscc-miim to YAML format
-b0385d4c1fffe0152eabf4f20ff5f937524e9398 dt-bindings: net: mscc-miim: add clock and clock-frequency
-bb2a1934ca01d32ab7d8d109e574682199725afd net: phy: mscc-miim: add support to set MDIO bus frequency
-44ec5f71a035ec736c2c59f1ef75ce70cff570d7 Merge branch 'mscc-miim'
-1dafd0d607032ac3cdb7f6298342b93b9dc7b3e1 dt-bindings: net: mediatek: add optional properties for the SoC ethernet core
-d776a57e4a284b33bc839687afe9c381f3577eee net: ethernet: mtk_eth_soc: add support for coherent DMA
-3abd063019b6a01762f9fccc39505f29d029360a arm64: dts: mediatek: mt7622: add support for coherent DMA
-55c1c4e945fa98a91fac699914c4b456e63d8fad dt-bindings: arm: mediatek: document WED binding for MT7622
-f14ac41b785f231573fe935a2eb5aaf737447f0c dt-bindings: arm: mediatek: document the pcie mirror node on MT7622
-804775dfc2885e93a0a4b35db1914c2cc25172b5 net: ethernet: mtk_eth_soc: add support for Wireless Ethernet Dispatch (WED)
-a333215e10cb5d3b1e0685ca117f0e9452215485 net: ethernet: mtk_eth_soc: implement flow offloading to WED devices
-e9b65ecb7c3050dd34ee22ce17f1cf95e8405b15 arm64: dts: mediatek: mt7622: introduce nodes for Wireless Ethernet Dispatch
-817b2fdf166766b462a034a8cc87d0b53c0054ec net: ethernet: mtk_eth_soc: add ipv6 flow offload support
-bb14c19122b768c3d659da2e91fb9324a2374d06 net: ethernet: mtk_eth_soc: support TC_SETUP_BLOCK for PPE offload
-1ccc723b5829d63a29627e1d2de2da84efd037c2 net: ethernet: mtk_eth_soc: allocate struct mtk_ppe separately
-c4f033d9e03e99fb024b2300d61e099aa7646bb7 net: ethernet: mtk_eth_soc: rework hardware flow table management
-8ff25d377445dcc587584b7c0228bf0eafb26f9f net: ethernet: mtk_eth_soc: remove bridge flow offload type entry support
-33fc42de33278b2b3ec6f3390512987bc29a62b7 net: ethernet: mtk_eth_soc: support creating mac address based offload entries
-f90e5a3d5b8c6069505eb216884efd0f08fe4bea Merge branch 'mtk_eth_soc-flo-offload-plus-wireless'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649251589 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1649251588-b97bfda07fadc76c7cf605a62a59a5685aa1aa32
 
---===============8943658742685690565==--
+c178216f5eea84fd27daae68c3d1ec632a833f5a 1ff04f633248e430d73fa6732d4b815d62390eb3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJNlQUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rWMP/0TvNsoNNoV2KMopsM6B
+jHyEAVFerkbnwg0SH/7x25UCyq7asYhpZzrci6nphMyh80S5G1M/PGTXdqjUBz10
+weGuMjtenud938FNvOpU8PrZmlMclBqb56m0KVYo66DxfuN35eicEGuG/hNTSP9w
+XndNO2cNosg1Fw+os7Hh/CY5NhTAtd0dPojG7LEPK1FmkV9fHcuocYrdLu/1w0+1
+WqO+VnqC1Q8nMt+HQWFmpmOecdrccJtnTSB2guD4JJcly8Y89UV0U23g2O3jgJZv
+fX+psTrlVIPIrNyG6YuxTXyzgG1lt1xABVdECRte5EEm8vGHOCHTeG/kpkZn3S26
+IGBQ0K95QkE05OyRW/f9p7CZ5V84iZlqC7aDa3HYuktnPNTZbu1TNLQrGBgl2yor
+IFQ6GTZvMkPbNBIrfRf085ZjfGRkiYTsk6STs03ipCBpuEEwg4kdKCU+slv8eX/l
+8yLPe9mSohodRbrXScma8+Twv/bE6CvWVPnuuy80f26kMe9fBJEKub47XEQIBy1z
+fzN4v667EZIiBoKSla4AJ0FxRaguOb2h0X2kmdXvgyO8vqewsAaRvQstXD0XWsR4
+NgiI9nHYIgbVJIp09e6KNYP+34TzHxqUIiqXhzLyY9bpglvvxBYZxFOQA0QZYfus
+EPlY+Sz4kXyS6aZbTQ+H0IBZ
+=y5Xr
+-----END PGP SIGNATURE-----
+
+--===============2925321640106068572==--
