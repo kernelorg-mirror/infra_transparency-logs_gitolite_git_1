@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5986597269271817382=="
+Content-Type: multipart/mixed; boundary="===============1945292734617140279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
-Date: Wed, 06 Apr 2022 16:54:12 -0000
-Message-Id: <164926405281.19611.4455373726204920577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
+Date: Wed, 06 Apr 2022 16:55:50 -0000
+Message-Id: <164926415028.21571.798480064068114264@gitolite.kernel.org>
 
---===============5986597269271817382==
+--===============1945292734617140279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+repo: pub/scm/linux/kernel/git/jkirsher/next-queue
 user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: 1158f79f82d437093aeed87d57df0548bdd68146
-    new: b423e54ba965b4469b48e46fd16941f1e1701697
-    log: revlist-1158f79f82d4-b423e54ba965.txt
+    old: 3123109284176b1532874591f7c81f3837bbdc17
+    new: 487dc3ca60e3e420d54bcc613cb49e8e85f34569
+    log: revlist-312310928417-487dc3ca60e3.txt
 
---===============5986597269271817382==
+--===============1945292734617140279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1158f79f82d4-b423e54ba965.txt
+Content-Disposition: attachment; filename=revlist-312310928417-487dc3ca60e3.txt
 
-31818213170caa51d116eb5dc1167b88523b4fe1 netfilter: bitwise: fix reduce comparisons
-42193ffd79bd3acd91bd947e53f3548a3661d0a1 netfilter: nf_tables: memcg accounting for dynamically allocated objects
-f9124c68f05ffdb87a47e3ea6d5fae9dad7cb6eb ice: synchronize_rcu() when terminating rings
-72b915a2b444e9247c9d424a840e94263db07c27 ice: xsk: fix VSI state check in ice_xsk_wakeup()
-e19778e6c911691856447c3bf9617f00b3e1347f ice: clear cmd_type_offset_bsz for TX rings
-03eb7daec59f9b273d87141a5e8c4bea24fb3358 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-1d7e4fd72bb9be080c23a099b0dff1007109fc2b net: micrel: Fix KS8851 Kconfig
-3f2a3050b4a3e7f32fc0ea3c9b0183090ae00522 net: openvswitch: don't send internal clone attribute to the userspace.
-11f8e7c122ce013fa745029fa8c94c6db69c2e54 net: ethernet: mv643xx: Fix over zealous checking of_get_mac_address()
-1f30fb9166d4f15a1aa19449b9da871fe0ed4796 net: openvswitch: fix leak of nested actions
-1946014ca3b19be9e485e780e862c375c6f98bad rxrpc: fix a race in rxrpc_exit_net()
-fb5833d81e4333294add35d3ac7f7f52a7bf107f net: sfc: fix using uninitialized xdp tx_queue
-d1c4f93e3f0a023024a6f022a61528c06cf1daa9 net: axienet: setup mdio unconditionally
-ab3a5d4c6081dbcfd90d19cc9849af89c6985d0f net: axienet: factor out phy_node in struct axienet_local
-dc48f04fd6562de6019e9fc7ed9ed539d632babb dt-bindings: net: add pcs-handle attribute
-19c7a43912c61a3bcc09f220cd8681d35c1bec79 net: axiemac: use a phandle to reference pcs_phy
-9386d1811f343db5fc11aba10441108a7411e8f1 Merge branch 'axienet-broken-link'
-8d90991e5bf7fdb9f264f5f579d18969913054b7 net: phy: mscc-miim: reject clause 45 register accesses
-74edbe9edeeffbf5a57f02ac8e8665bc5dbe8ffc Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-a3ebe92a0f2dfaeac257b685531decf8c9cd8eee net: ipv6mr: fix unused variable warning with CONFIG_IPV6_PIMSM_V2=n
-4e910dbe36508654a896d5735b318c0b88172570 qede: confirm skb is allocated before using
-afb8e246527536848b9b4025b40e613edf776a9d net: usb: aqc111: Fix out-of-bounds accesses in RX fixup
-b423e54ba965b4469b48e46fd16941f1e1701697 myri10ge: fix an incorrect free for skb in myri10ge_sw_tso
+6f2f36e5f932c58e370bff79aba7f05963ea1c2a mlxsw: spectrum_router: simplify list unwinding
+0b5c21bbc01e92745ca1ca4f6fd87d878fa3ea5e net: ensure net_todo_list is processed quickly
+f4b41f062c424209e3939a81e6da022e049a45f2 net: remove noblock parameter from skb_recv_datagram()
+1ee375d77bb944321c969b456aa73994566cecf6 net, uapi: remove inclusion of arpa/inet.h
+ed941f65da8166a0ffb82fec30ac331f348fb4d1 dt-bindings: net: convert mscc-miim to YAML format
+b0385d4c1fffe0152eabf4f20ff5f937524e9398 dt-bindings: net: mscc-miim: add clock and clock-frequency
+bb2a1934ca01d32ab7d8d109e574682199725afd net: phy: mscc-miim: add support to set MDIO bus frequency
+44ec5f71a035ec736c2c59f1ef75ce70cff570d7 Merge branch 'mscc-miim'
+1dafd0d607032ac3cdb7f6298342b93b9dc7b3e1 dt-bindings: net: mediatek: add optional properties for the SoC ethernet core
+d776a57e4a284b33bc839687afe9c381f3577eee net: ethernet: mtk_eth_soc: add support for coherent DMA
+3abd063019b6a01762f9fccc39505f29d029360a arm64: dts: mediatek: mt7622: add support for coherent DMA
+55c1c4e945fa98a91fac699914c4b456e63d8fad dt-bindings: arm: mediatek: document WED binding for MT7622
+f14ac41b785f231573fe935a2eb5aaf737447f0c dt-bindings: arm: mediatek: document the pcie mirror node on MT7622
+804775dfc2885e93a0a4b35db1914c2cc25172b5 net: ethernet: mtk_eth_soc: add support for Wireless Ethernet Dispatch (WED)
+a333215e10cb5d3b1e0685ca117f0e9452215485 net: ethernet: mtk_eth_soc: implement flow offloading to WED devices
+e9b65ecb7c3050dd34ee22ce17f1cf95e8405b15 arm64: dts: mediatek: mt7622: introduce nodes for Wireless Ethernet Dispatch
+817b2fdf166766b462a034a8cc87d0b53c0054ec net: ethernet: mtk_eth_soc: add ipv6 flow offload support
+bb14c19122b768c3d659da2e91fb9324a2374d06 net: ethernet: mtk_eth_soc: support TC_SETUP_BLOCK for PPE offload
+1ccc723b5829d63a29627e1d2de2da84efd037c2 net: ethernet: mtk_eth_soc: allocate struct mtk_ppe separately
+c4f033d9e03e99fb024b2300d61e099aa7646bb7 net: ethernet: mtk_eth_soc: rework hardware flow table management
+8ff25d377445dcc587584b7c0228bf0eafb26f9f net: ethernet: mtk_eth_soc: remove bridge flow offload type entry support
+33fc42de33278b2b3ec6f3390512987bc29a62b7 net: ethernet: mtk_eth_soc: support creating mac address based offload entries
+f90e5a3d5b8c6069505eb216884efd0f08fe4bea Merge branch 'mtk_eth_soc-flo-offload-plus-wireless'
+be8d9d05271c961dfe366793a3886f4bd6f39dca net: ethernet: xilinx: use of_property_read_bool() instead of of_get_property
+207d924dcf324fa4334938a38463aa0f1fcdc756 net: usb: remove duplicate assignment
+a5b116a0fa90d6d0e7af4f39199a6ae1f0afc9c7 net: wan: remove the lanmedia (lmc) driver
+487dc3ca60e3e420d54bcc613cb49e8e85f34569 ip6_tunnel: Remove duplicate assignments
 
---===============5986597269271817382==--
+--===============1945292734617140279==--
