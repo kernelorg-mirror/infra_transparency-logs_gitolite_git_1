@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Wed, 06 Apr 2022 13:00:50 -0000
-Message-Id: <164925005022.24709.11819539388204680737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 06 Apr 2022 13:01:22 -0000
+Message-Id: <164925008228.24945.4653709890203731037@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next-iomap
-    old: 0e069e471e44a6b815325bd7ac4afb7bb67884ca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next.bob8b
-    old: 9b9f6f5008fddeb5e2dc922ce7182613406dd0a3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next.iomap
-    old: bdd4fedc673bbdd55878334f66fe4a3d9a3b4d5d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next.mmap-fault
-    old: b01b2d72da25c000aeb124bc78daf3fb998be2b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next.next
-    old: 0a74390b85beb073a176bc55da525f5ef925781a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 0b5c21bbc01e92745ca1ca4f6fd87d878fa3ea5e
+    new: 1ee375d77bb944321c969b456aa73994566cecf6
+    log: |
+         f4b41f062c424209e3939a81e6da022e049a45f2 net: remove noblock parameter from skb_recv_datagram()
+         1ee375d77bb944321c969b456aa73994566cecf6 net, uapi: remove inclusion of arpa/inet.h
+         
