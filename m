@@ -1,84 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============5072257257269422473=="
+Content-Type: multipart/mixed; boundary="===============1587404710230850088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 06 Apr 2022 22:50:03 -0000
-Message-Id: <164928540372.28048.17980692936069099364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 06 Apr 2022 22:51:21 -0000
+Message-Id: <164928548168.28545.13596287783383562175@gitolite.kernel.org>
 
---===============5072257257269422473==
+--===============1587404710230850088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: ff0f3f83175274daf2eb4fd4db6430ab71c66e80
-    new: 16fbb29615782e05a8acb6a177cd81d18f30425b
-    log: revlist-ff0f3f831752-16fbb2961578.txt
+  - ref: refs/heads/main
+    old: faa21c10d44184f616d391c158dcbb13b9c72ef3
+    new: 07330a41d66a2c9589b585a3a24ecdcf19994f19
+    log: |
+         350296cc78912c245847ec65e55143053450cce1 ls-tree: `-l` should not imply recursive listing
+         5b52d9f15e311b82ee5f5c5ed9927c65b63731bf git-compat-util: really support openssl as a source of entropy
+         2e37594797155e5d6134db3ce1e23bf42045934b configure.ac: fix HAVE_SYNC_FILE_RANGE definition
+         8af0699b7a86a6f3c2fe9b745bcbe56ec777feac Documentation/Makefile: fix "make info" regression in dad9cd7d518
+         f2a2876f5a4a9c5250d8f64bd468677d506a956a contrib/scalar: fix 'all' target in Makefile
+         0f0303a479477cfd4f766bdfb955c7f2ebe9227a Merge branch 'ab/make-optim-noop'
+         327933fbbc9b3dd40525373d70355be6482fca0c Merge branch 'ns/core-fsyncmethod'
+         95acb13a550cbc07a5ef38ffceb5678fac61acff Merge branch 'bc/csprng-mktemps'
+         07330a41d66a2c9589b585a3a24ecdcf19994f19 Merge branch 'tl/ls-tree-oid-only'
+         
+  - ref: refs/heads/master
+    old: faa21c10d44184f616d391c158dcbb13b9c72ef3
+    new: 07330a41d66a2c9589b585a3a24ecdcf19994f19
+    log: |
+         350296cc78912c245847ec65e55143053450cce1 ls-tree: `-l` should not imply recursive listing
+         5b52d9f15e311b82ee5f5c5ed9927c65b63731bf git-compat-util: really support openssl as a source of entropy
+         2e37594797155e5d6134db3ce1e23bf42045934b configure.ac: fix HAVE_SYNC_FILE_RANGE definition
+         8af0699b7a86a6f3c2fe9b745bcbe56ec777feac Documentation/Makefile: fix "make info" regression in dad9cd7d518
+         f2a2876f5a4a9c5250d8f64bd468677d506a956a contrib/scalar: fix 'all' target in Makefile
+         0f0303a479477cfd4f766bdfb955c7f2ebe9227a Merge branch 'ab/make-optim-noop'
+         327933fbbc9b3dd40525373d70355be6482fca0c Merge branch 'ns/core-fsyncmethod'
+         95acb13a550cbc07a5ef38ffceb5678fac61acff Merge branch 'bc/csprng-mktemps'
+         07330a41d66a2c9589b585a3a24ecdcf19994f19 Merge branch 'tl/ls-tree-oid-only'
+         
+  - ref: refs/heads/next
+    old: 1a0ee253ff9b576ec0564f7f220d3739736aa3fe
+    new: f748c5af7adbbc28de793572b96a8784c2fec8a6
+    log: |
+         0f0303a479477cfd4f766bdfb955c7f2ebe9227a Merge branch 'ab/make-optim-noop'
+         327933fbbc9b3dd40525373d70355be6482fca0c Merge branch 'ns/core-fsyncmethod'
+         95acb13a550cbc07a5ef38ffceb5678fac61acff Merge branch 'bc/csprng-mktemps'
+         07330a41d66a2c9589b585a3a24ecdcf19994f19 Merge branch 'tl/ls-tree-oid-only'
+         f748c5af7adbbc28de793572b96a8784c2fec8a6 Sync with 'master'
+         
+  - ref: refs/heads/seen
+    old: 7c48d7355643d010c1944c30e13e38519a9e6d0b
+    new: 46768a607e3d63f7eafe5e4cdd291d824ec5f03e
+    log: revlist-7c48d7355643-46768a607e3d.txt
 
---===============5072257257269422473==
+--===============1587404710230850088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff0f3f831752-16fbb2961578.txt
+Content-Disposition: attachment; filename=revlist-7c48d7355643-46768a607e3d.txt
 
-0b9e66762aa0cda2a9c2d5542d64e04dac528fa6 btrfs: zoned: traverse devices under chunk_mutex in btrfs_can_activate_zone
-62ed0bf7315b524973bb5fb9174b60e353289835 btrfs: zoned: remove left over ASSERT checking for single profile
-b642b52d0b50f4d398cb4293f64992d0eed2e2ce btrfs: fix qgroup reserve overflow the qgroup limit
-bbac58698a55cc0a6f0c0d69a6dcd3f9f3134c11 btrfs: remove device item and update super block in the same transaction
-05fd9564e9faf0f23b4676385e27d9405cef6637 btrfs: fix fallocate to use file_modified to update permissions consistently
-75a36a7d3ea904cef2e5b56af0c58cc60dcf947a btrfs: avoid defragging extents whose next extents are not targets
-a7d16d9a07bbcb7dcd5214a1bea75c808830bc0d btrfs: do not warn for free space inode in cow_file_range
-60021bd754c6ca0addc6817994f20290a321d8d6 btrfs: prevent subvol with swapfile from being deleted
-7414539c5f2e43bad67ae88a3612455d01583429 Revert "virtio: use virtio_device_ready() in virtio_device_restore()"
-c18c86808b78c4c2dc69f27f37c57abab14ee387 Revert "virtio_config: introduce a new .enable_cbs method"
-55ebf0d60e3cc6c9e8593399e185842c00e12f36 vdpa: mlx5: prevent cvq work from hogging CPU
-1c80cf031e0204fde471558ee40183695773ce13 vdpa: mlx5: synchronize driver status with CVQ
-eafe3cf7933c1d201ddb3a97e154ab41e31acf22 io_uring: drop the old style inflight file tracking
-ce4c854ee8681bc66c1c369518b6594e93b11ee5 Merge tag 'for-5.18-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-b988dfb16cdc2a7e9affe1d5ba79ac0abc748af0 Revert "io_uring: Add support for napi_busy_poll"
-73924ec4d560257004d5b5116b22a3647661e364 x86/pm: Save the MSR validity status at context setup
-e2a1256b17b16f9b9adf1b6fea56819e7b68e463 x86/speculation: Restore speculation related MSRs during S3 resume
-3e732ebf7316ac83e8562db7e64cc68aec390a18 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-2a04b02c5bb9636ea1e7aa8412e49a71bba57087 io_uring: implement compat handling for IORING_REGISTER_IOWQ_AFF
-013c09006c62d2a3e102b09d79a2cb722c114a42 io_uring: nospec index for tags on files update
-2ac9afad1491dbf2f1330f4ac79ef34f2ade3bc9 io_uring: don't touch scm_fp_list after queueing skb
-84ab2dd83bc21befc3a81c681a7d7aa89ab2a1da block: allow using the per-cpu bio cache from bio_alloc_bioset
-4cfaf0f604afe836756bcafb6c8a5cdef9056ef6 block: allow use of per-cpu bio alloc cache by block drivers
-adff355a6d6602d6be7be4c98e39d1d957a7e53f drbd: fix duplicate array initializer
-a9cb5060fabb46187c8b00ac740bc30f045baa8e drbd: address enum mismatch warnings
-c8057a1ec541f972d0ca2ab14a77bd0f6a1919e3 block: drbd: drbd_receiver: Remove redundant assignment to err
-25dddd7771061c0d7176d396117244e19ce30858 drbd: Make use of PFN_UP helper macro
-ad94e90806ac935c91dc6f048cec6c6ec4069cec drbd: Replace "unsigned" with "unsigned int"
-40dad92d68aab52919d98524eb8aa87ed23596c8 drdb: Switch to kvfree_rcu() API
-c0bf7a4c2313c46f2ba14b78a622a7e32bbbb2ac drbd: Return true/false (not 1/0) from bool functions
-b0561c4ac046c1bc10455abe57ec0d1000e814d0 Merge branch 'io_uring-5.18' into for-5.19/io_uring
-483a68560fa919f10438ca211ee6c571a83557bc Merge branch 'for-5.19/block' into for-next
-2ca94c0421a900cc4a1f5f025c6d3febdb246471 Merge branch 'for-5.19/drivers' into for-next
-94b1e6cf5ba2e3ce7bf69947b66a8f1d970051df io_uring: small optimisation of tctx_task_work
-23d647f9fbdcb364f21e0204cb86170af6117596 io_uring: remove extra ifs around io_commit_cqring
-5bc2ea43bd5d4b5964505b06be01195e9c2809e3 io_uring: refactor io_req_find_next
-8985e84d92ceb5b13c04aa2068c1b6631c6ea1fa io_uring: optimise io_free_batch_list
-b3e9cff2f955a44417fa444e17c0a1c876736d9d io_uring: move poll recycling later in compl flushing
-cd072566ebc77f654c63ca3fd400a9da1c5519b7 io_uring: clean up io_queue_next()
-133c2526698a093c4c4f7f9bff60f0a5dfd7b92f io_uring: split off IOPOLL argument verifiction
-cab54563dfe1afcfd5c449de20efed24851bd876 io_uring: pre-calculate syscall iopolling decision
-a1f983b2c96b0b1482f4f44a64b960e6ebacb71a io_uring: optimise mutex locking for submit+iopoll
-d840c000be5906baf3536227e74d2b80838a8216 io_uring: cleanup conditional submit locking
-81afa90912511a5ade2f5d3a837fcd8f0c87d695 io_uring: partially uninline io_put_task()
-f3ee1998be477941fcc18d7940f98baeb96b5deb io_uring: silence io_for_each_link() warning
-72fd82c87b17e872262e245e27089f2731eeb3a4 io_uring: refactor io_req_add_compl_list()
-f716e946f1f24990bfa8138ba7c98bd9f36bd4c6 io_uring: move finish_wait() outside of loop in cqring_wait()
-a24f367143fc5ee52e76ecd2052e29944eef6cc2 io_uring: don't scm-account for non af_unix sockets
-a5caac29ed885094e6cebe0af19a7ffbbc453ca3 fs: split off setxattr_copy and do_setxattr function from setxattr
-3935e2c159cfae51c40a9b15c68742ba83ba3691 fs: split off do_getxattr from getxattr
-fc6a5dd789a78f1aa5a7f33e529081cd2d042510 io_uring: add fsetxattr and setxattr support
-11664a39147320f725c38b407341f962dfd1d915 io_uring: add fgetxattr and getxattr support
-06bde5ad4fce68767ab4d86755f024cab8b1c8a3 Merge branch 'for-5.19/io_uring' into for-next
-16fbb29615782e05a8acb6a177cd81d18f30425b Merge branch 'for-5.19/io_uring-xattr' into for-next
+0f0303a479477cfd4f766bdfb955c7f2ebe9227a Merge branch 'ab/make-optim-noop'
+327933fbbc9b3dd40525373d70355be6482fca0c Merge branch 'ns/core-fsyncmethod'
+95acb13a550cbc07a5ef38ffceb5678fac61acff Merge branch 'bc/csprng-mktemps'
+07330a41d66a2c9589b585a3a24ecdcf19994f19 Merge branch 'tl/ls-tree-oid-only'
+147f9a7cbf08192e4019c8683687802023a65783 Merge branch 'ab/misc-cleanup' into jch
+788289a4cf5bc7312407987895e8f441fbdd7f59 Merge branch 'tk/untracked-cache-with-uall' into jch
+bed42ed5f79ebe5c397051e3bb0b10bfc217d8fa Merge branch 'jh/p4-various-fixups' into jch
+1240e3a7c34f459d124702639cb870cca6634486 Merge branch 'fr/vimdiff-layout' into jch
+dd756768280625f018f28da413a35b35b66cff3a Merge branch 'ea/progress-partial-blame' into jch
+e9b81b1f6ee33e468072cd2c42e0cef58ae7e797 ### match next
+b7539c6df50c25e685882916fb33259e6aaa72b6 Merge branch 'ns/batch-fsync' into jch
+88c62038bd0d8fabaf064c3c0f839edfc062c556 Merge branch 'gf/shorthand-version-and-help' into jch
+7d5c28bbaa40dda7aea519e7bbc4be0f2ed344bf Merge branch 'dl/prompt-pick-fix' into jch
+c579d0ee995958b7859e3162f9dd60dc2de99fcd Merge branch 'en/merge-tree' into jch
+ef7ccf2e7c1375c94ab0deef178eba07e6e19860 Merge branch 'js/use-builtin-add-i' into jch
+466498354d2ee7741a0909718fa74759c52e1e7f Merge branch 'js/scalar-diagnose' into jch
+20289f9b6544fb616969d59b8a873f49bca88bdd Merge branch 'et/xdiff-indirection' into jch
+8a66568a3d21a3eb092fd697e3b988ce1fcafcb4 Merge branch 'js/bisect-in-c' into jch
+48ee7ca1eb9f9913a876ab7f8ba5d19798a768e2 Merge branch 'tk/simple-autosetupmerge' into jch
+7ddcdcafc48f694f7069a2e43079053ea0be90ef Merge branch 'gf/unused-includes' into jch
+3f117f1c121238c7221f33ca909df0af455e19e6 Merge branch 'ah/convert-warning-message' into jch
+020bd493ef01b3501f3eb9d7b4e1dfb50d68fb6c Merge branch 'pb/submodule-recurse-mode-enum' into jch
+c32d8a1ad899df0f426b61a3f0fc626372af90e1 Merge branch 'km/t3501-use-test-helpers' into jch
+720f0661bce17ee16f1839b39a6ad366f9919305 Merge branch 'rs/commit-summary-wo-break-rewrite' into jch
+e73dea1d00df5603b547dd0bdf5683e2912006f7 Merge branch 'tk/p4-utf8-bom' into seen
+405a5a2b1810c5328c1e5a243d27cb408768b297 Merge branch 'tk/p4-with-explicity-sync' into seen
+d4a0452393709bf50105d4b5ff71557c96b55cdf Merge branch 'cg/vscode-with-gdb' into seen
+99bd250556e72a9cf18639d24054dbf88f106e94 Merge branch 'jh/builtin-fsmonitor-part3' into seen
+ac438a4f781defdbb9834b78f0a531ec21c43f5b Merge branch 'tb/cruft-packs' into seen
+ea21efab16994cbe8bcb4f2b66ac39c1bac4f77f Merge branch 'ab/commit-plug-leaks' into seen
+632beebc51d5e3a7c9cc4033c70f4b9a0853acea Merge branch 'en/sparse-cone-becomes-default' into seen
+b87db28f92468ce043a31db1c9816b03154122d3 Merge branch 'kf/p4-multiple-remotes' into seen
+39b9713530d0274dd15f9f2cdcea1552f70785f8 Merge branch 'bc/stash-export' into seen
+9e70c59e459a764915db2865a7738caeb7e842f3 Merge branch 'ab/plug-leak-in-revisions' into seen
+3b03482ad8c5213cfa755139df19ad8428f809e4 Merge branch 'ab/http-gcc-12-workaround' into seen
+9d2ed2a1e104bfb0df87ed86cfcc54c11af833c7 Merge branch 'ab/ci-setup-simplify' into seen
+46768a607e3d63f7eafe5e4cdd291d824ec5f03e Merge branch 'ab/ci-github-workflow-markup' into seen
 
---===============5072257257269422473==--
+--===============1587404710230850088==--
