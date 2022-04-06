@@ -1,31 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2363663671633716394=="
+Content-Type: multipart/mixed; boundary="===============4093230729210408963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 06 Apr 2022 08:45:04 -0000
-Message-Id: <164923470474.4563.14238375515772503753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Wed, 06 Apr 2022 08:52:54 -0000
+Message-Id: <164923517458.8419.495970304295273874@gitolite.kernel.org>
 
---===============2363663671633716394==
+--===============4093230729210408963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/renesas/usleep_autoyield
-    old: 4512b9d196ad21001c7a7d53430c63159abf96bb
-    new: e7b0a81fc653a469f8375cedd333cc8961d523c9
-    log: revlist-4512b9d196ad-e7b0a81fc653.txt
+  - ref: refs/heads/ti-k3-dts-next
+    old: a033588ec66bffd6cb51f946b2e998a9f9bf598d
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-a033588ec66b-312310928417.txt
 
---===============2363663671633716394==
+--===============4093230729210408963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4512b9d196ad-e7b0a81fc653.txt
+Content-Disposition: attachment; filename=revlist-a033588ec66b-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
+adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
+bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
+3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
+737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
+d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
+144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
 8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
 436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
 1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
@@ -1036,19 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-6d7c35aeaa0b9cbf8685c56c7ec70a8306f8d145 delay: rename fsleep to usleep_autoyield
-c31fba14fd3e551b705d6ff3e9ddf334d4c4efb0 base: regmap: use new name 'usleep_autoyield' instead of 'fsleep'
-556448d2d1d3999af842f87f578eebf4ff4ca5b0 memory: tegra: use new name 'usleep_autoyield' instead of 'fsleep'
-8710d91b8e5cf67f4135494cedacc34a0c56155b mfd: use new name 'usleep_autoyield' instead of 'fsleep'
-acab0f452258dcff50cb982c43ccabf6500edca5 mux: use new name 'usleep_autoyield' instead of 'fsleep'
-b085ede83d7fbbb682bccbffdae2ada6999f51f6 net: ethernet: realtek: use new name 'usleep_autoyield' instead of 'fsleep'
-2715e8155853852c8dd542b4bdc78263e3a3dce3 net: mdio: use new name 'usleep_autoyield' instead of 'fsleep'
-c55ae8a1363e57f9c537c4cedf9df030b98b0435 net: phy: use new name 'usleep_autoyield' instead of 'fsleep'
-19ec028c32565bb41300d1794e2bf2a99069bdb7 rtw88: use new name 'usleep_autoyield' instead of 'fsleep'
-2cbc7204f45402e4e92622fcc6882d9906e34e7e rtw89: use new name 'usleep_autoyield' instead of 'fsleep'
-9613b3d695ce8d9a29be804d4fcb5ef83ab1ef04 thermal: tegra: use new name 'usleep_autoyield' instead of 'fsleep'
-6f4f7a37d573fd0bf25509b6adde6ee737cd1df2 usb: chipidea: use new name 'usleep_autoyield' instead of 'fsleep'
-431edc388e1ae32e60879dbefe438c05a91838fc bus: mhi: use new name 'usleep_autoyield' instead of 'fsleep'
-e7b0a81fc653a469f8375cedd333cc8961d523c9 delay: remove the fallback for fsleep
 
---===============2363663671633716394==--
+--===============4093230729210408963==--
