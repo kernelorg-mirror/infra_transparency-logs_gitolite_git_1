@@ -1,49 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7113716694822538892=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brauner/linux
-Date: Thu, 07 Apr 2022 11:05:05 -0000
-Message-Id: <164932950583.10966.15628671650644938003@gitolite.kernel.org>
-
---===============7113716694822538892==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Thu, 07 Apr 2022 11:19:27 -0000
+Message-Id: <164933036786.19577.5413347056258790428@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brauner/linux
-user: brauner
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/tags/fs.idmapped.overlay.v5
-    old: b9a97e9779e5684ddff509a8c2019f4c8be4aea9
-    new: c62a88b5b5d262147cbbcd13bd7255584c4ae671
-    log: revlist-b9a97e9779e5-c62a88b5b5d2.txt
-
---===============7113716694822538892==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9a97e9779e5-c62a88b5b5d2.txt
-
-db93f3ae80f250a3cd12d79313ac8e5adbce3707 fs: add two trivial lookup helpers
-4d65a37f14531d98ffba66ba2714b5f8f22c3206 exportfs: support idmapped mounts
-3b1c7b8534e14365975b8f2b444b37332eb1b0a0 ovl: use wrappers to all vfs_*xattr() calls
-0b3ffb393eb010272f0c2706874c1fcc37131fc1 ovl: pass ofs to creation operations
-5304c8fe9777a3f1e211e4f0a416597e2d11b127 ovl: add ovl_upper_mnt_userns() wrapper
-38a251670897bad01fe253b886f5f91558d1bc94 ovl: handle idmappings in creation operations
-11455282c1796252910376474ac1456f58d83323 ovl: pass ofs to setattr operations
-17123dc441478d9cf8945817837dc79b90c47def ovl: pass layer mnt to ovl_open_realfile()
-355f06ad3d559c1130cf5840b8bc3471fe6428ad ovl: use ovl_do_notify_change() wrapper
-cc88b9edce1903138eeec37cc7bcd56e17a5cdef ovl: use ovl_lookup_upper() wrapper
-b662a4345aeea4634e10a6c4dac94a0b84adcaf3 ovl: use ovl_path_getxattr() wrapper
-f009069cf0857f1e70013849c20fd4c2fb420b4e ovl: handle idmappings for layer fileattrs
-29e92dedf42c12f7f8afb654eb256dae70fd2f97 ovl: handle idmappings for layer lookup
-1f80915a08c733483c4371c72ea5e2095efea058 ovl: store lower path in ovl_inode
-be9ddf3ec1dae528d9b03198850f7b69fb9df719 ovl: use ovl_copy_{real,upper}attr() wrappers
-8d18ad9a7eae598a7a162057533d20b753927baa ovl: handle idmappings in ovl_permission()
-b1fb9bfb68185342afc0df5d556930941911ac44 ovl: handle idmappings in layer open helpers
-095f45d2a6252ba818bf00311f2d83b774acd498 ovl: handle idmappings in ovl_xattr_{g,s}et()
-7d354bcd37d1af3ac755f347203cf16dece93738 ovl: support idmapped layers
-
---===============7113716694822538892==--
+  - ref: refs/heads/devel
+    old: 07372ee4338f0966f31b4389b9fb68f5d46b393c
+    new: 100a309b4d75252d31b3ae0e69d6469ac0e0f522
+    log: |
+         3e2f6b2fcaa221e58730695c27d33d4c00f80bf6 tty: serial: subhv: don't pass xmit to transmit_chars()
+         743b0d50fa27bf3f80e5f8e4a3cac2db0e01687c tty/serial/sunplus-uart: mark sunplus_console_ports static
+         7b1d9d425a284841bfe8d8d9ffc8d9b0b3be7c1b tty/serial/xilinx_uartps: clean up cdns_uart_handle_tx()
+         113b9f23b5f84cc073323a29f94c9daf479e2a99 tty/serial/zs: use NULL as a pointer, not 0
+         977858b1b952395763e2a47a94e69dd0b2f22a42 tty: serial, use kfifo
+         3ac0687bf451dff5fe5efacb905fd7c561683334 tty: 8250_dma, use dmaengine_prep_slave_sg
+         b70694fdb968d5e97869626a8cdca99ca9dec8d0 tty: 8250_omap, use dmaengine_prep_slave_sg
+         dea848f47bb67e2d6b83d79dac335852ea468c82 tty: serial: allow COMPILE_TEST for some drivers
+         a622537ea53cff9b17ec027e7cfb8fac6cd18876 qcom: use empty check instead of pending
+         100a309b4d75252d31b3ae0e69d6469ac0e0f522 serial fifo
+         
