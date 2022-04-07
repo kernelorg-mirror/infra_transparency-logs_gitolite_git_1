@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6231546745588223607=="
+Content-Type: multipart/mixed; boundary="===============1560861998254453927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Thu, 07 Apr 2022 17:26:58 -0000
-Message-Id: <164935241828.21717.5809892206150137134@gitolite.kernel.org>
+Date: Thu, 07 Apr 2022 17:27:59 -0000
+Message-Id: <164935247918.22236.9079574073221299548@gitolite.kernel.org>
 
---===============6231546745588223607==
+--===============1560861998254453927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: c700525fcc06b05adfea78039de02628af79e07a
     new: ec4eb8a86ade4d22633e1da2a7d85a846b7d1798
     log: revlist-c700525fcc06-ec4eb8a86ade.txt
 
---===============6231546745588223607==
+--===============1560861998254453927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b423e54ba965b4469b48e46fd16941f1e1701697 myri10ge: fix an incorrect free for skb
 8e9d0d7a76c556e8b73289555950917db13d2077 Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec4eb8a86ade4d22633e1da2a7d85a846b7d1798 drivers: net: slip: fix NPD bug in sl_tx_timeout()
 
---===============6231546745588223607==--
+--===============1560861998254453927==--
