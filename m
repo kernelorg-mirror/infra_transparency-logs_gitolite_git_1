@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4432296144533449628=="
+Content-Type: multipart/mixed; boundary="===============8574429420827950803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Thu, 07 Apr 2022 00:58:26 -0000
-Message-Id: <164929310692.12401.6524584981592241110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Thu, 07 Apr 2022 01:28:04 -0000
+Message-Id: <164929488438.4303.17424484283203848824@gitolite.kernel.org>
 
---===============4432296144533449628==
+--===============8574429420827950803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/lam
-    old: 3dc2eec37388724d85c67c2c8e61d1f6d0ccd2ad
-    new: 73447e771c55e18598a6fbf6adee1002aee18ea0
-    log: revlist-3dc2eec37388-73447e771c55.txt
+  - ref: refs/heads/extcon-next
+    old: 4e63832f5daf6d76e8c6fe5c84b493572717535c
+    new: 4a17c3246de780d249caca212419505eefa08395
+    log: revlist-4e63832f5daf-4a17c3246de7.txt
 
---===============4432296144533449628==
+--===============8574429420827950803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dc2eec37388-73447e771c55.txt
+Content-Disposition: attachment; filename=revlist-4e63832f5daf-4a17c3246de7.txt
 
 3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
 737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
@@ -1040,15 +1040,15 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-68985c7958f58f05a230aed34665a103a0f94318 x86/mm: Fix CR3_ADDR_MASK
-05b7e771a36886b71ab45cbe5170abc59a28e519 x86: CPUID and CR3/CR4 flags for Linear Address Masking
-6ac1325944aa9e400a79d0fe6282603303a9b464 x86: Introduce userspace API to handle per-thread features
-60f86b8b127970af2abe029ade2d6003c77844a4 x86/mm: Introduce X86_THREAD_LAM_U48 and X86_THREAD_LAM_U57
-a8518a882ffdc65ff9995eef2c9acaf2daefecb1 x86/mm: Provide untagged_addr() helper
-92948bd2c12648f2fb8256ae69dd092ce4398a3a x86/uaccess: Remove tags from the address before checking
-64fd8482430d052d020c7dd9f484a754c6af7988 x86/mm: Handle tagged memory accesses from kernel threads
-1bf93a29bd972a30c53c4f41614986e523ae3c5b x86/mm: Make LAM_U48 and mappings above 47-bits mutually exclusive
-d4e785c333c5cfacdc663cb05ea375238393027e x86/mm: Add userspace API to enable Linear Address Masking
-73447e771c55e18598a6fbf6adee1002aee18ea0 x86: Expose thread features status in /proc/$PID/arch_status
+88490c7f43c4178590b66a412cdce1bdce88253b extcon: Fix extcon_get_extcon_dev() error handling
+82863c686bb73e1b3c163f5da90c63694e134513 extcon: int3496: Make the driver a bit less verbose
+9c7c2d7220b7700a33e22fd20e20a7799cb3daa1 extcon: int3496: Request non-exclusive access to the ID GPIO
+02031581ecd836352ab93e9307d5b2ee4a7f681a extcon: int3496: Add support for binding to plain platform devices
+f7d716e017ece6e6891ce0d6f9dfbc54af2f8c4c extcon: int3496: Add support for controlling Vbus through a regulator
+9f0c6dd18a28eb32e6e2d5735ff11f3548eff6a0 extcon: usbc-cros-ec: Use struct_size() helper in kzalloc()
+970246af83d406f63752686502ec85a3a9844f33 extcon: Fix some kernel-doc comments
+f7a534907e340e0b8a827370d4ab94482b4e7099 extcon: usb-gpio: Remove disable irq operation in system sleep
+eba50edb678da5d9201c5febcd8bd3edaf1a04ac dt-bindings: extcon: bindings for SM5703
+4a17c3246de780d249caca212419505eefa08395 extcon: sm5502: Add support for SM5703
 
---===============4432296144533449628==--
+--===============8574429420827950803==--
