@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7991487553482223161=="
+Content-Type: multipart/mixed; boundary="===============5020101488615705779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 07 Apr 2022 17:42:53 -0000
-Message-Id: <164935337389.32650.8223713815053480162@gitolite.kernel.org>
+Date: Thu, 07 Apr 2022 17:45:42 -0000
+Message-Id: <164935354248.3690.5400923977777303847@gitolite.kernel.org>
 
---===============7991487553482223161==
+--===============5020101488615705779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 7288ff561de650d4139fab80e9cb0da9b5b32434
-    new: f8525b9763c61f54d1abdcce2821468dc416cda1
+  - ref: refs/heads/staging-testing
+    old: f8525b9763c61f54d1abdcce2821468dc416cda1
+    new: de0f170888513978d73fbfe055ae041c21ba83b7
     log: |
-         4a5fb1bbcdf1cccae1f6b9c0277b3796b2a468ef wfx: get out from the staging area
-         f8525b9763c61f54d1abdcce2821468dc416cda1 Merge branch 'wfx-move-out-of-staging' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next into staging-next
+         727841e02b65b36505fde45ec4983ed1291e1729 staging: r8188eu: use PTR_ALIGN() instead of RND4()
+         79f5d88f16fe13e13d9255502ec8367352250314 staging: r8188eu: use round_up() instead of _RND4()
+         c63e792bb7ccc3c1091272d6a009d6eb6ad18614 staging: r8188eu: use round_up() instead of _RND8()
+         1d3319b2cc45dde29878c9710171b4cfec9c39ce staging: r8188eu: use round_up() instead of _RND128()
+         de0f170888513978d73fbfe055ae041c21ba83b7 staging: r8188eu: remove unused _RND* from osdep_service.h
          
 
---===============7991487553482223161==
+--===============5020101488615705779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649353373 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649353540 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649353372-5cc96a2ddd01ce874c58573bb0f7d45a0d90a54b
+nonce 1649353539-90ade9c8b4b67c9f142f09cb3d11ff076ec3a905
 
-7288ff561de650d4139fab80e9cb0da9b5b32434 f8525b9763c61f54d1abdcce2821468dc416cda1 refs/heads/staging-next
+f8525b9763c61f54d1abdcce2821468dc416cda1 de0f170888513978d73fbfe055ae041c21ba83b7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJPIp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WiEQAJZr/BA7ZF9ngkEh9i6a
-ymKYFtksF5NkpBIqjtNaX+l4+2AIUweyGx516nRc35nVY7KDKc0ii631ehia2a39
-NUoHiXd8R0rydZsdvf+p5soe09du9v8OFnpQ4YSe6QjIzfrVenDp9OVF0N3wdpSS
-MLqY+8MQufkXnJAJyVkYOtPkVMLtDx8a8fva3o60vUi0ZBjh0ualsiVBGeHweu6k
-kwaAWMh5QklTmMQirsbyKUM3Snq9kkYp/iulxTRYPKtOSFZltA92BvjM5rG3kNWl
-nTQJ0CqjHJ5Y/m7HC0UHqqDXfAoZFqnkw4/b1B9ubIIRu1nVb7iiOXFjhWpSQ8En
-5qXwV6dqiBf3eYXU2o/dzXrMP9DnknZ1gnaJ208KUsHZY79wPvzKh3Kp7alt1vt5
-G74idkKqH74stPpwxi/MlfiVTdJAJ7PLn23Ke1B56muq9r0W1JHa/z7LsLf/Q7eA
-/Hsn1oWCsdveRr+PXZA/sE3JAu0XHlvFUI0IqY2tXzwt+NaJ8T1jwIPb8lm/FCsc
-t6w1awGb7e0Y6OLMhaxkenFR9fK6rHN0Js0vd0FA1tel8oPNIRBkhg0Yi5M2SLan
-kAda0Ix9/ipBXgFO8BJoGXa8kuxE14GgF9Ee5U9ihwyjMsGJhGCj59yHIjyQSM4R
-jWR5ixglgzoZrFzEBq/kEZp6
-=dBR0
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJPI0QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GsIP/17SmUmkoyyRjJqfyWH8
+dkTqVONn99TnlKIRO7Mc0zQyn/oWcazTk5pHZr/FWUGk+W+yNrFc5GXDYDCF6yTK
+DFTvntj9ey26DkD5XYRYRxIYXLAE/H9qM+AG/wJGqaOkVvnNJUsWHuvbZSelOn73
+pslE4wTePLU4hzTkEha9bHVrzxqcn58dRL+wIkenWOUXkdI2X+52B2rMucE0dZn2
+LRKsFtOgqzCuts4kkS6yQ/nSdx/pCMXgc1nasAiA5UpxuxHCGcT1pjfQ0TxX9D7X
+CBWqFYXFafzLqEfdTQGcew7InBpEiTrTRGrpD9nZBtCs+pLJNiGM6fMkt+Xujh5k
+Wmj/5mN+0WfqKwmubwT5f9ogFswBOSUA+TYC1jPIXPkfS1m9WP+0gZYRz90qUA5Y
+rJwj7e+j2OL+rmgR7+ReDE5VmBRsRnxEjgQsJea6BrjsM5CY6BFhsXC53CHEOagQ
+U0oSyUnVhkd+9s24q8H3d/vG91nTa1NfLUwA0DxkyA89z3Tt+JW7P/a8SHDaT6g5
+KnPwEvxQu4SklVAq/wPK+OtLzydxw+WJRmTOMnfw3Ukjv9AQWnhr7Z98nfivmQzN
+MGcSoH5T9Az3YgluHG0P0sAxrhzSF7i/wYdMnahGtBsT5WzYpvXZaw72Cr1qRcyk
+6BoET6mG0l6/52CasWyrz/iX
+=I11k
 -----END PGP SIGNATURE-----
 
---===============7991487553482223161==--
+--===============5020101488615705779==--
