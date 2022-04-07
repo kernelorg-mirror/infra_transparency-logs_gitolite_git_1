@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1711712646658861914=="
+Content-Type: multipart/mixed; boundary="===============6587262984461106369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 07 Apr 2022 09:37:26 -0000
-Message-Id: <164932424628.29138.7997307737906502530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 07 Apr 2022 09:37:33 -0000
+Message-Id: <164932425333.29240.11700060936060599474@gitolite.kernel.org>
 
---===============1711712646658861914==
+--===============6587262984461106369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: 89bac792faf03fae5a9564bebfaacab53a029932
     new: fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc
     log: |
@@ -24,7 +24,7 @@ changes:
          d00887c106dac47b9af6ed70e8d5c45b69c4bd52 ASoC: fsl_sai: fix 1:1 bclk:mclk ratio support
          fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc ASoC: Intel: sof_rt5682: Add support for max98360a speaker amp on SSP2
          
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: b7560e8a4de6331009e4ed72afc876d131d1860c
     new: 40658542d7713b6f1b51556ef91822f9ca8942d0
     log: |
@@ -41,29 +41,29 @@ changes:
          40658542d7713b6f1b51556ef91822f9ca8942d0 ASoC: wm8731: use simple i2c probe function
          
 
---===============1711712646658861914==
+--===============6587262984461106369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649324244 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1649324243-6d8718114f1bc39dcd753ff5691968b6d5543afd
+pusher C3F436CA30F5D8EB 1649324251 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649324250-7aa0b11e4925014373d8e103d084982a65188036
 
-89bac792faf03fae5a9564bebfaacab53a029932 fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc refs/heads/for-5.18
-b7560e8a4de6331009e4ed72afc876d131d1860c 40658542d7713b6f1b51556ef91822f9ca8942d0 refs/heads/for-5.19
+89bac792faf03fae5a9564bebfaacab53a029932 fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc refs/heads/asoc-5.18
+b7560e8a4de6331009e4ed72afc876d131d1860c 40658542d7713b6f1b51556ef91822f9ca8942d0 refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJOsNQACgkQJNaLcl1U
-h9DwLAf+Ivfk7o3sm4qERkqj59IzJ6HYyZEJWGPxIA72vI5MkcLhx5riYptW/1bj
-oa5Yz1NYHi4SPYVVk4xJ3VJkJp4ZqHrUeSkPDIS2LQaB2AdCQ+L+V27HZpomrwlB
-o5AaeWjj3YyyYbiUQeJAdC/RApUcJ7k628bJzn3Pt/NgAh877pe6CtY05oHAlvFc
-ElnxBoZ6+en/8lcWr2vE6riz2wUA52o1xPIu9DhA/pA1jkOJ0qrYRbharzK+912y
-9ino2MzHMmmHVhunqUTm06Dk+52wp4PysH0i3ZYajiBEHnuhW4Hma5ittSsLmf9m
-RInIpAh/mIn2kkFZSpUlP/i15aapYw==
-=zDK1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJOsNsACgkQJNaLcl1U
+h9DXkQf/d9Z5MKRI1KlZUIqpgDl3UHX8wPEMzVck7pKHkmWRj9OUPiE3K97fid0g
+lg3IU/JNMr2oSPMBtZlXCFRrmDe/Z3UNJuxBXCasnlBvzhxE4UvEWopYxJadiiFj
+OkjTDFiVTf8CMeZABonuLKUg7UNzxl99YvHpMl3HG0iZTPCWvQHpXPCjXZq9s0EI
+HKWqQratLpQtTQP3PyMRBZ+/Ob/6qJZFxodHfuHUKz1IwTIDcXuxMMlAuq3Zoufs
+cK4+fGV2iitQkkA/sb74jKX1TnAzoBgNGck4yPx2xnilBAW+wsysp4Az6x92ymyp
+AHQuTy2wPJiY1IA5B/JjBDdS+AM9hA==
+=vf3g
 -----END PGP SIGNATURE-----
 
---===============1711712646658861914==--
+--===============6587262984461106369==--
