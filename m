@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4311456841906250080=="
+Content-Type: multipart/mixed; boundary="===============8481712501231048602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Thu, 07 Apr 2022 09:12:50 -0000
-Message-Id: <164932277020.12024.3786638582306186227@gitolite.kernel.org>
+Date: Thu, 07 Apr 2022 09:18:03 -0000
+Message-Id: <164932308380.16400.15253212077296816668@gitolite.kernel.org>
 
---===============4311456841906250080==
+--===============8481712501231048602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: b09c68dc57c9d44071d83bb935b733f53ea2b2b4
     new: cdc86e473b353c8a026a337ee9fb9e1fbbe2276b
     log: revlist-b09c68dc57c9-cdc86e473b35.txt
 
---===============4311456841906250080==
+--===============8481712501231048602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 cdc86e473b353c8a026a337ee9fb9e1fbbe2276b clk: imx8mq: add 27m phy pll ref clock
 
---===============4311456841906250080==--
+--===============8481712501231048602==--
