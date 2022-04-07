@@ -1,27 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 07 Apr 2022 18:48:09 -0000
-Message-Id: <164935728925.11193.13981593165312009036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 07 Apr 2022 18:50:03 -0000
+Message-Id: <164935740367.13211.14456177060520435104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: a1a2b7125e1079cfcc13a116aa3af3df2f9e002b
-    new: 081e8432adb192dd61a346eb23d3c415acb2fcaf
+  - ref: refs/heads/for-5.19/io_uring
+    old: 94a8adaa1d21ea104b462580370843a54603d4b2
+    new: d9ed9fcf4bd6b8997d7e7533b650e18fa6273ed1
     log: |
-         3225de1be4c57ab1371fa2f4717672abdbf98755 dt-bindings: net: smsc,lan91c111 convert to schema
-         92298ea34a8546f11989d122e8f0937d002faeb6 dt-bindings: qcom: update maintainers (drop Akash and Mukesh)
-         d6a4371c3cdd4febb6ccb860832409fd9a61e12a spi: dt-bindings: qcom,spi-qup: convert to dtschema
-         a5b7063f6dde18f9a5b0356a1941e1ea4a499ea1 dt-bindings: serial: qcom,msm-uartdm: convert to dtschema
-         71f333a1dddccdd636d42118c66dda68aee149ed dt-bindings: i2c: qcom,i2c-qup: convert to dtschema
-         0557dc5ea2e4b9f8fb85f61445873fba26078b03 dt-bindings: qcom: qcom,gsbi: convert to dtschema
-         2b18b93e199510429fce0f799df6418eadf9bd08 dt-bindings: vendor-prefixes: add Enclustra
-         fe88f5f70b9f1df16eabab4a558cf5cf567a1940 dt-bindings: i2c: convert i2c-mt65xx to json-schema
-         081e8432adb192dd61a346eb23d3c415acb2fcaf dt-bindings: reset: Drop the hisilicon,hi6220-reset binding
+         b302191999697ac6972c70d38d16a8a3e9546216 io_uring: uniform SCM accounting
+         daee35f002ecabfaf6b9c6d5adc727b40aeaa048 io_uring: refactor __io_sqe_files_scm
+         6c5f2c03659346f28334b3c757c8e752d96c41e2 io_uring: don't pass around fixed index for scm
+         f8b9357ae7788235abc84ffc8fe1c66e8607aa47 io_uring: deduplicate SCM accounting
+         d9ed9fcf4bd6b8997d7e7533b650e18fa6273ed1 io_uring: rename io_sqe_file_register
+         
+  - ref: refs/heads/for-next
+    old: 22b9c9ba2f2687376acc4ee611942dc610b8fb3f
+    new: 4a8ac351444cf4b449f6aeed294b7026b7f3c30e
+    log: |
+         b302191999697ac6972c70d38d16a8a3e9546216 io_uring: uniform SCM accounting
+         daee35f002ecabfaf6b9c6d5adc727b40aeaa048 io_uring: refactor __io_sqe_files_scm
+         6c5f2c03659346f28334b3c757c8e752d96c41e2 io_uring: don't pass around fixed index for scm
+         f8b9357ae7788235abc84ffc8fe1c66e8607aa47 io_uring: deduplicate SCM accounting
+         d9ed9fcf4bd6b8997d7e7533b650e18fa6273ed1 io_uring: rename io_sqe_file_register
+         4a8ac351444cf4b449f6aeed294b7026b7f3c30e Merge branch 'for-5.19/io_uring' into for-next
          
