@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Thu, 07 Apr 2022 20:11:45 -0000
-Message-Id: <164936230584.32492.14404896978325015534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 07 Apr 2022 20:13:32 -0000
+Message-Id: <164936241211.1924.13153923186116579544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/xen/tip
+user: ostr
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 3a88469c908d452b98446a75a4726eb84d4656f6
-    new: 1d089e8dabb1183f79e24738e29c179244c01e91
+  - ref: refs/heads/linux-next
+    old: de2ae403b4c0e79a3410e63bc448542fbb9f9bfc
+    new: 262fc47ac17461c8cdc71c70aff6c3ea45acb0b9
     log: |
-         1d089e8dabb1183f79e24738e29c179244c01e91 xhci: increase usb U3 -> U0 link resume timeout from 100ms to 500ms
+         262fc47ac17461c8cdc71c70aff6c3ea45acb0b9 xen/balloon: don't use PV mode extra memory for zone device allocations
          
