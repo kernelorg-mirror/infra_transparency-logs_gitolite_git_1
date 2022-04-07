@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7180218852629116717=="
+Content-Type: multipart/mixed; boundary="===============2649926706439697926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 07 Apr 2022 17:52:26 -0000
-Message-Id: <164935394693.7425.15797301403672408778@gitolite.kernel.org>
+Date: Thu, 07 Apr 2022 17:52:51 -0000
+Message-Id: <164935397137.7609.11800584963220878382@gitolite.kernel.org>
 
---===============7180218852629116717==
+--===============2649926706439697926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 9cd3cf7d44453824f914b459808002e07e21e4e1
-    new: 808d5dbeec7863db7c85217dafee02203a4bec94
+    old: 808d5dbeec7863db7c85217dafee02203a4bec94
+    new: 847a04d676ef41b1b336cddfbd75badd09511bef
     log: |
-         95b8f316aea3b741fb8028d984e15bb0d1d9a1ac staging: r8188eu: format comments in drivers/net style
-         94c82e10ecff6ee0060a800687b255e9d1818052 staging: r8188eu: remove extra 'the'
-         cb9d73dbe2376600d2cfcc262d972e44cbe0a3c2 staging: r8188eu: correct misspelling in comment 'tppe' -> 'type'
-         808d5dbeec7863db7c85217dafee02203a4bec94 staging: r8188eu: use sizeof(*pvar) for allocating structs
+         ed42eb4b2b401462c0100754a0ba83260d7a7829 staging: rtl8723bs: fix indentation
+         847a04d676ef41b1b336cddfbd75badd09511bef staging: rtl8192e: remove multiple blank lines
          
 
---===============7180218852629116717==
+--===============2649926706439697926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649353944 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649353968 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649353943-8cd1bce2b0d8d6b2c7e54d7fa6bacac20b0f4913
+nonce 1649353968-7bcb4ca91c7c0f88f222c37bb02baec16551c65f
 
-9cd3cf7d44453824f914b459808002e07e21e4e1 808d5dbeec7863db7c85217dafee02203a4bec94 refs/heads/staging-testing
+808d5dbeec7863db7c85217dafee02203a4bec94 847a04d676ef41b1b336cddfbd75badd09511bef refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJPJNgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vfwP/1gH66yhhfQpO9Fw/khX
-h+XRO4V+ignDuThLifZ63J1CtY+K/bd1YkH9vw84iHTE5f2UKcpJY1rc/n6O++a6
-fE0AdLncBMu5/3d3TFO+55NTb8KvqzzzSY5NZ8YiYqAO0zg2HK4fRzvVnhJutJ4J
-DmAmwsivMEFuKjxd1Qe27CRcinVtmfNM1CdFv6QJdu/7S3/ASFkr3CdwY73oklo3
-DiZ2Q6rn8Be3GXyfWeIj1i/6XmRvd+1WWL7ihAWg2u3EoT4N/u3zpA9cToMkxC9C
-cI7fQho8v/nDOkw0erN9fplULvRsBfM4k+mp42zqpSGJyvxUrS6sa0nI9hHHFq4f
-nCsLnqacEQAE6cSpC+Ejy4IPHP3cc7aRInpiRkNV2C2ILv2iIodhW1J+nyg2HuPL
-b5hEUbH6aAxHo1iObuyrWNyBqs6Fh1WjN18erBtBJfCYp4lOuUL67H37nIokSOLV
-YmmVBE0c0jZO3iJzJ2VSKX1qoFTNWDyDLUFJU8f6QLTR+Gl9hDNMF2Vr+E2eKKoO
-nLFog+eg4PvnuBj0eDSVYINP6IJUDKxUfl1gwuyqMiJht/S1ELxSbgfilYZJV7PI
-7UdXF8AlWGzYrfCBcDxzkOQfvWox2k9dK4FZXabFH2viYnaUpnh2xVTraR+wm3Fv
-P9Pt7p0ZxKKoYxVgUwDUB61p
-=akWq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJPJPAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4OwQAIaCmRkKwR4sUg5f/Vel
+lNg+4N7aEUyTi4ETxyl9AR3wwaHErvXu91/Yq26eLX/21O0TLAbf/oejv8wPiRLK
+96iw0vy1tYBkWWX9x6WzFdVCxmnqjPnoPOxmNu2m/U2+7NsiZRqelLL/AD7klQtX
+be+cTy1i+iz1yHQTlEzpZj5QJ9k8jglq3D7Sw+6yFW3i0h7RIc+CGNdv7fHecwET
+LeT3rSK2JgOypyvMXMdCoBCwqWZZbWclAwB7uZk2Hw2K7hcz/olDmnjxOjYmkePk
+dh+kJKEYzwE2MrPBmqiB9D9TCH4Ormmcc0VWRsBADZNXbxCbYbKc7Vp3bhs3vEJZ
+KhuLzu2UCt+W9IctJ7E5cviyw9O/lv1wpipSMY9fWyfgihhDAkIqgUPNSTEdeYMZ
+R9Y+Qt8GF62bE+YsKbSWB3Dgs63CJB/LxH8RXDYUUz0FAIRcUn/a1+knbWq8rK/y
+uDBRNKT5OowQJumHz4OKmISllSNLc9p3sKykWAUbBe1Vw+VzigfP+1vKsIexNAzo
+YWlCWhRAQ6alPx/Vrwu1Uunt3a5t2ZYuRLLg1sG6XNw9mKMIknb8PXTpQdCsT/6c
+ZM/sHnAvr1p230xmBLl50LXqp5Zdgr0NXVBMarXgJDFe1VC1dKngEbFH8R8tfYzz
+Il3Kompy0+CV4YyyqC+FqQ/f
+=m3iJ
 -----END PGP SIGNATURE-----
 
---===============7180218852629116717==--
+--===============2649926706439697926==--
