@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4122851439907629141=="
+Content-Type: multipart/mixed; boundary="===============4814278337381122542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 07 Apr 2022 03:42:04 -0000
-Message-Id: <164930292414.26282.4001621820739619975@gitolite.kernel.org>
+Date: Thu, 07 Apr 2022 03:42:17 -0000
+Message-Id: <164930293710.26426.14006857442944941630@gitolite.kernel.org>
 
---===============4122851439907629141==
+--===============4814278337381122542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: a6b758b0420bda28995ea6939ca0808fcec68be4
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-a6b758b0420b-312310928417.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: b44792646a733d11539ff2a558c9c8767feaffbd
+    new: 814f640e01bc06f07fee0f038fa86419364bd958
+    log: revlist-b44792646a73-814f640e01bc.txt
 
---===============4122851439907629141==
+--===============4814278337381122542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1649302915 -0400
+pusher 75C5DE3D 1649302928 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1649302914-5206706797488b15c357a331c5a8bffa21488df9
+nonce 1649302928-f6e943e45543ac26b8b7ff405db2236a75214d8c
 
-a6b758b0420bda28995ea6939ca0808fcec68be4 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/queue
+b44792646a733d11539ff2a558c9c8767feaffbd 814f640e01bc06f07fee0f038fa86419364bd958 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJOXYMACgkQ7ulgGnXF
-3j38Fg//dCAahtch0+4gyf8VPo/PbwD6tisyotViRXKnhiOry6gWOwmY6MaJ2mUP
-sHZf3W3aIr2/RBQSMvbYyZq5xWSLzqNFbFjMgJ4jcIl9J3V61x0wFwjiRW5VYFxv
-E5kZhGgwaqVcBLzLTACRdFyaN10OdQd407hwmR2CoxvhffOCvnGcbwEemGsFiv+6
-JUZAtybh/DpCb4fCdKq87ptiFuSeQ37036Hbau71pF9J+rutxMZDUQ1NIWe7WacU
-sbNlYXxxF+cqy68gYtG6vx6wANUauNfJ9ZCOyg3zA90p/hExza2NDsIWPFvszvUh
-tTkbJdcga1zgNKrkEiuZ8zFo8XOyEfa6aiTLLJY7ocNwzT4J4sEzg0JvkqIAZE+P
-v0VSKvvVhD2dhylImkxwDGh/al9OyxCMGKfRCMm8I9VV5jvJg7N3GqqNQk0uEZn7
-c1NxlQsKD9Nxo1PxyYQJoEErOJAVOrm/yuyUryu9Ggl7Z2HrNfBF+evOdtHkLmvr
-OFRSa8DE6qnTjHOglXkHTk8LMpKGLupiPmdj9oQ/DLcXuTE5ouHk7fuo0XqhvhvG
-L5dq9x8DuA8eCsfZ8OPFErThPAFc8vH/KHmmoinQJx1EYaaeaH2s+JQsGUX9LYzK
-uj5AlIqswYVyFWKgo7MunTe0XdXq48ZkZHD9kfh6wQM7fIVKnTk=
-=VoY6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJOXZAACgkQ7ulgGnXF
+3j2L5w/+LcIFXEXwMUK8ks9xmMtX+eJA/Ej8HFzdzWtuFM+QOPmkGSGm2B0+DhZh
+pWTvU9EYtrybGRQqP6GFQe5x1P5kOd4gbFLhEG/+STmS/VAmqlxtySQkJxR7vPCx
+r3QE0NkJ7UYDUc48uaHjJW2iUlF3WqTK2ZnGOasbpWKOC86ZW1sn4ax95W7pRuJk
+hD68KsGy7wx5/rVCKEe1UbqOoBHfaw8gli9hALbkyANuOkpivc+mRGOAuLHHAL9S
+dmQjFRkx/riMQAwZshaOVoZkbV1D8V1C1ecq3T4yyUZXe1ehZqhG+Beff/EJx3mr
+NPVs2SrgGYVsTQREB2bd+g6+WwtcQAJ5jGNutNgtyqDbJcb13LNNUAGPpSpDiQk5
+meez7hI6iRHDve/qtzuyOBHcr1NmyIf9WOhk/dxdLOdlT/+yfRISVXNl/TZelFUf
+m/1nkFd7bKi82gFjiLGoSkoPhJctvT3ejrKlMDheU9PDv4GIWmVa+J19/njcNWTz
+0oPBHmvw/daVFAaq4E1nyfQQ9DTuTXxyaQ5N+OwVpcPCrCIp37AaBeD9Crgt/KzU
+yb93oSOmROqFiekd677gp38MFx+D+e/WkhiyskO4fA90+W3M3yCQ/dCE9kECM6g5
+GtNN2xUREu5OcvMpGW9Sa/m62RpzN7jAZ+HAhhO6QnNTuAkMg0g=
+=gzcx
 -----END PGP SIGNATURE-----
 
---===============4122851439907629141==
+--===============4814278337381122542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6b758b0420b-312310928417.txt
+Content-Disposition: attachment; filename=revlist-b44792646a73-814f640e01bc.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
@@ -1080,5 +1077,8 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+80890c5ea068661d6fe4a34beb362ca0f2c49c90 scsi: target: Allow changing dbroot if there are no registered devices
+9ad659be37612b036fdbfb535d5f831901f37db2 scsi: ufs: ufshcd-pltfrm: Simplify pdev->dev usage
+0848ccaea664970e559d99348484615ba0f7ab63 scsi: vmw_pvscsi: No need to clear memory after a dma_alloc_coherent() call
 
---===============4122851439907629141==--
+--===============4814278337381122542==--
