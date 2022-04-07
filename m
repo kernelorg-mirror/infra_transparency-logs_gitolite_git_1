@@ -1,51 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7480644911576337837=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 07 Apr 2022 19:50:03 -0000
-Message-Id: <164936100337.20005.9706695147513817853@gitolite.kernel.org>
-
---===============7480644911576337837==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 07 Apr 2022 19:51:46 -0000
+Message-Id: <164936110610.20575.17091737641452546743@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 3e732ebf7316ac83e8562db7e64cc68aec390a18
-    new: 42e7a03d3badebd4e70aea5362d6914dfc7c220b
-    log: revlist-3e732ebf7316-42e7a03d3bad.txt
-
---===============7480644911576337837==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e732ebf7316-42e7a03d3bad.txt
-
-9f8b577f7b43b2170628d6c537252785dcc2dcea Drivers: hv: vmbus: Deactivate sysctl_record_panic_msg by default in isolated guests
-3a5469582c241abca22500f36a9cb8e9331969cf Drivers: hv: vmbus: Fix initialization of device object in vmbus_device_register()
-792f232d57ff28bbd5f9c4abe0466b23d5879dc8 Drivers: hv: vmbus: Fix potential crash on module unload
-37200078ed6aa2ac3c88a01a64996133dccfdd34 Drivers: hv: vmbus: Propagate VMbus coherence to each VMbus device
-8d21732475c637c7efcdb91dc927a4c594e97898 PCI: hv: Propagate coherence from VMbus device to PCI device
-b6cae15b5710c8097aad26a2e5e752c323ee5348 Drivers: hv: vmbus: Prevent load re-ordering when reading ring buffer
-76ed2f61ae3ee5ca6e3ef155a703ab3eee1eb295 ata: libata-sff: Fix compilation warning in ata_sff_lost_interrupt()
-7aa8104a554713b685db729e66511b93d989dd6a ata: sata_dwc_460ex: Fix crash due to OOB write
-5399752299396a3c9df6617f4b3c907d7aa4ded8 ata: libata-core: Disable READ LOG DMA EXT for Samsung 840 EVOs
-527a9867af29ff89f278d037db704e0ed50fb666 random: do not split fast init input in add_hwgenerator_randomness()
-48bff1053c172e6c7f340e506027d118147c8b7f random: opportunistically initialize on /dev/urandom reads
-55b014159ee7af63770cd7f2b6fe926f6dd99335 ata: ahci: Rename CONFIG_SATA_LPM_POLICY configuration item back
-aba120cc101788544aa3e2c30c8da88513892350 random: do not allow user to keep crng key around on stack
-1448769c9cdb69ad65287f4f7ab58bc5f2f5d7ba random: check for signal_pending() outside of need_resched() check
-b3d6dd09ff00fdcf4f7c0cb54700ffd5dd343502 Drivers: hv: balloon: Support status report for larger page sizes
-be5802795cf8d0b881745fa9ba7790293b382280 Drivers: hv: balloon: Disable balloon and hot-add accordingly
-eaa03d34535872d29004cb5cf77dc9dec1ba9a25 Drivers: hv: vmbus: Replace smp_store_mb() with virt_store_mb()
-e3c1c4fd9e6d14059ed93ebfe15e1c57793b1a05 random: check for signals every PAGE_SIZE chunk of /dev/[u]random
-640b5037da8edfaa98d102183ccfe3af5898f94b Merge tag 'ata-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/dlemoal/libata
-3638bd90df9930511fa85f9a811d02feee4e0b97 Merge tag 'random-5.18-rc2-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
-42e7a03d3badebd4e70aea5362d6914dfc7c220b Merge tag 'hyperv-fixes-signed-20220407' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-
---===============7480644911576337837==--
+  - ref: refs/heads/for-next
+    old: 7e4920bf59cb085e148796e937a8e8212fd2bae0
+    new: 5c8f867d5c34908c454a74d7cb46137ff7b0b562
+    log: |
+         836ffc47fa245e58cae51ac40c5ef71be8f4d480 video: fbdev: imxfb: Fix missing of_node_put in imxfb_probe
+         20659598f15ad709158283c4b7f5ea14a29eda2a video: fbdev: neofb: Fix the check of 'var->pixclock'
+         1e3f7394ba5e056b6e0b7eb50971004b1c8738d5 video: fbdev: kyro: Error out if 'lineclock' equals zero
+         409fd657d588c57d6d34a55cb90dac165d5d2992 video: fbdev: vt8623fb: Error out if 'pixclock' equals zero
+         956f8c40eb3f4c583aedc68e723c3a48b5c5f377 video: fbdev: tridentfb: Error out if 'pixclock' equals zero
+         0c02b01216c0e056c53f116b7ce766435e023b78 video: fbdev: arkfb: Error out if 'pixclock' equals zero
+         5c8f867d5c34908c454a74d7cb46137ff7b0b562 video: fbdev: s3fb: Error out if 'pixclock' equals zero
+         
