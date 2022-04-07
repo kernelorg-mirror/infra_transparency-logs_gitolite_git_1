@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 07 Apr 2022 17:17:24 -0000
-Message-Id: <164935184448.15467.8786422562009175043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 07 Apr 2022 17:18:35 -0000
+Message-Id: <164935191588.15940.10286950827000412294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 0029f7580fc10fbda04889a6ce91d49920532b7d
-    new: 2a72fc8153cfba9ecb0e2933af9879654269b13a
+    old: 16950065e36ad542cc326278ac6b895af2902cc9
+    new: 0931ef5f3432e8d2398d4bd9185bcd0e982ffceb
     log: |
-         b9370131645a5176029c75fc9e1df9a10700f997 e1000e: Fix possible overflow in LTR decoding
-         2a72fc8153cfba9ecb0e2933af9879654269b13a igc: Fix suspending when PTM is active
+         ddc2feb2a910a20ed164b889f96ca61eb9f97484 e1000e: Fix possible overflow in LTR decoding
+         0931ef5f3432e8d2398d4bd9185bcd0e982ffceb igc: Fix suspending when PTM is active
          
