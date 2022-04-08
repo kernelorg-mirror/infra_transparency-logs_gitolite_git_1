@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8459666741236234449=="
+Content-Type: multipart/mixed; boundary="===============8463385260104623855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 08 Apr 2022 13:45:30 -0000
-Message-Id: <164942553000.3430.11098231494136156323@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 13:52:40 -0000
+Message-Id: <164942596022.7147.9323706336459082770@gitolite.kernel.org>
 
---===============8459666741236234449==
+--===============8463385260104623855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: bc4f661a45205ccd60bae2641b1be2333621c90c
-    new: 9c916fa3407d344f384fb78baa5cfdd9cfdf8bc0
+    old: 9c916fa3407d344f384fb78baa5cfdd9cfdf8bc0
+    new: 6b58692032c1d9ee9694e446929ebf9f8f2e0f6e
     log: |
-         49ce1b1fbca89e8c4b1cbbd7064b26f7b9d1a365 staging: rtl8192u: replace ternary statement with if and assignment
-         f8ab914705853aa7a971977121c493fc244adb04 staging: rtl8192u: use min_t/max_t macros instead of if else
-         9c916fa3407d344f384fb78baa5cfdd9cfdf8bc0 staging: rtl8723bs: remove header rtw_ioctl.h
+         a6c757f21d313ad227615d896c2dcafe4f7783ff staging: r8188eu: remove unused macros from basic_types.h
+         8fd86c6b8e70ec3d6edac8da1f69b86c009eb14d staging: r8188eu: move struct rt_firmware to rtw_fw.h
+         d9448fa5c13d8345d6c6f5461e94697d2e1ce036 staging: r8188eu: ROMVer is always zero
+         6c03a2dc6db8b0596fbda57df21262dd1bb9ac05 staging: r8188eu: remove unused fields from struct eeprom_priv
+         61e95eac86971c19566c16cd3e4b608d4fd077bd staging: r8188eu: remove unused enums from odm.h
+         0f0360ca067cdab8eb9a33247f27cd99dba24d96 staging: r8188eu: remove unused prototype usbvendorrequest()
+         245be6d3cfd568eddd4b3757c46ad9bc10c1ff3f staging: r8188eu: remove header usb_vendor_req.h
+         f90613bb2cb6496874ea4aad5561727550e84ce3 staging: r8188eu: clean up rtw_ioctl.h
+         6b58692032c1d9ee9694e446929ebf9f8f2e0f6e staging: r8188eu: remove SetHalDefVar8188EUsb()
          
 
---===============8459666741236234449==
+--===============8463385260104623855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649425527 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649425956 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649425526-c9758ad9e976b9940d9dfc1728f3de8bdb410dcd
+nonce 1649425955-8634f28519fa0104998ad0868fa4bab57a27ac7a
 
-bc4f661a45205ccd60bae2641b1be2333621c90c 9c916fa3407d344f384fb78baa5cfdd9cfdf8bc0 refs/heads/staging-testing
+9c916fa3407d344f384fb78baa5cfdd9cfdf8bc0 6b58692032c1d9ee9694e446929ebf9f8f2e0f6e refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJQPHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vUgP/iXyVe7Qu9f7gE9vxHT1
-MeEehscYoK8Fux01JftcJO185ZGtcpOn8qmT7S7cC8CJNIiP/1EQH93H7lBQucRa
-D0OcAL50AZnPL6Q4RXnYvL7pxxg7mPKztBn2POfuVrWN43TYYqFln8fhZQCpLjIz
-TLY/lRgCMPG+3WHW1m1cmN8y8pxmg96mDYTEAXDZ/uYS1pk/1+zyTb0/SB9Zl53N
-+p7xqU1yqF3y5l/PIgxe4MmUj2qIUp5d3PLKR2CDQ3n463ZebCZZmK5qLkwREeou
-61KCcFoCuAsMhrib1SOgEXM3NUrPnDRfjwcDgJo7ooMHpKV+Ozbu4tDi7RCvInsO
-tnaKYui2IA4icMvUODtSvTkUPy8KAVKWEwbN71u25Le3E2ZlnV1X9PymK+XUJCH+
-65jztWw+P8gCprk3x9O8FVO7zaa1syNsNc84TXDYySt3iFDYTxZQwpxwbCaOnaoV
-x7nfqm7KSMNMyLVyHuK8F7oLsZouY3x1WMl7PNKK18wn7cswv+BWkC+ZTgSbb3WQ
-vjyUxC0mqNVTFz8740ya8tDJYRLkF7/1+BFoK0RD+TprHYVavmjByMOEf4B4PiZ4
-4oJFhNYsuq5toZowKlyEsyW0WGJIEtFXpYLhm3Y2KBMbxeHl2UhfToYsPXgBD7M0
-XsSInGhwYuEBLYce1MUXbu7b
-=FIW3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJQPiQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AIIQAIsOE+FOOwDI71wcXUMt
+CdCzzbxcsq8/yWP7Fy+5RPszSLuQAuaPMWvd+2nb9LbhKJS3dIqBcsNhDiRVURrd
+GUYsVitDTnqVjdfSCDu/OLzNqXiwrF4SHO6sDBpzBKMKazd1zdfswlScIVrsiTXx
+IWlnvj30j77Qzy/V1T2yoHLRLjgZ4nyhuX7hk4xF/o2T+cIq6Qvb2zTRvQLrNV+K
+ALwbUY8DruTY/XrDTX7fG6EcejdNlAjYe1jyEHfbt534CIppWL7D7HDxMfVnD7Nc
+F+Sq8FWK2RLK0M/Fxy2/7OczcDm4DEvIQofQ/vZ7f29GW4mzMFdeF5EGZ0X2Gnkv
+hLMlKCHk+Vt2mwGPBrPraNBpucVFTOS+m/ZzJ/6bzoLKVw4yG5KuKZZpkimZWP3O
+wSin8VtMUKgLwlnvC6d3t73X4Bw8BIsupC9tyLa3e1cX5JV3YYKYXNn0Pe2rfo86
+Z6YF4/7fh+RuWBiFbivDYtQYW3MnQPNkbrpNlX3mvJ0FPyinxv3ngsWGPQIzSVnb
+54ZwbJYVwiQ8bfxfzLcRX9tXK/4WRYAjHAEZXErAS32/6sNe41bvQJZ16gOkmPn9
+2iJPP/qwh6dmS+XEEjOLsgaJ0ifToFeZ/Qy7kLgcNU/Y34OKb5x/in6i9AJk0RDu
+EyP2wwnrciyQ9zRyQ5xUGXWN
+=sHA1
 -----END PGP SIGNATURE-----
 
---===============8459666741236234449==--
+--===============8463385260104623855==--
