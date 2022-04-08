@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5359090805585153544=="
+Content-Type: multipart/mixed; boundary="===============4727999566497415250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Fri, 08 Apr 2022 09:46:44 -0000
-Message-Id: <164941120412.28187.13378991911545779876@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 09:46:51 -0000
+Message-Id: <164941121194.28280.18222206091328264760@gitolite.kernel.org>
 
---===============5359090805585153544==
+--===============4727999566497415250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
-    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
+  - ref: refs/heads/gnss-linus
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-26291c54e111-312310928417.txt
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============5359090805585153544==
+--===============4727999566497415250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26291c54e111-312310928417.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============5359090805585153544==--
+--===============4727999566497415250==--
