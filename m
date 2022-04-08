@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 08 Apr 2022 07:39:28 -0000
-Message-Id: <164940356882.26305.2459697321961673843@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 07:41:05 -0000
+Message-Id: <164940366580.28299.17788498126403931102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,20 @@ repo: pub/scm/linux/kernel/git/amlogic/linux
 user: narmstrong
 changes:
   - ref: refs/heads/for-next
-    old: 0663dce87af98a175b6335be5c2ef9420b01682d
-    new: 934f70908203f5cc80b5dbd54d4b33b64d53c839
+    old: 934f70908203f5cc80b5dbd54d4b33b64d53c839
+    new: 8fde03854b27fbdccefd8f205835c59d2f02036d
     log: |
-         23de7b8dd5d04bad018090f3e4569956cd453371 ARM: dts: meson: align SPI NOR node name with dtschema
-         0a0ef80a6652b3e7da10353501e925aee32574fd arm64: dts: meson: align SPI NOR node name with dtschema
-         934f70908203f5cc80b5dbd54d4b33b64d53c839 Merge branch 'v5.19/dt64' into for-next
+         8771ce5eadb5b73daab190c2451172e43e16ae41 arm64: dts: meson: align SPI NOR node name with dtschema
+         e8662d0832431a069f0138da72c638cb6a377bdd ARM: dts: meson: align SPI NOR node name with dtschema
+         8b8a03c721423e115c6247e8c04aa73ac7572245 Merge branch 'v5.19/dt64' into for-next
+         8fde03854b27fbdccefd8f205835c59d2f02036d Merge branch 'v5.19/dt' into for-next
          
   - ref: refs/heads/v5.19/dt64
-    old: 085f7a298a14ed2a088c8ba01d2feda2499cbc72
-    new: 0a0ef80a6652b3e7da10353501e925aee32574fd
+    old: 0a0ef80a6652b3e7da10353501e925aee32574fd
+    new: 8771ce5eadb5b73daab190c2451172e43e16ae41
     log: |
-         23de7b8dd5d04bad018090f3e4569956cd453371 ARM: dts: meson: align SPI NOR node name with dtschema
-         0a0ef80a6652b3e7da10353501e925aee32574fd arm64: dts: meson: align SPI NOR node name with dtschema
+         8771ce5eadb5b73daab190c2451172e43e16ae41 arm64: dts: meson: align SPI NOR node name with dtschema
          
+  - ref: refs/heads/v5.19/dt
+    old: 0000000000000000000000000000000000000000
+    new: e8662d0832431a069f0138da72c638cb6a377bdd
