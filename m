@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Fri, 08 Apr 2022 15:49:20 -0000
-Message-Id: <164943296081.20429.12357842606608214198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 08 Apr 2022 15:49:24 -0000
+Message-Id: <164943296408.20529.1982658704637063475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 9353c7748b0d6e7763d8f92dedb2bd623e862e57
-    new: c5f44f8d381e9fc52831fe5d9f8ad4318444169d
+  - ref: refs/heads/for-next
+    old: 981a340540381532652731a500ba9df768bcef7d
+    new: 0bd1767942625c0f7654b7f0829920e1dabcfbcf
     log: |
-         c5f44f8d381e9fc52831fe5d9f8ad4318444169d doc: Update the test-runner documentation
+         998282c6dad8ff0f981d2f18b1d0278760ff5d81 dt-bindings: qcom,pdc: Add SM6350 compatible
+         0bd1767942625c0f7654b7f0829920e1dabcfbcf dt-bindings: thermal: tsens: Add SM6350 compatible
          
