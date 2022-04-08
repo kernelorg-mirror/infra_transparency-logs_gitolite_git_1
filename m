@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 08 Apr 2022 21:36:50 -0000
-Message-Id: <164945381091.27067.18243509938286182905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 Apr 2022 21:41:17 -0000
+Message-Id: <164945407710.29994.8048347248282536978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 85b15c268f29263658dc9e9dff5847be935d4f0f
-    new: 58389c00d49cf4f9bee50530901834a8503240b6
+    old: 74befa447e6839cdd90ed541159ec783726946f9
+    new: e2d88f9ce678cd33763826ae2f0412f181251314
     log: |
-         58389c00d49cf4f9bee50530901834a8503240b6 net: phy: micrel: ksz9031/ksz9131: add cabletest support
+         d452088cdfd5a4ad9d96d847d2273fe958d6339b mlxsw: i2c: Fix initialization error flow
+         e2d88f9ce678cd33763826ae2f0412f181251314 sctp: use the correct skb for security_sctp_assoc_request
          
