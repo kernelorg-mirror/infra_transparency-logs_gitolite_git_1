@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 08 Apr 2022 18:40:32 -0000
-Message-Id: <164944323296.8031.7473258525234564065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Fri, 08 Apr 2022 18:41:00 -0000
+Message-Id: <164944326092.8239.1888960138506536471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-rc
-    old: 4d809f69695d4e7d1378b3a072fa9aef23123018
-    new: 2bbac98d0930e8161b1957dc0ec99de39ade1b3c
+  - ref: refs/heads/jd/not-zero-entropy
+    old: f0d793bb1b5fdd21065c0a08b0c48077f7a69559
+    new: ac7d8411f0216fe77e48592ed0ff2ccbd599d0de
     log: |
-         2bbac98d0930e8161b1957dc0ec99de39ade1b3c RDMA/hfi1: Fix use-after-free bug for mm struct
+         6ac7346f1a724e1ed8752a5212a9c84bedcc5823 um: use sched_clock() for random_get_entropy() instead of zero
+         128235d170700a47a9eace5e4e3312d20ae92c9c sparc: use sched_clock() for random_get_entropy() instead of zero
+         ac7d8411f0216fe77e48592ed0ff2ccbd599d0de xtensa: use sched_clock() for random_get_entropy() instead of zero
          
