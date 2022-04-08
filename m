@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Apr 2022 22:18:35 -0000
-Message-Id: <164945631518.22361.15670862660806759673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 08 Apr 2022 22:18:54 -0000
+Message-Id: <164945633432.22507.9898166922707331787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/for-next
-    old: 658d87687cd5a6c8762d1de8abee1e6792d8d71e
-    new: 097caa843feaf0781bd34bc091e0fd32fb2e0caf
+  - ref: refs/heads/tip
+    old: 20bf9fd92653328dce28fd1bab6cf5e1112f5f95
+    new: d9abadab6ffd55cb008c6c78975d8eaeb847fc3c
     log: |
-         097caa843feaf0781bd34bc091e0fd32fb2e0caf libbpf: Add ARC support to bpf_tracing.h
+         d9abadab6ffd55cb008c6c78975d8eaeb847fc3c auto-x86-next: Add x86/tdx
          
