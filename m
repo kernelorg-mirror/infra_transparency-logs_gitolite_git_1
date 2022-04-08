@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-Date: Fri, 08 Apr 2022 14:41:50 -0000
-Message-Id: <164942891002.6564.8138305498488795470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Fri, 08 Apr 2022 14:43:00 -0000
+Message-Id: <164942898046.7294.15625663711725117695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
-user: sforshee
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/notes/signatures/tar
-    old: c45ab9fbeaef0439227d04ae3289c16f228e357f
-    new: 03b8fb991e6f08df8a863cee948a56fe520956d2
-    log: |
-         03b8fb991e6f08df8a863cee948a56fe520956d2 Notes added by 'git notes add'
-         
+  - ref: refs/heads/pci/dwc
+    old: 0000000000000000000000000000000000000000
+    new: 88557685cd72cf0db686a4ebff3fad4365cb6071
