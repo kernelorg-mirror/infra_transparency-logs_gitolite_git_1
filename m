@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 08 Apr 2022 22:58:47 -0000
-Message-Id: <164945872785.15880.15854662106022789414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
+Date: Fri, 08 Apr 2022 23:23:42 -0000
+Message-Id: <164946022237.32120.6681110447393169392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/dborkman/pw
+user: dborkman
 changes:
-  - ref: refs/tags/fscache-fixes-20220408
-    old: 0000000000000000000000000000000000000000
-    new: 50ed6176001f65958acd2edce6f1774c93c3749d
+  - ref: refs/heads/master
+    old: 4bd16e509f51706a40790f77f4eeedacaf3330d3
+    new: fa0560f53216bc4392d71412556a66318fb81f6f
+    log: |
+         fa0560f53216bc4392d71412556a66318fb81f6f pw: Add Paolo to the pull-req template and email addresses
+         
