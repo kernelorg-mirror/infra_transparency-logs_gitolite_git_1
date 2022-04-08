@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 08 Apr 2022 16:21:46 -0000
-Message-Id: <164943490675.11634.6516955251556700909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+Date: Fri, 08 Apr 2022 16:23:40 -0000
+Message-Id: <164943502080.12333.4434345688814621757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/sforshee/wireless-regdb
+user: sforshee
 changes:
-  - ref: refs/heads/dev-queue
-    old: 016c4aa3106f0d4bd69cb5c1871fd1e4dfec8e66
-    new: 7661ae0babaf78f62387af0d87fb08d0f130e220
+  - ref: refs/notes/signatures/tar
+    old: a44076c71746e3c4ce06a90d64528d8a1c3bab39
+    new: a9090a5ee8c16547ba2ff69a9301de836061a2c2
     log: |
-         7661ae0babaf78f62387af0d87fb08d0f130e220 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+         a9090a5ee8c16547ba2ff69a9301de836061a2c2 Notes removed by 'git notes remove'
          
