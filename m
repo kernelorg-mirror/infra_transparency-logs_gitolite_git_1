@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Fri, 08 Apr 2022 10:48:55 -0000
-Message-Id: <164941493512.2784.2547000927753171388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 08 Apr 2022 10:55:19 -0000
+Message-Id: <164941531978.7720.12646077389348058613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/pci/qcom
-    old: 20f1bfb8dd6274d1c0b059dd489f0fe2d8fe7a7b
-    new: 3007ba831ccdd2165f05f66e769e0c30ec525736
+  - ref: refs/heads/master
+    old: 73b193f265096080eac866b9a852627b475384fc
+    new: 5a80059d88046b0a87e957565363ba3ee57600bb
     log: |
-         f52d2a0f0d32f7b8fd2244f8980cd7f6b0a051d1 dt-bindings: pci: qcom: Document PCIe bindings for SM8150 SoC
-         3007ba831ccdd2165f05f66e769e0c30ec525736 PCI: qcom: Add SM8150 SoC support
+         2610bd72efe4b376febd477425769f647152a3a8 dt-bindings: net: ave: Clean up clocks, resets, and their names using compatible string
+         5a80059d88046b0a87e957565363ba3ee57600bb dt-bindings: net: ave: Use unevaluatedProperties
          
