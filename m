@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/song/md
-Date: Fri, 08 Apr 2022 16:58:18 -0000
-Message-Id: <164943709882.2957.14482586405962821112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 08 Apr 2022 17:07:12 -0000
+Message-Id: <164943763288.8678.16300713207720944097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/song/md
-user: song
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/md-next
-    old: 5511fdbd0e85b611bc625968f20a70f878b80472
-    new: b02bedf04a09eb3e12f5a4193ac5ccf9b00bc36a
+  - ref: refs/heads/dt/next
+    old: 981a340540381532652731a500ba9df768bcef7d
+    new: 0bd1767942625c0f7654b7f0829920e1dabcfbcf
     log: |
-         6862e98be9fc5bbd6293388f32c51b7b14b06618 md/bitmap: don't set sb values if can't pass sanity check
-         b02bedf04a09eb3e12f5a4193ac5ccf9b00bc36a md: replace deprecated strlcpy & remove duplicated line
+         998282c6dad8ff0f981d2f18b1d0278760ff5d81 dt-bindings: qcom,pdc: Add SM6350 compatible
+         0bd1767942625c0f7654b7f0829920e1dabcfbcf dt-bindings: thermal: tsens: Add SM6350 compatible
          
