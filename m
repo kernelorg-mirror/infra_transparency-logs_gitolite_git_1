@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4482969758460272158=="
+Content-Type: multipart/mixed; boundary="===============1553312706650309510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 08 Apr 2022 09:46:02 -0000
-Message-Id: <164941116244.27692.17711879786985568834@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 09:46:12 -0000
+Message-Id: <164941117293.27834.3173958125706409432@gitolite.kernel.org>
 
---===============4482969758460272158==
+--===============1553312706650309510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: 4ac56b1f1ef8139dbfc5dab918aa235e8344ec4e
+  - ref: refs/heads/master
+    old: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-4ac56b1f1ef8-312310928417.txt
+    log: revlist-7e57714cd0ad-312310928417.txt
 
---===============4482969758460272158==
+--===============1553312706650309510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ac56b1f1ef8-312310928417.txt
+Content-Disposition: attachment; filename=revlist-7e57714cd0ad-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============4482969758460272158==--
+--===============1553312706650309510==--
