@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6911462835614468771=="
+Content-Type: multipart/mixed; boundary="===============0103692814419009927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 08 Apr 2022 16:04:53 -0000
-Message-Id: <164943389351.30269.4806978616530297661@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 16:04:59 -0000
+Message-Id: <164943389969.30398.7787840904651060650@gitolite.kernel.org>
 
---===============6911462835614468771==
+--===============0103692814419009927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: ec4eb8a86ade4d22633e1da2a7d85a846b7d1798
-    new: 7cea5560bf656b84f9ed01c0cc829d4eecd0640b
-    log: revlist-ec4eb8a86ade-7cea5560bf65.txt
+  - ref: refs/heads/dev-queue
+    old: 2a72fc8153cfba9ecb0e2933af9879654269b13a
+    new: 1731f2c097fda8fab2cbcd16ff2e8a6ff81981ee
+    log: revlist-2a72fc8153cf-1731f2c097fd.txt
 
---===============6911462835614468771==
+--===============0103692814419009927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec4eb8a86ade-7cea5560bf65.txt
+Content-Disposition: attachment; filename=revlist-2a72fc8153cf-1731f2c097fd.txt
 
 3cbf0e392f173ba0ce425968c8374a6aa3e90f2e ubi: Fix race condition between ctrl_cdev_ioctl and ubi_cdev_ioctl
 40a8f0d5e7b3999f096570edab71c345da812e3e ubifs: rename_whiteout: Fix double free for whiteout_ui->data
@@ -683,5 +683,20 @@ e3c1c4fd9e6d14059ed93ebfe15e1c57793b1a05 random: check for signals every PAGE_SI
 726e2c5929de841fdcef4e2bf995680688ae1b87 veth: Ensure eth header is in skb's linear part
 1b808993e19447731e823b1313ee4e8da7fd92a0 flow_dissector: fix false-positive __read_overflow2_field() warning
 7cea5560bf656b84f9ed01c0cc829d4eecd0640b vxlan: fix error return code in vxlan_fdb_append
+b62df4f9a213c4376e829bbbe930e1fe6363527b checkpatch: Fix warnings when --no-tree is used
+827cdef9101e94719f7b87db45a103bcbecf993e checkpatch.pl: seed camelcase from the provided kernel tree root
+534a075270a8316126d20908caf1848774925eeb igc: Fix infinite loop in release_swfw_sync
+671fa4ef667dccb20d1fd769e4b1a9e3b62a33a8 igc: Fix BUG: scheduling while atomic
+4ce4a11318fefde85335138093d1ba9bc5bede36 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+523a1f8e8b85575642213b46258552bf07524018 i40e: i40e_main: fix a missing check on list iterator
+660d2a3680f10444ab6167443589ca4185032de6 ice: ice_sched: fix an incorrect NULL check on list iterator
+2484de165692eeabfc9fe932e46e7b5c7a08aa25 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+4f569a34de276b61ba07e2419bfb869ccbdcb572 ice: Fix memory leak in ice_get_orom_civd_data()
+63dce6053802935898fbd45959cafc6a4a630243 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
+a7a96f9cb990d869b84c3fde66213e72d2ffeb54 iavf: Fix error when changing ring parameters on ice PF
+66e7c38e9ed17e71dd8d9dfc4185d483a88fb8d8 ixgbe: ensure IPsec VF<->PF compatibility
+d9791cc6581b97ce9a8bba3a067280f73d9d6cc9 e1000e: Fix possible overflow in LTR decoding
+389ce375defdc8bd6f1e1fa83f56115f5ab6717e igc: Fix suspending when PTM is active
+1731f2c097fda8fab2cbcd16ff2e8a6ff81981ee ice: Fix incorrect locking in ice_vc_process_vf_msg()
 
---===============6911462835614468771==--
+--===============0103692814419009927==--
