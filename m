@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 08 Apr 2022 20:40:09 -0000
-Message-Id: <164945040960.22212.5037292184688034777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 08 Apr 2022 20:50:02 -0000
+Message-Id: <164945100292.29119.5956307322584678901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 8555defe48610a7efe9f2d72689e2d4f006898d7
-    new: 658d87687cd5a6c8762d1de8abee1e6792d8d71e
+  - ref: refs/heads/io_uring-5.18
+    old: dc53f70a29c2ff6c8242bd1cd9a07e09eb8782db
+    new: 4cd2e90b616d555d66bdfaadb2b489d008b59d99
     log: |
-         658d87687cd5a6c8762d1de8abee1e6792d8d71e selftests/bpf: Fix return value checks in perf_event_stackmap test
+         4cd2e90b616d555d66bdfaadb2b489d008b59d99 io_uring: fix race between timeout flush and removal
          
