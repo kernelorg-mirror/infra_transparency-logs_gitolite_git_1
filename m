@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5388449342305453896=="
+Content-Type: multipart/mixed; boundary="===============3303209578680675171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Fri, 08 Apr 2022 09:46:22 -0000
-Message-Id: <164941118239.27922.7157775787734646668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Fri, 08 Apr 2022 09:46:35 -0000
+Message-Id: <164941119506.28068.3115038662253341831@gitolite.kernel.org>
 
---===============5388449342305453896==
+--===============3303209578680675171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 7e57714cd0ad2d5bb90e50b5096a0e671dec1ef3
+  - ref: refs/heads/master
+    old: 26291c54e111ff6ba87a164d85d4a4e134b7315c
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-7e57714cd0ad-312310928417.txt
+    log: revlist-26291c54e111-312310928417.txt
 
---===============5388449342305453896==
+--===============3303209578680675171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e57714cd0ad-312310928417.txt
+Content-Disposition: attachment; filename=revlist-26291c54e111-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============5388449342305453896==--
+--===============3303209578680675171==--
