@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7546023158405265893=="
+Content-Type: multipart/mixed; boundary="===============8877162023330012483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Fri, 08 Apr 2022 10:09:27 -0000
-Message-Id: <164941256738.8691.9415666959829029906@gitolite.kernel.org>
+Date: Fri, 08 Apr 2022 10:09:41 -0000
+Message-Id: <164941258122.8831.13592199633168089477@gitolite.kernel.org>
 
---===============7546023158405265893==
+--===============8877162023330012483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/slimbus
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: 0eb1fb16396ce3b0d8d493a4416a5c5f06091c84
-    new: 0eab624d593c6069dfe937f7d15a6f9024495d3f
-    log: revlist-0eb1fb16396c-0eab624d593c.txt
+  - ref: refs/heads/master
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============7546023158405265893==
+--===============8877162023330012483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0eb1fb16396c-0eab624d593c.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
 d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
@@ -1049,6 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-0eab624d593c6069dfe937f7d15a6f9024495d3f slimbus: qcom-ngd-ctrl: Use platform_get_irq() to get the interrupt
 
---===============7546023158405265893==--
+--===============8877162023330012483==--
