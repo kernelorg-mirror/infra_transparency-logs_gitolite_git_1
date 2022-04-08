@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4133393554267433897=="
+Content-Type: multipart/mixed; boundary="===============0651604697324501202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 08 Apr 2022 14:46:27 -0000
-Message-Id: <164942918789.11333.7968607096004690848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 08 Apr 2022 14:46:33 -0000
+Message-Id: <164942919359.11417.14065640498859188519@gitolite.kernel.org>
 
---===============4133393554267433897==
+--===============0651604697324501202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/regulator-5.18
     old: 2316f0fc0ad2aa87a568ceaf3d76be983ee555c3
     new: 908b768f9a8ffca2ef69f3145e23a6a259f99ac3
     log: |
          908b768f9a8ffca2ef69f3145e23a6a259f99ac3 MAINTAINERS: Fix reviewer info for a few ROHM ICs
          
 
---===============4133393554267433897==
+--===============0651604697324501202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649429186 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1649429186-c62b2f0d4cf784e58ecc846fcf965b4ff3c32037
+pusher C3F436CA30F5D8EB 1649429192 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649429191-02722c2ff431d841df64bfa2180f6bb7ea087574
 
-2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 908b768f9a8ffca2ef69f3145e23a6a259f99ac3 refs/heads/for-5.18
+2316f0fc0ad2aa87a568ceaf3d76be983ee555c3 908b768f9a8ffca2ef69f3145e23a6a259f99ac3 refs/heads/regulator-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJQSsIACgkQJNaLcl1U
-h9B/qgf9HSY+GEMiAAfNsH1NXO6cMtkO8camZsrPEVJ/cFq4/fsns0HdpYJxRDMJ
-xOBe8pGZxg2/DSJzmrrlvGM+byYUms9hM4L5yuow6VPhZUdQaHQr2F1G02LrwGo1
-MEqBxRI70B6RsEQ9CHGW2LEqJYKBl4syULHuIWLE5NpKoR9B5JyjvbF+krVXWkmm
-cXBvIqPRQKBtrrqrgRtrKQovTlo5ok2BErVupmuGKQ/J23HcF8DRaTzKPzAocGqX
-m5+R7atdHvkp/tyu6boVTf7+1SfAVtNLxt/gGTkfEL7WE28FIKa/JgMUMofN2Nvr
-z+RdIUBhWa8yIElaUXl7p4btJwYPwg==
-=Hm0l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJQSsgACgkQJNaLcl1U
+h9BK2Af/ffLw7xo/4nYybL04uHMK45bu4/d+8XK0v+Kgd1MUJW5RL2vwqZdwGlIW
+0gsa0AXIiDSSptRtRr+Krd1rR0aPTHepMri9ID3B8REupUMo6BidzZtSOUmfkXCG
+wwVFRhfiTP2NrsWUsEv6tVENIT8T5yoniQSSiSS2lpWu4Bt6wlioAGEWwdLxHTUG
+F3n9IRyi9fDlBbWL+TxgoKGKH0ZVaL4s0c7HWsMONmWt89fJ2IzRDQGqcAQpJy6I
+JL0oaywCsP+scCjectRGbjfbh0TlkmQ+SGUG7am8TBhsfIPWsW17h95FJdqU+ZmR
+GJuIEWMfVCZUw+BfsAImXnUebu/CYQ==
+=w360
 -----END PGP SIGNATURE-----
 
---===============4133393554267433897==--
+--===============0651604697324501202==--
