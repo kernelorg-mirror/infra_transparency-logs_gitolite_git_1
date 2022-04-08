@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3695552812227681135=="
+Content-Type: multipart/mixed; boundary="===============8507907070319883863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 08 Apr 2022 11:18:18 -0000
-Message-Id: <164941669809.22643.14206935411239932283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 08 Apr 2022 11:18:24 -0000
+Message-Id: <164941670481.22723.8679295843959957673@gitolite.kernel.org>
 
---===============3695552812227681135==
+--===============8507907070319883863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/asoc-5.18
     old: fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc
     new: aa70527d36d74db80a1c40e792f5320ab56e6eae
     log: revlist-fcd1e39cca6e-aa70527d36d7.txt
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/asoc-5.19
     old: 40658542d7713b6f1b51556ef91822f9ca8942d0
     new: 5cfe477f6a3f9a4d9b2906d442964f2115b0403f
     log: |
@@ -28,32 +28,32 @@ changes:
          5cfe477f6a3f9a4d9b2906d442964f2115b0403f ASoC: SOF: mediatek: mt8195 add shutdown callback
          
 
---===============3695552812227681135==
+--===============8507907070319883863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649416696 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1649416695-4496c9878e5af0f8669b985cb320b66042cb6329
+pusher C3F436CA30F5D8EB 1649416703 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649416702-cd3027d693081cd4696c44a2b0eb682fa3635cb9
 
-fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc aa70527d36d74db80a1c40e792f5320ab56e6eae refs/heads/for-5.18
-40658542d7713b6f1b51556ef91822f9ca8942d0 5cfe477f6a3f9a4d9b2906d442964f2115b0403f refs/heads/for-5.19
+fcd1e39cca6e3a262f2badfcd5edd76c910ad3bc aa70527d36d74db80a1c40e792f5320ab56e6eae refs/heads/asoc-5.18
+40658542d7713b6f1b51556ef91822f9ca8942d0 5cfe477f6a3f9a4d9b2906d442964f2115b0403f refs/heads/asoc-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJQGfgACgkQJNaLcl1U
-h9Bprgf/fGW/5s400JnERc1xn4w3GySnwOigrgzxyqeUlvafT9UOLgP2ENzrT/b9
-Yq/0LYX1It65LTGUJOBApfsA2EFMcc69W7F+ZmaXi0ddxvZAMXHDOSlzgsinFkWc
-JfbS+CwExVvDG92fLU05WwtMtMxZjC9GfsJYH44mxBh8oYVYfEHOMc2RdTqkZ1pA
-f+M0GTDQQAMXVzyGeG0AifR8RmzUYvs+qb7bucCiO56bM/Ss3ObM9UWmXWThSKOY
-Inwma2PQiGJCQn6/qkzNlCCIt8xZ0eZXFDDK3oHCVeTl0HKXFzd3WiqGkBIFMdMc
-+dcN3EErqKkMHLUJCP2jcIKcwXBSeg==
-=/6Bs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJQGf8ACgkQJNaLcl1U
+h9DjbAf/QsCeNP9UFAGqZId8s3UJCe+DMnudvA+6Z+qNnxdrrYOD83yVxsAomQdz
+SqnL488mFtnryltDJJb4wVt5ZdARqndgzU5HW2HWc4kXAaa3GSBudiW2cwOjxMpq
+wIhw1/bz78Xy9G9QVj6luZWw9ksVp/9BXZoIe7PMaG3lkhhDnVHV8EH1onphEexm
+oQ2BG2FMXePDs9FeqErTVfCk2pnIxeM9+j9mHn2i+KgfYEcE7Y/H944L8jeADK6j
+eoJJMCtcTIjE2u0EUrc3LBg2wnjY+vFgsr02uOOk6/ErwlaDOp6uiKW7ebnUDY6g
+jyZXjq0J3QOGS12IYZq0VjfawrTa3w==
+=638B
 -----END PGP SIGNATURE-----
 
---===============3695552812227681135==
+--===============8507907070319883863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ db6dd1bee63d1d88fbddfe07af800af5948ac28e ASoC: codecs: wcd934x: do not switch of
 c7cb4717f641db68e8117635bfcf62a9c27dc8d3 ASoC: Intel: sof_es8336: Add a quirk for Huawei Matebook D15
 aa70527d36d74db80a1c40e792f5320ab56e6eae Make headphone work on Huawei Matebook D15
 
---===============3695552812227681135==--
+--===============8507907070319883863==--
