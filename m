@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 08 Apr 2022 21:41:17 -0000
-Message-Id: <164945407710.29994.8048347248282536978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 08 Apr 2022 21:45:25 -0000
+Message-Id: <164945432527.1767.11517985835823893899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/master
-    old: 74befa447e6839cdd90ed541159ec783726946f9
-    new: e2d88f9ce678cd33763826ae2f0412f181251314
+    old: 58389c00d49cf4f9bee50530901834a8503240b6
+    new: bd4a2697e5e27a33d345827dfbdebb8f28f4aa87
     log: |
-         d452088cdfd5a4ad9d96d847d2273fe958d6339b mlxsw: i2c: Fix initialization error flow
-         e2d88f9ce678cd33763826ae2f0412f181251314 sctp: use the correct skb for security_sctp_assoc_request
+         bd4a2697e5e27a33d345827dfbdebb8f28f4aa87 sfc: use hardware tx timestamps for more than PTP
          
