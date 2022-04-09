@@ -1,28 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Sat, 09 Apr 2022 11:26:22 -0000
-Message-Id: <164950358218.24467.3017990056532114420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 09 Apr 2022 11:56:24 -0000
+Message-Id: <164950538491.11477.10489337124636921064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 272af539f78586cc599c6ca917b70630db6390cf
-    new: 1d82b3faa331bba56d2dbc96f3cd7a0191bf1ac9
-    log: |
-         1d82b3faa331bba56d2dbc96f3cd7a0191bf1ac9 kexec-tools 2.0.24
-         
-  - ref: refs/heads/master
-    old: 272af539f78586cc599c6ca917b70630db6390cf
-    new: 1d82b3faa331bba56d2dbc96f3cd7a0191bf1ac9
-    log: |
-         1d82b3faa331bba56d2dbc96f3cd7a0191bf1ac9 kexec-tools 2.0.24
-         
-  - ref: refs/tags/v2.0.24
+  - ref: refs/heads/arm64-fix-fp-kselftest-makefile
     old: 0000000000000000000000000000000000000000
-    new: e55ba081103f78dd2729c4a2481a0fff19b8f21b
+    new: 2c2064eed3658e6675fe5522c5ddf272214fe8f0
