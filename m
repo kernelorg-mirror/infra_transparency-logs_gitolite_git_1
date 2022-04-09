@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 09 Apr 2022 22:48:17 -0000
-Message-Id: <164954449711.7671.16293129123774612977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
+Date: Sat, 09 Apr 2022 23:39:58 -0000
+Message-Id: <164954759839.7017.14224389266858893454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
+user: djbw
 changes:
-  - ref: refs/tags/perf-tools-fixes-for-v5.18-2022-04-09
+  - ref: refs/tags/cxl+nvdimm-for-5.18-rc2
     old: 0000000000000000000000000000000000000000
-    new: 37bf866a2c3321c97c7776ac27ccdced4cbcd7f8
+    new: 1906e98b573da01ba845060174d78000c80b7667
