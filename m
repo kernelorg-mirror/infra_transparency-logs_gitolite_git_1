@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3823628616890777191=="
+Content-Type: multipart/mixed; boundary="===============4826281270549567522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Sat, 09 Apr 2022 17:20:06 -0000
-Message-Id: <164952480629.25866.10976107035696175870@gitolite.kernel.org>
+Date: Sat, 09 Apr 2022 17:20:15 -0000
+Message-Id: <164952481546.26019.13832610327755369625@gitolite.kernel.org>
 
---===============3823628616890777191==
+--===============4826281270549567522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 85b15c268f29263658dc9e9dff5847be935d4f0f
-    new: 626a5aaa50673a1340ef46e049929709c83d184a
-    log: revlist-85b15c268f29-626a5aaa5067.txt
+  - ref: refs/heads/mlx5-queue
+    old: 78fdda305950a20618001da7d725b1f6d02a95d5
+    new: 4ad89cca21d85606ec4ed07e67fa7cfda2b4a2c1
+    log: revlist-78fdda305950-4ad89cca21d8.txt
 
---===============3823628616890777191==
+--===============4826281270549567522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85b15c268f29-626a5aaa5067.txt
+Content-Disposition: attachment; filename=revlist-78fdda305950-4ad89cca21d8.txt
 
 30c90f6757a7b38bc95069725657a647873e2ab3 arm64, insn: Add ldr/str with immediate offset
 7db6c0f1d8ee051e0a7d8c58c5982990e4491f39 bpf, arm64: Optimize BPF store/load using arm64 str/ldr(immediate offset)
@@ -98,5 +98,11 @@ bd4a2697e5e27a33d345827dfbdebb8f28f4aa87 sfc: use hardware tx timestamps for mor
 b45043192b3e481304062938a6561da2ceea46a6 bpf: Fix excessive memory allocation in stack_map_alloc()
 34ba23b44c664792a4308ec37b5788a3162944ec Merge https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 626a5aaa50673a1340ef46e049929709c83d184a net: mdio: mscc-miim: add local dev variable to cleanup probe function
+eef8bacf68f89a0c40211d902102b4a3d68217f3 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+2225dcc777a6f4b8f68992566d373f457378f246 Revert "net: openvswitch: remove unneeded semicolon"
+8ff8505a330881f542bde0ce2b36804ef28d8601 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+73a9b312565002cb64005f0f6395f38901c05dd3 net/mlx5e: Report header-data split state through ethtool
+48f405a20ca3950d8b4625f84bc1af87e08ff44c net/mlx5e: Drop error CQE handling from the XSK RX handler
+4ad89cca21d85606ec4ed07e67fa7cfda2b4a2c1 Merge branch 'patchq/467532' into mlx5-queue
 
---===============3823628616890777191==--
+--===============4826281270549567522==--
