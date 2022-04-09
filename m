@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1579788420892693837=="
+Content-Type: multipart/mixed; boundary="===============6722967374079760127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 09 Apr 2022 04:38:30 -0000
-Message-Id: <164947911067.8238.12728362517325054106@gitolite.kernel.org>
+Date: Sat, 09 Apr 2022 05:00:20 -0000
+Message-Id: <164948042075.23522.1148645660599872023@gitolite.kernel.org>
 
---===============1579788420892693837==
+--===============6722967374079760127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,34 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6c7376da23587738ab0e84b8b90b6cc02db5181e
-    new: f335af10482a41ad5d28b4a2b0bee3ea35f771ce
-    log: revlist-6c7376da2358-f335af10482a.txt
+    old: f335af10482a41ad5d28b4a2b0bee3ea35f771ce
+    new: f1b45d8ccb9839b48e5884664470e54520e17f4c
+    log: revlist-f335af10482a-f1b45d8ccb98.txt
 
---===============1579788420892693837==
+--===============6722967374079760127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c7376da2358-f335af10482a.txt
+Content-Disposition: attachment; filename=revlist-f335af10482a-f1b45d8ccb98.txt
 
-442b8b250c41050d26353eb158514f3d91df3455 MAINTAINERS: Add Leon Romanovsky to RDMA maintainers
-abcc160e4c2bc320f0d94e1b77f272a12fe90a0e MAINTAINERS: Update qib and hfi1 related drivers
-84c2362fb65d69c721fec0974556378cbb36a62b RDMA/mlx5: Don't remove cache MRs when a delay is needed
-1d735eeee63a0beb65180ca0224f239cc0c9f804 RDMA/mlx5: Add a missing update of cache->last_add
-107dd7beba403a363adfeb3ffe3734fe38a05cce IB/cm: Cancel mad on the DREQ event when the state is MRA_REP_RCVD
-4d809f69695d4e7d1378b3a072fa9aef23123018 IB/rdmavt: add lock to call to rvt_error_qp to prevent a race condition
-dfbba2518aac4204203b0697a894d3b2f80134d3 Revert "ACPI: processor: idle: Only flush cache on entering C3"
-ac2a3feefad549814f5e7cca30be07a255c8494a ACPI: bus: Eliminate acpi_bus_get_device()
-87ad236001eb95cf1760ccaf7670c94722231097 Merge branch 'acpi-bus'
-2bbac98d0930e8161b1957dc0ec99de39ade1b3c RDMA/hfi1: Fix use-after-free bug for mm struct
-d017a3167bcb76caedf2b444645bf4db75f775a5 Merge tag 'acpi-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-f335af10482a41ad5d28b4a2b0bee3ea35f771ce Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+ec858afda857e361182ceafc3d2ba2b164b8e889 io_uring: don't check req->file in io_fsync_prep()
+a3e4bc23d5470b2beb7cc42a86b6a3e75b704c15 io_uring: defer splice/tee file validity check until command issue
+584b0180f0f4d67d7145950fe68c625f06c88b10 io_uring: move read/write file prep state into actual opcode handler
+4ded53ea0c7d46fa043efc7320e17ca443a1debb cdrom: remove unused variable
+aadb22ba2f656581b2f733deb3a467c48cc618f6 drbd: Fix five use after free bugs in get_initial_state
+ae4d37b5df749926891583d42a6801b5da11e3c1 drbd: fix an invalid memory access caused by incorrect use of list iterator
+286901941fd18a52b2138fddbbf589ad3639eb00 drbd: set QUEUE_FLAG_STABLE_WRITES
+5106dd6e74ab6c94daac1c357094f11e6934b36f io_uring: propagate issue_flags state down to file assignment
+6bf9c47a398911e0ab920e362115153596c80432 io_uring: defer file assignment
+d5361233e9ab920e135819f73dd8466355f1fddd io_uring: drop the old style inflight file tracking
+cb318216732579da80202fe3e622a504e55b3a0f Revert "io_uring: Add support for napi_busy_poll"
+0f5e4b83b37a96e3643951588ed7176b9b187c0a io_uring: implement compat handling for IORING_REGISTER_IOWQ_AFF
+34bb77184123ae401100a4d156584f12fa630e5c io_uring: nospec index for tags on files update
+a07211e3001435fe8591b992464cd8d5e3c98c5a io_uring: don't touch scm_fp_list after queueing skb
+8f0a24801bb44aa58496945aabb904c729176772 io_uring: zero tag on rsrc removal
+4cdd158be9d09223737df83136a1fb65269d809a io_uring: use nospec annotation for more indexes
+e677edbcabee849bfdd43f1602bccbecf736a646 io_uring: fix race between timeout flush and removal
+4d6f9f2475f6f288b8b144bc263636c0b09cb4ef Merge tag 'io_uring-5.18-2022-04-08' of git://git.kernel.dk/linux-block
+f1b45d8ccb9839b48e5884664470e54520e17f4c Merge tag 'block-5.18-2022-04-08' of git://git.kernel.dk/linux-block
 
---===============1579788420892693837==--
+--===============6722967374079760127==--
