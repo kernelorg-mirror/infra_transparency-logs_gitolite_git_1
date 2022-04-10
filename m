@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
-Date: Sun, 10 Apr 2022 20:47:06 -0000
-Message-Id: <164962362665.24372.12565940934991109929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Sun, 10 Apr 2022 21:18:59 -0000
+Message-Id: <164962553994.11731.1750918408922682218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/deps
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 8bfc899b2560f9aac5cd4941d84cc10aed51a674
-    new: 68e09b90366f2ad5904caadb9cd3a4ff0f3af67a
+    old: 6d01ac19170fadaf46a6db6b4cc347f1b389f422
+    new: d684bb2839d1fa010fba1e64f9b0c16240d8bdae
     log: |
-         68e09b90366f2ad5904caadb9cd3a4ff0f3af67a Sun Apr 10 08:46:31 PM UTC 2022
+         7c799ab224ef4042967a9acca690cd33dbb34545 actions-full-test.sh, removed sudo from the script
+         d684bb2839d1fa010fba1e64f9b0c16240d8bdae Merge branch 'fix/remove-sudo-in-test-script' of https://github.com/dpronin/fio
          
