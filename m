@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2104067920905266369=="
+Content-Type: multipart/mixed; boundary="===============8181639019190881905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Sun, 10 Apr 2022 16:03:53 -0000
-Message-Id: <164960663300.663.126425052974116991@gitolite.kernel.org>
+Date: Sun, 10 Apr 2022 16:04:56 -0000
+Message-Id: <164960669640.1101.5938356598876347908@gitolite.kernel.org>
 
---===============2104067920905266369==
+--===============8181639019190881905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,36 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: dcb85f85fa6f142aae1fe86f399d4503d49f2b60
+  - ref: refs/heads/next
+    old: 7325fd5614aa686c496e4f98633be9808aee44f4
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-dcb85f85fa6f-312310928417.txt
-  - ref: refs/tags/v5.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+    log: revlist-7325fd5614aa-312310928417.txt
 
---===============2104067920905266369==
+--===============8181639019190881905==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mickaël Salaün <mic@digikod.net> 1649606641 +0200
+pusher Mickaël Salaün <mic@digikod.net> 1649606706 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mic/linux.git
-nonce 1649606627-a03e1591ad35c7dccc288ce2a5ed78df27c2c129
+nonce 1649606693-d2daef5ed94aa8d85c52fd559d57c638f442751c
 
-dcb85f85fa6f142aae1fe86f399d4503d49f2b60 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/master
-0000000000000000000000000000000000000000 9a36f3f1dac90e023401f6db395c601ef74becbd refs/tags/v5.18-rc1
+7325fd5614aa686c496e4f98633be9808aee44f4 3123109284176b1532874591f7c81f3837bbdc17 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYlL/8RAcbWljQGRpZ2lr
-b2QubmV0AAoJEOXj0OiMgvbStSsA/iouVAWEZWe53+1vnJom9zeCBeg7Xwq15co+
-opmZugycAQClZZQRAxEL2A+8Cwz62uUYYhngHghorX0mZi3OssMNAg==
-=zPBv
+iIYEABYIAC4WIQSVyBthFV4iTW/VU1/l49DojIL20gUCYlMAMhAcbWljQGRpZ2lr
+b2QubmV0AAoJEOXj0OiMgvbSuKIA/0tlSLoDv7vlVIAnRkpOiVa4Cenl1qWpkuZh
+m5GL0zADAP9UqHIqM+hv2u1KcfxBsxyivccgMGR0+xWd2xoUzGy4Cg==
+=eKZK
 -----END PGP SIGNATURE-----
 
---===============2104067920905266369==
+--===============8181639019190881905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb85f85fa6f-312310928417.txt
+Content-Disposition: attachment; filename=revlist-7325fd5614aa-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1076,4 +1072,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============2104067920905266369==--
+--===============8181639019190881905==--
