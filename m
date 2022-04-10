@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8143675572945513363=="
+Content-Type: multipart/mixed; boundary="===============2426858491998169223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 10 Apr 2022 11:55:53 -0000
-Message-Id: <164959175366.7581.9398154996443876335@gitolite.kernel.org>
+Date: Sun, 10 Apr 2022 11:56:03 -0000
+Message-Id: <164959176363.7721.417026861765775538@gitolite.kernel.org>
 
---===============8143675572945513363==
+--===============2426858491998169223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf/urgent
+  - ref: refs/heads/tmp.perf/urgent
     old: 940a445a904088eac715dd985c01847311a42459
     new: 1862a69c917417142190bc18c8ce16680598664b
     log: revlist-940a445a9040-1862a69c9174.txt
 
---===============8143675572945513363==
+--===============2426858491998169223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ fa3b895da8e06d6e3dcf3e6941a3fd428343e3d7 Merge tag 'gpio-fixes-for-v5.18-rc2' of
 94a4c2bb7a1fb95bd7105ac5685377f57c13daf3 Merge tag 'cxl+nvdimm-for-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 1862a69c917417142190bc18c8ce16680598664b Merge tag 'perf-tools-fixes-for-v5.18-2022-04-09' of git://git.kernel.org/pub/scm/linux/kernel/git/acme/linux
 
---===============8143675572945513363==--
+--===============2426858491998169223==--
