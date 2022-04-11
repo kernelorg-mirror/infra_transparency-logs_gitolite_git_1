@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4725758319361515909=="
+Content-Type: multipart/mixed; boundary="===============6446955229745156817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 11 Apr 2022 06:43:20 -0000
-Message-Id: <164965940041.28210.6448217021157004683@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 06:43:23 -0000
+Message-Id: <164965940352.28288.3950814076899003038@gitolite.kernel.org>
 
---===============4725758319361515909==
+--===============6446955229745156817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/driver-core-linus
+    old: cdb4f26a63c391317e335e6e683a614358e70aeb
     new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    log: revlist-312310928417-ce522ba9ef7e.txt
+    log: revlist-cdb4f26a63c3-ce522ba9ef7e.txt
 
---===============4725758319361515909==
+--===============6446955229745156817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659399 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659402 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1649659399-d1b58d52652a60625d85bbf41fb99e6604ae1c22
+nonce 1649659402-351938dc448f46f9501396e489d5bd20632b54d6
 
-3123109284176b1532874591f7c81f3837bbdc17 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/main
+cdb4f26a63c391317e335e6e683a614358e70aeb ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzgcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c8kP/0EpTQSZpr2kjaWTZVdY
-eOvThorrHzh2lfNFclDlx2qcRipiWMAtIBklrR8v3Ob+0ovxIvQyuMZOVT/HnGMf
-nP+lOXirrWwktA6X0EADmGW2A9eWbzNbgjipz1rfBOM6ZePoNdAZ5esYmhHx+g24
-VXYNjRkkl0BV+/Sw6tkDGddIa2SLpmYZsMhT+ufUMlwgFiw4SiOmU86Tq/VYjdvx
-EcbUA89T+YGg/81l+fPjQp0m7iSzVGzKeNTfpl8z5NA5e000sDZIXLJ77ZrUsc+F
-WGn+/WyC2SxVfDUHMhhwY/Icd6viO80N3TqWe62eg+xILDO+coq2HuJey4tueQzu
-xm8YUiAiMkvy3cnyjCX3y5GcfZdmB0LKPvtXH+3pH20ELZPXwUAdrJM0v2qGajDY
-c7H3pTeRgQZKld074KChDFUW592aO8DBOJmuuUWOeeo4AIc0fwNtfrG+7T3mnxiZ
-IK2CxO5fZkXidg5D35I084vASJTpmx7IeRoTElOuTLs/5exR4zhLDn00dlJ3cFtR
-27BeX/DXSTTzBBfwXJlInF0J/jaaxYmEBWgJQJk0KN/rFgY2RafSmM/osszREHQG
-flteuM8JCCcntPiIXoeU44rNRGd3C9gZjzroJIHFpcznqRjYGS6Bmtpqjn86BUw6
-mQ9piX7qVfqlh5Y/qF2sfOVr
-=NaBp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzgobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C04QAM7wup4ZFF/KLBGi1Nzs
+4ZxZHBNeqe3FKK4sLCNHp1l28ED15vQhMfHcmyY7wzFUwtNw2H8Vz0nn/5Kg62pv
+JI/ZN99yq/Cu3Sl4StbO+eq+2tNQchBu78QLbUowrcFC/BA1P4tMumqf9Utf/1vC
+mKeHhV0+uoPDgl7vTF2jui6Q025xdH9Au5Yfd8mwe867udNTJoERQDum+hVyX9PD
+COBMpCR+iwGa/q3DbwAmPbWiyPmbkznt5qBMn1MJ18KRcc14cxfoWuOZ/7brItf2
+U8M9Pv6ZfYH0hgXLt2OsN48FJLzqh/FdFLaJwjoZlb5IOMAa54MFZ8jKlxh6oyKN
+9k0PYeHUfjCal9qPSVlQClG+MJpfO8dlk06dz90/ES9OzZbN7hMhnpJeOpygAUgV
+CVX8jBKNzva7ibPzJgloO0jS3rXlWJihQhrXvAvPQ7Kr/hrskyM/f/x2PkhdQFW6
+6pQLkKiufR1yct7Xs23YDC8+M4jF2Y6PdSrbKhFbfn4Y505THSyxOP/PNk8bTNSI
+x+hZai+MQQPiUFBgWZL6xgVepH8Ef6XaWfJPsCMkxXPXww+Q3sj9PMQJZPY1aV5K
+0MIfhe4Z/XGKMa+aVUw2hVpqd/brlTV5ok12tOmVDm7wIY+Adt/KkeQwqeCmGjDo
+J2kSYBhmZPtZKw4sMJrMJgTu
+=xN7b
 -----END PGP SIGNATURE-----
 
---===============4725758319361515909==
+--===============6446955229745156817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-ce522ba9ef7e.txt
+Content-Disposition: attachment; filename=revlist-cdb4f26a63c3-ce522ba9ef7e.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -271,8 +271,6 @@ ccfee1822042b87e5135d33cad8ea353e64612d2 ice: Set txq_teid to ICE_INVAL_TEID on 
 05ef6813b234db3196f083b91db3963f040b65bb ice: Do not skip not enabled queues in ice_vc_dis_qs_msg
 61fb3eee13e8a79245059924e69fe3430f3f3b19 Merge branch 'ice-bug-fixes'
 1158f79f82d437093aeed87d57df0548bdd68146 ipv6: Fix stats accounting in ip6_pkt_drop
-c31bc0461f861ec68e026b5d4d27394bcb722068 powerpc/pseries/vas: use default_groups in kobj_type
-cdb4f26a63c391317e335e6e683a614358e70aeb kobject: kobj_type: remove default_attrs
 48bff1053c172e6c7f340e506027d118147c8b7f random: opportunistically initialize on /dev/urandom reads
 fa4dcc880390fbedf4118e9f88a6b13363e0a7a1 irq/qcom-mpm: Fix build error without MAILBOX
 76ff614a79152cee07a2c48080c3dc91c56f0f1d irqchip/irq-qcom-mpm: fix return value check in qcom_mpm_init()
@@ -469,4 +467,4 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
 
---===============4725758319361515909==--
+--===============6446955229745156817==--
