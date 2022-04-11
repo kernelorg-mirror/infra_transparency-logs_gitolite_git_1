@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6780367684983536986=="
+Content-Type: multipart/mixed; boundary="===============4814197273452303748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 11 Apr 2022 20:58:19 -0000
-Message-Id: <164971069942.596.6067482081104559565@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 20:58:27 -0000
+Message-Id: <164971070745.747.12418813400754394769@gitolite.kernel.org>
 
---===============6780367684983536986==
+--===============4814197273452303748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.19
-    old: a0fa9be9a73593674e40ca97e9441428300d130b
-    new: dbcbeed94f3b6f7f24349a7f335cc603a682e7a7
-    log: revlist-a0fa9be9a735-dbcbeed94f3b.txt
+  - ref: refs/heads/for-next
+    old: bd9032ad10fa27679f64d627368075675f51108e
+    new: d5532a6b3f041304a3917304e97154a2df468cc5
+    log: revlist-bd9032ad10fa-d5532a6b3f04.txt
 
---===============6780367684983536986==
+--===============4814197273452303748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0fa9be9a735-dbcbeed94f3b.txt
+Content-Disposition: attachment; filename=revlist-bd9032ad10fa-d5532a6b3f04.txt
 
+b49ceddc4b1958f44755ce447664203f73dd7c66 arm64: defconfig: Enable Qualcomm PCIe Gen2 PHY
+a1793920b6647447e4757aec4434eb919840acb8 dt-bindings: arm: qcom: Document sa8540p, sc8180x and sc8280xp
 397ad94668c14b558d8dcf2bf29bce4bf78222ba arm64: dts: qcom: sm8150: Add pdc interrupt controller node
 fe75b0c4a6911243fe239fd0c2b2bda4fd398f6e arm64: dts: qcom: sm8150: Add ufs power-domain entries
 a1c86c6805336503ad2460426736456cc324d4a3 arm64: dts: qcom: sm8150: Add PCIe nodes
@@ -42,5 +44,6 @@ f226c660533416c308fcde62d1b785527528974d arm64: dts: qcom: sc7280: Add 'piglin' 
 0d40497d054194768b3ddbf3a676d481b38b96eb arm64: dts: qcom: sc7280-herobrine: Fix PCIe regulator glitch at bootup
 9464b00e6a118b2712092d453b07ec835deb327f arm64: dts: qcom: sc7280: Delete herobrine-r0
 dbcbeed94f3b6f7f24349a7f335cc603a682e7a7 arm64: dts: qcom: sc7280-herobrine: Drop outputs on fpmcu pins
+d5532a6b3f041304a3917304e97154a2df468cc5 Merge branches 'arm64-for-5.19', 'arm64-defconfig-for-5.19', 'defconfig-for-5.19' and 'drivers-for-5.19' into for-next
 
---===============6780367684983536986==--
+--===============4814197273452303748==--
