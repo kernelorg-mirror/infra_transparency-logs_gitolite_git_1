@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5038324517851622022=="
+Content-Type: multipart/mixed; boundary="===============6659466291051421868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 Apr 2022 06:44:38 -0000
-Message-Id: <164965947838.29934.3578136021734875643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 11 Apr 2022 06:44:39 -0000
+Message-Id: <164965947944.29998.9081956789180089294@gitolite.kernel.org>
 
---===============5038324517851622022==
+--===============6659466291051421868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 20314bacd2f9b1b8fc10895417e6db0dc85f8248
+  - ref: refs/heads/kobject-const
+    old: 62df9c3ee8e096a4835cadae2edaf126fe46d650
     new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    log: revlist-20314bacd2f9-ce522ba9ef7e.txt
+    log: revlist-62df9c3ee8e0-ce522ba9ef7e.txt
 
---===============5038324517851622022==
+--===============6659466291051421868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659477 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649659477-35676612a24979a69f3f64d5f91138f8ea734486
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659478 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1649659478-ad68360f6b419f505c12bcf6e1f28b072be37eba
 
-20314bacd2f9b1b8fc10895417e6db0dc85f8248 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/staging-linus
+62df9c3ee8e096a4835cadae2edaf126fe46d650 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/kobject-const
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzlUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qGMQAMWk01IjixPhBD9kuahc
-UbUarMvMAIxkldj/u68fRz2obt0yWaz7fMz2Qu0Y+poEB5sQXpAFT4M480wIOG80
-Vhf9WWQSSbOEPd8Jhmshe1a2xnP5E+vr6C8MxiZlSnTcmxHiZysYEmWPK8f6xxWt
-q7cwakZYiDCKIQpZDmknvF5UpyoXb4dYijLKGbvddS9+hn8gEhPfY8BXTs5bRTVg
-MfSx+Ttuc9WNj0C0Ona+cyug7pC94I+JMphMnDeIUSXupdSnc4+bEQg0lE55I3Vt
-Qxl5p4tTfdr9434WYg2R+sKPl1dPjO8E5b6rHNngzT8Sz9KfYlAMI8+3Arg1ZUtd
-gOTrffoNkXjD2xTpDwXUmOQJDRt3dlSddoZpSHaPlDzF4FdK59If0wD0O4D1BU6y
-m2unMEyibxkcf4bzm9IwAr8dd+jMgxltH6URgS6t/y00kH+EnoIwZ5ZMhidcPMPb
-CdNSS94YRg+kWvU+gbQdt5sSBS6aZRgYeSRvbxr6itZl+v6veK2i54sSInzLd6Xx
-1bEGSTF7+Q6wuc5OfXrE9u2afXfqqCMbh10QOE8CS/8bbYTj1Rct5vhCK8I89ZEq
-snH6zgX4nGNJaWorzT4CqAO1XhA8ahaeTwMMs1atD0OqcLheJC6ZCLnhsUuzNEe4
-YgvHsihPgjLhx7JLcZdEDZKx
-=oa4i
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzlYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LpoP/2y9KOEeDcPYsL20sswh
+PUMg/YW/uQ3TBFAasPN5Y3rbdV2ZIiT+yGfVr6y4KCFf8i9OLCYdC8ZaWhUHwYCN
+fmHNa7R315iRIDBATbaQO26B4JDeou+041eoMvTMHYfkK6kFAbazpVBeUVWcHAZ6
+4sewyX0T4mxBMGsH1X8OxfTcu3BWpR+Kld8JGL78L5JPj+z0mufcAb9d8KDBIURY
+xFgY0S+l8MyFtz/WBPACmm6GCb8p9qjRX7F7aQoG57DI1m8Io9iyAepzHIJA19hU
+4bpKvHvIoqbDy33gtbpDmPF5d9ls3in0akwZacNY/wnwg+1yi/5ScUJv9c3mZe4f
+NPwt58zjLLZvIKbQFxwmkC/EUxKUwuToeEIZkduDF+8M5Xnv/aouztgw7TT2Cw2h
+arsgFz8+E62N3rUEIwwTdE+wV7HmHo4SjVhSy43UqB0t4rSMWuND9TrK6YlObDV6
+aEe4xz2C2S8BLZbW3z5weElR0/uWTUNjQsFDf+GwYa6vYPaWBuX5tVn3sER5PKn4
++I+KSc5aP/DNY03LrfoKX+0zLU8zU0831Egha7foE+6r2ZP+8I4Gc1pBEfk0LAfi
+3Lq0EsCPR/0M5CbB2C3ozrzcmD8KHko92qgTv0zOnxclVmfQmf2/pjYe+d7VCi1b
+4QcvLxadG9Ce0qg2gHQUgyOE
+=MePG
 -----END PGP SIGNATURE-----
 
---===============5038324517851622022==
+--===============6659466291051421868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20314bacd2f9-ce522ba9ef7e.txt
+Content-Disposition: attachment; filename=revlist-62df9c3ee8e0-ce522ba9ef7e.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -216,6 +216,7 @@ abcc160e4c2bc320f0d94e1b77f272a12fe90a0e MAINTAINERS: Update qib and hfi1 relate
 84c2362fb65d69c721fec0974556378cbb36a62b RDMA/mlx5: Don't remove cache MRs when a delay is needed
 1d735eeee63a0beb65180ca0224f239cc0c9f804 RDMA/mlx5: Add a missing update of cache->last_add
 107dd7beba403a363adfeb3ffe3734fe38a05cce IB/cm: Cancel mad on the DREQ event when the state is MRA_REP_RCVD
+20314bacd2f9b1b8fc10895417e6db0dc85f8248 staging: r8188eu: Fix PPPoE tag insertion on little endian systems
 94865e2dcb46c1c852c881cfa769cec4947d8f28 habanalabs: Fix test build failures
 687127c81ad32c8900a3fedbc7ed8f686ca95855 cifs: fix potential race with cifsd thread
 00c796eecba4898194ea549679797ee28f89a92f cifs: remove check of list iterator against head past the loop body
@@ -468,4 +469,4 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
 
---===============5038324517851622022==--
+--===============6659466291051421868==--
