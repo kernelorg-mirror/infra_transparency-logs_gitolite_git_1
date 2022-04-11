@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 11 Apr 2022 17:39:01 -0000
-Message-Id: <164969874191.31956.13933962348475352604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 11 Apr 2022 18:08:41 -0000
+Message-Id: <164970052159.18684.15587603101535845866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: c2a911d302b0d014a4d0d732a2bfc319e643eb62
-    new: c7bda0dca98cca351a9bc852b3df8b9b99ffd400
+  - ref: refs/heads/review-andy
+    old: 5c239036de9bbb090fe0997e6c03a1948b6f9ac9
+    new: 9d0d161bce5be087fd35ae554630465e438403c6
     log: |
-         c7bda0dca98cca351a9bc852b3df8b9b99ffd400 x86: Remove a.out support
+         41e89676f4dcce1fa5b7d58e84040069b3126369 pinctrl: samsung: Drop redundant node parameter in samsung_banks_of_node_get()
+         9d0d161bce5be087fd35ae554630465e438403c6 pinctrl: samsung: Switch to use for_each_gpiochip_node() helper
          
