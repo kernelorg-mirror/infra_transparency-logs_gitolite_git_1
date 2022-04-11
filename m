@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 11 Apr 2022 11:02:46 -0000
-Message-Id: <164967496622.18708.4100864295277085450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 11 Apr 2022 11:04:00 -0000
+Message-Id: <164967504031.19172.15879577924384724316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: e8a64bbaaad1f6548cec5508297bc6d45e8ab69e
-    new: 1a7eb80d170c28be2928433702256fe2a0bd1e0f
+  - ref: refs/heads/main
+    old: 681281e49fb6778831370e5d94e6e1d97f0752d6
+    new: 775eb5a66235ff7e353ba10ef8f69da2d389f33a
     log: |
-         1a7eb80d170c28be2928433702256fe2a0bd1e0f dpaa_eth: Fix missing of_node_put in dpaa_get_ts_info()
+         c1b79a367342821c6133546e4b64b536244b4743 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
+         775eb5a66235ff7e353ba10ef8f69da2d389f33a linux-firmware: update firmware for MT7921 WiFi device
          
