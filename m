@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7552727576744805732=="
+Content-Type: multipart/mixed; boundary="===============3600662174718765203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/libata
-Date: Mon, 11 Apr 2022 00:24:54 -0000
-Message-Id: <164963669496.1804.16878023295511782465@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 00:25:32 -0000
+Message-Id: <164963673292.3525.13895498086328267601@gitolite.kernel.org>
 
---===============7552727576744805732==
+--===============3600662174718765203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dlemoal/libata
 user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    log: revlist-312310928417-ce522ba9ef7e.txt
+  - ref: refs/heads/for-5.19
+    old: eaeb9fb2739bbb869ed91640130566b3fea70ca4
+    new: c956b92ee19b978bd8da50e30271a0a4c62bea28
+    log: revlist-eaeb9fb2739b-c956b92ee19b.txt
 
---===============7552727576744805732==
+--===============3600662174718765203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-ce522ba9ef7e.txt
+Content-Disposition: attachment; filename=revlist-eaeb9fb2739b-c956b92ee19b.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -437,5 +437,6 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 95aa17c36dc89bf008753217ed27f8a8eb5faf79 Merge tag 'staging-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
+c956b92ee19b978bd8da50e30271a0a4c62bea28 ata: pata_mpc52xx: Prepare cleanup of powerpc's asm/prom.h
 
---===============7552727576744805732==--
+--===============3600662174718765203==--
