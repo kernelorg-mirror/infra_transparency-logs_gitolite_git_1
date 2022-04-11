@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============8906191555007119147=="
+Content-Type: multipart/mixed; boundary="===============0764398003828117176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
-Date: Mon, 11 Apr 2022 13:32:56 -0000
-Message-Id: <164968397663.26374.9730601424450856664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 11 Apr 2022 13:35:28 -0000
+Message-Id: <164968412875.28665.14611728643359824299@gitolite.kernel.org>
 
---===============8906191555007119147==
+--===============0764398003828117176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tmlind/linux-omap
-user: tmlind
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/for-next
-    old: f9ecc209330a4837393f7b87f6f95970542b90c6
-    new: bf194bb4328b3e97953d6cece43ebf2c4cf1217e
-    log: revlist-f9ecc209330a-bf194bb4328b.txt
+  - ref: refs/heads/master
+    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
+    new: 3123109284176b1532874591f7c81f3837bbdc17
+    log: revlist-e783362eb54c-312310928417.txt
 
---===============8906191555007119147==
+--===============0764398003828117176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9ecc209330a-bf194bb4328b.txt
+Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
 
+05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
+be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
+d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
+7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
+597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
+56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
+698361bca2d59fd29d46c757163854454df477f1 kfence: allow re-enabling KFENCE after system startup
+b33f778bba5ef3f76fe6708c611346c1ea03acd4 kfence: alloc kfence_pool after system startup
+adf505457032c11b79b5a7c277c62ff5d61b17c2 kunit: fix UAF when run kfence test case test_gfpzero
+bdd015f7b71b92c2e4ecabac689642cc72553e04 kunit: make kunit_test_timeout compatible with comment
+3cb1c9620eeeb67c614c0732a35861b0b1efdc53 kfence: test: try to avoid test_gfpzero trigger rcu_stall
+737b6a10ac19e41877aa1911bf6b361a72a88ad9 kfence: allow use of a deferrable timer
+d0977efab8ffb13c092c92dba0af22edcb754571 mm/hmm.c: remove unneeded local variable ret
+144760f8e0c3c0c9fe1b78e178a4d3d300ebec7f mm/damon/dbgfs/init_regions: use target index instead of target id
+8041c87b915b9b7ecb2870f1c529a75aaa2483be Docs/admin-guide/mm/damon/usage: update for changed initail_regions file input
 436428255d5981e49ff015fc8e398ecf2ba10c24 mm/damon/core: move damon_set_targets() into dbgfs
 1971bd630452e943380429336a851c55b027eed1 mm/damon: remove the target id concept
 242e10a09f2637f61356a739ea9ed69235a47ce5 mm/damon: remove redundant page validation
@@ -1035,20 +1050,5 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
-71ff461c3f41f6465434b9e980c01782763e7ad8 iommu/omap: Fix regression in probe for NULL pointer dereference
-26ad4834da921ffcadad3ba177dbb137d36c9248 dt-bindings: omap: Add clock-output-names and #clock-cells
-8ab423081a263cc84f4377d518d98330d4f78072 dt-bindings: clock: ti: Add clock-output-names for clockctrl
-fc3d39d5758dc001662df5aac825b2b6bcb6476f dt-bindings: clock: ti: Add clock-output-names for TI composite clocks
-c2f2646057bcf3f86a75f6a8aa9fbd159a1d4784 ARM: dts: Add clksel node for am3 ehrpwm
-00950028d0796f2f130a6bb04903fe91b988b4e7 ARM: dts: Add clksel node for am3 gfx
-9bc059f71c0ad5a1a9a94556a2e77fde6416fcec ARM: dts: Add clksel node for am3 clkout
-ec7aa25fa4839e05f73b17a838e46dc591df75f0 ARM: dts: Use clock-output-names for am3
-e4920169e7a2a839836d3a0d8cda1bae8caa3056 ARM: dts: Use clock-output-names for dra7
-f8ca5f5ae57fa931b6cc6e622500ee7e9ce3bd8e ARM: dts: Use clock-output-names for am4
-da541a6c196e60cbad74a4c941afbef1b0331f7f ARM: dts: Add clock-output-names for omap4
-0752506039c4ea0309979166042544ff2026ea6a ARM: dts: Drop custom clkctrl compatible and update omap4 l4per
-7359c0aee7616107fe07c47525c54d76281a1619 ARM: dts: Add clock-output-names for omap5
-c7d7d0ce29175251f0212a91703ab8e78b1e2784 ARM: dts: Drop custom clkctrl compatible and update omap5 l4per
-bf194bb4328b3e97953d6cece43ebf2c4cf1217e Merge branches 'omap-for-v5.19/dt-bindings' and 'omap-for-v5.19/dt' into for-next
 
---===============8906191555007119147==--
+--===============0764398003828117176==--
