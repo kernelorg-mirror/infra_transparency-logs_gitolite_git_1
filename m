@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1110869633328492983=="
+Content-Type: multipart/mixed; boundary="===============2100068987652385919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Mon, 11 Apr 2022 17:18:35 -0000
-Message-Id: <164969751597.19129.3895799041040379729@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 17:18:45 -0000
+Message-Id: <164969752547.19257.16611050341278585381@gitolite.kernel.org>
 
---===============1110869633328492983==
+--===============2100068987652385919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 626a5aaa50673a1340ef46e049929709c83d184a
-    new: d072c88c28e1e2c886681bbb0f1748b8e6ff105f
-    log: revlist-626a5aaa5067-d072c88c28e1.txt
+  - ref: refs/heads/mlx5-queue
+    old: a0a0e7c78dc6ae019c5c14a971cfb42e469528f8
+    new: 4164c519124c0dcd730c8fba5541ea1e6008563d
+    log: revlist-a0a0e7c78dc6-4164c519124c.txt
 
---===============1110869633328492983==
+--===============2100068987652385919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-626a5aaa5067-d072c88c28e1.txt
+Content-Disposition: attachment; filename=revlist-a0a0e7c78dc6-4164c519124c.txt
 
 10377d42281e8d16058471754d3ad62cfe9aa208 netfilter: nf_tables: replace unnecessary use of list_for_each_entry_continue()
 9027ce0b071a1bbd046682907fc2e23ca3592883 netfilter: ecache: move to separate structure
@@ -68,5 +68,11 @@ e8887b716142e41d5b975309a96fdcbe8e5bd698 mptcp: remove locking in mptcp_diag_fil
 f2ae0fa68e28f53df245c0d9e4c7a7db6d58638d selftests/mptcp: add diag listen tests
 e782f5bad3c87c9e237a8bf0dcaf022bb489cc33 Merge branch 'mptcp-next'
 d072c88c28e1e2c886681bbb0f1748b8e6ff105f net: ethernet: ti: cpsw: drop CPSW_HEADROOM define
+704e8fd9f5d6a8ad30372e34b7f01902405c498f Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+708704e2c692e29ada519f896acf4525fa00c710 Revert "net: openvswitch: remove unneeded semicolon"
+171fdd4d85c2af25e70a7a4254a6cbce4836a5bb Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+a0de208509796db4fd3ae4544ecff82189aac8bf net/mlx5e: Report header-data split state through ethtool
+94ca3194ba8f6e7f7483339055baa5188de81386 net/mlx5e: Drop error CQE handling from the XSK RX handler
+4164c519124c0dcd730c8fba5541ea1e6008563d Merge branch 'patchq/467532' into mlx5-queue
 
---===============1110869633328492983==--
+--===============2100068987652385919==--
