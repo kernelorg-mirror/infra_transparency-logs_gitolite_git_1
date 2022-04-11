@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8729101133208172019=="
+Content-Type: multipart/mixed; boundary="===============0873848939481048818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 11 Apr 2022 15:34:30 -0000
-Message-Id: <164969127002.12177.14199480229546060737@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 15:34:53 -0000
+Message-Id: <164969129373.12345.10437414875534983492@gitolite.kernel.org>
 
---===============8729101133208172019==
+--===============0873848939481048818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/for-next
-    old: 9ea79a3861c93b19ef78db70044d23bf36b8271e
+  - ref: refs/heads/rpmsg-next
+    old: 8109517b394e6deab5fd21cc5460e82ffed229c6
     new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    log: revlist-9ea79a3861c9-ce522ba9ef7e.txt
+    log: revlist-8109517b394e-ce522ba9ef7e.txt
 
---===============8729101133208172019==
+--===============0873848939481048818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ea79a3861c9-ce522ba9ef7e.txt
+Content-Disposition: attachment; filename=revlist-8109517b394e-ce522ba9ef7e.txt
 
 6c8e2a256915a223f6289f651d6b926cd7135c9e mm: fix race between MADV_FREE reclaim and blkdev direct IO read
 9457056ac426e5ed0671356509c8dcce69f8dee0 mm: madvise: MADV_DONTNEED_LOCKED
@@ -1051,4 +1051,4 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
 
---===============8729101133208172019==--
+--===============0873848939481048818==--
