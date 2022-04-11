@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
-Date: Mon, 11 Apr 2022 12:53:12 -0000
-Message-Id: <164968159292.31088.2722466406352842218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 11 Apr 2022 12:53:19 -0000
+Message-Id: <164968159946.31185.9259790695001859079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/pci
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/pci/dwc
-    old: 88557685cd72cf0db686a4ebff3fad4365cb6071
-    new: 571dda6ca5136c1213bd36b9f298d4487e2b6622
+  - ref: refs/heads/v5.19/dt64
+    old: 8771ce5eadb5b73daab190c2451172e43e16ae41
+    new: 456733feb0da2dbb1288b9e8f5765df163620c2c
     log: |
-         571dda6ca5136c1213bd36b9f298d4487e2b6622 PCI: tegra194: Remove unnecessary MSI enable reg save and restore
+         456733feb0da2dbb1288b9e8f5765df163620c2c arm64: dts: meson: alpa sort the board Makefile
          
