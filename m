@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8673188055253041307=="
+Content-Type: multipart/mixed; boundary="===============5038324517851622022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 11 Apr 2022 06:44:35 -0000
-Message-Id: <164965947511.29869.16581545975218281370@gitolite.kernel.org>
+Date: Mon, 11 Apr 2022 06:44:38 -0000
+Message-Id: <164965947838.29934.3578136021734875643@gitolite.kernel.org>
 
---===============8673188055253041307==
+--===============5038324517851622022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 3123109284176b1532874591f7c81f3837bbdc17
+  - ref: refs/heads/staging-linus
+    old: 20314bacd2f9b1b8fc10895417e6db0dc85f8248
     new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    log: revlist-312310928417-ce522ba9ef7e.txt
+    log: revlist-20314bacd2f9-ce522ba9ef7e.txt
 
---===============8673188055253041307==
+--===============5038324517851622022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659474 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649659477 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649659474-696618330c6489840f4c5035d11ab7b544fcb354
+nonce 1649659477-35676612a24979a69f3f64d5f91138f8ea734486
 
-3123109284176b1532874591f7c81f3837bbdc17 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/main
+20314bacd2f9b1b8fc10895417e6db0dc85f8248 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzlIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XRYP/21ofq24q5EmN6pEso9T
-/R1oP2hFj2IfnkVcIgdr7rC1rJTiA/UieAA0DsoNkvCFWudKFN59UxQjv7biFMjz
-Tf56HIv61JDDeAaVXo3x/ojfGCXMXNqwT4DuX/yBYna/LFPjKJX2WWGjkTxXPhL/
-1x+/iNG9LBg5a22sWZaoF3lMY6EhDhr4Etu/ozSBKwaaUoQAnBRvxy/r+16IC5SX
-Sx3gp53O9u3UqDPyv3+yOhDW/KJ8XOPuqN9CsqROBBMrbtS4WtHgZk18G1ly7lEs
-oZZCBXJOhF0IT6/o5ZeR8Cvd1jZK+uSFlaNrmrIRl8DN7KSny5eEfT1Y/eIzNuaG
-szdMN6QlMtrZX6k5hqlqVdZBa6H+szfMagFzLJigvO5B1XBkaKJfHclNnzMoDYZx
-eJUZMGeYwn+77pnGEUM4tRnKN/V0R4G6S2PTRMku2jmIiJ5TgfAHGvRJB/GGvbzN
-3YN4DG+L+AMzni3PK3BUjKPoINf3xAd7Ugme7D4yxEwoGnzZ5c39IHFWgP+bB/4y
-BitVD0nWBNxjP7oC128XsKDhfs9IOvVZpwYkNBStxv4Mii3dRdUqYGsYysAiTnVk
-ybltdW29/9LXMpIkfj/5QJdvrp+Z1Os7IEjwjwMESLOJ7r57b5crIWTojNkzYwAG
-R5PC8VD9DHkSv/eR+s7C4v/R
-=9epv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJTzlUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qGMQAMWk01IjixPhBD9kuahc
+UbUarMvMAIxkldj/u68fRz2obt0yWaz7fMz2Qu0Y+poEB5sQXpAFT4M480wIOG80
+Vhf9WWQSSbOEPd8Jhmshe1a2xnP5E+vr6C8MxiZlSnTcmxHiZysYEmWPK8f6xxWt
+q7cwakZYiDCKIQpZDmknvF5UpyoXb4dYijLKGbvddS9+hn8gEhPfY8BXTs5bRTVg
+MfSx+Ttuc9WNj0C0Ona+cyug7pC94I+JMphMnDeIUSXupdSnc4+bEQg0lE55I3Vt
+Qxl5p4tTfdr9434WYg2R+sKPl1dPjO8E5b6rHNngzT8Sz9KfYlAMI8+3Arg1ZUtd
+gOTrffoNkXjD2xTpDwXUmOQJDRt3dlSddoZpSHaPlDzF4FdK59If0wD0O4D1BU6y
+m2unMEyibxkcf4bzm9IwAr8dd+jMgxltH6URgS6t/y00kH+EnoIwZ5ZMhidcPMPb
+CdNSS94YRg+kWvU+gbQdt5sSBS6aZRgYeSRvbxr6itZl+v6veK2i54sSInzLd6Xx
+1bEGSTF7+Q6wuc5OfXrE9u2afXfqqCMbh10QOE8CS/8bbYTj1Rct5vhCK8I89ZEq
+snH6zgX4nGNJaWorzT4CqAO1XhA8ahaeTwMMs1atD0OqcLheJC6ZCLnhsUuzNEe4
+YgvHsihPgjLhx7JLcZdEDZKx
+=oa4i
 -----END PGP SIGNATURE-----
 
---===============8673188055253041307==
+--===============5038324517851622022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-312310928417-ce522ba9ef7e.txt
+Content-Disposition: attachment; filename=revlist-20314bacd2f9-ce522ba9ef7e.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -216,7 +216,6 @@ abcc160e4c2bc320f0d94e1b77f272a12fe90a0e MAINTAINERS: Update qib and hfi1 relate
 84c2362fb65d69c721fec0974556378cbb36a62b RDMA/mlx5: Don't remove cache MRs when a delay is needed
 1d735eeee63a0beb65180ca0224f239cc0c9f804 RDMA/mlx5: Add a missing update of cache->last_add
 107dd7beba403a363adfeb3ffe3734fe38a05cce IB/cm: Cancel mad on the DREQ event when the state is MRA_REP_RCVD
-20314bacd2f9b1b8fc10895417e6db0dc85f8248 staging: r8188eu: Fix PPPoE tag insertion on little endian systems
 94865e2dcb46c1c852c881cfa769cec4947d8f28 habanalabs: Fix test build failures
 687127c81ad32c8900a3fedbc7ed8f686ca95855 cifs: fix potential race with cifsd thread
 00c796eecba4898194ea549679797ee28f89a92f cifs: remove check of list iterator against head past the loop body
@@ -469,4 +468,4 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
 
---===============8673188055253041307==--
+--===============5038324517851622022==--
