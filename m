@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 11 Apr 2022 03:22:54 -0000
-Message-Id: <164964737476.27428.14854527787043033030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 11 Apr 2022 03:27:54 -0000
+Message-Id: <164964767403.30537.9577140879712843091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-next
-    old: d252a4a499a07bec21c65873f605c3a1ef52ffed
-    new: 33fc250c3e76f99015f5cdbee1de1dd8500d29cc
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: dfabbb48bdccd69ad824846966bd21ccdb9dc6c8
+    new: f2d9973abd735a34f8318ec4db5c71a6d29ca955
     log: |
-         b25acdafd3730110254f8452b113a6311ab5cf2d samples/bpf: Use libbpf 1.0 API mode instead of RLIMIT_MEMLOCK
-         b858ba8c52b64c038de156c455a39a89bfd214e8 selftests/bpf: Use libbpf 1.0 API mode instead of RLIMIT_MEMLOCK
-         a777e18f1bcd32528ff5dfd10a6629b655b05eb8 bpftool: Use libbpf 1.0 API mode instead of RLIMIT_MEMLOCK
-         451b5fbc2c56f19f39be4c9e11b3420a0c5f5d3d tools/runqslower: Use libbpf 1.0 API mode instead of RLIMIT_MEMLOCK
-         33fc250c3e76f99015f5cdbee1de1dd8500d29cc Merge branch 'bpf: RLIMIT_MEMLOCK cleanups'
+         ec090a479695d4136cee08282cc45cdd08900f4e cpufreq: mediatek: Use module_init and add module_exit
+         25f39c7c653efad66763eddda485650d26c7f5d1 cpufreq: mediatek: Cleanup variables and error handling in mtk_cpu_dvfs_info_init()
+         65990f6ee6bf9a3600caac503c1877229abb9156 cpufreq: mediatek: Remove unused headers
+         f2d9973abd735a34f8318ec4db5c71a6d29ca955 cpufreq: mediatek: Enable clocks and regulators
          
