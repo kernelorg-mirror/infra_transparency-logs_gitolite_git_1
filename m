@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Mon, 11 Apr 2022 14:52:59 -0000
-Message-Id: <164968877988.16522.10757811476994462242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 11 Apr 2022 14:56:07 -0000
+Message-Id: <164968896735.18976.10403432191825146760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: ceaaa0282c0693775ce02e6638df7dd6a4c2d14d
-    new: 483698d51626d9c5a66897598aa71e09f305509d
+  - ref: refs/heads/master
+    old: 33fc250c3e76f99015f5cdbee1de1dd8500d29cc
+    new: dd642ccb45ecce1402eb2550f5284fc6bb9ed7b8
     log: |
-         d170e8e02729ad3bc4924005cec1ad38409d82af HID: uclogic: Add support for touch ring reports
-         ee0070367e1da844e385562fb4f33453b7f7c587 HID: uclogic: Support custom device suffix for frames
-         3e200d6cdb7d5c892fb4819be66c65385673a980 HID: uclogic: Allow three frame parameter sets
-         c3e6e59af2a0c7937815808804eb4d9ddc9df9be HID: uclogic: Add support for Huion touch ring reports
-         483698d51626d9c5a66897598aa71e09f305509d Merge branch 'for-5.19/uclogic' into for-next
+         dd642ccb45ecce1402eb2550f5284fc6bb9ed7b8 riscv, bpf: Implement more atomic operations for RV64
          
-  - ref: refs/heads/for-5.19/uclogic
-    old: 0000000000000000000000000000000000000000
-    new: c3e6e59af2a0c7937815808804eb4d9ddc9df9be
