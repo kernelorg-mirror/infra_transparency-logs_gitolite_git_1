@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/helgaas/pci
-Date: Mon, 11 Apr 2022 19:09:41 -0000
-Message-Id: <164970418111.26178.13232289256017456217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 11 Apr 2022 19:17:13 -0000
+Message-Id: <164970463399.309.2464365396676748166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/helgaas/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/pci/p2pdma
-    old: 0000000000000000000000000000000000000000
-    new: 1af7c26c59ebcf241e865dd16dcc251e61472a37
+  - ref: refs/heads/master
+    old: f4fd706f738338e78f413db36d0a483a11c53cd1
+    new: aa1b02e674fe69acd04624f5bcdef94928bc8695
+    log: |
+         aa1b02e674fe69acd04624f5bcdef94928bc8695 bpf: Remove redundant assignment to meta.seq in __task_seq_show()
+         
