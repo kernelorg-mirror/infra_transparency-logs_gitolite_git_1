@@ -1,41 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============3840268127374879600=="
+Content-Type: multipart/mixed; boundary="===============8190889778294687359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 12 Apr 2022 20:47:05 -0000
-Message-Id: <164979642580.16400.18281187083338828629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Tue, 12 Apr 2022 21:19:40 -0000
+Message-Id: <164979838037.3932.11165269386809155784@gitolite.kernel.org>
 
---===============3840268127374879600==
+--===============8190889778294687359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: b30cf8a6bed07ecc7db43e53169503f9851d9c9c
-    new: 9cff4a31dd1fbcfb5082dd59c5293aa7a045f3ec
-    log: revlist-b30cf8a6bed0-9cff4a31dd1f.txt
+  - ref: refs/heads/jd/not-zero-entropy
+    old: a5540b27c0c5deb682e8cf9964fd19b5fcb4830f
+    new: e4fc3e6df45bc7eda2df77653a0185896c69704b
+    log: revlist-a5540b27c0c5-e4fc3e6df45b.txt
 
---===============3840268127374879600==
+--===============8190889778294687359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b30cf8a6bed0-9cff4a31dd1f.txt
+Content-Disposition: attachment; filename=revlist-a5540b27c0c5-e4fc3e6df45b.txt
 
-21f6d4c57d5388f2fa1814d456136dd29f4d6aa1 btrfs: fix direct I/O read repair for split bios
-c392edfbbc0c33b746d6f886af0cb6db981e22ad btrfs: fix direct I/O writes for split bios on zoned devices
-d664e8ab984d467136b7ff811d272f883499f0f6 btrfs: avoid double clean up when submit_one_bio() failed
-6167084192cd154718d4a728146384629be83ed8 btrfs: fix the error handling for submit_extent_page() for btrfs_do_readpage()
-41d324cea784d26fe878eea4a3913a7b6b5d206f btrfs: return correct error number for __extent_writepage_io()
-8f908efb845be1f1b001239925b425ae54ce1492 Merge branch 'misc-5.18' into for-next-current-v5.17-20220412
-fbda079047d2298cd17056ae4d71d5a5e2f1e725 Merge branch 'misc-next' into for-next-next-v5.18-20220412
-f4a60aa0a6f2ec31280286d571a61c3ca6e2fb56 Merge branch 'ext/qu/raid56-subpage-v2' into for-next-next-v5.18-20220412
-a3d51c4a894c1fc1595ad59641404cca42ab60d2 Merge branch 'ext/qu/475-fixes' into for-next-next-v5.18-20220412
-6133a1df7426c5e5dda2db8262197c6ffa3a9507 Merge branch 'for-next-current-v5.17-20220412' into for-next-20220412
-9cff4a31dd1fbcfb5082dd59c5293aa7a045f3ec Merge branch 'for-next-next-v5.18-20220412' into for-next-20220412
+81ab53c0d65d595b3496268fa9b3a3d2ef246d1f timekeeping: add raw clock fallback for random_get_entropy()
+29e138e0b7d32e6199fcb64f9e42974c5db281b4 m68k: use fallback for random_get_entropy() instead of zero
+3a4a04b9eb71175a67826e522afe818aa9aa93a7 riscv: use fallback for random_get_entropy() instead of zero
+978a283f4a7e9657686cadcc773c4d84aeeaf5ee mips: use fallback for random_get_entropy() instead of zero
+a975ea783cc634d9334abef423ee60cd9c9dd721 arm: use fallback for random_get_entropy() instead of zero
+3a9d719e90bff432a037080919acc7e6fe339e78 nios2: use fallback for random_get_entropy() instead of zero
+053d6b5a24faeececf60c5560e95a99fa96d38d8 x86: use fallback for random_get_entropy() instead of zero
+6eae01aa995598cd2a33eff1fe979c15d125d29d um: use fallback for random_get_entropy() instead of zero
+3659e58f5acd8b6acea164125627bc0094046738 sparc: use fallback for random_get_entropy() instead of zero
+5ffb0e15798900c2b6e716fa5d412bda0473b5de xtensa: use fallback for random_get_entropy() instead of zero
+e4fc3e6df45bc7eda2df77653a0185896c69704b random: insist on random_get_entropy() existing in order to simplify
 
---===============3840268127374879600==--
+--===============8190889778294687359==--
