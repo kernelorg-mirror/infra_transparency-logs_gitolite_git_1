@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8364983452781069972=="
+Content-Type: multipart/mixed; boundary="===============0640588392071207402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 12 Apr 2022 02:36:21 -0000
-Message-Id: <164973098156.32569.16128200312815903763@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 02:36:34 -0000
+Message-Id: <164973099414.32711.12974862766155607399@gitolite.kernel.org>
 
---===============8364983452781069972==
+--===============0640588392071207402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: 0848ccaea664970e559d99348484615ba0f7ab63
+  - ref: refs/tags/mkp-scsi-staging
+    old: 814f640e01bc06f07fee0f038fa86419364bd958
+    new: 7899a5a6bfed5bb0ebe1fd0f7cc1d86603d2a2df
     log: |
-         80890c5ea068661d6fe4a34beb362ca0f2c49c90 scsi: target: Allow changing dbroot if there are no registered devices
-         9ad659be37612b036fdbfb535d5f831901f37db2 scsi: ufs: ufshcd-pltfrm: Simplify pdev->dev usage
-         0848ccaea664970e559d99348484615ba0f7ab63 scsi: vmw_pvscsi: No need to clear memory after a dma_alloc_coherent() call
+         3a6a7187f09a0b1add76aaf4015f215a381ab616 scsi: megaraid_sas: Remove unnecessary memset
          
 
---===============8364983452781069972==
+--===============0640588392071207402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1649730973 -0400
+pusher 75C5DE3D 1649730985 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1649730973-04efa261502c3c646263ba12463f0ca9a6c2c79e
+nonce 1649730985-cc3ef8f076a96086a55091f3f9a76de48b11475d
 
-3123109284176b1532874591f7c81f3837bbdc17 0848ccaea664970e559d99348484615ba0f7ab63 refs/heads/queue
+814f640e01bc06f07fee0f038fa86419364bd958 7899a5a6bfed5bb0ebe1fd0f7cc1d86603d2a2df refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJU5Z0ACgkQ7ulgGnXF
-3j1GBg/+Nskau3cZZ3HuICCOFHIDhZP9nLQWmwzT15lu0T4vBpNFYrUOG7AgiRVr
-YOdyivAuQTS9K6yAZokEGMkq1s4v1oLaCnWjf4P3G+uNmsiYvVGTVX+lkSgeaCBe
-W4p1smTQ6qPofVHNvP6IGe4T0a1mrzodUWdvFMSn6JX+Dqlf/kApyvajE+7ZaMbW
-nfyWueTa7Bl7n0214kQnddceWQMFofseCTYSjzFkSiuSkgl+qVFYgbuIU+CB7yv+
-dSJHy4ilTay10f6YYuGxOPcNgHx9V2ULsg5VDrcjYOcnxsh/gI68c5Be0uPYk1/p
-s9ODL5I4SJltLOHAcGK2voNhKAJuFdwmW+OH71u6HX5hqsUf3mj6bdXt07aLE3e6
-6eevh+/KXtR1grYaTMt9ncZ3wH97PRkCrjiMrwlF71XvEdrPBmYs72izC24FIuk9
-qlgWTMtKZCggdp9TfgRxyQyWNHjiNVWJ89DJaNU//EgRMn5YDdjwuyYcFV8jxZCU
-uYQypACntApbdJY35wjO9BNf3RnnZ13Zvm46b5M5CHwZZyX4rQEvrSNrQ5uh+nsZ
-V9y8EN6LGlibIttAGkXyAU7OvsAREMuXiTmE13UCog1xZPw25VtaLGBpoC5kCuzO
-FBtL7KWnPdA7M33vW58hJLOM28uWGHzbElNwCyL1i4nodhZ0Sfc=
-=CSoM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmJU5akACgkQ7ulgGnXF
+3j2oiA//a6cZZSvse6bEAcCqZl3B8CJqkU/duM/3UGg5dglTeYByIQEPqi3f6+j/
+qc6e1W54xWidyuaGOppgHSW8c1JFr3uAa4RidP0LFeg0QGrf59IdZaBZwIw+W2OY
+KPIKd6kR1rIScIsjwI+vOUuBk1y5SL7byGyJcgSN15HMTCqENfclkYd2HIQ9xXmn
+BjshOgtf9TuZy1ltA/CBmydd+BtzLlg0xdqtSMj/aLO2kqCf2eLhp8I27re4EYeK
+UZ8tzWL7Dbswe/+yiQ+R3wyTq8TgwC+Kv5XSEypTyP8i/nQ6DZeza68xoyZaXtOq
+lEbOHFftyMrlFvIuxYQ+0zMdYXcrX0W21rqcOCowKqqNti5D2qT3lC8v24RHgJp1
+o4ZCaYt3cjWPRu99kaUqyBTpVBK0sMGf0ReT8mrkhCk0JTmu1XY/31+BWHhMKAsv
+gM0q2yZi8kFSsTshj+0ncaB8B+7RQlrxO8AUaLtszLX8eJyXUjD6Bu7OlH+0XrTk
+4PiQO9VXAuT/TwvGuMS607Mc58tbDLEoYfBrExbNDMIeDbAzySN6unQpqy47UNRv
+tU01yUw21Z8f1jZ6FD7HUqTkcnlDtdG7NxMjlWLC95lmfVjDSz6b0Q65if3Kb11u
+cuXGTAP1pC9YOQSesZxgf6AgY4/+T9DoqYTlXEpAq8PWBTFZqi4=
+=A+mB
 -----END PGP SIGNATURE-----
 
---===============8364983452781069972==--
+--===============0640588392071207402==--
