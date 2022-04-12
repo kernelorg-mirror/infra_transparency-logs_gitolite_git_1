@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 12 Apr 2022 08:58:20 -0000
-Message-Id: <164975390036.18974.1314943892373309525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
+Date: Tue, 12 Apr 2022 09:06:58 -0000
+Message-Id: <164975441895.24596.16193840649646343724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/srini/slimbus
+user: srini
 changes:
-  - ref: refs/heads/master
-    old: 113cb6a2f5703bb4e3a3018923de3f38a30a9ee3
-    new: b956bc8662645b7cc6d43021ae33bd091c34d9e1
+  - ref: refs/heads/for-next
+    old: 0eab624d593c6069dfe937f7d15a6f9024495d3f
+    new: 54bf672111eef18819fa6e562f68b2d6c449b05d
     log: |
-         b956bc8662645b7cc6d43021ae33bd091c34d9e1 lscpu: fix incomplete column description
+         54bf672111eef18819fa6e562f68b2d6c449b05d slimbus: qcom: Fix IRQ check in qcom_slim_probe
          
