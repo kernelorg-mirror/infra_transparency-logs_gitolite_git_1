@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1104276545833084311=="
+Content-Type: multipart/mixed; boundary="===============7581589565915216289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 12 Apr 2022 13:51:50 -0000
-Message-Id: <164977151048.32223.9646566938105600650@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 13:54:06 -0000
+Message-Id: <164977164649.531.9348962827242602548@gitolite.kernel.org>
 
---===============1104276545833084311==
+--===============7581589565915216289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: ffb3c2688e3807806f06944c5ced64a5245dbd49
-    new: 88d33bb87968d1c2ffa76feb6b94241750c8bcf7
+    old: 88d33bb87968d1c2ffa76feb6b94241750c8bcf7
+    new: f96f8ae08d33eeae65581b6dbf25d12e307e7b2c
     log: |
-         88d33bb87968d1c2ffa76feb6b94241750c8bcf7 staging: vt6655: Remove macro PCAvDelayByIO
+         5fb6bc718cf965cb6171cc5bbafd5546d5e68474 staging/most, dim2: convert dim2_tasklet to threaded irq
+         cbe0f674a2d63e88d9c2de2aab02d6da68b109f2 staging/wlan-ng, prism2usb: replace reaper_bh tasklet with work
+         9442e81d7e7c4987411b5be7e0f33b8c6e670b86 staging/wlan-ng, prism2usb: replace completion_bh tasklet with work
+         a2b0b41619e16e8f3d1461ba7588f2da6a92a1ea staging/ks7010: replace SME taslet with work
+         2a2849a87c7272e1cb8ca9cea70c664904c9e0f9 staging/rtl8712: remove event_tasklet
+         f96f8ae08d33eeae65581b6dbf25d12e307e7b2c staging/rtl8192e,ieee80211: replace ps tasklet with work
          
 
---===============1104276545833084311==
+--===============7581589565915216289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649771508 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649771642 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649771508-45e449aaa71625c5e1308e26504325e9dd73226e
+nonce 1649771642-ad6b2212546d36b725586b850e6662f8589ff26f
 
-ffb3c2688e3807806f06944c5ced64a5245dbd49 88d33bb87968d1c2ffa76feb6b94241750c8bcf7 refs/heads/staging-testing
+88d33bb87968d1c2ffa76feb6b94241750c8bcf7 f96f8ae08d33eeae65581b6dbf25d12e307e7b2c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVg/QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oBsP+wTzxYyyaPARxoTQUjGE
-kJTAIx6vJydJvtDF7JDbomWTbdLPIO04UhN+atCVA8DxVVxoJuzVSPm6Y3/yKhx+
-v13BTtpuFvx6buzvs+vtKIUp9H4VaoFDiTKRvpdg9M81yDHGkWshnD2m51Qx0EKq
-vjSGyfYxyCPN25DB4GQvWTcWeMJAlyuNfoy7Oeq7+Tlj09EvdtUbjV+gm3CeLV/H
-Sfq05E8qAR/UD6ctrlZDFb0uvTfzFNgpbwpA9Z1HAFLpuXxa9AXmNlLJ1YxyRKqZ
-5rgG6AcJjADeIFUGBNFBSo6Thhe5wfnhxWTpnUwMDed9uJtvExBshOiomPqz9pNc
-NUCDFkVgzvMRMnO48aRphsAdnAe9O0zJxtkWuFNYY+8lhJJ3YL3VYszn8rv6M1CA
-p1Kvgwn0DOgHmcZ6f1spdkNzk56ySwhOBOcqLzAtBndVuuua3NbEtD3Qu1LLaen0
-nvkNxFWjBaDY6BayB1FNQhByKWhN9ChE34gAa4IGPfhTwT93Lao59+4ZyusFJxAi
-hXWCf7F7nQCljB8hD1pQUZjixiFDkWxeU6dylE91EKloWuSS7V4qtUh3+UPWioyf
-FFPpkeLwv0jTcCp4AvAH9P2DtMUx4hE3crJds+VSL5fECEK0VtGSCwqNAFah3DSi
-k6NvewQTCX+MXGMsstwMlkY/
-=w1Me
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVhHobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0WMP/1RhSBw7YjREJMK6T0JP
+g25u+75lpooyhT1SbRcBm6SBvIl23LcBEgvdQjKgSQbyZHeCqDKbGgo3N3ocjrnT
+UKY2oN/avfq+RPuNOZot0tQPMVw4K3taWdXFCWrdrA50FJd0wUj4GWC0mGDLGITO
+5a9UIduCnlLQFHdAgwjnBZo9B5R3oH3iHlzYCC+UXAsUrHdZ5yBgHy3LLMC5nZ/+
+BdFJEL/JUOHZARFb78nVke6TD1dvipxD/aOLmk+ft9W0YNe6fBPE4/iR3r6NKv+X
+5sipj9ZBf6Z/I76sqURrcwS7TUheps0Y1aTBI28/fiYx3gJu+BBaIRkFcNSdtP38
+F0JM+AwN2qwFaoE9lzQYC/8Drw2I8my+5GK+OrLM3T5ks4CRpaaWdST2wUdKIEdD
+fkkn+CAFmhwB90Z4WGznwA+ohJhfEY1PI/ewqQfV5Tfarmrrwv0BXgwKnEXmbw/1
+HoqI3IwthhHwFbBYuG+t9lBUi8ZYPv+by6Y3L0YFzmh7mf5XriRit/EY46BQm+NE
+rEYFmCEixBvQxkUf1lNBmRLCg/kcfnmHPbU6I6SQpCB++5YaqMHZn1Yp07oRc6kf
+CBcdYrw1fOwk1BxtM1inAM8WgMn75PLl62kcqmrSdS7Vd70tIUva9fA3BkJ+O+YP
+8IDaexUy+u/Ua1X6wG0/NJJB
+=C2NM
 -----END PGP SIGNATURE-----
 
---===============1104276545833084311==--
+--===============7581589565915216289==--
