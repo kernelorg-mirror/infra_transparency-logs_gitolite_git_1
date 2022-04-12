@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 12 Apr 2022 10:43:56 -0000
-Message-Id: <164976023632.5606.9717654789336156979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
+Date: Tue, 12 Apr 2022 10:47:42 -0000
+Message-Id: <164976046284.8421.2118158300327577174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/abelvesa/linux
+user: abelvesa
 changes:
-  - ref: refs/heads/kvm-arm64/wfxt-WIP
-    old: 931796223cc4ff8402b1b8de3efbf8bbc4578a85
-    new: 4b9a838196bbf09c33408c4a4a00f525e70428f8
+  - ref: refs/heads/clk/imx
+    old: c843fde4e62681d917fb5410bbc519961d35a0b7
+    new: bb7e897b002aaf698e4ede6332bff38e77557a4b
     log: |
-         de45688d8089e0db7ee1980ee6cdb871ed2c906a arm64: Add HWCAP for FEAT_WFXT
-         23f7e4f823ea5779d95a4510cb933f2cf468e312 arm64: Add wfet()/wfit() helpers
-         4b9a838196bbf09c33408c4a4a00f525e70428f8 arm64: Use WFIT for __delay() when possible
+         bb7e897b002aaf698e4ede6332bff38e77557a4b clk: imx8m: check mcore_booted before register clk
          
