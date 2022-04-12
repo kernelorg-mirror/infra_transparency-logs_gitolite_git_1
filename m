@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2223624330943567609=="
+Content-Type: multipart/mixed; boundary="===============1570207808279415693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 12 Apr 2022 14:22:51 -0000
-Message-Id: <164977337142.19441.1202064180513938586@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 14:22:53 -0000
+Message-Id: <164977337325.19499.13093070080194096419@gitolite.kernel.org>
 
---===============2223624330943567609==
+--===============1570207808279415693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-5.19
-    old: 516ca27b6033a07d7654e7838520f2c00b1ec606
-    new: 5a026558d2a994a5e58ca6fcab34008b95fea7e1
-    log: revlist-516ca27b6033-5a026558d2a9.txt
-  - ref: refs/heads/drivers-for-5.19
-    old: a1793920b6647447e4757aec4434eb919840acb8
-    new: ca1666463eec6a80724701bf58f33530f5642a2b
-    log: |
-         5334a3b12a7233b31788de60d61bfd890059d783 soc: qcom: llcc: Add MODULE_DEVICE_TABLE()
-         d00004c4563f6c00a79f7228524966ac7a1aa29c dt-bindings: soc: qcom,smsm: convert to dtschema
-         a5ffbc04ad0327919157a643cc56de513a4c6928 dt-bindings: soc: qcom,wcnss: convert to dtschema
-         1dcf37365e7de6214af55587c69f4cced06262de dt-bindings: qcom: qcom,gsbi: convert to dtschema
-         ca1666463eec6a80724701bf58f33530f5642a2b dt-bindings: qcom,smd-rpm: update maintainers (drop Kathiravan)
-         
+  - ref: refs/heads/for-next
+    old: 3db7b4314937dc566bfaee5884e674732c219195
+    new: 0f21291d204b2b64ddeb9d1f7ba8275c2766c859
+    log: revlist-3db7b4314937-0f21291d204b.txt
 
---===============2223624330943567609==
+--===============1570207808279415693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-516ca27b6033-5a026558d2a9.txt
+Content-Disposition: attachment; filename=revlist-3db7b4314937-0f21291d204b.txt
 
+5334a3b12a7233b31788de60d61bfd890059d783 soc: qcom: llcc: Add MODULE_DEVICE_TABLE()
 e7773dbc87674aec210432185d9624ed346a46f1 arm64: dts: qcom: msm8994-huawei-angler: Add sdhc1 definition
 9e5c45a5aac0ccb0d3433c8ea6b577c0473351ef arm64: dts: qcom: sm6350: Fix naming of uart9
 7be9f3ae250e97859e28c26daf457b1be3f58d17 arm64: dts: qcom: sm6350: Add I2C busses
 413821b7777d062b57f8dc66ab088ed390cbc3ec arm64: dts: qcom: sm7225-fairphone-fp4: Add AW8695 haptics
+50769f32af218c07b07096b55a5ecad319458609 ARM: dts: qcom: align SPI NOR node name with dtschema
+d00004c4563f6c00a79f7228524966ac7a1aa29c dt-bindings: soc: qcom,smsm: convert to dtschema
+0f375d3aa6e2bde1c7c642caa0da37989d31f3e1 ARM: dts: qcom: rename WCNSS child name to bluetooth
+a5ffbc04ad0327919157a643cc56de513a4c6928 dt-bindings: soc: qcom,wcnss: convert to dtschema
+1dcf37365e7de6214af55587c69f4cced06262de dt-bindings: qcom: qcom,gsbi: convert to dtschema
+17c15a4ccf93e1bae322f1748bbd404165d90d92 ARM: dts: qcom: ipq4019: align dmas in SPI/UART with DT schema
+bec819180790f27659176056273ffa4b6aa6c397 ARM: dts: qcom: ipq4019: align clocks in I2C with DT schema
+e4cbe44ec67b0073aefdbcf6d0d6aa213b9b4328 ARM: dts: qcom: msm8660: disable GSBI8
+18019eb62efb68c9b365acca9c4fcb2e0d459487 arm64: dts: qcom: sm8250: don't enable rx/tx macro by default
+ca1666463eec6a80724701bf58f33530f5642a2b dt-bindings: qcom,smd-rpm: update maintainers (drop Kathiravan)
+09e3dac420316dbeedbf8d1d5d28901e87af5f4f ARM: dts: qcom: pm8226: add node for RTC
 aff4d695b4eb3b279bfff53d2f06f464e363ee4a arm64: dts: qcom: sdm845: shift6mq: Fix boolean properties with values
 2b6d37f6b7fe2f98197b77adcce81d4198aeb305 arm64: dts: qcom: align SPI NOR node name with dtschema
 b32846a38fc2a68f6a9c1149b495fa4ca2552f20 arm64: dts: qcom: msm8996: drop unsupported UFS vddp-ref-clk-max-microamp
@@ -83,5 +85,6 @@ cde8b4d070bd98587f5e13a5a5e63e88cfe31322 arm64: dts: qcom: msm8996-xiaomi: Drop 
 c769a3521dd5b8605b35ed246b7a0cb4567cdec4 arm64: dts: qcom: sm8450: Fix qmp ufs phy node (use phy@ instead of lanes@)
 7011db96f69316e8055961b366ac92b6c28403dd arm64: dts: qcom: ipq6018: Fix qmp usb3 phy node
 5a026558d2a994a5e58ca6fcab34008b95fea7e1 arm64: dts: qcom: sc7280-herobrine: Audio codec wants 1.8V, not 1.62V
+0f21291d204b2b64ddeb9d1f7ba8275c2766c859 Merge branches 'arm64-for-5.19', 'arm64-defconfig-for-5.19', 'defconfig-for-5.19', 'drivers-for-5.19', 'dts-for-5.19' and 'arm64-fixes-for-5.18' into for-next
 
---===============2223624330943567609==--
+--===============1570207808279415693==--
