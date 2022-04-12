@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0978173738849532461=="
+Content-Type: multipart/mixed; boundary="===============1480874840257455061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 12 Apr 2022 16:44:24 -0000
-Message-Id: <164978186481.14244.17463692026553102475@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 16:44:33 -0000
+Message-Id: <164978187363.14383.4615335811443583535@gitolite.kernel.org>
 
---===============0978173738849532461==
+--===============1480874840257455061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 85b15c268f29263658dc9e9dff5847be935d4f0f
-    new: 590032a4d2133ecc10d3078a8db1d85a4842f12c
-    log: revlist-85b15c268f29-590032a4d213.txt
+  - ref: refs/heads/dev-queue
+    old: 7661ae0babaf78f62387af0d87fb08d0f130e220
+    new: d3de13382ea33286583e19303fbf3902eace2395
+    log: revlist-7661ae0babaf-d3de13382ea3.txt
 
---===============0978173738849532461==
+--===============1480874840257455061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85b15c268f29-590032a4d213.txt
+Content-Disposition: attachment; filename=revlist-7661ae0babaf-d3de13382ea3.txt
 
 30c90f6757a7b38bc95069725657a647873e2ab3 arm64, insn: Add ldr/str with immediate offset
 7db6c0f1d8ee051e0a7d8c58c5982990e4491f39 bpf, arm64: Optimize BPF store/load using arm64 str/ldr(immediate offset)
@@ -203,5 +203,34 @@ d78eaf06b5d9f4686846ca4e35207025c415ba85 sfc: Remove global definition of efx_re
 f01598090048f5f732ea7aa64b2f194131ce60d2 net: usb: qmi_wwan: add Telit 0x1057 composition
 ec095263a965720e1ca39db1d9c5cd47846c789b net: remove noblock parameter from recvmsg() entities
 590032a4d2133ecc10d3078a8db1d85a4842f12c page_pool: Add recycle stats to page_pool_put_page_bulk
+737edda1895c6d86bb81f4e4fe83c749c729a94b igc: Add UDP segmentation offload support
+2f262e736513f51ab8008601c2e6b1aa5b42f06e igc: Fix infinite loop in release_swfw_sync
+531555f17ce2c63164dd46bd19e54580dc6a01b9 i40e: Add support for MPLS + TSO
+c412684c53b4fd70b1ac32bf4f1dc481ab586c4f igc: Fix BUG: scheduling while atomic
+38fa5eb27796f273a45d05f2b10dc22009787025 ice: xsk: check if Rx ring was filled up to the end
+5c56832395f7172fbc92da717aaf2f14e3b7af15 ice: Add support for classid based queue selection
+a1a33477a9a2febdd6dce36b7c1092fe8ec59ace ice: Add mpls+tso support
+f322e6d1f18026ccf55dfd1133d643c931876b3e igc: Remove igc_set_spd_dplx method
+17130a94d5dfb5a860c6ed8f736dc04001f85466 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+3ec9c1c4211cf19c65dd28557a294cb771747efc ice: introduce common helper for retrieving VSI by vsi_num
+0b890a84c93728962ec5effede8ea7f83685c1cc ice: use min_t() to make code cleaner in ice_gnss
+6666d70fd3a7df417d0f7d74333e0473e05cef66 i40e: i40e_main: fix a missing check on list iterator
+ff063840285c384161ff33e3ee5e14ea9b3e54c4 ice: ice_sched: fix an incorrect NULL check on list iterator
+ff30f3b855e9d0d4ec9b3bf59e6bb92f13f17af9 ixgbe: ensure IPsec VF<->PF compatibility
+fc07899f23b42a32b74ad056c1af19d8d93aa860 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+3fe2e032faf4c232d784d09a2c70c76179a69fbb ice: Fix memory leak in ice_get_orom_civd_data()
+501de122db7c28eb2ae333d2c640749995ddbe63 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
+4278ce2c1da7ab1c54a858d62b7a2f311dd2f287 iavf: Fix error when changing ring parameters on ice PF
+b6d1992f652ae592de257f060f606a17239ff987 i40e: Add tx_stopped stat
+bfebda73f22e55eba425ca3b7d219d21694e2b42 i40e: Add vsi.tx_restart to i40e ethtool stats
+9044d6aac5557b7ab2aa4e1293fb07d502f8b86a ice: Add support for double vlan in switchdev
+d7841f4d148fba79eb397f219d9ab22855b4f009 ice: link representors to PCI device
+14cc9f83e269596553728005adab837cb2fb0250 Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+35310ef0d5b56092bc35522db143b35afca26a48 i40e: Add Ethernet Connection X722 for 10GbE SFP+ support
+06bfc9fe8bdd0a5674a1d389eb8d935962161bd7 ice: Add support for vlan tpid filters in switchdev
+1f3ea386614979da939f1cef531dc5c490fa56b9 ice: return proper error code in ice_add_adv_rule
+f4bf3f229aa508d7a6a66e3208bb548b399eb519 e1000e: Fix possible overflow in LTR decoding
+e6fef967841ba97cf3cfe695d900c72d2697f3e4 igc: Fix suspending when PTM is active
+d3de13382ea33286583e19303fbf3902eace2395 ice: Fix incorrect locking in ice_vc_process_vf_msg()
 
---===============0978173738849532461==--
+--===============1480874840257455061==--
