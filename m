@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============9192574902309835893=="
+Content-Type: multipart/mixed; boundary="===============2955737490755470670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 12 Apr 2022 19:49:50 -0000
-Message-Id: <164979299058.10111.13934683720023513368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Apr 2022 19:49:56 -0000
+Message-Id: <164979299648.10221.587612642596511067@gitolite.kernel.org>
 
---===============9192574902309835893==
+--===============2955737490755470670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 2c7d1b281286c46049cd22b43435cecba560edde
     new: 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6
     log: |
          317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
          
 
---===============9192574902309835893==
+--===============2955737490755470670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649792989 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1649792988-46a5968ef30c3e588b090895c71c8d896bd1b0bf
+pusher C3F436CA30F5D8EB 1649792995 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649792994-835fa82491535dea09f98626c7535153e722fd99
 
-2c7d1b281286c46049cd22b43435cecba560edde 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 refs/heads/for-5.18
+2c7d1b281286c46049cd22b43435cecba560edde 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 refs/heads/spi-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV190ACgkQJNaLcl1U
-h9Alfgf/Y0mm1qX28N+LhBbyZ1/nDFSwzTm1orKDpCgM/tsnzMExdEKgi7wQj2O+
-hCurYlRnHIJVtSuEjT5ON5vVrHv6LR4zcuuLDxmBED0BJ3tiaETvaUwuEKMyWUlk
-eXOd8scbaYSvkGtD0BAKkpBOtAsPi5efsFd+pskHY3FeXcCvjDG7mSykVjDZttWU
-HOMW3LXXGUc6F5s6V9Ww5OEbdPRFOXeLKWVdQpU8ASafv+udLIWN2dwsHN49dQvD
-zYu5Iz28XtR+sg8SZ9KqWKzfqk+2JpQ4Wrke5zojXTRMIFYS2fBJsxQpkp7VdW8d
-vCpwrgKJQUYqRIrxGu58EtGZcZ+5Nw==
-=PtFq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV1+MACgkQJNaLcl1U
+h9AkAwf/V/S83B580OAzGUV1T1CtZZhDcS4kwKKmEaFf8zma6ukBe9jFYWx9e1f+
+mcqdvkWRC82f7EKwYfbAmEWbf9tLPJ8cAbpckmM/TBhPwSKbwcSlslumy+m+A+RV
+3VyE4sI9GVzeUDdsBn2MnzCChhA4/+vzY6lYf/ilPDtfQVX3PaRfc1eTs3DzJrBy
+aHXho2g/ZzcEKuisiOIdLbthTYB1jBfYRJBvBUDIDVGA63qoghvdBZEY1kbGcQ/r
+FLR2jfadwBqrJd3FAOsUXGRtwYagiskW9eB5qd251wLqRhB4C9FvcWKjZHp4hg59
+Hb4bZpIWVX8/C+6rZ0pbpXnUV9L5vA==
+=94/G
 -----END PGP SIGNATURE-----
 
---===============9192574902309835893==--
+--===============2955737490755470670==--
