@@ -1,59 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============0606923667190805784=="
+Content-Type: multipart/mixed; boundary="===============2223624330943567609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 12 Apr 2022 13:57:49 -0000
-Message-Id: <164977186997.3286.1151474372934894842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 12 Apr 2022 14:22:51 -0000
+Message-Id: <164977337142.19441.1202064180513938586@gitolite.kernel.org>
 
---===============0606923667190805784==
+--===============2223624330943567609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/wip/jgg-for-next
-    old: 98c8026331ceabe1df579940b81eec75eb49cdd9
-    new: 7bf5323b059587b60cdf41fe2694cc2da45eff63
-    log: revlist-98c8026331ce-7bf5323b0595.txt
+  - ref: refs/heads/arm64-for-5.19
+    old: 516ca27b6033a07d7654e7838520f2c00b1ec606
+    new: 5a026558d2a994a5e58ca6fcab34008b95fea7e1
+    log: revlist-516ca27b6033-5a026558d2a9.txt
+  - ref: refs/heads/drivers-for-5.19
+    old: a1793920b6647447e4757aec4434eb919840acb8
+    new: ca1666463eec6a80724701bf58f33530f5642a2b
+    log: |
+         5334a3b12a7233b31788de60d61bfd890059d783 soc: qcom: llcc: Add MODULE_DEVICE_TABLE()
+         d00004c4563f6c00a79f7228524966ac7a1aa29c dt-bindings: soc: qcom,smsm: convert to dtschema
+         a5ffbc04ad0327919157a643cc56de513a4c6928 dt-bindings: soc: qcom,wcnss: convert to dtschema
+         1dcf37365e7de6214af55587c69f4cced06262de dt-bindings: qcom: qcom,gsbi: convert to dtschema
+         ca1666463eec6a80724701bf58f33530f5642a2b dt-bindings: qcom,smd-rpm: update maintainers (drop Kathiravan)
+         
 
---===============0606923667190805784==
+--===============2223624330943567609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98c8026331ce-7bf5323b0595.txt
+Content-Disposition: attachment; filename=revlist-516ca27b6033-5a026558d2a9.txt
 
-40379a0084c2f65eb62c102f5bbf5cdc14a50410 net/mlx5_fpga: Drop INNOVA TLS support
-e59437aa7ae6757111e633d02acb9868c1a7ec03 net/mlx5: Reliably return TLS device capabilities
-691f17b980d028e74ae168ef9e5be7d6021dbf23 net/mlx5: Remove indirection in TLS build
-943aa7bda37301eefc363e4940c4805d8e166478 net/mlx5: Remove tls vs. ktls separation as it is the same
-7a9104ea9011c0e15176c2951a97bda43c4beabf net/mlx5: Cleanup kTLS function names and their exposure
-0276bd3a94c072de3f69b5afe6224e488cc76635 IB/mlx5: Fix undefined behavior due to shift overflowing the constant
-2fa33b3518a8da0a5345b7ae0064223b5e4e156f net/mlx5_fpga: Drop INNOVA IPsec support
-df439fcb1cd4fe8e8b1c4065db4ef1b544aa5d9e net/mlx5: Delete metadata handling logic
-501a9b23b23cb356362740347f40f7a46a9e866f net/mlx5: Remove not-used IDA field from IPsec struct
-3c811a6b45524a64fb9bc7e1c3292f7216279a75 net/mlx5: Remove XFRM no_trailer flag
-0d90bd551446b0a3c7e8777b120c67a7d741657c net/mlx5: Remove FPGA ipsec specific statistics
-74ec29bdb0ebe09d5490cd50df5ab3c309d6b276 RDMA/mlx5: Delete never supported IPsec flow action
-de8bdb476908e64805df4bfbad20618cbb1f9ffa RDMA/mlx5: Drop crypto flow steering API
-32313c6ae622ed7aa553fa1ee22d8e5f24146f0e RDMA/core: Delete IPsec flow action logic from the core
-7e4e849121398ac4f7c7c2cf1d878c2ca6f62929 net/mlx5: Remove ipsec vs. ipsec offload file separation
-5a985aa3c922b680cc5bdfb347fee42961dc0e51 net/mlx5: Remove useless IPsec device checks
-2451da081a343e079d9f5a7b063fcdf0bc439aa8 net/mlx5: Unify device IPsec capabilities check
-a6a9eaf14222434ba1bdfcdaa2c5a27dbd126972 net/mlx5: Align flow steering allocation namespace to common style
-54deb0e77561973f4ca4515e18ab972c281eea1d net/mlx5: Remove not-needed IPsec config
-16fe5a1c5c074a836626e3bd9560d3c4a39a3fcf net/mlx5: Move IPsec file to relevant directory
-f03c7b183ef93032582131cd25940245fbee433a net/mlx5: Reduce kconfig complexity while building crypto support
-f2b41b32cde8453a0a26875261f0e26809c2805a net/mlx5: Remove ipsec_ops function table
-2984287c4c19949d7eb451dcad0bd5c54a2a376f net/mlx5: Remove not-implemented IPsec capabilities
-c2fcafa78a33576b7fe47f5e4f85d413a62c2fe2 RDMA/hns: Remove unnecessary check for the sgid_attr when modifying QP
-9216d05943833bdedefb8c88680a48f9e5e4aafc RDMA/hns: Remove unused function to_hns_roce_state()
-601cdd861cf551e330c85c4dfa6d25bef3b8d554 RDMA/hns: Remove redundant variable "ret"
-ac88da750f09c749e1c0ab0b8e5468c533704e52 RDMA/hns: Add judgment on the execution result of CMDQ that free vf resource
-6f4f5cf9823387acc4f52e3d30f96b879acdff37 RDMA/hns: Init the variable at the suitable place
-7bf5323b059587b60cdf41fe2694cc2da45eff63 Merge branch 'mlx5-next' of https://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+e7773dbc87674aec210432185d9624ed346a46f1 arm64: dts: qcom: msm8994-huawei-angler: Add sdhc1 definition
+9e5c45a5aac0ccb0d3433c8ea6b577c0473351ef arm64: dts: qcom: sm6350: Fix naming of uart9
+7be9f3ae250e97859e28c26daf457b1be3f58d17 arm64: dts: qcom: sm6350: Add I2C busses
+413821b7777d062b57f8dc66ab088ed390cbc3ec arm64: dts: qcom: sm7225-fairphone-fp4: Add AW8695 haptics
+aff4d695b4eb3b279bfff53d2f06f464e363ee4a arm64: dts: qcom: sdm845: shift6mq: Fix boolean properties with values
+2b6d37f6b7fe2f98197b77adcce81d4198aeb305 arm64: dts: qcom: align SPI NOR node name with dtschema
+b32846a38fc2a68f6a9c1149b495fa4ca2552f20 arm64: dts: qcom: msm8996: drop unsupported UFS vddp-ref-clk-max-microamp
+64ff698424433dc5d2e827de2a4cc927300d7fe2 arm64: dts: qcom: msm8996: correct UFS compatible
+7ba57d11e5bb57095e6d312b518ae9ceb7efcbf1 arm64: dts: qcom: sm8350: drop duplicated ref_clk in UFS
+cdbfb815d63a792fb565ab15c8f565833bb86c8b arm64: dts: qcom: sc7280: Add WCN6750 WiFi node
+0fa44edd0f8fe2bd829827adcc5659304c8ab7fa arm64: dts: qcom: sc7280: Set the default dr_mode for usb2
+dcd0a663544fe978d658520709dfeaeb95ee855a arm64: dts: qcom: msm8916: rename WCNSS child name to bluetooth
+0e1b27f4f69e86b8b62ba5bedb78936341433247 arm64: dts: qcom: align dmas in I2C/SPI/UART with DT schema
+2374b99e19ac7f2beca2d4e62ebb96803db0e66b arm64: dts: qcom: align clocks in I2C/SPI with DT schema
+6b834df8391b5f1ee710b4750d2ed39a6d0c693d arm64: dts: qcom: sdm845-db845c: add wifi variant property
+876644c7603440279545fab4988edd424aea6d9f arm64: dts: qcom: sm8150: Add support for SDC2
+0deb2624e2d09aa158495ead66906fb437a67148 arm64: dts: qcom: sa8155p-adp: Add support for uSD card
+902d97a44211b17bae49442b770ac5311b7c0b32 arm64: dts: qcom: msm8996: Revamp reserved memory
+6d338feb553a32efee3ca50f503ab36e01455924 arm64: dts: qcom: msm8996: Unify smp2p naming
+127dd2f08d274d9be9a6b1172035ebf7b7d51bc7 arm64: dts: qcom: msm8996: Add MSS and SLPI
+73f7731b6831876fb61c32be1e75c4ad6ac25dbf arm64: dts: qcom: msm8996-xiaomi-*: Enable MSS and SLPI
+61fd9113f0c743153c76f6bc72938800bbb57ccc arm64: dts: qcom: apq8096-db820c: enable MSS node
+b4f3996c756ad9e13a6c5ce06c56c2f1dd05768d arm64: dts: qcom: sdm845: remove snps,dw-pcie compatibles
+66d7cadb7a4362b317764b7bb859ef76bddfe43a arm64: dts: qcom: msm8996: remove snps,dw-pcie compatibles
+b36e493cecae89038ccafc59fb45ded3ae8a9bf4 arm64: dts: qcom: sm8450-hdk: Enable remoteproc instances
+91d70eb70867f3fa4f0380c68253cda9e77e8bfc arm64: dts: qcom: sm8450: add fastrpc nodes
+6127d8e4cd096c4f5c8590617e22a2fdc80aee30 arm64: dts: qcom: sm8150: Add PDC as the interrupt parent for tlmm
+0e0a8e35d72533b3eef3365e900baacd7cede8e2 arm64: dts: qcom: sdm845: correct dynamic power coefficients
+5a814af5fc229b2649c814921a39ae1f652e366d arm64: dts: qcom: sm6350: Add UFS nodes
+606efee95767b54e8da4cce0429f1587ff1a3cb0 arm64: dts: qcom: sm7225-fairphone-fp4: Enable UFS
+05f333b746d48c985f6df3c4e7cc8e63a0f30840 arm64: dts: qcom: sm8150: add ethernet node
+c5cb42cc8411c8313b0265777b90715e6d032ba1 arm64: dts: qcom: sa8155p-adp: Enable ethernet node
+e036b77be77d232f41a1f6dd91e4f1f238cbb680 arm64: dts: qcom: sc7280: rename edp_out label to mdss_edp_out
+726111e687192575e47de9e286ad0e45e2ce1466 arm64: dts: qcom: msm8998-oneplus-common: Add NFC
+a2d2c809cfeeb35b9e0a17940fcee90ff195b592 arm64: dts: qcom: ipq6018: Add mdio bus description
+7a79b95f4288c67b72a1c90c90a4fb6ad6fc0c6d arm64: dts: qcom: pm8350: add temp sensor and thermal zone config
+5c1399299d9d82cb378bd22049da0ae08c4efa54 arm64: dts: qcom: pm8350b: add temp sensor and thermal zone config
+6f3426b3dea42abbe8d797560966056303d7cbd6 arm64: dts: qcom: pmr735b: add temp sensor and thermal zone config
+d67ddd17dedd1b7f1c287a9f32f5db084a7c85eb arm64: dts: qcom: pm8350c: stop depending on thermal_zones label
+7dc11169a0990f7efcd9515e012f9257aa6035b6 arm64: dts: qcom: pmr735a: stop depending on thermal_zones label
+64d3cb73b317a60d162f08533533aa5f1d9cfe72 arm64: dts: qcom: add pm8450 support
+c38406aa46da8f417ee30e6ba1fad71f891ec8be arm64: dts: qcom: msm8916: Add BAM-DMUX for WWAN network interfaces
+cde8b4d070bd98587f5e13a5a5e63e88cfe31322 arm64: dts: qcom: msm8996-xiaomi: Drop max-microamp and vddp-ref-clk properties from QMP PHY
+56205c56ea2a050ee6a237ba686cea0b38860c84 arm64: dts: qcom: sc7280: Fix qmp phy node (use phy@ instead of lanes@)
+c769a3521dd5b8605b35ed246b7a0cb4567cdec4 arm64: dts: qcom: sm8450: Fix qmp ufs phy node (use phy@ instead of lanes@)
+7011db96f69316e8055961b366ac92b6c28403dd arm64: dts: qcom: ipq6018: Fix qmp usb3 phy node
+5a026558d2a994a5e58ca6fcab34008b95fea7e1 arm64: dts: qcom: sc7280-herobrine: Audio codec wants 1.8V, not 1.62V
 
---===============0606923667190805784==--
+--===============2223624330943567609==--
