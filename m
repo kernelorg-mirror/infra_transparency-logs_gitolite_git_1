@@ -1,58 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1396665634663875308=="
+Content-Type: multipart/mixed; boundary="===============9192574902309835893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Apr 2022 19:49:44 -0000
-Message-Id: <164979298453.10017.9272523676844766913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 12 Apr 2022 19:49:50 -0000
+Message-Id: <164979299058.10111.13934683720023513368@gitolite.kernel.org>
 
---===============1396665634663875308==
+--===============9192574902309835893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.18
-    old: ddfd534528146660de75ee84d6db10f10e778f95
-    new: 5b933c7262c5b0ea11ea3c3b3ea81add04895954
+  - ref: refs/heads/for-5.18
+    old: 2c7d1b281286c46049cd22b43435cecba560edde
+    new: 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6
     log: |
-         5b933c7262c5b0ea11ea3c3b3ea81add04895954 firmware: cs_dsp: Fix overrun of unterminated control name string
-         
-  - ref: refs/heads/asoc-5.19
-    old: 122cef68f1035e704ff7fe778c07d596bf5a1fa2
-    new: c721905c54d913db0102973dbcdfb48d91146a2d
-    log: |
-         506840600613027f139d30447a2c27ec8088c698 ASoC: fix invalid yaml
-         c721905c54d913db0102973dbcdfb48d91146a2d ASoC: fsl: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
+         317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 spi: spi-mtk-nor: initialize spi controller after resume
          
 
---===============1396665634663875308==
+--===============9192574902309835893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649792983 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649792982-4196ca5e7f29094c4f4725e56200056335b0a3cb
+pusher C3F436CA30F5D8EB 1649792989 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1649792988-46a5968ef30c3e588b090895c71c8d896bd1b0bf
 
-ddfd534528146660de75ee84d6db10f10e778f95 5b933c7262c5b0ea11ea3c3b3ea81add04895954 refs/heads/asoc-5.18
-122cef68f1035e704ff7fe778c07d596bf5a1fa2 c721905c54d913db0102973dbcdfb48d91146a2d refs/heads/asoc-5.19
+2c7d1b281286c46049cd22b43435cecba560edde 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 refs/heads/for-5.18
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV19cACgkQJNaLcl1U
-h9ARgwf+Iv5NtiNwfx2faMU2M0mz3du3i8M5l7CmtKLpN3miL760GYE546SeYFTF
-DcbqAfFcLN7qKhcuuAHlcaie0dOtKQNVSJp+pLbhYXl/fmGWUhjT/ClWcrY1Rs3/
-Jw2N07Uv4mOzE5Gzyf7C3NGKGK4XZ6qM+Aq6AkDfkO+g1sLcsgbzWNGqF7k+yhNE
-ktEs07vFZCI1mj0n2q/WBxaBsbMTSkhYf35zGfdswMUHTqUaHQpY15jNw0PJlZ8t
-wgGHoxRhamvPyCcVDWBe0h4s4qiev3IO3sMiC55xfCBwR9DqxegBF/QBn538Z6AF
-k2/BCfVtGr0S68EV6oAG+v4zPTKaRA==
-=BwZd
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV190ACgkQJNaLcl1U
+h9Alfgf/Y0mm1qX28N+LhBbyZ1/nDFSwzTm1orKDpCgM/tsnzMExdEKgi7wQj2O+
+hCurYlRnHIJVtSuEjT5ON5vVrHv6LR4zcuuLDxmBED0BJ3tiaETvaUwuEKMyWUlk
+eXOd8scbaYSvkGtD0BAKkpBOtAsPi5efsFd+pskHY3FeXcCvjDG7mSykVjDZttWU
+HOMW3LXXGUc6F5s6V9Ww5OEbdPRFOXeLKWVdQpU8ASafv+udLIWN2dwsHN49dQvD
+zYu5Iz28XtR+sg8SZ9KqWKzfqk+2JpQ4Wrke5zojXTRMIFYS2fBJsxQpkp7VdW8d
+vCpwrgKJQUYqRIrxGu58EtGZcZ+5Nw==
+=PtFq
 -----END PGP SIGNATURE-----
 
---===============1396665634663875308==--
+--===============9192574902309835893==--
