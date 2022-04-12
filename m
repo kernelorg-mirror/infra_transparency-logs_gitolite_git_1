@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 12 Apr 2022 10:06:50 -0000
-Message-Id: <164975801001.13027.16005718131530659261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 12 Apr 2022 10:07:40 -0000
+Message-Id: <164975806032.13328.16682930578023023810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/tags/for-v5.18-rc
-    old: 0000000000000000000000000000000000000000
-    new: 96363b979149209156c52c9a7c3112ce69c7454e
+  - ref: refs/heads/master
+    old: b956bc8662645b7cc6d43021ae33bd091c34d9e1
+    new: 654a443a628e21cc1ab016ff227fc81563b13c6e
+    log: |
+         17b4496a1819b8bf1b78683e49e3ade1f8941b3f libfdisk: (gpt) write PMBR only when useful
+         654a443a628e21cc1ab016ff227fc81563b13c6e libfdisk: (gpt) add comment
+         
