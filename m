@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-Date: Tue, 12 Apr 2022 06:50:04 -0000
-Message-Id: <164974620453.2899.2532288187277520992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Tue, 12 Apr 2022 07:09:20 -0000
+Message-Id: <164974736090.13070.1088759082999742188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
-user: ijc
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/tags/v5.18-rc2-dts
-    old: 0000000000000000000000000000000000000000
-    new: e7cbf825ad5f3eb9831f8f976b06f8250a159258
+  - ref: refs/heads/devel
+    old: ea94a80635daaf36a289f1ec1f982b1e094faeca
+    new: 2bba2d1887cfbac6fd03fa9c3ddee9dd4d8964f3
+    log: |
+         2bba2d1887cfbac6fd03fa9c3ddee9dd4d8964f3 tty: serial, use kfifo
+         
