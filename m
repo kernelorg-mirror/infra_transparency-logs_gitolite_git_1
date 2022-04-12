@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6697621308943854710=="
+Content-Type: multipart/mixed; boundary="===============2599705074069188935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 12 Apr 2022 11:35:10 -0000
-Message-Id: <164976331079.7363.13558717522787364535@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 11:35:14 -0000
+Message-Id: <164976331471.7461.2354243585238110023@gitolite.kernel.org>
 
---===============6697621308943854710==
+--===============2599705074069188935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc-base
-    old: e783362eb54cd99b2cac8b3a9aeac942e6f6ac07
-    new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-e783362eb54c-312310928417.txt
+  - ref: refs/heads/misc
+    old: 66daf3e6b9936328cb28eaaa29dddfe96343cc85
+    new: 0848ccaea664970e559d99348484615ba0f7ab63
+    log: revlist-66daf3e6b993-0848ccaea664.txt
 
---===============6697621308943854710==
+--===============2599705074069188935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e783362eb54c-312310928417.txt
+Content-Disposition: attachment; filename=revlist-66daf3e6b993-0848ccaea664.txt
 
-05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
-be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
-d7ca25c53e25a9a628aaa19b5a031f115d8c353d highmem: document kunmap_local()
 7a3f2263d72d5055a56bc52ce97f5ded7853a41e mm/highmem: remove unnecessary done label
 597da28e1abb4ad9f7255cbb57354158fd853e19 mm/page_table_check.c: use strtobool for param parsing
 56eb8e9416e85ca7db4550b58e93ac88d7993c13 mm/kfence: remove unnecessary CONFIG_KFENCE option
@@ -1050,5 +1047,8 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 34a53ff911eb30629baad788fbed892f711bdd3e Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
+80890c5ea068661d6fe4a34beb362ca0f2c49c90 scsi: target: Allow changing dbroot if there are no registered devices
+9ad659be37612b036fdbfb535d5f831901f37db2 scsi: ufs: ufshcd-pltfrm: Simplify pdev->dev usage
+0848ccaea664970e559d99348484615ba0f7ab63 scsi: vmw_pvscsi: No need to clear memory after a dma_alloc_coherent() call
 
---===============6697621308943854710==--
+--===============2599705074069188935==--
