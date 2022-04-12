@@ -1,28 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 12 Apr 2022 09:48:51 -0000
-Message-Id: <164975693120.1267.10518009909214737354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 12 Apr 2022 09:49:40 -0000
+Message-Id: <164975698056.1583.13803132657968739019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-linus
-    old: 264fb03497ec1c7841bba872571bcd11beed57a7
-    new: 313c7e57035125cb7533b53ddd0bc7aa562b433c
+  - ref: refs/heads/kvm-arm64/wfxt-WIP
+    old: af39d991a4bfec418cd8cb57826652033ff7cc1d
+    new: eeb7c093de341fd51b2e150491e29b554f0ff24d
     log: |
-         fee2b871d8d6389c9b4bdf9346a99ccc1c98c9b8 ALSA: core: Add snd_card_free_on_error() helper
-         313c7e57035125cb7533b53ddd0bc7aa562b433c ALSA: echoaudio: Fix the missing snd_card_free() call at probe error
-         
-  - ref: refs/heads/master
-    old: 44c48123ccb29718cfd1caea42c85dea6d4ae14b
-    new: ce9ccf19a28c8f21d68dac9a2bb74ce066228eb7
-    log: |
-         fee2b871d8d6389c9b4bdf9346a99ccc1c98c9b8 ALSA: core: Add snd_card_free_on_error() helper
-         313c7e57035125cb7533b53ddd0bc7aa562b433c ALSA: echoaudio: Fix the missing snd_card_free() call at probe error
-         ce9ccf19a28c8f21d68dac9a2bb74ce066228eb7 Merge branch 'for-linus'
+         37c7103b26ab21721784e602f4a49907833fc74b KVM: arm64: Simplify kvm_cpu_has_pending_timer()
+         d64929a5af004f389e4a05e69f4d574943007d12 arm64: Expand ESR_ELx_WFx_ISS_TI to cover WFxT ISS
+         ea1c9e8ce25cab7002d181d4dbd9e79993ae3424 arm64: Add RV and RN fields for ESR_ELx_WFx_ISS
+         ea89874a8c6aa251bcc197f91a2427ed62b18d91 KVM: arm64: Introduce kvm_counter_compute_delta
+         b07c317672931912c01962a6aa38b5fa7fee0d71 KVM: arm64: Handle blocking WFIT instruction
+         60bcbf9e300718b9fdb3618d00261bfb916c6f09 KVM: arm64: Offer early resume for non-blocking WFxT instructions
+         dcb8984c3735113259a8f7b478a670ca6aeba3ed KVM: arm64: Sanitise the WFXT feature for guests
+         d744268e285c6952bc7226d91ffb3a116382997d arm64: Add HWCAP for FEAT_WFXT
+         b052c1c6745b6b92dbb4178e8645dfd72dfb0c20 arm64: Add wfet()/wfit() helpers
+         eeb7c093de341fd51b2e150491e29b554f0ff24d arm64: Use WFIT for __delay() when possible
          
