@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 12 Apr 2022 04:40:12 -0000
-Message-Id: <164973841221.16915.17418430173759887582@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5277409980427373173=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 12 Apr 2022 04:46:45 -0000
+Message-Id: <164973880515.21782.11594560448957486224@gitolite.kernel.org>
+
+--===============5277409980427373173==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/objtool-run
-    old: d9e87bb3158d6ed611bcaddd2f9ce1f05209ac19
-    new: 65bf2f00cd95add8016a19fd52f1df72bd6fd447
+  - ref: refs/heads/master
+    old: b38a0da8fb48efa32c146386fa9cb5599d710f3f
+    new: 318fd9fd0c0154b5d50808c3890a4cee5b65e54d
     log: |
-         19815a9f9c0f1f749f130fb25a987a2acb166f36 x86,objtool: Mark ex_handler_msr_mce() __noreturn
-         2bac02fe52a36d47f4ce253267c9e99cf9b9b197 x86/uaccess: Don't jump between functions
-         bbd04759926bc8d1fd5d6061ca80d93fba678474 objtool: Don't set 'jump_dest' for sibling calls
-         cacfc6e301783dd3d9af653526817a25058029bd objtool: Fix sibling call detection in alternatives
-         92da01658fbd0aba864f5031fbc7c8f565b4e2b2 objtool: Fix function fallthrough detection for vmlinux
-         32fa8637ae95c04d1d3ef950183046b212bd98d9 libsubcmd: Fix OPTION_GROUP sorting
-         86994b26d80056c9876bc1ceafbe70889fab7398 objtool: Reorganize options
-         099e0c6a2cd454272a89680155af6ba06db41b2a objtool: Make "no frame pointers" the default
-         97e1396d1606e720c3ef8a52a0b7c318bcb2fdfe CONFIG_OBJTOOL
-         65bf2f00cd95add8016a19fd52f1df72bd6fd447 todo
+         318fd9fd0c0154b5d50808c3890a4cee5b65e54d 5.10-stable patches
          
+
+--===============5277409980427373173==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649738804 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1649738803-51e751580a9451b4406af60aea36769b7e1043ba
+
+b38a0da8fb48efa32c146386fa9cb5599d710f3f 318fd9fd0c0154b5d50808c3890a4cee5b65e54d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVBDQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lZ0P/RfYAXa/uoOcvcmhX9eN
+9bMVstGc80Yr4oJTgEi97dtYmfRqCBjg9HpzjUn4oQKtdpjFISwxLH1zcAi76UZA
+f5KRXOaKtyOUqvCJF2u3aKrfZKzQF5B4tH3fn7FARPwnFRIrIj/wZ3JaOhSmFI6o
+sE5IzogBE6/S/z1mt8Kzm2MoygGKRyB/hhlsQ6GzDo94/gC6u7XSrdYfBeVttARs
+PbwFjcGUQK3FdiLJVMQOcMTknciYNXqqNlAsujNbIuSBxeWAUZG5oxmgnxfmjokf
+X9nWKf1FwyoexH1ajiBT8GFopLbj74F12gfJCQQen1EqgXBsekcvW8I/WxE8HFi+
+eu4J5za1CQXn7nmDxB7tFFRoeEhQt9qgCw348kcbS9j3a9nP8J0KVV1h2pbWhj/C
+RrI7icUO6xDr+jdC5/Ja/WFDdOUsuE1IJ3GPfGh5SKwtbsxbmIuy7cpiTu4DDAUi
+1vr4P3afqXulSPr0/JrTLNMq+Hn8Qct3l92ar8ZEElqJuIczRul1zVUWvJ7ixel3
+d5Ocgz0iV6bnff2OlAF3wjY1cnO5Dubc6PNWEU0pAA5Q5YuvZeGMuoALKkx4aIsf
+xgLTk+bdWTaqNJqNgXmnwq+7I3PbfWcaW9NSL+ogdMxEQEvxpoEIR3uWHzErFrjM
+9kNgBf2DbtGgPKnKLfGnq2Xa
+=yWQZ
+-----END PGP SIGNATURE-----
+
+--===============5277409980427373173==--
