@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 12 Apr 2022 10:10:51 -0000
-Message-Id: <164975825112.15904.9340404574047027138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
+Date: Tue, 12 Apr 2022 10:15:17 -0000
+Message-Id: <164975851729.20182.7673866908255347782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/pabeni/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: e89c6d896e8644168922d2a9854fecd8f4b7a86c
-    new: 270a625957419fd34798d9ad6f364eb0057b5c1d
+  - ref: refs/heads/master
+    old: 80ecb114f23ba089571e1320abdfa728795f4b03
+    new: 93c1a40075a3ba4b3578cda3f6b319c6f2806475
     log: |
-         30de14b1884ba609fc1acfba5b40309e3a6ccefe s390: current_stack_pointer shouldn't be a function
-         c68c63429319a923a3f23db64810ba608f5d20f7 s390: enable CONFIG_HARDENED_USERCOPY in debug_defconfig
-         270a625957419fd34798d9ad6f364eb0057b5c1d Merge branch 'fixes' into for-next
+         54fccfdd7c663a2e23de85ea4ed6a123b6abcc35 sfc: efx_default_channel_type APIs can be static
+         cc42e4e3f1014f2d24437955bc1e90b77cef343e sfc: Remove duplicate definition of efx_xmit_done
+         d78eaf06b5d9f4686846ca4e35207025c415ba85 sfc: Remove global definition of efx_reset_type_names
+         93c1a40075a3ba4b3578cda3f6b319c6f2806475 Merge branch 'sfc-remove-some-global-definitions'
          
