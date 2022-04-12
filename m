@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Tue, 12 Apr 2022 10:15:17 -0000
-Message-Id: <164975851729.20182.7673866908255347782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 12 Apr 2022 10:18:15 -0000
+Message-Id: <164975869523.21154.12275768421649181291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 80ecb114f23ba089571e1320abdfa728795f4b03
-    new: 93c1a40075a3ba4b3578cda3f6b319c6f2806475
+  - ref: refs/heads/kvm-arm64/wfxt-WIP
+    old: eeb7c093de341fd51b2e150491e29b554f0ff24d
+    new: 931796223cc4ff8402b1b8de3efbf8bbc4578a85
     log: |
-         54fccfdd7c663a2e23de85ea4ed6a123b6abcc35 sfc: efx_default_channel_type APIs can be static
-         cc42e4e3f1014f2d24437955bc1e90b77cef343e sfc: Remove duplicate definition of efx_xmit_done
-         d78eaf06b5d9f4686846ca4e35207025c415ba85 sfc: Remove global definition of efx_reset_type_names
-         93c1a40075a3ba4b3578cda3f6b319c6f2806475 Merge branch 'sfc-remove-some-global-definitions'
+         931796223cc4ff8402b1b8de3efbf8bbc4578a85 arm64: Use WFIT for __delay() when possible
          
