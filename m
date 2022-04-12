@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3550444121383409059=="
+Content-Type: multipart/mixed; boundary="===============3715658726658346905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 12 Apr 2022 20:43:03 -0000
-Message-Id: <164979618350.12437.4338490676588342473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 12 Apr 2022 20:43:09 -0000
+Message-Id: <164979618967.12551.14936580074558804238@gitolite.kernel.org>
 
---===============3550444121383409059==
+--===============3715658726658346905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/spi-5.19
     old: 8b1ea69a63eb62f97cef63e6d816b64ed84e8760
     new: 6f381481a5b236cb53d6de2c49c6ef83a4d0f432
     log: |
@@ -25,28 +25,28 @@ changes:
          6f381481a5b236cb53d6de2c49c6ef83a4d0f432 spi: spi-rspi: Remove setting {src,dst}_{addr,addr_width} based on DMA direction
          
 
---===============3550444121383409059==
+--===============3715658726658346905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649796182 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1649796181-b6c4b99a282205c034f4dbc385ea760b2ec9cfb8
+pusher C3F436CA30F5D8EB 1649796188 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649796187-17cd46b9ffd554af033d1f0ff52ed2ab4c702a80
 
-8b1ea69a63eb62f97cef63e6d816b64ed84e8760 6f381481a5b236cb53d6de2c49c6ef83a4d0f432 refs/heads/for-5.19
+8b1ea69a63eb62f97cef63e6d816b64ed84e8760 6f381481a5b236cb53d6de2c49c6ef83a4d0f432 refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV5FYACgkQJNaLcl1U
-h9BviAf+J5uuess+vSmHJaQcShEf0Dl/cKjnO92MOBHuHLAVcB13jhYaxU5S13Lg
-lgsZ9xEBjDPGL9KERqxg08u+BDrozlBDPzalGl+EmH9TKsll918hMvWBA+ua7f0C
-CTBkcyjShOvplNvSU30Q+GmQ7XiQ6ZSISUYCP8hogKR1MyqZMPP3rIrzhmVUyhoO
-bx3kgM03+Ow9Twu4u7R4zny10knc+LPCJGKivxNAxB5h8rahqDhZCit/eC9tNo4A
-N4fmoPnMQHjy053ipyg+Gbr4SL05FgzL17DE3hoghJyf2w/SADo5IbDCG85pPNja
-opjxAW53sckLj+FqBJmkenJZiPI2oA==
-=Y2h8
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJV5FwACgkQJNaLcl1U
+h9DNRgf7BGXe7bSQOInAK9wrtY/exA8tmXKAFyfs4TCzaqkUcMCfmAghkRHCbIzb
+JxFFr72L5/uJTKSQ6QqKU6MVhObNYj5G+FsGcB7Hxkk4moR9ndTr5loZk4C+iiH9
+nIFQaxWzFhIhlzYt+fn+sTOeubC++IhylozGsfa8R0r/27jixdBWaBCfm9BCz6zA
+tcHoLNns//aCl68SduxswI+HrAu4gUivBvpWaj5ybh+CMcG6V17P319AyoM0NcKX
+HymUoGD5oTeV5eUFMmTfJZXMa3yGcpIlxvNJ8Ra2VUfqGXtTgznctT0RfqxPySHX
+pfASJD/bfmzFR/Ej/+DR3uTsn9yhRA==
+=8sLz
 -----END PGP SIGNATURE-----
 
---===============3550444121383409059==--
+--===============3715658726658346905==--
