@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Tue, 12 Apr 2022 18:40:59 -0000
-Message-Id: <164978885961.29507.10203258069594669116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 12 Apr 2022 18:41:01 -0000
+Message-Id: <164978886176.29578.14140938185477174413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: sandeen
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/libxfs-5.16-sync
+  - ref: refs/tags/20220323085010.1753493-4-dmitry.baryshkov@linaro.org
     old: 0000000000000000000000000000000000000000
-    new: a2a5e0b255eae3c778dd88b1a23c729eb7140a7e
+    new: 3cfac172ff059f025f3dea59d9ea1e429923ebf8
