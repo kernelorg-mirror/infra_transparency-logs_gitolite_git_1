@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 12 Apr 2022 16:58:53 -0000
-Message-Id: <164978273352.24708.11927367841745510769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 12 Apr 2022 17:02:33 -0000
+Message-Id: <164978295352.27776.9922833814247595908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/todo
-    old: 3e940371c48370f0e8f636802dcb206c4a41a5bd
-    new: a081b42c76d3d342adf132d17c37a6374b4631bb
+  - ref: refs/heads/ch/git-2-35
+    old: bbbaa29a96fbeccad7e09702309251bef7905496
+    new: 9761994243a283e1447bdf7f7a11dba9f5f2ddc9
     log: |
-         a081b42c76d3d342adf132d17c37a6374b4631bb What's cooking (2022/04 #03)
+         9761994243a283e1447bdf7f7a11dba9f5f2ddc9 git: update to v2.35.2
          
