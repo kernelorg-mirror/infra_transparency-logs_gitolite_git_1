@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5294989675362566702=="
+Content-Type: multipart/mixed; boundary="===============6535756382076359205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 12 Apr 2022 12:08:54 -0000
-Message-Id: <164976533440.28454.3361640019390661125@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 12:09:11 -0000
+Message-Id: <164976535126.28662.11623370433956962623@gitolite.kernel.org>
 
---===============5294989675362566702==
+--===============6535756382076359205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 5d9623f62696b213882ded514f2587210b598d8c
-    new: 0dcf1c1a6ec22bf66c2ff2c7e7de5a795b0c3861
-    log: revlist-5d9623f62696-0dcf1c1a6ec2.txt
+  - ref: refs/heads/fixes
+    old: b71597edfaade119157ded98991bac7160be80c2
+    new: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+    log: revlist-b71597edfaad-ce522ba9ef7e.txt
 
---===============5294989675362566702==
+--===============6535756382076359205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d9623f62696-0dcf1c1a6ec2.txt
+Content-Disposition: attachment; filename=revlist-b71597edfaad-ce522ba9ef7e.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -430,27 +430,5 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 95aa17c36dc89bf008753217ed27f8a8eb5faf79 Merge tag 'staging-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
-e80c5abe70f04c4ca4064b40f62938658ad19d9f mmc: renesas_sdhi: remove outdated headers
-f9d709860ca43d44d1808a6a376e63f08d6482aa mmc: renesas_sdhi: R-Car D3 also has no HS400
-f340e4489ad4f75567a63ed26e755145f32db6bb mmc: renesas_sdhi: make setup selection more understandable
-bb943da673155f77d2c348834662477a23ffc3ed mmc: renesas_sdhi: remove a stale comment
-abf556a18c6df0ddaa8fbb8c724f01d91737070a mmc: renesas_sdhi: make 'fixed_addr_mode' a quirk
-6865a8f457b046810762f6108ddd340b9a748bf2 mmc: renesas_sdhi: make 'dmac_only_one_rx' a quirk
-352a209796a27013a94f50a5daf6dcc201379954 mmc: renesas_sdhi: style fix for proper function bodies
-5de6dac125bd9a739eebd9038a91cfb8eee190de mmc: mmci: stm32: use a buffer for unaligned DMA requests
-d45f75d843ca9470d1d1879ccd9f3ff8509405ea mmc: renesas_sdhi: Add missing checks for the presence of quirks
-05b1c1fca6d2f65ccf1a70517afc88a54a13206a mmc: renesas_sdhi: R-Car V3M also has no HS400
-0916132219aebb013aa9cd674c5ef6e6868c5833 dt-bindings: mmc: xenon: Convert to JSON schema
-2d1f43b33bea2537f4505f0136c694ed999eee01 dt-bindings: mmc: mtk-sd: increase reg items
-1c7ec586fe55aee730a4fb388f546606db124599 mmc: core: Set HS clock speed before sending HS CMD13
-11325f157446d6f8d736d01f383aae0a4a66eac6 mmc: core: block: fix sloppy typing in mmc_blk_ioctl_multi_cmd()
-0aea9deb107ad7ce9ec151177a9c5926e894c6a5 mmc: mmc_spi: parse speed mode options
-923b56b6b0d71ef5fc86ad8006d2bd9aa971d806 mmc: omap: Make it CCF clk API compatible
-c894b6193ef4797bad7eac5bc4c8b532ec00d45b mmc: renesas_sdhi: R-Car V3H ES2.0 gained HS400 support
-01b8e9e75e5bc7263bc6341cc39d2e7a0d303e37 mmc: renesas_sdhi: remove superfluous specific M3W entry
-4d75f845906831fa2d3fb8512c5a26b1a4a5b81b MAINTAINERS: Add linux-renesas-soc@vger.kernel.org list for Renesas TMIO/SDHI driver
-cbf4c0bd4fe43e1e2c1dc009d0ecf1a12a85b8d7 mmc: core: improve API to make clear that mmc_sw_reset is for cards
-d9d62c8c15e8098ca246f36905126fd0bb62597e mmc: improve API to make clear hw_reset callback is for cards
-0dcf1c1a6ec22bf66c2ff2c7e7de5a795b0c3861 dt-bindings: mmc: imx-esdhc: Update compatible fallbacks
 
---===============5294989675362566702==--
+--===============6535756382076359205==--
