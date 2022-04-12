@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8239125192247050541=="
+Content-Type: multipart/mixed; boundary="===============3044150363978676438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 12 Apr 2022 17:37:35 -0000
-Message-Id: <164978505526.18569.10546242374356060673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 12 Apr 2022 17:37:43 -0000
+Message-Id: <164978506381.18688.12199670866606732346@gitolite.kernel.org>
 
---===============8239125192247050541==
+--===============3044150363978676438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-5.19
-    old: 4df6836dbbdb6a00af5f9ab6233e33cec3a73961
-    new: 8b1ea69a63eb62f97cef63e6d816b64ed84e8760
+  - ref: refs/heads/master
+    old: 2bdd5423998b0c5ada7d5530fb857c44703479ac
+    new: 243bc54a64330b665b67d6576eaffb6d8a180cd0
     log: |
-         8b1ea69a63eb62f97cef63e6d816b64ed84e8760 spi: spi-ti-qspi: Fix return value handling of wait_for_completion_timeout
+         243bc54a64330b665b67d6576eaffb6d8a180cd0 drop powerpc-code-patching-pre-map-patch-area.patch
          
 
---===============8239125192247050541==
+--===============3044150363978676438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649785053 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649785053-23b0e16f2286b2f94458756f39572b28f3c7efbb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649785060 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1649785059-043605d5d8765ee5e6db0a24751abcdce1a61dcb
 
-4df6836dbbdb6a00af5f9ab6233e33cec3a73961 8b1ea69a63eb62f97cef63e6d816b64ed84e8760 refs/heads/spi-5.19
+2bdd5423998b0c5ada7d5530fb857c44703479ac 243bc54a64330b665b67d6576eaffb6d8a180cd0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJVuN0ACgkQJNaLcl1U
-h9CVHQf9Gg/sNuIZOgTMB8DLXLLOnWg1fs+FToUkR7jeYFz836TWDOqhLRgSN8PD
-gA0gmB99pynEppz7HT8x8Ex9PK3/Rv4jawJnInXclevB1KpOapMpBlza2bI2zNSU
-pva/bkJic3PKsIPZbOF03FOCBL+ATVI03Dz5cnST6rvrQeQMZ6Xm0e1+LD6jG+jy
-2JKWOl3zHbdRCb7rvXG0406L/DqEokqcEC5NaK9HQ+5F5EmXpAC5e7vQ0T+eHgW+
-3s4mxxlpo7cEbvlK6kmzqrdxw2L2tq0Cr86DYNTBdUK0/rfgxlE7leevLKgk3tLO
-kRFp9WIua2ihzeRQs1rqf4NeOCSKuw==
-=ZiWV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVuOQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lB4QALnBEBvqulpRONCrzGlX
+BP57OEYeZ9M3w4BS+OlMw/+3k0x4w2ut0QRDA1k2GOMSJi7gg6DCtDumLIglTnAu
+q88/d++arfui4Ns7PBjZNmnVxO0celPb7inTlOcsZDXQKFDbJd9sUzVZpdRgljI+
+B13oawDIqOdC4HpJLJvnKyvLmb+H7qlNsNTFEF2VLrnsyB99gDRUNUemWcNJXbq1
++FwsXP7c2M6GT7/FPJN5OT6usjMFh9HZV5w0srpyWfOmOSHCmTff2rAqFHeJc5Gb
+LRw94uLGGj8b+uNtxXZtGg/zU0fnu5scW1nRi1jGzxUpXQcakLMmvluEnw02zQSZ
+TyDzz6z6CVMzmMwvgZY0fsRTqi8lhMeD2yCpfAn7wDcy+c+AQ1dqQBAYyym7+WtW
+6wIlsEQ1IFPHd9qQcPyU07IfZxDBl51M8GrF0dydsD7zbU6+21SUJmQyFUpn2Em+
+aFGXkXC4Q5vJimj9lSi7yWxRkEDJl+ivspigI0iMBKrf74ZyS89Y4g2LJwR8syDm
+/X7+CBUzoPBEW3ub5gn5+tjdPHYYSbkFbuqFBre3rJ/ta23CJRVQfPZZOr9in+KC
+7ntpDoCfbZRZvawoDoJOiav/VKvsGxpzTtoGxd6qD1+4wmFcTzHWsxhz4LYvaKO1
+OYI4xBvn+40R5e1KKfBXMq8Y
+=8wBB
 -----END PGP SIGNATURE-----
 
---===============8239125192247050541==--
+--===============3044150363978676438==--
