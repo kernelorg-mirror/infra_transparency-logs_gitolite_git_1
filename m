@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============9132688929622840690=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 12 Apr 2022 04:14:14 -0000
-Message-Id: <164973685498.31426.3702096532912016913@gitolite.kernel.org>
-
---===============9132688929622840690==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 12 Apr 2022 04:40:12 -0000
+Message-Id: <164973841221.16915.17418430173759887582@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -16,28 +12,17 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool-run
-    old: 0060ff03f4882dcb7911b968e5d1f31aaf840c33
-    new: d9e87bb3158d6ed611bcaddd2f9ce1f05209ac19
-    log: revlist-0060ff03f488-d9e87bb3158d.txt
-
---===============9132688929622840690==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0060ff03f488-d9e87bb3158d.txt
-
-32794d7a755303dcb2d0149fe857649681f5402f lib/strn*,objtool: Enforce user_access_begin() rules
-4829ee0901d0d79dffe6e3f322944243bed78885 x86,xen,objtool: Add UNWIND hint
-d76af36b87c4220406e6e94dea9318c42a53e30b x86,objtool: Mark cpu_startup_entry() __noreturn
-9da91cd68350fc67174752a5760695cf2a72405b x86,objtool: Explicitly mark idtentry_body()s tail REACHABLE
-9519e4853148b765e047967708f2b61e56c93186 x86/uaccess: Don't jump between functions
-8737d6b9d1691831aed73375f444f0f42da3e2c9 objtool: Don't set 'jump_dest' for sibling calls
-c02e0a0a2a4286b5f848d17c77fdcb7e0caf709c objtool: Fix sibling call detection in alternatives
-b434cff98eca3a60dcc64c620d7d5d405a0f441c objtool: Fix function fallthrough detection for vmlinux
-3b61c4460b03696d94f5da13b8d28bed1f117746 libsubcmd: Fix OPTION_GROUP sorting
-551f5fb3dc90c7a45c5e50016ad0b02d5036693c objtool: Reorganize options
-4db38a1a5238ad1a3efb15bd0b4e0a3b5e9fbb5d objtool: Make "no frame pointers" the default
-2781c52e39277d0a0e69301bee2b7cc9c2653207 CONFIG_OBJTOOL
-d9e87bb3158d6ed611bcaddd2f9ce1f05209ac19 todo
-
---===============9132688929622840690==--
+    old: d9e87bb3158d6ed611bcaddd2f9ce1f05209ac19
+    new: 65bf2f00cd95add8016a19fd52f1df72bd6fd447
+    log: |
+         19815a9f9c0f1f749f130fb25a987a2acb166f36 x86,objtool: Mark ex_handler_msr_mce() __noreturn
+         2bac02fe52a36d47f4ce253267c9e99cf9b9b197 x86/uaccess: Don't jump between functions
+         bbd04759926bc8d1fd5d6061ca80d93fba678474 objtool: Don't set 'jump_dest' for sibling calls
+         cacfc6e301783dd3d9af653526817a25058029bd objtool: Fix sibling call detection in alternatives
+         92da01658fbd0aba864f5031fbc7c8f565b4e2b2 objtool: Fix function fallthrough detection for vmlinux
+         32fa8637ae95c04d1d3ef950183046b212bd98d9 libsubcmd: Fix OPTION_GROUP sorting
+         86994b26d80056c9876bc1ceafbe70889fab7398 objtool: Reorganize options
+         099e0c6a2cd454272a89680155af6ba06db41b2a objtool: Make "no frame pointers" the default
+         97e1396d1606e720c3ef8a52a0b7c318bcb2fdfe CONFIG_OBJTOOL
+         65bf2f00cd95add8016a19fd52f1df72bd6fd447 todo
+         
