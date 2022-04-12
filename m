@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8774688613730807958=="
+Content-Type: multipart/mixed; boundary="===============1104276545833084311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 12 Apr 2022 13:51:12 -0000
-Message-Id: <164977147208.31971.12225220622392789400@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 13:51:50 -0000
+Message-Id: <164977151048.32223.9646566938105600650@gitolite.kernel.org>
 
---===============8774688613730807958==
+--===============1104276545833084311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 5e080cd771e827e26c1e55af11144b2dfe8b9eb3
-    new: ffb3c2688e3807806f06944c5ced64a5245dbd49
+    old: ffb3c2688e3807806f06944c5ced64a5245dbd49
+    new: 88d33bb87968d1c2ffa76feb6b94241750c8bcf7
     log: |
-         ffb3c2688e3807806f06944c5ced64a5245dbd49 staging: rtl8712: efuse: code style - avoid macro argument precedence issues
+         88d33bb87968d1c2ffa76feb6b94241750c8bcf7 staging: vt6655: Remove macro PCAvDelayByIO
          
 
---===============8774688613730807958==
+--===============1104276545833084311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649771470 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649771508 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649771469-4f733d57a9f3ca63b9a69a4174c4f5606cf20a0c
+nonce 1649771508-45e449aaa71625c5e1308e26504325e9dd73226e
 
-5e080cd771e827e26c1e55af11144b2dfe8b9eb3 ffb3c2688e3807806f06944c5ced64a5245dbd49 refs/heads/staging-testing
+ffb3c2688e3807806f06944c5ced64a5245dbd49 88d33bb87968d1c2ffa76feb6b94241750c8bcf7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVg84bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aTMP/1iG6hhGfRuKDoY3Y7og
-/SYx2Vnv/INPQDsaR/1G8haVAtdcybsddQxmLMPQ9oVh8WUn1y8YvURVtdmYzCwy
-nJnED3LsNiRz+D6vX1rjphLfuaM5wLj6dMdwRCJpQspK0aEyJFzmnQ4Pw8pQUl/w
-ldOdiV+lkAYzxglzIDe7P6lhFMhh14eIgDGTe6yIHi9dfT9Ho6oVeM3vnAjl5wG2
-e3LxdhJ1wKM83AQBq0PLP/hjgYpfgRwpc80AlKm8IHEwm47MqLoTwO1Bf4H2LHTi
-smTPEMVECRndpjOF1TQKdsdQ0X3LRPEku5rbsGTE8bNGCkIg7XiNYj6VdVJfM81o
-qrWHv07WyUMcZ1ccibiPDsse3aJwUUsCMFG7xoTIpcNaAXyPoJPa7WAVIJVH3up3
-/hH+3wW7EErOOPMviZeOAvH5Ywcdsc3ZzH/zqvYDStNi2mx/euUhkznqzbILtNux
-Erlj5QZkDBDukrxapki/xT4KYPIuMgBHat0QPO2pYh8riUbwXQnynyBdnsOBIqol
-RAZvBvcmh+cScUCU3dPNihKDXq0SdvOTTvcU4+cbzkbftH82XjwgwylH6cgHn3OJ
-hiE/T9TIzMwsZmlfBy/8wKoInpI1/2jcUJACBemreBmDW1dxyd9ulwCHy5rgzn7u
-K5KYCQnSmbCK5HwvLq4/UdCl
-=W0cF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVg/QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oBsP+wTzxYyyaPARxoTQUjGE
+kJTAIx6vJydJvtDF7JDbomWTbdLPIO04UhN+atCVA8DxVVxoJuzVSPm6Y3/yKhx+
+v13BTtpuFvx6buzvs+vtKIUp9H4VaoFDiTKRvpdg9M81yDHGkWshnD2m51Qx0EKq
+vjSGyfYxyCPN25DB4GQvWTcWeMJAlyuNfoy7Oeq7+Tlj09EvdtUbjV+gm3CeLV/H
+Sfq05E8qAR/UD6ctrlZDFb0uvTfzFNgpbwpA9Z1HAFLpuXxa9AXmNlLJ1YxyRKqZ
+5rgG6AcJjADeIFUGBNFBSo6Thhe5wfnhxWTpnUwMDed9uJtvExBshOiomPqz9pNc
+NUCDFkVgzvMRMnO48aRphsAdnAe9O0zJxtkWuFNYY+8lhJJ3YL3VYszn8rv6M1CA
+p1Kvgwn0DOgHmcZ6f1spdkNzk56ySwhOBOcqLzAtBndVuuua3NbEtD3Qu1LLaen0
+nvkNxFWjBaDY6BayB1FNQhByKWhN9ChE34gAa4IGPfhTwT93Lao59+4ZyusFJxAi
+hXWCf7F7nQCljB8hD1pQUZjixiFDkWxeU6dylE91EKloWuSS7V4qtUh3+UPWioyf
+FFPpkeLwv0jTcCp4AvAH9P2DtMUx4hE3crJds+VSL5fECEK0VtGSCwqNAFah3DSi
+k6NvewQTCX+MXGMsstwMlkY/
+=w1Me
 -----END PGP SIGNATURE-----
 
---===============8774688613730807958==--
+--===============1104276545833084311==--
