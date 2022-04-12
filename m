@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8525810327278130304=="
+Content-Type: multipart/mixed; boundary="===============6128296907758431192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 12 Apr 2022 15:59:01 -0000
-Message-Id: <164977914148.16719.12924340924562023593@gitolite.kernel.org>
+Date: Tue, 12 Apr 2022 15:59:07 -0000
+Message-Id: <164977914772.16812.9158181655600785546@gitolite.kernel.org>
 
---===============8525810327278130304==
+--===============6128296907758431192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7cea5560bf656b84f9ed01c0cc829d4eecd0640b
-    new: ad8064a7f1a67c3e47b37ffcb66abb12c931daa4
-    log: revlist-7cea5560bf65-ad8064a7f1a6.txt
+  - ref: refs/heads/dev-queue
+    old: 1731f2c097fda8fab2cbcd16ff2e8a6ff81981ee
+    new: 9f8f59fbacff80dbd518303f36851a0a23af8eb7
+    log: revlist-1731f2c097fd-9f8f59fbacff.txt
 
---===============8525810327278130304==
+--===============6128296907758431192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cea5560bf65-ad8064a7f1a6.txt
+Content-Disposition: attachment; filename=revlist-1731f2c097fd-9f8f59fbacff.txt
 
 d7442f512b71fc63a99c8a801422dde4fbbf9f93 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
 7d59706dbef8de83b3662026766507bc494223d7 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
@@ -51,5 +51,18 @@ eb9c0d671e9432901b8a453e7915416f22f7f919 net: lan966x: Update lan966x_ptp_get_no
 d7a947d289dc205fc717c004dcebe33b15305afd net: lan966x: Fix when a port's upper is changed.
 269219321eb7d7645a3122cf40a420c5dc655eb9 net: lan966x: Stop processing the MAC entry is port is wrong.
 ad8064a7f1a67c3e47b37ffcb66abb12c931daa4 Merge branch 'net-lan966x-lan966x-fixes'
+50976090926c9ecf495a8e664b3e7aa518162053 checkpatch: Fix warnings when --no-tree is used
+b35accb0c950cccdf8c9a0ed2bb46f606eb9d76d checkpatch.pl: seed camelcase from the provided kernel tree root
+1e27ea91b42a61df7e83a294786adaffdf6ead6b igc: Fix infinite loop in release_swfw_sync
+3266ac9f5c66d62fe0b41976d4b9a5f861d53092 igc: Fix BUG: scheduling while atomic
+6a1f41d9aa41ee8ad4af68564a8ab340907c60a1 i40e: i40e_main: fix a missing check on list iterator
+7455740b49119131c7ea479dc8468a0bd793d574 ice: ice_sched: fix an incorrect NULL check on list iterator
+d39a6ded4934220bae2784b0732f3d6c875316ae ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+ffa7fb76867daa8625199defc746ca694137b81e ice: Fix memory leak in ice_get_orom_civd_data()
+7e8955b3ea21d81b504e21cd22e9f4158279859b iavf: Fix error when changing ring parameters on ice PF
+afc3989b705bec12d836d00b648de42ce7c2dddd ixgbe: ensure IPsec VF<->PF compatibility
+325365c2d10127de5a1891e21254aacdf22f2529 e1000e: Fix possible overflow in LTR decoding
+5897fd199d0d49563216717c094d7b0e6a989933 igc: Fix suspending when PTM is active
+9f8f59fbacff80dbd518303f36851a0a23af8eb7 ice: Fix incorrect locking in ice_vc_process_vf_msg()
 
---===============8525810327278130304==--
+--===============6128296907758431192==--
