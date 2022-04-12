@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============3360116464288522322=="
+Content-Type: multipart/mixed; boundary="===============3252179195038160984=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 12 Apr 2022 16:39:06 -0000
-Message-Id: <164978154653.9715.14900904105174301356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/firmware
+Date: Tue, 12 Apr 2022 16:41:33 -0000
+Message-Id: <164978169348.12008.8536547570439381815@gitolite.kernel.org>
 
---===============3360116464288522322==
+--===============3252179195038160984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jkirsher/firmware
+user: jkirsher
 changes:
   - ref: refs/heads/master
-    old: 83a8a93709b2ea18fb4f769e5bf73e32906e72dc
-    new: 2bdd5423998b0c5ada7d5530fb857c44703479ac
-    log: |
-         2bdd5423998b0c5ada7d5530fb857c44703479ac 5.15-stable patches
-         
+    old: 681281e49fb6778831370e5d94e6e1d97f0752d6
+    new: f219d616f42b0640275aa2fd2cdff937a4043f9e
+    log: revlist-681281e49fb6-f219d616f42b.txt
 
---===============3360116464288522322==
+--===============3252179195038160984==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-681281e49fb6-f219d616f42b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649781545 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1649781545-23f64797f4111dd586c10a250fb5a606040c77f6
+f4d1c0222477dd488cc99cfa1c3c7c4ec8034f16 ice: update ice DDP comms package to 1.3.31.0
+dd5d1c7e1959265dc66856df3720d403cdd171a7 ice: Add wireless edge file for Intel E800 series driver
+07338f9d33089aba6853cb7b3a1d9a8676c83580 rtw88: 8821c: Update normal firmware to v24.11.00
+c1b79a367342821c6133546e4b64b536244b4743 linux-firmware: update firmware for mediatek bluetooth chip (MT7921)
+775eb5a66235ff7e353ba10ef8f69da2d389f33a linux-firmware: update firmware for MT7921 WiFi device
+571ff33848b8265a1b7f65e296369f84ae38eff2 amdgpu: update navi10 VCN firmware
+9f949b15bc389d020905231dd42884135e38e3c4 amdgpu: update navi12 VCN firmware
+07a7c4859797716ce091b263510b677524e049e6 amdgpu: update navi14 VCN firmware
+e0efcbca0e67c7d182fde48f3fc507ad10046fe1 amdgpu: update renoir VCN firmware
+688dd3feda04a60be07470577cfdba472684dded amdgpu: update green sardine VCN firmware
+d4059961b2dcfcb76b2bc56821b41721e5cd4590 linux-firmware: Update firmware file for Intel Bluetooth 9260
+bfa7cfbd1180ed1bbbb6d90e63b7dc48548d9b2d linux-firmware: Update firmware file for Intel Bluetooth 9560
+522a7b8708ff307bdcdd79a488b4230e6254d13f linux-firmware: Update firmware file for Intel Bluetooth AX201
+97301e9c0c969bdd48fd2a9cfb0c08bc016d3288 linux-firmware: Update firmware file for Intel Bluetooth AX200
+af9a10c8d6003fa961893def32d49bf4cc5f71d6 linux-firmware: Update firmware file for Intel Bluetooth AX210
+ced9312d10fe58a71fbf185e0c091c321e15f919 linux-firmware: Update firmware file for Intel Bluetooth AX211
+3187c4685e695d38c1a643b1ee3710b9d67b7473 linux-firmware: Update firmware file for Intel Bluetooth AX211
+f280b90c8d43e343709f6fb72397d0a660d44a64 linux-firmware: Update firmware file for Intel Bluetooth AX201
+0167639605e2fdc8711e4948f99f787fe7b98e74 linux-firmware: Update firmware file for Intel Bluetooth AX201
+b61ecf09f85dd5ea899f3da71fc476d8de80d06d linux-firmware: Update firmware file for Intel Bluetooth 9560
+8ac1a41019bf7db1486c3a413f22fd2c9ead5692 linux-firmware: Update firmware file for Intel Bluetooth 9560
+f431758adf19a87688d99437af1f64f2f2814985 linux-firmware: Update firmware file for Intel Bluetooth 9462
+50cd76452cfe5d08431a90ff8236673c0e8f4dfd linux-firmware: Update firmware file for Intel Bluetooth 9462
+4ffcf980a535c1f26aa994ecf64a1b9d1ed6216e brcm: rename Rock960 NVRAM to AP6356S and link devices to it
+2c2be4215fe29870dcd9a059ff8778e73269ddc1 nvidia: add GA102/GA103/GA104/GA106/GA107 signed firmware
+31ec35bf14df835e2f9f7c8b1a8516a34f836df5 linux-firmware: Update AMD cpu microcode
+431bb46376328b5f205299fed5270c8fbda2cf61 Merge https://github.com/pkshih/linux-firmware into main
+705f19ac52c81fdc7f62e8221a1938189be69ebc Merge branch 'dev-queue' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/firmware into main
+ae8dfb4a5d4c6028ee1fca04b374b0e03ec35360 mediatek: Add mt8192 SCP firmware
+f219d616f42b0640275aa2fd2cdff937a4043f9e Merge branch 'v1' of https://github.com/yunfeidongmediatek/linux_fw_scp_8192 into main
 
-83a8a93709b2ea18fb4f769e5bf73e32906e72dc 2bdd5423998b0c5ada7d5530fb857c44703479ac refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJVqykbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tg8P/RlljWIv3m+E5opj2idg
-GzkeoMzWAZ4CgZ5Teeq0PGHKockp0pLQx3vET7VGCnw6UQiur/VeF/PmtOB9EYsJ
-+xrVKYy7wjplO60NHvnJBH/TMPK1JcogpZArcmHf+IE25LbBB7oAjY4JboJh9weS
-Z838iffh0YacMcrzkLYFt0ynVigoDLyCVvu48Qp35s4UC5oSTP5JpjsIRlDNVyL8
-Xu0saOPalwRPnb9rYaBq6wnq7rQZnIk4TqYtYhO9uFZN0Cg33PivF7yAZ+lljiqO
-Pj4mzUjZ6bvbQzpzJVn0tUCV+VmRhr+j76XuNbn5DHyihLGFRA2vHMvUnto821bW
-pG+u0PGc45PvCYPSYytuxZzv6NVVvp7Y0llXYJ/11G25Uxi2/SKmX0pjbujFbxo7
-8KWwnAQ1BwBHSHx8qherTLixCfwvNxFki8B6yRBhVQoe7X5znc8+UocHFXa/G5Lr
-WnEqWwFRab6gsYfErjen+8ESz44J44vfPqTrzwTXGUxoRoUrng6zSUwoO2iWu7M6
-5NU/NWm0YefA5LaNofjerSwYleq+DNFSpjMllEhDndy0T2/Yqm83VWSW7OhqYooE
-WCSQdC/1G4yb6SUK0oMRZyde5/ftwqXVTyALhLW/RvamDpRGC/4+ywiqfmBGiG31
-Jr7x7k5kOcY1x+oH36yH9Jdb
-=apE8
------END PGP SIGNATURE-----
-
---===============3360116464288522322==--
+--===============3252179195038160984==--
