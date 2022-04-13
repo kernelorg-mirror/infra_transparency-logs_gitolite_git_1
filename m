@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0393874627810447372=="
+Content-Type: multipart/mixed; boundary="===============0774495503485567595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 13 Apr 2022 17:35:05 -0000
-Message-Id: <164987130599.3301.7319196910957248534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 13 Apr 2022 17:35:11 -0000
+Message-Id: <164987131187.3423.5285680820885698813@gitolite.kernel.org>
 
---===============0393874627810447372==
+--===============0774495503485567595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-5.18
+  - ref: refs/heads/spi-5.18
     old: 317c2045618cc1f8d38beb8c93a7bdb6ad8638c6
     new: 8c235cc25087495c4288d94f547e9d3061004991
     log: |
@@ -24,37 +24,37 @@ changes:
          f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect supports_op() return value
          8c235cc25087495c4288d94f547e9d3061004991 spi: atmel-quadspi: Fix the buswidth adjustment between spi-mem and controller
          
-  - ref: refs/heads/for-5.19
+  - ref: refs/heads/spi-5.19
     old: 6f381481a5b236cb53d6de2c49c6ef83a4d0f432
     new: e7cc4244bc2086f4074b8e4d4f78e7b9f5007224
     log: revlist-6f381481a5b2-e7cc4244bc20.txt
 
---===============0393874627810447372==
+--===============0774495503485567595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1649871304 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1649871304-f65b1e460bad6fcd7c2b081af70ca4b242bb80a3
+pusher C3F436CA30F5D8EB 1649871310 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1649871309-9467b5fb7854038f8bd89dcbabc17309635f1512
 
-317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 8c235cc25087495c4288d94f547e9d3061004991 refs/heads/for-5.18
-6f381481a5b236cb53d6de2c49c6ef83a4d0f432 e7cc4244bc2086f4074b8e4d4f78e7b9f5007224 refs/heads/for-5.19
+317c2045618cc1f8d38beb8c93a7bdb6ad8638c6 8c235cc25087495c4288d94f547e9d3061004991 refs/heads/spi-5.18
+6f381481a5b236cb53d6de2c49c6ef83a4d0f432 e7cc4244bc2086f4074b8e4d4f78e7b9f5007224 refs/heads/spi-5.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJXCcgACgkQJNaLcl1U
-h9D0UAf/fq5b/yBqLsd7tfA8i/cDkhNG4nK90jQY0BrRc5dNvdf9HbnYiee1YVEn
-mLTJfBoI9zz1iN/lmr3XSK3I+jckR/A8xsUQ9Or03F2an896OedRuB9H8Mn0ZX+0
-Aig7JdQRzaiTAjPmmJQ3VXuSUcJwEdE7bH0e7pTymPH4h8VZMwVcW8HGaW57YZFk
-aGawvZh24JmopuQO6xfSh33y5TWbG9AGPT0OkBTMdNLSa9hjZW75HLX1v9I8QEDO
-PBRYfZj2goo4iHu1fnUIcahXoXRSQ4pDTX0KQnBS5TWOwmM5hIhl+5E+Qv1hDG0C
-CMj5fbmfaN0oACfc9VMac2iUpbDJnA==
-=wQfU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJXCc4ACgkQJNaLcl1U
+h9DZLQf/UIAwk3HYNKDFlW1gKTLuwxOJaf5vVubHYI5++l0n6c/+LlHJa4STpRvR
+fb2P7oj2nXdIuoJVQheYfLeHqnL/QoUsT/4sD9EpRXSKsLQZGVADsHRTgWFi06DM
+BshK/x/ZNl5b86iNd/H9XU8gdxdqUGWXHIOEdtVfufWBcXx8RHVtLjA1qQmAVHVY
+25cOp5NSZdxTfYouuUfjdy9N+7fxclpz7Eee1dFZK0zitmuIDcL75/RqdyTbW+yf
+L899F2F4nWvI9qgX9PgF+jDdGLhI55LIhZJVwN6ngd4vBm4F0SLL9+BEoTTfQsOL
+HxOaD91UDlWuQR7I8vT2rFukWUM/5g==
+=yFW8
 -----END PGP SIGNATURE-----
 
---===============0393874627810447372==
+--===============0774495503485567595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ f1d388f216aeb41a5df518815ae559d14a6d438e spi: cadence-quadspi: fix incorrect sup
 f4cf11df69c048948b73ff0bebaf9fc5fa5caddd spi: atmel-quadspi: Remove duplicated DTR checks
 e7cc4244bc2086f4074b8e4d4f78e7b9f5007224 spi: Pull in Atmel fix
 
---===============0393874627810447372==--
+--===============0774495503485567595==--
