@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5192269969315995143=="
+Content-Type: multipart/mixed; boundary="===============9222151527064785461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 13 Apr 2022 20:27:55 -0000
-Message-Id: <164988167549.30898.4609311008208777774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 13 Apr 2022 20:28:00 -0000
+Message-Id: <164988168042.31016.9396564486908777874@gitolite.kernel.org>
 
---===============5192269969315995143==
+--===============9222151527064785461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-rc
-    old: 5be2359c418a472d2d977a47d2312d5dc8b75a1b
-    new: 3102f7c8fe26a1268ce9cc50ae48bfb97856eb3a
-    log: revlist-5be2359c418a-3102f7c8fe26.txt
+  - ref: refs/heads/queue-rc
+    old: a3a723b3b142b5fcd457243891634aa7c931d5e1
+    new: a13a7f14c8613732279a8bdea7b3fe5c2d5217b6
+    log: revlist-a3a723b3b142-a13a7f14c861.txt
 
---===============5192269969315995143==
+--===============9222151527064785461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5be2359c418a-3102f7c8fe26.txt
+Content-Disposition: attachment; filename=revlist-a3a723b3b142-a13a7f14c861.txt
 
 24b488061b97a6c6ff82c433e6843eaf54f41f3c MAINTAINERS: update Lorenzo's email address
 037250f0a45cf9ecf5b52d4b9ff8eadeb609c800 ath9k: Properly clear TX status area before reporting to mac80211
@@ -67,5 +67,7 @@ ada9222adfd92b2063e8d6408de2b45355e12fff net/mlx5: Fix slab-out-of-bounds while 
 3e01e3438397dee81c337d3eee76f498bf805088 Merge branch 'patchq/485147' into mlx5-for-net
 79da6e1c03cf858120748a16cc944e81e8c33845 Merge branch 'mlx4-for-net' into net-rc
 3102f7c8fe26a1268ce9cc50ae48bfb97856eb3a Merge branch 'mlx5-for-net' into net-rc
+a360602f1a69c2c9eaa3e0378b11d4e63cfd499a Merge branch 'net-rc' into queue-rc
+a13a7f14c8613732279a8bdea7b3fe5c2d5217b6 Merge branch 'testing/rdma-rc' into queue-rc
 
---===============5192269969315995143==--
+--===============9222151527064785461==--
