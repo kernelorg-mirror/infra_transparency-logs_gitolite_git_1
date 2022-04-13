@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1198403710308008116=="
+Content-Type: multipart/mixed; boundary="===============8307923830870607524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 13 Apr 2022 18:55:45 -0000
-Message-Id: <164987614581.8924.17637521254881329560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 13 Apr 2022 18:59:50 -0000
+Message-Id: <164987639072.10253.11865444177283886068@gitolite.kernel.org>
 
---===============1198403710308008116==
+--===============8307923830870607524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/objtool-run
-    old: 7bfc9cdbe39c763d51c4e3285aa27bfd969af85b
-    new: 6d60b700d2179c68f134da8eda4d9879d460d1a3
-    log: revlist-7bfc9cdbe39c-6d60b700d217.txt
+  - ref: refs/heads/master
+    old: 2773e9e598804ba0fa398cf86aba89652428473d
+    new: 79c2fda3f8e9c9382442c6a864b7df86361821b4
+    log: |
+         79c2fda3f8e9c9382442c6a864b7df86361821b4 Linux 5.15.34
+         
 
---===============1198403710308008116==
+--===============8307923830870607524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bfc9cdbe39c-6d60b700d217.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5a10245e0eab8e93b77aa796fdf404d10b32468 sched: Mark arch_cpu_idle_dead() __noreturn
-d9330d016aae85296d2b65bef73845c69149cda0 objtool: Enable unreachable warnings for CLANG LTO
-c47b29495d57283fd6286a826cad990973dfe989 objtool: Support data symbol printing
-4ec21129eae606425083fedde58e4a4ee504a186 objtool: Add sec+offset to warnings
-1028ce18204c877e4519a88339d3a9ddeb55d995 objtool: Print data address for "!ENDBR" data warnings
-49044d28d38bf4aa5cb6f3c10d822799f95a163b objtool: Use offstr() to print address of missing ENDBR
-55238d08de1b69604bc17ef6817c2909177e331f libsubcmd: Fix OPTION_GROUP sorting
-fafe7674897f5f1bcc26e617fd688d8e3a7c3627 objtool: Reorganize cmdline options
-80d4aed122d494294da113cdac84f674c876c042 objtool: Ditch subcommands
-25786b1cf754bf12f8b66203ded533eeb8f41412 objtool: Add stack validation cmdline option
-76c03fdb5d77107ab8fa94fdc55cc7d01d81d3f5 objtool: Extricate ibt from stack validation
-1da26bb895e50459a0a7272b917b62084913d1cd objtool: Add CONFIG_OBJTOOL
-f38b839f2ba3aa4017483826f6bad3632375d977 objtool: Make stack validation frame-pointer-specific
-45b49c88d590b6d27ec76d22d473a098f6e8ec88 objtool: Add static call cmdline option
-462430818da178ef86c7fbe69853bede8e609e0f objtool: Add toolchain hacks cmdline option
-95b2cec1b8323b93b117cc1cc678b4714636e1f8 objtool: Rename "VMLINUX_VALIDATION" -> "NOINSTR_VALIDATION"
-acba5ff6878f725a6c784579db59dbdc80c40a4e objtool: Add HAVE_NOINSTR_VALIDATION
-4d771909e7b5e1d2057f95aa20ff419dff1f1636 objtool: Remove --lto and --vmlinux
-6d60b700d2179c68f134da8eda4d9879d460d1a3 objtool: Update documentation
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649876390 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1649876389-02101afe120d8c7f5b8b9204144fb2d457289006
 
---===============1198403710308008116==--
+2773e9e598804ba0fa398cf86aba89652428473d 79c2fda3f8e9c9382442c6a864b7df86361821b4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJXHaYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s8oP/RURAWm5ZWAc5KwCQEtz
+Oz2QVOGR84e9Arcn7VirlFcug9xTFC4NC8b7Mnsy+Hov4baSC0d+W5EVeteRfaFH
+3K6c8hqp4OtSvfv1WSz5UYPvSis6knnf1whl3WqbLTcbPqvPNbKL54kEjZScCXUJ
+eOejTEM0djHmRK53ANju6xJSCOIvEeBJjg13rV5v+0AxH/zMaXoJjg9MYy2HioAL
+poItgUwpVUlGp0BqWWePuYalkRROji6/MtFyGIfcR/uSHVawRa1amzcnC+dpAMSm
+bRP1v7GgmnLb96ViFdwx/25pLT8JZxvrOjlIqpzCmiS4fsb4A4hvDGwo5TlHsA/H
+hDEBrm2VBvXDwCDFUKv0ak6/uRD0mvGw7EjdFkeoyxuoMza1FJJIuRqN9FD0El9l
+xEmCQpRTKZg4yl9v7pOp+TR19uODIjcHyaOlifzFLgopC0v+STt3TiWKJNv3OIXH
+vJ1rsK3iDMxfuLtwl0OS6LguauWYzunAbiEKZ+NeCAFqyk/O5z2sRFfIDD5wbk/m
+ooLsFSToG3n6bJ8upJQpTlM2xaEymgrstb4GFma06uvRlAFZ/zsXDbWTBVXhVjwu
+F457Dzoz8VlrM+qKp1YjYO3REQ9zq3BI+PWJy8jNNKq1FibER0EUDjX2xY5hpPkL
+JW9FCAjAtpPPoIpsY19pj44U
+=je+O
+-----END PGP SIGNATURE-----
+
+--===============8307923830870607524==--
