@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Wed, 13 Apr 2022 17:39:20 -0000
-Message-Id: <164987156065.5291.5898879178836749579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 13 Apr 2022 17:43:40 -0000
+Message-Id: <164987182084.8337.5197489461304082530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
+repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/jeffle/fscache2
+  - ref: refs/tags/v5.18-rc1
     old: 0000000000000000000000000000000000000000
-    new: 4a340fb342b5e11cb813ba23220a1f1c1d82fccd
+    new: 9a36f3f1dac90e023401f6db395c601ef74becbd
+  - ref: refs/tags/v5.18-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0faaaa76024c25a1e6517d5d20e04b84f8d56c93
