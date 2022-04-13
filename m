@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/kernel-shark
-Date: Wed, 13 Apr 2022 09:06:20 -0000
-Message-Id: <164984078049.12079.938531068787152413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 13 Apr 2022 09:43:09 -0000
+Message-Id: <164984298930.16826.3072576310451473195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/kernel-shark
-user: y.karadzhov
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/kernelshark
-    old: 01e5f80df578ef56e0f5ece2cc510cf4d1eb9ce4
-    new: 2ae9cbb8d2457898b6fa7b6429854f33541be222
+  - ref: refs/heads/mem-ctrl-next
+    old: 8f0e3af81711bf72b9c6138b0138bdc330d8c388
+    new: eb55c7180be67774aa728a3c450de441e0dedb5d
     log: |
-         c68e84a38d4bc39a3c744fb419e8ae73ad9f67e9 kernel-shark: Do not hard-code app name
-         2ae9cbb8d2457898b6fa7b6429854f33541be222 kernel-shark: Fix memory corruption in KsCaptureDialog
+         656d1be692be78b825954e0a2a47fcae81834633 memory: omap-gpmc: Make OMAP_GPMC config visible and selectable
+         eb55c7180be67774aa728a3c450de441e0dedb5d memory: omap-gpmc: Allow building as a module
          
