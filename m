@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 13 Apr 2022 10:24:54 -0000
-Message-Id: <164984549470.13552.12462683453868282780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 13 Apr 2022 10:26:13 -0000
+Message-Id: <164984557361.15472.626542030985954448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
 changes:
-  - ref: refs/heads/usb-linus
-    old: 3123109284176b1532874591f7c81f3837bbdc17
-    new: f32c5a0423400e01f4d7c607949fa3a1f006e8fa
+  - ref: refs/heads/for-next
+    old: a4d0406f4b7c75d551f424693cb9a4f2c67a2151
+    new: c70898aa4102b10e0af32212c00f38c2b855cb24
     log: |
-         f32c5a0423400e01f4d7c607949fa3a1f006e8fa USB: serial: option: add Telit 0x1057, 0x1058, 0x1075 compositions
+         c70898aa4102b10e0af32212c00f38c2b855cb24 Revert "memory: omap-gpmc: Make OMAP_GPMC config visible and selectable"
          
