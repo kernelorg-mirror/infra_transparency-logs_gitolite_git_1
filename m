@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 13 Apr 2022 11:24:32 -0000
-Message-Id: <164984907225.21379.13199995800227771078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 13 Apr 2022 11:25:14 -0000
+Message-Id: <164984911478.23096.5929417526010446745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 2240514cb6441641111ac1fabab03e9df9972d7f
-    new: 17a5f6a78dc7b8db385de346092d7d9f9dc24df6
+    old: 625e8cb8e0e7b9eb6566c5a6e4fa95fb9dad9d4e
+    new: e16b859872b87650bb55b12cca5a5fcdc49c1442
     log: |
-         17a5f6a78dc7b8db385de346092d7d9f9dc24df6 net: ethernet: mtk_eth_soc: use after free in __mtk_ppe_check_skb()
+         e16b859872b87650bb55b12cca5a5fcdc49c1442 macvlan: Fix leaking skb in source mode with nodst option
          
