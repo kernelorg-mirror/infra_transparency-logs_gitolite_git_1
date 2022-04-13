@@ -1,61 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============6016534808398733923=="
+Content-Type: multipart/mixed; boundary="===============4339127345522167148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 13 Apr 2022 19:26:58 -0000
-Message-Id: <164987801878.23596.6680694671524386844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 13 Apr 2022 19:27:07 -0000
+Message-Id: <164987802726.23708.11233757460568595373@gitolite.kernel.org>
 
---===============6016534808398733923==
+--===============4339127345522167148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/saeed/linux
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-next
-    old: 3e711b5fcd59cf9bfdc73867549cf5ed446021e2
-    new: 8ac2beba64a8c9072480094c86b9eab8b6cebd99
-    log: revlist-3e711b5fcd59-8ac2beba64a8.txt
+  - ref: refs/heads/queue-next
+    old: 6f42c562821a119a7b366433997927b1189b2660
+    new: c68c4b80755adab6b4ac8392edee0da3892844fa
+    log: revlist-6f42c562821a-c68c4b80755a.txt
 
---===============6016534808398733923==
+--===============4339127345522167148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e711b5fcd59-8ac2beba64a8.txt
+Content-Disposition: attachment; filename=revlist-6f42c562821a-c68c4b80755a.txt
 
 24b488061b97a6c6ff82c433e6843eaf54f41f3c MAINTAINERS: update Lorenzo's email address
 037250f0a45cf9ecf5b52d4b9ff8eadeb609c800 ath9k: Properly clear TX status area before reporting to mac80211
 598be865ee00905f16ef3d0355fefe319cac981a MAINTAINERS: claim include/uapi/linux/wireless.h
 61a891efbb1099bb7bdcedfc50f802fabbe46a0e MAINTAINERS: mark wil6210 as orphan
 10cb21f4ff3f9cb36d1e1c39bf80426f02f4986a Revert "ath11k: mesh: add support for 256 bitmap in blockack frames in 11ax"
-40379a0084c2f65eb62c102f5bbf5cdc14a50410 net/mlx5_fpga: Drop INNOVA TLS support
-e59437aa7ae6757111e633d02acb9868c1a7ec03 net/mlx5: Reliably return TLS device capabilities
-691f17b980d028e74ae168ef9e5be7d6021dbf23 net/mlx5: Remove indirection in TLS build
-943aa7bda37301eefc363e4940c4805d8e166478 net/mlx5: Remove tls vs. ktls separation as it is the same
-7a9104ea9011c0e15176c2951a97bda43c4beabf net/mlx5: Cleanup kTLS function names and their exposure
-0276bd3a94c072de3f69b5afe6224e488cc76635 IB/mlx5: Fix undefined behavior due to shift overflowing the constant
 d7442f512b71fc63a99c8a801422dde4fbbf9f93 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
 7d59706dbef8de83b3662026766507bc494223d7 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
-2fa33b3518a8da0a5345b7ae0064223b5e4e156f net/mlx5_fpga: Drop INNOVA IPsec support
-df439fcb1cd4fe8e8b1c4065db4ef1b544aa5d9e net/mlx5: Delete metadata handling logic
-501a9b23b23cb356362740347f40f7a46a9e866f net/mlx5: Remove not-used IDA field from IPsec struct
-3c811a6b45524a64fb9bc7e1c3292f7216279a75 net/mlx5: Remove XFRM no_trailer flag
-0d90bd551446b0a3c7e8777b120c67a7d741657c net/mlx5: Remove FPGA ipsec specific statistics
-74ec29bdb0ebe09d5490cd50df5ab3c309d6b276 RDMA/mlx5: Delete never supported IPsec flow action
-de8bdb476908e64805df4bfbad20618cbb1f9ffa RDMA/mlx5: Drop crypto flow steering API
-32313c6ae622ed7aa553fa1ee22d8e5f24146f0e RDMA/core: Delete IPsec flow action logic from the core
-7e4e849121398ac4f7c7c2cf1d878c2ca6f62929 net/mlx5: Remove ipsec vs. ipsec offload file separation
-5a985aa3c922b680cc5bdfb347fee42961dc0e51 net/mlx5: Remove useless IPsec device checks
-2451da081a343e079d9f5a7b063fcdf0bc439aa8 net/mlx5: Unify device IPsec capabilities check
-a6a9eaf14222434ba1bdfcdaa2c5a27dbd126972 net/mlx5: Align flow steering allocation namespace to common style
-54deb0e77561973f4ca4515e18ab972c281eea1d net/mlx5: Remove not-needed IPsec config
-16fe5a1c5c074a836626e3bd9560d3c4a39a3fcf net/mlx5: Move IPsec file to relevant directory
-f03c7b183ef93032582131cd25940245fbee433a net/mlx5: Reduce kconfig complexity while building crypto support
-f2b41b32cde8453a0a26875261f0e26809c2805a net/mlx5: Remove ipsec_ops function table
-2984287c4c19949d7eb451dcad0bd5c54a2a376f net/mlx5: Remove not-implemented IPsec capabilities
 dbc2b1764734857d68425468ffa8486e97ab89df mt76: Fix undefined behavior due to shift overflowing the constant
 6fb3a5868b2117611f41e421e10e6a8c2a13039a brcmfmac: sdio: Fix undefined behavior due to shift overflowing the constant
 5a6b06f5927c940fa44026695779c30b7536474c ath9k: Fix usage of driver-private space in tx_info
@@ -134,6 +111,7 @@ a941d5ee4c579682e36063dd966e041bd8368ab8 i40e: Add Ethernet Connection X722 for 
 753b953774b5840825c9b7bc6413036292138467 fou: Remove XRFM from NET_FOU Kconfig
 2e5b3d4cb16e0be22f714475849bd14435b72583 net: ethernet: ti: cpsw: using pm_runtime_resume_and_get instead of pm_runtime_get_sync
 f45ba67eb74ab4b775616af731bdf8944afce3f1 ixp4xx_eth: fix error check return value of platform_get_irq()
+307cf90186000b846d8e6950374b18fb52919631 RDMA/mlx5: Fix flow steering egress flow
 a30295c454725b293c7b2f45f6e60fcce0bc435e tls: rx: consistently use unlocked accessors for rx_list
 0775639ce1ca953503121e350d6b885366f56a52 tls: rx: reuse leave_on_list label for psock
 284b4d93daee56dff3e10029ddf2e03227f50dbf tls: rx: move counting TlsDecryptErrors for sync
@@ -207,5 +185,7 @@ ada9222adfd92b2063e8d6408de2b45355e12fff net/mlx5: Fix slab-out-of-bounds while 
 eaca392242ee9417734da6b6eacd13a0d9522997 Merge branch 'mlx5-queue' into net-next
 1cafa0e8dd230f369adbb6bb787ca3210a3ed7d9 Merge branch 'mlx4-for-net' into net-next
 8ac2beba64a8c9072480094c86b9eab8b6cebd99 Merge branch 'mlx5-for-net' into net-next
+b7a88c3bae99731a830d7e36510ba94d61cbd3dc Merge branch 'net-next' into queue-next
+c68c4b80755adab6b4ac8392edee0da3892844fa Merge branch 'testing/rdma-next' into queue-next
 
---===============6016534808398733923==--
+--===============4339127345522167148==--
