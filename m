@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6112999629264949491=="
+Content-Type: multipart/mixed; boundary="===============5951142891458866275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 13 Apr 2022 06:46:24 -0000
-Message-Id: <164983238482.19513.16699152703715404513@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 06:56:15 -0000
+Message-Id: <164983297530.25468.14628560824182012709@gitolite.kernel.org>
 
---===============6112999629264949491==
+--===============5951142891458866275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,60 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 908662dc823e5b19eb1efd8c3f2059499e8c8403
-    new: f96f8ae08d33eeae65581b6dbf25d12e307e7b2c
-    log: revlist-908662dc823e-f96f8ae08d33.txt
+  - ref: refs/heads/staging-testing
+    old: f96f8ae08d33eeae65581b6dbf25d12e307e7b2c
+    new: a848981be6e8cb762f2166cdc1daf58783c5c3d1
+    log: revlist-f96f8ae08d33-a848981be6e8.txt
 
---===============6112999629264949491==
+--===============5951142891458866275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649832384 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649832973 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649832383-e46dd17257d4055f8c18d58a7e1a49d1b7fedaa3
+nonce 1649832972-cb5480acd076570c85eb59a2a38ce35eb6f23e91
 
-908662dc823e5b19eb1efd8c3f2059499e8c8403 f96f8ae08d33eeae65581b6dbf25d12e307e7b2c refs/heads/staging-next
+f96f8ae08d33eeae65581b6dbf25d12e307e7b2c a848981be6e8cb762f2166cdc1daf58783c5c3d1 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJWccAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uKAQAJmVZfeVtrlH9H7FUwHt
-c10HJdjG/Fi9L7yl1jkXQ0tQKvymznZ4K2KPZwaYvHmlu5Ylyw/e3Zj38NGcIvZW
-sy4L+8iBhn34ggh3pbGgTm3Sc12l/59bbm1Uf5njPjJflelS/GAoRcxyfARbnSK7
-2X2g4fq98m2arS7Bh5wpgPUowp9XRNt0C+x8E5e/LGOGGuDnnBK5oLaRtMKtR+qu
-2LVggMTvQS01zSoy6W+Yv91tOdiKpiSVeEpyy4g/uHXMBLZ+e5kq0rviYbcspuj7
-BcexJb9TrE25kFcq8etO8ILjrHOnrR71TKwbMnVkGuZ6BJXXNP2nx9N538GtHm0X
-P30RZmHQPMGd+ixbwYvAH04tZpWNijLlObn0ZSic47E94nSAMYH752pkH0ucdfy9
-JvF1lfKktgtU17Lbtw74wlB9XgZfiEBMNOuzgF/Hfh34RN3pMbDLVBJ+dZk9SoRl
-hAyouj084ar8TH5gycmmEqN/bRF1V8794sXNP+ajM5ox2nBpadx5UbcNPYDh9omJ
-uI6h5EpD8P0D+jjcvB41UxkcAkbqfp5VMUQLZgNr+cpjjCL8zUaRl9qCFGNnTm2C
-xJJ9n8EoLxTK3uoMXlxyug+0UNCKMuY2u6ciQ64BYvzU3LdV7HMpE090S0o+awdT
-/xICBvPgGJ2mbJRZZChssFkr
-=0FkV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJWdA0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0MIQAM6yIiusG9yp7nOn1wyF
+D9fBwRKGYbtyj/J+37KkLr8+mrlYkZEC9HbRj9jq/k7ISciQZCLWejAmQC6lsrGB
+IAcLYx1gG6Tyfrl9Ul/yU/IA9G1SecKQQrhZKGsTm4CPT3zCOD2Z+1pmy+0mcK+1
+/uYZb7apFsrmkethXIELmlFbf+rd1qH8vRLu/bGw9WmNB5mZC83O374/lxkmcWjY
+rtrP/wLSbCj4p+HUBnxg1Tkm81pJj/4iiFo/PjrL1tYEF5ohG80U/9+RwMIpvgPM
+BzCXJqyi/Ja/HRtcbeHzoaerR5J1jzELIwCcneCXRYAIqCKDzJz9VzzVrZYitXlJ
+QnDR6OVfVMcjBdokc8LYxOiXtuOtoN7N1e/TrNe3CtRAZhBhGOjtqqdKsoMJ7XWZ
+/mT0UlN6MlhsziZTLINo4cB6l7wAyfhvqhUCNdJwWYQI+9bkh66I8tTTWRVEB+9r
+Fdjh9GE6hux5spOknZd0Hu0Uw4LfKFMCMUrm9lnyhd5+rN3ChLplF0dVa5lcjfGq
+jMCoWFAqlXqcZtbkA2LzFM/Q2Idgd5CLOd6J4pBw3V2jujyoJ4EHB4J7zxDs/XO1
+3kosfEsgQyzeql4npsHYE8+O1baLqM0Ec/69CXfkZBkh88c47FftTlroJ5Uf4ZpQ
+qvxZiB/C7YXnzuQm4+Ax2X0w
+=OSb7
 -----END PGP SIGNATURE-----
 
---===============6112999629264949491==
+--===============5951142891458866275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-908662dc823e-f96f8ae08d33.txt
+Content-Disposition: attachment; filename=revlist-f96f8ae08d33-a848981be6e8.txt
 
-bab735aa5a49964e8b1ed337db9691e37b2ca821 staging: rtl8723bs: tidy up error handling
-047c76286457b9ab4270665ab459bc2dea53edb9 staging: r8188eu: convert else if to else in rtw_led.c
-3e401185209a3dfd34383ebdf323518d4bf9ef91 staging: r8188eu: remove HW_VAR_INITIAL_GAIN
-26209855c3ed06ce08b20f5b70188d2d0b0f3563 staging: r8188eu: remove HW_VAR_MLME_JOIN
-7c05493bcfb522326867d99222a044a589272c0f staging: r8188eu: remove HW_VAR_FIFO_CLEARN_UP
-327ec68be709c7abe1bb8edd17e85b6653420eb1 staging: r8188eu: remove HW_VAR_H2C_FW_PWRMODE
-4b6c9a368967bf060a407a4ff2f182481b23b2ed staging: greybus: pwm: Drop assignment to struct pwm_chip::base
-05a1e43e487693fb2d53778fe20f94d399549dfe staging: r8188eu: no need for an else after return
-24a24f95a22cf50091ef06950c2ce5dc723c051d staging: r8188eu: remove unnecessary rtw_get_passing_time_ms call
-72b94dcb9adf57736a5fcab57fe1f540c52b2b30 staging: r8188eu: summarize two if statements
-1060ec636d8ba086ad56f558d4618b715c4d67d3 staging: r8188eu: improve timeout handling in rtl8188e_firmware_download
-8d3ea8302f6264756ae958bceae18f395dc121fc staging: r8188eu: improve timeout handling in rtw_check_join_candidate
-2b1795e42a48b1fc398dd16c5df975e9c26d9195 staging: r8188eu: make LPS_RF_ON_check static
-11788aac9228875cac0a6b1a303521fe47115d24 staging: r8188eu: improve timeout handling in LPS_RF_ON_check
-efe20b73c5caefa68509ad076d4f6459c4a17420 staging: r8188eu: improve timeout handling in iol_execute
-5e080cd771e827e26c1e55af11144b2dfe8b9eb3 staging: r8188eu: improve timeout handling in efuse_read_phymap_from_txpktbuf
-ffb3c2688e3807806f06944c5ced64a5245dbd49 staging: rtl8712: efuse: code style - avoid macro argument precedence issues
-88d33bb87968d1c2ffa76feb6b94241750c8bcf7 staging: vt6655: Remove macro PCAvDelayByIO
-5fb6bc718cf965cb6171cc5bbafd5546d5e68474 staging/most, dim2: convert dim2_tasklet to threaded irq
-cbe0f674a2d63e88d9c2de2aab02d6da68b109f2 staging/wlan-ng, prism2usb: replace reaper_bh tasklet with work
-9442e81d7e7c4987411b5be7e0f33b8c6e670b86 staging/wlan-ng, prism2usb: replace completion_bh tasklet with work
-a2b0b41619e16e8f3d1461ba7588f2da6a92a1ea staging/ks7010: replace SME taslet with work
-2a2849a87c7272e1cb8ca9cea70c664904c9e0f9 staging/rtl8712: remove event_tasklet
-f96f8ae08d33eeae65581b6dbf25d12e307e7b2c staging/rtl8192e,ieee80211: replace ps tasklet with work
+143b67f19ba1d72b010e6fb3d254d36a86d2bc03 staging: bcm2835-audio: remove compat ALSA card
+59c5a7c6122e6978e559f9fad6ed518f1e03f861 staging: r8188eu: remove else after return and break statements
+5a9bdd6fd69b88acbf4e623c77872b4d7d7933dc staging: greybus: correct typo in comment
+cfb121803d42c51745b386f1747ba2f13215fa92 staging: greybus: remove empty callback function
+45a47f0d22c41d2f611c4a61753a2b9b86373c19 staging: r8188eu: add space around operators
+cc7ad0d77b51c872d629bcd98aea463a3c4109e7 drivers: staging: rtl8723bs: Fix deadlock in rtw_surveydone_event_callback()
+041879b12ddb0c6c83ed9c0bdd10dc82a056f2fc drivers: staging: rtl8192bs: Fix deadlock in rtw_joinbss_event_prehandle()
+0fcddf9c7c10202946d5b19409efbdff744fba88 drivers: staging: rtl8192eu: Fix deadlock in rtw_joinbss_event_prehandle
+826c0e77a44def47f18c3863c3fad9986a9f60e2 staging: r8188eu: correct macro spelling mistake
+e8f2410669f15e359729c0618d81c44d3a7013dc staging: r8188eu: rename parameter of block_write()
+c8e68e7728b0ec62484775deb14f568825e9def3 staging: r8188eu: change void parameters to u8
+5a9f53b44a15ed04cf9fdeaa654377cf527e9b15 staging: r8188eu: reduce variables in block_write()
+067b22afad2f26a80b66dd21b72bc6978fe61a9b staging: r8188eu: remove unneeded initializations
+a848981be6e8cb762f2166cdc1daf58783c5c3d1 staging: r8188eu: clean up long lines in block_write()
 
---===============6112999629264949491==--
+--===============5951142891458866275==--
