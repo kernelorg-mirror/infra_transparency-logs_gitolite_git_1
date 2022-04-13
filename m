@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4997572209007829022=="
+Content-Type: multipart/mixed; boundary="===============5743308007785517196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 13 Apr 2022 16:50:29 -0000
-Message-Id: <164986862909.10255.13970283634276377406@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 16:50:34 -0000
+Message-Id: <164986863483.10348.9372110638763790217@gitolite.kernel.org>
 
---===============4997572209007829022==
+--===============5743308007785517196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-defconfig
-    old: 5f5399843c0ec3bd562dfd533f32e4074ca90314
+  - ref: refs/heads/at91-next
+    old: a845fa592554e6c92d2f81de6e7074f0a50d7828
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-5f5399843c0e-312310928417.txt
+    log: revlist-a845fa592554-312310928417.txt
 
---===============4997572209007829022==
+--===============5743308007785517196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f5399843c0e-312310928417.txt
+Content-Disposition: attachment; filename=revlist-a845fa592554-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============4997572209007829022==--
+--===============5743308007785517196==--
