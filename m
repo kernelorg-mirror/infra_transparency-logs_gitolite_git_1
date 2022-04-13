@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0820917578289789081=="
+Content-Type: multipart/mixed; boundary="===============9164466441559160520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Wed, 13 Apr 2022 16:50:53 -0000
-Message-Id: <164986865373.10489.18050852647575148975@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 16:51:37 -0000
+Message-Id: <164986869740.10791.16408002807352563622@gitolite.kernel.org>
 
---===============0820917578289789081==
+--===============9164466441559160520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: nferre
 changes:
-  - ref: refs/heads/at91-dt
-    old: 92499dec3aa9c251e605b42e1024e805bbaa50ad
+  - ref: refs/heads/clk-at91
+    old: 8e842f02af7e2f6225d52d78cd25b465a98d344b
     new: 3123109284176b1532874591f7c81f3837bbdc17
-    log: revlist-92499dec3aa9-312310928417.txt
+    log: revlist-8e842f02af7e-312310928417.txt
 
---===============0820917578289789081==
+--===============9164466441559160520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92499dec3aa9-312310928417.txt
+Content-Disposition: attachment; filename=revlist-8e842f02af7e-312310928417.txt
 
 05fe3c103f7e6b8b4fca8a7001dfc9ed4628085b mm/usercopy: return 1 from hardened_usercopy __setup() handler
 be4893d92b6b426357978ed955190c0ead23a4b1 mm/early_ioremap: declare early_memremap_pgprot_adjust()
@@ -1051,4 +1051,4 @@ e235f4192f4f5689ac7aa8a7a320fe157f1bb803 Merge tag 'core-urgent-2022-04-03' of g
 09bb8856d4a7cf3128dedd79cd07d75bbf4a9f04 Merge tag 'trace-v5.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-trace
 3123109284176b1532874591f7c81f3837bbdc17 Linux 5.18-rc1
 
---===============0820917578289789081==--
+--===============9164466441559160520==--
