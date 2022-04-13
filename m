@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 13 Apr 2022 11:21:09 -0000
-Message-Id: <164984886961.20113.16088973709270760160@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 11:22:56 -0000
+Message-Id: <164984897608.20745.1921428037842511621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 816cda9ae531b27c30356a673e8dc9f037cd90d1
-    new: 5ee6ad1dcae8be7c101d1ffb2bbf4a01670e66cc
+    old: 5ee6ad1dcae8be7c101d1ffb2bbf4a01670e66cc
+    new: 1b0e81416a24d6e9b8c2341e22e8bf48f8b8bfc9
     log: |
-         5ee6ad1dcae8be7c101d1ffb2bbf4a01670e66cc ipv6: exthdrs: use swap() instead of open coding it
+         1b0e81416a24d6e9b8c2341e22e8bf48f8b8bfc9 NFC: NULL out the dev->rfkill to prevent UAF
          
