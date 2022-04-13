@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 13 Apr 2022 11:52:13 -0000
-Message-Id: <164985073342.8751.5498441057268110685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Apr 2022 11:58:31 -0000
+Message-Id: <164985111189.12168.17600942991570549131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: hansg
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 52792204c0be330c84650287edbb47b3b6005402
-    new: b0c07116c894325d40a218f558047f925e4b3bdb
+  - ref: refs/heads/master
+    old: 92716869375bdec958900281ce011b611384eb07
+    new: dba47afdc7d51b22dd9223a391d2b5ceb9bbe30c
     log: |
-         753ee989f7cf0c0a76a7f56956827a8863a60f97 platform/x86: amd-pmc: Fix compilation without CONFIG_SUSPEND
-         b2dd71f9f728da695a86b8308feb4f39defe9019 tools/power/x86/intel-speed-select: fix build failure when using -Wl,--as-needed
-         34354476f06dad3c126cc8774d31fbed20294c38 platform/x86: winmate-fm07-keys: Winmate FM07/FM07P buttons
-         264e8de27baab1c64e30b962888650032834b52a platform/x86: wmi: replace usage of found with dedicated list iterator variable
-         42d17fa78560303ed59176cf53e7a893ef3da518 platform/x86: hp-wmi: Correct code style related issues
-         0c211cecc6af608b5e3137d0d898b08fc7fc14ed platform/x86: amd-pmc: Move SMU logging setup out of init
-         63585d5958dacd1f2ac73bff0f1f37a98ba348e4 platform/x86: amd-pmc: Move FCH init to first use
-         b0c07116c894325d40a218f558047f925e4b3bdb platform/x86: amd-pmc: Avoid reading SMU version at probe time
+         862cd659a6fbac664f1fcdd7149046040a7a7e9c octeon_ep: Add driver framework and device initialization
+         1f2c2d0cee023ca93299c322e3393af8be234ef8 octeon_ep: add hardware configuration APIs
+         4ca2fbdd0bb630948d52b9b727dde58783d21e22 octeon_ep: Add mailbox for control commands
+         397dfb57dcc25f393b32506eeb00600c56fe2444 octeon_ep: add Tx/Rx ring resource setup and cleanup
+         6a610a46bad1fd9886d9bf19f4220ecbb7c1b9ef octeon_ep: add support for ndo ops
+         37d79d0596062057f588bdbb2ebad5455a43d353 octeon_ep: add Tx/Rx processing and interrupt support
+         5cc256e79bff06d299e4416d75786bdc411fa0e6 octeon_ep: add ethtool support for Octeon PCI Endpoint NIC
+         dba47afdc7d51b22dd9223a391d2b5ceb9bbe30c Merge branch 'octeon_ep-driver'
          
