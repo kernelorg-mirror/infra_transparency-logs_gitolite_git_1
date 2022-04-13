@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 13 Apr 2022 17:35:25 -0000
-Message-Id: <164987132501.3536.3948940533429423442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 13 Apr 2022 17:35:40 -0000
+Message-Id: <164987134000.3726.7635664256008130764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: e20a7c2093bff09575b05cf182160261c7bdd4ed
-    new: 5b0bde3a14cc22da434c2ba2a9d6f247fa5dbab0
-    log: |
-         5b0bde3a14cc22da434c2ba2a9d6f247fa5dbab0 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-         
   - ref: refs/heads/for-next
-    old: 341ccba38f5b4ec038aa839efde940a6809300b1
-    new: f6af90a233ee3e67dc16280ebfb9a76abda1bd75
+    old: 9ef9f6b9954c3030eb3789e4f8475112f44af419
+    new: b113137a1793e020c839c84e98ba0386a81581df
     log: |
-         5947b2726beb61fe7911580f239222ec9c4f6967 ASoC: SOF: Intel: Check the bar size before remapping
-         5b0bde3a14cc22da434c2ba2a9d6f247fa5dbab0 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
-         f6af90a233ee3e67dc16280ebfb9a76abda1bd75 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
+         619fdc47f821139f312a87b397a75ff69ec6f8b6 regulator: dt-bindings: qcom,rpmh: document h and k ID
+         b113137a1793e020c839c84e98ba0386a81581df Merge remote-tracking branch 'regulator/for-5.19' into regulator-next
          
