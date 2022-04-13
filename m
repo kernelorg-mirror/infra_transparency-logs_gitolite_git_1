@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0304782725739062333=="
+Content-Type: multipart/mixed; boundary="===============2587878250958203660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 13 Apr 2022 14:35:44 -0000
-Message-Id: <164986054426.18367.698367653010718359@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 14:35:53 -0000
+Message-Id: <164986055317.18462.12481615009818874938@gitolite.kernel.org>
 
---===============0304782725739062333==
+--===============2587878250958203660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: d3c17b5df3620317e67f6643f904ac7ff3d23664
-    new: 9386ebccfc599de5578a278ffb16d90cc696969a
-    log: revlist-d3c17b5df362-9386ebccfc59.txt
+  - ref: refs/heads/dev-queue
+    old: 4fc63884e78e7f3aaabaaeb81d0e102d8651ed0d
+    new: faadd15618a12d7b11208f11c54d6ac0f2776486
+    log: revlist-4fc63884e78e-faadd15618a1.txt
 
---===============0304782725739062333==
+--===============2587878250958203660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3c17b5df362-9386ebccfc59.txt
+Content-Disposition: attachment; filename=revlist-4fc63884e78e-faadd15618a1.txt
 
 b4fb2d33514a511312e1c0e470771eaa4a94d8ec i40e: Add support for MPLS + TSO
 69e66c04c672d8ff83f76e625c27a4d7cd717c08 ice: Add mpls+tso support
@@ -89,5 +89,32 @@ bba98083499f63f62419edf42022275d34a72470 net: ipv6: remove redundant statistics 
 eeab7e7ff43eb216e4e89482e03fe95a7e4c915e net: ipv6: add skb drop reasons to ip6_protocol_deliver_rcu()
 735cb16bfe5349e14edf9f51c48c4ea86e676ee0 Merge branch 'ip-ingress-skb-reason'
 9386ebccfc599de5578a278ffb16d90cc696969a nfp: update nfp_X logging definitions
+8a0ef4f858340a09b276b4c84c155fa15ab49389 igc: Add UDP segmentation offload support
+f563eee3bfea4c47bca0775c05f96158be221fbc igc: Fix infinite loop in release_swfw_sync
+2cdc86cff1f597e3702eda89be7c6b5c63ef0a70 igc: Fix BUG: scheduling while atomic
+3e37ba94db37e32113de80b91d063f7254fde50c ice: xsk: check if Rx ring was filled up to the end
+bba03ddc000bdbf8be0810ab079ff57265cc934a ice: Add support for classid based queue selection
+5d4c82c60dd05a844ff582c2c6d4e8c3c3020ebc ice: Add mpls+tso support
+3329c9e09b2e4e19cdc7a0cb6bb6955834e6e72e igc: Remove igc_set_spd_dplx method
+1e2bec89e5d5303c48ab9b46222deda7cb496754 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+04b7e7d4093450ac1b747cad3209f0bd9b72391f ice: introduce common helper for retrieving VSI by vsi_num
+f2b0ccafce4fc5458c85339134b6746c1e76ed37 ice: use min_t() to make code cleaner in ice_gnss
+204d327e2a31ea1c4c55e694220da5e01e8346f6 i40e: i40e_main: fix a missing check on list iterator
+5ff42b0bf29fd165c8e891f8843ea5e32c19a427 ice: ice_sched: fix an incorrect NULL check on list iterator
+fba4296b06f90c8a7c0bbc7e9f1a2423ad1d3e05 ixgbe: ensure IPsec VF<->PF compatibility
+824e421fe8faeadeddcfd23ca58f107adbeab8da ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+ffb46f7508cb28ea30159c53a3b3f76191db1f74 ice: Fix memory leak in ice_get_orom_civd_data()
+46e41a4b2ab23db6eb4b2ef98286d8d07ee40147 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
+e71adba011d9e0d3374a89df428eea64fd70852a iavf: Fix error when changing ring parameters on ice PF
+a228fd55d10508302dac24f485f089db8c63036f ice: Add support for double vlan in switchdev
+fc9c377f4a43ef5d566b8173e6ab7a5a585bd8dc ice: link representors to PCI device
+797b4da7581c2ca8cb2d309dd0cf682b7f3a0c4b Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+fdd62e31ed857e0c6e77bc3d5fc8738315473349 ice: Add support for vlan tpid filters in switchdev
+1763d91d8d9af1fd3fb58619cd4efde6e2ac7509 ice: return proper error code in ice_add_adv_rule
+5e9f29ab921ad4b87fab882849cb57d935bb6bc5 e1000e: Fix possible overflow in LTR decoding
+d5c2e8e65a7ec70dc457cab3a8e3c8dba304a9f5 igc: Fix suspending when PTM is active
+d2bf7a369661ba45c11c0e4d3e0946e9d3d5a2d8 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+fc9184bea46e48a80cbcb7e88c6424b81ca4d21c ice: fix crash in switchdev mode
+faadd15618a12d7b11208f11c54d6ac0f2776486 i40e: Add VF VLAN pruning
 
---===============0304782725739062333==--
+--===============2587878250958203660==--
