@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8530666893394185900=="
+Content-Type: multipart/mixed; boundary="===============8410049686833310039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 13 Apr 2022 17:33:06 -0000
-Message-Id: <164987118623.405.6927642174448544151@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 17:33:38 -0000
+Message-Id: <164987121892.959.15360954815859333842@gitolite.kernel.org>
 
---===============8530666893394185900==
+--===============8410049686833310039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: e3fa461d8b0e185b7da8a101fe94dfe6dd500ac0
     new: ef27324e2cb7bb24542d6cb2571740eefe6b00dc
     log: revlist-e3fa461d8b0e-ef27324e2cb7.txt
 
---===============8530666893394185900==
+--===============8410049686833310039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ dad32cfeed7c5a375335b04398bf064a9c61cc20 Merge tag 'wireless-2022-04-13' of git:
 8e925de60ddaeccb455f0bdad17ce9d8cc2db2e1 net: dsa: realtek: don't parse compatible string for RTL8366S
 ef27324e2cb7bb24542d6cb2571740eefe6b00dc nfc: nci: add flush_workqueue to prevent uaf
 
---===============8530666893394185900==--
+--===============8410049686833310039==--
