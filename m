@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 13 Apr 2022 11:20:04 -0000
-Message-Id: <164984880458.19715.9551238210845857810@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 11:21:09 -0000
+Message-Id: <164984886961.20113.16088973709270760160@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: 4263f77a5144f708a00aa8e9570b392777ab2482
-    new: 816cda9ae531b27c30356a673e8dc9f037cd90d1
+    old: 816cda9ae531b27c30356a673e8dc9f037cd90d1
+    new: 5ee6ad1dcae8be7c101d1ffb2bbf4a01670e66cc
     log: |
-         816cda9ae531b27c30356a673e8dc9f037cd90d1 selftests: net: fib_rule_tests: add support to select a test to run
+         5ee6ad1dcae8be7c101d1ffb2bbf4a01670e66cc ipv6: exthdrs: use swap() instead of open coding it
          
