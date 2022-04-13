@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Wed, 13 Apr 2022 10:50:44 -0000
-Message-Id: <164984704430.31939.2165423215776903911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/pci
+Date: Wed, 13 Apr 2022 10:51:53 -0000
+Message-Id: <164984711381.32447.10724929173311708522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/lpieralisi/pci
+user: lpieralisi
 changes:
-  - ref: refs/heads/for-next/fixes
-    old: d02b4dd84e1a90f7f1444d027c0289bf355b0d5a
-    new: e5c23779f93d45e39a52758ca593bd7e62e9b4be
+  - ref: refs/heads/pci/qcom
+    old: 3007ba831ccdd2165f05f66e769e0c30ec525736
+    new: dcd9011f591aff4188bd22616981fa42a2bef68a
     log: |
-         e5c23779f93d45e39a52758ca593bd7e62e9b4be arm_pmu: Validate single/group leader events
+         dcd9011f591aff4188bd22616981fa42a2bef68a PCI: qcom: Fix pipe clock imbalance
          
