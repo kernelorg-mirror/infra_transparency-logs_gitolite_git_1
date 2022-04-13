@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 13 Apr 2022 23:13:21 -0000
-Message-Id: <164989160122.1464.15884355704729745661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/crng/random
+Date: Wed, 13 Apr 2022 23:57:01 -0000
+Message-Id: <164989422158.30311.3729581977273806947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/crng/random
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 68477ede4354858c77d230d31472cfc257931ed4
-    new: 241d50ec5d79b94694adf13853c1f55d0f0b85e6
+  - ref: refs/heads/master
+    old: b0c3e796f24b588b862b61ce235d3c9417dc8983
+    new: 9a633a863759526060fe73e6ec9688d876865ab3
     log: |
-         241d50ec5d79b94694adf13853c1f55d0f0b85e6 bpf: Remove unnecessary type castings
+         9a633a863759526060fe73e6ec9688d876865ab3 random: use memmove instead of memcpy for remaining 32 bytes
          
