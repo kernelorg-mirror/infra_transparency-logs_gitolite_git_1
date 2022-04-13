@@ -1,31 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2102955963013334608=="
+Content-Type: multipart/mixed; boundary="===============0983427510980428336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 13 Apr 2022 16:40:09 -0000
-Message-Id: <164986800974.1964.387985422071363477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 13 Apr 2022 16:40:33 -0000
+Message-Id: <164986803307.2190.8926821899545221523@gitolite.kernel.org>
 
---===============2102955963013334608==
+--===============0983427510980428336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/dev
-    old: 5191290407668028179f2544a11ae9b57f0bcf07
-    new: 07a74239e215ea688ea3c80af2fd4b2e3079876a
-    log: revlist-519129040766-07a74239e215.txt
+  - ref: refs/heads/x86/apic
+    old: cc95a07fef06a2c7917acd827b3a8322772969eb
+    new: daf3af4705ba8f49d33ea9b7bafdc9fd9efd49e0
+    log: revlist-cc95a07fef06-daf3af4705ba.txt
 
---===============2102955963013334608==
+--===============0983427510980428336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-519129040766-07a74239e215.txt
+Content-Disposition: attachment; filename=revlist-cc95a07fef06-daf3af4705ba.txt
 
+9457056ac426e5ed0671356509c8dcce69f8dee0 mm: madvise: MADV_DONTNEED_LOCKED
+25fd2d41b505d0640bdfe67aa77c549de2d3c18a selftests: kselftest framework: provide "finished" helper
+2dacc1e57b95ebc42ddcbfc26cd74700b341f1df Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+3b1db05cee0738166cdd0f335ea93e8b0ecf6e08 dt-bindings: clock: renesas: Make example 'clocks' parsable
+b1f8ccdaae0310332d16f65bf0f622f9d4ae2391 Merge tag 'for-5.18/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+ec8b55780508044b19a6084d2a6a9bd8b96f1b0a dt-bindings: clock: drop useless consumer example
+6f2689a7662809ff39f2b24e452d11569c21ea2f Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+34af78c4e616c359ed428d79fe4758a35d2c5473 Merge tag 'iommu-updates-v5.18' of git://git.kernel.org/pub/scm/linux/kernel/git/joro/iommu
+c8bd296cca3434b13b28b074eaeb78a23284de77 crypto: arm/aes-neonbs-cbc - Select generic cbc and aes
+e9a36feecee0ee5845f2e0656f50f9942dd0bed3 crypto: stm32 - fix reference leak in stm32_crc_remove
+4327d168515fd8b5b92fa1efdf1d219fb6514460 crypto: x86/chacha20 - Avoid spurious jumps to other functions
 7ed7aa4de9421229be6d331ed52d5cd09c99f409 crypto: x86/poly1305 - Fixup SLS
 1521ca5b9f93e3d8c9782ac10a42bc5c3a3ba370 clk: sunxi-ng: sun6i-rtc: include clk/sunxi-ng.h
 b5bf5b283d07bd1f4d49657557fb99ec5fbfc588 rtc: pm8xxx: Attach wake irq to device
@@ -1038,17 +1049,6 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 95aa17c36dc89bf008753217ed27f8a8eb5faf79 Merge tag 'staging-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
-c65905161c04444f2009ae3b796ed5cf747e4ebc f2fs: check pinfile in gc_data_segment() in advance
-01a3b6df5c1a92bfae23d60ee51ff2143909a1f0 f2fs: don't set GC_FAILURE_PIN for background GC
-d157c4992ad6aa636bbdf19b2f567c8ca33ea6c7 f2fs: remove unnecessary f2fs_lock_op in f2fs_new_inode
-345cf710c77900deeaa8a8d39e08f5b0f33d8982 f2fs: introduce data read/write showing path info
-81a30df24677a25603766323e81a9cc9b8df926f f2fs: fix to do sanity check on inline_dots inode
-06f11ff1923cae67bbefc9525be9b71795a01103 f2fs: fix wrong condition check when failing metapage read
-eea8dd3bb3ecdac7d7b02d4432e4eb801f9d2aab f2fs: avoid infinite loop to flush node pages
-879f890cdfe93312565b8cec63fc0735370f4076 f2fs: fix dereference of stale list iterator after loop body
-28a8c7aee08ad5314bb4f5de396cf305a17519db f2fs: change the current atomic write way
-8dba67d622315fafff560ff500d3af693132c294 f2fs: Remove usage of list iterator pas the loop for list_move_tail()
-3174f88d57afcdce2bf535fc06536d3a7015db4f f2fs: replace usage of found with dedicated list iterator variable
-07a74239e215ea688ea3c80af2fd4b2e3079876a f2fs: give priority to select unpinned section for foreground GC
+daf3af4705ba8f49d33ea9b7bafdc9fd9efd49e0 x86/apic: Clarify i82489DX bit overlap in APIC_LVT0
 
---===============2102955963013334608==--
+--===============0983427510980428336==--
