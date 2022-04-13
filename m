@@ -1,31 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 13 Apr 2022 14:12:53 -0000
-Message-Id: <164985917345.2802.3712389712800573722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 13 Apr 2022 14:24:31 -0000
+Message-Id: <164985987116.10440.10010047284373990502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/hwmon
-    old: 7b2666ce445c700b8dcee994da44ddcf050a0842
-    new: 4d0d5c352303a318925ceb84a86818761aa6586b
+  - ref: refs/heads/arm64/stacktrace/cleanups
+    old: 5ec58b607fab3cb6f6519103f663731b7bb749f3
+    new: c9ba5aa7b9816d52ef474a65de39a1236883e696
     log: |
-         4d0d5c352303a318925ceb84a86818761aa6586b dt-bindings: hwmon: ti,tmp421: Fix type for 'ti,n-factor'
-         
-  - ref: refs/heads/hwmon-next
-    old: 9a282ff1f3845e65a239b87a848b973f5edd1df3
-    new: 1a5bf8273b95e52eceb2c4a398f5e379526d17c6
-    log: |
-         4d0d5c352303a318925ceb84a86818761aa6586b dt-bindings: hwmon: ti,tmp421: Fix type for 'ti,n-factor'
-         d377a61a63b74bbc350c54db5424d4e0158be56d hwmon: (jc42) add HWMON_C_TZ_REGISTER
-         9a236eeeee6590d01da7fda9a71526936d5940e1 hwmon: (asus-ec-sensors) Add T_Sensor for ASUS WS X570-ACE
-         0797ddcd0bc4d7cd015246324dcf76164d05d7b9 hwmon: (peci) Use devm_delayed_work_autocancel() to simplify code
-         1a536d2751634615afa0a7a204e63fb78aae4485 hwmon: (aquacomputer_d5next) Add support for Aquacomputer Octo
-         09ba0e5083208fcba8553a14cb5d172b2f2839d3 hwmon: introduce hwmon_sanitize_name()
-         1a5bf8273b95e52eceb2c4a398f5e379526d17c6 hwmon: (intel-m10-bmc-hwmon) use devm_hwmon_sanitize_name()
+         776a10a58bb645909cda589a8228997992f6d1c0 arm64: stacktrace: remove NULL task check from unwind_frame()
+         29925403f1ad87cdbc26fc236fc5b845b36941e1 arm64: stacktrace: delete PCS comment
+         7b3569c62082be653ee64dd08e9a928cdbd220cd arm64: stacktrace: make struct stackframe private to stacktrace.c
+         047f777bb65093ec3a7074621b4fc5d3d5abb48d arm64: stacktrace: rename unwinder functions
+         90131eb350137d824140a84106f1b2313cae4d5b arm64: stacktrace: rename stackframe to unwind_state
+         c9ba5aa7b9816d52ef474a65de39a1236883e696 arm64: stacktrace: align with common naming
          
