@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0367669347007827767=="
+Content-Type: multipart/mixed; boundary="===============4761751161710968448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Wed, 13 Apr 2022 17:38:23 -0000
-Message-Id: <164987150341.4828.2722704994850150569@gitolite.kernel.org>
+Date: Wed, 13 Apr 2022 17:38:32 -0000
+Message-Id: <164987151230.4965.3938511155777706588@gitolite.kernel.org>
 
---===============0367669347007827767==
+--===============4761751161710968448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: d072c88c28e1e2c886681bbb0f1748b8e6ff105f
-    new: 9386ebccfc599de5578a278ffb16d90cc696969a
-    log: revlist-d072c88c28e1-9386ebccfc59.txt
+  - ref: refs/heads/mlx5-queue
+    old: 4164c519124c0dcd730c8fba5541ea1e6008563d
+    new: 8edc7134f456eb17da408c805f290d21ecb8b73a
+    log: revlist-4164c519124c-8edc7134f456.txt
 
---===============0367669347007827767==
+--===============4761751161710968448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d072c88c28e1-9386ebccfc59.txt
+Content-Disposition: attachment; filename=revlist-4164c519124c-8edc7134f456.txt
 
 40379a0084c2f65eb62c102f5bbf5cdc14a50410 net/mlx5_fpga: Drop INNOVA TLS support
 e59437aa7ae6757111e633d02acb9868c1a7ec03 net/mlx5: Reliably return TLS device capabilities
@@ -161,5 +161,9 @@ bba98083499f63f62419edf42022275d34a72470 net: ipv6: remove redundant statistics 
 eeab7e7ff43eb216e4e89482e03fe95a7e4c915e net: ipv6: add skb drop reasons to ip6_protocol_deliver_rcu()
 735cb16bfe5349e14edf9f51c48c4ea86e676ee0 Merge branch 'ip-ingress-skb-reason'
 9386ebccfc599de5578a278ffb16d90cc696969a nfp: update nfp_X logging definitions
+6aa179c2a2a3b822ca4a75aed391703ef8e28af8 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+a7164a4c6ae7883781f5ca235282fcd834948b53 Revert "net: openvswitch: remove unneeded semicolon"
+829819000b964cceb251fdda5dfbad92c5fea9c0 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+8edc7134f456eb17da408c805f290d21ecb8b73a net/mlx5e: Report header-data split state through ethtool
 
---===============0367669347007827767==--
+--===============4761751161710968448==--
