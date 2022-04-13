@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 13 Apr 2022 11:38:17 -0000
-Message-Id: <164984989756.30347.14944476462297277577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 13 Apr 2022 11:40:52 -0000
+Message-Id: <164985005256.32660.14562047556168828994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/master
-    old: e16b859872b87650bb55b12cca5a5fcdc49c1442
-    new: 762c2998c9625f642f0d23da7d3f7e4f90665fdf
+    old: 17a5f6a78dc7b8db385de346092d7d9f9dc24df6
+    new: 1a95e04e29a116c3424988c70c441ca8ec2779ff
     log: |
-         762c2998c9625f642f0d23da7d3f7e4f90665fdf Revert "net: dsa: setup master before ports"
+         1a95e04e29a116c3424988c70c441ca8ec2779ff net: phylink: remove phylink_helper_basex_speed()
          
