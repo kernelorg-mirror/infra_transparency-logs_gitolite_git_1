@@ -1,49 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4009219098013207899=="
+Content-Type: multipart/mixed; boundary="===============1565526702602326248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 13 Apr 2022 18:19:53 -0000
-Message-Id: <164987399327.22694.3117293555671436902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 13 Apr 2022 18:25:41 -0000
+Message-Id: <164987434141.21855.11183124222875230600@gitolite.kernel.org>
 
---===============4009219098013207899==
+--===============1565526702602326248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/objtool-run
-    old: 7ab57e980f6c7d32bf9425d7d08e3658a6fe9515
-    new: 7bfc9cdbe39c763d51c4e3285aa27bfd969af85b
-    log: revlist-7ab57e980f6c-7bfc9cdbe39c.txt
+  - ref: refs/heads/bleeding-edge
+    old: 8fdb6559e9b3ad3a19cf7ce529627693b6511e37
+    new: 77996d1331a106eadeb95f69da99bf3c088d7571
+    log: revlist-8fdb6559e9b3-77996d1331a1.txt
 
---===============4009219098013207899==
+--===============1565526702602326248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ab57e980f6c-7bfc9cdbe39c.txt
+Content-Disposition: attachment; filename=revlist-8fdb6559e9b3-77996d1331a1.txt
 
-a884ed66e26e09cdc9176969ceef955f0a822966 sched: Mark arch_cpu_idle_dead() __noreturn
-440c2c4d302b52ad99ec7e8a70b84f2db5e8a4e7 objtool: Enable unreachable warnings for CLANG LTO
-f5bf3db18da8033cb07c4f9bb4cf46c17f243b31 objtool: Support data symbol printing
-88692df8b6a6cdcf7611034c91e6ccaa7d5ea11c objtool: Add sec+offset to warnings
-5a6da3fdf44aa83c94a690714f8db04976a69828 objtool: Print data address for "!ENDBR" data warnings
-fbdbf6dce6dcb533341492cb10ace8738f8b3bbe objtool: Use offstr() to print address of missing ENDBR
-c7fbb9e2161b80b166e51d6893583acb16cac81c libsubcmd: Fix OPTION_GROUP sorting
-8a8d62ecff7294e8bbef5b008f627a90dc39184a objtool: Reorganize cmdline options
-f39fd292a68c774c9fbbc96876e7d38fff89ece6 objtool: Ditch subcommands
-c77aed96b1d833086fffdabbc048b63610ec8d42 objtool: Add stack validation cmdline option
-c17de22dd03c7c4f2c7846c56297cbadc492e3e5 objtool: Extricate ibt from stack validation
-37db75bb669d2ba289ef78bc9b36f33b32df7b51 objtool: Add CONFIG_OBJTOOL
-a55c4827d165ca9c7fb77c8d3dc939c69b3d9a4d objtool: Make stack validation frame-pointer-specific
-d694b92891db7489f64013a8ccce3bf1447b9e5c objtool: Add static call cmdline option
-9771935c20fad5d557271fc20fe976a06ac70a61 objtool: Add toolchain hacks cmdline option
-c199643724c6f38f4d2e8c2e36d091d03863c88b objtool: Rename "VMLINUX_VALIDATION" -> "NOINSTR_VALIDATION"
-dda36e5da06936efb0210269400158bc63b25936 objtool: Add HAVE_NOINSTR_VALIDATION
-d233071f24c3bc0557b4cbb7f9c1a8fd7d58f756 objtool: Remove --lto and --vmlinux
-7bfc9cdbe39c763d51c4e3285aa27bfd969af85b objtool: Update documentation
+62b32fd961cf2d8b2c9fdcd8d58abeb184bb439b ACPICA: Add support for the Windows 11 _OSI string
+a95d2fb08538f29f6e9f54a803dffc303b5263cd ACPICA: Add the subtable CFMWS to the CEDT table
+90037551c68d08facd6fb56a971352a9cd189c44 ACPICA: iASL: NHLT: Treat Terminator as specific_config
+ab1ba87bd71a507286781b8a7f5c64e1eb7a2d34 ACPICA: iASL: NHLT: Fix parsing undocumented bytes at the end of Endpoint Descriptor
+8bd24835db1781685f9abd0d1b628eaaac20d7c1 ACPICA: iASL: NHLT: Rename linux specific strucures to device_info
+39ea1bbf270a617c81369f2867ca14b8eac331bd ACPICA: Add new ACPI 6.4 semantics to the Load() operator
+e468e39f7cabce2095a2f19dadbfdbf3c21f18f1 ACPICA: Add new ACPI 6.4 semantics for LoadTable() operator
+1cf0cee1da04548be15f24b67889cf6be8306f86 ACPICA: Clean up double word in comment
+487ea80a2848b7147eede3b73a4ee160c150f567 ACPICA: Update copyright notices to the year 2022
+45882a817d4bae5a3b63c3861cb62b9b9a025de5 ACPICA: Removed some tabs and // comments
+aa29b2083e11722a0ceedfa2a87de74cc7cfa676 ACPICA: Headers: Replace zero-length array with flexible-array member
+1838ffe7001bf37e3e31796c7b04e5e083df886e ACPICA: executer/exsystem: Add units to time variable names
+1c5d62f5dd979dbe7f4b16a5bd3c64fbecb7d92a ACPICA: Add support for ARM Performance Monitoring Unit Table.
+ace8f1c54a02b96036b50defa9d842c10292b6bb ACPICA: executer/exsystem: Inform users about ACPI spec violation
+6eaf08770ee8562ea497c8b3f1c0079832953e20 ACPICA: executer/exsystem: Warn about sleeps greater than 10 ms
+da6a9bbedc79c49ba94a6ca746580a9b43931641 ACPICA: iASL/MADT: Add OEM-defined subtable
+3d6c6552f1c1b174e1bc27102f55942ec94f144d ACPICA: executer/exsystem: Fix some typo mistakes
+4fd147530edd44439a099dda6b22f1a390f306ab ACPICA: IORT: Updates for revision E.d
+bf285d25406ed44d1711d59155a658032d31a11c ACPICA: exsystem.c: Use ACPI_FORMAT_UINT64 for 64-bit output
+0076ca940e3f1a1eae6b5e39b6594c96934713a2 ACPICA: Update version to 20220331
+77996d1331a106eadeb95f69da99bf3c088d7571 Merge branch 'acpica' into bleeding-edge
 
---===============4009219098013207899==--
+--===============1565526702602326248==--
