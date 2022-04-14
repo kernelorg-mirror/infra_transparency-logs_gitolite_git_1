@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 14 Apr 2022 16:14:13 -0000
-Message-Id: <164995285317.11345.16252059155948412411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 14 Apr 2022 16:14:59 -0000
+Message-Id: <164995289939.11667.816878826698227774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/dev
-    old: 5f423526db48d4fcff9e56f016b973da6b27a83c
-    new: afa99d3efc59421ced5d2241722645782e2eec60
-    log: |
-         afa99d3efc59421ced5d2241722645782e2eec60 rcutorture: Verify that polled GP API sees synchronous grace periods
-         
+  - ref: refs/tags/s390-5.18-3
+    old: 0000000000000000000000000000000000000000
+    new: cdc2c090b2ca0bb6dd659002506d2a9eef15fd3d
