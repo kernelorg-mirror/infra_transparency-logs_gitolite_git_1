@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2015099717140583910=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 14 Apr 2022 15:50:33 -0000
-Message-Id: <164995143395.28599.7100800696702976531@gitolite.kernel.org>
-
---===============2015099717140583910==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Thu, 14 Apr 2022 15:52:49 -0000
+Message-Id: <164995156980.29378.10503631410139236455@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: e94c669dc271bf08fc28b4d147849107dae90226
-    new: 3eb81ff9696dd1bccd4857e8f203599ea904ba0c
+  - ref: refs/heads/review-andy
+    old: 9d0d161bce5be087fd35ae554630465e438403c6
+    new: 8919374ba68d95ab45cbb339e20aed7c429cef39
     log: |
-         8964644bd74f7740b1fa306864be424877a17706 drop net-bcmgenet-use-stronger-register-read-writes-to-as.patch
-         3eb81ff9696dd1bccd4857e8f203599ea904ba0c drop hv-utils-add-ptp_1588_clock-to-kconfig-to-fix-build.patch
+         4fa01079a77bc51d63253fb1bba6aef38a4fd213 pinctrl: armada-37xx: Switch to use fwnode instead of of_node
+         1105fb0a9c4aa4d7adc0fc890a583f99b9c19834 pinctrl: armada-37xx: Reuse GPIO fwnode in armada_37xx_irqchip_register()
+         1ab9fd8f94cdfe182876a91a2a715b13d2611909 pinctrl: samsung: Drop redundant node parameter in samsung_banks_of_node_get()
+         c06e99c8ff30885cf6e13fa0964ef38f8fdebf77 pinctrl: samsung: Switch to use for_each_gpiochip_node() helper
+         e8ad1a00abee48f0d5af0edba94a3db619adc975 pinctrl: meson: Rename REG_* to MESON_REG_*
+         4c15742765cff5611f3049e2556c173c36f17652 pinctrl: meson: Enable COMPILE_TEST
+         8919374ba68d95ab45cbb339e20aed7c429cef39 pinctrl: meson: Replace custom code by gpiochip_node_count() call
          
-
---===============2015099717140583910==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649951409 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1649951405-626a99217353cf5cb8bf2027d629e202662a6339
-
-e94c669dc271bf08fc28b4d147849107dae90226 3eb81ff9696dd1bccd4857e8f203599ea904ba0c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYQrEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kTIP/j/wU3DtipMe96sWHyqd
-EyZtYHK+V7HCYfDzzQQVMU7RPIympVP/EX1Bi5Vr1rQJzLzVXDC9uiUC7VwqVnyF
-8VMLgbWFBh7uFEBNt2FretS7T4d5Fu8vbJ4avFhIPRRE8QWWX/nz4eDD0Muq36YZ
-GIss6p97C1xbVjyq7eo9wAKRNn4X6rEVkp1LS7VXKXJdiO6SJF2dYa9P0f5evfjH
-FaBVgfsBpzUQ4ihhGCEzyS0a/cy9jC7fhlDS+BpezeaLTpKlk45RGlT+HB9WL0R0
-aYRlKNPKGqPf9LFijREPfli/qb+ONP27iKDjxrd+iBU2fFTpOVBG72jwVSt/DEe5
-Ae4KebrVjx1zsVapBMJalpKAo94OE4aSoGU+cgKTOTyY1l2boiRZzi06SiV7T1Px
-+MwZJNaw9SwprfkSL68mTmSMD9S++a0pixocT42LrSkAhyo9k6GZmviFwGJlhpHf
-229Dqpt6kAbPrFbhRAz2dkhF/dmHe/itdCDd2USb0cg4hrbHE9+hmXWM6oW9Op+M
-4FVhKNdJtpWeBcgtF9VVNYi+75gVKbtPkEPT2WJTPlF7L2NLE82lxZ9bU1eP8nvk
-0MrOS16itY0ZTeIFBWqADOQ/orwhfqpRKoM9zEpIKjL4uxM1ngcMTWGTIfP614DB
-Say/aoTGABcSKiaF7RoalUlD
-=l6yW
------END PGP SIGNATURE-----
-
---===============2015099717140583910==--
