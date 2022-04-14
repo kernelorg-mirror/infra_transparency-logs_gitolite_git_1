@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4934300658921240652=="
+Content-Type: multipart/mixed; boundary="===============6193410132407987340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 14 Apr 2022 16:26:22 -0000
-Message-Id: <164995358255.20189.14411171679317385310@gitolite.kernel.org>
+Date: Thu, 14 Apr 2022 16:26:59 -0000
+Message-Id: <164995361915.20486.11111412755309898211@gitolite.kernel.org>
 
---===============4934300658921240652==
+--===============6193410132407987340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    new: 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b
+    old: 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b
+    new: 689ca31c542687709ba21ec2195c1fbce34fd029
     log: |
-         b96cd8b05ead8939b972192c4f4ac2fc2dffceb7 Documentation: move tty to driver-api
-         1a4a8f6bbac07e3270805009c69e89c7de801df1 Documentation: tty: introduce "Other Documentation"
-         e26595034dada8a1e6c10f0e0187f43edec72698 Documentation: tty: move n_gsm to tty
-         5b437ae9fcbb22fe6de3c715534515209207a092 Documentation: tty: move moxa-smartio.rst to tty
-         e937eb43b8791cd55bd518d1ffc747d3430d8ec9 Documentation: tty: n_gsm, delete "Additional Documentation"
-         7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b Documentation: tty: n_gsm, use power of ReST
+         689ca31c542687709ba21ec2195c1fbce34fd029 tty: synclink_gt: Fix null-pointer-dereference in slgt_clean()
          
 
---===============4934300658921240652==
+--===============6193410132407987340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953580 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953616 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1649953579-18f3f0a27fc993218d7a078b77d14c313ffda0ce
+nonce 1649953615-de9347316a4e831db12369079bc75c6823dc75c4
 
-ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b refs/heads/tty-testing
+7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b 689ca31c542687709ba21ec2195c1fbce34fd029 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYSywbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DQQQANdvMrTg4zmHPC1JNlca
-9XBNkLaL5sKupEHqfYGR1paVKI0a1G1O+UAli9jQjI9VvukX0B1IYoq4GviLWj9D
-k0gYM1Km8dpock2blNj3VZOSfuz+GDXq5/jEOGh45zBQP12MIS0V5ziFaJ76NnHp
-/BMnkvDRpPjeXIvvVRFQtsb6DCc10y6jafm/0CLJniJB+Ts1pgfNGUV5BGpL8nPS
-X5KqSMKSjo5HeJhmLX85njN6Zfh0YhHLQoSAAoka/A1p3UwfV08QSCakhJiPJLVB
-3J4Gk/y5W8ji2aEC1gqvAwnh42FVI33xEpAkR8KTWiEhTqt7UYL3B3d6q13gfezX
-ltENi5/u9q6rBEoK82+krb4i5qwxvAnBdwITTdNDL5ZKbStCzQJikHoSCI2RbY+o
-B0KTK6+JcO4Bgz75Cd6iSHWPTKoAY44ruNtvwnVsx5sbsGt7YPkqxdL0IsOdrzgD
-7UzvoDRrkjsmf+5KzABJo/Na2Sw7sT1SP+X9RXCmHn5bkVYYgVYFqlRMb6WhbsWi
-zSRwVgOOYItqi9m4vyNEjiW9F3wrjWWSOWhLsfqN9G6rG2yaN/GxYmRHiG2ZjIRV
-I5OQNA82hNzZ3eJiGiWIcbJ3b9G0D5/wl/G0kCgBy5OHV8iHHCkRh5RG8KZrhupP
-IL8/hsa8ApR6YAFtc412rXqt
-=FOX7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYS1AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mO0P/2GG09Por3vgHV+H2U6r
+VapAK9IBacCyaHXLU+tOdA4cpnzYEKzSZ39XpDNvrVAtRgpMPVzeTZB60oVPDQPX
+KI27JYXmLYdYoYjLDUuPZHtwMp0/Gs1p4c/qtdR+jXpFO+E2xDTTbCNABVAg4bN3
+r1Fdw6EzlAroocHDUs+Ou+ZPCD3R3aNUEVmjppjt98Ax1MmMDct5h9FRW3iIo8Zk
+7YfHk7AHfRdUr6FXkk3caIKLz/ScXergYdCzAMPmcNTGqh5IxnD23bseriVqXAfC
+UySmrHBjCWivAQLWRom44ZYAIXKde3NbG969tZrJbl1QV4xf5lp0sIVEzaL4UpIi
+jHLEasby2bEPOXfDUyna5JLWiqG/GvU+JD9HmTvGtYGjPy7FE/xfC90au76GBQ1o
+bLjIgvS2NswRVIquoKbG3udfC3pbuVlEsbPuI+BuDQENNghfnMlWDLvMyHp4X73+
+isNgLVqyJRAejajmLnTFT0AfkN1KFxMMQEu4WmF/bjYnx5YY8yN1yWwzEv2kVE0z
+BWxyyspC/0tjmNgjpLrnkmwyZJaAMmuJis04jKbjde0W9eioali2TcL/PvNyZFYh
+xCAGqkEeh9PY7AcLfRJRkrTlOU9LDiwdzj6FK4nmXlp/9eAlthvxd28ng6OA/U7j
+zuALh6lU8oYYTPHVjO0DqUmR
+=SaQH
 -----END PGP SIGNATURE-----
 
---===============4934300658921240652==--
+--===============6193410132407987340==--
