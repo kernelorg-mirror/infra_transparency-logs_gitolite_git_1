@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 14 Apr 2022 08:24:51 -0000
-Message-Id: <164992469161.7989.14544438416528922941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 14 Apr 2022 08:31:36 -0000
+Message-Id: <164992509601.13034.13279160977524925952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/devel
-    old: 731484844cb40e9a057129e04033bb8191dc3ab5
-    new: 97f27573b6b32b08c171a19b9e35ebe94ba2deb4
+  - ref: refs/heads/gpio/for-current
+    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+    new: 3836c73e6a2585561af928c6641d74528a8bdfa4
     log: |
-         97f27573b6b32b08c171a19b9e35ebe94ba2deb4 tty: serial, use kfifo
+         3836c73e6a2585561af928c6641d74528a8bdfa4 gpio: sim: fix setting and getting multiple lines
          
