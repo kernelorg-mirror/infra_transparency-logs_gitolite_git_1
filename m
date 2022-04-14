@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 14 Apr 2022 02:51:16 -0000
-Message-Id: <164990467618.18836.5190777504841467406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Thu, 14 Apr 2022 03:12:47 -0000
+Message-Id: <164990596773.31396.7366276333049049575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/tspinlock-v3
-    old: d8b08722f8407f644ed63f618adbb16da6f186bb
-    new: 52432529fb9a95baa3315d19c830391032a3afbc
+  - ref: refs/heads/dev
+    old: 0b820c187f181b842ba3cc58317686e01519b3ec
+    new: 3969c0127418f8971e92f67295b294512b8d11f6
     log: |
-         52432529fb9a95baa3315d19c830391032a3afbc changelog
+         f62764a61873b9390e34cbf344915fb53d1d3a8a f2fs: Remove usage of list iterator pas the loop for list_move_tail()
+         22ecd43b8319d8853c06a5bfd4c5496492362c17 f2fs: replace usage of found with dedicated list iterator variable
+         86bddf5381b6d05a8ac71a6e990e3089f9bdc0a9 f2fs: give priority to select unpinned section for foreground GC
+         e59851aaa7239fa80bc3295b15087ed5b61f0e34 f2fs: remove obsolete whint_mode
+         3969c0127418f8971e92f67295b294512b8d11f6 f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
          
