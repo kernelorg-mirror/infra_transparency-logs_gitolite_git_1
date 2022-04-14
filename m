@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/next-queue
-Date: Thu, 14 Apr 2022 17:00:31 -0000
-Message-Id: <164995563140.11058.6385817539888585767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 14 Apr 2022 17:12:32 -0000
+Message-Id: <164995635218.17979.16165347591163345822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jkirsher/next-queue
-user: jkirsher
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: rpeterso
 changes:
-  - ref: refs/heads/master
-    old: 9386ebccfc599de5578a278ffb16d90cc696969a
-    new: caf968b483351d8825e68b06d77de5eb618aeb64
-    log: |
-         64b97df995f0c943be469a019d6117c89e2131bc cdc_ether: export usbnet_cdc_zte_rx_fixup
-         36e747972d8b4c09e6e3275e31a3acba46e2c4d2 rndis_host: enable the bogus MAC fixup for ZTE devices from cdc_ether
-         171cfae6b78c3b73d8cd3d405a63e38f15f363f2 rndis_host: limit scope of bogus MAC address detection to ZTE devices
-         caf968b483351d8825e68b06d77de5eb618aeb64 Merge branch 'rndis_host-handle-bogus-mac-addresses-in-zte-rndis-devices'
-         
+  - ref: refs/heads/for-next.bob9
+    old: 0000000000000000000000000000000000000000
+    new: 39263da245fb19cc5b5dc58a7e126b53a7481e9b
