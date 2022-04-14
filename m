@@ -1,100 +1,95 @@
-Content-Type: multipart/mixed; boundary="===============0217603540514320606=="
+Content-Type: multipart/mixed; boundary="===============1969638589339700378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mmtemp
-Date: Thu, 14 Apr 2022 19:17:11 -0000
-Message-Id: <164996383160.4836.7144271641990621770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 14 Apr 2022 19:19:21 -0000
+Message-Id: <164996396176.5732.5898528615081965705@gitolite.kernel.org>
 
---===============0217603540514320606==
+--===============1969638589339700378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mmtemp
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/mglru-mapletree
-    old: 62dd11ea8dabea9ba10a67bac426dbff7975ff57
-    new: 4e03b8e70232aef79ecda107abbd65b38c259f4c
-    log: revlist-62dd11ea8dab-4e03b8e70232.txt
+  - ref: refs/heads/master
+    old: b9b4c79e58305ac64352286ee5030d193fc8aa22
+    new: 115acbb56978941bb7537a97dfc303da286106c1
+    log: revlist-b9b4c79e5830-115acbb56978.txt
 
---===============0217603540514320606==
+--===============1969638589339700378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62dd11ea8dab-4e03b8e70232.txt
+Content-Disposition: attachment; filename=revlist-b9b4c79e5830-115acbb56978.txt
 
-d9ef6f969b710c1c627a039d5b3c7d3055d7ad9c mm/khugepaged: sched to numa node when collapse huge page
-9dde0d7fc1be22e665cff795618f142406e74f08 hugetlb: remove use of list iterator variable after loop
-d765b4d2c26b50aaae0c85f340be84f164e4586b mm: hugetlb_vmemmap: introduce ARCH_WANT_HUGETLB_PAGE_FREE_VMEMMAP
-b1c788c86aadd534eadc77e2b87e792d7bce7023 arm64: mm: hugetlb: enable HUGETLB_PAGE_FREE_VMEMMAP for arm64
-24ea2075319b581e470c94cf3fc5d7e9f109627f mm: hugetlb_vmemmap: cleanup hugetlb_vmemmap related functions
-4bf824d8e8f635893b23a8eed7dcf5ae350f4132 mm: hugetlb_vmemmap: cleanup hugetlb_free_vmemmap_enabled*
-1dd2de0066df2ad9d9a8afa577db436491364ad6 mm: hugetlb_vmemmap: cleanup CONFIG_HUGETLB_PAGE_FREE_VMEMMAP*
-0cd9722b63fa5208160cb8b28833b6e45a9f3492 sched: coredump.h: clarify the use of MMF_VM_HUGEPAGE
-7500a1d8fa29e44ab91ca9d85585194214606002 mm: khugepaged: remove redundant check for VM_NO_KHUGEPAGED
-39fa841f59c0f6aff5214a7c1c189d881ba62e80 mm: khugepaged: skip DAX vma
-e6c334839b770b185f0e4138d0f7674479288663 mm: thp: only regular file could be THP eligible
-0d673e41b5c6b50b858cf13b3ae1557613c9a853 mm: khugepaged: make khugepaged_enter() void function
-43cf3b5de9c7e1bfccf28df2e174b1a7003a815b mm: khugepaged: move some khugepaged_* functions to khugepaged.c
-e69508247a901ab89359c50f3d10bc6dd4a4335a mm: khugepaged: introduce khugepaged_enter_vma() helper
-2011bd48ac23ec2ada28bf90c01b4ec885dcbf4f mm-khugepaged-introduce-khugepaged_enter_vma-helper-vs-maple-tree
-c2dc7a3f72b69491189c2c79d3570762f5ea09ef mm: mmap: register suitable readonly file vmas for khugepaged
-90ea7da929f052088f1d24da5c89f1a4e338fbeb hugetlb: fix wrong use of nr_online_nodes
-cd9541669704d25630c1f4937231342a01526ad5 hugetlb: fix hugepages_setup when deal with pernode
-e31e5b655ab1ade263db363b29ac776f2081f17e hugetlb: fix return value of __setup handlers
-d30c80c0ef028414c708abf2a5817f8396437376 hugetlb: clean up hugetlb_cma_reserve
-69b86569cf12d373524165141cd46c5a3f1dae53 include/linux/swapops.h: remove stub for non_swap_entry()
-a50eca54ea400817466034807b531891794150a1 mm: introduce PTE_MARKER swap entry
-2140eeb5d516eb57bb20a782d3875b6d007c24a2 fixup! mm: Introduce PTE_MARKER swap entry
-292ba2cc6dc4be1d1c0e2f9277487e1e935067ea mm: teach core mm about pte markers
-662d064b19f7ed149ed884014c83228372cc7c44 mm: check against orig_pte for finish_fault()
-75d30973f534cacd1a1c150b57be128957ca652f mm/uffd: PTE_MARKER_UFFD_WP
-68365f3559b763ccb966aa44fae79ffd604e4e96 fixup! mm/uffd: PTE_MARKER_UFFD_WP
-e194a80e1486bb962cbbfee807c2f484d359380a mm/shmem: take care of UFFDIO_COPY_MODE_WP
-de19cca634a99c7eba80ec28800d7d26a18e4ba2 mm/shmem: handle uffd-wp special pte in page fault handler
-f661f8216c5524a7b65bc19d9c3fc27d2e0046f3 mm/shmem: persist uffd-wp bit across zapping for file-backed
-af887cd035fbfdea6958b5b537f7f56d751111e6 mm/shmem: allow uffd wr-protect none pte for file-backed mem
-f0d43cc3dea18dc71ca54ee8a12cfb98093b4589 mm/shmem: allows file-back mem to be uffd wr-protected on thps
-5e3cd88602cd4160329f60b128f569c7deac291e mm/shmem: handle uffd-wp during fork()
-e9b639e29e7e5001809294f92136c74a25d82e5c mm/hugetlb: introduce huge pte version of uffd-wp helpers
-6b4579582eade2aac941718024c929b04c58945c mm/hugetlb: hook page faults for uffd write protection
-4991ab5e6baa4ade022d342c17eb130ef2cb7059 mm/hugetlb: take care of UFFDIO_COPY_MODE_WP
-f6b253c4aafeabafafd1912a3842d7b4baf6e135 mm/hugetlb: handle UFFDIO_WRITEPROTECT
-5540bff9bf623feca1146767c4a85b7444717a84 mm/hugetlb: handle pte markers in page faults
-c66a1eb81b85ab4cb48ce5df278ea94e1a2c0b12 mm/hugetlb: allow uffd wr-protect none ptes
-fe759616844c3a3c4c0b422fc1c5c70d57946acb mm/hugetlb: only drop uffd-wp special pte if required
-543271dffae29414f7a92efea32b6871d4394529 fixup! mm/hugetlb: Only drop uffd-wp special pte if required
-95e5a8943dc1881e623ce359593ec5bea266fcc3 mm/hugetlb: handle uffd-wp during fork()
-a5c8eda7e9e50d8e1447a6db9f0ef19dd0867e22 mm/shmem: vma_needs_copy can be static
-ad255bf1e52e6bd4fee2d1c156ea3b5cdbb676a2 mm/khugepaged: don't recycle vma pgtable if uffd-wp registered
-432791d2ec2d6af0791e81fd1d86d6fd22dcc855 mm/pagemap: recognize uffd-wp bit for shmem/hugetlbfs
-27a0b5b2d3b103b53f9151ffc3f7212a784dcf3c mm/uffd: enable write protection for shmem & hugetlbfs
-f3303facc4ed4d313a23b7b5b84aa9e9c4280421 mm: enable PTE markers by default
-3afa1a8b6f4da01670f1d017f1e2ee797e5644e7 selftests/uffd: enable uffd-wp for shmem/hugetlbfs
-95dcfbc17973bbda0eac484ba530e61ebe8dd6a8 userfaultfd/selftests: use swap() instead of open coding it
-42163761dcca1de64f0175a4e1fc6329ef377aac mm/vmscan: reclaim only affects managed_zones
-9debb80f754287ee05483e94c54ec88fd5dc6600 mm/vmscan: make sure wakeup_kswapd with managed zone
-f8e77baa25f77ea8fb851a4bdf33ae2a02924188 mm-vmscan-make-sure-wakeup_kswapd-with-managed-zone-v2
-88c631eef27986f92819d065411e07b7a3585b9d mm/vmscan: sc->reclaim_idx must be a valid zone index
-1fe4e0d45c054a171d497794622e3cc4cad4c5a5 mm/vmscan: remove obsolete comment in get_scan_count
-0454f1516dfe72602849f1edeed56a13d8281bd6 mm: x86, arm64: add arch_has_hw_pte_young()
-667450634da971d04cde27f820049cca3a839095 mm: x86: add CONFIG_ARCH_HAS_NONLEAF_PMD_YOUNG
-84da40409d72aba45f6b150b4566a19971d23ca5 mm-x86-add-config_arch_has_nonleaf_pmd_young-fix
-7369b7fa57c6c3c65d3ae117d51bbc8806758b39 mm/vmscan.c: refactor shrink_node()
-430b65facc61d0273107c9e6d1b2d810651ae5f9 Revert "include/linux/mm_inline.h: fold __update_lru_size() into its sole caller"
-85e260335812c0f523438ad8ecb07dbc12ef1fbb mm: multi-gen LRU: groundwork
-4592ea2ff3e3ab95455bbef8581c31c6559fbe15 mm: multi-gen LRU: minimal implementation
-1582bf82b2883981086fad56e5893c202a85fa20 mm: multi-gen LRU: exploit locality in rmap
-211bc3dfe30e64e9002e28f322786fa0e8a0d210 mm: multi-gen LRU: support page table walks
-6164de3b31763140b726b8d7071c5a0287bdd5a4 mm: multi-gen LRU: optimize multiple memcgs
-1619131f96793a834b6b2b4d55977c45dffdfb75 mm: multi-gen LRU: kill switch
-ed818448e6ffe617ad15a1f3e2a7dd7ac6cc117c mm: multi-gen LRU: thrashing prevention
-ac14d0388b790e2751b8a277b71154c26dab9c3b mm: multi-gen LRU: debugfs interface
-b818c9bd35027efea7b3be07516e5c34840ea856 mm: multi-gen LRU: admin guide
-553c95f2ae565f3fa58bca273a1182abdec73ea4 mm: multi-gen LRU: design doc
-4e03b8e70232aef79ecda107abbd65b38c259f4c mglru-vs-maple-tree
+24b488061b97a6c6ff82c433e6843eaf54f41f3c MAINTAINERS: update Lorenzo's email address
+037250f0a45cf9ecf5b52d4b9ff8eadeb609c800 ath9k: Properly clear TX status area before reporting to mac80211
+598be865ee00905f16ef3d0355fefe319cac981a MAINTAINERS: claim include/uapi/linux/wireless.h
+61a891efbb1099bb7bdcedfc50f802fabbe46a0e MAINTAINERS: mark wil6210 as orphan
+10cb21f4ff3f9cb36d1e1c39bf80426f02f4986a Revert "ath11k: mesh: add support for 256 bitmap in blockack frames in 11ax"
+6203ac30297847ddc5e122ccdcbe9941fbc258e6 s390: add z16 elf platform
+e69a7ff8d5deefc81bd9ce00b3ece83950a88fe6 s390: allow to compile with z16 optimizations
+711136bb6620b4e84498aa87d4a2ceb7b70c8176 s390/kexec: silence -Warray-bounds warning
+2610bd72efe4b376febd477425769f647152a3a8 dt-bindings: net: ave: Clean up clocks, resets, and their names using compatible string
+5a80059d88046b0a87e957565363ba3ee57600bb dt-bindings: net: ave: Use unevaluatedProperties
+2105f700b53c24aa48b65c15652acc386044d26a net/sched: flower: fix parsing of ethertype following VLAN header
+2cd1881b9821be68d1eb748c96311258b16af225 bonding: Update layer2 and layer2+3 hash formula documentation
+726e2c5929de841fdcef4e2bf995680688ae1b87 veth: Ensure eth header is in skb's linear part
+1b808993e19447731e823b1313ee4e8da7fd92a0 flow_dissector: fix false-positive __read_overflow2_field() warning
+7cea5560bf656b84f9ed01c0cc829d4eecd0640b vxlan: fix error return code in vxlan_fdb_append
+d7442f512b71fc63a99c8a801422dde4fbbf9f93 ice: arfs: fix use-after-free when freeing @rx_cpu_rmap
+7d59706dbef8de83b3662026766507bc494223d7 Revert "iavf: Fix deadlock occurrence during resetting VF interface"
+74befa447e6839cdd90ed541159ec783726946f9 net: mdio: don't defer probe forever if PHY IRQ provider is missing
+d452088cdfd5a4ad9d96d847d2273fe958d6339b mlxsw: i2c: Fix initialization error flow
+e2d88f9ce678cd33763826ae2f0412f181251314 sctp: use the correct skb for security_sctp_assoc_request
+e65812fd22eba32f11abe28cb377cbd64cfb1ba0 net/sched: fix initialization order when updating chain 0 head
+e6934e4048c91502efcb21da92b7ae37cd8fa741 net: dsa: felix: suppress -EPROBE_DEFER errors
+8d3a6c37d50d5a0504c126c932cc749e6dd9c78f net: atlantic: Avoid out-of-bounds indexing
+dbc2b1764734857d68425468ffa8486e97ab89df mt76: Fix undefined behavior due to shift overflowing the constant
+6fb3a5868b2117611f41e421e10e6a8c2a13039a brcmfmac: sdio: Fix undefined behavior due to shift overflowing the constant
+5a6b06f5927c940fa44026695779c30b7536474c ath9k: Fix usage of driver-private space in tx_info
+a25d5887821e242e5ea8388d8461ff20bedb0729 s390: update defconfigs
+b2cd2cde7d690b760bcdd675380ff37c3e1aa38d net: phy: LAN87xx: remove genphy_softreset in config_aneg
+a6aaa00324240967272b451bfa772547bd576ee6 net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link
+e8a64bbaaad1f6548cec5508297bc6d45e8ab69e net/sched: taprio: Check if socket flags are valid
+6624bb34b4eb19f715db9908cca00122748765d7 nl80211: correctly check NL80211_ATTR_REG_ALPHA2 size
+a5199b5626cd6913cf8776a835bc63d40e0686ad cfg80211: hold bss_lock while updating nontrans_list
+fb4bccd863ccccd36ad000601856609e259a1859 mac80211: fix ht_capa printout in debugfs
+05ae2fba821c4d122ab4ba3e52144e21586c4010 netfilter: nft_socket: make cgroup match work in input too
+1a7eb80d170c28be2928433702256fe2a0bd1e0f dpaa_eth: Fix missing of_node_put in dpaa_get_ts_info()
+e3fa461d8b0e185b7da8a101fe94dfe6dd500ac0 ipv6: fix panic when forwarding a pkt with no in6 dev
+5ad7f18cd82cee8e773d40cc7a1465a526f2615c net: macb: Restart tx only if queue pointer is lagging
+b1871fd48efc567650dbdc974e5a2342a03fe0d2 net/smc: use memcpy instead of snprintf to avoid out of bounds read
+d22f4f977236f97e01255a80bca2ea93a8094fc8 net/smc: Fix NULL pointer dereference in smc_pnet_find_ib()
+49b7d376abe54a49e8bd5e64824032b7c97c62d4 net/smc: Fix af_ops of child socket pointing to released memory
+d6d9fc1d37f9bb911ba7013d7628a03bb4cb2561 Merge branch 'net-smc-fixes-2022-04-08'
+65745da171e685b47725bfee138580ad8bf09d8f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+8467dda0c26583547731e7f3ea73fc3856bae3bf sctp: Initialize daddr on peeled off socket
+eb9c0d671e9432901b8a453e7915416f22f7f919 net: lan966x: Update lan966x_ptp_get_nominal_value
+6476f90aefaf119c47ceccde52327464e813fe26 net: lan966x: Fix IGMP snooping when frames have vlan tag
+d7a947d289dc205fc717c004dcebe33b15305afd net: lan966x: Fix when a port's upper is changed.
+269219321eb7d7645a3122cf40a420c5dc655eb9 net: lan966x: Stop processing the MAC entry is port is wrong.
+ad8064a7f1a67c3e47b37ffcb66abb12c931daa4 Merge branch 'net-lan966x-lan966x-fixes'
+6c6f9f31ecd47dce1d0dafca4bec8805f9bc97cd netfilter: nf_tables: nft_parse_register can return a negative value
+30de14b1884ba609fc1acfba5b40309e3a6ccefe s390: current_stack_pointer shouldn't be a function
+c68c63429319a923a3f23db64810ba608f5d20f7 s390: enable CONFIG_HARDENED_USERCOPY in debug_defconfig
+625e8cb8e0e7b9eb6566c5a6e4fa95fb9dad9d4e Merge git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+e16b859872b87650bb55b12cca5a5fcdc49c1442 macvlan: Fix leaking skb in source mode with nodst option
+762c2998c9625f642f0d23da7d3f7e4f90665fdf Revert "net: dsa: setup master before ports"
+3d2504524531990b32a0629cc984db44f399d161 net: ftgmac100: access hardware register after clock ready
+dad32cfeed7c5a375335b04398bf064a9c61cc20 Merge tag 'wireless-2022-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+2511e0c87786f333c4665508f421ac99e378c719 net: dsa: realtek: fix Kconfig to assure consistent driver linkage
+8e925de60ddaeccb455f0bdad17ce9d8cc2db2e1 net: dsa: realtek: don't parse compatible string for RTL8366S
+ef27324e2cb7bb24542d6cb2571740eefe6b00dc nfc: nci: add flush_workqueue to prevent uaf
+968a1a5d6541cd24e37dadc1926eab9c10aeb09b tun: annotate access to queue->trans_start
+00fa91bc9cc2a9d340f963af5e457610ad4b2f9c net: dsa: felix: fix tagging protocol changes with multiple CPU ports
+23cfe941b52e2fa645bdfd770087128a74c7dbee rtnetlink: Fix handling of disabled L3 stats in RTM_GETSTATS replies
+2df3fc4a84e917a422935cc5bae18f43f9955d31 net: bcmgenet: Revert "Use stronger register read/writes to assure ordering"
+d20339fa93e9810fcf87518bdd62e44f62bb64ee Merge tag 'net-5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+115acbb56978941bb7537a97dfc303da286106c1 Merge tag 's390-5.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 
---===============0217603540514320606==--
+--===============1969638589339700378==--
