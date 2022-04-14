@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Thu, 14 Apr 2022 08:37:55 -0000
-Message-Id: <164992547538.16489.4865914924490886049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tmlind/linux-omap
+Date: Thu, 14 Apr 2022 08:42:45 -0000
+Message-Id: <164992576555.19679.7629757042826140641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: saeed
+repo: pub/scm/linux/kernel/git/tmlind/linux-omap
+user: tmlind
 changes:
-  - ref: refs/heads/queue-rc
-    old: a13a7f14c8613732279a8bdea7b3fe5c2d5217b6
-    new: b22a61e7a9595a82bfe7ae1bc6d0189ef685c52e
+  - ref: refs/heads/fixes
+    old: da2308ee47ea4f034f99583c1c6b767358d17bc3
+    new: 46ff3df87215ff42c0cd2c4bdb7d74540384a69c
     log: |
-         d1f636a956c25ebaca44d49ae5c947dc41396050 net/mlx4_en: Fix wrong return value on ioctl EEPROM query failure
-         3afbf3cd1c565fd0233991298bf5054426da0603 net/mlx5e: Fix wrong source vport matching on tunnel rule
-         7f69b9044d0953cca4c2d2683aaf1adc5c5e63ba net/mlx5: Fix slab-out-of-bounds while reading resource dump menu
-         d92ccdb9e40d26a3d9a97277dfe8b35033177173 Merge branch 'patchq/485147' into mlx5-for-net
-         c206e92de24cc9993e818a4d81404961b1e15bbc Merge branch 'mlx4-for-net' into net-rc
-         45366ebdedd74d9b162f22150d55271672005a3d Merge branch 'mlx5-for-net' into net-rc
-         f1d16cd7fda0f0d5d6540ffe3b75a8aa3e69df6d Merge branch 'net-rc' into queue-rc
-         b22a61e7a9595a82bfe7ae1bc6d0189ef685c52e Merge branch 'testing/rdma-rc' into queue-rc
+         09269dd050094593fc747f2a5853d189fefcb6b5 ARM: dts: Fix mmc order for omap3-gta04
+         c21a7434d6cc216a910dd35632617850f1751f4c ARM: dts: am33xx-l4: Add missing touchscreen clock properties
+         942da3af32b2288e674736eb159d1fc676261691 ARM: dts: am3517-evm: Fix misc pinmuxing
+         46ff3df87215ff42c0cd2c4bdb7d74540384a69c ARM: dts: logicpd-som-lv: Fix wrong pinmuxing on OMAP35
          
