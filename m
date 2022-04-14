@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Thu, 14 Apr 2022 12:15:03 -0000
-Message-Id: <164993850387.13294.11968668452040036886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Thu, 14 Apr 2022 12:18:28 -0000
+Message-Id: <164993870898.14404.9616190579163179583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/stable
-    old: b6d724eab3d0bd2e2475e6ae11b9ee04b58b4096
-    new: c6476d123a28905e73b4e5b3169b6ebc45e8d674
+  - ref: refs/heads/master
+    old: cac545f64e6f5863b430f5b94442b777aa7f1165
+    new: 5c649bdcedfd823670dcbd74e9c38849d068db80
     log: |
-         c6476d123a28905e73b4e5b3169b6ebc45e8d674 wireguard: device: check for metadata_dst with skb_valid_dst()
+         60be9345be266524ffa5fd50ac0df4ee12a7b4bd pciutils: Add decode support for Data Object Exchange Extended Capability
+         5c649bdcedfd823670dcbd74e9c38849d068db80 Tried to fix the fbsd-device back-end
          
