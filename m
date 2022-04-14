@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6193410132407987340=="
+Content-Type: multipart/mixed; boundary="===============1495314728387885653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 14 Apr 2022 16:26:59 -0000
-Message-Id: <164995361915.20486.11111412755309898211@gitolite.kernel.org>
+Date: Thu, 14 Apr 2022 16:27:35 -0000
+Message-Id: <164995365596.20744.3471031476943019774@gitolite.kernel.org>
 
---===============6193410132407987340==
+--===============1495314728387885653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b
-    new: 689ca31c542687709ba21ec2195c1fbce34fd029
+    old: 689ca31c542687709ba21ec2195c1fbce34fd029
+    new: 9c3a431a486d0c494a68941045885333a5bc1975
     log: |
-         689ca31c542687709ba21ec2195c1fbce34fd029 tty: synclink_gt: Fix null-pointer-dereference in slgt_clean()
+         83ead219292afb5dd401b68c4ee3becf8d26b6e4 tty: serial: mpc52xx_uart: remove double ifdeffery
+         d9b80d07db686402bbb3b237692a98da93125ace tty: serial: owl-uart, send x_char even if stopped
+         9c3a431a486d0c494a68941045885333a5bc1975 tty: serial: altera: use altera_jtaguart_stop_tx()
          
 
---===============6193410132407987340==
+--===============1495314728387885653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953616 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953653 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1649953615-de9347316a4e831db12369079bc75c6823dc75c4
+nonce 1649953652-388292f872608b7edcafda21e693a73ca1f3f8a9
 
-7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b 689ca31c542687709ba21ec2195c1fbce34fd029 refs/heads/tty-testing
+689ca31c542687709ba21ec2195c1fbce34fd029 9c3a431a486d0c494a68941045885333a5bc1975 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYS1AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mO0P/2GG09Por3vgHV+H2U6r
-VapAK9IBacCyaHXLU+tOdA4cpnzYEKzSZ39XpDNvrVAtRgpMPVzeTZB60oVPDQPX
-KI27JYXmLYdYoYjLDUuPZHtwMp0/Gs1p4c/qtdR+jXpFO+E2xDTTbCNABVAg4bN3
-r1Fdw6EzlAroocHDUs+Ou+ZPCD3R3aNUEVmjppjt98Ax1MmMDct5h9FRW3iIo8Zk
-7YfHk7AHfRdUr6FXkk3caIKLz/ScXergYdCzAMPmcNTGqh5IxnD23bseriVqXAfC
-UySmrHBjCWivAQLWRom44ZYAIXKde3NbG969tZrJbl1QV4xf5lp0sIVEzaL4UpIi
-jHLEasby2bEPOXfDUyna5JLWiqG/GvU+JD9HmTvGtYGjPy7FE/xfC90au76GBQ1o
-bLjIgvS2NswRVIquoKbG3udfC3pbuVlEsbPuI+BuDQENNghfnMlWDLvMyHp4X73+
-isNgLVqyJRAejajmLnTFT0AfkN1KFxMMQEu4WmF/bjYnx5YY8yN1yWwzEv2kVE0z
-BWxyyspC/0tjmNgjpLrnkmwyZJaAMmuJis04jKbjde0W9eioali2TcL/PvNyZFYh
-xCAGqkEeh9PY7AcLfRJRkrTlOU9LDiwdzj6FK4nmXlp/9eAlthvxd28ng6OA/U7j
-zuALh6lU8oYYTPHVjO0DqUmR
-=SaQH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYS3UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YbwQAMRGShVoofxarX92j7mm
+XEedkO2hXsTs17+O85NfH5wmHWD+5E/c9pSNQ+w5R73qiS1Pg7bvEDD1Re0UyUCP
+TwlBYtZ2YY1Tf3wl44Q7eBCUPDz+0AdXMKqe/P9wyAVTHXI3nTjr8QqVR0D2LOQy
+qFAuNq4TLD4Fan/hdSR4xLg8YYeUWN78puAyB1KgJvfSrci1wF9C/l5fhAFkUUYQ
+tl9/Mcy0GTxLfIsQBEtDqS59WL+sd3R94DpeqdaebYgRfaj3Zc4M5Ae1BPeMbkU6
+GFf8eKG/Woa/5BuHPqTQZG7Gs5MIKMm/I5FRWc84PUMj6P5IBjIqSHjrwObmqKLz
+T1d5W4Ew0AvMJZ8G0KWEC4oup74Vv+EShykAqNqbH6tU6sxaPq5cS4HfCGMKn8es
+1wZDk8g5aZQlUScDX/r35YPRNT68VNVIzDqJD4eHyy1Anslfkw/IepXwv2ByRlEq
+xtSBoN/g1jnbSu5GsqLbpJFdriHYwv/Bdol5WgbQTx5ALC/8wkiq7QEr4NcCaxVL
+e8x1qc9KjB2mHDSxrKZznsPArn6vekx/Dv/mjlbyABNcJQMomMoH1OGmDv1feh29
+k8FonqKoWCWFTVV+u6TqW2u5rlXVOGIABbg5ps9j1ZzF/Io6PBKOPXeW0kl/Mm2S
+M6ZteKDVJlCpZtM9V8+5Qdix
+=Gq0K
 -----END PGP SIGNATURE-----
 
---===============6193410132407987340==--
+--===============1495314728387885653==--
