@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-Date: Thu, 14 Apr 2022 12:49:34 -0000
-Message-Id: <164994057404.2281.939514562434638082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 14 Apr 2022 12:54:36 -0000
+Message-Id: <164994087689.5340.5025306464717613769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux-compat
-user: zx2c4
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 4626f5eb42131f7c787b80f874c57c5496713d9b
-    new: f9d9b4db6fcdb06bd54d876255e66fee767bc87f
+  - ref: refs/heads/irq/managed-affinity-fixes
+    old: 0038ae44e0577bfb756c09a0500d6aafe990cd0c
+    new: 24e3d1cb8387811e5722d18805dd8ed327201167
     log: |
-         f9d9b4db6fcdb06bd54d876255e66fee767bc87f device: check for metadata_dst with skb_valid_dst()
+         24e3d1cb8387811e5722d18805dd8ed327201167 genirq: Take the proposed affinity at face value if force==true
          
