@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4586951355013575254=="
+Content-Type: multipart/mixed; boundary="===============4934300658921240652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 14 Apr 2022 16:22:14 -0000
-Message-Id: <164995333477.17399.603515438716627347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 14 Apr 2022 16:26:22 -0000
+Message-Id: <164995358255.20189.14411171679317385310@gitolite.kernel.org>
 
---===============4586951355013575254==
+--===============4934300658921240652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 194193dd06848c1839d928090cb2032eec8b2f9c
-    new: bed6d200f8ca38e1ecbdd8fb7e0564884002abd1
+  - ref: refs/heads/tty-testing
+    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
+    new: 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b
     log: |
-         bed6d200f8ca38e1ecbdd8fb7e0564884002abd1 staging: rtl8192u: make read-only array EWC11NHTCap static const
+         b96cd8b05ead8939b972192c4f4ac2fc2dffceb7 Documentation: move tty to driver-api
+         1a4a8f6bbac07e3270805009c69e89c7de801df1 Documentation: tty: introduce "Other Documentation"
+         e26595034dada8a1e6c10f0e0187f43edec72698 Documentation: tty: move n_gsm to tty
+         5b437ae9fcbb22fe6de3c715534515209207a092 Documentation: tty: move moxa-smartio.rst to tty
+         e937eb43b8791cd55bd518d1ffc747d3430d8ec9 Documentation: tty: n_gsm, delete "Additional Documentation"
+         7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b Documentation: tty: n_gsm, use power of ReST
          
 
---===============4586951355013575254==
+--===============4934300658921240652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953332 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1649953331-398d04634d8e1e4b56ac05e330d4e8e189530a6e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649953580 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1649953579-18f3f0a27fc993218d7a078b77d14c313ffda0ce
 
-194193dd06848c1839d928090cb2032eec8b2f9c bed6d200f8ca38e1ecbdd8fb7e0564884002abd1 refs/heads/staging-testing
+ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e 7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYSjQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tO8QALcYQOIWkkzu9JF1JOm1
-ZELj9gEgkgr5+5IGIhqbkzuDGyLmTr2vcwtB5wCJVocUek/OGohvoHi7EhdjLJ9L
-5ASqYce/jS6eAevlkYSzyEgMXh//kNVBB3YjjW2iCUwIC/tM6Y31KKMY018dr6oj
-cJrk+0byT20bY0Uo0aCjTn+hkAUjWDUmW4jR/m+xo3a0ONinnhR1PRqKcg1D0Acb
-E/CVK1VVNM1+zqwWMyIBinhfhOrA0Xavm8bsVyFgrSTRPw2vYW4KZd/FtiaY2+4x
-IdfHr5/n0674rz/9NUK6xaxxVbta3vVWqPqcSOjeXvuTtX5bLv2Sz3sAsE83kKl4
-uy/Yb3P5T0NdCe2yLgQAQsTyhCg9xNqlBS9A3WYKQtGkJljP4zQ6+T+wUktfxTgx
-RM5XC/jmSOdKnsvz5bSuRT63QUVlJspFCyzsa+iuwR0N+diGx3hhC3vrcbNH/ayk
-++GFF3suvLKuq/m/ftE3Ofn9QnuotUsbSLGKTlawsHJdyu3IJFJSZ1EgupnkXKsN
-bSRTktrOm51Jt3q3bvUYY3nCVLyawsDFqMA7ySzYee2WNLPaqSmvvyHBjB32LoVX
-Sxa/p/6n2fW/gPuIJgdPrPhKvQIg/CRTLnndVqfYk7vlflI0Fu5V54axVRbGPjF/
-Luu2Vi5Uxv5ugthHkTXscu+g
-=3cYe
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYSywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DQQQANdvMrTg4zmHPC1JNlca
+9XBNkLaL5sKupEHqfYGR1paVKI0a1G1O+UAli9jQjI9VvukX0B1IYoq4GviLWj9D
+k0gYM1Km8dpock2blNj3VZOSfuz+GDXq5/jEOGh45zBQP12MIS0V5ziFaJ76NnHp
+/BMnkvDRpPjeXIvvVRFQtsb6DCc10y6jafm/0CLJniJB+Ts1pgfNGUV5BGpL8nPS
+X5KqSMKSjo5HeJhmLX85njN6Zfh0YhHLQoSAAoka/A1p3UwfV08QSCakhJiPJLVB
+3J4Gk/y5W8ji2aEC1gqvAwnh42FVI33xEpAkR8KTWiEhTqt7UYL3B3d6q13gfezX
+ltENi5/u9q6rBEoK82+krb4i5qwxvAnBdwITTdNDL5ZKbStCzQJikHoSCI2RbY+o
+B0KTK6+JcO4Bgz75Cd6iSHWPTKoAY44ruNtvwnVsx5sbsGt7YPkqxdL0IsOdrzgD
+7UzvoDRrkjsmf+5KzABJo/Na2Sw7sT1SP+X9RXCmHn5bkVYYgVYFqlRMb6WhbsWi
+zSRwVgOOYItqi9m4vyNEjiW9F3wrjWWSOWhLsfqN9G6rG2yaN/GxYmRHiG2ZjIRV
+I5OQNA82hNzZ3eJiGiWIcbJ3b9G0D5/wl/G0kCgBy5OHV8iHHCkRh5RG8KZrhupP
+IL8/hsa8ApR6YAFtc412rXqt
+=FOX7
 -----END PGP SIGNATURE-----
 
---===============4586951355013575254==--
+--===============4934300658921240652==--
