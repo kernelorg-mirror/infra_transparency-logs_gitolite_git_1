@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 14 Apr 2022 21:05:37 -0000
-Message-Id: <164997033717.10112.4801341170023044191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Thu, 14 Apr 2022 21:23:53 -0000
+Message-Id: <164997143327.21418.5490448106808271878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dt/linus
-    old: 5a674d9dc9a097308e8f5848b8439e8a3eeac846
-    new: 652980b1541c5a02e6410647c7daf840c06d724a
+  - ref: refs/heads/master
+    old: 45d2f0be91c7ea6123ee9d74462ce9688753807a
+    new: 486a056ae25cf3c39e3c694916400ebb108817d1
     log: |
-         652980b1541c5a02e6410647c7daf840c06d724a dt-bindings: display: panel-timing: Define a single type for properties
+         486a056ae25cf3c39e3c694916400ebb108817d1 Thu Apr 14 09:22:53 PM UTC 2022
          
