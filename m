@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6319603354990325878=="
+Content-Type: multipart/mixed; boundary="===============7234705185840225142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 14 Apr 2022 15:17:47 -0000
-Message-Id: <164994946741.5007.16721284921875637510@gitolite.kernel.org>
+Date: Thu, 14 Apr 2022 15:17:56 -0000
+Message-Id: <164994947624.5144.15644658203877720661@gitolite.kernel.org>
 
---===============6319603354990325878==
+--===============7234705185840225142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 0a70045ed8516dfcff4b5728557e1ef3fd017c53
-    new: 24c9c46c2f15f8fd95a0f8356f00129bb9ae1c18
-    log: revlist-0a70045ed851-24c9c46c2f15.txt
+  - ref: refs/heads/perf/urgent
+    old: e19cd0b6fa5938c51d7b928010d584f0de93913a
+    new: 4b2def7729bd01b55ffb35992f6d01e3e5a8c808
+    log: revlist-e19cd0b6fa59-4b2def7729bd.txt
 
---===============6319603354990325878==
+--===============7234705185840225142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a70045ed851-24c9c46c2f15.txt
+Content-Disposition: attachment; filename=revlist-e19cd0b6fa59-4b2def7729bd.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -208,6 +208,9 @@ fb39d30e227233498c8debe6a9fe3e7cf575c85f cifs: force new session setup and tcon 
 7cd1cc415dd8d0dca7244c9eafb9a0adc8036805 cifs: update internal module number
 e3d37210df5c41c51147a2d5d465de1a4d77be7a sctp: count singleton chunks in assoc user stats
 8047f98c8958d0f0c29882298ec293ff09ffea92 dt-bindings: display: bridge: Drop requirement on input port for DSI devices
+5b6547ed97f4f5dfc23f8e3970af6d11d7b7ed7e sched/core: Fix forceidle balancing
+386ef214c3c6ab111d05e1790e79475363abaa05 sched: Teach the forced-newidle balancer about CPU affinity limitation.
+0a70045ed8516dfcff4b5728557e1ef3fd017c53 entry: Fix compile error in dynamic_irqentry_exit_cond_resched()
 1cd5f059d956e6f614ba6666ecdbcf95db05d5f5 x86,static_call: Fix __static_call_return0 for i386
 8fd4ddda2f49a66bf5dd3d0c01966c4b1971308b static_call: Don't make __static_call_return0 static
 5517d500829c683a358a8de04ecb2e28af629ae5 static_call: Properly initialise DEFINE_STATIC_CALL_RET0()
@@ -215,17 +218,6 @@ df21c0d7a94db64a4e1a0d070e26fb02e60fefab static_call: Remove __DEFINE_STATIC_CAL
 1c1e7e3c23dd25f938302428eeb22c3dda2c3427 x86/percpu: Remove volatile from arch_raw_cpu_ptr().
 2d2f8f083ef29e9b7adfe5cb421368331543473f Revert "locking/local_lock: Make the empty local_lock_*() function a macro."
 273ba85b5e8b971ed28eb5c17e1638543be9237d Revert "mm/page_alloc: mark pagesets as __maybe_unused"
-c61759e581576d3330bd1d9490b4d7552e24da6b perf/x86: Add Intel Raptor Lake support
-2da202aa1c38bfe8841611a3d339892eb5579e2b perf/x86/cstate: Add Raptor Lake support
-82cd83047a9a80e52c0849e56885279166215310 perf/x86/msr: Add Raptor Lake CPU support
-ad4878d4d71d9ada913be2ad5b6d7f526a695b6f perf/x86/uncore: Add Raptor Lake uncore support
-e3265a4386428d3d157d9565bb520aabff8b4bf0 perf/core: Inherit event_caps
-4a263bf331c512849062805ef1b4ac40301a9829 perf/x86/intel: Don't extend the pseudo-encoding to GP counters
-e590928de7547454469693da9bc7ffd562e54b7e perf/x86/intel: Update the FRONTEND MSR mask on Sapphire Rapids
-a0827713e298d021d3c79ae7423aea408f3f7c3a perf/core: Don't pass task around when ctx sched in
-6875186aea5ce09a644758d9193265da1cc187c7 perf/core: Use perf_cgroup_info->active to check if cgroup is active
-96492a6c558acb56124844d1409d9ef8624a0322 perf/core: Fix perf_cgroup_switch()
-e19cd0b6fa5938c51d7b928010d584f0de93913a perf/core: Always set cpuctx cgrp when enable cgroup event
 9ce02f0fc68326dd1f87a0a3a4c6ae7fdd39e6f6 x86/bug: Prevent shadowing in __WARN_FLAGS
 d139bca4b824ffb9731763c31b271a24b595948a objtool: Fix IBT tail-call detection
 7a53f408902d913cd541b4f8ad7dbcd4961f5b82 objtool: Fix SLS validation for kcov tail-call replacement
@@ -434,6 +426,6 @@ f58d3410c5586bc22ceae2e65a17754378fc4a7c Merge tag 'char-misc-5.18-rc2' of git:/
 95aa17c36dc89bf008753217ed27f8a8eb5faf79 Merge tag 'staging-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8b57b3046107b50ebecb65537a172ef3d6cec673 Merge tag 'tty-5.18-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e Linux 5.18-rc2
-24c9c46c2f15f8fd95a0f8356f00129bb9ae1c18 sched/pelt: Fix attach_entity_load_avg() corner case
+4b2def7729bd01b55ffb35992f6d01e3e5a8c808 perf/core: Fix perf_mmap fail when CONFIG_PERF_USE_VMALLOC enabled
 
---===============6319603354990325878==--
+--===============7234705185840225142==--
