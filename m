@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 14 Apr 2022 16:50:05 -0000
-Message-Id: <164995500521.4639.10846035335735846698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jkirsher/net-queue
+Date: Thu, 14 Apr 2022 17:00:28 -0000
+Message-Id: <164995562878.10993.16037105517518827427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jkirsher/net-queue
+user: jkirsher
 changes:
-  - ref: refs/tags/block-5.18-2022-04-14
-    old: 0000000000000000000000000000000000000000
-    new: bc02acf697c961cd1ff8b84bfaf6cbee842e47b0
-  - ref: refs/tags/io_uring-5.18-2022-04-14
-    old: 0000000000000000000000000000000000000000
-    new: 0d8209476bb32d8f59c6864c7bb59960ea0b0bf8
+  - ref: refs/heads/master
+    old: ef27324e2cb7bb24542d6cb2571740eefe6b00dc
+    new: 2df3fc4a84e917a422935cc5bae18f43f9955d31
+    log: |
+         968a1a5d6541cd24e37dadc1926eab9c10aeb09b tun: annotate access to queue->trans_start
+         00fa91bc9cc2a9d340f963af5e457610ad4b2f9c net: dsa: felix: fix tagging protocol changes with multiple CPU ports
+         23cfe941b52e2fa645bdfd770087128a74c7dbee rtnetlink: Fix handling of disabled L3 stats in RTM_GETSTATS replies
+         2df3fc4a84e917a422935cc5bae18f43f9955d31 net: bcmgenet: Revert "Use stronger register read/writes to assure ordering"
+         
