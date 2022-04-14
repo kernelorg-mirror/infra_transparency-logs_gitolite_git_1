@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 14 Apr 2022 12:54:36 -0000
-Message-Id: <164994087689.5340.5025306464717613769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 14 Apr 2022 12:56:08 -0000
+Message-Id: <164994096848.7297.15273840284667243805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/irq/managed-affinity-fixes
-    old: 0038ae44e0577bfb756c09a0500d6aafe990cd0c
-    new: 24e3d1cb8387811e5722d18805dd8ed327201167
+  - ref: refs/heads/master
+    old: c47b44afb686d794f8ed62feb77e9c42431c8444
+    new: 415c62fca6b8014bf9b03517c4d6e0e2e7ad02a9
     log: |
-         24e3d1cb8387811e5722d18805dd8ed327201167 genirq: Take the proposed affinity at face value if force==true
+         415c62fca6b8014bf9b03517c4d6e0e2e7ad02a9 Revert "make: let src/Makefile set *dir vars properly"
          
