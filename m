@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6780771881487659991=="
+Content-Type: multipart/mixed; boundary="===============8411666162341819510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 14 Apr 2022 11:04:32 -0000
-Message-Id: <164993427268.29287.11288187399302436533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Thu, 14 Apr 2022 11:08:04 -0000
+Message-Id: <164993448403.31949.6977985721840492732@gitolite.kernel.org>
 
---===============6780771881487659991==
+--===============8411666162341819510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bff04d85ddc8a2fb3dd24d4e5571d66231647db5
-    new: 463ea09d17cb51165a46e75e1d531a9cac04cbbe
+  - ref: refs/heads/linux-5.10.y
+    old: 6c8e5cb264df8e9fbfe1309550c10bccddc922f0
+    new: 0fda21cc75afa09d07d90918a2c74a399f1be485
     log: |
-         463ea09d17cb51165a46e75e1d531a9cac04cbbe 5.17-stable patches
+         19e590d2e33dd37c63f12d71086b118399ba8100 drm/amdkfd: Use drm_priv to pass VM from KFD to amdgpu
+         5e401661c972fe597f2ebf79fe6e73d16f219bb2 hamradio: defer 6pack kfree after unregister_netdev
+         dd3c8698dd70e783898c511aaab25279a72d8ecf hamradio: remove needs_free_netdev to avoid UAF
+         ac28d391cc95bb63722feb38c859ad39873bfada cpuidle: PSCI: Move the `has_lpi` check to the beginning of the function
+         452201f0e8f8f6f9dfe76eb9d3623a14ae2b0102 ACPI: processor idle: Check for architectural support for LPI
+         0fda21cc75afa09d07d90918a2c74a399f1be485 Linux 5.10.112-rc1
          
 
---===============6780771881487659991==
+--===============8411666162341819510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649934271 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1649934270-0691ca5d2375c42285f92256f88200a150f6aa20
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1649934483 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1649934481-dfce3a8bcc79bcac216c0f61d9e46c185958e6a4
 
-bff04d85ddc8a2fb3dd24d4e5571d66231647db5 463ea09d17cb51165a46e75e1d531a9cac04cbbe refs/heads/master
+6c8e5cb264df8e9fbfe1309550c10bccddc922f0 0fda21cc75afa09d07d90918a2c74a399f1be485 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJX/78bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JGkQALsnZFOrMafExNrnnKFx
-hKY+LZKNz5t8E365x3EGpTqM/XPz8IOoGFm7+FYB0dT/rnkq1XNv5HNx15r3Alrk
-VgB5iLexOWyUOQBDS6MmREunBrFwwWx1SBg81rpDe4bqVVm1U203HDft5APu1xiZ
-zVTsWE3O0/ndoWd3Tfh0Ci1fTLW+gknhMryk0OFTU2uvEMC0FrcZAwlbiNg6xnUP
-NIkMKYGHG/m7AoVxI82aMrkDcvXBI3g6m78L1xZsg3aClLERCryT3PAgL7XsKqP8
-eTvvRgU26tTt1DIsd1OlzDkHFm0TDqeVtBIGFLm+SPuNA1pziFXIegrbWYEPUAlj
-q+9f+n664IUbgS1/fyUAek8jfsBfBF9BGFUW/9xQoFfAZGC7qpyLXpznykKW6A6J
-a0sXVfq9P2INSvk+Q1AliE30nugN209lnUgV6R+2TtshGPA4UmqGYMfY/PeoNInD
-VZtXkhDzsNtHnHDsSY6ZAXvRfmco/sK7tD0Pxh8p35/o/kDGJBUFbZipWKknm51Q
-iWuvFkN9IyVFX6u70TcscIMzvtG97yFTZJ13g+vBxArx21UuSRHGPoQ1F5RprLYx
-aRIfsPljfFtEueIzQhpZ0TH8os8ku2tXDTgysL9RDlkgRkoVaD5aEyF1iLHSx3vz
-EEDe6DuWvi2oNB19xZniGebr
-=2DNp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJYAJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Xh0QAIV3CF19bYiAHavSOSqo
+r43KVXzrkK/nfTEO2BGQllzkI+2lR9jGgsu6vGt/HL/3/S4LBYTO7+DVLI42oG4V
+HCiOPVAyN/4AtGlpWZUXFPUUDu7qlkLt2IOCf/iUqrr/BcuvKMU56bNDCR2DI8ow
+7HC6i99PnktvNqP10MP3A973VNEx6PLL82HqwlBkgpBEXPhdpNzvTTFNj8peWL/Q
+6+InqhzhOAdiCuJaYj7CI7QN4zP6Z1mUV0z5Ylm9veDuXbEDGgV3sMMeMW9ffNpu
+J0GiRHO+7krZHok+PHyCT5GbrsIRV3hp6NCLFq2zwuls9E8YTv4KUSTUcpkaqgSG
+cDUn7kjS5URiwcSRzg7aJZ0hP1zXAFeeJoafQb93FLSh2pUsdB1lq2v7H2iz7kxN
+b35kSCSI4ZcXLlFRrt/ocDulbSwPqOCUx2ii2JcsulQxmbPGLgWA6VE2Ff/BoBD2
+EoypsgXBFVqVr5ALlTTgVcI0fLczXdXpxWXFT4i2LWsFosJUvdU200X/wFRs3LQk
+szLEzH+T9+VUwtTxVa9etZMw+X+/lIyFAkpPMkznm7ojKZJPotTGSF+SOFRYh1x2
+YGd/D/xZpsg0SFzzxUsklxBvuNdr4s4sSuVHKCO5zO3KNirNHdnw0smD7oVF7lLt
+T49cKzT9ZvH0j3WrxI5afhOc
+=GOxi
 -----END PGP SIGNATURE-----
 
---===============6780771881487659991==--
+--===============8411666162341819510==--
