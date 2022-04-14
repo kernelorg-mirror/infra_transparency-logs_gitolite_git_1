@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1453375489846607136=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 14 Apr 2022 17:37:30 -0000
-Message-Id: <164995785084.2877.16176504352226936381@gitolite.kernel.org>
-
---===============1453375489846607136==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 14 Apr 2022 17:37:44 -0000
+Message-Id: <164995786402.3036.584121370293099880@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-5.19
-    old: 5947b2726beb61fe7911580f239222ec9c4f6967
-    new: 19aed2d6cdb72a7c92909832b9480d9cadebeef9
+  - ref: refs/heads/for-linus
+    old: 5b0bde3a14cc22da434c2ba2a9d6f247fa5dbab0
+    new: 34f58092ccf176d41901b7ddbad0b65cf01cc2b1
+    log: |
+         34f58092ccf176d41901b7ddbad0b65cf01cc2b1 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         
+  - ref: refs/heads/for-next
+    old: f6af90a233ee3e67dc16280ebfb9a76abda1bd75
+    new: 5d763a740e5b24e4a2ca04317255e7e941876338
     log: |
          19aed2d6cdb72a7c92909832b9480d9cadebeef9 ASoC: soc-card: Create jack kcontrol without pins
+         34f58092ccf176d41901b7ddbad0b65cf01cc2b1 Merge remote-tracking branch 'asoc/for-5.17' into asoc-linus
+         5d763a740e5b24e4a2ca04317255e7e941876338 Merge remote-tracking branch 'asoc/for-5.19' into asoc-next
          
-
---===============1453375489846607136==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1649957849 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1649957848-20db197395fa007721b62d26e82327e66afe518e
-
-5947b2726beb61fe7911580f239222ec9c4f6967 19aed2d6cdb72a7c92909832b9480d9cadebeef9 refs/heads/asoc-5.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmJYW9kACgkQJNaLcl1U
-h9BQ5Qf/aG7WbIJbH4vX3twgdg/f55/CJM5Lyp7WmrCMllr0y5Iw9mEmZz8mZBSC
-UBoepYfQ99kKPmhudGKPuxxQlS+bwA/fJl09dsFbDiTFrfpcFSLPdnhHYvG73RF+
-SiozHzYwSjmd8iHE3NtEyyfa87P6xXoFVhdbXoEoj7HlxxyTio9QoUsW0bHcX9jf
-nacdhvDixKR4Da6fimDUu4OkBaFgTK5ODrKcDVzP+RO5Dt49Q5PLRwyBmo+F64Bo
-SG9MA5PGz86WdosCgViVq3TBX5GAGZi5Un1iWJsAZeGAuH1Dh65cKkW3UoghayrZ
-eUEolWVLJ0ZNGQDsn31GlGBFQCYsBQ==
-=cRay
------END PGP SIGNATURE-----
-
---===============1453375489846607136==--
