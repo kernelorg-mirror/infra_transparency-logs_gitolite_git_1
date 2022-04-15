@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4652967797372524140=="
+Content-Type: multipart/mixed; boundary="===============6719516530193838026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 15 Apr 2022 16:33:03 -0000
-Message-Id: <165004038315.27329.18175765792407666114@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 16:33:11 -0000
+Message-Id: <165004039136.27460.8922858773778102876@gitolite.kernel.org>
 
---===============4652967797372524140==
+--===============6719516530193838026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: caf968b483351d8825e68b06d77de5eb618aeb64
-    new: 0a03f3c511f57da4d7159a150f1ab4b87f62c040
-    log: revlist-caf968b48335-0a03f3c511f5.txt
+  - ref: refs/heads/dev-queue
+    old: 32571185f2596d0b5a9236e062479cd38ec795cb
+    new: 3c373c85d7d836a8500e109534e21a93730c206c
+    log: revlist-32571185f259-3c373c85d7d8.txt
 
---===============4652967797372524140==
+--===============6719516530193838026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-caf968b48335-0a03f3c511f5.txt
+Content-Disposition: attachment; filename=revlist-32571185f259-3c373c85d7d8.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -533,5 +533,31 @@ bb578430d05b8b9114195ef2c25284374fdf9549 octeon_ep: Fix spelling mistake "inerru
 7240bf6fb216e03fb9add3a3dd23117ad589a0c7 net: emaclite: Remove custom BUFFER_ALIGN macro
 48b48b654c2213e102aa939c15cadb5a5172d100 Merge branch 'emaclite-cleanups'
 0a03f3c511f57da4d7159a150f1ab4b87f62c040 octeon_ep: fix error return code in octep_probe()
+be93fe7bfeec99df03f4bcc6c51632527c5aacd9 igc: Add UDP segmentation offload support
+34d50c636b83c0977fae41d9a8f93c2a8b7242e8 igc: Fix infinite loop in release_swfw_sync
+ae6b794a5678166040ca68feea3911800b0c68f5 igc: Fix BUG: scheduling while atomic
+2b6325e354b0674789b35dbbfcafda1124488082 ice: xsk: check if Rx ring was filled up to the end
+9c3311353f5245e813aa6127dc277e5bec7e4af4 ice: Add support for classid based queue selection
+d12a16a45bb8d7d0f29376a5f925498397f59384 igc: Remove igc_set_spd_dplx method
+349754b805e76e3ca08bbf465446f54dc51b4a8d ice: introduce common helper for retrieving VSI by vsi_num
+01c4b6e02ca13f933fcdde84718188cb2f88ea09 ice: use min_t() to make code cleaner in ice_gnss
+ce0948ec3863ee6a30fe1917af20bc632fabc8de i40e: i40e_main: fix a missing check on list iterator
+92a5c9e5297df043d7a960694d4d651c1af8d743 ice: ice_sched: fix an incorrect NULL check on list iterator
+ceb2899e12510b43a8dd07e333ce855c242b2efa ixgbe: ensure IPsec VF<->PF compatibility
+e051ac9f877660782d72073df301b728b1fb28f9 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+58599bedb1f06b0b7a67f1694eec8bbfb0fe627c ice: Fix memory leak in ice_get_orom_civd_data()
+ced9687ce12d82fd44e70b8cbf8b34eb63fc5d14 iavf: Fix error when changing ring parameters on ice PF
+2d70549b0860a5819b1e7478cd85dbb2efe3e5da ice: Add support for double vlan in switchdev
+5bfc95d4f78913adbc58ea90c58ed2ffcd1e7b56 ice: link representors to PCI device
+f18814311f6021766719ae391a11bcc08da689a1 Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+0a576dbc385f0a5e85a9e8ba8c05c86001c9dfe6 ice: Add support for vlan tpid filters in switchdev
+38b91a5404e29c43f027d2b76488b0211bc2803e ice: return proper error code in ice_add_adv_rule
+cf28092233847716a955fada1502b53d48ebd080 e1000e: Fix possible overflow in LTR decoding
+0a25f16138ca54be8de7f4bb5a4daf8d26ed2927 igc: Fix suspending when PTM is active
+0e38b676625bab9239aea24e12d56f2726b58bd1 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+ccf3079d804aad0aa15dd77f7b42ceb6628131d8 ice: fix crash in switchdev mode
+2c98360ff6173916d4a9128ae19d55f5d05b10c1 i40e: Add VF VLAN pruning
+d31fdd0ef75fbc3a79d7ddb9db7c2f1b3d0c6c16 ice: fix use-after-free when deinitializing mailbox snapshot
+3c373c85d7d836a8500e109534e21a93730c206c ice: wait 5 s for EMP reset after firmware flash
 
---===============4652967797372524140==--
+--===============6719516530193838026==--
