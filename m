@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1899896338456380060=="
+Content-Type: multipart/mixed; boundary="===============6126660690481915237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Apr 2022 15:37:02 -0000
-Message-Id: <165003702229.23589.6861500094752761910@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 15:37:09 -0000
+Message-Id: <165003702979.23683.7589813978367394539@gitolite.kernel.org>
 
---===============1899896338456380060==
+--===============6126660690481915237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2df3fc4a84e917a422935cc5bae18f43f9955d31
-    new: 60496069d0ae2d056bc12714d953c142afdef696
-    log: revlist-2df3fc4a84e9-60496069d0ae.txt
+  - ref: refs/heads/dev-queue
+    old: 3c367f4adb1480a40215a831ae7fb3400482b52d
+    new: 370bad8b610c04dc99a0e8b3851ef22900554047
+    log: revlist-3c367f4adb14-370bad8b610c.txt
 
---===============1899896338456380060==
+--===============6126660690481915237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2df3fc4a84e9-60496069d0ae.txt
+Content-Disposition: attachment; filename=revlist-3c367f4adb14-370bad8b610c.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -468,5 +468,18 @@ ab198e1d0dd8dc4bc7575fb50758e2cbd51e14e1 ip6_gre: Fix skb_under_panic in __gre6_
 cefa91b2332d7009bc0be5d951d6cbbf349f90f8 openvswitch: fix OOB access in reserve_sfa_size()
 da367ac74aecb59b62a9538009d4aee8ce4bdfb3 net: restore alpha order to Ethernet devices in config
 60496069d0ae2d056bc12714d953c142afdef696 powerpc: Update MAINTAINERS for ibmvnic and VAS
+673722bf6bc88fe0eabcfa31062bb24e4d9e5a87 checkpatch: Fix warnings when --no-tree is used
+85382910cd687a9fcc2285b8d51fe0a4bbb34432 checkpatch.pl: seed camelcase from the provided kernel tree root
+12d6692b1e82abcd0877d5f6f8c124f213fa41cb igc: Fix infinite loop in release_swfw_sync
+172ad5b17c6bde7872febcc2174253d75f609d1c igc: Fix BUG: scheduling while atomic
+1b1b89090c866df2fce75953a387af33b9915afc i40e: i40e_main: fix a missing check on list iterator
+cfd8a93869c97e38f5df61d802fa88ecdb11680e ice: ice_sched: fix an incorrect NULL check on list iterator
+568c1e9a7e55128e725249d0ea5a8c5184f491f0 iavf: Fix error when changing ring parameters on ice PF
+b91184509ec3bd2e40aaf3748a907fa86be7062a ixgbe: ensure IPsec VF<->PF compatibility
+90cb8250674857ab450818a63411e7bcd4546228 e1000e: Fix possible overflow in LTR decoding
+d1fce6cc563960958c7abb6fc8498ad572d0a341 igc: Fix suspending when PTM is active
+ebb097ccc239276d8f25b3715c027f623553ec94 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+95b833d7538ef7e5a46223626b178676939ebf4a ice: fix use-after-free when deinitializing mailbox snapshot
+370bad8b610c04dc99a0e8b3851ef22900554047 ice: wait 5 s for EMP reset after firmware flash
 
---===============1899896338456380060==--
+--===============6126660690481915237==--
