@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 15 Apr 2022 20:38:41 -0000
-Message-Id: <165005512199.25039.5588415524907552106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
+Date: Fri, 15 Apr 2022 20:38:46 -0000
+Message-Id: <165005512649.25115.6146119470998582612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/linux/kernel/git/kuba/linux
+user: kuba
 changes:
-  - ref: refs/tags/for-5.18/dm-fixes-2
-    old: 02930eb0ec9bb7a002a776d7f12f0deb8a9a643d
-    new: 2e1c6f3111c1b887588b97d6daf17fb72adba78a
+  - ref: refs/heads/tmp
+    old: 0000000000000000000000000000000000000000
+    new: 7b05c54226015807993a7d1bab0ba59d00e592ad
