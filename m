@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3113425959832063912=="
+Content-Type: multipart/mixed; boundary="===============7302248749699375732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 15 Apr 2022 06:42:03 -0000
-Message-Id: <165000492360.31332.17561760105342183276@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 06:42:59 -0000
+Message-Id: <165000497966.31723.3427559925425058123@gitolite.kernel.org>
 
---===============3113425959832063912==
+--===============7302248749699375732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    new: 9c3a431a486d0c494a68941045885333a5bc1975
+  - ref: refs/heads/tty-testing
+    old: 9c3a431a486d0c494a68941045885333a5bc1975
+    new: e73b5c7f3d34c159447de0d24110f1df6d1b6615
     log: |
-         b96cd8b05ead8939b972192c4f4ac2fc2dffceb7 Documentation: move tty to driver-api
-         1a4a8f6bbac07e3270805009c69e89c7de801df1 Documentation: tty: introduce "Other Documentation"
-         e26595034dada8a1e6c10f0e0187f43edec72698 Documentation: tty: move n_gsm to tty
-         5b437ae9fcbb22fe6de3c715534515209207a092 Documentation: tty: move moxa-smartio.rst to tty
-         e937eb43b8791cd55bd518d1ffc747d3430d8ec9 Documentation: tty: n_gsm, delete "Additional Documentation"
-         7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b Documentation: tty: n_gsm, use power of ReST
-         689ca31c542687709ba21ec2195c1fbce34fd029 tty: synclink_gt: Fix null-pointer-dereference in slgt_clean()
-         83ead219292afb5dd401b68c4ee3becf8d26b6e4 tty: serial: mpc52xx_uart: remove double ifdeffery
-         d9b80d07db686402bbb3b237692a98da93125ace tty: serial: owl-uart, send x_char even if stopped
-         9c3a431a486d0c494a68941045885333a5bc1975 tty: serial: altera: use altera_jtaguart_stop_tx()
+         507b05063d1b7a1fcb9f7d7c47586fc4f3508f98 tty: goldfish: Use tty_port_destroy() to destroy port
+         8fbb3fc9c4142522efaf5da6acbd512683fc4a54 tty: hvc: Prepare cleanup of powerpc's asm/prom.h
+         570f749f4d54bd2db9b44c51aac3a6883f45a171 tty: serial: Prepare cleanup of powerpc's asm/prom.h
+         ee157a79e7c82b01ae4c25de0ac75899801f322c tty: Fix a possible resource leak in icom_probe
+         e73b5c7f3d34c159447de0d24110f1df6d1b6615 tty: serial: samsung: add spin_lock for interrupt and console_write
          
 
---===============3113425959832063912==
+--===============7302248749699375732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650004923 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650004976 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650004922-dcc649009a1137227f51ee95e290e11743d56b07
+nonce 1650004976-2fc136b28f561e5867fc34bbf6bfce22f444bc43
 
-ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e 9c3a431a486d0c494a68941045885333a5bc1975 refs/heads/tty-next
+9c3a431a486d0c494a68941045885333a5bc1975 e73b5c7f3d34c159447de0d24110f1df6d1b6615 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJZE7sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZtwQAI34kEUbAS4ErZp8Y9ux
-qCQ/dmSQXN5G3JJ+32OR4c/hAGVwFKn9di47Osio16GOWCeWTxc5ojdDyvH4xneG
-4UaQFugMYr6ymZ/k64/Q8Fbibq//EqzSsHFBsXY7A9kLImPJg/XiJ+bslLudyLUJ
-ohR0ucuI8n6jD5fNsA2e3rJ9R8NG1V+Q77ZzKJa+ysUl5TqRZzhBTU1m/w/bpZ2t
-/a8n+98c/EJIdUoTROd0jHZ34UlGqR/6a4VSmAPNvR1pA+s3i8mSS3GzkniBOMfB
-VfHiKqV9Kt5lA786j/GO4Q223VVhScEDjadUCfKjxTaN2XGZ1wxUdl7JoeZnc4PI
-LlVQYXoBrGhoCo1DJNVJlIHDmz6NoQf8Tz4q1hcMPZiv/gYgwrpTwxxVek2pGU0O
-W53nQZegMEDk+BLsjhdOiw+hljCf3AifGTBVmZZtoaNwVuhChKZWPkCTs/s9PVQ9
-0RLS+/KL989QPY78XvKohZvdINvVb1ca2wy6Tmni0Gav7zvFRlimJICljVS7N4yT
-LiWKj4yMG/SxvlZWrSN6oXJmVdmmhoJLw275uZosOghJyEHP/F1am1+fTLfTtfzY
-KOEP/jhBIoJDFbfhFP2A+sqd+JBTa3MQgFUtnOnkwl9vajew6KUnSrzz8rI5hwW4
-l3blMURFS/mtUwoCJjf/dPi5
-=noBh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJZE/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3ucQAJVpJu2PEiJdv3iz2JPq
+KZFQkuS6ylksyeNV1aWpVjokxY+X0w/W2NRmlOPZ4+SzIUMEEccJzpWsOF6sT8TO
+f7k0JE3FTp3bGqyo9Yc7LTP2X61ip+oKBgf1yW535ZMYFyrL3ba1C2tv/P90EkNz
+FBtFfqOMpyZidaYJdsuCdZswglospeqivOTgn3vz7jnpk/XeMqDqOQpiZ5PDwAUA
+HA/qWWQtRj81sXBRNCbjvav6wdZflKTLcdBrqId2ry9niS7ecDTdhln4KeWi5wcK
+R+UsXhK183CIGqol6LcOPFXIEH5eYxAVttoBs9tzFrJJRfF5XUQ0JZy/h8Y4FIFy
+T1MOeNsrTj56OpnnYKH6MkrmPJ+Tv43POrJNzAR/9dJNRSGjcsHTswXqSaUrp4cb
+cKFxSqiSbxhD7FjuO6L9L8FnfgsPrn9pMqN9+1/uO44LWzXWb/YmZwitbHanKSWF
+iRysWFzZ5Jhz1hwJYesOHNfvg3kl3PpfL2XBzypwcDqieNzsuIedefFFiZ5/R40F
+dnrHiwuWGt7PWMs8IPshk7zkE8yHi6v/6kziOu3wngX6xvnNEU1RV/LvywvzCuQ9
+Nq52+OoeroREBIlXDUC2J2ua0ZvLAhcJcKDpUWCfFHWTo0PuEinHG50kwYpEQ7sM
+tR1YpEABl3CeBAp0OkdwQ924
+=YzO+
 -----END PGP SIGNATURE-----
 
---===============3113425959832063912==--
+--===============7302248749699375732==--
