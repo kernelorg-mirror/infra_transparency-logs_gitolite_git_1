@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Thu, 14 Apr 2022 23:35:50 -0000
-Message-Id: <164997935014.11372.554486616802414051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 15 Apr 2022 00:03:53 -0000
+Message-Id: <164998103361.28561.3674532207950396759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/next
-    old: 81200b0265b15609dcecf192e3f7fb238ec0d3da
-    new: 6a9e261cbbee08c499f2331910027e8c40c8f81f
+  - ref: refs/heads/dm-5.18
+    old: c2228f993c7592783b0a2bf7d169b17dfa4cbe2a
+    new: 7dd06a2548b2bf516ef2e79873a9cdd00b354b99
     log: |
-         6a9e261cbbee08c499f2331910027e8c40c8f81f selinux: don't sleep when CONFIG_SECURITY_SELINUX_CHECKREQPROT_VALUE is true
+         7dd06a2548b2bf516ef2e79873a9cdd00b354b99 dm: allow dm_accept_partial_bio() for dm_io without duplicate bios
          
