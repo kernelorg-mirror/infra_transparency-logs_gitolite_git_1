@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 15 Apr 2022 21:10:33 -0000
-Message-Id: <165005703340.14273.15157170053441990300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 15 Apr 2022 21:13:51 -0000
+Message-Id: <165005723111.16602.6932626315380265268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 370bad8b610c04dc99a0e8b3851ef22900554047
-    new: 9729978b0b2872e41c0434e6c7890951fdc00dff
+  - ref: refs/heads/master
+    old: 0a03f3c511f57da4d7159a150f1ab4b87f62c040
+    new: 7b05c54226015807993a7d1bab0ba59d00e592ad
     log: |
-         9729978b0b2872e41c0434e6c7890951fdc00dff ice: Fix race during aux device (un)plugging
+         4dc84c06a343fcb95fd5a0acb537aefa4ebdd1b0 net: ethtool: extend ringparam set/get APIs for tx_push
+         bde292c07b480e23137060dad83cca24d55c4cc4 net: ethtool: move checks before rtnl_lock() in ethnl_set_rings
+         1f702c1643f2f9657f9dd03085b309ab9a1de1d7 net: hns3: add tx push support in hns3 ring param process
+         7b05c54226015807993a7d1bab0ba59d00e592ad Merge branch 'net-ethool-add-support-to-get-set-tx-push-by-ethtool-g-g'
          
