@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6335144704194365242=="
+Content-Type: multipart/mixed; boundary="===============7023322366131454089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Apr 2022 19:12:55 -0000
-Message-Id: <165004997540.1629.16614220514983505521@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 19:13:09 -0000
+Message-Id: <165004998985.1833.672101856497026653@gitolite.kernel.org>
 
---===============6335144704194365242==
+--===============7023322366131454089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 241d50ec5d79b94694adf13853c1f55d0f0b85e6
     new: 0fb53aabc5fcdf848ec7adc777baff25a1c6c335
     log: revlist-241d50ec5d79-0fb53aabc5fc.txt
 
---===============6335144704194365242==
+--===============7023322366131454089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a817ead4154d86c74bf98936f3a385e8a21974ff stmmac, xsk: Diversify return values fr
 4efad196163f4302c5cdc020899074b174eaf956 ice, xsk: Avoid refilling single Rx descriptors
 0fb53aabc5fcdf848ec7adc777baff25a1c6c335 xsk: Drop ternary operator from xskq_cons_has_entries
 
---===============6335144704194365242==--
+--===============7023322366131454089==--
