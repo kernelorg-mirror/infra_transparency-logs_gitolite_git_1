@@ -1,44 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7023322366131454089=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 15 Apr 2022 19:13:09 -0000
-Message-Id: <165004998985.1833.672101856497026653@gitolite.kernel.org>
-
---===============7023322366131454089==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 15 Apr 2022 19:30:20 -0000
+Message-Id: <165005102092.13918.8462665806587428487@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 241d50ec5d79b94694adf13853c1f55d0f0b85e6
-    new: 0fb53aabc5fcdf848ec7adc777baff25a1c6c335
-    log: revlist-241d50ec5d79-0fb53aabc5fc.txt
-
---===============7023322366131454089==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-241d50ec5d79-0fb53aabc5fc.txt
-
-c6c1f11b691e619802474f886355cb3bc9034021 xsk: Improve xdp_do_redirect() error codes
-2be4a677ccb2cae1f72a9467e922642655efc0be xsk: Diversify return codes in xsk_rcv_check()
-0bd5ab511e30a8c462c377d0fdda3374fc6200a4 ice, xsk: Decorate ICE_XDP_REDIR with likely()
-d090c885860f6ef85aa080bdfc94e69c525490a2 ixgbe, xsk: Decorate IXGBE_XDP_REDIR with likely()
-50ae066480738e0d3ce72a90c8c0f4d9de6092e0 ice, xsk: Terminate Rx side of NAPI when XSK Rx queue gets full
-b8aef650e54982728660919a0cf9cdacb079ef86 i40e, xsk: Terminate Rx side of NAPI when XSK Rx queue gets full
-c7dd09fd46283029a41615b2b7034aea26b22ee0 ixgbe, xsk: Terminate Rx side of NAPI when XSK Rx queue gets full
-ed8a6bc60f9eed76b8097456676e18d09b5dea7b ice, xsk: Diversify return values from xsk_wakeup call paths
-ed7ae2d6221708971eb20a92f3775dac9cddec14 i40e, xsk: Diversify return values from xsk_wakeup call paths
-0f8bf018899e0c3137912cb6d547d0d072fc3d20 ixgbe, xsk: Diversify return values from xsk_wakeup call paths
-7b7f2f273d8722d518758cc0770e784872cec781 mlx5, xsk: Diversify return values from xsk_wakeup call paths
-a817ead4154d86c74bf98936f3a385e8a21974ff stmmac, xsk: Diversify return values from xsk_wakeup call paths
-4efad196163f4302c5cdc020899074b174eaf956 ice, xsk: Avoid refilling single Rx descriptors
-0fb53aabc5fcdf848ec7adc777baff25a1c6c335 xsk: Drop ternary operator from xskq_cons_has_entries
-
---===============7023322366131454089==--
+  - ref: refs/heads/dm-5.19
+    old: e55e550dc4ef53333bbfcca02a2baf761e0f5c31
+    new: 4eaff9c26651c7fa0eca44718bf4ea36c3c7cd83
+    log: |
+         9a356dbfa9ff99208f4d6be54cacce00c1ab732a dm: factor out dm_io_set_error and __dm_io_dec_pending
+         6068250cf88ad1e5b15b3d88ce6503391650d6ea dm: optimize is_abnormal_io for normal rw IO
+         0576baff2c7c941bc20536e5aa72f6f584be19db dm: simplify dm_io access in dm_split_and_process_bio
+         feb822ed443b6d894635f29795e492fbf2a6c58a dm: simplify dm_start_io_acct
+         1ef65abe8b09c2f45fc5254ef045c34e1f6c2c0c dm: mark various branches unlikely
+         52b2b879438841d66f1bdd5579918afa570b6f44 dm: add local variables to clone_endio and __map_bio
+         c2482fa0d39ea0c9c2579b271a1ab1ce6297d778 dm: move hot dm_io members to same cacheline as dm_target_io
+         65d1a0c2d5cebc7222f847459ed66f63779ac595 dm: introduce dm_{get,put}_live_table_bio called from dm_submit_bio
+         a27d2a26826cebb314ac71701b0e70169daa6f87 dm: conditionally enable branching for less used features
+         4eaff9c26651c7fa0eca44718bf4ea36c3c7cd83 dm: simplify basic targets
+         
