@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 15 Apr 2022 20:30:59 -0000
-Message-Id: <165005465940.20885.15001679989667740812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/deps
+Date: Fri, 15 Apr 2022 20:31:39 -0000
+Message-Id: <165005469948.21135.10434543764486092453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/sashal/deps
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/dev-test
-    old: f3f3d3df1bdad53943ccd258774e5cef5aa060f5
-    new: bf628ee7b054c16305a0a27180f8d73a8bd221fb
+  - ref: refs/heads/master
+    old: 7f5bd86de0fed5489f7485bf4ee8c19c29244fbe
+    new: a9ec37aaf6bdfce54dc349cfe5a585758e068da8
     log: |
-         991d9822832a8badabd1709398843d256a8bd6c9 f2fs: give priority to select unpinned section for foreground GC
-         e6ea83b38f97ba1d5200d7385e4e4aa6e0dc5081 f2fs: remove obsolete whint_mode
-         0e872eecb6b9872c81ede55129290397fb3d2868 f2fs: keep io_flags to avoid IO split due to different op_flags in two fio holders
-         bf628ee7b054c16305a0a27180f8d73a8bd221fb fs: f2fs: remove WARN_ON in f2fs_is_valid_blkaddr
+         a9ec37aaf6bdfce54dc349cfe5a585758e068da8 Fri Apr 15 08:30:42 PM UTC 2022
          
