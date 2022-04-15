@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8047501711944110271=="
+Content-Type: multipart/mixed; boundary="===============3113425959832063912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 15 Apr 2022 06:36:43 -0000
-Message-Id: <165000460344.28047.17252811827084846184@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 06:42:03 -0000
+Message-Id: <165000492360.31332.17561760105342183276@gitolite.kernel.org>
 
---===============8047501711944110271==
+--===============3113425959832063912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
+  - ref: refs/heads/tty-next
     old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    new: ff9166c623704337bd6fe66fce2838d9768a6634
-    log: revlist-ce522ba9ef7e-ff9166c62370.txt
+    new: 9c3a431a486d0c494a68941045885333a5bc1975
+    log: |
+         b96cd8b05ead8939b972192c4f4ac2fc2dffceb7 Documentation: move tty to driver-api
+         1a4a8f6bbac07e3270805009c69e89c7de801df1 Documentation: tty: introduce "Other Documentation"
+         e26595034dada8a1e6c10f0e0187f43edec72698 Documentation: tty: move n_gsm to tty
+         5b437ae9fcbb22fe6de3c715534515209207a092 Documentation: tty: move moxa-smartio.rst to tty
+         e937eb43b8791cd55bd518d1ffc747d3430d8ec9 Documentation: tty: n_gsm, delete "Additional Documentation"
+         7fb4028fbb97d6c71c30556e81eb8ce07eef7b8b Documentation: tty: n_gsm, use power of ReST
+         689ca31c542687709ba21ec2195c1fbce34fd029 tty: synclink_gt: Fix null-pointer-dereference in slgt_clean()
+         83ead219292afb5dd401b68c4ee3becf8d26b6e4 tty: serial: mpc52xx_uart: remove double ifdeffery
+         d9b80d07db686402bbb3b237692a98da93125ace tty: serial: owl-uart, send x_char even if stopped
+         9c3a431a486d0c494a68941045885333a5bc1975 tty: serial: altera: use altera_jtaguart_stop_tx()
+         
 
---===============8047501711944110271==
+--===============3113425959832063912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650004601 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650004923 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1650004600-eeab28801b6beac3f4ad894387a36294056f91d8
+nonce 1650004922-dcc649009a1137227f51ee95e290e11743d56b07
 
-ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e ff9166c623704337bd6fe66fce2838d9768a6634 refs/heads/tty-linus
+ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e 9c3a431a486d0c494a68941045885333a5bc1975 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJZEnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qsMP/Ro29uiSM7WVuV+CwqRK
-npmkmf9vqhznV39LKsUzTDR+fZAcQsRKHyGeM4TChj11jOVfUAxW+OFt4cZExVNf
-72+inbSUkuJ5jxfAHr2yOiB1y8iIBTgVBfx0d7C+9sOgWJdR6BImCYB5nEzwSLyb
-7+lCOsmCBKDIT40zHPxZVZVNHZE6V9JqN5+piBiHaTTFHp56k2edRg1GmzDUOIw9
-vkFFlIdWuNC7KXbET9KufKc431ZFgdAxWDI0IJ2MI3a3zvbvFSazE/ByX6tSlH8c
-vUlu1BdF4ecXgGhNiV6pjTiBl9XIKG3ewMX41apTTE/fot3h+slBhWfvDQc6F8Zi
-BY/JBilx8Ccg0Xqu9pXK2mOPsEAu3ENMQtuV3/99F/7fOQGVsjADo0hBvRAfxid6
-IM6owaMqABS8QHSjeZ5ABZANXSLT/Db7Eo2D/6VlWUsGrAvLsb40tM14ap3fUWuc
-aXVZJyM96/gnlCvT5AWAbH/aDUuu5bhC1SE5pqCE4/9x++aOL8H5KmWYYBEHyJXv
-yKyXhcs6VaNxrcMfe343llVle7SnEQhQO5kWxgiZGBvBfFyp0BKPTwSBB/903mgi
-NDWkhkz7zgj3GGr73en5mHUrShAQMiGlDLp+o7IN/kBr7XEhQc7Pm4+pwhIz9upn
-q0DUv1R3njz849CtP8JSq7HS
-=d6AW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJZE7sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZtwQAI34kEUbAS4ErZp8Y9ux
+qCQ/dmSQXN5G3JJ+32OR4c/hAGVwFKn9di47Osio16GOWCeWTxc5ojdDyvH4xneG
+4UaQFugMYr6ymZ/k64/Q8Fbibq//EqzSsHFBsXY7A9kLImPJg/XiJ+bslLudyLUJ
+ohR0ucuI8n6jD5fNsA2e3rJ9R8NG1V+Q77ZzKJa+ysUl5TqRZzhBTU1m/w/bpZ2t
+/a8n+98c/EJIdUoTROd0jHZ34UlGqR/6a4VSmAPNvR1pA+s3i8mSS3GzkniBOMfB
+VfHiKqV9Kt5lA786j/GO4Q223VVhScEDjadUCfKjxTaN2XGZ1wxUdl7JoeZnc4PI
+LlVQYXoBrGhoCo1DJNVJlIHDmz6NoQf8Tz4q1hcMPZiv/gYgwrpTwxxVek2pGU0O
+W53nQZegMEDk+BLsjhdOiw+hljCf3AifGTBVmZZtoaNwVuhChKZWPkCTs/s9PVQ9
+0RLS+/KL989QPY78XvKohZvdINvVb1ca2wy6Tmni0Gav7zvFRlimJICljVS7N4yT
+LiWKj4yMG/SxvlZWrSN6oXJmVdmmhoJLw275uZosOghJyEHP/F1am1+fTLfTtfzY
+KOEP/jhBIoJDFbfhFP2A+sqd+JBTa3MQgFUtnOnkwl9vajew6KUnSrzz8rI5hwW4
+l3blMURFS/mtUwoCJjf/dPi5
+=noBh
 -----END PGP SIGNATURE-----
 
---===============8047501711944110271==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce522ba9ef7e-ff9166c62370.txt
-
-11451693e4081d32ef65147c6ca08cd0094ae252 tty: n_gsm: fix missing mux reset on config change at responder
-aa371e96f05dcb36a88298f5cb70aa7234d5e8b8 tty: n_gsm: fix restart handling via CLD command
-1ec92e9742774bf42614fceea3bf6b50c9409225 tty: n_gsm: fix decoupled mux resource
-284260f278b706364fb4c88a7b56ba5298d5973c tty: n_gsm: fix mux cleanup after unregister tty device
-06d5afd4d640eea67f5623e76cd5fc03359b7f3c tty: n_gsm: fix wrong signal octet encoding in convergence layer type 2
-7a0e4b1733b635026a87c023f6d703faf0095e39 tty: n_gsm: fix frame reception handling
-a24b4b2f660b7ddf3f484b37600bba382cb28a9d tty: n_gsm: fix malformed counter for out of frame data
-535bf600de75a859698892ee873521a48d289ec1 tty: n_gsm: fix insufficient txframe size
-deefc58bafb4841df7f0a0d85d89a1c819db9743 tty: n_gsm: fix wrong DLCI release order
-17eac652028501df7ea296b1d9b9c134db262b7d tty: n_gsm: fix missing explicit ldisc flush
-d0bcdffcad5a22f202e3bf37190c0dd8c080ea92 tty: n_gsm: fix wrong command retry handling
-398867f59f956985f4c324f173eff7b946e14bd8 tty: n_gsm: fix wrong command frame length field encoding
-317f86af7f5d19f286ed2d181cbaef4a188c7f19 tty: n_gsm: fix wrong signal octets encoding in MSC
-1adf6fee58ca25fb6720b8d34c919dcf5425cc9c tty: n_gsm: fix missing tty wakeup in convergence layer type 2
-73029a4d7161f8b6c0934553145ef574d2d0c645 tty: n_gsm: fix reset fifo race condition
-ff9166c623704337bd6fe66fce2838d9768a6634 tty: n_gsm: fix incorrect UA handling
-
---===============8047501711944110271==--
+--===============3113425959832063912==--
