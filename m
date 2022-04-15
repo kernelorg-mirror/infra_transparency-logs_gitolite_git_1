@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0934176705375016071=="
+Content-Type: multipart/mixed; boundary="===============2788416260957427627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 15 Apr 2022 17:45:44 -0000
-Message-Id: <165004474480.11867.10183120780109338591@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 17:45:54 -0000
+Message-Id: <165004475438.11967.13005398311924676610@gitolite.kernel.org>
 
---===============0934176705375016071==
+--===============2788416260957427627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/mlx4-queue
-    old: 9386ebccfc599de5578a278ffb16d90cc696969a
-    new: 0a03f3c511f57da4d7159a150f1ab4b87f62c040
-    log: revlist-9386ebccfc59-0a03f3c511f5.txt
+  - ref: refs/heads/mlx5-queue
+    old: eb0a53016b4a7a2f652d76530aac970e32610706
+    new: c06c029c95c1537c3887dca3b4ffeb39689cfa72
+    log: revlist-eb0a53016b4a-c06c029c95c1.txt
 
---===============0934176705375016071==
+--===============2788416260957427627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9386ebccfc59-0a03f3c511f5.txt
+Content-Disposition: attachment; filename=revlist-eb0a53016b4a-c06c029c95c1.txt
 
 c7fa848ff01dad9ed3146a6b1a7d3622131bcedd KVM: PPC: Book3S HV P9: Fix "lost kick" race
 04a5b0ee97046293431685404ef7352917f1e243 Merge branch 'kvm-ppc-cap-210' of https://git.kernel.org/pub/scm/virt/kvm/kvm into topic/ppc-kvm
@@ -537,5 +537,9 @@ bb578430d05b8b9114195ef2c25284374fdf9549 octeon_ep: Fix spelling mistake "inerru
 7240bf6fb216e03fb9add3a3dd23117ad589a0c7 net: emaclite: Remove custom BUFFER_ALIGN macro
 48b48b654c2213e102aa939c15cadb5a5172d100 Merge branch 'emaclite-cleanups'
 0a03f3c511f57da4d7159a150f1ab4b87f62c040 octeon_ep: fix error return code in octep_probe()
+68a7691423a11ffe6b2821a788bde345e39094b4 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+f9cb3cf34b9b6ebf4e1e01c6c60f02f14df5f2f1 Revert "net: openvswitch: remove unneeded semicolon"
+89b5ac9ceaa1b2aceb5bf0e018269680356899c2 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
+c06c029c95c1537c3887dca3b4ffeb39689cfa72 net/mlx5e: Report header-data split state through ethtool
 
---===============0934176705375016071==--
+--===============2788416260957427627==--
