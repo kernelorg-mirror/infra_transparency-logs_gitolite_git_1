@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1847811740605543229=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 15 Apr 2022 21:40:13 -0000
-Message-Id: <165005881310.1542.10068100362190307774@gitolite.kernel.org>
-
---===============1847811740605543229==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Fri, 15 Apr 2022 21:48:02 -0000
+Message-Id: <165005928229.6764.11622906515440937841@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
   - ref: refs/heads/master
-    old: 60496069d0ae2d056bc12714d953c142afdef696
-    new: d08ed852560eb71445547f3df7b05bf5c5c69cc4
-    log: revlist-60496069d0ae-d08ed852560e.txt
-
---===============1847811740605543229==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60496069d0ae-d08ed852560e.txt
-
-907862e9aef75bf89e2b265efcc58870be06081e igc: Fix infinite loop in release_swfw_sync
-c80a29f0fe9b6f5457e0788e27d1110577eba99b igc: Fix BUG: scheduling while atomic
-822f52e7efdc88fccffb9fbf6250a4b7666a0b0f igc: Fix suspending when PTM is active
-04ebaa1cfddae5f240cc7404f009133bb0389a47 e1000e: Fix possible overflow in LTR decoding
-f3226eed54318e7bdc186f8f7ed27bcd3cb8b681 Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3db09e762dc79584a69c10d74a6b98f89a9979f8 net/sched: cls_u32: fix netns refcount changes in u32_change()
-ec5b0f605b105457f257f2870acad4a5d463984b net/sched: cls_u32: fix possible leak in u32_init_knode()
-0b9dcf37755381e9d0b70969b5178d91e32defc8 Merge branch 'net-sched-two-fixes-for-cls_u32'
-83daab06252ee5d0e1f4373ff28b79304945fc19 l3mdev: l3mdev_master_upper_ifindex_by_index_rcu should be using netdev_master_upper_dev_get_rcu
-db53cd3d88dc328dea2e968c9c8d3b4294a8a674 net: Handle l3mdev in ip_tunnel_init_flow
-268b41b34d9afd0e49bb266d5cca54c50abbe4c2 Merge branch 'l3mdev-fix-ip-tunnel-case-after-recent-l3mdev-change'
-9cb7c013420f98fa6fd12fc6a5dc055170c108db ipv6: make ip6_rt_gc_expire an atomic_t
-d08ed852560eb71445547f3df7b05bf5c5c69cc4 net: lan966x: Make sure to release ptp interrupt
-
---===============1847811740605543229==--
+    old: 72cabfbb12ad48bd4cdd5ecbe72f882197e2dac6
+    new: 83b2cb2e644cf447518395d53717531fc43a730b
+    log: |
+         08609192656497bc1473a19acccb7779f477d11a libpci: Implement virtual config space for provides without access to config space
+         26c8b543ef57deb98117a9155c48557baf04227b libpci: Add windows cfgmgr32 implementation
+         832b07a87c87f02cf17d748c075a84fc3a9b7afd lspci: Do not access config space when it is emulated
+         765da485621dec387a2d2e63b6886f1b56f30675 pcilib.man: Include information about win32-cfgmgr32
+         353f4109f3d4db4165dba54e8aca0cd709f92e8f README: Update information about Windows
+         83b2cb2e644cf447518395d53717531fc43a730b README: Mention cfgmgr32 for Windows
+         
