@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4976979609341381080=="
+Content-Type: multipart/mixed; boundary="===============1572230271234526209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
-Date: Fri, 15 Apr 2022 17:39:00 -0000
-Message-Id: <165004434029.5336.8763475635173455543@gitolite.kernel.org>
+Date: Fri, 15 Apr 2022 17:39:33 -0000
+Message-Id: <165004437378.5581.8038494886375205478@gitolite.kernel.org>
 
---===============4976979609341381080==
+--===============1572230271234526209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/saeed/linux
 user: saeed
 changes:
-  - ref: refs/heads/net-mlx5
+  - ref: refs/heads/net-mlx4
     old: 2df3fc4a84e917a422935cc5bae18f43f9955d31
     new: 60496069d0ae2d056bc12714d953c142afdef696
     log: revlist-2df3fc4a84e9-60496069d0ae.txt
 
---===============4976979609341381080==
+--===============1572230271234526209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -469,4 +469,4 @@ cefa91b2332d7009bc0be5d951d6cbbf349f90f8 openvswitch: fix OOB access in reserve_
 da367ac74aecb59b62a9538009d4aee8ce4bdfb3 net: restore alpha order to Ethernet devices in config
 60496069d0ae2d056bc12714d953c142afdef696 powerpc: Update MAINTAINERS for ibmvnic and VAS
 
---===============4976979609341381080==--
+--===============1572230271234526209==--
