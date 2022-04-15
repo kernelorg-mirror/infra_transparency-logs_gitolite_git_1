@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8973773992801696209=="
+Content-Type: multipart/mixed; boundary="===============0502983217880692415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net
-Date: Fri, 15 Apr 2022 07:20:25 -0000
-Message-Id: <165000722530.24705.4347393699636698960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 15 Apr 2022 07:24:11 -0000
+Message-Id: <165000745148.26015.10910789847803328509@gitolite.kernel.org>
 
---===============8973773992801696209==
+--===============0502983217880692415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 2df3fc4a84e917a422935cc5bae18f43f9955d31
     new: d20339fa93e9810fcf87518bdd62e44f62bb64ee
     log: revlist-2df3fc4a84e9-d20339fa93e9.txt
 
---===============8973773992801696209==
+--===============0502983217880692415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -452,4 +452,4 @@ ec9c57a7328b178918aa3124f989060bc5624a3f Merge tag 'fscache-fixes-20220413' of g
 b9b4c79e58305ac64352286ee5030d193fc8aa22 Merge tag 'sound-5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 d20339fa93e9810fcf87518bdd62e44f62bb64ee Merge tag 'net-5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8973773992801696209==--
+--===============0502983217880692415==--
