@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 15 Apr 2022 10:38:44 -0000
-Message-Id: <165001912477.3491.7871777181744970043@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0854524557976158459=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 15 Apr 2022 10:39:06 -0000
+Message-Id: <165001914684.3665.301156671309653445@gitolite.kernel.org>
+
+--===============0854524557976158459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 29e8e659f984be00d75ec5fef4e37c88def72712
-    new: 226c60243593443bb5d315b3fc2116b72be858fe
+    old: 9e948c16ad302dc57a63ee3e2c2d78f32673ca37
+    new: a9dd75234ea958c207d08b2a6b5d6f92f2da0246
     log: |
-         748b82c23e25310fec54e1eff2cb63936f391b24 xfrm: Pass flowi_oif or l3mdev as oif to xfrm_dst_lookup
-         5bd8baab087dff657e05387aee802e70304cc813 esp: limit skb_page_frag_refill use to a single page
-         d1fc4c6feac18f893e55aeefa267a281e132c7b7 ice: xsk: check if Rx ring was filled up to the end
-         aacca7a83b9753c562395ef328352dfd8c003c59 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
-         d201665147ae788b7cca9fab58a1826f64152034 ice: fix crash in switchdev mode
-         7c8881b77908a51814a050da408c89f1a25b7fb7 ice: Fix memory leak in ice_get_orom_civd_data()
-         2cc7fb9d24129be0612df8d32a1358ac91ead8d1 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
-         226c60243593443bb5d315b3fc2116b72be858fe Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         a9dd75234ea958c207d08b2a6b5d6f92f2da0246 5.15-stable patches
          
+
+--===============0854524557976158459==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650019146 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1650019145-8b6e85f89e71e5f466673f8470e79e4b58b325a5
+
+9e948c16ad302dc57a63ee3e2c2d78f32673ca37 a9dd75234ea958c207d08b2a6b5d6f92f2da0246 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJZS0obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g2wQAKrFoLeomq7avevsbt3q
+8tDHhZIxpSooO8qOtK9uoekzNX6DG+BxVSqAxx1F8e9vVqgQN7UkhzmeFfRzRClp
+nVm77aPxWzl8SkXtGGqYJZcjNszKpDNh+SfpMCUgzqX59IsR4BEKBJDWXz+iCGAE
+lu8pTOVxeR8kTzFtUdgwGgOjhsktmxTheH6PFDCtJwG158KQAutwDfxIpviT6yxI
+f4Y8tjs737sPMaJRnVd3DubVhkv35ummcTkFIO0g0BsA0zDRoQHWuEoTOtQK9XGC
+zWn90QgxkWzuaEznjZN38fl/iw56eVA+ohTgKlw33WTndZtWBoHs8BSyRF1xw8wn
+nMBtA2OwyGH0njp7J1fzpkmTPqSoqyhMzbVHYI5WP9pphO/9FkpPxW3UCal1Cau3
+GUYGOiWLMQB3zk/BYdELaO5s5GZjN0x0YjPKXUct2+0w8/1B2qOWoYpxz3zxVV9b
+byP6ISBS8ek+bZFnOtlVD1fh/Zc/1Nni0lQ92hznFC4tXLenJN1xOHvRXaOdgLl8
+raBFNEUNJZFR5vyuSEbAMa57O5wX7yLBXW0ETbQc7N96b50+rFhdkFARd/H/VZTk
+Uls8vrJioGvMnk0xZPQmorTQNVoo1dhEUrUIBY6R7Hor1FqpYMb+7EEZsq1XXAcl
+X1pIeVxanG+rST4hwl2XG8Wl
+=PiuC
+-----END PGP SIGNATURE-----
+
+--===============0854524557976158459==--
