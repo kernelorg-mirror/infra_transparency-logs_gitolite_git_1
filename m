@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4181787949916710126=="
+Content-Type: multipart/mixed; boundary="===============3142806726768911035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pabeni/net-next
-Date: Fri, 15 Apr 2022 08:48:49 -0000
-Message-Id: <165001252932.15504.5670648680877395831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 15 Apr 2022 08:49:42 -0000
+Message-Id: <165001258255.15859.3366757071890058346@gitolite.kernel.org>
 
---===============4181787949916710126==
+--===============3142806726768911035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pabeni/net-next
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: edf45f007a31e86738f6be3065591ddad94477d1
     log: revlist-caf968b48335-edf45f007a31.txt
 
---===============4181787949916710126==
+--===============3142806726768911035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -510,4 +510,4 @@ b9b4c79e58305ac64352286ee5030d193fc8aa22 Merge tag 'sound-5.18-rc3' of git://git
 d20339fa93e9810fcf87518bdd62e44f62bb64ee Merge tag 'net-5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 edf45f007a31e86738f6be3065591ddad94477d1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4181787949916710126==--
+--===============3142806726768911035==--
