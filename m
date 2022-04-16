@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 16 Apr 2022 14:11:21 -0000
-Message-Id: <165011828194.3558.6595664614697904424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sat, 16 Apr 2022 14:50:03 -0000
+Message-Id: <165012060351.29670.6983812055393156520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 52136021f69aef59190078c0ca304680b32f2533
-    new: 4ee7b96163f2e16f0a919398968115420008bcf4
+  - ref: refs/heads/for-5.19/io_uring-cancel_fd
+    old: 80f0a77fb2a237397113b350647dfa56d4ae4696
+    new: 6101405aec3c0bbe497824e4c6e30152471f3e83
     log: |
-         402fc936d5a9328779f175893b30ae165d45a11e dt-bindings: display: mediatek: Update disp_aal binding for MT8183
-         4ee7b96163f2e16f0a919398968115420008bcf4 dt-bindings: display: mediatek: Update disp_aal binding for MT8192 and MT8195
+         443bc7c50a1582cde98ca16e66e1e894d4725b8d io_uring: add support for IORING_ASYNC_CANCEL_ALL
+         6101405aec3c0bbe497824e4c6e30152471f3e83 io_uring: allow IORING_OP_ASYNC_CANCEL with 'fd' key
          
