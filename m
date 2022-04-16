@@ -1,108 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============2454452864688635753=="
+Content-Type: multipart/mixed; boundary="===============0176345213915979789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-stable
-Date: Sat, 16 Apr 2022 02:39:05 -0000
-Message-Id: <165007674546.31331.9918452556950206023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 16 Apr 2022 06:33:03 -0000
+Message-Id: <165009078330.20936.7041033361488420031@gitolite.kernel.org>
 
---===============2454452864688635753==
+--===============0176345213915979789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-stable
-user: sashal
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/pending-5.10
-    old: 9125efade075ab1975f44b11f45b776a44e8777d
-    new: 6663ff90a21a64b16dd1a9d5d3278a1053bd9c80
-    log: revlist-9125efade075-6663ff90a21a.txt
-  - ref: refs/heads/pending-5.15
-    old: 720036f011a56cb86aaf60113541edaf43d85ef9
-    new: e246c1bd9bb2044c2d5a0dfeccc4d86a00b2a9ee
-    log: revlist-720036f011a5-e246c1bd9bb2.txt
+  - ref: refs/heads/next
+    old: 8af0fa9b8e9e4d9f3a9661b1fd1f8c8822364ea5
+    new: 48e68dd0fdcb925f675af579a960b68b1bbf8dd4
+    log: |
+         846a29afb0b1a206426a3fa0867c37dc406415bc config.mak.dev: workaround gcc 12 bug affecting "pedantic" CI job
+         9c539d1027df2a0f6e45b24d518e90d3baf1e7a5 config.mak.dev: alternative workaround to gcc 12 warning in http.c
+         48e68dd0fdcb925f675af579a960b68b1bbf8dd4 Merge branch 'cb/buggy-gcc-12-workaround' into next
+         
+  - ref: refs/heads/seen
+    old: 8fbb2651fadbad89338443d56ef295ea81e74fee
+    new: 4b908271d32c7777b8838864503c4a1f2123c2a0
+    log: revlist-8fbb2651fadb-4b908271d32c.txt
 
---===============2454452864688635753==
+--===============0176345213915979789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9125efade075-6663ff90a21a.txt
+Content-Disposition: attachment; filename=revlist-8fbb2651fadb-4b908271d32c.txt
 
-5353e946a53eb9ae1ef2e71fcb70a7927d933822 media: omap3isp: Use struct_group() for memcpy() region
-b673c9679e6c4363532cd17762df0ef1c6620787 media: platform: davinci: Use DEFINE_SPINLOCK() for spinlock
-437928e310267616bf1993f87a73143075e4a377 media: davinci: vpif: fix use-after-free on driver unbind
-5b15d9b87fe8aa234fd7436bbc47de3779ecd79f btrfs: delay blkdev_put until after the device remove
-4ff9391e565e3aa891f88f5b9fee2238ce976d0a SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
-bd20b6a16811b8a965bfb9cd96291760f9b918b2 Bluetooth: btusb: Add workaround for remote-wakeup issues with Barrot 8041a02 fake CSR controllers
-231f4507b1ddc835824b0221e863d7858f970c35 Bluetooth: btusb: Remove duplicate newlines from logging
-c81c619d490a33e98013b4dd979c1a2c7177f146 Bluetooth: btusb: Make the CSR clone chip force-suspend workaround more generic
-d99a53fae2083168b0b18c1dec9becff4be164af Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
-72c2772293b6d3213ace1d2d6e2fe8b2feb3a56e bus: mhi: core: Use correctly sized arguments for bit field
-73c4f448fc7c623aa44f544e1b09a09244ed757b bus: mhi: Fix pm_state conversion to string
-8b5858a35960a779380fdc174e1c8ef6ba1e3357 iio: accel: mma8452: use the correct logic to get mma8452_data
-60eb22c3d29a5a4049b5985f9b656ed350e1321a KVM: s390x: fix SCK locking
-b67e6120e1acc253f859ecd2a206c0339aae0a48 net: hns3: add NULL pointer check for hns3_set/get_ringparam()
-6663ff90a21a64b16dd1a9d5d3278a1053bd9c80 net: hns3: fix phy can not link up when autoneg off and reset
+75d8a1c0735ef06dd482d56825749f253b443dec Merge branch 'cb/buggy-gcc-12-workaround' into jch
+4434372f4abb8c9400208ac6f403559d128c5701 Merge branch 'ab/misc-cleanup' into jch
+da3b24712f305dd1daaa4a04d8517c2711bc25fd Merge branch 'tk/untracked-cache-with-uall' into jch
+7533df32f1b56308899dcd83d4b7398e53d1134a Merge branch 'jh/p4-various-fixups' into jch
+1f3fd4dcc21a1659bc2ba72ee2c3681898be1a2d Merge branch 'fr/vimdiff-layout' into jch
+d0b342bf03f7f6aa023b2b39efb20c1425152b36 Merge branch 'ea/progress-partial-blame' into jch
+440e4622d4ad24361fa585f8d456fa29ab79d610 ### match next
+babfa032b6906196d374f3ffdb4ae394c21f4707 Merge branch 'rs/t7812-pcre2-ws-bug-test' into jch
+6b0286962db67b9d90199ede4966f2aac7d120b4 Merge branch 'pw/test-malloc-with-sanitize-address' into jch
+7dd54013dcb68cb56395d4d4abcbfabb3e2e2f72 Merge branch 'gf/shorthand-version-and-help' into jch
+59df530b703a35c0c6b46ec5797e08e3d1f098c4 Merge branch 'gf/unused-includes' into jch
+2a9818f62ed404bcedf0b8671ae3f1fa4f8ae475 Merge branch 'ah/convert-warning-message' into jch
+36f6416fb71c8cf08b5d3c54857e50cad51dbd0c Merge branch 'pb/submodule-recurse-mode-enum' into jch
+b24d56364137f81f7973f544cd3182e55fdc8815 Merge branch 'km/t3501-use-test-helpers' into jch
+a1dc76e30346dbd61f9315548f4269fc94125f4e Merge branch 'rs/commit-summary-wo-break-rewrite' into jch
+5547959912c86b58ae56d09179d311c163dfff7e Merge branch 'sa/t1011-use-helpers' into jch
+5ca027039d0bec976a0e1dd3749ab428286ecd25 Merge branch 'cg/vscode-with-gdb' into jch
+e4ca88416d03ce866554198444ee574b859bccaf Merge branch 'tk/p4-utf8-bom' into jch
+a3287b8bc65244735cc8ad3f7a60b88a71b17925 Merge branch 'tk/p4-with-explicity-sync' into jch
+169796962e998d8060851802ed6c21aa13343a6f Merge branch 'ns/batch-fsync' into jch
+20d39c05bdad6cfff88d935e94374a9c4b967024 Merge branch 'en/merge-tree' into jch
+c303fe92628ad690145dd160d65f3d444790d027 Merge branch 'js/scalar-diagnose' into jch
+05054a3c59aa22ff573963817fdde3e2fc5f5c64 Merge branch 'et/xdiff-indirection' into jch
+44acf8fb35ccef157ba2610f5fe853a37c395b32 Merge branch 'js/bisect-in-c' into jch
+3519503833333408490d4a319a5c42cc2a4cd0e1 Merge branch 'tk/simple-autosetupmerge' into jch
+da78b117671cd57eb431a16ab11c79be2717167c Merge branch 'ep/coverage-report-wants-test-to-have-run' into jch
+6afa620c4d16e525af745e0cee408e2b49322968 Merge branch 'kf/p4-multiple-remotes' into jch
+8f86c36b2c9d7490d52832a306329c35c60e6af3 Merge branch 'bc/stash-export' into jch
+ed0d780ddc3ad76c8b2782d2c2b6323f37e9c2e3 Merge branch 'ab/plug-leak-in-revisions' into jch
+825615e3d2d05f98848604d597dddf44f57d6d8b Merge branch 'en/sparse-cone-becomes-default' into jch
+01c84ab5d2728ee2fb0e3b99c87a5fba51817a15 Merge branch 'ab/env-array' into jch
+f81fe557770ec8c087b909eb0e6b823de730b88a Merge branch 'ab/ci-setup-simplify' into jch
+788138cdc54a3c7e29b2808f07ff1965d9a58d7d Merge branch 'ab/ci-github-workflow-markup' into jch
+c1d9011153767117f1ebdf0d26c4732a7762668d Merge branch 'cm/reftable-0-length-memset' into jch
+bc3cbe906cebc5d49ba45b1a0fa27f4e936f3d94 Merge branch 'jh/builtin-fsmonitor-part3' into seen
+7d3f288d58ad3236f75f8d40c410168e28d2af12 Merge branch 'tb/cruft-packs' into seen
+92ad8b185f9440e5c0dc8c220cb87bf4f8e586a7 Merge branch 'ab/commit-plug-leaks' into seen
+6ffdb6bd4adebd1bc66f141dc3388e1e6fc88c31 Merge branch 'js/use-builtin-add-i' into seen
+0a5610c7d990af68aa2ff6408addf57713a182a8 http.c: clear the 'finished' member once we are done with it
+4b908271d32c7777b8838864503c4a1f2123c2a0 Merge branch 'jc/http-clear-finished-pointer' into seen
 
---===============2454452864688635753==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-720036f011a5-e246c1bd9bb2.txt
-
-4493f65436bdd23ce7967b2b3de439040c1ca06b drm/amd/display: move FPU associated DCN301 code to DML folder
-906700c72c59f631e012554447491fa2c0c11964 drm/amd/display: Wrap dcn301_calculate_wm_and_dlg for FPU.
-3a1e8eb1c58dcf1ad6e537cd2a77797cae833017 drm/amdgpu: fix a potential GPU hang on cyan skillfish
-a505170e8f12ff191f7b26f3f61e880bfa616fb1 drm/mediatek: mtk_dsi: Avoid EPROBE_DEFER loop with external bridge
-2e81d9d493c29df3632709b4b9e53da5a564c2b7 net: ipa: fix a build dependency
-0816528eb0207bfa666f2620d2509cf56186f93b s390/boot: allocate amode31 section in decompressor
-68310537581d0476cf9a34b54d35bfbcc55b7328 s390/setup: use physical pointers for memblock_reserve()
-8f2b57415f47f89be5ccb146db9c1c65203e4790 s390/setup: preserve memory at OLDMEM_BASE and OLDMEM_SIZE
-91594865ac08d20e78be38b4f4e7565778849461 cifs: introduce new helper for cifs_reconnect()
-8255850d362b77a165cdb7e9bcaefcae39c883cc cifs: split out dfs code from cifs_reconnect()
-f0b6cafdd6a559a06a9ad43abf413547382eb518 block: use bdev_get_queue() in bio.c
-81009aac4d1682b0a8f1a5f622cf0960faf11292 block: only mark bio as tracked if it really is tracked
-3edae1a83e6e8225e638506b7aa03dd27aeaf723 block: fix rq-qos breakage from skipping rq_qos_done_bio()
-5cb7acc4ee108865ed1399415d71dd4771d4dca0 media: davinci: vpif: fix use-after-free on driver unbind
-e99c990b20d8962e8962129e34454cfe1589c2e5 ath11k: Invalidate cached reo ring entry before accessing it
-9ca2d31abc04d1b397cf31e8b16d81f900c0334a clk: renesas: r9a07g044: Update multiplier and divider values for PLL2/3
-48f34b3dd027552edf1691617d5120207e8c5908 devlink: Make devlink_register to be void
-4315e129d795769517cc79469d96d0fff0b0ba09 staging: qlge: Move devlink registration to be last devlink command
-6007d72b2430a51d896c4cdd4f0810980b76d41b staging: qlge: add unregister_netdev in qlge_probe
-43a3a77c4c339d56d9f6d2a69d36b464c6cd5f72 KVM: x86/mmu: Use yield-safe TDP MMU root iter in MMU notifier unmapping
-acb004143d4ce88cc17ab0f6cd9960e657486592 KVM: x86/mmu: Use common TDP MMU zap helper for MMU notifier unmap hook
-82c1519ed1b56ec5787493f53eb4ab7721062df6 scsi: qla2xxx: Move heartbeat handling from DPC thread to workqueue
-7dde2ea395560869d7142643ac674350d71b3455 scsi: qla2xxx: Fix laggy FC remote port session recovery
-5c4f3ffa66d829d18bf31a271933ba496b00d94b scsi: qla2xxx: edif: Replace list_for_each_safe with list_for_each_entry_safe
-39f26510588ae8bd3c551c9ec744bbaffc9062b2 scsi: qla2xxx: Fix crash during module load unload test
-555b154635a19fc019652ecb07ee48ee3ca7ce23 vdpa/mlx5: Avoid processing works if workqueue was destroyed
-a2a4fe6cdf34dd04c23bab73422367b2886872c7 btrfs: use btrfs_get_dev_args_from_path in dev removal ioctls
-cd725bc409a4b9b7ee900a773a9d8e4cd01f341f btrfs: remove device item and update super block in the same transaction
-fc504a3d7d242374b8b7af77b61637e28a8cb103 drbd: add error handling support for add_disk()
-df5823ea57648a71ddcb12bbe0a28933ce5b341d drbd: Fix double free problem in drbd_create_device
-8847c2aa9ce3b5f0f41ad77a303454c9d14564dd drbd: fix an invalid memory access caused by incorrect use of list iterator
-0018dbdd293ffdc2159f5ae4e0bea07134d6e630 drm/amd/display: Set min dcfclk if pipe count is 0
-3dde3a419a54a4870ac989a0de894b72047e4c42 drm/amd/display: Fix by adding FPU protection for dcn30_internal_validate_bw
-bc409df1f96b67bc873220e41a609d3593600a36 SUNRPC: Ensure we flush any closed sockets before xs_xprt_free()
-a266ee5a137b83fdedc0b74fee5753dd0ffae892 Bluetooth: btusb: Use quirk to skip HCI_FLT_CLEAR_ALL on fake CSR controllers
-4668ec17fb4e16e726687ebf82243805f86dd373 bus: mhi: core: Use correctly sized arguments for bit field
-e7fe41b9c5112cbfc72a129fe631b70866d2163e bus: mhi: Fix pm_state conversion to string
-6c13f368b7662e2bfe647cce9aa07c4eb513de26 iio: accel: mma8452: use the correct logic to get mma8452_data
-7fcc45a0a12b68b2b80ec76a1742a7bf21bfecea KVM: s390x: fix SCK locking
-a57cb79a9dc636752f334252ca1df3e4fbcfbc6a drm/bridge: ti-sn65dsi83: Implement .detach callback
-3c4aff04461c1b76f62e6e996596a9587d44d9c1 drm/bridge: sn65dsi83: Fix bridge removal
-c1078da646afd789fdb315cd79c8650febca33f3 drm/bridge: sn65dsi83: Switch to devm MIPI-DSI helpers
-dd4cf04346d2c57d2cb2773ca483b4c7ac99bca1 drm/bridge: sn65dsi83: Register and attach our DSI device at probe
-1e2837fef8c42362d4e27aa4fd29a3f6e1920fc7 drm/bridge: sn65dsi83: Fix an error handling path in sn65dsi83_probe()
-da683d69f8a58ebfb7897e1a91ca2e29d481bbc9 drm/msm/dp: dp_link_parse_sink_count() return immediately if aux read failed
-b771164ba956b930a49c0e8a8fb58726f9000d10 drm/msm/dp: do not initialize phy until plugin interrupt received
-7fa34aa9532a44d27f4cfd12b50aa8723f8ba49e net: hns3: add NULL pointer check for hns3_set/get_ringparam()
-bc4d3408ccef42dbef95c9cd940e0e96bf8c106b net: hns3: fix phy can not link up when autoneg off and reset
-9e9c35b213fafda20d9414bfb3fd7b0f8fa24bcd powerpc/32: Don't use lmw/stmw for saving/restoring non volatile regs
-421738551c0e7d3c7f3b76f9fbac175697afd59e powerpc: flexible GPR range save/restore macros
-593445caf2a00427af02f75e661425112c8e0eb4 powerpc/tm: Fix more userspace r13 corruption
-e246c1bd9bb2044c2d5a0dfeccc4d86a00b2a9ee bpf: Treat bpf_sk_lookup remote_port as a 2-byte field
-
---===============2454452864688635753==--
+--===============0176345213915979789==--
