@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 16 Apr 2022 13:58:39 -0000
-Message-Id: <165011751963.27713.17942514869354767532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sat, 16 Apr 2022 14:11:21 -0000
+Message-Id: <165011828194.3558.6595664614697904424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: e7e51eb037d1848d4403efbf9696ea50c40cad36
-    new: b5d6ba09b10d2ccb865ed9bc45941db0a41c6756
+  - ref: refs/heads/mediatek-drm-next
+    old: 52136021f69aef59190078c0ca304680b32f2533
+    new: 4ee7b96163f2e16f0a919398968115420008bcf4
     log: |
-         b5d6ba09b10d2ccb865ed9bc45941db0a41c6756 iio: imu: inv_icm42600: Fix I2C init possible nack
+         402fc936d5a9328779f175893b30ae165d45a11e dt-bindings: display: mediatek: Update disp_aal binding for MT8183
+         4ee7b96163f2e16f0a919398968115420008bcf4 dt-bindings: display: mediatek: Update disp_aal binding for MT8192 and MT8195
          
