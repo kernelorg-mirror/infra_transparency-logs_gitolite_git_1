@@ -1,49 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7677296768426056535=="
+Content-Type: multipart/mixed; boundary="===============1558936448938580603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 17 Apr 2022 16:02:22 -0000
-Message-Id: <165021134274.31841.3551516773344532726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/saeed/linux
+Date: Sun, 17 Apr 2022 16:11:27 -0000
+Message-Id: <165021188747.5085.11109265756651492138@gitolite.kernel.org>
 
---===============7677296768426056535==
+--===============1558936448938580603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: eguan
+repo: pub/scm/linux/kernel/git/saeed/linux
+user: saeed
 changes:
-  - ref: refs/heads/master
-    old: 4a7b35d7a76cd993ad7a62fd180e00589c73ac4b
-    new: fbc6486be09c93a68d3863ebf7e3ed851fc4721c
-    log: revlist-4a7b35d7a76c-fbc6486be09c.txt
+  - ref: refs/heads/net-next-mlx5
+    old: 6a56ebea8f1cef886d5d849da668be3e6980c2dc
+    new: 2d4eb238acf6632e4e40b50e812c4da156c2bae3
+    log: revlist-6a56ebea8f1c-2d4eb238acf6.txt
 
---===============7677296768426056535==
+--===============1558936448938580603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a7b35d7a76c-fbc6486be09c.txt
+Content-Disposition: attachment; filename=revlist-6a56ebea8f1c-2d4eb238acf6.txt
 
-daa0c0146c7db84d1e368fcfcc8751566695b590 fstests: replace hexdump with od command
-0b11a5ecb8e5ca8c2a9a5aa59c493a2d9fd485f8 fstests: test dirty pipe vulnerability issue of CVE-2022-0847
-c4cefb1c5ecd92f16fb14d82e8b6542e5fdbb535 common/rc: fix _try_scratch_mount() and _test_mount() when mount fails
-73aa648ce176f159f41538765be3392d3941d8e8 generic/020: move MAX_ATTRS and MAX_ATTRVAL_SIZE logic
-dc76e4ec19a8e9da6366cf75d86e063409a385c1 generic/020: add and use _attr_get_max()
-a59e1f79f4e553b244957527e7a66f5cb2a618e7 generic/020: fix max_attrval_size for XFS, UDF, Btrfs and NFS
-9c6b2ebe2b6b475a53f3f324fb4ddcef4550404b generic/020: fix max_attrval_size output filter
-c025dcf35b47e8d6139554e585e2f7124505c1dd xfs/507: add test to auto group
-d7ac035cfeecc4e3b264bae781aa4eedfd01bf03 xfs/187: don't rely on FSCOUNTS for free space data
-d26e6be1290c27c4639439570ad0c8bf9ce5a5db common/rc: Skip virtiofs when _require_exportfs
-16676f2f2c3b19f19b5cb259e95139351e6e9bc2 common/encrypt: use a sub-keyring within the session keyring
-ca53ba1e74ebbde853dec09fee93b5e730b9ca1e common/filter: extend _filter_xfs_io to match -nan
-0ab8b3ac61ffe7c3b5ac01b6727cc11cddf03384 ceph/001: add extra check for remote object copies
-86e537edb41d9fbda0d6a18a8a30fc5c3f49d886 common/rc: let xfs_scrub tell us about its unicode checker
-82047ce7cd46e3a89eaddb6e43e8c10416409cd9 xfs: test mkfs.xfs config file stack corruption issues
-e75da9ebde722455544e7b4e261389d4b77c8a76 xfs/216: handle larger log sizes
-b560e18c6216149e47c5208df2727b01ba2ce49b generic/019: kill background processes on interrupt
-48029933892b96c183603d94a1f3acc179988d99 generic: test that linking into a directory fails with EDQUOT
-fbc6486be09c93a68d3863ebf7e3ed851fc4721c generic: test that renaming into a directory fails with EDQUOT
+f9a2fb73318eb4dbf8cd84866b8b0dd012d8b116 net/ipv6: Introduce accept_unsolicited_na knob to implement router-side changes for RFC9131
+69fd055957a02309ffdc23d887a01988b6e5bab1 net: dsa: qca8k: drop MTU tracking from qca8k_priv
+2b8fd87af7f156942971789abac8ee2bb60c03bc net: dsa: qca8k: drop port_sts from qca8k_priv
+8255212e4130bd2dc1463286a3dddb74797bbdc1 net: dsa: qca8k: rework and simplify mdiobus logic
+2349b83a2486c55b9dd225326f0172a84a43c5e4 net: dsa: qca8k: drop dsa_switch_ops from qca8k_priv
+6cfc03b602200c5cbbd8d906fd905547814e83df net: dsa: qca8k: correctly handle mdio read error
+8d1af50842bf2774f4edc57054206e909117469b net: dsa: qca8k: unify bus id naming with legacy and OF mdio bus
+7925c2d93005ac943bc8517e16f6377132fd251f Merge branch 'qca8k_preiv-shrink'
+d9d024f96609016628d750ebc8ee4a6f0d80e6e1 tcp: consume incoming skb leading to a reset
+b5ec1e6205a1cb719ab188472f00ae81b0800f2e tcp: get rid of rst_seq_match
+da40b613f89c43c58986e6f30560ad6573a4d569 tcp: add drop reason support to tcp_validate_incoming()
+37fd4e842391a1b947789969ae8454f1596735c8 tcp: make tcp_rcv_state_process() drop monitor friendly
+669da7a71890b2b2a31a7e9571c0fdf1123e26ef tcp: add drop reasons to tcp_rcv_state_process()
+4b506af9c5b8de0da34097d50d9448dfb33d70c3 tcp: add two drop reasons for tcp_ack()
+e7c89ae4078eab24af71ba26b91642e819a4bd7f tcp: add drop reason support to tcp_prune_ofo_queue()
+c337578a6592d671c5e78accc55f00cc594fe2da tcp: make tcp_rcv_synsent_state_process() drop monitor friend
+659affdb5140599f25418807c3354b060d4b1b88 tcp: add drop reasons to tcp_rcv_synsent_state_process()
+8fbf195798b56e1e87f62d01be636a6425c304c2 tcp: add drop reason support to tcp_ofo_queue()
+53c33a16d0688fc20b38e00dbbc2cb2b695e7020 Merge branch 'tcp-drop-reason-additions'
+353f3cfedfa0126c80f3b563c287ab4e2fcee8c4 Revert "net: openvswitch: fix uAPI incompatibility with existing user space"
+14fb98cb3be0c143d414aa542c2513926c0c7b06 Revert "net: openvswitch: remove unneeded semicolon"
+2d4eb238acf6632e4e40b50e812c4da156c2bae3 Revert "net: openvswitch: IPv6: Add IPv6 extension header support"
 
---===============7677296768426056535==--
+--===============1558936448938580603==--
