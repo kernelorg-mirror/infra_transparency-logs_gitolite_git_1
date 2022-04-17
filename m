@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 17 Apr 2022 00:54:28 -0000
-Message-Id: <165015686882.22867.8157544380683743157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 17 Apr 2022 01:50:03 -0000
+Message-Id: <165016020309.27364.2030044925858528443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/cancel-fd-all
-    old: c091b912bc9c6fb64c68c7b0056c4923b327cd9e
-    new: 6977ce1f49d38c496a3781bd2f1d39c6f23b8639
+  - ref: refs/heads/for-5.19/io_uring-cancel_fd
+    old: bd58b6d24128bc5f0ea54d231ff4626a729397bf
+    new: 84e9996e393439f8b279b9b0a0da3d155f9c11d8
     log: |
-         6977ce1f49d38c496a3781bd2f1d39c6f23b8639 test/poll-cancel-all: add async read test case
+         84e9996e393439f8b279b9b0a0da3d155f9c11d8 io_uring: add support for IORING_ASYNC_CANCEL_ANY
          
