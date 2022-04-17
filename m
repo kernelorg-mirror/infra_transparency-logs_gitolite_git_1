@@ -1,22 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bp/bp
-Date: Sun, 17 Apr 2022 19:18:10 -0000
-Message-Id: <165022309052.28383.4922862469536996541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Sun, 17 Apr 2022 20:23:23 -0000
+Message-Id: <165022700315.5060.7380426784990705233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bp/bp
-user: bp
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/test
-    old: c59d3bf40a3eaffc798691aacc6bf8698ac1c351
-    new: 195b43fa7006cd7dec0ef5b19cb3ec2c0d533332
+  - ref: refs/heads/for-linus
+    old: fd0a4b39870d49ff15f6966470185409e261f20f
+    new: 470776c6b03491a3e82c644737a6da5466b8b3eb
     log: |
-         e50abbf788c239d529f9ab81e325f8e8f8432c9d virt: sevguest: Fix return value check in alloc_shared_pages()
-         101826e02ac6c829bf4e768295e79ae9c37b4b2a virt: sevguest: Fix bool function returning negative value
-         5dc91f2d4f3c160199fea9421d6b08f67a906947 x86/boot: Add an efi.h header for the decompressor
-         195b43fa7006cd7dec0ef5b19cb3ec2c0d533332 Merge remote-tracking branch 'rome/switch-case' into test
+         81022a170462d38ea10612cb67e8e2c529d58abe Input: omap4-keypad - fix pm_runtime_get_sync() error checking
+         470776c6b03491a3e82c644737a6da5466b8b3eb Input: add Marine Navigation Keycodes
+         
+  - ref: refs/heads/master
+    old: e505edaedcb9e7d16eefddc62d2189afaea0febc
+    new: eba697b3c30320933aeb19b0606c2099fe880e51
+    log: |
+         eba697b3c30320933aeb19b0606c2099fe880e51 Input: iqs7222 - propagate some error codes correctly
+         
+  - ref: refs/heads/next
+    old: e505edaedcb9e7d16eefddc62d2189afaea0febc
+    new: eba697b3c30320933aeb19b0606c2099fe880e51
+    log: |
+         eba697b3c30320933aeb19b0606c2099fe880e51 Input: iqs7222 - propagate some error codes correctly
          
