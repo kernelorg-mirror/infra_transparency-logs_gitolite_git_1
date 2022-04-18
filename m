@@ -1,72 +1,189 @@
-Content-Type: multipart/mixed; boundary="===============1319190748872365907=="
+Content-Type: multipart/mixed; boundary="===============8981878670481440678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 18 Apr 2022 15:50:41 -0000
-Message-Id: <165029704185.2134.16692999666642520173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 18 Apr 2022 15:52:00 -0000
+Message-Id: <165029712079.2623.15810513598483898131@gitolite.kernel.org>
 
---===============1319190748872365907==
+--===============8981878670481440678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: snitzer
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/block-5.19
-    old: b53f3dcd705e52a07bd0311870dbfb6842e88c91
-    new: 5f0614a55ecebdf55f1a17db0b5f6b787ed009f1
-    log: revlist-b53f3dcd705e-5f0614a55ece.txt
+  - ref: refs/heads/main
+    old: 4027e30c5395c9c1aeea85e99f51ac62f5148145
+    new: 6cd33dceed60949e2dbc32e3f0f5e67c4c882e1e
+    log: revlist-4027e30c5395-6cd33dceed60.txt
+  - ref: refs/heads/master
+    old: 4027e30c5395c9c1aeea85e99f51ac62f5148145
+    new: 6cd33dceed60949e2dbc32e3f0f5e67c4c882e1e
+    log: revlist-4027e30c5395-6cd33dceed60.txt
+  - ref: refs/heads/next
+    old: 48e68dd0fdcb925f675af579a960b68b1bbf8dd4
+    new: b9c8b46e9451eb1f82393119d53aa151b6f7ff83
+    log: revlist-48e68dd0fdcb-b9c8b46e9451.txt
+  - ref: refs/heads/seen
+    old: 4b908271d32c7777b8838864503c4a1f2123c2a0
+    new: 59f845bde02e98fa1b32d6a7e51e6e655fff95fa
+    log: revlist-4b908271d32c-59f845bde02e.txt
+  - ref: refs/tags/v2.36.0
+    old: 0000000000000000000000000000000000000000
+    new: 4ae3003ba571338cf247649b803f9718be42e537
 
---===============1319190748872365907==
+--===============8981878670481440678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b53f3dcd705e-5f0614a55ece.txt
+Content-Disposition: attachment; filename=revlist-4027e30c5395-6cd33dceed60.txt
 
-f9e69aa9ccd7e51c47b147e45e03987ea0ef9aa3 btrfs: simplify ->flush_bio handling
-46a2d4ccc49903923506685a8368ca88312bbdc9 squashfs: always use bio_kmalloc in squashfs_bio_read
-7655db80932d95f501a0811544d9520ec720e38d target/pscsi: remove pscsi_get_bio
-066ff571011d8416e903d3d4f1f41e0b5eb91e1d block: turn bio_kmalloc into a simple kmalloc wrapper
-852ad96cb03621f7995764b4b31cbff9801d8bcd pktcdvd: stop using bio_reset
-70456e5210f40ffdb8f6d905acfdcec5bd5fad9e bfq: Avoid false marking of bic as stably merged
-c1cee4ab36acef271be9101590756ed0c0c374d9 bfq: Avoid merging queues with different parents
-3bc5e683c67d94bd839a1da2e796c15847b51b69 bfq: Split shared queues on move between cgroups
-ea591cd4eb270393810e7be01feb8fde6a34fbbe bfq: Update cgroup information before merging bio
-fc84e1f941b91221092da5b3102ec82da24c5673 bfq: Drop pointless unlock-lock pair
-5f550ede5edf846ecc0067be1ba80514e6fe7f8e bfq: Remove pointless bfq_init_rq() calls
-09f871868080c33992cd6a9b72a5ca49582578fa bfq: Track whether bfq_group is still online
-4e54a2493e582361adc3bfbf06c7d50d19d18837 bfq: Get rid of __bio_blkcg() usage
-075a53b78b815301f8d3dd1ee2cd99554e34f0dd bfq: Make sure bfqg for which we are queueing requests is online
-179d8609d8424529e95021df939ed7b0b82b37f1 target: remove an incorrect unmap zeroes data deduction
-817e8b51eb3d927ce6d56ecf9f48bc3c5b26168b target: pass a block_device to target_configure_unmap_from_queue
-968786b9ef56e75e0109158a4936ffffea962c1e target: fix discard alignment on partitions
-40349d0e16cedd0de561f59752c3249780fb749b drbd: remove assign_p_sizes_qlim
-7a38acce229685968b770d1d9e64e01396b93643 drbd: use bdev based limit helpers in drbd_send_sizes
-c6f23b1a05441a26f765e59dd95e8ba7354f9388 drbd: use bdev_alignment_offset instead of queue_alignment_offset
-998e9cbcd615e5e6a7baa69e673ee845f812744e drbd: cleanup decide_on_discard_support
-c1e7b24416400ef13ff92a1c60c336c9a2834d7b btrfs: use bdev_max_active_zones instead of open coding it
-f09dac9afb8e3ce4b6485dbc091a9b9c742db023 ntfs3: use bdev_logical_block_size instead of open coding it
-9964e674559b02619fee2012a56839624143d02e mm: use bdev_is_zoned in claim_swapfile
-10f0d2a517796b8f6dc04fb0cc3e49003ae6b0bc block: add a bdev_nonrot helper
-08e688fdb8f7e862092ae64cee20bc8b463d1046 block: add a bdev_write_cache helper
-a557e82e5a01826f902bd94fc925c03f253cb712 block: add a bdev_fua helper
-36d254893aa6a6e204075c3cce94bb572ac32c04 block: add a bdev_stable_writes helper
-2aba0d19f4d8c8929b4b3b94a9cfde2aa20e6ee2 block: add a bdev_max_zone_append_sectors helper
-64dcc7c2717395b7c83ffb10f040d3be795d03c1 block: use bdev_alignment_offset in part_alignment_offset_show
-640f2a23911b8388989547f89d055afbb910b88e block: use bdev_alignment_offset in disk_alignment_offset_show
-89098b075cb74a80083bc4ed6b71d0ee18b6898f block: move bdev_alignment_offset and queue_limit_alignment_offset out of line
-4e1462ffe8998749884d61f91be251a7a8719677 block: remove queue_discard_alignment
-f0f975a4dde890bfe25ce17bf07a6495453988a4 block: use bdev_discard_alignment in part_discard_alignment_show
-5c4b4a5c6f11c869a57c6bd977143430bc9dc43d block: move {bdev,queue_limit}_discard_alignment out of line
-e3cc28ea28b5f8794db2aed24f8a0282ad2e85a2 block: refactor discard bio size limiting
-cf0fbf894bb543f472f682c486be48298eccf199 block: add a bdev_max_discard_sectors helper
-70200574cc229f6ba038259e8142af2aa09e6976 block: remove QUEUE_FLAG_DISCARD
-7b47ef52d0a2025fd1408a8a0990933b8e1e510f block: add a bdev_discard_granularity helper
-44abff2c0b970ae3d310b97617525dc01f248d7c block: decouple REQ_OP_SECURE_ERASE from REQ_OP_DISCARD
-c22198e78d523c8fa079bbb70b2523bb6aa51849 direct-io: remove random prefetches
-5f0614a55ecebdf55f1a17db0b5f6b787ed009f1 block: change exported IO accounting interface from gendisk to bdev
+8af16e279288386155781622a08b822e7ad99860 l10n: pt_PT: update Portuguese translation
+3d7e039117708196308c35192abc5712f340728d l10n: pt_PT: update TEAMS file
+6b49afdc70c04640abc0abeccc461f30cf897b39 Merge branch 'master' of github.com:git-l10n/git-po
+66593217ec853a295f5a0122d28faf3f7f7ecaa2 l10n: git.pot: v2.36.0 round 1 (192 new, 106 removed)
+3117f0f9f7f57db305f340a32d952d22dfeb7815 l10n: tr: v2.36.0 round 1
+22ac4887f4292e3e855938dfb9f6ba842bab90a9 l10n: po-id for 2.36 (round 1)
+ca355e3e33ddebe3003198d27c2226911a70876b l10n: Update zh_CN repo link
+00e5af3f24f35b95d7a1476c56ffb3b017bb0a0d l10n: zh_CN v2.36.0 round 1
+48fd05399ba8d0e8cd30f4419732bb8a0044b1d4 l10n: fr: v2.36 round 1
+6e0a35803f22b7a653aa3f02d3f0d27c6a560479 Merge branch 'fz/po-zh_CN' of github.com:fangyi-zhou/git-po
+dfbdf52df590cf8af37b193d9bf9f9a41162f3ae Merge branch 'fr_2.36_rnd1' of github.com:jnavila/git
+61de00a32115b6090891f20797fdfd1501709ab9 Merge branch 'master' of github.com:git/git
+2731109c91d53edbd393b49eaabfbf78fcea545c l10n: git.pot: v2.36.0 round 2 (4 new, 3 removed)
+783c5f4bc3e5346d1c5394946c563cd6f1444b9c l10n: tr: v2.36.0 round 2
+cdfc63f71402ba8498fa3ee0ba9d38388bf3d59a l10n: fr: v2.36 round 2
+c9f01d5f5f4f752598d7e79c7ae3ef5c5b807ac1 l10n: zh_TW: v2.36.0 round 2
+dd6cf19403bc4f4a805069c13dbeac4d0ac075ca Merge branch 'loc/tw/0407' of github.com:l10n-tw/git-po
+2a7f398a6ef0a80d95ae9c9ce24d9e82e8d57482 l10n: vi(5285t): v2.36.0 round 2
+b3717a89434321bf760c5ca2e11d3ab3e0b90a9c l10n: pt_PT: update Portuguese translation
+40f35416c17177a23db28b00c4c18a299e63b3bd l10n: zh_CN v2.36.0 round 2
+4ac22f8cc0976878ac4d15b7c06ed6d242a56521 l10n: de.po: Update German translation
+cb6da3213efbf08baa58b475aee1e62861ec06c6 Merge branch 'fz/po-2.36.0-round2' of github.com:fangyi-zhou/git-po
+c616d188aae701d47969e656cde21f3f52021fe3 Merge branch 'master' of github.com:ruester/git-po-de
+846a29afb0b1a206426a3fa0867c37dc406415bc config.mak.dev: workaround gcc 12 bug affecting "pedantic" CI job
+9c539d1027df2a0f6e45b24d518e90d3baf1e7a5 config.mak.dev: alternative workaround to gcc 12 warning in http.c
+aac04e07aef56a3cb34921d85e2b1180d6c43d45 l10n: po-id for 2.36 (round 2)
+ac87f9697f90eb353568cdf48ffca215fb4d16ed l10n: Update Catalan translation
+1208041f05ccdcc95a1a1bed02a96a3a17106701 Merge branch 'master' of github.com:Softcatala/git-po
+9b23d2c7b8970e76125872ccf0aed2e9484c250c l10n: sv.po: Update Swedish translation (5282t0f0u)
+db4361bb298d6cd1e07c1219e2c190526dd24e86 Merge branch 'cb/buggy-gcc-12-workaround'
+b908065ea220664270fe3e51fc99b76fdbae71cc Merge tag 'l10n-2.36.0-rnd2.1' of https://github.com/git-l10n/git-po
+6cd33dceed60949e2dbc32e3f0f5e67c4c882e1e Git 2.36
 
---===============1319190748872365907==--
+--===============8981878670481440678==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-48e68dd0fdcb-b9c8b46e9451.txt
+
+8af16e279288386155781622a08b822e7ad99860 l10n: pt_PT: update Portuguese translation
+3d7e039117708196308c35192abc5712f340728d l10n: pt_PT: update TEAMS file
+6b49afdc70c04640abc0abeccc461f30cf897b39 Merge branch 'master' of github.com:git-l10n/git-po
+66593217ec853a295f5a0122d28faf3f7f7ecaa2 l10n: git.pot: v2.36.0 round 1 (192 new, 106 removed)
+3117f0f9f7f57db305f340a32d952d22dfeb7815 l10n: tr: v2.36.0 round 1
+22ac4887f4292e3e855938dfb9f6ba842bab90a9 l10n: po-id for 2.36 (round 1)
+ca355e3e33ddebe3003198d27c2226911a70876b l10n: Update zh_CN repo link
+00e5af3f24f35b95d7a1476c56ffb3b017bb0a0d l10n: zh_CN v2.36.0 round 1
+48fd05399ba8d0e8cd30f4419732bb8a0044b1d4 l10n: fr: v2.36 round 1
+6e0a35803f22b7a653aa3f02d3f0d27c6a560479 Merge branch 'fz/po-zh_CN' of github.com:fangyi-zhou/git-po
+dfbdf52df590cf8af37b193d9bf9f9a41162f3ae Merge branch 'fr_2.36_rnd1' of github.com:jnavila/git
+61de00a32115b6090891f20797fdfd1501709ab9 Merge branch 'master' of github.com:git/git
+2731109c91d53edbd393b49eaabfbf78fcea545c l10n: git.pot: v2.36.0 round 2 (4 new, 3 removed)
+783c5f4bc3e5346d1c5394946c563cd6f1444b9c l10n: tr: v2.36.0 round 2
+cdfc63f71402ba8498fa3ee0ba9d38388bf3d59a l10n: fr: v2.36 round 2
+c9f01d5f5f4f752598d7e79c7ae3ef5c5b807ac1 l10n: zh_TW: v2.36.0 round 2
+dd6cf19403bc4f4a805069c13dbeac4d0ac075ca Merge branch 'loc/tw/0407' of github.com:l10n-tw/git-po
+2a7f398a6ef0a80d95ae9c9ce24d9e82e8d57482 l10n: vi(5285t): v2.36.0 round 2
+b3717a89434321bf760c5ca2e11d3ab3e0b90a9c l10n: pt_PT: update Portuguese translation
+40f35416c17177a23db28b00c4c18a299e63b3bd l10n: zh_CN v2.36.0 round 2
+4ac22f8cc0976878ac4d15b7c06ed6d242a56521 l10n: de.po: Update German translation
+cb6da3213efbf08baa58b475aee1e62861ec06c6 Merge branch 'fz/po-2.36.0-round2' of github.com:fangyi-zhou/git-po
+c616d188aae701d47969e656cde21f3f52021fe3 Merge branch 'master' of github.com:ruester/git-po-de
+aac04e07aef56a3cb34921d85e2b1180d6c43d45 l10n: po-id for 2.36 (round 2)
+ac87f9697f90eb353568cdf48ffca215fb4d16ed l10n: Update Catalan translation
+1208041f05ccdcc95a1a1bed02a96a3a17106701 Merge branch 'master' of github.com:Softcatala/git-po
+9b23d2c7b8970e76125872ccf0aed2e9484c250c l10n: sv.po: Update Swedish translation (5282t0f0u)
+db4361bb298d6cd1e07c1219e2c190526dd24e86 Merge branch 'cb/buggy-gcc-12-workaround'
+b908065ea220664270fe3e51fc99b76fdbae71cc Merge tag 'l10n-2.36.0-rnd2.1' of https://github.com/git-l10n/git-po
+6cd33dceed60949e2dbc32e3f0f5e67c4c882e1e Git 2.36
+b9c8b46e9451eb1f82393119d53aa151b6f7ff83 Sync with Git 2.36
+
+--===============8981878670481440678==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4b908271d32c-59f845bde02e.txt
+
+8af16e279288386155781622a08b822e7ad99860 l10n: pt_PT: update Portuguese translation
+3d7e039117708196308c35192abc5712f340728d l10n: pt_PT: update TEAMS file
+6b49afdc70c04640abc0abeccc461f30cf897b39 Merge branch 'master' of github.com:git-l10n/git-po
+66593217ec853a295f5a0122d28faf3f7f7ecaa2 l10n: git.pot: v2.36.0 round 1 (192 new, 106 removed)
+3117f0f9f7f57db305f340a32d952d22dfeb7815 l10n: tr: v2.36.0 round 1
+22ac4887f4292e3e855938dfb9f6ba842bab90a9 l10n: po-id for 2.36 (round 1)
+ca355e3e33ddebe3003198d27c2226911a70876b l10n: Update zh_CN repo link
+00e5af3f24f35b95d7a1476c56ffb3b017bb0a0d l10n: zh_CN v2.36.0 round 1
+48fd05399ba8d0e8cd30f4419732bb8a0044b1d4 l10n: fr: v2.36 round 1
+6e0a35803f22b7a653aa3f02d3f0d27c6a560479 Merge branch 'fz/po-zh_CN' of github.com:fangyi-zhou/git-po
+dfbdf52df590cf8af37b193d9bf9f9a41162f3ae Merge branch 'fr_2.36_rnd1' of github.com:jnavila/git
+61de00a32115b6090891f20797fdfd1501709ab9 Merge branch 'master' of github.com:git/git
+2731109c91d53edbd393b49eaabfbf78fcea545c l10n: git.pot: v2.36.0 round 2 (4 new, 3 removed)
+783c5f4bc3e5346d1c5394946c563cd6f1444b9c l10n: tr: v2.36.0 round 2
+cdfc63f71402ba8498fa3ee0ba9d38388bf3d59a l10n: fr: v2.36 round 2
+c9f01d5f5f4f752598d7e79c7ae3ef5c5b807ac1 l10n: zh_TW: v2.36.0 round 2
+dd6cf19403bc4f4a805069c13dbeac4d0ac075ca Merge branch 'loc/tw/0407' of github.com:l10n-tw/git-po
+2a7f398a6ef0a80d95ae9c9ce24d9e82e8d57482 l10n: vi(5285t): v2.36.0 round 2
+b3717a89434321bf760c5ca2e11d3ab3e0b90a9c l10n: pt_PT: update Portuguese translation
+40f35416c17177a23db28b00c4c18a299e63b3bd l10n: zh_CN v2.36.0 round 2
+4ac22f8cc0976878ac4d15b7c06ed6d242a56521 l10n: de.po: Update German translation
+cb6da3213efbf08baa58b475aee1e62861ec06c6 Merge branch 'fz/po-2.36.0-round2' of github.com:fangyi-zhou/git-po
+c616d188aae701d47969e656cde21f3f52021fe3 Merge branch 'master' of github.com:ruester/git-po-de
+aac04e07aef56a3cb34921d85e2b1180d6c43d45 l10n: po-id for 2.36 (round 2)
+ac87f9697f90eb353568cdf48ffca215fb4d16ed l10n: Update Catalan translation
+1208041f05ccdcc95a1a1bed02a96a3a17106701 Merge branch 'master' of github.com:Softcatala/git-po
+9b23d2c7b8970e76125872ccf0aed2e9484c250c l10n: sv.po: Update Swedish translation (5282t0f0u)
+db4361bb298d6cd1e07c1219e2c190526dd24e86 Merge branch 'cb/buggy-gcc-12-workaround'
+b908065ea220664270fe3e51fc99b76fdbae71cc Merge tag 'l10n-2.36.0-rnd2.1' of https://github.com/git-l10n/git-po
+6cd33dceed60949e2dbc32e3f0f5e67c4c882e1e Git 2.36
+0510505d57d562bfd2c0fe91d6bab522945a550b Merge branch 'ab/misc-cleanup' into jch
+56f608ced951e2d392bacad75647eda22ab08e63 Merge branch 'tk/untracked-cache-with-uall' into jch
+a7bcf0dd517f962e46088495aa14e7e31c7839bf Merge branch 'jh/p4-various-fixups' into jch
+58f128011fdd4181c9c9e67f6712f6847a8e6eab Merge branch 'fr/vimdiff-layout' into jch
+dd6b47b1b289cd63557c8f46bbc34df3f78b6df3 Merge branch 'ea/progress-partial-blame' into jch
+01d978aaa709c69eb3170731678d74a052019495 ### match next
+386ec7ac2882339e17a0711e7c0148f28cc8279b Merge branch 'rs/t7812-pcre2-ws-bug-test' into jch
+b9ba24a5d78bdd4ebe6fa08d315ef8f87e5eaae8 Merge branch 'pw/test-malloc-with-sanitize-address' into jch
+8a4f619852118e131aef8d4a74eabd8ad4631491 Merge branch 'gf/shorthand-version-and-help' into jch
+09452912dfa19a8c5af1718465e9bf226236dbb7 Merge branch 'gf/unused-includes' into jch
+54549c06e43953e505b9c35d188ecfc7ef5bafbf Merge branch 'ah/convert-warning-message' into jch
+ce4646960aa71cd9151d7afe1142a95700a9cd3b Merge branch 'pb/submodule-recurse-mode-enum' into jch
+137b808a2dca860e20518a1399644ea960fe207e Merge branch 'km/t3501-use-test-helpers' into jch
+b1dce6085e53706e7a73d067d97d173039c6ee49 Merge branch 'rs/commit-summary-wo-break-rewrite' into jch
+6cc7a4f2e5bb0a744bb1787a49e7e8c645d8dd6a Merge branch 'sa/t1011-use-helpers' into jch
+fc961449efb2bd5b891bf0a7474c528bdbcf2ddd Merge branch 'cg/vscode-with-gdb' into jch
+d9cebbe63c15bc80e30ad29e246b3d1c24120c78 Merge branch 'tk/p4-utf8-bom' into jch
+dce77296ba7e0fd912b6681e05abd5dbae933947 Merge branch 'tk/p4-with-explicity-sync' into jch
+9555bdeb66b163bfe7a4e7091e68901ac5e91c5a Merge branch 'ns/batch-fsync' into jch
+73327e1897ad1a08b909f0a10d8b6929b7714dca Merge branch 'en/merge-tree' into jch
+a432b5ec49b9eca462d3cd34756e951d07988a73 Merge branch 'js/scalar-diagnose' into jch
+60e4696b0c3e1ae9f7c1a7157f043bed2ed4e197 Merge branch 'et/xdiff-indirection' into jch
+3cf896674bae3cf08ee57d58322d9be64971b698 Merge branch 'js/bisect-in-c' into jch
+b64d10123addff11eb4aec6fb4e8bd1c06e35d6f Merge branch 'tk/simple-autosetupmerge' into jch
+5d7bd0ba4a172004347917f6fe5f2f8f8f63bd12 Merge branch 'ep/coverage-report-wants-test-to-have-run' into jch
+d2918a7c73f8767d9511a1877e273fd1a6824b2a Merge branch 'kf/p4-multiple-remotes' into jch
+74c1bbfc4f78552b40e6eb22a0398fd4fbc60798 Merge branch 'bc/stash-export' into jch
+9bb98e94d2bcbe3570f5b47b7aa29158b8894ee7 Merge branch 'ab/plug-leak-in-revisions' into jch
+918bde2ba02d811d0ca181abea1d417f41587bfe Merge branch 'en/sparse-cone-becomes-default' into jch
+19d909de8bb00224da0db533aff20b24069158e3 Merge branch 'ab/env-array' into jch
+899d91130d25659cc2eecbf663beaed783f373ed Merge branch 'ab/ci-setup-simplify' into jch
+0171fcf5d411cf55c08e5a1fb516b1f6b291d6dc Merge branch 'ab/ci-github-workflow-markup' into jch
+3cb4cc1f3c76518e5620274c1ddd915e8566ea61 Merge branch 'cm/reftable-0-length-memset' into jch
+bba2b717b26cbe95ab612a3c0d1e58fc82ce5c40 Merge branch 'jh/builtin-fsmonitor-part3' into seen
+bee12da645a259f9a72d9ea7ff1d488f198414a1 Merge branch 'tb/cruft-packs' into seen
+bbda95f595be336077e3ea309efde283abd1bc7e Merge branch 'ab/commit-plug-leaks' into seen
+59f845bde02e98fa1b32d6a7e51e6e655fff95fa Merge branch 'js/use-builtin-add-i' into seen
+
+--===============8981878670481440678==--
