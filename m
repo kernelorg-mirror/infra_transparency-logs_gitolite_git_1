@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4891278935363783880=="
+Content-Type: multipart/mixed; boundary="===============7022037099900868056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 18 Apr 2022 17:12:28 -0000
-Message-Id: <165030194818.21710.17327625934004712898@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 17:12:35 -0000
+Message-Id: <165030195570.21804.3693703806259141300@gitolite.kernel.org>
 
---===============4891278935363783880==
+--===============7022037099900868056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 7b05c54226015807993a7d1bab0ba59d00e592ad
-    new: a997157e42e3119b13c644549a3d8381a1d825d6
-    log: revlist-7b05c5422601-a997157e42e3.txt
+  - ref: refs/heads/dev-queue
+    old: 135e9e05924290c0416ae187444b106d207b5fb6
+    new: 6e51f61589038cd05bc2fc74577f8f61cfecb801
+    log: revlist-135e9e059242-6e51f6158903.txt
 
---===============4891278935363783880==
+--===============7022037099900868056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b05c5422601-a997157e42e3.txt
+Content-Disposition: attachment; filename=revlist-135e9e059242-6e51f6158903.txt
 
 8880fc669deda4fafde3ce90b3128f079567447f ibmvnic: rename local variable index to bufidx
 2872a67c6bcfbd996fda08ea0a8119be230f428e ibmvnic: define map_rxpool_buf_to_ltb()
@@ -75,5 +75,40 @@ ee7a70fa671b274aa7e34c66a6e9ab55acadc59a mlxsw: core_linecards: Implement line c
 e1fad9517f0fddfbe7da5605f50c362242cc7170 selftests: mlxsw: Introduce devlink line card provision/unprovision/activation tests
 2a38de067bace34e7315ce6af027fd785c31fe0f Merge branch 'mlxsw-line-card'
 a997157e42e3119b13c644549a3d8381a1d825d6 docs: net: dsa: describe issues with checksum offload
+35f25368398f8424336aecfde6f930830409c59b igc: Add UDP segmentation offload support
+3f905c63e7924f1c4273939c28db14cdfe84546e igc: Fix infinite loop in release_swfw_sync
+291c5c9a8af8867e3c7e4d2180525bd8277f3c96 igc: Fix BUG: scheduling while atomic
+d064904884d1d9e1e8a511b5781ea29f6359acda ice: xsk: check if Rx ring was filled up to the end
+cff797256a38f1b589d86c9d17249dd2f7847c4e ice: Add support for classid based queue selection
+21311f7f580f5156d3ea84bb50d3c013906aa6af igc: Remove igc_set_spd_dplx method
+f16c00ee2b72ee4dddd87243ae460f42be227d72 ice: introduce common helper for retrieving VSI by vsi_num
+fcfa291e9f81fad822df8b8342b935bc12a5fac9 ice: use min_t() to make code cleaner in ice_gnss
+c794c796912c050f60f0fc518d53ec7872e6340c i40e: i40e_main: fix a missing check on list iterator
+54d72b9064e910944b9bd26f127a8a2f922f6d9d ice: ice_sched: fix an incorrect NULL check on list iterator
+5597afe2e3ccc47ab9e397950413c842d8b7cd1f ixgbe: ensure IPsec VF<->PF compatibility
+1b20830bdb9b017752d99915704bfde6bbca7df7 ice: allow creating VFs for !CONFIG_NET_SWITCHDEV
+f700433d4d3804315cd5abc300f7f53a19dbc09e ice: Fix memory leak in ice_get_orom_civd_data()
+8797de1574dad5f5258dd2f3fe18dcef243cd3f2 iavf: Fix error when changing ring parameters on ice PF
+47e3750e33389586659bfc4eab3efa6013ea5dd7 ice: Add support for double vlan in switchdev
+1c09c629abae77adf92c895ade1b1778f78c8703 ice: link representors to PCI device
+321342cc0207137b29a68590520469a8ebab78bc Revert "ice: Hide bus-info in ethtool for PRs in switchdev mode"
+314fe268cf986f043ba712760033477dd7fc98f3 ice: Add support for vlan tpid filters in switchdev
+0f3b1de9ce50e1dfc58065f53677d471ede19a61 ice: return proper error code in ice_add_adv_rule
+9f5da528707050831c6fbd646d15aa3914d8c269 e1000e: Fix possible overflow in LTR decoding
+7748ee0d368865acecb268aca134f2d10de2d69f igc: Fix suspending when PTM is active
+9f25be0b8bf420071077b6007f34cadd761e2646 ice: Fix incorrect locking in ice_vc_process_vf_msg()
+5b95772704e4f392bb337f9570ba9e2e6543929f ice: fix crash in switchdev mode
+7c98c183b96984c67886d54a19750fc64aa79d45 i40e: Add VF VLAN pruning
+6d9f6826595430f2312bc4e6611fd6735a208335 ice: fix use-after-free when deinitializing mailbox snapshot
+0cb6a0480d848f4f248eadc6efc58d40af399347 ice: wait 5 s for EMP reset after firmware flash
+fd77c405982bc1dbe651b9c9a524bb59bc3c6112 ice: Fix race during aux device (un)plugging
+ebd93174dabcffefec1e8f1e88774eba30d5b760 ice: add newline to dev_dbg in ice_vf_fdir_dump_info
+672a2c78f818b21f434408d346cbd38991038cfe ice: always check VF VSI pointer values
+5dde933f5ab38577d3b95db2e8672d150ce2730d ice: remove return value comment for ice_reset_all_vfs
+3725613e7e7e51a8bb035ae5d4f3d4af5d9359b3 ice: fix wording in comment for ice_reset_vf
+56caaef7350334e224ba0ecac0ce3a628ee88011 ice: add a function comment for ice_cfg_mac_antispoof
+b351520c21394ad5503e6cd1c610a1caa5afcab0 ice: remove period on argument description in ice_for_each_vf
+5f0ea259fd8bf4e51cb5bb151446947f50645b93 ixgbe: Fix module_param allow_unsupported_sfp type
+6e51f61589038cd05bc2fc74577f8f61cfecb801 iavf: Add waiting for response from PF in set mac
 
---===============4891278935363783880==--
+--===============7022037099900868056==--
