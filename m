@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0737807821722496568=="
+Content-Type: multipart/mixed; boundary="===============3421528200020625892=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 18 Apr 2022 06:14:27 -0000
-Message-Id: <165026246729.5086.12591282785340479276@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 06:14:30 -0000
+Message-Id: <165026247007.5144.6621706453272431086@gitolite.kernel.org>
 
---===============0737807821722496568==
+--===============3421528200020625892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a2c29ccd9477861b16ddc02c411a6c9665250558
-    new: b2d229d4ddb17db541098b83524d901257e93845
-    log: revlist-a2c29ccd9477-b2d229d4ddb1.txt
+  - ref: refs/tags/v5.18-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 89a9eba652fe348461301ef785c3e274bc491879
 
---===============0737807821722496568==
+--===============3421528200020625892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650262466 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650262469 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1650262465-346368e813e87d0eaa6dbe871f6b679b04b85734
+nonce 1650262468-414897ed8ca82dde663c610fe8a70f56b5e06986
 
-a2c29ccd9477861b16ddc02c411a6c9665250558 b2d229d4ddb17db541098b83524d901257e93845 refs/heads/master
+0000000000000000000000000000000000000000 89a9eba652fe348461301ef785c3e274bc491879 refs/tags/v5.18-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJdAcIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/LgP/ioW+0K/76EBG+Tbjmpx
-mdRfeKMFhPIMMLAuR4tAfvtoU6pw4qRHkHEXwzV2IXVDCY+huFWxQkCyXaL7+OS2
-klxUficoTgkadGiP3Kvyw9NRuqX4LwvxyuddlFZgfCKv1NZeNZJq+HVyfMMtCImx
-O2IZhSKEZNT8FC+MlJW8RXK/wbEgoQwesPV/8Y2IDLnwWDK87sVTd++qy0/5xGWa
-gUwDPSOOmtfaTMmrOyJbh45BO7Osy3hThro/hZVSqkGXzjf/9J6XYlbta2A5v4Uv
-2GPnc31canW6h6U0oDnN6GQKFQuezkwgjTQG51jKSA2SaEhqfzgspBALB3r9UKkd
-thFVOuCdpkLKGDBH3wCvy8GmvoB2uc4QnILbJV5P5NeamYhcB2E4NosFX97EQOVI
-5iLb6ro0SLdr0D9FLu1rMWTdq+K9PCRpJ1Rf5etYEt1LN1wSQZhzQOg0UCgJbboV
-Mv4JgqzVnNtrvx04zpxStDLbExPkXoeMlAPIRNfNZ08xV27si/GAecEf5pxqTEgV
-oNNSsT2z0pwynbXAvkha5gWD5Z0stjg7DSbJTihQl3EQReDawwwI5rNmB9QKfgw9
-G0LBWO9gY5uUVMWicHPfoxaAgHqUdHaTt6pDmGWoobGuiK7lX/U2yHyPC8d2JXzf
-Gz6Do1QGPRzm/CPGeN5gUuQe
-=m/1G
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJdAcUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PjIP/2uXH9uXoMddqQkCwmqr
+Zhb1tSgImrfdwqGq048iUJIlGw4yOP/px5BzwU4ZHjPtA8spvGZjgMzx6N+lpXPd
+M+133RAB2tWN3VeFN8dsfAbYbmjB/8vD5lcQcjJ64Dy+HXE6ei84U2ZMeB4sZoxt
+FwN1gjzqVdkRkXqforYGliHhVlmH1TqHRVDHYM+wJA94moaj+70V6f3acP7ax6pf
+b9qJGZkgdiMZfGWkMqZkoTYhNN/ts4tn5tnYq/l13ooVbYVE/18pRz6v81NWTvrW
+IBDcCpMyfT0UsRa7Uzvt+5rYCskUljXn14sQy8oCPNG0WRshA2WVWkfBtYGfQNur
+rB1hzXp7RKq48zpHpWliK0+s3BAp6CxgIdNmn71u5izzcHSh9jsMutvqn+aFcArF
+xjJ0/RsRpiGFxVXjWRQqWLHbLfaJYQh+HD36OXz+PSeSlSb9dQ320Qb3lR5BCZes
+Vf2M37ctob7hC3NE6xKV1s0i8xkm2nf7wNOSRkaYWR5RDr3HwSI/KBu8aYrnX5hw
+eLp0U/ujf0ZctSXZr9J6BoTUqSfirepM3E8RmrWX4/Jz9ZdethLHrMLn/jqKOyJ5
+5aQEblmONnQRRDTo95N3qkq6lziY341Jgit4O+MRd5DvZxZP/i+9uz/LskmCuxbJ
+85jcLR3Xck2tdGwUT1u3YOFQ
+=dGS4
 -----END PGP SIGNATURE-----
 
---===============0737807821722496568==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2c29ccd9477-b2d229d4ddb1.txt
-
-262fc47ac17461c8cdc71c70aff6c3ea45acb0b9 xen/balloon: don't use PV mode extra memory for zone device allocations
-c54bc0fc84214b203f7a0ebfd1bd308ce2abe920 timers: Fix warning condition in __run_timers()
-40e97e42961f8c6cc7bd5fe67cc18417e02d78f1 tick/nohz: Use WARN_ON_ONCE() to prevent console saturation
-9c95bc25ad3b1a2240cd1f896569292a57d3ce85 tick/sched: Fix non-kernel-doc comment
-258f3b8c3210b03386e4ad92b4bd8652b5c1beb3 x86/tsx: Use MSR_TSX_CTRL to clear CPUID bits
-08d835dff916bfe8f45acc7b92c7af6c4081c8a7 genirq/affinity: Consider that CPUs on nodes can be unbalanced
-400331f8ffa3bec5c561417e5eec6848464e9160 x86/tsx: Disable TSX development mode at boot
-5c7d28c6f6d4e739bafb92f913ec8ff982239c0e power: supply: samsung-sdi-battery: Add missing charge restart voltages
-581045ed5cfa42ed7f5364d6ccbcb6fcc077ffcf power: supply: Reset err after not finding static battery
-9e949a3886356fe9112c6f6f34a6e23d1d35407f smp: Fix offline cpu check in flush_smp_call_function_queue()
-b7ba6d8dc3569e49800ef0136799f26f43e237e8 cpu/hotplug: Remove the 'cpu' member of cpuhp_cpu_state
-bd8963e602c77adc76dbbbfc3417c3cf14fed76b i2c: pasemi: Wait for write xfers to finish
-39c025721d706eb4fa8a5a7a376c93a3162b71bc i2c: imx: Implement errata ERR007805 or e7805 bus frequency limit
-c60bd968c74749a85c71dfed5fabd3e36d487d54 i2c: qcom-geni: Use dev_err_probe() for GPI DMA error
-993eb48fa199b5f476df8204e652eff63dd19361 i2c: dev: check return value when calling dev_set_name()
-aef80e2fbe3ec6264e935cebfb8fa3367cb1e7b0 i2c: dev: Force case user pointers in compat_i2cdev_ioctl()
-e35c93695c742b88f5fe32063674551440c63d08 i2c: ismt: Fix undefined behavior due to shift overflowing the constant
-bd0c7d755bf3bad8ef075a899c10f192858c01d4 Merge branch 'i2c/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-9a921a6ff7a616863b981220d0a2e0d1de2d050b Merge tag 'for-v5.18-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-7e1777f5ec178542adf0506e5ba2308f5be862a7 Merge tag 'irq-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-0e59732ed61a24458b6875c162660dc0758b678f Merge tag 'smp-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
-
---===============0737807821722496568==--
+--===============3421528200020625892==--
