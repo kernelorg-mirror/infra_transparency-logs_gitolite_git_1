@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 18 Apr 2022 06:29:12 -0000
-Message-Id: <165026335266.8449.7053713871541444573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 18 Apr 2022 07:40:39 -0000
+Message-Id: <165026763905.22293.7392566232428047311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/mhi-next
-    old: 3a8003436e6a3a422fcc88074e1937ee81162d33
-    new: 2ab40dd15f1ce92235cc98efb0daa4a3af04463a
+  - ref: refs/heads/for-kernelci
+    old: bf84b10d9901ded51d33411499079ce64e0c4ae7
+    new: ba273e30d55fd17436ca95f0bdf8422da67acc93
     log: |
-         2ab40dd15f1ce92235cc98efb0daa4a3af04463a bus: mhi: host: Use cached values for calculating the shared write pointer
+         2cd01bd6b117df07b1bc2852f08694fdd29e40ed platform/chrome: cros_ec: fix error handling in cros_ec_register()
+         f47a6113f4e87db7ca066635822e1b3ca3ed9514 platform/chrome: cros_ec: remove unused variable `was_wake_device`
+         9fbe967d4e6e017c85c94aead6a1310b5f77db9a platform/chrome: cros_ec: determine `wake_enabled` in cros_ec_suspend()
+         5781a33098c69a3b08890ad78a297b81bb69ca4b platform/chrome: cros_ec: sort header inclusion alphabetically
+         8d4668064cce8f8d52d4bd2b3b864feed33b1258 platform/chrome: cros_ec: append newline to all logs
+         ba273e30d55fd17436ca95f0bdf8422da67acc93 KERNELCI: x86_64_defconfig: Enable support for Chromebooks devices
          
