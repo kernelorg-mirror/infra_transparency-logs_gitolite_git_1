@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 18 Apr 2022 22:01:29 -0000
-Message-Id: <165031928982.15321.13713367940635007507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 18 Apr 2022 22:03:53 -0000
+Message-Id: <165031943363.16122.724038836039767950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/tmp.perf/urgent
-    old: 78ccde293f7b4c820cf004b9fe73a5e903e61838
-    new: cda66cd57af10c96d009a9a9ec02499d9d3b29f0
+  - ref: refs/heads/for-next/execve
+    old: a767e6fd68d2ca84578649acc072f21b81edfb3a
+    new: 6045ab5fea4c849153ebeb0acb532da5f29d69c4
     log: |
-         cda66cd57af10c96d009a9a9ec02499d9d3b29f0 perf report: Set PERF_SAMPLE_DATA_SRC bit for Arm SPE event
+         6045ab5fea4c849153ebeb0acb532da5f29d69c4 binfmt_flat: do not stop relocating GOT entries prematurely on riscv
          
