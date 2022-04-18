@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3121315675523448397=="
+Content-Type: multipart/mixed; boundary="===============4682270584090236031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 18 Apr 2022 00:31:44 -0000
-Message-Id: <165024190479.3633.8217656712081577385@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 00:33:56 -0000
+Message-Id: <165024203629.4387.1207217821774680742@gitolite.kernel.org>
 
---===============3121315675523448397==
+--===============4682270584090236031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/dm-5.19-v2
-    old: dac4c5268a9d9d3a5da81dd175c0117cf25c7a05
+  - ref: refs/heads/dm-5.19
+    old: 41b566140893726a27db71623913b2ae3af31f31
     new: 5a6a909089df3c1f381474e7af6d2a9ea27d7fe2
-    log: revlist-dac4c5268a9d-5a6a909089df.txt
-  - ref: refs/tags/block-5.18-2022-04-15
-    old: 0000000000000000000000000000000000000000
-    new: d1baf5365b4b9c29a24a0264bbf2c20a5d77777c
-  - ref: refs/tags/io_uring-5.18-2022-04-14
-    old: 0000000000000000000000000000000000000000
-    new: 78d0c67be16307f0ea3143458724c204f9c4fff0
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
+    log: revlist-41b566140893-5a6a909089df.txt
 
---===============3121315675523448397==
+--===============4682270584090236031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dac4c5268a9d-5a6a909089df.txt
+Content-Disposition: attachment; filename=revlist-41b566140893-5a6a909089df.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -430,4 +421,4 @@ f5dc0fca3d86a45c67a665442e924775746baf6c dm: improve bio splitting and associate
 e5a8bf10008b595118aa68775ca337cc76ff6990 dm: simplify bio-based IO accounting further
 5a6a909089df3c1f381474e7af6d2a9ea27d7fe2 dm: improve abnormal bio processing
 
---===============3121315675523448397==--
+--===============4682270584090236031==--
