@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5653165301666750387=="
+Content-Type: multipart/mixed; boundary="===============3575675950022441095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 18 Apr 2022 12:10:50 -0000
-Message-Id: <165028385022.20252.7263894447910307851@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 12:11:32 -0000
+Message-Id: <165028389248.20551.7687789893332650835@gitolite.kernel.org>
 
---===============5653165301666750387==
+--===============3575675950022441095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,78 +17,78 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/linux-4.19.y
-    old: b2f286b639b5992b309a5fef4b6e64eb534594ac
-    new: 0fec1a2d1076af703c77c8f7b28b72ca35f5f43e
-    log: revlist-b2f286b639b5-0fec1a2d1076.txt
+    old: 0fec1a2d1076af703c77c8f7b28b72ca35f5f43e
+    new: 6124afa49867cbf9d4266132d020c7bfd11b768d
+    log: revlist-0fec1a2d1076-6124afa49867.txt
 
---===============5653165301666750387==
+--===============3575675950022441095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650283848 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650283891 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1650283844-a51440de94496e42548cb3998be34107ae9f4b4b
+nonce 1650283888-60a052b16d23eab7d51e230634d39026799398e1
 
-b2f286b639b5992b309a5fef4b6e64eb534594ac 0fec1a2d1076af703c77c8f7b28b72ca35f5f43e refs/heads/linux-4.19.y
+0fec1a2d1076af703c77c8f7b28b72ca35f5f43e 6124afa49867cbf9d4266132d020c7bfd11b768d refs/heads/linux-4.19.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJdVUgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xlcP/35ZWprXejhYFku8K71w
-0JjthVFAhK+uTVOwu+uV8YMdbut3e5vwEvoGbMSVwW0wT5QhjnC6yI1G4CpYGKZo
-7yiTWRPAhl7RsE8H6LtpS2TcjIv/zgYF5JKAV62KW/qdT5gZZKQrrxixfcXYFt3T
-IUHLpI+tw0iatDDsQ/mXhiIE5n798PTrU0ysEY6dOaUyiS+xuINdTnA21rB8IEN9
-ywBAtAYiAraizZWBdhZHZ5yCVMHsyT96K1b/GASKuXv2rGSS+rvCbitaT9ojvwy9
-Ap9ZR8LZTUuRVBq7c4ICh7tTzivVRzFp89xE5Wou6BS2hxTA0hl57BDu/2ISoV+Y
-EMx7g4jwMS7253qkBiOOoTvhlj3N/QUb25sKO2sJDn8vhaG9Ewxnkt9agO3Sv9qi
-EvZjzuc+D/o4UIZEeysycGC/LUbFZbVEnuZwkFCBg9+6BBjwMzoWFNq7NYIPYniA
-KDkS/5IlbQHar7aRU5w4203VP76S4GSN4gzX0KwHDwxi82zWiokX41LAlRZr93Ba
-jXHLs5G7C33dQn0W/iDAhdEP4wP1m5YLSvoAOH8A4QAxyKaZLax0E8Q13SmE4r5X
-f/vH+2xcf1hHG8ryzapQf18h051fKwMQwWhGzQEwfg8H8l1RTqedS4SHu/iIdbRf
-oBJXMjezDug583735lOTrOj+
-=UeC2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJdVXMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NMQP+gJCRBB9hsfqesIHKYaF
+uy47zt2ujBOa7IHncKR9QFUi1pnXUXj4UTThcrDmNr/+8obwFaPLAg75JUlHEKsX
+z1YI8pdkTGmlyFyrqWdjTsw8mbOaH84UOl7Od8cfDKzoNMlOFv+MCjjth/SRJY45
+tfEW/uRe5mdmkSEns7a90zX5kO5lxOQLPoEcGzz2n4WgXRuLroyvqshpHA2nUpdD
+0pDvKXo7ZhJDgohNBNSy5LRgz1blF8k1ja3EsQz325pfe+cmZEJ/M3vYg+5gmQXq
+HClrNcI1YE7Yh4yb0YF3BSj/MUxr/vDlf/Sw5BDAI7IgVXp4MAX0Unws6wrN7lWJ
+ybwZiKqxOyWhDqmwkuYG1Y0+GtmvhPiC7nteQvIIXBAhJ0lEThVphMTFvY9UScEk
+P1MlMv6C8EbD6uuBBACw5+oov3XKxSyecBp6T90KbWYIp/SBp+ZXinmxBCEv7oK6
+tQ3+wjZiatYMTrsNMqSwmKNEPiD1v0cvBExv0aepSLLwOws2zJnCJFaC+E06IqGC
+pZtcHF3x1abJCuyGRfrV7+SiSjX2IidfBQIdvxDe6xLZ6Tmkldpsl7CsWPeYVJM5
+i7c8MVrPKejf8eiZVlPj9duxTuXjHBXJiqiUM2Z05I50XtJ9CUOuVPPtnpTMCpUN
+gQ1KYV6VaqUhyRUFmLwZr0YS
+=zwNt
 -----END PGP SIGNATURE-----
 
---===============5653165301666750387==
+--===============3575675950022441095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2f286b639b5-0fec1a2d1076.txt
+Content-Disposition: attachment; filename=revlist-0fec1a2d1076-6124afa49867.txt
 
-ee2e22ed979037bbed1355fea7e3da76a08c4b40 memory: atmel-ebi: Fix missing of_node_put in atmel_ebi_probe
-4fc11a385e15c6d404c0170a03dedf3ccec89813 net/sched: flower: fix parsing of ethertype following VLAN header
-adaf4d5f6c790e7acc68957d5dd4548981ab1a6c veth: Ensure eth header is in skb's linear part
-aafcc3d5263a582eb51a2e2b34c074dc9df91694 gpiolib: acpi: use correct format characters
-8c4c17bbf65754548295e1ae23b7f70a3e97cc4b mlxsw: i2c: Fix initialization error flow
-13a121fec6ab16da19dc0bc109f00392bf1b97d3 net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link
-82cae9271d8e3e421ebe4962b4cfeff2a3922a9b sctp: Initialize daddr on peeled off socket
-750d18a1f0a8963e1c0ddb23858d84dcc43fe269 testing/selftests/mqueue: Fix mq_perf_tests to free the allocated cpu set
-cfccf564c73426137464f22d9ef355c3e59c0f23 nfc: nci: add flush_workqueue to prevent uaf
-2f2182249b5ea5b2aca398b227cdab3f6946d6f4 cifs: potential buffer overflow in handling symlinks
-1b55ca902963070b28c3a39b741d501cb2758aea drm/amd: Add USBC connector ID
-d572f8eae8c51c8db20566471b117b915b4de4bc drm/amdkfd: Check for potential null return of kmalloc_array()
-2c9da8e713eb8c8ec42c36cd61fb85ad3c029fbb Drivers: hv: vmbus: Prevent load re-ordering when reading ring buffer
-32ee28a8db3316616093c1853e3cb3848b602865 scsi: target: tcmu: Fix possible page UAF
-43e82a9b8472ea86bbb9eff1f0b946b40d35ebdb scsi: ibmvscsis: Increase INITIAL_SRP_LIMIT to 1024
-71ee8e5ea81f16abc5b2ffd08851deefd3348c08 net: micrel: fix KS8851_MLL Kconfig
-d03c0a4d488ed3874e4b91fb9d9f958cb8ad20ce ata: libata-core: Disable READ LOG DMA EXT for Samsung 840 EVOs
-26b25e075e2fc07feff0c38cf25c0af35202a488 gpu: ipu-v3: Fix dev_dbg frequency output
-6ef029e1cc246391b0edab41e00d5360dff5ed91 arm64: alternatives: mark patch_alternative() as `noinstr`
-e9490116fcf9f49767baa51c613c1995220248f6 drm/amd/display: Fix allocate_mst_payload assert on resume
-ff67b6bc9f315f523fe81fc1f23fb646fb47ba3c scsi: mvsas: Add PCI ID of RocketRaid 2640
-417821b87ea01277ac45fc5f40b069705dabaabc drivers: net: slip: fix NPD bug in sl_tx_timeout()
-dfa18a3b22d8630a4a53038b3ec5ee52ca990e77 mm, page_alloc: fix build_zonerefs_node()
-7ab3a81807093646d5a5356ae1bdcac4e43d07c8 mm: kmemleak: take a full lowmem check in kmemleak_*_phys()
-bb30530a755396e59664bb7c65114d56f475b481 KVM: Don't create VM debugfs files outside of the VM directory
-6a0fdf3229a68a3889317615f93368fb1eeac4f9 gcc-plugins: latent_entropy: use /dev/urandom
-d43ac26f9fd56290cfa21447ddd6c9957e6239e6 ALSA: hda/realtek: Add quirk for Clevo PD50PNT
-71bdb0b7171b6075a38e55b177f8e51cc85a71d9 ALSA: pcm: Test for "silence" field in struct "pcm_format_data"
-ef9b939ec9c5088773b8fafb44a2db14dc097f6c ipv6: fix panic when forwarding a pkt with no in6 dev
-2c5619c99328b6224ce43933f00db9cb050580bb ARM: davinci: da850-evm: Avoid NULL pointer dereference
-25a794ce1c5b23ade41e64b8afc3cd407065129b smp: Fix offline cpu check in flush_smp_call_function_queue()
-262e4b9eee06227703ea59b0d3fbbc726ca4e20e i2c: pasemi: Wait for write xfers to finish
-0fec1a2d1076af703c77c8f7b28b72ca35f5f43e Linux 4.19.239-rc1
+e7f1c4260c21924d9a31cf6c65a83d1725aba945 memory: atmel-ebi: Fix missing of_node_put in atmel_ebi_probe
+af9ecb3f371a59035a7e5613ddca8bc70d5c2b77 net/sched: flower: fix parsing of ethertype following VLAN header
+1013eb476840815ff15bce1b5e993cbc40b026a2 veth: Ensure eth header is in skb's linear part
+36ffcee13c8c1bad34caeee297a69cc1d05c816a gpiolib: acpi: use correct format characters
+4c1987692358512db24acf5aba4d087861471eed mlxsw: i2c: Fix initialization error flow
+a44acdf539d71698a329426c0ba82f0c1eed4084 net: ethernet: stmmac: fix altr_tse_pcs function when using a fixed-link
+be6fb13c50e4f732fae29195fdca50089c3ee0c8 sctp: Initialize daddr on peeled off socket
+a69a525b7e51fb3bec501f5ca8fdfe6912881f5f testing/selftests/mqueue: Fix mq_perf_tests to free the allocated cpu set
+67e825904c479be0afae639a8c63c2e0fc0e5e8d nfc: nci: add flush_workqueue to prevent uaf
+bd06ecd1160c5342d250c5aabb1f25d27b2b43ee cifs: potential buffer overflow in handling symlinks
+d0d441b38884fd81b9c8326d180730ebd185e7ba drm/amd: Add USBC connector ID
+1993392a0d8ae82182cbb6820d8e27af5f34c79d drm/amdkfd: Check for potential null return of kmalloc_array()
+98ff7e37b3d884d2be9fa1e5503e166858d819ac Drivers: hv: vmbus: Prevent load re-ordering when reading ring buffer
+168c8ef3aef07ea3da1ab7c80f6e7e1aaabc9275 scsi: target: tcmu: Fix possible page UAF
+faed792382a45c69f556063bfec000d32400a5ae scsi: ibmvscsis: Increase INITIAL_SRP_LIMIT to 1024
+af82bfe73a69ef5aa0f4431ff4820f7010c65387 net: micrel: fix KS8851_MLL Kconfig
+4080a5c3e709f737d598e4a27d2d44e10fb09d93 ata: libata-core: Disable READ LOG DMA EXT for Samsung 840 EVOs
+1b5247db1f1b9fa3648e55dfdc149f351fb93800 gpu: ipu-v3: Fix dev_dbg frequency output
+1215aae60eddf1f71ab2f50acff43514950f1a0e arm64: alternatives: mark patch_alternative() as `noinstr`
+f985f42494aadf587db7661ef5cd23c9a5bac306 drm/amd/display: Fix allocate_mst_payload assert on resume
+ecc60b356ba13402b4c7cdc5e3ef39b3d85ad6d5 scsi: mvsas: Add PCI ID of RocketRaid 2640
+4bd3ec6e8b12cbb66a767fe77126021717c63928 drivers: net: slip: fix NPD bug in sl_tx_timeout()
+3c71731f38b7a27003cf522e706d7b4baf53d5f7 mm, page_alloc: fix build_zonerefs_node()
+2280be76bba5c7b2d173a2069014e2b4c8a62709 mm: kmemleak: take a full lowmem check in kmemleak_*_phys()
+eb85fda74cfb2397d9b2b2b3b550692095456ac4 KVM: Don't create VM debugfs files outside of the VM directory
+11fa43a176b263e477fa89db83e00cd6d5b75be7 gcc-plugins: latent_entropy: use /dev/urandom
+b6b44f18c489e0aad01604340c09a87e331a2b56 ALSA: hda/realtek: Add quirk for Clevo PD50PNT
+363374ac38cc8d3f715a9f2af198ba04fec2dde3 ALSA: pcm: Test for "silence" field in struct "pcm_format_data"
+ddfd173847f7916aefb9982972a38811e3248700 ipv6: fix panic when forwarding a pkt with no in6 dev
+fc3a60c9d3846c44225e71f9e4c15dfa2d7b3bb7 ARM: davinci: da850-evm: Avoid NULL pointer dereference
+79c13deab4197f38e070c42cede56283732f5e40 smp: Fix offline cpu check in flush_smp_call_function_queue()
+19ad4f4a10b0e5fab66a4a7b5c860e91e1e39bc1 i2c: pasemi: Wait for write xfers to finish
+6124afa49867cbf9d4266132d020c7bfd11b768d Linux 4.19.239-rc1
 
---===============5653165301666750387==--
+--===============3575675950022441095==--
