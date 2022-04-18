@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 18 Apr 2022 18:43:55 -0000
-Message-Id: <165030743512.15932.10635113537106221400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Mon, 18 Apr 2022 19:05:04 -0000
+Message-Id: <165030870436.29781.10715622946207527601@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/experimental
-    old: 59f826ca013fd1ac03040fea83477f4dcf837466
-    new: b10ac6654dc967fb61ba597af3a8b607eecad9fa
+  - ref: refs/heads/dev
+    old: 5ce59c315fc805c835fbd319d76ef9c4e66a63b4
+    new: 21b595e4233e6885bdea2819c206a470cc207ea5
     log: |
-         b10ac6654dc967fb61ba597af3a8b607eecad9fa erofs-utils: dump: support listing sub-directories
+         cdbc93534da1bba3f498783473361b2f26dc65d6 rcu/torture: Change order of warning and trace dump
+         21b595e4233e6885bdea2819c206a470cc207ea5 rcu/nocb: Add an option to offload all CPUs on boot
          
