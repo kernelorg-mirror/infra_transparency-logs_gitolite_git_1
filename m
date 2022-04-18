@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Mon, 18 Apr 2022 19:17:18 -0000
-Message-Id: <165030943853.5577.5498124740789649999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 18 Apr 2022 19:19:40 -0000
+Message-Id: <165030958087.6363.6074086253073483522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/heads/jd/entropy-zero
-    old: 0000000000000000000000000000000000000000
-    new: f740d4fd077f720bfd5253979a2b9e953416e361
+  - ref: refs/heads/master
+    old: 5e36a8a899f7e1f696390d4986a0d8a440bcd0ea
+    new: 0a1b13a3c851dc93e083363d88180b3744297b81
+    log: |
+         0a1b13a3c851dc93e083363d88180b3744297b81 rtnl: Add l_rtnl_route_new_static
+         
