@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/pciutils/pciutils
-Date: Mon, 18 Apr 2022 16:58:54 -0000
-Message-Id: <165030113451.12874.16395722201685111393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 18 Apr 2022 17:11:39 -0000
+Message-Id: <165030189930.21118.8508012728330693835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/pciutils/pciutils
-user: mj
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 21c4801a4f26764d1df323afd1f61b6f7b65013d
-    new: d224993d423bcd0e88d8eacc0464bc3a66972e95
+  - ref: refs/heads/rproc-next
+    old: 5e6a0e05270e3a4bb9289a0415d062966c27d192
+    new: 58b7c856519fe946620ee68dd0c37bd3c695484a
     log: |
-         f514df26e4ad34755607b392af8ef2cb81bb296d Filters: Fixed symbol versioning
-         d224993d423bcd0e88d8eacc0464bc3a66972e95 Released as 3.8.0.
+         58b7c856519fe946620ee68dd0c37bd3c695484a remoteproc: imx_rproc: Ignore create mem entry for resource table
          
