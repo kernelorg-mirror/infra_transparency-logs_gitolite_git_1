@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 18 Apr 2022 15:52:09 -0000
-Message-Id: <165029712940.2750.18012487940741106201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 18 Apr 2022 15:52:34 -0000
+Message-Id: <165029715430.2985.9055953697801048374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: snitzer
 changes:
-  - ref: refs/heads/todo
-    old: e659541d82341d73cd7d6e1366ad3228d13d36ab
-    new: 0f4e0b4ef69491279dbdbeedf2ef99770fc44f9f
-    log: |
-         490c8148aa21a3e820bfb058efc26831a4806d94 What's cooking (2022/04 #05)
-         0f4e0b4ef69491279dbdbeedf2ef99770fc44f9f MaintNotes
-         
+  - ref: refs/heads/dm-5.19-v2
+    old: 5a6a909089df3c1f381474e7af6d2a9ea27d7fe2
+    new: 0000000000000000000000000000000000000000
