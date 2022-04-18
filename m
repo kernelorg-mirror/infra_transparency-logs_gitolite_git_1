@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5150544175432340352=="
+Content-Type: multipart/mixed; boundary="===============8895501640461688213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 18 Apr 2022 14:16:56 -0000
-Message-Id: <165029141659.5845.17483838783830770329@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 14:18:07 -0000
+Message-Id: <165029148793.6240.11861237615519915723@gitolite.kernel.org>
 
---===============5150544175432340352==
+--===============8895501640461688213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: ce522ba9ef7e2d9fb22a39eb3371c0c64e2a433e
-    new: b2d229d4ddb17db541098b83524d901257e93845
-    log: revlist-ce522ba9ef7e-b2d229d4ddb1.txt
-  - ref: refs/tags/v5.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89a9eba652fe348461301ef785c3e274bc491879
+  - ref: refs/heads/for-next
+    old: ac8fd16a030c7163b9473da7db111e20794187d5
+    new: 5c2cb383394018ec6f18ebd2b7000c14e4f7ff9e
+    log: revlist-ac8fd16a030c-5c2cb3833940.txt
 
---===============5150544175432340352==
+--===============8895501640461688213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce522ba9ef7e-b2d229d4ddb1.txt
+Content-Disposition: attachment; filename=revlist-ac8fd16a030c-5c2cb3833940.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -405,5 +402,11 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
+29ebe9d2d1b1c5d13f91a2e1c4a7640119aef9e5 NFSD: Clean up nfsd_splice_actor()
+f4c604e76fb4258cc996bf2c115b9db67019fd47 SUNRPC: Clean up svc_deferred_class trace events
+a3c7f205333f10a5898b1d288bdeefcc936d78db SUNRPC: Cache deferral injection
+555879983a4730f46f49afe1f2a8df71dde0f806 SUNRPC: Make cache_req::thread_wait an unsigned long
+90e57abe8cff995b74d4bca7f510a53ea63e009b SUNRPC: Remove dead code in svc_tcp_release_rqst()
+5c2cb383394018ec6f18ebd2b7000c14e4f7ff9e SUNRPC: Remove svc_rqst::rq_xprt_hlen
 
---===============5150544175432340352==--
+--===============8895501640461688213==--
