@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8903156935357666243=="
+Content-Type: multipart/mixed; boundary="===============6343487188841534356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 18 Apr 2022 10:05:02 -0000
-Message-Id: <165027630226.1869.9581055755859906388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 18 Apr 2022 10:05:03 -0000
+Message-Id: <165027630376.2599.15491762474245506963@gitolite.kernel.org>
 
---===============8903156935357666243==
+--===============6343487188841534356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
   - ref: refs/heads/master
-    old: d0d52793ae9c51b1cc866b3262ed85a4451084ea
-    new: 0783bf5a3ea7d0a306828ec068f88c9c1d380f42
-    log: |
-         e76b36af36b9500999511d189c73e9d7faa3bc52 drop gcc plugin patches for 4.9
-         0783bf5a3ea7d0a306828ec068f88c9c1d380f42 4.9-stable patches
-         
+    old: 843f77407eebee07c2a3300df0c4b33f64322e29
+    new: 2a38de067bace34e7315ce6af027fd785c31fe0f
+    log: revlist-843f77407eeb-2a38de067bac.txt
 
---===============8903156935357666243==
+--===============6343487188841534356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-843f77407eeb-2a38de067bac.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1650276301 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1650276297-27b6daa68f060aaabd83151378c2655c739bf1a5
+c246f9b5fd617fe487f8b6f18851703f468501d6 devlink: add support to create line card and expose to user
+fcdc8ce23a309c26a67fc613a741d9b21a248311 devlink: implement line card provisioning
+fc9f50d5b366cd9f35bdee22fe3f8d77833cb1d8 devlink: implement line card active state
+b837585985386e05478cb17868d23a6fa87c4f8d devlink: add port to line card relationship set
+bac62191a3d4dddc4dbfddb4187d4952380c29c7 mlxsw: spectrum: Allow lane to start from non-zero index
+d3ad2d88209ff8c4ec6fbcf21be7f85104767cdd mlxsw: spectrum: Allocate port mapping array of structs instead of pointers
+ebf0c53417319ff568d9b6238a60ba27395385f3 mlxsw: reg: Add Ports Mapping Event Configuration Register
+adc6462376b1a22d486ab5f6e624ba9528a380da mlxsw: Narrow the critical section of devl_lock during ports creation/removal
+b0ec003e9a906431073628e7ecc70a84f0e54074 mlxsw: spectrum: Introduce port mapping change event processing
+505f524dc66093a5db5ef2fea8153d5b449d260d mlxsw: reg: Add Management DownStream Device Query Register
+5290a8ff2e11e11d4f41369ec66c3bf7fc2f4a09 mlxsw: reg: Add Management DownStream Device Control Register
+5bade5aa4afc914dac9086500e0bfabec0d3ffbe mlxsw: reg: Add Management Binary Code Transfer Register
+b217127e5e4ee0ecfce7c5f84cfe082238123bda mlxsw: core_linecards: Add line card objects and implement provisioning
+ee7a70fa671b274aa7e34c66a6e9ab55acadc59a mlxsw: core_linecards: Implement line card activation process
+45bf3b7267e0264ff25f85ea46ba4628d39b69b4 mlxsw: core: Extend driver ops by remove selected ports op
+6445eef0f600b726da19b4d5885ebb25ba47f590 mlxsw: spectrum: Add port to linecard mapping
+e1fad9517f0fddfbe7da5605f50c362242cc7170 selftests: mlxsw: Introduce devlink line card provision/unprovision/activation tests
+2a38de067bace34e7315ce6af027fd785c31fe0f Merge branch 'mlxsw-line-card'
 
-d0d52793ae9c51b1cc866b3262ed85a4451084ea 0783bf5a3ea7d0a306828ec068f88c9c1d380f42 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmJdN80bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u/MP/irZLE95lSXppwAS84oP
-0qgekTaNnX+9AhIHVK31S35YEFED4yp/exaKo3b+usZYxLhBNlsXhF2DOm+XwQHi
-32QCal2jFfxFIW1X95u3OEvo+cddD1C7y3mpuW1CycCDUrDQKtWid4tLu2Vtaq6S
-je4iPSOoxj2eN9Efkgk6IzLclUOLnreLTuzHE8NmtoUlGlp/lWrXQse4827n/aFK
-5Y7HhROrM03chYYlFrbQZQUcn1TJdqybH333t0bBPI73eJj5g9s2IeqDK3x6iv3C
-e4xOGOt9I4No/8Ezes46tozVZCcejl0Gw8VgJDsGdK+xFA1857/RNlyzOjsmZUok
-NKpNzuULIghj+1meheJKPZKpe42/SG6Z8gJsUKMBfqVq7Z3Zqus5j+f5K07V/zWk
-00iE/gtSv3wFigfS9MU9Vjp4Xtbh1PfjZmYovrbU29mMLl1KAd/AGoV/WysE0zb3
-WiEBGmTTv10ii2dV/QL/BFMrvB5t7wYP5PNvsbFaEZSMotunBX+Fuh0MzlQlZ1d2
-hrnE4guMyK+3bHD2KWBLHOBA7LQnP7Q8AXAU6OuTmFgsUA6sBVHttZckeKTpfc3k
-/RWOz7K3l4p2uFsno8/5bsXQ8XH51P4P/xZ7KLRgwuBeq4YIiKZxaqcGVsIirbN9
-0BfIw8UwUSq+kqB4N6RNDg6P
-=Nxck
------END PGP SIGNATURE-----
-
---===============8903156935357666243==--
+--===============6343487188841534356==--
