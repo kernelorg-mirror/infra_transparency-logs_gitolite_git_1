@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0943992089317399399=="
+Content-Type: multipart/mixed; boundary="===============2630910123109454121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 18 Apr 2022 02:07:43 -0000
-Message-Id: <165024766391.5159.13415345101596367051@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 02:08:55 -0000
+Message-Id: <165024773504.5548.9994885794156362438@gitolite.kernel.org>
 
---===============0943992089317399399==
+--===============2630910123109454121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 92b914e29af3e99589f2d2876616c0b534892ed4
-    new: 5a6a909089df3c1f381474e7af6d2a9ea27d7fe2
-    log: revlist-92b914e29af3-5a6a909089df.txt
+  - ref: refs/heads/block-5.19
+    old: 0fd149e73d682ccedd37954c0eac19e4afbc5f77
+    new: b53f3dcd705e52a07bd0311870dbfb6842e88c91
+    log: revlist-0fd149e73d68-b53f3dcd705e.txt
 
---===============0943992089317399399==
+--===============2630910123109454121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92b914e29af3-5a6a909089df.txt
+Content-Disposition: attachment; filename=revlist-0fd149e73d68-b53f3dcd705e.txt
 
 f7eab1ddb9f8bc99206e3efa8d34ca1d2faca209 drm/msm/gpu: Rename runtime suspend/resume functions
 7e4167c9e021afb01fb69abae8642d781c8907b6 drm/msm/gpu: Park scheduler threads for system suspend
@@ -305,8 +305,11 @@ ef27324e2cb7bb24542d6cb2571740eefe6b00dc nfc: nci: add flush_workqueue to preven
 e941976659f1f6834077a1596bf53e6bdb10e90b io_uring: use right issue_flags for splice/tee
 cce64ef01308b677a687d90927fc2b2e0e1cba67 io_uring: fix poll file assign deadlock
 7179c3ce3dbff646c55f7cd664a895f462f049e5 io_uring: fix poll error reporting
+08c1af8f1c13bbf210f1760132f4df24d0ed46d6 dm integrity: fix memory corruption when tag_size is less than digest size
 9e949a3886356fe9112c6f6f34a6e23d1d35407f smp: Fix offline cpu check in flush_smp_call_function_queue()
 64c4a37ac04eeb43c42d272f6e6c8c12bfcf4304 cifs: potential buffer overflow in handling symlinks
+ce40426fdc3c92acdba6b5ca74bc7277ffaa6a3d dm mpath: only use ktime_get_ns() in historical selector
+73d7b06e902dd294e1f61554f7c403d0f705cf92 dm zone: fix NULL pointer dereference in dm_zone_map_bio
 1ef3342a934e235aca72b4bcc0d6854d80a65077 vfio/pci: Fix vf_token mechanism when device-specific VF drivers are used
 b7ba6d8dc3569e49800ef0136799f26f43e237e8 cpu/hotplug: Remove the 'cpu' member of cpuhp_cpu_state
 d73f5d14e0cdd1f39764379250f26163913d7155 perf stat: Fix error check return value of hashmap__new(), must use IS_ERR()
@@ -347,6 +350,7 @@ b3d4650d82c71b9c9a8184de9e8bb656012b289e VFS: filename_create(): fix incorrect i
 62345e482899185a247b126f32a96e4665018f45 Merge tag '5.18-rc2-smb3-fixes' of git://git.samba.org/sfrench/cifs-2.6
 38a5e3fb17e542dd86078eeb43029bf8f146a884 Merge tag 'vfio-v5.18-rc3' of https://github.com/awilliam/linux-vfio
 028192fea1de083f4f12bfb1eb7c4d7beb5c8ecd Merge tag 'drm-fixes-2022-04-15' of git://anongit.freedesktop.org/drm/drm
+7dd06a2548b2bf516ef2e79873a9cdd00b354b99 dm: allow dm_accept_partial_bio() for dm_io without duplicate bios
 701521403cfb228536b3947035c8a6eca40d8e58 io_uring: abort file assignment prior to assigning creds
 b42b6f4485e3f0970e11f73df6202eeaf9f53a3e nvme: don't print verbose errors for internal passthrough requests
 00ff400e6deee00f7b15e200205b2708b63b8cf6 nvme: add a quirk to disable namespace identifiers
@@ -359,6 +363,7 @@ e2dec4884454650a87d31206e7cfbc566665ebe6 Merge tag 'perf-tools-fixes-for-v5.18-2
 bb34e0dba38eaed1160c8c863659318ed2929a93 Merge tag 'linux-kselftest-fixes-5.18-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 0647b9cc7feac30eb6c397ccb746aaa91e21e0de Merge tag 'io_uring-5.18-2022-04-14' of git://git.kernel.dk/linux-block
 fb649bda6f5642f173ee3429a965c769554f23d8 Merge tag 'block-5.18-2022-04-15' of git://git.kernel.dk/linux-block
+92b914e29af3e99589f2d2876616c0b534892ed4 dm: fix bio length of empty flush
 bd8963e602c77adc76dbbbfc3417c3cf14fed76b i2c: pasemi: Wait for write xfers to finish
 39c025721d706eb4fa8a5a7a376c93a3162b71bc i2c: imx: Implement errata ERR007805 or e7805 bus frequency limit
 c60bd968c74749a85c71dfed5fabd3e36d487d54 i2c: qcom-geni: Use dev_err_probe() for GPI DMA error
@@ -399,26 +404,5 @@ a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of g
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
 0df71650c051ab106c921de257f4b38e9e3dd251 block: allow using the per-cpu bio cache from bio_alloc_bioset
 b53f3dcd705e52a07bd0311870dbfb6842e88c91 block: allow use of per-cpu bio alloc cache by block drivers
-98d7c5ad774417116d8aac7db859e1ae9444c768 block: change exported IO accounting interface from gendisk to bdev
-82f16f200acdf7b38c1652cd100ae6fe800cbe68 dm: conditionally enable BIOSET_PERCPU_CACHE for dm_io bioset
-a0122b2144f09d7efc2e2296bf47bc2a718d9957 dm: factor out dm_io_set_error and __dm_io_dec_pending
-6b5cc2b32999a501be477879adb3fa4e836c4d1f dm: simplify dm_io access in dm_split_and_process_bio
-4867e7a3ac322c919ebb465828baaf286f7128fb dm: simplify dm_start_io_acct
-f4d945d7645a9113ad506c9b43084e5518083699 dm: mark various branches unlikely
-3d99950273fe537450ee9cc60db2306120d6312f dm: add local variables to clone_endio and __map_bio
-73ace36f9b87fc3ae69a0490f150f0d67cace065 dm: move hot dm_io members to same cacheline as dm_target_io
-8251f56cc1c022d5c5dc4d7710d340d0e90eb624 dm: introduce dm_{get,put}_live_table_bio called from dm_submit_bio
-27dddec0a3cb2b2fd34cc7529d186adaa91ff499 dm: conditionally enable branching for less used features
-52516fd94c64be2e33ed657489aa26f64be77e53 dm: simplify basic targets
-89b4fba3fc040c1e6d4ee32910f9e390bb0a4181 dm: use bio_sectors in dm_aceept_partial_bio
-0f9fa3857d9abfb2a391616e358fcff3c8eb2426 dm: don't pass bio to __dm_start_io_acct and dm_end_io_acct
-0d073b620fcdc834555feaa0fa5d4993276e2714 dm: pass dm_io instance to dm_io_acct directly
-0528982faeda856fa8d67cd4c65f0b2f68454437 dm: switch to bdev based IO accounting interfaces
-f5dc0fca3d86a45c67a665442e924775746baf6c dm: improve bio splitting and associated IO accounting
-160d7f60453fa1c35d8e8c10a337d4bd5ab8be7b dm: don't grab target io reference in dm_zone_map_bio
-1b8a3cafb74fafe25a5ef37964ce598f1fec2e39 dm: improve dm_io reference counting
-3947e2d5e5eb1d941eb211f73e8a029fd743a4af dm: put all polled dm_io instances into a single list
-e5a8bf10008b595118aa68775ca337cc76ff6990 dm: simplify bio-based IO accounting further
-5a6a909089df3c1f381474e7af6d2a9ea27d7fe2 dm: improve abnormal bio processing
 
---===============0943992089317399399==--
+--===============2630910123109454121==--
