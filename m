@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 18 Apr 2022 14:31:04 -0000
-Message-Id: <165029226409.14553.13962029080243515333@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 14:31:12 -0000
+Message-Id: <165029227281.14681.12430048491857097949@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 051a6331c41b1a12e09c9791e1e815138aa688ed
+  - ref: refs/heads/for-next
+    old: 492fca28fae8e4aa93c1b054423c152d540a36e8
     new: edc5601db66411a8c9c6b08b3aacf7e154a34c6d
     log: |
          af47d8033fc731f19600efd27ba4a7d0fdfcc77c gpiolib: Introduce a helper to get first GPIO controller node
