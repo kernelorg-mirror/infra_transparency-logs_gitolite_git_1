@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 18 Apr 2022 21:10:11 -0000
-Message-Id: <165031621180.14074.16922883883668234708@gitolite.kernel.org>
+Date: Mon, 18 Apr 2022 21:11:51 -0000
+Message-Id: <165031631108.14815.15071934098691180241@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/libs/ell/ell
 user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 8484814b83f8a6a7e2267b6e03b262f1f1fdb0ad
-    new: 90784c747ce43f05c6e241a4dcaffcb4a252841c
+    old: 90784c747ce43f05c6e241a4dcaffcb4a252841c
+    new: 4b3e8e3eeb8ba4a8dbd97831fa6078d98e4f7a29
     log: |
-         90784c747ce43f05c6e241a4dcaffcb4a252841c icmp6: Emit L_ICMP6_CLIENT_EVENT_ROUTER_FOUND for all RAs
+         4b3e8e3eeb8ba4a8dbd97831fa6078d98e4f7a29 netconfig: Exit on errors in netconfig_dhcp_event_handler
          
