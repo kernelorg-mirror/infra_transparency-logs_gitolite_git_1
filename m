@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5998155480652100331=="
+Content-Type: multipart/mixed; boundary="===============3622542450887729158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 19 Apr 2022 19:22:08 -0000
-Message-Id: <165039612845.6450.2372446332864777070@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 19:22:15 -0000
+Message-Id: <165039613566.6571.13368869188103547186@gitolite.kernel.org>
 
---===============5998155480652100331==
+--===============3622542450887729158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 548f8b21ae6053680c61fe7ca79e2380b0b3964e
     new: fe7ff911938eaf31a5481bdd8136c9210dd52a9b
     log: revlist-548f8b21ae60-fe7ff911938e.txt
 
---===============5998155480652100331==
+--===============3622542450887729158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f688d61925f28699872307a66919bd164ba42ce0 of: of_property_read_string return -ENO
 e930244918092d44b60a7b538cf60d737010ceef dt-bindings: soc: qcom: smd-rpm: Fix missing MSM8936 compatible
 fe7ff911938eaf31a5481bdd8136c9210dd52a9b docs: dt: writing-schema: mention yamllint
 
---===============5998155480652100331==--
+--===============3622542450887729158==--
