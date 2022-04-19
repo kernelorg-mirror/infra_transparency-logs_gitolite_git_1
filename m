@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Tue, 19 Apr 2022 15:14:02 -0000
-Message-Id: <165038124289.30769.3338892496664274835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 19 Apr 2022 15:17:26 -0000
+Message-Id: <165038144637.998.5733593988295607103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: 0c6fa560a2f59b59bc49e27ab44b0b01e62e1389
-    new: 63bcbb33c9a19465b22524b74ab39a78888ff652
+  - ref: refs/heads/stm32-next
+    old: 73ab99aad50cd05ed0bc230aea39c733ebb9711d
+    new: 42da167bbd2910e4ac6334174f6dc273e079fb91
     log: |
-         0e604c85fc4f0259c0c97aaf5d1ee659cf870cb4 um: use fallback for random_get_entropy() instead of zero
-         4badd470d0e07a9e3a0f94b4becbb3864be0119d sparc: use fallback for random_get_entropy() instead of zero
-         e12c9865354845dab771ecd388c52a1937feeefa xtensa: use fallback for random_get_entropy() instead of zero
-         63bcbb33c9a19465b22524b74ab39a78888ff652 random: insist on random_get_entropy() existing in order to simplify
+         efaa952f95929554c677d6d236d8641e93aa0bc2 ARM: dts: stm32: fix pinctrl node name warnings (MCU soc)
+         42da167bbd2910e4ac6334174f6dc273e079fb91 ARM: dts: stm32: fix pinctrl node name warnings (MPU soc)
          
