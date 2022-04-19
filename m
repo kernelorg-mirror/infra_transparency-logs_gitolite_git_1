@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3933450490043405374=="
+Content-Type: multipart/mixed; boundary="===============2186592345188303914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 19 Apr 2022 10:23:49 -0000
-Message-Id: <165036382993.30450.11229991811189481357@gitolite.kernel.org>
+Date: Tue, 19 Apr 2022 10:24:01 -0000
+Message-Id: <165036384171.30573.3981683570326842162@gitolite.kernel.org>
 
---===============3933450490043405374==
+--===============2186592345188303914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: bfb1a7c91fb7758273b4a8d735313d9cc388b502
-    new: c153d5b58888ae786af1279201d098c58392339b
-    log: revlist-bfb1a7c91fb7-c153d5b58888.txt
+  - ref: refs/heads/objtool/core
+    old: 87c87ecd00c54ecd677798cb49ef27329e0fab41
+    new: 11f823f3f099da6bfc319fb231402e2f5ba8777c
+    log: revlist-87c87ecd00c5-11f823f3f099.txt
 
---===============3933450490043405374==
+--===============2186592345188303914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfb1a7c91fb7-c153d5b58888.txt
+Content-Disposition: attachment; filename=revlist-87c87ecd00c5-11f823f3f099.txt
 
-60210a3d86dc57ce4a76a366e7841dda746a33f7 riscv module: remove (NOLOAD)
-31818213170caa51d116eb5dc1167b88523b4fe1 netfilter: bitwise: fix reduce comparisons
 1c24a186398f59c80adb9a967486b65c1423a59d fs: fd tables have to be multiples of BITS_PER_LONG
 dc0ce6cc4b133f5f2beb8b47dacae13a7d283c2c lib/test: use after free in register_test_dev_kmod()
 6094e391e643fddd65d4b938c1d499a838dd4907 dt-bindings: net: qcom,ethqos: Document SM8150 SoC compatible
@@ -1048,7 +1046,9 @@ fbb9c58e56f2ee56e77b19fdfac131d57d3341c1 Merge tag 'timers-urgent-2022-04-17' of
 3a69a44278a72e15f12e24f5db4d277a497649aa Merge tag 'x86-urgent-2022-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a1901b464e7e3e28956ae7423db2847dbbfb5be8 Merge tag 'for-linus-5.18-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b2d229d4ddb17db541098b83524d901257e93845 Linux 5.18-rc3
-65688962fb5e70529827af0c0ae5795d1d89efcc objtool: Fix type of reloc::addend
-c153d5b58888ae786af1279201d098c58392339b objtool: Fix relocs vs weak symbols
+be7a3c1df16f938863367d1c070fcbb13e77437d x86/uaccess: Don't jump between functions
+fa15303224a8d39ae45b5469ef28316e42d4a649 objtool: Don't set 'jump_dest' for sibling calls
+65560ea7945cb991eb48b76873eeea05240c66ba objtool: Fix sibling call detection in alternatives
+11f823f3f099da6bfc319fb231402e2f5ba8777c objtool: Fix function fallthrough detection for vmlinux
 
---===============3933450490043405374==--
+--===============2186592345188303914==--
